@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het toevoegen van gebruikers en het toewijzen van licenties aan Microsoft 365 tegelijk.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6745285600b6c5a62b4327d7174b2c249ff5276c
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 95f84ead009b7510699e467bf5f12bf32d8097d8
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307371"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948794"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Gebruikers toevoegen en licenties toewijzen
 
@@ -37,7 +37,7 @@ ms.locfileid: "47307371"
 
 ::: moniker-end
 
-De personen in uw team moeten elk een gebruikersaccount hebben voordat ze zich kunnen aanmelden en toegang hebben tot [Microsoft 365 voor bedrijven](https://go.microsoft.com/fwlink/?LinkID=519395). De eenvoudigste manier om gebruikersaccounts toe te voegen, is om ze één voor één toe te voegen in het Microsoft 365-beheercentrum. Nadat u deze stap hebt uitgevoerd, zijn uw gebruikers Microsoft 365-licenties, aanmeldingsreferenties en Microsoft 365-postvakken.
+De personen in uw team moeten elk een gebruikersaccount hebben voordat ze zich kunnen aanmelden en toegang hebben tot [Microsoft 365 voor bedrijven](https://www.microsoft.com/microsoft-365/business). De eenvoudigste manier om gebruikersaccounts toe te voegen, is om ze één voor één toe te voegen in het Microsoft 365-beheercentrum. Nadat u deze stap hebt uitgevoerd, zijn uw gebruikers Microsoft 365-licenties, aanmeldingsreferenties en Microsoft 365-postvakken.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -54,7 +54,7 @@ U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers t
 
 ::: moniker range="o365-worldwide"
 
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het beheercentrum via <https://admin.microsoft.com>.
 2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
 3. Voer in het deelvenster **basisbeginselen instellen** de basisgebruikers gegevens in en selecteer **volgende**.
     - **Naam** Vul de voor-en achternaam, weergavenaam en gebruikersnaam in.
@@ -70,7 +70,7 @@ U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers t
 
 ::: moniker range="o365-germany"
 
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.
+1. Ga naar het beheercentrum via <https://portal.office.de/adminportal>.
 2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
 3. Vul de volgende gegevens in het deelvenster **Nieuwe gebruikers** in. Selecteer **toevoegen**wanneer u klaar bent.
     - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in.
@@ -84,7 +84,7 @@ U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers t
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
+1. Ga naar het beheercentrum via <https://portal.partner.microsoftonline.cn>.
 2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
 3. Vul de volgende gegevens in het deelvenster **Nieuwe gebruikers** in. Selecteer **toevoegen**wanneer u klaar bent.
     - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in.
@@ -99,7 +99,7 @@ U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers t
 ## <a name="add-multiple-users-at-the-same-time"></a>Meerdere gebruikers tegelijk toevoegen
 
 U kunt de volgende methoden gebruiken om meerdere gebruikers tegelijk toe te voegen:
-  
+
 - **Gebruik een spreadsheet om personen bulksgewijs toe te voegen.** Zie [Meerdere gebruikers tegelijk toevoegen](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time).
 - **Automatiseer het toevoegen van accounts en het toewijzen van licenties.** Zie [gebruikersaccounts maken met Microsoft 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell). Kies deze methode als u al vertrouwd bent met het gebruik van Windows PowerShell-cmdlets.
 - **Gebruikt u ActiveDirectory?** [Adreslijstsynchronisatie voor Microsoft 365 instellen](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization). Gebruik het hulpprogramma Azure AD Connect om Active Directory-gebruikersaccounts (en andere Active Directory-objecten) te repliceren in Microsoft 365. Tijdens de synchronisatie worden alleen de gebruikersaccounts toegevoegd. U moet licenties toewijzen aan de gesynchroniseerde gebruikers voordat ze e-mail en andere Office-apps kunnen gebruiken.

@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: be35663fc32a2d214e1ca0ae91161079a5f672a3
-ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
+ms.openlocfilehash: 686d31c64394094530099edb97bbd10912a58cb8
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651142"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949890"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -115,7 +115,7 @@ Azure AD biedt een volledige suite met mogelijkheden voor identiteitsbeheer. We 
 | [Apparaatregistratie](/azure/active-directory/devices/overview) | U registreert een apparaat in azure AD om een identiteit voor het apparaat te maken. Deze identiteit wordt gebruikt om het apparaat te verifiëren wanneer een gebruiker zich aanmeldt en voorwaardelijke Access-beleidsregels toe te passen waarvoor domein-of compatibele Pc's zijn vereist. Voor deze richtlijnen gebruiken we de registratie van het apparaat voor het automatisch registreren van Windows-computers die lid zijn van het domein. Registratie van apparaten is een vereiste voor het beheren van apparaten met intune. | Microsoft 365 E3 of E5 |
 | [Azure AD Identity Protection](/azure/active-directory/identity-protection/overview) | Hiermee kunt u mogelijke problemen detecteren die van invloed zijn op de identiteiten van uw organisatie en de geautomatiseerde herstel beleidsregels configureren voor slecht, gemiddeld en intensief aanmelden van Risico's en gebruikers risico. Deze richtlijnen zijn van toepassing op het toepassen van regels voor voorwaardelijke toegang voor verificatie met meerdere factoren. Deze richtlijnen bestaan ook uit een beleid voor voorwaardelijke toegang waarvoor gebruikers hun wachtwoord moeten wijzigen als er High Risk-activiteiten worden gedetecteerd voor hun account. | Microsoft 365 E5, Microsoft 365 E3 met de identiteit & invoegtoepassing Threat Protection, EMS E5 of Azure Premium P2 |
 | [Selfservice voor wachtwoordherstel (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks) | Laat uw gebruikers hun wachtwoord veilig opnieuw instellen en zonder dat de beheerder van de helpdesk de mogelijkheid biedt te zijn om meerdere verificatiemethoden voor de beheerder te verifiëren. | Microsoft 365 E3 of E5 |
-| [Azure AD-wachtwoordbeveiliging](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad). Bekende zwakke wachtwoorden en hun varianten detecteren en blokkeren en extra zwakke termen die specifiek zijn voor uw organisatie. Standaardlijsten met globaal geblokkeerde wachtwoorden worden automatisch toegepast op alle gebruikers in een Azure AD-Tenant. U kunt aanvullende vermeldingen definiëren in een aangepaste lijst met geblokkeerde wachtwoorden. Wanneer gebruikers hun wachtwoord wijzigen of opnieuw instellen, zijn de geblokkeerde wachtwoorden lijsten ingeschakeld om het gebruik van sterke wachtwoorden af te dwingen. |  Microsoft 365 E3 of E5 |
+| [Azure AD-wachtwoordbeveiliging](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) | Bekende zwakke wachtwoorden en hun varianten detecteren en blokkeren en extra zwakke termen die specifiek zijn voor uw organisatie. Standaardlijsten met globaal geblokkeerde wachtwoorden worden automatisch toegepast op alle gebruikers in een Azure AD-Tenant. U kunt aanvullende vermeldingen definiëren in een aangepaste lijst met geblokkeerde wachtwoorden. Wanneer gebruikers hun wachtwoord wijzigen of opnieuw instellen, zijn de geblokkeerde wachtwoorden lijsten ingeschakeld om het gebruik van sterke wachtwoorden af te dwingen. |  Microsoft 365 E3 of E5 |
 ||||
 
 ![Onderdelen van toegang tot identiteit en apparaten.](../media/microsoft-365-policies-configurations/identity-device-access-components.png)

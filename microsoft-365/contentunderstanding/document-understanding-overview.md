@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 08/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: U krijgt een overzicht van het document wat u in Project cortex.
-ms.openlocfilehash: bdebc8a8726a7b9a77eb9a1095f83e937cf36cb1
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: c1e4092164ee96d4f244f10be9ebab62a2c8da5b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612712"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950046"
 ---
 # <a name="document-understanding-overview-preview"></a>Overzicht van document (preview)
 > [!Note] 
@@ -36,7 +36,7 @@ U kunt *classificaties* en *extracten* aan uw document toevoegen om te begrijpen
 
 - Classificaties worden gebruikt voor het identificeren en classificeren van documenten die worden geüpload naar de documentbibliotheek. Een classificatie kan bijvoorbeeld ' opgeleid ' worden *om alle documenten* te identificeren die worden geüpload naar de bibliotheek. Het inhoudstype voor het verlengen van het contract wordt door u gedefinieerd wanneer u de classificatie maakt.
 
-- Extracten trekken informatie uit deze documenten. Als u bijvoorbeeld alle documenten in de documentbibliotheek wilt verlengen, worden kolommen weergegeven in uw weergave, waarin de *begindatum* en- *client* van de service ook voor elk document met het verlengen van de service wordt weergegeven. 
+- Extracten trekken informatie uit deze documenten. Als u bijvoorbeeld alle documenten in de documentbibliotheek wilt verlengen, worden kolommen weergegeven in uw weergave, waarin de *begindatum* en-  *client* van de service ook voor elk document met het verlengen van de service wordt weergegeven. 
 
 U gebruikt voorbeeldbestanden om classificaties en extracten in uw model te trainen en testen. Voorbeeldbestanden hier vindt u voorbeelden van de modellen waarnaar u moet kijken wanneer u gegevens uit bestanden probeert te identificeren en uit te pakken. U kunt bijvoorbeeld het verlengen van de classificaties en extracties van een contract trainen met voorbeelden van documenten voor het verlengen van de contracten waarmee uw bedrijf werkt. U kunt ook voorbeeldbestanden gebruiken om de effectiviteit van uw model te testen.
 

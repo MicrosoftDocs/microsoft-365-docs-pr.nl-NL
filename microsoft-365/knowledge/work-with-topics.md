@@ -7,16 +7,16 @@ manager: pamgreen
 ms.date: 08/01/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: e4a9917464e22c6220d26619e7b5ca60f090abb7
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 82a1b1990f464a892b8216caa26e0422b093bf37
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612488"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948052"
 ---
 # <a name="work-with-topics-in-the-topic-center-preview"></a>Werken met onderwerpen in het onderwerp centrum (preview)
 
@@ -70,7 +70,7 @@ Een nieuw onderwerp maken:
     c. Typ in het gedeelte **korte beschrijving** de beschrijving van een of twee zinnen van het onderwerp. Deze tekst wordt gebruikt voor het bijbehorende onderwerpvenster.</br>
     d. Typ in de sectie **personen** de namen van de experts voor het onderwerp.</br>
     e. Selecteer in de sectie **bestanden en pagina's** de optie **toevoegen** en op de volgende pagina kunt u de bijbehorende OneDrive-bestanden of SharePoint Online-pagina's selecteren.</br>
-    f. Selecteer in de sectie **sites** de optie **toevoegen**. Selecteer de sites die zijn gekoppeld aan het onderwerp in het deelvenster **sites** dat wordt weergegeven.</br>
+    f. Selecteer in de sectie **sites** de optie **toevoegen**. Selecteer de sites die zijn gekoppeld aan het onderwerp in het deelvenster  **sites** dat wordt weergegeven.</br>
 
     ![Nieuwe onderwerpenpagina](../media/content-understanding/k-new-topic-page.png) </br>
 3. Als u andere onderdelen aan de pagina wilt toevoegen, zoals tekst, afbeeldingen, webonderdelen, koppelingen, enzovoort, selecteert u het canvas pictogram in het midden van de pagina om deze te zoeken en toe te voegen.

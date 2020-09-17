@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
 description: Dit artikel bevat koppelingen naar informatie over netwerk planning, tests en migratie naar Office 365.
-ms.openlocfilehash: 1e6973f93c65012f4ca007332a47cc6b9e67b3b0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2b08b05b8863fd9351510878f9438264bb2999f5
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689505"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948446"
 ---
 # <a name="network-and-migration-planning-for-office-365"></a>Netwerk-en migratieplanning voor Office 365
 
@@ -51,7 +51,7 @@ Gebruik de volgende stappen om de bandbreedte te ramen:
     
 2. Bepalen welke Office 365-Services en-functies beschikbaar zijn voor gebruik door clients. U zult waarschijnlijk groepen mensen met verschillende services of gebruiks profielen hebben.
     
-3. Meet het netwerk gebruik voor een testgroep clients. Zorg ervoor dat de pilot cliënten representatief zijn voor de verschillende profielen van personen in de organisatie en van de verschillende geografische locaties. U kunt uw resultaten interkijken tegen onze oude rekenmachines voor [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) en [Skype voor bedrijven](https://go.microsoft.com/fwlink/p/?LinkId=321551) [of de casestudy](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) die we hebben uitgevoerd op ons eigen netwerk. 
+3. Meet het netwerk gebruik voor een testgroep clients. Zorg ervoor dat de pilot cliënten representatief zijn voor de verschillende profielen van personen in de organisatie en van de verschillende geografische locaties. U kunt uw resultaten interkijken tegen onze oude rekenmachines voor [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) -en [Microsoft teams](https://docs.microsoft.com/microsoftteams/prepare-network) of [voor de casestudy](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) die we hebben uitgevoerd op ons eigen netwerk. 
     
 4. Gebruik de meetwaarden van de testgroep om de behoeften van de gehele organisatie te extrapoleren, en voer de test opnieuw uit om de schattingen te valideren voordat u wijzigingen aanbrengt in uw netwerk.
     
@@ -96,13 +96,13 @@ Deze onderwerpen bevatten gedetailleerde informatie over de netwerk informatie v
   
 - [Office 365-eindpunten beheren](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
     
-- [Netwerken voor content levering](content-delivery-networks.md)
+- [Netwerken voor contentlevering](content-delivery-networks.md)
     
 - [Externe DNS-records (Domain Name System) voor Office 365](external-domain-name-system-records.md)
     
-- [IPv6-ondersteuning in Office 365-Services](ipv6-support.md)
+- [IPv6-ondersteuning in Office 365-services](ipv6-support.md)
     
-- [Methoden voor netwerkverbindingen in Office 365](https://aka.ms/o365networkingprinciples)
+- [Beginselen voor Office 365-netwerkverbinding](https://aka.ms/o365networkingprinciples)
     
 - [Veelgestelde vragen over Office 365 video-netwerken](office-365-video-networking-faq.md)
     

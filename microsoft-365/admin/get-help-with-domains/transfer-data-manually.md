@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Meer informatie over het handmatig overzetten van gegevens tussen twee Microsoft 365-accounts wanneer u de naam van het abonnement of de bedrijfsnaam wijzigt of meerdere abonnementen combineert.
-ms.openlocfilehash: 91ea4140f0460e1f8cc1243f1b5f203738dcc9ee
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1297e2d55692262be55b166dacc56cb89cc6c8a0
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685508"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948722"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Gegevens handmatig overbrengen tussen twee accounts
 
@@ -106,3 +106,7 @@ Vraag gebruikers om [hun e-mail, contactpersonen, taken en agendagegevens](https
 ### <a name="onedrive-for-business-data"></a>Gegevens van OneDrive voor bedrijven:
 
 Vraag gebruikers [OneDrive voor bedrijven-inhoud op hun computer te](https://support.microsoft.com/office/59b1de2b-519e-4d3a-8f45-51647cf291cd)kopiëren/synchroniseren en voeg deze vervolgens weer toe aan het nieuwe abonnement.
+
+### <a name="onenote"></a>OneNote 
+
+Vraag gebruikers om een [back-up van OneNote te maken](https://support.microsoft.com/office/back-up-notes-f58b34b0-611d-435e-87fa-7942a1767af4?ui=en-us&rs=en-us&ad=us) en [notities van een back-up terug te zetten](https://support.microsoft.com/en-us/office/restore-notes-from-a-backup-5daf9cb0-6769-4998-a5de-f044fdd0d831?ui=en-us&rs=en-us&ad=us) naar de nieuwe abonnementen.

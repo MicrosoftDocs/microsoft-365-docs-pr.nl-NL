@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8c4b136f30da0499b31102683f1a903e71813142
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1512ba01f78d901177254fce86d0154e97e36496
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547218"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950786"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -35,6 +35,10 @@ In het volgende diagram wordt de aanbevolen set beleidsregels getoond. In dit vo
 
 [ ![ Veelgebruikte beleidsregels voor het configureren van de identiteit en Apparaattoegang bieden](../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
  [een grotere versie van deze afbeelding weer](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+
+Hier ziet u een PDF-samenvatting van één pagina met koppelingen naar de afzonderlijke beleidsregels:
+
+[![Afbeelding van miniatuur voor identiteit en beveiliging van identiteit en apparaat voorhand-out van Microsoft 365](../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br/>  [Weergeven als een PDF-bestand](../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)  
 
 In de rest van dit artikel wordt uitgelegd hoe u deze beleidsregels configureert. 
 
@@ -374,7 +378,6 @@ Naleving voor alle apparaten vereisen:
 
 ## <a name="next-step"></a>Volgende stap
 
-![Stap 3: beleid voor gast en externe gebruikers](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)
-
+[![Stap 3: beleid voor gast en externe gebruikers](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)](identity-access-policies-guest-access.md)
 
 [Meer informatie over beleids aanbevelingen voor gast en externe gebruikers](identity-access-policies-guest-access.md)

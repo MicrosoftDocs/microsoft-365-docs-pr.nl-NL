@@ -1,22 +1,22 @@
 ---
 title: 'Uw kennisbeheer netwerk beheren (preview) '
 description: Het instellen van kennisbeheer.
-author: efrene
-ms.author: efrene
-manager: pamgreen
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
 ms.date: 08/01/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: af53f4d563d286ad29138f935fbb69aa10b902ca
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 3ca180dba82e677dbc0d9f112b713df14820ce61
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612618"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950770"
 ---
 # <a name="manage-your-knowledge-management-network-preview"></a>Uw kennisbeheer netwerk beheren (preview)
 
@@ -62,7 +62,7 @@ Selecteer het tabblad detectie van het **onderwerp** als u de keuzes voor de bro
    
     Als u een aantal sites hebt die u wilt uitsluiten (als u **alles selecteert, met uitzondering van geselecteerde sites**) of opnemen (als u **alleen geselecteerde sites**hebt geselecteerd), kunt u ervoor kiezen om een CSV-bestand met de sitenamen en url's te uploaden. Selecteer **sitesjabloon. csv downloaden** als u het CSV-sjabloonbestand wilt gebruiken.
 
-3. Kies **Opslaan**.
+3. Selecteer **Opslaan**.
 
 ##  <a name="change-who-can-see-topics-in-your-organization"></a>Wijzigen wie de onderwerpen in uw organisatie kunnen zien
 
@@ -75,7 +75,7 @@ Selecteer het tabblad detectie van het **onderwerp** als u wilt bijwerken wie in
     c. **Niemand**</br>
 
     ![Wie kan onderwerpen zien?](../media/content-understanding/k-manage-who-can-see-topics.png) </br> 
-3. Kies **Opslaan**.  
+3. Selecteer **Opslaan**.  
  
 > [!Note] 
 > Met deze instelling kunt u een gebruiker in de organisatie selecteren, zodat alleen gebruikers met een licentie voorkennis beheer die aan hen zijn toegewezen, onderwerpen kunnen weergeven.
@@ -96,7 +96,7 @@ Een update maken van de gebruikers die gemachtigd zijn om onderwerpen te maken e
 
     ![Onderwerpen maken en bewerken](../media/content-understanding/k-manage-who-can-create-and-edit.png) </br> 
 
-3. Kies **Opslaan**.</br>
+3. Selecteer **Opslaan**.</br>
 
 Bijwerken met de gebruikers die gemachtigd zijn om onderwerpen te beheren:
 
@@ -107,7 +107,7 @@ Bijwerken met de gebruikers die gemachtigd zijn om onderwerpen te beheren:
 
     ![Onderwerpen beheren](../media/content-understanding/k-manage-who-can-manage-topics.png) </br> 
 
-3. Kies **Opslaan**.</br>
+3. Selecteer **Opslaan**.</br>
 
 
 ##  <a name="update-your-topic-center-name"></a>De naam van uw topic Center bijwerken

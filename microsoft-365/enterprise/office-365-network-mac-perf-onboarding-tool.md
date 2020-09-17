@@ -3,7 +3,7 @@ title: Test voor Microsoft 365-netwerkverbindingen (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/14/2020
+ms.date: 09/15/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Test voor Microsoft 365-netwerkverbindingen (preview)
-ms.openlocfilehash: 92bd850c98261df1808219ee1f28c75da370d443
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 0a5e7831b28488e793488f572fd830d47a0f3f9a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47649992"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948541"
 ---
 # <a name="microsoft-365-network-connectivity-test-preview"></a>Test voor Microsoft 365-netwerkverbindingen (preview)
 
@@ -29,6 +29,8 @@ Het testprogramma voor Microsoft 365-netwerkconnectiviteit bevindt zich op <http
 >Het testprogramma voor Netwerkverbindingen ondersteunt tenants in de Duitse commerciële versie en Duitsland, maar niet GCC, GCC High, DoD of China.
 
 De netwerk inzichten in het Microsoft 365-Beheercentrum op basis van regelmatige productafmetingen voor uw Microsoft 365-Tenant, die elke dag worden geaggregeerd. In vergelijking worden de netwerk inzichten van de test voor netwerkverbindingen van Microsoft 365 lokaal en met één keer via het hulpprogramma uitgevoerd. Tests die in het product kunnen worden uitgevoerd, zijn beperkt en door tests te voeren die voor de gebruiker toegankelijk zijn, kunnen de gegevens worden verzameld met een betere inzichten. Houd er rekening mee dat de netwerk inzichten in het Microsoft 365-Beheercentrum op een specifieke locatie van Office een netwerkprobleem voor gebruik van Microsoft 365. Met behulp van de Microsoft 365 Connectivity test kunt u de hoofdoorzaak van dit probleem achterhalen en de aanbevolen actie voor netwerk prestatieverbetering.
+
+![Testprogramma voor netwerkverbindingen](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
 
 We raden u aan dat ze samen gebruiken waar de status van netwerkkwaliteit kan worden geëvalueerd voor elke Office-locatie in het Microsoft 365-Beheercentrum en dat specifiekere informatie kan worden gevonden na de implementatie van de test op basis van de Microsoft 365-connectiviteitstest.
 
@@ -205,6 +207,28 @@ Wanneer er een SSL-certificaat wordt gevonden dat niet wordt geleverd door Micro
 
 In deze sectie ziet u de resultaten van een ICMP-traceroute naar de front-van de Exchange Online-service, de front-service van de SharePoint Online-service en de front-service van Microsoft teams. Het wordt alleen ter informatie verstrekt en er is geen netwerk inzicht. Er zijn drie traceroutes. Een traceroute naar _Outlook.office365.com_, een traceroute van de SharePoint-front-end voor klanten of voor _Microsoft.SharePoint.com_ als deze niet is opgegeven en een traceroute aan _World.tr.teams.Microsoft.com_.
 
+## <a name="what-happens-at-each-test-step"></a>Wat gebeurt er bij elke test stap
+
+### <a name="office-location-identification"></a>Identificatie van Office-locatie
+
+Wanneer u op de knop test uitvoeren klikt, wordt de pagina Running test weergegeven en wordt de locatie van de Office aangegeven. U kunt uw locatie typen op plaats, provincie en land, of u kunt de locatie van de webbrowser laten detecteren. Als u dit detecteert, vragen we de Latitude en lengte van de webbrowser aan en beperkt u de nauwkeurigheid van 300m door 300m vóór gebruik. We doen dit omdat het niet noodzakelijk is de locatie nauwkeuriger te identificeren dan het gebouw van de netwerkprestaties. 
+
+### <a name="javascript-tests"></a>JavaScript-tests
+
+Nadat de Office-locatie is geïdentificeerd, voert u een TCP-latentie test uit in JavaScript en wij verzoeken u om gegevens van de service over in gebruik en aanbevolen Office 365-service voor voor deur servers. Wanneer deze zijn voltooid, worden deze weergegeven op de kaart en op het tabblad Details, waar ze vóór de volgende stap kunnen worden weergegeven.
+
+### <a name="download-the-advanced-tests-client-application"></a>Download de clienttoepassing Advanced tests
+
+Vervolgens beginnen we met het downloaden van de clienttoepassing Advanced tests. We vertrouwen op de gebruiker om de clienttoepassing te starten en ze moeten ook .NET core hebben geïnstalleerd.
+
+### <a name="start-the-advanced-tests-client-application"></a>De clienttoepassing geavanceerde tests starten
+
+Wanneer de clienttoepassing start, wordt de webpagina bijgewerkt en worden de gegevens die worden weergegeven op de webpagina weergegeven. De update wordt telkens bijgewerkt wanneer er nieuwe gegevens worden ontvangen en u kunt de gegevens bekijken terwijl deze binnenkomen.
+
+### <a name="advanced-tests-completed-and-test-report-upload"></a>Geavanceerde tests voltooid en testrapport uploaden
+
+Nadat de tests zijn voltooid, geven de client en de Advanced tests-client beide het volgende aan en als de gebruiker wordt aangemeld bij het testrapport, wordt deze geüpload naar de Tenant van de klant.
+
 ## <a name="connectivity-reports"></a>Verbindings rapporten
 
 Wanneer u bent aangemeld, kunt u vorige rapporten die u hebt uitgevoerd, bekijken. U kunt ze ook delen of uit de lijst verwijderen.
@@ -224,6 +248,10 @@ Hier vindt u antwoorden op enkele van onze veelgestelde vragen.
 ### <a name="is-this-tool-released-and-supported-by-microsoft"></a>Is dit hulpprogramma vrijgegeven en ondersteund door Microsoft?
 
 Dit is momenteel een preview en we gaan updates regelmatig aanbrengen totdat we de algemene beschikbaarheid van de beschikbaarheid met ondersteuning van Microsoft bereiken. Geef feedback om ons te helpen verbeteren. Er is een overzicht van de introductiehandleiding voor Office 365 voor het netwerk als onderdeel van dit hulpprogramma dat voor de organisatie is aangepast door de testresultaten.
+
+### <a name="what-is-required-to-run-the-advanced-test-client"></a>Wat is er nodig om de geavanceerde test client uit te voeren?
+
+Voor de geavanceerde proefversie is .NET Core 3,1-bureaublad runtime vereist. Als u de geavanceerde test client uitvoert zonder dat u de versie hebt geïnstalleerd, wordt u doorgestuurd naar [de installatiepagina van de .net Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Zorg ervoor dat u de versie van het bureaublad installeert en niet de SDK, of de kern-runtime van ASP.NET, die hoger is op de pagina. Beheerdersmachtigingen voor de computer reuqired de .NET core te installeren. 
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>Wat is de front cover van de Microsoft 365-service?
 

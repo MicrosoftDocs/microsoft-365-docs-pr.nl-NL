@@ -13,12 +13,12 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010 is bijna op de ondersteuning beëindigd. Gebruik dit Planningsoverzicht als handleiding voor het voorbereiden van een upgrade naar Exchange Online of een nieuwere versie van Exchange Server on-premises.
-ms.openlocfilehash: a22d94cf554db87e6281946eebbcbf637b4a0c1a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 128abd1e98c3e9d1ec4dd8a58683ee0ab019af18
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689491"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950818"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Einde van ondersteunings schema van Exchange 2010
 
@@ -28,11 +28,10 @@ Op **13 oktober 2020**zal Exchange Server 2010 de ondersteuning voor het einde v
 
 ## <a name="what-does-end-of-support-mean"></a>Wat betekent einde van ondersteuning?
 
-De Exchange-Server, zoals bijna alle Microsoft-producten, heeft een ondersteuningscyclus waarbij nieuwe functies, foutoplossingen, beveiligingsfixes en dergelijke worden geboden. Deze levenscyclus duurt doorgaans tien jaar vanaf de datum van de eerste release van het product, en het einde van de levenscyclus bekend is als het einde van de ondersteuning van de producten.
-Wanneer Exchange 2010 na 13 oktober 2020 een einde van de ondersteuning bereikt, biedt Microsoft niet langer:
+De Exchange-Server, zoals bijna alle Microsoft-producten, heeft een ondersteuningscyclus waarbij nieuwe functies, foutoplossingen, beveiligingsfixes en dergelijke worden geboden. Deze levenscyclus duurt doorgaans tien jaar vanaf de datum van de eerste release van het product, en het einde van de levenscyclus bekend is als het einde van de ondersteuning van de producten. Wanneer Exchange 2010 na 13 oktober 2020 een einde van de ondersteuning bereikt, biedt Microsoft niet langer:
 
-- Technische ondersteuning voor problemen die kunnen optreden;
-- Oplossingen voor ontdekte problemen die gevolgen kunnen hebben voor de stabiliteit en bruikbaarheid van de server;
+- Technische ondersteuning voor problemen die kunnen optreden.
+- Oplossingen voor ontdekte problemen die gevolgen kunnen hebben voor de stabiliteit en bruikbaarheid van de server.
 - Beveiligingscorrecties voor ontdekte beveiligingsproblemen die de server kwetsbaar kunnen maken voor beveiligingsproblemen.
 - Tijdzone-updates.
 
@@ -66,29 +65,29 @@ In de volgende secties wordt elke optie uitvoerig besproken.
 
 Het migreren van e-mail naar Microsoft 365 is de beste en eenvoudigste optie om u te helpen bij het buiten gebruik stellen van uw implementatie van Exchange 2010. Met een migratie naar Microsoft 365 kunt u één hop maken van de oude technologie naar de functies van de geavanceerde functies, zoals:
 
-- Nalevings mogelijkheden zoals bewaarbeleid, in-place bewaring en bewaring in-place eDiscovery en meer;
-- Microsoft teams;
-- Power BI;
-- Postvak in met prioriteit;
+- Nalevings mogelijkheden zoals bewaarbeleid, in-place bewaring en het bewaren van in-place eDiscovery en meer.
+- Microsoft Teams
+- Power BI
+- Postvak in met prioriteit
 - MyAnalytics
 
 Microsoft 365 krijgt ook nieuwe functies en ervaring, en u en uw gebruikers kunnen ze direct gebruiken. Naast de nieuwe functies hoeft u zich geen zorgen te maken over het volgende:
 
-- Kopen en onderhouden van hardware;
-- Betaalt voor verwarming en koeling van uw servers;
-- Up-to-date houden van oplossingen voor veiligheid, producten en tijdzone.
-- Opslag en softwareonderhoud ter ondersteuning van nalevingsvereisten;
+- Kopen en onderhouden van hardware.
+- Betaalt voor verwarming en koeling van uw servers.
+- Up-to-date houden van oplossingen voor beveiliging, producten en tijdzone
+- Opslag en software onderhouden ter ondersteuning van nalevingsvereisten
 - Upgraden naar een nieuwe versie van Exchange-u bevindt zich altijd in de nieuwste versie van Exchange in Microsoft 365.
 
 ### <a name="how-should-i-migrate-to-microsoft-365"></a>Hoe moet ik migreren naar Microsoft 365?
 
 Afhankelijk van uw organisatie hebt u een paar opties voor de ondersteuning van Microsoft 365. Als u een migratieoptie kiest, moet u een paar dingen doen, zoals het aantal seats of postvakken dat u wilt verplaatsen, hoe lang u de migratie wilt uitvoeren en of u een naadloze integratie nodig hebt tussen uw on-premises installatie en Microsoft 365 tijdens de migratie. In deze tabel worden de migratie opties en de belangrijkste factoren weergegeven om te bepalen welke methode u wilt gebruiken.
 
-| **Migratieoptie**     | **Organisatie formaat** | **Peri**        |
-|--------------------------|-----------------------|---------------------|
-| Cutover-migratie        | Minder dan 150 stoelen  | Een week of minder      |
-| Minimale Hybrid Migration | Minder dan 150 stoelen  | Een paar weken of minder |
-| Volledig hybride migratie    | Meer dan 150 stoelen   | Een paar weken of meer |
+|Migratieoptie|Organisatie formaat|Peri|
+|---|---|---|
+|Cutover-migratie|Minder dan 150 stoelen|Een week of minder|
+|Minimale Hybrid Migration|Minder dan 150 stoelen|Een paar weken of minder|
+|Volledig hybride migratie|Meer dan 150 stoelen|Een paar weken of meer|
 
 De volgende secties bieden een overzicht van deze methoden. Kijk [op een sharepad](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27) om de details van elke methode te leren kennen.
 
@@ -101,52 +100,52 @@ De cutover-migratiemethode is ideaal voor kleine organisaties die niet met een g
 Als u overweegt om een cutover-migratie uit te voeren, zijn dit een paar dingen waar u aan moet denken:
 
 - Microsoft 365 moet verbinding maken met uw Exchange 2010-servers via Outlook Anywhere en TCP-poort 443.
-- Alle on-premises postvakken worden verplaatst naar Microsoft 365;
+- Alle on-premises postvakken worden verplaatst naar Microsoft 365.
 - U hebt een on-premises Administrator-account nodig met toegangsrechten voor het lezen van de inhoud van de postvakken van uw gebruikers.
 - De geaccepteerde domeinen van Exchange 2010 die u wilt gebruiken in Microsoft 365 moeten als geverifieerde domeinen worden toegevoegd aan de service.
-- Tussen het moment dat u de migratie begint en wanneer u de voltooiings fase begint, worden in Microsoft 365 regelmatig de postvakken van Microsoft 365 en on-premises gesynchroniseerd. Hiermee kunt u de migratie voltooien zonder dat u zich zorgen hoeft te maken over e-mail achter uw on-premises postvakken.
+- Tussen het moment dat u de migratie begint en wanneer u de voltooiings fase begint, worden in Microsoft 365 regelmatig de postvakken van Microsoft 365 en on-premises gesynchroniseerd. Hiermee kunt u de migratie voltooien, zonder dat u zich zorgen hoeft te maken over e-mail achter uw on-premises postvakken.
 - Gebruikers krijgen nieuwe tijdelijke wachtwoorden voor hun Microsoft 365-account, die ze bij de eerste aanmelding bij hun postvak moeten wijzigen.
 - Voor elk gebruikerspostvak dat u migreert, moet u een licentie voor Microsoft 365 met Exchange Online hebben.
-- Gebruikers moeten een nieuw Outlook-profiel op elk van hun apparaten instellen en hun e-mail opnieuw downloaden. De hoeveelheid e-mail die in Outlook wordt gedownload, kan variëren. Voor meer informatie raadpleegt u de [hoeveelheid e-mail die u offline wilt houden, wijzigen](https://support.office.com/article/Change-how-much-mail-to-keep-offline-f3a1251c-6dd5-4208-aef9-7c8c9522d633?ui=en-US&rs=en-US&ad=US&fromAR=1).
+- Gebruikers moeten een nieuw Outlook-profiel op elk van hun apparaten instellen en hun e-mail opnieuw downloaden. De hoeveelheid e-mail die in Outlook wordt gedownload, kan variëren. Zie [offline werken in Outlook](https://support.microsoft.com/office/f3a1251c-6dd5-4208-aef9-7c8c9522d633)voor meer informatie.
 
 Ga voor meer informatie over cutover-migratie naar het volgende:
 
-- [Wat u moet weten over een cutover-e-mail migratie naar Office 365](https://support.office.com/article/What-you-need-to-know-about-a-cutover-email-migration-to-Office-365-961978ef-f434-472d-a811-1801733869da)
-- [Een cutover-migratie van e-mail naar Office 365 uitvoeren](https://support.office.com/article/Perform-a-cutover-migration-of-email-to-Office-365-9496e93c-1e59-41a8-9bb3-6e8df0cd81b4)
+- [Wat u moet weten over een cutover-e-mail migratie](https://docs.microsoft.com/Exchange/mailbox-migration/what-to-know-about-a-cutover-migration)
+- [Een cutover-migratie van e-mail naar Office 365 uitvoeren](https://docs.microsoft.com/Exchange/mailbox-migration/cutover-migration-to-office-365)
 
 ### <a name="minimal-hybrid-migration"></a>Minimale Hybrid Migration
 
 Een minimale hybride, of snelle, migratie is een abonnement met een klein aantal honderden postvakken die u wilt migreren naar Microsoft 365, kan de migratie binnen enkele weken voltooien en geen van de geavanceerde functies voor hybride migratie zoals gedeelde beschikbaarheidsinfo-agendagegevens nodig.
 
-De minimale hybride migratie is ideaal voor organisaties die meer tijd nodig hebben om hun postvakken te migreren naar Microsoft 365, maar wel de voltooiing van de migratie binnen enkele weken. U profiteert van de voordelen van de meer geavanceerde volledige hybride migratie zonder veel van de ingewikkelde aspecten. U kunt bepalen hoeveel en welke postvakken op een bepaald moment worden gemigreerd. Microsoft 365-postvakken worden gemaakt met de gebruikersnaam en wachtwoorden van hun on-premises accounts. en tegen, in tegenstelling tot een cutover-migratie, hoeven uw gebruikers geen Outlook-profielen opnieuw te maken.
+De minimale hybride migratie is ideaal voor organisaties die meer tijd nodig hebben om hun postvakken te migreren naar Microsoft 365, maar wel de voltooiing van de migratie binnen enkele weken. U profiteert van de voordelen van de meer geavanceerde volledige hybride migratie zonder veel van de ingewikkelde aspecten. U kunt bepalen hoeveel en welke postvakken op een bepaald moment worden gemigreerd. Microsoft 365-postvakken worden gemaakt met de gebruikersnaam en wachtwoorden van hun on-premises accounts. En tegen, in tegenstelling tot een cutover-migratie, hoeven uw gebruikers geen Outlook-profielen opnieuw te maken.
 
 Als u overweegt om een minimale hybride migratie uit te voeren, zijn dit een paar dingen waar u aan moet denken:
 
-- U moet een eenmalige synchronisatie uitvoeren tussen uw on-premises Active Directory-servers en Microsoft 365;
-- Gebruikers kunnen zich aanmelden bij hun Microsoft 365-postvak met dezelfde gebruikersnaam en hetzelfde wachtwoord als ze werden gebruikt toen hun postvak werd gemigreerd.
+- U moet een eenmalige synchronisatie uitvoeren tussen uw on-premises Active Directory-servers en Microsoft 365.
+- Gebruikers kunnen zich aanmelden bij hun Microsoft 365-postvak met dezelfde gebruikersnaam en hetzelfde wachtwoord als ze gebruiken toen hun postvak werd gemigreerd.
 - Voor elk gebruikerspostvak dat u migreert, moet u een licentie voor Microsoft 365 met Exchange Online hebben.
 - Gebruikers hoeven geen nieuw Outlook-profiel in te stellen op de meeste apparaten (sommige oudere Android-telefoons hebben mogelijk een nieuw profiel nodig) en hoeven hun e-mail niet opnieuw te downloaden.
 
-Als u meer wilt weten over een minimale hybride migratie, raadpleegt u [minimale Hybrid gebruiken om snel Exchange-postvakken te migreren naar Office 365](https://support.office.com/article/Use-Minimal-Hybrid-to-quickly-migrate-Exchange-mailboxes-to-Office-365-fdecceed-0702-4af3-85be-f2a0013937ef)
+Als u meer wilt weten over een minimale hybride migratie, raadpleegt u [minimale Hybrid gebruiken om snel Exchange-postvakken te migreren naar Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate).
 
 ### <a name="full-hybrid"></a>Volledige hybride
 
 Een volledige hybride migratie is een functie waarbij uw organisatie veel honderden, maximaal tienduizenden duizenden, van postvakken, en u enkele of alle andere items naar Microsoft 365 wilt verplaatsen. Omdat deze migraties doorgaans langer lang zijn, kunt u het volgende doen met hybride migraties:
 
-- On-premises gebruikers van de beschikbaarheidsinfo weergeven voor gebruikers in Microsoft 365 en omgekeerd;
-- Een geïntegreerde algemene adreslijst weergeven die geadresseerden bevat in zowel on-premises als Microsoft 365;
-- Alle eigenschappen van de geadresseerde van Outlook weergeven voor alle gebruikers, ongeacht of ze on-premises of in Microsoft 365 zijn.
-- Veilige e-mail communicatie tussen on-premises Exchange-servers en Office 365 met behulp van TLS en certificaten;
+- On-premises gebruikers van de beschikbaarheidsinfo weergeven voor gebruikers in Microsoft 365 en omgekeerd.
+- Een geïntegreerde algemene adreslijst weergeven met geadresseerden in zowel on-premises als in Microsoft 365.
+- Alle eigenschappen van de geadresseerde van Outlook weergeven voor alle gebruikers, ongeacht of ze on-premises of in Microsoft 365.
+- Beveilig e-mail communicatie tussen on-premises Exchange-servers en Office 365 met behulp van TLS en certificaten.
 - Berichten behandelen die zijn verzonden tussen on-premises Exchange-servers en Microsoft 365 als intern, zodat ze het volgende kunnen doen:
-- U wordt op de juiste wijze geëvalueerd en verwerkt door agents en compliance-medewerkers die interne berichten richten.
-- Negeer antispam filters.
+  - U wordt op de juiste wijze geëvalueerd en verwerkt door agents en compliance-medewerkers die interne berichten richten.
+  - Negeer antispam filters.
 
 Volledige hybride migraties zijn geschikt voor organisaties die verwachten dat ze gedurende een of meer maanden een hybride configuratie blijven. U krijgt de functies die eerder in deze sectie worden vermeld, plus adreslijstsynchronisatie, betere geïntegreerde functies voor naleving en de mogelijkheid om postvakken te verplaatsen naar en naar Microsoft 365 via Online postvak wordt verplaatst. Microsoft 365 wordt een uitbreiding van uw on-premises organisatie.
 
 Als u overweegt om een volledig hybride migratie uit te voeren, zijn dit een paar dingen waar u aan moet denken:
 
-- Volledige hybride migraties zijn niet geschikt voor alle organisatietypen. Als gevolg van de complexiteit van de hybride migraties zijn organisaties met minder dan een paar honderd postvakken meestal voordelen die de inspanning en de kosten voor het eerst instellen. Als dit de klinkt van dit klinkt, raden we u aan om Cutover of minimale hybride migraties uit te voeren.
-- U moet adreslijstsynchronisatie instellen met Azure Active Directory (Azure AD) verbinding maken tussen uw on-premises Active Directory-servers en Microsoft 365;
+- Volledige hybride migraties zijn niet geschikt voor alle organisatietypen. Als gevolg van de complexiteit van de hybride migraties zijn organisaties met minder dan een paar honderd postvakken meestal voordelen die de inspanning en de kosten voor het eerst instellen. Als dit klinkt zoals uw organisatie, kunt u het beste in plaats hiervan Cutover of minimale hybride migraties overwegen.
+- U moet adreslijstsynchronisatie instellen met Azure Active Directory (Azure AD) verbinding maken tussen uw on-premises Active Directory-servers en Microsoft 365.
 - Gebruikers kunnen zich aanmelden bij hun Microsoft 365-postvak met dezelfde gebruikersnaam en hetzelfde wachtwoord als ze worden gebruikt wanneer ze zich aanmelden bij het lokale netwerk (vereist Azure AD Connect met Wachtwoordsynchronisatie en/of Active Directory Federation Services).
 - Voor elk gebruikerspostvak dat u migreert, moet u een licentie voor Microsoft 365 met Exchange Online hebben.
 - Gebruikers hoeven geen nieuw Outlook-profiel in te stellen op de meeste apparaten (sommige oudere Android-telefoons hebben mogelijk een nieuw profiel nodig) en hoeven hun e-mail niet opnieuw te downloaden.
@@ -157,10 +156,10 @@ Als u overweegt om een volledig hybride migratie uit te voeren, zijn dit een paa
 Als u de volledige hybride migratie voor u geschikt vindt, raadpleegt u de volgende bronnen om u te helpen bij de migratie:
 
 - [Exchange Deployment Assistant](https://aka.ms/exdeploy)
-- [Hybride implementaties van Exchange Server](https://technet.microsoft.com/library/jj200581%28v=exchg.150%29.aspx)
-- [Wizard hybride configuratie](https://technet.microsoft.com/library/hh529921%28v=exchg.150%29.aspx)
-- [Veelgestelde vragen over de wizard hybride configuratie](https://technet.microsoft.com/library/mt488940%28v=exchg.150%29.aspx)
-- [Vereisten voor hybride implementatie](https://technet.microsoft.com/library/hh534377%28v=exchg.150%29.aspx)
+- [Hybride implementaties van Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid)
+- [Wizard hybride configuratie](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
+- [Veelgestelde vragen over de wizard hybride configuratie](https://docs.microsoft.com/exchange/hybrid-configuration-wizard-faqs)
+- [Vereisten voor hybride implementatie](https://docs.microsoft.com/exchange/hybrid-deployment-prerequisites)
 
 ## <a name="upgrade-to-a-newer-version-of-exchange-server-on-premises"></a>Een upgrade uitvoeren naar een nieuwere versie van Exchange Server on-premises
 
@@ -170,60 +169,60 @@ Voor de beste ervaring raden we u aan de resterende lokale on-premises omgeving 
 
 Exchange 2016 omvat alle functies en beschikbare functies die zijn opgenomen in vorige releases van Exchange, en is het meest geschikt voor de beschikbare ervaring met Microsoft 365 (hoewel sommige functies alleen beschikbaar zijn in Microsoft 365). Bekijk slechts een paar van de dingen die u missen:
 
-| **Exchange-versie**                     | **Functies**                                                                                                                                                                                                                                         |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Exchange 2013                            | Vereenvoudigde architectuur voor het verminderen van het aantal serverrollen tot drie (Postvak, client toegang en Edge-transport)                                                                                                                                        |
-|                                          | Beleidsregels voor preventie van gegevensverlies (DLP) om te voorkomen dat gevoelige informatie wordt lekt                                                                                                                                                                |
-|                                          | Aanzienlijk verbeterde Outlook Web app-ervaring                                                                                                                                                                                                    |
-| Exchange 2016                            | *Functies van Exchange 2013 en...*                                                                                                                                                                                                                   |
-|                                          | Uitgebreide serverfuncties uitsluitend voor postvak en Edge-transport                                                                                                                                                                                   |
-|                                          | Verbeterde DLP, naast integratie met SharePoint                                                                                                                                                                                                  |
-|                                          | Verbeterde database tolerantie                                                                                                                                                                                                                         |
-|                                          | Online samenwerken aan documenten                                                                                                                                                                                                                        |
+|Exchange-versie|Functies|
+|---|---|
+|**Exchange 2013**|Vereenvoudigde architectuur voor het verminderen van het aantal serverrollen tot drie (Postvak, client toegang en Edge-transport)|
+||Beleidsregels voor preventie van gegevensverlies (DLP) om te voorkomen dat gevoelige informatie wordt lekt|
+||Aanzienlijk verbeterde Outlook Web app-ervaring|
+|**Exchange 2016**|*Functies van Exchange 2013 en...*|
+||Uitgebreide serverfuncties uitsluitend voor postvak en Edge-transport|
+||Verbeterde DLP, naast integratie met SharePoint|
+||Verbeterde database tolerantie|
+||Online samenwerken aan documenten|
 
-| **Aanmerking**                        | **Meer informatie**                                                                                                                                                                                                                                        |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Einde van ondersteunings datums                     | Net als Exchange 2010, heeft elke versie van Exchange een eigen einde van de ondersteunings datum:                                                                                                                                                                        |
-|                                          | **Exchange 2013** -april 2023                                                                                                                                                                                                                       |
-|                                          | **Exchange 2016** -oktober 2025                                                                                                                                                                                                                     |
-|                                          | Hoe eerder het einde van de ondersteunings datum is, hoe sneller u een andere migratie moet uitvoeren. April 2023 is een heleboel dichter dan u ervan vindt!                                                                                                                 |
-| Configuratiepad voor Exchange 2013 of 2016  | Het metabasepad van Exchange 2010 naar een nieuwere versie is hetzelfde, ongeacht of u Exchange 2013 of Exchange 2016 kiest:                                                                                                                              |
-|                                          | Installeer Exchange 2013 of 2016 in uw bestaande Exchange 2010-verplaatsings Services en andere infrastructuur naar Exchange 2013 of 2016 Verplaats postvakken en openbare mappen naar Exchange 2013 of 2016 decommissiond Exchange 2010-servers  |
-| Versies naast elkaar                      | Wanneer u migreert naar Exchange 2013 of Exchange 2016, kunt u de versie installeren in een bestaande Exchange 2010-organisatie. Hiermee kunt u een of meer Exchange 2013-of Exchange 2016-servers installeren en uw migratie uitvoeren.             |
-| Serverhardware                          | De hardwarevereisten voor de server zijn gewijzigd in Exchange 2010. U moet ervoor zorgen dat de hardware die u gaat gebruiken compatibel is. U vindt hier meer informatie over de hardwarevereisten voor elke versie:                                      |
-|                                          | [Systeemvereisten voor Exchange 2016](https://technet.microsoft.com/library/aa996719%28v=exchg.160%29.aspx)                                                                                                                                      |
-|                                          | [Systeemvereisten voor Exchange 2013](https://technet.microsoft.com/library/aa996719%28v=exchg.150%29.aspx)                                                                                                                                      |
-|                                          | U zult merken dat de belangrijkste verbeteringen in de prestaties van Exchange, en de betere computerkracht en-opslagcapaciteit in nieuwere servers, u waarschijnlijk minder servers nodig heeft om hetzelfde aantal postvakken te ondersteunen.                       |
-| Versie van besturingssysteem                 | De minimaal ondersteunde besturingssysteemversies voor elke versie zijn:                                                                                                                                                                                |
-|                                          | **Exchange 2016** Windows Server 2012                                                                                                                                                                                                                |
-|                                          | **Exchange 2013** Windows Server 2008 R2 SP1                                                                                                                                                                                                         |
-|                                          | U vindt meer informatie over de ondersteuning van besturingssystemen op de [Exchange-ondersteunings matrix](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).                                                                        |
-| Functioneel niveau van Active Directory-forest | De minimaal ondersteunde functies voor Active Directory-forests voor elke versie zijn:                                                                                                                                                                |
-|                                          | **Exchange 2016** Windows Server 2008 R2 SP1                                                                                                                                                                                                         |
-|                                          | **Exchange 2013** Windows Server 2003                                                                                                                                                                                                                |
-|                                          | U vindt meer informatie over de ondersteuning van het functionele niveau voor forests via de [Exchange-ondersteunings matrix](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).                                                                 |
-| Versies van Office-clients                   | De minimaal ondersteunde versies van Office-clients voor elke versie zijn:                                                                                                                                                                                   |
-|                                          | **Exchange 2016** Office 2010 (met de nieuwste updates)                                                                                                                                                                                              |
-|                                          | **Exchange 2013** Office 2007 SP3                                                                                                                                                                                                                    |
-|                                          | U vindt meer informatie over de ondersteuning van Office-clients op de site van [Exchange supportity](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).                                                                           |
+|Aanmerking|Meer informatie|
+|---|---|
+|Einde van ondersteunings datums|Net als Exchange 2010, heeft elke versie van Exchange een eigen einde van de ondersteunings datum:|
+||**Exchange 2013** -april 2023|
+||**Exchange 2016** -oktober 2025|
+||Hoe eerder het einde van de ondersteunings datum is, hoe sneller u een andere migratie moet uitvoeren. April 2023 is een heleboel dichter dan u ervan vindt!|
+|Configuratiepad voor Exchange 2013 of 2016|Het metabasepad van Exchange 2010 naar een nieuwere versie is hetzelfde, ongeacht of u Exchange 2013 of Exchange 2016 kiest:|
+||Installeer Exchange 2013 of 2016 in uw bestaande Exchange 2010-verplaatsings Services en andere infrastructuur naar Exchange 2013 of 2016 Verplaats postvakken en openbare mappen naar Exchange 2013 of 2016 decommissiond Exchange 2010-servers|
+|Versies naast elkaar|Wanneer u migreert naar Exchange 2013 of Exchange 2016, kunt u de versie installeren in een bestaande Exchange 2010-organisatie. Hiermee kunt u een of meer Exchange 2013-of Exchange 2016-servers installeren en uw migratie uitvoeren.|
+|Serverhardware|De hardwarevereisten voor de server zijn gewijzigd in Exchange 2010. U moet ervoor zorgen dat de hardware die u gaat gebruiken compatibel is. U vindt hier meer informatie over de hardwarevereisten voor elke versie:|
+||[Systeemvereisten voor Exchange 2016](https://docs.microsoft.com/Exchange/plan-and-deploy/system-requirements?view=exchserver-2016)|
+||[Systeemvereisten voor Exchange 2013](https://docs.microsoft.com/Exchange/exchange-2013-system-requirements-exchange-2013-help)|
+||U zult merken dat de belangrijkste verbeteringen in de prestaties van Exchange, en de betere computerkracht en-opslagcapaciteit in nieuwere servers, u waarschijnlijk minder servers nodig heeft om hetzelfde aantal postvakken te ondersteunen.|
+|Versie van besturingssysteem|De minimaal ondersteunde besturingssysteemversies voor elke versie zijn:|
+||**Exchange 2016** Windows Server 2012|
+||**Exchange 2013** Windows Server 2008 R2 SP1|
+||U vindt meer informatie over de ondersteuning van besturingssystemen op de [Exchange-ondersteunings matrix](https://docs.microsoft.com/exchange/plan-and-deploy/supportability-matrix).|
+|Functioneel niveau van Active Directory-forest|De minimaal ondersteunde functies voor Active Directory-forests voor elke versie zijn:|
+||**Exchange 2016** Windows Server 2008 R2 SP1|
+||**Exchange 2013** Windows Server 2003|
+||U vindt meer informatie over de ondersteuning van het functionele niveau voor forests via de [Exchange-ondersteunings matrix](https://docs.microsoft.com/exchange/plan-and-deploy/supportability-matrix).|
+|Versies van Office-clients|De minimaal ondersteunde versies van Office-clients voor elke versie zijn:|
+||**Exchange 2016** Office 2010 (met de nieuwste updates)|
+||**Exchange 2013** Office 2007 SP3|
+||U vindt meer informatie over de ondersteuning van Office-clients op de site van [Exchange supportity](https://docs.microsoft.com/exchange/plan-and-deploy/supportability-matrix).|
 
 U kunt de volgende bronnen gebruiken om u te helpen bij de migratie:
 
 - [Exchange Deployment Assistant](https://aka.ms/exdeploy)
-- Wijzigingen van Active Directory-schema voor Exchange [2016](https://technet.microsoft.com/library/bb738144%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/bb738144%28v=exchg.150%29.aspx)
-- Systeemvereisten voor Exchange [2016](https://technet.microsoft.com/library/aa996719%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/aa996719%28v=exchg.150%29.aspx)
-- Vereisten voor Exchange [2016](https://technet.microsoft.com/library/bb691354%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/bb691354%28v=exchg.150%29.aspx)
+- Wijzigingen van Active Directory-schema voor Exchange [2016](https://docs.microsoft.com/exchange/plan-and-deploy/active-directory/ad-schema-changes?view=exchserver-2016), [2013](https://docs.microsoft.com/Exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help)
+- Systeemvereisten voor Exchange [2016](https://docs.microsoft.com/exchange/plan-and-deploy/system-requirements?view=exchserver-2016), [2013](https://docs.microsoft.com/Exchange/exchange-2013-system-requirements-exchange-2013-help)
+- Vereisten voor Exchange [2016](https://docs.microsoft.com/exchange/plan-and-deploy/prerequisites?view=exchserver-2016), [2013](https://docs.microsoft.com/Exchange/exchange-2013-prerequisites-exchange-2013-help)
 
 ## <a name="summary-of-options-for-office-2010-client-and-servers-and-windows-7"></a>Overzicht van opties voor Office 2010-client en-servers en Windows 7
 
 Voor een visueel overzicht van de opties voor de upgrade, migratie en verplaatsen van een upgrade, migratie en migratie van Office 2010-clients en-servers en Windows 7, raadpleegt u het [einde van de ondersteunings poster](../downloads/Office2010Windows7EndOfSupport.pdf).
 
-[![Afbeelding van de poster Eindgebruikersondersteuning voor Office 2010-clients en -servers en Windows 7](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![Afbeelding van de poster Eindgebruikersondersteuning voor Office 2010-clients en -servers en Windows 7](../media/microsoft-365-overview/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
 Deze poster van één pagina is een snelle manier om inzicht te krijgen in de verschillende paden die u kunt nemen om te voorkomen dat Office 2010-client-en Server producten en Windows 7 niet meer worden ondersteund, met voorkeurs paden en optie ondersteuning in Microsoft 365 Enterprise gemarkeerd.
 
-U kunt deze poster ook [downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) en afdrukken in de indelingen letter, Legal en tabloid (11 x 17 inch).
-      
+U kunt deze poster ook [downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) en afdrukken in de indelingen letter, Legal en tabloid (11 x 17 inch).
+
 ## <a name="what-if-i-need-help"></a>En als ik hulp nodig heb?
 
 Als u migreert naar Microsoft 365, komt u mogelijk in aanmerking voor de service van Microsoft FastTrack. FastTrack biedt aanbevolen procedures, hulpprogramma's en informatiebronnen om de migratie naar Microsoft 365 zo eenvoudig mogelijk te maken. Het beste van alles is dat u een echte ondersteuningstechnicus hebt die u ter verkrijging van uw migratie leert, van het plannen en ontwerpen van de overstap naar het laatste postvak. Als u meer wilt weten over FastTrack, raadpleegt u [Microsoft FastTrack](https://fasttrack.microsoft.com/).

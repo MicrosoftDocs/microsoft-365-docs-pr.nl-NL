@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-rapporten in het beheercentrum - Gebruikersactiviteit van Microsoft Teams - Voorbeeld
+title: Microsoft 365-rapporten in het Beheercentrum-gebruikersactiviteit in Microsoft teams
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,42 +18,46 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-description: Meer informatie over hoe u het gebruikersactiviteitsrapport van Microsoft Teams verzamelen en inzicht krijgt in de Teams-activiteit in uw organisatie.
-ms.openlocfilehash: 734a4dfd62160c2f4d29b8faffb3268a1962fe4f
-ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
+description: Meer informatie over het verkrijgen van het Rapportgebruikers activiteit in Microsoft teams en het verkrijgen van inzichten aan de activiteiten van teams in uw organisatie.
+ms.openlocfilehash: 5b6c67903e7af600cac6ad1fda10962aecc2cc83
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167339"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949028"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity--preview"></a>Microsoft 365-rapporten in het beheercentrum - Gebruikersactiviteit van Microsoft Teams- Preview
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Microsoft 365-rapporten in het Beheercentrum-gebruikersactiviteit in Microsoft teams
 
-Het dashboard Microsoft **365-rapporten** toont u het activiteitenoverzicht voor de producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md). Met het rapport Gebruikersactiviteit in Microsoft Teams kunt u meer inzicht krijgen in de Microsoft Teams-activiteiten in uw organisatie.
+Het dashboard Microsoft 365 **rapporten** toont u het overzicht van de activiteiten in de producten van uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md). Met het rapport Gebruikersactiviteit in Microsoft Teams kunt u meer inzicht krijgen in de Microsoft Teams-activiteiten in uw organisatie.
   
 > [!NOTE]
-> U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange, SharePoint, Teams Service, Teams Communications of Skype voor Bedrijven-beheerder om rapporten te kunnen bekijken.  
+> U moet een globale beheerder, algemene lezer of rapporten lezer zijn in Microsoft 365 of een Exchange-, SharePoint-, teams-service, teams-communicatie of Skype voor bedrijven-beheerder om rapporten te zien.  
  
-## <a name="how-to-get-to-the-preview-microsoft-teams-user-activity-report"></a>Het voorbeeld van het gebruikersactiviteitsrapport van Microsoft Teams
+## <a name="how-to-get-to-the-microsoft-teams-user-activity-report"></a>Zo gaat u naar het rapport Gebruikersactiviteit in Microsoft Teams
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
-2. Selecteer **Microsoft Teams**in de vervolgkeuzelijst **Een rapport** selecteren .
+2. Klik op de startpagina van het dashboard op de knop **meer weergeven** op de activiteiten kaart van Microsoft teams.
   
-## <a name="interpret-the-preview-microsoft-teams-user-activity-report"></a>Het voorbeeld van het gebruikersactiviteitsrapport van Microsoft Teams interpreteren
+## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Het rapport Gebruikersactiviteit in Microsoft Teams interpreteren
 
-U de gebruikersactiviteit in het rapport Voorbeeldteams bekijken door het tabblad **Gebruikersactiviteit te** kiezen.
-  
-|||
+U kunt de activiteit van gebruikers weergeven in het rapport teams door het tabblad **User Activity** te kiezen. <br/>![Microsoft 365-rapporten-gebruikersactiviteit in Microsoft teams.](../../media/1011877f-3cf0-4417-9447-91d0b2312aab.png)
+
+Selecteer **kolommen kiezen** als u kolommen wilt toevoegen aan of verwijderen uit het rapport.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
+
+U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. 
+
+|Item|Beschrijving|
 |:-----|:-----|
-|**Metrische**|**Definitie**|
+|**Gegevens**|**Definitie**|
 |Gebruikersnaam  <br/> |Het e-mailadres van de gebruiker. U kunt het feitelijke e-mailadres weergeven of dit veld anoniem maken.   <br/> |
-|Kanaalberichten   <br/> |Het aantal unieke berichten dat de gebruiker in de opgegeven periode in een teamchat heeft geplaatst.  <br/> |
-|Chatberichten   <br/> |Het aantal unieke berichten dat de gebruiker in de opgegeven periode in een privéchat heeft geplaatst.  <br/> |
-|Totaal aantal vergaderingen   <br/> |Het aantal onlinevergaderingen waaraan de gebruiker heeft deelgenomen gedurende de opgegeven periode.  <br/> |
-|1:1 oproepen   <br/> | Het aantal 1:1-oproepen waaraan de gebruiker heeft deelgenomen gedurende de opgegeven periode.  <br/> |
-|Laatste activiteitsdatum (UTC)  <br/> |De laatste datum waarop de gebruiker heeft deelgenomen aan een Microsoft Teams-activiteit.<br/> |
-|Vergaderingen namen deel aan adhoc   <br/> | Het aantal vergaderingen dat niet is gepland in de agenda waaraan de gebruiker heeft deelgenomen gedurende de opgegeven periode.  <br/> |
-|Vergaderingen georganiseerd adhoc <br/> |Het aantal vergaderingen dat niet is gepland in de agenda dat de gebruiker tijdens de opgegeven periode heeft georganiseerd. <br/>|
-|Vergaderingen gepland  <br/> |Het aantal geplande vergaderingen dat een gebruiker heeft georganiseerd tijdens de opgegeven periode.  <br/> |
-|Heeft een licentie |Geselecteerd als de gebruiker een licentie heeft om Teams te gebruiken.|
-|Andere activiteit|De gebruiker wordt als actief beschouwd, maar heeft een nulwaarde voor de chatberichten, 1:1-gesprekken, kanaalberichten, totale vergaderingen en vergaderingen die zijn georganiseerd. Voorbeelden van acties zijn wanneer de Microsoft Teams-client op de voorgrond wordt geactiveerd, acties zijn uitgevoerd in het berichtgebied samenstellen, toasts zijn verschenen in de Microsoft Teams-client, banners die worden weergegeven in de Microsoft Teams-client, enz. |
+|Kanaalberichten   <br/> |Het aantal unieke berichten dat de gebruiker heeft geplaatst tijdens de opgegeven periode in een team gesprek.  <br/> |
+|Chat berichten   <br/> |Het aantal unieke berichten dat de gebruiker heeft geplaatst tijdens de opgegeven periode in een privégesprek.  <br/> |
+|Totaal aantal vergaderingen   <br/> |Het aantal onlinevergaderingen waaraan de gebruiker tijdens de opgegeven periode heeft deelgenomen.  <br/> |
+|1:1-gesprekken   <br/> | Het aantal 1:1-gesprekken waaraan de gebruiker tijdens de opgegeven periode heeft deelgenomen.  <br/> |
+|Datum van laatste activiteit (UTC)  <br/> |De laatste datum waarop de gebruiker heeft deelgenomen aan een Microsoft teams-activiteit.<br/> |
+|Deelnemers aan de vergadering   <br/> | Het aantal vergaderingen dat niet is gepland in de agenda waaraan de gebruiker tijdens de opgegeven periode heeft deelgenomen.  <br/> |
+|Vergaderingen geordend in de adhoc <br/> |Het aantal vergaderingen dat niet is gepland in de agenda die de gebruiker heeft georganiseerd in de opgegeven periode. <br/>|
+|Geplande vergaderingen  <br/> |Het aantal geplande vergaderingen dat een gebruiker heeft georganiseerd in de opgegeven periode.  <br/> |
+|Is een licentie |Geselecteerd als de gebruiker een licentie heeft om teams te gebruiken.|
+|Overige activiteiten|De gebruiker wordt als actief beschouwd maar heeft een nulwaarde voor de chat berichten, 1:1-gesprekken, Kanaalberichten, totale vergaderingen en vergaderingen geordend. Voorbeelden van acties zijn wanneer de Microsoft teams-client wordt geactiveerd voor de voorgrond, er werden acties uitgevoerd in het gedeelte bericht opstellen, pop-upvensters die werden weergegeven in de Microsoft teams-client, enzovoort. |
 |||

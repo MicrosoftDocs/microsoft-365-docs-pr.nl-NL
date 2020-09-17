@@ -17,30 +17,29 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 72d02bafa168e48c2d588771f5289da09e6d6000
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: 4ee07abe7ce1432921a843d713d0f9b914631174
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794229"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949310"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+Gebruik de `AssignedIPAddresses()` functie om snel de nieuwste IP-adressen te verkrijgen die aan een apparaat zijn toegewezen. Als u een argument voor een tijdstempel opgeeft, worden voor deze functie de meest recente IP-adressen op de opgegeven tijd opgehaald. 
 
-Gebruik de `AssignedIPAddresses()` functie om snel de nieuwste IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen vanaf een bepaald moment. Deze functie retourneert een tabel met de volgende kolommen:
+Deze functie retourneert een tabel met de volgende kolommen:
 
 | Kolom | Gegevenstype | Beschrijving |
 |------------|-------------|-------------|
-| Tempels | tijd | Laatste keer dat het apparaat is waargenomen met behulp van het IP-adres |
-| Adressen | tekenreeks | IP-adres dat door het apparaat wordt gebruikt |
-| IPType | tekenreeks | Geeft aan of het IP-adres een openbaar of privéadres is |
-| NetworkAdapterType | int | Type netwerkadapter dat wordt gebruikt door het apparaat waaraan het IP-adres is toegewezen. Voor de mogelijke waarden raadpleegt u [deze inventarisatie](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2)  |
-| ConnectedNetworks | int | Netwerken waarmee de adapter met het toegewezen IP-adres is verbonden. Elke JSON-matrix bevat de netwerknaam, categorie (openbaar, privé of domein), een beschrijving en een vlag waarmee wordt aangegeven of de verbinding openbaar met internet is verbonden. |
-
+| `Timestamp` | tijd | Laatste keer dat het apparaat is waargenomen met behulp van het IP-adres |
+| `IPAddress` | tekenreeks | IP-adres dat door het apparaat wordt gebruikt |
+| `IPType` | tekenreeks | Geeft aan of het IP-adres een openbaar of privéadres is |
+| `NetworkAdapterType` | int | Type netwerkadapter dat wordt gebruikt door het apparaat waaraan het IP-adres is toegewezen. Voor de mogelijke waarden raadpleegt u [deze inventarisatie](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `ConnectedNetworks` | int | Netwerken waarmee de adapter met het toegewezen IP-adres is verbonden. Elke JSON-matrix bevat de naam van een netwerk, categorie (openbaar, privé of domein), een beschrijving en een vlag die aangeven of de verbinding openbaar met internet is. |
 
 ## <a name="syntax"></a>Syntaxis
 
@@ -50,12 +49,12 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Argumenten
 
-- **x** — `DeviceId` of `DeviceName` waarde die het apparaat identificeert
-- **y** `Timestamp` de waarde y, (datetime) die het specifieke tijdstip aangeeft waarop de meest recente IP-adressen moeten worden opgehaald. Als dat niet is opgegeven, retourneert de functie de nieuwste IP-adressen.
+- **x**— `DeviceId` of `DeviceName` waarde die het apparaat identificeert
+- **y** `Timestamp` de waarde y (datetime) die de functie vraagt om de meest recente IP-adressen van een specifieke tijd te verkrijgen. Als dat niet is opgegeven, retourneert de functie de nieuwste IP-adressen.
 
 ## <a name="examples"></a>Voorbeelden
 
-### <a name="get-the-list-of-ip-addresses-used-by-a-device-as-of-24-hours-ago"></a>De lijst met IP-adressen die een apparaat 24 uur geleden gebruikt, wordt weergeven
+### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>De lijst met IP-adressen die worden gebruikt door een apparaat, 24 uur geleden weergeven
 
 ```kusto
 AssignedIPAddresses('example-device-name', ago(1d))

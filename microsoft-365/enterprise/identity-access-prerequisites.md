@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2c654cb0ec2afd138c7c9fb4b339b53a8522e5e4
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 034dd31309c783e8b231a113d2bda5ccb1888d5b
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547202"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950758"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Vereisten voor het implementeren van identiteits-en Apparaattoegang
 
@@ -116,6 +116,6 @@ Hier volgen enkele aanvullende aanbevelingen:
 
 ## <a name="next-step"></a>Volgende stap
 
-![Stap 2: de gangbare identiteit configureren en toegang tot regels voor voorwaardelijke toegang beheren](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)
+[![Stap 2: de gangbare identiteit configureren en toegang tot regels voor voorwaardelijke toegang beheren](../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
 [De veelgebruikte beleidsregels voor identiteit en toegang tot apparaten configureren](identity-access-policies.md)

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 502dc87b45c42f0ae95ea9da898c4d4589b19671
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 1e779e0da89ea49fb4ed390b20a6fb67ffd3b162
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47649947"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47947994"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Preview-functies voor Microsoft Threat Protection
 
@@ -59,7 +59,6 @@ De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-v
 
 - **[Microsoft Threat Protection-api's](api-overview.md)** : met de Microsoft-Api's voor Microsoft Threat Protection kunt u werkstromen automatiseren op basis van de gedeelde incident en de geavanceerde jacht tabellen. 
 - **[IdentityDirectoryEvents-tabel in geavanceerde jacht](advanced-hunting-identitydirectoryevents-table.md)** : vind gebeurtenissen met een on-premises domeincontroller waarop Active Directory (AD) wordt uitgevoerd. Deze tabel omvat een bereik van gebeurtenissen die betrekking hebben op de identiteit en de systeemgebeurtenissen op de domeincontroller.
-- **[AssignedIPAddresses (), functie](advanced-hunting-assignedipaddresses-function.md)** : gebruik deze functie in geavanceerde jacht om snel de nieuwste IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen vanaf een bepaald moment.
 - **[Onderneem actie in de geavanceerde jacht](advanced-hunting-take-action.md)** en bevat snel bedreigingen of compromisloze activa die u vindt in de [geavanceerde jacht](advanced-hunting-overview.md).
 - Naslaginformatie over de **[Portal van het portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** : informatie over geavanceerde jacht schema tabellen rechtstreeks in het Beveiligingscentrum. Naast beschrijvingen van tabellen en kolommen biedt deze handige naslaginformatie over ondersteunde gebeurtenistypen ( `ActionType` waarden) en voorbeeldquery's.
 

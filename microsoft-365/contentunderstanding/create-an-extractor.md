@@ -6,17 +6,17 @@ manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: ''
+ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het maken van een extractor
-ms.openlocfilehash: 64dede9f6613da82c65ca12c6c335a25301f5b9e
-ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
+ms.openlocfilehash: 7219726fb385d0b67f7ee0614f5075ba226140ab
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46612760"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950082"
 ---
 # <a name="create-an-extractor-preview"></a>Een extractor maken (preview)
 > [!Note] 
@@ -82,7 +82,7 @@ Om de *begindatum* van de service te identificeren, kunt u een patroon toelichti
     - 0/00/0000
     - 00/0/0000
     - 00/00/0000
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 
 ### <a name="use-the-explanation-library"></a>De uitleg bibliotheek gebruiken
@@ -97,7 +97,7 @@ Voor het voorbeeld van de *begindatum* van een service is het efficiënter om de
 
     ![Uitleg bibliotheek](../media/content-understanding/explanation-library.png) 
 
-4. Op de pagina **een uitleg maken** worden in de datuminformatie uit de uitleg bibliotheek de velden automatisch *bijgewerkt* . Kies **Opslaan**.</br>
+4. Op de pagina **een uitleg maken** worden in de datuminformatie uit de uitleg bibliotheek de velden automatisch *bijgewerkt* . Selecteer **Opslaan**.</br>
 
     ![Uitleg bibliotheek](../media/content-understanding/date-explanation-library.png) 
 
@@ -120,7 +120,7 @@ Voor ons voorbeeld ziet u dat de tekst *van de begindatum van* de tekenreeks alt
 1. Selecteer in de sectie uitleg de optie **Nieuw**en typ een naam (bijvoorbeeld de prefix- *tekenreeks*).
 2. Selecteer in het vak Type de optie **phrase**.
 3. Gebruik de *begindatum van de service* als de waarde.
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
     ![Uitleg bibliotheek](../media/content-understanding/prefix-string.png) 
 

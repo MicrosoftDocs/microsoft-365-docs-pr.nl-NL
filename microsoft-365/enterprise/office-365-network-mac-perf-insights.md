@@ -14,26 +14,32 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network Insights (preview)
-ms.openlocfilehash: b30af89d480383fdc9011d24409e3b418339c70b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a9d4dbde112c9b6c74e340824c63ce2b9749e80e
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689233"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948514"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network Insights (preview)
 
-**Netwerk inzichten** zijn gegevens van een dynamische prestaties die zijn verzameld via uw microsoft 365-Tenant en die alleen kunnen worden weergegeven door gebruikers van beheerders in uw Tenant. Inzichten worden weergegeven in het Microsoft 365-Beheercentrum op <https://portal.microsoft.com/adminportal/home#/networkperformance> .
+**Netwerk inzichten** zijn prestatiegegevens die worden verzameld uit uw microsoft 365-Tenant en zijn alleen beschikbaar voor weergave door beheerders gebruikers in uw Tenant. Inzichten worden weergegeven in het Microsoft 365-Beheercentrum op <https://portal.microsoft.com/adminportal/home#/networkperformance> .
 
 Inzichten zijn bedoeld voor hulp bij het ontwerpen van netwerkverbindingen voor uw Office-locaties. Elk inzicht biedt u actuele informatie over de prestatie-eigenschappen voor een specifiek gemeenschappelijke probleem waarbij gebruikers toegang krijgen tot uw Tenant.
 
-Er zijn vijf specifieke netwerk inzichten die voor elke kantoorlocatie kunnen worden weergegeven:
+Er bestaan zes specifieke netwerk inzichten die voor elke kantoorlocatie kunnen worden weergegeven:
 
 - [Backhauled netwerk uitgang](#backhauled-network-egress)
 - [Betere prestaties vastgesteld voor klanten in de buurt](#better-performance-detected-for-customers-near-you)
 - [Het gebruik van een niet-optimale Exchange Online-service-voor deur](#use-of-a-non-optimal-exchange-online-service-front-door)
 - [Het gebruik van een niet-optimale SharePoint Online-service front deur](#use-of-a-non-optimal-sharepoint-online-service-front-door)
 - [Lage downloadsnelheid van SharePoint-voor deur](#low-download-speed-from-sharepoint-front-door)
+- [Gebruikers van China optimale netwerk uitgang](#china-user-optimal-network-egress)
+
+Er zijn twee netwerk inzichten op tenantniveau die kunnen worden weergegeven voor de Tenant. Deze worden ook weergegeven op de Score pagina's van producvitivy:
+
+- [Gesamplinge verbindingen van Exchange beïnvloed door verbindingsproblemen](#exchange-sampled-connections-impacted-by-connectivity-issues)
+- [Gepipetteerde SharePoint-verbindingen beïnvloed door verbindingsproblemen](#sharepoint-sampled-connections-impacted-by-connectivity-issues)
 
 >[!IMPORTANT]
 >Netwerk inzichten, prestatie aanbevelingen en beoordelingen in het Microsoft 365-Beheercentrum is momenteel in de preview-versie en is alleen beschikbaar voor Microsoft 365-tenants die zijn geregistreerd in het functie voorbeeldprogramma.
@@ -129,17 +135,41 @@ Dit inzicht wordt weergegeven als uw organisatie gebruikers heeft in China die v
 Als uw organisatie beschikt over een persoonlijke WAN-verbinding, wordt u aangeraden een netwerkwan-circuit te configureren op uw kantoorlocaties in China met een netwerk uitgang op Internet op een van de volgende locaties:
 
 - Hongkong
-- Japan
+- Japan 
 - Taiwan
 - Zuid-Korea
 - Singapore
-- Maleisië
+- Maleisië 
 
 Verder wegteren van gebruikers van gebruikers van deze locaties reduceren de prestaties en het uitgangs niveau in China kan leiden tot hoge latentie en connectiviteitsproblemen vanwege een oplopende verbinding.
 
 ### <a name="what-should-i-do"></a>Wat moet ik doen?
 
 Zie voor meer informatie over het beperken van de prestaties van dit inzicht de prestatie [optimalisering van Office 365 voor gebruikers van China](microsoft-365-networking-china.md).
+
+## <a name="exchange-sampled-connections-impacted-by-connectivity-issues"></a>Gesamplinge verbindingen van Exchange beïnvloed door verbindingsproblemen
+
+Dit inzicht zal aangeven wanneer 50% of meer van de bemonsterde verbindingen worden beïnvloed. Het effect wordt bepaald door de proef van Exchange onder 60% voor elk voorbeeld.
+
+### <a name="what-does-this-mean"></a>Wat betekent dit?
+
+Het is een aanwijzing dat het merendeel van de gebruikers problemen met de gebruikerservaring opneemt met Outlook waarmee verbinding wordt gemaakt met Exchange Online. Het percentage van de gepaarde steekproeven staat voor het percentage van gebruikers dat onder 60 punten wordt weergegeven.  
+
+### <a name="what-should-i-do"></a>Wat moet ik doen?
+
+De netwerklocatie van de Office-locatie voor netwerktoegang inschakelen als u dit nog niet hebt gedaan. U wilt weten welke kantoren zijn impactred door slechte netwerkconnectiviteit, wat van invloed is op Exchange en manieren om de netwerkverbinding te verbeteren, zodat de netwerkverbindingen van de gebruikers met de gebruikers van het Microsoft-netwerk zijn verbonden.
+
+## <a name="sharepoint-sampled-connections-impacted-by-connectivity-issues"></a>Gepipetteerde SharePoint-verbindingen beïnvloed door verbindingsproblemen
+
+Dit inzicht zal aangeven wanneer 50% of meer van de bemonsterde verbindingen worden beïnvloed. Het effect wordt bepaald door de SharePoint-beoordeling onder 40% voor elk voorbeeld.
+
+### <a name="what-does-this-mean"></a>Wat betekent dit?
+
+Het is een aanwijzing dat het merendeel van de gebruikers problemen met de gebruikerservaring met SharePoint en OneDrive ondervindt. Het percentage van de gepaarde steekproeven staat voor het percentage van gebruikers dat onder 40 punten wordt weergegeven.  
+
+### <a name="what-should-i-do"></a>Wat moet ik doen?
+
+De netwerklocatie van de Office-locatie voor netwerktoegang inschakelen als u dit nog niet hebt gedaan. U wilt weten welke kantoren zijn impactred door slechte netwerkconnectiviteit, wat van invloed is op SharePoint en manieren om de netwerkverbinding te verbeteren waarmee de gebruikers worden verbonden met de gebruikers van het Microsoft-netwerk.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: a88fc5f46a6dafda72a24ba5e80587b24a216955
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: c61526139111885ec345bc4a4dd3cd6b147370e6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546470"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950806"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Beleid voor het toestaan van toegang via gast en externe B2B
 
@@ -55,7 +55,9 @@ Als u gasten en externe gebruikers wilt opnemen of uitsluiten in regels voor voo
 ### <a name="guests-vs-external-users"></a>Gasten versus externe gebruikers
 In azure AD zijn gast en externe gebruikers hetzelfde. Het gebruikerstype voor beide gebruikers is gast. Gastgebruikers zijn B2B-gebruikers.
 
-In Microsoft teams wordt onderscheid gemaakt tussen gastgebruikers en externe gebruikers binnen de app, maar dit zijn beide B2B-gebruikers bij het verifiëren. Zie voor meer informatie over team gast en externe gebruikers het artikel [gast en externe toegang inschakelen voor teams](teams-access-policies.md#enabling-guest-and-external-access-for-teams).
+In Microsoft teams wordt onderscheid gemaakt tussen gastgebruikers en externe gebruikers binnen de app. Gastgebruikers beschikken over Azure AD B2B-accounts en kunnen worden toegevoegd aan teams. Externe gebruikers kunnen alleen deelnemen aan gesprekken, chats en vergaderingen. Zie [deze vergelijking tussen gast en externe gebruikers voor teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)voor meer informatie.
+
+Raadpleeg [beleids aanbevelingen voor het beveiligen van teams-chats,-groepen en-bestanden](teams-access-policies.md) voor meer informatie over het beveiligen van identiteit en Apparaattoegang voor teams
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>MFA vereisen altijd voor gast en externe gebruikers
 Dit beleid vraagt bezoekers zich voor MFA aan te melden bij uw Tenant, ongeacht of ze zich voor MFA registreren in hun thuis Tenant. Bij het openen van bronnen in de Tenant zijn gasten en externe gebruikers verplicht MFA te gebruiken voor elke aanvraag. 

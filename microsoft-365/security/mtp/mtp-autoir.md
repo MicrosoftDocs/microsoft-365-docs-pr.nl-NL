@@ -1,7 +1,7 @@
 ---
-title: Geautomatiseerde onderzoeks- en reactiemogelijkheden in Microsoft Threat Protection
-description: Een overzicht krijgen van geautomatiseerde onderzoeks- en reactiemogelijkheden in Microsoft Threat Protection
-keywords: geautomatiseerd, onderzoek, alert, trigger, actie, sanering
+title: Geautomatiseerd onderzoek en antwoord mogelijkheden in Microsoft Threat Protection
+description: Een overzicht van geautomatiseerde functies voor onderzoek en antwoorden in Microsoft Threat Protection
+keywords: automatisch, onderzoek, waarschuwing, trigger, actie, herstel
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -18,69 +18,69 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: c45b7d1b01ee776e9519d67ee52d36b8f48bf0ef
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 9fc4c99254f4f27b476930a555b237be093bff24
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552352"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950722"
 ---
-# <a name="automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Geautomatiseerde onderzoeks- en reactiemogelijkheden in Microsoft Threat Protection
+# <a name="automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Geautomatiseerd onderzoek en antwoord mogelijkheden in Microsoft Threat Protection
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Aangezien beveiligingswaarschuwingen worden geactiveerd, is het aan uw beveiligingsteam om deze waarschuwingen te bekijken en stappen te ondernemen om uw organisatie te beschermen. Het prioriteren en onderzoeken van waarschuwingen kan zeer tijdrovend zijn, vooral wanneer er nieuwe waarschuwingen binnenkomen terwijl er een onderzoek loopt. Beveiligingsteams kunnen zich overweldigd voelen door de enorme hoeveelheid bedreigingen die ze moeten controleren en waartegen ze zich moeten beschermen. Geautomatiseerde onderzoeks- en reactiemogelijkheden (ook wel *geautomatiseerde zelfherstellende* mogelijkheden genoemd) in Microsoft Threat Protection kunnen helpen. 
+Wanneer beveiligingswaarschuwingen worden geactiveerd, kunt u het beste uw beveiligingsteam raadplegen met deze waarschuwingen en de stappen ondernemen om uw organisatie te beveiligen. Het kan zeer lang voor het maken van waarschuwingen, met name wanneer nieuwe waarschuwingen worden gehouden wanneer een onderzoek wordt gehouden, zeer veel tijd in beslag nemen en onderzoeken. Beveiligingsactiviteiten teams kunnen overspoeld worden door het doorschijnende volume van de bedreigingen die ze moeten controleren en beschermen. Geautomatiseerd onderzoek-en antwoord vermogen (ook wel *zelfherstel* mogelijkheden genoemd) in Microsoft Threat Protection kan u helpen. 
 
-Bekijk de volgende video om te zien hoe geautomatiseerde zelfhelende mogelijkheden werken:
+Bekijk de volgende video om te zien hoe geautomatiseerde mogelijkheden voor automatisch herstel werken:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4BzwB]
 
-Geautomatiseerd onderzoek en reactie is als het hebben van een virtuele analist in uw security operations center.
+Geautomatiseerd onderzoek en antwoord is vergelijkbaar met een virtuele analist in uw Beveiligingscentrum.
 
 ## <a name="your-virtual-analyst"></a>Uw virtuele analist
 
-Stel je voor dat je een virtuele analist hebt in je Tier 1 / Tier 2 security operations team. De virtuele analist bootst de ideale stappen na die beveiligingsoperaties zouden nemen om bedreigingen te onderzoeken en te herstellen. De virtuele assistent zou kunnen werken 24x7, met onbeperkte capaciteit, en nemen op een aanzienlijke belasting van onderzoeken en bedreiging sanering. Zo'n virtuele assistent kan de tijd om te reageren aanzienlijk verkorten, waardoor uw beveiligingsteam vrij komt voor andere belangrijke strategische projecten. Als dit scenario klinkt als science fiction, is het niet! Zo'n virtuele analist maakt deel uit van uw Microsoft Threat Protection-suite en de naam is *geautomatiseerd onderzoek en reactie.*
+Voorbeeld van een virtuele analist in uw team van 1/laag 2-beveiligingsactiviteiten. De virtuele analist imiteert de ideale stappen die beveiligingsactiviteiten ondernemen om bedreigingen te onderzoeken en te herstellen. De virtuele assistent kan 24x7 werken, met onbeperkte capaciteit, en kan een aanzienlijke belasting van onderzoek en bedreiging doen. Een dergelijke virtuele assistent kon de tijd in beslag nemen om te reageren, het team van uw beveiligingsactiviteiten vrijmaken voor andere belangrijke strategische projecten. Als dit scenario klinkt als Science fictief, dan is het niet! Zo'n virtuele analist maakt deel uit van uw Microsoft Threat Protection Suite en de naam is *geautomatiseerd onderzoek en antwoord*.
 
-Geautomatiseerd onderzoek en respons stelt uw beveiligingsteam in staat om de capaciteit van uw organisatie om beveiligingswaarschuwingen en -incidenten aan te pakken drastisch te vergroten. Met geautomatiseerd onderzoek en respons u de kosten van het omgaan met onderzoeks- en saneringsactiviteiten verlagen en het meeste uit uw suite voor bedreigingsbescherming halen. geautomatiseerd onderzoek en respons helpt uw security operations team door:
+Met geautomatiseerd onderzoek en antwoord kan uw bedrijfsvoering de capaciteit van uw organisatie ingrijpend verhogen om te zorgen voor beveiligingsmeldingen en incidenten. Met automatisch onderzoek en antwoord kunt u de kosten van transacties met onderzoek-en herstel activiteiten reduceren en optimaal gebruikmaken van uw Threat Protection-Suite. met geautomatiseerd onderzoek en antwoord zorgt u ervoor dat uw beveiligingsactiviteiten team:
 
-1. Bepalen of een bedreiging actie vereist;
-2. Het uitvoeren (of aanbevelen) van de nodige saneringsacties;
-3. Bepalen welke aanvullende onderzoeken moeten plaatsvinden; En
-4. Het proces herhalen indien nodig voor andere waarschuwingen.
+1. Bepalen of een Threat een actie vereist;
+2. Het uitvoeren (of aanbevelen) van alle benodigde herstelacties;
+3. Bepalen welke aanvullende onderzoeken moeten worden gedaan; en
+4. Herhaal het proces zo nodig voor andere meldingen.
 
-## <a name="the-automated-investigation-process"></a>Het geautomatiseerde onderzoeksproces
+## <a name="the-automated-investigation-process"></a>Het proces voor automatisch onderzoek
 
-**Waarschuwing**  >  **incident**  >  **geautomatiseerd onderzoek**  >  **vonnis**  >  **saneringsactie**
+**Waarschuwing**  >  **incident**  >  **automatisch onderzoek**  >  **verdict**  >  **herstelactie**
 
-Een geactiveerde waarschuwing creëert een incident, dat een geautomatiseerd onderzoek kan starten. Dat onderzoek kan leiden tot een of meer saneringsacties. In Microsoft Threat Protection correleert elk geautomatiseerd onderzoek signalen in Azure Advanced Threat Protection (Azure ATP), Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP) en Office 365 Advanced Threat Protection (Office 365 ATP), zoals samengevat in de volgende tabel: 
+Een waarschuwing met een trigger maakt een incident, dat een geautomatiseerd onderzoek kan starten. Dat onderzoek kan resulteren in een of meer herstelacties. In Microsoft Threat Protection vertoont elk automatisch onderzoek alle signalen in azure Advanced Threat Protection (Azure ATP), Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP) en Office 365 Advanced Threat Protection (Office 365 ATP), zoals in de volgende tabel wordt samengevat: 
 
-|Entiteiten |Diensten voor bedreigingsbescherming  |
+|Onderzoeksinstellingen |Service voor Threat Protection  |
 |---------|---------|
 |Apparaten (ook wel eindpunten genoemd)     |[Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
-|E-mailinhoud (bestanden en berichten in postvakken)     |[Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
+|E-mail inhoud (bestanden en berichten in postvakken)     |[Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
 
-Elk onderzoek genereert vonnissen (*Kwaadaardig*, *Verdacht*, of *geen bedreigingen gevonden*) voor elk stuk van het onderzochte bewijs. Afhankelijk van het type bedreiging en het daaruit voortvloeiende vonnis, worden herstelacties automatisch of na goedkeuring door het beveiligingsteam van uw organisatie uitgevoerd. In behandeling zijnde en voltooide acties vermeld in het [Actiecentrum](mtp-action-center.md).
+Bij elk onderzoek wordt Verdicts (*kwaadaardige*, *verdachte*of *geen bedreigingen gevonden*) voor elk onderzocht onderzoek. Afhankelijk van het type bedreiging en het resultaat Verdict, worden herstelacties automatisch of na goedkeuring uitgevoerd door het team van uw organisatie. Acties in behandeling en voltooid worden weergegeven in het [Actiecentrum](mtp-action-center.md).
 
 > [!TIP]
-> Als u denkt dat er iets is gemist of ten onrechte is gedetecteerd door geautomatiseerde onderzoeks- en reactiefuncties in Microsoft Threat Protection, laat het ons dan weten! Zie [Hoe foutieve positieven/negatieven te rapporteren in geautomatiseerde onderzoeks- en reactiemogelijkheden in Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
+> Laat het ons weten als u denkt dat er een fout is opgetreden met een automatisch onderzoek en antwoord functies in Microsoft Threat Protection. Lees [hoe u onjuiste positief en negatief kunt melden bij een geautomatiseerd onderzoek en antwoord mogelijkheden in Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
 
-Terwijl een onderzoek wordt uitgevoerd, worden alle andere gerelateerde waarschuwingen die zich voordoen toegevoegd aan het onderzoek totdat het is voltooid. Als een belastende entiteit elders wordt gezien, zal het geautomatiseerde onderzoek zijn werkingssfeer uitbreiden met die entiteit en wordt een algemeen beveiligingsspeelboek uitgevoerd. 
+Wanneer een onderzoek wordt uitgevoerd, worden eventuele andere bijbehorende waarschuwingen toegevoegd aan het onderzoek totdat het onderzoek wordt voltooid. Als een incriminated-entiteit elders wordt weergegeven, wordt het bereik van de geautomatiseerd onderzoek uitgebreid met die entiteit, en moet een algemeen beveiligings Playbook worden uitgevoerd. 
 
 > [!NOTE]
-> Niet elke waarschuwing leidt tot een geautomatiseerd onderzoek, en niet elk onderzoek resulteert in geautomatiseerde saneringsacties; dit hangt allemaal af van hoe geautomatiseerd onderzoek en reactie is geconfigureerd voor uw organisatie. 
+> Niet elke melding veroorzaakt een geautomatiseerd onderzoek en niet alle onderzoekresultaten met geautomatiseerde herstelacties; Dit is alles, afhankelijk van de manier waarop automatisch onderzoek en beantwoorden zijn geconfigureerd voor uw organisatie. 
 
-## <a name="requirements-for-automated-investigation-and-response-in-microsoft-threat-protection"></a>Vereisten voor geautomatiseerd onderzoek en respons in Microsoft Threat Protection
+## <a name="requirements-for-automated-investigation-and-response-in-microsoft-threat-protection"></a>Vereisten voor automatisch onderzoek en reacties op Microsoft Threat Protection
 
 |Vereiste |Details |
 |--|--|
-|Abonnementsvereisten |Een van de volgende: <br/>- Microsoft 365 E5 <br/>- Microsoft 365 A5 <br/>- Microsoft 365 E5 Beveiliging<br/>- Microsoft 365 A5-beveiliging<br/>- Office 365 E5 plus Enterprise Mobility + Security E5 plus Windows E5<br/><br/>Zie [Microsoft Threat Protection-licentievereisten](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?#licensing-requirements).|
-|Netwerkvereisten |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) ingeschakeld<br/>- [McAS (Microsoft Cloud App Security)](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) geconfigureerd<br/>- [MCAS geïntegreerd met Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
-|Windows-machinevereisten |- Windows 10, versie 1709 of hoger geïnstalleerd (Zie [Windows 10 release informatie](https://docs.microsoft.com/windows/release-information/)) met de volgende bedreiging bescherming diensten geconfigureerd:<br/>- [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) <br/>- [Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) |
-|Beveiliging voor e-mailinhoud en Office-bestanden |[Geavanceerde bedreigingsbeveiliging van Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) geconfigureerd |
-|Machtigingen |- Als u geautomatiseerd onderzoek en antwoord wilt configureren, moet de rol Global Administrator of Security Administrator zijn toegewezen in Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/><br/>- Zie [Vereiste machtigingen voor action center-taken voor](mtp-action-center.md#required-permissions-for-action-center-tasks)geautomatiseerde onderzoeks- en reactiemogelijkheden. |
+|Vereisten voor het abonnement |Een van de volgende opties: <br/>-Microsoft 365 E5 <br/>-Microsoft 365 A5 <br/>-Microsoft 365 E5-beveiliging<br/>-Microsoft 365 A5 beveiliging<br/>-Office 365 E5 Plus Enterprise Mobility + Security E5 Plus Windows E5<br/><br/>Zie [licentievereisten voor Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?#licensing-requirements).|
+|Netwerkvereisten |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) ingeschakeld<br/>- [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) (MCAS) is geconfigureerd<br/>- [MCAS geïntegreerd met Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
+|Systeemvereisten voor Windows |-Windows 10, versie 1709 of hoger is geïnstalleerd (Zie [informatie over de release van Windows 10](https://docs.microsoft.com/windows/release-information/)) met de volgende instellingen voor de Threat Protection-Service:<br/>- [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) <br/>- [Windows Defender antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) |
+|Bescherming voor e-mail inhoud en Office-bestanden |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) is geconfigureerd |
+|Machtigingen |-Om geautomatiseerde onderzoek en antwoorden te configureren, moet u beschikken over de rol van globale beheerder of beveiligingsbeheerder in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum [https://admin.microsoft.com](https://admin.microsoft.com) .<br/><br/>Als u geautomatiseerde onderzoek-en antwoord mogelijkheden wilt gebruiken, raadpleegt u de [vereiste machtigingen voor taken in het Actiecentrum](mtp-action-center.md#required-permissions-for-action-center-tasks). |
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Acties met betrekking tot geautomatiseerd onderzoek en reactie goedkeuren of afwijzen](mtp-autoir-actions.md)
+- [Acties met betrekking tot een automatisch onderzoek en antwoord goedkeuren of afwijzen](mtp-autoir-actions.md)
 - [Meer informatie over het Actiecentrum](mtp-action-center.md)

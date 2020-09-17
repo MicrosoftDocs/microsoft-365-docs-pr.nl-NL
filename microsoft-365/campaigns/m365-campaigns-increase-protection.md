@@ -22,285 +22,286 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Hulp krijgen bij het verhogen van het beschermingsniveau in Microsoft 365
-ms.openlocfilehash: 1e98f2dea06c342858a8acf2c221ea8f955eb75e
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Hulp bij het verhogen van het beschermingsniveau in Microsoft 365
+ms.openlocfilehash: 36ff6c1ff5fd8c826434504c694046d12b5e63bc
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527208"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948614"
 ---
 # <a name="increase-threat-protection"></a>Bedreigingsbeveiliging verbeteren
 
-In dit artikel u de bescherming in uw Microsoft 365-abonnement vergroten om u te beschermen tegen phishing, malware en andere bedreigingen. Deze aanbevelingen zijn geschikt voor organisaties met een verhoogde behoefte aan veiligheid, zoals politieke campagnes, advocatenkantoren en klinieken voor gezondheidszorg. 
+Dit artikel helpt u bij het verbeteren van de bescherming van uw Microsoft 365-abonnement om te beschermen tegen phishing, malware en andere bedreigingen. Deze aanbevelingen zijn geschikt voor organisaties met een betere beveiliging, zoals politieke campagnes, Law oren en gezondheidszorg.
 
-Controleer uw Microsoft Secure Score voordat u begint. Microsoft Secure Score analyseert de beveiliging van uw organisatie op basis van uw reguliere activiteiten en beveiligingsinstellingen en kent een score toe. Begin met het noteren van uw huidige score. Het nemen van de acties aanbevolen in dit artikel verhoogt uw score. Het doel is niet om de maximale score te bereiken, maar om je bewust te zijn van mogelijkheden om je omgeving te beschermen die de productiviteit voor je gebruikers niet negatief beïnvloeden. 
+Voordat u begint, controleert u de Secure Score van Microsoft. Secure Score van Microsoft: Hiermee wordt de beveiliging van uw organisatie geanalyseerd op basis van uw regelmatige activiteiten en beveiligingsinstellingen, en wordt een score toegewezen. Begin met het noteren van uw huidige score. Als u de acties in dit artikel uitvoert, wordt uw score verhoogd. Het doel is niet de maximum score te bereiken, maar om rekening te houden met verkoopkansen om uw omgeving te beschermen en de productiviteit van uw gebruikers niet negatief beïnvloeden.
 
 Zie [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)voor meer informatie.
 
+## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Het beschermingsniveau voor malware in e-mail verhogen
 
-## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Verhoog het niveau van bescherming tegen malware in e-mail
+Uw Office 365-of Microsoft 365-omgeving bevat bescherming tegen malware, maar u kunt deze beveiliging vergroten door bijlagen te blokkeren met bestandstypen die meestal voor malware worden gebruikt. De bescherming van malware tegenkomt in e-mail:
 
-Uw Office 365- of Microsoft 365-omgeving biedt bescherming tegen malware, maar u deze bescherming verhogen door bijlagen te blokkeren met bestandstypen die vaak worden gebruikt voor malware. Om malwarebescherming in e-mail te stoten:
-  
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met uw beheerdersaccountgegevens. 
-    
-2. Kies in het Security &amp; Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer** **de optie** \> **Beleidsantimalware**.
-    
-3. Dubbelklik op het standaardbeleid om dit bedrijfsbrede beleid te bewerken.
-    
+1. Ga naar <https://protection.office.com> en meld u aan met de referenties van uw beheerdersaccount.
+
+2. Kies in het gedeelte beveiligings & compliance in het linker navigatiedeelvenster onder **Threat Management**de optie **beleids** \> **anti malware**.
+
+3. Dubbelklik op het standaardbeleid om dit beleid voor het hele bedrijf te bewerken.
+
 4. Klik op **Instellingen**.
-    
-5. Selecteer onder **Filter Algemene bijlagetypen**de optie **Aan**. De bestandstypen die worden geblokkeerd, worden in het venster direct onder dit besturingselement weergegeven.  Zorg ervoor dat u deze bestandstypen toevoegt:
-   - ade, adp, ani, bas, vleermuis, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdzz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsf, wsf, wsh, exe, pif  <br/> U indien nodig bestandstypen later toevoegen of verwijderen.
-    
-6. Klik **op Opslaan.**
-    
-Zie [Bescherming tegen malware voor](https://go.microsoft.com/fwlink/?linkid=2015692&amp;clcid=0x409)meer informatie.
-  
 
+5. Selecteer **aan**onder **common Attachment types filter**. De geblokkeerde bestandstypen worden weergegeven in het venster direct onder dit besturingselement. Zorg ervoor dat u deze bestandstypes toevoegt:
+
+   `ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh, exe, pif`
+
+   U kunt later, indien nodig, bestandstypen toevoegen of verwijderen.
+
+6. Selecteer **opslaan.**
+
+Zie [bescherming tegen malware in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-malware-protection)voor meer informatie.
 
 ## <a name="protect-against-ransomware"></a>Beveiligen tegen ransomware
 
-Ransomware beperkt de toegang tot gegevens door bestanden te versleutelen of computerschermen te vergrendelen. Het probeert vervolgens om geld af te persen van slachtoffers door te vragen om "losgeld", meestal in de vorm van cryptocurrencies zoals Bitcoin, in ruil voor toegang tot gegevens. 
-  
-U beschermen tegen ransomware door het creëren van een of meer mail flow regels om bestandsextensies die vaak worden gebruikt voor ransomware te blokkeren (deze werden toegevoegd in de [verhoging van het niveau van bescherming tegen malware in e-mail](#raise-the-level-of-protection-against-malware-in-mail) stap), of om gebruikers die deze bijlagen ontvangen in e-mail te waarschuwen.
+Ransomware beperkt de toegang tot gegevens door het versleutelen van bestanden of het vergrendelen van computerschermen. Vervolgens probeert u te extort van de slachtoffers door te vragen om ' Ransom ', meestal in de vorm van cryptocurrencies zoals Bitcoin, in Exchange voor toegang tot gegevens.
 
-Naast de bestanden die u in de vorige stap hebt geblokkeerd, is het ook een goede gewoonte om een regel te maken om gebruikers te waarschuwen voordat u Office-bestandsbijlagen opent die macro's bevatten. Ransomware kan worden verborgen in macro's, dus waarschuwen gebruikers om deze bestanden niet te openen van mensen die ze niet kennen.
+U kunt zich beschermen tegen Ransomware door een of meer e-mail stroom regels te maken voor het blokkeren van bestandsextensies die vaak worden gebruikt voor Ransomware (ze zijn toegevoegd aan het [niveau van de bescherming tegen malware in een e-mail](#raise-the-level-of-protection-against-malware-in-mail) stap), of om gebruikers te waarschuwen die deze bijlagen in een e-mail ontvangen.
 
-Ga als een regel voor e-mailtransport:
-  
-1. Ga naar het beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> en kies **Beheercentra** \> **Exchange**.
-    
-2. Klik in de categorie **e-mailstroom** op **regels**.
-    
-3. Klik **+** op en klik vervolgens op Een nieuwe regel **maken**.
-    
-4. Klik onder aan het dialoogvenster op **Meer opties** om de volledige set opties weer te geven. 
-    
-5. Pas de instellingen in de volgende tabel toe voor de regel. Laat de rest van de instellingen bij de standaardinstelling, tenzij u ze wilt wijzigen.
-    
+Naast de bestanden die u in de vorige stap hebt geblokkeerd, is het ook verstandig om een regel te maken om gebruikers te waarschuwen voordat ze Office-bestandsbijlagen openen die macro's bevatten. Ransomware kan niet in macro's worden verborgen, dus waarschuwt gebruikers deze bestanden niet te openen van personen die ze niet kennen.
+
+Een e-mail transportregel maken:
+
+1. Ga naar het Beheercentrum op <https://admin.microsoft.com> en kies **beheer centra** \> **Exchange**.
+
+2. Klik in de categorie **mail flow** op **regels**.
+
+3. Klik op **+** en klik vervolgens op **een nieuwe regel maken**.
+
+4. Klik op **meer opties** onder aan het dialoogvenster om de volledige set met opties weer te geven.
+
+5. De instellingen in de onderstaande tabel voor de regel toepassen. Laat de rest van de instellingen op de standaardinstelling, tenzij u deze wilt wijzigen.
+
 6. Klik op **Opslaan**.
-    
-|**Instelling**|**Gebruikers waarschuwen voordat u bijlagen van Office-bestanden opent**||
-|:-----|:-----|:-----|
-|Naam  <br/> |Anti-ransomware regel: waarschuwen gebruikers  <br/>  |
-|Pas deze regel toe als . . .  <br/> |Elke bijlage . . . bestandsextensie komt overeen met . . .  <br/> |
-|Woorden of zinnen opgeven  <br/> |Voeg deze bestandstypen toe:  <br/> dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm  <br/>|
-|Ga als volgt te werk. . .  <br/> |De ontvanger op de hoogte stellen met een bericht  <br/> |
-|Berichttekst weergeven  <br/> |Open dit soort bestanden niet van mensen die u niet kent, omdat ze mogelijk macro's met schadelijke code bevatten.  <br/> |
-   
+
+|Instelling|Gebruikers waarschuwen voordat bijlagen van Office-bestanden worden geopend|
+|---|---|
+|Naam|Regel voor een anti-Ransomware-regel: gebruikers waarschuwen|
+|Pas deze regel toe. . .|Een bijlage. . . komt overeen met bestandsextensies. . .|
+|Woorden of zinsdelen opgeven|Dit soort bestanden toevoegen: <br/> `dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm`|
+|Ga als volgt te werk. . .|De geadresseerde informeren met een bericht|
+|Berichttekst geven|Open deze typen bestanden niet van personen die u niet kent, omdat ze macro's kunnen bevatten met schadelijke code.|
+
 Zie voor meer informatie:
-  
-- [Hoe om te gaan met ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
-    
-- [Uw OneDrive herstellen](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
-    
 
+- [Ransomware: Risico's verminderen](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 
-## <a name="stop-auto-forwarding-for-email"></a>Automatisch doorsturen voor e-mail stoppen
+- [Uw OneDrive herstellen](https://support.microsoft.com//office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
 
-Hackers die toegang krijgen tot het postvak van een gebruiker kunnen uw e-mail stelen door het postvak in te stellen om automatisch e-mail door te sturen. Dit kan zelfs gebeuren zonder het bewustzijn van de gebruiker. U dit voorkomen door een e-mailstroomregel te configureren. 
-  
-Als u een regel voor e-mailtransport wilt maken, bekijkt u [deze korte video](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) of volgt u de volgende stappen:
-  
-1. Klik in het Microsoft 365-beheercentrum op **Beheercentra** \> **Exchange**.
-    
-2. Klik in de categorie **e-mailstroom** op **regels**.
-    
-3. Klik **+** op en klik vervolgens op Een nieuwe regel **maken**.
-    
-4. Klik onder aan het dialoogvenster op **Meer opties** om de volledige set opties weer te geven. 
-    
-5. Pas de instellingen toe in de volgende tabel. Laat de rest van de instellingen bij de standaardinstelling, tenzij u ze wilt wijzigen.
-    
+## <a name="stop-auto-forwarding-for-email"></a>Automatisch doorsturen van e-mail stoppen
+
+Hackers die toegang krijgen tot het postvak van een gebruiker kunnen uw e-mail stelen door het postvak in te stellen op het automatisch doorsturen van e-mail. Dit kan zelfs zonder de aandacht van de gebruiker. U kunt dit voorkomen door een e-mail stroom regel te configureren.
+
+Voor het maken van een transportregel kunt u [deze korte video](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) bekijken of volgt u deze stappen:
+
+1. Klik in het Microsoft 365-Beheercentrum op Exchange **Centers** \> **Exchange**.
+
+2. Klik in de categorie **mail flow** op **regels**.
+
+3. Klik op **+** en klik vervolgens op **een nieuwe regel maken**.
+
+4. Klik op **meer opties** onder aan het dialoogvenster om de volledige set met opties weer te geven.
+
+5. De instellingen in de onderstaande tabel toepassen. Laat de rest van de instellingen op de standaardinstelling, tenzij u deze wilt wijzigen.
+
 6. Klik op **Opslaan**.
-    
-|**Instelling**|**Gebruikers waarschuwen voordat u bijlagen van Office-bestanden opent**|
-|:-----|:-----|
-|Naam  <br/> |Automatisch doorsturen van e-mail naar externe domeinen voorkomen  <br/> |
-|Pas deze regel toe als ...  <br/> |De afzender. . . is extern/intern . . . Binnen de organisatie  <br/> |
-|Voorwaarde toevoegen  <br/> |De eigenschappen van het bericht . . . het berichttype op te nemen. . . Automatisch doorsturen  <br/> |
-|Doe het volgende ...  <br/> |Blokkeer het bericht . . . het bericht te weigeren en een uitleg op te nemen.  <br/> |
-|Berichttekst weergeven  <br/> |E-mail automatisch doorschakelen buiten deze organisatie wordt om veiligheidsredenen voorkomen.  <br/> |
 
+|Instelling|Gebruikers waarschuwen voordat bijlagen van Office-bestanden worden geopend|
+|---|---|
+|Naam|Voorkom automatisch doorsturen van e-mail naar externe domeinen|
+|Deze regel toepassen als...|De afzender. . . is extern/intern. . . Binnen de organisatie|
+|Voorwaarde toevoegen|De berichteigenschappen. . . het berichttype opnemen. . . Automatisch doorsturen|
+|Voer een van de volgende handelingen uit...|Het bericht blokkeren. . . u ziet het bericht af en voegt een uitleg toe.|
+|Berichttekst geven|Het automatisch doorsturen van e-mail buiten deze organisatie kan beveiligingsredenen voorkomen.|
 
-## <a name="protect-your-email-from-phishing-attacks"></a>Bescherm uw e-mail tegen phishing-aanvallen
+## <a name="protect-your-email-from-phishing-attacks"></a>Uw e-mail beschermen tegen phishing-aanvallen
 
-Als u een of meer aangepaste domeinen hebt geconfigureerd voor uw Office 365- of Microsoft 365-omgeving, u gerichte bescherming tegen phishing configureren. ATP-bescherming tegen phishing, onderdeel van Office 365 Advanced Threat Protection, kan uw organisatie beschermen tegen schadelijke imitatiegebaseerde phishing-aanvallen en andere phishing-aanvallen. Als u een aangepast domein nog niet hebt geconfigureerd, hoeft u dit niet te doen.
-  
-We raden u aan om aan de slag te gaan met deze bescherming door een beleid te maken om uw belangrijkste gebruikers en uw aangepaste domein te beschermen. 
+Als u een of meer aangepaste domeinen hebt geconfigureerd voor uw Office 365-of Microsoft 365-omgeving, kunt u de gerichte bescherming tegen phishing instellen. Met een anti-virusbeveiliging van ATP, een onderdeel van Office 365 Advanced Threat Protection, kunt u uw organisatie beschermen tegen kwaadaardige aanvallen op basis van kwaadaardige aanvallen en andere phishing-aanvallen. U hoeft dit niet te doen als u geen aangepast domein hebt geconfigureerd.
 
-Als u een ATP-antiphishingbeleid wilt maken, bekijkt [u deze korte trainingsvideo](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)of voert u de volgende stappen uit:
-  
-1. Ga naar [https://protection.office.com](https://protection.office.com). 
-    
-2. Kies beleid in het Security &amp; Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**. **Policy**
-    
-3. Kies **op** de pagina Beleid de optie **ATP-anti-phishing**.
-    
-4. Selecteer **+ Maken**op de pagina **Anti-phishing** . Een wizard lanceert die u door het definiëren van uw anti-phishing beleid.
-    
-5. Geef de naam, beschrijving en instellingen voor uw beleid op zoals aanbevolen in de onderstaande grafiek. Zie Meer informatie [over atp-beleidsopties voor antiphishing.](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) 
-    
-6. Nadat u uw instellingen hebt bekeken, kiest u **Dit beleid maken** of **Opslaan**, naar gelang van het geval.
-    
+U wordt geadviseerd om aan de slag te gaan met deze bescherming door een beleid te maken voor de bescherming van de belangrijkste gebruikers en uw aangepaste domein.
 
-|**Instellen of optie**<br/>|**Aanbevolen instelling** <br/>|
-|:-----|:-----|
-|Naam  <br/> |Domein en meest waardevolle campagnemedewerkers  <br/> |
-|Beschrijving  <br/> |Zorg ervoor dat de belangrijkste medewerkers en ons domein niet worden nagebootst.  <br/> |
-|Gebruikers toevoegen om te beschermen  <br/> |Selecteer **+ Een voorwaarde toevoegen, de ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke medewerkers. U maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.  <br/> |
-|Domeinen toevoegen om te beschermen  <br/> |Selecteer **+ Een voorwaarde toevoegen, het domein van de ontvanger is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement als u er een hebt gedefinieerd. U meer dan één domein invoeren.  <br/> |
-|Acties kiezen  <br/> |Als e-mail wordt verzonden door een geïmiteerde gebruiker: Kies **Bericht omleiden naar een ander e-mailadres**en typ het e-mailadres van de beveiligingsbeheerder; *Bijvoorbeeld Alice <span> <span> @contoso.com*.          Als e-mail wordt verzonden door een geïmiteerd domein: Kies **Quarantainebericht**.  <br/> |
-|Postvakintelligentie  <br/> |Standaard wordt postvakinformatie geselecteerd wanneer u een nieuw antiphishingbeleid maakt. Laat deze instelling **aan** staan voor de beste resultaten.  <br/> |
-|Vertrouwde afzenders en domeinen toevoegen  <br/> |Hier u uw eigen domein of andere vertrouwde domeinen toevoegen.  <br/> |
-|Toegepast op  <br/> |Selecteer **Het geadresseerdedomein is**. Selecteer onder **Een van deze**opties de optie **Kiezen**. Selecteren **+ Toevoegen**. Schakel het selectievakje in naast de naam van het domein, bijvoorbeeld *contoso. <span> <span> com*, in de lijst en selecteer **Toevoegen**. Selecteer **Gereed**.  <br/> |
-   
-Zie Het [antiphishingbeleid van Office 365 ATP instellen](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)voor meer informatie .
-  
-## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>Bescherm tegen schadelijke bijlagen, bestanden en koppelingen met Advanced Threat Protection (ATP)
+Bekijk [deze korte trainings video](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)of voer de volgende stappen uit als u een ATP anti-phishingfilter wilt maken:
 
-![Banner die wijzen op https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
+1. Ga naar <https://protection.office.com>.
 
-Zorg er eerst voor dat u in het beheercentrum de <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> nieuwe preview-versie van het beheercentrum hebt ingeschakeld. Schakel de schakelaar naast de tekst in **Het nieuwe beheercentrum**.
+2. Kies in het gedeelte beveiligings & compliance in het linker navigatiedeelvenster onder **Threat Management**de optie **beleid**.
 
-   ![De nieuwe preview van het beheercentrum op.](../media/previewon.png)
+3. Kies op de pagina **beleid** de optie **ATP anti-phishing**.
 
-Als u de pagina **Setup** met kaarten in uw tenant nog niet ziet, raadpleegt u hoe u deze stappen uitvoeren in Security &amp; Compliance Center. Zie [Veilige ATP-bijlagen instellen in het Security & Compliance Center](#set-up-atp-safe-attachments-in-the-security--compliance-center) en [ATP Safe Links instellen in het Security & Compliance Center](#set-up-atp-safe-links-in-the-security--compliance-center).
+4. Selecteer **+ maken**op de pagina **anti phishing** . Met een wizard wordt u stapsgewijs begeleid bij het definiëren van uw anti phishing-beleid.
 
-1.  Kies **Setup**in het linkerv.
-2. Kies **op** de pagina Setup **de** optie Weergave op de **bescherming verhoog de bedreigingen.**</br></br>
-    ![Kies Weergave op de bescherming verhoog tegen geavanceerde bedreigingen.](../media/startatp.png) 
+5. Geef de naam, de beschrijving en de instellingen op voor het beleid zoals aanbevolen in de onderstaande tabel. Zie voor meer informatie informatie [over de opties voor het instellen van een anti-phishingfilter van ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
 
-3. Kies op de pagina **Bescherming verhoog met geavanceerde bedreigingen** de optie Aan de **slag**.
-4. Schakel in het deelvenster dat wordt geopend de selectievakjes in naast **Koppelingen en bijlagen in e-mail,** **Bestanden scannen in SharePoint, OneDrive en Teams en**De **koppelingen Scannen in Office-bureaublad- en Office Online-apps** onder **Items scannen op schadelijke inhoud**.
+6. Wanneer u de instellingen hebt gecontroleerd, kiest u **dit beleid maken** of **Opslaan**.
 
-      - Typ **onder Koppelingen en bijlagen in e-mail**alle gebruikers of de specifieke gebruikers waarvan u de e-mail wilt scannen.
+|Instelling of optie|Aanbevolen instelling|
+|---|---|
+|Naam|Domein en meeste waardevolle campagne medewerkers|
+|Beschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
+|Gebruikers toevoegen om te beschermen|Selecteer **+ een voorwaarde toevoegen, de ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagne manager en andere belangrijke personeelsleden. U kunt maximaal 20 interne en externe adressen toevoegen die u wilt beveiligen tegen imitatie.|
+|Domeinen toevoegen die u wilt beveiligen|Selecteer **+ een voorwaarde toevoegen, het domein van de ontvanger is**. Voer het aangepaste domein in dat is gekoppeld aan uw Microsoft 365-abonnement als u er een hebt gedefinieerd. U kunt meer dan één domein opgeven.|
+|Acties kiezen|Als e-mail wordt verzonden door een geïmiteerde gebruiker: Kies **Bericht omleiden naar een ander e-mailadres**en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld *Alice <span> <span> @contoso. com*. <br/> Als e-mail wordt verzonden door een geïmiteerd domein: Kies **quarantaine bericht**.|
+|Postvak intelligentie|Standaard is postvak intelligentie geselecteerd wanneer u een nieuw anti-phishings beleid maakt. Voor de beste resultaten hoeft u **deze instelling niet** te selecteren.|
+|Vertrouwde afzenders en domeinen toevoegen|U kunt hier uw eigen domein of een ander vertrouwd domein toevoegen.|
+|Toegepast op|Selecteer **het domein van de ontvanger**. Selecteer **kiezen**onder **een van deze**opties. Selecteer **+ toevoegen**. Schakel het selectievakje in naast de naam van het domein, bijvoorbeeld *contoso. <span> <span> com*, in de lijst en selecteer vervolgens **toevoegen**. Selecteer **Gereed**.|
 
-    ![Schakel alle selectievakjes in Beveiliging verhogen tegen geavanceerde bedreigingen in.](../media/setatp.png)
-5. Kies **Beleid maken** om atp-veilige bijlagen en ATP-veilige koppelingen in te schakelen.
+Zie voor meer informatie [Office 365 ATP anti phishingfilter-beleid instellen](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
 
-### <a name="set-up-atp-safe-attachments-in-the-security--compliance-center"></a>ATP-veilige bijlagen instellen in het Security & Compliance Center
+## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>Beveiligings bescherming tegen kwaadaardige bijlagen, bestanden en koppelingen met Advanced Threat Protection (ATP)
 
-Mensen verzenden, ontvangen en delen regelmatig bijlagen, zoals documenten, presentaties, spreadsheets en meer. Het is niet altijd gemakkelijk om te zien of een bijlage veilig of kwaadaardig is door alleen maar naar een e-mailbericht te kijken. Office 365 Advanced Threat Protection bevat atp-beveiliging voor veilige bevestiging, maar deze beveiliging is niet standaard ingeschakeld. We raden u aan een nieuwe regel te maken om deze beveiliging te gaan gebruiken. Deze beveiliging strekt zich uit tot bestanden in SharePoint, OneDrive en Microsoft Teams.
-  
-Als u een ATP-beleid voor veilige bijlagen wilt maken, bekijkt [u deze korte video](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)of voert u de volgende stappen uit:
-  
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je beheerdersaccount. 
-    
-2. Kies beleid in het Security &amp; Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**. **Policy**
-    
-3. Kies op de pagina Beleid **de optie VEILIGE BIJLAGEN ATP**.
-    
-4. Pas deze beveiliging op de pagina Veilige bijlagen breed toe door het selectievakje **ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams in** te schakelen. 
-    
-5. Selecteer **+** om een nieuw beleid te maken. 
-    
-6. Pas de instellingen toe in de volgende tabel. 
-    
-7. Nadat u uw instellingen hebt gecontroleerd, kiest **u Dit beleid maken** of **Opslaan**, naar gelang van het geval.
-    
+![Banner waarnaar wordt verwezen https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
 
-|**Instellen of optie**|**Aanbevolen instelling** <br/>|
-|:-----|:-----|
-|Naam  <br/> |Blokkeer huidige en toekomstige e-mails met gedetecteerde malware.  <br/> |
-|Beschrijving  <br/> |Blokkeer huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.  <br/> |
-|Bijlagen opslaan onbekende malware reactie  <br/> |Selecteer **Blokkeren - Blokkeer de huidige en toekomstige e-mails en bijlagen met gedetecteerde malware.**  <br/> |
-|Bijlage omleiden bij detectie  <br/> |Omleiding inschakelen (selecteer dit vak) Voer het beheerdersaccount of een postvakinstelling in voor quarantaine.          Pas de bovenstaande selectie toe als er een keer een keer een fout optreedt voor malwarescannen voor bijlagen (selecteer dit vak).  <br/> |
-|Toegepast op  <br/> |Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
-   
-Zie Het [antiphishingbeleid van Office 365 ATP instellen](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)voor meer informatie .
-  
-### <a name="set-up-atp-safe-links-in-the-security--compliance-center"></a>ATP Safe Links instellen in het Security & Compliance Center
+Zorg er eerst voor dat in het Beheercentrum <https://admin.microsoft.com> de preview-versie van het nieuwe Beheercentrum is ingeschakeld. Zet de wisselknop naast de tekst in **het nieuwe Beheercentrum**.
 
-Hackers verbergen soms kwaadaardige websites in links in e-mail of andere bestanden. Office 365 ATP Safe Links (ATP Safe Links), onderdeel van Office 365 Advanced Threat Protection, kan uw organisatie helpen beschermen door tijd-van-klikverificatie van webadressen (URL's) in e-mailberichten en Office-documenten te bieden. Bescherming wordt gedefinieerd via atp-beleid voor veilige koppelingen.
-  
-We raden u aan het volgende te doen:
-  
-- Wijzig het standaardbeleid om de beveiliging te verhogen.
-    
-- Voeg een nieuw beleid toe dat is gericht op alle ontvangers in uw domein.
-    
-Als u ATP Safe Links wilt instellen, bekijkt u [deze korte trainingsvideo](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)of voert u de volgende stappen uit:
-  
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld je aan met je beheerdersaccount. 
-    
-2. Kies beleid in het Security &amp; Compliance Center in het linkernavigatiedeelvenster onder **Bedreigingsbeheer**. **Policy**
-    
-3. Kies op de pagina Beleid **de optie VEILIGE VERBINDING MET ATP**.
-    
-Ga alstkader het standaardbeleid wijzigen:
-  
-1. Selecteer op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie**het **standaardbeleid.** 
-    
-2. Selecteer onder **Instellingen die van toepassing zijn op inhoud, behalve e-mail,** Microsoft **365-apps voor bedrijven, Office voor iOS en Android**.
-    
-3. Klik op **Opslaan**. 
-    
-Ga als een nieuw beleid maken dat is gericht op alle ontvangers in uw domein:
-  
-1. Klik op de pagina Veilige koppelingen onder **Beleid dat van toepassing is op de hele organisatie**om een nieuw beleid te **+** maken. 
-    
-2. Pas de instellingen toe die in de volgende tabel worden vermeld.
-    
-3. Klik op **Opslaan**. 
+   ![De nieuwe preview-versie van het Beheercentrum.](../media/previewon.png)
 
-|**Instellen of optie**|**Aanbevolen instelling** <br/>|
-|:-----|:-----|
-|Naam  <br/> |Beleid voor veilige koppelingen voor alle ontvangers in het domein  <br/> |
-|Selecteer de actie voor onbekende mogelijk schadelijke URL's in berichten  <br/> |Selecteer **Aan - URL's worden herschreven en gecontroleerd aan de hand van een lijst met bekende schadelijke koppelingen wanneer gebruikers op de link klikken.**  <br/> |
-|Veilige bijlagen gebruiken om downloadbare inhoud te scannen  <br/> |Selecteer dit vak.  <br/> |
-|Toegepast op  <br/> |Het domein van de ontvanger is . . . selecteer uw domein.  <br/> |
-   
-Zie veilige koppelingen met [Office 365 ATP](https://go.microsoft.com/fwlink/?linkid=2016138&amp;clcid=0x409)voor meer informatie .
-  
-## <a name="turn-on-the-unified-audit-log"></a>Het unified auditlogboek inschakelen
+Als u de **instellings** pagina nog niet ziet met kaarten in uw Tenant, raadpleegt u de stappen uitvoeren in beveiliging & compliance Center. Zie [voor meer informatie over ATP veilige bijlagen instellen in het beveiligings & nalevings centrum](#set-up-atp-safe-attachments-in-the-security--compliance-center) en [veilige ATP-koppelingen instellen in het beveiligings & nalevings centrum](#set-up-atp-safe-links-in-the-security--compliance-center).
 
-Nadat u de zoekopdracht voor het controlelogboek in het Security &amp; Compliance Center hebt ingeschakeld, u de beheerder en andere gebruikersactiviteit in het logboek behouden en doorzoeken. 
+1. Kies in het linkernavigatievenster de optie **instellen**.
+2. Kies op de pagina **instellingen** de optie **weergeven** op de kaart **meer beveiliging van de geavanceerde bedreiging** .
 
-U moet de rol Controlelogboeken in Exchange Online toegewezen krijgen om het zoeken naar controlelogboeken in of uit te schakelen in uw Microsoft 365-abonnement. Standaard wordt deze rol toegewezen aan de rolgroepen Compliance Management en Organisatiebeheer op de pagina Machtigingen in het Exchange-beheercentrum. Globale beheerders in Microsoft 365 zijn standaard lid van deze groep.
+   ![Kies weergeven bij een grotere bescherming tegen geavanceerde bedreigingen.](../media/startatp.png)
 
-1. Als u de zoekopdracht voor het controlelogboek wilt inschakelen, gaat u naar het beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> bij en kiest u **Naleving** onder **Beheercentra** in het linkernavigatiesysteem. 
-2. Kies op de **nalevingspagina van Microsoft 365** de optie **Meer resources**en **opent** vervolgens op de **Office 365-beveiligingscentrumkaart. &amp; **
+3. Kies aan de **slag**op de pagina **meer bescherming tegen geavanceerde bedreigingen** .
+4. Selecteer in het deelvenster dat wordt geopend, de selectievakjes naast **koppelingen en bijlagen in e-mail**, **Scan bestanden in SharePoint, OneDrive en teams**, en **Scan koppelingen in Office-bureaublad en Office Online-apps** onder **items voor schadelijke inhoud scannen**.
 
-    ![Kies Open op de beveiligingsauto's & compliance auto's.](../media/gotosecandcomp.png)
-3. Kies zoeken op de pagina beveiliging en naleving **en** controleer vervolgens **het zoeken naar controlelogboeken**.
-1. Kies boven aan de **zoekpagina controlelogboek** de optie **Controle inschakelen.**
+   Typ onder **koppelingen en bijlagen bij e-mail**de tekst alle gebruikers of de specifieke gebruikers van wie u het e-mailbericht wilt scannen.
 
-Nadat de functie is ingeschakeld, u zoeken naar bestanden, mappen en veel activiteiten. Zie [zoeken in het controlelogboek voor](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)meer informatie.
+   ![Schakel alle selectievakjes in voor een grotere bescherming tegen geavanceerde bedreigingen.](../media/setatp.png)
 
-## <a name="tune-up-anonymous-sharing-settings-for-sharepoint-and-onedrive-files-and-folders"></a>Instellingen voor anoniem delen voor SharePoint- en OneDrive-bestanden en -mappen af te stemmen
+5. Kies **beleid maken** om veilige bijlagen voor ATP en veilige koppelingen met ATP in te schakelen.
 
-(wijzig de standaardverloop van anonieme koppelingen naar 14 dagen, wijzig het standaarddelingstype in 'Specifieke personen') Ga alst u de instellingen voor delen voor OneDrive en SharePoint wijzigen:
-1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> en kies **SharePoint** onder **Beheercentra** in het linkernavigatiesysteem. 
-2. Ga in het SharePoint-beheercentrum naar **Policies** \> **Beleidsdeling**.
-3. Selecteer op de pagina **Delen** onder **Koppelingen voor bestanden en mappen** **specifieke personen**en selecteer onder Geavanceerde instellingen **voor koppelingen voor iedereen**de optie Deze **koppelingen moeten binnen deze vele dagen verlopen**en typ 14 (of een ander aantal dagen waartoe u de levensduur van de koppeling wilt beperken).
+### <a name="set-up-atp-safe-attachments-in-the-security--compliance-center"></a>Veilige bijlagen van ATP instellen in het compliance-& Beveiligingscentrum
 
-    ![Kies Specifieke personen en stel de vervaldatum van de koppeling in op 14 dagen.](../media/anyonelinks.png)
+Mensen verzenden, ontvangen en delen van bijlagen, zoals documenten, presentaties, spreadsheets en meer. Het is niet altijd eenvoudig om te zien of een bijlage veilig of schadelijk is, net zoals u een e-mailbericht bekijkt. Office 365 Advanced Threat Protection bevat bescherming tegen een vrije voorraad bijlage, maar deze bescherming is niet standaard ingeschakeld. U wordt geadviseerd om een nieuwe regel te maken om deze beveiliging te gaan gebruiken. Deze bescherming breidt zich uit naar bestanden in SharePoint, OneDrive en Microsoft teams.
 
-## <a name="activity-alerts"></a>Activiteitswaarschuwingen
+Als u een voorbeeld van een vrije-en eind bijlage wilt maken, bekijkt u [deze korte video](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)of voert u de volgende stappen uit:
 
-U activiteitswaarschuwingen gebruiken om beheerders- en gebruikersactiviteiten bij te houden en malware- en gegevensverliespreventieincidenten in uw organisatie te detecteren. Uw abonnement bevat een set standaardbeleid, maar u ook aangepaste beleidsregels maken. Zie [waarschuwingsbeleid voor](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)meer informatie . Als u bijvoorbeeld een belangrijk bestand opslaat in SharePoint waarvan u niet wilt dat iemand extern deelt, u een melding maken die u waarschuwt als iemand het wel deelt.
+1. Ga naar <https://protection.office.com> en meld u aan met uw beheerdersaccount.
 
-In het volgende cijfer ziet u het standaardbeleid dat is opgenomen in Microsoft 365. <br/><br/>
-    ![Standaardwaarschuwingsbeleid dat is opgenomen in Microsoft 365](../media/alertpolicies.png)
+2. Kies in het gedeelte beveiligings & compliance in het linker navigatiedeelvenster onder **Threat Management**de optie **beleid**.
+
+3. Kies op de pagina beleid de optie **veilige bijlagen met ATP**.
+
+4. Op de pagina veilige bijlagen past u deze beveiliging algemeen toe door het selectievakje **ATP voor SharePoint, OneDrive en Microsoft teams inschakelen** in te schakelen.
+
+5. Selecteer **+** om een nieuw beleid te maken.
+
+6. De instellingen in de onderstaande tabel toepassen.
+
+7. Wanneer u de instellingen hebt gecontroleerd, kiest u **dit beleid maken** of **Opslaan**.
+
+|Instelling of optie|Aanbevolen instelling|
+|---|---|
+|Naam|Huidige en toekomstige e-mails blokkeren met gedetecteerde malware.|
+|Beschrijving|Huidige en toekomstige e-mailberichten en bijlagen blokkeren met gedetecteerde malware.|
+|Bijlagen opslaan, onbekende malware van malware|Selecteer **blokkeren de huidige en toekomstige e-mailberichten en bijlagen blokkeren met gedetecteerde malware**.|
+|Bijlage omleiden bij detectie|Omleiding inschakelen (Selecteer dit vak) <br/> Voer het beheerdersaccount of postvak in voor quarantaine. <br/> De bovenstaande selectie toepassen als de malware wordt gescand op bijlagen wanneer een fout is opgetreden of als er een fout optreedt (Selecteer dit vak).|
+|Toegepast op|Het domein van de ontvanger is. . . Selecteer uw domein.|
+
+Zie voor meer informatie [Office 365 ATP anti phishingfilter-beleid instellen](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
+
+### <a name="set-up-atp-safe-links-in-the-security--compliance-center"></a>Veilige koppelingen voor vrije gebruikers instellen in het nalevings centrum voor beveiligings &
+
+Hackers verbergen soms schadelijke websites via e-mailberichten of andere bestanden. Veilige koppelingen in Office 365 ATP (veilige koppelingen voor ATP), een onderdeel van Office 365 Advanced Threat Protection, kan u helpen uw organisatie te beschermen door geklikt verificatie van webadressen (url's) te geven in e-mailberichten en Office-documenten. Beveiliging wordt gedefinieerd via het beleid voor veilige koppelingen voor regels.
+
+U wordt aangeraden het volgende te doen:
+
+- Wijzig het standaardbeleid om de beveiliging te verbeteren.
+
+- Een nieuwe beleidsregel toevoegen die is bedoeld voor alle geadresseerden in uw domein.
+
+Bekijk [deze korte trainings video](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)of voer de volgende stappen uit om in te stellen dat u vrije verbindingen via ATP kunt instellen:
+
+1. Ga naar <https://protection.office.com> en meld u aan met uw beheerdersaccount.
+
+2. Kies in het gedeelte beveiligings & compliance in het linker navigatiedeelvenster onder **Threat Management**de optie **beleid**.
+
+3. Kies op de pagina beleid de optie **veilige koppelingen voor ATP**.
+
+Het standaardbeleid wijzigen:
+
+1. Selecteer op de pagina veilige koppelingen onder **beleidsregels die van toepassing zijn op de hele organisatie**het **standaard** beleid.
+
+2. Selecteer onder **instellingen die van toepassing zijn op inhoud met uitzondering van e-mail de**optie **Microsoft 365-apps voor Enterprise, Office voor IOS en Android**.
+
+3. Klik op **Opslaan**.
+
+Een nieuwe beleidsregel maken voor alle geadresseerden in uw domein:
+
+1. Klik op de pagina veilige koppelingen onder **beleidsregels die op de hele organisatie van toepassing zijn**, **+** om een nieuw beleid te maken.
+
+2. De instellingen in de volgende tabel toepassen.
+
+3. Klik op **Opslaan**.
+
+|Instelling of optie|Aanbevolen instelling|
+|---|---|
+|Naam|Beleid voor veilige koppelingen voor alle geadresseerden in het domein|
+|Selecteer de actie voor onbekende, mogelijk schadelijke Url's in berichten|Selecteer **on-url's worden herschreven en gecontroleerd tegen een lijst met bekende kwaadaardige koppelingen wanneer de gebruiker klikt op de koppeling**.|
+|Veilige bijlagen gebruiken om downloadbare inhoud te scannen|Schakel dit selectievakje in.|
+|Toegepast op|Het domein van de ontvanger is. . . Selecteer uw domein.|
+
+Zie voor meer informatie [veilige koppelingen in Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links).
+
+## <a name="turn-on-the-unified-audit-log"></a>Het Unified audit logboek inschakelen
+
+Nadat u de zoekopdracht in het auditlogboek in de beveiligings & compliance hebt ingeschakeld, kunt u de beheerder en andere gebruikersactiviteit in het logboek bewaren en de zoekfunctie in het logboek doorzoeken.
+
+U moet de rol Auditlogboeken in Exchange Online hebben als u de zoekfunctie voor auditlogboeken wilt in-of uitschakelen in uw Microsoft 365-abonnement. Deze functie wordt standaard toegewezen aan de rollen groepen Compliance Management en Organisatiebeheer op de pagina machtigingen in het Exchange-Beheercentrum. Globale beheerders in Microsoft 365 zijn standaard lid van deze groep.
+
+1. Als u het zoeken in het auditlogboek wilt inschakelen, gaat u naar het Beheercentrum op <https://admin.microsoft.com> en kiest u vervolgens **naleving** onder **beheer centra** in het linkernavigatievenster.
+2. Kies op de pagina **Microsoft 365 compliance** de optie **meer resources**en **Open** vervolgens de kaart **Office 365-beveiliging & centrum** .
+
+    ![Kies openen in het & voor de naleving van de beschermings auto's.](../media/gotosecandcomp.png)
+3. Kies op de pagina beveiliging en compliance de optie **Search** en vervolgens **audit log Search**.
+4. Kies op de bovenkant van de pagina zoeken in het **audit logboek** de optie **controle inschakelen**.
+
+Nadat de functie is ingeschakeld, kunt u zoeken naar bestanden, mappen en veel activiteiten. Zie [Zoeken in het auditlogboek](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)voor meer informatie.
+
+## <a name="tune-up-anonymous-sharing-settings-for-sharepoint-and-onedrive-files-and-folders"></a>Instellingen voor anonieme delen voor SharePoint-en OneDrive-bestanden en-mappen optimaliseren
+
+(de standaardinstelling voor anonieme koppelingen wijzigen naar 14 dagen, standaardtype delen wijzigen in ' specifieke personen ') U wijzigt als volgt de instellingen voordelen in OneDrive en SharePoint:
+
+1. Ga naar het Beheercentrum <https://admin.microsoft.com> en kies vervolgens **SharePoint** onder **admin Centers** in het navigatiemenu aan de linkerkant.
+2. Ga in het SharePoint-Beheercentrum naar **beleid** \> **delen**.
+3. Selecteer op de pagina voor **delen** onder **koppelingen naar bestanden en mappen**de optie **specifieke personen**en selecteer onder **Geavanceerde instellingen voor ' iedereen '** de optie **deze koppelingen moeten binnen het volgende aantal dagen verlopen**en typ in 14 (of een ander aantal dagen waarvoor u de levensduur van de verbinding wilt beperken).
+
+   ![Kies specifieke personen en stel de einddatum van de koppeling in op 14 dagen.](../media/anyonelinks.png)
+
+## <a name="activity-alerts"></a>Waarschuwingen voor activiteiten
+
+U kunt met activiteiten waarschuwingen beheerders en gebruikersactiviteiten bijhouden en malware en preventie van gegevensverlies detecteren in uw organisatie. Uw abonnement bevat een set standaardbeleid, maar u kunt ook aangepaste sjablonen maken. Zie [waarschuwings beleid](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)voor meer informatie. Als u bijvoorbeeld een belangrijk bestand opslaat in SharePoint en u niet wilt dat iedereen extern kan delen, kunt u een melding maken waarmee u wordt gewaarschuwd als iemand de afbeelding deelt.
+
+In de volgende afbeelding ziet u het standaardbeleid dat is opgenomen in Microsoft 365.
+
+![Standaard waarschuwings beleidsregels in Microsoft 365](../media/alertpolicies.png)
 
 ## <a name="disable-or-manage-calendar-sharing"></a>Het delen van agenda's uitschakelen of beheren
 
-U voorkomen dat mensen in uw organisatie hun agenda's delen of u ook beheren wat ze kunnen delen. U het delen bijvoorbeeld beperken tot alleen vrije/drukke tijden.
+U kunt voorkomen dat personen in uw organisatie hun agenda delen of u kunt ook beheren wat ze kunnen delen. U kunt bijvoorbeeld instellen dat alleen beschikbaarheidsinfo mag worden gedeeld.
 
-1. Ga naar het beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> en kies **Instellingen** services \> **& invoegtoepassingen**.
-2. Kies agenda's op de pagina **Services & invoegtoepassingen** en kies of mensen in uw organisatie hun agenda's kunnen delen met mensen buiten die Office 365 of Exchange hebben of met iemand. **Calendar** 
-    Als u de optie delen met iemand kiest, u besluiten om ook alleen gratis/drukke informatie te delen.
+1. Ga naar het Beheercentrum <https://admin.microsoft.com> en kies **instellingen** \> **Services & invoegtoepassingen**.
+2. Op de pagina **Services & invoegtoepassingen** kiest u **agenda**en kiest u of personen in uw organisatie hun agenda kunnen delen met personen buiten de organisatie van Office 365 of Exchange, of met iedereen.
 
-3. Kies **Wijzigingen opslaan** onder aan de pagina.
+   Als u de optie delen met iedereen kiest, kunt u ook de beschikbaarheidsinfo delen.
 
-    In de volgende afbeelding wordt weergegeven dat het delen van agenda's niet is toegestaan. </br></br>
-    ![Schermafbeelding van het weergeven van extern delen van agenda's als niet toegestaan.](../media/nocalendarsharing.png)
+3. Kies **wijzigingen opslaan** onder aan de pagina.
 
-    De volgende afbeelding toont de instellingen wanneer het delen van agenda is toegestaan met een e-maillink met alleen gratis/drukke informatie.
+   In de volgende afbeelding ziet u dat het delen van de agenda niet is toegestaan.
 
-   ![Schermafbeelding van agendavrij/druk delen met iedereen.](../media/sharefreebusy.png)
+   ![Schermafbeelding van het weergeven van externe agenda delen als niet toegestaan.](../media/nocalendarsharing.png)
 
-Als uw gebruikers hun agenda's mogen delen, raadpleegt u [deze instructies](https://support.office.com/article/7ecef8ae-139c-40d9-bae2-a23977ee58d5) voor delen in de webversie van Outlook.
+   In de volgende afbeelding ziet u de instellingen wanneer het delen van de agenda wordt toegestaan met een e-mailkoppeling met alleen beschikbaarheidsinfo.
+
+   ![Schermafbeelding van beschikbaarheidsinfo met anderen delen.](../media/sharefreebusy.png)
+
+Als uw gebruikers hun agenda mogen delen, raadpleegt u [deze instructies](https://support.office.com/article/7ecef8ae-139c-40d9-bae2-a23977ee58d5) voor het delen vanuit de webversie van Outlook.

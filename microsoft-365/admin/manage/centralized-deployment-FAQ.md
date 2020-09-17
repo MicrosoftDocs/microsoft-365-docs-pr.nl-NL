@@ -18,84 +18,86 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Bekijk de antwoorden op veelgestelde vragen over gecentraliseerde implementatie vanuit het Microsoft 365-beheercentrum.
-ms.openlocfilehash: b1b5ccbb5373bf5d536208efdfe487bc0c872f25
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+description: Bekijk de antwoorden op veelgestelde vragen over gecentraliseerde implementatie in het Microsoft 365-Beheercentrum.
+ms.openlocfilehash: 555496f15663b6607ebc785498bdc94b5e51b9c9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102882"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948686"
 ---
 # <a name="centralized-deployment-faq"></a>Veelgestelde vragen over Gecentraliseerde implementatie
 
-Gecentraliseerde implementatie is de aanbevolen manier voor een Office 365-beheerder om Office-invoegtoepassingen (Word, Excel, PowerPoint en Outlook) te implementeren voor gebruikers en groepen binnen een organisatie, op voorwaarde dat de organisatie voldoet aan alle vereisten voor het gebruik van Gecentraliseerde implementatie zoals beschreven in dit artikel.   
+Gecentraliseerde implementatie is de aanbevolen manier voor een Office 365-beheerder om Office-invoegtoepassingen (Word, Excel, PowerPoint en Outlook) te implementeren voor gebruikers en groepen binnen een organisatie, mits de organisatie voldoet aan alle vereisten voor het gebruik van gecentraliseerde implementatie zoals in dit artikel wordt beschreven.   
   
-## <a name="how-do-i-know-if-my-organization-is-set-up-for-centralized-deployment"></a>Hoe weet ik of mijn organisatie is ingesteld voor gecentraliseerde implementatie?  
+## <a name="how-do-i-know-if-my-organization-is-set-up-for-centralized-deployment"></a>Hoe weet ik of mijn organisatie is geconfigureerd voor gecentraliseerde implementatie?  
 
-Voor gecentraliseerde implementatie van invoegtoepassingen is vereist dat gebruikers Microsoft 365 Apps voor bedrijven gebruiken (en zijn aangemeld bij Office met behulp van hun inloggegevens voor organisatie) en dat ze Exchange Online-postvakken hebben. Uw abonnementsmap moet zich in Azure Active Directory bevinden of aan de federatieve toepassing hebben.  
+Gecentraliseerde implementatie van invoegtoepassingen vereist dat gebruikers Microsoft 365-apps gebruiken voor Enterprise (en zijn aangemeld bij Office met hun organisatie inlog referenties) en Exchange Online-postvakken hebben. Uw abonnements gids moet zich in de map bevinden, of federatief, Azure Active Directory.  
  
-Gecentraliseerde implementatie wordt alleen ondersteund voor online postvakken. Het biedt geen ondersteuning voor implementatie naar on-premises Exchange-postvakken.
+Gecentraliseerde implementatie wordt alleen ondersteund voor Online postvakken. Het biedt geen ondersteuning voor de implementatie van on-premises Exchange-postvakken.
 
-U de [gecentraliseerde implementatiecompatibiliteitscontrole](centralized-deployment-of-add-ins.md#centralized-deployment-compatibility-checker)gebruiken   om te bepalen of uw abonnement in aanmerking komt. 
+U kunt de [compatibiliteitscontrole voor gecentraliseerde implementatie](centralized-deployment-of-add-ins.md#centralized-deployment-compatibility-checker)gebruiken   om te bepalen of uw abonnement in aanmerking komt. 
   
-## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Hoe target u invoegtoepassingen met gecentraliseerde implementatie?  
+## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Hoe kan ik de Gebruikerstoewijzingen van de invoegtoepassing richten met gecentraliseerde implementatie?  
 
-Gecentraliseerde implementatie ondersteunt toewijzingen aan individuele gebruikers, groepen en iedereen in de tenant. Gecentraliseerde implementatie kan worden gebruikt voor gebruikers in groepen op het hoogste niveau of groepen zonder bovenliggende groepen, maar niet voor gebruikers in geneste groepen of groepen met bovenliggende groepen. Gecentraliseerde implementatie maakt ook deel uit van de meeste Azure Active Directory-groepen, waaronder Office 365-groepen, distributielijsten en beveiligingsgroepen.  
+Gecentraliseerde implementatie ondersteunt opdrachten voor afzonderlijke gebruikers, groepen en iedereen in de Tenant. Gecentraliseerde implementatie kan worden gebruikt voor gebruikers in groepen van het hoogste niveau of groepen zonder bovenliggende groepen, maar niet voor gebruikers in geneste groepen of groepen met bovenliggende groepen. Gecentraliseerde implementatie maakt ook deel uit van de meeste Azure Active Directory-groepen, waaronder Office 365-groepen, distributielijsten en beveiligingsgroepen.  
 
-Het is beter om groepstoewijzingen te gebruiken in plaats van individuele gebruikerstoewijzing voor eenvoudiger beheer.
+U kunt beter de toewijzingen groepen gebruiken in plaats van afzonderlijke gebruikers opdrachten voor eenvoudiger beheer.
  
-Zie [Toewijzingen voor gebruiker en groep](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#user-and-group-assignments)voor meer informatie.  
+Zie [toewijzingen van gebruikers en groepen](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#user-and-group-assignments)voor meer informatie.  
    
-## <a name="how-long-does-it-take-for-add-ins-to-show-up-for-all-users"></a>Hoe lang duurt het voordat invoegtoepassingen voor alle gebruikers worden weergegeven?  
+## <a name="how-long-does-it-take-for-add-ins-to-show-up-for-all-users"></a>Hoe lang duurt het voordat invoegtoepassingen worden weergegeven voor alle gebruikers?  
 
-Het kan tot 24 uur duren voordat een invoegtoepassing voor alle gebruikers wordt weergegeven. Het kan even veel tijd duren voor invoegupdates, wijzigingen bij het inschakelen of uitschakelen of invoegverruimen. 
+Het kan tot 24 uur duren voordat een invoegtoepassing voor alle gebruikers wordt weergegeven. Het kan even duren voor updates van de invoegtoepassing, de wijzigingen van de optie voor het in-of uitschakelen van de invoegtoepassing of het verwijderen van de invoegtoepassing. 
   
-## <a name="as-an-administrator-how-do-i-manage-the-user-access-to-add-ins-for-my-organization"></a>Hoe beheer ik als beheerder de gebruikerstoegang tot invoegtoepassingen voor mijn organisatie?
+## <a name="as-an-administrator-how-do-i-manage-the-user-access-to-add-ins-for-my-organization"></a>Hoe kan ik de toegang van gebruikers tot invoegtoepassingen voor mijn organisatie beheren?
 
-Voor eenvoudige implementatie van invoegtoepassingen voor gebruikers, groepen of uw hele organisatie raden we beheerders aan gecentraliseerde implementatie te gebruiken.
+Voor een eenvoudige implementatie van invoegtoepassingen aan gebruikers, groepen en de hele organisatie raden wij beheerders aan gecentraliseerde implementatie te gebruiken.
 
-Zie voor meer informatie over het beheren van gebruikerstoegang:
- - [Downloads van invoegtoepassing voorkomen door de Office Store voor alle clients uit te schakelen (behalve Outlook)](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook)
- - [Geef de beheerders en gebruikers op die invoegtoepassingen voor Outlook kunnen installeren en beheren](https://docs.microsoft.com/Exchange/specify-who-can-install-and-manage-add-ins-2013-help)
+Zie voor meer informatie over het beheren van gebruikers toegang:
+ - [Downloads van invoegtoepassingen voorkomen door Office Store op alle clients uit te schakelen (met uitzondering van Outlook)](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook)
+ - [Beheerders en gebruikers opgeven die invoegtoepassingen voor Outlook kunnen installeren en beheren](https://docs.microsoft.com/Exchange/specify-who-can-install-and-manage-add-ins-2013-help)
 
-## <a name="will-centralized-deployment-provide-admins-the-flexibility-to-choose-the-deployment-method-for-outlook-add-ins"></a>Biedt gecentraliseerde implementatie beheerders de flexibiliteit om de implementatiemethode voor Outlook-invoegtoepassingen te kiezen?  
+## <a name="will-centralized-deployment-provide-admins-the-flexibility-to-choose-the-deployment-method-for-outlook-add-ins"></a>Zorgt gecentraliseerde implementatie voor beheerders de flexibiliteit voor het kiezen van de implementatiemethode voor Outlook-invoegtoepassingen?  
 
-Ja. Gecentraliseerde implementatie biedt beheerders de flexibiliteit om een van de drie implementatiemethoden voor Outlook-invoegtoepassingen te kiezen tijdens de implementatie van de invoegtoepassing:
+Ja. Gecentraliseerde implementatie biedt beheerders de flexibiliteit voor het kiezen van een van de volgende drie implementatiemethoden voor Outlook-invoegtoepassingen tijdens de implementatie van invoegtoepassingen:
 
 **Vast (standaard)**   De invoegtoepassing wordt automatisch geïmplementeerd voor de toegewezen gebruikers en kan deze niet verwijderen.  
  
-**Beschikbaar** Gebruikers kunnen de invoegtoepassing in Outlook installeren door **home > Meer invoegtoepassingen te**kiezen > beheerde beheerder .
+**Beschikbaar** Gebruikers kunnen de invoegtoepassing in Outlook installeren door **start > meer invoegtoepassingen voor het beheren van beheerders te kiezen > beheerbare beheerder**.
  
-**Optioneel** De invoegtoepassing wordt automatisch geïmplementeerd voor de toegewezen gebruikers, maar ze kunnen ervoor kiezen deze te verwijderen.  
+**Optioneel** De invoegtoepassing wordt automatisch geïmplementeerd voor de toegewezen gebruikers, maar ze kunnen de optie wel verwijderen.  
     
-## <a name="can-admins-update-line-of-business-lob-add-ins"></a>Kunnen beheerders LOB-invoegtoepassingen (Line-of-Business) bijwerken?  
+## <a name="can-admins-update-line-of-business-lob-add-ins"></a>Kunnen beheerdersupdate van line-of-Business-invoegtoepassingen (LOB) toevoegen?  
 
-Ja. Beheerders kunnen een nieuw manifestbestand uploaden om wijzigingen in metagegevens te ondersteunen voor door beheerders geïmplementeerde LOB-invoegtoepassingen. De invoegtoepassing wordt bijgewerkt wanneer de Office-toepassingen de volgende keer worden gestart. De webtoepassing kan elk moment worden gewijzigd.  
+Ja. Beheerders kunnen een nieuw manifestbestand uploaden om wijzigingen in de metagegevens van door de beheerder geïmplementeerde LOB-invoegtoepassingen te ondersteunen. De invoegtoepassing wordt bijgewerkt wanneer de Office-toepassingen de volgende keer worden gestart. De webtoepassing kan elk moment worden gewijzigd.  
  
-Zie [line-of-business add-in](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#more-about-office-add-ins-security)voor meer informatie.  
+Zie [line-of-Business-invoegtoepassing](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#more-about-office-add-ins-security)voor meer informatie.  
 
 ## <a name="can-admins-turn-off-add-ins"></a>Kunnen beheerders invoegtoepassingen uitschakelen?  
 
-Ja. Beheerders kunnen de invoegtoepassingen die ze implementeren voor alle gebruikers van het Microsoft-beheercentrum in- of uitschakelen.
+Ja. Beheerders kunnen de invoegtoepassingen die ze voor alle gebruikers implementeren, in-of uitschakelen via het Microsoft-Beheercentrum.
 
-Zie [Invoegtoestanden](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#add-in-states)voor meer informatie .  
+Zie [Staten van invoegtoepassingen](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#add-in-states)voor meer informatie.  
 
 ##  <a name="can-admins-delete-or-remove-add-ins"></a>Kunnen beheerders invoegtoepassingen verwijderen of verwijderen?
 
-Ja. Beheerders kunnen invoegtoepassingen verwijderen die voor alle gebruikers zijn geïmplementeerd in het Microsoft-beheercentrum.
+Ja. Beheerders kunnen invoegtoepassingen verwijderen die ze voor alle gebruikers in het Microsoft-Beheercentrum hebben geïmplementeerd.
 
-Zie [Een invoegtoepassing verwijderen](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#delete-an-add-in)voor meer informatie. 
+Zie [een invoegtoepassing verwijderen](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#delete-an-add-in)voor meer informatie. 
   
-## <a name="can-admins-deploy-paid-add-ins-from-the-office-store-using-centralized-deployment"></a>Kunnen beheerders betaalde invoegtoepassingen uit de Office Store implementeren met gecentraliseerde implementatie? 
+## <a name="can-admins-deploy-paid-add-ins-from-the-office-store-using-centralized-deployment"></a>Kunnen beheerders betaalde invoegtoepassingen implementeren vanuit de Office Store met behulp van gecentraliseerde implementatie? 
 
-Nee. U op dit moment geen betaalde invoegtoepassingen uit de Office Store implementeren met gecentraliseerde implementatie.  
+Nee. Op dit moment kunt u betaalde invoegtoepassingen in de Office Store niet implementeren met behulp van gecentraliseerde implementatie.  
  
-We raden u aan contact op te nemen met de ISV-ontwikkelaar voor de betaalde invoegtoepassing om een manifestbestand of een URL aan te vragen. De tenantbeheerder kan de invoegtoepassing vervolgens implementeren als LOB-invoegtoepassing met behulp van gecentraliseerde implementatie.
+We raden u aan om bij de ISV-ontwikkelaar voor de betaalde invoegtoepassing een manifestbestand of een URL aan te vragen. De tenantbeheerder kan de invoegtoepassing vervolgens implementeren als een LOB-invoegtoepassing met gecentraliseerde implementatie.
     
-## <a name="which-admin-role-do-i-need-to-manage-add-ins-for-my-organization"></a>Welke beheerdersrol heb ik nodig om invoegtoepassingen voor mijn organisatie te beheren?  
+## <a name="which-admin-role-do-i-need-to-manage-add-ins-for-my-organization"></a>Welke beheerdersrol heb ik nodig voor het beheren van invoegtoepassingen voor mijn organisatie?  
 
-U moet de rol Global admin hebben om invoegtoepassingen te beheren. Als u de persoon bent die uw Microsoft 365 voor bedrijven-abonnement heeft gekocht, bent u de globale beheerder. 
+Globale beheerder is de aanbevolen rol met volledige toegang tot de beheer levensduur van de invoegtoepassing. Andere beheerdersrollen hebben een beperkte toegang tot de implementatie levensduur van de invoegtoepassing. Als u de persoon bent die uw abonnement op Microsoft 365 for Business heeft aangeschaft, bent u de globale beheerder. 
  
-Uw abonnement wordt geleverd met een reeks beheerdersrollen die u toewijzen aan andere gebruikers in uw organisatie. Elke beheerdersrol wordt toegewezen aan algemene bedrijfsfuncties en geeft mensen in uw organisatie machtigingen om specifieke taken uit te voeren in het Microsoft 365-beheercentrum.  
+Uw abonnement bevat een reeks beheerdersrollen die u kunt toewijzen aan andere gebruikers in uw organisatie. Elke beheerdersrol is toegewezen aan veelvoorkomende zakelijke functies en geeft personen in uw organisatie machtigingen voor het uitvoeren van bepaalde taken in het Microsoft 365-Beheercentrum.  
  
-Zie [Beheerdersrollen toewijzen voor](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide)meer informatie.  
+Zie [beheerdersrollen toewijzen](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide)voor meer informatie.  
+
+

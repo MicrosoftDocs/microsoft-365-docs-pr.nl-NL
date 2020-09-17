@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 12ac7d0a3d07749e16443e645f50de8fda185658
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: b9e900baf02e9fc866fe6fe520ad1e40ccd565de
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866777"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950698"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow tickets integreren in Microsoft 365 Beveiligingscentrum en compliance Center
 
@@ -32,7 +32,7 @@ ms.locfileid: "46866777"
 
 ServiceNow is een populaire Cloud computing platform waarmee bedrijven digitale werkstromen voor bedrijfsactiviteiten kunnen beheren. Hun platform bevat IT-werkstromen, werkstromen voor werknemers en workflows van klanten. [Meer informatie over ServiceNow](https://www.servicenow.com/)
 
-Microsoft heeft een samenwerkingsverband gemaakt met ServiceNow, zodat IT-beheerders hun tickets en taken op beide platforms kunnen beheren. [Microsoft 365-Beveiligingscentrum](overview-security-center.md) en het [Microsoft 365 compliance-centrum](https://docs.microsoft.commicrosoft-365/compliance/microsoft-365-compliance-center) worden uitgebreid met de mogelijkheid om in ServiceNow in te stellen en tickets te volgen.
+Microsoft heeft een samenwerkingsverband gemaakt met ServiceNow, zodat IT-beheerders hun tickets en taken op beide platforms kunnen beheren. [Microsoft 365-Beveiligingscentrum](overview-security-center.md) en het [Microsoft 365 compliance-centrum](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) worden uitgebreid met de mogelijkheid om in ServiceNow in te stellen en tickets te volgen.
 
 - [**ServiceNow tickets beheren in het Beveiligingscentrum**](tickets-security-center.md)
 - **ServiceNow tickets beheren in het compliance Center** (binnenkort beschikbaar)

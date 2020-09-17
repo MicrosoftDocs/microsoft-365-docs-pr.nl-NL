@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over meervoudige verificatie in Microsoft 365.
-ms.openlocfilehash: 71a61c51d2813880cad782d132679fa413ada987
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: bca84e949e696b483b567bf5f72233840023abca
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083584"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948710"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Meervoudige verificatie instellen voor Microsoft 365
 
@@ -75,7 +75,7 @@ De standaardinstellingen voor beveiliging bieden organisaties een basisbeveiligi
 
 U kunt beveiligingsstandaarden in- of uitschakelen vanuit het **eigenschappen**venster voor Azure AD in de Azure-portal.
 
-![Afbeelding van de pagina Map-eigenschappen.](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
+![Afbeelding van de pagina met adreslijst eigenschappen.](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
 
 U kunt beveiligingsstandaarden gebruiken met elk Microsoft 365-abonnement.
 
@@ -93,7 +93,7 @@ U kunt beleidsregels voor voorwaardelijke toegang ook gebruiken voor meer geavan
 
 U configureert het beleid voor voorwaardelijke toegang vanuit het deelvenster **Beveiliging** voor Azure AD in de Azure-Portal.
 
-![Afbeelding van de menuoptie voor voorwaardelijke toegang](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
+![Picure van de menuoptie voor voorwaardelijke toegang](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
 
 U kunt voorwaardelijke toegangsbeleidsregels gebruiken met:
 
@@ -134,13 +134,13 @@ U kunt Azure AD-identiteitsbescherming en beleid voor voorwaardelijke toegang op
 
 Zie dit [overzicht van Azure AD-identiteitsbescherming](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection) voor meer informatie.
 
-### <a name="mfa-for-an-individual-user-account-not-recommended"></a>MFA voor een afzonderlijk gebruikersaccount (niet aanbevolen)
+### <a name="legacy-per-person-mfa-not-recommended"></a>Verouderde per persoon MFA (niet aanbevolen)
 
 U moet beveiligingsstandaarden of beleid voor voorwaardelijke toegang gebruiken om MFA te vereisen voor het aanmelden van gebruikersaccounts. Als een van beide echter niet kan worden gebruikt, raadt Microsoft ten zeerste aan om MFA te gebruiken voor gebruikersaccounts met beheerdersrollen, met name voor de algemene beheerdersrol, voor elke abonnementomvang. 
 
 U schakelt MFA in voor individuele gebruikersaccounts vanuit het venster **Actieve gebruiker** van het Microsoft 365-beheercentrum.
 
-![Afbeelding van de optie Verificatie met meerdere factoren op de pagina Actieve gebruikers](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
+![Afbeelding van de optie multi factor Authentication op de pagina actieve gebruikers](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
 
 Wanneer de gebruiker zich de volgende keer aanmeldt, wordt hen gevraagd zich aan te melden bij MFA en de extra verificatiemethode te kiezen en te testen.
 
@@ -152,7 +152,7 @@ In deze tabel ziet u de resultaten van het inschakelen van MFA met de standaardi
 |:-------|:-----|:-------|:-------|
 | **Standaardinstellingen voor beveiliging** | Kan geen beleid voor voorwaardelijke toegang gebruiken |   Kan beleid voor voorwaardelijke toegang gebruiken | De Microsoft Authenticator-app |
 | **Beleidsregels voor voorwaardelijke toegang** |Als er een of meer zijn ingeschakeld, kunt u de standaardinstellingen voor beveiliging niet inschakelen | Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen | Door gebruiker opgegeven tijdens MFA-registratie |
-| **Accountinstelling per gebruiker (niet aanbevolen)** | Negeert beveiligingsstandaarden en beleid voor voorwaardelijke toegang dat MFA vereist bij elke aanmelding | Genegeerd door beveiligingsstandaarden en beleid voor voorwaardelijke toegang | Door gebruiker opgegeven tijdens MFA-registratie|
+| **Verouderde per persoon MFA (niet aanbevolen)** | Negeert beveiligingsstandaarden en beleid voor voorwaardelijke toegang dat MFA vereist bij elke aanmelding | Genegeerd door beveiligingsstandaarden en beleid voor voorwaardelijke toegang | Door gebruiker opgegeven tijdens MFA-registratie|
 ||||
 
 Als beveiligingsstandaarden zijn ingeschakeld, worden alle nieuwe gebruikers bij hun volgende aanmelding gevraagd om MFA-registratie en het gebruik van de Microsoft Authenticator-app.
@@ -171,4 +171,3 @@ In het Microsoft 365-beheercentrum kunt u MFA-instellingen per gebruiker en serv
 ## <a name="your-next-step"></a>Volgende stap
 
 [MFA instellen voor Microsoft 365](set-up-multi-factor-authentication.md)
-

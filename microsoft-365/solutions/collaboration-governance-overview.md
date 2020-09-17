@@ -14,12 +14,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Lees meer over het regelen van gerelateerde functies in Microsoft 365 groepen, teams, SharePoint en Yammer.
-ms.openlocfilehash: cdef9a4f939c20b34bf32efb5a258deddd885d0e
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: b217dc089eb150d01eed9cd720b2caa290d54bf1
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662557"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950710"
 ---
 # <a name="overview-of-collaboration-governance-in-microsoft-365"></a>Overzicht van Collaborate governance in Microsoft 365
 
@@ -108,16 +108,16 @@ Bekijk deze telefonische vergaderingen voor meer informatie over het beheer van 
 
 Leer de basisbeginselen en nieuwe innovaties in Microsoft 365-groepen, waaronder beheer en beheer, op schaal, aanbevolen procedures voor het gebruik van gebruik en de aanneming en selfservice.
 
-- [Microsoft 365-groepen bestrijken](https://myignite.techcommunity.microsoft.com/sessions/81553)
+- [Microsoft 365-groepen bestrijken](https://www.youtube.com/watch?v=dAamBF1gb7M)
 
 **Beheermodel**
 
 Meer informatie over het instellen van de levenscyclus van uw groepen, het instellen van het beleid, het classificeren van labels, de samenwerking met externe gasten, en machtigingen voor het maken van groepen beheren.
 
-- [Transformatie samenwerken en de schaduw afvechten met Office 365-groepen](https://myignite.techcommunity.microsoft.com/sessions/81554)
+- [Transformatie samenwerken en de schaduw afvechten met Office 365-groepen](https://www.youtube.com/watch?v=Bhf_bKx3lAg)
 
 **Voorbeeld van klant**
 
 Bekijk een voorbeeld van een voorbeeld van de achtergrond van de manier waarop Microsoft 365 groepen, SharePoint, teams en Yammer samenwerken zodat ze een algemeen samenwerkingsplatform vormen.
 
-- [De samenwerking met Office 365 groepen, SharePoint, teams en Yammer zoeken](https://myignite.techcommunity.microsoft.com/sessions/84289)
+- [De samenwerking met Office 365 groepen, SharePoint, teams en Yammer zoeken](https://www.youtube.com/watch?v=Rx9eVwqXeQk)

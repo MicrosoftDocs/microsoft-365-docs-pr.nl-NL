@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3ca475ef6dbdbd66af47216c4130d748788730c2
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 2259158c566223c39a6b533483551f95c2fa0824
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419130"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949298"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Best practices voor geavanceerde zoekactie
 
@@ -31,7 +31,12 @@ ms.locfileid: "47419130"
 
 Pas deze aanbevelingen toe om resultaten sneller te vinden en time-outs te voorkomen tijdens het uitvoeren van complexe query's. Lees voor meer informatie over het verbeteren van de prestaties van query's het artikel [Best practices voor Kusto query](https://docs.microsoft.com/azure/kusto/query/best-practices).
 
-## <a name="general-guidance"></a>Algemene richtlijnen
+## <a name="understand-cpu-resource-limits"></a>Meer informatie over de limieten voor CPU-bronnen
+Afhankelijk van de grootte, heeft elke Tenant toegang tot een ingestelde hoeveelheid processorbronnen die zijn toegewezen voor het uitvoeren van geavanceerde jacht-query's. Meer informatie over de verschillende service limieten vindt u in meer informatie [over geavanceerde jacht-limieten](advanced-hunting-limits.md).
+
+Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden en de optimaliserings richtlijnen toepassen in dit artikel om te voorkomen dat het minder storing oplevert dan de limieten.
+
+## <a name="general-optimization-tips"></a>Algemene optimaliserings tips
 
 - **Grootte van nieuwe query's**: als u vermoedt dat een query een grote resultatenset oplevert, moet u deze eerst beoordelen met de [operator Count](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator). Gebruik [Limit](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) of het synoniem `take` om grote resultaatsets te voorkomen.
 - **Filters eerst toepassen**: tijdfilters en andere filters toepassen om de gegevensverzameling te beperken, vooral voordat u functies voor transformeren en parseren gebruikt, zoals de [subtekenreeks ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [vervangen (](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction)), [Trim (](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction)), [ToUpper (](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)) of [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). In het onderstaande voorbeeld wordt de functie voor parseren [(extractjson)](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) gebruikt nadat gefilterde operatoren het aantal records hebben verminderd.
@@ -255,9 +260,7 @@ Meer informatie over alle ondersteunde functies voor het parseren van functies v
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Kusto querytaal documentatie](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
+- [Service limieten](advanced-hunting-limits.md)
+- [Geavanceerde jacht-fouten verwerken](advanced-hunting-errors.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
-- [Werken met queryresultaten](advanced-hunting-query-results.md)
-- [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
-- [Meer informatie over het schema](advanced-hunting-schema-tables.md)

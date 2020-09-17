@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Gegevens verplaatsingen bestaan uit een back-end en worden weergegeven wanneer door Microsoft services en bijbehorende gegevens voor uw Tenant worden verplaatst naar een nieuw datacenter-geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9f87628d6bbc65fe4122999f6d0fde809fed51b8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: acd2601d32617c56019ca8b4bf8688ce40f5d76a
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689157"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950270"
 ---
 # <a name="during-and-after-your-data-move"></a>Tijdens en na het verplaatsen van uw gegevens
 
@@ -36,7 +36,7 @@ Bekijk het Microsoft 365-berichtencentrum, zodat u kunt bevestigen wanneer u gaa
 |**Klanten met een land in**|**Alle verplaatste wordt voltooid door**|
 |:-----|:-----|
 |Australië, Nieuw-Zeeland, Fiji  <br/> |Woensdag 1 juli 2022  <br/> |
-|Japan  <br/> |Woensdag 1 juli 2022  <br/> |
+|Japan   <br/> |Woensdag 1 juli 2022  <br/> |
 |India  <br/> |Woensdag 1 juli 2022  <br/> |
 |Canada  <br/> |Woensdag 1 juli 2022  <br/> |
 |Zuid-Korea  <br/> |Woensdag 1 juli 2022  <br/> |
@@ -45,8 +45,8 @@ Bekijk het Microsoft 365-berichtencentrum, zodat u kunt bevestigen wanneer u gaa
 |Verenigde Arabische Emiraten  <br/> |Woensdag 1 juli 2022  <br/> |
 |Zuid-Afrika  <br/> |Woensdag 1 juli 2022  <br/> |
 |Zwitserland, Liechtenstein  <br/> |Woensdag 1 juli 2022  <br/> |
-|Duitsland  <br/> |Overwogen  <br/> |
 |Noorwegen  <br/> |Woensdag 1 november 2022  <br/> |
+|Duitsland  <br/> |Overwogen  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 
@@ -135,9 +135,9 @@ Externe services voor audio vergaderingen provider voor Skype voor bedrijven zij
   
 ## <a name="related-topics"></a>Verwante onderwerpen 
  
-[Het verplaatsen van gegevens aanvragen](request-your-data-move.md)
+[De verplaatsing van uw gegevens aanvragen](request-your-data-move.md)
     
-[Algemeen Veelgestelde vragen over gegevensverplaatsing](data-move-faq.md)
+[Algemene veelgestelde vragen over het verplaatsen van gegevens](data-move-faq.md)
   
 [Nieuwe datacenter GEOS voor Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   

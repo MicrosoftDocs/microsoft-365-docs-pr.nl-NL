@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: De beheerder kan leren hoe u ondersteuning configureert voor anonieme inkomende e-mail van IPv6-bronnen in Exchange Online en Exchange Online Protection.
-ms.openlocfilehash: 7384c1044cc02ec20079dc03068c2ca99e68d2c2
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: f2e14fe2e8e46d6085fc3764d3a41382f15049e9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826775"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950292"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Ondersteuning toevoegen voor anonieme inkomende e-mail via IPv6 in Microsoft 365
 
@@ -30,7 +30,7 @@ Microsoft 365-organisaties met postvakken van Exchange Online en standalone Exch
 
 - Het bron-IPv6-adres moet een geldige DNS-opzoek record (PTR) bevatten waarmee de bestemming de domeinnaam van het IPv6-adres kan vinden.
 
-- De afzender moet authenticatie via SPF (gedefinieerd in [rfc 7208](https://tools.ietf.org/html/rfc7208)) of [dkim-verificatie](https://dkim.org/) (gedefinieerd in [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)) passeren.
+- De afzender moet authenticatie via SPF (gedefinieerd in [rfc 7208](https://tools.ietf.org/html/rfc7208)) of [dkim-verificatie](http://dkim.org/) (gedefinieerd in [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)) passeren.
 
 Voordat uw organisatie anonieme inkomende e-mail via IPv6 kan ontvangen, moet een beheerder contact opnemen met Microsoft ondersteuning en vragen. Zie [contact opnemen met ondersteuning voor bedrijfsproducten-Help voor beheerders](../../admin/contact-support-for-business-products.md)voor meer informatie over het openen van een ondersteuningsaanvraag.
 
