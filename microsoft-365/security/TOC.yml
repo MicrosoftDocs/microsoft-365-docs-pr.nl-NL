@@ -7,21 +7,6 @@
           href: top-security-tasks-for-remote-work.md
         - name: Microsoft 365-beveiliging voor zakelijke beslissers
           href: Microsoft-365-security-for-bdm.md
-        - name: Workshoptraining voor Chief Information Officer (CISO)
-          href: ./office-365-security/ciso-workshop.md
-          items:
-            - name: Module 1 - Informatie over Microsoft-cyberbeveiliging
-              href: ./office-365-security/ciso-workshop-module-1.md
-            - name: Module 2 - Beveiligingsbeheer
-              href: ./office-365-security/ciso-workshop-module-2.md
-            - name: Module 3 - Gebruikerstoegang met identiteiten en zero trust
-              href: ./office-365-security/ciso-workshop-module-3.md
-            - name: 'Module 4a - Strategie voor bedreigingsbescherming, deel I'
-              href: ./office-365-security/ciso-workshop-module-4a.md
-            - name: 'Module 4b - Strategie voor bedreigingsbescherming, deel II'
-              href: ./office-365-security/ciso-workshop-module-4b.md
-            - name: Module 5 - Gegevensbescherming
-              href: ./office-365-security/ciso-workshop-module-5.md
     - name: Configuratie van identiteiten en apparaattoegang
       href: ../enterprise/microsoft-365-policies-configurations.md
       items:
@@ -87,7 +72,7 @@
               href: mtp/generate-test-alert.md
         - name: Handleidingen
           items:
-            - name: Een testlab-omgeving maken
+            - name: Een testlab- of testfaseomgeving maken
               href: mtp/mtp-evaluation.md
             - name: Ondersteunde services implementeren
               href: mtp/deploy-supported-services.md
@@ -127,6 +112,8 @@
                   href: mtp/advanced-hunting-overview.md
                 - name: De querytaal leren
                   href: mtp/advanced-hunting-query-language.md
+                - name: Deskundige training verkrijgen
+                  href: mtp/advanced-hunting-expert-training.md
                 - name: Aanbevolen procedures voor query's toepassen
                   href: mtp/advanced-hunting-best-practices.md
                 - name: Werken met queryresultaten
@@ -219,22 +206,62 @@
                   href: mtp/monitor-devices.md
                 - name: App-controle en -rapportage
                   href: mtp/monitor-apps.md
+            - name: API‘s
+              items: null
+        - name: Verwijzing
+          items:
             - name: Machtigingen en instellingen
               items:
                 - name: Toegang beheren
                   href: mtp/mtp-permissions.md
                 - name: Tijdzone instellen
                   href: mtp/mtp-time-zone.md
-            - name: Apparaatprofielen weergeven
-              href: mtp/device-profile.md
-            - name: Feedback geven
-              href: mtp/feedback.md
-            - name: ServiceNow-tickets en -taken maken
+                - name: Apparaatprofielen weergeven
+                  href: mtp/device-profile.md
+                - name: Feedback geven
+                  href: mtp/feedback.md
+                - name: ServiceNow-tickets en -taken maken
+                  items:
+                    - name: Overzicht van ServiceNow-integratie
+                      href: ./mtp/tickets.md
+                    - name: ServiceNow-tickets in het beveiligingscentrum
+                      href: ./mtp/tickets-security-center.md
+            - name: API‘s voor Microsoft Threat Protection (preview)
               items:
-                - name: Overzicht van ServiceNow-integratie
-                  href: ./mtp/tickets.md
-                - name: ServiceNow-tickets in het beveiligingscentrum
-                  href: ./mtp/tickets-security-center.md
+                - name: Overzicht van API‘s voor Microsoft Threat Protection (preview)
+                  href: mtp/api-overview.md
+                - name: Aan de slag met API‘s voor Microsoft Threat Protection (preview)
+                  items:
+                    - name: Licentie en gebruiksrechtovereenkomst voor API‘s voor Microsoft Threat Protection
+                      href: mtp/api-terms.md
+                    - name: Toegang tot API‘s voor Microsoft Threat Protection
+                      href: mtp/api-access.md
+                    - name: Voorbeeld van Hallo wereld
+                      href: mtp/api-hello-world.md
+                    - name: Toegang krijgen tot toepassingscontext
+                      href: mtp/api-create-app-web.md
+                    - name: Toegang krijgen tot gebruikerscontext
+                      href: mtp/api-create-app-user-context.md
+                    - name: Toegang krijgen toegang tot partnertoepassingen
+                      href: mtp/api-partner-access.md
+                    - name: Overige API-resources
+                      href: mtp/api-articles.md
+                - name: API‘s en schema voor Microsoft Threat Protection (preview)
+                  items:
+                    - name: Ondersteunde API‘s voor Microsoft Threat Protection
+                      href: mtp/api-supported.md
+                    - name: Algemene REST API-foutcodes
+                      href: mtp/api-error-codes.md
+                    - name: Geavanceerde API voor opsporing
+                      href: mtp/api-advanced-hunting.md
+                    - name: API's voor incidenten
+                      items:
+                        - name: Methoden en eigenschappen van incidenten
+                          href: mtp/api-incident.md
+                        - name: Lijst met incidenten
+                          href: mtp/api-list-incidents.md
+                        - name: Incident bijwerken
+                          href: mtp/api-update-incidents.md
     - name: Office 365-beveiliging
       items:
         - name: Aan de slag
