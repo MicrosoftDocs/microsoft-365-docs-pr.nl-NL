@@ -13,18 +13,18 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, abonnementen en implementatie paden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 55c7ca87d307fc9891d9967029f15e25414d7c18
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1a7c0cbb339ae0023264fbafb39e9b8682e98af2
+ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686310"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47775181"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
-Microsoft 365 voor bedrijven is een complete, intelligente oplossing die iedereen in staat stelt creatief te zijn en veilig samen te werken. 
+Microsoft 365 voor bedrijven is een complete, intelligente oplossing die iedereen in staat stelt creatief te zijn en veilig samen te werken.
 
-Microsoft 365, hoewel ontworpen voor grote bedrijven, kan ook worden gebruikt voor middelgrote en kleine bedrijven die de meest geavanceerde beveiligings-en productiviteits functionaliteit nodig hebben. 
+Microsoft 365 voor ondernemingen is ontworpen voor grote organisaties, maar kan ook worden gebruikt voor middelgrote en kleine bedrijven die de meest geavanceerde beveiligings- en productiviteitsmogelijkheden nodig hebben.
 
 ## <a name="components"></a>Onderdelen
 
@@ -32,9 +32,9 @@ Microsoft 365 voor bedrijven bestaat uit:
 
 | Services | Beschrijving |
 |:-------|:-----|
-| Lokale en cloud-apps en productiviteitsservices | Bevat zowel Microsoft 365-apps voor bedrijven, de nieuwste Office-apps voor uw PC en Mac (zoals Word, Excel, PowerPoint, Outlook en anderen), en een volledige suite Online Services voor e-mail, bestandsopslag en samenwerking, vergaderingen en meer. |
-| Windows 10 Enterprise | De behoeften van grote en middelgrote organisaties worden aangesproken, zodat gebruikers de meest productieve en veilige versie van Windows gebruiken en IT-professionals over een uitgebreide implementatie, apparaat en app-beheer beschikken. |
-| Beheer van apparaten en geavanceerde beveiligingsservices | Maakt deel uit van Microsoft Intune. Dit is een cloudservice voor Enterprise Mobility Management (EMM) waarmee uw werknemers productief kunnen zijn tijdens het beveiligen van uw organisatiegegevens. |
+| Lokale en cloud-gebaseerde apps en productiviteitsservices | Bevat zowel Microsoft 365-apps voor bedrijven, de nieuwste Office-apps voor uw PC en Mac (zoals Word, Excel, PowerPoint, Outlook en anderen), en een volledige suite Online Services voor e-mail, bestandsopslag en samenwerking, vergaderingen en meer. |
+| Windows 10 Enterprise | Voldoet aan de behoeften van grote en middelgrote organisaties. Dit is de meest productieve en veilige versie van Windows voor gebruikers. Voor IT-professionals, biedt ook uitgebreid implementatie-, apparaat- en app-beheer. |
+| Beheer van apparaten en geavanceerde beveiligingsservices | Maakt deel uit van Microsoft Intune. Dit is een cloudservice voor Enterprise Mobility Management waarmee uw werknemers productief kunnen zijn tijdens het beveiligen van uw organisatiegegevens. |
 |||
 
 ## <a name="plans"></a>Plannen
@@ -43,8 +43,8 @@ Microsoft 365 voor bedrijven is beschikbaar in drie abonnementen.
 
 | Naam van abonnement | Mogelijkheden |
 |:-------|:-----|
-| E3 | Toegang krijgen tot de belangrijkste producten en functies van Microsoft 365 om de productiviteit van werkplekken en innovatie op een veilige manier te verbeteren. |
-| E5 | Open de nieuwste producten en functies van Microsoft 365, met inbegrip van de hulpprogramma's voor geavanceerde bedreigingsbeveiliging, beveiliging en samenwerking. Bevat alle mogelijkheden van E3 plus geavanceerde functies voor beveiliging, spraak en gegevensanalyse. |
+| E3 | Toegang tot de kernproducten en -functies van Microsoft 365, om de productiviteit op de werkplek te verbeteren en innovatie te stimuleren. |
+| E5 | Open de meest recente producten en functies van Microsoft 365. Deze omvatten geavanceerde bescherming tegen bedreigingen, beveiligingstools en samenwerkingstools. Dit plan bevat alle mogelijkheden van E3 plus geavanceerde functies voor beveiliging, spraak en gegevensanalyse. |
 | F3 | Kom in contact met uw eerstelijnsmedewerkers via speciaal ontworpen hulpmiddelen en bronnen waarmee ze hun beste werk kunnen doen. |
 |||
 
@@ -55,7 +55,7 @@ Als u Microsoft 365 E3 hebt, kunt u ook de volgende invoegtoepassingen downloade
 - [Microsoft 365 E5 Compliance](https://www.microsoft.com/microsoft-365/business/e5-compliance)
 - Microsoft 365 E5 Insider Risk
 
-Deze aanbiedingen bevatten extra functies die zijn opgenomen in Microsoft 365 E5.
+Gebruikers van Microsoft 365 E3 kunnen de volgende invoegtoepassingen gebruiken om te profiteren van een aantal van de aanvullende functies van Microsoft 365 E5.
 
 Zie [functies en-voorzieningen](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)voor elk abonnement voor meer informatie.
 
@@ -63,23 +63,23 @@ Zie [functies en-voorzieningen](https://www.microsoft.com/microsoft-365/compare-
 
 De [poster voor Microsoft 365 voor ondernemingen](../downloads/Microsoft365Enterprise.pdf) is een centrale locatie die u kunt bekijken:
 
-- De voordelen van Microsoft 365 voor bedrijven en hoe apps en services toegevoegde waarde bieden
-- Microsoft 365 voor bedrijven-abonnementen en welke onderdelen ze bevatten 
-- De belangrijkste onderdelen van de moderne werkplek, die Microsoft 365 voor bedrijven mogelijk maakt
-- De [Microsoft 365 productiviteitsbibliotheek](https://www.microsoft.com/microsoft-365/success/) en representatieve scenario's voor enkele gemeenschappelijke afdelingen in de organisatie
+- De voordelen van Microsoft 365 voor ondernemingen, en hoe apps en services toegevoegde waarde bieden.
+- Abonnementen voor Microsoft 365 voor ondernemingen en de onderdelen die ze bevatten.
+- De belangrijkste componenten van de moderne Microsoft-werkplek, die Microsoft 365 voor ondernemingen mogelijk maakt.
+- De [Microsoft 365 Productiviteitsbibliotheek](https://www.microsoft.com/microsoft-365/success/) en representatieve scenario's voor enkele gemeenschappelijke afdelingen in de organisatie.
 
-[![Afbeelding voor de poster Microsoft 365 voor bedrijven](../media/microsoft-365-overview/m365e-poster.png)](../downloads/Microsoft365Enterprise.pdf)
+[![Afbeelding voor de poster Microsoft 365 voor ondernemingen](../media/microsoft-365-overview/m365e-poster.png)](../downloads/Microsoft365Enterprise.pdf)
 
-Als u een kopie van de poster wilt downloaden, klikt u [hier](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft365Enterprise.pdf).
+U kunt ook [een kopie van de poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft365Enterprise.pdf)downloaden.
 
 
 ## <a name="transition-your-entire-organization"></a>Uw hele organisatie overzetten
 
-Voor een beter beeld over het migreren naar producten en services in Microsoft 365 voor bedrijven, zie de [overgangsposter](../downloads/transition-org-to-m365.pdf).
+Voor een beter beeld over het migreren naar producten en services in Microsoft 365 voor ondernemingen, zie de [overgangsposter](../downloads/transition-org-to-m365.pdf).
 
 [![Afbeelding van de poster Overgang naar Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
 
-Deze poster van twee pagina's is een snelle manier om de bestaande infrastructuur te inventariseren en de informatiebronnen te vinden die u kunnen helpen bij het overstappen naar het bijbehorende product of de bijbehorende service in Microsoft 365 voor ondernemingen. De poster bevat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen, zoals apparaat- en identiteitsbeheer, informatiebeveiliging en beveiliging tegen bedreigingen.
+Deze poster van twee pagina‘s is een snelle manier om de bestaande infrastructuur te inventariseren. Het helpt u om hulp te vinden en over te stappen naar het corresponderende product of dienst in Microsoft 365 voor ondernemingen. De poster bevat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen, zoals apparaat- en identiteitsbeheer, informatiebeveiliging en beveiliging tegen bedreigingen.
 
 U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/transition-org-to-m365.pdf) en afdrukken in het formaat Letter, Legal of Tabloid (11 x 17).
 
@@ -106,25 +106,25 @@ U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-3
 
 Er zijn drie manieren om te plannen voor het implementeren van de producten, functies en onderdelen van Microsoft 365 voor bedrijven:
 
-1. In samenwerking met FastTrack
+- In samenwerking met FastTrack:
   
    Met FastTrack kunnen Microsoft-technici u op uw eigen tempo laten overstappen naar de Cloud. Zie [FastTrack voor Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
   
-2. Met behulp van Microsoft Consulting Services of een [Microsoft-partner](https://partner.microsoft.com/).
+- Met de hulp van Microsoft Consulting Services of een [Microsoft-partner](https://partner.microsoft.com/):
 
-   Consultants kunnen uw huidige infrastructuur analyseren en u helpen bij het ontwikkelen van een plan voor alle software en services van Microsoft 365 voor bedrijven.
+   Consultants kunnen uw huidige infrastructuur analyseren en u helpen bij het ontwikkelen van een plan om alle software en services van Microsoft 365 voor ondernemingen te gaan gebruiken.
 
-3. Doe het zelf
+- Doe het zelf:
 
-   Begin met [netwerk routekaart](networking-roadmap-microsoft-365.md) om uw bestaande infrastructuur en productiviteitsbelastingen op te bouwen of te verifiëren. 
+   Begin met de [Netwerkroutekaart](networking-roadmap-microsoft-365.md) om uw bestaande infrastructuur en productiviteitsbelastingen op te bouwen of te verifiëren. 
 
-Bekijk hoe de [Contoso Corporation](contoso-overview.md), een fictieve maar representatieve multinational, Microsoft 365-apps voor ondernemingen heeft geïmplementeerd.
+Bekijk als voorbeeld hoe de [Contoso Corporation](contoso-overview.md), een fictieve maar representatieve multinational, Microsoft 365-apps voor ondernemingen heeft geïmplementeerd.
 
 ## <a name="additional-microsoft-365-products"></a>Meer Microsoft 365-producten
 
 - [Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/)
  
-  U kunt de productiviteits-en samenwerkingsmogelijkheden van het bedrijf samenbrengen met de oplossingen voor Apparaatbeheer en beveiligingsoplossingen om zakelijke gegevens voor kleine en middelgrote bedrijven (MKB) te beveiligen.
+  Breng de allerbeste productiviteits- en samenwerkingsmogelijkheden samen met apparaatbeheer- en beveiligingsoplossingen om bedrijfsgegevens voor kleine en middelgrote bedrijven te beschermen.
 
 - [Microsoft 365 Education](https://docs.microsoft.com/education)
  
@@ -138,7 +138,7 @@ Bekijk hoe de [Contoso Corporation](contoso-overview.md), een fictieve maar repr
 
 ![Training voor Microsoft 365 Fundamentals](../media/microsoft-365-overview/m365-fundamentals.svg)
 
-Zorg dat u opgeleid bent en werkt aan een Microsoft 365-certificering. Begin met [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
+Om meer te weten te komen over Microsoft 365 en toe te werken naar een Microsoft 365-certificering, kunt u beginnen met [Microsoft 365 Certified: Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
 
 
 ## <a name="see-also"></a>Zie ook
