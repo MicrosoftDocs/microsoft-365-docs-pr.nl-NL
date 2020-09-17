@@ -15,15 +15,15 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 08/27/2020
+ms.date: 09/10/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 2e6638480ec3a687b1bed9f2a176b6bf21278ef2
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 1aa5d2b59bf1f07c0a74ee7381cbefdb2b5c7506
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308377"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949418"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
@@ -40,29 +40,29 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 - [Uw beleidsregels controleren met behulp van configuratie analyse](configuration-analyzer-for-security-policies.md)
 - [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
-- [Uitgebreide functies in de bedreigings Verkenner, waaronder populaire gebruikers, transportregels en connectors](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections)
+- [Uitgebreide functies in de bedreigings Verkenner, waaronder populaire gebruikers, transportregels en connectors](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP-abonnement 2)
 - Weergegeven overschrijft informatie in de [bedreigings Verkenner](threat-explorer.md) (e-mail is door Tenant/gebruikersbeleid toegestaan/geblokkeerd)
-- Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md) (malware, phishing, spam of geen)
+- Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md) (malware, phishing, spam of geen) 
 
 ## <a name="julyaugust-2020"></a>Juli 2020 
 
-- [Ervaring met de ervaring voor de jacht](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
-- [Eenvoudig aanbevolen instellingen toepassen via vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md)
+- [Ervaring met de ervaring voor de jacht](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (Office 365 ATP abonnement 1 of abonnement 2)
+- [Eenvoudig aanbevolen instellingen toepassen via vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md) 
 
 ## <a name="marchapril-2020"></a>Maart 2020
 
-- De mogelijkheid voor het [oplossen van gebruikersaccounts met gemanipuleerde gebruikersaccounts met automatisch onderzoek en antwoord](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) is nu meestal beschikbaar.
+- De mogelijkheid voor het [oplossen van gebruikersaccounts met gemanipuleerde gebruikersaccounts met automatisch onderzoek en antwoord](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) is nu meestal beschikbaar. (Office 365 ATP (abonnement 2)
 
 ## <a name="januaryfebruary-2020"></a>Januari 2020
 
-- [Algemene beschikbaarheid van campagne weergaven in Office 365 ATP](campaigns.md)
-- Uitbreidingen voor de [bedreigings Verkenner](threat-explorer.md) voor het in-en uitschakelen van beveiligingsactiviteiten teams om meerdere velden te doorzoeken en te filteren tijdens het [onderzoeken van e-mail](investigate-malicious-email-that-was-delivered.md):
+- [Algemene beschikbaarheid van campagne weergaven in office 365 ATP](campaigns.md) (Office 365 ATP-abonnement 2)
+- Uitbreidingen voor de [bedreigings Verkenner](threat-explorer.md) voor het in-en uitschakelen van beveiligingsactiviteiten teams om meerdere velden te doorzoeken en te filteren tijdens het door [sturen van E-mail](investigate-malicious-email-that-was-delivered.md): (Office 365 ATP-abonnement 2)
     - Bezorgingslocatie en speciale acties
     - Richting (inkomend, uitgaand of intra organisatie)
     - Geavanceerde niet-filters (dit zijn Geavanceerde filteropties die geen deel uitmaken van de optie geen, enzovoort).
     - Granulaire tijdfilters (dag, uur, half uur) 
 
-- De widget **incidenten** is nu de widget van het **Actiecentrum** . (Als u uw beveiligings widgets wilt bekijken, gaat u naar het beveiligings & nalevings centrum en gaat u naar **risicobeheer**  >  **Reviseren**.)
+- De widget **incidenten** is nu de widget van het **Actiecentrum** . (Als u uw beveiligings widgets wilt bekijken, gaat u naar het beveiligings & nalevings centrum en gaat u naar **risicobeheer**  >  **Reviseren**.) (Office 365 ATP (abonnement 2)
 
 - [Veilige documenten in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(preview)**
 
@@ -70,7 +70,7 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 - [URL exporteren Klik op gegevens voor offline analyse](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP-abonnement 1 of abonnement 2)
 
-- [Campagne weergaven gebruiken in Office 365 ATP (**Preview**)](campaigns.md)
+- [Gebruik campagne weergaven in office 365 ATP (**Preview**)](campaigns.md) (Office 365 ATP-abonnement 2)
 
 ## <a name="november-2019"></a>November 2019
 

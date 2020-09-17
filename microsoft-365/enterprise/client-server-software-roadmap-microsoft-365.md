@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: De routekaart voor het instellen van client-en serversoftware voor Microsoft 365.
-ms.openlocfilehash: 14169809deb363cac8ff3dd6ad35c12c20318674
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 898464222b8296cee3ab12fe7351295f39a23736
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689101"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950566"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Routekaart voor client-en serversoftware voor Microsoft 365
 
@@ -34,8 +34,7 @@ Als u de Business waarde van de Microsoft 365 for Enterprise Integrated suite va
 >Windows 7 heeft het einde van de ondersteuning bereikt op **14 januari 2020**. Voor meer informatie klikt u [hier](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020).
 >
 
-Door al deze migraties uit te voeren, heeft uw organisatie dichter bij de [moderne werkplek](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/), een beveiligde en geïntegreerde omgeving waarmee u het teamwerk en de creativiteit in uw organisatie kunt vergrendelen, wat wel is ingeschakeld en geschikt is voor microsoft 365 for Enterprise. 
-
+Door al deze migraties uit te voeren, heeft uw organisatie dichter bij de [moderne werkplek](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/), een beveiligde en geïntegreerde omgeving waarmee u het teamwerk en de creativiteit in uw organisatie kunt vergrendelen, wat wel is ingeschakeld en geschikt is voor microsoft 365 for Enterprise.
 
 ## <a name="migration-for-microsoft-office-client-products"></a>Migratie voor Microsoft Office-clientproducten
 
@@ -44,7 +43,7 @@ In veel grote en kleine organisaties wordt mogelijk een combinatie gebruikt van 
 - Kunnen worden [bijgewerkt](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5) met de nieuwste beveiligingsupdates en ondersteuningsoplossingen, maar het proces is soms handmatig en kan mogelijk niet worden geschaald binnen uw organisatie.
 - Zijn niet optimaal geschikt om de cloudtechnologieën van Microsoft te gebruiken en u te helpen bij het digitaal transformeren van uw bedrijf.
 - Bevatten geen nieuwe functies.
- 
+
 Microsoft 365 voor Enterprise omvat Microsoft 365-apps voor Enterprise, een versie van de Office-clientproducten die beschikbaar is met een Microsoft 365 voor Enterprise-licentie en wordt geïnstalleerd en bijgewerkt via de Microsoft-Cloud. Microsoft 365-apps voor ondernemingen bevat beveiligingsupdates en de nieuwste functies. Zie [Over Microsoft 365-apps voor ondernemingen](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps) voor meer informatie.
 
 ### <a name="office-2007"></a>Office 2007
@@ -63,7 +62,7 @@ Microsoft 365-apps voor ondernemingen installeert updates automatisch en kan geb
 
 Voor versies van Office in de Office 2010-release eindigt de ondersteuning op **13 oktober 2020**. Zie [Roadmap einde van ondersteuning voor Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap) voor meer informatie.
 
-In plaats van uw computers met Office 2010 te upgraden met Office 2013 of Office 2016, die beide handmatig moeten worden bijgewerkt, kunt u het volgende overwegen: 
+In plaats van uw computers met Office 2010 te upgraden met Office 2013 of Office 2016, die beide handmatig moeten worden bijgewerkt, kunt u het volgende overwegen:
 
 1. Een Microsoft 365-licentie voor uw gebruikers verkrijgen en toewijzen.
 2. Office 2010 van hun computers verwijderen.
@@ -92,7 +91,7 @@ In veel grote en kleine organisaties wordt mogelijk een combinatie gebruikt van 
 - Voegen geen nieuwe productiviteitstoepassingen toe, zoals Microsoft Teams.
 - Voegen niet de nieuwste beveiligingsfuncties toe, zoals Exchange Advanced Threat Protection.
 
-Microsoft 365 voor Enterprise bevat Cloud versies van Office Server-services die gebruikmaken van enkele van deze hulpprogramma's als on-premises versies van Office Server-software, zoals webbrowsers en de Outlook-client. Deze services worden voortdurend bijgewerkt op het punt van beveiliging zonder dat de IT-afdeling hierbij betrokken hoeft te zijn. U bespaart zo tijd die u kunt gebruiken om on-premises servers te onderhouden en bij te werken. Deze services bieden ook nieuw functieverbeteringen die niet aanwezig zijn in Office Server-software. 
+Microsoft 365 voor Enterprise bevat Cloud versies van Office Server-services die gebruikmaken van enkele van deze hulpprogramma's als on-premises versies van Office Server-software, zoals webbrowsers en de Outlook-client. Deze services worden voortdurend bijgewerkt op het punt van beveiliging zonder dat de IT-afdeling hierbij betrokken hoeft te zijn. U bespaart zo tijd die u kunt gebruiken om on-premises servers te onderhouden en bij te werken. Deze services bieden ook nieuw functieverbeteringen die niet aanwezig zijn in Office Server-software.
 
 Voor informatie over het migreren van gebruikers en gegevens voor specifieke Microsoft 365-workloads:
 
@@ -146,7 +145,7 @@ Voor serverproducten in de Office 2016-release is de einddatum voor de ondersteu
 
 ## <a name="migration-for-microsoft-windows-7-and-81"></a>Migratie voor Microsoft Windows 7 en 8.1
 
-Windows 7 heeft het einde van de ondersteuning bereikt op **14 januari 2020**. Als u uw apparaten met Windows 7 of Windows 8.1 wilt migreren, kunt u een in-place upgradeuitvoeren. 
+Windows 7 heeft het einde van de ondersteuning bereikt op **14 januari 2020**. Als u uw apparaten met Windows 7 of Windows 8.1 wilt migreren, kunt u een in-place upgradeuitvoeren.
 
 Zie [Windows 10 deployment scenarios](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios) (Implementatiescenario's voor Windows 10) voor aanvullende methoden. U kunt ook zelf [de implementatie van Windows 10 plannen](https://aka.ms/planforwin10deployment).
 
@@ -162,7 +161,7 @@ U kunt [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-d
 
 ## <a name="transition-your-entire-organization"></a>Uw hele organisatie overzetten
 
-Als u een betere afbeelding wilt over het verplaatsen van de hele organisatie naar de producten en services in Microsoft 365 for Enterprise, raadpleegt u de [overgangs poster](../downloads/transition-org-to-m365.pdf).
+Voor een beter beeld over het migreren naar producten en services in Microsoft 365 voor bedrijven, zie de [overgangsposter](../downloads/transition-org-to-m365.pdf).
 
 [![Afbeelding van de poster Overgang naar Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
 
@@ -172,11 +171,10 @@ U kunt [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-d
 
 ## <a name="how-microsoft-does-microsoft-365-for-enterprise"></a>How Microsoft doet Microsoft 365 voor Enterprise
 
-Kijk hoe IT-experts aan Microsoft het bedrijf met Microsoft 365 for Enterprise met de volgende informatiebronnen hebben gemigreerd: 
+Kijk hoe IT-experts aan Microsoft het bedrijf met Microsoft 365 for Enterprise met de volgende informatiebronnen hebben gemigreerd:
 
 - [Microsoft 365-Apps implementeren en bijwerken voor Enterprise](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [Microsoft migrates 150,000 mailboxes to Exchange Online](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)(Hoe Microsoft 150.000 postvakken heeft gemigreerd naar Exchange Online)
 - [SharePoint to the cloud: Learn how Microsoft ran its own migration](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration) (SharePoint naar de cloud: lees hoe Microsoft zelf de eigen migratie heeft uitgevoerd)
 - [Deploying Windows 10 at Microsoft as an in-place upgrade](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade) (Windows 10 implementeren bij Microsoft als een in-place upgrade)
 - [Windows 10 deployment: tips and tricks from Microsoft IT](https://www.microsoft.com/itshowcase/Article/Content/951/Windows-10-deployment-tips-and-tricks-from-Microsoft-IT) (video) (Implementatie van Windows 10: tips en trucs van Microsoft IT)
-

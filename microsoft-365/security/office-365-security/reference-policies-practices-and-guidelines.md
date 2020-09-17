@@ -16,12 +16,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft heeft verschillende beleidsregels en procedures ontwikkeld en u hebt diverse best practices ontwikkeld om onze gebruikers te helpen beschermen tegen beledigende, ongewenste e-mail of kwaadaardige e-mail.
-ms.openlocfilehash: 13bc62f8be25a21f5ed2d1c2c2f4208a56d28bf0
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 5b815678fc7462df5448447624d6f7c0c63d6eb6
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826515"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949654"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Verwijzing: Beleid, procedures en richtlijnen
 
@@ -43,7 +43,7 @@ E-mail verzonden naar Microsoft 365-gebruikers moeten voldoen aan alle toepassel
 
 - [CAN-SPAM Act: een compliance-handleiding voor bedrijven](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
 
-- ["Verwijder mij de reacties en verantwoordelijkheden: e-mailmarketingers moeten de claim" Afmelden "melden](https://www.lawpublish.com/ftc-emai-marketers-unsubscribe-claims.mdl)
+- ["Verwijder mij de reacties en verantwoordelijkheden: e-mailmarketingers moeten de claim" Afmelden "melden](https://www.lawpublish.com/ftc-emai-marketers-unsubscribe-claims.html)
 
 ## <a name="technical-guidelines"></a>Technische richtlijnen
 

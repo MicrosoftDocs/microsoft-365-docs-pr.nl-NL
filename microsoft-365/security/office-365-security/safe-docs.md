@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over veilige documenten in Microsoft 365 E5 of Microsoft 365 E5 beveiliging.
-ms.openlocfilehash: cd689099fc6a6caa1e0e649c3f152f1de123bf12
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 8918c7da26a60c7cfd64b7148d0added82cc6642
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827467"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949452"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
@@ -34,14 +34,16 @@ Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveil
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
+- Voor meer informatie over 
+
 - U moet machtigingen zijn toegewezen voordat u de procedures in dit onderwerp kunt uitvoeren. Als u veilige documenten wilt inschakelen en configureren, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** . Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
 ## <a name="how-does-microsoft-handle-your-data"></a>Hoe bewerkt Microsoft uw gegevens?
 
 Om te beschermen, worden met veilige documenten bestanden naar de [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) -Cloud verzonden voor analyse.
 
-- Meer informatie over de manier waarop u uw gegevens in Microsoft Defender Advanced Threat Protection verzorgt, vindt u [hier](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
-- Naast de bovenstaande richtlijnen, worden bestanden die zijn verzonden via veilige documenten niet bewaard na de tijd die nodig is voor analyse, wat meestal minder dan 24 uur duurt.
+- In [dit onderwerp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)vindt u meer informatie over de manier waarop u uw gegevens kunt vinden in Microsoft Defender Advanced Threat Protection.
+- Naast de bovenstaande richtlijnen, worden bestanden die zijn verzonden via veilige documenten niet bewaard na de tijd die nodig is om te worden geanalyseerd, wat meestal minder dan 24 uur duurt.
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Beveiligings & voor naleving van Beveiligingscentrum gebruiken om veilige documenten te configureren
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: In dit artikel leest u hoe u met EOP en Office 365 u kunt beschermen tegen spam, phishing en preventie van malware, door een veiligheids tip toe te voegen aan de e-mail.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e13e9cce325dfd3f8312c1d68459ab3c423c1fbb
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: b4bcfd2bf05f2f5ae7a51fbc2488cb1aa6e7d2c9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827479"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949630"
 ---
 # <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
 
@@ -38,12 +38,6 @@ Met de veiligheids tip, een bericht met een kleurcode, wordt u gewaarschuwd voor
     ![Schermafbeelding met een rode veiligheids tip.](../../media/5078a0be-e556-44a1-b169-09d780d26898.png)
 
     Met een rode veiligheids punt in een e-mailbericht houdt u het door u ontvangen bericht iets verdacht te zien, zoals een malafide zwendel. U wordt aangeraden dit soort e-mailbericht in uw postvak in te verwijderen zonder het te openen.
-
-- Spam (gele tip voor veiligheid).
-
-    ![Schermafbeelding met een gele tip voor veiligheid.](../../media/793c9265-ea44-48fd-a98f-804fadd4163b.png)
-
-    Een gele tip voor beveiliging in een e-mailbericht betekent dat het bericht is gemarkeerd als spam. Als u de afzender van het bericht niet herkent en vertrouwt, downloadt u geen bijlagen of afbeeldingen en klikt u niet op koppelingen in het bericht. In de webversie van Outlook kunt u op het bericht **geen spam** weergegeven op de gele balk van een item voor ongewenste e-mail om het bericht naar uw postvak in te verplaatsen. Als de gele tip voor een bericht wordt weergegeven in het postvak in, is dit waarschijnlijk omdat u het verplaatsen van spam naar de map Ongewenste E-mail hebt uitgeschakeld.
 
 - Veilige e-mail (groene veiligheids tip).
 

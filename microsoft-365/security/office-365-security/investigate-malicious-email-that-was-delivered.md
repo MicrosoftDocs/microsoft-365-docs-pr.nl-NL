@@ -19,19 +19,19 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van de functie voor het onderzoek van bedreigingen en de antwoord mogelijkheden om kwaadaardige e-mail te vinden en te onderzoeken.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5026b69f356fad11a664900a3e316d9c1c976905
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 91f16c3aa7ba98467c52fb25e0597f346a810003
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845952"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949262"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Schadelijke e-mailberichten onderzoeken die zijn uitgebracht in Office 365
 
 Met [Bebeschermings beveiliging van Office 365](office-365-atp.md) kunt u activiteiten onderzoeken waarmee mensen in uw organisatie worden bedreigd en om actie te ondernemen om uw organisatie te beveiligen. Als u bijvoorbeeld bij het beveiligingsteam van uw organisatie bent, kunt u verdachte e-mailberichten zoeken en onderzoeken die zijn ontvangen. U kunt dit doen met behulp van de [bedreigings Verkenner (of realtime detectie)](threat-explorer.md).
 
 > [!NOTE]
-> Ga naar het artikel herstel [hier](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-21vianet&branch=pr-en-us-4258).
+> Ga naar het artikel herstel [hier](remediate-malicious-email-delivered-office-365.md).
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -61,7 +61,7 @@ Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of h
 > [!NOTE]
 > *Voorbeeld* is een rol en geen rollen groep. de rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De rol van de globale beheerder wordt het Microsoft 365-Beheercentrum toegewezen [https://admin.microsoft.com](https://admin.microsoft.com) , en de rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in het beveiligings & nalevings centrum ( [https://protection.office.com](https://protection.office.com) ). Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
-## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>Verdachte e-mail zoeken en verwijderen die is afgeleverd
+## <a name="find-suspicious-email-that-was-delivered"></a>Verdachte e-mail vinden die is bezorgd
 
 Bedreigings Verkenner is een krachtig rapport waarmee u kunt zoeken naar meerdere doeleinden, zoals berichten zoeken en verwijderen, het IP-adres van een kwaadwillende e-mail verzender identificeren of een incident voor verder onderzoek starten. In de volgende procedure wordt beschreven hoe u met Verkenner schadelijke e-mail van de postvakken van de ontvanger kunt vinden en verwijderen.
 
@@ -191,11 +191,11 @@ Locatie van levering toont de resultaten van beleidsregels en detecties die na l
 **E-mail tijdlijn** is een veld in de Threat Explorer waarmee u de jacht eenvoudiger kunt maken voor uw beveiligingsactiviteiten. Wanneer meerdere gebeurtenissen plaatsvinden op of dicht bij een e-mailbericht, worden deze gebeurtenissen weergegeven in een tijdlijnweergave. Sommige gebeurtenissen die plaatsvinden na de bezorging van e-mail, worden vastgelegd in de kolom **speciale acties** . Wanneer u de gegevens van de tijdlijn van een e-mailbericht combineert met speciale acties die na de levering zijn uitgevoerd, levert beheerders inzicht in beleidsregels en bedreigings afhandeling op, bijvoorbeeld de manier waarop de e-mail is gerouteerd, en in sommige gevallen, wat de laatste beoordeling was.
 
 > [!IMPORTANT]
-> Ga naar [een sectie voor herstel.](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide)
+> Ga naar [een sectie voor herstel.](remediate-malicious-email-delivered-office-365.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Kwaadwillende e-mailberichten herstellen die worden bezorgd in Office 365](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide)
+[Kwaadwillende e-mailberichten herstellen die worden bezorgd in Office 365](remediate-malicious-email-delivered-office-365.md)
 
 [Office 365 Advanced Threat Protection](office-365-ti.md)
 

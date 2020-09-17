@@ -1,64 +1,65 @@
 ---
-title: Inzichten over Windows-beveiligingsupdate
+title: Inzichten in Windows-beveiligingsupdates
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ef2d5c897709e7f7d2484d032b7471031be77d74
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 772d1d52e977a067ff9bc3517de9cb2ae6c8c9a3
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42805586"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950365"
 ---
-# <a name="windows-security-update-insights"></a>Inzichten over Windows-beveiligingsupdate
-In deze weergave vindt u een overzicht van de status van beveiligingsupdates voor uw Microsoft Managed Desktop-apparaten. 
+# <a name="windows-security-update-insights"></a>Inzichten in Windows-beveiligingsupdates
+Deze weergave bevat een overzicht van de status van beveiligingsupdates voor uw beheerde bureaublad apparaten van Microsoft. 
 
-Als u gebruiksgegevens wilt weergeven, selecteert u het tabblad <strong>Windows-beveiligingsupdates.</strong>
+Als u gebruiksgegevens wilt weergeven, selecteert u het tabblad <strong>Windows-beveiligingsupdates</strong> .
 
-![Windows-beveiligingsupdates: weergrafieken van de apparaatstatus en updateversie in de linkerkolom, update implementatievoortgang in de loop van de tijd in middelste kolom en percentage actieve apparaten per implementatiegroep, evenals het aantal dagen dat nodig is om de implementatie van 95% te bereiken doel in de rechterkolom.](../../media/update-insights.jpg)
+![Deelvenster Windows-beveiligingsupdates: staafgrafieken van de apparaatstatus en de versie bijwerken in de linkerkolom, de voortgang van de implementatie in de kolom gecentreerd bijwerken en het percentage actieve apparaten per implementatiegroep, en het aantal dagen dat het implementatie doel voor 95% in de rechterkolom is bereikt.](../../media/update-insights.jpg)
 
 ## <a name="device-status"></a>Apparaatstatus
 
-Voor apparaten die door Windows Update moeten worden bijgewerkt, moeten ze zijn verbonden met het internet en niet gedurende minimaal zes uur in de sluimerstand zijn, waarvan er twee continu moeten zijn. Zolang een apparaat is aangesloten en niet in de sluimerstand, wordt het beschouwd als "in gebruik." Hoewel het mogelijk is dat een apparaat dat niet aan deze vereisten voldoet, wordt bijgewerkt, hebben apparaten die eraan voldoen de grootste kans om te worden bijgewerkt. 
+Voor apparaten die moeten worden bijgewerkt door Windows Update, moeten ze verbinding hebben met internet en niet in de slaapstand gedurende minimaal zes uur, waarvan de slaapstand niet lang moet zijn. Zolang een apparaat is aangesloten en niet in de slaapstand staat, wordt het beschouwd als ' in gebruik '. Hoewel het mogelijk is dat een apparaat dat niet aan deze vereisten voldoet, wordt bijgewerkt, zijn de apparaten die aan hen voldoen de beste kans om te worden bijgewerkt. 
 
-We categoriseren apparaatactiviteit in de context van Windows Update met de volgende termen:
+De hardware-activiteit wordt in de context van Windows Update met deze voorwaarden gecategoriseerd:
 
-- <strong>Actief:</strong> Apparaten die hebben voldaan aan de minimale gebruikscriteria (zes uur, twee continu) voor de meest recente versie van de beveiligingsupdate en ten minste om de vijf dagen hebben ingecheckt bij Microsoft Intune
-- <strong>Gesynchroniseerd:</strong> Apparaten die in de afgelopen 28 dagen zijn ingecheckt bij Intune
-- <strong>Niet synchroon:</strong> Apparaten die de afgelopen 28 dagen <i>niet</i> zijn ingecheckt bij Intune
-
-
+- <strong>Actief:</strong> Apparaten die voldoen aan de minimale gebruiks criteria (zes uur, twee continu) voor de meest recente update van beveiligingsupdates en minstens elke vijf dagen ingecheckt met Microsoft intune
+- <strong>Gesynchroniseerd:</strong> Apparaten die zijn ingecheckt met intune in de afgelopen 28 dagen
+- <strong>Niet gesynchroniseerd:</strong> Apparaten die <i>niet</i> zijn ingecheckt met intune in de afgelopen 30 dagen
 
 
-## <a name="update-version-status"></a>Versiestatus bijwerken
-
-Microsoft brengt elke tweede dinsdag van de maand beveiligingsupdates uit. Elke release voegt belangrijke updates toe voor bekende beveiligingsproblemen. Microsoft Managed Desktop zorgt ervoor dat 95% van de beheerde apparaten elke maand wordt bijgewerkt met de nieuwste beschikbare beveiligingsupdate. Beveiligingsupdates worden soms op andere momenten uitgebracht om nieuwe bedreigingen dringend aan te pakken. Microsoft Managed Desktop implementeert deze updates op een vergelijkbare manier.
-
-We categoriseren de status van beveiligingsupdateversies met de volgende voorwaarden:
-
-- <strong>Stroom:</strong> Apparaten waarop de update wordt uitgevoerd die in de huidige maand is uitgebracht
-- <strong>Vorige:</strong> Apparaten met de update die in de vorige maand is uitgebracht
-- <strong>Ouder:</strong> Apparaten met een beveiligingsupdate die vóór de vorige maand is uitgebracht
-
-U ziet weinig apparaten in de <strong>oudere</strong> categorie - een grote of groeiende populatie duidt waarschijnlijk op een systemisch probleem dat u moet rapporteren aan Microsoft Managed Desktop, zodat we dit kunnen onderzoeken.
 
 
-## <a name="deployment-progress"></a>Implementatievoortgang
+## <a name="update-version-status"></a>Versie status bijwerken
 
-Aan het begin van elke releasecyclus van elke beveiligingsupdate maakt Microsoft Managed Desktop een momentopname van de apparaatpopulatie en stelt het implementatiedoel in op 95% van die populatie. Het <strong>voortgangsgebied Implementatie</strong> toont een historische trend, die dagelijks wordt bijgewerkt en bijhoudt hoe nauw de update-implementatie aan dit doel voldoet voor elke release. Deze grafiek toont alleen apparaten met de actieve status.
+Microsoft brengt beveiligingsupdates elk de tweede dinsdag van de maand uit. Met elke release worden belangrijke updates voor bekende beveiligingsproblemen opgeteld. Microsoft Managed Desktop zorgt ervoor dat 95% van de beheerde apparaten wordt bijgewerkt met de nieuwste beschikbare beveiligingsupdate per maand. Beveiligingsupdates worden soms op andere momenten uitgebracht om nieuwe bedreigingen dringend te verhelpen. Microsoft Managed Desktop implementeert deze updates op een soortgelijke manier.
 
-U deze gegevens voor eerdere updatecycli bekijken met behulp van het vervolgkeuzemenu rechtsboven. De periode die u selecteert in dit menu is van toepassing op alle informatie op de hele pagina.
+De status van de versies van beveiligingsupdate wordt met deze voorwaarden gecategoriseerd:
 
-Het gebied <strong>Actieve apparaten bijgewerkt op implementatiegroep</strong> biedt een andere weergave door de voortgang van de update-installatie voor elk van de microsoft Managed Desktop-implementatiegroepen weer te geven.
+- <strong>Huidig:</strong> Apparaten waarop de update is uitgebracht in de huidige maand
+- <strong>Vorige:</strong> Apparaten waarop de update wordt uitgevoerd die in de vorige maand werd uitgebracht
+- <strong>Ouder:</strong> Apparaten met een of meer beveiligingsupdates die zijn uitgebracht vóór de vorige maand
 
-De <strong>dagen om het doelgebied te bereiken,</strong> geeft aan hoe lang het duurde voordat 95% van het totale aantal apparaten werd bijgewerkt met de huidige beveiligingsupdate. Terwijl de implementatie aan de gang is, wordt in dit gebied <strong>nog steeds bijgewerkt</strong> totdat de doelstelling van 95% is bereikt voor de geselecteerde update.
-
-## <a name="device-details-area"></a>Gebied Apparaatdetails
-
-Onder aan het dashboard vindt u een tabel met gedetailleerde informatie voor uw apparaten, waaronder de [apparaatstatus](#device-status) en de [status van de updateversie.](#update-version-status) U deze lijst doorzoeken of filteren op een vermelde waarde.
+U ziet slechts enkele apparaten in de <strong>oudere</strong> categorie: een grote of groeiende populatie duidt waarschijnlijk op een probleem met het systeem aan dat u moet rapporteren voor Microsoft Managed Desktop, zodat we kunnen onderzoeken.
 
 
-![Tabel Met tabel met apparaatdetails met kolommen voor apparaatnaam, toegewezen gebruiker, apparaatstatus, updateversie, versie van het besturingssysteem en de datum waarop het apparaat het laatst is gesynchroniseerd.](../../media/security-update-insights-device-table-sterile.png)
+## <a name="deployment-progress"></a>Voortgang van implementatie
+
+Aan het begin van elke release cyclus van beveiligingsupdates, wordt door Microsoft beheerde bureaubladtoepassing een momentopname van de bevolking van het apparaat gehouden en wordt het implementatie doel ingesteld op 95% van die populatie. Het gebied voortgang van de <strong>implementatie</strong> toont een historische trend, bijgewerkt op dag, waarop u kunt nagaan hoe nauw de update-implementatie voor elke release aan deze doel voldoet. Deze grafiek toont alleen apparaten met de actieve status.
+
+U kunt deze gegevens voor eerdere update cycli weergeven met behulp van de vervolgkeuzelijst in de rechterbovenhoek. De periode die u in dit menu hebt geselecteerd, is van toepassing op alle gegevens op de hele pagina.
+
+Het gebied <strong>met bijgewerkte actieve apparaten per distributiegroep</strong> biedt een andere weergave door de voortgang van de installatie van de update te tonen voor elk van de beheerde groepen Microsoft Managed Desktop Deployment.
+
+In het <strong>doelgebied dagen voor bereiken</strong> wordt de duur van 95% van het totale aantal apparaten dat wordt bijgewerkt met de huidige beveiligingsupdate weergegeven. Tijdens de implementatie wordt dit gebied <strong>nog steeds bijgewerkt</strong> totdat het 95% target voor de geselecteerde update is bereikt.
+
+## <a name="device-details-area"></a>Gebied Details van apparaat
+
+De onderkant van het dashboard is een tabel met gedetailleerde informatie voor uw apparaten, waaronder de status van het [apparaat](#device-status) en de [status van update versies](#update-version-status). U kunt deze lijst doorzoeken of filteren op een waarde in de lijst.
+
+
+![De tabel apparaatgegevens met de kolommen voor de naam van het apparaat, de toegewezen gebruiker, de apparaatstatus, de versie van het besturingssysteem, de versie van het besturingssysteem en de datum waarop het apparaat de laatste keer is gesynchroniseerd.](../../media/security-update-insights-device-table-sterile.png)

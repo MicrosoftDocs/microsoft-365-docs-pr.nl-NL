@@ -1,5 +1,5 @@
 ---
-title: Aanbevelingen voor netwerkprestaties in het Microsoft 365-Beheercentrum (preview)
+title: Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -14,16 +14,16 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Overzicht van netwerkverbindingen in het Microsoft 365-Beheercentrum (preview)
-ms.openlocfilehash: 2f7e922f1e9abd68ebe51d26ef270760a7c446e2
-ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
+ms.openlocfilehash: f8eff2248fb7abce75c27f227a2c5e7ec7219046
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46815241"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948415"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 
-Het Microsoft 365-Beheercentrum is nu includesaggregated netwerk verbindings metrieken van uw Microsoft 365-Tenant en is alleen beschikbaar voor weergave door beheerders gebruikers in uw Tenant. **Netwerk beoordelingen** en **netwerk inzichten** worden weergegeven in het Microsoft 365-Beheercentrum onder **gezondheidszorg | Connectiviteit**.
+Het Microsoft 365-Beheercentrum bevat nu de geaggregeerde metrische netwerk verbindings metriek van uw Microsoft 365-Tenant en kan alleen worden weergegeven door beheerders gebruikers in uw Tenant. **Netwerk beoordelingen** en **netwerk inzichten** worden weergegeven in het Microsoft 365-Beheercentrum onder **gezondheidszorg | Connectiviteit**.
 
 ![Pagina netwerkprestaties](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
 
@@ -35,9 +35,9 @@ U hebt drie opties voor het verkrijgen van netwerk beoordelingen vanaf uw kantoo
 
 ### <a name="1-enable-windows-location-services"></a>1. Windows-locatie Services inschakelen
 
-Voor deze optie moet u minimaal twee computers uitvoeren op elke locatie in Office waarop de vereisten worden ondersteund. OneDrive voor Windows versie 19,232 of hoger moet zijn geïnstalleerd op elke computer. Zie de opmerkingen bij de [onedrive-release](https://support.office.com/article/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0)voor meer informatie over onedrive-versies. Netwerk metingen kunnen in de nabije toekomst worden toegevoegd in andere clienttoepassingen van Office 365.
+Voor deze optie moet u minimaal twee computers uitvoeren op elke locatie in Office waarop de vereisten worden ondersteund. OneDrive voor Windows versie **19,232** of hoger moet zijn geïnstalleerd op elke computer. Zie de opmerkingen bij de [onedrive-release](https://support.office.com/article/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0)voor meer informatie over onedrive-versies. Netwerk metingen kunnen in de nabije toekomst worden toegevoegd in andere clienttoepassingen van Office 365.
 
-Windows-locatie service moet zijn doorgestuurd op de computers. U kunt dit testen door de app **kaarten** uit te voeren en te zoeken. U kunt deze optie inschakelen op een enkele computer **Settings**met  ->  de**privacyinstellingen**van de instellingen  ->  **Location** waar de instelling ' apps mag toegang krijgen tot uw locatie ' moet zijn ingeschakeld. De Windows Location Service instemming kan worden geïmplementeerd op Pc's met behulp van MDM of Groepsbeleid met de instelling _LetAppsAccessLocation_.
+Windows-locatie service moet zijn doorgestuurd op de computers. U kunt dit testen door de app **kaarten** uit te voeren en te zoeken. U kunt deze optie inschakelen op één computer met **instellingen | Privacy | De locatie** waar de instelling _apps mag toegang hebben tot uw locatie_ , moet zijn ingeschakeld. De Windows Location Service instemming kan worden geïmplementeerd op Pc's met behulp van MDM of Groepsbeleid met de instelling _LetAppsAccessLocation_.
 
 U hoeft geen locaties in het Beheercentrum toe te voegen, zoals ze automatisch worden aangeduid met de resolutie van stad. U kunt niet meerdere Office-locaties binnen een stad weergeven met behulp van Windows-locatie Services.
 
@@ -47,7 +47,7 @@ De maat monsters en de kantoorlocaties moeten 24 uur worden weergegeven nadat aa
 
 ### <a name="2-add-locations-and-provide-lan-subnet-information"></a>2. locaties toevoegen en informatie over LAN-subnetten
 
-Voor deze optie zijn geen Windows-locatie Services en Wi-Fi vereist. U moet de versie 20.161.0811.0001 of hoger voor OneDrive voor Windows installeren op elk commputer op de locatie.
+Voor deze optie zijn geen Windows-locatie Services en Wi-Fi vereist. U moet OneDrive voor Windows versie 20,161 of hoger installeren op elke computer.
 
 U moet ook locaties toevoegen op de pagina met netwerkverbindingen van het Beheercentrum of deze importeren uit een CSV-bestand. De toegevoegde locaties moeten de subnetgegevens van Office LAN bevatten.
 
@@ -118,14 +118,14 @@ Op het tabblad Details op de pagina Office-locatie ziet u de specifieke meetresu
 
 ## <a name="csv-import-for-lan-subnet-office-locations"></a>CSV-Import voor LAN-subnetten Office-locaties
 
-Voor Office-identificatie voor het subnet Office moet u elke locatie aangegeven vooraf toevoegen. In plaats van de afzonderlijke Office-locaties op het tabblad **locaties** toe te voegen, kunt u ze importeren uit een CSV-bestand. U kunt deze gegevens mogelijk verkrijgen via andere locaties die u hebt opgeslagen, zoals het dashboard oproep kwaliteit of Active Directory-sites en-services.
+Voor Office-identificatie voor het subnet Office moet u elke locatie vooraf toevoegen. In plaats van de afzonderlijke Office-locaties op het tabblad **locaties** toe te voegen, kunt u ze importeren uit een CSV-bestand. U kunt deze gegevens mogelijk verkrijgen via andere locaties die u hebt opgeslagen, zoals het dashboard oproep kwaliteit of Active Directory-sites en-services.
 
 In het **CSV-bestand**is de locatie van een plaats in de plaats van de locatie en een handmatig toegevoegde **locatie van de locatie.**
 
 1. Klik in het venster belangrijkste _verbindingen met Microsoft 365_ op het tabblad **locaties** .
 1. Klik op de knop **importeren** net boven de lijst met locaties. De flyout **Office-locaties importeren** wordt weergegeven.
 
-   ![Foutbericht over importeren van CSV](../media/m365-mac-perf/m365-mac-perf-import.png)
+   ![CSV-bericht importeren](../media/m365-mac-perf/m365-mac-perf-import.png)
 
 1. Klik op de koppeling **huidige Office-locaties (. CSV) downloaden** om de lijst huidige locaties te exporteren naar een CSV-bestand en sla het op in de lokale harde schijf. U beschikt nu over een juist opgemaakt CSV met kolomkoppen waarop u locaties kunt toevoegen. U kunt de bestaande geëxporteerde locaties sluiten. ze worden niet gedupliceerd wanneer u de bijgewerkte CSV-bestanden importeert. Als u het adres van een bestaande locatie wilt wijzigen, wordt dit bijgewerkt wanneer u het CSV-bestand importeert. U kunt het adres van een gevonden stad niet wijzigen.
 1. Open het CSV-bestand en voeg uw locaties toe door de volgende velden in te vullen op een nieuwe regel voor elke locatie die u wilt toevoegen. Laat alle andere velden leeg; waarden die u invoert in andere velden, worden genegeerd.
@@ -169,3 +169,5 @@ De locatie voor het uittreden van Internet is de locatie waar uw netwerkverkeer 
 [Microsoft 365 connectiviteitstest in het M365-Beheercentrum (preview)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Locatie Services voor Microsoft 365-netwerkconnectiviteit](office-365-network-mac-location-services.md)
+
+[Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)](office-365-network-mac-perf-onboarding-tool.md)

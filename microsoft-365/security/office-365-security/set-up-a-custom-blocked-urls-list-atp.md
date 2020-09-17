@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het instellen van een lijst met geblokkeerde Url's voor uw organisatie met behulp van Office 365 Advanced Threat Protection.
-ms.openlocfilehash: 5f863a3ba61278d0bec5304034ed75d343f93c77
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: f66d447b980cae4a4afbb706f26659c5976bdf37
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656645"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948088"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met geblokkeerde Url's met behulp van behulp van vrije verbindingen instellen
 
@@ -85,14 +85,14 @@ Let op de volgende punten wanneer u Url's toevoegt aan de lijst:
 
 |Voorbeeld van invoer|Actie|
 |---|---|
-|`contoso.com`wel`*contoso.com*`|Blokkeert het domein, subdomeinen en paden, zoals `https://www.contoso.com` , `https://sub.contoso.com` en`https://contoso.com/abc`|
-|`https://contoso.com/a`|Blokkeert een site `https://contoso.com/a` maar geen extra subpadnamen zoals`https://contoso.com/a/b`|
-|`https://contoso.com/a*`|Blokkeert een site `https://contoso.com/a` en extra subpadnamen, zoals`https://contoso.com/a/b`|
+|`contoso.com` wel `*contoso.com*`|Blokkeert het domein, subdomeinen en paden, zoals `https://www.contoso.com` , `https://sub.contoso.com` en `https://contoso.com/abc`|
+|`https://contoso.com/a`|Blokkeert een site `https://contoso.com/a` maar geen extra subpadnamen zoals `https://contoso.com/a/b`|
+|`https://contoso.com/a*`|Blokkeert een site `https://contoso.com/a` en extra subpadnamen, zoals `https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|Blokkeert een subdomein (' Toys ' in dit geval), maar sta klikken op andere Url's voor het domein (zoals `https://contoso.com` of `https://home.contoso.com` ) toe.|
 |
 
 > [!NOTE]
-> Standaard kunt u alleen 500-Url's toevoegen aan de lijst met geblokkeerde URL'S in het standaardbeleid van Office 365 voor standaardverbindingen.
+> Standaard kunt u alleen 500-Url's toevoegen aan de lijst met geblokkeerde URL'S in het standaardbeleid van Office 365 voor standaardverbindingen. Een individuele URL mag niet langer zijn dan 128 tekens. De lijst alle geblokkeerde URL'S mag niet langer zijn dan 10.000 tekens.
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Uitzonderingen definiëren voor bepaalde gebruikers in een organisatie
 

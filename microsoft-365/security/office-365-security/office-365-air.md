@@ -16,22 +16,21 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Ga aan de slag met het gebruik van geautomatiseerde beantwoordings-en antwoord mogelijkheden in Office 365 Advanced Threat Protection (abonnement 2).
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 14742df5d9dbd2f65a032250696dbc7c61210562
-ms.sourcegitcommit: 2179abfe0b7a8bea917eb1c1057ed3795bdf91e6
+ms.openlocfilehash: 0587c2d58410d7a0bc4a581f156a2cbfc06701a9
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47336677"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949696"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Aan de slag met geautomatiseerd onderzoek en antwoord (lucht) in Office 365
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (Office 365 ATP) abonnement 2 bevat krachtige functies voor automatisch onderzoek en respons (lucht) waarmee u de tijd en inspanning van uw beveiligingsactiviteiten kunt opslaan. Aangezien waarschuwingen worden geactiveerd, kunt u deze meldingen nakijken, van een prioriteit voorzien en hierop reageren. U kunt het volume van inkomende waarschuwingen overweldigen. Een deel van dit helpt te automatiseren. Met lucht kan uw beveiligingsteam zich richten op taken met een hoge prioriteit zonder dat dit de activering van waarschuwingen verliest.
 
-Dit artikel bevat informatie over:
-
-- De [totale luchtstroom](#the-overall-flow-of-air)
-- [Hoe u lucht verzorgt](#how-to-get-air)
-- De [vereiste machtigingen](#required-permissions-to-use-air-capabilities) voor het configureren of gebruiken van lucht mogelijkheden
+Dit artikel bevat:
+- De [algehele stroom](#the-overall-flow-of-air) van lucht;
+- [Hoe u lucht verzorgt](#how-to-get-air); en 
+- De [vereiste machtigingen](#required-permissions-to-use-air-capabilities) voor het configureren of gebruiken van lucht capaciteiten. 
 
 ## <a name="the-overall-flow-of-air"></a>De totale luchtstroom
 

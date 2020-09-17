@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Maak verbinding met uw Microsoft 365-Tenant met PowerShell voor Microsoft 365 voor het uitvoeren van Beheercentrum taken vanaf de opdrachtregel.
-ms.openlocfilehash: d1e347a13ca5c587fa544ef80a8e289a8dec0a59
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9b4cdbe9fcdea48df456e75095f8d269ab84696f
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689302"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950554"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Verbinding maken met Microsoft 365 met PowerShell
 
@@ -56,13 +56,12 @@ Deze procedures zijn bedoeld voor gebruikers die lid zijn van een Microsoft 365-
 
 ## <a name="connect-with-the-azure-active-directory-powershell-for-graph-module"></a>Maak verbinding met de Windows PowerShell voor Graph-module van Microsoft Azure Active Directory.
 
-Opdrachten in de module Azure Active Directory PowerShell voor Graph hebben **AzureAD** in de naam van de cmdlet. U kunt de module [ Azure Active Directory PowerShell voor Graph](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) of [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-3.6.1) installeren.
+Opdrachten in de module Azure Active Directory PowerShell voor Graph hebben **AzureAD** in de naam van de cmdlet. U kunt de module [ Azure Active Directory PowerShell voor Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) of [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps) installeren.
 
 Voer de volgende stappen uit om de module te installeren en verbinding te maken met uw Microsoft 365-abonnement voor procedures waarvoor de nieuwe cmdlets in de module Azure Active Directory PowerShell voor Graph zijn vereist.
 
->[!Note]
->Zie [Azure Active Directory PowerShell voor Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) voor informatie over de ondersteuning voor verschillende versies van Microsoft Windows.
->
+> [!Note]
+> Zie [Azure Active Directory PowerShell voor Graph module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) voor informatie over de ondersteuning voor verschillende versies van Microsoft Windows.
 
 ### <a name="step-1-install-required-software"></a>Stap 1: vereiste software installeren
 

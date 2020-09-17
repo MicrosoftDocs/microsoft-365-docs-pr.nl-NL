@@ -1,46 +1,47 @@
 ---
-title: Inzichten over betrouwbaarheid
+title: Inzichten in betrouwbaarheid
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b7f56a64f1846676f458f7b3ddb210e84b9ca8f7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 06e1446ca290439c9e6689f4461c825438cf6aaf
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42806860"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950340"
 ---
-# <a name="reliability-insights"></a>Inzichten over betrouwbaarheid
+# <a name="reliability-insights"></a>Inzichten in betrouwbaarheid
 
-In deze weergave vindt u een statusoverzicht van uw beheerde apparaten. Als u betrouwbaarheidsgegevens wilt weergeven, selecteert u het tabblad **Betrouwbaarheid.**
+Deze weergave bevat een overzicht van de status van uw beheerde apparaten. Als u betrouwbaarheids gegevens wilt weergeven, selecteert u het tabblad **betrouwbaarheid** .
 
 
-![Betrouwbaarheidsvenster: betrouwbaarheid op apparaten linksboven, betrouwbaarheid in de tijdgrafiek rechtsboven, bovenste problemen tabel aan de onderkant. Help en feedback knoppen in rechtsonder.](../../media/insights_reliability.png)
+![Deelvenster betrouwbaarheid: betrouwbaarheid van de verschillende apparaten in de linkerbovenhoek, de betrouwbaarheid van de grafiek in de rechterbovenhoek en de tabel belangrijkste problemen onder aan de onderkant. Help en feedback-knoppen in de rechterbenedenhoek.](../../media/insights_reliability.png)
 
-De sectie **Betrouwbaarheid voor verschillende apparaten** biedt een snelle statussamenvatting van uw implementatie in de afgelopen 14 dagen door het percentage apparaten te rapporteren dat als "gezond" wordt beschouwd en de gemiddelde tijd die wordt waargenomen sinds de laatste gemelde storing. 
+De sectie **betrouwbaarheid** van de apparaten biedt een beknopt overzicht van de afgelopen 14 dagen door het percentage van de ondergebrachte apparatuur te rapporteren, en de gemiddelde tijd sinds de laatste gerapporteerde fout. 
 
  
-De grafiek **Betrouwbaarheid na verloop** van tijd aan de rechterkant rapporteert het aantal apparaten met kritieke fouten en het totale aantal waargenomen kritieke fouten in de tijd.
+In de rechterbenedenhoek van de grafiek **betrouwbaarheid** wordt het aantal apparaten met een kritieke fout en het totale aantal nageleefde kritieke fouten in de loop van de tijd gerapporteerd.
 
-In de sectie **Topproblemen** worden specifieke gedetecteerde problemen beschreven die ten minste 5% van uw beheerde apparaten beïnvloeden. Gerapporteerde details zijn onder andere:
+In de sectie met **belangrijkste problemen** vindt u specifieke problemen die van invloed zijn op ten minste 5% van uw beheerde apparaten. Gerapporteerde informatie omvat:
 
 - Het type probleem
-    - Toepassingscrashes, waarbij een app niet meer functioneert of onverwacht stopt
-    - Toepassing hangt, waarbij een toepassing niet meer reageert op invoer
-    - Kritieke fouten die optreden wanneer Windows een probleem heeft ondervonden waarvan het niet kan herstellen
-- Het aantal apparaten dat door hetzelfde probleem wordt getroffen
-- Het percentage beheerde apparaten dat aantal vertegenwoordigt
-- Het totale aantal gebeurtenissen van het specifieke probleem
-- De softwarecomponent die de bron van het probleem lijkt te zijn
-- De categorie van het gedetecteerde probleem:
+    - Toepassing loopt vast, waarbij een app niet meer werkt of niet meer verwacht
+    - Toepassing loopt vast, waarbij een toepassing niet meer reageert op invoer
+    - Kritieke fouten die zich voordoen wanneer Windows een probleem voordeed dat niet kan worden hersteld
+- Het aantal apparaten waarop hetzelfde probleem optreedt
+- Het percentage beheerde apparaten dat een getal voorstelt
+- Het totale aantal exemplaren van een specifiek probleem
+- De softwarecomponent die de oorzaak is van het probleem
+- De categorie van het gevonden probleem:
     - Browser (Edge, Chrome, IE)
-    - Onbekend (niet-Microsoft-componenten)
-    - Stuurprogramma (audio, afbeeldingen of andere stuurprogramma's)
-    - Productiviteit (Slack, G-Suites, Microsoft Office en de add-ons of extensies, Teams)
-    - Media (afbeeldingen, muziek of video-apps
-    - Beveiliging (Windows-beveiligingscomponenten)
-- De huidige status van Microsoft Managed Desktop Operations onderzoekt en herstelt het probleem
+    - Onbekend (niet-Microsoft-onderdelen)
+    - Stuurprogramma (audio, graphics en andere Stuurprogramma's)
+    - Productiviteit (marge, G-suites, Microsoft Office en de bijbehorende invoegtoepassingen of uitbreidingen, teams)
+    - Media (afbeelding, muziek of video-apps)
+    - Beveiliging (beveiligingsonderdelen van Windows)
+- De huidige status als door Microsoft beheerde bureaublad bewerkingen wordt het probleem onderzocht en hersteld.
 

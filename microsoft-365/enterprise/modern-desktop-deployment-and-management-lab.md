@@ -1,5 +1,5 @@
 ---
-title: Windows en Office Deployment Lab Kit
+title: Windows en Office Deployment Lab kit
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,14 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 751d2a04daa707049c59b9b7cabb18ca06a598d1
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 09441f879fa41d1b920aae7d37625d0a52160d84
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685496"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949878"
 ---
-# <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
+# <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab kit
 
 Deze Labs is bedoeld om u te helpen bij het plannen, testen en valideren van uw implementatie en het beheer van desktops met Windows 10 Enterprise en Microsoft 365-apps voor Enterprise. De Labs-kap met Microsoft endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows auto pilot en meer.
 
@@ -32,7 +32,7 @@ Dit pakket wordt ten zeerste aanbevolen voor organisaties die Windows 8-Upgrades
 
 ## <a name="a-complete-lab-environment"></a>Een volledige testomgeving
 
-Met het lab beschikt u over een automatisch ingerichte virtuele testomgeving, inclusief desktopclients die lid zijn van een domein, een domeincontroller, een internetgateway en een volledig geconfigureerd Configuration Manager-exemplaar. Het lab bevat de nieuwste evaluatieversies van de volgende producten:
+Met het lab beschikt u over een automatisch ingerichte virtuele testomgeving, inclusief desktopclients die lid zijn van een domein, een domeincontroller, een internetgateway en een volledig geconfigureerd Configuration Manager-exemplaar. De Lab bevat de laatste evaluatieversies van de volgende producten:
 
   - NIEUW! Windows 10 Enterprise, versie 2004
   - Windows 7 Enterprise
@@ -53,70 +53,36 @@ Bovendien is het lab ontwikkeld om te worden verbonden met proefversies voor:
 
 Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager. 
 
-### <a name="device-and-app-readiness"></a>Gereedheid van apparaten en apps
+### <a name="plan-and-prepare-infrastructure"></a>Infrastructuur plannen en voorbereiden 
+Desktop Analytics   
+Cloud Management Gateway & Tenant distributiepunt bijvoegen, medewerkers en overstappen    
+Externe toegang
 
-  - Desktop Analytics
-  - De nieuwe Microsoft Edge implementeren en bijwerken 
-  - Cloud Management Gateway (CMG) installeren en configureren 
-  - Internet Explorer-modus 
-  - Application Guard 
+### <a name="prepare-configuration"></a>Configuratie voorbereiden   
+Bezorging van service voor Windows 10-updates voor Windows 10 optimaliseren met behulp van groeps beleids service voor Windows 10 via Microsoft intune-service Windows 10 met Configuration Manager-service voor Microsoft 365-apps voor Enterprise met behulp van Configuration Manager-365 Services    
+Beveiliging en naleving 
 
-### <a name="directory-and-network-readiness"></a>Gereedheid van mappen en netwerken
+### <a name="prepare-applications"></a>Toepassingen voorbereiden    
+Readiness Toolkit voor Office    
+MSIX-verpakking en-conversie van Win32-toepassingen 
 
-  - Windows 10 Update Delivery Optimization 
-  - Co-beheer van Configuration Manager en Microsoft Intune
-  - Externe toegang (VPN)
+### <a name="deploy-windows-10"></a>Windows 10 implementeren   
+Takenreeksen voor implementatie van het besturingssysteem in Configuration Manager OS Deployment-opdrachten voor het uitvoeren van MDT Windows auto pilot implementeren en beheren de nieuwe Microsoft Edge    
 
-### <a name="office-and-lob-app-delivery"></a>Levering van Office- en LOB-apps
+### <a name="deploy-microsoft-365-apps-for-enterprise"></a>Microsoft 365-Apps implementeren voor Enterprise    
+Implementatie van Cloud beheer    
+Lokaal beheerde implementatie  
+Microsoft 365-apps voor Enterprise Deployment op niet-AD gekoppelde apparaten   
+Beheerde implementatie van het bedrijf met behulp van beheerde implementatie van Configuration Manager met Microsoft intune    
+LOB-implementatie en-beheer met Microsoft intune Deploy Microsoft teams
 
-  - Microsoft 365-apps voor ondernemingen
-  - Beheerde implementatie door onderneming met Configuration Manager en Microsoft Intune
-  - Implementatie en beheer van apps met Microsoft Intune
-  - Implementatie en self-service-installatie van apps met Microsoft Store voor Bedrijven
-  - NIEUW! Microsoft Teams installeren 
-
-### <a name="user-file-and-settings-migration"></a>Migratie van gebruikersbestanden en -instellingen
-
-  - Migratie van bekende mappen bestanden 
-  - Hulpprogramma voor migratie van gebruikersstatus 
-  - Enterprise State Roaming
-  - Startmenu aanpassen en UWP-app verwijderen 
-  - Virtualisatie voor gebruikerservaring (UE-V) 
-
-### <a name="security-and-compliance"></a>Beveiliging en naleving
-
-  - Apparaatontsleuteling met BitLocker
-  - Windows Defender Antivirus
-  - Windows Hello voor Bedrijven
-  - Conversie van BIOS naar UEFI
-  - Windows Defender Application Guard
-  - Windows Defender Exploit Guard
-  - Windows Defender-toepassingsbeheer
-  - Windows Defender Advanced Threat Protection
-  - NIEUW! Eindpuntbeveiliging 
-
-### <a name="os-deployment-and-feature-updates"></a>Implementatie van besturingssysteem en functie-updates
-
-  - Maken van installatiekopie van besturingssysteem
-  - Takenreeksen voor implementatie van besturingssysteem in Configuration Manager 
-  - Takenreeksen voor implementatie van besturingssysteem in MDT
-  - Windows Autopilot
-  - Inrichtingspakketten 
-
-### <a name="windows-and-office-as-a-service"></a>Windows en Office als een service
-  - Windows-updates beheren via Groepsbeleid
-  - Onderhoud van Windows 10 met Configuration Manager en Intune
-  - Microsoft 365-apps voor ondernemingen beheren met Configuration Manager
-  - NIEUW! Office-updates met Configuration Manager en Intune
-  
-### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
-  - Windows Virtual Desktop: voorbereiden, implementeren, optimaliseren 
-
+### <a name="deploy-windows-virtual-desktop"></a>Windows virtueel bureaublad implementeren  
+ 
 ### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit downloaden
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-*Gebruik een grote bandbreedte om deze inhoud sneller te kunnen te downloaden. Houd rekening met 30-45 minuten voor automatische inrichting. De labomgeving vereist minimaal 16 GB beschikbaar geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbaar geheugen aanbevolen. Het lab verloopt op 12 september 2020. Voor die tijd wordt een nieuwe versie gepubliceerd.*
+*Gebruik een ruimere bandbreedte om deze inhoud te downloaden om uw download ervaring te verbeteren en 30-45 minuten te laten voor automatisch inrichten. Voor de testomgeving is minimaal 16 GB beschikbare geheugen en 150 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbare geheugen aanbevolen. De Lab eindigt op 4 december 2020. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.*
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

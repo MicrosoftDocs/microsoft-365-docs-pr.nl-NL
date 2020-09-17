@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: a68baf8f2598b8ca0cd13e45d18919ecfdccdacc
-ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
+ms.openlocfilehash: 06307efdc1df03d918e7f0b48c42f6e8ecb1dd79
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47407926"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950602"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -188,6 +188,9 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in het ATP anti-phishi
   - **Geïmiteerde gebruikers**: het van-adres bevat een beveiligde gebruiker.
   - **Geïmiteerde domeinen**: het van-adres bevat een beveiligd domein.
   - **Ongebruikelijk tekens**: het van-adres bevat ongebruikelijke tekensets (bijvoorbeeld wiskundige symbolen en tekst of een combinatie van hoofdletters en kleine letters) in een beveiligde afzender of domein.
+
+  > [!NOTE]
+  > Zelfs wanneer de veiligheidstips voor de imitatie zijn uitgeschakeld, kunt u een e-mail stroom regel (ook wel een transportregel genoemd) gebruiken om een berichtheader met de naam **X-MS-Exchange-EnableFirstContactSafetyTip** aan berichten toe te voegen. Specifieke veiligheidstips worden weergegeven met de mededeling dat geadresseerden geen e-mail ontvangen van de afzender of wanneer de geadresseerde voor het eerst een e-mail voor de eerste keer voor de afzender ontvangt.
 
 - **Postvak intelligentie**: Hiermee wordt gecommuniceerd met de optie veelgebruikte contactpersonen (AI) in-of uitgeschakeld. Met deze instelling zorgt u ervoor dat de AI onderscheidt tussen legitieme en vervalste e-mail van deze contactpersonen. Postvak intelligentie is alleen beschikbaar voor postvakken van Exchange Online.
 
