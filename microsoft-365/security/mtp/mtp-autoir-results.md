@@ -1,7 +1,7 @@
 ---
 title: Details en resultaten van een geautomatiseerd onderzoek
-description: Tijdens en na een geautomatiseerd onderzoek u de resultaten en de belangrijkste bevindingen
-keywords: geautomatiseerd, onderzoek, resultaten, analyseren, details, sanering, autoair
+description: Wanneer u een geautomatiseerde onderzoek doet, kunt u de resultaten en de belangrijkste bevindingen bekijken
+keywords: geautomatiseerd, onderzoek, resultaten, analyseren, Details, herbemiddeling, autoair
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -18,71 +18,71 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 6b3bc068e5da99e02a64463891e32d137c448d64
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: 62d33c57606aad81607164b1f068c6f6d91063c2
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805916"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962297"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
 **Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+- Microsoft Threat Protection
 
-Wanneer een geautomatiseerd onderzoek plaatsvindt in Microsoft Threat Protection, zijn details over dat onderzoek beschikbaar tijdens en na het geautomatiseerde onderzoeksproces. Als u over de [benodigde machtigingen beschikt,](mtp-action-center.md#required-permissions-for-action-center-tasks)u deze gegevens bekijken in een weergave met onderzoeksdetails. De weergave Onderzoeksgegevens biedt u een up-to-date status en de mogelijkheid om lopende acties goed te keuren. 
+Wanneer er een geautomatiseerd onderzoek plaatsvindt in Microsoft Threat Protection, is er informatie over dat onderzoek beschikbaar via en na het geautomatiseerde onderzoek proces. Als u de [benodigde machtigingen](mtp-action-center.md#required-permissions-for-action-center-tasks)hebt, kunt u deze gegevens bekijken in de weergave Details van onderzoek. De weergave onderzoek Details biedt u de actuele status en de mogelijkheid om alle in behandeling zijnde acties goed te keuren. 
 
-![Details van het onderzoek](../../media/mtp-air-investdetails.png)
+![Details van onderzoek](../../media/mtp-air-investdetails.png)
 
-## <a name="open-the-investigation-details-view"></a>De weergave Onderzoeksdetails openen
+## <a name="open-the-investigation-details-view"></a>De weergave onderzoek Details openen
 
-U de weergave onderzoeksgegevens openen met behulp van een van de volgende methoden:
-- [Een item selecteren in het onderhoudscentrum](#select-an-item-in-the-action-center)
-- [Een onderzoek selecteren op een pagina met informatie over incidenten](#open-an-investigation-from-an-incident-details-page)
+U kunt de weergave Details van onderzoek op een van de volgende manieren openen:
+- [Selecteer een item in het Actiecentrum](#select-an-item-in-the-action-center)
+- [Selecteer een onderzoek op de pagina Details van incident](#open-an-investigation-from-an-incident-details-page)
 
-### <a name="select-an-item-in-the-action-center"></a>Een item selecteren in het onderhoudscentrum
+### <a name="select-an-item-in-the-action-center"></a>Selecteer een item in het Actiecentrum
 
-Gebruik het actiecentrum om acties weer te geven die in behandeling zijn (op het tabblad **In behandeling)** of die al zijn goedgekeurd (op het tabblad **Geschiedenis).** 
+Gebruik het Actiecentrum om acties weer te geven die goedkeuring in behandeling zijn (op het tabblad **in behandeling** ) of die al is goedgekeurd (op het tabblad **geschiedenis** ). 
 
-1. Ga [https://security.microsoft.com](https://security.microsoft.com) naar en meld je aan. 
+1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. 
 
-2. Kies in het navigatiedeelvenster **het onderhoudscentrum**. 
+2. Kies in het navigatiedeelvenster de optie **Onderhoudscentrum**. 
 
-3. Selecteer op het tabblad **Inbehandeling** of **Geschiedenis** een item. Als u over de [benodigde machtigingen beschikt,](mtp-action-center.md#required-permissions-for-action-center-tasks)u lopende acties goedkeuren (of afwijzen).
+3. Selecteer een item op het tabblad **Onverwerkt** of **geschiedenis** . Als u over de [juiste machtigingen](mtp-action-center.md#required-permissions-for-action-center-tasks)beschikt, kunt u acties die in behandeling zijn, goedkeuren of weigeren.
 
-### <a name="open-an-investigation-from-an-incident-details-page"></a>Een onderzoek openen vanaf een pagina met informatie over incidenten
+### <a name="open-an-investigation-from-an-incident-details-page"></a>Een onderzoek openen op de pagina Details van incident
 
-Gebruik een pagina met incidentgegevens om gedetailleerde informatie over een incident weer te geven, inclusief waarschuwingen die zijn geactiveerd voor informatie over getroffen apparaten, gebruikersaccounts of postvakken.
+Gebruik een pagina met incident Details om gedetailleerde informatie over een incident te bekijken, waaronder waarschuwingen die informatie hebben geactiveerd over de betreffende apparaten, gebruikersaccounts of postvakken.
 
-1. Ga [https://security.microsoft.com](https://security.microsoft.com) naar en meld je aan. 
+1. Ga naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. 
 
-2. Kies **incidenten**in het navigatiedeelvenster. 
+2. Kies in het navigatiedeelvenster de optie **incidenten**. 
 
-3. Selecteer een item in de lijst om de weergave incidentdetails te openen.<br/>![Incidentdetails](../../media/mtp-incidentdetails-tabs.png)
+3. Selecteer een item in de lijst om de weergave incident details te openen.<br/>![Details van incident](../../media/mtp-incidentdetails-tabs.png)
 
-4. Selecteer op het tabblad **Onderzoeken** een onderzoek in de lijst.
+4. Selecteer op het tabblad **onderzoek** een onderzoek in de lijst.
 
-## <a name="investigation-details"></a>Details van het onderzoek
+## <a name="investigation-details"></a>Details van onderzoek
 
-Gebruik de weergave Onderzoeksgegevens om eerdere, huidige en in behandeling zijnde activiteiten met betrekking tot een onderzoek te bekijken. De weergave Onderzoeksdetails lijkt op de volgende afbeelding:
+U kunt de weergave Details van onderzoek gebruiken om eerdere, huidige en activiteiten activiteiten te zien die betrekking hebben op een onderzoek. De weergave onderzoek Details lijkt op de volgende afbeelding:
 
-![Details van het onderzoek](../../media/mtp-air-investdetails.png)
+![Details van onderzoek](../../media/mtp-air-investdetails.png)
 
-In de weergave Onderzoekdetails u informatie zien in de grafiek **Onderzoek**, **Waarschuwingen**, **Apparaten**, **Identiteiten**, **Belangrijkste bevindingen**, **Entiteiten,** **Logboek**en In **behandeling zijnde acties,** beschreven in de volgende tabel.
+In de weergave Details van onderzoek kunt u informatie weergeven over de tabbladen **onderzoek grafiek**, **waarschuwingen**, **apparaten**, **identiteiten**, **belangrijke bevindingen**, **entiteiten**, **Logboeken**en **acties in behandeling** , zoals in de volgende tabel wordt beschreven.
 
-|Tab    |Beschrijving |
+|Tabblad    |Beschrijving |
 |--------|--------|
-|Onderzoeksgrafiek    |Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die worden gevonden, samen met waarschuwingen en of acties wachten op goedkeuring.<br/>U op een item in de grafiek klikken om meer details weer te geven. Als u bijvoorbeeld op het pictogram **Bedreigingen hebt gevonden,** gaat u naar het tabblad **Belangrijkste bevindingen.** |
-|Waarschuwingen |Geeft lijsten met waarschuwingen die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op de machine van een gebruiker, in Office-apps, Cloud App-beveiliging en andere functies voor bedreigingsbeveiliging van Microsoft 365.|
-|Apparaten|Lijsten machines die in het onderzoek zijn opgenomen, samen met het saneringsniveau.|
-|Belangrijkste bevindingen   |Geeft een overzicht van de resultaten van het onderzoek, samen met de status en de genomen acties of in behandeling zijnde. U lopende acties voor apparaten en identiteiten op dit tabblad goedkeuren.|
-|Entiteiten   |Hiermee worden gebruikersactiviteiten, bestanden, processen, services, stuurprogramma's, IP-adressen en persistentiemethoden weergegeven die aan het onderzoek zijn gekoppeld, samen met de status en de genomen acties.|
-|Log    |Geeft een gedetailleerd overzicht van alle stappen die tijdens het onderzoek zijn genomen, samen met de status.|
-|Lopende acties    |Hiermee worden items weergegeven waarvoor goedkeuring nodig is.|
+|Onderzoek grafiek    |Geeft een visuele voorstelling van het onderzoek. Geeft een voorbeeld weer van de weergave van de bedreigingen en lijsten<br/>U kunt op een item in de grafiek klikken om meer informatie weer te geven. Als u bijvoorbeeld op het pictogram **bedreigingen gevonden** klikt, gaat u naar het tabblad **belangrijkste bevindingen** . |
+|Waarschuwingen |Hier vindt u een overzicht van de waarschuwingen bij het onderzoek. Waarschuwingen zijn afkomstig van functies voor bedreigingsbeveiliging op de computer van een gebruiker, in Office-apps, de beveiliging van Cloud apps en andere functies van Microsoft 365 Threat Protection.|
+|Apparaten|Lijst met machines die in het onderzoek zijn opgenomen, samen met het herstelniveau.|
+|Belangrijkste bevindingen   |Dit bevat een overzicht van de resultaten van het onderzoek samen met de status en de beschikbare acties of in behandeling. Op dit tabblad kunt u acties in behandeling voor apparaten en identiteiten goedkeuren.|
+|Onderzoeksinstellingen   |Hier vindt u een lijst van gebruikersactiviteiten, bestanden, processen, services, Stuurprogramma's, IP-adressen, en permanente methoden voor het onderzoek, en over de status van de uitgevoerde acties.|
+|Inloggen    |Een gedetailleerde weergave van alle stappen die tijdens het onderzoek zijn verricht, en de status.|
+|Acties in behandeling    |Een lijst met items die moeten worden goedgekeurd om te worden voortgezet.|
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Een overzicht van machtigingen voor het actiecentrum](mtp-action-center.md#required-permissions-for-action-center-tasks)
-
-- [Acties in verband met geautomatiseerd onderzoek en respons goedkeuren of afwijzen](mtp-autoir-actions.md)
+- [Acties met betrekking tot een automatisch onderzoek en antwoord goedkeuren of afwijzen](mtp-autoir-actions.md)
 

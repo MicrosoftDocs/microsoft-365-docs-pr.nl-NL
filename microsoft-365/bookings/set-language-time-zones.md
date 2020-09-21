@@ -9,21 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 94af3e22-aca6-4e91-8b91-1cd5a02a9ea8
 description: Uw taal-en tijdzone-instellingen wijzigen in Microsoft bookings. Als er op het verkeerde moment Bookings worden gemaakt, kunnen Bookings worden ingesteld voor de verkeerde tijdzone.
-ms.openlocfilehash: 07e5dde2a896610ee079063943aff24ec69ba721
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 3e7709666d6426b11c275e46a18d43e7b7ab3526
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419459"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962429"
 ---
 # <a name="set-language-and-time-zones-in-microsoft-bookings"></a>Taal en tijdzones instellen in Microsoft Bookings
 
 Als u Microsoft Bookings en Bookings gebruikt, kunt u op het verkeerde moment de instellingen voor de tijdzone wijzigen. Ook als sommige Bookings een onjuiste taal bevat, moet u mogelijk uw taalinstellingen wijzigen.
 
 Er zijn twee aparte instellingen voor de taal en de tijdzone voor bookings. Met de eerste instelling beheert u de taal en tijdzone van de boekings agenda en wordt ingesteld met de instellingen van de webversie van Outlook voor de persoonlijke agenda van de aangemelde gebruiker. De tweede instelling is van invloed op de selfservice boekings pagina die door uw klanten wordt gebruikt en is ingesteld met behulp van een ' Landinstellingen ' pagina waarmee de taal en de tijdzone alleen voor die pagina worden bestuurd.
-
-> [!NOTE]
-> Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard Standard, Microsoft 365 a3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar het is standaard uitgeschakeld. Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
 
 ## <a name="setting-language-and-time-zone-for-a-booking-calendar"></a>Taal en tijdzone instellen voor een boekingsagenda
 

@@ -9,12 +9,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 04c3901155ecd80fad472e07e7e46620c3ddee1f
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: fc216adadea8dd774901d42a754fb288412318a1
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289271"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104592"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Toegewezen stations voorbereiden voor Microsoft Managed Desktop
 
@@ -48,8 +48,8 @@ Het is uw verantwoordelijkheid om ervoor te zorgen dat gebruikers en groepen de 
  
 Zorg ervoor dat de stationstoewijzingen niet worden vermeden en dat u de vereisten zorgvuldig door hebt bekeken voordat u een serviceaanvraag verzendt. Voer daarna de volgende stappen uit:
 
-1. Ga naar de [Microsoft beheerde bureaublad Portal](https://aka.ms/mmdportal).  
-2. U kunt een ondersteuningsaanvraag met de naam ' toegewezen schijven implementeren ' verzenden via het ondersteuningsverzoek **> ondersteuningsverzoeken** en alle vereiste gegevens voor de bestandsdeling opgeven.  
+1. Ga naar [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en selecteer ' probleemoplossing + ondersteuning ' en zoek vervolgens naar ' service aanvragen ' onder de sectie Microsoft Managed Deskop.  
+2. Verzend een ondersteuningsaanvraag met de naam ' toegewezen schijven implementeren ' en geef alle vereiste gegevens voor de bestandsdeling op.  
 3. Microsoft Managed Desktop IT IT zal u adviseren met updates van ondersteuningsaanvragen wanneer de aanvraag is voltooid. Deze configuratie wordt in eerste instantie alleen geïmplementeerd op apparaten in de groep test implementatie.  
-4. U moet testen en controleren of de configuratie die is geïmplementeerd door het Microsoft beheerde bureaublad IT, werkt zoals u verwacht. Antwoord met het tabblad discussie in het ondersteuningsverzoek voor het melden van het IT-proces van Microsoft Managed Desktop wanneer u klaar bent met het testen.  
+4. U moet testen en controleren of de configuratie die is geïmplementeerd door het Microsoft beheerde bureaublad IT, werkt zoals u verwacht. Antwoord met het tabblad discussie in de details van hetzelfde ondersteuningsverzoek voor het melden van de bewerkingen van het Microsoft-beheer bureaublad wanneer u klaar bent met het testen.  
 5. Microsoft beheerde bureaublad IT Operations team implementeert vervolgens de configuratie naar de andere implementatie groepen. 

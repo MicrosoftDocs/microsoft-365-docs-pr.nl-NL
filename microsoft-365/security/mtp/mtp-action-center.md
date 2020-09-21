@@ -18,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2dc641d22432e245980b905051bddd3b7dd4ed07
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.reviewer: evaldm, isco
+ms.date: 09/16/2020
+ms.openlocfilehash: 4d4aa8afc7a17d2f9f0ae2d48404d7a3da553d47
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547984"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962261"
 ---
 # <a name="the-action-center"></a>Het Actiecentrum
 
@@ -94,9 +96,6 @@ Als u in het Actiecentrum in behandeling zijnde acties wilt goedkeuren of weiger
 
 ## <a name="next-steps"></a>Volgende stappen 
 
-- [Meer informatie over incidenten in Microsoft Threat Protection](incidents-overview.md)
-
+- [Acties die in behandeling zijn, goedkeuren of weigeren na een geautomatiseerd onderzoek](mtp-autoir-actions.md)
 - [De resultaten van een geautomatiseerd onderzoek weergeven](mtp-autoir-results.md)
-
-- [Meer informatie over de jacht in Microsoft Threat Protection](advanced-hunting-overview.md)
 

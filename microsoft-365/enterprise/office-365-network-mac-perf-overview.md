@@ -3,7 +3,7 @@ title: Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/21/2020
+ms.date: 09/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,16 +14,20 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Overzicht van netwerkverbindingen in het Microsoft 365-Beheercentrum (preview)
-ms.openlocfilehash: f8eff2248fb7abce75c27f227a2c5e7ec7219046
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 35ea28ec45a7e581901c0f4f22360a1dcd0def8b
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948415"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962285"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 
-Het Microsoft 365-Beheercentrum bevat nu de geaggregeerde metrische netwerk verbindings metriek van uw Microsoft 365-Tenant en kan alleen worden weergegeven door beheerders gebruikers in uw Tenant. **Netwerk beoordelingen** en **netwerk inzichten** worden weergegeven in het Microsoft 365-Beheercentrum onder **gezondheidszorg | Connectiviteit**.
+Het Microsoft 365-Beheercentrum bevat nu de geaggregeerde metrische netwerk verbindings metriek van uw Microsoft 365-Tenant en kan alleen worden weergegeven door beheerders gebruikers in uw Tenant.
+
+![Testprogramma voor netwerkverbindingen](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
+
+**Netwerk beoordelingen** en **netwerk inzichten** worden weergegeven in het Microsoft 365-Beheercentrum onder **gezondheidszorg | Connectiviteit**.
 
 ![Pagina netwerkprestaties](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
 

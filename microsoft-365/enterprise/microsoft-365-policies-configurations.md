@@ -17,18 +17,18 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 686d31c64394094530099edb97bbd10912a58cb8
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: cef17142d90a15f10e82fd51c4c22202bf7ecf00
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949890"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131576"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
 De moderne beveiligings verbinding van uw organisatie breidt nu buiten het netwerk tot het gebruik van gebruikers van Cloud apps vanaf elke locatie met een groot aantal apparaten. Uw beveiligingsinfrastructuur moet bepalen of een bepaalde toegangsaanvraag moet worden toegewezen en onder welke voorwaarden. 
 
-Deze bepaling moet gebaseerd zijn op de aanmelding van het gebruikersaccount, het apparaat dat wordt gebruikt, de apps die de gebruiker probeert te openen, de locatie van waaraf de toegangsaanvraag wordt ingediend en een beoordeling van het risico van de aanvraag. Met deze functie kunt u ervoor zorgen dat alleen goedgekeurde gebruikers en apparaten toegang hebben tot uw cruciale bronnen.
+Deze bepaling dient te worden gebaseerd op het gebruikersaccount van de aanmelding, het gebruikte apparaat, de app die de gebruiker gebruikt voor Access, de locatie van waaraf de toegangsaanvraag wordt ingediend en een evaluatie van het risico van de aanvraag. Met deze functie kunt u ervoor zorgen dat alleen goedgekeurde gebruikers en apparaten toegang hebben tot uw cruciale bronnen.
 
 In deze reeks artikelen wordt beschreven welke configuraties van de vereisten voor identiteiten en toegang hebben tot uw apparaten en een set van Azure Active Directory (Azure AD) voorwaardelijke toegang, Microsoft intune en andere beleidsregels om de toegang tot Microsoft 365 te beveiligen voor Office 365-apps en-services, andere SaaS-Services en on-premises toepassingen die zijn gepubliceerd met Azure AD Application proxy.
 

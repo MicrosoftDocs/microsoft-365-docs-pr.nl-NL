@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fb786383e448ad3f5c78b22f3cdbf282c2c9f906
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 972430f5637f1160c330bed1558b79c8273171c5
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289719"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104580"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Ondersteuning voor beheerders voor Microsoft Managed Desktop
 
@@ -24,10 +24,11 @@ U kunt ondersteunings tickets of feedback aanvragen indienen bij Microsoft via d
 >Zorg ervoor dat u [een beheerders contact instelt](../get-started/add-admin-contacts.md) voor app-verpakking, apparaten, beveiliging en andere. U kunt geen Ondersteuningsverzoek indienen op een van deze gebieden als een beheerder contactpersoon niet is geconfigureerd.
 
 **Een ondersteuningsverzoek indienen**
-1. Meld u aan bij de [Portal van Microsoft beheerde bureaubladbeheer](https://aka.ms/mwaasportal). 
-2. Selecteer **+ nieuwe ondersteuningsticket**bij **ondersteuningsverzoeken**.
-3. Selecteer het **type ondersteuningsaanvraag** dat overeenkomt met de Help die u nodig hebt. De volgende tabel bevat een overzicht van de opties. 
-4. Selecteer het **niveau**van de ernst. Zie voor meer informatie de [definities van de ondersteuningsaanvragen](#sev). 
+1. Meld u aan bij [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het menu **Probleemoplossing + ondersteuning** .
+2. Zoek naar de sectie beheerde bureaubladversie van Microsoft, selecteer **sevice aanvraag**.
+3. Selecteer **+ nieuwe ondersteuningsticket**bij **ondersteuningsverzoeken**.
+4. Selecteer het **type ondersteuningsaanvraag** dat overeenkomt met de Help die u nodig hebt. De volgende tabel bevat een overzicht van de opties. 
+5. Selecteer het **niveau**van de ernst. Zie voor meer informatie de [definities van de ondersteuningsaanvragen](#sev). 
 
 Type ondersteuningsverzoek | Wanneer gebruiken
 --- | ---
@@ -58,13 +59,13 @@ Aanvullende informatie:
 
 We stellen uw feedback op prijs en gebruiken om de ondersteuningservaring van beheerders te verbeteren.
 
-Wanneer een ticket in de **Beperkde** of **opgeloste** status heeft, kunt u uw feedback over uw ervaringen delen met dat bepaalde probleem. Ga hiervoor naar de pagina **ondersteuningsaanvragen** in de beheerportal. Selecteer het specifiek ticket. Selecteer het tabblad **feedback** in de vlucht aan dat aan de rechterkant wordt weergegeven en geef de gevraagde informatie op. Wees voorzichtig met het toevoegen van persoonlijke informatie in het feedbackformulier. Zie voor meer informatie over privacy de privacyverklaring van [Microsoft](https://privacy.microsoft.com/privacystatement).
+Wanneer een ticket in de **Beperkde** of **opgeloste** status heeft, kunt u uw feedback over uw ervaringen delen met dat bepaalde probleem. Ga hiervoor naar de pagina **service aanvragen** in het menu **Probleemoplossing +** van de portal van mem. Selecteer het specifiek ticket. De details van het ticket worden weergegeven in de vlucht aan de rechterkant, selecteer het tabblad **feedback** en geef de gevraagde informatie op. Wees voorzichtig met het toevoegen van persoonlijke informatie in het feedbackformulier. Zie voor meer informatie over privacy de privacyverklaring van [Microsoft](https://privacy.microsoft.com/privacystatement).
 
 ![Feedback formulier](../../media/feedback_form.png)
 
 
 
-## <a name="additional-resources"></a>Overige informatiebronnen
+## <a name="additional-resources"></a>Aanvullende bronnen
 - [Gebruikers ondersteuning voor Microsoft Managed Desktop](end-user-support.md). 
 - [Ondersteuning voor Microsoft Managed Desktop](../service-description/support.md). 
-- Als u al een abonnement hebt op Microsoft Managed Desktop, vindt u in de sectie **online bronnen** van de Microsoft-beheer [Portal beheerde](https://aka.ms/mwaasportal)bureaublad beheerder gedetailleerde procedures, proces stromen, werkinstructies en veelgestelde vragen.
+- Als u al een abonnement hebt op Microsoft Managed Desktop, vindt u op de pagina **online bronnen** onder het gedeelte **micro** Soft Managed Desktop van het menu **Tenant** [beheer in Microsoft Endpoint Manager](https://endpoint.microsoft.com/)gedetailleerde stappen, proces stromen, werkinstructies en veelgestelde vragen.

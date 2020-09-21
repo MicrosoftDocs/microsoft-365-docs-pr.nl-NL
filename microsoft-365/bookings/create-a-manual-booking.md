@@ -9,19 +9,16 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 03a9acc9-f29c-456b-9fb2-0f49474b2708
 description: Volg deze instructies om een afspraak te maken en een werknemer toe te wijzen via de Microsoft Bookings-app.
-ms.openlocfilehash: d0538b1c3e19a6bc78c997ff3e681ac30aa074ff
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: dffc63b1f638c551e40d22852b1ba6a73c5be869
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419511"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962559"
 ---
 # <a name="create-a-manual-booking"></a>Handmatig reserveren maken
 
 Reserveringen kunnen op twee manieren worden gepland en van personeel worden voorzien. De eerste manier is door de klant met behulp van een zelfstandige boekings pagina of een ingesloten reserverings pagina die u aan de website toevoegt. De andere manier is voor u of een van uw werknemers om de boekingen handmatig in te voeren, bijvoorbeeld wanneer een klant belt voor een afspraak. In dit artikel worden de stappen voor het handmatig invoeren van reserveringen behandeld.
-
-> [!NOTE]
-> Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard Standard, Microsoft 365 a3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar het is standaard uitgeschakeld. Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
 
 1. In Microsoft 365 selecteert u het startprogramma voor apps en selecteert u vervolgens **Bookings**.
 

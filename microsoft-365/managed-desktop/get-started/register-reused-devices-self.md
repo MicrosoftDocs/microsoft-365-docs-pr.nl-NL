@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 51c241c46a4c8745bcae169a1c1d89e5c4393f2f
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 6c241894ab50b6b1341b06f47c107c8945fb6e8c
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289137"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104568"
 ---
 # <a name="register-existing-devices-yourself"></a>Bestaande apparaten zelf registreren
 
@@ -21,7 +21,7 @@ ms.locfileid: "47289137"
 
 Het proces voor partners wordt gedocumenteerd in [stappen voor partners om apparaten te registreren](register-devices-partner.md).
 
-Microsoft Managed Desktop kan met gloednieuwe apparaten werken, maar u kunt ook apparaten die u al hebt, opnieuw gebruiken (welke u de afbeelding opnieuw moet maken. U kunt apparaten registreren met behulp van de beheerde portal voor Microsoft-bureaubladbeheer.
+Microsoft Managed Desktop kan met gloednieuwe apparaten werken, maar u kunt ook apparaten die u al hebt, opnieuw gebruiken (welke u de afbeelding opnieuw moet maken. U kunt apparaten registreren met Microsoft Managed desktop in de portal van Microsoft Endpoint Manager.
 
 ## <a name="prepare-to-register-existing-devices"></a>Voorbereidingen treffen om bestaande apparaten te registreren
 
@@ -56,7 +56,7 @@ Als u al deze voorwaarden hebt voldaan, kunt u de gegevens op de volgende manier
 2. Vouw in de werkruimte **bewaking het knooppunt rapporten uit** , vouw **rapporten**uit en selecteer het knooppunt **Hardware-algemeen** . 
 3. Voer het rapport uit, de gegevens van de **Windows auto pilot-apparaten**en Bekijk de resultaten.
 4. Selecteer het pictogram **exporteren** in de rapportweergave en kies de optie **CSV (door komma's gescheiden)** .
-5. Nadat u het bestand hebt opgeslagen, moet u de resultaten filteren op alleen de apparaten die u wilt registreren met Microsoft Managed Desktop en de gegevens naar Microsoft beheerde [Portal beheer Portal](https://aka.ms/mmdportal)uploaden, selecteert u **apparaten** in het linker navigatiedeelvenster. Selecteer **+ register apparaten**. de invliegen wordt geopend:
+5. Nadat u het bestand hebt opgeslagen, moet u de resultaten filteren op alleen de apparaten die u wilt registreren met Microsoft Managed Desktop en de gegevens naar Microsoft beheerde bureaublad uploaden. Open Microsoft Endpoint Manager, ga naar het menu **apparaten** en ga naar de sectie Microsoft Managed Desktop en selecteer **apparaten**. Selecteer **+ register apparaten** om een invliegen te openen om nieuwe apparaten te registreren.
 
 
 Zie [apparaten registreren met behulp van de beheer Portal](#register-devices-by-using-the-admin-portal) voor meer informatie.
@@ -134,9 +134,9 @@ Met de hash-gegevens die zijn samengevoegd met een CSV-bestand, kunt u nu verder
 
 #### <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheer Portal
 
-Selecteer in de [Beheer Portal](https://aka.ms/mmdportal)van Microsoft Managed Desktop de optie **apparaten** in het linker navigatiedeelvenster. Selecteer **+ register apparaten**. de invliegen wordt geopend:
+Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **apparaten** in het linker navigatiedeelvenster. Zoek de sectie Microsoft Managed Desktop van het menu en selecteer **apparaten**. Selecteer op de werkruimte Microsoft Managed Desktop apparaten de optie **+ register apparaten** om nieuwe apparaten te registreren.
 
-[![Invliegen na het selecteren van apparaten voor registreren, apparaten met kolommen weergeven voor toegewezen gebruikers, serienummers, status, laatste datum en ouderdom](../../media/new-registration-ui.png)](../../media/new-registration-ui.png)
+<!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
 
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
@@ -149,7 +149,7 @@ Volg deze stappen:
 1. Selecteer **apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op de **Blade van apparaten**, gemarkeerd als **AutopilotRegistrationRequested**. Registratie duurt meestal minder dan 10 minuten en wanneer het apparaat succesvol wordt weergegeven als u **klaar bent** , wordt de gebruiker gevraagd het programma te gebruiken.
 
 
-U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina **met beheerde Microsoft-bureaublad apparaten** . Mogelijke Staten hebben aangegeven:
+U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina. Mogelijke Staten hebben aangegeven:
 
 | Status | Beschrijving |
 |---------------|-------------|

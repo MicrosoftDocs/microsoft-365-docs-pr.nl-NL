@@ -9,21 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 271f43e4-b8f7-4d63-8059-b5747679bb7e
 description: Stel buffertijd voor of na een afspraak in Microsoft bookings in om tijd te bieden voor het opschonen of opnieuw instellen van apparatuur.
-ms.openlocfilehash: dceb777f9ddba9f1ddabfee00608813afae57a86
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 882ab0340fe56976429ed8294f2fa386b801941f
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419461"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962345"
 ---
 # <a name="set-buffer-time-in-microsoft-bookings"></a>Buffertijd instellen in Microsoft Bookings
 
 Voor sommige afspraken is mogelijk een tijd nodig voordat of nadat u met uw klant hebt samenontmoetd om uw vergaderruimte en apparatuur in te stellen, op te schonen of opnieuw in te stellen. Als u onderweg bent, kunt u ervoor zorgen dat u en uw team tussen afspraken kunnen overstappen zonder dat de klant hoeft te wachten.
 
 U kunt de buffertijd voor het begin van afspraken instellen, na einde van de afspraak of beide om medewerkers een extra tijdstip te geven waarop ze de volgende afspraak moeten voorbereiden.
-
-> [!NOTE]
-> Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard Standard, Microsoft 365 a3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar het is standaard uitgeschakeld. Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
 
 ## <a name="set-buffer-time-defaults"></a>Standaardwaarden voor buffertijd instellen
 

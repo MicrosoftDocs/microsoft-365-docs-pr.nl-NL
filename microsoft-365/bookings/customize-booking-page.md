@@ -9,19 +9,16 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 116d7a84-a7a0-4911-a1e9-debb2cca7c43
 description: Wijzig het kleurenthema van uw reserverings pagina in de app Microsoft bookings.
-ms.openlocfilehash: f76fee71194cb210f879617b8898e6fd8c9d7b92
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: b33be0cb71998d45e50a66f89f98daa4af175865
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419508"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962511"
 ---
 # <a name="customize-and-publish-your-booking-page"></a>Uw reserverings pagina aanpassen en publiceren
 
 Op de pagina met de boekings pagina kunt u instellen hoe de reserverings pagina van een klant te zien is. Wanneer u de reserverings pagina hebt aangepast en gepubliceerd, zullen uw klanten deze gebruiken om afspraken met u te boeken.
-
-> [!NOTE]
-> Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard Standard, Microsoft 365 a3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar het is standaard uitgeschakeld. Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
 
 Als u de reserverings pagina wilt aanpassen, meldt u zich aan bij [Office.com](https://office.com)en gaat u naar **boekings boekings** \> **pagina**. U kunt de reserverings pagina aanpassen met de volgende opties. Als u uw boekings pagina hebt ingesteld, kunt u deze publiceren zodat klanten met u afspraken kunnen maken.
 

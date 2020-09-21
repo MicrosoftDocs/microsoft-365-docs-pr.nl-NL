@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f971fb579624c31afb6225d444c326cde4621729
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c2a5c7a95a16b9a29e73b98310e64f403d4d342b
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817147"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104556"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-threat-protection-evaluation-lab"></a>Een testwaarschuwing genereren in uw Microsoft Threat Protection-evaluatie lab  
 
@@ -36,4 +36,6 @@ Nu u de installatie en configuratie van Microsoft Bedreigingsbeveiliging hebt vo
 <br>![Afbeelding van simulatie kaart in het Microsoft 365-beveiligings dashboard](../../media/mtp-eval-73.png) <br>
 
 ## <a name="next-steps"></a>Volgende stappen
-Blader door de [Microsoft 365-oplossing en het architectuur centrum](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) voor meer informatie over de manier waarop u uw beveiligingsoplossingen in uw unieke omgeving wilt implementeren.
+
+Blader door de [Microsoft 365-oplossing en het architectuur centrum](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , zodat u weet hoe u de oplossing en architectuur kunt ontwerpen die geschikt is voor uw organisatie.
+

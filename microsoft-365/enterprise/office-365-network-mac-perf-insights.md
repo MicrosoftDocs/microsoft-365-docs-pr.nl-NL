@@ -3,7 +3,7 @@ title: Microsoft 365 Network Insights (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/21/2020
+ms.date: 09/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network Insights (preview)
-ms.openlocfilehash: a9d4dbde112c9b6c74e340824c63ce2b9749e80e
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: e3730704b6672c931b7538659a38f218e769dd0a
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948514"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962369"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network Insights (preview)
 
@@ -86,7 +86,7 @@ Dit inzicht wordt weergegeven als de Network Insights-service detecteert dat geb
 
 Dit inzicht wordt verkort weergegeven als ' omleiding ' in sommige samenvattings weergaven.
 
-![Niet-optimale voor deur](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-exo.png)
+![Niet-optimale EXO-voor deur](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-exo.png)
 
 ### <a name="what-does-this-mean"></a>Wat betekent dit?
 
@@ -102,7 +102,7 @@ Dit inzicht wordt weergegeven als de Network Insights-service detecteert dat geb
 
 Dit inzicht wordt afgekort als ' afd ' in sommige samenvattings weergaven.
 
-![Niet-optimale voor deur](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-spo.png)
+![Niet-optimale SPO-voor deur](../media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-spo.png)
 
 ### <a name="what-does-this-mean"></a>Wat betekent dit?
 
@@ -173,7 +173,7 @@ De netwerklocatie van de Office-locatie voor netwerktoegang inschakelen als u di
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Aanbevelingen voor netwerkprestaties in het Microsoft 365-Beheercentrum (preview)](office-365-network-mac-perf-overview.md)
+[Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)](office-365-network-mac-perf-overview.md)
 
 [Microsoft 365-netwerk beoordeling (preview)](office-365-network-mac-perf-score.md)
 

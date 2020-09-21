@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 828a17db-956a-401e-bb62-d153b6dffd53
 description: Volg deze instructies voor het maken van uw pagina over ons, inclusief bedrijfsnaam, adres, telefoonnummer, website-URL, logo en kantooruren in Microsoft bookings.
-ms.openlocfilehash: 65de115f2217948b1e57a1642ca3c6a105675898
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 0424794d4627d7c6770f86f32d81d4653f889163
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419484"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962499"
 ---
 # <a name="enter-your-business-information"></a>Uw bedrijfsgegevens invoeren
 
@@ -25,7 +25,7 @@ De gegevens die u hier opgeeft, worden weergegeven op de pagina-klanten en klant
    ![Voorbeeld van pagina met bedrijfsgegevens in Microsoft Bookings](../media/bookings-business-info.png)
 
 > [!NOTE]
-> Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard Standard, Microsoft 365 a3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar het is standaard uitgeschakeld. Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
+> Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
 
 ## <a name="provide-business-name-and-contact-information"></a>Bedrijfsnaam en contactgegevens opgeven
 

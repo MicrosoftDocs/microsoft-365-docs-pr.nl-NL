@@ -20,18 +20,18 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: f1902c71b167d6293530eae61fa6c57d63c5f06c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0dcb1fac17a39d1125f9188028d714962c9797d
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387799"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948206"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
-You can easily see how people in your business are using Microsoft 365 services. For example, you can identify who is using a service a lot and reaching quotas, or who may not need an Microsoft 365 license at all.
+U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft.
   
-Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
+Er zijn overzichten beschikbaar voor de afgelopen 7 dagen, 30 dagen, 90 dagen en 180 dagen. Er zijn niet direct gegevens voor alle rapportageperioden beschikbaar. De rapporten komen beschikbaar na 48 uur.
   
 Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
   
@@ -141,13 +141,25 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 
 ::: moniker range="o365-worldwide"
 
-- [Gebruikersactiviteit in Microsoft Teams](microsoft-teams-user-activity.md)
+- [Gebruikersactiviteit in Microsoft Teams](microsoft-teams-user-activity-preview.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-- [Apparaatgebruik in Microsoft Teams](microsoft-teams-device-usage.md)
+- [Microsoft Teams-gebruikersactiviteit voor ministerie van Defensie en Government Community Cloud](microsoft-teams-user-activity.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Apparaatgebruik in Microsoft Teams](microsoft-teams-device-usage-preview.md)
+
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+- [Microsoft Teams-apparaatgebruik voor ministerie van Defensie en Government Community Cloud](microsoft-teams-device-usage.md)
 
 ::: moniker-end
 
@@ -159,7 +171,7 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>Gebruiksinformatie voor een specifieke gebruiker weergeven
 
-Use the service reports to research how much a specific user is using the service. For example, to find out how much mailbox storage a specific user has consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel so you filter through the list quickly.
+Gebruik de servicerapporten om te onderzoeken hoeveel een specifieke gebruiker gebruikmaakt van de service. Als u bijvoorbeeld wilt weten hoeveel postvakopslagruimte een specifieke gebruiker heeft gebruikt, opent u het rapport Postvakgebruik en sorteert u de gebruikers op naam. Als er duizenden gebruikers zijn, kunt u het rapport exporteren naar Excel zodat u de lijst snel kunt filteren.
   
 U kunt geen rapport genereren waarbij u het account van een gebruiker invoert en een lijst krijgt van welke services die persoon gebruikt en hoeveel.
   
@@ -177,7 +189,7 @@ Uw lijst met gebruikers ziet er zo uit:
   
 ![Rapporten: geanonimiseerde gebruikerslijst](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
-It'll take a few minutes for these changes to take effect on the reports in the reports dashboard. This setting also applies to the reports API.
+Het duurt enkele minuten voordat deze wijzigingen zijn doorgevoerd in de rapporten in het dashboard Rapporten. Deze instelling geldt ook voor de rapporten-API.
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>Wat gebeurt er met de gebruiksgegevens wanneer een gebruikersaccount wordt gesloten?
 

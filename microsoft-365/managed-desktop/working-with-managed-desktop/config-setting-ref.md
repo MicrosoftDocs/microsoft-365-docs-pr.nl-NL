@@ -1,5 +1,5 @@
 ---
-title: Verwijzing naar configureerbare instellingen voor Microsoft Managed Desktop
+title: Overzicht van configureerbare instellingen voor Microsoft Managed Desktop
 description: Categorieën instellen voor configureerbare instellingen in Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -9,141 +9,141 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c3f8aec244b1b0685b8293fda0b048d662c7cef2
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 2c7c7d75fad58cab0cd6d19a16a97667ea3641a1
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529359"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104486"
 ---
-# <a name="configurable-settings-reference---microsoft-managed-desktop"></a>Referentie voor configureerbare instellingen - Microsoft Managed Desktop
+# <a name="configurable-settings-reference---microsoft-managed-desktop"></a>Overzicht van configureerbare instellingen-Microsoft Managed Desktop
 
-In dit onderwerp worden de instellingencategorieën weergegeven die klanten kunnen configureren met Microsoft Managed Desktop. Elke instellingscategorie bevat informatie over vereisten, aanbevolen procedures en hoe u de instellingscategorie aanpassen. 
+Dit onderwerp bevat een overzicht van de instellingen categorieën die klanten kunnen configureren met Microsoft Managed Desktop. Elke instellings categorie bevat informatie over vereisten, aanbevolen procedures en de manier waarop u de categorie instelling kunt aanpassen. 
 
-## <a name="desktop-background-picture"></a>Bureaubladachtergrondafbeelding
-U de bureaubladachtergrondafbeelding aanpassen voor Microsoft Managed Desktop-apparaten in uw organisatie. U dit gebruiken om een bedrijfsmerk of marketingmateriaal toe te passen. 
+## <a name="desktop-background-picture"></a>Afbeelding van bureaubladachtergrond
+U kunt de bureaubladachtergrond afbeelding aanpassen voor Microsoft Managed Desktop-apparaten in uw organisatie. U kunt deze gebruiken om de merk-of marketingmateriaal van een bedrijf toe te passen. 
 
 ### <a name="requirements"></a>Vereisten
 
-Aan deze vereisten moet worden voldaan voor een achtergrondafbeelding op het bureaublad:
-- Afbeeldingsbestandsindeling - .jpg, jpeg of .png
-- Bestandslocatie - Host op een vertrouwde beveiligde http (https) locatie. 
-- Niet toegestaan - Http- en bestandsshare-locaties (unc) worden niet ondersteund. 
+Voor een bureaubladachtergrond moet aan de volgende vereisten wordt voldaan:
+- Afbeeldings bestandsindeling:. jpg,. JPEG of. png
+- Locatie van de bestanden: host op een vertrouwde, beveiligde HTTP-locatie (https). 
+- Niet toegestaan-http-en bestandsshare (UNC)-locaties worden niet ondersteund. 
 
-### <a name="customize-and-deploy-desktop-background-picture"></a>Bureaubladachtergrondafbeelding aanpassen en implementeren
+### <a name="customize-and-deploy-desktop-background-picture"></a>Afbeelding van bureaubladachtergrond aanpassen en implementeren
 
-**Een aangepaste bureaubladachtergrondafbeelding toevoegen**
-1. Aanmelden bij [microsoft Managed Desktop Admin-portal](https://aka.ms/mwaasportal)
-2. Selecteer **Configureerbaar**onder **Instellingen**.
-3. Selecteer **in Configureerbare** werkruimte **de optie Bureaubladachtergrondafbeelding**. 
+**Een aangepaste bureaubladachtergrond afbeelding toevoegen**
+1. Meld u aan bij [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het menu **apparaten** .
+2. Ga naar de sectie Microsoft Managed Desktop en selecteer **instellingen**.
+3. Selecteer in de werkruimte **instellingen** de optie **afbeelding van bureaubladachtergrond**. 
 4. Voer de locatie in van de afbeelding die u wilt gebruiken. 
-5. Selecteer **Fase-implementatie** om uw wijzigingen op te slaan en deze te implementeren in de groep Testen. 
+5. Selecteer **fase-implementatie** om de wijzigingen op te slaan en te implementeren in de groep testen. 
 
-## <a name="browser-start-pages"></a>Startpagina's van de browser
-Startpagina's in de browser worden geopend in afzonderlijke tabbladen wanneer uw gebruikers Microsoft Edge starten. Als u het uw gebruikers gemakkelijk wilt maken om een set sites te openen die ze vaak gebruiken, voegt u voor elke site een startpagina van de browser toe. 
+## <a name="browser-start-pages"></a>Startpagina's in browser
+Browser startpagina's worden in afzonderlijke tabbladen geopend wanneer uw gebruikers Microsoft Edge starten. Als u wilt voorkomen dat uw gebruikers een set sites openen die ze vaak gebruiken, voegt u een startpagina voor een browser toe voor elke site. 
 
 ### <a name="requirements"></a>Vereisten
 
-U moet de volledig gekwalificeerde domeinnaam (FQDN) opgeven voor intranet- of internetsites voor startpagina's van uw browser. Als interne sites zijn geconfigureerd, laat gebruikers weten dat toegang tot deze sites alleen is toegestaan wanneer ze zijn verbonden met het interne netwerk wanneer ze op kantoor zijn of wanneer ze zijn verbonden met een VPN-verbinding. 
+U moet de FQDN (Fully Qualified Domain Name)-naam (FULLy Qualified Domain Name) voor intranetsites of Internet sites voor de startpagina's van uw browser. Als interne sites zijn geconfigureerd, kunnen gebruikers de toegang tot deze sites alleen laten weten wanneer ze verbinding hebben met het interne netwerk wanneer ze zich op kantoor bevinden of wanneer ze verbinding maken met een VPN-verbinding. 
 
 ### <a name="customize-and-deploy-browser-start-pages"></a>Startpagina's voor browser aanpassen en implementeren
 
 **Een startpagina voor een browser toevoegen**
-1. Aanmelden bij [microsoft Managed Desktop Admin-portal](https://aka.ms/mwaasportal)
-2. Selecteer **Configureerbaar**onder **Instellingen**.
-3. Selecteer **startpagina's voor browser in** **Configureerbare** werkruimte. 
+1. Meld u aan bij [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het menu **apparaten** .
+2. Ga naar de sectie Microsoft Managed Desktop en selecteer **instellingen**.
+3. Selecteer in de werkruimte **instellingen** de optie **browser startpagina's**. 
 4. Selecteer **Startpagina toevoegen**.
-5. Voer **op De startpagina van**de browser toevoegen de URL in voor de site die u wilt gebruiken en selecteer **Startpagina toevoegen**. 
-6. Herhaal stap 1-5 voor extra startpagina's voor de browser. 
-7. Selecteer **Fase-implementatie** om uw wijzigingen op te slaan en deze te implementeren in de groep Testen.
+5. Voer op de **Startpagina van de browser toevoegen**de URL in voor de site die u wilt gebruiken en selecteer vervolgens **Startpagina toevoegen**. 
+6. Herhaal stappen 1-5 voor andere startpagina's van de browser. 
+7. Selecteer **fase-implementatie** om de wijzigingen op te slaan en te implementeren in de groep testen.
 
-## <a name="enterprise-mode-site-list-location"></a>Locatie van de sitelijst in de ondernemingsmodus
+## <a name="enterprise-mode-site-list-location"></a>Locatie van de site lijst voor de ondernemingsmodus
 
-Als u specifieke websites en apps hebt waarvan u weet dat ze compatibiliteitsproblemen hebben met Microsoft Edge, u de sitelijst voor de Ondernemingsmodus gebruiken, zodat de websites automatisch worden geopend met Internet Explorer 11. Als u ook weet dat uw intranetsites niet correct gaan werken met Microsoft Edge, u alle intranetsites automatisch openen met Internet Explorer 11. Als u de Enterprise-modus gebruikt, u Microsoft Edge blijven gebruiken als uw standaardbrowser, terwijl u er ook voor zorgen dat uw apps blijven werken op Internet Explorer 11. Zie [Sitelijsten ondernemingsmodus en site in ondernemingsmodus](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode)voor meer informatie over sitelijsten in de ondernemingsmodus . 
+Als u specifieke websites en apps hebt met compatibiliteitsproblemen met Microsoft Edge, kunt u de site lijst voor de ondernemingsmodus gebruiken, zodat de websites automatisch met Internet Explorer 11 worden geopend. Als u weet dat uw intranetsites niet goed werken met Microsoft Edge, kunt u instellen dat alle intranetsites automatisch met Internet Explorer 11 worden geopend. Met behulp van de ondernemingsmodus kunt u Microsoft Edge als standaardbrowser blijven gebruiken, terwijl u er ook voor zorgt dat uw apps werken met Internet Explorer 11. Zie [Enterprise mode en site lijsten voor ondernemings](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode)modus voor meer informatie over site lijsten voor ondernemings modi. 
 
-U een https:// locatie opgeven of de locatie voor een intern aandeel waar u uw sitelijst in ondernemingsmodus hebt gehost. 
+U kunt een https://-locatie opgeven of de locatie voor een interne share waarop u de site lijst van de ondernemingsmodus hebt gehost. 
 
 ### <a name="requirements"></a>Vereisten
 
-Aan deze vereisten moet worden voldaan voor het lijstbestand van de site in de ondernemingsmodus:
-- Bestandsindeling - XML-bestand dat voldoet aan [bestandsvereisten](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#site-list-xml-file)
-- Bestandslocatie - Hostbestand op een interne https-locatie. 
-- Niet toegestaan - Hosten op een intern bestandsaandeel, zoals *//sharename*, is niet toegestaan
+U moet voldoen aan de volgende vereisten voor het site-lijstbestand:
+- Bestandsindeling-XML-bestand die voldoet aan de [Bestands vereisten](https://docs.microsoft.com/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#site-list-xml-file)
+- Bestandslocatie-hostbestand op een interne https-locatie. 
+- Niet toegestaan-hosting voor een interne bestandsshare, zoals *//sharename*, is niet toegestaan.
 
 ### <a name="best-practices"></a>Aanbevolen procedures
 
-Deze best practices worden aangeboden om klanten te helpen beslissingen te nemen om hun IT-infrastructuur te moderniseren:
-- **Kies een beperkt aantal sites** : Microsoft Managed Desktop gebruikt Microsoft Edge als de favoriete browser om de algehele beveiliging voor uw organisatie en bruikbaarheid voor uw gebruikers te verbeteren. De meeste sites in deze lijst zijn voor oudere web-apps die een oudere versie van een browser nodig hebben die niet zoveel beveiligingsfuncties bevat. 
-- **Overweeg een alternatief** : overweeg een andere site of web-app waarvoor geen oudere browser nodig is. Of overweeg de site bij te werken zodat deze nieuwere browsers kan gebruiken. Nieuwere browsers maken gebruik van de nieuwste technologie en helpen de beveiliging te verbeteren.
+Deze aanbevolen procedures worden gebruikt om klanten te helpen bij het aanbrengen van een beslissing hun IT-infrastructuur te moderniseren:
+- **Kies een beperkt aantal sites** : Microsoft Managed Desktop gebruikt Microsoft Edge als de beste browser om het algehele beveiligingsniveau voor uw organisatie en bruikbaarheid voor uw gebruikers te verbeteren. De meeste sites in deze lijst zijn bedoeld voor oudere web-apps die een oudere versie van een browser nodig hebben die geen veel beveiligingsfuncties biedt. 
+- **Kijk eens** naar een andere site of een web-app waarvoor geen oudere browser is vereist. U kunt ook overwegen om de site bij te werken, zodat u nieuwe browsers kunt gebruiken. Nieuwere browsers maken gebruik van de nieuwste technologieën en helpen de beveiliging te verbeteren.
 
-### <a name="customize-and-deploy-enterprise-site-mode-list-location"></a>Locatie van de lijst met de ondernemingssitemodus aanpassen en implementeren
+### <a name="customize-and-deploy-enterprise-site-mode-list-location"></a>De locatie van de lijst met ondernemings site modi aanpassen en implementeren
 
-**Locatie van een lijst met bedrijfssitemodus toevoegen**
+**De locatie van een lijst met zakelijke site modi toevoegen**
 
-1.  Aanmelden bij [microsoft Managed Desktop Admin-portal](https://aka.ms/mwaasportal)
-2.  Selecteer **Configureerbaar**onder **Instellingen**.
-3.  Selecteer **in Configureerbare** werkruimte de locatie van de sitelijst in **de ondernemingsmodus**. 
-4.  Voer de https-locatie voor uw sitelijst in. 
-5.  Selecteer **Fase-implementatie** om uw wijzigingen op te slaan en deze te implementeren in de groep Testen.
+1. Meld u aan bij [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het menu **apparaten** .
+2. Ga naar de sectie Microsoft Managed Desktop en selecteer **instellingen**.
+3. Selecteer in de werkruimte **instellingen** de locatie van de **site lijst voor de ondernemingsmodus**. 
+4. Voer de https-locatie voor uw site lijst in. 
+5. Selecteer **fase-implementatie** om de wijzigingen op te slaan en te implementeren in de groep testen.
 
 ## <a name="trusted-sites"></a>Vertrouwde sites
 
-Vertrouwde sites stellen u in staat om beveiligingszones aan te passen, of waar een site kan worden gebruikt, voor verschillende sites. Veiligheidszones zijn onder andere: 
-- Zone 1 – Lokale intranetzone
-- Zone 2 – Zone Trusted sites
-- Zone 3 – Internetzone
-- Zone 4 – Zone Restricted Sites
+Met vertrouwde websites kunt u beveiligingszones en de locatie waar u een site kunt gebruiken, aanpassen voor verschillende sites. Beveiligingszones zijn onder meer: 
+- Zone 1: lokale intranet zone
+- Zone 2 – zone met vertrouwde websites
+- Zone 3: Internet zone
+- Zone 4 – zone met beperkte sites
 
 ### <a name="requirements"></a>Vereisten
 
-Geef de volledig gekwalificeerde domeinnaam (FQDN) voor intranet of internetsites voor elke vertrouwde site. 
+Geef de FQDN-naam (Fully Qualified Domain Name) voor de intranet-of Internet site op voor elke vertrouwde site. 
 
 ### <a name="customize-and-deploy-trusted-sites"></a>Vertrouwde sites aanpassen en implementeren
 
 **Een vertrouwde site toevoegen**
 
-1. Aanmelden bij [microsoft Managed Desktop Admin-portal](https://aka.ms/mwaasportal)
-2. Selecteer **Configureerbaar**onder **Instellingen**.
-3. Selecteer **vertrouwde sites**in **Configureerbare** werkruimte en selecteer **Vervolgens Vertrouwde site toevoegen**. 
-4. Voer **op Vertrouwde site toevoegen**de URL in, kies een beveiligingszone en selecteer **Vervolgens Vertrouwde site toevoegen**. 
+1. Meld u aan bij [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het menu **apparaten** .
+2. Ga naar de sectie Microsoft Managed Desktop en selecteer **instellingen**.
+3. Selecteer in de werkruimte **instellingen** de optie **vertrouwde websites**en selecteer vervolgens **vertrouwde site toevoegen**. 
+4. Voer de URL in bij **vertrouwde site toevoegen**, kies een beveiligingszone en selecteer vervolgens **vertrouwde site toevoegen**. 
 5. Herhaal stap 1-4 voor elke vertrouwde site die u wilt toevoegen. 
-6. Selecteer **Fase-implementatie** om uw wijzigingen op te slaan en deze te implementeren in de groep Testen.
+6. Selecteer **fase-implementatie** om de wijzigingen op te slaan en te implementeren in de groep testen.
 
 **Een vertrouwde site verwijderen**
 
-1. Aanmelden bij [microsoft Managed Desktop Admin-portal](https://aka.ms/mwaasportal)
-2. Selecteer **Configureerbaar**onder **Instellingen**.
-3. Selecteer **vertrouwde sites**in **de werkruimte Configureerbaar.** 
-4. Selecteer de site die u wilt verwijderen en selecteer **Verwijderen**. 
+1. Meld u aan bij [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het menu **apparaten** .
+2. Ga naar de sectie Microsoft Managed Desktop en selecteer **instellingen**.
+3. Selecteer in de werkruimte **instellingen** de optie **vertrouwde websites**. 
+4. Selecteer de site die u wilt verwijderen en selecteer vervolgens **verwijderen**. 
 5. Herhaal stap 1-4 voor elke vertrouwde site die u wilt verwijderen. 
-6. Selecteer **Fase-implementatie** om uw wijzigingen op te slaan en deze te implementeren in de groep Testen.
+6. Selecteer **fase-implementatie** om de wijzigingen op te slaan en te implementeren in de groep testen.
 
-## <a name="proxy"></a>Proxy
-U netwerkproxy-instellingen voor uw organisatie beheren. Voeg uw proxyserver en poortnummer toe en voeg vervolgens uitzonderingen op uw proxysite toe. Microsoft Managed Desktop bevat een set standaardproxy-uitzonderingen die nodig zijn om de service te laten werken. De standaarduitsluitingslijst kan alleen worden gewijzigd door de Microsoft Managed Desktop-service.  Zie [Netwerkconfiguratie voor Microsoft Managed Desktop voor](../get-ready/network.md)meer informatie. 
+## <a name="proxy"></a>/Proxy-invoegtoepassing
+U kunt de instellingen voor de netwerkproxy voor uw organisatie beheren. Voeg uw proxyserver en poortnummer toe en voeg vervolgens uw proxy site-uitzonderingen toe. Microsoft Managed Desktop bevat een set standaard-proxy-uitzonderingen die nodig zijn om de service uit te voeren. De standaardlijst voor uitsluitingen mag alleen worden gewijzigd door de Microsoft beheerde bureaublad service.  Zie [Netwerkconfiguratie voor Microsoft beheerde bureaublad](../get-ready/network.md)voor meer informatie. 
 
-De uitzonderingen op proxysite die u toevoegt in de Microsoft Managed Desktop-portal, worden toegevoegd aan de standaardproxy-uitzonderingen die zijn opgenomen in de Microsoft Managed Desktop-service. 
+De uitzonderingen voor de proxy site die u toevoegt in de Microsoft beheerde bureaublad Portal, worden toegevoegd aan de standaard-proxy-uitzonderingen van de beheerde bureaublad service van Microsoft. 
 
 > [!NOTE]
-> Het bijwerken van de standaardlijst voor proxy-uitzondering wordt altijd geprioriteerd boven implementaties van klanten. Dit betekent dat uw gefaseerde implementatie wordt onderbroken als er een implementatie is voor de standaardlijst voor proxy-uitzondering.  
+> Het bijwerken van de standaardlijst met proxy-uitzonderingen wordt altijd met prioriteit gewijzigd voor klant implementaties. Dit houdt in dat uw gefaseerde implementatie wordt onderbroken als er een implementatie voor de standaardlijst met proxy-uitzonderingen is.  
 
 ### <a name="requirements"></a>Vereisten
 
-Aan deze vereisten moet worden voldaan voor uitzonderingen op proxyserver en proxysite:
-- Moet een geldig serveradres en poortnummer zijn
-- URL's moeten een geldige http-site zijn 
+Voor proxyserver-en proxy site-uitzonderingen moet de volgende vereisten zijn voldaan:
+- Moet een geldig serveradres en een geldig poortnummer zijn
+- Url's moet een geldige http-site zijn 
 
 ### <a name="customize-and-deploy-proxies"></a>Proxy's aanpassen en implementeren
 
-**Een afzonderlijke proxysiteuitzondering toevoegen**
+**Een individuele uitzondering op de proxy site toevoegen**
 
-1. Aanmelden bij [microsoft Managed Desktop Admin-portal](https://aka.ms/mwaasportal)
-2. Selecteer **Configureerbaar**onder **Instellingen**.
-3. Selecteer Proxy in **de werkruimte Configureerbaar.** **Proxy** 
-4. Voer het **adres-** en **poortnummer** voor uw proxyserver in en selecteer **Proxy exception toevoegen**. 
-5. Voer de URL van een geldige http-site in en selecteer **Proxy exception toevoegen**. 
+1. Meld u aan bij [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het menu **apparaten** .
+2. Ga naar de sectie Microsoft Managed Desktop en selecteer **instellingen**.
+3. Selecteer in de werkruimte **instellingen** de optie **proxy**. 
+4. Voer het **adres** en het **poortnummer** van de proxyserver in en selecteer vervolgens **proxy uitzondering toevoegen**. 
+5. Voer de URL van een geldige http-site in en selecteer vervolgens **proxy uitzondering toevoegen**. 
 6. Herhaal stap 1-5 voor elke vertrouwde site die u wilt toevoegen. 
-7. Selecteer **Fase-implementatie** om uw wijzigingen op te slaan en deze te implementeren in de groep Testen.
+7. Selecteer **fase-implementatie** om de wijzigingen op te slaan en te implementeren in de groep testen.
 
-## <a name="additional-resources"></a>Overige informatiebronnen
+## <a name="additional-resources"></a>Aanvullende bronnen
 - [Overzicht van configureerbare instellingen](config-setting-overview.md) 
 - [Configureerbare instellingen implementeren](config-setting-deploy.md)

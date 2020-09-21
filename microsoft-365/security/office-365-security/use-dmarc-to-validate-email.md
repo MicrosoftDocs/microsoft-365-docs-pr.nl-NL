@@ -15,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
-ms.openlocfilehash: 09c06d30d118078e310c5e3d0743ef5236ec77ba
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: 1f014a221334925f5b9c90371d552eb64d026c1f
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632115"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949430"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
@@ -206,7 +206,7 @@ Als u DMARC-weigeringsbeleid publiceert (p=weigeren), kan geen enkele andere kla
 
 ## <a name="how-microsoft-365-handles-inbound-email-that-fails-dmarc"></a>Hoe Microsoft 365 omgaat met inkomende e-mail waarvan de DMARC-controle is mislukt
 
-Als het DMARC-beleid van de verzendende server `p=reject` is, markeert EOP het bericht als spoof in plaats van het te weigeren. Met andere woorden, Microsoft 365 behandelt `p=reject` en `p=quarantine` voor inkomende e-mails op dezelfde manier. Beheerders kunnen binnen het [anti-phishing-beleid](set-up-anti-phishing-policies.md) de actie definiëren die moet worden uitgevoerd voor berichten die worden geclassificeerd als spoof.
+Als het DMARC-beleid van de verzendende server `p=reject` is, markeert [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) het bericht als spoof in plaats van het te weigeren. Met andere woorden, Microsoft 365 behandelt `p=reject` en `p=quarantine` voor inkomende e-mails op dezelfde manier. Beheerders kunnen binnen het [anti-phishing-beleid](set-up-anti-phishing-policies.md) de actie definiëren die moet worden uitgevoerd voor berichten die worden geclassificeerd als spoof.
 
 Microsoft 365 is zo geconfigureerd, omdat van bepaalde legitieme e-mail de DMARC-controle mogelijk mislukt.  De DMARC-controle van een bericht kan bijvoorbeeld mislukken als het wordt verzonden naar een adressenlijst die vervolgens het bericht doorstuurt naar alle deelnemers aan die lijst. Als deze berichten door Microsoft 365 worden geweigerd, kunnen gebruikers legitieme e-mail kwijtraken zonder die te kunnen herstellen. In plaats hiervan zal de DMARC-controle van deze berichten nog steeds mislukken, maar worden ze gemarkeerd als spam en niet geweigerd. Indien gewenst, kunnen gebruikers deze berichten nog steeds in hun postvak krijgen via de volgende methoden:
 

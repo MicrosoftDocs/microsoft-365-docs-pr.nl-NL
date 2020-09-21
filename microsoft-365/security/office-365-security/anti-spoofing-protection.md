@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
-ms.openlocfilehash: 46adb8b666bd9f73cbd76860f58efedc8d3c1c59
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: b4d1feda06aa0bd21b72b9642dea845693e20756
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868877"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47949748"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -143,7 +143,7 @@ Voer de volgende stappen uit, afhankelijk van of u de mailinglijst beheert, om e
 
   - Lees de instructies in dit blogbericht: [Een tip voor adressenlijstbeheerders om samen te werken met DMARC om fouten te voorkomen](https://blogs.msdn.microsoft.com/tzink/2017/03/22/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures/).
 
-  - Als u updates op de adressenlijstserver wilt installeren om ARC te ondersteunen, raadpleegt u [https://arc-spec.org](https://arc-spec.org/)
+  - Als u updates op de adressenlijstserver wilt installeren om ARC te ondersteunen, raadpleegt u <http://arc-spec.org>.
 
 - Uw organisatie is niet de eigenaar van de mailinglijst:
 

@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Meer informatie over het opnieuw instellen van een wachtwoord voor een gebruiker in Microsoft 365 for Business-abonnement.
-ms.openlocfilehash: 31a654f16e62ca574666dc9811004c5f40c546e6
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: faae2d31f29eb4817abc31cde1e1ce2bd6a47db1
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361759"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131697"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
@@ -40,7 +40,7 @@ In dit artikel wordt uitgelegd hoe u wachtwoorden voor uzelf en voor uw gebruike
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Om deze stappen te voltooien, moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md) 
+Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md).
 
 U moet een [globale beheerder of wachtwoordbeheerder](about-admin-roles.md) zijn om deze stappen te kunnen uitvoeren.
 

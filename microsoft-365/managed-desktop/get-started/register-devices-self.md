@@ -7,16 +7,16 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: e433b10b66b5e4f061227eae7e944c7fd19e2260
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 550f7dd35b3990a08da4c2bb9dd3042ff084b185
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289755"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104398"
 ---
 # <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
-Microsoft Managed Desktop kan met gloednieuwe apparaten werken, maar u kunt ook apparaten die u al hebt, opnieuw gebruiken (welke u de afbeelding opnieuw moet maken. U kunt apparaten registreren met behulp van de beheerde portal voor Microsoft-bureaubladbeheer.
+Microsoft Managed Desktop kan met gloednieuwe apparaten werken, maar u kunt ook apparaten die u al hebt, opnieuw gebruiken (welke u de afbeelding opnieuw moet maken. U kunt apparaten registreren met Microsoft Managed desktop in de portal van Microsoft Endpoint Manager.
 
 > [!NOTE]
 > Werkt u met een partner om apparaten te verkrijgen? Als dat zo is, hoeft u zich geen zorgen te maken over het verkrijgen van de hardware-hashes. ze zorgen voor u. Zorg ervoor dat uw partner een relatie met u tot stand brengt via het [partner centrum](https://partner.microsoft.com/dashboard). Uw partner kan meer te weten komen in de [Help van partner Center](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer). Wanneer deze relatie tot stand is gebracht, registreert uw partner zichzelf ook voor uw eigen actie – geen verdere actie vereist. Zie [stappen voor partners om apparaten te registreren](register-devices-partner.md)als u de gegevens wilt zien of uw partner vragen heeft. Wanneer de apparaten geregistreerd zijn, kunt u doorgaan met het [controleren van de afbeelding](#check-the-image) en [het leveren van de apparaten](#deliver-the-device) voor uw gebruikers.
@@ -73,9 +73,9 @@ U moet de gegevens in de CSV-bestanden gecombineerd tot één bestand om de regi
 
 #### <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheer Portal
 
-Selecteer in de [Beheer Portal](https://aka.ms/mmdportal)van Microsoft Managed Desktop de optie **apparaten** in het linker navigatiedeelvenster. Selecteer **+ register apparaten**. de invliegen wordt geopend:
+Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **apparaten** in het linker navigatiedeelvenster. Zoek de sectie Microsoft Managed Desktop van het menu en selecteer **apparaten**. Selecteer op de werkruimte Microsoft Managed Desktop apparaten de optie **+ register apparaten** om nieuwe apparaten te registreren.
 
-[![Invliegen na het selecteren van apparaten voor registreren, apparaten met kolommen weergeven voor toegewezen gebruikers, serienummers, status, laatste datum en ouderdom](../../media/new-registration-ui.png)](../../media/new-registration-ui.png)
+<!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
 
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
@@ -87,7 +87,7 @@ Volg deze stappen:
 3. Selecteer **apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op de **Blade van apparaten**, gemarkeerd als **AutopilotRegistrationRequested**. Registratie duurt meestal minder dan 10 minuten en wanneer het apparaat succesvol wordt weergegeven als u **klaar bent** , wordt de gebruiker gevraagd het programma te gebruiken.
 
 
-U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina **met beheerde Microsoft-bureaublad apparaten** . Mogelijke Staten hebben aangegeven:
+U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina. Mogelijke Staten hebben aangegeven:
 
 | Status | Beschrijving |
 |---------------|-------------|

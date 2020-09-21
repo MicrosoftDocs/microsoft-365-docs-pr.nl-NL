@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: In dit artikel vindt u meer informatie over hoe u uw Microsoft 365-aanwezigheid uitbreidt naar meerdere geografische regio's met Microsoft 365 meerdere geografische regio's.
-ms.openlocfilehash: 41069490a8c824bb58a8f4247987abd3ce0901b6
-ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
+ms.openlocfilehash: 2e58d8b5ba66762bcc742f711d13007efc71b679
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47825351"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104604"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -69,7 +69,7 @@ Voer de volgende stappen uit om aan de slag te gaan met meerdere geo:
 
 1. Werk samen met uw accountteam om de mogelijkheden voor meervoudige geo toe te voegen _in Microsoft 365_ serviceplan. U kunt nu het aantal benodigde licenties toevoegen. Meervoudige geo-functie is beschikbaar voor EA-klanten met een minimum van een 250 Microsoft 365-abonnement.
 
-   Voordat u Microsoft 365 multi-geo kunt gaan gebruiken, moet Microsoft uw Exchange Online-Tenant configureren voor ondersteuning via meerdere geo. Dit eenmalige configuratieproces wordt geactiveerd wanneer u de *mogelijkheden voor meerdere geografische locaties in Microsoft 365* serviceplan hebt gesorteerd en de licenties worden weergegeven in de Tenant. U ontvangt een melding in het [berichtencentrum van Microsoft 365](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) wanneer u de licenties voor meerdere geografische licenties toepast en u vervolgens de mogelijkheden van microsoft 365 multi-geo kunt configureren en gebruiken.
+   Voordat u Microsoft 365 multi-geo kunt gaan gebruiken, moet Microsoft uw Exchange Online-Tenant configureren voor ondersteuning via meerdere geo. Dit eenmalige configuratieproces wordt geactiveerd wanneer u de *mogelijkheden voor meerdere geografische locaties in Microsoft 365* serviceplan hebt gesorteerd en de licenties worden weergegeven in de Tenant. U ontvangt specifieke meldingen van de werkbelasting in het [Microsoft 365-berichtencentrum](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) nadat de Tenant het configuratieproces voor elke werkbelasting heeft voltooid en u vervolgens de mogelijkheden van microsoft 365 multi-geo kunt configureren en gebruiken. De tijd die nodig is voor het configureren van een Tenant voor ondersteuning met meerdere Geografischen verschilt per Tenant naar Tenant, maar de meeste tenants voltooien binnen een maand na ontvangst van de functie licenties. Grotere of complexere tenants maken meer tijd nodig om het configuratieproces te voltooien. Neem contact op met uw accountteam voor meer informatie over uw specifieke Tenant.
 
 2. Lees [de omgeving voor meerdere geografische omgevingen plannen](plan-for-multi-geo.md).
 

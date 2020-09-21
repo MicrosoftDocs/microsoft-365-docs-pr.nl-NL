@@ -1,7 +1,7 @@
 ---
-title: Saneringsacties na geautomatiseerde onderzoeken in Microsoft Threat Protection
-description: Een overzicht krijgen van herstelacties die volgen op geautomatiseerde onderzoeken in Microsoft Threat Protection
-keywords: geautomatiseerd, onderzoek, alert, trigger, actie, sanering
+title: Herstelacties na geautomatiseerd onderzoek in Microsoft Threat Protection
+description: Bekijk een overzicht van de acties voor herstel na de geautomatiseerde tests in Microsoft Threat Protection
+keywords: automatisch, onderzoek, waarschuwing, trigger, actie, herstel
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -18,14 +18,16 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: e0f76f6a232edeac350d08eeeb47188535ffe688
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.date: 09/16/2020
+ms.reviewer: evaldm, isco
+ms.openlocfilehash: 205809bac14cc82e850ea1cbc0349256432bfe68
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502935"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962583"
 ---
-# <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Saneringsacties na geautomatiseerde onderzoeken in Microsoft Threat Protection
+# <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Herstelacties na geautomatiseerd onderzoek in Microsoft Threat Protection
 
 **Van toepassing op:**
 - Microsoft Threat Protection
@@ -33,34 +35,36 @@ ms.locfileid: "46502935"
 
 ## <a name="remediation-actions"></a>Herstelacties
 
-Tijdens en na een geautomatiseerd onderzoek in Microsoft Threat Protection worden herstelacties geïdentificeerd voor schadelijke of verdachte items. Sommige soorten herstelacties worden uitgevoerd op apparaten, ook wel eindpunten genoemd. Andere herstelacties worden uitgevoerd op e-mailinhoud. Geautomatiseerde onderzoeken die worden voltooid nadat herstelmaatregelen zijn uitgevoerd, goedgekeurd of afgewezen.
+Bij een geautomatiseerd onderzoek in Microsoft Threat Protection worden herstelacties herkend voor schadelijke of verdachte items. Sommige soorten herstelbewerkingen worden uitgevoerd op apparaten, ook wel eindpunten genoemd. Voor e-mail inhoud worden andere herstelacties gebruikt. Geautomatiseerd onderzoek na voltooiing van herstelacties worden uitgevoerd, goedgekeurd of afgekeurd.
 
-In de volgende tabel worden herstelacties samengevat die momenteel worden ondersteund in Microsoft Threat Protection: 
+De volgende tabel bevat een overzicht van herstelacties die momenteel worden ondersteund in Microsoft Threat Protection: 
 
-|Herstelacties voor apparaten (eindpunt)  |Acties voor het herstellen van e-mail  |
+|Acties voor herstel van apparaten (eindpunten)  |Acties voor het herstel van e-mailberichten  |
 |---------|---------|
-|- Verzamel onderzoekspakket <br/>- Isoleren apparaat (deze actie kan ongedaan worden gemaakt)<br/>- Buitenboordmachine <br/>- Release code uitvoering <br/>- Loslaten uit quarantaine <br/>- Voorbeeld aanvragen <br/>- Code-uitvoering beperken (deze actie kan ongedaan worden gemaakt) <br/>- Antivirusscan uitvoeren <br/>- Stoppen en in quarantaine      |- URL blokkeren (tijd-van-klik)<br/>- Soft verwijderen van e-mailberichten of clusters<br/>- Quarantaine e-mail<br/>- Een e-mailbijlage in quarantaine plaatsen<br/>- Externe e-maildoorschakeling uitschakelen          |
+|-Onderzoek pakket verzamelen <br/>-Isoleer apparaat (deze actie kan ongedaan worden gemaakt)<br/>-Verwijderen-computer <br/>Uitvoering van uitvoering van programmacode <br/>-Na quarantaine publicatie <br/>-Voorbeeld van aanvraag <br/>-Uitvoering van code beperken (deze actie kan ongedaan worden gemaakt) <br/>-Virusscan uitvoeren <br/>-Stop en Quarantine      |-Blok URL (time-of-klik)<br/>-Tijdelijke e-mail-en cluster berichten verwijderen<br/>-E-mail in quarantaine<br/>-Een e-mailbijlage in quarantaine plaatsen<br/>-Externe e-mail doorsturen uitschakelen          |
 
-Herstelacties, of ze nu goedgekeurd zijn of al zijn voltooid, kunnen worden weergegeven in het [Onderhoudscentrum](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
+Herstelacties, ongeacht of ze goedkeuring of al zijn voltooid, kunnen worden weergegeven in het [Actiecentrum](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
 
-## <a name="remediation-actions-follow-automated-investigations"></a>Saneringsacties volgen op geautomatiseerde onderzoeken
+## <a name="remediation-actions-follow-automated-investigations"></a>Voor herstelacties volgen geautomatiseerd onderzoek
 
-Wanneer een geautomatiseerd onderzoek is voltooid, wordt een oordeel geveld voor elk betrokken bewijsstuk en worden saneringsacties geïdentificeerd. In sommige gevallen worden herstelmaatregelen automatisch ondernomen; in andere gevallen wachten saneringsacties op goedkeuring. In de volgende tabel worden mogelijke uitspraken en uitkomsten weergegeven:
+Wanneer een geautomatiseerd onderzoek wordt voltooid, wordt een verdict voor elk bewijs van het bewijs bereikt. Afhankelijk van het verdict worden herstelacties aangegeven. In sommige gevallen worden herstelacties automatisch uitgevoerd. in andere gevallen zijn herstelacties in afwachting van goedkeuring. Het is alles afhankelijk van de manier waarop [automatisch onderzoek en beantwoorden zijn geconfigureerd](mtp-configure-auto-investigation-response.md).
 
-|Oordeel    |Gebied    |Resultaten|
+De volgende tabel bevat mogelijke Verdicts en resultaten:
+
+|Verdict    |Ziet    |Resultaten|
 |------|------|------|
-|Kwaadaardige    |Apparaten (eindpunten)    |Herstelacties worden automatisch uitgevoerd|
-|Kwaadaardige    |E-mailinhoud (URL's of bijlagen) | Aanbevolen herstelacties zijn in afwachting van goedkeuring|
-|Verdachte    |Apparaten of e-mailinhoud |Aanbevolen herstelacties zijn in afwachting van goedkeuring|
-|Geen bedreigingen gevonden    |Apparaten of e-mailinhoud    |Er zijn geen saneringsacties nodig|
+|Schadelijke    |Apparaten (eindpunten)    |Herstel stappen worden automatisch uitgevoerd (als u ervan uitgaat dat de [Apparaatgroepen](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) van uw organisatie **automatisch**worden ingesteld op volledig herstelde bedreigingen)|
+|Schadelijke    |E-mail inhoud (Url's of bijlagen) | Aanbevolen herstelacties wachten op goedkeuring|
+|Melden    |Apparaten of e-mail inhoud |Aanbevolen herstelacties wachten op goedkeuring|
+|Geen bedreigingen gevonden    |Apparaten of e-mail inhoud    |Er zijn geen herstelacties nodig|
 
-[Een lopende actie in het Actiecentrum bekijken](mtp-autoir-actions.md#review-a-pending-action-in-the-action-center)
-
-> [!TIP]
-> Als u denkt dat er iets is gemist of ten onrechte is gedetecteerd door geautomatiseerde onderzoeks- en reactiefuncties in Microsoft Threat Protection, laat het ons dan weten! [Valse positieven/negatieven melden](mtp-autoir-report-false-positives-negatives.md).
+> [!IMPORTANT]
+> Of herstelacties automatisch of alleen na de goedkeuring worden uitgevoerd, hangt af van bepaalde instellingen, zoals het beleid van de groep apparaat van uw organisatie. Zie de volgende artikelen voor meer informatie:
+> - [Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft Threat Protection configureren](mtp-configure-auto-investigation-response.md)
+> - [Hoe bedreigingen op apparaten worden hersteld](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Acties goedkeuren of afwijzen](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir-actions)
-
-- [Meer informatie over het Actiecentrum](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
+- [Bezoek het Actiecentrum](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
+- [Acties in behandeling goedkeuren of afwijzen](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir-actions)
+- [In-en uitzoomen op onjuiste positief en negatief onderzoek en antwoord mogelijkheden](mtp-autoir-report-false-positives-negatives.md)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b714d9dc4e3ca143d2cb2d7164f8c3c737d1928
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: a87cee31b4e0251aea8eb39640d37184ccd0ee96
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826503"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104520"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -269,7 +269,7 @@ Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
 
 Het rapport **status beveiliging** van de bedreiging is beschikbaar in zowel EOP als Office 365 ATP. de rapporten bevatten echter verschillende gegevens. Gebruikers van EOP kunnen bijvoorbeeld informatie over malware bekijken die zijn gedetecteerd via e-mail, maar niet informatie over [schadelijke bestanden die zijn gevonden in SharePoint Online, OneDrive of Microsoft teams](atp-for-spo-odb-and-teams.md).
 
-Het rapport bevat een samengevoegd aantal unieke e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (Url's) die zijn geblokkeerd door de anti-malware-engine, het [automatisch wissen van Zero Hour (ZAP)](zero-hour-auto-purge.md)en de ATP-functies, zoals [veilige koppelingen](atp-safe-links.md)met ATP, [veilige bijlagen](atp-safe-attachments.md)en ATP [anti-phishing](set-up-anti-phishing-policies.md). U kunt deze gegevens gebruiken om trends te identificeren of te bepalen of een organisatiebeleid moet worden aangepast.
+Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (Url's), die zijn geblokkeerd door de anti-malware-engine, [automatisch opschonen van Zero Hour-functies (ZAP)](zero-hour-auto-purge.md)en ATP-functies zoals [veilige koppelingen](atp-safe-links.md)voor ATP, [veilige bijlagen](atp-safe-attachments.md)van ATP en [ATP anti-phishing](set-up-anti-phishing-policies.md). U kunt deze gegevens gebruiken om trends te identificeren of te bepalen of een organisatiebeleid moet worden aangepast. Het is belangrijk om te weten dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.
 
 Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **Reports** \> **Dashboard** rapporten en selecteert u de **status bedreigingsbeveiliging**. Als u rechtstreeks naar het rapport wilt gaan, opent u een van de volgende Url's:
 

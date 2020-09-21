@@ -3,7 +3,7 @@ title: Test voor Microsoft 365-netwerkverbindingen (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/15/2020
+ms.date: 09/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,23 +14,23 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Test voor Microsoft 365-netwerkverbindingen (preview)
-ms.openlocfilehash: 0a5e7831b28488e793488f572fd830d47a0f3f9a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 2197f3361efee51dfa2bd170b0c8d8e94709d3e8
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948541"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962396"
 ---
 # <a name="microsoft-365-network-connectivity-test-preview"></a>Test voor Microsoft 365-netwerkverbindingen (preview)
 
 Het testprogramma voor Microsoft 365-netwerkconnectiviteit bevindt zich op <https://connectivity.office.com> . Het is een adjunct-hulpmiddel voor de netwerkanalyse-en netwerk inzichten-informatie die beschikbaar is in het Microsoft 365-Beheercentrum, onder de **status | Verbindings** menu.
 
+![Hulpprogramma voor connectiviteitstest](../media/m365-mac-perf/m365-mac-perf-test-tool-page.png)
+
 >[!NOTE]
 >Het testprogramma voor Netwerkverbindingen ondersteunt tenants in de Duitse commerciële versie en Duitsland, maar niet GCC, GCC High, DoD of China.
 
 De netwerk inzichten in het Microsoft 365-Beheercentrum op basis van regelmatige productafmetingen voor uw Microsoft 365-Tenant, die elke dag worden geaggregeerd. In vergelijking worden de netwerk inzichten van de test voor netwerkverbindingen van Microsoft 365 lokaal en met één keer via het hulpprogramma uitgevoerd. Tests die in het product kunnen worden uitgevoerd, zijn beperkt en door tests te voeren die voor de gebruiker toegankelijk zijn, kunnen de gegevens worden verzameld met een betere inzichten. Houd er rekening mee dat de netwerk inzichten in het Microsoft 365-Beheercentrum op een specifieke locatie van Office een netwerkprobleem voor gebruik van Microsoft 365. Met behulp van de Microsoft 365 Connectivity test kunt u de hoofdoorzaak van dit probleem achterhalen en de aanbevolen actie voor netwerk prestatieverbetering.
-
-![Testprogramma voor netwerkverbindingen](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
 
 We raden u aan dat ze samen gebruiken waar de status van netwerkkwaliteit kan worden geëvalueerd voor elke Office-locatie in het Microsoft 365-Beheercentrum en dat specifiekere informatie kan worden gevonden na de implementatie van de test op basis van de Microsoft 365-connectiviteitstest.
 

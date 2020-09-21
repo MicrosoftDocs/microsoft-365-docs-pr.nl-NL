@@ -9,21 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 4a1c391e-524f-48e0-bef8-185df3a9634b
 description: Instructies voor het invoeren van serviceaanbiedingen, waaronder de servicenaam, beschrijving, locatie, duur en prijzen. U kunt ook de werknemers taggen die gekwalificeerd zijn om de service te bieden.
-ms.openlocfilehash: 60b77633b9845b3c269f6773c1fb8a26256fbdc5
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 095188546c01149a793a478a3cbd5ac9fbeb5524
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419500"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962535"
 ---
 # <a name="define-your-service-offerings-in-bookings"></a>Uw serviceaanbiedingen in Bookings vastleggen
 
 Wanneer u uw serviceaanbiedingen opgeeft in Microsoft Bookings, kunt u de naam van een service, beschrijving, locatie opgeven (Kies of u wilt vergaderen of een onlinevergadering wilt hebben), de duur, standaard herinneringen voor klanten en medewerkers, de interne notities over de service en de prijzen. U kunt ook de werknemers taggen die gekwalificeerd zijn om de service te bieden. Wanneer klanten uw zakelijke website gaan raadplegen om een afspraak te boeken, kunnen ze precies zien welke soorten afspraken beschikbaar zijn, de persoon kiezen die de service wil bieden en hoeveel hun servicekosten kost.
 
 U kunt ook aangepaste informatie en Url's toevoegen aan de e-mail bevestiging en de herinneringen die u verzendt wanneer iemand een dienst stuurt via de boekings pagina.
-
-> [!NOTE]
-> Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard Standard, Microsoft 365 a3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar het is standaard uitgeschakeld. Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
 
 ## <a name="create-the-service-details"></a>De servicedetails maken
 

@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 0968717e-b61f-4b06-987c-6c1464541782
 description: Werktijden en beschikbaarheid van werknemers instellen in Microsoft bookings.
-ms.openlocfilehash: 656b52992f4da32ae334809bd1a3ee4dd3b89652
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 140ab5732b051931666824cd4290a38c0b11fd65
+ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419488"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962523"
 ---
 # <a name="employee-working-hours-in-microsoft-bookings"></a>Werkuren voor werknemers in Microsoft Bookings
 
@@ -23,9 +23,6 @@ De werktijden voor werknemers instellen zorgt ervoor dat hun beschikbaarheid nau
 Op de pagina **personeel** kunt u werkuren van werknemers aanpassen aan de behoeften van uw bedrijf en medewerkers.
 
 Zie [Bedrijfssluiting, verlof en vakantiedagen plannen](schedule-closures-time-off-vacation.md) voor instructies als u verlof wilt reserveren voor personeelsleden zodat klanten ze niet kunnen reserveren wanneer ze afwezig zijn.
-
-> [!NOTE]
-> Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard Standard, Microsoft 365 a3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten met Office 365 Enterprise E3 en Office 365 Enterprise E5, maar het is standaard uitgeschakeld. Als u aan de slag wilt gaan, raadpleegt [u toegang krijgen tot Microsoft Bookings](get-access.md). Zie [bookings in-of uitschakelen voor uw organisatie](turn-bookings-on-or-off.md)om bookings in of uit te schakelen.
 
 ## <a name="customize-employee-working-hours"></a>Werkuren voor werknemers aanpassen
 

@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1349b58bdd6243b05323f14197e0ad92c1fc0d7b
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 03a9b19a5b8ba957419e23c2bb12748c9c57e80d
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289493"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104616"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Hoe updates worden afgehandeld in Microsoft Managed Desktop
 
@@ -55,16 +55,15 @@ De werking van update-implementatie:
 
 
 <table>
-<tr><th colspan="5">Implementatie-instellingen bijwerken</th></tr>
-<tr><th>Update type</th><th>Wedstrijden</th><th>Eerste</th><th>Razendsnelle</th><th>Scala</th></tr>
-<tr><td>Kwaliteitsupdates voor besturingssysteem</td><td>0 dagen</td><td>0 dagen</td><td>0 dagen</td><td>3 dagen</td></tr>
-<tr><td>Onderdeel updates voor besturingssysteem</td><td>0 dagen</td><td>30 dagen</td><td>60 dagen</td><td>90 dagen</td></tr>
-<tr><td>Drivers/firmware</td><td colspan="4">De planning voor kwaliteitsupdates volgen</td></tr>
-<tr><td>Antivirus definitie</td><td colspan="4">Bijgewerkt bij elke scan</td></tr>
-<tr><td>Microsoft 365-apps voor ondernemingen</td><td colspan="4">Het huidige kanaal van Office volgen
+    <tr><th colspan="5">Implementatie-instellingen bijwerken</th></tr>
+    <tr><th>Update type</th><th>Wedstrijden</th><th>Eerste</th><th>Razendsnelle</th><th>Scala</th></tr>
+    <tr><td>Kwaliteitsupdates voor besturingssysteem</td><td>0 dagen</td><td>0 dagen</td><td>0 dagen</td><td>3 dagen</td></tr>
+    <tr><td>Onderdeel updates voor besturingssysteem</td><td>0 dagen</td><td>30 dagen</td><td>60 dagen</td><td>90 dagen</td></tr>
+    <tr><td>Drivers/firmware</td><td colspan="4">De planning voor kwaliteitsupdates volgen</td></tr>
+    <tr><td>Antivirus definitie</td><td colspan="4">Bijgewerkt bij elke scan</td></tr>
+    <tr><td>Microsoft 365-apps voor ondernemingen</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/m365-apps#updates-to-microsoft-365-apps">Meer informatie</a></td></tr>
+    <tr><td>Microsoft Edge</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/edge-browser-app#updates-to-microsoft-edge">Meer informatie</a></td></tr>
 </table>
-
-Zie [overzicht van update kanalen voor Microsoft 365-apps](https://docs.microsoft.com/deployoffice/overview-update-channels)voor meer informatie over het huidige kanaal voor microsoft 365-apps voor ondernemingen.
 
 >[!NOTE]
 >Deze uitstel perioden zijn bedoeld om te zorgen voor hoge beveiliging en prestatienormen voor alle gebruikers. Daarnaast is de mogelijkheid om de gegevens van de bovenstaande uitstel perioden te wijzigen, op basis van de gegevens die zijn verzameld op alle Microsoft beheerde bureaublad apparaten en de verschillende mogelijkheden en gevolgen voor updates, zodat de lengte van de bovenstaande uitstel perioden voor alle implementatie groepen op een ad-hoc basis wordt gewijzigd.

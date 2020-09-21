@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2d6dab7ae722b6e64b782596e51e0898ddc2cccc
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 8af782095ada41f0472e1df338ced7ebe76c97fe
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289685"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104410"
 ---
-# <a name="getting-help-for-users"></a>Help-informatie opvragen voor gebruikers
+# <a name="getting-help-for-users"></a>Hulp aanvragen voor gebruikers
 
 Er zijn twee manieren waarop gebruikers in uw organisatie hulp kunnen krijgen bij hun Microsoft-beheerde bureaublad apparaten: Help-app of telefoon ondersteuning **vragen** . Beide ondersteuningsopties zijn beschikbaar voor gebruikers 24 uur per dag, 7 dagen per week.
  
@@ -68,7 +68,7 @@ gebruikers met beheerde bureaublad apparaten van Microsoft hebben ook toegang to
 >[!NOTE]
 >U moet uw e-mailadres voor uw organisatie bij de hand hebben wanneer u belt om uw identiteit te verifiëren. 
 
-## <a name="additional-resources"></a>Overige informatiebronnen
+## <a name="additional-resources"></a>Aanvullende bronnen
 - [Beheerders ondersteuning voor Microsoft Managed Desktop](admin-support.md). 
 - [Ondersteuning voor Microsoft Managed Desktop](../service-description/support.md).
-- Als u al een abonnement hebt op Microsoft Managed Desktop, vindt u in de sectie **online bronnen** van de Microsoft-beheer [Portal beheerde](https://aka.ms/mwaasportal)bureaublad beheerder gedetailleerde procedures, proces stromen, werkinstructies en veelgestelde vragen.
+- Als u al een abonnement hebt op Microsoft Managed Desktop, vindt u in de Microsoft Managed Desktop-beheerdershandleiding in de **online bronnen** onder de sectie Microsoft Managed Desktop van het menu **Tenant** beheer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
