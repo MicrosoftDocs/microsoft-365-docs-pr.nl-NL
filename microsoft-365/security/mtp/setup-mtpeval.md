@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 60c1a39e350a9a1d5d43c9b59ab12c4a6ad3f12a
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: c3323192e0095ad6693241390cff81d42be9cce1
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817179"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956241"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Uw Microsoft Threat Protection proef lab-omgeving instellen 
 
@@ -121,7 +121,7 @@ In deze fase wordt u begeleid bij het volgende:
 ## <a name="enable-microsoft-365-trial-subscription"></a>Microsoft 365-proefabonnement inschakelen
 
 >[!NOTE]
->Als u zich aanmeldt voor een proefversie, geeft u 25 gebruikerslicenties voor een maand te gebruiken. Zie [een M365-abonnement uitproberen of kopen](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide#try-or-buy-a-microsoft-365-subscription-1) voor meer informatie.
+>Als u zich aanmeldt voor een proefversie, geeft u 25 gebruikerslicenties voor een maand te gebruiken. Zie [een M365-abonnement uitproberen of kopen](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365#try-or-buy-a-microsoft-365-subscription-1) voor meer informatie.
 
 1. Klik in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com/)op **facturering** en ga vervolgens naar **Services aanschaffen**.
 
@@ -149,4 +149,5 @@ In deze fase wordt u begeleid bij het volgende:
 
 
 ## <a name="next-step"></a>Volgende stap
-![Fase 3: & onboard configureren](../../media/config-onboard.png) <br>[Fase 3: & onboard configureren](config-mtpeval.md) <br>Configureer elke Microsoft Threat Protection-pijler voor uw proefabonnement voor Microsoft Threat Protection of een proef omgeving en haal uw eindpunten over.
+|![Fase 3: & onboard configureren](../../media/config-onboard.png) <br>[Fase 3: & onboard configureren](config-mtpeval.md) | Configureer elke Microsoft Threat Protection-pijler voor uw proefabonnement voor Microsoft Threat Protection of een proef omgeving en haal uw eindpunten over.
+|:-------|:-----|

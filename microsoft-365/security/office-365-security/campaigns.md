@@ -17,16 +17,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over campagne weergaven in Office 365 Advanced Threat Protection.
-ms.openlocfilehash: 72662519177f4ac43e3de04e9755fd99f5ffb03f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 60ec8ea1d2c164905e7b57f4b518ea3f80e7986c
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867197"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173306"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Campagne weergaven in Office 365 ATP
 
-De weergave van een campagne is een functie in de weergave Advanced Threat Protection (ATP), (bijvoorbeeld Microsoft 365 E5 of organisaties met een uitchecking voor ATP abonnement 2). Campaing-weergaven in het compliance-& Beveiligingscentrum identificeren en categoriseren een fraude aanval in de service. Met behulp van campagne weergaven kunt u:
+De weergave van een campagne is een functie in de weergave Advanced Threat Protection (ATP), (bijvoorbeeld Microsoft 365 E5 of organisaties met een uitchecking voor ATP abonnement 2). Met campagne weergaven in de beveiligings & nalevings centrum identificeert en categoriseert u phishing-aanvallen in de service. Met behulp van campagne weergaven kunt u:
 
 - Onderzoek een efficiënt onderzoek en reageer op een malafide aanval.
 - Beter inzicht in het reikwijdte van de aanval.
@@ -47,7 +47,7 @@ Microsoft profiteert van de enorme hoeveelheid anti-phishing, anti-spam en besch
 
 Een campagne kan korte tijd in beslag nemen of meerdere dagen, weken of maanden belopen met actieve en niet-actieve perioden. Er kan een campagne worden gestart voor uw specifieke organisatie of uw organisatie maakt deel uit van een grotere campagne in meerdere bedrijven.
 
-## <a name="campaign-views-the-security--compliance-center"></a>Campagne weergeven & nalevings centrum voor beveiliging
+## <a name="campaign-views-in-the-security--compliance-center"></a>Campagne weergaven in het nalevings centrum voor beveiligings &
 
 De weergave campagne is beschikbaar in het [beveiligings & compliance](https://protection.office.com) van een **Threat Management** \> **Campaigns**-campagne, of direct op <https://protection.office.com/campaigns> .
 
@@ -222,7 +222,7 @@ Het diagram bevat de volgende informatie:
   |---|---|---|
   |**Ingesteld**|`SFV:SKN` <br/><br/> `SFV:SKI`|Het bericht is gemarkeerd als niet-spam en/of overgeslagen filters voordat ze worden geëvalueerd via spamfilters. Het bericht is bijvoorbeeld als geen spam gemarkeerd met een e-mail stroom regel (ook wel een transportregel genoemd).<br/><br/>Het bericht heeft geen spamfilters overgeslagen om andere redenen. De afzender en de geadresseerde lijken bijvoorbeeld in dezelfde organisatie.|
   |**Blokkeert**|`SFV:SKS`|Het bericht is gemarkeerd als spam voordat het werd geëvalueerd via spamfilters. Bijvoorbeeld met een e-mail stroom regel.|
-  |**Aangetoond**|`SFV:SPM`|Het bericht is gemarkeerd als spam.|
+  |**Aangetoond**|`SFV:SPM`|Het bericht is gemarkeerd als spam door het spamfilter.|
   |**Niet gedetecteerd**|`SFV:NSPM`|Het bericht is gemarkeerd als geen spam via spamfilters.|
   |**Uitgebracht**|`SFV:SKQ`|Het bericht heeft het filteren van spam genegeerd, omdat het is vrijgegeven uit Quarantine.|
   |**Tenant toestaan**<sup>\*</sup>|`SFV:SKA`|Het bericht heeft spam filteren genegeerd vanwege de instellingen in een antispambeleid. De afzender stond bijvoorbeeld in de lijst toegestane afzender of de lijst met toegestane domeinen.|

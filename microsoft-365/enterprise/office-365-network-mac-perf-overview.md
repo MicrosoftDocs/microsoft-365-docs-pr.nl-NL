@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Overzicht van netwerkverbindingen in het Microsoft 365-Beheercentrum (preview)
-ms.openlocfilehash: 35ea28ec45a7e581901c0f4f22360a1dcd0def8b
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 644efe53e862f6bbe98be7dca889bc3637084521
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962285"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171360"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 
@@ -31,11 +31,13 @@ Het Microsoft 365-Beheercentrum bevat nu de geaggregeerde metrische netwerk verb
 
 ![Pagina netwerkprestaties](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
 
-Wanneer u naar de pagina netwerkconnectiviteit gaat, ziet u het deelvenster Overzicht met een overzicht van de algemene netwerkprestaties, een netwerkbeoordelings bereik voor de volledige Tenant en een lijst met actuele problemen. In het overzicht kunt u in-en uitzoomen om bepaalde metrische gegevens voor netwerkprestaties en-problemen weer te geven op locatie. Zie [het overzicht van netwerkprestaties in het Microsoft 365-Beheercentrum](#network-connectivity-overview-in-the-microsoft-365-admin-center)voor meer informatie.
+U wordt mogelijk gevraagd om deel te nemen aan de openbare preview voor deze functie namens uw organisatie. Accepteren meestal doet zich meestal direct voor, dan wordt de pagina netwerkconnectiviteit weergegeven. 
+
+Wanneer u naar de pagina netwerkconnectiviteit gaat, wordt een Overzichtsvenster weergegeven met een overzicht van de algemene netwerkprestaties, een netwerkbeoordelings bereik voor de volledige Tenant en een lijst met actuele problemen. Voor toegang tot deze pagina moet u een beheerder van de organisatie binnen Microsoft 365 zijn. De beheerdersrol van de Rapportlezer heeft leestoegang tot deze informatie. Als u locaties en andere onderdelen van netwerkconnectiviteit wilt configureren, moet een beheerder deel uitmaken van een beheerder van de server, zoals de rol van beheerder voor service ondersteuning. In het overzicht kunt u in-en uitzoomen om bepaalde metrische gegevens voor netwerkprestaties en-problemen weer te geven op locatie. Zie [het overzicht van netwerkprestaties in het Microsoft 365-Beheercentrum](#network-connectivity-overview-in-the-microsoft-365-admin-center)voor meer informatie.
 
 ## <a name="pre-requisites-for-network-connectivity-assessments-to-appear"></a>Vereisten voor het weergeven van proefversies voor netwerkverbindingen
 
-U hebt drie opties voor het verkrijgen van netwerk beoordelingen vanaf uw kantoorlocaties:
+Hoewel netwerkconnectiviteit binnen de organisatie kan worden geëvalueerd, moeten verbeteringen in het netwerkontwerp voor specifieke Office-locaties worden uitgevoerd. U kunt gegevens over netwerkverbindingen weergeven voor elke kantoorlocatie zodra u deze locaties kunt bepalen. U hebt drie opties voor het verkrijgen van netwerk beoordelingen vanaf uw kantoorlocaties:
 
 ### <a name="1-enable-windows-location-services"></a>1. Windows-locatie Services inschakelen
 
@@ -43,7 +45,7 @@ Voor deze optie moet u minimaal twee computers uitvoeren op elke locatie in Offi
 
 Windows-locatie service moet zijn doorgestuurd op de computers. U kunt dit testen door de app **kaarten** uit te voeren en te zoeken. U kunt deze optie inschakelen op één computer met **instellingen | Privacy | De locatie** waar de instelling _apps mag toegang hebben tot uw locatie_ , moet zijn ingeschakeld. De Windows Location Service instemming kan worden geïmplementeerd op Pc's met behulp van MDM of Groepsbeleid met de instelling _LetAppsAccessLocation_.
 
-U hoeft geen locaties in het Beheercentrum toe te voegen, zoals ze automatisch worden aangeduid met de resolutie van stad. U kunt niet meerdere Office-locaties binnen een stad weergeven met behulp van Windows-locatie Services.
+U hoeft geen locaties in het Beheercentrum toe te voegen, zoals ze automatisch worden aangeduid met de resolutie van stad. U kunt niet meerdere Office-locaties binnen een stad weergeven met behulp van Windows-locatie Services. Locatie-informatie wordt ook afgerond op de dichtstbijzijnde 300 meter door 300 meters voordat deze worden geüpload, zodat het niet mogelijk is om meer informatie over de locatie te krijgen.
 
 De computers moeten Wi-Fi-netwerken hebben in plaats van een Ethernet-kabel. Machines met een Ethernet-kabel hebben geen nauwkeurige informatie over de locatie.
 
@@ -51,7 +53,7 @@ De maat monsters en de kantoorlocaties moeten 24 uur worden weergegeven nadat aa
 
 ### <a name="2-add-locations-and-provide-lan-subnet-information"></a>2. locaties toevoegen en informatie over LAN-subnetten
 
-Voor deze optie zijn geen Windows-locatie Services en Wi-Fi vereist. U moet OneDrive voor Windows versie 20,161 of hoger installeren op elke computer.
+Voor deze optie zijn geen Windows-locatie Services en Wi-Fi vereist. U moet OneDrive voor Windows versie **20,161** of hoger installeren op elke computer.
 
 U moet ook locaties toevoegen op de pagina met netwerkverbindingen van het Beheercentrum of deze importeren uit een CSV-bestand. De toegevoegde locaties moeten de subnetgegevens van Office LAN bevatten.
 
@@ -61,11 +63,11 @@ De maat monsters en de kantoorlocaties moeten 24 uur worden weergegeven nadat aa
 
 ### <a name="3-manually-gather-test-reports-with-the-microsoft-365-network-connectivity-test-tool"></a>3. testrapporten handmatig verzamelen met het hulpprogramma voor het testen van het Microsoft 365-netwerkconnectiviteit
 
-Voor deze optie moet u een persoon op elke locatie identificeren. Vraag deze persoon naar het [Testprogramma voor Microsoft 365-netwerkconnectiviteit](https://connectivity.office.com) op een Windows-computer waarvoor de beheerder beheerdersmachtigingen heeft. Op de website dienen ze zich aan te melden bij hun Office 365-account op dezelfde Tenant waarvan u de resultaten wilt bekijken. Vervolgens klik ik op test uitvoeren. Tijdens de test is een gedownloade connectiviteitstest EXE. De persoon moet dit ook openen en uitvoeren. Wanneer de tests zijn voltooid, wordt de testresultaten geüpload naar Microsoft.
+Voor deze optie moet u een persoon op elke locatie identificeren. Vraag de persoon om [365](https://connectivity.office.com) te browsen op een Windows-computer waarvoor deze beheerdersmachtigingen hebben. Op de website dienen ze zich aan te melden bij het Office 365-account voor dezelfde organisatie waarvan u de resultaten wilt bekijken. Vervolgens klik ik op test uitvoeren. Tijdens de test is een gedownloade connectiviteitstest EXE. De persoon moet dit ook openen en uitvoeren. Wanneer de tests zijn voltooid, wordt het testresultaat geüpload naar Office 365.
 
 Test rapporten worden gekoppeld aan een locatie als deze is toegevoegd met LAN-subnetgegevens, anders worden ze alleen weergegeven op de locatie van de stad.
 
-De maat monsters en de kantoorlocaties moeten 2-3 minuten worden weergegeven nadat een testresultaat is voltooid.
+De maat voorbeelden en de Office-locaties moeten eerst 2-3 minuten worden weergegeven na voltooiing van een testrapport. Zie voor meer informatie [Microsoft 365 Network Connectivity test (preview)](office-365-network-mac-perf-onboarding-tool.md).
 
 ## <a name="how-do-i-use-this-information"></a>Hoe gebruik ik deze informatie?
 
@@ -88,7 +90,7 @@ Veel bedrijven hebben configuraties voor netwerkverbindingen die in de loop van 
 
 Ondernemingen kunnen de algemene gebruikerservaring verbeteren en hun omgeving beschermen aan de hand van de basis [principes van Office 365](https://aka.ms/pnc) en door gebruik te maken van de functie voor netwerkverbindingen van microsoft 365. In de meeste gevallen is het raadzaam om de latentie, de betrouwbaarheid van de dienst en de algehele prestaties van Microsoft 365 te verbeteren.
 
-Microsoft vraagt soms om problemen met de netwerkprestaties met Microsoft 365 voor grote Enterprise-klanten en bevat vaak de basis oorzaak van de infrastructuur van de netwerk uitgang van de klant. Wanneer een veelvoorkomende hoofdoorzaak van een probleem met de netwerkverbinding van de klant wordt gevonden, willen we eenvoudige test metingen identificeren waarmee de basis oorzaak wordt aangegeven. Een test met een maateenheid die een specifiek probleem identificeert, is waardevol omdat u dezelfde afmeting op elke locatie kunt testen, aangeven of deze hoofdoorzaak op een willekeurige plaats aanwezig is en de beheerder als netwerk inzicht deelt.
+Microsoft vraagt soms om problemen met de netwerkprestaties met Microsoft 365 voor grote Enterprise-klanten en bevat vaak de basis oorzaak van de netwerkinfrastructuur van de klant. Wanneer een veelvoorkomende hoofdoorzaak van een probleem met de netwerkverbinding van de klant wordt gevonden, willen we eenvoudige test metingen identificeren waarmee de basis oorzaak wordt aangegeven. Een test met een maateenheid die een specifiek probleem identificeert, is waardevol omdat u dezelfde afmeting op elke locatie kunt testen, aangeven of deze hoofdoorzaak op een willekeurige plaats aanwezig is en de beheerder als netwerk inzicht deelt.
 
 Sommige netwerk inzichten geven slechts een probleem aan dat verder moet worden onderzocht. Een netwerk inzicht waarbij er voldoende tests zijn voor het weergeven van een specifieke herstelactie om de hoofdoorzaak te corrigeren, wordt weergegeven als **Aanbevolen actie**. Deze aanbevelingen op basis van Live metrische waarden die waarden weergeven die buiten een vooraf ingestelde drempel vallen, zijn veel waardevoler dan algemeen best practices adviseren, aangezien ze specifiek zijn voor uw omgeving, en zullen de daadwerkelijke verbetering aangeven wanneer de aanbevolen wijzigingen zijn aangebracht.
 
@@ -104,17 +106,30 @@ Op de pagina Overview wordt ook de netwerkassessment voor de klant weergegeven a
 
 ![Netwerk beoordeling](../media/m365-mac-perf/m365-mac-perf-overview-score.png)
 
+U kunt een tabel weergave bekijken van de locaties waarop ze kunnen worden gefilterd, gesorteerd en bewerkt op het tabblad locaties. Bij locaties met specifieke aanbevelingen kan ook een geschatte potentiële latentie verbetering worden opgenomen. Dit wordt berekend door de mediaan latentie van de gebruikers van uw organisatie op de locatie te nemen en de mediaan latentie af te trekken voor alle organisaties in dezelfde plaats.
+
+![Netwerk inzichten locaties](../media/m365-mac-perf/m365-mac-perf-locations.png)
+
 ## <a name="specific-office-location-network-performance-summary-and-insights"></a>Specifieke Office-locatie netwerk prestatie samenvatting en inzichten
 
 Wanneer u een Office-locatie selecteert, wordt er een overzichtspagina weergegeven met details van de uittreding van het netwerk die is geïdentificeerd op basis van metingen voor die kantoorlocatie.
 
 ![Details netwerk inzichten op locatie](../media/m365-mac-perf/m365-mac-perf-locations-plan-overview.png)
 
-Op de pagina Office-locatie overzicht ziet u ook de netwerk beoordeling van de vestiging, de netwerkbeoordelings geschiedenis, een vergelijking van de beoordeling van deze locatie en een lijst met specifieke inzichten en aanbevelingen die u kunt ondernemen om de prestaties van het netwerk en de betrouwbaarheid te verbeteren. Bij locaties met specifieke aanbevelingen kan ook een geschatte potentiële latentie verbetering worden opgenomen.
+Een kaart van het perimeternetwerk voor de gebruikers van uw organisatie op de locatie wordt weergegeven met een of meer van deze elementen:
+
+- **Kantoorlocatie** -de kantoorlocatie van de pagina die u bekijkt
+- **Netwerk perimeter** : de locatie van het bron-IP-adres voor verbindingen vanaf de kantoorlocatie. Dit hangt af van de nauwkeurigheid van Geo-IP Location-databases.
+- **Voor uitbesteende service van Exchange** : een van de aanbevolen Exchange-service-deuren waarmee gebruikers op deze locatie van Office verbinding kunnen maken
+- **Suboptimale front deur van Exchange** : een Exchange-service die aan de kant van de gebruiker is gekoppeld, maar wordt niet aanbevolen
+- Optimale bezorgings **service van SharePoint** : een van de aanbevolen SharePoint-Service-deuras waarmee gebruikers op deze Office-locatie verbinding kunnen maken
+- **Voor de front-site van de SharePoint** -service: een SharePoint-Service-voor deur waarbij gebruikers zijn verbonden, maar niet wordt aanbevolen
+- **DNS recursieve resolver server** -de locatie van een Geo IP-database van de GEDETECTEERDe DNS recursieve resolver die wordt gebruikt voor Exchange Online (indien beschikbaar).
+- **Uw proxyserver** -de locatie van een Geo IP-database van de gedetecteerde proxyserver (indien beschikbaar) 
+
+Op de pagina Office-locatie overzicht ziet u ook de netwerk beoordeling van de vestiging, de netwerkbeoordelings geschiedenis, een vergelijking van de beoordeling van deze locatie en een lijst met specifieke inzichten en aanbevelingen die u kunt ondernemen om de prestaties van het netwerk en de betrouwbaarheid te verbeteren.
 
 Voor vergelijkingen tussen klanten in dezelfde stad wordt uitgegaan van de verwachting dat alle klanten gelijke toegang hebben tot netwerkservice providers, telecommunicatie infrastructuur en nabijgelegen Microsoft-netwerk punten van aanwezigheid.
-
-![Netwerk inzichten locaties](../media/m365-mac-perf/m365-mac-perf-locations.png)
 
 Op het tabblad Details op de pagina Office-locatie ziet u de specifieke meetresultaten die zijn gebruikt voor inzichten, aanbevelingen en de netwerk beoordeling. Dit wordt geboden, zodat netwerk technici de aanbevelingen en de factoren in de desbetreffende omgeving kunnen valideren.
 
@@ -124,7 +139,7 @@ Op het tabblad Details op de pagina Office-locatie ziet u de specifieke meetresu
 
 Voor Office-identificatie voor het subnet Office moet u elke locatie vooraf toevoegen. In plaats van de afzonderlijke Office-locaties op het tabblad **locaties** toe te voegen, kunt u ze importeren uit een CSV-bestand. U kunt deze gegevens mogelijk verkrijgen via andere locaties die u hebt opgeslagen, zoals het dashboard oproep kwaliteit of Active Directory-sites en-services.
 
-In het **CSV-bestand**is de locatie van een plaats in de plaats van de locatie en een handmatig toegevoegde **locatie van de locatie.**
+In het CSV-bestand wordt een gedetecteerde locatie van de stad weergegeven in de kolom userEntered als leeg, en een handmatig toegevoegde locatie van Office wordt als 1 weergegeven.
 
 1. Klik in het venster belangrijkste _verbindingen met Microsoft 365_ op het tabblad **locaties** .
 1. Klik op de knop **importeren** net boven de lijst met locaties. De flyout **Office-locaties importeren** wordt weergegeven.
@@ -133,9 +148,10 @@ In het **CSV-bestand**is de locatie van een plaats in de plaats van de locatie e
 
 1. Klik op de koppeling **huidige Office-locaties (. CSV) downloaden** om de lijst huidige locaties te exporteren naar een CSV-bestand en sla het op in de lokale harde schijf. U beschikt nu over een juist opgemaakt CSV met kolomkoppen waarop u locaties kunt toevoegen. U kunt de bestaande geëxporteerde locaties sluiten. ze worden niet gedupliceerd wanneer u de bijgewerkte CSV-bestanden importeert. Als u het adres van een bestaande locatie wilt wijzigen, wordt dit bijgewerkt wanneer u het CSV-bestand importeert. U kunt het adres van een gevonden stad niet wijzigen.
 1. Open het CSV-bestand en voeg uw locaties toe door de volgende velden in te vullen op een nieuwe regel voor elke locatie die u wilt toevoegen. Laat alle andere velden leeg; waarden die u invoert in andere velden, worden genegeerd.
+   1. **userEntered** (vereist): moet 1 zijn voor een nieuw LAN-subnet Office-locatie
    1. **Adres** (vereist): het fysieke adres van het kantoor
-   1. **Breedtegraad** (optioneel): gevuld van Bing Maps lookup, indien leeg
-   1. **Lengtegraad** (optioneel): gevuld met Bing Maps lookup, indien leeg
+   1. **Breedtegraad** (optioneel): gevuld met Bing Maps lookup van het adres indien leeg
+   1. **Lengtegraad** (optioneel): gevuld met Bing Maps lookup van het adres indien leeg
    1. **IP-adresbereiken voor IP-** adresbereiken 1-5 (optioneel): voor elk bereik voert u de naam van het circuit in gevolgd door een lijst met geldige IPv4-of IPv6-adressen die door een spatie zijn gescheiden. Deze waarden worden gebruikt om meerdere kantoorlocaties te onderscheiden waarop u dezelfde IP-adressen voor het LAN-subnet gebruikt.
    1. **LanIps** (vereist): Hiermee kunt u de subnet-bereiken voor LAN weergeven die op deze locatie van Office worden gebruikt.
 1. Wanneer u uw Office-locaties hebt toegevoegd en het bestand hebt opgeslagen, klikt u op de knop **Bladeren** naast het veld **voltooid uploaden** en selecteert u het opgeslagen CSV-bestand.

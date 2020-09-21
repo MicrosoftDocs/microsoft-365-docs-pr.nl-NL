@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Meer informatie over het toewijzen van beheerdersrollen aan een of meer gebruikers in uw bedrijf, zodat ze bepaalde taken in het Beheercentrum kunnen uitvoeren.
-ms.openlocfilehash: f5449bdb6b05e2a29393ad8e389c562953efd710
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 6d7a09ca9c515494eaf18ea144b7f67ce0003890
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307317"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131756"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
@@ -42,7 +42,7 @@ Raadpleeg [Over beheerdersrollen](about-admin-roles.md) voor meer informatie.
 
 Als u nieuwe gebruikers toevoegt en geen beheerder een beheerder toewijst aan een beheerder, dan zijn ze de *gebruikersfunctie* en hebben ze geen beheerdersrechten voor een van de Microsoft-beheer centra. Als u hulp nodig hebt bij het uitvoeren van dingen, kunt u een beheerdersrol aan een gebruiker toewijzen. Als u bijvoorbeeld wilt dat iemand u helpt bij het opnieuw instellen van wachtwoorden, moet u deze niet toewijzen aan de rol van globale beheerder. Als u te veel globale beheerders hebt, met onbeperkte toegang tot uw gegevens en online zaken, vormt dit een veiligheidsrisico.
 
-Bekijk een korte video over het toevoegen van een beheerder.<br><br>
+## <a name="watch-add-an-adminbrbr"></a>Let op: een beheerder toevoegen.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
@@ -100,7 +100,6 @@ U kunt gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 ::: moniker-end
 
-
 ## <a name="assign-admin-roles-to-multiple-users"></a>Beheerdersrollen toewijzen aan meerdere gebruikers
 
 Als u bekend bent met PowerShell, raadpleegt u [rollen toewijzen aan gebruikersaccounts met PowerShell](https://go.microsoft.com/fwlink/?linkid=854257). Dit is ideaal voor het toewijzen van rollen aan honderden gebruikers.
@@ -108,7 +107,6 @@ Als u bekend bent met PowerShell, raadpleegt u [rollen toewijzen aan gebruikersa
 Voer de volgende instructies uit als u rollen wilt toewijzen aan tientallen gebruikers.
 
 ::: moniker range="o365-worldwide"
-
 
 ## <a name="check-your-permissions"></a>Machtigingen controleren
 

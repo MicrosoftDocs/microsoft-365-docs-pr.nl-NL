@@ -1,9 +1,29 @@
 ---
-Titel: Microsoft Threat Protection voor de beschrijving van de proefversie en de omgeving van de prototype: Microsoft Threat Protection (Microsoft Threat Protection): Office 365 ATP, Azure ATP, Microsoft Cloud app Security en Microsoft Defender ATP voor uw proefversie of pilot omgeving.
-Trefwoorden: Microsoft Threat Protection-proefversie, configuratie van Microsoft Threat Protection-proefabonnement, Microsoft Threat Protection pilotproject configureren, Microsoft Threat Protection-de pijlers configureren, Microsoft Threat Protection, Search. product: eADQiWindows 10XVcnh Search. appverid: met150 MS. Prod: W10 MS. mktglfcycl: MS. sitesec. Library MS. PageType: MS. Author: dolmont  
-Auteur: DulceMontemayor MS. localizationpriority: medium Manager: dansimp doelgroep: ITPro MS. Collection: M365-Security-compliance MS. topic: artikel 
+title: Microsoft Threat Protection-pijlers configureren voor de proefversie of prototypeomgeving
+description: U kunt de Microsoft Threat Protection-pijlers configureren, zoals Office 365 ATP, Azure ATP, Microsoft Cloud app Security en Microsoft Defender ATP voor uw proefversie of pilot omgeving.
+keywords: Configureer de Microsoft Threat Protection-proefversie, configuratie van Microsoft Threat Protection, Configureer prototypeproject voor Microsoft Threat Protection, Microsoft Threat Protection, pijlers voor Microsoft Threat Protection
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: microsoft-365-enterprise
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+f1.keywords:
+- NOCSH
+ms.author: dolmont
+author: DulceMontemayor
+ms.localizationpriority: medium
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.openlocfilehash: 4d751ec5eb786a91d62ab11988132bfed076984d
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956257"
 ---
-
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-or-pilot-environment"></a>Microsoft Threat Protection-pijlers configureren voor uw proefversie of pilot omgeving
 
 **Van toepassing op:**
@@ -43,7 +63,7 @@ De voorbereiding is essentieel voor een succesvolle implementatie. In dit artike
 
 ## <a name="microsoft-threat-protection-pillars"></a>Microsoft Threat Protection-pijlers
 Microsoft Threat Protection bestaat uit vier pijlers. Hoewel u met de vier Microsoft Threat Protection-gebruikers al een waarde kunt opgeven voor de veiligheid van uw netwerkorganisatie, kunt u de meeste waarden opgeven voor de vier Microsoft Threat Protection-pijler.
-
+<br>
 ![Afbeelding of_Microsoft oplossing voor beveiliging van bedreigingen voor gebruikers, Azure Advanced Threat Protection voor eindpunten van Microsoft Defender Advanced Threat Protection, voor Cloud-apps, Microsoft Cloud app Security en voor gegevens, Office 365 Advanced Threat Protection  ](../../media/mtp-eval-31.png) <br>
 
 In deze sectie wordt u begeleid bij de configuratie:
@@ -121,7 +141,7 @@ Er is een PowerShell-module genaamd *Office 365 Advanced Threat Protection recom
 <br>![Afbeelding of_Azure pagina Geavanceerde beveiliging tegen bedreigingen waarop u moet klikken op volgende om de wizard Azure ATP-sensor te volgen](../../media/mtp-eval-47.png) <br>
  
 7. Klik op **volgende** bij het implementatietype van de sensor.
-<br>![Afbeelding of_Azure pagina Geavanceerde beveiliging tegen bedreigingen waarop u moet klikken op volgende om de wizard Azure ATP-sensor te volgen](../../media/mtp-eval-48.png) <br>
+<br>![Afbeelding of_Azure pagina Geavanceerde beveiliging van bedreiging waarop u moet klikken op volgende om naar de volgende pagina te gaan](../../media/mtp-eval-48.png) <br>
  
 8. Kopieer de toegangscode omdat u deze moet typen, naast de wizard.
 ![Of_the afbeelding van de pagina met sensoren waar u de toegangstoets moet typen die u moet typen op de volgende pagina van de wizard Setup van Azure ATP-sensor](../../media/mtp-eval-49.png) <br>
@@ -233,5 +253,6 @@ Gefeliciteerd! U hebt zojuist een proefabonnement voor Microsoft Threat Protecti
 
 Vervolgens kunt u een aanval simuleren en kijken hoe de functies voor cross product detectie, waarschuwingen maken en automatisch reageren op een aanval met een bestand op een eindpunt.
 
-## <a name="next-steps"></a>Volgende stappen
-[Genereer een testwaarschuwing](generate-test-alert.md).
+## <a name="next-step"></a>Volgende stap
+|![Simulatie fase aanval](../../media/mtp/run-sim.png) <br>[Simulatie fase aanval](mtp-pilot-simulate.md) | Voer de simulatie van een aanval uit voor de prototypeomgeving Microsoft Threat Protection.
+|:-------|:-----|

@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Test voor Microsoft 365-netwerkverbindingen (preview)
-ms.openlocfilehash: 2197f3361efee51dfa2bd170b0c8d8e94709d3e8
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 40a46ecb39366c64c99077e90bb35c5056f36b9d
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962396"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171348"
 ---
 # <a name="microsoft-365-network-connectivity-test-preview"></a>Test voor Microsoft 365-netwerkverbindingen (preview)
 
@@ -37,13 +37,33 @@ We raden u aan dat ze samen gebruiken waar de status van netwerkkwaliteit kan wo
 >[!IMPORTANT]
 >Netwerk inzichten, prestatie aanbevelingen en beoordelingen in het Microsoft 365-Beheercentrum is momenteel in de preview-versie en is alleen beschikbaar voor Microsoft 365-tenants die zijn geregistreerd in het functie voorbeeldprogramma.
 
-## <a name="the-advanced-tests-client-application"></a>De clienttoepassing geavanceerde tests
+## <a name="what-happens-at-each-test-step"></a>Wat gebeurt er bij elke test stap
+
+### <a name="office-location-identification"></a>Identificatie van Office-locatie
+
+Wanneer u op de knop test uitvoeren klikt, wordt de pagina Running test weergegeven en wordt de locatie van de Office aangegeven. U kunt uw locatie typen op plaats, provincie en land, of u kunt de locatie van de webbrowser laten detecteren. Als u dit detecteert, vragen we de Latitude en lengte van de webbrowser aan en beperkt u de nauwkeurigheid van 300m door 300m vóór gebruik. We doen dit omdat het niet noodzakelijk is de locatie nauwkeuriger te identificeren dan het gebouw van de netwerkprestaties. 
+
+### <a name="javascript-tests"></a>JavaScript-tests
+
+Nadat de Office-locatie is geïdentificeerd, voert u een TCP-latentie test uit in JavaScript en wij verzoeken u om gegevens van de service over in gebruik en aanbevolen Office 365-service voor voor deur servers. Wanneer deze zijn voltooid, worden deze weergegeven op de kaart en op het tabblad Details, waar ze vóór de volgende stap kunnen worden weergegeven.
+
+### <a name="download-the-advanced-tests-client-application"></a>Download de clienttoepassing Advanced tests
+
+Vervolgens beginnen we met het downloaden van de clienttoepassing Advanced tests. We vertrouwen op de gebruiker om de clienttoepassing te starten en ze moeten ook .NET core hebben geïnstalleerd.
 
 Er zijn twee onderdelen voor het testen van de netwerkverbinding van Microsoft 365. de website <https://connectivity.office.com> en een downloadbare Windows-clienttoepassing die geavanceerde netwerk connectiviteitstests uitvoert. Voor de meeste tests moet de toepassing worden uitgevoerd. De zoekresultaten worden weergegeven op de webpagina wanneer deze wordt uitgevoerd.
 
 U wordt gevraagd om de geavanceerde client testtoepassing van de website te downloaden na voltooiing van de webbrowser tests. Open het bestand en voer het uit wanneer hierom wordt gevraagd.
 
 ![Geavanceerde tests clienttoepassing](../media/m365-mac-perf/m365-mac-perf-open-run-file.png)
+
+### <a name="start-the-advanced-tests-client-application"></a>De clienttoepassing geavanceerde tests starten
+
+Wanneer de clienttoepassing start, wordt de webpagina bijgewerkt en worden de gegevens die worden weergegeven op de webpagina weergegeven. De update wordt telkens bijgewerkt wanneer er nieuwe gegevens worden ontvangen en u kunt de gegevens bekijken terwijl deze binnenkomen.
+
+### <a name="advanced-tests-completed-and-test-report-upload"></a>Geavanceerde tests voltooid en testrapport uploaden
+
+Nadat de tests zijn voltooid, geven de client en de Advanced tests-client beide het volgende aan en als de gebruiker wordt aangemeld bij het testrapport, wordt deze geüpload naar de Tenant van de klant.
 
 ## <a name="sharing-your-test-report"></a>Uw testrapport delen
 
@@ -111,7 +131,7 @@ Hiermee wordt vastgesteld of u een VPN gebruikt om verbinding te maken met Offic
 
 #### <a name="vpn-split-tunnel"></a>Gesplitste VPN-tunnel
 
-Elke categorie route optimaliseren voor Exchange Online, SharePoint Online en Microsoft teams wordt getest om te zien of deze tunnelled is op het VPN of niet. Een uitgesplitste werkbelasting vermijdt de VPN-verbinding geheel. Er wordt een tunnelled-werkbelasting verzonden via de VPN. Een selectief tunnelled-werkbelasting bevat enkele routes die via de VPN-verbinding zijn verzonden en een deel van de gesplitste. Een doorgegeven resultaat wordt weergegeven als alle werkbelastingen zijn uitgesplitst of selectief tunnelled.
+Elke categorie route voor Exchange Online, SharePoint Online en Microsoft teams wordt getest om te zien of de tunnel van de VPN-verbinding al dan niet is getunneld. Een uitgesplitste werkbelasting vermijdt de VPN-verbinding geheel. Een getunnelde werkbelasting wordt allemaal via de VPN verzonden. Een selectief getunnelde werkbelasting biedt een aantal routes die via het VPN-bericht zijn verstuurd en enige enige splitsing heeft. Een doorgegeven resultaat wordt weergegeven als alle werkbelasting is opgesplitst of is selectief via een tunnel.
 
 #### <a name="customers-in-your-metropolitan-area-with-better-performance"></a>Klanten in uw stedelijke regio, met betere prestaties
 
@@ -207,28 +227,6 @@ Wanneer er een SSL-certificaat wordt gevonden dat niet wordt geleverd door Micro
 
 In deze sectie ziet u de resultaten van een ICMP-traceroute naar de front-van de Exchange Online-service, de front-service van de SharePoint Online-service en de front-service van Microsoft teams. Het wordt alleen ter informatie verstrekt en er is geen netwerk inzicht. Er zijn drie traceroutes. Een traceroute naar _Outlook.office365.com_, een traceroute van de SharePoint-front-end voor klanten of voor _Microsoft.SharePoint.com_ als deze niet is opgegeven en een traceroute aan _World.tr.teams.Microsoft.com_.
 
-## <a name="what-happens-at-each-test-step"></a>Wat gebeurt er bij elke test stap
-
-### <a name="office-location-identification"></a>Identificatie van Office-locatie
-
-Wanneer u op de knop test uitvoeren klikt, wordt de pagina Running test weergegeven en wordt de locatie van de Office aangegeven. U kunt uw locatie typen op plaats, provincie en land, of u kunt de locatie van de webbrowser laten detecteren. Als u dit detecteert, vragen we de Latitude en lengte van de webbrowser aan en beperkt u de nauwkeurigheid van 300m door 300m vóór gebruik. We doen dit omdat het niet noodzakelijk is de locatie nauwkeuriger te identificeren dan het gebouw van de netwerkprestaties. 
-
-### <a name="javascript-tests"></a>JavaScript-tests
-
-Nadat de Office-locatie is geïdentificeerd, voert u een TCP-latentie test uit in JavaScript en wij verzoeken u om gegevens van de service over in gebruik en aanbevolen Office 365-service voor voor deur servers. Wanneer deze zijn voltooid, worden deze weergegeven op de kaart en op het tabblad Details, waar ze vóór de volgende stap kunnen worden weergegeven.
-
-### <a name="download-the-advanced-tests-client-application"></a>Download de clienttoepassing Advanced tests
-
-Vervolgens beginnen we met het downloaden van de clienttoepassing Advanced tests. We vertrouwen op de gebruiker om de clienttoepassing te starten en ze moeten ook .NET core hebben geïnstalleerd.
-
-### <a name="start-the-advanced-tests-client-application"></a>De clienttoepassing geavanceerde tests starten
-
-Wanneer de clienttoepassing start, wordt de webpagina bijgewerkt en worden de gegevens die worden weergegeven op de webpagina weergegeven. De update wordt telkens bijgewerkt wanneer er nieuwe gegevens worden ontvangen en u kunt de gegevens bekijken terwijl deze binnenkomen.
-
-### <a name="advanced-tests-completed-and-test-report-upload"></a>Geavanceerde tests voltooid en testrapport uploaden
-
-Nadat de tests zijn voltooid, geven de client en de Advanced tests-client beide het volgende aan en als de gebruiker wordt aangemeld bij het testrapport, wordt deze geüpload naar de Tenant van de klant.
-
 ## <a name="connectivity-reports"></a>Verbindings rapporten
 
 Wanneer u bent aangemeld, kunt u vorige rapporten die u hebt uitgevoerd, bekijken. U kunt ze ook delen of uit de lijst verwijderen.
@@ -251,7 +249,7 @@ Dit is momenteel een preview en we gaan updates regelmatig aanbrengen totdat we 
 
 ### <a name="what-is-required-to-run-the-advanced-test-client"></a>Wat is er nodig om de geavanceerde test client uit te voeren?
 
-Voor de geavanceerde proefversie is .NET Core 3,1-bureaublad runtime vereist. Als u de geavanceerde test client uitvoert zonder dat u de versie hebt geïnstalleerd, wordt u doorgestuurd naar [de installatiepagina van de .net Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Zorg ervoor dat u de versie van het bureaublad installeert en niet de SDK, of de kern-runtime van ASP.NET, die hoger is op de pagina. Beheerdersmachtigingen voor de computer reuqired de .NET core te installeren. 
+Voor de geavanceerde proefversie is .NET Core 3,1-bureaublad runtime vereist. Als u de geavanceerde test client uitvoert zonder dat u de versie hebt geïnstalleerd, wordt u doorgestuurd naar [de installatiepagina van de .net Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Zorg ervoor dat u de versie van het bureaublad installeert en niet de SDK, of de kern-runtime van ASP.NET, die hoger is op de pagina. Beheerdersmachtigingen op de computer is vereist voor het installeren van .NET core. 
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>Wat is de front cover van de Microsoft 365-service?
 

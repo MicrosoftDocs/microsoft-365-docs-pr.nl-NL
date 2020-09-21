@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Beheerders van Exchange Online beheren e-mail en postvakken van uw organisatie. Ze herstellen bijvoorbeeld Verwijderde items in het postvak van een gebruiker. '
-ms.openlocfilehash: 0b63679883e8329782700085fa0c11a0ac6585ca
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: be4c8a4f1c75402d690cc705dd408c9070e40c9b
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307431"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131768"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>De Exchange Online-beheerdersrol
 
@@ -34,15 +34,17 @@ Om u te helpen bij het beheren van Microsoft 365 kunt u gebruikersmachtigingen [
   
  **Tip**: Wanneer u aan iemand de rol van Exchange-beheerder toewijst, moet die persoon ook de rol van Servicebeheerder toewijzen. Op deze manier kunnen ze belangrijke informatie zien in het Microsoft 365-Beheercentrum, zoals de status van de Exchange Online-service en meldingen wijzigen en vrijgeven.
   
+## <a name="before-you-begin"></a>Voordat u begint
+
 Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wanneer zij de rol van Exchange-beheerder toegewezen hebben gekregen:
   
 - [Recover deleted items in a user mailbox - Admin Help](https://docs.microsoft.com/microsoft-365/enterprise/recover-deleted-items-in-a-mailbox)
-    
+
 - [Een archief-en verwijderingsbeleid instellen voor postvakken in uw organisatie](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
-    
+
 - Postvakfuncties instellen zoals het beleid voor het delen van een postvak: hoe gebruikers een agenda en contactpersonen met anderen kunnen delen buiten uw organisatie.
-    
-- Stel de gemachtigden '[verzenden als](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)' en '[verzenden op abehalf](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)' in voor het postvak van iemand. Een manager wil bijvoorbeeld dat zijn of assistent over de mogelijkheid beschikt om namens hem of haar e-mail te verzenden. 
+
+- Stel de gemachtigden '[verzenden als](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)' en '[verzenden op abehalf](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)' in voor het postvak van iemand. Een manager wil bijvoorbeeld dat zijn of assistent over de mogelijkheid beschikt om namens hem of haar e-mail te verzenden.
 
 - [Maak een gedeeld postvak](../email/create-a-shared-mailbox.md) zodat een groep personen e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres.
 

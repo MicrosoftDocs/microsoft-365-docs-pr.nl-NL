@@ -8,7 +8,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.author: heidip
-ms.date: 09/12/2020
+ms.date: 09/18/2020
 ms.reviewer: anmorgan
 ms.custom:
 - it-pro
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: fc2b83fc167a9385383d7085ed6d1e8db15abd42
-ms.sourcegitcommit: a13f43a3e981c90f1e0b9805c9c16a56f67fc650
+ms.openlocfilehash: 570ef098a3989bf42d641b78e325414350b8e5a5
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651130"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132110"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Beleids aanbevelingen voor het beveiligen van teams-chats,-groepen en-bestanden
 
@@ -71,28 +71,49 @@ In deze tabel vindt u een overzicht van de beleidsregels die moeten worden Revis
 |        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Teams en afhankelijke services opnemen in dit beleid.|
 |**Gevoelig**|[MFA vereisen wanneer het aanmeld risico *slecht*, *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Voor teams zijn gasttoegang en regels voor externe toegang ter overweging, u vindt hier meer informatie over deze verderop in dit artikel. Teams en afhankelijke services opnemen in dit beleid.|
 |         |[Compatibele Pc's *en* mobiele apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Teams en afhankelijke services opnemen in dit beleid.|
-|**Sterk gereglementeerd**|[*Altijd* MFA vereisen](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Ongeacht de gebruikersidentiteit wordt MFA gebruikt door uw organisatie. Teams en afhankelijke services opnemen in dit beleid.
+|**Sterk gereglementeerd**|[*Altijd* MFA vereisen](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Ongeacht de gebruikersidentiteit wordt MFA gebruikt door uw organisatie. Teams en afhankelijke services opnemen in dit beleid. |
 | | |
 
 ## <a name="teams-dependent-services-architecture"></a>Architectuur van gebonden Services voor teams
 
 In het volgende diagram ziet u een overzicht van de services teams. Zie [Microsoft teams en bijbehorende productiviteitsservices in Microsoft 365 voor IT-architecten](../solutions/productivity-illustrations.md)voor meer informatie en andere illustraties.
 
-![Diagram met de afhankelijkheden van teams in SharePoint, OneDrive voor bedrijven en Exchange](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
+[![Diagram met de afhankelijkheden van teams in SharePoint, OneDrive voor bedrijven en Exchange](../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
-## <a name="enabling-guest-and-external-access-for-teams"></a>Gast en externe toegang inschakelen voor teams
+[Een grotere versie van deze afbeelding weergeven](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
-In azure AD zijn gast en externe gebruikers hetzelfde. Het gebruikerstype voor beide gebruikers is gast. Gastgebruikers zijn B2B-gebruikers. In Microsoft teams wordt onderscheid gemaakt tussen gastgebruikers en externe gebruikers in de app. In het belangrijk om te begrijpen hoe elk van deze in teams wordt behandeld, zijn beide soorten gebruikers B2B-gebruikers in azure AD en zijn de aanbevolen beleidsregels voor B2B-gebruikers van toepassing. Zie beleidsregels voor het toestaan van gast- [en externe B2B-toegang](identity-access-policies-guest-access.md)voor aanbevolen beleidsregels voor het toestaan van gasttoegang.
+## <a name="guest-and-external-access-for-teams"></a>Gast en externe toegang voor teams
+
+In Microsoft teams wordt het volgende gedefinieerd:
+
+- **Gasttoegang** maakt gebruik van een Azure AD B2B-account voor een gast of externe gebruiker die kan worden toegevoegd als lid van een team en gemachtigd zijn om toegang te krijgen tot de communicatie en de bronnen van het team.
+
+- **Externe toegang** is bedoeld voor externe gebruikers die geen Azure AD B2B-account hebben. Externe toegang omvat uitnodigingen en deelnemen aan gesprekken, chats en vergaderingen, maar omvat geen team lidmaatschap en toegang tot de bronnen van het team.
+
+Beleidsregels voor voorwaardelijke toegang gelden alleen voor gasttoegang in teams omdat er een Azure AD B2B-account is.
+
+<!--
+In Azure AD, guest and external users are the same. The user type for both of these is Guest. Guest users are B2B users. Microsoft Teams differentiates between guest users and external users in the app. While it's important to understand how each of these are treated in Teams, both types of users are B2B users in Azure AD and the recommended policies for B2B users apply to both. 
+
+--> 
+
+Zie beleidsregels voor het toestaan van toegang tot [gastaccounts en externe B2B-accounts](identity-access-policies-guest-access.md)voor aanbevolen beleidsregels voor toegang voor gasten en externe gebruikers met een Azure AD B2B-account.
 
 ### <a name="guest-access-in-teams"></a>Gasttoegang in teams
 
-Naast de beleidsregels voor gebruikers die intern zijn voor uw bedrijf of organisatie, kunnen beheerders de toegang voor gasten toestaan, gebruikers die buiten uw bedrijf of organisatie deelnemen aan teams-bronnen en interactie met interne personen voor zaken zoals groepsgesprekken, chatten en vergaderingen. U vindt meer informatie over gasttoegang via de volgende koppeling: [gasttoegang voor teams](https://docs.microsoft.com/microsoftteams/guest-access)
+Naast de beleidsregels voor gebruikers die intern zijn voor uw bedrijf of organisatie, kunnen beheerders de toegang voor gasten toestaan, gebruikers die buiten uw bedrijf of organisatie deelnemen aan teams-bronnen en interactie met interne personen voor zaken zoals groepsgesprekken, chatten en vergaderingen. 
+
+Zie voor meer informatie over gasttoegang en hoe u deze implementeert,  [gasttoegang voor teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 ### <a name="external-access-in-teams"></a>Externe toegang in teams
 
-Externe toegang wordt soms niet verward met gasttoegang, dus het is belangrijk dat deze twee niet-interne toegangs mechanismen werkelijk afwijken. Hoewel gasttoegang wordt uitgevoerd per gebruiker (u voegt één gebruiker tegelijk toe), wanneer een beheerder deze functie toestaat, kunt u alle gebruikers van een extern domein tegelijk toevoegen aan teams. Deze externe gebruikers hebben echter minder toegang en functionaliteit dan een persoon die via gasttoegang is toegevoegd. Gebruikers van externe toegang kunnen met uw interne gebruikers chatten via teams.
+Externe toegang wordt soms niet verward met gasttoegang, dus het is belangrijk dat deze twee niet-interne toegangs mechanismen werkelijk afwijken. 
 
-Zie [externe toegang beheren in Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-external-access) voor meer informatie over externe toegang en hoe u dit zo nodig kunt implementeren.
+Externe toegang is een manier om teams-gebruikers van een volledig extern domein in te stellen, te bellen, te chatten en vergaderingen met uw gebruikers te vinden in teams. Beheerders van teams configureren externe toegang op organisatieniveau. Zie [externe toegang beheren in Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-external-access)voor meer informatie.
+
+Externe gebruikers hebben geen toegang en functionaliteit dan een persoon die is toegevoegd via gasttoegang. Gebruikers van externe toegang kunnen bijvoorbeeld chatten met uw interne gebruikers met teams, maar hebben geen toegang tot team kanalen, bestanden of andere informatiebronnen.
+
+Externe toegang maakt geen gebruik van Azure AD B2B-gebruikersaccounts en maakt daarom geen gebruik van regels voor voorwaardelijke toegang. 
 
 ## <a name="teams-policies"></a>Beleidsregels voor teams
 

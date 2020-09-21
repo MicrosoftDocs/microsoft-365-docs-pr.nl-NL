@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Informatie over het implementeren van invoegtoepassingen voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het Beheercentrum.
-ms.openlocfilehash: aec2adab7735a2be5670210abf05f88f081fe4ed
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 5806b2a33446a8e273c2aaf78e082c6fd753bbe4
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306524"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171278"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Invoegtoepassingen implementeren in het beheercentrum
 
@@ -64,6 +64,9 @@ Zie [bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor
 1. Ga in het Beheercentrum naar de pagina **Settings** met \> **invoegtoepassingen** voorinstellingen.
     
 2. Selecteer **invoegtoepassing implementeren** boven aan de pagina en selecteer **volgende**.
+ 
+    > [!NOTE]
+    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen**van de  >  **geïntegreerde apps**te gaan. Kies invoeg **toepassingen**op de bovenkant van de pagina **geïntegreerde apps** .
     
 3. Selecteer een optie en volg de instructies.
   

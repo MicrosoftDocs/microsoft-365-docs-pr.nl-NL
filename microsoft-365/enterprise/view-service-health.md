@@ -26,16 +26,16 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Bekijk de status van Microsoft 365-Services voordat u de ondersteuning belt om te zien of er een actieve serviceonderbreking is.
-ms.openlocfilehash: 49f7d3afd3c19cd4e9b6486db580082fe933b997
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 20e19072e1a851fba20e556be696146b8ad57a2f
+ms.sourcegitcommit: 392f60efa0921c64ac1462dd63985cd156e6498a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689475"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48134073"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>De servicestatus van Microsoft 365 controleren
 
-[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/O365-Admin-AdminCenterChanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview?view=o365-worldwide)
+[![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/O365-Admin-AdminCenterChanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview?view=o365-worldwide&preserve-view=true)
 
 U kunt de status van uw Microsoft-services bekijken, waaronder Office op internet, Yammer, Microsoft Dynamics CRM en Mobile Device Management cloudservices, op de pagina **service status** in het [Microsoft 365-Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339). Als u problemen ondervindt met een cloudservice, kunt u de servicestatus controleren om na te gaan of dit een bekend probleem is met een oplossing die al wordt uitgevoerd voordat u de ondersteuning belt of tijd hebt om problemen op te lossen.
 
@@ -46,7 +46,7 @@ Als u zich niet kunt aanmelden bij de Service Portal, kunt u op de [pagina servi
 1. Ga op de site van het Microsoft 365-Beheercentrum [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) en meld u aan met een beheerdersaccount.
 
     > [!NOTE]
-    > Personen aan wie de rol globale beheerder of servicebeheerder is toegewezen, kunnen de servicestatus bekijken. Beheerders van Exchange, SharePoint en Skype voor Bedrijven dient de rol servicebeheerder te zijn toegewezen om de servicestatus te kunnen bekijken. Zie [informatie over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide#roles-available-in-the-microsoft-365-admin-center)voor meer informatie over rollen die de servicestatus kunnen weergeven.
+    > Personen aan wie de rol globale beheerder of servicebeheerder is toegewezen, kunnen de servicestatus bekijken. Beheerders van Exchange, SharePoint en Skype voor Bedrijven dient de rol servicebeheerder te zijn toegewezen om de servicestatus te kunnen bekijken. Zie [informatie over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#roles-available-in-the-microsoft-365-admin-center)voor meer informatie over rollen die de servicestatus kunnen weergeven.
   
 2. Als u niet werkt met het nieuwe Beheercentrum, selecteert u op de **Start** pagina de wisselknop **het nieuwe Beheercentrum uitproberen** in de rechterbovenhoek.
 
@@ -64,7 +64,9 @@ Het tabblad **geschiedenis** toont de geschiedenis van incidenten en adviseurs d
 
 Als u een probleem hebt met een Microsoft 365-service en dit niet wordt weergegeven op de pagina **servicestatus** , laat het ons weten door **een probleem melden**te selecteren en het korte formulier in te vullen. We bekijken de gerelateerde gegevens en rapporten van andere organisaties om te zien hoe het probleem zich verhoudt en of het van toepassing is op onze service. Als dit het geval is, voegen we het toe als een nieuw incident of advies op de pagina **service status** , waar u de resolutie kunt bijhouden. Als u het probleem niet in de lijst ziet staan, moet u contact opnemen met de ondersteuning om dit probleem op te lossen.
 
-Als u zich wilt registreren voor e-mail meldingen van nieuwe incidenten die van invloed zijn op uw Tenant en statuswijzigingen voor een actief incident, selecteert u **Voorkeuren**, klikt u op meldingen over de **Servicemelding verzenden in een e-mail**en geeft u het volgende op:
+Als u de weergave van de services die u wilt weergeven op **Preferences**het dashboard wilt aanpassen, selecteert u  >  **aangepaste weergave**voorkeuren en schakelt u de selectievakjes uit voor de services die u wilt filteren in de dashboardweergave voor de service status. Zorg ervoor dat het selectievakje is ingeschakeld voor elke service die u wilt controleren.    
+
+Als u zich wilt registreren voor e-mail meldingen van nieuwe incidenten die van invloed zijn op de Tenant en statuswijzigingen voor een actief incident, selecteert u **Voorkeuren**  >  **e-mail**, klikt u op meldingen over de **Servicemelding verzenden in e-mail**en geeft u het volgende op:
 
 - Maximaal twee e-mailadressen.
 - Of u meldingen wilt ontvangen voor incidenten of adviseurs
@@ -80,7 +82,7 @@ Als u zich wilt registreren voor e-mail meldingen van nieuwe incidenten die van 
 
 Als u in de weergave **alle services** de servicestatus selecteert, wordt er een overzichtsweergave van adviseurs of incidenten geopend.
   
-![Een schermafbeelding met het service advies](../media/service-health-advisory.png)
+[![Een schermafbeelding met het service advies ](../media/service-health-advisory.png)](../media/service-health-advisory.png#lightbox)
 
 Het overzicht met het advies of incident bevat de volgende informatie:
 
@@ -150,4 +152,4 @@ Zie voor meer informatie over onze toezegging voor uw uptime de [doorzichtige be
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Activiteitenoverzichten in het Microsoft 365-Beheercentrum](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
- [Voorkeuren voor het berichtencentrum](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide#preferences11)
+ [Voorkeuren voor het berichtencentrum](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true#preferences11)

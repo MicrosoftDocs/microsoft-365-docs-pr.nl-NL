@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 09441f879fa41d1b920aae7d37625d0a52160d84
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: bf49a815c0d3d952187f863120865ab3aa4674fc
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949878"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171408"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab kit
 
@@ -54,35 +54,47 @@ Bovendien is het lab ontwikkeld om te worden verbonden met proefversies voor:
 Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager. 
 
 ### <a name="plan-and-prepare-infrastructure"></a>Infrastructuur plannen en voorbereiden 
-Desktop Analytics   
-Cloud Management Gateway & Tenant distributiepunt bijvoegen, medewerkers en overstappen    
-Externe toegang
+- Desktop Analytics 
+- Cloud Management Gateway & Cloud-distributiepunt 
+- Tenant bijvoegen, medewerkers en overstappen  
+- Externe toegang (VPN) 
 
 ### <a name="prepare-configuration"></a>Configuratie voorbereiden   
-Bezorging van service voor Windows 10-updates voor Windows 10 optimaliseren met behulp van groeps beleids service voor Windows 10 via Microsoft intune-service Windows 10 met Configuration Manager-service voor Microsoft 365-apps voor Enterprise met behulp van Configuration Manager-365 Services    
-Beveiliging en naleving 
+- Update levering van Windows 10 optimaliseren   
+- Service voor Windows 10 met behulp van Groepsbeleid
+- Service Windows 10 gebruiken met Microsoft intune   
+- Service Windows 10 onderhouden met Configuration Manager   
+- Servicing Microsoft 365-apps voor Enterprise met Configuration Manager   
+- Servicing Microsoft 365-apps voor Enterprise met intune  
+- Beveiliging en naleving   
 
 ### <a name="prepare-applications"></a>Toepassingen voorbereiden    
-Readiness Toolkit voor Office    
-MSIX-verpakking en-conversie van Win32-toepassingen 
+- Readiness Toolkit voor Office  
+- MSIX-verpakking en-conversie van Win32-toepassingen   
 
 ### <a name="deploy-windows-10"></a>Windows 10 implementeren   
-Takenreeksen voor implementatie van het besturingssysteem in Configuration Manager OS Deployment-opdrachten voor het uitvoeren van MDT Windows auto pilot implementeren en beheren de nieuwe Microsoft Edge    
+- Takenreeksen voor implementatie van het besturingssysteem in Configuration Manager
+- Takenreeksen voor de implementatie van het besturingssysteem in MDT   
+- Windows Autopilot
+- De nieuwe Microsoft Edge implementeren en beheren  
 
 ### <a name="deploy-microsoft-365-apps-for-enterprise"></a>Microsoft 365-Apps implementeren voor Enterprise    
-Implementatie van Cloud beheer    
-Lokaal beheerde implementatie  
-Microsoft 365-apps voor Enterprise Deployment op niet-AD gekoppelde apparaten   
-Beheerde implementatie van het bedrijf met behulp van beheerde implementatie van Configuration Manager met Microsoft intune    
-LOB-implementatie en-beheer met Microsoft intune Deploy Microsoft teams
+- Implementatie van Cloud beheer  
+- Lokaal beheerde implementatie    
+- Microsoft 365-apps voor Enterprise Deployment op niet-AD gekoppelde apparaten 
+- Beheerde implementatie van onderneming met Configuration Manager
+- Beheerde implementatie van bedrijf met Microsoft intune  
+- LOB-implementatie en-beheer met Microsoft intune
+- Microsoft teams implementeren
 
 ### <a name="deploy-windows-virtual-desktop"></a>Windows virtueel bureaublad implementeren  
+- Voorbereiden, implementeren, optimaliseren
  
 ### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit downloaden
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-*Gebruik een ruimere bandbreedte om deze inhoud te downloaden om uw download ervaring te verbeteren en 30-45 minuten te laten voor automatisch inrichten. Voor de testomgeving is minimaal 16 GB beschikbare geheugen en 150 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbare geheugen aanbevolen. De Lab eindigt op 4 december 2020. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.*
+*Gebruik een ruimere bandbreedte om deze inhoud te downloaden om uw download ervaring te verbeteren en 30-45 minuten te laten voor automatisch inrichten. Voor de testomgeving is minimaal 16 GB beschikbare geheugen en 150 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbare geheugen aanbevolen. De Lab eindigt op 5 december 2020. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.*
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

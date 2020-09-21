@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
-description: Meer informatie over het opnieuw instellen van wachtwoorden en het verzenden van een e-mail melding naar een nieuwe Microsoft 365-gebruiker.
-ms.openlocfilehash: d39a448cdea9e986c46fbebc1d4cfcdf63882daf
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+description: Meer informatie over het opnieuw instellen van wachtwoorden en het verzenden van een e-mailbericht naar een nieuwe Microsoft 365-gebruiker.
+ms.openlocfilehash: 206e38929183fc280134a42e3febead2483d0f76
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361817"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131744"
 ---
 # <a name="resend-a-users-password---admin-help"></a>Het wachtwoord van een gebruiker opnieuw verzenden - Help voor beheerders
 
@@ -33,7 +33,7 @@ In dit artikel wordt uitgelegd hoe u de e-mail melding opnieuw verzendt naar een
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Om deze stappen te voltooien, moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md)
+Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md).
 
 U moet een [globale beheerder of wachtwoordbeheerder](about-admin-roles.md) zijn om deze stappen te kunnen uitvoeren.
 

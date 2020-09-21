@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een SharePoint-site voor samenwerking met gasten.
-ms.openlocfilehash: c04114218342a2d65b318c71d061c2a0ed815fab
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: d5a868e57753a6eb05f74b4873ed64ef0a70878e
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797814"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171266"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Samenwerken met gasten op een site
 
@@ -39,18 +39,18 @@ In deze video ziet u de configuratiestappen die in dit document worden beschreve
 
 Delen in Microsoft 365 wordt bepaald met het hoogste niveau van de [instellingen voor organisatie relaties in azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als gasten delen is uitgeschakeld of niet beschikbaar is in azure AD, worden de instellingen voordelen die u configureert in Microsoft 365 genegeerd.
 
-Controleer de instellingen van de organisatie om te controleren of delen met gasten niet is geblokkeerd.
+Controleer de instellingen voor externe samenwerking om ervoor te zorgen dat delen met gasten niet is geblokkeerd.
 
-![Schermafbeelding van de instellingenpagina voor organisatierelaties in Microsoft Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
+![Schermafbeelding van de pagina met instellingen voor externe samenwerking van Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
-Instellingen voor organisatie relaties instellen
+Externe samenwerkings instellingen instellen:
+
 
 1. Meld u aan bij Microsoft Azure at [https://portal.azure.com](https://portal.azure.com) .
 2. Klik in het linkernavigatievenster op **Azure Active Directory**.
-3. Klik in het deelvenster **overzicht** op **organisatie relaties**.
-4. Klik in het deelvenster **relaties organisatie** op **instellingen**.
-5. Zorg ervoor dat **beheerders en gebruikers in de rol gast uitnodiging kunnen uitnodigen** en dat **leden kunnen uitnodigen** zijn ingesteld op **Ja**.
-6. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
+3. Selecteer **externe identiteiten** , en klik op **instellingen voor externe samenwerking**.
+4. Zorg er in het deelvenster **instellingen voor gast uitnodigen** voor dat **beheerders en gebruikers in de rol van gast uitnodiging kunnen uitnodigen** en dat **leden kunnen uitnodigen** zijn ingesteld op **Ja**.
+5. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
 Let op de instellingen in de sectie **samenwerkings beperkingen** . Zorg ervoor dat de domeinen van de gasten waarmee u wilt samenwerken, niet zijn geblokkeerd.
 
@@ -146,4 +146,3 @@ Gasten voor een groep uitnodigen
 [Een beveiligde omgeving voor het delen met gasten maken](create-secure-guest-sharing-environment.md)
 
 [Een B2B-extranet maken met beheerde gasten](b2b-extranet.md)
-

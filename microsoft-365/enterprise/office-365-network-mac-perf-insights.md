@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 Network Insights (preview)
-ms.openlocfilehash: e3730704b6672c931b7538659a38f218e769dd0a
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: 682c888fefb9bec9725e470d62019c857fc2de07
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962369"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171336"
 ---
 # <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network Insights (preview)
 
@@ -157,7 +157,7 @@ Het is een aanwijzing dat het merendeel van de gebruikers problemen met de gebru
 
 ### <a name="what-should-i-do"></a>Wat moet ik doen?
 
-De netwerklocatie van de Office-locatie voor netwerktoegang inschakelen als u dit nog niet hebt gedaan. U wilt weten welke kantoren zijn impactred door slechte netwerkconnectiviteit, wat van invloed is op Exchange en manieren om de netwerkverbinding te verbeteren, zodat de netwerkverbindingen van de gebruikers met de gebruikers van het Microsoft-netwerk zijn verbonden.
+De netwerklocatie van de Office-locatie voor netwerktoegang inschakelen als u dit nog niet hebt gedaan. U wilt weten welke kantoren worden beïnvloed door slechte netwerkconnectiviteit, wat van invloed is op Exchange en manieren om de netwerkverbinding te verbeteren, zodat de netwerkverbindingen van de gebruikers worden verduidelijkt.
 
 ## <a name="sharepoint-sampled-connections-impacted-by-connectivity-issues"></a>Gepipetteerde SharePoint-verbindingen beïnvloed door verbindingsproblemen
 
@@ -169,7 +169,7 @@ Het is een aanwijzing dat het merendeel van de gebruikers problemen met de gebru
 
 ### <a name="what-should-i-do"></a>Wat moet ik doen?
 
-De netwerklocatie van de Office-locatie voor netwerktoegang inschakelen als u dit nog niet hebt gedaan. U wilt weten welke kantoren zijn impactred door slechte netwerkconnectiviteit, wat van invloed is op SharePoint en manieren om de netwerkverbinding te verbeteren waarmee de gebruikers worden verbonden met de gebruikers van het Microsoft-netwerk.
+De netwerklocatie van de Office-locatie voor netwerktoegang inschakelen als u dit nog niet hebt gedaan. U wilt bepalen welke kantoren worden beïnvloed door slechte netwerkconnectiviteit, wat van invloed is op SharePoint en manieren om de netwerkverbinding te verbeteren waarmee de gebruikers verbinding maken met de gebruikers van het Microsoft-netwerk.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -177,6 +177,6 @@ De netwerklocatie van de Office-locatie voor netwerktoegang inschakelen als u di
 
 [Microsoft 365-netwerk beoordeling (preview)](office-365-network-mac-perf-score.md)
 
-[Microsoft 365 connectiviteitstest in het M365-Beheercentrum (preview)](office-365-network-mac-perf-onboarding-tool.md)
+[Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Locatie Services voor Microsoft 365-netwerkconnectiviteit](office-365-network-mac-location-services.md)

@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365 voor campagnes ophalen
+title: Microsoft 365 voor campagnes kopen
 f1.keywords:
 - NOCSH
-ms.author: supotter
-author: supotter
+ms.author: sirkkuw
+author: sirkkuw
 manager: scotv
 ms.audience: Admin
 ms.topic: article
@@ -23,43 +23,43 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Download Microsoft 365 voor campagnes, zodat u uw campagne beschermen tegen cyberbeveiligingsbedreigingen voor e-mail, gegevens en communicatie.
-ms.openlocfilehash: 13e0f66b388e9041e1654a7a45226d3204499618
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Neem Microsoft 365 voor uw campagnes, zodat u uw campagne kunt beschermen tegen Cyber securitye bedreigingen voor e-mail, gegevens en communicatie.
+ms.openlocfilehash: fcb28ba7ca52ee3498afd12cf93157fa90d0d80b
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527328"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131974"
 ---
-# <a name="get-microsoft-365-for-campaigns"></a>Microsoft 365 voor campagnes ophalen
+# <a name="get-microsoft-365-for-campaigns"></a>Microsoft 365 voor campagnes kopen
 
-Iedereen met Microsoft 365 Business Premium kan deze richtlijnen gebruiken om extra beveiliging voor e-mail en samenwerking te configureren. Campagnes en politieke partijen in de VS komen echter in aanmerking voor speciale prijzen voor Microsoft 365. Momenteel is deze speciale prijs beschikbaar voor:
-- Amerikaanse federale politieke campagnes (bijvoorbeeld campagnes op zoek naar kantoor voor het Amerikaanse Huis, de Amerikaanse Senaat, of president)
+Iedereen met Microsoft 365 Business Premium kan gebruikmaken van deze richtlijnen voor het configureren van extra beveiliging voor e-mail en samenwerking. Campagnes en politieke partijen in de VS komen evenwel in aanmerking voor speciale prijzen voor Microsoft 365. Momenteel is dit speciale tarief beschikbaar voor:
+- US Federal politieke campagnes (bijvoorbeeld campagnes die Office zoeken voor de VS House, US Senate, of directeur)
 - Politieke partijen op nationaal niveau in de Verenigde Staten.
 
-Als uw campagne of politieke partij in aanmerking komt, is Microsoft 365 voor campagnes het goedkoopste abonnement dat beschikbaar is via Microsoft.  
+Als u in aanmerking komt voor een campagne of politieke partij, is Microsoft 365 voor campagnes het goedkoopste abonnement dat via Microsoft is.  
 
-Als u niet in aanmerking komt voor speciale prijzen, is Microsoft 365 Business Premium nog steeds de meest kosteneffectieve manier om uitgebreide beveiliging voor een samenwerkingsomgeving te verkrijgen. Zie [Aanmelden voor Microsoft 365 voor campagnes](m365-campaigns-sign-up.md). Gebruik deze bibliotheek vervolgens om extra beveiliging te configureren en om uw team te helpen veilig samen te werken. 
+Als u niet in aanmerking komt voor speciale prijzen, is Microsoft 365 Business Premium nog steeds de meest rendabele manier om een samenwerkingsomgeving te beveiligen. Zie [registreren voor Microsoft 365 voor campagnes](m365-campaigns-sign-up.md). Vervolgens kunt u deze bibliotheek gebruiken om extra beveiliging te configureren en uw team veilig te helpen samenwerken. 
 
-## <a name="what-does-microsoft-365-for-campaigns-include"></a>Wat houdt Microsoft 365 voor campagnes in?
-Deze configuratie van Microsoft 365 Business Premium bevat eenvoudige besturingselementen waarmee u en uw medewerkers veilig samenwerken: 
-- **Gebruikersidentiteit beveiligen:** zorg ervoor dat gebruikers zijn wie ze zeggen dat ze zijn wanneer ze zich aanmelden om e-mail te verzenden of toegang te krijgen tot bestanden (multifactorauthenticatie).
-- **Gevoelige informatie beveiligen:** bescherm gevoelige informatie om informatie te controleren die buiten uw organisatie wordt gedeeld (preventie van gegevensverlies).
-- **Mobiele apparaten beveiligen:** gegevens beveiligen op mobiele apparaten (beveiligingsbeleid voor mobiele apps).
-- **Bescherm tegen schadelijke inhoud:** voorkom toegang tot schadelijke inhoud door het scannen van e-mailbijlagen (geavanceerde bescherming tegen bedreigingen).
-- **Wachtwoorden beveiligen:** stel wachtwoorden in om nooit te verlopen, wat veiliger is en werkonderbrekingen (wachtwoordbeleid) helpt voorkomen. 
+## <a name="what-does-microsoft-365-for-campaigns-include"></a>Waar bevat Microsoft 365 voor campagnes?
+Deze configuratie van Microsoft 365 Business Premium bevat eenvoudige besturingselementen waarmee u en uw medewerkers veilig kunnen samenwerken: 
+- **Gebruikersidentiteit beschermen**: Zorg ervoor dat gebruikers zich afmelden dat ze zich bevinden als ze zich aanmelden om e-mail te verzenden of om bestanden (meervoudige verificatie) te openen.
+- **Vertrouwelijke informatie beschermen**: gevoelige informatie beschermen voor het bewaken van informatie die buiten uw organisatie wordt gebruikt (preventie van gegevensverlies).
+- **Mobiele apparaten beschermen**: Beveilig de gegevens op mobiele apparaten (beveiligingsbeleid voor mobiele apps).
+- **Beschermen tegen schadelijke inhoud**: toegang tot schadelijke inhoud voorkomen door e-mailbijlagen te scannen (Advanced Threat Protection).
+- **Wachtwoorden beschermen**: Stel wachtwoorden zodanig in dat deze nooit verloopt en dat er geen werk wordt ondergebracht (wachtwoordbeleid). 
 
 
-## <a name="what-does-it-cost-who-needs-it-and-what-is-the-commitment"></a>Wat kost het, wie heeft het nodig en wat is de inzet?
-Als uw campagne in aanmerking komt voor speciale prijzen kost Microsoft 365 voor campagnes $ 5 per gebruiker per maand. Om uw campagne te beschermen, raden we een licentie aan voor de kandidaat, de campagnemanager, alle senior medewerkers die deel uitmaken van de campagne of het feest, en meestal alle fulltime medewerkers. Bepaalde vrijwillige werknemers hebben mogelijk ook een licentie nodig. Geef in het algemeen een licentie toe aan iedereen in uw campagne die beveiligde e-mail en apparaten nodig heeft.
-Er is geen minimale tijdsverplichting wanneer u zich aanmeldt voor Microsoft 365 voor campagnes. U maandelijks betalen voor de licenties die u nodig hebt en stoppen met het gebruik van de service op elk gewenst moment.
+## <a name="what-does-it-cost-who-needs-it-and-what-is-the-commitment"></a>Wat kost het, wie moet dit doen en wat is de toezegging?
+Als u in aanmerking komt voor speciale prijzen in Microsoft 365 voor de $5 kosten van een per maand per maand. Voor de bescherming van uw campagne wordt u aangeraden een licentie voor de kandidaat, de campagne manager, alle senior medewerkers die deel uitmaken van de campagne of partij, en meestal alle fulltime medewerkers. Voor bepaalde medewerkers zijn mogelijk ook een licentie nodig. In het algemeen kunt u een licentie toewijzen aan iedereen in uw campagne die beveiligde e-mail en apparaten nodig heeft.
+Er is geen tijd meer om u aan te melden bij Microsoft 365 voor campagnes. U kunt per maand betalen voor de licenties die u nodig hebt en het gebruik van de service op elk gewenst moment beëindigen.
 
-## <a name="how-do-i-qualify-for-special-pricing"></a>Hoe kom ik in aanmerking voor speciale prijzen?
+## <a name="how-do-i-qualify-for-special-pricing"></a>Hoe kom ik in aanmerking voor speciale tarieven?
 
-1. Ga naar https://m365forcampaigns.microsoft.com/ en geef een paar details over uw organisatie. De gegevens die u verstrekt, helpen ons om te controleren of u een politieke campagne of partij op nationaal niveau in de Verenigde Staten vertegenwoordigt. Er is geen verplichting wanneer u dit formulier ingaat. 
-2. Nadat u het formulier hebt ingevuld, duurt het een paar dagen om uw gegevens te bekijken. 
-3. Nadat we hebben geverifieerd dat u een politieke campagne of partij op nationaal niveau vertegenwoordigt, ontvangt u een e-mailuitnodiging van Microsoft. Uw uitnodiging bevat een aanmeldingskoppeling die specifiek is voor uw organisatie. 
+1. Ga naar https://m365forcampaigns.microsoft.com/ en voer enkele details van uw organisatie in. De informatie die u biedt helpt ons om te verifiëren dat u een politieke campagne van nationaal niveau of feest in de Verenigde Staten voorstelt. Er is geen verbintenis wanneer u dit formulier voltooit. 
+2. Wanneer u klaar bent met het invullen van het formulier, duurt het een paar dagen om uw gegevens te bekijken. 
+3. Nadat we hebben bevestigd dat u een politieke campagne van nationaal niveau of feest vertegenwoordigt, ontvangt u per e-mail een uitnodiging per e-mail van Microsoft. De uitnodiging bevat een specifieke aanmeldings koppeling voor uw organisatie. 
 
-Wanneer u uw uitnodiging ontvangt, [meldt u zich aan voor Microsoft 365 voor campagnes](m365-campaigns-sign-up.md).
+Wanneer u de uitnodiging hebt ontvangen, [registreert u zich voor Microsoft 365 voor campagnes](m365-campaigns-sign-up.md).
 
 

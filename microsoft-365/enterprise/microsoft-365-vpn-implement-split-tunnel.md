@@ -3,7 +3,7 @@ title: Gesplitste VPN-tunneling implementeren voor Office 365
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/15/2020
+ms.date: 9/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Gesplitste tunneling voor VPN implementeren voor Office 365
-ms.openlocfilehash: 1fa86501e9cf29ffd41ec5b25a86cc4f2b139d52
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: bfdc11ffe4244ec0ac83bb1c0470476aafeec939
+ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695773"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171420"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Gesplitste VPN-tunneling implementeren voor Office 365
 
@@ -220,7 +220,7 @@ Sommige beheerders vragen mogelijk meer informatie over de manier waarop oproep 
 
 ### <a name="configuration"></a>Configuratie
 
-Voor gesprekken en vergaderingen, mits de vereiste IP-subnetten voor teams-media in de juiste volgorde staan, _wordt de lokale_ interface geretourneerd voor Microsoft-bestemmingen in de hierboven vermelde Microsoft-IP-blokken, mits de vereiste IP-subnetten voor teams-media in de juiste volgorde zijn geplaatst.
+Voor gesprekken en vergaderingen, mits teams de functie [GetBestRoute](https://docs.microsoft.com/windows/win32/api/iphlpapi/nf-iphlpapi-getbestroute) om te bepalen welke lokale interface overeenkomt met de route die voor een bepaalde bestemming moet worden gebruikt, wordt de lokale interface geretourneerd voor Microsoft-bestemmingen in de hierboven vermelde Microsoft-IP-blokken......
 
 Voor sommige VPN-clientsoftware is het mogelijk maken van routering op basis van URL. Er is echter geen URL gekoppeld aan teams, dus besturingselement van routering voor dit verkeer moet worden uitgevoerd met IP-subnetten.
 
@@ -293,7 +293,7 @@ Nee, de eindpunten van Office 365 zijn niet hetzelfde als de consumenten Service
 
 ### <a name="how-do-i-apply-dlp-and-protect-my-sensitive-data-when-the-traffic-no-longer-flows-through-my-on-premises-solution"></a>Hoe kan ik DLP toepassen en mijn gevoelige gegevens beschermen wanneer het verkeer niet meer via mijn on-premises oplossing loopt?
 
-Om te voorkomen dat vertrouwelijke informatie door onbedoeld wordt vrijgegeven, biedt Office 365 een uitgebreide set [ingebouwde hulpmiddelen](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide). U kunt de ingebouwde [DLP-functies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide) van teams en SharePoint gebruiken om niet-opgeslagen of gedeelde gevoelige informatie te vinden. Als een onderdeel van uw strategie voor extern werken een bedrijf (BYOD) omvat, kunt u [voorwaardelijke toegang op basis van apps](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) gebruiken om te voorkomen dat vertrouwelijke gegevens worden gedownload naar persoonlijke apparaten van gebruikers
+Om te voorkomen dat vertrouwelijke informatie door onbedoeld wordt vrijgegeven, biedt Office 365 een uitgebreide set [ingebouwde hulpmiddelen](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies). U kunt de ingebouwde [DLP-functies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) van teams en SharePoint gebruiken om niet-opgeslagen of gedeelde gevoelige informatie te vinden. Als een onderdeel van uw strategie voor extern werken een bedrijf (BYOD) omvat, kunt u [voorwaardelijke toegang op basis van apps](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) gebruiken om te voorkomen dat vertrouwelijke gegevens worden gedownload naar persoonlijke apparaten van gebruikers
 
 ### <a name="how-do-i-evaluate-and-maintain-control-of-the-users-authentication-when-they-are-connecting-directly"></a>Hoe kan ik de authenticatie van gebruikers evalueren en beheren wanneer ze rechtstreeks verbinding maken?
 
@@ -307,7 +307,7 @@ We kunnen vervolgens het beleid activeren, zoals goedkeuren, een MFA activeren o
 
 ### <a name="how-do-i-protect-against-viruses-and-malware"></a>Hoe kan ik de beveiliging tegen virussen en malware beschermen?
 
-Ook weer, Office 365 biedt bescherming voor de gemarkeerde eindpunten in verschillende lagen in de service zelf, [zoals beschreven in dit document](https://docs.microsoft.com/office365/Enterprise/office-365-malware-and-ransomware-protection). Zoals u ziet, is het zeer efficiënt om deze beveiligingselementen aan te bieden in de service zelf, in plaats van het te proberen en te doen in overeenstemming met apparaten die de protocollen/verkeer mogelijk niet volledig begrijpen. In SharePoint Online wordt het uploaden van bestanden op basis van bekende malware standaard [automatisch gecontroleerd](https://docs.microsoft.com/microsoft-365/security/office-365-security/virus-detection-in-spo?view=o365-worldwide) .
+Ook weer, Office 365 biedt bescherming voor de gemarkeerde eindpunten in verschillende lagen in de service zelf, [zoals beschreven in dit document](https://docs.microsoft.com/office365/Enterprise/office-365-malware-and-ransomware-protection). Zoals u ziet, is het zeer efficiënt om deze beveiligingselementen aan te bieden in de service zelf, in plaats van het te proberen en te doen in overeenstemming met apparaten die de protocollen/verkeer mogelijk niet volledig begrijpen. In SharePoint Online wordt het uploaden van bestanden op basis van bekende malware standaard [automatisch gecontroleerd](https://docs.microsoft.com/microsoft-365/security/office-365-security/virus-detection-in-spo) .
 
 Voor de bovenstaande Exchange-eindpunten, [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) en [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) , bieden een uitstekend overzicht van de beveiliging van het verkeer naar de service.
 
@@ -323,7 +323,7 @@ Zie het artikel [Extern werken via Azure VPN gateway Point-to-site](https://docs
 
 ### <a name="why-is-port-80-required-is-traffic-sent-in-the-clear"></a>Waarom is poort 80 nodig? Verzendt het verkeer naar de heldere invoeg?
 
-Poort 80 wordt alleen gebruikt voor zaken zoals omleiding naar een poort 443-sessie, geen klantgegevens worden verzonden of zijn toegankelijk via Port 80. [Dit artikel](https://docs.microsoft.com/microsoft-365/compliance/encryption?view=o365-worldwide) bevat een overzicht van de versleuteling voor gegevens in de transit en de rest van Office 365, en in [dit artikel](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic) wordt uitgelegd hoe u srtp gebruikt om te beschermen tegen het media verkeer van teams.
+Poort 80 wordt alleen gebruikt voor zaken zoals omleiding naar een poort 443-sessie, geen klantgegevens worden verzonden of zijn toegankelijk via Port 80. [Dit artikel](https://docs.microsoft.com/microsoft-365/compliance/encryption) bevat een overzicht van de versleuteling voor gegevens in de transit en de rest van Office 365, en in [dit artikel](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic) wordt uitgelegd hoe u srtp gebruikt om te beschermen tegen het media verkeer van teams.
 
 ### <a name="does-this-advice-apply-to-users-in-china-using-a-worldwide-instance-of-office-365"></a>Is dit advies van toepassing op gebruikers in China met een wereldwijde instantie van Office 365?
 
@@ -341,8 +341,8 @@ Poort 80 wordt alleen gebruikt voor zaken zoals omleiding naar een poort 443-ses
 
 [Uitvoeren op VPN: hoe Microsoft de werknemers op afstand houdt](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/?elevate-lv)
 
-[Methoden voor netwerkverbindingen in Office 365](microsoft-365-network-connectivity-principles.md)
+[Beginselen voor Office 365-netwerkverbinding](microsoft-365-network-connectivity-principles.md)
 
-[Een beoordeling van de netwerkverbinding van Office 365](assessing-network-connectivity.md)
+[Office 365-netwerkverbinding beoordelen](assessing-network-connectivity.md)
 
-[Office 365 netwerk en prestaties optimaliseren](network-planning-and-performance.md)
+[Aanpassing van Office 365-netwerk en -prestaties](network-planning-and-performance.md)

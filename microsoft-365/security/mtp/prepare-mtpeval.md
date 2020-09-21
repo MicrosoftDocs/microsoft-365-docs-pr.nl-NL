@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a684f49ab8c70a19a17ff43195197677bccbf95b
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 6b87b051d243c11fe2b32fccb50f3ad0d01d0c04
+ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47816767"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47956149"
 ---
 # <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden
 
@@ -67,7 +67,7 @@ U bevindt zich in de voorbereidende fase.
 De voorbereiding is essentieel voor een succesvolle implementatie. In deze sectie wordt uitgelegd wat u moet doen als u een proefabonnement voor de implementatie van Microsoft Threat Protection maakt.
 
 ## <a name="prerequisites"></a>Vereisten
-Meer informatie over de licenties, hardware-en softwarevereisten en andere configuratie-instellingen voor het inrichten en gebruiken van Microsoft Threat Protection. Zie de minimale vereisten voor [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?view=o365-worldwide), [Microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), beveiliging van de [Microsoft Cloud-app](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
+Meer informatie over de licenties, hardware-en softwarevereisten en andere configuratie-instellingen voor het inrichten en gebruiken van Microsoft Threat Protection. Zie de minimale vereisten voor [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [Microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), beveiliging van de [Microsoft Cloud-app](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Belanghebbenden en afmelden
 In het volgende gedeelte wordt aangegeven welke belanghebbenden deel uitmaken van het project en wie kan zich mogelijk registreren, raadplegen of op de hoogte blijven van de belanghebbenden, of het nu gaat om evaluatie of het uitvoeren van een pilot.
@@ -126,11 +126,12 @@ In de volgende tabel ziet u de volgorde waarin Microsoft adviseert om de Microso
 
 | Invoert                               | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rangschikking van de configuratie volgorde |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Office 365 Advanced Threat Protection| Office 365 ATP beschermt uw organisatie tegen kwaadaardige bedreigingen van e-mailberichten, koppelingen (Url's) en samenwerkingsprogramma's. <br> [Meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)                                                                                                                                                                                                                                             | 1                   |
+| Office 365 Advanced Threat Protection| Office 365 ATP beschermt uw organisatie tegen kwaadaardige bedreigingen van e-mailberichten, koppelingen (Url's) en samenwerkingsprogramma's. <br> [Meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
 |Azure Advanced Threat Protection|Azure ATP maakt gebruik van Active Directory-signalen voor het identificeren, detecteren en onderzoeken van geavanceerde bedreigingen, compromisloze identiteiten, en het uitvoeren van schadelijke Insider-acties die worden doorgestuurd naar uw organisatie. <br> [Meer informatie](https://docs.microsoft.com/azure-advanced-threat-protection/).| 3 |
 |Microsoft Cloud App Security| Microsoft Cloud-app-beveiliging is een Cloud Access Security Broker (CASB) die op meerdere clouds werkt. Het biedt uitgebreide zichtbaarheid, controle over gegevens reis en geavanceerde analyses voor het identificeren en bestrijden van cyberthreats in alle cloudservices. <br> [Meer informatie](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |driefasig                   |
 |Microsoft Defender Advanced Threat Protection | De detectie-en antwoord mogelijkheden van Microsoft Defender ATP voor Microsoft Defender bieden geavanceerde aanvals detectie die bij realtime en op actie kan worden uitgevoerd. Beveiligings analisten kunnen waarschuwingen effectiever uitstellen, inzicht krijgen in de volledige reikwijdte van een overtreding en antwoord acties uitvoeren om bedreigingen te herstellen. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |3                   |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Volgende stap
-![Fase 2: instellen](../../media/setup.png) <br>[Fase 2: instellen](setup-mtpeval.md)<br> Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen
+|![Fase 2: instellen](../../media/setup.png) <br>[Fase 2: instellen](setup-mtpeval.md) | Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen
+|:-------|:-----|
 

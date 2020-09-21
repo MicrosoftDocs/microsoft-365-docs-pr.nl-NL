@@ -9,18 +9,26 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 2ac0bb01c1a941d460e92c7e75e765ceb85b2bc0
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: f57911276d74c6945027077404e1f83c2f5072fd
+ms.sourcegitcommit: eb905c5b4d7e71fc930a207357295b0160c4f065
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546572"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48137033"
 ---
 # <a name="access-the-admin-portal"></a>Toegang tot de beheerportal
 
 De gateway naar de Microsoft beheerde bureaublad service is de Microsoft [Azure-Portal](https://portal.azure.com). Zie de [documentatie van Azure Portal](https://docs.microsoft.com/azure/azure-portal/)voor meer informatie over het gebruiken en aanpassen van uw Azure Portal-ervaring. Nu beschikbaar in het voorbeeld kunt u Microsoft Managed Desktop ook vinden in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/). Als u niet bekend bent met de mogelijkheden van deze portal voor Apparaatbeheer, raadpleegt u de [documentatie Microsoft Endpoint Manager](https://docs.microsoft.com/mem/).
 
-Voor het beheren van de Microsoft beheerde bureaubladfuncties voor de beheerfuncties van Azure portal of Microsoft-eindpunten hebt u specifieke machtigingen nodig. U kunt beheerderstoegang tot deze functies binnen uw organisatie beheren via toegangsbeheer op basis van rollen (RBAC). Er zijn verschillende Azure AD-beheerdersrollen en ingebouwde aangepaste rollen beschikbaar voor een uitgebreidere controle over verschillende functies in de portal van de beheerde bureaublad beheerder. Zie [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)voor meer informatie over de functies van Azure Active Directory. In tegenstelling tot de beheerdersrollen die van toepassing zijn op diverse Microsoft-producten en-services, zijn aangepaste rollen specifiek voor Microsoft Managed Desktop en garanderen ze alleen toegang tot de beheerfuncties voor deze service. Beheerders kunnen aangepaste rollen aan gebruikers afzonderlijk of in combinatie met beheerdersrollen toewijzen om Microsoft beheerde bureaublad machtigingen toe te voegen aan bestaande beheerdersaccounts.
+> [!NOTE]
+> Als u echter kiest voor het openen van Microsoft Managed Desktop, in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) of de [Azure-Portal](https://portal.azure.com), worden de volgende browsers ondersteund:
+> - Microsoft Edge (nieuwste versie)
+> - Microsoft Internet Explorer 11
+> - Safari (nieuwste versie, alleen Mac)
+> - Chrome (nieuwste versie)
+> - Firefox (nieuwste versie)
+
+Voor het beheren van de Microsoft beheerde bureaubladfuncties voor de beheerfuncties van Azure portal of Microsoft-eindpunten hebt u specifieke machtigingen nodig. U kunt beheerderstoegang tot deze functies binnen uw organisatie beheren via toegangsbeheer op basis van rollen (RBAC). U kunt verschillende Azure Active Directory (Azure AD)-beheerdersrollen en ingebouwde aangepaste rollen maken om meer controle over te geven aan verschillende functies in de portal van Microsoft Managed Desktop admin. Zie [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)voor meer informatie over de functies van Azure Active Directory. In tegenstelling tot Azure AD-beheerdersrollen die van toepassing zijn op diverse Microsoft-producten en-services, zijn aangepaste rollen specifiek voor Microsoft Managed Desktop en garanderen ze alleen toegang tot de beheerfuncties voor deze service. Beheerders kunnen aangepaste rollen toewijzen aan gebruikers afzonderlijk of in combinatie met Azure AD-beheerdersrollen om Microsoft Managed Desktop-machtigingen toe te voegen aan bestaande beheerdersaccounts.
 
 Met de onderstaande rollen kunnen verschillende toegangsniveaus worden toegewezen:
 
