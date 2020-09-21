@@ -110,22 +110,30 @@
               items:
                 - name: Overzicht van geavanceerd opsporen
                   href: mtp/advanced-hunting-overview.md
-                - name: De querytaal leren
-                  href: mtp/advanced-hunting-query-language.md
-                - name: Deskundige training verkrijgen
-                  href: mtp/advanced-hunting-expert-training.md
-                - name: Aanbevolen procedures voor query's toepassen
-                  href: mtp/advanced-hunting-best-practices.md
+                - name: 'Voorbeeldinstructies, -oefeningen en -downloads'
+                  items:
+                    - name: De querytaal leren
+                      href: mtp/advanced-hunting-query-language.md
+                    - name: Deskundige training verkrijgen
+                      href: mtp/advanced-hunting-expert-training.md
+                    - name: Gedeelde query's gebruiken
+                      href: mtp/advanced-hunting-shared-queries.md
+                    - name: 'Opsporen op apparaten en in e-mailberichten, apps en identiteiten'
+                      href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Werken met queryresultaten
                   href: mtp/advanced-hunting-query-results.md
                 - name: Actie ondernem op queryresultaten
                   href: mtp/advanced-hunting-take-action.md
-                - name: Gedeelde query's gebruiken
-                  href: mtp/advanced-hunting-shared-queries.md
-                - name: 'Opsporen op apparaten en in e-mailberichten, apps en identiteiten'
-                  href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Beginnen met opsporen
                   href: mtp/advanced-hunting-go-hunt.md
+                - name: Optimalisatie- en verwerkingsfouten
+                  items:
+                    - name: Aanbevolen procedures voor query's toepassen
+                      href: mtp/advanced-hunting-best-practices.md
+                    - name: Verwerkingsfouten
+                      href: mtp/advanced-hunting-errors.md
+                    - name: Servicelimieten
+                      href: mtp/advanced-hunting-limits.md
                 - name: Gegevensdekking uitbreiden
                   href: mtp/advanced-hunting-extend-data.md
                 - name: Gegevensschema

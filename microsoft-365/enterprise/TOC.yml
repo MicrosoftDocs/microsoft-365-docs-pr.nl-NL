@@ -49,7 +49,7 @@
             - name: Microsoft 365-optimalisering voor gebruikers uit China
               href: microsoft-365-networking-china.md
             - name: Optimalisering van het Microsoft 365-verkeer voor externe werknemers met de native Windows 10 VPN-client
-              href: 'https://docs.microsoft.com/en-us/windows/security/identity-protection/vpn/vpn-office-365-optimization'
+              href: 'https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-office-365-optimization'
         - name: ExpressRoute voor Office 365
           href: azure-expressroute.md
           items:
@@ -271,6 +271,8 @@
       items:
         - name: Een domein toevoegen
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+        - name: Installatiehandleidingen
+          href: setup-guides-for-microsoft-365.md
     - name: Multi-geo
       items:
         - name: Microsoft 365 Multi-Geo
