@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e44411fdc14279dac92b8829503fd636e3225600
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: c4cb142e06835101eae94365ef2d36ea8287ca9b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608231"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195591"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft-beveiligings portals en beheer centra
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 Hoewel [Microsoft 365 Beveiligingscentrum](overview-security-center.md) de nieuwe woning is voor het bewaken en beheren van de beveiliging in uw identiteit, gegevens, apparaten en apps, hebt u toegang tot diverse portals voor bepaalde gespecialiseerde taken.
 
 > [!TIP] 

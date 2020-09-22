@@ -15,14 +15,17 @@ search.appverid:
 ms.assetid: 04a616e6-197c-490c-ae8c-c8d5f0f0b3dd
 description: Beheerders kunnen leren hoe u een virtuele certificaat verzameling maakt die wordt gebruikt om S/MIME-certificaten te valideren in Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16c6d38882a69feb46aa3e8fadccd6e005426304
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: aabd234f344778b2bfad34a7046bb51c55ed4b3d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825135"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197199"
 ---
 # <a name="set-up-virtual-certificate-collection-in-exchange-online-to-validate-smime"></a>Virtuele certificaat verzameling instellen in Exchange Online om S/MIME te valideren
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Als beheerder moet u een virtuele certificaat verzameling in Exchange Online configureren die wordt gebruikt om S/MIME-certificaten te valideren. Deze virtuele certificaat verzameling wordt ingesteld als een certificaatarchief met de bestandsextensie SST. Het bestand SST bevat alle hoofd-en tussenliggende certificaten die worden gebruikt voor het valideren van een S/MIME-certificaat.
 

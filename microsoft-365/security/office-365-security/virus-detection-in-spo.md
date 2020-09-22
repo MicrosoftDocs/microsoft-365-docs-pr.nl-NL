@@ -19,14 +19,17 @@ ms.collection:
 - M365-security-compliance
 description: In dit artikel leest u hoe u met SharePoint Online virussen kunt herkennen aan bestanden die gebruikers uploaden en voorkomen dat gebruikers de bestanden downloaden of synchroniseren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e58fa8dc8b30c5bc6ff5db1508d8b7f9189b73a
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 8c65db566f165939d72429bcd61b7d0a880814e0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653507"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196509"
 ---
 # <a name="virus-detection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Virus detectie in SharePoint Online, OneDrive en Microsoft teams
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Microsoft 365 kan u helpen uw omgeving te beschermen tegen malware door virussen te detecteren in bestanden die gebruikers uploaden naar SharePoint Online, OneDrive en Microsoft teams. Het kan zijn dat bestanden worden gecontroleerd op virussen nadat ze zijn geüpload. Als een bestand is geïnfecteerd met infectie, wordt er een eigenschap ingesteld, zodat gebruikers het bestand niet kunnen downloaden of synchroniseren.
 

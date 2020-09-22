@@ -15,14 +15,17 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over het gebruik van e-mail stroom regels (ook wel transport-regels genoemd) gebruiken om kopieën te ontvangen van berichten die gebruikers naar Microsoft melden.
-ms.openlocfilehash: 1612adeefff21fa9f149de6537917dd9b8c50b00
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 9798e808470a506da3d6dff65a5ea91934c1690d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827383"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195865"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Regels voor e-mailstromen gebruiken om te zien wat uw gebruikers melden bij Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken zijn er meerdere manieren waarop gebruikers berichten kunnen rapporteren aan Microsoft voor analyse zoals beschreven in [berichten en bestanden aan Microsoft rapporteren](report-junk-email-messages-to-microsoft.md).
 

@@ -18,14 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'De beste aanbevelingen van het Microsoft-Cyber Security team voor het implementeren van beveiligingsfuncties voor het beschermen van uw Microsoft 365-omgeving. '
-ms.openlocfilehash: 089e63ad9c83aac0bc5e88da8a24184eb8bdee6e
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 9bdddbbfbb20900a4645d2e17cf298ed018f4c6d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656955"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197427"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Beveiligingsschema-de belangrijkste punten voor de eerste 30 dagen, 90 dagen en langer
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Dit artikel bevat belangrijke aanbevelingen van het Microsoft-Cyber Security team voor de implementatie van beveiligingsfuncties om uw Microsoft 365-omgeving te beschermen. Dit artikel is aangepast via een Microsoft Ignite-sessie — [Beveilig Microsoft 365 zoals een Cyber Security Pro: belangrijkste prioriteiten voor de eerste 30 dagen, 90 dagen](https://www.youtube.com/watch?v=luignzNyR-o)en meer. Deze sessie is ontwikkeld en gepresenteerd door Mark Simos en Matt Kemelhar, Enterprise Cyber Security architecten.
 
@@ -77,7 +80,7 @@ Deze taken doen wat meer tijd voor het plannen en implementeren van uw beveiligi
 
 |Ziet|Taak|
 |---|---|
-|Beveiligingsbeheer|* Bekijk de beveiligde score voor aanbevolen acties voor uw omgeving ( [https://securescore.office.com](https://securescore.office.com) ).  <br/>  * Blijf dashboards en rapporten regelmatig controleren in het Microsoft 365-Beveiligingscentrum, de functies van de Cloud app en SIEM. <br/> * Zoek en implementeer software-updates. <br/> * Aanvals simulaties voor woord vermoeden, wachtwoord spuiten en aanval met brute kracht met [aanval Simulator](attack-simulator.md) (inbegrepen in [Office 365 Threat Intelligence](office-365-ti.md)).  <br/> * Ga naar risico voordelen door de ingebouwde rapporten in de Cloud-app-beveiliging te controleren (op het tabblad onderzoek). <br/> * Controleer de [compliantie Score](https://docs.microsoft.com/microsoft-365/compliance/compliance-score) om de status te controleren van de voorschriften die van toepassing zijn op uw organisatie (zoals AVG, NIST 800-171).|
+|Beveiligingsbeheer|* Bekijk de beveiligde score voor aanbevolen acties voor uw omgeving ( [https://securescore.office.com](https://securescore.office.com) ).  <br/>  * Blijf dashboards en rapporten regelmatig controleren in het Microsoft 365-Beveiligingscentrum, de functies van de Cloud app en SIEM. <br/> * Zoek en implementeer software-updates. <br/> * Aanvals simulaties voor woord vermoeden, wachtwoord spuiten en aanval met brute kracht met [aanval Simulator](attack-simulator.md) (inbegrepen in [Office 365 Threat Intelligence](office-365-ti.md)).  <br/> * Ga naar risico voordelen door de ingebouwde rapporten in de Cloud-app-beveiliging te controleren (op het tabblad onderzoek). <br/> * Controleer de [Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) om de status te controleren van de voorschriften die van toepassing zijn op uw organisatie (zoals AVG, NIST 800-171).|
 |Bedreigingsbeveiliging| Uitgebreide beveiliging voor beheerdersaccounts implementeren: <br/> * [Geprivilegieerde toegangs werkstations](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) (PAWs) configureren voor beheeractiviteiten. <br/> * Configureer [Azure AD-beheer met bevoegdheden](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure). <br/> * U kunt een SIEM-hulpprogramma (Security Information and Event Management) configureren om logboekregistratie gegevens te verzamelen uit Office 365, de beveiliging van Cloud apps en andere services, waaronder AD FS. Het auditlogboek bevat gegevens voor slechts 90 dagen. Door deze gegevens te vastleggen in het hulpmiddel SIEM kunt u gegevens bewaren voor een langere periode.|
 |Identiteits- en toegangsbeheer|* MFA in-en uitdwingen voor alle gebruikers. <br/> * Implementeer een set [voorwaardelijke toegang en gerelateerde beleidsregels](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations). |
 |Informatiebescherming| Beleidsregels voor informatiebescherming aanpassen en implementeren. Dit zijn voorbeelden van deze informatiebronnen: <br/> * [Office 365 Information Protection voor AVG](https://aka.ms/o365gdpr) <br/> * [Teams met drie niveaus van bescherming configureren](../../solutions/configure-teams-three-tiers-protection.md) <br/> <br> Gebruik beleidsregels voor preventie van gegevensverlies en controlefuncties in Microsoft 365 voor gegevens die zijn opgeslagen in Microsoft 365 (in plaats van de beveiliging van de Cloud app). <br><br>Gebruik Cloud app-beveiliging met Microsoft 365 voor geavanceerde waarschuwingsfuncties (buiten de preventie van gegevensverlies).|

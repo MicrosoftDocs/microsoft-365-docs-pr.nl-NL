@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten voor Office 365 Advanced Threat Protection zoeken en gebruiken in het beveiligings &amp; compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc68df40e6b7b576644be607697d7b1ed0a33660
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 90da02c8aa3d50f62bdf4be8c466962da828b23d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653531"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196583"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor Office 365 Advanced Threat Protection
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Office 365 Advanced Threat Protection (ATP)-organisaties (bijvoorbeeld Microsoft 365 E5-abonnementen of ATP abonnement 1 of ATP plan 2-uitbreidingen) bevatten diverse beveiligingsrapporten. Als u de [benodigde machtigingen](#what-permissions-are-needed-to-view-the-atp-reports)hebt, kunt u deze rapporten weergeven in het compliance-beveiligings & door **Reports** naar het \> **Dashboard**rapporten te gaan. Open om rechtstreeks naar het Dashboard rapporten te gaan <https://protection.office.com/insightdashboard> .
 
@@ -297,7 +300,7 @@ Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden bes
 
 Zie de volgende bronnen voor meer informatie:
 
-- [Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)
+- [Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)
 
 - [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 

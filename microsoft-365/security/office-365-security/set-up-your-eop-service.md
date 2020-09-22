@@ -14,14 +14,17 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Beheerders kunnen informatie lezen over het instellen van zelfstandige Exchange Online Protection (EOP) om on-premises e-mail omgevingen te beschermen.
-ms.openlocfilehash: e6ca3965dd82bf0e6ed7e361984758ab34e3eea0
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 53386b700c2a2832cf16d47da0678dfb91c5b6d7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307589"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197165"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Uw zelfstandige EOP-service instellen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u zelfstandige Exchange Online Protection (EOP) kunt instellen. Als u hier de wizard Office 365 domains hebt gezet, gaat u terug naar de wizard domeinen van Office 365 als u Exchange Online Protection niet wilt gebruiken. Zie [e-mail stroom configureren met connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)als u meer informatie zoekt over het configureren van connectors.
 

@@ -13,14 +13,17 @@ ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen de functie voor bericht tracering gebruiken in het beveiligings & nalevings centrum om erachter te komen wat er is gebeurd met berichten.
-ms.openlocfilehash: c6e1f8f9280c84ab6ff6a1572d902ed1d4d4caa3
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 1e9f5e21655e55f711997defcb7ace0319ff4be6
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827049"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197535"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Berichttracering in het Beveiligings- en compliancecentrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="message-trace-features"></a>Functies voor bericht tracering
 

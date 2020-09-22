@@ -16,14 +16,17 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer informatie krijgen over de velden met berichtkoppen die door Exchange Online Protection (EOP) worden toegevoegd aan berichten. Deze koptekstvelden bieden informatie over het bericht en hoe dit is verwerkt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5423ccf658843ab22f30dcef99fe0a0c34d512f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 71cefb4a26751b92dd8b5e5a308bbc18b1a5c221
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867185"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197499"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Berichtkoppen tegen ongewenste e-mail in Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In alle Microsoft 365-organisaties scant Exchange Online Protection (EOP) alle inkomende berichten op spam, malware en andere bedreigingen. De resultaten van deze scans worden toegevoegd aan de volgende koptekstvelden in berichten:
 

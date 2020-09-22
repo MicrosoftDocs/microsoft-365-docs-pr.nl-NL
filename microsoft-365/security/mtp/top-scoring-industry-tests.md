@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 40d0ffa779b0ab13a0bdd887b12d69c20892662d
-ms.sourcegitcommit: 37ce0658336bea7b27bf8d6aa759deadc97e7365
+ms.openlocfilehash: e518f91b264680e3d356b1e6158f4b9740ed52a2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399347"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196093"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Best scoren in bedrijfstak tests
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Technologieën voor [Microsoft Threat Protection](https://www.microsoft.com/security/business/threat-protection/integrated-threat-protection) leveren consequent hoge scores in onafhankelijke tests, waarbij de sterkte van de functies voor Enterprise Threat Protection wordt aangetoond. Microsoft streeft ernaar transparantie te hebben over deze testresultaten. Deze pagina bevat een overzicht van de resultaten en analyse.
 

@@ -1,7 +1,7 @@
 ---
-title: Apparaatprofiel in Microsoft 365-beveiligingsportal
-description: Bekijk risico- en belichtingsniveaus voor een apparaat in uw organisatie. Analyseer bedreigingen uit het verleden en heden en bescherm het apparaat met de nieuwste updates.
-keywords: beveiliging, malware, Microsoft 365, M365, Microsoft Threat Protection, MTP, security center, Microsoft Defender ATP, Office 365 ATP, Azure ATP, apparaatpagina, apparaatprofiel, machinepagina, machineprofiel
+title: Apparaatprofiel in Microsoft 365 Security Portal
+description: Risico's en belichtings niveaus voor een apparaat in uw organisatie weergeven. Analyseer oude en presenteer bedreigingen en Beveilig het apparaat met de nieuwste updates.
+keywords: beveiliging, malware, Microsoft 365, M365, Microsoft Threat Protection, MTP, Security Center, Microsoft Defender ATP, Office 365 ATP, Azure ATP, apparaatklasse, apparaat-profiel, computer pagina, computerprofiel
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -12,171 +12,174 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: db6109fb73f0e208ab4403e2469bc955a1a01b38
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: f6b79d3252084b298f94e01b18ebe3505f83b480
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516984"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196855"
 ---
-# <a name="device-profile-page"></a>Pagina apparaatprofiel
+# <a name="device-profile-page"></a>De pagina apparaat Profiel
 
-De Microsoft 365-beveiligingsportal biedt u apparaatprofielpagina's, zodat u snel de status en status van apparaten in uw netwerk beoordelen.
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
+Met de Microsoft 365-beveiligings Portal beschikt u over apparaatprofielen, zodat u snel de status en status van apparaten in uw netwerk kunt beoordelen.
 
 > [!IMPORTANT]
-> De pagina met apparaatprofielen kan er iets anders uitzien, afhankelijk van of het apparaat is ingeschreven in Microsoft Defender ATP, Azure ATP of beide.
+> De pagina apparaat-profiel kan enigszins afwijken, afhankelijk van of het apparaat is ingeschreven in Microsoft Defender ATP, Azure ATP of beide.
 
-Als het apparaat is ingeschreven bij Microsoft Defender ATP, u de pagina met apparaatprofielen ook gebruiken om enkele veelvoorkomende beveiligingstaken uit te voeren.
+Als het apparaat is ingeschreven in Microsoft Defender ATP, kunt u ook de profielpagina van het apparaat gebruiken om enkele veelvoorkomende beveiligingstaken uit te voeren.
 
-## <a name="navigating-the-device-profile-page"></a>Navigeren op de pagina apparaatprofiel
+## <a name="navigating-the-device-profile-page"></a>Navigeren in de profielpagina van het apparaat
 
-De profielpagina is opgesplitst in verschillende brede secties.
+De profielpagina is opgesplitst in diverse grote secties.
 
-![Afbeelding van de pagina apparaatprofiel met (1) Tabgebied (2) Zijbalk en (3) Acties gemarkeerd in het rood](../../media/mtp-device-profile/hybrid-device-overall.png)
+![Afbeelding van de pagina met het apparaatprofiel met (1) tabblad gebied (2) zijbalk en (3) gemarkeerde acties in rood](../../media/mtp-device-profile/hybrid-device-overall.png)
 
-De zijbalk (1) bevat basisgegevens over het apparaat.
+De zijbalk (1) geeft een overzicht van de algemene Details van het apparaat.
 
-Het hoofdinhoudsgebied (2) bevat tabbladen die u inschakelen om verschillende soorten informatie over het apparaat weer te geven.
+Het gebied met de hoofdinhoud (2) bevat tabbladen waarmee u kunt schakelen om verschillende soorten informatie over het apparaat weer te geven.
 
-Als het apparaat is ingeschreven bij Microsoft Defender ATP, ziet u ook een lijst met reactieacties (3). Met responsacties u veelvoorkomende beveiligingstaken uitvoeren.
+Als het apparaat is ingeschreven in Microsoft Defender ATP, ziet u ook een lijst met antwoord acties (3). Met antwoord acties kunt u veelvoorkomende taken uitvoeren met betrekking tot beveiliging.
 
-## <a name="sidebar"></a>Zijbalk
+## <a name="sidebar"></a>Protection
 
-Naast het hoofdinhoudsgebied van de profielpagina van het apparaat bevindt zich de zijbalk.
+Naast het gebied met de hoofdinhoud van de profielpagina van het apparaat is de zijbalk.
 
 ![Afbeelding van het tabblad zijbalk voor apparaatprofiel](../../media/mtp-device-profile/azure-atp-only-device-sidebar.png)
 
-De zijbalk geeft een lijst van de volledige naam en het belichtingsniveau van het apparaat. Het biedt ook een aantal belangrijke basisinformatie in kleine onderafdelingen die kunnen worden geschakeld open of gesloten, zoals:
+De zijbalk bevat de volledige naam en het belichtings niveau van het apparaat. Het biedt ook enkele belangrijke basisinformatie in kleine subsecties die kunnen worden geopend of gesloten.
 
-* **Tags** : microsoft defender ATP, Azure ATP of aangepaste tags die aan het apparaat zijn gekoppeld, zijn gekoppeld. Tags van Azure ATP zijn niet bewerkbaar.
-* **Beveiligingsinformatie** - Open incidenten en actieve waarschuwingen. Apparaten die zijn ingeschreven bij Microsoft Defender ATP, geven ook het blootstellingsniveau en het risiconiveau weer.
+* **Tags** : Microsoft Defender ATP, Azure ATP of aangepaste labels die zijn gekoppeld aan het apparaat. Tags van Azure ATP kunnen niet worden bewerkt.
+* **Beveiligingsgegevens** -open incidenten en actieve meldingen. Op apparaten die zijn geregistreerd in Microsoft Defender ATP worden ook belichtings niveau en risiconiveau weergegeven.
 
 > [!TIP]
-> Het blootstellingsniveau heeft betrekking op de mate van naleving van beveiligingsaanbevelingen, terwijl het risiconiveau wordt berekend op basis van een aantal factoren, waaronder de typen en de ernst van actieve waarschuwingen.
+> Belichtings niveau is afhankelijk van het aantal beveiligingsaanbevelingen, waarbij risiconiveau wordt berekend op basis van een aantal factoren, waaronder de typen en de ernst van actieve waarschuwingen.
 
-* **Apparaatgegevens** - Domein, BE, tijdstempel voor wanneer het apparaat voor het eerst werd gezien, IP-adressen, bronnen. Apparaten die zijn ingeschreven bij Microsoft Defender ATP, geven ook de status weer. Apparaten die zijn ingeschreven in Azure ATP geven de NAAM SAM en een tijdstempel weer voor wanneer het apparaat voor het eerst is gemaakt.
-* **Netwerkactiviteit** - Tijdstempels voor de eerste en laatste keer dat het apparaat op het netwerk werd gezien.
-* **Directorygegevens** (*alleen voor apparaten die zijn ingeschreven in Azure ATP*) - [UAC-vlaggen,](https://docs.microsoft.com/windows/security/identity-protection/user-account-control/user-account-control-overview) [SPN's](https://docs.microsoft.com/windows/win32/ad/service-principal-names)en groepslidmaatschappen.
+* **Apparaatgegevens** : domein, besturingssysteem, tijdstempel van wanneer het apparaat voor het eerst werd gezien, IP-adressen, bronnen. Op apparaten die zijn geregistreerd in Microsoft Defender ATP wordt ook de status status weergegeven. In azure ATP ingeschreven apparaten wordt de naam van de SAM weergegeven en wordt een tijdstempel weergegeven voor wanneer het apparaat voor het eerst is gemaakt.
+* **Netwerkactiviteit** : tijdstempels voor de eerste keer en de laatste keer dat het apparaat is gedetecteerd op het netwerk.
+* **Active Directory** [-vlaggen,](https://docs.microsoft.com/windows/security/identity-protection/user-account-control/user-account-control-overview) [spn's](https://docs.microsoft.com/windows/win32/ad/service-principal-names)en groepslidmaatschappen (*alleen voor apparaten die zijn geregistreerd in azure ATP*).
 
-## <a name="response-actions"></a>Responsacties
+## <a name="response-actions"></a>Antwoord acties
 
-Responsacties bieden een snelle manier om bedreigingen te verdedigen en te analyseren.
+Antwoord acties bieden een snelle manier om bedreigingen te verdedigen en analyseren.
 
-![Afbeelding van actiebalk voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-long-action-bar.png)
+![Afbeelding van actiebalk voor Profiel van apparaat](../../media/mtp-device-profile/hybrid-device-long-action-bar.png)
 
 > [!IMPORTANT]
-> * [Reactieacties](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts) zijn alleen beschikbaar als het apparaat is ingeschreven bij Microsoft Defender ATP.
-> * Apparaten die zijn ingeschreven bij Microsoft Defender ATP kunnen verschillende aantal responsacties weergeven op basis van het besturingssysteem en het versienummer van het apparaat.
+> * [Antwoord acties](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts) zijn alleen beschikbaar als het apparaat is ingeschreven in Microsoft Defender ATP.
+> * Apparaten die zijn ingeschreven in Microsoft Defender ATP, kunnen verschillende nummers van antwoord acties weergeven, op basis van het OS en het versienummer van het apparaat.
 
-Acties die beschikbaar zijn op de pagina met apparaatprofielen zijn onder andere:
+Dit zijn de beschikbare acties op de profielpagina van het apparaat:
 
-* **Tags beheren** - Werkt aangepaste tags bij die u op dit apparaat hebt toegepast.
-* **Apparaat isoleren** - Isoleer het apparaat uit het netwerk van uw organisatie en houdt het verbonden met Microsoft Defender Advanced Threat Protection. U ervoor kiezen om Outlook, Teams en Skype voor Bedrijven uit te laten werken terwijl het apparaat geïsoleerd is, voor communicatiedoeleinden.
-* **Actiecentrum** - Bekijk de status van ingediende acties. Alleen beschikbaar als er al een andere actie is geselecteerd.
-* **App-uitvoering beperken** : hiermee voorkomt u dat toepassingen die niet door Microsoft zijn ondertekend, worden uitgevoerd.
-* **Antivirusscan uitvoeren** - Werkt Windows Defender Antivirus-definities bij en voert onmiddellijk een antivirusscan uit. Kies tussen Quick scan of Volledige scan.
-* **Onderzoekspakket verzamelen** - Verzamelt informatie over het apparaat. Wanneer het onderzoek is voltooid, u het downloaden.
-* **Live Response Session starten** - Laadt een externe shell op het apparaat voor [diepgaande beveiligingsonderzoeken.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response)
-* **Start geautomatiseerd onderzoek** - [onderzoekt en verherstelt automatisch bedreigingen.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) Hoewel u handmatig geautomatiseerde onderzoeken activeren om vanaf deze pagina uit te voeren, leiden [bepaalde waarschuwingsbeleidsregels](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?view=o365-worldwide#default-alert-policies) zelf tot automatische onderzoeken.
-* **Actiecentrum** : geeft informatie weer over eventuele reactieacties die momenteel worden uitgevoerd.
+* **Tags beheren** : Hiermee worden aangepaste tags bijgewerkt die u hebt toegepast op dit apparaat.
+* **Isoleer apparaat** : isoleert het apparaat in het netwerk van uw organisatie en houdt het verbonden met Microsoft Defender Advanced Threat Protection. U kunt ervoor kiezen Outlook, teams en Skype voor bedrijven uit te voeren wanneer het apparaat is geïsoleerd voor communicatiedoeleinden.
+* **Onderhoudscentrum** : de status van ingediende acties weergeven. Alleen beschikbaar als er nog een actie is geselecteerd.
+* **App-uitvoering beperken** : verhindert toepassingen die niet door Microsoft worden uitgevoerd.
+* **Voer antivirus scan uit** : updates voor Windows Defender antivirus en direct een antivirus scan uitvoeren. Kies tussen snelle scan of volledige scan.
+* **Onderzoek pakket verzamelen** : informatie over het apparaat verzamelen. Wanneer het onderzoek is voltooid, kunt u het downloaden.
+* **Live antwoordsessie starten** : Laad een externe shell op het apparaat voor [uitgebreid beveiligings onderzoek](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response).
+* Automatisch **onderzoek initiëren** : Hiermee wordt de [bedreiging automatisch onderzocht en hersteld](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air). Hoewel u automatisch controles handmatig moet uitvoeren op deze pagina, activeren [bepaalde waarschuwings beleidsregels](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?view=o365-worldwide#default-alert-policies) zichzelf automatisch onderzoek.
+* **Onderhoudscentrum** : Hier vindt u informatie over eventuele antwoord acties die op dat moment actief zijn.
 
-## <a name="tabs-section"></a>Sectie Tabbladen
+## <a name="tabs-section"></a>Sectietabbladen
 
-Met de tabbladen apparaatprofiel u schakelen via een overzicht van beveiligingsgegevens over het apparaat en tabellen met een lijst met waarschuwingen.
+Op de tabbladen apparaat-profiel kunt u een overzicht van beveiligings Details over het apparaat en de tabellen met een lijst met waarschuwingen wisselen.
 
-Apparaten die zijn ingeschreven bij Microsoft Defender ATP geven ook tabbladen weer met een tijdlijn, een lijst met beveiligingsaanbevelingen, een software-inventaris, een lijst met ontdekte kwetsbaarheden en ontbrekende GB's (beveiligingsupdates).
+Op apparaten die zijn ingeschreven in Microsoft Defender ATP worden ook tabbladen weergegeven die een tijdlijn betreffen, een lijst met beveiligingsaanbevelingen, een inventarisatie van de software, een lijst met ontdekte beveiligingslekken en ontbrekende KBs (beveiligingsupdates).
 
 ### <a name="overview-tab"></a>Tabblad Overzicht
 
-Het standaardtabblad is **Overzicht**. Het biedt een snelle blik op het belangrijkste beveiligingsfeit over het apparaat.
+Het standaardtabblad is **overzicht**. Dit biedt een kort overzicht van het belangrijkste beveiligings feit van het apparaat.
 
 ![Afbeelding van het tabblad Overzicht voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-overview.png)
 
-Hier u de actieve waarschuwingen van het apparaat en alle momenteel aangemelde gebruikers snel bekijken.
+Hier ziet u een beknopt overzicht van de actieve waarschuwingen van het apparaat en van gebruikers die momenteel zijn aangemeld.
 
-Als het apparaat is ingeschreven bij Microsoft Defender ATP, ziet u ook het risiconiveau van het apparaat en alle beschikbare gegevens over beveiligingsbeoordelingen. De beveiligingsbeoordelingen beschrijven het blootstellingsniveau van het apparaat, bieden beveiligingsaanbevelingen en vermelden getroffen software en ontdekte kwetsbaarheden.
+Als het apparaat is ingeschreven in Microsoft Defender ATP, wordt ook het risiconiveau van het apparaat en de beschikbare gegevens van beveiligings beoordelingen weergegeven. Met de beveiligings beoordelingen wordt het belichtings niveau van het apparaat beschreven, aanbevelingen van beveiligingsaanbevelingen en betroffen software en ontdekte beveiligingslekken.
 
-### <a name="alerts-tab"></a>Tabblad Waarschuwingen
+### <a name="alerts-tab"></a>Tabblad waarschuwingen
 
-Het tabblad **Waarschuwingen** bevat een lijst met waarschuwingen die op het apparaat zijn opgehaald, van zowel Azure ATP als Microsoft Defender ATP.
+Het tabblad **waarschuwingen** bevat een lijst met waarschuwingen die op het apparaat zijn geactiveerd, in zowel Azure ATP als Microsoft Defender ATP.
 
-![Afbeelding van het tabblad Waarschuwingen voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-alerts.png)
+![Afbeelding van tabblad Waarschuwingen voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-alerts.png)
 
-U het aantal weergegeven items aanpassen en welke kolommen voor elk item worden weergegeven. Het standaardgedrag is om dertig items per pagina weer te geven.
+U kunt het aantal weer te geven items aanpassen, evenals de kolommen die worden weergegeven voor elk item. Het standaardgedrag is een lijst van dertig items per pagina.
 
-De kolommen op dit tabblad bevatten informatie over de ernst van de bedreiging die de waarschuwing heeft geactiveerd, evenals de status, de onderzoeksstatus en aan wie de waarschuwing is toegewezen.
+De kolommen op dit tabblad bevatten informatie over de ernst van de bedreiging waarmee de waarschuwing werd geactiveerd, evenals de status, het onderzoek en de persoon aan wie de waarschuwing is toegewezen.
 
-De *kolom van de getroffen entiteiten* verwijst naar het apparaat (entiteit) waarvan u momenteel het profiel bekijkt, plus alle andere apparaten in uw netwerk die worden beïnvloed.
+De kolom *beïnvloede entiteiten* verwijst naar het apparaat (de entiteit) waarvan u momenteel kijkt, plus andere apparaten in het netwerk waarop dit van invloed is.
 
-Als u een item uit deze lijst selecteert, wordt een flyout geopend met nog meer informatie over de geselecteerde waarschuwing.
+Wanneer u een item in deze lijst selecteert, wordt er een flyout met nog meer informatie over de geselecteerde waarschuwing geopend.
 
-Deze lijst kan worden gefilterd op ernst, status of aan wie de waarschuwing is toegewezen.
+U kunt deze lijst filteren op Ernst, status of de persoon aan wie de waarschuwing is toegewezen.
 
-### <a name="timeline-tab"></a>Tabblad Tijdlijn
+### <a name="timeline-tab"></a>Het tabblad tijdlijn
 
-Het tabblad **Tijdlijn** bevat een interactieve, chronologische grafiek van alle gebeurtenissen die op het apparaat worden weergegeven. Door het gemarkeerde gebied van de grafiek naar links of rechts te verplaatsen, u gebeurtenissen over verschillende perioden bekijken. U ook een aangepast bereik van datums kiezen in het vervolgkeuzemenu tussen de interactieve grafiek en de lijst met gebeurtenissen.
+Het tabblad **tijdlijn** bevat een interactieve, chronologische grafiek van alle gebeurtenissen die op het apparaat zijn geactiveerd. Als u het gemarkeerde gebied van de grafiek naar links of naar rechts verplaatst, kunt u gebeurtenissen over verschillende tijdsperioden weergeven. U kunt ook een aangepast datumbereik kiezen in de vervolgkeuzelijst tussen de interactieve grafiek en de lijst met gebeurtenissen.
 
-Onder de grafiek vindt u een lijst met gebeurtenissen voor het geselecteerde bereik van datums.
+Onder de grafiek bevindt zich een lijst met gebeurtenissen voor het geselecteerde datumbereik.
 
 ![Afbeelding van het tabblad tijdlijn voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-timeline.png)
 
-Het aantal weergegeven items en de kolommen in de lijst kunnen beide worden aangepast. De standaardkolommen bevatten de gebeurtenistijd, actieve gebruiker, actietype, entiteiten (processen) en aanvullende informatie over de gebeurtenis.
+Het aantal weergegeven items en de kolommen in de lijst kunnen beide worden aangepast. De lijst standaardkolommen de gebeurtenistijd, actieve gebruiker, actietype, entiteiten (processen) en aanvullende informatie over de gebeurtenis.
 
-Als u een item uit deze lijst selecteert, wordt een flyout geopend met een grafiek voor gebeurtenisentiteiten, met de bovenliggende en onderliggende processen die bij de gebeurtenis betrokken zijn.
+Wanneer u een item in deze lijst selecteert, wordt er een flyout geopend met de grafiek gebeurtenis entiteiten, met daarin de bovenliggende en onderliggende processen van de gebeurtenis.
 
-De lijst kan worden gefilterd op het specifieke soort gebeurtenis; bijvoorbeeld Registergebeurtenissen of Smart Screen-gebeurtenissen.
+De lijst kan worden gefilterd op het specifieke type gebeurtenis; bijvoorbeeld register gebeurtenissen of slim schermgebeurtenissen.
 
-De lijst kan ook worden geëxporteerd naar een CSV-bestand, om te downloaden. Hoewel het bestand niet wordt beperkt door het aantal gebeurtenissen, is het maximale tijdsbereik dat u exporteren zeven dagen.
+U kunt de lijst ook exporteren naar een CSV-bestand als u het bestand wilt downloaden. Hoewel het bestand niet beperkt is van een aantal gebeurtenissen, kunt u kiezen uit zeven dagen wanneer u wilt exporteren.
 
-### <a name="security-recommendations-tab"></a>Tabblad Beveiligingsaanbevelingen
+### <a name="security-recommendations-tab"></a>Tabblad beveiligingsaanbevelingen
 
-Op het tabblad **Beveiligingsaanbevelingen** staan acties die u uitvoeren om het apparaat te beschermen. Als u een item in deze lijst selecteert, opent u een flyout waar u instructies krijgen over het toepassen van de aanbeveling.
+Het tabblad **beveiligingsaanbevelingen** bevat een lijst met acties die u kunt uitvoeren om het apparaat te beschermen. Wanneer u een item in deze lijst selecteert, wordt een flyout geopend waarin u instructies kunt krijgen voor het toepassen van de aanbeveling.
 
-![Afbeelding van het tabblad Beveiligingsaanbevelingen voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-security-recs.png)
+![Afbeelding van het tabblad beveiligingsaanbevelingen voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-security-recs.png)
 
-Net als bij de vorige tabbladen kan het aantal items dat per pagina wordt weergegeven en welke kolommen zichtbaar zijn, worden aangepast.
+Net als met de vorige tabbladen, het aantal weergegeven items per pagina en de kolommen die zichtbaar zijn, kunnen worden aangepast.
 
-De standaardweergave bevat kolommen waarin de beveiligingszwakke punten worden beschreven die zijn verholpen, de bijbehorende bedreiging, de bijbehorende component of software die door de bedreiging wordt beïnvloed, en meer. Items kunnen worden gefilterd op de status van de aanbeveling.
+De standaardweergave bevat kolommen die de beantwoorde zwakke punten, de bijbehorende bedreiging, de bijbehorende component of software beïnvloedt door de bedreiging, en nog veel meer. Items kunnen worden gefilterd op de status van de aanbeveling.
 
-### <a name="software-inventory"></a>Software-inventaris
+### <a name="software-inventory"></a>Software-inventarisatie
 
-Op het tabblad **Softwareinventaris** vindt u software die op het apparaat is geïnstalleerd.
+Het tabblad **software-inventaris** bevat een overzicht van de software die op het apparaat is geïnstalleerd.
 
-![Afbeelding van het tabblad softwareinventaris voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-software-inventory.png)
+![Afbeelding van het tabblad software-inventarisatie voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-software-inventory.png)
 
-De standaardweergave toont de softwareleverancier, het geïnstalleerde versienummer, het aantal bekende softwarezwakke punten, bedreigingsinzichten, productcode en tags. Het aantal weergegeven items en welke kolommen worden weergegeven, kan beide worden aangepast.
+In de standaardweergave wordt de softwareleverancier, het geïnstalleerde versienummer, het aantal bekende software-zwakke punten, bedreigings inzichten, productcode en tags weergegeven. Het aantal weer te geven items en welke kolommen worden weergegeven, kunnen beide worden aangepast.
 
-Als u een item uit deze lijst selecteert, wordt een flyout geopend met meer details over de geselecteerde software, evenals het pad en de tijdstempel voor de laatste keer dat de software is gevonden.
+Wanneer u een item uit deze lijst selecteert, wordt een flyout geopend met meer informatie over de geselecteerde software, en het pad en de tijdstempel voor de laatste keer dat de software is gevonden.
 
 Deze lijst kan worden gefilterd op productcode.
 
-### <a name="discovered-vulnerabilities-tab"></a>Tabblad Ontdekte kwetsbaarheden
+### <a name="discovered-vulnerabilities-tab"></a>Tabblad ontdekte zwakke plekken
 
-Op het tabblad **Ontdekte kwetsbaarheden** worden alle algemene kwetsbaarheden en exploits (CvEs) weergegeven die van invloed kunnen zijn op het apparaat.
+Het tabblad **ontdekte beveiligingslekken** bevat veelvoorkomende problemen met CVEs die van invloed kunnen zijn op het apparaat.
 
-![Afbeelding van het tabblad ontdekte kwetsbaarheden voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-discovered-vulnerabilities.png)
+![Afbeelding van het tabblad ontdekte zwakke plekken voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-discovered-vulnerabilities.png)
 
-De standaardweergave geeft een overzicht van de ernst van de CVE, de Common Vulnerability Score (CVS), de software met betrekking tot de CVE, toen de CVE werd gepubliceerd, toen de CVE voor het laatst werd bijgewerkt, en bedreigingen in verband met de CVE.
+De standaardweergave toont de ernst van de CVE, de gang van de gangbare punten van het beveiligingslek (CVS), de software die is gerelateerd aan de CVE, wanneer de CVE werd gepubliceerd, wanneer de CVE voor het laatst is bijgewerkt en de Risico's die zijn gekoppeld aan de CVE.
 
-Net als bij de vorige tabbladen kan het aantal weergegeven items en welke kolommen zichtbaar zijn, worden aangepast.
+Net als met de vorige tabbladen, zijn het aantal weer te geven items en welke kolommen zichtbaar zijn, kunnen worden aangepast.
 
-Als u een item uit deze lijst selecteert, wordt een flyout geopend waarin de CVE wordt beschreven.
+Wanneer u een item in deze lijst selecteert, wordt een flyout geopend met de beschrijving van de CVE.
 
 ### <a name="missing-kbs"></a>Ontbrekende KBs
 
-Op het tabblad **Ontbrekende KBs** worden alle Microsoft-updates weergegeven die nog niet op het apparaat moeten worden toegepast. De "KBs" in kwestie zijn [Knowledge Base artikelen](https://support.microsoft.com/help/242450/how-to-query-the-microsoft-knowledge-base-by-using-keywords-and-query) die deze updates beschrijven; [KB4551762](https://support.microsoft.com/help/4551762/windows-10-update-kb4551762).
+Het **ontbrekende tabblad KBs** bevat een lijst met alle Microsoft-updates die nog op het apparaat moeten worden toegepast. De vraag ' KBs ' in het [Knowledge Base-artikel bevat Knowledge Base-artikelen](https://support.microsoft.com/help/242450/how-to-query-the-microsoft-knowledge-base-by-using-keywords-and-query) die deze updates beschrijven. bijvoorbeeld [KB4551762](https://support.microsoft.com/help/4551762/windows-10-update-kb4551762).
 
-![Afbeelding van ontbrekend kbs-tabblad voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-missing-kbs.PNG)
+![Afbeelding van ontbrekend tabblad KBS voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-missing-kbs.PNG)
 
-In de standaardweergave wordt het bulletin weergegeven met de updates, de os-versie, de betrokken producten, aco's, het KB-nummer en de tags.
+De standaardweergave bevat het bulletin dat de updates, de versie van het besturingssysteem, de desbetreffende producten bevat, CVEs verholpen, het KB-nummer en de tags.
 
-Het aantal items dat per pagina wordt weergegeven en welke kolommen worden weergegeven, kan worden aangepast.
+Het aantal weergegeven items per pagina en welke kolommen worden weergegeven, kunnen worden aangepast.
 
-Als u een item selecteert, wordt een flyout geopend die naar de update verwijst.
+Wanneer u een item selecteert, wordt een flyout geopend dat is gekoppeld aan de update.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 * [Overzicht van Microsoft Threat Protection](microsoft-threat-protection.md)
-* [Microsoft-bedreigingsbeveiliging inschakelen](mtp-enable.md)
-* [Entiteiten op apparaten onderzoeken met live respons](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response)
-* [Geautomatiseerd onderzoek en antwoord (AIR) in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
+* [Microsoft Threat Protection inschakelen](mtp-enable.md)
+* [Entiteiten op apparaten onderzoeken met Live antwoord](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response)
+* [Geautomatiseerd onderzoek en antwoord (lucht) in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)

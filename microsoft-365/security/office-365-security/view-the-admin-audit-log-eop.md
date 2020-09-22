@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Beheerders kunnen leren hoe u het auditlogboek van de beheerder kunt weergeven en doorzoeken op zelfstandige Exchange Online Protection (EOP).
-ms.openlocfilehash: 8890ab8f2f2db01ed6bd22657a9bea8f77b25d08
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 9fe2c742083cde1ca36f6a04cd357a473a10aeac
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825075"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196541"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>Het auditlogboek van de beheerder bekijken in standalone EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, kunt u de PowerShell-of zelfstandige EOP PowerShell gebruiken om vermeldingen te zoeken en te bekijken in het controlelogboek van de beheerder.
 
@@ -140,7 +143,7 @@ Elke vermelding in het auditlogboek bevat de informatie die in de volgende tabel
 
 ****
 
-|Vult|Beschrijving|
+|Veld|Beschrijving|
 |---|---|
 |`RunspaceId`|Dit veld wordt intern gebruikt door EOP.|
 |`ObjectModified`|Dit veld bevat het object dat door de cmdlet die is opgegeven in het `CmdletName` veld is gewijzigd.|
