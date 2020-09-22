@@ -18,20 +18,20 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over hoe EOP e-mailverificatie (SPF, DKIM en DMARC) gebruikt om adresvervalsing, phishing en spam te helpen voorkomen.
-ms.openlocfilehash: 0f4eb15df218050f7e582b1cc727522c04da594b
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 1e4ad82dd1c57e089b36e39afde346c47043c546
+ms.sourcegitcommit: eb905c5b4d7e71fc930a207357295b0160c4f065
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949866"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48137045"
 ---
 # <a name="email-authentication-in-eop"></a>E-mailverificatie in EOP
 
 E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In alle Microsoft 365-organisaties maakt EOP gebruik van deze standaarden om binnenkomende e-mail te verifiëren:
 
-- [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
+- [SPF](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing?view=o365-worldwide)
 
-- [DKIM](support-for-validation-of-dkim-signed-messages.md)
+- [DKIM](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide)
 
 - [DMARC](use-dmarc-to-validate-email.md)
 
@@ -204,4 +204,12 @@ Als u de e-mail van een domein host of een hosting-infrastructuur biedt die e-ma
 
 Bezorging aan Microsoft is niet gegarandeerd, zelfs niet als u e-mail verifieert die afkomstig is van uw platform, maar het zorgt er in ieder geval voor dat Microsoft uw e-mail niet als spam markeert, omdat deze niet is geverifieerd.
 
+## <a name="related-links"></a>Verwante koppelingen
+
 Zie voor meer informatie over aanbevolen procedures voor serviceproviders [M3AAWG aanbevolen procedures voor mobiele berichten voor serviceproviders](https://www.m3aawg.org/sites/default/files/m3aawg-mobile-messaging-best-practices-service-providers-2015-08_0.pdf).
+
+Meer informatie over de manier waarop Office 365 SPF gebruikt en DKIM-validatie ondersteunt:
+
+- [Meer informatie over SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
+
+- [Meer informatie over DKIM](support-for-validation-of-dkim-signed-messages.md)

@@ -21,19 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
-description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: d80207ac264cb1b649f631d358c86809c2992a8e
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. Zo kan de servicebeheerder bijvoorbeeld supporttickets openen via het Beheercentrum.
+ms.openlocfilehash: 35fee24a2e9de6c00f37e93c59851b7e760baa19
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361771"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131780"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
 Uw abonnement op Microsoft 365 of Office 365 wordt geleverd met een set beheerdersrollen die u kunt toewijzen aan gebruikers in uw organisatie via het Microsoft 365-beheercentrum. Elke beheerdersrol wordt toegewezen aan algemene bedrijfsfuncties en machtigt personen in uw organisatie om specifieke taken uit te voeren in de beheercentra.
 
 In het Microsoft 365-beheercentrum kunt u Azure AD- en Microsoft Intune-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in de Azure-Portal en het Intune-beheercentrum.
+
+## <a name="before-you-begin"></a>Voordat u begint
 
 Zoekt u een volledige lijst met uitgebreide beschrijvingen van Azure AD-rollen die u kunt beheren in het Microsoft 365-Beheercentrum? Bekijk de machtigingen voor de beheerdersrol in Azure Active Directory. [Machtigingen voor de beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
