@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: f0dcb1fac17a39d1125f9188028d714962c9797d
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: e1748cf25fd36787727b0f00f6ddf6553bd454ab
+ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948206"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48104445"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
@@ -58,9 +58,8 @@ Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
 
 ::: moniker-end
 
-   
-2. Selecteer **Een rapport selecteren** bovenaan het dashboard om een selectie te maken uit een lijst met alle beschikbare rapporten. Of selecteer een activiteitenwidget voor een service (zoals e-mail, OneDrive) voor meer informatie. <br/>![Het gebruiksdashboard](../../media/usage-report-dashboard.png)
-  
+2. Klik op de knop **Meer weergeven** in de activiteitenkaart voor een service (zoals e-mail of OneDrive) om de detailpagina van het rapport weer te geven. Er zijn verschillende rapporten voor de service beschikbaar op tabbladen. <br/>![Het gebruiksdashboard](../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png) 
+
 ## <a name="who-can-see-reports"></a>Wie kan rapporten zien?
 
 Personen met de volgende machtigingen:
@@ -147,7 +146,7 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 
 ::: moniker range="o365-worldwide"
 
-- [Microsoft Teams-gebruikersactiviteit voor ministerie van Defensie en Government Community Cloud](microsoft-teams-user-activity.md)
+- [Gebruikersactiviteit in Microsoft Teams voor de Amerikaanse overheid](microsoft-teams-user-activity.md)
 
 ::: moniker-end
 
@@ -159,7 +158,7 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 
 ::: moniker range="o365-worldwide"
 
-- [Microsoft Teams-apparaatgebruik voor ministerie van Defensie en Government Community Cloud](microsoft-teams-device-usage.md)
+- [Apparaatgebruik in Microsoft Teams voor de Amerikaanse overheid](microsoft-teams-device-usage.md)
 
 ::: moniker-end
 

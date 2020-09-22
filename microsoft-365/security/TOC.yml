@@ -70,10 +70,24 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Een testwaarschuwing genereren
               href: mtp/generate-test-alert.md
+        - name: Een testfase in productie uitvoeren
+          items:
+            - name: Overzicht van testfase
+              href: mtp/mtp-pilot.md
+            - name: Plannen
+              href: mtp/mtp-pilot-plan.md
+            - name: Voorbereiden
+              href: mtp/prepare-mtpeval.md
+            - name: Een aanval simuleren
+              href: mtp/mtp-pilot-simulate.md
+            - name: Sluiten en samenvatten
+              href: mtp/mtp-pilot-close.md
         - name: Handleidingen
           items:
             - name: Een testlab- of testfaseomgeving maken
               href: mtp/mtp-evaluation.md
+            - name: Een testfase-playbook uitvoeren
+              href: mtp/mtp-pilot.md
             - name: Ondersteunde services implementeren
               href: mtp/deploy-supported-services.md
             - name: Microsoft Threat Protection inschakelen
@@ -94,16 +108,18 @@
                       href: mtp/manage-incidents.md
             - name: Geautomatiseerd onderzoek en reactie
               items:
-                - name: AIR-overzicht
+                - name: Overzicht van geautomatiseerd onderzoek en reactie
                   href: mtp/mtp-autoir.md
-                - name: Herstelacties
+                - name: Functies voor geautomatiseerd onderzoek en reactie configureren
+                  href: mtp/mtp-configure-auto-investigation-response.md
+                - name: Herstelacties na geautomatiseerd onderzoek
                   href: mtp/mtp-remediation-actions.md
-                - name: Het Actiecentrum
+                - name: Naar het Actiecentrum
                   href: mtp/mtp-action-center.md
-                - name: Geautomatiseerde onderzoeksgegevens en -resultaten weergeven
-                  href: mtp/mtp-autoir-results.md
-                - name: Acties in behandeling goedkeuren of afwijzen
+                - name: Herstelacties in behandeling goedkeuren of afwijzen
                   href: mtp/mtp-autoir-actions.md
+                - name: Gegevens en resultaten van een geautomatiseerd onderzoek weergeven
+                  href: mtp/mtp-autoir-results.md
                 - name: Fout-positieven/-negatieven melden
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Geavanceerd opsporen
@@ -214,8 +230,6 @@
                   href: mtp/monitor-devices.md
                 - name: App-controle en -rapportage
                   href: mtp/monitor-apps.md
-            - name: API‘s
-              items: null
         - name: Verwijzing
           items:
             - name: Machtigingen en instellingen

@@ -19,15 +19,15 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Lees hoe u uw organisatie beter kunt beveiligen tegen wachtwoordaanvallen en waarom u veelgebruikte wachtwoorden moet verbieden en op risico gebaseerde meervoudige verificatie moet inschakelen.
-ms.openlocfilehash: 1d6e399acb83751ec6a45eb0c811dedec394127e
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 0ae26dc27cc698c24d999acde03f63f9cfead081
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015921"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48131940"
 ---
 # <a name="password-policy-recommendations"></a>Aanbevelingen voor wachtwoordbeleid
- 
+
 Als beheerder van een organisatie bent u verantwoordelijk voor het instellen van wachtwoordbeleid voor gebruikers in uw organisatie. Aangezien dit ingewikkeld en verwarrend kan zijn, biedt dit artikel aanbevelingen om uw organisatie beter te beschermen tegen wachtwoordaanvallen.
   
 Zie [Een wachtwoordverloopbeleid instellen voor Microsoft 365](../manage/set-password-expiration-policy.md) om te bepalen hoe vaak Microsoft 365-wachtwoorden moeten verlopen in uw organisatie.
@@ -78,11 +78,11 @@ Hier volgen enkele van de meest gebruikte wachtwoordbeheerpraktijken, hoewel ond
   
 ### <a name="password-expiration-requirements-for-users"></a>Wachtwoordverloopvereisten voor gebruikers
 
-Wachtwoordverloopvereisten doen meer kwaad dan goed, omdat gebruikers hierdoor voorspelbare wachtwoorden kiezen, bestaande uit opeenvolgende woorden en cijfers die nauw verwant zijn met elkaar. In deze gevallen kan het volgende wachtwoord worden voorspeld aan de hand van het vorige wachtwoord. Wachtwoordverloopvereisten bieden geen beheersingsvoordelen, omdat cybercriminelen gegevens vrijwel altijd meteen gebruiken zodra ze die te pakken hebben.
+Wachtwoordverloopvereisten doen meer kwaad dan goed, omdat gebruikers hierdoor voorspelbare wachtwoorden kiezen, bestaande uit opeenvolgende woorden en cijfers die nauw verwant zijn met elkaar. In deze gevallen kan het volgende wachtwoord worden voorspeld aan de hand van het vorige wachtwoord. Wachtwoordverloopvereisten bieden geen beheersingsvoordelen, omdat cybercriminelen gegevens vrijwel altijd meteen gebruiken zodra ze die te pakken hebben. Voor meer informatie, ga naar [Tijd om verplichte wachtwoordwijzigingen te herzien](https://go.microsoft.com/fwlink/p/?linkid=861018).
   
 ### <a name="requiring-long-passwords"></a>Lange wachtwoorden vereisen
 
-Wachtwoordlengtevereisten (langer dan ongeveer tien tekens) kan resulteren in voorspelbaar en ongewenst gebruikersgedrag. Gebruikers die bijvoorbeeld een wachtwoord van minstens zestien tekens moeten hebben, kiezen misschien voor een herhaald patroon zoals **viervierviervier** of **wachtwoordwachtwoord**, dat wel aan de tekenlengtevereiste voldoet maar niet moeilijk te raden is. Bovendien vergroten lengtevereisten de kans dat gebruikers andere onveilige praktijken gebruiken, zoals hun wachtwoorden opschrijven, hergebruiken of onversleuteld opslaan in hun documenten. Om gebruikers aan te moedigen een uniek wachtwoord te bedenken, raden we aan een redelijke minimumlengte van acht tekens te vereisen. 
+Wachtwoordlengtevereisten (langer dan ongeveer tien tekens) kan resulteren in voorspelbaar en ongewenst gebruikersgedrag. Gebruikers die bijvoorbeeld een wachtwoord van minstens zestien tekens moeten hebben, kiezen misschien voor een herhaald patroon zoals **viervierviervier** of **wachtwoordwachtwoord**, dat wel aan de tekenlengtevereiste voldoet maar niet moeilijk te raden is. Bovendien vergroten lengtevereisten de kans dat gebruikers andere onveilige praktijken gebruiken, zoals hun wachtwoorden opschrijven, hergebruiken of onversleuteld opslaan in hun documenten. Om gebruikers aan te moedigen een uniek wachtwoord te bedenken, raden we aan een redelijke minimumlengte van acht tekens te vereisen.
   
 ### <a name="requiring-the-use-of-multiple-character-sets"></a>Het gebruik van meerdere tekensets vereisen
 
@@ -131,8 +131,6 @@ Risicogebaseerde meervoudige verificatie verzekert dat wanneer ons systeem verda
 - [Time to rethink mandatory password changes](https://go.microsoft.com/fwlink/p/?linkid=861018)
 
 - [Worst Passwords of 2015](https://go.microsoft.com/fwlink/p/?linkid=861020)
-
-- [Bestanden van internet downloaden](https://go.microsoft.com/fwlink/p/?linkid=861029)
 
 ## <a name="related-articles"></a>Verwante artikelen
 
