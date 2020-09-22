@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Lees meer over de slimme rapporten en inzichten die beschikbaar zijn in het beveiligings & compliance en hoe u ze kunt gebruiken om gegevens te bekijken en te verkennen en snelle acties uit te voeren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d100aca53f3683d477fd15469ae53ecb7a2901b
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 7f8094c46868118bb88858dab6cd12b2427382be
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652775"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196333"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Als u deel uitmaakt van het Microsoft voor 365 voor Business-team van uw organisatie en de benodigde [machtigingen voor het nalevings centrum voor beveiliging &](permissions-in-the-security-and-compliance-center.md), hebt u toegang tot diverse rapporten, waaronder slimme rapporten en inzichten. Lees dit artikel voor een overzicht van deze rapporten en inzichten, en waar u meer informatie kunt vinden over specifieke rapporten.
 

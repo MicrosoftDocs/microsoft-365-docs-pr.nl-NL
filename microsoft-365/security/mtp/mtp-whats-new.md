@@ -1,7 +1,7 @@
 ---
-title: Nieuwe artikelen in Microsoft 365-beveiliging
+title: Nieuw in Microsoft 365-beveiliging
 description: Meer informatie over nieuwe mogelijkheden in Microsoft 365-beveiliging
-keywords: nieuw, m365 beveiliging, beveiliging, 365, mogelijkheden
+keywords: nieuwe, m365 beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,22 +19,25 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f303ea37e67077c2a55c4fd94766b34671b78e5d
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 82b79389420520c637b0b526c178e515c6c54cd1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42805495"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201013"
 ---
-# <a name="whats-new-in-microsoft-365-security"></a>Nieuwe artikelen in Microsoft 365 Security
+# <a name="whats-new-in-microsoft-365-security"></a>Nieuw in Microsoft 365-beveiliging
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+- Microsoft Threat Protection
 
 
 
-Dit onderwerp heeft betrekking op mogelijkheden die algemeen beschikbaar zijn (GA) in de nieuwste versie van Microsoft 365 Security. 
+Dit onderwerp bevat functies die algemeen beschikbaar zijn (GA) in de nieuwste versie van de Microsoft 365-beveiliging. 
 
-Zie [Preview-functies voor](mtp-preview.md) meer informatie over voorbeeldfuncties
+Zie [Preview-functies](mtp-preview.md) voor meer informatie over de Voorbeeldfuncties.
 
 

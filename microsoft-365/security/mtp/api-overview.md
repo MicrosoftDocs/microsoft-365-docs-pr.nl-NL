@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5b62ba22fc765c0f6f3febe00cc5043d37619acf
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: e80d8143898a31f7ae08b2cb1cf9b0eb2fc8bb8e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650233"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198665"
 ---
 # <a name="overview-of--microsoft-threat-protection-apis"></a>Overzicht van Api's voor Microsoft Threat Protection
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
@@ -47,4 +50,4 @@ Naast deze set Api's bieden elk van de verschillende beveiligingsproducten extra
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Toegang tot de Microsoft Threat Protectin-Api's](api-access.md)
-- [Overige API-bronnen](api-articles.md)
+- [Overige API-resources](api-articles.md)

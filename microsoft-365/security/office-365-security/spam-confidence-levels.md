@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het spam betrouwbaarheidsniveau (SCL) dat is toegepast op berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 44687b8234e38e7f818aee908d1b65f382c908fe
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: fbd892b0171cee71f516d7ca3b26b91da664af79
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827395"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202231"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>Spam niveau (SCL) in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken worden inkomende berichten via spam filteren in EOP en worden er een spam score aan toegewezen. Deze score wordt toegewezen aan een afzonderlijk spam niveau (SCL) dat wordt toegevoegd aan het bericht in een X-header. Een hogere SCL geeft aan dat een bericht waarschijnlijk spam moet zijn. EOP maakt actie op het bericht op basis van de SCL.
 
@@ -45,7 +48,7 @@ U zult merken dat SCL 2, 3, 4, 7 en 8 niet worden gebruikt bij het filteren van 
 
 U kunt de e-mail stroom regels (ook wel transport-regels genoemd) gebruiken om de SCL op berichten te stempelen. Als u een e-mail stroom regel gebruikt om de SCL in te stellen, activeren de waarden 5 of 6 de actie spam filtert voor **spam**, en de waarden 7, 8 of 9 veroorzaken de spamfilter actie voor spam van **hoge betrouwbaarheid**. Zie voor meer informatie [de regels voor e-mail stroom gebruiken voor het instellen van het spam betrouwbaarheidsniveau (SCL) in berichten](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
 
-Vergelijkbaar met de SCL wordt met het niveau voor bulk klachten (BCL) onjuiste bulk-e-mail (ook wel _grijze e-mail_genoemd) aangegeven. Een hogere BCL geeft aan dat er waarschijnlijk klachten worden gegenereerd (en dus waarschijnlijk ook spam is). U configureert de BCL-drempelwaarde in antispambeleid. Zie [Antispambeleid in EOP](configure-your-spam-filter-policies.md), [bulk klachten niveau (BCL) in EOP)](bulk-complaint-level-values.md)en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md)voor meer informatie.
+Vergelijkbaar met de SCL wordt met het niveau voor bulk klachten (BCL) onjuiste bulk-e-mail (ook wel _grijze e-mail_genoemd) aangegeven. Een hogere BCL duidt op een bulk-e-mailbericht en levert vermoedelijk meer klachten op (en is dus vermoedelijk spam). U configureert de BCL-drempelwaarde in antispambeleid. Zie [Antispambeleid in EOP](configure-your-spam-filter-policies.md), [bulk klachten niveau (BCL) in EOP)](bulk-complaint-level-values.md)en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md)voor meer informatie.
 
 |<!-- -->|
 |---|

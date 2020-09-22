@@ -16,14 +16,17 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie lezen over de BCL-waarden (bulk compliance niveau) die worden gebruikt in Exchange Online Protection (EOP).
-ms.openlocfilehash: e24c0c97afcca2e7aa014d929d7b2131c6a2d074
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: d59bb152de075bb807e3cae72839fe459d7da40f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827431"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203525"
 ---
 # <a name="bulk-complaint-level-bcl-in-eop"></a>Bulk klachten niveau (BCL) in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken wordt in EOP een BCL (bulk compliant niveau) toegewezen aan inkomende berichten van grote Mailers. De BCL wordt aan het bericht toegevoegd in een X-header en is vergelijkbaar met het [spam betrouwbaarheidsniveau (SCL)](spam-confidence-levels.md) dat wordt gebruikt om berichten als spam op te sporen. Een hogere BCL geeft aan dat een bulk bericht waarschijnlijk klachten genereert (en dat waarschijnlijk spam is). Microsoft gebruikt interne en externe bronnen voor het identificeren van bulk berichten en het bepalen van de juiste BCL.
 

@@ -13,14 +13,17 @@ ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met behulp & van het hulpprogramma voor het oplossen van e-mail lussen in hun organisatie e-mail lussen kunt identificeren en oplossen.
-ms.openlocfilehash: 063906195488aa7d65093c538d9045002448e181
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: e868c020ae307ba490e85e5803f94a67a1a94057
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358268"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198443"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Mogelijke oplossing voor e-mail lussen in de beveiligings & nalevings centrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Een lus voor e-mailberichten is slecht omdat dit de systeembronnen verspilt, het volume quotum van uw organisatie gebruikt en geen rapporten van niet-uitgevoerde bezorging (ook wel Ndr's genoemd) aan de oorspronkelijke afzenders stuurt.
 

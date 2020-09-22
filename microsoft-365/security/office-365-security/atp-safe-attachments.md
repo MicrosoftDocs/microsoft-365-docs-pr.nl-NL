@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over de functie voor het beveiligen van de ATP voor Office 365 en over hoe u de functie voor uw abonnement kunt krijgen.
-ms.openlocfilehash: 16b9ae47ead318e200cdf1e5e5beb58c2bc396bc
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 1ff7021f1c9fa64d3f04cbcac7231733399ad2b8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656991"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198773"
 ---
 # <a name="atp-safe-attachments"></a>Veilige bijlage van ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="overview-of-office-365-atp-safe-attachments"></a>Overzicht van veilige bijlagen van Office 365
 

@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over Backscatter en Microsoft Exchange Online Protection (EOP)
-ms.openlocfilehash: f1705fd7fc30c9a8cde5f6acfaf145861de3af08
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 2a752c89e2430f24441d14178942b89362736322
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827783"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203585"
 ---
 # <a name="backscatter-in-eop"></a>Backscatter in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 *Backscatter* is rapporten over niet-uitgevoerde bezorging (ook wel ndr's genoemd of berichten verzenden) die u ontvangt voor berichten die u niet heb verzonden. Spammers smeden (spoof) The from: adres van hun berichten, en ze gebruiken vaak realtime e-mailadressen om geloofwaardigheid te lenen aan hun berichten. Wanneer spammers via een zeer grote transactie geen berichten naar niet-bestaande geadresseerden sturen (spam is een high-volume-actie), wordt de doel-e-mailserver in feite omgezet in een NDR naar de vervalste afzender in het adres van:.
 

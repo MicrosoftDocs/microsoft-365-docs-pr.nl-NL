@@ -11,14 +11,17 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen informatie over het gebruik van de nieuwe domeinen waarmee e-mail inzicht wordt doorgestuurd in het moderne Exchange-Beheercentrum om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar externe domeinen waarnaar nooit is doorgestuurd.
-ms.openlocfilehash: 0f0622fc686cb9c90790630e16c187bf9f69d918
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 62e254e324322aec55d692cfe3128e8e4dd60e4b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358256"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200733"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Nieuwe domeinen worden doorgestuurd via e-mail inzicht in de beveiligings & nalevings centrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Hoewel u waarschijnlijk geldige zakelijke redenen hebt voor het doorsturen van e-mailberichten naar externe geadresseerden in specifieke domeinen, is het verdacht Wanneer gebruikers in uw organisatie zich op een plotselinge manier van berichten doorsturen naar externe domeinen, en niemand in de organisatie ooit berichten heeft doorgestuurd naar die domeinen vóór (nieuwe domeinen). Deze voorwaarde kan betekenen dat de gebruikersaccounts worden aangetast. Als u vermoedt dat de accounts zijn aangetast, raadpleegt u [reageren op een gemanipuleerd e-mailaccount](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
 

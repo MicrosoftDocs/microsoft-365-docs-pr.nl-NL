@@ -1,6 +1,6 @@
 ---
 title: Feedback geven over Microsoft Threat Protection
-description: Productfeedback geven over Microsoft Threat Protection
+description: Product feedback geven over Microsoft Threat Protection
 keywords: feedback, m365 beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,24 +19,27 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 130bd4bd3d4da10c36da041e41486d55ace1f41a
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 832442ce392882951d0b960d5f36a864ba59684b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113595"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199403"
 ---
 # <a name="provide-feedback-on-microsoft-threat-protection"></a>Feedback geven over Microsoft Threat Protection
 
-**Geldt voor:**
-- Microsoft-bedreigingsbeveiliging
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Uw feedback helpt ons om uw omgeving beter te beschermen tegen geavanceerde aanvallen. Deel uw ervaringen, vertoningen en verzoeken door feedback te geven.
 
-1. Selecteer **feedback geven**in een deel van de portal. 
+**Van toepassing op:**
+- Microsoft Threat Protection
 
-    ![Afbeelding van de knop Feedback](../../media/feedback.png)
+Met uw feedback kunnen we uw omgeving beter beschermen tegen geavanceerde aanvallen. Deel uw ervaring, hits en aanvragen door feedback te geven.
 
-2. Beoordeel uw ervaring en geef details over wat u leuk vond of waar verbetering kan worden aangebracht. U er ook voor kiezen om gecontacteerd te worden over de feedback. 
+1. Selecteer in een willekeurig onderdeel van de portal **feedback geven**. 
 
-3. Selecteer **Verzenden**.
+    ![Afbeelding van de knop feedback](../../media/feedback.png)
+
+2. Beoordeel de ervaring en voer informatie in over wat u interessant vindt of waar u de verbeteringen kunt aanbrengen. U kunt er ook voor kiezen om contact op te nemen met de feedback. 
+
+3. Selecteer **Submit**.

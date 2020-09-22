@@ -1,5 +1,5 @@
 ---
-title: Walkthrough - Inzicht in informatie spoofen
+title: Scenario-spoof Intelligence Insight
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,94 +16,97 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe de spoof intelligentie inzicht werkt, met inbegrip van hoe snel te bepalen welke afzenders zijn rechtmatig sturen u niet-geverifieerde e-mail.
+description: Beheerders kunnen inzicht krijgen in de werking van de spoof Intelligence-informatie, waaronder hoe u snel kunt bepalen welke afzenders u niet-geverifieerde e-mail hebt verzonden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f04baca3761e44acfd26c09cdc0d5283db13697
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: 6fc934491606a53ebfb4bae4f46ab9e1ee93467b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726514"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198569"
 ---
-# <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough - ATP Spoof intelligentie inzicht in Microsoft 365
+# <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Scenario: voor de spoofing informatie over spoof informatie in Microsoft 365
 
-In Microsoft 365-organisaties met Advanced Threat Protection (ATP) u de inzicht in spoofinformatie gebruiken om snel te bepalen welke afzenders u ongeoorloofde e-mail sturen. Door hen toe te staan om vervalste berichten te verzenden, u het risico van valse positieven die naar uw gebruikers gaan verminderen. U het inzicht in spoofinformatie ook gebruiken om toegestane domeinparen te bewaken en te beheren om een extra beveiligingslaag te bieden en te voorkomen dat onveilige berichten in uw organisatie binnenkomen.
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Als u nieuw bent [bij rapporten en inzichten in het Security & Compliance Center,](reports-and-insights-in-security-and-compliance.md)kan het helpen om te zien hoe u eenvoudig van een dashboard naar inzicht en aanbevolen acties navigeren.
 
-Deze walkthrough is een van de vele voor het Security & Compliance Center. Zie de walkthroughs in de sectie Gerelateerde onderwerpen voor het navigeren door rapporten en inzichten.
+In Microsoft 365-organisaties met Advanced Threat Protection (ATP) kunt u met behulp van de spoof Intelligence-informatie snel bepalen welke afzenders u legitiem e-mailadres kunt sturen. Als u wilt dat ze vervalste berichten kunnen verzenden, kunt u het risico van onbepaalde valse berichten verminderen. U kunt ook gebruikmaken van de informatie over het gebruik van spoof Intelligence voor het bewaken en beheren van toegestane domein paren, zodat er een extra beveiligingslaag wordt geboden en onveilige berichten in uw organisatie kunnen worden binnengekomen.
+
+Als u geen ervaring hebt met [rapporten en inzichten in het beveiligings & compliance](reports-and-insights-in-security-and-compliance.md), kan het handig zijn om te zien hoe u eenvoudig kunt navigeren van een dashboard naar een insightle en aanbevolen actie.
+
+Dit scenario is een van de verschillende voor het beveiligings & nalevings centrum. Zie de procedures in de sectie Verwante onderwerpen voor meer informatie over het navigeren in rapporten en inzichten.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **dashboardpagina Beveiliging** wilt gaan, gebruikt u <https://protection.office.com/searchandinvestigation/dashboard> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **beveiligings dashboard** wilt gaan, gebruikt u <https://protection.office.com/searchandinvestigation/dashboard> .
 
-  U het inzicht in spoofinformatie bekijken vanuit meer dan één dashboard in het Security & Compliance Center. Welk dashboard u ook bekijkt, het inzicht biedt dezelfde details en stelt u in staat om snel dezelfde taken uit te voeren.
+  U kunt de spoof Intelligence-informatie van meer dan één dashboard bekijken in de beveiligings & compliance Center. Ongeacht het dashboard dat u zoekt, biedt het inzicht dezelfde Details, zodat u snel dezelfde taken kunt uitvoeren.
 
-- U moet machtigingen krijgen toegewezen voordat u de procedures in dit onderwerp uitvoeren. Als u het inzicht in spoofinformatie wilt gebruiken, moet u lid zijn van een van de volgende rolgroepen:
+- U moet machtigingen zijn toegewezen voordat u de procedures in dit onderwerp kunt uitvoeren. Als u de spoof Intelligence-inzichten wilt gebruiken, moet u lid zijn van een van de volgende rollen groepen:
 
-  - **Organisatiebeheer** of **beveiligingsbeheerder** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
-  - **Organisatiebeheer** of **hygiënebeheer** in [Exchange Online.](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)
-  - **Security Reader** in het [Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).
-  - **Alleen-weergeven organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+  - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+  - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- U schakelt spoofinformatie in en schakelt deze uit in het ATP-antiphishingbeleid. Zie [ATP-beleid voor antiphishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md)voor meer informatie.
+- U schakelt de spoof-informatie in en uit in het anti-phishingfilter-beleid. Zie voor meer informatie [het artikel ATP anti-phishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md).
 
-- In Microsoft 365-organisaties met Exchange Online-postvakken en in zelfstandige Exchange Online Protection (EOP) zonder Exchange Online-postvakken u spoofinformatie gebruiken om afzenders die u u niet-geverifieerde berichten stuurt, te controleren en te beheren. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
+- In Microsoft 365-organisaties met postvakken van Exchange Online en in standalone Exchange Online Protection (EOP) zonder postvakken van Exchange Online, kunt u gebruikmaken van spoof Intelligence om afzenders te volgen en te beheren waarnaar u niet-geverifieerde berichten verzendt. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
 
-## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Open het inzicht in spoofinformatie in het Security & Compliance Center
+## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Open de informatie over spoof informatie in het beveiligings & nalevings centrum
 
-1. Ga in het Security & Compliance Center naar **Threat Management** \> **Dashboard.**
+1. Ga in het beveiligings & nalevings centrum naar het dashboard **Threat Management** \> **.**
 
-2. Zoek in de rij **Insights** naar een van de volgende items:
+2. Ga naar de rij **inzichten** en zoek een van de volgende items:
 
-   - **Spoofinformatie is ingeschakeld:** het inzicht wordt **spoofed-domeinen genoemd die de verificatie van de afgelopen 30 dagen hebben mislukt.** Dit is de standaardinstelling.
+   - **Spoof Intelligence is ingeschakeld**: het inzicht is **in vervals bare domeinen die de authenticatie van de afgelopen 30 dagen mislukt**. Dit is de standaardinstelling.
 
-   - **Spoofinformatie is uitgeschakeld:** Het inzicht in de naam **Spoofbeveiliging inschakelen**en erop klikken stelt u in staat om spoofinformatie in te schakelen.
+   - **Spoof-informatie is uitgeschakeld**: de inzichten van de naam **spoofing inschakelen**en op de optie om spoof Intelligence in te schakelen.
 
-3. Het inzicht op het dashboard toont u informatie als deze:
+3. Het inzicht in het Dashboard toont u informatie zoals hier:
 
-   ![Schermafbeelding van inzicht in spoofinformatie](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
+   ![Schermafbeelding van spoof Intelligence Insight](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
 
-   Dit inzicht heeft twee modi:
+   Dit inzicht heeft in twee modi:
 
-   - **Insight-modus**. Als u een spoofbeleid hebt ingeschakeld, laat het inzicht zien hoeveel e-mails zijn beïnvloed door onze spoofinformatiemogelijkheden in de afgelopen 30 dagen.
+   - **Insight-modus**. Als er sprake is van een spoofings beleid, ziet u in het inzicht hoe vaak e-mailberichten werden beïnvloed door onze spoof Intelligence-mogelijkheden in de afgelopen 30 dagen.
 
-   - **Wat als modus**. Als u geen spoofbeleid hebt ingeschakeld, laat het inzicht zien hoeveel e-mails de afgelopen 30 dagen *zijn* beïnvloed door onze spoofinformatiemogelijkheden.
+   - **Welke if-modus**. Als u geen spoofbeleid hebt ingeschakeld, kunt u in het inzicht zien hoeveel e-mailberichten  *werden beïnvloed*  door onze spoof Intelligence-mogelijkheden in de afgelopen 30 dagen.
 
-   Hoe dan ook, de vervalste domeinen die in het inzicht worden weergegeven, worden gescheiden in twee categorieën: **verdachte domeinparen** en **niet-verdachte domeinparen.** Deze categorieën zijn verder onderverdeeld in drie verschillende buckets die u bekijken.
+   In beide gevallen zijn de spoofende domeinen die worden weergegeven in het inzicht, onderverdeeld in twee categorieën: **verdachte domein paren** en **niet-verdachte domein paren**. Deze categorieën worden verder onderverdeeld in drie verschillende buckets om te worden gecontroleerd.
 
-   Een **domeinpaar** is een combinatie van het Adres Van en de verzendende infrastructuur:
+   Een **domein paar** is een combinatie van het van-adres en de infrastructuur van verzenden:
 
-   - Het adres Van is het e-mailadres van de afzender dat wordt weergegeven in e-mailclients. Dit adres identificeert de auteur van de e-mail. Dat wil zeggen, het postvak van de persoon of het systeem dat verantwoordelijk is voor het schrijven van het bericht. Dit adres wordt ook wel het `5322.From` adres genoemd.
+   - Het adres van de afzender is het e-mailadres dat wordt weergegeven in de e-mailclients. Dit adres identificeert de auteur van de e-mail. Dat wil zeggen, het postvak van de persoon of het systeem dat verantwoordelijk is voor het schrijven van het bericht. Dit adres wordt ook wel het `5322.From` adres genoemd.
 
-   - De verzendinfrastructuur of afzender is het organisatiedomein van de reverse DNS lookup (PTR-record) van het verzendende IP-adres. Als het verzendende IP-adres geen PTR-record heeft, wordt de afzender geïdentificeerd door het verzendende IP met het subnetmasker 255.255.0 in CIDR-notatie (/24). Als het IP-adres bijvoorbeeld 192.168.100.100 is, is het volledige IP-adres van de afzender 192.168.100.100/24.
+   - De verzendende infrastructuur, of afzender, is het organisatie domein van de omgekeerde DNS-zoekopdracht (PTR-record) van het verzendende IP-adres. Als het verzendende IP-adres geen PTR-record heeft, wordt de afzender geïdentificeerd door het versturen van IP met het 255.255.255.0-subnetmask in de CIDR-notatie (/24). Als bijvoorbeeld het IP-adres 192.168.100.100 is, is het volledige IP-adres van de afzender 192.168.100.100/24.
 
-   **Verdachte domeinparen** zijn:
+   **Verdachte domein paren** zijn:
 
-   - **High-confidence spoof**: Microsoft 365 ontvangen sterke signalen dat deze domeinen verdacht zijn, gebaseerd op de historische verzendpatronen en de reputatie score van de domeinen. Microsoft 365 is ervan overtuigd dat de domeinen spoofing zijn en dat berichten die vanuit deze domeinen worden verzonden minder waarschijnlijk legitiem zijn.
+   - **Spoofing met hoge betrouwbaarheid**: microsoft 365 heeft sterke signalen ontvangen waarmee deze domeinen verdacht zijn, op basis van de historische Verstuur patronen en de reputatie Score van de domeinen. Microsoft 365 is zeer geschikt voor spoofing en de berichten die vanuit deze domeinen worden verzonden, zijn minder waarschijnlijk legitiem.
 
-   - **Matig vertrouwen spoof**: Microsoft 365 ontvangen matige signalen dat deze domeinen verdacht zijn, op basis van historische verzendpatronen en de reputatie score van de domeinen. Office 365 is er redelijk zeker van dat de domeinen spoofing zijn en dat berichten die vanuit deze domeinen worden verzonden legitiem zijn. Deze emmer heeft een grotere kans op het bevatten van valse positieven (FPs) dan de high-confidence spoof emmer.
+   - **Spoofing van minder betrouwbaarheid**: microsoft 365 heeft geregelde signalen ontvangen dat deze domeinen verdacht zijn, op basis van historische Verstuur patronen en de reputatie Score van de domeinen. Office 365 is traag met een goede vertrouwene zekerheid dat de domeinen spoofing hebben en dat verzonden berichten van deze domeinen legitiem zijn. Deze Bucket heeft een groter risico met fout-positieven (FPs) dan de sterke vertrouw baarheid.
 
-   - **Niet-verdachte domeinparen** (inclusief **geredde spoof):** Geredde spoof zijn domeinen die de expliciete verificatiecontroles [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md)) hebben gefaald, maar onze impliciete e-mailverificatiecontroles[(samengestelde verificatie)](email-validation-and-authentication.md#composite-authentication)hebben doorstaan. Als gevolg hiervan heeft Microsoft 365 de e-mail namens u gered en is er geen anti-spoofing-actie ondernomen op het bericht.
+   - **Niet-verdachte domein paren** (waaronder **herstel van spoofing**): hersteld spoof zijn domeinen die de expliciete verificatiecontrole hebben mislukt [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md)), maar het impliciet verifiëren van e-mail verificatie ([samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)). Daarom heeft Microsoft 365 het e-mailbericht namens u hersteld en wordt er geen anti-spoofing-actie uitgevoerd voor het bericht.
 
-### <a name="view-detailed-information-about-suspicious-domain-pairs-from-the-spoof-intelligence-insight"></a>Bekijk gedetailleerde informatie over verdachte domeinparen van de spoofintelligentieinzicht
+### <a name="view-detailed-information-about-suspicious-domain-pairs-from-the-spoof-intelligence-insight"></a>Gedetailleerde informatie weergeven over verdachte domein paren van de spoof Intelligence Insight
 
-1. Klik op de spoofintelligentieinzicht op een van de domeinparen (hoog, matig of gered).
+1. Klik in het inzicht in de spoof Intelligence-informatie op een van de domein paren (hoog, normaal of hersteld).
 
-   De **pagina Spoof Intelligence insight** toont u een lijst met afzenders die niet-geverifieerde e-mail naar uw organisatie verzenden. Met de informatie op deze pagina u bepalen of vervalste berichten zijn geautoriseerd of dat u verdere actie moet ondernemen. U de informatie sorteren op aantal berichten, de datum waarop de spoof voor het laatst is gedetecteerd en meer. (Klik op kolomkoppen, zoals **het aantal berichten** of Laatst **gezien,** bijvoorbeeld.)
+   De pagina **spoof Intelligence Insight** wordt weergegeven met een lijst van afzenders die niet-geverifieerde e-mailberichten in uw organisatie verzenden. Met de informatie op deze pagina kunt u bepalen of vervalste berichten worden geautoriseerd, of dat u verdere actie moet ondernemen. U kunt de gegevens sorteren op aantal berichten, de datum waarop het spoof voor het laatst is gedetecteerd, en nog veel meer. (Klik op kolomkoppen, zoals het **aantal berichten** of voor de **laatste weergegeven**.)
 
-2. Selecteer een item in de tabel om een detailvenster te openen met uitgebreide informatie over het domeinpaar, waaronder waarom we dit hebben opgevangen, wat u moet doen, een domeinoverzicht, WhoIs-gegevens over de afzender en vergelijkbare e-mails die we in uw tenant hebben gezien van dezelfde afzender. Vanaf hier u er ook voor kiezen om het domeinpaar toe te voegen of te verwijderen uit de lijst **Met een** veilige afzender.
+2. Selecteer een item in de tabel om een deelvenster met uitgebreide informatie over het domein paar te openen, waaronder waarom we dit hebben vastgelegd, wat u moet doen, wat u moet doen, een domein samenvatting, WhoIs gegevens over de afzender en soortgelijke e-mailberichten die in uw Tenant van dezelfde afzender zijn weergegeven. U kunt hier ook voor kiezen om het domein paar toe te voegen of te verwijderen uit de lijst met veilige afzenders van **AllowedToSpoof** .
 
-   ![Schermafbeelding van een domein in het deelvenster details over inzicht in de informatie over spoofintelligentie](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
+   ![Schermafbeelding van een domein in het detailvenster van de spoof Intelligence Insight](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
 
-### <a name="add-or-remove-a-domain-from-the-allowedtospoof-safe-sender-list"></a>Een domein toevoegen of verwijderen uit de lijst Met toegestane afzenders
+### <a name="add-or-remove-a-domain-from-the-allowedtospoof-safe-sender-list"></a>Een domein toevoegen aan of verwijderen uit de lijst met veilige afzenders van AllowedToSpoof
 
-U voegt of verwijdert een domein uit de lijst Met een veilige afzender toestaan terwijl u het domeinpaar bekijkt in het detailvenster van de informatie-inzicht over spoofinformatie. Stel de toggle dienovereenkomstig in.
+U kunt een domein toevoegen aan of verwijderen uit de lijst met veilige afzenders van AllowedToSpoof tijdens het bekijken van het domein paar in het detailvenster van de spoof Intelligence-inzichten. Zet de wisselknop dienovereenkomstig.
 
-Dit wijzigt de unieke domeinpaarcombinatie van het vervalste domein en de verzendende infrastructuur en biedt geen dekking voor het hele vervalste domein of de verzendende infrastructuur afzonderlijk.
+Hiermee kunt u de unieke combinatie van domein paar van het vervalste domein en de verzendende infrastructuur wijzigen en krijgt u geen dekking voor het hele domein met spoofing of de verzending van de infrastructuur.
 
-Als u bijvoorbeeld het volgende domeinpaar toevoegt aan de lijst met de stuurzender 'AllowedToSpoof': *Spoofed Domain* "gmail.com" en *Send Infrastructure* "tms *.mx.com",* mag alleen e-mail van dat domeinpaar spoofen. Andere afzenders die proberen "gmail.com" te spoofen en andere domeinen die "tms.mx.com" proberen te spoofen, blijven worden beschermd door spoofinformatie.
+Als u bijvoorbeeld het volgende domein paar toevoegt aan de lijst met toegestane afzenders van de ' AllowedToSpoof-afzender:  *domein met spoofing*  ' Gmail.com ' en het *verzenden van infrastructuur* ' TMS *. MX.com ',* dan wordt alleen e-mail van dit domein paar toegestaan. Andere afzenders proberen een spoof te maken voor ' gmail.com ', en andere domeinen die ' tms.mx.com ' proberen te vervalsen, blijven beveiligd via spoof Intelligence.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Bescherming tegen spoofing in Microsoft 365](anti-spoofing-protection.md)
+[Anti-spoofing beveiliging in Microsoft 365](anti-spoofing-protection.md)

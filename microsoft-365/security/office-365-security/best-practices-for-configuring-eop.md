@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor standalone Exchange Online Protection (EOP) om ervoor te zorgen dat er geen veelvoorkomende configuratiefouten zijn opgetreden.
-ms.openlocfilehash: eb8e4aff765fbc1ab13c603f32ca0af51f87a4ae
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: cb3aa36720a6a46932d69341394304937bb1a296
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827663"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203561"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Aanbevolen procedures voor het configureren van zelfstandige EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Volg deze aanbevolen aanbevelingen voor standalone Exchange Online Protection (EOP) om ervoor te zorgen dat er geen veelvoorkomende configuratiefouten zijn opgetreden. In dit onderwerp wordt ervan uitgegaan dat u het installatieproces al hebt voltooid. Als u EOP niet hebt geïnstalleerd, raadpleegt u [uw EOP-service instellen](set-up-your-eop-service.md).
 
@@ -41,7 +44,7 @@ Met deze instellingen wordt een reeks functies besproken die buiten het beveilig
 
 ****
 
-|Naam van beveiligingsfunctie|Verre|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
 |[SPF instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Ja|Ja||
 |[DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)|Ja|Ja||

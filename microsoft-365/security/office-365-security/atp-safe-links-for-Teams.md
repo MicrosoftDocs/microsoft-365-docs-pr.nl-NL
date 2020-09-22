@@ -1,5 +1,5 @@
 ---
-title: ATP Safe Links for Teams, safelinks, safe links, block malicious links, office 365 atp, Teams safe links, stop users from clicking bad links, malicious links ATP, ATP ATP, Teams safe links, stop users from clicking bad links, malicious links ATP, ATP
+title: Veilige verbindingen voor werknemers voor teams, safelinks, veilige koppelingen, schadelijke koppelingen blokkeren, Office 365 ATP, veilige koppelingen voor teams, stop gebruikers op beschadigde koppelingen, schadelijke koppelingen
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,42 +13,45 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Teams hebben nu toegang tot veilige links op het moment van uw klik. Of u nu chats 1-op-1 chats gebruikt, tussen groepen of in kanalen en tabbladen, als u een abonnement hebt op Office 365 ATP, u deze veiligheidsfunctie inschakelen en gebruiken.
-ms.openlocfilehash: d7586dba86c7ec9f43457b5510a1255e06bb6bf9
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+description: Teams heeft nu toegang tot veilige koppelingen op het moment van de klikken. Als u een abonnement hebt op Office 365, kunt u gebruikmaken van deze veiligheidsfunctie, ongeacht of u chatsessies van 1 tot en met 1 gebruikt, tussen groepen of in kanalen en tabbladen.
+ms.openlocfilehash: 362fb37b352a77aea07b899b707dbf4ac3d440d5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588274"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198749"
 ---
 <!--06/21/2019-->
 
-# <a name="safe-links-in-teams"></a>Veilige links in teams
+# <a name="safe-links-in-teams"></a>Veilige koppelingen in teams
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
-> Deze functie is vanaf 28 februari 2020 in **Public Preview** voor klanten in het Microsoft Teams Technology Adoption Program (TAP). Deze notitie wordt uit het artikel verwijderd wanneer Veilige links voor teams op grotere schaal beschikbaar zijn.
+> Deze functie is beschikbaar in de **openbare preview** voor klanten in het Microsoft teams-hulpprogramma voor Microsoft teams-technologie (tik) op 28 februari 2020. Deze opmerking wordt van het artikel verwijderd wanneer veilige koppelingen voor teams meer beschikbaar zijn.
 
-Microsoft Teams, een cloudtoepassing van Microsoft voor het beheren van uw werk, maakt al gebruik van veilige bijlagen (voor Office 365), maar heeft nu toegang tot Veilige koppelingen op het moment van uw klik. Of u nu Chats, Groepschats, kanalen of tabbladen gebruikt, als u een abonnement op Office 365 ATP hebt, u deze veiligheidsmaatregel inschakelen en gebruiken. Zie [Microsoft 365 Tenant-Level Services Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)voor meer informatie over licentievereisten.
+Microsoft teams, een Microsoft-Cloud toepassing voor het beheren van uw werk, maakt al gebruik van veilige bijlagen (voor Office 365), maar deze functie heeft nu toegang tot veilige koppelingen op het moment van de klikken. Als u een abonnement hebt op Office 365 ATP, kunt u gebruikmaken van deze veiligheidsmaatregel, ongeacht of u chat gesprekken, groepsgesprekken, kanalen of tabbladen gebruikt. Zie voor meer informatie over licentievereisten [Microsoft 365 Licensing Services Licensing-instructies](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
-Zo werkt het:
+Dit werkt als volgt:
 
-1. Wanneer u de Teams-toepassing start, controleert Microsoft 365 of de gebruiker deel uitmaakt van een organisatie met Office 365 ATP en of de gebruiker deel uitmaakt van een beleid voor actieve veilige koppelingen met de beveiliging ingeschakeld voor Microsoft Teams.
+1. Wanneer u de toepassing teams start, controleert Microsoft 365 of de gebruiker lid is van een organisatie met Office 365 ATP, en dat de gebruiker deel uitmaakt van een actief beleid voor veilige koppelingen met de bescherming ingeschakeld voor Microsoft teams.
 
-2. Als het bovenstaande waar is, worden URL's gevalideerd op het moment van klikken in Chats, Groepschats, Kanalen en in tabbladen voor die gebruiker.
+2. Als de bovenstaande voorwaarden waar zijn, worden Url's gevalideerd wanneer u klikt op het moment van klikken in chats, groepsgesprekken, kanalen en de tabbladen van die gebruiker.
 
-## <a name="what-will-users-experience"></a>Wat zullen gebruikers ervaren?
+## <a name="what-will-users-experience"></a>Wat werken gebruikers?
 
-Alle beschermde gebruikers hebben deze ervaring met gevaarlijke URL's:
+Alle beveiligde gebruikers hebben deze ervaring met gevaarlijke Url's:
 
-- Als er op de koppeling is geklikt vanuit een teamgesprek, groepschat of kanalen, wordt een pagina weergegeven in de standaardbrowser. Als er op de koppeling is geklikt vanaf een vastgemaakt tabblad, wordt de pagina weergegeven in de GUI teams op dat tabblad en wordt de optie om in de browser te openen uitgeschakeld voor beveiligingsdoeleinden.
+- Als u op de koppeling hebt geklikt vanuit een teams-gesprek, groepsgesprek of kanalen, wordt een pagina weergegeven in de standaardbrowser. Als u de koppeling hebt geklikt van het tabblad vastgemaakt, wordt de pagina weergegeven in de GEBRUIKERSINTERFACE van teams op dat tabblad en wordt de optie voor openen in browser uitgeschakeld vanwege beveiligingsredenen.
 
-- Deze gebruiker wordt geblokkeerd om door te gaan naar de site van de URL.
+- Deze gebruiker wordt geblokkeerd en gaat verder met de site van de URL.
 
-Als de gebruiker die de koppeling heeft verzonden niet wordt beschermd door Office 365 ATP, is hij of zij vrij om op de URL op zijn of haar computer te klikken en de probleemsite op te lossen. Dit maakt het dubbel belangrijk voor beheerders om zich bewust te zijn van wie hun beschermde gebruikers zijn en moeten zijn.
+Als de gebruiker die de koppeling heeft verzonden, niet is beveiligd door Office 365 ATP, kan hij of zij op de URL van zijn of haar machine klikken en de probleem site oplossen. Dit maakt het twee belangrijke punten van de beheerder op de hoogte van de naam van de beveiligde gebruikers.
 
-![Een pagina Veilige links voor teams die een schadelijke koppeling rapporteert en de doorvoer naar de pagina blokkeert.](/microsoft-365/media/TP_SafelinksForTeams_Malicious.png)
+![Een pagina met veilige koppelingen voor teams die een kwaadaardige koppeling rapporteren en de transit voor de pagina blokkeren.](/microsoft-365/media/TP_SafelinksForTeams_Malicious.png)
 
-Als u op de knop *Teruggaan* op deze pagina in Teams klikt, wordt deze gesloten (of kan dit resulteren in een lege pagina die gebruikers kunnen sluiten). Het opnieuw klikken op de link zal echter resulteren in een herbeoordeling van de reputatie van de site, zodat deze pagina opnieuw verschijnt.
+Als u op de knop *terug* op deze pagina in teams klikt, wordt deze gesloten, of kan een lege pagina worden gebruikt die gebruikers kunnen sluiten. Als u echter op de koppeling klikt, krijgt u een nieuwe beoordeling van de reputatie van de site zodat deze pagina opnieuw wordt weergegeven.
 
 > [!NOTE]
-> Sommige Microsoft 365-beheerders schakelen het bericht **Doorgaan hoe dan ook** in op de blokkeringspagina. Als Safe Links echter de reputatie van een site meet en deze niet merkt, moet er geen verdere doorklik worden ondernomen. Het wordt afgeraden dat gebruikers veiligheidsmaatregelen omzeilen. Weeg dit af in uw overwegingen voordat u Doorgaan inschakelt.
+> Sommige Microsoft 365-beheerders zullen het bericht **toch doorgaan** op de pagina met blokkeren activeren. Als u echter met veilige koppelingen de reputatie van een site aftreft en deze niet ziet, dan moet u verder klikken. Gebruikers wordt niet aangeraden veiligheidsmaatregelen over te slaan. Weeg dit in uw overwegingen voordat u toch doorgaan inschakelt.

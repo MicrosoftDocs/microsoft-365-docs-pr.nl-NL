@@ -1,7 +1,7 @@
 ---
-title: Onderneem actie op geavanceerde jachtqueryresultaten in Microsoft Threat Protection
-description: Pak bedreigingen en getroffen assets snel aan in uw geavanceerde jachtqueryresultaten
-keywords: geavanceerde jacht, bedreiging jacht, cyber bedreiging jacht, Microsoft threat protection, Microsoft 365, mtp, m365, zoeken, query, telemetrie, actie ondernemen
+title: Actie ondernemen voor geavanceerde jacht-queryresultaten in Microsoft Threat Protection
+description: Snel bedreigingen en beïnvloede assets in uw geavanceerde zoekresultaten voor de jacht
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, telemetrie, actie ondernemen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,65 +17,68 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4ebf220472db69d48127b805256e15246bd400cb
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 14785e032d6e4a7a0868308f4029df623456af2a
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552730"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197891"
 ---
-# <a name="take-action-on-advanced-hunting-query-results"></a>Actie ondernemen op geavanceerde jachtqueryresultaten
+# <a name="take-action-on-advanced-hunting-query-results"></a>Actie ondernemen op geavanceerde zoekresultaten van de jacht
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-U snel bedreigingen bevatten of gecompromitteerde activa aanpakken die u in [geavanceerde jacht](advanced-hunting-overview.md) vindt met behulp van krachtige en uitgebreide actieopties. Met deze opties u:
+U kunt snel bedreigingen of opgetaste activa opnemen in een [geavanceerde jacht](advanced-hunting-overview.md) met krachtige en uitgebreide actie opties. Met deze opties kunt u:
 
-- Verschillende acties uitvoeren op apparaten
-- Quarantainebestanden
+- Verschillende acties op apparaten uitvoeren
+- Quarantine-bestanden
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
-Om actie te kunnen ondernemen door middel van geavanceerde jacht, heb je een rol nodig in Microsoft Defender ATP met [machtigingen om herstelacties in te dienen op apparaten.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) Als u geen actie ondernemen, neemt u contact op met een globale beheerder over het verkrijgen van de volgende machtiging:
+U kunt pas actie ondernemen via een geavanceerde jacht als u een rol hebt in Microsoft Defender ATP met [machtigingen voor het verzenden van herstelacties op apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options). Als u geen actie onderneemt, neemt u contact op met een globale beheerder voor het verkrijgen van de volgende machtigingen:
 
-*Actieve herstelacties > bedreigings- en kwetsbaarheidsbeheer - Herstelafhandeling*
+*Actieve herstelacties > Threat en beveiligingslek beheer-herstelbewerkingen*
 
-## <a name="take-various-actions-on-devices"></a>Verschillende acties uitvoeren op apparaten
-U de volgende acties uitvoeren op apparaten die door de kolom in de queryresultaten zijn `DeviceId` geïdentificeerd:
+## <a name="take-various-actions-on-devices"></a>Verschillende acties op apparaten uitvoeren
+U kunt de volgende acties uitvoeren op apparaten die zijn gedefinieerd door de `DeviceId` kolom in de queryresultaten:
 
-- Getroffen apparaten isoleren om een infectie te bevatten of te voorkomen dat aanvallen lateraal bewegen
-- Verzamel onderzoekspakket om meer forensische informatie te verkrijgen
-- Een antivirusscan uitvoeren om bedreigingen te vinden en te verwijderen met behulp van de nieuwste updates van beveiligingsinformatie
-- Start een geautomatiseerd onderzoek om bedreigingen op het apparaat en mogelijk andere getroffen apparaten te controleren en te herstellen
-- App-uitvoering beperken tot alleen door Microsoft ondertekende uitvoerbare bestanden, waardoor latere bedreigingsactiviteit wordt voorkomen door middel van malware of andere niet-vertrouwde uitvoerbare bestanden
+- Geïsoleerde apparaten isoleren met een infectie en om te voorkomen dat aanvallen later worden verplaatst
+- Onderzoek pakket verzamelen om meer Forensic-informatie te verkrijgen
+- Voer een antivirus scan uit om bedreigingen te zoeken en te verwijderen met behulp van de meest recente updates voor beveiligingsinformatie.
+- Een geautomatiseerd onderzoek initiëren om bedreigingen op het apparaat te controleren en te herstellen, en mogelijk andere getroffen apparaten
+- De uitvoering van de app beperken tot alleen door Microsoft ondertekende uitvoerbare bestanden, verdere bedreigings activiteiten via malware of andere niet-vertrouwde uitvoerbare bestand voorkomen
 
-[Lees meer over de](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts)manier waarop deze reactieacties worden uitgevoerd via Microsoft Defender ATP.
+Meer informatie over de manier waarop deze antwoord acties worden uitgevoerd via Microsoft Defender ATP, [vindt u in antwoord acties op apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts).
    
-## <a name="quarantine-files"></a>Quarantainebestanden
-U de *quarantaineactie* implementeren op bestanden, zodat ze automatisch in quarantaine worden geplaatst wanneer ze worden aangetroffen. Wanneer u deze actie selecteert, u kiezen uit de volgende kolommen om te bepalen welke bestanden in uw queryresultaten in quarantaine moeten worden geplaatst:
+## <a name="quarantine-files"></a>Quarantine-bestanden
+U kunt de actie *Quarantine* op een bestand implementeren, zodat de actie automatisch wordt gemigreerd wanneer deze wordt aangetroffen. Wanneer u deze actie selecteert, kunt u kiezen tussen de volgende kolommen om te bepalen welke bestanden in uw queryresultaten in quarantaine zijn:
 
-- `SHA1`— In de meeste geavanceerde jachttafels is dit de SHA-1 van het bestand dat werd beïnvloed door de geregistreerde actie. Als een bestand bijvoorbeeld is gekopieerd, is dit het gekopieerde bestand.
-- `InitiatingProcessSHA1`— In de meeste geavanceerde jachttabellen is dit het bestand dat verantwoordelijk is voor het initiëren van de geregistreerde actie. Als er bijvoorbeeld een onderliggend proces is gestart, is dit het bovenliggende proces. 
-- `SHA256`— Dit is het SHA-256-equivalent van het bestand dat door de kolom wordt `SHA1` geïdentificeerd.
-- `InitiatingProcessSHA256`— Dit is het SHA-256-equivalent van het bestand dat door de kolom wordt `InitiatingProcessSHA1` geïdentificeerd.
+- `SHA1` (In de meeste geavanceerde jagers tabellen is dit de SHA-1 van het bestand dat is beïnvloed door de opgenomen actie. Als een bestand bijvoorbeeld is gekopieerd, is dit het gekopieerde bestand.
+- `InitiatingProcessSHA1` (In de meeste geavanceerde jagers tabellen is dit het bestand dat verantwoordelijk is voor de initiëring van de opgenomen actie. Als er bijvoorbeeld een onderliggend proces werd gestart, is dit het bovenliggende proces. 
+- `SHA256` : Dit is het SHA-256-equivalent van het bestand dat wordt aangeduid door de `SHA1` kolom.
+- `InitiatingProcessSHA256` : Dit is het SHA-256-equivalent van het bestand dat wordt aangeduid door de `InitiatingProcessSHA1` kolom.
 
-Lees meer over de manier waarop quarantaineacties worden uitgevoerd en hoe bestanden kunnen worden hersteld, [over reactieacties in bestanden](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts).
+Meer informatie over de manier waarop u quarantaine acties kunt uitvoeren en hoe u bestanden kunt herstellen, kunt u [lezen over antwoord acties op bestanden](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts).
 
 >[!NOTE]
->Als u bestanden wilt zoeken en in quarantaine wilt plaatsen, moeten de queryresultaten ook `DeviceId` waarden als apparaat-id's bevatten.  
+>Om bestanden te zoeken en te plaatsen, moeten de queryresultaten ook `DeviceId` waarden als apparaat-id's opnemen.  
 
 ## <a name="take-action"></a>Actie ondernemen
-Als u een van de beschreven acties wilt uitvoeren, selecteert u een of meer records in uw queryresultaten en selecteert u **Acties uitvoeren**. Een wizard begeleidt u bij het selecteren en vervolgens indienen van uw gewenste acties.
+Als u een van de beschreven acties wilt uitvoeren, selecteert u een of meer records in de queryresultaten en selecteert u vervolgens **acties ondernemen**. Een wizard begeleidt u door het proces voor het selecteren en verzenden van de gewenste acties.
 
-![Afbeelding van geselecteerde record met deelvenster voor het inspecteren van de record](../../media/mtp-ah/ah-take-actions.png)
+![Afbeelding van geselecteerde record met deelvenster voor inspectie van de record](../../media/mtp-ah/ah-take-actions.png)
 
-## <a name="review-actions-taken"></a>Acties bekijken
-Elke actie wordt individueel geregistreerd in het [actiecentrum](mtp-action-center.md) onder **Geschiedenis van het Actiecentrum**  >  **History** [(security.microsoft.com/action-center/history).](https://security.microsoft.com/action-center/history) Ga naar het actiecentrum om de status van elke actie te controleren.
+## <a name="review-actions-taken"></a>Bekijk de gebruikte acties
+Elke actie wordt afzonderlijk opgenomen in het [Actiecentrum](mtp-action-center.md) onder **Actiecentrum**  >  **geschiedenis** ([Security.Microsoft.com/Action-Center/History](https://security.microsoft.com/action-center/history)). Ga naar het Actiecentrum om de status van elke actie te controleren.
  
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
-- [Overzicht van het Onderhoudscentrum](mtp-action-center.md)
+- [Overzicht van Onderhoudscentrum](mtp-action-center.md)

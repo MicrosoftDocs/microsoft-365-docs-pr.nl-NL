@@ -14,14 +14,17 @@ ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u het probleem kunt verhelpen met behulp van het artikel over het oplossen van problemen in de beveiliging & nalevings centrum voor het identificeren en oplossen van onjuiste of verbroken e-mail stroom regels (ook wel een transportregel genoemd) in hun organisatie.
-ms.openlocfilehash: c933a6816c82161d0f4a6199ff1a339dd8a10eae
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 2f9a35534ab4377cff164b38eeb66dd55c48d5b9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357342"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199263"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Inzicht in langzame e-mail stroom regels in het nalevings centrum voor beveiliging &
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In de efficiëntie regels voor de e-mail stroom (ook wel transport-regels genoemd) kan de e-mail stroom vertragingen voor uw organisatie veroorzaken. Dit inzicht geeft een overzicht van e-mail stroom regels met gevolgen voor de e-mail stroom van uw organisatie. Voorbeelden van dit soort regels zijn:
 

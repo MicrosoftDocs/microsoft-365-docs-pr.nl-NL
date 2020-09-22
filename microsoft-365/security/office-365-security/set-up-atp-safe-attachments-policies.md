@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het definiëren van beleidsregels voor veilige bijlagen om uw organisatie tegen kwaadwillende bestanden in een e-mail te beschermen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8b69d114b1387a1ef76d962424149c1db93ce04
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5f9f1a6cc250fdd336e48c19c6cb5d73e9a05800
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656624"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197221"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Beleidsregels voor veilige bijlagen van Office 365 instellen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over veilige bijlagen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -97,7 +100,7 @@ Wanneer u uw beleid voor veilige bijlagen voor ATP instelt, kiest u een van de v
 |---|---|---|
 |**Uit**|De bijlagen voor malware worden niet gescand  <br/> De bezorging van berichten wordt niet vertraagd|Scan uitschakelen voor geselecteerde geadresseerden.  <br/> Onnodige vertragingen voor het routeren van interne e-mail voorkomen.  <br/> **Deze optie wordt niet aanbevolen voor de meeste gebruikers. U dient deze optie alleen te gebruiken om te controleren of de lijst met geblokkeerde gebruikersnamen automatisch e-mailberichten van vertrouwde afzenders ontvangt.**|
 |**Monitor**|Levert berichten met bijlagen en spoort wat er gebeurt met ontdekte malware|Zien waar de gedetecteerde malware in uw organisatie terechtkomt|
-|**Geheven**|Voorkomt dat berichten met schadelijke bijlagen voor schadelijke software worden voortgezet  <br/> Verzendt berichten met gedetecteerde malware [in Office 365](manage-quarantined-messages-and-files.md) , waarbij een beveiligingsbeheerder of een analist die berichten kan controleren en vrijgeven (of verwijderen)  <br/> Toekomstige berichten en bijlagen automatisch blokkeren|Uw organisatie beschermen tegen herhaalde aanvallen met dezelfde schadelijke bijlagen|
+|**Blokkeren**|Voorkomt dat berichten met schadelijke bijlagen voor schadelijke software worden voortgezet  <br/> Verzendt berichten met gedetecteerde malware [in Office 365](manage-quarantined-messages-and-files.md) , waarbij een beveiligingsbeheerder of een analist die berichten kan controleren en vrijgeven (of verwijderen)  <br/> Toekomstige berichten en bijlagen automatisch blokkeren|Uw organisatie beschermen tegen herhaalde aanvallen met dezelfde schadelijke bijlagen|
 |**Vervangen**|Verwijdert gedetecteerde schadelijke bijlagen  <br/> Laat geadresseerden u op de hoogte van de bijlagen verwijderen  <br/> Verzendt berichten met gedetecteerde malware [in Office 365](manage-quarantined-messages-and-files.md) , waarbij een beveiligingsbeheerder of een analist die berichten kan controleren en vrijgeven (of verwijderen)|De zichtbaarheid voor geadresseerden verhogen die bijlagen hebben verwijderd vanwege malware die zijn gedetecteerd|
 |**Dynamische bezorging**|Levert direct berichten  <br/> Hiermee worden bijlagen met een tijdelijke aanduiding voor bestanden vervangen totdat de scan is voltooid en de bijlagen opnieuw worden bijgevoegd als er geen malware is gedetecteerd  <br/> Inclusief bijlage Voorbeeldfuncties voor de meeste PDF-bestanden en Office-bestanden tijdens het scannen  <br/> Verzendt berichten met gedetecteerde malware in quarantaine, waar een beveiligingsbeheerder of analist de berichten kan controleren en vrijgeven (of verwijderen)  <br/> [Meer informatie over dynamische bezorgings berichten en voorbeelden van veilige bijlagen met ATP](dynamic-delivery-and-previewing.md) <br/> |Voorkom dat berichten worden vertraagd wanneer u geadresseerden tegen kwaadwillende bestanden beschermt  <br/> Voorbeelden van bijlagen weergeven in de veilige modus terwijl de scanfunctie plaatsvindt|
 |**Omleiden inschakelen**|Toepassen wanneer de optie monitor, blok of vervangen is geselecteerd  <br/> Hiermee worden bijlagen verzonden naar een opgegeven e-mailadres waar beveiligingsbeheerders of analisten kunnen onderzoeken|Beveiligingsbeheerders en analisten inschakelen voor onderzoek naar verdachte bijlagen|

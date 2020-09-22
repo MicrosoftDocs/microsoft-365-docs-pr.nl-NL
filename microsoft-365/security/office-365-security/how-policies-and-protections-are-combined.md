@@ -16,14 +16,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie vinden over de toepassings volgorde van beveiligingsregels in Exchange Online Protection (EOP) en de manier waarop de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
-ms.openlocfilehash: 9556d2262eb59224357e20027a1f0e63404081f2
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e2da22bfbe0e7df70cf8d8b0d8cfd09eaf6e2ee3
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827407"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196045"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mail beveiliging
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken kunnen inkomende e-mail door meerdere vormen van bescherming worden gemarkeerd. Het ingebouwde anti-virus beleid van EOP dat beschikbaar is voor alle Microsoft 365-klanten en het krachtigere ATP anti-phishingfilter dat ook beschikbaar is voor Office 365 Advanced Threat Protection (Office 365 ATP)-klanten. Berichten lopen ook door meerdere detectie scans voor malware, spam, phishing en dergelijke. Voor al deze activiteit is er sprake van enige verwarring waarop het beleid wordt toegepast.
 

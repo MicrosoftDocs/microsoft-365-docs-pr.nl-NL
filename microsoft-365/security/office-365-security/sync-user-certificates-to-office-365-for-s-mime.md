@@ -16,14 +16,17 @@ ms.assetid: 351c932e-99c1-4512-a6e8-788e90b7838f
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u de juiste certificaten kunt publiceren naar Office 365 voordat u S/MIME-beveiligde berichten verzendt in Exchange Online.
-ms.openlocfilehash: 634b65e45b01186a27f9ae61c91d4b27f1a11635
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 3551dbacc3cc6279d319860f1133d059216ae591
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826479"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202101"
 ---
 # <a name="sync-user-certificates-to-office-365-for-smime"></a>Gebruikerscertificaten synchroniseren met Office 365 voor S/MIME
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Voordat iedereen S/MIME-beveiligde berichten kan verzenden in Exchange Online, moeten de juiste certificaten zijn ingesteld. Voor het verzenden van versleutelde berichten via Exchange Online moet de e-mail-app van de afzender het openbare certificaat van de geadresseerde gebruiken om het bericht te versleutelen. Dit openbare X. 509-certificaat moet worden gepubliceerd naar Office 365.
 

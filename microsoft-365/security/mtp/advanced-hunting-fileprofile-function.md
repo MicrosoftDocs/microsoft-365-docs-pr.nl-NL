@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d0fd359bb6f56f7c20b0a39b7fd45ec551e7e49e
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 3fc563c762e7cd00888665b63e66159e4d3d9612
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797780"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196975"
 ---
 # <a name="fileprofile"></a>FileProfile()
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
@@ -47,7 +50,7 @@ De `FileProfile()` functie is een verrijkings functie in de [geavanceerde jacht]
 | IsRootSignerMicrosoft | Boolean | Geeft aan of de ondertekenaar van het basiscertificaat Microsoft is |
 | IsExecutable | Boolean | Opgeven of het bestand een bestand is van een Portable Executable (PE) |
 | Bedreiging | tekenreeks | Detectie naam voor malware of andere bedreigingen gevonden |
-| Rand | tekenreeks | Naam van de organisatie die het bestand heeft gepubliceerd |
+| Publisher | tekenreeks | Naam van de organisatie die het bestand heeft gepubliceerd |
 | Softwarenaam | tekenreeks | Naam van het SOFTWAREPRODUCT |
 
 ## <a name="syntax"></a>Syntaxis

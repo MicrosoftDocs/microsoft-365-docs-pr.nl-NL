@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Integreer de SIEM-server van uw organisatie met Office 365 Advanced Threat Protection en gerelateerde bedreigingen voor gebeurtenissen in de beheer-API van Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8e9dcf24adfb227d0c454b4f5952c879cea511f7
-ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
+ms.openlocfilehash: cfb76485fec8eca2f2b62da59fa2d18a56177bba
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860687"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203647"
 ---
 # <a name="siem-integration-with-advanced-threat-protection"></a>SIEM-integratie met Advanced Threat Protection
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Als uw organisatie gebruikmaakt van een beveiligingsincident en SIEM server, kunt u Office 365 Advanced Threat Protection (Office 365 ATP) integreren met uw SIEM-server. U kunt deze integratie instellen met de [API Office 365 activity management](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
 

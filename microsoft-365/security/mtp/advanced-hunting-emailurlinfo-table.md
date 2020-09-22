@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: aa81628368cbaac121e2930bde9d5498f8d71f17
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 096cddac5f2e8db74cbe6ef84e0be3094a7a1d57
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649329"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197987"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
@@ -44,6 +47,6 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
-- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
+- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

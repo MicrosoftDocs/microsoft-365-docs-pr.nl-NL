@@ -14,14 +14,17 @@ ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u PowerShell gebruikt om configuratie-instellingen toe te passen op uw tenants in Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: 46b7c756171da7687568e5135974841d828f45bd
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 6e33ceb6a9daa88bfefd4ec08ac9f2a9f34a942f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827455"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198677"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Voorbeeldscript voor het toepassen van EOP-instellingen op meerdere tenants
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Met behulp van het volgende voorbeeldscript kunnen beheerders van Microsoft Exchange Online Protection (EOP) die meerdere tenants beheren (bedrijven), Windows PowerShell gebruiken om de configuratie-instellingen op hun tenants toe te passen.
 

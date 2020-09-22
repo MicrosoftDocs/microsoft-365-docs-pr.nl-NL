@@ -17,14 +17,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen Veelgestelde vragen en antwoorden over antispam beveiliging bekijken in Exchange Online Protection (EOP).
-ms.openlocfilehash: ed871990cf5f8fc4e15995987312fc6814ab8296
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: d114c20a3a246eb0cd925b6783b10071d056443d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825171"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198605"
 ---
 # <a name="anti-spam-protection-faq"></a>Veelgestelde vragen over beveiliging tegen ongewenste e-mail
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Dit onderwerp bevat veelgestelde vragen en antwoorden over beveiliging tegen malware voor Microsoft 365-organisaties met postvakken in Exchange Online, of zelfstandige Exchange Online Protection (EOP)-organisaties zonder postvakken van Exchange Online.
 

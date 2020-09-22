@@ -11,14 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Beheerders kunnen informatie vinden over het rapport met automatisch doorgestuurde berichten in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum.
-ms.openlocfilehash: e9e3a0159671dd4ce62f4fa0b07b7162807fe0e6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b5255a95718fa6624c85e93a19c8accf9c3dcdb2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949854"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199357"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Berichten met automatisch doorgestuurde inzichten in het beveiligings & nalevings centrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Met de **automatisch doorgestuurde berichten** in het [Dashboard voor e-mail stromen](mail-flow-insights-v2.md) in de [beveiligings & nalevings centrum](https://protection.office.com) wordt informatie weergegeven over berichten die automatisch van uw organisatie worden doorgestuurd naar geadresseerden in externe domeinen.
 

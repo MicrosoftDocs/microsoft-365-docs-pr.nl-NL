@@ -1,7 +1,7 @@
 ---
-title: Krijg relevante informatie over een entiteit met go hunt
-description: Meer informatie over het gebruik van de tool 'go hunt' om snel relevante informatie over een entiteit of gebeurtenis te zoeken met behulp van geavanceerde jacht.
-keywords: geavanceerde jacht, incident, pivot, entiteit, gaan jagen, relevante gebeurtenissen, bedreiging jacht, cyber bedreiging jacht, zoeken, query, telemetrie, Microsoft 365, Microsoft Threat Protection
+title: Relevante informatie over een entiteit aanvragen met behulp van Go
+description: Meer informatie over het gebruik van het hulpprogramma ' go go ' om snel de benodigde informatie over een entiteit of gebeurtenis te doorzoeken met behulp van geavanceerde jacht.
+keywords: geavanceerde jacht, incident, Pivot, entiteit, zoeken, relevante evenementen, bedreigings jacht, Cyber Threat jacht, zoeken, query, telemetrie, Microsoft 365, Microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,41 +17,44 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b9afecb3d0efce93ae5d5725bba71d8d9719d17f
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 496deff5d2fda47b7ffac4bc87e98bf28e90ea50
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430409"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196963"
 ---
-# <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Snel op zoek naar entiteits- of evenementinformatie met go hunt
+# <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Snel zoeken naar informatie over entiteiten of evenementen met Go Go
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Met de *go hunt-actie* u gebeurtenissen en verschillende entiteitstypen snel onderzoeken met behulp van krachtige op query gebaseerde [geavanceerde jachtmogelijkheden.](advanced-hunting-overview.md) Met deze actie wordt automatisch een geavanceerde jachtquery uitgevoerd om relevante informatie over de geselecteerde gebeurtenis of entiteit te vinden.
+Met de actie *Go jacht* kunt u snel gebeurtenissen en verschillende entiteitstypen met [krachtige zoekfuncties op basis](advanced-hunting-overview.md) van query's. Met deze actie voert u automatisch een geavanceerde zoekopdracht uit om relevante informatie over de geselecteerde gebeurtenis of entiteit te zoeken.
 
-De *actie Go Hunt* is beschikbaar in verschillende delen van het beveiligingscentrum wanneer gebeurtenis- of entiteitsgegevens worden weergegeven. U bijvoorbeeld *go hunt* gebruiken vanuit de volgende secties:
+De actie *Go* -actie is beschikbaar in diverse secties van het Beveiligingscentrum wanneer de details van een gebeurtenis of entiteit worden weergegeven. U kunt bijvoorbeeld de volgende secties gebruiken om te *zoeken* :
 
-- Op de [incidentpagina](investigate-incidents.md#incident-overview)u details bekijken over gebruikers, apparaten en vele andere entiteiten die aan een incident zijn gekoppeld. Als u een entiteit selecteert, krijgt u aanvullende informatie en verschillende acties die u op die entitity uitvoeren. In het onderstaande voorbeeld wordt een postvak geselecteerd, waarin details over het postvak worden weergegeven en de optie om te zoeken naar meer informatie over het postvak.
+- Op de [pagina incident](investigate-incidents.md#incident-overview)kunt u Details bekijken van gebruikers, apparaten en vele andere entiteiten die aan een incident zijn gekoppeld. Wanneer u een entiteit selecteert, vindt u aanvullende informatie en verschillende acties die u kunt uitvoeren op die entitity. In het onderstaande voorbeeld is er een postvak geselecteerd, met details over het postvak en de optie om te zoeken naar meer informatie over het postvak.
 
-    ![Afbeelding met postvakdetails met de optie Go Hunt](../../media/mtp-ah/go-hunt-email.png)
+    ![Afbeelding met details postvak met de optie Ga naar](../../media/mtp-ah/go-hunt-email.png)
 
-- Op de incidentpagina u ook toegang krijgen tot een lijst met entiteiten onder het tabblad Bewijs. Het selecteren van een van deze entiteiten biedt een optie om snel te zoeken naar informatie over die entiteit.
+- Op de pagina incidenten kunt u ook een lijst met entiteiten openen op het tabblad bewijs. Het selecteren van een van deze entiteiten biedt een mogelijkheid snel te zoeken naar informatie over die entiteit.
 
-    ![Afbeelding met geselecteerd bestand met de optie Go Hunt op het tabblad Bewijs](../../media/mtp-ah/go-hunt-evidence-file.png)
+    ![Afbeelding van een geselecteerd bestand met de optie Ga naar het tabblad gegevens](../../media/mtp-ah/go-hunt-evidence-file.png)
 
 
-- Wanneer u de tijdlijn voor een apparaat bekijkt, u een gebeurtenis in de tijdlijn selecteren om aanvullende informatie over die gebeurtenis weer te geven. Zodra een evenement is geselecteerd, krijg je de mogelijkheid om te jagen voor andere relevante gebeurtenissen in geavanceerde jacht.
+- Wanneer u de tijdlijn voor een apparaat bekijkt, kunt u een gebeurtenis selecteren in de tijdlijn om aanvullende informatie over die gebeurtenis te bekijken. Als u een gebeurtenis hebt geselecteerd, kunt u de optie voor het zoeken naar andere relevante gebeurtenissen in de geavanceerde jacht.
 
-    ![Afbeelding met gebeurtenisdetails met de optie go hunt](../../media/mtp-ah/go-hunt-event.png)
+    ![Afbeelding met gebeurtenisdetails met de optie Ga naar](../../media/mtp-ah/go-hunt-event.png)
 
-Als u **Ga hunt** of Hunt voor **gerelateerde gebeurtenissen** selecteert, worden verschillende query's doorstaan, afhankelijk van of u een entiteit of een gebeurtenis hebt geselecteerd.
+Wanneer u **Ga start of zoeken** **naar gerelateerde gebeurtenissen** selecteert, worden andere query's uitgevoerd, afhankelijk van of u een entiteit of een gebeurtenis hebt geselecteerd.
 
-## <a name="query-for-entity-information"></a>Query voor entiteitsgegevens
-Wanneer u *go hunt* gebruikt om informatie over een gebruiker, apparaat of een ander type entiteit op te vragen, controleert de query alle relevante schematabellen op gebeurtenissen waarbij die entiteit betrokken is. Om de resultaten beheersbaar te houden, wordt de query beperkt tot ongeveer dezelfde periode als de vroegste activiteit in de afgelopen 30 dagen waarbij de entiteit betrokken is en is gekoppeld aan het incident.
+## <a name="query-for-entity-information"></a>Query voor entiteits informatie
+Wanneer u *Go* -zoekopdracht gebruikt om informatie te lezen over een gebruiker, apparaat of ander type entiteit, controleert de query alle relevante schema tabellen voor gebeurtenissen die betrekking hebben op die entiteit. Om de resultaten beheersbaar te houden, is de query in de loop van de vroegste periode in de afgelopen 30 dagen in de afgelopen 30 dagen voor de laatste 30 dagen die de entiteit omvat, in de afgelopen 30 dagen voor de laatste dertig dagen van de entiteit met het incident.
 
-Hier is een voorbeeld van de go hunt query voor een apparaat:
+Hier ziet u een voorbeeld van de zoekopdracht Go voor een apparaat:
 
 ```kusto
 let selectedTimestamp = datetime(2020-06-02T02:06:47.1167157Z);
@@ -64,20 +67,20 @@ and DeviceName == deviceName
 // or DeviceId == deviceId
 | take 100
 ```
-### <a name="supported-entity-types"></a>Ondersteunde entiteitstypen
-U *go hunt* gebruiken nadat u een van deze entiteitstypen hebt geselecteerd:
+### <a name="supported-entity-types"></a>Ondersteunde entiteittypen
+Wanneer u een van de volgende entiteittypen selecteert, kunt u de *overgaan* gebruiken.
 
 - Bestanden
-- E-mails
-- E-mailclusters
-- Postvakken
+- Sturen
+- E-mail clusters
+- Postbus
 - Gebruikers
 - Apparaten
 - IP-adressen
-- Urls
+- URLs
 
-## <a name="query-for-event-information"></a>Query voor gebeurtenisgegevens
-Wanneer u *go hunt* gebruikt om informatie over een tijdlijngebeurtenis op te vragen, controleert de query alle relevante schematabellen voor andere gebeurtenissen rond het tijdstip van de geselecteerde gebeurtenis. In de volgende query worden bijvoorbeeld gebeurtenissen weergegeven in verschillende schematabellen die zich rond dezelfde periode op hetzelfde apparaat hebben voorgedaan:
+## <a name="query-for-event-information"></a>Query voor informatie over gebeurtenissen
+Wanneer u *Ga* naar de query voor het maken van een tijdlijn gaat, controleert de query alle relevante schema tabellen op andere gebeurtenissen over de tijd van de geselecteerde gebeurtenis. De volgende query bevat bijvoorbeeld een overzicht van gebeurtenissen in verschillende schema tabellen die in dezelfde periode plaatsvonden op hetzelfde apparaat:
 
 ```kusto
 // List relevant events 30 minutes before and after selected LogonAttempted event
@@ -91,14 +94,14 @@ search in (DeviceFileEvents, DeviceProcessEvents, DeviceEvents, DeviceRegistryEv
 ```
 
 ## <a name="adjust-the-query"></a>De query aanpassen
-Met enige kennis van de [querytaal](advanced-hunting-query-language.md)u de query aanpassen aan uw voorkeur. U deze regel bijvoorbeeld aanpassen, die de grootte van het tijdvenster bepaalt:
+Met enige kennis van de [querytaal](advanced-hunting-query-language.md)kunt u de query aanpassen aan uw voorkeur. U kunt bijvoorbeeld de volgende regel aanpassen om de grootte van het tijdvenster te bepalen:
 
 ```kusto
 Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 ```
 
-Naast het wijzigen van de query om relevantere resultaten te krijgen, u ook:
-- [Bekijk de resultaten als grafieken](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
+Naast het wijzigen van de query om meer relevante resultaten te bereiken, kunt u ook het volgende doen:
+- [Het resultaat weergeven als grafiek](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
 - [Een aangepaste detectieregel maken](custom-detection-rules.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen

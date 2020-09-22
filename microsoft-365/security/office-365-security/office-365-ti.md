@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het onderzoek en de antwoord mogelijkheden in Office 365 Advanced Threat Protection-abonnement.
-ms.openlocfilehash: 6c009a756b30d4b35159b98b145b19b72c9ab541
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: c37129c7c3801ab1e55bd59f9c40c9e65f9cbd8d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656669"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198431"
 ---
 # <a name="threat-investigation-and-response"></a>Threat onderzoek en-antwoord
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Oplossingen voor onderzoek en antwoorden in [Office 365 Advanced Threat Protection](office-365-atp.md) helpen beveiligings analisten en beheerders de mogelijkheid te bieden gebruikers van de organisatie microsoft 365 voor bedrijven te beschermen door:
 - Het identificeren, controleren en begrijpen van cyberattacks

@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9e92a0328d2e7fb9cfe7461241dd866081926876
-ms.sourcegitcommit: 62a8c226422eac9c085cc886b4836b037f95ef6d
+ms.openlocfilehash: dd7b02200e370588bbb9470a3d7e897b30234ead
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47825372"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197807"
 ---
 # <a name="advanced-hunting-apis"></a>Geavanceerde jacht-Api's
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection

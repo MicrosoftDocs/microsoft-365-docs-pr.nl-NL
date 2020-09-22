@@ -1,8 +1,8 @@
 ---
-title: ATP-mogelijkheden voor Microsoft Defender configureren en beheren
+title: Microsoft Defender ATP-functies configureren en beheren
 ms.reviewer: ''
-description: Microsoft Defender ATP-mogelijkheden configureren en beheren, zoals beperking van het aanvalsoppervlak, beveiliging van de volgende generatie en beveiligingsbesturingselementen
-keywords: configureren, beheren, mogelijkheden, beperking van het aanvalsoppervlak, bescherming van de volgende generatie, beveiligingscontroles, endpointdetectie en -respons, automatisch onderzoek en herstel, beveiligingscontroles, besturingselementen
+description: Microsoft Defender ATP-functies zoals aanvals vermindering, volgende generatie beveiliging en beveiligingsfuncties configureren en beheren
+keywords: configureren, beheren, functies, oppervlakte van aanval, volgende generatie beveiliging, beveiligings besturing, detectie van het eindpunt en antwoord, automatisch onderzoek en herstel, beveiliging besturingselement
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: w10
@@ -16,30 +16,33 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 2435a934065a06c8105f8ac4e0f80dcfbaed8f7f
-ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
+ms.openlocfilehash: 0bc7ada54c0ce67ccbe1fded5970853672e08c1b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997792"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201028"
 ---
-# <a name="configure-and-manage-microsoft-defender-atp-capabilities"></a>ATP-mogelijkheden voor Microsoft Defender configureren en beheren
-**Geldt voor:**
+# <a name="configure-and-manage-microsoft-defender-atp-capabilities"></a>Microsoft Defender ATP-functies configureren en beheren
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+**Van toepassing op:**
 
 - [Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP)](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 
-Configureer en beheer alle Microsoft Defender ATP-mogelijkheden om de beste beveiligingsbeveiliging voor uw organisatie te krijgen. 
+U kunt alle functies van Microsoft Defender ATP configureren en beheren om de beste beveiligings bescherming voor uw organisatie te krijgen. 
 
 
 ## <a name="in-this-section"></a>In deze sectie 
-Onderwerp | Beschrijving 
+Rond | Beschrijving 
 :---|:---
-[Mogelijkheden voor het verkleinen van aanvalsoppervlakken configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Door ervoor te zorgen dat configuratie-instellingen goed zijn ingesteld en technieken voor het benutten van mitigatie worden toegepast, zijn deze mogelijkheden bestand tegen aanvallen en exploitaties. 
-[Beveiliging van de volgende generatie configureren](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | Configureer bescherming van de volgende generatie om alle soorten opkomende bedreigingen te vangen.
-[Mogelijkheden voor Microsoft Threat Experts configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Configureer en beheer hoe u informatie over cyberbeveiligingsbedreigingen van Microsoft Threat Experts wilt krijgen.
-[Integratie met Microsoft-bedreigingsbeveiliging configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Configureer andere oplossingen die integreren met Microsoft Defender ATP.
-[Ondersteuning voor beheer en API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| Haal waarschuwingen naar uw SIEM of gebruik API's om aangepaste waarschuwingen te maken. Power BI-rapporten maken en maken. 
-[Instellingen voor Microsoft Defender Security Center configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  Configureer portalgerelateerde instellingen, zoals algemene instellingen, geavanceerde functies, schakel de preview-ervaring en anderen in.
+[Mogelijkheden voor oppervlakte vermindering van aanval configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Als u zeker weet dat de configuratie-instellingen op de juiste manier zijn ingesteld en deel te maken met de beperkings technieken, worden de volgende mogelijkheden weergegeven voor aanvallen en exploitatie. 
+[Volgende generatie beveiliging configureren](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | Configureer de volgende generatie beveiliging om alle soorten opkomende bedreigingen te vangen.
+[De mogelijkheden van Microsoft Threat experts configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Configureer en beheer hoe u Cyber Security bedreigings informatie van Microsoft Threat experts wilt verzamelen.
+[Integratie van Microsoft Threat Protection configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Andere oplossingen configureren die worden geïntegreerd met Microsoft Defender ATP.
+[Ondersteuning voor het beheer en de API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| U ontvangt waarschuwingen aan uw SIEM of gebruik Api's om aangepaste waarschuwingen te maken. Power BI-rapporten maken en maken. 
+[Instellingen voor Microsoft Defender-Beveiligingscentrum configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  Verwante instellingen voor de portal configureren, zoals algemene instellingen, geavanceerde functies, de voorbeeld ervaring en andere functies inschakelen.
 
 
 

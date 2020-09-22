@@ -13,14 +13,17 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Beheerders kunnen de foutcodes voor de bezorging van berichten achterhalen via connectors (ook wel e-mail stroom informatie genoemd).
-ms.openlocfilehash: e8427f3e0341ccb381121b6cdc83d20727713d4c
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 0d73ea1fe64cda3c3f29f7bd437bba4e93f37529
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307915"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198501"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>E-mailstroomanalyse in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken gebruikt u meestal een verbindingslijn voor het routeren van e-mailberichten van EOP naar uw on-premises e-mail omgeving. U kunt ook een connector gebruiken om berichten van Microsoft 365 door te sturen naar een partnerorganisatie. Wanneer Microsoft 365 deze berichten niet via de connector bezorgt, worden deze in de wachtrij geplaatst in Microsoft 365. Microsoft 365 blijft gedurende 24 uur opnieuw proberen voor elk bericht. Na 24 uur verloopt het bericht in de wachtrij en wordt het verzonden naar de oorspronkelijke afzender in een rapport over niet-uitgevoerde bezorging (ook wel een NDR genoemd of een bericht met een stuiter bericht).
 

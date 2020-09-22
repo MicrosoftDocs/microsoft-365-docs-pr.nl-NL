@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe Microsoft 365 de SPF-TXT-record (Sender Policy Framework) in DNS gebruikt om ervoor te zorgen dat e-mail systemen berichten vertrouwen die vanuit uw aangepaste domein zijn verzonden.
-ms.openlocfilehash: 702c5de90c53388a3d55ad752010fbaa04b5556b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c437793a63f3869573b023cbcd9420e4d3c3b554
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307647"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196105"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Hoe Microsoft 365 SPF (Sender Policy Framework) gebruikt om adresvervalsing te voorkomen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Overzicht:** In dit artikel wordt beschreven hoe Microsoft 365 de SPF-TXT-record (Sender Policy Framework) in DNS gebruikt om ervoor te zorgen dat e-mail systemen berichten die vanuit uw aangepaste domein worden verzonden, worden vertrouwd. Dit geldt voor uitgaande e-mail verzonden via Microsoft 365. Berichten die worden verzonden vanaf Microsoft 365 naar een geadresseerde in Microsoft 365, worden altijd SPF weergegeven.
 

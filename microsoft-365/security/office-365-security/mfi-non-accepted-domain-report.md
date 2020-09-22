@@ -13,14 +13,17 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u het niet-geaccepteerde domein rapport gebruikt in het dashboard voor e-mail stromen in de beveiligings & nalevings centrum voor het bewaken van berichten van uw on-premises organisatie waarbij het domein van de afzender niet is geconfigureerd in Microsoft 365.
-ms.openlocfilehash: 02692fbded20aa5062ce8add83925fb65c116630
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: d05489ec4a6d670fc89b5d943b3e7061506b6fe8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47358576"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199323"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Rapport over niet-geaccepteerd domein in de beveiligings & nalevings centrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Het **niet-geaccepteerde domein** rapport op het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de [beveiligings & nalevings centrum](https://protection.office.com) geeft informatie weer over berichten van de on-premises e-mail organisatie waarbij het domein van de afzender niet is geconfigureerd als een geaccepteerd domein in uw Microsoft 365-organisatie.
 

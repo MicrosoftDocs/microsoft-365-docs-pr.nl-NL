@@ -14,14 +14,17 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over hulpprogramma's voor het oplossen van rapporten die beschikbaar zijn voor Microsoft Exchange Online Protection (EOP)-beheerders.
-ms.openlocfilehash: 149f7fa36a717a92d3cda5f6f3f82651f0144d73
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 86f4e18430324ed95f036f93746d826225ec3b2f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827627"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48196397"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rapporten en berichten traceren in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, biedt EOP veel verschillende rapporten waarmee u de algehele status en de status van uw organisatie kunt bepalen. Er zijn ook hulpmiddelen waarmee u problemen kunt oplossen, zoals een bericht dat niet aan de bedoelde geadresseerden voldoet, en de controlerapporten voor de nalevingsvereisten.
 

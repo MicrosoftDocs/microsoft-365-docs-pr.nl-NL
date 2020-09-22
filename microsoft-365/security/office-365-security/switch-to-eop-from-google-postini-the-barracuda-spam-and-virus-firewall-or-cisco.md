@@ -14,14 +14,17 @@ ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u kunt overstappen op Exchange Online Protection (EOP) via een on-premises e-mail bewerkings toestel of een Cloud beveiligingsservice.
-ms.openlocfilehash: a6405411a130abf8369b312f553060caf0bf3855
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 25669982c06127331369fdb595c6614733681047
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827795"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202123"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  In dit onderwerp wordt uitgelegd hoe u overstapt op Exchange Online Protection (EOP) van een on-premises e-mail bewerkings toestel of een cloudservice op basis van een on-premises beveiliging, en om u hulpbronnen te bieden om aan de slag te gaan. Er zijn veel oplossingen voor spam filteren, maar het proces voor het overschakelen naar EOP is in de meeste gevallen vergelijkbaar.
 

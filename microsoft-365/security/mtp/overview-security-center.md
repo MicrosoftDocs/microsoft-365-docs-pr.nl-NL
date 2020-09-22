@@ -14,14 +14,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: f831e952b20d04796f69a6c3c00ba4d69d332951
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 425956ebd4c3badc54f074b779997d530e2ee1a5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867231"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200989"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Overzicht van het Microsoft 365-Beveiligingscentrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Het beheren van de beveiliging van uw bedrijf om te beschermen tegen een ooit veranderende bedreiging, biedt veel uitdagingen. Misschien hebt u te veel beveiligingsoplossingen met diverse locaties om veel besturingselementen te configureren. U kunt het lastig zijn om te weten welke besturingselementen het doel treffen en wat nieuwe uitdaging is voor uw personeelsleden. Het kan lastig zijn dat beveiligings teams het juiste evenwicht van beveiliging en productiviteit ontdekken.
 

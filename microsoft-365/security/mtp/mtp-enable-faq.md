@@ -1,7 +1,7 @@
 ---
-title: Veelgestelde vragen bij het inschakelen van Microsoft Threat Protection
-description: Antwoorden krijgen op de meest gestelde vragen over licenties, machtigingen, initiële instellingen en andere producten en services met betrekking tot het inschakelen van Microsoft Threat Protection
-keywords: veelgestelde vragen, FAQ, GCC, aan de slag, inschakelen MTP, Microsoft Threat Protection, M365, beveiliging, gegevens locatie, vereiste machtigingen, licentie geschiktheid, instellingen pagina
+title: Veelgestelde vragen over het inschakelen van Microsoft Threat Protection
+description: Hier vindt u antwoorden op de meest gestelde vragen over licenties, machtigingen, initiële instellingen en andere producten en services met betrekking tot het inschakelen van Microsoft Threat Protection
+keywords: Veelgestelde vragen, veelgestelde vragen, GCC, aan de slag, MTP inschakelen, Microsoft Threat Protection, M365, beveiliging, gegevenslocatie, vereiste machtigingen, licentie komt, pagina instellingen
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,83 +19,86 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9dcfeb5616afc8953e862d6d1a542d694582b157
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 6b0d8d9be0cc84e61a3228f79fc14f1bfc9f8a83
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44845062"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198837"
 ---
-# <a name="frequently-asked-questions-when-turning-on-microsoft-threat-protection"></a>Veelgestelde vragen bij het inschakelen van Microsoft Threat Protection
+# <a name="frequently-asked-questions-when-turning-on-microsoft-threat-protection"></a>Veelgestelde vragen over het inschakelen van Microsoft Threat Protection
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Lees antwoorden op de meest gestelde vragen over het inschakelen van [Microsoft Threat Protection](microsoft-threat-protection.md), inclusief vereiste licenties en machtigingen, het implementeren van ondersteuningsservices en de eerste instellingen.
+Lees de antwoorden op de meest gestelde vragen over het inschakelen van [Microsoft Threat Protection](microsoft-threat-protection.md), waaronder vereiste licenties en machtigingen, het implementeren van ondersteuningsservices en de eerste instellingen.
 
-[Lees Microsoft Threat Protection inschakelen](mtp-enable.md)voor instructies voor het inschakelen van de service.
+[Zie Microsoft Threat Protection inschakelen](mtp-enable.md)voor instructies over het inschakelen van de service.
 
-## <a name="i-dont-have-a-microsoft-365-e5-license-can-i-still-use-microsoft-threat-protection"></a>Ik heb geen Microsoft 365 E5 licentie. Kan ik nog steeds Microsoft Threat Protection gebruiken?
+## <a name="i-dont-have-a-microsoft-365-e5-license-can-i-still-use-microsoft-threat-protection"></a>Ik heb geen Microsoft 365 E5-licentie. Kan ik nog steeds Microsoft Threat Protection gebruiken?
 
-Klanten met de volgende niet-E5-licenties kunnen Microsoft Threat Protection gebruiken:
+Klanten met de volgende non-E5-licenties kunnen Microsoft Threat Protection gebruiken:
 
 - Microsoft Defender Advanced Threat Protection
 - Azure Advanced Threat Protection
 - Microsoft Cloud App Security
-- Geavanceerde bedreigingsbeveiliging van Office 365 (abonnement 2)
+- Office 365 Advanced Threat Protection (abonnement 2)
  
-[Lees de licentievereisten](prerequisites.md#licensing-requirements)voor een volledige lijst met ondersteunde licenties.
+Voor een volledige lijst met ondersteunde licenties [raadpleegt u de licentievereisten](prerequisites.md#licensing-requirements).
 
-## <a name="do-i-need-to-install-or-deploy-anything-to-start-using-microsoft-threat-protection"></a>Moet ik iets installeren of implementeren om Microsoft Threat Protection te kunnen gebruiken?
+## <a name="do-i-need-to-install-or-deploy-anything-to-start-using-microsoft-threat-protection"></a>Moet ik alles installeren of implementeren om Microsoft Threat Protection te kunnen gebruiken?
 
-Nee, Microsoft Threat Protection consolideert gegevens van Microsoft 365-beveiligingsservices die u al hebt geïmplementeerd. Zodra u het inschakelt, zullen incident-, automatiserings- en jachtervaringen gaan werken binnen het bereik van de geïmplementeerde producten. Als geen van deze producten correct is geïmplementeerd, geeft Microsoft Threat Protection geen gegevens weer en kan er geen actie worden ondernomen.
+Nee, Microsoft Threat Protection kan gegevens van Microsoft 365-beveiligingsservices die u al hebt geïmplementeerd, samenvoegen. Wanneer u de functie hebt ingeschakeld, kunnen incident-, automatiserings-en jacht-ervaringen werken binnen het bereik van de gedistribueerde producten. Als geen van deze producten op de juiste manier is geïmplementeerd, worden geen gegevens in Microsoft Threat Protection weergegeven en kan geen actie ondernemen.
 
-Om uw Microsoft Threat Protection-ervaringen te optimaliseren, raden we u aan *alle* ondersteunde [Microsoft 365-beveiligingsproducten en -services](deploy-supported-services.md)te implementeren.
+Om uw ervaringen met Microsoft Threat Protection te optimaliseren, wordt u aangeraden *alle* ondersteunde [Microsoft 365-beveiligingsproducten en-services](deploy-supported-services.md)te implementeren.
 
-## <a name="where-does-microsoft-threat-protection-process-and-store-my-data"></a>Waar verwerkt en slaat Microsoft Threat Protection mijn gegevens op?
-Microsoft Threat Protection selecteert automatisch een optimale locatie voor het datacenter waar geconsolideerde gegevens worden verwerkt en opgeslagen. Als u Microsoft Defender ATP hebt, selecteert u dezelfde locatie die wordt gebruikt door Microsoft Defender ATP.
+## <a name="where-does-microsoft-threat-protection-process-and-store-my-data"></a>Waar kan ik Microsoft Threat Protection processen en mijn gegevens opslaan?
+Microsoft Threat Protection selecteert automatisch een optimale locatie voor het datacenter waar geconsolideerde gegevens worden verwerkt en opgeslagen. Als u Microsoft Defender ATP hebt, wordt de locatie geselecteerd die wordt gebruikt in Microsoft Defender ATP.
 
 >[!NOTE]
->Microsoft Defender ATP-bepalingen in datacenters van de Europese Unie (EU) automatisch worden ingeschakeld via Azure Security Center. Microsoft Threat Protection voorziet automatisch in hetzelfde EU-datacenter voor klanten die Microsoft Defender ATP op deze manier hebben ingericht. 
+>In Microsoft Defender ATP worden automatisch de voorzieningen van de Europese Unie (EU)-datacenters automatisch ingericht wanneer ze zijn ingeschakeld via Azure Beveiligingscentrum. Microsoft Threat Protection wordt automatisch ingericht in hetzelfde EU-datacenter voor klanten die op deze manier Microsoft Defender ATP hebben ingericht. 
 
-De locatie van het datacenter wordt voor en na de service weergegeven op de instellingenpagina voor Microsoft Threat Protection **(Instellingen > Microsoft Threat Protection**). Als u liever een andere locatie van het datacenter gebruikt, selecteert u **Hulp nodig?**
+De locatie van het datacenter wordt weergegeven vóór en na het inrichten van de service op de pagina instellingen voor Microsoft Threat Protection (**instellingen > Microsoft Threat Protection**). Als u liever een andere locatie voor het datacenter wilt gebruiken, selecteert u **hulp nodig?** in het microsoft 365-Beveiligingscentrum voor contact opnemen met Microsoft ondersteuning.
 
-## <a name="where-can-i-access-microsoft-threat-protection"></a>Waar heb ik toegang tot Microsoft Threat Protection?
+## <a name="where-can-i-access-microsoft-threat-protection"></a>Waar kan ik Microsoft Threat Protection openen?
 
-Microsoft Threat Protection is beschikbaar in het Microsoft 365-beveiligingscentrum. Als u naar het beveiligingscentrum wilt gaan, bladert u naar de URL [https://security.microsoft.com](https://security.microsoft.com) .
+Microsoft Threat Protection is beschikbaar in het Beveiligingscentrum van Microsoft 365. Blader naar de URL om naar het Beveiligingscentrum te gaan [https://security.microsoft.com](https://security.microsoft.com) .
 
-##  <a name="what-permissions-do-i-need-to-access-microsoft-threat-protection-in-microsoft-365-security-center"></a>Welke machtigingen heb ik nodig om toegang te krijgen tot Microsoft Threat Protection in het Microsoft 365-beveiligingscentrum?
+##  <a name="what-permissions-do-i-need-to-access-microsoft-threat-protection-in-microsoft-365-security-center"></a>Welke machtigingen heb ik nodig voor het openen van Microsoft Threat Protection in Microsoft 365 Beveiligingscentrum?
 
-Accounts die de volgende Azure Active Directory(AD)-rollen hebben toegewezen, hebben toegang tot de functionaliteit en gegevens van Microsoft Threat Protection:
+Accounts die zijn toegewezen aan de volgende Azure Active Directory (AD) rollen hebben toegang tot de functies en gegevens van Microsoft Threat Protection.
 
 - Globale beheerder
 - Beveiligingsbeheerder
-- Beveiligingsoperator
-- Global Reader
-- Beveiligingslezer
+- Beveiligings operator
+- Algemene lezer
+- Beveiligings lezer
 
 >[!NOTE]
->Op rollen gebaseerde toegangscontrole-instellingen in Microsoft Defender ATP beïnvloeden de toegang tot gegevens. Lees voor meer informatie over [het beheren van de toegang tot Microsoft Threat Protection.](mtp-permissions.md)
+>De instellingen voor toegangsbeheer op basis van rollen in Microsoft Defender ATP beïnvloeden de toegang tot gegevens. Lees voor meer informatie over [het beheren van de toegang tot Microsoft Threat Protection](mtp-permissions.md).
 
-## <a name="what-time-zone-does-microsoft-threat-protection-default-to"></a>Tot welke tijdzone wordt Microsoft Threat Protection standaard gebruikt?
-Microsoft Threat Protection geeft standaard tijdsinformatie weer in de UTC-tijdzone. U deze instelling wijzigen om uw lokale tijdzone te gebruiken. [Meer informatie over het instellen van de tijdzone](mtp-time-zone.md)
+## <a name="what-time-zone-does-microsoft-threat-protection-default-to"></a>Voor welke tijdzone is Microsoft Threat Protection standaard?
+Standaard worden in Microsoft Bedreigingsbeveiliging tijds informatie weergegeven in de UTC-tijdzone. U kunt deze instelling wijzigen om uw lokale tijdzone te gebruiken. [Meer informatie over het instellen van de tijdzone](mtp-time-zone.md)
 
-## <a name="how-can-i-learn-about-new-microsoft-threat-protection-feature-and-ui-updates"></a>Hoe kom ik meer te weten over de nieuwe Microsoft Threat Protection-functie en UI-updates?
+## <a name="how-can-i-learn-about-new-microsoft-threat-protection-feature-and-ui-updates"></a>Hoe kan ik meer te weten komen over de nieuwe functies en UI-updates voor Microsoft Threat Protection?
 
-Microsoft verstrekt regelmatig informatie via de verschillende kanalen, waaronder:
+Microsoft biedt regelmatig informatie over de verschillende kanalen, waaronder:
 
-- Het [berichtencentrum](../../admin/manage/message-center.md) in het Microsoft 365-beheercentrum
-- Blogposts in de [Microsoft 365 security & compliance tech community](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/bg-p/securityprivacycompliance)
+- Het [berichtencentrum](../../admin/manage/message-center.md) in het microsoft 365-Beheercentrum
+- Blogposts in de [Microsoft 365-beveiligings & compliance tech Community](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/bg-p/securityprivacycompliance)
 
-Ontvang de nieuwste openbaar beschikbare ervaringen door [preview-functies](preview.md)in te schakelen.
+U krijgt de nieuwste, algemeen beschikbare [functies door Voorbeeldfuncties](preview.md)in te schakelen.
 
-## <a name="is-microsoft-threat-protection-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>Is Microsoft Threat Protection beschikbaar voor GCC of GCC High van de Amerikaanse overheid?
-Op dit moment is het niet beschikbaar.
+## <a name="is-microsoft-threat-protection-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>Is Microsoft Threat Protection beschikbaar voor US Government Community Cloud (GCC) of GCC High?
+Dit is momenteel niet beschikbaar.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [Overzicht van Microsoft Threat Protection](microsoft-threat-protection.md)
 - [Schakel Microsoft Threat Protection in](mtp-enable.md).
-- [Licentievereisten en andere voorwaarden](prerequisites.md)
+- [Licentievereisten en andere vereisten](prerequisites.md)
 - [Ondersteunde services implementeren](deploy-supported-services.md)
 - [Voorbeeldfuncties inschakelen](preview.md)

@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5bc49ddfa93a06bc8f3d84ce7b8492681ee65cb7
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 20133e0f5dda3abc583adf66cc20a1d8fde190cf
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950911"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48197999"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Geavanceerde jacht-fouten verwerken
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Met geavanceerde jacht worden fouten weergegeven om te worden gewaarschuwd voor syntaxisfouten en wanneer query's [vooraf vooraf gedefinieerde limieten](advanced-hunting-limits.md)worden bereikt. Raadpleeg de onderstaande tabel voor tips over het oplossen of vermijden van fouten. 
 
@@ -40,6 +43,6 @@ Met geavanceerde jacht worden fouten weergegeven om te worden gewaarschuwd voor 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Best practices voor geavanceerde jacht](advanced-hunting-best-practices.md)
-- [Service limieten](advanced-hunting-limits.md)
+- [Servicelimieten](advanced-hunting-limits.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Overzicht van Kusto query taal](https://docs.microsoft.com/azure/data-explorer/kusto/query/)

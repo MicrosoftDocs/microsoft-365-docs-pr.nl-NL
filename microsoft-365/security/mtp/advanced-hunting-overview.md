@@ -18,19 +18,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47035b5c988dba551948334c0c93d08b779c0d38
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 9b7e20daa3a5d642a864f9b24e836d3c75bbd7b1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950734"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199851"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Ervaring opzeggen met een geavanceerde jacht in Microsoft Threat Protection
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
 **Van toepassing op:**
 - Microsoft Threat Protection
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Geavanceerd zoeken is een probleem met de hulpmiddelen op basis van een query die u kunt gebruiken om maximaal 30 dagen onbewerkte gegevens te bekijken. U kunt gebeurtenissen in uw netwerk proactief controleren om te zoeken naar bedreigings indicatoren en entiteiten. De flexibele toegang tot gegevens veroorzaakt een ongebeperkinge jacht voor zowel bekende als potentiële bedreigingen.
 <p></p>
@@ -68,7 +69,7 @@ De tijdinformatie in de geavanceerde jacht bevindt zich in de UTC-tijdzone.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [De querytaal leren](advanced-hunting-query-language.md)
-- [Professionele training krijgen](advanced-hunting-expert-training.md)
+- [Deskundige training verkrijgen](advanced-hunting-expert-training.md)
 - [Gedeelde query's gebruiken](advanced-hunting-shared-queries.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

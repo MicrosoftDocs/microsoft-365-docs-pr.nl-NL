@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: Beheerders kunnen inzicht krijgen in de uitgaand en binnenkomende e-mail stroom informatie in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum.
-ms.openlocfilehash: 87ea7faed2e2387c31fdb06abaf242a2a3aea76e
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 33bfe3882c274fa655d17c80aba007e8d246b250
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357420"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199299"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>Uitgaand en binnenkomende e-mail stroom inzicht in de beveiligings & nalevings centrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 De **uitgaande en binnenkomende e-mail stroom** informatie in het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de [beveiligings & nalevings centrum](https://protection.office.com) combineert de informatie uit het [verbindings rapport](view-mail-flow-reports.md#connector-report) en het voormalige **TLS-overzichtsrapport** op één plaats.
 
