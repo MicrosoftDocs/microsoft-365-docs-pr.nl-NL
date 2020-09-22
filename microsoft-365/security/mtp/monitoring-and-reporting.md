@@ -15,31 +15,34 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90d9fcc45e768abd5fddef948fcafdaf9e77f5fb
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: eb765cf353569e9907352fb3146a12ffe7b34df4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866717"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199957"
 ---
-# <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a><span data-ttu-id="aa8e0-104">Rapporten in het Microsoft 365-Beveiligingscentrum bewaken en weergeven</span><span class="sxs-lookup"><span data-stu-id="aa8e0-104">Monitor and view reports in the Microsoft 365 security center</span></span>
+# <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a><span data-ttu-id="653fc-104">Rapporten in het Microsoft 365-Beveiligingscentrum bewaken en weergeven</span><span class="sxs-lookup"><span data-stu-id="653fc-104">Monitor and view reports in the Microsoft 365 security center</span></span>
 
-<span data-ttu-id="aa8e0-105">Het Microsoft 365 Beveiligingscentrum biedt een overzicht van de beschermings-en beveiligingsstatus in uw Microsoft 365-omgeving.</span><span class="sxs-lookup"><span data-stu-id="aa8e0-105">The Microsoft 365 security center provides a summary of protection and security statuses across your Microsoft 365 environment.</span></span>
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="aa8e0-106">Het Beveiligingscentrum bevat een sectie **rapporten** die een host van kaarten bestrijkt die verschillende gebieden bestrijken.</span><span class="sxs-lookup"><span data-stu-id="aa8e0-106">The security center includes a **Reports** section which features a host of cards covering a variety of areas.</span></span> <span data-ttu-id="aa8e0-107">Beveiligings analisten en beheerders kunnen de kaarten bijhouden als onderdeel van de dagelijkse activiteiten.</span><span class="sxs-lookup"><span data-stu-id="aa8e0-107">Security analysts and administrators can track the cards as part of their day-to-day operations.</span></span> <span data-ttu-id="aa8e0-108">Bij inzoomen biedt kaarten uitgebreide rapporten en in sommige gevallen beheeropties.</span><span class="sxs-lookup"><span data-stu-id="aa8e0-108">On drill-down, cards provide detailed reports and, in some cases, management options.</span></span>
 
-## <a name="customize-views"></a><span data-ttu-id="aa8e0-109">Weergaven aanpassen</span><span class="sxs-lookup"><span data-stu-id="aa8e0-109">Customize views</span></span>
+<span data-ttu-id="653fc-105">Het Microsoft 365 Beveiligingscentrum biedt een overzicht van de beschermings-en beveiligingsstatus in uw Microsoft 365-omgeving.</span><span class="sxs-lookup"><span data-stu-id="653fc-105">The Microsoft 365 security center provides a summary of protection and security statuses across your Microsoft 365 environment.</span></span>
 
-<span data-ttu-id="aa8e0-110">Kaarten zijn standaard gegroepeerd in de volgende categorieën:</span><span class="sxs-lookup"><span data-stu-id="aa8e0-110">By default, cards are grouped into these categories:</span></span>
+<span data-ttu-id="653fc-106">Het Beveiligingscentrum bevat een sectie **rapporten** die een host van kaarten bestrijkt die verschillende gebieden bestrijken.</span><span class="sxs-lookup"><span data-stu-id="653fc-106">The security center includes a **Reports** section which features a host of cards covering a variety of areas.</span></span> <span data-ttu-id="653fc-107">Beveiligings analisten en beheerders kunnen de kaarten bijhouden als onderdeel van de dagelijkse activiteiten.</span><span class="sxs-lookup"><span data-stu-id="653fc-107">Security analysts and administrators can track the cards as part of their day-to-day operations.</span></span> <span data-ttu-id="653fc-108">Bij inzoomen biedt kaarten uitgebreide rapporten en in sommige gevallen beheeropties.</span><span class="sxs-lookup"><span data-stu-id="653fc-108">On drill-down, cards provide detailed reports and, in some cases, management options.</span></span>
+
+## <a name="customize-views"></a><span data-ttu-id="653fc-109">Weergaven aanpassen</span><span class="sxs-lookup"><span data-stu-id="653fc-109">Customize views</span></span>
+
+<span data-ttu-id="653fc-110">Kaarten zijn standaard gegroepeerd in de volgende categorieën:</span><span class="sxs-lookup"><span data-stu-id="653fc-110">By default, cards are grouped into these categories:</span></span>
   
-* <span data-ttu-id="aa8e0-111">[Identiteiten](monitor-and-report-identities.md) -gebruikersaccounts en referenties</span><span class="sxs-lookup"><span data-stu-id="aa8e0-111">[Identities](monitor-and-report-identities.md) - user accounts and credentials</span></span>
-* <span data-ttu-id="aa8e0-112">[Gegevens](monitor-data.md) -e-mail en documentinhoud</span><span class="sxs-lookup"><span data-stu-id="aa8e0-112">[Data](monitor-data.md) - email and document contents</span></span>
-* <span data-ttu-id="aa8e0-113">[Apparaten](monitor-devices.md) : computers, mobiele telefoons en andere apparaten</span><span class="sxs-lookup"><span data-stu-id="aa8e0-113">[Devices](monitor-devices.md) - computers, mobile phones, and other devices</span></span>
-* <span data-ttu-id="aa8e0-114">[Apps](monitor-apps.md) -Programma's en bijgevoegde Online Services</span><span class="sxs-lookup"><span data-stu-id="aa8e0-114">[Apps](monitor-apps.md) - programs and attached online services</span></span>
+* <span data-ttu-id="653fc-111">[Identiteiten](monitor-and-report-identities.md) -gebruikersaccounts en referenties</span><span class="sxs-lookup"><span data-stu-id="653fc-111">[Identities](monitor-and-report-identities.md) - user accounts and credentials</span></span>
+* <span data-ttu-id="653fc-112">[Gegevens](monitor-data.md) -e-mail en documentinhoud</span><span class="sxs-lookup"><span data-stu-id="653fc-112">[Data](monitor-data.md) - email and document contents</span></span>
+* <span data-ttu-id="653fc-113">[Apparaten](monitor-devices.md) : computers, mobiele telefoons en andere apparaten</span><span class="sxs-lookup"><span data-stu-id="653fc-113">[Devices](monitor-devices.md) - computers, mobile phones, and other devices</span></span>
+* <span data-ttu-id="653fc-114">[Apps](monitor-apps.md) -Programma's en bijgevoegde Online Services</span><span class="sxs-lookup"><span data-stu-id="653fc-114">[Apps](monitor-apps.md) - programs and attached online services</span></span>
 
-<span data-ttu-id="aa8e0-115">Ga naar **groeperen op onderwerp**als u de kaarten wilt herschikken en ze wilt groeperen in de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="aa8e0-115">Switch to **Group by topic**, to rearrange the cards and group them into the following topics:</span></span>
+<span data-ttu-id="653fc-115">Ga naar **groeperen op onderwerp**als u de kaarten wilt herschikken en ze wilt groeperen in de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="653fc-115">Switch to **Group by topic**, to rearrange the cards and group them into the following topics:</span></span>
 
-* <span data-ttu-id="aa8e0-116">**Risico** kaarten die entiteiten markeren, zoals accounts en apparaten, zijn mogelijk risico.</span><span class="sxs-lookup"><span data-stu-id="aa8e0-116">**Risk** - cards that highlight entities, such as accounts and devices, that might be at risk.</span></span> <span data-ttu-id="aa8e0-117">Deze kaarten markeren ook mogelijke risico bronnen, zoals nieuwe Threat campagnes en geautoriseerde Cloud-apps</span><span class="sxs-lookup"><span data-stu-id="aa8e0-117">These cards also highlight possible sources of risk, such as new threat campaigns and privileged cloud apps</span></span>  
-* <span data-ttu-id="aa8e0-118">**Detectie trends** : kaarten die de nieuwe bedreigings detectie, afwijkingen en beleidsschendingen markeren</span><span class="sxs-lookup"><span data-stu-id="aa8e0-118">**Detection trends** - cards that highlight new threat detections, anomalies, and policy violations</span></span>
-* <span data-ttu-id="aa8e0-119">**Configuraties en Health** -kaarten voor de configuratie en implementatie van beveiligings besturing, waaronder de statussen voor het apparaat voor beheerservices</span><span class="sxs-lookup"><span data-stu-id="aa8e0-119">**Configuration and health** - cards that cover the configuration and deployment of security controls, including device onboarding states to management services</span></span>
-* <span data-ttu-id="aa8e0-120">**Overige** : alle andere kaarten die niet zijn gecategoriseerd onder andere onderwerpen</span><span class="sxs-lookup"><span data-stu-id="aa8e0-120">**Other** - all other cards not categorized under other topics</span></span>
+* <span data-ttu-id="653fc-116">**Risico** kaarten die entiteiten markeren, zoals accounts en apparaten, zijn mogelijk risico.</span><span class="sxs-lookup"><span data-stu-id="653fc-116">**Risk** - cards that highlight entities, such as accounts and devices, that might be at risk.</span></span> <span data-ttu-id="653fc-117">Deze kaarten markeren ook mogelijke risico bronnen, zoals nieuwe Threat campagnes en geautoriseerde Cloud-apps</span><span class="sxs-lookup"><span data-stu-id="653fc-117">These cards also highlight possible sources of risk, such as new threat campaigns and privileged cloud apps</span></span>  
+* <span data-ttu-id="653fc-118">**Detectie trends** : kaarten die de nieuwe bedreigings detectie, afwijkingen en beleidsschendingen markeren</span><span class="sxs-lookup"><span data-stu-id="653fc-118">**Detection trends** - cards that highlight new threat detections, anomalies, and policy violations</span></span>
+* <span data-ttu-id="653fc-119">**Configuraties en Health** -kaarten voor de configuratie en implementatie van beveiligings besturing, waaronder de statussen voor het apparaat voor beheerservices</span><span class="sxs-lookup"><span data-stu-id="653fc-119">**Configuration and health** - cards that cover the configuration and deployment of security controls, including device onboarding states to management services</span></span>
+* <span data-ttu-id="653fc-120">**Overige** : alle andere kaarten die niet zijn gecategoriseerd onder andere onderwerpen</span><span class="sxs-lookup"><span data-stu-id="653fc-120">**Other** - all other cards not categorized under other topics</span></span>
