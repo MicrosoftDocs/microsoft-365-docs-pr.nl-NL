@@ -1,5 +1,5 @@
 ---
-title: Reactie van beveiligingsincidenten
+title: Antwoord van beveiligings incident
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,54 +15,57 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Deze oplossing vertelt u hoe de meest voorkomende cyberbeveiligingsaanvallen eruit kunnen zien in Microsoft 365 en hoe u hierop reageren
+description: Met deze oplossing wordt uitgelegd wat de meest voorkomende Cyber Security-aanvallen in Microsoft 365 kunnen lijken en hoe u deze kunt beantwoorden.
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: c6f5087799a0e3a06d0849f99e9911cf77260e1b
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 221303d43620e89b8200392961d8aa0916c82763
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818793"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48198701"
 ---
-# <a name="security-incident-response"></a><span data-ttu-id="058c7-103">Reactie van beveiligingsincidenten</span><span class="sxs-lookup"><span data-stu-id="058c7-103">Security Incident Response</span></span>
+# <a name="security-incident-response"></a><span data-ttu-id="319a3-103">Antwoord van beveiligings incident</span><span class="sxs-lookup"><span data-stu-id="319a3-103">Security Incident Response</span></span>
 
- <span data-ttu-id="058c7-104">**Samenvatting:** Deze oplossing vertelt u wat de indicatoren zijn voor de meest voorkomende cyberbeveiligingsaanvallen in Office 365, hoe u een bepaalde aanval positief bevestigen en hoe u hierop reageren.</span><span class="sxs-lookup"><span data-stu-id="058c7-104">**Summary:** This solution tells you what the indicators are for the most common cybersecurity attacks in Office 365, how to positively confirm any given attack, and how to respond to it.</span></span>
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-## <a name="learn-how-to-respond-to-cyberattacks"></a><span data-ttu-id="058c7-105">Meer informatie over hoe te reageren op cyberaanvallen</span><span class="sxs-lookup"><span data-stu-id="058c7-105">Learn how to respond to cyberattacks</span></span>
 
-<span data-ttu-id="058c7-106">Niet alle cyberaanvallen kunnen worden gedwarsboomd.</span><span class="sxs-lookup"><span data-stu-id="058c7-106">Not all cyberattacks can be thwarted.</span></span> <span data-ttu-id="058c7-107">Aanvallers zijn voortdurend op zoek naar nieuwe zwakke punten in uw defensieve strategie of ze zijn het benutten van oude.</span><span class="sxs-lookup"><span data-stu-id="058c7-107">Attackers are constantly looking for new weaknesses in your defensive strategy or they are exploiting old ones.</span></span> <span data-ttu-id="058c7-108">Als u weet hoe u een aanval herkennen, u er sneller op reageren, waardoor de duur van het beveiligingsincident wordt verkort.</span><span class="sxs-lookup"><span data-stu-id="058c7-108">Knowing how to recognize an attack allows you to respond to it faster, which shortens the duration of the security incident.</span></span>
+ <span data-ttu-id="319a3-104">**Overzicht:** In deze oplossing wordt uitgelegd wat de indicatoren zijn voor de meest voorkomende Cyber Security-aanvallen in Office 365, hoe u op een positief moment een aanval moet bevestigen en hoe u deze kunt beantwoorden.</span><span class="sxs-lookup"><span data-stu-id="319a3-104">**Summary:** This solution tells you what the indicators are for the most common cybersecurity attacks in Office 365, how to positively confirm any given attack, and how to respond to it.</span></span>
 
-<span data-ttu-id="058c7-109">Met deze serie artikelen u begrijpen hoe een bepaald type aanval er in Microsoft 365 uit kan zien en krijgt u stappen die u nemen om te reageren.</span><span class="sxs-lookup"><span data-stu-id="058c7-109">This series of article helps you understand what a particular type of attack might look like in Microsoft 365 and gives you steps you can take to respond.</span></span> <span data-ttu-id="058c7-110">Ze zijn snelle toegangspunten om te begrijpen:</span><span class="sxs-lookup"><span data-stu-id="058c7-110">They are quick entry points to understanding:</span></span>
+## <a name="learn-how-to-respond-to-cyberattacks"></a><span data-ttu-id="319a3-105">Meer informatie over het reageren op cyberattacks</span><span class="sxs-lookup"><span data-stu-id="319a3-105">Learn how to respond to cyberattacks</span></span>
 
-- <span data-ttu-id="058c7-111">Wat de aanval is en hoe het werkt.</span><span class="sxs-lookup"><span data-stu-id="058c7-111">What the attack is and how it works.</span></span>
+<span data-ttu-id="319a3-106">Niet alle cyberattacks kunnen worden afgehouden.</span><span class="sxs-lookup"><span data-stu-id="319a3-106">Not all cyberattacks can be thwarted.</span></span> <span data-ttu-id="319a3-107">Hackers kijken voortdurend naar nieuwe zwakke punten in uw verdedigings strategie of ze maken gebruik van oude versies.</span><span class="sxs-lookup"><span data-stu-id="319a3-107">Attackers are constantly looking for new weaknesses in your defensive strategy or they are exploiting old ones.</span></span> <span data-ttu-id="319a3-108">Als u weet hoe u een aanval herkent, kunt u deze sneller beantwoorden, zodat de duur van het beveiligingsincident verkort.</span><span class="sxs-lookup"><span data-stu-id="319a3-108">Knowing how to recognize an attack allows you to respond to it faster, which shortens the duration of the security incident.</span></span>
 
-- <span data-ttu-id="058c7-112">Welke tekenen, de zogenaamde indicatoren van compromis (IOC), om te zoeken naar en hoe ze te zoeken.</span><span class="sxs-lookup"><span data-stu-id="058c7-112">What signs, called indicators of compromise (IOC), to look for and how to look for them.</span></span>
+<span data-ttu-id="319a3-109">In deze reeks artikel ziet u hoe een bepaald type aanval eruit ziet in Microsoft 365 en u kunt stappen ondernemen om te reageren.</span><span class="sxs-lookup"><span data-stu-id="319a3-109">This series of article helps you understand what a particular type of attack might look like in Microsoft 365 and gives you steps you can take to respond.</span></span> <span data-ttu-id="319a3-110">De persoon vindt snel de toegangspunten voor het volgende:</span><span class="sxs-lookup"><span data-stu-id="319a3-110">They are quick entry points to understanding:</span></span>
 
-- <span data-ttu-id="058c7-113">Hoe de aanval positief te bevestigen.</span><span class="sxs-lookup"><span data-stu-id="058c7-113">How to positively confirm the attack.</span></span>
+- <span data-ttu-id="319a3-111">De aanval en de werking hiervan.</span><span class="sxs-lookup"><span data-stu-id="319a3-111">What the attack is and how it works.</span></span>
 
-- <span data-ttu-id="058c7-114">Stappen te nemen om de aanval af te snijden en uw organisatie in de toekomst beter te beschermen.</span><span class="sxs-lookup"><span data-stu-id="058c7-114">Steps to take to cut off the attack and better protect your organization in the future.</span></span>
+- <span data-ttu-id="319a3-112">De ondertekening, de zogeheten indicators van compromissen (IOC), waarnaar u kunt zoeken en hoe u deze kunt zoeken.</span><span class="sxs-lookup"><span data-stu-id="319a3-112">What signs, called indicators of compromise (IOC), to look for and how to look for them.</span></span>
 
-- <span data-ttu-id="058c7-115">Links naar diepgaande informatie over elk aanvalstype.</span><span class="sxs-lookup"><span data-stu-id="058c7-115">Links to in-depth information on each attack type.</span></span>
+- <span data-ttu-id="319a3-113">De aanval positief te bevestigen.</span><span class="sxs-lookup"><span data-stu-id="319a3-113">How to positively confirm the attack.</span></span>
 
-<span data-ttu-id="058c7-116">Check hier maandelijks terug als meer artikelen zullen worden toegevoegd na verloop van tijd.</span><span class="sxs-lookup"><span data-stu-id="058c7-116">Check back here monthly as more articles will be added over time.</span></span>
+- <span data-ttu-id="319a3-114">Stappen die u moet uitvoeren om de aanval af te melden en uw organisatie beter in de toekomst te beschermen.</span><span class="sxs-lookup"><span data-stu-id="319a3-114">Steps to take to cut off the attack and better protect your organization in the future.</span></span>
 
-## <a name="detect-and-remediate-articles"></a><span data-ttu-id="058c7-117">Artikelen detecteren en herstellen</span><span class="sxs-lookup"><span data-stu-id="058c7-117">Detect and remediate articles</span></span>
+- <span data-ttu-id="319a3-115">Koppelingen naar uitgebreide informatie over elk type aanval.</span><span class="sxs-lookup"><span data-stu-id="319a3-115">Links to in-depth information on each attack type.</span></span>
 
-- [<span data-ttu-id="058c7-118">Illegale verlening van toestemming detecteren en verhelpen in Office 365</span><span class="sxs-lookup"><span data-stu-id="058c7-118">Detect and Remediate Illicit Consent Grants in Office 365</span></span>](detect-and-remediate-illicit-consent-grants.md)
+<span data-ttu-id="319a3-116">Kom hier maandelijks voor, wanneer meer artikelen na verloop van tijd worden toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="319a3-116">Check back here monthly as more articles will be added over time.</span></span>
 
-- [<span data-ttu-id="058c7-119">Het opsporen en herstellen van Outlook-regels en aangepaste formulieren in Office 365</span><span class="sxs-lookup"><span data-stu-id="058c7-119">Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365</span></span>](detect-and-remediate-outlook-rules-forms-attack.md)
+## <a name="detect-and-remediate-articles"></a><span data-ttu-id="319a3-117">Artikelen ontdekken en herstellen</span><span class="sxs-lookup"><span data-stu-id="319a3-117">Detect and remediate articles</span></span>
 
-## <a name="incident-response-articles"></a><span data-ttu-id="058c7-120">Artikelen voor incidentrespons</span><span class="sxs-lookup"><span data-stu-id="058c7-120">Incident response articles</span></span>
+- [<span data-ttu-id="319a3-118">Illegale verlening van toestemming detecteren en verhelpen in Office 365</span><span class="sxs-lookup"><span data-stu-id="319a3-118">Detect and Remediate Illicit Consent Grants in Office 365</span></span>](detect-and-remediate-illicit-consent-grants.md)
 
-- [<span data-ttu-id="058c7-121">Reageren op een gehackt e-mailaccount in Office 365</span><span class="sxs-lookup"><span data-stu-id="058c7-121">Responding to a Compromised Email Account in Office 365</span></span>](responding-to-a-compromised-email-account.md)
+- [<span data-ttu-id="319a3-119">Het opsporen en herstellen van Outlook-regels en aangepaste formulieren in Office 365</span><span class="sxs-lookup"><span data-stu-id="319a3-119">Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365</span></span>](detect-and-remediate-outlook-rules-forms-attack.md)
 
-## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a><span data-ttu-id="058c7-122">Microsoft 365 beveiligen als een cybersecurity pro</span><span class="sxs-lookup"><span data-stu-id="058c7-122">Secure Microsoft 365 like a cybersecurity pro</span></span>
+## <a name="incident-response-articles"></a><span data-ttu-id="319a3-120">Antwoord artikelen voor incidenten</span><span class="sxs-lookup"><span data-stu-id="319a3-120">Incident response articles</span></span>
 
-<span data-ttu-id="058c7-123">Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.</span><span class="sxs-lookup"><span data-stu-id="058c7-123">Your Microsoft 365 subscription comes with a powerful set of security capabilities that you can use to protect your data and your users.</span></span>  <span data-ttu-id="058c7-124">Use the [Microsoft 365 security roadmap - Top priorities for the first 30 days, 90 days, and beyond](security-roadmap.md) to implement Microsoft recommended best practices for securing your Microsoft 365 organization.</span><span class="sxs-lookup"><span data-stu-id="058c7-124">Use the [Microsoft 365 security roadmap - Top priorities for the first 30 days, 90 days, and beyond](security-roadmap.md) to implement Microsoft recommended best practices for securing your Microsoft 365 organization.</span></span>
+- [<span data-ttu-id="319a3-121">Reageren op een gehackt e-mailaccount in Office 365</span><span class="sxs-lookup"><span data-stu-id="319a3-121">Responding to a Compromised Email Account in Office 365</span></span>](responding-to-a-compromised-email-account.md)
 
-- <span data-ttu-id="058c7-125">Taken die in de eerste 30 dagen moeten worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="058c7-125">Tasks to accomplish in the first 30 days.</span></span>  <span data-ttu-id="058c7-126">Deze hebben direct effect en weinig invloed op uw gebruikers.</span><span class="sxs-lookup"><span data-stu-id="058c7-126">These have immediate affect and are low-impact to your users.</span></span>
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a><span data-ttu-id="319a3-122">Microsoft 365 beveiligen als een cybersecurity pro</span><span class="sxs-lookup"><span data-stu-id="319a3-122">Secure Microsoft 365 like a cybersecurity pro</span></span>
 
-- <span data-ttu-id="058c7-127">Taken die binnen 90 dagen moeten worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="058c7-127">Tasks to accomplish in 90 days.</span></span> <span data-ttu-id="058c7-128">Deze nemen een beetje meer tijd om te plannen en uit te voeren, maar sterk verbeteren van uw veiligheid houding</span><span class="sxs-lookup"><span data-stu-id="058c7-128">These take a bit more time to plan and implement but greatly improve your security posture</span></span>
+<span data-ttu-id="319a3-123">Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.</span><span class="sxs-lookup"><span data-stu-id="319a3-123">Your Microsoft 365 subscription comes with a powerful set of security capabilities that you can use to protect your data and your users.</span></span>  <span data-ttu-id="319a3-124">Gebruik het [Microsoft 365-beveiligingsschema-de belangrijkste punten voor de eerste 30 dagen, 90 dagen en](security-roadmap.md) meer om Microsoft aanbevolen Aanbevolen procedures te implementeren voor het beveiligen van uw microsoft 365-organisatie.</span><span class="sxs-lookup"><span data-stu-id="319a3-124">Use the [Microsoft 365 security roadmap - Top priorities for the first 30 days, 90 days, and beyond](security-roadmap.md) to implement Microsoft recommended best practices for securing your Microsoft 365 organization.</span></span>
 
-- <span data-ttu-id="058c7-129">Na 90 dagen.</span><span class="sxs-lookup"><span data-stu-id="058c7-129">Beyond 90 days.</span></span> <span data-ttu-id="058c7-130">Deze verbeteringen zijn gebaseerd op de eerste 90 dagen.</span><span class="sxs-lookup"><span data-stu-id="058c7-130">These enhancements build in your first 90 days work.</span></span>
+- <span data-ttu-id="319a3-125">Taken die in de eerste 30 dagen moeten worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="319a3-125">Tasks to accomplish in the first 30 days.</span></span>  <span data-ttu-id="319a3-126">Deze hebben direct effect en weinig invloed op uw gebruikers.</span><span class="sxs-lookup"><span data-stu-id="319a3-126">These have immediate affect and are low-impact to your users.</span></span>
+
+- <span data-ttu-id="319a3-127">Taken die binnen 90 dagen moeten worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="319a3-127">Tasks to accomplish in 90 days.</span></span> <span data-ttu-id="319a3-128">Dit kan wat meer tijd in beslag nemen voor het plannen en implementeren van uw beveiligings Posture</span><span class="sxs-lookup"><span data-stu-id="319a3-128">These take a bit more time to plan and implement but greatly improve your security posture</span></span>
+
+- <span data-ttu-id="319a3-129">Na 90 dagen.</span><span class="sxs-lookup"><span data-stu-id="319a3-129">Beyond 90 days.</span></span> <span data-ttu-id="319a3-130">Deze verbeteringen zijn gebaseerd op de eerste 90 dagen.</span><span class="sxs-lookup"><span data-stu-id="319a3-130">These enhancements build in your first 90 days work.</span></span>
