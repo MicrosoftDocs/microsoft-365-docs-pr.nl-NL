@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f2ba1b63b3c1a986b3e811b3495bb4de85f93223
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: d6e9dbc214cdbb7aaf6bf8922ca4eaf986f8a91c
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956400"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173282"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Uw proef Microsoft Threat Protection sluiten en samenvatten  
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-U hebt zojuist een geavanceerde geheugen aanval gesimuleerd waarbij code extern op een domeincontroller werd uitgevoerd. U hebt gezien hoe Microsoft Defender ATP en Azure ATP detecteren en waarschuwingen op een onzichtbare schadelijke activiteit. U kunt ook zien hoe meldingen van verschillende bronnen samen met andere contextuele informatie worden afgeleverd in één voorval van de Microsoft Threat Protection-Portal, zodat de antivirus analisten en de nodige actie ondernemen. U hebt ook een geavanceerde zoekactie gemaakt waarmee inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage opent of opslaat en detectie maakt op basis van deze query.
+U hebt zojuist een geavanceerde geheugen aanval gesimuleerd waarbij code extern op een domeincontroller werd uitgevoerd. U hebt gezien hoe Microsoft Defender ATP en Azure ATP detecteren en waarschuwingen op een onzichtbare schadelijke activiteit. U kunt ook zien hoe meldingen van verschillende bronnen samen met andere contextuele informatie worden afgeleverd in één voorval van de Microsoft 365 Security Center-Portal, zodat de sofi-analisten en de nodige actie ondernemen. U hebt ook een geavanceerde zoekactie gemaakt waarmee inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage opent of opslaat en detectie maakt op basis van deze query.
 
 U hebt het einde van het proces bereikt na afloop van alle tests.
 

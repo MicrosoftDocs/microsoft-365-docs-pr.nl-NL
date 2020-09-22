@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 518afae2d241cca5fdff054faeb07d25e37eb585
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: aa4767deac30641e39880c2eeb001c2dc884540a
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956432"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173318"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Simulaties van aanvallen van Microsoft Threat Protection uitvoeren  
 
@@ -33,9 +33,9 @@ Na het voorbereiden van uw testomgeving, is het tijd om het Microsoft Threat Pro
 
 In deze simulatie begint ons voorbeeldscenario met een PowerShell-script. Een gebruiker kan een script uitvoeren. Of het script kan vanaf een externe verbinding vanaf een eerder besmet apparaat worden uitgevoerd vanaf een externe verbinding met een andere computer: de aanvaller probeert later te navigeren in het netwerk. Detectie van deze scripts kan lastig zijn omdat beheerders vaak scripts ook extern uitvoeren om diverse beheeractiviteiten uit te voeren.
 
-Tijdens de simulatie injecteert de aanval shellcode in een schijnbaar onschuldige proces. In dit scenario gebruiken we notepad.exe. We hebben dit proces voor de simulatie gekozen, maar kwaadwillende gebruikers zullen waarschijnlijk een lang actief systeemproces bereiken, zoals svchost.exe. Met de shellcode kunt u contact opnemen met de opdracht van de aanvaller en de controle (C2) om instructies te ontvangen voor het doorvoeren van de gebruikersnaam. Daarnaast worden met de scripts geprobeerd om Reconnaissance-query's uit te voeren op de domeincontroller (DC). Hiermee kan een aanvaller informatie krijgen over recente aanmeldinformatie van gebruikers. Wanneer hackers deze informatie hebben, kunnen ze later in het netwerk navigeren om naar een specifiek gevoelige account te gaan.
-
 ![Niet-gefileeerde PowerShell-aanval met proces injectie en SMB Reconnaisance-aanvals diagram](../../media/mtp/mtpdiydiagram.png)
+
+Tijdens de simulatie injecteert de aanval shellcode in een schijnbaar onschuldige proces. In dit scenario gebruiken we notepad.exe. We hebben dit proces voor de simulatie gekozen, maar kwaadwillende gebruikers zullen waarschijnlijk een lang actief systeemproces bereiken, zoals svchost.exe. Met de shellcode kunt u contact opnemen met de opdracht van de aanvaller en de controle (C2) om instructies te ontvangen voor het doorvoeren van de gebruikersnaam. Daarnaast worden met de scripts geprobeerd om Reconnaissance-query's uit te voeren op de domeincontroller (DC). Hiermee kan een aanvaller informatie krijgen over recente aanmeldinformatie van gebruikers. Wanneer hackers deze informatie hebben, kunnen ze later in het netwerk navigeren om naar een specifiek gevoelige account te gaan.
 
 >[!IMPORTANT]
 >Voor optimale resultaten volgt u de instructies voor de simulatie van een aanval.
@@ -109,9 +109,9 @@ Als u de functie automatisch incidenten en antwoord in actie wilt zien, moet u d
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-Als u overstapt naar het deel van de weergave van SOC Analyst, kunt u nu beginnen met de aanval op de Microsoft Threat Protection Portal. 
+Als u overstapt op het punt van de burger Analyst-weergave, kunt u nu beginnen met het onderzoeken van de aanval in de portal Microsoft 365 Security Center. 
 
-1.  Open de wachtrij met incidenten van de [Microsoft Threat Protection-Portal](https://security.microsoft.com/incidents) vanaf elk apparaat.
+1.  Open de wachtrij voor incidenten van [Microsoft 365 Security Center](https://security.microsoft.com/incidents) van elk apparaat.
 
 2.  Ga in het menu naar **incidenten** . 
 
@@ -230,7 +230,7 @@ Klik op de gebruikersnaam om de profielpagina van de gebruiker te openen waar ve
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BzwB]
 
-Ga terug naar het incident in de Microsoft Threat Protection Portal. Het tabblad **onderzoeken** op de pagina **incident** toont de geautomatiseerde onderzoeken die zijn geactiveerd door Azure ATP en Microsoft Defender ATP. Met de onderstaande schermafbeelding wordt alleen het geautomatiseerd onderzoek weergegeven dat wordt geactiveerd door Microsoft Defender ATP. Standaard worden in Microsoft Defender ATP automatisch de artefacten opgelost die zijn gevonden in de wachtrij waarvoor herstel nodig is.
+Ga terug naar het incident in het Microsoft 365 Security Center Portal. Het tabblad **onderzoeken** op de pagina **incident** toont de geautomatiseerde onderzoeken die zijn geactiveerd door Azure ATP en Microsoft Defender ATP. Met de onderstaande schermafbeelding wordt alleen het geautomatiseerd onderzoek weergegeven dat wordt geactiveerd door Microsoft Defender ATP. Standaard worden in Microsoft Defender ATP automatisch de artefacten opgelost die zijn gevonden in de wachtrij waarvoor herstel nodig is.
 
 ![Schermafbeelding van geautomatiseerde onderzoeken met betrekking tot het incident](../../media/mtp/fig14.png)
 
@@ -255,7 +255,7 @@ Wanneer het onderzoek is voltooid en bevestigd, moet u het incident sluiten.
 
 Klik op **incident beheren**. Stel de status voor het **oplossen van incidenten** in en selecteer de gewenste classificatie.
 
-Wanneer het incident is opgelost, worden alle bijbehorende waarschuwingen in Microsoft Threat Protection en in de bijbehorende portals gesloten.
+Wanneer het incident is verholpen, worden alle bijbehorende waarschuwingen in Microsoft 365 Beveiligingscentrum en in de bijbehorende portals gesloten.
 
 ![Schermafbeelding van de pagina met incidenten, waarop u kunt klikken op de schakeloptie om het probleem op te lossen](../../media/mtp/fig16.png) 
 
@@ -289,7 +289,7 @@ Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een
 1.  Open de portal van security.microsoft.com.
 2.  Ga naar de **jacht > geavanceerde jacht**.
 
-    ![Schermafbeelding van een geavanceerde jacht op de navigatiebalk van de M365-beveiligings Portal](../../media/mtp/fig17.png) 
+    ![Schermafbeelding van een geavanceerde jacht op de navigatiebalk van het M365 Security Center Portal](../../media/mtp/fig17.png) 
 
 3.  Maak een query die begint met het verzamelen van e-mail gebeurtenissen.
     a.  Selecteer in het deelvenster query de optie Nieuw.

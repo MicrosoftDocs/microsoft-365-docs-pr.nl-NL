@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over veilige documenten in Microsoft 365 E5 of Microsoft 365 E5 beveiliging.
-ms.openlocfilehash: 5e91c226102d60368bf08b09ae5f0239f63599d5
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: d2220bb088ddf6e739b79212c3c1f7f0ac7bd865
+ms.sourcegitcommit: dcbcd5ef278949c777059b0aa6db072e821f72dd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132215"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48173294"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
@@ -36,9 +36,11 @@ Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveil
 
 - U moet machtigingen zijn toegewezen voordat u de procedures in dit onderwerp kunt uitvoeren. Als u veilige documenten wilt inschakelen en configureren, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** . Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
-- Om te beschermen, worden met veilige documenten bestanden naar de [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) -Cloud verzonden voor analyse. Meer informatie over de manier waarop u uw gegevens in Microsoft Defender ATP verwerkt, vindt u hier: [Microsoft Defender ATP data storage en privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
+### <a name="how-does-microsoft-handle-your-data"></a>Hoe bewerkt Microsoft uw gegevens?
 
-- Bestanden die door veilige documenten zijn verzonden, worden niet langer bewaard dan de tijd die nodig is voor de analyse (meestal minder dan 24 uur).
+Om te beschermen, worden met veilige documenten bestanden naar de [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) -Cloud verzonden voor analyse. Meer informatie over de manier waarop u uw gegevens in Microsoft Defender ATP verwerkt, vindt u hier: [Microsoft Defender ATP data storage en privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
+
+Bestanden die door veilige documenten zijn verzonden, worden niet langer bewaard dan de tijd die nodig is voor de analyse (meestal minder dan 24 uur).
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Beveiligings & voor naleving van Beveiligingscentrum gebruiken om veilige documenten te configureren
 
