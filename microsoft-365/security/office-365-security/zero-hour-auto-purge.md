@@ -21,14 +21,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met de functie voor het automatisch wissen van rijen (ZAP) bezorgde berichten in een Exchange Online-postvak naar de map Ongewenste E-mail verplaatst, en de map Ongewenste E-mail naar een andere map.
-ms.openlocfilehash: 9096486ed98657fede7927089592c92fffdad70e
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 66df614700dc5f9b9938200d384cc293a51e2f3c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826695"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202637"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Zero-Hour auto opgeschoond (ZAP) in Exchange Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="basic-features-of-zap"></a>Basisfuncties van ZAP
 

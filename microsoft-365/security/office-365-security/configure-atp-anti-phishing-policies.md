@@ -14,14 +14,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het geavanceerde anti-phishingfilter kunt maken, wijzigen en verwijderen, dat beschikbaar is in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 83f100cab12c91af1405ffc5f386ff51028710a9
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a4b5dc5beac23e267f6b0e5070d91301b589ad4c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547650"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203381"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP-beleid tegen phishing configureren
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ATP anti-Phishingfilter maakt deel uit van [Office 365 Advanced Threat Protection](office-365-atp.md). Met een anti-phishingfilter van ATP kunt u uw organisatie beschermen tegen kwaadaardige aanvallen op basis van kwaadaardige gebruikers en andere typen phishing-aanvallen. Zie [bescherming tegen phishing](anti-phishing-protection.md)voor meer informatie over de verschillen tussen het anti-virus beleid in Exchange Online Protection (EOP) en het ATP anti phishingfilter.
 

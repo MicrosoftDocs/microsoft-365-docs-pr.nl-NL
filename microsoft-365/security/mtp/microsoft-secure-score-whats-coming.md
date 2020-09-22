@@ -17,14 +17,17 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 596d67d4967886a2df985793f38f968b40d2c3a9
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: c6643b30327b7f362c4649c2be1b1eea81ff3523
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289661"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203624"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 We maken de nabije toekomst enkele wijzigingen in de nabije toekomst, zodat [Microsoft Secure Score](microsoft-secure-score.md) een betere medewerker is van uw beveiligings Posture en de bruikbaarheid verbeteren. Uw score en de maximaal mogelijke score kunnen wijzigen.
 

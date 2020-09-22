@@ -16,14 +16,17 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Ga aan de slag met het gebruik van geautomatiseerde beantwoordings-en antwoord mogelijkheden in Office 365 Advanced Threat Protection (abonnement 2).
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 0587c2d58410d7a0bc4a581f156a2cbfc06701a9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: adee64461d06b46f467682835a493a7eebe89aef
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949696"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202649"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Aan de slag met geautomatiseerd onderzoek en antwoord (lucht) in Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (Office 365 ATP) abonnement 2 bevat krachtige functies voor automatisch onderzoek en respons (lucht) waarmee u de tijd en inspanning van uw beveiligingsactiviteiten kunt opslaan. Aangezien waarschuwingen worden geactiveerd, kunt u deze meldingen nakijken, van een prioriteit voorzien en hierop reageren. U kunt het volume van inkomende waarschuwingen overweldigen. Een deel van dit helpt te automatiseren. Met lucht kan uw beveiligingsteam zich richten op taken met een hoge prioriteit zonder dat dit de activering van waarschuwingen verliest.
 

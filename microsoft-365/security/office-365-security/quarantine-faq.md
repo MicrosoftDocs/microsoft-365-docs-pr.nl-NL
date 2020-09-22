@@ -17,14 +17,17 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen Veelgestelde vragen en antwoorden over berichten in quarantaine weergeven in Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 896a83d4a09e8d0fcafeb6885cf2c63b6d8bb045
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: d52aa8b6d86421bbc03e03191d0e0ccd074ce782
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826787"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202457"
 ---
 # <a name="quarantined-messages-faq"></a>Veelgestelde vragen over quarantaine berichten
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In dit onderwerp vindt u veelgestelde vragen en antwoorden over geposte e-mailberichten voor Microsoft 365-organisaties met postvakken in Exchange Online, of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken.
 

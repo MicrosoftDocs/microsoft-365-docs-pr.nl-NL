@@ -14,14 +14,17 @@ ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 ms.custom:
 - seo-marvel-apr2020
 description: Hier vindt u antwoorden op de meest voorkomende algemene vragen over de in de Cloud gehoste e-mail filterservice van Exchange Online Protection (EOP).
-ms.openlocfilehash: 42162ea841f876fc5e958d67fab61dbe4bffe9de
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: aa0b881250466c71cb05123216fcf9eccc64018d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827759"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202913"
 ---
 # <a name="eop-general-faq"></a>Algemene veelgestelde vragen over EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Hier beantwoorden we de meest voorkomende algemene vragen over Exchange Online Protection (EOP) in de Cloud gehoste e-mail filterservice. Ga naar de volgende koppelingen voor meer informatie over veelgestelde vragen over veelgestelde vragen:
 

@@ -16,14 +16,17 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft heeft verschillende beleidsregels en procedures ontwikkeld en u hebt diverse best practices ontwikkeld om onze gebruikers te helpen beschermen tegen beledigende, ongewenste e-mail of kwaadaardige e-mail.
-ms.openlocfilehash: 5b815678fc7462df5448447624d6f7c0c63d6eb6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b971823201fb805c9e17da8402250065d274668d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949654"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202373"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Verwijzing: Beleid, procedures en richtlijnen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Microsoft is specifiek bedoeld om u te helpen de meest vertrouwde gebruikerservaring op internet te bieden. Microsoft heeft daarom verschillende beleidsregels en procedures ontwikkeld en diverse best practices voor onze bedrijfstak ontwikkeld om onze gebruikers te helpen beschermen tegen beledigende, ongewenste e-mail of kwaadaardige e-mail. Af te leveren afzenders die een e-mailbericht naar gebruikers proberen te verzenden, moeten ze volledig begrijpen en voldoen aan de hand van de instructies in dit artikel om potentiële problemen met de bezorging te voorkomen.
 

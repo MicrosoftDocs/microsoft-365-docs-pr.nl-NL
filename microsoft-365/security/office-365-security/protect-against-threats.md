@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie lezen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe u deze voor uw organisatie gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a78bbea2d11360bbfa48fa3da01391471b2e0a4d
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1ad74e9bdcd7b937873108d2ba049c16db8c235b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547360"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202577"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Aan de slag-handleiding waarmee de configuratie van Advanced Threat Protection in segmenten wordt verbroken. Als u nog niet bekend bent met de functies voor beveiliging van bedreigingen in Office 365, weet u niet zeker waar u moet beginnen, of als u het beste kunt *doen*, gebruikt u deze instructies als een controlelijst en een beginpunt.
 
@@ -295,5 +298,5 @@ Nadat u de functies voor risico beveiliging hebt geconfigureerd, controleert u o
 |---|---|
 |Kijk hoe de functies voor bedreigingsbeveiliging voor uw organisatie werken door rapporten weer te geven|[Beveiligings dashboard](security-dashboard.md)<br/>[E-mail beveiligingsrapporten](view-email-security-reports.md)<br/>[Rapporten voor Office 365 ATP](view-reports-for-atp.md)<br/>[Bedreigingsverkenner](threat-explorer.md)|
 |Uw beveiligingsbeleid periodiek controleren en zo nodig herzien|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365 Threat onderzoek en antwoord functies](keep-users-safe-with-office-365-ti.md)|
-|Bekijk de nieuwe functies en service-updates|[Standaard en gerichte release-opties](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Berichtencentrum](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Service beschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
+|Bekijk de nieuwe functies en service-updates|[Standaard en gerichte release-opties](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Berichtencentrum](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Service beschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |Meer informatie over aanbevolen standaard-en strikte beveiligingsconfiguraties voor EOP en ATP | [Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwide) |

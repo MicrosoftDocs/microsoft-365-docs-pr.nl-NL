@@ -18,14 +18,17 @@ search.appverid:
 - MET150
 description: Beheerders krijgen de machtigingen die beschikbaar zijn in het beveiligings & nalevings centrum in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1738438601712199b9a8e7365338d03e17621f0
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 6dab91169b260ea3dae47034ec5c15ebeb2462a4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171312"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202685"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>Rapporten in het beveiligings- en compliancecentrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Met de beveiligings & compliance Center kunt u machtigingen verlenen aan personen die nalevings taken uitvoeren, zoals Apparaatbeheer, preventie van gegevensverlies, eDiscovery, bewaren, enzovoort. Deze personen kunnen alleen de taken uitvoeren waartoe u ze expliciet toegang wilt geven. Voor toegang tot de beveiligings & nalevings centrum moeten gebruikers een globale beheerder of een lid zijn van een of meer & beveiligingsgroepen van het nalevings centrum voor compliance.
 

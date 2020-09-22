@@ -16,14 +16,17 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Wat zijn de aanbevolen procedures voor beveiligingsinstellingen van Exchange Online Protection (EOP) en Advanced Threat Protection (ATP)? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Advanced Threat Protection (ATP) gebruikt?
-ms.openlocfilehash: 1022accb992fbc0aee92b8da97f9d8a48cbe35f2
-ms.sourcegitcommit: 57b37a3ce40f205c7320d5be1a0d906dd492b863
+ms.openlocfilehash: 78dc1673d20affdfab9228883dbce3b08e8efbb5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405381"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202709"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 **Exchange Online Protection (EOP)** is de kern van beveiliging voor microsoft 365-abonnementen en helpt voorkomen dat ongewenste e-mailberichten in de Postvak in van uw werknemers terechtkomen. Maar met nieuwe, nieuwe, nog geavanceerdere aanvallen die elke dag zijn verbeterd, zijn er vaak betere bescherming nodig. **Office 365 Advanced Threat Protection (ATP)** ATP abonnement 1 of ATP abonnement 2 bevat extra functies die beheerders meer lagen bieden voor beveiliging, controle en onderzoek.
 

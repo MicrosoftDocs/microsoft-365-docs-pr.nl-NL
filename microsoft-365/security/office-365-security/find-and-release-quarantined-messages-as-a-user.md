@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
-ms.openlocfilehash: 21e04021267d64c48219cbffc46f36739b8035c0
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 03bcb0518b75d9a35aae1b6664b410b521adf940
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826611"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202841"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie [Quarantaine in EOP](quarantine-email-messages.md) voor meer informatie.
 

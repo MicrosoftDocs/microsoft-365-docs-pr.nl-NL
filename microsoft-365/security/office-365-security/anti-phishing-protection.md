@@ -19,14 +19,17 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 description: Beheerders kunnen leren werken met de functies van bescherming tegen phishing in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: f6d864a7f9995de64f3714dffcd1838b2480a627
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 5607a3bf566fabccf3ae55726aca9eefcff9c062
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867173"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202409"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Bescherming tegen phishing in Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 *Phishing* is een aanval via een e-mailbericht dat probeert gevoelige informatie te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. Phishing bevat specifieke soorten phishing. Bijvoorbeeld:
 

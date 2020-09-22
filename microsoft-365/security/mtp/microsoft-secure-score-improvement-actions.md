@@ -20,14 +20,17 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3b913b3d53abf8c46fbcc9e053f91f512864c9d8
-ms.sourcegitcommit: 19515d787246d38c4e0da579a767ce67b9dbc2bc
+ms.openlocfilehash: 7049845b4c1b240c5ecc72b4f2ebac1acecfbaf6
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47315829"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203677"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Evalueer uw beveiligings Posture met Microsoft Secure Score
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Secure Score van Microsoft is een afmeting van de beveiligings Posture van een organisatie, met een hoger nummer voor het uitvoeren van extra verbeterings acties. U vindt het https://security.microsoft.com/securescore in [microsoft 365 Beveiligingscentrum](overview-security-center.md).
 
@@ -121,4 +124,4 @@ Als u problemen ondervindt, kunt u het ons laten weten dat u de community [bevei
 - [Overzicht van Microsoft Secure Score](microsoft-secure-score.md)
 - [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
-- [Nieuwe functies](microsoft-secure-score-whats-new.md)
+- [Wat is er nieuw](microsoft-secure-score-whats-new.md)

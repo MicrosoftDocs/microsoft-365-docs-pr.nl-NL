@@ -14,14 +14,17 @@ ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen Veelgestelde vragen en antwoorden over gedelegeerde beheertaken weergeven in Microsoft 365 voor Microsoft-partners en resellers.
-ms.openlocfilehash: 3efadc8793778bfabe10922e8e29044747d60ad0
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 6729f276e6afea83568ca59d3bf48c08fcd837d2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866693"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203141"
 ---
 # <a name="delegated-administration-faq"></a>Veelgestelde vragen over gedelegeerd beheer
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Dit artikel bevat veelgestelde vragen en antwoorden over gedelegeerd beheertaken in Microsoft 365 voor Microsoft-partners en resellers. Gedelegeerd beheer bevat de mogelijkheid om de EOP-instellingen (Exchange Online Protection) voor andere tenants (bedrijven) te beheren.
 

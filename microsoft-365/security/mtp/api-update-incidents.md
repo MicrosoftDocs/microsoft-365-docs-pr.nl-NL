@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e790f4f415575323cfdd5fc15db41baa8b59c7f6
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: 8ad47453c7163bfac99c17f42986b818cdca603f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650226"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203625"
 ---
 # <a name="update-incidents-api"></a>API voor update van incidenten
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
@@ -113,5 +116,5 @@ Hier ziet u een voorbeeld van de aanvraag.
 
 
 ## <a name="related-topic"></a>Verwante onderwerpen
-- [Api's voor incidenten](api-incident.md)
-- [Lijst incidenten](api-list-incidents.md)
+- [API's voor incidenten](api-incident.md)
+- [Lijst met incidenten](api-list-incidents.md)

@@ -18,14 +18,17 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over hoe EOP e-mailverificatie (SPF, DKIM en DMARC) gebruikt om adresvervalsing, phishing en spam te helpen voorkomen.
-ms.openlocfilehash: 1e4ad82dd1c57e089b36e39afde346c47043c546
-ms.sourcegitcommit: eb905c5b4d7e71fc930a207357295b0160c4f065
+ms.openlocfilehash: d490caf600fef9d9caab79a1a97ec29637e10d66
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48137045"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202973"
 ---
 # <a name="email-authentication-in-eop"></a>E-mailverificatie in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 E-mailverificatie (ook wel e-mailvalidatie genoemd) is een groep standaarden die probeert om spoofing (e-mailberichten van vervalste afzenders) te stoppen. In alle Microsoft 365-organisaties maakt EOP gebruik van deze standaarden om binnenkomende e-mail te verifiëren:
 

@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-Beheercentrum: Hier vindt u meer informatie over
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 7504fa085c6dd5413a1dcddbb71f3d015ded72c1
-ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
+ms.openlocfilehash: 64c9939f7dd6c4370b80e74987263942dad0e62f
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300449"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48208901"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuw in het Microsoft 365-Beheercentrum
 
@@ -49,17 +49,121 @@ En als u meer wilt weten over de nieuwe functies in Microsoft-cloudservices, gaa
 - [Nieuwe functies in het SharePoint-Beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office-updates](https://docs.microsoft.com/OfficeUpdates/)
 
+## <a name="ignite-2020-august--september"></a>Ignite 2020 (augustus & september)
+
+Welkom bij Microsoft Ignite-onze eerste online-Ignite. We hopen dat we u kunnen zien in een van onze sessies: [Microsoft Ignite 2020 sessie catalogus](https://myignite.microsoft.com/sessions). Hier is slechts een paar van de dingen die we bespreken op Ignite. 
+> [!NOTE]
+> Niet alle functies zijn direct beschikbaar voor iedereen. Als u de nieuwe functies niet ziet, neemt u [deel aan de targeted release](manage/release-options-in-office-365.md).
+
+### <a name="multi-tenant-management"></a>Beheer van meerdere tenants
+
+We hebben een reeks functies ontwikkeld voor beheerders van meerdere tenants, zoals u nodig hebt om uw werk sneller en efficiënter te doen.
+
+- **Uw tenants**: snel schakelen tussen de tenants die u beheert.
+- **Alle tenants**: een nieuwe pagina waar u snel de status van de services van uw tenants, alle OpenService aanvragen, uw producten en facturering, aanbevolen configuratietaken en het aantal gebruikers in die Tenant kunt zien.
+- **Instelling**: de pagina voor het instellen van meerdere tenants biedt u een lijstweergave van de instellings pagina, maar u hebt veel tenants ingedeeld. U kunt zien welke functies niet zijn ingeschakeld, welke taken zijn voltooid voor alle tenants, welke taken moeten worden voltooid. In deze weergave kunt u de aanneming van functies bijhouden en ervoor zorgen dat de aanbevolen beveiligingstaken altijd worden uitgevoerd.
+- **Servicestatus**: in de weergave servicestatus ziet u of de tenants van invloed zijn op de tenants. U kunt zelfs aangeven hoeveel van uw beheerde tenants van invloed zijn. Selecteer een incident voor meer informatie op het tabblad Overzicht, ga naar het tabblad tenants waarmee wordt ingezoomd en de ondersteuning van de Tenant wordt weergegeven.
+- **Migraties van cross-tenants** zijn een nieuwe service, nu in de openbare preview-versie, waarmee u postvakken kunt verplaatsen tussen tenants, zonder dat u de verwijderen en vervolgens op een plaats hoeft te zetten. 
+- **Delen van domein voor domein**: binnenkort kunt u deelnemen aan een privé Preview voor de mogelijkheden die u kunt gebruiken om een domein te delen via meerdere tenants. Als contoso wervel wind Toys verwerft, kan contoso het domein delen met wervel wind Toys, zodat personen in beide tenants hun e-mailadressen kunnen ' contoso.com ' gebruiken.
+
+![De pagina service status voor meerdere tenants waarbij een incident is geselecteerd en het tabblad van invloed is op de tenants geopend. Het navigatiemenu bevat alle tenants, installatie en service status als enige optie.](../media/MAC-WN-MTinServiceHealth.png)
+
+### <a name="monitor-your-most-important-accounts"></a>De belangrijkste accounts controleren
+
+U kunt mislukte of uitgetraagde e-mailberichten die naar uw gebruikers worden verzonden, controleren en bijhouden, zoals de CEO. U kunt prioriteits accounts bijhouden door gebruikers toe te voegen aan uw lijst met prioriteits accounts in het Microsoft 365-Beheercentrum. U kunt leidinggevenden, leidinggevenden, beheerders en andere gebruikers toevoegen die toegang hebben tot gevoelige of High Priority Information.
+
+Prioriteit accounts zijn alleen beschikbaar voor organisaties die aan de volgende vereisten voldoen:
+
+- Office 365 E3 of Microsoft 365 E3 of Office 365 E5 of Microsoft 365 E5.
+- Minstens 10.000 licenties en minstens 50 maandelijkse actieve Exchange Online-gebruikers.
+
+![Installatiepagina voor de functie: de belangrijkste accounts bewaken](../media/MAC-WN-PriorityAccounts.png)
+
+U kunt op twee manieren beginnen:
+
+- Ga naar **gebruikers**en selecteer vervolgens in het menu meer acties de optie **prioriteits accounts beheren** om gebruikers aan de lijst toe te voegen.
+- Ga naar **Setup**, ga naar de configuratie-taak **Monitor uw belangrijkste accounts**en selecteer aan de **slag**.
+
+Ga voor meer informatie over prioriteits accounts naar berekenings [prioriteit accounts](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) en [e-mail problemen voor prioriteit accounts](https://docs.microsoft.com/Exchange/mail-flow-best-practices/mail-flow-insights/mfi-email-issues-for-priority-accounts).
+
+### <a name="search-faster-and-get-better-results-from-any-page"></a>Sneller zoeken en betere resultaten van een pagina weergeven
+
+We zijn bezig met het implementeren van een nieuwe zoekervaring voor het Beheercentrum en we kunnen u er niet voor proberen. ![Het zoekvak is verplaatst naar het gebied banner. Via een willekeurige pagina drukt u op ALT + S om te zoeken.](../media/MAC-WN-GlobalSearch.png)
+
+- Het zoekvak is verplaatst naar het gebied voor de koptekst, waar dit ' Microsoft 365-Beheercentrum ' staat, zodat u nu vanaf een willekeurige pagina op een willekeurige pagina op een willekeurige plek We hebben zelfs een sneltoets: **ALT + S**.
+- De zoekfunctie is slimmer en levert betere resultaten en levert nog sneller resultaten. Voer ' 2fa ' in om aan de slag te gaan.
+- De zoekresultaten worden ingedeeld op basis van het type item of de actie die u kunt uitvoeren.
+  - **Gebruikers**: Selecteer de naam van de gebruiker en u kunt de gebruiker daar bewerken. Als u het menu ' meer acties ' naast de naam selecteert, kunt u het wachtwoord opnieuw instellen. U kunt zoeken op weergavenaam, achternaam, voornaam, gebruikersnaam of primair e-mailadres en e-mail aliassen. Zoek op een primair e-mailadres of gebruikersnaam voor een exacte overeenkomst.
+  - **Groepen**: de groep vanaf een willekeurige pagina bewerken, leden toevoegen, eigenaren toewijzen.
+  - **Acties**: vergelijkbaar met de manier waarop u een gebruiker kunt zoeken en het wachtwoord opnieuw kunt instellen, kunt u ook ' wachtwoord opnieuw instellen ' op een willekeurige pagina zoeken en vervolgens een of meer wachtwoorden voor gebruikers opnieuw instellen.
+  - **Navigatie**: resultaten onder navigatie kunnen snel aan de slag met een pagina van het Beheercentrum. Als u bijvoorbeeld ' rollen ' zoekt, gaat u naar de pagina rollen voor de functies van Azure AD.
+  - **Instellingen**: zoek naar een instelling met betrekking tot uw organisatie, de services waarop u zich hebt geabonneerd, en beveiligings-en privacy-instellingen. 
+  - **Domeinen**: u kunt snelkoppelingen naar uw domeinen vinden, en vervolgens gaat u naar de pagina overzicht en status van het domein op de koppeling.
+  - **Documentatie**: als we een resultaat voor u niet kunnen vinden, vinden we een documentatie voor hulp. Het is een beetje langer voor de lijst met geplaatste artikelen om een treffer te vinden, dus wacht een tweede keer om de resultaten te zoeken. 
+  - **Feedback**: hebt u niet gevonden wat u zoekt? Stuur ons feedback van de zoekopdracht. We zullen zoekfunctionaliteit toevoegen voor meer pagina's en meer functies in het Beheercentrum.
+
+### <a name="microsoft-365-admin-mobile-app"></a>Mobiele app Microsoft 365 admin
+
+De [Microsoft 365 admin Mobile-App](https://www.microsoft.com/microsoft-365/business/manage-office-365-admin-app), die deel uitmaakt van uw abonnement, biedt u de mogelijkheid microsoft 365 van uw mobiele apparaat te beheren zodat u de taken van de dag voor elke dag kunt voorkomen. In feite zijn er meer dan 90 functies in de app, en daar hebben we nog een paar extra:
+
+- **Ondersteuning voor Mobile Application Management en beleid voor voorwaardelijke toegang van Microsoft intune**: u kunt nu uw persoonlijke apparaat gebruiken voor het beheren van microsoft 365, ook als uw organisatie het beheer van de mobiele toepassing van intune en het beleid voor voorwaardelijke toegang heeft ingeschakeld.
+- Berichten in het **berichtencentrum**: Schakel meldingen voor berichtencentrum in bij **instellingen**  >  **meldingen** als u een melding wilt krijgen over nieuwe berichten in het berichtencentrum. Via meldingen willen we ervoor zorgen dat u op de hoogte wordt gehouden van belangrijke informatie en gebeurtenissen in de Tenant.
+- **Facturerings waarschuwingen**: u kunt ook facturerings meldingen inschakelen bij **instellingen**  >  **meldingen** als u op uw apparaat facturerings meldingen wilt ontvangen wanneer een abonnement bijna is verlopen.
+- **Donkere modus**: Welkom bij de donkere kant van de mobiele app. Dit was een van de meest gevraagde functies. Ga naar **instellingen**  >  **Thema's** om deze functie in te schakelen.
+- **Een probleem melden**: u kunt nu een probleem melden in de app of problemen weergeven die worden gerapporteerd door andere beheerders. Ga naar **service status** om het uit te checken.
+
+![De pagina status in de beheer-app van Microsoft 365 met meldingen voor berichtencentrum, servicestatus, facturerings waarschuwingen.](../media/MAC-WN-AdminMobileApp.png)
+
+### <a name="usage-recommendations-for-small-and-medium-businesses"></a>Aanbevelingen voor het gebruik van kleine en middelgrote bedrijven
+
+Voor kleine en middelgrote bedrijven wordt mogelijk een aanbeveling weergegeven op de **Start** pagina, als sommige personen in de organisatie niet actief gebruikmaken van teams, OneDrive of Office-apps. Wanneer u de aanbeveling bekijkt, kunt u snel Microsoft-training voor inactieve gebruikers naar u helpen om aan de slag te gaan met de app en ervoor te zorgen dat u de volledige waarde krijgt van uw abonnementen.
+
+### <a name="remote-work-collection"></a>Extern werk verzamelen
+
+In oktober voegt u een externe werk verzameling toe om eigenaren van Small Business en hun personeel online te helpen en op afstand te werken.  Instellen van **extern werk Essentials** is een lijst met alle functies die Microsoft adviseert om extern werk veilig in te schakelen en effectief samen te werken. U kunt de app uitproberen via de **installatie**van  >  **extern werk**in een paar weken.
+
+![De pagina voor externe werk beginselen in Setup met 7 taken die niet zijn gestart.](../media/MAC-WN-RemoteWork.png)
+
+Ga naar [aka.MS/Remote-Business](https://aka.ms/remote-business)voor meer informatie over het veilig toestaan van externe werk en een handig webadres dat makkelijk is te onthouden en te delen.
+
+### <a name="need-help-moving-to-more-admin-centers"></a>Hulp nodig? verplaatsen naar meer beheer centra
+
+We bekijken voortdurend de inhoud en hulpmiddelen om deze bij te houden, zodat we u op de hoogte blijven van wijzigingen in het product. We hebben nu veel meer zelf diagnostische hulpprogramma's waarmee u snel en efficiënt problemen kunt oplossen. Hier zijn enkele onlangs toegevoegde:
+
+- Het beperkingsbeleid voor Exchange-webservice wijzigen
+- De status van teams controleren en valideren voor specifieke gebruikers
+- Problemen met de installatie van DKIM oplossen
+- Diagnostische fouten bij intune gebruikers registreren
+
+We vouwen de nieuwe en verbeterde ondersteuningservaring die u al in het Microsoft 365-Beheercentrum ziet voor enkele andere beheer centra. Beheerderscentrum voor teams en beveiligings-en nalevings beheer centra hebben al deze nieuwe ervaring. En binnenkort wordt het Exchange-beheer **centrum**, het **SharePoint-Beheercentrum**en het **Office.com** bijgewerkt met deze nieuwe Help-ervaring voor beheerders.
+
+### <a name="manage-changes-with-microsoft-planner"></a>Wijzigingen beheren met Microsoft planner
+
+In mei werd u gewaarschuwd dat u berichten in het berichtencentrum snel kunt synchroniseren naar Microsoft planner en nu beschikbaar is voor iedereen.  U kunt nu een taak maken op basis van berichten, toewijzen en ze bijhouden om af te ronden. De eerste keer dat u **planner** selecteert, moet u verbinding maken met het juiste abonnement.
+
+![Pagina berichtencentrum met ' synchroniseren van Planner ' gemarkeerd in de opdrachtbalk naast de knop Voorkeuren.](../media/MAC-WN-MCPlannerSync.png)
+
+Voor meer informatie hierover raadpleegt u dit artikel en video om te zien hoe het werkt: berichten [in het berichtencentrum bijhouden in planner](https://docs.microsoft.com/Office365/Planner/track-message-center-tasks-planner)
+
+### <a name="documentation-training-and-videos"></a>Documentatie, training en Video's
+
+- Gloednieuw en even lang voor Microsoft Ignite--[de virtuele hub](https://adoption.microsoft.com/virtual-hub/). Diep de technische training van IT-professionals en ontwikkelaars. U kunt snel zoeken naar twintig nieuwe Video's als onderdeel van #SIDETRACKED, de naam van de Ignite-beheerder dit jaar bijhouden.
+- [Nieuw in Microsoft 365](https://www.youtube.com/watch?v=OVjb2lGJ4GU&t=2s) -VideoReeks: deze maand begeleidt nieuwe functies die beschikbaar zijn in whiteboard voor teams en op internet, hoe u het inrichten van gebruikers tot Azure AD, nieuwe kracht automatiseert en acties in teams en meer. En blijf de volgende maand afgestemd op, waar we een recap hebben van alle fantastische dingen op Ignite!
+- We hadden een nieuwe versie van de [documentatie pagina van Microsoft 365](https://docs.microsoft.com/microsoft-365) , waarop u eerst aandacht richten op oplossingen. We markeren nieuwe oplossingen wanneer deze beschikbaar komen op deze pagina, dus laat even de aandacht kijken.
+
+![Nieuwe openingspagina voor documentatie voor Microsoft 365-oplossingen met oplossingen zoals ' externe werknemers Empower '.](../media/MAC-WN-M365Docspage.png)
+
 ## <a name="july-2020"></a>Juli 2020
 
 ### <a name="getting-ready-for-ignite-2020"></a>Voorbereiden voor Ignite 2020
 
-Wanneer wij overstappen op het Ignite-seizoen van Microsoft, bieden we u niet een groot aantal functies, zodat we u gedurende onze sessies een heleboel te spreken. 
+Wanneer wij overstappen op het Ignite-seizoen van Microsoft, bieden we u niet een groot aantal functies, zodat we u gedurende onze sessies een heleboel te spreken.
 
 De volgende update voor dit artikel gaat over op een openingsdatum van onze eerste online-Ignite. Dit jaar is gratis. Uitchecken, Meld u aan: [Microsoft Ignite 2020](https://www.microsoft.com/ignite).
 
 ### <a name="your-products"></a>Uw producten
 
-Er is veel werk gedaan in het abonnementen beheer om de pagina sneller te laden, zodat u sneller vindt wat u zoekt, en om te voldoen aan de standaarden voor web acessibility ([WCAG 2,1](http://www.w3.org/TR/WCAG21/)).
+Er is veel werk gedaan in het abonnementen beheer om de pagina sneller te laden, zodat u sneller kunt vinden wat u zoekt en om te voldoen aan de standaarden voor Web Accessibility ([WCAG 2,1](http://www.w3.org/TR/WCAG21/)).
 
 - Opnieuw **ontwerpen van tabel**: de tabel is opnieuw ontworpen, zodat u vergelijkbare abonnementen kunt groeperen. Ga naar de **facturering**van  >  **uw producten**.
 - **Product gegevens**: Ga voor meer informatie naar uw abonnementen en selecteer het product in de lijst.
@@ -73,9 +177,9 @@ Domeinbeheer kan ingewikkeld zijn en we hebben een nieuwe functie uitgebracht om
 
 :::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="Pagina Domain Details voor contoso.com":::
 
-### <a name="docs-training-and-videos"></a>Documenten, cursussen en Video's
+### <a name="docs-training-and-videos-july-2020"></a>Documenten, cursussen en Video's (juli 2020)
 
-[Nieuw in Microsoft 365](https://youtu.be/m1Nu8WJgCDY) -VideoReeks: deze maand bieden we de nieuwe Yammer-ervaring voor het web en mobiele telefoons, en leren hoe u de app Yammer Community's voor Microsoft teams, nieuwe beleids pakketten voor ondersteuning van firstline Workers-werknemers en-managers, en meer.
+[Nieuw in Microsoft 365](https://youtu.be/m1Nu8WJgCDY) -VideoReeks: deze maand bieden we de nieuwe Yammer-ervaring voor het web en mobiele telefoons, en leren hoe u de app Yammer Community's voor Microsoft teams, nieuwe beleids pakketten voor ondersteuning van Firstline Workers-werknemers en-managers, en meer.
 
 ## <a name="june-2020"></a>Juni 2020
 
@@ -91,7 +195,7 @@ Een paar maanden geleden, hebben we een instelling toegevoegd waarmee u de [nieu
 
 ### <a name="new-update-channel-for-office"></a>Nieuw update kanaal voor Office
 
-Op 12 mei hebben we de beschikbaarheid van een nieuw update kanaal voor Office aangekondigd: Monthly Enterprise-kanaal. Dit update kanaal biedt gebruikers de nieuwe Office-functies één keer per maand, op de tweede dinsdag van de maand.
+Op 12 mei hebben we de beschikbaarheid van een nieuw update kanaal voor Office aangekondigd: Monthly Enterprise-kanaal. Dit update kanaal biedt gebruikers de nieuwe Office-functies één keer per maand op de tweede dinsdag van de maand.
 
 Als u gebruikers de mogelijkheid wilt bieden om Office te installeren via de portal, kunt u het maandelijkse Enterprise-kanaal voor de gebruikers selecteren. Hiervoor meldt u zich aan bij het Microsoft 365-Beheercentrum en gaat u naar **alle instellingen weergeven**instellingen voor de  > **Settings**  >  **Org settings**  >  **Services**  >  **Office-software**. Als u **eenmaal per maand (Monthly Enterprise-kanaal)** selecteert, worden nieuwe zelf installaties van Office geconfigureerd voor het gebruik van het maandelijkse Enterprise-kanaal.
 
@@ -257,7 +361,7 @@ We hebben veel feedback ontvangen van partners en beheerders over de uitdagingen
 ![Schermafbeelding: boven aan de startpagina met de naam van het organisatie pictogram met het pictogram van de schakelaar.](../media/MAC-Organization-switcher.png)
 
 2. Selecteer in de centrale organisatie de naam van de organisatie die u wilt beheren.
-![Schermafbeelding: boven aan de startpagina met de naam van het organisatie pictogram met het pictogram van de schakelaar.](../media/MAC-OrgSwitcherSelected.png)
+![Schermopname: mijn organisatie-wisselaar voor tenants met uitgelichte Messenger-Tenant gemarkeerd](../media/MAC-OrgSwitcherSelected.png)
 
 Dat is er ook!!!
 

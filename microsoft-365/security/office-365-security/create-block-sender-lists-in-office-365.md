@@ -13,14 +13,17 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: Beheerders kunnen meer te weten komen over de beschikbare en voorkeursopties voor het blokkeren van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 9b676f96ccdff8be1fa49841a9e0ce44bb59964c
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 7894a6cfe665539fa8c00f5911c4a588b9cf7ebc
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827311"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203189"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>Lijsten met geblokkeerde afzenders maken in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, biedt EOP meerdere manieren om e-mail van ongewenste afzenders te blokkeren. Deze opties zijn geblokkeerde afzenders van Outlook, lijsten met geblokkeerde afzenders of geblokkeerde domein lijsten in Antispambeleid, Exchange-e-mail stroom regels (ook wel de zogenaamde transportregels genoemd) en de lijst met IP-blok (verbindingen filteren). U kunt ook rekening houden met de volgende opties als _lijsten met geblokkeerde afzenders_.
 

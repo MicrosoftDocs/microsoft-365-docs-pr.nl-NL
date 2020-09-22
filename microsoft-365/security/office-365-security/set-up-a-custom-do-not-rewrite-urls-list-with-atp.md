@@ -19,14 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het instellen van aangepaste geblokkeerde Url's voor gebruikers en het niet-opnieuw schrijven van Url's voor een groep gebruikers in Office 365 ATP-beleid voor veilige koppelingen.
-ms.openlocfilehash: 9ec9c92e038aee33c716405916df009e3f4c60c5
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: ff2ce18897d7bd1d3890335a237e32bffd1a77e6
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825231"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202349"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Een aangepaste lijst met niet-herschrijfbare Url's instellen met behulp van behulp van behulp van vrije verbindingen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over veilige koppelingen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Meer informatie over het gebruik van gecentraliseerde invoegtoepassingen om invoegtoepassingen te implementeren voor gebruikers en groepen in uw organisatie.
-ms.openlocfilehash: c7f8b7bf71dbdaaf1c850c801a5145d3ab47a65c
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 6339858871834637c0b8fdd1b16c17b534026de9
+ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171290"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48207884"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Invoegtoepassingen beheren in het beheercentrum
 
@@ -60,6 +60,9 @@ U kunt ook een invoegtoepassing verwijderen die is geïmplementeerd.
 
 1. Ga in het Beheercentrum naar de pagina **instellingen**  >  **Services & invoegtoepassingen** .
 
+     > [!NOTE]
+    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen**van de  >  **geïntegreerde apps**te gaan. Kies invoeg **toepassingen**op de bovenkant van de pagina **geïntegreerde apps** .
+
 2. Selecteer de geïmplementeerde invoegtoepassing.
 
 3. Klik op **invoegtoepassing verwijderen**. De knop invoegtoepassing in de rechterbenedenhoek verwijderen.
@@ -71,6 +74,9 @@ U kunt ook een invoegtoepassing verwijderen die is geïmplementeerd.
 Na implementatie kunnen beheerders ook gebruikers toegang tot invoegtoepassingen beheren.
 
 1. Ga in het Beheercentrum naar de pagina **instellingen**  >  **Services & invoegtoepassingen** .
+
+     > [!NOTE]
+    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen**van de  >  **geïntegreerde apps**te gaan. Kies invoeg **toepassingen**op de bovenkant van de pagina **geïntegreerde apps** .
 
 2. Selecteer de geïmplementeerde invoegtoepassing.
 
@@ -88,6 +94,9 @@ Als organisatie kunt u het downloaden van nieuwe Office-invoegtoepassingen vanui
 **Verwerving van invoegtoepassing uitschakelen**
   
 1. Ga in het beheercentrum naar de pagina**Instellingen** \> [Services &amp; invoegtoepassingen](https://go.microsoft.com/fwlink/p/?linkid=2053743).
+
+     > [!NOTE]
+    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen**van de  >  **geïntegreerde apps**te gaan. Kies invoeg **toepassingen**op de bovenkant van de pagina **geïntegreerde apps** .
     
 3. Selecteer **apps en services van gebruikers**.
     

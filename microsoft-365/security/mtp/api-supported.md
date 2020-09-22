@@ -1,6 +1,6 @@
 ---
-title: Ondersteunde Microsoft Threat Protection-Api's
-description: Ondersteunde Microsoft Threat Protection-Api's
+title: Ondersteunde API‘s voor Microsoft Threat Protection
+description: Ondersteunde API‘s voor Microsoft Threat Protection
 keywords: MTP, API, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 49fa182a6142748ca7769411fe74389f365ba75f
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: fda90945f09abfadfe56ea11469687130d88b2a7
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650228"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203693"
 ---
-# <a name="supported-microsoft-threat-protection-apis"></a>Ondersteunde Microsoft Threat Protection-Api's 
+# <a name="supported-microsoft-threat-protection-apis"></a>Ondersteunde API‘s voor Microsoft Threat Protection 
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **Van toepassing op:**
 - Microsoft Threat Protection
 
@@ -52,5 +55,5 @@ ms.locfileid: "47650228"
 
 Rond | Beschrijving
 :---|:---
-[Geavanceerde jacht-API](api-advanced-hunting.md) | Voer geavanceerde jacht-query's uit via API.
-[Api's voor incidenten](api-incident.md) | Incidentele API-oproepen uitvoeren, zoals: incidenten vermelden, incident bijwerken en meer.
+[Geavanceerde API voor opsporing](api-advanced-hunting.md) | Voer geavanceerde jacht-query's uit via API.
+[API's voor incidenten](api-incident.md) | Incidentele API-oproepen uitvoeren, zoals: incidenten vermelden, incident bijwerken en meer.

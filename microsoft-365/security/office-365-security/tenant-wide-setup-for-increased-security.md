@@ -19,14 +19,17 @@ ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 ms.custom:
 - seo-marvel-apr2020
 description: In dit onderwerp wordt u begeleid bij de aanbevolen configuratie voorinstellingen voor de gehele Tenant die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving.
-ms.openlocfilehash: 3a69a27aa544880e428562892832b6d33a2508e4
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 72040469f802c2cb5a4fac132ff1c3cd8999e124
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308217"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202017"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365-Tenant configureren voor een betere beveiliging
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In dit onderwerp wordt u begeleid bij de aanbevolen configuratie voorinstellingen voor de gehele Tenant die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving. Voor uw veiligheids behoeften is meer of minder veiligheid nodig. Gebruik deze aanbevelingen als uitgangspunt.
 
@@ -137,7 +140,7 @@ Meer informatie:
 
 ![Cloud App Security-dashboard](../../media/1fb2aa65-54b8-4746-9f5e-c187d339e9f5.png)
 
-## <a name="additional-resources"></a>Overige informatiebronnen
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 Deze artikelen en richtlijnen maken extra uitgebreide informatie voor het beveiligen van uw Microsoft 365-omgeving:
 

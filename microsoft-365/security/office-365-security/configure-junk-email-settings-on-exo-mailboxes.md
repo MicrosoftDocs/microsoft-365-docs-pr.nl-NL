@@ -16,14 +16,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen de instellingen voor ongewenste e-mail in postvakken van Exchange Online leren configureren. Veel van deze instellingen zijn beschikbaar voor gebruikers in Outlook of de webversie van Outlook.
-ms.openlocfilehash: 171eca8535958f01a7f749ad678e6ea9dd83d80c
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 632c6f37b80cdc38b513f66ad42e4a5c25b41f25
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825711"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203345"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online worden de antispam instellingen voor de organisatie bestuurd via Exchange Online Protection (EOP). Zie [bescherming tegen spam in EOP](anti-spam-protection.md)voor meer informatie.
 

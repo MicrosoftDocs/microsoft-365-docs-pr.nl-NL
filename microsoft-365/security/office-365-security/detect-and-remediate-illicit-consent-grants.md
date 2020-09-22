@@ -17,14 +17,17 @@ search.appverid:
 - MET150
 description: Lees hoe u met de illegale toestemming een aanval kunt doorvoeren in Microsoft Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 125ebdf8b3d17e3a14abec8154129b0144928905
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: b534d53166c09cf77993948cf1c448e21c8cd330
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652955"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203093"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Het detecteren en herstellen van illegale toestemming subsidies
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 **Overzicht**  Lees hoe u met de illegale toestemming een aanval kunt doorvoeren in Office 365.
 

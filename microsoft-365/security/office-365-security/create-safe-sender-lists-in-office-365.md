@@ -16,14 +16,17 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: f182027b153ee73e33131b39066e512c9303fcbd
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: b1eda98e081338a981be1d1f5991578b49c574fd
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827109"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203165"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Als u een klant van Microsoft 365 met postvakken in Exchange Online of een zelfstandige Exchange Online Protection (EOP)-klant zonder postvakken van Exchange Online hebt, biedt EOP meerdere manieren om ervoor te zorgen dat gebruikers e-mail van vertrouwde afzenders ontvangen. Dit zijn de opties voor Exchange-e-mail stroom (ook wel bekend als transportregels), veilige afzenders van Outlook, de lijst met toegestane IP-adressen (verbindingen van verbindingen) en lijsten met toegestane afzenders of toegestane domein lijsten in antispambeleid. Daarnaast kunt u het volgende doen als _lijsten met veilige afzenders_.
 

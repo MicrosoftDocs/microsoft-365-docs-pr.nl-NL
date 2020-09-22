@@ -15,14 +15,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over de configuratie van URL-items in de lijst Tenant toestaan/blokkeren in het beveiligings & nalevings centrum.
-ms.openlocfilehash: 888a96f23daf2cf47847466ad4080f310be7f9b4
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: eb9dcc5b239aae1366a0a2e0eebd68b3f0082e6b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845940"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202337"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>URL's beheren in de lijst met toegestane/geblokkeerde tenants
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 > [!NOTE]
 > De functies die in dit onderwerp worden beschreven, zijn in de preview-versie en kunnen worden gewijzigd, en zijn niet beschikbaar in alle organisaties.

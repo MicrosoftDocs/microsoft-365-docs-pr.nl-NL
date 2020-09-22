@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 16749e22b91afb3d1c2bfdc3c40ca271948a97a7
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: d76992108fb3cda82bd9ad9886a2886f70695788
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650227"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203669"
 ---
 #  <a name="microsoft-threat-protection-apis-license-and-terms-of-use"></a>Licentie en gebruiksvoorwaarden voor Microsoft Threat Protection-Api's
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 **Van toepassing op:**
 - Microsoft Threat Protection
 
@@ -34,7 +37,7 @@ ms.locfileid: "47650227"
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
 
-## <a name="apis"></a>APIs
+## <a name="apis"></a>API‘s
 
  Microsoft Threat Protection-Api's worden onderhevig aan de [Microsoft API-licentie en de gebruiksvoorwaarden](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
 

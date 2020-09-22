@@ -18,14 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: U kunt geïsoleerde, geïsoleerde SharePoint Online-team sites ontwerpen, waaronder machtigingsniveaus bepalen, machtigingen toewijzen aan gebruikers met toegangsgroepen en geneste Azure AD-groepen.
-ms.openlocfilehash: d26f55d9e037d86eac28e5cf21c56406eae5cc19
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 035952c1921443d86602eb94e3965acee86ae3e8
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653003"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203117"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite ontwerpen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
  **Overzicht:** Stap voor stap door het ontwerpproces voor geïsoleerde SharePoint Online-team sites.
 
@@ -35,11 +38,11 @@ In dit artikel wordt u stapsgewijs begeleid bij het maken van een geïsoleerde o
 
 Elke SharePoint Online-team site wordt standaard gemaakt met de volgende SharePoint-groepen:
 
-- \<site name>Leden
+- \<site name> Leden
 
-- \<site name>Plaatst
+- \<site name> Plaatst
 
-- \<site name>Sites
+- \<site name> Sites
 
 Deze groepen zijn gescheiden van de groepen Microsoft 365 en Azure Active Directory (AD) en vormen de basis voor het toewijzen van machtigingen voor de bronnen van de site.
 
@@ -49,9 +52,9 @@ De set specifieke machtigingen waarmee wordt bepaald wat een lid van een SharePo
 
 |SharePoint-groep|Machtigingsniveau|
 |---|---|
-|\<site name>Leden|Bewerken|
-|\<site name>Plaatst|Lezen|
-|\<site name>Sites|Volledig beheer|
+|\<site name> Leden|Bewerken|
+|\<site name> Plaatst|Lezen|
+|\<site name> Sites|Volledig beheer|
 |
 
  **Aanbevolen procedure:** U kunt extra SharePoint-groepen en machtigingsniveaus maken. We raden u echter aan gebruik te maken van de standaardshare Point-groepen en machtigingsniveaus voor de geïsoleerde SharePoint Online-site.
@@ -92,9 +95,9 @@ Voor geïsoleerde SharePoint Online-team sites ziet de aanbevolen groepsstructuu
 
 |SharePoint-groep|Azure AD-basis toegangsgroep|Machtigingsniveau|
 |---|---|---|
-|\<site name>Leden|\<site name>Leden|Bewerken|
-|\<site name>Plaatst|\<site name>Mensen|Lezen|
-|\<site name>Sites|\<site name>Beheerders|Volledig beheer|
+|\<site name> Leden|\<site name> Leden|Bewerken|
+|\<site name> Plaatst|\<site name> Mensen|Lezen|
+|\<site name> Sites|\<site name> Beheerders|Volledig beheer|
 |
 
  **Aanbevolen procedure:** Hoewel u Microsoft 365 of een Azure AD-groep als lid van SharePoint-groepen kunt gebruiken, kunt u het beste gebruikmaken van Azure AD-groepen. Azure AD-groepen die worden beheerd via de AD DS of Microsoft 365, bieden u meer flexibiliteit bij het toewijzen van geneste groepen aan machtigingen.

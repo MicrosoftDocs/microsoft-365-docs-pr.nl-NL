@@ -14,14 +14,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over het toepassen van standaard-en strikte beleidsinstellingen in de beveiligingsfuncties van Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: a2f0472d8dd44c90fd5db14e71d2db0d5d323b50
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 35be2b1ebfcf7ef8b7aad5cc2d4b3dd7032806b2
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825255"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202601"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Office 365 ATP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Vooraf ingesteld beveiligingsbeleid biedt een centrale locatie voor het toepassen van alle aanbevolen spam, malware en Phishingfilter aan gebruikers tegelijk. Het is niet mogelijk om de beleidsinstellingen te configureren. In plaats daarvan worden ze door ons opgezet en zijn ze gebaseerd op onze waarnemingen en ervaringen in de datacenters voor een evenwicht tussen het behoud van schadelijke inhoud van gebruikers zonder dat ze hun werk onderbreken.
 

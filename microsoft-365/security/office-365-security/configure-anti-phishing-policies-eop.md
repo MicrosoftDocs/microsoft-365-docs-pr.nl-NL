@@ -14,14 +14,17 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het anti-phishingfilter kunt maken, wijzigen en verwijderen dat beschikbaar is in organisaties met een Exchange Online-bescherming (EOP) met of zonder postvakken van Exchange Online.
-ms.openlocfilehash: 3b83bcd3c60dbd779d727a79f6689fdf0004d340
-ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
+ms.openlocfilehash: 66c02513966eda45c4993a28904667f11be225f5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255755"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203393"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishings beleid configureren in EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken is er een standaard anti-phishingfilter met een beperkt aantal anti-spoofings functies die standaard zijn ingeschakeld. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings).
 

@@ -19,14 +19,17 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Gebruikers moeten zijn toegewezen machtigingen in het Microsoft 365-beveiligings & nalevings centrum voordat ze de functies voor beveiliging of compliance kunnen beheren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b51007221257b9adac46c31295e13b20b12342ab
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 5d586684d44545f7aea94c30f5474b1fe5fa4651
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868919"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202805"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot de beveiligings & nalevings centrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Gebruikers moeten zijn toegewezen aan de beveiligings & compliance Center voordat ze de functies voor beveiliging of compliance kunnen beheren. Als globale beheerder of als lid van de de organizationmanagement-rollen groep in het Beveiligingscentrum beveiligings &, kunt u deze machtigingen aan gebruikers verlenen. Gebruikers kunnen alleen de functies voor beveiliging en compliance beheren waartoe u ze toegang geeft.
 
@@ -52,7 +55,7 @@ Als u meer wilt weten over de verschillende machtigingen die u aan gebruikers ku
 
 4. Wanneer u alle gebruikers hebt geselecteerd die u wilt toevoegen aan de rollen groep, klikt u op **toevoegen \> ** en vervolgens op **OK**.
 
-5. Wanneer u gereed bent, klikt u op **Opslaan**.
+5. Klik op **Opslaan** wanneer u gereed bent.
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Beveiligings & PowerShell gebruiken om een andere gebruiker toegang te geven tot de beveiligings & nalevings centrum
 

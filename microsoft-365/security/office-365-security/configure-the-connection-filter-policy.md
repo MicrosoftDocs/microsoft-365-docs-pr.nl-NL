@@ -18,14 +18,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen zien hoe het filteren van verbindingen in Exchange Online Protection (EOP) wordt geconfigureerd om e-mailberichten van e-mailservers toe te staan of te blokkeren.
-ms.openlocfilehash: 45213ff36c7efc76a83a2c520e0369211ffecf53
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: d69ec30c9d6d812bf3bbcc6dc5b6df332d9dd0b5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827843"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203369"
 ---
 # <a name="configure-connection-filtering"></a>Filteren van verbinding configureren
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Als u een klant van Microsoft 365 met postvakken in Exchange Online of een zelfstandige Exchange Online Protection (EOP)-klant zonder postvakken van Exchange Online hebt, gebruikt u het filter voor verbindingen in EOP (specifiek het standaardbeleid voor verbindings filters) om goede of ongeldige bron-e-mailservers te identificeren via hun IP-adressen. De belangrijkste onderdelen van het standaardbeleid voor verbindings filters zijn:
 
