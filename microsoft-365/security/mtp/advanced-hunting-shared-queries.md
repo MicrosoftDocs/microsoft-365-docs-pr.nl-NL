@@ -17,14 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d9dcd07a4fc63130d015bf31270d1de9212f9a53
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 3682044ab100d396719e3b7ffe5a6331852d0d55
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649185"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201217"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken in geavanceerde jacht
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
@@ -50,7 +53,7 @@ U kunt een nieuwe of bestaande query opslaan, zodat deze alleen toegankelijk is 
     - **Gedeelde query's** , gedeeld met alle gebruikers van uw organisatie
     - **Mijn query's** : alleen toegankelijk voor u
     
-5. Kies **Opslaan**. 
+5. Selecteer **Opslaan**. 
 
 ## <a name="delete-or-rename-a-query"></a>Een query verwijderen of de naam ervan wijzigen
 1. Klik met de rechtermuisknop op de query waarvan u de naam wilt wijzigen of die u wilt verwijderen.
@@ -72,6 +75,6 @@ Microsoft-beveiligingsonderzoekers delen regelmatig geavanceerde jacht-query's i
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)
-- [Jacht op apparaten, e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
+- [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)

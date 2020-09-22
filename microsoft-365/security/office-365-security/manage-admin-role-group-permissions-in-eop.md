@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Beheerders kunnen informatie lezen over het toewijzen of verwijderen van machtigingen in het Exchange-Beheercentrum in Exchange Online Protection.
-ms.openlocfilehash: 8d452eb85d59bbe82cc6685d652617bc857c1ddf
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: fb1e0979b77c38d852f35817e01135af888eac68
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825687"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201899"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>Rollengroepen beheren in standalone EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, kunt u het Exchange-Beheercentrum (SBV) gebruiken om gebruikers toe te voegen aan rollen groepen. Door een gebruiker toe te voegen aan een rollen groep, krijgt u de gebruikersmachtigingen om specifieke beheertaken uit te voeren. U kunt gebruikers ook verwijderen uit rollen groepen.
 

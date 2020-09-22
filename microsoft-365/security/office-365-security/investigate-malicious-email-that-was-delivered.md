@@ -19,14 +19,17 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van de functie voor het onderzoek van bedreigingen en de antwoord mogelijkheden om kwaadaardige e-mail te vinden en te onderzoeken.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91f16c3aa7ba98467c52fb25e0597f346a810003
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 120cc32a2736858a0f0d99ab37f1d51c70a6071c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201911"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Schadelijke e-mailberichten onderzoeken die zijn uitgebracht in Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Met [Bebeschermings beveiliging van Office 365](office-365-atp.md) kunt u activiteiten onderzoeken waarmee mensen in uw organisatie worden bedreigd en om actie te ondernemen om uw organisatie te beveiligen. Als u bijvoorbeeld bij het beveiligingsteam van uw organisatie bent, kunt u verdachte e-mailberichten zoeken en onderzoeken die zijn ontvangen. U kunt dit doen met behulp van de [bedreigings Verkenner (of realtime detectie)](threat-explorer.md).
 

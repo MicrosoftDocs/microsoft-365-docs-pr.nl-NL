@@ -15,62 +15,71 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: De functie Veilige koppelingen biedt time-of-click verificatie van hyperlinks in Office-documenten en in e-mailberichten. Lees dit artikel om te leren hoe ATP Safe Links werkt.
-ms.openlocfilehash: e79c44b91eb5de7564058b4dc50c94d2a4223f08
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+description: De functie voor veilige koppelingen biedt de optie voor het in-of uitschakelen van hyperlinks in Office-documenten en e-mailberichten. Lees dit artikel voor meer informatie over de werking van veilige koppelingen voor ATP.
+ms.openlocfilehash: 09357b20173e2609587137764737c8aba044190e
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046362"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201463"
 ---
 # <a name="how-atp-safe-links-works"></a>Hoe Veilige koppelingen in ATP werkt
-> [!IMPORTANT] 
-> Als u de veilige koppelingen van Office 365 ATP correct wilt werken, moeten alle services in dezelfde versie zijn.
-         
-## <a name="how-atp-safe-links-works-with-urls-in-email"></a>Hoe ATP Safe Links werkt met URL's in e-mail
 
-Op een hoog niveau, volgt de manier waarop [ATP Safe Links-beveiliging](atp-safe-links.md) werkt voor URL's in e-mail (gehost in Office 365, niet on-premises):
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+> [!IMPORTANT] 
+> Als u wilt dat Office 365 op de juiste manier werkt, moeten alle services dezelfde versie hebben.
+         
+## <a name="how-atp-safe-links-works"></a>Hoe Veilige koppelingen in ATP werkt
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+ met Url's per e-mail
+
+Met een hoog niveau gaat u als volgt te werk: een veilige beveiliging van [ATP](atp-safe-links.md) werkt voor url's in e-mail (gehost in Office 365, niet on-premises):
   
-1. Mensen ontvangen e-mailberichten, waarvan sommige URL's bevatten.
+1. Mensen ontvangen e-mailberichten, waarvan sommige Url's bevatten.
     
-2. Alle e-mail gaat via Exchange Online Protection, waar internetprotocol (IP) en envelopfilters, op handtekeningen gebaseerde malwarebescherming, antispam- en anti-malwarefilters worden toegepast. 
+2. Alle e-mailberichten worden doorgevoerd via Exchange Online Protection, waaronder IP-en envelop filters, op handtekening gebaseerde beveiliging van malware, anti-spam en anti-malware-filters. 
     
-3. E-mail komt binnen in de mailboxen van mensen.
+3. E-mail ontvangt in de postvakken van anderen.
     
-4. Een gebruiker meldt zich aan bij Office 365 en gaat naar zijn e-mailpostvak.
+4. Een gebruiker meldt zich aan bij Office 365 en gaat naar het postvak in van de e-mail.
     
 5. De gebruiker opent een e-mailbericht en klikt op een URL in het e-mailbericht.
     
-6. De ATP Safe Links-functie controleert onmiddellijk de URL voordat de website wordt geopend. De URL wordt geïdentificeerd als geblokkeerd, kwaadaardig of veilig.
+6. De functie voor veilige vrije verbindingen controleert onmiddellijk de URL voordat u de website opent. De URL wordt aangeduid als geblokkeerd, schadelijk of veilig.
         
-   - Als de URL naar een website gaat die is opgenomen in de [lijst met aangepaste geblokkeerde URL's van](set-up-a-custom-blocked-urls-list-atp.md)de organisatie, wordt een [waarschuwingspagina](atp-safe-links-warning-pages.md) geopend. 
+   - Als de URL verwijst naar een website die is opgenomen in de [lijst aangepaste geblokkeerde url's](set-up-a-custom-blocked-urls-list-atp.md)van de organisatie, wordt een [waarschuwingspagina](atp-safe-links-warning-pages.md) geopend. 
     
-   - Als de URL naar een website is waarvan is vastgesteld dat deze schadelijk is, wordt een [waarschuwingspagina](atp-safe-links-warning-pages.md) geopend. 
+   - Als de URL verwijst naar een website die is ingesteld als schadelijk, wordt een [waarschuwingspagina](atp-safe-links-warning-pages.md) geopend. 
     
-   - Als de URL naar een downloadbaar bestand gaat en het [ATP Safe Links-beleid](set-up-atp-safe-links-policies.md) van uw organisatie is geconfigureerd om dergelijke inhoud te scannen, wordt het downloadbare bestand gecontroleerd. 
+   - Als u de URL naar een downloadbaar bestand gaat en de [beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md) van uw organisatie zijn geconfigureerd voor het scannen van dergelijke inhoud, is het downloadbare bestand geselecteerd. 
     
-   - Als de URL veilig is, wordt de website geopend.
+   - Als u zeker weet dat de URL veilig is, wordt de website geopend.
     
-## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>Hoe ATP Safe Links werkt met URL's in Office-documenten 
+## <a name="how-atp-safe-links-works"></a>Hoe Veilige koppelingen in ATP werkt
 
-Op hoog niveau werkt [atp-beveiliging voor veilige koppelingen](atp-safe-links.md) voor URL's in Microsoft 365 Apps voor zakelijke of Zakelijke Premium-toepassingen (huidige versies van Word, Excel en PowerPoint op Windows, Mac of in een browser, Office-apps op iOS- of Android-apparaten, Visio op Windows, OneNote in een browser):
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+ met Url's in Office-documenten 
+
+Met een hoog niveau gaat u als volgt te werk: een [veilige](atp-safe-links.md) beveiliging van de apps in microsoft 365-apps voor Enterprise-of Business Premium-toepassingen (actuele versies van Word, Excel en PowerPoint voor Windows, Mac of in een browser, Office-apps op een IOS-of Android-apparaat, Visio op Windows, OneNote in een browser):
   
-1. Mensen hebben Microsoft 365 Apps voor enterprise of Business Premium geïnstalleerd op hun computer, smartphone of tablet. (Of ze gebruiken Office in hun browser.)
+1. Personen hebben Microsoft 365-apps voor Enterprise of Business Premium geïnstalleerd op hun computer, smartphone of Tablet. (Of ze gebruiken Office in hun browser.)
     
-2. Een gebruiker opent een Word-, Excel-, PowerPoint-, OneNote (in de browser) of Visio (op desktop) en meldt zich aan bij Office 365 Enterprise met zijn werk- of schoolaccount. Het document bevat URL's.
+2. Een gebruiker opent een Word-, Excel-, PowerPoint-, OneNote-, PowerPoint-, OneNote-, PowerPoint-, PowerPoint-, PowerPoint-, OneNote-, PowerPoint-, OneNote-, PowerPoint-, PowerPoint-, 365 OneNote- Het document bevat Url's.
     
-3. Wanneer de gebruiker op een URL in het document klikt, wordt de koppeling gecontroleerd door de ATP Safe Links-service.
+3. Wanneer de gebruiker op een URL in het document klikt, wordt de koppeling gecontroleerd via de service voor veilige koppelingen voor ATP.
     
-   - Als de URL naar een website gaat die is opgenomen in de [aangepaste geblokkeerde URL's lijst van](set-up-a-custom-blocked-urls-list-atp.md)de organisatie, wordt de gebruiker naar een [waarschuwingspagina geleid.](atp-safe-links-warning-pages.md)
+   - Als de URL verwijst naar een website die is opgenomen in de [lijst aangepaste geblokkeerde url's](set-up-a-custom-blocked-urls-list-atp.md)van de organisatie, wordt de gebruiker [gewaarschuwd voor een waarschuwingspagina](atp-safe-links-warning-pages.md).
     
-   - Als de URL naar een website is waarvan is vastgesteld dat deze schadelijk is, wordt de gebruiker naar een [waarschuwingspagina geleid.](atp-safe-links-warning-pages.md)
+   - Als de URL verwijst naar een website die schadelijk is, wordt de gebruiker [gewaarschuwd voor een waarschuwingspagina](atp-safe-links-warning-pages.md).
     
-   - Als de URL naar een downloadbaar bestand gaat en het [beleid voor veilige links](set-up-atp-safe-links-policies.md) van ATP is geconfigureerd om dergelijke downloads te scannen, wordt het downloadbare bestand gecontroleerd. 
+   - Als u de URL naar een downloadbaar bestand gaat en de [beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md) voor het scannen van dergelijke downloads zijn geconfigureerd, is het downloadbare bestand geselecteerd. 
     
-   - Als de URL als veilig wordt beschouwd, wordt de gebruiker naar de website geleid.
+   - Als de URL als veilig wordt beschouwd, wordt de gebruiker gekeken naar de website.
       
-   - Als de URL-controle mislukt, wordt de beveiliging van Safe Links niet geactiveerd. Op de desktopclients wordt de gebruiker gewaarschuwd voordat hij doorgaat naar de site.
+   - Als de URL niet kan worden gecontroleerd, wordt de beveiliging van veilige koppelingen niet geactiveerd. Op de bureaublad client wordt de gebruiker gewaarschuwd voordat u verdergaat met de site.
       
 > [!NOTE]
-> Het kan enkele seconden duren aan het begin van elke sessie om te controleren of de gebruiker ATP Safe Links for Office heeft ingeschakeld. 
+> Het kan een paar minuten duren voordat een sessie wordt uitgevoerd om te controleren of de gebruiker voor de gebruiker gebruik moet hebben van ATP voor Office ingeschakeld. 
       

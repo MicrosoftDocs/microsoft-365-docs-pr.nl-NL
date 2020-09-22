@@ -15,14 +15,17 @@ ms.collection:
 - M365-security-compliance
 description: Lees meer over het gebruik van bedreigings Verkenner en het rapport realtime detectie om bedreigingen te onderzoeken en te beantwoorden in het Security &amp; compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5064c3a250ba9e7dcf48d6bc360102b3ab4b8504
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5500a7bff0766159384604e9973b5ad81b3dbc6f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656943"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200105"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in de bedreigings Verkenner en de real-time detectie
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ![Bedreigingsverkenner](../../media/ThreatExplorerFirstOpened.png)
 
@@ -37,8 +40,8 @@ Wanneer u het voor het eerst opent (of het rapport realtime-detectie), ziet u in
 
 |Leden|Netsh|Dagen van gegevens|
 |---|---|---|
-|ATP P1-proefabonnement|Realtime detectie|7,5|
-|ATP P1 betaald|Realtime detectie|dertig|
+|ATP P1-proefabonnement|Detecties in realtime|7,5|
+|ATP P1 betaald|Detecties in realtime|dertig|
 |ATP P1 betaalde proefperiode van ATP|Bedreigingsverkenner|7,5|
 |ATP-proefabonnement|Bedreigingsverkenner|7,5|
 |ATP, betaald|Bedreigingsverkenner|dertig|

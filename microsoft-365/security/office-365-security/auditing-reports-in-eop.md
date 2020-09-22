@@ -12,14 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Beheerders kunnen informatie vinden over de beheerders controlerapporten die beschikbaar zijn in Exchange Online Protection (EOP)
-ms.openlocfilehash: ab2c1af7197094b456d8e1b4151dd42791d992a1
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 8e5175266cd964a2f2fb721a67f64e709661ce26
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825783"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200331"
 ---
 # <a name="auditing-reports-in-standalone-eop"></a>Controlerapporten in standalone EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken kunnen controlerapporten voldoen aan wettelijke vereisten, compliance en juridische vereisten voor uw organisatie. U kunt op elk gewenst moment controlerapporten verkrijgen om te bepalen welke wijzigingen zijn aangebracht in uw EOP-configuratie. Deze rapporten kunnen u helpen bij het oplossen van problemen met de configuratie of voor het oplossen van problemen met betrekking tot beveiligingsproblemen of compliance.
 

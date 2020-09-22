@@ -17,14 +17,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees meer over de functies die deel uitmaken van Office 365 Advanced Threat Protection ter bescherming tegen de bescherming tegen de bescherming tegen de bescherming tegen de bescherming tegen producties & spear phishing-aanvallen.
-ms.openlocfilehash: 238c841ec7ba45fe2675598a29979b550c1c4fa3
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: db1587d0cd60dc94e79b1498e000e63aa2a5ceac
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653362"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199061"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>antiphishingfuncties voor ATP in Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ATP anti-phishing is onderdeel van [Office 365 Advanced Threat Protection](office-365-atp.md). Als u op een anti-virus van ATP bent, past u een reeks machine leer modellen samen met imitatie detectie algoritmen voor inkomende berichten ter bescherming tegen grondstoffen en spear phishing-aanvallen. Alle berichten zijn onderhevig aan een uitgebreide set machine learning-modellen die zijn opgeleid voor het detecteren van phishingberichten, samen met een set geavanceerde algoritmen die worden gebruikt voor het beschermen tegen verschillende aanvallen van gebruikers en domein imitatie. ATP anti-phishing beschermt uw organisatie op basis van policies die zijn ingesteld door uw Office 365-globale beheerder of beveiligingsbeheerder.
   

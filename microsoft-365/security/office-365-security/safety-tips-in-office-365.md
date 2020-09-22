@@ -18,14 +18,17 @@ ms.collection:
 - M365-security-compliance
 description: In dit artikel leest u hoe u met EOP en Office 365 u kunt beschermen tegen spam, phishing en preventie van malware, door een veiligheids tip toe te voegen aan de e-mail.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4bcfd2bf05f2f5ae7a51fbc2488cb1aa6e7d2c9
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 3da52a8ef2913c30c281fec74f92142847e29792
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949630"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201981"
 ---
 # <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Met Exchange Online Protection (EOP) en Microsoft 365 beschermt u spam, phishing en preventie van malware. Vandaag zijn sommige van deze aanvallen zo goed ontworpen dat ze legitiem lijken. Berichten verzenden naar de map Ongewenste E-mail is niet altijd genoeg. Wanneer u nu uw e-mail in Outlook of de webversie van Outlook of een e-mailclient controleert, controleert EOP de afzender automatisch en voegt een veiligheids tip toe aan het begin van de e-mail.
 

@@ -3,7 +3,7 @@ title: Locatie Services voor Microsoft 365-netwerkconnectiviteit
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/31/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Locatie Services voor Microsoft 365-netwerkconnectiviteit
-ms.openlocfilehash: e614e719069a74ea087b07ca624ae0450790c763
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f2ab872f67eca70ab2791d3ad6fe1396b009cc18
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689371"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200779"
 ---
 # <a name="microsoft-365-network-connectivity-location-services-preview"></a>Locatie Services voor Microsoft 365-netwerkconnectiviteit
 
@@ -38,3 +38,13 @@ In het Microsoft 365-Beheercentrum worden Bing Maps-besturingselementen gebruikt
 Alle inhoud die u hebt verkregen via Bing Maps, waaronder geocodes, kan alleen worden gebruikt binnen het product waarop de inhoud wordt verstrekt. Het gebruik van de functie Services van het Microsoft 365-Beheercentrum, dat wordt beheerd door Bing Maps, is onderworpen aan de _Gebruiksvoorwaarden voor eindgebruikers van Bing Maps_ op de <https://go.microsoft.com/?linkid=9710837> privacyverklaring en de _privacyverklaring van Microsoft_ zijn beschikbaar op <https://go.microsoft.com/fwlink/?LinkID=248686.>
 
 Deze functie, geleverd via Bing Maps, wordt ook door deze **technologieën**ondersteund. De werking van Bing Maps via Bing Maps wordt bepaald door de _Service voorwaarden van de volgende technologieën_ , verkrijgbaar op <https://legal.here.com/en-gb/terms> .
+
+## <a name="related-topics"></a>Verwante onderwerpen
+
+[Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)](office-365-network-mac-perf-overview.md)
+
+[Microsoft 365 Network Performance Insights (preview)](office-365-network-mac-perf-insights.md)
+
+[Microsoft 365-netwerk beoordeling (preview)](office-365-network-mac-perf-score.md)
+
+[Microsoft 365 connectiviteitstest in het M365-Beheercentrum (preview)](office-365-network-mac-perf-onboarding-tool.md)

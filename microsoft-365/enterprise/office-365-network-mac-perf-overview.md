@@ -3,7 +3,7 @@ title: Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/17/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Overzicht van netwerkverbindingen in het Microsoft 365-Beheercentrum (preview)
-ms.openlocfilehash: 644efe53e862f6bbe98be7dca889bc3637084521
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: a51cfba962ff884afa634473c0523e49a92a56f5
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171360"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200794"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 
@@ -63,7 +63,7 @@ De maat monsters en de kantoorlocaties moeten 24 uur worden weergegeven nadat aa
 
 ### <a name="3-manually-gather-test-reports-with-the-microsoft-365-network-connectivity-test-tool"></a>3. testrapporten handmatig verzamelen met het hulpprogramma voor het testen van het Microsoft 365-netwerkconnectiviteit
 
-Voor deze optie moet u een persoon op elke locatie identificeren. Vraag de persoon om [365](https://connectivity.office.com) te browsen op een Windows-computer waarvoor deze beheerdersmachtigingen hebben. Op de website dienen ze zich aan te melden bij het Office 365-account voor dezelfde organisatie waarvan u de resultaten wilt bekijken. Vervolgens klik ik op test uitvoeren. Tijdens de test is een gedownloade connectiviteitstest EXE. De persoon moet dit ook openen en uitvoeren. Wanneer de tests zijn voltooid, wordt het testresultaat geüpload naar Office 365.
+Voor deze optie moet u een persoon op elke locatie identificeren. Vraag de persoon om [365](https://connectivity.office.com) te browsen op een Windows-computer waarop ze beheerdersmachtigingen hebben. Op de website dienen ze zich aan te melden bij het Office 365-account voor dezelfde organisatie waarvan u de resultaten wilt bekijken. Vervolgens klikken ze op **test uitvoeren**. Tijdens de test is een gedownloade connectiviteitstest EXE. De persoon moet dit ook openen en uitvoeren. Wanneer de tests zijn voltooid, wordt het testresultaat geüpload naar Office 365.
 
 Test rapporten worden gekoppeld aan een locatie als deze is toegevoegd met LAN-subnetgegevens, anders worden ze alleen weergegeven op de locatie van de stad.
 
@@ -174,7 +174,7 @@ De Microsoft 365-service front deur is een toegangspunt voor het globale netwerk
 
 ### <a name="what-is-an-optimal-microsoft-365-service-front-door"></a>Wat is een optimale front cover-service van Microsoft 365.
 
-Een optimale front-service van Microsoft 365 is een service die het meest geschikt is voor uw netwerk uitgang, in het algemeen in het gebied plaats of metro. U kunt de [Microsoft 365 connectiviteitstest](office-365-network-mac-perf-onboarding-tool.md) gebruiken om de locatie te bepalen van uw in-microsoft 365-service en de front-deur voor optimale service. Als het hulpprogramma bepaalt dat de front-in-de voorgrond van uw gebruik optimaal is, maakt u optimaal verbinding met het wereldwijde netwerk van Microsoft.
+Een optimale front-service van Microsoft 365 is een service die het meest geschikt is voor uw netwerk uitgang, in het algemeen in het gebied plaats of metro. Met het [Microsoft 365 Connectivity test tool (preview)](office-365-network-mac-perf-onboarding-tool.md) kunt u de locatie van de microsoft 365-service voor de voorkeur en de optimale service-deur bepalen. Als het hulpprogramma bepaalt dat de front-in-de voorgrond van uw gebruik optimaal is, maakt u optimaal verbinding met het wereldwijde netwerk van Microsoft.
 
 ### <a name="what-is-an-internet-egress-location"></a>Wat is een locatie voor uitgaand Internet?
 
@@ -186,8 +186,6 @@ De locatie voor het uittreden van Internet is de locatie waar uw netwerkverkeer 
 
 [Microsoft 365-netwerk beoordeling (preview)](office-365-network-mac-perf-score.md)
 
-[Microsoft 365 connectiviteitstest in het M365-Beheercentrum (preview)](office-365-network-mac-perf-onboarding-tool.md)
+[Microsoft 365-verbindingstest programma (preview)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Locatie Services voor Microsoft 365-netwerkconnectiviteit](office-365-network-mac-location-services.md)
-
-[Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)](office-365-network-mac-perf-onboarding-tool.md)

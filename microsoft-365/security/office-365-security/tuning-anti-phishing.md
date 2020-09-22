@@ -12,14 +12,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Beheerders kunnen leren welke redenen en hoe een malafide bericht krijg in Microsoft 365 en wat u moet doen om te voorkomen dat er meer phishingberichten in de toekomst worden verstaan.
-ms.openlocfilehash: b0fbb29489cece6d708811c5c8d8d60450938f0c
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: c62d09a1cf8b586b5c1d4393d7316d6d6d0cc96d
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825207"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201673"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Hoewel Microsoft 365 diverse functies van concurrentiebeperkende functies ondersteunt, is het mogelijk dat sommige malafide berichten ook naar uw postvakken gaan. In dit onderwerp wordt beschreven wat u kunt doen om te ontdekken waarom een malafide bericht is ontvangen en wat u kunt doen om de anti phishing-instellingen in uw Microsoft 365-organisatie te wijzigen _zonder per ongeluk dingen_te doen.
 

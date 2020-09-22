@@ -19,14 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 310e3105c973223ea79373d770eb10f7753b917e
-ms.sourcegitcommit: 9a275a13af3e063e80ce1bd3cd8142a095db92d2
+ms.openlocfilehash: ac149ca7263b8ef8bb37a7dd18bf0787a3114b37
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47650246"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201301"
 ---
 # <a name="incident-resource-type"></a>Brontype incident
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
@@ -38,7 +41,7 @@ ms.locfileid: "47650246"
 
 Methode |Type resultaat |Beschrijving
 :---|:---|:---
-[Lijst incidenten](api-list-incidents.md) | Lijst met [incidenten](api-incident.md) | Een lijst met incidenten weergeven.
+[Lijst met incidenten](api-list-incidents.md) | Lijst met [incidenten](api-incident.md) | Een lijst met incidenten weergeven.
 [Incident bijwerken](api-update-incidents.md) | [Voorval](api-incident.md) | Update specifiek incident.
 
 

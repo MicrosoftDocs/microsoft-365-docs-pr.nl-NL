@@ -16,14 +16,17 @@ ms.collection: M365-security-compliance
 ms.date: 08/21/2020
 description: Lees een overzicht van geautomatiseerde functies voor onderzoek en antwoorden in Office 365 Advanced Threat Protection-abonnement 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 27a2330d5f1ff339aabf6a0fccb94a15dec30852
-ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
+ms.openlocfilehash: d6793793a663e562b05df7e8458a6a8933e5ee47
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860719"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200343"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Een overzicht van automatisch onderzoek en antwoord (lucht) in Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Wanneer beveiligingswaarschuwingen worden geactiveerd, kunt u het beste uw beveiligingsteam raadplegen met deze waarschuwingen en de stappen ondernemen om uw organisatie te beveiligen. Soms kunnen beveiligingsactiviteiten teams overspoeld zijn door het volume van waarschuwingen dat wordt geactiveerd. Geautomatiseerd onderzoek en antwoord mogelijkheden in Office 365 Advanced Threat Protection (Office 365 ATP) kan u helpen. 
 
@@ -150,6 +153,6 @@ Een organisatie heeft bijvoorbeeld onlangs een manier voor het weergeven van het
 
 ## <a name="see-also"></a>Zie ook
 
-- [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap?filters=)
+- [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=)
 
 - [Geautomatiseerd onderzoek en antwoord mogelijkheden in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir?view=o365-worldwide)

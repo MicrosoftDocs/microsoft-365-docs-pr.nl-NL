@@ -25,14 +25,17 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel vindt u informatie over het gebruik van veilige koppelingen om uw organisatie tegen phishing en andere aanvallen te beschermen.
-ms.openlocfilehash: d9b3c981cb282c286a5b6edcea367c8c57ffd4d3
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 486c19fa0ba47baadf7b3418608a644407e6e1d0
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307635"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200431"
 ---
 # <a name="atp-safe-links"></a>Veilige ATP-koppelingen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="overview-of-office-365-atp-safe-links"></a>Overzicht van veilige koppelingen in Office 365 ATP
 
@@ -47,7 +50,7 @@ Aangezien [nieuwe functies worden toegevoegd aan ATP](office-365-atp.md#new-feat
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>Hoe u beveiliging van ATP voor veilige koppelingen ontvangt
 
-**Zorg er eerst voor dat uw abonnement [Office 365 Advanced Threat Protection](office-365-atp.md) bevat** Abonnement 1 of abonnement 2. Office 365 ATP is inbegrepen in abonnementen, zoals [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 education A5, enzovoort. Als uw organisatie een Microsoft 365-abonnement heeft dat geen Office 365-ATP bevat, kunt u ATP kopen als een invoegtoepassing. Voor meer informatie raadpleegt u de volgende bronnen: 
+**Zorg er eerst voor dat uw abonnement [Office 365 Advanced Threat Protection](office-365-atp.md) bevat** Abonnement 1 of abonnement 2. Office 365 ATP is inbegrepen in abonnementen, zoals [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 education A5, enzovoort. Als uw organisatie een Microsoft 365-abonnement heeft dat geen Office 365-ATP bevat, kunt u ATP kopen als een invoegtoepassing. Zie de volgende hulpmiddelen voor meer informatie: 
 
 - [Office 365 Advanced Threat Protection-abonnementen en-prijzen](https://products.office.com/exchange/advance-threat-protection)
 

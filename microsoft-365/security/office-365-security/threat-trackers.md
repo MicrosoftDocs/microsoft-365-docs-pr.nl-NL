@@ -1,5 +1,5 @@
 ---
-title: Threat Trackers - Nieuw en opmerkelijk
+title: Bedreigings tracks-nieuw en opmerkelijk
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,92 +15,95 @@ search.appverid:
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over Threat Trackers, inclusief nieuwe Noteworthy Trackers, om uw organisatie te helpen op de hoogte te blijven van beveiligingsproblemen.
-ms.openlocfilehash: 13e8463d88250fe76474311e9df394577949989e
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+description: Lees meer over bedreigings trajecten, waaronder nieuwe opspoorers, om uw organisatie op de hoogte te houden van beveiligingskwesties.
+ms.openlocfilehash: e4e157e64da92cf3c9178af1223fbc6c85e3fd95
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755062"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201793"
 ---
-# <a name="threat-trackers---new-and-noteworthy"></a>Threat Trackers - Nieuw en opmerkelijk
+# <a name="threat-trackers---new-and-noteworthy"></a>Bedreigings tracks-nieuw en opmerkelijk
 
-Met de mogelijkheden [voor bedreigingsonderzoek en -respons van Office 365](office-365-ti.md) kan het beveiligingsteam van uw organisatie cyberbeveiligingsrisico's ontdekken en actie ondernemen. Office 365 Threat Investigation and Response-mogelijkheden omvatten Threat Tracker-functies, waaronder opmerkelijke trackers. Lees dit artikel voor een overzicht van deze nieuwe functies en volgende stappen. 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+Met behulp van [Office 365 Threat onderzoek en antwoord](office-365-ti.md) mogelijkheden kan het beveiligingsteam van uw organisatie ontdekken en actie ondernemen tegen Cyber securitye bedreigingen. Office 365 Threat onderzoek en antwoord mogelijkheden zijn functies voor de bedreigings functie, waaronder vertoonder nummers. Lees dit artikel voor een overzicht van de nieuwe functies en volgende stappen. 
 
 > [!IMPORTANT]
-> Office 365 Threat Intelligence is nu Office 365 Advanced Threat Protection Plan 2, samen met extra mogelijkheden voor bedreigingsbescherming. Zie [Office 365 Advanced Threat Protection-abonnementen en -prijzen en](https://products.office.com/exchange/advance-threat-protection) de beschrijving van de [Geavanceerde bedreigingsbeveiliging van Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor geavanceerde bedreigingenservice voor meer informatie.
+> Office 365 Threat Intelligence is nu Office 365 Advanced Threat Protection abonnement 2, met extra mogelijkheden voor beveiliging tegen bedreigingen. Zie voor meer informatie [office 365 Advanced Threat Protection-abonnementen en-prijzen](https://products.office.com/exchange/advance-threat-protection) en de beschrijving van de [Office 365 Advanced Threat Protection-Service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
   
-## <a name="what-are-threat-trackers"></a>Wat zijn Threat Trackers?
+## <a name="what-are-threat-trackers"></a>Wat zijn bedreigings tracks?
 
-Threat Trackers zijn informatieve widgets en weergaven die u voorzien van informatie over verschillende cyberbeveiligingsproblemen die van invloed kunnen zijn op uw bedrijf. U bijvoorbeeld informatie over trending malwarecampagnes bekijken met Threat Trackers.
+Bedreigings Tracerers zijn informatieve widgets en weergaven die u informatie geven over verschillende Cyber Security-kwesties die van invloed kunnen zijn op uw bedrijf. U kunt bijvoorbeeld informatie raadplegen over het maken van bedreigings gegevens van een malware met behulp van bedreigings tracks.
   
-![Voorbeeld van Threat Tracker met malwarecampagnes](../../media/a883b5ac-8e2b-469a-90e0-f8ad39bb63b7.png)
+![Voorbeeld van risico tracering met malware](../../media/a883b5ac-8e2b-469a-90e0-f8ad39bb63b7.png)
   
-De meeste trackerpagina's bevatten trending numbers die periodiek worden bijgewerkt, widgets om u te helpen begrijpen welke problemen het grootst zijn of het meest zijn gegroeid, en een snelle koppeling in de kolom **Acties** die u naar Explorer brengt, waar u meer gedetailleerde informatie bekijken. 
+Voor de meeste tracerings pagina's worden trend nummers weergegeven die regelmatig worden bijgewerkt, wat inhoudt om u duidelijk te maken welke problemen het grootste of zeer vaak zijn en een snelle koppeling in de kolom **acties** waarmee u meer gedetailleerde informatie kunt weergeven. 
   
-![Voorbeeld van campagne-informatie in Explorer](../../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
+![Voorbeeld van een campagne-informatie in Verkenner](../../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   
-Trackers zijn slechts een paar van de vele geweldige functies die u krijgt met [Office 365 Advanced Threat Protection Plan 2.](office-365-ti.md) Threat Trackers bevatten [Noteworth trackers](#noteworthy-trackers), [Trending trackers](#trending-trackers), [Bijgehouden query's](#tracked-queries)en [Opgeslagen query's](#saved-queries).
+Voor de meeste fantastische functies die u ontvangt met [Office 365 Advanced Threat Protection-abonnement 2](office-365-ti.md). Bedreigings tracks bestaan uit [Noteworth trackers](#noteworthy-trackers), [trends](#trending-trackers), [bijgehouden query's](#tracked-queries)en [opgeslagen query's](#saved-queries).
   
-Als u uw Threat Trackers voor uw organisatie wilt bekijken en gebruiken, gaat u naar het Security &amp; Compliance Center ( ) en kiest u Threat [https://protection.office.com](https://protection.office.com) **management** \> **Threat tracker**.
+Als u uw bedreigings overzichten voor uw organisatie wilt weergeven en gebruiken, gaat u naar het Security &amp; compliance Center ( [https://protection.office.com](https://protection.office.com) ) en kiest u **Threat management** \> **bedreigings**beheer.
   
 > [!NOTE]
-> Als u Threat Trackers wilt gebruiken, moet u een globale beheerder, beveiligingsbeheerder of beveiligingslezer zijn. Zie [Machtigingen in het Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md). 
+> Als u bedreigings tracks wilt gebruiken, moet u een globale beheerder, beveiligingsbeheerder of beveiligings lezer zijn. Zie [machtigingen in het beveiligings &amp; conformiteitscentrum](permissions-in-the-security-and-compliance-center.md). 
   
-### <a name="noteworthy-trackers"></a>Opmerkelijke trackers
+### <a name="noteworthy-trackers"></a>Opspoorers
 
-Opmerkelijke trackers zijn waar je grote en kleinere bedreigingen en risico's vindt waarvan we denken dat je ze moet weten. Opmerkelijke trackers helpen u te vinden of deze problemen zich voordoen in uw Microsoft 365-omgeving, plus een koppeling naar artikelen (zoals deze) die u meer details geven over wat er gebeurt en hoe deze van invloed zijn op het gebruik van Office 365 door uw organisatie. Of het nu gaat om een grote nieuwe bedreiging (bijvoorbeeld Wannacry, Petya) of een bestaande dreiging die een aantal nieuwe uitdagingen kan creëren (zoals ons andere inaugurele opmerkelijk item - Nemucod), dit is waar u belangrijke nieuwe items vindt die u en uw beveiligingsteam periodiek moeten bekijken en onderzoeken.
+Verdachte nummers zijn de punten van grote en kleinere bedreigingen en risico's waarover we denken. Met behulp van indrukwekkende informatie kunt u bepalen of deze problemen zich voordoen in uw Microsoft 365-omgeving, plus koppeling naar artikelen (zoals deze) voor meer informatie over wat er gebeurt en wat ze van invloed zijn op het gebruik van Office 365 van Office. Of het nu een grote nieuwe bedreiging is (zoals Wannacry, Petya) of een bestaande bedreiging waarmee u nieuwe uitdagingen kunt maken (zoals onze andere inaugurale-Nemucod), vindt u in dit voorbeeld: belangrijke nieuwe items die u en uw beveiligingsteam moeten nakijken en periodiek onderzoeken.
   
-Typisch Opmerkelijke trackers zullen worden geplaatst voor slechts een paar weken wanneer we nieuwe bedreigingen te identificeren en denken dat je misschien de extra zichtbaarheid die deze functie biedt nodig. Zodra het grootste risico voor een bedreiging is verstreken, verwijderen we dat opmerkelijke item. Op deze manier kunnen we de lijst fris en up-to-date houden met andere relevante nieuwe items.
+Normaalgesproken kunt u met een paar weken per week een paar weken plaatsen wanneer we nieuwe bedreigingen identificeren en u ervan overtuigd willen zijn dat deze functie biedt. Wanneer het grootste risico voor een bedreiging is verstreken, verwijdert dit een opmerkelijk product. Op deze manier kunnen we de lijst vernieuwen en up-to-date houden met andere relevante nieuwe items.
   
-### <a name="trending-trackers"></a>Trending trackers
+### <a name="trending-trackers"></a>Trending spoorers
 
-Trending trackers (voorheen Campagnes genoemd) markeren nieuwe bedreigingen die in de afgelopen week in de e-mail van uw organisatie zijn ontvangen.
+Met trend tracerers (voorheen campagnes genoemd) markeert u nieuwe bedreigingen die in de afgelopen week de e-mail van uw organisatie ontvangen.
   
-![Voorbeeld van trending malware campagnes widget](../../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
+![Voorbeeld van het object trending van schadelijke software voor campagnes](../../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
   
-Trending trackers geven u een idee van nieuwe bedreigingen die u moet beoordelen om ervoor te zorgen dat uw bredere bedrijfsomgeving is voorbereid tegen aanvallen.
+Trending tracks geven u een idee van nieuwe bedreigingen die u moet controleren om ervoor te zorgen dat uw bredere bedrijfsomgeving wordt voorbereid tegen aanvallen.
   
 ### <a name="tracked-queries"></a>Bijgehouden query's
 
-Bijgehouden query's maken gebruik van uw opgeslagen query's om de Microsoft 365-activiteit in uw organisatie periodiek te beoordelen. Dit geeft je event trending, met meer te komen in de komende maanden. Bijgehouden query's worden automatisch uitgevoerd, zodat u up-to-date informatie krijgt zonder dat u hoeft te onthouden dat u uw query's opnieuw hoeft uit te voeren.
+Bijgehouden query's profiteren van uw opgeslagen query's om periodieke activiteiten van Microsoft 365 in uw organisatie periodiek te evalueren. Op deze manier kunt u trends van gebeurtenissen, zodat u nog meer in de komende maanden komt. Bijgehouden query's worden automatisch uitgevoerd, zodat u up-to-date informatie krijgt, zonder dat u de query's opnieuw hoeft uit te voeren.
   
 ![Voorbeeld van bijgehouden query's met één geselecteerd](../../media/0c556174-06eb-4ae5-b32a-5ff76b9e4f13.png)
   
 ### <a name="saved-queries"></a>Opgeslagen query's
 
-Opgeslagen query's zijn ook te vinden in de sectie Trackers. U opgeslagen query's gebruiken om de algemene Explorer-zoekopdrachten op te slaan die u sneller en herhaaldelijk wilt gebruiken, zonder dat u de zoekopdracht telkens opnieuw hoeft te maken.
+Opgeslagen query's zijn ook te vinden in de sectie trackers. U kunt opgeslagen query's gebruiken voor het opslaan van de populaire Explorer-zoekopdrachten die u sneller en herhaaldelijk wilt gebruiken, zonder dat u de zoekopdracht telkens opnieuw hoeft te maken.
   
-![Voorbeeld van opgeslagen query's met een geselecteerde](../../media/188cf3ff-58f1-41ea-81aa-76158d8f40c3.png)
+![Voorbeeld van opgeslagen query's met één geselecteerd](../../media/188cf3ff-58f1-41ea-81aa-76158d8f40c3.png)
   
-U altijd een opmerkelijke trackerquery of een van uw eigen Explorer-query's opslaan met de knop **Query opslaan** boven aan de Explorer-pagina. Alles wat daar is opgeslagen, wordt weergegeven in de lijst **Opgeslagen query's** op de pagina Tracker. 
+U kunt altijd een query met een actie vastleggen of een van uw eigen Explorer-query's opslaan met behulp van de knop **query opslaan** boven aan de Verkenner-pagina. Items die zijn opgeslagen, worden weergegeven in de lijst **opgeslagen query's** op de pagina bijhouden. 
   
-## <a name="trackers-and-explorer"></a>Trackers en Explorer
+## <a name="trackers-and-explorer"></a>Bijhouden en Verkenner
 
-Of u nu e-mail-, inhoud- of Office-activiteiten bekijkt (binnenkort), Explorer en Trackers werken samen om u te helpen beveiligingsrisico's en bedreigingen te onderzoeken en bij te houden. Alles bij elkaar bieden trackers u informatie om uw gebruikers te beschermen door nieuwe, opmerkelijke en vaak gezochte problemen te benadrukken - zodat uw bedrijf beter wordt beschermd terwijl het naar de cloud verhuist.
+Of u e-mail, inhoud of Office-activiteiten (binnenkort beschikbaar), Explorer en spoort samenwerken om u te helpen bij het onderzoeken en bijhouden van beveiligingsrisico's en-bedreigingen. Allemaal samen bieden u informatie over het beschermen van uw gebruikers door nieuwe, belangrijke en vaak uitgezochte problemen te markeren, zodat uw bedrijf beter beveiligd is wanneer het naar de Cloud wordt verplaatst.
   
-En vergeet niet dat u ons altijd feedback geven over deze of andere Microsoft 365-beveiligingsfuncties door te klikken op de **knop Feedback** in de rechterbenedenhoek van het overzicht van het Security & [Compliance Center](https://support.microsoft.com/office/a5f2fd18-b029-4257-b5a8-ae83e7768c85).
+En vergeet niet dat u ons feedback kunt geven op deze of andere beveiligingsfuncties van Microsoft 365 door te klikken op de **feedback** knop in de rechterbenedenhoek van het [overzicht van de beveiligings & compliance Center](https://support.microsoft.com/office/a5f2fd18-b029-4257-b5a8-ae83e7768c85).
   
-![Security &amp; Compliance Center](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
+![Beveiligings &amp; Conformiteitscentrum](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
   
-## <a name="trackers-and-office-365-advanced-threat-protection"></a>Trackers en geavanceerde bedreigingsbeveiliging van Office 365
+## <a name="trackers-and-office-365-advanced-threat-protection"></a>Tracerers en Office 365 Advanced Threat Protection
 
-Met onze inaugurele opmerkelijke bedreiging, markeren we geavanceerde malwarebedreigingen gedetecteerd door [Office 365 ATP Safe Attachments](atp-safe-attachments.md). Als u een Office 365 Enterprise E5-klant bent en u office [365 Advanced Threat Protection](office-365-atp.md) (ATP) niet gebruikt, moet u dat wel zijn - het is inbegrepen in uw abonnement. ATP biedt waarde, zelfs als u andere beveiligingshulpprogramma's hebt die de e-mailstroom filteren met uw Office 365-services. Antispam- en [Office 365 ATP-functies voor veilige koppelingen](atp-safe-links.md) werken echter het beste wanneer uw belangrijkste e-mailbeveiligingsoplossing via Office 365 is. 
+Met onze Inaugural verdachte bedreiging, markeren we geavanceerde malware van malware die wordt gedetecteerd door [Office 365 ATP voor veilige bijlagen](atp-safe-attachments.md). Als u een Office 365 Enterprise E5-klant bent en u niet werkt met [office 365 Advanced Threat Protection](office-365-atp.md) (ATP), moet u deze in uw abonnement opnemen. ATP biedt zelfs een waarde als u andere beveiligingshulpprogramma's die de e-mail stroom filteren met uw Office 365-Services. De functies voor het beheren van ongewenste e-mail van [office 365](atp-safe-links.md) werken echter uitstekend als de belangrijkste beveiligingsoplossing voor e-mail is via Office 365. 
   
-![ATP in het Security &amp; Compliance Center](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
+![ATP in het beveiligings &amp; Conformiteitscentrum](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
   
-In de huidige bedreiging-doorzeefde wereld, het uitvoeren van alleen traditionele anti-malware scans betekent dat u niet goed genoeg beschermd tegen aanvallen. De meest geavanceerde aanvallers van vandaag gebruiken algemeen beschikbare tools om nieuwe, versluierde of vertraagde aanvallen te maken die niet worden herkend door traditionele op handtekeningen gebaseerde anti-malware-engines. De ATP Safe Attachments-functie neemt e-mailbijlagen en laat ze ontploffen in een virtuele omgeving om te bepalen of ze veilig of kwaadaardig zijn. Dit detonatieproces opent elk bestand in een virtuele computeromgeving en kijkt vervolgens wat er gebeurt nadat het bestand is geopend. Of het nu gaat om een PDF en een gecomprimeerd bestand of een Office-document, schadelijke code kan worden verborgen in een bestand en alleen worden geactiveerd zodra het slachtoffer het op zijn computer opent. Door het bestand in de e-mailstroom te laten ontploffen en analyseren, worden deze bedreigingen gevonden op basis van gedrag, bestandsreputatie en een aantal heuristische regels.
+Met de bedreiging van de hedendaagse riddled wereld, waarop alleen traditionele anti-malware scans worden uitgevoerd, is u niet goed te beschermen tegen aanvallen. Aan de hand van de meer geavanceerde hackers kunnen veelgebruikte hulpprogramma's worden gebruikt voor het maken van nieuwe, verduidelijkende en vertraagde aanvallen die niet worden herkend door traditionele anti malware op basis van een handtekening. Met de functie voor het veilig gebruiken van documenten worden e-mailbijlagen in een virtuele omgeving demaakt om te bepalen of deze veilig of kwaad zijn. Dit detonatie proces opent elk bestand in een omgeving met een virtuele computer en controleert wat er gebeurt nadat het bestand is geopend. Ongeacht of u een PDF-bestand of een gecomprimeerd bestand, of een Office-document, kunt u kwaadaardige code verbergen in een bestand, zodat u deze alleen kunt activeren als het slachtoffer de persoon opent op hun computer. Door het bestand in de e-mail stroom te en analyseren 365, vindt u deze bedreigingen op basis van gedrag, de reputatie van het bestand en een aantal heuristische regels.
   
-Het nieuwe opmerkelijk bedreigingsfilter markeert items die onlangs zijn gedetecteerd via ATP Safe Attachments. Deze detecties vertegenwoordigen items die nieuwe schadelijke bestanden zijn, die niet eerder zijn gevonden door Microsoft 365 in uw e-mailstroom of de e-mail van andere klanten. Besteed aandacht aan de items in de Noteworthy Threat Tracker, zie wie het doelwit was van hen, en bekijk de detonatie details weergegeven op het tabblad Geavanceerde analyse (gevonden door te klikken op het onderwerp van de e-mail in Explorer). Let op: u vindt dit tabblad alleen op e-mails die zijn gedetecteerd door de ATP Safe Attachments-mogelijkheid - deze opmerkelijke tracker bevat dat filter, maar u dat filter ook gebruiken voor andere zoekopdrachten in Explorer.
+Met het nieuwe verdachte bedreiging-filter worden items gemarkeerd die onlangs zijn gedetecteerd via ATP-veilige bijlagen. Dit detectie vertegenwoordigen items die nieuwe, schadelijke bestanden zijn en die niet eerder zijn gevonden door Microsoft 365 in de e-mail van uw e-mail stroom of van een andere klant. Let op de items in de bedachte bedreigings tracker, zie wie de doelgroep is bedoeld en Bekijk de detonatie gegevens op het tabblad geavanceerde analyses (gevonden door te klikken op het onderwerp van de e-mail in de Explorer). Opmerking u ziet dit tabblad alleen voor e-mailberichten die zijn gevonden in de mogelijkheid voor het vrijmaken van bijlagen van ATP-met deze optie kunt u dit tabblad ook in de Verkenner gebruiken, maar dat filter ook voor andere zoekopdrachten.
   
 ## <a name="next-steps"></a>Volgende stappen
 
-- Zie Hoe krijgen we de mogelijkheden voor [office 365-mogelijkheden voor bedreigingsonderzoek en -reactie als uw](office-365-ti.md)organisatie deze mogelijkheden voor onderzoeken en reacties voor bedreigingen van Office 365 niet heeft?
+- Als uw organisatie de functies voor onderzoek en antwoord van Office 365 nog niet hebt, raadpleegt [u hoe kan ik Office 365 Threat onderzoek en antwoord mogelijkheden krijgen?](office-365-ti.md).
     
-- Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een globale beheerder zijn of de rol Beveiligingsbeheerder of Zoek- en zuiveringsrol hebben toegewezen in het Security &amp; Compliance Center. Zie [Machtigingen in het Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).
+- Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een hoofdbeheerder zijn of de rol beveiligingsbeheerder of zoeken en wissen zijn toegewezen in het Beveiligingscentrum voor beveiligings &amp; naleving. Zie [machtigingen in het beveiligings &amp; conformiteitscentrum](permissions-in-the-security-and-compliance-center.md).
     
-- Kijk hoe de nieuwe trackers worden weergegeven in uw Microsoft 365-omgeving. Indien beschikbaar, vindt u uw Trackers [hier](https://protection.office.com/). Ga naar **Threat management** \> **Threat trackers**.
+- Kijk of u de nieuwe trackers wilt weergeven in de Microsoft 365-omgeving. Wanneer deze beschikbaar is, vindt u [hier](https://protection.office.com/)uw nummer. Ga naar **Threat management** \> **bedreigings**beheer.
     
-- Als u dit nog niet hebt gedaan, leest u meer informatie over en configureert u [Geavanceerde bedreigingsbeveiliging](office-365-atp.md) voor uw organisatie, waaronder [veilige Office 365-koppelingen](atp-safe-links.md) voor ATP en veilige bijlagen voor Office [365 ATP.](atp-safe-attachments.md)
+- Als u dit nog niet hebt gedaan, kunt u hier lezen hoe u [office 365 Advanced Threat Protection](office-365-atp.md) voor uw organisatie, waaronder [Office 365 ATP voor veilige koppelingen](atp-safe-links.md) en [veilige bijlagen van Office 365 ATP](atp-safe-attachments.md).
   
 

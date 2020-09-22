@@ -13,14 +13,17 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Meer informatie over het beheren van gebruikers van e-mailberichten in Exchange Online Protection (EOP), waaronder het gebruik van adreslijstsynchronisatie, SBV en PowerShell voor het beheren van gebruikers.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64b7effadd96b6dc025677139c4303acd538dadb
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 56e6f8955b5993fb4b5064aa92cdde80a4c67ffe
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827073"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201781"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>E-mailgebruikers beheren in standalone EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Gebruikers van een zelfstandige Exchange Online Protection-organisatie (EOP) zonder postvakken van Exchange, zijn e-mail gebruikers het fundamentele type gebruikersaccount. Een e-mail gebruiker heeft accountreferenties in uw zelfstandige EOP-organisatie en kan toegang krijgen tot bronnen (machtigingen toegewezen). Het e-mailadres van een e-mail gebruiker is extern (bijvoorbeeld in uw on-premises e-mail omgeving).
 

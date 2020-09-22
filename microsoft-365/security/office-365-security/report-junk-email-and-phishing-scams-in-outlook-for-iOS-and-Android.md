@@ -16,14 +16,17 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de ingebouwde opties voor ongewenste e-mail, ongewenste e-mail en het rapporteren van phishing-e-mail in Outlook voor iOS en Android.
-ms.openlocfilehash: 216f60eb168190603c7c9aba58cef27c2bf15b01
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: fef519f3fdd5cf46d383c41ad227ab0cd3ed4390
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867385"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201531"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Ongewenste e-mail en malafide e-mailberichten in Outlook voor iOS en Android melden in Exchange Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of on-premises postvakken met [hybride moderne verificatie](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide)kunt u de ingebouwde rapportopties in Outlook voor IOS en Android gebruiken voor het verzenden van onjuiste positieven (goede e-mailberichten die als spam zijn gemarkeerd), fout-negatieven (onjuiste e-mail toegestaan) en phishingberichten voor Exchange Online Protection (EOP).
 

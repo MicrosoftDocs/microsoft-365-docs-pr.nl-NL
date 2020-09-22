@@ -15,14 +15,17 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Meer informatie over herstelacties in het automatisch onderzoek en de antwoord mogelijkheden in Office 365 Advanced Threat Protection-abonnement 2.
-ms.openlocfilehash: 761ae38250dc084a248203dd78b66ed18ea9c401
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c327bdf505b774532600169e9579ffa6acfac1b1
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653375"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199899"
 ---
 # <a name="remediation-actions-in-microsoft-365"></a>Herstelacties in Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 ## <a name="remediation-actions"></a>Herstelacties
 

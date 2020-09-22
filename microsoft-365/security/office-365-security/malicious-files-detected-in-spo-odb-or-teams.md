@@ -1,5 +1,5 @@
 ---
-title: Informatie weergeven over schadelijke bestanden die zijn gedetecteerd door Office 365 ATP
+title: Informatie weergeven over schadelijke bestanden die zijn gevonden in Office 365 ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,54 +15,57 @@ search.appverid:
 ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over waar u naartoe gaan om informatie over schadelijke bestanden te bekijken die zijn gedetecteerd in SharePoint, OneDrive of Teams en hoe u actie ondernemen voor die bestanden.
+description: Informatie over waar u informatie kunt vinden over het weergeven van informatie over schadelijke bestanden die zijn gevonden in SharePoint, OneDrive of teams, en hoe u actie onderneemt voor die bestanden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47b1fea4b3b5713a8f69e8f4b2c0e2ad0f6dd6b8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e6cd0363b546fad063290ae20e8c6c82fd6d0dea
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036642"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201993"
 ---
-# <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Informatie weergeven over schadelijke bestanden die zijn gedetecteerd in SharePoint, OneDrive of Microsoft Teams
+# <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>Informatie over schadelijke bestanden weergeven die zijn gevonden in SharePoint, OneDrive of Microsoft teams
 
-[Office 365 ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md) beschermt uw organisatie tegen schadelijke bestanden in documentbibliotheken en teamsites. Wanneer een kwaadaardig bestand wordt gedetecteerd, wordt dat bestand geblokkeerd, zodat niemand het kan openen, kopiëren, verplaatsen of delen totdat verdere acties zijn uitgevoerd door het beveiligingsteam van de organisatie. Lees dit artikel voor meer informatie over het weergeven van informatie over gedetecteerde bestanden en welke acties u moet uitvoeren. 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Als u de in dit artikel beschreven taken wilt uitvoeren, moet u over de benodigde [machtigingen beschikken voor het Security &amp; Compliance Center.](permissions-in-the-security-and-compliance-center.md) 
+
+[Office 365 ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md) beschermt uw organisatie tegen kwaadwillende bestanden in documentbibliotheken en team sites. Wanneer een schadelijk bestand wordt gevonden, wordt het bestand geblokkeerd, zodat niemand dit kan openen, kopiëren, verplaatsen of delen totdat verdere acties worden uitgevoerd door het beveiligingsteam van de organisatie. Lees dit artikel voor meer informatie over het weergeven van informatie over gedetecteerde bestanden en welke acties u moet uitvoeren. 
+
+Voor het uitvoeren van de taken die in dit artikel worden beschreven, moet u beschikken over de benodigde [machtigingen voor het beveiligings &amp; centrum](permissions-in-the-security-and-compliance-center.md). 
   
-## <a name="view-reports-with-information-about-detected-files"></a>Rapporten weergeven met informatie over gedetecteerde bestanden
+## <a name="view-reports-with-information-about-detected-files"></a>Rapporten met informatie over gedetecteerde bestanden weergeven
 
-Als u de status en gedetailleerde informatie wilt weergeven over bestanden die zijn gedetecteerd door Office 365 ATP, u het rapport Status bedreigingsbeveiliging gebruiken.
+Als u de status en gedetailleerde informatie over de bestanden wilt weergeven die zijn gevonden in Office 365 ATP, kunt u het statusrapport Bedreigingsbeveiliging gebruiken.
   
-1. Kies [in &amp; ](https://protection.office.com)het Security Compliance Center de optie Status \> **bedreigingsbeveiliging** **van het dashboard rapporten** \> **Dashboard** .
+1. Kies in het [beveiligings &amp; conformiteitscentrum](https://protection.office.com)de optie **rapporten** over bedreiging van \> bedreiging van **Dashboard** \> **Threat Protection Status**.
     
-2. Kies **detailstabel weergeven**in de rechterbovenhoek van het rapport .
+2. Kies in de rechterbovenhoek van het rapport de **tabel Details weergeven**.
     
-3. Bekijk de lijst met bestanden die in het rapport zijn gedetecteerd.
+3. Bekijk de lijst met bestanden die zijn gevonden in het rapport.
     
-4. Selecteer een item in de lijst om gedetailleerde informatie weer te geven, waaronder acties, de bestandsnaam, het bestandspad en meer.
+4. Selecteer een item in de lijst om gedetailleerde informatie weer te geven, waaronder de gebruikte acties, de bestandsnaam, het pad en nog veel meer.
     
-5. Kies het tabblad **Geavanceerde analyse** om informatie weer te geven, zoals waargenomen gedrag en analysedetails. 
+5. Kies het tabblad **geavanceerde analyse** om informatie weer te geven, zoals waargenomen gedrag en analyse details. 
   
-## <a name="view-and-take-action-on-files-in-quarantine"></a>Bestanden in quarantaine weergeven en actie ondernemen
+## <a name="view-and-take-action-on-files-in-quarantine"></a>Bestanden weergeven en actie ondernemen in quarantaine
 
-1. Kies in &amp; het Security Compliance Center de optie **Quarantaine van bedreigingsbeheer.** \> **Review** \> **Quarantine** (U ook [https://protection.office.com/quarantine](https://protection.office.com/quarantine)rechtstreeks naar .)
+1. Kies in het beveiligings &amp; conformiteitscentrum de optie **Threat Management** \> **Review** \> **Quarantine**. (U kunt ook direct naar [https://protection.office.com/quarantine](https://protection.office.com/quarantine) .)
     
-2. Wijzig in de linkerbovenhoek het vervolgkeuzemenu van **E-mails** in **Bestanden.** Als de lijst met resultaten te veel items bevat, gebruikt u **de** filterfunctionaliteit om de selectie te beperken.
+2. Wijzig de vervolgkeuzelijst van **e-mailberichten** **in de linkerbovenhoek.** Als de lijst met resultaten te veel items bevat, kunt u de selectie beperken met behulp van de **filter** functionaliteit.
     
-3. Selecteer een item in de lijst om gedetailleerde informatie weer te geven, inclusief de URL van het bestand.
+3. Selecteer een item in de lijst om gedetailleerde informatie weer te geven, waaronder de URL van het bestand.
     
 4. Kies een beschikbare actie.
     
-    - Kies **Bestand vrijgeven** om het bestand te deblokkeren. 
+    - Kies **bestand vrijgeven** om het bestand te deblokkeren. 
 
-      Selecteer **Rapport verzenden naar Microsoft** om het bestand als foutpositief aan Microsoft te melden. 
+      Selecteer **rapport verzenden naar Microsoft** om het bestand als een fout positief naar Microsoft te melden. 
 
-    - Kies **Bestand downloaden** om het bestand verder te onderzoeken. 
+    - Kies **bestand downloaden** om het bestand verder te onderzoeken. 
 
-    - Kies **Verwijderen uit quarantaine** om het bestand uit de lijst met in quarantaine geplaatste items te verwijderen. Als u deze optie kiest, moet u het bestand ook verwijderen uit de desbetreffende bibliotheek in SharePoint Online, OneDrive voor Bedrijven of Microsoft Teams. Met deze optie wordt het niet deblokkeren van het openen of delen van een bestand. 
+    - Kies **uit Quarantine verwijderen** om het bestand te verwijderen uit de lijst met items in quarantaine. Als u deze optie kiest, moet u ook het bestand verwijderen uit de bijbehorende bibliotheek in SharePoint Online, OneDrive voor bedrijven of Microsoft teams. Met deze optie wordt voorkomen dat een bestand wordt geopend of gedeeld. 
     
-5. Kies **Sluiten** om de details voor een geselecteerd item te sluiten. 
+5. Kies **sluiten** om de details van een geselecteerd item te sluiten. 
   
   
 

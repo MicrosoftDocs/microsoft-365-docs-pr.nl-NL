@@ -1,7 +1,7 @@
 ---
-title: De tijdzone instellen voor Microsoft Threat Protection-functies
-description: Meer informatie over het kiezen van de tijdzone voor datum- en tijdinformatie in verband met incidenten, geautomatiseerd onderzoek en herstel en geavanceerde jacht
-keywords: tijdzone, datum, tijd, MTP, Microsoft Threat Protection, M365, beveiliging, incidenten, geautomatiseerd onderzoek en respons, AIR, geavanceerde jacht
+title: De tijdzone voor Microsoft Threat Protection-functies instellen
+description: Leer hoe u de tijdzone kiest voor datum-en tijdgegevens die zijn gekoppeld aan incidenten, automatisch onderzoek en herstel, en geavanceerde jacht
+keywords: tijdzone, datum, tijd, MTP, Microsoft Threat Protection, M365, beveiliging, incidenten, geautomatiseerd onderzoek en antwoord, lucht, geavanceerde jacht
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,23 +19,26 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fd8a09ceb32b8ddacea06b4569a2d2a851daaeb2
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 60795815ae68d640eeac4b9bc9f0188c7751aaf9
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42810968"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201029"
 ---
 # <a name="set-the-time-zone-for-microsoft-threat-protection"></a>De tijdzone instellen voor Microsoft Threat Protection
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
 **Van toepassing op:**
-- Microsoft-bedreigingsbeveiliging
+- Microsoft Threat Protection
 
 
 
-Microsoft Threat Protection kan datum- en tijdsinformatie weergeven met behulp van uw lokale tijdzone of UTC. De geselecteerde tijdzone is van toepassing op alle datum- en tijdsgegevens die worden weergegeven in de volgende functies in het Microsoft 365-beveiligingscentrum:
+Microsoft Threat Protection kan datum-en tijdgegevens weergeven met behulp van uw lokale tijdzone of UTC. De geselecteerde tijdzone wordt toegepast op alle datum-en tijdinformatie die wordt weergegeven in de volgende functies in het Microsoft 365-Beveiligingscentrum:
 - Incidenten
-- Geautomatiseerd onderzoek en sanering, inclusief het actiecentrum
-- Geavanceerde jacht
+- Automatisch onderzoek en herstel, waaronder het Actiecentrum
+- Geavanceerd opsporen
 
-Als u de tijdzone voor deze functies wilt instellen, gaat u naar De tijdzone **van Microsoft** > **Threat Protection** > **.**
+Als u de tijdzone voor deze functies wilt instellen, gaat u naar **instellingen**  >  **Microsoft Threat Protection**  >  **time zone**.

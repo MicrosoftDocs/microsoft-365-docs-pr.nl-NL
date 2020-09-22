@@ -15,14 +15,17 @@ search.appverid:
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Beheerders kunnen e-mail uitbreidingen (Secure/Multipurpose Internet Mail Extensions) in Exchange Online leren gebruiken voor het versleutelen van e-mailberichten en deze digitaal ondertekenen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca865fa8ef658b4715d18e09fe9cbc1cffb201e6
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 8dce3e3fa3d24e1773f51f96e19a58d8a3b2efce
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845918"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200605"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME voor de ondertekening van berichten en versleuteling in Exchange Online
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 S/MIME (Secure/Multipurpose Internet Mail Extensions) is een uitgebreide geaccepteerde methode (of een specifiek Protocol) voor het verzenden van digitaal ondertekende en versleutelde berichten. Met S/MIME kunt u e-mailberichten versleutelen en digitaal ondertekenen. Wanneer u S/MIME met een e-mailbericht gebruikt, kunnen de personen die het bericht ontvangen, weten dat wat ze in hun postvak in hebben, het exacte bericht is dat met de afzender is begonnen. Daarnaast helpt de persoon die berichten ontvangt om te weten dat het bericht afkomstig is van de specifieke afzender en niet van iemand die de afzender moet zijn. Om dit te doen, bieden S/MIME-beveiliging voor cryptografische beveiligingsservices zoals verificatie, integriteit van berichten en non-afwijzing van oorsprong (met behulp van digitale handtekeningen). Dit helpt ook privacy en gegevensbeveiliging te verbeteren (met versleuteling) voor elektronische berichten. Zie [S/MIME-informatie](https://docs.microsoft.com/previous-versions/tn-archive/aa995740(v=exchg.65))voor een uitgebreide achtergrondinformatie over de geschiedenis en architectuur van s/mime in de context van e-mail.
 

@@ -14,14 +14,17 @@ ms.collection: M365-security-compliance.
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: 81ad3ab0d3bc20a49128fa6ed45ff62195b32bc7
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: f7bcfa4f08bee51408de33964f1dfd1e1db3bd33
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47963853"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199743"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft Threat Protection configureren
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 Microsoft Threat Protection bevat krachtige [functies voor geautomatiseerde onderzoek en reacties](mtp-autoir.md) waarmee u uw beveiligingsactiviteiten team veel tijd en inspanning kunt besparen. Met dit soort functies worden de stappen van een beveiligings analist afgehandeld, maar sneller en met meer mogelijkheid om te schalen. In dit artikel wordt uitgelegd hoe u een geautomatiseerd onderzoek en antwoord kunt configureren in Microsoft Threat Protection.
 

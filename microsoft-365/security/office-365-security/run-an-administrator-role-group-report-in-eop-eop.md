@@ -14,14 +14,17 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u een groepsrapport met beheerdersrollen uitvoert in zelfstandige Exchange Online Protection (EOP). Dit rapport meldt wanneer een beheerder leden toevoegt aan of verwijdert uit groepen beheerdersrollen, EOP elk exemplaar registreert.
-ms.openlocfilehash: db1934c7865209d358d164ff5165bb23026589cc
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: f2f3e32a818825d14c02b2bbffdc136e82f83013
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827503"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200479"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Een rapport over groepen met beheerdersrollen uitvoeren in standalone EOP
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Bij zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, wanneer een beheerder leden toevoegt aan of verwijdert uit groepen met administratieve rollen, wordt elk exemplaar in de service geregistreerd. Zie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md)voor meer informatie over rollen groepen in zelfstandige EOP.
 

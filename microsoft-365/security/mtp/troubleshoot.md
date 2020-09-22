@@ -1,7 +1,7 @@
 ---
-title: Problemen met microsoft Threat Protection-service oplossen
-description: Oplossingen en werkoplossingen vinden voor bekende Microsoft Threat Protection-problemen
-keywords: problemen oplossen van Microsoft Threat Protection, probleemoplossing, Azure ATP, problemen, invoegtoepassing, instellingen pagina
+title: Problemen met Microsoft Threat Protection-service oplossen
+description: Oplossingen zoeken en de problemen met bekende Microsoft Bedreigingsbeveiliging omzeilen
+keywords: problemen oplossen met Microsoft Threat Protection, problemen oplossen, Azure ATP, problemen, invoegtoepassing, pagina instellingen
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,32 +19,35 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e19e5758f4d42799c96ecec51fd6295e3da19f9b
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: bcf5b79fcd2fdf0a5af5648e6f6b7ea65d69594c
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844916"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48201285"
 ---
-# <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>Problemen met microsoft Threat Protection-service oplossen
+# <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>Problemen met Microsoft Threat Protection-service oplossen
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
 
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-In deze sectie worden problemen opgelost die zich kunnen voordoen wanneer u de Microsoft Threat Protection-service gebruikt.
+In deze sectie worden problemen opgelost die kunnen optreden bij het gebruik van de Microsoft Threat Protection-Service.
 
 
-## <a name="i-dont-see-microsoft-threat-protection-content"></a>Inhoud van Microsoft Threat Protection niet
-Als u geen mogelijkheden ziet in het navigatiedeelvenster, zoals incidenten, actiecentrum of jacht in uw portal, moet u controleren of uw tenant over de juiste licenties beschikt. 
+## <a name="i-dont-see-microsoft-threat-protection-content"></a>Ik zie geen inhoud voor Microsoft Threat Protection
+Als u de mogelijkheden van het navigatiedeelvenster, zoals het geval, het Onderhoudscentrum of de jacht niet ziet in de portal, moet u controleren of de Tenant de juiste licenties heeft. 
 
-Zie [Voorwaarden voor](prerequisites.md)meer informatie .
+Zie [vereisten](prerequisites.md)voor meer informatie.
 
-## <a name="azure-atp-alerts-are-not-showing-up-in-the-microsoft-threat-protection-incidents"></a>Azure ATP-waarschuwingen worden niet weergegeven in de Microsoft Threat Protection-incidenten
-Als Azure ATP in uw omgeving is geïmplementeerd, maar u azure ATP-waarschuwingen niet ziet als onderdeel van Microsoft Threat Protection-incidenten, moet u ervoor zorgen dat de Microsoft Cloud App Security- en Azure ATP-integratie is ingeschakeld. 
+## <a name="azure-atp-alerts-are-not-showing-up-in-the-microsoft-threat-protection-incidents"></a>Azure ATP-meldingen worden niet weergegeven in de Microsoft Threat Protection-incidenten
+Als u Azure ATP hebt geïmplementeerd in uw omgeving, maar u geen Azure ATP-waarschuwingen ziet als onderdeel van Microsoft Threat Protection, moet u ervoor zorgen dat de integratie met de Microsoft Cloud-app en Azure ATP is ingeschakeld. 
 
-Zie [Azure ATP-integratie](https://docs.microsoft.com/cloud-app-security/aatp-integration)voor meer informatie.
+Zie [integratie van Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration)voor meer informatie.
 
-## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de instellingenpagina voor het inschakelen van de service?
-Als u Microsoft Threat Protection wilt inschakelen, krijgt u toegang tot **Instellingen** vanuit het navigatiedeelvenster in het Microsoft 365-beveiligingscentrum. Dit navigatieitem is alleen zichtbaar als u over de [vereiste machtigingen en licenties beschikt.](mtp-enable.md#check-license-eligibility-and-required-permissions)
+## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de pagina instellingen voor het inschakelen van de service?
+Als u Microsoft Threat Protection wilt inschakelen, opent u de **instellingen** van het navigatiedeelvenster in het microsoft 365-Beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u beschikt over de [vereiste machtigingen en licenties](mtp-enable.md#check-license-eligibility-and-required-permissions).
  
 

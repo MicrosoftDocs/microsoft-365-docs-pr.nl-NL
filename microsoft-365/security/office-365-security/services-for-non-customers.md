@@ -16,14 +16,17 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Microsoft heeft verschillende beleidsregels en technologieën ingevoerd om onze gebruikers te helpen beschermen voor het behoud van gebruikers vertrouwen in het gebruik van e-mail.
-ms.openlocfilehash: 74389d3b975a0ffaebdc1619be40fd3ac74d72f4
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: e9389d52ee1d6c1c0bbab8630778749a6ed6005f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652655"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48199575"
 ---
 # <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Services voor niet-klanten die e-mail verzenden naar Microsoft 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 E-mail misbruik, ongewenste e-mail en frauduleuze e-mailberichten blijven in het hele e-mailbericht doorlopen. Om gebruikers vertrouwen in het gebruik van e-mail te houden, heeft Microsoft diverse beleidsregels en technologieën ingevoerd om onze gebruikers te helpen beschermen. Microsoft begrijpt echter dat de betrouwbare e-mail niet negatief wordt beïnvloed. Daarom hebben we een suite met Services opgezet om afzenders te helpen de mogelijkheid e-mail te leveren aan Microsoft 365-gebruikers door te proactief hun eigen reputatie te beheren.
 

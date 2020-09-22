@@ -1,9 +1,9 @@
 ---
-title: Test voor Microsoft 365-netwerkverbindingen (preview)
+title: Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 09/17/2020
+ms.date: 09/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,15 +13,15 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Test voor Microsoft 365-netwerkverbindingen (preview)
-ms.openlocfilehash: 40a46ecb39366c64c99077e90bb35c5056f36b9d
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+description: Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
+ms.openlocfilehash: 72f42a71ec44d165a24187edaf03aa62d330479b
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171348"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200815"
 ---
-# <a name="microsoft-365-network-connectivity-test-preview"></a>Test voor Microsoft 365-netwerkverbindingen (preview)
+# <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
 
 Het testprogramma voor Microsoft 365-netwerkconnectiviteit bevindt zich op <https://connectivity.office.com> . Het is een adjunct-hulpmiddel voor de netwerkanalyse-en netwerk inzichten-informatie die beschikbaar is in het Microsoft 365-Beheercentrum, onder de **status | Verbindings** menu.
 
@@ -249,7 +249,7 @@ Dit is momenteel een preview en we gaan updates regelmatig aanbrengen totdat we 
 
 ### <a name="what-is-required-to-run-the-advanced-test-client"></a>Wat is er nodig om de geavanceerde test client uit te voeren?
 
-Voor de geavanceerde proefversie is .NET Core 3,1-bureaublad runtime vereist. Als u de geavanceerde test client uitvoert zonder dat u de versie hebt geïnstalleerd, wordt u doorgestuurd naar [de installatiepagina van de .net Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Zorg ervoor dat u de versie van het bureaublad installeert en niet de SDK, of de kern-runtime van ASP.NET, die hoger is op de pagina. Beheerdersmachtigingen op de computer is vereist voor het installeren van .NET core. 
+Voor de geavanceerde proefversie is .NET Core 3,1-bureaublad runtime vereist. Als u de geavanceerde test client uitvoert zonder dat u de versie hebt geïnstalleerd, wordt u doorgestuurd naar [de installatiepagina van de .net Core 3,1](https://dotnet.microsoft.com/download/dotnet-core/3.1). Zorg ervoor dat u de versie van het bureaublad installeert en niet de SDK, of de kern-runtime van ASP.NET, die hoger is op de pagina. Beheerdersmachtigingen op de computer is vereist voor het installeren van .NET core.
 
 ### <a name="what-is-microsoft-365-service-front-door"></a>Wat is de front cover van de Microsoft 365-service?
 
@@ -267,7 +267,7 @@ De locatie voor het uittreden van Internet is de locatie waar uw netwerkverkeer 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Aanbevelingen voor netwerkprestaties in het Microsoft 365-Beheercentrum (preview)](office-365-network-mac-perf-overview.md)
+[Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)](office-365-network-mac-perf-overview.md)
 
 [Microsoft 365 Network Performance Insights (preview)](office-365-network-mac-perf-insights.md)
 
