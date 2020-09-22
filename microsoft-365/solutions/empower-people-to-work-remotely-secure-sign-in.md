@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Vereis dat uw externe werknemers zich aanmelden met meervoudige verificatie (MFA).
-ms.openlocfilehash: a8c0b8ac689407fa871d2373f1ca0a3658bb1668
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 0b655800d27e6836a3848bfb2a94fc9c30439ec7
+ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521515"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "48132200"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Stap 1. Aanmeldingsbeveiliging voor externe werknemers verbeteren met MFA
 
@@ -86,7 +86,7 @@ Als de standaardinstellingen voor beveiliging zijn ingeschakeld, moeten alle nie
 
 In deze tabel ziet u de resultaten na het inschakelen van MFA met de standaardinstellingen voor beveiliging en het beleid voor voorwaardelijke toegang.
 
-|| Ingeschakeld | Uitgeschakeld | Extra verificatiemethode |
+| Methode | Ingeschakeld | Uitgeschakeld | Extra verificatiemethode |
 |:-------|:-----|:-------|:-------|
 | **Standaardinstellingen voor beveiliging**  | Kan geen beleid voor voorwaardelijke toegang gebruiken | Kan beleid voor voorwaardelijke toegang gebruiken | De Microsoft Authenticator-app |
 | **Beleidsregels voor voorwaardelijke toegang** | Als er een of meer zijn ingeschakeld, kunt u de standaardinstellingen voor beveiliging niet inschakelen | Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen  | Opgeven door gebruiker tijdens MFA-registratie  |
@@ -104,7 +104,7 @@ Azure AD kan naast het bieden van cloudverificatie voor gebruikers ook worden ge
 
 - [MFA voor Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
 - [Belangrijkste vijf manieren waarop Azure AD helpt bij werken op afstand](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691)
-- [Uw Microsoft 365 Enterprise-identiteitsinfrastructuur plannen en implementeren](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure?view=o365-worldwide#plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure)
+- [Identiteits-roadmap voor Microsoft 365 herkennen](../enterprise/identity-roadmap-microsoft-365.md)
 - [Azure Academy Azure AD-trainingsvideo's](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
 - [Het beleid voor Azure Multi-Factor Authentication-registratie configureren](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Een implementatie voor self-service voor wachtwoordherstel van Azure AD plannen](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
