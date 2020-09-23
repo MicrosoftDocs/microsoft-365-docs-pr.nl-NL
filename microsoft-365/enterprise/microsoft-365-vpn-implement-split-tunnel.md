@@ -3,7 +3,7 @@ title: Gesplitste VPN-tunneling implementeren voor Office 365
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/21/2020
+ms.date: 9/22/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Gesplitste tunneling voor VPN implementeren voor Office 365
-ms.openlocfilehash: bfdc11ffe4244ec0ac83bb1c0470476aafeec939
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: af5c2ea35df921abe8eaa9a85ab2ab244931c098
+ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171420"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48214856"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Gesplitste VPN-tunneling implementeren voor Office 365
 
@@ -37,7 +37,7 @@ Voor zeer enige tijd worden VPN-modellen waarbij alle verbindingen van het exter
 
 Het gebruik van geforceerde verbonden Vpn's voor het maken van een verbinding met de Distributed-en prestatie gevoelige Cloud toepassingen is zeer geschikt, maar de negatieve gevolgen van die van sommige ondernemingen zijn voor het behoud van de status quo van een beveiligings perspectief. Hieronder ziet u een voorbeeld van een diagram van dit scenario:
 
-![VPN-configuratie voor gesplitste tunnel](../media/vpn-split-tunneling/vpn-ent-challenge.png)
+![VPN-configuratie voor gesplitste tunnel](../media/vpn-split-tunneling/enterprise-network-traditional.png)
 
 Dit probleem is opgetreden gedurende een groot aantal jaren, met veel klanten die een noemenswaardige ploeg van de netwerk verkeerspatronen rapporteren. Verkeer dat wordt gebruikt om on-premises te blijven, maakt nu verbinding met externe Cloud eindpunten. Een groot aantal Microsoft-klanten rapporten is, rondom 80% van het netwerkverkeer tot een aantal interne bronnen (aangeduid met de stippellijn in het bovenstaande diagram). In 2020 is dit cijfer rondom 20% of lager, omdat ze grote belastingen op de Cloud hebben afgewerkt, dan zijn deze trends niet ongebruikelijk met andere ondernemingen. Na verloop van tijd, wanneer de Cloud reis vordert, wordt het bovenstaande model steeds lastig en onduurzaam geworden, zodat een organisatie geen Agile kan zijn omdat ze in een cloud van de eerste wereld overstappen.
 
@@ -95,7 +95,7 @@ In deze sectie vindt u de eenvoudige stappen die nodig zijn voor het migreren va
 
 In het onderstaande diagram ziet u hoe de aanbevolen tunnel oplossing voor VPN werkt:
 
-![Details van gesplitste tunnel oplossingen voor VPN](../media/vpn-split-tunneling/vpn-split-detail.png)
+![Details van gesplitste tunnel oplossingen voor VPN](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
 
 ### <a name="1-identify-the-endpoints-to-optimize"></a>1. bepalen welke eindpunten u wilt optimaliseren
 
@@ -109,9 +109,6 @@ Url's in deze categorie hebben de volgende kenmerken:
 - Bandbreedte en/of latentie gevoelig
 - Kan de vereiste beveiligingselementen in de service niet gebruiken in plaats van in de regel op het netwerk.
 - Account rondom 70-80% van het volume verkeer naar de Office 365-service
-
->[!NOTE]
->Microsoft heeft vastgelegd dat wijzigingen in de eindpunten van Office 365 worden **geoptimaliseerd** tot ten minste **30 2020**, zodat gebruikers zich kunnen richten op andere uitdagingen dan in plaats van de whitelist na uitvoering. Dit artikel wordt bijgewerkt om toekomstige wijzigingen weer te geven.
 
 Zie het artikel [Office 365-eindpunten beheren](managing-office-365-endpoints.md)voor meer informatie over de eindpunten van Office 365 en de manier waarop ze worden gecategoriseerd en beheerd.
 

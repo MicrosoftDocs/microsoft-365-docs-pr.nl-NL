@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Overzicht van netwerkverbindingen in het Microsoft 365-Beheercentrum (preview)
-ms.openlocfilehash: a51cfba962ff884afa634473c0523e49a92a56f5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fc800d6f7a63e34f83b089fdea41b68cbf9134da
+ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200794"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48214913"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 
@@ -33,7 +33,7 @@ Het Microsoft 365-Beheercentrum bevat nu de geaggregeerde metrische netwerk verb
 
 U wordt mogelijk gevraagd om deel te nemen aan de openbare preview voor deze functie namens uw organisatie. Accepteren meestal doet zich meestal direct voor, dan wordt de pagina netwerkconnectiviteit weergegeven. 
 
-Wanneer u naar de pagina netwerkconnectiviteit gaat, wordt een Overzichtsvenster weergegeven met een overzicht van de algemene netwerkprestaties, een netwerkbeoordelings bereik voor de volledige Tenant en een lijst met actuele problemen. Voor toegang tot deze pagina moet u een beheerder van de organisatie binnen Microsoft 365 zijn. De beheerdersrol van de Rapportlezer heeft leestoegang tot deze informatie. Als u locaties en andere onderdelen van netwerkconnectiviteit wilt configureren, moet een beheerder deel uitmaken van een beheerder van de server, zoals de rol van beheerder voor service ondersteuning. In het overzicht kunt u in-en uitzoomen om bepaalde metrische gegevens voor netwerkprestaties en-problemen weer te geven op locatie. Zie [het overzicht van netwerkprestaties in het Microsoft 365-Beheercentrum](#network-connectivity-overview-in-the-microsoft-365-admin-center)voor meer informatie.
+Wanneer u naar de pagina netwerkconnectiviteit gaat, wordt een Overzichtsvenster weergegeven met een overzicht van de algemene netwerkprestaties, een netwerkbeoordelings bereik voor de volledige Tenant en een lijst met actuele problemen. Voor toegang tot deze pagina moet u een beheerder van de organisatie binnen Microsoft 365 zijn. De beheerdersrol van de Rapportlezer heeft leestoegang tot deze informatie. Als u locaties en andere onderdelen van netwerkconnectiviteit wilt configureren, moet een beheerder deel uitmaken van een beheerder van de server, zoals de rol van beheerder voor service ondersteuning. In het overzicht kunt u in-en uitzoomen om bepaalde metrische gegevens voor netwerkprestaties en-problemen weer te geven op locatie. Zie [Netwerkverbindingen-overzicht in het Microsoft 365-Beheercentrum](#network-connectivity-overview-in-the-microsoft-365-admin-center)voor meer informatie.
 
 ## <a name="pre-requisites-for-network-connectivity-assessments-to-appear"></a>Vereisten voor het weergeven van proefversies voor netwerkverbindingen
 

@@ -3,7 +3,7 @@ title: 'Overzicht: gesplitste tunneling via VPN met Office 365'
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/3/2020
+ms.date: 9/22/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Richtlijnen voor het gebruik van gesplitste VPN-tunneling met Office 365 om de connectiviteit van Office 365 voor externe gebruikers te optimaliseren.
-ms.openlocfilehash: aad7932abb6b96a518b069ec24e836d2b5d234a1
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: cda9333c7edbcc323544290c2ba946a8464f9c57
+ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695767"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48214755"
 ---
 # <a name="optimize-office-365-connectivity-for-remote-users-using-vpn-split-tunneling"></a>Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling
 <!---
@@ -89,16 +89,13 @@ Deze straks ingestelde serie eindpunten kunnen in de geforceerde VPN-tunnel word
 
 Beveiligingselementen zoals DLP, beveiliging tegen AV, authenticatie en toegangsbeheer kunnen allemaal veel efficiënter voor deze eindpunten op verschillende lagen binnen de service worden geleverd. Aangezien we de bulk van het verkeersvolume van de VPN-oplossing van de VPN-oplossing verder aanleidingen, dan wordt er nu de VPN-capaciteit vrijgemaakt voor kritieke activiteiten van het bedrijf, wat er nog steeds wordt gebruikgemaakt. Het is ook mogelijk om in veel gevallen de noodzaak te verwijderen om een lang en kosten upgradeprogramma te doorlopen, zodat deze nieuwe manier van werken kan worden verwerkt.
 
-![VPN-configuratie voor gesplitste tunnel](../media/vpn-split-tunneling/vpn-model-2.png)
+![Details van gesplitste tunnel VPN-configuratie](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
 
 _Afbeelding 3: een gesplitste VPN-oplossing met gedefinieerde Office 365-uitzonderingen die rechtstreeks naar de service zijn verzonden. Alle andere verkeer wordt in het bedrijfsnetwerk geforceerd weergeven, ongeacht de bestemming._
 
 Vanuit een beveiligings perspectief heeft Microsoft een reeks beveiligingsfuncties die kan worden gebruikt om vergelijkbaar te zijn, of zelfs een verbeterde beveiliging te leveren dan de inline-inspectie door on-premises beveiligings stacks te bezorgen. De blogberichten van het Microsoft-beveiligingsteam [en de IT-medewerkers voor een modernere beveiligings regeling in de unieke functies voor extern bewerken van vandaag](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) is een duidelijk overzicht van de beschikbare functies en u vindt meer gedetailleerde informatie in dit artikel. U kunt ook lezen over de implementatie van de VPN-splitsing van Microsoft aan de slag [op een VPN-verbinding](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/?elevate-lv).
 
 In veel gevallen kan deze implementatie in enkele gevallen worden verwezenlijkt, zodat een van de meest waarschijnlijke problemen met organisaties snel op de hoogte wordt gesteld als ze snel op de volledige schaal werken. Zie voor de implementatie van een VPN-gesplitste tunnel [in Office 365](microsoft-365-vpn-implement-split-tunnel.md).
-
->[!NOTE]
->Microsoft heeft vastgelegd dat wijzigingen in de eindpunten van Office 365 worden **geoptimaliseerd** tot ten minste **30 2020**, zodat gebruikers zich kunnen richten op andere uitdagingen dan in plaats van de whitelist na uitvoering.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -112,8 +109,8 @@ In veel gevallen kan deze implementatie in enkele gevallen worden verwezenlijkt,
 
 [Uitvoeren op VPN: hoe Microsoft de werknemers op afstand houdt](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/?elevate-lv)
 
-[Methoden voor netwerkverbindingen in Office 365](microsoft-365-network-connectivity-principles.md)
+[Beginselen voor Office 365-netwerkverbinding](microsoft-365-network-connectivity-principles.md)
 
-[Een beoordeling van de netwerkverbinding van Office 365](assessing-network-connectivity.md)
+[Office 365-netwerkverbinding beoordelen](assessing-network-connectivity.md)
 
-[Microsoft 365 connectiviteitstest](https://aka.ms/netonboard)
+[Microsoft 365-connectiviteitstest](https://aka.ms/netonboard)
