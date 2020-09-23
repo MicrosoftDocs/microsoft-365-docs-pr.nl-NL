@@ -3,7 +3,7 @@ title: Rollen toewijzen aan gebruikersaccounts van Microsoft 365 met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: In dit artikel leest u hoe u met PowerShell voor Microsoft 365 rollen snel en gemakkelijk kunt toewijzen aan gebruikersaccounts.
-ms.openlocfilehash: 4726dcea109490ff28299002bc5263aa15dca949
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9df1b018cf3e89e0afbd5265fdd1ec9f92b34aec
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688992"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235428"
 ---
 # <a name="assign-roles-to-microsoft-365-user-accounts-with-powershell"></a>Rollen toewijzen aan gebruikersaccounts van Microsoft 365 met PowerShell
 
@@ -34,7 +34,7 @@ ms.locfileid: "46688992"
 U kunt snel en eenvoudig rollen toewijzen aan gebruikersaccounts met behulp van PowerShell voor Microsoft 365.
 
 >[!Note]
->Als u rollen wilt toewijzen aan gebruikersaccounts met het Microsoft 365-Beheercentrum, raadpleegt u [deze instructies](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
+>[Meer informatie over het toewijzen van rollen aan gebruikersaccounts](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) met het microsoft 365-Beheercentrum. Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph module gebruiken
@@ -107,7 +107,7 @@ Als u werkt met de weergavenamen van gebruikersaccounts, bepaalt u het volgende:
     Met deze opdracht wordt de weergavenaam van uw gebruikersaccounts weergegeven, gesorteerd op de weergavenaam, één scherm tegelijkertijd. U kunt de lijst filteren op een kleinere set met behulp **van de cmdlet** -cmdlet. Hier ziet u een voorbeeld:
 
    >[!Note]
-   >De PowerShell-core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met **MSOL** in de naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+   >PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
    >
     
   ```powershell
@@ -238,6 +238,6 @@ $roleChanges=Import-Csv $fileName | ForEach { Add-MsolRoleMember -RoleMemberEmai
 
 ## <a name="see-also"></a>Zie ook
 
-- [Microsoft 365-gebruikersaccounts, licenties en groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+- [Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
 - [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
 - [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)

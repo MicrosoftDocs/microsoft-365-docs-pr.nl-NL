@@ -1,6 +1,6 @@
 ---
 title: Vereisten voor Microsoft Managed Desktop
-description: ''
+description: Licenties, Azure-accounts, verificatie-instellingen en instellingen van Microsoft 365 om in te stellen voordat u zich registreert in Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4850aabfac0774f899d6497543b74ff77c446523
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 1c03d9028205ea392bade15e6dec354bff0be96e
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361949"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235392"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Vereisten voor Microsoft Managed Desktop
 
@@ -23,7 +23,6 @@ ms.locfileid: "47361949"
 
 In dit onderwerp vindt u een overzicht van de vereisten voor de infrastructuur die u moet vergaderen met Microsoft Managed Desktop. 
 
-Microsoft FastTrack is beschikbaar om u te helpen aan deze vereisten te voldoen en helpt u bij het voorbereiden van deelnemen aan deelnemen aan Microsoft Managed Desktop. Zie [Microsoft FastTrack](https://fasttrack.microsoft.com/about)voor meer informatie. 
 
 Ziet | Vereiste gegevens
 --- | ---
@@ -33,7 +32,7 @@ Microsoft Azure Active Directory |    Azure Active Directory (Azure AD) moet de 
 Verificatie |    Als Azure AD niet de bron is van primaire verificatie voor gebruikersaccounts, moet u een van deze opties configureren in azure AD Connect:<br>-Hash-synchronisatie van wachtwoord<br>Pass Through-verificatie<br>: Een externe identiteitsprovider (waaronder Windows Server ADFS en niet-Microsoft IDPs) geconfigureerd om aan de vereisten voor Azure AD-integratie te voldoen. Zie de [richtlijnen](https://www.microsoft.com/download/details.aspx?id=56843) voor meer informatie. <br><br>Bij het instellen van verificatieopties met Azure AD Connect, wordt ook aangeraden om het wachtwoord over te schrijven. Zie voor meer informatie [wachtwoord terugschrijven](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). <br><br>Als een externe identiteitsprovider wordt geïmplementeerd, moet u de oplossing valideren:<br>-Voldoet aan de vereisten voor Azure AD-integratie<br>-Ondersteuning voor voorwaardelijke toegang van Azure AD, dit is om MMD-apparaat-nalevingsbeleid in te schakelen<br>-Schakelt het registreren van apparaten en het gebruik van Microsoft 365-Services of functies die nodig zijn als onderdeel van Microsoft Managed Desktop <br><br>Zie [aanmeldingsopties voor Azure AD Connect-gebruikers](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin)voor meer informatie over verificatie-opties in azure AD.
 Microsoft 365 | OneDrive voor bedrijven moet worden ingeschakeld voor Microsoft Managed desktop users.<br><br>Hoewel het niet vereist is om u aan te melden bij Microsoft Managed Desktop, wordt nadrukkelijk geadviseerd dat de volgende services worden gemigreerd naar de Cloud:<br>-E-mail: migreren naar Cloud postvakken, Exchange Online of configureren met Exchange Online Hybrid met Exchange 2013 of hoger, on-premises.<br>-Bestanden en mappen: migreren naar OneDrive voor bedrijven of SharePoint Online.<br>-Online samenwerkingsprogramma's: migreren naar teams.
 Apparaatbeheer | Door Microsoft beheerde bureaublad apparaten is beheer met Microsoft intune vereist. InTune moet zijn ingesteld als de service voor het beheer van mobiele apparaten.<br><br>Zie [Microsoft intune](https://www.microsoft.com/cloud-platform/microsoft-intune)voor meer informatie. 
-Gegevensback-up en herstel | Microsoft Managed Desktop vereist dat de bestanden worden gesynchroniseerd met OneDrive voor bedrijven voor beveiliging. Bestanden die niet zijn gesynchroniseerd met OneDrive voor bedrijven, worden niet door Microsoft beheerd bureaublad gegarandeerd en gaan mogelijk verloren bij het overzetten van een apparaat of door de ondersteuning ervan.<br><br>Hoewel het niet vereist is, wordt door Microsoft beheerde bureaublad sterk aanbevolen migratie van toegewezen netwerkstations naar de juiste Cloud oplossing. Zie voor meer informatie [toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
+Gegevensback-up maken en terugzetten |  Microsoft Managed Desktop vereist dat de bestanden worden gesynchroniseerd met OneDrive voor bedrijven voor beveiliging. Bestanden die niet zijn gesynchroniseerd met OneDrive voor bedrijven, worden niet door Microsoft beheerd bureaublad gegarandeerd en gaan mogelijk verloren bij het overzetten van een apparaat of door de ondersteuning ervan.<br><br>Hoewel het niet vereist is, wordt door Microsoft beheerde bureaublad sterk aanbevolen migratie van toegewezen netwerkstations naar de juiste Cloud oplossing. Zie voor meer informatie [toegewezen stations voorbereiden voor Microsoft Managed Desktop](mapped-drives.md)
 
 Neem contact op met uw Microsoft-account beheerder als u klaar bent om aan de slag te gaan met Microsoft Managed Desktop. 
 

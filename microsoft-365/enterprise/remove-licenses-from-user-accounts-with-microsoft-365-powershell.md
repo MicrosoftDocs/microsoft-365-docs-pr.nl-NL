@@ -3,7 +3,7 @@ title: Microsoft 365-licenties verwijderen van gebruikersaccounts met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,16 +20,20 @@ ms.custom:
 - O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
 description: In dit artikel wordt uitgelegd hoe u PowerShell gebruikt om Microsoft 365-licenties te verwijderen die eerder aan gebruikers zijn toegewezen.
-ms.openlocfilehash: 815b2290ca3b5ac4ee3cfec87383161ea70f3dca
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 7651f300dbf7a57ce163096d500401365e624663
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689034"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235452"
 ---
 # <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a>Microsoft 365-licenties verwijderen van gebruikersaccounts met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
+
+>[!Note]
+>[Informatie over het verwijderen van licenties van gebruikersaccounts](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) met het microsoft 365-Beheercentrum. Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.
+>
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph module gebruiken
 
@@ -104,7 +108,7 @@ Set-MsolUserLicense -UserPrincipalName <Account> -RemoveLicenses "<AccountSkuId1
 ```
 
 >[!Note]
->De PowerShell-core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met **MSOL** in de naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 >
 
 In dit voorbeeld wordt de licentie **abonnement litwareinc: Enterprise Pack** (Office 365 Enterprise E3) van de gebruikersaccount BelindaN@litwareinc.com.
@@ -182,7 +186,7 @@ Een andere manier om een licentie vrij te maken, is door het gebruikersaccount t
   
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365-gebruikersaccounts, licenties en groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   

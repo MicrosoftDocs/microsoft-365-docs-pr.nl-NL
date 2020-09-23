@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: "Overzicht: de nieuwe webservice van het eindpunt biedt geen klein aantal eindpunten voor specifieke scenario's."
 hideEdit: true
-ms.openlocfilehash: 821332f573eb8499a01838a5dc9941c9844086a3
-ms.sourcegitcommit: 04f196528a7a91b404478553433af3fa94d7eee7
+ms.openlocfilehash: 30d0c7af8420f85abf820839a26c989704860c0a
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "47317503"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235580"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Extra eindpunten die niet zijn opgenomen in het Office 365 IP Address en de webservice URL-webservice
 
@@ -67,7 +67,7 @@ Naast de DNS zijn deze allemaal optioneel voor de meeste klanten, tenzij u een s
 | Maxi  | [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/) met 21 ViaNet in China om on-premises gebruikersaccounts te synchroniseren met Azure AD. | \*. digicert.com:80 <BR> \*. entrust.net:80 <BR> \*. chinacloudapi.cn:443 <BR> secure.aadcdn.partner.microsoftonline-p.cn:443 <BR>*. partner.microsoftonline.cn:443 <BR> <BR>Zie ook [problemen met de Azure AD-verbinding oplossen](https://docs.azure.cn/zh-cn/active-directory/hybrid/tshoot-connect-connectivity). | Alleen uitgaande serververkeer |
 | 22  | Microsoft stream (nodig de Azure AD-gebruikerstoken). <BR> Office 365 wereldwijd (inclusief GCC) | \*. cloudapp.net <BR> \*. api.microsoftstream.com <BR> \*. notification.api.microsoftstream.com <BR> amp.azure.net <BR> api.microsoftstream.com <BR> az416426.vo.msecnd.net <BR> s0.assets-yammer.com <BR> vortex.data.microsoft.com <BR> web.microsoftstream.com <BR> TCP-poort 443  | Binnenkomende serververkeer |
 | centimeter  | Gebruik MFA server voor verificatieaanvragen van meervoudige authenticatie, zowel nieuwe installaties van de server als het instellen van Active Directory Domain Services (AD DS). | Zie [aan de slag met de Azure multi-factor Authentication-Server](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-deploy#plan-your-deployment).  | Alleen uitgaande serververkeer |
-| 19  | Meldingen van Microsoft Graph wijzigen | Ontwikkelaars kunnen [meldingen wijzigen](https://docs.microsoft.com/graph/webhooks?context=graph%2Fapi%2F1.0&view=graph-rest-1.0) om een abonnement te nemen in Microsoft Graph. | *. cloudapp.net<BR> 104.43.130.21, 137.116.169.230, 13.79.38.63, 104.214.39.228, openbare Cloud: 168.63.250.205, 52.161.9.202, 40.68.103.62, 13.89.60.223, 23.100.95.104, 40.113.95.219, 104.214.32.10, 168.63.237.145, 52.161.110.176, 52.174.177.183 <BR> Microsoft Cloud voor US Government: 52.244.231.173, 52.238.76.151, 52.244.250.211, 52.238.78.108 <BR> Microsoft Cloud Duitsland: 51.4.231.136, 51.5.243.223, 51.4.226.154, 51.5.244.215 <BR> Microsoft Cloud China beheerd door 21Vianet: 139.219.15.33, 42.159.154.223, 42.159.88.79, 42.159.155.77<BR> TCP-poort 443 <BR> Opmerking: ontwikkelaars kunnen verschillende poorten opgeven wanneer ze een abonnement maken.  | Binnenkomende serververkeer |
+| 19  | Meldingen van Microsoft Graph wijzigen | Ontwikkelaars kunnen [meldingen wijzigen](https://docs.microsoft.com/graph/webhooks?context=graph%2Fapi%2F1.0&view=graph-rest-1.0) om een abonnement te nemen in Microsoft Graph. | *. cloudapp.net<BR> 104.43.130.21, 137.116.169.230, 13.79.38.63, 104.214.39.228, openbare Cloud: 168.63.250.205, 52.161.9.202, 40.68.103.62, 13.89.60.223, 23.100.95.104, 40.113.95.219, 104.214.32.10, 168.63.237.145, 52.161.110.176, 52.174.177.183, 13.85.192.59, 13.85.192.123, 13.86.37.15, 13.89.108.233, 13.89.104.147, 20.44.210.83, 20.44.210.146, 40.76.162.99, 40.76.162.42, 40.74.203.28, 40.74.203.27, 51.104.159.213, 51.104.159.181, 51.124.75.43, 51.124.73.177, 51.138.90.7, 51.138.90.52, 52.139.153.222, 52.139.170.157, 52.139.170.47, 52.142.114.29, 52.142.115.31, 52.147.213.251, 52.147.213.181, 52.148.24.136, 52.148.27.39, 52.148.115.48, 52.148.114.238, 52.154.246.238, 52.159.23.209, 52.159.17.84, 52.184.94.140 <BR> Microsoft Cloud voor US Government: 52.244.231.173, 52.238.76.151, 52.244.250.211, 52.238.78.108, 52.243.147.249, 52.243.148.19, 52.243.157.104, 52.243.157.105, 52.244.33.45, 52.244.35.174, 52.244.111.156, 52.244.111.170 <BR> Microsoft Cloud Duitsland: 51.4.231.136, 51.5.243.223, 51.4.226.154, 51.5.244.215, 51.4.150.206, 51.4.150.235, 51.5.147.130, 51.5.148.103 <BR> Microsoft Cloud China beheerd door 21Vianet: 139.219.15.33, 42.159.154.223, 42.159.88.79, 42.159.155.77, 40.72.155.199, 40.72.155.216, 40.125.138.23, 40.125.136.69, 42.159.72.35, 42.159.72.47, 42.159.180.55, 42.159.180.56<BR> TCP-poort 443 <BR> Opmerking: ontwikkelaars kunnen verschillende poorten opgeven wanneer ze een abonnement maken.  | Binnenkomende serververkeer |
 |||||
 
 ## <a name="related-topics"></a>Verwante onderwerpen

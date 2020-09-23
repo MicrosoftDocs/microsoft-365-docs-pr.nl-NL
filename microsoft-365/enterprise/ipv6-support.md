@@ -1,5 +1,5 @@
 ---
-title: IPv6-ondersteuning in Office 365-Services
+title: IPv6-ondersteuning in Office 365-services
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,14 +18,14 @@ search.appverid:
 - BCS160
 ms.assetid: c08786fb-298e-437c-8222-dab7625fc815
 description: 'Overzicht: hier wordt de IPv6-ondersteuning in Microsoft Office 365-onderdelen en in de Office 365-aanbiedingen voor de overheid beschreven.'
-ms.openlocfilehash: c4ecd2ef26ecf660eb1d172b1951907724d2238a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f671e8caf868ebbed628a155b73ce6fe413949a9
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689108"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235604"
 ---
-# <a name="ipv6-support-in-office-365-services"></a>IPv6-ondersteuning in Office 365-Services
+# <a name="ipv6-support-in-office-365-services"></a>IPv6-ondersteuning in Office 365-services
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
@@ -50,6 +50,10 @@ Als het programma dat u gebruikt om verbinding te maken met SharePoint Online on
 ### <a name="skype-for-business-and-ipv6"></a>Skype voor bedrijven en IPv6
 
 Houd er rekening mee dat IPv6 niet in Skype voor bedrijven wordt ondersteund en niet meer kan worden ingeschakeld.
+
+### <a name="microsoft-teams-and-ipv6"></a>Microsoft teams en IPV6
+
+Microsoft teams voor direct routeren ondersteunen IPv4 alleen IPv4. De service en client van Microsoft teams ondersteunen beide IPv4 en IPv6. Als u communicatie met Microsoft teams wilt regelen, gebruikt u de IP-adresbereiken in [Office 365-url's en IP-](urls-and-ip-address-ranges.md)adresbereiken.
   
 ### <a name="exchange-online-protection-and-ipv6"></a>Exchange Online Protection en IPv6
 

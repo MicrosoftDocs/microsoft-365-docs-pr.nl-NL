@@ -3,7 +3,7 @@ title: Microsoft 365-licenties toewijzen aan gebruikersaccounts met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 description: In dit artikel wordt uitgelegd hoe u PowerShell gebruikt om een Microsoft 365-licentie toe te wijzen aan gebruikers zonder licentie.
-ms.openlocfilehash: 7bd217dfeed762a11161c3f512fb55a8e6c4968e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f042f8109bf9ac9b634bc66509c60a5181fb1af6
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688993"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235616"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>Microsoft 365-licenties toewijzen aan gebruikersaccounts met PowerShell
 
@@ -36,6 +36,10 @@ Gebruikers kunnen geen Microsoft 365-Services gebruiken totdat hun account een l
 
 >[!Note]
 >Voor gebruikersaccounts moet een locatie worden toegewezen. U kunt dit doen met de eigenschappen van een gebruikersaccount in het Microsoft 365-Beheercentrum of vanuit PowerShell.
+>
+
+>[!Note]
+>[Meer informatie over het toewijzen van licenties aan gebruikersaccounts](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) met het microsoft 365-Beheercentrum. Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph module gebruiken
@@ -84,7 +88,7 @@ Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-pow
 Voer de `Get-MsolAccountSku` opdracht uit om de beschikbare licentie plannen en het aantal beschikbare licenties in elk abonnement van uw organisatie weer te geven. Het aantal beschikbare licenties in elk abonnement is **ActiveUnits**  -  **WarningUnits**  -  **ConsumedUnits**. Zie [licenties en services in PowerShell weergeven](view-licenses-and-services-with-microsoft-365-powershell.md)voor meer informatie over licentie plannen, licenties en services.
 
 >[!Note]
->De PowerShell-core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met **MSOL** in de naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 >
 
 Voer deze opdracht uit om de accounts zonder licentie in uw organisatie te zoeken.
@@ -205,7 +209,7 @@ $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq
 
 ## <a name="see-also"></a>Zie ook
 
-[Gebruikersaccounts, licenties en groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[Gebruikersaccounts, -licenties en -groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   

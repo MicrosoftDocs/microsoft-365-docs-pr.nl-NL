@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Overzicht van netwerkverbindingen in het Microsoft 365-Beheercentrum (preview)
-ms.openlocfilehash: fc800d6f7a63e34f83b089fdea41b68cbf9134da
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: 52d1995572a3ae0220ac8529862ba69d5bca8cdb
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214913"
+ms.locfileid: "48235536"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 
@@ -30,6 +30,11 @@ Het Microsoft 365-Beheercentrum bevat nu de geaggregeerde metrische netwerk verb
 **Netwerk beoordelingen** en **netwerk inzichten** worden weergegeven in het Microsoft 365-Beheercentrum onder **gezondheidszorg | Connectiviteit**.
 
 ![Pagina netwerkprestaties](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
+
+>[!NOTE]
+>Het testprogramma voor Netwerkverbindingen ondersteunt tenants in de Duitse commerciële versie en Duitsland, maar niet GCC, GCC High, DoD of China.
+
+Wanneer u naar de pagina netwerkprestaties gaat, ziet u het deelvenster Overzicht met een overzicht van de algemene netwerkprestaties, een netwerkbeoordelings bereik voor de volledige Tenant en een lijst met actuele problemen. In het overzicht kunt u in-en uitzoomen om bepaalde metrische gegevens voor netwerkprestaties en-problemen weer te geven op locatie. Zie [het overzicht van netwerkprestaties in het Microsoft 365-Beheercentrum](#network-connectivity-overview-in-the-microsoft-365-admin-center)voor meer informatie.
 
 U wordt mogelijk gevraagd om deel te nemen aan de openbare preview voor deze functie namens uw organisatie. Accepteren meestal doet zich meestal direct voor, dan wordt de pagina netwerkconnectiviteit weergegeven. 
 

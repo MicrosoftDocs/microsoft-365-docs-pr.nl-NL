@@ -3,7 +3,7 @@ title: Microsoft 365-gebruikersaccounts verwijderen met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,16 +20,20 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
 description: In dit artikel vindt u informatie over het gebruik van verschillende modules in PowerShell om Microsoft 365-gebruikersaccounts te verwijderen.
-ms.openlocfilehash: 6da2d83b3f305db09f8c1d02f54e643a0ad1978b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0c13b57c13fb3d01d648438a5d6973fea8b9db67
+ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689316"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235440"
 ---
 # <a name="delete-microsoft-365-user-accounts-with-powershell"></a>Microsoft 365-gebruikersaccounts verwijderen met PowerShell
 
-Met PowerShell voor Microsoft 365 kunt u een gebruikersaccount verwijderen.
+Met PowerShell voor Microsoft 365 kunt u een gebruikersaccount verwijderen en herstellen.
+
+>[!Note]
+>[Meer informatie over het herstellen van een gebruikersaccount](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user) met het microsoft 365-Beheercentrum. Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.
+>   
    
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph module gebruiken
 
@@ -84,7 +88,7 @@ Remove-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 >[!Note]
->De PowerShell-core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met **MSOL** in de naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 >
 
 In dit voorbeeld wordt de BelindaN@litwareinc.com van het gebruikersaccount verwijderd.
@@ -118,7 +122,7 @@ Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365-gebruikersaccounts, licenties en groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
