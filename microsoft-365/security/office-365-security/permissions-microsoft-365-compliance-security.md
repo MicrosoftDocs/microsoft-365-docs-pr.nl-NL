@@ -17,14 +17,17 @@ search.appverid:
 - MET150
 description: Via het Microsoft 365-beveiligingscentrum of het Microsoft 365-compliancecentrum kunt u machtigingen centraal beheren voor alle taken die zijn gerelateerd aan beveiliging of naleving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c18f50fcad7b934e02c2110fa05196874ab0169a
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 43c98e0b710f5b88c17e089fd974e924728f27f3
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307771"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48202673"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Machtigingen in het Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
 
 Uw organisatie moet de beveiligings- en compliance-scenario's beheren met betrekking tot alle services van Microsoft 365. En u hebt de flexibiliteit nodig om de juiste beheerdersmachtigingen aan de juiste personen in de IT-groep van uw organisatie te geven. Via het Microsoft 365-beveiligingscentrum of het Microsoft 365-compliancecentrum kunt u machtigingen centraal beheren voor alle taken die zijn gerelateerd aan beveiliging of naleving.
 
@@ -63,7 +66,7 @@ Gebruikers met deze rol hebben machtigingen voor het beheren van nalevingsfuncti
 |In deze service...|De beheerder voor naleving kan...|
 |---|---|
 |[**Microsoft 365-compliancecentrum**](https://compliance.microsoft.com/)|De gegevens van uw organisatie in Microsoft 365-services beheren en beschermen. <br/><br/> Nalevingswaarschuwingen beheren.|
-|[**Compliance Score**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|De wettelijke nalevingsactiviteiten van uw organisatie bijhouden, toewijzen en verifiëren.|
+|[**Compliancebeheer**](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)|De wettelijke nalevingsactiviteiten van uw organisatie bijhouden, toewijzen en verifiëren.|
 |[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Gegevensbeheer uitvoeren. <br/><br/> Wettelijke en gegevensonderzoeken uitvoeren. <br/><br/> Verzoeken van gegevenssubjecten beheren.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Alle audit-gegevens van Intune weergeven.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Heeft alleen-lezen machtigingen en kan waarschuwingen beheren. <br/><br/> Kan bestandsbeleid maken en wijzigen en handelingen voor het beheren van bestanden goedkeuren. <br/><br/> Kan alle ingebouwde rapporten bekijken bij Gegevensbeheer.|
@@ -71,14 +74,14 @@ Gebruikers met deze rol hebben machtigingen voor het beheren van nalevingsfuncti
 
 ### <a name="compliance-data-administrator"></a>Beheerder van nalevingsgegevens
 
-Gebruikers met deze rol hebben machtigingen om gegevens te beveiligen en te volgen in het Microsoft 365-compliancecentrum, het Microsoft 365-beheercentrum en Azure. Gebruikers kunnen ook alle functies van het Exchange-beheercentrum, Compliance Score en Teams & Skype voor Bedrijven-beheercentrum beheren en ondersteuningstickets maken voor Azure en Microsoft 365.
+Gebruikers met deze rol hebben machtigingen om gegevens te beveiligen en te volgen in het Microsoft 365-compliancecentrum, het Microsoft 365-beheercentrum en Azure. Gebruikers kunnen ook alle functies van het Exchange-beheercentrum, Compliancebeheer en Teams & Skype voor Bedrijven-beheercentrum beheren en ondersteuningstickets maken voor Azure en Microsoft 365.
 
 ****
 
 |In deze service...|De gegevensbeheerder voor naleving kan...|
 |---|---|
 |[**Microsoft 365-compliancecentrum**](https://compliance.microsoft.com/)|De gegevens van uw organisatie in Microsoft 365-services beheren en beschermen. <br/><br/> Nalevingswaarschuwingen beheren. <br/><br/> Gevoeligheidslabels beheren|
-|[**Compliance Score**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|De wettelijke nalevingsactiviteiten van uw organisatie bijhouden, toewijzen en verifiëren.|
+|[**Compliancebeheer**](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)|De wettelijke nalevingsactiviteiten van uw organisatie bijhouden, toewijzen en verifiëren.|
 |[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Gegevensbeheer uitvoeren. <br/><br/> Wettelijke en gegevensonderzoeken uitvoeren. <br/><br/> Verzoeken van gegevenssubjecten beheren. <br/><br/> Gevoeligheidslabels beheren|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control) (binnenkort beschikbaar)|Alle audit-gegevens van Intune weergeven.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Alleen-lezen machtigingen gebruiken om informatie te bekijken. <br/>Waarschuwingen beheren. <br/><br/> Bestandsbeleid maken en wijzigen en handelingen voor het beheren van bestanden goedkeuren. <br/><br/> Alle ingebouwde rapporten bij Gegevensbeheer bekijken.|
@@ -173,7 +176,7 @@ Als u een gebruiker toewijst aan een van de beheerdersrollen voor naleving of be
 |Azure Active Directory (Azure AD) en Azure AD Identity Protection|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Azure Advanced Threat Protection|[Azure ATP-rolgroepen](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Compliance Score|[Compliance Score-rollen](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-setup#set-user-permissions-and-assign-roles)|
+|Compliancebeheer|[Compliancebeheer](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-setup#set-user-permissions-and-assign-roles)|
 |Exchange Online|[Toegangsbeheer in Exchange op basis van rollen](https://docs.microsoft.com/exchange/understanding-role-based-access-control-exchange-2013-help)|
 |Intune|[Toegangsbeheer in Intune op basis van rollen](https://docs.microsoft.com/intune/role-based-access-control)|
 |Managed Desktop|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|

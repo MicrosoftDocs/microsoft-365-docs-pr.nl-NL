@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-remotework
 ms.custom: ''
 description: Gebruik beveiligings- en complianceservices van Microsoft 365 om uw apps, gegevens en apparaten te beveiligen voor externe werknemers.
-ms.openlocfilehash: 223de710b924fc213e30fd9a6e246b3fec2344c0
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: f2743e9f7d2f102231531e7a9146a0f26727e1d4
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560461"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48200941"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Stap 3: Het implementeren van beveiliging en compliance voor externe werknemers
 
@@ -68,7 +68,7 @@ Voldoe aan interne beleidsregels of wettelijk voorgeschreven vereisten met deze 
 | Labels en beleid voor gegevensretentie | Implementeer informatiebeheer-besturingselementen, zoals hoe lang gegevens bewaard blijven en vereisten voor het opslaan van persoonlijke gegevens van klanten, om te voldoen aan het beleid of de gegevensvoorschriften van uw organisatie. | Microsoft 365 E3 of E5 |
 | Office-berichtversleuteling (OME) | Versleutelde e-mailberichten met gereguleerde gegevens, zoals persoonlijke gegevens van klanten, verzenden naar en ontvangen van personen binnen en buiten de organisatie. | Microsoft 365 E3 of E5 |
 | Compliancebeheer | Beheer van wettelijk voorgeschreven complianceactiviteiten met betrekking tot de cloudservices van Microsoft met dit hulpprogramma voor risicoanalyse op basis van werkstromen in het Service Trust Portal van Microsoft. | Microsoft 365 E3 of E5 |
-| Compliancescore (preview) | Bekijk een totaalscore van uw huidige complianceconfiguratie en aanbevelingen voor het verbeteren hiervan in het Microsoft 365 Compliance Center. | Microsoft 365 E3 of E5 |
+| Compliancebeheer | Bekijk een totaalscore van uw huidige complianceconfiguratie en aanbevelingen voor het verbeteren hiervan in het Microsoft 365 compliancecentrum. | Microsoft 365 E3 of E5 |
 | Communicatiecompliance  | Detecteer, onderschep en herstel ongepaste berichten in uw organisatie. | Microsoft 365 E5 of Microsoft 365 E3 met de invoegtoepassingen Compliance of Intern risicobeheer |
 | Intern risicobeheer |  Detecteer, onderzoek en onderneem actie op schadelijke en onbedoelde risico's in uw organisatie. Microsoft 365 kan dit soort risico's zelfs detecteren wanneer een werknemer een niet-beheerd apparaat gebruikt. | Microsoft 365 E5 of Microsoft 365 E3 met de invoegtoepassingen Compliance of Intern risicobeheer |
 ||||

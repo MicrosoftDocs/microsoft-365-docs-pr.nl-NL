@@ -498,6 +498,8 @@
               href: ./office-365-security/attack-simulator.md
             - name: Veilige documenten in Office 365 ATP
               href: ./office-365-security/safe-docs.md
+            - name: Gebruikerslabels in Office 365 ATP
+              href: ./office-365-security/user-tags.md
             - name: Bedreigingsverkenner (en realtime detecties)
               href: ./office-365-security/threat-explorer.md
               items:
