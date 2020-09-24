@@ -1,10 +1,10 @@
 ---
-title: Verschil tussen de wizard Setup en de pagina Setup
+title: Het verschil tussen de installatiewizard en de instellings pagina
 f1.keywords:
 - NOCSH
-ms.author: v-sharos
-author: shars
-manager: mnirkhe
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,53 +19,53 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: Meer informatie over het verschil tussen de wizard Setup en de pagina Setup.
-ms.openlocfilehash: eecc86b1d2a23ea2940a68c9edee3e33a5f5339e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Leer het verschil tussen de installatiewizard en de instellings pagina.
+ms.openlocfilehash: dd04920c1c686cd0082b0d3c11cc7869e5d3f4eb
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398856"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245923"
 ---
-# <a name="difference-between-the-setup-wizard-and-the-setup-page"></a>Verschil tussen de wizard Setup en de pagina Setup
+# <a name="difference-between-the-setup-wizard-and-the-setup-page"></a>Het verschil tussen de installatiewizard en de instellings pagina
 
-Microsoft 365 biedt twee installatie-ervaringen: 
+Microsoft 365 biedt twee installatiefuncties: 
 
-- Eerste instelling met de wizard Setup
-- Doorlopende en geavanceerde installatie met behulp van de pagina **Setup**
+- Eerste Setup met de wizard Setup
+- Voortdurende en geavanceerde configuratie via de pagina **Setup**
 
-De wizard Setup biedt een begeleide walkthrough voor het instellen van de basisconfiguratie van Microsoft 365. Nadat u de eerste installatie hebt voltooid, u naar de pagina **Setup** gaan om de services die bij uw abonnementen worden geleverd, te voltooien en te configureren.
+De installatiewizard biedt een stapsgewijze procedure voor het instellen van de basisconfiguratie voor Microsoft 365. Wanneer u klaar bent met het instellen van de installatie, gaat u naar de **installatie** pagina om het instellen en configureren van de services die bij uw abonnementen worden geleverd te voltooien.
 
-## <a name="use-the-setup-wizard-to-complete-initial-setup-tasks"></a>De wizard Setup gebruiken om de eerste installatietaken te voltooien
+## <a name="use-the-setup-wizard-to-complete-initial-setup-tasks"></a>De installatiewizard gebruiken om de eerste configuratietaken te voltooien
 
-Als u uw account wilt instellen, gaat u naar het [beheercentrum,](https://go.microsoft.com/fwlink/p/?linkid=2024339)selecteert u **Setup** in het linkernavigatiedeelvenster en selecteert u **Begeleide instelling** op de pagina **Setup.**
+Om uw account in te stellen, gaat u naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339)en selecteert u in het linker navigatiedeelvenster **instellingen** en vervolgens de instelling **begeleidt** u op de pagina **instellingen** .
 
-![De wizard Microsoft 365 Apps voor bedrijven instellen](../../media/o365b-guided-setup.png)
+![De installatiewizard van Microsoft 365-apps voor bedrijven starten](../../media/o365b-guided-setup.png)
 
-De wizard Setup leidt u door de volgende stappen:
+De wizard Setup begeleidt u door de volgende stappen:
 
 1. Installeer de Microsoft 365-apps op uw computer.
 
-2. Kies en verifieer uw domein, zoals contoso.com.
+2. Kies en verifieer uw domein, bijvoorbeeld contoso.com.
 
-3. Voeg nieuwe gebruikers toe en wijs licenties toe, zodat ze Microsoft 365-apps kunnen downloaden en installeren.
+3. Nieuwe gebruikers toevoegen en licenties toewijzen zodat ze Microsoft 365-apps kunnen downloaden en installeren.
 
 4. Verbind uw domein.
 
-## <a name="use-the-setup-page-to-complete-and-manage-your-configuration"></a>De pagina Setup gebruiken om uw configuratie te voltooien en te beheren
+## <a name="use-the-setup-page-to-complete-and-manage-your-configuration"></a>De installatiepagina gebruiken om uw configuratie te voltooien en te beheren
 
-Als u de pagina **Setup** in het [beheercentrum wilt](https://go.microsoft.com/fwlink/p/?linkid=2024339)openen, selecteert u **Setup** in het navigatiedeelvenster. Op basis van producten die u hebt gekocht, worden functies die u hebt ingesteld en uw beheerdersrol, taken en gerelateerde informatie van in microsoft 365 hier opgedoken.
+Als u toegang wilt krijgen tot de **instellings** pagina van het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339), selecteert u **instellen** in het navigatiedeelvenster. Op basis van producten die u hebt gekocht, functies die u hebt ingesteld, en uw beheerdersrol, taken en gerelateerde informatie uit Microsoft 365, worden hier de Opper kant weergeven.
 
-U ziet de volledige lijst met installatietaken die in logische categorieën zijn gerangschikt, inclusief de taken die u hebt voltooid in de installatiewizard.
+U ziet de volledige lijst met instellingen die zijn gerangschikt in logische categorieën, waaronder de taken die u hebt voltooid in de wizard Setup.
 
-![Pagina Microsoft 365 voor bedrijven instellen](../../media/o365b-setup-page.png)
+![Installatiepagina van Microsoft 365 voor bedrijven](../../media/o365b-setup-page.png)
 
-Kies **Weergave** voor elke taak om in één oogopslag informatie te krijgen, zoals taakbeschrijving, gebruikersimpact, vereisten, implementatie- en beveiligings- en adoptiestatistieken om u te helpen de gevolgen en impact te begrijpen voordat u verdergaat.
+Kies **weergeven** voor een taak om een overzicht te krijgen van informatie, zoals een beschrijving van de taak, de invloed van de gebruiker, de vereisten, de implementatie van de implementatie, en beveiligings-en acceptatie statistieken om u te helpen wat gevolgen en gevolgen zijn voordat u verdergaat.
 
-U ziet ook de status van de taak **(Gestart**, **Nog niet gestart**of **voltooid).** Als u multitaskt, gedurende meerdere dagen aan taken werkt of als er meerdere beheerders aan taken werken, u de voltooiing bijhouden door in één oogopslag te zien welke taken zijn voltooid en welke taken nog steeds aandacht vereisen. 
+U ziet ook de status van de taak (**gestart**, **nog niet gestart**of **voltooid**). Als u taken in meerdere werkdagen gebruikt, of als er meerdere beheerders aan taken werken, kunt u de voltooiing van de taak bijhouden door in één oogopslag te zien welke taken zijn voltooid en welke nog steeds aandacht vereist. 
 
-Selecteer een van de koppelingen **Meer informatie** voor toegang tot uitgebreide artikelen over de functies die u instelt. Het verzamelen van taken is altijd hier, zodat u op elk gewenst moment terugkeren naar de **pagina Setup** om bronnen verder te verkennen.
+Voor toegang tot uitgebreide artikelen over de functies die u instelt, selecteert u een van de koppelingen **meer informatie** . Als u een taak wilt uitvoeren, kunt u altijd teruggaan naar de **instellings** pagina.
 
-Wanneer u klaar bent om een taak te voltooien, selecteert u **Aan de slag** om het configuratieproces te doorlopen. Zodra u een taak hebt voltooid, wordt de knop **Aan de slag** gewijzigd in de knop **Beheren,** zodat u de taak zo nodig beheren.
+Wanneer u klaar bent om een taak te voltooien, selecteert u aan de **slag** om het configuratieproces te doorlopen. Als u een taak hebt voltooid, wordt de knop aan de **slag** in de knop **beheren** gewijzigd, zodat u de taak zo nodig kunt beheren.
 
-![Taakweergave met informatie in één oogopslag](../../media/o365b-at-a-glance.png)
+![Taakweergave met gegevens in een oogopslag](../../media/o365b-at-a-glance.png)

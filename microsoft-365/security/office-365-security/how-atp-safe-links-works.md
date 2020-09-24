@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: De functie voor veilige koppelingen biedt de optie voor het in-of uitschakelen van hyperlinks in Office-documenten en e-mailberichten. Lees dit artikel voor meer informatie over de werking van veilige koppelingen voor ATP.
-ms.openlocfilehash: 09357b20173e2609587137764737c8aba044190e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e19d3a1f93d11cd9873e6b5fad9952b018e0a481
+ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201463"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48245879"
 ---
 # <a name="how-atp-safe-links-works"></a>Hoe Veilige koppelingen in ATP werkt
 
@@ -30,7 +30,7 @@ ms.locfileid: "48201463"
 > [!IMPORTANT] 
 > Als u wilt dat Office 365 op de juiste manier werkt, moeten alle services dezelfde versie hebben.
          
-## <a name="how-atp-safe-links-works"></a>Hoe Veilige koppelingen in ATP werkt
+## <a name="how-atp-safe-links-works-with-urls-in-email"></a>De werking van veilige koppelingen met ATP en Url's via e-mail
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
  met Url's per e-mail
@@ -57,10 +57,7 @@ Met een hoog niveau gaat u als volgt te werk: een veilige beveiliging van [ATP](
     
    - Als u zeker weet dat de URL veilig is, wordt de website geopend.
     
-## <a name="how-atp-safe-links-works"></a>Hoe Veilige koppelingen in ATP werkt
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
- met Url's in Office-documenten 
+## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>De werking van veilige koppelingen met ATP en Url's in Office-documenten
 
 Met een hoog niveau gaat u als volgt te werk: een [veilige](atp-safe-links.md) beveiliging van de apps in microsoft 365-apps voor Enterprise-of Business Premium-toepassingen (actuele versies van Word, Excel en PowerPoint voor Windows, Mac of in een browser, Office-apps op een IOS-of Android-apparaat, Visio op Windows, OneNote in een browser):
   
