@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 319b26261f623a7e19e5bb8fbcd0b5d8a50d10a8
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: a76bae70adeb07d9ea0574a25bac14f89a0a790d
+ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289707"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262215"
 ---
 # <a name="device-configuration"></a>Apparaatconfiguratie
 
@@ -42,7 +42,7 @@ Implementatie bijwerken | Gebruik Windows Update voor bedrijven voor het uitvoer
 Verbindingen met datalimiet | Standaard worden updates via verbindingen met een datalimiet (zoals LTE-netwerken) uitgeschakeld, hoewel elke gebruiker deze functie onafhankelijk kan inschakelen bij **instellingen > updates > geavanceerde opties**. Als u wilt toestaan dat alle gebruikers updates kunnen inschakelen via verbindingen met een datalimiet, [dient u een wijzigingsaanvraag](../working-with-managed-desktop/admin-support.md)in te dienen, zodat deze instelling voor alle apparaten wordt ingeschakeld.
 | Apparaatcompatibiliteit | Deze beleidsregels zijn geconfigureerd voor alle beheerde bureaublad apparaten van Microsoft. Een apparaat wordt gemeld als niet-compatibel wanneer het afkomstig is van onze benodigde beveiligingsconfiguratie.
 
-## <a name="diagnostic-data"></a>Diagnostische gegevens
+## <a name="windows-diagnostic-data"></a>Diagnostische gegevens voor Windows
 
  Apparaten worden ingesteld om uitgebreide diagnostische gegevens aan Microsoft onder een bekende commerciële identificatie te geven. Als onderdeel van Microsoft Managed Desktop kunnen IT-beheerders deze instellingen niet wijzigen. Voor klanten in de algemene verordening gegevensbescherming (AVG), kunnen gebruikers het niveau van diagnostische gegevens verlagen, maar er is een minder service voor minder informatie. De gegevens die nodig zijn voor het nalopen van de instellingen en het beleid, kunnen niet door Microsoft worden beheerd. Zie [Windows diagnostische gegevens in uw organisatie configureren](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level) voor meer informatie.
 
