@@ -115,8 +115,6 @@
               href: azure-expressroute.md
             - name: Hoe moderne verificatie werkt voor Office 2013- en 2016 Office-clienttoepassingen
               href: modern-auth-for-office-2013-and-2016.md
-        - name: Samenwerking tussen verschillende tenants
-          href: microsoft-365-inter-tenant-collaboration.md
         - name: Ondersteuning voor client-apps
           items:
             - name: Op certificaat gebaseerde verificatie
@@ -271,8 +269,12 @@
       items:
         - name: Een domein toevoegen
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
-        - name: Installatiehandleidingen
-          href: setup-guides-for-microsoft-365.md
+    - name: Meerdere tenants
+      items:
+        - name: Samenwerking tussen verschillende tenants
+          href: microsoft-365-inter-tenant-collaboration.md
+        - name: Migratie van postvakken tussen tenants
+          href: cross-tenant-mailbox-migration.md
     - name: Multi-geo
       items:
         - name: Microsoft 365 Multi-Geo
@@ -358,6 +360,8 @@
           href: prepare-a-non-routable-domain-for-directory-synchronization.md
         - name: Adreslijstsynchronisatie instellen
           href: set-up-directory-synchronization.md
+        - name: Beveiligde gebruikersaanmelding
+          href: microsoft-365-secure-sign-in.md
         - name: Hybride oplossingen
           items:
             - name: Overzicht

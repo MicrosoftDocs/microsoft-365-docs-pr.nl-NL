@@ -14,6 +14,8 @@
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: Beveiliging en compliance plannen in Office 365
       href: plan-for-security-and-compliance.md
+    - name: Compliance-uitbreidbaarheid
+      href: compliance-extensibility.md
 - name: Insider-risico's beheren
   items:
     - name: Intern risicobeheer
@@ -258,6 +260,8 @@
               href: retention-policies-sharepoint.md
             - name: Retentie voor Microsoft Teams
               href: retention-policies-teams.md
+            - name: Retentie voor Yammer
+              href: retention-policies-yammer.md
             - name: Retentie voor Exchange
               href: retention-policies-exchange.md
         - name: Aan de slag met retentie
@@ -310,8 +314,52 @@
               href: archive-instant-bloomberg-data.md
             - name: LinkedIn
               href: archive-linkedin-data.md
+            - name: Gegevens van fysieke badges
+              href: import-physical-badging-data.md
             - name: Twitter
               href: archive-twitter-data-with-sample-connector.md
+        - name: Globanet-gegevensconnectors
+          items:
+            - name: EML
+              href: archive-eml-data.md
+            - name: FX Connect
+              href: archive-fxconnect-data.md
+            - name: Reuters Eikon
+              href: archive-reuterseikon-data.md
+            - name: Slack
+              href: archive-slack-data.md
+            - name: Symphony
+              href: archive-symphony-data.md
+            - name: Tekst met scheidingstekens
+              href: archive-text-delimited-data.md
+            - name: WebEx Teams
+              href: archive-webexteams-data.md
+            - name: Workplace van Facebook
+              href: archive-workplacefromfacebook-data.md
+            - name: Zoom Meetings
+              href: archive-zoommeetings-data.md
+            - name: Slack
+              href: archive-slack-data.md
+            - name: Zoom Meetings
+              href: archive-zoommeetings-data.md
+        - name: TeleMessage-gegevensconnectors
+          items:
+            - name: Android
+              href: archive-android-archiver-data.md
+            - name: AT&T-netwerk
+              href: archive-att-network-archiver-data.md
+            - name: Bell-netwerk
+              href: archive-bell-network-data.md
+            - name: Ondernemingsnummer
+              href: archive-enterprise-number-data.md
+            - name: O2-netwerk
+              href: archive-o2-network-data.md
+            - name: TELUS-netwerk
+              href: archive-telus-network-data.md
+            - name: Verizon-netwerk
+              href: archive-verizon-network-data.md
+            - name: WhatsApp
+              href: archive-whatsapp-data.md
         - name: Werken met een partner voor het archiveren van gegevens van derden
           href: work-with-partner-to-archive-third-party-data.md
         - name: Gegevens van derden zoeken
@@ -794,31 +842,30 @@
       href: alert-policies.md
 - name: Compliancerisico's beheren
   items:
+    - name: Compliancebeheer
+      items:
+        - name: Meer informatie over Compliancebeheer
+          href: compliance-manager.md
+        - name: Snelstartgids voor Compliancebeheer
+          href: compliance-manager-quickstart.md
+        - name: Aan de slag met Compliancebeheer
+          href: compliance-manager-setup.md
+        - name: Evaluaties maken en beheren
+          href: compliance-manager-assessments.md
+        - name: Werken met evaluatiesjablonen
+          href: compliance-manager-templates.md
+        - name: Lijst met sjablonen voor Compliancebeheer
+          href: compliance-manager-templates-list.md
+        - name: Acties voor verbetering toewijzen en voltooien
+          href: compliance-manager-improvement-actions.md
+        - name: Hoe uw compliancescore wordt berekend
+          href: compliance-score-calculation.md
+        - name: Veelgestelde vragen
+          href: compliance-manager-faq.md
+        - name: Compliancebeheer (klassiek)
+          href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Microsoft Service Trust Portal
       href: get-started-with-service-trust-portal.md
-    - name: Compliancescore en compliancebeheer (preview)
-      items:
-        - name: Compliancescore (preview)
-          href: compliance-score.md
-        - name: Compliancescore instellen
-          href: compliance-score-setup.md
-        - name: Compliancescore aanpassen met beoordelingen
-          href: compliance-score-assessments.md
-        - name: Werk met verbeteracties toewijzen en uitvoeren
-          href: compliance-score-improvement-actions.md
-        - name: Berekening van de score
-          href: compliance-score-methodology.md
-        - name: Veelgestelde vragen
-          href: compliance-score-faq.md
-        - name: Compliancebeheer (preview)
-          href: compliance-manager-overview.md
-          items:
-            - name: Wat is er nieuw in compliancebeheer (preview)
-              href: compliance-manager-release-notes.md
-            - name: Werken met compliancebeheer (preview)
-              href: working-with-compliance-manager.md
-            - name: Compliancebeheer (klassiek)
-              href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Hulpprogramma voor AVG-verzoeken van betrokkenen
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
     - name: Office 365 Information Protection voor de AVG
