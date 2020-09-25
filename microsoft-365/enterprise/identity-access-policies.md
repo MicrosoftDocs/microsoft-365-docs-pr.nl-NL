@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 1512ba01f78d901177254fce86d0154e97e36496
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 6a8ab25a1bce4355e63482b8450412884a9f0faf
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950786"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269403"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -169,6 +169,8 @@ Kies **selecteren** om de **machtigings** instellingen op te slaan.
 Selecteer ten slotte het selectievakje **ingeschakeld** voor het **beleid inschakelen**en kies vervolgens **maken**.
 
 U kunt ook het hulpmiddel [Wat als](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) gebruiken om het beleid te testen.
+
+Voor Exchange Online kunt u authenticatiebeleid gebruiken om [Basisverificatie uit te schakelen](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online), waardoor alle aanvragen voor clienttoegang worden gebruikt voor moderne verificatie.
 
 ## <a name="high-risk-users-must-change-password"></a>Gebruikers met een hoog risico moeten het wachtwoord wijzigen
 
