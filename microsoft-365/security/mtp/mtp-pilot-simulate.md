@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f7d00575a0a5757f0662c07e727d7166d571e2ca
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8d4eb6cedbfa9a74eccdbb94e71f9eb32189ccbb
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201193"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277547"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Simulaties van aanvallen van Microsoft Threat Protection uitvoeren  
 
@@ -48,7 +48,7 @@ Tijdens de simulatie injecteert de aanval shellcode in een schijnbaar onschuldig
 
 Aangezien u de testomgeving al hebt geconfigureerd tijdens de voorbereidende fase, moet u ervoor zorgen dat u twee apparaten hebt voor dit scenario: een testapparaat en een domeincontroller.
 
-1.  Controleer of uw Tenant [bescherming](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service)heeft.
+1.  Controleer of uw Tenant [Microsoft Threat Protection heeft ingeschakeld](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
 2.  Controleer de configuratie van de domeincontroller voor testen:
     - Apparaat wordt uitgevoerd met Windows Server 2008 R2 of een latere versie.
     - De test domeincontroller naar [Azure Advanced Threat Protection](https://docs.microsoft.com/azure/security-center/security-center-wdatp) en schakelt [extern beheer](https://docs.microsoft.com/windows-server/administration/server-manager/configure-remote-management-in-server-manager)in.    

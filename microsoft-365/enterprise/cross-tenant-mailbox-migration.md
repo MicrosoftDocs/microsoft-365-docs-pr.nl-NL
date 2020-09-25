@@ -1,5 +1,5 @@
 ---
-title: Migratie van e-mailberichten tussen tenants
+title: Migratie van postvakken tussen tenants
 description: Postvakken verplaatsen tussen Microsoft 365-of Office 365-tenants.
 ms.author: josephd
 author: JoeDavies-MSFT
@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f649a72dc5569e8aec46347df295aa3ff9d93613
-ms.sourcegitcommit: 327163f70eac0de568ebe3c9a97a744c3ed408cb
+ms.openlocfilehash: 06a82fda31e602ed2feb53d00e8839daf801bf7e
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177147"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277493"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van cross-Tenant postvak (preview)
 
@@ -57,12 +57,12 @@ Als u de Tenant-ID van een abonnement wilt verkrijgen, meldt u zich aan bij het 
 
 Dit is de werking van het proces.
 
-:::image type="content" source="../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg" alt-text="Tenant voorbereiding voor migratie van postvakken.":::
+:::image type="content" source="../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png" alt-text="Tenant voorbereiding voor migratie van postvakken.":::
 
 <!--
-[![Tenant preparation for mailbox migration](../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg)
+[![Tenant preparation for mailbox migration](../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png)
 
-[See a larger version of this image](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.svg).
+[See a larger version of this image](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png).
 --> 
 
 ### <a name="prepare-tenants"></a>Tenants voorbereiden
@@ -162,11 +162,11 @@ De installatie van doel beheerders is nu voltooid.
 
 1.  Meld u aan bij uw postvak als het ResourceTenantAdminEmail dat door de doel beheerder is opgegeven tijdens de installatie. Zoek de e-mail uitnodiging van de doel Tenant en selecteer vervolgens de knop **aan de slag** .
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="Het dialoogvenster invided":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/invited-by-target-tenant.png" alt-text="U bent uitgenodigd voor het dialoogvenster":::
 
 2. Selecteer **accepteren** om de uitnodiging te accepteren.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Dialoogvenster voor het accepteren van machtigingen voor":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="Dialoogvenster voor het accepteren van machtigingen":::
 
    > [!NOTE]
    > Als u dit e-mailbericht niet ontvangt of als u het niet kunt vinden, wordt de doel tenantbeheerder een directe URL gegeven waarnaar u de uitnodiging kunt accepteren. De URL moet in de naam van de externe PowerShell-sessie van de doel tenantbeheerder staan.

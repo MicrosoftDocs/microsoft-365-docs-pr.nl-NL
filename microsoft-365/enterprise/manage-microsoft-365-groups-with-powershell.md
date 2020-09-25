@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
 description: In dit artikel vindt u informatie over het uitvoeren van algemene beheertaken voor Microsoft 365-groepen in PowerShell.
-ms.openlocfilehash: a02990b2890d9fdfd523209e1d912aafdaeac091
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: c1aa551597644b7f41c3445a791ea27579464f7b
+ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547924"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277481"
 ---
 # <a name="manage-microsoft-365-groups-with-powershell"></a>Microsoft 365-groepen beheren met PowerShell
 
@@ -64,16 +64,16 @@ Add-RecipientPermission -Identity $groupsRecipientDetails.Name -Trustee $userAli
 
 Nadat de cmdlet is uitgevoerd, kunnen gebruikers naar Outlook of de webversie van Outlook gaan om als groep e-mail te verzenden door het e-mailadres van de groep toe te voegen aan het veld **van** .
 
-## <a name="create-classifications-for-office-groups-in-your-organization"></a>Classificaties maken voor Office-groepen in uw organisatie
+## <a name="create-classifications-for-microsoft-365-groups-in-your-organization"></a>Classificaties maken voor Microsoft 365-groepen in uw organisatie
 
 U kunt met de gebruikers in uw organisatie tekstlabels labels maken die door gebruikers in uw organisatie worden ingesteld wanneer ze een Microsoft 365-groep maken. Als u groepen wilt classificeren, raden we u aan om beschikbare palletlabels te gebruiken in plaats van de eerdere classificatiefunctie voor groepen. Zie voor meer informatie over het gebruik van tekstlabels labels [gebruiken om de inhoud in Microsoft teams, Microsoft 365-groepen en SharePoint-sites te beveiligen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!IMPORTANT]
 > Als u momenteel classificatie labels gebruikt, zijn deze niet langer beschikbaar voor gebruikers die groepen maken wanneer de functie gevoelige labels zijn ingeschakeld.
 
-U kunt nog steeds de eerdere classificatiefunctie voor groepen gebruiken. U kunt classificaties maken die gebruikers in uw organisatie kunnen instellen wanneer ze een Office 365-groep maken. U kunt bijvoorbeeld instellen dat gebruikers ' standaard ', ' Secret ' en ' beste geheim ' kunnen instellen voor groepen die ze maken. Groeps classificaties worden niet standaard ingesteld en u moet deze maken om de gebruikers in te stellen. Gebruik Azure Active Directory PowerShell om uw gebruikers te laten verwijzen naar de gebruiks richtlijnen van uw organisatie voor Office 365-groepen.
+U kunt nog steeds de eerdere classificatiefunctie voor groepen gebruiken. U kunt classificaties maken die gebruikers in uw organisatie kunnen instellen wanneer ze een Microsoft 365-groep maken. U kunt bijvoorbeeld instellen dat gebruikers ' standaard ', ' Secret ' en ' beste geheim ' kunnen instellen voor groepen die ze maken. Groeps classificaties worden niet standaard ingesteld en u moet deze maken om de gebruikers in te stellen. Gebruik Azure Active Directory PowerShell om uw gebruikers te laten verwijzen naar de gebruiks richtlijnen van uw organisatie voor Microsoft 365 groepen.
 
-Ga naar [Azure Active Directory-cmdlets voor het configureren van de groepsinstellingen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets) en volg de stappen in het venster **instellingen voor maken** om de classificatie voor Office 365-groepen te definiëren.
+Ga naar [Azure Active Directory-cmdlets voor het configureren van de groepsinstellingen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets) en volg de stappen in het venster **instellingen voor maken** om de classificatie voor Microsoft 365-groepen te definiëren.
 
 ```powershell
 $setting["ClassificationList"] = "Low Impact, Medium Impact, High Impact"
@@ -109,21 +109,21 @@ Zie [Using PowerShell with Exchange Online](https://docs.microsoft.com/powershel
 
 Nadat deze instellingen zijn ingeschakeld, kunnen de groepseigenaar een classificatie kiezen in de vervolgkeuzelijst in de webversie van Outlook en Outlook, en deze opslaan via de paginagroep **bewerken** .
 
-![Kies Office 365-groeps classificatie](../media/f8d4219a-6180-491d-b0e1-4313ac83998b.png)
+![Kies Microsoft 365-groeps classificatie](../media/f8d4219a-6180-491d-b0e1-4313ac83998b.png)
 
-## <a name="hide-office-365-groups-from-gal"></a>Office 365 groepen verbergen in de algemene adreslijst
+## <a name="hide-microsoft-365-groups-from-the-global-address-list"></a>Microsoft 365 groepen verbergen in de algemene adreslijst.
 <a name="BKMK_CreateClassification"> </a>
 
-U kunt opgeven of een Office 365-groep moet worden weergegeven in de algemene adreslijst (GAL) en in de andere lijsten van uw organisatie. Als u bijvoorbeeld een juridische afdeling hebt die u niet wilt weergeven in de adreslijst, kunt u ervoor zorgen dat de groep niet meer wordt weergegeven in de algemene adreslijst. Voer de cmdlet Set-Unified Group uit om de groep van de adreslijst te verbergen, zoals hier:
+U kunt opgeven of een Microsoft 365-groep moet worden weergegeven in de algemene adreslijst (GAL) en in de andere lijsten van uw organisatie. Als u bijvoorbeeld een juridische afdeling hebt die u niet wilt weergeven in de adreslijst, kunt u ervoor zorgen dat de groep niet meer wordt weergegeven in de algemene adreslijst. Voer de cmdlet Set-Unified Group uit om de groep te verbergen in de adreslijst, zoals hier:
 
 ```powershell
 Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $true
 ```
 
-## <a name="allow-only-internal-users-to-send-message-to-office-365-group"></a>Instellen dat alleen interne gebruikers berichten mogen verzenden naar de Office 365-groep
+## <a name="allow-only-internal-users-to-send-message-to-microsoft-365-groups"></a>Instellen dat alleen interne gebruikers berichten mogen verzenden naar Microsoft 365-groepen
 <a name="BKMK_CreateClassification"> </a>
 
-Als u niet wilt dat gebruikers van andere organisaties e-mail verzenden naar een Office 365-groep, kunt u de instellingen voor die groep wijzigen. Met deze optie kunnen alleen interne gebruikers een e-mailbericht sturen naar uw groep. Als externe gebruiker probeert een bericht naar die groep te verzenden, worden ze geweigerd.
+Als u niet wilt dat gebruikers van andere organisaties een e-mailbericht verzenden naar een Microsoft 365-groep, kunt u de instellingen voor die groep wijzigen. Met deze optie kunnen alleen interne gebruikers een e-mailbericht sturen naar uw groep. Als een externe gebruiker een bericht naar die groep probeert te sturen, wordt dit genegeerd.
 
 Voer de cmdlet Set-UnifiedGroup uit om deze instelling bij te werken, zoals hier:
 
@@ -131,10 +131,10 @@ Voer de cmdlet Set-UnifiedGroup uit om deze instelling bij te werken, zoals hier
 Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationEnabled $true
 ```
 
-## <a name="add-mailtips-to-the-office-365-groups"></a>MailTips toevoegen aan de Office 365-groepen
+## <a name="add-mailtips-to-microsoft-365-groups"></a>MailTips toevoegen aan Microsoft 365-groepen
 <a name="BKMK_CreateClassification"> </a>
 
-Wanneer een afzender een e-mailbericht naar een Office 365-groep wil verzenden, kan er een MailTip worden weergegeven.
+Wanneer een afzender een e-mailbericht naar een Microsoft 365-groep wil verzenden, kan er een MailTip worden weergegeven.
 
 Voer de cmdlet Set-Unified Group uit om een mailTip aan de groep toe te voegen:
 
@@ -148,18 +148,18 @@ Met MailTip kunt u ook MailTipTranslations instellen, wat extra talen voor de Ma
 Set-UnifiedGroup -Identity "MailaTip Group" -MailTip "This group has a MailTip" -MailTipTranslations "@{Add="ES:Esta caja no se supervisa."
 ```
 
-## <a name="change-display-name-of-the-office-365-group"></a>De weergavenaam van de Office 365-groep wijzigen
+## <a name="change-the-display-name-of-the-microsoft-365-group"></a>De weergavenaam van de Microsoft 365-groep wijzigen
 
-Weergavenaam geeft de naam van de Office 365-groep aan. U kunt deze naam zien in uw Exchange Admin Center of het Microsoft 365-Beheercentrum. U kunt de weergavenaam van de groep wijzigen of een weergavenaam toewijzen aan een bestaande Office 365-groep door de opdracht set-UnifiedGroup uit te voeren:
+De weergavenaam geeft de naam van de Microsoft 365-groep aan. U kunt deze naam zien in uw Exchange Admin Center of het Microsoft 365-Beheercentrum. U kunt de weergavenaam van de groep wijzigen of een weergavenaam toewijzen aan een bestaande groep Microsoft 365 door de opdracht set-UnifiedGroup uit te voeren:
 
 ```powershell
 Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
 ```
 
-## <a name="change-the-default-setting-of-office-365-groups-for-outlook-to-public-or-private"></a>De standaardinstelling voor Office 365-groepen voor Outlook wijzigen in openbaar of privé
+## <a name="change-the-default-setting-of-microsoft-365-groups-for-outlook-to-public-or-private"></a>De standaardinstelling voor Microsoft 365 groepen voor Outlook wijzigen van openbaar naar persoonlijk
 <a name="BKMK_CreateClassification"> </a>
 
-Office 365-groepen in Outlook worden standaard als privé gemaakt. Als uw organisatie Office 365-groepen standaard wil maken (of terug naar privé), gebruikt u deze syntaxis voor de PowerShell-cmdlet:
+Microsoft 365-groepen in Outlook worden standaard als privé gemaakt. Als uw organisatie Microsoft 365-groepen wil maken als standaard publiek (of terug naar privé), gebruikt u deze syntaxis voor de PowerShell-cmdlet:
 
  `Set-OrganizationConfig -DefaultGroupAccessType Public`
 
@@ -173,29 +173,29 @@ Ga als volgt te werk om de instelling te controleren:
 
 Zie [set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) en [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig)voor meer informatie.
 
-## <a name="office-365-groups-cmdlets"></a>Cmdlets voor Office 365-groepen
+## <a name="microsoft-365-groups-cmdlets"></a>Cmdlets voor Microsoft 365-groepen
 
-De volgende cmdlets kunnen worden gebruikt met Office 365-groepen.
+De volgende cmdlets kunnen worden gebruikt met Microsoft 365 groepen.
 
 |**Naam van cmdlet**|**Beschrijving**|
 |:-----|:-----|
-|[Get-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616182) <br/> |Gebruik deze cmdlet om bestaande Office 365-groepen te zoeken en om eigenschappen van het groepsobject te bekijken.  <br/> |
-|[Set-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616189) <br/> |De eigenschappen van een bepaalde Office 365-groep bijwerken  <br/> |
-|[New-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |Een nieuwe Office 365-groep maken. Deze cmdlet biedt een minimale set parameters voor het instellen van waarden voor uitgebreide eigenschappen met set-UnifiedGroup nadat u de nieuwe groep hebt gemaakt.  <br/> |
-|[Remove-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616186) <br/> |Een bestaande Office 365-groep verwijderen  <br/> |
-|[Get-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616194) <br/> |Informatie voor lidmaatschap en eigenaar ophalen voor een Office 365-groep  <br/> |
-|[Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |Honderden of duizenden gebruikers, of nieuwe eigenaren, toevoegen aan een bestaande Office 365-groep  <br/> |
-|[Remove-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616195) <br/> |Leden en eigenaren verwijderen uit een bestaande Office 365-groep  <br/> |
+|[Get-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616182) <br/> |Gebruik deze cmdlet om bestaande Microsoft 365-groepen te zoeken en om eigenschappen van het groepsobject te bekijken.  <br/> |
+|[Set-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616189) <br/> |De eigenschappen van een bepaalde Microsoft 365-groep bijwerken  <br/> |
+|[New-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |Maak een nieuwe groep Microsoft 365. Deze cmdlet biedt een minimale set parameters. Voor het instellen van waarden voor uitgebreide eigenschappen gebruikt u set-UnifiedGroup nadat u de nieuwe groep hebt gemaakt.  <br/> |
+|[Remove-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616186) <br/> |Een bestaande Microsoft 365-groep verwijderen  <br/> |
+|[Get-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616194) <br/> |Gegevens voor lidmaatschap en eigenaar ophalen voor een Microsoft 365-groep  <br/> |
+|[Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |Honderden of duizenden gebruikers, of nieuwe eigenaren, toevoegen aan een bestaande Microsoft 365-groep  <br/> |
+|[Remove-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616195) <br/> |Leden en eigenaren verwijderen uit een bestaande Microsoft 365-groep  <br/> |
 |[Get-UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536510) <br/> |Wordt gebruikt om informatie weer te geven over de foto van een gebruiker die is gekoppeld aan een account. Foto's van gebruikers worden opgeslagen in Active Directory  <br/> |
 |[Set-UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536511) <br/> |Wordt gebruikt om een gebruikers foto aan een account te koppelen. Foto's van gebruikers worden opgeslagen in Active Directory  <br/> |
-|[Remove-UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536512) <br/> |De foto voor een Office 365-groep verwijderen  <br/> |
+|[Remove-UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536512) <br/> |De foto voor een Microsoft 365-groep verwijderen  <br/> |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Distributielijsten upgraden naar Office 365-groepen](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
+[Distributielijsten upgraden naar Microsoft 365-groepen](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 
-[Beheren wie Office 365-groepen kunnen maken](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
+[Beheren wie Microsoft 365-groepen kunnen maken](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
 
-[Gasttoegang tot Office 365-groepen beheren](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[Gasttoegang tot Microsoft 365-groepen beheren](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Dynamisch groepslidmaatschap wijzigen in](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)
