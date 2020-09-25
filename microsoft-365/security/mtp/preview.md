@@ -1,7 +1,7 @@
 ---
-title: Voorbeeldfuncties in Microsoft Threat Protection
+title: Preview-functies in Microsoft Threat Protection
 description: Meer informatie over nieuwe functies in Microsoft 365-beveiliging
-keywords: voorbeeld, nieuwe, m365 beveiliging, beveiliging, 365, mogelijkheden
+keywords: voorbeeld, nieuw, m365-beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.openlocfilehash: f01f76ac591b4c2be9873fa87ec416939158acd3
 ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48195501"
 ---
-# <a name="microsoft-threat-protection-preview-features"></a>Preview-functies voor Microsoft Threat Protection
+# <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection-preview-functies
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,33 +35,33 @@ ms.locfileid: "48195501"
 - Microsoft Threat Protection
 
 
-De Microsoft Threat Protection-Service wordt voortdurend bijgewerkt en bevat nieuwe functieverbeteringen en mogelijkheden.
+De Microsoft Threat Protection-service wordt voortdurend bijgewerkt met nieuwe functieverbeteringen en mogelijkheden.
 
-Lees meer over de nieuwe functies in de preview-versie van Microsoft Threat Protection en wees onder de eerste om de functie voorbeeld te proberen.
+Lees meer over nieuwe functies in de preview-release van Microsoft Threat Protection en wees een van de eersten om nieuwe functies uit te proberen door het inschakelen van de preview-ervaring.
 
-Zie [nieuwe functies in Microsoft Threat Protection](whats-new.md)voor meer informatie over de nieuwe functies die algemeen beschikbaar zijn.
+Voor meer informatie over nieuwe functies die algemeen beschikbaar zijn, raadpleegt u [Wat is er nieuw in Microsoft Threat Protection](whats-new.md).
 
-## <a name="turn-on-preview-features"></a>Voorbeeldfuncties inschakelen
-U hebt toegang tot aanstaande functies waarmee u feedback kunt geven om de algemene ervaring te verbeteren voordat functies algemeen beschikbaar zijn.
+## <a name="turn-on-preview-features"></a>Preview-functies inschakelen
+U krijgt toegang tot nieuwe functies die u kunt voorzien van feedback om te helpen de algehele ervaring te verbeteren voordat functies algemeen beschikbaar komen.
 
-Schakel de optie voorbeeld van de ervaring in op de eerste manier om de volgende functies uit te proberen.
+Schakel de preview-ervaringsinstelling in om een van de eersten te zijn om nieuwe functies uit te proberen.
 
-1. Selecteer in het navigatiedeelvenster **instellingen**.
+1. Kies **Instellingen** in het navigatiedeelvenster.
 
-2. Selecteer **Microsoft Threat Protection**.
+2. Kies **Microsoft Threat Protection**.
 
 
-3. Selecteer **Voorbeeldfuncties**om  >  **Voorbeeldfuncties in te schakelen**. 
+3. Kies **Preview-functies** > **Preview-functies inschakelen**. 
 
-3. Selecteer **Opslaan**.
+3. Kies **Opslaan**.
 
-U weet dat u de preview-functies hebt ingeschakeld wanneer u het selectievakje **Voorbeeldfuncties inschakelen** hebt ingeschakeld. 
+U weet dat u preview-functies hebt ingeschakeld wanneer u ziet dat het selectievakje **Preview-functies inschakelen** is aangevinkt. 
 
-## <a name="preview-features"></a>Voorbeeldfuncties
+## <a name="preview-features"></a>Preview-functies
 De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-versie:
 
-- **[Microsoft Threat Protection-api's](api-overview.md)** : met de Microsoft-Api's voor Microsoft Threat Protection kunt u werkstromen automatiseren op basis van de gedeelde incident en de geavanceerde jacht tabellen. 
-- **[IdentityDirectoryEvents-tabel in geavanceerde jacht](advanced-hunting-identitydirectoryevents-table.md)** : vind gebeurtenissen met een on-premises domeincontroller waarop Active Directory (AD) wordt uitgevoerd. Deze tabel omvat een bereik van gebeurtenissen die betrekking hebben op de identiteit en de systeemgebeurtenissen op de domeincontroller.
-- **[Onderneem actie in de geavanceerde jacht](advanced-hunting-take-action.md)** en bevat snel bedreigingen of compromisloze activa die u vindt in de [geavanceerde jacht](advanced-hunting-overview.md).
-- Naslaginformatie over de **[Portal van het portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** : informatie over geavanceerde jacht schema tabellen rechtstreeks in het Beveiligingscentrum. Naast beschrijvingen van tabellen en kolommen biedt deze handige naslaginformatie over ondersteunde gebeurtenistypen ( `ActionType` waarden) en voorbeeldquery's.
+- **[Microsoft Threat Protection-API's](api-overview.md)** - Met Microsoft Threat Protection-API's van topniveau kunt u werkstromen automatiseren op basis van de tabellen Gedeeld incident en Geavanceerde opsporing. 
+- **[IdentityDirectoryEvents-tabel in Geavanceerde opsporing](advanced-hunting-identitydirectoryevents-table.md)** - Vind gebeurtenissen met een on-premises domeincontroller met Active Directory (AD). Deze tabel bevat een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller.
+- **[Actie ondernemen in Geavanceerde opsporing](advanced-hunting-take-action.md)** - Snel bedreigingen indammen of aangetaste bronnen aanpakken die u vindt in [Geavanceerde opsporing](advanced-hunting-overview.md).
+- **[In-portal schemareferentie](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** - Hier vindt u informatie over Geavanceerde opsporing-schematabellen rechtstreeks in het beveiligingscentrum. Naast de tabel- en kolombeschrijvingen biedt deze handige referentie informatie over ondersteunde gebeurtenistypen (`ActionType`-waarden) en voorbeeldquery's.
 
