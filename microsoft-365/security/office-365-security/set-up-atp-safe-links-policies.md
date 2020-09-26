@@ -17,24 +17,23 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Stel beleidsregels voor veilige koppelingen in om uw organisatie te beschermen tegen kwaadaardige koppelingen in Word-, Excel-, PowerPoint-en Visio-bestanden, evenals e-mailberichten.
-ms.openlocfilehash: 8c72473a9b1337e1d932ec7235ed12e79f0c48f6
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 76d0aba026b96251a64163ef7d7f518fe0b1e1b1
+ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201757"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48279578"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Beleidsregels voor veilige koppelingen in Office 365 instellen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over veilige koppelingen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-[Veilige koppelingen voor ATP](atp-safe-links.md), een functie van [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP), kan u helpen uw organisatie te beschermen tegen kwaadaardige koppelingen die worden gebruikt in phishing en andere aanvallen. Als u over de benodigde [machtigingen beschikt voor het nalevings centrum voor de beveiliging &](permissions-in-the-security-and-compliance-center.md), kunt u het beleid voor veilige koppelingen van ATP instellen om ervoor te zorgen dat wanneer mensen op webadressen (url's) klikken, uw organisatie is beveiligd. Uw beleidsregels voor veilige koppelingen voor Office kunnen worden geconfigureerd voor het scannen van Url's in e-mail en Url's in Office-documenten.
+[Veilige koppelingen voor ATP](atp-safe-links.md) is een functie in [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) die uw organisatie kan helpen beschermen tegen kwaadwillende koppelingen die worden gebruikt in phishing en andere aanvallen. Als u over de benodigde [machtigingen beschikt voor het nalevings centrum voor de beveiliging &](permissions-in-the-security-and-compliance-center.md), kunt u het beleid voor veilige koppelingen van ATP instellen om ervoor te zorgen dat wanneer mensen op webadressen (url's) klikken, uw organisatie is beveiligd. Uw beleidsregels voor veilige koppelingen voor Office kunnen worden geconfigureerd voor het scannen van Url's in e-mail en Url's in Office-documenten. Met bekoppelinge ATP wordt binnenkomende e-mail gecontroleerd op bekende, schadelijke hyperlinks en bijlagen met malware. Met deze functie worden gescande Url's opnieuw geschreven naar het standaardvoorvoegsel voor URL'S van Microsoft <https://nam01.safelinks.protection.outlook.com> . Wanneer een koppeling is herschreven, wordt deze geanalyseerd voor potentiële schadelijke inhoud. Wanneer een gebruiker een e-mailbericht op een koppeling in een e-mailbericht op een koppeling in een e-mailbericht klikt, wordt de pagina met geblokkeerde URL'S van de organisatie geblokkeerd, of als de URL is vastgesteld om schadelijk te zijn, wordt een waarschuwingspagina geopend.
 
-Wanneer een gebruiker een e-mailbericht op een koppeling in een e-mailbericht op een koppeling in een e-mailbericht klikt, wordt de pagina met geblokkeerde URL'S van de organisatie geblokkeerd, of als de URL is vastgesteld om schadelijk te zijn, wordt een waarschuwingspagina geopend.
+Wanneer de veilige koppelingen van ATP een URL hebben herschreven, worden de URL'S opnieuw gewijzigd als het bericht wordt doorgestuurd of beantwoord. Aanvullende koppelingen die zijn toegevoegd aan het bericht dat wordt beantwoord of doorgestuurd, worden niet opnieuw geschreven.
 
 [Nieuwe functies worden continu toegevoegd aan ATP](office-365-atp.md#new-features-in-office-365-atp). Wanneer nieuwe functies worden toegevoegd, moet u mogelijk de bestaande beleidsregels voor veilige koppelingen van de toepassing aanpassen.
 
