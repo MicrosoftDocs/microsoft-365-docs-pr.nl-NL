@@ -269,6 +269,8 @@
       items:
         - name: Een domein toevoegen
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+        - name: Installatiehandleidingen
+          href: setup-guides-for-microsoft-365.md
     - name: Meerdere tenants
       items:
         - name: Samenwerking tussen verschillende tenants
@@ -355,38 +357,40 @@
         - name: Alleen cloudidentiteit
           href: cloud-only-identities.md
         - name: Hybride identiteit
-          href: prepare-for-directory-synchronization.md
-        - name: Het voorbereiden van een niet-routeerbaar domein voor adreslijstsynchronisatie
-          href: prepare-a-non-routable-domain-for-directory-synchronization.md
-        - name: Adreslijstsynchronisatie instellen
-          href: set-up-directory-synchronization.md
-        - name: Beveiligde gebruikersaanmelding
-          href: microsoft-365-secure-sign-in.md
-        - name: Hybride oplossingen
           items:
-            - name: Overzicht
-              href: hybrid-solutions.md
-            - name: Azure Active Directory voor SharePoint Server 2016-verificatie gebruiken
-              href: using-azure-ad-for-sharepoint-server-authentication.md
-            - name: Een on-premises netwerk verbinden met een virtueel Azure-netwerk
-              href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
-            - name: Een adreslijstsynchronisatieserver implementeren in Azure laaS
-              href: deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md
-            - name: Federatieve verificatie van hoge beschikbaarheid implementeren in Aure
-              href: deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md
+            - name: Voorbereiden voor adreslijstsynchronisatie
+              href: prepare-for-directory-synchronization.md
+            - name: Het voorbereiden van een niet-routeerbaar domein voor adreslijstsynchronisatie
+              href: prepare-a-non-routable-domain-for-directory-synchronization.md
+            - name: Adreslijstsynchronisatie instellen
+              href: set-up-directory-synchronization.md
+            - name: Hybride oplossingen
               items:
-                - name: 'Fase 1: Configureren Azure'
-                  href: high-availability-federated-authentication-phase-1-configure-azure.md
-                - name: 'Fase 2: Domeincontrollers configureren'
-                  href: high-availability-federated-authentication-phase-2-configure-domain-controllers.md
-                - name: 'Fase 3: AD FS-servers configureren'
-                  href: high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md
-                - name: 'Fase 4: Proxy''s voor webtoepassingen configureren'
-                  href: high-availability-federated-authentication-phase-4-configure-web-application-pro.md
-                - name: Fase 5 - Federatieve verificatie configureren
-                  href: high-availability-federated-authentication-phase-5-configure-federated-authentic.md
-            - name: Calamiteitenherstel SharePoint Server 2013 in Microsoft Azure
-              href: sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md
+                - name: Overzicht
+                  href: hybrid-solutions.md
+                - name: Azure Active Directory voor SharePoint Server 2016-verificatie gebruiken
+                  href: using-azure-ad-for-sharepoint-server-authentication.md
+                - name: Een on-premises netwerk verbinden met een virtueel Azure-netwerk
+                  href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
+                - name: Een adreslijstsynchronisatieserver implementeren in Azure laaS
+                  href: deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md
+                - name: Federatieve verificatie van hoge beschikbaarheid implementeren in Aure
+                  href: deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md
+                  items:
+                    - name: 'Fase 1: Configureren Azure'
+                      href: high-availability-federated-authentication-phase-1-configure-azure.md
+                    - name: 'Fase 2: Domeincontrollers configureren'
+                      href: high-availability-federated-authentication-phase-2-configure-domain-controllers.md
+                    - name: 'Fase 3: AD FS-servers configureren'
+                      href: high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md
+                    - name: 'Fase 4: Proxy''s voor webtoepassingen configureren'
+                      href: high-availability-federated-authentication-phase-4-configure-web-application-pro.md
+                    - name: Fase 5 - Federatieve verificatie configureren
+                      href: high-availability-federated-authentication-phase-5-configure-federated-authentic.md
+                - name: Calamiteitenherstel SharePoint Server 2013 in Microsoft Azure
+                  href: sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md
+        - name: Beveiligde gebruikersaanmeldingen
+          href: microsoft-365-secure-sign-in.md
     - name: Beheren
       items:
         - name: Licenties aan gebruikersaccounts toewijzen
@@ -565,7 +569,7 @@
               href: block-user-accounts-with-microsoft-365-powershell.md
         - name: Licenties en services
           items:
-            - name: Weergeven
+            - name: Licenties en services bekijken
               href: view-licenses-and-services-with-microsoft-365-powershell.md
             - name: Gelicentieerde en niet-gelicentieerde gebruikers weergeven
               href: view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md
@@ -573,6 +577,8 @@
               href: assign-licenses-to-user-accounts-with-microsoft-365-powershell.md
             - name: Accountlicentie-en servicedetails weergeven
               href: view-account-license-and-service-details-with-microsoft-365-powershell.md
+            - name: Licenties van gebruikersaccounts intrekken
+              href: remove-licenses-from-user-accounts-with-microsoft-365-powershell.md
             - name: Toegang tot services uitschakelen
               href: disable-access-to-services-with-microsoft-365-powershell.md
               items:
@@ -580,8 +586,6 @@
                   href: disable-access-to-sway-with-microsoft-365-powershell.md
                 - name: Toegang tot services uitschakelen bij het toewijzen van gebruikerslicenties
                   href: disable-access-to-services-while-assigning-user-licenses.md
-                - name: Licenties van gebruikersaccounts intrekken
-                  href: remove-licenses-from-user-accounts-with-microsoft-365-powershell.md
         - name: Groepen
           items:
             - name: Groepslidmaatschap onderhouden

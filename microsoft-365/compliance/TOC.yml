@@ -246,6 +246,8 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: De werking van DLP tussen het Beveiligings- en compliancecentrum en het Exchange-beheercentrum
           href: how-dlp-works-between-admin-centers.md
+        - name: Vertrouwelijkheidslabels gebruiken als voorwaarde in DLP-beleid (preview)
+          href: dlp-sensitivity-label-as-condition.md
 - name: Gegevensbeheer beheren
   items:
     - name: Uw gegevens beheren
