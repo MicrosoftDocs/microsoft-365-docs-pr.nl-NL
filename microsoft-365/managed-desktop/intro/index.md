@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a126627a4c4d96b2b6918cefb0630801b3674383
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b877a35133be13cd6783659f1e5d981633338be8
+ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950494"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269371"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -44,7 +44,7 @@ Ons beleid en onze beveiligingsbasislijn bieden uw gebruikers deze voordelen:
 - Opstarttijden voor Microsoft Managed Desktop-apparaten nemen ongeveer een kwart van de tijd in beslag.
 - Ten minste tweemaal de batterijduur
 - Ongeveer een derde van het aantal apparaatcrashes per jaar
-- Apparaatmobiliteit via [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), zodat gebruikers dezelfde ervaring kunnen hebben, ongeacht op welk apparaat ze zich willen aanmelden
+- Apparaatmobiliteit via [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), waarmee gebruikers dezelfde ervaring kunnen hebben, ongeacht op welk apparaat ze zich aanmelden
 
 Uw IT-beheerders profiteren van de volgende functies:
 
