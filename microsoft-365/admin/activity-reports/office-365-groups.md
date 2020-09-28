@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Vraag een Microsoft 365-groepsrapport om te weten over de groepen en hun activiteiten.
-ms.openlocfilehash: 1d329efa4fe7cdf12b6c7452b6480d237fb3d5c1
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b45582388103e843e2893cfceb9aa1106cb9ce76
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948986"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295092"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365-rapporten in het Beheercentrum-Microsoft 365-groepen
 
@@ -37,8 +37,8 @@ Het dashboard Microsoft 365 **rapporten** toont u het overzicht van de activitei
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
-    
-2. Selecteer in de vervolgkeuzelijst **een rapport selecteren** de optie **Office 365** \> **groepen-activiteit**.
+2. Selecteer in de opties de optie **meer weergeven** onder **actieve gebruikers-Microsoft 365-Services**.
+3. Selecteer in de vervolgkeuzelijst **een rapport selecteren** de optie **Office 365** \> **groepen-activiteit**.
   
 ## <a name="interpret-the-groups-report"></a>Het groepsrapport interpreteren
 
@@ -61,4 +61,3 @@ U krijgt inzicht in de groepsactiviteit door te kijken naar de grafieken **groep
 |23:00  <br/> |U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.  <br/> |
 |||
    
-

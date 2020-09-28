@@ -21,104 +21,109 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Meer informatie over het verplaatsen van uw bedrijf naar Microsoft 365 Business Premium van Office 365 E3.
-ms.openlocfilehash: d72f0c52a745ff973868b6fdaa95efa1a37a3dbd
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Meer informatie over hoe u uw bedrijf kunt overzetten naar Microsoft 365 Business Premium van Office 365 E3.
+ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785926"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295285"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium 
 
-Microsoft 365 Business Premium heeft alles wat u nodig hebt voor uw kleine bedrijf, waarbij u de beste cloudgebaseerde productiviteitsapps combineert met eenvoudig apparaatbeheer en beveiliging. Als u momenteel een Office 365 E3-abonnement hebt, maar niet meer dan 300 werknemers hebt, u overwegen over te stappen naar Microsoft 365 Business Premium voor extra beveiligingsfuncties.
+Microsoft 365 Business Premium biedt alles wat u nodig hebt voor uw kleine bedrijf, waarbij de beste productiviteitstoepassingen voor de beste Cloud worden gecombineerd met eenvoudig Apparaatbeheer en beveiliging. Als u momenteel een Office 365 E3-abonnement hebt, maar niet meer dan 300 medewerkers hebt, kunt u overstappen op Microsoft 365 Business Premium voor extra beveiligingsfuncties.
 
-Migreren is eenvoudig: eerst wisselt u van licentie en wordt al uw gegevens en gebruikersgegevens in uw huidige abonnement gehandhaafd. Na de migratie moet u de functies instellen die zijn toegevoegd in Microsoft 365 Business Premium.
+Migratie is eenvoudig: eerst overstappen op een ander abonnement, worden alle gegevens en gebruikersgegevens in uw huidige abonnement bewaard. Na de migratie moet u de functies instellen die worden toegevoegd in Microsoft 365 Business Premium.
 
 ## <a name="differences-between-office-365-e3-and-microsoft-365-business-premium"></a>Verschillen tussen Office 365 E3 en Microsoft 365 Business Premium
 
-In deze tabel worden de verschillen tussen Microsoft 365 Business Premium en Office 365 E3 weergegeven.
+In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Office 365 E3.
 
 | Functie    | Ondersteuning in Microsoft 365 Business Premium    | Ondersteuning in Office 365 E3 | 
 |:-------|:-----|:-----|
 | **On-premises**        | | | 
 | Office-apps<sup>1</sup>    | Microsoft 365-apps voor bedrijven    | Microsoft 365-apps voor ondernemingen | 
-| **Apps voor productiviteit in de cloud**        | | | 
-| Exchange Online en Outlook    | Opslaglimiet van 50 GB per postvak en onbeperkte Exchange Online Archivering    | Opslaglimiet van 100 GB per postvak en onbeperkte Exchange Online Archivering | 
-| Teams    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Onbeperkt | 
-| Yammer, SharePoint Online, Planner, Stream    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| StaffHub    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager, MileIQ    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | | 
-| **Bescherming tegen bedreigingen**        | | | 
-| Atp-abonnement (Advanced Threat Protection) van Office 365 | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd op | 
+| **Apps voor Cloud productiviteit**        | | | 
+| Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkt Exchange Online archivering    | 100 GB opslaglimiet per postvak en onbeperkt Exchange Online archivering | 
+| Teams    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Office 365 E3](../media/check-mark.png) | 
+| OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Begrensd | 
+| Yammer, SharePoint Online, planner, stream    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Office 365 E3](../media/check-mark.png) | 
+| StaffHub    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Office 365 E3](../media/check-mark.png) | 
+| Outlook Customer Manager, MileIQ    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | | 
+| **Bedreigingsbeveiliging**        | | | 
+| Office 365 Advanced Threat Protection (ATP)-abonnement 1 | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
 | **Identiteitsbeheer**        | | | 
-| Selfservice wachtwoordreset voor hybride Azure Active Directory-accounts (Azure AD), Azure multi-factor authentication (MFA), Voorwaardelijke toegang, terugschrijving van wachtwoorden voor on-premises identiteiten|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
-| **Apparaat- en appbeheer**        | | |
-| Microsoft Intune, Windows AutoPilot|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    |  |
-| Activering van gedeelde computer|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Office 365 E3](../media/check-mark.png)| 
-| Upgraderechten naar Windows 10 Pro vanaf Win 7/8.1 Pro-licenties|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    || 
+| Selfservice voor wachtwoordherstel voor hybride Azure Active Directory-accounts (Azure AD), Azure multi-factor Authentication (MFA), voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises id's|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
+| **Apparaten en apps beheren**        | | |
+| Microsoft intune, Windows auto pilot|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    |  |
+| Gedeelde computeractivering|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Office 365 E3](../media/check-mark.png)| 
+| Upgrade rechten voor Windows 10 Pro van Win 7/8.1 Pro-licenties|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    || 
 | **Gegevensbeveiliging**        | | |
-|Preventie van gegevensverlies in Office 365|    ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)|![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
-|Azure Information Protection Plan 1, handhaving van Bitlocker|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
-|Azure Information Protection Plan 1, gevoeligheidslabels|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
-|**Client Access License (CAL-rechten)**|||
-|Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
+|Office 365 preventie van gegevensverlies|    ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)|![Inbegrepen in Office 365 E3](../media/check-mark.png)|
+|Azure-informatie beschermings abonnement 1, BitLocker Enforcement|![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)||
+|Azure Information Protection abonnement 1, vertrouwelijkheids labels|![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)||
+|**Licentie voor client toegang (CAL-rechten)**|||
+|Enterprise CAL suite (Exchange, SharePoint, Skype)||![Inbegrepen in Office 365 E3](../media/check-mark.png)|
 
-<sup>1</sup> De Microsoft 365 Business Premium-versie van de Office-apps bevat geen volumeactivering via Groepsbeleid, telemetrie voor apps, updatebesturingselementen, spreadsheetvergelijking en -onderzoek of business Intelligence.
+<sup>1</sup> de microsoft 365 Business Premium-versie van de Office-apps omvat geen volumeactivering via Groepsbeleid, app-telemetrie, bijwerk besturingselementen, spreadsheets vergelijken en inquire of Business Intelligence.
 
 ## <a name="migration"></a>Migratie
 
-Zie [Abonnementen handmatig wijzigen](../commerce/subscriptions/change-plans-manually.md) voor instructies als u slechts een paar personen wilt verplaatsen naar Microsoft 365 Business Premium als u uw abonnement wilt migreren. U ook [iedereen automatisch upgraden](../commerce/subscriptions/upgrade-to-different-plan.md)of samenwerken met een partner om uw E3-abonnement en licenties te verplaatsen naar een Microsoft 365 Business Premium-abonnement.
-In de volgende secties worden de wijzigingen beschreven die u moet aanbrengen en wat u na de migratie doen.
+Als u uw abonnement wilt migreren, raadpleegt u [abonnementen handmatig wijzigen](../commerce/subscriptions/change-plans-manually.md) voor instructies als u slechts enkele personen wilt overzetten naar microsoft 365 Business Premium. U kunt [iedereen ook automatisch upgraden](../commerce/subscriptions/upgrade-to-different-plan.md)of met een partner samenwerken om uw E3-abonnement en licenties te verplaatsen naar een abonnement op microsoft 365 Business Premium.
+In de volgende secties wordt beschreven welke wijzigingen u moet aanbrengen, indien van toepassing, en wat u na de migratie kunt doen.
 
-### <a name="office-365-e3-subscription-configuration-and-data"></a>Configuratie en gegevens van Office 365 E3-abonnementen
-U hoeft geen wijzigingen aan te brengen in uw huidige abonnement of gegevens voordat u migreert, waaronder:
+### <a name="office-365-e3-subscription-configuration-and-data"></a>Configuratie en gegevens van Office 365 E3-abonnement
+U hoeft geen wijzigingen aan te voeren voor uw huidige abonnement of gegevens vóór de overstap, waaronder:
 
-- Abonnementsconfiguratie, zoals DNS-records en domeinnamen.
-- Gebruikers- en groepsaccounts en verificatie-instellingen, zoals meerfactorauthenticatie of beleid voor voorwaardelijke toegang.
-- Configuraties van productiviteitsservice en hun gegevens, zoals Teams, Exchange Online-postvakken, SharePoint Online-sites, OneDrive voor Bedrijven-mappen en OneNote-notitieblokken.
-- Office-toepassingen worden automatisch geschaald. Office 365-licenties controleren elke 72 uur de licentietoewijzing van de gebruiker en converteren Office-toepassingen naar de versie die overeenkomt met het gebruikersabonnement.
+- Configuratie van het abonnement, zoals DNS-records en domeinnamen.
+- Accounts en verificatie-instellingen van gebruikers en groepen, zoals multi-factor Authentication of regels voor voorwaardelijke toegang.
+- Productiviteits serviceconfiguraties en hun gegevens, zoals teams, Exchange Online-postvakken, SharePoint Online-sites, OneDrive voor bedrijven-mappen en OneNote-notitieblokken.
+- Office-toepassingen worden automatisch aangepast. Met Office 365 modern Licensing wordt elke 72 uur de licentietoewijzing van de gebruiker gecontroleerd en worden de Office-toepassingen geconverteerd naar de versie die overeenkomt met het gebruikers abonnement.
 
 ### <a name="windows-10"></a>Windows 10
 
-Als uw Windows nog niet in windows Pro Creator-update staat, [kunt u deze bijwerken naar Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
+Als de Windows Update voor Windows Pro Creator nog niet is geïnstalleerd, kunt [u deze upgraden naar de Windows Pro Creators update](upgrade-to-windows-pro-creators-update.md).
 
-### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Beleid instellen om gebruikersapparaten en bestanden te beschermen
+### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Beleidsregels instellen voor het beschermen van gebruikers apparaten en-bestanden
 
 > [!NOTE]
-> Als u Office 365 MDM-beleid en -apparaten instelt, worden deze apparaten weergegeven op de pagina **Apparaten** in het Microsoft 365-beheercentrum. Alle beleidsregels die u hebt ingesteld, worden weergegeven in de lijst met klassieke beleidsregels in de [Intune-portal](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview).
+> Als u een beleid en apparaten voor Office 365 MDM instelt, worden deze apparaten weergegeven op de pagina **apparaten** in het microsoft 365-Beheercentrum. Beleidsregels die u instelt, worden weergegeven in de lijst met klassieke beleidsregels in de [intune-Portal](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview).
 
-Nadat u licenties hebt toegewezen aan Microsoft 365 Business Premium, u beginnen met het beveiligen van de apparaten en bestanden van de gebruikers.
+Nadat u licenties hebt toegewezen aan Microsoft 365 Business Premium, kunt u beginnen met de bescherming van de apparaten en bestanden van de gebruikers.
 
-Als u iedereen in uw organisatie hebt geüpgraded naar Microsoft 365 Business Premium, ziet u de wizard Setup op de startpagina en u de stappen [microsoft 365 Business Premium instellen](set-up.md) volgen in de wizard Setup om bestanden en mobiele apparaten te beschermen.
+Als u iedereen in uw organisatie hebt bijgewerkt naar Microsoft 365 Business Premium, wordt de wizard Setup op de startpagina weergegeven en kunt u [Microsoft 365 Business Premium volgen via de installatiewizard van de wizard](set-up.md) om bestanden en mobiele apparaten te beschermen.
 
-U deze stappen ook uitvoeren op de pagina Apparaten:
+U kunt deze stappen ook voltooien op de pagina apparaten:
   
-1. Ga in het beheercentrum in het **Devices** linkernavigatiesysteem naar \> **Apparaatbeleid**.
+1. Ga in het Beheercentrum in het linkernavigatievenster naar **apparaten** \> **beleid**.
     
-2. Kies Op de pagina **Apparaatbeleid** de optie **Toevoegen**.
+2. Kies **toevoegen**op de pagina **apparaatbeleid** .
     
-3. Geef het beleid in **het deelvenster Polis toevoegen** een naam en kies vervolgens een **beleidstype** uit de vervolgkeuzelijst. 
+3. Geef in het deelvenster **beleid toevoegen** een naam op voor het beleid en kies vervolgens een **beleidstype** in de vervolgkeuzelijst. 
     
-     U toepassingsbeleid instellen voor het beveiligen van bestanden op Android- en iPhone-apparaten, evenals Windows 10, en u apparaatconfiguratiebeleid instellen voor Windows 10-apparaten die eigendom zijn van het bedrijf. Zie de volgende links voor meer informatie:
+     U kunt toepassingenbeleid instellen voor het beschermen van bestanden op Android-en iPhone-apparaten, en Windows 10, en u kunt beleidsinstellingen voor apparaatconfiguratie instellen voor bedrijfseigen Windows 10-apparaten. Voor meer informatie raadpleegt u de volgende koppelingen:
     
   - [Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
     
   - [Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md)
     
-  - [Instellingen voor apparaatbeveiliging instellen voor Windows 10-pc's](protection-settings-for-windows-10-pcs.md)
+  - [Instellingen voor apparaat-beveiliging instellen voor Windows 10-Pc's](protection-settings-for-windows-10-pcs.md)
   
-4. Zodra u beleid hebt ingesteld, kunnen u en uw medewerkers apparaten instellen:
+4. Nadat u beleidsregels hebt ingesteld, kunnen u en uw werknemers apparaten instellen:
     
   - Zie [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-windows-devices.md) voor stappen voor Windows-apparaten. 
     
-  - Zie [Mobiele apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones. 
+  - Zie [mobiele apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones. 
+  
+### <a name="mailbox-size"></a>Postvakgrootte
+
+Microsoft 365 Business Premium heeft een opslaglimiet van 50 GB omdat Exchange Online (abonnement 1) wordt gebruikt. Wanneer een van uw 50 gebruikers migreert naar Microsoft 365 Business Premium, wordt u aangeraden deze gebruiker een Exchange Online-abonnement 2 toe te wijzen en Exchange Online abonnement 1 te verwijderen, aangezien het niet haalbaar is om beide berichten toe te wijzen.
+
 
 ### <a name="threat-protection"></a>Bedreigingsbeveiliging
 
-Nadat u bent gemigreerd naar Microsoft 365 Business Premium, hebt u Office 365 ATP. Zie [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) voor een overzicht. Zie [VEILIGE ATP-koppelingen instellen,](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa) [ATP-veilige bijlagen instellen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)en [ATP-antiphishing instellen.](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)
+Na de migratie naar Microsoft 365 Business Premium hebt u Office 365 ATP. Zie [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) voor een overzicht. Als u deze instelling wilt instellen, raadpleegt u de [veilige koppelingen voor ATP instellen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [veilige bijlagen van ATP instellen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)en de [anti-phishing van ATP instellen](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
-Zie [Overzicht van gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) en het maken en beheren van gevoeligheidslabels video als u wilt beginnen met het gebruik van [gevoeligheidslabels.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
+Als u de palletlabels wilt gebruiken, raadpleegt u [overzicht van de palletlabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) en de video over het [maken en beheren](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) van laag labels.

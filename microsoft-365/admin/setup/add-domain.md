@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Voeg uw domein toe aan Microsoft 365 in het Microsoft 365-Beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De installatiewizard begeleidt u bij het proces.
-ms.openlocfilehash: a9a0c12d5207db210b4a08ce58abeb44270c8506
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: 09a66b9ac4f97a076d71dd7f259678181378ae48
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775157"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295020"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 
@@ -118,7 +118,7 @@ Voer de onderstaande stappen uit om een aangepaste record toe te voegen voor een
 
 5. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
     
-6. Selecteer **Opslaan**.
+6. Kies **Opslaan**.
 
 ## <a name="registrars-with-domain-connect"></a>Registraties met domein verbinding
 
@@ -135,7 +135,7 @@ In de wizard wordt bevestigd dat u de eigenaar van het domein bent en worden de 
 - [EuroDNS](https://www.eurodns.com/)
 - [Cloudflare](https://www.cloudflare.com/)
 - [GoDaddy](https://www.godaddy.com/)
-- [WordPress](https://wordpress.com/)
+- [WordPress.com](https://wordpress.com/)
 - [Plesk](https://www.plesk.com/)
 - [MediaTemple](https://mediatemple.net/)
 - SecureServer of WildWestDomains (GoDaddy resellers met SecureServer DNS-hosting)

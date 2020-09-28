@@ -1,7 +1,7 @@
 ---
 title: Microsoft Secure Score
 description: Beschrijving van Microsoft Secure Score in het Microsoft 365-Beveiligingscentrum, hoe u uw beveiligings Posture kunt verbeteren en welke beveiligingsbeheerders kunnen verwachten.
-keywords: beveiliging, malware, Microsoft 365, M365, Secure Score, Security Center, verbeterings acties
+keywords: Microsoft Secure Score, Secure Score, Office 365 Secure Score, Microsoft Security Score, Microsoft 365 Beveiligingscentrum, verbeteringen van verbetering
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b378288637baa5b51f74fb63d8c8da33ac5e148f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ea580ad6b7bb7cc905a299e473f23a4c74fb289e
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196189"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294782"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 

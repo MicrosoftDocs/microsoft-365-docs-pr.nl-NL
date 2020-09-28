@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Lees hoe u uw domein kunt toevoegen en instellen in Microsoft 365, zodat uw services zoals e-mail en Skype voor bedrijven online uw eigen domeinnaam kunnen gebruiken.
-ms.openlocfilehash: 6a99ee90db3bb71038309175b32bd4d96097aa5a
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 34e4db5748f9d4c1f1864db09071374bcec73e1d
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662230"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295056"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Microsoft 365 met een domeinregistratie
 
@@ -122,8 +122,8 @@ Als u de naamservers van het domein zelf wilt wijzigen op de website van de dome
 |:-----|:-----|
 |Eerste naamserver  <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |Tweede naamserver  <br/> |ns2.bdm.microsoftonline.com  <br/> |
-|Derde naamserver  <br/> |ns2.bdm.microsoftonline.com  <br/> |
-|Vierde naamserver  <br/> |ns2.bdm.microsoftonline.com  <br/> |
+|Derde naamserver  <br/> |ns3.bdm.microsoftonline.com  <br/> |
+|Vierde naamserver  <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
    > [!TIP]
    > Het is raadzaam om alle vier de records toe te voegen, maar als u met de registratiefunctie slechts twee wilt ondersteunen, voegt u **ns1.BDM.microsoftonline.com** en **ns2.BDM.microsoftonline.com**toe. 

@@ -1,7 +1,7 @@
 ---
 title: De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken
-description: U krijgt inzicht in activiteiten met gevolgen voor uw veilige Score. Ontdekken van trends en het instellen van doelstellingen.
-keywords: beveiliging, malware, Microsoft 365, M365, Secure Score, Security Center, verbeterings acties
+description: U krijgt inzicht in activiteiten met gevolgen voor uw Microsoft Secure Score. Ontdekken van trends en het instellen van doelstellingen.
+keywords: Microsoft Secure Score, Secure Score, Office 365 Secure Score, Microsoft Security Score, Microsoft 365 Beveiligingscentrum, verbeteringen van verbetering
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6c31ea1f7217babd4949bee843b091bb767e210e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4f5d0a59372fb32b2802a094c247e45740ba3946
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196287"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295248"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken
 

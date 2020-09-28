@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
-ms.openlocfilehash: 72f42a71ec44d165a24187edaf03aa62d330479b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2be48f42c8529334b55b311e6f202d9f3b25ff9e
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200815"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295524"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
 
@@ -205,7 +205,7 @@ Deze tests voor UDP-connectiviteit met de Microsoft teams-service-voor deur. Als
 
 Het UDP-pakketverlies gemeten in een 10 seconden test audio oproep van de client naar de Microsoft teams-service voor de klep. Dit moet lager zijn dan **1,00%** voor een doorgifte.
 
-### <a name="latency"></a>Tijd
+#### <a name="latency"></a>Tijd
 
 Geeft de gemeten UDP-latentie weer, wat lager moet zijn dan **100 MS**.
 

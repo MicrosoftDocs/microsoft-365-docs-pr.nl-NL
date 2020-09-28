@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Gesplitste tunneling voor VPN implementeren voor Office 365
-ms.openlocfilehash: af5c2ea35df921abe8eaa9a85ab2ab244931c098
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: ff79138d44c98d76af1a3d9c374159b0fae4c7ed
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214856"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295272"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Gesplitste VPN-tunneling implementeren voor Office 365
 
@@ -325,6 +325,10 @@ Poort 80 wordt alleen gebruikt voor zaken zoals omleiding naar een poort 443-ses
 ### <a name="does-this-advice-apply-to-users-in-china-using-a-worldwide-instance-of-office-365"></a>Is dit advies van toepassing op gebruikers in China met een wereldwijde instantie van Office 365?
 
 **Nee**, dat is niet het geval. Het voorbeeld van het bovenstaande advies is gebruikers in de Volksrepubliek China die verbinding maken met een wereldwijde instantie van Office 365. De prestaties van de netwerkcongestie van de gemeenschappelijke grenzen in de regio zijn direct van een variabele. De meeste klanten in de regio werken via een VPN om het verkeer in het bedrijfsnetwerk te brengen en gebruikmaken van hun geautoriseerde MPLS-circuit of vergelijkbaar met het opzeggen van het land via een geoptimaliseerd pad. Dit wordt verder beschreven in het artikel [Office 365 prestaties optimaliseren voor gebruikers van China](microsoft-365-networking-china.md).
+
+### <a name="does-split-tunnel-configuration-work-for-teams-running-in-a-browser"></a>Werkt de gesplitste tunnelconfiguratie voor teams met een browser?
+
+**Nee**, dat is niet het geval. Dit werkt alleen op Microsoft teams-clientversie 1.3.00.13565 of hoger. Deze versie bevat verbeteringen voor het detecteren van beschikbare netwerkpaden in de client.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

@@ -1,27 +1,26 @@
 ---
-title: Een inhouds centrum maken (preview)
+title: Een inhouds centrum maken in Microsoft SharePoint Syntex
 ms.author: efrene
 author: efrene
 manager: pamgreen
 ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: o365-administration
+ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Leer hoe u een inhouds centrum maakt.
-ms.openlocfilehash: ae10cdae2fe84abf72cf09141798b628d88a504a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 62977bc5a34b041e9e958ff46e0dbc010d6bd822
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950094"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295430"
 ---
-# <a name="create-a-content-center-preview"></a>Een inhouds centrum maken (preview)
+# <a name="create-a-content-center-in-microsoft-sharepoint-syntex"></a>Een inhouds centrum maken in Microsoft SharePoint Syntex
 
-> [!Note] 
-> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Lees meer over project cortex](https://aka.ms/projectcortex).</br>
+De inhoud in dit artikel is bedoeld voor de cortex van de private preview van project. [Lees meer over project cortex](https://aka.ms/projectcortex).</br>
 
 </br>
 
@@ -29,13 +28,14 @@ ms.locfileid: "47950094"
 
 </br>
 
-Voor het maken en beheren van documenten met modellen hebt u eerst een inhouds centrum nodig. Het inhouds centrum is de interface voor het maken van modellen en bevat ook informatie over de publicatie van documentbibliotheken gepubliceerde modellen.</br>
+Voor het maken en beheren van documenten met modellen hebt u eerst een inhouds centrum nodig. Het inhouds centrum is de interface voor het maken van modellen en bevat ook informatie over de documentenbibliotheken waarop publicerende modellen zijn toegepast.</br>
 
    ![Een documentbibliotheek selecteren](../media/content-understanding/content-center-page.png)</br>
 
-Er wordt een initieel inhouds centrum gemaakt tijdens de [installatie](set-up-content-understanding.md), maar een SharePoint-beheerder kan desgewenst extra bestanden maken. Hoewel een bepaald inhouds centrum geschikt is voor omgevingen waarvan u een uitvouwing van alle model activiteiten wilt zien, kunt u deze mogelijk extra weergeven als uw organisatie meerdere afdelingen binnen uw organisatie heeft die verschillende behoeften en vereisten voor hun modellen hebben.
+U maakt een initieel inhouds centrum tijdens de [installatie](set-up-content-understanding.md). Een SharePoint-beheerder kan er ook voor kiezen om zo nodig extra centra te maken. Hoewel een enkelvoudig inhouds centrum voor omgevingen waarvan u een totalisatie van alle model activiteiten wilt uitvouwen, kan het handig zijn om een extra centrum te hebben voor meerdere afdelingen binnen uw organisatie, welke verschillende behoeften en vereisten voor hun modellen kunnen hebben.
 
-Een SharePoint-beheerder kan een inhouds centrum site maken alsof deze een [andere SharePoint-site maakt](https://docs.microsoft.com/sharepoint/create-site-collection) , via een sitesjabloon.
+> [!NOTE]
+> Een SharePoint-beheerder kan een inhouds centrum site maken alsof ze een [andere SharePoint-site maken](https://docs.microsoft.com/sharepoint/create-site-collection) op basis van een sitesjabloon.
 
 Een nieuw inhouds centrum maken:
 
@@ -45,18 +45,14 @@ Een nieuw inhouds centrum maken:
 4. Selecteer in het menu **een sjabloon kiezen** de optie **inhouds centrum**.
 5. Geef voor de nieuwe site een **sitenaam**, **primaire beheerder**en een **taal**op.</br>
 
-> [!Note] 
-> U kunt een inhouds centrum site selecteren om weer te geven in een van de beschikbare talen, maar houd er rekening mee dat momenteel alleen voor Engelse bestanden kunnen worden gemaakt.</br>
+> [!NOTE] 
+> U kunt desgewenst een inhouds centrum site selecteren om weer te geven in een van de beschikbare talen. Alleen huidige modellen kunnen worden gemaakt voor Engelse bestanden.</br>
 
-6. Klik op **gereed**.
+6. Selecteer **Gereedgemeld**.
 
 ### <a name="give-access-to-additional-users"></a>Toegang verlenen aan extra gebruikers
  
-Nadat de site is gemaakt, kunt u extra gebruikers toegang geven tot de site via het standaard [model van SharePoint-site machtigingen](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
-
-
-
-
+Wanneer u de site hebt gemaakt, kunt u extra gebruikers toegang geven tot de site via het standaard [model van SharePoint-site machtigingen](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
 
 ## <a name="see-also"></a>Zie ook
 [Een classificatie maken](create-a-classifier.md)</br>
@@ -65,7 +61,3 @@ Nadat de site is gemaakt, kunt u extra gebruikers toegang geven tot de site via 
  [Overzicht van document](document-understanding-overview.md)</br>
 [Een formulier verwerkings model maken](create-a-form-processing-model.md)</br>
 [Een model toepassen](apply-a-model.md)    
-
-
-
-

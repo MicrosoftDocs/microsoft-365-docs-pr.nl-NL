@@ -1,95 +1,137 @@
 ---
-title: 'Inhoudelijke informatie instellen (preview) '
-description: Project cortex instellen.
+title: SharePoint-Syntex instellen
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/1/2020
 audience: admin
 ms.topic: article
-ms.service: o365-administration
+ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 05696f99e59cbd51ba004f6007311b4b6af4a839
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+description: Inzicht in inhoud instellen in Project cortex
+ms.openlocfilehash: f0a26f0044e578928730cf4930f1524e86dff9f3
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950034"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294839"
 ---
-# <a name="set-up-content-understanding-preview"></a>Inhoudelijke informatie instellen (preview)
+# <a name="set-up-sharepoint-syntex"></a>SharePoint-Syntex instellen
 
-> [!Note] 
-> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Lees meer over project cortex](https://aka.ms/projectcortex).
+Beheerders kunnen het Microsoft 365-Beheercentrum gebruiken voor het instellen van en Microsoft SharePoint Syntex. 
 
-Beheerders kunnen het Microsoft 365-Beheercentrum gebruiken om informatie over de inhoud in te stellen en te configureren. 
+Voordat u begint, moet u rekening houden met het volgende:
 
-Zorg er eerst voor dat u op de hoogte bent van de beste manier om inhoud in uw omgeving in te stellen en te configureren. U moet bijvoorbeeld overwegingen voor het volgende doen:
 - Welke SharePoint-sites gebruikt u om de formulierverwerking in te schakelen? Allemaal, of selecteer sites?
-- Naam van uw inhouds centrum en wie is de primaire sitebeheerder?
+- Wat is de naam van uw inhouds centrum en wie is de primaire sitebeheerder?
 
-Een beheerder kan ook op elk gewenst moment na de installatie van de inhoud wijzigingen aanbrengen in de instellingen voor beheer in het Microsoft 365-Beheercentrum.
+U kunt de instellingen wijzigen na de eerste configuratie in het Microsoft 365-Beheercentrum.
 
+De inhoud in dit artikel is bedoeld voor de cortex van de private preview van project. [Lees meer over project cortex](https://aka.ms/projectcortex).
+
+Zorg er eerst voor dat u op de hoogte bent van de beste manier om inhoud in uw omgeving in te stellen en te configureren. U moet bijvoorbeeld overwegingen doen voor de volgende namen:
+
+- De SharePoint-sites die u wilt gebruiken voor het bewerken van formulieren: al deze, bepaalde of geselecteerde sites
+- Uw inhouds centrum en de naam van de primaire sitebeheerder
 
 ## <a name="requirements"></a>Vereisten 
-U moet beschikken over de machtigingen van een globale beheerder of SharePoint-beheerder om toegang te krijgen tot het Microsoft 365-Beheercentrum en de informatie over de inhoud ervan kunt instellen.
 
+> [!NOTE]
+> U moet beschikken over de machtigingen van een globale beheerder of SharePoint-beheerder om toegang te krijgen tot het Microsoft 365-Beheercentrum en de informatie over de inhoud ervan kunt instellen.
 
-## <a name="to-set-up-content-understanding"></a>Inhoud begrijpen
+Als beheerder kunt u ook op elk gewenst moment na de installatie wijzigingen aanbrengen in de geselecteerde instellingen en in de inhoud van de beheerinstellingen in het Microsoft 365-Beheercentrum.
+
+## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
 1. Selecteer in het Microsoft 365-Beheercentrum de optie **instellen**en bekijk vervolgens de sectie **bedrijfsinformatie** .
+
 2. Selecteer in de sectie **kennis van organisatie** de optie **inhouds inzicht automatiseren**.<br/>
 
     ![Pagina voor het instellen van de organisatie](../media/content-understanding/admin-org-knowledge-options.png)</br>
 
-3. Klik op de pagina meer informatie **over het automatisch** maken op aan de **slag** om het installatieproces te doorlopen.<br/>
+3. Klik op de pagina **SharePoint Syntex automatiseren** op aan de **slag** om het installatieproces te doorlopen.<br/>
 
     ![Beginnen met instellen](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
+4. Kies op de pagina afbeeldingen label inschakelen de optie als u [afbeeldingen](image-tagging.md)wilt toestaan.
 
-4. Op de pagina voor het verwerken van de **formulier** kunt u aangeven of u de gebruikers van AI Builder de mogelijkheid wilt bieden om formulier verwerkings modellen te maken met specifieke documentenbibliotheken van SharePoint. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek om **een formulier verwerkings model te maken** in SharePoint-documentbibliotheken waarin dit is ingeschakeld.
+    ![Schermafbeelding van opties voor markeren van afbeeldingen](../media/content-understanding/admin-content-understanding-setup-image-tagging.png)</br>
+
+5. Op de pagina voor het verwerken van de **formulier** kunt u aangeven of u de gebruikers van AI Builder de mogelijkheid wilt bieden om formulier verwerkings modellen te maken met specifieke documentenbibliotheken van SharePoint. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek om **een formulier verwerkings model te maken** in SharePoint-documentbibliotheken waarin dit is ingeschakeld.
  
      Voor **welke SharePoint-bibliotheken moet de optie voor het maken van een formulier voor het bewerken van een formulier worden weergegeven**:</br>
-    - **Alle SharePoint-bibliotheken** als u deze beschikbaar wilt maken voor alle SharePoint-bibliotheken in uw Tenant.</br>
-    - **Alleen bibliotheken op geselecteerde sites**en selecteer vervolgens de sites waarvan u de site beschikbaar wilt maken.</br>
-    - **Geen SharePoint-bibliotheken** als u deze momenteel niet beschikbaar wilt maken voor sites (u kunt dit wijzigen na de installatie).
-</br>
+      - **Alle SharePoint-bibliotheken** als u deze beschikbaar wilt maken voor alle SharePoint-bibliotheken in uw organisatie.</br>
+      - **Alleen bibliotheken op geselecteerde sites**en selecteer vervolgens de sites waarvan u de site beschikbaar wilt maken.</br>
 
    ![Formulierverwerking configureren](../media/content-understanding/admin-configforms.png)
-</br>
 
    > [!Note]
    > Als u deze instelling inschakelt voor een SharePoint-documentbibliotheek, heeft dit geen invloed op bestaande modellen die zijn toegepast op de bibliotheek of de mogelijkheid om documenten toe te passen op een bibliotheek. 
-
     
-5. Op de pagina **inhouds centrum maken** kunt u een SharePoint-inhouds centrum site maken waarop uw gebruikers document leren maken en beheren. </br>
+6. Op de pagina **inhouds centrum maken** kunt u een SharePoint-inhouds centrum site maken waarop uw gebruikers document leren maken en beheren. </br>
     a. Voor de naam van de **site**typt u de naam die uw inhouds centrum site moet opgeven.</br>
-    b. Het **adres** van de site toont de URL voor uw site, op basis van de optie die u hebt geselecteerd voor de sitenaam.</br>
-
-    > [!Note] 
-    > U kunt alle ondersteunde talen selecteren, maar u kunt de inhoud van modellen begrijpen, maar ook voor Engels.</br>
+    b. Het **adres** van de site toont de URL voor uw site, op basis van de optie die u hebt geselecteerd voor de sitenaam. Als u dit wilt wijzigen, klikt u op **bewerken**.</br>
 
       ![Inhouds centrum maken](../media/content-understanding/admin-cu-create-cc.png)</br>
 
-
     Selecteer **Volgende**.
-6. Op de pagina **Voltooien en controleren** ziet u de geselecteerde instelling en kiest u om wijzigingen aan te brengen. Als u tevreden bent met uw selecties, selecteert u **activeren**.
 
+7. Op de pagina **controleren en voltooien** ziet u de geselecteerde instelling en kiest u om wijzigingen aan te brengen. Als u tevreden bent met uw selecties, selecteert u **activeren**.
 
+8. Klik op de pagina confirmation op **done**.
 
-7. Op de pagina ' **geactiveerde informatie over de geactiveerde** pagina ' wordt gecontroleerd of het systeem uw voorkeuren voor formulierverwerking heeft toegevoegd en de site van het inhouds centrum te maken. Selecteer **Gereed**.
+9. U gaat terug naar de pagina informatie **over het automatiseren** van de inhoud. Op deze pagina kunt u **beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
 
-8. U gaat terug naar de pagina informatie **over het automatiseren** van de inhoud. Op deze pagina kunt u **beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
+## <a name="assign-licenses"></a>Licenties toewijzen
+
+Als u een SharePoint-Syntex hebt geconfigureerd, moet u een licentie toewijzen voor de gebruikers die de functies voor formulierverwerking en document leren gebruiken.
+
+Licenties toewijzen:
+
+1. Klik in het Microsoft 365-Beheercentrum onder **gebruikers**op **actieve gebruikers**.
+
+2. Selecteer de gebruikers voor wie u een licentie wilt instellen en klik op **productlicenties beheren**.
+
+3. Selecteer **meer toewijzen**.
+
+4. Selecteer **intelligente inhouds Services**. Zorg ervoor dat onder **apps**de optie **common data service voor Intelligent Content Services** en **intelligente inhouds** service beide is geselecteerd.
+
+    ![SharePoint Syntex-licenties in het Microsoft 365-Beheercentrum](../media/content-understanding/sharepoint-syntex-licenses.png)
+
+5. Klik op **Wijzigingen opslaan**.
+
+## <a name="ai-builder-credits"></a>Tegoed van AI Builder
+
+Als u een 300 of meer SharePoint-Syntex-licenties voor SharePoint Syntex in uw organisatie hebt, worden er dan 1.000.000 AI Builder-tegoed toegewezen. Als u minder dan 300 licenties hebt, moet u de tegoed van de AI-Builders aanschaffen om de verwerking van formulieren te kunnen gebruiken.
+
+U kunt de capaciteit van de AI Builder voor u ramen met de [AI Builder-rekenmachine](https://powerapps.microsoft.com/ai-builder-calculator).
+
+1. Ga naar het [Power platform-Beheercentrum](https://admin.powerplatform.microsoft.com/resources/capacity) om uw tegoed en gebruik te controleren.
+
+    > [!NOTE]
+    > Het inschakelen van deze instelling voor een SharePoint-documentbibliotheek heeft geen invloed op bestaande modellen die zijn toegepast op de bibliotheek of de mogelijkheid om documenten toe te passen op een bibliotheek. 
+    
+2. Op de pagina **inhouds centrum maken** kunt u een SharePoint-inhouds centrum site maken waarvoor gebruikers document kunnen maken en beheren met modellen. </br>
+    a. Voor de naam van de **site**typt u de gewenste naam voor de inhouds centrum site.</br>
+    b. Het **site adres** toont de URL voor uw site, op basis van de naam van de site.</br>
+
+    > [!NOTE] 
+    > U kunt alle ondersteunde talen selecteren, maar u kunt de inhoud van modellen niet alleen maken voor Engels.</br>
+
+      ![Inhouds centrum maken](../media/content-understanding/admin-cu-create-cc.png)</br>
+
+3. Selecteer **Volgende**.
+
+4. Bekijk op de pagina **Voltooien en controleren** de geselecteerde instelling en kies ervoor om wijzigingen aan te brengen. Als u tevreden bent met uw selecties, selecteert u **activeren**.
+
+5. Op de pagina met **geactiveerde pagina wat is geactiveerd** , wordt bevestigd dat het systeem uw voorkeuren voor formulierverwerking toevoegt en de inhouds centrum site heeft gemaakt. Selecteer **Gereed**.
+
+6. U gaat terug naar de pagina informatie **over het automatiseren** van de inhoud. Op deze pagina kunt u **beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
 
 ## <a name="see-also"></a>Zie ook
 
+[Overzicht van het formulier verwerkings model](https://docs.microsoft.com/ai-builder/form-processing-model-overview)
 
-
-  
-
-
-
-
-
+[Stapsgewijze procedure: een document maken in overeenstemming met model (video)](https://www.youtube.com/watch?v=DymSHObD-bg)
 

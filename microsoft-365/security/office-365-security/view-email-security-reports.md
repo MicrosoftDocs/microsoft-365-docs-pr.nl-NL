@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 588c30ca07684636661c7946b2418b75574c8cbd
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: b26dd18754a96d1879a2f57ae9742ae1d1a36ce4
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199215"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295536"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -364,8 +364,13 @@ De volgende weergaven zijn beschikbaar:
 Als u op **filters**klikt, kunt u het rapport met de volgende filters wijzigen:
 
 - **Begindatum** en **einddatum**
-- Detectie waarde
-- **Beveiligd door** (alleen Office 365 ATP): **ATP** of **EOP**. Houd er rekening mee dat deze eigenschap niet kan worden gefilterd in **gegevens weergeven als: \> malware van inhoud**.
+- **Bronuitputtingsdetectie**
+- **Beveiligd door**: **ATP** of **EOP**
+- **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide).
+- **Domein**
+
+> [!NOTE]
+> **Beveiligd via**een **tag** en **domein** zijn alleen Office 365 ATP. Dit soort filters is niet beschikbaar in **gegevens weergeven op: \> malware van inhoud**.
 
 ### <a name="details-table-view-for-the-threat-protection-status-report"></a>De tabel weergave Details voor het statusrapport Bedreigingsbeveiliging
 
@@ -378,7 +383,12 @@ Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven
   - **Omgeleid door**
   - **Naam van malware**
 
-- **Gegevens weergeven op: overzicht**: de knop **informatietabel weergeven** is beschikbaar.
+Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen met de volgende filters:
+
+- **Begindatum** en **einddatum**
+- **Bronuitputtingsdetectie**
+
+**Gegevens weergeven op: overzicht**: de knop **informatietabel weergeven** is beschikbaar.
 
 - Alle overige grafieken:
 
@@ -389,12 +399,16 @@ Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven
   - **Gedetecteerd door**
   - **Leveringsstatus**
   - **Bron van compromissen**
+  - **Tags**
 
 Als u op **filters**klikt, kunt u het rapport met de volgende filters wijzigen:
 
 - **Begindatum** en **einddatum**
-- Detectie waarde
-- **Beveiligd door** (alleen Office 365 ATP): **ATP** of **EOP**. Houd er rekening mee dat deze eigenschap niet kan worden gefilterd in **gegevens weergeven als: \> malware van inhoud**.
+- **Bronuitputtingsdetectie**
+- **Beveiligd door** (alleen Office 365 ATP): **ATP** of **EOP**
+- **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide).
+- **Domein**
+- **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
 
 ## <a name="top-malware-report"></a>Belangrijkste rapport van malware
 
