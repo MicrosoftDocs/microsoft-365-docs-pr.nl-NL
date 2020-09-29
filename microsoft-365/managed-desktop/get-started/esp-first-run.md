@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d4083e48033787ca46ad2374ea461b4a77d21e0d
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 84656e2f0ae9d148c61c27af2a53e157cd44c171
+ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295857"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48299237"
 ---
 # <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>First-Run-ervaring met auto pilot en de pagina met inschrijvings status
 
@@ -46,9 +46,10 @@ Microsoft Managed Desktop gebruikt de volgende instellingen in het auto pilot-pr
 |Type gebruikersaccount     |  Standard       |
 |Sta White Glove OOBE toe     |  Ja       |
 |De sjabloonnaam van apparaat toepassen     | Ja        |
-|Voer een naam in     | MMD-% ASELECT: 7%        |
+|Voer een naam in     | MMD-% ASELECT: 11%        |
 
-
+> [!NOTE]
+> Hoewel "White Glove" rovisioning alleen ingeschakeld is voor klanten met ESP, wordt het op dit moment niet ondersteund in Microsoft Managed Desktop.
 
 ## <a name="enrollment-status-page-settings"></a>Instellingen van de pagina inschrijvings status
 
