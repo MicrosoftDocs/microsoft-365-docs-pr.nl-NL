@@ -95,6 +95,8 @@
               href: get-started/register-reused-devices-self.md
         - name: Uw gebruikers voorbereiden om apparaten te gebruiken
           href: get-started/get-started-devices.md
+        - name: First-Run-ervaring met de pagina AutoPilot en Inschrijvingsstatus
+          href: get-started/esp-first-run.md
         - name: Aan de slag met App-beheer
           href: get-started/get-started-app-control.md
         - name: Apps implementeren
