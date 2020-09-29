@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f01f76ac591b4c2be9873fa87ec416939158acd3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
-ms.translationtype: HT
+ms.openlocfilehash: 51b764e660ae36ae3476809b5fe6dae1c4ca0891
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195501"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304960"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection-preview-functies
 
@@ -42,7 +42,7 @@ Lees meer over nieuwe functies in de preview-release van Microsoft Threat Protec
 Voor meer informatie over nieuwe functies die algemeen beschikbaar zijn, raadpleegt u [Wat is er nieuw in Microsoft Threat Protection](whats-new.md).
 
 ## <a name="turn-on-preview-features"></a>Preview-functies inschakelen
-U krijgt toegang tot nieuwe functies die u kunt voorzien van feedback om te helpen de algehele ervaring te verbeteren voordat functies algemeen beschikbaar komen.
+U hebt toegang tot aanstaande functies waarmee u feedback kunt geven om de algemene ervaring te verbeteren voordat functies algemeen beschikbaar zijn.
 
 Schakel de preview-ervaringsinstelling in om een van de eersten te zijn om nieuwe functies uit te proberen.
 
@@ -61,7 +61,6 @@ U weet dat u preview-functies hebt ingeschakeld wanneer u ziet dat het selectiev
 De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-versie:
 
 - **[Microsoft Threat Protection-API's](api-overview.md)** - Met Microsoft Threat Protection-API's van topniveau kunt u werkstromen automatiseren op basis van de tabellen Gedeeld incident en Geavanceerde opsporing. 
-- **[IdentityDirectoryEvents-tabel in Geavanceerde opsporing](advanced-hunting-identitydirectoryevents-table.md)** - Vind gebeurtenissen met een on-premises domeincontroller met Active Directory (AD). Deze tabel bevat een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller.
-- **[Actie ondernemen in Geavanceerde opsporing](advanced-hunting-take-action.md)** - Snel bedreigingen indammen of aangetaste bronnen aanpakken die u vindt in [Geavanceerde opsporing](advanced-hunting-overview.md).
-- **[In-portal schemareferentie](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** - Hier vindt u informatie over Geavanceerde opsporing-schematabellen rechtstreeks in het beveiligingscentrum. Naast de tabel- en kolombeschrijvingen biedt deze handige referentie informatie over ondersteunde gebeurtenistypen (`ActionType`-waarden) en voorbeeldquery's.
+- **[Onderneem actie in de geavanceerde jacht](advanced-hunting-take-action.md)** en bevat snel bedreigingen of compromisloze activa die u vindt in de [geavanceerde jacht](advanced-hunting-overview.md).
+- Naslaginformatie over de **[Portal van het portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**: informatie over geavanceerde jacht schema tabellen rechtstreeks in het Beveiligingscentrum. Naast de beschrijvingen van tabellen en kolommen bevat deze verwijzing ondersteunde gebeurtenistypen ( `ActionType` waarden) en voorbeeldquery's.
 

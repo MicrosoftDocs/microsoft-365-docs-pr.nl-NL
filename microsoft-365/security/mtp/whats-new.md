@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: d5a7cc491b0a8547848f4e341a605ae0c4b87cc9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8b9176fea67583fbdce647b2a3c37cf1d6fde7ed
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201277"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304856"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Wat is er nieuw in Microsoft Threat Protection
 
@@ -34,12 +34,13 @@ RSS-feed: waarschuwen wanneer deze pagina wordt bijgewerkt door de volgende URL 
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
 ## <a name="september-2020"></a>September 2020
-- [AssignedIPAddresses (), functie](advanced-hunting-assignedipaddresses-function.md) <br> Gebruik deze functie in uw [geavanceerde jacht](advanced-hunting-overview.md) -query's om snel de nieuwste IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen vanaf een bepaald moment.
+- [IdentityDirectoryEvents-tabel](advanced-hunting-identitydirectoryevents-table.md) <br> Gebeurtenissen zoeken waarbij een on-premises domeincontroller met Active Directory (AD) wordt uitgevoerd. Deze schema tabel bevat [geavanceerde zoek](advanced-hunting-overview.md) opdrachten die betrekking hebben op de domeincontroller, biedt een bereik aan identiteits gerichte gebeurtenissen en systeemgebeurtenissen.
+- [AssignedIPAddresses (), functie](advanced-hunting-assignedipaddresses-function.md) <br> Gebruik deze functie in uw geavanceerde jacht-query's om snel de nieuwste IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen vanaf een specifieke tijd.
 
 ## <a name="july-2020"></a>Juli 2020
 - [FileProfile (), functie](advanced-hunting-fileprofile-function.md) <br> Gebruik deze functie in uw geavanceerde jacht-query's om resultaten te verrijken met uitgebreide bestandsinformatie.
 - [Identiteits-en app-tabellen](advanced-hunting-schema-tables.md)<br> Bekijk de voordelen van authenticatie gebeurtenissen, Active Directory-query's en app-gerelateerde activiteiten met de tabellen [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)en [AppFileEvents](advanced-hunting-appfileevents-table.md) in het schema Advanced jacht.
-- [Beginnen met opsporen](advanced-hunting-go-hunt.md)<br> Snel Pivot van het onderzoek van een incident naar een specifieke gebeurtenis, een gebruiker, een apparaat of andere entiteitstypen met behulp van geavanceerde zoekfuncties op basis van query's.
+- [Beginnen met opsporen](advanced-hunting-go-hunt.md)<br> U kunt snel een incident onderzoeken om een bepaald evenement, een gebruiker, een apparaat of andere entiteitstypen te controleren in de geavanceerde jacht.
 
 ## <a name="june-2020"></a>Juni 2020
 - Twitter-feed <br> U kunt in het dashboard de nieuwste beveiligings onderzoek, bedreigings informatie, productnieuws en meer vinden.

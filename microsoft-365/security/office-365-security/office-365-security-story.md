@@ -6,6 +6,7 @@ manager: dansimp
 ms.date: 08/13/2020
 audience: Admin
 ms.topic: overview
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -13,12 +14,12 @@ search.appverid:
 ms.collection:
 - microsoft-365-docs-pr
 description: Beveiliging in Office 365, van EOP tot ATP-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties, en meer, zodat u kunt begrijpen wat u hebt en hoe u uw eigenschappen kunt beveiligen.
-ms.openlocfilehash: 66a83d99197b8af98ef191b348b1303a8233a990
-ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
+ms.openlocfilehash: 680066f58850f59523ae6fb8a8168459dd813fc1
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 09/29/2020
-ms.locfileid: "48299296"
+ms.locfileid: "48304844"
 ---
 # <a name="office-365-security-outline"></a>Beveiligingsoverzicht van Office 365
 
@@ -50,7 +51,7 @@ Laten we aan de hand van de architectuur eerst denken aan elk deel als cumulatie
 
 <!--:::image type="content" source="../../media/tp-EOPATPStack.PNG" alt-text="Placeholder graphic":::-->
 
-:::image type="content" source="../../media/tp_EOPandATPGraphic.png" alt-text="EOP en ATP, en de relaties zijn onderling onderling met Service nadruk, waaronder een opmerking voor e-mail verificatie.":::
+:::image type="content" source="../../media/tp_EOPandATPGraphic.png" alt-text="Placeholder graphic":::
 
 Hoewel elk van deze services een specifiek doel opneemt onder bescherming, detecteren, onderzoeken en beantwoorden, kunnen ***alle*** Services een van de doel ***stellingen van de*** bescherming, detectie, onderzoek en het reageren uitvoeren.
 
@@ -65,7 +66,7 @@ Als u een Office 365 E3 of lager hebt, hebt u EOP, maar met de optie voor het aa
 
 ## <a name="the-office-365-security-ladder-from-eop-to-atp"></a>De beveiligings ladder van Office 365 van EOP naar ATP
 
-:::image type="content" source="../../media/tp_EOPATPEmailAuth4.gif" alt-text="EOP en ATP, met hun specifieke sterkte, van beschermen en detecteren voor onderzoek en antwoorden. Daarnaast wordt de configuratie voor e-mail verificatie weergegeven als nodig EOP.":::
+:::image type="content" source="../../media/tp_EOPATPEmailAuth4.gif" alt-text="Placeholder graphic":::
 
 > [!IMPORTANT]
 > Meer informatie over deze pagina's: [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide)en [Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).

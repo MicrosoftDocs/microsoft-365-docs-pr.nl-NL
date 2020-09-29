@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4a698bc0d6a7c1ebadec44357b932e9b56dc0a3c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 118d96b797e9d46b4a9912f919cafbba680a9609
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196843"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48305280"
 ---
 # <a name="identitydirectoryevents"></a>IdentityDirectoryEvents
 
@@ -31,8 +31,6 @@ ms.locfileid: "48196843"
 
 **Van toepassing op:**
 - Microsoft Threat Protection
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 De `IdentityDirectoryEvents` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat gebeurtenissen waarbij een lokale domeincontroller met Active Directory (AD) wordt uitgevoerd. In deze tabel worden verschillende identiteits gerelateerde gebeurtenissen vastgelegd, zoals het wijzigen van wachtwoorden, het verlopen van wachtwoorden en UPN (User Principal Name)-wijzigingen. Ook worden systeemgebeurtenissen vastgelegd op de domeincontroller, zoals het plannen van taken en PowerShell-activiteiten. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
@@ -57,7 +55,7 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `AccountDomain` | tekenreeks | Domein van het account |
 | `AccountUpn` | tekenreeks | UPN (User Principal Name) van het account |
 | `AccountSid` | tekenreeks | SID (Security Identifier) van het account |
-| `AccountObjectId` | tekenreeks | Unieke id voor het account in azure AD |
+| `AccountObjectId` | tekenreeks | Unieke id voor het account in azure Active Directory |
 | `AccountDisplayName` | tekenreeks | Naam van de account gebruiker die in het adresboek wordt weergegeven. Meestal een combinatie van een bepaalde of voornaam, een tweede opening en een achternaam of achternaam. |
 | `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van het apparaat |
 | `IPAddress` | tekenreeks | IP-adres dat is toegewezen aan het apparaat tijdens de communicatie |

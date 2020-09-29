@@ -1,6 +1,6 @@
 ---
-title: First-Run-ervaring met auto pilot en de pagina met inschrijvings status
-description: De weergave van de ESP-ervaring, de gebruikte instellingen en uitzonderingen implementeren
+title: First-Run-ervaring met de pagina AutoPilot en Inschrijvingsstatus
+description: De weergave van de ESP-ervaring toepassen, de gebruikte instellingen en configuratiewijzigingen
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -10,14 +10,14 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 84656e2f0ae9d148c61c27af2a53e157cd44c171
-ms.sourcegitcommit: e6283e7c32ba9628fc45e9abc5cd4d21fb3f7ca9
+ms.openlocfilehash: 7337dd28f7940256d1753cd4c0b6309406fab2d1
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 09/29/2020
-ms.locfileid: "48299237"
+ms.locfileid: "48305268"
 ---
-# <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>First-Run-ervaring met auto pilot en de pagina met inschrijvings status
+# <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>First-Run-ervaring met de pagina AutoPilot en Inschrijvingsstatus
 
 Op Microsoft Managed Desktop wordt de pagina met de [inschrijvings status](https://docs.microsoft.com/windows/deployment/windows-autopilot/enrollment-status) van Microsoft- [gebruiker en micro](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot) Soft intune gebruikt om de beste ervaring voor uw gebruikers te bieden.
 
@@ -49,7 +49,7 @@ Microsoft Managed Desktop gebruikt de volgende instellingen in het auto pilot-pr
 |Voer een naam in     | MMD-% ASELECT: 11%        |
 
 > [!NOTE]
-> Hoewel "White Glove" rovisioning alleen ingeschakeld is voor klanten met ESP, wordt het op dit moment niet ondersteund in Microsoft Managed Desktop.
+> Hoewel het inrichten van ' White Glove ' alleen wordt ingeschakeld voor klanten met ESP, wordt het momenteel niet ondersteund in Microsoft Managed Desktop.
 
 ## <a name="enrollment-status-page-settings"></a>Instellingen van de pagina inschrijvings status
 
@@ -89,15 +89,15 @@ De ervaring verloopt als volgt:
 
 Microsoft Managed Desktop biedt op dit moment geen ondersteuning voor de functie "White Glove" van Windows auto pilot.
 
-## <a name="exceptions"></a>Ring
+## <a name="change-to-autopilot-and-enrollment-status-page-settings"></a>De pagina-instellingen voor de instellingen voor auto pilot en inschrijvings status wijzigen
 
-Als de installatie van de Microsoft-website die door Microsoft wordt beheerd, niet precies overeenkomt met uw behoeften, kunt u een aanvraag voor een uitzondering indienen. Zie voor meer informatie hierover details in [verzoek om een uitzondering](../service-description/customizing.md#request-an-exception). Hier volgen enkele voorbeelden van de typen uitzonderingen die u mogelijk nodig hebt:
+Als de installatie van de Microsoft-website die door Microsoft wordt beheerd, niet precies overeenkomt met uw behoeften, kunt u een ondersteuningsticket via de [Beheer Portal](https://portal.azure.com/)opslaan. Hier volgen enkele voorbeelden van de typen configuraties die u mogelijk nodig hebt:
 
-### <a name="autopilot-exception"></a>Auto Pilot-uitzondering
+### <a name="autopilot-settings-change"></a>Wijziging van auto pilot-instellingen
 
 Mogelijk wilt u een andere sjabloon voor de naam van de apparaat aanvragen. U kunt echter de implementatie modus wijzigen, lid worden van Azure als privacy-instellingen of type gebruikers account.
 
-### <a name="enrollment-status-page-exception"></a>Uitzondering pagina met inschrijvings status
+### <a name="enrollment-status-page-settings-change"></a>Wijziging van de pagina instellingen voor de inschrijvings status
 
 - Een langer aantal minuten voor de instelling ' een fout weergeven wanneer de installatie langer duurt dan een bepaald aantal minuten '.
 - Het foutbericht wordt weergegeven

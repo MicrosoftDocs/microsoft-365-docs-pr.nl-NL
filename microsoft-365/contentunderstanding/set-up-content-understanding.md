@@ -10,12 +10,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Inzicht in inhoud instellen in Project cortex
-ms.openlocfilehash: f0a26f0044e578928730cf4930f1524e86dff9f3
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 31c6b6dd31b3f1bc47deb8424dd847cc0af6d429
+ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294839"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304778"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint-Syntex instellen
 
@@ -107,27 +107,7 @@ Als u een 300 of meer SharePoint-Syntex-licenties voor SharePoint Syntex in uw o
 
 U kunt de capaciteit van de AI Builder voor u ramen met de [AI Builder-rekenmachine](https://powerapps.microsoft.com/ai-builder-calculator).
 
-1. Ga naar het [Power platform-Beheercentrum](https://admin.powerplatform.microsoft.com/resources/capacity) om uw tegoed en gebruik te controleren.
-
-    > [!NOTE]
-    > Het inschakelen van deze instelling voor een SharePoint-documentbibliotheek heeft geen invloed op bestaande modellen die zijn toegepast op de bibliotheek of de mogelijkheid om documenten toe te passen op een bibliotheek. 
-    
-2. Op de pagina **inhouds centrum maken** kunt u een SharePoint-inhouds centrum site maken waarvoor gebruikers document kunnen maken en beheren met modellen. </br>
-    a. Voor de naam van de **site**typt u de gewenste naam voor de inhouds centrum site.</br>
-    b. Het **site adres** toont de URL voor uw site, op basis van de naam van de site.</br>
-
-    > [!NOTE] 
-    > U kunt alle ondersteunde talen selecteren, maar u kunt de inhoud van modellen niet alleen maken voor Engels.</br>
-
-      ![Inhouds centrum maken](../media/content-understanding/admin-cu-create-cc.png)</br>
-
-3. Selecteer **Volgende**.
-
-4. Bekijk op de pagina **Voltooien en controleren** de geselecteerde instelling en kies ervoor om wijzigingen aan te brengen. Als u tevreden bent met uw selecties, selecteert u **activeren**.
-
-5. Op de pagina met **geactiveerde pagina wat is geactiveerd** , wordt bevestigd dat het systeem uw voorkeuren voor formulierverwerking toevoegt en de inhouds centrum site heeft gemaakt. Selecteer **Gereed**.
-
-6. U gaat terug naar de pagina informatie **over het automatiseren** van de inhoud. Op deze pagina kunt u **beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
+Ga naar het [Power platform-Beheercentrum](https://admin.powerplatform.microsoft.com/resources/capacity) om uw tegoed en gebruik te controleren.
 
 ## <a name="see-also"></a>Zie ook
 
