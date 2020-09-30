@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Overzicht van netwerkverbindingen in het Microsoft 365-Beheercentrum (preview)
-ms.openlocfilehash: 52d1995572a3ae0220ac8529862ba69d5bca8cdb
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 91c931eba5c9f5bdb9f45185581019cc9c754ed2
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235536"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322197"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 
@@ -157,8 +157,8 @@ In het CSV-bestand wordt een gedetecteerde locatie van de stad weergegeven in de
    1. **Adres** (vereist): het fysieke adres van het kantoor
    1. **Breedtegraad** (optioneel): gevuld met Bing Maps lookup van het adres indien leeg
    1. **Lengtegraad** (optioneel): gevuld met Bing Maps lookup van het adres indien leeg
-   1. **IP-adresbereiken voor IP-** adresbereiken 1-5 (optioneel): voor elk bereik voert u de naam van het circuit in gevolgd door een lijst met geldige IPv4-of IPv6-adressen die door een spatie zijn gescheiden. Deze waarden worden gebruikt om meerdere kantoorlocaties te onderscheiden waarop u dezelfde IP-adressen voor het LAN-subnet gebruikt.
-   1. **LanIps** (vereist): Hiermee kunt u de subnet-bereiken voor LAN weergeven die op deze locatie van Office worden gebruikt.
+   1. **IP-adresbereiken voor IP-** adresbereiken 1-5 (optioneel): voor elk bereik voert u de naam van het circuit in gevolgd door een lijst met geldige IPv4-of IPv6-adressen die door een spatie zijn gescheiden. Deze waarden worden gebruikt om meerdere kantoorlocaties te onderscheiden waarop u dezelfde IP-adressen voor het LAN-subnet gebruikt. IP-adresbereiken voor IP-adresbereiken moeten allemaal/24 netwerk formaat zijn en de/24 niet is opgenomen in de invoer.
+   1. **LanIps** (vereist): Hiermee kunt u de subnet-bereiken voor LAN weergeven die op deze locatie van Office worden gebruikt. De subnet-Id's van het LAN moeten beschikken over een CIDR-netwerk formaat, waarbij de netwerkgrootte tussen/8 en/29 kan liggen. Meerdere LAN-subnetmasks kunnen worden gescheiden door een komma of een puntkomma.
 1. Wanneer u uw Office-locaties hebt toegevoegd en het bestand hebt opgeslagen, klikt u op de knop **Bladeren** naast het veld **voltooid uploaden** en selecteert u het opgeslagen CSV-bestand.
 1. Het bestand wordt automatisch gevalideerd. Als er validatiefouten zijn, wordt het foutbericht weergegeven _in het importbestand. Controleer de fouten, corrigeer het importbestand en probeer het opnieuw._ Klik op de koppeling **Open foutgegevens** voor een lijst met specifieke veld validatiefouten.
 

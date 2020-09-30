@@ -1,6 +1,6 @@
 ---
 title: Printbronnen voorbereiden voor Microsoft Managed Desktop
-description: Belangrijke stappen om ervoor te zorgen dat afdrukken soepel verloopt
+description: Belangrijke stappen om ervoor te zorgen dat werk soepel verloopt
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,31 +9,31 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1588a2c91bcbe0bd381acb6be4f9bd5562810860
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 5198691a38b179a5491a36de95531edb9f32d691
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530245"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322221"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Printbronnen voorbereiden voor Microsoft Managed Desktop
 
-Als u zich klaar maakt om u in te schrijven voor Microsoft Managed Desktop, moet u uw afdrukvereisten evalueren en de juiste aanpak voor uw omgeving bepalen. Je hebt drie opties:
+Als u klaar bent om u aan te melden bij Microsoft Managed Desktop, evalueert u de afdrukvereisten en bepaalt u de juiste aanpak voor de omgeving. U hebt drie opties:
  
-- Implementeer de hybride cloudprintoplossing van Microsoft om microsoft Managed Desktop-apparaten eenvoudig printers te laten ontdekken. Zie [Windows Server Hybrid Cloud Print implementeren](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)voor meer informatie.
-- Implementeer printers rechtstreeks met behulp van een aangepast PowerShell-script. Volg hiervoor de stappen in de sectie [Lokale printers instellen.](#set-up-local-printers)
-- Gebruik een niet-Microsoft-cloudafdrukoplossing die compatibel is met Windows 10-apparaten die zijn gekoppeld aan een Azure Active Directory-domein. De oplossing moet voldoen aan de softwarevereisten voor Microsoft Managed Desktop. Zie [Microsoft Managed Desktop-appvereisten](../service-description/mmd-app-requirements.md)voor meer informatie .
+- Implementeer de Microsoft Universal Print-oplossing zodat Microsoft de beheerde bureaublad apparaten gemakkelijk kunnen detecteren. Zie [Wat is universeel afdrukken](https://docs.microsoft.com/universal-print/fundamentals/universal-print-whatis)voor meer informatie.
+- Gebruik rechtstreeks een aangepaste PowerShell-script om printers te implementeren. Voer de stappen uit in de sectie [lokale printers instellen](#set-up-local-printers) om dit te doen.
+- Gebruik een niet-Microsoft Cloud printing-oplossing die compatibel is met Windows 10-apparaten die lid zijn van een Azure Active Directory-domein. De oplossing moet voldoen aan de softwarevereisten voor Microsoft Managed Desktop. Zie vereisten voor de [beheerde bureaubladtoepassing van Microsoft](../service-description/mmd-app-requirements.md)voor meer informatie.
  
-Als de printerstuurprogramma's niet beschikbaar zijn via Microsoft Update of de Microsoft Store, moet u ze in alle gevallen zelf ophalen en laten verpakken voor implementatie naar uw Microsoft Managed Desktop-apparaten met Microsoft Intune. Zie [Intune Standalone - Win32-appbeheer voor](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management) meer informatie
+Als de printerstuurprogramma's niet beschikbaar zijn in Microsoft Update of in de Microsoft Store, kunt u deze in alle gevallen zelf verkrijgen en ze laten inpakken voor implementatie met Microsoft intune voor Microsoft Managed Desktop-apparaten. Zie voor meer informatie [intune standalone-Win32®-app beheren](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management)
 
 ## <a name="set-up-local-printers"></a>Lokale printers instellen
 
-Als u hebt besloten printers te implementeren met behulp van een aangepast PowerShell-script en de afdrukbronnen hebt voorbereid, voert u de volgende stappen uit om gedeelde printers te laten implementeren:
+Als u hebt besloten om printers te implementeren met behulp van een aangepast PowerShell-script en de afdrukbronnen hebt voorbereid, voert u deze stappen uit om gedeelde printers te implementeren:
 
-1.  Navigeer naar de Microsoft Managed Desktop-portal.
-2.  Dien een verzoek met het label *Printer-implementatie* in de sectie **Ondersteuningsaanvragen > ondersteuningsaanvragen** van de beheerportal, met de volgende gegevens:
-    - Alle UNC-paden naar gedeelde printerlocaties die moeten worden geïmplementeerd voor Microsoft Managed Desktop-apparaten
-    - Gebruikersgroepen die toegang tot deze gedeelde printers vereisen
-3.  Via de beheerportal laten we je weten wanneer de aanvraag is voltooid. In eerste instantie implementeren we de configuratie alleen naar apparaten in de implementatiegroep Testen.
-4.  U moet testen en bevestigen of de configuratie werkt zoals u verwacht. Beantwoord met het tabblad **Discussie** in het ondersteuningsverzoek om ons te laten weten wanneer u uw tests hebt voltooid.
-5.  Vervolgens implementeren we de configuratie naar de andere implementatiegroepen.
+1.  Ga naar de Microsoft beheerde bureaublad Portal.
+2.  Verzend een aanvraag met de naam *printer implementatie* in **ondersteunings-en ondersteuningsverzoeken >** ondersteuningsverzoeken van de beheer Portal, mits deze gegevens worden verstrekt:
+    - Alle UNC-paden naar gedeelde printerlocaties die moeten worden geïmplementeerd voor Microsoft beheerde bureaublad apparaten
+    - Gebruikersgroepen die toegang hebben tot deze gedeelde printers
+3.  Met de beheer Portal laten we u weten wanneer de aanvraag is voltooid. In eerste instantie implementeren we de configuratie alleen op apparaten in de implementatiegroep testen.
+4.  U moet testen en controleren of de configuratie werkt zoals u verwacht. Antwoord met het tabblad **discussie** in het ondersteuningsverzoek om ons te laten weten wanneer u klaar bent met het testen.
+5.  Vervolgens implementeren we de configuratie naar de andere implementatie groepen.

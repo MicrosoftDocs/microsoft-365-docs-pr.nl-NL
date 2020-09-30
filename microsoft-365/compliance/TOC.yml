@@ -151,8 +151,10 @@
       items:
         - name: Informatie over versleuteling
           href: encryption.md
-        - name: Dubbele sleutelcodering (preview)
+        - name: Dubbele sleutelcodering (DKE)
           href: double-key-encryption.md
+        - name: Dubbele sleutelcodering FAQ
+          href: double-key-encryption-overview.md
         - name: Versleuteling van Office 365-service
           href: office-365-service-encryption.md
         - name: Klantsleutel
@@ -340,10 +342,6 @@
               href: archive-workplacefromfacebook-data.md
             - name: Zoom Meetings
               href: archive-zoommeetings-data.md
-            - name: Slack
-              href: archive-slack-data.md
-            - name: Zoom Meetings
-              href: archive-zoommeetings-data.md
         - name: TeleMessage-gegevensconnectors
           items:
             - name: Android
@@ -425,7 +423,7 @@
               href: configure-edge-to-export-search-results.md
             - name: E-mailberichten zoeken en verwijderen
               href: search-for-and-delete-messages-in-your-organization.md
-            - name: Zoeken in cloudpostvakken van on-premises gebruikers
+            - name: Chatgegevens voor teams zoeken voor on-premises gebruikers
               href: search-cloud-based-mailboxes-for-on-premises-users.md
             - name: Meerdere inhoudzoekacties bulksgewijs bewerken
               href: bulk-edit-content-searches.md

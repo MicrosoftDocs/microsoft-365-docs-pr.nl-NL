@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het testen van e-mailfunctionaliteit vanaf mijn aangepast domein in een Microsoft 365-postvak met slechts twee testaccounts.
-ms.openlocfilehash: bfcb2bda4d560ab629ddebed88ac1d55e6224c05
-ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
+ms.openlocfilehash: 8bb04edc9a7879edc2094f1fed667d5956174ea3
+ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "45186041"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48295032"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>Testfase van Microsoft 365 uitvoeren vanaf mijn aangepaste domein
 
@@ -101,7 +101,48 @@ Microsoft 365 maakt gebruik van Exchange Online Protection (EOP) voor beschermin
 
 5. Selecteer **Maken** > **Sluiten**.
 
-### <a name="step-6-update-dns-records-at-your-dns-hosting-provider"></a>Stap 6: DNS-records bijwerken bij uw DNS-hostingprovider
+### <a name="step-6-configure-mail-to-flow-from-microsoft-365-or-office-365-to-email-server"></a>Stap 6: **e-mailberichten van Microsoft 365 of Office 365 naar een e-mailserver configureren
+
+Hier moet u twee stappen voor volgen:
+
+1. Configureer uw Microsoft 365-of Office 365-omgeving.
+
+2. Een connector van Microsoft 365 of Office 365 instellen op uw e-mailserver.
+
+### <a name="1-configure-your-microsoft-365-or-office-365-environment"></a>1. Configureer uw Microsoft 365- of Office 365-omgeving
+
+Controleer of u de volgende taken hebt uitgevoerd in Microsoft 365 of Office 365:
+
+1. Voor het instellen van connectors moet u machtigingen toewijzen voordat u aan de slag kunt. Als u wilt controleren welke machtigingen u nodig hebt, raadpleegt u het item Microsoft 365 en Office 365-connectors in bij [Functiemachtigingen in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/feature-permissions-in-eop).
+
+2. Als u wilt dat EOP of Exchange Online e-mailberichten van uw e-mailservers naar Internet doorstuurt, doet u het volgende:
+
+   - Gebruik een certificaat dat is geconfigureerd met een onderwerpnaam die overeenkomt met een geaccepteerd domein in Microsoft 365 of Office 365. Het is raadzaam om de naam van de algemene naam of alternatieve naam van uw certificaat te laten overeenkomen met het primaire SMTP-domein voor uw organisatie. Zie [vereisten voor uw on-premises e-mail omgeving](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#prerequisites-for-your-on-premises-email-environment)voor meer informatie.
+
+   -OF-
+
+   - Zorg ervoor dat alle domeinnamen van de organisatie en subdomeinen zijn geconfigureerd als geaccepteerde domeinen in Microsoft 365 of Office 365.
+
+   Zie voor meer informatie over het definiëren van geaccepteerde domeinen [Geaccepteerde domeinen beheren in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) en [E-mailstroom inschakelen voor subdomeinen in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains).
+
+3. Beslis of u de regels voor de e-mailstroom (ook wel transportregels genoemd) of domeinnamen wilt gebruiken voor het verzenden van e-mail van Microsoft 365 of Office 365 naar uw e-mailservers. De meeste bedrijven kiezen voor het bezorgen van e-mail voor alle geaccepteerde domeinen. Zie voor meer informatie [scenario: voorwaardelijke routering voor e-mail in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing).
+
+> [!NOTE]
+> U kunt regels voor de e-mailstroom instellen zoals wordt beschreven in [de acties voor de e-mailstroom regel in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions). Het is bijvoorbeeld mogelijk dat u regels voor e-mailstroom met connectors wilt gebruiken als uw e-mailberichten momenteel via distributielijsten naar meerdere sites worden gestuurd.
+
+### <a name="2-set-up-a-connector-from-microsoft-365-or-office-365-to-your-email-server"></a>2. Een connector van Microsoft 365 of Office 365 instellen op uw e-mailserver.
+
+Als u een connector wilt maken in Microsoft 365 of Office 365, klikt u op **Beheer**en klikt u vervolgens op **Exchange** om naar het Exchange-Beheercentrum te gaan. Klik vervolgens in het bij **e-mailstroom** op **connectors**.
+
+Connectors instellen met de wizard.
+
+Klik op het plusteken **+** om de wizard te starten. Kies in het eerste scherm **Van** Office 365 en **Naar** de e-mailserver van uw organisatie.
+
+Klik op **Volgende** en volg de instructies van de wizard. Klik op de koppelingen **Help** of **Meer informatie** als u meer informatie nodig hebt. De wizard begeleidt u bij het instellen. Controleer aan het uiteinde of de connector zich valideert. Als het niet lukt om de connector te valideren, dubbelklikt u op het bericht dat wordt weergegeven om meer informatie weer te geven. Zie [Connectors valideren](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors) voor hulp bij het oplossen van problemen.
+
+
+
+### <a name="step-7-update-dns-records-at-your-dns-hosting-provider"></a>Stap 7: DNS-records bijwerken bij uw DNS-hostingprovider
 
 Meld u aan bij de website van uw DNS-hostingprovider en volg de instructies op [DNS-records toevoegen om het domein te verbinden](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
@@ -115,7 +156,7 @@ Meld u aan bij de website van uw DNS-hostingprovider en volg de instructies op [
 
     Als u geen SPF-record hebt, wijzigt u de door Microsoft 365 aanbevolen record om het domein voor uw huidige e-mailprovider op te nemen en voegt u spf.protection.outlook.com toe. Hiermee autoriseert u uitgaande berichten van beide e-mailsystemen.
 
-### <a name="step-7-set-up-email-forwarding-at-your-current-provider"></a>Stap 7: doorsturen van e-mail instellen bij uw huidige provider
+### <a name="step-8-set-up-email-forwarding-at-your-current-provider"></a>Stap 8: doorsturen van e-mail instellen bij uw huidige provider
 
 Stel bij uw huidige e-mailprovider het doorsturen van e-mail in voor de e-mailaccounts van uw gebruikers voor het onmicrosoft.com-domein:
 
@@ -130,7 +171,7 @@ Wanneer u deze stap hebt voltooid, zijn alle e-mailberichten die naar gebruikera
 > U hoeft geen kopie van berichten te bewaren bij de huidige e-mailprovider. <br/>
 > Bij de meeste providers blijft het antwoordadres van de afzender behouden bij het doorsturen van e-mail. Antwoorden worden dus verzonden naar de oorspronkelijke afzender. 
 
-### <a name="step-8-test-mail-flow"></a>Stap 8: e-mailstroom testen
+### <a name="step-9-test-mail-flow"></a>Stap 9: e-mailstroom testen
 
 1. Meld u aan bij Outlook Web App met de referenties van gebruiker A.
 
@@ -142,10 +183,10 @@ Wanneer u deze stap hebt voltooid, zijn alle e-mailberichten die naar gebruikera
 
     - Controleer of het doorsturen correct is ingesteld vanaf een extern account of vanaf een e-mailaccount van een werknemer in het bestaande e-mailsysteem. Bijvoorbeeld: verzend vanaf het oorspronkelijke serveraccount voor gebruiker C of vanaf een Hotmail-account een e-mailbericht naar gebruiker A en controleer of het wordt bezorgd in het Microsoft 365-postvak voor gebruiker A.
 
-### <a name="step-9-move-mailbox-contents"></a>Stap 9: inhoud van postvak verplaatsen
+### <a name="step-10-move-mailbox-contents"></a>Stap 10: inhoud van postvak verplaatsen
 
 Aangezien er slechts twee testgebruikers worden verplaatst en gebruiker A en gebruiker B beide Outlook gebruiken, kunt u de e-mail verplaatsen door het oude PST-bestand te openen in het nieuwe Outlook-profiel en de berichten, agenda-items, contactpersonen, enzovoort te kopiëren. Zie [E-mail, contactpersonen en agenda importeren vanuit een PST-bestand in Outlook](https://support.microsoft.com/office/import-email-contacts-and-calendar-from-an-outlook-pst-file-431a8e9a-f99f-4d5f-ae48-ded54b3440ac) voor meer informatie.
 
 Nadat de items naar de juiste locaties in het Microsoft 365-postvak zijn geïmporteerd, kunnen ze overal op elk apparaat worden geopend.
 
-Als er meer postvakken betrokken zijn of als Outlook niet wordt gebruikt, kunt u de migratiehulpprogramma's in het Exchange-beheercentrum gebruiken. Ga aan de slag door naar het Exchange-beheercentrum te gaan en de aanwijzingen te volgen in [E-mail migreren vanaf een IMAP-server naar Exchange Online-postvakken].
+Als er meer postvakken betrokken zijn of als Outlook niet wordt gebruikt, kunt u de migratiehulpprogramma's in het Exchange-beheercentrum gebruiken. Ga aan de slag door naar het Exchange-beheercentrum te gaan en de aanwijzingen te volgen in [E-mail migreren vanaf een IMAP-server naar Exchange Online-postvakken](https://docs.microsoft.com/exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes).

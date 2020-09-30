@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een team voor samenwerking met gasten in teams.
-ms.openlocfilehash: f22404ea412085ed697f76219509c1382318e7d4
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: e8d1c75c6172168fc2b0a4b351591289c893869a
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797768"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322175"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Met gasten samenwerken in een team
 
@@ -105,7 +105,7 @@ Als u het delen van bestanden en mappen met niet-geverifieerde personen wilt toe
 Instellingen voordelen van SharePoint-organisatieniveau instellen
 
 1. Klik in het Microsoft 365-Beheercentrum, in het linkernavigatievenster, onder **beheer centra**op **SharePoint**.
-2. Klik in het SharePoint Online Beheercentrum in het navigatievenster aan de linkerkant op **delen**.
+2. Vouw in het SharePoint-Beheercentrum in het linkernavigatievenster **beleidsregels** uit en klik vervolgens op **delen**.
 3. Zorg ervoor dat extern delen voor SharePoint is ingesteld op **iedereen** of **nieuwe en bestaande gasten**.
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
