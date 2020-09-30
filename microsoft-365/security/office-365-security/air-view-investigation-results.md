@@ -15,12 +15,13 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 kunt u de resultaten en de belangrijkste bevindingen bekijken.
-ms.openlocfilehash: 6137edf741dc2ef21ec4e046b1985dd3f85b5720
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.date: 09/29/2020
+ms.openlocfilehash: df0eaa54d8bc1c9cd6c91b6b36958e1eb0d2bfd6
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197689"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48309104"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
@@ -144,10 +145,14 @@ De hoeveelheid e-mail die gebruikers in een organisatie verzenden en ontvangen, 
 
 kan veel tijd in beslag nemen. AIR automatiseert dit proces nu en bespaart de tijd en inspanning van uw organisatie.
 
-Er worden twee verschillende typen e-mail clusters aangegeven tijdens de stap voor de analyse van e-mail: overeenkomsten clusters en indicator clusters.
+Er worden drie verschillende typen e-mail clusters aangegeven tijdens de stap voor de analyse van e-mail: gelijkenis clusters (alle controles), indicator clusters (alle controles) en Postvak/gebruikers clusters.
 
 - Gelijkenis clusters zijn e-mailberichten die worden aangegeven met de jacht voor e-mailberichten met soortgelijke afzender en inhouds kenmerken. Deze clusters worden geëvalueerd voor schadelijke inhoud op basis van de oorspronkelijke detectie bevindingen. E-mail clusters met voldoende schadelijke e-mail detectie worden als schadelijk beschouwd.
-- Indicator clusters zijn e-mailberichten die worden geïdentificeerd door te zoeken naar dezelfde indicator entiteit (bestandshash of URL) van het oorspronkelijke e-mailbericht. Wanneer de oorspronkelijke bestands-en URL-entiteit als schadelijk wordt geïdentificeerd, past de ether de indicator verdict toe aan het volledige cluster van e-mailberichten die de desbetreffende entiteit bevatten. Een bestand dat is geïdentificeerd als malware betekent dat het cluster van e-mailberichten met dat bestand als malware-e-mailberichten wordt behandeld.
+- Indicator clusters zijn e-mailberichten die worden geïdentificeerd door te zoeken naar dezelfde indicator entiteit (bestandshash of URL) van het oorspronkelijke e-mailbericht. Wanneer het ouserriginal-bestand/de URL-entiteit als schadelijk wordt geïdentificeerd, past lucht de indicator verdict toe op het hele cluster van e-mailberichten die de desbetreffende entiteit bevatten. Een bestand dat is geïdentificeerd als malware betekent dat het cluster van e-mailberichten met dat bestand als malware-e-mailberichten wordt behandeld.
+- Postvak/gebruikers clusters zijn e-mailberichten die zijn gerelateerd aan de gebruiker bij een aanvaller onderzoek.  Houd er rekening mee dat deze e-mail clusters voor verdere analyse door het team van beveiligingsbewerkingen zijn bedoeld en geen acties voor het doorsturen van e-mailberichten kunnen genereren.  Het postvak/gebruikers clusters van de compromis van Playbook beoordeelt de e-mail die wordt verzonden door de gebruiker die wordt geanalyseerd, zodat u inzicht krijgt in de mogelijke gevolgen van e-mailberichten die worden verzonden via het postvak:
+    - Kwaadwillende e-mailberichten die zijn verzonden via het postvak of de gebruiker, die de mogelijke compromissen van het postvak of de account weergeven en worden andere gebruikers/postvakken weergegeven die schadelijk kunnen zijn als onderdeel van een aanval.
+    - Verdachte e-mailberichten die zijn verzonden door het postvak of de gebruiker, met ongewenste e-mail/bulk berichten die vanuit het postvak zijn verzonden en die mogelijk te maken hebben met mogelijke compromissen of ten minste een ongewenste activiteit van het e-mailaccount aangeven.
+    - U kunt e-mailberichten die zijn verzonden door het postvak of de gebruiker wissen, waarmee het beveiligingsactiviteiten team een weergave biedt van legitieme gebruikers e-mailberichten die een weergave van geldige e-mail e-mailaccounts bevat.
 
 Het doel van clustering is om andere verwante e-mailberichten te zoeken die door dezelfde afzender worden verzonden als onderdeel van een aanval of een campagne.  In sommige gevallen kan via legitiem e-mail onderzoek een onderzoek worden gestart (bijvoorbeeld een gebruiker heeft een marketing-e-mail).  In deze scenario's moet in het cluster van e-mail clusters wordt aangegeven dat e-mail clusters niet schadelijk zijn, op voor willekeurige wijze, en het is **niet mogelijk** om e-mail te verwijderen.
 
@@ -155,7 +160,7 @@ Het tabblad **e-mail** bevat ook e-mail items die betrekking hebben op het onder
 
 Het aantal e-mailberichten dat wordt aangegeven op het tabblad e-mail, staat momenteel voor het totaal van alle e-mailberichten die worden weergegeven op het tabblad **e-mail** . Aangezien e-mailberichten in meerdere clusters zijn opgenomen, wordt het totale aantal e-mailberichten dat wordt aangeduid (en beïnvloed door acties voor herbemiddeling) het aantal unieke e-mailberichten die in alle clusters en e-mailberichten van de oorspronkelijke geadresseerden zijn aangegeven.
 
-Zowel Explorer als het aantal e-mailberichten per geadresseerde, aangezien het beveiligings Verdicts, de acties en de bezorgingslocaties per geadresseerde verschillen. Een oorspronkelijk e-mailbericht dat naar drie gebruikers is verzonden, telt een totaal van drie e-mailberichten in plaats van één e-mailbericht. Opmerking in het geval van een e-mailbericht kunnen een e-mailbericht twee of meer keren worden geteld, aangezien het e-mailbericht meerdere acties op het e-mailbericht heeft, kunnen er meerdere kopieën van het e-mailbericht zijn wanneer alle acties plaatsvinden. Als een malware-e-mailbericht dat bij de bezorging is gedetecteerd, kan worden gevonden, kan dit leiden tot zowel een geblokkeerd (quarantaine) e-mailadres en een vervangend e-mailbericht (bedreigings bestand vervangen door een waarschuwings bestand, vervolgens bezorgd in het postvak van de gebruiker). Aangezien er al meerdere kopieën van het e-mailbericht in het systeem zijn, kunnen beide worden geteld in het aantal clusters.
+E-mail van de Verkenner en de ether worden per geadresseerde verzonden, aangezien de beveiligings-Verdicts,-acties en-bezorgingslocaties verschillen per geadresseerde. Daarom telt een oorspronkelijk e-mailbericht dat naar drie gebruikers is verzonden, een totaal van drie e-mailberichten in plaats van één e-mailbericht. Er kunnen situaties zijn waarin een e-mailbericht twee of meer keren wordt geteld, bijvoorbeeld wanneer een e-mail meerdere acties bevat, of als er meerdere kopieën van de e-mail zijn wanneer alle acties plaatsvinden. Als u bijvoorbeeld een malware-e-mailbericht dat bij de bezorging is gedetecteerd, wordt weergegeven in zowel een vergrendelde e-mail als een vervangend e-mailbericht (bedreigings bestand vervangen door een waarschuwings bestand, vervolgens bezorgd in het postvak van de gebruiker). Aangezien er in het systeem wel of meerdere kopieën van de e-mail worden weergegeven, worden beide mogelijk geteld in het aantal clusters.
 
 Het aantal e-mailberichten wordt berekend op het moment van het onderzoek en sommige tellingen worden herberekend wanneer u onderzoek-flyouten opent (op basis van een onderliggende query). Het aantal e-mailberichten dat wordt weergegeven voor de e-mail clusters op het tabblad e-mail en de waarde voor e-mail hoeveelheid die wordt weergegeven in het cluster flyout, worden berekend op het moment van onderzoek en niet gewijzigd. Het aantal e-mailberichten onderaan het tabblad e-mail van de flyout e-mail cluster en het aantal e-mailberichten in Explorer weerspiegelt de e-mailberichten die zijn ontvangen na de eerste analyse van het onderzoek. Daarom wordt in een e-mail cluster met een oorspronkelijk aantal tien e-mailberichten een e-mail lijst met het totaal aantal tien weergegeven wanneer vijf e-mailberichten binnenkomen tussen de fase onderzoek analyse en wanneer de beheerder het onderzoek beoordeelt.  Ook oude onderzoeken kunnen beginnen met het groter maken van de weergave van Verkenner-query's, aangezien ATP P2 gegevens na 7 dagen verloopt voor proefversies en 30 dagen voor betaalde licenties.  Als u de weergave van zowel historische als huidige aantallen in verschillende weergaven wilt weergeven, wordt het e-mailbericht op het moment van het onderzoek en de huidige impact op het moment van herstel weergegeven.
 
@@ -232,7 +237,7 @@ U kunt:
 |DLP-schendingen onderzoek|Schendingen van [preventie van gegevensverlies](../../compliance/data-loss-prevention-policies.md) (DLP) onderzoeken|
 |Extractie van e-mail indicatoren|Indicatoren uitpakken uit de koptekst, hoofdtekst en inhoud van een e-mailbericht voor onderzoek|
 |Reputatie van bestands hash|Afwijkingen detecteren op basis van bestands-hashes voor gebruikers en computers in uw organisatie|
-|E-mail cluster identificatie|Analyse van e-mail cluster op basis van koptekst, hoofdtekst, inhoud en Url's|
+|E-mail cluster identificatie|Analyse van e-mail cluster op basis van koptekst, hoofdtekst, inhoud, bestanden en Url's|
 |Analyse van clustervolume in mail|Analyse van e-mail cluster op basis van uitgaande e-mail patronen volume patronen|
 |Verificatie van e-mail overdracht|De toegang tot gebruikerspostvakken voor dit onderzoek onderzoeken|
 |Onderzoek van regels voor het doorsturen van e-mail|Alle regels voor het doorsturen van e-mail onderzoeken voor postvakken van gebruikers die zijn gekoppeld aan dit onderzoek|

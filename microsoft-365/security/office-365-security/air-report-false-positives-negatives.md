@@ -1,6 +1,6 @@
 ---
-title: Onjuiste of onjuiste negatieven rapporteren in Office 365 automatisch onderzoek en antwoord
-description: Is er een fout opgetreden bij een gemiste of onjuiste detectie van Office 365 Advanced Threat Protection? Meer informatie over het indienen van onjuiste of onjuiste negatieven bij Microsoft voor analyse.
+title: Onjuiste of onjuiste negatieven rapporteren na geautomatiseerd onderzoek in Microsoft Defender voor Office 365
+description: Is er een fout opgetreden bij een gemiste of onjuiste detectie van de lucht in Microsoft Defender voor Office 365? Meer informatie over het indienen van onjuiste of onjuiste negatieven bij Microsoft voor analyse.
 keywords: automatisch, onderzoek, waarschuwing, trigger, actie, herstellen, fout positief, negatief negatief
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -11,20 +11,21 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 05/15/2020
+ms.date: 09/29/2020
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
-ms.custom: autoir
-ms.openlocfilehash: 66b81a474ff81df57c0b2a59672b17061f7235cb
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.custom:
+- autoir
+ms.openlocfilehash: fa6b4ae03a3cf62398a270d65a29e6b4c955173a
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196073"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308930"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Onjuiste positief en negatief rapporteren in automatisch onderzoek en antwoord mogelijkheden
 
@@ -32,7 +33,7 @@ ms.locfileid: "48196073"
 
 
 **Van toepassing op:**
-- Office 365 Advanced Threat Protection
+- Microsoft Defender voor Office 365
 
 Is er [geautomatiseerd onderzoek-en antwoord mogelijkheden in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) mis of er is iets misgegaan? Er zijn stappen die u kunt uitvoeren om het probleem op te lossen. U kunt:
 - [Meld een fout-positief/negatief aan Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);
@@ -43,7 +44,7 @@ Gebruik dit artikel als leidraad.
 
 ## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Meld een fout-positief/negatief aan Microsoft voor analyse
 
-Als Office 365 AIR een e-mailbericht, een e-mailbijlage, een URL in een e-mailbericht of een URL in een Office-bestand mist, kunt u [verdachte spam, phishing, url's en bestanden versturen naar Microsoft voor Office 365 scan](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
+Als AIR in Microsoft Defender for Office 365 een e-mailbericht, een e-mailbijlage, een URL in een e-mailbericht of een URL in een Office-bestand heeft gemist, kunt u [verdachte spam, phishing, url's en bestanden verzenden naar Microsoft Office 365 scan](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
 
 U kunt ook [een bestand bij Microsoft indienen voor de analyse van malware](https://www.microsoft.com/wdsi/filesubmission).
 
@@ -51,7 +52,7 @@ U kunt ook [een bestand bij Microsoft indienen voor de analyse van malware](http
 
 Als een waarschuwing wordt geactiveerd door legitiem gebruik of als de waarschuwing onjuist is, kunt u [waarschuwingen beheren in de portal van de Cloud-app](https://docs.microsoft.com/cloud-app-security/managing-alerts).
 
-Als in uw organisatie behalve Office 365 niet alleen Office [wordt gebruikt en](https://docs.microsoft.com/windows/security/threat-protection) een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, kunt u [een aangepaste indicator maken met een actie toestaan voor uw apparaat](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators), ook als dit veilig is.
+Als uw organisatie [Microsoft Defender voor eind 365 punt](https://docs.microsoft.com/windows/security/threat-protection) gebruikt, en een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, ook als dit veilig is, kunt u [een aangepaste indicator maken met een actie toestaan voor uw apparaat](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators).
 
 ## <a name="undo-a-remediation-action"></a>Een herstelactie ongedaan maken
 
@@ -90,6 +91,6 @@ In het Actiecentrum ziet u de acties die u kunt uitvoeren om de actie te herstel
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 
-[Aan de slag met geautomatiseerd onderzoek en antwoord (lucht) in Office 365](office-365-air.md)
+[AIR in Microsoft Defender voor Office 365](office-365-air.md)

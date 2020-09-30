@@ -19,22 +19,22 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Totaal '
-ms.openlocfilehash: a4252a357891fc978d8b40747c5ad5741786b290
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 2e5e5053ff1539b3fa92175115c8c9db3abc81ce
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688921"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48309045"
 ---
 # <a name="how-to-opt-in-for-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Opt-in voor migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in de nieuwe Duitse datacenter regio's
 
 >[!Note]
->Dit artikel geldt alleen voor in aanmerking komende klanten met Microsoft Cloud Duitsland/Deutschland.
+>Dit artikel is alleen van toepassing op klanten met Microsoft Cloud Deutschland.
 >
 
 ## <a name="how-to-request-migration"></a>Migratie aanvragen
 
-In aanmerking komende klanten met dienstverlening in Microsoft Cloud Duitsland zien een pagina in het Microsoft 365-Beheercentrum waarmee een tenantbeheerder van de klant zich kan aanmelden voor migratie.
+In aanmerking komende klanten met dienstverlening in Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) wordt een pagina weergegeven in het Microsoft 365-Beheercentrum zodat een tenantbeheerder van de klant zich kan aanmelden voor migratie.
 
 Als u de pagina wilt openen in het Microsoft 365-Beheercentrum, vouwt u in het navigatiedeelvenster links de optie **instellingen** uit en klikt u vervolgens op **organisatieprofiel**.
 
@@ -54,7 +54,13 @@ Nadat een beheerder namens de Tenant heeft gemeldd, zien alle beheerders de beve
 
 ## <a name="what-happens-after-opting-in-for-migration"></a>Wat gebeurt er nadat u bent aangemeld voor de migratie?
 
-De migraties worden verwacht in 2020 voor organisaties die zich aanmelden bij de door Microsoft gerichte aanpak.  Als gevolg van de migratie worden de kerngegevens en abonnementen van klanten naar de nieuwe Duitse regio's verplaatst.  Microsoft stuurt updates tijdens het migratieproces in het berichtencentrum.
+De migraties gaan in eerste 2021 voor organisaties die zich aanmelden bij de door Microsoft gerichte aanpak en worden voltooid vóór de einddatum van de einddatum van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) op 29 oktober 2021.  Als gevolg van de migratie worden de kerngegevens en abonnementen van klanten naar de nieuwe Duitse regio's verplaatst.  Microsoft stuurt updates tijdens het migratieproces in het berichtencentrum.  Zie onderstaande artikelen voor meer informatie.
+
+## <a name="what-happens-if-the-customer-tenant-administrator-does-not-opt-in-for-migration-in-admin-center"></a>Wat gebeurt er als de tenantbeheerder van de klant niet aanmeldt voor migratie in het Beheercentrum?
+
+De Online Services-voorwaarden zijn gewijzigd zodat ze ook Microsoft kunnen gebruiken voor het migreren van Microsoft 365, Dynamics 365 en Power BI-gegevens en abonnementen van Microsoft Cloud Deutschland naar een nieuw datacenter. Deze voorwaarden worden toegepast op een Microsoft Cloud Deutschland-abonnement dat is verlengd sinds 1 mei 2020.  De klant tenantbeheerder ontvangt een melding in het e-mailbericht en het berichtencentrum waarin u wordt gevraagd om automatisch aan te melden bij een Microsoft-migratie. Deze kennisgeving ontvangt minstens 30 dagen vóór de automatische opt-in.  Na de migratie wordt u deel gemaakt met alle communicatie-en statusupdates die zijn verzonden naar de tenantbeheerders van klanten in het berichtencentrum.
+
+Tenantbeheerders van klanten en partners worden aangemoedigd om u aan te melden voor migratie in het Beheercentrum, zodat het migratieproces zo snel mogelijk kan beginnen.
 
 ## <a name="more-information"></a>Meer informatie
 

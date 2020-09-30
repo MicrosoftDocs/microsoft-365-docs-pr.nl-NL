@@ -8,27 +8,29 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
+ms.date: 09/29/2020
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Ga aan de slag met het gebruik van geautomatiseerde beantwoordings-en antwoord mogelijkheden in Office 365 Advanced Threat Protection (abonnement 2).
-ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: adee64461d06b46f467682835a493a7eebe89aef
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Ga aan de slag met het gebruik van geautomatiseerde onderzoek-en antwoord mogelijkheden in Microsoft Defender voor Office 365.
+ms.custom:
+- air
+- seo-marvel-mar2020
+ms.openlocfilehash: b844e4817bc77d7f6f4e99df53fc4b14c7e7110c
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202649"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308885"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Aan de slag met geautomatiseerd onderzoek en antwoord (lucht) in Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
-[Office 365 Advanced Threat Protection](office-365-atp.md) (Office 365 ATP) abonnement 2 bevat krachtige functies voor automatisch onderzoek en respons (lucht) waarmee u de tijd en inspanning van uw beveiligingsactiviteiten kunt opslaan. Aangezien waarschuwingen worden geactiveerd, kunt u deze meldingen nakijken, van een prioriteit voorzien en hierop reageren. U kunt het volume van inkomende waarschuwingen overweldigen. Een deel van dit helpt te automatiseren. Met lucht kan uw beveiligingsteam zich richten op taken met een hoge prioriteit zonder dat dit de activering van waarschuwingen verliest.
+[Microsoft Defender voor Office 365](office-365-atp.md) bevat krachtige functies voor automatisch onderzoek en Reacties (lucht) waarmee u tijd en inspanningen van uw beveiligingsactiviteiten kunnen opslaan. Aangezien waarschuwingen worden geactiveerd, kunt u deze meldingen nakijken, van een prioriteit voorzien en hierop reageren. U kunt het volume van inkomende waarschuwingen overweldigen. Een deel van dit helpt te automatiseren. Met lucht kan uw beveiligingsteam zich richten op taken met een hoge prioriteit zonder dat dit de activering van waarschuwingen verliest.
 
 Dit artikel bevat:
 - De [algehele stroom](#the-overall-flow-of-air) van lucht;
@@ -73,7 +75,7 @@ Tijdens en na een proces van een geautomatiseerde onderzoek kan uw beveiligingst
 
 ## <a name="how-to-get-air"></a>Hoe u lucht verzorgt
 
-Office 365 AIR is opgenomen in [office 365 Advanced Threat Protection (abonnement 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)). Het beleid van [Office 365 ATP moet echter zodanig zijn geconfigureerd](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) dat de lucht naar behoren werkt. Zorg er ook voor dat u het [waarschuwings beleid](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)van uw organisatie controleert en configureert. 
+De lucht mogelijkheden zijn opgenomen in [Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2). Uw [beleid moet echter zodanig zijn geconfigureerd](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) dat lucht goed werkt zoals verwacht. Zorg er ook voor dat u het [waarschuwings beleid](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)van uw organisatie controleert en configureert. 
 
 Microsoft 365 biedt een groot aantal ingebouwde waarschuwingen waarmee beheerdersmachtigingen van Exchange kunnen identificeren, schadelijke activiteiten, potentiële externe en interne bedreigingen en informatiebeheer Risico's. Een aantal [standaard waarschuwings beleidsregels](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) kan automatisch onderzoek activeren. Deze omvatten de volgende:
 
@@ -100,12 +102,12 @@ Machtigingen worden toegekend via bepaalde rollen, zoals de functies die in de v
 |LUCHT functies instellen |Een van de volgende rollen: <br/>-Globale beheerder<br/>-Beveiligingsbeheerder <br/>U kunt deze rollen toewijzen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het [beveiligings & nalevings centrum](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
 |Aanbevolen acties goedkeuren of afwijzen|Een van de volgende rollen, toegewezen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het [beveiligings & nalevings centrum](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center):<br/>-Globale beheerder <br/>-Beveiligingsbeheerder<br/>-Beveiligings lezer <br/>---en---<br/>-Zoeken en wissen (deze rol wordt alleen toegewezen in het [nalevings centrum voor de beveiliging &](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Mogelijk moet u een nieuwe rolgroep maken en de rol zoeken en permanent toevoegen aan de nieuwe rollen groep toevoegen.)
 
-[Office 365 ATP-abonnement 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) -licenties worden toegewezen aan:
+[Voor Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) -licenties moet worden toegewezen:
 - Beveiligingsbeheerders (waaronder globale beheerders)
 - Het bedrijfsactiviteiten team van uw organisatie (met inbegrip van beveiligings lezers en de functies met de rol zoeken en wissen)
 - Eindgebruikers
 
-Daarnaast moet u ook [Office 365 ATP-beleidsregels](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) definiëren en toepassen om de beveiliging te voeren.
+Daarnaast moet u [Microsoft Defender voor Office 365-beleid](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) definiëren en toepassen om de beveiliging ter plaatse te kunnen indelen.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -115,6 +117,6 @@ Daarnaast moet u ook [Office 365 ATP-beleidsregels](https://docs.microsoft.com/m
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Automatisch onderzoek en herstel in Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [Automatisch onderzoek en herstel in Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
-- [Geautomatiseerd onderzoek en antwoord in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Automatisch onderzoek en antwoord in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

@@ -1,11 +1,12 @@
 ---
-title: Office 365 ATP integreren met Microsoft Defender ATP
+title: Microsoft Defender voor Office 365 samen met Microsoft Defender voor eindpunt gebruiken
 f1.keywords:
 - NOCSH
+keywords: integreren, Microsoft Defender, ATP
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 07/08/2020
+ms.date: 09/29/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,30 +14,29 @@ localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
-ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
-description: Integratie van Office 365 Advanced Threat Protection met Microsoft Defender Advanced Threat Protection voor meer gedetailleerde informatie over risicobeheer.
+description: Gebruik Microsoft Defender voor Office 365 samen met Microsoft Defender Advanced Threat Protection voor uitgebreidere informatie over bedreigingen voor uw apparaten en e-mail inhoud.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0906b8b44922084a65999dd9ab10a09c827605c2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2c95e15c3cf16547843f9d2976dbf9df0d5747c0
+ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201969"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48309235"
 ---
-# <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Office 365 Advanced Threat Protection integreren met Microsoft Defender Advanced Threat Protection
+# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender voor Office 365 samen met Microsoft Defender Advanced Threat Protection gebruiken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) (Office 365 ATP) kan worden geconfigureerd voor gebruik met [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection) (Microsoft Defender ATP).
+[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) kan worden geconfigureerd voor gebruik met [Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection).
 
-Het integreren van Office 365-ATP met Microsoft Defender ATP kan de team monitor van uw beveiliging en de werking van de gebruikers snel uitvoeren als de apparaten van de gebruikers risico lopen. Wanneer de integratie is ingeschakeld, kunnen uw beveiligingsteam bijvoorbeeld de apparaten zien waarop het gedetecteerde e-mailbericht mogelijk invloed heeft en van het aantal recente meldingen voor deze apparaten in Microsoft Defender ATP. 
+Integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor eindpunten kan uw beheer van beveiligingsactiviteiten ondersteunen en snel actie ondernemen als de apparaten van de gebruikers risico lopen. Wanneer de integratie is ingeschakeld, kunnen uw beveiligingsteam bijvoorbeeld de apparaten zien die van invloed zijn op het gedetecteerde e-mailbericht, en het aantal recente waarschuwingen voor deze apparaten in Microsoft Defender voor eindpunt. 
 
-In de volgende afbeelding wordt getoond waarop op het tabblad **apparaten** de integratie met Microsoft Defender ATP is ingeschakeld:
+In de volgende afbeelding wordt getoond waarop op het tabblad **apparaten** de integratie met Microsoft Defender voor eindpunten is ingeschakeld:
   
-![Wanneer Microsoft Defender ATP is ingeschakeld, kunt u een lijst met apparaten met waarschuwingen weergeven.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
+![Wanneer Microsoft Defender for Endpoint is ingeschakeld, kunt u een lijst met apparaten met waarschuwingen weergeven.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
   
 In dit voorbeeld ziet u dat de geadresseerden van het gedetecteerde e-mailbericht vier apparaten hebben en dat er een waarschuwing is. Als u op de koppeling voor een apparaat klikt, wordt de pagina geopend in het Microsoft Defender-Beveiligingscentrum [https://securitycenter.windows.com](https://securitycenter.windows.com) .
 
@@ -45,15 +45,15 @@ In dit voorbeeld ziet u dat de geadresseerden van het gedetecteerde e-mailberich
   
 ## <a name="requirements"></a>Vereisten
 
-- Uw organisatie moet Office 365 ATP, abonnement 2 (of Office 365 E5) en Microsoft Defender ATP hebben.
+- Uw organisatie moet Microsoft Defender voor Office 365 (of Office 365 E5) en Microsoft Defender voor eindpunten hebben.
     
 - U moet een hoofdbeheerder zijn of de rol van beveiligingsbeheerder (zoals beveiligingsbeheerder) hebben die is toegewezen aan het [beveiligings &amp; conformiteitscentrum](https://protection.office.com). (Zie [machtigingen in het Security &amp; compliance Center](permissions-in-the-security-and-compliance-center.md))
     
 - U moet in de beveiligings & nalevings centrum en het Microsoft Defender-Beveiligingscentrum toegang hebben tot zowel de [Verkenner (of realtime detectie)](threat-explorer.md) .
     
-## <a name="to-integrate-office-365-atp-with-microsoft-defender-atp"></a>Office 365 ATP integreren met Microsoft Defender ATP
+## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a>Microsoft Defender voor Office 365 integreren met Microsoft Defender voor eindpunt
 
-Het integreren van Office 365-ATP met Microsoft Defender ATP wordt ingesteld met behulp van het beveiligings & nalevings centrum en het Microsoft Defender-Beveiligingscentrum.
+Integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor eindpunt is ingesteld met behulp van het beveiligings & nalevings centrum en het Microsoft Defender-Beveiligingscentrum.
   
 1. Ga als globale beheerder of een beveiligingsbeheerder naar [https://protection.office.com](https://protection.office.com) en meld u aan. (U gaat nu naar het Beveiligingscentrum van Office 365 & nalevings centrum.)
     
@@ -61,7 +61,7 @@ Het integreren van Office 365-ATP met Microsoft Defender ATP wordt ingesteld met
     
 3. Kies in de rechterbovenhoek van het scherm **WDATP instellingen**.
     
-4. Schakel in het dialoogvenster verbinding met Microsoft Defender ATP de optie **verbinding maken met Windows ATP**in.<br>![Microsoft Defender ATP-verbinding](../../media/Explorer-WDATPConnection-dialog.png)<br>
+4. Schakel in het dialoogvenster Microsoft Defender for Endpoint-verbinding de optie **verbinding maken met Windows ATP**in.<br>![Microsoft Defender voor eindpunt verbinding](../../media/Explorer-WDATPConnection-dialog.png)<br>
     
 5. Ga naar het Microsoft Defender-Beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
@@ -73,6 +73,6 @@ Het integreren van Office 365-ATP met Microsoft Defender ATP wordt ingesteld met
 
 [Oplossing voor onderzoek en antwoord van bedreigingen in Office 365](office-365-ti.md)
   
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+[Microsoft Defender voor Office 365](office-365-atp.md)
   
-[Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection)
+[Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection)
