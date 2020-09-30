@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het spam betrouwbaarheidsniveau (SCL) dat is toegepast op berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: fbd892b0171cee71f516d7ca3b26b91da664af79
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 51d00b36ae826676f436c0a74617ddbbadf7a30a
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202231"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318238"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>Spam niveau (SCL) in EOP
 
@@ -50,6 +50,6 @@ U kunt de e-mail stroom regels (ook wel transport-regels genoemd) gebruiken om d
 
 Vergelijkbaar met de SCL wordt met het niveau voor bulk klachten (BCL) onjuiste bulk-e-mail (ook wel _grijze e-mail_genoemd) aangegeven. Een hogere BCL duidt op een bulk-e-mailbericht en levert vermoedelijk meer klachten op (en is dus vermoedelijk spam). U configureert de BCL-drempelwaarde in antispambeleid. Zie [Antispambeleid in EOP](configure-your-spam-filter-policies.md), [bulk klachten niveau (BCL) in EOP)](bulk-complaint-level-values.md)en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md)voor meer informatie.
 
-|<!-- -->|
-|---|
-|![Het kleine pictogram voor LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Nieuw bij microsoft 365?** Ontdek gratis video cursussen voor **Microsoft 365-beheerders en IT-professionals**, aangeboden via LinkedIn learning.|
+****
+
+![Het kleine pictogram voor LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Nieuw bij microsoft 365?** Ontdek gratis video cursussen voor **Microsoft 365-beheerders en IT-professionals**, aangeboden via LinkedIn learning.

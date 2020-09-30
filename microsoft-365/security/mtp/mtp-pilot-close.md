@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 0a0c0c1dae1d7f03aa9c8328b3fb1b4bae587b9e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: dbd20263fce059bc57b6a19b58f15e3f5223b4e7
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199707"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318202"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Uw proef Microsoft Threat Protection sluiten en samenvatten  
 
@@ -37,6 +37,7 @@ U hebt zojuist een geavanceerde geheugen aanval gesimuleerd waarbij code extern 
 U hebt het einde van het proces bereikt na afloop van alle tests.
 
 De uiteindelijke uitvoer moet:
+
 - Een voltooide Scorecard
 - Een gedetailleerd rapport van de bevindingen van de pilot
 - Een beslissing over hoe u verdergaat
@@ -45,9 +46,8 @@ Deze informatie moet worden gepresenteerd aan interne belanghebbenden (die u tij
 
 We hopen dat u van deze simulatie gebruikmaakt en wordt aangemoedigd om te beginnen met de implementatie van wat u hebt geleerd.
 
-
 ## <a name="next-step"></a>Volgende stap
-||
-|:-------|
-|Blader door de [Microsoft 365-oplossing en het architectuur centrum](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , zodat u weet hoe u de oplossing en architectuur kunt ontwerpen die geschikt is voor uw organisatie.
 
+****
+
+Blader door de [Microsoft 365-oplossing en het architectuur centrum](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , zodat u weet hoe u de oplossing en architectuur kunt ontwerpen die geschikt is voor uw organisatie.

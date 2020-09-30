@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen zien hoe het filteren van verbindingen in Exchange Online Protection (EOP) wordt geconfigureerd om e-mailberichten van e-mailservers toe te staan of te blokkeren.
-ms.openlocfilehash: d69ec30c9d6d812bf3bbcc6dc5b6df332d9dd0b5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 95e178e34c944c13cd99e4d4a0e9f30ed083842c
+ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203369"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48318250"
 ---
 # <a name="configure-connection-filtering"></a>Filteren van verbinding configureren
 
@@ -203,7 +203,6 @@ Als u een van deze scenario's ondervindt, kunt u een e-mail stroom regel met de 
 
 ## <a name="new-to-microsoft-365"></a>Nieuw bij Microsoft 365?
 
-|<!-- a -->|
-|---|
-|![Het kleine pictogram voor LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Nieuw bij microsoft 365?** Ontdek gratis video cursussen voor **beheerders en IT-professionals**, aangeboden via LinkedIn learning.|
-|
+****
+
+![Het kleine pictogram voor LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Nieuw bij microsoft 365?** Ontdek gratis video cursussen voor **Microsoft 365-beheerders en IT-professionals**, aangeboden via LinkedIn learning.
