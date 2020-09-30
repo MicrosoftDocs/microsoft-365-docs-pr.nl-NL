@@ -1,4 +1,4 @@
-- name: Aan de slag met uitleg over inhoud
+- name: Aan de slag met Microsoft SharePoint Syntex
   items:
     - name: Inleiding tot Microsoft SharePoint Syntex
       href: microsoft-sharepoint-syntex-overview.md
@@ -16,7 +16,7 @@
       href: create-a-classifier.md
     - name: Een extractor maken
       href: create-an-extractor.md
-    - name: Overzicht van uitleg typen
+    - name: Uitleg typen
       href: explanation-types-overview.md
     - name: Een model toepassen
       href: apply-a-model.md
@@ -26,6 +26,8 @@
       href: apply-a-retention-label-to-a-model.md
     - name: Analyse van model gebruik
       href: model-usage-analytics.md
+    - name: Taxonomieën voor het maken van een extractie met een termenarchief
+      href: leverage-term-store-taxonomy.md
 - name: Installeren en beheren
   items:
     - name: Inhoud begrijpen
