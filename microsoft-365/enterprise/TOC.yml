@@ -334,12 +334,14 @@
           href: during-and-after-your-data-move.md
         - name: Algemene veelgestelde vragen over het verplaatsen van gegevens
           href: data-move-faq.md
-        - name: Microsoft Cloud Deutschland - Office 365 migratieprogramma
-          href: ms-cloud-germany-transition.md
-        - name: Microsoft Cloud Deutschland - deelnemen aan migratie
-          href: ms-cloud-germany-migration-opt-in.md
         - name: Waar klantgegevens worden opgeslagen
           href: o365-data-locations.md
+        - name: Microsoft Cloud Duitsland
+          items:
+            - name: Overzicht
+              href: ms-cloud-germany-transition.md
+            - name: Opt-in voor migratie
+              href: ms-cloud-germany-migration-opt-in.md
 - name: Identiteit
   items:
     - name: Roadmap
