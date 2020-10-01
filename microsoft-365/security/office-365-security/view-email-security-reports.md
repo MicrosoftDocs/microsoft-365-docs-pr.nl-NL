@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b26dd18754a96d1879a2f57ae9742ae1d1a36ce4
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 7e594f758e0fb08b0b8718248466ecbc46903b82
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295536"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327007"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -270,9 +270,9 @@ Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
 
 ## <a name="threat-protection-status-report"></a>Statusrapport bedreigingsbeveiliging
 
-Het rapport **status beveiliging** van de bedreiging is beschikbaar in zowel EOP als Office 365 ATP. de rapporten bevatten echter verschillende gegevens. Gebruikers van EOP kunnen bijvoorbeeld informatie over malware bekijken die zijn gedetecteerd via e-mail, maar niet informatie over [schadelijke bestanden die zijn gevonden in SharePoint Online, OneDrive of Microsoft teams](atp-for-spo-odb-and-teams.md).
+Het rapport **status beveiliging** van de bedreiging is beschikbaar in zowel EOP als Office 365 ATP. de rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie over malware bekijken die zijn gevonden in een e-mail, maar niet informatie over [schadelijke bestanden die zijn gedetecteerd door ATP voor SharePoint, OneDrive of Microsoft teams](atp-for-spo-odb-and-teams.md).
 
-Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (Url's), die zijn geblokkeerd door de anti-malware-engine, [automatisch opschonen van Zero Hour-functies (ZAP)](zero-hour-auto-purge.md)en ATP-functies zoals [veilige koppelingen](atp-safe-links.md)voor ATP, [veilige bijlagen](atp-safe-attachments.md)van ATP en [ATP anti-phishing](set-up-anti-phishing-policies.md). U kunt deze gegevens gebruiken om trends te identificeren of te bepalen of een organisatiebeleid moet worden aangepast. Het is belangrijk om te weten dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.
+Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (Url's), die zijn geblokkeerd door de anti-malware-engine, [automatisch wissen van Zero uur (ZAP)](zero-hour-auto-purge.md)en ATP-functies zoals [veilige koppelingen](atp-safe-links.md), [veilige bijlagen](atp-safe-attachments.md)en [ATP anti-phishing](set-up-anti-phishing-policies.md). U kunt deze gegevens gebruiken om trends te identificeren of te bepalen of een organisatiebeleid moet worden aangepast. Het is belangrijk om te weten dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.
 
 Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **Reports** \> **Dashboard** rapporten en selecteert u de **status bedreigingsbeveiliging**. Als u rechtstreeks naar het rapport wilt gaan, opent u een van de volgende Url's:
 
@@ -366,7 +366,7 @@ Als u op **filters**klikt, kunt u het rapport met de volgende filters wijzigen:
 - **Begindatum** en **einddatum**
 - **Bronuitputtingsdetectie**
 - **Beveiligd door**: **ATP** of **EOP**
-- **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide).
+- **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
 - **Domein**
 
 > [!NOTE]
@@ -406,7 +406,7 @@ Als u op **filters**klikt, kunt u het rapport met de volgende filters wijzigen:
 - **Begindatum** en **einddatum**
 - **Bronuitputtingsdetectie**
 - **Beveiligd door** (alleen Office 365 ATP): **ATP** of **EOP**
-- **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide).
+- **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
 - **Domein**
 - **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
 

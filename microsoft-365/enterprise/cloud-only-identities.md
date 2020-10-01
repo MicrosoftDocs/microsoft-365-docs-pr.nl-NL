@@ -3,7 +3,7 @@ title: Microsoft 365 Cloud-only-identiteit
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Hierin wordt beschreven hoe u gebruikers en groepen maakt wanneer uw Microsoft 365-abonnement gebruikmaakt van Cloud-only-identiteit.
-ms.openlocfilehash: 6ec727ea3648f1daa3af42763e5f497715b987a2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 111c42e644913a8f7f6e41d4e8bf65685263f757
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547756"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327925"
 ---
 # <a name="microsoft-365-cloud-only-identity"></a>Microsoft 365 Cloud-only-identiteit
 
@@ -58,17 +58,9 @@ U kunt groepen in azure AD gebruiken om verschillende doeleinden te gebruiken om
 - Automatisch gebruikers voor software inrichten als een service (SaaS)-toepassing en de toegang tot de toepassingen met multi-factor Authentication (MFA) en andere regels voor voorwaardelijke toegang beschermen.
 - Het inrichten van machtigingen en toegangsniveaus voor SharePoint Online-team sites.
 
-U maakt nieuwe ***gebruikers*** met:
+## <a name="next-steps-for-cloud-only-identity"></a>Volgende stappen voor de identiteit van de Cloud
 
-- [Het Microsoft 365-beheercentrum](https://docs.microsoft.com/office365/admin/add-users/add-users)
-- [PowerShell voor Microsoft 365](create-user-accounts-with-microsoft-365-powershell.md)
-
-U maakt nieuwe ***groepen*** met:
-
-- [Het Microsoft 365-beheercentrum](https://docs.microsoft.com/office365/admin/create-groups/create-groups)
-- [PowerShell voor Microsoft 365](manage-microsoft-365-groups-with-powershell.md)
-
-
-## <a name="next-step-for-cloud-only-identity"></a>Volgende stap voor Cloud-only-identiteit
-
-[Licenties aan gebruikersaccounts toewijzen](assign-licenses-to-user-accounts.md)
+- [Gebruikersaccounts beheren](manage-microsoft-365-accounts.md)
+- [Licenties aan gebruikersaccounts toewijzen](assign-licenses-to-user-accounts.md)
+- [Groepen en groepslidmaatschap beheren](manage-microsoft-365-groups.md)
+- [Wachtwoorden van gebruikersaccounts beheren](manage-microsoft-365-passwords.md)

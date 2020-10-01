@@ -3,7 +3,7 @@ title: Directory-synchronisatie voorbereiden op Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/25/2019
+ms.date: 09/30/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: In dit artikel wordt uitgelegd hoe u gebruikers kunt inrichten voor Microsoft 365 met behulp van adreslijstsynchronisatie en de lange termijn voordelen van het gebruik van deze methode.
-ms.openlocfilehash: c9d4368d1939b9c6feedf5146f9d168f18d5d5b1
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: a70f49dd5656da996912173690dc2b21b4288023
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269415"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327283"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Directory-synchronisatie voorbereiden op Microsoft 365
 
@@ -43,9 +43,9 @@ De voordelen van Hybrid Identity en adreslijstsynchronisatie uw organisatie omva
 - Optioneel scenario voor eenmalige aanmelding inschakelen
 - Account wijzigingen automatiseren in Microsoft 365
 
-Voor meer informatie over de voordelen van het gebruik van adreslijstsynchronisatie raadpleegt u [routekaart voor adreslijstsynchronisatie]( https://go.microsoft.com/fwlink/p/?LinkId=525398) en [Hybrid Identity voor Microsoft 365](plan-for-directory-synchronization.md).
+Zie voor meer informatie over de voordelen van het gebruik van adreslijstsynchronisatie [Hybrid Identity with Azure Active Directory (Azure AD)](https://go.microsoft.com/fwlink/p/?LinkId=525398) en [Hybrid Identity voor Microsoft 365](plan-for-directory-synchronization.md).
 
-Adreslijstsynchronisatie vereist echter planning en voorbereidingen om ervoor te zorgen dat uw Active Directory Domain Services (AD DS) wordt gesynchroniseerd met de Azure AD-Tenant (Azure Active Directory) van uw micro 365 Soft-abonnement met een minimum aan fouten.
+Adreslijstsynchronisatie vereist echter planning en voorbereidingen om ervoor te zorgen dat uw Active Directory Domain Services (AD DS) wordt gesynchroniseerd met de Azure AD-Tenant van uw Microsoft 365-abonnement met een minimum aan fouten.
 
 Voer de volgende stappen uit om de beste resultaten te voorkomen.
 
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om de beste resultaten te voorkomen.
 Voordat u de AD DS synchroniseert met een Azure AD-Tenant, moet u de AD DS opschonen.
 
 > [!IMPORTANT]
-> Als u het opruimen van AD DS niet uitvoert voordat u de synchronisatie uitvoert, kan er sprake zijn van een aanzienlijk negatief effect op het implementatieproces. Het kan dagen duren voor de adreslijstsynchronisatie, het identificeren van fouten en het opnieuw synchroniseren van een week.
+> Als u AD DS cleanup niet uitvoert voordat u synchroniseert, kan dit leiden tot een significante negatieve impact op het implementatieproces. Het kan dagen duren voor de adreslijstsynchronisatie, het identificeren van fouten en het opnieuw synchroniseren van een week.
 
 Voer in uw AD DS de volgende opschoningstaken uit voor elk gebruikersaccount waaraan een Microsoft 365-licentie is toegewezen:
 

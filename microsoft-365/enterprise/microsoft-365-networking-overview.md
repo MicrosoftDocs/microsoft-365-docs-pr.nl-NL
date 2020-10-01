@@ -1,5 +1,5 @@
 ---
-title: Overzicht van Microsoft 365 netwerkverbinding
+title: Overzicht van netwerkverbindingen voor Microsoft 365
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,15 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365initiative-CoreDeploy
 f1.keywords:
 - NOCSH
 description: Dit artikel bevat informatie over de manier waarop netwerk optimalisering belangrijk is voor SaaS-Services, het doel van Microsoft 365-netwerken en de manier waarop SaaS verschillende netwerken van andere werkbelastingen vereist.
-ms.openlocfilehash: 4fea7364dc79717583ebca8ce0dbe333ee818f1f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: acc55868e47ea89cd2357487838a88032dc8538d
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689128"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327483"
 ---
 # <a name="microsoft-365-network-connectivity-overview"></a>Overzicht van Microsoft 365 netwerkverbinding
 
@@ -35,7 +36,7 @@ In dit artikel vindt u meer informatie over de doelstellingen van Microsoft 365-
 
 Het ultieme doel van Microsoft 365-netwerken is het optimaliseren van de eindgebruikers ervaring door de minst beperkte toegang tot de clients en de dichtstbijzijnde Microsoft 365-eindpunten in te schakelen. De kwaliteit van de eindgebruikers ervaring is direct gerelateerd aan de werking en de reactiesnelheid van de toepassing die de gebruiker gebruikt. In Microsoft teams is bijvoorbeeld gebruikgemaakt van lage latentie, zodat de telefoongesprekken van gebruikers, vergaderingen en gedeelde scherm samenwerking niet goed zijn en Outlook wordt gebruikt voor de functies voor direct zoeken waarmee de functies van de server en de AI-functies worden gebruikt.
 
-Het primaire doel van het netwerkontwerp moet de latentie van de round-trip (RTT) van de clientcomputers in het Microsoft Global-netwerk beperken, de openbare netwerkbackbone van Microsoft die alle datacenters van Microsoft verbindt met lage latentie, de ingangspunten van de Cloud toepassing van hoge beschikbaarheid over de hele wereld. U vindt meer informatie over het wereldwijde Microsoft-netwerk [waar Microsoft het snelle en betrouwbare wereldwijde netwerk bouwt](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
+Het primaire doel van het netwerkontwerp moet de latentie van de round-trip (RTT) van de clientcomputers in het Microsoft Global-netwerk beperken, de openbare netwerkbackbone van Microsoft die alle datacenters van Microsoft verbindt met lage latentie, de ingangspunten van de Cloud toepassing van hoge beschikbaarheid over de hele wereld. U kunt meer lezen over het Microsoft Global Network op [Hoe Microsoft zijn snelle en betrouwbare wereldwijde netwerk opbouwt](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
 
 Het optimaliseren van de prestaties van Microsoft 365 Network hoeft niet ingewikkeld te zijn. U krijgt de best mogelijke prestaties door een aantal van de belangrijkste beginselen te volgen:
 
@@ -61,7 +62,7 @@ U kunt het netwerkverkeer van Microsoft 365 eenvoudiger identificeren en de Netw
 
 ## <a name="securing-microsoft-365-connections"></a>Microsoft 365-verbindingen beveiligen
 
-Het doel van traditionele netwerkbeveiliging is het versterken van de perimeternetwerk omgeving tegen indringers en kwaadaardige aanvallen. De meeste Enterprise-netwerken zorgen voor netwerkbeveiliging van Internet verkeer met behulp van technologieën zoals proxyservers, firewalls en SSL-onderbrekingen, uitgebreide pakket inspecties en systemen voor preventie van gegevensverlies. Deze technologieën zorgen voor belangrijke risico beperkingen voor aanvragen van grote en grote en grote hoeveelheden en de kwaliteit van de eindgebruikers ervaring wanneer ze worden toegepast op Microsoft 365-eindpunten.
+Het doel van traditionele netwerkbeveiliging is om de perimeter van het bedrijfsnetwerk te beschermen tegen indringing en kwaadwillende exploits. De meeste Enterprise-netwerken zorgen voor netwerkbeveiliging van Internet verkeer met behulp van technologieën zoals proxyservers, firewalls en SSL-onderbrekingen, uitgebreide pakket inspecties en systemen voor preventie van gegevensverlies. Deze technologieën bieden belangrijke risicobeperkingen voor algemene internetverzoeken, maar kunnen de prestaties, schaalbaarheid en kwaliteit van de eindgebruikerservaring drastisch verminderen wanneer ze worden toegepast op Microsoft 365-eindpunten.
 
 Microsoft 365 helpt bij het voldoen aan de behoeften van de organisatie voor inhoud beveiliging en compliance Data Usage met ingebouwde beveiligings-en beheerfuncties, speciaal ontworpen voor de functies en werkbelasting van Microsoft 365. Zie het Beveiligingsoverzicht van [Office 365](https://docs.microsoft.com/office365/securitycompliance/security-roadmap)voor meer informatie over beveiliging en compliance van microsoft 365. Zie voor meer informatie over de aanbevelingen en de ondersteunings locatie van Microsoft voor geavanceerde netwerkoplossingen die op het niveau van Microsoft 365 op Geavanceerd niveau [gebruikmaken van netwerkapparaten van derden of oplossingen voor Office 365-verkeer](https://support.microsoft.com/help/2690045).
 
@@ -75,18 +76,18 @@ Bepaalde bekende prestatieproblemen worden gemaakt wanneer Microsoft 365-verkeer
 - Egressing-verbindingen vanaf een centrale locatie Defeats de dynamische routeringsfuncties van het globale Microsoft 365-netwerk, waarbij de latentie en de round-trip tijd worden toegevoegd
 - Met het deactiveren van SSL beveiligd Microsoft 365-netwerkverkeer en het opnieuw versleutelen van een protocol kan dit resulteren in protocolfouten en beveiligingsrisico
 
-Verkort het netwerkpad naar Microsoft 365-toegangspunten door het verkeer van clientverkeer zo dicht mogelijk te laten verlopen, zodat de efficiëntie van de verbinding en de eindgebruikers ervaring in Microsoft 365 kan worden verbeterd. U kunt er ook voor zorgen dat u de gevolgen van toekomstige wijzigingen in de netwerkarchitectuur op de prestaties en betrouwbaarheid van Microsoft 365 beperkt. Het optimale verbindings model is altijd beschikbaar op de locatie van de gebruiker, ongeacht of dit zich bevindt in het bedrijfsnetwerk of externe locaties, zoals thuis, hotels, cafés en luchthavens. Algemeen Internet verkeer en netwerkverkeer op basis van een bedrijfsnetwerk worden apart gerouteerd en gebruiken geen lokaal direct uitgangs model. Dit lokale direct uitgangs model wordt weergegeven in het onderstaande diagram.
+Verkort het netwerkpad naar Microsoft 365-toegangspunten door het verkeer van clientverkeer zo dicht mogelijk te laten verlopen, zodat de efficiëntie van de verbinding en de eindgebruikers ervaring in Microsoft 365 kan worden verbeterd. U kunt er ook voor zorgen dat u de gevolgen van toekomstige wijzigingen in de netwerkarchitectuur op de prestaties en betrouwbaarheid van Microsoft 365 beperkt. Het optimale verbindings model is altijd beschikbaar op de locatie van de gebruiker, ongeacht of dit zich bevindt in het bedrijfsnetwerk of externe locaties, zoals thuis, hotels, cafés en luchthavens. Algemeen Internet verkeer en netwerkverkeer op basis van een bedrijfsnetwerk worden apart gerouteerd en gebruiken geen lokaal direct uitgangs model. Dit lokale directe uitgangsmodel wordt weergegeven in het onderstaande diagram.
 
-![Lokale uituitgangs netwerkarchitectuur](../media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
+![Netwerkarchitectuur voor lokaal uitgaand verkeer](../media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
 
 De architectuur voor lokale uitslagen heeft de volgende voordelen voor Microsoft 365-netwerkverkeer via het traditionele model:
   
-- Biedt optimale prestaties van Microsoft 365 door de route lengte te optimaliseren. Eindgebruikers verbindingen worden dynamisch naar het dichtstbijzijnde Microsoft 365-toegangspunt gerouteerd via de front-enddatabase _voor de gedistribueerde service voor_ Microsoft Global Network en verkeer wordt vervolgens intern gerouteerd naar gegevens-en service-eindpunten over de zeer lage beschikbaarheids kwaliteit van Microsoft.
+- Biedt optimale Microsoft 365-prestaties door de lengte van de route te optimaliseren. Eindgebruikers verbindingen worden dynamisch naar het dichtstbijzijnde Microsoft 365-toegangspunt gerouteerd via de front-enddatabase _voor de gedistribueerde service voor_ Microsoft Global Network en verkeer wordt vervolgens intern gerouteerd naar gegevens-en service-eindpunten over de zeer lage beschikbaarheids kwaliteit van Microsoft.
 - Hiermee wordt de netwerkinfrastructuur beperkt door lokaal aflossing voor Microsoft 365-verkeer te passeren, proxy's en inspectieapparatuur voor verkeer over te slaan.
 - Verveilig verbindingen aan beide uiteinden door gebruik te maken van beveiligingsfuncties voor client eindpunten en de Cloud beveiligingstechnologieën te vermijden.
 
 > [!NOTE]
-> De infrastructuur van de _gedistribueerde service front deur_ is de uiterst beschikbare en schaalbare netwerk Edge van het Microsoft-netwerk met geografisch verspreide locaties. De client beëindigt verbindingen van eindgebruikers en stuurt efficiënt ze binnen het Microsoft Global Network. U vindt meer informatie over het wereldwijde Microsoft-netwerk [waar Microsoft het snelle en betrouwbare wereldwijde netwerk bouwt](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
+> De infrastructuur van de _gedistribueerde service front deur_ is de uiterst beschikbare en schaalbare netwerk Edge van het Microsoft-netwerk met geografisch verspreide locaties. De client beëindigt verbindingen van eindgebruikers en stuurt efficiënt ze binnen het Microsoft Global Network. U kunt meer lezen over het Microsoft Global Network op [Hoe Microsoft zijn snelle en betrouwbare wereldwijde netwerk opbouwt](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
 
 Zie beginselen van de [Netwerkverbindingen van Microsoft 365](microsoft-365-network-connectivity-principles.md)voor meer informatie over het begrijpen en toepassen van de principes van microsoft 365-netwerkverbindingen.
 
@@ -102,20 +103,20 @@ Het optimaliseren van de prestaties van Microsoft 365 Network is echt overbodig 
 
 [URL's en IP-adresbereiken voor Office 365](urls-and-ip-address-ranges.md)
 
-[Office 365 IP Address en URL web service](microsoft-365-ip-web-service.md)
+[IP-adres en URL-webservice van Office 365](microsoft-365-ip-web-service.md)
 
-[Microsoft 365-netwerkconnectiviteit beoordelen](assessing-network-connectivity.md)
+[Microsoft 365-netwerkverbindingen evalueren](assessing-network-connectivity.md)
 
-[Netwerk planning en prestaties optimaliseren voor Microsoft 365](network-planning-and-performance.md)
+[Netwerkplanning en prestaties optimaliseren voor Microsoft 365](network-planning-and-performance.md)
 
-[Prestaties afstemmen van Office 365 met basislijnen en prestatie geschiedenis](performance-tuning-using-baselines-and-history.md)
+[Office 365-prestatieafstemming met behulp van basislijnen en prestatiegeschiedenis](performance-tuning-using-baselines-and-history.md)
 
-[Prestatieproblemen met het plannen van Office 365](performance-troubleshooting-plan.md)
+[Prestatieproblemen met Office 365 oplossen: planning](performance-troubleshooting-plan.md)
 
-[Netwerken voor content levering](content-delivery-networks.md)
+[Netwerken voor contentlevering](content-delivery-networks.md)
 
-[Microsoft 365 connectiviteitstest](https://aka.ms/netonboard)
+[Microsoft 365-connectiviteitstest](https://aka.ms/netonboard)
 
-[Hoe Microsoft het snelle en betrouwbare wereldwijde netwerk bouwt](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
+[Hoe Microsoft zijn snelle en betrouwbare wereldwijde netwerk opbouwt](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
 
-[Blog van Office 365-netwerken](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)
+[Office 365-netwerkblog](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)

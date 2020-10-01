@@ -1,11 +1,11 @@
 ---
-title: Identiteitskaart voor Microsoft 365
+title: Identiteitsroadmap voor Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/10/2020
+ms.date: 09/30/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: De routekaart voor de identiteit van Microsoft 365.
-ms.openlocfilehash: e268422fcd6cfba36b1a971629036d29827806f6
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: 997df19ca71b67d3fa579b9feaf3e1a61bc7a358
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775121"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327769"
 ---
-# <a name="identity-roadmap-for-microsoft-365"></a>Identiteitskaart voor Microsoft 365
+# <a name="identity-roadmap-for-microsoft-365"></a>Identiteitsroadmap voor Microsoft 365
 
 In Microsoft 365 voor Enterprise is een goed geplande en uitgevoerde identificatie structuur Paves de manier voor een sterkere beveiliging, zoals het beperken van toegang tot uw productiviteits belastingen en hun gegevens aan geverifieerde gebruikers en apparaten.
 
-Bekijk deze video voor een overzicht van identiteits modellen en verificatie voor Microsoft 365 for Enterprise:
+Bekijk deze video voor een overzicht van identiteits modellen en verificatie voor Microsoft 365 for Enterprise.
 
 <p> </p>
 
@@ -38,7 +38,7 @@ Voor informatie over de identiteits functies van elk Microsoft 365 for Enterpris
 
 Bekijk deze tweepaginas poster om snel te beoordeelen over identiteits concepten en configuraties voor Microsoft 365 for Enterprise.
 
-U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf). U kunt de indeling letter, Legal of tabloid (11 x 17) afdrukken.
+U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) en afdrukken in de indeling letter, juridisch of tabloid (11 x 17).
 
 ## <a name="plan"></a>Abonnement
 
@@ -66,10 +66,14 @@ Microsoft biedt een set aanbevelingen voor de [toegang van identiteiten en appar
 
 ## <a name="manage"></a>Beheren
 
-Uw identiteits implementatie beheren:
+Zie voor informatie over het beheren van Microsoft 365 Identity Deployment:
 
-- [Licenties toewijzen en gebruikersaccounts beheren](assign-licenses-to-user-accounts.md)
-- [Directory synchronisatie controleren](view-directory-synchronization-status.md)
+- [Gebruikersaccounts](manage-microsoft-365-accounts.md)
+- [Licenties](assign-licenses-to-user-accounts.md)
+- [Wachtwoorden](manage-microsoft-365-passwords.md)
+- [Groepen](manage-microsoft-365-groups.md)
+- [Beheermodel](manage-microsoft-365-identity-governance.md)
+- [Adreslijstsynchronisatie](view-directory-synchronization-status.md)
 
 ## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Hoe Microsoft de identiteit voor Microsoft 365 biedt
 

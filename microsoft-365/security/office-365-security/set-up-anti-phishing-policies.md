@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 945b346a5ebd4a85776d87c019ee1a06aec73635
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 498b6e27b3fca66e388eaa27ba7895056ef7f0fc
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195913"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326935"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -220,4 +220,4 @@ De volgende geavanceerde vergelijkings drempels zijn alleen beschikbaar in het A
 
 - **4-de meeste agressieve**berichten die worden geïdentificeerd als phishing met een slecht, gemiddeld of hoog vertrouwensniveau, worden behandeld alsof ze worden vastgesteld met een zeer hoge mate van betrouwbaarheid.
 
-De kans op fout-positieven (goede berichten gemarkeerd als beschadigd) neemt toe naarmate u deze instelling groter maakt. Zie voor meer informatie over de aanbevolen instellingen [Office-instellingen voor het anti-phishingfilter van Office](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings).
+De kans op fout-positieven (goede berichten gemarkeerd als beschadigd) neemt toe naarmate u deze instelling groter maakt. Zie voor meer informatie over de [Aanbevolen instellingen.](recommended-settings-for-eop-and-office365-atp.md#atp-anti-phishing-policy-settings)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten voor Office 365 Advanced Threat Protection zoeken en gebruiken in het beveiligings &amp; compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90da02c8aa3d50f62bdf4be8c466962da828b23d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 16fef101f722a23b3a64d91c85c2f946c67036f0
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196583"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328028"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor Office 365 Advanced Threat Protection
 
@@ -36,7 +36,7 @@ Office 365 Advanced Threat Protection (ATP)-organisaties (bijvoorbeeld Microsoft
 
 ## <a name="advanced-threat-protection-file-types-report"></a>Rapport over bestandstypen Advanced Threat Protection
 
-In het rapport **Geavanceerde bedreigings bescherming** wordt het type bestanden weergegeven dat is gedetecteerd als schadelijk voor [veilige bijlagen van ATP](atp-safe-attachments.md).
+In het rapport **Geavanceerde bedreigings beveiligingstypen** wordt weergegeven welk type bestanden als schadelijk voor [veilige bijlagen](atp-safe-attachments.md)is gedetecteerd.
 
  De geaggregeerde weergave van het rapport mag 90 dagen filteren, terwijl de detailweergave alleen 10 dagen van filteren toestaat.
 
@@ -62,7 +62,7 @@ De volgende weergaven zijn beschikbaar:
   - **Schadelijke bijlagen met uitvoerbaar bestand**
   - **Gezien**
 
-  Wanneer u de muisaanwijzer over een bepaalde dag (gegevenspunt) houdt, ziet u een overzicht van de typen schadelijke bestanden die zijn gedetecteerd met [veilige bijlage van ATP](atp-safe-attachments.md) en [beveiliging tegen malware in EOP](anti-malware-protection.md).
+  Wanneer u de muisaanwijzer over een bepaalde dag (gegevenspunt) houdt, ziet u een overzicht van de typen schadelijke bestanden die zijn gedetecteerd door [veilige bijlagen](atp-safe-attachments.md) en [beveiliging tegen malware in EOP](anti-malware-protection.md).
 
   ![Bestandsweergave in het rapport ATP-bestandstypen](../../media/atp-file-types-report-file-view.png)
 
@@ -76,7 +76,7 @@ De volgende weergaven zijn beschikbaar:
   - **Toegang blokkeren**
   - **Berichten vervangen**
   - **Berichten gecontroleerd**
-  - **Vervangen door dynamische e-mail bezorging**: Zie [dynamische bezorgings-en voorbeeldweergave van](dynamic-delivery-and-previewing.md)behulp van ATP voor meer informatie.
+  - **Vervangen door dynamische e-mail bezorging**: Zie [dynamische bezorging in beleidsregels voor veilige bijlagen](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)voor meer informatie.
 
   ![Berichtenweergave in het rapport ATP-bestandstypen](../../media/atp-file-types-report-message-view.png)
 
@@ -138,7 +138,7 @@ De volgende weergaven zijn beschikbaar:
   - **Toegang blokkeren**
   - **Berichten vervangen**
   - **Berichten gecontroleerd**
-  - **Vervangen door dynamische e-mail bezorging**: Zie [dynamische bezorgings-en voorbeeldweergave van](dynamic-delivery-and-previewing.md)behulp van ATP voor meer informatie.
+  - **Vervangen door dynamische e-mail bezorging**: Zie [dynamische bezorging in beleidsregels voor veilige bijlagen](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)voor meer informatie.
 
   ![Berichtenweergave in het rapport ATP-bestandstypen](../../media/atp-file-types-report-message-view.png)
 
@@ -158,7 +158,7 @@ De volgende weergaven zijn beschikbaar:
   - **Schadelijke bijlagen met uitvoerbaar bestand**
   - **Gezien**
 
-  Wanneer u de muisaanwijzer over een bepaalde dag (gegevenspunt) houdt, ziet u een overzicht van de typen schadelijke bestanden die zijn gedetecteerd met [veilige bijlage van ATP](atp-safe-attachments.md) en [beveiliging tegen malware in EOP](anti-malware-protection.md).
+  Wanneer u de muisaanwijzer over een bepaalde dag (gegevenspunt) houdt, ziet u een overzicht van de typen schadelijke bestanden die zijn gedetecteerd door [veilige bijlagen](atp-safe-attachments.md) en [beveiliging tegen malware in EOP](anti-malware-protection.md).
 
   ![Bestandsweergave in het rapport ATP-bestandstypen](../../media/atp-file-types-report-file-view.png)
 
@@ -206,7 +206,7 @@ Het rapport **status van bedreigingsbeveiliging** is één weergave waarin infor
 
 ## <a name="url-threat-protection-report"></a>Rapport over URL Threat Protection
 
-Het **rapport URL Threat Protection** biedt samenvattings-en trend weergaven van bedreigingen die worden gedetecteerd en acties die worden uitgevoerd op URL klikken als onderdeel van [veilige ATP-koppelingen](atp-safe-links.md). Dit rapport hoeft niet te klikken op gegevens van gebruikers waar voor het beleid voor veilige koppelingen de optie **gebruiker niet bijhouden** is ingeschakeld.
+Het **rapport URL Threat Protection** biedt samenvattings-en trend weergaven voor bedreigingen die worden gedetecteerd en acties die worden uitgevoerd op URL-klikken als onderdeel van [veilige koppelingen](atp-safe-links.md). Dit rapport hoeft niet te klikken op gegevens van gebruikers waar voor het beleid voor veilige koppelingen de optie **gebruiker niet bijhouden** is ingeschakeld.
 
 Als u het rapport wilt weergeven, opent u het [beveiligings & nalevings centrum](https://protection.office.com), gaat u naar **rapporten** \> **Dashboard** en selecteert u het **rapport URL-beveiliging**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
 
@@ -234,7 +234,7 @@ Het rapport **URL Threat Protection** heeft twee geaggregeerde weergaven die elk
 
   ![URL klik op beschermings actie weergave in het rapport URL Threat Protection](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
-- **URL klik op toepassing**: hier ziet u het aantal door toepassingen geklikt url's door toepassingen die Office 365-ATP veilige koppelingen ondersteunen:
+- **URL klik op toepassing**: hier ziet u het aantal te klikken voor de URL door toepassingen die ondersteuning bieden voor veilige koppelingen:
 
   - **E-mailclient**
   - **PowerPoint**
@@ -275,7 +275,7 @@ Naast de in dit onderwerp beschreven ATP-rapporten, zijn er nog enkele andere ra
 |**Verkenner** (ATP abonnement 2) of **realtime-detecties** (ATP abonnement 1)|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md)|
 |**Beveiligingsrapporten voor e-mail**, zoals het rapport belangrijkste afzenders en geadresseerden, het rapport spoofberichten en het rapport detectie van ongewenste e-mail.|[Beveiligingsrapporten voor e-mail weergeven in het beveiligings & nalevings centrum](view-email-security-reports.md)|
 |**E-mail stroom rapporten**, zoals het doorsturen van rapporten, het rapport status van de mail stroom en het rapport meest voorkomende afzenders en geadresseerden.|[De e-mail stroom rapporten weergeven in het beveiligings & nalevings centrum](view-mail-flow-reports.md)|
-|**URL-tracering voor veilige koppelingen met ATP** (alleen PowerShell). De uitvoer van deze cmdlet toont u de resultaten van in de afgelopen zeven dagen gepaarde ATP-acties.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
+|**URL-tracering voor veilige koppelingen** (alleen PowerShell). De uitvoer van deze cmdlet toont u de resultaten van acties van veilige koppelingen in de afgelopen zeven dagen.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
 |**Resultaten van e-mail verkeer voor EOP en ATP** (alleen PowerShell). De uitvoer van deze cmdlet bevat informatie over domein, datum, evenement type, richting, actie en aantal berichten.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
 |**E-mail detailrapporten voor EOP en ATP-detectie** (alleen PowerShell). De uitvoer van deze cmdlet bevat details over schadelijke bestanden of Url's, phishing-pogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
 |
@@ -306,7 +306,7 @@ Zie de volgende bronnen voor meer informatie:
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat moet ik doen als de rapporten geen gegevens weergeven?
 
-Als u geen gegevens ziet in uw vrije voorraadrapporten, controleert u of uw beleidsregels correct zijn ingesteld. Uw organisatie moet beschikken over de beleidsregels voor [veilige koppelingen](set-up-atp-safe-links-policies.md) en het [beleid voor veilige bijlagen](set-up-atp-safe-attachments-policies.md) met ATP, gedefinieerd in de juiste VOLGorde voor de ATP-beveiliging. Zie ook [antispam en beveiliging tegen malware in Office 365](anti-spam-and-anti-malware-protection.md).
+Als u geen gegevens ziet in uw vrije voorraadrapporten, controleert u of uw beleidsregels correct zijn ingesteld. Als u wilt dat uw organisatie [beleidsregels voor beveiliging en beveiliging](set-up-atp-safe-links-policies.md) van [bijlagen](set-up-atp-safe-attachments-policies.md) bevat Zie ook [antispam en bescherming tegen malware](anti-spam-and-anti-malware-protection.md).
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

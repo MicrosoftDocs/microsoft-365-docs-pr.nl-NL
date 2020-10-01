@@ -3,7 +3,7 @@ title: Adreslijstsynchronisatie voor Microsoft 365 instellen
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
+ms.date: 09/30/2020
 audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 1b3b5318-6977-42ed-b5c7-96fa74b08846
 description: Leer hoe u adreslijstsynchronisatie tussen Microsoft 365 en uw on-premises Active Directory kunt instellen.
-ms.openlocfilehash: 3a846a6c558f221c1869dce6da27e3d34680f75d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 308774dcdbaffc1096ab6ad144484e6920accdfa
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689007"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327091"
 ---
 # <a name="set-up-directory-synchronization-for-microsoft-365"></a>Adreslijstsynchronisatie voor Microsoft 365 instellen
 
@@ -35,7 +35,7 @@ ms.locfileid: "46689007"
 
 In Microsoft 365 wordt een Azure Active Directory (Azure AD)-Tenant gebruikt voor het opslaan en beheren van identiteiten voor verificatie en machtigingen voor toegang tot Cloud bronnen. 
 
-Als u een on-premises Active Directory Domain Services (AD DS) hebt, kunt u uw gebruikersaccounts, groepen en contactpersonen van AD DS synchroniseren met de Azure AD-Tenant van uw Microsoft 365-abonnement. Dit is de hybride identiteit voor Microsoft 365. Hier volgen de onderdelen.
+Als u een on-premises Active Directory Domain Services (AD DS)-domein of-forest hebt, kunt u uw gebruikersaccounts, groepen en contactpersonen van AD DS synchroniseren met de Azure AD-Tenant van uw Microsoft 365-abonnement. Dit is de hybride identiteit voor Microsoft 365. Hier volgen de onderdelen.
 
 ![Onderdelen van adreslijstsynchronisatie voor Microsoft 365](../media/about-microsoft-365-identity/hybrid-identity.png)
 
@@ -51,7 +51,7 @@ Azure AD Connect wordt uitgevoerd op een on-premises server en de AD DS wordt ge
 
 - Federatieve verificatie
 
-  Azure AD stuurt de clientcomputer om authenticatie vragen om contact op te nemen met een andere identiteitsprovider.
+  Azure AD verwijst naar de clientcomputer die authenticatie voor een andere identiteitsprovider aanvraagt.
 
 Zie [hybride identiteiten](plan-for-directory-synchronization.md) voor meer informatie.
   
@@ -99,4 +99,4 @@ Volg de stappen in [DNS-records voor Microsoft 365 maken wanneer u uw DNS-record
 
 ## <a name="next-step"></a>Volgende stap
 
-[Licenties toewijzen aan gebruikersaccounts](assign-licenses-to-user-accounts.md)
+[Licenties aan gebruikersaccounts toewijzen](assign-licenses-to-user-accounts.md)

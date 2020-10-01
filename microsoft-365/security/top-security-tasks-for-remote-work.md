@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Uw zakelijke e-mail en gegevens beschermen tegen cyber bedreigingen, zoals Ransomware, phishing en kwaadaardige bijlagen.
-ms.openlocfilehash: 6643228a3f71ba3c0c993577ba60b8e365b3d3df
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: 754f3eac884128e0707a02c15d4d3766f5fa4ca5
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318226"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327793"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>De belangrijkste 12 taken voor beveiligings teams voor de ondersteuning van thuisgebruik
 
@@ -100,14 +100,13 @@ Zie [Office 365 Advanced Threat Protection](office-365-security/office-365-atp.m
 
 Uw globale beheerder kan deze beveiligingsinstellingen configureren:
 
-- [Veilige koppelingen voor ATP instellen](office-365-security/set-up-atp-safe-links-policies.md)
-- [Beleid voor veilige bijlagen in ATP instellen](office-365-security/set-up-atp-safe-attachments-policies.md)
-- [Een aangepaste lijst instellen met URL's die niet opnieuw mogen worden geschreven](office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
-- [Een aangepaste lijst met geblokkeerde URL's instellen](office-365-security/set-up-a-custom-blocked-urls-list-atp.md)
+- [Beleidsregels voor veilige koppelingen instellen](office-365-security/set-up-atp-safe-links-policies.md)
+- [Algemene instellingen configureren voor veilige koppelingen](office-365-security/configure-global-settings-for-safe-links.md)
+- [Beleidsregels voor veilige bijlagen instellen](office-365-security/set-up-atp-safe-attachments-policies.md)
 
 U moet samenwerken met uw Exchange Online-beheerder en de SharePoint Online-beheerder om ATP te configureren voor de volgende werkbelasting:
 
-- [ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen](office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
+- [ATP voor SharePoint, OneDrive en Microsoft Teams](office-365-security/atp-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-azure-advanced-threat-protection"></a>4: Azure Advanced Threat Protection configureren
 

@@ -16,17 +16,16 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Wat zijn de aanbevolen procedures voor beveiligingsinstellingen van Exchange Online Protection (EOP) en Advanced Threat Protection (ATP)? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Advanced Threat Protection (ATP) gebruikt?
-ms.openlocfilehash: 78dc1673d20affdfab9228883dbce3b08e8efbb5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 012bccb265f6b587176eec8f8bed94ce4bf4f211
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202709"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328009"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 **Exchange Online Protection (EOP)** is de kern van beveiliging voor microsoft 365-abonnementen en helpt voorkomen dat ongewenste e-mailberichten in de Postvak in van uw werknemers terechtkomen. Maar met nieuwe, nieuwe, nog geavanceerdere aanvallen die elke dag zijn verbeterd, zijn er vaak betere bescherming nodig. **Office 365 Advanced Threat Protection (ATP)** ATP abonnement 1 of ATP abonnement 2 bevat extra functies die beheerders meer lagen bieden voor beveiliging, controle en onderzoek.
 
@@ -153,7 +152,7 @@ Office 365 ATP bevat de beleidsregels voor veilige bijlagen en veilige koppeling
 
 Als u een Office 365 ATP-abonnement hebt toegevoegd aan uw EOP, moet u de volgende configuraties instellen.
 
-### <a name="office-atp-anti-phishing-policy-settings"></a>Instellingen voor Phishingfilter van Office ATP
+### <a name="atp-anti-phishing-policy-settings"></a>Instellingen voor het anti-phishingfilter van ATP
 
 EOP-klanten hebben een eenvoudige anti-phishing zoals eerder beschreven, maar Office 365 ATP bevat meer functies en controle voor het voorkomen, detecteren en herstellen tegen aanvallen. Als u deze beleidsregels wilt maken en configureren, raadpleegt u [het artikel ATP anti-phishing configureren in Office 365](configure-atp-anti-phishing-policies.md).
 
@@ -203,27 +202,31 @@ Zie voor meer informatie over deze instelling [Geavanceerde phishingberichten in
 |---|---|---|---|
 |**Geavanceerde phishingberichten** <br/><br/> _PhishThresholdLevel_|**2-agressief** <br/><br/> `2`|**3-meer agressief** <br/><br/> `3`||
 
-### <a name="atp-safe-links-policy-settings"></a>Beleidsinstellingen voor veilige koppelingen met ATP
+### <a name="safe-links-settings"></a>Instellingen voor veilige koppelingen
 
-Zie [beleidsregels voor veilige koppelingen van Office 365 instellen](set-up-atp-safe-links-policies.md)voor het configureren van deze instellingen.
+Veilige koppelingen in Office 365 ATP bestaan uit globale instellingen die van toepassing zijn op alle gebruikers die deel uitmaken van het beleid van Active links Zie voor meer informatie [veilige koppelingen in Office 365 ATP](atp-safe-links.md).
 
-#### <a name="safe-links-policy-settings-in-the-default-policy-for-all-users"></a>Beleidsinstellingen voor veilige koppelingen in het standaardbeleid voor alle gebruikers
+#### <a name="global-settings-for-safe-links"></a>Algemene instellingen voor veilige koppelingen
 
-**Opmerking**: in PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
+Zie [algemene instellingen configureren voor veilige koppelingen in Office 365 ATP](configure-global-settings-for-safe-links.md)voor het configureren van deze instellingen.
+
+In PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
 
 ****
 
 |Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
 |---|---|---|---|
-|**Veilige koppelingen gebruiken in: Office 365-toepassingen** <br/><br/> _EnableSafeLinksForO365Clients_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik op de PC-en Mobile-clients van Office 365 Office.|
-|**Veilige koppelingen gebruiken in: Office Web Access-assistenten** <br/><br/> _EnableSafeLinksForWebAccessCompanion_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik in Office Web apps de veilige ATP-koppelingen. Let op: deze instelling kan niet worden geconfigureerd.|
-|**Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** <br/><br/> _TrackClicks_|Uit <br/><br/> `$true`|Uit <br/><br/> `$true`||
-|**Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL** <br/><br/> _AllowClickThrough_|Aan <br/><br/> `$false`|Aan <br/><br/> `$false`||
+|**Veilige koppelingen gebruiken in: Office 365-toepassingen** <br/><br/> _EnableSafeLinksForO365Clients_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik veilige koppelingen voor ATP in ondersteunde Office 365-Desktop-en mobiele apparaten (iOS-en Android-apps). Zie [instellingen voor veilige koppelingen voor Office 365-apps](atp-safe-links.md#safe-links-settings-for-office-365-apps)voor meer informatie.|
+|**Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** <br/><br/> _TrackClicks_|Uit <br/><br/> `$true`|Uit <br/><br/> `$true`|Deze instelling is gekoppeld aan het bijhouden van gebruikers klikken in ondersteunde Office 365-apps.|
+|**Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL** <br/><br/> _AllowClickThrough_|Aan <br/><br/> `$false`|Aan <br/><br/> `$false`|Deze instelling is gekoppeld aan Klik in ondersteunde Office 365-apps.|
+|Veilige koppelingen gebruiken in: Office Web Access-assistenten <br/><br/> _EnableSafeLinksForWebAccessCompanion_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik veilige koppelingen in Office Web apps. Let op: deze instelling kan niet worden geconfigureerd.|
 |
 
-#### <a name="safe-links-policy-settings-in-custom-policies-for-specific-users"></a>Beleidsinstellingen voor veilige koppelingen in aangepaste beleidsregels voor specifieke gebruikers
+#### <a name="safe-links-policy-settings"></a>Beleidsinstellingen voor veilige koppelingen
 
-**Opmerking**: in PowerShell gebruikt u de cmdlets [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) en [set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
+Zie [beleid voor veilige koppelingen instellen in Office 365 ATP](set-up-atp-safe-links-policies.md)voor het configureren van deze instellingen.
+
+In PowerShell gebruikt u de cmdlets [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) en [set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
 
 ****
 
@@ -238,13 +241,15 @@ Zie [beleidsregels voor veilige koppelingen van Office 365 instellen](set-up-atp
 |**Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL** <br/><br/> _DoNotAllowClickThrough_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |
 
-### <a name="atp-safe-attachments-policy-settings"></a>Beleidsinstellingen voor veilige bijlagen
+### <a name="safe-attachments-settings"></a>Instellingen voor veilige bijlagen
 
-Als u deze instellingen wilt configureren, raadpleegt u [Office 365 ATP voor veilige bijlagen instellen](set-up-atp-safe-attachments-policies.md).
+Veilige bijlagen in Office 365 ATP bestaan uit globale instellingen die van toepassing zijn op alle gebruikers die deel uitmaken van de beleidsregels voor Active Safe attachments, en instellingen die specifiek zijn voor elk beleid voor veilige koppelingen. Zie voor meer informatie [veilige bijlagen in Office 365 ATP](atp-safe-attachments.md).
 
-#### <a name="safe-attachments-policy-settings-in-the-default-policy-for-all-users"></a>Beleidsinstellingen voor veilige bijlagen in het standaardbeleid voor alle gebruikers
+#### <a name="global-settings-for-safe-attachments"></a>Algemene instellingen voor veilige bijlagen
 
-**Opmerking**: in PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
+Als u deze instellingen wilt configureren, raadpleegt u [ATP voor SharePoint, OneDrive en Microsoft teams](turn-on-atp-for-spo-odb-and-teams.md) en [veilige documenten inschakelen in Microsoft 365 E5](safe-docs.md).
+
+In PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
 
 ****
 
@@ -252,12 +257,14 @@ Als u deze instellingen wilt configureren, raadpleegt u [Office 365 ATP voor vei
 |---|---|---|---|
 |**ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen** <br/><br/> _EnableATPForSPOTeamsODB_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |**Veilige documenten voor Office-clients inschakelen**<bt/><br/> _EnableSafeDocs_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||Deze instelling is alleen beschikbaar in de beveiligings licenties voor Microsoft 365 E5 of Microsoft 365 E5. Zie voor meer informatie [veilige documenten in Office 365 Advanced Threat Protection](safe-docs.md).|
-|**Toestaan dat personen kunnen klikken via de beveiligde weergave, zelfs als het bestand door veilige documenten wordt geïdentificeerd als schadelijk**<bt/><br/> _AllowSafeDocsOpen_|Uit <br/><br/> `$false`|Uit <br/><br/> `$false`||
+|**Toestaan dat personen kunnen klikken via de beveiligde weergave, zelfs als het bestand door veilige documenten wordt geïdentificeerd als schadelijk**<bt/><br/> _AllowSafeDocsOpen_|Uit <br/><br/> `$false`|Uit <br/><br/> `$false`|Deze instelling is gerelateerd aan veilige documenten.|
 |
 
-#### <a name="safe-attachments-policy-settings-in-custom-policies-for-specific-users"></a>Beleidsinstellingen voor veilige bijlagen in aangepaste beleidsregels voor specifieke gebruikers
+#### <a name="safe-attachments-policy-settings"></a>Beleidsinstellingen voor veilige bijlagen
 
-**Opmerking**: in PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) en [set-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
+Zie [beleid voor veilige bijlagen instellen in Office 365 ATP](set-up-atp-safe-attachments-policies.md)voor het configureren van deze instellingen.
+
+In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) en [set-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
 
 ****
 

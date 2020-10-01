@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 kunt u de resultaten en de belangrijkste bevindingen bekijken.
 ms.date: 09/29/2020
-ms.openlocfilehash: df0eaa54d8bc1c9cd6c91b6b36958e1eb0d2bfd6
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: 4be5f3814ed798a0e7fd42285ed2884a5cc29461
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48309104"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327697"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
@@ -247,7 +247,7 @@ U kunt:
 |Spam onderzoek uitgaande malware en spam|Intra-organisatie en uitgaande malware, phishing of spam detecteren van gebruikers in uw organisatie|
 |Onderzoek domein van afzender|Controle op aanvraag van domein via de [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
 |IP-onderzoek van afzender| Controle op aanvraag van IP-reputatie via [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
-|URL'S klikken onderzoek| Onderzoek klikken van gebruikers die zijn beschermd door [Office 365 ATP veilige koppelingen](atp-safe-links.md) in uw organisatie|
+|URL'S klikken onderzoek| Onderzoek klikken van gebruikers die zijn beveiligd via [veilige koppelingen in Office 365 ATP](atp-safe-links.md) in uw organisatie|
 |URL-reputatie onderzoek|Vraag over de URL op aanvraag van de [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
 |Onderzoek van gebruikersactiviteit|Afwijkingen van gebruikersactiviteiten analyseren in de [Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|
 |Door de gebruiker gerapporteerde e-mail indicatoren|Indicatoren uitpakken uit de koptekst, hoofdtekst en inhoud van door de [gebruiker gerapporteerde e-mail](enable-the-report-message-add-in.md) voor onderzoek|
@@ -271,6 +271,6 @@ U kunt:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [In behandeling zijnde acties controleren en goedkeuren](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions?view=o365-worldwide#approve-or-reject-pending-actions)
+- [In behandeling zijnde acties controleren en goedkeuren](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)
 
 - [Meer informatie over het geautomatiseerde onderzoek en antwoord in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

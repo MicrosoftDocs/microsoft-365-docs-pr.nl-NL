@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6df9ce21f29cdeaf4943ba930668420a24344ca
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 32ff9f2c8d009b4c9b05c12ba4e785e59cb182e7
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201863"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328081"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -86,18 +86,18 @@ U moet ook aanvullende informatie binnen het product zien. Bijvoorbeeld het tota
 ### <a name="top-targeted-users"></a>Belangrijkste gerichte gebruikers
 
 De lijst met de belangrijkste gebruikers wordt nu weergegeven in de malware-weergave voor e-mailberichten (binnen de sectie belangrijkste Malware-families). Deze weergave wordt ook binnen phishing en alle e-mail weergaven uitgebreid, waar u de vijf beste bedoelende gebruikers kunt zien, samen met het aantal pogingen voor elke gebruiker voor de bijbehorende weergave (bijvoorbeeld voor de phishing-weergave).
-U kunt de lijst met gerichte gebruikers ook exporteren naar een limiet van 3000, samen met het aantal pogingen tot offline analyse voor elke e-mail weergave. U kunt ook Nee selecteren. met pogingen (met uitzonde maal 13 pogingen) opent u een gefilterde weergave in de bedreigings Verkenner, zodat u meer details kunt bekijken voor e-mailberichten en bedreigingen voor die gebruiker. 
+U kunt de lijst met gerichte gebruikers ook exporteren naar een limiet van 3000, samen met het aantal pogingen tot offline analyse voor elke e-mail weergave. U kunt ook Nee selecteren. met pogingen (met uitzonde maal 13 pogingen) opent u een gefilterde weergave in de bedreigings Verkenner, zodat u meer details kunt bekijken voor e-mailberichten en bedreigingen voor die gebruiker.
 
 ![Belangrijkste gerichte gebruikers](../../media/Top_Targeted_Users.png)
 
 
 ### <a name="exchange-transport-rules"></a>Exchange-transportregels
 Als onderdeel van gegevens verrijking dient u ook alle verschillende transportregels te zien die zijn toegepast op een bericht. Deze informatie wordt weergegeven in de weergave voor het weergeven van de E-mail (als u dit wilt bekijken, selecteert u kolom opties in het raster en voegt u een Exchange-Transport regel toe via de kolom opties in het raster) en de flyout Details in het e-mailbericht.
-U kunt zowel de GUID als de naam van de transportregels zien die op het bericht zijn toegepast. U kunt ook zoeken naar de berichten met behulp van de naam van de transportregel. Dit is een ' contain '-zoekopdracht, wat betekent dat u kunt zoeken met gedeeltelijke zoekopdrachten. 
+U kunt zowel de GUID als de naam van de transportregels zien die op het bericht zijn toegepast. U kunt ook zoeken naar de berichten met behulp van de naam van de transportregel. Dit is een ' contain '-zoekopdracht, wat betekent dat u kunt zoeken met gedeeltelijke zoekopdrachten.
 
-#### <a name="important-note"></a>Belangrijke opmerking: 
-De ETR toe zoeken en de beschikbaarheid van namen is afhankelijk van de specifieke rol die aan u is toegewezen. U moet beschikken over een van de volgende rollen/machtigingen om de namen en zoekopdrachten van ETR toe te kunnen bekijken.  Als u niet beschikt over de volgende rollen die aan u zijn toegewezen, kunt u niet de namen van de transportregels zien en de naam van de berichten zoeken met behulp van de namen van de ETR toe. U kunt echter het ETR toe-label en de GUID-informatie in de e-mail gegevens zien. Uw andere ervaring rond het weergeven van records in e-mail rasters, e-mail flyout, filters en exporteren worden niet beïnvloed. 
- 
+#### <a name="important-note"></a>Belangrijke opmerking:
+De ETR toe zoeken en de beschikbaarheid van namen is afhankelijk van de specifieke rol die aan u is toegewezen. U moet beschikken over een van de volgende rollen/machtigingen om de namen en zoekopdrachten van ETR toe te kunnen bekijken.  Als u niet beschikt over de volgende rollen die aan u zijn toegewezen, kunt u niet de namen van de transportregels zien en de naam van de berichten zoeken met behulp van de namen van de ETR toe. U kunt echter het ETR toe-label en de GUID-informatie in de e-mail gegevens zien. Uw andere ervaring rond het weergeven van records in e-mail rasters, e-mail flyout, filters en exporteren worden niet beïnvloed.
+
 - Alleen EXO-preventie van gegevensverlies: alles
 - Alleen EXO: O365SupportViewConfig: all
 - AAD of EXO-beveiligingsbeheerder: alle
@@ -105,13 +105,15 @@ De ETR toe zoeken en de beschikbaarheid van namen is afhankelijk van de specifie
 - Alleen EXO-transport regels: alle
 - Alleen EXO-view-only Configuration: all
 
-In het raster, het detail menu van de e-mail en de geëxporteerde CSV-gegevens, worden de Etr's weergegeven met een naam/GUID zoals hieronder weergegeven. 
+In het raster, het detail menu van de e-mail en de geëxporteerde CSV-gegevens, worden de Etr's weergegeven met een naam/GUID zoals hieronder weergegeven.
 
 ![Exchange-Transport regels](../../media/ETR_Details.png)
 
-### <a name="inbound-connectors"></a>Binnenkomende connectors 
+### <a name="inbound-connectors"></a>Binnenkomende connectors
 
-Connectors zijn een verzameling instructies waarmee u de manier kunt wijzigen waarop uw e-mailberichten overlopen van en naar uw Microsoft 365-of Office 365-organisatie, en de mogelijkheid om beveiligingsbeperkingen of besturingselementen toe te passen. U kunt in de Threat Explorer nu de verbindingslijnen weergeven die zijn gerelateerd aan een e-mailbericht en zoeken naar e-mailberichten met de namen van de verbindingslijnen. De zoekfunctie van connectors is ' bevat ', wat betekent dat u ook gepaarde trefwoord zoekopdrachten werkt. In de hoofdweergave voor details, de vervolgkeuze info en de geëxporteerde CSV-indeling, worden de connectors weergegeven in de indeling naam/GUID, zoals hieronder wordt weergegeven: 
+Connectors zijn een verzameling instructies waarmee u de manier kunt wijzigen waarop uw e-mailberichten overlopen van en naar uw Microsoft 365-of Office 365-organisatie, en de mogelijkheid om beveiligingsbeperkingen of besturingselementen toe te passen. U kunt in de Threat Explorer nu de verbindingslijnen weergeven die zijn gerelateerd aan een e-mailbericht en zoeken naar e-mailberichten met de namen van de verbindingslijnen.
+De zoekfunctie van connectors is ' bevat ', wat betekent dat u ook gepaarde trefwoord zoekopdrachten werkt.
+In de hoofdweergave voor details, de vervolgkeuze info en de geëxporteerde CSV-indeling, worden de connectors weergegeven in de indeling naam/GUID, zoals hieronder wordt weergegeven:
 
 ![Details van connector](../../media/Connector_Details.png)
 
@@ -185,7 +187,7 @@ U kunt in het rapport realtime detecties de volgende keer naar dezelfde locatie 
 > [!TIP]
 > Netwerkbericht-ID Hiermee wijst u de Klik op terug naar specifieke e-mailberichten wanneer u in Verkenner of aan hulpmiddelen van een andere leverancier zoekt via netwerkbericht-ID. Door de netwerkbericht-ID te zoeken, leveren beheerders de specifieke e-mail die is gekoppeld aan een klik resultaat. Bij export met de correlatie-id van de netwerkbericht-ID is een snellere en krachtige analyse.
 
-![tp_ExportClickResultAndNetworkID.png](../../media/tp_ExportClickResultAndNetworkID.png)
+![Klikken op tab in Verkenner](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Malware van de malware van een e-mail weergeven
 
@@ -211,7 +213,7 @@ Het rapport wordt vernieuwd om de resultaten van malware in een e-mail te tonen 
 
 ## <a name="view-data-about-phishing-urls-and-click-verdict"></a>Bekijk gegevens over phishingberichten en klik op Verdict
 
-Stel dat u phishingberichten via Url's wilt weergeven in een e-mail, waaronder een lijst met Url's die zijn toegestaan, geblokkeerd en genegeerd. Voor het identificeren van Url's waarop u hebt geklikt, moeten [veilige koppelingen](atp-safe-links.md) van minimaal zijn geconfigureerd. Zorg ervoor dat u [beleidsregels voor veilige verbindingen](set-up-atp-safe-links-policies.md) van 5000 hebt ingesteld voor de tijd van de bescherming en logboekregistratie van Verdicts met behulp van ATP.
+Stel dat u phishingberichten via Url's wilt weergeven in een e-mail, waaronder een lijst met Url's die zijn toegestaan, geblokkeerd en genegeerd. Voor het identificeren van Url's waarop geklikt, moeten [veilige koppelingen](atp-safe-links.md) zijn geconfigureerd. Zorg ervoor dat u [beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md) hebt ingesteld voor beveiliging van de tijd van klikken en logboekregistratie van Verdicts via veilige koppelingen.
 
 Als u de Url's van de phishing in berichten en op Url's in phishingberichten wilt bekijken, gebruikt u de [e-mail > phishing-](threat-explorer-views.md#email--phish) weergave van Explorer (of realtime-detecties).
 
@@ -242,8 +244,7 @@ Als u de Url's van de phishing in berichten en op Url's in phishingberichten wil
    > [!NOTE]
    > In het dialoogvenster URL-flyout worden de filters voor e-mailberichten verwijderd om de volledige weergave van de belichtings van de URL in uw omgeving te zien. Hiermee kunt u e-mailberichten in Explorer filteren, zodat u specifieke Url's kunt zoeken die potentiële bedreigingen zijn en vervolgens uw inzicht krijgen in de URL-belichting in uw omgeving (via het dialoogvenster URL-details) zonder dat u URL-filters hoeft toe te voegen aan de Verkenner-weergave.
 
-
-**Interpretatie van verschillende klikken op Verdicts**
+### <a name="interpretation-of-different-click-verdicts"></a>Interpretatie van verschillende klikken op Verdicts
 
 Binnen de E-mail-of URL-flyout, met de bovenste klikken en in onze filter ervaring, ziet u verschillende waarden als onderdeel van de jacht-ervaring. Hieronder ziet u de mogelijke waarden van klik Verdicts en de interpretatie ervan:
 
@@ -254,7 +255,7 @@ Binnen de E-mail-of URL-flyout, met de bovenste klikken en in onze filter ervari
 - **Geblokkeerde overschreven**: de gebruiker is geblokkeerd en navigeert niet naar de URL. de gebruiker overrode het blok echter om naar de URL te gaan.
 - **Verdict in behandeling**: de gebruiker heeft weergegeven met de detonatie pagina. de gebruiker overrode echter de pagina om naar de URL te navigeren.
 - **Fout**: de gebruiker heeft de foutpagina weergegeven. Dit kan ook betekenen dat er een fout is opgetreden bij het vastleggen van de Verdict.
-- **Fout**: er is een onbekende uitzondering opgetreden tijdens het vastleggen van de Verdict. De gebruiker heeft mogelijk geklikt door de URL. 
+- **Fout**: er is een onbekende uitzondering opgetreden tijdens het vastleggen van de Verdict. De gebruiker heeft mogelijk geklikt door de URL.
 
 ## <a name="review-email-messages-reported-by-users"></a>Door gebruikers verzonden e-mailberichten bekijken
 
@@ -288,7 +289,7 @@ Zie voor meer informatie [: een beveiligingsbeheerder activeert een onderzoek va
 Naast de scenario's die in dit artikel worden beschreven, hebt u veel meer opties voor het rapporteren van de Verkenner (of realtime-detectie).
 
 - [Schadelijke e-mailberichten zoeken en onderzoeken die zijn afgeleverd](investigate-malicious-email-that-was-delivered.md)
-- [Schadelijke bestanden weergeven die zijn gevonden in SharePoint Online, OneDrive en Microsoft teams](malicious-files-detected-in-spo-odb-or-teams.md)
+- [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
 - [Een overzicht van de weergaven in het bedreigings Verkenner-object (en realtime-detectie)](threat-explorer-views.md)
 - [Geautomatiseerd onderzoek en antwoord in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
 

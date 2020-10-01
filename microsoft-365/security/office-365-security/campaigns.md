@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over campagne weergaven in Office 365 Advanced Threat Protection.
-ms.openlocfilehash: 881dcde1157877eb015d9700bcbcd08fd3336192
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: df3b3c7a0e8d8f614e5f743b445af07916f1dfd5
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203477"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326589"
 ---
 # <a name="campaign-views-in-office-365-atp"></a>Campagne weergaven in Office 365 ATP
 
@@ -137,7 +137,7 @@ In de volgende lijst vindt u een beschrijving van de beschikbare campagne-eigens
   - **Tags**
   - **Systeem overschrijvingen**
 
-- Geavanceerd
+- Advanced
 
   - **Internet bericht-id**: beschikbaar in het veld **bericht-id-** koptekst in de kop van het bericht. Een Voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Let op de punthaken).
   
@@ -264,9 +264,9 @@ Als een gebruiker in het malafide e-mailbericht op de URL van de nettolading hee
 
 - **Ingesteld**
 
-- **BlockPage**: de geadresseerde heeft op de URL van de nettolading geklikt, maar de toegang tot de schadelijke website werd geblokkeerd door het beleid voor [veilige koppelingen](atp-safe-links.md) in de organisatie.
+- **BlockPage**: de geadresseerde heeft op de URL van de nettolading geklikt, maar de toegang tot de schadelijke website werd geblokkeerd door een beleid voor [veilige koppelingen](atp-safe-links.md) in uw organisatie.
 
-- **BlockPageOverride**: de geadresseerde die in het bericht op de URL van de nettolading hebt geklikt, heeft getrachte ATP-koppelingen geprobeerd ze te stoppen, maar ze kunnen het blok negeren. Controleer uw [beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md) om te zien waarom gebruikers de verdict voor veilige koppelingen mogen negeren en doorgaan naar de schadelijke website.
+- **BlockPageOverride**: de geadresseerde die in het bericht op de URL van de nettolading hebt geklikt, heeft veilige koppelingen geprobeerd ze te stoppen, maar ze kunnen het blok negeren. Controleer uw [beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md) om te zien waarom gebruikers de verdict voor veilige koppelingen mogen negeren en doorgaan naar de schadelijke website.
 
 - **PendingDetonationPage**: veilige bijlagen in Office 365 ATP worden geopend en onderzocht de URL van de nettolading in een virtuele computeromgeving.
 

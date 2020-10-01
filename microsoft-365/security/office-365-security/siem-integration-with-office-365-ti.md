@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Integreer de SIEM-server van uw organisatie met Office 365 Advanced Threat Protection en gerelateerde bedreigingen voor gebeurtenissen in de beheer-API van Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfb76485fec8eca2f2b62da59fa2d18a56177bba
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 544093960570fe0e68ac47dc7bf9965fba2d30a1
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203647"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327163"
 ---
 # <a name="siem-integration-with-advanced-threat-protection"></a>SIEM-integratie met Advanced Threat Protection
 
@@ -46,7 +46,6 @@ Onlangs werden gebeurtenissen van geautomatiseerde onderzoek-en antwoord mogelij
 
 De controle op de SIEM-server of een ander soortgelijk systeem controleert de **audit. General** -werklast voor toegang tot detectie gebeurtenissen. Zie aan de [slag met Office 365 Management api's](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)voor meer informatie. 
 
-
 ## <a name="enum-auditlogrecordtype---type-edmint32"></a>Enum: AuditLogRecordType-type: EDM. Int32
 
 ### <a name="auditlogrecordtype"></a>AuditLogRecordType
@@ -56,7 +55,7 @@ De volgende tabel bevat een overzicht van de waarden van **AuditLogRecordType** 
 |Value|Lidnaam|Beschrijving|
 |---|---|---|
 |30|ThreatIntelligence|Phishing en malware van gebeurtenissen via Exchange Online Protection en Office 365 ATP.|
-|41|ThreatIntelligenceUrl|Voor veilige koppelingen voor ATP en gebeurtenissen negeren in Office 365 ATP.|
+|41|ThreatIntelligenceUrl|Veilige koppelingen de time-in-en geblokkeerde gebeurtenissen in Office 365 ATP.|
 |47|ThreatIntelligenceAtpContent|Phishing en malware-gebeurtenissen voor bestanden in SharePoint Online, OneDrive voor bedrijven en Microsoft teams in Office 365 ATP.|
 |64|Onderzoek|Geautomatiseerd onderzoek en antwoord gebeurtenissen, zoals onderzoek Details en relevante artefacten, uit Office 365 ATP-abonnement 2.|
 |

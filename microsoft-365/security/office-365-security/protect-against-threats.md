@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie lezen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe u deze voor uw organisatie gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad74e9bdcd7b937873108d2ba049c16db8c235b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 624646461efe7131b2479e003b23a9e659e0a779
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202577"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326553"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -54,7 +54,7 @@ Functies voor beveiliging tegen bedreigingen zijn opgenomen in *alle* Microsoft-
 |Beveiliging tegen ongewenste e-mail|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Automatisch wissen van 0 uur (voor e-mail)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Beveiliging van schadelijke Url's en bestanden in e-mail en Office-documenten (veilige koppelingen en veilige bijlagen)|[Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (**ATP**)|
-|ATP voor SharePoint-, OneDrive-en Microsoft teams-workloads inschakelen| [GENOMEN](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide)|
+|ATP voor SharePoint-, OneDrive-en Microsoft teams-workloads inschakelen|[GENOMEN](atp-for-spo-odb-and-teams.md)|
 |Geavanceerde anti malafide beveiliging|[GENOMEN](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Rollen en machtigingen
@@ -150,90 +150,78 @@ Zie voor meer informatie over de opties voor het [instellen](configure-atp-anti-
 
 Zie [Antispambeleid in EOP](configure-your-spam-filter-policies.md)voor meer informatie over de opties voor anti-spam beleid.
 
-## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments"></a>Deel 4-beveiliging van schadelijke Url's en bestanden (veilige koppelingen en veilige bijlagen)
+## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-office-365-atp"></a>Deel 4-beveiliging van schadelijke Url's en bestanden (veilige koppelingen en veilige bijlagen in Office 365 ATP)
 
-Beveiligingsmaatregelen voor schadelijke Url's en bestanden zijn beschikbaar in abonnementen die [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP) bevatten. Het is geconfigureerd via documenten die zijn [beveiligd met ATP](atp-safe-attachments.md) en beleidsregels voor [veilige koppelingen](atp-safe-links.md) .
+Beveiliging tegen tijd van schadelijke Url's en bestanden is beschikbaar in abonnementen die [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP) bevatten. Het is geconfigureerd via [veilige bijlagen](atp-safe-attachments.md) en beleidsregels voor [veilige koppelingen](atp-safe-links.md) .
 
-### <a name="atp-safe-attachments-policies"></a>Beleid voor veilige bijlagen met ATP
+### <a name="safe-attachments-policies-in-office-365-atp"></a>Beleid voor veilige bijlagen in Office 365 ATP
 
-Voor het instellen van documenten met ATP voor de [vrije](atp-safe-attachments.md)tijd moet u minimaal één beleid voor veilige bijlagen met ATP definiëren.
+Voor het instellen van [veilige bijlagen](atp-safe-attachments.md)maakt u minimaal één beleid voor veilige koppelingen.
 
-1. Kies in het [beveiligings & compliance](https://protection.office.com)de optie voor het oplossen van **bedreigings beheer**  >  **beleid**voor  >  **veilige bijlagen**.
+1. Kies in het [beveiligings & compliance](https://protection.office.com)de optie voor het maken van **bedreigings beheer**  >  **beleidsregels**voor  >  **veilige bijlagen**en klik vervolgens op **maken**.
 
-2. Selecteer de optie **ATP inschakelen voor SharePoint, OneDrive en Microsoft teams**.
+2. Configureer de volgende instellingen in de wizard **nieuwe beleidsregels voor veilige bijlagen** die wordt weergegeven:
 
-3. Klik in de sectie **e-mailbijlagen beveiligen** op het plusteken ( **+** ).
+   - Typ in het vak **naam** `Block malware` en klik op **volgende**.
 
-4. Geef de volgende instellingen op:
+   - Configureer de volgende instellingen op de pagina **instellingen** :
+     - Kies in de sectie **veilige schadelijke software voor malware-antwoord** de optie **blokkeren**.
+     - Selecteer in de sectie **bijlage omleiden** de optie **omleiden inschakelen**. Het e-mailadres opgeven voor de beheerder of operator van de beheerder van uw organisatie, die gedetecteerde bestanden controleert.
 
-   - Typ in het vak **naam** de tekst `Block malware` .
+     Klik op **Volgende**.
 
-   - Kies in de sectie antwoord de optie **blok**.
+3. Klik op de pagina **toegepast op** **een voorwaarde toevoegen**, kies **toegepast als: het domein van de ontvanger**, klik op **toevoegen**, selecteer uw domein of domeinen, klik op **toevoegen**, klik op **Voltooien**en klik op **volgende**.
 
-   - Selecteer in de sectie **bijlage omleiden** de optie **omleiden inschakelen**. Het e-mailadres opgeven voor de beheerder of operator van de beheerder van uw organisatie, die gedetecteerde bestanden controleert.
+4. Controleer de instellingen en klik vervolgens op **Voltooien**.
 
-   - Kies in de sectie **toegepast op** **het domein van de ontvanger**. Selecteer uw domein, kies **toevoegen**en klik vervolgens op **OK**.
+### <a name="safe-links-policies-in-office-365-atp"></a>Beleidsregels voor veilige koppelingen in Office 365 ATP
 
-5. **Save**.
+Voor het instellen van [veilige koppelingen](atp-safe-links.md), controleert u de algemene instellingen voor veilige koppelingen en maakt u minstens één beleid voor veilige koppelingen.
 
-6. (**Aanbevolen extra stap**) Als globale beheerder of een SharePoint Online-beheerder voert u de cmdlet **[set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** uit waarbij de **DisallowInfectedFileDownload** -parameter is ingesteld op  *waar* voor uw Microsoft 365-omgeving. (Hiermee voorkomt u dat gebruikers bestanden openen, verplaatsen, kopiëren of delen die als schadelijk zijn gevonden.)
+1. Kies in het [beveiligings & nalevings centrum](https://protection.office.com)de optie veilige koppelingen voor het beleid voor **bedreigings beheer**  >  **Policy**  >  **ATP Safe Links**en klik op **globale instellingen**en configureer de volgende instellingen:
 
-Zie voor meer informatie [office 365-beleid voor veilige bijlagen van office](set-up-atp-safe-attachments-policies.md) en [Schakel Office 365 ATP in voor SharePoint, OneDrive en Microsoft teams](turn-on-atp-for-spo-odb-and-teams.md).
+   - Controleer de optie **veilige koppelingen gebruiken in: Office 365-toepassingen** is ingeschakeld: inschakelen ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken**: Schakel deze instelling uit om de gebruikers klikken te volgen: ![ uit-/uitschakelen ](../../media/scc-toggle-off.png) .
+   - **Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL**: Controleer of de optie is ingeschakeld: ingeschakeld ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
-### <a name="atp-safe-links-policies"></a>Beleid voor veilige koppelingen voor ATP
+   Klik op **Opslaan** wanneer u gereed bent.
 
-Voor het instellen van [veilige koppelingen voor ATP](atp-safe-links.md), controleert en bewerkt u uw standaardbeleid en voegt u een beleid toe voor specifieke gebruikers.
+2. Terug naar de hoofdpagina voor veilige koppelingen: Klik op **maken**.
 
-1. Kies in het [beveiligings & nalevings centrum](https://protection.office.com)de optie veilige koppelingen voor het beleid voor **bedreigings beheer**  >  **Policy**  >  **ATP Safe Links**.
+3. Configureer de volgende instellingen in de wizard **beleid voor veilige koppelingen maken** die wordt weergegeven:
 
-2. Dubbelklik op het **standaard** beleid.
+   - Typ een naam in het vak **naam** `Safe Links` en klik op **volgende**.
 
-3. Selecteer in de sectie **veilige koppelingen gebruiken in** de optie **Microsoft 365-apps voor Enterprise, Office voor IOS en Android**, en klik vervolgens op **Opslaan**.
-
-4. Klik in de sectie **beleidsregels die gelden voor specifieke geadresseerden** op het plusteken ( **+** ).
-
-5. Geef de volgende instellingen op:
-
-   - Typ een naam in het vak **naam** , zoals `Safe Links` .
-
-   - Kies in de sectie **Selecteer de actie** **aan**.
-
-   - Selecteer de volgende opties:
-
-     - **Veilige bijlagen gebruiken om downloadbare inhoud te scannen**
-
+   - Configureer de volgende instellingen op de pagina **instellingen** :
+     - **Selecteer de actie voor onbekende, mogelijk schadelijke url's in berichten**: Kies **aan**.
+     - **Selecteer de actie voor onbekende of mogelijk schadelijke url's in Microsoft teams**: Kies **aan**.
      - **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden**
+     - **Wachten tot URL-Scan is voltooid voordat het bericht wordt bezorgd**
+     - **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden**
+     - **Gebruikers kunnen niet naar de oorspronkelijke URL klikken**
 
-     - **Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL**
+     Klik op **Volgende**.
 
-   - Kies in de sectie **toegepast op** **het domein van de ontvanger**. Selecteer uw domein, kies **toevoegen**en klik vervolgens op **OK**.
+4. Klik op de pagina **toegepast op** **een voorwaarde toevoegen**, kies **toegepast als: het domein van de ontvanger**, klik op **toevoegen**, selecteer uw domein of domeinen, klik op **toevoegen**, klik op **Voltooien**en klik op **volgende**.
 
-6. **Save**.
+5. Controleer de instellingen en klik vervolgens op **Voltooien**.
 
-Zie [Beleid voor veilige koppelingen in ATP instellen in Office 365](set-up-atp-safe-links-policies.md) voor meer informatie.
+Zie [beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.md)voor meer informatie.
 
-## <a name="part-5---turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams-workloads"></a>Deel 5-werkbelasting voor SharePoint, OneDrive en Microsoft teams
+## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>Deel 5-de ATP voor SharePoint, OneDrive en Microsoft teams ingeschakeld laten
 
-Werkbelastingen, zoals SharePoint, OneDrive en teams, zijn ontwikkeld voor samenwerking. Met ATP kunt u bestanden die zijn geïdentificeerd als schadelijk op team sites en documentbibliotheken, blokkeren en detecteren. Lees [hier](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams?view=o365-worldwide)meer over het werken.
+Werkbelastingen, zoals SharePoint, OneDrive en teams, zijn ontwikkeld voor samenwerking. Met ATP kunt u bestanden die zijn geïdentificeerd als schadelijk op team sites en documentbibliotheken, blokkeren en detecteren. Lees [hier](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)meer over het werken.
 
 > [!IMPORTANT]
 > **Voordat u met deze procedure begint, controleert u of logboekregistratie al is ingeschakeld voor uw Microsoft 365-omgeving**. Dit gebeurt meestal door iemand die de rol audit logboeken heeft toegewezen in Exchange Online. Zie [auditlogboek zoeken in-of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md)voor meer informatie.
 
-1. Ga naar <https://protection.office.com> en meld u aan met uw werk-of schoolaccount.
+1. Kies in het [beveiligings & compliance](https://protection.office.com)de optie voor het oplossen van **bedreigings beheer**  >  **beleidsregels**voor  >  **veilige bijlagen**en klik vervolgens op **algemene instellingen**.
 
-2. Kies in het gedeelte beveiligings & compliance in het linker navigatiedeelvenster onder **Threat Management**de optie **beleids** \> **veilige bijlagen**.
+2. Controleer of de wisselknop **ATP voor SharePoint, OneDrive en Microsoft teams in-of uitschakelen** aan de rechterkant: inschakelen ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) en klik vervolgens op **Opslaan**.
 
-   ![Kies in het beveiligings & nalevings centrum de optie beleid voor Threat Management \>](../../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
+3. Bekijk (en, indien nodig, bewerken) het beleid voor [veilige bijlagen](set-up-atp-safe-attachments-policies.md) van uw organisatie en het [beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md).
 
-3. Selecteer **ATP inschakelen voor SharePoint, OneDrive en Microsoft teams**.
-
-   ![Geavanceerde Bedreigingsbeveiliging inschakelen voor SharePoint Online, OneDrive voor bedrijven en Microsoft teams](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
-
-4. **Save**.
-
-5. Bekijk (en, indien nodig, bewerken) het beleid voor [veilige bijlagen](set-up-atp-safe-attachments-policies.md) van uw organisatie en het [beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md).
-
-6. Beter Als globale beheerder of een SharePoint Online-beheerder voert u de cmdlet **[set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** uit waarbij de _DisallowInfectedFileDownload_ -parameter is ingesteld op `$true` .
+4. Beter Als globale beheerder of een SharePoint Online-beheerder voert u de cmdlet **[set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** uit waarbij de _DisallowInfectedFileDownload_ -parameter is ingesteld op `$true` .
 
    - `$true` alle acties (met uitzondering van verwijdering) voor gedetecteerde bestanden blokkeren. Personen kunnen geen gevonden bestanden openen, verplaatsen, kopiëren of delen.
    - `$false` alle acties blokkeren behalve verwijderen en downloaden. Gebruikers kunnen ervoor kiezen het risico te accepteren en een gevonden bestand te downloaden.
@@ -241,7 +229,7 @@ Werkbelastingen, zoals SharePoint, OneDrive en teams, zijn ontwikkeld voor samen
    > [!TIP]
    > Zie [Microsoft 365 beheren met PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell)voor meer informatie over het gebruik van PowerShell met microsoft 365.
 
-7. Maximaal 30 minuten wachten tot de wijzigingen zijn doorgevoerd naar alle Microsoft 365-datacenters.
+5. Maximaal 30 minuten wachten tot de wijzigingen zijn doorgevoerd naar alle Microsoft 365-datacenters.
 
 ### <a name="now-set-up-alerts-for-detected-files"></a>Nu waarschuwingen voor gedetecteerde bestanden instellen
 
@@ -270,9 +258,10 @@ Zie voor meer informatie over waarschuwingen [activiteiten meldingen maken in he
 > [!NOTE]
 > Wanneer u klaar bent met de configuratie, kunt u de volgende koppelingen gebruiken om werkbelasting te onderzoeken:
 >
-> - [Informatie over schadelijke bestanden weergeven die zijn gevonden in SharePoint, OneDrive of Microsoft teams](malicious-files-detected-in-spo-odb-or-teams.md)
-> - [Wat u moet doen als er een schadelijk bestand wordt gevonden in SharePoint Online, OneDrive of Microsoft teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
-> - [In quarantaine geplaatste berichten en bestanden als beheerder beheren in Microsoft 365](manage-quarantined-messages-and-files.md)
+>- [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
+>- [De beveiligings & gebruiken om in quarantaine geplaatste bestanden te beheren](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files)
+>- [Wat u moet doen als er een schadelijk bestand wordt gevonden in SharePoint Online, OneDrive of Microsoft teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+>- [In quarantaine geplaatste berichten en bestanden als beheerder beheren in Microsoft 365](manage-quarantined-messages-and-files.md)
 
 ## <a name="part-6---additional-settings-to-configure"></a>Deel 6-aanvullende instellingen om te configureren
 
@@ -299,4 +288,4 @@ Nadat u de functies voor risico beveiliging hebt geconfigureerd, controleert u o
 |Kijk hoe de functies voor bedreigingsbeveiliging voor uw organisatie werken door rapporten weer te geven|[Beveiligings dashboard](security-dashboard.md)<br/>[E-mail beveiligingsrapporten](view-email-security-reports.md)<br/>[Rapporten voor Office 365 ATP](view-reports-for-atp.md)<br/>[Bedreigingsverkenner](threat-explorer.md)|
 |Uw beveiligingsbeleid periodiek controleren en zo nodig herzien|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[Slimme rapporten en inzichten](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365 Threat onderzoek en antwoord functies](keep-users-safe-with-office-365-ti.md)|
 |Bekijk de nieuwe functies en service-updates|[Standaard en gerichte release-opties](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Berichtencentrum](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Service beschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
-|Meer informatie over aanbevolen standaard-en strikte beveiligingsconfiguraties voor EOP en ATP | [Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwide) |
+|Meer informatie over aanbevolen standaard-en strikte beveiligingsconfiguraties voor EOP en ATP|[Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging](recommended-settings-for-eop-and-office365-atp.md)|

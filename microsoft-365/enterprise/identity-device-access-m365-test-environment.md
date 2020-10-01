@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving om de toegang tot identiteiten en apparaten te testen.
-ms.openlocfilehash: c5bc0fbbb3ae3839cb7aa71e8c840784ae4a4cad
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 84af7747fc1d0e80e933397f4f0f96018ed246c3
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685852"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327805"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Identiteit en apparaattoegang voor uw Microsoft 365-testomgeving
 
@@ -28,15 +28,15 @@ ms.locfileid: "46685852"
 
 [Configuraties voor identiteits-en Apparaattoegang](microsoft-365-policies-configurations.md) zijn een set functies en regels voor voorwaardelijke toegang om de toegang te beschermen tot alle services die zijn geïntegreerd in azure Active Directory (Azure AD).
 
-U kunt als volgt een testomgeving met deze beleidsregels maken:
+U kunt als volgt een testomgeving maken met de algemene configuraties voor identiteiten en Apparaattoegang:
 
 1. Configureer uw testomgeving met de vereiste identiteits- en beveiligingsfuncties op basis van uw keuze van identiteitsmodel en verificatiemethode:
 
   - [Alleen cloud](cloud-only-prereqs-m365-test-environment.md)
-  - [Wachtwoord-hash-synchronisatie (PHS)](phs-prereqs-m365-test-environment.md)
+  - [Synchronisatie van wachtwoord hash (PHS)](phs-prereqs-m365-test-environment.md)
   - [Pass Through-verificatie (PTA)](pta-prereqs-m365-test-environment.md)
 
-2. Gebruik [gemeenschappelijk beleid voor identiteits- en apparaattoegang](identity-access-policies.md) om het beleid te configureren dat is gebaseerd op de vereisten en test bescherming voor identiteiten en apparaten.
+2. Gebruik [veelgebruikte beleidsregels voor identiteiten en apparaten](identity-access-policies.md) om het beleid te configureren dat wordt gebruikt voor de testomgeving, en om de bescherming voor identiteiten en apparaten te verkennen en te verifiëren.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Beheerders kunnen leren welke redenen en hoe een malafide bericht krijg in Microsoft 365 en wat u moet doen om te voorkomen dat er meer phishingberichten in de toekomst worden verstaan.
-ms.openlocfilehash: c62d09a1cf8b586b5c1d4393d7316d6d6d0cc96d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 813a9c263d9cc620606c7a5e272e47bdaf1ff7a7
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201673"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328057"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
 
@@ -32,11 +32,11 @@ Als het account van een geadresseerde in het geval van een malafide account is a
 
 Als uw abonnement Advanced Threat Protection (ATP) bevat, kunt u [Office 365 Threat Intelligence](office-365-ti.md) gebruiken voor het identificeren van andere gebruikers die het malafide bericht ook hebben ontvangen. U hebt extra opties voor het blokkeren van malafide berichten:
 
-- [Veilige ATP-koppelingen](set-up-atp-safe-links-policies.md)
+- [Veilige koppelingen in Office 365 ATP](set-up-atp-safe-links-policies.md)
 
-- [Veilige bijlage van ATP](set-up-atp-safe-attachments-policies.md)
+- [Veilige bijlagen in Office 365 ATP](set-up-atp-safe-attachments-policies.md)
 
-- [ATP anti-phishing-beleid in Microsoft 365](configure-atp-anti-phishing-policies.md). Houd er rekening mee dat u de geavanceerde **verduidelijkings** **drempels** **van de** beleidsregels tijdelijk kunt verhogen, hoger **of agressief** **.**
+- [Anti-phishings beleid in Office 365 ATP](configure-atp-anti-phishing-policies.md). Houd er rekening mee dat u de geavanceerde **verduidelijkings** **drempels** **van de** beleidsregels tijdelijk kunt verhogen, hoger **of agressief** **.**
 
 Controleer of deze ATP-functies zijn ingeschakeld.
 

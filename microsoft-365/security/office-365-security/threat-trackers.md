@@ -16,12 +16,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Lees meer over bedreigings trajecten, waaronder nieuwe opspoorers, om uw organisatie op de hoogte te houden van beveiligingskwesties.
-ms.openlocfilehash: e4e157e64da92cf3c9178af1223fbc6c85e3fd95
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c631a6d9ad56c2bd155a9aa24b3758eb30d10cf7
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201793"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327151"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Bedreigings tracks-nieuw en opmerkelijk
 
@@ -88,22 +88,20 @@ En vergeet niet dat u ons feedback kunt geven op deze of andere beveiligingsfunc
   
 ## <a name="trackers-and-office-365-advanced-threat-protection"></a>Tracerers en Office 365 Advanced Threat Protection
 
-Met onze Inaugural verdachte bedreiging, markeren we geavanceerde malware van malware die wordt gedetecteerd door [Office 365 ATP voor veilige bijlagen](atp-safe-attachments.md). Als u een Office 365 Enterprise E5-klant bent en u niet werkt met [office 365 Advanced Threat Protection](office-365-atp.md) (ATP), moet u deze in uw abonnement opnemen. ATP biedt zelfs een waarde als u andere beveiligingshulpprogramma's die de e-mail stroom filteren met uw Office 365-Services. De functies voor het beheren van ongewenste e-mail van [office 365](atp-safe-links.md) werken echter uitstekend als de belangrijkste beveiligingsoplossing voor e-mail is via Office 365. 
+Met onze Inaugural bedachte bedreiging, markeren we geavanceerde malware-bedreigingen die door [veilige bijlagen](atp-safe-attachments.md)zijn gedetecteerd. Als u een Office 365 Enterprise E5-klant bent en u niet werkt met [office 365 Advanced Threat Protection](office-365-atp.md) (ATP), moet u deze in uw abonnement opnemen. ATP biedt zelfs een waarde als u andere beveiligingshulpprogramma's die de e-mail stroom filteren met uw Office 365-Services. Functies met antispam en [veilige verbindingen](atp-safe-links.md) werken echter het best wanneer uw belangrijke e-mail beveiligingsoplossing via Office 365 wordt gebruikt.
   
 ![ATP in het beveiligings &amp; Conformiteitscentrum](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
   
-Met de bedreiging van de hedendaagse riddled wereld, waarop alleen traditionele anti-malware scans worden uitgevoerd, is u niet goed te beschermen tegen aanvallen. Aan de hand van de meer geavanceerde hackers kunnen veelgebruikte hulpprogramma's worden gebruikt voor het maken van nieuwe, verduidelijkende en vertraagde aanvallen die niet worden herkend door traditionele anti malware op basis van een handtekening. Met de functie voor het veilig gebruiken van documenten worden e-mailbijlagen in een virtuele omgeving demaakt om te bepalen of deze veilig of kwaad zijn. Dit detonatie proces opent elk bestand in een omgeving met een virtuele computer en controleert wat er gebeurt nadat het bestand is geopend. Ongeacht of u een PDF-bestand of een gecomprimeerd bestand, of een Office-document, kunt u kwaadaardige code verbergen in een bestand, zodat u deze alleen kunt activeren als het slachtoffer de persoon opent op hun computer. Door het bestand in de e-mail stroom te en analyseren 365, vindt u deze bedreigingen op basis van gedrag, de reputatie van het bestand en een aantal heuristische regels.
+Met de bedreiging van de hedendaagse riddled wereld, waarop alleen traditionele anti-malware scans worden uitgevoerd, is u niet goed te beschermen tegen aanvallen. Aan de hand van de meer geavanceerde hackers kunnen veelgebruikte hulpprogramma's worden gebruikt voor het maken van nieuwe, verduidelijkende en vertraagde aanvallen die niet worden herkend door traditionele anti malware op basis van een handtekening. De functie voor veilige bijlagen maakt een e-mailbijlage en zet deze in een virtuele omgeving af om te bepalen of deze veilig of kwaad is. Dit detonatie proces opent elk bestand in een omgeving met een virtuele computer en controleert wat er gebeurt nadat het bestand is geopend. Ongeacht of u een PDF-bestand of een gecomprimeerd bestand, of een Office-document, kunt u kwaadaardige code verbergen in een bestand, zodat u deze alleen kunt activeren als het slachtoffer de persoon opent op hun computer. Door het bestand in de e-mail stroom te en analyseren 365, vindt u deze bedreigingen op basis van gedrag, de reputatie van het bestand en een aantal heuristische regels.
   
-Met het nieuwe verdachte bedreiging-filter worden items gemarkeerd die onlangs zijn gedetecteerd via ATP-veilige bijlagen. Dit detectie vertegenwoordigen items die nieuwe, schadelijke bestanden zijn en die niet eerder zijn gevonden door Microsoft 365 in de e-mail van uw e-mail stroom of van een andere klant. Let op de items in de bedachte bedreigings tracker, zie wie de doelgroep is bedoeld en Bekijk de detonatie gegevens op het tabblad geavanceerde analyses (gevonden door te klikken op het onderwerp van de e-mail in de Explorer). Opmerking u ziet dit tabblad alleen voor e-mailberichten die zijn gevonden in de mogelijkheid voor het vrijmaken van bijlagen van ATP-met deze optie kunt u dit tabblad ook in de Verkenner gebruiken, maar dat filter ook voor andere zoekopdrachten.
+Met het nieuwe verdachte bedreiging-filter worden items gemarkeerd die onlangs zijn gedetecteerd via veilige bijlagen. Dit detectie vertegenwoordigen items die nieuwe, schadelijke bestanden zijn en die niet eerder zijn gevonden door Microsoft 365 in de e-mail van uw e-mail stroom of van een andere klant. Let op de items in de bedachte bedreigings tracker, zie wie de doelgroep is bedoeld en Bekijk de detonatie gegevens op het tabblad geavanceerde analyses (gevonden door te klikken op het onderwerp van de e-mail in de Explorer). Opmerking u krijgt dit tabblad alleen te zien op e-mailberichten die zijn gevonden met de mogelijkheden voor veilige bijlagen-met deze optie kunt u dit filter ook gebruiken voor andere zoekopdrachten in de Verkenner.
   
 ## <a name="next-steps"></a>Volgende stappen
 
 - Als uw organisatie de functies voor onderzoek en antwoord van Office 365 nog niet hebt, raadpleegt [u hoe kan ik Office 365 Threat onderzoek en antwoord mogelijkheden krijgen?](office-365-ti.md).
-    
-- Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een hoofdbeheerder zijn of de rol beveiligingsbeheerder of zoeken en wissen zijn toegewezen in het Beveiligingscentrum voor beveiligings &amp; naleving. Zie [machtigingen in het beveiligings &amp; conformiteitscentrum](permissions-in-the-security-and-compliance-center.md).
-    
-- Kijk of u de nieuwe trackers wilt weergeven in de Microsoft 365-omgeving. Wanneer deze beschikbaar is, vindt u [hier](https://protection.office.com/)uw nummer. Ga naar **Threat management** \> **bedreigings**beheer.
-    
-- Als u dit nog niet hebt gedaan, kunt u hier lezen hoe u [office 365 Advanced Threat Protection](office-365-atp.md) voor uw organisatie, waaronder [Office 365 ATP voor veilige koppelingen](atp-safe-links.md) en [veilige bijlagen van Office 365 ATP](atp-safe-attachments.md).
-  
 
+- Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een hoofdbeheerder zijn of de rol beveiligingsbeheerder of zoeken en wissen zijn toegewezen in het Beveiligingscentrum voor beveiligings &amp; naleving. Zie [machtigingen in het beveiligings &amp; conformiteitscentrum](permissions-in-the-security-and-compliance-center.md).
+
+- Kijk of u de nieuwe trackers wilt weergeven in de Microsoft 365-omgeving. Wanneer deze beschikbaar is, vindt u [hier](https://protection.office.com/)uw nummer. Ga naar **Threat management** \> **bedreigings**beheer.
+
+- Als u dit nog niet hebt gedaan, kunt u hier lezen hoe u [Office 365 Advanced Threat Protection](office-365-atp.md) voor uw organisatie, zoals [veilige koppelingen](atp-safe-links.md) en [veilige bijlagen](atp-safe-attachments.md), kunt configureren.

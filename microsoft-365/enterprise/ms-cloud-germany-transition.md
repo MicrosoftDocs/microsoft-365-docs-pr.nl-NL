@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Overzicht: informatie over de migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 9d74ec8dd942d022bf1b9d0301f415ef1f0c28e2
-ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+ms.openlocfilehash: a77dc43c4c30992d2e50aad94878f9269573db52
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308975"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327115"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Migratie van Microsoft Cloud Deutschland naar Office 365-Services in de nieuwe Duitse datacenter gebieden
 
@@ -267,6 +267,8 @@ Als u vragen hebt, kunt u contact opnemen met ons of uw partner:
 - Als 365 u een Office-klant afspraak en Power BI-klant hebt en ook Office 365, kunt u vragen indienen via de &quot; koppeling hulp nodig? &quot; op de koppeling naar het [Microsoft 365-Beheercentrum](https://portal.office.de/). De ondersteuningsopties voor de klant afspraken van Dynamics 365 zijn [hier](https://docs.microsoft.com/dynamics365/get-started/support/)te vinden. De ondersteuningsopties voor Power BI zijn [hier](https://powerbi.microsoft.com/support/)te vinden.
 
 ## <a name="more-information"></a>Meer informatie
+
+Aanvullende informatie over het migreren naar de nieuwe Duitse datacenter regio's. Een bladwijzer toevoegen aan een pagina, zodat u deze kunt in-en uitschakelen.
 
 - [Migratie ondersteuning voor Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
 - [Hoe kan ik me aanmelden voor migratie?](https://aka.ms/office365germanymoveoptin)

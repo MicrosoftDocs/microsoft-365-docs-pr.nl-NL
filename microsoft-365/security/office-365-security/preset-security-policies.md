@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over het toepassen van standaard-en strikte beleidsinstellingen in de beveiligingsfuncties van Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: 35be2b1ebfcf7ef8b7aad5cc2d4b3dd7032806b2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8431d36779069b0b289a2533fbd6b85abee24536
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202601"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326541"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Office 365 ATP
 
@@ -75,9 +75,9 @@ Vooraf ingesteld beveiligingsbeleid Gebruik de bijbehorende beleidsregels van de
     - [Imitatie-instellingen](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
     - [Geavanceerde phishingberichten](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
 
-  - [Beleidsregels voor veilige koppelingen](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings-in-custom-policies-for-specific-users) met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid**.
+  - [Beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md) met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid**.
 
-  - [Beleidsregels voor veilige bijlagen](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-policy-settings-in-custom-policies-for-specific-users) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid**.
+  - [Beleidsregels voor veilige bijlagen](set-up-atp-safe-attachments-policies.md) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid**.
 
 U kunt EOP-bescherming toepassen op verschillende gebruikers dan ATP-beveiligingen.
 

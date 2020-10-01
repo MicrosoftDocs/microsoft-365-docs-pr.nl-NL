@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 description: Lees meer over het gebruik van bedreigings Verkenner en het rapport realtime detectie om bedreigingen te onderzoeken en te beantwoorden in het Security &amp; compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5500a7bff0766159384604e9973b5ad81b3dbc6f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1310baec402d9053e93b7166ca38cfcab11d73b2
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200105"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48326983"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in de bedreigings Verkenner en de real-time detectie
 
@@ -140,7 +140,7 @@ In **het** volgende diagram wordt een weergave als volgt in een weergave in een 
 
 ![Verkenner gefilterd zodat alleen de resultaten van de ATP-detonatie worden weergegeven](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
 
-In deze weergave kijken we naar gegevens voor bestanden die zijn gedoofd in [Office 365 ATP voor veilige bijlagen](atp-safe-attachments.md). Onder de grafiek worden de details weergegeven van specifieke e-mailberichten met bijlagen die zijn gevonden met veilige ATP-bijlagen.
+In deze weergave kijken we naar gegevens voor bestanden die zijn detonatiet door [veilige bijlagen](atp-safe-attachments.md). Onder de grafiek ziet u de details van specifieke e-mailberichten met bijlagen die door veilige bijlagen zijn gevonden.
 
 ![Specifieke details van e-mailberichten met vastgestelde bijlagen](../../media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
 
