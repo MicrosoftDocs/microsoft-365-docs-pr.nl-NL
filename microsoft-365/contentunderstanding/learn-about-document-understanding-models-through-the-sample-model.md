@@ -1,53 +1,49 @@
 ---
-title: Meer informatie over documenten met behulp van modellen via het voorbeeldmodel
+title: Informatie over documentbegripmodellen met behulp van het voorbeeldmodel
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over documenten met behulp van modellen via het voorbeeldmodel
-ms.openlocfilehash: c27d50df69c2555b1720e3e919f786076ab1e3fb
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Informatie over documentbegripmodellen met behulp van het voorbeeldmodel
+ms.openlocfilehash: 75e17c8075fa381c68b6f85e0dfbe96e5d2ad557
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295906"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321263"
 ---
-# <a name="learn-about-document-understanding-models-through-a-sample-model"></a>Meer informatie over het werken met modellen via een voorbeeldmodel
+# <a name="learn-about-document-understanding-models-through-a-sample-model"></a>Informatie over documentbegripmodellen met behulp van een voorbeeldmodel
 
-Met Microsoft SharePoint Syntex krijgt u een voorbeeld van een model dat u kunt gebruiken om te onderzoeken, zodat u beter inzicht krijgt in het maken van uw eigen modellen. Met het voorbeeldmodel kunt u ook modelonderdelen bekijken, zoals de classificatie, extraheren en uitleg. U kunt ook de voorbeeldbestanden gebruiken voor het trainen van het model.
+Microsoft SharePoint Syntex biedt een voorbeeldmodel dat u kunt onderzoeken om een beter inzicht te krijgen in hoe u uw eigen modellen kunt creëren. Het voorbeeldmodel stelt u ook in staat om modelcomponenten te onderzoeken, zoals de classificatie, de extractoren en de uitleg. U kunt de voorbeeldbestanden ook gebruiken om het model te trainen.
 
-## <a name="import-the-sample-model"></a>Het voorbeeldmodel importeren
+## <a name="import-the-sample-model"></a>Voorbeeldmodel importeren
 
-Als u toegang wilt krijgen tot het voorbeeldmodel, moet u eerst het model importeren in uw inhouds centrum.
+Om toegang te krijgen tot het voorbeeldmodel moet u het model eerst importeren in uw inhoudscentrum.
 
-1. Selecteer in het inhouds centrum **modellen** om de lijst met modellen weer te geven.</br>
-2. Selecteer op de pagina **modellen** de optie **import voorbeeldmodel**.</br>
+1. Selecteer in het inhoudscentrum **Modellen** om de lijst met modellen te zien.</br>
+2. Selecteer op de pagina **Modellen** de optie **Voorbeeldmodel importeren**.</br>
 
     ![Voorbeeldmodel importeren](../media/content-understanding/import-sample-model.png) </br>
 
-3. Zoek het voorbeeldmodel getiteld *BenefitsChangeNotice. Classifier* , dat wordt weergegeven in uw lijst met modellen.</br>
+3. Wanneer het importeren is voltooid, wordt de startpagina van het model **BenefitsChangeNotice** geopend. Wanneer u in de toekomst het voorbeeldmodel wilt openen, kunt u dat doen vanuit de modellenlijst in het inhoudscentrum. </br>
 
-    ![Voorbeeld van model](../media/content-understanding/sample-model.png) </br>
+     ![Startpagina voorbeeld](../media/content-understanding/sample-home-page.png)</br>
 
-4. Selecteer de *BenefitsChangeNotice. Classifier*om de startpagina van het model te openen.</br>
-  
-     ![Voorbeeld van Startpagina](../media/content-understanding/sample-home-page.png)
+U kunt niet alleen het voorbeeldmodel analyseren om een beter inzicht te krijgen in hoe het model is opgebouwd, maar met een werkend model kunt u meer doen, zoals:
 
-5. Ga naar de startpagina van het model en onderzoek het model om te zien hoe dit is gemaakt.
- 
-- Bekijk de voorbeeldbestanden voor het trainen van het model.
-- Bekijk de entiteits extracters van het model nauwkeuriger om te zien hoe het voorbeeld van de uitleg is geconfigureerd.
+- Een extra extractor toevoegen. Bijvoorbeeld een die de *korting* eruit haalt.
+- Pas het model toe op een documentbibliotheek en upload een paar trainingsbestanden om te zien hoe het model de gegevens daarin classificeert en extraheert.
 
-   ![Voorbeeld van model extracters](../media/content-understanding/entity-extractors.png)  
 
 ## <a name="see-also"></a>Zie ook
-[Een classificatie maken](create-a-classifier.md)</br>
-[Een extractor maken](create-an-extractor.md)</br>
-[Overzicht van document](document-understanding-overview.md)</br>
-[Een formulier verwerkings model maken](create-a-form-processing-model.md)  
+[Een classificatie maken](create-a-classifier.md)
+
+[Een extractor maken](create-an-extractor.md)
+
+[Overzicht van documentbegrip](document-understanding-overview.md)
+
+[Een formulierverwerkingsmodel maken](create-a-form-processing-model.md)  

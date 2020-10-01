@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/16/2020
+ms.date: 09/30/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,20 +15,29 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Vereisen dat uw gebruikers zich veilig aanmelden met meervoudige verificatie (MFA) en andere functies.
-ms.openlocfilehash: 6c8f58e54ae21b4a5e1566dc72673e1d69152863
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 2e6c564e3179d0847710e2bef071dcc9e1cdbdaf
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132239"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327424"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Gebruikersaanmeldingen bij uw Microsoft 365-Tenant beveiligen
 
 Om de beveiliging van gebruikersaanmeldingen te vergroten:
 
+- Windows Hello voor Bedrijven gebruiken
 - Wachtwoordbeveiliging van Azure Active Directory (Azure AD) gebruiken
 - Meervoudige verificatie (MFA) gebruiken
-- Beleid voor identiteiten en apparaattoegang implementeren
+- Configuratie van identiteiten en apparaattoegang implementeren
+- Beschermen tegen inbreuk op referenties met Azure AD Identity Protection
+
+## <a name="windows-hello-for-business"></a>Windows Hello voor Bedrijven
+
+Windows Hello voor Bedrijven in Windows 10 Enterprise vervangt wachtwoorden met sterke tweeledige verificatie bij het ondertekenen op een Windows-apparaat. De twee factoren zijn een nieuw type gebruikersreferentie dat is gekoppeld aan een apparaat en een biometrisch kenmerk of een pincode.
+
+Zie [Overzicht Windows Hello voor Bedrijven](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview)voor meer informatie.
+
 
 ## <a name="azure-ad-password-protection"></a>Azure AD-wachtwoordbeveiliging
 
@@ -44,7 +53,7 @@ Bij MFA is er voor gebruikersaanmeldingen extra verificatie naast het wachtwoord
 
 De eerste stap voor het gebruik van MFA is ***om het voor alle beheerdersaccounts***te gebruiken, ook wel geprivilegieerde accounts genoemd.
 
-Naast deze eerste stap, raadt Microsoft MFA ten zeerste aan voor alle gebruikers.
+Daarnaast raadt Microsoft MFA aan voor alle gebruikers.
 
 Er zijn drie manieren waarop u uw gebruikers kunt verplichten MFA te gebruiken op basis van uw Microsoft 365-abonnement.
 
@@ -63,7 +72,7 @@ Gebruikers hebben 14 dagen de tijd om zich te registreren voor MFA met de Micros
 
 De standaardinstellingen voor beveiliging bieden organisaties een basisbeveiligingsniveau voor gebruikersaanmeldingen dat standaard is ingeschakeld. U kunt de standaardinstellingen voor beveiliging uitschakelen ten gunste van MFA met voorwaardelijk toegangsbeleid of voor afzonderlijke accounts.
 
-Zie dit [overzicht van gevoeligheidslabels](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie.
+Zie het [overzicht van standaardinstellingen voor beveiliging](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor meer informatie.
 
 ### <a name="conditional-access-policies"></a>Beleidsregels voor voorwaardelijke toegang
 
@@ -77,7 +86,7 @@ U kunt beleidsregels voor voorwaardelijke toegang ook gebruiken voor meer geavan
 
 Voor voorwaardelijke toegang zijn Azure AD Premium P1-licenties vereist, die deel uitmaken van Microsoft 365 E3 en E5.
 
-Zie dit [overzicht van voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) voor meer informatie.
+Zie het [overzicht van voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) voor meer informatie.
 
 ### <a name="using-these-methods-together"></a>Deze methoden samen gebruiken
 
@@ -96,7 +105,7 @@ In deze tabel ziet u de resultaten na het inschakelen van MFA met de standaardin
 | **Beleidsregels voor voorwaardelijke toegang** | Als er een of meer zijn ingeschakeld, kunt u de standaardinstellingen voor beveiliging niet inschakelen | Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen  | Opgeven door gebruiker tijdens MFA-registratie  |
 ||||
 
-## <a name="identity-and-device-access-policies"></a>Beleid voor identiteiten en apparaattoegang
+## <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
 Instellingen en beleid voor identiteiten en apparaattoegang zijn aanbevolen vereiste functies. Hun instellingen in combinatie met voorwaardelijke toegang, Intune en Azure AD Identity Protection-beleidsregels bepalen of een bepaald toegangsverzoek moet worden verleend en onder welke voorwaarden. Deze bepaling is gebaseerd op het gebruikersaccount van de login, het apparaat dat wordt gebruikt, de app die de gebruiker gebruikt voor toegang, de locatie van waaruit het toegangsverzoek is gedaan en een beoordeling van het risico van de aanvraag. Op deze manier zorgt u ervoor dat alleen goedgekeurde gebruikers en apparaten toegang hebben tot uw belangrijke bronnen.
 
@@ -114,27 +123,22 @@ Deze lagen en de bijbehorende configuraties bieden een consistent beveiligingsni
 
 Microsoft beveelt ten zeerste aan om het beleid voor identiteits- en toegangsbeleid te configureren en in uw organisatie in te stellen, waaronder specifieke instellingen voor Microsoft Teams, Exchange Online en SharePoint. Zie voor meer informatie [Configuraties van identiteiten en apparaattoegang](microsoft-365-policies-configurations.md).
 
-<!--
+## <a name="azure-ad-identity-protection"></a>Azure AD Identity Protection
 
-## Let your users reset their own passwords
+In dit gedeelte leert u hoe u beleidsregels configureert die bescherming bieden tegen inbreuken op referenties, waarbij een kwaadwillende gebruiker een aanval uitvoert op de accountnaam en wachtwoord van een gebruiker om toegang te krijgen tot de cloudservices en gegevens van een organisatie. Azure AD Identity Protection biedt verschillende manieren om te voorkomen dat een kwaadwillende gebruiker de referenties van een gebruikersaccount in gevaar kan brengen.
 
-Self-Service Password Reset (SSPR) enables users to reset their own passwords without impacting IT staff. Users can quickly reset their passwords at any time and from any place. Watch [this video](https://go.microsoft.com/fwlink/?linkid=2128524) to set up SSPR.
+Met Azure AD Identity Protection kunt u:
 
-## Sign in to SaaS apps with Azure AD
+|Mogelijkheid|Beschrijving|
+|:---------|:---------|
+| Mogelijke beveiligingslekken in de identiteiten van uw organisatie vaststellen en verhelpen | Azure AD gebruikt machine learning om afwijkingen en verdachte activiteiten te detecteren, zoals aanmeldingen en activiteiten na aanmelding. Met deze gegevens genereert Azure AD Identity Protection rapporten en waarschuwingen om u te helpen bij het evalueren van problemen en het ondernemen van actie. |
+|Verdachte acties opsporen die zijn gerelateerd aan de identiteiten van uw organisatie en automatisch op deze acties reageren|U kunt beleidsregels met betrekking tot risicobeheer zodanig configureren dat deze automatisch reageren op opgespoorde problemen als een bepaald risiconiveau is bereikt. Met deze beleidsregels kunt u, naast andere besturingselementen voor voorwaardelijke toegang die worden geboden door Azure AD en Microsoft Intune, de toegang automatisch blokkeren of corrigerende acties ondernemen, waaronder wachtwoordherstel en vereiste meervoudige verificatie in Azure voor volgende aanmeldingen. |
+| Verdachte incidenten onderzoeken en deze oplossen met beheertaken | U kunt risico gebeurtenissen onderzoeken door informatie over het beveiligingsincident te gebruiken. Er zijn eenvoudige werkstromen beschikbaar om onderzoek bij te houden en herstelbewerkingen uit te voeren, zoals het opnieuw instellen van wachtwoorden. |
+|||
 
-In addition to providing cloud authentication for users, Azure AD can also be your central way to secure all your apps, whether they’re on-premises, in Microsoft’s cloud, or in another cloud. By [integrating your apps into Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration), you can make it easy for your users to discover the applications they need and sign into them securely.
+Zie [meer informatie over Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection).
 
-## Results of deployment of secure sign-ins
-
-After deployment of MFA, your users:
-
-- Are required to use MFA for sign-ins.
-- Have completed the MFA registration process and are using MFA for all sign-ins.
-- Can use SSPR to reset their own passwords.
-
-- [Plan an Azure AD self-service password reset deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
-
---> 
+Zie de [stappen voor het inschakelen van de Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).
 
 ## <a name="admin-technical-resources-for-mfa-and-secure-sign-ins"></a>Technische informatiebronnen voor beheerders voor MFA en beveiligde aanmeldingen
 
@@ -144,3 +148,6 @@ After deployment of MFA, your users:
 - [Het beleid voor Azure Multi-Factor Authentication-registratie configureren](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Configuratie van identiteiten en apparaattoegang](microsoft-365-policies-configurations.md)
 
+## <a name="next-step"></a>Volgende stap
+
+[Uw gebruikersaccounts beheren](manage-microsoft-365-accounts.md)

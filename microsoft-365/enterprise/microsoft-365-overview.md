@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, abonnementen en implementatie paden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: b5064d78a1681a3331248f3d17d389c46b1da314
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: fa076517b071efbe3a5002d6a48418a796e38ca4
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949914"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327471"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -32,7 +32,7 @@ Microsoft 365 voor bedrijven bestaat uit:
 
 |Services|Beschrijving|
 |---|---|
-|Lokale en cloud-gebaseerde apps en productiviteitsservices|Bevat zowel Microsoft 365-apps voor bedrijven, de nieuwste Office-apps voor uw PC en Mac (zoals Word, Excel, PowerPoint, Outlook en anderen), en een volledige suite Online Services voor e-mail, bestandsopslag en samenwerking, vergaderingen en meer.|
+|Lokale apps en cloud-apps en productiviteitsservices|Bevat zowel Microsoft 365-apps voor bedrijven, de nieuwste Office-apps voor uw PC en Mac (zoals Word, Excel, PowerPoint, Outlook en anderen), en een volledige suite Online Services voor e-mail, bestandsopslag en samenwerking, vergaderingen en meer.|
 |Windows 10 Enterprise|Voldoet aan de behoeften van grote en middelgrote organisaties. Dit is de meest productieve en veilige versie van Windows voor gebruikers. Voor IT-professionals, biedt ook uitgebreid implementatie-, apparaat- en app-beheer.|
 |Beheer van apparaten en geavanceerde beveiligingsservices|Maakt deel uit van Microsoft Intune. Dit is een cloudservice voor Enterprise Mobility Management waarmee uw werknemers productief kunnen zijn tijdens het beveiligen van uw organisatiegegevens.|
 |||

@@ -1,6 +1,6 @@
 ---
-title: Rapporten van het termenarchief
-description: Meer informatie over het melden van activiteiten in het termenarchief
+title: Rapportage over termenarchief
+description: Informatie over het rapporteren over activiteit in een termenarchief
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -8,36 +8,35 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 07b472eac9eba55f7a0a972ec818e0fbcb300552
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 75bd60aab424bdf391038a95055a6660ef2ceecc
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295890"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322209"
 ---
-# <a name="term-store-reports"></a>Rapporten van het termenarchief
+# <a name="term-store-reports"></a>Rapportage over termenarchief
 
-U kunt rapporten voor het termenarchief openen in het SharePoint-Beheercentrum. Vouw **rapporten**uit en klik op **inhouds Services**.
+U kunt rapporten over het termenarchief bekijken in het SharePoint-beheercentrum. Vouw **Rapporten** uit en klik op **Inhoudsservices**.
 
 De volgende rapporten zijn beschikbaar:
 
-### <a name="term-store-operations"></a>Bewerking van het termenarchief
+### <a name="term-store-operations"></a>Bewerkingen van het termenarchief
 
-Bekijk de meest voorkomende bewerkingen die in uw termenarchief zijn opgenomen in een periode van 15 dagen en Bekijk een trend van de dagelijkse volumes in die periode. Dit is handig als u inzicht wilt krijgen in de aard van wijzigingen in uw termenarchief op een hoog niveau en eventuele onverwachte trends in de hoeveelheid werk. 
+Bekijk de belangrijkste bewerkingen die binnen een periode van 15 dagen in uw termenarchief hebben plaatsgevonden en een trend van de dagelijkse volumes in die periode. Dit is handig als u meer wilt weten over de aard van de wijzigingen in uw termenarchief op hoog niveau en als u onverwachte trends in de hoeveelheid bewerkingen wilt opsporen. 
 
-### <a name="term-store-composition"></a>Compositie van termenarchief
+### <a name="term-store-composition"></a>Samenstelling van het termenarchief
 
-Bekijk de distributie van een type term tussen reguliere beheerde termen en ondernemingstrefwoorden. Naar wens meerdere trefwoorden verplaatsen naar beheerde termen. Dit is handig als u wilt weten of uw gebruikers gebruikmaken van trefwoorden. U kunt ze nakijken om potentiële kandidaten voor beheerde termen te identificeren.
+Bekijk de verdeling van de typen termen in normale beheerde termen en ondernemingstrefwoorden. Verplaats meerdere trefwoorden naar beheerde termen indien gewenst. Dit is handig wanneer u wilt weten of uw gebruikers trefwoorden actief gebruiken. U kunt ze beoordelen om mogelijke kandidaten voor beheerde termen te identificeren.
 
-### <a name="open-and-closed-term-sets"></a>Openstaande en afgesloten termensets
+### <a name="open-and-closed-term-sets"></a>Open en gesloten termensets
 
-Bekijk de distributie van openstaande en gesloten termensets. Dit is handig als u wilt begrijpen hoeveel termensets gebruikers termen kunnen toevoegen. U kunt ze desgewenst converteren naar een gesloten, bijvoorbeeld als de volumes onverwacht worden opgegroeid. 
+Bekijk de verdeling van op en gesloten termensets. Dit is handig als u wilt weten in hoeveel termensets gebruikers termen kunnen toevoegen. Indien gewenste kunt u ze omzetten naar gesloten, bijvoorbeeld als er een onverwachte volumetoename plaatsvindt. 
 
-### <a name="terms-without-synonyms"></a>Voorwaarden zonder synoniemen
+### <a name="terms-without-synonyms"></a>Termen zonder synoniemen
 
-Het aantal voorwaarden weergeven in alle toegevoegde talen waarvoor geen synoniemen zijn gedefinieerd. Dit is handig om te bepalen in welke talen u synoniemen wilt definiëren. Synoniemen helpen eindgebruikers duidelijk en vinden de juiste voorwaarden om de inhoud ervan te markeren.
+Bekijk het aantal termen in elk van de toegevoegde werktalen waarin geen synoniemen zijn gedefinieerd. Dit is handig om talen te identificeren waarvoor u synoniemen wilt definiëren. Met synoniemen kunnen gebruikers onderscheid maken tussen termen en de juiste termen vinden om hun inhoud te labelen.
 
 ## <a name="see-also"></a>Zie ook
 
