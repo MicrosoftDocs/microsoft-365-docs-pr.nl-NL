@@ -1,6 +1,6 @@
 ---
-title: Een termenset importeren met een op SKOS gebaseerde indeling
-description: Meer informatie over het importeren van een termenset met een op SKOS gebaseerde indeling
+title: Een termenset met een SKOS-indeling importeren
+description: Leer hoe u een termenset met een SKOS-indeling kunt importeren
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,43 +9,42 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: aaed88463f690853672780b48a8ee3857a956847
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 318497b8b1815b281eff7d781820616c9be9d5ed
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295893"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321239"
 ---
-# <a name="import-a-term-set-using-a-skos-based-format"></a><span data-ttu-id="4f2a8-103">Een termenset importeren met een op SKOS gebaseerde indeling</span><span class="sxs-lookup"><span data-stu-id="4f2a8-103">Import a term set using a SKOS-based format</span></span>
+# <a name="import-a-term-set-using-a-skos-based-format"></a><span data-ttu-id="ba83e-103">Een termenset met een SKOS-indeling importeren</span><span class="sxs-lookup"><span data-stu-id="ba83e-103">Import a term set using a SKOS-based format</span></span>
 
-<span data-ttu-id="4f2a8-104">U kunt een termenset importeren met een op SKOS gebaseerde indeling.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-104">You can import a term set using a SKOS-based format.</span></span> <span data-ttu-id="4f2a8-105">Zie voor meer informatie over de indeling naslaginformatie voor het maken van een [SharePoint-taxonomie skos](skos-format-reference.md).</span><span class="sxs-lookup"><span data-stu-id="4f2a8-105">For details about the format, see [SharePoint taxonomy SKOS format reference](skos-format-reference.md).</span></span>
+<span data-ttu-id="ba83e-104">U kunt een termenset met een SKOS-indeling importeren.</span><span class="sxs-lookup"><span data-stu-id="ba83e-104">You can import a term set using a SKOS-based format.</span></span> <span data-ttu-id="ba83e-105">Zie [Naslaginformatie over SharePoint-taxonomie SKOS-indeling](skos-format-reference.md).</span><span class="sxs-lookup"><span data-stu-id="ba83e-105">For details about the format, see [SharePoint taxonomy SKOS format reference](skos-format-reference.md).</span></span>
 
-<span data-ttu-id="4f2a8-106">U wordt aangeraden uw importbestanden te houden naar minder dan 20.000 termen.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-106">We recommend keeping your import files to less than 20,000 terms.</span></span> <span data-ttu-id="4f2a8-107">Grotere bestanden kunnen de tijd voor validatie en import verlengen.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-107">Larger files can increase the time taken for validation and import.</span></span>
+<span data-ttu-id="ba83e-106">We adviseren om importbestanden te beperken tot 20.000 termen of minder.</span><span class="sxs-lookup"><span data-stu-id="ba83e-106">We recommend keeping your import files to less than 20,000 terms.</span></span> <span data-ttu-id="ba83e-107">Met grotere bestanden kan de benodigde tijd voor validatie en importeren sterk oplopen.</span><span class="sxs-lookup"><span data-stu-id="ba83e-107">Larger files can increase the time taken for validation and import.</span></span>
 
-1. <span data-ttu-id="4f2a8-108">Vouw in het SharePoint-Beheercentrum **inhouds Services**uit en klik op **termenarchief**.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-108">In the SharePoint admin center, expand **Content services**, and then click **Term store**.</span></span>
+1. <span data-ttu-id="ba83e-108">Vouw in het SharePoint-beheercentrum **Inhoudsservices** uit en klik op **Termenarchief**.</span><span class="sxs-lookup"><span data-stu-id="ba83e-108">In the SharePoint admin center, expand **Content services**, and then click **Term store**.</span></span>
 
-2. <span data-ttu-id="4f2a8-109">Selecteer de termen groep waarin u de termenset wilt importeren.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-109">Select the term group where you want to import the term set.</span></span>
+2. <span data-ttu-id="ba83e-109">Selecteer de termengroep waarin u de termenset wilt importeren.</span><span class="sxs-lookup"><span data-stu-id="ba83e-109">Select the term group where you want to import the term set.</span></span>
 
-3. <span data-ttu-id="4f2a8-110">Klik op de opdrachtbalk op **termenset importeren**.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-110">In the command bar, click **Import term set**.</span></span>
+3. <span data-ttu-id="ba83e-110">Klik in de opdrachtbalk op **Termenset importeren**.</span><span class="sxs-lookup"><span data-stu-id="ba83e-110">In the command bar, click **Import term set**.</span></span>
  
-4.  <span data-ttu-id="4f2a8-111">Als u een voorbeeld van een bestand wilt downloaden dat u als sjabloon wilt gebruiken, klikt u op **sample-metadata. TTL** om een voorbeeldbestand te downloaden dat gebruikmaakt van de op skos gebaseerde indeling.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-111">If you want to download a sample file to use as a template, click **sample-metadata.ttl** to get a sample file that uses the SKOS-based format.</span></span>
+4.  <span data-ttu-id="ba83e-111">Als u een voorbeeldbestand wilt downloaden om te gebruiken als sjabloon, klikt u op **sample-metadata.ttl** om een voorbeeldbestand te downloaden waarin de SKOS-indeling wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="ba83e-111">If you want to download a sample file to use as a template, click **sample-metadata.ttl** to get a sample file that uses the SKOS-based format.</span></span>
  
-5.  <span data-ttu-id="4f2a8-112">Maak het importbestand dat de termensets bevat & termen die u wilt importeren.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-112">Create the import file that contains the term sets & terms you wish to import.</span></span>
+5.  <span data-ttu-id="ba83e-112">Maak het importbestand dat de termenset en de termen bevat die u wilt importeren.</span><span class="sxs-lookup"><span data-stu-id="ba83e-112">Create the import file that contains the term sets & terms you wish to import.</span></span>
 
-6.  <span data-ttu-id="4f2a8-113">Selecteer onder **bestandsindeling**de optie **SKOS (\*. TTL)**.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-113">Under **File format**, select **SKOS (\*.ttl)**.</span></span>
+6.  <span data-ttu-id="ba83e-113">Selecteer onder **Bestandsindeling** de optie **SKOS (\*.ttl)**.</span><span class="sxs-lookup"><span data-stu-id="ba83e-113">Under **File format**, select **SKOS (\*.ttl)**.</span></span>
 
-7.  <span data-ttu-id="4f2a8-114">Klik op **Bladeren** en ga naar uw importbestand toevoegen.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-114">Click **Browse** and navigate to and add your import file.</span></span>
+7.  <span data-ttu-id="ba83e-114">Klik op **Bladeren** om te navigeren naar het bestand en het toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="ba83e-114">Click **Browse** and navigate to and add your import file.</span></span>
 
-8.  <span data-ttu-id="4f2a8-115">Klik op **importeren**.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-115">Click **Import**.</span></span> <span data-ttu-id="4f2a8-116">Sluit het deelvenster niet totdat het importeren is voltooid.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-116">Do not close the panel until the import completes.</span></span>
+8.  <span data-ttu-id="ba83e-115">Klik op \*\*Importeren \*\*.</span><span class="sxs-lookup"><span data-stu-id="ba83e-115">Click **Import**.</span></span> <span data-ttu-id="ba83e-116">Sluit het deelvenster totdat het importeren is voltooid.</span><span class="sxs-lookup"><span data-stu-id="ba83e-116">Do not close the panel until the import completes.</span></span>
 
-<span data-ttu-id="4f2a8-117">Bij het importeren van het bestand wordt een succes bericht weergegeven en wordt het termenarchief vernieuwd en kunt u naar de nieuwe termensets navigeren.</span><span class="sxs-lookup"><span data-stu-id="4f2a8-117">On successful import of the file, a success message will be displayed, and the term store will refresh and you can navigate to the newly created term sets.</span></span>
+<span data-ttu-id="ba83e-117">Wanneer het bestand is geïmporteerd wordt er een bericht weergegeven dat het importeren is geslaagd. Vervolgens wordt het termenarchief vernieuwd en kunt u naar de nieuw gemaakte termensets navigeren.</span><span class="sxs-lookup"><span data-stu-id="ba83e-117">On successful import of the file, a success message will be displayed, and the term store will refresh and you can navigate to the newly created term sets.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4f2a8-118">Zie ook</span><span class="sxs-lookup"><span data-stu-id="4f2a8-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ba83e-118">Zie ook</span><span class="sxs-lookup"><span data-stu-id="ba83e-118">See also</span></span>
 
-[<span data-ttu-id="4f2a8-119">Inleiding in beheerde metagegevens</span><span class="sxs-lookup"><span data-stu-id="4f2a8-119">Introduction to managed metadata</span></span>](https://docs.microsoft.com/sharepoint/managed-metadata)
+[<span data-ttu-id="ba83e-119">Introductie tot beheerde metagegevens</span><span class="sxs-lookup"><span data-stu-id="ba83e-119">Introduction to managed metadata</span></span>](https://docs.microsoft.com/sharepoint/managed-metadata)
 
-[<span data-ttu-id="4f2a8-120">Overzicht van document</span><span class="sxs-lookup"><span data-stu-id="4f2a8-120">Document understanding overview</span></span>](document-understanding-overview.md)
+[<span data-ttu-id="ba83e-120">Overzicht van documentbegrip</span><span class="sxs-lookup"><span data-stu-id="ba83e-120">Document understanding overview</span></span>](document-understanding-overview.md)
 
-[<span data-ttu-id="4f2a8-121">Termensets importeren (siteniveau)</span><span class="sxs-lookup"><span data-stu-id="4f2a8-121">Import term sets (site level)</span></span>](https://support.microsoft.com/office/168fbc86-7fce-4288-9a1f-b83fc3921c18)
+[<span data-ttu-id="ba83e-121">Termensets importeren (siteniveau)</span><span class="sxs-lookup"><span data-stu-id="ba83e-121">Import term sets (site level)</span></span>](https://support.microsoft.com/office/168fbc86-7fce-4288-9a1f-b83fc3921c18)
