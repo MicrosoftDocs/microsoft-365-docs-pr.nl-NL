@@ -28,9 +28,13 @@
       href: model-usage-analytics.md
     - name: Taxonomieën voor het maken van een extractie met een termenarchief
       href: leverage-term-store-taxonomy.md
+- name: Goedgekeurd
+  items:
+    - name: Aan de slag met aanneming
+      href: adoption-getstarted.md
 - name: Installeren en beheren
   items:
-    - name: Inhoud begrijpen
+    - name: Instellen begrip van inhoud
       href: set-up-content-understanding.md
     - name: Labels voor afbeeldingen
       href: image-tagging.md
