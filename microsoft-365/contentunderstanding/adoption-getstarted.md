@@ -1,0 +1,199 @@
+---
+title: 'Microsoft SharePoint Syntex-acceptatie: aan de slag'
+description: Lees hoe u SharePoint Syntex in uw organisatie kunt gebruiken en implementeren om uw zakelijke problemen te verhelpen.
+ms.author: samanro
+author: samanro
+manager: pamgreen
+ms.date: 7/20/2020
+audience: admin
+ms.topic: article
+ms.prod: microsoft-365-enterprise
+ms.custom: Adopt
+search.appverid: ''
+localization_priority: Normal
+ms.openlocfilehash: 83da50b3772b6adcb7977425bfcaa1b437bc6a68
+ms.sourcegitcommit: bf21a4caae0c01d93281744838f0aa50e1fb2a22
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48324272"
+---
+# <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex-acceptatie: aan de slag
+
+Denk na over de intelligente inhouds Services in Microsoft SharePoint Syntex, met drie gedeelten:
+
+- Meer informatie **over:** het maken van niet-gecodeerde AI-modellen om gegevens van inhoud te classificeren en te extraheren, zodat ze automatisch metagegevens kunnen toepassen voor ontdekking en hergebruiken. Meer informatie over het [begrijpen van inhoud](document-understanding-overview.md).
+- **Inhoudsverwerking:** Automatiseren van de vastlegging, ingestie en categorisatie van inhoud en gestroomlijnd processen met behulp van energie automatisering. Meer informatie over [inhoudsverwerking](form-processing-overview.md).
+- **Inhouds naleving:** Beheer de inhoud en beheer deze om de beveiliging en governance te verbeteren met de integratie met Microsoft-gegevensbescherming.
+
+Met de nieuwe AI-Services en-functies kunt u de inhoud van de apps leren en classificeren met Microsoft SharePoint Syntex:
+
+|Handmatige invoer| Formulierverwerking | Documenten begrijpen |
+|:-------|:--------|:--------|
+| Gegevensinvoer en arbeidsintensief op inhoud | Digitale inhoud verwerken: Foto's, scans, bewijzen, visitekaartjes, Video's met OCR & tekst |  Inhoudstypen en metagegevens vastleggen voor contracten, cv's en andere gestructureerde documenten |
+| Activiteit   | Vooraf gebouwd, automatisch   | Aangepast, bijgestaan   | Aangepast, compatibel |
+| Personen die het werk doen | In het bezit zijn van de experts van de materie. Inhoudstypen en metagegevens te vastleggen voor contracten, cv's, andere niet-gestructureerde documenten. | Kmo's zijn minder gemoeid. van aankooporders, toepassingen, andere semi-gestructureerde en gestructureerde documenten |
+
+In de volgende tabel wordt uitgelegd wat u kunt doen wanneer u Microsoft SharePoint Syntex:
+
+| Formulierverwerking | Documenten begrijpen |
+|:-------|:-------|
+| Beschikbaar in APAC, Australië, Canada, EU, JP, Latijns Amerika, UK, VS | Beschikbaar in alle regio's |
+| Maakt gebruik van AI Builder-tegoeden-meer dan 2000 pagina's; Verbruik is 2000 facturen = 2 stuks. Automatisch automatiseren is vereist – als u meer nodig hebt, kunt u dit toevoegen. 1 gereserveerde kredieten voor 300 + aangeschafte licenties. U kunt ook apart tegoed kopen. | Modellen werken op alle Latijnse alfabetische talen. Naast Engels: Duits, Zweeds, Frans, Spaans, Italiaans en Portugees. |
+| Ingericht voor de standaardgegevens service omgeving van common data| Heeft geen beperkingen voor de capaciteit. |
+
+Er zijn twee verschillende manieren om uw inhoud te begrijpen. Het modeltype dat u gebruikt, is gebaseerd op de bestandsindeling en de use-case:
+
+| Formulierverwerking | Documenten begrijpen |
+|:-------|:-------|
+| Gemaakt op basis van documentbibliotheek | Aangemaakt in het inhouds centrum, onderdeel van Microsoft SharePoint Syntex |
+| Model gemaakt met AI Builder | Model gemaakt in de eigen interface |
+| Gebruikt voor semi-gestructureerde bestandsindelingen | Wordt gebruikt voor niet-gestructureerde bestandsindelingen |
+| Instelbare Classifier | Train bare Classifier met optionele extracten |
+| Toegestaan voor één bibliotheek | Kan worden toegepast op meerdere bibliotheken |
+| Training voor PDF, JPG, PNG-indeling, totale hoeveelheid 50 MB/500 p | Training voor 5-10 PDF-, Office-of e-mail bestanden, met inbegrip van negatieve voorbeelden |
+
+Microsoft SharePoint Syntex is geïntegreerd met nalevings functies van Microsoft 365, zoals:
+
+- Labels voor bewaarbeleid waarmee een record beleid wordt gedefinieerd op basis van de ouderdom van documenten of externe gebeurtenissen.
+- Coderings labels waarmee DLP, versleuteling, delen en regels voor voorwaardelijke toegang worden ingesteld.
+
+Gebruikers kunnen labels toepassen of ze kunnen automatisch worden toegepast op SharePoint Syntex AI-modellen. Met analyse-en bestands abonnementen kunt u het beheer van labels en het gebruik van labels op een schaal bepalen.
+
+## <a name="identify-pilot-business-scenarios-to-optimize"></a>Scenario's voor prototype bedrijven identificeren die u wilt optimaliseren
+
+Als u wilt voorbereiden voor het gebruik van Microsoft SharePoint Syntex in uw organisatie, moet u eerst inzicht krijgen in de scenario's waarin dit nuttig is. In dit geval kunt u bepalen welk model u nodig hebt en hoe u uw organisatie kunt structureren op basis van de locatie waar het model wordt toegepast. Hier volgen een paar scenario's waarin u kunt zien hoe u in een document kunt werken:
+
+- Inhoudsverwerking: contracten, overzichten van werk en andere Form-achtige documenten bewerken. Laat de formulieren opdoen, Train het model om de velden te begrijpen en toe te wijzen en voer vervolgens uw formulieren uit om automatisch de gegevens te verzamelen. Zie [overzicht van formulierverwerking](form-processing-overview.md)voor meer informatie.
+- Factuur analyse: Haal de relevante gegevens uit uw facturen op en zorg ervoor dat ze voldoen aan het beleid of worden afgehandeld.
+
+Denk na over manieren waarop Microsoft SharePoint Syntex uw organisatie kan helpen:
+
+- Bedrijfsprocessen automatiseren
+- De nauwkeurigheid van zoeken verbeteren
+- Nalevings risico beheren
+
+### <a name="form-processing-scenario-example"></a>Voorbeeld van scenario voor formulierverwerking
+
+U kunt bijvoorbeeld een proces instellen met behulp van Microsoft SharePoint Syntex en de functies voor automatiserings automatisering om facturen bij te houden en te bewaken.
+
+1. Een bibliotheek instellen voor het opslaan van de factuurdocumenten.
+1. Train het model om velden in de documenten te herkennen.
+1. Pak de velden in die u wilt bijhouden in een lijst.
+1. Een stroom instellen om u op de hoogte te stellen van bepaalde gebeurtenissen, bijvoorbeeld:
+    - Een nieuwe factuur wordt toegevoegd.
+    - Er staat een factuur na de vervaldatum.
+    - Een factuur is voor een bedrag dat groter is dan het automatisch goedkeuringsbedrag.
+
+![Facturen bijhouden en controleren met Microsoft SharePoint Syntex en Power Automatiseer](../media/content-understanding/process-invoices-flow.png)
+
+Wanneer u dit scenario automatiseert, kunt u het volgende doen:
+
+- Bespaar tijd en geld door automatisch gegevens te extraheren uit de facturen in plaats van deze handmatig uit te voeren.
+- Verminder mogelijke fouten en zorg voor een betere naleving met behulp van werkstromen om op de facturen te handelen en u op de hoogte te stellen van eventuele problemen.
+
+### <a name="document-understanding-scenario-example"></a>Voorbeeld van het scenario scenario van document
+
+Als ander voorbeeld kunt u een proces instellen voor de manier waarop contracten worden geïdentificeerd die uw bedrijf met andere bedrijven of particulieren heeft. U kunt een model instellen voor het extraheren van belangrijke informatie uit deze contracten, zoals de naam van de client, kosten, datums of andere belangrijke informatie, en voeg deze toe aan de bibliotheek als velden die u snel kunt bekijken. U kunt ook een Bewaar label toepassen op de documentbibliotheek, zodat u zeker weet dat de contracten vóór een bepaalde tijd niet kunnen worden verwijderd voor de juiste naleving van de bedrijfsregels.
+
+1. Begin in het inhouds centrum en maak een nieuw document en maak informatie over het model voor contracten.
+1. Bekijk voorbeelddocumenten voor positieve en negatieve voorbeelden en voer vervolgens de training uit om documenten met contracten te identificeren en de resultaten te bekijken.
+1. Train de extractor voor het identificeren van velden in de contracten, zoals de naam van de klant, de kosten en de datum, en test vervolgens de extractor.
+1. Wanneer het model is voltooid, past u het model toe op een bibliotheek waar u contracten kunt uploaden.
+1. Een Bewaar label toepassen op het datumveld, zodat contracten in de bibliotheek bewaard blijven voor de tijdsduur die uw organisatie nodig heeft voor contracten.
+
+![Contracten bijhouden en bijhouden met labels voor Microsoft SharePoint Syntex en bewaren](../media/content-understanding/process-contracts-flow.png)
+
+Wanneer u dit scenario automatiseert, kunt u het volgende doen:
+
+- Bespaar tijd en geld door automatisch gegevens uit de contracten te extraheren in plaats van deze handmatig uit te voeren.
+- Zorg voor een betere naleving door labels te gebruiken om ervoor te zorgen dat de contracten op de juiste wijze worden bewaard.
+
+### <a name="tips-for-identifying-scenarios"></a>Tips voor het identificeren van scenario's
+
+U kunt de volgende vragen stellen wanneer u overweegt welke bedrijfsscenario's u moet nemen:
+
+- Wordt een echt probleem opgelost?
+- Wordt deze veel gebruikt of hebt u algemene impact?
+- Is dit een verkrijgbare?
+- Kunt u succes meten?
+
+Scenario's prioriteren op basis van impact en gemakkelijke implementatie. Zorg dat de scenario's voor het eerste focus gebied hoger zijn dan de scenario's die u ook gemakkelijk kunt implementeren. De prioriteit van scenario's voor minder impact die moeilijk te implementeren zijn.
+
+## <a name="identify-roles--responsibilities"></a>Rollen & verantwoordelijkheden identificeren
+
+Bepalen wie in uw organisatie de modellen gaat maken en beheren? Dit kunnen de volgende rollen zijn:
+
+| SharePoint/Knowledge-beheerder | Power platform-beheerder | Knowledge Manager | Model eigenaar |
+|:-------|:-------|:-------|:-------|
+| AAD-rol| Rollen toevoegen | AAD-rol | Leiders |
+| Formulierverwerking configureren | Algemene gegevensservice omgeving configureren voor formulierverwerking | Gebruik zaken verzamelen | Zakelijke gebruiks kwesties verzamelen |
+| Inhouds afdelingen en machtigingen beheren| AIB-tegoed kopen en toewijzen | Best practices opstellen en model analyses beoordelen | Modellen maken en toepassen |
+
+De eigenaar van de Business-Manager, de bedrijfs procedure en de eigenaar van het inhoudsmodel maken voorbeeld modellen en de aanneming van de inhoud van de organisatie.
+Deelnemers met compliance beheerder, taxonomie beheerders.
+
+Waar worden de modellen gemaakt en toegepast? Zijn er bestaande processen of opslaglocaties die kunnen worden verbeterd?
+
+- Formulierverwerking: Bepaal welke sites de formulier verwerkings actie krijgen.
+- Meer informatie over het maken van documenten: u kunt meerdere inhouds centra maken voor verschillende gebieden in de onderneming.
+
+## <a name="strategic-positioning"></a>Strategische plaatsing
+
+Werk met belanghebbenden om ervoor te zorgen dat ze zijn uitgelijnd op de strategie voor het gebruik van Microsoft SharePoint Syntex. Onderzoek en voer de volgende bronnen in voor hulp bij deze plaatsing:
+
+- Bedrijfsresultaten:
+  - Potentiële fiscale resultaten
+  - Potentiële resultaten van flexibiliteit
+  - Sjabloon zakelijk resultaat
+- Voor uitkopen/uitvullen met belanghebbenden/exec
+  - Hoofdletters voor bedrijven
+  - Financiële modellen
+  - Bedrijfs gereedheids-cultuur
+
+## <a name="identify-stakeholders"></a>Belanghebbenden identificeren
+
+Identificeer de belanghebbenden voor uw project.
+
+|Rol |Verplichtingen |Department |
+|:-------|:-------|:--------|
+| Onderdirecteur (en)   | De visie en de waarden op hoog niveau met het bedrijf communiceren   |  Uitvoerend leiderschap   |
+| Project potentiële klanten | Toezicht houden op het hele proces voor het uitvoeren van uitvoering en implementatie | Project Management |
+| Kennis beheerders| Inhouds centra maken en beheren | IT of een andere afdeling|
+| Inhoudsbeheerders en model eigenaren| Use cases verzamelen en modellen maken en toepassen | Afdeling|
+| Leiders | Ondersteuning voor evangelize en beheren van objecten | Afdeling (personeel) |
+| Tenant beheerder | Instellingen op tenantniveau configureren | IT-afdeling|
+| Power platform-beheerder| Algemene gegevensservice omgeving configureren | IT-afdeling|
+
+> [!Note]
+> Hoewel het u aan deze rollen wordt voldaan, is het raadzaam dat u dit niet nodig hebt om aan de slag te gaan met de geïdentificeerde oplossing.
+
+## <a name="readiness-checklist"></a>Controlelijst voor gereedheidscontrole
+
+Als u wilt beginnen met de implementatie van Microsoft SharePoint Syntex (preview), moet u het volgende doen:
+
+![Gereedheids voor informatie over inhoud](../media/content-understanding/cu-adoption-readinesschecklist.png)
+
+1. De eindtoestand plannen
+    - Document wat betekent dat modellen niet het einde zijn.
+    - Plan de waarde van opgehaalde metagegevens te bundelen met:
+      - Vinden
+      - Filteren en opmaak weergeven
+      - Compliance
+      - Automatiseringsinvoegtoepassingen
+2. Aanduiding
+    - Inzicht in de bestaande informatiearchitectuur en het gebruik van inhoudsbeheer.
+    - Bestaan bestaande inhoudstypen goede kandidaten voor modellen?
+    - Welke bestaande processen worden verbeterd met metagegevens?
+3. Design
+    - De aanpak van de Information Architecture, beheerde metagegevens en inhoudstypen ontwerpen
+    - Ontwerp het proces voor definitie, maken, beheer.
+
+## <a name="engage-your-organization"></a>Deelnemen aan uw organisatie
+
+1. Identificeer de houders van een aandeel, bevestig scenario's en maak projectplan.
+1. Instellingen configureren en licenties toepassen.
+1. Begin met bewustmaking en training: werven leiders.
+1. Rollen in fasen.  
+1. Verzamel feedback en herhaal.
+1. Het gebruik van een programma voor AI Builder wordt zo nodig uitgebreid.
