@@ -1,11 +1,11 @@
 ---
-title: Compliance Score en Compliance Manager gebruiken om verbeteracties te beheren
-ms.author: bcarter
-author: brendacarter
+title: Compliance Manager gebruiken voor het beheren van kwaliteits acties
+ms.author: chvukosw
+author: chvukosw
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 07/13/2020
+ms.date: 09/29/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,145 +15,88 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365solution-infoprotection
 ms.custom: ''
-description: Meer informatie over het gebruik van Compliance Score en Compliance Manager om uw beschermingsniveau voor persoonsgegevens te verbeteren.
-ms.openlocfilehash: 5b1d465ad03a6aad5370f76b2cdde0657efd2f79
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+description: Meer informatie over het gebruik van de compliance Score en Compliance Manager om uw beschermingsniveau voor persoonlijke gegevens te verbeteren.
+ms.openlocfilehash: b5a112b7614de23af8540346e26dac3b7a4fa1c9
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521051"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333478"
 ---
-# <a name="use-compliance-score-and-compliance-manager-to-manage-improvement-actions"></a>Compliance Score en Compliance Manager gebruiken om verbeteracties te beheren
+# <a name="use-compliance-manager-to-manage-improvement-actions"></a>Compliance Manager gebruiken voor het beheren van kwaliteits acties
 
-Microsoft Compliance Score en Compliance Manager kunnen samen worden gebruikt om verbeteringen in verband met de regelgeving inzake gegevensprivacy te beheren, zoals de [Algemene Verordening Gegevensbescherming (AVG) van](../compliance/gdpr.md)de Europese Unie, de California Consumer Protection Act [CCPA),](../compliance/ccpa-faq.md)HIPAA-HITECH (US Health Care Privacy Act) en de Brazil Data Protection Act (LGPD). 
+Microsoft Compliance Manager kan u helpen bij het beheren van verbeteringen in verband met privacyinstellingen van de Europese Unie voor de [algemene gegevensbescherming](../compliance/gdpr.md)van de Europese Unie, de wet voor de AVG van de Europese Unie, de [consumentenbescherming van Californië](../compliance/ccpa-faq.md)
 
-In dit artikel vindt u richtlijnen voor het gebruik van deze hulpmiddelen voor gegevensprivacydoeleinden.
-
-![Compliance Score en Compliance Manager om verbeteracties te beheren](../media/information-protection-deploy-compliance/information-protection-deploy-compliance-grid.png)
+Dit artikel bevat richtlijnen voor het gebruik van dit hulpprogramma voor privacys doeleinden.
 
 >[!Note]
->De klantacties in Compliance Manager zijn aanbevelingen. Het is aan u om de effectiviteit van deze aanbevelingen in uw regelgevingsomgevingen te evalueren voordat deze worden geïmplementeerd. Aanbevelingen van compliancemanagers mogen niet worden geïnterpreteerd als een garantie voor naleving.
+>Aanbevelingen van Compliancebeheer mogen niet worden geïnterpreteerd als een garantie voor naleving. U kunt hiermee de effectiviteit van klant besturingselementen evalueren en valideren per uw regelgevings omgeving. Deze services zijn onderhevig aan de voorwaarden in de [Online Services-voor](https://go.microsoft.com/fwlink/?linkid=2108910)waarden. Zie ook [Microsoft 365 Licensing Guidance voor beveiliging en compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 >
 
-## <a name="planned-updates-for-compliance-score-and-compliance-manager"></a>Geplande updates voor Compliance Score en Compliance Manager
+## <a name="getting-started-with-compliance-manager"></a>Aan de slag met Compliance Manager
 
-[Compliance Score](../compliance/compliance-score.md) (momenteel in preview) vereist het toevoegen van uw doelbeoordelingen voor een verordening (zoals GDPR) van de [Compliance Manager.](../compliance/compliance-manager-overview.md) In een toekomstige release wordt een groot deel van de functionaliteit in Compliance Manager samengevoegd tot een uniforme Compliance Score-ervaring, waardoor er minder behoefte is aan meerdere tools.
+#### <a name="what-is-compliance-manager"></a>Wat is Compliance Manager
 
-Dit zijn de tools voor uw abonnement, waarvoor u zich moet aanmelden:
+[Compliance Manager](../compliance/compliance-manager.md) is een werkstroom programma voor risicoanalyse in het microsoft 365 compliance Center voor het beheren van regelgevings activiteiten met betrekking tot Microsoft-cloudservices. Als onderdeel van uw abonnement op Microsoft 365 of Azure Active Directory (Azure AD) helpt u nalevings beheer bij het beheren van Compliance Compliance in het model voor gedeelde verantwoordelijkheden voor Microsoft-cloudservices.
 
-- [Compliance Score in het Microsoft Compliance-beheercentrum](https://compliance.microsoft.com/compliancescore)
-- [Compliance Manager in de Microsoft Services Trust Portal](https://servicetrust.microsoft.com/ComplianceManager/V3)
+**Klaar om beoordelingen te gebruiken**
 
-## <a name="getting-started-with-compliance-manager"></a>Aan de slag met Compliance Manager 
+Compliance Manager biedt vooraf gedefinieerde sjablonen voor het [maken van beoordelingen](../compliance/compliance-manager-assessments.md) die zijn afgestemd op de privacy-gerelateerde regelgeving van gegevens, zoals AVG en HIPAA/Hitech. De sjablonen bevatten ingebouwde beheer toewijzingen waarmee u de vereisten voor de regulering van de regelgeving kunt verbeteren. Elke beoordeling biedt informatie over de besturingselementen die elke verordening aanroept voor specifieke doelservice, uitgesplitst door besturingselementen die door Microsoft worden beheerd en beheerd. 
 
-[Compliance Manager](../compliance/working-with-compliance-manager.md) (momenteel in preview) is een gratis workflowgebaseerde risicobeoordelingstool in de Microsoft Service Trust Portal voor het beheren van regelgevingsactiviteiten met betrekking tot Microsoft-cloudservices. Als onderdeel van uw Microsoft 365- of Azure Active Directory -abonnement (Azure AD) helpt Compliance Manager u bij het beheren van naleving van de regelgeving binnen het gedeelde verantwoordelijkheidsmodel voor Microsoft-cloudservices.
+Met een vooraf gebouwde sjabloon kunt u snel aan de slag met risicobeoordelingen. Naarmate u meer wilt weten over het gebruik van Compliance Manager, kunt u een vooraf gedefinieerde sjabloon aanpassen door uw eigen besturingselementen en kwaliteits verbeteringen toe te voegen, of u kunt uw eigen aangepaste proefwerken maken voor de behoeften van uw organisatie.
 
-Hoewel u uw algemene nalevingsscore bekijken en een aantal andere functies uitvoeren op de **compliancescorepagina** van het Compliance center, moet u Compliance Manager gebruiken via de Services Trust Portal om eerst beoordelingen voor uw regelgeving inzake gegevensprivacy te configureren. Gegevens uit deze beoordelingen worden vervolgens weergegeven in de nalevingsscore voor verder bekijken en filteren. 
+Bekijk de [volledige lijst met beoordelings sjablonen](../compliance/compliance-manager-templates-list.md) die beschikbaar zijn in de Compliance Manager.
 
-Met behulp van de interface voor Compliance Manager u een of meer gegevensprivacygerelateerde regelgevingssjablonen selecteren en deze groeperen om vereiste verbeteringsacties in de set te beoordelen en bij te houden. U ook informatie bekijken over de besturingselementen die elke verordening vraagt om specifiek voor de doelservice, gescheiden door microsoft versus door de klant beheerde besturingselementen.
+**Score voor naleving van realtime**
 
-Beoordelingen en verbeteringsstatus die hier zijn geselecteerd, worden ook weergegeven in de compliancescore in het Microsoft Compliance Center, die het belang van uw eerste installatie in Compliance Manager benadrukken. Deze relaties worden weergegeven in deze figuur.
- 
-![Relaties van de compliancescore in het Microsoft Compliance Center](../media/information-protection-deploy-compliance/information-protection-deploy-compliance-ui.png)
+Compliance Manager biedt u ook een compliance Score waarmee de voortgang van de aanbevolen verbeterings acties binnen besturingselementen wordt voltooid. U kunt deze score gebruiken voor het bewaken van uw voortgang en de prioriteit van acties op basis van de mogelijkheid om het risico te reduceren.
 
-Hier volgen de belangrijkste stappen om u op weg te helpen.
+#### <a name="use-the-compliance-manager-quickstart-guide"></a>De introductiehandleiding voor Compliance Manager gebruiken
 
-### <a name="1-assessment-templates"></a>1. Beoordelingssjablonen
+De [Snelstartgids voor Compliance Manager](../compliance/compliance-manager-quickstart.md) levert stappen en koppelingen naar belangrijke bronnen om u te helpen met nalevings beheer:
 
-Vanuit de Compliance Manager is de eerste stap het toevoegen van beoordelingen die specifiek zijn voor de privacywetgeving van belang en deze op te nemen in een gedefinieerde groep "Gegevensprivacyverordeningen".
+- [Eerste bezoek: vertrouwd raken met Compliance Manager](../compliance/compliance-manager-quickstart.md#first-visit-get-to-know-compliance-manager)
+    - Werken met uw dashboard van Compliance Manager
+    - Informatie over uw compliance Score
+    - Meer informatie over kwaliteits stappen
+    - Proefwerken met beoordelingen en sjablonen
+- [Opvolgen: Compliance Manager configureren voor het beheren van uw conformiteits activiteiten](../compliance/compliance-manager-quickstart.md#ramping-up-configure-compliance-manager-to-manage-your-compliance-activities)
+    - Uw eerste beoordeling maken en beheren
+    - Uitvoering en testen van werkzaamheden aan verbeterings acties voor het voltooien van de besturingselementen in uw beoordelingen
+    - Inzicht in de manier waarop verschillende acties invloed hebben op de compliantie Score
+- [Aanpassen: Gebruik geavanceerde functionaliteit om aan uw aangepaste behoeften te voldoen](../compliance/compliance-manager-quickstart.md#scaling-up-use-advanced-functionality-to-meet-your-custom-needs)
+    - Aangepaste beoordelingen maken voor het bijhouden van niet-Microsoft 365-producten
+    - Bestaande sjablonen wijzigen om besturingselementen toe te voegen of te verwijderen
+    - Automatisch testen van stappen voor verbetering instellen
 
-[Groepen](../compliance/working-with-compliance-manager.md#groups) zijn containers waarmee u beoordelingen organiseren en algemene informatie en werkstroomtaken delen tussen beoordelingen met dezelfde of gerelateerde door de klant beheerde besturingselementen. Wanneer twee verschillende beoordelingen in dezelfde groep door de klant beheerde controle delen, worden de voltooiing van implementatiegegevens, tests en status voor het besturingselement automatisch gesynchroniseerd met hetzelfde besturingselement in een andere beoordeling in de groep. Dit verenigt de toegewezen actie-items voor elk besturingselement in de groep en vermindert dubbel werk. 
+## <a name="how-your-compliance-score-is-calculated"></a>Hoe uw compliancescore wordt berekend
 
-U er ook voor kiezen om groepen te gebruiken om te organiseren. Beoordelingen per jaar, gebied, nalevingsnorm of andere groeperingen om uw nalevingswerk te organiseren.
+Uw compliance score wordt berekend op basis van een combinatie van de implementaties van Microsoft en door de klant beheerde beheer. Zie [compliance-score berekening](../compliance/compliance-score-calculation.md) voor een gedetailleerde uitleg.
 
+Aan besturingselementen wordt een score waarde toegewezen op basis van het feit of ze verplicht zijn of worden gebruikt, of ze preventie, detectie of correctie vormen. Dit vormt gezamenlijk het risico dat het niet wordt geïmplementeerd ten opzichte van andere besturingselementen.
 
-### <a name="2-action-items"></a>2. Actiepunten
+Zoals weergegeven in het artikel over de beoordeling van de compliance van de compliance, verkrijgen preventieve besturingselementen een betere score dan detectie en vergelijkingsfuncties, en met verplichte besturingselementen krijgt u een betere score.
 
-Zodra de beoordelingen zijn toegevoegd, u actiepunten bekijken die specifiek zijn voor elke groep of afzonderlijke verordening:
+De GEBRUIKERSINTERFACE van de compliance score voor naleving biedt geen ondersteuning voor deze parameters, noch de mogelijkheid deze de mogelijkheid te geven te filteren. Als u echter de gekoppelde sjabloon van Compliance Manager downloadt, worden deze parameters voor de meeste regels in de geretourneerde gegevensset weergeven.
 
-- **Actielijst voor verbetering.** Navigeer naar de lijst Actieitems en bekijk de verbeteringsacties die zijn gekoppeld aan de regelgeving die in de groep is opgenomen. Veel acties omvatten regelgeving, zodat een enkele lijst item kan meerdere verordeningen vertegenwoordigen. 
- 
-- **Verbetering actie filtering.** Voor veel regelgeving voor gegevensprivacy en groepen regelgeving kan de lijst met verbeteracties vrij groot zijn, dus overweeg de lijst te filteren met behulp van de vervolgkeuzelijst filteren. Als u bijvoorbeeld 'technische besturingselementen' selecteert, wordt de lijst teruggebracht tot alleen de taken met een technische implementatie in de organisatie, omdat veel van de acties gerelateerd zijn aan administratieve bewerkingen in verschillende aspecten van het bedrijf die ook zijn gedocumenteerd in Compliance Manager. In dit artikel zullen we ons richten op technische controles, dus deze filteringsaanpak wordt aanbevolen.
- 
-- **Aanvullende informatie en beoordeling.** Voor elke actie u op de link naar **Lees meer**klikken, die u meer vertelt over de aanbevolen activiteit of **Beoordeling**, waarmee u het volgende doen:
- 
-   - De actie toewijzen aan iemand in uw organisatie om te beheren
-   - Documenten beheren met betrekking tot het aanpakken van de actie
-   - Status voor het item opgeven
-   - Uitvoerings- en testdatums opgeven
-   - Aanvullende informatie, implementatienotities en testplannotities voor de onderwerpactie opnemen
-  
-- **Niet-toepasselijke items als buiten het bereik.** Sommige verbeteringsacties in de lijst Actieitems zijn mogelijk niet van toepassing op uw geplande implementatie. U opgeven dat ze buiten het bereik van Compliance Manager vallen en de actie en het bewijs verwijderen uit de berekening van de waarde van de nalevingsscore. 
+Voor technische controle wordt Compliance Manager automatisch de score voor verbetering van de actie automatisch bijgewerkt nadat de actie is geïmplementeerd en getest. Andere activiteiten van niet-technische besturing, &mdash; zoals degenen die operationeel of gerelateerd zijn aan de documentatie, &mdash; moeten handmatig worden opgenomen in de opgenomen punten, zodat ze in de Score van punten worden opgenomen.
 
-Als uw organisatie er bijvoorbeeld voor heeft gekozen om Microsoft Managed Key te gebruiken, is een aanbeveling voor Het gebruik van klantsleutel niet van toepassing op uw implementatie. In dit geval markeert uw organisatie deze als **Niet in het bereik** in de **beheeracties** voor de toepasselijke regelgevingssjabloon.
- 
-### <a name="3-controls-info"></a>3. Controle info
+U wordt ook aangeraden bepaalde verbeterings acties uit te voeren voor andere doeleinden, bijvoorbeeld labels voor het aanhouden van een Bewaar programma voor andere doeleinden dan de naleving van de &mdash; regelgeving voor data-regulering, &mdash; zodat u tegoed krijgt voor het gebruik van een dergelijke functie, ook als deze wordt gebruikt voor andere doeleinden, en geen aanvals actie.
 
-Bekijk de controlegegevens voor elke beoordelingsgroep voor een [beoordelingsspecifieke](../compliance/compliance-manager-overview.md#controls) weergave. Dit biedt een beoordelingsspecifieke weergave, die verschil maakt dan de lijst met actie-items, die een technische controlespecifieke weergave biedt.
- 
-![Relaties van beoordeling om items te controleren](../media/information-protection-deploy-compliance/information-protection-deploy-compliance-control.png)
+Uw compliance score moet als een relatieve meetwaarde worden beschouwd om de verbeteringen op een grootschalige schaal bij te houden. U mag geen perfecte score nastreven.
 
-Navigeer naar de lijst **Met de controlegegevens** en bekijk de lijst met services in het bereik van de betreffende verordening. 
- 
-Regelgevingsspecifieke controlegroepen vermelden de acties die worden uitgevoerd door het controlegebied voor elk servicegebied. Voor elke reeks acties biedt de Compliance Manager meer informatie over de actie en kan de organisatie beoordelingsopties voorstellen of bieden om de organisatie te helpen bij het kiezen van een controleaanpak.
- 
-Houd er rekening mee dat deze interface de mogelijkheid biedt om details te bekijken die specifiek zijn voor de technische actie, samen met de status van acties met betrekking tot de controle en aanvullende context over de regelgeving waaraan de actie is gerelateerd.
+## <a name="additional-guidance"></a>Aanvullende richtlijnen
 
-### <a name="4-template-download"></a>4. Sjabloon downloaden
+Hier volgen enkele belangrijke tips voor het gebruik van Compliance Manager om u te helpen bij het verkrijgen van compliance van data privacy regulering:
 
-Voor degenen die meer vertrouwd zijn met spreadsheet-gebaseerde regelgevingsanalyse, een andere aanpak is het downloaden van de sjabloon voor elke respectieve beoordeling met behulp van de sjablonen vermelding. De gedownloade sjablonen bevatten zowel de wettelijke als technische controle-informatie voor elke sjabloon en kunnen voor bepaalde rollen gemakkelijker zijn om te navigeren/filteren en bedrijfsspecifieke weergaven te genereren.
- 
-U ook een nieuwe sjabloon toevoegen die is aangepast voor uw organisatie op basis van een bestaande sjabloon, met **Sjabloon toevoegen.** Dit vereist dat u een sjabloon naar keuze downloadt (zoals HIPAA/HITECH)), deze vervolgens voor uw doeleinden wijzigt en terug uploadt naar de Compliance Manager-tool, waar het nu beoordelingen en scores zal stimuleren die vergelijkbaar zijn met andere sjablonen en beoordelingen als onderdeel van de algemene compliancemanager en compliancescoretoolset.
- 
->[!Tip]
->Als u een groot aantal regelgeving of overlappende verbeteringsacties behandelt, u overwegen elke betreffende sjabloon te downloaden en de gegevenssets te combineren, verbeteringsacties of controletypen die niet van toepassing zijn op uw organisatie verwijderen en opnieuw uploaden. Dit kan gemakkelijker zijn dan het navigeren in elke sectie controle-informatie en het markeren van elk als buiten het bereik.
->
+- Elke bedrijfsvoor Schriften voor de privacy van gegevens bestaat uit een combinatie van technische besturingselementen, documentatie specificaties, en de vereisten voor operationeel, proces en rapporten. Allemaal worden weergegeven in de stappen voor verbetering.
 
-## <a name="compliance-score"></a>Compliancescore
+- Als u de weergave van de uitzonderings stappen wilt benadrukken, kunt u filteren op Actietype op het tabblad **oplossingen** van de beheerder van de beheerder. Meer informatie over [het filteren van de dashboardweergave van uw Compliance Manager](../compliance/compliance-manager-setup.md#filtering-your-dashboard-view).
 
-Zodra de beoordelingen en beoordelingsspecificaties zijn uitgevoerd in Compliance Manager, u nu naar de [compliancescore-tool](../compliance/compliance-score.md) gaan en de score bekijken en de gegevens verder snijden en de gegevens in blokjes snijden, inclusief het controlegebied.
+- De belangrijke belangrijke punten en prioriteit van verbeteringen in nalevings beheer moeten als onderdeel van een bredere risicobeoordeling worden beschouwd, samen met het gegevens privacy risico dat uw organisatie moet beheren.
 
-De Compliance Score-tool in het Microsoft 365 Compliance-beheercentrum biedt verschillende benaderingen voor het beoordelen en filteren van nalevingsgegevens die zijn verkregen van Compliance Manager en verschillende Microsoft 365-services. Deze tool wordt automatisch bijgewerkt wanneer verschillende configuratie-instellingen worden geïmplementeerd en deelt signalen met de Microsoft Secure Score, zodat veel verbeteringsacties in beide scores worden weergegeven. 
- 
-De compliancescore biedt:
+- Ook als de beoordelings sjablonen van de regulering voor AVG, LGPD, CCPA en HIPAA-HITECH zijn geselecteerd, worden in Compliance Manager bijvoorbeeld bijna 400-verbeterings acties weergegeven. Als u deze lange lijst beter wilt gebruiken, kunt u het actie filter voor verbetering gebruiken om de resultatenset te reduceren naar een meer beheersbare lijst.
 
-- Een verzamelde score, uitgesplitst door Microsoft en door klanten beheerde besturingselementen
-- Een rollup van verbeteracties en voltooiingsstatus
-- Een lijst van Microsoft 365-oplossingen die van invloed zijn op uw score
+- Het filtercategorieën levert een gemiddelde manier voor het oplossen van verbeteringen op basis van logische groepering, waaronder de tracering, voorkomen, beveiligen, vasthouden en onderzoeken van artikelen in deze algemene oplossing.
 
-### <a name="how-the-compliance-score-gets-calculated"></a>Hoe de nalevingsscore wordt berekend
-
-Kortom, de score wordt berekend op basis van een combinatie van Microsoft en door klanten beheerde controle-implementaties, zoals nader wordt uitgelegd in het [berekeningsartikel van](../compliance/compliance-score-methodology.md)de Microsoft Compliance Score .
-
-Besturingselementen krijgen een scorewaarde toegewezen op basis van of ze verplicht of discretionair zijn en of ze preventief, detective of correctief zijn. Deze vormen gezamenlijk het risico dat het niet ten opzichte van andere controles wordt uitgevoerd.
-
-Zoals gepresenteerd in het microsoft compliance score berekeningsartikel, krijgen preventieve controles een hogere score dan detective- en corrigerende controles en krijgen verplichte controles een hogere score dan discretionaire controles.
- 
-Houd er rekening mee dat de gebruikersinterface van de beheerder van de nalevingsscore deze parameters niet vermeldt en ook niet de mogelijkheid biedt om erop te filteren. Als u de bijbehorende sjabloon echter downloadt van het gereedschap Compliance Manager, worden deze parameters in de resulterende gegevensset wel vermeld voor de meeste regelgeving.
-
-Voor technische besturingselementen wordt de score voor verbeteringsactie automatisch bijgewerkt zodra de bijbehorende functie is geactiveerd. Andere, niet-technische &mdash; controleacties, zoals acties die operationeel zijn of gerelateerd zijn aan documentatie, moeten handmatig worden geregistreerd in de tool Compliance Manager op de Services Trust &mdash; Portal. 
-
-U veel ook de uitvoering van bepaalde verbetering acties voor andere doeleinden &mdash; voor bijvoorbeeld het gebruik van retentie labels om andere redenen dan de naleving van de regelgeving voor gegevensprivacy, zodat u krediet zou krijgen voor het gebruik van een dergelijke &mdash; functie, zelfs als het wordt gebruikt voor andere doeleinden, en geen deel uit van een opzettelijke naleving actie.
-
-Uw compliancescore moet worden beschouwd als een relatieve maatregel om verbetering op grote schaal bij te houden. Je moet niet streven naar een perfecte score. 
-
-### <a name="additional-guidance"></a>Aanvullende richtlijnen
-
-Hier volgen enkele belangrijke tips voor het gebruik van Compliance Score en Compliance Manager voor u om naleving van de regelgeving voor gegevensprivacy te bereiken:
-
-- Elke verordening voor gegevensprivacy heeft een combinatie van technische controles, documentatiespecificaties en operationele, proces- en rapportagevereisten. Al deze verschijnen in de verbetering acties. 
-
-- Dit artikel richt zich op een subset van de technische besturingselementen die zijn opgegeven voor gegevensprivacy in Compliance Manager en Compliance Score. Raadpleeg de compliancemanager-tool en [documentatie](../compliance/compliance-score.md) voor meer informatie over niet-technische administratieve controles.
-
-- Als u de weergave van verbeteracties wilt richten op uw interessegebied, u filteren op actietype op het tabblad **Oplossingen** in de beheerder van de nalevingsscore.
-
-- Het relatieve belang en de prioriteit van verbeteringsacties die zijn geïdentificeerd in de nalevingsscore, moet worden beschouwd als onderdeel van een bredere risicobeoordeling, samen met het risico op gegevensprivacy dat u hebt bepaald dat uw organisatie moet beheren. 
-
-- Als u een wereldwijde organisatie bent en u meerdere sjablonen voor gegevensprivacyregelgeving toevoegt aan Compliance Manager als beoordelingen, combineert compliancescore elke toepasselijke sjabloon in een veldvermelding voor elke verbeteringsactie.
- 
-- Zelfs met verbeteringsactie aggregatie over meerdere wettelijke vereisten, als de regelgevingsbeoordelingssjablonen voor GDPR, LGPD, CCPA en HIPAA-HITECH worden geselecteerd, bijvoorbeeld, zullen bijna 400 verbeteringsacties worden geselecteerd in compliancescore. Als u deze lange lijst beter wilt aanpakken, gebruikt u het filter voor verbeteringsactie om het resultaat te verlagen naar een meer beheersbare lijst.
-
-- Het filter Categorieën biedt een middel om verbeteracties te filteren op logische groepering, waarop de artikelen Track, Prevent, Protect, Retain en Investigate in deze algemene oplossing zijn afgestemd. 
-
-- Sommige van de controles die in de verbeteringsacties worden vermeld kunnen meer direct worden gebonden aan een specifiek regelgevend artikel, terwijl andere controles indirect meer in verband met de geest van een verordening kunnen worden verbonden en vele tijden enkel dingen zijn u zou moeten nadenken doend hoe dan ook.
-
+- Sommige van de besturingselementen die in de verduidelijkings actie worden vermeld, kunnen worden beschouwd als direct rechtstreeks gebonden te zijn aan een specifiek regelgevend artikel, terwijl andere besturingselementen van de geest van een verordening en vele keren slechts voor de beste activiteiten kunnen worden gebruikt.

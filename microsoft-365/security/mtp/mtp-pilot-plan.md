@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a52ba30aa9b89dc78e9bd5a538cb530cd7bf6e00
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 21e6e3294b8fe722214d567963223b9e62737e34
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305364"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333676"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>Uw proefproject voor Microsoft Threat Protection plannen 
 
@@ -31,8 +31,49 @@ ms.locfileid: "48305364"
 
 **Van toepassing op:**
 - Microsoft Threat Protection
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Uw proefproject voor Microsoft Threat Protection plannen" />
+      <br/>Abonnement</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden" />
+      <br/>Voorbereiden</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Simulaties van aanvallen van Microsoft Threat Protection uitvoeren" />
+     <br/>Een aanval simuleren</a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Uw proef Microsoft Threat Protection sluiten en samenvatten" />
+     <br/>Sluiten en samenvatten</a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
 
-Om ervoor te zorgen dat uw pilotproject een gunstige uitkomst is, is het van essentieel belang dat u de belanghebbenden snel goed keurt en goedkeuring van uw belanghebbenden ontvangt. De planning van elementen bevat identificatie bereik, gebruiks kwesties, vereisten en succescriteria. 
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+U bevindt zich momenteel in de planningsfase.
+
+Om ervoor te zorgen dat uw pilotproject een gunstige uitkomst is, is het van essentieel belang dat u de belanghebbenden snel goed keurt en goedkeuring van uw belanghebbenden ontvangt. De planning van elementen bevat identificatie bereik, gebruiks kwesties, vereisten en succescriteria.
 
 Deze handleiding helpt u bij het plannen van uw pilotproject. 
 
@@ -85,5 +126,5 @@ U kunt ook een scorecard maken om alle elementen van uw plan bijeen te brengen. 
 
 
 ## <a name="next-step"></a>Volgende stap
-|![Voorbereidende fase](../../media/prepare.png) <br>[Voorbereidende fase](prepare-mtpeval.md) | Uw testomgeving voor Microsoft Threat Protection voorbereiden
+|![Voorbereidende fase](../../media/mtp/prep.png) <br>[Voorbereidende fase](prepare-mtpeval.md) | Uw testomgeving voor Microsoft Threat Protection voorbereiden
 |:-------|:-----|

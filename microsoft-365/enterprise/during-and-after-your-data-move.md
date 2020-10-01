@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Gegevens verplaatsingen bestaan uit een back-end en worden weergegeven wanneer door Microsoft services en bijbehorende gegevens voor uw Tenant worden verplaatst naar een nieuw datacenter-geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: acd2601d32617c56019ca8b4bf8688ce40f5d76a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d2e63dd046f62f07e367b3632f96bf7261b99c9c
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950270"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333698"
 ---
 # <a name="during-and-after-your-data-move"></a>Tijdens en na het verplaatsen van uw gegevens
 
@@ -30,8 +30,7 @@ Gegevens worden verplaatst met een back-end-bewerking met minimale gevolgen voor
 > [!NOTE]
 > Voor elke service wordt de plaats van een bericht herhaald. Daarom ziet u de hierboven gereduceerde functionaliteit voor elke service op een ander moment. 
   
-Bekijk het Microsoft 365-berichtencentrum, zodat u kunt bevestigen wanneer u gaat voor alle Exchange Online, SharePoint Online, teams en Skype voor bedrijven. Zoals u in de onderstaande tabel ziet, kan het tot 24 maanden duren, na het einde van de inschrijvingsperiode, om alle gevraagde gegevens te voltooien voor alle klanten in een specifieke geo. Als u na de verhuizing problemen met de Tenant ziet, neemt u contact op met de [ondersteuning](https://go.microsoft.com/fwlink/p/?LinkID=522459) voor hulp vragen. 
-  
+Bekijk het Microsoft 365-berichtencentrum ter bevestiging wanneer u de chatfunctie voor alle Exchange Online, SharePoint Online en teams-chatservice uitvoert. Zoals u in de onderstaande tabel ziet, kan het tot 24 maanden duren na het einde van de registratieperiode voor het voltooien van de kern klantgegevens bij de rest van het nieuwe datacenter geo.   
 
 |**Klanten met een land in**|**Alle verplaatste wordt voltooid door**|
 |:-----|:-----|
@@ -46,7 +45,7 @@ Bekijk het Microsoft 365-berichtencentrum, zodat u kunt bevestigen wanneer u gaa
 |Zuid-Afrika  <br/> |Woensdag 1 juli 2022  <br/> |
 |Zwitserland, Liechtenstein  <br/> |Woensdag 1 juli 2022  <br/> |
 |Noorwegen  <br/> |Woensdag 1 november 2022  <br/> |
-|Duitsland  <br/> |Overwogen  <br/> |
+|Duitsland  <br/> |Woensdag 1 april 2023  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 
@@ -67,13 +66,9 @@ Wanneer SharePoint Online wordt verplaatst, worden de gegevens van de volgende s
   
 - Eén station voor bedrijven
     
-- Project Online
-    
-- Project voor Microsoft 365
-    
 - Microsoft 365-Video Services
     
-- Office in s browser
+- Office in een browser
     
 - Microsoft 365-apps voor ondernemingen
     
@@ -109,7 +104,7 @@ De volgende zoekfuncties zijn van invloed op:
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 
-Behalve Exchange Online, SharePoint Online en OneDrive voor bedrijven migreert Microsoft teams-gegevens naar het lokale datacenter.
+Behalve Exchange Online, SharePoint Online en OneDrive voor bedrijven migreert Microsoft teams-chatservice gegevens naar het lokale datacenter.
 
 - Chatberichten van teams, inclusief persoonlijke berichten en kanaalberichten.
 - Afbeeldingen van teams die in chats worden gebruikt.
@@ -118,20 +113,7 @@ Teams-bestanden worden opgeslagen in OneDrive voor bedrijven-en teams-Chat besta
 
 ## <a name="skype-for-business"></a>Skype voor Bedrijven
 
-Skype voor bedrijven-verplaatsingen zijn beschikbaar voor Australië, Japan, India, Canada, Verenigd Koninkrijk en Zuid-Korea.
-
-Alle gebruikers worden afgemeld bij de clientsoftware van Skype voor bedrijven tijdens de bijsnijden. De automatische aanmelding zal gebruikers binnen twee minuten opnieuw verbinden.
-  
-|**Functies die tijdens de hele verhuizing werken**|**Functies die tijdens een deel van de verhuizing kunnen worden beperkt**|
-|:-----|:-----|
-| Chatten en bellen  <br/>  Gebruikers kunnen contactpersonen toevoegen, groepen contactpersonen toevoegen, vergaderingen toevoegen, hun locatie instellen en ' wat gebeurt er vandaag? ' wijzigen.  <br/>  Instellingen voor de provider van audio vergaderingen (ACS) worden gekopieerd naar het doel centrum. Als de ACS-provider aanwezig is in het doel centrum, werkt dit. Anders is het niet mogelijk.  <br/> | Pachtersbeheer TRPS (Tenant Remote PowerShell) is niet beschikbaar voor beheerders van het maken van sessies.  <br/>  Tenant beheerder LAC is niet beschikbaar voor beheerders die zich kunnen aanmelden en gebruikersinstellingen kunnen wijzigen.  <br/> |
-   
-|**Na de verhuizing**|
-|:-----|
-| Vergaderingsgegevens (geüploade presentaties, etc.) worden niet verplaatst en moeten dan opnieuw worden geüpload.  <br/>  Oudere Lync-clients, zoals de Lync 2010-client en de Lync voor Mac 2011-client, zijn DNS-gegevens in de cache voor de service die aanmeldingsproblemen veroorzaken. Het wissen van de DNS-cache kan vereist zijn als de gebruiker geen gebruik maakt van de nieuwste Windows-client van Skype voor bedrijven. Zie problemen [met de DNS-configuratie voor Skype voor bedrijven online oplossen in Office 365](https://docs.microsoft.com/skypeforbusiness/troubleshoot/online-configuration/dns-configuration-issue). Gebruikers van Lync voor Mac-clients moeten [deze instructies](https://support.microsoft.com/kb/2629861)volgen.  <br/> |
-   
-### <a name="skype-for-business-moves-that-involve-a-third-party-audio-conferencing-provider"></a>Skype voor bedrijven-verplaatsingen waarbij een provider van audio vergaderingen van derden deel uithoudt
-Externe services voor audio vergaderingen provider voor Skype voor bedrijven zijn niet beschikbaar voor gebruikers die over nieuwe geo-specifieke gegevenscentra beschikken.  Bestaande klanten die gebruikmaken van een externe provider service voor audio vergaderingen, mogen geen overstap indienen bij een nieuw geo-specifiek gegevenscentrum.  Nieuwe klanten die zijn geïmplementeerd in de nieuwe geo-specifieke gegevenscentra moeten een overstap naar een regionaal datacenter aanvragen voor het gebruik van een externe provider van audio vergaderingen.
+Skype voor bedrijven-verplaatsingen zijn niet meer beschikbaar.  [Skype voor bedrijven online wordt](https://docs.microsoft.com/lifecycle/announcements/skype-for-business-online-retirement) op 31 juli 2021 teruggetrokken. Na die tijd is de service niet langer toegankelijk. 
   
 ## <a name="related-topics"></a>Verwante onderwerpen 
  

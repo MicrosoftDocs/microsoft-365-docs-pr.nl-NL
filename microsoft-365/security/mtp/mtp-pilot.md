@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 88d92558d86e0aa2e90ef04d88a3cd4676386f15
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 250c125648f734a13899a58dd22ee3bffb0921a9
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195625"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333722"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>Voer uw proefproject voor Microsoft Threat Protection uit. 
 
@@ -56,7 +56,7 @@ Er zijn vier fasen in het uitvoeren van een pilot van Microsoft Threat Protectio
 |Fase | Beschrijving | 
 |:-------|:-----|
 | ![Planning](../../media/mtp/plan.png)<br>[Planning](mtp-pilot-plan.md)| Meer informatie over wat u moet doen voordat u uw Microsoft Threat Protection-proefproject kunt uitvoeren: <br><br>-Bereik <br> -Use cases <br>-Vereisten <br>Test plan <br> -Succescriteria <br> -Scorecard 
-| ![Uitwerking](../../media/prepare.png) <br>[Uitwerking](mtp-evaluation.md)|  Open Microsoft 365-Beveiligingscentrum om uw testomgeving voor Microsoft Threat Protection te installeren. U wordt begeleid bij:<br><br>-Belanghebbenden identificeren en zich afmelden voor uw pilot <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde <br> -Registreren voor Microsoft 365 E5-proefabonnement <br> Domein configureren <br>-Microsoft 365 E5-licenties toewijzen <br> -De wizard Setup voltooien in de portal|
+| ![Uitwerking](../../media/mtp/prep.png) <br>[Uitwerking](mtp-evaluation.md)|  Open Microsoft 365-Beveiligingscentrum om uw testomgeving voor Microsoft Threat Protection te installeren. U wordt begeleid bij:<br><br>-Belanghebbenden identificeren en zich afmelden voor uw pilot <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde <br> -Registreren voor Microsoft 365 E5-proefabonnement <br> Domein configureren <br>-Microsoft 365 E5-licenties toewijzen <br> -De wizard Setup voltooien in de portal|
 | ![Simulatie van aanval](../../media/mtp/run-sim.png) <br>[Simulatie van aanval](mtp-pilot-simulate.md) | U wordt begeleid bij het maken van een aanval:<br><br>-Controleer de vereisten voor de testomgeving <br>-De simulatie uitvoeren <br>-Onderzoek een incident <br>-het incident oplossen 
 | ![Sluiten en samenvatting](../../media/mtp/close.png) <br>[Sluiten en samenvatting](mtp-pilot-close.md) | Wanneer u het einde van het proces hebt bereikt, wordt u begeleid bij het volgende:<br><br>-Doorgaan met de laatste uitvoer<br>-De uitvoer presenteren aan de belanghebbenden <br>-Feedback geven <br>-Voer de volgende stappen uit 
 

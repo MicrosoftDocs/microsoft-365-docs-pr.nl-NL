@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Lees meer over de nieuwe Office 365 datacenter GEOS en hoe u de optie gegevens woonplaats kunt gebruiken om een verplaatsing van de kerngegevens naar een nieuwe geo te vragen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9c1c838f52627e0ff2eee5b7fdbeef7aee55b137
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 17b8d5c828a8c528aba180c260510345e77226d5
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688922"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333710"
 ---
 # <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>Basisgegevens verplaatsen naar nieuwe Microsoft 365 datacenter GEOS
 
@@ -36,31 +36,26 @@ Bestaande klanten die hun kern klantgegevens hebben opgeslagen in een al bestaan
   
 |**Klanten met het land voor het aanmelden van de Tenant in**|**Vorige datacenter geo**|**Nieuw datacenter geo**|**Geo beschikbaar sinds**|
 |:-----|:-----|:-----|:-----|
-|**Japan**| Azië/Stille Oceaan | Japan | December 2014 |
+|**Japan**| Azië/Stille Oceaan | Japan  | December 2014 |
 |**Australië, Nieuw-Zeeland, Fiji**| Azië/Stille Oceaan | Australië | Maart 2015 |
 |**India**| Azië/Stille Oceaan | India | Oktober 2015 |
-|**Canada**| Noord-Amerika | Canada | Mei 2016 |
-|**Verenigd Koninkrijk**| Europa | Verenigd Koninkrijk | September 2016 |
+|**Canada**| Verenigde Staten | Canada | Mei 2016 |
+|**Verenigd Koninkrijk**| Europese Unie | Verenigd Koninkrijk | September 2016 |
 |**Zuid-Korea**| Azië/Stille Oceaan | Zuid-Korea | April 2017 |
-|**Frankrijk**| Europa | Frankrijk | Maart 2018 |
-|**Verenigde Arabische Emiraten**| Europa | Verenigde Arabische Emiraten | Juni 2019 |
-|**Zuid-Afrika**| Europa | Zuid-Afrika | Juli 2019 |
-|**Zwitserland, Liechtenstein**| Europa | Zwitserland | December 2019 |
-|**Duitsland**| Europa | Duitsland | December 2019 |
-|**Noorwegen**| Europa | Noorwegen | April 2020 |
-  
-Voor nieuwe klanten of Office 365-tenants die zijn gemaakt nadat de beschikbaarheid van de nieuwe datacenter geo, worden de belangrijkste klantgegevens op de rest van de nieuwe datacenter-geo opgeslagen.
+|**Frankrijk**| Europese Unie | Frankrijk | Maart 2018 |
+|**Verenigde Arabische Emiraten**| Europese Unie | Verenigde Arabische Emiraten | Juni 2019 |
+|**Zuid-Afrika**| Europese Unie | Zuid-Afrika | Juli 2019 |
+|**Zwitserland, Liechtenstein**| Europese Unie | Zwitserland | December 2019 |
+|**Duitsland**| Europese Unie | Duitsland | December 2019 |
+|**Noorwegen**| Europese Unie | Noorwegen | April 2020 |
 
+Met een Office 365 education-abonnement dat deel uitmaakt van de Tenant, is het niet mogelijk om te migreren vanaf 1 oktober 2020.
 
->[!Note]
->Het gebied Duitsland-datacenter is in december 2019 geïntroduceerd. Nieuwe Microsoft 365-klanten met een Duits adres dat is gekoppeld aan hun Tenant, hebben hun belangrijkste klantgegevens in Duitsland opgeslagen. We willen in de toekomst de overstap van Europa naar Duitsland bieden voor Duitse klanten. Vandaag, Microsoft Cloud Duitsland/Deutschland klanten kunnen migratie aanvragen voor Office 365-Services in de nieuwe Duitse datacenter regio's. Zie voor meer informatie [de optie voor het aanwijzen van migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in de nieuwe Duitse datacenter gebieden](https://aka.ms/office365germanymoveoptin) .
->
-  
 Een volledige lijst met alle datacenter-GEOS, datacenters en de locatie van klantgegevens op de rest is beschikbaar als onderdeel van de [interactieve datacenter kaarten](https://office.com/datamaps). 
   
 ## <a name="data-residency-option"></a>Optie voor gegevens woonplaats
 
-We bieden een gegevens woonplaats optie aan bestaande Microsoft 365-klanten die onder de naam van het datacenter GEOS die worden genoemd in de bovenstaande tabel. Met deze optie kunnen klanten met de vereisten voor gegevens woonplaats vroegtijdige migratie van de kern klantgegevens van hun organisatie aanvragen voor de nieuwe geografische naam van de organisatie.  Microsoft zal een vastgelegde deadline bieden voor alle in aanmerking komende klanten die vroegtijdige migratie aanvragen tijdens het inschrijvings venster.  Lees hoe u de pagina voor het verzenden van [gegevens aanvraagt](request-your-data-move.md) voor meer informatie over het registratievenster voor uw Geo en de stappen om u aan te melden bij het programma.  Het kan tot 24 maanden duren voordat de aanvraag periode is verstreken.
+We bieden een gegevens woonplaats optie voor het in aanmerking komende Microsoft 365-klanten die onder de naam van het datacenter GEOS die worden genoemd in de bovenstaande tabel. Met deze optie kunnen klanten die in aanmerking komen in aanmerking komen voor de woonplaats-vereisten van de organisatie de kern klantgegevens van hun organisatie op hun plaats vragen aan hun nieuwe gegevenscentrum.  Microsoft zal een vastgelegde deadline bieden voor alle in aanmerking komende klanten die migratie aanvragen tijdens het inschrijvings venster.  Kijk op de pagina hoe u de pagina voor het openen van [gegevens moet aanvragen](request-your-data-move.md) voor meer informatie over het venster voor het openen van het venster voor het openen van uw datacenter, en de stappen voor het aanmelden bij het programma.  Het kan tot 24 maanden duren voordat de aanvraag periode is verstreken.
 
 We introduceren geen unieke mogelijkheden, functies of compliance certificeringen met de nieuwe datacenter geo.
     
@@ -72,9 +67,9 @@ Gegevens die worden verplaatst naar het nieuwe datacenter centrum, worden zonder
     
 ## <a name="related-topics"></a>Verwante onderwerpen 
  
-[Het verplaatsen van gegevens aanvragen](request-your-data-move.md)
+[De verplaatsing van uw gegevens aanvragen](request-your-data-move.md)
     
-[Algemeen Veelgestelde vragen over gegevensverplaatsing](data-move-faq.md)
+[Algemene veelgestelde vragen over het verplaatsen van gegevens](data-move-faq.md)
   
 [Nieuwe datacenter GEOS voor Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   

@@ -14,17 +14,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het geavanceerde anti-phishingfilter kunt maken, wijzigen en verwijderen, dat beschikbaar is in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 2986102b549b7302a7a4ac533f80846d832aeb41
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c08046bdc9e72bc824dc28acdf2443c9071236a0
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328069"
+ms.locfileid: "48333544"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP-beleid tegen phishing configureren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 ATP anti-Phishingfilter maakt deel uit van [Office 365 Advanced Threat Protection](office-365-atp.md). Met een anti-phishingfilter van ATP kunt u uw organisatie beschermen tegen kwaadaardige aanvallen op basis van kwaadaardige gebruikers en andere typen phishing-aanvallen. Zie [bescherming tegen phishing](anti-phishing-protection.md)voor meer informatie over de verschillen tussen het anti-virus beleid in Exchange Online Protection (EOP) en het ATP anti phishingfilter.
 
@@ -63,7 +62,7 @@ Om de effectiviteit van bescherming tegen phishing te bevorderen, kunt u aangepa
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
+- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
 
   - Als u een beleid wilt toevoegen, wijzigen of verwijderen uit het beleid van ATP, moet u lid zijn van een van de volgende rollen groepen:
 
@@ -176,6 +175,8 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
 
      - **Automatisch de domeinen opnemen waarvan ik de eigenaar ben**: de standaardwaarde is **uitgeschakeld**. Schuif de wisselknop **naar aan om**deze optie in te schakelen.
      - **Aangepaste domeinen opnemen**: de standaardwaarde is **uitgeschakeld**. Als u deze optie wilt inschakelen, verschuift u de schuifregelaar naar **aan**en voert u in het vak **domeinen toevoegen** de domeinnaam in (bijvoorbeeld contoso.com), drukt u op ENTER en herhaalt u de gewenste stappen.
+
+       **Opmerking**: in het beveiligings & nalevings centrum kunt u maximaal 20 domeinen invoeren. In Exchange Online PowerShell kunt u maximaal 50 domeinen invoeren.
 
    - **Acties**: Klik op **bewerken**
 

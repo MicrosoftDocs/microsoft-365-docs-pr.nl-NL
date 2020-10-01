@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: dbd20263fce059bc57b6a19b58f15e3f5223b4e7
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: d820b360f189425cc3913c6d92afc8965a7d1eee
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318202"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333596"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Uw proef Microsoft Threat Protection sluiten en samenvatten  
 
@@ -31,6 +31,48 @@ ms.locfileid: "48318202"
 
 **Van toepassing op:**
 - Microsoft Threat Protection
+
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" >
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Uw proefproject voor Microsoft Threat Protection plannen" />
+      <br/>Regeling </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden" />
+      <br/>Ervoor </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Simulaties van aanvallen van Microsoft Threat Protection uitvoeren" />
+      <br/>Aanval simuleren </a><br>
+    </td>
+    <td align="center"bgcolor="#d5f5e3">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Uw proef Microsoft Threat Protection sluiten en samenvatten" />
+      <br/>Sluiten en samenvatten </a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
+
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+U bevindt zich nu in de fase sluiten en samenvatten.
 
 U hebt zojuist een geavanceerde geheugen aanval gesimuleerd waarbij code extern op een domeincontroller werd uitgevoerd. U hebt gezien hoe Microsoft Defender ATP en Azure ATP detecteren en waarschuwingen op een onzichtbare schadelijke activiteit. U kunt ook zien hoe meldingen van verschillende bronnen samen met andere contextuele informatie worden afgeleverd in één voorval van de Microsoft 365 Security Center-Portal, zodat de sofi-analisten en de nodige actie ondernemen. U hebt ook een geavanceerde zoekactie gemaakt waarmee inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage opent of opslaat en detectie maakt op basis van deze query.
 
@@ -47,7 +89,8 @@ Deze informatie moet worden gepresenteerd aan interne belanghebbenden (die u tij
 We hopen dat u van deze simulatie gebruikmaakt en wordt aangemoedigd om te beginnen met de implementatie van wat u hebt geleerd.
 
 ## <a name="next-step"></a>Volgende stap
-
-****
-
-Blader door de [Microsoft 365-oplossing en het architectuur centrum](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) , zodat u weet hoe u de oplossing en architectuur kunt ontwerpen die geschikt is voor uw organisatie.
+Meer informatie over de Microsoft Threat Protection-pijlers vindt u in de volgende interactieve handleidingen:
+- [Uw organisatie beschermen met Microsoft Defender voor Office 365](https://aka.ms/O365ATP-Interactive-Guide)
+- [Verdachte activiteiten en mogelijke aanvallen met Microsoft Defender voor identiteit detecteren](https://aka.ms/AATP-Interactive-Guide)
+- [Bedreigingen detecteren en waarschuwingen beheren met de Microsoft Cloud app-beveiliging](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
+- [Bedreigingen onderzoeken en herstellen met Microsoft Defender for Endpoint](https://aka.ms/MDATP-IR-Interactive-Guide)

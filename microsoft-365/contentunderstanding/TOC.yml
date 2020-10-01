@@ -1,16 +1,18 @@
-- name: Aan de slag met Microsoft SharePoint Syntex
+- name: Meer informatie over Microsoft SharePoint Syntex
   items:
-    - name: Inleiding tot Microsoft SharePoint Syntex
-      href: microsoft-sharepoint-syntex-overview.md
-    - name: Overzicht van document
+    - name: Inleiding tot SharePoint Syntex
+      href: index.md
+    - name: Overzicht van documentbegrip
       href: document-understanding-overview.md
-    - name: Overzicht van formulierverwerking
+    - name: Overzicht formulierverwerking
       href: form-processing-overview.md
     - name: Het verschil tussen document begrijpt en formulier verwerkings modellen
       href: difference-between-document-understanding-and-form-processing-model.md
+- name: Aan de slag met modellen
+  items:
     - name: Meer informatie over modellen via het voorbeeldmodel
       href: learn-about-document-understanding-models-through-the-sample-model.md
-    - name: Een inhouds centrum maken
+    - name: Een inhoudscentrum maken
       href: create-a-content-center.md
     - name: Een classificatie maken
       href: create-a-classifier.md
@@ -20,13 +22,13 @@
       href: explanation-types-overview.md
     - name: Een model toepassen
       href: apply-a-model.md
-    - name: Een formulier verwerkings model maken
+    - name: Een formulierverwerkingsmodel maken
       href: create-a-form-processing-model.md
     - name: Een Bewaar label toepassen
       href: apply-a-retention-label-to-a-model.md
     - name: Analyse van model gebruik
       href: model-usage-analytics.md
-    - name: Taxonomieën voor het maken van een extractie met een termenarchief
+    - name: De taxonomie van een termenarchief gebruiken bij het maken van een extractor
       href: leverage-term-store-taxonomy.md
 - name: Goedgekeurd
   items:
@@ -46,5 +48,5 @@
       href: skos-format-reference.md
     - name: Type push-inhoudstype naar hub
       href: push-content-type-to-hub.md
-    - name: Rapporten van het termenarchief
+    - name: Rapportage over termenarchief
       href: term-store-analytics.md

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 8d4eb6cedbfa9a74eccdbb94e71f9eb32189ccbb
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: be6bf277926cffb77dfcde425ef08a688fb0cf34
+ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277547"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333976"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Simulaties van aanvallen van Microsoft Threat Protection uitvoeren  
 
@@ -31,6 +31,47 @@ ms.locfileid: "48277547"
 
 **Van toepassing op:**
 - Microsoft Threat Protection
+<br>
+<table border="0" width="100%" align="center">
+  <tr style="text-align:center;">
+    <td align="center" style="width:25%; border:0;" >
+      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Uw proefproject voor Microsoft Threat Protection plannen" />
+      <br/>Regeling </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden" />
+      <br/>Ervoor </a><br>
+    </td>
+    <td align="center"bgcolor="#d5f5e3">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Simulaties van aanvallen van Microsoft Threat Protection uitvoeren" />
+      <br/>Aanval simuleren </a><br>
+    </td>
+    <td align="center">
+      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Uw proef Microsoft Threat Protection sluiten en samenvatten" />
+      <br/>Sluiten en samenvatten </a><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:25%; border:0;">
+   
+    </td>
+    <td valign="top" style="width:25%; border:0;">
+    
+</td>
+    <td valign="top" style="width:25%; border:0;">
+
+</td>    
+    <td valign="top" style="width:25%; border:0;">
+
+</td>
+  </tr>
+</table>
+
+U bevindt zich momenteel in de simulatie fase aanval.
 
 Na het voorbereiden van uw testomgeving, is het tijd om het Microsoft Threat Protection-incidentbeheer en het beleid voor automatisch onderzoek en herstel te testen. We helpen u een verfijnde aanval te simuleren die geavanceerde technieken gebruikt om de detectie te verbergen. De aanval wordt geopend server bericht blok (SMB)-sessies op domeincontrollers opgesomd en de nieuwste IP-adressen van gebruikers apparaten ophalen. Meestal bevat dit soort aanvallen geen bestanden die op het apparaat van het slachtoffer worden neergezet, ze worden alleen in het geheugen weergegeven. Met behulp van de bestaande systeem-en beheerprogramma's en injecteert ze de uitvoering ervan en injecteert ze de uitvoering ervan, zodat ze de uitvoering van evade kunnen opsporen en persisteren op het apparaat.
 
