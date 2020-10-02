@@ -3,24 +3,21 @@ title: Een classificatie maken
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 8/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Leer hoe u een classificatie maakt
-ms.openlocfilehash: 29b2a4775bec12649c66b4cb4a07fe5f0fc93ae2
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Lees hoe je een classificatie maakt
+ms.openlocfilehash: 1225a4e57969b507ddd2ca7260050605c0db955e
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294900"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321855"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Een classificatie maken in Microsoft SharePoint Syntex
 
-De inhoud in dit artikel is bedoeld voor de cortex van de private preview van project. [Lees meer over project cortex](https://aka.ms/projectcortex).
 
 </br>
 
@@ -28,45 +25,45 @@ De inhoud in dit artikel is bedoeld voor de cortex van de private preview van pr
 
 </br>
 
-Een classificatie is een type model dat u kunt gebruiken om de identificatie en classificatie van een documenttype te automatiseren. U kunt bijvoorbeeld alle documenten voor het verlengen van een *contract* voor de documentbibliotheek identificeren, zoals wordt weergegeven in de volgende afbeelding.
+Een classificatie is een typemodel dat je kunt gebruiken om de identificatie en classificatie van een documenttype te automatiseren. Het is bijvoorbeeld mogelijk dat je alle *contract wilt identificeren* documenten die worden toegevoegd aan de documentbibliotheek, zoals wordt weergegeven in de volgende afbeelding.
 
-![Document voor vernieuwing van contract](../media/content-understanding/contract-renewal.png)
+![Contract voor contractverlenging](../media/content-understanding/contract-renewal.png)
 
-Als u een classificatie maakt, kunt u een nieuw [SharePoint-inhouds type](https://docs.microsoft.com/sharepoint/governance/content-type-and-workflow-planning#content-type-overview) maken dat is gekoppeld aan het model.
+Als je een classificatie maakt, kun je een nieuw [SharePoint-inhoudstype](https://docs.microsoft.com/sharepoint/governance/content-type-and-workflow-planning#content-type-overview) maken dat aan het model wordt gekoppeld.
 
-Wanneer u de classificatie maakt, moet u *uitleg* maken om het model te definiëren. Op deze manier kunt u algemene gegevens noteren waarvan u denkt dat deze het documenttype voortdurend moet vinden. 
+Bij het maken van de classificatie moet je *uitleg* maken om het model te definiëren. Op deze manier kun je algemene gegevens noteren waarop je dit documenttype consequent zou verwachten. 
 
-Gebruik voorbeelden van het documenttype (' voorbeelden van bestanden ') om uw model te identificeren om bestanden met hetzelfde inhoudstype te identificeren.
+Gebruik voorbeelden van het documenttype (' voorbeeldbestanden') om het model te trainen om bestanden met hetzelfde inhoudstype te identificeren.
 
-Als u een classificatie wilt maken, moet u het volgende doen:
-1. Geef een naam op voor uw model.
-2. Voeg uw voorbeeldbestanden toe.
-3. Voorzie uw voorbeeldbestanden van een label.
+Om een classificatie te maken, moet je:
+1. Geef het model een naam.
+2. Voeg je voorbeeldbestanden toe.
+3. Label je voorbeeldbestanden.
 4. Maak een uitleg.
-5. Test uw model.
+5. Test je model.
 
 > [!NOTE]
-> Hoewel uw model gebruikmaakt van een classificatie voor het identificeren en classificeren van documenttypen, kunt u ook kiezen voor het verzamelen van specifieke gegevens uit een bestand dat door het model wordt geïdentificeerd. Dit doet u door een **Extractor** te maken om aan uw model toe te voegen. Zie [een extractor maken](create-an-extractor.md).
+> Hoewel je model een classificatie gebruikt om documenttypen te identificeren en te classificeren, kun je er ook voor kiezen om specifieke gegevens te verzamelen uit elk bestand dat door het model wordt aangeduid. Dit doe je door een **Extractor** te maken om toe te voegen aan je model. Zie[Een extractor maken](create-an-extractor.md).
 
-## <a name="name-your-model"></a>De naam van uw model wijzigen
+## <a name="name-your-model"></a>Geef het model een naam
 
-Voor het maken van uw model moet u de eerste stap een naam geven:
+De eerste stap voor het maken van een model is het geven van een naam:
 
-1. Selecteer in het inhouds centrum de optie **Nieuw**en **Maak vervolgens een model**.
-2. Typ in het vak Naam van **Nieuw document** de naam van het model in het veld **naam** . Als u bijvoorbeeld documenten voor het verlengen van de contracten wilt identificeren, kunt u de naam van het model voor het *vernieuwen*van het model opgeven.
-3. Kies **Create**. Hiermee maakt u een startpagina voor het model.</br>
+1. Selecteer in het Inhoudscentrum **Nieuw**en klik vervolgens **Maak een model**.
+2. Typ in het deelvenster **Nieuw document met inzicht in model** in het veldtype **Naam** de naam van het model. Als je bijvoorbeeld documenten voor het verlengen van het contract wilt identificeren, kun je het model *Contractverlenging* noemen.
+3. Kies **Create**. Hiermee maa je een startpagina voor het model.</br>
 
-    ![Startpagina van het classificatiemodel](../media/content-understanding/model-home.png)
+    ![Startpagina voor classificatiemodel](../media/content-understanding/model-home.png)
 
-Wanneer u een model maakt, maakt u ook een nieuw SharePoint-inhoudstype. Een SharePoint-inhoudstype vertegenwoordigt een categorie documenten met gemeenschappelijke kenmerken en deel een verzameling kolommen of metagegevenseigenschappen voor die specifieke inhoud. SharePoint-inhoudstypen worden beheerd via de [Galerie met inhoudstypen](https://support.microsoft.com/office/create-or-customize-a-site-content-type-27eb6551-9867-4201-a819-620c5658a60f). Als u het model maakt voor dit voorbeeld, maakt u een nieuw inhoudstype voor het verlengen van een *contract* .
+Wanneer je een model maakt, maak je ook een nieuw site-inhoudstype. Een inhoudstype is een categorie documenten met gemeenschappelijke kenmerken en een verzameling kolommen of metagegevenseigenschappen voor die inhoud delen. SharePoint-inhoudstypen worden beheerd via de [Galerie met inhoudstypen](https://support.microsoft.com/office/create-or-customize-a-site-content-type-27eb6551-9867-4201-a819-620c5658a60f). Als je in dit voorbeeld het model maakt, maak je een nieuwe *contract vernieuwing*-inhoudstype.
 
-Selecteer **Geavanceerde instellingen** als u dit model wilt toewijzen aan een bestaand inhoudstype in de galerie SharePoint-inhoudstypen om het schema te gebruiken. Houd er rekening mee dat u met een bestaand inhoudstype het schema kunt gebruiken voor het identificeren en classificeren van een bestaand inhoudstype zodat u de gegevens kunt ophalen uit de bestanden die worden geïdentificeerd.</br>
+Selecteer **Geavanceerde instellingen** als je dit model wilt toewijzen aan een bestaand ondernemingsinhoudstype in de SharePoint-galerie met inhoudstypen om het bijbehorende schema te gebruiken. Ondernemingsinhoudtypen worden opgeslagen in de hub inhoudstype in het SharePoint-Beheercentrum en worden gepubliceerd naar alle sites in de Tenant. Hoewel je een bestaand inhoudstype kunt gebruiken om het bijbehorende schema te gebruiken om te helpen bij het identificeren en classificeren, moet je het model nog steeds trainen om gegevens uit bestanden die worden geïdentificeerd op te halen.</br>
 
 ![Geavanceerde instellingen](../media/content-understanding/advanced-settings.png)
 
-## <a name="add-your-example-files"></a>Voorbeeldbestanden toevoegen
+## <a name="add-your-example-files"></a>Voeg je voorbeeldbestanden toe
 
-Voeg op de startpagina van het model uw voorbeelden van bestanden toe die u nodig hebt om het model te leren bieden ter identificatie van uw documenttype. </br>
+Voeg op de startpagina van het model je voorbeelden-bestanden toe die je nodig hebt om het model te helpen je documenttype te identificeren. </br>
 </br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4D0iX] 
@@ -74,75 +71,78 @@ Voeg op de startpagina van het model uw voorbeelden van bestanden toe die u nodi
 </br>
 
 > [!NOTE]
-> U dient dezelfde bestanden te gebruiken voor de training Classifier en [Extractor](create-an-extractor.md). U hebt altijd de mogelijkheid om later meer toe te voegen, maar u voegt meestal een volledige set voorbeeldbestanden toe. Voorzie wat van een deel van uw model en test de resterende ongelabelde producten om de geschiktheid van het model te beoordelen. 
+> Je moet dezelfde bestanden gebruiken voor zowel classificatie als [Extractor-training](create-an-extractor.md). Je kunt altijd later meer toevoegen, maar meestal voeg je een volledige set voorbeeldbestanden toe. Geef een naam op voor je model en test de resterende niet-gelabelde om model geschiktheid te evalueren. 
 
-Voor de set training wilt u zowel positieve als negatieve voorbeelden gebruiken:
-- Positief voorbeeld: documenten die het documenttype aangeven. Dit bevat tekenreeksen en informatie over dit type document.
-- Negatief voorbeeld: documenten die niet het documenttype vertegenwoordigen. Dit ontbreken tekenreeksen en gegevens die in dit type document moeten worden weergegeven.
+Voor het instellen van je training wil je zowel positieve als negatieve voorbeelden gebruiken:
+- Positief voorbeeld: documenten die het documenttype voorstellen. Dit zijn tekenreeksen en informatie die altijd in dit type document voorkomen.
+- Negatief voorbeeld: een ander document dat niet overeenkomt met het document dat je wilt classificeren. 
 
-Zorg ervoor dat u ten minste vijf positieve voorbeelden en minstens één negatief voorbeeld gebruikt om het model te leren bieden.  U wilt nog meer items maken om uw model na het trainingsproces te testen.
+Zorg ervoor dat je minimaal vijf positieve voorbeelden gebruikt en ten minste één negatief voorbeeld om het model te trainen.  Je wilt extra codes maken om het model na het trainingsproces te testen.
 
-Voorbeeldbestanden toevoegen:
+Om voorbeeldbestanden toe te voegen:
 
-1. Klik op de startpagina van het model in de tegel **voorbeeld bibliotheek opbouwen** op **bestanden toevoegen**.
-2. Selecteer op de pagina **voorbeeldbestanden voor uw model selecteren** de voorbeeldbestanden uit de voorbeeldbestanden bibliotheek in het inhouds centrum. Als u deze niet al had geüpload, kunt u deze nu uploaden door te klikken op **uploaden** om de bestanden te verplaatsen.
-3. Selecteer **toevoegen**nadat u de voorbeeldbestanden hebt geselecteerd die u wilt gebruiken voor het trainen van het model.
+1. Klik op de startpagina van het model in de **Voorbeeldbestanden toevoegen**-tegel op **Bestanden toevoegen**.
+2. Selecteer op de pagina **Voorbeeldbestanden voor je model** de optie bestanden uit de bibliotheek van trainingsbestanden in het inhoudscentrum. Als je ze nog niet hebt geüpload, kun je deze nu uploaden door op **Uploaden** te klikken om ze naar de bibliotheek met trainingsbestanden te kopiëren.
+3. Nadat je de voorbeeldbestanden hebt geselecteerd die je wilt gebruiken om het model te trainen, klik je op **Toevoegen**.
 
-    ![Voorbeeldbestanden selecteren](../media/content-understanding/select-sample.png) 
+    ![Selecteer voorbeeldbestanden](../media/content-understanding/select-sample.png) 
 
-## <a name="label-your-example-files"></a>Een label opgeven voor voorbeeldbestanden
+## <a name="label-your-example-files"></a>Label je voorbeeldbestanden
 
-Wanneer u voorbeeldbestanden hebt toegevoegd, moet u deze als een positief of negatief voorbeeld markeren.
+Nadat je de voorbeeldbestanden hebt toegevoegd, moet je ze een label geven als positieve of negatieve voorbeelden.
 
-1. Klik op de startpagina van het model op de tegel **bestanden classificeren en training uitvoeren** op **classificatie voor trainer**.
-   Hiermee wordt de etiket pagina weergegeven met een overzicht van de voorbeeldbestanden, waarbij het eerste bestand zichtbaar is in de viewer.
-2. In de viewer boven aan het eerste voorbeeldbestand ziet u tekst met de vraag of het bestand een voorbeeld is van het model dat u zojuist hebt gemaakt. Als het om een positief voorbeeld gaat, selecteert u **Ja**. Als het om een negatief voorbeeld gaat, selecteert u **Nee**.
-3. Selecteer in de lijst met **gelabelde voorbeelden** aan de linkerkant extra bestanden die u als voorbeeld wilt gebruiken, en voorzie ze van een label. 
+1. Klik op de startpagina van het model, op de tegel **Bestanden classificeren en training uitvoeren**, en klik op **Train Classifier**.
+   Hier wordt de labelpagina weergegeven met een lijst met voorbeeldbestanden met het eerste bestand dat in de viewer wordt weergegeven.
+2. In de viewer boven aan het eerste voorbeeldbestand zie je tekst waarin je wordt gevraagd of het bestand een voorbeeld is van het model dat je zojuist hebt gemaakt. Als het om een positief voorbeeld gaat, selecteer je **Ja**. Als het om een negatief voorbeeld gaat, selecteer je **Nee**.
+3. Klik in de **lijst met gelabelde voorbeelden** aan de linkerkant op extra bestanden die je als voorbeeld wilt gebruiken en voorzie ze van een label. 
 
-    ![Startpagina classificatie](../media/content-understanding/classifier-home-page.png) 
+    ![Startpagina voor classificatie](../media/content-understanding/classifier-home-page.png) 
 
 
 > [!NOTE]
-> Etiketten van minimaal vijf positieve voorbeelden en een negatief voorbeeld. 
+> Voorzie ten minste vijf positieve voorbeelden van labels. Je moet ook een label aan ten minste één negatief voorbeeld geven. 
 
-## <a name="create-an-explanation"></a>Een uitleg maken
+## <a name="create-an-explanation"></a>Maak een uitleg
 
-De volgende stap is een uitleg over het maken van een uitleg op de pagina van de trein. Met een uitleg wordt het model vertrouwd met het herkennen van het document. De documenten voor het verlengen van het contract bevatten bijvoorbeeld altijd een *aanvraag voor aanvullende informatie over de verschaffings* tekst.
+In de volgende stap wordt uitgelegd hoe je op de pagina Train een uitleg maakt. Met een uitleg wordt het model uitgelegd hoe je het document kunt herkennen. De documenten voor het verlengen van een contract bevatten bijvoorbeeld altijd een *Verzoek om aanvullende informatie* tekenreeks.
 
 > [!Note]
-> Wanneer u deze gebruikt met uitpaknen, wordt met een uitleg de tekenreeks aangegeven die u uit het document wilt extraheren. 
+> Als je een verklaring gebruikt met uittreksels, wordt de tekenreeks die je wilt ophalen uit het document geïdentificeerd. 
 
-Een uitleg maken:
+Maak een uitleg:
 
-1. Op de startpagina van het model, selecteert u het tabblad **trein** om naar de pagina training te gaan.
-2. Op de pagina Train, in de sectie met uitbesteieve **bestanden** , ziet u een lijst met de voorbeeldbestanden die u eerder hebt gelabeld. Selecteer een van de positieve bestanden in de lijst en wordt weergegeven in de viewer.
-3. Selecteer in de sectie uitleg de optie **Nieuw** en selecteer **leeg**.
-4. Op de pagina **een uitleg maken** :</br>
-    a. Typ de **naam** (bijvoorbeeld ' uitschaffings blok ').</br>
-    b. Selecteer het **type**. Voorbeeld: Selecteer **phrase List**, aangezien u een tekenreeks toevoegt.</br>
-    c. Typ in het vak **Typ hier** de tekenreeks. Voorbeeld van het toevoegen van een aanvraag voor aanvullende informatie. U kunt onderscheid maken tussen **hoofd** letters en kleine letters in de tekenreeks.</br>
+1. Op de startpagina van het model selecteer je het tabblad **Train** om naar de pagina Train te gaan.
+2. Op de pagina Train kun je in de sectie **Getrainde bestanden** een lijst zien met de voorbeeldbestanden waaraan je eerder een label hebt gegeven. Selecteer een van de positieve bestanden uit de lijst en deze wordt weergegeven in de viewer.
+3. In de sectie uitleg selecteert je **Nieuw** en vervolgens **Leeg**.
+4. Op de pagina **Maak een uitleg**:</br>
+    a. Typ de **Naam**(bijvoorbeeld "uitnamelijst").</br>
+    b. Selecteer het **Type**. Voor het voorbeeld selecteer je **lijst met frasen**omdat je een tekenreeks toevoegt.</br>
+    c. Typ de tekenreeks in het vak **Type hier**. Voor het voorbeeld moet je „verzoek om aanvullende informatie“ toe voegen. Je kunt **hoofdlettergevoeligheid selecteren** als de tekenreeks hoofdlettergevoelig moet zijn.</br>
     d. Klik op **Opslaan**.
 
-    ![Uitleg maken](../media/content-understanding/explanation.png) 
+    ![Maak een uitleg](../media/content-understanding/explanation.png) 
     
  
-5. Het model controleert nu of de uitleg die u hebt gemaakt goed genoeg was om de resterende gelabelde voorbeeldbestanden correct te identificeren, met een positief en negatief voorbeeld. Selecteer in de sectie opgeleid files de kolom **evaluatie** nadat de training is voltooid om de resultaten te bekijken. De bestanden bevatten de **gezochte**waarde, als de door u gemaakte uitleg voldoende is voor de naam van het bestand dat u als positief of negatief hebt aangemerkt.
+5. Er wordt nu door het model gecontroleerd of de uitleg die je hebt gemaakt goed genoeg was om de achterliggende voorbeeldbestanden op de juiste manier te identificeren, als positieve en negatieve voorbeelden. Schakel in de sectie met opgeleid bestanden de **Evaluatie** kolom nadat de training is voltooid om de resultaten te zien. De bestanden bevatten de waarde **Overeenkomst**als de verklaringen die je hebt gemaakt voldoende zijn om aan te geven wat je als positief of negatief hebt gemarkeerd.
 
-    ![Waarde vergelijken](../media/content-understanding/match.png) 
+    ![Overeenkomende waarde](../media/content-understanding/match.png) 
 
-Als u een **niet-overeenkomend** bestand met gelabelde bestanden ontvangt, moet u mogelijk een extra uitleg maken om het model meer informatie te verschaffen ter identificatie van het documenttype. Als dit het geval is, klikt u op het bestand om meer informatie weer te geven over de reden waarom de fout is opgetreden.
+Als je een **niet-overeenkomende** ontvangt voor de gelabelde bestanden, moet je mogelijk een extra uitleg maken om het model meer informatie te geven om het documenttype te identificeren. Als dit gebeurt, klik je op het bestand om meer informatie weer te geven over de reden waarom de fout is opgetreden.
 
-## <a name="test-your-model"></a>Uw model testen
+## <a name="test-your-model"></a>Test je model.
 
-Als u een overeenkomst met de gelabelde voorbeeldbestanden hebt ontvangen, kunt u de naam van uw model testen in de resterende voorbeeldbestanden met bijschriften.
+Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun je nu je model testen op de andere niet-gelabelde voorbeeldbestanden die het model nog niet heeft gezien.  Deze stap is optioneel.
 
-1. Selecteer op de startpagina van het model het tabblad **testen** .  Hiermee voert u het model uit op uw niet-gelabelde voorbeeldbestanden.
-2. In de lijst **bestanden testen** worden de voorbeeldbestanden weergegeven en wordt weergegeven of het model met de voor spelling positief of negatief is. Met deze informatie kunt u de effectiviteit van uw classificatie voor het identificeren van documenten bepalen.
+1. Op de startpagina van het model selecteer je het tabblad **Testen**.  Hiermee wordt het model uitgevoerd op de niet-gelabelde voorbeeldbestanden.
+2. In de lijst **Testbestanden** worden de voorbeeldbestanden weergegeven en weergegeven als het model deze positief of negatief is. Gebruik deze informatie om de effectiviteit van je classificatie bij het identificeren van je documenten vast te stellen.
 
-    ![Test van bestanden zonder label](../media/content-understanding/test-on-files.png) 
+    ![Testen van bestanden zonder label](../media/content-understanding/test-on-files.png) 
 
 ## <a name="see-also"></a>Zie ook
-[Een extractor maken](create-an-extractor.md)</br>
-[Overzicht van document](document-understanding-overview.md)</br>
-[Een formulier verwerkings model maken](create-a-form-processing-model.md)</br>
+[Een extractor maken](create-an-extractor.md)
+
+[Overzicht van documentbegrip](document-understanding-overview.md)
+
+[Een formulierverwerkingsmodel maken](create-a-form-processing-model.md)
+
 [Een model toepassen](apply-a-model.md) 

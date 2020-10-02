@@ -3,24 +3,21 @@ title: Een extractor maken
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 8/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over het maken van een extractor in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 740df6769b3a1675e4e1691f84d164312b15567c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Lees hoe je een Extractor kunt maken in Microsoft SharePoint Syntex.
+ms.openlocfilehash: d68cc8b8c337c1ae6740eb5775576a54279b8389
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295454"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321807"
 ---
-# <a name="create-an-extractor-preview"></a>Een extractor maken (preview)
+# <a name="create-an-extractor-preview"></a>Een extractor maken (Voorbeeld)
 
-De inhoud in dit artikel is bedoeld voor de cortex van de private preview van project. [Lees meer over project cortex](https://aka.ms/projectcortex).
 
 </br>
 
@@ -28,109 +25,106 @@ De inhoud in dit artikel is bedoeld voor de cortex van de private preview van pr
 
 </br> 
 
-Voordat of nadat u een classificatiemodel hebt gemaakt om het identificeren en classificeren van specifieke documenttypen te automatiseren, kunt u ervoor kiezen om extra informatie toe te voegen aan uw model om bepaalde informatie uit deze documenten uit te pakken. U wilt bijvoorbeeld dat uw model niet alleen alle documenten voor het vernieuwen van een *contract* toevoegt aan uw documentbibliotheek, maar u kunt ook de *begindatum* van de service voor elk document weergeven als een kolom in de documentbibliotheek.
+Vóór of na het maken van een classificatiemodel voor het automatiseren van de identificatie en classificatie van specifieke documenttypen, kun je desgewenst extra uittreksels toevoegen aan je model om specifieke informatie uit deze documenten te halen. Het is bijvoorbeeld mogelijk dat je wilt dat je model niet alleen wordt herkend aan *alle* documenten die worden toegevoegd aan de documentbibliotheek, maar je kunt ook de *service-begindatum* voor elk document weergeven als een kolomwaarde in de documentbibliotheek.
 
-U moet een extractor maken voor elke entiteit in het document die u wilt extraheren. In het voorbeeld wilt u de *begindatum* van de service uitpakken voor elk document voor het *verlengen* van documenten dat door het model wordt geïdentificeerd. Dit moet gebeuren wanneer u een weergave wilt weergeven in de documentbibliotheek van alle documenten voor het verlengen van het *contract* met een kolom met de begindatum waarde van een service voor elk document.
+Je moet een extractor maken voor elke entiteit in het document die je wilt ophalen. In ons voorbeeld willen we de  **begindatum van de service**extraheren voor elke  **contractvernieuwing** -document dat door het model wordt geïdentificeerd. We willen een weergave kunnen zien in de documentbibliotheek van alle **contract** documenten, met een kolom waarin de **begindatum van de service** van elk document wordt weergegeven. 
 
 > [!NOTE]
-> Voordat u een Extractor maakt, moet u de [voorbeeldbestanden toevoegen](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier#add-your-example-files) om het model te leren bieden om de informatie die u wilt extraheren te identificeren. Gebruik de voorbeeldbestanden die u hebt gebruikt om uw classificatie te maken.
+> Als je een extractor wilt maken, gebruik je dezelfde bestanden die je eerder hebt geüpload om de classificatie te trainen. 
 
-## <a name="name-your-extractor"></a>Naam van de extractor
+## <a name="name-your-extractor"></a>Een naam voor de Extractor geven
 
-1. Klik op de startpagina van het model in de tegel **extracten maken en trainen** op **Train Extractor**.
-2. Typ in het scherm **nieuwe entiteits Extractor** de naam van het extractor in het veld **nieuwe naam** van de extractie. Als u bijvoorbeeld de naam van de service starten als u de begindatum van de service wilt extraheren uit het document **voor het verlengen** van het contract.
+1. Klik op de startpagina van het model op **Train Extractor** in de tegel **Extractor maken en trainen**.
+2. Typ in het scherm **New entiteit Extractor** de naam van je extractor in het veld **Nieuwe extractorname**. Als je bijvoorbeeld de **begindatum van de service** wilt wijzigen als je de begindatum van de service wilt ophalen uit elk document voor het verlengen van een contract. Je kunt er ook voor kiezen om een eerder gemaakte kolom opnieuw te gebruiken (bijvoorbeeld een kolom met beheerde metagegevens).
 3. Klik op **Maken**.
 
 ## <a name="add-a-label"></a>Een label toevoegen
 
-De volgende stap is het markeren van de gegevens die u wilt extraheren in de voorbeeldbestanden van uw voorkeuren.
+De volgende stap bestaat uit het label van de entiteit die je wilt ophalen in de voorbeeldbestanden van de training.
 
-Door de Extractor te maken opent u de extractor-pagina. Hier ziet u een overzicht van de voorbeeldbestanden, waarbij het eerste bestand in de lijst wordt weergegeven in de viewer.
+Als je de Extractor maakt, wordt de extractor-pagina geopend. Hier zie je een lijst met je voorbeeldbestanden, met het eerste bestand in de lijst die wordt weergegeven in de viewer.
 
-1. Selecteer de gegevens die u wilt extraheren uit de bestanden in de viewer. Als u bijvoorbeeld de *begindatum*van de service wilt extraheren, markeert u de datumwaarde in het eerste bestand (*maandag, 14 oktober 2019*). en klikt u vervolgens op **Opslaan**.  De weergave van de waarde in het bestand wordt weergegeven in de lijst met gelabelde voorbeelden, onder de kolom **etiket** .
-2. Selecteer **volgende bestand** om automatisch op te slaan en het volgende bestand in de lijst in de viewer te openen. Of selecteer **Opslaan** en selecteer vervolgens een ander bestand in de lijst met **gelabelde voorbeelden** .
-3. Herhaal de stappen 1 en 2 in de viewer en herhaal dit tot u het etiket in de vijf bestanden hebt opgeslagen.
+1. Selecteer in de viewer de gegevens die je wilt ophalen uit de bestanden. Als je bijvoorbeeld de *begindatum van service*wilt ophalen, markeer je de datumwaarde in het eerste bestand (*maandag, 14 oktober 2019*). en klik dan op **Opslaan**.  De weergave van de waarde wordt weergegeven in het bestand in de lijst voorbeelden met een bijschrift onder de **labelkolom**.
+2. Selecteer **Volgende bestand** om automatisch op te slaan en het volgende bestand te openen in de lijst in de viewer. Of selecteer **Opslaan** en selecteer een ander bestand van de lijst **Gelabelde voorbeelden**.
+3. Herhaal stap 1 en 2 in de viewer en herhaal dit totdat je het label in alle vijf bestanden hebt opgeslagen.
 
     ![Geavanceerde instellingen](../media/content-understanding/select-service-start-date.png) 
 
-### <a name="add-a-negative-example"></a>Een negatief voorbeeld toevoegen
-
-Net zoals bij het toevoegen van een negatief voorbeeldbestand bij het maken van een classificatie, moet u een negatieve steekproef toevoegen voor de extractor. Dit moet een bestand zijn dat geen datumwaarde ' service start ' bevat.
-
-1. Selecteer in de lijst met **gelabelde voorbeelden** een negatief voorbeeld.
-2. Selecteer in de viewer boven aan het artikel de optie **geen label aanwezig**.
-3. Klik op **Opslaan**.
  
-Wanneer u vijf bestanden hebt gelabeld, wordt een melding weergegeven met de mededeling dat u wilt overstappen op de training. U kunt kiezen voor meer documenten of verder naar training. 
+Wanneer je vijf bestanden hebt voorzien van een label, wordt een melding weergegeven met de mededeling dat je wilt overstappen op de training. Je kunt ervoor kiezen om meer documenten beter te labelen of verder te gaan met de training. 
 
-## <a name="add-an-explanation"></a>Een uitleg toevoegen
+## <a name="add-an-explanation"></a>Voeg een uitleg toe
 
-Voorbeeld: u maakt een uitleg met een beschrijving van de entiteits indeling zelf en variaties in de voorbeelddocumenten. U kunt bijvoorbeeld een datumwaarde in verschillende notaties, bijvoorbeeld:
+In ons voorbeeld gaan we een uitleg maken met een aanwijzing voor de indeling van de label zelf en de variaties in de voorbeelddocumenten. Een datum kan bijvoorbeeld worden weergegeven in een aantal verschillende notaties:
 - 10/14/2019
 - 14 oktober 2019
 - Maandag 14 oktober 2019
  
 
-Om de *begindatum* van de service te identificeren, maakt u een patroon toelichting.
+Als je de *begindatum van de service* wilt identificeren kun je een uitleg bij het patroon maken.
 
-1. Selecteer in de sectie uitleg de optie **Nieuw** en typ een naam (bijvoorbeeld *datum*).
-2. Selecteer bij type de optie **patroon lijst**.
-3. Voer bij waarde de datum variatie in zoals ze worden weergegeven in de voorbeeldbestanden. Als u bijvoorbeeld datumnotaties hebt die worden weergegeven als 0/00/0000, typt u variaties die in uw documenten worden weergegeven, zoals:
+1. In de sectie uitleg selecteer je **Nieuw** en type een naam (bijvoorbeeld, *Leeg*).
+2. Selecteer bij type **Patroonlijst**.
+3. Geef bij waarde de datumvariant op zoals deze wordt weergegeven in de voorbeeldbestanden. Als je bijvoorbeeld datumnotaties hebt die worden weergegeven als 0/00/0000, geef je de variaties op die worden weergegeven in je documenten, zoals:
     - 0/0/0000
     - 0/00/0000
     - 00/0/0000
     - 00/00/0000
 4. Kies **Opslaan**.
 
-### <a name="use-the-explanation-library"></a>De uitleg bibliotheek gebruiken
+> [!NOTE]
+> Zie [Uitlegtypen](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview)voor meer informatie over uitlegtypen.  
 
-Voor het maken van uitleg voor items, zoals datums, is het eenvoudiger om de uitleg bibliotheek te gebruiken dan voorhand matige invoer van alle variaties. De uitleg bibliotheek is een set vooraf gedefinieerde tekst en patroon toelichting. De bibliotheek biedt alle indelingen voor veelgebruikte woordgroepen of patroon lijsten, zoals datums, telefoonnummers, postcode, enzovoort. 
 
-Voor het voorbeeld van de *service begint* , is het efficiënter om de vooraf samengestelde uitleg voor *datum* in de uitleg bibliotheek te gebruiken:
+### <a name="use-the-explanation-library"></a>De Uitlegbibliotheek gebruiken
 
-1. Selecteer in de **sectie uitleg**de optie **Nieuw**en selecteer vervolgens **uit uitleg bibliotheek**.
-2. Selecteer **datum**in de uitleg bibliotheek. U kunt alle variaties van een ondersteunde datum weergeven.
+Voor het maken van toelichtingen voor items als datums, is het eenvoudiger om [de uitlegbibliotheek te gebruiken](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-the-explanation-library) dan om alle variaties handmatig in te voeren. De uitlegbibliotheek is een set vooraf gedefinieerde frasen en patroonverklaringen. De bibliotheek biedt alle indelingen voor veelgebruikte woordenlijsten of patroonlijsten, zoals datums, telefoonnummers en postcodes. 
+
+Voor het voorbeeld*Begindatum van de service* is het efficiënter om de vooraf gedefinieerde uitleg voor *Datum* te gebruiken in de uitlegbibliotheek:
+
+1. In de **Sectie uitleg** selecteer je **Nieuw** en vervolgens **Uit Uitlegbibliotheek**.
+2. Uit de uitlegbibliotheek, selecteer **Datum**. Je kunt alle datumvariaties weergeven die worden herkend.
 3. Kies **Toevoegen**.</br>
 
-    ![Uitleg bibliotheek](../media/content-understanding/explanation-library.png) 
+    ![Uitlegbibliotheek](../media/content-understanding/explanation-library.png) 
 
-4. Op de pagina **een uitleg maken** worden in de *datum* informatie uit de uitleg bibliotheek automatisch de velden ingevuld. Kies **Opslaan**.</br>
+4. Op de pagina **een uitleg maken** wordt de *Datum* informatie uit de uitlegbibliotheek automatisch ingevuld op de velden. Kies **Opslaan**.</br>
 
-    ![Einddatum](../media/content-understanding/date-explanation-library.png) 
+    ![Datum](../media/content-understanding/date-explanation-library.png) 
 
 ## <a name="train-the-model"></a>Het model trainen 
 
-Uw uitleg opslaan start de training. Als uw model voldoende informatie bevat voor het extraheren van de gegevens uit de voorbeeldbestanden met labels, wordt elk bestand weergegeven met de **naam van het**bestand.  
+Je uitleg start de training opslaan. Als je model voldoende gegevens heeft om de gegevens uit de voorbeeldbestanden met een label te halen, zie je elk bestand dat is gemarkeerd met **Overeenkomst**.  
 
-![Doet](../media/content-understanding/match2.png) 
+![Match](../media/content-understanding/match2.png) 
 
-Als de uitleg niet voldoende informatie bevat om de gegevens te vinden die u wilt extraheren, wordt elk bestand aangeduid met een **overeenkomende**naam. U kunt op de niet- **gerelateerde** bestanden klikken om meer informatie weer te geven over de reden waarom het niet klopt.
+Als er niet voldoende informatie is om de gegevens te vinden die je wilt ophalen, krijgt elk bestand de aanduiding **Komt niet overeen**. Je kunt klikken op de **Bestanden die niet overeenkomen**, om meer informatie weer te geven over de reden waarom er geen overeenkomt was.
 
 
 ## <a name="add-another-explanation"></a>Nog een uitleg toevoegen
 
-Vaak is de door u verstrekte uitleg niet voldoende informatie verstrekt om de begindatum waarde van de service uit te pakken, zodat deze overeenkomt met de gelabelde bestanden. Mogelijk moet u deze bewerken of een andere uitleg toevoegen.
+Het niet-overeenkomen is vaak een aanwijzing dat de uitleg die we hebben verstrekt niet voldoende gegevens heeft verstrekt om de waarde van de begindatum van de service te halen om te voldoen aan de gelabelde bestanden. Mogelijk moet je het bewerken of nog een uitleg toevoegen.
 
-In het voorbeeld ziet u dat de *begindatum van* de tekenreeks vóór de daadwerkelijke waarde voorafgaat. Om de begindatum van de service te identificeren, moet u een uitdrukking maken die wordt uitgelegd.
+In ons voorbeeld ziet u dat de tekenreeks *Begindatum van de service van* altijd vóór de werkelijke waarde begint. Als je de begindatum van de service wilt identificeren moet je een uitleg bij de frase maken.
 
-1. Selecteer in de sectie uitleg de optie **Nieuw**en typ een naam (bijvoorbeeld de prefix- *tekenreeks*).
-2. Selecteer in het vak Type de optie **phrase**.
-3. Gebruik de *begindatum van de service* als de waarde.
+1. In de sectie uitleg selecteer je **Nieuw** en type een naam (bijvoorbeeld, *Voorvoegseltekenreeks*).
+2. Voor het type selecteer je **Woordenlijst**.
+3. De *Begindatum van de service van* als waarde gebruiken.
 4. Kies **Opslaan**.
 
-    ![Prefix-reeks](../media/content-understanding/prefix-string.png) 
+    ![Voorvoegseltekenreeks](../media/content-understanding/prefix-string.png) 
 
-## <a name="train-the-model-again"></a>Het model opnieuw trainen
+## <a name="train-the-model-again"></a>Het model nogmaals trainen
 
-Wanneer u de uitleg opslaat, wordt de training opnieuw gestart, op deze manier de uitleg van beide uitleg in het voorbeeld. Als uw model voldoende informatie bevat voor het extraheren van de gegevens uit de voorbeeldbestanden met labels, wordt elk bestand weergegeven met de naam van de **treffer**. 
+Door de uitleg op te slaan, wordt de training opnieuw gestart en deze keer worden met beide uitleggen in het voorbeeld gebruikt. Als je model voldoende gegevens heeft om de gegevens uit de voorbeeldbestanden met een label te halen, zie je elk bestand dat is gemarkeerd met **Overeenkomst**. 
 
-Als u weer een **niet-overeenkomend** bestand met gelabelde bestanden ontvangt, moet u waarschijnlijk een andere uitleg maken om het documenttype te identificeren of om wijzigingen aan te brengen in het voorbeeldmodel.
+Als je opnieuw een **Komt niet overeen** op je gelabelde bestanden ontvangt, moet je waarschijnlijk nog een uitleg maken om het model meer informatie te geven om het documenttype te identificeren, of je kunt wijzigingen aanbrengen in je bestaande bestanden.
 
-## <a name="test-your-model"></a>Uw model testen
+## <a name="test-your-model"></a>Test je model.
 
-Als u een overeenkomst ontvangt met de gelabelde voorbeeldbestanden, kunt u uw model nu testen in de resterende voorbeeldbestanden met de naam.
+Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun je nu je model testen op de andere niet-gelabelde voorbeeldbestanden. Dit is een handige stap voor het evalueren van de "geschiktheid" of het voorbereiding van het model voordat dit wordt gebruikt, door het te testen op bestanden die het model nog niet heeft gezien.
 
-1. Klik op de startpagina van het model op het tabblad **testen** .  Hiermee voert u het model uit op uw niet-gelabelde voorbeeldbestanden.
-2. In de lijst **bestanden testen** worden de voorbeeldbestanden weergegeven om aan te geven of de gegevens die u nodig hebt, kunnen worden uitgepakt in het model. Met deze informatie kunt u de effectiviteit van uw classificatie voor het identificeren van documenten bepalen.
+1. Op de startpagina van het model klik je op het tabblad **Testen**.  Hiermee wordt het model uitgevoerd op de niet-gelabelde voorbeeldbestanden.
+2. In de lijst **Testbestanden** worden de voorbeeldbestanden weergegeven om aan te geven of de gegevens die je nodig hebt, door het model kunnen worden opgehaald. Gebruik deze informatie om de effectiviteit van je classificatie bij het identificeren van je documenten vast te stellen.
 
-    ![Uw bestanden testen](../media/content-understanding/test-filies-extractor.png) 
+    ![Op je bestanden testen](../media/content-understanding/test-filies-extractor.png) 

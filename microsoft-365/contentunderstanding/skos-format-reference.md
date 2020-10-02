@@ -1,5 +1,5 @@
 ---
-title: SKOS-indelings overzicht voor SharePoint-taxonomie
+title: SKOS-verwijzing voor SharePoint-taxonomie
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -7,56 +7,56 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-description: SKOS-indelings overzicht voor SharePoint-taxonomie
-ms.openlocfilehash: eb228394b06b6e6027937ab105df7c0079875226
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: SKOS-verwijzing voor SharePoint-taxonomie
+ms.openlocfilehash: f81b618a7c302ce033c4e8ce2f7400e9616f2de0
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295894"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321323"
 ---
-# <a name="skos-format-reference-for-sharepoint-taxonomy"></a>SKOS-indelings overzicht voor SharePoint-taxonomie
+# <a name="skos-format-reference-for-sharepoint-taxonomy"></a>SKOS-verwijzing voor SharePoint-taxonomie
 
-Dit artikel bevat de RDF-vocabulaire die wordt gebruikt voor de weergave van de [SharePoint-taxonomie](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) en is gebaseerd op [skos](https://www.w3.org/TR/skos-primer/). Voor serialisatie van deze RDF-syntaxis gebruikt u RDF [TURTLE](https://www.w3.org/TR/turtle/).
+Dit artikel bevat de RDF-vocabulaire die wordt gebruikt om [SharePoint-taxonomie](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) te vertegenwoordigen en is gebaseerd op [SKOS](https://www.w3.org/TR/skos-primer/). Gebruik RDF [SCHILDPAD](https://www.w3.org/TR/turtle/)voor de serialisatie van deze RDF-syntaxis.
 
-In de volgende tabel worden de [skos](https://www.w3.org/TR/skos-primer/) -equivalenten voor de [SharePoint-taxonomie](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) terminologie weergegeven. SharePoint biedt geen ondersteuning voor [skos](https://www.w3.org/TR/skos-primer/) -waarden zonder SharePoint-taxonomie equivalent.
+In de volgende tabel zie je de [SKOS](https://www.w3.org/TR/skos-primer/)- equivalenten voor de [SharePoint-taxonomie](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) woordenlijst. SharePoint biedt geen ondersteuning voor [SKOS](https://www.w3.org/TR/skos-primer/) waarden zonder SharePoint-taxonomie equivalent.
 
 |SharePoint-taxonomie|SKOS-equivalent|
 |:-----------------|:--------------|
-|SharePoint-taxonomie: term|skos: concept|
-|SharePoint-taxonomie: Termenset|skos:ConceptScheme|
-|SharePoint-taxonomie: intermenset|skos: schema|
-|SharePoint-taxonomie: hasTopLevelTerm|skos:hasTopConcept|
-|SharePoint-taxonomie: topLevelTermOf|skos:topConceptOf|
-|SharePoint-taxonomie: defaultLabel|skos:prefLabel|
-|SharePoint-taxonomie: termSetName|skos:prefLabel|
-|SharePoint-taxonomie: eigenschaps|skos:prefLabel|
-|SharePoint-taxonomie: otherLabel|skos:altLabel|
-|SharePoint-taxonomie: beschrijving|skos: definitie|
-|SharePoint-taxonomie: bovenliggend element|skos: bredere|
-|SharePoint-taxonomie: onderliggend|skos: smaller|
+|sharepoint-taxonomy:Term|skos: concept|
+|sharepoint-taxonomy:TermSet|skos:ConceptScheme|
+|sharepoint-taxonomy:inTermSet|skos:inScheme|
+|sharepoint-taxonomy:hasTopLevelTerm|skos:hasTopConcept|
+|sharepoint-taxonomy:topLevelTermOf|skos:topConceptOf|
+|sharepoint-taxonomy:defaultLabel|skos:prefLabel|
+|sharepoint-taxonomy:termSetName|skos:prefLabel|
+|sharepoint-taxonomy:propertyName|skos:prefLabel|
+|sharepoint-taxonomy:otherLabel|skos:altLabel|
+|sharepoint-taxonomy:description|skos:definition|
+|sharepoint-taxonomy:parent|skos:broader|
+|sharepoint-taxonomy:child|skos:narrower|
 
-In de volgende tabel ziet u de entiteiten van de SharePoint-taxonomie van de SharePoint-taxonomie afgeleid van [Owl](https://www.w3.org/TR/owl2-primer/).
+In de volgende tabel zie je de entiteiten van de SharePoint-taxonomie die is afgeleid van [OWL](https://www.w3.org/TR/owl2-primer/).
 
-|Vocabulaire van SharePoint-taxonomie|Afgeleid van OWL|
+|SharePoint-taxonomie woordenlijst|Afgeleid van OWL|
 |:-----------------------------|:----------------------|
-|SharePoint-taxonomie: isAvailableForTagging|owl:datatypeproperty|
-|SharePoint-taxonomie: SharedCustomPropertyForTerm|owl:ObjectProperty|
-|SharePoint-taxonomie: LocalCustomPropertyForTerm|owl:ObjectProperty|
-|SharePoint-taxonomie: CustomPropertyForTermSet|owl:ObjectProperty|
+|sharepoint-taxonomy:isAvailableForTagging|owl:datatypeproperty|
+|sharepoint-taxonomy:SharedCustomPropertyForTerm|owl:ObjectProperty|
+|sharepoint-taxonomy:LocalCustomPropertyForTerm|owl:ObjectProperty|
+|sharepoint-taxonomy:CustomPropertyForTermSet|owl:ObjectProperty|
 
-## <a name="sharepoint-taxonomy-vocabulary"></a>Vocabulaire van SharePoint-taxonomie
+## <a name="sharepoint-taxonomy-vocabulary"></a>SharePoint-taxonomie woordenlijst
 
-Een taxonomie is een formele classificatiesysteem. Een taxonomiegroepen de woorden, labels en voorwaarden die een beschrijving beschrijven en de groepen worden vervolgens ingedeeld in een hiërarchie.
+Een taxonomie is een formeel classificatiesysteem. In een taxonomie worden de woorden, labels en termen gegroepeerd die iets beschrijven. Vervolgens worden die groepen gerangschikt in een hiërarchie.
 
-**SharePoint-taxonomie: term**
+**sharepoint-taxonomy:Term**
 
 Vertegenwoordigt een term of een trefwoord in een hiërarchie met beheerde metagegevens.
 
-Een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) is de atoom eenheid van een SharePoint- [Archief](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore). Elke [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) behoort tot een [termset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) die deel uitmaakt van een [TermGroup](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group). 
+Een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) is de atomische eenheid van een SharePoint-[TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore). Elke [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) behoort tot een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) die behoort tot een [TermGroep](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group). 
 
-De syntaxis voor het definiëren van een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) is als volgt:
+De syntaxis voor het definiëren van een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) is als volgt:
 
 ```SKOS
 ex:TermA    a    sharepoint-taxonomy:Term;
@@ -67,27 +67,27 @@ ex:TermA    a    sharepoint-taxonomy:Term;
     sharePoint-taxonomy:defaultLabel    “Term A”@en-us.
 ```
 
-Een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) voorkomt binnen een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). DefaultLabel is de naam van de [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) zoals weergegeven in de visuele weergave. De verplichte velden voor het definiëren van een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) zijn onder meer:
+Er bestaat een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) verplicht binnen een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). DefaultLabel is de naam van de [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) zoals deze wordt weergegeven in de visuele weergave. De vereiste velden voor het definiëren van een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) zijn:
 
-- SharePoint-taxonomie: defaultLabel
-- SharePoint-taxonomie: intermenset
+- sharepoint-taxonomy:defaultLabel
+- sharepoint-taxonomy:inTermSet
 
-Een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) kan:
+Een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) kan:
 
-- Zorg dat u aan een andere [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) die niet wordt vermeld, [in een andere](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) term moet worden weer [gegeven.](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)
-- Meerdere onderliggende [termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)hebben, maar slechts één bovenliggende [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term).
-- Er is geen bovenliggende [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) gedefinieerd, als dit een topLevelTermOf is van een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset).
-- Eén defaultLabel [, per werk](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) woorden.
-- Niet aanwezig als het geen bovenliggende [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)bevat, noch de TopLevelTermOf een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). 
-- Alleen een unieke defaultLabel op hetzelfde hiërarchische niveau hebben.
+- Hiërarchisch gerelateerd zijn aan een andere [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) die worden vermeld in zowel de [Termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) behoort tot dezelfde [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset).
+- Meerdere onderliggende [Termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term), maar slechts één bovenliggende [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term).
+- Er is geen bovenliggende [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)gedefinieerd, als het een topLevelTermOf een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)is.
+- Een defaultLabel hebben, per [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore)-werktaal.
+- Niet bestaan als deze geen bovenliggende [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)bevat, en niet de topLevelTermOf een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). 
+- Slechts een unieke defaultLabel op hetzelfde hiërarchische niveau hebben.
 
-**SharePoint-taxonomie: Termenset**
+**sharepoint-taxonomy:TermSet**
 
-Voorbeeld van een hiërarchische of vlakke set termen objecten die een term ' Termset ' genoemd.
+Hiermee wordt een hiërarchische of vlakke set termobjecten aangeduid die worden aangeduid als een "Termset".
 
-Aangezien de naamsuggesties geeft, is de Termset een set [termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term). Een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) in een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) moet deel uitmaken van een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). Er kan geen [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) apart worden opgenomen. 
+Zoals de naam suggereertt, is Termset een set [Termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term). Een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) in een [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) moet deel uitmaken van een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). Er kan geen [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) afzonderlijk bestaan. 
 
-De syntaxis voor het definiëren van een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) luidt als volgt:
+De syntaxis voor het definiëren van een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) is:
 
 ```SKOS
 ex:TermSetA    a    sharepoint-taxonomy:TermSet;
@@ -96,62 +96,62 @@ ex:TermSetA    a    sharepoint-taxonomy:TermSet;
     sharepoint-taxonomy:hasTopLevelTerm    Ex:Term A.
 ```
 
-[TermSets](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) worden logischerwijze samen gegroepeerd in [TermGroups](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group). Het vereiste veld voor het definiëren van een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) luidt als volgt:
+[TermSets](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) zijn logisch gegroepeerd in [TermGroups](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group). De vereiste velden voor het definiëren van een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) zijn:
 
-- SharePoint-taxonomie: termSetName
+- sharepoint-taxonomy:termSetName
 
-In het geval van het opgegeven termSetName is er geen unieke waarde in de [TermGroup](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group), voegt SharePoint een nummer toe aan het einde van de naam, zodat de uniekheid van termSetName (en) wordt gehandhaafd.
+In het geval van het gegeven termSetName niet uniek is binnen de [TermGroup](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group), wordt aan het begin van de naam een nummer toegevoegd door SharePoint om de uniekheid van termSetName(s) te behouden.
 
-**SharePoint-taxonomie: hasTopLevelTerm**
+**sharepoint-taxonomy:hasTopLevelTerm**
 
-In SharePoint wordt deze eigenschap gebruikt om de meest voorkomende [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) in de [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)toe te wijzen, wat het invoerpunt is voor de structuur van [termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) in een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). Dit is een inverse relatie naar SharePoint-Taxonomy: topLevelTermOf. 
+SharePoint gebruikt deze eigenschap om de hoogste [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) toe te wijzen aan de [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset), het ingangspunt van de hiërarchie met [Termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) in een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). Dit is een inverse relatie met de SharePoint-taxonomie: topLevelTermOf. 
 
-De syntaxis voor de definiëren hiervan luidt als volgt:
+De syntaxis voor het definiëren hiervan is:
 
 ```SKOS
 ex:TermSetA    sharepoint-taxonomy:hasTopLevelTerm    ex:TermA.
 ```
 
 >[!NOTE]
-> U kunt de bovenste [termijn](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) van een bovenliggende [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)niet definiëren.
+> Het is niet mogelijk om de [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) op het hoogste niveau van een bovenliggend [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)te definiëren.
 
-**SharePoint-taxonomie: topLevelTermOf**
+**sharepoint-taxonomy:topLevelTermOf**
 
 SharePoint-taxonomie: topLevelTermOf is de inverse van SharePoint-taxonomie: hasTopLevelTerm
 
-De syntaxis voor de definiëren hiervan luidt als volgt:
+De syntaxis voor het definiëren hiervan is:
 
 ```SKOS
 ex:TermA    sharepoint-taxonomy:topLevelTermOf    ex:TermSetA.
 ```
 
-**SharePoint-taxonomie: intermenset**
+**sharepoint-taxonomy:inTermSet**
 
-Hiermee kunt u een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) toewijzen aan een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). Een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) kan maar in één [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)bestaan. SharePoint vereist deze eigenschap voor [het definiëren van een term](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/blob/3a3cd54dd076b18bdff1d43b3e342897f8704c23/microsoft-365/contentunderstanding/skos-format-reference.md#term).
+Gebruik dit om een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) toe te wijzen aan een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). Een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) kan slechts bestaan in één [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). SharePoint vereist deze eigenschap bij het[definiëren van een term](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/blob/3a3cd54dd076b18bdff1d43b3e342897f8704c23/microsoft-365/contentunderstanding/skos-format-reference.md#term).
 
 ## <a name="required-labels"></a>Vereiste labels
 
-Het kan handig zijn voor de planning van uw organisatie voordat u beheerde metagegevens gaat gebruiken. Welke planning u moet doen, is afhankelijk van de manier waarop u de taxonomie moet afmaken. Dit hangt ook af van de hoeveel besturingselementen u de metagegevens wilt leggen. Op elk niveau van de hiërarchie moet u de vereiste LABLES configureren voor een term of Termenset.
+Het is mogelijk dat je organisatie een zorgvuldige planning moet uitvoeren voordat je beheerde metagegevens gaat gebruiken. De hoeveelheid planning die je moet uitvoeren, hangt af van hoe formeel de taxonomie is. De functie is ook afhankelijk van de hoeveelheid besturingselementen die je wilt toepassen op metagegevens. Op elk niveau van de hiërarchie moet je de vereiste labels voor een Term of Termenset configureren.
 
-Een term kan een of meer labels in de standaardtaal bevatten, en de waarden 0 of meer zijn niet in de standaardtaal. Als de term labels bevat in een taal, moet een van de labels het standaardlabel zijn.
+Een term kan een of meer labels in de standaardtaal bevatten en nul of meer etiketten in de niet-standaardtaal. Als de term labels in een taal heeft, moet een van de labels het standaardlabel zijn.
 
-**SharePoint-taxonomie: defaultLabel**
+**sharepoint-taxonomy:defaultLabel**
 
-Gebruik dit standaard-lexicale label voor een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) die een vereiste parameter is voor een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term). Wordt gebruikt om de [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)visueel aan te duiden.
+Gebruik dit standaard-lexicale label voor een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) die een verplichte parameter is voor een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term). Gebruik om de [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)visueel te representeren.
 
-De syntaxis voor het definiëren van een defaultLabel is:
+De syntaxis voor het definiëren van standaard label is:
 
 ```SKOS
 ex:TermA    sharepoint-taxonomy:defaultLabel    “Term A”@en-us.
 ```
 
-De defaultLabel bevat twee onderdelen, namelijk de tekenreeks en de taalcode. De taal moet een van [de werktalen voor het werk](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) woorden zijn. De defaultLabel moet uniek zijn voor alle [termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) in dezelfde [termset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset), op hetzelfde hiërarchische niveau.
+De defaultLabel bevat twee onderdelen: de tekenreeks en de taal. De taal moet een van de [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore)- werktalen zijn. De defaultLabel moet uniek zijn voor alle [Termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) in dezelfde [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) op hetzelfde hiërarchische niveau.
 
-**SharePoint-taxonomie: termSetName**
+**sharepoint-taxonomy:termSetName**
 
-Haalt de naam van het huidige Termset-object op en stelt dit in.
+Hiermee wordt de naam opgehaald en ingesteld voor het huidige Termenset-object.
 
-Dit is het lexicale etiket voor een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset), [in de werk](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) taal van een werkwoord. Dit is een vereiste parameter voor een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). Voor het visueel vertegenwoordigen van een [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset).
+Dit is het lexicale label voor een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset), in een [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore)-werktaal. Dit is een verplichte parameter voor een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset). Gebruik om de [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)visueel te representeren.
 
 De syntaxis voor het definiëren van een termSetName is:
 
@@ -159,13 +159,13 @@ De syntaxis voor het definiëren van een termSetName is:
 ex:TermA    sharepoint-taxonomy:TermSetName    “Term Set A”@en-us.
 ```
 
-**SharePoint-taxonomie: eigenschaps**
+**sharepoint-taxonomy:propertyName**
 
-Hiermee wordt de naam van de eigenschap voor het huidige Termset-object opgehaald en ingesteld.
+Hiermee wordt de eigenschapsnaam opgehaald en ingesteld voor het huidige Termenset-object.
 
-Dit is het lexicale etiket voor een SharePoint-taxonomie: SharedCustomPropertyForTerm, SharePoint-taxonomie: LocalCustomPropertyForTerm en SharePoint-taxonomie: CustomPropertyForTermSet in een werkgebied van een werk [Archief](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) .
+Dit is het lexical-label voor een SharePoint-taxonomie: SharedCustomPropertyForTerm, SharePoint-taxonomie: LocalCustomPropertyForTerm en SharePoint-taxonomie: CustomPropertyForTermSet in een [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore)-werktaal.
 
-De SharePoint-taxonomie: eigenschapnaam wordt behandeld als de sleutel van de CustomProperty.
+SharePoint-taxonomie: eigenschapnamen wordt behandeld als de sleutel van de CustomProperty.
 
 De syntaxis voor het definiëren van een propetyName is:
 
@@ -175,13 +175,13 @@ ex:SharedCustomProperty1    sharepoint-taxonomy:propertyName    “Shared Custom
 
 ## <a name="optional-labels"></a>Optionele labels
 
-U kunt ook optionele etiketten toevoegen aan de taxonomie.
+Je kunt ook optionele labels toevoegen aan je taxonomie.
 
-**SharePoint-taxonomie: otherLabel**
+**sharepoint-taxonomy:otherLabel**
 
-Dit is het alternatieve lexicale etiket voor een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term). 
+Dit is het alternatieve lexicale label voor een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term). 
 
-De syntaxis voor het definiëren van een otherLabel is:
+De syntaxis voor het definiëren van otherLabel is:
 
 ```SKOS
 ex:TermA    sharepoint-taxonomy:otherLabel    “Term A”@en-us.
@@ -189,43 +189,43 @@ ex:TermA    sharepoint-taxonomy:otherLabel    “Term A”@en-us.
 
 ## <a name="semantic-relationships"></a>Semantische relaties
 
-Taxonomieën hebben hiërarchische en soms een eenvoudige, gerelateerde term ' gekoppelde term ', maar er zijn een aantal ' semantische relaties ' of aangepaste relaties. 
+Taxonomie heeft hiërarchische en soms een simpele "gerelateerde term" associatieve relatie, maar enkele voorbeelden van "semantische relaties" of relaties met aangepaste voorwaarden. 
 
-**SharePoint-taxonomie: bovenliggend element**
+**sharepoint-taxonomy:parent**
 
-Hiermee verlegt u deze hiërarchische [termijn](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) met een andere [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term). Een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) kan een topniveau van [een](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)zijn, maar in de praktijk moet de term geen bovenliggende [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)hebben. 
+Hiermee wordt een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) op een andere [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term). Een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) kan een hoog niveau [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) van een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) zijn, maar als het niet zo is moet er een bovenliggende [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) zijn. 
 
-De syntaxis voor het definiëren van een bovenliggend element luidt als volgt:
+De syntaxis voor het definiëren van een bovenliggende term is:
 
 ```SKOS
 ex:TermA1    sharepoint-taxonomy:parent    ex:TermA.
 ```
 
-Dat betekent dat TermA1 bovenliggende Terma heeft. Ook betekent dit dat TermA1 het kind is van Terma. Relatie tussen bovenliggende en onderliggende items is een inversible-relatie.
+Dit betekent dat TermA het bovenliggende en TermA het onderliggende.
 
-**SharePoint-taxonomie: onderliggend**
+**sharepoint-taxonomy:child**
 
-Het object bevat een of meer onderliggende exemplaren van de Termenset, en deze kunnen worden geopend via de eigenschap TermSets. Deze klasse biedt ook methoden voor het maken van nieuwe onderliggende Termenset-objecten. Machtigingen voor het bewerken van onderliggende termen en Termenset-exemplaren zijn opgegeven voor de groep. 
+Het object bevat een of meer onderliggende Termenset-instanties en kan worden geopend via de eigenschap TermSets. Deze klas biedt ook methoden voor het maken van nieuwe onderliggende Termenset-objecten. De machtigingen voor het bewerken van onderliggende termen en Termenset-exemplaren zijn opgegeven voor de groep. 
 
-Hiermee verlegt u deze hiërarchische [termijn](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) met een andere [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term).
+Hiermee wordt een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) op een andere [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term).
 
-De syntaxis voor het definiëren van een kind luidt als volgt:
+De syntaxis voor het definiëren van een onderliggende term is:
 
 ```SKOS
 ex:TermA    sharepoint-taxonomy:child    ex:TermA1.
 ```
 
-Dat betekent dat Terma onderliggend TermA1. Ook betekent dit dat Terma de bovenliggende relatie van TermA1 bovenliggend-kind is een inversible-relatie.
+Dit betekent dat TermA het bovenliggende en TermA het onderliggende.
 
-## <a name="documentation-notes"></a>Documentatie over documentatie
+## <a name="documentation-notes"></a>Documentatienotities
 
-In deze sectie wordt de taxonomie uitvoerig besproken in de naamruimte Microsoft. SharePoint. Taxonomy.
+In deze sectie wordt de taxonomie besproken die wordt beschreven in de Naamruimte Microsoft.SharePoint-taxonomie.
 
-**SharePoint-taxonomie: beschrijving**
+**sharepoint-taxonomy:description**
 
-Dit is een gedetailleerde uitleg van de entiteiten van een [SharePoint-taxonomie](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) . 
+Dit is een gedetailleerde uitleg van een [SharePoint-taxonomie](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) vocabulaire-entiteit. 
 
-De syntaxis voor het toevoegen van een beschrijving luidt als volgt:
+De syntaxis om een beschrijving toe te voegen is:
 
 ```SKOS
 ex:TermA    sharepoint-taxonomy:description    “Term A is the top level term of TermSetA”@en-us.
@@ -233,13 +233,13 @@ ex:TermA    sharepoint-taxonomy:description    “Term A is the top level term o
 
 ## <a name="custom-properties"></a>Aangepaste eigenschappen
 
-Hiermee wordt het verzamelen van aangepaste eigenschappen objecten voor het huidige term object in de alleen-lezen woordenlijst opgehaald.
+Hiermee haal je een verzameling aangepaste eigenschapsobjecten op voor de huidige objectterm uit de alleen-lezen woordenlijst.
 
-Aangepaste eigenschappen zijn combinaties van sleutelwaarden die kunnen worden gedefinieerd voor een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) of [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset), zodat de beschrijving van de [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) of [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)verder wordt. SharePoint geeft de sleutel van de aangepaste eigenschap aan met de Help van eigenschapnaam.
+Aangepaste eigenschappen zijn sleutelwaarden paren die kunnen worden gedefinieerd voor een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) of een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset), om de beschrijving van de [Termen](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) of een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) te bevorderen. SharePoint geeft de sleutel van de aangepaste eigenschap aan met behulp van propertyName.
 
-**SharePoint-taxonomie: CustomPropertyForTermSet**
+**sharepoint-taxonomy:CustomPropertyForTermSet**
 
-De syntaxis voor de definiëren hiervan luidt als volgt:
+De syntaxis voor het definiëren hiervan is:
 
 ```SKOS
 ex:CustomProp1    rdf:type    sharepoint-taxonomy:CustomPropertyForTermSet;
@@ -248,11 +248,11 @@ ex:CustomProp1    rdf:type    sharepoint-taxonomy:CustomPropertyForTermSet;
 ex:TermSetA    ex:CustomProp1    “Red”@en-us.
 ```
 
-**SharePoint-taxonomie: SharedCustomPropertyForTerm**
+**sharepoint-taxonomy:SharedCustomPropertyForTerm**
 
-Als de aangepaste eigenschap voor een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) moet worden getransporteerd met de [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term), moet u deze eerst definiëren onder SharedCustomPropertyForTerm wanneer u [de term vervolgens ergens anders](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) opnieuw gebruikt.
+Als de aangepaste eigenschap voor een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) moet worden meegenomen aan de [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term), moet je de [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) vervolgens op de gewenste locatie definiëren onder SharedCustomPropertyForTerm.
 
-De syntaxis voor de definiëren hiervan luidt als volgt:
+De syntaxis voor het definiëren hiervan is:
 
 ``` SKOS
 ex:CustomProp2    rdf:type sharepoint-taxonomy:SharedCustomPropertyForTerm;
@@ -260,11 +260,11 @@ ex:CustomProp2    rdf:type sharepoint-taxonomy:SharedCustomPropertyForTerm;
 
 ex:TermA    ex:CustomProp2    “5 cm”@en-us.
 ```
-**SharePoint-taxonomie: LocalCustomPropertyForTerm**
+**sharepoint-taxonomy:LocalCustomPropertyForTerm**
 
-Als u de aangepaste eigenschap voor een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) niet samen met de [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)hoeft te gebruiken, moet u deze eerst definiëren onder LocalCustomPropertyForTerm wanneer u [de term vervolgens ergens anders](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) opnieuw gebruikt.
+Als de aangepaste eigenschap voor een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) niet moet worden meegenomen met de [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term), moet je de [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) vervolgens op de gewenste locatie definiëren onder LocalCustomPropertyForTerm.
 
-De syntaxis voor de definiëren hiervan luidt als volgt:
+De syntaxis voor het definiëren hiervan is:
 
 ```SKOS
 ex:CustomProp3    rdf:type sharepoint-taxonomy:LocalCustomPropertyForTerm;
@@ -275,13 +275,13 @@ ex:TermA    ex:CustomProp3    “5 cm”@en-us.
 
 ## <a name="data-properties"></a>Gegevenseigenschappen
 
-U kunt op elk niveau van de hiërarchie bepaalde gegevenseigenschappen configureren voor een term of Termenset.
+Op elk niveau van de hiërarchie moet je de specifieke gegevenseigenschappen voor een Term of Termenset configureren.
 
-**SharePoint-taxonomie: isAvailableForTagging**
+**sharepoint-taxonomy:isAvailableForTagging**
 
-Hiermee kunt u opgeven of een [term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) of [termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) beschikbaar is in de SharePoint-lijsten en-bibliotheken.  
+Gebruik deze instelling om op te geven of een [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) of een [Termenset](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) die beschikbaar is in SharePoint-lijsten en - bibliotheken.  
 
-Dit is de syntaxis voor dit:
+De syntaxis voor dit is als volgt:
 
 ```SKOS
 ex:TermA    sharepoint-taxonomy:isAvailableForTagging     "true"^^xsd:Boolean;
@@ -289,35 +289,35 @@ ex:TermA    sharepoint-taxonomy:isAvailableForTagging     "true"^^xsd:Boolean;
 
 ## <a name="domain-and-range"></a>Domein en bereik
 
-In de volgende tabel wordt de naam van het domein en het bereik van de SharePoint-taxonomie voor de taxonomie beschreven
+In de volgende tabel vind je een beschrijving van het domein en het bereik van de SharePoint-taxonomie woordenlijst.
 
-|Predikaten/werkwoord|Zinloos|Domein|Kleurovergangsbereik|
+|Predikaten/werkwoord|Betekenis|Domein|Bereik|
 |:--------------|:------|:-----|:----|
-inbegripset|In de termenset|Onder|Termenset|
-inTermGroup|In de groep termen|Termenset|TermGroup|
-topLevelTermOf|Is bovenste niveau term|Onder|Termenset|
-hasTopLevelTerm|Heeft een bovenste termijn|Termenset|Onder|
-termSetName|Termenset heeft naam|Onder|Letterlijke tekst|
-defaultLabel|De term heeft een standaardlabel|Onder|Letterlijke tekst|
-otherLabel|De term heeft een ander label|Onder|Letterlijke tekst|
-eigenschaps|Heeft eigenschaps label|SharedCustomPropertyForTerm, LocalCustomPropertyForTerm, CustomPropertyForTermSet |Booleaanse waarde, tekenreeks, integer, decimaal, dubbel|
-|beschrijving|Heeft een beschrijving|Alles|Letterlijke tekst|
-|site|Heeft bovenliggend element|Onder|Onder|
-|kinderen|Heeft een kind|Onder|Onder|
+inTermSet|In Termenset|Term|Termenset|
+inTermGroup|In termgroep|TermSet|TermGroup|
+topLevelTermOf|Is het hoogste niveau van|Term|TermSet|
+hasTopLevelTerm|Heeft het hoogste niveau term|Termenset|Term|
+termSetName|Termenset heeft naam|Term|Letterlijke tekst zonder opmaak|
+defaultLabel|Term heeft een standaardlabel|Term|Letterlijke tekst zonder opmaak|
+otherLabel|Term heeft een ander label|Term|Letterlijke tekst zonder opmaak|
+propertyName|Heeft eigenschapslabel|SharedCustomPropertyForTerm, LocalCustomPropertyForTerm, CustomPropertyForTermSet |Boolean, String, Integer, Decimal, Double|
+|beschrijving|Heeft beschrijving|Alle|Letterlijke tekst zonder opmaak|
+|Bovenliggend|Heeft bovenliggend element|Term|Term|
+|onderliggend element|Heeft onderliggend element|Term|Term|
 |isAvailableForTagging|Is beschikbaar voor labelen|Term, Termenset|Booleaanse waarde|
-|SharedCustomPropertyForTerm|Heeft een gedeelde aangepaste eigenschap|Onder|Booleaanse waarde, tekenreeks, integer, decimaal, dubbel|
-|LocalCustomPropertyForTerm|Heeft lokale aangepaste eigenschap|Onder|Booleaanse waarde, tekenreeks, integer, decimaal, dubbel|
-|CustomPropertyForTermSet|Heeft een aangepaste eigenschap|Termenset|Booleaanse waarde, tekenreeks, integer, decimaal, dubbel|
+|SharedCustomPropertyForTerm|Heeft aangepaste eigenschap gedeeld|Term|Boolean, String, Integer, Decimal, Double|
+|LocalCustomPropertyForTerm|Heeft lokale aangepaste eigenschap|Term|Boolean, String, Integer, Decimal, Double|
+|CustomPropertyForTermSet|Heeft aangepaste eigenschap|TermSet|Boolean, String, Integer, Decimal, Double|
 
-[Skos](https://www.w3.org/TR/skos-primer/) geldige Scenario's die [SharePoint-taxonomie](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) niet toestaan:
+[SKOS](https://www.w3.org/TR/skos-primer/) geldige scenario's die [ SharePoint-taxonomie](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) niet is toegestaan:
 
-- Hiërarchische redundantie: een [skos](https://www.w3.org/TR/skos-primer/) -concept kan tegelijk worden bijgevoegd aan diverse bredere concepten, maar een SharePoint-taxonomie: de term mag maar één SharePoint-taxonomie hebben: ouder, dus cyclische afhankelijkheid, van voorwaarden is ook niet toegestaan.
-- Zwevende termen zijn niet toegestaan in de SharePoint-taxonomie. Elke SharePoint-taxonomie: een term moet bestaan uit een SharePoint-taxonomie: de naam van de SharePoint-taxonomie: topLevelTermOf een Termenset.
-- SharePoint-taxonomie biedt geen ondersteuning voor koppelieve betrekkingen.
-- SharePoint-taxonomie biedt alleen ondersteuning voor twee typen hiërarchierelaties – SharePoint-Taxonomy: Parent en SharePoint-Taxonomy: kind. 
-- In tegenstelling tot [skos](https://www.w3.org/TR/skos-primer/) wordt de hiërarchische relatie in de woordenlijst van de SharePoint-taxonomie slechts met termen binnen dezelfde termset vastgelegd.
+- Hiërarchische redundantie - een [SKOS](https://www.w3.org/TR/skos-primer/) concept kan tegelijk met meerdere bredere concepten worden bijgevoegd, maar een SharePoint-taxonomie: kan slechts één SharePoint-taxonomie bevatten: bovenliggend, dus cyclische afhankelijkheid van termen is ook niet toegestaan.
+- Zwevende termen zijn niet toegestaan in een SharePoint-taxonomie. Elke SharePoint-taxonomie: begrip moet een SharePoint-taxonomie: bovenliggende of de SharePoint-taxonomie zijn: topLevelTermOf een Termenset.
+- SharePoint-taxonomie biedt geen ondersteuning voor associatierelaties.
+- SharePoint-taxonomie is alleen geschikt voor 2 typen hiërarchische relaties: SharePoint-taxonomie: bovenliggende en SharePoint-taxonomie: onderliggend. 
+- In tegenstelling tot [SKOS](https://www.w3.org/TR/skos-primer/) de hiërarchische relatie in de SharePoint-taxonomie-vocabulaire, kan de hiërarchische relatie alleen tot stand worden gebracht met termen binnen de Termenset.
 
 ## <a name="see-also"></a>Zie ook
 
-[Een termenset importeren met een op SKOS gebaseerde indeling](import-term-set-skos.md)
+[Een termenset met een SKOS-indeling importeren](import-term-set-skos.md)
 

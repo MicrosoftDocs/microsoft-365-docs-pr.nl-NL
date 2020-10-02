@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Meer informatie over het beheren van Microsoft 365 groepen, waaronder het toevoegen van groepsleden, het bewerken van het e-mailadres, de naam van de groep of beschrijving en het aanpassen van de werking van de groep.
-ms.openlocfilehash: 26c6c064e454351366c326e665bacdcc9bb855fb
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 29eaa762116498799d4156b58c8f9bf466f04073
+ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307299"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48343269"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Een groep beheren in het Microsoft 365-Beheercentrum
 
@@ -122,7 +122,7 @@ Groepsleden kunnen zich afmelden voor het ontvangen van deze e-mailberichten doo
 
 3. Selecteer op het tabblad **instellingen** de optie **kopieën van groepsgesprekken en gebeurtenissen verzenden naar groepsleden** als u wilt dat leden kopieën van groeps berichten en agenda-items in hun eigen postvak in ontvangen.
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 ::: moniker-end
 
@@ -134,7 +134,7 @@ Groepsleden kunnen zich afmelden voor het ontvangen van deze e-mailberichten doo
 
 3. Schakel **kopieën van groepsgesprekken en gebeurtenissen verzenden naar de optie Postvak in van de groep leden** in **op aan** als u wilt dat leden kopieën van groeps berichten en agenda-items in hun eigen postvak in ontvangen.
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 ::: moniker-end
 
@@ -146,7 +146,7 @@ Groepsleden kunnen zich afmelden voor het ontvangen van deze e-mailberichten doo
 
 3. Schakel **kopieën van groepsgesprekken en gebeurtenissen verzenden naar de optie Postvak in van de groep leden** in **op aan** als u wilt dat leden kopieën van groeps berichten en agenda-items in hun eigen postvak in ontvangen.
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 ::: moniker-end
 
@@ -162,7 +162,7 @@ Deze optie is handig als u een zakelijk e-mailadres wilt hebben, bijvoorbeeld in
 
 3. Selecteer in de lijstbeheer centrum groepen de naam van de groep die u wilt wijzigen en selecteer vervolgens op het tabblad **instellingen** de optie **externe afzenders toestaan om deze groep te e-mailen**.
     
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 ::: moniker-end
 
@@ -174,7 +174,7 @@ Deze optie is handig als u een zakelijk e-mailadres wilt hebben, bijvoorbeeld in
     
 3. Stel de wisselknop **Toestaan dat personen buiten de organisatie e-mail sturen naar de groep** in op **Aan**.
     
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 ::: moniker-end
 
@@ -186,7 +186,7 @@ Deze optie is handig als u een zakelijk e-mailadres wilt hebben, bijvoorbeeld in
     
 3. Stel de wisselknop **Toestaan dat personen buiten de organisatie e-mail sturen naar de groep** in op **Aan**.
     
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
 ::: moniker-end
 
@@ -196,10 +196,10 @@ Deze optie is handig als u een zakelijk e-mailadres wilt hebben, bijvoorbeeld in
 
 [Gasttoegang tot Microsoft 365-groepen beheren](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
-[Het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen](choose-domain-to-create-groups.md)
+[Het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen](../../solutions/choose-domain-to-create-groups.md)
 
-[Toestaan dat leden namens een Microsoft 365-groep verzenden als of verzenden](allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[Toestaan dat leden namens een Microsoft 365-groep verzenden als of verzenden](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
 [Distributielijsten upgraden naar Microsoft 365-groepen](../manage/upgrade-distribution-lists.md)
 
-[Microsoft 365-groepen beheren met PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/powershell/manage-office-365-groups-with-powershell)
+[Microsoft 365-groepen beheren met PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)

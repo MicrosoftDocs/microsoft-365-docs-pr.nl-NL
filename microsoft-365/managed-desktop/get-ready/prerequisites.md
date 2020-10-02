@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1c03d9028205ea392bade15e6dec354bff0be96e
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: d5aaba3d1f8606ab69b360d5916a5c9a8a653a14
+ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235392"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48343281"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Vereisten voor Microsoft Managed Desktop
 
@@ -26,7 +26,7 @@ In dit onderwerp vindt u een overzicht van de vereisten voor de infrastructuur d
 
 Ziet | Vereiste gegevens
 --- | ---
-Licenties |Voor Microsoft Managed Desktop is een of meer van de volgende Microsoft 365-licenties (of equivalenten) nodig:<br>-Microsoft 365 E5<br>-Microsoft 365 E3 met de Microsoft 365 E5-beveiligingstoepassing<br><br>Zie [meer informatie over licenties](#more-about-licenses) in dit onderwerp voor meer informatie over de specifieke serviceplannen en hun rol in Microsoft Managed Desktop.<br>Zie [Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)voor meer informatie over beschikbare licenties.
+Licenties |Voor Microsoft Managed Desktop is de Microsoft 365 E3-licentie vereist met Microsoft Defender voor eindpunten en Azure Active Directory Premium 2 (of equivalenten).<br>Zie [meer informatie over licenties](#more-about-licenses) in dit onderwerp voor meer informatie over de specifieke service-abonnementen.<br>Zie [Microsoft 365 Licensing](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)voor meer informatie over beschikbare licenties.
 Connectivity |  Voor alle door Microsoft beheerde desktop apparaten is connectiviteit met talrijke service-eindpunten van het bedrijfsnetwerk vereist.<br><br>Voor de volledige lijst met vereiste IPs en Url's, raadpleegt u [Netwerkconfiguratie](../get-ready/network.md). 
 Microsoft Azure Active Directory |    Azure Active Directory (Azure AD) moet de bron van de autoriteit zijn voor alle gebruikersaccounts, of gebruikersaccounts moeten worden gesynchroniseerd vanuit de on-premises Active Directory met behulp van de nieuwste ondersteunde versie van Azure AD Connect.<br><br>[Enterprise State roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview) moet worden ingeschakeld voor Microsoft Managed desktop users.<br><br>Zie voor meer informatie [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect).<br><br>Zie voor meer informatie over ondersteunde versies van Azure AD Connect de [versiegeschiedenis van Azure AD Connect: versie release](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history).
 Verificatie |    Als Azure AD niet de bron is van primaire verificatie voor gebruikersaccounts, moet u een van deze opties configureren in azure AD Connect:<br>-Hash-synchronisatie van wachtwoord<br>Pass Through-verificatie<br>: Een externe identiteitsprovider (waaronder Windows Server ADFS en niet-Microsoft IDPs) geconfigureerd om aan de vereisten voor Azure AD-integratie te voldoen. Zie de [richtlijnen](https://www.microsoft.com/download/details.aspx?id=56843) voor meer informatie. <br><br>Bij het instellen van verificatieopties met Azure AD Connect, wordt ook aangeraden om het wachtwoord over te schrijven. Zie voor meer informatie [wachtwoord terugschrijven](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). <br><br>Als een externe identiteitsprovider wordt geïmplementeerd, moet u de oplossing valideren:<br>-Voldoet aan de vereisten voor Azure AD-integratie<br>-Ondersteuning voor voorwaardelijke toegang van Azure AD, dit is om MMD-apparaat-nalevingsbeleid in te schakelen<br>-Schakelt het registreren van apparaten en het gebruik van Microsoft 365-Services of functies die nodig zijn als onderdeel van Microsoft Managed Desktop <br><br>Zie [aanmeldingsopties voor Azure AD Connect-gebruikers](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin)voor meer informatie over verificatie-opties in azure AD.
@@ -38,20 +38,20 @@ Neem contact op met uw Microsoft-account beheerder als u klaar bent om aan de sl
 
 ## <a name="more-about-licenses"></a>Meer informatie over licenties
 
-Voor het Microsoft-beheer bureaublad zijn bepaalde licentieopties vereist. Deze opties zijn beschikbaar in diverse licentiepakketten, waarvan u een deel van de licentie hebt. In deze tabel ziet u de beschikbare opties die beschikbaar zijn voor de licenties en een overzicht van hun rol in Microsoft Managed Desktop.
+Voor het Microsoft-beheer bureaublad zijn bepaalde licentieopties vereist. Zie [Microsoft Managed Desktop Technologies](../intro/technologies.md) voor informatie over de manier waarop deze licenties worden gebruikt.
 
 > [!TIP]
 > U wordt aangeraden om de licentie [functie voor groepen op basis](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) van Azure Active Directory te gebruiken om deze licentieopties aan specifieke gebruikers toe te wijzen.
 
+- Azure Active Directory Premium P2
+- Microsoft Intune 
+- Windows 10 Enterprise  
+- Microsoft Defender voor eindpunt
+- Microsoft 365-apps voor ondernemingen
+- Microsoft Teams
+- [SharePoint Online, abonnement 2](https://www.microsoft.com/microsoft-365/sharepoint/compare-sharepoint-plans)
+- [Exchange Online Abonnement 2](https://www.microsoft.com/microsoft-365/exchange/compare-microsoft-exchange-online-plans) 
 
-
-|Licentieoptie |Beschikbaar in *deze* licentie producten |Hoe Microsoft Managed Desktop gebruikmaakt van dit|
-|-------------|-------------|-------------|
-|Azure Active Directory Premium P2     |-Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* -beveiligingstoepassing<br>-Enterprise Mobility + Security E5<br>-Enterprise Mobility + beveiligings E3<br>-Azure Active Directory Premium P2|  Toegang tot Microsoft-Cloud Services. kan auto pilot-apparaten registreren      |
-|Microsoft Intune | -Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* -beveiligingstoepassing<br>-Enterprise Mobility + Security E5<br>-Enterprise Mobility + beveiligings E3<br>-Microsoft intune  |  Noodzakelijk om apparaten te registreren, updates te implementeren en apparaten te beheren       |
-|Windows 10 Enterprise  |-Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* -beveiligingstoepassing<br>-Windows 10 Enterprise E3<br>-Windows 10 Enterprise E5 | Voorziet in Enterprise-functies van Windows 10       |
-|Microsoft Defender Advanced Threat Protection | -Microsoft 365 E5<br>-Microsoft 365 E3 + Microsoft 365 *E5* -beveiligingstoepassing<br>-Windows 10 Enterprise E5<br>-Microsoft Defender Advanced Threat Protection   |  Zorgt voor detectie, controle, signalering en respons op bedreigingen  |
-|Microsoft 365-apps voor ondernemingen  |-Microsoft 365 E5<br>-Microsoft 365 E3<br>-Office 365 E5<br>-Office 365 E3| Activeert Office en productiviteit en samenwerkingshulpmiddelen    |
 
 > [!TIP]
 > Uw Microsoft-account manager helpt u bij het beoordelen van uw huidige licenties en serviceplannen, en het meest efficiënte pad voor u achterhalen voor eventuele extra licenties of serviceplannen die u mogelijk nodig hebt, terwijl u het voorkomen van dubbele gegevens.

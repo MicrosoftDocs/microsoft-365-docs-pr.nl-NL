@@ -1,168 +1,164 @@
 ---
-title: Uitleg typen
+title: Uitlegtypen
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over uitleg typen in Microsoft SharePoint Syntex
-ms.openlocfilehash: f4f5dbc24bef57b1801f7df1b7e2fc7ef9b08116
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Meer informatie over uitlegtypen in Microsoft SharePoint Syntex
+ms.openlocfilehash: 7d78337fd91bc7e5a71bccd4867f019ae663417a
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295850"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321795"
 ---
-# <a name="introduction-to-explanation-types"></a>Inleiding tot uitleg typen
+# <a name="introduction-to-explanation-types"></a>Inleiding tot uitlegtypen
 
-Gebruik uitleg voor hulp bij het definiëren van de informatie die u wilt labelen en extraheren in uw document met de informatie over modellen voor Microsoft SharePoint Syntex. Wanneer u een uitleg maakt, moet u ervoor zorgen dat u een uitleg type selecteert. 
+Uitleg wordt gebruikt om de gegevens te definiëren die je wilt labelen en ophalen in je documentinformatie over modellen in Microsoft SharePoint Syntex. Bij het maken van een uitleg moet je een uitlegtype selecteren. In dit artikel vind je meer informatie over de verschillende uitlegtypen en hoe je deze kunt gebruiken. 
 
-Dit artikel helpt u inzicht te krijgen in de verschillende typen uitleg en hoe deze worden gebruikt.
-
-   ![Uitleg typen](../media/content-understanding/explanation-types.png) 
+   ![Uitlegtypen](../media/content-understanding/explanation-types.png) 
    
-Deze uitleg typen zijn beschikbaar:
+Deze uitlegtypen zijn beschikbaar:
 
-- **Woordgroepenlijst**: een lijst met woorden, woordgroepen, getallen of andere tekens die u kunt gebruiken in het document of de gegevens die u wilt ophalen. De tekstreeks die **verwijst** naar de tekstreeks, is bijvoorbeeld in alle medische verwijzingen die u identificeert.</br>
+- **Frasenlijst**: Lijst met woorden, woordgroepen, getallen of andere tekens die je kunt gebruiken in het document of de gegevens die je wilt ophalen. De tekenreeks **Verwijzen naar Doctor** wordt bijvoorbeeld gebruikt in medische verwijsdocumenten die je identificeert.</br>
 
-- **Patroon lijst**: een lijst met getallen, letters of andere tekens die u kunt gebruiken om de informatie die u extraheert te identificeren. U kunt bijvoorbeeld het **telefoonnummer** van de betreffende dokter extraheren uit elk document dat u identificeert voor de medische verwijzing.</br>
+- **Patroonlijst**: lijst patronen met getallen, letters of andere tekens die je kunt gebruiken om de gegevens te identificeren die je wilt ophalen. Je kunt bijvoorbeeld het **Telefoonnummer** van de verwijsarts extraheren uit medische verwijsdocumenten die je identificeert.</br>
 
-- **Proximity**: hierin wordt beschreven hoe u de uitleg dicht bij elkaar hebt. Zo wordt een patroon lijst voor een *straatnummer* direct weergegeven vóór de naam van de *straatnaam* , zonder tokens ertussen (u kunt verderop in dit artikel meer informatie over tokens vinden). 
+- **Proximity**: in dit artikel wordt beschreven hoe dicht toelichtingen bij elkaar liggen. Een patroonlijst van *straatnummer* wordt bijvoorbeeld direct weergeven voor de woordenlijst met *straatnamen* zonder tokens ertussen (je vind meer informatie over tokens verderop in dit artikel). Voor het type proximity moet je ten minste twee uitleggen in je model hebben, of de optie wordt uitgeschakeld. 
  
-## <a name="phrase-list"></a>Lijst met zinnen
+## <a name="phrase-list"></a>Woordenlijst
 
-Een beschrijving van de lijst met zinnen wordt meestal gebruikt voor het identificeren en classificeren van een document via uw model. Zoals beschreven in het voorbeeld van het *verwijzen van dokter* , is dit een reeks woorden, zinnen, getallen of tekens die consistent zijn in de documenten die u identificeert.
+Het uitlegtype van een woordenlijst wordt meestal gebruikt om een document te identificeren en te classificeren via je model. Zoals wordt beschreven in het labelvoorbeeld *Verwijzende arts*, is het een tekenreeks met woorden, woordgroepen, getallen of tekens die consequent voorkomen in de documenten die je wilt herkennen.
 
-Hoewel u geen behoefte hebt, kunt u een betere succesvolle beschrijving krijgen als de woordgroep die u vastlegt, op een consistente locatie in het document staat. Het label van de *verwijzings dokter* kan bijvoorbeeld consistent zijn in de eerste alinea van het document.
+Hoewel het geen eis is, kunt je je uitleg beter laten opvallen als de woordgroep die je wilt vastleggen zich op een consistente locatie in het document bevindt. Zo kan het label *Verwijzende arts* label zich in de eerste alinea van het document bevinden.
 
-Als hoofdlettergevoeligheid een vereiste is voor het identificeren van uw etiket, kunt u dit in uw uitleg opgeven door het selectievakje **alleen exact hoofdlettergebruik** in te schakelen.
+Als hoofdlettergevoeligheid een vereiste is bij het identificeren van je label, kun je met het woordenlijsttype in uw uitleg opgeven door het selectievakje **Alleen exacte kapitalisatie** in te schakelen.
 
-   ![Hoofdlettergevoeligheid](../media/content-understanding/case-sensitivity.png) 
+   ![Onderscheid tussen hoofdletters en kleine letters](../media/content-understanding/case-sensitivity.png) 
 
-## <a name="pattern-lists"></a>Patroon lijsten
+## <a name="pattern-lists"></a>Patroonlijsten
 
-Een patroon lijsttype is vooral handig als u een uitleg maakt waarmee informatie wordt geïdentificeerd en opgehaald uit een document. Dit wordt meestal weergegeven in verschillende notaties, zoals datums, telefoonnummers of creditcardnummers. Zo kan een datum worden weergegeven in verschillende notaties (1/1/2020, 1-1-2020, 01/01/20, 01/01/2020, 1 januari 2020, enzovoort). Door een patroon lijst te definiëren, wordt uw uitleg efficiënter gemaakt door eventuele variaties te vastleggen in de gegevens die u wilt identificeren en uitpakken. 
+Een patroonlijst is met name handig wanneer je een uitleg maakt waarmee gegevens uit een document worden geïdentificeerd en opgehaald. Deze worden meestal weergegeven in verschillende indelingen, zoals datums, telefoonnummers of creditcardnummers. Een datum kan bijvoorbeeld worden weergegeven in een aantal verschillende notaties (1/1/2020, 1-1-2020, 01/01/20, 01/01/2020, 1 januari 2020, enzovoort). Door een patroonlijst te definiëren, kun je je efficiënter identificeren door eventuele variaties in de gegevens vast te leggen die je probeert vast te stellen en op te halen. 
 
-Voor het voorbeeld van het **telefoonnummer** pakt u het telefoonnummer voor elke verzorgde dokter uit met alle medische Referral documenten die door het model worden geïdentificeerd. Wanneer u de uitleg maakt, selecteert u het lijsttype patroon om de verschillende opmaken toe te staan die u mogelijk verwacht te retourneren.
+Voor het voorbeeld **Telefoonnummer** moet je het telefoonnummer voor elke verwijzende arts ophalen uit alle medische verwijzingsdocumenten die door het model worden geïdentificeerd. Wanneer je de uitleg maakt, selecteer je het patroonlijsttype om de verschillende indelingen toe te staan die mogelijk naar verwachting worden geretourneerd.
 
-   ![Lijst met opvultekens voor telefoonnummers](../media/content-understanding/pattern-list.png)
+   ![Patroonlijst telefoonnummers](../media/content-understanding/pattern-list.png)
 
-Voor dit voorbeeld selecteert u het selectievakje **willekeurig cijfer uit 0-9** . Als u deze optie selecteert, wordt de waarde ' 0 ' in de lijst patroon herkend als een cijfer van 0 tot en met 9.
+Voor dit voorbeeld selecteer je het selectievakje **een cijfer uit 0-9**. Als je deze optie selecteert, wordt de waarde 0 tot en met 9 in de patroonlijst herkend als een willekeurige waarde van 0 tot en met 9.
 
-   ![Willekeurig cijfer uit 0-9](../media/content-understanding/digit-identity.png)
+   ![Een willekeurig cijfer van 0-9](../media/content-understanding/digit-identity.png)
 
-Als u een patroon lijst maakt met teksttekens, selecteert u ook de **letter van a-z** . Als u deze optie selecteert, wordt elk willekeurig teken dat in de lijst patroon wordt gebruikt, herkend als een willekeurig teken van ' a ' tot ' z '.
+Als je een patroonlijst maakt die teksttekens bevat, schakel je het selectievakje **Een letter van een-z** in. Als je deze optie inschakelt, wordt elk teken dat in de patroonlijst wordt gebruikt, elk teken van "a" tot en met "z" herkent.
 
-Als u bijvoorbeeld een lijst met **datum** patronen maakt en u er zeker van wilt zijn dat de datumnotatie *1 januari 2020* wordt herkend, moet u het volgende doen:
-- Voeg *AAA 0, 0000* en *AAA 00, 0000* toe aan de lijst patroon.
-- Zorg ervoor dat **de letter van a-z** ook is geselecteerd.
+Als je bijvoorbeeld een patroonlijst**Datum** maakt en je ervoor wilt zorgen dat een datumnotatie wordt ondersteund zoals *2020 1 januari*, moet je het volgende doen:
+- Voeg *AAA 0, 0000* en *AAA 00, 0000* aan de patroonlijst toe.
+- Zorg ervoor dat **Een willekeurige letter van a-z** is geselecteerd.
 
-   ![Een willekeurige letter van a-z](../media/content-understanding/any-letter.png)
+   ![Een letter van a-z](../media/content-understanding/any-letter.png)
 
-Daarnaast hebt u de mogelijkheid om het selectievakje **alleen exact hoofdlettergebruik** in te schakelen in de lijst patroon. Voor het voorbeeld van de datum als u de eerste letter van de maand moet worden gekapitaliseerd, moet u het volgende doen:
+Als je hoofdlettereisen in je patroonlijst hebt, kun je ook het selectievakje **Alleen exact hoofdlettergebruik** selecteren. Als de eerste letter van de maand moet worden gekapitaliseerd, moet je het volgende doen:
 
-- Voeg *AAA 0, 0000* en *AAA 00, 0000* toe aan de lijst patroon.
-- Zorg ervoor dat u ook **exact de juiste hoofdletters** selecteert.
+- Voeg *Aaa 0, 0000* en *AAA 00, 0000* aan de patroonlijst toe.
+- Zorg ervoor dat **Alleen exact hoofdlettergebruik**ook is geselecteerd.
 
    ![Alleen exact hoofdlettergebruik](../media/content-understanding/exact-caps.png)
 
 > [!NOTE]
-> In plaats van een uitleg van de patroon lijst handmatig te maken, gebruikt u de [uitleg bibliotheek]() om vooraf gemaakte patroon lijstsjablonen te gebruiken voor veelgebruikte patroon lijst, zoals *datum*, *telefoonnummer*, *creditcardnummer*, enzovoort. 
+> Gebruik in plaats van het handmatig maken van een uitleg voor patroonlijsten de [Uitlegbibliotheek]() voor het gebruik van vooraf gemaakte patroonlijstsjablonen voor een algemene patroonlijsten, zoals *datum*, *telefoonnummer*, *creditcardnummer*, enzovoort. 
 
-## <a name="proximity"></a>Buurt 
+## <a name="proximity"></a>Proximity 
 
-Het type uitleg bij de buurt helpt uw modelgegevens te identificeren door te definiëren hoe u een ander stuk van de gegevens wilt opslaan. In uw model hebt u bijvoorbeeld twee uitleg gedefinieerd met een naam voor het *adres* en het *telefoonnummer*van de klant. 
+Met het Proximity-uitlegtype kun je gegevens identificeren met behulp van de manier waarop je een ander stukje gegevens kunt identificeren. Bijvoorbeeld, zo heb je in je model twee verklaringen gedefinieerd waaraan zowel het *huisnummer* als *telefoonnummer*is toe te voegen. 
 
-U ziet ook dat telefoonnummers van klanten altijd voor het adres van de klant worden weergegeven. 
+Je ziet ook dat de telefoonnummers van klanten altijd voor het huisnummer worden weergegeven. 
 
 Alex Wilburn<br>
 555-555-5555<br>
-Eén Microsoft-manier<br>
+One Microsoft Way<br>
 Redmond, WA 98034<br>
 
-Gebruik de uitleg van de nabijheid van het nummer om aan te geven hoe ver u wilt dat het nummer van de telefoon wordt aangegeven in uw documenten.
+Gebruik de proximity-uitleg om te bepalen hoe ver de uitleg van een telefoonnummer is zodat u het huisnummer in je documenten beter kunt identificeren.
 
-   ![Uitleg over proximity](../media/content-understanding/proximity.png)</br>
+   ![Proximity-uitleg](../media/content-understanding/proximity.png)</br>
 
 #### <a name="what-are-tokens"></a>Wat zijn tokens?
 
-Als u het type proximity uitleg wilt gebruiken, begrijpt u wat een token is, aangezien het aantal tokens de afstand tussen de Proximity-uitleg en de een andere uitleg.  
+Voor het gebruik van het Proximity-uitlegtype moet je weten wat een token is, omdat het aantal tokens is hoe de proximity-uitleg de afstand tussen een verklaring en een andere meet.  
 
-Een token is een doorlopend bereik (geen spaties of leestekens) van letters en cijfers. Een spatie is geen token. Elk leesteken is een token. In de volgende tabel ziet u enkele voorbeelden van het bepalen van het aantal tokens in een woordgroep.
+Een token is een doorlopende reeks (geen spaties of interpunctie) van letters en cijfers. Een spatie is GEEN token. Elk leesteken is een token. In de volgende tabel zie je enkele voorbeelden van hoe je het aantal tokens in een woordgroep kunt vaststellen.
 
-|Zinnen|Aantal tokens|Uitleg|
+|Woordengroep|Aantal tokens|Uitleg|
 |--|--|--|
-|`Dog`|1|Eén woord zonder leestekens of spaties.|
-|`RMT33W`|1|Een record-locator-nummer. Het is mogelijk dat er cijfers en letters zijn, maar geen leestekens.|
-|`425-555-5555`|vijf|Een telefoonnummer. Elk interpunctie is één token, dus  `425-555-5555` moet u 5 tokens hebben:<br>`425`<br>`-`<br>`555`<br>`-`<br>`5555` |
-|`https://luis.ai`|7,5|`https`<br>`:`<br>`/`<br>`/`<br>`luis`<br>`.`<br>`ai`<br>|
+|`Dog`|1|Eén woord zonder leesteken of spatie.|
+|`RMT33W`|1|Een record locatornummer. Het mag cijfers en letters bevatten, maar geen leesteken.|
+|`425-555-5555`|5|Een telefoonnummer. Elk leesteken bestaat uit één token, zodat  `425-555-5555` 5 tokens zou zijn:<br>`425`<br>`-`<br>`555`<br>`-`<br>`5555` |
+|`https://luis.ai`|7|`https`<br>`:`<br>`/`<br>`/`<br>`luis`<br>`.`<br>`ai`<br>|
 
-#### <a name="configure-the-proximity-explanation-type"></a>Het uitleg type proximity configureren
+#### <a name="configure-the-proximity-explanation-type"></a>Het proximity-uitlegtype configureren
 
-Voor het voorbeeld moet u de nabijheids instelling configureren, zodat we het bereik van het aantal tokens opgeven dat door het *telefoon* *nummer wordt* uitgelegd.
+Voor het voorbeeld configureer je de proximity-instelling zodanig dat we het aantal tokens kunnen definiëren dat de*telefoonnummer*-uitleg afkomstig is van de*straatnummer*-uitleg.
 
-U ziet dat het minimale bereik 0 is omdat er geen tokens zijn tussen het telefoonnummer en het adres.
+Je ziet dat het minimumbereik „0“ is omdat er geen tokens zijn tussen het telefoonnummer en het huisnummer.
 
-Sommige telefoonnummers in de voorbeelddocumenten worden echter met *(mobiel)* toegevoegd.
+Sommige telefoonnummers in de voorbeelddocumenten worden echter toegevoegd met *(mobiel)*.
 
-Nestor Wilke<br>
+Wander Kuijken<br>
 111-111-1111 (mobiel)<br>
-Eén Microsoft-manier<br>
+One Microsoft Way<br>
 Redmond, WA 98034<br>
 
-Er zijn drie tokens in *(mobiele nummers)*:
+Er zijn drie tokens in *(mobiel)*:
 
-|Zinnen|Aantal tokens|
+|Woordengroep|Aantal tokens|
 |--|--|
 |(|1|
-|mobiele|3|
-|)|driefasig|
+|Mobiel|2|
+|)|3|
 
-Configureer de nabijheids instelling voor een bereik van 0 tot en met 3.
+Configureer de proximity-instelling voor een bereik van 0 tot en met 3.
 
    ![Voorbeeld van proximity](../media/content-understanding/proximity-example.png)</br>
 
-## <a name="use-the-explanation-library"></a>De uitleg bibliotheek gebruiken
+## <a name="use-explanation-templates"></a>Uitlegsjablonen gebruiken
 
-Hoewel u handmatig verschillende waarden voor de patroon lijst voor uw uitleg kunt toevoegen, kunt u het beste gebruikmaken van de vooraf gemaakte sjablonen die u aan u hebt verstrekt in de uitleg bibliotheek.
+Hoewel je handmatig verschillende waarden voor een patroonlijst kunt toevoegen voor je uitleg, is het veel eenvoudiger om de vooraf gemaakte sjablonen te gebruiken die in de uitlegbibliotheek worden aangeboden.
 
-In plaats van alle variaties voor *datum*handmatig toe te voegen, gebruikt u de sjabloon patroon lijst voor *datum*die al een aantal waarden voor patroon lijsten omvat:</br>
+Je kunt bijvoorbeeld in plaats van alle variaties voor *Datum*handmatig toe te voegen, de sjabloonlijst met patronen gebruiken voor *Datum*, die al een aantal waarden voor een patroonlijst bevat:</br>
 
-   ![Uitleg bibliotheek](../media/content-understanding/explanation-template.png)</br>
+   ![Uitlegbibliotheek](../media/content-understanding/explanation-template.png)</br>
  
-De uitleg bibliotheek bevat een aantal veelgestelde beschrijvingen van patroon lijsten, waaronder:</br>
+De uitlegbibliotheek bevat een aantal veelgebruikte beschrijvingen van de patroonlijst, waaronder:</br>
 
-- Einddatum</br>
+- Datum</br>
 - Datum (getal)</br>
-- Fase</br>
+- Tijd</br>
 - Nummer</br>
 - Telefoonnummer</br>
 - Postcode</br>
-- Eerste woord van de zin</br>
-- Credit Card</br>
+- Eerste woord of zin</br>
+- Creditcard</br>
 - Sofi-nummer</br>
 
-Houd er rekening mee dat de uitleg bibliotheek ook sjablonen bevat voor uitleg over de lijst met zinnen, waaronder:
-- Einde van de zin
-- Meerdere
+Let op: de uitlegbibliotheek bevat ook sjablonen voor verklaringen van een fraselijst, waaronder:
+- Afgelopen zin
+- Valuta
 
-#### <a name="to-use-a-template-from-the-explanation-library"></a>Een sjabloon uit de uitleg bibliotheek gebruiken
+#### <a name="to-use-a-template-from-the-explanation-library"></a>Een sjabloon gebruiken uit de uitlegbibliotheek
 
-1. Selecteer in het gedeelte **uitleg** van de **Train** -pagina van uw model de optie **Nieuw**en selecteer vervolgens **een sjabloon op basis van een sjabloon**.</br>
+1. Ga naar het gedeelte **Uitleg** van de **Train**-pagina van je model en selecteer **Nieuwe**en selecteer vervolgens **Van een sjabloon**.</br>
 
-   ![Maken op basis van sjabloon](../media/content-understanding/from-template.png)</br>
+   ![Van sjabloon maken](../media/content-understanding/from-template.png)</br>
 
-2.  Selecteer op de pagina met **uitleg sjablonen** de uitleg die u wilt gebruiken en selecteer vervolgens **toevoegen**.</br>
+2.  Selecteer op de pagina **Uitlegsjablonen** de uitleg die je wilt gebruiken en selecteer vervolgens **Toevoegen**.</br>
 
-       ![Een sjabloon selecteren](../media/content-understanding/phone-template.png)</br>
+       ![Selecteer een sjabloon](../media/content-understanding/phone-template.png)</br>
 
-3. De gegevens voor de sjabloon die u hebt geselecteerd, worden weergegeven op de pagina **een uitleg maken** . Bewerk, indien nodig, de naam van de uitleg en voeg items toe aan of verwijder ze uit de lijst patroon. </br> 
+3. De informatie voor de sjabloon die je hebt geselecteerd, wordt weergegeven op de **Een uitleg maken**. Bewerk zo nodig de naam van de uitleg en voeg items toe aan of te verwijderen uit de patroonlijst. </br> 
 
    ![Sjabloon bewerken](../media/content-understanding/phone-template-live.png)</br>
 
-4. Selecteer **Opslaan**wanneer u klaar bent.
+4. Selecteer **Opslaan** wanneer je klaar bent.
