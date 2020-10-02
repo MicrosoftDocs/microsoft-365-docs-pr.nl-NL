@@ -439,8 +439,6 @@
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Overzicht van beveiligingsdashboard
               href: ./office-365-security/security-dashboard.md
-            - name: Informatie over schadelijke bestanden bekijken
-              href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
         - name: Office 365 Advanced Threat Protection
           href: ./office-365-security/office-365-atp.md
           items:
@@ -452,19 +450,23 @@
               items:
                 - name: Instellingstaken voor Globale beheerders
                   items:
-                    - name: Beleid voor veilige koppelingen in ATP instellen
-                      href: ./office-365-security/set-up-atp-safe-links-policies.md
-                    - name: Beleid voor veilige bijlagen in ATP instellen
+                    - name: Beleid voor veilige bijlagen in Office 365 ATP instellen
                       href: ./office-365-security/set-up-atp-safe-attachments-policies.md
-                    - name: Een aangepaste lijst instellen met URL's die niet opnieuw mogen worden geschreven
-                      href: ./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md
-                    - name: Een aangepaste lijst met geblokkeerde URL's instellen
-                      href: ./office-365-security/set-up-a-custom-blocked-urls-list-atp.md
+                    - name: Beleid voor veilige koppelingen in Office 365 ATP instellen
+                      href: ./office-365-security/set-up-atp-safe-links-policies.md
+                    - name: Algemene instellingen voor veilige koppelingen in Office 365 ATP configureren
+                      href: ./office-365-security/configure-global-settings-for-safe-links.md
                 - name: Instellingstaken voor Rolbeheerders
                   items:
                     - name: 'ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
-            - name: Campagneweergaven
+            - name: Veilige bijlagen in Office 365 ATP
+              href: ./office-365-security/atp-safe-attachments.md
+            - name: 'ATP voor SharePoint, OneDrive en Microsoft Teams'
+              href: ./office-365-security/atp-for-spo-odb-and-teams.md
+            - name: Veilige koppelingen in Office 365 ATP
+              href: ./office-365-security/atp-safe-links.md
+            - name: Campagneweergaven in Office 365 ATP
               href: ./office-365-security/campaigns.md
             - name: Geautomatiseerd onderzoek en reactie
               items:
@@ -490,8 +492,6 @@
               href: ./office-365-security/view-reports-for-atp.md
             - name: De nieuwste aanvallen begrijpen met bedreigingsanalyse
               href: ./mtp/latest-attack-campaigns.md
-            - name: Wat de waarschuwingspagina's voor Veilige koppelingen in ATP betekenen
-              href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: Bedreigingsoverzichten gebruiken
               href: ./office-365-security/threat-trackers.md
             - name: Aanvalssimulator in Office 365 ATP
@@ -515,14 +515,6 @@
               items:
                 - name: Hoe geautomatiseerd onderzoek en reactie werkt
                   href: ./office-365-security/automated-investigation-response-office.md
-                - name: Hoe Veilige koppelingen in ATP werkt
-                  href: ./office-365-security/how-atp-safe-links-works.md
-                - name: Hoe Veilige bijlagen in ATP werkt
-                  href: ./office-365-security/how-atp-safe-attachments-works.md
-                - name: Dynamische bezorging en voorbeeld van details
-                  href: ./office-365-security/dynamic-delivery-and-previewing.md
-                - name: 'ATP voor SharePoint, OneDrive en Microsoft Teams'
-                  href: ./office-365-security/atp-for-spo-odb-and-teams.md
                 - name: Hoe bedreigingsonderzoek en -reactie werkt
                   href: ./office-365-security/office-365-ti.md
         - name: Beveiligingsincidentenbeheer
