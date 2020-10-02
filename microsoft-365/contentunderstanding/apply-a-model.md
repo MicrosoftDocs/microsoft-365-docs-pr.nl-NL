@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Informatie over het toepassen van een gepubliceerd model op een SharePoint-documentbibliotheek.
-ms.openlocfilehash: 8b7d6cf21f422ba54933c2d3ac29b4b34171059e
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 771b0f451d404c6e90f62091ca466bfaf34bae39
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322151"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338671"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Een documentbegripmodel toepassen in Microsoft SharePoint Syntex
 
@@ -84,4 +84,4 @@ Terwijl een toegepast model alle bestanden verwerkt die naar de documentbiblioth
 
 [Overzicht van documentbegrip](document-understanding-overview.md)
 
-[Een formulierverwerkingsmodel maken](create-a-form-processing-model.md)  
+

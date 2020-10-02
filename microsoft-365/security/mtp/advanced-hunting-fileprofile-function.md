@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3fc563c762e7cd00888665b63e66159e4d3d9612
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6d627dcf3d6ec8ca1d2aa76eab484361c25b529e
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196975"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338415"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -61,8 +61,8 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>Argumenten
 
-- **x** — kolom bestand-id voor gebruik: `SHA1` , `SHA256` , `InitiatingProcessSHA1` of `InitiatingProcessSHA256` ; functie gebruikt indien niet `SHA1` opgegeven
-- **y** : Beperk het aantal records tot rijk, 1-1000; functie gebruikt 100 indien niet opgegeven
+- **x**— kolom met bestands-id die moet worden gebruikt: `SHA1` , `SHA256` , `InitiatingProcessSHA1` of `InitiatingProcessSHA256` ; functie gebruikt `SHA1` indien niet opgegeven.
+- **y**: Beperk het aantal records tot rijk, 1-1000; functie gebruikt 100 indien niet opgegeven
 
 ## <a name="examples"></a>Voorbeelden
 
