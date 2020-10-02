@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bd621ec2b80d308ecd14c9bbbb782e371d3e460a
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 751cafe1993db151ff27ac4a66780a0ce10d69ee
+ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338359"
+ms.locfileid: "48341388"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Beheerde bureaublad apparaten van Microsoft 
 
@@ -56,14 +56,14 @@ De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt o
 
 | Model    | Minimum specificaties  | Aanvullende vereisten   | Archiefdatum   | Datum van pensionering   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [HP EliteBook 830/840/850 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-830-g7-notebook-pc-customizable-8pv71av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 5VS01AV | 30 nov 2021 | 30 nov 2024 |
-| [HP EliteBook x360 830 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g7-notebook-pc-p-1f6c0ut-aba-1) | 256 GB/Intel i5/8 GB RAM | SKU met 5VS01AV | 30 nov 2021 | 30 nov 2024 |
+| [HP EliteBook 830/840/850 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-830-g7-notebook-pc-customizable-8pv71av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ21AV | 30 nov 2021 | 30 nov 2024 |
+| [HP EliteBook x360 830 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g7-notebook-pc-p-1f6c0ut-aba-1) | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ21AV | 30 nov 2021 | 30 nov 2024 |
 | [HP Elite x2 G4-Tablet](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 GB/Intel i5/8 GB RAM | SKU met 5VS03AV | Dinsdag 31 juli 2021 | Dinsdag 31 juli 2024 |
-| [HP EliteBook x360 1030 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 GB/Intel i5/8 GB RAM | SKU met 5VS01AV | 30 augustus 2021 | 30 augustus 2024 |
-| [HP EliteBook x360 1040 G7](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1040-g7-notebook-pc-customizable-8wa57av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 5VS01AV| 30 augustus 2021 | 30 augustus 2024 |
+| [HP EliteBook x360 1030 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 GB/Intel i5/8 GB RAM | SKU met 8XW08AV | 30 augustus 2021 | 30 augustus 2024 |
+| [HP EliteBook x360 1040 G7](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1040-g7-notebook-pc-customizable-8wa57av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 8XW08AV| 30 augustus 2021 | 30 augustus 2024 |
 | [HP Elite DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ21AV | 31 maart 2021 | 31 maart 2024 |
 | [HP Z2 mini G5-werkstation](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 8QR48AV| 31 december 2021 | 31 december 2024 |
-| [HP ZBook 14u/15u G6 mobiele workstation](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8 GB RAM | SKU met 5VS02AV, IR-camera vereist | 30 nov 2020 | 30 nov 2023 |
+| [HP ZBook 14u/15u G6 mobiele workstation](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8 GB RAM | SKU met 9JD63AV, IR-camera vereist | 30 nov 2020 | 30 nov 2023 |
 
 ### <a name="microsoft"></a>Microsoft
 
