@@ -1,56 +1,58 @@
 ---
-title: Documenten met uitleg over model gebruik
+title: Gebruiksanalyse documentbegripmodellen
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over het toepassen van een Bewaar label aan een document wat is het model
-ms.openlocfilehash: a07e60d575e616b3a2765011a4fba84b4cff21ff
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Informatie over het toepassen van een retentietag op een documentbegripmodel
+ms.openlocfilehash: 6f616dc3d2ebd87bcc70ee01c9f3a88db60b6f17
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295945"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337239"
 ---
-# <a name="document-understanding-model-usage-analytics"></a>Documenten met uitleg over model gebruik
+# <a name="document-understanding-model-usage-analytics"></a>Gebruiksanalyse documentbegripmodellen
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CSoL]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJY]  
 
 </br>
 
-Uw Microsoft SharePoint Syntex-inhouds centrum biedt u model gebruiksanalyse voor meer informatie over de manier waarop uw modellen die zijn gepubliceerd in het inhouds centrum, worden gebruikt. Dit omvat een samenvatting van de volgende informatie:
 
-- Waar de modellen worden toegepast
-- Hoeveel bestanden worden gedurende een bepaalde periode verwerkt
+U kunt analysemodellen gebruiken in uw Microsoft SharePoint Syntex-inhoudscentrum, voor meer informatie over de manier waarop de modellen die zijn gepubliceerd vanuit het inhoudscentrum worden gebruikt. Dit omvat een overzicht van de volgende informatie:
 
- ![Model analyse](../media/content-understanding/model-analytics.png) </br>
+- Waar uw modellen worden toegepast
+- Hoeveel modellen er in de loop der tijd worden verwerkt
 
-## <a name="total-model-percentage"></a>Totaal model percentage
+ ![Modelanalyse](../media/content-understanding/model-analytics.png) </br>
 
-   ![Totaal model percentage](../media/content-understanding/total-model-percentage.png) </br>
+## <a name="total-model-percentage"></a>Percentage van alle modellen
 
-In het cirkeldiagram **totale model percentage** wordt elk gepubliceerd model weergegeven als een percentage van het totaal aantal bestanden dat is verwerkt door alle gepubliceerde modellen op het inhouds centrum.
+   ![Percentage van alle modellen](../media/content-understanding/total-model-percentage.png) </br>
 
-Elk model bevat ook het percentage van de **voltooiingsgraad**, het percentage van de geüploade bestanden die zijn geanalyseerd door het model. Het percentage van het percentage van de afname kan betekenen dat er problemen zijn met het model of de bestanden die worden geanalyseerd.
+Het cirkeldiagram **Percentage van alle modellen** geeft elk gepubliceerd model weer als een percentage van het totale aantal bestanden dat is verwerkt door alle gepubliceerde modellen in het inhoudscentrum.
 
-## <a name="files-processed-over-time"></a>Bestanden die zijn verwerkt in de loop van de tijd
+Voor elk model wordt ook de **Voltooiingspercentage** weergeven, oftewel het percentage geüploade bestanden dat door het model is geanalyseerd. Een laag voltooiingspercentage kan betekenen dat er problemen zijn met het model of de bestanden die worden geanalyseerd.
+
+## <a name="files-processed-over-time"></a>Verwerkte bestanden in de loop der tijd
 
    ![Verwerkte bestanden](../media/content-understanding/files-processed-over-time.png) </br>
 
-Bij de bestanden die zijn **verwerkt via het tijd** staafdiagram ziet u niet alleen het aantal bestanden dat is verwerkt in de loop van de tijd voor elk model, maar worden ook de documentbibliotheken weergegeven waarop het model is toegepast.
+Het staafdiagram **Verwerkte bestanden in de loop der tijd** geeft niet alleen het aantal bestanden weer dat in de loop der tijd is verwerkt door elk model, maar ook de documentbibliotheken waarop het model is toegepast.
 
    ![Staafdiagram](../media/content-understanding/bar-chart-models.png) </br>
 
 ## <a name="see-also"></a>Zie ook
-[Een classificatie maken](create-a-classifier.md)</br>
-[Een extractor maken](create-an-extractor.md)</br>
-[Overzicht van document](document-understanding-overview.md)</br>
-[Een formulier verwerkings model maken](create-a-form-processing-model.md)  
+[Een classificatie maken](create-a-classifier.md)
+
+[Een extractor maken](create-an-extractor.md)
+
+[Overzicht van documentbegrip](document-understanding-overview.md)
+
+[Een formulierverwerkingsmodel maken](create-a-form-processing-model.md)  
