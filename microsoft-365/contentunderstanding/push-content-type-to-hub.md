@@ -9,14 +9,21 @@ ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 03e1be51b35447376be5adfc2f2cd3c944cf89fa
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 6adaef77f6989d541f8028252c5bb1ec7db7a6fc
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321335"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337191"
 ---
 # <a name="push-content-types-to-a-hub"></a>Inhoudstypen naar een hub pushen
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GyeV]  
+
+</br>
+
 
 Als u belangrijke inhoudstypen op consistente wijze beschikbaar wilt maken voor SharePoint-bibliotheken en -lijsten, kunt u deze naar de gewenste hubs pushen. Hiermee worden ze automatisch toegevoegd aan nieuwe lijsten en bibliotheken die zijn gemaakt op de sites die zijn gekoppeld aan de hub, en op nieuwe sites die worden toegevoegd aan de hub.
 

@@ -1,5 +1,5 @@
 ---
-title: Gebruikers Tags
+title: Gebruikerslabels in Office 365 ATP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,15 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u specifieke groepen gebruikers kunt identificeren met gebruikers Tags in Oiffce 365 ATP-abonnement 2. Labels filteren is beschikbaar via waarschuwingen, rapporten en onderzoeken in Office 365 ATP om snel de gecodeerde gebruikers te identificeren.
-ms.openlocfilehash: d47c5c00e3cf0362c44aebc18d11db4bba68a149
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+description: Beheerders kunnen leren hoe ze bepaalde groepen gebruikers identificeren met gebruikers Tags in Office 365 ATP abonnement 2. Labels filteren is beschikbaar via waarschuwingen, rapporten en onderzoeken in Office 365 ATP om snel de gecodeerde gebruikers te identificeren.
+ms.openlocfilehash: 9522499b3861f0f0e44fcbf09896a5c93feed95d
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48210024"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337251"
 ---
-# <a name="user-tags-in-the-microsoft-security-center"></a>Gebruikers Tags in het Microsoft-Beveiligingscentrum
+# <a name="user-tags-in-office-365-atp"></a>Gebruikerslabels in Office 365 ATP
 
 Gebruikers Tags zijn id's voor specifieke groepen gebruikers in [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md). [Prioriteit accounts](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) vormen een type gebruikers label. Als uw organisatie gebruikmaakt van Office 365 ATP (abonnement 2) (opgenomen in uw abonnement of als een invoegtoepassing), kunt u ook aangepaste gebruikers Tags maken en de tag met de prioriteits accounts gebruiken.
 
@@ -33,11 +33,11 @@ Wanneer u Tags toepast op specifieke gebruikers, kunt u deze codes gebruiken als
 - [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
 - [Campagneweergaven](campaigns.md)
 
-In dit artikel wordt uitgelegd hoe u gebruikers Tags configureert in het Beveiligingscentrum.
+In dit artikel wordt uitgelegd hoe u gebruikers Tags kunt configureren in de beveiligings & nalevings centrum. De beveiligings & bevat geen cmdlets voor het beheren van gebruikers Tags.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligingscentrum op <https://security.microsoft.com/> . Als u rechtstreeks naar de pagina **gebruikers Tags** wilt gaan, opent u deze <https://security.microsoft.com/securitysettings/userTags> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **gebruikers Tags** wilt gaan, opent u deze <https://protection.office.com/userTags> .
 
 - Als u gebruikers tags wilt maken, wijzigen of verwijderen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** in het beveiligings & nalevings centrum. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
@@ -45,7 +45,7 @@ In dit artikel wordt uitgelegd hoe u gebruikers Tags configureert in het Beveili
 
 ## <a name="use-the-security-center-to-create-user-tags"></a>Beveiligingscentrum gebruiken om gebruikers Tags te maken
 
-1. Ga in het Beveiligingscentrum naar **instellingen** \> **e-mail & samenwerkings** \> **gebruikers Tags**.
+1. Ga in het Beveiligingscentrum naar **Threat management** \> **gebruikers Tags**van Threat Management.
 
 2. Klik op de pagina **gebruikers Tags** die wordt geopend op **tag maken**.
 
@@ -79,7 +79,7 @@ In dit artikel wordt uitgelegd hoe u gebruikers Tags configureert in het Beveili
 
 ## <a name="use-the-security-center-to-view-user-tags"></a>Beveiligingscentrum gebruiken om gebruikers Tags weer te geven
 
-1. Ga in het Beveiligingscentrum naar **instellingen** \> **e-mail & samenwerkings** \> **gebruikers Tags**.
+1. Ga in het Beveiligingscentrum naar **Threat management** \> **gebruikers Tags**van Threat Management.
 
 2. Selecteer op de pagina **gebruikers Tags** die wordt geopend, de gebruikerscode die u wilt weergeven (Klik op het selectievakje niet).
 
@@ -89,7 +89,7 @@ In dit artikel wordt uitgelegd hoe u gebruikers Tags configureert in het Beveili
 
 ## <a name="use-the-security-center-to-modify-user-tags"></a>Beveiligingscentrum gebruiken om gebruikers Tags te wijzigen
 
-1. Ga in het Beveiligingscentrum naar **instellingen** \> **e-mail & samenwerkings** \> **gebruikers Tags**.
+1. Ga in het Beveiligingscentrum naar **Threat management** \> **gebruikers Tags**van Threat Management.
 
 2. Selecteer op de pagina **gebruikers Tags** die wordt geopend, de gebruikerscode die u wilt weergeven en klik vervolgens op **code bewerken**.
 
@@ -101,6 +101,6 @@ In dit artikel wordt uitgelegd hoe u gebruikers Tags configureert in het Beveili
 
 **Opmerking**: u kunt de code van het ingebouwde **prioriteits account** niet verwijderen.
 
-1. Ga in het Beveiligingscentrum naar **instellingen** \> **e-mail & samenwerkings** \> **gebruikers Tags**.
+1. Ga in het Beveiligingscentrum naar **Threat management** \> **gebruikers Tags**van Threat Management.
 
 2. Selecteer op de pagina **gebruikers Tags** die wordt geopend, de gebruikerscode die u wilt verwijderen, klik op **markering verwijderen**en selecteer vervolgens **Ja, verwijderen** in de waarschuwing die verschijnt.

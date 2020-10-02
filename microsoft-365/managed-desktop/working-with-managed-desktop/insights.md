@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6b19c5cd1766c07e106897cefeb495f1b98bb548
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: b3ed56dd3e669dbd5a2c3f09d87dfd87fe680aff
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104386"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337179"
 ---
 # <a name="work-with-insights"></a>Werken met inzichten
 
@@ -31,9 +31,9 @@ Met deze dashboards vindt u antwoorden op vragen, zoals:
 - Wat is de huidige status van beveiligingsupdates op apparaten?
 - Hoe lang duurt het voor 95% van de apparaten om actuele informatie te vinden met de nieuwste beveiligingsupdate?
 
-Voor toegang tot deze weergaven vanuit [Microsoft Endopint Manager](https://endpoint.microsoft.com/), nvaigate u naar het Microsoft beheerde bureaublad tabblad op de startpagina en selecteert u **Details weergeven** in het gebied **rapporten** :
+Als u deze weergaven wilt gebruiken vanaf [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), gaat u naar het Microsoft beheerde bureaublad tabblad op de startpagina en selecteert u **Details weergeven** in het gebied **rapporten** :
 
-<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->!
+<!--Update picture to show in MEM [Admin center with Reports area in the upper right including the device reports card and the "view details" link.](../../media/insights_overview.png)-->
 
 
 ## <a name="usage-insights"></a>Inzichten in gebruik
@@ -54,7 +54,6 @@ In deze weergave ziet u informatie over het energieverbruik van apps en de gepro
 Meer informatie over [batterij inzichten](battery-insights.md).
 
 ## <a name="windows-security-update-insights"></a>Inzichten in Windows-beveiligingsupdates
-
-In deze weergave ziet u informatie over de status van beveiligingsupdates voor uw door Microsoft beheerde bureaublad apparaten. Als u deze gegevens wilt weergeven, selecteert u het tabblad **Windows beveiligings udates** .
+In deze weergave ziet u informatie over de status van beveiligingsupdates voor uw door Microsoft beheerde bureaublad apparaten. Als u deze gegevens wilt weergeven, selecteert u het tabblad **Windows-beveiligingsupdates** .
 
 Meer informatie over [beveiligingsupdate inzichten](security-update-insights.md).

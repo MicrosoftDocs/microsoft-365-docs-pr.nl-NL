@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over Microsoft 365 groepen.
-ms.openlocfilehash: 711ab7e7818b266d7cbdbe076e30355d29bc3eeb
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 5d85204687641e74f9a705162df01cebd7eeee26
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307263"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337167"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Overzicht van Microsoft 365 groepen voor beheerders
 
@@ -76,7 +76,7 @@ De volgende limieten gelden voor Microsoft 365 groepen:
 |Groepen die een gebruiker kan maken|250|
 |Groepen die een beheerder kan maken|Tot standaard Tenant limiet van 500K|
 |Aantal leden|Meer dan 1.000, hoewel alleen 1.000 de groepsgesprekken tegelijkertijd kunnen openen. <br>Gebruikers kunnen vertraging ondervinden bij het openen van de agenda en gesprekken in zeer grote groepen in Outlook.|
-|Aantal groepen waarvan een gebruiker lid kan zijn|1.000|
+|Aantal groepen waarvan een gebruiker lid kan zijn|7.000|
 |Bestandsopslag|1 terabyte + 10 GB per geabonneerde gebruiker + extra aangeschafte opslagruimte. U kunt een onbeperkte hoeveelheid extra opslagruimte aanschaffen.|
 |Grootte van groeps Postvak|50 GB|
 

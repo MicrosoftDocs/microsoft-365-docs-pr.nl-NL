@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: Beheerders kunnen de functie voor veilige bijlagen in Office 365 Advanced Threat Protection (ATP) leren kennen.
-ms.openlocfilehash: 6ff356f34f3e44752b5ad7f5fa433a8c72cd5083
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c3dd64ce6f1d50cf30dfcc33f17021904791912c
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326529"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337203"
 ---
 # <a name="safe-attachments-in-office-365-atp"></a>Veilige bijlagen in Office 365 ATP
 
@@ -108,9 +108,7 @@ Hier volgen enkele aandachtspunten voor dynamische bezorgings-en doorgestuurde b
 
 - Als de doorgestuurde geadresseerde niet is beveiligd door een beleid voor veilige bijlagen, worden de berichten en bijlagen afgeleverd zonder dat ze afbeeldingen voor veilige bijlagen of tijdelijke aanduidingen voor bijlagen worden gescand.
 
-## <a name="scenarios-where-safe-attachments-doesnt-scan-messages"></a>Scenario's waarbij veilige bijlagen geen berichten scant
-
-Er zijn scenario's waarin veilige bijlagen geen berichten kunnen scannen:
+Er zijn scenario's waarin de dynamische levering geen bijlagen in berichten kan vervangen. Dit scenario omvat:
 
 - Berichten in openbare mappen.
 
@@ -126,7 +124,7 @@ Er zijn scenario's waarin veilige bijlagen geen berichten kunnen scannen:
 
 - [S/MIME)](s-mime-for-message-signing-and-encryption.md) versleutelde berichten.
 
-- U hebt de actie voor dynamische bezorging geconfigureerd in een veilig bijlage beleid, maar de geadresseerde biedt geen ondersteuning voor dynamische bezorging (de ontvanger is bijvoorbeeld een postvak in een on-premises Exchange-organisatie). Met [veilige koppelingen in Office 365 ATP](set-up-atp-safe-links-policies.md) kunt u echter wel Office-bestandsbijlagen met url's zoeken (afhankelijk van de manier waarop de veilige koppelingen zijn geconfigureerd).
+- U hebt de actie voor dynamische bezorging geconfigureerd in een veilig bijlage beleid, maar de geadresseerde biedt geen ondersteuning voor dynamische bezorging (de ontvanger is bijvoorbeeld een postvak in een on-premises Exchange-organisatie). Met [veilige koppelingen in Office 365 ATP](set-up-atp-safe-links-policies.md) kunt u echter wel Office-bestandsbijlagen met url's zoeken (afhankelijk van de manier waarop de [algemene instellingen voor veilige koppelingen](configure-global-settings-for-safe-links.md) zijn geconfigureerd).
 
 ## <a name="submitting-files-for-malware-analysis"></a>Bestanden voor de analyse van malware indienen
 

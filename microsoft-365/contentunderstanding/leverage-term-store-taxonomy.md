@@ -9,14 +9,21 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: De taxonomie van een termenarchief gebruiken bij het maken van een extractor in uw documentbegripmodel in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 457cab51f8dd19e95707801f793cdf2aa267d18f
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: f7219f6facc1d29242f7bd52743da92e13de3b89
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321290"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337275"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>De taxonomie van een termenarchief gebruiken bij het maken van een extractor
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJJ]  
+
+</br>
+
 
 Wanneer u een extractor maakt in uw documentbegripmodel in SharePoint Syntex, kunt u gebruikmaken van de termenarchieftaxonomie [Beheerde metagegevensservices](https://docs.microsoft.com/sharepoint/managed-metadata#terms) om voorkeurstermen te bekijken voor de gegevens die u extraheert.  
 

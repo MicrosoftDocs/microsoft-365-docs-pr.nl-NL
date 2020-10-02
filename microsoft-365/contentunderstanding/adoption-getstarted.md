@@ -11,22 +11,22 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 83da50b3772b6adcb7977425bfcaa1b437bc6a68
-ms.sourcegitcommit: bf21a4caae0c01d93281744838f0aa50e1fb2a22
+ms.openlocfilehash: f6bb4f5e09adcb1be6323a5d3d182cc3d1bc6017
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324272"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337227"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex-acceptatie: aan de slag
 
-Denk na over de intelligente inhouds Services in Microsoft SharePoint Syntex, met drie gedeelten:
+U vindt meer informatie over de intelligente inhouds Services in SharePoint Syntex, met drie gedeelten:
 
 - Meer informatie **over:** het maken van niet-gecodeerde AI-modellen om gegevens van inhoud te classificeren en te extraheren, zodat ze automatisch metagegevens kunnen toepassen voor ontdekking en hergebruiken. Meer informatie over het [begrijpen van inhoud](document-understanding-overview.md).
 - **Inhoudsverwerking:** Automatiseren van de vastlegging, ingestie en categorisatie van inhoud en gestroomlijnd processen met behulp van energie automatisering. Meer informatie over [inhoudsverwerking](form-processing-overview.md).
 - **Inhouds naleving:** Beheer de inhoud en beheer deze om de beveiliging en governance te verbeteren met de integratie met Microsoft-gegevensbescherming.
 
-Met de nieuwe AI-Services en-functies kunt u de inhoud van de apps leren en classificeren met Microsoft SharePoint Syntex:
+Met de nieuwe AI-Services en-functies kunt u de inhoud van de apps met behulp van SharePoint Syntex samenstellen en classificeren.
 
 |Handmatige invoer| Formulierverwerking | Documenten begrijpen |
 |:-------|:--------|:--------|
@@ -34,7 +34,7 @@ Met de nieuwe AI-Services en-functies kunt u de inhoud van de apps leren en clas
 | Activiteit   | Vooraf gebouwd, automatisch   | Aangepast, bijgestaan   | Aangepast, compatibel |
 | Personen die het werk doen | In het bezit zijn van de experts van de materie. Inhoudstypen en metagegevens te vastleggen voor contracten, cv's, andere niet-gestructureerde documenten. | Kmo's zijn minder gemoeid. van aankooporders, toepassingen, andere semi-gestructureerde en gestructureerde documenten |
 
-In de volgende tabel wordt uitgelegd wat u kunt doen wanneer u Microsoft SharePoint Syntex:
+In de volgende tabel wordt uitgelegd wat u kunt doen wanneer u SharePoint Syntex gebruikt:
 
 | Formulierverwerking | Documenten begrijpen |
 |:-------|:-------|
@@ -46,14 +46,14 @@ Er zijn twee verschillende manieren om uw inhoud te begrijpen. Het modeltype dat
 
 | Formulierverwerking | Documenten begrijpen |
 |:-------|:-------|
-| Gemaakt op basis van documentbibliotheek | Aangemaakt in het inhouds centrum, onderdeel van Microsoft SharePoint Syntex |
+| Gemaakt op basis van documentbibliotheek | Aangemaakt in het inhouds centrum, onderdeel van SharePoint Syntex |
 | Model gemaakt met AI Builder | Model gemaakt in de eigen interface |
 | Gebruikt voor semi-gestructureerde bestandsindelingen | Wordt gebruikt voor niet-gestructureerde bestandsindelingen |
 | Instelbare Classifier | Train bare Classifier met optionele extracten |
 | Toegestaan voor één bibliotheek | Kan worden toegepast op meerdere bibliotheken |
 | Training voor PDF, JPG, PNG-indeling, totale hoeveelheid 50 MB/500 p | Training voor 5-10 PDF-, Office-of e-mail bestanden, met inbegrip van negatieve voorbeelden |
 
-Microsoft SharePoint Syntex is geïntegreerd met nalevings functies van Microsoft 365, zoals:
+SharePoint Syntex is geïntegreerd met compliance-functies van Microsoft 365, zoals:
 
 - Labels voor bewaarbeleid waarmee een record beleid wordt gedefinieerd op basis van de ouderdom van documenten of externe gebeurtenissen.
 - Coderings labels waarmee DLP, versleuteling, delen en regels voor voorwaardelijke toegang worden ingesteld.
@@ -62,12 +62,12 @@ Gebruikers kunnen labels toepassen of ze kunnen automatisch worden toegepast op 
 
 ## <a name="identify-pilot-business-scenarios-to-optimize"></a>Scenario's voor prototype bedrijven identificeren die u wilt optimaliseren
 
-Als u wilt voorbereiden voor het gebruik van Microsoft SharePoint Syntex in uw organisatie, moet u eerst inzicht krijgen in de scenario's waarin dit nuttig is. In dit geval kunt u bepalen welk model u nodig hebt en hoe u uw organisatie kunt structureren op basis van de locatie waar het model wordt toegepast. Hier volgen een paar scenario's waarin u kunt zien hoe u in een document kunt werken:
+Voor de voorbereiding voor het gebruik van SharePoint Syntex in uw organisatie moet u eerst inzicht krijgen in de scenario's waarin dit nuttig is. In dit geval kunt u bepalen welk model u nodig hebt en hoe u uw organisatie kunt structureren op basis van de locatie waar het model wordt toegepast. Hier volgen een paar scenario's waarin u kunt zien hoe u in een document kunt werken:
 
 - Inhoudsverwerking: contracten, overzichten van werk en andere Form-achtige documenten bewerken. Laat de formulieren opdoen, Train het model om de velden te begrijpen en toe te wijzen en voer vervolgens uw formulieren uit om automatisch de gegevens te verzamelen. Zie [overzicht van formulierverwerking](form-processing-overview.md)voor meer informatie.
 - Factuur analyse: Haal de relevante gegevens uit uw facturen op en zorg ervoor dat ze voldoen aan het beleid of worden afgehandeld.
 
-Denk na over manieren waarop Microsoft SharePoint Syntex uw organisatie kan helpen:
+Denk na over de manieren waarop SharePoint Syntex uw organisatie kan helpen:
 
 - Bedrijfsprocessen automatiseren
 - De nauwkeurigheid van zoeken verbeteren
@@ -75,7 +75,7 @@ Denk na over manieren waarop Microsoft SharePoint Syntex uw organisatie kan help
 
 ### <a name="form-processing-scenario-example"></a>Voorbeeld van scenario voor formulierverwerking
 
-U kunt bijvoorbeeld een proces instellen met behulp van Microsoft SharePoint Syntex en de functies voor automatiserings automatisering om facturen bij te houden en te bewaken.
+U kunt bijvoorbeeld een proces instellen met behulp van SharePoint Syntex en de functies voor automatiserings automatisering om facturen bij te houden en te bewaken.
 
 1. Een bibliotheek instellen voor het opslaan van de factuurdocumenten.
 1. Train het model om velden in de documenten te herkennen.
@@ -85,7 +85,7 @@ U kunt bijvoorbeeld een proces instellen met behulp van Microsoft SharePoint Syn
     - Er staat een factuur na de vervaldatum.
     - Een factuur is voor een bedrag dat groter is dan het automatisch goedkeuringsbedrag.
 
-![Facturen bijhouden en controleren met Microsoft SharePoint Syntex en Power Automatiseer](../media/content-understanding/process-invoices-flow.png)
+![Facturen bijhouden en controleren met behulp van SharePoint Syntex en Powers automatiseren](../media/content-understanding/process-invoices-flow.png)
 
 Wanneer u dit scenario automatiseert, kunt u het volgende doen:
 
@@ -102,7 +102,7 @@ Als ander voorbeeld kunt u een proces instellen voor de manier waarop contracten
 1. Wanneer het model is voltooid, past u het model toe op een bibliotheek waar u contracten kunt uploaden.
 1. Een Bewaar label toepassen op het datumveld, zodat contracten in de bibliotheek bewaard blijven voor de tijdsduur die uw organisatie nodig heeft voor contracten.
 
-![Contracten bijhouden en bijhouden met labels voor Microsoft SharePoint Syntex en bewaren](../media/content-understanding/process-contracts-flow.png)
+![Contracten bijhouden en bijhouden met labels van SharePoint Syntex en bewaren](../media/content-understanding/process-contracts-flow.png)
 
 Wanneer u dit scenario automatiseert, kunt u het volgende doen:
 
@@ -140,7 +140,7 @@ Waar worden de modellen gemaakt en toegepast? Zijn er bestaande processen of ops
 
 ## <a name="strategic-positioning"></a>Strategische plaatsing
 
-Werk met belanghebbenden om ervoor te zorgen dat ze zijn uitgelijnd op de strategie voor het gebruik van Microsoft SharePoint Syntex. Onderzoek en voer de volgende bronnen in voor hulp bij deze plaatsing:
+Werk met belanghebbenden om ervoor te zorgen dat ze zijn uitgelijnd op de strategie voor het gebruik van SharePoint Syntex. Onderzoek en voer de volgende bronnen in voor hulp bij deze plaatsing:
 
 - Bedrijfsresultaten:
   - Potentiële fiscale resultaten
@@ -170,7 +170,7 @@ Identificeer de belanghebbenden voor uw project.
 
 ## <a name="readiness-checklist"></a>Controlelijst voor gereedheidscontrole
 
-Als u wilt beginnen met de implementatie van Microsoft SharePoint Syntex (preview), moet u het volgende doen:
+Als u wilt beginnen met de implementatie van SharePoint Syntex, moet u het volgende doen:
 
 ![Gereedheids voor informatie over inhoud](../media/content-understanding/cu-adoption-readinesschecklist.png)
 
