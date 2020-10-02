@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: d8ac32436a0b825e6e649dd7a23e73cad9a17480
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e156967ff6e594503868f979e9c7f18b6bee02e2
+ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202219"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48327211"
 ---
 # <a name="office-365-advanced-threat-protection-atp"></a>Office 365 Advanced Threat Protection (ATP)
 
@@ -95,9 +95,9 @@ Met Office 365 ATP kan het beveiligingsteam van uw organisatie beveiliging confi
 
 Het beleid dat wordt gedefinieerd voor uw organisatie bepaalt het gedrag en beveiligingsniveau voor vooraf gedefinieerde bedreigingen. Beleidsopties zijn bijzonder flexibel. Het beveiligingsteam van uw organisatie kan bijvoorbeeld verfijnde bedreigingsbeveiliging instellen op gebruikers-, organisatie-, ontvanger- en domeinniveau. Het is belangrijk regelmatig uw beleid te controleren, omdat er dagelijks nieuwe bedreigingen en uitdagingen bijkomen.
 
-- **[Veilige bijlagen in ATP](atp-safe-attachments.md)**: biedt ‘zero-day’-bescherming om uw berichtensysteem te beveiligen, door e-mailbijlagen te controleren op schadelijke inhoud. Alle berichten en bijlagen die geen virus-/malwarehandtekening hebben, worden gerouteerd naar een speciale omgeving en vervolgens worden machine learning en analysetechnieken gebruikt om kwaadwillende inhoud te ontdekken. Als er geen verdachte activiteit wordt gevonden, wordt het bericht doorgestuurd naar het postvak. Zie [Beleid voor veilige bijlagen in ATP instellen in Office 365](set-up-atp-safe-attachments-policies.md) voor meer informatie.
+- **[Veilige bijlagen](atp-safe-attachments.md)**: biedt ‘zero-day’-bescherming om uw berichtensysteem te beveiligen, door e-mailbijlagen te controleren op schadelijke inhoud. Alle berichten en bijlagen die geen virus-/malwarehandtekening hebben, worden gerouteerd naar een speciale omgeving en vervolgens worden machine learning en analysetechnieken gebruikt om kwaadwillende inhoud te ontdekken. Als er geen verdachte activiteit wordt gevonden, wordt het bericht doorgestuurd naar het postvak. Zie [Beleid voor veilige bijlagen instellen](set-up-atp-safe-attachments-policies.md) voor meer informatie.
 
-- **[Veilige koppelingen in ATP ](atp-safe-links.md)**: biedt ‘time-of-click’-verificatie van URL’s in bijvoorbeeld e-mailberichten en Office-bestanden. De bescherming is continu en is van toepassing op uw berichten- en Office-omgeving. Koppelingen worden gescand op elke klik: veilige koppelingen blijven toegankelijk en schadelijke koppelingen worden dynamisch geblokkeerd. Zie [Beleid voor veilige koppelingen in ATP instellen in Office 365](set-up-atp-safe-links-policies.md) voor meer informatie.
+- **[Veilige koppelingen](atp-safe-links.md)**: biedt ‘time-of-click’-verificatie van URL’s in bijvoorbeeld e-mailberichten en Office-bestanden. De bescherming is continu en is van toepassing op uw berichten- en Office-omgeving. Koppelingen worden gescand op elke klik: veilige koppelingen blijven toegankelijk en schadelijke koppelingen worden dynamisch geblokkeerd. Zie [Beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.md) voor meer informatie.
 
 - **[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)**: beschermt uw organisatie wanneer gebruikers samenwerken en bestanden delen door schadelijke bestanden in teamsites en documentbibliotheken te identificeren en te blokkeren. Zie [Office 365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 

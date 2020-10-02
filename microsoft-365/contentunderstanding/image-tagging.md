@@ -6,29 +6,33 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-search.appverid: ''
+search.appverid: MET150
 localization_priority: Priority
 description: Meer informatie over afbeeldingen taggen in SharePoint Syntex
-ms.openlocfilehash: 38b9ad6823aa5f63a4ddec87bab7fec52a37f163
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 7b41422633934593de881bdb0c04f0a845a3fe5f
+ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295898"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321251"
 ---
 # <a name="image-tagging-in-sharepoint-syntex"></a>Afbeeldingen taggen in SharePoint Syntex
 
-Standaard is het basis taggen van afbeeldingen ingeschakeld voor SharePoint en OneDrive. Afbeeldingen die zijn geüpload naar een van beide locaties, worden automatisch gescand en toepasbare tags worden toegepast, indien beschikbaar, uit een lijst met 37-basistags. Gebruikers kunnen afbeeldingen zoeken via zoeken door de afbeeldingtags te zoeken.
+Met afbeeldingen taggen in SharePoint Syntex kunnen gebruikers afbeeldingen vinden door te zoeken op afbeeldingstags en werkstromen te maken op basis van afbeeldingstags. Standaard is het basis taggen van afbeeldingen ingeschakeld voor SharePoint en OneDrive. Afbeeldingen die zijn geüpload naar een van beide locaties, worden automatisch gescand en toepasbare tags worden toegepast, indien beschikbaar, uit een lijst met 37-basistags. Gebruikers kunnen afbeeldingen zoeken via zoeken door de afbeeldingtags te zoeken.
 
 Wanneer een gebruiker een afbeelding uploadt, wordt het tagproces automatisch uitgevoerd. Als een afbeelding wordt bewerkt, wordt het tagproces nogmaals uitgevoerd om de labels bij te werken.
 
-Gebruikers met machtigingen voor het afbeeldingsbestand kunnen de tags in het bestandsinformatie paneel of op de pagina met zoekresultaten zien en bewerken. Wanneer een gebruiker de labels van een afbeelding bewerkt, worden automatisch automatische tags op die afbeelding uitgevoerd. ook als deze is bewerkt.
+Gebruikers met machtigingen voor het afbeeldingsbestand kunnen de tags in het bestandsinformatie paneel of op de pagina met zoekresultaten zien en bewerken. Wanneer een gebruiker de labels van een afbeelding bewerkt, worden er niet langer automatische tags aan de afbeelding toegevoegd, ook niet als deze is bewerkt.
 
 Als u taggen uitschakelt, worden afbeeldingen niet meer automatisch getagd. Bestaande tags worden niet verwijderd.
 
+> [!NOTE]
+> Door het systeem gegenereerde tags kunnen veranderen bij veranderingen in de afbeelding of de tagging-technologie.
+
+
 ## <a name="configure-image-tagging"></a>Afbeelding taggen configureren
 
-U kunt taggen van afbeeldingen configureren in het Microsoft 365-beheercentrum.  
+Na het [instellen van SharePoint Syntex](set-up-content-understanding.md) kunt u taggen van afbeeldingen configureren in het Microsoft 365-beheercentrum.  
 
 Taggen van afbeeldingen in- of uitschakelen
 
@@ -45,7 +49,3 @@ Taggen van afbeeldingen in- of uitschakelen
 6. Klik op **Opslaan**.
 
     ![Schermafbeelding van besturingselement voor afbeeldingen taggen](../media/content-understanding/sharepoint-syntex-image-tagging-control.png)
-
-## <a name="see-also"></a>Zie ook
-
-[Instellen begrip van inhoud](set-up-content-understanding.md)
