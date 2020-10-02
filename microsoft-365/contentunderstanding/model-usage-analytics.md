@@ -1,56 +1,58 @@
 ---
-title: Documenten met uitleg over model gebruik
+title: Gebruiksanalyse documentbegripmodellen
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 10/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over het toepassen van een Bewaar label aan een document wat is het model
-ms.openlocfilehash: a07e60d575e616b3a2765011a4fba84b4cff21ff
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Informatie over het toepassen van een retentietag op een documentbegripmodel
+ms.openlocfilehash: 6f616dc3d2ebd87bcc70ee01c9f3a88db60b6f17
+ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295945"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337239"
 ---
-# <a name="document-understanding-model-usage-analytics"></a><span data-ttu-id="b30c2-103">Documenten met uitleg over model gebruik</span><span class="sxs-lookup"><span data-stu-id="b30c2-103">Document understanding model usage analytics</span></span>
+# <a name="document-understanding-model-usage-analytics"></a><span data-ttu-id="01d1e-103">Gebruiksanalyse documentbegripmodellen</span><span class="sxs-lookup"><span data-stu-id="01d1e-103">Document understanding model usage analytics</span></span>
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CSoL]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GpJY]  
 
 </br>
 
-<span data-ttu-id="b30c2-104">Uw Microsoft SharePoint Syntex-inhouds centrum biedt u model gebruiksanalyse voor meer informatie over de manier waarop uw modellen die zijn gepubliceerd in het inhouds centrum, worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b30c2-104">Your Microsoft SharePoint Syntex content center provides you model usage analytics to provide more information about how your models that have been published from the content center are being used.</span></span> <span data-ttu-id="b30c2-105">Dit omvat een samenvatting van de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="b30c2-105">This includes a roll-up of the following information:</span></span>
 
-- <span data-ttu-id="b30c2-106">Waar de modellen worden toegepast</span><span class="sxs-lookup"><span data-stu-id="b30c2-106">Where your models are being applied</span></span>
-- <span data-ttu-id="b30c2-107">Hoeveel bestanden worden gedurende een bepaalde periode verwerkt</span><span class="sxs-lookup"><span data-stu-id="b30c2-107">How many files are being processes over time</span></span>
+<span data-ttu-id="01d1e-104">U kunt analysemodellen gebruiken in uw Microsoft SharePoint Syntex-inhoudscentrum, voor meer informatie over de manier waarop de modellen die zijn gepubliceerd vanuit het inhoudscentrum worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="01d1e-104">Your Microsoft SharePoint Syntex content center provides you model usage analytics to provide more information about how your models that have been published from the content center are being used.</span></span> <span data-ttu-id="01d1e-105">Dit omvat een overzicht van de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="01d1e-105">This includes a roll-up of the following information:</span></span>
 
- ![Model analyse](../media/content-understanding/model-analytics.png) </br>
+- <span data-ttu-id="01d1e-106">Waar uw modellen worden toegepast</span><span class="sxs-lookup"><span data-stu-id="01d1e-106">Where your models are being applied</span></span>
+- <span data-ttu-id="01d1e-107">Hoeveel modellen er in de loop der tijd worden verwerkt</span><span class="sxs-lookup"><span data-stu-id="01d1e-107">How many files are being processes over time</span></span>
 
-## <a name="total-model-percentage"></a><span data-ttu-id="b30c2-109">Totaal model percentage</span><span class="sxs-lookup"><span data-stu-id="b30c2-109">Total model percentage</span></span>
+ ![Modelanalyse](../media/content-understanding/model-analytics.png) </br>
 
-   ![Totaal model percentage](../media/content-understanding/total-model-percentage.png) </br>
+## <a name="total-model-percentage"></a><span data-ttu-id="01d1e-109">Percentage van alle modellen</span><span class="sxs-lookup"><span data-stu-id="01d1e-109">Total model percentage</span></span>
 
-<span data-ttu-id="b30c2-111">In het cirkeldiagram **totale model percentage** wordt elk gepubliceerd model weergegeven als een percentage van het totaal aantal bestanden dat is verwerkt door alle gepubliceerde modellen op het inhouds centrum.</span><span class="sxs-lookup"><span data-stu-id="b30c2-111">The **Total model percentage** pie chart displays each published model as a percentage of the total files processed by all published models on the content center.</span></span>
+   ![Percentage van alle modellen](../media/content-understanding/total-model-percentage.png) </br>
 
-<span data-ttu-id="b30c2-112">Elk model bevat ook het percentage van de **voltooiingsgraad**, het percentage van de geüploade bestanden die zijn geanalyseerd door het model.</span><span class="sxs-lookup"><span data-stu-id="b30c2-112">Each model also shows the **Completeness Rate**, the percentage of uploaded files that were successfully analyzed by the model.</span></span> <span data-ttu-id="b30c2-113">Het percentage van het percentage van de afname kan betekenen dat er problemen zijn met het model of de bestanden die worden geanalyseerd.</span><span class="sxs-lookup"><span data-stu-id="b30c2-113">A low completeness rate may mean that there are issues with either the model or the files that are being analyzed.</span></span>
+<span data-ttu-id="01d1e-111">Het cirkeldiagram **Percentage van alle modellen** geeft elk gepubliceerd model weer als een percentage van het totale aantal bestanden dat is verwerkt door alle gepubliceerde modellen in het inhoudscentrum.</span><span class="sxs-lookup"><span data-stu-id="01d1e-111">The **Total model percentage** pie chart displays each published model as a percentage of the total files processed by all published models on the content center.</span></span>
 
-## <a name="files-processed-over-time"></a><span data-ttu-id="b30c2-114">Bestanden die zijn verwerkt in de loop van de tijd</span><span class="sxs-lookup"><span data-stu-id="b30c2-114">Files processed over time</span></span>
+<span data-ttu-id="01d1e-112">Voor elk model wordt ook de **Voltooiingspercentage** weergeven, oftewel het percentage geüploade bestanden dat door het model is geanalyseerd.</span><span class="sxs-lookup"><span data-stu-id="01d1e-112">Each model also shows the **Completeness Rate**, the percentage of uploaded files that were successfully analyzed by the model.</span></span> <span data-ttu-id="01d1e-113">Een laag voltooiingspercentage kan betekenen dat er problemen zijn met het model of de bestanden die worden geanalyseerd.</span><span class="sxs-lookup"><span data-stu-id="01d1e-113">A low completeness rate may mean that there are issues with either the model or the files that are being analyzed.</span></span>
+
+## <a name="files-processed-over-time"></a><span data-ttu-id="01d1e-114">Verwerkte bestanden in de loop der tijd</span><span class="sxs-lookup"><span data-stu-id="01d1e-114">Files processed over time</span></span>
 
    ![Verwerkte bestanden](../media/content-understanding/files-processed-over-time.png) </br>
 
-<span data-ttu-id="b30c2-116">Bij de bestanden die zijn **verwerkt via het tijd** staafdiagram ziet u niet alleen het aantal bestanden dat is verwerkt in de loop van de tijd voor elk model, maar worden ook de documentbibliotheken weergegeven waarop het model is toegepast.</span><span class="sxs-lookup"><span data-stu-id="b30c2-116">The **Files processed over time** bar chart shows you not only the number of files processed over time for each model, but also shows you the document libraries to which the model was applied.</span></span>
+<span data-ttu-id="01d1e-116">Het staafdiagram **Verwerkte bestanden in de loop der tijd** geeft niet alleen het aantal bestanden weer dat in de loop der tijd is verwerkt door elk model, maar ook de documentbibliotheken waarop het model is toegepast.</span><span class="sxs-lookup"><span data-stu-id="01d1e-116">The **Files processed over time** bar chart shows you not only the number of files processed over time for each model, but also shows you the document libraries to which the model was applied.</span></span>
 
    ![Staafdiagram](../media/content-understanding/bar-chart-models.png) </br>
 
-## <a name="see-also"></a><span data-ttu-id="b30c2-118">Zie ook</span><span class="sxs-lookup"><span data-stu-id="b30c2-118">See Also</span></span>
-[<span data-ttu-id="b30c2-119">Een classificatie maken</span><span class="sxs-lookup"><span data-stu-id="b30c2-119">Create a classifier</span></span>](create-a-classifier.md)</br>
-[<span data-ttu-id="b30c2-120">Een extractor maken</span><span class="sxs-lookup"><span data-stu-id="b30c2-120">Create an extractor</span></span>](create-an-extractor.md)</br>
-[<span data-ttu-id="b30c2-121">Overzicht van document</span><span class="sxs-lookup"><span data-stu-id="b30c2-121">Document Understanding overview</span></span>](document-understanding-overview.md)</br>
-[<span data-ttu-id="b30c2-122">Een formulier verwerkings model maken</span><span class="sxs-lookup"><span data-stu-id="b30c2-122">Create a form processing model</span></span>](create-a-form-processing-model.md)  
+## <a name="see-also"></a><span data-ttu-id="01d1e-118">Zie ook</span><span class="sxs-lookup"><span data-stu-id="01d1e-118">See Also</span></span>
+[<span data-ttu-id="01d1e-119">Een classificatie maken</span><span class="sxs-lookup"><span data-stu-id="01d1e-119">Create a classifier</span></span>](create-a-classifier.md)
+
+[<span data-ttu-id="01d1e-120">Een extractor maken</span><span class="sxs-lookup"><span data-stu-id="01d1e-120">Create an extractor</span></span>](create-an-extractor.md)
+
+[<span data-ttu-id="01d1e-121">Overzicht van documentbegrip</span><span class="sxs-lookup"><span data-stu-id="01d1e-121">Document Understanding overview</span></span>](document-understanding-overview.md)
+
+[<span data-ttu-id="01d1e-122">Een formulierverwerkingsmodel maken</span><span class="sxs-lookup"><span data-stu-id="01d1e-122">Create a form processing model</span></span>](create-a-form-processing-model.md)  
