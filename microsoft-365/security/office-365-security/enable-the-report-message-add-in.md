@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het inschakelen van de invoegtoepassing bericht rapporteren voor Outlook en de webversie van Outlook voor afzonderlijke gebruikers of voor de hele organisatie.
-ms.openlocfilehash: 2e9d6ae87d0f6da7721c5c86d904a836d4610a5e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 601e3850bf046f3a0c807976fd173a6e0ec7ce2a
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196607"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350621"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
@@ -54,7 +54,7 @@ Als u een globale beheerder of een beheerder van Exchange Online bent en Exchang
 
 - De invoegtoepassing bericht rapporteren is niet beschikbaar voor postvakken in on-premises Exchange-organisaties.
 
-- U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [een postvak opgeven voor het overzetten van gebruikers van spam en phishing-berichten in Exchange Online](user-submission.md).
+- U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).
 
 - De bestaande webbrowser moet werken met de invoegtoepassing bericht melden. Als u merkt dat de invoegtoepassing niet beschikbaar is of niet werkt zoals verwacht, kunt u een andere browser proberen.
 

@@ -7,7 +7,7 @@ author: msfttracyp
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Rapporten voor Office 365 Advanced Threat Protection zoeken en gebruiken in het beveiligings &amp; compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16fef101f722a23b3a64d91c85c2f946c67036f0
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 4f871432f29138acb8bee3a14b9bb161d87193e3
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328028"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48351033"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor Office 365 Advanced Threat Protection
 
@@ -91,7 +91,7 @@ Als u klikt op **Details tabel weergeven**, biedt het rapport een vrijwel realti
 
 - **Gegevens uit een bestand weergeven**:
 
-  - **Einddatum**
+  - **Datum**
   - **Adres van ontvanger**
   - **Adres afzender**
   - **Bericht-id**: beschikbaar in het veld **bericht-id-** header in de berichtkop en moet uniek zijn. Een Voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Let op de punthaken).
@@ -104,7 +104,7 @@ Als u klikt op **Details tabel weergeven**, biedt het rapport een vrijwel realti
 
 - **Gegevens weergeven op: bericht**:
 
-  - **Einddatum**
+  - **Datum**
   - **Adres van ontvanger**
   - **Adres afzender**
   - **Bericht-ID**
@@ -173,7 +173,7 @@ Als u klikt op **Details tabel weergeven**, biedt het rapport een vrijwel realti
 
 - **Gegevens weergeven op: bericht**:
 
-  - **Einddatum**
+  - **Datum**
   - **Adres van ontvanger**
   - **Adres afzender**
   - **Bericht-ID**
@@ -187,7 +187,7 @@ Als u klikt op **Details tabel weergeven**, biedt het rapport een vrijwel realti
 
 - **Gegevens uit een bestand weergeven**:
 
-  - **Einddatum**
+  - **Datum**
   - **Adres van ontvanger**
   - **Adres afzender**
   - **Bericht-ID**

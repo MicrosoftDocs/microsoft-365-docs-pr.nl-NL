@@ -7,7 +7,7 @@ author: MSFTTracyP
 manager: chrisda
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u spam stuurt naar mappen voor ongewenste E-mail in een Exchange Online Protection hybride omgeving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4c01ad0e8efa4d28e1b5d1e72b3daa87bb01b619
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 76003f18009ebf9159f01d916cdaf38b50a213d1
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196591"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350337"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Zelfstandige EOP configureren voor het afleveren van spam op de map Ongewenste E-mail in hybride omgevingen
 
@@ -51,7 +51,7 @@ In dit onderwerp wordt beschreven hoe u deze regels voor e-mail stroom kunt make
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U moet machtigingen voor de on-premises Exchange-omgeving worden toegewezen voordat u deze procedures kunt uitvoeren. Specifiek moet u de rol van **transport regels** toewijzen, die aan de rollen voor **Organisatiebeheer**, **Compliance Management**, en het **beheer van recordbeheer** standaard is toegewezen. Zie [leden aan een rollen groep toevoegen](https://docs.microsoft.com/Exchange/permissions/role-group-members?view=exchserver-2019#add-members-to-a-role-group)voor meer informatie.
+- U moet machtigingen voor de on-premises Exchange-omgeving worden toegewezen voordat u deze procedures kunt uitvoeren. Specifiek moet u de rol van **transport regels** toewijzen, die aan de rollen voor **Organisatiebeheer**, **Compliance Management**, en het **beheer van recordbeheer** standaard is toegewezen. Zie [leden aan een rollen groep toevoegen](https://docs.microsoft.com/Exchange/permissions/role-group-members#add-members-to-a-role-group)voor meer informatie.
 
 - Als en wanneer een bericht wordt bezorgd in de map Ongewenste E-mail in een on-premises Exchange-organisatie, wordt bepaald door een combinatie van de volgende instellingen:
 

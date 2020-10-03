@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -27,125 +27,125 @@ search.appverid:
 - ODB150
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
-description: Meer informatie over het gebruik van OneDrive en een teamsite voor het opslaan en delen van bestanden.
-ms.openlocfilehash: b92bbb96a2d5d2ccbb35eff430a810f92fd07892
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Meer informatie over het gebruik van OneDrive en een team site om bestanden op te slaan en te delen.
+ms.openlocfilehash: e6722dc7460a63878ba7fc6a15f6c384ca37e136
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778935"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350359"
 ---
 # <a name="set-up-file-storage-and-sharing"></a>Bestandsopslag en -deling instellen
 
-Een van de beste manieren om bestandsopslag en -delen voor uw bedrijf in te stellen, is door OneDrive en een teamsite samen te gebruiken. Dit is ideaal voor een klein bedrijf met een klein aantal medewerkers.
+Een van de beste methoden voor het opslaan en delen van bestanden voor uw bedrijf is door OneDrive en een team site samen te gebruiken. Dit is ideaal voor een klein bedrijf met een klein aantal medewerkers.
 
-Bekijk een korte video over waar u bestanden opslaan in Microsoft 365.<br><br>
+Bekijk een korte video over waar u bestanden kunt opslaan in Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
 Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="where-you-can-store-documents-in-microsoft-365"></a>Waar u documenten opslaan in Microsoft 365
+## <a name="where-you-can-store-documents-in-microsoft-365"></a>Waar u documenten kunt opslaan in Microsoft 365
 
-- OneDrive is ontworpen voor individueel gebruik, met af en toe het delen van bestanden. 
+- OneDrive is bedoeld voor individueel gebruik, met het af en toe delen van bestanden. 
 
-- Een teamsite is ontworpen om regelmatig bestanden te delen en samen te werken. Een teamsite is ideaal voor het opslaan van bestanden die eigendom hebben waarbij meerdere mensen eigenaar zijn van de bestanden en eraan kunnen samenwerken. Maak een Microsoft-team om een teamsite toe te voegen. [Meer informatie bij Een team maken in Teams](https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b).
+- Een team site is ontworpen om regelmatig bestanden te delen en samen te werken. Een team site is ideaal voor het opslaan van bestanden met een gedeelde eigendom, waarbij diverse personen de bestanden kunnen bewerken en hieraan kunnen samenwerken. Maak een Microsoft-team om een team site toe te voegen. [Meer informatie vindt u in een team maken in teams](https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b).
 
-Zowel OneDrive als teamsites bieden u en uw medewerkers overal toegang.
+OneDrive en team sites bieden overal toegang voor u en uw werknemers.
   
-![Een diagram dat laat zien hoe Microsoft 365-producten OneDrive- of Team-sites kunnen gebruiken](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
+![Een diagram waarin de manier blijkt waarop Microsoft 365-producten OneDrive of team sites kunnen gebruiken](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
-Hier volgen aanbevelingen voor wat u op elke locatie moet opslaan wanneer u OneDrive en teamsites samen gebruikt:
+Hier vindt u aanbevelingen voor wat u op elk van de locaties moet opslaan wanneer u OneDrive en team sites samen gebruikt:
   
 ||||
 |:-----|:-----|:-----|
 |**Opslaglocatie** <br/> |**Doel** <br/> |**Wat ik hier moet opslaan** <br/> |
-|**OneDrive** <br/> |Het opslaan van inhoud in OneDrive is als het opslaan van bestanden op uw computer. niemand anders kan gemakkelijk toegang tot hen.  <br/> Zie [Wat is OneDrive voor Bedrijven voor](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) meer informatie? <br/> |Bestanden voor uw werk waaraan andere teamleden niet regelmatig hoeven te werken of toegang toe hoeven te hebben.  <br/> |
-|**SharePoint-teamsites** <br/> |Samenwerking. Wanneer u een Microsoft 365-groep maakt (bijvoorbeeld in het Microsoft 365-beheercentrum, in Outlook of door een team in Microsoft Teams te maken), wordt voor die groep een SharePoint-teamsite gemaakt. Wanneer u een nieuwe SharePoint-teamsite maakt vanaf de Startpagina van SharePoint of vanuit het nieuwe SharePoint-beheercentrum, wordt er ook een Microsoft 365-groep gemaakt. Zie [Wat is een SharePoint-teamsite](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) en Maak een [teamsite in SharePoint Online](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)voor meer informatie.  <br/> |Bestanden die gedeeld eigendom hebben. We raden afzonderlijke teamsites aan voor elke werkeenheid in uw organisatie. Als u bijvoorbeeld personeel en financiële documenten privé wilt houden voor een klein team, maakt u een aparte teamsite.  <br/> |
+|**OneDrive** <br/> |Het opslaan van inhoud in OneDrive is vergelijkbaar met het opslaan van bestanden op uw computer. niemand anders kan deze eenvoudig openen.  <br/> Zie [Wat is OneDrive voor bedrijven?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) voor meer informatie. <br/> |Bestanden voor uw werk waaraan andere teamleden niet regelmatig hoeven te werken of toegang toe hoeven te hebben.  <br/> |
+|**SharePoint-teamsites** <br/> |Samenwerking. Wanneer u een Microsoft 365-groep maakt (bijvoorbeeld in het Microsoft 365-Beheercentrum, in Outlook of door een team in Microsoft teams te maken), wordt er een SharePoint-Team site gemaakt voor die groep. Ook wanneer u een nieuwe SharePoint-Team site maakt vanaf de SharePoint-startpagina of vanuit het nieuwe SharePoint-Beheercentrum, wordt er ook een groep Microsoft 365 gemaakt. Zie [Wat is een SharePoint-Team site?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) en [Maak een team site in SharePoint Online](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)voor meer informatie.  <br/> |Bestanden met gedeelde eigendom. U wordt aangeraden afzonderlijke team sites te onderscheiden voor elke hoeveelheid werk in uw organisatie. Als u bijvoorbeeld personeelsleden en financiële documenten privé wilt houden voor een klein team, maakt u een afzonderlijke team site.  <br/> |
 
 > [!NOTE]
-> SharePoint heeft ook andere soorten sites die u voor uw bedrijf gebruiken. U [communicatiesites](https://support.microsoft.com/office/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) in uw intranet gebruiken om informatie te publiceren voor een breed publiek. En u [hubsites](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f) gebruiken om sites in uw intranet met elkaar te verbinden.
+> SharePoint bevat ook andere soorten sites die u voor uw bedrijf kunt gebruiken. U kunt [Communicatiesites](https://support.microsoft.com/office/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) in uw intranet gebruiken om informatie te publiceren voor een breed publiek. U kunt ook [hub-sites](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f) gebruiken om sites te verbinden met uw intranet.
   
-## <a name="start-using-onedrive-and-your-team-site"></a>OneDrive en uw teamsite gebruiken
+## <a name="start-using-onedrive-and-your-team-site"></a>OneDrive en uw team site gaan gebruiken
 
-### <a name="team-members-can-store-their-own-files-in-onedrive"></a>Teamleden kunnen hun eigen bestanden opslaan in OneDrive
+### <a name="team-members-can-store-their-own-files-in-onedrive"></a>Team leden kunnen hun eigen bestanden opslaan in OneDrive
 
-Elke persoon in uw bedrijf die een Microsoft 365-licentie heeft toegewezen (en SharePoint Online is geselecteerd) krijgt OneDrive-cloudopslag. Ze kunnen hier zakelijke bestanden opslaan voor toegang vanaf elk apparaat en ze zijn alleen beschikbaar voor die gebruiker. Ze kunnen hier bijvoorbeeld een conceptversie van een offerte, hun vergadernotities of een script opslaan voor een demo die ze gaan geven.
+Iedereen in uw bedrijf aan wie een Microsoft 365-licentie is toegewezen (en SharePoint Online is geselecteerd) krijgt de cloudopslag van OneDrive. Ze kunnen bedrijfs gerelateerde bestanden hier bewaren voor toegang vanaf elk apparaat en ze zijn alleen beschikbaar voor die gebruiker. Ze kunnen hier bijvoorbeeld een conceptversie van een offerte, hun vergadernotities of een script opslaan voor een demo die ze gaan geven.
   
-Werknemers kunnen ook OneDrive-bestanden en -mappen delen. Als een werknemer afwezig is of het bedrijf verlaat, hebben anderen toegang tot gedeelde bestanden die zijn opgeslagen in OneDrive.
+Werknemers kunnen ook OneDrive-bestanden en-mappen delen. Als een werknemer niet aanwezig is of het bedrijf verlaat, hebben anderen toegang tot gedeelde bestanden die zijn opgeslagen in OneDrive.
   
-Zo kan elke persoon in uw team OneDrive instellen en bestanden delen.
+U kunt als volgt de afzonderlijke personen in uw team OneDrive instellen en bestanden delen.
 
-1. Ga naar de <a href="https://portal.office.com/ " target="_blank">Microsoft 365 Portal</a>en meld u aan met uw gebruikersnaam en wachtwoord.
+1. Ga naar de <a href="https://portal.office.com/ " target="_blank">Microsoft 365-Portal</a>en meld u aan met uw gebruikersnaam en wachtwoord.
 
 2. Selecteer **OneDrive**in het startprogramma voor apps.
 
-3. In OneDrive kunnen teamleden hun eigen bedrijfsgerelateerde bestanden opslaan. U afzonderlijke bestanden of een hele map delen. Kies een bestand of map, klik met de rechtermuisknop en kies **Delen**.
+3. In OneDrive kunnen teamleden hun eigen bestanden voor bedrijven opslaan. U kunt afzonderlijke bestanden of een hele map delen. Kies een bestand of map, klik met de rechtermuisknop en kies vervolgens **delen**.
 
     ![Een map delen](../../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
   
-4. Laat op de pagina **Koppeling verzenden** de standaardselectie achter Iedereen met de koppeling kan bekijken **en bewerken.**
+4. Op de pagina **koppeling verzenden** selecteert u de standaardselectie voor **iedereen met de koppeling kan weergeven en bewerken**.
 
-    Typ namen of e-mailadressen van teamleden die toegang willen hebben tot de map en voeg een optioneel bericht toe.
+    Typ de namen of e-mailadressen van de teamleden die u toegang wilt hebben tot de map en voeg een optioneel bericht toe.
 
-    Als u uw eigen kopie van de e-mail wilt die wordt verzonden, voegt u uw e-mailadres toe aan de lijst.
+    Als u uw eigen kopie wilt maken van de e-mail die wordt verzonden, voegt u uw e-mailadres toe aan de lijst.
 
-    ![Deel een koppelingsdialoogvenster met het typen en selecteren van een naam.](../../media/877e6587-db9d-4903-a87b-11e570eee926.png)
+    ![Het dialoogvenster koppeling delen met typen en een naam selecteren.](../../media/877e6587-db9d-4903-a87b-11e570eee926.png)
   
-5. Wanneer u klaar bent met het invoeren van wie u wilt delen, selecteert u **Verzenden**. De e-mail wordt onmiddellijk verzonden naar de mensen die u uitnodigt.
+5. Selecteer **verzenden**wanneer u klaar bent met het invoeren van de persoon met wie u wilt delen. Het e-mailbericht wordt direct verzonden naar de personen die u uitnodigt.
 
-    ![Een koppeling delen met lijst met namen](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
+    ![Een koppeling delen om een lijst met namen weer te geven](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
   
 6. Zo ziet de e-mail eruit. 
 
-    ![E-mail met koppeling om OneDrive-map te delen](../../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
+    ![E-mail met link voor het delen van OneDrive-map](../../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
   
-### <a name="upload-files-to-a-team-site-for-online-collaboration"></a>Bestanden uploaden naar een teamsite voor online samenwerking
+### <a name="upload-files-to-a-team-site-for-online-collaboration"></a>Bestanden uploaden naar een team site om online samen te werken
 
-Teamsites worden geleverd met een plek om bestanden op te slaan, een zogenaamde documentbibliotheek.  
+Team sites bevatten een plaats waar u bestanden kunt opslaan, een documentbibliotheek genoemd.  
   
-Hier volgen de stappen om bestanden toe te voegen:
+Dit zijn de stappen voor het toevoegen van bestanden:
   
-1. Kies op de startpagina van uw teamsite **Documenten** in het linkernavigatiemenu. Dit brengt u naar uw **documentbibliotheek**.
+1. Kies op de startpagina van uw team site **documenten** in het navigatiemenu aan de linkerkant. Dit brengt u naar uw **documentbibliotheek**.
   
-2. Terwijl u nog bent aangemeld bij Microsoft 365, opent u Windows **Verkenner** vanaf de taakbalk of andere locatie. Ga naar de bestanden die u wilt uploaden naar uw teamsite.
+2. Wanneer u nog steeds bent aangemeld bij Microsoft 365, opent u Windows **Verkenner** vanaf de taakbalk of een andere locatie. Ga naar de bestanden die u wilt uploaden naar uw teamsite.
 
-3. Selecteer de bestanden die u naar uw teamsite wilt uploaden en sleep ze naar de **documentbibliotheek**.
+3. Selecteer de bestanden die u wilt uploaden naar uw team site en sleep deze naar de **document bibliotheek**.
   
 4. Wanneer u klaar bent, worden de bestanden opgeslagen op zowel uw teamsite als uw computer.
   
-5. U kunt de bestanden van uw computer verwijderen. In de volgende stap, [Synchroniseer online bestanden met uw pc of Mac,](#sync-online-files-with-your-pc-or-mac)u een nieuwe locatie voor deze bestanden op uw computer.
+5. U kunt de bestanden van uw computer verwijderen. In de volgende stap moet u [online bestanden synchroniseren met uw PC of Mac](#sync-online-files-with-your-pc-or-mac), u wordt gevraagd een nieuwe locatie voor deze bestanden op uw computer te maken.
 
     Lees deze tips voor het [uploaden van grote bestanden of veel bestanden naar een bibliotheek](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242) als u een groot aantal bestanden of grote bestanden hebt die u wilt uploaden naar uw teamsite.
 
     Als u meer opslagruimte nodig hebt, raadpleegt u [Opslagruimte voor uw abonnement wijzigen](../../commerce/add-storage-space.md).
 
-### <a name="sync-online-files-with-your-pc-or-mac"></a>Online bestanden synchroniseren met uw pc of Mac
+### <a name="sync-online-files-with-your-pc-or-mac"></a>Online bestanden synchroniseren met uw PC of Mac
 
-Nu dat u bestanden op uw teamsite hebt, kunt u instellen dat deze met uw pc of Mac worden gesynchroniseerd. Op deze manier u werken aan uw bestanden vanaf uw pc of Mac in plaats van te werken in Microsoft Edge, Chrome of een andere browser. Het is ook handig om een versie van uw bestanden op uw pc of Mac te synchroniseren, voor het geval dat u een bestand nodig hebt en geen verbinding met internet hebt.
+Nu dat u bestanden op uw teamsite hebt, kunt u instellen dat deze met uw pc of Mac worden gesynchroniseerd. Op deze manier kunt u werken met uw bestanden op uw PC of Mac in plaats van in Microsoft Edge, Chrome of een andere browser. Het is ook handig om een versie van uw bestanden op uw pc of Mac te synchroniseren, voor het geval dat u een bestand nodig hebt en geen verbinding met internet hebt.
   
-Nadat u bestanden hebt ingesteld om te synchroniseren met uw computer, worden deze automatisch gesynchroniseerd wanneer u verbinding hebt gemaakt met internet.
+Wanneer u bestanden hebt ingesteld voor synchronisatie met uw computer, worden deze automatisch gesynchroniseerd wanneer u verbinding hebt met internet.
   
 Hier volgt de werkwijze waarop u bestanden op uw teamsite kunt synchroniseren met uw computer:
   
-1. Kies op de startpagina van uw teamsite **Documenten** in het linkernavigatiemenu. Dit brengt u naar uw documentenbibliotheek.
+1. Kies op de startpagina van uw team site **documenten** in het navigatiemenu aan de linkerkant. U gaat nu naar uw documentenbibliotheek.
 
     > [!TIP]
-    > Wanneer u bestanden op uw teamsite synchroniseert, synchroniseert u elke bestandsbibliotheek op de site, niet de hele site.
+    > Wanneer u bestanden op uw team site synchroniseert, wordt elke bestandsbibliotheek op de site gesynchroniseerd en niet de hele site.
   
-2. Kies **Synchroniseren** om alle bestanden te synchroniseren. Of blader naar de specifieke map die u wilt synchroniseren.
+2. Kies **synchroniseren** als u alle bestanden wilt synchroniseren. Of blader naar de map die u wilt synchroniseren.
 
-3. Als u wordt gevraagd om van app te wisselen, kiest **u Ja**. OneDrive is het proces dat de synchronisatie doet.
+3. Kies **Ja**wanneer u wordt gevraagd om tussen apps te schakelen. OneDrive is het proces dat de synchronisatie uitvoert.
   
-4. Als u vervolgens een **OneDrive-prompt instellen** krijgt, meldt u zich aan met uw werk- of schoolaccount.
+4. Meld u aan met uw werk-of schoolaccount als u vervolgens een **OneDrive** -prompt ontvangt.
 
-    ![OneDrive-installatiescherm](../../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
+    ![OneDrive-instellingenscherm](../../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
   
-5. Als u uw OneDrive nog niet hebt gesynchroniseerd, ziet u mogelijk het scherm **Dit is uw OneDrive-map.** Controleer het pad onder **Uw OneDrive-map is hier**. Kies **Locatie wijzigen** als u een ander pad wilt gebruiken en selecteer **Volgende**.
+5. Als u uw OneDrive nog niet hebt gesynchroniseerd, ziet u mogelijk het scherm van **uw onedrive-map** . Controleer het pad onder **uw OneDrive-map**. Kies **locatie wijzigen** als u een ander pad wilt gebruiken en selecteer **volgende**.
 
-    ![Uw lokale map op dit scherm wijzigen](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
+    ![De lokale map op dit scherm wijzigen](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
   
-6. De bestanden in uw teamsites worden weergegeven in het linkerdeelvenster van Verkenner onder de naam van uw organisatie. De bestanden in OneDrive worden weergegeven onder 'OneDrive \<Name of Organization\> '
+6. De bestanden op uw team sites worden weergegeven in het linkerdeelvenster van Verkenner onder de naam van uw organisatie. De bestanden in OneDrive worden weergegeven onder OneDrive- \<Name of Organization\> "
 
     ![Bekijk wat er is gesynchroniseerd in uw lokale map](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
   
@@ -153,53 +153,53 @@ Hier volgt de werkwijze waarop u bestanden op uw teamsite kunt synchroniseren me
 
 ## <a name="best-practices-for-file-storage-and-sharing"></a>Aanbevolen procedures voor het opslaan en delen van bestanden
 
-Hier volgen een paar tips om het meeste uit OneDrive of uw SharePoint-teamsite te halen.
+Hier volgen enkele tips voor het optimaal benutten van OneDrive of uw SharePoint-Team site.
   
 ### <a name="file-storage-and-collaboration-recommendations-for-other-types-of-small-businesses"></a>Aanbevelingen voor bestandsopslag en samenwerking voor andere typen kleine bedrijven
 
-- **Eenmanszaken**: Gebruik OneDrive om uw eigen bestanden op te slaan en deze per geval met klanten te delen.
+- **Exclusieve eenmans zaken**: gebruik OneDrive voor het opslaan van uw eigen bestanden en deel ze met klanten per geval.
 
-- **Mede-eigendom:** Beide eigenaren gebruiken OneDrive en delen bestanden heen en weer.
+- **Mede-eigenaarschap**: beide eigenaren gebruiken OneDrive en delen bestanden opnieuw.
 
-- **Bedrijven met externe klanten of partners die toegang nodig hebben tot bestanden:** Maak een nieuwe teamsite om documenten op te slaan en te delen die bestemd zijn voor een specifieke klant. Stel de site in om alleen toegang tot die klant mogelijk te maken. U hoeft zich dan geen zorgen te maken dat de ene klant per ongeluk toegang krijgt tot informatie die bedoeld is voor een andere klant.
+- **Bedrijven met externe clients of partners die toegang hebben tot bestanden**: Maak een nieuwe team site voor het opslaan en delen van documenten die bedoeld zijn voor een specifieke klant. Stel de site zo in dat alleen die klant kan worden geopend. Vervolgens hoeft u zich geen zorgen te maken dat één klant per ongeluk toegang krijgt tot informatie die bedoeld is voor een andere klant.
 
 ### <a name="keep-private-files-private"></a>Persoonlijke bestanden privé houden
 
-Wanneer u een bestand opslaat in OneDrive, is het alleen toegankelijk voor u, tenzij u het deelt met anderen. Wanneer u bestanden deelt, u ervoor kiezen om een koppeling te maken die kan worden doorgestuurd of om te delen met alleen specifieke personen. U kunt ook afzonderlijke mappen in OneDrive maken voor verschillende doeleinden, zoals openbare, persoonlijke of afzonderlijke projecten. Elke map kan met een andere persoon of groep worden gedeeld, of met helemaal niemand.
+Wanneer u een bestand opslaat in OneDrive, is het alleen toegankelijk voor u als u het bestand met anderen deelt. Wanneer u bestanden deelt, kunt u ervoor kiezen om een koppeling te maken die kan worden doorgestuurd of om te delen met alleen bepaalde personen. U kunt ook afzonderlijke mappen in OneDrive maken voor verschillende doeleinden, zoals openbare, persoonlijke of afzonderlijke projecten. Elke map kan met een andere persoon of groep worden gedeeld, of met helemaal niemand.
   
-Zie Bestanden [en mappen delen met Microsoft 365](https://support.microsoft.com/office/72f26d6c-bf9e-432c-8b96-e3c2437f5b65)voor meer informatie over delen.
+Zie voor meer informatie over delen ook [bestanden en mappen delen met Microsoft 365](https://support.microsoft.com/office/72f26d6c-bf9e-432c-8b96-e3c2437f5b65).
   
 ### <a name="track-how-much-space-you-have-left"></a>Controleren hoeveel opslagruimte u nog hebt
 
-Zie [Uw OneDrive voor Bedrijven-opslag beheren](https://support.microsoft.com/office/31519161-059C-4764-B6F8-F5CD29F7FE68)als u wilt zien hoeveel opslagruimte u nog in OneDrive hebt.
+Zie [opslag in onedrive voor bedrijven beheren](https://support.microsoft.com/office/31519161-059C-4764-B6F8-F5CD29F7FE68)om te zien hoeveel opslagruimte u nog hebt in onedrive.
   
-### <a name="what-files-can-be-stored-in-onedrive-and-a-team-site"></a>Welke bestanden kunnen worden opgeslagen in OneDrive en een teamsite?
+### <a name="what-files-can-be-stored-in-onedrive-and-a-team-site"></a>Welke bestanden kan ik opslaan in OneDrive en op een team site?
 
-Hoewel u bijna alle soorten bestanden uploaden, zijn sommige bestandsnamen en tekens in bestandsnamen niet toegestaan. Zie [Ongeldige bestandstekens en bestandstypen in OneDrive voor Bedrijven voor](https://support.microsoft.com/office/64883A5D-228E-48F5-B3D2-EB39E07630FA)meer informatie.
+U kunt bijna alle soorten bestanden uploaden, maar sommige namen en tekens in bestandsnamen zijn niet toegestaan. Zie voor meer informatie [Ongeldige bestands tekens en bestandstypen in OneDrive voor bedrijven](https://support.microsoft.com/office/64883A5D-228E-48F5-B3D2-EB39E07630FA).
   
-### <a name="enable-or-disable-third-party-storage-services"></a>Opslagservices van derden in- of uitschakelen
+### <a name="enable-or-disable-third-party-storage-services"></a>Opslagservices van derden inschakelen of uitschakelen
 
-U opslag van derden voor uw gebruikers inschakelen in Microsoft 365, zodat ze naast OneDrive en teamsites documenten kunnen opslaan en delen met services zoals Dropbox. Dit is een uitstekende manier om services te bieden die gebruikers mogelijk al gebruiken of liever gebruiken voor zakelijke projecten. Als u niet wilt dat mensen in uw organisatie Office gebruiken om bestanden te openen in een service van derden, voert u de volgende stappen uit om deze uit te schakelen.
+U kunt opslag van derden inschakelen voor uw gebruikers in Microsoft 365, zodat ze documenten kunnen opslaan en delen met behulp van services, zoals Dropbox, en van OneDrive en team sites. Dit is een uitstekende manier om services te bieden die gebruikers mogelijk al gebruiken of liever gebruiken voor zakelijke projecten. Als u niet wilt dat personen in uw organisatie Office gebruiken om bestanden te openen in een service van derden, voert u deze stappen uit om het uit te schakelen.
   
 > [!IMPORTANT]
-> Opslag van derden is standaard ingeschakeld, dus u moet deze stappen meteen uitvoeren als u niet wilt dat deze beschikbaar is voor uw gebruikers.
+> Opslag van derden is standaard ingeschakeld, zodat u deze stappen direct moet uitvoeren als u deze niet wilt voor uw gebruikers.
   
-1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">beheercentrum</a>.
+1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Beheercentrum</a>.
 
-2. Ga naar **Settings** de \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**instellingenpagina van instellingen.**</a>
+2. Ga naar de pagina **instellingen** voor \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**org**</a> .
 
-3. Selecteer Office op **internet op**het tabblad **Services** .
+3. Selecteer op het tabblad **Services** de optie **Office op het web**.
 
-4. Schakel het selectievakje in of uit om opslag van derden in of uit te schakelen en selecteer **Wijzigingen opslaan**.
+4. Schakel het selectievakje in of uit om opslag van derden in of uit te schakelen en selecteer vervolgens **wijzigingen opslaan**.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Pas uw teamsite aan voor bestandsopslag en -delen.](customize-team-site.md) In deze stapsgewijze zelfstudie leert u hoe kunt profiteren van meer functies voor opslag en samenwerking.
+- [Uw team site aanpassen voor het opslaan en delen van bestanden](customize-team-site.md). In deze stapsgewijze zelfstudie leert u hoe kunt profiteren van meer functies voor opslag en samenwerking.
 
-- **Office-apps instellen voor uw tablets en telefoons**. U moet dit doen zodat u bestanden **bewerken** die zijn opgeslagen in OneDrive en op teamsites vanaf uw tablet of telefoon. Als u de Office-apps niet voor uw tablet of telefoon installeert, u de bestanden bekijken, maar deze niet bewerken.
+- **Office-apps instellen voor uw tablets en telefoons**. U moet dit doen, zodat u bestanden die zijn opgeslagen in OneDrive en op team sites, kunt **bewerken** op een tablet of telefoon. Als u de Office-apps niet voor uw Tablet of telefoon installeert, kunt u de bestanden weergeven maar niet bewerken.
 
   - [Office installeren en instellen op een Android met Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
 
   - [Office installeren en instellen op een iPhone of iPad met Microsoft 365](https://support.microsoft.com/office/9df6d10c-7281-4671-8666-6ca8e339b628)
 
-  - [Office instellen op Windows Phone met Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
+  - [Office instellen op een Windows Phone met Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)

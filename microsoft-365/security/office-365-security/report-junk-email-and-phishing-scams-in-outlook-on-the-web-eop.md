@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de ingebouwde opties voor ongewenste e-mail, ongewenste e-mail en het rapporteren van e-mailberichten in de webversie van Outlook (Outlook Web app) in Exchange Online, en hoe u deze rapportageopties voor gebruikers uitschakelt.
-ms.openlocfilehash: 75be22d6ec38ca3c8d11836ea28c7af74b93f14c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 076f2858e84359d788714dc5d7e8bdb972b2c2ee
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201241"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48351075"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Ongewenste e-mail en malafide e-mailberichten in de webversie van Outlook melden in Exchange Online
 
@@ -36,7 +36,7 @@ In Microsoft 365-organisaties met postvakken in Exchange Online kunt u gebruikma
 
 - Beheerders kunnen gebruikers de mogelijkheid bieden om berichten te rapporteren aan Microsoft in de webversie van Outlook. Zie voor meer informatie de sectie het [melden van ongewenste e-mail in Outlook op het web in-of uitschakelen](#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) verderop in dit onderwerp.
 
-- U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [een postvak opgeven voor het overzetten van gebruikers van spam en phishing-berichten in Exchange Online](user-submission.md).
+- U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).
 
 - Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md)voor meer informatie over het rapporteren van berichten aan Microsoft.
 
