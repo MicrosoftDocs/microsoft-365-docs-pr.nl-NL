@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Lees hoe je een classificatie maakt
-ms.openlocfilehash: 1225a4e57969b507ddd2ca7260050605c0db955e
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 948ece1a19b7e6049167c373b3200efd316a60cd
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321855"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338635"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Een classificatie maken in Microsoft SharePoint Syntex
 
@@ -131,7 +131,7 @@ Als je een **niet-overeenkomende** ontvangt voor de gelabelde bestanden, moet je
 
 ## <a name="test-your-model"></a>Test je model.
 
-Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun je nu je model testen op de andere niet-gelabelde voorbeeldbestanden die het model nog niet heeft gezien.  Deze stap is optioneel.
+Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun je nu je model testen op de andere niet-gelabelde voorbeeldbestanden die het model nog niet heeft gezien.  Dit is een optionele, maar handige stap voor het evalueren van de "geschiktheid" of het voorbereiding van het model voordat dit wordt gebruikt, door het te testen op bestanden die het model nog niet heeft gezien.
 
 1. Op de startpagina van het model selecteer je het tabblad **Testen**.  Hiermee wordt het model uitgevoerd op de niet-gelabelde voorbeeldbestanden.
 2. In de lijst **Testbestanden** worden de voorbeeldbestanden weergegeven en weergegeven als het model deze positief of negatief is. Gebruik deze informatie om de effectiviteit van je classificatie bij het identificeren van je documenten vast te stellen.
@@ -143,6 +143,6 @@ Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun j
 
 [Overzicht van documentbegrip](document-understanding-overview.md)
 
-[Een formulierverwerkingsmodel maken](create-a-form-processing-model.md)
+[Uitlegtypen](explanation-types-overview.md)
 
 [Een model toepassen](apply-a-model.md) 

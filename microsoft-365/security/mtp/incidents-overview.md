@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f462e6018f03080b41e46f45629dc4bfe44b3ef9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c9b495b70c8b61188b4db3175b54e406feb87fc8
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200015"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357840"
 ---
 # <a name="incidents-overview-in-microsoft-threat-protection"></a>Overzicht van incidenten in Microsoft Threat Protection
 
@@ -36,23 +36,26 @@ ms.locfileid: "48200015"
 
 
 
-De basis van alle incidenten is dringende berichten. Er worden waarschuwingen gemaakt wanneer een schadelijke gebeurtenis of activiteit op uw netwerk wordt weergegeven. Afzonderlijke waarschuwingen zorgen voor nuttige aanwijzingen in wat er gebeurt bij afzonderlijke gebeurtenissen of entiteiten. Een aanval maakt echter meestal gebruik van verschillende aanvalsvectoren om een schending te voeren. Piecing afzonderlijke aanwijzingen samen kunnen een duur en tijdrovende taak zijn. 
+Incidenten zijn gebaseerd op verwante meldingen. Er worden waarschuwingen gemaakt wanneer een schadelijke gebeurtenis of activiteit op uw netwerk wordt weergegeven. Afzonderlijke waarschuwingen zorgen voor nuttige aanwijzingen over een voortdurende aanval. Een aanval maakt echter meestal uiteenlopende vectoren en technieken om een schending te voeren. Piecing afzonderlijk aanvullen van een ogenblik kan lastig en tijdrovend zijn.
 
-Microsoft Threat Protection verbindt de punten voor afzonderlijke meldingen. Schadelijke gebeurtenissen voor de volgende entiteiten worden geoppereerd in het Microsoft 365-Beveiligingscentrum:
-- Apparaten
-- Gebruikers
-- Postbus
+Deze korte video biedt een overzicht van incidenten in Microsoft Threat Protection.
+<br>
 
-Verdachte gebeurtenissen waarmee de kenmerken worden weergegeven die deel uitmaken van een grotere aanval, worden samengevoegd tot een incident. 
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-U weet exact waar een aanval is gestart en andere gegevens om u te helpen de omvang van de aanval te zien.
+Een incident is een verzameling gerelateerde waarschuwingen die het verhaal van een aanval vormen. Schadelijke en verdachte gebeurtenissen die zijn gevonden in verschillende apparaten, gebruikers en Postvak entiteiten in het netwerk, worden automatisch geaggregeerd met Microsoft Threat Protection. Het groeperen van waarschuwingen in een incident biedt beveiligings bescherming tegen een uitgebreide weergave van een aanval. 
 
-Het platform biedt beveiligings bescherming met de juiste visuele elementen en gegevens-weergaven om complexe bedreigingen voor de cross-entity inzicht te krijgen en op te lossen. 
+Beveiligings bescherming van een aanval kan bijvoorbeeld zien waar de aanval is gestart, welke tactieken werden gebruikt en hoe ver de aanval in het netwerk is verdwenen. Ze kunnen ook het reikwijdte van de aanval zien, zoals het aantal apparaten, gebruikers en postvakken, wat van invloed is op de impact van de impact, en andere informatie over de beïnvloede entiteiten.
 
-U hebt niet alleen inzicht in het reikwijdte van een aanval, maar u hebt ook toegang tot services waarmee u tactische stappen kunt uitvoeren om een incident te kunnen bevatten.
+Als deze functie is ingeschakeld, kan Microsoft Threat Protection de afzonderlijke waarschuwingen automatisch onderzoeken en oplossen via automatisering en de kunstmatige intelligentie. Beveiligings beschermters kunnen ook extra herstel stappen uitvoeren om de aanval direct in de weergave incidenten op te lossen. 
+
+Incidenten in de afgelopen 30 dagen worden weergegeven in de incident wachtrij. Van hieruit kan beveiligings bescherming zien welke incidenten op basis van risiconiveau en andere factoren op basis van risiconiveau gelden. 
+
+Beveiligings beschermings problemen kunnen ook de naam van een voorval wijzigen, ze toewijzen aan afzonderlijke analisten, classificeren en labels aan incidenten toevoegen voor een betere en meer aangepaste ervaring voor het beheren van incidenten.
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+
+## <a name="see-also"></a>Zie ook
 - [Prioriteit geven aan incidenten](incident-queue.md)
 - [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)

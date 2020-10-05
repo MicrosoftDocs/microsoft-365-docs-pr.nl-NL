@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een team voor samenwerking met gasten in teams.
-ms.openlocfilehash: e8d1c75c6172168fc2b0a4b351591289c893869a
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: e92397c7b8d4a4192fb36a52a76679269be53b3b
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322175"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357792"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Met gasten samenwerken in een team
 
@@ -184,3 +184,5 @@ Gasten uitnodigen voor een team
 [Een beveiligde omgeving voor het delen met gasten maken](create-secure-guest-sharing-environment.md)
 
 [Een B2B-extranet maken met beheerde gasten](b2b-extranet.md)
+
+[Integratie van SharePoint en OneDrive met Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)

@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: In dit artikel leert u hoe u kunt samenwerken met gasten aan een document in SharePoint en OneDrive.
-ms.openlocfilehash: 98eea8fe9c613aef3e24f9e4bb6746ddc9a527ab
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 1a7591915efa82f1995ce2789e181dc350cd3784
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798268"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357780"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Samenwerken met gasten aan een document
 
@@ -117,3 +117,5 @@ Instellingen voor het delen van inhoud zijn nu geconfigureerd, zodat gebruikers 
 [Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers](best-practices-anonymous-sharing.md)
 
 [Accidentele blootstelling aan bestanden beperken tijdens het delen met gasten](share-limit-accidental-exposure.md)
+
+[Integratie van SharePoint en OneDrive met Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)

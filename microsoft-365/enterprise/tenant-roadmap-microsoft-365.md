@@ -10,15 +10,17 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: M365-subscription-management
+ms.collection:
+- M365-subscription-management
+- M365initiative-coredeploy
 ms.custom: it-pro
 description: De routekaart voor het instellen van uw tenants voor Microsoft 365.
-ms.openlocfilehash: 7834e8b7f9ff8a1b33f2f2a7ccc4a499e4da7c69
-ms.sourcegitcommit: 13ae76220b4ad688438a5d1031a6e1b5300ffa23
+ms.openlocfilehash: e4b2af9143070caa1ebd8fd66ef9f367f85d3bb9
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47775145"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357908"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Tenant plattegrond voor Microsoft 365
 
@@ -34,7 +36,6 @@ Voor het plannen van uw Tenant-implementatie:
 
 - [Meer informatie over abonnementen, licenties en Azure AD-tenants (Azure Active Directory)](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 - [Meer informatie over het gebruik van SSL-certificaten van derden](plan-for-third-party-ssl-certificates.md)
-- [Installatie handleidingen voor Access in het Microsoft 365-Beheercentrum](setup-guides-for-microsoft-365.md)
 - [Inzicht in de manier waarop een Microsoft 365-Tenant is geïntegreerd met Azure AD Services](integrated-apps-and-azure-ads.md)
 - [Ondersteuning voor client-apps plannen](microsoft-365-client-support-certificate-based-authentication.md)
 - [Bepalen hoe u moderne verificatie gebruikt](hybrid-modern-auth-overview.md)
@@ -44,7 +45,7 @@ Voor het plannen van uw Tenant-implementatie:
 
 ## <a name="deploy"></a>Implementeren
 
-Voor de implementatie van de Tenant [voegt u de DNS-domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) voor uw organisatie toe.
+Voor de implementatie van de Tenant [voegt u de DNS-domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) voor uw organisatie toe en gebruikt u de [installatie handleidingen in het Microsoft 365-Beheercentrum](setup-guides-for-microsoft-365.md).
 
 ## <a name="tenants-with-multiple-geographic-locations"></a>Tenants met meerdere geografische locaties
 

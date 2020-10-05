@@ -9,14 +9,14 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Lees hoe je een Extractor kunt maken in Microsoft SharePoint Syntex.
-ms.openlocfilehash: d68cc8b8c337c1ae6740eb5775576a54279b8389
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 260486c128ce76c31fe5f4a0994b4e103687b829
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321807"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338647"
 ---
-# <a name="create-an-extractor-preview"></a>Een extractor maken (Voorbeeld)
+# <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Maak een Extractor in Microsoft SharePoint Syntex.
 
 
 </br>
@@ -122,9 +122,20 @@ Als je opnieuw een **Komt niet overeen** op je gelabelde bestanden ontvangt, moe
 
 ## <a name="test-your-model"></a>Test je model.
 
-Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun je nu je model testen op de andere niet-gelabelde voorbeeldbestanden. Dit is een handige stap voor het evalueren van de "geschiktheid" of het voorbereiding van het model voordat dit wordt gebruikt, door het te testen op bestanden die het model nog niet heeft gezien.
+Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun je nu je model testen op de andere niet-gelabelde voorbeeldbestanden. Dit is een optionele, maar handige stap voor het evalueren van de "geschiktheid" of het voorbereiding van het model voordat dit wordt gebruikt, door het te testen op bestanden die het model nog niet heeft gezien.
 
 1. Op de startpagina van het model klik je op het tabblad **Testen**.  Hiermee wordt het model uitgevoerd op de niet-gelabelde voorbeeldbestanden.
 2. In de lijst **Testbestanden** worden de voorbeeldbestanden weergegeven om aan te geven of de gegevens die je nodig hebt, door het model kunnen worden opgehaald. Gebruik deze informatie om de effectiviteit van je classificatie bij het identificeren van je documenten vast te stellen.
 
     ![Op je bestanden testen](../media/content-understanding/test-filies-extractor.png) 
+
+## <a name="see-also"></a>Zie ook
+[Een classificatie maken](create-a-classifier.md)
+
+[Uitlegtypen](explanation-types-overview.md)
+
+[De taxonomie van een termenarchief benutten bij het maken van een extractor](leverage-term-store-taxonomy.md)
+
+[Overzicht van documentbegrip](document-understanding-overview.md)
+
+[Een model toepassen](apply-a-model.md) 

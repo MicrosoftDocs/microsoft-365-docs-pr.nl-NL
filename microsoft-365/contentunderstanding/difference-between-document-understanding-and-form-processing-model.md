@@ -1,66 +1,77 @@
 ---
-title: Het verschil tussen document begrijpt en formulier verwerkings modellen
+title: Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
 ms.author: efrene
 author: efrene
 manager: pamgreen
-ms.date: 8/1/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Beschrijving van het verschil tussen document begrijpt en modellen voor formulierverwerking
-ms.openlocfilehash: 268a2fa4a0381e5822c17e5df22566c931d37f3c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
-ms.translationtype: MT
+localization_priority: Priority
+description: Uitleg over het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
+ms.openlocfilehash: c5d60753e84cb55dc088b79f90fe841b50da1836
+ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294746"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48338591"
 ---
-# <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen document begrijpt en formulier verwerkings modellen 
+# <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen 
 
-De inhoud in dit artikel is bedoeld voor de cortex van de private preview van project. [Lees meer over project cortex](https://aka.ms/projectcortex).
 
-Met inhoud begrijpen in Project cortex kunt u documenten identificeren en classificeren die worden geüpload naar SharePoint-documentbibliotheken, en relevante informatie uit elk bestand ophalen.  Wanneer bestanden worden geüpload naar een SharePoint-documentbibliotheek, worden alle bestanden die zijn geïdentificeerd als *aankoop orders* , ingedeeld in een aangepaste weergave van de documentbibliotheek. Daarnaast kunt u specifieke informatie uit elk bestand (bijvoorbeeld *ko-nummer* en *totaal*) optrekken en dit weergeven als een kolom in de weergave van de documentbibliotheek. 
+Met documentbegrip in Microsoft SharePoint Syntex kunt u documenten identificeren en classificeren die worden geüpload naar SharePoint-documentbibliotheken en kunt u relevante informatie uit de bestanden halen.  Als bestanden bijvoorbeeld worden geüpload naar een SharePoint-documentbibliotheek, worden alle bestanden die worden geïdentificeerd als *inkooporders* als zodanig geclassificeerd en vervolgens weergegeven in een aangepaste weergave van een documentbibliotheek. Bovendien kunt u specifieke informatie uit elk bestand halen (zoals *PO-nummer* en *Totaal*) en die weergeven als een kolom in de documentbibliotheekweergave. 
 
-Met inhoud kunt u *modellen* maken waarmee de benodigde gegevens worden geïdentificeerd en uitgepakt. Dit zijn twee modeltypen die u kunt gebruiken:
+Met inhoudsbegrip kunt u *modellen* maken om de informatie die u nodig hebt te identificeren en extraheren. Met modellen kunnen helpen op allerlei zakelijke gebieden, zoals zoekopdrachten, bedrijfsprocessen, compliance en vele andere.
 
-- [Documenten begrijpen met modellen](document-understanding-overview.md)
-- [Formulier verwerkings modellen](form-processing-overview.md)
+Er zijn twee modeltypen die u kunt gebruiken:
 
-Hoewel beide modellen meestal voor hetzelfde doel worden gebruikt, zijn de hierboven vermelde belangrijkste verschillen van invloed op welke modellen u kunt gebruiken.
+- [Documentbegripmodellen](document-understanding-overview.md)
+- [Formulierverwerkingsmodellen](form-processing-overview.md)
 
-## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Gestructureerd versus niet-gestructureerd en gedeeltelijk gestructureerde inhoud
-
-U kunt documenten gebruiken om gegevens te identificeren en te extraheren uit niet-gestructureerde documenten, zoals brieven of contracten, waarbij de tekst entiteiten die u wilt extraheren, zich bevinden in zinnen of bepaalde gebieden van het document. Een niet-gestructureerd document kan bijvoorbeeld een brief voor het verlengen van een contract zijn dat op verschillende manieren kan worden geschreven. Informatie is echter consistent in de hoofdtekst van het document voor het verlengen van contracten, zoals de tekenreeks ' service StartDate ', gevolgd door een werkelijke datum.   
-
-Gebruik formulier verwerkings modellen om bestanden te identificeren en gegevens te extraheren uit gestructureerde of gedeeltelijk gestructureerde documenten, zoals formulieren of facturen. Deze documenten moeten Clear key-value-paren hebben, zoals *datum: 10/1/2020*) * of tabelgegevens. Voorbeeld: een goede kandidaat voor het verwerken van formulieren is een aanvraagformulier voor de bestellingen van een bedrijf dat clients informatie moeten geven over bepaalde velden in hetzelfde gebied van de documentindeling, zoals de *naam*, het *telefoonnummer*, de *totale kosten*, etc.  Een belasting formulier is een goed voorbeeld van een gestructureerd document. 
-
-## <a name="where-they-are-created"></a>Waar ze worden gemaakt
-
-Document leren hoe modellen worden gemaakt en beheerd op een SharePoint-inhouds centrum site. 
+Beide modellen worden in het algemeen gebruikt voor dezelfde doeleinden, maar de hieronder vermelde verschillen bepalen welke je kunt gebruiken.
 
 > [!NOTE]
-> U moet toegang hebben tot een inhouds centrum site om een document te leren maken met model of om een document toe te passen op een SharePoint-documentbibliotheek. 
+> Zie [Ingebruikname van SharePoint Syntex: introductiehandleiding](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted#form-processing-scenario-example) voor meer informatie over formulierverwerking scenariovoorbeelden voor documentbegrip.
 
-Formulier verwerkings modellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van een SharePoint-documentbibliotheek wordt direct geïnitieerd. Het maken van een model voor formulierverwerking moet zijn ingeschakeld in de documentbibliotheek om een gebruiker hiervoor een formulier verwerkings model te kunnen maken, en een beheerder kan dit doen met de inhoud van de beheerdersinstellingen. Formulier verwerkings modellen gebruiken PowerAutomate-stromen om bestanden te verwerken wanneer ze worden geüpload naar de documentbibliotheek.
 
-Wanneer u een document maakt wat het model is, maakt u een nieuw [SharePoint-inhoudstype](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978) dat is opgeslagen in de galerie met SharePoint-inhoudstypen. U kunt ook bestaande inhoudstypen gebruiken om uw model te definiëren, indien nodig.
+## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Gestructureerde versus niet-gestructureerde en gedeeltelijk gestructureerde inhoud
 
-Formulier verwerkings modellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van een SharePoint-document bibliotheek wordt direct geïnitieerd. Het maken van een formulier model moet worden ingeschakeld voor de documentbibliotheek zodat een gebruiker een formulier voor een formulier verwerkings model kan maken. Of een beheerder kan dit doen met de inhoud van de beheerdersinstellingen. Formulier verwerkings modellen gebruiken PowerAutomate-stromen om bestanden te verwerken wanneer ze worden geüpload naar de documentbibliotheek.
+Gebruik documentbegripmodellen om gegevens te identificeren en extraheren uit niet-gestructureerde documenten, zoals brieven of contracten, waarin de tekstentiteiten die u wilt extraheren zich in zinnen of specifieke delen van het document bevinden. Een niet-gestructureerd document kan bijvoorbeeld een brief zijn voor het verlengen van een contract, die op verschillende manieren kan zijn geschreven. Maar bepaalde informatie bevindt zich altijd in de hoofdtekst van een contractverlengingsdocument, zoals de tekenreeks *Begindatum van de service* gevolgd door een werkelijke datum.   
 
-Formulier verwerkings modellen maken ook nieuwe [SharePoint-inhoudstypen](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978)en worden ook opgeslagen in de galerie met SharePoint-inhoudstypen.
+Gebruik formulierverwerkingsmodellen om bestanden te identificeren en gegevens te extraheren uit gestructureerde of half-gestructureerde documenten, zoals formulieren of facturen. Formulierverwerkingsmodellen worden met voorbeelddocumenten getraind om de indeling van uw formulieren te begrijpen, en om te zoeken naar de gegevens die u wilt ophalen van soortgelijke locaties, aangezien formulieren een meer gestructureerde indeling hebben en entiteiten zich op dezelfde locatie bevinden (zoals een BSN-nummer in een belastingformulier). 
 
-## <a name="where-they-can-be-applied"></a>Waar ze kunnen worden toegepast
+> [!NOTE]
+> U moet toegang hebben tot een inhoudscentrumsite om een documentbegripmodel te maken of toe te passen op een SharePoint-documentbibliotheek. 
 
-U kunt documenten met modellen aan documentbibliotheken van SharePoint gebruiken waartoe u toegang hebt. U kunt het inhouds centrum gebruiken om een document te leren maken en het model toe te passen op verschillende documentbibliotheken. In het inhouds centrum krijgt u een meer centrale controle over hoe documenten worden gebruikt en waar ze worden toegepast. Opmerking Deze informatie moet ook samen met een inhouds centrum worden samengevouwen.
 
-Formulier verwerkings modellen kunnen op dit moment alleen worden toegepast op de SharePoint-documentbibliotheek waaruit u deze hebt gemaakt. Dit betekent dat gebruikers met een licentie toegang hebben tot de site, een formulier verwerkings model kunnen maken.
+## <a name="where-they-are-created"></a>Waar worden ze gemaakt
+
+Documentbegripmodellen worden gemaakt en beheerd in een SharePoint-inhoudscentrumsite. 
+
+> [!NOTE]
+> Zie voor meer informatie over invoerdocumenten [Vereisten voor en beperkingen van formulierverwerkingsmodellen](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
+
+Formulierverwerkingsmodellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van de modellen wordt rechtstreeks vanuit een SharePoint-documentbibliotheek gestart. Het maken van formulierverwerkingsmodellen moet worden ingeschakeld in uw documentbibliotheek om het gebruikers mogelijk te maken een formulierverwerkingsmodel te maken. Een beheerder kan dit doen in de beheerdersinstellingen voor inhoudsbegrip. Formulierverwerkingsmodellen gebruiken Power Automate-stromen om bestanden te verwerken wanneer die worden geüpload naar de documentbibliotheek.
+
+Wanneer u een documentbegripmodel maakt, maakt u een nieuw [SharePoint-inhoudstype](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978) dat wordt opgeslagen in de SharePoint-inhoudstypengalerie. U kunt ook bestaande inhoudstypen gebruiken om het model te definiëren.
+
+Formulierverwerkingsmodellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van de modellen wordt rechtstreeks vanuit een SharePoint-documentbibliotheek gestart. Het maken van formulierverwerkingsmodellen moet worden ingeschakeld in uw documentbibliotheek om het gebruikers mogelijk te maken een formulierverwerkingsmodel te maken. Een beheerder kan dit ook doen in de beheerdersinstellingen voor inhoudsbegrip. Formulierverwerkingsmodellen gebruiken Power Automate-stromen om bestanden te verwerken wanneer die worden geüpload naar de documentbibliotheek.
+
+Formulierverwerkingsmodellen maken ook nieuwe [SharePoint-inhoudstypen](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978)en worden ook opgeslagen in de SharePoint-inhoudstypegalerie.
+
+## <a name="where-they-can-be-applied"></a>Waar kunnen ze worden toegepast
+
+U kunt documentbegripmodellen toepassen op SharePoint-documentbibliotheken waartoe u toegang hebt. Gebruik het inhoudscentrum om een documentbegripmodel te maken en toe te passen op verschillende documentbibliotheken. Het inhoudscentrum biedt u een centrale manier om te beheren hoe documenten worden gebruikt en waar ze worden toegepast. Houd er rekening mee dat deze informatie moet ook worden doorgegeven naar een inhoudscentrum.
+
+Formulierverwerkingsmodellen kunnen momenteel alleen worden toegepast op de SharePoint-documentbibliotheek waarin u ze hebt gemaakt. Hierdoor krijgen gebruikers met een licentie toegang tot de site om een formulierverwerkingsmodel te maken. De beheerder moet de formulierverwerking inschakelen voor een SharePoint-documentbibliotheek, zodat deze functie beschikbaar is voor gebruikers met een licentie.
 
  ## <a name="see-also"></a>Zie ook
-[Training: bedrijfsprestaties verbeteren met AI Builder](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)</br>
-[Een classificatie maken](create-a-classifier.md)</br>
-[Een extractor maken](create-an-extractor.md)</br>
-[Een document met inzicht toepassen](apply-a-model.md)</br>
-[Een formulier verwerkings model maken](create-a-form-processing-model.md)</br>
+[Training: zakelijke prestaties verbeteren met AI-Builder](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
+
+
+
+[Overzicht van documentbegrip](document-understanding-overview.md)
+
+[Overzicht formulierverwerking](form-processing-overview.md)
+
+[Kennismaken met SharePoint Syntex](index.md)

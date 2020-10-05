@@ -3,18 +3,19 @@ title: Kennismaken met Microsoft SharePoint Syntex
 ms.author: efrene
 author: efrene
 manager: pamgreen
+ms.reviewer: ssquires, toresing
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Informatie over het zoeken naar bronnen voor Microsoft SharePoint Syntex.
-ms.openlocfilehash: 988312d57c0fa6bb0a07e074114daf46d81d2166
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 5d375b27fe3cd58069851f12c459460ac605da83
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48334027"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350771"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Kennismaken met Microsoft SharePoint Syntex
 
@@ -28,9 +29,9 @@ De informatie op deze pagina is bedoeld om u op weg te helpen met het leren werk
 
 ## <a name="get-started"></a>Aan de slag
 
-In de informatiebronnen in dit gedeelte vindt u meer informatie over de twee methoden die worden gebruikt door SharePoint Syntex: formulierverwerking en documentbegrip.
+In de informatiebronnen in dit gedeelte vindt je meer informatie over de twee methoden gegevensclassificatie en extractie die worden gebruikt door SharePoint Syntex: formulierverwerking en documentbegrip.
 
-|**Als u op zoek bent naar deze informatie:**|**Raadpleeg deze bron:**|
+| Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
 |Meer informatie over documentbegrip|[Overzicht van documentbegrip](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
 |Meer informatie over formulierverwerking|[Overzicht formulierverwerking](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|
@@ -41,26 +42,26 @@ In de informatiebronnen in dit gedeelte vindt u meer informatie over de twee met
 
 ## <a name="adoption"></a>Ingebruikname
 
-Meer informatie over het gebruik en de implementatie van SharePoint-Syntex in uw organisatie om u te helpen uw bedrijfsproblemen op te lossen: 
+Meer informatie over het gebruik en de implementatie van SharePoint-Syntex in je organisatie om je te helpen je bedrijfsproblemen op te lossen: 
 
-|**Als u op zoek bent naar deze informatie:**|**Raadpleeg deze bron:**|
+| Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
-|Meer informatie over u het gebruik van SharePoint-Syntex kunt plannen. |[Ingebruikname van SharePoint Syntex: aan de slag](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted)<br><br>|  
+|Meer informatie het gebruik van SharePoint-Syntex plannen. |[Ingebruikname van SharePoint Syntex: aan de slag](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted)<br><br>|  
 
 ## <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex installeren
 
-De informatiebronnen in dit gedeelte helpen de beheerder in uw organisatie Microsoft SharePoint Syntex te installeren en configureren in de Microsoft 365-omgeving.
+De informatiebronnen in dit gedeelte helpen de beheerder in je organisatie Microsoft SharePoint Syntex te installeren en configureren in de Microsoft 365-omgeving.
 
-|**Als u op zoek bent naar deze informatie:**|**Raadpleeg deze bron:**|
+| Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
 |SharePoint Syntex installeren en configureren|[Microsoft SharePoint Syntex installeren](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding)|
 |Meer informatie over het taggen van afbeeldingen en het uitschakelen ervan|[Afbeeldingen taggen in SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/image-tagging)|
 
 ## <a name="models"></a>Modellen
 
-De informatiebronnen in dit gedeelte helpen uw gebruikers documentbegrip- en formulierverwerkingsmodellen te maken en configureren.
+De informatiebronnen in dit gedeelte helpen je gebruikers documentbegrip- en formulierverwerkingsmodellen te maken en configureren.
 
-|**Als u op zoek bent naar deze informatie:**|**Raadpleeg deze bron:**|
+| Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
 |Met modellen leren werken|[Een inhoudscentrum maken](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-content-center)<br><br>[Een classificatie maken](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier)<br><br>[Een extractor maken](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-an-extractor)<br><br>[Een verwerkingsmodel voor formulieren maken](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)<br><br>[Uitlegtypen](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)<br><br>[Een documentbegripmodel toepassen](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-model)<br><br>[Informatie over documentbegripmodellen met behulp van het voorbeeldmodel](https://docs.microsoft.com/microsoft-365/contentunderstanding/learn-about-document-understanding-models-through-the-sample-model)<br><br>|
 |Een retentielabel toepassen op uw model|[Het verschil tussen documentbegrip- en formulierverwerkingsmodellen](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
@@ -71,7 +72,7 @@ De informatiebronnen in dit gedeelte helpen uw gebruikers documentbegrip- en for
 
 Met een SharePoint-Syntex-licentie krijgen uw gebruikers premium inhoudsservices die extra functionaliteit bieden in uw Microsoft 365-omgeving. De hulpbronnen in dit gedeelte geven meer informatie over deze functies en hoe ze te gebruiken.
 
-|**Als u op zoek bent naar deze informatie:**|**Raadpleeg deze bron:**|
+| Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
 |Meer informatie over het importeren van een gegevensset met een bestandsindeling gebaseerd op het Simple Knowledge Organization System.|[Een termenset met een SKOS-indeling importeren](https://docs.microsoft.com/microsoft-365/contentunderstanding/import-term-set-skos)<br><br>[SKOS-indelingsverwijzing voor SharePoint-taxonomie](https://docs.microsoft.com/microsoft-365/contentunderstanding/skos-format-reference)<br><br>|
 |Meer informatie over hoe u inhoudstypen consequenter beschikbaar maakt voor SharePoint-bibliotheken en -lijsten|[Inhoudstypen naar een hub pushen](https://docs.microsoft.com/microsoft-365/contentunderstanding/push-content-type-to-hub)|

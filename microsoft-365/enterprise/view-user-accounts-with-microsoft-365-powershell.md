@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 description: Meer informatie over het weergeven, weergeven en weergeven van uw Microsoft 365-gebruikersaccounts op verschillende manieren met PowerShell.
-ms.openlocfilehash: ea631d12a95ca813ebf9da3286e36d724d51a2f7
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4dba05ce440ec0d395fda58a12df3e9f751bb469
+ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695789"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357896"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>Microsoft 365-gebruikersaccounts weergeven met PowerShell
 
@@ -100,6 +100,21 @@ Als ander voorbeeld kunt u de ingeschakelde status van een specifiek gebruikersa
 Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayName,UserPrincipalName,AccountEnabled
 ```
 
+### <a name="view-account-synchronization-status"></a>Synchronisatiestatus van een account weergeven
+
+Gebruikersaccounts bestaan uit twee bronnen: Windows Server Active Directory (AD) voor accounts die worden gesynchroniseerd vanuit on-premises AD-advertenties met de Cloud en Azure AD die accounts rechtstreeks in de Cloud maken.
+
+```powershell
+Get-AzureADUser | Where {$_.DirSyncEnabled -eq $true}
+```
+Met deze opdracht wordt PowerShell geïnstrueerd voor alle gebruikers voor wie het kenmerk **DirSyncEnabled** is ingesteld op waar. U kunt deze gebruiken voor het opschonen van accounts die worden gesynchroniseerd vanuit on-premises AD.
+
+
+```powershell
+Get-AzureADUser | Where {$_.DirSyncEnabled -ne $true}
+```
+Met deze opdracht wordt PowerShell geïnstrueerd voor alle gebruikers voor wie het kenmerk **DirSyncEnabled** is ingesteld op false. Dit kan worden gebruikt voor het opschonen van Cloud accounts.
+
 ### <a name="view-some-accounts-based-on-a-common-property"></a>Sommige accounts weergeven op basis van een gemeenschappelijke eigenschap
 
 Als u een lijst wilt selecteren met de accounts die u wilt weergeven, kunt u de **where** -cmdlet gebruiken in combinatie met de cmdlet **Get-AzureADUser** . Als u de twee cmdlets wilt combineren, gebruikt u het teken ' pipe ' | ', waarmee wordt aangegeven dat Azure Active Directory PowerShell voor Graph de resultaten van één opdracht oplevert en deze naar de volgende opdracht verzenden. Hier ziet u een voorbeeld van een opdracht waarmee alleen gebruikersaccounts worden weergegeven met een niet-opgegeven gebruikslocatie:
@@ -143,7 +158,7 @@ Get-MsolUser
 ```
 
 >[!Note]
->De PowerShell-core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met **MSOL** in de naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 >
 
 U dient informatie te zien die er ongeveer als volgt uit ziet:
@@ -300,9 +315,8 @@ Get-ADUser ([guid][System.Convert]::FromBase64String((Get-MsolUser -UserPrincipa
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365-gebruikersaccounts, licenties en groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

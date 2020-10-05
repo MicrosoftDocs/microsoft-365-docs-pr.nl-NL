@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Meer informatie over uitlegtypen in Microsoft SharePoint Syntex
-ms.openlocfilehash: 7d78337fd91bc7e5a71bccd4867f019ae663417a
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 43272504912451e4690cb8b7fe351462371bb252
+ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321795"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48350301"
 ---
 # <a name="introduction-to-explanation-types"></a>Inleiding tot uitlegtypen
 
@@ -68,7 +68,7 @@ Als je hoofdlettereisen in je patroonlijst hebt, kun je ook het selectievakje **
    ![Alleen exact hoofdlettergebruik](../media/content-understanding/exact-caps.png)
 
 > [!NOTE]
-> Gebruik in plaats van het handmatig maken van een uitleg voor patroonlijsten de [Uitlegbibliotheek]() voor het gebruik van vooraf gemaakte patroonlijstsjablonen voor een algemene patroonlijsten, zoals *datum*, *telefoonnummer*, *creditcardnummer*, enzovoort. 
+> Gebruik in plaats van het handmatig maken van een uitleg voor patroonlijsten de [Uitlegbibliotheek](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-explanation-templates) voor het gebruik van vooraf gemaakte patroonlijstsjablonen voor een algemene patroonlijsten, zoals *datum*, *telefoonnummer*, *creditcardnummer*, enzovoort. 
 
 ## <a name="proximity"></a>Proximity 
 
