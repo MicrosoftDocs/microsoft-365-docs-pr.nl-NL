@@ -4,7 +4,7 @@ ms.author: kvice
 ms.reviewer: smithre4
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/15/2020
+ms.date: 08/25/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over hybride moderne verificatie en de vereisten voor gebruik met on-premises Skype voor bedrijven en Exchange-servers.
-ms.openlocfilehash: 1e0330bd62d9098f11a12b44b46e9ace30b59420
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 82cd4203e2e9dc53c6add542c5f0ba90530b6548
+ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546442"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361925"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>Hybride overzicht van de hybride verificatie en vereisten voor het gebruik van on-premises Skype voor bedrijven en Exchange-servers
 
@@ -106,8 +106,8 @@ Controleer de items uit uw lijst voordat u verder gaat:
   - Een Skype voor bedrijven server 2019-implementatie waarbij Skype voor bedrijven server 2019 wordt uitgevoerd op alle servers.
   - Een Skype voor bedrijven server 2015-implementatie waarbij Skype voor bedrijven server 2015 wordt uitgevoerd op alle servers.
   - Een implementatie met een maximum van twee verschillende server versies, zoals hieronder aangegeven:
-    - Skype voor bedrijven server 2015
-    - Skype voor bedrijven server 2019
+    - Skype for Business Server 2015
+    - Skype for Business Server 2019
   - Voor alle Skype voor bedrijven-servers moet de nieuwste cumulatieve updates zijn geïnstalleerd, Zie [updates voor Skype voor bedrijven server](https://docs.microsoft.com/skypeforbusiness/sfb-server-updates) om alle beschikbare updates te zoeken en beheren.
   - Er is geen Lync Server 2010 of 2013 in de hybride omgeving.
 
@@ -143,18 +143,22 @@ Controleer de items uit uw lijst voordat u verder gaat:
   - Als u Exchange Server 2013 gebruikt, moet minimaal één server beschikken over de serverrollen postvak en client toegang. Hoewel het mogelijk is om het postvak en de functies voor client toegang op afzonderlijke servers te installeren, wordt u ten zeerste aangeraden beide rollen op dezelfde server te installeren voor meer betrouwbaarheid en betere prestaties te bieden.
   - Als u Exchange Server 2016 of een nieuwere versie gebruikt, moet ten minste één server de functie postvakserver hebben geïnstalleerd.
   - Er is geen Exchange Server 2007 of 2010 in de hybride omgeving.
-  - Voor alle Exchange-servers moet de actuele cumulatieve updates zijn geïnstalleerd, Zie [Exchange bijwerken naar de meest recente cumulatieve updates](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates?view=exchserver-2019) om alle beschikbare updates te zoeken en te beheren.
+  - Voor alle Exchange-servers moet de actuele cumulatieve updates zijn geïnstalleerd, Zie [Exchange bijwerken naar de meest recente cumulatieve updates](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates) om alle beschikbare updates te zoeken en te beheren.
 
 - **Client-en protocol vereisten voor Exchange**
 
-  - De volgende clients ondersteunen moderne verificatie:
+    De beschikbaarheid van moderne verificatie wordt bepaald door de combinatie van de client, het protocol en de configuratie. Als moderne verificatie niet wordt ondersteund door de client, het protocol en/of de configuratie, blijft de client gebruikmaken van oudere verificatie.
+  
+    De volgende clients en protocollen bieden ondersteuning voor moderne verificatie met on-premises Exchange wanneer moderne verificatie in de omgeving is ingeschakeld:
 
   |**Emulatieclients**|**Primair protocol**|**Opmerkingen**|
   |:-----|:-----|:-----|
-  |Outlook 2013 en Outlook 2016  <br/> |MAPI via HTTP  <br/> |MAPI via HTTP moet zijn ingeschakeld in Exchange om moderne verificatie met deze clients mogelijk te maken (meestal ingeschakeld of waar voor nieuwe installaties van Exchange 2013 Service Pack 1 en hoger). Zie de werking [van moderne verificatie voor office 2013-en office 2016-clienttoepassingen](modern-auth-for-office-2013-and-2016.md)voor meer informatie.  <br/> Zorg ervoor dat u de minimaal vereiste build van Outlook uitvoert. Zie [de meest recente updates voor versies van Outlook die gebruikmaken van Windows Installer (MSI)](https://docs.microsoft.com/officeupdates/outlook-updates-msi).  <br/> |
-  |Outlook 2016 voor Mac  <br/> |Exchange-webservices  <br/> |  <br/> |
-  |Outlook voor iOS en Android  <br/> |  <br/> |Zie [hybride moderne verificatie gebruiken met Outlook voor IOS en Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) voor meer informatie.  <br/> |
+  |Outlook 2013 en hoger  <br/> |MAPI via HTTP  <br/> |MAPI via HTTP moet zijn ingeschakeld in Exchange om moderne verificatie met deze clients mogelijk te maken (meestal ingeschakeld of waar voor nieuwe installaties van Exchange 2013 Service Pack 1 en hoger). Zie de werking [van moderne verificatie voor office 2013-en office 2016-clienttoepassingen](modern-auth-for-office-2013-and-2016.md)voor meer informatie.  <br/> Zorg ervoor dat u de minimaal vereiste build van Outlook uitvoert. Zie [de meest recente updates voor versies van Outlook die gebruikmaken van Windows Installer (MSI)](https://docs.microsoft.com/officeupdates/outlook-updates-msi).  <br/> |
+  |Outlook 2016 voor Mac en nieuwere versies  <br/> |Exchange-webservices  <br/> |  <br/> |
+  |Outlook voor iOS en Android  <br/> | Microsoft Sync-technologie <br/> |Zie [hybride moderne verificatie gebruiken met Outlook voor IOS en Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) voor meer informatie.  <br/> |
   |Exchange ActiveSync-clients (bijvoorbeeld E-mail van Ios 11)  <br/> |Exchange ActiveSync  <br/> |Voor Exchange ActiveSync-clients die moderne verificatie ondersteunen, moet u het profiel opnieuw maken om te overstappen van basisauthenticatie met moderne verificatie.  <br/> |
+
+    Clients en/of protocollen die niet worden vermeld (bijv. POP3) bieden geen ondersteuning voor moderne verificatie met on-premises Exchange en blijven de mogelijkheid om oudere verificatiemechanismen te benutten, zelfs nadat moderne verificatie in de omgeving is ingeschakeld.
 
 - **Algemene vereisten**
   - Als u AD FS gebruikt, moet u beschikken over Windows 2012 R2 AD FS 3,0 en hoger voor Federatie.

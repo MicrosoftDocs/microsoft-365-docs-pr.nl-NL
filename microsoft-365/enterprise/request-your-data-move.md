@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Bestaande Office 365-klanten moeten een aanvraag indienen vóór de deadline voor de deadline voor de datum waarop hun Microsoft 365-Services-gegevens zijn verplaatst naar hun nieuwe geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10c77fdde8583c9d791c9fed936f94aad8fc7264
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 7f8f25fcaf3e8beb59ca43ad260e2636cf0c4949
+ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333882"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361937"
 ---
 # <a name="how-to-request-your-data-move"></a>De verplaatsing van uw gegevens aanvragen
 
@@ -31,7 +31,7 @@ In aanmerking komende Microsoft 365-klanten kunnen voor hun gehele organisatie d
   
 ## <a name="when-can-i-request-a-move"></a>Wanneer kan ik een verhuizing aanvragen?
 
-|**Klanten met een land in**|**Begindatum aanvragen**|**Deadline aanvragen**|
+| Klanten met een land in | Begindatum aanvragen | Deadline aanvragen |
 |:-----|:-----|:-----|
 |Japan   <br/> |Donderdag 1 januari 2020  <br/> |30 juni 2020  <br/> |
 |Australië, Nieuw-Zeeland, Fiji  <br/> |Donderdag 1 januari 2020  <br/> |30 juni 2020  <br/> |
@@ -44,7 +44,7 @@ In aanmerking komende Microsoft 365-klanten kunnen voor hun gehele organisatie d
 |Zuid-Afrika  <br/> |Woensdag 25 juli 2019  <br/> |30 juni 2020  <br/> |
 |Zwitserland, Liechtenstein  <br/> |Dinsdag 10 december 2019  <br/> |30 juni 2020  <br/> |
 |Noorwegen  <br/> |Woensdag 15 april 2020  <br/> |30 oktober 2020  <br/> |
-|Duitsland  <br/> |Maandag 1 oktober 2020  <br/> |Dinsdag 31 maart 2021  <br/> |
+|Duitsland  <br/> |Overwogen  <br/> |Overwogen  <br/> |
 
 ## <a name="how-to-request-a-move"></a>Een overstap aanvragen
 
