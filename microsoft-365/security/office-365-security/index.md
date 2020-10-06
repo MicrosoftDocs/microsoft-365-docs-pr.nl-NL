@@ -13,13 +13,13 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Beveiliging in Office 365, van EOP tot ATP-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties, en meer, zodat u kunt begrijpen wat u hebt en hoe u uw eigenschappen kunt beveiligen.
-ms.openlocfilehash: bfce840aa05eaebecc1ec227c6c29bd11cb0a823
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+description: Beveiliging in Office 365, van EOP tot ATP-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties, en nog veel meer. Begrijpt wat u hebt en hoe u uw eigenschappen kunt beveiligen.
+ms.openlocfilehash: c5b357dc7a08eeef099b25172169d04cdb81e8c4
+ms.sourcegitcommit: 5abd5ef8c2903b4c3bd875da68049fde26768dcf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338708"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48359151"
 ---
 # <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
 
@@ -53,9 +53,9 @@ Laten we aan de hand van de architectuur eerst denken aan elk deel als cumulatie
 
 :::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="Placeholder graphic":::
 
-Hoewel elk van deze services een specifiek doel opneemt onder bescherming, detecteren, onderzoeken en beantwoorden, kunnen ***alle*** Services een van de doel ***stellingen van de*** bescherming, detectie, onderzoek en het reageren uitvoeren.
+Hoewel elk van deze services een doelstelling opneemt van het beschermen, detecteren, onderzoeken en beantwoorden, kunnen ***alle*** Services ***een van de*** doelstellingen van de beveiliging, detectie, onderzoek en reageren uitvoeren.
 
-De kern van Office 365 beveiliging is EOP bescherming. ATP P1 bevat EOP. ATP P2 bevat P1 en EOP. De structuur is cumulatief. Daarom moet u bij het configureren van de ATP eerst met EOP beginnen en de lagen samenwerken.
+De kern van Office 365 beveiliging is EOP bescherming. ATP P1 bevat EOP. ATP P2 bevat P1 en EOP. De structuur is cumulatief. Daarom moet u bij het configureren van dit product beginnen met EOP en werken met ATP.
 
 Hoewel configuratie van e-mail verificatie plaatsvindt in openbare DNS, is het belangrijk om deze functie te configureren om spoofing te verdedigen. *Als u gebruikmaakt van EOP,* ***moet u [e-mail verificatie configureren](https://docs.microsoft.com/microsoft-365/security/office-365-security/email-validation-and-authentication)***.
 
@@ -83,7 +83,7 @@ Met het toevoegen van ATP-abonnementen wordt een voordeel van het gebruik van ec
 beginnen met **Exchange Online Protection**:
 <p>
 
-|Voorkomen/detecteren  |Onderzoeken  |Vangen  |
+|Voorkomen/detecteren  |Onderzoeken  |Beantwoorden  |
 |---------|---------|---------|
 | Technologieën zijn:<ul><li>spam</li><li>Phish</li><li>malware</li><li>massale e-mail</li><li>spoof informatie</li><li>imitatie detectie</li><li>Beheerquarantaine</li><li>Beheerders en gebruikers inzendingen van onjuiste positieve en onjuiste negatieven</li><li>Toestaan/blokkeren voor Url's en bestanden</li><li>Rapporten</li></u1>|<li>Zoeken in audit logboek</li><li>Bericht traceren</li>|<li>Automatische opschooning van Zero-Hour (ZAP)</li><li>Verfijning en testen van de acceptatie-en blok lijsten</li>|
 
@@ -94,7 +94,7 @@ Omdat deze producten cumulatief zijn en u een abonnement op deze producten evalu
 Winst met **Advanced Threat Protection, abonnement 1** (naar datum):
 <p>
 
-|Voorkomen/detecteren  |Onderzoeken  |Vangen  |
+|Voorkomen/detecteren  |Onderzoeken  |Beantwoorden  |
 |---------|---------|---------|
 | Technologieën bevatten alles in EOP plus:<u1><li>Veilige bijlagen</li><li>Veilige koppelingen<li>ATP-beveiliging voor werkbelasting (ex. SharePoint Online, teams, OneDrive voor bedrijven)</li><li>Beveiliging van de tijd van klikken op e-mail, Office-clients en teams</li><li>ATP anti-phishing</li><li>De bescherming van gebruikers en domein imitatie</li><li>Waarschuwingen en integratie-API van SIEM voor waarschuwingen</li>|<li>SIEM-integratie-API voor detecties</li><li>**Functie voor detecteren van real time**</li><li>URL-tracering</li>|<li>Datzelfde</li></u1>
 
@@ -105,7 +105,7 @@ Met ATP P1 voegt u ook eenmalige **detectie van realtime** toe voor onderzoek. D
 Winst met **Advanced Threat Protection, abonnement 2** (tot datum):
 <p>
 
-|Voorkomen/detecteren  |Onderzoeken  |Vangen  |
+|Voorkomen/detecteren  |Onderzoeken  |Beantwoorden  |
 |---------|---------|---------|
 | Technologieën bevatten alles in EOP en ATP P1 plus:<u1><li>Datzelfde</li>|<li>**Bedreigingsverkenner**</li><li>Bedreigingsoverzichten</li><li>Campagne weergaven</li>|<li>Geautomatiseerd onderzoek en antwoord (lucht)</li><li>AIR van bedreigings Verkenner</li><li>AIR voor gebruikers met een veraangetaste</li><li>SIEM-integratie-API voor geautomatiseerde onderzoeken</li>
 
@@ -138,11 +138,11 @@ Aan de hand van deze naslaginformatie kunt u inzicht krijgen in de mogelijkheden
 - Als uw huidige abonnement Office 365 ATP niet bevat en u dit wilt, kunt u [contact opnemen met de verkoop om een proefabonnement te starten](https://go.microsoft.com/fwlink/p/?LinkId=518644)en erachter te komen hoe ATP in uw organisatie kan werken.
 
 > [!TIP]
-> ***Insider-tip***. Met de inhoudsopgave docs.microsoft.com kunt u meer lezen over EOP en ATP. Ga naar de beveiligings artikelen van [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) en u ziet dat de inhoudsopgave van de organisatie begint met evaluatie en implementatie (inclusief migratie), en verloopt vervolgens de preventie, detectie, onderzoek en reactie. <p> Dit is een deel van de onderdelen van **beveiligingsbeheer** , zodat onderwerpen over beveiligings **bewerkingen** worden gevolgd. Als u een nieuw lid bent van een van beide functie, gebruikt u de koppeling in deze tip en uw kennis van de inhoudsopgave om de ruimte te leren kennen. Let op het gebruik van *feedback koppelingen* en *tarief artikelen* . Feedback helpt ons wat we u bieden.
+> ***Insider-tip***. Met de inhoudsopgave docs.microsoft.com kunt u meer lezen over EOP en ATP. Ga terug naar deze pagina, [Office 365 Beveiligingsoverzicht](https://docs.microsoft.com/microsoft-365/security/office-365-security/?view=o365-worldwide), en u ziet dat de inhoudsopgave van de inhoudsopgave op de zijbalk wordt weergegeven. Het begint met de implementatie (inclusief migratie) en gaat verder met preventie, detectie, onderzoek en antwoord. <p> Dit is een deel van de onderdelen van **beveiligingsbeheer** , zodat onderwerpen over beveiligings **bewerkingen** worden gevolgd. Als u een nieuw lid bent van een van beide functie, gebruikt u de koppeling in deze tip en uw kennis van de inhoudsopgave om de ruimte te leren kennen. Let op het gebruik van *feedback koppelingen* en *tarief artikelen* . Feedback helpt ons wat we u bieden.
 
 ## <a name="where-to-go-next"></a>Waar u verder kunt gaan
 
-Als u een beveiligingsbeheerder bent, moet u mogelijk DKIM of DMARC configureren voor uw e-mail, de strikte beveiligings vooraf voorkeuren voor uw prioritaire gebruikers opgeven of u kunt zoeken naar nieuwe functies in het product. Als u met behulp van beveiligingsbewerkingen werkt, kunt u de detectie van realtime detecteren en beantwoorden, of de detectie van end gebruikers met behulp van aanvals Simulator voorkomen. Hier volgen enkele aanvullende aanbevelingen voor wat u verder moet bekijken.
+Als u een beveiligingsbeheerder bent, moet u mogelijk DKIM of DMARC configureren voor uw e-mailberichten. U kunt de strenge beveiligings vooraf voorkeuren voor uw prioriteits gebruikers invullen of de nieuwe functies in het product zoeken. Of als u met behulp van beveiligings-OPS werkt, kunt u de detectie van realtime en de bedreigings Verkenner toepassen om de detectie van eindgebruikers met aanvals Simulator te onderzoeken en te beantwoorden of te trainen. Hier volgen enkele aanvullende aanbevelingen voor wat u op de volgende manier kunt bekijken.
 
 [Verificatie via e-mail, waaronder SPF, DKIM en DMARC (met koppelingen naar de instellingen van alle drie)](https://docs.microsoft.com/microsoft-365/security/office-365-security/email-validation-and-authentication)
 
