@@ -15,14 +15,16 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: 21e6e3294b8fe722214d567963223b9e62737e34
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 7d1870d1b8972009bed657f476810ca011dc2621
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333676"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367975"
 ---
 # <a name="planning-your-pilot-microsoft-threat-protection-project"></a>Uw proefproject voor Microsoft Threat Protection plannen 
 
@@ -37,7 +39,7 @@ ms.locfileid: "48333676"
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
         <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Uw proefproject voor Microsoft Threat Protection plannen" />
-      <br/>Abonnement</a><br>
+      <br/>Plannen</a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">

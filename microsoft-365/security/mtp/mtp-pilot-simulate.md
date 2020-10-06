@@ -15,14 +15,16 @@ author: DulceMontemayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: be6bf277926cffb77dfcde425ef08a688fb0cf34
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: e6cf01f5540e383fb56e387cd07b455741221dc5
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333976"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48368091"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Simulaties van aanvallen van Microsoft Threat Protection uitvoeren  
 
@@ -458,7 +460,7 @@ Zorg ervoor dat u de velden vult met de duidelijkheid, zodat de volgende gebruik
 
 Voor deze pilot kunt u de regel beperkingen toepassen op een subset van testapparaten in uw productieomgeving.
 
-6.  Selecteer **maken**. Selecteer vervolgens **aangepaste detectieregels** in het navigatiedeelvenster.
+6.  Selecteer **Maken**.  Selecteer vervolgens **aangepaste detectieregels** in het navigatiedeelvenster.
  
     ![Schermafbeelding van de optie voor aangepaste detectieregels in het menu](../../media/mtp/fig27a.png) 
 
