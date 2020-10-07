@@ -15,38 +15,38 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 - m365solution-remotework
-- m365solution-overview
+- m365solution-scenario
 ms.custom: ''
 description: Train uw gebruikers en zorg ervoor dat problemen snel worden opgelost.
-ms.openlocfilehash: 1954a3768d2a35c3193aa523d6383b7b8257a6a0
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: b1dd55febcd23f6bb8413b0aa5c625f4b785babb
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521431"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377067"
 ---
-# <a name="step-6-train-remote-workers-and-address-usage-feedback"></a><span data-ttu-id="7dc58-103">Stap 6: Externe werknemers trainen en reageren op feedback over gebruik</span><span class="sxs-lookup"><span data-stu-id="7dc58-103">Step 6: Train remote workers and address usage feedback</span></span>
+# <a name="step-6-train-remote-workers-and-address-usage-feedback"></a><span data-ttu-id="5956f-103">Stap 6: Externe werknemers trainen en reageren op feedback over gebruik</span><span class="sxs-lookup"><span data-stu-id="5956f-103">Step 6: Train remote workers and address usage feedback</span></span>
 
-<span data-ttu-id="7dc58-104">Geef uw externe werknemers training in:</span><span class="sxs-lookup"><span data-stu-id="7dc58-104">Train your remote workers on:</span></span>
+<span data-ttu-id="5956f-104">Geef uw externe werknemers training in:</span><span class="sxs-lookup"><span data-stu-id="5956f-104">Train your remote workers on:</span></span>
 
-- <span data-ttu-id="7dc58-105">Juiste aanmeldprocedures met gebruik van MFA, waaronder het registreren van een aanvullende verificatiemethode.</span><span class="sxs-lookup"><span data-stu-id="7dc58-105">Proper sign-in procedures using MFA, including registering an additional verification method.</span></span>
-- <span data-ttu-id="7dc58-106">Het gebruik van apparaten en hoe eindpuntbeheerbeleid kan worden gebruikt om toegang te blokkeren voor niet-compatibele apparaten.</span><span class="sxs-lookup"><span data-stu-id="7dc58-106">The use of devices and how endpoint management policies can be used to block access for non-compliant devices.</span></span>
-- <span data-ttu-id="7dc58-107">Het gebruik van toegestane apps en hoe eindpuntbeheerbeleid voor apps kan worden gebruikt om het gebruik van apps te blokkeren.</span><span class="sxs-lookup"><span data-stu-id="7dc58-107">The use of allowed apps and how endpoint management application polices can be used to block the use of apps.</span></span>
-- <span data-ttu-id="7dc58-108">Beveiligingsfuncties van Windows 10 Enterprise.</span><span class="sxs-lookup"><span data-stu-id="7dc58-108">Windows 10 Enterprise security features.</span></span>
-- <span data-ttu-id="7dc58-109">Het gebruik van [Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) voor chatten, videovergaderingen, het delen van documenten en gesprekslijnen.</span><span class="sxs-lookup"><span data-stu-id="7dc58-109">How to use [Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) for chat, video-based conferencing, document sharing, and threaded conversations.</span></span>
-- <span data-ttu-id="7dc58-110">Het gebruik van [Outlook](https://support.office.com/article/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) voor e-mail en planningen.</span><span class="sxs-lookup"><span data-stu-id="7dc58-110">How to use [Outlook](https://support.office.com/article/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) for email and scheduling.</span></span>
-- <span data-ttu-id="7dc58-111">Het gebruik van [SharePoint](https://support.office.com/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23)-teamsites of -communicatiesites en [OneDrive](https://support.office.com/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132)-mappen om te bladeren in en samen te werken aan bestanden in de bibliotheek van een gebruiker of een groep.</span><span class="sxs-lookup"><span data-stu-id="7dc58-111">How to use [SharePoint](https://support.office.com/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23) team or communication sites and [OneDrive](https://support.office.com/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132) folders to browse and collaborate on files in a user's library and those belonging to a group.</span></span>
+- <span data-ttu-id="5956f-105">Juiste aanmeldprocedures met gebruik van MFA, waaronder het registreren van een aanvullende verificatiemethode.</span><span class="sxs-lookup"><span data-stu-id="5956f-105">Proper sign-in procedures using MFA, including registering an additional verification method.</span></span>
+- <span data-ttu-id="5956f-106">Het gebruik van apparaten en hoe eindpuntbeheerbeleid kan worden gebruikt om toegang te blokkeren voor niet-compatibele apparaten.</span><span class="sxs-lookup"><span data-stu-id="5956f-106">The use of devices and how endpoint management policies can be used to block access for non-compliant devices.</span></span>
+- <span data-ttu-id="5956f-107">Het gebruik van toegestane apps en hoe eindpuntbeheerbeleid voor apps kan worden gebruikt om het gebruik van apps te blokkeren.</span><span class="sxs-lookup"><span data-stu-id="5956f-107">The use of allowed apps and how endpoint management application polices can be used to block the use of apps.</span></span>
+- <span data-ttu-id="5956f-108">Beveiligingsfuncties van Windows 10 Enterprise.</span><span class="sxs-lookup"><span data-stu-id="5956f-108">Windows 10 Enterprise security features.</span></span>
+- <span data-ttu-id="5956f-109">Het gebruik van [Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) voor chatten, videovergaderingen, het delen van documenten en gesprekslijnen.</span><span class="sxs-lookup"><span data-stu-id="5956f-109">How to use [Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) for chat, video-based conferencing, document sharing, and threaded conversations.</span></span>
+- <span data-ttu-id="5956f-110">Het gebruik van [Outlook](https://support.office.com/article/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) voor e-mail en planningen.</span><span class="sxs-lookup"><span data-stu-id="5956f-110">How to use [Outlook](https://support.office.com/article/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) for email and scheduling.</span></span>
+- <span data-ttu-id="5956f-111">Het gebruik van [SharePoint](https://support.office.com/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23)-teamsites of -communicatiesites en [OneDrive](https://support.office.com/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132)-mappen om te bladeren in en samen te werken aan bestanden in de bibliotheek van een gebruiker of een groep.</span><span class="sxs-lookup"><span data-stu-id="5956f-111">How to use [SharePoint](https://support.office.com/article/sharepoint-online-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23) team or communication sites and [OneDrive](https://support.office.com/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132) folders to browse and collaborate on files in a user's library and those belonging to a group.</span></span>
 
-<span data-ttu-id="7dc58-112">Bij deze training horen praktijkoefeningen, zodat uw werknemers deze functies en de resultaten ervan kunnen ervaren.</span><span class="sxs-lookup"><span data-stu-id="7dc58-112">This training should include hands-on exercises so that your workers can experience these capabilities and their results.</span></span>
+<span data-ttu-id="5956f-112">Bij deze training horen praktijkoefeningen, zodat uw werknemers deze functies en de resultaten ervan kunnen ervaren.</span><span class="sxs-lookup"><span data-stu-id="5956f-112">This training should include hands-on exercises so that your workers can experience these capabilities and their results.</span></span>
 
-<span data-ttu-id="7dc58-113">In de weken na de training:</span><span class="sxs-lookup"><span data-stu-id="7dc58-113">In the weeks after training:</span></span>
+<span data-ttu-id="5956f-113">In de weken na de training:</span><span class="sxs-lookup"><span data-stu-id="5956f-113">In the weeks after training:</span></span>
 
-- <span data-ttu-id="7dc58-114">Verwerk de feedback van externe werknemers snel en verfijn beleidsregels en configuraties.</span><span class="sxs-lookup"><span data-stu-id="7dc58-114">Quickly address remote worker feedback and fine tune policies and configurations.</span></span>
-- <span data-ttu-id="7dc58-115">Analyseer het gebruik voor teams, e-mail, SharePoint-sites en OneDrive-mappen en vergelijk dit met de gebruiksverwachtingen.</span><span class="sxs-lookup"><span data-stu-id="7dc58-115">Analyze usage for teams, email, SharePoint sites, and OneDrive folders and compare it with usage expectations.</span></span>
+- <span data-ttu-id="5956f-114">Verwerk de feedback van externe werknemers snel en verfijn beleidsregels en configuraties.</span><span class="sxs-lookup"><span data-stu-id="5956f-114">Quickly address remote worker feedback and fine tune policies and configurations.</span></span>
+- <span data-ttu-id="5956f-115">Analyseer het gebruik voor teams, e-mail, SharePoint-sites en OneDrive-mappen en vergelijk dit met de gebruiksverwachtingen.</span><span class="sxs-lookup"><span data-stu-id="5956f-115">Analyze usage for teams, email, SharePoint sites, and OneDrive folders and compare it with usage expectations.</span></span>
 
-<span data-ttu-id="7dc58-116">School de gebruikers indien nodig bij.</span><span class="sxs-lookup"><span data-stu-id="7dc58-116">Then, retrain your users as needed.</span></span>
+<span data-ttu-id="5956f-116">School de gebruikers indien nodig bij.</span><span class="sxs-lookup"><span data-stu-id="5956f-116">Then, retrain your users as needed.</span></span>
 
-## <a name="results-of-step-6"></a><span data-ttu-id="7dc58-117">Resultaten van stap 6</span><span class="sxs-lookup"><span data-stu-id="7dc58-117">Results of Step 6</span></span>
+## <a name="results-of-step-6"></a><span data-ttu-id="5956f-117">Resultaten van stap 6</span><span class="sxs-lookup"><span data-stu-id="5956f-117">Results of Step 6</span></span>
 
-<span data-ttu-id="7dc58-118">Uw externe werknemers zijn getraind en er is een responsief en open forum voor hen om feedback te geven en problemen te publiceren met betrekking tot externe toegang en productiviteits-apps en -services.</span><span class="sxs-lookup"><span data-stu-id="7dc58-118">Your remote workers are trained and there is a responsive and open forum for them to provide feedback and post issues with remote access and productivity apps and services.</span></span>
+<span data-ttu-id="5956f-118">Uw externe werknemers zijn getraind en er is een responsief en open forum voor hen om feedback te geven en problemen te publiceren met betrekking tot externe toegang en productiviteits-apps en -services.</span><span class="sxs-lookup"><span data-stu-id="5956f-118">Your remote workers are trained and there is a responsive and open forum for them to provide feedback and post issues with remote access and productivity apps and services.</span></span>
 
