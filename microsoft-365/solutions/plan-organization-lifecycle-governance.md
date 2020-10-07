@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Opties voor het beheer van de levenscyclus van functies voor samenwerking in Microsoft 365
-ms.openlocfilehash: 2a2f14bf439ec69e4609d22783fb14d1d5cb8e70
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 706f1aaecf22c4088d4539c208fef68320c5e710
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662569"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377185"
 ---
 # <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Beheer organisatie en levenscyclusbeheer voor Microsoft 365-groepen en Microsoft teams
 

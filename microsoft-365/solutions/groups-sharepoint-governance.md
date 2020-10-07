@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over instellingen interacties tussen Microsoft 365 groepen en SharePoint
-ms.openlocfilehash: 0c9fdd69db82985039bae03768aa0c19f514c99f
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: e8d4189c2d945d5a6d2aa78bd7ea980a77360ce0
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662584"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377555"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-and-sharepoint"></a>Instellingen interacties tussen Microsoft 365 groepen en SharePoint
 
@@ -41,7 +42,7 @@ Bepaalde instellingen voor Microsoft 365-groepen en SharePoint in Microsoft 365,
 
 |Instelling voor Microsoft 365-groepen|Beschrijving|Effect op SharePoint|Aanbeveling|
 |:---------------------------|:----------|:-------------------|:-------------|
-|Naamgevingsbeleid|Hiermee geeft u de naam van de groepsnaam en achtervoegsels en de geblokkeerde woorden voor het maken van een groep op|Beleidsregels worden afgedwongen voor gebruikers die met een groep verbonden team sites maken, maar geen Communicatiesites of sites met andere sjablonen.|Maak indien nodig aparte instructies voor de naamgeving van Communicatiesites.|
+|Beleid voor naamgeving|Hiermee geeft u de naam van de groepsnaam en achtervoegsels en de geblokkeerde woorden voor het maken van een groep op|Beleidsregels worden afgedwongen voor gebruikers die met een groep verbonden team sites maken, maar geen Communicatiesites of sites met andere sjablonen.|Maak indien nodig aparte instructies voor de naamgeving van Communicatiesites.|
 |Gasttoegang voor groepen|Hiermee geeft u op of personen buiten de organisatie kunnen worden toegevoegd aan groepen.|Als de instellingen voor SharePoint en groepen niet overeenkomen, is het mogelijk dat gasten in de groep zijn geblokkeerd voor het openen van de site of omdat externe toegang beschikbaar is op de site, maar niet op de groep.|Wanneer u instellingen voordelen wijzigt, schakelt u de optie beide groepen en de instellingen van de SharePoint-site in voor team sites die met groepen zijn verbonden.<br><br>Zie [samenwerken met gasten op een site](https://docs.microsoft.com/microsoft-365/solutions/collaborate-in-site)|
 |Groepen maken op basis van beveiligingsgroep|Groepen kunnen alleen worden gemaakt door leden van een bepaalde beveiligingsgroep.|Gebruikers die geen lid zijn van de beveiligingsgroep, kunnen geen team site met een groep maken.|Zorg ervoor dat uw proces voor het aanvragen van een groep de instructies bevat voor het aanvragen van een site.|
 |Verloopbeleid voor groepen|Hiermee wordt een periode opgegeven waarna groepen die niet actief worden gebruikt, automatisch worden verwijderd.|Wanneer de groep is verwijderd, wordt de gekoppelde SharePoint-site ook verwijderd. Inhoud die is beveiligd met een bewaarbeleid blijft behouden.|Gebruik verloopbeleid om sprawl van ongebruikte groepen en sites te voorkomen.|

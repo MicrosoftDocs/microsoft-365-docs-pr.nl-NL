@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over nalevings opties voor Microsoft 365 groepen, teams en de samenwerking via SharePoint.
-ms.openlocfilehash: cc8f7391b03cc65ba66cca6cf010137e3843ab05
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 0383b0728d9b8ea12ce75de8bf0e250932d14ae5
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662577"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377531"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Nalevings opties voor Microsoft 365 groepen, teams en de samenwerking via SharePoint
 
@@ -27,7 +28,7 @@ Microsoft 365 biedt een volledige suite met hulpmiddelen waarmee naleving kan wo
 
 De volgende tabel bevat een beknopt overzicht van de besturingselementen voor naleving die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
-|Categorie|Beschrijving|Kruisverwijzingsnr|
+|Categorie|Beschrijving|Verwijzing|
 |:-------|:----------|:--------|
 |Informatie retentie|||
 ||Groepen e-mail en SharePoint-inhoud bewaren|[Meer informatie over bewaarbeleid voor SharePoint en OneDrive](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)|
@@ -36,7 +37,7 @@ De volgende tabel bevat een beknopt overzicht van de besturingselementen voor na
 ||Groepen en teams classificeren|[De beschikbaarheid van labels gebruiken om inhoud te beschermen in Microsoft teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)|
 ||Gevoelige inhoud automatisch classificeren|[Een vertrouwelijkheidslabel automatisch toepassen op inhoud](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)|
 ||Gevoelige inhoud versleutelen|[Toegang tot inhoud beperken door versleuteling toe te passen met vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)|
-|Informatiebescherming|||
+|Gegevensbescherming|||
 ||Voorkomen dat vertrouwelijke informatie verloren gaat|[Overzicht van preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
 ||Beveilig gevoelige informatie in chat.|[Preventie van gegevensverlies en Microsoft teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)|
 ||De gevoelige informatie van uw organisatie definiëren|[Aangepaste gevoelige informatietypen](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)|
@@ -86,7 +87,7 @@ Aanvullende informatiebronnen:
 - [Meer informatie over vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
 
 
-## <a name="information-protection"></a>Informatiebescherming
+## <a name="information-protection"></a>Gegevensbescherming
 
 DLP-beleidsregels kunnen voorkomen dat vertrouwelijke gegevens in SharePoint, Exchange en teams met onbedoeld delen worden gedeeld. U kunt beleidsregels maken om te bepalen welke acties worden uitgevoerd (zoals het blokkeren van toegang) op basis van een set regels.
 

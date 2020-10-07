@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van Microsoft-productiviteits Score.
-ms.openlocfilehash: 7c323d51bcd8a1bead28677e399891ccd0a22950
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: 82dc26aea5c573b63bb66d087b332e3301e71409
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285187"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376971"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft-productiviteits Score (preview)
 
-Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met inzichten over de manier waarop mensen Microsoft 365 gebruiken en de technologie ervaring die deze ondersteunen. De score toont de prestaties van uw organisatie aan de hand van maateenheden voor werknemers en technologieën en vergelijkt uw score met organisaties zoals uw eigen.
+Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met inzichten over de manier waarop mensen Microsoft 365 gebruiken en de technologie ervaring die deze ondersteunen. De score geeft de prestaties van uw organisatie aan de werking van mensen en technologieën en vergelijkt uw score met organisaties als uw eigen.
 
 De Score omvat:
 
@@ -39,7 +39,7 @@ De Score omvat:
 
 We bieden gegevens, inzichten en aanbevelingen in twee gedeelten: 
 
-- **Werknemers ervaring:** We meten de manier waarop mensen aan inhoud samenwerken, hoe ze Microsoft 365-producten gebruiken voor communicatie en of ze Microsoft 365 gebruiken op verschillende platforms. 
+- **Gebruikerservaring:** We meten de manier waarop mensen aan inhoud samenwerken, hoe ze Microsoft 365-producten gebruiken voor communicatie en of ze Microsoft 365 gebruiken op verschillende platforms. 
 
     We bieden deze inzichten omdat ze online samenwerken, maar ze besparen tijd. Met de vrijheid om op elk apparaat te werken, zijn ze productief en tevreden. Door een flexibele manier te communiceren, maakt u mensen efficiënter, maakt u betere relaties en uw organisatie samen. Zie [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)voor bewijzen.
 
@@ -50,7 +50,7 @@ Zie [Wat is Eindpunts analyse](https://docs.microsoft.com/mem/analytics/overview
 
 ## <a name="how-the-score-is-calculated"></a>Hoe de score wordt berekend
 
-De productiviteits Score is gebaseerd op de gecombineerde cijfers van de categorieën voor werknemers en technologie ervaring. Elke categorie wordt gelijkelijk gewogen, met een totaal van 100 punten per categorie. De totale hoeveelheid mogelijke punten voor de productiviteits Score zijn 500.
+De productiviteits Score is gebaseerd op de gecombineerde cijfers van de categorieën mensen en technologie. Elke categorie wordt gelijkelijk gewogen, met een totaal van 100 punten per categorie. De totale hoeveelheid mogelijke punten voor de productiviteits Score zijn 500.
 
 ### <a name="score-categories"></a>Score Categorieën 
 
@@ -72,7 +72,7 @@ Uw score wordt dagelijks bijgewerkt en weerspiegelt de acties van gebruikers die
 
 ## <a name="pre-requisites"></a>Vereisten 
 
-U hebt een Microsoft 365 voor bedrijven-of Office 365 voor Enterprise-abonnement nodig om informatie te krijgen over werknemers ervaring, en u moet gebruikmaken van meerdere tenants van cloudservices. Als u gegevens voor de Endpoint Analytics wilt voor de Tenant, moet u Microsoft intune toevoegen aan uw abonnement. Met intune kunt u de gegevens van uw organisatie beschermen door apparaten en apps te beheren.       Wanneer u intune hebt ingeschakeld, kunt u eindpunt analyse inschakelen in de intune-ervaring. Meer informatie over Microsoft intune. 
+U hebt een Microsoft 365 voor bedrijven-of Office 365 voor Enterprise-abonnement nodig om de gegevens van personen te kunnen weergeven, en u moet gebruikmaken van multi-tenant cloudservices. Als u gegevens voor de Endpoint Analytics wilt voor de Tenant, moet u Microsoft intune toevoegen aan uw abonnement. Met intune kunt u de gegevens van uw organisatie beschermen door apparaten en apps te beheren.       Wanneer u intune hebt ingeschakeld, kunt u eindpunt analyse inschakelen in de intune-ervaring. Meer informatie over Microsoft intune. 
 
 Als u de productiviteits score voor uw organisatie wilt weergeven, moet u beschikken over een van de volgende rollen: 
 
@@ -94,17 +94,17 @@ Op de startpagina van de productiviteits Score ziet u de totale score en de Scor
 
 **Uw score** wordt weergegeven als percentagewaarde en in punten, zodat u uw punten (teller) en maximum aantal mogelijke punten (noemer) kunt zien.
 
-Met behulp van **peer-benchmarks** kunt u uw score vergelijken met organisaties zoals uw eigen. Voor de categorieën werknemers ervaring wordt de benchmark-meting berekend als het gemiddelde van maateenheden binnen een set soortgelijke organisaties. De set is samengesteld uit organisaties in uw regio met een vergelijkbaar aantal gebruikers met een licentie, typen licenties, bedrijfstak en tenure met Microsoft 365. 
+Met behulp van **peer-benchmarks** kunt u uw score vergelijken met organisaties zoals uw eigen. Voor de categorieën personen-ervaring wordt de Bench aanduiding voor de peer berekend als het gemiddelde van maateenheden binnen een set soortgelijke organisaties. De set is samengesteld uit organisaties in uw regio met een vergelijkbaar aantal gebruikers met een licentie, typen licenties, bedrijfstak en tenure met Microsoft 365. 
 
 De peer Bench endpoint Analytics bevat doelen voor de prestaties van het opstarten van apparaten en aanbevolen softwareconfiguratie op basis van geaggregeerde mediaan waarden in alle tenants.
 
 Voor netwerkverbinding is het aanbevolen benchmark 80-Points.
 
-De sectie **Score analyse** biedt een overzicht van de productiviteits Score met benchenen van werknemers en technologie ervaring.
+De sectie **Score analyse** biedt een overzicht van de productiviteits Score met benchenen voor de gebieden personen en technologie ervaring.
 
 Met Score geschiedenis wordt weergegeven hoe de Score van een categorie in de afgelopen zes maanden is gewijzigd.
 
-De gebieden **werknemers ervaring** en **technologie ervaring** bevatten de primaire inzichten van de categorieën in die gebieden. U kunt op elke categorie klikken om diepere inzichten te zien.
+De gebieden **mensen ervaring** en **technologie ervaring** bevatten de primaire inzichten van de categorieën op die gebieden. U kunt op elke categorie klikken om diepere inzichten te zien.
 
 ## <a name="category-details-pages"></a>De pagina's categorie Details
 

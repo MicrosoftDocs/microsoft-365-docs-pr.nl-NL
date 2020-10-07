@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over instellingen interacties tussen Microsoft 365 groepen, teams en SharePoint
-ms.openlocfilehash: 3ad5011c2d7b4579e054b014237d5771049b3c91
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 3a6d4e057f88410a8808ea133bf7e579d0041228
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662583"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377543"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-teams-and-sharepoint"></a>Instellingen interacties tussen Microsoft 365 groepen, teams en SharePoint
 
@@ -41,7 +42,7 @@ Bepaalde instellingen voor Microsoft 365-groepen, Microsoft teams en SharePoint 
 
 |Instelling voor Microsoft 365-groepen|Beschrijving|Effect op teams|Aanbeveling|
 |:---------------------------|:----------|:--------------|:-------------|
-|Naamgevingsbeleid|Hiermee geeft u de naam van de groepsnaam en achtervoegsels en de geblokkeerde woorden voor het maken van een groep op|Beleidsregels worden afgedwongen voor gebruikers die teams maken.||
+|Beleid voor naamgeving|Hiermee geeft u de naam van de groepsnaam en achtervoegsels en de geblokkeerde woorden voor het maken van een groep op|Beleidsregels worden afgedwongen voor gebruikers die teams maken.||
 |Gasttoegang voor groepen|Hiermee geeft u op of personen buiten de organisatie kunnen worden toegevoegd aan groepen.|Als de instellingen voor gast delen van de groepen of teams zijn uitgeschakeld, kan het team niet worden gedeeld met gasten.|Wanneer u instellingen voor het delen van gasten wijzigt, controleert u de instellingen voor teams, groepen en de SharePoint-site die is gekoppeld aan het team.<br><br> Zie [samenwerken met gasten in een team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)|
 |Groepen maken op basis van beveiligingsgroep|Groepen kunnen alleen worden gemaakt door leden van een bepaalde beveiligingsgroep.|Gebruikers die geen lid zijn van de beveiligingsgroep, kunnen geen team maken.|Zorg ervoor dat uw proces voor het aanvragen van een groep de instructies bevat voor het aanvragen van een team of een SharePoint-site.|
 |Verloopbeleid voor groepen|Hiermee wordt een periode opgegeven waarna groepen die niet actief worden gebruikt, automatisch worden verwijderd.|Wanneer de groep is verwijderd, worden het team en de gekoppelde SharePoint-site ook verwijderd. Inhoud die is beveiligd met een bewaarbeleid blijft behouden.|Gebruik een verloopbeleid om te voorkomen dat ongebruikte teams, groepen en sites worden sprawl.|

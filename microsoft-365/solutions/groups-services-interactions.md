@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Interacties tussen groepen Services
-ms.openlocfilehash: 9632debf1bc6fdd2fce061a4c535906410700175
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 235a897314a784ba3bb1ac50fe8bdfe9986a70d3
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662587"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377627"
 ---
 # <a name="groups-services-interactions"></a>Interacties tussen groepen Services
 
@@ -112,15 +113,15 @@ De volgende tabel bevat een overzicht van Microsoft 365 groepen interacties met 
 |:---|:---|:---|:---|:---|
 |Azure AD|Lidmaatschap, besturingselementen voor groepen, gasten|Ja|Ja|Ja|
 |Exchange|Agenda, Postvak|Ja|Ja|Ja|
-|Vormen|Trans|Ja|Nee|Nee|
+|Forms|Trans|Ja|Nee|Nee|
 |OneNote|Terechtkom|Ja|Nee|Nee|
 |Planner|Takenbord|Nee|Ja|Ja|
 |Power apps-app|App|Ja|Nee|Nee|
 |Automatisch aan de macht|Workflowregels|Ja|Nee|Nee|
-|Power BI (klassiek)|Vinden|Nee|Ja|Ja|
-|Power BI (nieuw)|Vinden|Ja|Nee|Ja|
+|Power BI (klassiek)|Workspace|Nee|Ja|Ja|
+|Power BI (nieuw)|Workspace|Ja|Nee|Ja|
 |Project voor het web|Project plan|Ja|Ja|Nee|
-|Routekaart|Routekaart|Ja|Ja|Nee|
+|Roadmap|Roadmap|Ja|Ja|Nee|
 |SharePoint|Site|Ja|Ja|Ja|
 |Stream|Kanaal, video|Ja|Ja|Ja|
 |Teams|Ondersteuning|Nee|Ja|Ja|
@@ -136,7 +137,7 @@ Azure AD biedt de onderliggende functies voor Identiteitsbeheer in Microsoft 365
 
 - Groepslidmaatschap
 - Naam beleid
-- Verloopbeleid
+- Vervalbeleid
 - Gast
 - Beperking van het maken van groepen
 
@@ -234,7 +235,7 @@ Nee, het postvak en de agenda kunnen niet worden gewijzigd in een andere groep. 
 
 Ja, als u het postvak in Exchange verwijdert, wordt de groep verwijderd en worden ook services en inhoud die aan de groep zijn gekoppeld.
 
-## <a name="forms"></a>Vormen
+## <a name="forms"></a>Forms
 
 Forms biedt enquêtes en toetsen voor het web.
 
@@ -333,7 +334,7 @@ Nee, als u een plan kopieert, wordt een nieuwe groep gemaakt.
 
 Ja, als u een plan verwijdert, worden de services en inhoud van de groep en groep verwijderd.
 
-## <a name="power-apps"></a>Power-apps
+## <a name="power-apps"></a>Power Apps
 
 Power-apps bieden een canvas voor het ontwikkelen van apps zonder code.
 
@@ -499,7 +500,7 @@ Nee, als de koppeling met een groep is gemaakt, kan deze niet worden gewijzigd.
 
 Nee, als u het project verwijdert in project voor het web, wordt de groep niet verwijderd.
 
-## <a name="roadmap"></a>Routekaart
+## <a name="roadmap"></a>Roadmap
 
 Routekaart biedt de mogelijkheid project plannen te maken met project voor Internet en project online.
 

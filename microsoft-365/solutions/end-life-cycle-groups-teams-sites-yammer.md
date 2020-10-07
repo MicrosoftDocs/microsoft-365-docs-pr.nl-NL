@@ -10,16 +10,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365solution-collabgovernance
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Opties voor het einde van de levenscyclus voor groepen, teams en Yammer.
-ms.openlocfilehash: ab06f06cc65614ee313892a026c2f482d641791f
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 3720f63f99711a09d02675f10a7d639fe1bedc65
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662559"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377173"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Opties voor het einde van de levenscyclus voor groepen, teams en Yammer
 
@@ -32,14 +33,14 @@ In de volgende tabel vindt u een overzicht van de services die zijn gekoppeld aa
 |Service|Inhoudstypen|
 |:------|:---------------|
 |Teams|Kanaal gesprekken, bestanden in kanalen|
-|Vormen|Structuur en resultaten van enquête|
+|Forms|Structuur en resultaten van enquête|
 |OneNote|Terechtkom|
 |Outlook|E-mail en agenda|
 |Planner|Project status en taakgegevens|
 |Automatisch aan de macht|Workflowtypen|
 |Power BI|Gegevens, rapporten en dashboards|
 |Project op het web|Project plannen|
-|Routekaart|Roadmaps|
+|Roadmap|Roadmaps|
 |SharePoint|Bestanden, lijsten, wiki-kanaal gegevens voor teams|
 |Stream|Video's|
 |Yammer|Communicatie|
@@ -58,7 +59,7 @@ Moet de inhoud worden bewaard nadat het team niet langer functioneel of niet bes
 
 Voordat u potentiële gegevensverlies kunt vermijden, moet u eerst eerst vragen om een team te bevestigen of te verwijderen.
 
-**Reparatie**
+**Services**
 
 Voor de inhoud van diverse apps en services moet de inhoud in het huidige werk formulier blijven staan? Als u bijvoorbeeld het Power BI-rapport toegankelijker wilt maken, moet u de formulierresultaten beschikbaar maken in de weergave visuele samenvatting, zijn de lijsten in SharePoint gekoppeld aan of worden ingesloten.
 
@@ -100,7 +101,7 @@ Hoewel de inhoud van de kanaal gesprekken en de inhoud van de SharePoint-site wo
 - Video's kunnen nog steeds worden geüpload, gewijzigd en verwijderd in de stream
 - Stromen in Power Automatiseer kunnen nog steeds worden gemaakt, gewijzigd, verwijderd en worden uitgevoerd (ze kunnen echter niet worden uitgevoerd, indien nodig een bericht plaatsen in een kanaal van het gearchiveerde team)
 
-## <a name="forms"></a>Vormen
+## <a name="forms"></a>Forms
 
 Hoewel een formulier van een ander account naar een groep kan worden verplaatst, kan het niet worden verplaatst of gekopieerd van de ene groep naar de andere. Er zijn drie opties beschikbaar voor een formulier wanneer een team wordt verwijderd.
 
@@ -192,7 +193,7 @@ Als het rapport in de functionele stand van de groep of het team moet blijven st
 
 Als het rapport niet langer actief hoeft te zijn, maar de gegevens moeten worden bewaard, kan het worden [geëxporteerd naar Excel](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
 
-## <a name="project"></a>Projector
+## <a name="project"></a>Project
 
 Projecten en route plannen die zijn gemaakt in de webversie van project, kunnen worden gekoppeld aan Microsoft 365 groepen en bieden methoden voor offboarding die vergelijkbaar is met Power BI.
 

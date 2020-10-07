@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
+- m365solution-collabgovernance
 search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Lees hoe u leden toestaat e-mail te verzenden als een Microsoft 365-groep of e-mail te verzenden namens een groep Microsoft 365.
-ms.openlocfilehash: b660131798e60182435a69f479411cdec948bc99
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 9ccaeff49914dd5b510beb80f40a3a3b790ce831
+ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662563"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48377591"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Toestaan dat leden namens een groep verzenden of verzenden
 
@@ -50,7 +50,7 @@ In deze sectie wordt uitgelegd hoe u gebruikers kunt toestaan e-mail te verzende
     
 4. Selecteer in de sectie **verzenden als** het **+** teken om de gebruikers toe te voegen die u als de groep wilt verzenden. 
     
-    ![Selecteer het plusteken om de gebruikers toe te voegen die u wilt verzenden als de Microsoft 365-groep](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
+    ![Schermafbeelding van het dialoogvenster verzenden als](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
 5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan**.
     
@@ -68,7 +68,7 @@ In deze sectie wordt uitgelegd hoe u gebruikers kunt toestaan e-mail te verzende
     
 4. Selecteer in de sectie verzenden namens het **+** teken om de gebruikers toe te voegen die u als de groep wilt verzenden. 
     
-    ![Selecteer het plusteken om de gebruikers toe te voegen die u wilt verzenden als de Microsoft 365-groep](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
+    ![Schermafbeelding van het dialoogvenster Verzenden namens](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
 5. Typ om te zoeken of kies een gebruiker uit de lijst. Selecteer **OK** en **Opslaan**.
     

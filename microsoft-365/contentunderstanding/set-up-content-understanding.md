@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 7fb5998729c9f11902f8fdfaffa62b160928077c
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 0d66076c93eb46ca11977cea12417c0816e0d11b
+ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321347"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367929"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -43,11 +43,9 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
 
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
-1. Selecteer **Instellingen** in het Microsoft 365-beheercentrum en bekijk het gedeelte **Organisatiekennis**.
+1. Selecteer **Instellingen** in het Microsoft 365-beheercentrum en bekijk het gedeelte **Bestanden en inhoud**.
 
-2. Selecteer onder **Organisatiekennis** de optie **Inhoudsbegrip automatiseren**.<br/>
-
-    ![Instellingenpagina Organisatiekennis](../media/content-understanding/admin-org-knowledge-options.png)</br>
+2. Selecteer onder **Bestanden en inhoud** de optie **Inhoudsbegrip automatiseren**.<br/>
 
 3. Klik op de pagina **Inhoudsbegrip automatiseren** op **Aan de slag** om het installatieproces te doorlopen.<br/>
 
