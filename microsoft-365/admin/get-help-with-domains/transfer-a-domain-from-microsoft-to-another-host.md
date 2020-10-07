@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: 'Ga naar de stapsgewijze instructies voor het overzetten van een domein van Microsoft naar een andere bewaarder. '
-ms.openlocfilehash: c5c1e98ed14c3ac975e55aadbff65e52165a6f8b
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: d960b57a2c82b804d61ead1c672c00f0543b3ae8
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289169"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370322"
 ---
 # <a name="transfer-a-domain-from-microsoft-to-another-host"></a>Een domein van Microsoft overbrengen naar een andere host
 
@@ -55,13 +55,16 @@ Ga als volgt te werk om een code te vinden bij Microsoft 365 en ga vervolgens na
 
 7. Kopieer de autorisatiecode en wacht ongeveer 30 minuten voordat u de status van uw domein overzetten wilt wijzigen in **ontgrendeld voor overdracht** op het tabblad **registreren** voordat u verder gaat met de volgende stappen.
 
-8. Ga naar de website van het domein registratieprogramma waarop u uw domeinnaam verder wilt beheren. Volg de aanwijzingen voor het overdragen van een domein (Zoek de Help op hun website).
+8. Ga naar de website van het domein registratieprogramma waarop u uw domeinnaam verder wilt beheren. Volg de aanwijzingen voor het overdragen van een domein (Zoek de Help op hun website). Dit betekent meestal dat u overschrijvings kosten betaalt en de Authcode naar de nieuwe registratieservice draagt, zodat ze de overdracht kunnen initiëren. Microsoft verstuurt u een e-mailbericht om te bevestigen dat u de overdrachtsaanvraag hebt ontvangen en dat het domein binnen 5 dagen zal overzetten.
 
-U vindt het tabblad autorisatiecode **registreren** op de pagina  **domeinen** in Microsoft 365.
+    U vindt het tabblad autorisatiecode **registreren** op de pagina  **domeinen** in Microsoft 365.
+    
+    > [!TIP]
+    > voor UK-domeinen is een andere procedure vereist. Neem contact op met Microsoft ondersteuning en vraag een IP-adres van een **IPS-wijziging** aan de bewaarder van uw domein dat u wilt beheren. Wanneer het label is gewijzigd, wordt het domein direct overgebracht naar de nieuwe bewaarder. U moet vervolgens met de nieuwe bewaarder samenwerken om de overdracht te voltooien, waarschijnlijk kosten in rekening te brengen en het overgedragen domein toe te voegen aan uw account met uw nieuwe bewaarder.
 
 9. Na het overzetten verlengt u uw domein bij de nieuwe domeinregistratie.
 
-10. Om het proces te voltooien, gaat u terug naar de pagina **domeinen** in het Beheercentrum en selecteert u vervolgens  **domein overdracht voltooien**.
+10. Om het proces te voltooien, gaat u terug naar de pagina **domeinen** in het Beheercentrum en selecteert u vervolgens  **domein overdracht voltooien**. Hiermee wordt het domein gemarkeerd als niet langer aangeschaft bij Microsoft 365 en wordt het domein abonnement uitgeschakeld. Het domein wordt niet van de Tenant verwijderd en heeft geen invloed op bestaande gebruikers en postvakken op het domein.
 
 > [!NOTE]
 > Aangeschafte domeinen van Microsoft 365 komen niet in aanmerking voornaam server wijzigingen of het overbrengen van het domein tussen Microsoft 365-organisaties. Als een van deze twee is vereist, moet u de domeinregistratie overzetten naar een andere bewaarder.

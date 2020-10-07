@@ -1,9 +1,8 @@
 ---
-title: Microsoft 365 Networking partner programma
+title: Microsoft 365 Networking Partner Program
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/07/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,14 +16,14 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: Met het Microsoft 365-programma partner programma kunt u uw apparaat gecertificeerde functies gebruiken voor Microsoft 365.
 hideEdit: true
-ms.openlocfilehash: fb4a7c9543c6928eefbd62fc6b94e6bdab93e86d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 4f47b4d58dacf9578952f18668f2a0a89752f30f
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689401"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370356"
 ---
-# <a name="microsoft-365-networking-partner-program"></a>Microsoft 365 Networking partner programma
+# <a name="microsoft-365-networking-partner-program"></a>Microsoft 365 Networking Partner Program
 
 Netwerkconnectiviteit heeft directe gevolgen voor de mogelijkheid van de gebruikers om snel te werken, effectief samen te werken en bedrijfsprocessen te stroomlijnen met Microsoft 365. Voor klanten in elke fase van de digitale transformatie is een belangrijke hoogte die moet worden gebruikt om problemen met negatieve impact van de gebruikerservaring op te lossen.
 
@@ -40,4 +39,4 @@ Het Microsoft 365-hulpprogramma voor Microsoft-netwerken geeft gekwalificeerde n
 
 Als u een Microsoft 365-klant bent, kunt u dit programma via deze pagina doorvoeren voor de netwerksolution provider [https://aka.ms/Office365NPP](https://aka.ms/Office365NPP) .
 
-Voor netwerksolution providers die u willen informeren over het Microsoft 365 Networking partner-programma, vult u [dit formulier](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMNEapKtzJHu98R0YXYz1RUN0QxSUVEWTdRVTdIV1RTWjIzOVk0QkE4US4u)in. Bedankt voor uw interesse en wij hopen dat wij ons voor onze professionele partnership.
+Voor netwerksolution providers die u willen informeren over het Microsoft 365-beheer partner programma, vult u het formulier in [https://aka.ms/NPPsignup](https://aka.ms/NPPsignup) . Bedankt voor uw interesse en wij hopen dat wij ons voor onze professionele partnership.

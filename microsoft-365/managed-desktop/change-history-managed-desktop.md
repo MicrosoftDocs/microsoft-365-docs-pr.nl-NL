@@ -13,16 +13,35 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a483a03fc913a019f58e80fb2713bb0367a6db44
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 9dec293a26cbc3d239a597e46815d60d79b9ac20
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546268"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370410"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Geschiedenis voor Microsoft Managed Desktop-documentatie wijzigen
 
 In dit artikel vindt u nieuwe en bijgewerkte artikelen in de [documentatie Microsoft Managed Desktop](index.yml). De artikelen ' updated ' zijn de artikelen die materieel zijn toegevoegd of correcties: tijdelijke oplossingen zoals correctie van typefouten, stijl of opmaakproblemen worden niet vermeld. U kunt altijd de geschiedenis van specifieke doorvoeren (inclusief details van eventuele wijzigingen) weergeven door te kijken [naar het repo op github](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+
+## <a name="september-2020"></a>September 2020
+Nieuw of gewijzigd artikel | Beschrijving
+--- | ---
+[Privacy en persoonlijke gegevens](service-description/privacy-personal-data.md) | Nieuw artikel
+[Toegewezen stations voorbereiden voor Microsoft Managed Desktop](get-ready/mapped-drives.md) | Bijgewerkt artikel
+[Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
+[Overzicht van configureerbare instellingen-Microsoft Managed Desktop](working-with-managed-desktop/config-setting-ref.md) | Bijgewerkt artikel
+[Configureerbare instellingen implementeren en bijhouden: Microsoft Managed Desktop](working-with-managed-desktop/config-setting-deploy.md) | Bijgewerkt artikel
+[Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Bijgewerkt artikel
+[Microsoft Teams](get-started/teams.md) | Nieuw artikel
+[Toegang tot de beheerportal](get-started/access-admin-portal.md) | Nieuw artikel
+[Printbronnen voorbereiden voor Microsoft Managed Desktop](get-ready/printing.md) | Bijgewerkt artikel
+[First-Run-ervaring met de pagina AutoPilot en Inschrijvingsstatus](get-started/esp-first-run.md) | Bijgewerkt artikel
+[Nieuwe apparaten zelf registreren](get-started/register-devices-self.md) | Bijgewerkt artikel
+[Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop](get-ready/certs-wifi-lan.md) | Bijgewerkt artikel
+[Vereisten voor Microsoft Managed Desktop](get-ready/prerequisites.md) | Bijgewerkt artikel
+[Werken met inzichten](working-with-managed-desktop/insights.md) | Bijgewerkt artikel
 
 ## <a name="august-2020"></a>Augustus 2020
 Nieuw of gewijzigd artikel | Beschrijving

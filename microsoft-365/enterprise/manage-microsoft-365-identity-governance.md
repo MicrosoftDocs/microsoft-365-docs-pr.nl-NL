@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: Lees meer over het gebruik van functies voor Microsoft 365 Identity governance.
-ms.openlocfilehash: d5bcafb5b452e693bf3ff706c436a9986eeeae76
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: e4c537e7fa3ac099caf8b7dbc44327308751c8f5
+ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328494"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48370344"
 ---
 # <a name="manage-microsoft-365-identity-governance"></a>Microsoft 365 Identity governance beheren
 
@@ -46,8 +46,6 @@ Via Azure AD Access kunt u de toegang van een gebruiker controleren om ervoor te
 Dit is met name belangrijk als uw organisatie afhankelijk is van beveiligingscontroles om te bepalen of gebruikersaccounts te veel toegang hebben. Dit kan leiden tot geldboeten in strijd met de bedrijfstak of regionale voorschriften.
 
 Zie het [overzicht van beoordelingen over Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)voor meer informatie.
-
-Azure Active Directory Privileged Identity Management (PIM) biedt aanvullende besturingselementen die zijn afgestemd op het beveiligen van toegangsrechten voor resources in Azure Active Directory, Azure en andere Microsoft-cloudservices. Azure Active Directory PIM biedt een uitgebreide set beheerfuncties voor het beveiligen van de resources van uw bedrijf, zoals Directory-, Office 365- en Azure-resourcerollen. Net als bij andere vormen van toegang kunnen organisaties via toegangscontrole terugkerende toegang voor alle gebruikers in de beheerdersrollen configureren. Azure Active Directory PIM is alleen beschikbaar in de E5-versie van Microsoft 365 Enterprise.
 
 Zie de volgende artikelen voor meer informatie over het configureren van toegangsbeoordelingen:
 
