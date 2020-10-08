@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: In dit artikel wordt uitgelegd hoe u gebruikers kunt inrichten voor Microsoft 365 met behulp van adreslijstsynchronisatie en de lange termijn voordelen van het gebruik van deze methode.
-ms.openlocfilehash: a70f49dd5656da996912173690dc2b21b4288023
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 79d2a7932867531849ce75f8452b91e8c7ddd7b1
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327283"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390171"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Directory-synchronisatie voorbereiden op Microsoft 365
 
@@ -158,6 +158,7 @@ De kenmerken die u moet voorbereiden, vindt u hier:
   - Het maximum aantal tekens voor de gebruikersnaam vóór het apenstaartje (@): 64
   - Het maximum aantal tekens voor de domeinnaam na het apenstaartje (@): 48
   - Ongeldige tekens: \% &amp; \* +/=? { } | \< \> ( ) ; : , [ ] " '
+  - Tekens toegestaan: A-Z, a-z, 0-9, '. - _ ! # ^ ~
   - Een umlaut is ook een ongeldig teken.
   - Het teken @ is vereist voor elke **userPrincipalName** -waarde.
   - Het teken @ mag niet het eerste teken in een **userPrincipalName** -waarde zijn.

@@ -9,15 +9,20 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Maak een formulierverwerkingmodel in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 27e80a7b3626170e45ceaa55f1269e50d8fdab9e
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: 784a3e0a918424e599e87852d2a36b613867f62e
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337263"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390183"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Maak een formulierverwerkingmodel in Microsoft SharePoint Syntex
 
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GnhN]  
+
+</br>
 
 Met [AI-Builder](https://docs.microsoft.com/ai-builder/overview) - een functie in Microsoft PowerApps - SharePoint-gebruikers kunnen een [formulierverwerkingsmodel](form-processing-overview.md) rechtstreeks vanuit een SharePoint-documentbibliotheek. 
 
@@ -30,13 +35,6 @@ Het maken van een formulierverwerkingsmodel omvat het volgende:
  - Stap 6: uw model gebruiken
 
 ## <a name="requirements"></a>Vereisten
-
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GnhN]  
-
-</br>
-
 
 Je kunt alleen een model voor het verwerken van een formulier maken in de SharePoint-documentbibliotheken waarvoor het model is ingeschakeld. Als de verwerking van formulieren is ingeschakeld, kun je de **AI Builder** zien **„een formulierverwerkingsmodel maken“** onder het menu **Automatiseren** in de documentbibliotheek.  Als je verwerking wilt inschakelen voor je documentbibliotheek, moet je contact opnemen met je SharePoint-beheerder.
 
