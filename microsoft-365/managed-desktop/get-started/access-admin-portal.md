@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: f57911276d74c6945027077404e1f83c2f5072fd
-ms.sourcegitcommit: eb905c5b4d7e71fc930a207357295b0160c4f065
+ms.openlocfilehash: 5adf57c2397c4de3c5ea8622a2a9be7207ebf152
+ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48137033"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48379300"
 ---
 # <a name="access-the-admin-portal"></a>Toegang tot de beheerportal
 
@@ -34,12 +34,12 @@ Met de onderstaande rollen kunnen verschillende toegangsniveaus worden toegeweze
 
 |Functie Azure AD  |Beheerde Microsoft-bureaublad machtigingen  |
 |---------|---------|
-|Globale beheerder     | Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen** voor alle functies in de portal van Microsoft beheerde bureaubladbeheer.         |
-|Algemene lezer     | Beheerders met deze rol hebben **alleen-lezen machtigingen** voor alle functies in de Microsoft beheerde portal van de bureaublad beheerder.         |
-|InTune-service beheerder     |  Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen** voor alle functies in de portal van Microsoft beheerde bureaubladbeheer. **Wijziging:** De basis beheerders van september 2020 hebben geen toegang tot beveiligingsfuncties die door Microsoft worden beheerd op het bureaublad.       |
-|Service ondersteuningsbeheerder     | Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen** voor alle functies in de portal van Microsoft beheerde bureaubladbeheer. **Wijziging:** De basis beheerders van september 2020 hebben geen toegang tot beveiligingsfuncties die door Microsoft worden beheerd op het bureaublad.         |
-|Beveiligingsbeheerder | **(In Preview September 2020)** Beheerders met deze rol hebben alleen-lezen machtigingen voor alle functies en schrijfmachtigingen voor gerelateerde functies in Microsoft Managed desktop in de beheerportal. |
-|Beveiligings lezer | **(In Preview September 2020)**  Beheerders met deze rol hebben alleen-lezen machtigingen voor alle functies in de Microsoft beheerde portal van de bureaublad beheerder.|
+|Globale beheerder     | Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen voor alle functies** in de portal van Microsoft beheerde bureaubladbeheer.         |
+|Algemene lezer     | Beheerders met deze rol hebben **alleen-lezen machtigingen voor alle functies** in de Microsoft beheerde portal van de bureaublad beheerder.         |
+|InTune-service beheerder     |  Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen voor functies die niet gerelateerd zijn aan beveiliging** in de Microsoft beheerde portal van de bureaublad beheerder.       |
+|Service ondersteuningsbeheerder     | Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen voor functies die niet gerelateerd zijn aan beveiliging** in de Microsoft beheerde portal van de bureaublad beheerder.         |
+|Beveiligingsbeheerder | Beheerders met deze rol hebben **alleen-lezen machtigingen voor alle functies** en **schrijfmachtigingen voor gerelateerde functies** in Microsoft Managed desktop in de beheerportal. |
+|Beveiligings lezer |Beheerders met deze rol hebben **alleen-lezen machtigingen voor alle functies** in de Microsoft beheerde portal van de bureaublad beheerder.|
 
 > [!IMPORTANT]
 > Alleen de rol van globale beheerder heeft de juiste machtigingen voor het *registreren* van uw organisatie in Microsoft Managed Desktop. Azure Active Directory-rollen bieden gebruikersaccounts bevoegdheden in diverse Microsoft-services. Wanneer u de registratie hebt voltooid met Microsoft Managed Desktop, dient u altijd de rol te gebruiken met de *minste* bevoegdheden die nodig zijn om uw andere taken uit te voeren.
@@ -47,9 +47,9 @@ Met de onderstaande rollen kunnen verschillende toegangsniveaus worden toegeweze
  
 |Aangepaste rol  |Beheerde Microsoft-bureaublad machtigingen  |
 |---------|---------|
-|Microsoft beheerde bureaublad service beheerder  | **(In Preview September 2020)** Wanneer een gebruiker aan een gebruiker is toegewezen, biedt deze rol de beheerder **lees & schrijfmachtigingen voor functies die niet gerelateerd zijn aan beveiliging** in de Microsoft Managed Desktop-beheerportal.  |
-|Microsoft beheerde bureaublad service lezer | **(In Preview September 2020)** Wanneer de gebruiker aan een gebruiker is toegewezen, biedt deze rol de beheerder de **machtiging alleen-lezen voor functies die niet gerelateerd zijn aan de beveiliging** van de beheerde portal van de Microsoft-bureaublad beheerder. |
-|Microsoft beheerde bureaublad beveiligingsbeheer | **(In Preview September 2020)** Wanneer de gebruiker aan een gebruiker is toegewezen, biedt deze rol de beheerder **alleen & schrijfmachtigingen voor de beveiligingsfuncties** van de Microsoft beheerde bureaubladbeheer Portal.   |
+|Microsoft beheerde bureaublad service beheerder  | Wanneer deze rol aan een gebruiker is toegewezen, biedt deze rol de beheerder **Lees-en schrijfmachtigingen voor functies die niet gerelateerd zijn aan beveiliging** in de Microsoft beheerde bureaubladbeheer Portal.  |
+|Microsoft beheerde bureaublad service lezer | Wanneer deze rol aan een gebruiker is toegewezen, biedt deze rol de **alleen-lezen machtigingen van de beheerder tot functies die niet gerelateerd zijn aan beveiliging** van de beheerde portal van de Microsoft-bureaublad beheerder. |
+|Microsoft beheerde bureaublad beveiligingsbeheer |Wanneer deze functie aan een gebruiker is toegewezen, biedt deze rol de beheerder **Lees-en schrijfmachtigingen alleen voor beveiligingsfuncties** in de Microsoft beheerde bureaubladbeheer Portal.   |
 
 > [!NOTE]
 > De beveiligingsfuncties omvatten beveiligingskwesties, beheer van beveiligings contactpersonen, het beheer van beveiligingsaanvragen voor de beveiliging, en toegang tot gerelateerde rapporten. 
