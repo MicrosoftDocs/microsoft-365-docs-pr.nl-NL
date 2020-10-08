@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u informatie over welke platforms, clients en PowerShell-modules voorwaardelijke toegang voor Microsoft 365 ondersteunen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fd4dcaeda27f12427f3175b7ec52e2fdb0c153da
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d44dffd6da91be9e64953d1b744043114ba68183
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546510"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384930"
 ---
 # <a name="microsoft-365-client-app-support--conditional-access"></a>Ondersteuning voor Microsoft 365 client-apps – voorwaardelijke toegang
 
@@ -40,7 +40,7 @@ Meer informatie over [Azure AD-beleid voor voorwaardelijke toegang](https://docs
  - Apparaten
  - macOS<sup>1</sup>
 
-Zie [systeemvereisten voor Microsoft 365](https://products.office.com/office-system-requirements)voor meer informatie over platform ondersteuning in microsoft 365.
+Zie [systeemvereisten voor Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)voor meer informatie over platform ondersteuning in microsoft 365.
 
 ## <a name="supported-clients"></a>Ondersteunde clients
 
@@ -65,6 +65,6 @@ De meest recente versies van de volgende clients ondersteunen voorwaardelijke to
 > [!NOTE]
 > <sup>1</sup> ondersteuning voor OneDrive op macOS is binnenkort beschikbaar.
 
-## <a name="see-also"></a>Raadpleeg ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van Microsoft 365 Enterprise](microsoft-365-overview.md)

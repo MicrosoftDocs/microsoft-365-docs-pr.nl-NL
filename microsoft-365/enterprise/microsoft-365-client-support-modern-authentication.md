@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u informatie over welke platforms, clients en PowerShell-modules moderne verificatie voor Microsoft 365 ondersteunen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d38b5c11a77af8691aaa5e14d288918b39c0d847
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: eee0e9009f7e6a74f25ebf0315b2772ac3e98814
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546300"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384822"
 ---
 # <a name="microsoft-365-client-app-support---modern-authentication"></a>Ondersteuning voor Microsoft 365 client app-moderne verificatie
 
@@ -40,7 +40,7 @@ Meer informatie over [multi-factor Authentication](https://docs.microsoft.com/az
  - Apparaten
  - macOS
 
-Zie [systeemvereisten voor Microsoft 365](https://products.office.com/office-system-requirements)voor meer informatie over platform ondersteuning in microsoft 365.
+Zie [systeemvereisten voor Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)voor meer informatie over platform ondersteuning in microsoft 365.
 
 ## <a name="supported-clients"></a>Ondersteunde clients
 
@@ -66,6 +66,6 @@ De meest recente versies van de volgende clients ondersteunen moderne verificati
 > <sup>1</sup> ondersteuning voor whiteboard en Skype voor bedrijven op de web-app die binnenkort beschikbaar is. <br>
 > <sup>2</sup> ondersteuning voor whiteboard op Android is binnenkort beschikbaar.
 
-## <a name="see-also"></a>Raadpleeg ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van Microsoft 365 Enterprise](microsoft-365-overview.md)

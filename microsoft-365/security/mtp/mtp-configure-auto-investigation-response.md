@@ -7,19 +7,19 @@ ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 09/17/2020
+ms.date: 10/07/2020
 ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection: M365-security-compliance.
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: f7bcfa4f08bee51408de33964f1dfd1e1db3bd33
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f904512f9fd07e2065f3d27a5bd5adc56a3565d5
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199743"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384794"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft Threat Protection configureren
 
@@ -52,8 +52,6 @@ Wanneer u klaar bent [met de configuratie, bekijkt u de acties in behandeling en
 
 Of geautomatiseerd onderzoek wordt uitgevoerd en of herstelacties automatisch of alleen na goedkeuring van uw apparaten worden uitgevoerd, hangt af van bepaalde instellingen, zoals het beleid van de groeps beleidsregels van uw organisatie. Bekijk het niveau van automatiserings niveau voor uw apparaat in de groepsbeleidsregels.
 
-### <a name="to-review-or-change-your-device-group-policies"></a>Het beleid voor Groepsbeleid controleren of wijzigen
-
 1. Ga naar het Microsoft Defender-Beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) en meld u aan.
 
 2. Ga naar **instellingen**van het  >  **Permissions**  >  **apparaat**machtigingen. 
@@ -69,8 +67,6 @@ Of geautomatiseerd onderzoek wordt uitgevoerd en of herstelacties automatisch of
 Microsoft beschikt over ingebouwde [waarschuwings beleidsregels](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) die bijdragen aan het identificeren van bepaalde Risico's. Dit zijn de Risico's voor Exchange-beheerders, misbruik van schadelijke activiteiten, potentiële externe en interne bedreigingen en informatiebeheer Risico's. Sommige waarschuwingen kunnen [automatisch onderzoek en antwoord activeren in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air). Zorg ervoor dat de functies voor [Geavanceerde bedreigingsbeveiliging van Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) juist zijn geconfigureerd.
 
 Hoewel bepaalde waarschuwingen en beveiligingsbeleid het automatiseren van een geautomatiseerd onderzoek mogelijk maken, worden er automatisch geen herstelacties uitgevoerd voor e-mail en inhoud. In plaats daarvan worden alle herstelacties voor e-mailberichten en e-mail inhoud met de goedkeuring in het [Actiecentrum](mtp-action-center.md)wel goedgekeurd door het team van uw beveiligingsactiviteiten.
-
-### <a name="to-view-or-change-your-security-and-alert-policies-in-office-365"></a>Het beleid voor beveiliging en waarschuwingen weergeven of wijzigen in Office 365
 
 Met behulp van beveiligingsinstellingen in Office 365 kunt u e-mail en inhoud beveiligen. Als u deze instellingen wilt bekijken of wijzigen, volgt u de richtlijnen in [beveiliging tegen bedreigingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
 
@@ -88,13 +84,15 @@ Met behulp van beveiligingsinstellingen in Office 365 kunt u e-mail en inhoud be
 
 5. Zorg ervoor dat de [automatische opschoning van Zero uur voor e-mail](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop) beveiliging is ingeschakeld. 
 
-8. (Dit is optioneel) Controleer uw [waarschuwings beleid voor Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) in het nalevings centrum van microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Een aantal standaard waarschuwings beleidsregels bevindt zich in de categorie Threat Management. Sommige van deze meldingen kunnen automatisch onderzoek en antwoord activeren. Voor meer informatie raadpleegt u [standaard waarschuwings beleid](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?#default-alert-policies).
+8. (Dit is optioneel.) Controleer uw [waarschuwings beleid voor Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) in het nalevings centrum van microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Een aantal standaard waarschuwings beleidsregels bevindt zich in de categorie Threat Management. Sommige van deze meldingen kunnen automatisch onderzoek en antwoord activeren. Voor meer informatie raadpleegt u [standaard waarschuwings beleid](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?#default-alert-policies).
  
 ## <a name="make-sure-microsoft-threat-protection-is-turned-on"></a>Zorg ervoor dat Microsoft Bedreigingsbeveiliging is ingeschakeld
 
 1. Ga naar het Microsoft 365-Beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
 
-2. Zoek in het navigatiedeelvenster naar **incidenten**, **Onderhoudscentrum**en **jacht**, zoals wordt weergegeven in de volgende afbeelding:<br/> :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP ingeschakeld":::
+2. Zoek in het navigatiedeelvenster naar **incidenten**, **Onderhoudscentrum**en **jacht**, zoals wordt weergegeven in de volgende afbeelding:
+
+   :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP ingeschakeld":::
 
    - Als u **incidenten**, **Onderhoudscentrum**, **jacht en jacht**ziet, is Microsoft Threat Protection ingeschakeld. Ga verder met de volgende procedure, [het automatiserings niveau voor apparaatgroepen controleren of wijzigen](#review-or-change-the-automation-level-for-device-groups).
 

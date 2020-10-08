@@ -3,7 +3,6 @@ title: De upgrade van Office 2007-of 2010-servers en-clients plannen
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/15/2020
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -17,25 +16,25 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: Dit artikel bevat bronnen voor gebruikers die Office 2007 of Office 2010 gebruiken om hun upgrade te helpen plannen.
-ms.openlocfilehash: 0ad90235bf7ad862a1f0162f87dca7ee2df3d799
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0b137b39d671b9746445f9e41a5859732574dbe4
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689197"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384561"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>De upgrade van Office 2007 of Office 2010-servers en-clients plannen
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Als uw organisatie gebruikmaakt van oudere versies van Office-producten en-servers, is dit een prima moment om te beginnen met het plannen van de upgrade. Office 2007-producten en-services hebben hun [einde van de ondersteuning](upgrade-from-office-2007-servers-and-products.md)bereikt. 
+Als uw organisatie gebruikmaakt van oudere versies van Office-producten en-servers, is dit een prima moment om te beginnen met het plannen van de upgrade. Office 2007-producten en-services hebben hun [einde van de ondersteuning](upgrade-from-office-2007-servers-and-products.md)bereikt. Voor Office 2010-producten en-services:
 
 - Office 2010 en Exchange 2010 krijgen hun einde van de ondersteuning op **13 oktober 2020**. 
 - SharePoint 2010 en Project Server 2010 krijgen hun einde van de ondersteuning op **13 April 2021**. 
 
-Gebruik de informatiebronnen in dit artikel om aan de slag te gaan.
+Zie [upgraden van Office 2010-servers en-clients](upgrade-from-office-2010-servers-and-products.md)voor meer informatie.
 
-Zie [upgrade van Office 2010-servers en-clients](upgrade-from-office-2010-servers-and-products.md) voor meer informatie.
+Gebruik de informatiebronnen in dit artikel om aan de slag te gaan met uw upgrade.
 
 ## <a name="what-is-microsoft-365"></a>Wat is Microsoft 365?
 
@@ -44,13 +43,14 @@ Zie [upgrade van Office 2010-servers en-clients](upgrade-from-office-2010-server
 Microsoft 365 omvat de licenties en capaciteiten waarmee u ervoor kunt zorgen dat uw organisatie werkt op het nieuwste Windows-besturingssysteem en dat uw apparaten, zoals Windows, iOS en Android, zijn ingeschreven en beveiligd met beleidsregels waarvoor verificatie en gegevensbescherming is vereist. Daarnaast worden de nieuwste functies en beveiligingsupdates van Windows 10 en uw Microsoft 365-apps voor Enterprise (voorheen Office 365 ProPlus)-clientsoftware bijgewerkt.
   
 Microsoft 365 is de manier om uw bedrijf digitaal te transformeren met steeds betere apparatuur en productiviteitsfuncties, ingeschakeld en beveiligd door de Microsoft-Cloud.
-  
-|**Materialen**|**Beschrijving**|
+ 
+| Materialen | Beschrijving |
 |:-----|:-----|
-|[Microsoft 365](https://www.microsoft.com/microsoft-365) <br/> |U ontvangt informatie over de verschillende versies van Microsoft 365.  <br/> |
-|[Microsoft 365-bedrijfsdocumentatie](https://docs.microsoft.com/microsoft-365/business/) <br/> |Bekijk gedetailleerde informatie over de versie van Microsoft 365 voor kleine en middelgrote bedrijven.  <br/> |
-|[Microsoft 365 education-documentatie](https://docs.microsoft.com/microsoft-365/education/) <br/> |Hier vindt u gedetailleerde informatie over de versie van Microsoft 365 voor onderwijs organisaties.  <br/> |
-|[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365/enterprise/) <br/> |Uitgebreide informatie over de versie van Microsoft 365 voor Enterprise-organisaties.  <br/> |
+|[Microsoft 365](https://www.microsoft.com/microsoft-365) <br/> | U ontvangt informatie over de verschillende versies van Microsoft 365.  <br/> |
+|[Microsoft 365-bedrijfsdocumentatie](https://docs.microsoft.com/microsoft-365/business/) <br/> | Bekijk gedetailleerde informatie over de versie van Microsoft 365 voor kleine en middelgrote bedrijven.  <br/> |
+|[Microsoft 365 education-documentatie](https://docs.microsoft.com/microsoft-365/education/) <br/> | Hier vindt u gedetailleerde informatie over de versie van Microsoft 365 voor onderwijs organisaties.  <br/> |
+|[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365/enterprise/) <br/> | Uitgebreide informatie over de versie van Microsoft 365 voor Enterprise-organisaties.  <br/> |
+|||
 
 ## <a name="what-happens-if-i-dont-upgrade"></a>Wat gebeurt er als ik een upgrade niet uitvoer?
 
@@ -94,7 +94,7 @@ Als u Office 2007 of Office 2010 thuis gebruikt, kunt u de volgende Bijwerkoptie
 
 - **Probeer Microsoft 365 voor thuisgebruik.** Gebruik [Microsoft 365-serie](https://www.microsoft.com/microsoft-365/p/microsoft-365-family/cfq7ttc0k5dm?rtc=2&activetab=pivot:overviewtab) voor thuisgebruik. Begin een proefversie en ontdek hoe Microsoft 365 Family voor u werkt. Met Microsoft 365-serie profiteert u van cloudopslag met OneDrive.
 
-   Met het [einde van de ondersteuning voor Windows 7 voor 14 januari 2020](https://www.microsoft.com/windowsforbusiness/end-of-windows-7-support), zijn de versies van Word, Excel, PowerPoint, Outlook, Publisher en Access beschikbaar via Office 365 voor thuisgebruik of Office 365 Personal op Windows 7-apparaten, en ontvangt u beveiligingsupdates, maar geen functie-updates. Als u de functie-updates voor deze toepassingen wilt blijven ontvangen, moet u [uw Windows 7-apparaten upgraden naar Windows 10](https://support.microsoft.com/help/12435/windows-10-upgrade-faq).
+   Met het [einde van de ondersteuning voor Windows 7 voor 14 januari 2020](https://www.microsoft.com/microsoft-365/windows/end-of-windows-7-support), zijn de versies van Word, Excel, PowerPoint, Outlook, Publisher en Access die worden geleverd bij Office 365 voor thuisgebruik of Office 365 Personal op Windows 7-apparaten, ontvangen beveiligingsupdates, maar geen functie-updates. Als u de functie-updates voor deze toepassingen wilt blijven ontvangen, moet u [uw Windows 7-apparaten upgraden naar Windows 10](https://support.microsoft.com/help/12435/windows-10-upgrade-faq).
     
 - **Office voor thuisgebruik &amp; student kopen.** Als u deze optie kiest, maakt u een eenmalige aankoop en installeert u Office vervolgens op uw Windows-PC of Mac. Dit is geen abonnement. het is een eenmalige, eenmalige gebruikslicentie voor één computer. Bekijk de [vereisten](https://office.com/systemrequirements)en kies vervolgens de versie die u wilt gebruiken.
 
@@ -102,17 +102,17 @@ Als u Office 2007 of Office 2010 thuis gebruikt, kunt u de volgende Bijwerkoptie
 
     - Als op uw Windows-PC Windows 7, 8 of 8,1 wordt uitgevoerd en u op dit moment geen upgrade uitvoert naar Windows 10, kunt u het beste Office Home & leerling 2016 (of een andere editie van Microsoft Office) krijgen van een geautoriseerde wederverkoper.
      
-     - Ondersteuning voor Windows 7 is [beëindigd op 14 januari 2020](https://www.microsoft.com/windowsforbusiness/end-of-windows-7-support), waarna Microsoft geen beveiligingsupdates of ondersteuning meer biedt. Voer een upgrade uit naar Windows 10 voor de voortdurende updates van beveiligings-en functie updates en de voortdurende ondersteuning.
+     - Ondersteuning voor Windows 7 is [beëindigd op 14 januari 2020](https://www.microsoft.com/microsoft-365/windows/end-of-windows-7-support), waarna Microsoft geen beveiligingsupdates of ondersteuning meer biedt. Voer een upgrade uit naar Windows 10 voor de voortdurende updates van beveiligings-en functie updates en de voortdurende ondersteuning.
 
-U kunt op dit moment ook kiezen voor geen upgrade. Uw Office-apps worden voortgezet. Tijdlijnen voor Office-ondersteunings datums zijn [hier](https://go.microsoft.com/fwlink/p/?linkid=2085724)verkrijgbaar. De upgrade biedt echter u beveiligingsupdates of nieuwe en verbeterde functies.
+U kunt op dit moment ook kiezen voor geen upgrade. Uw Office-apps worden voortgezet. Tijdlijnen voor Office-ondersteunings datums zijn [hier](https://support.microsoft.com/lifecycle/search/13615)verkrijgbaar. De upgrade biedt echter u beveiligingsupdates of nieuwe en verbeterde functies.
    
 ## <a name="next-step"></a>Volgende stap
 
-[Upgrade van Office 2007-servers en-clients](upgrade-from-office-2007-servers-and-products.md)
+[Upgrade van Office 2007-servers en -clients](upgrade-from-office-2007-servers-and-products.md)
 
 of
 
-[Upgrade van Office 2010-servers en-clients](upgrade-from-office-2010-servers-and-products.md)
+[Upgrade van Office 2010-servers en -clients](upgrade-from-office-2010-servers-and-products.md)
    
 ## <a name="related-topics"></a>Verwante onderwerpen
   

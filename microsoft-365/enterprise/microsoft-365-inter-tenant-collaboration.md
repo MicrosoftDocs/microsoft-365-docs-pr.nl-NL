@@ -3,7 +3,6 @@ title: Samenwerking tussen Microsoft 365 tussen tenants
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/21/2020
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over de manier waarop Microsoft 365 samenwerken via tenants en organisaties werkt, zodat verschillende organisaties veilig kunnen samenwerken.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8064543f771927f539d09e3136663bb0df56d5be
-ms.sourcegitcommit: 4ee683c18442386f6fc5c76ffabfad2c28b81d42
+ms.openlocfilehash: 00eacfc21d3223b5b9a1ad420cd5d1d85bf4ea8e
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48214797"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384825"
 ---
 # <a name="microsoft-365-inter-tenant-collaboration"></a>Samenwerking tussen Microsoft 365 tussen tenants
 
@@ -78,7 +77,7 @@ Samenwerkingsopties voor Microsoft 365 tussen tenants voor het gebruik van een c
 |Doel voordelen|Administratieve actie|Procedure gegevens|
 |:-----|:-----|:-----|
 |Samenwerken in teams met gebruikers buiten de organisatie | Een globale beheerder voor de uitnodiging van een Microsoft 365-Tenant moet externe samenwerking inschakelen in teams. Globale beheerders en team eigenaren kunnen nu iedereen met een e-mailadres uitnodigen om samen te werken in teams.  <br/> Beheerders kunnen ook gasten beheren en bewerken die al aanwezig zijn in hun Tenant. |  <ul><li> [Gasttoegang machtigen](https://docs.microsoft.com/microsoftteams/teams-dependencies) </li><li> [Gasttoegang in-of uitschakelen in teams](https://docs.microsoft.com/microsoftteams/set-up-guests) </li><li> [PowerShell gebruiken om gasttoegang te beheren](https://docs.microsoft.com/microsoftteams/guest-access-powershell) </li><li> [Controlelijst voor gasttoegang](https://docs.microsoft.com/microsoftteams/guest-access-checklist) </li><li> [Gastgebruikers weergeven](https://docs.microsoft.com/microsoftteams/view-guests) </li><li> [Gastgebruikers gegevens bewerken](https://docs.microsoft.com/microsoftteams/edit-guests-information) </li></ul> |
-|Team eigenaren kunnen met hun team samenwerken aan en beheren hoe gasten binnen hun teams werken.  </li><li> |Team eigenaren hebben extra besturingselementen voor wat bezoekers binnen hun team kunnen doen. |  <ul><li> [Gasten toevoegen](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [Een gast aan een team toevoegen](https://docs.microsoft.com/microsoftteams/add-guests) </li><li> [Gasttoegang beheren in teams](https://docs.microsoft.com/microsoftteams/manage-guests) </li><li> [Zien wie lid is van een team of een kanaal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
+|Team eigenaren kunnen met hun team samenwerken aan en beheren hoe gasten binnen hun teams werken.  |Team eigenaren hebben extra besturingselementen voor wat bezoekers binnen hun team kunnen doen. |  <ul><li> [Gasten toevoegen](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) </li><li> [Een gast aan een team toevoegen](https://docs.microsoft.com/microsoftteams/add-guests) </li><li> [Gasttoegang beheren in teams](https://docs.microsoft.com/microsoftteams/manage-guests) </li><li> [Zien wie lid is van een team of een kanaal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) </li></ul> |
 |Gasten van andere tenants kunnen inhoud in teams weergeven en samenwerken met andere leden | Zonder. | [De gast Access-ervaring](https://docs.microsoft.com/microsoftteams/guest-experience)| 
 
 ## <a name="power-bi-collaboration-options"></a>Samenwerkingsopties voor Power BI
@@ -93,18 +92,18 @@ Samenwerkingsopties voor Microsoft 365 tussen tenants voor het gebruik van een c
 
 Elke organisatie onderhoudt zijn eigen gebruikersaccounts, identiteiten, beveiligingsgroepen, abonnementen, licenties en opslag. Gebruikers gebruiken de samenwerkingsfuncties in Microsoft 365 samen met beleidsregels voordelen en beveiligingsinstellingen om toegang te bieden tot benodigde informatie, en om het beheer van bedrijfsactiva te behouden.
   
-- **Gebruikersaccounts:** Accounts kunnen niet worden gedeeld en accounts kunnen niet worden gedupliceerd tussen de tenants of partities in de on-premises Active Directory Directory Services. 
+- **Gebruikersaccounts:** Accounts kunnen niet worden gedeeld of gedupliceerd tussen de tenants of partities in de on-premises Active Directory Domain Services. 
     
 - **Licentie &amp; abonnementen:** In Microsoft 365, licenties van licentie plannen (ook wel Sku's of Microsoft 365-abonnementen genoemd) verlenen gebruikers toegang tot de Microsoft 365-services die zijn gedefinieerd voor die plannen. 
     
-- **Opslag:** In Microsoft 365-abonnementen worden software grenzen en-limieten voor SharePoint Online afzonderlijk beheerd via opslaglimieten voor uw postvak. Opslaglimieten voor e-mail worden ingesteld en beheerd met behulp van Exchange Online. In situaties waarin de opslag van beide scenario's geen gedeelde cross tenants zijn. 
+- **Opslag:** In Microsoft 365 Licensing-abonnementen worden software grenzen en-limieten voor SharePoint Online afzonderlijk beheerd via opslaglimieten voor uw postvak. Opslaglimieten voor e-mail worden ingesteld en beheerd met behulp van Exchange Online. In beide scenario's kan opslag niet worden gedeeld via een Tenant. 
     
 ### <a name="can-we-share-domain-namespaces-across-microsoft-365-tenants"></a>Kunnen we domeinnaamruimten delen in Microsoft 365-tenants?
 
-Nee. Werden omgezet-domeinen, zoals fabrikam.com of tailspintoys.com, kunnen alleen worden gekoppeld en gebruikt met één Tenant op het moment. Elke Tenant moet een eigen naamruimte hebben. UPN-, SMTP-en SIP-naamruimten kunnen niet via een Tenant worden gedeeld.
+Nee. Domeinnamen van organisaties, zoals fabrikam.com of tailspintoys.com, kunnen alleen worden gekoppeld en gebruikt met één Microsoft 365-Tenant. Elke Tenant moet een eigen naamruimte hebben. UPN-, SMTP-en SIP-naamruimten kunnen niet via een Tenant worden gedeeld.
   
 ### <a name="what-about-hybrid-components-and-microsoft-365-inter-tenant-collaboration"></a>Hoe zit het met hybride onderdelen en samenwerking tussen Microsoft 365 tussen tenants?
 
 On-premises hybride onderdelen, zoals een Exchange-organisatie en Azure AD Connect, kunnen niet worden gesplitst in meerdere tenants.
-  
+ 
 

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Dit artikel bevat een overzicht van hoe Microsoft Tenant isolatie afdwingt in cloudservices zoals Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7aca35fc61d03e94225375fcf67970e13dd691c9
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.openlocfilehash: c9af522c71f3b089c8f2f198f861bcac8a0011a2
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332686"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384941"
 ---
 # <a name="tenant-isolation-in-microsoft-365"></a>Tenant isolatie in Microsoft 365
 
@@ -39,7 +39,7 @@ Er zijn meerdere vormen van bescherming geïmplementeerd in Microsoft 365 om te 
 - De logische isolatie van de inhoud van klanten binnen elke Tenant voor Microsoft 365-Services wordt gerealiseerd via Azure Active Directory-autorisatie en op rollen gebaseerd toegangsbeheer.
 - SharePoint Online biedt mechanismen voor gegevensisolatie op opslagniveau.
 - Microsoft gebruikt strikte fysieke beveiliging, achtergrondcontrole en een meerlaagse versleutelings strategie om de vertrouwelijkheid en integriteit van klant inhoud te beschermen. Alle Microsoft 365-datacenters beschikken over besturingselementen voor biometrische toegang, met de meeste Palm afdrukken, zodat u fysieke toegang krijgt. Daarnaast zijn alle op de VS gebaseerde Microsoft-werknemers nodig om een standaardachtergrond controle uit te voeren als onderdeel van het wervingsproces. Zie voor meer informatie over de besturingselementen die worden gebruikt voor beheerderstoegang in Microsoft 365, [Microsoft 365 Administrative Access controls](microsoft-365-administrative-access-controls-overview.md).
-- Microsoft 365 maakt gebruik van technologieën voor de service die de inhoud van een klant versleutelen en in transit, waaronder BitLocker, eenmalige versleuteling, TLS (Transport Layer Security) en IPsec (Internet Protocol Security). Zie [technologieën voor gegevensversleuteling in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview)voor specifieke informatie over versleuteling in microsoft 365.
+- Microsoft 365 maakt gebruik van technologieën voor de service die de inhoud van een klant versleutelen en in transit, waaronder BitLocker, eenmalige versleuteling, TLS (Transport Layer Security) en IPsec (Internet Protocol Security). Zie [technologieën voor gegevensversleuteling in Microsoft 365](../compliance/office-365-encryption-in-the-microsoft-cloud-overview.md)voor specifieke informatie over versleuteling in microsoft 365.
 
 De hierboven genoemde bescherming biedt een robuuste logische isolatie regeling die de bescherming van de bescherming en de beperking van de schade biedt.
 

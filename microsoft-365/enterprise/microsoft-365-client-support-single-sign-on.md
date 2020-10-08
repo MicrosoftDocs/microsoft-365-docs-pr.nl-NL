@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u informatie over welke platforms, clients en PowerShell-modules eenmalige aanmelding voor Microsoft 365 ondersteunen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f6398736c8ead072374fbc14ee04eec63d3ad18
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: d0a45c30ffe736cf67e811bce6eb029d6fb50674
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546408"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384808"
 ---
 # <a name="microsoft-365-client-app-support--single-sign-on"></a>Ondersteuning voor Microsoft 365-client apps – eenmalige aanmelding
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Met eenmalige aanmelding (SSO) kunt u beveiliging en gemak toevoegen wanneer gebruikers zich aanmelden bij toepassingen in azure Active Directory (Azure AD). Met eenmalige aanmelding kunnen gebruikers zich eenmaal aanmelden met één account voor het openen van apparaten die aan het domein zijn toegevoegd, bedrijfsbronnen, software als service (SaaS)-toepassingen en webtoepassingen.
+Met eenmalige aanmelding (SSO) kunt u beveiliging en gemak toevoegen wanneer gebruikers zich aanmelden bij toepassingen in azure Active Directory (Azure AD). Met eenmalige aanmelding meldt gebruikers zich eenmaal aan met één account voor toegang tot on-premises Active Directory Domain Services (AD DS)-domein, software als een service (SaaS) en webtoepassingen.
 
 Meer informatie over [eenmalige aanmelding](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on).
 
@@ -40,7 +40,7 @@ Meer informatie over [eenmalige aanmelding](https://docs.microsoft.com/azure/act
  - iOS<sup>1</sup>
  - macOS<sup>4</sup>
 
-Zie [systeemvereisten voor Microsoft 365](https://products.office.com/office-system-requirements)voor meer informatie over platform ondersteuning in microsoft 365.
+Zie [systeemvereisten voor Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)voor meer informatie over platform ondersteuning in microsoft 365.
 
 ## <a name="supported-clients"></a>Ondersteunde clients
 
@@ -67,6 +67,6 @@ De meest recente versies van de volgende clients ondersteunen eenmalige aanmeldi
 > <sup>3</sup> ondersteuning voor whiteboard op Android is binnenkort beschikbaar. <br>
 > <sup>4</sup> ondersteuning voor Outlook, teams en bedrijfs portal op macOS is binnenkort beschikbaar. <br>
 
-## <a name="see-also"></a>Raadpleeg ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van Microsoft 365 Enterprise](microsoft-365-overview.md)

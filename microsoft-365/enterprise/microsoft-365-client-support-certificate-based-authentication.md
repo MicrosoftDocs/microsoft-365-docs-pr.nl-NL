@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u meer informatie over ondersteuning voor de Microsoft 365-client app voor verificatie op basis van certificaten...
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac48305d634baa436eab7f2d9eeb520897f2a3d8
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 55d3fa4db6abcd7589cf9fadb9084144cd26c8d7
+ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47548008"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48384948"
 ---
 # <a name="microsoft-365-client-app-support--certificate-based-authentication"></a>Ondersteuning voor de Microsoft 365-client app: verificatie op basis van certificaten
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Verificatie op basis van certificaten: u kunt zich verifiëren bij Azure Active Directory met een clientcertificaat op Windows-, Android-of iOS-apparaten. Met deze functie kunt u een combinatie van gebruikersnaam en wachtwoord invoeren in bepaalde e-mail-en Microsoft Office-toepassingen op uw mobiele apparaat.
+Verificatie op basis van certificaten: u kunt zich verifiëren bij Azure Active Directory (Azure AD) met een clientcertificaat op Windows-, Android-of iOS-apparaten. Met deze functie kunt u een combinatie van gebruikersnaam en wachtwoord invoeren in bepaalde e-mail-en Microsoft Office-toepassingen op uw mobiele apparaat.
 
 Meer informatie over [verificatie op basis van certificaten](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started).
 
@@ -40,7 +40,7 @@ Meer informatie over [verificatie op basis van certificaten](https://docs.micros
  - Apparaten
  - macOS<sup>1</sup> <sup>2</sup>
 
-Zie [systeemvereisten voor Microsoft 365](https://products.office.com/office-system-requirements)voor meer informatie over platform ondersteuning in microsoft 365.
+Zie [systeemvereisten voor Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources)voor meer informatie over platform ondersteuning in microsoft 365.
 
 ## <a name="supported-clients"></a>Ondersteunde clients
 
@@ -68,6 +68,6 @@ De nieuwste versies van de volgende clients ondersteunen verificatie op basis va
 > <sup>3</sup> ondersteuning voor PowerApps en whiteboard op Web-apps die binnenkort beschikbaar zijn. <br>
 > <sup>4</sup> ondersteuning voor whiteboard op Android is binnenkort beschikbaar.
 
-## <a name="see-also"></a>Raadpleeg ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van Microsoft 365 Enterprise](microsoft-365-overview.md)
