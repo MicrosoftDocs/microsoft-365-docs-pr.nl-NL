@@ -113,8 +113,6 @@
               href: azure-integration.md
             - name: Azure ExpressRoute
               href: azure-expressroute.md
-            - name: Hoe moderne verificatie werkt voor Office 2013- en 2016 Office-clienttoepassingen
-              href: modern-auth-for-office-2013-and-2016.md
         - name: Ondersteuning voor client-apps
           items:
             - name: Op certificaat gebaseerde verificatie
@@ -137,6 +135,8 @@
               href: configure-skype-for-business-for-hybrid-modern-authentication.md
             - name: Verwijderen of uitschakelen voor Skype voor Bedrijven en Exchange
               href: remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md
+            - name: 'Client-apps Office 2013, Office 2016 en Office 2019'
+              href: modern-auth-for-office-2013-and-2016.md
         - name: Plan uw upgrade
           href: plan-upgrade-previous-versions-office.md
           items:
