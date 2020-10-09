@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe contoso gebruikmaakt van de beveiligingsfuncties in Microsoft 365 for Enterprise.
-ms.openlocfilehash: 2244f13f8e8f56edbadd40d1e85cb309d70f7744
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fbbf8dfc1de831c2ef949b71f1cbdf4e97a02baa
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686438"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399475"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 for Enterprise Security voor Contoso Corporation
 
@@ -73,7 +73,7 @@ In overeenstemming met de aanbevolen procedures voor Microsoft 365 en Microsoft 
 
 - Veiligere apparaat- en toepassingstoegang met beleid voor voorwaardelijke toegang
 
-  Contoso gebruikt [beleid voor voorwaardelijke toegang](microsoft-365-policies-configurations.md) voor identiteiten, apparaten, Exchange Online en SharePoint. Het beleid voor voorwaardelijke toegang voor identiteiten houdt onder meer in dat gebruikers met een hoog risico hun wachtwoord moeten wijzigen. Daarnaast kunnen klanten geen gebruikmaken van apps die moderne verificatie niet ondersteunen. Apparaatbeleid omvat onder meer de definitie van goedgekeurde apps en het eisen van conforme pc's en mobiele apparaten. Exchange Online-beleid voor voorwaardelijke toegang omvat onder meer het blokkeren van ActiveSync-clients en de installatie van Office 365-berichtversleuteling. SharePoint-beleid voor voorwaardelijke toegang omvat onder meer extra beveiliging voor gevoelige en sterk gereglementeerde sites.
+  Contoso gebruikt [beleid voor voorwaardelijke toegang](../security/office-365-security/microsoft-365-policies-configurations.md) voor identiteiten, apparaten, Exchange Online en SharePoint. Het beleid voor voorwaardelijke toegang voor identiteiten houdt onder meer in dat gebruikers met een hoog risico hun wachtwoord moeten wijzigen. Daarnaast kunnen klanten geen gebruikmaken van apps die moderne verificatie niet ondersteunen. Apparaatbeleid omvat onder meer de definitie van goedgekeurde apps en het eisen van conforme pc's en mobiele apparaten. Exchange Online-beleid voor voorwaardelijke toegang omvat onder meer het blokkeren van ActiveSync-clients en de installatie van Office 365-berichtversleuteling. SharePoint-beleid voor voorwaardelijke toegang omvat onder meer extra beveiliging voor gevoelige en sterk gereglementeerde sites.
 
 - Windows Hello voor Bedrijven
 

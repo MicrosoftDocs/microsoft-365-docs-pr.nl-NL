@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: de meest voorkomende scenario's voor de bedreiging en aanval die momenteel door organisaties worden geconfronteerd voor hun Microsoft 365-omgevingen, en aanbevolen acties om deze Risico's te beperken.
-ms.openlocfilehash: 2f7de328edbd0220e5627612430fca24641ace11
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 4181feeed97313ec1e8d916df994cc880cbffdf1
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547996"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399453"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 Security for Business Decisioners (BDMs)
 
@@ -68,7 +68,7 @@ Bekende bedreigingen zijn onder meer malware, gemanipuleerde accounts en phishin
 
 |Aanbeveling  |E3  |E5  |
 |---------|---------|---------|
-|**Meervoudige verificatie instellen en aanbevolen beleidsregels voor voorwaardelijke toegang gebruiken, met inbegrip van aanmeldings risico beleid**. Microsoft adviseert en heeft een reeks beleidsregels getest die samenwerken om alle Cloud-apps te beschermen, waaronder Office 365 en Microsoft 365-Services. Zie [configuraties voor identiteit en Apparaattoegang](../enterprise/microsoft-365-policies-configurations.md). | |![groen vinkje](../media/green-check-mark.png)|
+|**Meervoudige verificatie instellen en aanbevolen beleidsregels voor voorwaardelijke toegang gebruiken, met inbegrip van aanmeldings risico beleid**. Microsoft adviseert en heeft een reeks beleidsregels getest die samenwerken om alle Cloud-apps te beschermen, waaronder Office 365 en Microsoft 365-Services. Zie [configuraties voor identiteit en Apparaattoegang](./office-365-security/microsoft-365-policies-configurations.md). | |![groen vinkje](../media/green-check-mark.png)|
 |**Meerdere factor verificatie vereisen voor alle gebruikers**. Als u niet over de vereiste licentie beschikt om het aanbevolen beleid voor voorwaardelijke toegang te implementeren, moet u voor alle gebruikers minimaal meervoudige verificatie vereisen.|![groen vinkje](../media/green-check-mark.png)|![groen vinkje](../media/green-check-mark.png)|
 |**Het beschermingsniveau voor malware in E-mail verhogen**. Uw Office 365-of Microsoft 365-omgeving bevat bescherming tegen malware, maar u kunt deze beveiliging vergroten door bijlagen te blokkeren met bestandstypen die meestal voor malware worden gebruikt.|![groen vinkje](../media/green-check-mark.png)|![groen vinkje](../media/green-check-mark.png)|
 |**Beveilig uw e-mail tegen gerichte phishing-aanvallen**. Als u een of meer aangepaste domeinen hebt geconfigureerd voor uw Office 365-of Microsoft 365-omgeving, kunt u de gerichte bescherming tegen phishing instellen. Met een anti-virusbeveiliging van ATP, een onderdeel van Office 365 Advanced Threat Protection, kunt u uw organisatie beschermen tegen kwaadaardige aanvallen op basis van kwaadaardige aanvallen en andere phishing-aanvallen. U hoeft dit niet te doen als u geen aangepast domein hebt geconfigureerd.| |![groen vinkje](../media/green-check-mark.png)|
@@ -114,7 +114,7 @@ Microsoft 365 mogelijkheden voor informatiebescherming helpt u te ontdekken welk
 
 |Aanbeveling |E3|E5 |
 |---------|---------|---------|
-|**Uw voorwaardelijke toegang en gerelateerde beleidsregels controleren en optimaliseren om af te stemmen op uw doelstellingen voor een vertrouwens netwerk met nul**. Het beschermen tegen bekende bedreigingen omvat een set [Aanbevolen beleidsregels](../enterprise/microsoft-365-policies-configurations.md). Controleer de implementatie van deze beleidsregels om ervoor te zorgen dat u uw apps en gegevens beschermt tegen hackers die toegang hebben verkregen tot uw netwerk. Houd er rekening mee dat in het aanbevolen beleid voor de intune-app voor Windows 10 Windows Information Protection (OHW) is ingeschakeld. OHW beschermt tegen onbedoelde lekkage van uw organisatiegegevens via apps en services, zoals e-mail, sociale media en de openbare wolk. |         |![groen vinkje](../media/green-check-mark.png)|
+|**Uw voorwaardelijke toegang en gerelateerde beleidsregels controleren en optimaliseren om af te stemmen op uw doelstellingen voor een vertrouwens netwerk met nul**. Het beschermen tegen bekende bedreigingen omvat een set [Aanbevolen beleidsregels](./office-365-security/microsoft-365-policies-configurations.md). Controleer de implementatie van deze beleidsregels om ervoor te zorgen dat u uw apps en gegevens beschermt tegen hackers die toegang hebben verkregen tot uw netwerk. Houd er rekening mee dat in het aanbevolen beleid voor de intune-app voor Windows 10 Windows Information Protection (OHW) is ingeschakeld. OHW beschermt tegen onbedoelde lekkage van uw organisatiegegevens via apps en services, zoals e-mail, sociale media en de openbare wolk. |         |![groen vinkje](../media/green-check-mark.png)|
 |**Externe e-mail forwarding uitschakelen**. Hackers die toegang krijgen tot het postvak van een gebruiker kunnen uw e-mail stelen door het postvak in te stellen op het automatisch doorsturen van e-mail. Dit kan zelfs zonder de aandacht van de gebruiker. U kunt dit voorkomen door een e-mail stroom regel te configureren.|![groen vinkje](../media/green-check-mark.png) |![groen vinkje](../media/green-check-mark.png)|
 |**Anoniem delen van Agenda's uitschakelen**. Standaard is extern anoniem delen van agenda's toegestaan. Het [delen van Agenda's uitschakelen](https://docs.microsoft.com/exchange/sharing/sharing-policies/modify-a-sharing-policy) om mogelijke lekkages van gevoelige gegevens te beperken.|![groen vinkje](../media/green-check-mark.png) |![groen vinkje](../media/green-check-mark.png)|
 |**Beleidsregels voor preventie van gegevensverlies configureren voor gevoelige gegevens**. Maak een beleid voor preventie van gegevensverlies in het beveiligings &amp; centrum voor de detectie en beveiliging van gevoelige gegevens, zoals creditcardnummers, sofi-nummers en bankrekeningnummers. Microsoft 365 bevat veel vooraf gedefinieerde gevoelige informatie typen die u kunt gebruiken in het beleid voor preventie van gegevensverlies. U kunt ook uw eigen gevoelige informatie typen maken voor gevoelige gegevens die in uw omgeving zijn aangepast. |![groen vinkje](../media/green-check-mark.png)|![groen vinkje](../media/green-check-mark.png)|

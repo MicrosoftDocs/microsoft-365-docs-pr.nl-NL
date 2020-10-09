@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe Contoso de functies voor informatiebeveiliging in Microsoft 365 for Enterprise gebruikt om de digitale activa in de cloud te beveiligen.
-ms.openlocfilehash: 67404df9bb2056c226eeb9370190519fc0cc8f3b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 1966fdec3de246ca54fd99ab018485b9ee817281
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686020"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399239"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Informatiebescherming voor Contoso Corporation
 
@@ -41,7 +41,7 @@ Contoso heeft een analyse uitgevoerd op hun gegevens en heeft de volgende niveau
 In de volgende tabel ziet u het gegevensbeleid van Contoso.
 
 
-| Value | Toegang | Gegevensretentie | Informatiebescherming |
+| Value | Access | Gegevensretentie | Gegevensbescherming |
 |:-------|:-----|:-----|:-----|
 | Lage bedrijfswaarde (niveau 1: basislijn) | Geef iedereen toegang  | 6 maanden | Gebruik versleuteling. |
 | Gemiddelde bedrijfswaarde (niveau 2: gevoelig) | Sta toegang toe aan Contoso-medewerkers, onderaannemers en partners <BR> <BR> Gebruik MFA, TLS (Transport Layer Security) en Mobile Application Management (MAM). | 2 jaar  | Gebruik hash-waarden voor gegevensintegriteit.  |
@@ -76,9 +76,9 @@ Contoso gebruikt de volgende stappen om Microsoft 365 for Enterprise voor hun in
 
 In combinatie met hun identiteit en infrastructuur voor het beheer van mobiele apparaten en als onderdeel van hun uitrol van Exchange Online en SharePoint, heeft Contoso de volgende set voorwaardelijke toegangsbeleid geconfigureerd en toegepast op de van toepassing zijnde groepen:
 
-- [Beheerde en niet-beheerde toepassingstoegang op apparaatbeleid](identity-access-policies.md)
-- [Beleid voor toegang tot Exchange Online](secure-email-recommended-policies.md)
-- [SharePoint-beleidsregels voor toegang](sharepoint-file-access-policies.md)
+- [Beheerde en niet-beheerde toepassingstoegang op apparaatbeleid](../security/office-365-security/identity-access-policies.md)
+- [Beleid voor toegang tot Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)
+- [SharePoint-beleidsregels voor toegang](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Hier ziet u de resulterende configuratie van de gegevensbescherming van Contoso.
 

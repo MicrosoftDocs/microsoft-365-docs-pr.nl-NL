@@ -16,12 +16,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: De routekaart voor de identiteit van Microsoft 365.
-ms.openlocfilehash: 82c2adc753a3446b9ca4f070d8655f526465de55
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 4daf673a35505652bdb8105f304dde8166512660
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357828"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398769"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Identiteitsroadmap voor Microsoft 365
 
@@ -60,10 +60,10 @@ Uw identiteits implementatie implementeren:
 
 ### <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 
-Microsoft biedt een set aanbevelingen voor de [toegang van identiteiten en apparaten](microsoft-365-policies-configurations.md)om een veilig en productief personeel te helpen. Gebruik voor Identity de aanbevelingen en instellingen in deze artikelen:
+Microsoft biedt een set aanbevelingen voor de [toegang van identiteiten en apparaten](../security/office-365-security/microsoft-365-policies-configurations.md)om een veilig en productief personeel te helpen. Gebruik voor Identity de aanbevelingen en instellingen in deze artikelen:
 
-- [Vereisten](identity-access-prerequisites.md)
-- [Algemeen beleid voor identiteiten en apparaattoegang](identity-access-policies.md)
+- [Vereisten](../security/office-365-security/identity-access-prerequisites.md)
+- [Algemeen beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
 
 ## <a name="manage"></a>Beheren
 

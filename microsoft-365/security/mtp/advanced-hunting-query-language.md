@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 8c66ee39d9c7f90142a564c61b13f68e6b4b481e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: de8a2c3d55d887a28500bb82a97e4453861aef46
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197771"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399215"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Meer informatie over de querytaal Advanced jacht
 
@@ -32,7 +32,7 @@ ms.locfileid: "48197771"
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Voor de geavanceerde jacht op basis van de [querytaal Kusto](https://docs.microsoft.com/azure/kusto/query/). U kunt de syntaxis van Kusto en operatoren gebruiken om query's te maken waarmee informatie in het [schema](advanced-hunting-schema-tables.md) specifiek wordt gestructureerd voor de geavanceerde jacht. Voor een betere uitleg van deze concepten voert u uw eerste query uit.
+Voor de geavanceerde jacht op basis van de [querytaal Kusto](https://docs.microsoft.com/azure/kusto/query/). U kunt de syntaxis van Kusto en operatoren gebruiken om query's te maken waarmee informatie in een speciaal [schema](advanced-hunting-schema-tables.md)wordt gezocht. Voor een betere uitleg van deze concepten voert u uw eerste query uit.
 
 ## <a name="try-your-first-query"></a>Probeer uw eerste query
 
@@ -58,24 +58,22 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Dit ziet er zo uit in de geavanceerde jacht.
-
-![Afbeelding van Microsoft Threat Protection Advanced jacht query](../../media/advanced-hunting-query-example-2.png)
+**[Voer deze query uit in geavanceerde jacht](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI2TW0sCURSF93PQfxh8Moisp956yYIgQtLoMaYczJpbzkkTpN_et_dcdPQkcpjbmrXXWftyetKTQG5lKqmMpeB9IJksJJKZDOWdZ8wKeP5wvcm3OLgZbMXmXCmIxjnYIfcAVgYvRi8w3TnfsXEDGAG47pCCZXyP5ViO4KeNbt-Up-hEuJmB6lvButnY8XSL-cDl0M2I-GwxVX8Fe2H5zMzHiKjEVB0eEsnBrszfBIWuXOLrxCJ7VqEBfM3DWUYTkNKrv1p5y3X0jwetemzOQ_NSVuuXZ1c6aNTKRaN8VvWhY9n7OS-o6J5r7mYeQypdEKc1m1qfiqpjCSuspsDntt2J61bEvTlXls5AgQfFl5bHM_gr_BhO2RF1rztoBv2tWahrso_TtzkL93KGMGZVr2pe7eWR-xeZl91f_113UOsx3nDR4Y9j5R6kaCq8ajr_YWfFeedsd27L7it-Z6dAZyxsJq1d9-2ZOSzK3y2NVd8-zUPjtZaJnYsIH4Md7AmdeAcd2Cl1XoURc5PzXlfU8U9P54WcswL6t_TW9Q__qX-xygQAAA&runQuery=true&timeRangeId=week)**
 
 ### <a name="describe-the-query-and-specify-the-tables-to-search"></a>De query beschrijven en de tabellen opgeven waarnaar moet worden gezocht
-Er is een korte opmerking toegevoegd aan het begin van de query om te beschrijven wat het is. Dit helpt u als u later besluit om de query op te slaan en te delen met anderen in uw organisatie. 
+Er is een korte opmerking toegevoegd aan het begin van de query om te beschrijven wat het is. Deze opmerking helpt u als u later besluit om de query op te slaan en te delen met anderen in uw organisatie. 
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
 ```
 
-De query zelf begint meestal met een tabelnaam gevolgd door een reeks elementen die met een sluisteken () zijn gestart `|` . In dit voorbeeld beginnen we met het maken van een samenvoeging van twee tabellen, en het  `DeviceProcessEvents` `DeviceNetworkEvents` toevoegen van elementen met een sluisteken.
+De query zelf begint meestal met een tabelnaam gevolgd door meerdere elementen die beginnen met een sluisteken ( `|` ). In dit voorbeeld beginnen we met het maken van een samenvoeging van twee tabellen, en het  `DeviceProcessEvents` `DeviceNetworkEvents` toevoegen van elementen met een sluisteken.
 
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
 ```
 ### <a name="set-the-time-range"></a>Het tijdsbereik instellen
-Het eerste element met een pipet is een tijdfilter bereik dat de afgelopen zeven dagen is beperkt. Zorg dat het tijdsbereik zo smal mogelijk is dat query's goed worden uitgevoerd, retourneer kunnen komen en geen tijd in beslag kunnen gaan.
+Het eerste element met een pipet is een tijdfilter bereik dat de afgelopen zeven dagen is beperkt. Wanneer u de periode beperkt, kunt u ervoor zorgen dat query's goed worden uitgevoerd, de beheerbare resultaten kunnen resulteren en geen tijd in beslag gaan.
 
 ```kusto
 | where Timestamp > ago(7d)
@@ -105,7 +103,7 @@ Vervolgens zoekt de query naar tekenreeksen in opdrachtregels die meestal worden
 ```
 
 ### <a name="customize-result-columns-and-length"></a>Resultatenkolommen en lengte aanpassen 
-Wanneer de gegevens die u wilt zoeken duidelijk worden geïdentificeerd met de query, kunt u elementen toevoegen waarmee wordt gedefinieerd hoe de resultaten eruit komen te zien. `project` geeft als resultaat bepaalde kolommen en `top` beperkt het aantal resultaten. Met deze operatoren zorgt u ervoor dat de resultaten goed opgemaakt en redelijk zijn.
+Wanneer de gegevens die u wilt zoeken duidelijk worden geïdentificeerd met de query, kunt u definiëren hoe de resultaten eruit komen te zien. `project` geeft als resultaat bepaalde kolommen en `top` beperkt het aantal resultaten. Met deze operatoren zorgt u ervoor dat de resultaten goed opgemaakt en redelijk zijn.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -113,7 +111,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Klik op **query uitvoeren** om de resultaten te bekijken. Selecteer het pictogram voor uitvouwen in de rechterbovenhoek van de query-editor om de focus te richten op de jacht-query en de resultaten. 
+Selecteer **query uitvoeren** om de resultaten te bekijken. Met het pictogram uitvouwen in de rechterbovenhoek van de query editor kunt u zich richten op de jacht-query en de resultaten. 
 
 ![Afbeelding van het besturingselement uitvouwen in de geavanceerde jacht query editor](../../media/advanced-hunting-expand.png)
 
@@ -122,7 +120,7 @@ Klik op **query uitvoeren** om de resultaten te bekijken. Selecteer het pictogra
 
 ## <a name="learn-common-query-operators"></a>Veelgebruikte queryoperators
 
-Nu u uw eerste query hebt uitgevoerd en een algemeen idee van de onderdelen hebt, is het tijd om terugkeren iets een beetje te leren en de basisbeginselen te leren kennen. De Kusto querytaal die wordt gebruikt in de geavanceerde jacht, biedt ondersteuning voor een bereik van operatoren, waaronder de volgende algemene versies.
+U voer zojuist uw eerste query uit en hebt een algemeen idee van de onderdelen. Het is tijd om iets iets te terugkeren iets en meer informatie over de basisbeginselen te leren kennen. De Kusto querytaal die wordt gebruikt in de geavanceerde jacht, biedt ondersteuning voor een bereik van operatoren, waaronder de volgende algemene versies.
 
 | Werk | Beschrijving en gebruik |
 |--|--|
@@ -141,26 +139,26 @@ Als u een voorbeeld van deze operatoren wilt zien, voert u deze uit in de sectie
 
 ## <a name="understand-data-types"></a>Meer informatie over gegevenstypen
 
-Gegevens in geavanceerde jagers tabellen worden algemeen ingedeeld in de volgende gegevenstypen.
+Geavanceerde jacht biedt ondersteuning voor Kusto-gegevenstypen, waaronder de volgende algemene typen:
 
 | Gegevenstype | Beschrijving van de gevolgen van de query |
 |--|--|
-| `datetime` | Gegevens en tijds informatie die meestal tijdstempels voor gebeurtenissen vertegenwoordigen |
-| `string` | Tekenreeks |
-| `bool` | Waar of onwaar |
-| `int` | 32-bits numerieke waarde  |
-| `long` | 64-bits numerieke waarde |
+| `datetime` | Gegevens en tijds informatie die meestal tijdstempels voor gebeurtenissen vertegenwoordigen. [Ondersteunde notaties voor datetime weergeven](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/datetime) |
+| `string` | Tekenreeks in UTF-8 tussen enkele aanhalingstekens ( `'` ) of dubbele aanhalingstekens ( `"` ). [Lees meer over tekenreeksen](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/string) |
+| `bool` | Dit gegevenstype ondersteunt `true` of `false` staat. [Ondersteunde letterlijke waarden en operatoren weergeven](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/bool) |
+| `int` | 32-bits integer  |
+| `long` | 64-bits integer |
 
-Meer informatie over deze gegevenstypen en de implicaties hiervan [vindt u in Kusto scalaire gegevenstypen](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/).
+Meer informatie over deze gegevenstypen vindt u in [Kusto scalaire gegevenstypen](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/).
 
 ## <a name="get-help-as-you-write-queries"></a>Hulp vragen bij het schrijven van query's
 Profiteer van de volgende functies om query's sneller te schrijven:
-- **Suggesties, wanneer** u query's schrijft, biedt geavanceerde jacht suggesties voor IntelliSense. 
-- **Schemastructuur** : een schema weergave met daarin de lijst met tabellen en de bijbehorende kolommen wordt weergegeven naast uw werkruimte. Plaats de muisaanwijzer op een item voor meer informatie. Dubbelklik op een item om het in te voegen in de query editor.
+- **Suggesties, wanneer**u query's schrijft, biedt geavanceerde jacht suggesties voor IntelliSense. 
+- **Schemastructuur**: een schema weergave met daarin de lijst met tabellen en de bijbehorende kolommen wordt weergegeven naast uw werkruimte. Plaats de muisaanwijzer op een item voor meer informatie. Dubbelklik op een item om het in te voegen in de query editor.
 - Naslag voor **[schema verwijzingen](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** in de portal met beschrijvingen van tabellen en kolommen, en ondersteunde gebeurtenistypen ( `ActionType` waarden) en voorbeeldquery's
 
 ## <a name="work-with-multiple-queries-in-the-editor"></a>Werken met meerdere query's in de editor
-Met de query editor kunt u ook uw Kladblok gebruiken om te experimenteren met meerdere query's. Meerdere query's gebruiken:
+Met de query editor kunt u experimenteren met meerdere query's. Meerdere query's gebruiken:
 
 - Afzonderlijke query's met een lege regel scheiden.
 - Plaats de cursor op een deel van een query om die query te selecteren voordat u deze uitvoert. Hiermee wordt alleen de geselecteerde query uitgevoerd. Als u een andere query wilt uitvoeren, verplaatst u de cursor dienovereenkomstig en selecteert u **query uitvoeren**.
@@ -174,7 +172,7 @@ De sectie **aan** de slag biedt een paar eenvoudige query's waarbij veelgebruikt
 ![Afbeelding van het venster Geavanceerde jacht](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
->Afgezien van de basisvoorbeelden van de query, hebt u ook toegang tot [gedeelde query's](advanced-hunting-shared-queries.md) voor specifieke scenario's voor bedreigings jacht. Verstudeer de gedeelde query's aan de linkerkant van de pagina of in de GitHub query-bibliotheek.
+>Afgezien van de basisvoorbeelden van de query, hebt u ook toegang tot [gedeelde query's](advanced-hunting-shared-queries.md) voor specifieke scenario's voor bedreigings jacht. Verstudeer de gedeelde query's aan de linkerkant van de pagina of in de [github query-bibliotheek](https://aka.ms/hunting-queries).
 
 ## <a name="access-query-language-documentation"></a>Documentatie voor Access-querytalen
 

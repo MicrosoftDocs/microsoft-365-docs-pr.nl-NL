@@ -15,20 +15,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor verificatie met wachtwoord-hash-synchronisatie.
-ms.openlocfilehash: 6aa6b1cd1b8f9459b27e46fa67c62b35014b2d7e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 63f433d5297139fcc7f6eb8bd5383a6593c29388
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686248"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399441"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor wachtwoord-hash-synchronisatie in uw Microsoft 365-testomgeving.
 
 *Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
-[Configuraties voor identiteits-en Apparaattoegang](microsoft-365-policies-configurations.md) zijn een set configuraties en regels voor voorwaardelijke toegang om toegang te krijgen tot alle services in microsoft 365 for Enterprise die zijn geïntegreerd in azure Active Directory (Azure AD).
+[Configuraties voor identiteits-en Apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) zijn een set configuraties en regels voor voorwaardelijke toegang om toegang te krijgen tot alle services in microsoft 365 for Enterprise die zijn geïntegreerd in azure Active Directory (Azure AD).
 
-In dit artikel wordt beschreven hoe een Microsoft 365-testomgeving kan worden geconfigureerd die voldoet aan de vereisten van de [configuratie van de vereisten van Active Directory met wachtwoord-hash-synchronisatie](identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
+In dit artikel wordt beschreven hoe een Microsoft 365-testomgeving kan worden geconfigureerd die voldoet aan de vereisten van de [configuratie van de vereisten van Active Directory met wachtwoord-hash-synchronisatie](../security/office-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
 
 Er zijn acht fasen om deze testomgeving in te stellen:
 
@@ -110,7 +110,7 @@ Voor Skype voor Bedrijven Online:
   Get-CsOAuthConfiguration
   ```
 
-Het resultaat is een testomgeving die voldoet aan de vereisten van de [configuratie van de vereisten van Active Directory met wachtwoord-hash-synchronisatie](identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang. 
+Het resultaat is een testomgeving die voldoet aan de vereisten van de [configuratie van de vereisten van Active Directory met wachtwoord-hash-synchronisatie](../security/office-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang. 
 
 ## <a name="next-step"></a>Volgende stap
 

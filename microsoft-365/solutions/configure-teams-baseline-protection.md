@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Leer teams met een basisbescherming te implementeren.
-ms.openlocfilehash: 4a1843b687155cefd48bf3800be68c3e01abd7f5
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ac6974b5625a4eff0fcd11a17c4607a7c2caf97f
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527858"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398863"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Teams met basisbescherming configureren
 
@@ -31,7 +31,7 @@ In dit artikel leest u hoe u teams met een basisbescherming kunt implementeren. 
 
 ## <a name="initial-protections"></a>Initiële bescherming
 
-Als eerste stap wordt u aangeraden basisbeleid voor identiteiten en apparaattoegang te configureren. Zie [Beleidsaanbevelingen voor het beveiligen van Teams-chats, -groepen en -bestanden](https://docs.microsoft.com/microsoft-365/enterprise/teams-access-policies) voor meer informatie.
+Als eerste stap wordt u aangeraden basisbeleid voor identiteiten en apparaattoegang te configureren. Zie [Beleidsaanbevelingen voor het beveiligen van Teams-chats, -groepen en -bestanden](../security/office-365-security/teams-access-policies.md) voor meer informatie.
 
 We raden u ook aan de basisfuncties van Advanced Threat Protection in te schakelen voor de bescherming tegen malware in documenten, bijlagen en koppelingen. We adviseren u om de opties in de volgende tabel in te schakelen.
 

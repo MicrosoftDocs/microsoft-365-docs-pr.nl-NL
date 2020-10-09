@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Gebruik deze test lab-handleiding voor het inschakelen van extra Microsoft 365-beveiligingsinstellingen voor uw Microsoft 365 voor Enterprise test omgeving.
-ms.openlocfilehash: 06273bda00635a65ed9821b2bac23c3a3ee1366a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 09a613261bc173cd71e9cc2dd58a32a9547ece21
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686800"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398947"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>Verbeterde Microsoft 365-beveiliging voor uw Microsoft 365 voor Enterprise testomgeving
 
@@ -47,7 +47,7 @@ In deze fase schakelt u de verbeterde Microsoft 365-beveiliging in voor uw Micro
 
 ### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>SharePoint Online configureren voor het blokkeren van apps die moderne verificatie niet ondersteunen
 
-Voor apps waarvoor geen ondersteuning biedt voor moderne verificatie, gelden geen [identiteits-en Apparaattoegang-configuraties](microsoft-365-policies-configurations.md) , wat een belangrijk element is van het beveiligen van uw microsoft 365-abonnement en de bijbehorende digitale activa. 
+Voor apps waarvoor geen ondersteuning biedt voor moderne verificatie, gelden geen [identiteits-en Apparaattoegang-configuraties](../security/office-365-security/microsoft-365-policies-configurations.md) , wat een belangrijk element is van het beveiligen van uw microsoft 365-abonnement en de bijbehorende digitale activa. 
 
 1. Ga naar het Microsoft 365-Beheercentrum ( [https://portal.microsoft.com](https://portal.microsoft.com) ) en meld u aan bij uw Microsoft 365-test abonnement met uw globale beheerdersaccount.
     

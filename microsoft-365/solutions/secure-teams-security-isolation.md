@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: 544f62e4765388f90874c15504e6656820111ed4
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: fdebfcbfa4aad68f381db4ffb8c9b83a5100187c
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326493"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398713"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -51,8 +51,8 @@ U kunt deze poster ook downloaden in [PDF](https://github.com/MicrosoftDocs/micr
 ## <a name="initial-protections"></a>Initiële bescherming
 
 Lees de volgende aanbevolen procedures om de toegang tot het team en de onderliggende SharePoint-site te beveiligen:
-- [Beleid voor identiteiten en apparaattoegang](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-policies)
-- [Beleid voor toegang tot SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)
+- [Beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
+- [Beleid voor toegang tot SharePoint Online](../security/office-365-security/sharepoint-file-access-policies.md)
 - [Teams implementeren met basisbescherming](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>Delen met gasten

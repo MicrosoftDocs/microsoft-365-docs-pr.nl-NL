@@ -15,20 +15,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor pass-through-verificatie.
-ms.openlocfilehash: eeb6c1d1313c95e920b20cce419118fe1e61ad6e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 7741b38a947e58d81192326c412760487d803e36
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685640"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399179"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor pass-through-verificatie in uw Microsoft 365-testomgeving.
 
 *Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
 
-[Configuraties voor identiteits-en Apparaattoegang](microsoft-365-policies-configurations.md) zijn een set configuraties en regels voor voorwaardelijke toegang om toegang te krijgen tot alle services in microsoft 365 for Enterprise die zijn geïntegreerd in azure Active Directory (Azure AD).
+[Configuraties voor identiteits-en Apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) zijn een set configuraties en regels voor voorwaardelijke toegang om toegang te krijgen tot alle services in microsoft 365 for Enterprise die zijn geïntegreerd in azure Active Directory (Azure AD).
 
-In dit artikel wordt beschreven hoe u een Microsoft 365-testomgeving kunt configureren die voldoet aan de vereisten van de [configuratie voor pass-through-verificatie](identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
+In dit artikel wordt beschreven hoe u een Microsoft 365-testomgeving kunt configureren die voldoet aan de vereisten van de [configuratie voor pass-through-verificatie](../security/office-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
 
 Er zijn acht fasen om deze testomgeving in te stellen:
 
@@ -111,7 +111,7 @@ Voor Skype voor Bedrijven Online:
   Get-CsOAuthConfiguration
   ```
 
-Het resultaat is een testomgeving die voldoet aan de vereisten van de [vereiste configuratie van pass-through-verificatie](identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang. 
+Het resultaat is een testomgeving die voldoet aan de vereisten van de [vereiste configuratie van pass-through-verificatie](../security/office-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang. 
 
 ## <a name="next-step"></a>Volgende stap
 

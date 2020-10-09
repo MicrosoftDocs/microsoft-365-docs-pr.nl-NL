@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Overzicht: hoe contoso een team gebruikte met behulp van beveiligings isolatie voor een hoofd-geheim project om een nieuwe suite met producten en services te ontwikkelen.'
-ms.openlocfilehash: ba9a66d2419e81aeb1eac026b16c0475ac6d0614
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 16d10f5d6e5b5939172c02746c9324eb20b6987e
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778580"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48399487"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Geïsoleerd team voor een hoofd-geheim project van Contoso B.v.
 
@@ -40,7 +40,7 @@ Contoso IT-personeel heeft een [team gebruikt met beveiligings isolatie](secure-
 
 ## <a name="step-1-created-a-private-team"></a>Stap 1: een privé team maken
 
-Als u de toegang tot de onderliggende SharePoint-site voor het team wilt beveiligen, zijn de beheerders van Contoso IT de [Aanbevolen beleidsregels voor toegang tot SharePoint](../enterprise/sharepoint-file-access-policies.md)geconfigureerd.
+Als u de toegang tot de onderliggende SharePoint-site voor het team wilt beveiligen, zijn de beheerders van Contoso IT de [Aanbevolen beleidsregels voor toegang tot SharePoint](../security/office-365-security/sharepoint-file-access-policies.md)geconfigureerd.
 
 Vervolgens heeft een contoso IT-beheerder een nieuw privé team gemaakt met de naam Project 2 en worden de gebruikersaccounts van project en de werknemers toegevoegd als leden. Ze hebben ook het team geconfigureerd, zodat alleen project van team eigenaren persoonlijke kanalen kan maken.
 
@@ -51,7 +51,7 @@ Zie [een privé team maken](secure-teams-security-isolation.md#create-a-private-
 Contoso-beheerders hebben een nieuwe vertrouwelijkheids label gemaakt, met de naam **Project 2** :
 
 - Versleuteling ingeschakeld.
-- Toegestane rechten voor cocreatie voor de groep project, 2 en Microsoft 365.
+- Machtigingen voor Co-Author toegestaan voor de groep project 2 en Microsoft 365.
 - Toegestane Viewer machtigingen voor de Senior leiderschaps groep.
 - Toegang tot niet-beheerde apparaten is geblokkeerd.
 
@@ -64,7 +64,7 @@ Zie [een gevoeligheids label maken](secure-teams-security-isolation.md#create-a-
 
 ## <a name="step-3-configured-the-underlying-sharepoint-site"></a>Stap 3: de onderliggende SharePoint-site is geconfigureerd
 
-Als u de toegang tot de onderliggende SharePoint-site voor het team wilt beveiligen, zijn de beheerders van Contoso IT de [Aanbevolen beleidsregels voor toegang tot SharePoint](../enterprise/sharepoint-file-access-policies.md)geconfigureerd.
+Als u de toegang tot de onderliggende SharePoint-site voor het team wilt beveiligen, zijn de beheerders van Contoso IT de [Aanbevolen beleidsregels voor toegang tot SharePoint](../security/office-365-security/sharepoint-file-access-policies.md)geconfigureerd.
 
 Vervolgens hebben ze extra machtigingsinstellingen voor de site geconfigureerd:
 

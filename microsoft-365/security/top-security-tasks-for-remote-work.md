@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Uw zakelijke e-mail en gegevens beschermen tegen cyber bedreigingen, zoals Ransomware, phishing en kwaadaardige bijlagen.
-ms.openlocfilehash: 754f3eac884128e0707a02c15d4d3766f5fa4ca5
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c72090bebe92ea61d99772eccde041d011c05580
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327793"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398645"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>De belangrijkste 12 taken voor beveiligings teams voor de ondersteuning van thuisgebruik
 
@@ -72,7 +72,7 @@ Het toepassen van deze beleidsregels duurt slechts een paar minuten, maar het is
 |---|---|
 |Microsoft 365-abonnementen (zonder Azure AD P1 of P2)|[Schakel standaardinstellingen voor beveiliging in Azure AD in](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). De standaardinstellingen voor beveiliging in Azure AD omvatten MFA voor gebruikers en beheerders.|
 |Microsoft 365 E3 (met Azure AD P1)|Gebruik [algemeen beleid voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) om het volgende beleid te configureren: <br/>- [MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br/>- [MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br/> - [Verouderde verificatie blokkeren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)|
-|Microsoft 365 E5 (met Azure AD P2)|Als u gebruikmaakt van Azure AD Identity Protection, begint u het implementeren van de [aanbevolen set beleidsregels voor voorwaardelijke toegang en verwante beleidsregels](../enterprise/identity-access-policies.md) van Microsoft door de volgende twee beleidsregels te maken:<br/> - [MFA vereisen bij een normaal of hoog risico bij het aanmelden](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [Clients blokkeren die moderne verificatie niet ondersteunen](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br/>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)|
+|Microsoft 365 E5 (met Azure AD P2)|Als u gebruikmaakt van Azure AD Identity Protection, begint u het implementeren van de [aanbevolen set beleidsregels voor voorwaardelijke toegang en verwante beleidsregels](./office-365-security/identity-access-policies.md) van Microsoft door de volgende twee beleidsregels te maken:<br/> - [MFA vereisen bij een normaal of hoog risico bij het aanmelden](./office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [Clients blokkeren die moderne verificatie niet ondersteunen](./office-365-security/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br/>- [Gebruikers met een hoog risico moeten het wachtwoord wijzigen](./office-365-security/identity-access-policies.md#high-risk-users-must-change-password)|
 |
 
 ## <a name="2-protect-against-threats"></a>2: beveiliging tegen bedreigingen
@@ -139,10 +139,10 @@ Het beleid voor APP-beveiliging omvat tal van instellingen. Gelukkig hoeft u nie
 
 Nog beter, Microsoft coördineert dit app-beveiligings raamwerk met een set voorwaardelijke toegang en gerelateerde beleidsregels die alle organisaties gebruiken als uitgangspunt. Als u MFA met behulp van de richtlijnen in dit artikel hebt geïmplementeerd, bent u op de helft.
 
-Als u de bescherming voor mobiele apps wilt configureren, volgt u de richtlijnen in [veelgebruikte beleidsregels voor identiteit en toegang tot apparaten](../enterprise/identity-access-policies.md):
+Als u de bescherming voor mobiele apps wilt configureren, volgt u de richtlijnen in [veelgebruikte beleidsregels voor identiteit en toegang tot apparaten](./office-365-security/identity-access-policies.md):
 
- 1. Gebruik de richtlijnen voor het [toepassen van app Data Protection-beleid](../enterprise/identity-access-policies.md#apply-app-data-protection-policies) voor het maken van beleid voor IOS en Android. Niveau 2 (Enhanced Data Protection) wordt aanbevolen voor basisbescherming.
- 2. Maak een regel voor voorwaardelijke toegang voor het [vereisen van goedgekeurde apps en app-beveiliging](../enterprise/identity-access-policies.md#require-approved-apps-and-app-protection).
+ 1. Gebruik de richtlijnen voor het [toepassen van app Data Protection-beleid](./office-365-security/identity-access-policies.md#apply-app-data-protection-policies) voor het maken van beleid voor IOS en Android. Niveau 2 (Enhanced Data Protection) wordt aanbevolen voor basisbescherming.
+ 2. Maak een regel voor voorwaardelijke toegang voor het [vereisen van goedgekeurde apps en app-beveiliging](./office-365-security/identity-access-policies.md#require-approved-apps-and-app-protection).
 
 ## <a name="7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection"></a>7: MFA en voorwaardelijke toegang configureren voor gasten, waaronder de bescherming van de mobiele app
 
@@ -153,7 +153,7 @@ Als u het Microsoft 365 E5-abonnement gebruikt en u zich profiteert van Azure Id
 - Maak een nieuwe regel voor voorwaardelijke toegang zodat MFA altijd is vereist voor gasten en externe gebruikers.
 - Update de regel voor voorwaardelijke toegang op basis van risico op basis van risico voor het uitsluiten van gasten en externe gebruikers.
 
-Gebruik de instructies in [Update the common policies om gast en externe toegang toe te staan en te beschermen](../enterprise/identity-access-policies-guest-access.md) om te begrijpen hoe gasttoegang werkt met Azure AD en om het betreffende beleid bij te werken.
+Gebruik de instructies in [Update the common policies om gast en externe toegang toe te staan en te beschermen](./office-365-security/identity-access-policies-guest-access.md) om te begrijpen hoe gasttoegang werkt met Azure AD en om het betreffende beleid bij te werken.
 
 Het beleid dat u hebt gemaakt met de functie voor het intune-beleid voor de mobiele app die u hebt gemaakt, samen met de regel voor voorwaardelijke toegang voor het vereisen van goedgekeurde apps en APP-beveiliging, van toepassing op gasten accounts
 
@@ -171,12 +171,12 @@ U kunt ook profiteren van de volgende zelfstudies:
 - [Auto Pilot gebruiken om Windows-apparaten in intune te registreren](https://docs.microsoft.com/mem/intune/enrollment/tutorial-use-autopilot-enroll-devices)
 - [De inschrijvings functies van Apple Business-apparaten gebruiken in Apple Business Manager (ABM) voor het registreren van iOS-iPadOS-apparaten in intune](https://docs.microsoft.com/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
 
-Wanneer u de apparaten registreert, volgt u de richtlijnen in [common Identity-en Apparaattoegang voor beleids](../enterprise/identity-access-policies.md) regels om deze beleidsregels te maken:
+Wanneer u de apparaten registreert, volgt u de richtlijnen in [common Identity-en Apparaattoegang voor beleids](./office-365-security/identity-access-policies.md) regels om deze beleidsregels te maken:
 
-- [Beleid voor naleving van apparaat definiëren](../enterprise/identity-access-policies.md#define-device-compliance-policies) : de aanbevolen instellingen voor Windows 10 bevatten antivirusbeveiliging. Als u Microsoft 365 E5 hebt, kunt u de status van werknemers in Microsoft Defender Advanced Threat Protection volgen. Zorg ervoor dat nalevingsbeleid voor andere besturingssystemen antivirussoftware en bescherming tegen eindpunten omvat.
-- [Compatibele Pc's vereisen](../enterprise/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) : dit is de regel voor voorwaardelijke toegang in azure AD die het beleid voor naleving van apparaatcompatibiliteit afdwingt.
+- [Beleid voor naleving van apparaat definiëren](./office-365-security/identity-access-policies.md#define-device-compliance-policies) : de aanbevolen instellingen voor Windows 10 bevatten antivirusbeveiliging. Als u Microsoft 365 E5 hebt, kunt u de status van werknemers in Microsoft Defender Advanced Threat Protection volgen. Zorg ervoor dat nalevingsbeleid voor andere besturingssystemen antivirussoftware en bescherming tegen eindpunten omvat.
+- [Compatibele Pc's vereisen](./office-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) : dit is de regel voor voorwaardelijke toegang in azure AD die het beleid voor naleving van apparaatcompatibiliteit afdwingt.
 
-Er kan slechts één organisatie een apparaat beheren, dus zorg ervoor dat u Gastaccounts uitsluiten van de regel voor voorwaardelijke toegang in azure AD. Als u gast en externe gebruikers niet uitsluiten van beleidsregels waarvoor de naleving van een apparaat is vereist, blok keert dit beleid deze gebruikers. Zie voor meer informatie [het artikel common policies bijwerken om gast en externe toegang toe te staan en te beveiligen](../enterprise/identity-access-policies-guest-access.md).
+Er kan slechts één organisatie een apparaat beheren, dus zorg ervoor dat u Gastaccounts uitsluiten van de regel voor voorwaardelijke toegang in azure AD. Als u gast en externe gebruikers niet uitsluiten van beleidsregels waarvoor de naleving van een apparaat is vereist, blok keert dit beleid deze gebruikers. Zie voor meer informatie [het artikel common policies bijwerken om gast en externe toegang toe te staan en te beveiligen](./office-365-security/identity-access-policies-guest-access.md).
 
 ## <a name="9-optimize-your-network-for-cloud-connectivity"></a>9: uw netwerk optimaliseren voor Cloud connectiviteit
 

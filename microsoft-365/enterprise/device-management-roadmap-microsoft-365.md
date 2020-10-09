@@ -15,12 +15,12 @@ ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
 description: De routekaart voor het instellen van Apparaatbeheer voor Microsoft 365.
-ms.openlocfilehash: 0efe7098f90064184f222acb671ae6f96c1b38d5
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: d359cae62fbd1bf2468ad753670ff8e385d6f25b
+ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384759"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48398959"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Wegwijzer voor Apparaatbeheer voor Microsoft 365
 
@@ -54,10 +54,10 @@ Op basis van uw beoordeling gaat u aan de slag met het beheren van uw apparaten 
  
 ## <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 
-Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor toegang tot apparaten de aanbevelingen en instellingen in deze artikelen:
+Microsoft biedt een aantal aanbevelingen voor [identiteits- en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) om te zorgen dat uw personeel veilig en productief blijft. Gebruik voor toegang tot apparaten de aanbevelingen en instellingen in deze artikelen:
 
-- [Vereisten](identity-access-prerequisites.md)
-- [Algemeen beleid voor identiteiten en apparaattoegang](identity-access-policies.md)
+- [Vereisten](../security/office-365-security/identity-access-prerequisites.md)
+- [Algemeen beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
 
 ## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Hoe contoso Apparaatbeheer voor Microsoft 365
 
