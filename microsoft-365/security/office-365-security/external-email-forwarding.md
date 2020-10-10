@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: f729aa816caf8fb07499037ee27fbfc37b7205b3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c0a3849d330b508630eb60c7ee24cd8b498a32b8
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202877"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417227"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Externe e-mail forwarding configureren in Office 365
 
@@ -28,7 +28,7 @@ ms.locfileid: "48202877"
 
 Extern doorsturen wordt bepaald door het *uitgaande Antispambeleid* en de reikwijdte van de gebruikers op basis van de geconfigureerde instelling. Momenteel worden de instellingen voor 3 weer geboden:
 
-- **Automatisch** : in deze modus is het systeem verantwoordelijk voor het bepalen of een doorgestuurd bericht wel of niet is toegestaan.  Dit is de standaardmodus en in deze modus wordt het automatisch extern doorsturen van het systeem blokkeren.
+- **Automatisch** – dit is door het systeem beheerde functies: uitgaande spamfilters om automatisch externe e-mailberichten te kunnen doorsturen. Dit is de standaardinstelling.
 
 - **On** -automatisch extern doorsturen is toegestaan en niet beperkt.
 
@@ -37,7 +37,7 @@ Extern doorsturen wordt bepaald door het *uitgaande Antispambeleid* en de reikwi
 Zie [uitgaande spamfilters configureren in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true) voor meer informatie over het configureren van deze instellingen.
 
 > [!NOTE]
-> Als u automatisch doorsturen uitschakelt, worden ook regels voor het postvak in van berichten naar externe adressen dsable.
+> Als u automatisch doorsturen uitschakelt, worden ook regels voor het postvak in uitgeschakeld waarmee berichten naar externe adressen worden doorgestuurd.
 
 ## <a name="controlling-external-email-forwarding"></a>Externe e-mail doorsturen beheren
 

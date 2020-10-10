@@ -18,12 +18,12 @@ ms.collection:
 - m365-initiative-defender-office365
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 20b13e177a69d981a4c6793d4810256e33158a35
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab691e88c8450e4f1ab898fe6a9d75d6682370a5
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414260"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417351"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -48,6 +48,101 @@ Met dit rapport kunt u:
 - [Een automatisch onderzoek en antwoord proces starten vanuit een weergave in Verkenner (alleen voor het](#start-automated-investigation-and-response) ATP-abonnement 2)
 - ... [Onderzoek kwaadaardige e-mail en nog veel meer](#more-ways-to-use-explorer-or-real-time-detections).
 
+## <a name="improvements-to-threat-hunting-experience-upcoming"></a>Verbeteringen in de ervaring voor de jacht-ervaring (binnenkort)
+
+### <a name="updated-threat-information-for-emails"></a>Update van bedreigings informatie voor e-mailberichten
+
+We hebben ons gefocust over verbeteringen in platform en gegevenskwaliteit om de nauwkeurigheid en consistentie van de gegevens te verbeteren. Deze set updates omvat consolidatie van voorlopige informatie en informatie over de levering (de voorbeeld actie die voor een e-mailbericht wordt uitgevoerd als onderdeel van ZAP-proces) in één record, samen met toegevoegde verouderings locaties, zoals spam Verdict. 
+
+Na deze updates ziet u één vermelding voor elk bericht, ongeacht de diverse gebeurtenissen na de levering die op het bericht plaatsvonden. U kunt ook ZAP, handmatig herstel (dat wil zeggen beheerdersactie), dynamische levering, etc. 
+
+Naast malware en phishing is het ook mogelijk om spam verdict te zien die zijn gekoppeld aan een e-mailbericht. In het e-mailbericht ziet u alle bedreigingen van de e-mail, samen met de bijbehorende detectie technologieën. U kunt elk e-mailbericht 0, 1 of meerdere bedreigingen hebben. In het gedeelte Details van de E-mail flyout ziet u de huidige bedreigingen. Daarnaast zou voor meerdere bedreigingen (bijvoorbeeld een e-mailbericht met malware en phishing) de Threat-Detection-toewijzing geven, wat betekent dat de detectie tech leidde tot het identificeren van de bedreiging.
+
+De set detectie technologieën is bijgewerkt met nieuwe detectiemethoden, en de spam detectie technologieën, en aross alle verschillende e-mail weergaven (malware, phishing, alle E-mail), u hebt dezelfde, consistente sets detectie technologieën om de resultaten te filteren. 
+
+**Opmerking**: verdict-analyse kan niet noodzakelijkerwijs aan entiteiten zijn gebonden. Voorbeeld: een e-mailbericht kan als phishing of spam worden geclassificeerd, maar er zijn geen Url's die een phishing-of spam Verdict. Dit komt doordat de filters ook inhoud en andere details van een e-mailbericht evalueren voordat ze een verdict toewijzen. 
+ 
+#### <a name="threats-in-urls"></a>Bedreigingen in Url's
+
+In de vervolgmenu e-mail-> tabblad Details ziet u nu een specifieke bedreiging voor de URL (de bedreiging voor een URL kan malware, phishing, spam of geen) worden weergegeven.
+
+![URL-bedreigingen](../../media/URL_Threats.png)
+
+### <a name="updated-timeline-view-upcoming"></a>Bijgewerkte tijdlijnweergave (binnenkort)
+
+![Bijgewerkte tijdlijnweergave](../../media/Email_Timeline.png)
+
+Naast het identificeren van alle activiteiten met betrekking tot bezorging en na levering, biedt de tijdlijnweergave ook informatie over de bedreiging die op dat moment is geïdentificeerd voor een subset van deze gebeurtenissen. Ook krijgt u meer informatie over extra acties (bijvoorbeeld ZAP, handmatig herstel), samen met het resultaat van die actie. De tijdlijnweergave bevat informatie over de oorspronkelijke bezorgings periode en daaropvolgende gebeurtenissen na de bezorging van een e-mailbericht.
+
+-   Bron: dit kan de beheerder/het systeem/de gebruiker zijn op basis van de bron van de gebeurtenis.
+-   Gebeurtenis: Dit geldt ook voor gebeurtenissen op het hoogste niveau zoals originele levering, handmatig herbemiddeling, ZAP, inzendingen en dynamische bezorging.
+-   Actie: Dit geldt voor de specifieke actie die is uitgevoerd als onderdeel van ZAP-of beheerdersactie (zoals een tijdelijke verwijdering).
+-   Threats: behandelt de bedreigingen (malware, phishing en spam) die op dat moment identificeren.
+-   Resultaat/informatie: Hier vindt u meer informatie over het resultaat van de actie, ongeacht of de actie is uitgevoerd als onderdeel van ZAP/admin.
+
+### <a name="original-and-latest-delivery-location"></a>Oorspronkelijke en meest recente bezorgingslocatie
+
+De bezorgingslocatie bevindt zich nu in het raster en de e-mail flyout van de e-mail. Doorgaan wordt de naam van het veld bezorgingslocatie gewijzigd in oorspronkelijke bezorgingslocatie. Daarnaast wordt ook een ander veld met de naam meest recente bezorgingslocatie geïntroduceerd. 
+
+Op de oorspronkelijke bezorgingslocatie vindt u meer informatie over de locatie van een e-mailbericht dat u aanvankelijk ontvangt. De meest recente bezorgingslocatie bevat locaties waar een e-mailbericht mogelijk is gelost na systeemacties zoals ZAP-of beheeracties, zoals **verplaatsen naar verwijderde items**. Nieuwste bezorgingslocatie is bedoeld om beheerders op de hoogte te stellen van de laatste locatie van de publicatie na de bezorging van het bericht of van systeem/beheer-acties. Op basis van ontwerpen bevat dit geen activiteiten met betrekking tot de eindgebruikers van de e-mail. Bijvoorbeeld: als een gebruiker een bericht verwijdert of het bericht verplaatst naar archief-of PST-bestand, wordt het bericht ' bezorgingslocatie ' niet bijgewerkt. Als een systeemactie de locatie echter heeft bijgewerkt (bijvoorbeeld ZAP resulteerde in een e-mailbericht dat overstapt naar Quarantine), ziet u de nieuwste bezorgingslocatie in quarantaine. 
+
+![Bijgewerkte bezorgingslocaties](../../media/Updated_Delivery_Location.png)
+
+**Opmerking**: in de volgende gevallen wordt de bezorgingslocatie en de bezorgings actie weergegeven:
+
+- U ziet mogelijk de bezorgingslocatie als afgeleverd, en de bezorgingslocatie is onbekend. Dit gebeurt als het bericht is bezorgd, maar een regel voor Postvak in het bericht heeft verplaatst naar een standaardmap (concept, archief, etc.) in plaats van het postvak in of de map Ongewenste E-mail. 
+
+- De meest recente bezorgingslocatie kan niet worden herkend als een beheerder/systeemactie (bijvoorbeeld, ZAP, admin actie) wordt geprobeerd, maar het bericht niet is gevonden. Meestal gebeurt de actie wanneer de gebruiker het bericht heeft verplaatst of verwijderd. In dergelijke gevallen controleert u de kolom resultaat/Details in de tijdlijnweergave. Zoek het bericht: bericht is verplaatst of verwijderd door de gebruiker.
+
+![Bezorgingslocaties voor tijdlijn](../../media/Updated_Timeline_Delivery_Location.png)
+
+### <a name="additional-actions"></a>Aanvullende acties 
+
+Aanvullende acties bestaan uit de acties die zijn toegepast op de bezorging van het e-mailbericht, en kunnen ZAP, handmatige herstelbewerkingen (actie die worden uitgevoerd door een admi; n voorbeeld van een onverwachte verwijdering), dynamische bezorging en opnieuw verwerkte (een e-mailbericht met een terugwerkend e-mailbericht). 
+
+> [!NOTE]
+>
+> - Als onderdeel van deze wijziging wordt de verwijderde naam van de ZAP-waarde die op dat moment is geoppereerd in het bezorgings filter weggegooid. U kunt ook zoeken naar alle e-mailberichten met de ZAP-poging via de aanvullende acties.
+>
+> -Er worden nieuwe velden en waarden voor detectie technologieën en extra acties (met name voor ZAP-scenario's) weergegeven. Evalueer uw bestaande opgeslagen Query's en bijgehouden query's om ervoor te zorgen dat ze werken met de nieuwe waarden. 
+
+![Additional_Actions](../../media/Additional_Actions.png)
+
+### <a name="system-overrides"></a>Systeem overschrijvingen 
+
+Systeem overschrijvingen zijn een methode voor het aanstellen van uitzonderingen op de beoogde bezorgingslocatie van een bericht door de bezorgingslocatie van het systeem te vervangen (op basis van de bedreigingen en andere detecties die worden aangegeven door de filter stapel). Door systeem overschrijvingen kan worden ingesteld via Tenant of gebruikersbeleid om het bericht op te geven dat door het beleid wordt voorgesteld. Overschrijvingen zijn handig voor het identificeren van een onbedoelde aflevering van schadelijke berichten vanwege bezorgings hiaten (bijvoorbeeld een zeer algemeen beleid voor het veilig afzenderset dat door een gebruiker is ingesteld). Deze opheffings waarden kunnen zijn:
+
+- Toegestaan door gebruikersbeleid: dit is wanneer een gebruiker domeinen of afzenders toestaat door beleidsregels op Postvak niveau te maken.
+- Geblokkeerd door gebruikersbeleid: dit is wanneer een gebruiker domeinen of afzenders blokkeert door beleidsregels op het postvak niveau te maken.
+- Toegestaan door het beleid van de organisatie: dit doet zich voor als de beveiligings teams van de organisatie beleidsregels voor de organisatie of Exchange-e-mail stroom regels (ook wel transport regels genoemd) hebben voor het toestaan van afzenders en domeinen voor gebruikers in hun organisatie. Dit kan bestaan voor een set gebruikers of de hele organisatie.
+- Toegestaan door het beleid voor de organisatie: Dit houdt in dat de beveiligings teams van de organisatie beleidsregels of e-mail stroom regels instellen voor het blokkeren van afzenders, domeinen, berichten talen of bron-IPs voor gebruikers in hun organisatie. Dit kan ook voor een reeks gebruikers of de hele organisatie.
+- Bestandsextensie wordt geblokkeerd door het organisatiebeleid: dit doet zich voor als een bestandsextensie wordt geblokkeerd door de beveiligings teams van een organisatie via de beleidsinstellingen voor anti-malware. Deze waarden worden nu weergegeven in e-mail gegevens om onderzoek te doen. Secops teams kunnen ook filteren op geblokkeerde bestandsextensies met behulp van de functies voor uitgebreid filteren.
+
+![System_Overrides](../../media/System_Overrides.png)
+
+![System_Overrides_Grid](../../media/System_Overrides_Grid.png)
+
+### <a name="improvements-around-url-and-clicks-experience"></a>Verbeteringen rond URL'S en klikken
+
+De gefocuste functies op URL en URL klikken op gegevens zijn:
+
+-   Het weergeven van de volledige geklikt URL (waaronder query parameters die deel uitmaken van de URL) binnen de Click-sectie in URL-flyout. Op dit moment wordt het URL-domein en pad weergegeven op de titelbalk. We verlengen deze informatie om de volledige URL weer te geven.
+-   Oplossingen voor URL-filters (URL versus URL Domain versus URL Domain en Path): er zijn updates voor het zoeken naar berichten die een URL bevatten/Klik op Verdict. Daarom hebben we ondersteuning ingeschakeld voor protocol agnostic-zoekopdrachten (dat wil zeggen dat u rechtstreeks kunt zoeken naar een URL zonder http). Standaard wordt via URL'S gezocht naar http, tenzij expliciet is opgegeven. Bijvoorbeeld:
+
+  a.    Zoek met en zonder het `http://` voorvoegsel in de URL-, het URL-domein en de url's-domein en-pad filtervelden. Dit gedrag is consistent en moet hetzelfde resultaat weergeven.
+  b.    Zoek het `https://` voorvoegsel in URL. Wanneer u dit niet doet, `http://` wordt uitgegaan van het voorvoegsel.
+  c.     `/` aan het begin en einde van de velden URL-pad, URL-domein en pad, wordt genegeerd. `/` aan het einde van het veld URL wordt genegeerd. 
+
+### <a name="phish-confidence-level"></a>Betrouwbaarheidsniveau voor phishing
+
+Met betrouwbaarheid van phishing kunt u de mate van betrouwbaarheid identificeren, waarbij een e-mailbericht als phishing werd gecategoriseerd. De twee mogelijke waarden zijn hoog en normaal. In de eerste fase is dit filter alleen beschikbaar in de weergave phishing van de Threat Explorer.
+
+![Phish_Confidence_Level](../../media/Phish_Confidence_Level.png)
+
+### <a name="zap-url-signal"></a>ZAP-URL-signaal 
+
+Wordt meestal gebruikt voor ZAP-phishing-scenario's waarbij een e-mailbericht als phishing is aangemerkt en na levering is verwijderd. Dit wordt gebruikt om de waarschuwing te verbinden met de overeenkomstige resultaten in Explorer. Het is een van de IOCs voor de waarschuwing. 
+
 ## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Ervaar verbeteringen in de bedreigings Verkenner en Real-Time detectie
 
 Als onderdeel van de verbetering van de jacht, hebben we enkele updates gemaakt voor de bedreigings Verkenner en Real-Time detectie. Dit zijn de verbeteringen van de ervaring, met de focus op de beleving van de jacht consistent. Hieronder ziet u een overzicht van deze wijzigingen:
@@ -59,13 +154,14 @@ Als onderdeel van de verbetering van de jacht, hebben we enkele updates gemaakt 
 
 ### <a name="timezone-improvements"></a>Tijdzone verbeteringen
 
-We tonen de tijdzone voor de e-mail records binnen de portal en voor de geëxporteerde gegevens. De tijdzone is zichtbaar in functies zoals E-mail raster, Details flyout, e-mail tijdlijn en soortgelijke E-mail, zodat de tijdzone voor de resultatenset duidelijk is voor de gebruiker.
+U ziet de tijdzone voor de e-mail records binnen de portal en voor de geëxporteerde gegevens. De tijdzone is zichtbaar in functies zoals E-mail raster, Details flyout, e-mail tijdlijn en soortgelijke E-mail, zodat de tijdzone voor de resultatenset duidelijk is voor de gebruiker.
 
 ![Tijdzone weergeven in Verkenner](../../media/TimezoneImprovements.png)
 
 ### <a name="update-in-the-refresh-process"></a>Bijwerken in het vernieuwingsproces
 
 We hebben uw feedback om verwarring met automatisch vernieuwen (bijvoorbeeld voor datum nadat u de datum hebt gewijzigd nadat u de pagina hebt gewijzigd) en handmatig vernieuwen (voor andere filters). Evenzo verwijdert filters potentiële klanten naar automatisch vernieuwen, dan wordt er een situatie waarbij het wijzigen van de verschillende filters tijdens het wijzigen van de query inconsistentie van de zoekfuncties kan veroorzaken. Om dit op te lossen, gaan we overstappen op een handmatig filtermechanisme.
+
 Vanuit het oogpunt van de ervaring kan de gebruiker een verschillend bereik van filters (uit de filtersset en datum) toepassen en verwijderen en vervolgens op de knop Vernieuwen klikken om de resultaten te filteren nadat deze zijn uitgevoerd met het definiëren van de query. De knop Vernieuwen is ook bijgewerkt, zodat deze duidelijk op het scherm wordt weergegeven. We hebben ook Scherminfo en documentatie ter informatie bijgewerkt.
 
 ![Klik op vernieuwen om resultaten te filteren](../../media/ManualRefresh.png)

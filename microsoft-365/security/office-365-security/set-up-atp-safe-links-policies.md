@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie lezen over het weergeven, maken, wijzigen en verwijderen van beleid voor veilige koppelingen en algemene instellingen voor veilige koppelingen in Office 365 Advanced Threat Protection (ATP).
-ms.openlocfilehash: b6b013364fc763450ac8bef0d06bd2fad8d55daa
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: cf60820297401de92781a48f22f70d1f503e3097
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350717"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417251"
 ---
 # <a name="set-up-safe-links-policies-in-office-365-atp"></a>Beleid voor veilige koppelingen in Office 365 ATP instellen
 
@@ -88,9 +88,9 @@ Als u een aangepast beleid voor veilige koppelingen maakt in de beveiligings & n
 
 4. Configureer de volgende instellingen op de pagina **instellingen** die wordt weergegeven:
 
-   - **Selecteer de actie voor onbekende, mogelijk schadelijke url's in berichten**: Selecteer **aan**.
+   - **Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten**: Selecteer **aan** om de bescherming van veilige koppelingen in te schakelen voor koppelingen in e-mailberichten.
 
-   - **Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten**: Selecteer **aan** of laat de standaardwaarde **uit** geselecteerd.
+   - **Selecteer de actie voor onbekende of mogelijk schadelijke url's in Microsoft teams**: Selecteer **aan om de bescherming van veilige** koppelingen in te schakelen voor koppelingen in teams.
 
    - Het **scannen van realtime-Url's toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden**: Selecteer deze instelling om de realtime scan van koppelingen in e-mailberichten in te schakelen.
 

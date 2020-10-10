@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-defender-office365
 description: Beheerders kunnen leren hoe u een postvak configureert om spam en phishing-e-mail te verzamelen die door gebruikers worden gerapporteerd.
-ms.openlocfilehash: 8347463a4c3f41b6b6333d35c5b4207d1b94aabe
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab7f25c456a9321977721113c1e98d67d1529feb
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412560"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417238"
 ---
 # <a name="user-submissions-policies"></a>Beleid voor het indienen van gebruikers
 
@@ -47,17 +47,17 @@ Door gebruiker gerapporteerde berichten te verzenden naar een aangepast postvak 
 
 Ga als volgt te werk om de vereisten te configureren die vereist zijn om door de gebruiker gerapporteerde berichten te verzenden naar uw aangepaste postvak:
 
-- Sla spamfilters over door een Exchange-e-mail stroom regel te maken voor het instellen van het spam niveau. Zie voor meer informatie over het [maken van een e-mail stroom regel waarmee de SCL van een bericht wordt ingesteld](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages?view=o365-worldwide#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) voor het instellen van de SCL op **-1**.
+- U kunt spam filteren in het aangepaste postvak door een Exchange-e-mail stroom regel te maken om het betrouwbaarheidsniveau voor ongewenste e-mail in te stellen. Zie voor meer informatie over het [maken van een e-mail stroom regel waarmee de SCL van een bericht wordt ingesteld](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) voor het instellen van de SCL op **-1**.
 
-- Schakel het scannen van bijlagen voor malware uit. Het [beleid instellen (of bewerken) voor het](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide#step-2-set-up-or-edit-an-atp-safe-attachments-policy) maken van een beleid voor veilige bijlagen met de instelling voor het maken **van schadelijke bijlagen niet wordt gescand op schadelijke software** .
+- Schakel het scannen van bijlagen voor malware in het aangepaste postvak uit. Gebruik [beleidsregels voor veilige bijlagen instellen in Office 365 ATP](set-up-atp-safe-attachments-policies.md) om een veilig bijlage beleid te maken met de **instelling voor** **veilige bijlagen onbekende malware van malware**.
 
-- Schakel URL Scanning voor berichten uit. Gebruik het [beleid toevoegen (of bewerken) voor veilige koppelingen voor gebruikersprofielen voor alle of bepaalde geadresseerden](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide#step-3-add-or-edit-atp-safe-links-policies-that-apply-to-all-or-specific-email-recipients) voor het maken van een beleid voor veilige koppelingen met **de optie Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten** die zijn ingesteld op **uit**.
+- Schakel URL Scanning voor berichten in het aangepaste postvak uit. Gebruik [beleidsregels voor veilige koppelingen instellen in Office 365 ATP](set-up-atp-safe-links-policies.md) voor het maken van een beleid voor veilige koppelingen met de instelling **uitgeschakeld** voor **de actie voor onbekende mogelijk schadelijke url's in berichten**.
 
-- Maak een anti-malwarebeleid voor het uitschakelen van malware met het automatisch wissen van 0 uur. Zie [het artikel over beveiligings & voor het maken van malware met een anti-malwarebeleid](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide#use-the-security--compliance-center-to-create-anti-spam-policies) **voor het**instellen van malware van **0 uur** .
+- Maak een anti-malwarebeleid voor het uitschakelen van malware met het automatisch wissen van 0 uur. Zie [het artikel over beveiligings & voor het maken van malware met een anti-malwarebeleid](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) **voor het**instellen van malware van **0 uur** .
 
-- Maak een spamfilter beleid voor het uitschakelen van het automatisch wissen van Zero Hour (ZAP) voor spam ZAP en Phish ZAP. Zie het artikel **over** [beveiligings & om Antispambeleid te maken](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide#use-the-security--compliance-center-to-create-anti-spam-policies) en schakel de selectievakjes uit voor spam ZAP en Phish zap.
+- Maak een spamfilter beleid voor het uitschakelen van het automatisch wissen van Zero Hour (ZAP) voor spam en phishing in het aangepaste postvak. Zie het artikel **over** [beveiligings & om Antispambeleid te maken](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) en schakel de selectievakjes uit voor **spam ZAP** en **Phish ZAP**.
 
-- Schakel de regel voor ongewenste e-mail uit. Gebruik de [instellingen voor ongewenste e-mail in Exchange Online-postvakken configureren](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes?view=o365-worldwide) om de regel voor ongewenste e-mail uit te schakelen. Als dit is uitgeschakeld, kunnen berichten niet worden verplaatst naar de map Ongewenste E-mail op basis van het spamfilter verdict **-actiebericht verplaatsen naar map Ongewenste e-mail** of de verzameling veilige lijst in het postvak.
+- Schakel de regel voor ongewenste e-mail uit in het aangepaste postvak. Gebruik de [instellingen voor ongewenste e-mail in Exchange Online-postvakken configureren](configure-junk-email-settings-on-exo-mailboxes.md) om de regel voor ongewenste e-mail uit te schakelen. Als dit is uitgeschakeld, kunnen berichten niet worden verplaatst naar de map Ongewenste E-mail op basis van het spamfilter verdict **-actiebericht verplaatsen naar map Ongewenste e-mail** of de verzameling veilige lijst in het postvak.
 
 Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden voldoet, [gebruikt u de beveiligings & voor nalevings centrum om het postvak voor de gebruiker te configureren](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) (in dit artikel).
 
@@ -118,7 +118,7 @@ Berichten die naar aangepaste postvakken worden verzonden, moeten een specifieke
 
 `SafetyAPIAction|NetworkMessageId|SenderIp|FromAddress|(Message Subject)`
 
-SafetyAPIAction is een van de volgende gehele waarden:
+waarbij SafetyAPIAction een van de volgende gehele waarden is:
 
 - 1: ongewenste e-mail
 - 2: NotJunk

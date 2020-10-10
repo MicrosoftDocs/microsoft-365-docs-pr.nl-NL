@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ffa5e6abf7fb1cb0f93fe1c233ef7e3f0b023faf
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 35de1504d4d7ddd3512b6cc3e478b138c1f43c29
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48412620"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418119"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Meer informatie over de querytaal Advanced jacht
 
@@ -34,7 +34,7 @@ ms.locfileid: "48412620"
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Voor de geavanceerde jacht op basis van de [querytaal Kusto](https://docs.microsoft.com/azure/kusto/query/). U kunt de syntaxis van Kusto en operatoren gebruiken om query's te maken waarmee informatie in een speciaal [schema](advanced-hunting-schema-tables.md)wordt gezocht. Voor een betere uitleg van deze concepten voert u uw eerste query uit.
+Voor de geavanceerde jacht op basis van de [querytaal Kusto](https://docs.microsoft.com/azure/kusto/query/). U kunt Kusto operatoren en statements gebruiken om query's te maken waarmee informatie in een speciaal [schema](advanced-hunting-schema-tables.md)wordt gezocht. Voor een betere uitleg van deze concepten voert u uw eerste query uit.
 
 ## <a name="try-your-first-query"></a>Probeer uw eerste query
 

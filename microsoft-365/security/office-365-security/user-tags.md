@@ -1,5 +1,5 @@
 ---
-title: Gebruikerslabels in Office 365 ATP
+title: Gebruikerstags in Office 365 ATP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,14 +15,17 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze bepaalde groepen gebruikers identificeren met gebruikers Tags in Office 365 ATP abonnement 2. Labels filteren is beschikbaar via waarschuwingen, rapporten en onderzoeken in Office 365 ATP om snel de gecodeerde gebruikers te identificeren.
-ms.openlocfilehash: 16e756b95e16e40f4df738e825e842681c67e22c
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 475bf976a71fb688df8db9ac25f3b397c078d79a
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399383"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417282"
 ---
-# <a name="user-tags-in-office-365-atp"></a>Gebruikerslabels in Office 365 ATP
+# <a name="user-tags-in-office-365-atp"></a>Gebruikerstags in Office 365 ATP
+
+> [!NOTE]
+> De functie gebruikers Tags is in voorbeeld, is niet beschikbaar voor iedereen, en kan veranderen. Voor informatie over de release planning raadpleegt u het [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap).
 
 Gebruikers Tags zijn id's voor specifieke groepen gebruikers in [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md). Er zijn twee soorten gebruikers Tags:
 

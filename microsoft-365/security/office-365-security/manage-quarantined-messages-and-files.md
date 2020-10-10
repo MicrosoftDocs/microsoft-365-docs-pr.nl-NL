@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven en beheren van quarantaine berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP) kunnen ook quarantaine bestanden beheren in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: 1969a282d5d083886b9ad5a8aae54896ea9b1fc1
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7e9b49e7e7a90f5271a65bb26cecdd1a7ce2ab84
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202421"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417219"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -65,25 +65,15 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
 3. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. Standaardwaarden worden aangegeven met een sterretje (<sup>\*</sup>):
 
    - **Ontvangen**<sup>\*</sup>
-
    - **Afzender**<sup>\*</sup>
-
    - **Onderwerp**<sup>\*</sup>
-
    - **Reden van quarantaine**<sup>\*</sup>
-
    - **Vrijgegeven?**<sup>\*</sup>
-
    - **Beleidstype**<sup>\*</sup>
-
    - **Ontvanger**
-
    - **Bericht-ID**
-
    - **Beleidsnaam**
-
    - **Grootte**
-
    - **Richting**
 
    Klik op **Opslaan** of op **Instellen op standaard** wanneer u gereed bent.
@@ -91,29 +81,19 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
 4. Klik op **Filter** om de resultaten te filteren. De beschikbare filters zijn:
 
    - **Vervaldatum**: filtert de berichten op de datum dat de quarantaineperiode vervalt:
-
      - **Vandaag**
-
      - **Komende 2 dagen**
-
      - **Komende 7 dagen**
-
      - **Aangepast**: voer een **begindatum** en **einddatum** in.
 
    - **Ontvangen op**: voer een **begindatum** en**einddatum** in.
 
    - **Reden van quarantaine**:
-
      - **Beleid**: het bericht voldoet aan de voorwaarden van een e-mail stroom regel (ook wel een transportregel genoemd).
-
      - **Bulk**
-
-     - **Phishing**
-
+     - **Phishing**: de spamfilter verdict was **phishing-e-mail** of Anti Phishing Protection het bericht ([spoof-instellingen](set-up-anti-phishing-policies.md#spoof-settings) of [imitatie bescherming](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)).
      - **Malware**
-
      - **Spam**
-
      - **Hoge betrouwbaarheid van phishing**
 
    - **E-mail ontvanger**: alle gebruikers of alleen berichten die naar u zijn verzonden. Eindgebruikers kunnen alleen quarantaine berichten beheren die ze hebben verzonden.
@@ -175,11 +155,8 @@ Wanneer u een bericht hebt geselecteerd, kunt u in het vervolgmenu **Details** v
   - **Meld u aan bij Microsoft for Analysis**: deze optie is standaard geselecteerd en rapporten geeft het abusievelijk gequarantinee bericht aan Microsoft als een onwaar positief. Als het bericht is gequarantined als spam, bulksgewijs, phishing of malware bevat, wordt het bericht ook gerapporteerd aan het Microsoft spam Analysis-Team. Afhankelijk van de analyse kunnen de regels voor spamfilters van het serviceniveau worden aangepast om het bericht toe te staan.
 
   - Kies een van de volgende opties:
-
     - **Berichten uitbrengen voor alle geadresseerden**
-
     - **Berichten vrijgeven aan specifieke geadresseerden**
-
     - **Berichten uitbrengen aan andere personen**
 
   Klik op **Berichten vrijgeven** wanneer u gereed bent.
@@ -195,7 +172,6 @@ Wanneer u een bericht hebt geselecteerd, kunt u in het vervolgmenu **Details** v
 - **Preview van bericht**: kies in het deelvenster dat wordt weergegeven een van de volgende opties:
 
   - **Bronweergave**: toont de HTML-versie van het bericht met uitgeschakelde koppelingen.
-  
   - **Tekstweergave**: toont het bericht in gewone tekst.
 
 - **Uit quarantaine verwijderen**: nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, wordt het bericht direct verwijderd zonder dat het naar de oorspronkelijke geadresseerden wordt verzonden.
@@ -245,37 +221,23 @@ In organisaties met een ATP kunnen beheerders in SharePoint Online, OneDrive voo
 3. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. De standaardkolommen zijn gemarkeerd met een sterretje ( <sup>\*</sup> ):
 
    - **Aanmeldings**<sup>\*</sup>
-
    - **Locatie**<sup>\*</sup>
-
    - **Bestandsnaam**<sup>\*</sup>
-
    - **Bestands-URL**<sup>\*</sup>
-
    - **Bestandsgrootte**<sup>\*</sup>
-
    - **Vervalt op**<sup>\*</sup>
-
    - **Vrijgegeven?**<sup>\*</sup>
-
    - **Gedetecteerd door**
-
    - **Gewijzigd door de tijd**
 
 4. Klik op **Filter** om de resultaten te filteren. De beschikbare filters zijn:
 
    - **Vervaldatum**: filtert de berichten op de datum dat de quarantaineperiode vervalt:
-
      - **Vandaag**
-
      - **Komende 2 dagen**
-
      - **Komende 7 dagen**
-
      - Een aangepast datum/tijdbereik.
-
    - **Tijdstip van de ontvangst**
-
    - **Reden voor quarantaine**: de enige beschikbare waarde is **malware**.
 
 Wanneer u een specifiek in quarantaine geplaatste bestand hebt gevonden, selecteert u het bestand om de details ervan weer te geven, en kunt u actie ondernemen (u kunt het bericht bijvoorbeeld weergeven, vrijgeven, downloaden of verwijderen).
@@ -293,29 +255,17 @@ Wanneer u een specifiek in quarantaine geplaatste bestand hebt gevonden, selecte
 Wanneer u een bestand in de lijst selecteert, worden de volgende details van het bestand weergegeven in het deelvenster **Details** :
 
 - **Bestandsnaam**
-
 - **Bestands-URL**: URL waarmee de locatie van het bestand wordt gedefinieerd (bijvoorbeeld in SharePoint Online).
-
 - **Schadelijke inhoud gedetecteerd op** De datum/tijd waarop het bestand is gequarantined.
-
 - **Verloopt**op: de datum waarop het bestand in quarantaine wordt verwijderd.
-
 - **Gedetecteerd door**: ATP (Advanced Threat Protection) of de anti malware-engine van Microsoft.
-
 - **Vrijgegeven?**
-
 - **Naam van malware**
-
 - **Document-id**: een unieke id voor het document.
-
 - **Bestandsgrootte**: in kilobytes (KB).
-
 - **Organisatie** Unieke ID van uw organisatie.
-
 - **Laatst gewijzigd**
-
 - **Gewijzigd door**: de gebruiker die het bestand het laatst heeft gewijzigd.
-
 - **Secure Hash Algorithm 256-bit (SHA-256)**: u kunt deze hash-waarde gebruiken om het bestand te identificeren in andere reputatie winkels of op andere locaties in uw omgeving.
 
 ### <a name="take-action-on-quarantined-files"></a>Actie ondernemen op bestanden in quarantaine
@@ -323,9 +273,7 @@ Wanneer u een bestand in de lijst selecteert, worden de volgende details van het
 Wanneer u een bestand in de lijst selecteert, kunt u de volgende acties voor het bestand in het deelvenster met **Details** van de vervolgkeuzelijst opnemen:
 
 - **Release bestanden**: Selecteer (standaardinstelling) of hef de selectie **van de bestanden voor Microsoft**op en klik vervolgens op **bestanden vrijgeven**.
-
 - **Bestand downloaden**
-
 - **Het bestand verwijderen uit Quarantine**
 
 Als u de bestanden niet uitgeeft of verwijdert, worden deze verwijderd nadat de standaard bewaarperiode voor quarantaine is verlopen.
@@ -335,7 +283,6 @@ Als u de bestanden niet uitgeeft of verwijdert, worden deze verwijderd nadat de 
 Wanneer u in de lijst meerdere quarantaine bestanden selecteert (maximaal 100), wordt het menu met de opdracht **bulk acties** weergegeven, waarin u de volgende acties kunt uitvoeren:
 
 - **Bestanden vrijgeven**
-
 - **Bestanden verwijderen**: nadat u op **Ja** hebt geklikt in de waarschuwing die verschijnt, worden de bestanden direct verwijderd.
 
 1. Meld u aan met een werk-of schoolaccount met globale beheerdersrechten (of de juiste beveiligings & functies voor compliance Center) in uw organisatie, meld [u aan en ga naar het beveiligings & compliance Center](../../compliance/go-to-the-securitycompliance-center.md).

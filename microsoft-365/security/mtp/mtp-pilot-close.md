@@ -17,14 +17,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
-- m365solution-evalutatemtp
+- m365solution-scenario
+- m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: ec8e630c3669b3eb7af8cb012a0ca361f8c77f1e
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 1a7b87432ce1eb16c29f462fb4865bfa5c5e2201
+ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48368011"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48418095"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Uw proef Microsoft Threat Protection sluiten en samenvatten  
 
@@ -76,7 +77,7 @@ ms.locfileid: "48368011"
 
 U bevindt zich nu in de fase sluiten en samenvatten.
 
-U hebt zojuist een geavanceerde geheugen aanval gesimuleerd waarbij code extern op een domeincontroller werd uitgevoerd. U hebt gezien hoe Microsoft Defender ATP en Azure ATP detecteren en waarschuwingen op een onzichtbare schadelijke activiteit. U kunt ook zien hoe meldingen van verschillende bronnen samen met andere contextuele informatie worden afgeleverd in één voorval van de Microsoft 365 Security Center-Portal, zodat de sofi-analisten en de nodige actie ondernemen. U hebt ook een geavanceerde zoekactie gemaakt waarmee inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage opent of opslaat en detectie maakt op basis van deze query.
+U hebt zojuist een simulatie van een gevorderde geheugen-aanval waarbij code extern op een domeincontroller werd uitgevoerd. U hebt geleerd hoe Microsoft Defender ATP en Azure ATP waarschuwingen detecteren en maken op verborgen schadelijke activiteiten. U kunt ook zien hoe meldingen van verschillende bronnen samen met andere contextuele informatie worden afgeleverd in één incident van het Microsoft 365 Security Center Portal. Met een dergelijke integratie kunnen sofi-analisten de nodige actie ondernemen. U hebt ook een geavanceerde zoekactie gemaakt waarmee inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage opent of opslaat en detectie maakt op basis van deze query.
 
 U hebt het einde van het proces bereikt na afloop van alle tests.
 
@@ -86,9 +87,9 @@ De uiteindelijke uitvoer moet:
 - Een gedetailleerd rapport van de bevindingen van de pilot
 - Een beslissing over hoe u verdergaat
 
-Deze informatie moet worden gepresenteerd aan interne belanghebbenden (die u tijdens de [voorbereidende](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) fase hebt geïdentificeerd) en Microsoft contactpersonen. Dit zorgt ervoor dat feedback kan worden gebruikt om producten en documentatie te verbeteren.
+De rapporten presenteren vanaf de laatste uitvoer beide interne belanghebbenden (die u tijdens de [voorbereidende](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) fase hebt geïdentificeerd) en Microsoft-contactpersonen. Een dergelijk vermogen zorgt ervoor dat alle feedback kan worden gebruikt om producten en documentatie te verbeteren.
 
-We hopen dat u van deze simulatie gebruikmaakt en wordt aangemoedigd om te beginnen met de implementatie van wat u hebt geleerd.
+We hopen dat u deze simulatie bevalt. Begin met de implementatie van wat u hebt geleerd van een grotere schaal in uw organisatie om optimaal gebruik te maken van de geïntegreerde beveiligingsoplossing.
 
 ## <a name="next-step"></a>Volgende stap
 Meer informatie over de Microsoft Threat Protection-pijlers vindt u in de volgende interactieve handleidingen:

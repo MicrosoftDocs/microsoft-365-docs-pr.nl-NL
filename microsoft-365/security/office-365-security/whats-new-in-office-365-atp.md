@@ -17,15 +17,15 @@ ms.collection:
 - M365-security-compliance
 - m365-initiative-defender-office365
 ms.topic: conceptual
-ms.date: 09/10/2020
+ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 5bbbda8b2fb13351d0b86d1670910cbaa52ad8cb
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: ab987652082c93a82fa5bcbd4667f26291c6e9d7
+ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48413256"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48417294"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
@@ -47,7 +47,8 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 - [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
 - [Uitgebreide functies in de bedreigings Verkenner, waaronder populaire gebruikers, transportregels en connectors](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP-abonnement 2)
 - Weergegeven overschrijft informatie in de [bedreigings Verkenner](threat-explorer.md) (e-mail is door Tenant/gebruikersbeleid toegestaan/geblokkeerd)
-- Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md) (malware, phishing, spam of geen) 
+- Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md#threats-in-urls) (malware, phishing, spam of geen) 
+- [Verbeteringen in](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) de weergave van de versie van de versie van de jacht met updates rond bedreigingen, extra acties, bezorgingslocaties en bijgewerkte tijdlijnweergave
 
 ## <a name="julyaugust-2020"></a>Juli 2020 
 
