@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 0d66076c93eb46ca11977cea12417c0816e0d11b
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 8217630d66a097fcc714be80bd4d3dcceb623370
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367929"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413708"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -51,11 +51,7 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
 
     ![Installatie starten](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
-4. Kies op de pagina Afbeeldingen taggen inschakelen of u het [taggen van afbeeldingen](image-tagging.md) wilt toestaan.
-
-    ![Schermafbeelding van opties voor afbeeldingen taggen](../media/content-understanding/admin-content-understanding-setup-image-tagging.png)</br>
-
-5. Op de pagina **Formulierverwerking configureren** kunt u kiezen of u wilt dat gebruikers formulierverwerkingsmodellen kunnen maken in specifieke SharePoint-documentbibliotheken. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek voor het **maken van een formulierverwerkingsmodel** in SharePoint-documentbibliotheken waarin dit is ingeschakeld.
+4. Op de pagina **Formulierverwerking configureren** kunt u kiezen of u wilt dat gebruikers formulierverwerkingsmodellen kunnen maken in specifieke SharePoint-documentbibliotheken. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek voor het **maken van een formulierverwerkingsmodel** in SharePoint-documentbibliotheken waarin dit is ingeschakeld.
  
      Bij **Welke SharePoint-bibliotheken moeten de optie weergeven voor het maken van een formulierverwerkingsmodel**, kunt u het volgende selecteren:</br>
       - **Alle SharePoint-bibliotheken** om de optie beschikbaar te maken voor alle SharePoint-bibliotheken in uw organisatie.</br>
@@ -67,7 +63,7 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
    > [!Note]
    > Het verwijderen van een site nadat deze is toegevoegd is niet van invloed op bestaande modellen die zijn toegepast op de bibliotheken in die site, of de mogelijkheid om documentbegrip toe te passen op een bibliotheek. 
     
-6. Op de pagina **Inhoudscentrum maken** kunt u een SharePoint-inhoudscentrumsite maken waar gebruikers documentbegripmodellen kunnen maken en beheren. </br>
+5. Op de pagina **Inhoudscentrum maken** kunt u een SharePoint-inhoudscentrumsite maken waar gebruikers documentbegripmodellen kunnen maken en beheren. </br>
     a. Typ voor **Sitenaam** de naam die u de inhoudscentrumsite wilt geven.</br>
     b. Bij **Siteadres** wordt de URL voor uw site weergegeven op basis van wat u hebt opgegeven als sitenaam. Klik op **Bewerken** om dit te wijzigen.</br>
 
@@ -75,11 +71,11 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
 
     Selecteer **Volgende**.
 
-7. Op de pagina **Controleren en voltooien** kunt u de geselecteerde instelling bekijken en wijzigingen aanbrengen. Selecteer **Activeren** wanneer u tevreden bent met uw selecties.
+6. Op de pagina **Controleren en voltooien** kunt u de geselecteerde instelling bekijken en wijzigingen aanbrengen. Selecteer **Activeren** wanneer u tevreden bent met uw selecties.
 
-8. Klik op **Gereed** op de bevestigingspagina.
+7. Klik op **Gereed** op de bevestigingspagina.
 
-9. U gaat terug naar de pagina **Inhoudsbegrip automatiseren**. Op deze pagina kunt u **Beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
+8. U gaat terug naar de pagina **Inhoudsbegrip automatiseren**. Op deze pagina kunt u **Beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
 
 ## <a name="assign-licenses"></a>Licenties toewijzen
 

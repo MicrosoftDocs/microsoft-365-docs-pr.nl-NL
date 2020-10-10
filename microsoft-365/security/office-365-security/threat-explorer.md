@@ -15,14 +15,15 @@ search.appverid:
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 32ff9f2c8d009b4c9b05c12ba4e785e59cb182e7
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 20b13e177a69d981a4c6793d4810256e33158a35
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328081"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48414260"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -47,9 +48,9 @@ Met dit rapport kunt u:
 - [Een automatisch onderzoek en antwoord proces starten vanuit een weergave in Verkenner (alleen voor het](#start-automated-investigation-and-response) ATP-abonnement 2)
 - ... [Onderzoek kwaadaardige e-mail en nog veel meer](#more-ways-to-use-explorer-or-real-time-detections).
 
-## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Ervaar verbeteringen in de weergave van de bedreiging en de real-time detectie
+## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Ervaar verbeteringen in de bedreigings Verkenner en Real-Time detectie
 
-Als onderdeel van de verbetering van de jacht, hebben we enkele updates gemaakt voor de bedreigings Verkenner en de realtime detectie. Dit zijn de verbeteringen van de ervaring, met de focus op de beleving van de jacht consistent. Hieronder ziet u een overzicht van deze wijzigingen:
+Als onderdeel van de verbetering van de jacht, hebben we enkele updates gemaakt voor de bedreigings Verkenner en Real-Time detectie. Dit zijn de verbeteringen van de ervaring, met de focus op de beleving van de jacht consistent. Hieronder ziet u een overzicht van deze wijzigingen:
 
 - [Tijdzone verbeteringen](#timezone-improvements)
 - [Bijwerken in het vernieuwingsproces](#update-in-the-refresh-process)
@@ -103,7 +104,7 @@ De ETR toe zoeken en de beschikbaarheid van namen is afhankelijk van de specifie
 - AAD of EXO-beveiligingsbeheerder: alle
 - AAD of EXO-beveiligings lezer: alles
 - Alleen EXO-transport regels: alle
-- Alleen EXO-view-only Configuration: all
+- EXO only-View-Only configuratie: alle
 
 In het raster, het detail menu van de e-mail en de geëxporteerde CSV-gegevens, worden de Etr's weergegeven met een naam/GUID zoals hieronder weergegeven.
 
@@ -313,7 +314,7 @@ Als u Verkenner of realtime-detectie wilt weergeven en gebruiken, moet u de juis
 
   - Organisatiebeheer
   - Organisatiebeheer alleen weergeven
-  - Alleen-lezen functie geadresseerden
+  - Rollen View-Only geadresseerden
   - Nalevings beheer
 
 Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
