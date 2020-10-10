@@ -1,12 +1,12 @@
 - name: Meer informatie over Microsoft SharePoint Syntex
   items:
-    - name: Inleiding tot SharePoint Syntex
+    - name: Kennismaken met SharePoint Syntex
       href: index.md
     - name: Overzicht van documentbegrip
       href: document-understanding-overview.md
     - name: Overzicht formulierverwerking
       href: form-processing-overview.md
-    - name: Het verschil tussen document begrijpt en formulier verwerkings modellen
+    - name: Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
       href: difference-between-document-understanding-and-form-processing-model.md
 - name: Aan de slag met modellen
   items:
@@ -18,7 +18,7 @@
       href: create-a-classifier.md
     - name: Een extractor maken
       href: create-an-extractor.md
-    - name: Uitleg typen
+    - name: Uitlegtypen
       href: explanation-types-overview.md
     - name: Een model toepassen
       href: apply-a-model.md
@@ -26,11 +26,11 @@
       href: create-a-form-processing-model.md
     - name: Een Bewaar label toepassen
       href: apply-a-retention-label-to-a-model.md
-    - name: Analyse van model gebruik
+    - name: Gebruiksanalyse van modellen
       href: model-usage-analytics.md
     - name: De taxonomie van een termenarchief gebruiken bij het maken van een extractor
       href: leverage-term-store-taxonomy.md
-- name: Goedgekeurd
+- name: Ingebruikname
   items:
     - name: Aan de slag met aanneming
       href: adoption-getstarted.md
@@ -38,8 +38,6 @@
   items:
     - name: Instellen begrip van inhoud
       href: set-up-content-understanding.md
-    - name: Labels voor afbeeldingen
-      href: image-tagging.md
 - name: Inhouds Services
   items:
     - name: Importeren met SKOS
