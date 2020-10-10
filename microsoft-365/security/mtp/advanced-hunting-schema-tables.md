@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f22a046dc5289405aaf59086ed535016cc46bae9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 916f86cf9536101bdbb2650bf7381682203d343f
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197665"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412428"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Meer informatie over het schema voor geavanceerde jacht
 
@@ -75,7 +77,7 @@ In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke t
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365-e-mail gebeurtenissen, waaronder e-mail bezorging en blokkering van gebeurtenissen |
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Beveiligingsgebeurtenissen die na na ontvangst plaatsvinden, nadat Microsoft 365 de e-mail heeft bezorgd in het postvak van de geadresseerde |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Info over Url's voor e-mailberichten |
-| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | Gebeurtenissen waarbij een on-premises domeincontroller met Active Directory (AD) wordt uitgevoerd. Deze tabel omvat een bereik van gebeurtenissen die betrekking hebben op de identiteit en de systeemgebeurtenissen op de domeincontroller. |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | Gebeurtenissen waarbij een on-premises domeincontroller met Active Directory (AD) wordt uitgevoerd. Deze tabel bevat een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Account gegevens van diverse bronnen, waaronder Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen in Active Directory en Microsoft Online Services |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Query activiteiten die worden uitgevoerd op Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |

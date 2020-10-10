@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een team voor samenwerking met gasten in teams.
-ms.openlocfilehash: e92397c7b8d4a4192fb36a52a76679269be53b3b
-ms.sourcegitcommit: 8589323c1b4ab43aab30597ee66303b0a0eb71ed
+ms.openlocfilehash: 7a2259358d6976184d393980b2b7c0320c3bb171
+ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357792"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48409046"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Met gasten samenwerken in een team
 
@@ -37,7 +37,7 @@ In deze video ziet u de configuratiestappen die in dit document worden beschreve
 
 ## <a name="azure-organizational-relationships-settings"></a>Instellingen van Azure organisatie relaties
 
-Delen in Microsoft 365 wordt bepaald met het hoogste niveau van de [instellingen voor organisatie relaties in azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als gasten delen is uitgeschakeld of niet beschikbaar is in azure AD, worden de instellingen voordelen die u configureert in Microsoft 365 genegeerd.
+Delen in Microsoft 365 wordt bepaald met het hoogste niveau van de [instellingen voor organisatie relaties in azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als gasten delen is uitgeschakeld of niet beschikbaar is in azure AD, worden de instellingen voordelen overschreven die u configureert in Microsoft 365.
 
 Controleer de instellingen van de organisatie om te controleren of delen met gasten niet is geblokkeerd.
 
@@ -45,10 +45,10 @@ Controleer de instellingen van de organisatie om te controleren of delen met gas
 
 Instellingen voor organisatie relaties instellen
 
-1. Meld u aan bij Microsoft Azure at [https://portal.azure.com](https://portal.azure.com) .
-2. Klik in het linkernavigatievenster op **Azure Active Directory**.
-3. Klik in het deelvenster **overzicht** op **externe identiteiten**.
-4. Klik in het deelvenster met **organisatie-id's** op **instellingen voor externe samenwerking**.
+1. Meld u aan bij Azure Active Directory [https://aad.portal.azure.com](https://aad.portal.azure.com) .
+2. Klik in het linker navigatiedeelvenster op **Azure Active Directory**.
+3. Klik op **externe identiteiten**.
+4. Klik in het scherm aan de **slag** in het linker navigatiedeelvenster op **instellingen voor externe samenwerking**.
 5. Zorg ervoor dat **beheerders en gebruikers in de rol gast uitnodiging kunnen uitnodigen** en dat **leden kunnen uitnodigen** zijn ingesteld op **Ja**.
 6. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
@@ -67,14 +67,14 @@ Zorg ervoor dat gasttoegang is ingeschakeld in teams en breng de gewenste wijzig
 Instellingen voor gasttoegang in Teams instellen
 
 1. Meld u aan bij het Microsoft 365-beheercentrum op [https://admin.microsoft.com](https://admin.microsoft.com).
-2. Klik in het navigatievenster aan de linkerkant op **Alles weergeven**.
+2. Klik in het linker navigatiedeelvenster op **AllesWeergeven**.
 3. Klik onder **Beheercentra** op **Teams**.
-4. Vouw in het Teams-beheercentrum in het linkernavigatievenster **Instellingen voor hele organisatie** uit en klik vervolgens op **Gasttoegang**.
+4. Vouw in het team centrum voor teams in het linker navigatiedeelvenster **instellingen voor de gehele organisatie** uit en klik op **gasttoegang**.
 5. Zorg ervoor dat **Gasttoegang in Teams toestaan** is ingesteld op **Aan**.
 6. Breng de gewenste wijzigingen aan in de extra gastinstellingen en klik vervolgens op **Opslaan**.
 
 > [!NOTE]
-> Het kan 24 uur duren voordat de instelling voor gasten in Teams actief wordt nadat u deze hebt ingeschakeld.
+> Het kan tot 24 uur duren voordat de instellingen van de team gast actief raken nadat u deze hebt ingeschakeld.
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Gastinstellingen voor Microsoft 365-groepen
 
@@ -84,10 +84,10 @@ Teams gebruikt Microsoft 365-groepen voor lidmaatschap van een team. De instelli
 
 De gastinstellingen van Microsoft 365 groepen instellen
 
-1. In het Microsoft 365-Beheercentrum, in het linker navigatiemenu, vouwt u **instellingen**uit.
+1. In het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, vouwt u **instellingen**uit.
 2. Klik op **instellingen voor organisatie**.
 3. Klik in de lijst op **Microsoft 365 groepen**.
-4. Zorg ervoor dat de selectievakjes **leden van uw organisatie toegang hebben tot de groepsinhoud** van de organisatie en **groepseigenaren personen van buiten uw organisatie toevoegen aan groepen** .
+4. Zorg ervoor dat de selectievakjes **eigenaren van gebruikers buiten uw organisatie toevoegen aan Microsoft 365-groepen als gasten** en de selectievakjes voor **groepsleden toegang krijgen tot groepsinhoud** beide zijn ingeschakeld.
 5. Als u wijzigingen hebt aangebracht, klikt u op **wijzigingen opslaan**.
 
 
@@ -102,21 +102,21 @@ Als u het delen van bestanden en mappen met niet-geverifieerde personen wilt toe
 ![Schermafbeelding van de instellingen voor delen op organisatieniveau in SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
 
 
-Instellingen voordelen van SharePoint-organisatieniveau instellen
+Instellingen voordelen van SharePoint op organisatieniveau instellen
 
-1. Klik in het Microsoft 365-Beheercentrum, in het linkernavigatievenster, onder **beheer centra**op **SharePoint**.
-2. Vouw in het SharePoint-Beheercentrum in het linkernavigatievenster **beleidsregels** uit en klik vervolgens op **delen**.
+1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra**op **SharePoint**.
+2. Vouw in het SharePoint-Beheercentrum in het linker navigatievenster **beleidsregels** uit en klik vervolgens op **delen**.
 3. Zorg ervoor dat extern delen voor SharePoint is ingesteld op **iedereen** of **nieuwe en bestaande gasten**.
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
 
-## <a name="sharepoint-organization-level-default-link-settings"></a>Standaard koppelingsinstellingen SharePoint-organisatieniveau
+## <a name="sharepoint-organization-level-default-link-settings"></a>Standaard koppelingsinstellingen op SharePoint-organisatieniveau
 
-De standaardinstellingen voor het koppelen van bestanden en mappen bepalen welke koppelingsoptie standaard voor de gebruiker wordt weergegeven wanneer ze een bestand of map delen. Gebruikers kunnen het koppelingstype wijzigen in een van de andere opties voordat u het deelt.
+De standaardinstellingen voor het koppelen van bestanden en mappen bepalen de koppelingsoptie die standaard wordt getoond aan gebruikers wanneer ze een bestand of map delen. Gebruikers kunnen het koppelingstype wijzigen in een van de andere opties voordat u het deelt.
 
 Houd er rekening mee dat deze instelling van invloed is op alle teams en SharePoint-sites in uw organisatie.
 
-Kies het type koppeling dat standaard wordt geselecteerd wanneer gebruikers bestanden en mappen delen:
+Kies een van de volgende koppelingstypen die standaard worden geselecteerd wanneer gebruikers bestanden en mappen delen:
 
 - **Iedereen met de koppeling** : Kies deze optie als u verwacht dat u niet-geverifieerde bestanden en mappen wilt delen. Als u iedereen wilt toestaan die wel of niet is gemachtigd voor het delen van *onbevoegd* delen, kunt u het beste een van de andere opties als standaard instellen. Dit koppelingstype is alleen beschikbaar als **iedereen** het delen heeft toegestaan.
 - **Alleen personen in uw organisatie** : Kies deze optie als u verwacht dat u de meeste bestanden en mappen wilt delen met personen binnen uw organisatie.
@@ -145,7 +145,7 @@ Een team maken
 
 We nodigen later gebruikers uit. Vervolgens moet u de instellingen voordelen op siteniveau controleren voor de SharePoint-site die is gekoppeld aan het team.
 
-## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voordelen op het SharePoint-siteniveau
+## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voordelen op SharePoint-siteniveau
 
 Controleer de instellingen voordelen op siteniveau om ervoor te zorgen dat u het gewenste type toegang toestaat voor dit team. Als u bijvoorbeeld de instellingen op organisatieniveau instelt op **iedereen**, maar u wilt dat alle gasten verificatie voor dit team hebben, controleert u of de instellingen voordelen op het siteniveau zijn ingesteld op **nieuwe en bestaande gasten**.
 
@@ -153,9 +153,9 @@ Controleer de instellingen voordelen op siteniveau om ervoor te zorgen dat u het
 
 
 Instellingen voordelen op siteniveau instellen
-1. Vouw **Sites** uit in het SharePoint Online Beheercentrum in het navigatievenster aan de linkerkant en klik op **Delen**.
+1. Vouw in het SharePoint-Beheercentrum in het linker navigatievenster **sites** uit en klik op **actieve sites**.
 2. Selecteer de site voor het team dat u zojuist hebt gemaakt.
-3. Klik op het lint op **Delen**.
+3. Klik op... en kies **delen**.
 4. Zorg ervoor dat delen is ingesteld op **iedereen** of **nieuwe en bestaande gasten**.
 5. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
@@ -170,7 +170,7 @@ Interne gebruikers uitnodigen voor een team
 
 Gasten uitnodigen voor een team
 1. Klik in het team op **meer opties** ( **\*\*\*** ) en klik vervolgens op **lid toevoegen**.
-2. Typ het e-mailadres van de gast die u wilt uitnodigen.
+2. Voer het e-mailadres in van de gast die u wilt uitnodigen.
 3. Klik op **gast gegevens bewerken**.
 4. Typ de volledige naam van de gast en klik op het vinkje.
 5. Klik op **toevoegen**en klik vervolgens op **sluiten**.

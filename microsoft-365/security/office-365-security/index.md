@@ -13,20 +13,21 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
+- m365-initiative-m365-defender
 description: Beveiliging in Office 365, van EOP tot ATP-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties, en nog veel meer. Begrijpt wat u hebt en hoe u uw eigenschappen kunt beveiligen.
-ms.openlocfilehash: c5b357dc7a08eeef099b25172169d04cdb81e8c4
-ms.sourcegitcommit: 5abd5ef8c2903b4c3bd875da68049fde26768dcf
+ms.openlocfilehash: d650a02faa21ac6ade39506d2c423dd319951bef
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48359151"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413052"
 ---
 # <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
 
 In dit artikel worden de nieuwe beveiligingseigenschappen in de Cloud geïntroduceerd. Ongeacht of u deel uitmaakt van een Beveiligingscentrum, bent u een beveiligingsbeheerder van de ruimte, of wilt u een nieuweder, laten we aan de slag gaan.
 
 > [!CAUTION]
-> Hallo. Als u gebruikmaakt van **Outlook.com**, **Microsoft 365-familie**of **Microsoft 365 Personal**en de informatie voor *veilige koppelingen* en *veilige bijlagen* hebt, ***klikt u op deze koppeling***: [geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2). Bedankt!
+> Als u gebruikmaakt van **Outlook.com**, **Microsoft 365-familie**of **Microsoft 365 Personal**en de informatie voor *veilige koppelingen* en *veilige bijlagen* hebt, ***klikt u op deze koppeling***: [geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 ## <a name="office-365-security-spelled-out"></a>Beveiligings spelling van Office 365
 

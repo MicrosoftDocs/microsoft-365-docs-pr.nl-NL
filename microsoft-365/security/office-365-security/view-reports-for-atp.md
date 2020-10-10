@@ -16,14 +16,15 @@ search.appverid:
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 description: Rapporten voor Office 365 Advanced Threat Protection zoeken en gebruiken in het beveiligings &amp; compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f871432f29138acb8bee3a14b9bb161d87193e3
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: c1e1df0d4c1da228da1e09a626dd388d8d7cf7aa
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48351033"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413446"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Rapporten weergeven voor Office 365 Advanced Threat Protection
 
@@ -295,7 +296,7 @@ Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden bes
 
   - Organisatiebeheer
   - Organisatiebeheer alleen weergeven
-  - Alleen-lezen functie geadresseerden
+  - Rollen View-Only geadresseerden
   - Nalevings beheer
 
 Zie de volgende bronnen voor meer informatie:

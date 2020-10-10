@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Informatie over het zoeken naar bronnen voor Microsoft SharePoint Syntex.
-ms.openlocfilehash: 5d375b27fe3cd58069851f12c459460ac605da83
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 9580a2db62fc8ddef16e79817498eebe9feef6bb
+ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350771"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48390117"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Kennismaken met Microsoft SharePoint Syntex
 
@@ -26,6 +26,12 @@ Microsoft SharePoint Syntex is een Office 365-service waarmee organisaties het v
 - Inhoud omzetten in kennis
 
 De informatie op deze pagina is bedoeld om u op weg te helpen met het leren werken met en het gebruik van SharePoint Syntex in uw organisatie.
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GJXS] 
+
+</br>
 
 ## <a name="get-started"></a>Aan de slag
 
@@ -64,7 +70,7 @@ De informatiebronnen in dit gedeelte helpen je gebruikers documentbegrip- en for
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
 |Met modellen leren werken|[Een inhoudscentrum maken](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-content-center)<br><br>[Een classificatie maken](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier)<br><br>[Een extractor maken](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-an-extractor)<br><br>[Een verwerkingsmodel voor formulieren maken](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)<br><br>[Uitlegtypen](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)<br><br>[Een documentbegripmodel toepassen](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-model)<br><br>[Informatie over documentbegripmodellen met behulp van het voorbeeldmodel](https://docs.microsoft.com/microsoft-365/contentunderstanding/learn-about-document-understanding-models-through-the-sample-model)<br><br>|
-|Een retentielabel toepassen op uw model|[Het verschil tussen documentbegrip- en formulierverwerkingsmodellen](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
+|Een retentielabel toepassen op uw model|[Een retentietag toepassen op een documentbegripmodel](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
 |Taxonomie van beheerde metagegevensservices-termenarchief gebruiken bij het maken van een extractor|[De taxonomie van een termenarchief benutten bij het maken van een extractor](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
 |Informatie over het weergeven van gegevens over uw modellen|[Gebruiksanalyse van modellen](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|
 

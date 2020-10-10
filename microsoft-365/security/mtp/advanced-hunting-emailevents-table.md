@@ -15,14 +15,16 @@ author: lomayor
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- m365-initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: cb838e81752abddc9b8cc08bb9bd6f6c33e2beb0
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 17a7e2ed8e2124bc3ca820cedee7c4f89403d717
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198035"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48413136"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -47,9 +49,9 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `EmailId` | tekenreeks | Unieke e-mail en geadresseerden-id |
 | `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
 | `InternetMessageId` | tekenreeks | Openbare id voor het e-mailbericht dat wordt ingesteld door het verzendende e-mailsysteem |
-| `SenderMailFromAddress` | tekenreeks | E-mailadres van afzender in de header E-mail van, ook wel bekend als de afzender voor de envelop of het adres van de afzender. |
+| `SenderMailFromAddress` | tekenreeks | E-mailadres van afzender in de header E-mail van, ook wel bekend als de afzender voor de envelop of het Return-Path adres |
 | `SenderFromAddress` | tekenreeks | Het e-mailadres van de afzender in de header van, die zichtbaar is voor e-mail geadresseerden op de e-mailclients |
-| `SenderMailFromDomain` | tekenreeks | Het domein van de afzender in de header E-mail van, ook wel bekend als de afzender voor de envelop of het adres van de afzender. |
+| `SenderMailFromDomain` | tekenreeks | Het domein van de afzender in de header MAIL FROM, ook wel bekend als de afzender voor de envelop of het Return-Path adres |
 | `SenderFromDomain` | tekenreeks | Het domein van de afzender in de van-header, die zichtbaar is voor e-mail geadresseerden op de e-mailclients |
 | `SenderIPv4` | tekenreeks | IPv4-adres van de laatst gedetecteerde e-mailserver die het bericht heeft doorgestuurd |
 | `SenderIPv6` | tekenreeks | IPv6-adres van de laatst gedetecteerde e-mailserver die het bericht heeft doorgestuurd |

@@ -14,15 +14,16 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
+- m365-initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van de portal voor uitnodigingen van de beveiligings & nalevings centrum voor het verzenden van verdachte e-mailberichten, verdachte e-mailberichten, spam en andere mogelijk schadelijke berichten, Url's en bestanden aan Microsoft voor het scannen.
-ms.openlocfilehash: 85251e82166279c25f009728dd5e5f0ff3c3f2ea
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 5165761b96eefe85437743968502dada51bc297f
+ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201253"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48412020"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.
 
@@ -135,7 +136,7 @@ Selecteer het tabblad **e-mail** .
 
 U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
-- **Einddatum**
+- **Datum**
 - **Ingediende id**: een GUID-waarde die is toegewezen aan elke verzending.
 - **Verzonden door**<sup>\*</sup>
 - **Onderwerp**<sup>\*</sup>
@@ -155,7 +156,7 @@ Klik op het tabblad **URL** .
 
 U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
-- **Einddatum**
+- **Datum**
 - **Verzendings-ID**
 - **Verzonden door**<sup>\*</sup>
 - **URL**<sup>\*</sup>
@@ -170,7 +171,7 @@ Klik op het tabblad **bijlagen** .
 
 U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
-- **Einddatum**
+- **Datum**
 - **Verzendings-ID**
 - **Verzonden door**<sup>\*</sup>
 - **Bestandsnaam**<sup>\*</sup>
