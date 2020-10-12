@@ -324,22 +324,32 @@
               href: archive-twitter-data-with-sample-connector.md
         - name: Globanet-gegevensconnectors
           items:
+            - name: Cisco Jabber
+              href: archive-ciscojabberonmssql-data.md
             - name: EML
               href: archive-eml-data.md
             - name: FX Connect
               href: archive-fxconnect-data.md
+            - name: Jive
+              href: archive-jive-data.md
+            - name: Pivot
+              href: archive-pivot-data.md
             - name: Reuters Eikon
               href: archive-reuterseikon-data.md
-            - name: Slack
+            - name: Toegestane marge eDiscovery
               href: archive-slack-data.md
             - name: Symphony
               href: archive-symphony-data.md
             - name: Tekst met scheidingstekens
               href: archive-text-delimited-data.md
+            - name: Webpagina's
+              href: archive-webpagecapture-data.md
             - name: WebEx Teams
               href: archive-webexteams-data.md
             - name: Workplace van Facebook
               href: archive-workplacefromfacebook-data.md
+            - name: XSLT/XML
+              href: archive-xslt-xml-data.md
             - name: Zoom Meetings
               href: archive-zoommeetings-data.md
         - name: TeleMessage-gegevensconnectors
@@ -824,8 +834,14 @@
           href: auditing-troubleshooting-scenarios.md
         - name: Controle delen gebruiken in het auditlogboek
           href: use-sharing-auditing.md
-        - name: Zoeken naar eDiscovery-activiteiten in het auditlogboek
-          href: search-for-ediscovery-activities-in-the-audit-log.md
+        - name: Office 365 Management Activity-API
+          items:
+            - name: Office 365 Management Activity-API-referentie
+              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference'
+            - name: Office 365 Management Activity-API-schema
+              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema'
+            - name: Veelgestelde vragen over en problemen oplossen met Office 365 Management Activity API
+              href: 'https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api'
     - name: Postvakcontrole
       href: enable-mailbox-auditing.md
     - name: Geavanceerde controle
