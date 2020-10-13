@@ -16,16 +16,16 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-- m365-initiative-defender-office365
+- m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de antispam instellingen en filters waarmee u spam in Exchange Online Protection (EOP) kunt voorkomen.
-ms.openlocfilehash: 3f28366afb64b6d7855ff28922069afed516bf44
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: 7456ef4de9f887a1782df714f6e454efa213ddec
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48411708"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445745"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Bescherming tegen ongewenste e-mail in EOP
 

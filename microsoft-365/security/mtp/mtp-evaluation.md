@@ -1,6 +1,6 @@
 ---
 title: Microsoft Threat Protection evalueren
-description: Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen voor meer informatie over hoe de gecoördineerde oplossing voor beveiliging van apparaten, identiteit, gegevens en toepassingen uw organisatie kan helpen
+description: Stel uw Microsoft Threat Protection-proef Lab of pilot omgeving in om de beveiligingsoplossing voor het beschermen van apparaten, identiteit, gegevens en toepassingen in uw organisatie uit te proberen.
 keywords: Microsoft Threat Protection-proefversie, Microsoft Threat Protection, Microsoft Threat Protection, Microsoft Threat Protection evaluatie lab, Microsoft Threat Protection pilot, Cyber beveiliging, geavanceerde, permanente bedreiging, Enterprise-gebruikers, gegevens, toepassingen, incidenten, automatisch onderzoek en herstel, geavanceerde jacht
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: 489ce48be4d995d7e91e2559311d7e619530ba4c
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: d3f63c8ac4ba82a80c365dce564bbd8d3dd4da4b
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418083"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48447117"
 ---
 # <a name="create-a-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Een Microsoft Threat Protection-proefversie Lab of pilot omgeving maken 
 
@@ -35,9 +35,9 @@ ms.locfileid: "48418083"
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Het maken van deze proefversie Lab of pilot omgeving is het illustreren van de veelomvattende, geïntegreerde en intelligente mogelijkheden van Microsoft Threat Protection, zodat u deze kunt gebruiken in de detectie, preventie, onderzoek en reactie die u kunt gebruiken in uw organisatie. 
+Het doel van het maken van deze proefversie of pilot omgeving is om de uitgebreide en geïntegreerde functies voor Microsoft Threat Protection te illustreren. Ervaar hoe deze intelligente beveiligingsoplossing detecteert, voorkomt automatisch onderzoek en reageert op geavanceerde bedreigingen voor uw organisatie. 
 
-In deze handleiding vindt u de stappen voor het starten van de evaluatieversie van Microsoft Threat Protection op basis van de aanbevolen implementatie paden. Het doel is om u te helpen bij het instellen van de geïntegreerde Microsoft Threat Protection-Services in een testomgeving wanneer u een proefaccount gebruikt, of in een testomgeving in productie wanneer u een volledige licentie gebruikt. De resultaten van het gebruik van beveiligings bewerkings kwesties voor besluitvormings makers van beveiligingsoplossingen in uw organisatie. Wanneer u klaar bent met het uitvoeren van uw aanvals simulaties en u tevreden bent over de resultaten, kunt u deze in uw organisatie volledig implementeren en operationalize met behulp van de hulp van Microsoft technische verkoopmedewerkers of experts binnen uw organisatie. 
+In deze handleiding vindt u de stappen voor het starten van de evaluatieversie van Microsoft Threat Protection op basis van de aanbevolen implementatie paden. Het doel is om u te helpen bij het instellen van de beveiligingsoplossing in een lab-omgeving met een proefaccount, of in een testomgeving in productie met een volledige licentie. Het voorbereiden van uw proefversie of pilot omgeving kan u helpen bij het presenteren van beveiligingsactiviteiten voor besluitvormings Programma's in uw organisatie. Wanneer u klaar bent met het uitvoeren van uw aanvals simulaties en tevreden bent over de resultaten, kunt u deze in uw organisatie volledig implementeren en operationalize met behulp van de Help van Microsoft Technical Sales professionals of experts in uw organisatie. 
 
 Deze handleiding helpt u bij:
 - Uw testserver en computers instellen

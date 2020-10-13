@@ -1,10 +1,10 @@
 ---
-title: Instellingen voor gedeeld postvak configureren
+title: Gedeeld postvakinstellingen configureren
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: mnirkhe
+ms.author: sharik
+author: SKjerland
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,19 +20,19 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Nadat u een gedeeld postvak hebt gemaakt, wilt u een aantal instellingen configureren voor de gebruikers, zoals e-mail doorsturen en automatische antwoorden. Later u mogelijk andere instellingen wijzigen, zoals de naam van het postvak of leden.
-ms.openlocfilehash: 3bde856f4db80192f5ed058a18c7942aa6a724b2
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+description: Nadat u een gedeeld postvak hebt gemaakt, kunt u bepaalde instellingen voor de gebruikers configureren, zoals het doorsturen van e-mail en automatische antwoorden. Later wilt u wellicht andere instellingen wijzigen, zoals de naam van het postvak of de leden.
+ms.openlocfilehash: a007b3ca810bdfc00176e71a737a510230f18113
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739201"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445673"
 ---
-# <a name="configure-shared-mailbox-settings"></a>Instellingen voor gedeeld postvak configureren
+# <a name="configure-shared-mailbox-settings"></a>Gedeeld postvakinstellingen configureren
 
-Nadat u [een gedeeld postvak](create-a-shared-mailbox.md)hebt gemaakt, wilt u een aantal instellingen configureren voor de postvakgebruikers, zoals e-mail doorsturen en automatische antwoorden. Later u mogelijk andere instellingen wijzigen, zoals de postvaknaam, leden of ledenmachtigingen. 
+Nadat u [een gedeeld postvak hebt gemaakt](create-a-shared-mailbox.md), kunt u bepaalde instellingen voor de Postvak gebruikers configureren, zoals het doorsturen van e-mail en automatische antwoorden. Later wilt u wellicht andere instellingen wijzigen, zoals de naam van het postvak, de leden of de machtigingen van leden. 
 
-## <a name="change-the-name-or-email-alias-of-a-shared-mailbox-or-change-the-primary-email-address"></a>De naam of e-mailalias van een gedeeld postvak wijzigen of het primaire e-mailadres wijzigen
+## <a name="change-the-name-or-email-alias-of-a-shared-mailbox-or-change-the-primary-email-address"></a>De naam of e-mail alias van een gedeeld postvak wijzigen of het primaire e-mailadres wijzigen
 
 ::: moniker range="o365-worldwide"
 
@@ -52,15 +52,15 @@ Nadat u [een gedeeld postvak](create-a-shared-mailbox.md)hebt gemaakt, wilt u ee
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **vervolgens Bewerken** naast **Naam, E-mail, Aliassen e-mail**.
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **bewerken** naast **naam, E-mail, e-mail aliassen**.
 
-3. Voer een nieuwe naam in of voeg een andere alias toe. Als u het primaire e-mailadres wilt wijzigen, moet uw postvak meer dan één e-mailalias hebben.
+3. Voer een nieuwe naam in of Voeg een andere alias toe. Als u het primaire e-mailadres wilt wijzigen, moet uw postvak meer dan één e-mail alias hebben.
 
 4. Kies **Opslaan**.
 
 ## <a name="forward-emails-that-are-sent-to-a-shared-mailbox"></a>E-mailberichten doorsturen die zijn verzonden naar een gedeeld postvak
 
-U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te sturen die naar het postvak is verzonden. U de berichten doorsturen naar een geldig e-mailadres of distributielijst.
+U hoeft geen licentie aan het gedeelde Postvak toe te wijzen om e-mail te kunnen doorsturen die naar die persoon is verzonden. U kunt de berichten doorsturen naar elk geldig e-mailadres of een bepaalde distributielijst.
 
 ::: moniker range="o365-worldwide"
 
@@ -80,9 +80,9 @@ U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te s
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **Vervolgens Bewerken doorsturen naar e-mail** \> **Edit**.
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer vervolgens bewerken voor het **doorsturen van e-mail** \> **Edit**.
     
-3. Stel de schakelaar in **op Aan**en voer één e-mailadres in om de berichten door te sturen naar. Het kan elk geldig e-mailadres zijn. Als u naar meerdere adressen wilt doorsturen, moet u [een distributiegroep](https://docs.microsoft.com/office365/admin/setup/create-distribution-lists?view=o365-worldwide) voor de adressen maken en vervolgens de naam van de groep in dit vak invoeren.
+3. Zet de wisselknop **op aan**en voer een e-mailadres in waarnaar u de berichten wilt doorsturen. Dit kan elk geldig e-mailadres zijn. Als u door wilt gaan naar meerdere adressen, moet u [een distributiegroep](https://docs.microsoft.com/office365/admin/setup/create-distribution-lists) voor de adressen maken en vervolgens de naam van de groep in dit vak opgeven.
     
 4. Kies **Opslaan**.
 
@@ -106,13 +106,13 @@ U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te s
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **Vervolgens Automatische antwoorden** \> **Bewerken**.
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **automatische antwoorden** \> **bewerken**.
     
 3. Zet de wisselknop op **Aan** en geef aan of u het antwoord wilt sturen naar personen binnen of buiten uw organisatie.
 
 4. Voer het antwoord in dat u wilt verzenden naar personen binnen uw organisatie. U kunt geen afbeeldingen toevoegen, alleen tekst.
 
-5. Als u *ook* een antwoord wilt verzenden naar mensen buiten uw organisatie, schakelt u het selectievakje in, wie u het antwoord wilt ontvangen en typt u de tekst. Het is niet mogelijk om een bericht alleen naar personen buiten uw organisatie te verzenden, zonder datzelfde bericht ook naar personen binnen uw organisatie te verzenden.
+5. Als u een antwoord *wilt sturen naar* personen buiten uw organisatie, schakelt u het selectievakje in van de persoon aan wie u het bericht wilt beantwoorden en typt u de tekst. Het is niet mogelijk om een bericht alleen naar personen buiten uw organisatie te verzenden, zonder datzelfde bericht ook naar personen binnen uw organisatie te verzenden.
 
 6. Kies **Opslaan**.
 
@@ -120,10 +120,10 @@ U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te s
 
 Standaard worden berichten die vanuit het gedeelde postvak worden verzonden, niet opgeslagen in de map Verzonden items van het gedeelde postvak. In plaats daarvan worden ze opgeslagen in de map Verzonden Items van de persoon die het bericht heeft verzonden.
 
-Als u wilt toestaan dat iedereen de verzonden e-mail ziet, bewerkt u in het beheercentrum de instellingen van het gedeelde postvak en selecteert u **Verzonden items** \> **bewerken**.
+Als u iedereen wilt toestaan het verzonden e-mailbericht te zien, bewerkt u de instellingen van het gedeelde Postvak in het Beheercentrum en selecteert u **verzonden items** \> **bewerken**.
 
 
-## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>De apps kiezen die een gedeeld postvak kan gebruiken om toegang te krijgen tot Microsoft-e-mail
+## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>De apps kiezen die een gedeeld postvak kunnen gebruiken om Microsoft-e-mail te openen
 
 ::: moniker range="o365-worldwide"
 
@@ -143,16 +143,16 @@ Als u wilt toestaan dat iedereen de verzonden e-mail ziet, bewerkt u in het behe
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **Vervolgens E-mailapps** \> **Bewerken**.
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer vervolgens bewerken van **e-mail apps** \> **Edit**.
 
-3. Stel de schakelaar **in op Aan** voor alle apps die leden moeten gebruiken om toegang te krijgen tot het gedeelde postvak. Stel de schakelaar in **op Uit** voor apps die u niet wilt dat ze gebruiken. 
+3. Zet de wisselknop **op aan voor alle** apps die leden kunnen gebruiken voor toegang tot het gedeelde Postvak. Zet de wisselknop op **uit** voor apps die u niet wilt gebruiken. 
 
 4. Kies **Opslaan**.
 
 
-## <a name="put-a-shared-mailbox-on-litigation-hold"></a>Een gedeeld postvak in de wachtstand plaatsen
+## <a name="put-a-shared-mailbox-on-litigation-hold"></a>Een gedeeld postvak op de plaats van rechtszaken bewaren
 
-Zie [Een procesgreep maken](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold)voor meer informatie over het vasthouden van geschillen.
+Zie voor meer informatie over de wachtstand van [een](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold)zaak.
 
 ::: moniker range="o365-worldwide"
 
@@ -172,11 +172,11 @@ Zie [Een procesgreep maken](https://docs.microsoft.com/microsoft-365/compliance/
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **Vervolgens Het bewerken van rechtszaken** \> **Edit**.
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer vervolgens bewerken van de **juridische** procedure \> **Edit**.
 
-3. Stel de schakelaar **in op Aan**. 
+3. Zet de wisselknop **op aan.** 
 
-4. Voer des toe een duur, een notitie over de wachtruimte en een URL met meer informatie in.  
+4. Voer desgewenst een duur, een opmerking over de bewaring in en een URL met meer informatie.  
 
 5. Kies **Opslaan**.
 
@@ -201,15 +201,15 @@ Zie [Een procesgreep maken](https://docs.microsoft.com/microsoft-365/compliance/
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **vervolgens Het** bewerken van leden \> **Edit**.
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer vervolgens **leden** \> **bewerken**.
 
-3. Voer een van de volgende handelingen uit:
-   - Als u leden wilt toevoegen, selecteert u **Leden toevoegen,** zoekt u naar of selecteert u een lid dat u wilt toevoegen en selecteert u **Opslaan**.
-   - Als u leden wilt verwijderen, gebruikt u het vak Zoeken om indien nodig naar het lid te zoeken, selecteert u de **X** naast de naam van het lid en selecteert u **Opslaan**. 
+3. Voer een van de volgende bewerkingen uit:
+   - Als u leden wilt toevoegen, selecteert u **leden toevoegen**, zoekt of selecteert u een lid dat u wilt toevoegen en selecteert u vervolgens **Opslaan**.
+   - Als u leden wilt verwijderen, gebruikt u het zoekvak om het lid zo nodig te zoeken, selecteert u de **X** naast de naam van het lid en selecteert u vervolgens **Opslaan**. 
 
-4. Selecteer Opnieuw **opslaan.**
+4. Selecteer opnieuw **Opslaan** .
 
-## <a name="add-or-remove-permissions-of-members"></a>Machtigingen van leden toevoegen of verwijderen
+## <a name="add-or-remove-permissions-of-members"></a>Leden toevoegen of verwijderen
 
 ::: moniker range="o365-worldwide"
 
@@ -229,19 +229,19 @@ Zie [Een procesgreep maken](https://docs.microsoft.com/microsoft-365/compliance/
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **vervolgens** \> **Machtigingen voor aanpassen van**leden .
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer vervolgens **leden** de \> **machtiging aanpassen**.
 
-3. Selecteer **Bewerken** naast de machtiging die u voor een lid wilt wijzigen. 
+3. Selecteer **bewerken** naast de machtiging die u wilt wijzigen voor een lid. 
 
-4. Voer een van de volgende handelingen uit:
-   - Als u die toestemming wilt geven aan een extra lid, selecteert u **Machtigingen toevoegen,** zoekt u naar of selecteert u een lid dat u wilt toevoegen en selecteert u **Opslaan**.
-   - Als u de machtiging van een lid wilt verwijderen, gebruikt u het vak Zoeken om indien nodig naar het lid te zoeken, selecteert u de **X** naast de naam van het lid en selecteert u **Opslaan**. 
+4. Voer een van de volgende bewerkingen uit:
+   - Als u deze machtiging wilt verlenen aan een extra lid, selecteert u **machtigingen toevoegen**, zoekt of selecteert u een lid dat u wilt toevoegen en selecteert u vervolgens **Opslaan**.
+   - Als u de machtiging van een lid wilt verwijderen, gebruikt u het zoekvak om het lid zo nodig te zoeken, selecteert u de **X** naast de naam van het lid en selecteert u vervolgens **Opslaan**. 
 
-4. Selecteer Opnieuw **opslaan.**
+4. Selecteer opnieuw **Opslaan** .
 
 ## <a name="show-or-hide-a-shared-mailbox-in-the-global-address-list"></a>Een gedeeld postvak weergeven of verbergen in de algemene adreslijst
 
-Als u ervoor kiest het gedeelde postvak niet weer te geven in de algemene adreslijst, wordt het postvak niet weergegeven in de adreslijst van uw organisatie, maar ontvangt het nog steeds e-mail die naar het postvak wordt verzonden. 
+Als u ervoor kiest om het gedeelde Postvak niet weer te geven in de algemene adreslijst, wordt het postvak niet weergegeven in de adreslijst van uw organisatie, maar er wordt nog steeds e-mail verzonden. 
 
 ::: moniker range="o365-worldwide"
 
@@ -261,14 +261,14 @@ Als u ervoor kiest het gedeelde postvak niet weer te geven in de algemene adresl
 
 ::: moniker-end
 
-2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer **Vervolgens Weergeven in de algemene adreslijst** \> **Bewerken**.
+2. Selecteer het gedeelde postvak dat u wilt bewerken en selecteer vervolgens **weergeven in de algemene adreslijst** \> **bewerken**.
 
-3. Stel de schakelaar in **op Aan** of **Uit**. 
+3. Zet de wisselknop op **aan**  of **uit**. 
 
 4. Kies **Opslaan**.
 
 > [!NOTE]
-> Als u een gedeeld postvak uit de adreslijst verbergt, kunnen nieuwe leden van gedeelde postvakken het verborgen postvak niet aan hun Outlook-profiel toevoegen totdat het gedeelde postvak opnieuw in de adreslijst wordt weergegeven. 
+> Als u een gedeeld postvak van de adreslijst verbergt, kunnen nieuwe leden van het gedeelde Postvak niet meer het verborgen Postvak toevoegen aan hun Outlook-profiel totdat het gedeelde postvak weer wordt weergegeven in de adreslijst. 
 
 ## <a name="related-articles"></a>Verwante artikelen
 

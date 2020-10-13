@@ -1,6 +1,6 @@
 ---
 title: Simulaties van aanvallen van Microsoft Threat Protection uitvoeren
-description: Voer aanvals simulaties uit voor uw prototypeproject van Microsoft Threat Protection om te zien hoe dit wordt weergegeven en snel te verhelpen.
+description: Simuleer simulaties voor uw proefproject van Microsoft Threat Protection om te zien hoe het wordt uitgevouwen en snel wordt hersteld.
 keywords: Microsoft Threat Protection pilot aanval, simulatie aanval van de proefversie van Microsoft Threat Protection, Microsoft Threat Protection pilotproject, Cyber beveiliging, Geavanceerd permanent risico, veiligheid van uw onderneming, apparatuur, apparaat, identiteit, gebruikers, gegevens, toepassingen, incidenten, automatisch onderzoek en herstel, geavanceerde jacht
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: f165a34d5e9df2f3502a9d9c6230fed9b73b758b
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: 50b74cf46999c3ad52f536ba0dfe07508c993a39
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418143"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48447081"
 ---
 # <a name="run-your-microsoft-threat-protection-attack-simulations"></a>Simulaties van aanvallen van Microsoft Threat Protection uitvoeren  
 
@@ -76,13 +76,13 @@ ms.locfileid: "48418143"
 
 U bevindt zich momenteel in de simulatie fase aanval.
 
-Na het voorbereiden van uw testomgeving, is het tijd om het Microsoft Threat Protection-incidentbeheer en het beleid voor automatisch onderzoek en herstel te testen. We helpen u een verfijnde aanval te simuleren die geavanceerde technieken gebruikt om de detectie te verbergen. De aanval wordt geopend server bericht blok (SMB)-sessies op domeincontrollers opgesomd en de nieuwste IP-adressen van gebruikers apparaten ophalen. Meestal bevat dit soort aanvallen geen bestanden die op het apparaat van het slachtoffer worden neergezet, ze worden alleen in het geheugen weergegeven. Met behulp van de bestaande systeem-en beheerprogramma's en injecteert ze de uitvoering ervan en injecteert ze de uitvoering ervan, zodat ze de uitvoering van evade kunnen opsporen en persisteren op het apparaat.
+Na het voorbereiden van uw testomgeving, is het tijd om het Microsoft Threat Protection-incidentbeheer en het beleid voor automatisch onderzoek en herstel te testen. We helpen u een verfijnde aanval te simuleren die geavanceerde technieken van detectie van detectie biedt. De aanval wordt geopend server bericht blok (SMB)-sessies op domeincontrollers opgesomd en de nieuwste IP-adressen van gebruikers apparaten ophalen. Meestal bevat dit soort aanvallen geen bestanden die op het apparaat van het slachtoffer worden neergezet, ze worden alleen in het geheugen weergegeven. Met behulp van de bestaande systeem-en beheerprogramma's, en de programmacode wordt in systeemprocessen geïnjecteerd om de uitvoering ervan te verbergen, kunnen ze door een dergelijk gedrag evade detectie en persistent maken op het apparaat.
 
 In deze simulatie begint ons voorbeeldscenario met een PowerShell-script. Een gebruiker kan een script uitvoeren. Of het script kan vanaf een externe verbinding vanaf een eerder besmet apparaat worden uitgevoerd vanaf een externe verbinding met een andere computer: de aanvaller probeert later te navigeren in het netwerk. Detectie van deze scripts kan lastig zijn omdat beheerders vaak scripts ook extern uitvoeren om diverse beheeractiviteiten uit te voeren.
 
 ![Niet-gefileeerde PowerShell-aanval met proces injectie en SMB Reconnaisance-aanvals diagram](../../media/mtp/mtpdiydiagram.png)
 
-Tijdens de simulatie injecteert de aanval shellcode in een schijnbaar onschuldige proces. In dit scenario gebruiken we notepad.exe. We hebben dit proces voor de simulatie gekozen, maar kwaadwillende gebruikers zullen waarschijnlijk een lang actief systeemproces bereiken, zoals svchost.exe. Met de shellcode kunt u contact opnemen met de opdracht van de aanvaller en de controle (C2) om instructies te ontvangen voor het doorvoeren van de gebruikersnaam. Daarnaast worden met de scripts geprobeerd om Reconnaissance-query's uit te voeren op de domeincontroller (DC). Hiermee kan een aanvaller informatie krijgen over recente aanmeldinformatie van gebruikers. Wanneer hackers deze informatie hebben, kunnen ze later in het netwerk navigeren om naar een specifiek gevoelige account te gaan.
+Tijdens de simulatie injecteert de aanval shellcode in een schijnbaar onschuldige proces. Voor dit scenario is het gebruik van notepad.exe vereist. We hebben dit proces voor de simulatie gekozen, maar kwaadwillende gebruikers zouden waarschijnlijk een lang actief systeemproces kunnen bereiken, zoals svchost.exe. Met de shellcode kunt u contact opnemen met de opdracht van de aanvaller en de controle (C2) om instructies te ontvangen voor het doorvoeren van de gebruikersnaam. Het script probeert Reconnaissance-query's uit te voeren op de domeincontroller (DC). Reconnaissance biedt een kwaadwillende persoon de mogelijkheid informatie te krijgen over recente gebruikers aanmeldinformatie. Wanneer hackers deze informatie hebben, kunnen ze later in het netwerk navigeren om naar een specifiek gevoelige account te gaan.
 
 >[!IMPORTANT]
 >Voor optimale resultaten volgt u de instructies voor de simulatie van een aanval.
@@ -189,11 +189,11 @@ Het incident weergeven:
 
     ![Schermafbeelding van de pagina met incidenten waarop gegenereerde waarschuwingen worden geaggregeerd tijdens de simulatie](../../media/mtp/fig4.png)
 
-    De waarschuwingen die in het dashboard worden weergegeven, kunnen worden gefilterd op basis van servicebronnen: Azure ATP, Microsoft Cloud app Security, Microsoft Defender ATP, Microsoft Threat Protection en Office ATP.  
+    De waarschuwingen die in het dashboard worden weergegeven, kunt u filteren op basis van servicebronnen: Azure ATP, Microsoft Cloud app Security, Microsoft Defender ATP, Microsoft Threat Protection en Office ATP.  
 
 3.  Selecteer **incident pagina openen** om meer informatie over het incident te weten te komen.
 
-    Op de pagina **incidenten** ziet u alle meldingen en informatie over het incident. Dit omvat de entiteiten en activa in de waarschuwing, de detectiebron van de waarschuwingen (Azure ATP, EDR), en de reden waarom ze samen met elkaar zijn verbonden. Wanneer u de lijst met incidenten van meldingen controleert, wordt de voortgang van de aanval weergegeven. In deze weergave kunt u de afzonderlijke waarschuwingen zien en onderzoeken.
+    Op de pagina **incidenten** ziet u alle meldingen en informatie over het incident. De informatie omvat de entiteiten en activa die betrokken zijn bij de waarschuwing, de detectiebron van de waarschuwingen (Azure ATP, EDR), en de reden waarom ze samen met elkaar zijn verbonden. Wanneer u de lijst met incidenten van meldingen controleert, wordt de voortgang van de aanval weergegeven. In deze weergave kunt u de afzonderlijke waarschuwingen zien en onderzoeken.
 
     U kunt ook klikken op **incident beheren** in het menu aan de rechterkant, om het incident te markeren, het aan uzelf toe te wijzen en opmerkingen toe te voegen.
 
@@ -221,11 +221,11 @@ Om ervoor te zorgen dat de technische analisten deze geavanceerde aanvallen kunn
 ![Schermafbeelding van de melding voor de injectie van mogelijk schadelijke code](../../media/mtp/fig7.png) 
 
 
-**Waarschuwing: het onverwachte gedrag van een proces wordt uitgevoerd zonder opdrachtregelargumenten (Bron: Microsoft Defender ATP EDR)**
+**Waarschuwing: het onverwachte gedrag van een proces wordt uitgevoerd met geen opdrachtregelargumenten (Bron: Microsoft Defender ATP EDR)**
 
-Microsoft Defender ATP-detecteren vaak richten op het meest voorkomende kenmerk van een aanvalsmethode. Hierdoor wordt de duurzaamheid gegarandeerd en wordt de balk voor hackers omgewisseld met de nieuwe tactiek.
+Microsoft Defender ATP-detecteren vaak richten op het meest voorkomende kenmerk van een aanvalsmethode. Deze methode zorgt voor duurzaamheid en veroorzaakt een nieuwe tactiek voor de balk voor hackers.
 
-We maken gebruik van leer algoritmen voor grootschalige lessen om het normale gedrag van veelvoorkomende processen binnen een organisatie en wereldwijd te creëren en te kijken wanneer deze processen afwijkend gedrag tonen. Dit anomalie gedrag duidt vaak op dat de programmacode is ingevoerd en wordt uitgevoerd in een ander vertrouwd proces.
+We maken gebruik van leer algoritmen voor grootschalige lessen om het normale gedrag van gemeenschappelijke processen binnen een organisatie en wereldwijd te bepalen, en kijken wanneer deze processen afwijkend gedrag tonen. Dit anomalie gedrag duidt vaak op dat de programmacode is ingevoerd en wordt uitgevoerd in een ander vertrouwd proces.
 
 Voor dit scenario verloopt het proces <i>notepad.exe</i> abnormaal gedrag, waarbij communicatie met een externe locatie wordt aangewend. Dit resultaat is onafhankelijk van de specifieke methode die wordt gebruikt om de schadelijke code in te voeren en uit te voeren.
 
@@ -234,7 +234,7 @@ Voor dit scenario verloopt het proces <i>notepad.exe</i> abnormaal gedrag, waarb
 
 U ziet dat de details van de waarschuwing ook het externe IP-adres zijn: een indicator die u kunt gebruiken als draai om onderzoek uit te vouwen.
 
-Klik op het IP-adres in de structuur van het waarschuwings proces om de pagina met IP-adresdetails weer te geven.
+Selecteer het IP-adres in de structuur van het waarschuwings proces om de pagina met IP-adresdetails weer te geven.
 
 ![Schermafbeelding van de waarschuwing voor onverwachte werking van een proces dat wordt uitgevoerd zonder opdrachtregelargumenten](../../media/mtp/fig8.png) 
 
@@ -252,25 +252,25 @@ Bij deze detectie wordt een waarschuwing geactiveerd wanneer de SMB-sessie inven
 
 
 ### <a name="review-the-device-timeline-microsoft-defender-atp"></a>De tijdlijn van het apparaat controleren [Microsoft Defender ATP]
-Wanneer u de verschillende meldingen in dit incident hebt onderzocht, gaat u terug naar de pagina met het incident dat u eerder hebt onderzocht. Ga naar het tabblad **apparaten** op de pagina incidenten om te controleren welke apparaten bij dit incident zijn betrokken, zoals gerapporteerd in Microsoft Defender ATP en Azure ATP.
+Wanneer u de verschillende meldingen in dit incident hebt onderzocht, gaat u terug naar de pagina met het incident dat u eerder hebt onderzocht. Selecteer het tabblad **apparaten** op de pagina incidenten om te controleren welke apparaten bij dit incident zijn betrokken, zoals gerapporteerd in Microsoft Defender ATP en Azure ATP.
 
-Klik op de naam van het apparaat waarop de aanval is uitgevoerd om de entiteits pagina voor dat specifieke apparaat te openen. Op deze pagina kunt u waarschuwingen weergeven die zijn geactiveerd en de gerelateerde gebeurtenissen.
+Selecteer de naam van het apparaat waarop de aanval is uitgevoerd om de entiteits pagina voor dat specifieke apparaat te openen. Op deze pagina kunt u waarschuwingen weergeven die zijn geactiveerd en de gerelateerde gebeurtenissen.
 
-Klik op het tabblad **tijdlijn** om de tijdlijn van het apparaat te openen en alle gebeurtenissen en gedragingen die op het apparaat worden weergegeven in chronologische volgorde weer te geven, waarbij de waarschuwingen zijn getreden.
+Selecteer het tabblad **tijdlijn** om de tijdlijn van het apparaat te openen en alle gebeurtenissen en gedragingen op het apparaat in chronologische volgorde weer te geven, waarbij de waarschuwingen zijn getreden.
 
 ![Schermafbeelding van de tijdlijn van het apparaat met gedrag](../../media/mtp/fig11.png) 
 
 Het uitvouwen van een paar van de interessantere gedragingen bieden nuttige informatie, zoals proces bomen.
 
-Schuif bijvoorbeeld omlaag totdat u bij de gebeurtenis **verdacht verdacht proces de injectie**vindt. Klik op de **powershell.exe die u hebt ingevoegd op notepad.exe proces** gebeurtenis eronder, om de volledige processtructuur weer te geven voor dit gedrag onder de grafiek **gebeurtenis entiteiten** in het zijvenster. Gebruik de zoekbalk om zo nodig te filteren.
+Schuif bijvoorbeeld omlaag totdat u bij de gebeurtenis **verdacht verdacht proces de injectie**vindt. Selecteer de **powershell.exe die zijn geïnjecteerd naar notepad.exe proces** gebeurtenis eronder, om de volledige processtructuur weer te geven voor dit gedrag onder de grafiek **gebeurtenis entiteiten** in het zijvenster. Gebruik de zoekbalk om zo nodig te filteren.
 
 ![Schermafbeelding van de processtructuur voor het geselecteerde gedrag van het maken van PowerShell-bestanden](../../media/mtp/fig12.png)
 
 ### <a name="review-the-user-information-microsoft-cloud-app-security"></a>Controleer de gebruikersgegevens [Microsoft Cloud app security]
 
-Op de pagina incident klikt u op het tabblad **gebruikers** om een lijst weer te geven met gebruikers die betrokken zijn bij de aanval. De tabel bevat extra informatie over elke gebruiker, waaronder de **onderzoek prioriteit** van elke gebruiker.
+Selecteer op de pagina incident het tabblad **gebruikers** om de lijst met gebruikers weer te geven die betrokken zijn bij de aanval. De tabel bevat extra informatie over elke gebruiker, waaronder de **onderzoek prioriteit** van elke gebruiker.
 
-Klik op de gebruikersnaam om de profielpagina van de gebruiker te openen waar verder onderzoek kan worden uitgevoerd. [Meer informatie over het onderzoeken van risico gebruikers](https://docs.microsoft.com/cloud-app-security/tutorial-ueba#identify).
+Selecteer de gebruikersnaam om de profielpagina van de gebruiker te openen waar verder onderzoek kan worden uitgevoerd. [Meer informatie over het onderzoeken van risico gebruikers](https://docs.microsoft.com/cloud-app-security/tutorial-ueba#identify).
 <br>
 ![Schermafbeelding van de pagina met beveiligings gebruikers van de Cloud-app](../../media/mtp/fig13.png)
 
@@ -281,11 +281,11 @@ Klik op de gebruikersnaam om de profielpagina van de gebruiker te openen waar ve
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BzwB]
 
-Ga terug naar het incident in het Microsoft 365 Security Center Portal. Het tabblad **onderzoeken** op de pagina **incident** toont de geautomatiseerde onderzoeken die zijn geactiveerd door Azure ATP en Microsoft Defender ATP. Met de onderstaande schermafbeelding wordt alleen het geautomatiseerd onderzoek weergegeven dat wordt geactiveerd door Microsoft Defender ATP. Standaard worden in Microsoft Defender ATP automatisch de artefacten opgelost die zijn gevonden in de wachtrij waarvoor herstel nodig is.
+Ga terug naar het incident in het Microsoft 365 Security Center Portal. Het tabblad **onderzoeken** op de pagina **incident** toont de geautomatiseerde onderzoeken die zijn geactiveerd door Azure ATP en Microsoft Defender ATP. Met de onderstaande schermafbeelding wordt alleen het geautomatiseerd onderzoek weergegeven dat wordt geactiveerd door Microsoft Defender ATP. Standaard worden in Microsoft Defender ATP de artefacten die zijn gevonden in de wachtrij, automatisch hersteld waarvoor herstel nodig is.
 
 ![Schermafbeelding van geautomatiseerde onderzoeken met betrekking tot het incident](../../media/mtp/fig14.png)
 
-Klik op de waarschuwing die een onderzoek heeft geactiveerd om de pagina **Details van onderzoek** te openen. U ziet het volgende:
+Selecteer de waarschuwing die een onderzoek heeft geactiveerd om de pagina **Details van onderzoek** te openen. U ziet de volgende informatie:
 - Waarschuwing (s) die het geautomatiseerde onderzoek hebben geactiveerd.
 - Beïnvloede gebruikers en apparaten. Als indicatoren zijn gevonden op extra apparaten, worden deze extra apparaten ook weergegeven.
 - Lijst met bewijzen. De entiteiten zijn gevonden en geanalyseerd, zoals bestanden, processen, services, Stuurprogramma's en netwerkadressen. Deze entiteiten worden geanalyseerd op mogelijke relaties voor de waarschuwing en zijn geclassificeerd als schadelijk of schadelijk.
@@ -304,14 +304,14 @@ U kunt <i>notepad.exe</i> verdwijnen uit de lijst met actieve processen op het t
 
 Wanneer het onderzoek is voltooid en bevestigd, moet u het incident sluiten.
 
-Klik op **incident beheren**. Stel de status voor het **oplossen van incidenten** in en selecteer de gewenste classificatie.
+Selecteer **incident beheren**. Stel de status voor het **oplossen van incidenten** in en selecteer de gewenste classificatie.
 
-Wanneer het incident is verholpen, worden alle bijbehorende waarschuwingen in Microsoft 365 Beveiligingscentrum en in de bijbehorende portals gesloten.
+Wanneer het incident is opgelost, worden alle bijbehorende waarschuwingen in Microsoft 365 Beveiligingscentrum en in de bijbehorende portals gesloten.
 
 ![Schermafbeelding van de pagina met incidenten, waarop u kunt klikken op de schakeloptie om het probleem op te lossen](../../media/mtp/fig16.png) 
 
 <br>
-Hiermee wordt de simulatie van de aanval voor incidentenbeheer en voor automatisch onderzoek en herstelscenario's gewikkeld. Met de volgende simulatie wordt u begeleid bij de proactief ondernemen voor schadelijke bestanden. 
+Hiermee wordt de simulatie van de aanval voor incidentenbeheer en voor automatisch onderzoek en herstelscenario's gewikkeld. Met de volgende simulatie wordt u begeleid bij het maken van een proactieve bedreiging van de jacht voor potentieel schadelijke bestanden. 
 
 ## <a name="advanced-hunting-scenario"></a>Scenario voor Geavanceerd jacht
 
@@ -321,7 +321,7 @@ Hiermee wordt de simulatie van de aanval voor incidentenbeheer en voor automatis
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
 
 ### <a name="hunting-environment-requirements"></a>Voorschriften voor de jacht omgeving
-Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een externe e-mailaccount nodig om het testbericht te verzenden.
+Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een extern e-mailaccount nodig om het testbericht te verzenden.
 
 1.  Controleer of uw Tenant [Microsoft Threat Protection heeft ingeschakeld](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service).
 2.  Aangeven dat een doel postvak moet worden gebruikt voor het ontvangen van e-mail.
@@ -369,9 +369,9 @@ Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een
 
     1.  Bekijk de resultaten en kijk of u het e-mailbericht dat u hebt geopend kunt identificeren.  Het kan tot 2 uur duren voordat het bericht in de geavanceerde jacht wordt weergegeven. Als de e-mail omgeving grote en veel resultaten bevat, kunt u de **optie filters weergeven** gebruiken om het bericht te zoeken. 
 
-        In het voorbeeld is het e-mailbericht verzonden via een Yahoo-account. Klik op het **+** pictogram naast **Yahoo.com** onder de sectie SenderFromDomain en klik vervolgens op **toepassen** om het geselecteerde domein toe te voegen aan de query.  U moet het domein of e-mailaccount gebruiken dat is gebruikt voor het verzenden van het testbericht in stap 1 van de simulatie uitvoeren om de resultaten te filteren.  Voer de query opnieuw uit om een kleinere resultatenset te krijgen om te controleren of het bericht in de simulatie wordt weergegeven.
+   In het voorbeeld is het e-mailbericht verzonden via een Yahoo-account. Klik op het **+** pictogram naast **Yahoo.com** onder de sectie SenderFromDomain en klik vervolgens op **toepassen** om het geselecteerde domein toe te voegen aan de query.  Gebruik het domein of e-mailaccount dat is gebruikt voor het verzenden van het testbericht in stap 1 van de simulatie uitvoeren om de resultaten te filteren.  Voer de query opnieuw uit om een kleinere resultatenset te krijgen om te controleren of het bericht in de simulatie wordt weergegeven.
    
-        ![Schermafbeelding van de filters. U kunt filters gebruiken om de zoekopdracht te verfijnen en te vinden wat u zoekt.](../../media/mtp/fig20.png) 
+        ![Screenshot of the filters. Use filters to narrow down the search, and find what you’re looking for faster.](../../media/mtp/fig20.png) 
 
         ```console
         EmailEvents 
@@ -394,7 +394,7 @@ Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een
 
 5.  Neem vervolgens de informatie over de bijlage op (bijvoorbeeld: bestandsnaam, hashes) in de resultatenset. U kunt dit doen door lid te worden van de tabel **EmailAttachmentInfo** . De veelgebruikte velden die u kunt gebruiken om deel te nemen in dit geval zijn **NetworkMessageId** en **RecipientObjectId**.
 
-    De volgende query bevat ook een extra regel | **Project: Wijzig de naam van EmailTimestamp = tijdstempel**, zodat u kunt zien welke tijdstempels zijn gerelateerd aan de e-mail en tijdstempels die te maken hebben met de volgende stap.
+De volgende query bevat ook een extra regel | **Project: Wijzig de naam van EmailTimestamp = tijdstempel,** zodat u kunt zien welke tijdstempels zijn gerelateerd aan de e-mail en tijdstempels die u toevoegt aan de volgende stap.
 
     ```console
     EmailEvents 
@@ -416,9 +416,9 @@ Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een
     | where ActionType == "FileCreated"
     ```
 
-    U hebt nu een query gemaakt waarmee alle inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage heeft geopend of opgeslagen. U kunt deze query ook verfijnen om te filteren op specifieke domeinen, bestanden, bestandstypen, enzovoort.
+U hebt nu een query gemaakt waarmee alle inkomende e-mailberichten worden geïdentificeerd waarbij de gebruiker de bijlage heeft geopend of opgeslagen. U kunt deze query ook verfijnen om te filteren op specifieke domeinen, bestanden, bestandstypen, enzovoort.
 
-7.  Functies vormen een speciale combineren van joins waarmee u meer TI-gegevens over een bestand kunt halen, zoals de prevalente, onderteken-en uitgeversinformatie, enzovoort.  Als u meer wilt weten over het bestand, gebruikt u de functie verrijking **FileProfile ()** .
+7.  Functies zijn een speciaal type join, waarmee u meer tij informatie over een bestand kunt trekken, zoals de prevalente, onderteken-en uitgeversinformatie, enzovoort.  Als u meer wilt weten over het bestand, gebruikt u de functie verrijking **FileProfile ()** .
 
     ```console
     EmailEvents 
@@ -434,7 +434,7 @@ Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een
 
 **Een detectie maken**
 
-Wanneer u een query hebt gemaakt met informatie waarover u een **melding wilt ontvangen** als ze in de toekomst plaatsvinden, kunt u een aangepaste detectie maken van de query. 
+Wanneer u een query hebt gemaakt met informatie waarover u een **melding wilt ontvangen** als ze in de toekomst plaatsvinden, kunt u een aangepaste detectie van de query maken. 
 
 Door aangepaste detecties wordt de query uitgevoerd volgens de frequentie die u hebt ingesteld, en met de resultaten van de query's maakt u beveiligingswaarschuwingen, op basis van de beïnvloede activa die u kiest. Deze meldingen komen overeen met incidenten en kunnen worden triaged als een andere Beveiligingsmelding die wordt gegenereerd door een van de producten.
 
@@ -473,9 +473,9 @@ Door aangepaste detecties wordt de query uitgevoerd volgens de frequentie die u 
 
     ![Schermafbeelding van de pagina detectieregels waarop de regel en de details van de uitvoering worden weergegeven](../../media/mtp/fig27b.png) 
 
-    Op deze pagina kunt u de detectieregel selecteren waarmee een detailpagina wordt geopend. 
+Op deze pagina kunt u de detectieregel selecteren waarmee een detailpagina wordt geopend. 
 
-    ![Schermafbeelding van de pagina met e-mailbijlagen waarop u de status van de regel uitvoer, geactiveerde waarschuwingen en acties, de detectie bewerkt, enzovoort kunt zien](../../media/mtp/fig28.png) 
+    ![Screenshot of the email attachments page where you can see the status of the rule execution, triggered alerts and actions, edit the detection, and so on](../../media/mtp/fig28.png) 
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>Aanvullende geavanceerde jacht Walk-in-oefeningen
 

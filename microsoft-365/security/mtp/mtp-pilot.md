@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: af47f45ca4f3d14e835a39a334a9400002ac8560
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: 4ec46891248c09f580b19d888573544ad2b4930f
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418071"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446865"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>Voer uw proefproject voor Microsoft Threat Protection uit. 
 
@@ -35,7 +35,7 @@ ms.locfileid: "48418071"
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Als u de voordelen en aanneming van Microsoft Threat Protection (MTP) daadwerkelijk wilt bepalen, kunt u een proefproject uitvoeren. Voordat u Microsoft Threat Protection in uw productieomgeving inschakelt en aan de slag gaat, kunt u het beste een planningsproces treffen voor het bepalen van de taken die moeten worden uitgevoerd in dit prototypeproject en de succescriteria. 
+Als u de voordelen en aanneming van Microsoft Threat Protection (MTP) daadwerkelijk wilt bepalen, kunt u een proefproject uitvoeren. Voordat u Microsoft Threat Protection in uw productieomgeving inschakelt en beproefde zaken begint, is het raadzaam om te bepalen welke taken u uitvoert voor uw pilotproject en stelt u de criteria voor slagen in. 
 
 
 ## <a name="how-to-use-this-pilot-playbook"></a>Het gebruik van deze pilot-Playbook
@@ -59,9 +59,9 @@ Er zijn vier fasen in het uitvoeren van een pilot van Microsoft Threat Protectio
 |Fase | Beschrijving | 
 |:-------|:-----|
 | ![Planning](../../media/mtp/plan.png)<br>[Planning](mtp-pilot-plan.md)| Meer informatie over wat u moet doen voordat u uw Microsoft Threat Protection-proefproject kunt uitvoeren: <br><br>-Bereik <br> -Use cases <br>-Vereisten <br>Test plan <br> -Succescriteria <br> -Scorecard 
-| ![Uitwerking](../../media/mtp/prep.png) <br>[Uitwerking](mtp-evaluation.md)|  Open Microsoft 365-Beveiligingscentrum om uw testomgeving voor Microsoft Threat Protection te installeren. U wordt begeleid bij:<br><br>-Belanghebbenden identificeren en zich afmelden voor uw pilot <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde <br> -Registreren voor Microsoft 365 E5-proefabonnement <br> Domein configureren <br>-Microsoft 365 E5-licenties toewijzen <br> -De wizard Setup voltooien in de portal|
+| ![Uitwerking](../../media/mtp/prep.png) <br>[Uitwerking](mtp-evaluation.md)|  Open Microsoft 365-Beveiligingscentrum om uw testomgeving voor Microsoft Threat Protection in te stellen. U wordt begeleid bij:<br><br>-Belanghebbenden identificeren en zich afmelden voor uw pilot <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde <br> -Registreren voor Microsoft 365 E5-proefabonnement <br> Domein configureren <br>-Microsoft 365 E5-licenties toewijzen <br> -De wizard Setup voltooien in de portal|
 | ![Simulatie van aanval](../../media/mtp/run-sim.png) <br>[Simulatie van aanval](mtp-pilot-simulate.md) | U wordt begeleid bij het maken van een aanval:<br><br>-Controleer de vereisten voor de testomgeving <br>-De simulatie uitvoeren <br>-Onderzoek een incident <br>-het incident oplossen 
-| ![Sluiten en samenvatting](../../media/mtp/close.png) <br>[Sluiten en samenvatting](mtp-pilot-close.md) | Wanneer u het einde van het proces hebt bereikt, wordt u begeleid bij het volgende:<br><br>-Doorgaan met de laatste uitvoer<br>-De uitvoer presenteren aan de belanghebbenden <br>-Feedback geven <br>-Voer de volgende stappen uit 
+| ![Sluiten en samenvatting](../../media/mtp/close.png) <br>[Sluiten en samenvatting](mtp-pilot-close.md) | Wanneer u het einde van het proces hebt bereikt, gaat u verder met:<br><br>-Doorgaan met de laatste uitvoer<br>-De uitvoer presenteren aan de belanghebbenden <br>-Feedback geven <br>-Voer de volgende stappen uit 
 
 ## <a name="next-step"></a>Volgende stap
 |![Planningfase](../../media/mtp/plan.png) <br>[Planningfase](mtp-pilot-plan.md) | Uw proefproject voor Microsoft Threat Protection plannen 

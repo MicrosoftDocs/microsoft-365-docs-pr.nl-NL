@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings Veelgestelde vragen.
-ms.openlocfilehash: ee0de2d1412aa5ec38759a3a2512de05b9e02621
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 40605cfc7e5d30e12cd34a463a76e8d9c324efc7
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545714"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445449"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft Bookings
 
@@ -21,7 +21,7 @@ ms.locfileid: "47545714"
 
 ### <a name="what-is-microsoft-bookings"></a>Wat is Microsoft Bookings?
 
-Microsoft Bookings is een Microsoft 365-app waarmee u afspraken eenvoudig kunt plannen en beheren. Bookings incudes een webdatabase met reservering en integratie met Outlook, zodat u de agenda van uw personeel kunt optimaliseren, zodat de klant een tijd kan boeken die het beste past bij de agenda. Geautomatiseerde e-mail e-mailberichten verminderen geen enkele weergave en uw organisatie bespaart tijd met een verlaging in terugkerende planningstaken. Met Bookings kunt u gemakkelijk virtuele afspraken organiseren via Skype of Microsoft teams, en kunt u de dagelijkse planning voor de dag van de dag beheren via de app boekingen in teams. Met de ingebouwde mogelijkheid om aan te passen, kunnen de reserveringen voldoen aan de behoeften van meerdere delen van een willekeurige organisatie.
+Microsoft Bookings is een Microsoft 365-app waarmee u afspraken eenvoudig kunt plannen en beheren. Bookings omvat een webformulier voor het reserveren van een webversie en wordt geïntegreerd met Outlook, zodat de agenda van uw personeel wordt geoptimaliseerd, zodat uw klanten een goede tijd kunnen vinden die voor hen het meest geschikt is. Geautomatiseerde e-mail e-mailberichten verminderen geen enkele weergave en uw organisatie bespaart tijd met een verlaging in terugkerende planningstaken. Met Bookings kunt u gemakkelijk virtuele afspraken organiseren via Skype of Microsoft teams, en kunt u de dagelijkse planning voor de dag van de dag beheren via de app boekingen in teams. Met de ingebouwde mogelijkheid om aan te passen, kunnen de reserveringen voldoen aan de behoeften van meerdere delen van een willekeurige organisatie.
 
 ### <a name="how-do-i-use-microsoft-bookings"></a>Hoe gebruik ik Microsoft Bookings?
 
@@ -174,7 +174,7 @@ Met een instelling die de **maximum tijd voor potentiële klanten** wordt genoem
 
 Alle tijden bevinden zich standaard in de Business-tijdzone (de lokale tijdzone). Dit betekent dat elke instelling die u configureert voor een Bookings agenda, zoals werkuren, wordt weergegeven in deze tijdzone. De pagina selfservice is de mogelijkheid om alle tijden van de afspraak weer te geven in de tijdzone van de eindgebruiker, die desgewenst kunnen worden uitgeschakeld.Als **altijd tijds sleuven in de Business-tijdzone weergeven** worden uitgeschakeld op het tabblad Bookings pagina, zien de personen die de pagina bezoeken de tijd sleuven in hun eigen lokale tijdzones.
 
-:::image type="content" source="media/bookings-faq-region.png" alt-text="Instellingen voor boekings gebieden en tijdzone":::
+:::image type="content" source="media/bookings-faq-region.png" alt-text="Plannen in Bookings":::
 
 U kunt geen tijdzone instellen voor medewerkers in bookings. De tijdzone van de werknemers, dus ook kantooruren, worden in de Business Time zone weergegeven.
 
@@ -202,7 +202,7 @@ Ja, we hebben een functie voor groeps Booking waarmee meerdere personen dezelfde
 
 Ja. Er is een selectievakje op het tabblad boekings pagina in de web-app: er is **een Microsoft 365-of Office 365-account van mijn organisatie om te boeken vereist**. Als u dit selectievakje inschakelt, wordt selfservice voor selfservice beperkt tot alleen de gebruikers die zich in de Tenant bevinden. De Bookings-agenda die zich in de web-app bevindt voor het maken en beheren van gegevens, kan alleen worden gebruikt door gebruikers die zijn toegevoegd als medewerkers aan de pagina met beheerders-of viewer rollen.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Toegangsbeheer voor boekings pagina's in Bookings":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Plannen in Bookings":::
 
 ### <a name="how-frequently-does-the-home-page-update"></a>Hoe vaak wordt de startpagina bijgewerkt?
 
@@ -214,7 +214,7 @@ Tijdens het opnemen van een vrije tijd in de Bookings-web-app wordt altijd een e
 
 ### <a name="can-bookings-calendars-be-cloned-or-duplicated-and-can-they-be-templatized-for-easy-scaling"></a>Kunnen Bookings-agenda's worden gekloond of gedupliceerd en kunnen ze worden templatized voor eenvoudige schaling?
 
-De mogelijkheid om pagina's te dupliceren is op dit moment beschikbaar via PowerShell. Met het proces werd de API van Graph gebruikt voor het weergeven van Postvak Details en gebruikt u deze gegevens om een nieuw postvak te maken. API-documentatie [hier](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta).
+Met het proces werd de API van Graph gebruikt voor het weergeven van Postvak Details en gebruikt u deze gegevens om een nieuw postvak te maken. API-documentatie [hier](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta).
 
 ### <a name="what-reporting-is-available-in-bookings"></a>Welke rapportage is beschikbaar in Bookings?
 
@@ -250,7 +250,7 @@ Elke boekings agenda wordt onafhankelijk bijgehouden. Er is geen samengevoegde w
 
 Voor toegang tot de web-app Bookings is verificatie vereist via de reguliere verificatie van Azure Active Directory (AAD). De hand boekings pagina voor selfservice kan worden gemaakt voor iedereen met de koppeling naar de webpagina. Wanneer de instelling **een Microsoft 365-of Office 365-account van de instelling voor het boeken van mijn organisatie vereisen** is geselecteerd, is de pagina alleen toegestaan voor gebruik binnen de microsoft 365-Tenant (met authenticatie via Aad).
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Toegangsbeheer voor boekings pagina's in Bookings":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Plannen in Bookings":::
 
 ### <a name="does-customer-data-leave-the-production-system-for-any-reason"></a>Laat de klantgegevens om welke reden dan ook?
 

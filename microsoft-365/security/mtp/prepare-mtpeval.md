@@ -15,14 +15,15 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
+- m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: ac60415f38644c4630a181b1c8d696acced57ded
-ms.sourcegitcommit: 9d8d071659e662c266b101377e24549963e43fef
+ms.openlocfilehash: 79e30ee6fd68148543a63377d89fe2955f276f24
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367999"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446729"
 ---
 # <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden
 
@@ -75,7 +76,7 @@ De voorbereiding is essentieel voor een succesvolle implementatie. In deze secti
 Meer informatie over de licenties, hardware-en softwarevereisten en andere configuratie-instellingen voor het inrichten en gebruiken van Microsoft Threat Protection. Zie de minimale vereisten voor [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [Microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), beveiliging van de [Microsoft Cloud-app](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Belanghebbenden en afmelden
-In het volgende gedeelte wordt aangegeven welke belanghebbenden deel uitmaken van het project en wie kan zich mogelijk registreren, raadplegen of op de hoogte blijven van de belanghebbenden, of het nu gaat om evaluatie of het uitvoeren van een pilot.
+Identificeer alle belanghebbenden die deelnemen aan het project en wie kan zich mogelijk registreren, beoordelen, of op de hoogte blijven, of u nu een proefproject wilt maken of uitvoeren.
 
 >[!NOTE]
 >Het kan zijn dat niet alle organisaties de beveiliging van de organisatie hebben voor deze rollen. Neem in dat geval contact op met uw leiderschaps team over controle en goedkeuring accountabilities.
@@ -94,7 +95,7 @@ Voeg belanghebbenden toe aan de onderstaande tabel voor uw organisatie.
 | Voer naam en e-mailadres in | **Hoofd van Cyber defensie Operations Center (CDOC)** *een medewerker van het CDOC-team dat verantwoordelijk is voor het bepalen van de manier waarop deze wijziging wordt uitgelijnd met de processen in het team beveiligingsactiviteiten.*       | ZOVEEL     |
 | Voer naam en e-mailadres in | **Beveiligings architect** *een medewerker van het beveiligingsteam dat verantwoordelijk is voor het bepalen van de manier waarop deze wijziging wordt afgestemd op de kern beveiligingsarchitectuur van de organisatie.*                         | S      |
 | Voer naam en e-mailadres in | **Workplace architect** *een medewerker van het IT-team die verantwoordelijk is voor het bepalen van de manier waarop deze wijziging wordt uitgelijnd met de core Workplace Architecture van de organisatie.*                             | S      |
-| Voer naam en e-mailadres in | **Beveiligings analist** *een vertegenwoordiger van het CDOC-team wie invoer kan geven op de detectiemogelijkheden, de gebruikerservaring en de algehele bruikbaarheid van deze wijziging vanuit een oogpunt van beveiligingsactiviteiten.* | Vind      |
+| Voer naam en e-mailadres in | **Beveiligings analist** *een vertegenwoordiger van het CDOC-team die feedback kan geven over de detectie functies, de gebruikerservaring en de algehele bruikbaarheid van deze wijziging vanuit een oogpunt van beveiligingsactiviteiten.* | Vind      |
 
 ## <a name="prepare-your-azure-active-directory"></a>Azure Active Directory voorbereiden
 Sla deze stap over als u al synchronisatie tussen Active Directory en Azure Active Directory hebt ingeschakeld. Bekijk bestaande documentatie voor aanbevolen procedures van Azure Active Directory. De volgende stappen zijn geoptimaliseerd voor het evalueren of uitvoeren van een pilot Microsoft Threat Protection-project.
@@ -127,7 +128,7 @@ U kunt nu [gebruikers en groepen toevoegen aan Active Directory](https://docs.mi
 
 
 ## <a name="configuration-order"></a>Configuratie volgorde
-In de volgende tabel ziet u de volgorde waarin Microsoft adviseert om de Microsoft Threat Protection-onderdelen voor de implementatie van een proefabonnement of pilot omgeving te configureren.
+In de volgende tabel wordt aangegeven welke volgorde Microsoft adviseert om de Microsoft Threat Protection-onderdelen voor de implementatie van een proefabonnement of pilot omgeving te configureren.
 
 | Invoert                               | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rangschikking van de configuratie volgorde |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|

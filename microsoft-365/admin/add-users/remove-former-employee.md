@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Volg deze controlelijst om een werknemer te verwijderen uit Microsoft 365 en de gegevens te beveiligen. '
-ms.openlocfilehash: 252442c36fd29b816626adb71b3ae38ae66f1f64
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: e8f0b61fae3656b7d700857e3cc7167cc121a77f
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324522"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445517"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>Een voormalige werknemer verwijderen of verwijderen
 
@@ -127,7 +127,7 @@ U kunt de inhoud van het postvak van de voormalige werknemer op twee manieren op
 
 2. Pas bewaring van postvakgegevens vanwege juridische procedure of een in-place bewaring op het postvak toe voordat u het gebruikersaccount verwijdert. Dit is veel ingewikkelder dan de eerste optie, maar wel de moeite waard indien: uw Enterprise-abonnement een archiveerfunctie en juridische bewaring omvat, bewaren van postvakgegevens vanwege juridische procedure mogelijk is, en u een technisch sterke IT-afdeling hebt.
 
-    Nadat u het postvak hebt omgezet in een ' inactief postvak ', kunnen beheerders, compliance officers of recordbeheerders in-place eDiscovery-hulpprogramma's in Exchange Online gebruiken om de inhoud te openen en te doorzoeken.
+    Nadat u het postvak hebt omgezet in een ' inactief postvak ', kunnen beheerders, compliance officers of recordbeheerders In-Place eDiscovery-hulpprogramma's in Exchange Online gebruiken om de inhoud te openen en te doorzoeken.
 
     Inactieve postvakken kunnen geen e-mail ontvangen en worden niet weergegeven in het gedeelde adresboek van uw organisatie of in andere lijsten.
 
@@ -140,7 +140,6 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 - Het maken van een gedeeld postvak is goedkoper omdat u niet voor een licentie hoeft te betalen, **mits het postvak kleiner is dan 50 GB**. Boven de 50 GB moet u er een licentie voor toewijzen.
 - Als u het postvak converteert naar een gedeeld postvak, zijn ook alle oude e-mails beschikbaar. Deze kunnen veel ruimte in beslag nemen.
 - Als u e-mail doorsturen hebt ingesteld, worden alleen  *nieuwe*  e-mails die naar de voormalige werknemer worden verzonden, nu naar de huidige werknemer gestuurd.
-- Voor het doorsturen van e-mail is vereist dat het account van de voormalige werknemer een licentie heeft.
 
  > [!IMPORTANT]
  > Als u e-mail wilt doorsturen of een gedeeld postvak instelt, verwijdert u het account van de voormalige werknemer aan het einde. Het account moet aanwezig zijn om het doorsturen van e-mail of het gedeelde postvak te bevestigen.
@@ -150,7 +149,7 @@ In deze stap wijst u het e-mailadres van de voormalige werknemer toe aan een and
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer het tabblad **e-mail** .
 3. Selecteer **e-mailberichten beheren**onder **doorsturen van e-mail**.
-4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **Doorstuuradres** het e-mailadres van de huidige werknemer (of het gedeelde postvak) waarnaar de nieuwe e-mail wordt doorgestuurd.
+4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in het vak **doorstuuradres** het e-mailadres van de huidige werknemer die het e-mailbericht gaat ontvangen.
 5. Kies **Opslaan**.
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.
 

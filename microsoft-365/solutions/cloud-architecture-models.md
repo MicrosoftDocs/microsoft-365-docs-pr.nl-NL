@@ -12,12 +12,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 08b899582e6401c0950a1c7349b73130ee62acb4
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 355d933c98bba284302c94e0dc9f54ba7ca52762
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308205"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48446509"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Microsoft Cloud voor Enterprise Architects
 
@@ -64,16 +64,23 @@ In deze reeks onderwerpen worden diverse Architecture benaderingen getoond voor 
 <a name="security"></a>
 ### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft Cloud-beveiliging voor Enterprise-architecten
 
-Wat IT-architecten moeten weten over beveiliging in Microsoft-cloudservices en-platforms.
+>[!Note]
+>Dit model wordt gewijzigd. Controleer dit artikel in de toekomst voor de bijgewerkte versie.
+>
+
+<!--
+
+What IT architects need to know about security in Microsoft cloud services and platforms.
   
-|**Item**|**Beschrijving**|
+|**Item**|**Description**|
 |:-----|:-----|
-|[![Afbeelding van miniatuur voor Microsoft Cloud-beveiligingsmodel](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070) \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071) \| [Meer talen](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Bijgewerkt op december 2018 | Dit model bevat: <ul><li>Microsoft Role voor het bieden van veilige services en platforms</li><li>Verantwoordelijkheden van klanten om beveiligingsrisico's te beperken</li><li>Belangrijkste beveiligings certificeringen </li><li>Beveiligings aanbiedingen van Microsoft Consulting Services </ul><br/>|
+|[![Thumb image for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Updated December 2018 | This model contains: <ul><li>Microsoft's role in providing secure services and platforms</li><li>Customer responsibilities to mitigate security risks</li><li>Top security certifications </li><li>Security offerings provided by Microsoft consulting services </ul><br/>|
+
+--> 
 
 
 <a name="attacks"></a>
-### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>Veelgebruikte aanvallen en Microsoft-functies waarmee uw organisatie wordt beschermd
-Meer informatie over de meest voorkomende Cyber Attack en hoe Microsoft uw organisatie kan helpen bij elke fase van een aanval. 
+### Veelgebruikte aanvallen en Microsoft-functies waarmee uw organisatie wordt gemeenschappelijke informatie over de meest voorkomende cyber aanval en hoe Microsoft uw organisatie kan helpen bij elke fase van een aanval. 
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
