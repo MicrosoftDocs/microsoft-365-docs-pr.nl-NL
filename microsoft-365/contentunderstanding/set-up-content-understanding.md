@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 410dd9550974ec7b5c1c5b4ae151bc92bf376544
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 43ce7809237d32fb9d2da73e9e00bed9b9a8193e
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446321"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464060"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -41,7 +41,7 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
 
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
-1. Selecteer **Instellingen** in het Microsoft 365-beheercentrum en bekijk het gedeelte **Bestanden en inhoud**.
+1. Selecteer **Instellingen** in het Microsoft 365-beheercentrum en bekijk het gedeelte **Organisatiekennis**.
 
 2. Selecteer onder **Bestanden en inhoud** de optie **Inhoudsbegrip automatiseren**.<br/>
 

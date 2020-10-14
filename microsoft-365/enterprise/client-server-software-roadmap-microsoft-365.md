@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: De routekaart voor het instellen van client-en serversoftware voor Microsoft 365.
-ms.openlocfilehash: 898464222b8296cee3ab12fe7351295f39a23736
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d3401baa09d27ff9753f9a45ecb537c67701c0e9
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950566"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464406"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Routekaart voor client-en serversoftware voor Microsoft 365
 
@@ -60,7 +60,7 @@ Microsoft 365-apps voor ondernemingen installeert updates automatisch en kan geb
 
 ### <a name="office-2010"></a>Office 2010
 
-Voor versies van Office in de Office 2010-release eindigt de ondersteuning op **13 oktober 2020**. Zie [Roadmap einde van ondersteuning voor Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap) voor meer informatie.
+Voor versies van Office in de release van Office 2010 is de ondersteuning beëindigd op **13 oktober 2020**. Zie [Roadmap einde van ondersteuning voor Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap) voor meer informatie.
 
 In plaats van uw computers met Office 2010 te upgraden met Office 2013 of Office 2016, die beide handmatig moeten worden bijgewerkt, kunt u het volgende overwegen:
 
@@ -117,7 +117,7 @@ In plaats van uw serverproducten in de Office 2007-release bij te werken met ser
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-De ondersteuning voor [Exchange Server 2010](exchange-2010-end-of-support.md) wordt beëindigd op **13 oktober 2020**.
+Ondersteuning voor [Exchange Server 2010](exchange-2010-end-of-support.md) is beëindigd op **13 oktober 2020**.
 
 De ondersteuning voor [SharePoint Server 2010](upgrade-from-sharepoint-2010.md) wordt beëindigd op **13 april 2021**.
 

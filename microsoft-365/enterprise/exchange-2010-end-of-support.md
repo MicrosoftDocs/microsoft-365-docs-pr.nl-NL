@@ -3,7 +3,6 @@ title: Einde van ondersteunings schema van Exchange 2010
 ms.author: dstrome
 author: dstrome
 manager: laurawi
-ms.date: 09/16/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,22 +12,22 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010 is bijna op de ondersteuning beëindigd. Gebruik dit Planningsoverzicht als handleiding voor het voorbereiden van een upgrade naar Exchange Online of een nieuwere versie van Exchange Server on-premises.
-ms.openlocfilehash: 128abd1e98c3e9d1ec4dd8a58683ee0ab019af18
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: dbae3fba3ddbff016e0e9434db4af6ca0a046b0d
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950818"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464250"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Einde van ondersteunings schema van Exchange 2010
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Op **13 oktober 2020**zal Exchange Server 2010 de ondersteuning voor het einde van de ondersteuning bereiken. Als u de migratie van Exchange 2010 naar Microsoft 365, Office 365 of Exchange 2016 nog niet hebt gedaan, kunt u het beste eerst de planning starten.
+Exchange Server 2010 bereikte het einde van de ondersteuning op **13 oktober 2020**. Als u de migratie van Exchange 2010 naar Microsoft 365, Office 365 of Exchange 2016 nog niet hebt gedaan, kunt u het beste eerst de planning starten.
 
 ## <a name="what-does-end-of-support-mean"></a>Wat betekent einde van ondersteuning?
 
-De Exchange-Server, zoals bijna alle Microsoft-producten, heeft een ondersteuningscyclus waarbij nieuwe functies, foutoplossingen, beveiligingsfixes en dergelijke worden geboden. Deze levenscyclus duurt doorgaans tien jaar vanaf de datum van de eerste release van het product, en het einde van de levenscyclus bekend is als het einde van de ondersteuning van de producten. Wanneer Exchange 2010 na 13 oktober 2020 een einde van de ondersteuning bereikt, biedt Microsoft niet langer:
+De Exchange-Server, zoals bijna alle Microsoft-producten, heeft een ondersteuningscyclus waarbij nieuwe functies, foutoplossingen, beveiligingsfixes en dergelijke worden geboden. Deze levenscyclus duurt doorgaans tien jaar vanaf de datum van de eerste release van het product, en het einde van de levenscyclus bekend is als het einde van de ondersteuning van de producten. Aangezien Exchange 2010 op 13 oktober 2020 een einde van de ondersteuning heeft bereikt, biedt Microsoft niet langer:
 
 - Technische ondersteuning voor problemen die kunnen optreden.
 - Oplossingen voor ontdekte problemen die gevolgen kunnen hebben voor de stabiliteit en bruikbaarheid van de server.
@@ -49,7 +48,7 @@ Met Exchange 2010 het einde van de ondersteuning bereiken, is dit een prima mome
 > [!IMPORTANT]
 > Als uw organisatie van plan is om uw postvakken te migreren naar Microsoft 365, maar u wilt dat de gebruikersaccounts van de on-premises Active Directory blijven beheren, moet u ten minste één Exchange Server on-premises bewaren. Als de laatste Exchange-Server is verwijderd, kunt u geen wijzigingen aanbrengen in Exchange-geadresseerden in Exchange Online. Dit komt doordat de bron van de autoriteit in uw on-premises Active Directory blijft staan en de wijzigingen daar moeten worden aangebracht. In dit scenario hebt u de volgende opties:
 
-- (**Aanbevolen**) Als u uw postvakken kunt migreren naar Microsoft 365 en uw servers upgraden naar Microsoft 13 oktober 2020, kunt u Exchange 2010 gebruiken om verbinding te maken met Microsoft 365 en postvakken te migreren. Migreer daarna Exchange 2010 naar Exchange 2016 en Ontmantel alle overige Exchange 2010-servers.
+- (**Aanbevolen**) Als u uw postvakken hebt gemigreerd naar Microsoft 365 en uw servers upgraden naar Microsoft 13 oktober 2020, kunt u Exchange 2010 gebruiken om verbinding te maken met Microsoft 365 en postvakken te migreren. Migreer daarna Exchange 2010 naar Exchange 2016 en Ontmantel alle overige Exchange 2010-servers.
 - Als u de migratie van postvakken en on-premises servers niet kunt voltooien vóór 13 oktober 2020, voert u eerst een upgrade van uw on-premises Exchange 2010-servers uit naar Exchange 2016 en vervolgens gebruikt u Exchange 2016 om verbinding te maken met Microsoft 365 en postvakken te migreren.
 
 > [!NOTE]
@@ -65,7 +64,7 @@ In de volgende secties wordt elke optie uitvoerig besproken.
 
 Het migreren van e-mail naar Microsoft 365 is de beste en eenvoudigste optie om u te helpen bij het buiten gebruik stellen van uw implementatie van Exchange 2010. Met een migratie naar Microsoft 365 kunt u één hop maken van de oude technologie naar de functies van de geavanceerde functies, zoals:
 
-- Nalevings mogelijkheden zoals bewaarbeleid, in-place bewaring en het bewaren van in-place eDiscovery en meer.
+- Nalevings mogelijkheden zoals bewaarbeleid, In-Place en de bewaring in-place eDiscovery en meer.
 - Microsoft Teams
 - Power BI
 - Postvak in met prioriteit

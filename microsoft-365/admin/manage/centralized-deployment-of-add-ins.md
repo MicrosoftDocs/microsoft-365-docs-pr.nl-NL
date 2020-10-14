@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw Tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie kunt gebruiken om Office-invoegtoepassingen te implementeren.
-ms.openlocfilehash: c3e306789f5b1c09e835d8d2c5ebea668bf14874
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: c89cb801a5b2fcad87227feaf4228b0dcabcf609
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235416"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464048"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie
 
@@ -46,7 +46,7 @@ Het kan maximaal 24 uur duren voordat een invoegtoepassing aan alle gebruikers w
 ## <a name="requirements"></a>Vereisten
 
 Gecentraliseerde implementatie van invoegtoepassingen vereist dat de gebruikers Microsoft 365-apps voor Enterprise of Microsoft 365 Business Premium (en zijn aangemeld bij Office met hun organisatie-ID), en de postvakken van Exchange Online en Active Exchange Online hebben. Uw abonnements gids moet zijn aangemeld of federatief zijn voor Azure Active Directory.
-U kunt de specifieke vereisten voor Office en Exchange bekijken of de[compatibiliteitscontrole voor gecentraliseerde implementatie](#centralized-deployment-compatibility-checker)gebruiken.
+U kunt de specifieke vereisten voor Office en Exchange bekijken of de [compatibiliteitscontrole voor gecentraliseerde implementatie](#centralized-deployment-compatibility-checker)gebruiken.
 
 Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
   
@@ -134,7 +134,8 @@ Als het hulpprogramma is uitgevoerd, wordt een uitvoerbestand gegenereerd in een
     
 - Ondersteund postvak (als er een OAuth-postvak wordt gebruikt)
 
-
+> [!NOTE]
+> Meervoudige verificatie wordt niet ondersteund wanneer u de PowerShell-module van de centrale implementatie gebruikt.
   
 ## <a name="user-and-group-assignments"></a>Toewijzingen van gebruikers en groepen
 
@@ -171,4 +172,3 @@ Als u of uw gebruikers problemen ondervinden bij het laden van de invoegtoepassi
 |Office  <br/> | Charles/Fiddler-logboeken  <br/>  Tenant-ID ( [meer informatie over hoe](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id.aspx))  <br/>  39379. Geef de bron van een van de Office-pagina's weer en zoek de waarde van de correlatie-ID en verzend deze naar ondersteuning:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Uitgebreide clients (Windows, Mac)  <br/> | Charles/Fiddler-logboeken  <br/>  Bouw nummers van de client-app (bij voorkeur als een schermafbeelding van **bestand/account**)  <br/> |
    
-

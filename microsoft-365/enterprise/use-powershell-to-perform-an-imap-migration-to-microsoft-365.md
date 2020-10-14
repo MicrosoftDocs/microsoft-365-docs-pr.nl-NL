@@ -1,5 +1,5 @@
 ---
-title: PowerShell gebruiken om een IMAP-migratie uit te voeren naar Microsoft 365
+title: PowerShell gebruiken om een IMAP-migratie naar Microsoft 365 uit te voeren
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,14 +16,14 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
 description: Informatie over het gebruik van PowerShell voor het uitvoeren van een IMAP-migratie (Internet mail Access Protocol) naar Microsoft 365.
-ms.openlocfilehash: 6eb422455d0bdf31fa1859bd0231b68e5568748c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 67621ecfca7ec323a73b91a530f848dd7571f9b2
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689368"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464442"
 ---
-# <a name="use-powershell-to-perform-an-imap-migration-to-microsoft-365"></a>PowerShell gebruiken om een IMAP-migratie uit te voeren naar Microsoft 365
+# <a name="use-powershell-to-perform-an-imap-migration-to-microsoft-365"></a>PowerShell gebruiken om een IMAP-migratie naar Microsoft 365 uit te voeren
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
@@ -103,7 +103,7 @@ Naast de gebruikersnaam van het kenmerk **username** , kunt u de referenties van
   
  **Microsoft Exchange:**
   
-Als u e-mail vanaf de IMAP-implementatie voor Microsoft Exchange migreert, gebruikt u de notatie **Domain/Admin_UserName/User_UserName** voor het **UserName** -kenmerk in het CSV-bestand. Stel dat u e-mail migreert van Exchange voor Terry Adams, Ann Beebe en Paul Cannon. U een e-mail beheerder account hebt, waarbij de gebruikersnaam e **-beheerder is en het** wachtwoord is **P@ssw0rd**. Het CSV-bestand ziet er dan als volgt uit:
+Als u e-mail vanaf de IMAP-implementatie voor Microsoft Exchange migreert, gebruikt u de notatie **Domain/Admin_UserName/User_UserName** voor het **UserName** -kenmerk in het CSV-bestand. Stel dat u e-mail migreert van Exchange voor Terry Adams, Ann Beebe en Paul Cannon. U hebt een e-mail beheerder account, waarbij de gebruikersnaam e **-beheerder is en het** wachtwoord **P \@ ssw0rd**. Het CSV-bestand ziet er dan als volgt uit:
   
 ```powershell
 EmailAddress,UserName,Password
@@ -114,7 +114,7 @@ paulc@contoso.edu,contoso-students/mailadmin/paul.cannon,P@ssw0rd
 
  **Dovecot**
   
-Voor IMAP-servers die ondersteuning bieden voor eenvoudige verificatie en beveiligingslagen (SASL), zoals een dovecot-IMAP-server, gebruikt u de notatie **User_UserName * Admin_UserName**, waarbij het sterretje (*) een te configureren scheidingsteken is. Stel dat u de e-mail van dezelfde gebruiker migreert vanaf een IMAP-server van dovecot met behulp van de beheerdersreferenties voor e-mail **beheerders** en **P@ssw0rd**. Het CSV-bestand ziet er dan als volgt uit:
+Voor IMAP-servers die ondersteuning bieden voor eenvoudige verificatie en beveiligingslagen (SASL), zoals een dovecot-IMAP-server, gebruikt u de notatie **User_UserName * Admin_UserName**, waarbij het sterretje (*) een te configureren scheidingsteken is. Stel dat u de e-mail van deze gebruikers migreert van een IMAP-server van dovecot met behulp van de beheerdersreferenties **mailadmin** en **P \@ ssw0rd**. Het CSV-bestand ziet er dan als volgt uit:
   
 ```powershell
 EmailAddress,UserName,Password
@@ -125,7 +125,7 @@ paulc@contoso.edu,paul.cannon*mailadmin,P@ssw0rd
 
  **Mirapoint**
   
-Als u e-mail migreert van Mirapoint Message Server, gebruikt u de notatie **#user@domain#Admin_UserName#** voor de beheerdersreferenties. Als u e-mail wilt migreren van Mirapoint met behulp van de beheerder inloggegevens **mailadmin** en **P@ssw0rd**, ziet uw CSV-bestand er als volgt uit:
+Als u e-mail migreert van Mirapoint bericht server, gebruikt u de indeling **#user \@ domein # Admin_UserName #** voor de beheerdersreferenties. Als u e-mail wilt migreren van Mirapoint met behulp van de beheerdersreferenties **mailadmin** en **P \@ SSW0RD**, ziet het CSV-bestand er als volgt uit:
   
 ```powershell
 EmailAddress,UserName,Password

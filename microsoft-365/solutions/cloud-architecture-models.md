@@ -12,12 +12,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 355d933c98bba284302c94e0dc9f54ba7ca52762
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9988a822880db43feebb6ef007c39bd59c5ce6c7
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446509"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464454"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Microsoft Cloud voor Enterprise Architects
 
@@ -59,7 +59,7 @@ In deze reeks onderwerpen worden diverse Architecture benaderingen getoond voor 
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Miniatuurafbeelding van de poster Logische architectuur van Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Update van juli 2019    |Dit model bevat: <ul><li>Een toewijzing van bedrijfsscenario's aan architectuur methoden</li><li>Ontwerpoverwegingen</li><li>Migratie stroom voor eenmalige gebeurtenissen</li><li>Gefaseerde migratie stroom</li><li>Verplaatsen van een Tenant of een gesplitste stroom</li></ul>|
+|[![Miniatuurafbeelding van de poster Logische architectuur van Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Update van oktober 2020    |Dit model bevat: <ul><li>Een toewijzing van bedrijfsscenario's aan architectuur methoden</li><li>Ontwerpoverwegingen</li><li>Voorbeeld van migratie stroom voor enkele gebeurtenissen</li><li>Voorbeeld van een gefaseerde migratie stroom</li><li>Voorbeeld van een Tenant verplaatsen of gesplitste stroom</li></ul>|
 
 <a name="security"></a>
 ### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft Cloud-beveiliging voor Enterprise-architecten

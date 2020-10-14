@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: Dit artikel bevat bronnen voor gebruikers die Office 2007 of Office 2010 gebruiken om hun upgrade te helpen plannen.
-ms.openlocfilehash: 0b137b39d671b9746445f9e41a5859732574dbe4
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: 257f66ab2f542f18c0a1eb2d503e0bf87e13d184
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384561"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464418"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>De upgrade van Office 2007 of Office 2010-servers en-clients plannen
 
@@ -29,7 +29,7 @@ ms.locfileid: "48384561"
 
 Als uw organisatie gebruikmaakt van oudere versies van Office-producten en-servers, is dit een prima moment om te beginnen met het plannen van de upgrade. Office 2007-producten en-services hebben hun [einde van de ondersteuning](upgrade-from-office-2007-servers-and-products.md)bereikt. Voor Office 2010-producten en-services:
 
-- Office 2010 en Exchange 2010 krijgen hun einde van de ondersteuning op **13 oktober 2020**. 
+- Office 2010 en Exchange 2010 bereiken hun einde van de ondersteuning op **13 oktober 2020**. 
 - SharePoint 2010 en Project Server 2010 krijgen hun einde van de ondersteuning op **13 April 2021**. 
 
 Zie [upgraden van Office 2010-servers en-clients](upgrade-from-office-2010-servers-and-products.md)voor meer informatie.

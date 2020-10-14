@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Uitleg over het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
-ms.openlocfilehash: c5d60753e84cb55dc088b79f90fe841b50da1836
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 98d5e9463dedda96c02ed7c3ed80576638941816
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338591"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464226"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen 
 
@@ -54,8 +54,6 @@ Documentbegripmodellen worden gemaakt en beheerd in een SharePoint-inhoudscentru
 Formulierverwerkingsmodellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van de modellen wordt rechtstreeks vanuit een SharePoint-documentbibliotheek gestart. Het maken van formulierverwerkingsmodellen moet worden ingeschakeld in uw documentbibliotheek om het gebruikers mogelijk te maken een formulierverwerkingsmodel te maken. Een beheerder kan dit doen in de beheerdersinstellingen voor inhoudsbegrip. Formulierverwerkingsmodellen gebruiken Power Automate-stromen om bestanden te verwerken wanneer die worden geüpload naar de documentbibliotheek.
 
 Wanneer u een documentbegripmodel maakt, maakt u een nieuw [SharePoint-inhoudstype](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978) dat wordt opgeslagen in de SharePoint-inhoudstypengalerie. U kunt ook bestaande inhoudstypen gebruiken om het model te definiëren.
-
-Formulierverwerkingsmodellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van de modellen wordt rechtstreeks vanuit een SharePoint-documentbibliotheek gestart. Het maken van formulierverwerkingsmodellen moet worden ingeschakeld in uw documentbibliotheek om het gebruikers mogelijk te maken een formulierverwerkingsmodel te maken. Een beheerder kan dit ook doen in de beheerdersinstellingen voor inhoudsbegrip. Formulierverwerkingsmodellen gebruiken Power Automate-stromen om bestanden te verwerken wanneer die worden geüpload naar de documentbibliotheek.
 
 Formulierverwerkingsmodellen maken ook nieuwe [SharePoint-inhoudstypen](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978)en worden ook opgeslagen in de SharePoint-inhoudstypegalerie.
 

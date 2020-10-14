@@ -16,12 +16,14 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 1ad8f643741626c4cbb8534b4ed5ed7591010fe0
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+- m365solution-identitydevice
+- m365solution-scenario
+ms.openlocfilehash: 28d4fc196e75a1a7a27cbe2a0f6804646002354f
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399640"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464072"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -284,7 +286,7 @@ De volgende instellingen worden aanbevolen voor Pc's met Windows 10 en latere ve
 
 Zie de volgende tabel voor meer informatie over de statuswaarden van de apparaatstatusverklaring- **Service >**.
 
-|Eigenschappen|Value|Actierij|
+|Eigenschappen|Waarde|Actierij|
 |:---------|:-----|:----|
 |BitLocker vereisen|Dient| Kiest |
 |Het veilig opstarten moet zijn ingeschakeld op het apparaat|Dient| Kiest |
@@ -297,7 +299,7 @@ Voor **naleving van Configuration Manager**selecteert u **vereisen**.
 
 Zie de volgende tabel voor meer informatie over **systeembeveiliging**.
 
-|Type|Eigenschappen|Value|Actierij|
+|Type|Eigenschappen|Waarde|Actierij|
 |:---|:---------|:-----|:----|
 |Wachtwoord|Een wachtwoord vereisen om mobiele apparaten te ontgrendelen|Dient| Kiest |
 ||Eenvoudige wachtwoorden|Blokkeren|Kiest|
@@ -319,7 +321,7 @@ Zie de volgende tabel voor meer informatie over **systeembeveiliging**.
 
 **Microsoft Defender ATP**
 
-|Type|Eigenschappen|Value|Actierij|
+|Type|Eigenschappen|Waarde|Actierij|
 |:---|:---------|:-----|:----|
 |Regels voor Geavanceerd Bedreigingsbeveiliging voor Microsoft Defender|Het apparaat moet zich op of onder de risicoscore voor de machine bevinden|Medium|Kiest|
 |||||
