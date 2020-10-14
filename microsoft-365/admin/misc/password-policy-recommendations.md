@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Lees hoe u uw organisatie beter kunt beveiligen tegen wachtwoordaanvallen en waarom u veelgebruikte wachtwoorden moet verbieden en op risico gebaseerde meervoudige verificatie moet inschakelen.
-ms.openlocfilehash: 0ae26dc27cc698c24d999acde03f63f9cfead081
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 0bfbeac6fb8069e846ddad3c5b618687ba3c2260
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131940"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456316"
 ---
 # <a name="password-policy-recommendations"></a>Aanbevelingen voor wachtwoordbeleid
 
@@ -102,7 +102,7 @@ Hier volgen enkele aanbevelingen voor het aanmoedigen van wachtwoorddiversiteit.
   
 ### <a name="ban-common-passwords"></a>Verbied algemene wachtwoorden
 
-De belangrijkste wachtwoordvereiste die u uw gebruikers moet opleggen wanneer ze wachtwoorden bedenken, is het gebruik van algemene wachtwoorden te verbieden om uw organisatie zo min mogelijk bloot te stellen aan wrede wachtwoordaanvallen. Algemene gebruikerswachtwoorden zijn onder meer **abcdefg**, **wachtwoord** en **aap**.
+De belangrijkste wachtwoordvereiste die u uw gebruikers moet opleggen wanneer ze wachtwoorden bedenken, is het gebruik van algemene wachtwoorden te verbieden om uw organisatie zo min mogelijk bloot te stellen aan beveiligingsaanvallen via wachtwoorden. Algemene gebruikerswachtwoorden zijn onder meer **abcdefg**, **wachtwoord** en **aap**.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>Vertel gebruikers organisatiewachtwoorden nergens anders te hergebruiken
 

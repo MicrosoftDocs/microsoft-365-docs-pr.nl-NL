@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. Zo kan de servicebeheerder bijvoorbeeld supporttickets openen via het Beheercentrum.
-ms.openlocfilehash: 35fee24a2e9de6c00f37e93c59851b7e760baa19
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 5ee8f5732d67ee3913ac7de5bcb7328065b0c8ba
+ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131780"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48445461"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -77,7 +77,7 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 |Groepsbeheerder     |   Wijs de groepsbeheerdersrol toe aan gebruikers die alle groepsinstellingen in alle beheercentra moeten beheren, inclusief het Microsoft 365-Beheercentrum en de Azure Active Directory-Portal. <br><br> Groepsbeheerders kunnen het volgende doen:<br> - Microsoft 365-groepen maken, bewerken, verwijderen en herstellen <br> - Beleid voor het maken, verlopen en benoemen van groepen maken en bijwerken <br> - Azure Active Directory-beveiligingsgroepen maken, bewerken, verwijderen en herstellen| 
 |Helpdesk-beheerder     |   Wijs de beheerdersrol Helpdesk toe aan gebruikers die de volgende taken moeten uitvoeren:<br> - Wachtwoorden opnieuw instellen <br> - Gebruikers dwingen zich af te melden <br> - Serviceaanvragen beheren <br> - De servicestatus bewaken <br> <br> **Opmerking**: de Helpdesk-beheerder kan alleen niet-beheerders helpen en gebruikers die deze rollen hebben toegewezen: Directory-lezer, Gast-invite, Helpdesk-beheerder, Berichtencentrum-lezer en Rapportlezer.      |
 |Office-apps beheerder    |   Wijs de beheerdersrol Office Apps toe aan gebruikers die de volgende taken moeten uitvoeren: <br> - Gebruik de Office-cloudbeleidservice om cloudgebaseerd beleid voor Office te maken en te beheren <br> - Serviceaanvragen maken en beheren <br> - Inhoud over nieuwe functies beheren die gebruikers in hun Office-apps zien   <br> - De servicestatus bewaken  |
-|Servicebeheerder    |   Wijs de service-beheerdersrol als een extra rol toe aan beheerders of gebruikers wiens rol niet het volgende omvat, maar die nog steeds het volgende moeten doen: <br> - Serviceaanvragen openen en beheren <br> - Berichten in het berichtencentrum bekijken en delen   |
+|Serviceondersteuningsbeheer   |   Wijs de rol Serviceondersteuningsbeheer als een extra rol toe aan beheerders of gebruikers van wie de rol het volgende niet omvat maar wat ze wel moeten kunnen doen: <br> - Serviceaanvragen openen en beheren <br> - Berichten in het berichtencentrum bekijken en delen   |
 |SharePoint-beheerder    |   Wijs de SharePoint-beheerdersrol toe aan gebruikers die het SharePoint Online-beheercentrum moeten openen en beheren. <br><br>SharePoint-beheerders kunnen ook het volgende doen: <br> - Sites maken en verwijderen <br> - Siteverzamelingen en wereldwijde SharePoint-instellingen beheren   |
 |Teams-servicebeheerder    |   Wijs de rol Teams-servicebeheerder toe aan gebruikers die het Teams-beheercentrum moeten openen en beheren. <br><br>Teams-servicebeheerders kunnen ook: <br> - Vergaderingen beheren <br> - Vergaderbruggen beheren <br> - Alle organisatiebrede instellingen beheren, inclusief federatie, Teams-upgrade en Teams-clientinstellingen   |
 |Gebruikersbeheerder     |    Wijs de beheerdersrol Gebruikers toe aan gebruikers die de voor alle gebruikers de volgende taken moeten uitvoeren: <br> - Gebruikers en groepen toevoegen <br> - Licenties toewijzen <br> - De meeste gebruikerseigenschappen beheren <br> - Gebruikersweergaven maken en beheren <br> - Verloopbeleid voor wachtwoorden bijwerken <br> - Serviceaanvragen beheren <br> - De servicestatus bewaken <br><br>  De gebruikersbeheerder kan ook de volgende acties uitvoeren voor gebruikers die geen beheerders zijn en voor gebruikers die de volgende rollen hebben gekregen: adreslijst lezer, gast invite, helpdesk-beheerder, Message Center Reader, rapportlezer: <br> - Gebruikersnamen beheren<br> - Gebruikers verwijderen en herstellen<br> - Wachtwoorden opnieuw instellen <br> - Gebruikers dwingen zich af te melden <br> - Apparaatsleutels bijwerken (FIDO)   |
