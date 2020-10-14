@@ -23,18 +23,18 @@ f1.keywords:
 - NOCSH
 description: Start de planning van de upgrade van Office 2010-servers en-clienttoepassingen, omdat ondersteuning binnenkort wordt beëindigd en aangepaste ondersteuningsovereenkomsten niet beschikbaar zijn.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d45075431e23bf3aae0b6052b1db708e704134f
-ms.sourcegitcommit: 11d1044c6600b1f568b6dc8a53db9b07f2f0ad1c
+ms.openlocfilehash: 879aae71f703d8a26b3d6e640eff6d30a81febac
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48384850"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456349"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2010-servers-and-clients"></a>Bronnen om u te helpen bij het upgraden van Office 2010-servers en-clients
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Office 2010 en Exchange 2010 krijgen hun einde van de ondersteuning op **13 oktober 2020**.
+Office 2010 en Exchange 2010 bereiken hun einde van de ondersteuning op **13 oktober 2020**.
 
 SharePoint 2010 en Project Server 2010 krijgen hun einde van de ondersteuning op **13 April 2021**.
 

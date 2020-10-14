@@ -20,18 +20,18 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Meer informatie over hoe u uw gebruikers kunt upgraden naar de nieuwste Office-client.
-ms.openlocfilehash: 7cddf1554a5892ddac510fc77238529194c1a2a0
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 40160dc5590144a1132971368da70c6f36ed460c
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545726"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456317"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Uw Microsoft 365 voor bedrijven-gebruikers upgraden naar de meest recente Office-client
 
 ## <a name="office-2010-reaches-end-of-support"></a>Office 2010 bereikt End-of-support
 
-Office 2010 zal zijn of haar einde van de ondersteuning bereiken op 13 oktober 2020. Wanneer Office 2010 het einde van de ondersteuning bereikt, biedt Microsoft niet langer het volgende:
+Office 2010 heeft een einde van de ondersteuning bereikt op 13 oktober 2020. Microsoft biedt niet langer het volgende:
 
 - Technische ondersteuning voor problemen
 
@@ -39,7 +39,7 @@ Office 2010 zal zijn of haar einde van de ondersteuning bereiken op 13 oktober 2
 
 - Beveiligingscorrecties voor ontdekte beveiligingsproblemen
 
-Zie [Office 2010 end of support routekaart](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap) voor meer informatie.
+Zie [Office 2010 end of support routekaart](https://docs.microsoft.com/deployoffice/endofsupport/office-2010-end-support-roadmap) voor meer informatie.
 
  **Is dit het juiste onderwerp voor u?**
   
@@ -57,7 +57,7 @@ Gebruik de onderstaande stappen om voor uw gebruikers een upgrade uit te voeren 
   
 ## <a name="step-1---check-system-requirements"></a>Stap 1: systeemvereisten controleren
 
-[Controleer de systeemvereisten](https://products.office.com/office-system-requirements) voor Office om na te gaan of uw apparaten compatibel zijn met de nieuwste versie van Office. U kunt bijvoorbeeld geen nieuwere versies van Office installeren op computers met Windows XP of Windows Vista.
+[Controleer de systeemvereisten](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources) voor Office om na te gaan of uw apparaten compatibel zijn met de nieuwste versie van Office. U kunt bijvoorbeeld geen nieuwere versies van Office installeren op computers met Windows XP of Windows Vista.
   
 > [!TIP]
 > Als u gebruikers in uw organisatie met oudere versies van Windows op hun Pc's of laptops gebruikt, is het raadzaam om een upgrade uit te voeren naar Windows 10. Windows 7 heeft einde van de ondersteuning bereikt. Lees [ondersteuning voor Windows 7 eindigt in januari 2020](https://www.microsoft.com/microsoft-365/windows/end-of-windows-7-support?rtc=1) voor meer informatie.

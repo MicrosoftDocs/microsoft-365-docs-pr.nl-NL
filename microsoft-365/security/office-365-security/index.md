@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Beveiliging in Office 365, van EOP tot ATP-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties, en nog veel meer. Begrijpt wat u hebt en hoe u uw eigenschappen kunt beveiligen.
-ms.openlocfilehash: 94fce99d029d21524bc60af4622fda7ee38980e7
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 256a24a7816a40e1bd60c687a875f84e605f5208
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430690"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456469"
 ---
 # <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
 
@@ -88,7 +88,7 @@ beginnen met **Exchange Online Protection**:
 |---------|---------|---------|
 | Technologieën zijn:<ul><li>spam</li><li>Phish</li><li>malware</li><li>massale e-mail</li><li>spoof informatie</li><li>imitatie detectie</li><li>Beheerquarantaine</li><li>Beheerders en gebruikers inzendingen van onjuiste positieve en onjuiste negatieven</li><li>Toestaan/blokkeren voor Url's en bestanden</li><li>Rapporten</li></u1>|<li>Zoeken in audit logboek</li><li>Bericht traceren</li>|<li>Automatische opschooning van Zero-Hour (ZAP)</li><li>Verfijning en testen van de acceptatie-en blok lijsten</li>|
 
-Als u de EOP wilt zien, gaat u **[naar dit artikel](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-21vianet&branch=tp_EOPOverview)**.
+Als u de EOP wilt zien, gaat u **[naar dit artikel](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide#:~:text=Exchange%20Online%20Protection%20%28EOP%29%20is%20the%20cloud-based%20filtering,is%20also%20available%20in%20the%20following%20on-premises%20scenarios%3A)**.
 
 Omdat deze producten cumulatief zijn en u een abonnement op deze producten evalueert, voegt u deze mogelijkheden toe.
 

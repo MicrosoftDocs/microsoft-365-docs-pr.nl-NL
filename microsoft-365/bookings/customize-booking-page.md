@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 116d7a84-a7a0-4911-a1e9-debb2cca7c43
 description: Wijzig het kleurenthema van uw reserverings pagina in de app Microsoft bookings.
-ms.openlocfilehash: b33be0cb71998d45e50a66f89f98daa4af175865
-ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
+ms.openlocfilehash: c930c06300a83ee17f1efdaaf42761ddfdebdd7b
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962511"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456373"
 ---
 # <a name="customize-and-publish-your-booking-page"></a>Uw reserverings pagina aanpassen en publiceren
 
@@ -36,21 +36,21 @@ In de sectie hieronder vindt u informatie over het instellen van uw boekings pag
 
 - **Toegangsbeheer voor boekings pagina: een Microsoft 365-account voor de boek**  Als u deze optie selecteert, kunnen de personen in uw organisatie de gewenste services niet weergeven. Toegang tot de pagina wordt geautoriseerd via Credential checks om ervoor te zorgen dat de gebruiker lid is van een account binnen de Tenant.
 
-- **Toegangsbeheer voor boekings pagina: het indexeren van de boekings pagina voor direct zoeken uitschakelen** Als u deze instelling inschakelt, wordt uw pagina niet weergegeven in de zoekresultaten voor Google, Bing of andere zoekprogramma's. Als u dit selectievakje uitschakelt, kan de pagina alleen worden geopend met de koppeling naar de gegenereerde pagina.
+- **Toegangsbeheer voor boekings pagina: het indexeren van de boekings pagina voor direct zoeken uitschakelen** Als u deze instelling inschakelt, wordt uw pagina niet weergegeven in de zoekresultaten voor Google, Bing of andere zoekprogramma's. Als u dit selectievakje inschakelt, krijgt u de mogelijkheid om de pagina te openen met de koppeling naar de gegenereerde pagina.
 
-- **Toestemming voor klant datagebruik** Wanneer deze optie is geselecteerd, wordt de tekst die de gebruiker of de klant toestemming vraagt om de gegevens te gebruiken, weergegeven op de pagina selfservice. Als u de boeking wilt voltooien, moet het vak door de gebruiker zijn gecontroleerd.
+- **Toestemming voor klant datagebruik** Wanneer deze optie is ingeschakeld, wordt de gebruiker of de klant toestemming gegeven om de gegevens op de pagina Self-Service te gebruiken. Als u de boeking wilt voltooien, moet het vak door de gebruiker zijn gecontroleerd.
 
 - Het **plannen van beleid**, **e-mail meldingen**en **personeelsleden** deze instellingen zijn vergelijkbaar met de instellingen voor de services op het tabblad Services.
 
 - **Beschikbaarheid** Dit is een optie voor het instellen van specifieke tijds-en datumbereikwaarden voor een service. Anders zijn reserveringen in uw kantooruren standaard. U kunt hier de optie **beschikbaarheid** gebruiken voor scenario's, zoals feestdagen of langere uren.
 
-- **De pagina aanpassen** Kies kleuren en logo's die worden weergegeven op de selfservice pagina, zoals voor merk consistentie.
+- **De pagina aanpassen** Kies kleuren en logo's die worden weergegeven op de pagina Self-Service, bijvoorbeeld voor merk consistentie.
 
-- **Instellingen voor regio en tijdzone** Hier kunt u voorkeuren voor uw tijdzone en taal instellen voor de selfservice pagina. U wordt aangeraden uw lokale tijdzone in te stellen. Voor bezoekers van uw Self-service pagina worden de lokale tijdzones automatisch gedetecteerd en worden deze in hun eigen tijdzones weergegeven. Als een afspraak bijvoorbeeld beschikbaar is op 1:17.00 uur PST, ziet iemand in CST de beschikbare tijd die wordt weergegeven als 3:17.00 uur CST.
+- **Instellingen voor regio en tijdzone** Hier kunt u voorkeuren voor uw tijdzone en taal instellen voor de pagina Self-Service. U wordt aangeraden uw lokale tijdzone in te stellen. Voor bezoekers van uw Self-Service-pagina worden de lokale tijdzones automatisch gedetecteerd en worden deze in hun eigen tijdzones weergegeven. Als een afspraak bijvoorbeeld beschikbaar is op 1:17.00 uur PST, ziet iemand in CST de beschikbare tijd die wordt weergegeven als 3:17.00 uur CST.
 
-Wanneer u de reserverings pagina hebt gepubliceerd, wordt in klanten de reserverings pagina weergegeven waar ze afspraken met u kunnen boeken. De klant voor de reservering pag ziet er als volgt uit:
+Wanneer u de reserverings pagina hebt gepubliceerd, wordt in klanten de reserverings pagina weergegeven waar ze afspraken met u kunnen boeken. De boekings pagina voor customer facing ziet er als volgt uit:
 
-:::image type="content" source="media/bookings-self-service.jpg" alt-text="Boekings pagina voor klant Facing":::
+:::image type="content" source="media/bookings-self-service.jpg" alt-text="De pagina Bookings":::
 
 ## <a name="publish-the-booking-page"></a>De reserveringspagina publiceren
 
@@ -70,4 +70,4 @@ Bekijk deze video of volg de onderstaande stappen om de boekings pagina te publi
 
 ## <a name="unpublish-the-booking-page"></a>De publicatie van de boekingspagina ongedaan maken
 
-1. Als u de boekings pagina wilt publiceren, gaat u naar de boekings pagina en selecteert u **publicatie ongedaan**maken.
+ - Als u de boekings pagina wilt publiceren, gaat u naar de boekings pagina en selecteert u **publicatie ongedaan**maken.

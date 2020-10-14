@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-- M365initiative-CoreDeploy
+- m365initiative-coredeploy
 description: Overzicht van netwerkverbindingen in het Microsoft 365-Beheercentrum (preview)
-ms.openlocfilehash: d3ca55a4d8357d10b79bd8e87ddc3350efa2845e
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: fcc70f7c76b92ecf113158cdac8eecdfb9852351
+ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326875"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456421"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Netwerkverbinding in het Microsoft 365-Beheercentrum (preview)
 
@@ -53,7 +53,7 @@ Windows-locatie service moet zijn doorgestuurd op de computers. U kunt dit teste
 
 U hoeft geen locaties in het Beheercentrum toe te voegen, zoals ze automatisch worden aangeduid met de resolutie van stad. U kunt niet meerdere Office-locaties binnen een stad weergeven met behulp van Windows-locatie Services. Locatie-informatie wordt ook afgerond op de dichtstbijzijnde 300 meter door 300 meters voordat deze worden geüpload, zodat het niet mogelijk is om meer informatie over de locatie te krijgen.
 
-De computers moeten Wi-Fi-netwerken hebben in plaats van een Ethernet-kabel. Machines met een Ethernet-kabel hebben geen nauwkeurige informatie over de locatie.
+De computers moeten Wi-Fi netwerk hebben in plaats van een Ethernet-kabel. Machines met een Ethernet-kabel hebben geen nauwkeurige informatie over de locatie.
 
 De maat monsters en de kantoorlocaties moeten 24 uur worden weergegeven nadat aan deze vereisten is voldaan.
 
