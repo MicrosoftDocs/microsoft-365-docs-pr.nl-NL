@@ -250,6 +250,8 @@
           href: how-dlp-works-between-admin-centers.md
         - name: Vertrouwelijkheidslabels gebruiken als voorwaarde in DLP-beleid (preview)
           href: dlp-sensitivity-label-as-condition.md
+        - name: Beleid voor preventie van gegevensverlies gebruiken voor cloud-apps die niet van Microsoft afkomstig zijn
+          href: dlp-use-policies-non-microsoft-cloud-apps.md
 - name: Gegevensbeheer beheren
   items:
     - name: Uw gegevens beheren
