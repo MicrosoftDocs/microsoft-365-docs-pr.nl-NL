@@ -19,16 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Meer informatie over het beheren van Microsoft 365 groepen, waaronder het toevoegen van groepsleden, het bewerken van het e-mailadres, de naam van de groep of beschrijving en het aanpassen van de werking van de groep.
-ms.openlocfilehash: 29eaa762116498799d4156b58c8f9bf466f04073
-ms.sourcegitcommit: e87015bf29ad15688137c785d93f2c79ca3208f4
+ms.openlocfilehash: 7cc9bc6eb79b305c7d20d8075b6dc287e4f8b5d7
+ms.sourcegitcommit: 88c2461b14cd16f74979f4bcd0a9ad18e4422cb3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48343269"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469707"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Een groep beheren in het Microsoft 365-Beheercentrum
 
-Nadat u [een Microsoft 365-groep hebt gemaakt](create-groups.md) en groepsleden hebt toegevoegd, kunt u uw groep configureren. U kunt de groepsnaam of beschrijving bewerken, eigenaren en leden beheren en opgeven of externe afzenders de groep kunnen e-mailen en of ze kopieën van groepsgesprekken naar leden kunnen verzenden. 
+Nadat u [een Microsoft 365-groep hebt gemaakt](create-groups.md) en groepsleden hebt toegevoegd, kunt u uw groep configureren. U kunt de groepsnaam of beschrijving bewerken, eigenaren en leden beheren en opgeven of externe afzenders de groep kunnen e-mailen en of ze kopieën van groepsgesprekken naar leden kunnen verzenden.
+
+Ga naar het Microsoft 365-Beheercentrum [https://admin.microsoft.com](https://admin.microsoft.com) .
 
 ## <a name="edit-the-group-name-or-description"></a>De naam of beschrijving van de groep bewerken
 
@@ -122,7 +124,7 @@ Groepsleden kunnen zich afmelden voor het ontvangen van deze e-mailberichten doo
 
 3. Selecteer op het tabblad **instellingen** de optie **kopieën van groepsgesprekken en gebeurtenissen verzenden naar groepsleden** als u wilt dat leden kopieën van groeps berichten en agenda-items in hun eigen postvak in ontvangen.
 
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
 ::: moniker-end
 
@@ -134,7 +136,7 @@ Groepsleden kunnen zich afmelden voor het ontvangen van deze e-mailberichten doo
 
 3. Schakel **kopieën van groepsgesprekken en gebeurtenissen verzenden naar de optie Postvak in van de groep leden** in **op aan** als u wilt dat leden kopieën van groeps berichten en agenda-items in hun eigen postvak in ontvangen.
 
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
 ::: moniker-end
 
@@ -146,7 +148,7 @@ Groepsleden kunnen zich afmelden voor het ontvangen van deze e-mailberichten doo
 
 3. Schakel **kopieën van groepsgesprekken en gebeurtenissen verzenden naar de optie Postvak in van de groep leden** in **op aan** als u wilt dat leden kopieën van groeps berichten en agenda-items in hun eigen postvak in ontvangen.
 
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
 ::: moniker-end
 
@@ -162,7 +164,7 @@ Deze optie is handig als u een zakelijk e-mailadres wilt hebben, bijvoorbeeld in
 
 3. Selecteer in de lijstbeheer centrum groepen de naam van de groep die u wilt wijzigen en selecteer vervolgens op het tabblad **instellingen** de optie **externe afzenders toestaan om deze groep te e-mailen**.
     
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
 ::: moniker-end
 
@@ -174,7 +176,7 @@ Deze optie is handig als u een zakelijk e-mailadres wilt hebben, bijvoorbeeld in
     
 3. Stel de wisselknop **Toestaan dat personen buiten de organisatie e-mail sturen naar de groep** in op **Aan**.
     
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
 ::: moniker-end
 
@@ -186,7 +188,7 @@ Deze optie is handig als u een zakelijk e-mailadres wilt hebben, bijvoorbeeld in
     
 3. Stel de wisselknop **Toestaan dat personen buiten de organisatie e-mail sturen naar de groep** in op **Aan**.
     
-4. Selecteer **Opslaan**.
+4. Kies **Opslaan**.
 
 ::: moniker-end
 
