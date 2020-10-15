@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, abonnementen en implementatie paden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: fa076517b071efbe3a5002d6a48418a796e38ca4
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 53cc91a2b5e756fcf4ec8fcc5371795bcfb8342c
+ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327471"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48464346"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -87,7 +87,7 @@ U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-3
 
 [Windows 7](https://aka.ms/win7upgrade) heeft het einde van de ondersteuning bereikt op **14 januari 2020**.
 
-Deze productenbereiken het einde van ondersteuning op **13 oktober 2020**:
+Voor deze producten wordt de ondersteuning beëindigd op **13 oktober 2020**:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](exchange-2010-end-of-support.md)
