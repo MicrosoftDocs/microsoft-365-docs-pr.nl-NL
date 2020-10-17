@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 4ec46891248c09f580b19d888573544ad2b4930f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: f49f1afe5461a4f2eff0a3049f1d14d1892f70ce
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446865"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477018"
 ---
 # <a name="run-your-pilot-microsoft-threat-protection-project"></a>Voer uw proefproject voor Microsoft Threat Protection uit. 
 
@@ -41,6 +41,16 @@ Als u de voordelen en aanneming van Microsoft Threat Protection (MTP) daadwerkel
 ## <a name="how-to-use-this-pilot-playbook"></a>Het gebruik van deze pilot-Playbook
 
 Deze handleiding biedt een overzicht van Microsoft Threat Protection en stapsgewijze instructies voor het instellen van uw proefproject. 
+
+Microsoft Threat Protection is een geïntegreerde pre-en-update voor Enterprise defensie waarmee de bescherming, detectie, preventie, onderzoek en reactie op eindpunten, identiteiten, e-mailberichten en toepassingen kunnen worden geïntegreerd tegen geavanceerde aanvallen. Dit houdt in dat u de volgende mogelijkheden combineert en vasthoudt in één beveiligingsoplossing:
+  - Microsoft Defender for Endpoint, de nieuwe naam voor Microsoft Defender Advanced Threat Protection (eindpunten)
+  - Microsoft Defender voor Office 365, de nieuwe naam voor Office 365 ATP (e-mail) 
+  - Microsoft Defender for Identity, de nieuwe naam voor Azure ATP (identiteit) 
+  - Beveiligingsupdates voor Microsoft Cloud-app (apps)
+
+![Afbeelding of_Microsoft oplossing voor beveiliging van bedreigingen voor gebruikers, Azure Advanced Threat Protection voor eindpunten van Microsoft Defender Advanced Threat Protection, voor Cloud-apps, Microsoft Cloud app Security en voor gegevens, Office 365 Advanced Threat Protection  ](../../media/mtp/m365pillars.png)
+
+Met de geïntegreerde oplossing voor Microsoft Threat Protection kunnen beveiligings medewerkers de bedreigings signalen voor Microsoft Defender Advanced Threat Protection, Office 365 ATP, Azure ATP, en de beveiligingsfuncties van de Cloud app van Microsoft in de Cloud Toep neren, en de volledige omvang en impact van de bedreiging bepalen, hoe deze de omgeving heeft ingevoerd en wat de impact van de organisatie is. Microsoft Threat Protection beslaat automatische actie om de aanval te voorkomen of te stoppen, en de desbetreffende postvakken, eindpunten en gebruikers-id's. Zie [overzicht van Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) voor meer informatie.
 
 ![Fasen in de proefwerken met Microsoft Threat Protection](../../media/pilotphases.png)
 

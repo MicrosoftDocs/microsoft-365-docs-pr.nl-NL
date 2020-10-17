@@ -4,7 +4,7 @@ ms.author: kvice
 ms.reviewer: smithre4
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 08/25/2020
+ms.date: 10/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over hybride moderne verificatie en de vereisten voor gebruik met on-premises Skype voor bedrijven en Exchange-servers.
-ms.openlocfilehash: 82cd4203e2e9dc53c6add542c5f0ba90530b6548
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: dbd108d9b04445838ce8e88a921af717ebd763be
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361925"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487718"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>Hybride overzicht van de hybride verificatie en vereisten voor het gebruik van on-premises Skype voor bedrijven en Exchange-servers
 
@@ -80,7 +80,7 @@ Get-OrganizationConfig | ft OAuth*
 
 Als de waarde van de eigenschap _OAuth2ClientProfileEnabled_ niet **waar**is, is moderne verificatie uitgeschakeld.
 
-Zie [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig)voor meer informatie over de cmdlet Get-OrganizationConfig.
+Zie [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig)voor meer informatie over de Get-OrganizationConfig-cmdlet.
 
 U kunt uw Skype voor bedrijven-servers controleren door de volgende PowerShell-opdracht uit te voeren:
 
@@ -90,7 +90,7 @@ Get-CSOAuthConfiguration
 
 Als de opdracht een lege _OAuthServers_ -eigenschap oplevert of als de waarde van de eigenschap _ClientADALAuthOverride_ niet is **toegestaan**, is moderne verificatie uitgeschakeld.
 
-Zie [Get-CsOAuthConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csoauthconfiguration)voor meer informatie over de cmdlet Get-CsOAuthConfiguration.
+Zie [Get-CsOAuthConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csoauthconfiguration)voor meer informatie over de Get-CsOAuthConfiguration-cmdlet.
 
 ## <a name="do-you-meet-modern-authentication-prerequisites"></a>Voldoen de moderne verificatievereisten?
 
@@ -161,6 +161,7 @@ Controleer de items uit uw lijst voordat u verder gaat:
     Clients en/of protocollen die niet worden vermeld (bijv. POP3) bieden geen ondersteuning voor moderne verificatie met on-premises Exchange en blijven de mogelijkheid om oudere verificatiemechanismen te benutten, zelfs nadat moderne verificatie in de omgeving is ingeschakeld.
 
 - **Algemene vereisten**
+  - Voor scenario's voor resource forestvertrouwensrelaties is een vertrouwensrelatie met het account van het account vereist om ervoor te zorgen dat de juiste SID'S worden uitgevoerd tijdens moderne verificatieaanvragen. 
   - Als u AD FS gebruikt, moet u beschikken over Windows 2012 R2 AD FS 3,0 en hoger voor Federatie.
   - Uw identiteits configuraties zijn alle typen die worden ondersteund door Azure AD Connect, zoals wachtwoord hash-synchronisatie, Pass-Through-verificatie en on-premises STS, ondersteund door Office 365.
   - Azure AD Connect geconfigureerd en functioneert voor gebruikers replicatie en-synchronisatie.

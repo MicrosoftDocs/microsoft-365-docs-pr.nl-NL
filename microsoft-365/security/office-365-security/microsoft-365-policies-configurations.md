@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-overview
-ms.openlocfilehash: 6037d997f43abfaf1f2d6b7fd55143fb0332dbe3
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 6d0f090f9931e88566e37b038cc30375657019c3
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464430"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487670"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -193,6 +193,10 @@ Microsoft adviseert geen beleids sets te maken die van toepassing zijn op alle a
 2. Configureer de algemene identiteit en toegang tot regels voor voorwaardelijke toegang.
 3. Beleidsregels voor voorwaardelijke toegang configureren voor gast en externe gebruikers.
 4. Beleidsregels voor voorwaardelijke toegang configureren voor Microsoft 365 Cloud-apps zoals Microsoft teams, Exchange Online en SharePoint.
+
+<!--
+After you have configured identity and device access, see the [Azure AD feature deployment guide](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2) for a phased checklist of additional features to consider and [Azure AD Identity Governance](https://docs.microsoft.com/azure/active-directory/governance/) to protect, monitor, and audit access.  
+--> 
 
 ## <a name="next-step"></a>Volgende stap
 

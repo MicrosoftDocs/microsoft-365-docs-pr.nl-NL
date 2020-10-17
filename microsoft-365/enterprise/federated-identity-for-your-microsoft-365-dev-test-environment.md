@@ -20,12 +20,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: 'Overzicht: federatieve verificatie configureren voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: c7ff838522c0bd97da4ffff5122454b128f97bf2
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0fb8c55f5b7291cdc6bcec636981a9d31015e723
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689489"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487682"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Federatieve identiteit voor uw Microsoft 365-testomgeving
 
@@ -33,41 +33,36 @@ ms.locfileid: "46689489"
 
 Microsoft 365 ondersteunt federatieve identiteit. Dit betekent dat in plaats van de validatie van referenties zelf uit te voeren, Microsoft 365 de verbindende gebruiker verwijst naar een federatieve verificatieserver die Microsoft 365 vertrouwt. Als de inloggegevens van de gebruiker correct zijn, geeft de federatieve verificatieserver een beveiligingstoken uit dat de client vervolgens naar Microsoft 365 stuurt als bewijs van verificatie. Federatieve identiteit zorgt voor de offloading en schaalbaarheid van verificatie voor een Microsoft 365-abonnement en geavanceerde verificatie- en beveiligingsscenario's.
   
-In dit artikel wordt beschreven hoe u federatieve verificatie voor uw Microsoft 365-testomgeving kunt configureren, wat resulteert in het volgende:
+In dit artikel wordt uitgelegd hoe u federatieve verificatie voor uw Microsoft 365-testomgeving configureert, wat resulteert in het volgende:
 
 ![De federatieve verificatie voor Microsoft 365-testomgeving](../media/federated-identity-for-your-microsoft-365-dev-test-environment/federated-tlg-phase3.png)
   
-Deze configuratie bestaat uit: 
+Deze configuratie bestaat uit:
   
 - Een Microsoft 365 E5-proefabonnement of productie abonnement.
     
-- Een vereenvoudigde organisatie die via intranet is verbonden met internet, bestaande uit vijf virtuele machines op een subnet van een virtueel Azure-netwerk (DC1, APP1, CLIENT1, ADFS1 en PROXY1). Azure AD Connect wordt uitgevoerd op APP1 om de lijst met accounts in het Active Directory Domain Services-domein te synchroniseren met Microsoft 365. PROXY1 ontvangt de binnenkomende verificatieaanvragen. ADFS1 valideert referenties met DC1 en beveiligingstokens.
+- Een eenvoudiger organisatie intranet verbonden met internet, bestaande uit vijf virtuele machines op een subnet van een Azure virtueel netwerk (DC1, APP1, CLIENT1, ADFS1 en PROXY1). Azure AD Connect wordt uitgevoerd op APP1 om de lijst met accounts in het Active Directory Domain Services-domein te synchroniseren met Microsoft 365. PROXY1 ontvangt de binnenkomende verificatieaanvragen. ADFS1 valideert referenties met DC1 en beveiligingstokens.
     
-Er zijn vijf fasen om deze testomgeving in te stellen:
-  
-1. Maak de gesimuleerde bedrijfstestomgeving met wachtwoord-hash-synchronisatie.
-    
-2. Maak de AD FS-server (ADFS1).
-    
-3. Maak de webproxyserver (PROXY1).
-    
-4. Maak een zelfondertekend certificaat en configureer ADFS1 en PROXY1.
-    
-5. Configureer Microsoft 365 voor federatieve identiteit.
+Het instellen van deze testomgeving omvat vijf fasen:
+- [Fase 1: wachtwoord-hash-synchronisatie configureren voor uw Microsoft 365-testomgeving](#phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment)
+- [Fase 2: maak de AD FS-server](#phase-2-create-the-ad-fs-server)
+- [Fase 3: de webproxyserver maken](#phase-3-create-the-web-proxy-server)
+- [Fase 4: maak een zelfondertekend certificaat en configureer ADFS1 en PROXY1.](#phase-4-create-a-self-signed-certificate-and-configure-adfs1-and-proxy1)
+- [Fase 5: Office 365 configureren voor federatieve identiteit](#phase-5-configure-microsoft-365-for-federated-identity)
     
 > [!NOTE]
-> U kunt deze testomgeving niet configureren met een Azure-proefabonnement. 
+> U kunt deze testomgeving niet configureren met een Azure-proefabonnement.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: wachtwoord-hash-synchronisatie configureren voor uw Microsoft 365-testomgeving
 
-Volg de instructies in [wachtwoord-hash-synchronisatie voor Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Dit is de resulterende configuratie.
+Volg de instructies in [wachtwoord-hash-synchronisatie voor Microsoft 365](password-hash-sync-m365-ent-test-environment.md). De uiteindelijke configuratie ziet er als volgt uit:
   
 ![De gesimuleerde onderneming in een testomgeving met wachtwoord-hash-synchronisatie](../media/federated-identity-for-your-microsoft-365-dev-test-environment/federated-tlg-phase1.png)
   
-Deze configuratie bestaat uit: 
+Deze configuratie bestaat uit:
   
 - Een Microsoft 365 E5-proefabonnement of betaalde abonnementen.
-- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnementen.
+- Een eenvoudiger organisatie intranet, verbonden met internet, bestaande uit DC1-, APP1-en CLIENT1 virtuele machines op een subnet van een Azure virtueel netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het TESTLAB Active Directory Domain Services (AD DS)-domein te synchroniseren met de Azure AD-Tenant van uw Microsoft 365-abonnementen.
 
 ## <a name="phase-2-create-the-ad-fs-server"></a>Fase 2: maak de AD FS-server
 
@@ -109,7 +104,7 @@ Add-Computer -DomainName corp.contoso.com -Credential $cred
 Restart-Computer
 ```
 
-Dit is de resulterende configuratie.
+De uiteindelijke configuratie ziet er als volgt uit:
   
 ![De AD FS-server die is toegevoegd aan de testomgeving van DirSync voor Microsoft 365](../media/federated-identity-for-your-microsoft-365-dev-test-environment/federated-tlg-phase2.png)
   
@@ -139,9 +134,9 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 > [!NOTE]
-> PROXY1 krijgt een statisch openbaar IP-adres toegewezen, omdat u een openbaar DNS-record maakt dat ernaar verwijst en het niet mag veranderen wanneer u de virtuele machine PROXY1 opnieuw opstart. 
+> PROXY1 krijgt een statisch openbaar IP-adres toegewezen, omdat u een openbaar DNS-record maakt dat ernaar verwijst en het niet mag veranderen wanneer u de virtuele machine PROXY1 opnieuw opstart.
   
-Voeg vervolgens een regel toe aan de netwerkbeveiligingsgroep voor het CorpNet-subnet om ongevraagd inkomend verkeer van internet naar het privé IP-adres van PROXY1 en TCP-poort 443 toe te staan. Voer deze opdrachten uit vanaf de opdrachtprompt van Azure PowerShell op uw lokale computer.
+Voeg vervolgens een regel toe aan de groep netwerkbeveiliging voor het CorpNet-subnet, zodat ongevraagde inkomende verkeer van Internet naar PROXY1's Private IP Address en TCP-poort 443 wordt toegestaan. Voer deze opdrachten uit vanaf de opdrachtprompt van Azure PowerShell op uw lokale computer.
   
 ```powershell
 $rgName="<the resource group name of your Base Configuration>"
@@ -160,13 +155,13 @@ Add-Computer -DomainName corp.contoso.com -Credential $cred
 Restart-Computer
 ```
 
-Geef het openbare IP-adres van PROXY1 weer met deze Azure PowerShell-opdrachten op uw lokale computer:
+Geef het openbare IP-adres van PROXY1 weer met de volgende Azure PowerShell-opdrachten op uw lokale computer.
   
 ```powershell
 Write-Host (Get-AzPublicIpaddress -Name "PROXY1-PIP" -ResourceGroup $rgName).IPAddress
 ```
 
-Werk vervolgens met uw openbare DNS-provider om een nieuw openbaar DNS A-record aan te maken voor **fs.testlab.**\<your DNS domain name> dat wordt omgezet naar het IP-adres dat wordt weergegeven door de **Write-Host**. De **fs.testlab.**\<your DNS domain name> wordt hierna de *federatiedienst FQDN* genoemd.
+Werk vervolgens met uw openbare DNS-provider om een nieuw openbaar DNS A-record aan te maken voor **fs.testlab.**\<*your DNS domain name*> dat wordt omgezet naar het IP-adres dat wordt weergegeven door de **Write-Host**. De **fs.testlab.**\<*your DNS domain name*> wordt hierna de *federatiedienst FQDN* genoemd.
   
 Gebruik vervolgens de [Azure-portal](https://portal.azure.com) om verbinding te maken met de virtuele machine DC1 met behulp van de CORP\\gebruiker1-referenties en voer vervolgens de volgende opdrachten uit op een Windows PowerShell-opdrachtprompt op beheerdersniveau:
   
@@ -174,9 +169,9 @@ Gebruik vervolgens de [Azure-portal](https://portal.azure.com) om verbinding te 
 Add-DnsServerPrimaryZone -Name corp.contoso.com -ZoneFile corp.contoso.com.dns
 Add-DnsServerResourceRecordA -Name "fs" -ZoneName corp.contoso.com -AllowUpdateAny -IPv4Address "10.0.0.100" -TimeToLive 01:00:00
 ```
-Met deze opdrachten maakt u een intern DNS A-record zodat virtuele machines op het virtuele Azure-netwerk de interne federatie FQDN kunnen omzetten in het privé IP-adres van ADFS1.
+Met deze opdrachten maakt u een interne DNS A-record, zodat virtuele machines in het virtuele netwerk van Azure de FQDN-naam van het interne Federation service-ADFS1's kunnen omzetten in een particulier IP-adres van.
   
-Dit is de resulterende configuratie.
+De uiteindelijke configuratie ziet er als volgt uit:
   
 ![De proxyserver van de webtoepassing is toegevoegd aan de testomgeving van DirSync voor Microsoft 365](../media/federated-identity-for-your-microsoft-365-dev-test-environment/federated-tlg-phase3.png)
   
@@ -186,12 +181,12 @@ In deze fase maakt u een zelfondertekend digitaal certificaat voor de FQDN van d
   
 Gebruik eerst de [Azure-portal](https://portal.azure.com) om verbinding te maken met de virtuele DC1-machine met de referenties voor CORP\\gebruiker1 en open vervolgens een opdrachtprompt op beheerdersniveau in Windows PowerShell.
   
-Maak vervolgens een AD FS-serviceaccount met deze opdracht met de Windows PowerShell-opdrachtprompt op DC1:
+Maak vervolgens een AD FS-serviceaccount met deze opdracht op de Windows PowerShell-opdrachtprompt op DC1:
   
 ```powershell
 New-ADUser -SamAccountName ADFS-Service -AccountPassword (read-host "Set user password" -assecurestring) -name "ADFS-Service" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
-Met deze opdracht wordt u gevraagd het wachtwoord van het account op te geven. Kies een sterk wachtwoord en sla dit op in een beveiligde locatie. U hebt het nodig voor deze fase en fase 5.
+Met deze opdracht wordt u gevraagd het wachtwoord van het account op te geven. Kies een sterk wachtwoord en sla dit op in een beveiligde locatie. Dit hebt u nodig voor deze fase en voor fase 5.
   
 Gebruik de [Azure-Portal](https://portal.azure.com) om verbinding te maken met de virtuele ADFS1-computer met de accountreferenties voor CORP\\gebruiker1. Open een Windows PowerShell-opdrachtprompt op beheerdersniveau op ADFS1, vul de FQDN van de federatiedienst in en voer vervolgens deze opdrachten uit om een zelfondertekend certificaat te maken:
   
@@ -204,33 +199,33 @@ New-SmbShare -name Certs -path c:\Certs -changeaccess CORP\User1
 
 Gebruik vervolgens deze stappen om het nieuwe, zelfondertekend certificaat als een bestand op te slaan.
   
-1. Klik op **Start**, typ **mmc.exe** en druk op **Enter**.
+1. Selecteer **Start**, typ **mmc.exe**en druk op **Enter**.
     
-2. Klik op **Bestand > Snap-in toevoegen/verwijderen**.
+2. Selecteer **File**invoeg  >  **toepassing voor bestands toevoegen/verwijderen**.
     
-3. Dubbelklik in **Snap-ins toevoegen of verwijderen** op **Certificaten** in de lijst met beschikbare snap-ins, klik op **Computeraccount** en klik vervolgens op **Volgende**.
+3. Dubbel **Klik in de**lijst met beschikbare invoegtoepassingen in de lijst met beschikbare modules op **certificaten** en **Selecteer vervolgens** **volgende**.
     
-4. Klik in **Computer selecteren** op **Voltooien** en klik vervolgens op **OK**.
+4. Selecteer in **computer selecteren**de optie **Voltooien**en selecteer vervolgens **OK**.
     
 5. Open in het structuurvenster **certificaten (lokale computer) > persoonlijk > certificaten**.
     
-6. Klik met de rechtermuisknop op het certificaat met de FQDN van de federatieservice, klik op **alle taken**en klik vervolgens op **exporteren**.
+6. Selecteer het certificaat met behulp van de Federatie service-FQDN en houd deze ingedrukt (of klik erop met de rechtermuisknop), selecteer **alle taken**en selecteer vervolgens **exporteren**.
     
-7. Klik op **Volgende** op de **welkomstpagina**.  
+7. Selecteer **volgende**op de **welkomst** pagina.
     
-8. Klik op de pagina **persoonlijke sleutel exporteren** op **ja**en klik vervolgens op **volgende**.
+8. Selecteer op de pagina **persoonlijke sleutel exporteren** de optie **Ja**en selecteer **volgende**.
     
-9. Klik op de pagina **bestandsindeling exporteren** op **alle uitgebreide eigenschappen exporteren**en klik vervolgens op **volgende**.
+9. Selecteer op de pagina **bestandsindeling exporteren** de optie **alle uitgebreide eigenschappen exporteren**en selecteer **volgende**.
     
-10. Klik op de pagina **beveiliging** op **wachtwoord** en typ een wachtwoord in **wachtwoord** en **wachtwoord bevestigen.**
+10. Selecteer **wachtwoord** op de pagina **beveiliging** en voer een wachtwoord in **wachtwoord** in en **Bevestig uw wachtwoord.**
     
-11. Klik op de pagina **bestand om te exporteren** op **bladeren**.
+11. Selecteer op de pagina **bestand to export** de optie **Browse**.
     
-12. Blader naar de map **C:\\certs**, typ **SSL** als **bestandsnaam** en klik vervolgens op **opslaan.**
+12. Blader naar de **map C \\ : certs** , Voer **SSL** in de **bestandsnaam**in en selecteer **opslaan.**
     
-13. Klik op de pagina **bestand om te exporteren** op **volgende**.
+13. Selecteer op de pagina **te exporteren bestand** de optie **volgende**.
     
-14. Klik op de pagina **wizard certificaat exporteren voltooien** op **voltooien**. Klik op **OK** wanneer u daarom wordt gevraagd.
+14. Selecteer op de pagina **de wizard Certificaat exporteren** volt **ooien**. Selecteer **OK**wanneer u daarom wordt gevraagd.
     
 Installeer vervolgens de AD FS-service met deze opdracht met de Windows PowerShell-opdrachtprompt op ADFS1:
   
@@ -242,77 +237,77 @@ Wacht totdat de installatie is voltooid.
   
 Configureer vervolgens de AD FS-service met de volgende stappen:
   
-1. Klik op **start**en klik vervolgens op het pictogram **serverbeheer**.
+1. Selecteer **Start**en selecteer vervolgens het pictogram **Server beheer** .
     
-2. Klik in het structuurvenster van serverbeheer op **AD FS**.
+2. Selecteer in het deelvenster structuur van server beheer de optie **AD FS**.
     
-3. Klik op de werkbalk aan de bovenkant op het oranje waarschuwingssymbool en klik vervolgens op **de federatieservice op deze server configureren**.
+3. Selecteer op de werkbalk aan de bovenkant het oranje waarschuwingssymbool en selecteer vervolgens **de Federatie service configureren op deze server**.
     
-4. Klik op de **welkomstpagina** van de configuratiewizard van Active Directory Federation Services op **volgende**.
+4. Selecteer op de **welkomst** pagina van de wizard Active Directory Federation Services configureren de optie **volgende**.
     
-5. Klik op de pagina **verbinding maken met AD DS** op **volgende**.
+5. Selecteer op de pagina **verbinding maken met AD DS** de optie **volgende**.
     
 6. Op de pagina **service-eigenschappen opgeven** pagina:
     
-  - Voor **SSL-certificaat**klikt u op de pijl-omlaag en klikt u vervolgens op het certificaat met de naam van de FQDN van de federatieservice.
+  - Selecteer voor **SSL-certificaat**de pijl-omlaag en selecteer vervolgens het certificaat met de naam van de FQDN voor de Federation service.
     
-  - Typ in **weergavenaam van de federatieservice**de naam van uw fictieve organisatie.
+  - Voer in de **weergavenaam van de Federation service**de naam van uw fictieve organisatie in.
     
-  - Klik op **Volgende**.
+  - Selecteer **Volgende**.
     
-7. Klik op de pagina **serviceaccount opgeven** op **selecteren** voor **accountnaam**.
+7. Selecteer op de pagina **Service account opgeven** de optie **selecteren** voor **account naam**.
     
-8. Typ in **gebruikers- of serviceaccount selecteren****ADFS-service**, klik op **namen controleren**en klik vervolgens op **OK**.
+8. Typ **ADFS-service**in **Select User of service account**, selecteer **Namen controleren**en selecteer vervolgens **OK**.
     
-9. Typ het wachtwoord voor het account van de ADFS-service in **accountwachtwoord**en klik vervolgens op **volgende**.
+9. Voer het wachtwoord in van het **account**dat u hebt opgegeven voor het ADFS-Service account en selecteer **volgende**.
     
-10. Klik op de pagina **configuratiedatabase opgeven** op **volgende**.
+10. Selecteer op de pagina **configuratie database opgeven** de optie **volgende**.
     
-11. Klik op de pagina **revisieopties** op **volgende**.
+11. Selecteer op de pagina **opties controleren** de optie **volgende**.
     
-12. Klik op de pagina **controle van de vereisten** op **configureren**.
+12. Selecteer op de pagina **controle vereisten** de optie **configureren**.
+
+13. Selecteer op de pagina **resultaten** de optie **sluiten**.
     
-13. Klik op de pagina **Resultaten** op **Voltooien**.
-    
-14. Klik op **start**, klik op het pictogram voor het energiebeheer, klik op **opnieuw opstarten**en klik vervolgens op **doorgaan**.
+14. Selecteer **Start**, selecteer het pictogram van de stekker, selecteer **opnieuw opstarten**en selecteer vervolgens **Doorgaan**.
     
 Maak vanuit de [Azure-portal](https://portal.azure.com) verbinding met PROXY1 met de CORP\\gebruiker1-accountreferenties.
   
 Voer vervolgens deze stappen uit om het zelfondertekende certificaat te installeren op **zowel PROXY1 als APP1**.
   
-1. Klik op **Start**, typ **mmc.exe** en druk op **Enter**.
+1. Selecteer **Start**, typ **mmc.exe**en druk op **Enter**.
     
-2. Klik op **Bestand > Snap-in toevoegen/verwijderen**.
+2. Selecteer **bestand > module toevoegen/verwijderen**.
     
-3. Dubbelklik in **Snap-ins toevoegen of verwijderen** op **Certificaten** in de lijst met beschikbare snap-ins, klik op **Computeraccount** en klik vervolgens op **Volgende**.
+3. Dubbel **Klik in de**lijst met beschikbare invoegtoepassingen in de lijst met beschikbare modules op **certificaten** en **Selecteer vervolgens** **volgende**.
     
-4. Klik in **Computer selecteren** op **Voltooien** en klik vervolgens op **OK**.
+4. Selecteer in **computer selecteren**de optie **Voltooien**en selecteer vervolgens **OK**.
     
-5. Open in het structuurvenster **certificaten (lokale computer) > persoonlijk > certificaten**.
+5. Open **certificates (local computer)**  >  **Personal**  >  **certificates**in het deelvenster structuur.
     
-6. Klik met de rechtermuisknop op **persoonlijk**, klik op **alle taken**en klik vervolgens op **importeren**.
+6. Selecteer of klik met de rechtermuisknop op **persoonlijk**, selecteer **alle taken**en selecteer vervolgens **importeren**.
     
-7. Klik op **Volgende** op de **welkomstpagina**.  
+7. Selecteer **volgende**op de **welkomst** pagina.
     
-8. Typ op de pagina **bestand dat u wilt importeren**, **\\\\adfs1 \\certs\\ssl.pfx** en klik op **volgende**.
+8. Voer op de pagina **te importeren bestand** de ** \\ \\ adfs1- \\ certificerings versie van \\ SSL. pfx**in en selecteer **volgende**.
     
-9. Typ op de pagina **persoonlijke sleutels beveiligen** het certificaatwachtwoord in bij**wachtwoord**en klik vervolgens op **volgende.**
+9. Voer op de pagina **Persoonlijke sleutelbeveiliging** het certificaatwachtwoord in het **wachtwoord**in en selecteer **Volgende.**
     
-10. Klik op de pagina **certificaatarchief** op **volgende**.
+10. Selecteer op de pagina **certificaatarchief** de optie **Volgende.**
     
-11. Klik op de pagina **voltooien** op **voltooien**.
+11. Selecteer op de pagina **volt** ooien de optie **Voltooien**.
     
-12. Klik op de pagina **certificaatarchief** op **volgende**.
+12. Selecteer op de pagina **certificaatarchief** de optie **volgende**.
     
-13. Klik op **OK** wanneer u daarom wordt gevraagd.
+13. Selecteer **OK**wanneer u daarom wordt gevraagd.
     
-14. Klik in het structuurvenster op **certificaten**.
+14. Selecteer in het deelvenster Structuur de optie **certificaten**.
     
-15. Klik met de rechtermuisknop op het certificaat en klik vervolgens op **kopiëren**.
+15. Selecteer het certificaat en houd deze ingedrukt (of klik er met de rechtermuisknop op) en selecteer **kopiëren**.
     
-16. Open in het structuurvenster **vertrouwde basiscertificeringsinstanties > certificaten**.
+16. Open in het deelvenster Structuur de certificaten van **vertrouwde basiscertificeringsinstanties**  >  **Certificates**.
     
-17. Beweeg de muisaanwijzer onder de lijst met geïnstalleerde certificaten, klik er met de rechtermuisknop op en klik vervolgens op **plakken**.
+17. Beweeg de muisaanwijzer onder de lijst met geïnstalleerde certificaten, selecteer en houd de muisknop ingedrukt (of klik er met de rechtermuisknop op) en selecteer vervolgens **Plakken**.
     
 Open een PowerShell-opdrachtprompt op beheerdersniveau en voer de volgende opdracht uit:
   
@@ -324,30 +319,29 @@ Wacht totdat de installatie is voltooid.
   
 Gebruik de volgende stappen om de service webtoepassingsproxy zo te configureren dat ADFS1 als federatieserver wordt gebruikt:
   
-1. Klik op **start**en klik vervolgens op **serverbeheer**.
+1. Selecteer **Start**en selecteer **Server beheer**.
     
-2. Klik in het structuurvenster op **externe toegang**.
+2. Selecteer in het deelvenster Structuur de optie **externe toegang**.
     
-3. Klik op de werkbalk aan de bovenkant op het oranje waarschuwingssymbool en klik vervolgens op **de wizard webtoepassingsproxy** openen.
+3. Selecteer op de werkbalk aan de bovenkant het oranje waarschuwingssymbool en selecteer vervolgens **de wizard van de**Webtoepassingsproxy-toepassing.
     
-4. Klik op de **welkomstpagina** van de configuratiewizard webtoepassingsproxy op **volgende**.
+4. Selecteer op de **welkomst** pagina van de wizard Configuratie van webtoepassingsproxy de optie **volgende**.
     
 5. Op de pagina **federatieserver**:
     
-  - Typ de FQDN van de federatieservice in bij **naam van de federatieservice**.
+  - Voer in het vak **naam van Federation service** de Federation service-FQDN in.
     
-  - Typ **CORP\\gebruiker1** in als **gebruikersnaam**.
+  - Voer in het vak **gebruikersnaam** **Corp \\ gebruiker1**in.
     
-  - Typ het wachtwoord voor het gebruiker1-account in bij **wachtwoord**.
+  - Voer in het vak **wachtwoord** het wachtwoord in voor het account gebruiker1.
     
-  - Klik op **Volgende**.
+  - Selecteer **Volgende**.
     
-6. Klik op de pagina **AD FS-proxycertificaat** op de pijl-omlaag, klik op het certificaat met de FQDN van de federatieservice en klik vervolgens op **volgende**.
+6. Selecteer op de pagina **AD FS-proxy certificaat** de pijl-omlaag, selecteer het certificaat met de FQDN-service-FQDN en selecteer **volgende**.
     
-7. Klik op de **bevestigingspagina** op **configureren**.
+7. Selecteer op de pagina **confirmation** de optie **Configure**.
     
-8. Klik op de pagina **Resultaten** op **Voltooien**.
-
+8. Selecteer op de pagina **resultaten** de optie **sluiten**.
     
 ## <a name="phase-5-configure-microsoft-365-for-federated-identity"></a>Fase 5: Office 365 configureren voor federatieve identiteit
 
@@ -357,43 +351,43 @@ Volg deze stappen voor het configureren van Azure AD Connect en uw Microsoft 365
   
 1. Dubbelklik op het bureaublad op **Azure AD Connect**.
     
-2. Klik op de pagina **Welkom bij Azure AD Connect** op **configureren**.
+2. Selecteer op de pagina **Welkom bij Azure AD Connect** de optie **configureren**.
     
-3. Klik op de pagina **Aanvullende taken** op **Gebruikersaanmelding wijzigen**en klik vervolgens op **Volgende**.
+3. Selecteer op de pagina **extra taken** de optie **gebruikersaanmelding wijzigen**en selecteer **volgende**.
     
-4. Typ op de pagina **verbinding maken met Azure AD** de naam en het wachtwoord van het globale beheerdersaccount en klik vervolgens op **volgende**.
+4. Voer op de pagina **verbinding maken met Azure AD** de naam en het wachtwoord van uw globale beheerder account in en selecteer **volgende**.
     
-5. Klik op de pagina **gebruikersaanmelding** op **federatie met AD FS**en klik vervolgens op **volgende**.
+5. Selecteer **Federatie met AD FS**op de aanmeldingspagina van de **gebruiker** en selecteer **volgende**.
     
-6. Klik op de pagina **AD FS-farm** op **een bestaande AD FS-farm gebruiken**, typ **ADFS1** bij **servernaam**en klik vervolgens op **volgende**.
+6. Selecteer op de pagina **AD FS-Farm** de optie **een bestaande AD FS-farm gebruiken**, typ **ADFS1** in het vak **Server naam** en selecteer **volgende**.
     
-7. Wanneer u wordt gevraagd om serverreferenties, voert u de referenties van het account CORP\\gebruiker1 in en klikt u op **OK**.
+7. Wanneer u wordt gevraagd om Server referenties, voert u de referenties van het account van de \\ gebruiker1-account in en selecteert u **OK**.
     
-8. Typ op de referentiepagina **domeinbeheerder** de waarde **CORP\\gebruiker1** in als **gebruikersnaam** en het wachtwoord van het account bij **wachtwoord**en klik vervolgens op **volgende**.
+8. Voer op de pagina referenties van **domeinbeheerder** **Corp \\ gebruiker1** in het **vak Gebruikersnaam** in, voer het accountwachtwoord in het vak **wachtwoord** in en selecteer **volgende**.
     
-9. Typ op de pagina **AD FS-serviceaccount** de waarde **CORP\\ADFS-service** als **gebruikersnaam van het domein** en het wachtwoord van het account bij **wachtwoord voor gebruikersdomein**en klik vervolgens op **volgende**.
+9. Voer op de pagina **AD FS-serviceaccount** de naam **Corp \\ -service** in in het vak **domeinnaam** van het account, voer het accountwachtwoord in het vak **wachtwoord voor domeingebruikers** in en selecteer **volgende**.
     
-10. Selecteer de naam van het domein dat u eerder hebt gemaakt en toegevoegd aan uw abonnement in fase 1 op de pagina **Azure AD-domein** bij **domein** en klik vervolgens op **volgende**.
+10. Selecteer op de pagina **Azure AD domain** in **Domain**de naam van het domein dat u eerder hebt gemaakt en toegevoegd aan uw abonnement in fase 1, en selecteer vervolgens **volgende**.
     
-11. Klik op de pagina **Gereed om te configureren** op **Configureren**.
+11. Selecteer **configureren**op de pagina **klaar voor de configuratie** .
     
-12. Klik op de pagina **installeren voltooid** op **verifiëren**.
+12. Selecteer **verifiëren**op de pagina **installatie voltooien** .
     
-    U zou berichten moeten zien die aangeven dat zowel de intranet- als de internetconfiguratie is gecontroleerd.
+    U ziet een bericht waarin wordt aangegeven dat het intranet en de Internet configuratie zijn geverifieerd.
     
-13. Klik op de pagina **Installatie voltooid** op **Afsluiten**.
+13. Selecteer op de pagina **installatie voltooien** de optie **Afsluiten**.
     
 Om aan te tonen dat federatieve verificatie werkt:
   
 1. Open een nieuwe privétab van uw browser op uw lokale computer en ga naar [https://admin.microsoft.com](https://admin.microsoft.com).
     
-2. Typ **user1@**\<the domain created in Phase 1> voor de aanmeldingsreferenties. 
+2. Voer voor de aanmeldingsreferenties **user1@** in \<*the domain created in Phase 1*> .
     
-    Als uw testdomein bijvoorbeeld **testlab.contoso.com** is, typt u 'user1@testlab.contoso.com'. Druk op Tab of laat Microsoft 365 u automatisch omleiden.
+    Als uw test domein bijvoorbeeld **testlab.contoso.com**is, typt u ' user1@testlab.contoso.com '. Druk op de **Tab** -toets of laat microsoft 365 u automatisch omleiden.
     
-    U zou nu een pagina moeten zien met **Uw verbinding is niet privé**. U ziet dit omdat u een zelfondertekend certificaat op ADFS1 heeft geïnstalleerd dat uw desktopcomputer niet kan valideren. Bij een productie-implementatie van federatieve verificatie gebruikt u een certificaat van een vertrouwde certificeringsinstantie en zien uw gebruikers deze pagina niet.
+    U zou nu een pagina moeten zien met **Uw verbinding is niet privé**. U ziet het volgende omdat u een zelfondertekend certificaat op ADFS1 hebt geïnstalleerd dat op uw desktopcomputer niet kan worden gevalideerd. Bij een productie-implementatie van federatieve verificatie gebruikt u een certificaat van een vertrouwde certificeringsinstantie en zien uw gebruikers deze pagina niet.
     
-3. Klik op de pagina **Uw verbinding is niet privé** op **Geavanceerd** en klik vervolgens op **Doorgaan naar \<your federation service FQDN>**. 
+3. Selecteer op de pagina **uw verbinding is niet persoonlijk** de optie **Geavanceerd**en ** \<*your federation service FQDN*> Selecteer vervolgens doorgaan **. 
     
 4. Ga op de pagina met de naam van uw fictieve organisatie als volgt te werk:
     

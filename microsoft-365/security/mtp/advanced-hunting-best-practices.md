@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f18a98b19b6a1920d1e4d2094ba0bab74f10035e
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: e3b29a8182e38fa05e5f791478157c978632fb13
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430137"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477003"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Best practices voor geavanceerde zoekactie
 
@@ -56,7 +56,7 @@ Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden
 
 - **Heeft maten bevat**: als u wilt voorkomen dat er in woorden in subtekenreeksen wordt gezocht, gebruikt u de `has` operator in plaats van `contains` . [Meer informatie over tekenreeks operators](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
 - **Zoeken in specifieke kolommen**: Bekijk in een specifieke kolom of de zoekfunctie voor volledige tekst in alle kolommen niet wordt uitgevoerd. Niet gebruiken `*` voor het controleren van alle kolommen.
-- **Onderscheid tussen hoofdletters**en kleine letters: Hoofdlettergevoelige zoekopdrachten zijn specifieker en algemeenere prestaties. Namen van hoofdlettergevoelige [tekenreeks operatoren](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators), zoals `has_cs` en `contains_cs` , meestal eindigt op `_cs` . U kunt ook de operator voor hoofdlettergevoelige gelijktekens gebruiken `==` in plaats van `~=` .
+- **Onderscheid tussen hoofdletters**en kleine letters: Hoofdlettergevoelige zoekopdrachten zijn specifieker en algemeenere prestaties. Namen van hoofdlettergevoelige [tekenreeks operatoren](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators), zoals `has_cs` en `contains_cs` , meestal eindigt op `_cs` . U kunt ook de operator voor hoofdlettergevoelige gelijktekens gebruiken `==` in plaats van `=~` .
 - **Parseren**: gebruik indien mogelijk de [operator voor parseren](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) of een functie voor parseren, zoals [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). Vermijd de `matches regex` tekenreeks operator of de [functie extraheren ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction), waarvan beide de reguliere expressie gebruiken. Het gebruik van een reguliere expressie reserveren voor complexere scenario's. [Lees meer over het verdelen van functies](#parse-strings)
 - **Tabellen niet op expressies**filteren: u hoeft niet op een berekende kolom te filteren als u een tabelkolom kunt filteren.
 - **Geen voorwaarden van drie**tekens: vergelijkt of filteren met termen met drie tekens of minder. Deze voorwaarden worden niet geïndexeerd en hieraan voldoen meer resources nodig.

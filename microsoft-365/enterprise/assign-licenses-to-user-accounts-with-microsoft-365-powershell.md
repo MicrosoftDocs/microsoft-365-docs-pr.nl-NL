@@ -21,12 +21,12 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 description: In dit artikel wordt uitgelegd hoe u PowerShell gebruikt om een Microsoft 365-licentie toe te wijzen aan gebruikers zonder licentie.
-ms.openlocfilehash: f042f8109bf9ac9b634bc66509c60a5181fb1af6
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 8c3165b99477afa14e6d2b0da927b5f64c416ef1
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235616"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580938"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>Microsoft 365-licenties toewijzen aan gebruikersaccounts met PowerShell
 
@@ -34,9 +34,13 @@ ms.locfileid: "48235616"
 
 Gebruikers kunnen geen Microsoft 365-Services gebruiken totdat hun account een licentie aan een licentie regeling heeft toegewezen. U kunt PowerShell gebruiken om snel licenties toe te wijzen aan accounts zonder licentie. 
 
->[!Note]
->Voor gebruikersaccounts moet een locatie worden toegewezen. U kunt dit doen met de eigenschappen van een gebruikersaccount in het Microsoft 365-Beheercentrum of vanuit PowerShell.
->
+Voor gebruikersaccounts moet u eerst een locatie toewijzen. Opgeven van een locatie is een verplicht onderdeel voor het maken van een nieuw gebruikersaccount in het [Microsoft 365-Beheercentrum](../admin/add-users/add-users.md). 
+
+Accounts die worden gesynchroniseerd vanuit uw on-premises Active Directory Domain Services, hebben standaard geen opgegeven locatie. U kunt op de volgende manieren een locatie voor deze accounts configureren:
+
+- Het Microsoft 365-beheercentrum
+ - [PowerShell](configure-user-account-properties-with-microsoft-365-powershell.md)
+ - De [Azure-Portal](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (**Active Directory**-  >  **gebruikers** > gebruikersaccount > **profiel**  >  **contact persoongegevens**  >  **land of regio**).
 
 >[!Note]
 >[Meer informatie over het toewijzen van licenties aan gebruikersaccounts](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) met het microsoft 365-Beheercentrum. Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.

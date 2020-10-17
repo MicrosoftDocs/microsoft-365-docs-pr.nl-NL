@@ -18,86 +18,87 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Samenvatting: configureer en test naadloze eenmalige aanmelding via Azure AD voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: 3ba229a62f66cad715f604bab91cd12032da7be8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f98f82de50feb2a9f92d1ecc4775c5307b314a72
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685770"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487598"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>Naadloze eenmalige aanmelding via Azure AD voor uw Microsoft 365-testomgeving
 
 *U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*
 
-Met de naadloze eenmalige aanmelding via Azure AD worden gebruikers automatisch aangemeld wanneer ze gebruikmaken van pc's of apparaten die zijn verbonden met het bedrijfsnetwerk. Naadloze eenmalige aanmelding via Azure AD biedt gebruikers eenvoudige toegang tot toepassingen in de Cloud, zonder dat ze hier extra onderdelen op locatie voor nodig hebben.
+Met behulp van Sign-On naadloze eenmalige aanmelding van Azure ACTIVEert u automatisch gebruikers op hun Pc's of apparaten die zijn verbonden met het netwerk van de organisatie. Naadloze eenmalige aanmelding via Azure AD biedt gebruikers eenvoudige toegang tot toepassingen in de Cloud, zonder dat ze hier extra onderdelen op locatie voor nodig hebben.
 
-In dit artikel wordt beschreven hoe u uw Microsoft 365-testomgeving kunt configureren voor naadloze eenmalige aanmelding via Azure AD.
+In dit artikel wordt uitgelegd hoe u uw Microsoft 365-testomgeving voor Azure AD perfect SSO kunt configureren.
 
-Er zijn twee fasen om dit in te stellen:
-
-1.    Maak de Microsoft 365-testomgeving voor uw gesimuleerde onderneming aan met wachtwoord-hash-synchronisatie.
-2.    Configureer Azure Active Connect op APP1 voor naadloze eenmalige aanmelding via Azure AD.
-    
+Het instellen van Azure AD perfect SSO omvat twee fasen:
+- [Fase 1: wachtwoord-hash-synchronisatie configureren voor uw Microsoft 365-testomgeving](#phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment)
+- [Fase 2: Configureer Azure AD Connect op APP1 voor naadloze eenmalige aanmelding via Azure AD.](#phase-2-configure-azure-ad-connect-on-app1-for-azure-ad-seamless-sso)
+   
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Klik op [Hier](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart voor alle artikelen in de stack van Microsoft 365 voor Enterprise-testlabrichtlijnen.
+> Ga naar [Microsoft 365 for Enterprise test lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)van een visuele kaart voor alle artikelen in de stack microsoft 365 for Enterprise test lab Guide.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: Configureer wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
-Volg de instructies in [wachtwoord-hash-synchronisatie voor Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Dit is de resulterende configuratie.
+Volg de instructies in [wachtwoord-hash-synchronisatie voor Microsoft 365](password-hash-sync-m365-ent-test-environment.md). 
+
+De uiteindelijke configuratie ziet er als volgt uit:
   
 ![De gesimuleerde onderneming in een testomgeving met wachtwoord-hash-synchronisatie](../media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
-Deze configuratie bestaat uit: 
+Deze configuratie bestaat uit:
   
 - Een proef- of betaald abonnement op Microsoft 365 E5.
-- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
-- Azure AD Connect draait op APP1 om het TESTLAD AD DS-domein (Active Directory Domain Services) periodiek te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
+- Een eenvoudiger organisatie intranet, verbonden met internet, bestaande uit DC1-, APP1-en CLIENT1 virtuele machines op een subnet van een Azure virtueel netwerk.
+- Azure AD Connect wordt uitgevoerd op APP1 om periodiek het TESTLAB Active Directory Domain Services (AD DS) te synchroniseren met de Azure AD-Tenant van uw Microsoft 365-abonnement.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-azure-ad-seamless-sso"></a>Fase 2: Configureer Azure AD Connect op APP1 voor naadloze eenmalige aanmelding via Azure AD.
 
-In deze fase configureert u Azure AD Connect op APP1 voor het gebruik van naadloze eenmalige aanmelding via Azure AD, waarna u controleert of dit werkt.
+In deze fase configureert u Azure AD Connect op APP1 voor Azure AD perfect SSO en controleert u vervolgens of het werkt.
 
 ### <a name="configure-azure-ad-connect-on-app1"></a>Azure AD Connect op APP1 configureren
 
 1. Ga naar het [Azure-portal](https://portal.azure.com), meld u aan met uw globale beheerdersaccount en maak vervolgens verbinding met APP1 via het TESTLAB\Gebruiker1-account.
 
-2. Voer Azure AD Connect uit vanaf het bureaublad van APP1.
+2. Voer in het APP1-bureaublad Azure AD Connect uit.
 
-3. Klik op de **welkomstpagina** op **Configureren**.
+3. Selecteer **configureren**op de **welkomstpagina**.
 
-4. Klik op de pagina **Aanvullende taken** op **Gebruikersaanmelding wijzigen**en klik vervolgens op **Volgende**.
+4. Selecteer op de pagina **extra taken** de optie **gebruikersaanmelding wijzigen**en selecteer **volgende**.
 
-5. Voer op de pagina **Verbinding maken met Azure AD** de referenties van uw globale beheerdersaccount in en klik vervolgens op **Volgende**.
+5. Voer op de pagina **verbinding maken met Azure AD** de referenties van uw globale beheerdersaccount in en selecteer **volgende**.
 
-6. Selecteer op de pagina **Gebruikersaanmelding** de optie **Eenmalige aanmelding inschakelen** en klik vervolgens op **Volgende**.
+6. Selecteer op de aanmeldingspagina van de **gebruiker** de optie **eenmalige aanmelding inschakelen**en selecteer **volgende**.
 
-7. Klik op de pagina **Eenmalige aanmelding inschakelen** op **Referenties invoeren**.
+7. Selecteer op de pagina **eenmalige aanmelding inschakelen** de optie **referenties invoeren**.
 
-8. Typ in het dialoogvenster **Windows Security** in **gebruiker1** en het wachtwoord van het Gebruiker1-account en klik vervolgens op **OK**. Klik op **Volgende**.
+8. Voer in het dialoogvenster **Windows** -beveiliging **gebruiker1** in en het wachtwoord van het account gebruiker1, selecteer **OK**en selecteer vervolgens **volgende**.
 
-9. Klik op de pagina **Gereed voor configureren** op **Configureren**.
+9. Selecteer **configureren**op de pagina **klaar voor de configuratie** .
 
-10. Klik op de pagina **Configuratie voltooid** op **Afsluiten**.
+10. Selecteer op de pagina **configuratie voltooid** de optie **Afsluiten**.
 
-11. Klik in het Azure-portal in het linkerdeelvenster op **Azure Active Directory > Azure AD Connect**. Controleer of de **Naadloze eenmalige aanmelding**-functie wordt weergegeven als **Ingeschakeld**.
+11. Selecteer in het linkerdeelvenster van de Azure-Portal **Azure Active Directory**  >  **Azure AD CONNECT**. Controleer of de **Naadloze eenmalige aanmelding**-functie wordt weergegeven als **Ingeschakeld**.
 
-Test vervolgens de mogelijkheid om u aan te melden bij uw abonnement met het <strong>user1@testlab.</strong>\<your public domain> van het gebruiker1-account.
+Test vervolgens de mogelijkheid om u aan te melden bij uw abonnement met het <strong>user1@testlab.</strong>\<*your public domain*> van het gebruiker1-account.
 
-1. Klik in Internet Explorer via APP1 op het instellingenpictogram en vervolgens op **Internet-opties**.
+1. Selecteer in Internet Explorer op APP1 het pictogram instellingen en selecteer vervolgens **Internet opties**.
  
-2. Klik bij **Internet-opties** op het tabblad **Beveiliging**.
+2. Klik in **Internet opties**op het tabblad **beveiliging** .
 
-3. Klik op **Lokaal intranet** en vervolgens op **Sites**.
+3. Selecteer **Lokaal intranet**en selecteer vervolgens **sites**.
 
-4. Klik in **Lokaal intranet** op **Geavanceerd**.
+4. Selecteer in het **lokale intranet**de optie **Geavanceerd**.
 
-5. Bij **Deze website aan de zone toevoegen** typt u **https<span>://</span>autologon.microsoftazuread-sso.com** en klik op **Toevoegen > Afsluiten > OK > OK**.
+5. Voer in het dialoogvenster **deze website aan de zone toevoegen** **https<span>://</span>AutoLogon.microsoftazuread-SSO.com**in en selecteer **toevoegen**  >  **sluiten**  >  **OK**  >  **OK**.
 
 6. Meld u af en meld u vervolgens weer aan met een ander account.
 
-7. Wanneer u wordt gevraagd u aan te melden, geeft u <strong>user1@testlab op.</strong>\<your public domain> naam en klik op **volgende**. U zou zich moeten kunnen aanmelden als Gebruiker1 zonder dat u om een wachtwoord wordt gevraagd. Dit bewijst dat de naadloze eenmalige aanmelding via Azure AD werkt.
+7. Wanneer u wordt gevraagd u aan te melden, geeft u <strong>user1@testlab op.</strong>\<*your public domain*> naam en selecteer vervolgens **volgende**. U zou zich moeten kunnen aanmelden als Gebruiker1 zonder dat u om een wachtwoord wordt gevraagd. Dit bewijst dat de naadloze eenmalige aanmelding via Azure AD werkt.
 
 Zoals u ziet, heeft Gebruiker1 de machtigingen van een domeinbeheerder voor het TESTLAB AD DS-domein, maar is Gebruiker1 geen globale beheerder voor Azure AD. Daarom wordt het pictogram van de **Beheerder** niet weergegeven als optie.
 
@@ -105,13 +106,12 @@ Dit is de resulterende configuratie:
 
 ![De gesimuleerde onderneming met een testomgeving met pass-through-verificatie](../media/pass-through-auth-m365-ent-test-environment/Phase1.png)
 
- 
 Deze configuratie bestaat uit:
 
-- Een Microsoft 365 E5-proefabonnement of betaalde abonnementen met de DNS-domein testlab.\<your domain name> geregistreerd.
-- Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. 
-- Azure AD Connect draait op APP1 om de lijst van accounts en groepen van de Azure AD-tenant van uw Microsoft 365-abonnement te synchroniseren met het TESTLAB AD DS-domein. 
-- De naadloze eenmalige aanmelding van Azure is ingeschakeld, zodat computers op het gesimuleerde intranet zich kunnen aanmelden bij Microsoft 365 Cloud-bronnen, zonder het wachtwoord voor een gebruikersaccount in te hoeven vullen.
+- Een Microsoft 365 E5-proefabonnement of betaalde abonnementen met de DNS-domein testlab.\<*your domain name*> geregistreerd.
+- Een eenvoudiger organisatie intranet, verbonden met internet, bestaande uit DC1-, APP1-en CLIENT1 virtuele machines op een subnet van een Azure virtueel netwerk.
+- Azure AD Connect draait op APP1 om de lijst van accounts en groepen van de Azure AD-tenant van uw Microsoft 365-abonnement te synchroniseren met het TESTLAB AD DS-domein.
+- Naadloze SSO van Azure AD is ingeschakeld, zodat computers in het gesimuleerde intranet zich kunnen aanmelden bij Microsoft 365 Cloud-bronnen zonder dat het wachtwoord van een gebruiker wordt opgegeven.
 
 ## <a name="next-step"></a>Volgende stap
 
@@ -124,5 +124,3 @@ Verken aanvullende [identiteits](m365-enterprise-test-lab-guides.md#identity)fun
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
-
-

@@ -3,7 +3,6 @@ title: Microsoft 365-gebruikersaccounts maken met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: In dit artikel vindt u informatie over het gebruik van PowerShell voor het maken van gebruikersaccounts of meerdere Microsoft 365-gebruikersaccounts.
-ms.openlocfilehash: 00ae8806e786eada092704febd65c72c72382788
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: aedcc4adba6171a63a5ddaeb87b20150e72b2a76
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235592"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580950"
 ---
 # <a name="create-microsoft-365-user-accounts-with-powershell"></a>Microsoft 365-gebruikersaccounts maken met PowerShell
 
@@ -41,7 +40,7 @@ Met PowerShell voor Microsoft 365 kunt u efficiënt gebruikersaccounts maken, me
 |**Naam** <br/> |Nee  <br/> ||
 |**LicenseAssignment** <br/> |Nee  <br/> |Dit is het licentie plan (ook wel bekend als het licentie plan of SKU) van waaruit een beschikbare licentie aan het gebruikersaccount is toegewezen. De licentie definieert de Microsoft 365-services die beschikbaar zijn voor account. Wanneer u het account maakt, hoeft u geen licentie toe te wijzen aan een gebruiker, maar het account vereist een licentie voor toegang tot Microsoft 365-Services. U hebt een licentie voor het gebruikersaccount van 30 dagen nadat u het hebt gemaakt. |
 |**Password** <br/> |Nee  <br/> | Als u geen wachtwoord opgeeft, wordt een willekeurig wachtwoord toegewezen aan het gebruikersaccount en wordt het wachtwoord weergegeven in de resultaten van de opdracht. Als u een wachtwoord opgeeft, moet u een wachtwoord van maximaal 16 ASCII-tekens opgeven, van een van de volgende drie typen: kleine letters, hoofdletters, cijfers en symbolen. <br/> |
-|**UsageLocation** <br/> |Nee  <br/> |Dit is een geldige ISO 3166-1 alpha-2 landcode. Bijvoorbeeld US voor de Verenigde Staten en FR voor Frankrijk. Het is belangrijk dat u deze waarde oplevert omdat sommige Microsoft 365-Services niet beschikbaar zijn in bepaalde landen, zodat u geen licentie kunt toewijzen aan een gebruikersaccount, tenzij deze waarde is geconfigureerd voor het account. Zie voor meer informatie [over licentiebeperkingen](https://go.microsoft.com/fwlink/p/?LinkId=691730).  <br/> |
+|**UsageLocation** <br/> |Nee  <br/> |Dit is een geldige ISO 3166-1 alpha-2 landcode. Bijvoorbeeld US voor de Verenigde Staten en FR voor Frankrijk. **Aangezien sommige Microsoft 365-Services niet in bepaalde landen beschikbaar zijn, kunt u geen licentie toewijzen aan een gebruikersaccount, tenzij deze waarde is geconfigureerd voor de account.** Zie voor meer informatie [over licentiebeperkingen](https://go.microsoft.com/fwlink/p/?LinkId=691730).  <br/> |
 
 >[!Note]
 >[Meer informatie over het maken van gebruikersaccounts](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) met het microsoft 365-Beheercentrum. Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.

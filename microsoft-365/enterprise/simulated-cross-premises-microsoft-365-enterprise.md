@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: 'Samenvatting: maak een gesimuleerd cross-premises virtueel netwerk in Microsoft Azure als een Microsoft 365-testomgeving.'
-ms.openlocfilehash: afbf294d0637c3454cedadec3268e74411a3c399
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ce8b1963e97decc58820bff7b563bb835a843772
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685722"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487646"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Gesimuleerd cross-premises virtueel netwerk in een Microsoft 365-testomgeving
 
@@ -64,7 +64,7 @@ U kunt de beschikbare omgeving gebruiken om de functies en functionaliteit van [
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Ga naar [Microsoft 365 for Enterprise test lab Guide](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a Visual Maps to the the the microsoft 365 for Enterprise test lab Guide.
+> Ga naar [Microsoft 365 for Enterprise test lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf) for a Visual Maps to the the the microsoft 365 for Enterprise test lab Guide.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>Fase 1: het virtuele TestLab-netwerk configureren.
 

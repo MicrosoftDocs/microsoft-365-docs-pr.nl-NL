@@ -1,5 +1,5 @@
 ---
-title: Beleidsregels voor Skype voor bedrijven online beheren met PowerShell
+title: Beleidsregels voor Skype voor Bedrijven Online beheren met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,14 +14,14 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
 description: 'Overzicht: PowerShell gebruiken voor het beheren van de eigenschappen van een gebruikersaccount van Skype voor bedrijven online met beleidsregels.'
-ms.openlocfilehash: 7657dae6fa1b27299e4cbc0cf6a311380cb90e9e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 20a75fa1c131f693fcf30d20477af5c9ee7aed35
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689404"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477039"
 ---
-# <a name="manage-skype-for-business-online-policies-with-powershell"></a>Beleidsregels voor Skype voor bedrijven online beheren met PowerShell
+# <a name="manage-skype-for-business-online-policies-with-powershell"></a>Beleidsregels voor Skype voor Bedrijven Online beheren met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
@@ -30,19 +30,22 @@ Als u een groot aantal eigenschappen van een gebruikersaccount voor Skype voor b
 ## <a name="before-you-begin"></a>Voordat u begint
 
 Voer de volgende instructies uit om de opdrachten uit te voeren (u kunt de stappen die u al hebt voltooid overslaan):
-  
-1. Download en installeer de [connector module van Skype voor bedrijven online](https://www.microsoft.com/download/details.aspx?id=39366).
-    
-2. Open een Windows PowerShell-opdrachtprompt en voer de volgende opdrachten uit: 
-    
-```powershell
-Import-Module SkypeOnlineConnector
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
-  ```
 
-Voer uw beheerdersaccount naam en wachtwoord voor Skype voor bedrijven online in wanneer hierom wordt gevraagd.
+  > [!Note]
+  > Skype voor bedrijven online connector maakt nu deel uit van de meest recente PowerShell-module van teams. Als u de meest recente versie van de openbare PowerShell-versie van PowerShell gebruikt, hoeft u de connector Skype voor bedrijven online niet te installeren.
+
+1. Installeer de [PowerShell-module teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+    
+2. Open een opdrachtprompt van Windows PowerShell en voer de volgende opdrachten uit: 
+
+   ```powershell
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   $sfbSession = New-CsOnlineSession -Credential $userCredential
+   Import-PSSession $sfbSession
+   ```
+
+   Voer uw beheerdersaccount naam en wachtwoord voor Skype voor bedrijven online in wanneer hierom wordt gevraagd.
     
 ## <a name="manage-user-account-policies"></a>Beleidsregels voor gebruikersaccounts beheren
 
@@ -124,7 +127,7 @@ Get-CsClientPolicy -Identity "Global"
 
 ## <a name="see-also"></a>Zie ook
 
-[Skype voor bedrijven online beheren met PowerShell](manage-skype-for-business-online-with-microsoft-365-powershell.md)
+[Skype voor Bedrijven Online beheren met PowerShell](manage-skype-for-business-online-with-microsoft-365-powershell.md)
   
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   

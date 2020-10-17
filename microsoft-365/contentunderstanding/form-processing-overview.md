@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Informatie over formulierverwerking in Microsoft SharePoint Syntex
-ms.openlocfilehash: 9b5b9b1c54220037e1c10f2722a641b526592f84
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 7340e0c78db71fbb0acc05c2985b60f6bafbba80
+ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338611"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48493671"
 ---
 # <a name="form-processing-overview"></a>Overzicht formulierverwerking
 
@@ -33,13 +33,9 @@ U kunt bijvoorbeeld een formulierverwerkingsmodel maken dat alle inkooporderdocu
 
 ![Documentbibliotheekweergave](../media/content-understanding/doc-lib-done.png)</br>  
 
-U kunt voorbeeldbestanden gebruiken om uw model te trainen en de informatie te definiëren die u uit het formulier wilt halen. De indeling van het document wordt geleerd door uw model te trainen. Het model leert hoe het gegevens uit soortgelijke locaties in uw formulieren kan halen, omdat die een vergelijkbare gestructureerde indeling hebben. 
+U gebruikt voorbeeldbestanden om uw model te trainen en de informatie te definiëren die u uit het formulier wilt halen. De indeling van het document wordt geleerd door het model te trainen. U hebt slechts vijf documenten nodig om aan de slag te gaan. AI Builder analyseert uw voorbeeldbestanden voor sleutel-waardeparen en u kunt ook handmatig de items identificeren die niet zijn gedetecteerd.  Met AI Builder kunt u de nauwkeurigheid van uw model testen op uw voorbeeldbestanden.
 
 U hebt minimaal vijf formulierdocumenten nodig om aan de slag te gaan. AI Builder analyseert uw voorbeeldbestanden voor sleutel-waardeparen en u identificeert vervolgens handmatig de items die niet zijn gedetecteerd.  Met AI Builder kunt u de nauwkeurigheid van uw model testen op uw voorbeeldbestanden.
-
-Nadat u het model hebt getraind en gepubliceerd, gebruikt u het om een [Power Automate Flow](https://docs.microsoft.com/power-automate/getting-started) te maken die wordt uitgevoerd nadat een bestand is geüpload naar de SharePoint-documentbibliotheek. Vervolgens extraheert het de gegevens die zijn geïdentificeerd in het model. De geëxtraheerde gegevens worden weergegeven in kolommen in de documentbibliotheekweergave van uw model.
-
-U gebruikt voorbeeldbestanden om uw model te trainen en de informatie te definiëren die u uit het formulier wilt halen. De indeling van het document wordt geleerd door het model te trainen. U hebt slechts vijf documenten nodig om aan de slag te gaan. AI Builder analyseert uw voorbeeldbestanden voor sleutel-waardeparen en u kunt ook handmatig de items identificeren die niet zijn gedetecteerd.  Met AI Builder kunt u de nauwkeurigheid van uw model testen op uw voorbeeldbestanden.
 
 Nadat u het model hebt getraind en gepubliceerd, maakt het model een [Power Automate Flow](https://docs.microsoft.com/power-automate/getting-started). Deze flow wordt uitgevoerd wanneer een bestand wordt geüpload naar de SharePoint -documentbibliotheek, waarbij de gegevens die zijn geïdentificeerd in het model worden geëxtraheerd. De geëxtraheerde gegevens worden weergegeven in kolommen in de documentbibliotheekweergave van uw model.
 

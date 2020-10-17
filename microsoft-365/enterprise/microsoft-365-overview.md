@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2019
+ms.date: 10/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, abonnementen en implementatie paden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 53cc91a2b5e756fcf4ec8fcc5371795bcfb8342c
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: d34ddd9b577f4baff4ebb77f84f48bf2b779c93c
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487150"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -104,17 +104,17 @@ U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-3
 
 ## <a name="plan-for-and-deploy"></a>Plannen en implementeren
 
-Er zijn drie manieren om te plannen voor het implementeren van de producten, functies en onderdelen van Microsoft 365 voor bedrijven:
+Er zijn drie manieren om producten, functies en onderdelen van Microsoft 365 voor ondernemingen te plannen en te implementeren:
 
-- In samenwerking met FastTrack:
+- In samenwerking met FastTrack
 
    Met FastTrack kunnen Microsoft-technici u op uw eigen tempo laten overstappen naar de Cloud. Zie [FastTrack voor Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
 
-- Met de hulp van Microsoft Consulting Services of een [Microsoft-partner](https://partner.microsoft.com/):
+- Met de hulp van Microsoft Consulting Services of een [Microsoft-partner](https://partner.microsoft.com/)
 
    Consultants kunnen uw huidige infrastructuur analyseren en u helpen bij het ontwikkelen van een plan om alle software en services van Microsoft 365 voor ondernemingen te gaan gebruiken.
 
-- Doe het zelf:
+- Doe het zelf
 
    Begin met de [Netwerkroutekaart](networking-roadmap-microsoft-365.md) om uw bestaande infrastructuur en productiviteitsbelastingen op te bouwen of te verifiëren.
 

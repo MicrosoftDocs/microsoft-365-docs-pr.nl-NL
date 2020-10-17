@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: U hebt een snellere planning en configuratie van Microsoft 365 of Office 365 met instel hulpmiddelen.
-ms.openlocfilehash: fd9d9a3b65f3a4e47604299c47a85d8c5e551149
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 215f51af1fc553ef0710565af0a7c25111de8328
+ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446937"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48493695"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Installatie handleidingen voor Microsoft 365 en Office 365-Services
 
@@ -90,6 +90,17 @@ Windows virtueel bureaublad is een uitgebreide bureaublad-en app-virtualisatieso
 
 De [Installatiehandleiding voor het Windows-bureaublad](https://aka.ms/wvdsetupguide) biedt beheerders ondersteuning voor het plannen van bronnen en de vereisten voor implementatie, installatie-instructies en aanvullende bronnen. 
 
+### <a name="microsoft-edge-deployment-advisor"></a>Microsoft Edge Deployment adviseur
+
+Microsoft Edge is opnieuw samengesteld op basis van de bodem, zodat u de compatibiliteit en prestaties van de wereld en de ervaring, de veilig en privacy en de beste functies waarmee u het beste van Internet kunt meenemen, kunt overgaan.
+
+De [Microsoft Edge-implementatie adviseur](https://aka.ms/edgeadvisor) helpt u bij het configureren van site detectie voor Enterprise, zodat u kunt zien welke sites in uw organisatie de IE-modus moeten gebruiken, belangrijke beveiligingsfuncties moeten configureren en extra beleidsregels kunnen gebruiken om te voldoen aan de vereisten van uw organisatie en om Web Access te beheren op uw apparaten. U kunt Microsoft Edge downloaden naar afzonderlijke apparaten, of we laten u zien hoe u een implementatie uitvoert naar meerdere gebruikers in uw organisatie met behulp van Configuration Manager of Microsoft intune.
+Windows virtueel bureaublad is een uitgebreide bureaublad-en app-virtualisatiesoftware die wordt uitgevoerd in de Cloud. Het is de enige VDI (Virtual Desktop Infrastructure) voor eenvoudiger beheer, meervoudige Windows 10, optimalisering voor Microsoft 365-apps en ondersteuning voor RDS-omgevingen (Remote Desktop Services). Implementeer en schaal uw Windows-bureaubladen en-apps in een paar minuten en profiteer van de ingebouwde functies voor beveiliging en naleving. 
+
+### <a name="intune-configuration-manager-co-management-setup-guide"></a>Installatiehandleiding voor cotune Configuration Manager
+
+Gebruik de [Installatiehandleiding voor het intune Configuration Manager-co-beheer](https://aka.ms/comanagementsetup) voor bestaande Configuration Manager-clientapparaten en nieuwe apparaten op Internet die uw organisatie wil samenstellen met zowel Microsoft intune als Configuration Manager. Met deze handleiding voor de implementatie van co-management kunt u Windows 10-apparaten beheren en nieuwe functionaliteit toevoegen aan de apparaten van uw organisatie, terwijl u de voordelen van beide oplossingen ontvangt.
+
 ## <a name="guides-for-authentication-and-access"></a>Handleidingen voor verificatie en toegang
 
 ### <a name="azure-ad-setup-guide"></a>Installatiehandleiding voor Azure AD
@@ -97,6 +108,10 @@ De [Installatiehandleiding voor het Windows-bureaublad](https://aka.ms/wvdsetupg
 De [Installatiehandleiding voor Azure AD](https://aka.ms/aadpguidance) biedt informatie waarmee u ervoor kunt zorgen dat uw organisatie een sterke beveiligings basis heeft. In deze handleiding zet u de eerste functies, zoals Azure op rollen gebaseerd toegangsbeheer (Azure RBAC) voor beheerders, Azure AD Connect voor uw on-premises adreslijst en Azure AD Connect Health, zodat u de status van uw hybride identiteit tijdens automatische synchronisatie kunt controleren. 
 
 Dit omvat ook belangrijke informatie over het inschakelen van het instellen van selfservice wachtwoorden, voorwaardelijke toegang en geïntegreerde aanmelding van derden, waaronder optionele geavanceerde identiteitsbeveiliging en automatisering van gebruikers inrichten.
+
+### <a name="sync-users-from-your-orgs-directory"></a>Gebruikers synchroniseren vanuit de adreslijst van uw organisatie
+
+Met de [wizard gebruikers synchroniseren vanuit de adreslijst van uw organisatie](https://aka.ms/directorysyncsetup) begeleidt u door adreslijstsynchronisatie in te schakelen. Dit brengt uw on-premises-en Cloud identiteit samen voor eenvoudiger toegang en vereenvoudigd beheer. Ontgrendel nieuwe functies, zoals eenmalige aanmelding, selfservice opties, automatisch inrichten van accounts, voorwaardelijke toegangsregeling en nalevingsbeleid. Hierdoor weet u zeker dat uw gebruikers overal toegang hebben tot de bronnen die ze nodig hebben.
 
 ### <a name="plan-your-passwordless-deployment"></a>Uw implementatie met een wachtwoord plannen
 

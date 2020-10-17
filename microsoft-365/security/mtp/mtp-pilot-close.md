@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 1a7b87432ce1eb16c29f462fb4865bfa5c5e2201
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: e56ba8933947c37db3e558ef36dd6d305915040f
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418095"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487622"
 ---
 # <a name="closing-and-summarizing-your-microsoft-threat-protection-pilot"></a>Uw proef Microsoft Threat Protection sluiten en samenvatten  
 
@@ -87,7 +87,7 @@ De uiteindelijke uitvoer moet:
 - Een gedetailleerd rapport van de bevindingen van de pilot
 - Een beslissing over hoe u verdergaat
 
-De rapporten presenteren vanaf de laatste uitvoer beide interne belanghebbenden (die u tijdens de [voorbereidende](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) fase hebt geïdentificeerd) en Microsoft-contactpersonen. Een dergelijk vermogen zorgt ervoor dat alle feedback kan worden gebruikt om producten en documentatie te verbeteren.
+De rapporten presenteren met de laatste uitvoer naar interne belanghebbenden (die u tijdens de [voorbereidende](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) fase hebt geïdentificeerd) en Microsoft-contactpersonen. Een dergelijk vermogen zorgt ervoor dat alle feedback kan worden gebruikt om producten en documentatie te verbeteren.
 
 We hopen dat u deze simulatie bevalt. Begin met de implementatie van wat u hebt geleerd van een grotere schaal in uw organisatie om optimaal gebruik te maken van de geïntegreerde beveiligingsoplossing.
 

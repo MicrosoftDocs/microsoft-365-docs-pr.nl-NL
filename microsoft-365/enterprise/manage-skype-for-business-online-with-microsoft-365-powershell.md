@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Gebruik PowerShell voor Microsoft 365 om beleidsregels voor Skype voor Bedrijven Online, beleidsregels per gebruiker en vergaderingsinstellingen te beheren.
-ms.openlocfilehash: d50f35d7d5e81622eb8dfc3bbf8328a8c43e9676
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: ff35463dc0c2e16106432c393b10e31e6bf0a5d2
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430032"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477099"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>Skype voor Bedrijven Online beheren met PowerShell
 
@@ -29,21 +29,24 @@ De beheerders van Skype voor Bedrijven Online zijn verantwoordelijk voor het bel
 
 ## <a name="before-you-start"></a>Voordat u van start gaat
 
-Download en installeer de [Skype voor Business Online Windows PowerShell-module](https://www.microsoft.com/download/details.aspx?id=39366) en start de computer vervolgens opnieuw op.
+  > [!Note]
+   > Skype voor Bedrijven Online-connector maakt momenteel deel uit van de nieuwste Teams PowerShell-module. Als u de meest recente openbare versie van Teams PowerShell gebruikt, hoeft u de Skype voor Bedrijven Online-connector niet te installeren.
+   
+Installeer de [Teams PowerShell-module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
 
 
-## <a name="connect-using-skype-for-business-online-admin-credentials"></a>Verbinding maken met de beheerdersreferenties van Skype voor Bedrijven Online
+## <a name="connect-using-admin-credentials"></a>Verbinding maken met beheerdersreferenties.
 
 1. Open een opdrachtpromptvenster van Windows PowerShell en voer de volgende opdrachten uit:
     
    ```powershell
-   Import-Module SkypeOnlineConnector
+   Import-Module MicrosoftTeams
    $userCredential = Get-Credential
    $sfbSession = New-CsOnlineSession -Credential $userCredential
    Import-PSSession $sfbSession
    ```
 
-2. Voer in het dialoogvenster **Referentieaanvraag voor Windows PowerShell** de naam en het wachtwoord van uw administratoraccount voor Skype voor Bedrijven Online en klik **OK**.
+2. Voer in het dialoogvenster **Referentieaanvraag voor Windows PowerShell** de naam en het wachtwoord van uw administrator-account en selecteer **OK**.
 
 
 ## <a name="connect-using-an-admin-account-with-multi-factor-authentication"></a>Verbinding maken met een beheerdersaccount met meervoudige verificatie
@@ -51,7 +54,7 @@ Download en installeer de [Skype voor Business Online Windows PowerShell-module]
 1. Open een Windows PowerShell-opdrachtpromptvenster en voer de volgende opdrachten uit:
 
    ```powershell
-   Import-Module SkypeOnlineConnector
+   Import-Module MicrosoftTeams
    $sfbSession = New-CsOnlineSession
    Import-PSSession $sfbSession
    ```

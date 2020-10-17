@@ -3,7 +3,6 @@ title: Eigenschappen van Microsoft 365-gebruikersaccounts configureren met Power
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +18,12 @@ ms.custom:
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
 description: 'Overzicht: gebruik PowerShell voor Microsoft 365 om eigenschappen van afzonderlijke of meerdere gebruikersaccounts in uw Microsoft 365-Tenant te configureren.'
-ms.openlocfilehash: 6a435b3981efa8d8c2be7f6d983a1d062237f0db
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: ae797d67b47c637dc95176b92fad8090f8a7ab37
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688912"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580926"
 ---
 # <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>Eigenschappen van Microsoft 365-gebruikersaccounts configureren met PowerShell
 
@@ -34,7 +33,7 @@ Hoewel u het Microsoft 365-Beheercentrum kunt gebruiken om de eigenschappen van 
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph module gebruiken
 
-Voor het configureren van eigenschappen voor gebruikersaccounts met de module Azure Active Directory PowerShell voor Graph, gebruikt u de cmdlet [set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) en geeft u de eigenschappen op die u wilt instellen of wijzigen. 
+Voor het configureren van eigenschappen voor gebruikersaccounts met de module Azure Active Directory PowerShell voor Graph, gebruikt u de cmdlet [set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) en geeft u de eigenschappen op die u wilt instellen of wijzigen. 
 
 Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
    
@@ -74,8 +73,11 @@ U identificeert het account met de parameter **-ObjectID** en stelt of wijzigt s
     
     Dit is de ISO 3166-1 alfa-2 (a2) land-of regiocode van twee letters.
     
-Zie [set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) voor aanvullende parameters.
+Zie [set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) voor aanvullende parameters.
 
+>[!Note]
+>Voordat u licenties kunt toewijzen aan een gebruikersaccount, moet u een gebruikslocatie toewijzen.
+>
 
 Voer de volgende opdracht uit om de User Principal-naam van uw gebruikersaccounts weer te geven.
   
@@ -152,7 +154,7 @@ Voor het configureren van eigenschappen voor gebruikersaccounts met de Microsoft
 Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
   
 >[!Note]
->De PowerShell-core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met **MSOL** in de naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 >
 
 ### <a name="change-properties-for-a-specific-user-account"></a>Eigenschappen van een specifiek gebruikersaccount wijzigen
@@ -264,11 +266,11 @@ Met deze opdracht wordt PowerShell overgeïnstrueerd:
 - Zoek alle gebruikersaccounts waarvan de afdelings eigenschap is ingesteld op ' Accounting ' (**waarbij {$ _. Afdeling-EQ "accounting"}**) en stuurt de resultaten naar de volgende opdracht ( **|** ).
     
 - Stel de locatie van de gebruiker in op Frankrijk (**set-MsolUser-UsageLocation "FR"**).
-    
+
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365-gebruikersaccounts, licenties en groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   

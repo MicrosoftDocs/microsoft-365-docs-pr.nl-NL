@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd437141f80b80370abeec7585596892f2434655
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 89708efa6a34b5ca7a302ba0ad331a2dac99f5d9
+ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446567"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48477152"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -48,34 +48,69 @@ Met dit rapport kunt u:
 - [Een automatisch onderzoek en antwoord proces starten vanuit een weergave in Verkenner (alleen voor het](#start-automated-investigation-and-response) ATP-abonnement 2)
 - ... [Onderzoek kwaadaardige e-mail en nog veel meer](#more-ways-to-use-explorer-or-real-time-detections).
 
+## <a name="tags-in-threat-explorer"></a>Labels in de Threat Explorer
+
+> [!NOTE] 
+> De functie gebruikers Tags is in voorbeeld, is niet beschikbaar voor iedereen, en kan veranderen. Voor informatie over de release planning raadpleegt u het Microsoft 365-wegwijzer.
+
+Gebruikers Tags zijn id's voor specifieke groepen gebruikers in Microsoft Defender voor Office 365. Zie voor meer informatie over tags, licenties en het configureren van Tags hier meer: [gebruikers Tags in Office 365 ATP](user-tags.md).
+
+In de bedreigings Verkenner kunt u informatie over gebruikers Tags zien in de volgende functies:
+
+#### <a name="email-grid-view"></a>Weergave van e-mail raster
+
+De kolom Tags die in het raster van de e-mail worden weergegeven, bevat alle labels die zijn toegepast op de afzender of de postvakken van de geadresseerde. Standaard worden in systeem Tags zoals prioritaire accounts eerst weergegeven.
+
+![Labels filteren](../../media/tags-grid.png)
+
+#### <a name="filtering"></a>Bewerkingen
+We hebben nu labels als een filter, zodat u precies achter de prioriteits accounts kunt, of specifieke scenario's voor gebruikers Tags, en zelfs resultaten met bepaalde Tags uitsluit als onderdeel van deze ervaring. U kunt deze functie combineren met de verschillende filters die we bieden en helpt u om uw onderzoek bereik te beperken
+
+![Labels filteren](../../media/tags-filter-normal.png)
+
+![Geen labels filteren](../../media/tags-filter-not.png)
+
+#### <a name="email-detail-flyout"></a>Flyout e-mail Details
+Als u de afzonderlijke labels voor afzender en geadresseerde wilt weergeven, klikt u op het onderwerp. De vervolgmenu berichtdetails wordt geopend. Op het tabblad Samenvatting worden de labels voor de afzender en de geadresseerden apart weergegeven, als deze beschikbaar zijn voor een e-mailbericht.
+De informatie over de afzonderlijke Tags voor afzender en geadresseerde, wordt ook uitgebreid naar geëxporteerde CSV, waar u deze details in twee afzonderlijke kolommen kunt zien. 
+
+![Tags voor e-mail gegevens](../../media/tags-flyout.png)
+
+Informatie over labels wordt ook weergegeven in de vervolgmenu URL-klikken. Als u wilt zoeken naar de URL klikken op flyout, gaat u naar de weergave voor phishing of alle E-mail en klikt u vervolgens op de tab Url's of URL op de tab-toets. Als u op een enkele URL-vervolg optie klikt, wordt er meer informatie weergegeven over de klikken voor die URL 
+
+![URL-Tags](../../media/tags-urls.png)
+
 ## <a name="improvements-to-threat-hunting-experience-upcoming"></a>Verbeteringen in de ervaring voor de jacht-ervaring (binnenkort)
 
 ### <a name="updated-threat-information-for-emails"></a>Update van bedreigings informatie voor e-mailberichten
 
-We hebben ons gefocust over verbeteringen in platform en gegevenskwaliteit om de nauwkeurigheid en consistentie van de gegevens te verbeteren. Deze set updates omvat consolidatie van voorlopige informatie en informatie over de levering (de voorbeeld actie die voor een e-mailbericht wordt uitgevoerd als onderdeel van ZAP-proces) in één record, samen met toegevoegde verouderings locaties, zoals spam Verdict. 
+We hebben ons gefocust over verbeteringen in platform en gegevenskwaliteit om de nauwkeurigheid en consistentie van de gegevens te verbeteren. Deze set updates omvat een consolidatie van pre-leveringsinformatie (de actie die is uitgevoerd voor een e-mailbericht als onderdeel van het ZAP-proces) tot één record, met een opvallende veroudering, zoals spam Verdict, niveau bedreigingen op entiteitsniveau (zoals de URL is schadelijk) en de nieuwste bezorgingslocaties. 
 
 Na deze updates ziet u één vermelding voor elk bericht, ongeacht de diverse gebeurtenissen na de levering die op het bericht plaatsvonden. U kunt ook ZAP, handmatig herstel (dat wil zeggen beheerdersactie), dynamische levering, etc. 
 
 Naast malware en phishing is het ook mogelijk om spam verdict te zien die zijn gekoppeld aan een e-mailbericht. In het e-mailbericht ziet u alle bedreigingen van de e-mail, samen met de bijbehorende detectie technologieën. U kunt elk e-mailbericht 0, 1 of meerdere bedreigingen hebben. In het gedeelte Details van de E-mail flyout ziet u de huidige bedreigingen. Daarnaast zou voor meerdere bedreigingen (bijvoorbeeld een e-mailbericht met malware en phishing) de Threat-Detection-toewijzing geven, wat betekent dat de detectie tech leidde tot het identificeren van de bedreiging.
 
-De set detectie technologieën is bijgewerkt met nieuwe detectiemethoden, en de spam detectie technologieën, en aross alle verschillende e-mail weergaven (malware, phishing, alle E-mail), u hebt dezelfde, consistente sets detectie technologieën om de resultaten te filteren. 
+De set detectie technologieën is bijgewerkt met nieuwe detectiemethoden, en ook voor de detectie technologieën van spam, en overal in de verschillende e-mail weergaven (malware, phishing, alle e-mailberichten) hebt u dezelfde, consistente set detectie technologieën om de resultaten te filteren. 
 
-**Opmerking**: verdict-analyse kan niet noodzakelijkerwijs aan entiteiten zijn gebonden. Voorbeeld: een e-mailbericht kan als phishing of spam worden geclassificeerd, maar er zijn geen Url's die een phishing-of spam Verdict. Dit komt doordat de filters ook inhoud en andere details van een e-mailbericht evalueren voordat ze een verdict toewijzen. 
+> [!NOTE]
+> Verdict-analyse kan niet noodzakelijkerwijs aan entiteiten zijn gebonden. Voorbeeld: een e-mailbericht kan als phishing of spam worden geclassificeerd, maar er zijn geen Url's die een phishing-of spam Verdict. Dit komt doordat de filters ook inhoud en andere details van een e-mailbericht evalueren voordat ze een verdict toewijzen. 
  
 #### <a name="threats-in-urls"></a>Bedreigingen in Url's
 
 In de vervolgmenu e-mail-> tabblad Details ziet u nu een specifieke bedreiging voor de URL (de bedreiging voor een URL kan malware, phishing, spam of geen) worden weergegeven.
 
-![URL-bedreigingen](../../media/URL_Threats.png)
+> [!div class="mx-imgBorder"]
+> ![URL-bedreigingen](../../media/URL_Threats.png)
 
 ### <a name="updated-timeline-view-upcoming"></a>Bijgewerkte tijdlijnweergave (binnenkort)
 
-![Bijgewerkte tijdlijnweergave](../../media/Email_Timeline.png)
+> [!div class="mx-imgBorder"]
+> ![Bijgewerkte tijdlijnweergave](../../media/Email_Timeline.png)
 
-Naast het identificeren van alle activiteiten met betrekking tot bezorging en na levering, biedt de tijdlijnweergave ook informatie over de bedreiging die op dat moment is geïdentificeerd voor een subset van deze gebeurtenissen. Ook krijgt u meer informatie over extra acties (bijvoorbeeld ZAP, handmatig herstel), samen met het resultaat van die actie. De tijdlijnweergave bevat informatie over de oorspronkelijke bezorgings periode en daaropvolgende gebeurtenissen na de bezorging van een e-mailbericht.
+Naast het identificeren van alle activiteiten met betrekking tot bezorging en na levering, biedt de tijdlijnweergave ook informatie over de bedreiging die op dat moment is geïdentificeerd voor een subset van deze gebeurtenissen. Ook krijgt u meer informatie over extra acties (bijvoorbeeld, ZAP, handmatig herstel), samen met het resultaat van die actie. De tijdlijnweergave bevat informatie over de oorspronkelijke bezorgings periode en daaropvolgende gebeurtenissen na de bezorging van een e-mailbericht.
 
 -   Bron: dit kan de beheerder/het systeem/de gebruiker zijn op basis van de bron van de gebeurtenis.
--   Gebeurtenis: Dit geldt ook voor gebeurtenissen op het hoogste niveau zoals originele levering, handmatig herbemiddeling, ZAP, inzendingen en dynamische bezorging.
+-   Gebeurtenis: Dit omvat gebeurtenissen op het hoogste niveau zoals de oorspronkelijke levering, handmatig herbemiddeling, ZAP, inzendingen en dynamische bezorging.
 -   Actie: Dit geldt voor de specifieke actie die is uitgevoerd als onderdeel van ZAP-of beheerdersactie (zoals een tijdelijke verwijdering).
 -   Threats: behandelt de bedreigingen (malware, phishing en spam) die op dat moment identificeren.
 -   Resultaat/informatie: Hier vindt u meer informatie over het resultaat van de actie, ongeacht of de actie is uitgevoerd als onderdeel van ZAP/admin.
@@ -86,27 +121,31 @@ De bezorgingslocatie bevindt zich nu in het raster en de e-mail flyout van de e-
 
 Op de oorspronkelijke bezorgingslocatie vindt u meer informatie over de locatie van een e-mailbericht dat u aanvankelijk ontvangt. De meest recente bezorgingslocatie bevat locaties waar een e-mailbericht mogelijk is gelost na systeemacties zoals ZAP-of beheeracties, zoals **verplaatsen naar verwijderde items**. Nieuwste bezorgingslocatie is bedoeld om beheerders op de hoogte te stellen van de laatste locatie van de publicatie na de bezorging van het bericht of van systeem/beheer-acties. Op basis van ontwerpen bevat dit geen activiteiten met betrekking tot de eindgebruikers van de e-mail. Bijvoorbeeld: als een gebruiker een bericht verwijdert of het bericht verplaatst naar archief-of PST-bestand, wordt het bericht ' bezorgingslocatie ' niet bijgewerkt. Als een systeemactie de locatie echter heeft bijgewerkt (bijvoorbeeld ZAP resulteerde in een e-mailbericht dat overstapt naar Quarantine), ziet u de nieuwste bezorgingslocatie in quarantaine. 
 
-![Bijgewerkte bezorgingslocaties](../../media/Updated_Delivery_Location.png)
+> [!div class="mx-imgBorder"]
+> ![Bijgewerkte bezorgingslocaties](../../media/Updated_Delivery_Location.png)
 
-**Opmerking**: in de volgende gevallen wordt de bezorgingslocatie en de bezorgings actie weergegeven:
+> [!NOTE]
+> In sommige gevallen wordt de bezorgingslocatie en de bezorgings actie weergegeven als de waarde:
+> 
+> - U ziet mogelijk de bezorgingslocatie als afgeleverd, en de bezorgingslocatie is onbekend. Dit gebeurt als het bericht is bezorgd, maar een regel voor Postvak in het bericht heeft verplaatst naar een standaardmap (concept, archief, etc.) in plaats van het postvak in of de map Ongewenste E-mail. 
+> 
+> - De meest recente bezorgingslocatie kan niet worden herkend als een beheerder/systeemactie (bijvoorbeeld, ZAP, admin actie) wordt geprobeerd, maar het bericht niet is gevonden. Meestal gebeurt de actie wanneer de gebruiker het bericht heeft verplaatst of verwijderd. In dergelijke gevallen controleert u de kolom resultaat/Details in de tijdlijnweergave. Zoek het bericht: bericht is verplaatst of verwijderd door de gebruiker.
 
-- U ziet mogelijk de bezorgingslocatie als afgeleverd, en de bezorgingslocatie is onbekend. Dit gebeurt als het bericht is bezorgd, maar een regel voor Postvak in het bericht heeft verplaatst naar een standaardmap (concept, archief, etc.) in plaats van het postvak in of de map Ongewenste E-mail. 
-
-- De meest recente bezorgingslocatie kan niet worden herkend als een beheerder/systeemactie (bijvoorbeeld, ZAP, admin actie) wordt geprobeerd, maar het bericht niet is gevonden. Meestal gebeurt de actie wanneer de gebruiker het bericht heeft verplaatst of verwijderd. In dergelijke gevallen controleert u de kolom resultaat/Details in de tijdlijnweergave. Zoek het bericht: bericht is verplaatst of verwijderd door de gebruiker.
-
-![Bezorgingslocaties voor tijdlijn](../../media/Updated_Timeline_Delivery_Location.png)
+> [!div class="mx-imgBorder"]
+> ![Bezorgingslocaties voor tijdlijn](../../media/Updated_Timeline_Delivery_Location.png)
 
 ### <a name="additional-actions"></a>Aanvullende acties 
 
-Aanvullende acties bestaan uit de acties die zijn toegepast op de bezorging van het e-mailbericht, en kunnen ZAP, handmatige herstelbewerkingen (actie die worden uitgevoerd door een admi; n voorbeeld van een onverwachte verwijdering), dynamische bezorging en opnieuw verwerkte (een e-mailbericht met een terugwerkend e-mailbericht). 
+Aanvullende acties bestaan uit de acties die zijn toegepast op de bezorging van de E-mail, en kunnen ZAP, handmatig herstel (actie die worden uitgevoerd door een beheerder, zoals een tijdelijke verwijdering), dynamische bezorging en opnieuw verwerkte (een e-mailbericht dat via een e-mailbericht is verzonden. 
 
 > [!NOTE]
 >
 > - Als onderdeel van deze wijziging wordt de verwijderde naam van de ZAP-waarde die op dat moment is geoppereerd in het bezorgings filter weggegooid. U kunt ook zoeken naar alle e-mailberichten met de ZAP-poging via de aanvullende acties.
 >
-> -Er worden nieuwe velden en waarden voor detectie technologieën en extra acties (met name voor ZAP-scenario's) weergegeven. Evalueer uw bestaande opgeslagen Query's en bijgehouden query's om ervoor te zorgen dat ze werken met de nieuwe waarden. 
+> - Er worden nieuwe velden en waarden weergegeven voor detectie technologieën en extra acties (met name voor ZAP-scenario's). Evalueer uw bestaande opgeslagen Query's en bijgehouden query's om ervoor te zorgen dat ze werken met de nieuwe waarden. 
 
-![Additional_Actions](../../media/Additional_Actions.png)
+> [!div class="mx-imgBorder"]
+> ![Additional_Actions](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>Systeem overschrijvingen 
 
@@ -120,18 +159,23 @@ Systeem overschrijvingen zijn een methode voor het aanstellen van uitzonderingen
 
 ![System_Overrides](../../media/System_Overrides.png)
 
-![System_Overrides_Grid](../../media/System_Overrides_Grid.png)
+> [!div class="mx-imgBorder"]
+> ![System_Overrides_Grid](../../media/System_Overrides_Grid.png)
+
 
 ### <a name="improvements-around-url-and-clicks-experience"></a>Verbeteringen rond URL'S en klikken
 
-De gefocuste functies op URL en URL klikken op gegevens zijn:
+De reeks verbeteringen die zijn gericht op URL en URL klikken op gegevens zijn:
 
--   Het weergeven van de volledige geklikt URL (waaronder query parameters die deel uitmaken van de URL) binnen de Click-sectie in URL-flyout. Op dit moment wordt het URL-domein en pad weergegeven op de titelbalk. We verlengen deze informatie om de volledige URL weer te geven.
--   Oplossingen voor URL-filters (URL versus URL Domain versus URL Domain en Path): er zijn updates voor het zoeken naar berichten die een URL bevatten/Klik op Verdict. Daarom hebben we ondersteuning ingeschakeld voor protocol agnostic-zoekopdrachten (dat wil zeggen dat u rechtstreeks kunt zoeken naar een URL zonder http). Standaard wordt via URL'S gezocht naar http, tenzij expliciet is opgegeven. Bijvoorbeeld:
+ - Het weergeven van de volledige geklikt URL (waaronder query parameters die deel uitmaken van de URL) binnen de Click-sectie in URL-flyout. Op dit moment wordt het URL-domein en pad weergegeven op de titelbalk. We verlengen deze informatie om de volledige URL weer te geven.
+ 
+ - Oplossingen voor URL-filters (URL versus URL Domain versus URL Domain en Path): er zijn updates voor het zoeken naar berichten die een URL bevatten/Klik op Verdict. Daarom hebben we ondersteuning ingeschakeld voor protocol agnostic-zoekopdrachten (dat wil zeggen dat u rechtstreeks kunt zoeken naar een URL zonder http). Standaard wordt via URL'S gezocht naar http, tenzij expliciet is opgegeven. Bijvoorbeeld:
 
-  a.    Zoek met en zonder het `http://` voorvoegsel in de URL-, het URL-domein en de url's-domein en-pad filtervelden. Dit gedrag is consistent en moet hetzelfde resultaat weergeven.
-  b.    Zoek het `https://` voorvoegsel in URL. Wanneer u dit niet doet, `http://` wordt uitgegaan van het voorvoegsel.
-  c.     `/` aan het begin en einde van de velden URL-pad, URL-domein en pad, wordt genegeerd. `/` aan het einde van het veld URL wordt genegeerd. 
+   1. Zoek met en zonder het `http://` voorvoegsel in de URL-, het URL-domein en de url's-domein en-pad filtervelden. Dit gedrag is consistent en moet hetzelfde resultaat weergeven.
+   
+   1. Zoek het `https://` voorvoegsel in URL. Wanneer u dit niet doet, `http://` wordt uitgegaan van het voorvoegsel.
+   
+   1. `/` aan het begin en einde van de velden URL-pad, URL-domein en pad, wordt genegeerd. `/` aan het einde van het veld URL wordt genegeerd. 
 
 ### <a name="phish-confidence-level"></a>Betrouwbaarheidsniveau voor phishing
 
@@ -141,7 +185,7 @@ Met betrouwbaarheid van phishing kunt u de mate van betrouwbaarheid identificere
 
 ### <a name="zap-url-signal"></a>ZAP-URL-signaal 
 
-Wordt meestal gebruikt voor ZAP-phishing-scenario's waarbij een e-mailbericht als phishing is aangemerkt en na levering is verwijderd. Dit wordt gebruikt om de waarschuwing te verbinden met de overeenkomstige resultaten in Explorer. Het is een van de IOCs voor de waarschuwing. 
+Dit wordt meestal gebruikt voor het melden van scenario's van ZAP-phishing, waarbij een e-mailbericht als phishing is geïdentificeerd en na levering is verwijderd Dit wordt gebruikt om de waarschuwing te verbinden met de overeenkomstige resultaten in Explorer. Het is een van de IOCs voor de waarschuwing. 
 
 ## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Ervaar verbeteringen in de bedreigings Verkenner en Real-Time detectie
 
@@ -156,7 +200,8 @@ Als onderdeel van de verbetering van de jacht, hebben we enkele updates gemaakt 
 
 U ziet de tijdzone voor de e-mail records binnen de portal en voor de geëxporteerde gegevens. De tijdzone is zichtbaar in functies zoals E-mail raster, Details flyout, e-mail tijdlijn en soortgelijke E-mail, zodat de tijdzone voor de resultatenset duidelijk is voor de gebruiker.
 
-![Tijdzone weergeven in Verkenner](../../media/TimezoneImprovements.png)
+> [!div class="mx-imgBorder"]
+> ![Tijdzone weergeven in Verkenner](../../media/TimezoneImprovements.png)
 
 ### <a name="update-in-the-refresh-process"></a>Bijwerken in het vernieuwingsproces
 
@@ -164,19 +209,22 @@ We hebben uw feedback om verwarring met automatisch vernieuwen (bijvoorbeeld voo
 
 Vanuit het oogpunt van de ervaring kan de gebruiker een verschillend bereik van filters (uit de filtersset en datum) toepassen en verwijderen en vervolgens op de knop Vernieuwen klikken om de resultaten te filteren nadat deze zijn uitgevoerd met het definiëren van de query. De knop Vernieuwen is ook bijgewerkt, zodat deze duidelijk op het scherm wordt weergegeven. We hebben ook Scherminfo en documentatie ter informatie bijgewerkt.
 
-![Klik op vernieuwen om resultaten te filteren](../../media/ManualRefresh.png)
+> [!div class="mx-imgBorder"]
+> ![Klik op vernieuwen om resultaten te filteren](../../media/ManualRefresh.png)
 
 ### <a name="chart-drilldown-to-add-to-filters"></a>DrillDown voor de grafiek om toe te voegen aan filters
 
 U kunt nu op de waarden van de grafieklegenda klikken om deze waarde als een filter toe te voegen. Houd er rekening mee dat u altijd op de knop Vernieuwen hoeft te klikken om de resultaten te filteren als onderdeel van de hierboven beschreven wijziging.
 
-![DrillDown via grafieken om te filteren](../../media/ChartDrilldown.png)
+> [!div class="mx-imgBorder"]
+> ![DrillDown via grafieken om te filteren](../../media/ChartDrilldown.png)
 
 ### <a name="in-product-information-updates"></a>Updates voor productgegevens
 
 U moet ook aanvullende informatie binnen het product zien. Bijvoorbeeld het totale aantal zoekresultaten in het raster (zie hieronder), en verbeteringen rond labels, foutberichten en Scherminfo, voor meer informatie over filters, zoekervaring en resultatensets.
 
-![Info over product weergeven](../../media/ProductInfo.png)
+> [!div class="mx-imgBorder"]
+> ![Info over product weergeven](../../media/ProductInfo.png)
 
 ## <a name="extended-capabilities-in-threat-explorer"></a>Uitgebreide mogelijkheden in de bedreigings Verkenner
 
@@ -185,7 +233,8 @@ U moet ook aanvullende informatie binnen het product zien. Bijvoorbeeld het tota
 De lijst met de belangrijkste gebruikers wordt nu weergegeven in de malware-weergave voor e-mailberichten (binnen de sectie belangrijkste Malware-families). Deze weergave wordt ook binnen phishing en alle e-mail weergaven uitgebreid, waar u de vijf beste bedoelende gebruikers kunt zien, samen met het aantal pogingen voor elke gebruiker voor de bijbehorende weergave (bijvoorbeeld voor de phishing-weergave).
 U kunt de lijst met gerichte gebruikers ook exporteren naar een limiet van 3000, samen met het aantal pogingen tot offline analyse voor elke e-mail weergave. U kunt ook Nee selecteren. met pogingen (met uitzonde maal 13 pogingen) opent u een gefilterde weergave in de bedreigings Verkenner, zodat u meer details kunt bekijken voor e-mailberichten en bedreigingen voor die gebruiker.
 
-![Belangrijkste gerichte gebruikers](../../media/Top_Targeted_Users.png)
+> [!div class="mx-imgBorder"]
+> ![Belangrijkste gerichte gebruikers](../../media/Top_Targeted_Users.png)
 
 
 ### <a name="exchange-transport-rules"></a>Exchange-transportregels
@@ -204,7 +253,8 @@ De ETR toe zoeken en de beschikbaarheid van namen is afhankelijk van de specifie
 
 In het raster, het detail menu van de e-mail en de geëxporteerde CSV-gegevens, worden de Etr's weergegeven met een naam/GUID zoals hieronder weergegeven.
 
-![Exchange-Transport regels](../../media/ETR_Details.png)
+> [!div class="mx-imgBorder"]
+> ![Exchange-Transport regels](../../media/ETR_Details.png)
 
 ### <a name="inbound-connectors"></a>Binnenkomende connectors
 
@@ -212,7 +262,8 @@ Connectors zijn een verzameling instructies waarmee u de manier kunt wijzigen wa
 De zoekfunctie van connectors is ' bevat ', wat betekent dat u ook gepaarde trefwoord zoekopdrachten werkt.
 In de hoofdweergave voor details, de vervolgkeuze info en de geëxporteerde CSV-indeling, worden de connectors weergegeven in de indeling naam/GUID, zoals hieronder wordt weergegeven:
 
-![Details van connector](../../media/Connector_Details.png)
+> [!div class="mx-imgBorder"]
+> ![Details van connector](../../media/Connector_Details.png)
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>Nieuwe functies in de bedreigings Verkenner en de real-time detectie
 
@@ -284,7 +335,8 @@ U kunt in het rapport realtime detecties de volgende keer naar dezelfde locatie 
 > [!TIP]
 > Netwerkbericht-ID Hiermee wijst u de Klik op terug naar specifieke e-mailberichten wanneer u in Verkenner of aan hulpmiddelen van een andere leverancier zoekt via netwerkbericht-ID. Door de netwerkbericht-ID te zoeken, leveren beheerders de specifieke e-mail die is gekoppeld aan een klik resultaat. Bij export met de correlatie-id van de netwerkbericht-ID is een snellere en krachtige analyse.
 
-![Klikken op tab in Verkenner](../../media/tp_ExportClickResultAndNetworkID.png)
+> [!div class="mx-imgBorder"]
+> ![Klikken op tab in Verkenner](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Malware van de malware van een e-mail weergeven
 
@@ -294,17 +346,20 @@ U wilt malware van de malware in een e-mail weergeven, door Microsoft 365-techno
 
 2. Kies in het menu **weergave** de optie **e-mail**  >  **malware**.
 
-   ![Menu Beeld voor Verkenner](../../media/ExplorerViewEmailMalwareMenu.png)
+   > [!div class="mx-imgBorder"]
+   > ![Menu Beeld voor Verkenner](../../media/ExplorerViewEmailMalwareMenu.png)
 
 3. Klik op **afzender**en kies vervolgens **Basic**  >  **Detection Technology**.
 
    Uw detectie technologieën zijn nu beschikbaar als filters voor het rapport.
 
-   ![Detectie technologieën voor malware](../../media/ExplorerEmailMalwareDetectionTech.png)
+   > [!div class="mx-imgBorder"]
+   > ![Detectie technologieën voor malware](../../media/ExplorerEmailMalwareDetectionTech.png)
 
 4. Selecteer een optie en klik vervolgens op de knop **vernieuwen** om het filter toe te passen.
 
-   ![Geselecteerde detectietechnologie](../../media/ExplorerEmailMalwareDetectionTechATP.png)
+   > [!div class="mx-imgBorder"]
+   > ![Geselecteerde detectietechnologie](../../media/ExplorerEmailMalwareDetectionTechATP.png)
 
 Het rapport wordt vernieuwd om de resultaten van malware in een e-mail te tonen met behulp van de technologie optie die u hebt geselecteerd. U kunt hier verdere analyses uitvoeren.
 
@@ -318,15 +373,17 @@ Als u de Url's van de phishing in berichten en op Url's in phishingberichten wil
 
 2. Kies in het menu **weergave** de optie **e-mail**  >  **phishing**.
 
-   ![Menu Beeld voor Verkenner](../../media/ExplorerViewEmailPhishMenu.png)
+   > [!div class="mx-imgBorder"]
+   > ![Menu Beeld voor Verkenner](../../media/ExplorerViewEmailPhishMenu.png)
 
 3. Klik op **afzender**en kies vervolgens **url's**  >  **op Verdict**.
 
 4. Selecteer een of meer opties, zoals **geblokkeerde** en **geblokkeerde overschreven**, en klik vervolgens op de knop **vernieuwen** die zich op dezelfde regel bevindt als de opties om dat filter toe te passen. (Vernieuw het browservenster niet.)
 
-   ![Url's en klik op Verdicts](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
+   > [!div class="mx-imgBorder"]
+   > ![Url's en klik op Verdicts](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
 
-    Het rapport wordt vernieuwd om twee verschillende URL-tabellen weer te geven op het tabblad URL onder het rapport:
+   Het rapport wordt vernieuwd om twee verschillende URL-tabellen weer te geven op het tabblad URL onder het rapport:
 
    - **Url's** voor de bovenkant zijn de url's in de berichten waarop u hebt gefilterd en de actie voor de bezorging van de e-mail telt voor elke URL. In de weergave phishing-e-mail bevat deze lijst meestal geldige Url's. Hackers bestaan uit een combinatie van goede en onjuiste Url's in hun berichten om te proberen ze te ontvangen, maar ze maken de kwaadwillende koppelingen interessanter voor de gebruiker. De tabel met Url's wordt gesorteerd op totaal aantal e-mailberichten (maar deze kolom is verborgen om de weergave te vereenvoudigen).
 
@@ -334,7 +391,8 @@ Als u de Url's van de phishing in berichten en op Url's in phishingberichten wil
 
    De twee URL-tabellen bevatten Url's voor e-mailberichten op de bezorgings actie en de locatie van de geadresseerde, en de getoonde URL-geblokte (of een waarschuwing ondanks een waarschuwing), zodat u kunt zien welke onjuiste koppelingen zijn ontvangen door gebruikers en door gebruikers te gebruiken. U kunt hier verdere analyses uitvoeren. Onder de grafiek ziet u bijvoorbeeld de belangrijkste Url's in e-mailberichten die zijn geblokkeerd in de omgeving van uw organisatie.
 
-   ![Verkenner-Url's die zijn geblokkeerd](../../media/ExplorerPhishClickVerdictURLs.png)
+   > [!div class="mx-imgBorder"]
+   > ![Verkenner-Url's die zijn geblokkeerd](../../media/ExplorerPhishClickVerdictURLs.png)
 
    Selecteer een URL om meer gedetailleerde informatie weer te geven.
 
@@ -362,13 +420,15 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie als ongewe
 
 2. Kies in het menu **weergave** de optie **e-mail**  >  **inzendingen**.
 
-   ![Menu Beeld voor Verkenner](../../media/explorer-view-menu-email-user-reported.png)
+   > [!div class="mx-imgBorder"]
+   > ![Menu Beeld voor Verkenner](../../media/explorer-view-menu-email-user-reported.png)
 
 3. Klik op **afzender**en kies type **basis**  >  **rapport**.
 
 4. Selecteer een optie, zoals **phishing**, en klik vervolgens op de knop **vernieuwen** .
 
-   ![Door de gebruiker gerapporteerde phishing](../../media/EmailUserReportedReportType.png)
+   > [!div class="mx-imgBorder"]
+   > ![Door de gebruiker gerapporteerde phishing](../../media/EmailUserReportedReportType.png)
 
 Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die gebruikers in uw organisatie hebben gerapporteerd als een phishing-poging. U kunt deze gegevens gebruiken om verdere analyse uit te voeren, en zo nodig uw [ATP anti-phishingfilter-beleid](configure-atp-anti-phishing-policies.md)aanpassen.
 

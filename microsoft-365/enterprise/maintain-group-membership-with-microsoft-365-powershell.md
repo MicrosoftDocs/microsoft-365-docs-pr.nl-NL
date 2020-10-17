@@ -3,7 +3,6 @@ title: Groepslidmaatschap van Microsoft 365 in PowerShell onderhouden
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,21 +18,18 @@ ms.custom:
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: Meer informatie over het gebruik van PowerShell om lidmaatschap te onderhouden in Microsoft 365 groepen.
-ms.openlocfilehash: 464ebcebe87fcd7ce081de85e75acf76cd6d5a46
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 7763f4275ff31f3dc26aa7fecba93e545f7c7644
+ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235628"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580972"
 ---
 # <a name="maintain-microsoft-365-group-membership-with-powershell"></a>Groepslidmaatschap van Microsoft 365 in PowerShell onderhouden
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
 U kunt PowerShell voor Microsoft 365 als alternatief voor het Beheercentrum van Microsoft 365 gebruiken om groepslidmaatschappen in Microsoft 365 te onderhouden. 
-
-> [!TIP]
-> Als u de kant-en-klare PowerShell-opdrachten wilt genereren door gebruikersaccounts en groepen namen op te geven, gebruikt u deze [groeps onderhoud Microsoft Excel-werkmap](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/maintain-group-membership-with-microsoft-365-powershell/GroupMaintPowerShellGenerator.xlsx). 
 
 >[!Note]
 >[Meer informatie over het beheren van groepslidmaatschappen van Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/add-or-remove-members-from-groups) met het microsoft 365-Beheercentrum. Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.

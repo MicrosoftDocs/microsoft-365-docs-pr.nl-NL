@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: fdebfcbfa4aad68f381db4ffb8c9b83a5100187c
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 46bc63bab52bf75dc7c215510d49b4d985ff07c3
+ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398713"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48487480"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -41,6 +41,10 @@ De elementen van de configuratie van een team met beveiligingsisolatie zijn:
 
 > [!IMPORTANT]
 > Zorg ervoor dat u [gevoeligheidslabels hebt ingeschakeld om de inhoud van Microsoft teams, Office 365-groepen en SharePoint-sites te beveiligen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), voordat u verder gaat met de stappen in dit artikel.
+
+Bekijk deze video voor een overzicht van het implementatieproces.
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
 <a name="poster"></a> Zie de [Poster Microsoft Teams met beveiligingsisolatie](../downloads/team-security-isolation-poster.pdf) voor een overzicht van twee pagina's van dit scenario.
 
