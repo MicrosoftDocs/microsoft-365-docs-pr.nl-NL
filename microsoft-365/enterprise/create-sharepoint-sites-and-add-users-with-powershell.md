@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: 'Overzicht: PowerShell gebruiken om nieuwe SharePoint Online-sites te maken en vervolgens gebruikers en groepen aan deze sites toe te voegen.'
-ms.openlocfilehash: 4c4edbd68343f0eaf3a25a8c60a2af1e83b058b6
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 28a51cc39fe838f6c7f9c50e9d750d28e5d830c4
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689103"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594916"
 ---
 # <a name="create-sharepoint-online-sites-and-add-users-with-powershell"></a>SharePoint Online-sites maken en gebruikers toevoegen met PowerShell
 
@@ -43,6 +43,9 @@ Maak meerdere sites met behulp van PowerShell en een CSV-bestand dat u maakt met
 De PowerShell-cmdlet importeert het CSV-bestand en sluist in een lus binnen de accolades die de eerste regel van het bestand als kolomkoppen leest. De PowerShell-cmdlet belegt vervolgens de resterende records, maakt een nieuwe siteverzameling voor elke record en wijst eigenschappen van de siteverzameling toe op basis van de kolomkoppen.
 
 ### <a name="create-a-csv-file"></a>Een CSV-bestand maken
+
+> [!NOTE]
+> De parameter resource quotum werkt alleen op klassieke sites. Als u deze parameter op een moderne site gebruikt, ontvangt u mogelijk een waarschuwingsbericht dat is afgeschaft. 
 
 1. Open Kladblok en plak de volgende tekst blokkering erin:<br/>
 
@@ -164,4 +167,3 @@ c:\users\MyAlias\desktop\UsersAndGroups.ps1
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

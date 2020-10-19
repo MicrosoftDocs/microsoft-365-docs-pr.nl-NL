@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e594f758e0fb08b0b8718248466ecbc46903b82
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 7d83e86c77eb148c4c55be3f363966ac3c756e87
+ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327007"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594818"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -117,7 +117,7 @@ Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven
 
 - **Verbreken op: versleutelingsmethode** of **verbreken op: versleutelings sjabloon**: de volgende informatie wordt weergegeven:
 
-  - **Einddatum**
+  - **Datum**
   - **Adres afzender**
   - **Versleutelings sjabloon**
   - **Versleutelingsmethode**
@@ -126,7 +126,7 @@ Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven
 
 - **Gegevens weergeven op: domeinen van 5 belangrijkste geadresseerden**:
 
-  - **Einddatum**
+  - **Datum**
   - **Domein van de ontvanger**
   - **Aantal berichten**
   
@@ -162,7 +162,7 @@ U kunt zowel de grafiek als de tabel met details filteren door te klikken op **f
 
 Als u op **detail tabel weergeven**klikt, ziet u de volgende informatie:
 
-- **Einddatum**
+- **Datum**
 - **Adres afzender**
 - **Adres van ontvanger**
 - **Bericht-id**: beschikbaar in het veld **bericht-id-** header in de berichtkop en moet uniek zijn. Een Voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Let op de punthaken).
@@ -220,7 +220,7 @@ Als u op **filters** in een rapportweergave klikt, kunt u de resultaten wijzigen
 
 Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
 
-- **Einddatum**
+- **Datum**
 - **Adres afzender**
 - **Adres van ontvanger**
 - **Evenementtype**
@@ -259,7 +259,7 @@ U kunt zowel de grafiek als de tabel met details filteren door op **filters** te
 
 Als u op **detail tabel weergeven**klikt, ziet u de volgende informatie:
 
-- **Einddatum**
+- **Datum**
 - **Vervalste afzender**
 - **Ware afzender**
 - **IP van afzender**
@@ -276,8 +276,8 @@ Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals besta
 
 Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **Reports** \> **Dashboard** rapporten en selecteert u de **status bedreigingsbeveiliging**. Als u rechtstreeks naar het rapport wilt gaan, opent u een van de volgende Url's:
 
-- Office 365 ATP: <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
-- EOP <https://protection.office.com/reportv2?id=ATPAggregateLightReport>
+- Office 365 ATP: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
+- EOP <https://protection.office.com/reportv2?id=TPSAggregateReport>
 
 ![Widget status van bedreigings bescherming in het Dashboard rapporten](../../media/threat-protection-status-report-widget.png)
 
@@ -301,6 +301,20 @@ De volgende weergaven zijn beschikbaar:
   - **Bestands detonatie**
 
   ![De weergave met schadelijke inhoud in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-content-malware-view.png)
+
+- **Gegevens weergeven op: bericht negeren**: de volgende informatie over de overschrijving wordt weergegeven:
+
+  - **On-premises overslaan**
+  - **IP toestaan**
+  - **Regel voor e-mail stroom**
+  - **Afzender toestaan**
+  - **Domein toestaan**
+  - **ZAP niet ingeschakeld**
+  - **Map Ongewenste E-mail niet ingeschakeld**
+  - **Gebruiker veilig verzenderd**
+  - **Gebruikers veilig domein**
+
+  ![Weergave bericht negeren in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-message-override-view.png)
 
 - **Onderbreek omlaag met: detectietechnologie** en **gegevens weergeven op \> : e-mailbericht**: de volgende informatie wordt weergegeven:
 
@@ -361,7 +375,18 @@ De volgende weergaven zijn beschikbaar:
 
 <sup>2</sup> Zero-Hour auto LEEGMAAK (ZAP) is niet beschikbaar in standalone EOP (deze functie werkt alleen in Exchange Online-postvakken).
 
-Als u op **filters**klikt, kunt u het rapport met de volgende filters wijzigen:
+Als u op **filters**klikt, zijn de beschikbare filters afhankelijk van de grafiek die u bekijkt:
+
+Voor ** \> malware van inhoud**kunt u het rapport wijzigen op basis van de **begindatum** en **einddatum**, en de **detectie** waarde.
+
+Voor het **opheffen van berichten**kunt u het rapport wijzigen met de volgende filters:
+
+- **Begindatum** en **einddatum**
+- **Reden negeren**
+- **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+- **Domein**
+
+Voor alle andere weergaven kunt u het rapport wijzigen met de volgende filters:
 
 - **Begindatum** en **einddatum**
 - **Bronuitputtingsdetectie**
@@ -369,35 +394,48 @@ Als u op **filters**klikt, kunt u het rapport met de volgende filters wijzigen:
 - **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
 - **Domein**
 
-> [!NOTE]
-> **Beveiligd via**een **tag** en **domein** zijn alleen Office 365 ATP. Dit soort filters is niet beschikbaar in **gegevens weergeven op: \> malware van inhoud**.
-
 ### <a name="details-table-view-for-the-threat-protection-status-report"></a>De tabel weergave Details voor het statusrapport Bedreigingsbeveiliging
 
 Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
 
 - **Gegevens weergeven op: inhoud \> Malware**:
 
-  - **Einddatum**
+  - **Datum**
   - **Locatie**
   - **Omgeleid door**
   - **Naam van malware**
 
+Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen op basis van de **begindatum** en **einddatum**, en de **detectie** waarde.
+
+- **Gegevens weergeven op: bericht negeren**:
+
+  - **Datum**
+  - **Onderwerp**
+  - **Afzender**
+  - **Allen**
+  - **Gedetecteerd door**
+  - **Reden negeren**
+  - **Bron van compromissen**
+  - **Tags**
+
 Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen met de volgende filters:
 
 - **Begindatum** en **einddatum**
-- **Bronuitputtingsdetectie**
+- **Reden negeren**
+- **Tag**: filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+- **Domein**
+- **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
 
 **Gegevens weergeven op: overzicht**: de knop **informatietabel weergeven** is beschikbaar.
 
 - Alle overige grafieken:
 
-  - **Einddatum**
+  - **Datum**
   - **Onderwerp**
   - **Afzender**
   - **Allen**
   - **Gedetecteerd door**
-  - **Leveringsstatus**
+  - **Leverings status**
   - **Bron van compromissen**
   - **Tags**
 
@@ -439,7 +477,7 @@ In het rapport door de gebruiker gerapporteerde **berichten** ziet u informatie 
 
 Details zijn beschikbaar voor elk bericht, waaronder de bezorgings reden, een uitzondering voor spam beleid of een e-mail stroom regel die is geconfigureerd voor uw organisatie. Als u de details wilt bekijken, selecteert u een item in de lijst gebruikers rapporten en bekijkt u de gegevens op de tabbladen **overzicht** en **Details** .
 
-![In het rapport door de gebruiker gerapporteerde berichten ziet u berichten die gebruikers markeren als ongewenste e-mail, geen ongewenste e-mail of phishing.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
+![In het rapport User-Reported berichten worden berichten weergegeven die gebruikers als ongewenste e-mail, geen ongewenste e-mail of phishing proberen te markeren.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
 
 Voer een van de volgende handelingen uit in het [nalevings centrum van beveiligings &](https://protection.office.com)om dit rapport te bekijken:
 
