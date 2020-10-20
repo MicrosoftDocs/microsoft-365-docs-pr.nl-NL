@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
-ms.openlocfilehash: 03bcb0518b75d9a35aae1b6664b410b521adf940
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 2a8e37dc430af5b3d3c47179c721d83832f01184
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202841"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600343"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
 
@@ -100,6 +100,11 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
      - **Spam**
 
      - **Phishing**
+     
+   - **Beleidstype**: berichten filteren op beleidstype:
+     - **Beleid tegen phishing**
+     - **Beleidsregels voor gehoste inhoudsfilters**
+     
 
    Als u het filter wilt wissen, drukt u op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
 
@@ -108,6 +113,8 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
    - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht. Als u een bericht selecteert in de lijst, verschijnt de waarde **Bericht-ID** in het deelvenster **Details** dat wordt weergegeven. Beheerders kunnen [berichttracering](message-trace-scc.md) gebruiken om naar berichten en de bijbehorende bericht-ID’s te zoeken.
 
    - **E-mailadres afzender**: een enkel e-mailadres van een afzender.
+   
+   - **Beleidsnaam**: gebruik de volledige Beleidsnaam van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
 
    - **E-mailadres ontvanger**: een enkel e-mailadres van een ontvanger.
 
