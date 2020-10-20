@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de e-mail stroom rapporten die beschikbaar zijn in het dashboard voor beveiliging & in het compliance-Beveiligingscentrum.
 ms.custom: ''
-ms.openlocfilehash: d33bd62e9a06385bf3448b7744031ae030dbe3ca
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 801463877db2e022ab84c3187367587c61f71090
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195841"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600590"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>De e-mail stroom rapporten weergeven in het Dashboard rapporten in de beveiligings & nalevings centrum
 
@@ -76,7 +76,7 @@ Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeve
 
 Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
 
-- **Einddatum**
+- **Datum**
 - **De richting en de naam van de verbindingslijn**
 - **Type verbindingslijn**
 - **Afgedwongen TLS?**: de waarde **waar** of **Onwaar**.
@@ -132,7 +132,7 @@ Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven
 
 - **Gegevens weergeven op: Exchange-Transport regels**:
 
-  - **Einddatum**
+  - **Datum**
   - **Transport regel**
   - **Onderwerp**
   - **Adres afzender**
@@ -142,7 +142,7 @@ Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven
 
 - **Gegevens weergeven op: DLP Exchange-transportregels**:
 
-  - **Einddatum**
+  - **Datum**
   - **DLP-beleid**
   - **Transport regel**
   - **Onderwerp**
@@ -318,15 +318,25 @@ Als u het e-mailbericht dat u hebt gefilterd op EOP of ATP afzonderlijk wilt bek
 
 De gegevenstabel bevat de volgende informatie, weergegeven in aflopende volgorde van datum:
 
-- **Einddatum**
+- **Datum**
 - **Totaal aantal e-mail**
-- **Edge-bescherming**
-- **Anti malware, bestands reputatie, bestandstype blok**
-- **Anti-phishing, URL-reputatie, merk imitatie, anti-spoof**
-- **Anti spam, filteren van bulk e-mail**
-- **Dispersonatie van gebruikers en domeinen (ATP)**
-- **Bestand en URL-detonatie (ATP)**
-- **Beveiligingsupdate voor de na ontvangst en ZAP (ATP) of ZAP (EOP)**
+- **Edge-bescherming** 
+- **Anti malware, bestands reputatie, bestandstype blok**:
+  - **Bestands reputatie**: berichten gefilterd door de identificatie van een bijgevoegd bestand door andere Microsoft-klanten.
+  - **Bestandstype blok**: berichten gefilterd door het type schadelijke bestand dat in het bericht is geïdentificeerd.      
+- **Anti-phishing, URL-reputatie, merk imitatie, anti-spoofing**:
+  - **URL-reputatie**: berichten gefilterd als gevolg van de identificatie van de URL door andere Microsoft-klanten.
+  - **Merken van merken**: berichten gefilterd door het bericht, afkomstig van duidelijk merk dat afzenders imiteren.
+  - **Anti-spoof**: berichten gefilterd als gevolg van het bericht probeert een domein te vervalsen waarvan de ontvanger lid is of een domein dat de afzender van het bericht niet de eigenaar is.  
+- **Anti spam, filteren van bulkmail**:
+  - **Filteren van bulk mail**: berichten gefilterd door een poging om bulksgewijs e-mail te bezorgen bij de geadresseerden. 
+- **Dispersonatie van gebruikers en domeinen (ATP)**:
+  - **Gebruikers imitatie**: berichten gefilterd als gevolg van een poging om een gebruiker (afzender van het bericht) te imiteren die is gedefinieerd in de instellingen van de imitatie bescherming van een anti phishingfilter.
+  - **Domein imitatie**: berichten gefilterd als gevolg van een poging tot het imiteren van een domein dat is gedefinieerd in de instellingen van de imitatie bescherming van een anti phishingfilter. 
+- **Bestand en URL-detonatie**:
+  - **Bestands detonatie**: berichten gefilterd door een veilig bijlage beleid.
+  - **URL-detonatie**: bericht gefilterd door een beleid voor veilige koppelingen.  
+- **Beveiligings-en bezorgings bescherming en zap (ATP), of ZAP (EOP)**: zap geeft automatisch wissen van nul uur aan.
 
 Als u een rij in de gegevenstabel selecteert, worden in het vervolgmenu een extra uitsplitsing van het aantal e-mailberichten weergegeven.
 
@@ -375,11 +385,13 @@ Wanneer u de muisaanwijzer op een categorie in de grafiek houdt, ziet u het aant
 
 De gegevenstabel bevat de volgende informatie, weergegeven in aflopende volgorde van datum:
 
-- **Einddatum**
+- **Datum**
 - **Totaal aantal e-mail**
 - **Gefilterde rand**
-- **Anti malware-engine, veilige bijlagen, gefilterde regel**
-- **DMARC, imitatie, spoofing, phishing gefilterd**
+- **Anti malware-engine, veilige bijlagen, gefilterde regel**:
+  - **Gefilterde regel**: berichten gefilterd door de regels voor de e-mail stroom (ook wel transport-regels genoemd).
+- **DMARC, imitatie, spoofing, phishing gefilterd**:
+  - **DMARC**: berichten gefilterd door het bericht de verificatiecontrole van de DMARC is mislukt. 
 - **Detectie van URL-detonatie**
 - **Anti spam gefilterd**
 - **ZAP verwijderd**

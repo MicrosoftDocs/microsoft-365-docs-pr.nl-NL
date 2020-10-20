@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: b1eda98e081338a981be1d1f5991578b49c574fd
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4009dcd506921b473e938828e5bdc10411c06ce2
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203165"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600319"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
@@ -71,7 +71,7 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van 
 
    > [!IMPORTANT]
    >
-   > - Configureer nooit de configuratie voor e-mail stroom regels met *alleen* het domein van de afzender als voorwaarde om spamfilters over te slaan. Hierdoor wordt de *kans groter dat* kwaadwillenden het verzendend domein kunnen spoofen (of het volledige e-mailadres imiteren), alle spamfilters overslaan en verificatie van afzender overslaan zodat het bericht in het postvak in van de geadresseerde arriveert.
+   > - Configureer nooit de e-mail stroom regels met *alleen* het domein van de afzender als voorwaarde om spamfilters over te slaan. Hierdoor wordt de *kans groter dat* kwaadwillenden het verzendend domein kunnen spoofen (of het volledige e-mailadres imiteren), alle spamfilters overslaan en verificatie van afzender overslaan zodat het bericht in het postvak in van de geadresseerde arriveert.
    >
    > - Gebruik geen domeinen die u ook hebt (ook wel geaccepteerde domeinen genoemd) of veelgebruikte domeinen (zoals microsoft.com) als voorwaarden in de e-mail stroom regels. Dit is een zeer risico, omdat er verkoopkansen worden gemaakt voor hackers waarmee e-mail kan worden verzonden die anders wordt gefilterd.
    >
@@ -97,7 +97,7 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van 
 
 ## <a name="use-outlook-safe-senders"></a>Veilige afzenders van Outlook gebruiken
 
-In plaats van een organisatie-instelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst met veilige afzenders in het postvak. Zie voor instructies voor het [instellen van instellingen voor ongewenste e-mail in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Dit is in de meeste situaties wenselijk, omdat afzenders delen van de filter stapel negeren. Hoewel u de afzender vertrouwt, is de blik van de afzender nog steeds kwetsbaar en kunt u schadelijke inhoud verzenden. Het is raadzaam om de filters uit te voeren die nodig zijn om elk bericht te controleren en vervolgens [de foutwaarde positief/negatief aan Microsoft te melden als de](report-junk-email-messages-to-microsoft.md) filters het probleem hebben. Het omzeilen van de filterstack verstoort ook met [ZAP](zero-hour-auto-purge.md).
+In plaats van een organisatie-instelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst met veilige afzenders in het postvak. Zie voor instructies voor het [instellen van instellingen voor ongewenste e-mail in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Dit is in de meeste situaties wenselijk, omdat afzenders delen van de filter stapel negeren. Hoewel u de afzender vertrouwt, kan deze nog steeds worden aangetast en moet de afzender kwaadaardige inhoud verzenden. Het is raadzaam om de filters uit te voeren die nodig zijn om elk bericht te controleren en vervolgens [de foutwaarde positief/negatief aan Microsoft te melden als de](report-junk-email-messages-to-microsoft.md) filters het probleem hebben. Het omzeilen van de filterstack verstoort ook met [ZAP](zero-hour-auto-purge.md).
 
 Wanneer spam wordt gefilterd door de lijst met veilige afzenders van een gebruiker, bevat het veld **X-Forefront-spam-report** header de waarde `SFV:SFE` waarmee wordt aangegeven dat spam, spoof en phishing-filters zijn genegeerd.
 

@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over spam meldingen voor eindgebruikers voor berichten in quarantaine in Exchange Online Protection (EOP).
-ms.openlocfilehash: 9d1da6c4db245ecb065a5a076f2bc6a9c275c494
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0440056e8e31d24e659f9d0ff6662f86f31a6189
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195817"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600295"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Gebruik spam meldingen van gebruikers om berichten in quarantaine vrij te geven en te rapporteren
 
@@ -58,3 +58,6 @@ Een melding voor spam van eindgebruikers bevat de volgende informatie voor elk g
 - **Controleren**: Klik op deze koppeling om naar Quarantine te gaan in het beveiligings & nalevings centrum, waarin u kunt zien welke berichten in quarantaine zijn geplaatst, of laat zien, verwijderen of rapporteren. Voor meer informatie raadpleegt u [gequarantinede berichten zoeken en vrijgeven als een gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md).
 
 ![Voorbeeld van spam met eindgebruikers](../../media/end-user-spam-notification.png)
+
+> [!NOTE]
+> Een geblokkeerde afzender kan nog steeds e-mail verzenden. Berichten van deze afzender die de afzender maken in uw postvak, worden direct verplaatst naar de map Ongewenste E-mail. Toekomstige berichten van deze afzender worden verzonden naar de map Ongewenste E-mail of naar de Quarantine voor eindgebruikers. Als u deze berichten op aankomst wilt verwijderen in plaats van ze te quarantining, gebruikt u [regels voor e-mail stroom](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel transport-regels genoemd) om berichten bij de ontvangst te verwijderen.

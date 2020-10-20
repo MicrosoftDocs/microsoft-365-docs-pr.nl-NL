@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: c0a3849d330b508630eb60c7ee24cd8b498a32b8
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: 78ba5183667f4e5c6f713182969338f3ef2e7262
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417227"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600527"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Externe e-mail forwarding configureren in Office 365
 
@@ -28,7 +28,7 @@ ms.locfileid: "48417227"
 
 Extern doorsturen wordt bepaald door het *uitgaande Antispambeleid* en de reikwijdte van de gebruikers op basis van de geconfigureerde instelling. Momenteel worden de instellingen voor 3 weer geboden:
 
-- **Automatisch** – dit is door het systeem beheerde functies: uitgaande spamfilters om automatisch externe e-mailberichten te kunnen doorsturen. Dit is de standaardinstelling.
+- **Automatisch** – automatisch extern doorsturen wordt geblokkeerd. Interne automatisch doorsturen van berichten blijft werken. Dit is de standaardinstelling.
 
 - **On** -automatisch extern doorsturen is toegestaan en niet beperkt.
 

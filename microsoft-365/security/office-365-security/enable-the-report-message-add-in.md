@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het inschakelen van de invoegtoepassing bericht rapporteren voor Outlook en de webversie van Outlook voor afzonderlijke gebruikers of voor de hele organisatie.
-ms.openlocfilehash: 601e3850bf046f3a0c807976fd173a6e0ec7ce2a
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: b061d9db44b08a65b59481035c055a1b75eb6e3c
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350621"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600367"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
@@ -41,7 +41,7 @@ Beheerders kunnen de invoegtoepassing bericht rapporteren voor de organisatie in
 
 Als u een individuele gebruiker bent, kunt u [de invoegtoepassing bericht rapporteren voor uzelf inschakelen](#get-the-report-message-add-in-for-yourself).
 
-Als u een globale beheerder of een beheerder van Exchange Online bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u [de invoegtoepassing bericht rapporteren voor uw organisatie inschakelen](#get-and-enable-the-report-message-add-in-for-your-organization). De invoegtoepassing bericht rapporteren is nu beschikbaar via [gecentraliseerde implementatie](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
+Als u een globale beheerder of een beheerder van Exchange Online bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u [de invoegtoepassing bericht rapporteren voor uw organisatie inschakelen](#get-and-enable-the-report-message-add-in-for-your-organization). De Add-In rapportberichten is nu beschikbaar via [gecentraliseerde implementatie](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -91,7 +91,7 @@ Zie [de invoegtoepassing bericht rapporteren gebruiken](https://support.microsof
 > [!NOTE]
 > Het kan 12 uur duren voordat de invoegtoepassing in uw organisatie wordt weergegeven.
 
-1. Ga in het Microsoft 365-Beheercentrum naar de pagina **Services & invoegtoepassingen** <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> en klik op **invoegtoepassing implementeren**.
+1. Ga in het Microsoft 365-Beheercentrum naar de pagina **instellingen, geïntegreerde Apps & invoegtoepassingen** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> en klik op **invoegtoepassing implementeren**.
 
    ![Pagina met Services en invoegtoepassingen in het Microsoft 365-Beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -151,7 +151,7 @@ Wanneer u gebruikers op de hoogte stelt van de invoegtoepassing bericht rapporte
 
 1. Ga in het Microsoft 365-Beheercentrum naar de pagina **Services & invoegtoepassingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
 
-   ![Pagina Services en invoegtoepassingen in het nieuwe Microsoft 365-Beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Pagina Services en Add-Ins in het nieuwe Microsoft 365-Beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 2. Zoek en selecteer de invoegtoepassing **bericht rapporteren** .
 

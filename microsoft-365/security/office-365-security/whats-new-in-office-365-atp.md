@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 85813659d952fe936c8e8b41f2dc103a60116641
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 55a5ec4a2bfd562b581be9565022483d227f68be
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447069"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600503"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Nieuw in Office 365 ATP
 
@@ -46,9 +46,9 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 - [Uw beleidsregels controleren met behulp van configuratie analyse](configuration-analyzer-for-security-policies.md)
 - [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
 - [Uitgebreide functies in de bedreigings Verkenner, waaronder populaire gebruikers, transportregels en connectors](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP-abonnement 2)
-- Weergegeven overschrijft informatie in de [bedreigings Verkenner](threat-explorer.md) (e-mail is door Tenant/gebruikersbeleid toegestaan/geblokkeerd)
-- Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md#threats-in-urls) (malware, phishing, spam of geen) 
-- [Verbeteringen in](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) de weergave van de versie van de versie van de jacht met updates rond bedreigingen, extra acties, bezorgingslocaties en bijgewerkte tijdlijnweergave
+- Weergegeven overschrijft informatie in de [bedreigings Verkenner](threat-explorer.md) (e-mail is door Tenant/gebruikersbeleid toegestaan/geblokkeerd) (Office 365 ATP-abonnement 2)
+- Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md#threats-in-urls) (malware, phishing, spam of geen) (Office 365 ATP-abonnement 2)
+- [Verbeteringen in](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) de weergave van de jacht-ervaring met updates rond bedreigingen, extra acties, bezorgingslocaties en bijgewerkte tijdlijnweergave (Office 365 ATP-abonnement 2)
 
 ## <a name="julyaugust-2020"></a>Juli 2020 
 
@@ -111,4 +111,3 @@ Wist u dat Office 365 ATP beschikbaar is in twee abonnementen? Meer [informatie 
 [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Service beschrijving in Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
-

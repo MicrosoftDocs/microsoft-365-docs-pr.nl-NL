@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie vinden over de toepassings volgorde van beveiligingsregels in Exchange Online Protection (EOP) en de manier waarop de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
-ms.openlocfilehash: e2da22bfbe0e7df70cf8d8b0d8cfd09eaf6e2ee3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6b17a524fb9dfbf5e33604c2ec26a678befc8834
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196045"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600283"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mail beveiliging
 
@@ -44,10 +44,10 @@ Er zijn twee belangrijke factoren die bepalen welke beleidsregels op een bericht
   |3|Phishing|CAT: PHSH|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |driefasig|Hoogstwaarschijnlijk spam|CAT: HSPM|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |3|Spoofing|CAT: SPOOF|[Spoof informatie configureren in EOP](learn-about-spoof-intelligence.md)|
-  |vijf|Spam|KAT: SPM|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
-  |zes|Bulk|CAT: BULKSGEWIJS|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
-  |7,5<sup>\*</sup>|Imitatie van domein (beveiligde gebruikers)|DIMP|[ATP-beleid tegen phishing configureren](configure-atp-anti-phishing-policies.md)|
-  |8:00<sup>\*</sup>|Gebruikers imitatie (beveiligde domeinen)|UIMP|[ATP-beleid tegen phishing configureren](configure-atp-anti-phishing-policies.md)|
+  |vijf<sup>\*</sup>|Gebruikers imitatie (beveiligde domeinen)|UIMP|[ATP-beleid tegen phishing configureren](configure-atp-anti-phishing-policies.md)|
+  |zes<sup>\*</sup>|Imitatie van domein (beveiligde gebruikers)|DIMP|[ATP-beleid tegen phishing configureren](configure-atp-anti-phishing-policies.md)|
+  |7,5|Spam|KAT: SPM|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
+  |8:00|Bulk|CAT: BULKSGEWIJS|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |
 
   <sup>\*</sup> Deze functies zijn alleen beschikbaar in het ATP anti-phishings beleid.

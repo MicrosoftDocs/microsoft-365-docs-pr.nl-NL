@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d83e86c77eb148c4c55be3f363966ac3c756e87
-ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
+ms.openlocfilehash: 58c29d37d4f7deab17b2c24bfd7fb74e5ba9cb45
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48594818"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600563"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -297,8 +297,8 @@ De volgende weergaven zijn beschikbaar:
 
 - **Gegevens weergeven op: inhoud \> Malware**<sup>1</sup>: de volgende informatie wordt weergegeven voor Office 365 ATP-organisaties:
 
-  - **Anti malware-engine**
-  - **Bestands detonatie**
+  - **Anti malware-engine**: vangen van schadelijke bestanden in SharePoint Online, OneDrive en teams met anti malware.
+  - **Bestands detonatie**: detonatie van schadelijke bestanden in SharePoint Online, OneDrive en teams door veilige bijlagen.
 
   ![De weergave met schadelijke inhoud in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-content-malware-view.png)
 
@@ -318,28 +318,28 @@ De volgende weergaven zijn beschikbaar:
 
 - **Onderbreek omlaag met: detectietechnologie** en **gegevens weergeven op \> : e-mailbericht**: de volgende informatie wordt weergegeven:
 
-  - **Met ATP gegenereerde URL-reputatie**<sup>1</sup>
-  - **Geavanceerd phishing-filter**
-  - **Anti-spoof: fout in DMARC**
-  - **Anti-spoof: intra organisatie**
-  - **Anti-spoof: extern domein**
-  - **Merken van merken**
-  - **Domein**imitatie<sup>1</sup>
-  - **Reputatie van EOP-URL**
-  - **Algemeen phishing-filter**
+  - Met **ATP gegenereerde URL-reputatie**<sup>1</sup>: schadelijke URL-reputatie van de ATP-detonaties in andere ATP-klanten.
+  - **Geavanceerd phishing-filter**: malafide signalen op basis van machine learning.
+  - **Anti-spoof-DMARC fout**: DMARC-Authenticatiefout bij berichten.
+  - **Anti-spoof-intra organisatie**: de afzender probeert het domein van de ontvanger te vervalsen.
+  - **Anti-spoof-extern domein**: afzender probeert een ander domein te vervalsen.
+  - **Merken van merken**: imitatie van bekende merken op basis van afzenders.
+  - **Domein**imitatie<sup>1</sup>: imitatie van domeinen waarvan de klant eigenaar is of waarvan de naam is gedefinieerd.
+  - **EOP URL-reputatie**: schadelijke URL-reputatie.
+  - **Algemeen phishing-filter**: phishingberichten op basis van regels van analisten. 
   - **Gezien**
-  - **PHISH ZAP**<sup>2</sup>
+  - **PHISH ZAP**<sup>2</sup>: een uur automatisch wissen malafide berichten wissen.
   - **URL-detonatie**<sup>1</sup>
-  - **Gebruiker imitatie**<sup>1</sup>
+  - **Gebruikers**imitatie<sup>1</sup>: imitatie van gebruikers die zijn gedefinieerd door de beheerder of door de Postvak intelligentie zijn geleerd.
 
   ![Detectietechnologie weergeven voor phishing-e-mail in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
 
 - **Opsplitsen op: detectietechnologie** en **gegevens weergeven op: e-mail \> malware**: de volgende informatie wordt weergegeven:
 
-  - **ATP-de reputatie 1 van het bestand gegenereerd**<sup>1</sup>
-  - **Anti malware engine**<sup>1</sup>
-  - **Type blok van malware-beleidsbestand**
-  - **Bestands detonatie**<sup>1</sup>
+  - **ATP-de reputatie van het bestand gegenereerd**<sup>1</sup>: alle kwaadaardige bestanden die zijn gegenereerd met ATP-detonatie.
+  - **Anti malware engine**<sup>1</sup>: detectie van anti malware-engines.
+  - **Anti malwarebeleid type blok**: Dit zijn e-mailberichten die zijn gefilterd door het type schadelijk bestand dat in het bericht wordt genoemd.
+  - **Bestands detonatie**<sup>1</sup>: detonatie afvangen door veilige bijlagen.  
   - **Schadelijke bestands reputatie**
   - **Malware ZAP**<sup>2</sup>
   - **Gezien**

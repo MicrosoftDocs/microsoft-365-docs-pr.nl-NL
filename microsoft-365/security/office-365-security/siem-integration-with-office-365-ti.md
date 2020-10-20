@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Integreer de SIEM-server van uw organisatie met Office 365 Advanced Threat Protection en gerelateerde bedreigingen voor gebeurtenissen in de beheer-API van Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 544093960570fe0e68ac47dc7bf9965fba2d30a1
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: c4c92fc45546d3d8022a3925baa9c10f9bd0090b
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327163"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600551"
 ---
 # <a name="siem-integration-with-advanced-threat-protection"></a>SIEM-integratie met Advanced Threat Protection
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Als uw organisatie gebruikmaakt van een beveiligingsincident en SIEM server, kunt u Office 365 Advanced Threat Protection (Office 365 ATP) integreren met uw SIEM-server. U kunt deze integratie instellen met de [API Office 365 activity management](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
+Als in uw organisatie een SIEM-server (Security Information and Event Management) wordt gebruikt, kunt u Office 365 Advanced Threat Protection (Office 365 ATP) integreren met uw SIEM-server. U kunt deze integratie instellen met de [API Office 365 activity management](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference). 
 
 Met de integratie van SIEM kunt u informatie weergeven, zoals malware of phishing die is gedetecteerd door Office 365 ATP, in de SIEM-Server rapporten. 
 
@@ -52,7 +52,7 @@ De controle op de SIEM-server of een ander soortgelijk systeem controleert de **
 
 De volgende tabel bevat een overzicht van de waarden van **AuditLogRecordType** die relevant zijn voor Office 365 ATP-gebeurtenissen:
 
-|Value|Lidnaam|Beschrijving|
+|Waarde|Lidnaam|Beschrijving|
 |---|---|---|
 |30|ThreatIntelligence|Phishing en malware van gebeurtenissen via Exchange Online Protection en Office 365 ATP.|
 |41|ThreatIntelligenceUrl|Veilige koppelingen de time-in-en geblokkeerde gebeurtenissen in Office 365 ATP.|
@@ -68,5 +68,4 @@ De volgende tabel bevat een overzicht van de waarden van **AuditLogRecordType** 
 [Dreigingsonderzoek en -antwoord in Office 365](office-365-ti.md)
 
 [Geautomatiseerd onderzoek en antwoord (lucht) in Office 365](automated-investigation-response-office.md)
-
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven en beheren van quarantaine berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP) kunnen ook quarantaine bestanden beheren in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: 7e9b49e7e7a90f5271a65bb26cecdd1a7ce2ab84
-ms.sourcegitcommit: 260c69fa31a898428d51cfdbd762c5f0213c403c
+ms.openlocfilehash: 5e1115157ef7d67bc7a3f626eb61d01ecc0986cb
+ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48417219"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48600539"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -95,6 +95,13 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
      - **Malware**
      - **Spam**
      - **Hoge betrouwbaarheid van phishing**
+     
+   - **Type beleid**: berichten filteren op beleidstype:
+     - **Anti malwarebeleid**
+     - **Beleid voor veilige bijlagen**
+     - **Anti-phishings beleid**
+     - **Filter beleid met gehoste inhoud**
+     - **Transport regel**
 
    - **E-mail ontvanger**: alle gebruikers of alleen berichten die naar u zijn verzonden. Eindgebruikers kunnen alleen quarantaine berichten beheren die ze hebben verzonden.
 
@@ -107,6 +114,8 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
      U gebruikt bijvoorbeeld de [bericht tracering](message-trace-scc.md) om te zoeken naar een bericht dat is verzonden naar een gebruiker in uw organisatie en u hebt vastgesteld dat het bericht is in quarantaine geplaatst in plaats van afgeleverd. Zorg ervoor dat u de volledige waarde voor de bericht-ID opneemt, waaronder punthaken ( \<\> ). Voor `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` Beeld:
 
    - **E-mailadres afzender**: een enkel e-mailadres van een afzender.
+
+   - **Beleidsnaam**: gebruik de volledige Beleidsnaam van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
 
    - **E-mailadres ontvanger**: een enkel e-mailadres van een ontvanger.
 
