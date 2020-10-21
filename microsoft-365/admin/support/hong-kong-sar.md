@@ -1,46 +1,46 @@
 ---
-title: Ondersteuningsinformatie voor Hong Kong SAR
+title: Ondersteuningsinformatie voor Hongkong SAR
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5def2ba00c9e6366d3d1a1c95f6e631e7ba318b3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 70e6c1b69c0a5575ea171906e450fd8c8d2e629e
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397632"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642177"
 ---
-# <a name="contact-support-for-hong-kong-sar"></a>Neem contact op met ondersteuning voor Hong Kong SAR
+# <a name="contact-support-for-hong-kong-sar"></a>Neem contact op met de ondersteuning voor Hongkong SAR
 
-[Zoek een ander land of regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Telefoonnummer
 3 071 3055
 
 ## <a name="hours"></a>Uren
-### <a name="billing-support"></a>Factureringsondersteuning:
+### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Kantonese: ma-vr 9:00-18:00
+Kantonees: Mon-Fri 9 AM-6,5 PM
 
-Mandarijn: ma-vr 9:00-18:00
+Mandarijn: Mon-Fri 9 AM-6,5 PM
 
-Engels: ma-vr 9:00-18:00 uur
+Engels: Mon-Fri 9 uur-6,5 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Kantonese: ma-vr 9:00-18:00
+Kantonees: Mon-Fri 9 AM-6,5 PM
 
-Mandarijn: ma-vr 9:00-18:00
+Mandarijn: Mon-Fri 9 AM-6,5 PM
 
 Engels: 24 uur per dag, 7 dagen per week
 

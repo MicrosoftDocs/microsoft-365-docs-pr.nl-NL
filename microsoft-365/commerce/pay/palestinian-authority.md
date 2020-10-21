@@ -1,35 +1,35 @@
 ---
-title: Betalingsgegevens voor de Palestijnse Autoriteit
+title: Betalingsgegevens voor Palestijnse autoriteit
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 27bfc4d7c4b9c9e1103b2bdce4420b11e528c3c9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5e87b4e2378facaeb2aec339a99516fa991c6a73
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403936"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48648849"
 ---
-# <a name="payment-information-for-palestinian-authority"></a>Betalingsgegevens voor de Palestijnse Autoriteit
+# <a name="payment-information-for-palestinian-authority"></a>Betalingsgegevens voor Palestijnse autoriteit
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Betaal alleen in USD en referentiefactuurnummer(s) voor uw betalingsoverschrijving.
+Betaal alleen in USD en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank, Londen  
-**SWIFT-code:** CITIGB2L CITIGB2L  
+**SWIFT-code:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Rekeningnummer:** 12510049  
-**Accountnaam:** Microsoft  
+**Account naam:** MICROSOFT  

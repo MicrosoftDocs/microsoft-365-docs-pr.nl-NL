@@ -4,39 +4,39 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 37f2fadfa73be3d2093d6cf34380a667572b7729
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fff0648fcf1744dfe65eea12efe2cf04fd7c67b1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397884"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642669"
 ---
-# <a name="contact-support-for-french-polynesia"></a>Neem contact op met ondersteuning voor Frans-Polynesië
+# <a name="contact-support-for-french-polynesia"></a>Contact opnemen met ondersteuning voor Frans-Polynesië
 
-[Zoek een ander land of regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Telefoonnummer
-+1 312 843 5147
++ 1 312 843 5147
 
 ## <a name="hours"></a>Uren
-### <a name="billing-support"></a>Factureringsondersteuning:
+### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Frans: Zon-vr 22:00-06:00
+Frans: Sun-Fri 10 PM-6 uur
 
-Engels: Zon-vr 22:00-06:00
+Engels: Sun-Fri 10 PM-6 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: ma-vr 21.00-10.00 uur
+Frans: Mon-Fri 9 PM-10 AM
 
 Engels: 24 uur per dag, 7 dagen per week
 

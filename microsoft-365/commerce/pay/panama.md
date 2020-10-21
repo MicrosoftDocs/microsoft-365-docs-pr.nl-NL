@@ -4,32 +4,32 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f1368d0a3d8836b45456a29f0ee4eba25b3a75fd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: baf577559fe3f6e71f87a2c64712fc2fc9dc8463
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403924"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48648861"
 ---
 # <a name="payment-information-for-panama"></a>Betalingsgegevens voor Panama
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Betaal alleen in USD en referentiefactuurnummer(s) voor de betalingsoverschrijving.
+Betaal alleen in USD en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Bank of America   
-**Tak:** Dallas   
-**SWIFT-code:** BOFAUS3N (BOFAUS3N)   
+**Tak:** Noord   
+**SWIFT-code:** BOFAUS3N   
 **Rekeningnummer:** 4426587954   
-**Accountnaam:** Microsoft  
+**Account naam:** Microsoft  

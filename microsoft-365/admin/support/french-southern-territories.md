@@ -1,42 +1,42 @@
 ---
-title: Ondersteuningsinformatie voor Franse zuidelijke gebieden (Antarctische gebieden)
+title: Ondersteuningsinformatie voor Franse zuidelijke gebieden (Antarctische land)
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d9697c156d3b2e597715ef9ed9d71078ad274d42
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 44254ec22595cc2fbbb8f35b923eec3f1d137c86
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397872"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48642645"
 ---
-# <a name="contact-support-for-french-southern-territories-antarctic-lands"></a>Contact ondersteuning voor De Franse Zuidelijke Gebieden (Antarctische Gebieden)
+# <a name="contact-support-for-french-southern-territories-antarctic-lands"></a>Contact opnemen met ondersteuning voor Franse zuidelijke gebieden (Antarctische land)
 
-[Zoek een ander land of regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Telefoonnummer
-+1 312 843 5147
++ 1 312 843 5147
 
 ## <a name="hours"></a>Uren
-### <a name="billing-support"></a>Factureringsondersteuning:
+### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Frans: ma-vr 13:00-21:00
+Frans: Mon-Fri 1 uur-9 PM
 
-Engels: ma-vr 13:00-21:00
+Engels: Mon-Fri 1 uur-9 PM
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
-Frans: ma-vr 12 pm-23:00
+Frans: Mon-Fri 12 uur-11 PM
 
 Engels: 24 uur per dag, 7 dagen per week
 

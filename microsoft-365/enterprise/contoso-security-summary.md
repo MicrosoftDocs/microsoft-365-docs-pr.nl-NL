@@ -14,62 +14,62 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Hoe contoso gebruikmaakt van de beveiligingsfuncties in Microsoft 365 for Enterprise.
-ms.openlocfilehash: fbbf8dfc1de831c2ef949b71f1cbdf4e97a02baa
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+description: Hoe contoso gebruikmaakt van de beveiligingsfuncties van Microsoft 365 for Enterprise.
+ms.openlocfilehash: 635336b70318acdd4ed013a2705691d160926e84
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399475"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649699"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 for Enterprise Security voor Contoso Corporation
 
-Om het afmelden van de implementatie van Microsoft 365 for Enterprise op de IT-afdeling te verkrijgen, is een grondige beveiligings beoordeling uitgevoerd. Dit zijn de beveiligingsvereisten van Contoso voor de cloud:
+Als u de implementatie van Microsoft 365 for Enterprise wilt goedkeuren, heeft de afdeling IT-beveiliging contoso een uitgebreide beveiligings beoordeling uitgevoerd. Ze hebben de volgende beveiligingsvereisten voor de Cloud geïdentificeerd:
 
-- De sterkste verificatiemethoden worden gebruikt voor toegang van werknemers tot cloudresources
-- Er wordt voor gezorgd dat pc's en mobiele apparaten op veilige wijze verbinding maken met toepassingen
-- Pc's en e-mail worden beschermd tegen malware
-- Machtigingen voor digitale cloudactiva bepalen wie wat kan openen en wat die persoon kan doen, en zijn ontworpen voor toegang op basis van minimale bevoegdheden
-- Gevoelige en sterk gereglementeerde digitale activa worden gelabeld, versleuteld en opgeslagen op veilige locaties
-- Sterk gereglementeerde digitale activa worden beschermd met extra versleuteling en machtigingen
-- IT-beveiligingsmedewerkers kunnen de huidige beveiligingspostuur bewaken via centrale dashboards en ontvangen meldingen over beveiligingsgebeurtenissen voor snelle reacties en risicobeperking
+- Gebruik de krachtigste verificatiemethoden voor de toegang van werknemer tot Cloud bronnen.
+- Zorg ervoor dat Pc's en mobiele apparaten op veilige wijze verbinding hebben met toepassingen.
+- Beveilig Pc's en e-mail via malware.
+- Machtigingen voor digitale assets op basis van de Cloud definiëren wie toegang kan krijgen tot wat en wat ze kunnen doen, en zijn ontworpen voor toegang met minimale bevoegdheden
+- Gevoelige en sterk gereglementeerde digitale assets worden gelabeld, versleuteld en opgeslagen op veilige locaties.
+- Nadrukkelijk gereglementeerde digitale activa zijn beschermd met extra versleuteling en machtigingen.
+- IT-beveiligingspersoneel kan de huidige beveiligings Posture van Central dashboards bewaken en meldingen ontvangen over beveiligingsgebeurtenissen om snel te kunnen reageren en te beperken.
 
-## <a name="contosos-path-to-microsoft-365-security-readiness"></a>De weg van Contoso naar Microsoft 365-beveiligingsgereedheid
+## <a name="the-contoso-path-to-microsoft-365-security-readiness"></a>Het contoso-pad naar Microsoft 365 Security Readiness
 
-Contoso gebruikt de volgende stappen om de beveiliging voor de implementatie van Microsoft 365 for Enterprise voor te bereiden:
+Contoso Volg deze stappen om de beveiliging voor te bereiden op de implementatie van Microsoft 365 for Enterprise:
 
-1. Het aantal beheerdersaccounts voor de cloud is beperkt
+1. Beheerdersaccounts voor de Cloud beperken
 
-   Contoso heeft een uitgebreide evaluatie gedaan van de bestaande beheerdersaccounts van Active Directory Domain Services (AD DS) en een aantal specifieke cloudbeheerdersaccounts en -groepen ingesteld.
+   Contoso deed een uitgebreide controle af van de bestaande beheerdersaccounts van Active Directory Domain Services (AD DS) van contoso, en het instellen van toegewezen Cloud beheerdersaccounts en groepen.
 
-2. Contoso heeft op drie niveaus analyse van gegevensclassificatie uitgevoerd
+2. Gegevens in drie beveiligingsniveaus classificeren
 
-   Contoso heeft een zorgvuldige beoordeling uitgevoerd en de drie niveaus vastgesteld die zijn gebruikt voor het bepalen van de meest waardevolle Microsoft 365 voor Enterprise-functies.
+   Contoso deed een zorgvuldig onderzoek en heeft de drie niveaus vastgesteld die zijn gebruikt om de Microsoft 365 for Enterprise-functies te identificeren om de meest waardevolle gegevens te beschermen.
 
-3. Beleid voor toegang, retentie en gegevensbescherming voor gegevensniveaus bepaald
+3. Beleidsregels voor toegang, behoud en informatiebescherming bepalen voor gegevensniveaus
 
-   Op basis van de gegevensniveaus heeft Contoso gedetailleerde vereisten vastgesteld, die worden gebruikt om toekomstige IT-werkbelastingen te kwalificeren die naar de cloud worden verplaatst.
+   Op basis van de gegevensniveaus heeft Contoso de uitgebreide vereisten vastgesteld voor het voldoen aan toekomstige IT-werkbelastingen die naar de cloud worden verplaatst.
 
-In overeenstemming met de aanbevolen procedures voor Microsoft 365 en Microsoft voor Enterprise-implementatievereisten heeft de beveiligingsbeheerders en IT-afdeling van Contoso een groot aantal beveiligingsfuncties en-functionaliteit geïmplementeerd, zoals beschreven in de volgende secties.
+Als u aanbevolen procedures voor de beveiliging en Microsoft 365 wilt volgen, gelden voor beveiligingsbeheerders van Contoso en de IT-afdeling diverse beveiligingsfuncties en-functies, zoals beschreven in de volgende secties.
 
-## <a name="identity--access-management"></a>Identiteits- en toegangsbeheer 
+## <a name="identity-and-access-management"></a>Identiteits- en toegangsbeheer 
 
 - Specifieke hoofdbeheerdersaccounts met MFA en PIM
 
-  In plaats van de hoofdbeheerdersrol toe te wijzen aan standaardgebruikersaccounts heeft Contoso drie specifieke hoofdbeheerdersaccounts gemaakt met sterke wachtwoorden en ze beschermd met Azure MFA (Multi-Factor Authentication) en Azure AD (Active Directory) PIM (Privileged Identity Management). PIM is alleen beschikbaar met Microsoft 365 E5.
+  In plaats van de globale beheerdersrol toe te wijzen aan dagelijkse gebruikersaccounts, is contoso drie toegewezen globale beheerdersaccounts gemaakt met sterke wachtwoorden. De accounts zijn beveiligd via Azure multi-factor Authentication (MFA) en Azure Active Directory (Azure AD) met geprivilegieerde identiteitsbeheer (PIM). *PIM is alleen beschikbaar met Microsoft 365 E5.*
 
-  Aanmelden met een hoofdbeheerdersaccount wordt alleen gedaan voor specifieke administratieve taken, de wachtwoorden zijn alleen bekend bij aangewezen medewerkers en kunnen alleen worden gebruikt binnen de tijd die met Azure AD PIM is geconfigureerd. 
+  Wanneer u zich aanmeldt met een account van een globale beheerder, wordt alleen rekening gemaakt voor specifieke beheertaken. De wachtwoorden zijn alleen bekend bij aangewezen medewerkers en kunnen alleen worden gebruikt binnen een tijdsperiode die is geconfigureerd in azure AD PIM.
 
-  De beveiligingsbeheerders van Contoso hebben lagere beheerdersrollen toegewezen aan accounts die geschikt zijn voor de functie en verantwoordelijkheden van die IT-medewerker.
+  Contoso-beveiligingsbeheerders hebben minder beheerdersrollen toegewezen aan accounts die geschikt zijn voor de functie van de IT-werknemer.
 
   Zie [Informatie over beheerdersrollen in Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) voor meer informatie.
 
 - MFA voor alle gebruikersaccounts
 
-  MFA voegt een extra beveiligingslaag toe aan het aanmeldingsproces. Het komt erop neer dat gebruikers een telefoongesprek, sms-bericht of app-melding op hun smartphone moeten bevestigen nadat ze hun wachtwoord hebben ingevoerd. Met MFA zijn Azure AD-accounts beschermd tegen niet-geautoriseerde aanmelding, zelfs als een wachtwoord niet meer veilig is.
+  MFA voegt een extra beschermingsniveau voor het aanmeldingsproces toe. Gebruikers moeten een telefoongesprek, een SMS-bericht of een app-melding op hun smartphone erkennen na de juiste invoer van het wachtwoord. Met MFA zijn Azure AD-gebruikersaccounts beveiligd tegen niet-geautoriseerde aanmelding, ook als het wachtwoord van een account is aangetast.
 
-   - Ter bescherming tegen inbreuken op het Microsoft 365-abonnement vereist Contoso MFA voor alle hoofdbeheerdersaccounts.
-   - Ter bescherming tegen phishingaanvallen, waar een kwaadwillende gebruiker de referenties van een vertrouwde persoon binnen de organisatie misbruikt en schadelijke e-mails verzendt, heeft Contoso MFA ingeschakeld voor alle gebruikersaccounts, inclusief managers en leidinggevenden. 
+   - Voor het beschermen tegen compromissen van het Microsoft 365-abonnement heeft Contoso MFA nodig voor alle algemene beheerdersaccounts.
+   - Ter bescherming tegen phishingaanvallen, waar een kwaadwillende gebruiker de referenties van een vertrouwde persoon binnen de organisatie misbruikt en schadelijke e-mails verzendt, heeft Contoso MFA ingeschakeld voor alle gebruikersaccounts, inclusief managers en leidinggevenden.
 
 - Veiligere apparaat- en toepassingstoegang met beleid voor voorwaardelijke toegang
 
@@ -77,11 +77,11 @@ In overeenstemming met de aanbevolen procedures voor Microsoft 365 en Microsoft 
 
 - Windows Hello voor Bedrijven
 
-  Contoso heeft [Windows Hello voor Bedrijven](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) geïmplementeerd en vereist dit om uiteindelijk de noodzaak van wachtwoorden met sterke tweeledige verificatie te elimineren op pc's en mobiele apparaten met Windows 10 Enterprise.
+  Contoso heeft [Windows hello voor bedrijven](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) gebruikt om uiteindelijk niet langer wachtwoorden toe te staan via sterke tweeledige verificatie op pc's en mobiele apparaten met Windows 10 Enterprise.
 
 - Windows Defender Credential Guard
 
-  Om doelgerichte aanvallen en malware die wordt uitgevoerd in het besturingssysteem met beheerdersbevoegdheden te blokkeren, heeft Contoso [Windows Defender Credential Guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard) ingeschakeld door AD DS-groepsbeleid.
+  Voor het blokkeren van doel aanvallen en malware die in het besturingssysteem worden uitgevoerd met beheerdersbevoegdheden, Contoso heeft [Windows Defender Credential Guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard) via Active Directory-groepsbeleid uitgeschakeld.
 
 ## <a name="threat-protection"></a>Bedreigingsbeveiliging
 
@@ -91,35 +91,35 @@ In overeenstemming met de aanbevolen procedures voor Microsoft 365 en Microsoft 
 
 - Een veilige e-mailstroom en controlelogboekregistratie voor postvakken met Office 365 Advanced Threat Protection 
 
-  Contoso gebruikt Exchange Online Protection en [Office 365 ATP (Advanced Threat Protection)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) om zich te beschermen tegen onbekende malware, virussen en schadelijke URL's die worden verstuurd via e-mailberichten. 
+  Contoso gebruikt Exchange Online Protection en [Office 365 ATP (Advanced Threat Protection)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) om zich te beschermen tegen onbekende malware, virussen en schadelijke URL's die worden verstuurd via e-mailberichten.
 
-  Contoso heeft ook controlelogboekregistratie ingeschakeld voor postvakken om vast te stellen wie zich heeft aangemeld bij gebruikerspostvakken, berichten heeft verzonden en andere activiteiten die zijn uitgevoerd door de postvakeigenaar, een gedelegeerde gebruiker of een beheerder.
+  Contoso heeft ook gecontroleerd of de auditlogboek registratie voor postvakken van gebruikers aanmeldt, berichten verzendt en andere activiteiten verricht van de eigenaar van het postvak, een gedelegeerde gebruiker of beheerder.
 
 - Controle op en voorkoming van aanvallen met dreigingsonderzoek en -reacties in Office 365
 
-  Contoso gebruikt [dreigingsonderzoek en -reacties in Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) om gebruikers te beschermen door het eenvoudiger te maken aanvallen te identificeren en erop te reageren en toekomstige aanvallen te voorkomen.
+  Contoso gebruikt [Office 365 Threat onderzoek en respons](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) voor het beschermen van gebruikers door eenvoudig te identificeren en te beschermen tegen aanvallen, en om toekomstige aanvallen te voorkomen.
 
 - Bescherming tegen geavanceerde aanvallen met Advanced Threat Analytics
 
-  Contoso gebruikt [ATA (Advanced Threat Analytics)](https://docs.microsoft.com/advanced-threat-analytics/what-is-ata) om zichzelf te beschermen tegen geavanceerde doelgerichte aanvallen.  ATA analyseert, leert en identificeert automatisch normaal en abnormaal gedrag van entiteiten (gebruikers, apparaten en resources). 
+  Contoso gebruikt [ATA (Advanced Threat Analytics)](https://docs.microsoft.com/advanced-threat-analytics/what-is-ata) om zichzelf te beschermen tegen geavanceerde doelgerichte aanvallen.  ATA analyseert, leert en identificeert automatisch normaal en abnormaal gedrag van entiteiten (gebruikers, apparaten en resources).
 
 ## <a name="information-protection"></a>Gegevensbescherming
 
 - Gevoelige en sterk gereglementeerde digitale activa beschermen met Azure Information Protection-labels
 
-  Contoso heeft drie niveaus van gegevensbescherming ingesteld en [Microsoft 365-vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) geïmplementeerd die gebruikers kunnen toepassen op digitale activa. Voor handelsgeheimen en ander intellectueel eigendom gebruikt Contoso gevoeligheidssublabels voor sterk gereglementeerde gegevens die inhoud versleutelen en toegang tot specifieke gebruikersaccounts en -groepen beperkt.
+  Contoso heeft drie niveaus van gegevensbescherming ingesteld en [Microsoft 365-vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) geïmplementeerd die gebruikers kunnen toepassen op digitale activa. Voor hun handelsgeheimen en andere intellectuele eigendomsrechten contoso gebruikt contoso sublabels voor zeer gereguleerde gegevens. Met dit proces versleutelt u inhoud en beperkt u de toegang tot bepaalde gebruikersaccounts en groepen.
 
 - Gegevensverlies op intranet voorkomen met preventie van gegevensverlies
 
-  Contoso heeft beleid voor [preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) geconfigureerd voor Exchange Online, SharePoint en OneDrive voor Bedrijven om te voorkomen dat gebruikers gevoelige gegevens per ongeluk of opzettelijk delen.
+  Contoso geconfigureerd voor [preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) voor Exchange Online, SharePoint en OneDrive voor bedrijven om te voorkomen dat gebruikers per ongeluk of opzettelijk gevoelige gegevens delen.
 
 - Gegevenslekken op apparaten voorkomen met Windows-gegevensbescherming
 
-  Contoso gebruikt [Windows-gegevensbescherming (WIP)](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) om zichzelf te beschermen tegen gegevenslekken via internet-apps en -services en bedrijfs-apps en -gegevens op zakelijke apparaten en persoonlijke apparaten die medewerkers meebrengen.
+  Contoso maakt gebruik van [Windows-informatiebescherming (OHW)](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) voor het beschermen van gegevens op basis van Internet-apps en-services en-apps en-gegevens op bedrijfseigen apparaten en persoonlijke apparaten die werknemers naar het werk brengen.
 
 - Cloudbewaking met Microsoft Cloud App Security
 
-  Contoso gebruikt [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) om haar cloudomgeving in kaart te brengen, het gebruik te bewaken en beveiligingsgebeurtenissen en -incidenten te detecteren. Microsoft Cloud App Security is allen beschikbaar bij Microsoft 365 E5.
+  Contoso gebruikt [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) om haar cloudomgeving in kaart te brengen, het gebruik te bewaken en beveiligingsgebeurtenissen en -incidenten te detecteren. *Microsoft Cloud App Security is allen beschikbaar bij Microsoft 365 E5.*
 
 - Apparaatbeheer met Microsoft Intune
 
@@ -129,9 +129,8 @@ In overeenstemming met de aanbevolen procedures voor Microsoft 365 en Microsoft 
 
 - Centraal beveiligingsdashboard voor IT met Azure Security Center
 
-  Contoso gebruikt het [Azure Security Center](https://azure.microsoft.com/services/security-center/) voor een uniform overzicht van beveiliging en bedreigingsbescherming om beveiligingsbeleid in de werkbelastingen te beheren en te reageren op cyberaanvallen.
+  Contoso gebruikt het [Azure-Beveiligingscentrum](https://azure.microsoft.com/services/security-center/) voor een uniforme weergave van beveiliging en risico beveiliging, voor het beheren van beveiligingsbeleid voor de werkbelasting en om te reageren op cyberattacks.
 
 - Centraal beveiligingsdashboard voor gebruikers met Windows Defender-beveiligingscentrum
 
-  Contoso heeft de [app Windows-beveiliging](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) geïmplementeerd op haar pc's en apparaten met Windows 10 Enterprise, zodat gebruikers in één oogopslag hun beveiligingspostuur kunnen zien en actie kunnen ondernemen.
-
+  Contoso heeft de [Windows-beveiligings-app](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) geïmplementeerd op de pc's en apparaten met Windows 10 Enterprise, zodat gebruikers hun beveiliging posture in één oogopslag kunnen zien en actie kunnen ondernemen.

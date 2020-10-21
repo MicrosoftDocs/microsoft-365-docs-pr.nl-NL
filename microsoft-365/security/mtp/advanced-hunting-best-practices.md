@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e3b29a8182e38fa05e5f791478157c978632fb13
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 29e5eb64445c6c5c45b8e1fd1633c030b5f32b86
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477003"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649665"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Best practices voor geavanceerde zoekactie
 
@@ -36,10 +36,10 @@ ms.locfileid: "48477003"
 
 Pas deze aanbevelingen toe om resultaten sneller te vinden en time-outs te voorkomen tijdens het uitvoeren van complexe query's. Lees voor meer informatie over het verbeteren van de prestaties van query's het artikel [Best practices voor Kusto query](https://docs.microsoft.com/azure/kusto/query/best-practices).
 
-## <a name="understand-cpu-resource-limits"></a>Meer informatie over de limieten voor CPU-bronnen
-Afhankelijk van de grootte, heeft elke Tenant toegang tot een ingestelde hoeveelheid processorbronnen die zijn toegewezen voor het uitvoeren van geavanceerde jacht-query's. Meer informatie over de verschillende service limieten vindt u in meer informatie [over geavanceerde jacht-limieten](advanced-hunting-limits.md).
+## <a name="understand-cpu-resource-quotas"></a>Meer informatie over CPU-bron quota's
+Afhankelijk van de grootte, heeft elke Tenant toegang tot een ingestelde hoeveelheid processorbronnen die zijn toegewezen voor het uitvoeren van geavanceerde jacht-query's. Meer informatie over de verschillende service limieten vindt u in [geavanceerde jacht-quota's en gebruiks parameters](advanced-hunting-limits.md).
 
-Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden en de optimaliserings richtlijnen toepassen in dit artikel om te voorkomen dat het minder storing oplevert dan de limieten.
+Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden en de optimaliserings richtlijnen toepassen in dit artikel om onderbrekingen te beperken die het resultaat zijn van meer quota of gebruiks parameters.
 
 ## <a name="general-optimization-tips"></a>Algemene optimaliserings tips
 
@@ -265,7 +265,7 @@ Meer informatie over alle ondersteunde functies voor het parseren van functies v
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Kusto querytaal documentatie](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
-- [Servicelimieten](advanced-hunting-limits.md)
+- [Quota en gebruiks parameters](advanced-hunting-limits.md)
 - [Geavanceerde jacht-fouten verwerken](advanced-hunting-errors.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)

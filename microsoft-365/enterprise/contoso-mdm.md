@@ -15,59 +15,59 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe contoso Microsoft intune gebruikt in Microsoft 365 for Enterprise voor het beheren van de apparaten en de apps die daarop worden uitgevoerd.
-ms.openlocfilehash: 40d9473bcadfa636f6fd2b2c6c861c27dae8497c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d3f973827a9b05a415efe9225a2bdb3d83ccaf38
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685840"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649643"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Beheer van mobiele apparaten voor Contoso
 
-Microsoft 365 voor Enterprise omvat intune en een set Azure-Services voor ondersteuning van mobiele apparaten en Toepassingsbeheer en-beveiliging.
+Microsoft 365 voor Enterprise omvat intune en een set Azure-Services die ondersteuning bieden voor mobiel apparaat en toepassingen beheren en beveiliging.
 
-Contoso heeft veel mobiele medewerkers, waarvan sommigen een werkplek hebben in Contoso-locaties en anderen niet. Contoso had behoefte aan een manier om de productiviteit van medewerkers in te schakelen, maar de apparaten, de gegevens op die apparaten en het gedrag van toepassingen veilig te houden.
+Contoso kent veel mobiele medewerkers. Sommige hebben kantoren op contoso locaties en sommige hebben geen kantoren. Contoso had behoefte aan een manier om de productiviteit van medewerkers in te schakelen, maar de apparaten, de gegevens op die apparaten en het gedrag van toepassingen veilig te houden.
 
 ## <a name="plan"></a>Plannen
 
-In de beoordeling van Mobile Device Management voor Microsoft 365 for Enterprise heeft Contoso de volgende aanvraag voor intune-gebruik aangegeven:
+Contoso heeft de volgende intune-gebruik gevallen vastgesteld voor het beheer van mobiele apparaten voor Microsoft 365 for Enterprise:
 
-- Exchange Online-e-mail en -gegevens beschermen, zodat ze veilig kunnen worden gebruikt door mobiele apparaten
-- Een BYOD-programma (Bring Your Own Device) implementeren voor Contoso-werknemers
-- Telefoons en gedeelde tabletten met beperkt gebruik in eigendom van Contoso uitgeven aan Contoso-werknemers.
+- E-mail en gegevens van Exchange Online beveiligen, zodat deze veilig kan worden geopend door mobiele apparaten.
+- Implementeer een versie van het BYOD-programma (online) voor Contoso medewerkers.
+- Problemen met de organisatie en beperkte telefoons en beperkte deelnemers gebruiken voor werknemers van contoso.
 
-Contoso gebruikt Intune niet om:
+Contoso maakt geen gebruik van intune voor:
 
-- Medewerkers in staat stellen om Microsoft 365 veilig te openen vanuit een openbare kiosk
-- On-premises e-mail en gegevens te beschermen, zodat ze veilig kunnen worden gebruikt door mobiele apparaten, omdat er geen on-premises Microsoft Exchange-servers meer zijn.
+- Medewerkers in staat stellen om Microsoft 365 veilig te openen vanuit een openbare kiosk.
+- Beveilig on-premises e-mailadres en gegevens, zodat het veilig kan worden geopend door mobiele apparaten, omdat er geen on-premises Microsoft Exchange-servers zijn.
 
 ## <a name="deploy"></a>Implementeren
 
 Dit is de manier waarop Contoso de infrastructuur voor het beheer van mobiele apparaten heeft ingesteld:
 
-- Intune als MDM-instantie (Mobile Device Management) ingesteld en Intune op Azure om de inhoud en apparaten te beheren
-- Azure AD-groepen gemaakt voor apparaten voor registratie en Intune-instellingen en beleid voor voorwaardelijke toegang voor apparaten
+- Stel intune in als de MDM-Authority (Mobile Device Management) en gebruik intune op Azure om inhoud te beheren en de apparaten te beheren
+- Azure Active Directory-groepen (Azure AD) maken voor apparaten voor de registratie en intune-instellingen en het beleid voor voorwaardelijke toegang op basis van een apparaat
 
-  Zie [Beleid voor voorwaardelijke toegang van Contoso](contoso-identity.md#conditional-access-policies-for-identity-and-device-access) voor meer informatie.
+  Zie [voorwaardelijke toegangsbeleid van Contoso](contoso-identity.md#conditional-access-policies-for-identity-and-device-access)voor meer informatie.
 
-- Het Apple-apparaatplatform ingeschakeld om medewerkers met iPads, iMacs, iPhones te ondersteunen en voor op iPhone-gebaseerde telefoons van Contoso
+- Het Apple-platform is ingeschakeld voor ondersteuning van werknemers met iPads, iMacs en iPhones en van corporate zijnde iPhones
 - Specifiek Contoso-voorwaardenbeleid gemaakt, dat wordt weergegeven tijdens de installatie van het bedrijfsportaal van Contoso op mobiele apparaten
-- Voor apparaten die niet zijn ingeschreven, is een set Mobile Application Management-beleid (MAM) vereist verificatie voor toegang tot services van Microsoft 365.
+- Voor apparaten die niet zijn ingeschreven, is een set Mobile Application Management-beleid (MAM) geïmplementeerd waarvoor verificatie is vereist voor toegang tot services van Microsoft 365.
 - Intune-beleid gemaakt dat het volgende afdwingt:
-  - Goedgekeurde apps
-  - Apparaatversleuteling om ongeoorloofde toegang te voorkomen
-  - Een pincode of wachtwoord van zes cijfers
-  - Een timeout-periode als niet actief
-  - Antivirus- en malwarebescherming en handtekeningupdates met Windows Defender op Windows 10-apparaten
-  - Automatische updates op Windows 10-apparaten inclusief de nieuwste beveiligingsupdates
-  - Certificaten pushen naar beheerde apparaten
+  - Toegestane apps.
+  - Apparaatversleuteling om toegang door onbevoegden te helpen voorkomen.
+  - Een pincode of wachtwoord van zes cijfers.
+  - Een inactiviteit-time-outperiode.
+  - Beveiliging tegen virussen en malware, en handtekening updates met Windows Defender op Windows 10-apparaten.
+  - Automatische updates op Windows 10-apparaten die de nieuwste beveiligingsupdates bevatten.
+  - Certificaten naar beheerde apparaten pushen.
   - Een duidelijke scheiding tussen bedrijfs- en persoonlijke gegevens.  Gebruikers of beheerders kunnen selectief bedrijfsgegevens van het apparaat wissen en persoonlijke gegevens als foto’s, persoonlijke e-mailaccounts en persoonlijke bestanden ongemoeid laten.
 
-Na de implementatie registreerde Contoso pc’s en smartphones en tablets van het bedrijf door ze toe te voegen aan de juiste Intune-apparaatgroepen en implementeerde een BYOD-programma voor werknemers, zodat die hun persoonlijke apparaten konden registreren. Registreerde apparaten ontvingen Intune-beleid en dat resulteerde in beheerde en beveiligde apparaten en toepassingen. Apparaten die niet zijn geregistreerd hebben MAM-beleid (Mobile Application Management) dat de toegestane toepassingen specificeert.
+Door contoso geregistreerde geïmplementeerde Pc's en eigen smartphones en tablets door ze toe te voegen aan de desbetreffende groepen van intune-apparaten. Ze hebben ook een BYOD-programma gemaakt voor werknemers die hun persoonlijke apparatuur kunnen registreren. Geregistreerde apparaten ontvangen intune-beleidsregels, wat resulteert in beheerde en beveiligde apparaten en hun toepassingen. Apparaten die niet zijn ingeschreven, hebben een Mobile Application Management-beleid (MAM) die toegestane toepassingen opgeven.
 
-Hieronder ziet u de implementatie-architectuur voor het beheer van mobiele apparaten van Contoso.
+Dit is de implementatie architectuur voor mobiel Apparaatbeheer van contoso.
 
-![De implementatie-infrastructuur voor het beheer van mobiele apparaten van Contoso](../media/contoso-mdm/contoso-mdm-fig1.png)
+![Implementatie-infrastructuur van Contoso Mobile Device Management](../media/contoso-mdm/contoso-mdm-fig1.png)
 
 ## <a name="next-step"></a>Volgende stap
 
