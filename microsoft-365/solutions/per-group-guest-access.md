@@ -1,5 +1,5 @@
 ---
-title: Gastgebruikers blokkeren voor een bepaalde groep
+title: Voorkomen dat gastgebruikers aan een specifieke groep worden toegevoegd
 ms.reviewer: arvaradh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,21 +14,23 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Gastgebruikers blokkeren voor een bepaalde groep
-ms.openlocfilehash: 17e5f8f9ab4107a12a0607dca3795d54b7be012c
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: Meer informatie over hoe u kunt voorkomen dat gastgebruikers aan een specifieke groep worden toegevoegd
+ms.openlocfilehash: 91c7560186fb0b954075e9ff9c997b34121951cd
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377304"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651348"
 ---
-# <a name="block-guest-users-from-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Gastgebruikers blokkeren vanuit een specifieke Microsoft 365-groep of een Microsoft teams-team
+# <a name="prevent-guest-users-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Voorkomen dat gastgebruikers worden toegevoegd aan een specifieke Microsoft 365-groep of in een Microsoft teams-team
 
-Als u gasttoegang wilt verlenen tot de meeste groepen en teams, maar wel een deel van de toegang tot gasttoegang wilt blokkeren, kunt u gasttoegang voor afzonderlijke groepen en teams blokkeren. (Het blokkeren van toegang tot een team is ongedaan gemaakt door gasttoegang tot de bijbehorende groep te blokkeren).
+Als u gasttoegang wilt verlenen tot de meeste groepen en teams, maar wel een deel van de toegang tot gasttoegang wilt blokkeren, kunt u gasttoegang voor afzonderlijke groepen en teams blokkeren. (Het blokkeren van toegang tot een team is ongedaan gemaakt door gasttoegang tot de bijbehorende groep te blokkeren). Hiermee voorkomt u dat nieuwe gasten worden toegevoegd, maar geen gasten die al deel uitmaken van de groep of het team.
 
 Als u de palletlabels in uw organisatie gebruikt, raden we u aan ze te gebruiken voor het beheren van gasttoegang per groep. Voor informatie over hoe u dit doet, [kunt u de vertrouwelijkheids labels gebruiken om inhoud te beschermen in Microsoft teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). Dit is de aanbevolen aanpak.
 
-U kunt gasttoegang voor afzonderlijke groepen ook blokkeren met behulp van Microsoft PowerShell.
+## <a name="change-group-settings-using-microsoft-powershell"></a>Groepsinstellingen wijzigen met Microsoft PowerShell
+
+U kunt er ook voor zorgen dat nieuwe gasten worden toegevoegd aan individuele groepen met behulp van PowerShell.
 
 U moet de preview-versie van [Azure Active Directory PowerShell voor Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (module name **AzureADPreview**) gebruiken om de instelling voor gasttoegang op het groepeerniveau te wijzigen:
 

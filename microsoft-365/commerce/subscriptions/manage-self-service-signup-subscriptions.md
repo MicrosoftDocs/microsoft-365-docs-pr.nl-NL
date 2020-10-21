@@ -1,10 +1,10 @@
 ---
-title: Abonnementen voor selfservice-aanmelding beheren
+title: Selfservice registratie abonnementen beheren
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,37 +17,37 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Meer informatie over het beheren van gratis selfservice-abonnementen voor uw organisatie.
-ms.openlocfilehash: 81c67292a394c62d6057022babb88aa8796b9b3d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het beheren van gratis selfservice registratie abonnementen voor uw organisatie.
+ms.openlocfilehash: fb70d0c40d4358abc227c8f6ff4a0e0dce1a7265
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403244"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647829"
 ---
-# <a name="manage-self-service-sign-up-subscriptions"></a>Abonnementen voor selfservice-aanmelding beheren
+# <a name="manage-self-service-sign-up-subscriptions"></a>Selfservice registratie abonnementen beheren
 
-## <a name="what-are-self-service-sign-up-subscriptions"></a>Wat zijn selfservice-abonnementen?
+## <a name="what-are-self-service-sign-up-subscriptions"></a>Wat zijn Self-serviceregistratie abonnementen?
 
-Er zijn een beperkt aantal gratis self-service aanmeldingsabonnementen waarvoor gebruikers in uw organisatie zich kunnen aanmelden. Een gebruiker kan zich alleen aanmelden voor en zelf een selfservice-abonnement gebruiken. Deze abonnementen worden weergegeven op de pagina **Uw producten,** zijn gemarkeerd als **Gratis**en hebben een notitie met de tekst: "Dit is een gratis abonnement dat wordt geactiveerd door gebruikers in uw bedrijf." U zelfservice-aanmeldingsabonnementen beheren door gebruikers te blokkeren zich aan te melden en door gratis abonnementen te verwijderen waarvoor gebruikers zich hebben aangemeld. Zie [Zelfserviceaanmelden gebruiken in uw organisatie](../../admin/misc/self-service-sign-up.md)voor meer informatie over het aanmelden voor selfservice en de beschikbare abonnementen.
+U kunt een beperkt aantal gratis selfservice registratie abonnementen instellen waarmee gebruikers in uw organisatie zich kunnen registreren. Een gebruiker kan zich alleen aanmelden voor een self-service-aanmeldings abonnement. Deze abonnementen worden weergegeven op de pagina **uw producten** , zijn gemarkeerd als **gratis**en hebben de tekst ' Dit is een gratis abonnement dat wordt geactiveerd door gebruikers in uw bedrijf. ' U kunt Self-Serviceabonnementen voor eenmalige aanmelding beheren door gebruikers te blokkeren met een registratie, en door gratis abonnementen te verwijderen waarop gebruikers zich hebben geregistreerd. Zie [selfservice registratie gebruiken in uw organisatie](../../admin/misc/self-service-sign-up.md)voor meer informatie over selfservice registratie en de beschikbare abonnementen.
 
-## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>Wat zijn deze abonnementen anders dan self-service aankoopabonnementen?
+## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>Wat is het verschil tussen de abonnementen voor selfservice aankopen?
 
-Self-service aanmeldingsabonnementen zijn gratis en zijn beschikbaar voor een grotere lijst met producten dan selfservice-aankoopabonnementen. Wanneer een gebruiker zich aanmeldt voor een selfservice-aankoopabonnement, is hij verantwoordelijk voor het betalen ervan. Ook zijn abonnementen voor selfservice-aankopen alleen beschikbaar voor Power Platform-producten (Power BI, Power Apps en Power Automate). Zie [Veelgestelde vragen over selfserviceaankopen](self-service-purchase-faq.md)voor meer informatie.
+Selfservice registratie abonnementen zijn gratis en zijn beschikbaar voor een grotere lijst met producten dan selfservice Purchase-abonnementen. Wanneer een gebruiker zich registreert voor een self-service Purchase-abonnement, zijn ze verantwoordelijk voor de betaling ervan. Ook selfservice Purchase-abonnementen zijn alleen beschikbaar voor Power platform-producten (Power BI, Power apps en Power Automatiseer). Voor meer informatie raadpleegt u [Veelgestelde vragen over self-service aankopen](self-service-purchase-faq.md).
 
-## <a name="block-users-from-signing-up"></a>Gebruikers blokkeren om zich aan te melden
+## <a name="block-users-from-signing-up"></a>Voorkomen dat gebruikers zich aanmelden
 
-U gebruikt de cmdlet [**Set-MsolCompanySettings**](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) met de parameter **AllowAdHocSubscriptions** om te bepalen of gebruikers zich kunnen aanmelden voor zelfbedieningsabonnementen. Zie [Hoe beheer ik selfservice-instellingen?](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings)
+Met de cmdlet [**set-MsolCompanySettings**](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) met de parameter **AllowAdHocSubscriptions** kunt u aangeven of gebruikers zich kunnen registreren voor Self-serviceregistratie abonnementen. Voor meer informatie raadpleegt [u hoe kan ik selfservice-instellingen beheren?](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings)
 
-## <a name="delete-a-self-service-sign-up-subscription"></a>Een selfservice-abonnement verwijderen
+## <a name="delete-a-self-service-sign-up-subscription"></a>Een self-serviceregistratie abonnement verwijderen
 
 > [!IMPORTANT]
-> Wanneer u een selfservice-abonnement verwijdert, blokkeert u dat alle gebruikers toegang krijgen tot hun gegevens en e-mail en alle gegevens en e-mail verwijderen.
+> Wanneer u een abonnement voor selfservice registratie verwijdert, blok keert alle gebruikers de toegang tot de gegevens en e-mail en verwijder alle gegevens en e-mail.
 
-1. Ga in het beheercentrum naar de pagina **Facturering**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
-2. Zoek het selfservice-abonnement dat u wilt verwijderen. Selecteer **abonnement verwijderen**in de sectie Instellingen **& acties** .
-3. Schakel in het deelvenster **Abonnement verwijderen** het selectievakje in en schakel vervolgens **Abonnement verwijderen**in.
+1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
+2. Zoek het self-service-aanmeldings abonnement dat u wilt verwijderen. Selecteer in de sectie **instellingen & acties** de optie **abonnement verwijderen**.
+3. In het deelvenster **abonnement verwijderen** schakelt u het selectievakje in en selecteert u vervolgens **abonnement verwijderen**.
 
-## <a name="i-have-a-self-service-sign-up-subscription-that-blocks-directory-deletion"></a>Ik heb een selfservice-abonnement dat het verwijderen van directory's blokkeert
+## <a name="i-have-a-self-service-sign-up-subscription-that-blocks-directory-deletion"></a>Ik heb een self-serviceregistratie abonnement dat de verwijdering van de map blokkeert
 
-De selfservice-aanmeldingsproducten waarvoor individuele gebruikers zich kunnen aanmelden, maken ook een gastgebruiker voor verificatie in uw Azure AD-map. Om gegevensverlies te voorkomen, blokkeren deze selfserviceproducten het verwijderen van directorytotdat ze volledig uit de map zijn verwijderd. Ze kunnen alleen worden verwijderd door de Azure AD-beheerder. Zie [Een map verwijderen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-delete-howto)voor meer informatie.
+De selfservice registratie producten waarmee afzonderlijke gebruikers zich kunnen registreren voor het ook maken van een gastgebruiker voor verificatie in de Azure AD-Directory. Om verlies van gegevens te voorkomen, blok keert deze selfservice producten Directory verwijdering totdat ze volledig uit de adreslijst worden verwijderd. Ze kunnen alleen worden verwijderd door de Azure AD-beheerder. Zie [een map verwijderen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-delete-howto)voor meer informatie.

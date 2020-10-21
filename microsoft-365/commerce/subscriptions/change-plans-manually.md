@@ -1,10 +1,10 @@
 ---
-title: Microsoft 365 voor bedrijfsabonnementen handmatig wijzigen
+title: Microsoft 365 voor bedrijven-abonnementen handmatig wijzigen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,52 +21,52 @@ search.appverid:
 - MOE150
 - BEA160
 ROBOTS: NOINDEX
-description: Wijzig abonnementen handmatig door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief.
-ms.openlocfilehash: 20f5492a816c6c819456ac2ca4aa0f20da24eccd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Abonnementen handmatig wijzigen door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief zijn.
+ms.openlocfilehash: 09557b3556db1e6f17d7a4cd54a88ba34d0f0bd7
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403280"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647817"
 ---
-# <a name="change-plans-manually"></a>Plannen handmatig wijzigen
+# <a name="change-plans-manually"></a>Abonnementen handmatig wijzigen
 
-## <a name="step-1-decide-how-to-change-plans"></a>Stap 1: Beslissen hoe u plannen wijzigt
+## <a name="step-1-decide-how-to-change-plans"></a>Stap 1: bepalen hoe u plannen kunt wijzigen
 
-De beste manier om al uw gebruikers van het ene abonnement naar het andere te wijzigen, is door het tabblad Upgrade te [gebruiken.](upgrade-to-different-plan.md) Soms is dit niet mogelijk. Plannen in plaats daarvan handmatig wijzigen:
+De beste manier om al uw gebruikers te wijzigen van het ene abonnement naar het andere, is [via het tabblad upgrade](upgrade-to-different-plan.md). Soms is dit niet mogelijk. Het handmatig wijzigen van abonnementen:
 
-- Als het tabblad **Upgrade** aangeeft dat u het huidige abonnement niet upgraden.
+- Als het tabblad **upgrade** aangeeft, kunt u het huidige abonnement niet upgraden.
 
-- Als u het tabblad **Upgrade** selecteert, wordt het gewenste abonnement niet weergegeven.
+- Als u het tabblad **upgrade** selecteert, wordt het gewenste abonnement niet weergegeven.
 
-- Als u niet al uw gebruikers op dezelfde manier wilt upgraden. Bij sommige bedrijven kan het nodig zijn dat verschillende gebruikers verschillende abonnementen hebben. Gebruik hiervoor een handmatige wijziging.
+- Als u niet al uw gebruikers op dezelfde manier wilt bijwerken. Bij sommige bedrijven kan het nodig zijn dat verschillende gebruikers verschillende abonnementen hebben. Gebruik een handmatige wijziging.
 
-Lees [stap 2: Koop een nieuw abonnement](#step-2-buy-a-new-subscription) in dit onderwerp om verder te gaan met een handmatige wijziging.
+Als u wilt doorgaan met een handmatige wijziging, raadpleegt u [stap 2: een nieuw abonnement kopen](#step-2-buy-a-new-subscription) in dit onderwerp.
 
 > [!IMPORTANT]
-> Als u overstapt op een abonnement met minder gegevensgerelateerde services dan uw huidige abonnement (downgraden), moet u handmatig een back-up maken van alle gegevens die u wilt bewaren. Zie [Gegevens weergeven voordat](back-up-data-before-switching-plans.md)u plannen wijzigt voor meer informatie.
+> Als u een abonnement wijzigt met minder gegevens gerelateerde services dan uw huidige abonnement (downgrade), moet u handmatig een back-up maken van alle gegevens die u wilt behouden. Voor meer informatie raadpleegt [u een back-up van gegevens maken voordat u van abonnement verandert](back-up-data-before-switching-plans.md).
 
-## <a name="step-2-buy-a-new-subscription"></a>Stap 2: Een nieuw abonnement kopen
+## <a name="step-2-buy-a-new-subscription"></a>Stap 2: een nieuw abonnement kopen
 
-**Al een abonnement gekocht?** Als u al een abonnement hebt waarnaar u gebruikers wilt verplaatsen, slaat u deze stap over en gaat u naar [Stap 3: Controleer uw nieuwe abonnement en licenties](#step-3-check-your-new-subscription-and-licenses) in dit onderwerp.
+**Al een abonnement gekocht?** Als u al een abonnement hebt waarnaar u gebruikers wilt verplaatsen, kunt u deze stap overslaan en gaat u naar [stap 3: Controleer de nieuwe abonnementen en licenties](#step-3-check-your-new-subscription-and-licenses) in dit onderwerp.
 
 OF
 
-**Koop een nieuw abonnement en licenties:** Volg de stappen in [Een ander Microsoft 365 voor zakelijk abonnement](../buy-another-subscription.md) kopen om een nieuw abonnement te kopen.
+**Koop een nieuw abonnement en licenties:** Volg de stappen in [een ander Microsoft 365 voor bedrijven-abonnement kopen](../buy-another-subscription.md) om een nieuw abonnement te kopen.
 
-Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer bijvoorbeeld de e-mailadressen voor de gebruikers die u wilt verplaatsen. Als hun e-mailadressen \@ contoso.com bevatten, moet u een nieuw abonnement voor contoso.com kopen.
+Het is belangrijk dat u een licentie koopt voor de organisatie waarvan de gebruikers nu ook deel uitmaken. Controleer bijvoorbeeld de e-mailadressen van de gebruikers die u wilt verplaatsen. Als het e-mailadres \@ contoso.com bevat, moet u een nieuw abonnement voor contoso.com kopen.
 Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
-## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: Controleer uw nieuwe abonnement en licenties
+## <a name="step-3-check-your-new-subscription-and-licenses"></a>Stap 3: uw nieuwe abonnement en licenties controleren
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 
-2. **Controleren of beide abonnementen worden vermeld en actief** Het abonnement waarvan u gebruikers verplaatst en het abonnement waarnaar u gebruikers verplaatst, moeten samen worden weergegeven. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen actief zijn. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
+2. **Controleren of beide abonnementen worden vermeld en actief zijn** Het abonnement waaruit u gebruikers overgaat en het abonnement waarnaar u gebruikers wilt verplaatsen, moet samen staan. Als u het nieuwe abonnement niet ziet, wacht u een tijdje en kijkt u dan nog een keer. Controleer of beide abonnementen actief zijn. [Het nieuwe abonnement wordt niet vermeld of is niet actief](#the-new-subscription-isnt-listed-or-isnt-active).
 
-3. **Controleer of u voldoende licenties hebt voor elke gebruiker** Elke gebruiker heeft een licentie nodig die overeenkomt met zijn abonnement. Dus als u tien gebruikers wilt verplaatsen naar Microsoft 365 Business Premium, moet u ervoor zorgen dat er tien licenties beschikbaar zijn.
+3. **Controleer of u voldoende licenties hebt voor alle gebruikers** Elke gebruiker moet een licentie voor een abonnement nastemmen. Dus als u tien gebruikers wilt verplaatsen naar Microsoft 365 Business Premium, moet u ervoor zorgen dat er tien licenties beschikbaar zijn.
 
 4. **Meer licenties nodig voor het nieuwe abonnement?**
-   Ga naar de pagina **Uw producten** en koop [meer licenties.](../licenses/buy-licenses.md)
+   Ga naar de pagina **uw producten** en [Koop meer licenties](../licenses/buy-licenses.md).
 
 > [Hoe zit het met de oude licenties?](#what-about-the-old-licenses)
 
@@ -74,21 +74,21 @@ Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
 - **Als u twee abonnementen hebt gekocht en deze hier niet beide worden vermeld**, zijn ze misschien gekocht voor verschillende organisaties (voor verschillende domeinen). Abonnementen kunnen niet tussen organisaties worden gedeeld.
 
-- **Als u weet dat u een aanvullend abonnement hebt**en het hier niet wordt vermeld of niet actief is, belt u [Microsoft-ondersteuning.](../../admin/contact-support-for-business-products.md)
+- [Neem contact op met Microsoft ondersteuning](../../admin/contact-support-for-business-products.md) **Als u weet dat u een extra abonnement hebt**en dit niet hier wordt vermeld of niet actief is.
 
 ### <a name="what-about-the-old-licenses"></a>Hoe zit het met de oude licenties?
 
 De licenties voor het huidige abonnement worden later verwijderd. U betaalt vanaf dat moment alleen voor de nieuwe gebruikerslicenties.
 
-## <a name="step-4-reassign-licenses"></a>Stap 4: Licenties opnieuw toewijzen
+## <a name="step-4-reassign-licenses"></a>Stap 4: licenties opnieuw toewijzen
 
 ### <a name="reassign-a-license-for-one-user"></a>Een licentie opnieuw toewijzen voor één gebruiker
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer op de pagina **Actieve gebruikers** de gebruiker aan wie u een licentie wilt toewijzen.
+2. Selecteer op de pagina **actieve gebruikers** de gebruiker aan wie u een licentie wilt toewijzen.
 
-3. Vouw op het tabblad **Licenties en Apps** **licenties**uit , selecteer de vakken voor de licenties die u wilt toewijzen en selecteer **Wijzigingen opslaan**.
+3. Vouw op het tabblad **licenties en apps** de optie **licenties**uit, schakel de vakjes in voor de licenties die u wilt toewijzen en selecteer vervolgens **wijzigingen opslaan**.
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>Licenties opnieuw toewijzen voor meerdere gebruikers tegelijk
 
@@ -96,7 +96,7 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
 
 2. Selecteer de cirkels naast de namen van de gebruikers voor wie u bestaande licenties wilt vervangen.
 
-3. Selecteer bovenaan **Meer opties** (**... )** en kies **Vervolgens Productlicenties beheren**.
+3. Selecteer boven aan de pagina **meer opties** (**...**) en kies vervolgens **productlicenties beheren**.
 
 4. Selecteer **Bestaande toewijzingen van productlicenties vervangen** \> **Volgende**.
 
@@ -108,11 +108,11 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
 
 6. Selecteer onderaan het deelvenster **Bestaande producten vervangen** de opties **Vervangen** \> **Sluiten**.
 
-## <a name="step-5-cancel-subscriptions-or-remove-licenses-that-you-no-longer-need-optional"></a>Stap 5: Abonnementen opzeggen of licenties verwijderen die u niet meer nodig hebt (optioneel)
+## <a name="step-5-cancel-subscriptions-or-remove-licenses-that-you-no-longer-need-optional"></a>Stap 5: abonnementen opzeggen of licenties verwijderen die u niet meer nodig hebt (optioneel)
 
 Als u alle gebruikers uit een abonnement naar een ander abonnement hebt verplaatst en u het oorspronkelijke abonnement niet meer nodig hebt, kunt u [het abonnement annuleren](cancel-your-subscription.md).
 
 Als u slechts een paar gebruikers naar een ander abonnement hebt verplaatst, [verwijdert u de licenties](../licenses/remove-licenses-from-subscription.md) die u niet meer nodig hebt.
 
-## <a name="call-support-to-help-you-change-plans"></a>Ondersteuning bellen om u te helpen plannen te wijzigen
-[Ondersteuning voor Microsoft bellen](../../admin/contact-support-for-business-products.md)
+## <a name="call-support-to-help-you-change-plans"></a>Ondersteuning roepen om u te helpen bij het wijzigen van plannen
+[Neem contact op Microsoft ondersteuning](../../admin/contact-support-for-business-products.md)
