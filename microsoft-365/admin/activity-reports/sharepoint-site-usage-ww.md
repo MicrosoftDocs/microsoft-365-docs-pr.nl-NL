@@ -1,0 +1,67 @@
+---
+title: Microsoft 365-rapporten in het Beheercentrum-gebruik van SharePoint-sites
+f1.keywords:
+- NOCSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_NonTOC
+ms.custom: AdminSurgePortfolio
+ROBOTS: NOINDEX, NOFOLLOW
+search.appverid:
+- BCS160
+- MST160
+- MET150
+- MOE150
+description: U kunt het rapport gebruik van SharePoint-sites gebruiken om te zien hoeveel bestanden gebruikers opslaan op SharePoint-sites, hoe vaak actief worden gebruikt en de totale gebruikte opslagruimte.
+ms.openlocfilehash: bc9345a5e281f1e7343bf62a2dc6832587d0786e
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649773"
+---
+# <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a><span data-ttu-id="099e1-103">Microsoft 365-rapporten in het Beheercentrum-gebruik van SharePoint-sites</span><span class="sxs-lookup"><span data-stu-id="099e1-103">Microsoft 365 Reports in the admin center - SharePoint site usage</span></span>
+
+<span data-ttu-id="099e1-104">Als Microsoft 365-beheerder toont het dashboard **rapporten** het overzicht van activiteiten voor verschillende producten in uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="099e1-104">As a Microsoft 365 admin, the **Reports** dashboard shows you the activity overview across various products in your organization.</span></span> <span data-ttu-id="099e1-105">Hiermee kunt u inzoomen om meer inzicht te krijgen in de activiteiten die specifiek zijn voor elk product.</span><span class="sxs-lookup"><span data-stu-id="099e1-105">It enables you to drill in to get more granular insight about the activities specific to each product.</span></span> <span data-ttu-id="099e1-106">U kunt bijvoorbeeld een overzicht op hoog niveau krijgen van de toegevoegde waarde van SharePoint voor wat betreft het totale aantal bestanden die gebruikers in SharePoint-sites opslaan, het aantal bestanden die actief worden gebruikt en de opslagruimte die wordt gebruikt door al deze sites.</span><span class="sxs-lookup"><span data-stu-id="099e1-106">For example, you can get a high level view of the value you are getting from SharePoint in terms of the total number of files that users store in SharePoint sites, how many files are actively being used, and the storage consumed across all these sites.</span></span> <span data-ttu-id="099e1-107">Vervolgens kunt u inzoomen op het gebruiksrapport voor SharePoint-sites om inzicht te krijgen in de trends en de details op siteniveau voor alle sites.</span><span class="sxs-lookup"><span data-stu-id="099e1-107">Then, you can drill into the SharePoint site usage report to understand the trends and per site level details for all sites.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="099e1-108">U moet een globale beheerder, algemene lezer of rapporten lezer zijn in Microsoft 365 of een Exchange-, SharePoint-, teams-service, teams-communicatie of Skype voor bedrijven-beheerder om rapporten te zien.</span><span class="sxs-lookup"><span data-stu-id="099e1-108">You must be a global administrator, global reader or reports reader in Microsoft 365 or an Exchange, SharePoint, Teams Service, Teams Communications, or Skype for Business administrator to see reports.</span></span>
+<span data-ttu-id="099e1-109">Microsoft 365-rapporten in het Beheercentrum wordt niet ondersteund voor GCC High-en DoD-tenants.</span><span class="sxs-lookup"><span data-stu-id="099e1-109">Microsoft 365 Reports in the admin center is not supported for GCC High and DoD tenants.</span></span>
+ 
+## <a name="how-to-get-to-the-sharepoint-site-usage-report"></a><span data-ttu-id="099e1-110">Het gebruiksrapport voor SharePoint-sites verkrijgen</span><span class="sxs-lookup"><span data-stu-id="099e1-110">How to get to the SharePoint site usage report</span></span>
+
+1. <span data-ttu-id="099e1-111">Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.</span><span class="sxs-lookup"><span data-stu-id="099e1-111">In the admin center, go to the **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.</span></span> 
+2. <span data-ttu-id="099e1-112">Klik op de startpagina van het dashboard op de knop **meer weergeven** op de SharePoint-kaart.</span><span class="sxs-lookup"><span data-stu-id="099e1-112">From the dashboard homepage, click on the **View more** button on the SharePoint card.</span></span>
+  
+## <a name="interpret-the-sharepoint-site-usage-report"></a><span data-ttu-id="099e1-113">Het gebruiksrapport voor SharePoint-sites interpreteren</span><span class="sxs-lookup"><span data-stu-id="099e1-113">Interpret the SharePoint site usage report</span></span>
+
+<span data-ttu-id="099e1-114">U kunt het site gebruik in het SharePoint-rapport weergeven door het tabblad **site gebruik** te kiezen.</span><span class="sxs-lookup"><span data-stu-id="099e1-114">You can view the site usage in the SharePoint report by choosing the **Site usage** tab.</span></span><br/><span data-ttu-id="099e1-115">![Microsoft 365-rapporten-rapport Microsoft SharePoint-site gebruik.](../../media/d1cb6200-e81c-460b-9d05-53f4bd7cf5ee.png)</span><span class="sxs-lookup"><span data-stu-id="099e1-115">![Microsoft 365 reports - Microsoft SharePoint site usage report.](../../media/d1cb6200-e81c-460b-9d05-53f4bd7cf5ee.png)</span></span>
+
+<span data-ttu-id="099e1-116">Selecteer **kolommen kiezen** als u kolommen wilt toevoegen aan of verwijderen uit het rapport.</span><span class="sxs-lookup"><span data-stu-id="099e1-116">Select **Choose columns** to add or remove columns from the report.</span></span>  <br/> <span data-ttu-id="099e1-117">![Gebruiksrapport voor SharePoint-sites-Kies kolommen](../../media/639f3cfd-6725-4318-a225-6d5c2f01770c.png)</span><span class="sxs-lookup"><span data-stu-id="099e1-117">![SharePoint site usage report - choose columns](../../media/639f3cfd-6725-4318-a225-6d5c2f01770c.png)</span></span>
+
+<span data-ttu-id="099e1-118">U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren.</span><span class="sxs-lookup"><span data-stu-id="099e1-118">You can also export the report data into an Excel .csv file by selecting the **Export** link.</span></span> <span data-ttu-id="099e1-119">Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse.</span><span class="sxs-lookup"><span data-stu-id="099e1-119">This exports data of all users and enables you to do simple sorting and filtering for further analysis.</span></span> <span data-ttu-id="099e1-120">Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren.</span><span class="sxs-lookup"><span data-stu-id="099e1-120">If you have less than 2000 users, you can sort and filter within the table in the report itself.</span></span> <span data-ttu-id="099e1-121">Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.</span><span class="sxs-lookup"><span data-stu-id="099e1-121">If you have more than 2000 users, in order to filter and sort, you will need to export the data.</span></span> 
+  
+|<span data-ttu-id="099e1-122">Item</span><span class="sxs-lookup"><span data-stu-id="099e1-122">Item</span></span>|<span data-ttu-id="099e1-123">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="099e1-123">Description</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="099e1-124">**Gegevens**</span><span class="sxs-lookup"><span data-stu-id="099e1-124">**Metric**</span></span>|<span data-ttu-id="099e1-125">**Definitie**</span><span class="sxs-lookup"><span data-stu-id="099e1-125">**Definition**</span></span>|
+|<span data-ttu-id="099e1-126">Site-URL</span><span class="sxs-lookup"><span data-stu-id="099e1-126">Site URL</span></span>  <br/> |<span data-ttu-id="099e1-127">De volledige URL van de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-127">The full URL of the site.</span></span> <br/> |
+|<span data-ttu-id="099e1-128">Deleted</span><span class="sxs-lookup"><span data-stu-id="099e1-128">Deleted</span></span>  <br/> |<span data-ttu-id="099e1-129">De status van de verwijdering van de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-129">The deletion status of the site.</span></span> <span data-ttu-id="099e1-130">Het duurt minimaal zeven dagen voordat sites kunnen worden gemarkeerd als verwijderd.</span><span class="sxs-lookup"><span data-stu-id="099e1-130">It takes at least 7 days for sites to be marked as deleted.</span></span>  <br/> |
+|<span data-ttu-id="099e1-131">Site-eigenaar</span><span class="sxs-lookup"><span data-stu-id="099e1-131">Site owner</span></span>  <br/> |<span data-ttu-id="099e1-132">De gebruikersnaam van de primaire eigenaar van de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-132">The username of the primary owner of the site.</span></span>   <br/> |
+|<span data-ttu-id="099e1-133">Principal-naam van site-eigenaar</span><span class="sxs-lookup"><span data-stu-id="099e1-133">Site owner principal name</span></span>  <br/> |<span data-ttu-id="099e1-134">Het e-mailadres van de eigenaar van de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-134">The email address of the owner of the site.</span></span> <br/> |
+|<span data-ttu-id="099e1-135">Datum van laatste activiteit (UTC)</span><span class="sxs-lookup"><span data-stu-id="099e1-135">Last activity date (UTC)</span></span>  <br/> | <span data-ttu-id="099e1-136">De datum waarop de laatste Bestandsactiviteit is gedetecteerd of waarop een pagina is bekeken op de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-136">The date of the last time file activity was detected or a page was viewed on the site.</span></span>  <br/> |
+|<span data-ttu-id="099e1-137">Bestanden</span><span class="sxs-lookup"><span data-stu-id="099e1-137">Files</span></span>  <br/> |<span data-ttu-id="099e1-138">Het aantal bestanden op de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-138">The number of files on the site.</span></span> <br/>|
+|<span data-ttu-id="099e1-139">Actieve bestanden</span><span class="sxs-lookup"><span data-stu-id="099e1-139">Active files</span></span>  <br/> | <span data-ttu-id="099e1-140">Het aantal actieve bestanden op de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-140">The number of active files on the site.</span></span><br/> <span data-ttu-id="099e1-141">Opmerking: als er tijdens de opgegeven periode voor het rapportbestanden zijn verwijderd, is het aantal actieve bestanden dat in het rapport wordt getoond groter dan het huidige aantal bestanden op de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-141">NOTE: If files were removed during the specified time period for the report, the number of active files shown in the report may be larger than the current number of files on the site.</span></span>  <br/> |
+|<span data-ttu-id="099e1-142">Gebruikte opslagruimte (MB)</span><span class="sxs-lookup"><span data-stu-id="099e1-142">Storage used (MB)</span></span>  <br/> |<span data-ttu-id="099e1-143">De hoeveelheid opslagruimte die op dat moment op de site wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="099e1-143">The amount of storage currently being used on the site.</span></span>  <br/>|
+|<span data-ttu-id="099e1-144">Opslag toegewezen (MB)</span><span class="sxs-lookup"><span data-stu-id="099e1-144">Storage allocated (MB)</span></span>  <br/> |<span data-ttu-id="099e1-145">De maximale hoeveelheid opslagruimte die voor de site is toegewezen.</span><span class="sxs-lookup"><span data-stu-id="099e1-145">The maximum amount of storage allocated for the site.</span></span>  <br/>|
+|<span data-ttu-id="099e1-146">Paginaweergaven</span><span class="sxs-lookup"><span data-stu-id="099e1-146">Page views</span></span>  <br/> |<span data-ttu-id="099e1-147">Het aantal keren dat pagina's op de site zijn bekeken.</span><span class="sxs-lookup"><span data-stu-id="099e1-147">The number of times pages were viewed on the site.</span></span>  <br/>|
+|<span data-ttu-id="099e1-148">Bezochte pagina's</span><span class="sxs-lookup"><span data-stu-id="099e1-148">Pages visited</span></span>  <br/> |<span data-ttu-id="099e1-149">Het aantal unieke pagina's dat op de site is bezocht.</span><span class="sxs-lookup"><span data-stu-id="099e1-149">The number of unique pages that were visited on the site.</span></span>  <br/>|
+|<span data-ttu-id="099e1-150">Hoofdwebsite sjabloon</span><span class="sxs-lookup"><span data-stu-id="099e1-150">Root Web Template</span></span>  <br/> |<span data-ttu-id="099e1-151">De sjabloon die wordt gebruikt voor het maken van de site.</span><span class="sxs-lookup"><span data-stu-id="099e1-151">The template used for creating the site.</span></span>  <br/> <span data-ttu-id="099e1-152">Opmerking: als u de gegevens wilt filteren op verschillende site typen, exporteert u de gegevens en gebruikt u de kolom hoofd websjabloon.</span><span class="sxs-lookup"><span data-stu-id="099e1-152">NOTE: If you want to filter the data by different site types, then export the data and use the Root Web Template column.</span></span> |
+|||
