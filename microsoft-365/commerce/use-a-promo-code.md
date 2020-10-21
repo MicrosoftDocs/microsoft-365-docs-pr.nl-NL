@@ -1,10 +1,10 @@
 ---
-title: Gebruik uw promocode om de prijs te verlagen
+title: Uw promotiecode gebruiken om de prijs te verlagen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -23,33 +23,33 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
-description: Meer informatie over het toepassen van een promotiecode op uw Microsoft 365-abonnement om de prijs te verlagen en hoe u promotiecode oplossen in geval van een fout.
-ms.openlocfilehash: 791565e29d8456e6c3c2c90b88cb2c6612e2d2cc
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Leer hoe u een promotiecode toepast op uw Microsoft 365-abonnement, zodat u de prijs kunt verlagen en de promotiecode kunt oplossen als u een foutmelding krijgt.
+ms.openlocfilehash: 09f39b6f82153c6b23525ab41cfb94e77437d062
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403112"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646737"
 ---
-# <a name="use-your-promo-code-to-reduce-price"></a>Gebruik uw promocode om de prijs te verlagen
+# <a name="use-your-promo-code-to-reduce-price"></a>Uw promotiecode gebruiken om de prijs te verlagen
 
-Wanneer u een abonnement koopt, u een promotiecode gebruiken om de prijs te verlagen. Lees dit artikel voor meer informatie over het toepassen van een promotiecode op uw abonnement, voor meer informatie over de [termen van de promocode](#promo-code-terms)en [het oplossen van promotiecodes.](#troubleshooting-promo-codes)
+Wanneer u een abonnement koopt, kunt u een promotiecode gebruiken om de prijs te verlagen. Lees dit artikel voor meer informatie over het toepassen van een promotiecode op uw abonnement, voor meer informatie over de [voorwaarden van de promotiecode](#promo-code-terms)en het [oplossen van promotie codes](#troubleshooting-promo-codes).
   
 ## <a name="apply-a-promo-code-to-your-subscription"></a>Een promotiecode toepassen op een abonnement
 
 1. Begin uw aankoop door een nieuw abonnement aan te schaffen of door services toe te voegen aan een bestaand abonnement.
     
-2. Wanneer u uitcheckt, kiest u **Heb een promo of kortingscode?, en voer uw code in het vak. 
+2. Wanneer u uitcheckt, kiest u * * een actie-of kortingscode? en voert u de code in het vak in. 
   
-3. Selecteer **Promotiecode toepassen**. U ziet een bevestiging dat deze is toegepast. Als een ander bericht wordt weergegeven, raadpleegt u [Problemen met promotiecodes oplossen](#troubleshooting-promo-codes) om de reden daarvoor te achterhalen. 
+3. Selecteer **promotiecode toepassen**. U ziet een bevestiging dat de toepassing is uitgevoerd. Als een ander bericht wordt weergegeven, raadpleegt u [Problemen met promotiecodes oplossen](#troubleshooting-promo-codes) om de reden daarvoor te achterhalen. 
     
-4. Ga verder met uitchecken. Op de bestelbevestigingspagina ziet u uw kortingscode bij het bedrag. 
+4. Doorgaan met uitchecken. Op de pagina orderbevestiging ziet u de kortingscode die bij het bedrag is inbegrepen. 
     
-Wanneer de aankoop is voltooid, wordt de korting van uw promotiecode op de factuur weergegeven. Zie [Uw](billing-and-payments/view-your-bill-or-invoice.md).
+Wanneer de aankoop is voltooid, wordt de korting van uw promotiecode op de factuur weergegeven. Zie [uw weergeven](billing-and-payments/view-your-bill-or-invoice.md)voor meer informatie.
   
 ## <a name="promo-code-terms"></a>Voorwaarden van promotiecodes
 
-De volgende richtlijnen zijn van toepassing op promotiecodes voor Microsoft 365 voor zakelijke abonnementen.
+De volgende richtlijnen zijn van toepassing op promotie codes voor Microsoft 365 voor bedrijven-abonnementen.
   
 - **Aantal promotiecodes per abonnement** U kunt een promotiecode gebruiken voor meerdere abonnementen in dezelfde bestelling, maar het is niet mogelijk om meerdere promotiecodes voor hetzelfde abonnement te gebruiken. 
     

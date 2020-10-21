@@ -1,34 +1,34 @@
 ---
-title: Betalingsgegevens voor de Filippijnen
+title: Betalingsgegevens voor Filipijnen
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d6ed8fd0fcb46a29f18ea3a9b93e1b65de162364
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f15ef7561c5250dc5d6c84af5bcd7abc460d389d
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403888"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647037"
 ---
-# <a name="payment-information-for-philippines"></a>Betalingsgegevens voor de Filippijnen
+# <a name="payment-information-for-philippines"></a>Betalingsgegevens voor Filipijnen
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md) 
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md). 
 
-Betaal alleen in USD en referentiefactuurnummer(s) voor uw betalingsoverschrijving.
+Betaal alleen in USD en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank, Singapore  
 **SWIFT-code:** CITISGSG  
 **Rekeningnummer:** 0-817543-138  
-**Accountnaam:** MICROSOFT REGIONAL SALES CORP  
+**Account naam:** MICROSOFT REGIO VERKOOP CORP  

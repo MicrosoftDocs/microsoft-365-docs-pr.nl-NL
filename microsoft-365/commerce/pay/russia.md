@@ -4,35 +4,35 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b786f24c3b41f543c5e9cd53cb6ede19be3bd857
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e7619287e6bd98236f5b513ccbdb6e6b30777af6
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386623"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646881"
 ---
 # <a name="payment-information-for-russia"></a>Betalingsgegevens voor Rusland
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Betaal alleen in RUB en verwijs naar factuurnummer(s) voor uw betalingsoverschrijving.
+Betaal alleen in RUB en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** ZAO KB Citibank in Moskou  
-**SWIFT-code:** CITIRUMX CITIRUMX  
-**BIK:** 044525202  
-**INN:** 7731420476  
+**SWIFT-code:** CITIRUMX  
+**Bik:** 044525202  
+**Inn:** 7731420476  
 **KPP:** 773101001  
-**Rekeningnummer:** 407028100007027000004  
-**Overeenkomstige rekening:** 30101810300000000202 in OPERU Moskovsky GTU Bank of Russia  
-**Accountnaam:** Microsoft Payments Rusland LLC
+**Rekeningnummer:** 40702810000702700004  
+**Bijbehorend account:** 30101810300000000202 in OPERU Moskovsky GTU Bank van Rusland  
+**Account naam:** Microsoft betaling Rusland LLC

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
-description: Meer informatie over het herstellen van verwijderde gebruikersaccounts en alle bijbehorende gegevens.
-ms.openlocfilehash: 27b3f4a0077b5ef0dcfaef1dbe5019a5d69652f2
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over het herstellen van Verwijderde gebruikersaccounts en alle bijbehorende gegevens.
+ms.openlocfilehash: 905113c40f49f433a3d84810e04abc5f26724ecb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386998"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646665"
 ---
 # <a name="restore-a-user"></a>Een gebruiker herstellen
 
@@ -43,41 +43,41 @@ Wanneer u een gebruikersaccount binnen 30 dagen na verwijderen herstelt, worden 
   
 Hier zijn een paar tips:
   
-- Controleer of er licenties beschikbaar zijn om aan het account toe te wijzen.
+- Zorg ervoor dat er licenties beschikbaar zijn om toe te wijzen aan het account.
     
 - Zie [Problemen met verwijderde gebruikersaccounts oplossen in Office 365](https://support.microsoft.com/kb/2619308) als uw bedrijf Active Directory gebruikt voor instructies over het herstellen van gebruikersaccounts. 
     
 ## <a name="restore-one-or-more-user-accounts"></a>Een of meer gebruikersaccounts herstellen
 
-U moet een algemene beheerder of beheerder van het beheer van Microsoft 365 zijn om deze stappen uit te voeren. 
+U moet een globale beheerder van Microsoft 365 of gebruikersbeheerder zijn om deze stappen uit te voeren. 
   
  
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar **de** \> pagina Gebruikers verwijderde <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">gebruikers.</a>
+1. Ga in het Beheercentrum naar de pagina **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Verwijderde gebruikers</a> van gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041)en selecteer **Gebruikers** \> **verwijderde gebruikers**.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde**gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)en selecteer **Gebruikers** \> **verwijderde gebruikers**.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde**gebruikers.
 
 ::: moniker-end
 
-2. Selecteer **op de** pagina Verwijderde gebruikers de namen van de gebruikers die u wilt herstellen en selecteer **Vervolgens Herstellen**.
+2. Selecteer op de pagina **Verwijderde gebruikers** de namen van de gebruikers die u wilt herstellen en selecteer vervolgens **herstellen**.
     
  
-3. Volg de aanwijzingen om hun wachtwoord in te stellen en selecteer **Herstellen**.
+3. Volg de aanwijzingen voor het instellen van het wachtwoord en selecteer vervolgens **herstellen**.
     
 4. Als de gebruiker is hersteld, selecteert u **E-mail verzenden en sluiten**. Zie onderstaande instructies voor het herstellen van deze accounts als u te maken krijgt met een tegenstrijdigheid in de namen of proxyadressen.
     
-Nadat u een gebruiker hebt hersteld, moet u deze laten weten dat hun wachtwoord is gewijzigd en dat u deze met hen opvolgt.
+Wanneer u een gebruiker hebt hersteld, moet u ervoor zorgen dat u het wachtwoord waarschuwt en u de gebruiker opvolgt.
   
 ## <a name="restore-a-user-that-has-a-user-name-conflict"></a>Een gebruiker met een gebruikersnaamconflict herstellen
 <a name="RestoreUserNameConflict"> </a>
@@ -89,35 +89,35 @@ U kunt dit oplossen door het actieve gebruikersaccount te vervangen door het acc
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar **de** \> pagina Gebruikers verwijderde <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">gebruikers.</a>
+1. Ga in het Beheercentrum naar de pagina **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Verwijderde gebruikers</a> van gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041)en selecteer **Gebruikers** \> **verwijderde gebruikers**.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde**gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)en selecteer **Gebruikers** \> **verwijderde gebruikers**.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde**gebruikers.
 
 ::: moniker-end
 
   
-2. Selecteer **op de** pagina Verwijderde gebruikers de namen van de gebruikers die u wilt herstellen en selecteer **Vervolgens Herstellen**.
+2. Selecteer op de pagina **Verwijderde gebruikers** de namen van de gebruikers die u wilt herstellen en selecteer vervolgens **herstellen**.
     
     > [!NOTE]
     > Als twee of meer gebruikers niet kunnen worden hersteld, wordt in een foutbericht aangegeven dat de herstelbewerking voor sommige gebruikers is mislukt. Kijk in het logbestand welke gebruikers niet zijn hersteld en herstel die accounts een voor een. 
   
-3. Volg de aanwijzingen om het wachtwoord in te stellen en selecteer **Herstellen**.
+3. Volg de aanwijzingen voor het instellen van het wachtwoord en selecteer **terugzetten**.
     
 4. In een bericht wordt aangegeven dat er een probleem is opgetreden bij het herstellen van het account. Voer een van de volgende handelingen uit:
     
   - Annuleer het herstellen en geef de huidige actieve gebruiker een andere naam. Probeer vervolgens opnieuw te herstellen.
     
-  - OF, typ een nieuw primair e-mailadres voor de gebruiker en selecteer **Herstellen**.
+  - OF typ een nieuw primair e-mailadres voor de gebruiker en selecteer **herstellen**.
     
 5. Controleer het resultaat en selecteer vervolgens **Sluiten**.
     
@@ -125,30 +125,30 @@ U kunt dit oplossen door het actieve gebruikersaccount te vervangen door het acc
 
 Een proxy-adresconflict doet zich voor wanneer u een gebruikersaccount verwijdert dat een proxyadres bevat, hetzelfde proxyadres toewijst aan een ander account en daarna het verwijderde account wilt herstellen. Voer de onderstaande stappen uit om dit probleem op te lossen.
   
-Hiervoor moet [u beheerdersmachtigingen](about-admin-roles.md) in Microsoft 365 hebben. 
+U moet beschikken over [beheerdersmachtigingen](about-admin-roles.md) in microsoft 365 om dit te doen. 
   
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar **de** \> pagina Gebruikers verwijderde <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">gebruikers.</a>
+1. Ga in het Beheercentrum naar de pagina **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Verwijderde gebruikers</a> van gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Ga naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041)en selecteer **Gebruikers** \> **verwijderde gebruikers**.
+Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde**gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)en selecteer **Gebruikers** \> **verwijderde gebruikers**.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde**gebruikers.
 
 ::: moniker-end
 
 2. Selecteer op de pagina **Verwijderde gebruikers** de gebruikers die u wilt herstellen en selecteer vervolgens **Herstellen**. 
     
-3. Volg **op** de pagina Herstellen de instructies om het wachtwoord in te stellen en selecteer **Herstellen**. Alle conflicterende proxyadressen worden automatisch verwijderd van de gebruiker die u herstelt.
+3. Volg de instructies voor het instellen van het wachtwoord op de pagina **herstellen** en selecteer **herstellen**. Alle conflicterende proxyadressen worden automatisch verwijderd van de gebruiker die u herstelt.
     
 4. Controleer het resultaat en selecteer vervolgens **Sluiten**.
 

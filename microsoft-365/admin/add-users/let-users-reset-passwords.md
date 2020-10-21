@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Meer informatie over het opnieuw instellen van uw wachtwoorden met het hulpprogramma voor het zelf opnieuw instellen van wachtwoorden.
-ms.openlocfilehash: 1684afd1baf32acc6c4245938b2ac7ee024d7374
-ms.sourcegitcommit: a6625f76e8f19eebd9353ed70c00d32496ec06eb
+ms.openlocfilehash: 7ecadaa42610e0b77dc1727c11140080bd7b1779
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47361805"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646677"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -43,7 +43,7 @@ Als Microsoft 365-beheerder kunt u toestaan dat gebruikers het [hulpprogramma vo
 
 - **Als u on-premises Active Directory gebruikt**, zijn de twee bovenstaande punten niet van toepassing. U kunt dit instellen, maar **u hebt hiervoor wel een betaald abonnement op Azure AD Premium nodig**.
 
-Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Om deze stappen te voltooien, moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md)
+Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../admin-overview/admin-overview.md)
 
 U moet een [globale beheerder of wachtwoordbeheerder](about-admin-roles.md) zijn om deze stappen te kunnen uitvoeren.
 
