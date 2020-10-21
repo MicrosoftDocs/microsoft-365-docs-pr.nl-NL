@@ -634,6 +634,8 @@
               href: attorney-privilege-detection.md
             - name: Gesprekscontrolesets
               href: conversation-review-sets.md
+            - name: Ondersteuning voor CJK-talen
+              href: ediscovery-cjk-support.md
             - name: eDiscovery-machtigingen toewijzen
               href: assign-ediscovery-permissions.md
             - name: Trefwoordquery's en zoekvoorwaarden
