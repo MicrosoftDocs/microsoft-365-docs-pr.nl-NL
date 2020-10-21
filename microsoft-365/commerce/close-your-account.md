@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,13 +16,13 @@ ms.custom:
 - fwlink 2133922 to Delete subscription heading
 search.appverid:
 - MET150
-description: Meer informatie over het sluiten van uw account bij Microsoft.
-ms.openlocfilehash: a92b9f2053d9acf4e8233bee7a42047f51288943
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+description: Meer informatie over het sluiten van uw account met Microsoft.
+ms.openlocfilehash: 9545c43ee27fb000149776527030b04b5e807a5c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44898919"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638373"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
@@ -33,66 +33,66 @@ ms.locfileid: "44898919"
 
 ::: moniker-end
 
-Wanneer u uw account bij Microsoft sluit, wordt alle informatie met betrekking tot uw account verwijderd. Deze informatie omvat abonnementen, licenties, betalingsmethoden, gebruikers en gebruikersgegevens. Voordat u dit proces start, moet u een back-up maken van alle gegevens die u wilt bewaren.
+Wanneer u uw account bij Microsoft sluit, wordt alle informatie met betrekking tot uw account verwijderd. Deze informatie omvat abonnementen, licenties, betalingsmethoden, gebruikers en gebruikersgegevens. Voordat u met deze procedure begint, moet u een back-up maken van alle gegevens die u wilt behouden.
 
-## <a name="step-1-delete-users"></a>Stap 1: Gebruikers verwijderen
+## <a name="step-1-delete-users"></a>Stap 1: gebruikers verwijderen
 
-Verwijder alle gebruikers, behalve één globale beheerder die de stappen voltooit om het account te sluiten. Voordat u de map aan het einde van dit proces verwijderen, moet u alle andere gebruikers verwijderen.
+Verwijder alle gebruikers behalve één globale beheerder die de stappen uitvoert om het account te sluiten. Voordat u de map aan het einde van dit proces kunt verwijderen, moet u alle andere gebruikers verwijderen.
 
-Als gebruikers worden gesynchroniseerd vanaf on-premises, schakelt u eerst synchronisatie uit en verwijdert u de gebruikers in de cloudmap met behulp van de Azure-portal of Azure PowerShell-cmdlets.
+Als gebruikers worden gesynchroniseerd vanuit on-premises, moet u eerst synchroniseren uitschakelen en vervolgens de gebruikers in de Cloud Directory verwijderen met behulp van de cmdlets van Azure portal of Azure PowerShell.
 
-Zie <a href="https://docs.microsoft.com/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">Beheerder gebruikersbeheer: Een of meer gebruikers verwijderen</a>als u gebruikers wilt verwijderen.
+Zie <a href="https://docs.microsoft.com/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">gebruikers van Gebruikersbeheer: een of meer gebruikers verwijderen</a>om gebruikers te verwijderen.
 
-U ook de <a href="https://go.microsoft.com/fwlink/?linkid=842230">PowerShell-cmdlet Remove-MsolUser</a> gebruiken om gebruikers in bulk te verwijderen.
+U kunt de PowerShell <a href="https://go.microsoft.com/fwlink/?linkid=842230">-cmdlet Remove-MsolUser</a> ook gebruiken om gebruikers bulksgewijs te verwijderen.
 
-Als uw organisatie Active Directory gebruikt die synchroniseert met Azure AD, verwijdert u in plaats daarvan het gebruikersaccount uit Active Directory. Zie Gebruikers <a href="https://docs.microsoft.com/azure/active-directory/users-groups-roles/users-bulk-delete">voor bulkverwijding in Azure Active Directory voor</a>instructies.
+Als uw organisatie gebruikmaakt van Active Directory die wordt gesynchroniseerd met Azure AD, moet u in plaats daarvan het gebruikersaccount uit Active Directory verwijderen. Zie voor instructies een <a href="https://docs.microsoft.com/azure/active-directory/users-groups-roles/users-bulk-delete">bulk verwijdering van gebruikers in azure Active Directory</a>.
 
-## <a name="step-2-cancel-all-active-subscriptions"></a>Stap 2: Alle actieve abonnementen opzeggen
+## <a name="step-2-cancel-all-active-subscriptions"></a>Stap 2: alle actieve abonnementen annuleren
 
-1. Ga in het beheercentrum naar de pagina **Facturering van**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
 
-2. Als de lijst met abonnementen zich in de **tabelweergave** bevindt, selecteert u aan de rechterkant **Kaarten**.
+2. Als de lijst met abonnementen in de **tabel** weergave wordt weergegeven, selecteert u **kaarten**aan de rechterkant.
 
-3. Zoek een actief abonnement en selecteer in de sectie **Instellingen & Acties** de optie Abonnement **opzeggen.**
+3. Zoek een actief abonnement en selecteer in de sectie **instellingen & acties** de optie **abonnement opzeggen**.
 
 4. Volg de aanwijzingen om het proces te voltooien.
 
-5. Herhaal stap 1 tot en met 4 om alle actieve abonnementen op te zeggen.
+5. Herhaal de stappen 1 tot en met 4 om alle actieve abonnementen te annuleren.
 
-## <a name="step-3-delete-all-disabled-subscriptions"></a>Stap 3: Alle uitgeschakelde abonnementen verwijderen
+## <a name="step-3-delete-all-disabled-subscriptions"></a>Stap 3: alle uitgeschakelde abonnementen verwijderen
 
-1. Ga in het beheercentrum naar de pagina **Facturering van**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten.</a>
+1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
 
-2. Als de lijst met abonnementen zich in de **tabelweergave** bevindt, selecteert u aan de rechterkant **Kaarten**.
+2. Als de lijst met abonnementen in de **tabel** weergave wordt weergegeven, selecteert u **kaarten**aan de rechterkant.
 
-3. Selecteer naast **de status Abonnement**de optie **Uitgeschakeld**.
+3. Selecteer naast **status van abonnement**de optie **uitgeschakeld**.
 
-4. Zoek een uitgeschakeld abonnement en selecteer in de sectie **Instellingen & Acties** de optie **Verwijderen**.
+4. Zoek een uitgeschakeld abonnement, en selecteer in de sectie **instellingen & acties** de optie **verwijderen**.
 
-5. Schakel in het dialoogvenster **Abonnement verwijderen** het selectievakje Ik begrijp het **effect in** en schakel **vervolgens Abonnement verwijderen**in.
+5. Schakel in het dialoogvenster **abonnement verwijderen** het selectievakje **Ik weet het effect** in en selecteer vervolgens **abonnement verwijderen**.
 
-6. Voor elk uitgeschakeld abonnement worden stap 4 en 5 herhaald totdat alle abonnementen zijn verwijderd.
+6. Herhaal de stappen 4 en 5 totdat alle abonnementen zijn verwijderd voor elk uitgeschakeld abonnement.
 
-## <a name="step-4-disable-multi-factor-authentication"></a>Stap 4: Meervoudige verificatie uitschakelen
+## <a name="step-4-disable-multi-factor-authentication"></a>Stap 4: multi-factor Authentication uitschakelen
 
-1. Ga in het beheercentrum **Users**naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Gebruikers actieve gebruikers.</a>
+1. Ga in het Beheercentrum naar de pagina **gebruikers**van  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active Users</a> .
 
-2. Kies **Multi-factor authenticatie**.
+2. Kies **multi-factor Authentication**.
 
-3. Schakel op de pagina meervoudige verificatie alle accounts uit, behalve voor het algemene beheerdersaccount dat u momenteel gebruikt.
+3. Schakel op de pagina multi-factor Authentication alle accounts uit, met uitzondering van het globale beheerdersaccount dat u momenteel gebruikt.
 
-U PowerShell ook <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">gebruiken om meervoudige verificatie voor meerdere gebruikers uit te schakelen.</a>
+U kunt ook <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">PowerShell gebruiken om meervoudige verificatie voor meerdere gebruikers uit te schakelen</a>.
 
-## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Stap 5: De map verwijderen in Azure Active Directory
+## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Stap 5: de map verwijderen in azure Active Directory
 
-1. Meld u aan bij het <a href="https://aad.portal.azure.com/" target="_blank">Azure AD-beheercentrum</a> met een global administrator-account.
+1. Meld u aan bij het <a href="https://aad.portal.azure.com/" target="_blank">Azure AD-Beheercentrum</a> met het account van een globale beheerder.
 
 2. Selecteer **Azure Active Directory**.
 
-3. Overschakelen naar de map die u wilt verwijderen.
+3. Ga naar de map die u wilt verwijderen.
 
-4. Selecteer **Map verwijderen**.
+4. Selecteer **map verwijderen**.
 
-5. Als uw map een of meer controles uitvalt, ziet u een koppeling naar meer informatie over het slagen van de controles. Nadat u alle controles hebt voltooid, selecteert u **Verwijderen** om het proces te voltooien.
+5. Als er in de Directory een of meer controles mislukt, ziet u een koppeling naar meer informatie over het doorgeven van de controles. Wanneer u alle controles hebt uitgevoerd, selecteert u **verwijderen** om het proces te voltooien.
 
-Nadat u deze laatste stap hebt voltooid, wordt uw account bij Microsoft gesloten en verwijderd.
+Wanneer u deze laatste stap hebt voltooid, wordt uw account met Microsoft gesloten en verwijderd.

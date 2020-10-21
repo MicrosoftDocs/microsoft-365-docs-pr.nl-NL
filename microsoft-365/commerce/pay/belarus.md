@@ -1,35 +1,35 @@
 ---
-title: Betalingsgegevens voor Wit-Rusland
+title: Betalingsgegevens voor Belarus
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 162a1feee363dbad8454114e6bb8f136f004565a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: cd08bd51b86877a47cbd274fb65d9bcae832c06b
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387919"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637881"
 ---
-# <a name="payment-information-for-belarus"></a>Betalingsgegevens voor Wit-Rusland
+# <a name="payment-information-for-belarus"></a>Betalingsgegevens voor Belarus
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Betaal alleen in USD en verwijs naar uw factuurnummer(s) op uw factuuroverschrijving.
+Betaal alleen in USD en vermeld uw factuurnummer (s) bij de overboeking van het factuurbedrag.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank, Londen  
-**SWIFT-code:** CITIGB2L CITIGB2L  
+**SWIFT-code:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Rekeningnummer:** 12510049  
-**Accountnaam:** Microsoft  
+**Account naam:** MICROSOFT  

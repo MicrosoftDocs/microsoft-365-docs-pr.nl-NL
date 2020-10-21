@@ -1,7 +1,7 @@
 ---
-title: Geavanceerde jacht limieten in Microsoft Threat Protection
-description: Meer informatie over de verschillende service limieten waarmee de Advanced jacht-service kan reageren
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema, kusto, processorlimiet, query limiet, bronnen, maximum resultaten
+title: Geavanceerde jacht-quota's en gebruiks parameters in Microsoft Threat Protection
+description: Meer informatie over diverse quota's en gebruiks parameters (Service limieten) waarmee de Advanced USMT-service kan reageren
+keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema, kusto, processorlimiet, query limiet, bronnen, maximum resultaten, quota, parameters, toewijzing
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -19,14 +19,14 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: ab19c86bbdec243dd4abb8b6c9fab9b5ec6f2228
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 192fb47aafdd20bd5e1f0774a64ec3215f1203d1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430453"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636903"
 ---
-# <a name="advanced-hunting-service-limits"></a>Geavanceerde jacht-service limieten
+# <a name="advanced-hunting-quotas-and-usage-parameters"></a>Geavanceerde jacht-quota's en gebruiks parameters
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,19 +34,19 @@ ms.locfileid: "48430453"
 **Van toepassing op:**
 - Microsoft Threat Protection
 
-Om de dienst in werking te houden en op de hoogte te houden, worden in geavanceerde jacht diverse limieten ingesteld voor query's handmatig en op basis van [aangepaste detectieregels](custom-detection-rules.md). Raadpleeg de volgende tabel voor meer informatie over deze limieten.
+Als u de service wilt blijven gebruiken, stelt u in geavanceerde jacht diverse quota's en gebruiks parameters in (ook wel ' service limieten ' genoemd). Deze quota's en parameters zijn van toepassing op handmatig en door [aangepaste detectieregels](custom-detection-rules.md)worden uitgevoerd. Klanten die regelmatig meerdere query's uitvoeren, moeten verbruik bijhouden en [Best practices toepassen](advanced-hunting-best-practices.md) om onderbrekingen te beperken.
 
-| Limiet | Grootte | Vernieuwingscyclus | Beschrijving |
+Raadpleeg de volgende tabel voor meer informatie over bestaande quota's en gebruiks parameters.
+
+| Target of parameter | Grootte | Vernieuwingscyclus | Beschrijving |
 |--|--|--|--|
 | Gegevensbereik | 30 dagen | Elke query | Met elke query kunnen gegevens worden opgezocht van de afgelopen 30 dagen. |
 | Resultatenset | rijen in 10.000 | Elke query | Elke query kan resulteren in 10.000-records. |
 | Waar | 10 minuten | Elke query | Een query kan maximaal 10 minuten worden uitgevoerd. Als de service niet binnen 10 minuten wordt voltooid, wordt er een fout weergegeven.
-| CPU-resources | Gebaseerd op Tenant grootte | -Op het uur en vervolgens elke 15 minuten<br>-Dagelijks voor 12 middernacht | De service dwingt de dagelijkse en de limiet van 15 minuten apart af. Voor elke limiet wordt in de [Portal een fout weergegeven](advanced-hunting-errors.md) wanneer een query wordt uitgevoerd en de Tenant heeft gekostd via 10% van toegewezen resources. Query's worden geblokkeerd als de Tenant 100% heeft bereikt tot na de volgende dag of een cyclus van 15 minuten. |
+| CPU-resources | Gebaseerd op Tenant grootte | -Op het uur en vervolgens elke 15 minuten<br>-Dagelijks voor 12 middernacht | De service belegt de dagelijkse en de quota voor 15 minuten apart af. Voor elk quotum wordt in de [Portal een fout weergegeven](advanced-hunting-errors.md) wanneer een query wordt uitgevoerd en de Tenant is geverbruikt op 10% van toegewezen resources. Query's worden geblokkeerd als de Tenant 100% heeft bereikt tot na de volgende dag of een cyclus van 15 minuten. |
 
 >[!NOTE] 
->Er is een aparte set beperkingen van toepassing op geavanceerde zoekopdrachten die via de API worden uitgevoerd. [Meer informatie over geavanceerde jacht-Api's](https://docs.microsoft.com/microsoft-365/security/mtp/api-advanced-hunting)
-
-Klanten die regelmatig meerdere query's uitvoeren, moeten de optie verbruik bijhouden en [Best practices toepassen](advanced-hunting-best-practices.md) om onderbrekingen te beperken die het gevolg zijn van het overschrijden van deze limieten.
+>Er gelden een aparte set quota's en parameters voor geavanceerde zoekopdrachten die via de API worden uitgevoerd. [Meer informatie over geavanceerde jacht-Api's](https://docs.microsoft.com/microsoft-365/security/mtp/api-advanced-hunting)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

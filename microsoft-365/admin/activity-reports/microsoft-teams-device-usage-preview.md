@@ -1,5 +1,5 @@
 ---
-title: Apparaatgebruik in Microsoft Teams
+title: Microsoft 365-rapporten in het Beheercentrum-Apparaatgebruik in Microsoft teams
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: U krijgt inzicht in de Microsoft teams-apps die in uw organisatie worden gebruikt door het rapport app-gebruik van Microsoft teams te downloaden van Microsoft 365-rapporten.
-ms.openlocfilehash: 98b8d6241b94445c9cb47d2c464d47c5609efdfe
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: deda550b3ffc4209f718d36a3010605edbc1102b
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949076"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48636971"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Microsoft 365-rapporten in het Beheercentrum-Apparaatgebruik in Microsoft teams
 
@@ -51,7 +51,7 @@ U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de 
 |Item|Beschrijving|
 |:-----|:-----|
 |**Gegevens**|**Definitie**|
-|Gebruikersnaam  <br/> |De weergavenaam van de gebruiker. U kunt op de weergavenaam klikken om naar de instellings pagina van de gebruiker in het Microsoft teams-Beheercentrum te gaan.  <br/> |
+|Gebruikersnaam  <br/> |De weergavenaam van de gebruiker.  <br/> |
 |Windows  <br/> |Deze optie is geselecteerd als de gebruiker actief is geweest in de desktopclient van teams op een Windows-computer.  <br/> |
 |Mac  <br/> |Geselecteerd als de gebruiker is geactiveerd in de desktopclient van de teams-bureaubladclient op een macOS-computer.  <br/> |
 |Apparaten  <br/> |Deze optie is geselecteerd als de gebruiker actief is geweest in de mobiele client voor teams voor iOS.  <br/> |
@@ -61,4 +61,5 @@ U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de 
 |Web  <br/> |Geselecteerd als de gebruiker is geactiveerd in de webclient van teams op apparaten.|
 |Datum van laatste activiteit (UTC)  <br/> |De laatste datum (UTC) waaraan de gebruiker heeft deelgenomen aan een teams-activiteit.  <br/> |
 |Is een licentie|Geselecteerd als de gebruiker een licentie heeft om teams te gebruiken.|
+|Totale team activiteit|Het totaal aantal teamactiviteiten gedurende de geselecteerde tijdsperiode. |
 |||

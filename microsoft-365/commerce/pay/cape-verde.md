@@ -1,35 +1,35 @@
 ---
-title: Betalingsgegevens voor Kaapverdië
+title: Betalingsgegevens voor Kaap Verde
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f41ab2f40611bfd800c2d1cda7d645f193bb7fc7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4b74368dfe54aa22ff91f519ea03b6e13b6b65c3
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404356"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637497"
 ---
-# <a name="payment-information-for-cape-verde"></a>Betalingsgegevens voor Kaapverdië
+# <a name="payment-information-for-cape-verde"></a>Betalingsgegevens voor Kaap Verde
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Betaal alleen in USD en verwijs naar uw factuurnummer(s) op uw factuuroverschrijving.
+Betaal alleen in USD en vermeld uw factuurnummer (s) bij de overboeking van het factuurbedrag.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank, Londen  
-**SWIFT-code:** CITIGB2L CITIGB2L  
+**SWIFT-code:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Rekeningnummer:** 12510049  
-**Accountnaam:** Microsoft  
+**Account naam:** MICROSOFT  

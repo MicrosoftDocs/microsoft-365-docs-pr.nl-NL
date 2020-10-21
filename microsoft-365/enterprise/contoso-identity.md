@@ -15,73 +15,73 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe Contoso gebruikmaakt van Identiteit als een service (IDaaS) en cloud-based verificatie voor haar werknemers en federatieve verificatie voor haar partners en klanten verstrekt.
-ms.openlocfilehash: 795fb7dcb886c792c80d3bb251c9cb5774f1bf97
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 10db0a35024595c4dba9a33ad83ae75bcad3870c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686032"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637245"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Identiteit voor Contoso Corporation
 
-Microsoft biedt een Identiteit als een service (IDaaS)aan voor zijn cloud-diensten met Azure Active Directory (Azure AD). Ter aanneming van Microsoft 365 for Enterprise kon de IDaaS-oplossing van Contoso gebruikmaken van hun on-premises identiteitsprovider en ook federatieve authenticatie opnemen met hun bestaande, van derden vertrouwde identiteitsproviders.
+Microsoft biedt Identity als een service (IDaaS) in de Cloud aanbiedingen via Azure Active Directory (Azure AD). Voor de aanneming van Microsoft 365 for Enterprise kon de contoso IDaaS-oplossing gebruikmaken van hun on-premises identiteitsprovider en federatieve verificatie opnemen met hun bestaande, van derden betrouwbare identiteitsproviders.
 
-## <a name="contosos-active-directory-domain-services-forest"></a>Contoso‘s Active Directory Domain Services-forest
+## <a name="the-contoso-active-directory-domain-services-forest"></a>Het Active Directory Domain Services-forest van contoso
 
-Contoso gebruikt één Active Directory Domain Services-forest (AD DS) voor contoso.com met zeven subdomeinen, één voor elke regio van de wereld. De hoofdkantoren, regionale regiokantoren en satellietkantoren bevatten domeincontrollers voor lokale verificatie en autorisatie.
+Contoso gebruikt een enkelvoudig Active Directory Domain Services (AD DS)-forest voor contoso \. com met zeven subdomeinen, één voor elk gebied van de wereld. De hoofdkantoren, regionale regiokantoren en satellietkantoren bevatten domeincontrollers voor lokale verificatie en autorisatie.
 
-Dit is het Contoso-forest met regionale domeinen voor de verschillende delen van de wereld met regionale hubs.
+Hier is het contoso-forest met regionale domeinen voor de verschillende delen van de wereld die regionale hubs bevatten.
 
 ![Het forest en de domeinen van Contoso wereldwijd](../media/contoso-identity/contoso-identity-fig1.png)
  
-Contoso wilde de accounts en groepen in het contoso.com-forest gebruiken voor verificatie en machtiging voor de werkbelastingen en services van zijn Microsoft 365.
+Contoso heeft besloten de accounts en groepen in het domein contoso \. com te gebruiken voor verificatie en autorisatie voor de werkbelasting en services van Microsoft 365.
 
-## <a name="contosos-federated-authentication-infrastructure"></a>De federatieve verificatie-infrastructuur van Contoso
+## <a name="the-contoso-federated-authentication-infrastructure"></a>De federatieve verificatie-infrastructuur van contoso
 
 Met Contoso kunnen:
 
-- gebruikers hun Microsoft, Facebook of Google Mail-accounts gebruiken om in te loggen op hun publieke website.
-- leveranciers en partners hun LinkedIn, Salesforce of Google mail-accounts gebruiken om zich aan te melden bij het extranet van de partner.
+- Klanten die hun Microsoft-, Facebook-of Google-e-mail accounts gebruiken om zich aan te melden bij de openbare website van het bedrijf.
+- Leveranciers en partners voor het gebruik van hun LinkedIn-, Salesforce-of Google-e-mail accounts om u aan te melden bij het partner extranet van het bedrijf.
 
-Dit is de Contoso-DMZ met een openbare website, een partner extranet en een set Active Directory Federation Services-servers (AD FS). De DMZ is verbonden met het internet waar de klanten, partners en Internet Services zijn te vinden.
+Hier is de contoso DMZ met een openbare website, een partner extranet en een set AD FS-servers. De DMZ is verbonden met het Internet, met klanten, partners en Internet Services.
 
-![Ondersteuning van Contoso voor federatieve verificatie voor klanten en partners](../media/contoso-identity/contoso-identity-fig2.png)
+![Ondersteuning door contoso voor federatieve verificatie voor klanten en partners](../media/contoso-identity/contoso-identity-fig2.png)
  
-Met AD FS-servers in het DMZ wordt de verificatie van de inloggegevens van de klant door hun identiteisproviders vergemakkelijkt voor toegang tot de openbare website en inloggegevens van partners voor toegang tot het partner-extranet.
+Met AD FS-servers in de DMZ kunt u de verificatie van klant referenties door hun id-providers vergemakkelijken voor toegang tot de openbare website en partner referenties voor de toegang tot de partner extranet.
 
-Contoso besloot de infrastructuur te behouden en deze in te zetten voor klant- en partner-authenticaties. De architecten van de identiteits-infrastructuur onderzoeken de conversie van deze infrastructuur naar Azure AD [B2B](https://docs.microsoft.com/azure/active-directory/b2b/hybrid-organizations) en [B2C](https://docs.microsoft.com/azure/active-directory-b2c/solution-articles)-oplossingen.
+Contoso heeft besloten deze infrastructuur te beschermen en de verificatie van klanten en partners te reserveren. De architecten van de identiteits-infrastructuur onderzoeken de conversie van deze infrastructuur naar Azure AD [B2B](https://docs.microsoft.com/azure/active-directory/b2b/hybrid-organizations) en [B2C](https://docs.microsoft.com/azure/active-directory-b2c/solution-articles)-oplossingen.
 
 ## <a name="hybrid-identity-with-password-hash-synchronization-for-cloud-based-authentication"></a>Hybride identiteit met wachtwoord-hash-synchronisatie voor cloud-based verificatie
 
-Contoso wilde een lokale AD DS-forest gebruiken voor verificatie bij cloudresources van Microsoft 365. Ze besloten wachtwoord-hash-synchronisatie (PHS) toe te passen.
+Contoso wilde het on-premises Active Directory-forest gebruiken voor verificatie voor Microsoft 365-Cloud bronnen. Besloten hash-synchronisatie (PHS) te gebruiken.
 
-PHS synchroniseert het on-premises AD DS-forest met de Azure AD-Tenant van hun Microsoft 365 for Enterprise-abonnement, het kopiëren van gebruikers-en groepsaccounts en een gehasheerde versie van wachtwoorden van gebruikersaccounts. 
+PHS synchroniseert het on-premises AD DS-forest met de Azure AD-Tenant van hun Microsoft 365 for Enterprise-abonnement, het kopiëren van gebruikers-en groepsaccounts en een gehasheerde versie van wachtwoorden van gebruikersaccounts.
 
-Om de doorlopende adreslijstsynchronisatie uit te voeren, heeft Contoso het Azure AD Connect-hulpprogramma geïmplementeerd op een server op zijn datacenter in Parijs. 
+Om adreslijstsynchronisatie uit te voeren, heeft Contoso het hulpprogramma voor Azure AD Connect op een server in zijn Parijs geïmplementeerd.
 
-Dit is de server met Azure AD Connect die het AD DS-forest van Contoso verzoekt om wijzigingen aan te brengen. Vervolgens worden deze wijzigingen gesynchroniseerd met de Azure AD-tenant.
+Hier is de server met Azure AD Connect polling voor wijzigingen en vervolgens worden deze wijzigingen met de Azure AD-Tenant gesynchroniseerd.
 
-![PHS adreslijstsynchronisatie-infrastructuur van Contoso](../media/contoso-identity/contoso-identity-fig4.png)
+![De adreslijstsynchronisatie-infrastructuur contoso PHS](../media/contoso-identity/contoso-identity-fig4.png)
  
 ## <a name="conditional-access-policies-for-identity-and-device-access"></a>Voorwaardelijk toegangsbeleid voor identiteits- en apparaattoegang
 
 Contoso heeft een set van Azure AD-en Intune [Voorwaardelijk toegangsbeleidsregels gemaakt](identity-access-policies.md) voor drie beveiligingsniveaus:
 
-- **Basis**beveiligingsmaatregelen gelden voor alle gebruikersaccounts
-- **Gevoelige** beveiligingsmaatregelen zijn van toepassing op leidinggevenden en directie-medewerkers
-- **Zeer gereguleerde** beveiligingsmaatregelen zijn van toepassing op specifieke gebruikers van de Financiële, juridische en onderzoeksafdelingen die toegang hebben tot zeer gereglementeerde gegevens
+- *Basislijnen* voor beveiliging gelden voor alle gebruikersaccounts.
+- *Gevoelige* beveiligingsmaatregelen gelden voor Senior leiders en leidinggevenden.
+- *Uiterst gereguleerde* bescherming geldt voor specifieke gebruikers in de afdelingen Financiën, juridisch en onderzoek die toegang hebben tot zeer gereglementeerde gegevens.
 
-Hieronder ziet u Contoso‘s resultatenset van Voorwaardelijke toegangsbeleidsregels voor apparaten. 
+Dit is de daaruit voortvloeiende set met regels voor voorwaardelijke toegang van Contoso-identiteit en apparaten.
 
 ![Contoso‘s Voorwaardelijke toegangsbeleidsregels voor identiteits- en apparaattoegang](../media/contoso-identity/contoso-identity-fig5.png)
  
 ## <a name="next-step"></a>Volgende stap
 
-[Lees](contoso-win10.md) hier hoe Contoso zijn infrastructuur voor Microsoft-Endpoint Configuratiebeheer gebruikt voor het implementeren en onderhouden van Windows 10 Enterprise in de hele organisatie.
+[Meer informatie](contoso-win10.md) over hoe Contoso de infrastructuur van Microsoft endpoint Configuration Manager gebruikt om de huidige organisatie van Windows 10 Enterprise binnen de organisatie te implementeren en te behouden.
 
 ## <a name="see-also"></a>Zie ook
 
-[Identiteitskaart voor Microsoft 365](identity-roadmap-microsoft-365.md)
+[Identiteits-roadmap voor Microsoft 365 herkennen](identity-roadmap-microsoft-365.md)
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 

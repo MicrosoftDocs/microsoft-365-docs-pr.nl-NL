@@ -4,24 +4,24 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e9369bf6c345f6d25c5bd618530e1600288a97ab
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9cf6c9052147571c4892d34420a44b2583f3e3d3
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404188"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637677"
 ---
 # <a name="payment-information-for-brazil"></a>Betalingsgegevens voor Brazilië
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Volg de betalingsinstructie op uw factuur en referentiefactuurnummer(s) over de betalingsoverschrijving.  
+Volg de instructies voor de betaling op uw factuur en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.  

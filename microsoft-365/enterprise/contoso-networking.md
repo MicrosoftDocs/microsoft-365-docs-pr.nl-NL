@@ -14,106 +14,106 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Inzicht in de infrastructuur van Contoso netwerken en hoe deze wordt gebruikt voor optimale netwerkprestaties voor Microsoft 365 voor Enterprise cloudservices.
-ms.openlocfilehash: bc2ae68917258b94ed46ef0c1257f56e0736105c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Inzicht in de infrastructuur contoso-netwerken en de manier waarop het bedrijf de SD-WAN-technologie gebruikt voor optimale netwerkprestaties voor Microsoft 365 voor Enterprise Cloud-Services.
+ms.openlocfilehash: ca673e6dcbf0f3db4bde33d388598e5f4ffac914
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685816"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637185"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Netwerken voor de Contoso Corporation
 
-Om een cloud-inclusieve infrastructuur te implementeren, hebben de netwerkengineers van Contoso een fundamentele verschuiving gerealiseerd in de manier waarop netwerkverkeer naar cloudservices wordt geleid. In plaats van een intern hub-and-spoke-model waarin netwerkconnectiviteit en netwerkverkeer wordt gericht op het volgende niveau van de kantoorhiërarchie van Contoso, hebben ze gebruikerslocaties aan lokale internet-uitgangen en lokale verbindingen aan de dichtstbijzijnde Microsoft 365-netwerklocatie op het internet gekoppeld.
+Als u een infrastructuur van de Cloud gebruikt, is contoso een fundamentele dienst ontwikkeld voor de manier waarop netwerkverkeer voor cloudservices wordt verplaatst. In plaats van een intern hub-en-spoke-model dat de netwerkverbinding en het verkeer voor het volgende niveau van de Office-hiërarchie benadert, hebben ze gebruikerslocaties toegewezen aan lokale Internet uitvullen en lokale verbindingen met de dichtstbijzijnde Microsoft 365-netwerklocatie op internet.
 
-## <a name="contosos-networking-infrastructure"></a>Netwerkinfrastructuur van Contoso
+## <a name="networking-infrastructure"></a>Netwerkinfrastructuur
 
-De elementen van het netwerk van Contoso die hun kantoren op de hele wereld koppelen, zijn de volgende:
+Dit zijn de netwerkelementen waarmee contoso-afdelingen overal ter wereld worden gekoppeld:
 
 - Multiprotocol-Label Switching (MPLS) WAN-netwerk
 
-  Een MPLS WAN-netwerk verbindt het hoofdkantoor in Parijs met regionale kantoren en regionale kantoren met satellietkantoren in een hub-and-spoke-configuratie. Zo hebben gebruikers toegang tot servers op locatie met Line of Business-toepassingen in het kantoor in Parijs. Het leidt ook al het algemene internetverkeer naar het kantoor in Parijs, waar netwerkbeveiligingsapparaten de verzoeken beoordelen. Binnen elke kantoor leiden routers het verkeer naar draadgebonden hosts of draadloze toegangspunten op subnetten, die gebruikmaken van de particuliere IP-adresruimte.
+  Een MPLS WAN-netwerk verbindt de hoofdkantoren van Parijs met regionale kantoren en regionale kantoren naar satelliet kantoren via een spoke-en-hub-configuratie. Het netwerk biedt gebruikers toegang tot on-premises servers die line-of-business-toepassingen maken in de Headquarters van Parijs. Ook wordt elk algemeen internetverkeer naar het kantoor van Parijs gerouteerd, waarbij de netwerk beveiligingsapparaten de verzoeken reinigen. Binnen elke kantoor leiden routers het verkeer naar draadgebonden hosts of draadloze toegangspunten op subnetten, die gebruikmaken van de particuliere IP-adresruimte.
 
-- Lokale rechtstreekse internettoegang voor Microsoft 365-verkeer
+- Lokale directe Internet toegang voor Microsoft 365-verkeer
 
-  Elk kantoor heeft een softwaregedefinieerd WAN-apparaat met een of meer lokale netwerkcircuits van de internetprovider en een eigen internetverbinding via een proxyserver. Dit wordt meestal geïmplementeerd als een WAN-koppeling naar een lokale internetprovider die ook openbare IP-adressen en een lokale DNS-server biedt.
+  Elke Office heeft een door software gedefinieerd WAN (SD)-apparaat met een of meer lokale netwerkclients met een internetverbinding via een proxyserver. Dit wordt meestal geïmplementeerd als een WAN-koppeling naar een lokale internetprovider die ook openbare IP-adressen en een lokale DNS-server biedt.
 
 - Internetaanwezigheid
 
-  Contoso is de eigenaar van de openbare domeinnaam contoso.com. De openbare website van Contoso voor het bestellen van producten draait op een reeks servers in een op het internet aangesloten datacenter op de campus in Parijs. Contoso gebruikt een /24 openbaar IP-adresbereik op het internet.
+  Contoso bezit de naam van het \. openbare com-domein van contoso. De openbare website van Contoso voor het bestellen van producten is een reeks servers in een datacenter dat verbonden is met internet in de Parijs. Contoso maakt gebruik van een openbaar IP-adresbereik op internet.
 
-Afbeelding 1 toont de netwerkinfrastructuur van Contoso en de bijbehorende verbindingen met het internet.
+Afbeelding 1 toont de infrastructuur van Contoso-netwerken en de bijbehorende verbindingen met internet.
 
-![Het netwerk van Contoso](../media/contoso-networking/contoso-networking-fig1.png)
+![Het contoso netwerk](../media/contoso-networking/contoso-networking-fig1.png)
  
-**Afbeelding 1: Het netwerk van Contoso**
+**Afbeelding 1: het contoso netwerk**
 
 ## <a name="use-of-sd-wan-for-optimal-network-connectivity-to-microsoft"></a>Gebruik van SD-WAN voor optimale netwerkconnectiviteit met Microsoft
 
 Contoso heeft de [Beginselen voor Microsoft 365-netwerkconnectiviteit](microsoft-365-network-connectivity-principles.md) gevolgd om:
 
-1. Netwerkverkeer van Microsoft 365 te identificeren en te onderscheiden
-2. Lokale uitgangen van netwerkverbindingen te regelen
-3. Netwerk-hairpins te vermijden
-4. Dubbele netwerkbeveiligingsapparaten te omzeilen
+- Netwerkverkeer van Microsoft 365 te identificeren en te onderscheiden
+- Lokale uitgangen van netwerkverbindingen te regelen
+- Netwerk-hairpins te vermijden
+- Dubbele netwerkbeveiligingsapparaten te omzeilen
 
-Er zijn drie categorieën netwerkverkeer voor Microsoft 365: Optimaliseren, toestaan en standaard. Verkeer in de categorieën Optimaliseren en Toestaan is betrouwbaar netwerkverkeer dat versleuteld en beveiligd is bij de eindpunten en is bestemd voor het Microsoft 365-netwerk.
+Er zijn drie categorieën netwerkverkeer voor Microsoft 365: *optimaliseren*, *toestaan*en *standaard*. Verkeer optimaliseren en toestaan wordt vertrouwd netwerkverkeer dat is versleuteld en beveiligd bij de eindpunten en is bestemd voor het Microsoft 365-netwerk.
 
 Contoso heeft besloten om:
 
-- Directe internetuitgangen te gebruiken voor verkeer uit de categorieën Optimaliseren en Toestaan en voor het doorsturen van al het verkeer in de categorie Standaard naar de centrale internetverbinding met Parijs.
+- U kunt direct Internet uitvullen gebruiken voor het optimaliseren en toestaan van categorie verkeer en alle standaardcategorie verkeer door te sturen naar de op de basis internetverbinding van Parijs.
 
-- Op elk van hun kantoorlocaties SD-WAN-apparaten te implementeren om deze principes op een eenvoudige manier toe te passen en optimale netwerkprestaties te bereiken voor de cloudservices van Microsoft 365.
+- Implementeer een SD-WAN-apparaat op elk Office als eenvoudige manier om deze principes te volgen en de prestaties van het netwerk te verbeteren voor Microsoft 365 cloudservices.
 
-  De SD-WAN-apparaten hebben een LAN-poort voor het lokale kantoornetwerk en meerdere WAN-poorten. Een WAN-poort maakt verbinding met het MPLS-netwerk en een andere WAN-poort maakt verbinding met een lokaal ISP-circuit. Het SD-WAN-apparaat leidt netwerkverkeer uit de categorieën Optimaliseren en Toestaan via de ISP-koppeling.
+  De SD-WAN-apparaten hebben een LAN-poort voor het lokale kantoornetwerk en meerdere WAN-poorten. Eén WAN-poort maakt verbinding met het MPLS-netwerk. Een andere verbinding maakt met een lokaal ISP-circuit. Het SD-WAN-apparaat leidt netwerkverkeer uit de categorieën Optimaliseren en Toestaan via de ISP-koppeling.
 
-## <a name="contosos-line-of-business-app-infrastructure"></a>De Line of Business-toepassingeninfrastructuur van Contoso
+## <a name="the-contoso-line-of-business-app-infrastructure"></a>De infrastructuur van de app contoso line-of-Business
 
-Contoso heeft haar Line of Business-toepassingen- en serverintranetinfrastructuur ingericht voor het volgende:
+Contoso heeft de toepassing line-van-Business en de intranet infrastructuur van de server voor het volgende:
 
 - Satellietkantoren gebruiken lokale cacheservers voor het opslaan van veelgebruikte documenten en interne websites.
 - Regionale hubs gebruiken regionale toepassingsservers voor de regionale en satellietkantoren. Deze servers worden gesynchroniseerd met servers in het hoofdkantoor in Parijs.
-- Op de campus in Parijs bevinden zich datacenters met gecentraliseerde toepassingsservers waar de hele organisatie gebruik van maakt.
+- De bevestigingen van Parijs van Parijs bevatten gecentraliseerde toepassingsservers die de hele organisatie dienen.
 
-Afbeelding 2 toont het percentage van netwerkverkeer bij het verkrijgen van toegang tot servers in het intranet van contoso.
+Afbeelding 2 toont het percentage netwerkverkeer dat wordt gebruikt voor het openen van servers in het intranet van contoso.
 
-![De infrastructuur van Contoso voor interne toepassingen](../media/contoso-networking/contoso-networking-fig2.png)
+![De infrastructuur contoso voor interne toepassingen](../media/contoso-networking/contoso-networking-fig2.png)
  
-**Afbeelding 2: De infrastructuur van Contoso voor interne toepassingen**
+**Afbeelding 2: de infrastructuur contoso voor interne toepassingen**
 
-Voor gebruikers op satelliet- of regionale hub-kantoren kan 60% van de resources die nodig zijn voor werknemers worden bediend door satelliet- en regionale kantoorservers. De extra 40% van de resourceaanvragen moet via de WAN-koppeling naar de campus in Parijs worden geleid.
+Voor de satelliet-of Regional hub-kantoren is 60 procent van de resources die nodig zijn voor de werknemers aan de satelliet en de regionale hub Office servers geleverd. Het extra 40 procent van de resourceaanvragen moet via de WAN-koppeling naar de Parijs van de campus gaan.
 
-## <a name="contosos-network-analysis-and-preparation-of-their-network-for-microsoft-365-for-enterprise"></a>De netwerkanalyse en-voorbereiding van Contoso voor het netwerk voor Microsoft 365 for Enterprise
+## <a name="network-analysis-and-preparation-for-microsoft-365-for-enterprise"></a>Netwerkanalyse en-voorbereiding voor Microsoft 365 for Enterprise
 
-De aanneming van Microsoft 365 voor Enterprise Services door de gebruikers van Contoso is afhankelijk van uiterst beschikbare en uitvoering van connectiviteit met internet, of rechtstreeks naar Microsoft-cloudservices. Contoso heeft de volgende stappen uitgevoerd voor het plannen en implementeren van geoptimaliseerde verbindingen met Microsoft 365 voor Enterprise cloudservices:
+Geslaagde aanneming van Microsoft 365 voor Enterprise Services door contoso gebruikers is afhankelijk van zeer beschikbare verbindingen met internet of rechtstreeks naar Microsoft-cloudservices. Contoso heeft de volgende stappen uitgevoerd voor het plannen en implementeren van geoptimaliseerde connectiviteit met Microsoft 365 voor Enterprise cloudservices:
 
-1. Een WAN-netwerkdiagram van het bedrijf gemaakt om te helpen bij de planning
+1. Een diagram maken van een WAN-netwerk van het bedrijf voor hulp bij de planning
 
-   Contoso heeft de netwerkplanning gestart door een diagram te maken met de bijbehorende locaties, de bestaande netwerkconnectiviteit, de bestaande apparaten voor de netwerkperimeter en de klassen van de service die worden beheerd op het netwerk. Ze hebben deze diagram gebruikt voor elke daaropvolgende stap in de planning en tijdens de implementatie van netwerkconnectiviteit.
+   Om de netwerk planning te starten, heeft Contoso een diagram gemaakt met hun Office-locaties, bestaande netwerkconnectiviteit, bestaande netwerk verbindingsapparaten en serviceklassen die worden beheerd op het netwerk. Ze hebben deze diagram gebruikt voor elke daaropvolgende stap in de planning en tijdens de implementatie van netwerkconnectiviteit.
 
-2. Een plan gemaakt voor Microsoft 365 voor Enterprise Network Connectivity
+2. Een plan maken voor Microsoft 365 voor Enterprise-netwerkconnectiviteit
 
-   Contoso heeft de [Basisprincipes voor Microsoft 365-netwerkconnectiviteit](microsoft-365-network-connectivity-principles.md) en netwerkarchitecturen ter referentie geleverd om SD-WAN vast te leggen als gewenste topologie voor Microsoft 365-connectiviteit.
+   Contoso heeft de [Microsoft 365-netwerk verbindings beginselen](microsoft-365-network-connectivity-principles.md) en de voorbeelden van netwerk architecturen voor de client Architecture voor de microsoft 365-verbinding aangeduid met de desbetreffende topologie.
 
-3. Het verbruik van de internetverbinding en de MPLS WAN-bandbreedte op elke kantoor geanalyseerd en de bandbreedte indien nodig verhoogd
+3. Analyseren van Internet-verbinding met MPLS en de bandbreedte van de WAN-verbinding op elk Office, en de bandbreedte naar wens verhogen
 
-   Het huidige verbruik van elk kantoor is geanalyseerd en circuits zijn uitgebreid, zodat het verwachte verkeer in de Microsoft 365 Cloud zou worden uitgevoerd met een gemiddelde van 20% aan de niet-gebruikte capaciteit.
+   Het huidige gebruik van Office is geanalyseerd, en de circuits zijn opgegroeid, zodat Microsoft 365 op de Cloud op basis van het voorspeld verkeer met een gemiddelde van 20 procent niet-gebruikte capaciteit werkt.
 
-4. Optimale prestaties van Microsoft-netwerkservices
+4. Prestaties optimaliseren voor Microsoft-netwerkservices
 
-   Contoso heeft de set met Office 365-, Intune- en Azure-eindpunten vastgesteld en firewalls, beveiligingsapparaten en andere systemen in het internetpad geconfigureerd voor optimale prestaties. Eindpunten voor Office 365-verkeer in de categorieën Optimaliseren en Toestaan zijn in de SD-WAN-apparaten geconfigureerd voor routering via het ISP-circuit.
+   Contoso heeft de set Office 365-, intune-en Azure-eindpunten, en de geconfigureerde firewalls, beveiligingsapparaten en andere systemen in Internet Path voor optimale prestaties vastgesteld. Eindpunten voor Office 365 optimaliseren en toestaan dat categorie verkeer is geconfigureerd in de SD-WAN-apparaten voor routering via het routerings circuit.
 
-5. Interne DNS geconfigureerd
+5. Interne DNS configureren
 
    DNS moet functioneel zijn en lokaal worden opgezocht voor Microsoft 365-verkeer.
 
-6. Gevalideerd netwerkeindpunt en poortconnectiviteit
+6. Netwerkeindpunt en poort verbinding valideren
 
-   Contoso heeft testhulpprogramma's voor netwerkverbindingen van Microsoft uitgevoerd om de connectiviteit voor Microsoft 365 te valideren voor Enterprise cloudservices.
+   Contoso heeft de testhulpprogramma's voor Microsoft netwerkverbindingen uitgevoerd om de connectiviteit voor Microsoft 365 te valideren voor Enterprise cloudservices.
 
-7. Computers van werknemers geoptimaliseerd voor netwerkconnectiviteit
+7. Computers van werknemers voor netwerkconnectiviteit optimaliseren
 
-   Afzonderlijke computers zijn gecontroleerd om te controleren of de meest recente updates voor het besturingssysteem geïnstalleerd waren en controle van de eindpuntbeveiliging bij alle clients actief was.
+   Afzonderlijke computers zijn gecontroleerd om er zeker van te zijn dat de nieuwste updates voor het besturingssysteem zijn geïnstalleerd en dat beveiligings bewaking van endpoint voor alle clients actief was.
 
 ## <a name="next-step"></a>Volgende stap
 

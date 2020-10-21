@@ -1,37 +1,37 @@
 ---
-title: Betalingsgegevens voor China (VOLKSREPUBLIEK CHINA)
+title: Betalingsgegevens voor China (Volksrepubliek China)
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fc0f06da7dee38870fd3232b8811449a5a6d4796
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 83e56fb079bdd2104c84de0e6d3efa519e138108
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404320"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637461"
 ---
-# <a name="payment-information-for-china-prc"></a>Betalingsgegevens voor China (VOLKSREPUBLIEK CHINA)
+# <a name="payment-information-for-china-prc"></a>Betalingsgegevens voor China (Volksrepubliek China)
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Betaal in CNY en verwijs naar uw bedrijfsnaam en factuurnummer(s) over de betalingsoverschrijving.
+Betaal in alleen CNY en vermeld uw bedrijfsnaam en factuurnummer (s) bij de overboeking van uw betaling.
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
 **Bank:** Citibank  
 **Tak:** Hongkong  
-**SWIFT-code:** CITIHKHX CITIHKHX  
+**SWIFT-code:** CITIHKHX  
 **CNAP-code:** 989584000600   
 **Rekeningnummer:** 1199527009  
-**Accountnaam:** MICROSOFT REGIONAL SALES CORP  
-**Opmerking: Betaal via RMB RTGS kanaal in HK.**  
+**Account naam:** MICROSOFT REGIO VERKOOP CORP  
+**Opmerking: betaal via RMB RTGS-kanaal in Hongkong.**  

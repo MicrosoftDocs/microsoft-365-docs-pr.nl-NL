@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,64 +14,64 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Meer informatie over factureringsaccounts en hoe u deze beheert.
-ms.openlocfilehash: 87cc861ab48b99106a3cbd50d8ded91205ffb0a2
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over facturerings accounts en hoe u ze beheert.
+ms.openlocfilehash: 3c99f3f22fb0eb13c4f9cab06a4037fe057b6fb4
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402604"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638205"
 ---
 # <a name="manage-billing-accounts"></a>Factureringsaccounts beheren
 
-Er wordt een factureringsaccount gemaakt wanneer u zich aanmeldt om Microsoft-producten te proberen of te kopen. U gebruikt uw factureringsaccount om uw accountinstellingen, facturen, betalingsmethoden en aankopen te beheren. U toegang hebben tot meerdere factureringsaccounts. U hebt zich bijvoorbeeld rechtstreeks aangemeld voor Microsoft 365 of u hebt toegang tot de Enterprise Agreement, Microsoft Product & Services Agreement of Microsoft Customer Agreement van uw organisatie. Voor elk van deze scenario's hebt u een apart factureringsaccount.
+Er wordt een factuur account gemaakt wanneer u zich aanmeldt om te proberen of Microsoft-producten te kopen. U gebruikt uw factuur account voor het beheren van uw accountinstellingen, facturen, betaalwijzen en aankopen. U kunt toegang hebben tot meerdere facturerings accounts. U hebt zich bijvoorbeeld rechtstreeks voor Microsoft 365 aangemeld, of u hebt toegang tot de Enterprise Agreement, Microsoft product & Services Agreement of Microsoft Customer Agreement. Voor elk van deze scenario's hebt u een aparte factureringsaccount.
 
-Het Microsoft 365-beheercentrum ondersteunt momenteel het volgende type factureringsaccounts:
+Het Microsoft 365-Beheercentrum biedt momenteel ondersteuning voor het volgende type facturerings accounts:
 
-- Microsoft Online Services-programma: dit factureringsaccount wordt gemaakt wanneer u zich rechtstreeks aanmeldt voor een Microsoft 365-abonnement.
-- MPSA-programma (Microsoft Products & Services Agreement): dit factureringsaccount wordt gemaakt wanneer uw organisatie een MPSA-licentieovereenkomst voor volumelicenties ondertekent voor de aankoop van software en onlineservices.
-- Microsoft-klantenovereenkomst: dit factureringsaccount wordt gemaakt wanneer uw organisatie werkt met een Microsoft-vertegenwoordiger, een geautoriseerde partner of aankopen onafhankelijk.
+- Microsoft Online Services-programma: deze factureringsaccount wordt gemaakt wanneer u zich rechtstreeks registreert voor een abonnement op Microsoft 365.
+- Microsoft producten & Services Agreement (MPSA) programma: deze factureringsaccount wordt gemaakt wanneer uw organisatie een MPSA Volume Licensing Agreement ondertekent voor het aanschaffen van software en Online Services.
+- Microsoft Customer Agreement: deze factureringsaccount wordt gemaakt wanneer uw organisatie werkt met een Microsoft-vertegenwoordiger, een geautoriseerde partner of koopt apart.
 
-De pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Factureringsaccounts</a> biedt een weergave van uw commerciële accounts bij Microsoft. Uw organisatie heeft standaard ten minste één factureringsaccount dat is gekoppeld aan een overeenkomst die wordt geaccepteerd op het moment van een directe aankoop of via een volumelicentieregeling.
+De pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">factuur accounts</a> biedt een overzicht van uw commerciële rekeningen met Microsoft. Standaard heeft uw organisatie minstens één factureringsaccount dat is gekoppeld aan een overeenkomst die wordt geaccepteerd op het moment van een directe aankoop of via een volume licentie regeling.
 
-## <a name="understand-billing-account-details"></a>Inzicht in factureringsaccountgegevens
+## <a name="understand-billing-account-details"></a>Meer informatie over factureringsaccount gegevens
 
-De pagina Boven aan de detailpagina **Factureringsaccounts** is uw accountprofiel en bevat juridische en fiscale informatie over uw organisatie. U uw profiel bijwerken om uw wettelijke adres en telefoonnummer te wijzigen. Deze rekening is de rechtspersoon die betaalt voor de producten die u koopt.
+Boven aan de pagina met detail **factuur accounts** is uw accountprofiel en bevat juridische en BTW-informatie over uw organisatie. U kunt uw profiel bijwerken om uw geldige adres en telefoonnummer te wijzigen. Deze rekening is de rechtspersoon die betaalt voor de producten die u koopt.
 
-In de volgende tabel worden de belangrijke termen weergegeven die u ziet op de detailpagina **Factureringsaccounts.**
+De volgende tabel bevat de belangrijkste termen die u ziet op de pagina met detail **factuur accounts** .
 
-| Veldnaam | Beschrijving |
+| Veld naam | Beschrijving |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Verkocht-naar-adres | De rechtspersoon die verantwoordelijk is voor de betaling en op de factuur is geïdentificeerd. Het hier opgegeven adres wordt gebruikt om uw belastingtarief te bepalen, tenzij u ervoor kiest om tijdens uw aankoop een alternatief verzendadres op te geven. Zie [Belastinginformatie voor](billing-and-payments/tax-information.md)meer informatie . |
-| Segment | Een alleen-lezen veld dat het bedrijfssegment van uw organisatie identificeert (Commercieel, Onderwijs, Overheid of Non-profit). |
-| Accountstatus | Een alleen-lezen veld dat de status van uw commerciële account bij Microsoft opgeeft. |
-| Btw-nummer | Als u zich buiten de Verenigde Staten bevindt, moet u een BTW- of lokaal equivalent opgeven. Zie [Belastinginformatie voor](billing-and-payments/tax-information.md)meer informatie . |
-| Overeenkomst | Wanneer een factureringsaccount wordt gemaakt, hetzij via een directe aankoop of een volumelicentieregeling, accepteert een ondertekenaar voor de organisatie een overeenkomst waarin de voorwaarden & het account worden beschreven. Indien van toepassing geeft deze weergave een overeenkomstgeschiedenis weer. Als u bijgewerkte voorwaarden moet accepteren, wordt een koppeling voor **goedkeuringsovereenkomst** weergegeven. |
-| Factureringsprofielen | Een factureringsprofiel definieert eigenschappen van uw factuur, zoals wie de factuur ontvangt, hoe de factuur wordt geleverd, betalingsvoorwaarden en een PO-nummer. Als u facturering over uw organisatie wilt distribueren, u meerdere factureringsprofielen maken en het juiste factureringsprofiel identificeren op het moment van aankoop. Voor meer informatie over factureringsprofielen en hoe u deze gebruiken om flexibelere factureringsopties voor uw organisatie op te bouwen, [kunt u factureringsprofielen beheren.](billing-and-payments/manage-billing-profiles.md) |
+| Adres van verkoper | De rechtspersoon die verantwoordelijk is voor de betaling en die is geïdentificeerd op de factuur. Het door u opgegeven adres wordt gebruikt om uw BTW-tarief te bepalen, tenzij u tijdens uw aankoop een alternatief verzendadres moet opgeven. Zie [belastinginformatie](billing-and-payments/tax-information.md)voor meer informatie. |
+| Segment | Een alleen-lezen veld waarmee het bedrijfssegment van uw organisatie wordt aangegeven (commercieel, onderwijs, overheid of non-profit organisatie). |
+| Account status | Een alleen-lezen veld dat de status van uw commerciële rekening bij Microsoft opgeeft. |
+| BTW-nummer | Als u buiten de Verenigde Staten woont, moet u een BTW-nummer of een plaatselijk equivalent invoeren. Zie [belastinginformatie](billing-and-payments/tax-information.md)voor meer informatie. |
+| Serviceovereenkomstregel | Wanneer een factureringsaccount wordt gemaakt met behulp van een directe aankoop of een volume licentie regeling, moet een ondertekening voor de organisatie de naam van de organisatie accepteren of tekenen, een overeenkomst met de voorwaarden & voorwaarden van het account. In dit voorbeeld wordt een overeenkomst geschiedenis weergegeven. Als u de bijgewerkte voorwaarden moet accepteren, wordt een koppeling voor de **goedkeurings overeenkomst** weergegeven. |
+| Facturerings profielen | Met een facturerings profiel worden de eigenschappen van uw factuur gedefinieerd, zoals wie de factuur ontvangt, hoe de factuur wordt afgeleverd, de betalingsvoorwaarden en een ko-nummer. Als u de facturering binnen uw organisatie wilt verdelen, kunt u meerdere facturerings profielen maken en de juiste facturerings profielen identificeren wanneer u koopt. Voor meer informatie over facturerings profielen en hoe u deze kunt gebruiken voor het maken van flexibele factureringsopties voor uw organisatie, kunt u [facturerings profielen beheren](billing-and-payments/manage-billing-profiles.md). |
 
 > [!NOTE]
-> Als u de naam of het adres **verkocht** wilt wijzigen, maar geen koppeling **Bewerken** ziet, moet u [contact opnemen met de ondersteuning](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) om deze te wijzigen. Aanvragen voor een **verkoop-aan-naamswijziging** vereisen een kredietcontrole. Wanneer u contact opneemt met de ondersteuning, hebt u een van de volgende documenten gereed:
+> Als u de naam of het adres van de **verkochte** persoon wilt wijzigen, maar geen **bewerkings** koppeling ziet, moet u  [contact opnemen met ondersteuning](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) om de naam te wijzigen. Voor aanvragen voor een wijziging van een **verkochte** naam is een kredietcontrole vereist. Wanneer u contact opneemt met de ondersteuning, hebt u een van de volgende documenten klaar:
 >
-> - Extern aankondigingsdocument dat elke wijziging in de naam of bedrijfsstructuur van het bedrijf aangeeft
-> - Door de overheid uitgegeven document of registratiebrief
-> - Afdrukken uit het register van het lokale bedrijf
+> - Extern aankondigings document met een wijziging in de naam van het bedrijf of de bedrijfsstructuur
+> - Door de overheid verzonden document of registratie brief
+> - Het register van het lokale bedrijf afdrukken
 >
-> Ondersteuning kan helpen bij naam- en adreswijzigingen waarbij alleen de naam van de klant verandert, maar de entiteit hetzelfde blijft. De verstrekte documentatie moet duidelijk aangeven dat alleen de naam van de entiteit is gewijzigd. Als de wijziging verband houdt met een transactie, zoals een verkoop van een bedrijf, of een afstoting of "spin-off" van een klantpartner, neem dan contact op met uw Microsoft-verkoper.
+> Ondersteuning biedt ondersteuning voornaam-en adreswijzigingen wanneer alleen de naam van de klant verandert, maar de entiteit blijft ongewijzigd. De verstrekte documentatie dient duidelijk aan te geven dat alleen de naam van de entiteit is gewijzigd. Neem contact op met uw Microsoft-verkoper als de wijziging is gerelateerd aan een transactie, zoals een verkoop van een bedrijf of een divestiture of ' spinoff ' van een klant gelieerde onderneming.
 
 ## <a name="shipping-addresses"></a>Verzendadressen
 
-In deze sectie worden de verzendadressen weergegeven die zijn gekoppeld aan uw factureringsaccount. Wanneer u een aankoop doet, u dit adres gebruiken om te bepalen waar uw aankoop wordt verzonden of gebruikt. Het verzendadres is bewerkbaar. U een verzendadres toevoegen of het bestaande adres bijwerken. Dit adres wordt gebruikt om het belastingtarief voor uw aankoop te bepalen.
+In deze sectie vindt u de verzendadressen die zijn gekoppeld aan uw factureringsaccount. Wanneer u een aankoop doet, kunt u dit adres gebruiken om aan te geven waar uw aankoop wordt verzonden of gebruikt. Het verzendadres is bewerkbaar. U kunt een verzendadres toevoegen of het bestaande adres bijwerken. Dit adres wordt gebruikt om het BTW-tarief voor uw aankoop te bepalen.
 
-## <a name="understand-access-to-billing-accounts"></a>Toegang tot factureringsaccounts begrijpen
+## <a name="understand-access-to-billing-accounts"></a>Meer informatie over toegang tot facturerings accounts
 
-U anderen toegang geven tot het factureringsaccount in het Microsoft 365-beheercentrum via rollen en machtigingen. Alleen een eigenaar van een factureringsaccount kan toegang verlenen tot een factureringsaccount. U een van de volgende rollen aan gebruikers toewijzen:
+U kunt anderen toegang geven tot de factureringsaccount via rollen en machtigingen in het Microsoft 365-Beheercentrum. Alleen de eigenaar van een factureringsaccount kan toegang verlenen aan een factureringsaccount. U kunt een van de volgende rollen aan gebruikers toewijzen:
 
-- **Eigenaar van het factureringsaccount** &mdash; Kan machtigingen toewijzen, accounts bewerken, overeenkomsten ondertekenen en accounts bekijken.
-- **Inzender van factureringsaccounts** &mdash; Kan accounts bewerken, overeenkomsten ondertekenen en accounts bekijken.
-- **Factureringsaccountlezer** &mdash; Kan accounts bekijken.
+- Eigenaar van facturerings **account** &mdash; Kan machtigingen toewijzen, accounts bewerken, afspraken ondertekenen en accounts weergeven.
+- Inzender voor facturerings **accounts** &mdash; Kan accounts bewerken, overeenkomsten ondertekenen en accounts weergeven.
+- **Factureringsaccount lezer** &mdash; Accounts kunnen weergeven.
 
 > [!Note]
-> Rollen voor factureringsaccounts zijn alleen van toepassing op factureringsaccounts en zijn niet van toepassing op andere scenario's van het Microsoft 365-beheercentrum.
+> Rollen van facturerings accounts gelden alleen voor facturerings accounts en gelden niet voor andere scenario's van het Microsoft 365-Beheercentrum.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

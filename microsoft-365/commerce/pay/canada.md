@@ -4,41 +4,41 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement verzenden.
+description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 16ce085edcb573874ddb10b127723ab34efd6546
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a4a60c841ebb31163281cd8de3c27460e10b0811
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404368"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637509"
 ---
 # <a name="payment-information-for-canada"></a>Betalingsgegevens voor Canada
 
-[Zoek een ander land of regio.](../billing-and-payments/pay-for-your-subscription.md)
+[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
 
-Betaal alleen in CAD en verwijs naar uw factuurnummer(s) over uw betalingsoverschrijving.
+Betaal alleen in CAD en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
 
 ## <a name="check"></a>Cheque
 
-**Payee:** Microsoft
+**Begunstigde:** Microsoft
 
 **Postadres:**  
-Bank of America, Lockbox 910430, PO Box 4090, STN A, Toronto ON M5W 0E9, Canada
+Bank of America, lockbox 910430, PO Box 4090, STN A, Toronto ON M5W 0E9, Canada
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Bank of America  
+**Bank:** Bank of America, Toronto  
 **SWIFT-code:** BOFACATT  
 **Rekeningnummer:** 45571239  
-**Accountnaam:** Microsoft  
-**Bank-ID:** 241  
+**Account naam:** Microsoft  
+**Bank-id:** 241  
 **Tak:** 56792  
-**Routering/Transit #:** 024156792  
+**Routing/Transit #:** 024156792  

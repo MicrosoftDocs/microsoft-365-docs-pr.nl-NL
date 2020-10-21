@@ -1,10 +1,10 @@
 ---
-title: Uw e-factuur voor Microsoft 365 voor bedrijven (Taiwan) begrijpen
+title: Inzicht in uw e-factuur voor Microsoft 365 voor bedrijven (Taiwan)
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,54 +20,54 @@ search.appverid:
 - MOE150
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
-description: Meer informatie over de e-factuur van Microsoft 365 voor bedrijven voor Taiwan.
-ms.openlocfilehash: 1ea9ff21e25229924cd6815999b9c0868173026f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over Microsoft 365 for Business e-invoice voor Taiwan.
+ms.openlocfilehash: 2cdc3f6fe4b87f92b16355f10416fa99712c6fcb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401784"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638469"
 ---
-# <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Uw e-factuur voor Microsoft 365 voor bedrijven (Taiwan) begrijpen
+# <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Inzicht in uw e-factuur voor Microsoft 365 voor bedrijven (Taiwan)
 
-e-factuur is een elektronische factuur die door de verkoper is uitgegeven na aankopen van kopers in overeenstemming met de e-factuurvereisten van de Taiwanese belastingdienst. Informatie wordt verzonden naar de Electronic Invoice Cloud van de Taiwanese Belastingdienst voor het bijhouden van gegevens. Voor Taiwan e-Invoice gerelateerde informatie, verwijzen wij hier: <a href="https://www.einvoice.nat.gov.tw/" target="_blank">????</a>
+e-factuur is een elektronische factuur die door de verkoper is uitgegeven na aankoop van de aankoop van een aangifte overeenkomstig de elektronische factuur vereisten van de Taiwan. Er wordt informatie verzonden naar de electronische cloud van de fiscaal overheid voor de record. Voor de informatie over Taiwan e-invoice raadpleegt u: <a href="https://www.einvoice.nat.gov.tw/" target="_blank">財政部電子發票整合服務平台</a>
   
-Een voorbeeld van e-invoice is hier opgenomen:
+Een voorbeeld van een kopie van e-invoice wordt hier opgenomen:
   
-![De Taiwan e-Invoice.](../../media/01a275ad-54a9-4b76-ac03-4b288508b161.png)
+![De e-factuur van Taiwan.](../../media/01a275ad-54a9-4b76-ac03-4b288508b161.png)
   
-## <a name="what-is-my-tax-rate"></a>Wat is mijn belastingtarief?
+## <a name="what-is-my-tax-rate"></a>Wat is mijn BTW-tarief?
 
-Voor commerciële aankopen passen we belastingen toe naast de vermelde prijs van onze abonnementen tegen een tarief dat is voorgeschreven door de Taiwanese belastingdienst. Voor eventuele fiscale vragen of planning u samenwerken met uw belastingadviseur.
+Voor commerciële aankopen wordt de belasting opgeteld bij het bedrag van de prijzen van onze abonnementen tegen een tarief dat is opgegeven door de belastingdienst van Taiwan. Voor eventuele vragen en vragen over belastingen kunt u met uw belastingadviseur werken.
   
-## <a name="when-will-e-invoice-start-for-my-microsoft-365-services"></a>Wanneer wordt e-factuur gestart voor mijn Microsoft 365-services?
+## <a name="when-will-e-invoice-start-for-my-microsoft-365-services"></a>Wanneer begint u met de facturering van mijn Microsoft 365-service?
 
-Microsoft vervangt de huidige geautomatiseerde factuur op 15 september door **e-factuur.** Voor facturering vóór 15 september worden papieren facturen voor de kopie rechtstreeks naar klanten verzonden. Na 15 september wordt e-invoice aangeboden in uw Microsoft 365-beheercentrum voor weergave, download en afdruk, en wordt deze niet meer rechtstreeks naar u verzonden. 
+Microsoft vervangt huidige gecomputerde factuur via e-invoice op **15 september**. Voor facturering vóór 15 september worden de BTW-facturen voor papier kopieën rechtstreeks naar klanten verzonden. Na 15 september ontvangt u e-invoice in uw Microsoft 365-Beheercentrum voor weergave, downloaden en afdrukken, en ontvangt u niet langer rechtstreeks met u e-mail. 
   
-## <a name="where-can-i-find-my-e-invoice"></a>Waar kan ik mijn e-factuur vinden?
+## <a name="where-can-i-find-my-e-invoice"></a>Waar kan ik mijn e-invoice vinden?
 
-U uw e-factuur bekijken, downloaden en afdrukken de dag nadat uw factuur klaar is, via uw beheercentrum, samen met uw maandelijkse factuur. [Bekijk uw factuur.](view-your-bill-or-invoice.md)
+U kunt uw e-factuur weergeven, downloaden en afdrukken de dag nadat uw factuur klaar is, via uw Beheercentrum, samen met uw maandelijkse factuur. [Uw factuur weergeven](view-your-bill-or-invoice.md).
   
-## <a name="how-do-i-update-my-vat-id"></a>Hoe werk ik mijn btw-nummer bij?
+## <a name="how-do-i-update-my-vat-id"></a>Hoe werk ik mijn BTW-nummer bij?
 
-U uw btw-id bijwerken op het moment van onboarding of via uw beheercentrum nadat u aan boord bent.
+U kunt uw BTW-nummer bijwerken op het moment van inactief of via uw Beheercentrum wanneer u het onboard
   
-Op het moment van het aanmaken van een account, in **stap 1**, Welkom, Laten we je leren kennen, **pagina 2**, Waar ga je dit gebruiken?, onder Informatie over het adres van de ontvanger van de **service,** u uw **btw-id**van 8 cijfers toevoegen. Als u geen btw-nummer hebt, voert u "00000000" in.
+Wanneer u een account hebt gemaakt, kunt u in stap 1, welkom, in **stap 1** **, welkom**, de locatie van de adreslijst van de **service geadresseerde** , uw 8-cijferige **BTW-nummer**toevoegen. Als u geen BTW-nummer hebt, voert u "00000000" in.
   
-Nadat u uw account hebt gemaakt, u uw btw-id bijwerken via uw beheercentrum door de volgende stappen te volgen:
+Nadat u uw account hebt gemaakt, kunt u uw BTW-nummer via uw Beheercentrum bijwerken door deze stappen te volgen:
   
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
     
-2. Selecteer een abonnement en selecteer **Meer acties**.
+2. Selecteer een abonnement en selecteer vervolgens **meer acties**.
     
-3. Selecteer **Adres van servicegeadresseerde bijwerken**en **btw-id-gegevens** bijwerken. 
+3. Selecteer **adres van service ontvanger bijwerken**en **BTW-identificatie** gegevens bijwerken. 
     
-## <a name="how-do-i-request-an-e-invoice-paper-copy"></a>Hoe vraag ik een kopie van e-invoice papier aan?
+## <a name="how-do-i-request-an-e-invoice-paper-copy"></a>Hoe stel ik een papier kopie van de elektronische factuur aanvragen?
 
-Als uw ontvangstbewijs Lucky Draw heeft gewonnen (alleen beschikbaar voor klanten zonder BTW-nummer), sturen we per aangetekende post een papieren exemplaar rechtstreeks naar de adressen in het bestand.
+Als uw Lucky-handtekening is opgebouwd (alleen beschikbaar voor klanten zonder BTW-nummer), stuurt Skype een afdruk rechtstreeks naar de adressen van het bestand via geregistreerde e-mail.
   
-Als u anders de officiële papieren kopie van uw e-factuur nodig hebt, neem dan [contact op met de ondersteuning.](../../admin/contact-support-for-business-products.md) Nadat we uw aanvraag hebben ontvangen, sturen we de papieren kopie van de e-factuur naar het in het dossier opgenomen adres.
+Als u de officiële Paper versie van uw e-factuur nodig hebt, kunt u [contact opnemen met ondersteuning](../../admin/contact-support-for-business-products.md). Nadat we uw aanvraag hebben ontvangen, sturen we het papier exemplaar van de elektronische factuur naar het adres van het bestand.
   
-## <a name="more-questions"></a>Meer vragen?
+## <a name="more-questions"></a>Hebt u nog vragen?
 
 [連絡客戶支援](../../admin/contact-support-for-business-products.md)

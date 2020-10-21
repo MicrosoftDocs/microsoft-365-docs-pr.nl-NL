@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het verkrijgen van het Rapportgebruikers activiteit in Microsoft teams en het verkrijgen van inzichten aan de activiteiten van teams in uw organisatie.
-ms.openlocfilehash: 32252ed89dd9447b5df59ee733088349c559a320
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 8ce29b43e6238883470d1159ad1d22fefca88792
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104508"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637065"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Microsoft 365-rapporten in het Beheercentrum-gebruikersactiviteit in Microsoft teams
 
@@ -37,14 +37,14 @@ Het dashboard Microsoft 365 **rapporten** toont u het overzicht van de activitei
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 2. Klik op de startpagina van het dashboard op de knop **meer weergeven** op de activiteiten kaart van Microsoft teams.
-  
+
 ## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Het rapport Gebruikersactiviteit in Microsoft Teams interpreteren
 
 U kunt de activiteit van gebruikers weergeven in het rapport teams door het tabblad **User Activity** te kiezen. <br/>![Microsoft 365-rapporten-gebruikersactiviteit in Microsoft teams.](../../media/1011877f-3cf0-4417-9447-91d0b2312aab.png)
 
 Selecteer **kolommen kiezen** als u kolommen wilt toevoegen aan of verwijderen uit het rapport.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
 
-U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. De geëxporteerde indeling voor **Audio**-en **video tijd** en **scherm delen** volgt de iso8601 datumnotatie.
+U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. De geëxporteerde indeling voor **Audio**-en **video** tijd en **scherm delen** volgt de iso8601-tijdsindeling.
 
 |Item|Beschrijving|
 |:-----|:-----|

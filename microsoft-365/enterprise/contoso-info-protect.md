@@ -15,72 +15,72 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe Contoso de functies voor informatiebeveiliging in Microsoft 365 for Enterprise gebruikt om de digitale activa in de cloud te beveiligen.
-ms.openlocfilehash: 1966fdec3de246ca54fd99ab018485b9ee817281
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 51740db9a0bb2e770e959fe8d9dcde15c042f5b8
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399239"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637233"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Informatiebescherming voor Contoso Corporation
 
-Contoso neemt de beveiliging en bescherming van informatie serieus. Diefstal of vernietiging van hun intellectuele eigendom omtrent productontwerpen en fabricagetechnieken kan hen bijvoorbeeld een concurrentienadeel opleveren.
+Contoso is een belangrijke informatiebeveiliging. Een lekkage of vernietiging van de intellectuele-eigendom waarmee hun productmodellen en producten van eigen productie worden beschreven, hebben deze op een concurrentie nadeel.
 
-Voordat ze de gevoelige en belangrijkste digitale activa naar de Cloud verplaatsen, hebben ze er zeker van dat hun on-premises informatie classificatie en beschermings vereisten werden ondersteund en geïmplementeerd in de Cloud-Services van Microsoft 365 for Enterprise.
+Voordat Contoso de gevoelige digitale activa naar de Cloud verplaatst, controleert contoso of hun on-premises informatie classificatie en beschermings vereisten werden ondersteund door de cloudservices van Microsoft 365 for Enterprise.
 
-## <a name="contosos-data-security-classification"></a>De classificatie van de gegevensbescherming van Contoso
+## <a name="contoso-data-security-classification"></a>Contoso gegevens beveiligings classificatie
 
-Contoso heeft een analyse uitgevoerd op hun gegevens en heeft de volgende niveaus bepaald.
+Contoso heeft een analyse van hun gegevens uitgevoerd en heeft de volgende classificatieniveaus vastgesteld.
 
 | Niveau 1: basislijn | Niveau 2: gevoelig | Niveau 3: sterk gereglementeerd |
 |:-------|:-----|:-----|
-| Gegevens zijn versleuteld en alleen beschikbaar voor geverifieerde gebruikers. <BR> <BR> Verstrekt voor alle gegevens die lokaal zijn opgeslagen, en in opslagsystemen en werkbelasting in de Cloud. Gegevens worden versleuteld wanneer ze zich in de service bevinden en tijdens de overdracht tussen de service en de clientapparaten. <BR><BR> Voorbeelden van gegevens van niveau 1 zijn normale bedrijfscommunicatie (e-mail) en bestanden voor administratieve, verkoop- en ondersteuningsmedewerkers. | Niveau 1 plus krachtige verificatie en bescherming tegen gegevensverlies. <BR> <BR> Geavanceerde verificatie omvat Azure Meervoudige Verificatie (MFA) met SMS-validatie. Met preventie van gegevensverlies wordt voorkomen dat gevoelige of kritieke informatie wordt verzonden buiten de Microsoft-Cloud. <BR><BR> Voorbeelden van gegevens op niveau 2 zijn financiële en juridische informatie en onderzoeks- en ontwikkelingsgegevens voor nieuwe producten. | Niveau 2 plus de hoogste niveaus van versleuteling, verificatie en controle. <BR> <BR>  De hoogste niveaus van codering voor gegevens in de service en in de Cloud, conform de regionale voorschriften, gecombineerd met MFA met smartcards en granulaire controle en waarschuwingen. <BR> <BR> Voorbeelden van gegevens van niveau 3 zijn persoonlijk identificeerbare klant- en partnergegevens, product technische specificaties en speciale productietechnieken.  |
+| Gegevens zijn versleuteld en alleen beschikbaar voor geverifieerde gebruikers.<BR> <BR> Verstrekt voor alle gegevens die lokaal zijn opgeslagen, en in opslagsystemen en werkbelasting in de Cloud. Gegevens worden versleuteld wanneer ze zich in de service bevinden en tijdens de overdracht tussen de service en de clientapparaten. <BR><BR>Voorbeelden van gegevens van niveau 1 zijn normale bedrijfscommunicatie (e-mail) en bestanden voor administratieve, verkoop- en ondersteuningsmedewerkers. | Niveau 1 plus krachtige verificatie en bescherming tegen gegevensverlies.<BR> <BR> Geavanceerde verificatie omvat Azure Meervoudige Verificatie (MFA) met SMS-validatie. Preventie van gegevensverlies zorgt ervoor dat gevoelige of kritieke informatie niet wordt verzonden buiten de Microsoft-Cloud.<BR><BR>Voorbeelden van gegevens op niveau 2 zijn financiële en juridische informatie en onderzoeks- en ontwikkelingsgegevens voor nieuwe producten. | Niveau 2 plus de hoogste niveaus van versleuteling, verificatie en controle.<BR><BR>De hoogste niveaus van codering voor gegevens in de service en in de Cloud, conform de regionale voorschriften, gecombineerd met MFA met smartcards en granulaire controle en waarschuwingen.<BR> <BR>Voorbeelden van gegevens over de klant en de partners zijn persoonlijke gegevens over de klant en de partner, specificaties voor product engineering en eigen productietechnieken.  |
 ||||
 
-## <a name="contosos-information-policies"></a>Het gegevensbeleid van Contoso
-In de volgende tabel ziet u het gegevensbeleid van Contoso.
+## <a name="contoso-information-policies"></a>Contoso Information policies
+De volgende tabel bevat informatie over contoso Information policies.
 
 
-| Value | Access | Gegevensretentie | Gegevensbescherming |
+| Waarde | Access | Gegevensretentie | Gegevensbescherming |
 |:-------|:-----|:-----|:-----|
-| Lage bedrijfswaarde (niveau 1: basislijn) | Geef iedereen toegang  | 6 maanden | Gebruik versleuteling. |
-| Gemiddelde bedrijfswaarde (niveau 2: gevoelig) | Sta toegang toe aan Contoso-medewerkers, onderaannemers en partners <BR> <BR> Gebruik MFA, TLS (Transport Layer Security) en Mobile Application Management (MAM). | 2 jaar  | Gebruik hash-waarden voor gegevensintegriteit.  |
+| Lage bedrijfswaarde (niveau 1: basislijn) | Toegang tot iedereen toestaan.  | 6 maanden | Gebruik versleuteling. |
+| Gemiddelde bedrijfswaarde (niveau 2: gevoelig) | Sta toegang tot Contoso medewerkers, onderaannemers en partners. <BR><BR> Gebruik MFA, TLS (Transport Layer Security) en Mobile Application Management (MAM). | 2 jaar  | Gebruik hash-waarden voor gegevensintegriteit.  |
 | Hoge bedrijfswaarde (niveau 3: sterk gereglementeerd) | Sta toegang toe aan leidinggevenden en leads in engineering en productie. <BR> <BR> Rights Management System (RMS) met alleen beheerde netwerkapparaten.  | 7 jaar  | Gebruik digitale handtekeningen voor niet-afwijzing.  |
 |||||
 
-## <a name="contosos-path-to-information-protection-with-microsoft-365-for-enterprise"></a>Het pad van Contoso naar informatiebescherming met Microsoft 365 for Enterprise
+## <a name="the-contoso-path-to-information-protection-with-microsoft-365-for-enterprise"></a>Het contoso-pad naar informatiebescherming met Microsoft 365 for Enterprise
 
-Contoso gebruikt de volgende stappen om Microsoft 365 for Enterprise voor hun informatiebescherming voor te bereiden:
+Contoso Volg deze stappen om Microsoft 365 for Enterprise te voorbereiden op de vereisten voor informatiebescherming:
 
-1. Geïdentificeerd welke gegevens te beveiligen
+1. Opgeven welke gegevens u wilt beschermen
 
-   Contoso heeft een uitgebreide beoordeling uitgevoerd van hun bestaande digitale activa die zich op on-premises SharePoint-sites en bestandsshares bevinden, en heeft ze allemaal geclassificeerd.
+   Contoso deed een uitgebreide beoordeling van hun bestaande digitale activa op de on-premises SharePoint-sites en bestandsshares, en classificeert elk activum.
 
-2. Beleid voor toegang, bewaren en informatiebescherming voor gegevensniveaus bepaald
+2. Beleidsregels voor toegang, behoud en informatiebescherming bepalen voor gegevensniveaus
 
    Op basis van de gegevensniveaus heeft Contoso gedetailleerde beleidsvereisten opgesteld, die werden gebruikt om bestaande digitale activa te beveiligen zodra ze naar de Cloud werden verplaatst.
 
-3. Gevoeligheidslabels en hun instellingen voor de verschillende informatieniveaus gemaakt
+3. Maak gevoeligheids labels en hun instellingen voor de verschillende gegevensniveaus
 
    Contoso heeft gevoeligheidslabels gemaakt voor hun gegevensniveaus, met het label Sterk gereglementeerd dat codering, machtigingen en watermerken omvat.
 
-4.  Gegevens verplaatst van on-premises SharePoint-sites en bestandsshares naar de nieuwe SharePoint-sites
+4.  Gegevens verplaatsen van on-premises SharePoint-sites en bestandsshares naar hun nieuwe SharePoint-sites
 
     De bestanden die naar de nieuwe SharePoint-sites zijn gemigreerd, hebben de standaardretentielabels overgenomen die aan de site zijn toegewezen.
 
-5.  Getrainde medewerkers over het gebruik van gevoeligheidslabels voor nieuwe documenten, hoe om te gaan met de IT-afdeling van Contoso bij het maken van nieuwe SharePoint-sites en om altijd digitale middelen op SharePoint-sites op te slaan
+5.  Traint medewerkers voor het gebruik van codegeschiktings punten voor nieuwe documenten, hoe u kunt communiceren met Contoso wanneer u nieuwe SharePoint-sites maakt en hoe u op dit moment ook digitale assets opslaat op SharePoint-sites.
 
-    Het moeilijkste deel van de overgang van informatiebescherming voor de cloud, was dat de IT-afdeling van Contoso en management de slechte informatieopslaggewoonten van hun werknemers moesten veranderen. Men wilde bereiken dat werknemers hun digitale activa altijd labelen en opslaan in de cloud, zich onthouden van het gebruik van on-premises bestandsshares, en nooit cloudopslagservices van derden of USB-drives gebruiken.
+    Het wijzigen van de informatie over het opslaan van een werknemer wordt vaak beschouwd als het moeilijkste deel van de overgang van de gegevensbescherming voor de Cloud. Contoso IT en management nodig om werknemers te laten weten dat ze hun digitale activa in de cloud al willen bijvoegen en bewaren, geen on-premises bestandsshares mogen gebruiken en geen Cloud-opslagservices van derden of USB-stations gebruiken.
 
 ## <a name="conditional-access-policies-for-information-protection"></a>Beleid voor voorwaardelijke toegang voor informatiebescherming
 
-In combinatie met hun identiteit en infrastructuur voor het beheer van mobiele apparaten en als onderdeel van hun uitrol van Exchange Online en SharePoint, heeft Contoso de volgende set voorwaardelijke toegangsbeleid geconfigureerd en toegepast op de van toepassing zijnde groepen:
+Als onderdeel van de implementatie van Exchange Online en SharePoint, heeft Contoso de volgende set regels voor voorwaardelijke toegang geconfigureerd en worden deze op de juiste groepen toegepast:
 
 - [Beheerde en niet-beheerde toepassingstoegang op apparaatbeleid](../security/office-365-security/identity-access-policies.md)
 - [Beleid voor toegang tot Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)
 - [SharePoint-beleidsregels voor toegang](../security/office-365-security/sharepoint-file-access-policies.md)
 
-Hier ziet u de resulterende configuratie van de gegevensbescherming van Contoso.
+Dit is de nieuwe set contoso-beleidsregels voor informatiebescherming.
 
 ![Voorwaardelijke toegangsbeleidsregels voor apparaten, SharePoint en Exchange Online](../media/contoso-info-protect/contoso-info-protect-fig1.png)
 
@@ -90,30 +90,30 @@ Hier ziet u de resulterende configuratie van de gegevensbescherming van Contoso.
 
 Dit beleid zorgt ervoor dat:
 
-- Apps zijn toegestaan en de acties die ze kunnen ondernemen met uw organisatiegegevens worden bepaald door het app-beschermingsbeleid.
+- Apps die zijn toegestaan en de acties die ze kunnen uitvoeren met de gegevens van de organisatie worden gedefinieerd door het app-beveiligingsbeleid.
 - Pc's en mobiele apparaten moeten compatibel zijn.
 - Exchange Online maakt gebruik van Office 365-bericht versleuteling (OME) voor Exchange Online.
-- SharePoint gebruikt door de app afgedwongen beperkingen.
+- In SharePoint worden door apps afgedwongen beperkingen gebruikt.
 - SharePoint gebruikt toegangsbeleidsregels voor alleen-browser toegang en om toegang te blokkeren voor niet-beheerde apparaten.
 
-## <a name="mapping-microsoft-365-for-enterprise-features-to-contosos-data-levels"></a>Microsoft 365 for Enterprise-functies toewijzen aan de gegevensniveaus van contoso
+## <a name="mapping-microsoft-365-for-enterprise-features-to-contoso-data-levels"></a>Microsoft 365 for Enterprise-functies toewijzen aan contoso gegevensniveaus
 
-In de volgende tabel wordt het gegevensniveau van Contoso toegewezen aan functies voor informatiebeveiliging in Microsoft 365 for Enterprise.
+In de volgende tabel worden contoso gegevensniveaus toegewezen aan functies voor informatiebeveiliging in Microsoft 365 for Enterprise.
 
 | Concentratie | Microsoft 365-cloudservices | Windows 10- en Microsoft 365-apps voor ondernemingen | Beveiliging en compliance |
 |:-------|:-----|:-----|:-----|
 | Niveau 1: basislijn  | Voorwaardelijke toegangsbeleidsregels voor SharePoint en Exchange Online <BR> Machtigingen op SharePoint-sites | Gevoeligheidslabels <BR> BitLocker <BR> Windows-gegevensbescherming | Beleid voor voorwaardelijke toegang van apparaten en beleid voor Mobile Application Management |
 | Niveau 2: gevoelig | Niveau 1 plus: <BR> <BR> Gevoeligheidslabels <BR> Microsoft 365-bewaarlabels op SharePoint-sites <BR> Preventie van gegevensverlies voor SharePoint en Exchange Online <BR> Geïsoleerde SharePoint-sites  | Niveau 1 plus: <BR> <BR> Gevoeligheidslabels voor digitale activa  | Niveau 1 |
-| Niveau 3: sterk gereglementeerd | Niveau 2 plus: <BR><BR> Bring Your Own Key (BYOK) encryptie en bescherming voor bedrijfsgeheimen <BR> Azure Key Vault voor bedrijfstoepassingen die communiceren met Microsoft 365-services | Niveau 2 | Niveau 1 |
+| Niveau 3: sterk gereglementeerd | Niveau 2 plus: <BR><BR> Uw eigen sleutel (BYOK) versleutelen en beschermen voor informatie over handelsgeheimen <BR> Azure-sleutel kluis voor line-of-business-toepassingen die werken met Microsoft 365-Services | Niveau 2 | Niveau 1 |
 |||||
 
-Hier ziet u de resulterende configuratie van de informatiebescherming van Contoso.
+Hier ziet u de informatie over de informatie-bescherming van contoso.
 
 ![De resulterende configuratie van de informatiebescherming van Contoso.](../media/contoso-info-protect/contoso-info-protect-fig2.png)
 
 ## <a name="next-step"></a>Volgende stap
 
-[Zie](contoso-security-summary.md) hoe Contoso de beveiligingsfuncties in microsoft 365 voor ondernemingen heeft gebruikt voor identiteits-en toegangsbeheer, bedreigingsbeveiliging, informatiebescherming en beveiligingsbeheer.
+[Zie](contoso-security-summary.md) hoe Contoso de beveiligingsfuncties voor microsoft 365 voor ondernemingen gebruikt voor identiteits-en toegangsbeheer, bedreigingsbeveiliging, informatiebescherming en beveiligingsbeheer.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -122,5 +122,3 @@ Hier ziet u de resulterende configuratie van de informatiebescherming van Contos
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
 [Testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
-
-
