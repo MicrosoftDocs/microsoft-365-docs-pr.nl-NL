@@ -1,10 +1,10 @@
 ---
-title: DNS-records maken bij Register.com voor Microsoft
+title: DNS-records bij Register.com maken voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 55bd8c38-3316-48ae-a368-4959b2c1684e
-description: Meer informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij Register.com voor Microsoft.
-ms.openlocfilehash: 7a11fa248f2602eb02fe1242234d26584bd33fd2
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Register.com voor Microsoft.
+ms.openlocfilehash: 96ec44875d5bc86f46e4945d4021deb0ca427fed
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780323"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645801"
 ---
-# <a name="create-dns-records-at-registercom-for-microsoft"></a>DNS-records maken bij Register.com voor Microsoft
+# <a name="create-dns-records-at-registercom-for-microsoft"></a>DNS-records bij Register.com maken voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
@@ -46,7 +46,7 @@ Dit zijn de belangrijkste records om toe te voegen. Volg onderstaande stappen of
 
 - [De twee SRV-records toevoegen die zijn vereist voor Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Nadat u deze records hebt toegevoegd op Register.com, wordt uw domein ingesteld om te werken met Microsoft-services.
+Nadat u deze records bij Register.com hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
   
 
   
@@ -67,11 +67,11 @@ Volg onderstaande stappen of [bekijk de video (start op 0:44)](https://support.m
     
 2. Selecteer **Domeinen**.
     
-3. Selecteer **Beheren**.
+3. Selecteer **beheren**.
     
-4. Zoek de rij met de naam van het domein dat u wilt wijzigen. en selecteer vervolgens in die rij **Beheren**.
+4. Zoek de rij met de naam van het domein dat u wilt wijzigen. vervolgens selecteert u in de rij **beheren**.
     
-5. Schuif omlaag naar de sectie **Geavanceerde technische instellingen** en selecteer **TXT-records bewerken (SPF)**.
+5. Schuif omlaag naar de sectie **Advanced Technical Settings** en selecteer vervolgens **Edit TXT records (SPF)**.
     
 6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
@@ -82,7 +82,7 @@ Volg onderstaande stappen of [bekijk de video (start op 0:44)](https://support.m
    
 7. Selecteer **Doorgaan**.
     
-8. Selecteer op de volgende pagina **Opnieuw Doorgaan** om uw wijzigingen te bevestigen. 
+8. Selecteer op de volgende pagina opnieuw **Doorgaan** om uw wijzigingen te bevestigen. 
     
 9. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -110,21 +110,21 @@ Volg onderstaande stappen of [bekijk de video (start op 3:32)](https://support.m
     
 2. Selecteer **Domeinen**.
     
-3. Selecteer **Beheren**.
+3. Selecteer **beheren**.
     
-4. Zoek de rij met de naam van het domein dat u wilt wijzigen. en selecteer vervolgens in die rij **Beheren**.
+4. Zoek de rij met de naam van het domein dat u wilt wijzigen. vervolgens selecteert u in de rij **beheren**.
     
-5. Schuif naar de sectie **Geavanceerde technische instellingen** en selecteer **E-mailuitwisselingsrecords bewerken**.
+5. Schuif naar de sectie **Advanced Technical Settings** en selecteer vervolgens **Edit Mail Exchanger Records**.
     
-    ![E-mail exchanger records bewerken selecteren](../../media/366b96a1-9147-4bbb-9f8f-50856466cc61.png)
+    ![Selecteer E-mail van Exchange-records bewerken](../../media/366b96a1-9147-4bbb-9f8f-50856466cc61.png)
   
 6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    (Kies de **prioriteitswaarde** in de vervolgkeuzelijst.) 
+    (Kies in de vervolgkeuzelijst de waarde **Priority** .) 
     
     |****Hostnaam****|****Priority****|****Mail Server****|
     |:-----|:-----|:-----|
-    |@  <br/> |High  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> | *\<domain-key\>*,,Mail.protection.outlook.com  <br/>  <br/>**Let op:** Haal je \<*domain-key*\> van je Microsoft-account. <br> [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |High  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/>  <br/>**Opmerking:** Haal uw \<*domain-key*\> uit uw Microsoft-account. <br> [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![De waarde uit de tabel kopiëren en plakken](../../media/a1a15a14-c3dc-45dc-adcd-90fdb3f7455d.png)
   
@@ -136,7 +136,7 @@ Volg onderstaande stappen of [bekijk de video (start op 3:32)](https://support.m
     
     ![Selecteer Doorgaan](../../media/6ef6ce01-ce21-4e3c-8209-4aa9a3dd4b76.png)
   
-9. Selecteer op de volgende pagina **Opnieuw Doorgaan** om de wijzigingen te bevestigen en op te slaan. 
+9. Selecteer op de volgende pagina opnieuw **Doorgaan** om uw wijzigingen te bevestigen en op te slaan. 
     
     ![Selecteer Doorgaan](../../media/adba4a60-bf61-44fc-9ad9-360e66f8a2ee.png)
   
@@ -149,17 +149,17 @@ Volg onderstaande stappen of [bekijk de video (start op 4:23)](https://support.m
     
 2. Selecteer **Domeinen**.
     
-3. Selecteer **Beheren**.
+3. Selecteer **beheren**.
     
-4. Zoek de rij met de naam van het domein dat u wilt wijzigen. en selecteer vervolgens in die rij **Beheren**.
+4. Zoek de rij met de naam van het domein dat u wilt wijzigen. vervolgens selecteert u in de rij **beheren**.
     
-5. Schuif naar de sectie **Geavanceerde technische instellingen** en selecteer **Domeinaliassenrecords bewerken**.
+5. Schuif naar de sectie **Advanced Technical Settings** en selecteer vervolgens **Edit Domain Aliases Records**.
     
-    ![Records domeinaliassen bewerken selecteren](../../media/9fbc31ed-d67c-4828-8bd4-b51068f1e0ca.png)
+    ![Selecteer Edit Domain Aliases Records.](../../media/9fbc31ed-d67c-4828-8bd4-b51068f1e0ca.png)
   
-6. Selecteer **Meer domeinaliassen toevoegen**.
+6. Selecteer **add more domain aliases**.
     
-    ![Selecteer Meer domeinen aliassen toevoegen](../../media/b787505f-5566-4879-8552-13f9e89cbf6b.png)
+    ![Selecteer meer domein aliassen toevoegen](../../media/b787505f-5566-4879-8552-13f9e89cbf6b.png)
   
 7. De vereiste CNAME-records toevoegen.
     
@@ -175,11 +175,11 @@ Volg onderstaande stappen of [bekijk de video (start op 4:23)](https://support.m
    
      ![De DNS-waarden uit de tabel kopiëren en plakken](../../media/0e2b36b2-8a0b-4019-addf-301763f9a626.png)
   
-8. Wanneer u alle CNAME-records hebt toegevoegd die u nodig hebt, selecteert u **Doorgaan**.
+8. Wanneer u alle benodigde CNAME-records hebt toegevoegd, selecteert u **continue**.
     
     ![Selecteer Doorgaan](../../media/1942612b-338a-48fa-a45d-2d5434516723.png)
   
-9. Selecteer op de volgende pagina **Opnieuw Doorgaan** om de wijzigingen te bevestigen en op te slaan. 
+9. Selecteer op de volgende pagina opnieuw **Doorgaan** om uw wijzigingen te bevestigen en op te slaan. 
     
     ![Selecteer Doorgaan](../../media/3342b570-0633-49c5-9175-5cc8e4a67b53.png)
   
@@ -195,13 +195,13 @@ Volg onderstaande stappen of [bekijk de video (start op 5:12)](https://support.m
     
 2. Selecteer **Domeinen**.
     
-3. Selecteer **Beheren**.
+3. Selecteer **beheren**.
     
-4. Zoek de rij met de naam van het domein dat u wilt wijzigen. en selecteer vervolgens in die rij **Beheren**.
+4. Zoek de rij met de naam van het domein dat u wilt wijzigen. vervolgens selecteert u in de rij **beheren**.
     
-5. Schuif naar de sectie **Geavanceerde technische instellingen** en selecteer **TXT-records bewerken (SPF)**.
+5. Schuif naar de sectie **Advanced Technical Settings** en selecteer vervolgens **Edit TXT records (SPF)**.
     
-    ![Selecteer TXT-records bewerken (SPF)](../../media/c917577a-8b3a-4210-ab6e-776e84f926d0.png)
+    ![Edit TXT records (SPF) selecteren](../../media/c917577a-8b3a-4210-ab6e-776e84f926d0.png)
   
 6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
@@ -215,7 +215,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:12)](https://support.m
     
     ![Selecteer Doorgaan](../../media/08250c98-1a86-48a8-ad94-f96cf338126b.png)
   
-8. Selecteer op de volgende pagina **Opnieuw Doorgaan** om de wijzigingen te bevestigen en op te slaan. 
+8. Selecteer op de volgende pagina opnieuw **Doorgaan** om uw wijzigingen te bevestigen en op te slaan. 
     
     ![Selecteer Doorgaan](../../media/56be3b0a-dc71-471c-9be3-6ab927296f67.png)
   
@@ -228,11 +228,11 @@ Volg onderstaande stappen of [bekijk de video (start op 5:55)](https://support.m
     
 2. Selecteer **Domeinen**.
     
-3. Selecteer **Beheren**.
+3. Selecteer **beheren**.
     
-4. Zoek de rij met de naam van het domein dat u wilt wijzigen. en selecteer vervolgens in die rij **Beheren**.
+4. Zoek de rij met de naam van het domein dat u wilt wijzigen. vervolgens selecteert u in de rij **beheren**.
     
-5. Schuif naar de sectie **Geavanceerde technische instellingen** en selecteer **SRV-records bewerken**.
+5. Schuif naar de sectie **Advanced Technical Settings** en selecteer vervolgens **Edit SRV records**.
     
     ![SRV-records bewerken selecteren](../../media/73c149ae-f0d6-460e-880a-7e04a995acc3.png)
   
@@ -240,7 +240,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:55)](https://support.m
     
     Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record.
     
-    (Kies de **prioriteitswaarde** in de vervolgkeuzelijst.) 
+    (Kies in de vervolgkeuzelijst de waarde **Priority** .) 
     
     |****Service****|****Proto****|****Name****|****Priority****|****Gewicht****|****Port****|****Target****|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -249,9 +249,9 @@ Volg onderstaande stappen of [bekijk de video (start op 5:55)](https://support.m
    
     ![De waarden uit de tabel kopiëren en plakken](../../media/71304c81-5845-4a8f-b969-d9efc8721184.png)
   
-7. Selecteer **Meer SRV-records toevoegen**.
+7. Selecteer **add more SRV records**.
     
-    ![Selecteer Meer SRV-records toevoegen](../../media/823c6bd2-4af7-4079-bf8c-8d35a5c6730f.png)
+    ![Selecteer Add more SRV records.](../../media/823c6bd2-4af7-4079-bf8c-8d35a5c6730f.png)
   
 8. Voeg als volgt de tweede SRV-record toe:
     
@@ -261,7 +261,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:55)](https://support.m
     
     ![Selecteer Doorgaan](../../media/008b255a-42d3-442d-83ea-3ffcb7c8fc5d.png)
   
-10. Selecteer op de volgende pagina **Opnieuw Doorgaan** om de wijzigingen te bevestigen en op te slaan. 
+10. Selecteer op de volgende pagina opnieuw **Doorgaan** om uw wijzigingen te bevestigen en op te slaan. 
     
     ![Selecteer Doorgaan](../../media/b4166e3d-7e4b-41ef-b616-747e95aefc37.png)
   

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,31 +20,31 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
-description: Leer toegang krijgen tot eNom en maak DNS via de pagina Google Domains.
-ms.openlocfilehash: 6c6698f3d11f42cd0298bdb66710ec3c62bac5ca
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u toegang kunt krijgen tot eNom en maak DNS via de pagina Google domains.
+ms.openlocfilehash: 37fa8836b7511d51ef2dcb137f36d62eebc36443
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400254"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645609"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>DNS-records maken wanneer uw domein wordt beheerd door Google (eNom)
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
-Als u uw e-mailaccounts wilt migreren naar Microsoft, moet u een DNS-record maken bij uw domeinregistrar.
+Als u uw e-mailaccounts wilt migreren naar Microsoft, moet u een DNS-record maken bij uw domeinregistratie.
   
-Als u uw domein via Google hebt gekocht terwijl u zich aanmeldt voor uw **Google Apps for Work-account,** worden uw DNS-records beheerd door Google, maar geregistreerd bij eNom. 
+Als u uw domein via Google hebt aangeschaft toen u zich aanmeldt voor uw **Google-Apps voor werk** , worden uw DNS-records beheerd door Google maar geregistreerd bij eNom. 
   
-U toegang krijgen tot eNom en DNS maken via de pagina Google **Domains.** Voer gewoon de stappen in dit artikel uit. 
+U kunt toegang krijgen tot eNom en DNS maken, via de pagina Google **Domains** . Voer gewoon de stappen in dit artikel uit. 
   
 ## <a name="create-the-dns-record"></a>De DNS-record maken
 
-1. Selecteer **Aanmelden**op de [console Google Admin](https://www.google.com/work/apps/business).
+1. Selecteer **Aanmelden**in de [Google admin-console](https://www.google.com/work/apps/business).
     
     ![Google-Apps-Configure-1-1-0](../../media/37a6e9f6-319e-4c02-aa18-d8d06df7953d.png)
   
-2. Voer uw domeinnaam in en selecteer **Ga .**
+2. Voer uw domeinnaam in en selecteer vervolgens **Go**.
     
     ![Knopafbeelding](../../media/2caf8dcb-4d40-4cfa-bc40-d634e454e699.png)
   
@@ -56,36 +56,36 @@ U toegang krijgen tot eNom en DNS maken via de pagina Google **Domains.** Voer g
     
     ![Google-Apps-Configure-1-2-1](../../media/c2972c06-9bca-43bd-9876-2cee63043bf1.png)
   
-5. Selecteer **op** de pagina Domeinen de optie **Domeinen toevoegen/verwijderen**.
+5. Selecteer **domeinen toevoegen/verwijderen**op de pagina **domeinen** .
     
     ![Google-Apps-Configure-1-2-2](../../media/07b8068f-9a05-40aa-a041-fc495c729a18.png)
   
-6. Selecteer **op** de pagina Domeinen de optie **Geavanceerde DNS-instellingen**.
+6. Selecteer op de pagina **domeinen** de optie **Geavanceerde DNS-instellingen**.
     
     > [!NOTE]
-    > Als u geen domeinnaam via Google hebt aangeschaft terwijl u zich registreerde voor uw account bij **Google Apps for Work**, hebt u geen **Geavanceerde DNS-instellingen** op uw pagina **Domeinen**. U moet dan rechtstreeks naar de website van uw domeinhost gaan voor toegang tot uw DNS-instellingen, en vervolgens deze en de volgende stappen uitvoeren. Zie [Toegang tot uw G Suite-domeininstellingen](https://support.google.com/a/answer/54693?hl=en) voor meer informatie. 
+    > Als u geen domeinnaam via Google hebt aangeschaft terwijl u zich registreerde voor uw account bij **Google Apps for Work**, hebt u geen **Geavanceerde DNS-instellingen** op uw pagina **Domeinen**. U moet dan rechtstreeks naar de website van uw domeinhost gaan voor toegang tot uw DNS-instellingen, en vervolgens deze en de volgende stappen uitvoeren. Zie [uw G suite-Domeininstellingen](https://support.google.com/a/answer/54693?hl=en) raadplegen voor meer informatie. 
   
-    ![Afbeelding van het te maken van Google-Apps-eNom-1-3](../../media/b244b29c-e479-40be-b380-4ffa0f74b421.png)
+    ![Google-Apps-eNom-configure-1-3](../../media/b244b29c-e479-40be-b380-4ffa0f74b421.png)
   
-7. Selecteer **Aanmelden bij DNS-console**op de pagina **Geavanceerde DNS-instellingen** . Noteer de **aanmeldingsnaam** en het **wachtwoord**. U hebt deze nodig in de volgende stap. 
+7. Selecteer op de pagina **Geavanceerde DNS-instellingen** de optie **Aanmelden bij de DNS-console**. Noteer de **aanmeldingsnaam** en het **wachtwoord**. U hebt deze nodig in de volgende stap. 
     
-    ![Afbeelding van het te maken van Google-Apps-eNom-Configureren-1-4](../../media/056a2767-462f-4847-acee-d01e3f773add.png)
+    ![Google-Apps-eNom-configure-1-4](../../media/056a2767-462f-4847-acee-d01e3f773add.png)
   
 8. Meld u op de pagina **Geavanceerde DNS-instellingen** aan bij **Domeinbeheer** van Google met de **aanmeldingsnaam** en het **wachtwoord**. 
     
-    ![Afbeelding van het te maken van Google-Apps-eNom-1-5](../../media/08b74652-8cdb-4560-a5fd-0899f86deee8.png)
+    ![Google-Apps-eNom-configure-1-5](../../media/08b74652-8cdb-4560-a5fd-0899f86deee8.png)
   
-9. Selecteer op de ***pagina domain_name*** in de sectie **Hostrecords** de optie **Bewerken**.
+9. Selecteer op de pagina domain_name _ de optie **bewerken** ** _domain_name_*in de sectie _* host records** .
     
-    ![Afbeelding van het te maken van Google-Apps-eNom-1-6](../../media/d54fec18-b9d1-4796-8397-0393c964eade.png)
+    ![Google-Apps-eNom-configure-1-6](../../media/d54fec18-b9d1-4796-8397-0393c964eade.png)
   
-10. Selecteer **Nieuw toevoegen**in de sectie **HostRecords** .
+10. Selecteer in de sectie **host records** de optie **Add New**.
     
-    ![Afbeelding van het te maken van Google-Apps-eNom-1-7](../../media/3562806a-4328-4e60-a717-0566841204cf.png)
+    ![Google-Apps-eNom-configure-1-7](../../media/3562806a-4328-4e60-a717-0566841204cf.png)
   
 11. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    |**HOST**|**TXT VALUE**|**RECORDTYPE**|
+    |**HOST**|**TXT VALUE**|**RECORD TYPE**|
     |:-----|:-----|:-----|
     |@  <br/> ||TXT  <br/> |
 
@@ -96,9 +96,9 @@ U toegang krijgen tot eNom en DNS maken via de pagina Google **Domains.** Voer g
   
 12. Kies **Opslaan**.
     
-    ![Afbeelding van het te maken van Google-Apps-eNom-1-9](../../media/7a6f7b45-8f79-487b-afe4-05949c2c04e8.png)
+    ![Google-Apps-eNom-configure-1-9](../../media/7a6f7b45-8f79-487b-afe4-05949c2c04e8.png)
   
-13. Selecteer **Wijzigingen opslaan**.
+13. Selecteer **Save Changes**.
     
     ![Google-Apps-Configure-1-11](../../media/7f321236-33fb-4a7d-9d03-26605e9e558c.png)
   

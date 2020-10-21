@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Bluehost voor Microsoft.
-ms.openlocfilehash: c0db0a00b48e6a460b8e21c95b8d8852914ab87b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c0ba1b876c939632bc6c43a6e0004fbbe23a7723
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307041"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646233"
 ---
 # <a name="create-dns-records-at-bluehost-for-microsoft"></a>DNS-records bij Bluehost maken voor Microsoft
 
@@ -53,7 +53,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het gebied ***Domain_Name*** , in de rij **DNS zone editor** , de optie **Manage DNS records**.
+3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record op de pagina **DNS Zone Editor**. 
     
@@ -93,7 +93,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het gebied ***Domain_Name*** , in de rij **DNS zone editor** , de optie **Manage DNS records**.
+3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record op de pagina **DNS Zone Editor**. 
     
@@ -130,7 +130,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het gebied ***Domain_Name*** , in de rij **DNS zone editor** , de optie **Manage DNS records**.
+3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Zoek in de sectie **A (host)** de rij voor de **Autodiscover** -record en selecteer **verwijderen** voor die rij. 
     
@@ -181,7 +181,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het gebied ***Domain_Name*** , in de rij **DNS zone editor** , de optie **Manage DNS records**.
+3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record op de pagina **DNS Zone Editor**. 
     
@@ -206,7 +206,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het gebied ***Domain_Name*** , in de rij **DNS zone editor** , de optie **Manage DNS records**.
+3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Maak als volgt de eerste van de twee SRV-records.
     

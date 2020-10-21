@@ -1,10 +1,10 @@
 ---
-title: DNS-records maken bij Freenom voor Microsoft
+title: DNS-records bij Freenom maken voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,22 +20,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Freenom voor Microsoft.
-ms.openlocfilehash: f139c21915d6922c2f77281990dd09949d9db928
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Freenom voor Microsoft.
+ms.openlocfilehash: 2fc2407193d41d6e0526aacad0b2b558f1b21bdb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400471"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646185"
 ---
-# <a name="create-dns-records-at-freenom-for-microsoft"></a>DNS-records maken bij Freenom voor Microsoft
+# <a name="create-dns-records-at-freenom-for-microsoft"></a>DNS-records bij Freenom maken voor Microsoft
 
 [Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md) als u niet kunt vinden wat u zoekt. 
   
 > [!CAUTION]
-> De Freenom-website biedt geen ondersteuning voor SRV-records, wat betekent dat verschillende functies van Skype voor Bedrijven Online en Outlook Web App niet werken. Het maakt niet uit welk Microsoft-abonnement u gebruikt, er zijn aanzienlijke servicebeperkingen en u overschakelen naar een andere DNS-hostingprovider. 
+> De Freenom-website biedt geen ondersteuning voor SRV-records, wat betekent dat meerdere functies van Skype voor bedrijven online en Outlook Web app niet werken. Ongeacht welke Microsoft-abonnement u gebruikt, er zijn belangrijke Servicebeperkingen en u kunt ook overschakelen naar een andere DNS-hosting provider. 
   
-Als u ondanks de servicebeperkingen ervoor kiest om uw eigen Microsoft DNS-records op Freenom te beheren, volgt u de stappen in dit artikel om uw domein te verifiëren en DNS-records in te stellen voor e-mail en andere services.
+Als u ondanks de Servicebeperkingen besluit uw eigen DNS-records voor Microsoft te beheren bij Freenom, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail en andere services in te stellen.
   
   
 > [!NOTE]
@@ -49,19 +49,19 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
 > [!NOTE]
 > Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
   
-1. Ga om te beginnen naar de pagina domeinen in Freenom via [deze link.](https://my.freenom.com/) U wordt gevraagd u aan te melden.
+1. Als u wilt beginnen, gaat u naar uw domeinen pagina in Freenom met behulp van [deze koppeling](https://my.freenom.com/). U wordt gevraagd u aan te melden.
     
     ![Freenom login](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Selecteer **Services**en selecteer **Mijn domeinen**.
+2. Selecteer **Services**en selecteer vervolgens **My Domains**.
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
-3. Selecteer **Domein beheren**voor het domein dat u wilt bewerken.
+3. Selecteer **Manage Domain**voor het domein dat u wilt bewerken.
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. Selecteer **Freenom DNS beheren**.
+4. Selecteer **Manage FREENOM DNS**.
     
     ![Freenom Manage Freenom DNS](../../media/9854a511-27e3-4658-8903-34b3d425096d.png)
   
@@ -71,13 +71,13 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
   
 6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. 
     
-    |**Name**|**Type**|**TTL**|**Doel**|
+    |**Naam**|**Type**|**TTL**|**Doel**|
     |:-----|:-----|:-----|:-----|
-    |(laat leeg)  <br/> |TXT  <br/> |3600 (seconden)  <br/> |MS=msXXXXXXXX  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(laat leeg)  <br/> |TXT  <br/> |3600 (seconden)  <br/> |MS = msXXXXXXXX  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Freenom TXT values for verification](../../media/650098df-b3aa-47e5-9763-7fde24e34c3f.png)
   
-7. Selecteer **Wijzigingen opslaan**.
+7. Selecteer **Save Changes**.
     
     ![Freenom TXT record Save Changes](../../media/b1a63f9a-4578-491a-9554-c40f73b37e09.png)
   
@@ -108,29 +108,29 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft wordt verzonden
 <a name="bkmk_mx"> </a>
 
-1. Ga om te beginnen naar de pagina domeinen in Freenom via [deze link.](https://my.freenom.com/) U wordt gevraagd u aan te melden.
+1. Als u wilt beginnen, gaat u naar uw domeinen pagina in Freenom met behulp van [deze koppeling](https://my.freenom.com/). U wordt gevraagd u aan te melden.
     
     ![Freenom login](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Selecteer **Services**en selecteer **Mijn domeinen**.
+2. Selecteer **Services**en selecteer vervolgens **My Domains**.
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
-3. Selecteer **Domein beheren**voor het domein dat u wilt bewerken.
+3. Selecteer **Manage Domain**voor het domein dat u wilt bewerken.
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. Stel de naam dient voor uw domein op de standaard Freenom-naamservers. Selecteer **Beheerhulpprogramma's**en selecteer **vervolgens Nameservers**.
+4. Stel de naam in voor uw domein in de standaard Freenom-naamservers. Selecteer **beheerprogramma's**en selecteer vervolgens **Naamservers**.
     
     ![Freenom Nameservers setting](../../media/a6ae877a-c248-42b9-bae9-210a80cd01e7.png)
   
-5. Controleer of **Standaardnaamservers gebruiken** is geselecteerd en selecteer **Naamservers wijzigen**.
+5. Controleer of **use default naamservers** is geselecteerd en selecteer vervolgens **Change naamservers**.
     
     ![Freenom Change Nameservers](../../media/0ef90d84-c0a0-4ef9-9e4c-43ef0aac3a2e.png)
   
-6. Selecteer **Freenom DNS beheren**.
+6. Selecteer **Manage FREENOM DNS**.
     
-    ![Freenom selecteert Freenom DNS beheren](../../media/f55a8053-2411-45da-a357-776c6699f721.png)
+    ![Freenom Selecteer Manage Freenom DNS](../../media/f55a8053-2411-45da-a357-776c6699f721.png)
   
 7. Ga onder **Add Record** naar de kolom **Type** en kies **MX** in de lijst. 
     
@@ -138,36 +138,36 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 8. Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de velden voor de nieuwe record. 
     
-    |**Name**|**Type**|**TTL**|**Doel**|**Priority**|
+    |**Naam**|**Type**|**TTL**|**Doel**|**Priority**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(laat leeg)  <br/> |MX (Mail Exchanger)  <br/> |3600 (seconden)  <br/> |\<domain-key\>.mail.protection.outlook.com  <br/> **Let op:** Haal uw *\<domain-key\>* van uw Microsoft-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [What is MX priority?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |
+    |(laat leeg)  <br/> |MX (Mail Exchanger)  <br/> |3600 (seconden)  <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |10  <br/> Zie [What is MX priority?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |
    
    ![Freenom MX record](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   
-9. Selecteer **Wijzigingen opslaan**.
+9. Selecteer **Save Changes**.
     
     ![Freenom MX record Save Changes](../../media/7aa0a464-d136-417f-be40-48d3f728eeb7.png)
   
-10. Als er andere MX-records zijn, verwijdert u ze allemaal. Selecteer Voor elke record **Delete**. Wanneer het bericht Wilt u dit item echt **OK** **verwijderen?**
+10. Als er andere MX-records zijn, verwijdert u deze allemaal. Selecteer **verwijderen**voor elke record. Als u wilt dat het bericht **u echt wilt verwijderen?** wordt weergegeven, selecteert u **OK**.
     
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>De CNAME-records toevoegen die zijn vereist voor Microsoft
 <a name="bkmk_cname"> </a>
 
-1. Ga om te beginnen naar de pagina domeinen in Freenom via [deze link.](https://my.freenom.com/) U wordt gevraagd u aan te melden.
+1. Als u wilt beginnen, gaat u naar uw domeinen pagina in Freenom met behulp van [deze koppeling](https://my.freenom.com/). U wordt gevraagd u aan te melden.
     
     ![Freenom login](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Selecteer **Services**en selecteer **Mijn domeinen**.
+2. Selecteer **Services**en selecteer vervolgens **My Domains**.
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
-3. Selecteer **Domein beheren**voor het domein dat u wilt bewerken.
+3. Selecteer **Manage Domain**voor het domein dat u wilt bewerken.
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. Selecteer **Freenom DNS beheren**.
+4. Selecteer **Manage FREENOM DNS**.
     
-    ![Freenom selecteert Freenom DNS beheren](../../media/5e7bc3a7-0d5e-431b-bb27-da3b0f316d01.png)
+    ![Freenom Selecteer Manage Freenom DNS](../../media/5e7bc3a7-0d5e-431b-bb27-da3b0f316d01.png)
   
 5. Ga onder **Add Record** naar de kolom **Type** en kies **CNAME** in de lijst. 
     
@@ -185,7 +185,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
    
     ![Freenom CNAME values](../../media/752fc682-e3f2-4b9c-9253-bf1ba2d414e9.png)
   
-7. Selecteer **Wijzigingen opslaan**.
+7. Selecteer **Save Changes**.
     
     ![Freenom CNAME Save Changes](../../media/68103fd2-0f5f-4aac-a875-25157c6bbdd2.png)
   
@@ -197,23 +197,23 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. 
 
-1. Ga om te beginnen naar de pagina domeinen in Freenom via [deze link.](https://my.freenom.com/) U wordt gevraagd u aan te melden.
+1. Als u wilt beginnen, gaat u naar uw domeinen pagina in Freenom met behulp van [deze koppeling](https://my.freenom.com/). U wordt gevraagd u aan te melden.
     
     ![Freenom login](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. Selecteer **Services**en selecteer **Mijn domeinen**.
+2. Selecteer **Services**en selecteer vervolgens **My Domains**.
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
-3. Selecteer **Domein beheren**voor het domein dat u wilt bewerken.
+3. Selecteer **Manage Domain**voor het domein dat u wilt bewerken.
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. Selecteer **Freenom DNS beheren**.
+4. Selecteer **Manage FREENOM DNS**.
     
-    ![Freenom selecteert Freenom DNS beheren](../../media/94809955-0315-409c-a15d-703a2fe4c4ed.png)
+    ![Freenom Selecteer Manage Freenom DNS](../../media/94809955-0315-409c-a15d-703a2fe4c4ed.png)
   
 5. Ga onder **Add Record** naar de kolom **Type** en kies **TXT** in de lijst. 
     
@@ -227,7 +227,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
    
     ![Freenom TXT values for SPF](../../media/1b3b1199-9104-4ca1-acdb-786d139c21ac.png)
   
-7. Selecteer **Wijzigingen opslaan**.
+7. Selecteer **Save Changes**.
     
     ![Freenom TXT record for SPF Save Changes](../../media/e2fc52b1-0dcb-4595-9a4c-fca5e2ef9f97.png)
   

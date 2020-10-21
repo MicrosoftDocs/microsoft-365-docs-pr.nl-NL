@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op DNSMadeEasy voor Microsoft.
-ms.openlocfilehash: 07cf79b86e02fa79d59882fa51402cccc922c2b6
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 266f5e8460395ae10b9c430cf66e1f443126ff64
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307101"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646209"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-microsoft"></a>DNS-records bij DNSMadeEasy maken voor Microsoft
 
@@ -214,8 +214,8 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Name**|**Prioriteit**|**Gewicht**|**Poort**|**Host**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1800  <br/> |
-    |_sipfederationtls. _tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1800  <br/> |
+    |_sip _sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1800  <br/> |
+    |_sipfederationtls _sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |1800  <br/> |
    
     ![DNSMadeEasy voor 5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
   

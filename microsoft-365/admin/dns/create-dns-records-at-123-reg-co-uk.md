@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op 123-reg.co.uk voor Microsoft.
-ms.openlocfilehash: 51542e1f00153a87ca06ec540d391de6ca621bab
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: c7a6db51bd1c2b2af06a1dde8c317850db0d9e35
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307029"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646354"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-microsoft"></a>DNS-records bij 123-reg.co.uk maken voor Microsoft
 
@@ -199,8 +199,8 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     ||||||
     |:-----|:-----|:-----|:-----|:-----|
     |Hostname|Type|Priority|TTL|Destination SRV|
-    |_sip. _tls|SRV|100|3600|1 443 sipdir.online.lync.com. **Deze waarde MOET eindigen op een punt (.)**<br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
-    |_sipfederationtls. _tcp|SRV|100|3600|1 5061 sipfed.online.lync.com. **Deze waarde MOET eindigen op een punt (.)** <br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
+    |_sip _sip._tls|SRV|100|3600|1 443 sipdir.online.lync.com. **Deze waarde MOET eindigen op een punt (.)**<br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
+    |_sipfederationtls _sipfederationtls._tcp|SRV|100|3600|1 5061 sipfed.online.lync.com. **Deze waarde MOET eindigen op een punt (.)** <br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
    
     ![De waarden uit de tabel kopiëren en plakken](../../media/c1786b86-52ef-4dca-8b99-b479554fa531.png)
   

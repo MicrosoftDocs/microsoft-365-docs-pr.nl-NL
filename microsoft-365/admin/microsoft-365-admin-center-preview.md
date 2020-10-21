@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,63 +17,63 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-description: Meer informatie over het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 720130f01000e1f8845d2fa28dbc2d278a258ebf
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+description: Meer informatie over het Microsoft 365-Beheercentrum.
+ms.openlocfilehash: 2e54ad576b944153332aaec2012538e84c444db1
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560421"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645069"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Over het Microsoft 365-beheercentrum
 
 ::: moniker range="o365-worldwide"
 
-Het Microsoft 365-beheercentrum is gebouwd voor IT-teams als een vereenvoudigde manier om uw Microsoft 365-services te beheren. Het beheercentrum biedt een ervaring op maat op basis van de unieke behoeften van uw rol of organisatie, verbetert de efficiëntie voor dagelijkse taken en biedt bruikbare inzichten die u helpen om datagestuurde beslissingen te nemen om een betere ervaring voor uw gebruikers te bieden.
+Het Microsoft 365-Beheercentrum is een eenvoudige manier ontwikkeld voor IT-teams om uw Microsoft 365-services te beheren. Het Beheercentrum biedt een op maat gemaakte ervaring op basis van de unieke behoeften van uw rol of organisatie, verhoogt de efficiëntie voor alledaagse taken en biedt beschikbare inzichten waarmee u een betere ervaring voor uw gebruikers kunt bieden.
 
-Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle Microsoft 365-beheerders en is toegankelijk op [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) . Gespecialiseerde werkruimten, zoals Beveiliging of Apparaatbeheer, zorgen voor meer gedetailleerde controle. Zie Hoe zit het met [de specifieke typen IT-rollen en andere werkruimten zoals Beveiliging, Apparaatbeheer of Exchange?](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange)
+Het Microsoft 365-Beheercentrum is het algemene toegangspunt voor alle Microsoft 365-beheerders en kan worden geopend [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) . Gespecialiseerde werkruimten, zoals beveiliging of Apparaatbeheer, bieden ondersteuning voor meer gedetailleerde controle. Zie voor meer informatie over de manier waarop de beheer centra samenwerken, [wat u kunt doen met de specifieke typen rollen en andere werkruimten, zoals beveiliging, Apparaatbeheer of Exchange?](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) verderop in dit artikel.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Het Microsoft 365-beheercentrum is gebouwd voor IT-teams als een vereenvoudigde manier om uw Microsoft 365-services te beheren. Het beheercentrum biedt een ervaring op maat op basis van de unieke behoeften van uw rol of organisatie, verbetert de efficiëntie voor dagelijkse taken en biedt bruikbare inzichten die u helpen om datagestuurde beslissingen te nemen om een betere ervaring voor uw gebruikers te bieden.
+Het Microsoft 365-Beheercentrum is een eenvoudige manier ontwikkeld voor IT-teams om uw Microsoft 365-services te beheren. Het Beheercentrum biedt een op maat gemaakte ervaring op basis van de unieke behoeften van uw rol of organisatie, verhoogt de efficiëntie voor alledaagse taken en biedt beschikbare inzichten waarmee u een betere ervaring voor uw gebruikers kunt bieden.
 
-Het Microsoft 365-beheercentrum is het gemeenschappelijke toegangspunt voor alle Microsoft 365-beheerders en kan worden geopend door in te loggen bij [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627) . Bovendien zorgen gespecialiseerde werkruimten, zoals Azure Active Directory en Exchange, voor meer gedetailleerde controle. U hebt toegang tot de gespecialiseerde werkruimten vanuit het navigatiedeelvenster in het Microsoft 365-beheercentrum.
+Het Microsoft 365-Beheercentrum is het algemene toegangspunt voor alle Microsoft 365-beheerders en kan worden geopend door u aan te melden [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627) . Daarnaast kunt u met gespecialiseerde werkruimten, zoals Azure Active Directory en Exchange, een gedetailleerder besturingselement bieden. U kunt de speciale werkruimten openen via het navigatiedeelvenster in het Microsoft 365-Beheercentrum.
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-Zodra er nieuwe functies beschikbaar komen in het Microsoft 365-beheercentrum, u zich aanmelden bij het beheercentrum en uw feedback delen met Microsoft, zodat we de beheerervaring kunnen blijven verbeteren. Als u zich aanmeldt, heeft dit geen invloed op uw gebruikers en u op elk gewenst moment terugschakelen naar het oude beheercentrum.
-[Wat is er nieuw in het Microsoft 365-beheercentrum.](whats-new-in-preview.md)
+Aangezien nieuwe functies beschikbaar zijn in Microsoft 365-Beheercentrum, kunt u zich bij het Beheercentrum aanmelden en uw feedback delen met Microsoft, zodat we de beheerders ervaring kunnen verbeteren. Als u zich aanmeldt, krijgt u geen gevolgen voor uw gebruikers en kunt u op elk gewenst moment teruggaan naar het oude Beheercentrum.
+[Nieuw in het Microsoft 365-Beheercentrum](whats-new-in-preview.md).
   
 > [!NOTE]
-> Gerichte releasebeheerders hebben eerst toegang tot nieuwe functies. Nieuwe functies worden vervolgens uitgerold naar alle beheerders. Dit betekent dat u het beheercentrum mogelijk niet ziet of dat het er anders uitziet dan wat in helpartikelen wordt beschreven. Zie Deelnemen aan het beheercentrum hieronder om als een van de eersten nieuwe functies te zien. 
+> Targeted release-beheerders krijgen eerst toegang tot nieuwe functies. Nieuwe functies worden vervolgens naar alle beheerders uitgerold. Dit betekent dat u het Beheercentrum mogelijk niet ziet, of dat kan er anders uitzien dan wat wordt beschreven in de Help-artikelen. Zie voor meer informatie over het eerst deelnemen aan het Beheercentrum. 
 
-### <a name="turn-on-targeted-release"></a>Gerichte release inschakelen
+### <a name="turn-on-targeted-release"></a>Targeted release inschakelen
 
-1. Meld u aan bij [admin.microsoft.com](https://admin.microsoft.com), ga naar het navigatiedeelvenster en selecteer Het profiel **van de** organisatie instellingen \> **Organization profile**.
+1. Meld u aan bij [admin.Microsoft.com](https://admin.microsoft.com), ga naar het navigatiedeelvenster en selecteer **instellingen** \> **organisatieprofiel**.
 
-2. Ga naar de kaart **Voorkeuren vrijgeven** en selecteer **Bewerken**. 
+2. Ga naar de kaart **voor de release-voorkeuren** en klik vervolgens op **bewerken**. 
     
-3. Selecteer **gerichte release voor iedereen** of **Gerichte release voor geselecteerde gebruikers.** Als u Gerichte release voor geselecteerde gebruikers kiest, controleert u of u uw beheerdersaccount (en andere beheerders in uw organisatie die willen deelnemen) toevoegt aan de lijst met geselecteerde gebruikers.
+3. Selecteer **targeted release voor iedereen** of **targeted release voor geselecteerde gebruikers**. Als u aangewezen versie voor geselecteerde gebruikers kiest, moet u ervoor zorgen dat u uw beheerdersaccount (en andere beheerders in uw organisatie die willen deelnemen) toevoegt aan de lijst met geselecteerde gebruikers.
     
-### <a name="admin-center-feedback"></a>Feedback van het beheercentrum
+### <a name="admin-center-feedback"></a>Feedback voor het Beheercentrum
 
-Terwijl u in het beheercentrum bent, u Microsoft feedback geven over uw ervaring door feedback **geven** naast de knop **Hulp nodig** te selecteren onderaan elke pagina. Vertel ons wat je leuk vindt en wat we beter kunnen doen. Daarnaast u pop-up enquêtes van tijd tot tijd vragen over uw algemene vertoningen of een bepaalde ervaring die onlangs is vrijgegeven. U ook feedback geven aan het einde van dit artikel door te selecteren **Was deze informatie nuttig?**
+In het Beheercentrum kunt u Microsoft feedback geven over uw ervaring door **feedback geven** te selecteren, rechts naast de knop **hulp nodig?** onder aan elke pagina. Vertel ons wat u leuk vindt en wat we kunnen verbeteren. Daarnaast kunt u ook pop-up-enquêtes krijgen van tijd tot tijd om uw algemene indruk te vragen of een bepaalde ervaring die onlangs werd uitgebracht. U kunt ook feedback geven aan het einde van dit artikel door **waren deze informatie nuttig** te selecteren.
   
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-### <a name="switch-to-the-new-admin-center-and-back-again"></a>Overschakelen naar het nieuwe beheercentrum en weer terug
+### <a name="switch-to-the-new-admin-center-and-back-again"></a>Overschakelen naar het nieuwe Beheercentrum en weer opnieuw
 
-Terwijl het nieuwe beheercentrum in preview is, u heen en weer schakelen tussen het nieuwe beheercentrum en het oude beheercentrum met behulp van de schakelaar boven aan de startpagina van het beheercentrum. Het nieuwe beheercentrum is volledig functioneel en heeft alle mogelijkheden van het oude beheercentrum.
+Wanneer het nieuwe Beheercentrum in voorbeeld is geopend, kunt u schakelen tussen het nieuwe Beheercentrum en het oude Beheercentrum met behulp van de wisselknop boven aan de startpagina van het Beheercentrum. Het nieuwe Beheercentrum is volledig functioneel en bevat alle mogelijkheden van het oude Beheercentrum.
 
-Als u het nieuwe beheercentrum wilt proberen, schakelt u de schakelaar in om de preview uit te <b>proberen.</b> Op de wisselknop wordt dan <b>Voorbeeld weergegeven op</b>. De volgende keer dat u zich aanmeldt bij het beheercentrum, onthouden we uw selectie en loggen we u aan bij het nieuwe beheercentrum.
+Als u het nieuwe Beheercentrum wilt proberen, zet u de wisselknop om <b>het voorbeeld te proberen</b>. Met de wisselknop wordt vervolgens <b>voorbeeld</b>weergegeven. De volgende keer dat u zich aanmeldt bij het Beheercentrum, onthouden we uw selectie en meldt u zich aan bij het nieuwe Beheercentrum.
 
-Als u het oude beheercentrum wilt gebruiken, schakelt u de schakelaar in van <b>Voorbeeld naar</b> de uitpositie. De volgende keer dat u zich aanmeldt bij het beheercentrum, melden we u aan bij het oude beheercentrum.
+Als u terug wilt gaan naar het oude Beheercentrum, zet u de wisselknop van <b>voorbeeld</b> aan op de positie uit. De volgende keer dat u zich aanmeldt bij het Beheercentrum, meldt u zich aan bij het oude Beheercentrum.
 
 ::: moniker-end
 
@@ -81,40 +81,40 @@ Als u het oude beheercentrum wilt gebruiken, schakelt u de schakelaar in van <b>
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
-Zie je je vragen hier niet beantwoord? Ga naar de **sectie Feedback** onderaan deze pagina en stel uw vraag. 
+Ziet u de beantwoorde vragen hier niet? Ga naar het gedeelte **feedback** onder aan deze pagina en stel uw vraag. 
   
-## <a name="can-i-do-everything-in-the-new-admin-center-that-i-can-do-in-the-old-admin-center"></a>Kan ik alles doen in het nieuwe beheercentrum dat ik kan doen in het oude beheercentrum?
+## <a name="can-i-do-everything-in-the-new-admin-center-that-i-can-do-in-the-old-admin-center"></a>Kan ik alles in het nieuwe Beheercentrum doen dat ik in het oude Beheercentrum kan doen?
 
-Ja. Het nieuwe beheercentrum is volledig functioneel en heeft alle mogelijkheden van het oude beheercentrum.
+Ja. Het nieuwe Beheercentrum is volledig functioneel en bevat alle mogelijkheden van het oude Beheercentrum.
   
-## <a name="which-microsoft-365-plans-are-available-to-trial-or-buy"></a>Welke Microsoft 365-abonnementen zijn beschikbaar voor proefversie of aankoop?
+## <a name="which-microsoft-365-plans-are-available-to-trial-or-buy"></a>Welke Microsoft 365-abonnementen zijn beschikbaar voor proeflezen of kopen?
 
-Microsoft 365 is een complete, intelligente oplossing die Office 365, Windows 10 en Enterprise Mobility + Security bevat, waarmee iedereen creatief kan zijn en veilig kan samenwerken. De volgende Microsoft 365-abonnementen zijn beschikbaar in het beheercentrum om nu te proberen of te kopen:
+Microsoft 365 is een complete, intelligente oplossing die Office 365, Windows 10 en Enterprise Mobility + beveiliging biedt zodat iedereen advertenties kan maken en veilig kan samenwerken. De volgende Microsoft 365-abonnementen zijn beschikbaar in het Beheercentrum, zodat u dit nu kunt uitproberen of kopen:
   
 - Microsoft 365 voor bedrijven
 - Microsoft 365 Enterprise E3
 - Microsoft 365 Enterprise E5
     
-Zie [Een Microsoft 365-abonnement proberen of kopen](../commerce/try-or-buy-microsoft-365.md)voor meer informatie.
+Zie [een abonnement op Microsoft 365 uitproberen of kopen](../commerce/try-or-buy-microsoft-365.md)voor meer informatie.
 
-## <a name="i-found-a-bug-or-i-want-to-request-a-feature-enhancement-how-do-i-let-microsoft-know"></a>Ik vond een bug of ik wil een functie verbetering verzoek. Hoe laat ik microsoft dit weten?
+## <a name="i-found-a-bug-or-i-want-to-request-a-feature-enhancement-how-do-i-let-microsoft-know"></a>Ik heb een fout gevonden of ik wil een functie verbetering aanvragen. Hoe kan ik Microsoft laten weten?
 
-We horen graag van je! Het melden van bugs en het delen van feedback helpt ons om het Microsoft 365-beheercentrum beter te maken. Als u feedback wilt geven, selecteert u de **knop Feedback** onder aan de pagina en gebruikt u het formulier om ons uw gedachten te sturen. Schakel het selectievakje in en bevestig uw e-mailadres als u wilt dat iemand van het Microsoft 365-beheercentrumteam uw opmerkingen opvolgt. We kunnen niet beloven om follow-up op elk stukje feedback, maar we gaan proberen! 
+We horen graag van u! Fouten rapporteren en feedback delen helpt ons het Microsoft 365-Beheercentrum te verbeteren. Als u feedback wilt geven, selecteert u de **feedback** knop onder aan de pagina en gebruikt u het formulier om ons uw gedachten te sturen. Schakel het selectievakje in en bevestig uw e-mailadres als u wilt dat iemand het team van het Microsoft 365-Beheercentrum op uw opmerkingen afvolgt. We kunnen niet nagaan of ze op elk deel van de feedback opvolgen, maar we proberen u! 
   
-U ook feedback geven van buiten het beheercentrum op ons UserVoice-forum. U deze pagina gebruiken om functiesuggesties te doen waarop andere forumgebruikers kunnen stemmen: [UserVoice-forum voor het nieuwe beheercentrum.](https://go.microsoft.com/fwlink/?linkid=2024994)
+U kunt ook feedback geven van buiten het Beheercentrum op ons UserVoice-forum. Met deze pagina kunt u functie suggesties maken die kunnen worden beoordeeld door andere forum gebruikers: UserVoice- [forum voor het nieuwe Beheercentrum](https://go.microsoft.com/fwlink/?linkid=2024994).
 
-## <a name="what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange"></a>Hoe zit het met de specifieke typen IT-rollen en andere werkruimten zoals Beveiliging, Apparaatbeheer of Exchange?
+## <a name="what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange"></a>Hoe zit het met de specifieke typen rollen en andere werkruimten, zoals beveiliging, Apparaatbeheer of Exchange?
 
-Het Microsoft 365-beheercentrum is het algemene toegangspunt voor alle teams en rollen die Microsoft 365 beheren. De ervaring, informatie en besturingselementen zijn op maat gemaakt en aanpasbaar voor elke beheerder en rol. Bovendien zorgen gespecialiseerde werkruimten voor diepe, gedetailleerde controle. Deze gespecialiseerde werkruimten omvatten SharePoint, Teams &amp; Skype, Exchange, Beveiliging, Naleving, Apparaatbeheer en Azure Active Directory. U vindt de gespecialiseerde werkruimten in het navigatiedeelvenster in het Microsoft 365-beheercentrum op [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) .
+Het Microsoft 365-Beheercentrum is het algemene toegangspunt voor alle teams en rollen die Microsoft 365 beheren. De ervaring, informatie en besturingselementen zijn aanpasbaar en aanpasbaar voor elke beheerder en rol. Daarnaast kunt u met gespecialiseerde werkruimten uitgebreide, granulaire controle. Deze gespecialiseerde werkruimten bestaan uit SharePoint, teams &amp; Skype, Exchange, beveiliging, compliance, Apparaatbeheer en Azure Active Directory. U vindt de speciale werkruimten in het navigatiedeelvenster in het Microsoft 365-Beheercentrum [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) .
   
-Het bijwerken van alle beheercentra om een coherente ervaring te hebben zal een tijdje duren, maar u meer te weten komen over de beheercentra die we al zijn begonnen met make-over:
+Als u alle beheer centra bijwerkt voor een coherente ervaring, duurt dit een tijdje, maar u kunt meer te weten komen over de beheer centra die we al gaan opknap beurt:
   
-- [Aan de slag met het nieuwe SharePoint-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2024186)
+- [Aan de slag met het nieuwe SharePoint-Beheercentrum](https://go.microsoft.com/fwlink/?linkid=2024186)
     
-- [Teams beheren tijdens de overgang naar het nieuwe Microsoft Teams &amp; Skype voor Bedrijven-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2024308)
+- [Teams beheren tijdens de overgang naar het nieuwe Microsoft teams- &amp; Beheercentrum voor Skype voor bedrijven](https://go.microsoft.com/fwlink/?linkid=2024308)
     
 - [Overzicht van Microsoft 365 Device Management](https://go.microsoft.com/fwlink/?linkid=2006262)
     
-- [Introductie van het Microsoft 365 Security and Compliance Center](https://go.microsoft.com/fwlink/?linkid=2025413)
+- [Kennismaking met de Microsoft 365-beveiliging en compliance Center](https://go.microsoft.com/fwlink/?linkid=2025413)
 
 ::: moniker-end

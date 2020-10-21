@@ -1,10 +1,10 @@
 ---
-title: DNS-records maken op Dyn.com voor Microsoft
+title: DNS-records bij Dyn.com maken voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 34e57a00-2a7d-469c-beec-089423f18369
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services op Dyn.com voor Microsoft.
-ms.openlocfilehash: 91ac642a43ba48845ec79d7d13d4bce6afbb716d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Dyn.com voor Microsoft.
+ms.openlocfilehash: 91dbd3fbde8417764a01eb285b267f3981b2f139
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400495"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646137"
 ---
-# <a name="create-dns-records-at-dyncom-for-microsoft"></a>DNS-records maken op Dyn.com voor Microsoft
+# <a name="create-dns-records-at-dyncom-for-microsoft"></a>DNS-records bij Dyn.com maken voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
@@ -46,23 +46,23 @@ Als Dyn.com uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om 
     
     ![Schermopname van het pictogram Meer mensen uitnodigen](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. Selecteer **op** de pagina Zone Level Services de optie **Dyn Standard DNS-service** voor het domein dat u wilt bewerken. 
+2. Selecteer op de pagina **Zone Level Services** de optie **dyn Standard DNS service** voor het domein dat u wilt bewerken. 
     
-3. Selecteer **Voorkeuren**op de **PAGINA DNS** voor uw domein .
+3. Selecteer op de pagina **DNS** voor uw domein voor **keuren**.
     
-4. Selecteer **Expertinterface inschakelen**.
+4. Selecteer **Enable expert interface**.
     
 5. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record. 
     
-    (Kies in de vervolgkeuzelijst de waarde **Type**.) 
+    (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
     |**Host**|**TTL**|**Type**|**Data**|
     |:-----|:-----|:-----|:-----|
     |(Laat dit veld leeg.)  <br/> |600  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
        
-   ![Afbeelding van het te hebben van afbeelding van het gebruik-1-1](../../media/b3730b15-a313-4b4c-b91e-646eebb649e8.png)
+   ![Dyn voor 1-1](../../media/b3730b15-a313-4b4c-b91e-646eebb649e8.png)
   
-6. Selecteer **Record maken**.
+6. Selecteer **Create record**.
     
     ![Dyn-BP-Verify-1-2](../../media/8b63b4ee-dbd7-44a7-b1e6-c6892b02f13e.png)
   
@@ -97,23 +97,23 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Schermopname van het pictogram Meer mensen uitnodigen](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. Selecteer **op** de pagina Zone Level Services de optie **Dyn Standard DNS-service** voor het domein dat u wilt bewerken. 
+2. Selecteer op de pagina **Zone Level Services** de optie **dyn Standard DNS service** voor het domein dat u wilt bewerken. 
     
-3. Selecteer **Voorkeuren**op de PAGINA DNS voor uw domein .
+3. Selecteer op de pagina DNS voor uw domein voor **keuren**.
     
-4. Selecteer **Expertinterface inschakelen**.
+4. Selecteer **Enable expert interface**.
     
 5. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record. 
     
-    (Kies in de vervolgkeuzelijst de waarde **Type**.) 
+    (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
     |**Host**|**TTL**|**Type**|**Data**|
     |:-----|:-----|:-----|:-----|
-    |(Laat dit veld leeg.)  <br/> |600  <br/> |MX  <br/> |*\<domain-key\>* 10.mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> De **10** is de MX-prioriteitwaarde. Voeg deze toe aan het begin van de MX-waarde, van de rest van de waarde gescheiden door een spatie.  <br/> **Let op:** Haal uw *\<domain-key\>* van uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)      <br>    Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> |
+    |(Laat dit veld leeg.)  <br/> |600  <br/> |MX  <br/> |10  *\<domain-key\>*  . mail.Protection.Outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> De **10** is de MX-prioriteitwaarde. Voeg deze toe aan het begin van de MX-waarde, van de rest van de waarde gescheiden door een spatie.  <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)      <br>    Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit. <br/> |
    
-    ![Afbeelding van het te maken](../../media/62ac77b7-c84d-426d-9ec4-a28d6479ad04.png)
+    ![Dyn voor 2-1](../../media/62ac77b7-c84d-426d-9ec4-a28d6479ad04.png)
   
-6. Selecteer **Record maken**.
+6. Selecteer **Create record**.
     
     ![Dyn-BP-Configure-2-2](../../media/e84e2cca-75e3-4584-8a98-f2f89cb71bd3.png)
   
@@ -121,22 +121,22 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![bloemen en tekst](../../media/f24f02cc-c0b7-42cf-a2ff-4d0fc203e4de.png)
   
-8. Selecteer **Wijzigingen toepassen**.
+8. Selecteer **wijzigingen toepassen**.
     
     ![Dyn-BP-Configure-2-4](../../media/0cc23c2b-b6f2-4f58-af20-4c6506de7b43.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Voeg de zes CNAME-records toe die nodig zijn voor Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>De zes CNAME-records toevoegen die vereist zijn voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Dyn.com via [deze koppeling](https://account.dyn.com/dns/). U wordt gevraagd u eerst aan te melden.
     
     ![Schermopname van het pictogram Meer mensen uitnodigen](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. Selecteer **op** de pagina Zone Level Services de optie **Dyn Standard DNS-service** voor het domein dat u wilt bewerken. 
+2. Selecteer op de pagina **Zone Level Services** de optie **dyn Standard DNS service** voor het domein dat u wilt bewerken. 
     
-3. Selecteer **Voorkeuren**op de **PAGINA DNS** voor uw domein .
+3. Selecteer op de pagina **DNS** voor uw domein voor **keuren**.
     
-4. Selecteer **Expertinterface inschakelen**.
+4. Selecteer **Enable expert interface**.
     
 5. Voeg de eerste van de zes CNAME-records toe.
     
@@ -152,15 +152,15 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |enterpriseregistration  <br/> |600  <br/> |CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |
     |enterpriseenrollment  <br/> |600  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |
    
-    ![Afbeelding van het te maken](../../media/1fd80695-d3d7-4298-9ebe-97a69f46f1b2.png)
+    ![Dyn voor 3-1](../../media/1fd80695-d3d7-4298-9ebe-97a69f46f1b2.png)
   
-6. Selecteer **Record maken**.
+6. Selecteer **Create record**.
     
     ![Dyn-BP-Configure-3-2](../../media/89551495-3fa5-44ab-96b2-855f70be0880.png)
   
 7. Voeg de resterende vijf CNAME-records toe.
     
-    Maak in de sectie **DNS-record toevoegen** een record met de waarden uit de volgende rij in de tabel en selecteer vervolgens opnieuw **Record maken** om die record te voltooien. 
+    Maak in de sectie **Add DNS record** een record met behulp van de waarden uit de volgende rij van de tabel en selecteer vervolgens opnieuw **Create record** om die record te voltooien. 
     
     Herhaal deze procedure totdat u alle zes CNAME-records hebt gemaakt.
     
@@ -168,44 +168,44 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat.
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat.
   
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Dyn.com via [deze koppeling](https://account.dyn.com/dns/). U wordt gevraagd u eerst aan te melden.
     
     ![Schermopname van het pictogram Meer mensen uitnodigen](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. Selecteer **op** de pagina Zone Level Services de optie **Dyn Standard DNS-service** voor het domein dat u wilt bewerken. 
+2. Selecteer op de pagina **Zone Level Services** de optie **dyn Standard DNS service** voor het domein dat u wilt bewerken. 
     
-3. Selecteer **Voorkeuren**op de **PAGINA DNS** voor uw domein .
+3. Selecteer op de pagina **DNS** voor uw domein voor **keuren**.
     
-4. Selecteer **Expertinterface inschakelen**.
+4. Selecteer **Enable expert interface**.
     
 5. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record. 
     
-    (Kies in de vervolgkeuzelijst de waarde **Type**.) 
+    (Kies in de vervolgkeuzelijst de waarde **Type**). 
     
     |**Host**|**TTL**|**Type**|**Data**|
     |:-----|:-----|:-----|:-----|
     |(Laat dit veld leeg.)  <br/> |600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
    
-    ![Afbeelding van het te maken](../../media/f8511349-3ea2-40c3-9853-98e1a58a91b5.png)
+    ![Dyn voor 4-1](../../media/f8511349-3ea2-40c3-9853-98e1a58a91b5.png)
   
-6. Selecteer **Record maken**.
+6. Selecteer **Create record**.
     
     ![Veld met meerdere waarden](../../media/bbe04835-d3c0-4146-8123-9781bb9eca51.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>De twee SRV-records toevoegen die zijn vereist voor Microsoft
 <a name="BKMK_add_SRV"> </a>
 
-1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Dyn.com via [deze koppeling](https://account.dyn.com/dns/). Je wordt gevraagd om eerst in te loggen 
+1. Als u wilt beginnen, gaat u naar uw domeinenpagina bij Dyn.com via [deze koppeling](https://account.dyn.com/dns/). U wordt gevraagd om u eerst aan te melden 
     
     ![Schermopname van het pictogram Meer mensen uitnodigen](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. Selecteer **op** de pagina Zone Level Services de optie **Dyn Standard DNS-service** voor het domein dat u wilt bewerken. 
+2. Selecteer op de pagina **Zone Level Services** de optie **dyn Standard DNS service** voor het domein dat u wilt bewerken. 
     
-3. Selecteer **Voorkeuren**op de **PAGINA DNS** voor uw domein .
+3. Selecteer op de pagina **DNS** voor uw domein voor **keuren**.
     
-4. Selecteer **Expertinterface inschakelen**.
+4. Selecteer **Enable expert interface**.
     
 5. Voeg de eerste van de twee SRV-records toe.
     
@@ -215,18 +215,18 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Host**|**TTL**|**Type**|**Data**|
     |:-----|:-----|:-----|:-----|
-    |_sip._tls|600|SRV|100 1 443 sipdir.online.lync.com. **Deze waarde MOET eindigen op een punt (.)**<br>**Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
-    |_sipfederationtls._tcp|600|SRV|100 1 5061 sipfed.online.lync.com. **Deze waarde MOET eindigen op een punt (.)**<br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
+    |_sip _sip._tls|600|SRV|100 1 443 sipdir.online.lync.com. **Deze waarde MOET eindigen op een punt (.)**<br>**Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
+    |_sipfederationtls _sipfederationtls._tcp|600|SRV|100 1 5061 sipfed.online.lync.com. **Deze waarde MOET eindigen op een punt (.)**<br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
    
-    ![Afbeelding van het te maken](../../media/a6873411-f4ce-4327-9145-02d435930976.png)
+    ![Dyn voor 5-1](../../media/a6873411-f4ce-4327-9145-02d435930976.png)
   
-6. Selecteer **Record maken**.
+6. Selecteer **Create record**.
     
     ![Dyn-BP-Configure-5-2](../../media/e6f33452-e527-473b-a645-b31ed70b0d43.png)
   
 7. Voeg de andere SRV-record toe.
     
-    Maak in de sectie **DNS-record toevoegen** een record met de waarden uit de tweede rij in de tabel en selecteer vervolgens opnieuw **Record maken** om die record te voltooien. 
+    Maak in de sectie **Add DNS record** een record met behulp van de waarden uit de tweede rij in de tabel en selecteer vervolgens opnieuw **Create record** om die record te voltooien. 
     
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 

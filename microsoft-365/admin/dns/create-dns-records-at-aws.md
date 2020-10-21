@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services bij Amazon Web Services (AWS) voor Microsoft.
-ms.openlocfilehash: dbbf82c9c776108c4d5e34e2eb639f9c36e9f28b
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 6fa791db7b1782b14092769c5d9ef911474d63eb
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307065"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646358"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>DNS-records bij Amazon Web Services (AWS) voor Microsoft maken
 
@@ -69,7 +69,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     |**Name** <br/> |**Type** <br/> |**Alias** <br/> |**TTL (Seconds)** <br/> |**Value** <br/> |**Routing Policy** <br/> |
     |(Laat dit veld leeg.)  <br/> |TXT - Text  <br/> |No  <br/> |300  <br/> |MS=ms *XXXXXXXX*  <br/>**Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Simple  <br/> |
    
-6. Selecteer **maken**.
+6. Selecteer **Maken**. 
     
 7. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
@@ -110,7 +110,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
        
     ![AWS voor 2-1](../../media/94a71ce7-1b3b-4b1a-9ad3-9592db133075.png)
   
-6. Selecteer **maken**.
+6. Selecteer **Maken**. 
     
     ![AWS-BP-Configure-2-2](../../media/1c050c72-c04f-48d5-a8e9-44cd83ddd33e.png)
   
@@ -158,7 +158,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
    
     ![AWS voor 3-1](../../media/895c71bd-0e3a-425e-9681-98c1c67e714b.png)
   
-6. Selecteer **maken**.
+6. Selecteer **Maken**. 
     
     ![AWS-BP-Configure-3-2](../../media/33964846-5282-44a4-b241-62ce02b96735.png)
   
@@ -215,12 +215,12 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     |**Name**|**Type**|**Alias**|**TTL (Seconds)**|**Value**|**Routing Policy**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls|SRV - Service locator|Nee|300|100 1 443 sipdir.online.lync.com. **Deze waarde moet eindigen op een punt (.)**><br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |Simple|
-    |_sipfederationtls. _tcp|SRV - Service locator|Nee|300|100 1 5061 sipfed.online.lync.com. **Deze waarde MOET eindigen op een punt (.)**<br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |Simple|
+    |_sip _sip._tls|SRV - Service locator|Nee|300|100 1 443 sipdir.online.lync.com. **Deze waarde moet eindigen op een punt (.)**><br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |Simple|
+    |_sipfederationtls _sipfederationtls._tcp|SRV - Service locator|Nee|300|100 1 5061 sipfed.online.lync.com. **Deze waarde MOET eindigen op een punt (.)**<br> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |Simple|
    
     ![AWS voor 5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   
-6. Selecteer **maken**.
+6. Selecteer **Maken**. 
     
     ![AWS-BP-Configure-5-2](../../media/1bf5dc58-a46b-47a5-bd69-7c2147dd4e50.png)
   

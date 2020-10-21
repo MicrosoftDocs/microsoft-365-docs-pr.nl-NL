@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
-description: Meer informatie over het oplossen van licentieconflicten met uw Microsoft 365 voor bedrijven-abonnement.
-ms.openlocfilehash: 2270fd3ad831ec0ad92ac4eddec5f08a1d07f8be
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+description: Meer informatie over het oplossen van licentie conflicten met uw Microsoft 365 voor bedrijven-abonnement.
+ms.openlocfilehash: a7f0b5cbca98a0550954e322c6fbe51d93627ee4
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015969"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645081"
 ---
 # <a name="resolve-license-conflicts"></a>Licentieconflicten oplossen
 
@@ -37,36 +37,36 @@ ms.locfileid: "45015969"
 
 ::: moniker-end
 
-We raden u aan de licenties te kopen die u nodig hebt voor uw abonnement voordat u nieuwe gebruikers maakt. Op die manier kan een licentie worden toegewezen aan nieuwe gebruikers zodra hun gebruikersaccount is gemaakt. Er ontstaan licentieconflicten als alle beschikbare licenties al zijn toegewezen aan gebruikers, maar enkele licenties zijn verlopen, of als u een licentie probeert te verwijderen die al aan een gebruiker is toegewezen. Zie [Licenties uit uw abonnement verwijderen](../../commerce/licenses/remove-licenses-from-subscription.md)voor meer informatie.
+U wordt aangeraden de licenties die u nodig hebt voor uw abonnement te kopen voordat u nieuwe gebruikers maakt. Op die manier kan een licentie worden toegewezen aan nieuwe gebruikers zodra hun gebruikersaccount is gemaakt. Er ontstaan licentieconflicten als alle beschikbare licenties al zijn toegewezen aan gebruikers, maar enkele licenties zijn verlopen, of als u een licentie probeert te verwijderen die al aan een gebruiker is toegewezen. Zie [licenties verwijderen uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md)voor meer informatie.
   
 ## <a name="how-do-i-view-license-conflicts"></a>Licentieconflicten weergeven
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum **Billing** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum **Billing** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Factureringslicenties.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenties</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum **Billing** naar de pagina > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Factureringslicenties.</a>
+1. Ga in het beheercentrum naar de pagina **Facturering** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenties</a>.
 
 ::: moniker-end
 
-2. Kijk in de kolom **Status** voor informatie over het conflict. Als er een conflict is, ziet u een waarschuwingsbericht waarin staat dat een of meer gebruikers een geldige licentie nodig hebben.
+2. Kijk in de kolom **Status** voor informatie over het conflict. Als er sprake is van een conflict, wordt er een waarschuwing weergegeven, die aangeeft dat een of meer gebruikers een geldige licentie nodig hebben.
 
     > [!NOTE]
     > De kolom **Status** wordt alleen weergegeven als er conflicten zijn.
 
 ## <a name="how-do-i-resolve-license-conflicts"></a>Licentieconflicten oplossen
 
-U licentieconflicten oplossen door [meer licenties te kopen](../../commerce/licenses/buy-licenses.md) of door [licenties te verwijderen van gebruikers die ze niet meer nodig hebben.](remove-licenses-from-users.md) U kunt optioneel [een gebruikersaccount verwijderen om een licentie vrij te geven](../add-users/delete-a-user.md).
+U kunt licentie conflicten oplossen door [meer licenties te kopen](../../commerce/licenses/buy-licenses.md) of door [licenties te verwijderen van gebruikers die ze niet meer nodig hebben](remove-licenses-from-users.md). U kunt optioneel [een gebruikersaccount verwijderen om een licentie vrij te geven](../add-users/delete-a-user.md).
   
 ## <a name="related-articles"></a>Verwante artikelen
 

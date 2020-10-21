@@ -1,10 +1,10 @@
 ---
-title: DNS-records maken bij Netregistry voor Microsoft
+title: DNS-records bij netregistry voor Microsoft maken
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,15 +21,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Netregistry voor Microsoft.
-ms.openlocfilehash: c4e81e92b9f86d0a2974e6f95e397f3584c9a01e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op netregistry voor Microsoft.
+ms.openlocfilehash: 016df6c61fd6934c1bc46b55c7e110d8442cf1d5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400362"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645969"
 ---
-# <a name="create-dns-records-at-netregistry-for-microsoft"></a>DNS-records maken bij Netregistry voor Microsoft
+# <a name="create-dns-records-at-netregistry-for-microsoft"></a>DNS-records bij netregistry voor Microsoft maken
 
 [Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md) als u niet kunt vinden wat u zoekt. 
   
@@ -47,7 +47,7 @@ Dit zijn de belangrijkste records om toe te voegen.
     
 - [De twee SRV-records toevoegen die zijn vereist voor Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Nadat u deze records bij Netregistry hebt toegevoegd, wordt uw domein ingesteld om te werken met Microsoft-services.
+Nadat u deze records bij netregistry hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
   
   
 > [!NOTE]
@@ -73,22 +73,22 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     ![Netregistry_selectZoneManager](../../media/e18c32f9-c1e7-4aa2-9aa6-8dc9c5ea44af.png)
   
-4. Kies **onder Een zonerecord toevoegen**de optie **TXT-record** in de lijst en selecteer **Vervolgens Nieuwe record maken**.
+4. Kies in de lijst onder **add a zone record**de optie **TXT record** en selecteer **Create New record**.
     
     ![Netregistry_TXT_select](../../media/eb1761e6-9deb-4631-8deb-bc5d09926722.png)
   
     > [!NOTE]
-    > U moet aanhalingstekens gebruiken voor en na de vermelding in het vak TXT. 
+    > U moet aanhalingstekens vóór en na de invoer in het vak TXT gebruiken. 
   
     Typ of kopieer en plak de waarden uit de volgende tabel in het formulier **New TXT Record** (nieuwe TXT-record). 
     
     |**Naam**|**TTL (SEC)**|**TXT (Verwijst naar adres of waarde)**|
     |:-----|:-----|:-----|
-    |(laat leeg)  <br/> |3600 (seconden)  <br/> |"MS=msXXXXXXXX"  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)  |
+    |(laat leeg)  <br/> |3600 (seconden)  <br/> |"MS = msXXXXXXXX"  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)  |
        
     ![Netregistry_verificationTXTvalues](../../media/cfe8b05a-fa8b-4dba-9554-7a3466e6c012.png)
   
-6. Selecteer **Record toevoegen**.
+6. Selecteer **record toevoegen**.
     
 Nu u de record hebt toegevoegd aan de site van uw domeinregistrar, gaat u terug naar Microsoft en vraagt u de record aan.
   
@@ -126,19 +126,19 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_selectZoneManager](../../media/914021f6-dff3-4640-84d6-b83cf8f61cf1.png)
   
-4. Verwijder **onder Huidige zonerecords**de standaardMX-records door **Verwijderen** naast elke MX-record in de lijst te selecteren. 
+4. Verwijder onder **huidige zonerecords**de standaard MX-records door **verwijderen** naast elke MX-record in de lijst te selecteren. 
     
     ![Netregistry_MX_remove](../../media/494670a9-8b8d-46e5-8136-05e82212a115.png)
   
-5. Kies **mx-record** in de lijst **onder Een zonerecord toevoegen**en selecteer Vervolgens Nieuwe record **maken**.
+5. Kies onder **add a zone record**de optie **MX record** in de lijst en selecteer **Create New record**.
     
     ![Netregistry_MX_select](../../media/29b60eb9-6c40-490f-9669-e65b65962f37.png)
   
-6. Typ of kopieer en plak de waarden uit de volgende tabel in het formulier **Nieuwe MX-record.** 
+6. Typ of kopieer en plak de waarden uit de volgende tabel in het **nieuwe MX-record** formulier. 
     
-    |**Naam**|**TTL (SEC)**|**Exchange (Adres- of waardeaanspraken)**|**Is de host volledig gekwalificeerd?**|**Voorkeur (prioriteit)**|
+    |**Naam**|**TTL (SEC)**|**Exchange (verwijst naar adres of waarde)**|**Is host volledig gekwalificeerd?**|**Voorkeur (prioriteit)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(laat leeg)  <br/> |3600 (seconden)  <br/> | *\<domain-key\>*.mail.protection.outlook.com  <br/> **Let op:** Haal uw *\<domain-key\>* van uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)      |(schakel het selectievakje in)  <br/> |10  <br/> Zie Wat is MX-prioriteit? voor meer informatie over prioriteit.  <br/> |
+    |(laat leeg)  <br/> |3600 (seconden)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)      |(Selecteer het selectievakje)  <br/> |10  <br/> Zie Wat is MX-prioriteit? voor meer informatie over prioriteit.  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   
@@ -161,13 +161,13 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_selectZoneManager](../../media/58384add-0a9d-472b-a5d0-51ec8155fd41.png)
   
-4. Kies **onder Een zonerecord toevoegen**de optie **CNAME Record** in de lijst en selecteer Vervolgens Nieuwe record **maken**.
+4. Kies in de lijst onder  **add a zone record**de optie **CNAME record** en selecteer **Create New record**.
     
     ![Netregistry_CNAME_CreateNewRecord](../../media/7b4f133f-45da-48da-93c0-62f57c786165.png)
   
 5. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
-    |**Name**|**Type**|**TTL**|**HOST (Adreswaarde of adreswaarde)**|
+    |**Naam**|**Type**|**TTL**|**HOST (verwijst naar of adreswaarde)**|
     |:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |3600 (seconden)  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |CNAME  <br/> |3600 (seconden)  <br/> |sipdir.online.lync.com  <br/> |
@@ -177,7 +177,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
        
     ![Netregistry_CNAME_values](../../media/93c479f0-3ce2-491a-9113-6dde1cd7131b.png)
       
-6. Selecteer **Record toevoegen**.
+6. Selecteer **record toevoegen**.
     
     ![Netregistry_CNAME_values_AddRecord](../../media/046c8c64-ea71-4530-9fc6-69f0c70993b6.png)
   
@@ -189,7 +189,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat.
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat.
   
 1. Ga naar uw domeinpagina van Netregistry via [deze koppeling](https://theconsole.netregistry.com.au/). U wordt gevraagd u aan te melden.
     
@@ -203,20 +203,20 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_selectZoneManager](../../media/372e5918-b6dc-4268-8f9a-0aa71d65deef.png)
   
-4. Kies **onder Een zonerecord toevoegen**de optie **TXT-record** in de lijst en selecteer **Vervolgens Nieuwe record maken**.
+4. Kies in de lijst onder **add a zone record**de optie **TXT record** en selecteer **Create New record**.
     
     ![Netregistry_TXT_select](../../media/a2930d03-853a-4f1e-9205-d00f25bed35f.png)
   
 5. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. 
     
     > [!NOTE]
-    > U moet aanhalingstekens gebruiken voor en na de vermelding in het vak TXT. 
+    > U moet aanhalingstekens vóór en na de invoer in het vak TXT gebruiken. 
   
-    |**Name**|**Type**|**TTL**|**TXT-gegevens (doel)**|
+    |**Naam**|**Type**|**TTL**|**TXT-gegevens (doel)**|
     |:-----|:-----|:-----|:-----|
-    |(laat leeg)  <br/> |TXT  <br/> |3600 (seconden)  <br/> |"v=spf1 include:spf.protection.outlook.com -all"  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
+    |(laat leeg)  <br/> |TXT  <br/> |3600 (seconden)  <br/> |"v = spf1 include:SPF. Protection. Outlook. com-all"  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
    
-    ![Netregistry_SPF-TXT-waarden](../../media/a369345a-d774-48bc-8160-b628ab8247f9.png)
+    ![Netregistry_SPF-TXTvalues](../../media/a369345a-d774-48bc-8160-b628ab8247f9.png)
   
 6. Selecteer **Record toevoegen**.
     
@@ -229,7 +229,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_login](../../media/accf6584-e5f4-4d68-a641-0f8847f8370f.png)
   
-2. Selecteer Naast het domein dat u wilt beheren de optie **Beheren**.
+2. Selecteer  **Manage (beheren**) naast het domein dat u wilt beheren.
     
     ![Netregistry_Manage](../../media/e0ddc79e-0123-4e24-8380-9645bdb41aac.png)
   
@@ -237,19 +237,19 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_selectZoneManager](../../media/f122888b-3cc5-40ec-adac-0ede04799d9a.png)
   
-4. Kies **onder Een zonerecord toevoegen**de optie **SRV-record** in de lijst en selecteer **Vervolgens Nieuwe record maken**.
+4. Kies onder  **add a zone record**de optie **SRV record** in de lijst en selecteer vervolgens **Create New record**.
     
     ![Netregistry_SRV_select](../../media/e5dab850-acd1-48b8-8b4a-e3b9777cf508.png)
   
 5. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record.
     
     > [!NOTE]
-    > Het veld Naam is een combinatie van de service (bijvoorbeeld _sip) en protocol (bijvoorbeeld _tls). 
+    > Het veld naam is een combinatie van de service (bijvoorbeeld _sip) en protocol (bijvoorbeeld _tls). 
   
     |**Type**|**Naam**|**TTL (SEC)**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (service)  <br/> |_sip._tls  <br/> |3600 (seconden)  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (service)  <br/> |_sipfederationtls._tcp  <br/> |3600 (seconden)  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (Service)  <br/> |_sip _sip._tls  <br/> |3600 (seconden)  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV (Service)  <br/> |_sipfederationtls _sipfederationtls._tcp  <br/> |3600 (seconden)  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![Netregistry_SRV_values](../../media/49292846-1598-4b8c-9940-db6e10675753.png)
   

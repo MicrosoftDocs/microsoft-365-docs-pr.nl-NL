@@ -1,10 +1,10 @@
 ---
-title: DNS-records bij Yahoo! Klein bedrijf voor Microsoft
+title: DNS-records bij Yahoo! Professionals en kleine bedrijven voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
-description: Lees uw domein en stel DNS-records in voor e-mail, Skype voor Bedrijven Online en andere services bij Yahoo! Kleine bedrijven voor Microsoft.
-ms.openlocfilehash: c44ad1cde79fdc401f1cd7411a4019d31ade6d02
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Yahoo! Professionals en kleine bedrijven voor Microsoft.
+ms.openlocfilehash: 3c6bc44baef4924133ea2308189662dd53399689
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400278"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645597"
 ---
-# <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>DNS-records bij Yahoo! Klein bedrijf voor Microsoft
+# <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>DNS-records bij Yahoo! Professionals en kleine bedrijven voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
@@ -36,22 +36,22 @@ Als Yahoo! Small Business uw DNS-hostingprovider was, dan is dit voortaan Aabaco
   
 Volg de stappen in dit artikel om een account te maken bij Aabaco, waar u DNS-wijzigingen kunt aanbrengen en uw domein of domeinen kunt verlengen.
   
-U moet uw Aabaco-account aanmaken voordat u [DNS-records](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)maken.
+U dient een Aabaco-account te maken voordat u [DNS-records kunt maken](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
 
   
 ## <a name="create-an-aabaco-small-business-account"></a>Een Aabaco Small Business-account maken
 
-1. Om aan de slag te gaan, ga je naar je domeinenpagina bij Aabaco via [deze link](https://www.luminate.com/services/)en selecteer je **Aabaco Small Business-account instellen.**
+1. Als u aan de slag wilt gaan, gaat u naar uw domeinen pagina bij Aabaco via [deze koppeling](https://www.luminate.com/services/)en selecteert u **instellen uw Aabaco account voor kleine bedrijven**.
     
-    ![Selecteer Uw Aabaco Small Business-account instellen](../../media/d708f272-d42f-40a1-9aaf-d05d8cfd55cf.png)
+    ![Selecteer uw Aabaco Small Business-account instellen](../../media/d708f272-d42f-40a1-9aaf-d05d8cfd55cf.png)
   
-2. Geef uw Yahoo! Small Business **Email / Yahoo ID,** en selecteer **dan Ik ben geen robot**.
+2. Geef uw Yahoo! **E-mailadres en Yahoo**van kleine bedrijven en selecteer **ik geen robot**.
     
     ![Select I am not a robot](../../media/ded4b5dd-4e04-4baa-ae31-8426b5799151.png)
   
-3. Selecteer **Aan de slag**.
+3. Selecteer **aan de slag**.
     
-    ![Aan de slag selecteren](../../media/6674707d-c222-4f0d-bec4-229d39ab2499.png)
+    ![Selecteer aan de slag](../../media/6674707d-c222-4f0d-bec4-229d39ab2499.png)
   
 4. Meld u aan bij uw Yahoo! Small Business-e-mailaccount en open de nieuwe e-mail vanuit Aabaco Small Business.
     
@@ -60,9 +60,9 @@ U moet uw Aabaco-account aanmaken voordat u [DNS-records](../get-help-with-domai
   
     ![The You've got mail page](../../media/2e02fc30-6cca-40d6-bb64-131a41b4a369.png)
   
-5. Selecteer e-mail bevestigen in de Aabaco **Bevestig uw e-mailadres om het instellen van** e-mailberichten **voort**te zetten.
+5. Selecteer e-mailadres **bevestigen**in het Aabaco **om door te gaan** met het instellen van e-mailberichten.
     
-    ![E-mail bevestigen selecteren](../../media/eb5f5526-6f90-4a10-83a7-5249a1ebd562.png)
+    ![Selecteer e-mailadres bevestigen](../../media/eb5f5526-6f90-4a10-83a7-5249a1ebd562.png)
   
 6. Op de pagina **Choose your password** (Wachtwoord kiezen) typt of kopieert en plakt u het wachtwoord dat u voor uw Aabaco-account wilt gebruiken. 
     
@@ -71,9 +71,9 @@ U moet uw Aabaco-account aanmaken voordat u [DNS-records](../get-help-with-domai
   
     ![The Choose your password page](../../media/cc592345-72d1-4a41-9410-a1f3345cfd1d.png)
   
-7. Selecteer **Ik ga akkoord met de algemene voorwaarden**en selecteer Vervolgens Wachtwoord **maken**.
+7. Selecteer **Ik ga akkoord met de voorwaarden**en selecteer vervolgens **wachtwoord maken**.
     
-    ![Wachtwoord maken selecteren](../../media/434aa6a3-076e-4abf-a9cf-31145786e819.png)
+    ![Selecteer wachtwoord maken](../../media/434aa6a3-076e-4abf-a9cf-31145786e819.png)
   
 8. Meld u aan bij uw Yahoo! Small Business-e-mailaccount en open de nieuwe e-mail vanuit Aabaco Small Business.
     
@@ -82,13 +82,13 @@ U moet uw Aabaco-account aanmaken voordat u [DNS-records](../get-help-with-domai
   
     ![The You're almost done page](../../media/1a4142a3-e140-48a8-9c80-aa126ff08179.png)
   
-9. In de Aabaco **Je bent er bijna** e-mailbericht, selecteert u Mijn account **activeren**.
+9. Selecteer in het Aabaco het e-mailbericht is **bijna** de optie **Mijn account activeren**.
     
-    ![Selecteer Mijn aantal activeren](../../media/e76d5edc-d8ba-4d8d-872d-d916716c3618.png)
+    ![Selecteer Mijn account activeren](../../media/e76d5edc-d8ba-4d8d-872d-d916716c3618.png)
   
 10. Meld u aan bij uw Aabaco Small Business-account.
     
     ![The sign-in page for Aabaco Small Business](../../media/4ef3cfc3-26da-4e03-932b-9346ef217848.png)
   
-Nu u uw Aabaco-account hebt gemaakt, u [DNS-records maken bij Aabaco Small Business voor Microsoft.](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
+Nu u een Aabaco-account hebt gemaakt, kunt u [DNS-records maken op Aabaco Small Business voor Microsoft](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
   

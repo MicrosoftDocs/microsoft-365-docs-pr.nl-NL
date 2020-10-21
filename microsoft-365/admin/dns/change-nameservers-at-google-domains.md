@@ -1,10 +1,10 @@
 ---
-title: Naamservers wijzigen om Microsoft in te stellen met Google Domains
+title: Naamservers wijzigen voor het instellen van Microsoft met Google-domeinen
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,19 +20,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 68a08e94-26c2-4df2-9216-026b8ec907ca
-description: Meer informatie over hoe u Microsoft instellen voor het beheren van de DNS-records van uw aangepaste domein bij Google Domains.
-ms.openlocfilehash: 65649632b5e28e97909d91ca3e04355375afe3ac
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over hoe u Microsoft kunt instellen voor het beheren van de DNS-records van uw aangepaste domein bij Google domains.
+ms.openlocfilehash: 05d77ef4cb78351727870a384f4a28c6e4acc4b0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400651"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646425"
 ---
-# <a name="change-nameservers-to-set-up-microsoft-with-google-domains"></a>Naamservers wijzigen om Microsoft in te stellen met Google Domains
+# <a name="change-nameservers-to-set-up-microsoft-with-google-domains"></a>Naamservers wijzigen voor het instellen van Microsoft met Google-domeinen
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
-Volg deze instructies als u wilt dat Microsoft uw DNS-records voor u beheert. (Als u dat liever hebt, u [al uw DNS-records beheren bij Google Domains](create-dns-records-at-google-domains.md).)
+Voer de volgende instructies uit als u wilt dat Microsoft uw DNS-records voor u beheert. (Als u wilt, kunt u [al uw DNS-records bij Google domains beheren](create-dns-records-at-google-domains.md).)
   
     
 ## <a name="add-a-txt-record-for-verification"></a>Een TXT-record toevoegen voor verificatie
@@ -42,13 +42,13 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
 > [!NOTE]
 >  Deze record wordt alleen gebruikt om te verifiëren dat u de eigenaar van uw domein bent. Dit heeft verder geen invloed. U kunt deze record later desgewenst verwijderen. 
   
-1. Om aan de slag te gaan, ga je naar je domeinenpagina bij Google Domains via [deze link.](https://domains.google.com/registrar) U wordt gevraagd om u aan te melden. U gaat hiervoor als volgt te werk:
+1. Als u wilt beginnen, gaat u naar uw domeinen pagina bij Google domains via [deze koppeling](https://domains.google.com/registrar). U wordt gevraagd om u aan te melden. U gaat hiervoor als volgt te werk:
     
 1. Selecteer **Aanmelden**.
     
-2. Voer uw inloggegevens **in**en selecteer Opnieuw Aanmelden .
+2. Voer uw aanmeldingsreferenties in en selecteer **Aanmelden**.
     
-2. Selecteer **op** de pagina Domeinen in de sectie **Domein** de optie **DNS configureren** voor het domein dat u wilt bewerken. 
+2. Selecteer op **de pagina** domains in de sectie **Domain** de optie **configure DNS** voor het domein dat u wilt bewerken. 
     
 3. Typ of kopieer en plak de waarden uit de volgende tabel in de sectie **Custom resource records** in de vakken voor de nieuwe record. 
     
@@ -59,13 +59,13 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
 |||||
 |:-----|:-----|:-----|:-----|
 |**Name** <br/> |**Type** <br/> |**TTL** <br/> |**Data** <br/> |
-|@  <br/> |TXT  <br/> |1H  <br/> |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)       <br/>  |
+|@  <br/> |TXT  <br/> |1U  <br/> |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)       <br/>  |
    
 4. Kies **Toevoegen**.
     
 5. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
     
-Nu u de record op de site van uw domeinregistrar hebt toegevoegd, gaat u terug naar Microsoft en vraagt u om een zoekopdracht naar de record.
+Nu u de record hebt toegevoegd aan de site van uw domeinregistratie, gaat u terug naar Microsoft en vraagt u naar de record.
   
 Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleerd.
   
@@ -83,10 +83,10 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>De naamserverrecords (NS-records) van uw domein wijzigen
 
-Als u het instellen van uw domein met Microsoft wilt voltooien, wijzigt u de NS-records van uw domein bij uw domeinregistrar om naar de primaire en secundaire naamservers van Microsoft te wijzen. Hiermee wordt Microsoft ingesteld om de DNS-records van het domein voor u bij te werken. We voegen alle records toe zodat e-mail, Skype voor Bedrijven Online en uw openbare website met uw domein werken en u helemaal klaar bent.
+Om het instellen van uw domein met Microsoft te voltooien, kunt u de NS-records van uw domein bij uw domeinregistratie wijzigen zodat deze verwijzen naar de primaire en secundaire naamservers van Microsoft. Hierdoor wordt Microsoft zodanig geconfigureerd dat de DNS-records van het domein voor u worden bijgewerkt. We toevoegen alle records, zodat e-mail, Skype voor bedrijven online en uw openbare website met uw domein werken, en u bent klaar.
   
 > [!CAUTION]
-> Wanneer u de NS-records van uw domein wijzigt om naar de Microsoft-naamservers te wijzen, worden alle services die momenteel aan uw domein zijn gekoppeld, beïnvloed. Bijvoorbeeld alle e-mail die naar uw domein wordt verzonden (zoals rob@ *your_domain.*  com) zal beginnen te komen naar Microsoft nadat u deze wijziging. 
+> Als u de naamserver records van uw domein wijzigt zodat ze verwijzen naar de Microsoft-naamservers, worden dit van invloed op alle services die op dat moment zijn gekoppeld aan uw domein. Alle e-mailberichten die naar uw domein zijn verzonden, zoals rob@ *your_domain.*  com) komt bij Microsoft binnen nadat u deze wijziging hebt aangebracht. 
   
 > [!IMPORTANT]
 > In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de juiste naamservers toevoegt als deze niet al in de lijst staan. > Na het voltooien van de stappen in deze sectie, moeten alleen de volgende vier naamservers in de lijst staan: 
@@ -95,9 +95,9 @@ Als u het instellen van uw domein met Microsoft wilt voltooien, wijzigt u de NS-
     
 1. Selecteer **Aanmelden**.
     
-2. Voer uw inloggegevens in en selecteer **Opnieuw Aanmelden**.
+2. Voer uw aanmeldingsreferenties in en selecteer vervolgens **Aanmelden**.
     
-2. Selecteer **op** de pagina Domeinen in de sectie **Domein** de optie **DNS configureren** voor het domein dat u wilt bewerken. 
+2. Selecteer op **de pagina** domains in de sectie **Domain** de optie **configure DNS** voor het domein dat u wilt bewerken. 
     
 3. Selecteer op de pagina **Domains** in de sectie **Name servers** de optie **Use custom name servers**.
     
@@ -122,15 +122,15 @@ Als u het instellen van uw domein met Microsoft wilt voltooien, wijzigt u de NS-
 |**Derde naamserver** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Vierde naamserver** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Afbeelding van het lint](../../media/6d14544d-7783-4ed4-b4dd-691624af7172.png)
+   ![Met Google-domeinen 1-2](../../media/6d14544d-7783-4ed4-b4dd-691624af7172.png)
   
-2. Selecteer het **besturingselement + (toevoegen)** om een lege rij te maken. 
+2. Selecteer het besturingselement **+ (toevoegen)** om een lege rij te maken. 
     
     ![Google-Domains-BP-Redelegate-1-3](../../media/ea23e5fc-07e1-4ffc-b8cf-8526867b752d.png)
   
 3. De andere drie naamserverrecords toevoegen.
     
-    Maak in de sectie **Aangepaste naamservers gebruiken** een record met de waarden uit de volgende rij in de tabel en selecteer vervolgens het **besturingselement + (toevoegen)** om een andere rij toe te voegen. 
+    Maak in de sectie **Custom name servers gebruiken** een record met behulp van de waarden uit de volgende rij in de tabel en selecteer vervolgens het besturingselement **+ (toevoegen)** om een nieuwe rij toe te voegen. 
     
     Herhaal deze procedure totdat u alle vier de naamserverrecords hebt gemaakt.
     
@@ -139,14 +139,14 @@ Als u het instellen van uw domein met Microsoft wilt voltooien, wijzigt u de NS-
     ![Google-Domains-BP-Redelegate-1-5](../../media/cb954aa2-12ee-4e90-9b67-184cbe898bbb.png)
   
 > [!NOTE]
-> Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw Microsoft-e-mail en andere services helemaal klaar om met uw domein te werken. 
+> Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw Microsoft-e-mail en andere services allemaal ingesteld voor gebruik met uw domein. 
   
 ### <a name="if-there-are-nameservers-already-listed"></a>Als er WEL naamservers worden vermeld
 
-1. Als er andere naamservers worden vermeld, selecteert u **Bewerken**.
+1. Als er andere naamservers worden vermeld, selecteert u **bewerken**.
     
     > [!CAUTION]
-    > Volg deze stappen alleen als u bestaande naamservers hebt, andere dan de vier juiste naamservers. (Dat wil zeggen, alleen huidige naamservers verwijderen die *geen* naam hebben **ns1.bdm.microsoftonline.com,** **ns2.bdm.microsoftonline.com,** **ns3.bdm.microsoftonline.com**of **ns4.bdm.microsoftonline.com**.) 
+    > Ga als volgt te werk als u een bestaande naamservers hebt dan de vier juiste naamservers. (Dat wil zeggen dat u alleen huidige naamservers met de  *naam* **ns1.BDM.microsoftonline.com**, **ns2.BDM.microsoftonline.com**, **ns3.BDM.microsoftonline.com**of **ns4.BDM.microsoftonline.com**) verwijdert. 
   
     ![Google-Domains-BP-Redelegate-1-6-1](../../media/fb45d120-55ab-42c2-bdb6-19b130c3c7db.png)
   
@@ -163,15 +163,15 @@ Als u het instellen van uw domein met Microsoft wilt voltooien, wijzigt u de NS-
 |**Derde naamserver** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Vierde naamserver** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Afbeelding van het lint](../../media/e008dccb-d789-4f52-8ecc-02831b7c6fb2.png)
+   ![Met Google-domeinen 1-7](../../media/e008dccb-d789-4f52-8ecc-02831b7c6fb2.png)
   
-4. Selecteer het besturingselement **+(toevoegen)** om een lege rij te maken. 
+4. Selecteer het besturingselement **+ (toevoegen)** om een lege rij te maken. 
     
     ![Google-Domains-BP-Redelegate-1-8](../../media/6ce40b1e-8464-443f-a64a-825dc8764590.png)
   
 5. Voer de andere twee naamserverrecords toe.
     
-    Maak in de sectie **Aangepaste naamservers gebruiken** een record met de waarden uit de volgende rij in de tabel en selecteer vervolgens het besturingselement **+(toevoegen)** om een andere rij toe te voegen. 
+    Maak in de sectie **Custom name servers gebruiken** een record met behulp van de waarden uit de volgende rij in de tabel en selecteer vervolgens het besturingselement **+ (toevoegen)** om een nieuwe rij toe te voegen. 
     
     Herhaal deze procedure totdat u alle vier de naamserverrecords hebt gemaakt.
     
@@ -180,5 +180,5 @@ Als u het instellen van uw domein met Microsoft wilt voltooien, wijzigt u de NS-
     ![Google-Domains-BP-Redelegate-1-5](../../media/cb954aa2-12ee-4e90-9b67-184cbe898bbb.png)
   
 > [!NOTE]
-> Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw Microsoft-e-mail en andere services helemaal klaar om met uw domein te werken. 
+> Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw Microsoft-e-mail en andere services allemaal ingesteld voor gebruik met uw domein. 
   

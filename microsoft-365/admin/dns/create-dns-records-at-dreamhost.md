@@ -1,10 +1,10 @@
 ---
-title: DNS-records maken bij Dreamhost voor Microsoft
+title: DNS-records bij Dreamhost maken voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9c0812e0-908b-4b41-a64b-77f0dbd3db7a
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij Dreamhost voor Microsoft.
-ms.openlocfilehash: 4b321138892cb4a7b5f67c37ed66f3baf0f6c45a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Dreamhost voor Microsoft.
+ms.openlocfilehash: 8ab617fd5d63b292a85289d2d51a0ae0fd3b26be
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400507"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48646197"
 ---
-# <a name="create-dns-records-at-dreamhost-for-microsoft"></a>DNS-records maken bij Dreamhost voor Microsoft
+# <a name="create-dns-records-at-dreamhost-for-microsoft"></a>DNS-records bij Dreamhost maken voor Microsoft
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
   
 Als DreamHost uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Lync enzovoort in te stellen.
  
-Nadat u deze records bij DreamHost hebt toegevoegd, wordt uw domein ingesteld om te werken met Microsoft-services.
+Nadat u deze records bij DreamHost hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
   
   
 > [!NOTE]
@@ -52,11 +52,11 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     ![Dreamhost-BP-Configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Selecteer op de pagina **Dashboard** **domeinen**en **beheer domeinen**.
+2. Selecteer op de pagina **Dashboard** de optie **Domains**en vervolgens **Manage Domains**.
     
     ![Dreamhost-BP-Configure-1-2](../../media/ab05c16a-79f6-491f-ad07-9a2e6674671d.png)
   
-3. Selecteer op de pagina **Domeinen beheren** in de sectie **Domein** de optie **DNS** voor het domein dat u wilt bewerken. 
+3. Selecteer op de pagina **domeinen beheren** in de sectie **Domain** de optie **DNS** voor het domein dat u wilt bewerken. 
     
     ![Dreamhost-BP-Configure-1-3](../../media/1a8723a0-54bc-40ff-bc30-5fc3e8cd219b.png)
   
@@ -70,9 +70,9 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     |:-----|:-----|:-----|:-----|
     |(Laat dit veld leeg.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |(Dit veld is optioneel.)  <br/> |
    
-   ![Afbeelding van het te maken](../../media/ed4a7d43-eeeb-4ec8-849c-37f81315dc69.png)
+   ![Dreamhost voor 1-1](../../media/ed4a7d43-eeeb-4ec8-849c-37f81315dc69.png)
   
-5. Selecteer **Nu record toevoegen!**
+5. Selecteer **record nu toevoegen.**
     
     ![Dreamhost-BP-Verify-1-2](../../media/5b89c89b-3a8e-4624-895a-86f3cc4638f6.png)
   
@@ -111,11 +111,11 @@ Voer de onderstaande stappen uit:
     
     ![Dreamhost-BP-Configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Selecteer op **de** dashboardpagina **E-mail**en vervolgens **Aangepast MX**.
+2. Selecteer op de pagina **Dashboard** de optie **mail**en vervolgens **Custom MX**.
     
     ![Dreamhost-BP-Configure-2-1](../../media/58478679-4018-49cc-9d83-371dc5fa4a22.png)
   
-3. Selecteer **bewerken** voor het domein dat u wilt bewerken in de sectie **E-mailbezorging** beheren in de kolom **Acties.** 
+3. Selecteer in de sectie **e-mail bezorgen beheren** , in de kolom **acties** , de optie **bewerken** voor het domein dat u wilt bewerken. 
     
     ![Dreamhost-BP-Configure-2-2](../../media/6eed0be2-6477-4f49-9f90-39e190499a53.png)
   
@@ -127,11 +127,11 @@ Voer de onderstaande stappen uit:
     
     |**MX-record (vereist)**|
     |:-----|
-    |*\<domain-key\>* 0,mail.protection.outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> De 0 is de MX-prioriteitwaarde. Voeg deze toe aan het begin van de MX-waarde, van de rest van de waarde gescheiden door een spatie.  <br/> **Let op:** Haal uw *\<domain-key\>* van uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  *\<domain-key\>*  . mail.Protection.Outlook.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> De 0 is de MX-prioriteitwaarde. Voeg deze toe aan het begin van de MX-waarde, van de rest van de waarde gescheiden door een spatie.  <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
-    ![Afbeelding van het te maken dat u afbeelding van het huis hebt](../../media/90da1816-e186-4016-ab22-7962f8b86add.png)
+    ![Dreamhost voor 2-3](../../media/90da1816-e186-4016-ab22-7962f8b86add.png)
   
-5. Selecteer **Dit domein wijzigen om nu aangepaste MX-records te gebruiken!**
+5. Selecteer **dit domein wijzigen om nu aangepaste MX-records te gebruiken!**
     
     ![Dreamhost-BP-Configure-2-4](../../media/3221c767-83d3-4f30-9d08-dc998772d2a3.png)
   
@@ -139,12 +139,12 @@ Voer de onderstaande stappen uit:
     
     ![Dreamhost-BP-Configure-2-5](../../media/1827733c-3609-4b0f-bba1-531ab090da91.png)
   
-7. Als u records hebt verwijderd, selecteert u **Nu uw aangepaste MX-records bijwerken!**
+7. Als u records hebt verwijderd, selecteert u **uw aangepaste MX-records nu bijwerken.**
     
     ![Dreamhost-BP-Configure-2-6](../../media/177462be-0686-47b7-a389-025dfc8d6526.png)
 
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Voeg de zes CNAME-records toe die nodig zijn voor Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>De zes CNAME-records toevoegen die vereist zijn voor Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
 Voer de onderstaande stappen uit:
@@ -153,11 +153,11 @@ Voer de onderstaande stappen uit:
     
     ![Dreamhost-BP-Configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Selecteer op de pagina **Dashboard** **domeinen**en **beheer domeinen**.
+2. Selecteer op de pagina **Dashboard** de optie **Domains**en vervolgens **Manage Domains**.
     
     ![Dreamhost-BP-Configure-1-2](../../media/ab05c16a-79f6-491f-ad07-9a2e6674671d.png)
   
-3. Selecteer op de pagina **Domeinen beheren** in de sectie **Domein** de optie **DNS** voor het domein dat u wilt bewerken. 
+3. Selecteer op de pagina **domeinen beheren** in de sectie **Domain** de optie **DNS** voor het domein dat u wilt bewerken. 
     
     ![Dreamhost-BP-Configure-1-3](../../media/1a8723a0-54bc-40ff-bc30-5fc3e8cd219b.png)
   
@@ -175,20 +175,20 @@ Voer de onderstaande stappen uit:
     |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |(Dit veld is optioneel.)  <br/> |
     |enterpriseenrollment  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |(Dit veld is optioneel.)  <br/> |
    
-    ![Afbeelding van het te maken:Afbeelding van het te maken](../../media/0c4cc587-ea24-47f2-8dc6-a35735b250e6.png)
+    ![Dreamhost voor 3-1](../../media/0c4cc587-ea24-47f2-8dc6-a35735b250e6.png)
   
-5. Selecteer **Nu record toevoegen!**
+5. Selecteer **record nu toevoegen.**
     
     ![Dreamhost-BP-Configure-3-2](../../media/b5d4f939-de6d-4d1f-a20a-4eb5fe715281.png)
   
-6. Voeg met de voorgaande twee stappen en de waarden van de andere vijf rijen in de tabel elk van de andere vijf CNAME-records toe.
+6. Met de twee voorgaande stappen en de waarden uit de andere vijf rijen in de tabel voegt u de andere vijf CNAME-records toe.
 
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat.
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat.
   
 Voer de onderstaande stappen uit:
   
@@ -196,11 +196,11 @@ Voer de onderstaande stappen uit:
     
     ![Dreamhost-BP-Configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Selecteer op de pagina **Dashboard** **domeinen**en **beheer domeinen**.
+2. Selecteer op de pagina **Dashboard** de optie **Domains**en vervolgens **Manage Domains**.
     
     ![Dreamhost-BP-Configure-1-2](../../media/ab05c16a-79f6-491f-ad07-9a2e6674671d.png)
   
-3. Selecteer op de pagina **Domeinen beheren** in de sectie **Domein** de optie **DNS** voor het domein dat u wilt bewerken. 
+3. Selecteer op de pagina **domeinen beheren** in de sectie **Domain** de optie **DNS** voor het domein dat u wilt bewerken. 
     
     ![Dreamhost-BP-Configure-1-3](../../media/1a8723a0-54bc-40ff-bc30-5fc3e8cd219b.png)
   
@@ -214,9 +214,9 @@ Voer de onderstaande stappen uit:
     |:-----|:-----|:-----|:-----|
     |(Laat dit veld leeg.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |(Dit veld is optioneel.)  <br/> |
    
-   ![Afbeelding van het te maken](../../media/cbc4bbca-bdbc-4dc9-b1b7-b55491eb1e53.png)
+   ![Dreamhost voor 4-1](../../media/cbc4bbca-bdbc-4dc9-b1b7-b55491eb1e53.png)
   
-5. Selecteer **Nu record toevoegen!**
+5. Selecteer **record nu toevoegen.**
     
     ![Dreamhost-BP-Configure-4-2](../../media/2bd7cae8-1fbc-4407-8dfa-06ce37c586c0.png)
   
@@ -232,11 +232,11 @@ Voer de onderstaande stappen uit:
     
     ![Dreamhost-BP-Configure-1-1](../../media/1919b810-b6ba-4e29-a774-de1e7c67d078.png)
   
-2. Selecteer op de pagina **Dashboard** **domeinen**en **beheer domeinen**.
+2. Selecteer op de pagina **Dashboard** de optie **Domains**en vervolgens **Manage Domains**.
     
     ![Dreamhost-BP-Configure-1-2](../../media/ab05c16a-79f6-491f-ad07-9a2e6674671d.png)
   
-3. Selecteer op de pagina **Domeinen beheren** in de sectie **Domein** de optie **DNS** voor het domein dat u wilt bewerken. 
+3. Selecteer op de pagina **domeinen beheren** in de sectie **Domain** de optie **DNS** voor het domein dat u wilt bewerken. 
     
     ![Dreamhost-BP-Configure-1-3](../../media/1a8723a0-54bc-40ff-bc30-5fc3e8cd219b.png)
   
@@ -248,12 +248,12 @@ Voer de onderstaande stappen uit:
     
     |**Name**|**Type**|**Value**|**Opmerking**|
     |:-----|:-----|:-----|:-----|
-    |_sip._tls  <br/> |SRV  <br/> |100 1 443  <br/> sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |(Dit veld is optioneel.)  <br/> |
-    |_sipfederationtls._tcp  <br/> |SRV  <br/> |100 1 5061  <br/> sipfed.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |(Dit veld is optioneel.)  <br/> |
+    |_sip _sip._tls  <br/> |SRV  <br/> |100 1 443  <br/> sipdir.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |(Dit veld is optioneel.)  <br/> |
+    |_sipfederationtls _sipfederationtls._tcp  <br/> |SRV  <br/> |100 1 5061  <br/> sipfed.online.lync.com.  <br/> **Deze waarde MOET eindigen op een punt (.)** <br/> |(Dit veld is optioneel.)  <br/> |
    
-    ![Afbeelding van het te maken:Afbeelding van het te maken](../../media/934eb79f-3617-4b72-802c-c42c7d165283.png)
+    ![Dreamhost voor 5-1](../../media/934eb79f-3617-4b72-802c-c42c7d165283.png)
   
-5. Selecteer **Nu record toevoegen!**.
+5. Selecteer **Add Record Now!**.
     
     ![Dreamhost-BP-Configure-5-2](../../media/015bc73c-8f88-49ce-87f9-e5a6ea3e10a8.png)
   

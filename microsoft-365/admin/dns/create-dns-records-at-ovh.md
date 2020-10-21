@@ -1,10 +1,10 @@
 ---
-title: DNS-records maken bij OVH voor Microsoft
+title: DNS-records bij OVH maken voor Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
-description: Lees uw domein verifiëren en DNS-records instellen voor e-mail, Skype voor Bedrijven Online en andere services bij OVH voor Microsoft.
-ms.openlocfilehash: b462979a3ab1bcf769c78d15d9fd3ad03f307ef0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op OVH voor Microsoft.
+ms.openlocfilehash: 87a2a731a253fdc0593a1aae8020e615dca63c4a
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400338"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645813"
 ---
-# <a name="create-dns-records-at-ovh-for-microsoft"></a>DNS-records maken bij OVH voor Microsoft
+# <a name="create-dns-records-at-ovh-for-microsoft"></a>DNS-records bij OVH maken voor Microsoft
 
 [Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md) als u niet kunt vinden wat u zoekt. 
   
@@ -36,7 +36,7 @@ Als OVH uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw d
   
 Dit zijn de belangrijkste records om toe te voegen. 
   
-- [DNS-records maken bij OVH voor Microsoft](#create-dns-records-at-ovh-for-microsoft)
+- [DNS-records bij OVH maken voor Microsoft](#create-dns-records-at-ovh-for-microsoft)
     
 - [Voeg een MX-record toe zodat e-mail voor uw domein naar Microsoft wordt verzonden](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
     
@@ -46,7 +46,7 @@ Dit zijn de belangrijkste records om toe te voegen.
     
 - [De twee SRV-records toevoegen die zijn vereist voor Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Nadat u deze records bij OVH hebt toegevoegd, wordt uw domein ingesteld om te werken met Microsoft-services.
+Nadat u deze records bij OVH hebt toegevoegd, is uw domein ingesteld voor gebruik met Microsoft-services.
 
   
 > [!NOTE]
@@ -64,29 +64,29 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. Selecteer **DNS-zone**.
+3. Selecteer **DNS zone**.
     
     ![OVH select DNS zone](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
-4. Selecteer **Een item toevoegen**.
+4. Selecteer **item toevoegen**.
     
     ![OVH Add an entry](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
-5. **TXT selecteren**
+5. Selecteer **txt**
     
-    ![OVH selecteert TXT-vermelding](../../media/3aaa9dae-0b1d-436b-a980-b67a970f31a9.png)
+    ![OVH selecteren TXT-invoer](../../media/3aaa9dae-0b1d-436b-a980-b67a970f31a9.png)
   
-6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest **u Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
+6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest u **aangepast** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
     
     |**Recordtype**|**Subdomein**|**TTL**|**Waarde**|
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |MS=msxxxxxxxx  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |
    
-7. Selecteer **Bevestigen**. 
+7. Selecteer **bevestigen**. 
     
     ![OVH confirm TXT for verification](../../media/bde45596-9a55-4634-b5e7-16d7cde6e1b8.png)
   
@@ -120,15 +120,15 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. Selecteer **DNS-zone**.
+3. Selecteer **DNS zone**.
     
     ![OVH select DNS zone](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
-4. Selecteer **Een item toevoegen**.
+4. Selecteer **item toevoegen**.
     
     ![OVH Add an entry](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
@@ -136,30 +136,30 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![OVH MX record type](../../media/29b5e54e-440a-41f2-9eb9-3de573922ddf.png)
   
-6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest **u Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
+6. Typ of kopieer en plak de waarden uit de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest u **aangepast** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
     
     > [!NOTE]
-    > OvH gebruikt standaard relatieve notatie voor het doel, dat de domeinnaam toevoegt aan het einde van de doelrecord. Als u in plaats daarvan absolute notatie wilt gebruiken, voegt u een punt toe aan de doelrecord zoals in de onderstaande tabel. 
+    > Standaard wordt in OVH de relatieve notatie gebruikt voor het doel, waarmee de domeinnaam wordt toegevoegd aan het einde van de doelrecord. Als u in plaats daarvan absolute notatie wilt gebruiken, voegt u een punt toe aan de doelrecord, zoals wordt weergegeven in de onderstaande tabel. 
   
     |**Recordtype**|**Subdomein**|**TTL**|**Prioriteit**|**Doel**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |\<domain-key\>mail.protection.outlook.com.  <br/> **Let op:** Haal uw *\<domain-key\>* van uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |10  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/> |\<domain-key\>. mail.protection.outlook.com.  <br/> **Opmerking:** Neem uw  *\<domain-key\>*  van uw Microsoft-account.  [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)  |
    
-    ![OVH MX record voor e-mail](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
+    ![OVH MX-record voor e-mail](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
 7. Selecteer **Volgende**.
     
     ![OVH MX record select Next](../../media/4db62d07-0dc4-49f6-bd19-2b4a07fd764a.png)
   
-8. Selecteer **Bevestigen**.
+8. Selecteer **bevestigen**.
     
     ![OVH MX record select Confirm](../../media/090bfb11-a753-4af0-8982-582a4069a169.png)
   
-9. Als er andere MX-records zijn, verwijdert u deze in op de pagina **DNS-zone**. Selecteer elke record en selecteer vervolgens in de kolom **Acties** het pictogram **Verwijderen** van prullenbak. 
+9. Als er andere MX-records zijn, verwijdert u deze in op de pagina **DNS-zone**. Selecteer elke record en selecteer vervolgens in de kolom **acties** het pictogram Prullenbak-kan **verwijderen** . 
     
     ![OVH delete MX record](../../media/892b328b-7057-4828-b8c5-fe26284dc8c2.png)
   
-10. Selecteer **Bevestigen**.
+10. Selecteer **bevestigen**.
     
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>De CNAME-records toevoegen die zijn vereist voor Microsoft
 <a name="bkmk_cname"> </a>
@@ -168,15 +168,15 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. Selecteer **DNS-zone**.
+3. Selecteer **DNS zone**.
     
     ![OVH select DNS zone](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
-4. Selecteer **Een item toevoegen**.
+4. Selecteer **item toevoegen**.
     
     ![OVH Add an entry](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
@@ -186,7 +186,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 6. Maak de eerste CNAME-record.
     
-    Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest **u Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
+    Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest u **aangepast** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
     
     |**Recordtype**|**Subdomein**|**Doel**|**TTL**|
     |:-----|:-----|:-----|:-----|
@@ -196,13 +196,13 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> |3600 seconden  <br/> |
     |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> |3600 seconden  <br/> |
    
-    ![OVH CNAME record](../../media/516938b3-0b12-4736-a631-099e12e189f5.png)
+    ![OVH CNAME-record](../../media/516938b3-0b12-4736-a631-099e12e189f5.png)
   
 7. Selecteer **Volgende**.
     
     ![OVH Add CNAME values and select Next](../../media/f9481cb1-559d-4da1-9643-9cacb0d80d29.png)
   
-8. Selecteer **Bevestigen**.
+8. Selecteer **bevestigen**.
     
 9. Herhaal de vorige stappen om de vijf andere CNAME-records te maken.
     
@@ -212,25 +212,25 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. Voeg in plaats daarvan de vereiste Microsoft-waarden toe aan de huidige record, zodat u *één* SPF-record hebt die beide waardensets bevat. 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. 
   
 1. Als u wilt beginnen, gaat u naar uw domeinenpagina in OVH via [deze koppeling](https://www.ovh.com/manager/). U wordt gevraagd u aan te melden.
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. Selecteer **DNS-zone**.
+3. Selecteer **DNS zone**.
     
     ![OVH select DNS zone](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
-4. Selecteer **Een item toevoegen**.
+4. Selecteer **item toevoegen**.
     
     ![OVH Add an entry](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
-5. Selecteer **TXT**.
+5. Selecteer **txt**.
     
 6. Typ of kopieer en plak de volgende waarden in de vakken voor de nieuwe record.
     
@@ -238,13 +238,13 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(laat leeg)  <br/> |3600 (seconden)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.           |
    
-    ![OVH Voeg TXT-record voor SPF toe](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
+    ![OVH de TXT-record voor SPF toevoegen](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
 7. Selecteer **Volgende**.
     
-    ![OVH Voeg TXT-record voor SPF toe en selecteer Volgende](../../media/7937eb7c-114f-479f-a916-bcbe476d6108.png)
+    ![OVH toevoegen TXT-record voor SPF en selecteer volgende.](../../media/7937eb7c-114f-479f-a916-bcbe476d6108.png)
   
-8. Selecteer **Bevestigen**.
+8. Selecteer **bevestigen**.
     
     ![OVH Add TXT record for SPF and Confirm](../../media/649eefeb-3227-49e3-98a0-1ce19c42fa54.png)
   
@@ -255,15 +255,15 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![OVH login](../../media/1424cc15-720d-49d1-b99b-8ba63b216238.png)
   
-2. Selecteer **onder Domeinen**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **domeinen**de naam van het domein dat u wilt bewerken.
     
     ![OVH Select the domain](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. Selecteer **DNS-zone**.
+3. Selecteer **DNS zone**.
     
     ![OVH select DNS zone](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
-4. Selecteer **Een item toevoegen**.
+4. Selecteer **item toevoegen**.
     
     ![OVH Add an entry](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
@@ -273,20 +273,20 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 6. Maak de eerste SRV-record.
     
-    Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest **u Gepersonaliseerd** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
+    Typ of kopieer en plak de waarden uit de eerste rij van de volgende tabel in de vakken voor de nieuwe record. Als u een TTL-waarde wilt toewijzen, kiest u **aangepast** in de vervolgkeuzelijst en typt u de waarde in het tekstvak. 
     
     |**Recordtype**|**Subdomein**|**Prioriteit**|**Gewicht**|**Poort**|**TTL**|**Doel**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (service)  <br/> |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |3600 (seconden)  <br/> |sipdir.online.lync.com.  <br/> |
-    |SRV (service)  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600 (seconden)  <br/> |sipfed.online.lync.com.  <br/> |
+    |SRV (service)  <br/> |_sip _sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |3600 (seconden)  <br/> |sipdir.online.lync.com.  <br/> |
+    |SRV (service)  <br/> |_sipfederationtls _sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600 (seconden)  <br/> |sipfed.online.lync.com.  <br/> |
        
-    ![OVH SRV record](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
+    ![OVH SRV-record](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   
 7. Selecteer **Volgende**.
     
     ![OVH SRV record select Next](../../media/cb4ad7e2-a8f0-4ab1-9797-d1b51c1d2da9.png)
   
-8. Selecteer **Bevestigen**.
+8. Selecteer **bevestigen**.
     
 9. Herhaal de vorige stappen om de andere SRV-record te maken. Typ of kopieer en plak de waarden uit de tweede rij van de bovenstaande tabel in de vakken voor de tweede record.
     
