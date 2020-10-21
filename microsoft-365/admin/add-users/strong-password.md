@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Informatie over het instellen van krachtige wachtwoordvereisten voor uw gebruikers met behulp van Windows PowerShell.
-ms.openlocfilehash: 1230ff4b4235ac5acbc28aa823506dfa5af26c2d
-ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
+ms.openlocfilehash: 1634e2f0de2cdd2cac5e1928adbef54457e50716
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48581018"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48626141"
 ---
 # <a name="set-strong-password-requirement-for-users"></a>Sterke wachtwoordvereisten voor gebruikers instellen
 
@@ -42,10 +42,15 @@ U moet ook verbinding maken met Microsoft 365 met PowerShell.
 
 1. [Maak verbinding met Microsoft 365 met PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-2. Met behulp van PowerShell kunt u sterke wachtwoorden voor specifieke gebruikers uitschakelen met deze opdracht:
+2. Met behulp van PowerShell kunt u sterke wachtwoordvereisten voor alle gebruikers inschakelen met de volgende opdracht:
 
     ```powershell
-    Set-MsolUser –UserPrincipalName –StrongPasswordRequired  $false
+    Get-MsolUser | Set-MsolUser -StrongPasswordRequired $true
+
+3. You can turn on strong password requirements for specific users with this command:
+
+    ```powershell
+    Set-MsolUser –UserPrincipalName –StrongPasswordRequired  $true
     ```
 
 > [!NOTE]

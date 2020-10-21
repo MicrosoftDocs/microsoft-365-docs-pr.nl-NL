@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven en beheren van quarantaine berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP) kunnen ook quarantaine bestanden beheren in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: 5e1115157ef7d67bc7a3f626eb61d01ecc0986cb
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 65cf0a116dbed3dce93db8e34fa96d6ab68a9c9e
+ms.sourcegitcommit: e17fd18b01d70e6428263c20cbce4b92e2a97765
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600539"
+ms.locfileid: "48626165"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -70,6 +70,7 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
    - **Reden van quarantaine**<sup>\*</sup>
    - **Vrijgegeven?**<sup>\*</sup>
    - **Beleidstype**<sup>\*</sup>
+   - **Vervalt op**
    - **Ontvanger**
    - **Bericht-ID**
    - **Beleidsnaam**
@@ -95,12 +96,12 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
      - **Malware**
      - **Spam**
      - **Hoge betrouwbaarheid van phishing**
-     
-   - **Type beleid**: berichten filteren op beleidstype:
+
+   - **Beleidstype**: berichten filteren op beleidstype:
      - **Anti malwarebeleid**
      - **Beleid voor veilige bijlagen**
-     - **Anti-phishings beleid**
-     - **Filter beleid met gehoste inhoud**
+     - **Beleid tegen phishing**
+     - **Filter beleid met gehoste inhoud** (Antispambeleid)
      - **Transport regel**
 
    - **E-mail ontvanger**: alle gebruikers of alleen berichten die naar u zijn verzonden. Eindgebruikers kunnen alleen quarantaine berichten beheren die ze hebben verzonden.
@@ -120,6 +121,8 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
    - **E-mailadres ontvanger**: een enkel e-mailadres van een ontvanger.
 
    - **Onderwerp**: gebruik het volledige onderwerp van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
+  
+   - **Beleidsnaam**: de naam van het beleid dat verantwoordelijk is voor het quarantining van het bericht.
 
    Nadat u de zoekcriteria hebt opgegeven, klikt u op de ![Knop vernieuwen](../../media/scc-quarantine-refresh.png) **Vernieuwen** om de resultaten te filteren.
 
@@ -147,6 +150,8 @@ Wanneer u een e-mailbericht selecteert in de lijst verschijnen de volgende beric
 
 - **Reden voor quarantaine**: geeft aan of een bericht als **spam**, **bulksgewijs**, **phishing**of in overeenstemming met een e-mail stroom regel (**transport regel**) is geïdentificeerd, of dat is geïdentificeerd als **malware**.
 
+- **Aantal geadresseerden**
+
 - **Ontvangers**: als het bericht naar meerdere ontvangers is gestuurd, moet u klikken op **Preview bericht** of **Berichtkop bekijken** om de volledige lijst met ontvangers te zien.
 
 - **Vervalt op**: de datum/tijd waarop het bericht automatisch en permanent wordt verwijderd uit quarantaine.
@@ -173,7 +178,6 @@ Wanneer u een bericht hebt geselecteerd, kunt u in het vervolgmenu **Details** v
   Opmerkingen over het vrijgeven van berichten:
 
   - U kunt een bericht niet meer dan één keer vrijgeven voor dezelfde geadresseerde.
-
   - Alleen geadresseerden die het bericht niet hebben ontvangen, worden weergegeven in de lijst met potentiële geadresseerden.
 
 - **Berichtkop bekijken**: kies deze koppeling om de tekst van de berichtkop te bekijken. Om de kopvelden en -waarden uitgebreid te analyseren, kopieert u de berichtkoptekst naar uw klembord en kies vervolgens **Microsoft-berichtkopanalyse** om naar de Verbindingsanalyse op afstand te gaan (klik met de rechtermuisknop en kies **In een nieuw tabblad openen** als u Microsoft 365 niet wilt verlaten om deze taak te voltooien). Plak de berichtkop in de pagina in de sectie Berichtkopanalyse en kies **Koppen analyseren**:
@@ -219,13 +223,13 @@ Klik op **Sluiten** wanneer u gereed bent.
 > [!NOTE]
 > De procedures voor in deze sectie geplaatste bestanden zijn alleen beschikbaar voor de abonnement 1 en abonnement 2.
 
-In organisaties met een ATP kunnen beheerders in SharePoint Online, OneDrive voor bedrijven en Microsoft teams in quarantaine geplaatste bestanden beheren.
+In organisaties met een ATP kunnen beheerders in SharePoint Online, OneDrive voor bedrijven en Microsoft teams in quarantaine geplaatste bestanden beheren. Zie [ATP voor SharePoint, OneDrive en Microsoft teams](turn-on-atp-for-spo-odb-and-teams.md)inschakelen om beveiliging voor deze bestanden in te schakelen.
 
 ### <a name="view-quarantined-files"></a>Bestanden met quarantaine weergeven
 
 1. Ga in het beveiligings- en compliancecentrum naar **Risicobeheer** \> **Bekijken** \> **Quarantaine**.
 
-2. De **weergave in quarantaine** wijzigen in de standaardwaarden **bestanden**. U kunt op een veld sorteren door te klikken op een beschikbare kolomkop.
+2. Wijzig de **weergave in quarantaine** voor de Value **files**. U kunt op een veld sorteren door te klikken op een beschikbare kolomkop.
 
 3. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. De standaardkolommen zijn gemarkeerd met een sterretje ( <sup>\*</sup> ):
 
@@ -248,6 +252,7 @@ In organisaties met een ATP kunnen beheerders in SharePoint Online, OneDrive voo
      - Een aangepast datum/tijdbereik.
    - **Tijdstip van de ontvangst**
    - **Reden voor quarantaine**: de enige beschikbare waarde is **malware**.
+   - **Beleidstype**
 
 Wanneer u een specifiek in quarantaine geplaatste bestand hebt gevonden, selecteert u het bestand om de details ervan weer te geven, en kunt u actie ondernemen (u kunt het bericht bijvoorbeeld weergeven, vrijgeven, downloaden of verwijderen).
 
@@ -293,8 +298,6 @@ Wanneer u in de lijst meerdere quarantaine bestanden selecteert (maximaal 100), 
 
 - **Bestanden vrijgeven**
 - **Bestanden verwijderen**: nadat u op **Ja** hebt geklikt in de waarschuwing die verschijnt, worden de bestanden direct verwijderd.
-
-1. Meld u aan met een werk-of schoolaccount met globale beheerdersrechten (of de juiste beveiligings & functies voor compliance Center) in uw organisatie, meld [u aan en ga naar het beveiligings & compliance Center](../../compliance/go-to-the-securitycompliance-center.md).
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>PowerShell van Exchange Online of zelfstandige EOP PowerShell gebruiken om quarantaine berichten en-bestanden weer te geven en te beheren
 
