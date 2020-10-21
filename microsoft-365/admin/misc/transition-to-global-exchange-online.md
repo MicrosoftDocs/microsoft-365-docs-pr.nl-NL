@@ -1,30 +1,30 @@
 ---
-title: Uw MX-records bijwerken om over te stappen op de wereldwijde Exchange Online-service
+title: Uw MX-records bijwerken om te overstappen naar de wereldwijde Exchange Online-service
 f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over de overgang van Microsoft Cloud Germany Exchange Online naar de wereldwijde Exchange Online-service
-ms.openlocfilehash: 41628b3032f5b268d5e32501b393fef31663dfc3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over hoe u overstapt van Microsoft Cloud Duitsland Exchange Online naar de wereldwijde service voor Exchange Online
+ms.openlocfilehash: 8de64e30205b07a0c20a8ae4f7cdedbf6cc6824f
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399228"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644853"
 ---
-# <a name="update-your-mx-records-to-transition-to-the-global-exchange-online-service"></a>Uw MX-records bijwerken om over te stappen op de wereldwijde Exchange Online-service
+# <a name="update-your-mx-records-to-transition-to-the-global-exchange-online-service"></a>Uw MX-records bijwerken om te overstappen naar de wereldwijde Exchange Online-service
 
-1. Meld u aan bij [microsoft 365-beheerportal](https://admin.microsoft.com)en ga naar **Settings**  >  **Instellingendomeinen**
+1. Meld u aan bij [Microsoft 365 admin Portal](https://admin.microsoft.com), ga naar **instellingen**  >  **domeinen**
 
-2. Status wordt weergegeven aan de rechterkant voor elk domein. Als de domeinen van uw organisatie wijzen op Microsoft Cloud Germany Exchange Online, moet u uw MX-record bijwerken.
+2. De status wordt aan de rechterkant van elk domein weergegeven. Als het domein van uw organisatie naar Microsoft Cloud Duitsland Exchange Online verwijst, moet u uw MX-record bijwerken.
 
-3. Klik op het domein, klik vervolgens op **DNS-fouten gedetecteerd, klik hier om te bekijken**.
+3. Klik op het domein en klik op **DNS-fouten gedetecteerd, klik hier om te bekijken**.
 
-4. Op deze pagina vindt u instructies om u te laten zien hoe u de MX-record herstellen. Als de registrar van uw domein [Domain Connect](../setup/add-domain.md#registrars-with-domain-connect)gebruikt, u bovenaan op 'Mijn records herstellen' klikken. Anders u de koppeling in de wizard volgen naar **stapsgewijze instructies** voor uw registrar.
+4. Deze pagina bevat instructies om u te laten zien hoe u de MX-record kunt oplossen. Als voor de registratie van uw domein [domein verbinding](../setup/add-domain.md#registrars-with-domain-connect)wordt gebruikt, kunt u op ' mijn records oplossen ' bovenaan klikken. Anders kunt u de koppeling in de wizard volgen voor **Stapsgewijze instructies** voor uw registratie.

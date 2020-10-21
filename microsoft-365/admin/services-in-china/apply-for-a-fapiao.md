@@ -1,10 +1,10 @@
 ---
-title: Een Fapiao aanvragen voor Office 365 die wordt beheerd door 21Vianet
+title: Toepassen op een Fapiao voor Office 365, beheerd door 21Vianet
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,134 +19,134 @@ search.appverid:
 - MET150
 - GEA150
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
-description: Lees hoe u uw Fapiao-verzoek indient bij het 21Vianet Fapiao-beheersysteem na betaling in het Office 365 dat wordt beheerd door 21Vianet in China.
+description: Meer informatie over het verzenden van uw Fapiao-aanvraag naar het 21Vianet Fapiao Management System na betaling van een betaling in de Office 365, beheerd door 21Vianet in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 4503226d50a719e169e9112538e7d0dcd172197e
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: ebaec639c7eccbfef848c1cd8a4857a5a9a77443
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432401"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644889"
 ---
-# <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Een Fapiao aanvragen voor Office 365 die wordt beheerd door 21Vianet
+# <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Toepassen op een Fapiao voor Office 365, beheerd door 21Vianet
 
 > [!NOTE]
 > Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
-U uw Fapiao-verzoek ongeveer drie dagen na betaling indienen bij het 21Vianet Fapiao-beheersysteem. Nadat u uw Fapiao-aanvraag hebt ingediend, wordt het binnen twee dagen verwerkt.
+U kunt uw Fapiao-aanvraag na drie dagen na betaling indienen bij het 21Vianet Fapiao-beheersysteem. Nadat u uw Fapiao aanvraag hebt verzonden, wordt deze binnen twee dagen verwerkt.
   
-![Stroomdiagram met de Fapiao-aanvraagprocedure.](../../media/bf14884a-53f9-4c53-971c-b9b8ad6ec8d3.png)
+![Stroomdiagram met het Fapiao-toepassingsproces.](../../media/bf14884a-53f9-4c53-971c-b9b8ad6ec8d3.png)
   
-## <a name="step-1-apply-for-a-fapiao"></a>Stap 1: Solliciteer voor een Fapiao
+## <a name="step-1-apply-for-a-fapiao"></a>Stap 1: een Fapiao toepassen
 
-Er zijn twee manieren om een Fapiao aan te vragen:
+Er zijn twee manieren om een Fapiao toe te passen:
   
-1. Nadat u een betaling hebt gedaan in de Office 365 die wordt beheerd door de 21Vianet-website, ontvangt u een e-mail met een orderbevestiging met uw bestelnummer en een link naar het Fapiao-beheersysteem. U de koppeling in de e-mail gebruiken om een account aan te maken in het <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao informatiebeheersysteem.</a>
+1. Nadat u een betaling hebt uitgevoerd op de website van Office 365 die wordt beheerd door 21Vianet, ontvangt u een e-mailbericht met uw ordernummer en een koppeling naar het Fapiao-beheersysteem. U kunt de koppeling in het e-mailbericht gebruiken om een account te maken in het <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao Information Management System</a>.
 
     Of
 
-2. U een Fapiao aanvragen bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center.</a>
+2. U kunt een Fapiao van het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>toepassen.
 
-    ![De pagina Facturen in het Microsoft 365-beheercentrum.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
+    ![De pagina facturen in het Microsoft 365-Beheercentrum.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
   
-## <a name="step-2-register-with-the-21vianet-fapiao-management-system"></a>Stap 2: Registreer met het 21Vianet Fapiao management systeem
+## <a name="step-2-register-with-the-21vianet-fapiao-management-system"></a>Stap 2: registreren met het 21Vianet Fapiao-beheersysteem
 
 > [!NOTE]
-> U dezelfde e-mailnaam en hetzelfde wachtwoord gebruiken als uw Office 365-account, of u iets anders gebruiken.
+> U kunt dezelfde e-mail naam en hetzelfde wachtwoord gebruiken als uw Office 365-account, of u kunt een ander account gebruiken.
   
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao informatiemanagementsysteem.</a>
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao Information Management System</a>.
 
-2. Voer in het registratieformulier uw bestelnummer, e-mailadres en wachtwoord in en selecteer **Registratie**.
+2. Voer in het registratieformulier uw bestelnummer, e-mailadres en wachtwoord in en selecteer vervolgens **registreren**.
 
-    ![De 21Vianet Fapioa management systeem registratie pagina.](../../media/60d39184-95b2-4ea4-a8a2-3e11763bec87.png)
+    ![De bewerkings pagina van het 21Vianet Fapioa Management System.](../../media/60d39184-95b2-4ea4-a8a2-3e11763bec87.png)
   
-3. Nadat uw registratie is voltooid, stuurt het systeem een e-mailbericht voor activering naar uw e-mailadres. Open het e-mailbericht en selecteer de koppeling om uw account te activeren.
+3. Wanneer de registratie is voltooid, wordt een e-mailbericht voor activering verzonden naar uw e-mailadres. Open het e-mailbericht en selecteer de koppeling om uw account te activeren.
 
-## <a name="step-3-submit-your-bill-for-a-fapiao"></a>Stap 3: Stuur uw factuur voor een Fapiao
+## <a name="step-3-submit-your-bill-for-a-fapiao"></a>Stap 3: uw factuur verzenden voor een Fapiao
 
-1. Log in op het <a href="https://go.microsoft.com/fwlink/p/?linkid=837465" target="_blank">Fapiao-beheersysteem.</a>
+1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=837465" target="_blank">Fapiao-beheersysteem</a>.
 
-2. Selecteer de factureringsrecord en selecteer **Factuur toepassen**.
+2. Selecteer de facturerings record en selecteer vervolgens **factuur toepassen**.
 
     > [!NOTE]
-    > Het betalingssysteem bevindt zich op een platform van derden en het duurt drie dagen om de order- en betalingsrecord te synchroniseren.
+    > Het betalingssysteem bevindt zich op een platform van een derde partij en duurt drie dagen voor het synchroniseren van de order-en betalingsrecord.
   
-    ![De pagina met het Fapiao-beheersysteem met recente orders.](../../media/b319767d-1d10-4cb4-b270-c5fbcee1368e.png)
+    ![De pagina Fapiao Management System waarop recente opdrachten worden weergegeven.](../../media/b319767d-1d10-4cb4-b270-c5fbcee1368e.png)
   
-3. Selecteer het Type Fapiao, voer de vereiste informatie in en selecteer **Volgende**.
+3. Selecteer het type Fapiao, voer de gevraagde gegevens in en selecteer **volgende**.
 
-    ![Het Fapiao-aanvraagformulier waar u het Fapiao-type selecteert.](../../media/56fe3db1-c20f-4082-a39d-02d7ac41fec8.png)
+    ![Het aanvraagformulier voor de Fapiao waar u het Fapiao type selecteert.](../../media/56fe3db1-c20f-4082-a39d-02d7ac41fec8.png)
   
     > [!NOTE]
-    > - Voor een normale BTW Fapiao hoeft u alleen de naam van de koper in te voeren.
-    > - Indien nodig u een Fapiao aanvragen met een andere titel. U echter slechts één Fapiao-titel toepassen voor één factuur in het systeem. Als u de Fapiao wilt splitsen in verschillende bedragen of titels, <a href="https://portal.partner.microsoftonline.cn/Support/SupportOverview.aspx" target="_blank">dient u uw verzoek in in het beheercentrum.</a>
-    > - De volgende keer dat u een Fapiao aanvraagt, presenteert het systeem automatisch de vorige Fapiao-informatie.
-    > - Als u een aankoopcertificaat of een terugbetaling nodig hebt, moeten de naam van de betaler en de Fapiao-titel overeenkomen.
+    > - Voor een normaal BTW-Fapiao hoeft u alleen de naam van de koper in te voeren.
+    > - U kunt zo nodig een Fapiao met een andere titel gebruiken. U kunt echter maar één Fapiao titel voor één factuur in het systeem toepassen. Als u de Fapiao wilt splitsen in verschillende bedragen of titels, moet u <a href="https://portal.partner.microsoftonline.cn/Support/SupportOverview.aspx" target="_blank">uw aanvraag indienen in het Beheercentrum</a>.
+    > - De volgende keer dat u een Fapiao toepast, geeft het systeem automatisch de eerdere Fapiao-gegevens weer.
+    > - Als u een aankoop certificaat of restitutie nodig hebt, moet de naam van de betaler en de titel van de Fapiao overeenkomen.
 
-4. Selecteer een verzendmethode en voer de verzendgegevens in. U kiezen voor Yunda of SF (freight collect). U ook naar de 21Vianet Shanghai tak om de Fapiao te krijgen. selecteer **Volgende**.
+4. Selecteer een verzendmethode en voer de gegevens van de mailing in. U kunt Yunda of SF kiezen (vracht incasso). U kunt ook naar de 21Vianet Shanghai-tak gaan om de Fapiao te krijgen. Selecteer **volgende**.
 
-    ![Het Fapiao-aanvraagformulier met mailinginformatie.](../../media/bba500b4-a51d-477b-81a7-9113b08d39f1.png)
+    ![Het aanvraagformulier voor de Fapiao met informatie over de verzending.](../../media/bba500b4-a51d-477b-81a7-9113b08d39f1.png)
   
-    **21Vianet Shanghai filiaal bedrijf adres:**
+    **het adres van het filiaal in 21Vianet Shanghai:**
 
-    Shanghai, Pudong New Area Keyuan Road No. 88, Duits Centrum, gebouw 3, 657
+    Shanghai, Pudong New gebied Keyuan Road No. 88, Duits centrum, gebouw 3, 657
 
-    **Contactgegevens:**
+    **Contact gegevens:**
 
-    Zhu qin qin 021-28986102
+    Zhu Qin Qin 021-28986102
 
-5. Controleer of de informatie juist is en selecteer **Bevestigen**.
+5. Controleer of de gegevens juist zijn en selecteer vervolgens **bevestigen**.
 
-    ![De bevestigingspagina van het Fapiao-aanvraagformulier.](../../media/18706d9d-defc-4285-8fd3-990448b44a18.png)
+    ![De bevestigingspagina van het aanvraagformulier voor Fapiao.](../../media/18706d9d-defc-4285-8fd3-990448b44a18.png)
   
-## <a name="step-4-check-application-progress"></a>Stap 4: Voortgang van toepassingen controleren
+## <a name="step-4-check-application-progress"></a>Stap 4: de voortgang van een toepassing controleren
 
-Uw aanvraag wordt automatisch verzonden naar het 21Vianet Service Center en wordt binnen twee werkdagen voltooid.
+Uw aanvraag wordt automatisch doorgestuurd naar het 21Vianet-service centrum en wordt in twee werkdagen voltooid.
   
-Nadat u de aanvraag hebt ingediend, u de voortgang op elk gewenst moment controleren. We zullen de status van uw aanvraag bijwerken met opmerkingen zoals **Uitgegeven** of **Verzonden**.
+Nadat u de toepassing hebt verzonden, kunt u de voortgang op elk moment controleren. We zullen de status van uw toepassing bijwerken met opmerkingen, zoals **uitgegeven** of **e-mailberichten**.
   
-![De 21Vianet Fapiao-beheersysteempagina die de aanvraagstatus weergeeft.](../../media/6cd696ec-d630-4fce-9f27-935a0d5f0ebe.png)
+![De pagina 21Vianet Fapiao Management System waarop de aanvraagstatus wordt weergegeven.](../../media/6cd696ec-d630-4fce-9f27-935a0d5f0ebe.png)
   
-Wanneer Fapiao buiten gebruik is, zal het systeem een bericht weergeven en de verwachte tijd aangeven om de Fapiao uit te geven.
+Als Fapiao niet aanwezig is, wordt er een melding weergegeven en wordt de verwachte tijd aangegeven voor het uitgeven van de Fapiao.
   
-![De foutmelding wordt weergegeven wanneer het 21Vianet Fapiao-beheersysteem buiten gebruik is.](../../media/effe0796-83aa-4a91-a488-15d6f58c01dc.png)
+![Het foutbericht dat wordt weergegeven wanneer het 21Vianet-beheersysteem niet in gebruik is.](../../media/effe0796-83aa-4a91-a488-15d6f58c01dc.png)
   
 ## <a name="faqs"></a>Veelgestelde vragen
 
-### <a name="what-services-can-i-get-from-online-support"></a>Welke diensten kan ik krijgen van online ondersteuning?
+### <a name="what-services-can-i-get-from-online-support"></a>Welke services kan ik kopen via de online ondersteuning?
 
-U de voortgang van uw Fapiao-verzoek controleren en erachter komen waarom u de Fapiao niet hebt ontvangen.
+U kunt de voortgang van uw aanvraag voor Fapiao controleren en achterhalen waarom u de Fapiao niet hebt ontvangen.
   
-Als je de Fapiao titel wilt veranderen, stuur dan de Fapiao terug naar ons en we zullen de Fapiao opnieuw uitgeven. U de aanvraag indienen via het <a href="https://portal.partner.microsoftonline.cn/Support/SupportOverview.aspx" target="_blank">beheercentrum</a>.
+Als u de titel van de Fapiao wilt wijzigen, stuurt u de Fapiao terug naar ons en wordt het Fapiao opnieuw uitgegeven. U kunt de aanvraag indienen bij het <a href="https://portal.partner.microsoftonline.cn/Support/SupportOverview.aspx" target="_blank">Beheercentrum</a>.
   
-![Het ondersteuningsformulier voor het beheercentrum dat wordt gebruikt om een Fapiao terug te sturen om een titelwijziging aan te vragen.](../../media/2a413e9e-f30b-4f26-adbf-6287cc217a0f.png)
+![Het ondersteuning formulier voor het Beheercentrum dat wordt gebruikt om een Fapiao terug te sturen en een titel wijziging aan te vragen.](../../media/2a413e9e-f30b-4f26-adbf-6287cc217a0f.png)
   
-### <a name="how-do-i-change-my-login-email-address-and-password"></a>Hoe wijzig ik mijn e-mailadres en wachtwoord voor inloggen?
+### <a name="how-do-i-change-my-login-email-address-and-password"></a>Hoe wijzig ik mijn e-mailadres en wachtwoord?
 
-1. Log in op het <a href="https://go.microsoft.com/fwlink/p/?linkid=837465" target="_blank">Fapiao-beheersysteem</a>en selecteer **E-mailadres wijzigen.**
+1. Meld u aan bij het <a href="https://go.microsoft.com/fwlink/p/?linkid=837465" target="_blank">Fapiao-beheersysteem</a>en selecteer vervolgens **e-mailadres wijzigen**.
 
-    ![Het vervolgkeuzemenu nadat een gebruiker is ingelogd op het 21Vianet Fapiao-beheersysteem.](../../media/ee6de24b-6be2-41e6-8aec-e0c3cb0ea35e.png)
+    ![De vervolgkeuzelijst nadat een gebruiker is aangemeld bij het 21Vianet Fapiao-beheersysteem.](../../media/ee6de24b-6be2-41e6-8aec-e0c3cb0ea35e.png)
   
-2. Als u uw inlogwachtwoord bent vergeten, u uw aanmeldings-e-mailadres gebruiken om het wachtwoord opnieuw in te stellen. Het Fapiao-beheersysteem stuurt een nieuw wachtwoord naar uw e-mailadres. U het nieuwe wachtwoord gebruiken om in te loggen.
+2. Als u uw wachtwoord bent vergeten, kunt u het wachtwoord opnieuw instellen met uw aanmeldings-e-mailadres. Het Fapiao-beheersysteem stuurt een nieuw wachtwoord naar uw e-mailadres. U kunt het nieuwe wachtwoord gebruiken om u aan te melden.
 
-    ![Sequentiële afbeeldingen die laten zien hoe u uw wachtwoord opnieuw instellen in het 21Vianet Fapiao-beheersysteem.](../../media/2edb0a47-1286-4792-804d-7e84534c8370.png)
+    ![Opeenvolgende afbeeldingen met het opnieuw instellen van uw wachtwoord in het 21Vianet Fapiao-beheersysteem.](../../media/2edb0a47-1286-4792-804d-7e84534c8370.png)
   
-3. Als u uw e-mailadres bent vergeten, neem dan contact op met de klantenservice van 21Vianet op (86) 400-089-0365.
+3. Als u uw e-mailadres voor aanmelding bent vergeten, kunt u contact opnemen met de klantenservice van 21Vianet via (86) 400-089-0365.
 
-### <a name="how-do-i-find-my-order-id"></a>Hoe vind ik mijn bestel-ID?
+### <a name="how-do-i-find-my-order-id"></a>Hoe kan ik mijn order-ID vinden?
 
-1. Ga in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)naar de pagina **Billing** \> **Factureringsfacturen & betalingspagina.**
+1. Ga in het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627)naar de pagina **facturen** \> **& betalingen** .
 
-2. Zoek de gewenste factuur, selecteer om de PDF te bekijken of kies ervoor om de PDF te downloaden.
+2. Zoek de gewenste factuur, Selecteer om te bekijken of kies om het PDF-bestand te downloaden.
 
-### <a name="what-if-i-enter-the-wrong-email-address-when-i-register"></a>Wat moet ik doen als ik het verkeerde e-mailadres invul wanneer ik me registreer?
+### <a name="what-if-i-enter-the-wrong-email-address-when-i-register"></a>Wat moet ik doen als ik het verkeerde e-mailadres invoer wanneer ik me Registreer?
 
-Als u het verkeerde e-mailadres invoert wanneer u zich registreert, ontvangt u de activeringse-e-mail niet. De registratielink in de e-mail vervalt automatisch na 24 uur. U terugkeren naar de <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">registratiepagina</a> en u opnieuw registreren met het juiste e-mailadres.
+Als u het verkeerde e-mailadres invoert wanneer u zich registreert, ontvangt u geen activerings-e-mail. De registratie koppeling in het e-mailbericht verloopt automatisch na 24 uur. U kunt teruggaan naar de <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">registratiepagina</a> en opnieuw registreren met het juiste e-mailadres.
   
-### <a name="what-if-i-dont-receive-an-activation-email"></a>Wat moet ik doen als ik geen activeringsmail ontvang?
+### <a name="what-if-i-dont-receive-an-activation-email"></a>Wat moet ik doen als ik geen activerings-e-mail ontvang?
 
-Als u binnen 24 uur na uw registratie geen e-mail voor accountactivering ontvangt, gaat u naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao-informatiebeheersysteem,</a>voert u uw e-mailadres in en selecteert u **De activeringse-e-mail opnieuw verzenden.** Het systeem stuurt de e-mail voor accountactivering opnieuw naar uw geregistreerde e-mailadres.
+Als u na het registreren van een e-mailaccount een e-mailaccount een e-mailadres niet kunt activeren, gaat u naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">systeem over Fapiao informatiebeheer</a>, voert u uw e-mailadres in en selecteert u vervolgens **de e-mail activering opnieuw verzenden**. Het systeem stuurt de e-mail over account activering opnieuw naar uw geregistreerde e-mailadres.
   
-![De 21Vianet Fapioa management systeem registratie pagina.](../../media/60d39184-95b2-4ea4-a8a2-3e11763bec87.png)
+![De bewerkings pagina van het 21Vianet Fapioa Management System.](../../media/60d39184-95b2-4ea4-a8a2-3e11763bec87.png)
   
-Als u nog steeds geen activeringse-mail ontvangt, neem dan contact op met de klantenservice van 21Vianet op (86) 400-089-0365.
+Als u nog steeds geen activerings-e-mail ontvangt, neem dan contact op met de klantenservice van (86) 400-089-0365.

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: Meer informatie over Azure Information Protection voor Office 365, beheerd door 21Vianet, en hoe u dit configureert voor klanten in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: ca30811e77f686b92b8cdd13d624182eb0d3039e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: ad3420483701c83ffef65994996047de56a7085c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445577"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644661"
 ---
 # <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Pariteit tussen Azure Information Protection voor Office 365, beheerd door 21Vianet en commerciële aanbiedingen
 
@@ -55,12 +55,12 @@ Voor een juiste werking van de versleuteling moet RMS zijn ingeschakeld voor de 
 
 - Controleer of de RMS is ingeschakeld:
   1. Start PowerShell als beheerder.
-  2. Als de module AIPService niet is geïnstalleerd, voert u deze opdracht uit  `Install-Module AipService` .
+  2. Als de module AIPService niet is geïnstalleerd, voert u deze opdracht uit `Install-Module AipService` .
   3. Importeer de module met `Import-Module AipService` .
-  4. Maak verbinding met de service  `Connect-AipService -environmentname azurechinacloud` .
-  5. Voer  `(Get-AipServiceConfiguration).FunctionalState`   en controleer of de status is  `Enabled` .
+  4. Maak verbinding met de service `Connect-AipService -environmentname azurechinacloud` .
+  5. Voer `(Get-AipServiceConfiguration).FunctionalState` en controleer of de status is `Enabled` .
 
-- Voer dit uit als de functionele status wordt  `Disabled` uitgevoerd  `Enable-AipService` .
+- Voer dit uit als de functionele status wordt `Disabled` uitgevoerd `Enable-AipService` .
 
 ### <a name="dns-configuration-for-encryption-windows"></a>DNS-configuratie voor versleuteling (Windows)
 
@@ -70,27 +70,27 @@ Daarnaast is het raadzaam dat gebruikers zich aanmelden met een gebruikersnaam o
 
 - De RMS-ID achterhalen:
   1. Start PowerShell als beheerder.
-  2. Als de module AIPService niet is geïnstalleerd, voert u deze opdracht uit  `Install-Module AipService` .
-  3. Maak verbinding met de service  `Connect-AipService -environmentname azurechinacloud` .
-  4. Uitvoeren  `(Get-AipServiceConfiguration).RightsManagementServiceId`   om de RMS-id te achterhalen.
+  2. Als de module AIPService niet is geïnstalleerd, voert u deze opdracht uit `Install-Module AipService` .
+  3. Maak verbinding met de service `Connect-AipService -environmentname azurechinacloud` .
+  4. Uitvoeren `(Get-AipServiceConfiguration).RightsManagementServiceId` om de RMS-id te achterhalen.
 
 - Meld u aan bij uw DNS-provider, navigeer naar de DNS-instellingen voor het domein en voeg een nieuwe SRV-record toe.
-  - Service = `_rmsredir`
-  - Protocol = `_http`
-  - Naam = `_tcp`
-  - Target =  `[GUID].rms.aadrm.cn`   (waarbij GUID de RMS-id is)
+  - Service = `_rmsredir`
+  - Protocol = `_http`
+  - Naam = `_tcp`
+  - Target = `[GUID].rms.aadrm.cn` (waarbij GUID de RMS-id is)
   - Prioriteit, gewicht, seconden, TTL = standaardwaarden
 
-- Koppel het aangepaste domein aan de Tenant in de [Azure-Portal](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Hiermee voegt u een vermelding toe aan DNS, wat kan enkele minuten duren voordat deze is toegevoegd aan de DNS-instellingen.
+- Koppel het aangepaste domein aan de Tenant in de [Azure-Portal](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Hiermee voegt u een vermelding toe aan DNS, wat kan enkele minuten duren voordat deze is toegevoegd aan de DNS-instellingen.
 
 - Meld u aan bij het Microsoft 365-Beheercentrum met de bijbehorende globale-beheerdersreferenties en voeg het domein toe (bijvoorbeeld `contoso.cn` ) voor het maken van de gebruiker. In het verificatieproces zijn er mogelijk extra DNS-wijzigingen vereist. Wanneer de verificatie is voltooid, kunnen gebruikers maken.
 
 ### <a name="dns-configuration-for-encryption-mac-ios-android"></a>DNS-configuratie voor versleuteling (Mac, iOS, Android)
 
 - Meld u aan bij uw DNS-provider, navigeer naar de DNS-instellingen voor het domein en voeg een nieuwe SRV-record toe.
-  - Service = `_rmsdisco`
-  - Protocol = `_http`
-  - Naam = `_tcp`
-  - Doel = `api.aadrm.cn`
-  - Poort = `80`
+  - Service = `_rmsdisco`
+  - Protocol = `_http`
+  - Naam = `_tcp`
+  - Doel = `api.aadrm.cn`
+  - Poort = `80`
   - Prioriteit, gewicht, seconden, TTL = standaardwaarden

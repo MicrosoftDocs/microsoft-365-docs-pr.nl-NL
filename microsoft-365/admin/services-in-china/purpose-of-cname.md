@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.collection:
@@ -18,20 +18,20 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NOINDEX
-description: Meer informatie over de CNAME-record 'MSOID' in Office 365 die u naar de beste server voor verificatieprocessen leidt, zodat u sneller reageert.
+description: Meer informatie over de ' MSOID-CNAME-record in Office 365 waarmee u naar de beste server voor verificatieprocessen wordt geleid, zodat u een sneller antwoord krijgt.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 91643e4d9cf136d0f64aac89a877ee98e373727f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ac9ad3ad9f860722760d59c54570a453146a3a93
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399024"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644637"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>Wat is het doel van de CNAME-record MSOID voor Office 365?
 
  **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
 > [!NOTE]
-> Het volgende geldt alleen voor **Office 365 dat wordt beheerd door 21Vianet.
+> Het volgende is alleen van toepassing op * * Office 365, beheerd door 21Vianet.
   
 U vraagt zich misschien af waarom u een CNAME-record voor MSOID moet toevoegen in Office 365. Dit is een record die u moet toevoegen voor alle aangepaste domeinen, ongeacht het abonnement dat u gebruikt. Waarom hebt u deze record nodig? Het is een beetje een technisch verhaal, maar het komt erop neer dat u wordt doorgestuurd naar de beste server voor bepaalde verificatieprocessen, zodat u sneller een reactie krijgt.
   
@@ -41,8 +41,8 @@ Als deze CNAME-record voor uw domein ontbreekt, wordt door deze toepassingen een
   
  **Als Office 365 de DNS-records van uw domein beheert,** Office 365 stelt deze CNAME-record voor u in. 
   
- **Als u DNS-records voor uw domein beheert bij uw DNS-host,** maakt u deze record zelf door [de instructies voor uw DNS-host te volgen.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+ **Als u DNS-records voor uw domein bij uw DNS-host beheert,** maakt u deze record zelf door [de instructies te volgen voor uw DNS-host](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
   
-Als u een Office 365-implementatie plant en meer wilt weten over alle DNS-records die u mogelijk moet toevoegen of bijwerken, leest u deze gegevens in [Referentie: Extern domeinnaamsysteemrecords voor Office 365](https://go.microsoft.com/fwlink/?LinkId=579013).
+Als u een Office 365-implementatie plant en meer wilt weten over alle DNS-records die u mogelijk wilt toevoegen of bijwerken, raadpleegt u de volgende informatie: externe DNS-records ( [Domain Name System) voor Office 365](https://go.microsoft.com/fwlink/?LinkId=579013).
   
 

@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Controleren van mislukte en vertraagde e-mailberichten die zijn verzonden naar of van accounts die hoge bedrijfsimpact hebben.
-ms.openlocfilehash: 053246da7f57c46045bfc777bc4de981ce51c6e5
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: ce78316290f18f06337adc0e78a1b8992be7b425
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794189"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644582"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Prioriteits accounts beheren en controleren
 
@@ -69,7 +69,7 @@ U kunt in het Microsoft 365-Beheercentrum op de pagina **Setup** de e-mail statu
 
 ## <a name="email-issues-for-priority-accounts"></a>E-mail problemen met prioriteit accounts
 
-U kunt e-mail problemen voor prioriteit accounts bijhouden door in het Exchange-Beheercentrum naar het rapport **e-mail problemen met prioriteit** accounts te gaan. Voor meer informatie raadpleegt u [e-mail problemen met prioriteit accounts](https://review.docs.microsoft.com/en-us/Exchange/mail-flow-best-practices/mail-flow-insights/mfi-email-issues-for-priority-accounts?branch=Priority-chrisda).
+U kunt e-mail problemen voor prioriteit accounts bijhouden door in het Exchange-Beheercentrum naar het rapport **e-mail problemen met prioriteit** accounts te gaan. Voor meer informatie raadpleegt u [e-mail problemen met prioriteit accounts](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report).
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>Een gebruiker verwijderen uit de lijst met prioriteit accounts
 

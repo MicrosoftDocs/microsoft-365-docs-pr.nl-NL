@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,15 +19,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4f374dc7-b96c-49c7-80ed-554716ba0138
-description: 'Leer werk- of schoole-mail gebruiken om je aan te melden voor onlineservices van Microsoft zonder dat hun IT-afdeling erbij betrokken is. '
-ms.openlocfilehash: c602ba52e3cca1b031e2e772355a84c06b779b5d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 'Lees meer over het gebruik van e-mail van werk of school om u aan te melden voor Microsoft Online Services zonder dat u de IT-afdeling gebruikt. '
+ms.openlocfilehash: ad46d698398da32d88d0c1617499b326e8fcb163
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399264"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644865"
 ---
-# <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>Uw domein kan in gebruik zijn als iemand anders zich ermee heeft aangemeld
+# <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>Uw domein kan in gebruik zijn als iemand anders zich heeft aangemeld
 
 Gebruikers met een e-mailadres voor werk of school kunnen [zich registreren voor enkele onlineservices van Microsoft](self-service-sign-up.md) zonder tussenkomst van hun IT-afdeling. Dit geldt bijvoorbeeld voor services als Office 365, Power BI en Rights Management Services. Door de selfserviceregistratie uit te voeren, waarbij ze hun e-mailadres voor hun werk of school opgeven, hebben ze toegang tot functies van de service. Ze kunnen de service echter niet beheren (gebruikers toevoegen, licenties toevoegen, het domein beheren, enzovoort). 
   
