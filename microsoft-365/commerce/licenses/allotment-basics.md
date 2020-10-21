@@ -1,10 +1,10 @@
 ---
-title: Basisbeginselen van toewijzing
+title: Basisinformatie over de toewijzing
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,40 +13,40 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
 ms.custom: AdminSurgePortfolio
-description: Meer informatie over de nieuwe toewijzingsfunctie.
-ms.openlocfilehash: c8c472fbf30bb898f9a10eca778ee7c668c8c388
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Meer informatie over de nieuwe functieservice-eenheden.
+ms.openlocfilehash: 2ab8efd637bb278faf6065559cab26cb7016975b
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402412"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48638229"
 ---
-# <a name="allotment-basics"></a><span data-ttu-id="4b638-103">Basisbeginselen van toewijzing</span><span class="sxs-lookup"><span data-stu-id="4b638-103">Allotment basics</span></span>
+# <a name="allotment-basics"></a><span data-ttu-id="d0a95-103">Basisinformatie over de toewijzing</span><span class="sxs-lookup"><span data-stu-id="d0a95-103">Allotment basics</span></span>
 
-<span data-ttu-id="4b638-104">Met licentietoewijzingen u licentielimieten instellen en het beheer van licentietoewijzing delegeren aan alleen de producten en licentielimieten die u selecteert.</span><span class="sxs-lookup"><span data-stu-id="4b638-104">License allotments let you set license limits and delegate management of license assignment to only the products and license limits that you select.</span></span>
+<span data-ttu-id="d0a95-104">Met licentie-eenheden kunt u licentie limieten instellen en het beheer van een licentie delegeren aan alleen de producten en de door u geselecteerde licentie limieten.</span><span class="sxs-lookup"><span data-stu-id="d0a95-104">License allotments let you set license limits and delegate management of license assignment to only the products and license limits that you select.</span></span>
 
-<span data-ttu-id="4b638-105">Toewijzingen gebruiken groepslicenties om licenties toe te wijzen aan uw gebruikers.</span><span class="sxs-lookup"><span data-stu-id="4b638-105">Allotments use group-based licensing to assign licenses to your users.</span></span> <span data-ttu-id="4b638-106">Licentielimieten bieden extra controle over het aantal licenties dat aan de gebruikers in uw groepen is toegewezen.</span><span class="sxs-lookup"><span data-stu-id="4b638-106">License limits provide added control over how many licenses are assigned to the users in your groups.</span></span> <span data-ttu-id="4b638-107">Dus zelfs als het aantal gebruikers in uw groepen toeneemt, u ervoor zorgen dat u binnen de licentielimiet blijft die u hebt ingesteld voor uw toewijzing.</span><span class="sxs-lookup"><span data-stu-id="4b638-107">So even as the number of users in your groups increases, you can ensure that you stay within the license limit that you have set for your allotment.</span></span>
+<span data-ttu-id="d0a95-105">Toewijs service voor groeps licenties gebruiken voor het toewijzen van licenties aan uw gebruikers.</span><span class="sxs-lookup"><span data-stu-id="d0a95-105">Allotments use group-based licensing to assign licenses to your users.</span></span> <span data-ttu-id="d0a95-106">Licentie limieten zorgen voor extra controle over het aantal licenties dat is toegewezen aan de gebruikers in uw groepen.</span><span class="sxs-lookup"><span data-stu-id="d0a95-106">License limits provide added control over how many licenses are assigned to the users in your groups.</span></span> <span data-ttu-id="d0a95-107">U kunt er ook voor zorgen dat u binnen de toegestane licentielimiet blijft, zelfs als het aantal gebruikers in uw groepen toeneemt.</span><span class="sxs-lookup"><span data-stu-id="d0a95-107">So even as the number of users in your groups increases, you can ensure that you stay within the license limit that you have set for your allotment.</span></span>
 
-<span data-ttu-id="4b638-108">U ook het beheer van uw toewijzingen delegeren.</span><span class="sxs-lookup"><span data-stu-id="4b638-108">You can also delegate management of your allotments.</span></span> <span data-ttu-id="4b638-109">Gedelegeerde toewijzingseigenaren krijgen toegang tot het beheercentrum, maar kunnen alleen de licenties zien en beheren in de toewijzingen die ze bezitten.</span><span class="sxs-lookup"><span data-stu-id="4b638-109">Delegated allotment owners gain access to the admin center, but can only see and manage the licenses in the allotments they own.</span></span> <span data-ttu-id="4b638-110">Dit biedt meer gedetailleerde delegatie van licentiebeheer binnen uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="4b638-110">This provides more granular delegation of license management within your organization.</span></span>
+<span data-ttu-id="d0a95-108">U kunt ook het beheer van uw service-eenheden delegeren.</span><span class="sxs-lookup"><span data-stu-id="d0a95-108">You can also delegate management of your allotments.</span></span> <span data-ttu-id="d0a95-109">Gedelegeerde service-eigenaren krijgen toegang tot het Beheercentrum, maar kunnen de licenties alleen weergeven en beheren in de toegewezen toewijzingen.</span><span class="sxs-lookup"><span data-stu-id="d0a95-109">Delegated allotment owners gain access to the admin center, but can only see and manage the licenses in the allotments they own.</span></span> <span data-ttu-id="d0a95-110">Dit biedt een meer granulaire overdracht van Licentiebeheer binnen uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="d0a95-110">This provides more granular delegation of license management within your organization.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="4b638-111">Vereisten</span><span class="sxs-lookup"><span data-stu-id="4b638-111">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="d0a95-111">Vereisten</span><span class="sxs-lookup"><span data-stu-id="d0a95-111">Prerequisites</span></span>
 
-<span data-ttu-id="4b638-112">U moet voldoen aan de licentievereisten voor [groepslicenties.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements)</span><span class="sxs-lookup"><span data-stu-id="4b638-112">You must meet the licensing requirements for [group-based licensing](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span></span>
+<span data-ttu-id="d0a95-112">U moet voldoen aan de licentievereisten voor [op groepen gebaseerde licenties](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span><span class="sxs-lookup"><span data-stu-id="d0a95-112">You must meet the licensing requirements for [group-based licensing](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span></span>
 
-<span data-ttu-id="4b638-113">U toewijzingen gebruiken met elk product dat beschikbaar is voor gebruikers:</span><span class="sxs-lookup"><span data-stu-id="4b638-113">You can use allotments with any product available to users:</span></span>
+<span data-ttu-id="d0a95-113">U kunt de toewijzingsservice gebruiken voor alle producten die beschikbaar zijn voor gebruikers:</span><span class="sxs-lookup"><span data-stu-id="d0a95-113">You can use allotments with any product available to users:</span></span>
 
-- <span data-ttu-id="4b638-114">Office-suites en zelfstandige producten</span><span class="sxs-lookup"><span data-stu-id="4b638-114">Office suites and standalone products</span></span>
-- <span data-ttu-id="4b638-115">Enterprise en Mobility producten</span><span class="sxs-lookup"><span data-stu-id="4b638-115">Enterprise and Mobility products</span></span>
-- <span data-ttu-id="4b638-116">Dynamics 365 producten</span><span class="sxs-lookup"><span data-stu-id="4b638-116">Dynamics 365 products</span></span>
+- <span data-ttu-id="d0a95-114">Office-suites en zelfstandige producten</span><span class="sxs-lookup"><span data-stu-id="d0a95-114">Office suites and standalone products</span></span>
+- <span data-ttu-id="d0a95-115">Enterprise-en mobiliteits producten</span><span class="sxs-lookup"><span data-stu-id="d0a95-115">Enterprise and Mobility products</span></span>
+- <span data-ttu-id="d0a95-116">Dynamics 365-producten</span><span class="sxs-lookup"><span data-stu-id="d0a95-116">Dynamics 365 products</span></span>
 
-<span data-ttu-id="4b638-117">De volgende producten kunnen niet worden gebruikt met toewijzingen:</span><span class="sxs-lookup"><span data-stu-id="4b638-117">The following products can't be used with allotments:</span></span>
+<span data-ttu-id="d0a95-117">De volgende producten kunnen niet worden gebruikt met toewijzingen:</span><span class="sxs-lookup"><span data-stu-id="d0a95-117">The following products can't be used with allotments:</span></span>
 
-- <span data-ttu-id="4b638-118">Microsoft Store-apps</span><span class="sxs-lookup"><span data-stu-id="4b638-118">Microsoft Store apps</span></span>
-- <span data-ttu-id="4b638-119">Permanente software, of software die rechtstreeks is toegewezen aan een gebruiker als er geen licentie bij betrokken is.</span><span class="sxs-lookup"><span data-stu-id="4b638-119">Perpetual software, or software that is directly assigned to a user if there is no license involved.</span></span>
-- <span data-ttu-id="4b638-120">Azure-bronnen</span><span class="sxs-lookup"><span data-stu-id="4b638-120">Azure resources</span></span>
+- <span data-ttu-id="d0a95-118">Microsoft Store-apps</span><span class="sxs-lookup"><span data-stu-id="d0a95-118">Microsoft Store apps</span></span>
+- <span data-ttu-id="d0a95-119">Permanente software, of software die rechtstreeks aan een gebruiker is toegewezen als er geen licentie is vereist.</span><span class="sxs-lookup"><span data-stu-id="d0a95-119">Perpetual software, or software that is directly assigned to a user if there is no license involved.</span></span>
+- <span data-ttu-id="d0a95-120">Azure-informatiebronnen</span><span class="sxs-lookup"><span data-stu-id="d0a95-120">Azure resources</span></span>
 
-<span data-ttu-id="4b638-121">U moet een globale of licentiebeheerder zijn om aan de slag te gaan met een toewijzing.</span><span class="sxs-lookup"><span data-stu-id="4b638-121">You must be a global or license admin to get started with an allotment.</span></span>
+<span data-ttu-id="d0a95-121">U moet een globale beheerder of een licentiebeheerder zijn om aan de slag te gaan met een toewijzing.</span><span class="sxs-lookup"><span data-stu-id="d0a95-121">You must be a global or license admin to get started with an allotment.</span></span>
 
-## <a name="getting-started"></a><span data-ttu-id="4b638-122">Slag</span><span class="sxs-lookup"><span data-stu-id="4b638-122">Getting started</span></span>
+## <a name="getting-started"></a><span data-ttu-id="d0a95-122">Aan de slag</span><span class="sxs-lookup"><span data-stu-id="d0a95-122">Getting started</span></span>
 
-<span data-ttu-id="4b638-123">De toewijzingsfunctie is beschikbaar in een privépreview voor slechts een klein aantal klanten.</span><span class="sxs-lookup"><span data-stu-id="4b638-123">The allotments feature is available in a private preview to only a small number of customers.</span></span> <span data-ttu-id="4b638-124">Als je interesse hebt om lid te worden, vul dan dit formulier in: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) .</span><span class="sxs-lookup"><span data-stu-id="4b638-124">If you're interested in joining, fill out this form: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).</span></span>
+<span data-ttu-id="d0a95-123">De functieservice-eenheden is alleen beschikbaar in een persoonlijke preview-versie van slechts een klein aantal klanten.</span><span class="sxs-lookup"><span data-stu-id="d0a95-123">The allotments feature is available in a private preview to only a small number of customers.</span></span> <span data-ttu-id="d0a95-124">Als u wilt deelnemen, vult u dit formulier in: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) .</span><span class="sxs-lookup"><span data-stu-id="d0a95-124">If you're interested in joining, fill out this form: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).</span></span>
