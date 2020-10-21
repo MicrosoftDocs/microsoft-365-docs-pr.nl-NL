@@ -1,43 +1,43 @@
 ---
-title: Ondersteuningsinformatie voor Saint Pierre en Miquelon
+title: Ondersteuningsinformatie voor Saint-Pierre en Miquelon
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 16696e504a935773582ea39c482d6ac9b7bd2bc8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d91c656459133e21b4e2c6fd032d582f520d1254
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44389755"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640041"
 ---
-# <a name="contact-support-for-saint-pierre-and-miquelon"></a><span data-ttu-id="51cbd-103">Neem contact op met de ondersteuning voor Saint Pierre en Miquelon</span><span class="sxs-lookup"><span data-stu-id="51cbd-103">Contact support for Saint Pierre and Miquelon</span></span>
+# <a name="contact-support-for-saint-pierre-and-miquelon"></a><span data-ttu-id="087e8-103">Contact opnemen met de ondersteuning voor Saint-Pierre en Miquelon</span><span class="sxs-lookup"><span data-stu-id="087e8-103">Contact support for Saint Pierre and Miquelon</span></span>
 
-<span data-ttu-id="51cbd-104">[Zoek een ander land of regio.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="51cbd-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="087e8-104">[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="087e8-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="51cbd-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="51cbd-105">Phone number</span></span>
-<span data-ttu-id="51cbd-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="51cbd-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="087e8-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="087e8-105">Phone number</span></span>
+<span data-ttu-id="087e8-106">+ 1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="087e8-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="51cbd-107">Uren</span><span class="sxs-lookup"><span data-stu-id="51cbd-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="51cbd-108">Factureringsondersteuning:</span><span class="sxs-lookup"><span data-stu-id="51cbd-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="087e8-107">Uren</span><span class="sxs-lookup"><span data-stu-id="087e8-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="087e8-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="087e8-108">Billing Support:</span></span>
 
-<span data-ttu-id="51cbd-109">Frans: ma-vr 6:00-14:00</span><span class="sxs-lookup"><span data-stu-id="51cbd-109">French: Mon-Fri 6 AM-2 PM</span></span>
+<span data-ttu-id="087e8-109">Frans: Mon-Fri 6 uur-2 uur</span><span class="sxs-lookup"><span data-stu-id="087e8-109">French: Mon-Fri 6 AM-2 PM</span></span>
 
-<span data-ttu-id="51cbd-110">Engels: ma-vr 6:00-14:00 uur</span><span class="sxs-lookup"><span data-stu-id="51cbd-110">English: Mon-Fri 6 AM-2 PM</span></span>
+<span data-ttu-id="087e8-110">Engels: Mon-Fri 6 uur-2 uur</span><span class="sxs-lookup"><span data-stu-id="087e8-110">English: Mon-Fri 6 AM-2 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="51cbd-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="51cbd-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="087e8-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="087e8-111">Technical Support:</span></span>
 
-<span data-ttu-id="51cbd-112">Frans: ma-vr 5:00-18:00</span><span class="sxs-lookup"><span data-stu-id="51cbd-112">French: Mon-Fri 5 AM-6 PM</span></span>
+<span data-ttu-id="087e8-112">Frans: Mon-Fri 17.00 uur-6 PM</span><span class="sxs-lookup"><span data-stu-id="087e8-112">French: Mon-Fri 5 AM-6 PM</span></span>
 
-<span data-ttu-id="51cbd-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="51cbd-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="087e8-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="087e8-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="51cbd-114">Internationale gesprekskosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="51cbd-114">International call charges apply</span></span>
+<span data-ttu-id="087e8-114">Internationale gesprekskosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="087e8-114">International call charges apply</span></span>
