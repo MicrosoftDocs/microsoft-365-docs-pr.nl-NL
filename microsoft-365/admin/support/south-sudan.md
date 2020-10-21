@@ -1,36 +1,36 @@
 ---
-title: Ondersteuningsinformatie voor Zuid-Sudan
+title: Ondersteuningsinformatie voor Zuid-Soedan
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 11f84bf9bb6ec37a92e26fa01272e40951ac4c95
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4211630094f2c9347e6da5e2b7702c30e50e0b4c
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386459"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48639597"
 ---
-# <a name="contact-support-for-south-sudan"></a>Contact ondersteuning voor Zuid-Sudan
+# <a name="contact-support-for-south-sudan"></a>Contact opnemen met ondersteuning voor Zuid-Soedan
 
-[Zoek een ander land of regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Telefoonnummer
-+1 312 843 5151
++ 1 312 843 5151
 
 ## <a name="hours"></a>Uren
-### <a name="billing-support"></a>Factureringsondersteuning:
+### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: ma-vr 10:00-18:00 uur
+Engels: Mon-Fri 10 uur-6 PM
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 

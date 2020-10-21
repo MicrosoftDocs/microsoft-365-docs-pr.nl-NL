@@ -4,33 +4,33 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over hoe u contact opnemen met ondersteuning voor uw land of regio.
+description: Meer informatie over hoe u contact kunt opnemen met de ondersteuning voor uw land of regio.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 43adc0d133b8c08faf865581fa697780d144cc5f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: eefc06c409b8015b815839141fcfd33aa32856a5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44389803"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48640089"
 ---
-# <a name="contact-support-for-saba"></a>Neem contact op met de ondersteuning voor Saba
+# <a name="contact-support-for-saba"></a>Contact opnemen met ondersteuning voor Saba
 
-[Zoek een ander land of regio.](../contact-support-for-business-products.md)
+[Zoek een ander land of een andere regio](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Telefoonnummer
-+1 312 843 5145
++ 1 312 843 5145
 
 ## <a name="hours"></a>Uren
-### <a name="billing-support"></a>Factureringsondersteuning:
+### <a name="billing-support"></a>Ondersteuning bij facturering:
 
-Engels: ma-vr 9:00-17:00 uur
+Engels: Mon-Fri 9 uur-5 uur
 
 ### <a name="technical-support"></a>Technische ondersteuning:
 
