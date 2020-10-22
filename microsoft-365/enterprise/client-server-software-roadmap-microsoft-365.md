@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: De routekaart voor het instellen van client-en serversoftware voor Microsoft 365.
-ms.openlocfilehash: d3401baa09d27ff9753f9a45ecb537c67701c0e9
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 94412ca4a7665807368ae33a0e50dc928445c8b7
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464406"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655957"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Routekaart voor client-en serversoftware voor Microsoft 365
 
@@ -161,13 +161,11 @@ U kunt [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-d
 
 ## <a name="transition-your-entire-organization"></a>Uw hele organisatie overzetten
 
-Voor een beter beeld over het migreren naar producten en services in Microsoft 365 voor bedrijven, zie de [overgangsposter](../downloads/transition-org-to-m365.pdf).
+U kunt een betere afbeelding van het verplaatsen van de hele organisatie naar de producten en services in Microsoft 365 for Enterprise downloaden en de [poster](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)van de overgang weergeven.
 
-[![Afbeelding van de poster Overgang naar Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
+[![Afbeelding van de poster Overgang naar Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 
 Deze poster van twee pagina's is een snelle manier om de bestaande infrastructuur te inventariseren en de informatiebronnen te vinden die u kunnen helpen bij het overstappen naar het bijbehorende product of de bijbehorende service in Microsoft 365 voor ondernemingen. De poster bevat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen, zoals apparaat- en identiteitsbeheer, informatiebeveiliging en beveiliging tegen bedreigingen.
-
-U kunt [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/transition-org-to-m365.pdf) en afdrukken in de indeling Letter, Legal of Tabloid (11 x 17).
 
 ## <a name="how-microsoft-does-microsoft-365-for-enterprise"></a>How Microsoft doet Microsoft 365 voor Enterprise
 

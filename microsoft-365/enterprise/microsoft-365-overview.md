@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, abonnementen en implementatie paden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: d34ddd9b577f4baff4ebb77f84f48bf2b779c93c
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 0cee9752ae21e08831b6a3df856452a7ca6aec71
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487150"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655969"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -75,13 +75,11 @@ U kunt ook [een kopie van de poster](https://github.com/MicrosoftDocs/microsoft-
 
 ## <a name="transition-your-entire-organization"></a>Uw hele organisatie overzetten
 
-Voor een beter beeld over het migreren naar producten en services in Microsoft 365 voor ondernemingen, zie de [overgangsposter](../downloads/transition-org-to-m365.pdf).
+Voor een beter beeld over het migreren naar producten en services in Microsoft 365 voor ondernemingen, zie de [overgangsposter](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf).
 
-[![Afbeelding van de poster Overgang naar Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](../downloads/transition-org-to-m365.pdf)
+[![Afbeelding van de poster Overgang naar Microsoft 365](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 
 Deze poster van twee pagina‘s is een snelle manier om de bestaande infrastructuur te inventariseren. Het helpt u om hulp te vinden en over te stappen naar het corresponderende product of dienst in Microsoft 365 voor ondernemingen. De poster bevat Windows- en Office-producten en andere infrastructuur- en beveiligingselementen, zoals apparaat- en identiteitsbeheer, informatiebeveiliging en beveiliging tegen bedreigingen.
-
-U kunt [deze poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/transition-org-to-m365.pdf) en afdrukken in het formaat Letter, Legal of Tabloid (11 x 17).
 
 ## <a name="end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Beëindiging ondersteuning voor Windows 7 en Office 2010-clients en -servers
 

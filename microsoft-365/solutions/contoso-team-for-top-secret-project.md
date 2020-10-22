@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Overzicht: hoe contoso een team gebruikte met behulp van beveiligings isolatie voor een hoofd-geheim project om een nieuwe suite met producten en services te ontwikkelen.'
-ms.openlocfilehash: 16d10f5d6e5b5939172c02746c9324eb20b6987e
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: b8794502afcb77a8e597a1b05dfc92acd093f23a
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399487"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48656067"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Geïsoleerd team voor een hoofd-geheim project van Contoso B.v.
 
@@ -77,7 +77,7 @@ Als private-kanalen voor het project van twee 2X werden gemaakt, zijn de groepse
 
 Dit is de uitkomst van de configuratie van het project en het team en het team van beveiligings isolatie.
 
-![De resultaten configuratie van het project en het team.](../media/contoso-team-for-top-secret-project/contoso-team-for-top-secret-project.png)
+![De resultaten configuratie van het project en het team.](../media/contoso-team-for-top-secret-project.png)
 
  ## <a name="step-4-trained-project-2x-team-members"></a>Stap 4: opgeleid project van teamleden
 
@@ -92,7 +92,7 @@ Het eindresultaat is een veilige omgeving waarin project van teamleden in een be
 
 Hier ziet u een voorbeeld van een bestand dat is opgeslagen in het onderliggende project en de site van het onderliggende project.
 
-![Een voorbeeld van een bestand dat is opgeslagen in het onderliggende project van de site.](../media/contoso-team-for-top-secret-project/contoso-team-for-top-secret-project-example.png)
+![Een voorbeeld van een bestand dat is opgeslagen in het onderliggende project van de site.](../media/contoso-team-for-top-secret-project-example.png)
 
 In een aantal gevallen hebben project en teamleden gedownloade bestanden die zijn beveiligd door het project en het label voor een lokaal station voor offline werken. 
 

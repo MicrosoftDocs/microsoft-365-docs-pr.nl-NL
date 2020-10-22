@@ -1,5 +1,5 @@
 ---
-title: Sterke wachtwoordvereisten voor gebruikers instellen
+title: Sterke wachtwoordvereisten voor gebruikers uitschakelen
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -21,14 +21,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Informatie over het instellen van krachtige wachtwoordvereisten voor uw gebruikers met behulp van Windows PowerShell.
-ms.openlocfilehash: 9f6fd61396d99245ffeabf757d3cb65c5d5cb85e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f9a0b76d024cc18552657144e4ccf8de8a72f0d9
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646617"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655733"
 ---
-# <a name="set-strong-password-requirement-for-users"></a>Sterke wachtwoordvereisten voor gebruikers instellen
+# <a name="turn-off-strong-password-requirements-for-users"></a>Sterke wachtwoordvereisten voor gebruikers uitschakelen
 
 In dit artikel wordt uitgelegd hoe u sterke wachtwoordvereisten voor uw gebruikers uitschakelt. Sterke wachtwoordvereisten zijn standaard ingeschakeld in de organisatie Microsoft 365 voor bedrijven. Uw organisatie heeft mogelijk vereisten voor het uitschakelen van sterke wachtwoorden. Voer de onderstaande stappen uit om sterke wachtwoordvereisten uit te schakelen. U moet deze stappen uitvoeren met PowerShell.
 

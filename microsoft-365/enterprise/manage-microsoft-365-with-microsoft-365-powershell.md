@@ -3,7 +3,6 @@ title: Microsoft 365 beheren met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
 audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -20,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
 description: Leer hoe u Microsoft 365-gebruikers,-licenties en 365-apps beheert met PowerShell.
-ms.openlocfilehash: ef6146744909755efb974ee57f34ae3b924a7f2c
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: b1e8353eac1fb2917330ef5b5c2c7752fe5b1824
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547912"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655849"
 ---
 # <a name="manage-microsoft-365-with-powershell"></a>Microsoft 365 beheren met PowerShell
 
@@ -33,7 +32,7 @@ ms.locfileid: "47547912"
 
 PowerShell voor Microsoft 365 is een krachtig hulpmiddel voor het beheer van het Beheercentrum van Microsoft 365. U kunt bijvoorbeeld PowerShell Automation gebruiken om eenvoudig meerdere gebruikersaccounts en licenties te beheren en rapporten te maken.
 
-Selecteer een van de volgende onderwerpen voor meer informatie over het gebruik van PowerShell voor Microsoft 365-gebruikers en-licenties, Skype voor bedrijven online, SharePoint Online, Exchange Online en de beveiligings & nalevings centrum.
+Selecteer een van de volgende onderwerpen voor informatie over het gebruik van PowerShell voor het beheer van Microsoft 365:
   
 - [**Aan de slag**](getting-started-with-microsoft-365-powershell.md)
 
@@ -41,23 +40,23 @@ Selecteer een van de volgende onderwerpen voor meer informatie over het gebruik 
 
 - [**Gebruikersaccounts, licenties en groepen**](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
 
-    Begin hier met het installeren van de Microsoft 365-modules en informatie over het gebruik van automatiserings opdrachten voor het beheren van gebruikersaccounts, licenties en groepen.
+    Hier begint als u meer wilt weten over het gebruik van automatiserings opdrachten voor het beheren van gebruikersaccounts, licenties en groepen.
 
 - [**SharePoint**](manage-sharepoint-online-with-microsoft-365-powershell.md)
 
-    Begin hier met het installeren van de Microsoft 365-modules en de automatiserings opdrachten van SharePoint wilt gebruiken.
+    Begin hier als u wilt werken met automatiserings opdrachten om SharePoint te beheren.
 
-- [**Exchange Online PowerShell**](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
+- [**Exchange Online**](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
 
-    Begin hier als u Exchange Online wilt beheren met automatiserings opdrachten.
+    Begin hier als u Exchange Online wilt beheren.
 
 - [**E-mail migratie**](use-powershell-for-email-migration-to-microsoft-365.md)
 
-    Begin hier met het installeren van de PowerShell 365-modules en u uw e-mail wilt migreren van bestaande systemen.
+    Begin hier als u uw e-mail wilt migreren van bestaande systemen.
 
 - [**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/powershell/exchange/scc-powershell)
 
-    Begin hier als u automatiserings opdrachten wilt gebruiken voor het beheren van de beveiliging & nalevings centrum voor PowerShell.
+    Hier begint als u de beveiliging & functies van het compliance Center wilt beheren.
 
 - [**Partners voor gedelegeerde toegangsmachtigingen (DAP)**](manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-dap-p.md)
 
@@ -65,4 +64,4 @@ Selecteer een van de volgende onderwerpen voor meer informatie over het gebruik 
 
 - [**Skype voor Bedrijven Online**](manage-skype-for-business-online-with-microsoft-365-powershell.md)
 
-    Begin hier met het installeren van de PowerShell-modules en voor het beheren van Skype voor bedrijven online.
+    Begin hier met het beheren van Skype voor bedrijven online.

@@ -17,20 +17,20 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Configureer de beveiliging en service-infrastructuur om uw informatie te beschermen en te voldoen aan de regelgeving voor informatiebescherming.
-ms.openlocfilehash: 2b249b3b43f1b520e42be4b6e5f9d684c718dc79
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4296e2f08d9dada62cc45226885d9519a33e6532
+ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195637"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655811"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Information Protection voor data privacy-regels implementeren met Microsoft 365
 
 Het is mogelijk dat uw organisatie onderworpen is aan de nationale regels met betrekking tot de privacy van gegevens die u nodig hebt om persoonlijke gegevens in uw IT-infrastructuur te beschermen, te beheren en te controleren, waaronder zowel on-premises als in de Cloud. Het voorbeeld van een Data privacy verordening is de algemene verordening gegevensbescherming (AVG) van de Europese Unie. Fout bij het naleven van de regelgeving met betrekking tot de privacy van gegevens kan leiden tot grote boetes.
 
-Voorbeelden van de typen gegevens in Microsoft 365 zijn onder andere chatsessies in Microsoft teams, e-mailberichten in Exchange en bestanden in SharePoint en OneDrive. Deze oplossing bevat richtlijnen voor het identificeren, zoeken, beschermen, beheren en beantwoorden van persoonlijke gegevens die zijn opgeslagen in Microsoft 365-services die zijn onderhevig aan de privacy-regels van Microsoft.
+Voorbeelden van de typen gegevens in Microsoft 365 zijn onder andere chatsessies in Microsoft teams, e-mailberichten in Exchange en bestanden in SharePoint en OneDrive. Deze oplossing bevat richtlijnen voor het beoordelen van Risico's en het identificeren van informatie, bescherming, bescherming, bescherming en reageren op privacygegevens voor persoonlijke gegevens die zijn opgeslagen in Microsoft 365-services die zijn opgeslagen in Microsoft-services die onderworpen zijn aan de privacy-regels.
 
-![Informatiebescherming implementeren voor gegevensprivacyregels](../media/information-protection-deploy/information-protection-deploy-big-picture.png)
+![Wat is informatiebescherming voorschriften voor data privacy](../media/information-protection-deploy/information-protection-data-privacy-regulations-overview.png)
 
 Aanvullende informatie is ook beschikbaar in het gebruik van de besturingselementen van Microsoft 365 identiteit, apparaten en beveiliging tegen bedreigingen voor uw behoeften aan gegevens. 
 
@@ -50,7 +50,7 @@ Om de criteria te voldoen voor de bescherming van de informatie over naleving va
 
 Als u meer wilt weten over de Microsoft 365-hulpmiddelen die beschikbaar zijn om persoonlijke gegevens te identificeren, te beheren, te beheren en te controleren, onder voorbehoud van een of meer voorschriften met betrekking tot de privacy, zijn deze richtlijnen ingedeeld in secties.
  
-![Informatiebescherming implementeren voor gegevensprivacyregels](../media/information-protection-deploy/information-protection-deploy-grid.png)
+![Stappen voor het implementeren van informatiebescherming voor de regelgeving voor data privacy](../media/information-protection-deploy/information-protection-data-privacy-regulations-steps.png)
 
 Deze secties komen overeen met een apart artikel in deze oplossing.
 
@@ -61,13 +61,13 @@ Deze secties komen overeen met een apart artikel in deze oplossing.
 >Aan de hand van deze richtlijnen hoeft u niet noodzakelijkerwijs te voldoen aan de regelgeving van de privacy van een Data, met name de stappen die nodig zijn voor de toepassing van de functies. U bent verantwoordelijk voor de naleving van uw compliance en het raadplegen van uw wettelijke en compliance teams of om richtlijnen en vragen te zoeken van derden die zijn gespecialiseerd in naleving.
 >
 
-## <a name="plan-assess-data-privacy-risks-and-identify-sensitive-items"></a>Plan: privacy-Risico's voor gegevens beoordelen en gevoelige items identificeren 
+## <a name="plan-assess-data-privacy-risks-and-identify-sensitive-items"></a>Plan: privacy-Risico's voor gegevens beoordelen en gevoelige items identificeren
 
 De beoordeling van regels en risico's voor de privacy van uw organisatie is een belangrijke stap voordat u de verbeteringen implementeert, waaronder de functies die voor de configuratie van Microsoft 365 haalbaar zijn. Dit kan de algemene voorbereiding of identificatie van bepaalde gevoelige informatie typen zijn, onderworpen aan reglementaire zeggenschap, en de organisatie dient te voldoen aan de behoeften van uw organisatie en de situatie van deze typen in uw Microsoft 365-omgeving.
 
 Voor meer informatie raadpleegt u de [beoordeelde Risico's en gevoelige items voor gegevens](information-protection-deploy-assess.md)controleren.
 
-## <a name="track-use-compliance-manager"></a>Bijhouden: Compliance Manager gebruiken
+## <a name="track-run-risk-assessments-and-check-your-compliance-score"></a>Bijhouden: risicobeoordelingen uitvoeren en uw score voor naleving controleren
 
 Nalevings beheer, dat beschikbaar is in het nalevings centrum voor Microsoft 365, biedt u een ingebouwde functie voor het bijhouden en beheren van verbeteringen in verband met de mogelijkheden van de regelgeving die voor u van toepassing zijn.
 
@@ -75,7 +75,7 @@ De ingebouwde beoordelings sjablonen die specifiek zijn voor elke verordening, w
 
 Zie [Compliance Manager gebruiken voor het beheren van kwaliteits stappen](information-protection-deploy-compliance.md)voor meer informatie.
 
-## <a name="prevent-use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Voorkomen: identiteit, apparaat en bedreigings bescherming voor data privacy regulering gebruiken
+## <a name="prevent-protect-personal-data"></a>Voorkomen: persoonlijke gegevens beveiligen
 
 Microsoft 365 biedt een aantal mogelijkheden voor identiteiten, apparaten en beveiliging van bedreigingen waarmee u rekening moet houden met Compliance Compliance van data privacy. 
 
@@ -99,7 +99,7 @@ Zie voor meer informatie [de informatie over het onderwerp van de informatie ove
 
 Hoewel de regelgeving voor de privacy van gegevens kan worden nietszeggende met betrekking tot informatiebeheer &mdash; zoals Purposeful-behoud, verwijdering en archivering in &mdash; dit artikel worden de primaire besturingssystemen opgenomen die u nodig hebt om informatie te delen in uw organisatie.
 
-## <a name="investigate-monitor-and-respond-subject-to-data-privacy-regulation"></a>Onderzoek: het onderwerp van de bescherming van gegevens controleren en beantwoorden
+## <a name="investigate-monitor-investigate-and-respond-to-data-privacy-incidents"></a>Onderzoek: een monitor, onderzoek en reageren op incidenten voor gegevens privacy
 
 Er zijn Microsoft 365-functies beschikbaar om u te helpen bij het controleren, onderzoeken en beantwoorden van gebeurtenissen in uw organisatie, zoals de operationalize-gerelateerde mogelijkheden. 
 
