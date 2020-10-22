@@ -19,25 +19,25 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
-description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: e1748cf25fd36787727b0f00f6ddf6553bd454ab
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+description: Beschik over een periodiek rapport over de manier waarop personen in je organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kun je voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
+ms.openlocfilehash: 4356b287afa56201da7cb644a4056d4c975964e5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104445"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48637005"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
-U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft.
+Je kunt gemakkelijk zien hoe mensen in jouw bedrijf Microsoft 365-services gebruiken. Zo kun je vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft.
   
 Er zijn overzichten beschikbaar voor de afgelopen 7 dagen, 30 dagen, 90 dagen en 180 dagen. Er zijn niet direct gegevens voor alle rapportageperioden beschikbaar. De rapporten komen beschikbaar na 48 uur.
   
-Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
+Bekijk deze video voor meer informatie over hoe je de rapporten kunt gebruiken:
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/fb726f8e-aead-43b2-ba0f-53ba5b886bf7?autoplay=false]
   
-## <a name="how-to-get-to-the-reports-dashboard"></a>Hoe ga ik naar het dashboard Rapporten?
+## <a name="how-to-get-to-the-reports-dashboard"></a>Hoe vind ik het dashboard Rapporten?
 
 ::: moniker range="o365-worldwide"
 
@@ -64,7 +64,7 @@ Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
 
 Personen met de volgende machtigingen:
   
-- Globale beheerders: we raden aan slechts een beperkt aantal personen in uw bedrijf deze rol te geven. Dit verlaagt het risico voor uw bedrijf.
+- Globale beheerders: we raden aan slechts een beperkt aantal personen in het bedrijf deze rol te geven. Dit verlaagt het risico voor het bedrijf.
     
 - Exchange-beheerders
     
@@ -84,7 +84,7 @@ Zie [Informatie over beheerdersrollen](../add-users/about-admin-roles.md) en [Be
   
 ## <a name="which-activity-reports-are-available-in-the-admin-center"></a>Welke activiteitenrapporten zijn er beschikbaar in het beheercentrum?
 
-Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
+Afhankelijk van je abonnement zijn de volgende rapporten beschikbaar.
   
 - [E-mailactiviteit](email-activity.md)
     
@@ -102,15 +102,23 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
   
 - [Microsoft 365-groepen](office-365-groups.md)
   
-- [Gebruikersactiviteit in OneDrive voor Bedrijven](onedrive-for-business-activity.md)
-  
-- [Gebruik van OneDrive voor Bedrijven](onedrive-for-business-usage.md)
+- [Gebruikersactiviteit in OneDrive voor Bedrijven](onedrive-for-business-activity-ww.md)
+
+- [Gebruikersactiviteit in OneDrive voor Bedrijven voor de Amerikaanse overheid](onedrive-for-business-activity.md)
+
+- [Gebruik van OneDrive voor Bedrijven](onedrive-for-business-usage-ww.md)
+
+- [Gebruik van OneDrive voor Bedrijven voor de Amerikaanse overheid](onedrive-for-business-usage.md)
 
 - [Gebruik van Microsoft 365-apps](microsoft365-apps-usage.md)
   
-- [SharePoint-sitegebruik](sharepoint-site-usage.md)
+- [SharePoint-sitegebruik](sharepoint-site-usage-ww.md)
+
+- [SharePoint-site gebruik voor de Amerikaanse overheid](sharepoint-site-usage.md)
   
-- [SharePoint-activiteit](sharepoint-activity.md)
+- [SharePoint-activiteit](sharepoint-activity-ww.md)
+
+- [SharePoint-activiteit voor de Amerikaanse overheid](sharepoint-activity.md)
   
 - [Skype voor Bedrijven Online-activiteit](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
   
@@ -164,19 +172,19 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 
 ## <a name="how-to-view-licensing-information"></a>Het weergeven van licentie-informatie
 
-- Als u wilt zien hoeveel licenties u hebt toegewezen en ingetrokken, gaat u in het beheercentrum naar **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
+- Als je wilt zien hoeveel licenties je hebt toegewezen en ingetrokken, ga je in het beheercentrum naar **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenties</a>.
     
-- Als u wilt zien wie een licentie heeft, wie niet, en wie gast is, gaat u in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>. 
+- Als je wilt zien wie een licentie heeft, wie niet, en wie gast is, ga je in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>. 
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>Gebruiksinformatie voor een specifieke gebruiker weergeven
 
-Gebruik de servicerapporten om te onderzoeken hoeveel een specifieke gebruiker gebruikmaakt van de service. Als u bijvoorbeeld wilt weten hoeveel postvakopslagruimte een specifieke gebruiker heeft gebruikt, opent u het rapport Postvakgebruik en sorteert u de gebruikers op naam. Als er duizenden gebruikers zijn, kunt u het rapport exporteren naar Excel zodat u de lijst snel kunt filteren.
+Gebruik de servicerapporten om te onderzoeken hoeveel een specifieke gebruiker gebruikmaakt van de service. Als je bijvoorbeeld wilt weten hoeveel postvakopslagruimte een specifieke gebruiker heeft gebruikt, open je het rapport Postvakgebruik en sorteer je de gebruikers op naam. Als er duizenden gebruikers zijn, kun je het rapport exporteren naar Excel zodat je de lijst snel kunt filteren.
   
-U kunt geen rapport genereren waarbij u het account van een gebruiker invoert en een lijst krijgt van welke services die persoon gebruikt en hoeveel.
+Je kunt geen rapport genereren waarbij je het account van een gebruiker invoert en een lijst krijgt van welke services die persoon gebruikt en hoeveel.
   
 ## <a name="hide-user-details-in-the-reports"></a>Gebruikersgegevens in de rapporten verbergen
 
-Als u gebruikersgegevens wilt verbergen bij het genereren van rapporten, kunt u deze wijziging snel aanbrengen in het beheercentrum.
+Als je gebruikersgegevens wilt verbergen bij het genereren van rapporten, kun je deze wijziging snel aanbrengen in het beheercentrum.
   
 1. Ga in het beheercentrum naar de pagina**Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Services &amp; invoegtoepassingen</a>.
 
@@ -184,7 +192,7 @@ Als u gebruikersgegevens wilt verbergen bij het genereren van rapporten, kunt u 
   
 3. Selecteer de gewenste opties in het deelvenster **Rapporten** en sla de wijzigingen op.
   
-Uw lijst met gebruikers ziet er zo uit:
+Je lijst met gebruikers ziet er zo uit:
   
 ![Rapporten: geanonimiseerde gebruikerslijst](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
@@ -192,9 +200,9 @@ Het duurt enkele minuten voordat deze wijzigingen zijn doorgevoerd in de rapport
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>Wat gebeurt er met de gebruiksgegevens wanneer een gebruikersaccount wordt gesloten?
 
-Wanneer u het account van een gebruiker sluit, worden de gebruiksgegevens van die gebruiker binnen 30 dagen verwijderd. Deze gebruiker wordt nog steeds opgenomen in de totalen van de activiteitengrafiek (zie nummer 1) voor de perioden waarin ze actief is, maar wordt niet weergegeven in de tabel Gebruikersgegevens (zie nummer 2).
+Wanneer je het account van een gebruiker sluit, worden de gebruiksgegevens van die gebruiker binnen 30 dagen verwijderd. Deze gebruiker wordt nog steeds opgenomen in de totalen van de activiteitengrafiek (zie nummer 1) voor de perioden waarin ze actief is, maar wordt niet weergegeven in de tabel Gebruikersgegevens (zie nummer 2).
   
-Als u echter een bepaalde dag selecteert (bijvoorbeeld nummer 3), wordt in het rapport vanaf de huidige datum tot 28 dagen daarna het gebruik van de gebruiker voor die dag weergegeven in de tabel Gebruikersgegevens (zie nummer 2).
+Als je echter een bepaalde dag selecteert (bijvoorbeeld nummer 3), wordt in het rapport vanaf de huidige datum tot 28 dagen daarna het gebruik van de gebruiker voor die dag weergegeven in de tabel Gebruikersgegevens (zie nummer 2).
   
 ## <a name="related-articles"></a>Verwante artikelen
 
