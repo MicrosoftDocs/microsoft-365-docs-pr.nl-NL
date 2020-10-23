@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Opties voor het einde van de levenscyclus voor groepen, teams en Yammer.
-ms.openlocfilehash: 3720f63f99711a09d02675f10a7d639fe1bedc65
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 31383287f3288cbab68d6e249f98210dec62af2f
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377173"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681708"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Opties voor het einde van de levenscyclus voor groepen, teams en Yammer
 
@@ -225,7 +225,7 @@ Wanneer bestanden in SharePoint zijn opgeslagen in een van de bovenstaande Bibli
 **Bestanden verplaatsen**
 
 U kunt bestanden ook verplaatsen naar een andere locatie in SharePoint, zoals een bibliotheek op een andere site.
-Kruisverwijzingsnr https://support.office.com/en-us/article/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc
+Kruisverwijzingsnr https://support.office.com/article/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc
 
 **Lijst exporteren** Gegevens die zijn opgeslagen in SharePoint-lijsten kunnen worden [geëxporteerd naar een Excel-werkblad](https://support.office.com/article/bfb2ea48-6118-4fa9-abb6-cced9424e5d9), en opnieuw worden geïmporteerd naar een lijst op een andere site.
 

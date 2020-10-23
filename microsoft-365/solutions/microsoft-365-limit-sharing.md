@@ -18,12 +18,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Leer meer over de mogelijkheden om delen in Microsoft 365 te beperken of uit te schakelen.
-ms.openlocfilehash: 7397078b6f347858e4ca91a0deeb9a1cf2fb6911
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: 7ed9cc499e16de835c6ba96eb19bcc28a144b68b
+ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361903"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48651416"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Delen beperken in Microsoft 365
 
@@ -64,7 +64,7 @@ Het delen met gasten uitschakelen voor Teams
 Als u gasttoegang in Microsoft 365-groepen wilt voorkomen, kunt u de instellingen voor gasttoegang in het Microsoft 365-beheercentrum uitschakelen.
 
 Het delen met gasten uitschakelen in Microsoft 365-groepen
-1. In het Microsoft 365-beheercentrum klikt u op **Instellingen** en vervolgens op **Instellingen**.
+1. Klik in het Microsoft 365-beheercentrum op **Instellingen** en vervolgens op **Organisatie-instellingen**.
 2. Klik in het tabblad **Services** op **Microsoft 365-groepen**.
 3. Schakel de selectievakjes voor **Groepsleden buiten uw organisatie toegang geven tot groepsinhoud** en **Groepseigenaren personen van buiten uw organisatie toe laten voegen aan groepen** uit.
 4. Klik op **Wijzigingen opslaan**.
