@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Lees hoe u een verwijderde Microsoft 365-groep kunt herstellen.
-ms.openlocfilehash: 8fb2cb3afdf390efae7854a040bb56df731cceaf
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 30e267a149bc18c2425d4ea38423b887116794c6
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307185"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681644"
 ---
 # <a name="restore-a-deleted-group"></a>Een verwijderde groep herstellen
 
@@ -35,6 +35,9 @@ ms.locfileid: "47307185"
 > Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
+
+> [!NOTE]
+> In dit artikel wordt beschreven hoe u alleen Microsoft 365 groepen herstelt. Alle overige groepen kunnen na verwijdering niet worden hersteld.
 
 Als u een groep hebt verwijderd, wordt deze standaard 30 dagen bewaard. Deze periode van 30 dagen wordt als ' zacht verwijderen ' beschouwd omdat u de groep toch kunt herstellen. Na 30 dagen worden de groep en de bijbehorende inhoud permanent verwijderd en kunnen ze niet worden hersteld.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 1aeff889f5ced6429e7721518527e6f6725bb18b
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: f8e00c6162a40d6d81a0ef72f0ec655a4234a588
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399203"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681666"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -164,6 +164,9 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in het ATP anti-phishi
   Wanneer u interne of externe e-mailadressen toevoegt aan de **gebruikers die** de lijst beveiligen, zijn berichten van deze **afzenders** onderworpen aan controles van de bescherming van de imitatie. Het bericht wordt gecontroleerd op imitatie **als** het bericht wordt verzonden naar een **geadresseerde** waarop het beleid van toepassing is (alle geadresseerden voor het standaardbeleid; Dit **geldt voor** geadresseerden in een aangepast beleid. Als er in het e-mailadres van de afzender in het e-mailadres van de afzender gebruik wordt gemaakt van de persoon, worden de acties voor imitatie beveiliging op het bericht toegepast (wat u met het bericht wilt doen, of u de veiligheidstips, enzovoort) van geïmiteerde gebruikers wilt weergeven.
 
 - **Te beschermen domeinen**: voorkomt dat de opgegeven domeinen worden geïmiteerd **in het domein van de afzender van het bericht**. Voorbeelden van alle domeinen die u eigenaar bent ([geaccepteerde domeinen](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) of specifieke domeinen (domeinen die u bezit of een partnerdomein). Deze lijst met het **domein** van de afzender die is beveiligd tegen imitatie, is niet hetzelfde als de lijst met **geadresseerden** waarop het beleid van toepassing is (alle geadresseerden voor het standaardbeleid; specifieke geadresseerden die zijn geconfigureerd met de instelling **toepassen op** in het onderdeel [beleidsinstellingen](#policy-settings) ).
+
+  > [!NOTE]
+  > Het maximale aantal beveiligde domeinen dat u in een anti-phishingfilter kunt definiëren, is 50. Met andere woorden: u kunt met 50 beveiligde domeinen in één beleid, 10 beveiligde domeinen in 5 beleidsregels, etc.
 
   Standaard worden er geen verzender domeinen geconfigureerd voor de bescherming van imitatie in **domeinen**. Daarom worden niet-gegroepeerde domeinnamen bedoeld met de bescherming van de imitatie, hetzij in het standaardbeleid of aangepaste beleidsregels.
 

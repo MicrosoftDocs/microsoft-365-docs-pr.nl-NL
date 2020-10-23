@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw Tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie kunt gebruiken om Office-invoegtoepassingen te implementeren.
-ms.openlocfilehash: c89cb801a5b2fcad87227feaf4228b0dcabcf609
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: af7a127d438e81d6ecd025b6a71b9d7e5df2ecc8
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464048"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681622"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie
 
@@ -45,7 +45,7 @@ Het kan maximaal 24 uur duren voordat een invoegtoepassing aan alle gebruikers w
   
 ## <a name="requirements"></a>Vereisten
 
-Gecentraliseerde implementatie van invoegtoepassingen vereist dat de gebruikers Microsoft 365-apps voor Enterprise of Microsoft 365 Business Premium (en zijn aangemeld bij Office met hun organisatie-ID), en de postvakken van Exchange Online en Active Exchange Online hebben. Uw abonnements gids moet zijn aangemeld of federatief zijn voor Azure Active Directory.
+Gecentraliseerde implementatie van invoegtoepassingen vereist dat de gebruikers Microsoft 365-apps gebruiken voor Microsoft 365 for Enterprise, of Microsoft 365 voor bedrijven (en zijn aangemeld bij Office met hun organisatie-ID), en de postvakken Exchange Online en Active Exchange Online hebben. Uw abonnements gids moet zijn aangemeld of federatief zijn voor Azure Active Directory.
 U kunt de specifieke vereisten voor Office en Exchange bekijken of de [compatibiliteitscontrole voor gecentraliseerde implementatie](#centralized-deployment-compatibility-checker)gebruiken.
 
 Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
@@ -61,11 +61,11 @@ Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
 ### <a name="office-requirements"></a>Office-vereisten
 
 - Voor Word-, Excel-en PowerPoint-invoegtoepassingen moeten de gebruikers een van de volgende handelingen uitvoeren:
-  - Op een Windows-apparaat, versie 1704 of hoger van Microsoft 365 apps voor Enterprise of Microsoft 365 Business Premium.
+  - Op een Windows-apparaat, versie 1704 of hoger van Microsoft 365-apps voor Microsoft 365 voor Enterprise of Microsoft 365 voor bedrijven.
   - Op een Mac, versie 15,34 of hoger.
 
 - Voor Outlook moeten de gebruikers een van de volgende handelingen uitvoeren: 
-  - Versie 1701 of hoger van Microsoft 365-apps voor Enterprise of Microsoft 365 Business Premium.
+  - Versie 1701 of hoger van Microsoft 365-apps voor Microsoft 365 voor Enterprise of Microsoft 365 voor bedrijven.
   - Versie 1808 of hoger van Office Professional Plus 2019 of Office Standard 2019.
   - Versie 16.0.4494.1000 of hoger van Office Professional Plus 2016 (MSI) of Office Standard 2016 (MSI)\*
   - Versie 15.0.4937.1000 of hoger van Office Professional Plus 2013 (MSI) of Office Standard 2013 (MSI)\*
