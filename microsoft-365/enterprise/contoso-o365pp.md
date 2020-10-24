@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ontdek hoe Contoso Microsoft Endpoint Configuration Manager gebruikt om Microsoft 365-apps voor ondernemingen te implementeren.
-ms.openlocfilehash: 63993a27f23843fd2d75ef9bf08ae064ec46dc77
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2c02c28ddba7c24592ce09d87bf6f5c9df700a2a
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637161"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754348"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Implementatie van Microsoft 365-apps voor ondernemingen voor Contoso
 
@@ -40,7 +39,7 @@ Op basis van de vereisten is contoso besloten om Windows 10 Enterprise en Micros
 - Intelligent taalpakket implementeren, waaronder automatisch de taal van het besturingssysteem.
 - Een volledig ondersteunde en eenvoudig te gebruiken manier om bestaande versies van Office te verwijderen uit een client tijdens de implementatie.
 
-Naast de configuratie manager heeft Contoso de [gereedheids Toolkit voor Office-invoegtoepassingen en VBA](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps), een gratis tool van Microsoft gebruikt om compatibiliteitsproblemen met hun Office-macro's en-invoegtoepassingen te beoordelen.
+Naast de Configuration Manager gebruikte Contoso de [Readiness Toolkit voor Office-invoegtoepassingen en VBA](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps), een gratis tool van Microsoft, om compatibiliteitsproblemen met hun Office-macro's en-invoegtoepassingen te beoordelen.
 
 ## <a name="managing-deployment-and-updates"></a>Implementatie en updates beheren
 
@@ -79,7 +78,7 @@ Hier is de contoso Microsoft 365-apps for Enterprise Installation en continue up
  
 ## <a name="next-step"></a>Volgende stap
 
-[Meer informatie](contoso-mdm.md) over hoe contoso gebruikmaakt van Microsoft intune in microsoft 365 for Enterprise voor het beheren van de apparaten en de apps die ze binnen de organisatie uitvoeren.
+Meer informatie over hoe contoso [gebruikmaakt van Microsoft intune](contoso-mdm.md) in microsoft 365 for Enterprise voor het beheren van de apparaten en de apps die ze binnen de organisatie uitvoeren.
 
 ## <a name="see-also"></a>Zie ook
 

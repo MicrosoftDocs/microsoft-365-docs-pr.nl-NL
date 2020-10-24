@@ -16,19 +16,19 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 4712d6fd-d9c7-4ec2-88c1-3ad9201cbb7f
-description: 'Overzicht: informatie over de waarde van PowerShell voor Microsoft 365, verbinding met uw Microsoft 365-Tenant en hulp krijgen.'
-ms.openlocfilehash: 3a57e5188dd4161442ee722a14c2546ef28ccb01
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: 'Overzicht: informatie over de waarde van PowerShell voor Microsoft 365, hoe u verbinding kunt krijgen met uw Microsoft 365-Tenant en waar u hulp kunt krijgen.'
+ms.openlocfilehash: 850d3eea1aa23937bf30795784405119ef6c167c
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429972"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754454"
 ---
 # <a name="get-started-with-powershell-for-microsoft-365"></a>Aan de slag met PowerShell voor Microsoft 365
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-In PowerShell voor Microsoft 365 kunt u opdrachten en scripts gebruiken voor het beheren van Microsoft 365 en het stroomlijnen van uw dagelijkse werk. In dit artikel leest u waarom PowerShell voor Microsoft 365 essentieel is voor het beheren van Microsoft 365, hoe u verbinding maakt met uw Microsoft 365-abonnement en rapporten maakt, en waar u meer informatie en hulp kunt krijgen van de Microsoft 365-community.
+In PowerShell voor Microsoft 365 kunt u opdrachten en scripts gebruiken voor het beheren van Microsoft 365 en het stroomlijnen van uw dagelijkse werk. Gebruik de volgende informatie om te zien waarom PowerShell voor Microsoft 365 essentieel is voor het beheren van Microsoft 365, hoe u verbinding maakt met uw Microsoft 365-abonnement en rapporten maakt, en waar u meer informatie kunt krijgen van de Microsoft 365-community.
   
 Selecteer een van de volgende onderwerpen:
   
@@ -54,7 +54,7 @@ Selecteer een van de volgende onderwerpen:
     
 - [**Bronnen voor Microsoft 365-community's voor PowerShell**](microsoft-365-powershell-community-resources.md)
     
-    Begin hier om verbinding te maken met de PowerShell-Community en Help of meer informatie weer te geven over het gebruik van PowerShell voor Microsoft 365.
+    Begin hier om verbinding te maken met de PowerShell-Community voor meer informatie over het gebruik van PowerShell voor Microsoft 365.
     
 ## <a name="related-topics"></a>Verwante onderwerpen
 

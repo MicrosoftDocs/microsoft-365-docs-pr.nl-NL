@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e518f91b264680e3d356b1e6158f4b9740ed52a2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d2973bd3cc2da909d7129192f2b9f9a29226de34
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196093"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754490"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Best scoren in bedrijfstak tests
 
@@ -50,13 +50,15 @@ Microsoft Defender antivirus is de [volgende generatie beschermings](https://www
 
 ### <a name="av-test-protection-score-of-6060-in-the-latest-test"></a>AV-toets: beveiligings Score van 6.0/6.0 in de nieuwste test
 
-Het onderzoek en de certificering van een AV-TEST product op drie categorieën: beveiliging, prestaties en bruikbaarheid. De volgende scores zijn bedoeld voor de categorie beveiliging met twee scores: realtime testen en de AV-TEST Reference (bekend als ' bekende malware ').
+Het onderzoek en de certificering van een AV-TEST product op drie categorieën: beveiliging, prestaties en bruikbaarheid. De volgende scores zijn bedoeld voor de categorie beveiliging met twee scores: Real-World testen en de AV-TEST referenceset (bekend als ' bekende malware ').
 
-**Download het meest recente transparantie rapport: [onderzoek van AV-test resultaten, januari-februari 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
+**Download het meest recente transparantie rapport: [onderzoek van AV-test resultaten, January-February 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
 
-- Mei 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/) <sup>**nieuwste**</sup>
+- Juli, augustus 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2020/microsoft-defender-antivirus-4.18-203215/) <sup>**nieuwste**</sup>
 
-    Microsoft Defender antivirus bereikte een perfecte beveiligings Score van 6.0/6.0 met 100% in mei en juni. voorbeelden van malware in 22.190.
+    Microsoft Defender antivirus bereikte een perfecte beveiligings Score van 6.0/6.0 met 100% in juli en augustus. voorbeelden van malware in 13.941.
+
+- Mei 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/)
 
 - Maart, april 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
 
@@ -68,19 +70,15 @@ Het onderzoek en de certificering van een AV-TEST product op drie categorieën: 
 
 - Juli, augustus 2019 AV-test zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2019/microsoft-windows-defender-antivirus-4.18-193215/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
-- Mei 2019 AV-test zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2019/microsoft-windows-defender-antivirus-4.18-192415/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
-
 ### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-comparatieve: beveiligings beoordeling van 99,7% in de meest recente test
 
-De beveiligings test voor bedrijven bestaat uit drie hoofdonderdelen: de proefversie van de bescherming van malware waarmee online aanvallen met schadelijke software worden nagebootst, de malware-beschermings test waarbij de malware het systeem van buiten internet binnenkomt (bijvoorbeeld USB), en de prestatie proef die de invloed op de prestaties van het systeem controleert.
+De beveiligings test voor bedrijven bestaat uit drie hoofdonderdelen: Real-World de beschermings test voor beveiliging van online malware, de proefversie van malware-beveiliging waarbij de malware van het systeem wordt binnengebracht (bijvoorbeeld USB), en de prestatie test die de invloed op de prestaties van het systeem controleert.
 
 - Business Security test 2020 (maart – juni): [realtime beveiligings rente 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**laatste**</sup>
 
-    Microsoft Defender antivirus heeft gedurende het afgelopen jaar voortdurend een hoge bescherming onderzocht met 99,7% in de meest recente proefversie.
+    Microsoft Defender antivirus scoort in het afgelopen jaar voortdurend een hoge mate van Real-World beveiligings tarieven, met 99,7% in de meest recente test.
 
 - Business Security test 2019 (augustus – november): [realtime beschermings tarief 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
-
-- Business Security test 2019 factsheet (augustus – september): [realtime beveiligings tarief 99,9%](https://www.av-comparatives.org/tests/business-security-test-august-september-2019-factsheet/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
 - Business Security test 2019 (maart – juni): [realtime beveiligings tarief 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
@@ -88,11 +86,13 @@ De beveiligings test voor bedrijven bestaat uit drie hoofdonderdelen: de proefve
 
 SE Labs test een reeks oplossingen die door producten en services worden gebruikt voor het detecteren en/of beschermen tegen aanvallen. Dit omvat eindpunt software, netwerkapparatuur en cloudservices.
 
-**Download het meest recente transparantie rapport: [testresultaten van SE Labs, januari-maart 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
+**Download het meest recente transparantie rapport: [testresultaten van SE Labs, January-March 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
+
+- Enterprise Endpoint Protection juli-september 2020: [AAA Award](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/) , <sup>**nieuwste**</sup>
+
+    Het product van de volgende generatie-gen-bescherming van Microsoft stopt alle gerichte aanvallen, maar mist een aantal openbare bedreigingen.
 
 - Enterprise Endpoint Protection april — juni 2020: [AAA Award](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
-
-    De nieuwe beveiliging van Microsoft-gen bedroeg een van de belangrijkste producten, zodat u zich kunt beschermen tegen alle openbare en gerichte aanvallen. Microsoft Defender antivirus bereikte dergelijke goede resultaten met de mogelijkheid om kwaadaardige Url's te blokkeren, misbruik te maken en originele toepassingen en websites correct te classificeren.
 
 - Enterprise Endpoint Protection januari: maart 2020: [AAA Award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
@@ -100,9 +100,6 @@ SE Labs test een reeks oplossingen die door producten en services worden gebruik
 
 - Enterprise Endpoint Protection juli — september 2019: [AAA Award](https://selabs.uk/download/enterprise/epp/2019/jul-sep-2019-enterprise.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
-- Enterprise Endpoint Protection april — juni 2019: [AAA Award](https://selabs.uk/download/enterprise/epp/2019/apr-jun-2019-enterprise.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
-
-- Enterprise Endpoint Protection januari: maart 2019: [AAA Award](https://selabs.uk/download/enterprise/epp/2019/jan-mar-2019-enterprise.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
 ## <a name="endpoint-detection--response"></a>Detectie van eindpunten & antwoord
 

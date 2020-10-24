@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,16 +14,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over Contoso Corporation als bedrijf en de trapsgewijze structuur van de wereldwijde kantoren.
-ms.openlocfilehash: 402c8c1cbb1484d8a0ad2ce4159b90107856167d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b0c00ed5657d914851f28278a2f4cf80660b53b0
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637077"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754266"
 ---
 # <a name="overview-of-contoso-corporation"></a>Overzicht van Contoso B.v.
-
-![De Contoso Corporation](../media/contoso-overview/contoso-icon.png)
 
 Contoso B.v. is een multinationale zaak met zijn zetel in Parijs. Het bedrijf is een organisatie, verkoop en ondersteunings organisatie met meer dan 100.000 producten.
 
@@ -74,7 +71,7 @@ De contoso IT-architecten hebben de volgende ontwerp factoren vastgesteld voor d
 
 ## <a name="next-step"></a>Volgende stap
 
-[Lees meer](contoso-infra-needs.md) over de on-premises IT-infrastructuur van Contoso Corporation en de manier waarop de bedrijfsbehoeften van het bedrijf zijn besproken in microsoft 365 for Enterprise.
+Lees meer over de [on-premises IT-infrastructuur van](contoso-infra-needs.md) Contoso Corporation en de manier waarop de bedrijfsbehoeften van het bedrijf zijn besproken in microsoft 365 for Enterprise.
 
 ## <a name="see-also"></a>Zie ook
 

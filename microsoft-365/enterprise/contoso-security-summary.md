@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe contoso gebruikmaakt van de beveiligingsfuncties van Microsoft 365 for Enterprise.
-ms.openlocfilehash: 635336b70318acdd4ed013a2705691d160926e84
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d84b1423497a6a4358142902c4e159cc54b3500b
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649699"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754230"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 for Enterprise Security voor Contoso Corporation
 
@@ -40,7 +40,7 @@ Contoso Volg deze stappen om de beveiliging voor te bereiden op de implementatie
 
 1. Beheerdersaccounts voor de Cloud beperken
 
-   Contoso deed een uitgebreide controle af van de bestaande beheerdersaccounts van Active Directory Domain Services (AD DS) van contoso, en het instellen van toegewezen Cloud beheerdersaccounts en groepen.
+   Contoso deed een uitgebreide controle af van de bestaande beheerdersaccounts van Active Directory Domain Services (AD DS), en het instellen van toegewezen Cloud beheerdersaccounts en groepen.
 
 2. Gegevens in drie beveiligingsniveaus classificeren
 

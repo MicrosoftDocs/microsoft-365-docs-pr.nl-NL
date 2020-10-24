@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe Contoso de functies voor informatiebeveiliging in Microsoft 365 for Enterprise gebruikt om de digitale activa in de cloud te beveiligen.
-ms.openlocfilehash: 51740db9a0bb2e770e959fe8d9dcde15c042f5b8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a1aa08a20d284d3a003f4a406c37f2107ce19bd1
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637233"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754599"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Informatiebescherming voor Contoso Corporation
 
@@ -41,7 +41,7 @@ Contoso heeft een analyse van hun gegevens uitgevoerd en heeft de volgende class
 De volgende tabel bevat informatie over contoso Information policies.
 
 
-| Waarde | Access | Gegevensretentie | Gegevensbescherming |
+| Waarde | Access | Gegevensretentie | Informatiebescherming |
 |:-------|:-----|:-----|:-----|
 | Lage bedrijfswaarde (niveau 1: basislijn) | Toegang tot iedereen toestaan.  | 6 maanden | Gebruik versleuteling. |
 | Gemiddelde bedrijfswaarde (niveau 2: gevoelig) | Sta toegang tot Contoso medewerkers, onderaannemers en partners. <BR><BR> Gebruik MFA, TLS (Transport Layer Security) en Mobile Application Management (MAM). | 2 jaar  | Gebruik hash-waarden voor gegevensintegriteit.  |
@@ -54,7 +54,7 @@ Contoso Volg deze stappen om Microsoft 365 for Enterprise te voorbereiden op de 
 
 1. Opgeven welke gegevens u wilt beschermen
 
-   Contoso deed een uitgebreide beoordeling van hun bestaande digitale activa op de on-premises SharePoint-sites en bestandsshares, en classificeert elk activum.
+   Contoso deed een uitgebreide beoordeling van hun bestaande digitale activa op de on-premises SharePoint-sites en bestandsshares en heeft elk activum geclassificeerd.
 
 2. Beleidsregels voor toegang, behoud en informatiebescherming bepalen voor gegevensniveaus
 
@@ -113,7 +113,7 @@ Hier ziet u de informatie over de informatie-bescherming van contoso.
 
 ## <a name="next-step"></a>Volgende stap
 
-[Zie](contoso-security-summary.md) hoe Contoso de beveiligingsfuncties voor microsoft 365 voor ondernemingen gebruikt voor identiteits-en toegangsbeheer, bedreigingsbeveiliging, informatiebescherming en beveiligingsbeheer.
+Meer informatie over hoe Contoso de [beveiligingsfuncties in Microsoft 365 voor ondernemingen](contoso-security-summary.md) gebruikt voor identiteits-en toegangsbeheer, bedreigingsbeveiliging, informatiebescherming en beveiligingsbeheer.
 
 ## <a name="see-also"></a>Zie ook
 

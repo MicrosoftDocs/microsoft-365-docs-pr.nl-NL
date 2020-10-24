@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inzicht in de infrastructuur contoso-netwerken en de manier waarop het bedrijf de SD-WAN-technologie gebruikt voor optimale netwerkprestaties voor Microsoft 365 voor Enterprise Cloud-Services.
-ms.openlocfilehash: ca673e6dcbf0f3db4bde33d388598e5f4ffac914
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d5f3581b81d33bdc200321692b82d57a96d09298
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637185"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754012"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Netwerken voor de Contoso Corporation
 
@@ -117,7 +116,7 @@ Geslaagde aanneming van Microsoft 365 voor Enterprise Services door contoso gebr
 
 ## <a name="next-step"></a>Volgende stap
 
-[Lees hier meer](contoso-identity.md) over hoe Contoso op locatie Active Directory Domain Services (AD DS) in de Cloud gebruikt voor werknemers en federatieve verificatie voor klanten en zakenpartners.
+Meer informatie over hoe contoso [de on-premises Active Directory-domein Services in de Cloud](contoso-identity.md) verloopt voor werknemers en federeren-verificatie voor klanten en zakenpartners.
 
 ## <a name="see-also"></a>Zie ook
 

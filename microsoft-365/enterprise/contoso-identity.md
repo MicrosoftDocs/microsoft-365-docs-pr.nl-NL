@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe Contoso gebruikmaakt van Identiteit als een service (IDaaS) en cloud-based verificatie voor haar werknemers en federatieve verificatie voor haar partners en klanten verstrekt.
-ms.openlocfilehash: 10db0a35024595c4dba9a33ad83ae75bcad3870c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dea0f53ef1c3fdc2ea32256303c6120c614c904d
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637245"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754634"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Identiteit voor Contoso Corporation
 
@@ -43,7 +42,7 @@ Met Contoso kunnen:
 - Klanten die hun Microsoft-, Facebook-of Google-e-mail accounts gebruiken om zich aan te melden bij de openbare website van het bedrijf.
 - Leveranciers en partners voor het gebruik van hun LinkedIn-, Salesforce-of Google-e-mail accounts om u aan te melden bij het partner extranet van het bedrijf.
 
-Hier is de contoso DMZ met een openbare website, een partner extranet en een set AD FS-servers. De DMZ is verbonden met het Internet, met klanten, partners en Internet Services.
+Hier is de contoso-DMZ met een openbare website, een partner extranet en een set Active Directory Federation Services (AD FS)-servers. De DMZ is verbonden met het Internet, met klanten, partners en Internet Services.
 
 ![Ondersteuning door contoso voor federatieve verificatie voor klanten en partners](../media/contoso-identity/contoso-identity-fig2.png)
  
@@ -77,7 +76,7 @@ Dit is de daaruit voortvloeiende set met regels voor voorwaardelijke toegang van
  
 ## <a name="next-step"></a>Volgende stap
 
-[Meer informatie](contoso-win10.md) over hoe Contoso de infrastructuur van Microsoft endpoint Configuration Manager gebruikt om de huidige organisatie van Windows 10 Enterprise binnen de organisatie te implementeren en te behouden.
+Meer informatie over hoe Contoso de infrastructuur van Microsoft endpoint Configuration Manager gebruikt om de huidige organisatie van [Windows 10 Enterprise](contoso-win10.md) binnen de organisatie te implementeren en te behouden.
 
 ## <a name="see-also"></a>Zie ook
 

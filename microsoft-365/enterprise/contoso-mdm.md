@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe contoso Microsoft intune gebruikt in Microsoft 365 for Enterprise voor het beheren van de apparaten en de apps die daarop worden uitgevoerd.
-ms.openlocfilehash: d3f973827a9b05a415efe9225a2bdb3d83ccaf38
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 6d7783e8c2d9b78b63bf9eefe761fbc52d0b280f
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649643"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753991"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Beheer van mobiele apparaten voor Contoso
 
@@ -71,7 +70,7 @@ Dit is de implementatie architectuur voor mobiel Apparaatbeheer van contoso.
 
 ## <a name="next-step"></a>Volgende stap
 
-[Meer informatie](contoso-info-protect.md) over hoe Contoso de mogelijkheden voor informatiebescherming van microsoft 365 for Enterprise gebruikt voor het classificeren, identificeren en beschermen van cruciale digitale activa binnen de organisatie.
+Meer informatie over hoe Contoso de [mogelijkheden voor informatiebescherming](contoso-info-protect.md) van microsoft 365 for Enterprise gebruikt voor het classificeren, identificeren en beschermen van cruciale digitale activa binnen de organisatie.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,14 +14,14 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365 for Enterprise heeft goedgekeurd.
-ms.openlocfilehash: 87dd725612ad3dfe422293b28d9643a50f9b1e05
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 980146a2a9c2a909d0b65c20e460841dce9fecee
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637221"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754666"
 ---
-# <a name="microsoft-365-for-enterprise-for-contoso-corporation"></a>Microsoft 365 voor Enterprise voor Contoso Corporation
+# <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 voor Enterprise voor contoso B.v.
 
 Microsoft 365 voor Enterprise is de Microsoft Premier Cloud-aanbieding waarbij de apps en services voor online productiviteit en services van de Cloud en de cloud worden gecombineerd met Windows 10 Enterprise en geavanceerde beveiligingsfuncties. Het is een complete, intelligente oplossing waarmee iedereen creatieve en veilige oplossingen kan samenwerken.
 
@@ -36,7 +35,9 @@ Zie de volgende artikelen voor meer informatie:
 
   Contoso is een wereldwijde sector, verkoop en ondersteunings organisatie met meer dan 100.000 producten.
 
-- [Infrastructuur van CONTOSO IT en behoefte](contoso-infra-needs.md) Contoso overstapt van een on-premises, gecentraliseerde IT-infrastructuur naar een in de Cloud uitgedeelde instelling voor het uitvoeren van persoonlijke productiviteits belastingen, toepassingen en hybride scenario's in de Cloud
+- [De IT-infrastructuur en behoeften van Contoso](contoso-infra-needs.md)
+
+  Contoso overstapt van een on-premises, gecentraliseerde IT-infrastructuur naar een installatie van de Cloud met persoonlijke productiviteit, toepassingen en hybride scenario's in de Cloud.
 
 - [Netwerken](contoso-networking.md)
 
@@ -48,11 +49,11 @@ Zie de volgende artikelen voor meer informatie:
 
 - [Windows 10 Enterprise](contoso-win10.md)
 
-  De contoso Windows 10 Enterprise-infrastructuur implementeert en installeert automatisch updates voor apparaten waarop het primaire PC-apparaat van uw bedrijf en het besturingssysteem worden uitgevoerd.
+  De contoso-infrastructuur voor Windows 10 Enterprise implementeert en installeert automatisch updates voor apparaten waarop het primaire PC-apparaat van uw bedrijf en het besturingssysteem worden uitgevoerd.
 
 - [Microsoft 365-apps voor ondernemingen](contoso-o365pp.md)
 
-  De infrastructuur van Contoso Microsoft 365-apps voor Enterprise-implementaties en installeert automatisch updates voor de Microsoft Office-suite van de productiviteitssoftware.
+  De infrastructuur contoso voor Microsoft 365-apps voor Enterprise-implementaties en installeert automatisch updates voor de Microsoft Office-suite van de productiviteitssoftware.
 
 - [Mobile Device Management](contoso-mdm.md)
 
@@ -76,7 +77,7 @@ Zie de volgende artikelen voor meer informatie:
 
 ## <a name="next-step"></a>Volgende stap
 
-[Meer informatie](contoso-overview.md) over de contoso b.v. en de ontwerpoverwegingen die zijn geadresseerd toen ze microsoft 365 for Enterprise implementeren.
+Meer informatie [over de contoso b.v.](contoso-overview.md) en de ontwerpoverwegingen die zijn geadresseerd toen ze microsoft 365 for Enterprise implementeren.
 
 
 ## <a name="see-also"></a>Zie ook

@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inzicht in de basisstructuur van de on-premises IT-infrastructuur van Contoso en de manier waarop de zakelijke behoeften van het bedrijf voldoen aan Microsoft 365 for Enterprise.
-ms.openlocfilehash: bc2b34254da01a3d49085082ab8ee8632df2d434
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 767374097efa116f116cff6f6ddf96d075eb71ed
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637173"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754584"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT-infrastructuur en bedrijfsbehoeften
 
@@ -30,12 +29,10 @@ Contoso overstapt van een on-premises, gecentraliseerde IT-infrastructuur naar e
 
 Contoso maakt gebruik van een grotendeels gecentraliseerde on-premise IT-infrastructuur, met toepassingsdatacenters op het hoofdkantoor in Parijs.
 
-Afbeelding 1 toont het hoofdkantoor met Application datacenters, een DMZ en Internet.
+Hier is Office Headquarters Office met Application datacenters, een DMZ en Internet.
 
 ![Bestaande infrastructuur contoso IT](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
 
-**Afbeelding 1: bestaande contoso IT-infrastructuur**
- 
 De on-premises toepassingsdatacenters hosten: 
 
 - Aangepaste line-of-business-toepassingen die gebruikmaken van SQL Server en andere Linux-databases.
@@ -135,12 +132,12 @@ De IT-afdeling van Contoso heeft bepaald dat de volgende toewijzingen van zakeli
 | Naleving |  |  |
 |  | Voldoen aan regionale wettelijke voorschriften | AVG-functies in Microsoft 365 |
 | Beheer |  |  |
-|  | Minder IT-kosten voor de installatie van clientupdates | Implementatieringen. <BR> Updates voor Windows 10 Enterprise <BR> Updates voor Microsoft 365-apps voor ondernemingen |
+|  | Minder IT-kosten voor de installatie van clientupdates | Updates voor Windows 10 Enterprise <BR> Updates voor Microsoft 365-apps voor ondernemingen |
 ||||
 
 ## <a name="next-step"></a>Volgende stap
 
-[Meer informatie](contoso-networking.md) over het on-premises netwerk van Contoso Corporation en hoe dit is geoptimaliseerd voor toegang en latentie tot microsoft 365 cloudresources.
+Meer informatie over het [on-premises netwerk van](contoso-networking.md) Contoso Corporation en hoe dit is geoptimaliseerd voor toegang en latentie tot microsoft 365 cloudresources.
 
 ## <a name="see-also"></a>Zie ook
 
