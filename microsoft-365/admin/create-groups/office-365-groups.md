@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over Microsoft 365 groepen.
-ms.openlocfilehash: 5d85204687641e74f9a705162df01cebd7eeee26
-ms.sourcegitcommit: 3f8e573244bc082518125e339a385c41ef6ee800
+ms.openlocfilehash: f3114fdd6eefae0fe226e25907716101dcb6a51f
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48337167"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753263"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Overzicht van Microsoft 365 groepen voor beheerders
 
@@ -70,7 +70,7 @@ Als u veel gebruikers hebt, bijvoorbeeld in een grote onderneming of Enterprise,
 
 De volgende limieten gelden voor Microsoft 365 groepen:
 
-|Maximum...|Value|
+|Maximum...|Waarde|
 |:---------|:----|
 |Eigenaren per groep|100|
 |Groepen die een gebruiker kan maken|250|
@@ -108,7 +108,7 @@ Een Microsoft 365-abonnement met Exchange Online en SharePoint Online ondersteun
 
 Als u een abonnement hebt dat alleen Exchange is, kunt u nog steeds de functies gedeeld postvak in en gedeelde agenda van groepen in Outlook weergeven, maar krijgt u geen documentbibliotheek, planner of andere mogelijkheden.
 
-Microsoft 365-groepen werken met Azure Active Directory (AAD). Welke functies van Azure Active Directory u hebt, is afhankelijk van het Azure Active Directory-abonnement dat u hebt en welke licentie (s) aan de organisator van de groep is toegewezen.
+Microsoft 365-groepen werken met Azure Active Directory. Welke functies van Azure Active Directory u hebt, is afhankelijk van het Azure Active Directory-abonnement dat u hebt en welke licentie (s) aan de organisator van de groep is toegewezen.
 
 > [!IMPORTANT]
 > Voor alle groepsfuncties, als u een Azure AD Premium-abonnement hebt, kunnen gebruikers deelnemen aan de groep, ongeacht of hieraan een licentie voor AAD P1 is toegewezen. Licentieverlening wordt niet afgedwongen.

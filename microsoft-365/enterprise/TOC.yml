@@ -269,6 +269,10 @@
       items:
         - name: Een domein toevoegen
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+    - name: Beheren
+      items:
+        - name: Integriteitsstatus van Microsoft 365-service
+          href: microsoft-365-service-health.md
         - name: Installatiehandleidingen
           href: setup-guides-for-microsoft-365.md
     - name: Meerdere tenants
@@ -571,7 +575,7 @@
               href: view-user-accounts-with-microsoft-365-powershell.md
             - name: Eigenschappen configureren
               href: configure-user-account-properties-with-microsoft-365-powershell.md
-            - name: Wijs rollen toe
+            - name: Beheerdersrollen toewijzen
               href: assign-roles-to-user-accounts-with-microsoft-365-powershell.md
             - name: Verwijderen en herstellen
               href: delete-and-restore-user-accounts-with-microsoft-365-powershell.md
@@ -719,8 +723,6 @@
       href: contoso-info-protect.md
     - name: Beveiligingsoverzicht
       href: contoso-security-summary.md
-- name: 'Status van Microsoft 365-service '
-  href: microsoft-365-service-health.md
 - name: Microsoft 365-compliance
   href: ../compliance/index.yml
 - name: Microsoft 365-beveiliging

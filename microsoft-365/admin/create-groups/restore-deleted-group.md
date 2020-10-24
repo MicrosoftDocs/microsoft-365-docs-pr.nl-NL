@@ -1,10 +1,10 @@
 ---
-title: Een verwijderde groep herstellen
+title: Een verwijderde Microsoft 365-groep herstellen
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,24 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Lees hoe u een verwijderde Microsoft 365-groep kunt herstellen.
-ms.openlocfilehash: 30e267a149bc18c2425d4ea38423b887116794c6
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 091697be54b1127a5cb336179733d51519947e14
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681644"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753241"
 ---
-# <a name="restore-a-deleted-group"></a>Een verwijderde groep herstellen
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
-
-::: moniker-end
-
-> [!NOTE]
-> In dit artikel wordt beschreven hoe u alleen Microsoft 365 groepen herstelt. Alle overige groepen kunnen na verwijdering niet worden hersteld.
+# <a name="restore-a-deleted-microsoft-365-group"></a>Een verwijderde Microsoft 365-groep herstellen
 
 Als u een groep hebt verwijderd, wordt deze standaard 30 dagen bewaard. Deze periode van 30 dagen wordt als ' zacht verwijderen ' beschouwd omdat u de groep toch kunt herstellen. Na 30 dagen worden de groep en de bijbehorende inhoud permanent verwijderd en kunnen ze niet worden hersteld.
 
@@ -59,7 +49,12 @@ Wanneer een groep wordt hersteld, wordt de volgende inhoud hersteld:
 
 - Inhoud van Yammer-groepen en-groepen (als de groep Microsoft 365 is gemaakt van Yammer)
 
-## <a name="restore-a-group-that-you-own-by-using-outlook-on-the-web"></a>Een groep herstellen waarvan u de eigenaar bent met de webversie van Outlook
+> [!NOTE]
+> In dit artikel wordt beschreven hoe u alleen Microsoft 365 groepen herstelt. Alle overige groepen kunnen na verwijdering niet worden hersteld.
+
+## <a name="restore-a-group"></a>Een groep herstellen
+
+# <a name="outlook"></a>[Outlook](#tab/outlook)
 
 Als u de eigenaar bent van een Microsoft 365-groep, kunt u de groep zelf herstellen in de webversie van Outlook door de volgende stappen uit te voeren:
 
@@ -69,7 +64,7 @@ Als u de eigenaar bent van een Microsoft 365-groep, kunt u de groep zelf herstel
 
 Neem contact op met een beheerder als de verwijderde groep hier niet wordt weergegeven.
 
-## <a name="restore-a-group-in-the-microsoft-365-admin-center"></a>Een groep herstellen in het Microsoft 365-Beheercentrum
+# <a name="admin-center"></a>[Beheercentrum](#tab/admin-center)
 
 Als u een globale beheerder of een groepsbeheerder bent, kunt u een verwijderde groep herstellen in het Microsoft 365-Beheercentrum:
 
@@ -79,28 +74,9 @@ Als u een globale beheerder of een groepsbeheerder bent, kunt u een verwijderde 
 
 > [!NOTE]
 > In sommige gevallen kan het tot 24 uur duren voordat de groepsgegevens worden hersteld. 
-  
-## <a name="permanently-delete-a-microsoft-365-group"></a>Een Microsoft 365-groep permanent verwijderen
 
-Het kan soms voorkomen dat u een groep permanent wilt verwijderen zonder te hoeven wachten tot de dertig dagen dat de tijdelijke verwijdering duurt verloopt. Hiervoor start u PowerShell en voert u deze opdracht uit om de object-id van de groep op te vragen:
-  
-```
-Get-AzureADMSDeletedGroup
-```
+---
 
-Noteer de object-ID van de groep of groepen die u permanent wilt verwijderen.
-  
-> [!CAUTION]
-> Als u een groep permanent verwijdert, kunnen de groep en de bijbehorende gegevens niet meer worden hersteld. 
-  
-Voer deze opdracht uit in PowerShell om de groep permanent te verwijderen:
-  
-```
-Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
-```
-
-U kunt controleren dat de groep definitief is verwijderd door de cmdlet  *Get-AzureADMSDeletedGroup*  opnieuw uit te voeren en te kijken of de groep niet meer wordt vermeld in de lijst met voorlopig verwijderde groepen. In sommige gevallen duurt het wel 24 uur voordat de groep en alle bijbehorende gegevens permanent zijn verwijderd. 
-  
 ## <a name="got-questions-about-microsoft-365-groups"></a>Hebt u vragen over Microsoft 365-groepen?
 
 Bezoek de [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) voor het plaatsen van vragen en deelnemen aan gesprekken over microsoft 365 groepen. 

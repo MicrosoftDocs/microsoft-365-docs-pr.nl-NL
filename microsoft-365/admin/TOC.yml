@@ -82,7 +82,7 @@
           href: services-in-china/apply-for-a-fapiao.md
         - name: Azure Information Protection-pariteit
           href: services-in-china/parity-between-azure-information-protection.md
-    - name: Gebruikers en groepen beheren
+    - name: 'Gebruikers, groepen en wachtwoorden beheren'
       href: add-users/index.yml
       items:
         - name: Gebruikers
@@ -109,14 +109,6 @@
               href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: Een gebruiker herstellen
               href: add-users/restore-user.md
-            - name: Wachtwoorden opnieuw instellen
-              href: add-users/reset-passwords.md
-            - name: Instellen dat wachtwoorden nooit verlopen
-              href: add-users/set-password-to-never-expire.md
-            - name: Gebruikers wachtwoorden opnieuw laten instellen
-              href: add-users/let-users-reset-passwords.md
-            - name: Gebruikerswachtwoorden opnieuw verzenden
-              href: add-users/resend-user-password.md
             - name: Een sjabloon maken om gebruikers toe te voegen
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: Gebruikers upgraden naar de nieuwste apps
@@ -137,6 +129,20 @@
               href: create-groups/restore-deleted-group.md
             - name: Gasttoegang tot groepen beheren
               href: create-groups/manage-guest-access-in-groups.md
+        - name: Wachtwoorden
+          items:
+            - name: Wachtwoorden opnieuw instellen
+              href: add-users/reset-passwords.md
+            - name: Gebruikers wachtwoorden opnieuw laten instellen
+              href: add-users/let-users-reset-passwords.md
+            - name: Instellen dat wachtwoorden nooit verlopen
+              href: add-users/set-password-to-never-expire.md
+            - name: Gebruikerswachtwoorden opnieuw verzenden
+              href: add-users/resend-user-password.md
+            - name: Sterke wachtwoorden uitschakelen
+              href: add-users/strong-password.md
+            - name: Het beleid voor het verlopen van wachtwoorden instellen
+              href: manage/set-password-expiration-policy.md
     - name: E-mail en agenda's beheren
       href: email/index.yml
       items:

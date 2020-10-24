@@ -151,7 +151,7 @@
                       href: mtp/advanced-hunting-best-practices.md
                     - name: Verwerkingsfouten
                       href: mtp/advanced-hunting-errors.md
-                    - name: Servicelimieten
+                    - name: Quota en gebruiksparameters
                       href: mtp/advanced-hunting-limits.md
                 - name: Gegevensdekking uitbreiden
                   href: mtp/advanced-hunting-extend-data.md

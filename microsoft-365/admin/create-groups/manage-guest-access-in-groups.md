@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Meer informatie over het toevoegen van gasten aan een Microsoft 365-groep, het weergeven van gastgebruikers en het gebruik van PowerShell voor het beheer van gasttoegang.
-ms.openlocfilehash: 640a35cbb1a3eb395453b224cadcf0d0db82fab8
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 3fba6b4498f275b07148c2d879d141474ddf4a13
+ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326517"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753275"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gasttoegang beheren in Microsoft 365 groepen
 
@@ -61,7 +61,7 @@ Als de gast al bestaat in uw adreslijst, kunt u ze toevoegen aan uw groepen vanu
   
 4. Selecteer **leden toevoegen**en kies de naam van de gast die u wilt toevoegen.
     
-5. Selecteer **Opslaan**.
+5. Kies **Opslaan**.
 
 Als u een gast rechtstreeks aan de adreslijst wilt toevoegen, voegt u [de gebruikers van Azure Active Directory B2B-samenwerking toe aan de Azure-Portal](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
