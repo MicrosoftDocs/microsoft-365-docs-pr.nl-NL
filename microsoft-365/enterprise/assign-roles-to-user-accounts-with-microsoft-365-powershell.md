@@ -20,36 +20,38 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: In dit artikel leert u hoe u met PowerShell voor Microsoft 365 snel en gemakkelijk beheerdersrollen kunt toewijzen aan gebruikersaccounts.
-ms.openlocfilehash: 1486c86172cd34e6e88f8cd02d003967518bcdb7
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 7e3292ab26924384beb8d0c7450b7665dccd48fa
+ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655945"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48754196"
 ---
-# <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a><span data-ttu-id="88e10-103">Beheerdersrollen toewijzen aan Microsoft 365-gebruikersaccounts met PowerShell</span><span class="sxs-lookup"><span data-stu-id="88e10-103">Assign admin roles to Microsoft 365 user accounts with PowerShell</span></span>
+# <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a><span data-ttu-id="635b8-103">Beheerdersrollen toewijzen aan Microsoft 365-gebruikersaccounts met PowerShell</span><span class="sxs-lookup"><span data-stu-id="635b8-103">Assign admin roles to Microsoft 365 user accounts with PowerShell</span></span>
 
-<span data-ttu-id="88e10-104">*Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*</span><span class="sxs-lookup"><span data-stu-id="88e10-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="635b8-104">*Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*</span><span class="sxs-lookup"><span data-stu-id="635b8-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="88e10-105">U kunt snel en eenvoudig beheerdersrollen toewijzen aan gebruikersaccounts met behulp van PowerShell voor Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="88e10-105">You can quickly and easily assign admin roles to user accounts using PowerShell for Microsoft 365.</span></span>
+<span data-ttu-id="635b8-105">U kunt eenvoudig rollen aan gebruikersaccounts toewijzen met behulp van PowerShell voor Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="635b8-105">You can easily assign roles to user accounts by using PowerShell for Microsoft 365.</span></span>
 
 >[!Note]
-><span data-ttu-id="88e10-106">[Meer informatie over het toewijzen van beheerdersrollen aan gebruikersaccounts](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) met het microsoft 365-Beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="88e10-106">[Learn how to assign admin roles to user accounts](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) with the Microsoft 365 admin center.</span></span> <span data-ttu-id="88e10-107">Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.</span><span class="sxs-lookup"><span data-stu-id="88e10-107">For a list of additional resources, see [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).</span></span>
+><span data-ttu-id="635b8-106">Meer informatie over het  [toewijzen van beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) aan gebruikersaccounts met het microsoft 365-Beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="635b8-106">Learn how to  [assign admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) to user accounts with the Microsoft 365 admin center.</span></span>
+>
+><span data-ttu-id="635b8-107">Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.</span><span class="sxs-lookup"><span data-stu-id="635b8-107">For a list of additional resources, see [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).</span></span>
 >
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="88e10-108">Azure Active Directory PowerShell voor Graph module gebruiken</span><span class="sxs-lookup"><span data-stu-id="88e10-108">Use the Azure Active Directory PowerShell for Graph module</span></span>
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="635b8-108">Azure Active Directory PowerShell voor Graph module gebruiken</span><span class="sxs-lookup"><span data-stu-id="635b8-108">Use the Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="88e10-109">Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module) met behulp van een account van een globale beheerder.</span><span class="sxs-lookup"><span data-stu-id="88e10-109">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module) using a global administrator account.</span></span>
+<span data-ttu-id="635b8-109">Gebruik eerst een algemeen beheerdersaccount om [verbinding te maken met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span><span class="sxs-lookup"><span data-stu-id="635b8-109">First, use a global administrator account to [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
   
-<span data-ttu-id="88e10-110">Bepaal vervolgens de aanmeldingsnaam van het gebruikersaccount dat u wilt toevoegen aan een rol (voorbeeld: fredsm@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="88e10-110">Next, determine the sign-in name of the user account that you want to add to a role (example: fredsm@contoso.com).</span></span> <span data-ttu-id="88e10-111">Dit wordt ook wel de UPN (User Principal Name) genoemd.</span><span class="sxs-lookup"><span data-stu-id="88e10-111">This is also known as the user principal name (UPN).</span></span>
+<span data-ttu-id="635b8-110">Identificeer vervolgens de aanmeldingsnaam van het gebruikersaccount dat u wilt toevoegen aan een rol (voorbeeld: fredsm \@ contoso.com).</span><span class="sxs-lookup"><span data-stu-id="635b8-110">Next, identify the sign-in name of the user account that you want to add to a role (example: fredsm\@contoso.com).</span></span> <span data-ttu-id="635b8-111">Dit wordt ook wel de UPN (User Principal Name) genoemd.</span><span class="sxs-lookup"><span data-stu-id="635b8-111">This is also known as the user principal name (UPN).</span></span>
 
-<span data-ttu-id="88e10-112">Bepaal vervolgens de naam van de beheerdersrol.</span><span class="sxs-lookup"><span data-stu-id="88e10-112">Next, determine the name of the admin role.</span></span> <span data-ttu-id="88e10-113">Gebruik deze [lijst met machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).</span><span class="sxs-lookup"><span data-stu-id="88e10-113">Use this [list of administrator role permissions in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).</span></span>
+<span data-ttu-id="635b8-112">Bepaal vervolgens de naam van de rol.</span><span class="sxs-lookup"><span data-stu-id="635b8-112">Next, determine the name of the role.</span></span> <span data-ttu-id="635b8-113">Zie [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).</span><span class="sxs-lookup"><span data-stu-id="635b8-113">See [administrator role permissions in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).</span></span>
 
 >[!Note]
-><span data-ttu-id="88e10-114">Let op de notities in dit artikel.</span><span class="sxs-lookup"><span data-stu-id="88e10-114">Pay attention to the notes in this article.</span></span> <span data-ttu-id="88e10-115">Sommige namen van rollen zijn verschillend voor Azure AD PowerShell.</span><span class="sxs-lookup"><span data-stu-id="88e10-115">Some role names are different for Azure AD PowerShell.</span></span> <span data-ttu-id="88e10-116">De rol ' SharePoint-beheerder ' in het Microsoft 365-Beheercentrum heeft bijvoorbeeld de naam SharePoint Service beheerder voor Azure AD PowerShell.</span><span class="sxs-lookup"><span data-stu-id="88e10-116">For example, the "SharePoint Administrator" role in the Microsoft 365 admin center is named "SharePoint Service Administrator" for Azure AD PowerShell.</span></span>
+><span data-ttu-id="635b8-114">Let op de notities in dit artikel.</span><span class="sxs-lookup"><span data-stu-id="635b8-114">Pay attention to the notes in this article.</span></span> <span data-ttu-id="635b8-115">Sommige namen van rollen zijn verschillend voor Azure Active Directory (Azure AD) PowerShell.</span><span class="sxs-lookup"><span data-stu-id="635b8-115">Some role names are different for Azure Active Directory (Azure AD) PowerShell.</span></span> <span data-ttu-id="635b8-116">De rol van *SharePoint-beheerder* in het microsoft 365-Beheercentrum is bijvoorbeeld de *SharePoint-Service beheerder* in azure AD Powershell.</span><span class="sxs-lookup"><span data-stu-id="635b8-116">For example, the *SharePoint Administrator* role in the Microsoft 365 admin center is *SharePoint Service Administrator* in Azure AD PowerShell.</span></span>
 >
 
-<span data-ttu-id="88e10-117">Vul vervolgens de namen van de aanmeld-en rollen in en voer deze opdrachten uit.</span><span class="sxs-lookup"><span data-stu-id="88e10-117">Next, fill in the sign-in and role names and run these commands.</span></span>
+<span data-ttu-id="635b8-117">Vul vervolgens de namen van de aanmeld-en rollen in en voer de volgende opdrachten uit:</span><span class="sxs-lookup"><span data-stu-id="635b8-117">Next, fill in the sign-in and role names and run these commands:</span></span>
   
 ```powershell
 $userName="<sign-in name of the account>"
@@ -63,7 +65,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-<span data-ttu-id="88e10-118">Hier ziet u een voorbeeld van een voltooide opdrachtenset waarmee de beheerderrol van de SharePoint-Service beheerder wordt toegewezen aan het belindan@contoso.com-account:</span><span class="sxs-lookup"><span data-stu-id="88e10-118">Here is an example of a completed command set that assigns the SharePoint Service Administrator admin role to the belindan@contoso.com account:</span></span>
+<span data-ttu-id="635b8-118">Hier volgt een voorbeeld van een voltooide opdrachtenset waarmee de rol van SharePoint-Service beheerder wordt toegewezen aan het *belindan \@ contoso.com* -account:</span><span class="sxs-lookup"><span data-stu-id="635b8-118">Here's an example of a completed command set that assigns the SharePoint Service Administrator role to the *belindan\@contoso.com* account:</span></span>
   
 ```powershell
 $userName="belindan@contoso.com"
@@ -77,54 +79,54 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-<span data-ttu-id="88e10-119">Als u de lijst met gebruikersnamen wilt weergeven voor een specifieke beheerdersrol, gebruikt u deze opdrachten.</span><span class="sxs-lookup"><span data-stu-id="88e10-119">To display the list of user names for a specific admin role, use these commands.</span></span>
+<span data-ttu-id="635b8-119">Als u de lijst met gebruikersnamen wilt weergeven voor een specifieke beheerdersrol, gebruikt u deze opdrachten.</span><span class="sxs-lookup"><span data-stu-id="635b8-119">To display the list of user names for a specific admin role, use these commands.</span></span>
 
 ```powershell
 $roleName="<role name>"
 Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADDirectoryRoleMember | Ft DisplayName
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="88e10-120">De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken</span><span class="sxs-lookup"><span data-stu-id="88e10-120">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="635b8-120">De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken</span><span class="sxs-lookup"><span data-stu-id="635b8-120">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
 
-<span data-ttu-id="88e10-121">Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) met behulp van een account van een globale beheerder.</span><span class="sxs-lookup"><span data-stu-id="88e10-121">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) using a global administrator account.</span></span>
+<span data-ttu-id="635b8-121">Gebruik eerst een algemeen beheerdersaccount om [verbinding te maken met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="635b8-121">First, use a global administrator account to [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
   
-### <a name="for-a-single-role-change"></a><span data-ttu-id="88e10-122">Voor één wijziging van een rol</span><span class="sxs-lookup"><span data-stu-id="88e10-122">For a single role change</span></span>
+### <a name="for-a-single-role-change"></a><span data-ttu-id="635b8-122">Voor één wijziging van een rol</span><span class="sxs-lookup"><span data-stu-id="635b8-122">For a single role change</span></span>
 
-<span data-ttu-id="88e10-123">De meest voorkomende manier van een specifiek gebruikersaccount is de naam van de weergave of de e-mail naam van de persoon, ook bekend als de naam van de aanmelding of de UPN (User Principal Name).</span><span class="sxs-lookup"><span data-stu-id="88e10-123">The most common ways of specific user account is with its display name or its email name, also known its sign-in name or user principal name (UPN).</span></span>
+<span data-ttu-id="635b8-123">De meest voorkomende manieren om het gebruikersaccount te specificeren, is door gebruik te maken van de naam van het account of de e-mail naam van de gebruiker, die ook bekend is als aanmeldingsnaam of UPN (User Principal Name).</span><span class="sxs-lookup"><span data-stu-id="635b8-123">The most common ways to specify the user account is by using its display name or its email name, which also known as its sign-in name or user principal name (UPN).</span></span>
 
-#### <a name="display-names-of-user-accounts"></a><span data-ttu-id="88e10-124">Namen van gebruikersaccounts weergeven</span><span class="sxs-lookup"><span data-stu-id="88e10-124">Display names of user accounts</span></span>
+#### <a name="display-names-of-user-accounts"></a><span data-ttu-id="635b8-124">Namen van gebruikersaccounts weergeven</span><span class="sxs-lookup"><span data-stu-id="635b8-124">Display names of user accounts</span></span>
 
-<span data-ttu-id="88e10-125">Als u werkt met de weergavenamen van gebruikersaccounts, bepaalt u het volgende:</span><span class="sxs-lookup"><span data-stu-id="88e10-125">If you are used to working with the display names of user accounts, determine the following:</span></span>
+<span data-ttu-id="635b8-125">Als u gebruikmaakt van de weergavenamen van gebruikersaccounts, bepaalt u de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="635b8-125">If you're used to working with the display names of user accounts, determine the following information:</span></span>
   
-- <span data-ttu-id="88e10-126">Het gebruikersaccount dat u wilt configureren.</span><span class="sxs-lookup"><span data-stu-id="88e10-126">The user account that you want to configure.</span></span>
+- <span data-ttu-id="635b8-126">Het gebruikersaccount dat u wilt configureren</span><span class="sxs-lookup"><span data-stu-id="635b8-126">The user account that you want to configure</span></span>
     
-    <span data-ttu-id="88e10-127">Als u het gebruikersaccount wilt opgeven, moet u de weergavenaam ervan bepalen.</span><span class="sxs-lookup"><span data-stu-id="88e10-127">To specify the user account, you must determine its Display Name.</span></span> <span data-ttu-id="88e10-128">Voor een volledige lijst van accounts gebruikt u deze opdracht:</span><span class="sxs-lookup"><span data-stu-id="88e10-128">To get a complete list accounts, use this command:</span></span>
+    <span data-ttu-id="635b8-127">Als u het gebruikersaccount wilt opgeven, moet u de weergavenaam ervan bepalen.</span><span class="sxs-lookup"><span data-stu-id="635b8-127">To specify the user account, you must determine its Display Name.</span></span> <span data-ttu-id="635b8-128">Voor een volledige lijst met accounts gebruikt u deze opdracht:</span><span class="sxs-lookup"><span data-stu-id="635b8-128">To get a complete list of accounts, use this command:</span></span>
     
   ```powershell
   Get-MsolUser -All | Sort DisplayName | Select DisplayName | More
   ```
 
-    <span data-ttu-id="88e10-129">Met deze opdracht wordt de weergavenaam van uw gebruikersaccounts weergegeven, gesorteerd op de weergavenaam, één scherm tegelijkertijd.</span><span class="sxs-lookup"><span data-stu-id="88e10-129">This command lists the Display Name of your user accounts, sorted by the Display Name, one screen at a time.</span></span> <span data-ttu-id="88e10-130">U kunt de lijst filteren op een kleinere set met behulp **van de cmdlet** -cmdlet.</span><span class="sxs-lookup"><span data-stu-id="88e10-130">You can filter the list to a smaller set by using the **Where** cmdlet.</span></span> <span data-ttu-id="88e10-131">Hier ziet u een voorbeeld:</span><span class="sxs-lookup"><span data-stu-id="88e10-131">Here is an example:</span></span>
+    <span data-ttu-id="635b8-129">Met deze opdracht wordt de weergavenaam van uw gebruikersaccounts weergegeven, gesorteerd op de weergavenaam, één scherm tegelijkertijd.</span><span class="sxs-lookup"><span data-stu-id="635b8-129">This command lists the Display Name of your user accounts, sorted by the Display Name, one screen at a time.</span></span> <span data-ttu-id="635b8-130">U kunt de lijst filteren op een kleinere set met behulp **van de cmdlet** -cmdlet.</span><span class="sxs-lookup"><span data-stu-id="635b8-130">You can filter the list to a smaller set by using the **Where** cmdlet.</span></span> <span data-ttu-id="635b8-131">Zie het volgende voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="635b8-131">See the following example.</span></span>
 
    >[!Note]
-   ><span data-ttu-id="88e10-132">PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell en cmdlets met **Msol** in hun naam.</span><span class="sxs-lookup"><span data-stu-id="88e10-132">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="88e10-133">Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="88e10-133">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
+   ><span data-ttu-id="635b8-132">PowerShell core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met *MSOL* in de naam.</span><span class="sxs-lookup"><span data-stu-id="635b8-132">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="635b8-133">Voer de volgende cmdlets uit vanuit Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="635b8-133">Run these cmdlets from Windows PowerShell.</span></span>
    >
     
   ```powershell
   Get-MsolUser -All | Where DisplayName -like "John*" | Sort DisplayName | Select DisplayName | More
   ```
 
-    <span data-ttu-id="88e10-134">Met deze opdracht worden alleen de gebruikersaccounts weergegeven waarvoor de weergavenaam begint met ' John '.</span><span class="sxs-lookup"><span data-stu-id="88e10-134">This command lists only the user accounts for which the Display Name starts with "John".</span></span>
+    <span data-ttu-id="635b8-134">Met deze opdracht worden alleen de gebruikersaccounts weergegeven waarvoor de weergavenaam begint met ' John '.</span><span class="sxs-lookup"><span data-stu-id="635b8-134">This command lists only the user accounts for which the Display Name starts with "John".</span></span>
     
-- <span data-ttu-id="88e10-135">De rol die u wilt toewijzen.</span><span class="sxs-lookup"><span data-stu-id="88e10-135">The role you want to assign.</span></span>
+- <span data-ttu-id="635b8-135">De rol die u wilt toewijzen</span><span class="sxs-lookup"><span data-stu-id="635b8-135">The role you want to assign</span></span>
     
-    <span data-ttu-id="88e10-136">Met de volgende opdracht kunt u de lijst met beschikbare beheerdersrollen weergeven die u kunt toewijzen aan gebruikersaccounts:</span><span class="sxs-lookup"><span data-stu-id="88e10-136">To display the list of available admin roles that you can assign to user accounts, use this command:</span></span>
+    <span data-ttu-id="635b8-136">Met de volgende opdracht kunt u de lijst met beschikbare beheerdersrollen weergeven die u kunt toewijzen aan gebruikersaccounts:</span><span class="sxs-lookup"><span data-stu-id="635b8-136">To display the list of available admin roles that you can assign to user accounts, use this command:</span></span>
     
   ```powershell
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-<span data-ttu-id="88e10-137">Wanneer u de weergavenaam van het account en de naam van de beheerdersrol hebt vastgesteld, kunt u deze opdrachten gebruiken om de rol aan het account toe te wijzen:</span><span class="sxs-lookup"><span data-stu-id="88e10-137">Once you have determined the Display Name of the account and the Name of the admin role, use these commands to assign the role to the account:</span></span>
+<span data-ttu-id="635b8-137">Wanneer u de weergavenaam van het account en de naam van de rol hebt vastgesteld, kunt u deze opdrachten gebruiken om de rol aan het account toe te wijzen:</span><span class="sxs-lookup"><span data-stu-id="635b8-137">After you determine the Display Name of the account and the name of the role, use these commands to assign the role to the account:</span></span>
   
 ```powershell
 $dispName="<The Display Name of the account>"
@@ -132,9 +134,9 @@ $roleName="<The admin role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-<span data-ttu-id="88e10-138">Kopieer de opdrachten en plak deze in Kladblok.</span><span class="sxs-lookup"><span data-stu-id="88e10-138">Copy the commands and paste them into Notepad.</span></span> <span data-ttu-id="88e10-139">Voor de **$dispName** en **$roleName** variabelen vervangt u de beschrijvende tekst door de bijbehorende waarden, verwijdert u de \< and > tekens en verlaat u de aanhalingstekens.</span><span class="sxs-lookup"><span data-stu-id="88e10-139">For the **$dispName** and **$roleName** variables, replace the description text with their values, remove the \< and > characters, and leave the quotes.</span></span> <span data-ttu-id="88e10-140">Kopieer de gewijzigde regels en plak ze in het venster Windows Azure Active Directory voor Windows PowerShell om ze uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="88e10-140">Copy the modified lines and paste them into your Windows Azure Active Directory Module for Windows PowerShell window to run them.</span></span> <span data-ttu-id="88e10-141">U kunt ook gebruikmaken van de Windows PowerShell Integrated script Environment (ISE).</span><span class="sxs-lookup"><span data-stu-id="88e10-141">Alternately, you can use the Windows PowerShell Integrated Script Environment (ISE).</span></span>
+<span data-ttu-id="635b8-138">Plak de opdrachten in Kladblok.</span><span class="sxs-lookup"><span data-stu-id="635b8-138">Paste the commands into Notepad.</span></span> <span data-ttu-id="635b8-139">Voor de *$dispName* en *$roleName* variabelen vervangt u de beschrijvende tekst door de bijbehorende waarden.</span><span class="sxs-lookup"><span data-stu-id="635b8-139">For the *$dispName* and *$roleName* variables, replace the description text with their values.</span></span> <span data-ttu-id="635b8-140">Verwijder de \< and > tekens, maar behoud de aanhalingstekens.</span><span class="sxs-lookup"><span data-stu-id="635b8-140">Remove the \< and > characters but keep the quotation marks.</span></span> <span data-ttu-id="635b8-141">Plak de gewijzigde regels in het venster Microsoft Azure Active Directory-module voor Windows PowerShell om ze uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="635b8-141">Paste the modified lines into the Microsoft Azure Active Directory Module for Windows PowerShell window to run them.</span></span> <span data-ttu-id="635b8-142">U kunt ook gebruikmaken van de Windows PowerShell Integrated script Environment (ISE).</span><span class="sxs-lookup"><span data-stu-id="635b8-142">Alternately, you can use the Windows PowerShell Integrated Script Environment (ISE).</span></span>
   
-<span data-ttu-id="88e10-142">Hier ziet u een voorbeeld van een voltooide opdrachtreeks:</span><span class="sxs-lookup"><span data-stu-id="88e10-142">Here is an example of a completed command set:</span></span>
+<span data-ttu-id="635b8-143">Hier ziet u een voorbeeld van een voltooide opdracht:</span><span class="sxs-lookup"><span data-stu-id="635b8-143">Here's an example of a completed command set:</span></span>
   
 ```powershell
 $dispName="Scott Wallace"
@@ -142,35 +144,35 @@ $roleName="SharePoint Service Administrator"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-#### <a name="sign-in-names-of-user-accounts"></a><span data-ttu-id="88e10-143">Aanmeldingsnamen van gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="88e10-143">Sign-in names of user accounts</span></span>
+#### <a name="sign-in-names-of-user-accounts"></a><span data-ttu-id="635b8-144">Aanmeldingsnamen van gebruikersaccounts</span><span class="sxs-lookup"><span data-stu-id="635b8-144">Sign-in names of user accounts</span></span>
 
-<span data-ttu-id="88e10-144">Als u gebruikmaakt van aanmeldingsnamen of Upn's van gebruikersaccounts, controleert u het volgende:</span><span class="sxs-lookup"><span data-stu-id="88e10-144">If you are used to working with the sign-in names or UPNs of user accounts, determine the following:</span></span>
+<span data-ttu-id="635b8-145">Als u gebruikmaakt van de aanmeldingsnamen of Upn's van gebruikersaccounts, bepaalt u de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="635b8-145">If you're used to working with the sign-in names or UPNs of user accounts, determine the following information:</span></span>
   
-- <span data-ttu-id="88e10-145">De UPN van de gebruikersaccount.</span><span class="sxs-lookup"><span data-stu-id="88e10-145">The user account's UPN.</span></span>
+- <span data-ttu-id="635b8-146">De UPN van de gebruikersaccount</span><span class="sxs-lookup"><span data-stu-id="635b8-146">The user account's UPN</span></span>
     
-    <span data-ttu-id="88e10-146">Als u de UPN nog niet weet, gebruikt u deze opdracht:</span><span class="sxs-lookup"><span data-stu-id="88e10-146">If you don't already know the UPN, use this command:</span></span>
+    <span data-ttu-id="635b8-147">Als u de UPN niet weet, gebruikt u deze opdracht:</span><span class="sxs-lookup"><span data-stu-id="635b8-147">If you don't know the UPN, use this command:</span></span>
     
   ```powershell
   Get-MsolUser -All | Sort UserPrincipalName | Select UserPrincipalName | More
   ```
 
-    <span data-ttu-id="88e10-147">Met deze opdracht wordt de UPN van uw gebruikersaccounts weergegeven, gesorteerd op de UPN, één scherm tegelijkertijd.</span><span class="sxs-lookup"><span data-stu-id="88e10-147">This command lists the UPN of your user accounts, sorted by the UPN, one screen at a time.</span></span> <span data-ttu-id="88e10-148">U kunt de lijst filteren op een kleinere set met behulp **van de cmdlet** -cmdlet.</span><span class="sxs-lookup"><span data-stu-id="88e10-148">You can filter the list to a smaller set by using the **Where** cmdlet.</span></span> <span data-ttu-id="88e10-149">Hier ziet u een voorbeeld:</span><span class="sxs-lookup"><span data-stu-id="88e10-149">Here is an example:</span></span>
+    <span data-ttu-id="635b8-148">Met deze opdracht wordt de UPN van uw gebruikersaccounts weergegeven, gesorteerd op UPN, één scherm tegelijkertijd.</span><span class="sxs-lookup"><span data-stu-id="635b8-148">This command lists the UPN of your user accounts, sorted by UPN, one screen at a time.</span></span> <span data-ttu-id="635b8-149">U kunt de **where** -cmdlet gebruiken om de lijst te filteren.</span><span class="sxs-lookup"><span data-stu-id="635b8-149">You can use the **Where** cmdlet to filter the list.</span></span> <span data-ttu-id="635b8-150">Hier ziet u een voorbeeld:</span><span class="sxs-lookup"><span data-stu-id="635b8-150">Here's an example:</span></span>
     
   ```powershell
   Get-MsolUser -All | Where DisplayName -like "John*" | Sort UserPrincipalName | Select UserPrincipalName | More
   ```
 
-    <span data-ttu-id="88e10-150">Met deze opdracht worden alleen de gebruikersaccounts weergegeven waarvoor de weergavenaam begint met ' John '.</span><span class="sxs-lookup"><span data-stu-id="88e10-150">This command lists only the user accounts for which the Display Name starts with "John".</span></span>
+    <span data-ttu-id="635b8-151">Met deze opdracht worden alleen de gebruikersaccounts weergegeven waarvoor de weergavenaam begint met ' John '.</span><span class="sxs-lookup"><span data-stu-id="635b8-151">This command lists only the user accounts for which the Display Name starts with "John".</span></span>
     
-- <span data-ttu-id="88e10-151">De rol die u wilt toewijzen.</span><span class="sxs-lookup"><span data-stu-id="88e10-151">The role you want to assign.</span></span>
+- <span data-ttu-id="635b8-152">De rol die u wilt toewijzen</span><span class="sxs-lookup"><span data-stu-id="635b8-152">The role you want to assign</span></span>
     
-    <span data-ttu-id="88e10-152">Met de volgende opdracht kunt u de lijst met beschikbare rollen weergeven die u kunt toewijzen aan gebruikersaccounts:</span><span class="sxs-lookup"><span data-stu-id="88e10-152">To display the list of available roles that you can assign to user accounts, use this command:</span></span>
+    <span data-ttu-id="635b8-153">Met de volgende opdracht kunt u de lijst met beschikbare rollen weergeven die u kunt toewijzen aan gebruikersaccounts:</span><span class="sxs-lookup"><span data-stu-id="635b8-153">To display the list of available roles that you can assign to user accounts, use this command:</span></span>
     
   ```powershell
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-<span data-ttu-id="88e10-153">Wanneer u de UPN van het account en de naam van de rol hebt, kunt u deze opdrachten gebruiken om de rol aan het account toe te wijzen:</span><span class="sxs-lookup"><span data-stu-id="88e10-153">Once you have the UPN of the account and the name of the role, use these commands to assign the role to the account:</span></span>
+<span data-ttu-id="635b8-154">Wanneer u de UPN van het account en de naam van de rol hebt, kunt u deze opdrachten gebruiken om de rol aan het account toe te wijzen:</span><span class="sxs-lookup"><span data-stu-id="635b8-154">After you have the UPN of the account and the name of the role, use these commands to assign the role to the account:</span></span>
   
 ```powershell
 $upnName="<The UPN of the account>"
@@ -178,9 +180,9 @@ $roleName="<The role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 ```
 
-<span data-ttu-id="88e10-154">Kopieer de opdrachten en plak deze in Kladblok.</span><span class="sxs-lookup"><span data-stu-id="88e10-154">Copy the commands and paste them into Notepad.</span></span> <span data-ttu-id="88e10-155">Voor de **$upnName** en **$roleName** variabelen vervangt u de beschrijvende tekst door de bijbehorende waarden, verwijdert u de \< and > tekens en verlaat u de aanhalingstekens.</span><span class="sxs-lookup"><span data-stu-id="88e10-155">For the **$upnName** and **$roleName** variables, replace the description text with their values, remove the \< and > characters, and leave the quotes.</span></span> <span data-ttu-id="88e10-156">Kopieer de gewijzigde regels en plak ze in het venster Windows Azure Active Directory voor Windows PowerShell om ze uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="88e10-156">Copy the modified lines and paste them into your Windows Azure Active Directory Module for Windows PowerShell window to run them.</span></span> <span data-ttu-id="88e10-157">U kunt ook het Windows PowerShell-ISE gebruiken.</span><span class="sxs-lookup"><span data-stu-id="88e10-157">Alternately, you can use the Windows PowerShell ISE.</span></span>
+<span data-ttu-id="635b8-155">Kopieer de opdrachten en plak deze in Kladblok.</span><span class="sxs-lookup"><span data-stu-id="635b8-155">Copy the commands and paste them into Notepad.</span></span> <span data-ttu-id="635b8-156">Voor de **$upnName** en **$roleName** variabelen.</span><span class="sxs-lookup"><span data-stu-id="635b8-156">For the **$upnName** and **$roleName** variables.</span></span> <span data-ttu-id="635b8-157">De beschrijvende tekst vervangen door de bijbehorende waarden.</span><span class="sxs-lookup"><span data-stu-id="635b8-157">Replace the description text with their values.</span></span> <span data-ttu-id="635b8-158">Verwijder de \< and > tekens, maar behoud de aanhalingstekens.</span><span class="sxs-lookup"><span data-stu-id="635b8-158">Remove the \< and > characters but keep the quotation marks.</span></span> <span data-ttu-id="635b8-159">Plak de gewijzigde regels in Microsoft Azure Active Directory-module voor Windows PowerShell-venster om ze uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="635b8-159">Paste the modified lines into Microsoft Azure Active Directory Module for Windows PowerShell window to run them.</span></span> <span data-ttu-id="635b8-160">U kunt ook het Windows PowerShell-ISE gebruiken.</span><span class="sxs-lookup"><span data-stu-id="635b8-160">Alternately, you can use the Windows PowerShell ISE.</span></span>
   
-<span data-ttu-id="88e10-158">Hier ziet u een voorbeeld van een voltooide opdrachtreeks:</span><span class="sxs-lookup"><span data-stu-id="88e10-158">Here is an example of a completed command set:</span></span>
+<span data-ttu-id="635b8-161">Hier ziet u een voorbeeld van een voltooide opdracht:</span><span class="sxs-lookup"><span data-stu-id="635b8-161">Here's an example of a completed command set:</span></span>
   
 ```powershell
 $upnName="scottw@contoso.com"
@@ -188,23 +190,21 @@ $roleName="SharePoint Service Administrator"
 Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 ```
 
-### <a name="multiple-role-changes"></a><span data-ttu-id="88e10-159">Wijzigingen in meerdere rollen</span><span class="sxs-lookup"><span data-stu-id="88e10-159">Multiple role changes</span></span>
+### <a name="multiple-role-changes"></a><span data-ttu-id="635b8-162">Wijzigingen in meerdere rollen</span><span class="sxs-lookup"><span data-stu-id="635b8-162">Multiple role changes</span></span>
 
-<span data-ttu-id="88e10-160">Voor wijzigingen in meerdere rollen, controleert u het volgende:</span><span class="sxs-lookup"><span data-stu-id="88e10-160">For multiple role changes, determine the following:</span></span>
+<span data-ttu-id="635b8-163">Voor wijzigingen in meerdere rollen, bepaalt u de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="635b8-163">For multiple role changes, determine the following information:</span></span>
   
-- <span data-ttu-id="88e10-161">De gebruikersaccounts die u wilt configureren.</span><span class="sxs-lookup"><span data-stu-id="88e10-161">Which user accounts that you want to configure.</span></span> <span data-ttu-id="88e10-162">U kunt de methoden in de vorige sectie gebruiken om de set weergavenamen of-Upn's te verzamelen.</span><span class="sxs-lookup"><span data-stu-id="88e10-162">You can use the methods in the previous section to gather the set of display names or UPNs.</span></span>
+- <span data-ttu-id="635b8-164">De gebruikersaccounts die u wilt configureren.</span><span class="sxs-lookup"><span data-stu-id="635b8-164">Which user accounts you want to configure.</span></span> <span data-ttu-id="635b8-165">U kunt de methoden in de vorige sectie gebruiken om de set weergavenamen of-Upn's te verzamelen.</span><span class="sxs-lookup"><span data-stu-id="635b8-165">You can use the methods in the previous section to gather the set of display names or UPNs.</span></span>
     
-- <span data-ttu-id="88e10-163">Welke rollen u wilt toewijzen aan de gebruikersaccounts.</span><span class="sxs-lookup"><span data-stu-id="88e10-163">Which roles you want to assign to each user account.</span></span>
-    
-    <span data-ttu-id="88e10-164">Met de volgende opdracht kunt u de lijst met beschikbare rollen weergeven die u kunt toewijzen aan gebruikersaccounts:</span><span class="sxs-lookup"><span data-stu-id="88e10-164">To display the list of available roles that you can assign to user accounts, use this command:</span></span>
+- <span data-ttu-id="635b8-166">Welke rollen u wilt toewijzen aan de gebruikersaccounts.</span><span class="sxs-lookup"><span data-stu-id="635b8-166">Which roles you want to assign to each user account.</span></span> <span data-ttu-id="635b8-167">Met de volgende opdracht kunt u de lijst met beschikbare rollen weergeven die u kunt toewijzen aan gebruikersaccounts:</span><span class="sxs-lookup"><span data-stu-id="635b8-167">To display the list of available roles that you can assign to user accounts, use this command:</span></span>
     
   ```powershell
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-<span data-ttu-id="88e10-165">Maak vervolgens een tekstbestand met door komma's gescheiden waarden (CSV) met de velden weergavenaam of UPN en rollen namen.</span><span class="sxs-lookup"><span data-stu-id="88e10-165">Next, create a comma-separated value (CSV) text file that has the display name or UPN and role name fields.</span></span> <span data-ttu-id="88e10-166">U kunt dit eenvoudig doen met Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="88e10-166">You can do this easily with Microsoft Excel.</span></span>
+<span data-ttu-id="635b8-168">Maak vervolgens een tekstbestand met door komma's gescheiden waarden (CSV) met de velden weergavenaam of UPN en rollen namen.</span><span class="sxs-lookup"><span data-stu-id="635b8-168">Next, create a comma-separated value (CSV) text file that has the display name or UPN and role name fields.</span></span> <span data-ttu-id="635b8-169">U kunt dit eenvoudiger doen in Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="635b8-169">You can do this easily in Microsoft Excel.</span></span>
 
-<span data-ttu-id="88e10-167">Hier ziet u een voorbeeld van weergavenamen:</span><span class="sxs-lookup"><span data-stu-id="88e10-167">Here is an example for display names:</span></span>
+<span data-ttu-id="635b8-170">Hier ziet u een voorbeeld van weergavenamen:</span><span class="sxs-lookup"><span data-stu-id="635b8-170">Here's an example for display names:</span></span>
   
 ```powershell
 DisplayName,RoleName
@@ -212,7 +212,7 @@ DisplayName,RoleName
 "Scott Wallace","SharePoint Service Administrator"
 ```
 
-<span data-ttu-id="88e10-168">Vul vervolgens de locatie van het CSV-bestand in en voer de resultaat opdrachten uit op de PowerShell-opdrachtprompt.</span><span class="sxs-lookup"><span data-stu-id="88e10-168">Next, fill in the location of the CSV file and run the resulting commands at the PowerShell command prompt.</span></span>
+<span data-ttu-id="635b8-171">Vul vervolgens de locatie van het CSV-bestand in en voer de resultaat opdrachten uit op de PowerShell-opdrachtprompt.</span><span class="sxs-lookup"><span data-stu-id="635b8-171">Next, fill in the location of the CSV file and run the resulting commands at the PowerShell command prompt.</span></span>
   
 ```powershell
 $fileName="<path and file name of the input CSV file that has the role changes, example: C:\admin\RoleUpdates.CSV>"
@@ -220,7 +220,7 @@ $roleChanges=Import-Csv $fileName | ForEach {Add-MsolRoleMember -RoleMemberEmail
 
 ```
 
-<span data-ttu-id="88e10-169">Hier ziet u een voorbeeld voor Upn's:</span><span class="sxs-lookup"><span data-stu-id="88e10-169">Here is an example for UPNs:</span></span>
+<span data-ttu-id="635b8-172">Hier ziet u een voorbeeld van de Upn's:</span><span class="sxs-lookup"><span data-stu-id="635b8-172">Here's an example for UPNs:</span></span>
   
 ```powershell
 UserPrincipalName,RoleName
@@ -228,7 +228,7 @@ UserPrincipalName,RoleName
 "scottw@contoso.com","SharePoint Service Administrator"
 ```
 
-<span data-ttu-id="88e10-170">Vul vervolgens de locatie van het CSV-bestand in en voer de resultaat opdrachten uit op de PowerShell-opdrachtprompt.</span><span class="sxs-lookup"><span data-stu-id="88e10-170">Next, fill in the location of the CSV file and run the resulting commands at the PowerShell command prompt.</span></span>
+<span data-ttu-id="635b8-173">Vul vervolgens de locatie van het CSV-bestand in en voer de resultaat opdrachten uit op de PowerShell-opdrachtprompt.</span><span class="sxs-lookup"><span data-stu-id="635b8-173">Next, fill in the location of the CSV file and run the resulting commands at the PowerShell command prompt.</span></span>
   
 ```powershell
 $fileName="<path and file name of the input CSV file that has the role changes, example: C:\admin\RoleUpdates.CSV>"
@@ -236,8 +236,8 @@ $roleChanges=Import-Csv $fileName | ForEach { Add-MsolRoleMember -RoleMemberEmai
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="88e10-171">Zie ook</span><span class="sxs-lookup"><span data-stu-id="88e10-171">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="635b8-174">Zie ook</span><span class="sxs-lookup"><span data-stu-id="635b8-174">See also</span></span>
 
-- [<span data-ttu-id="88e10-172">Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="88e10-172">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="88e10-173">Microsoft 365 beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="88e10-173">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="88e10-174">Aan de slag met PowerShell voor Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="88e10-174">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="635b8-175">Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="635b8-175">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="635b8-176">Microsoft 365 beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="635b8-176">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="635b8-177">Aan de slag met PowerShell voor Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="635b8-177">Get started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
