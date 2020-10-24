@@ -238,6 +238,8 @@
           href: create-test-tune-dlp-policy.md
         - name: Meldingen en beleidstips gebruiken in DLP-beleid
           href: use-notifications-and-policy-tips.md
+        - name: Waarschuwingen voor het DLP-beleid configureren en weergeven (preview)
+          href: dlp-configure-view-alerts-policies.md
         - name: Wat zijn de DLP-beleidssjablonen?
           href: what-the-dlp-policy-templates-include.md
         - name: Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen
