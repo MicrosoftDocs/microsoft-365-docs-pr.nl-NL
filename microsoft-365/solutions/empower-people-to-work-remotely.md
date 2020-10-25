@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: ''
 description: Configureer de beveiligings- en service-infrastructuur waardoor uw werknemers altijd en overal op afstand kunnen werken.
-ms.openlocfilehash: ca5774c027eebaedd42bcca23292b89d92f1e102
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 60467f0ed3cf7aa75481cb3bb49f954c32bf2e7d
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487742"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681394"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
 
@@ -48,6 +48,7 @@ Deze oplossing biedt de volgende belangrijke mogelijkheden.
   Externe werknemers hebben overal ter wereld en op elk gewenst moment toegang tot: 
 
   - Op de cloud gebaseerde services en gegevens in uw Microsoft 365-abonnement. 
+
   - Resources van de organisatie, zoals de resources van on-premises toepassingsdatacenters.
 
 - Beveiligd
@@ -61,15 +62,18 @@ Deze oplossing biedt de volgende belangrijke mogelijkheden.
 - Samenwerking en productiviteit
 
   Uw externe werknemers kunnen net zo productief zijn als op kantoor in een omgeving waar samenwerking eenvoudig is met:
+
   - Online vergaderingen en chatsessies met Teams. 
+
   - Gedeelde werkruimten voor cloudopslag met wereldwijde toegankelijkheid en realtime samenwerking met SharePoint en OneDrive.
+
   - Gedeelde taken en werkstromen om het werk te verdelen en taken uit te voeren. 
 
 Voor een naadloze aanmelding moeten de on-premise gebruikersaccounts van Active Directory Domain Services (AD DS) worden gesynchroniseerd met Azure Active Directory (Azure AD). Als u uw Windows 10-apparaten wilt beveiligen, moeten ze worden ingeschreven in Intune. Dit is een algemeen overzicht van de infrastructuur.
 
 ![De basisinfrastructuur voor externe werknemers met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
 
-Als u aan de criteria voor externe werknemers wilt voldoen, gebruikt u de volgende functies van Microsoft 365.
+Als je de mogelijkheden van Microsoft 365 wilt inschakelen voor uw externe werknemers, kun je gebruikmaken van de volgende functies van Microsoft 365.
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
@@ -86,7 +90,7 @@ Als u aan de criteria voor externe werknemers wilt voldoen, gebruikt u de volgen
 | Configuration Manager | Software-installaties, updates en instellingen op uw apparaten beheren | Hiervoor zijn afzonderlijke Configuration Manager-licenties vereist |
 | Desktop Analytics | Bepaal de updategereedheid van uw Windows-clients.   | Hiervoor zijn afzonderlijke Configuration Manager-licenties vereist |
 | Windows Autopilot | Configureer de nieuwe Windows 10-apparaten vooraf voor productief gebruik.   | Microsoft 365 E3 of E5 |
-| Microsoft Teams, Exchange Online, SharePoint Online en OneDrive, Microsoft 365-apps, Microsoft Power Platform, Yammer en Power Apps | Maak, communiceer en werk samen. | Microsoft 365 E3 of E5 |
+| Microsoft Teams, Exchange Online, SharePoint Online en OneDrive, Microsoft 365-apps, Microsoft Power Platform en Yammer | Maak, communiceer en werk samen. | Microsoft 365 E3 of E5 |
 ||||
 
 Raadpleeg [Beveiliging en compliance implementeren voor beveiligings- en compliancecriteria voor externe werknemers](empower-people-to-work-remotely-security-compliance.md).
@@ -97,7 +101,7 @@ Raadpleeg [Beveiliging en compliance implementeren voor beveiligings- en complia
 
 U kunt deze poster ook downloaden in [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)-indeling en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
 
-Gebruik de volgende stappen om de toegang tot de servers, gegevens en cloudservices van uw organisatie te beveiligen en optimaliseren, en uw werknemers maximaal productief te laten zijn.
+Gebruik de volgende stappen om de toegang tot de servers en cloudservices van je organisatie te beveiligen en optimaliseren, en je externe werknemers maximaal productief te laten zijn.
 
 1. [Beveiliging van aanmelden verbeteren met MFA](empower-people-to-work-remotely-secure-sign-in.md)
 2. [Externe toegang tot on-premises apps en services bieden](empower-people-to-work-remotely-remote-access.md)
@@ -108,4 +112,4 @@ Gebruik de volgende stappen om de toegang tot de servers, gegevens en cloudservi
 
 [![De stappen om externe werknemers mogelijkheden te bieden met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
-Voor de meest recente informatie van Microsoft over het ondersteunen van externe werknemers, raadpleegt u de [Site van de Tech Community voor het inschakelen van werken op afstand](https://resources.techcommunity.microsoft.com/enabling-remote-work/).
+Voor de meest recente informatie van Microsoft over het ondersteunen van externe werknemers, raadpleegt u de [Site van Microsoft Teams voor het inschakelen hybride werken](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).

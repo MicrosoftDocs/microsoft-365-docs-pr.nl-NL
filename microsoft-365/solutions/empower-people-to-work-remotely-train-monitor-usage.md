@@ -5,7 +5,6 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -18,20 +17,20 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Train uw gebruikers en zorg ervoor dat problemen snel worden opgelost.
-ms.openlocfilehash: b1dd55febcd23f6bb8413b0aa5c625f4b785babb
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: a987a08b2ebd27f7a9cc299e5c8fbae0376437a3
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377067"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681382"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Stap 6: Externe werknemers trainen en reageren op feedback over gebruik
 
 Geef uw externe werknemers training in:
 
 - Juiste aanmeldprocedures met gebruik van MFA, waaronder het registreren van een aanvullende verificatiemethode.
-- Het gebruik van apparaten en hoe eindpuntbeheerbeleid kan worden gebruikt om toegang te blokkeren voor niet-compatibele apparaten.
-- Het gebruik van toegestane apps en hoe eindpuntbeheerbeleid voor apps kan worden gebruikt om het gebruik van apps te blokkeren.
+- Het gebruik van apparaten en hoe eindpuntbeheerbeleid kan worden gebruikt om toegang te blokkeren voor niet-compatibele of niet-beheerde apparaten.
+- Het gebruik van toegestane apps en hoe eindpuntbeheerbeleid voor apps kan worden gebruikt om het gebruik van sommige apps te blokkeren.
 - Beveiligingsfuncties van Windows 10 Enterprise.
 - Het gebruik van [Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) voor chatten, videovergaderingen, het delen van documenten en gesprekslijnen.
 - Het gebruik van [Outlook](https://support.office.com/article/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) voor e-mail en planningen.
@@ -39,14 +38,16 @@ Geef uw externe werknemers training in:
 
 Bij deze training horen praktijkoefeningen, zodat uw werknemers deze functies en de resultaten ervan kunnen ervaren.
 
+Maak een forum voor je externe werknemers om vragen te stellen of problemen op te lossen, zoals een team of een Yammer-groep.
+
 In de weken na de training:
 
-- Verwerk de feedback van externe werknemers snel en verfijn beleidsregels en configuraties.
-- Analyseer het gebruik voor teams, e-mail, SharePoint-sites en OneDrive-mappen en vergelijk dit met de gebruiksverwachtingen.
+- Reageer snel op feedback van externe werknemers in je forum en pas zo nodig het beleid en de configuratie van externe werknemers aan.
+- Analyseer het gebruik voor teams, e-mail, SharePoint-sites en OneDrive-mappen en vergelijk dit met de je verwachtingen of gebruiksverwachtingen.
 
 School de gebruikers indien nodig bij.
 
 ## <a name="results-of-step-6"></a>Resultaten van stap 6
 
-Uw externe werknemers zijn getraind en er is een responsief en open forum voor hen om feedback te geven en problemen te publiceren met betrekking tot externe toegang en productiviteits-apps en -services.
+Je externe werknemers zijn getraind en er is een responsief en open forum voor hen om feedback te geven en problemen te publiceren met betrekking tot externe toegang en productiviteits-apps.
 

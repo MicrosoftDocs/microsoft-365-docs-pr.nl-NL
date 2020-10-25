@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: 879df16b379a82fcdc9478f8b3a787dd74384171
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 57e862769533b8c076513874e7f6daafdbe836da
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445824"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681406"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
 
@@ -39,9 +39,9 @@ Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerk
 
 Met Teams kunt u op één plek chatten, vergaderen, bellen en samenwerken. Miljoenen mensen doen elke dag hun werk in Teams, omdat het alles wat u nodig hebt om extern te werken, samenbrengt in een hub voor teamwork. 
 
-Gebruik [dit artikel](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams) voor richtlijnen voor het ondersteunen van uw externe medewerkers met Teams. 
+Voor gedetailleerde informatie, zie[Externe medewerkers ondersteunen met Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams). 
 
-Bekijk de [video Deel 1](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity) voor richtlijnen en demo's over het gebruik van Teams voor extern werken.
+Bekijk de [webcasts Inschakelen van hybride werkzaamheden met Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/) voor hulp bij en demo's over het gebruik van Teams voor extern werk.
 
 ### <a name="chat-and-conversations"></a>Chat en gesprekken
 
@@ -82,14 +82,14 @@ Zie [dit artikel](../security/office-365-security/sharepoint-file-access-policie
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Maken van en samenwerken aan inhoud met Microsoft 365 Apps
 
-Microsoft 365 Apps is de meest productieve en veiligste Office-ervaring voor ondernemingen, waarmee medewerkers naadloos samen kunnen werken vanaf elke locatie op elk moment. Externe medewerkers kunnen met meerdere personen tegelijk aan een document werken en in realtime bewerkingen en wijzigingen zien vanaf elk(e) laptop, pc of mobiel apparaat.
+Microsoft 365-apps is de meest productieve en veiligste Office-ervaring voor ondernemingen, waarmee medewerkers naadloos samen kunnen werken vanaf elke locatie op elk moment. Externe medewerkers kunnen met meerdere personen tegelijk aan een document werken en in realtime bewerkingen en wijzigingen zien vanaf elk(e) laptop, pc of mobiel apparaat.
 
-Zie [dit artikel](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps) voor het plannen, implementeren en beheren van Microsoft 365-apps in uw bedrijfsomgeving.
+Zie de [implementatiehandleiding voor Microsoft 365-apps](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps) voor meer informatie.
 
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>Technische bronnen voor beheerders voor productiviteits-apps en -services
 
 - [Externe medewerkers ondersteunen met Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
-- [Video Deel 1 over Teams voor externe werknemers](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity)
+- [Webcasts Hybride werkzaamheden inschakelen met Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)
 - [Teams Customer Success Kit downloaden](https://www.microsoft.com/download/details.aspx?id=54244)
 - [Hulpmiddelen voor de acceptatie van Teams](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
 - [Een strategie voor veranderingsmanagement maken voor Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)

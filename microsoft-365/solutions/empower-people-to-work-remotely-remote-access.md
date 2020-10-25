@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Zorg ervoor dat uw externe medewerkers toegang hebben tot on-premises informatiebronnen terwijl de toegang tot Microsoft 365-cloudservices wordt geoptimaliseerd.
-ms.openlocfilehash: 0e44dad5172672cbe06c0690bcfee27ea153c6c3
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 1fbb1cb6ad9817f0e167ae95f9fc113ecdee4221
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445983"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681418"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Stap 2. Externe toegang bieden tot on-premises apps en services
 
@@ -30,11 +30,12 @@ Als uw organisatie een VPN-oplossing voor externe toegang gebruikt, meestal met 
 
 Als uw gebruikers geen VPN-oplossing gebruiken, kunt u Azure AD-toepassingsproxy (Active Directory) en Azure P2S-VPN (Point-to-Site) gebruiken om toegang te bieden, afhankelijk van het feit of al uw apps webversies zijn.
 
-Er zijn drie primaire configuraties:
+Dit zijn de belangrijkste configuraties voor externe toegang:
 
-1. U gebruikt al een VPN-oplossing voor externe toegang.
-2. U gebruikt geen VPN-oplossing voor externe toegang, u hebt een hybride identiteit en u hebt alleen externe toegang nodig tot on-premises web-apps.
-3. U gebruikt geen VPN-oplossing voor externe toegang en u hebt toegang nodig tot on-premises apps, waarvan sommige niet op internet zijn gebaseerd.
+- U gebruikt al een VPN-oplossing voor externe toegang.
+- U gebruikt geen VPN-oplossing voor externe toegang en u wilt dat uw externe werknemers hun persoonlijke computers kunnen gebruiken.
+- U gebruikt geen VPN-oplossing voor externe toegang, u hebt een hybride identiteit en u hebt alleen externe toegang nodig tot on-premises web-apps.
+- U gebruikt geen VPN-oplossing voor externe toegang en u hebt toegang nodig tot on-premises apps, waarvan sommige niet op internet zijn gebaseerd.
 
 Bekijk deze stroomdiagram voor de configuratieopties voor externe toegang die in dit artikel worden beschreven.
 
@@ -54,7 +55,9 @@ Microsoft 365-verkeer moet een indirecte route gebruiken binnen uw organisatie d
 
 Met split tunneling kunt u uw VPN-client zo configureren dat specifieke typen verkeer niet via de VPN-verbinding naar het bedrijfsnetwerk worden verzonden.
 
-Configureer uw split tunneling VPN-clients zodanig dat verkeer wordt uitgesloten naar de Microsoft 365-eindpuntcategorie **Optimaliseren** over de VPN-verbinding om toegang tot Microsoft 365-cloudresources te optimaliseren. Zie [Office 365-eindpuntcategorieën](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories) voor meer informatie.  Bekijk [hier](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) de lijst met eindpunten met categorie Optimaliseren.
+Configureer uw split tunneling VPN-clients zodanig dat verkeer wordt uitgesloten naar de Microsoft 365-eindpuntcategorie **Optimaliseren** over de VPN-verbinding om toegang tot Microsoft 365-cloudresources te optimaliseren. Zie [Office 365-eindpuntcategorieën](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories) voor meer informatie.  Bekijk [de lijst](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) met eindpunten met categorie Optimaliseren.
+
+Hier vindt u de stroom die het resultaat is van de gegevensoverdracht, waarin de meeste verkeer naar Cloud-apps voor Microsoft 365 de VPN-verbinding omzeilen.
 
 ![Netwerkverkeer van VPN-clients met tunneling](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
@@ -64,13 +67,13 @@ Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Externe toegang implementeren wanneer al uw apps web-apps zijn en u een hybride identiteit hebt
 
-Als uw externe medewerkers geen traditionele VPN-client gebruiken en uw on-premises gebruikersaccounts en -groepen worden gesynchroniseerd met Azure AD, kunt u Azure AD-toepassingsproxy gebruiken om veilige externe toegang te bieden voor webtoepassingen die worden gehost op intranetservers. Webtoepassingen omvatten onder meer SharePoint-sites, Outlook-webtoegangsservers of andere bedrijfswebtoepassingen. 
+Als uw externe medewerkers geen traditionele VPN-client gebruiken en uw on-premises gebruikersaccounts en -groepen worden gesynchroniseerd met Azure AD, kunt u Azure AD-toepassingsproxy gebruiken om veilige externe toegang te bieden voor webtoepassingen die worden gehost op lokale servers. Webtoepassingen omvatten onder meer SharePoint Server-sites, Outlook-webtoegangsservers of andere bedrijfswebtoepassingen. 
 
 Hier vindt u de onderdelen van Azure AD-toepassingsproxy.
 
 ![Onderdelen van Azure AD-toepassingsproxy](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-Raadpleeg voor meer informatie dit [overzicht van Azure AD-toepassingsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) en [deel 3 van de video over het gebruik van Azure AD-toepassingsproxy](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security).
+Zie dit [overzicht van Azure AD-toepassingsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)voor meer informatie.
 
 >[!Note]
 >Azure AD-toepassingsproxy maakt geen deel uit van een Microsoft 365-abonnement. U moet betalen voor het gebruik met een afzonderlijk Azure-abonnement.
@@ -96,10 +99,7 @@ Om externe medewerkers te ondersteunen die alleen hun persoonlijke en onbeheerde
 
 ![Onderdelen van Azure Windows Virtual Desktop](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-Zie voor meer informatie: 
-
-- [Dit overzicht van Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview).
-- [Deel 2 van de video over het gebruik van Windows Virtual Desktop voor externe werknemers](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity).
+Voor meer informatie raadpleegt u dit [overzicht van Windows-virtueel bureaublad](https://docs.microsoft.com/azure/virtual-desktop/overview). 
 
 >[!Note]
 >Windows Virtual Desktop maakt geen deel uit van een Microsoft 365-abonnement. U moet betalen voor het gebruik met een afzonderlijk Azure-abonnement.
@@ -107,7 +107,7 @@ Zie voor meer informatie:
 
 ## <a name="protect-your-remote-desktop-services-connections-with-the-remote-desktop-services-gateway"></a>Verbindingen voor Extern bureaublad-services beveiligen met de Extern bureaublad-servicesgateway
 
-Als u Extern bureaublad-services (RDS) gebruikt om medewerkers verbinding te laten maken met Windows-computers in het on-premises-netwerk, moet u een Extern bureaublad-servicesgateway van Microsoft in het edgenetwerk gebruiken. De gateway maakt gebruik van Secure Sockets Layer (SSL) om communicatie te versleutelen en voorkomt dat het systeem dat als host fungeert voor RDS onbeveiligd met het internet is verbonden.
+Als u Extern bureaublad-services (RDS) gebruikt om medewerkers verbinding te laten maken met Windows-computers in het on-premises-netwerk, moet u een Extern bureaublad-servicesgateway van Microsoft in het edgenetwerk gebruiken. De gateway maakt gebruik van Secure Sockets Layer (SSL) om communicatie te versleutelen en voorkomt dat de lokale computer die dat als host fungeert voor RDS onbeveiligd met het internet is verbonden.
 
 ![Verbindingen voor Extern bureaublad-services met de Extern bureaublad-servicesgateway](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-remote-desktop.png)
 

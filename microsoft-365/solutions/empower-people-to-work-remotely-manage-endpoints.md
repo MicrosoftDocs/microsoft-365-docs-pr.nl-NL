@@ -17,20 +17,20 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik Microsoft Endpoint Manager om uw apparaten, pc's en andere eindpunten te beheren.
-ms.openlocfilehash: b50279166b313742dbfbe8e75dd9788aac6b1daa
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 72aa26c50f5d3c20409382f19d8beabb5d290023
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445959"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681478"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Stap 4. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
 
 Als u externe medewerkers hebt, moet u steeds meer persoonlijke apparaten ondersteunen. Eindpuntbeheer biedt op beleid gebaseerde beveiliging waarbij apparaten moeten voldoen aan specifieke criteria voordat ze toegang krijgen tot bronnen. Microsoft Endpoint Manager biedt moderne beheermogelijkheden om uw gegevens in de cloud en on-premises veilig te houden. 
 
-Endpoint Manager biedt services en hulpprogramma‘s voor het beheer van mobiele apparaten, desktopcomputers, virtuele machines, embedded apparaten en servers door enkele services te combineren die u mogelijk al kent en gebruikt:
+[Microsoft Endpoint Manager](https://docs.microsoft.com/mem/endpoint-manager-overview) biedt services en hulpprogramma‘s voor het beheer van mobiele apparaten, desktopcomputers, virtuele machines, embedded apparaten en servers door enkele services te combineren die u mogelijk al kent en gebruikt.
 
-![De onderdelen voor eindpuntbeheer](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
+![De onderdelen van endpoint Management voor Microsoft 365](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
@@ -58,7 +58,7 @@ Zie voor meer informatie dit [overzicht van co-management](https://docs.microsof
 
 ## <a name="desktop-analytics"></a>Desktop Analytics
 
-Desktop Analytics is een cloudservice die kan worden geïntegreerd met Configuration Manager en die u inzicht en informatie biedt, zodat u weloverwogen beslissingen kunt nemen over uw Windows-clients. De service combineert gegevens van uw organisatie met gegevens verzameld van miljoenen apparaten die zijn verbonden met Microsoft-cloudservices. 
+Desktop Analytics is een cloudservice die kan worden geïntegreerd met Configuration Manager en die u inzicht en informatie biedt, zodat u weloverwogen beslissingen kunt nemen over uw Windows-clients. De service combineert gegevens van uw organisatie met gegevens verzameld van miljoenen andere apparaten die zijn verbonden met Microsoft-cloudservices. 
 
 Met Desktop Analytics kunt u het volgende doen:
 
@@ -83,9 +83,7 @@ Voor meer informatie raadpleegt u dit [overzicht van Windows Autopilot](https://
 
 ## <a name="admin-technical-resources-for-endpoint-management"></a>Technische bronnen voor eindpuntbeheerders
 
-- [De video Deel 3 over het beheren van Windows 10-apparaten voor externe werknemers](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
-- [De video Deel 5 over het beheren van gebruikersdesktops en browsers voor externe werknemers](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
-- [Een mobiliteitsinfrastructuur voor Microsoft 365 implementeren](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
+- [Routekaart voor Apparaatbeheer voor Microsoft 365](../enterprise/device-management-roadmap-microsoft-365.md)
 - [Verschillende typen apparaten inschrijven voor het beheer van mobiele apparaten](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Uw eindgebruikers informeren over Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  

@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: In dit artikel vindt u meer informatie over de beschikbare opties voor het maken van een veilige omgeving voor het delen met een gast in Microsoft 365.
-ms.openlocfilehash: 227c609329ae3cca4cc38e65984f1036bfe41068
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: d80dd00369b851768849e846449799ff443957f3
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527928"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681558"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -165,7 +165,7 @@ De toegang van gasten tot beperken tot alleen webtoegang
 9. Klik op de blade **Cloud-apps of -acties** op **Gereed**.
 10. Klik onder **toewijzingen**op **voorwaarden**.
 11. Klik op de blade **Voorwaarden** op **Client-apps**.
-12. Klik op de blade **Client-apps** op **Ja** voor** Configureren** en selecteer vervolgens de instellingen voor **Mobiele apps en bureaublad-clients** en **Moderne verificatieclients**.</br>
+12. Klik op de blade **Client-apps** op **Ja** voor** Configureren** en selecteer vervolgens de instellingen voor **Mobiele apps en bureaublad-clients**.</br>
     ![Schermafbeelding van de instellingen van client-apps voor voorwaardelijke toegang van Azure AD](../media/azure-ad-conditional-access-client-mobile.png)
 13. Klik op **gereed**en klik vervolgens op de blade **voorwaarden** en daarna nogmaals op **gereed**.
 14. Klik onder **toegangsbeheer**op **toewijzen**.

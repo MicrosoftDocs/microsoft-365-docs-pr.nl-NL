@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik beveiligings- en complianceservices van Microsoft 365 om uw apps, gegevens en apparaten te beveiligen voor externe werknemers.
-ms.openlocfilehash: 36abe8b8dbd84a883d829308fc970258e7551f2e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 7607f3945d2e3c4e057162296df94dce4c611dbe
+ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445879"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48681466"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Stap 3: Het implementeren van beveiliging en compliance voor externe werknemers
 
@@ -39,6 +39,8 @@ Voor werken op afstand zijn de volgende beveiligings- en compliance-elementen no
 - Voorkomen van informatielekken
 - Inachtneming van regionale gegevensvoorschriften
 
+Hier vind je de mogelijkheden van Microsoft 365 voor beveiligings-en Compliance-Services voor externe werknemers.
+
 ![Gebruik deze services van Microsoft 365 om veilig en conform te blijven](../media/empower-people-to-work-remotely/remote-workers-security-compliance-grid.png)
 
 ## <a name="security"></a>Beveiliging
@@ -54,7 +56,7 @@ Beveilig uw toepassingen en gegevens met deze beveiligingsfuncties van Microsoft
 | Azure AD Identity Protection  | Detectie en herstel van identiteitsrisico's automatiseren. <br><br>Maak een risicobeleid voor voorwaardelijke toegang aan, waarbij meervoudige verificatie (MFA) voor risicovolle aanmeldingen vereist is. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties |
 ||||
 
-Zie [Snelle taken om aan de slag te gaan met Microsoft 365-compliance](../compliance/compliance-quick-tasks.md) voor meer informatie.
+Zie [Belangrijkste 12 taken voor beveiligingsteams om het thuiswerken te ondersteunen](../security/top-security-tasks-for-remote-work.md) voor meer informatie.
 
 ## <a name="compliance"></a>Compliance
 
@@ -73,16 +75,16 @@ Voldoe aan interne beleidsregels of wettelijk voorgeschreven vereisten met deze 
 | Intern risicobeheer |  Detecteer, onderzoek en onderneem actie op schadelijke en onbedoelde risico's in uw organisatie. Microsoft 365 kan dit soort risico's zelfs detecteren wanneer een werknemer een niet-beheerd apparaat gebruikt. | Microsoft 365 E5 of Microsoft 365 E3 met de invoegtoepassingen Compliance of Intern risicobeheer |
 ||||
 
-Zie [Belangrijkste 12 taken voor beveiligingsteams om het thuiswerken te ondersteunen](../security/top-security-tasks-for-remote-work.md) voor meer informatie.
+Zie [Snelle taken om aan de slag te gaan met Microsoft 365-compliance](../compliance/compliance-quick-tasks.md) voor meer informatie.
 
 ## <a name="results-of-step-3"></a>Resultaten van stap 3
 
 Implementaties voor uw externe werknemers:
 
-- Beveiliging:
+- Beveiliging
   - Gecontroleerde toegang tot apps en gegevens die externe medewerkers gebruiken om te communiceren en samen te werken
   - Bescherming tegen malware voor cloudservicegegevens, e-mail en Windows 10-apparaten 
-- Compliance:
+- Compliance
   - Consistent labelen van vertrouwelijkheids- en beschermingsniveaus
   - Beleid om het lekken van informatie te voorkomen
   - Inachtneming van regionale gegevensvoorschriften
