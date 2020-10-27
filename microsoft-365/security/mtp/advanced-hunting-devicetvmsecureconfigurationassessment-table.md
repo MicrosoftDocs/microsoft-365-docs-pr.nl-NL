@@ -1,6 +1,6 @@
 ---
 title: DeviceTvmSecureConfigurationAssessment-tabel in het geavanceerde jacht schema
-description: Meer informatie over bedreiging & beveiligings evaluatie gebeurtenissen in de tabel DeviceTvmSecureConfigurationAssessment van het schema geavanceerde jacht. Deze gebeurtenissen geven informatie over de computer en ook van Beveiligingsconfiguratie Details, van invloed tot informatie over naleving.
+description: Meer informatie over beveiligings evaluatie gebeurtenissen in de tabel DeviceTvmSecureConfigurationAssessment van het schema geavanceerde jacht. Deze bedreiging & gebeurtenissen voor het beheer van het beveiligingslek biedt informatie over de beveiliging van apparaten, evenals informatie over de beveiligingsconfiguratie, informatie over de impact en de naleving.
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat-jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema Reference, kusto, Table, Column, datatype, een beschrijving, bedreiging & beveiligingsconfiguratie, DeviceTvmSecureConfigurationAssessment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 8c9e886f205a3d1b402b8c39718b6ee49b86a11d
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 356548c3115aacce8c76d7fbc552811c168750ed
+ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429885"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48770071"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -42,15 +42,18 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
-| `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
-| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, met inbegrip van variaties in dezelfde familie, zoals Windows 10 en Windows 7.|
+| `DeviceId` | tekenreeks | Unieke id van het apparaat in de service |
+| `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van het apparaat |
+| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, met inbegrip van variaties in dezelfde familie, zoals Windows 10 en Windows 7.|
 | `Timestamp` | tijd | De datum en tijd waarop de record is gegenereerd |
 | `ConfigurationId` | tekenreeks | Unieke id voor een specifieke configuratie |
 | `ConfigurationCategory` | tekenreeks | Categorie of groepering waartoe de configuratie behoort: toepassing, besturingssysteem, netwerk, accounts, beveiliging besturingselement |
 | `ConfigurationSubcategory` | tekenreeks | Subcategorie of subgroep waartoe de configuratie behoort. In veel gevallen bevat dit een beschrijving van specifieke functies of functies. |
 | `ConfigurationImpact` | tekenreeks | Geclassificeerde impact van de configuratie voor de totale configuratie Score (1-10) |
 | `IsCompliant` | Boolean | Geeft aan of de configuratie of het beleid correct is geconfigureerd |
+| `IsApplicable` | Boolean | Geeft aan of de configuratie of het beleid van toepassing is op het apparaat |
+| `Context` | tekenreeks | Aanvullende contextuele informatie over de configuratie of het beleid |
+| `IsExpectedUserImpactCompliant` | Boolean | Geeft aan of de gebruiker van invloed is op de toepassing als de configuratie of het beleid wordt toegepast. |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
