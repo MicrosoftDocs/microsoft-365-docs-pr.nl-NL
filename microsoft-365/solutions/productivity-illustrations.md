@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: ae4a8b51111c53c2245005a5d863354737335ae2
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 01ee05c69a9b649ce3f0c3b93cbdb68bb7a87c69
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546181"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48774110"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
@@ -64,7 +64,16 @@ Aanbevolen functies voor het beschermen van identiteiten en apparaten die toegan
 |**Item**|**Beschrijving**|
 |:-----|:-----|
 |[![Model poster: identiteit en bescherming van apparaten voor Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Weergeven als een PDF-bestand](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Bijgewerkt op september 2020|Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. In dit model ziet u welke mogelijkheden vergelijkbaar zijn met meer informatie over mogelijkheden om identiteiten en apparaten te beschermen.  <br/> |
-   
+ 
+<a name="BKMK_ediscovery"></a>
+### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Geavanceerde eDiscovery-architectuur in Microsoft 365
+
+Geavanceerde eDiscovery-werkstroom en gegevensstroom, waaronder binnen Microsoft 365 meerdere geografische omgevingen. 
+
+|**Item**|**Beschrijving**|
+|:-----|:-----|
+|[![Model poster: geavanceerde eDiscovery-architectuur in Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Als een afbeelding](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| weergeven [Downloaden als een PDF-bestand](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Downloaden als een Visio](https:download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Update van oktober 2020|Waaronder <ul><li>  End-to-end werkstroom in één omgeving</li><li>End-to-end werkstroom in een multi-geografische omgeving van Microsoft 365 </li><li>End-to-end gegevensstroom die ondersteuning biedt voor de EDRM-werkstroom</li> |
+  
 <!--
 
 <a name="BKMK_O365fileprotect"></a>
