@@ -20,58 +20,24 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 964724ad92c1ae29095b7368167b771b1632b003
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 71316d6c53862b80178d06726f7c249a2491d659
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295068"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769028"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Posture wilt maken, hebben we enkele wijzigingen aangebracht. Zie voor meer informatie over geplande wijzigingen wat er wordt weergegeven [in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md).
 
 ## <a name="august-2020"></a>Augustus 2020
 
-### <a name="update-improvement-action-for-azure-active-directory"></a>Update voor verbetering van de actie in azure Active Directory
+### <a name="updated-improvement-action-for-azure-active-directory"></a>Actie voor verbetering van Azure Active Directory
 
 - Beleid inschakelen voor het blokkeren van oudere verificatie
-
-## <a name="july-2020"></a>Juli 2020
-
-### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a>Verbeterings acties toevoegen voor Azure Advanced Threat Protection
-
-- Riskante verplaatsings paden
-- Kenmerken van onbeveiligde accounts
-- Beveiligingsfuncties inschakelen voor Active Directory-vertrouwensrelaties
-- Kenmerken van onveilige SID-geschiedenis van entiteiten verwijderen
-
-## <a name="june-2020"></a>Juni 2020
-
-### <a name="removed-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Actie voor verbetering verwijderd van Microsoft Defender Advanced Threat Protection
-
-* Beperking voor oppervlakte-aanvals regels inschakelen
-
-### <a name="added-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Extra verbeterings acties voor Microsoft Defender Advanced Threat Protection
-
-* Voorkomen dat Adobe Reader onderliggende processen kan maken
-* Geavanceerde beveiliging gebruiken voor Ransomware
-* Alle Office-toepassingen blokkeren om onderliggende processen te maken
-* Voorkomen dat Office-toepassingen uitvoerbare inhoud kunnen maken
-* JavaScript of VBScript blokkeren voor het starten van downloadbare inhoud
-* Het uitvoeren van mogelijk af te schrijven scripts blokkeren
-* Uitvoerbare inhoud blokkeren van e-mailclient en webmail
-* Voor het maken van onderliggende processen voor Office-communicatietoepassingen blokkeren
-* Niet-vertrouwde en niet-ondertekende processen blokkeren die vanaf USB worden uitgevoerd
-* Permanente hand stenen via een WMI-gebeurtenisabonnement
-* Voorkomen dat Office-toepassingen code in andere processen invoegen
-* Voorkomen dat uitvoerbare bestanden worden uitgevoerd, tenzij ze voldoen aan een invloed, ouderdom of vertrouwd lijst criterium
-* Proces creatie blokkeren vanuit PSExec en WMI-opdrachten
-* Referenties blokkeren van het subsysteem Windows Local Security Authority (lsass.exe)
-* Win32 API-aanroepen blokkeren vanuit Office-macro's
 
 ## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Incompatibiliteit met identificatie beveiligings Score en Graph-API
 

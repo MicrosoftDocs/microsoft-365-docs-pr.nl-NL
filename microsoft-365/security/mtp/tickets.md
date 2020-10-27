@@ -19,19 +19,20 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: ca13234a93ffcc226be45d337880692a3a39c28b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a2650efbac0966b84e6fbfd6ce78cb732f4933b3
+ms.sourcegitcommit: bd36c88e731e3fee2a3a5cb3564fdc94f11bab94
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196117"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769651"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow tickets integreren in Microsoft 365 Beveiligingscentrum en compliance Center
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
-[!include[Prerelease information](../includes/prerelease.md)]
+>[!CAUTION]
+>**De voorbeeldperiode voor de ServiceNow-connector eindigt**<br>
+>Deze functie is niet meer beschikbaar voor het einde van november 2020. Bedankt voor uw feedback en voortdurende ondersteuning terwijl we volgende stappen bepalen.
 
 ServiceNow is een populaire Cloud computing platform waarmee bedrijven digitale werkstromen voor bedrijfsactiviteiten kunnen beheren. Hun platform bevat IT-werkstromen, werkstromen voor werknemers en workflows van klanten. [Meer informatie over ServiceNow](https://www.servicenow.com/)
 
@@ -77,7 +78,7 @@ Ga naar [ServiceNow tickets maken en bijhouden in het Microsoft 365-Beveiligings
 
 ### <a name="you-receive-an-error-in-the-first-step-of-the-installation-checklist-oauth-creation"></a>U ontvangt een foutbericht in de eerste stap van de installatie Controlelijst (OAuth-maken)
 
-**Foutbericht**: leesbewerking voor ' oauth_entity ' van de scope ' x_mioms_m365ticket ' is geweigerd vanwege het toegangsbeleid voor meerdere regels via meerdere bereiken
+**Foutbericht** : leesbewerking voor ' oauth_entity ' van de scope ' x_mioms_m365ticket ' is geweigerd vanwege het toegangsbeleid voor meerdere regels via meerdere bereiken
 
 De app ervan uitgaat dat de beheerder van het ServiceNow-exemplaar OAuth-entiteiten kan maken en lezen. Deze fout kan worden veroorzaakt door aanpassingen in uw exemplaar van ServiceNow die beperkingen opleggen voor het maken of lezen van OAuth-entiteiten.
 
@@ -92,7 +93,7 @@ De tabel configuraties van Application registers instellen op standaard:
 
 ### <a name="how-to-validate-the-oauth-entity-created-for-microsoft-365-security--compliance-connector"></a>De OAuth-entiteit die is gemaakt voor Microsoft 365-beveiliging valideren & compliance connector
 
-Ga naar de tabel toepassingen registers (**Menu > systeem > voor toepassing toepassing**) in ServiceNow. Zoek de OAuth-entiteit die u hebt gemaakt, met de naam die u eraan hebt toegewezen.
+Ga naar de tabel toepassingen registers ( **Menu > systeem > voor toepassing toepassing** ) in ServiceNow. Zoek de OAuth-entiteit die u hebt gemaakt, met de naam die u eraan hebt toegewezen.
 
 ### <a name="signing-in-as-the-integration-user"></a>Aanmelden als de integratiegebruiker
 
@@ -106,7 +107,7 @@ Voordat u de verbinding tussen Microsoft 365 Beveiligingscentrum en ServiceNow m
 
 ### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>De berekeningswijze valideren die is gemaakt met de installatie controlelijst voor Microsoft 365 Security & compliance connector
 
-Ga naar de tabel gebruikers **(Menu > Gebruikersbeheer > gebruikers**) in ServiceNow en zoek de integratie-gebruiker die door u is gemaakt, met de naam die u eraan hebt toegewezen.
+Ga naar de tabel gebruikers **(Menu > Gebruikersbeheer > gebruikers** ) in ServiceNow en zoek de integratie-gebruiker die door u is gemaakt, met de naam die u eraan hebt toegewezen.
 
 ### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>Voor uw bedrijf is eenmalige aanmelding ingeschakeld waarmee u geen verbinding kunt maken met ServiceNow via het Microsoft 365-Beveiligingscentrum.
 

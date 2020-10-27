@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Beheerders kunnen inzicht krijgen in de inzichten en rapporten die beschikbaar zijn in het dashboard voor de e-mail stroom van de beveiligings & compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 089c6351485712d841691d5b856b1ba28dfe4fc4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f9ac8b8b0d346d78af252a9e427d0ef2b1a4c4ea
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198479"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769016"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>E-mailstroominzichten in het Beveiligings- en compliancecentrum
 
@@ -60,11 +60,11 @@ De beschikbare inzichten zijn:
 
 ## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Vereiste machtigingen voor het weergeven van het dashboard voor e-mail stroom
 
-Het dashboard voor e-mail stroom is beschikbaar voor leden van de volgende Routegroepen:
+Het dashboard voor e-mail stroom is beschikbaar voor leden van de volgende rollen groepen:
 
 - **Organisatiebeheer** in het beveiligings & nalevings centrum (globale beheerders).
 
-- **[Exchange-beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in azure AD.
+- **[Exchange-beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in azure Active Directory.
 
 - E-mail **stroom beheerder** in de beveiligings & nalevings centrum: als een lid van deze rollen groep geen lid is van de globale beheerder of de rollen groepen van Exchange-beheerders, moet u de volgende problemen en vereisten noteren:
 
@@ -76,6 +76,6 @@ Zie [machtigingen in het beveiligings & nalevings](permissions-in-the-security-a
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Waar vind ik het e-mail stroom dashboard?
 
-Open het beveiligings & nalevings centrum <https://protection.office.com> , vouw **e-mail stroom**uit en selecteer vervolgens **Dashboard**.
+Open het beveiligings & nalevings centrum <https://protection.office.com> , vouw **e-mail stroom** uit en selecteer vervolgens **Dashboard** .
 
 Als u rechtstreeks naar het e-mail flow dashboard wilt gaan, opent u het <https://protection.office.com/mailflow/dashboard> .

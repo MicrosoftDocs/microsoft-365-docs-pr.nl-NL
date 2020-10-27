@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 4f5d0a59372fb32b2802a094c247e45740ba3946
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 4dfe1c9595db869a59474a030a5dd8673cf7db24
+ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295248"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769242"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken
 
@@ -60,17 +60,36 @@ In het tabblad **statistieken & trends** zijn er verschillende grafieken en graf
 
 ### <a name="compare-your-score-to-organizations-like-yours"></a>Uw score vergelijken met organisaties zoals u
 
-Er zijn twee locaties om te zien hoe uw score wordt vergeleken met organisaties die vergelijkbaar zijn met u.
+Er zijn twee locaties om te zien hoe uw score wordt vergeleken met organisaties die vergelijkbaar zijn met u. U kunt in beide grafieken de optie **vergelijkingen beheren** selecteren om de gegevens van uw organisatie weer te geven en te bewerken. U kunt ook een aangepaste vergelijking maken op basis van sector, organisatie formaat, licenties en regio's.
 
-De eerste locatie bevindt zich op het tabblad **overzicht** , waar u een vergelijkings balk diagram kunt zien. Plaats de muisaanwijzer op de grafiek om de score en de verkoopkans weer te geven.
+#### <a name="comparison-bar-chart"></a>Vergelijkings balk diagram
+
+De vergelijkings balk grafiek is het tabblad **overzicht** . Plaats de muisaanwijzer op de grafiek om de score en de verkoopkans weer te geven. De vergelijkingsgegevens zijn geanonimiseerde, zodat we niet precies weten welke andere tenants deelnemen aan het mix.
 
 ![Staafdiagram met de scores van vergelijkbare organisatie](../../media/secure-score/secure-score-comparison-bar.png)
 
-De tweede locatie bevindt zich op het tabblad **trends van &** , waar u kunt zien hoe de veilige Score van uw organisatie wordt vergeleken met anderen.
+- **Organisaties zoals** u dit doet: we geven u een gemiddelde score van andere tenants (mits er minimaal 5 of meer tenants zijn om te vergelijken) die voldoen aan de volgende criteria:
+    1. Dezelfde bedrijfstak
+    2. Hetzelfde formaat van organisatie
+    3. Alle regio's
+    4. Gebruikte Microsoft-producten zijn 80% vergelijkbaar
+    5. Verkoopkans (maximale score die kan worden behaald door de huidige licentie) binnen een 20% van de Tenant
+
+- **Aangepaste vergelijking** : eerst moet u eerst de instellingen selecteren door **vergelijking beheren** te selecteren, op basis van de volgende criteria:
+    1. Geselecteerde bedrijfstak ('s)
+    2. Geselecteerd formaat (en) van de organisatie
+    3. Geselecteerde regio ('s)
+    4. Geselecteerde licentie (s)
+    5. Gebruikte Microsoft-producten zijn 80% vergelijkbaar
+    6. Verkoopkans (maximale score die kan worden behaald door de huidige licentie) binnen een 20% van de Tenant
+
+Als u geen selectie hebt gemaakt voor de aangepaste selectie van een selectie resultaat bij het ophalen van minder dan 5 andere tenants waarmee we kunnen vergelijken, ziet u ' niet beschikbaar vanwege beperkte gegevens '.
+
+#### <a name="comparison-trend"></a>Vergelijkings trend
+
+Bekijk op het tabblad **gegevens & trends** de manier waarop de Secure Score van uw organisatie vergelijkt met anderen.
 
 ![Lijngrafiek van vergelijkbare organisatie scores gedurende een bepaalde periode](../../media/secure-score/secure-score-comparison-trend.png)
-
-U kunt in beide grafieken de optie **vergelijkingen beheren** selecteren om de gegevens van uw organisatie weer te geven en te bewerken. U kunt ook een aangepaste vergelijking maken op basis van sector, organisatie formaat, licenties en regio's.
 
 ## <a name="we-want-to-hear-from-you"></a>We horen graag van u
 

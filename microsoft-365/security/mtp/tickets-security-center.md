@@ -19,24 +19,27 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: f57fc83f9102e5eeea61deaaadc17203bad030ac
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8992efdd79295b6b56b8f033bd97b10f59a7a4d5
+ms.sourcegitcommit: bd36c88e731e3fee2a3a5cb3564fdc94f11bab94
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195533"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48769673"
 ---
 # <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>ServiceNow tickets maken en bijhouden in het Microsoft 365-Beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+>[!CAUTION]
+>**De voorbeeldperiode voor de ServiceNow-connector eindigt**<br>
+>Deze functie is niet meer beschikbaar voor het einde van november 2020. Bedankt voor uw feedback en voortdurende ondersteuning terwijl we volgende stappen bepalen.
 
 Het [Microsoft 365 Beveiligingscentrum](overview-security-center.md) is verbeterd met de mogelijkheid voor het zelf maken en bijhouden van tickets in ServiceNow. [Meer informatie over ServiceNow](https://www.servicenow.com/)
 
 In het Beveiligingscentrum kunnen beveiligingsbeheerders rechtstreeks een actie ondernemen voor het oplossen van beveiligings punten voor [Microsoft](microsoft-secure-score.md) voor ServiceNow en een ticket maken. Beide ticket beheer en het wijzigen van beheer tickets kunnen worden gemaakt. Spoor tickets in de startpagina van het Beveiligingscentrum en in ServiceNow.
 
 - [**Meer informatie over vereisten, gegevensuitwisseling en probleemoplossing**](tickets.md)
-- **ServiceNow tickets beheren in het compliance Center** (binnenkort beschikbaar)
+- **ServiceNow tickets beheren in het compliance Center** (niet beschikbaar)
 
 ## <a name="connect-microsoft-365-security-center-to-servicenow"></a>Microsoft 365-Beveiligingscentrum verbinden met ServiceNow
 
@@ -57,7 +60,7 @@ Veelvoorkomende fouten bij het maken van een verbindingsprocedure en de manier w
 
 ## <a name="create-a-task-and-share-it-to-servicenow"></a>Een taak maken en delen in ServiceNow
 
-Wanneer de integratie is geconfigureerd, maakt u ServiceNow taken op basis van specifieke acties van [Microsoft Secure scores](microsoft-secure-score.md) . Ga naar het Microsoft 365-Beveiligingscentrum en selecteer **delen**. Een van de opties voor vervolgkeuzelijsten is ServiceNow.
+Wanneer de integratie is geconfigureerd, maakt u ServiceNow taken op basis van specifieke acties van [Microsoft Secure scores](microsoft-secure-score.md) . Ga naar het Microsoft 365-Beveiligingscentrum en selecteer **delen** . Een van de opties voor vervolgkeuzelijsten is ServiceNow.
 
 Er wordt een taak gegenereerd waarbij u de prioriteit kunt instellen en de naam, de beschrijving of de vervaldatum kunt wijzigen. Wanneer alle verplichte velden zijn ingevuld, verzendt u de taak naar ServiceNow.
 
