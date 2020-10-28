@@ -20,18 +20,24 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 71316d6c53862b80178d06726f7c249a2491d659
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: a7d79684a085072e1af113bc0466ab26574ab904
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769028"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779232"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Posture wilt maken, hebben we enkele wijzigingen aangebracht. Zie voor meer informatie over geplande wijzigingen wat er wordt weergegeven [in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md).
+
+## <a name="october-2020"></a>Oktober 2020
+
+### <a name="remove-improvement-action-related-to-microsoft-defender-advanced-threat-protection"></a>Verbeterings actie verwijderen met betrekking tot geavanceerde bedreigings bescherming van Microsoft Defender
+
+- Microsoft Windows Store voor de Windows Store-app voor Windows Store voor de spellingcontrole instellen op waarschuwen
 
 ## <a name="august-2020"></a>Augustus 2020
 
