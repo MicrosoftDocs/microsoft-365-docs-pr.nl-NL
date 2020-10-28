@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: c1a7cd4d8f00c9e2433601903efd1fba7bb587f9
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: dff2ea4e144f8f8fcc0f42732141e110effe7e9e
+ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681730"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48774091"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Automatische doorsturen van e-mail instellen in Microsoft 365
 
@@ -35,30 +35,34 @@ De volgende typen automatisch doorsturen zijn beschikbaar in Microsoft 365:
 
 U kunt uitgaande spamfilter beleidsregels gebruiken om automatisch doorsturen naar externe geadresseerden te beheren. Drie instellingen zijn beschikbaar:
 
-- **Automatisch**: automatisch extern doorsturen wordt geblokkeerd. Interne automatisch doorsturen van berichten blijft werken. Dit is de standaardinstelling.
-- **Aan**: automatisch extern doorsturen is toegestaan en niet beperkt.
-- **Off**: automatisch extern doorsturen is uitgeschakeld en resulteert in een rapport over niet-uitgevoerde bezorging (ook wel een NDR-of stuiter bericht) voor de afzender.
+- **Automatisch** : automatisch extern doorsturen wordt geblokkeerd. Interne automatisch doorsturen van berichten blijft werken. Dit is de standaardinstelling.
+
+- **Aan** : automatisch extern doorsturen is toegestaan en niet beperkt.
+
+- **Off** : automatisch extern doorsturen is uitgeschakeld en resulteert in een rapport over niet-uitgevoerde bezorging (ook wel een NDR-of stuiter bericht) voor de afzender.
 
 Zie [uitgaande spamfilters in EOP](configure-the-outbound-spam-policy.md)voor instructies voor het configureren van deze instellingen.
 
-**Opmerkingen**:
-
-- Als u automatisch doorsturen uitschakelt, worden ook regels voor het postvak in uitgeschakeld waarmee berichten naar externe adressen worden doorgestuurd.
-
-- Het automatisch doorsturen van berichten tussen interne gebruikers heeft geen invloed op de instellingen in het filter beleid voor uitgaande spam.
-
-- U vindt informatie over gebruikers die berichten automatisch doorsturen naar externe geadresseerden in het [rapport met automatisch doorgestuurde berichten](mfi-auto-forwarded-messages-report.md).
+> [!NOTE]
+> 
+> - Als u automatisch doorsturen uitschakelt, worden ook regels voor het postvak in uitgeschakeld waarmee berichten naar externe adressen worden doorgestuurd.
+> 
+>   In Office 365 is automatisch extern doorsturen niet toegestaan door regels voor Postvak in of door de Postvak configuratie, wat een veilig standaardbeleid biedt. De beheerder kan deze instellingen echter wijzigen voor alle gebruikers in de organisatie. Maak een [uitgaand spam beleid](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true#use-the-security--compliance-center-to-create-outbound-spam-policies) en wijzig de sectie automatisch doorsturen om automatisch e-mailberichten door gebruikers naar externe afzenders te sturen. Dit kan later worden toegepast op de interne afzenders waarop het beleid van toepassing is. Het doorsturen van berichten tussen interne gebruikers wordt niet beïnvloed door een wijziging.
+> 
+> - U vindt informatie over gebruikers die berichten automatisch doorsturen naar externe geadresseerden in het [rapport met automatisch doorgestuurde berichten](mfi-auto-forwarded-messages-report.md).
 
 ## <a name="how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls"></a>Hoe de beleidsinstellingen voor het uitgaande spamfilter werken met andere besturingselementen voor automatisch doorsturen van e-mail
 
 Als beheerder hebt u mogelijk al andere besturingselementen geconfigureerd, zodat u het automatisch doorsturen van e-mail toestaat of blokkeert. Bijvoorbeeld:
 
 - [Externe domeinen](https://docs.microsoft.com/exchange/mail-flow-best-practices/remote-domains/remote-domains) voor het toestaan of blokkeren van automatische e-mail doorsturen naar bepaalde of alle externe domeinen.
+
 - Voorwaarden en acties in Exchange [-e-mail stroom regels](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel een zogenaamde transportregels genoemd) voor het detecteren en blokkeren van automatisch doorgestuurde berichten naar externe geadresseerden.
 
 De instellingen voor extern domein en de e-mail stroom regels zijn onafhankelijk van de instellingen in het filter beleid voor uitgaande spam. Bijvoorbeeld:
 
 - U kunt het automatisch doorsturen van een extern domein toestaan, maar u blokkeert automatisch doorsturen in het filter beleid voor uitgaande spam. In dit voorbeeld worden automatisch doorgestuurde berichten geblokkeerd.
+
 - U kunt automatisch doorsturen in het beleid voor uitgaande spam filteren, maar u kunt de e-mail stroom regels of de externe Domeininstellingen gebruiken om automatisch doorgestuurde e-mail te blokkeren. In dit voorbeeld wordt de instelling voor de e-mail stroom regels of het externe domein voor het automatisch doorsturen van berichten blokkeren.
 
 Deze functie onafhankelijkheid biedt u de mogelijkheid om automatisch doorsturen in te schakelen in een uitgaand spamfilter beleid, maar externe domeinen gebruiken voor het beheren van de externe domeinen waarnaar gebruikers berichten kunnen doorsturen.
