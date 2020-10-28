@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Als u zich hebt aangemeld met geldige werk-of school accounts, kunnen gebruikers ondersteuningsservices op de Cloud krijgen met Cortana in Microsoft 365-ervaringen die voldoen aan de privacy, beveiliging en nalevingsvereisten voor Office 365.
-ms.openlocfilehash: e7464525774e15d5b54f1b2321948aef5d998558
-ms.sourcegitcommit: c692bdc186fb29499816e8bb2addcddef34d23d3
+ms.openlocfilehash: aaef43f33bb06bf43d5e68fbc2509686fc8dd371
+ms.sourcegitcommit: 16cbac5eacadd7b30cbca1fd2435ba9098de5e1c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818299"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48785536"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -83,25 +83,25 @@ Te beginnen met Windows 10, versie 2004, Cortana is een Universal Windows platfo
 
 ### <a name="cortana-voice-assistance-in-teams"></a>Cortana-spraakondersteuning in teams
 
-Met de hulp van Cortana voor spraak in de mobiele app teams kunnen Microsoft 365 Enterprise-gebruikersfuncties voor communicatie, samenwerking en vergaderingen die gebruikmaken van gesproken natuurlijke taal te stroomlijnen. Gebruikers kunnen met Cortana spreken door te klikken op de knop microfoon in de rechterbovenhoek van de mobiele app teams. Ze kunnen onderweg met iemand contact opnemen door een spraak query te maken, zoals ' Bel Megan ' of ' een bericht verzenden naar mijn volgende vergadering '. Gebruikers kunnen ook deelnemen aan een vergadering door ' deelnemen aan mijn volgende vergadering ' te zeggen en spraak hulp te gebruiken om bestanden te delen, hun agenda te bekijken en nog veel meer. Deze spraak ondersteuningsfuncties worden geleverd via Cortana Enterprise-grade services die volledig voldoen aan de privacy, beveiliging en compliance van Office 365, zoals wordt weergegeven in de [Online Services-voorwaarden](https://www.microsoft.com/licensing/product-licensing/products).
+Met de hulpmiddelen voor spraak aanvragen van Cortana in de mobiele app teams en de weergave van Microsoft teams kunnen Microsoft 365 Enterprise-gebruikers de functies voor communicatie, samenwerking en vergaderingen die gebruikmaken van gesproken natuurlijke taal stroomlijnen. Gebruikers kunnen met Cortana spreken door de knop microfoon te selecteren in de rechterbovenhoek van de mobiele app teams of door &#8220;Cortana&#8221; te zeggen in de weergave Microsoft teams. Als u snel met hun team wilt samenwerken en tegelijk onderweg bent, kunnen gebruikers query's doen, zoals &#8220;bellen Megan&#8221; of &#8220;een bericht verzenden naar de volgende&#8221;. Gebruikers kunnen ook deelnemen aan een vergadering door &#8220;deel te nemen aan mijn volgende vergadering&#8221; en spraak hulp gebruiken om bestanden te delen, de agenda te bekijken en nog veel meer. Deze spraak ondersteuningsfuncties worden geleverd via Cortana Enterprise-grade services die volledig voldoen aan de privacy, beveiliging en compliance van Office 365, zoals wordt weergegeven in de [Online Services-voorwaarden](https://www.microsoft.com/licensing/product-licensing/products).
 
 **Beheer beheer**
 
-Cortana-spraakondersteuning is standaard ingeschakeld voor tenants. Beheerders kunnen instellen wie in hun Tenant Cortana-spraakondersteuning in teams kan gebruiken via een beleid (TeamsCortanaPolicy). Dit beleid kan worden ingesteld op een niveau van een gebruikersaccount of tenantniveau. Beheerders kunnen ook het veld CortanaVoiceInvocationMode in dit beleids besturingselement gebruiken om te bepalen of Cortana is uitgeschakeld, is ingeschakeld met alleen een push-button of ingeschakeld met ontroepen van het Ontwaak woord en ook voor apparaten die dit ondersteunen. Wanneer de eerste release voor Microsoft 365 Enterprise-gebruikers in het Engels in het Engels, biedt de mobiele app teams geen ondersteuning voor het opheffen van de activering van Word, maar deze wordt in de toekomst ondersteund.
+Cortana-spraakondersteuning is standaard ingeschakeld voor tenants. Beheerders kunnen instellen wie in hun Tenant Cortana-spraakondersteuning in teams kan gebruiken via een beleid (TeamsCortanaPolicy). Dit beleid kan worden ingesteld op een niveau van een gebruikersaccount of tenantniveau. Beheerders kunnen ook het veld CortanaVoiceInvocationMode in dit beleids besturingselement gebruiken om te bepalen of Cortana is uitgeschakeld, is ingeschakeld met alleen een push-button, of zijn ingeschakeld met het deactiveren van woorden, zoals de Microsoft teams-weergave. Wanneer de eerste release voor Microsoft 365 Enterprise-gebruikers in het Engels in het Engels, biedt de mobiele app teams geen ondersteuning voor het opheffen van de activering van Word, maar deze wordt in de toekomst ondersteund.
 
 **Gebruikersbesturingselement**
 
-Individuele gebruikers kunnen de Cortana-spraakondersteuning uitproberen in de mobiele app teams door op de microfoonknop te klikken. Ze kunnen ook aangeven of Cortana in teams is ingeschakeld voor hun apparaat via een instelling in de mobiele app teams: 
+Individuele gebruikers kunnen de Cortana-spraakondersteuning uitproberen in de mobiele app teams door op de microfoonknop te klikken. Ze kunnen de hulpmiddelen voor spraakondersteuning van Microsoft teams proberen te openen door simpelweg &#8220;Cortana te zeggen. &#8221; ze kunnen ook aangeven of Cortana in teams is ingeschakeld voor hun apparaat via een instelling in de mobiele app teams of in de weergave Microsoft teams: 
 
-1. Open de app teams voor mobiel.
+1. Open de app teams of ga naar het scherm omgeving (startscherm) van de weergave Microsoft teams.
 
-2. Ga naar **instellingen**.
+2. Ga in de app teams voor mobiel naar **instellingen** . Selecteer in de weergave Microsoft teams de avatar van de gebruiker en selecteer vervolgens instellingen. Als Cortana is ingeschakeld, zegt u &#8220;Cortana, gaat u naar instellingen. &#8221;
 
-3. Selecteer **Cortana**.
+3. Selecteer **Cortana** .
 
-4. Zet de wisselknop op aan of uit, afhankelijk van of u Cortana-spraakondersteuning op dit apparaat wilt hebben.
+4. Zet de wisselknop op **aan** of **uit** , afhankelijk van de vraag of u Cortana-spraakondersteuning op het apparaat wilt.
 
-[Meer informatie over Cortana-spraakondersteuning in teams](https://support.microsoft.com/en-us/office/using-cortana-voice-assistance-in-teams-274bb2f0-d962-4182-b45d-307435cea256?ui=en-us&rs=en-us&ad=us)
+[Meer informatie over Cortana-spraakondersteuning in teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
 ### <a name="play-my-emails"></a>Mijn e-mailberichten afspelen
 
@@ -115,9 +115,9 @@ Gebruikers kunnen zich afmelden voor het afspelen van mijn e-mailberichten door 
 
 1. Open Outlook Mobile.
 
-2. Ga naar **instellingen**.
+2. Ga naar **instellingen** .
   
-3. Selecteer **mijn e-mailberichten afspelen**.
+3. Selecteer **mijn e-mailberichten afspelen** .
 
 4. Zet de wisselknop op uit voor de accounts die u wilt uitschakelen.
 
@@ -141,7 +141,7 @@ We gaan verder met het introduceren van de productiviteit van uw organisatie om 
 
 U kunt op de volgende twee manieren te werk gaan: van Cortana in uw onderneming:
 
-**Nieuwe functies voor organisaties met Cortana Enterprise-Services**: Cortana Enterprise-Services zijn ontworpen om te voldoen aan de vereisten voor beveiliging en naleving van organisaties: 
+**Nieuwe functies voor organisaties met Cortana Enterprise-Services** : Cortana Enterprise-Services zijn ontworpen om te voldoen aan de vereisten voor beveiliging en naleving van organisaties: 
 
 1. Dit is een nieuwe service en wordt hier besproken in dit document.
 
@@ -151,7 +151,7 @@ U kunt op de volgende twee manieren te werk gaan: van Cortana in uw onderneming:
 
 4. IT-beheerders beschikken altijd over besturingselementen voor optionele, verbonden functies voor Cortana, vergelijkbaar met de optionele verbonden ervaring wanneer ze Office ProPlus-toepassingen gebruiken.  
 
-**Bestaande services voor consumenten**: de optionele verbonden services van Cortana zijn hoofdzakelijk ontwikkeld voor consumenten ervaringen en worden momenteel geleverd in Windows 10 (versie 1909 en eerder) en de Cortana-app voor IOS en Android.
+**Bestaande services voor consumenten** : de optionele verbonden services van Cortana zijn hoofdzakelijk ontwikkeld voor consumenten ervaringen en worden momenteel geleverd in Windows 10 (versie 1909 en eerder) en de Cortana-app voor IOS en Android.
 
 1. Met deze ervaring worden functies, zoals weer, nieuws en verkeer, ingeschakeld.
 
@@ -159,10 +159,10 @@ U kunt op de volgende twee manieren te werk gaan: van Cortana in uw onderneming:
 
 Cortana-toegang tot de door Microsoft gehoste gegevens van uw organisatie uitschakelen
 
-1. Selecteer in het Microsoft 365-Beheercentrum de optie **instellingen**voor  >  **organisatie** en selecteer **Cortana**.
+1. Selecteer in het Microsoft 365-Beheercentrum de optie **instellingen** voor  >  **organisatie** en selecteer **Cortana** .
 
 2. Schakel het selectievakje voor het **toestaan van Cortana in Windows 10 (versie 1909 en eerder) en de Cortana-app in Ios en Android uit om toegang te krijgen tot door Microsoft gehoste gegevens in naam van medewerkers in uw organisatie** om Cortana-verbonden functies uit te schakelen.
 
-3. Selecteer **Wijzigingen opslaan**.
+3. Selecteer **Wijzigingen opslaan** .
 
 Voor services waarvoor de [Microsoft-serviceovereenkomst](https://go.microsoft.com/fwlink/p/?LinkId=2109174) en [Microsoft-privacyverklaring](https://privacy.microsoft.com/privacystatement)gelden, is Microsoft de gegevenscontroller. Als gegevenscontroller gebruikt Microsoft gegevens om producten en services te verbeteren overeenkomstig de privacyverklaring van [Microsoft](https://privacy.microsoft.com/privacystatement).
