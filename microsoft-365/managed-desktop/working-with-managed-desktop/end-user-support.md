@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8af782095ada41f0472e1df338ced7ebe76c97fe
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 5b09b59efa6862782b04b7aa58d7c1fdc0383bb0
+ms.sourcegitcommit: 21c3e44862854c74e4008cfb661840f069c6b709
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104410"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787532"
 ---
 # <a name="getting-help-for-users"></a>Hulp aanvragen voor gebruikers
 
@@ -25,14 +25,17 @@ Er zijn twee manieren waarop gebruikers in uw organisatie hulp kunnen krijgen bi
 
 ## <a name="get-help-app"></a>Help-app
 
-De voorkeursmethode voor het bieden van ondersteuning voor uw gebruikers is **hulp**, een gebruiksvriendelijke interface die in het gebruikersapparaat is ingebouwd.  
+De voorkeursmethode voor het bieden van ondersteuning voor uw gebruikers is **hulp** , een gebruiksvriendelijke interface die in het gebruikersapparaat is ingebouwd.  
 
 ![Pictogram Help-app](../../media/get-help.png)
 
 Dit is een toepassing die op alle door Microsoft beheerde bureaublad apparaten is geïnstalleerd en is vastgemaakt aan de taakbalk. 
 
-- gebruikers kunnen een oproep indienen naar een opgegeven telefoonnummer of online chatten met een service vertegenwoordiger.
+- Gebruikers kunnen een oproep indienen naar een opgegeven telefoonnummer of online chatten met een service vertegenwoordiger.
 - Aanvragen die buiten het Microsoft beheerde bureaublad ondersteunings bereik vallen, worden doorgestuurd naar de plaatselijke IT-helpdesk via een telefoongesprek.
+
+> [!NOTE]
+> De weergavetaal voor de app Help opvragen is alleen beschikbaar in het Engels, zelfs als een gebruiker een andere taal heeft geselecteerd bij het instellen van hun apparaat of in de apparaatinstellingen. 
 
 ### <a name="prerequisites"></a>Vereisten
 Als u wilt dat gebruikers hulp kunnen krijgen via de app, controleert u of aan de volgende vereisten wordt voldaan:
@@ -49,7 +52,7 @@ Als u deze vereisten hebt gecontroleerd en de app voor het opvragen van hulp nie
 
 ## <a name="phone-support"></a>Telefonische ondersteuning
 
-gebruikers met beheerde bureaublad apparaten van Microsoft hebben ook toegang tot gratis telefoonnummers waarop ze kunnen bellen. Dit is bedoeld om te worden gebruikt als u hulp nodig hebt. Bijvoorbeeld: als ze zich niet kunnen aanmelden bij het apparaat of het apparaat is verbroken. Dit zijn de telefoonnummers voor telefonische ondersteuning:
+Gebruikers met beheerde bureaublad apparaten van Microsoft hebben ook toegang tot gratis telefoonnummers waarop ze kunnen bellen. Dit is bedoeld om te worden gebruikt als u hulp nodig hebt. Bijvoorbeeld: als ze zich niet kunnen aanmelden bij het apparaat of het apparaat is verbroken. Dit zijn de telefoonnummers voor telefonische ondersteuning:
 
 - Verenigde Staten: + 1 855 425 0216
 - Canada (met uitzondering van Quebec): + 1 855 425 0216
