@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Hoe de privacy van de productiviteits score wordt beschermd.
-ms.openlocfilehash: 1af2553e67b4f14e9783c23d679a7ac96443512a
-ms.sourcegitcommit: e8b3855302fc34d09b6df6c737033a2f326d6eee
+ms.openlocfilehash: 62ff3a9f0434421cbe1115f13376e92bd9f3cac9
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48770027"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794975"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Privacy-instellingen voor de productiviteits Score
 
@@ -55,7 +55,21 @@ Voor het weergeven van de volledige productiviteits Score, waaronder metrische g
 
 Wijs de rol rapporten lezer toe aan iedereen die verantwoordelijk is voor het wijzigen van het beheer en de aanneming. Deze rol biedt gebruikers toegang tot de volledige ervaring, waaronder metrische informatie over tenantniveau en Details per gebruikersniveau.
 
-Het rapport personen ervaring bevat gegevens per activiteit per gebruiker voor elke detailpagina van elke categorie. Wijs een aangepaste rol met de naam Gebruiksoverzicht rapporten (beschikbaar in 29 oktober 2020) toe om toegang te krijgen tot alleen de samengestelde metrische gegevens van de personen ervaring.
+Het rapport personen ervaring bevat gegevens per activiteit per gebruiker voor elke detailpagina van elke categorie. Wijs een aangepaste rol met de naam Gebruiksoverzicht rapporten (beschikbaar in 29 oktober 2020) toe om toegang te krijgen tot alleen de samengestelde metrische gegevens van de personen ervaring. Deze rol moet via PowerShell-cmdlets worden toegewezen, zodat deze wordt toegewezen via het Microsoft-Beheercentrum op 11/15/2020.
+
+De rol van lezers voor Gebruiksoverzicht van rapporten toewijzen met PowerShell:
+
+- Voer de volgende PowerShell uit:
+
+```powershell
+Connect-AzureAD
+$role=Get-AzureADDirectoryRole -Filter "roleTemplateId eq '75934031-6c7e-415a-99d7-48dbd49e875e'"
+Get-AzureADDirectoryRoleMember -ObjectId $role.ObjectId
+$u=Get-AzureADUser -ObjectId <user upn>
+Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $u.ObjectId
+```
+
+</br>
 
 :::image type="content" source="../../media/communicationspage.jpg" alt-text="Communicatie pagina in productiviteits rapporten.":::
 

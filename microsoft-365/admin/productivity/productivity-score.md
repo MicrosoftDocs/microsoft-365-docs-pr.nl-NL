@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van Microsoft-productiviteits Score.
-ms.openlocfilehash: 82dc26aea5c573b63bb66d087b332e3301e71409
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 3d014cd0eb3a3ceed3b3f3b48f126453e4ced193
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376971"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794963"
 ---
-# <a name="microsoft-productivity-score-preview"></a>Microsoft-productiviteits Score (preview)
+# <a name="microsoft-productivity-score"></a>Microsoft-productiviteits Score 
 
 Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met inzichten over de manier waarop mensen Microsoft 365 gebruiken en de technologie ervaring die deze ondersteunen. De score geeft de prestaties van uw organisatie aan de werking van mensen en technologieën en vergelijkt uw score met organisaties als uw eigen.
 
@@ -39,18 +39,18 @@ De Score omvat:
 
 We bieden gegevens, inzichten en aanbevelingen in twee gedeelten: 
 
-- **Gebruikerservaring:** We meten de manier waarop mensen aan inhoud samenwerken, hoe ze Microsoft 365-producten gebruiken voor communicatie en of ze Microsoft 365 gebruiken op verschillende platforms. 
+- **Gebruikerservaring:** Meet hoe mensen samenwerken aan inhoud, hoe ze Microsoft 365-producten gebruiken voor communicatie en of ze Microsoft 365 gebruiken op meerdere platforms. 
 
-    We bieden deze inzichten omdat ze online samenwerken, maar ze besparen tijd. Met de vrijheid om op elk apparaat te werken, zijn ze productief en tevreden. Door een flexibele manier te communiceren, maakt u mensen efficiënter, maakt u betere relaties en uw organisatie samen. Zie [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)voor bewijzen.
+    We bieden deze inzichten, omdat ze online samenwerken, ze de tijd besparen en met de vrijheid van werken aan elk apparaat productiever en tevreden zijn. Met de mogelijkheid om efficiënter te communiceren, kunnen mensen efficiënter werken, zodat u beter de relaties kunt vormen. Zie [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)voor bewijzen.
 
-- **Technologie ervaring:** De productiviteit is afhankelijk van betrouwbare en bedrijfsgebruikers en de efficiëntste versie van Microsoft 365. We bieden [eindpunts analyses](https://aka.ms/endpointanalytics), zodat u kunt zien hoe de productiviteit van uw gebruikers kan worden beïnvloed door problemen met de prestaties en de status van uw eindpunttoewijzer en-software. We bieden ook aanbevolen acties om ze te herstellen en ook voor Microsoft 365 Network Connectivity Insights voor uw organisatie.
+- **Technologie ervaring:** De productiviteit is afhankelijk van de betrouwbare en uitstekend bekrachtige technologie en de efficiëntste versie van Microsoft 365. We bieden [eindpunts analyses](https://aka.ms/endpointanalytics), zodat u kunt zien hoe de productiviteit van uw gebruikers kan worden beïnvloed door problemen met de prestaties en de status van uw eindpunttoewijzer en-software. We bieden ook aanbevolen acties om ze te herstellen en ook voor Microsoft 365 Network Connectivity Insights voor uw organisatie.
 
 Zie [Wat is Eindpunts analyse](https://docs.microsoft.com/mem/analytics/overview) voor een overzicht en de vereiste gegevens. Lees [het overzicht van netwerkverbinding](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview)voor meer informatie over microsoft 365 Network Connectivity Insights.
   
 
 ## <a name="how-the-score-is-calculated"></a>Hoe de score wordt berekend
 
-De productiviteits Score is gebaseerd op de gecombineerde cijfers van de categorieën mensen en technologie. Elke categorie wordt gelijkelijk gewogen, met een totaal van 100 punten per categorie. De totale hoeveelheid mogelijke punten voor de productiviteits Score zijn 500.
+De productiviteits Score is gebaseerd op de gecombineerde cijfers van de categorieën mensen en technologie. Elke categorie wordt gelijkelijk gewogen, met een totaal van 100 punten. De hoogst mogelijke productiviteits Score is 500.
 
 ### <a name="score-categories"></a>Score Categorieën 
 
@@ -61,7 +61,7 @@ De productiviteits Score is gebaseerd op de gecombineerde cijfers van de categor
 - Netwerkverbinding (100 punten)
 - **Totale potentiële = 500 punten**
  
- In elke categorie identificeren we patronen voor belangrijke activiteiten die indicatoren zijn voor de manier waarop mensen Microsoft 365-producten gebruiken om samen te werken, te communiceren en te werken. We bieden 28-Day en 180-dagweergave van de belangrijkste activiteiten. We bieden ook ondersteunings metrieken die geen deel uitmaken van de score berekening, maar die u helpt bij het identificeren van onderliggend gedrag en instellingen waarop u kunt reageren op een ander station.
+ In elke categorie identificeren we patronen voor belangrijke activiteiten die indicatoren zijn voor de manier waarop mensen Microsoft 365-producten gebruiken om samen te werken, te communiceren en te werken. We bieden 28-Day en 180-dagweergave van de belangrijkste activiteiten. We bieden ook ondersteunings metrieken die geen deel uitmaken van de score berekening, maar die u helpt bij het identificeren van onderliggend gedrag en instellingen waarop u kunt handelen.
 
 ### <a name="products-included-in-productivity-score"></a>Producten die deel uitmaken van de productiviteits Score 
 
@@ -72,7 +72,7 @@ Uw score wordt dagelijks bijgewerkt en weerspiegelt de acties van gebruikers die
 
 ## <a name="pre-requisites"></a>Vereisten 
 
-U hebt een Microsoft 365 voor bedrijven-of Office 365 voor Enterprise-abonnement nodig om de gegevens van personen te kunnen weergeven, en u moet gebruikmaken van multi-tenant cloudservices. Als u gegevens voor de Endpoint Analytics wilt voor de Tenant, moet u Microsoft intune toevoegen aan uw abonnement. Met intune kunt u de gegevens van uw organisatie beschermen door apparaten en apps te beheren.       Wanneer u intune hebt ingeschakeld, kunt u eindpunt analyse inschakelen in de intune-ervaring. Meer informatie over Microsoft intune. 
+Als u gegevens wilt weergeven voor personen die u nodig hebt, hebt u een abonnement op Microsoft 365 voor bedrijven of Office 365 voor Enterprise nodig en moet u gebruikmaken van meerdere tenants van cloudservices. Als u gegevens voor de Endpoint Analytics wilt voor de Tenant, moet u Microsoft intune toevoegen aan uw abonnement. Met intune kunt u de gegevens van uw organisatie beschermen door apparaten en apps te beheren.       Wanneer u intune hebt ingeschakeld, kunt u eindpunt analyse inschakelen in de intune-ervaring. Meer informatie over Microsoft intune. 
 
 Als u de productiviteits score voor uw organisatie wilt weergeven, moet u beschikken over een van de volgende rollen: 
 
@@ -84,15 +84,15 @@ Als u de productiviteits score voor uw organisatie wilt weergeven, moet u beschi
 - Algemene lezer 
 - Rapporten lezer 
 
-U hebt toegang tot de ervaring via Microsoft 365 admin voor thuisgebruik onder **rapporterende**  >  **productiviteit**.
+U hebt toegang tot de ervaring via Microsoft 365 admin voor thuisgebruik onder **rapporterende**  >  **productiviteit** .
 
 ## <a name="interpreting-productivity-score"></a>De Score van de productiviteit interpreteren 
 
-Op de startpagina van de productiviteits Score ziet u de totale score en de Score geschiedenis en de belangrijkste inzichten voor elke categorie.
+Op de startpagina van de productiviteits Score ziet u de totale score en de score en de belangrijkste inzichten van elke categorie.
 
 ![Startpagina voor productiviteits Score](../../media/pslanding.png)
 
-**Uw score** wordt weergegeven als percentagewaarde en in punten, zodat u uw punten (teller) en maximum aantal mogelijke punten (noemer) kunt zien.
+**Uw score** wordt weergegeven als percentagewaarde en in punten. U kunt de punten in de teller zien en de maximum aantal mogelijke punten in de noemer.
 
 Met behulp van **peer-benchmarks** kunt u uw score vergelijken met organisaties zoals uw eigen. Voor de categorieën personen-ervaring wordt de Bench aanduiding voor de peer berekend als het gemiddelde van maateenheden binnen een set soortgelijke organisaties. De set is samengesteld uit organisaties in uw regio met een vergelijkbaar aantal gebruikers met een licentie, typen licenties, bedrijfstak en tenure met Microsoft 365. 
 
@@ -110,31 +110,13 @@ De gebieden **mensen ervaring** en **technologie ervaring** bevatten de primaire
 
 Elke pagina met categorie Details toont de primaire inzichten en ondersteunings metrieken, alsook bijbehorende onderzoek en acties die u kunt uitvoeren om wijzigingen in uw organisatie aan te brengen. Onderzoek biedt ondersteuning voor de urgentie en rationeleering achter de primaire inzichten voor elke categorie. Lees voor meer informatie [het rapport Forrester](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-### <a name="content-collaboration-details"></a>Details van samenwerking aan inhoud
-
-De belangrijkste inzichten voor de samenwerking van inhoud is het aantal personen dat online maakt, lezen en samenwerken (bewerken en delen). Deze meetwaarden zijn belangrijk omdat onderzoek laat zien dat elke persoon een gemiddelde van bijna 2 uur per week opslaat.
-
-We definiëren de samenwerking van inhoud als één persoon die een Office-bestand maakt en deelt, en minstens één andere persoon het lezen. 
-
-**Lezers**: personen die online bestanden openen of downloaden in OneDrive of SharePoint.
-
-**Makers:** Personen die online OneDrive-of SharePoint-bestanden maken, wijzigen, uploaden, synchroniseren, inchecken, kopiëren of verplaatsen.
-
-Medewerkers **: personen**die met online bestanden werken via OneDrive of SharePoint. Twee personen zijn medewerkers wanneer ze een online Office-app of een PDF-document met een online-app of een document bewerken nadat de andere persoon het document heeft gemaakt of gewijzigd, binnen een venster van 28 dagen.
-
-De bestandstypen die worden overwogen voor samenwerking zijn Word-, Excel-, PowerPoint-, OneNote-en PDF-bestanden.
-
-We bieden inzichten aan de start tijden en kunnen instellen voor apparaten in uw organisatie, en ook met netwerkverbinding inzichten voor de samenwerking van inhoud omdat online samenwerken via een online gerichte apparatuur met behulp van online bestands samenwerking een betrouwbare apparatuur met een goede begindatum en een goede connectiviteit met Microsoft 365 is vereist.
-
-### <a name="communication-details"></a>Communicatiedetails
-
-Het belangrijkste inzicht in de communicatie is hoe vaak mensen in uw organisatie e-mail, chatberichten en community-berichten gebruiken om te communiceren. Wanneer mensen een verscheidenheid aan realtime communicatieprogramma's gebruiken, kunnen ze de modus van communicatie kiezen waarmee ze de meeste efficiënt kunnen zijn, zoals chatten en community's, zodat ze relaties op Office-locaties kunnen ontwikkelen.
-
-### <a name="mobility-details"></a>Mobiliteits gegevens
-
-De primaire inzichten voor mobiliteit is het aantal mensen die toegang hebben tot bestanden en e-mail en chat gebruiken op meerdere platforms. De mogelijkheid om te werken vanaf een willekeurige locatie op elk apparaat dat ze kiezen is belangrijk voor personen met verkoop rollen, senior managers en adviseurs, en andere personen die het werk van Office willen doen om productief te zijn. De verbeteringen voor deze werknemers hebben grote gevolgen. 
-
-We waarderen het percentage en het absolute aantal personen dat met minstens één productiviteits-app voor Microsoft 365 heeft gewerkt op twee of meer platforms, waaronder desktop, Mobile en Internet. De maatregelen van de productiviteits-apps zijn Outlook, teams, Word, Excel, PowerPoint, OneNote, Yammer en Skype. Voor gebruikers moet Microsoft 365-apps voor Enterprise, Exchange, Yammer, Skype of teams worden gemeten. 
+De pagina Details is:
+- [Samenwerken aan inhoud: mensen ervaring](content-collaboration.md)
+- [Communicatie: mensen ervaring](communication.md)
+- [Vergaderingen: mensen ervaring](meetings.md)
+- [Mobiliteit – personen met ervaring](mobility.md)
+- [Teamwerk – ervaring met personen](teamwork.md)
+- [Status van Microsoft 365-apps-technologie ervaring](apps-health.md)
 
 ## <a name="business-continuity-special-report"></a>Speciaal rapport bedrijfscontinuïteit
 

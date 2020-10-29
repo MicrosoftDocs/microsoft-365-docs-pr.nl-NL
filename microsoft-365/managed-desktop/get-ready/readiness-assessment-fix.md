@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2c9638dc7b8c6d095b87cf81114f3812c8362597
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: a6dec9473ee632b74bb79e50156cedff53a3cba3
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48656131"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48795115"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
 
-Voor elke controle wordt in het hulpmiddel een van de drie mogelijke resultaten weergegeven:
+Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten weergegeven:
 
 
 |Resultaat  |Betekenis  |
@@ -26,6 +26,7 @@ Voor elke controle wordt in het hulpmiddel een van de drie mogelijke resultaten 
 |Gereedgemaakt     | U hoeft geen actie te ondernemen voordat u de registratie uitvoert.        |
 |Adviser    | Voer de stappen in het hulpprogramma of dit artikel uit voor de beste ervaring met inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
 |Niet gereed | *De registratie mislukt als u deze problemen niet oplost.* Voer de stappen in het hulpprogramma of dit artikel uit om ze op te lossen.        |
+|Error | De rol van Azure Active Director (AD) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
 
 ## <a name="microsoft-intune-settings"></a>Microsoft intune-instellingen
 
@@ -72,6 +73,16 @@ U hebt ten minste één beleid voor voorwaardelijke toegang voor alle gebruikers
 
 Zorg ervoor dat u een beleidsregels voor voorwaardelijke toegang hebt uitgesloten met de Azure AD-groep voor de **moderne service accounts** . Zie [voorwaardelijke toegang aanpassen](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access)voor de stappen. De **modern Workplace service accounts** Azure Ad Group is een dynamische groep die we voor de service maken wanneer u zich registreert. U dient na de inschrijving weer de groep uit te sluiten. Zie voor meer informatie over deze serviceaccounts [standaardprocedures](../service-description/operations-and-monitoring.md#standard-operating-procedures)voor het werk.
 
+**Fout**
+
+De rol intune-beheerder heeft onvoldoende machtigingen voor deze controle. U hebt ook een van de volgende Azure AD-rollen nodig die zijn toegewezen om deze controle uit te voeren:
+
+- Beveiligings lezer
+- Beveiligingsbeheerder
+- Beheerder van voorwaardelijke toegang
+- Algemene lezer
+- Apparaten beheerder
+
 
 ### <a name="device-compliance-policies"></a>Nalevingsbeleid voor apparaten
 
@@ -116,7 +127,7 @@ U hebt momenteel de pagina met de inschrijvings status (ESP) ingeschakeld. Als u
 
 **Niet gereed**
 
-Voor het weergeven van de voortgang van de **apps en profielen**moet u de standaard-ESP-profielset opgeven. Schakel deze instelling uit door de stappen te volgen in [de pagina inschrijvings status instellen](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status).
+Voor het weergeven van de voortgang van de **apps en profielen** moet u de standaard-ESP-profielset opgeven. Schakel deze instelling uit door de stappen te volgen in [de pagina inschrijvings status instellen](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status).
 
 **Adviser**
 
@@ -128,7 +139,7 @@ Windows 10-apparaten in uw Azure AD-organisatie moeten automatisch worden geregi
 
 **Niet gereed**
 
-Gebruikers in uw Azure AD-organisatie worden niet automatisch ingeschreven in Microsoft intune. Het MDM-gebruikers bereik wijzigen **in** **Alles of alles**. Als u dit kiest. Sommige * *, komen na de inschrijving en selecteert u de groep **modern werk, alle** Azure AD-groep voor **groepen**.
+Gebruikers in uw Azure AD-organisatie worden niet automatisch ingeschreven in Microsoft intune. Het MDM-gebruikers bereik wijzigen **in** **Alles of alles** . Als u **een aantal** kiest, meldt u zich weer na de inschrijving en selecteert u de groep **modern Workplace-all** Azure AD voor **groepen** .
 
 
 ### <a name="microsoft-store-for-business"></a>Microsoft Store voor Bedrijven
@@ -152,6 +163,15 @@ U hebt een aantal opties voor het instellen van multi-factor Authentication (MFA
 
 Zorg ervoor dat voor beleidsregels voor voorwaardelijke toegang de optie MFA moet **zijn opgenomen:** de groep alle Azure AD. Zie voor meer informatie [beleidsregels voor voorwaardelijke toegang](#conditional-access-policies) en [voorwaardelijke toegang: MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa). De **modern Workplace-all** Azure AD-groep is een dynamische groep die we maken wanneer u zich registreert bij Microsoft Managed Desktop, zodat u deze groep moet uitsluiten na inschrijving.
 
+**Fout**
+
+De rol intune-beheerder heeft onvoldoende machtigingen voor deze controle. U hebt ook een van de volgende Azure AD-rollen nodig die zijn toegewezen om deze controle uit te voeren:
+
+- Beveiligings lezer
+- Beveiligingsbeheerder
+- Beheerder van voorwaardelijke toegang
+- Algemene lezer
+- Apparaten beheerder
 
 
 ### <a name="powershell-scripts"></a>PowerShell-scripts
@@ -234,7 +254,7 @@ Adviseert het controleren van een instelling die (indien ingesteld op ' onwaar '
 
 **Adviser**
 
-Zorg ervoor dat **AllowAdHocSubscriptions** is ingesteld op **waar**. Anders werkt Enterprise State roaming mogelijk niet. Zie [set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)voor meer informatie.
+Zorg ervoor dat **AllowAdHocSubscriptions** is ingesteld op **waar** . Anders werkt Enterprise State roaming mogelijk niet. Zie [set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)voor meer informatie.
 
 
 ### <a name="enterprise-state-roaming"></a>Enterprise State Roaming
@@ -297,6 +317,11 @@ SSPR moet zijn ingeschakeld voor alle gebruikers. Als dat niet het geval is, kun
 **Adviser**
 
 Zorg ervoor dat de **geselecteerde** instelling voor SSPR Microsoft beheerde bureaublad apparaten bevat.
+
+**Fout**
+
+De rol intune-beheerder heeft onvoldoende machtigingen voor deze controle. Voor de uitvoering van deze controle moet u ook de functie rapporten lezer Azure AD aan te voeren.
+
 
 ### <a name="standard-user-role"></a>Standaard gebruikersrol
 

@@ -9,18 +9,20 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c574be6d171a230479d8b6c96e2e0a1dec8a87ac
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 56d849a7abcbe480d82200cc7841d42e9c189762
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48656132"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48795103"
 ---
 # <a name="readiness-assessment-tool"></a>Hulpmiddel voor gereedheids beoordeling
 
 Voor de soepelste ervaring wanneer u zich registreert bij Microsoft Managed Desktop, zijn er een aantal instellingen en andere parameters die u moet instellen voor de periode. Met dit hulpprogramma kunt u deze instellingen controleren en gedetailleerde stappen ontvangen voor het oplossen van de juiste instellingen.
 
-Met de Tool controleert u de instellingen in Microsoft Endpoint Manager (specifiek, Microsoft intune), Azure Active Directory (Azure AD) en Microsoft 365 om te controleren of deze geschikt zijn voor Microsoft beheerde bureaublad. Microsoft Managed Desktop houdt de gegevens van deze controles gedurende 12 maanden na de laatste keer dat u een cheque uitvoert in uw Azure AD-organisatie (Tenant).  Na 12 maanden behoudt Skype het in de aangegeven vorm.  U kunt ervoor kiezen de gegevens te verwijderen die we verzamelen.
+Met de Tool controleert u de instellingen in Microsoft Endpoint Manager (specifiek, Microsoft intune), Azure Active Directory (Azure AD) en Microsoft 365 om te controleren of deze geschikt zijn voor Microsoft beheerde bureaublad. Microsoft Managed Desktop houdt de gegevens van deze controles gedurende 12 maanden na de laatste keer dat u een cheque uitvoert in uw Azure AD-organisatie (Tenant). Na 12 maanden behoudt Skype het in de aangegeven vorm.  U kunt ervoor kiezen de gegevens te verwijderen die we verzamelen.
+
+Iedereen met een intune-beheerder kan dit hulpprogramma uitvoeren, maar bij een aantal controles ([certificaat connectors](readiness-assessment-fix.md#certificate-connectors), [Meervoudige verificatie](readiness-assessment-fix.md#multi-factor-authentication), en [selfservice voor wachtwoordherstel](readiness-assessment-fix.md#self-service-password-reset)) zijn extra machtigingen vereist.
  
 Het beoordelingsprogramma controleert de volgende items:
 
@@ -68,7 +70,7 @@ Het beoordelingsprogramma controleert de volgende items:
 |OneDrive voor Bedrijven     | Controleert of in OneDrive voor bedrijven niet-ondersteunde instellingen worden gebruikt.        |
 
 
-Voor elke controle wordt in het hulpmiddel een van de drie mogelijke resultaten weergegeven:
+Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten weergegeven:
 
 
 |Resultaat  |Betekenis  |
@@ -76,3 +78,4 @@ Voor elke controle wordt in het hulpmiddel een van de drie mogelijke resultaten 
 |Gereedgemaakt     | U hoeft niets te doen voordat u de registratie voltooit.        |
 |Adviser    | Volg de stappen in het hulpprogramma voor een optimale ervaring met inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
 |Niet gereed | De *registratie mislukt* als u deze problemen niet oplost. Voer de stappen in het hulpprogramma uit om ze op te lossen.        |
+|Error | De rol van Azure Active Director (AD) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |

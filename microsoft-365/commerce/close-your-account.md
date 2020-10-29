@@ -17,12 +17,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over het sluiten van uw account met Microsoft.
-ms.openlocfilehash: 9545c43ee27fb000149776527030b04b5e807a5c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 0fed7df54a21b3696e81915af78e377e855bfd12
+ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638373"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48794895"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
@@ -51,9 +51,9 @@ Als uw organisatie gebruikmaakt van Active Directory die wordt gesynchroniseerd 
 
 1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
 
-2. Als de lijst met abonnementen in de **tabel** weergave wordt weergegeven, selecteert u **kaarten**aan de rechterkant.
+2. Als de lijst met abonnementen in de **tabel** weergave wordt weergegeven, selecteert u **kaarten** aan de rechterkant.
 
-3. Zoek een actief abonnement en selecteer in de sectie **instellingen & acties** de optie **abonnement opzeggen**.
+3. Zoek een actief abonnement en selecteer in de sectie **instellingen & acties** de optie **abonnement opzeggen** .
 
 4. Volg de aanwijzingen om het proces te voltooien.
 
@@ -63,21 +63,21 @@ Als uw organisatie gebruikmaakt van Active Directory die wordt gesynchroniseerd 
 
 1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
 
-2. Als de lijst met abonnementen in de **tabel** weergave wordt weergegeven, selecteert u **kaarten**aan de rechterkant.
+2. Als de lijst met abonnementen in de **tabel** weergave wordt weergegeven, selecteert u **kaarten** aan de rechterkant.
 
-3. Selecteer naast **status van abonnement**de optie **uitgeschakeld**.
+3. Selecteer naast **status van abonnement** de optie **uitgeschakeld** .
 
-4. Zoek een uitgeschakeld abonnement, en selecteer in de sectie **instellingen & acties** de optie **verwijderen**.
+4. Zoek een uitgeschakeld abonnement, en selecteer in de sectie **instellingen & acties** de optie **verwijderen** .
 
-5. Schakel in het dialoogvenster **abonnement verwijderen** het selectievakje **Ik weet het effect** in en selecteer vervolgens **abonnement verwijderen**.
+5. Schakel in het dialoogvenster **abonnement verwijderen** het selectievakje **Ik weet het effect** in en selecteer vervolgens **abonnement verwijderen** .
 
 6. Herhaal de stappen 4 en 5 totdat alle abonnementen zijn verwijderd voor elk uitgeschakeld abonnement.
 
 ## <a name="step-4-disable-multi-factor-authentication"></a>Stap 4: multi-factor Authentication uitschakelen
 
-1. Ga in het Beheercentrum naar de pagina **gebruikers**van  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active Users</a> .
+1. Ga in het Beheercentrum naar de pagina **gebruikers** van  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active Users</a> .
 
-2. Kies **multi-factor Authentication**.
+2. Kies **multi-factor Authentication** .
 
 3. Schakel op de pagina multi-factor Authentication alle accounts uit, met uitzondering van het globale beheerdersaccount dat u momenteel gebruikt.
 
@@ -87,12 +87,12 @@ U kunt ook <a href="https://docs.microsoft.com/azure/active-directory/authentica
 
 1. Meld u aan bij het <a href="https://aad.portal.azure.com/" target="_blank">Azure AD-Beheercentrum</a> met het account van een globale beheerder.
 
-2. Selecteer **Azure Active Directory**.
+2. Selecteer **Azure Active Directory** .
 
-3. Ga naar de map die u wilt verwijderen.
+3. Ga naar de organisatie die u wilt verwijderen.
 
-4. Selecteer **map verwijderen**.
+4. Selecteer **Tenant verwijderen** .
 
-5. Als er in de Directory een of meer controles mislukt, ziet u een koppeling naar meer informatie over het doorgeven van de controles. Wanneer u alle controles hebt uitgevoerd, selecteert u **verwijderen** om het proces te voltooien.
+5. Als in uw organisatie een of meer controles mislukt, ziet u een koppeling naar meer informatie over het doorgeven van de controles. Wanneer u alle controles hebt uitgevoerd, selecteert u **verwijderen** om het proces te voltooien.
 
 Wanneer u deze laatste stap hebt voltooid, wordt uw account met Microsoft gesloten en verwijderd.
