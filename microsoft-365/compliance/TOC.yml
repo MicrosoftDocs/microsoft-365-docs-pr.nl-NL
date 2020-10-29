@@ -89,8 +89,6 @@
           href: sensitive-information-type-entity-definitions.md
         - name: Doel van de DLP-functies
           href: what-the-dlp-functions-look-for.md
-        - name: Een uitgebreid overzicht over het aanpassen van DLP bekijken
-          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
         - name: Een ingebouwd type gevoelige informatie aanpassen
           href: customize-a-built-in-sensitive-information-type.md
         - name: Aangepaste typen gevoelige informatie
@@ -222,12 +220,26 @@
           href: data-loss-prevention-policies.md
         - name: DLP en Microsoft Teams
           href: dlp-microsoft-teams.md
-        - name: Meer informatie over preventie van gegevensverlies van eindpunten (preview)
+        - name: Meer informatie over preventie van gegevensverlies van eindpunten
           href: endpoint-dlp-learn-about.md
-        - name: Aan de slag met preventie van gegevensverlies van eindpunten (preview)
+        - name: Aan de slag met preventie van gegevensverlies van eindpunten
           href: endpoint-dlp-getting-started.md
-        - name: Preventie van gegevensverlies van eindpunten gebruiken (preview)
+        - name: Preventie van gegevensverlies van eindpunten gebruiken
           href: endpoint-dlp-using.md
+        - name: DLP-hulpmiddelen en methoden voor het eindpunt voor Windows 10-apparaten
+          items:
+            - name: Onboarden hulpmiddelen en methoden voor Windows 10-apparaten
+              href: dlp-configure-endpoints.md
+            - name: Onboarden Windows 10-apparaten via Groepsbeleid
+              href: dlp-configure-endpoints-gp.md
+            - name: Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management
+              href: dlp-configure-endpoints-mdm.md
+            - name: Onboarden Windows 10-updates met Configuration Manager
+              href: dlp-configure-endpoints-sccm.md
+            - name: Onboarden Windows 10-apparaten met een lokaal script
+              href: dlp-configure-endpoints-script.md
+            - name: Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten
+              href: dlp-configure-endpoints-vdi.md
         - name: Aan de slag met aanbevelingen voor DLP-beleid
           href: get-started-with-dlp-policy-recommendations.md
         - name: Aan de slag met het standaard DLP-beleid
