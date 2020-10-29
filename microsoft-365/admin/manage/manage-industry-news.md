@@ -15,28 +15,26 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Zorg dat uw gebruikers up-to-date nieuwskoppen koppen hebben over uw bedrijfstak en informatie van uw organisatie, gebruik de nieuwsservice om een aangepaste nieuwsfeed in te schakelen voor uw organisatie.
-ms.openlocfilehash: 718e48c9db90ff7e598dd56c0228bb894b7a3a4d
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: c0758c3a762c39534629095345d935456cb938e9
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779176"
+ms.locfileid: "48791820"
 ---
 # <a name="manage-industry-news"></a>Bedrijfstak nieuws beheren
 
 Als u uw gebruikers wilt voorzien van up-to-date nieuwskoppen van uw branche en informatie van uw organisatie, gebruikt u de [Nieuws](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews) service om een aangepaste nieuwsfeed in te schakelen voor uw organisatie.U kunt ook de instellingen voor de pagina Bing start en Microsoft Edge nieuwe tabbladen beheren (beginnend met de release van Edge 87).
 
 ## <a name="what-your-users-will-see"></a>Wat uw gebruikers te zien krijgen
-
-:::image type="content" source="../../media/manage-industry-news-1.png" alt-text="Microsoft Search Industry updates totaliseren":::
  
 Aangemelde gebruikers die zich bevinden op de startpagina van Bing, zien uw nieuwsfeed onder de persoonlijke gegevens van uw organisatie.
 
-:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Microsoft Search Industry updates totaliseren":::
+:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Schermafbeelding van de afbeeldings carrousel met het nieuws van de website":::
 
 Ze kunnen ook bedrijven, sectoren en interne nieuws of persoonlijke werkgegevens op hun nieuwe tabblad Microsoft Edge raadplegen. 
 
-:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Microsoft Search Industry updates totaliseren":::
+:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Schermafbeelding van de afbeeldings carrousel met het nieuws van de website":::
 
 ## <a name="news-settings"></a>Nieuwsinstellingen
 

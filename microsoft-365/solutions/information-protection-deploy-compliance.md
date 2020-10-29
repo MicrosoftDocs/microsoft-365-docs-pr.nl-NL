@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Meer informatie over het gebruik van de compliance Score en Compliance Manager om uw beschermingsniveau voor persoonlijke gegevens te verbeteren.
-ms.openlocfilehash: 5b41fa9fc52253d415a22aaa3422a87c4f1bda7c
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: f90826795197b392f629eb8eec71b7f27081b697
+ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377097"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48791880"
 ---
 # <a name="use-compliance-manager-to-manage-improvement-actions"></a>Compliance Manager gebruiken voor het beheren van kwaliteits acties
 
@@ -44,7 +44,7 @@ Dit artikel bevat richtlijnen voor het gebruik van dit hulpprogramma voor privac
 
 Compliance Manager biedt vooraf gedefinieerde sjablonen voor het [maken van beoordelingen](../compliance/compliance-manager-assessments.md) die zijn afgestemd op de privacy-gerelateerde regelgeving van gegevens, zoals AVG en HIPAA/Hitech. De sjablonen bevatten ingebouwde beheer toewijzingen waarmee u de vereisten voor de regulering van de regelgeving kunt verbeteren. Elke beoordeling biedt informatie over de besturingselementen die elke verordening aanroept voor specifieke doelservice, uitgesplitst door besturingselementen die door Microsoft worden beheerd en beheerd. 
 
-Met een vooraf gebouwde sjabloon kunt u snel aan de slag met risicobeoordelingen. Naarmate u meer wilt weten over het gebruik van Compliance Manager, kunt u een vooraf gedefinieerde sjabloon aanpassen door uw eigen besturingselementen en kwaliteits verbeteringen toe te voegen, of u kunt uw eigen aangepaste proefwerken maken voor de behoeften van uw organisatie.
+Met een vooraf gebouwde sjabloon kunt u snel aan de slag met risicobeoordelingen. Als u meer wilt weten over het gebruik van Compliance Manager, kunt u een vooraf gedefinieerde sjabloon aanpassen door uw eigen besturingselementen en kwaliteits verbeteringen toe te voegen, of u kunt uw eigen aangepaste proefwerken maken voor de behoeften van uw organisatie.
 
 Bekijk de [volledige lijst met beoordelings sjablonen](../compliance/compliance-manager-templates-list.md) die beschikbaar zijn in de Compliance Manager.
 
