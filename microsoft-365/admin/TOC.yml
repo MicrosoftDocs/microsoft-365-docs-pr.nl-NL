@@ -210,6 +210,8 @@
       items:
         - name: Gebruikersactiviteiten controleren met behulp van rapporten
           href: activity-reports/activity-reports.md
+        - name: Gebruikersproductiviteit controleren met productiviteitsscore
+          href: productivity/productivity-score.md
         - name: De contactgegevens van uw organisatie wijzigen
           href: manage/change-address-contact-and-more.md
         - name: De contactgegevens van uw beheerder bijwerken

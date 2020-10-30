@@ -26,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel hebben beheerders een betere beveiliging van veilige koppelingen in Office 365 Advanced Threat Protection (ATP) om hun organisatie tegen phishing en andere aanvallen die gebruikmaken van schadelijke Url's te beschermen.
-ms.openlocfilehash: d4c939d45818ba14c4407eee063aca46e4ee5b03
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 45936cabf012c5f40080f3bbfee224aec9593d30
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447093"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806724"
 ---
 # <a name="safe-links-in-office-365-atp"></a>Veilige koppelingen in Office 365 ATP
 
@@ -44,15 +44,15 @@ Veilige koppelingen is een functie in [Office 365 Advanced Threat Protection](of
 
 Beveiliging van veilige koppelingen is beschikbaar op de volgende locaties:
 
-- **E-mailberichten**: beveiliging van veilige koppelingen voor koppelingen in e-mailberichten wordt bepaald door beleid voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in een e-mailbericht wilt ontvangen, moet u een of meer beleidsregels voor veilige koppelingen maken**. Zie voor instructies het [beleid voor veilige koppelingen instellen in ATP](set-up-atp-safe-links-policies.md).
+- **E-mailberichten** : beveiliging van veilige koppelingen voor koppelingen in e-mailberichten wordt bepaald door beleid voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in een e-mailbericht wilt ontvangen, moet u een of meer beleidsregels voor veilige koppelingen maken** . Zie voor instructies het [beleid voor veilige koppelingen instellen in ATP](set-up-atp-safe-links-policies.md).
 
   Zie de [instellingen voor veilige koppelingen voor e-mailberichten](#safe-links-settings-for-email-messages) verderop in dit artikel voor meer informatie over de bescherming van veilige koppelingen voor e-mailberichten.
 
-- **Microsoft teams** (momenteel in de preview-versie van het lint): beveiliging van veilige koppelingen voor koppelingen in teams-gesprekken, groepsgesprekken of van kanalen wordt ook bestuurd door beleidsregels voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in teams wilt instellen, moet u een of meer beleidsregels voor veilige koppelingen maken**.
+- **Microsoft teams** (momenteel in de preview-versie van het lint): beveiliging van veilige koppelingen voor koppelingen in teams-gesprekken, groepsgesprekken of van kanalen wordt ook bestuurd door beleidsregels voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in teams wilt instellen, moet u een of meer beleidsregels voor veilige koppelingen maken** .
 
   Zie de sectie [instellingen voor veilige koppelingen voor Microsoft teams](#safe-links-settings-for-microsoft-teams) verderop in dit onderwerp voor meer informatie over beveiliging van veilige koppelingen in teams.
 
-- **Apps van office 365**: beveiliging van veilige koppelingen voor Office 365-apps is beschikbaar in de ondersteunde Desktop-, Mobile-en Web-APS. U **configureert** de bescherming voor veilige koppelingen voor Office 365-apps in de globale instelling **buiten** het beleid voor veilige koppelingen. Zie [algemene instellingen configureren voorinstellingen voor veilige koppelingen in Office 365 ATP](configure-global-settings-for-safe-links.md)voor instructies.
+- **Apps van office 365** : beveiliging van veilige koppelingen voor Office 365-apps is beschikbaar in de ondersteunde Desktop-, Mobile-en Web-APS. U **configureert** de bescherming voor veilige koppelingen voor Office 365-apps in de globale instelling **buiten** het beleid voor veilige koppelingen. Zie [algemene instellingen configureren voorinstellingen voor veilige koppelingen in Office 365 ATP](configure-global-settings-for-safe-links.md)voor instructies.
 
   Maar de bescherming van veilige koppelingen voor Office 365-apps is alleen van **toepassing** op gebruikers die deel uitmaken van de beleidsregels voor Active Safe koppelingen. Als een gebruiker niet is opgenomen in een actief beleid voor veilige koppelingen, wordt de beveiliging van veilige koppelingen niet ondersteund in ondersteunde Office 365-apps.
 
@@ -60,13 +60,13 @@ Beveiliging van veilige koppelingen is beschikbaar op de volgende locaties:
 
 Dit artikel bevat uitgebreide beschrijvingen van de volgende typen instellingen voor veilige koppelingen:
 
-- **Instellingen voor beleidsregels voor veilige koppelingen**: deze instellingen zijn alleen van toepassing op de gebruikers die in de specifieke beleidsregels zijn opgenomen, en de instellingen kunnen afwijken van het beleid. De volgende instellingen zijn beschikbaar:
+- **Instellingen voor beleidsregels voor veilige koppelingen** : deze instellingen zijn alleen van toepassing op de gebruikers die in de specifieke beleidsregels zijn opgenomen, en de instellingen kunnen afwijken van het beleid. De volgende instellingen zijn beschikbaar:
 
   - [Instellingen voor veilige koppelingen voor e-mailberichten](#safe-links-settings-for-email-messages)
   - [Instellingen voor veilige koppelingen voor Microsoft teams](#safe-links-settings-for-microsoft-teams)
   - [De lijsten ' de volgende Url's niet herschrijven ' in het beleid voor veilige koppelingen](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
-- **Algemene instellingen voor veilige koppelingen**: deze instellingen zijn globaal geconfigureerd, niet in het beleid voor veilige koppelingen. De instellingen zijn alleen van toepassing op gebruikers die deel uitmaken van een actief beleid voor veilige koppelingen. De volgende instellingen zijn beschikbaar:
+- **Algemene instellingen voor veilige koppelingen** : deze instellingen zijn globaal geconfigureerd, niet in het beleid voor veilige koppelingen. De instellingen zijn alleen van toepassing op gebruikers die deel uitmaken van een actief beleid voor veilige koppelingen. De volgende instellingen zijn beschikbaar:
 
   - [Instellingen voor veilige koppelingen voor Office 365-apps](#safe-links-settings-for-office-365-apps)
   - [De lijst volgende Url's blokkeren voor veilige koppelingen](#block-the-following-urls-list-for-safe-links)
@@ -91,41 +91,41 @@ Nadat u met veilige koppelingen een URL hebt geschreven, wordt de URL opnieuw we
 
 In de volgende lijst vindt u een beschrijving van de instellingen voor beleidsregels voor veilige koppelingen die van toepassing zijn op e-mailberichten:
 
-- **Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten**: schakelt veilige koppelingen in e-mailberichten in of uit. De aanbevolen waarde is **ingeschakeld**. U schakelt deze instelling in door de volgende acties uit te voeren.
+- **Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten** : schakelt veilige koppelingen in e-mailberichten in of uit. De aanbevolen waarde is **ingeschakeld** . U schakelt deze instelling in door de volgende acties uit te voeren.
 
   - Het scannen van veilige koppelingen is ingeschakeld in Outlook (C2R) voor Windows.
   - Url's worden herschreven en gebruikers gerouteerd via de bescherming van veilige koppelingen wanneer ze op Url's in berichten klikken.
   - Wanneer erop wordt geklikt, worden Url's gecontroleerd tegen een lijst met bekende schadelijke Url's en de [lijst ' de volgende Url's blokkeren '](#block-the-following-urls-list-for-safe-links).
   - Url's zonder een geldige reputatie worden asynchroon op de achtergrond.
 
-- Het **scannen van realtime-Url's toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden**: Hiermee kunt u koppelingen in realtime scannen, waaronder koppelingen in e-mailberichten die naar downloadbare inhoud verwijzen. De aanbevolen waarde is ingeschakeld.
+- Het **scannen van realtime-Url's toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden** : Hiermee kunt u koppelingen in realtime scannen, waaronder koppelingen in e-mailberichten die naar downloadbare inhoud verwijzen. De aanbevolen waarde is ingeschakeld.
 
-  - **Wacht totdat URL-Scan is voltooid voordat u het bericht aflevert**:
+  - **Wacht totdat URL-Scan is voltooid voordat u het bericht aflevert** :
 
     - Ingeschakeld: berichten die Url's bevatten, worden bewaard totdat de scan is voltooid. Berichten worden pas bezorgd nadat de Url's zijn bevestigd dat deze veilig zijn. Dit is de aanbevolen waarde.
     - Uitgeschakeld: als het scannen van URL'S niet kan worden voltooid, moet u het bericht toch afleveren.
 
-- **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden**: schakelt veilige koppelingen voor het scannen van berichten tussen interne afzenders en interne geadresseerden binnen dezelfde Exchange Online-organisatie in of uit. De aanbevolen waarde is ingeschakeld.
+- **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden** : schakelt veilige koppelingen voor het scannen van berichten tussen interne afzenders en interne geadresseerden binnen dezelfde Exchange Online-organisatie in of uit. De aanbevolen waarde is ingeschakeld.
 
-- **Gebruikers klikken niet bijhouden**: Hiermee schakelt u de optie voor het opslaan van veilige koppelingen in of uit op de url's die in e-mailberichten zijn geselecteerd. De aangeraden waarde is om deze instelling uit te sluiten (om de gebruikers klikken te volgen).
+- **Gebruikers klikken niet bijhouden** : Hiermee schakelt u de optie voor het opslaan van veilige koppelingen in of uit op de url's die in e-mailberichten zijn geselecteerd. De aangeraden waarde is om deze instelling uit te sluiten (om de gebruikers klikken te volgen).
 
   URL klik op controleren voor koppelingen in e-mailberichten die worden verzonden tussen interne afzenders en interne geadresseerden worden momenteel niet ondersteund.
 
-- **Gebruikers kunnen niet naar de oorspronkelijke URL klikken**: gebruikers kunnen door de [waarschuwingspagina](#warning-pages-from-safe-links) op de oorspronkelijke URL klikken. De aangeraden waarde is ingeschakeld.
+- **Gebruikers kunnen niet naar de oorspronkelijke URL klikken** : gebruikers kunnen door de [waarschuwingspagina](#warning-pages-from-safe-links) op de oorspronkelijke URL klikken. De aangeraden waarde is ingeschakeld.
 
-- **Herschrijf de volgende url's niet**en laat de url's doorlopen. Hiermee wordt een aangepaste lijst bijgehouden met veilige Url's die u niet nodig hebt om te scannen. De lijst is uniek voor elk beleid voor veilige koppelingen. Zie voor meer informatie over de lijst de volgende url's **niet opnieuw schrijven** de sectie [' de volgende url's niet herschrijven ' in het gedeelte beleidsregels voor veilige koppelingen](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies) verderop in dit artikel.
+- **Herschrijf de volgende url's niet** en laat de url's doorlopen. Hiermee wordt een aangepaste lijst bijgehouden met veilige Url's die u niet nodig hebt om te scannen. De lijst is uniek voor elk beleid voor veilige koppelingen. Zie voor meer informatie over de lijst de volgende url's **niet opnieuw schrijven** de sectie [' de volgende url's niet herschrijven ' in het gedeelte beleidsregels voor veilige koppelingen](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies) verderop in dit artikel.
 
 Zie [beleidsinstellingen voor veilige koppelingen](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings)voor meer informatie over de aanbevolen waarden voor standaard-en strikte beleidsinstellingen voor beleidsregels voor veilige koppelingen.
 
-- **Filters voor geadresseerden**: u moet de voorwaarden en uitzonderingen opgeven voor de ontvanger van het beleid. U kunt deze eigenschappen gebruiken voor voorwaarden en uitzonderingen:
+- **Filters voor geadresseerden** : u moet de voorwaarden en uitzonderingen opgeven voor de ontvanger van het beleid. U kunt deze eigenschappen gebruiken voor voorwaarden en uitzonderingen:
 
   - **De ontvanger is**
   - **Het domein van de ontvanger is**
   - **De ontvanger is lid van**
 
-  U kunt slechts één voorwaarde of een uitzondering gebruiken, maar de voorwaarde of uitzondering kan meerdere waarden bevatten. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
+  U kunt slechts één voorwaarde of een uitzondering gebruiken, maar de voorwaarde of uitzondering kan meerdere waarden bevatten. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_ ).
 
-- **Prioriteit**: als u meerdere beleidsregels maakt, kunt u de volgorde opgeven waarin ze worden toegepast. Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
+- **Prioriteit** : als u meerdere beleidsregels maakt, kunt u de volgorde opgeven waarin ze worden toegepast. Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
   Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
@@ -152,7 +152,7 @@ Met een hoog niveau gaat u als volgt te werk om de beveiliging van veilige koppe
 > [!IMPORTANT]
 > Met ingang van maart 2020 is deze functie in de preview-versie en is deze alleen beschikbaar voor leden van het Microsoft teams-programma voor de acceptatie van Microsoft teams. Voor informatie over de release planning raadpleegt u het [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams).
 
-U kunt de bescherming van veilige koppelingen voor Microsoft teams in-of uitschakelen in het beleid voor veilige koppelingen. Met name gebruikt u de instelling **de actie een actie voor onbekende of mogelijk schadelijke url's binnen Microsoft teams** . De aanbevolen waarde is **ingeschakeld**.
+U kunt de bescherming van veilige koppelingen voor Microsoft teams in-of uitschakelen in het beleid voor veilige koppelingen. Met name gebruikt u de instelling **de actie een actie voor onbekende of mogelijk schadelijke url's binnen Microsoft teams** . De aanbevolen waarde is **ingeschakeld** .
 
 De volgende instellingen in beleid voor veilige koppelingen die gelden voor koppelingen in e-mailberichten, gelden ook voor koppelingen in teams:
 
@@ -166,13 +166,13 @@ Nadat u de bescherming van veilige koppelingen voor Microsoft teams hebt ingesch
 
 - Als u op de koppeling hebt geklikt in een team gesprek, groepsgesprek of kanalen, wordt de waarschuwingspagina, zoals weergegeven in de onderstaande schermafbeelding, weergegeven in de standaardbrowser.
 - Als u op de koppeling hebt geklikt van het tabblad vastgemaakt, wordt de pagina waarschuwing weergegeven in de teaminterface op dat tabblad. De optie om de koppeling in een webbrowser te openen, is vanwege beveiligingsredenen uitgeschakeld.
-- Afhankelijk van hoe de instelling **gebruikers niet toestaan om te klikken op de oorspronkelijke URL** -instelling in het beleid is geconfigureerd, wordt de gebruiker of kan er niet doorgaan naar de oorspronkelijke URL (wordt**niet aanbevolen)** op de schermafbeelding). U wordt aangeraden de optie **niet toestaan dat gebruikers op de oorspronkelijke URL** -instelling klikken, zodat gebruikers niet kunnen klikken op de oorspronkelijke URL.
+- Afhankelijk van hoe de instelling **gebruikers niet toestaan om te klikken op de oorspronkelijke URL** -instelling in het beleid is geconfigureerd, wordt de gebruiker of kan er niet doorgaan naar de oorspronkelijke URL (wordt **niet aanbevolen)** op de schermafbeelding). U wordt aangeraden de optie **niet toestaan dat gebruikers op de oorspronkelijke URL** -instelling klikken, zodat gebruikers niet kunnen klikken op de oorspronkelijke URL.
 
 Als de gebruiker die de koppeling heeft verzonden, geen deel uitmaakt van een beleid voor veilige koppelingen waar de bescherming van teams is ingeschakeld, kan de gebruiker klikken op de oorspronkelijke URL op hun computer of apparaat.
 
 ![Een pagina met veilige koppelingen voor teams die een kwaadaardige koppeling melden.](../../media/tp-safe-links-for-teams-malicious.png)
 
-Als u op de knop **terug** op de waarschuwingspagina klikt, wordt de pagina gesloten (of kan dit leiden tot een lege pagina die gebruikers kunnen sluiten). Als u echter op de oorspronkelijke koppeling klikt, wordt de URL opnieuw gecontroleerd, zodat de pagina wordt weergegeven.
+Als u op de knop **terug** op de waarschuwingspagina klikt, krijgt de gebruiker de oorspronkelijke context of URL-locatie. Als u echter op de oorspronkelijke koppeling klikt, wordt de URL opnieuw gecontroleerd, zodat de pagina wordt weergegeven.
 
 ### <a name="how-safe-links-works-in-teams"></a>De werking van veilige koppelingen in teams
 
@@ -204,11 +204,11 @@ U configureert de bescherming voor veilige koppelingen voor Office 365-apps in d
 
 De volgende instellingen voor veilige koppelingen zijn beschikbaar voor Office 365-apps:
 
-- **Office 365-toepassingen**: Hiermee wordt de scan van veilige koppelingen in ondersteunde Office 365-apps in-of uitgeschakeld. De standaard en aanbevolen waarde is **ingeschakeld**.
+- **Office 365-toepassingen** : Hiermee wordt de scan van veilige koppelingen in ondersteunde Office 365-apps in-of uitgeschakeld. De standaard en aanbevolen waarde is **ingeschakeld** .
 
-- **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken**: de optie voor het opslaan van veilige koppelingen op de bureaublad versies van Word, Excel, PowerPoint en Visio wordt uitgeschakeld. De aanbevolen waarde is **uitgeschakeld**, wat betekent dat de gebruiker klikt op bijgehouden.
+- **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** : de optie voor het opslaan van veilige koppelingen op de bureaublad versies van Word, Excel, PowerPoint en Visio wordt uitgeschakeld. De aanbevolen waarde is **uitgeschakeld** , wat betekent dat de gebruiker klikt op bijgehouden.
 
-- **Laat gebruikers niet via veilige koppelingen naar de oorspronkelijke URL klikken**: Hiermee kunt u gebruikers niet via de [waarschuwingspagina](#warning-pages-from-safe-links) doorlopen in de bureaubladversie van Word, Excel, PowerPoint en Visio. De standaard en aanbevolen waarde is **ingeschakeld**.
+- **Laat gebruikers niet via veilige koppelingen naar de oorspronkelijke URL klikken** : Hiermee kunt u gebruikers niet via de [waarschuwingspagina](#warning-pages-from-safe-links) doorlopen in de bureaubladversie van Word, Excel, PowerPoint en Visio. De standaard en aanbevolen waarde is **ingeschakeld** .
 
 Zie [beveiliging van veilige koppelingen voor office 365-apps configureren](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center)als u de instellingen voor veilige koppelingen voor Office 365-Apps wilt configureren.
 
@@ -228,7 +228,7 @@ Met een hoog niveau gaat u als volgt te werk om de beveiliging van veilige koppe
 
    - Als de URL verwijst naar een website die is ingesteld als schadelijk, wordt de pagina met een [kwaadaardige website](#malicious-website-warning) (of een andere waarschuwingspagina) geopend.
 
-   - Als de URL verwijst naar een downloadbaar bestand en het beleid voor veilige koppelingen dat van toepassing is op de gebruiker, is geconfigureerd voor het scannen van koppelingen naar downloadbare inhoud (**toepassen op de realtime-URL scannen voor verdachte koppelingen en koppelingen naar bestanden**), is het downloadbare bestand geselecteerd.
+   - Als de URL verwijst naar een downloadbaar bestand en het beleid voor veilige koppelingen dat van toepassing is op de gebruiker, is geconfigureerd voor het scannen van koppelingen naar downloadbare inhoud ( **toepassen op de realtime-URL scannen voor verdachte koppelingen en koppelingen naar bestanden** ), is het downloadbare bestand geselecteerd.
 
    - Als de URL als veilig wordt beschouwd, wordt de gebruiker gekeken naar de website.
 
@@ -249,7 +249,7 @@ Wanneer een gebruiker in een actief beleid voor veilige koppelingen op een geblo
 
 U configureert de lijst met Url's in de algemene instellingen voor veilige koppelingen. Zie [de lijst ' de volgende Url's blokkeren ' configureren](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)voor instructies.
 
-**Opmerkingen**:
+**Opmerkingen** :
 
 - Zie [Url's beheren in de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)voor een daadwerkelijk universele lijst met url's die overal worden geblokkeerd.
 
@@ -272,7 +272,7 @@ Zie de volgende tabel voor voorbeelden van de waarden die u kunt invoeren en de 
 
 ****
 
-|Value|Resultaat|
+|Waarde|Resultaat|
 |---|---|
 |`contoso.com` <br/> of <br/> `*contoso.com*`|Blokkeert het domein, subdomeinen en paden. Bijvoorbeeld,, `https://www.contoso.com` `https://sub.contoso.com` en `https://contoso.com/abc` worden geblokkeerd.|
 |`https://contoso.com/a`|Blokkeert `https://contoso.com/a` maar geen extra subpad, zoals `https://contoso.com/a/b` .|
@@ -289,7 +289,7 @@ Elk beleid voor veilige koppelingen bevat een lijst met **de volgende url's niet
 
 Zie [beleidsregels voor veilige koppelingen maken](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) of [beleidsregels voor veilige koppelingen wijzigen](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)voor informatie over het toevoegen van vermeldingen aan de lijst in nieuwe of bestaande beleidsregels voor veilige koppelingen.
 
-**Opmerkingen**:
+**Opmerkingen** :
 
 - De volgende clients herkennen de **volgende url's niet** opnieuw te schrijven in het beleid voor veilige koppelingen. Gebruikers die deel uitmaken van de policies, kunnen de Url's blokkeren op basis van de resultaten van het scannen van veilige koppelingen in deze clients:
 
@@ -310,7 +310,7 @@ Zie de volgende tabel voor voorbeelden van de waarden die u kunt invoeren en de 
 
 ****
 
-|Value|Resultaat|
+|Waarde|Resultaat|
 |---|---|
 |`contoso.com`|Toegang tot `https://contoso.com` subdomeinen of paden is toegestaan.|
 |`*.contoso.com/*`|Hiermee kunt u toegang krijgen tot een domein, subdomeinen en paden (bijvoorbeeld,,, `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` of `https://www.contoso.com/a` ). <br/><br/> Deze vermelding is inherent `*contoso.com*` aan het feit omdat het niet mogelijk is frauduleuze websites, zoals `https://www.falsecontoso.com` of `https://www.false.contoso.completelyfalse.com`|

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van de portal voor uitnodigingen van de beveiligings & nalevings centrum voor het verzenden van verdachte e-mailberichten, verdachte e-mailberichten, spam en andere mogelijk schadelijke berichten, Url's en bestanden aan Microsoft voor het scannen.
-ms.openlocfilehash: 4bb0cd95daecfcba18ca1560e4c4780455b40157
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 5d4123acaf3c9891f9aeb8028173f3071c260935
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446717"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806758"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.
 
@@ -52,17 +52,17 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Verdachte inhoud rapporteren aan Microsoft
 
-1. Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions**, ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
+1. Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions** , ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening** .
 
 2. Gebruik de nieuwe flyout voor **indienen** die wordt weergegeven om het bericht, de URL of de bijlage te verzenden, zoals beschreven in de volgende secties.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Een dubieuze e-mail naar Microsoft verzenden
 
-1. Selecteer in de sectie **object type** de optie **e-mail**. Gebruik een van de volgende opties in de sectie **opmaak van indiening** .
+1. Selecteer in de sectie **object type** de optie **e-mail** . Gebruik een van de volgende opties in de sectie **opmaak van indiening** .
 
-   - **Netwerkbericht-id**: dit is een GUID-waarde die beschikbaar is in de header **X-MS-Exchange-Organization-Network-Message-ID** in het bericht.
+   - **Netwerkbericht-id** : dit is een GUID-waarde die beschikbaar is in de header **X-MS-Exchange-Organization-Network-Message-ID** in het bericht.
 
-   - **Bestand**: Klik op **bestand kiezen**. In het dialoogvenster dat wordt geopend, zoekt en selecteert u het bestand. eml of. msg en klikt u vervolgens op **openen**.
+   - **Bestand** : Klik op **bestand kiezen** . In het dialoogvenster dat wordt geopend, zoekt en selecteert u het bestand. eml of. msg en klikt u vervolgens op **openen** .
 
 2. Geef in de sectie **geadresseerden** een of meer geadresseerden op waarvoor u een beleid wilt uitvoeren. Met de beleidscontrole wordt bepaald of het e-mailbericht dat wordt genegeerd vanwege het beleid van de gebruiker of organisatie.
 
@@ -70,7 +70,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
    - **Mag niet zijn geblokkeerd**
 
-   - **Is geblokkeerd**: Selecteer **spam**, **phishing**of **malware**. Als u niet zeker weet of u niet weet, kunt u het beste de beste beslissing gebruiken.
+   - **Is geblokkeerd** : Selecteer **spam** , **phishing** of **malware** . Als u niet zeker weet of u niet weet, kunt u het beste de beste beslissing gebruiken.
 
 4. Als het filter werd genegeerd vanwege beleidsregels bij het verzenden, ziet u informatie over dat beleid.
 
@@ -82,13 +82,13 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Een verdachte URL naar Microsoft verzenden
 
-1. Selecteer in de sectie **object type** de optie **URL**. Voer in het vak dat wordt weergegeven, de volledige URL in (bijvoorbeeld `https://www.fabrikam.com/marketing.html` ).
+1. Selecteer in de sectie **object type** de optie **URL** . Voer in het vak dat wordt weergegeven, de volledige URL in (bijvoorbeeld `https://www.fabrikam.com/marketing.html` ).
 
 2. Selecteer een van de volgende opties in de sectie **reden voor indiening** .
 
    - **Mag niet zijn geblokkeerd**
 
-   - **Moet zijn geblokkeerd**: Selecteer **phishing** of **malware**.
+   - **Moet zijn geblokkeerd** : Selecteer **phishing** of **malware** .
 
 3. Wanneer u klaar bent, klikt u op de knop **verzenden** .
 
@@ -96,15 +96,15 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Een verdacht bestand bij Microsoft indienen
 
-1. Selecteer in de sectie **object type** de optie **bijlage**.
+1. Selecteer in de sectie **object type** de optie **bijlage** .
 
-2. Klik op **bestand kiezen**. In het dialoogvenster dat wordt weergegeven, zoekt en selecteert u het bestand en klikt u vervolgens op **openen**.
+2. Klik op **bestand kiezen** . In het dialoogvenster dat wordt weergegeven, zoekt en selecteert u het bestand en klikt u vervolgens op **openen** .
 
 3. Selecteer een van de volgende opties in de sectie **reden voor indiening** .
 
    - **Mag niet zijn geblokkeerd**
 
-   - Is **geblokkeerd**: **malware** is de enige keuze en wordt automatisch geselecteerd...
+   - Is **geblokkeerd** : **malware** is de enige keuze en wordt automatisch geselecteerd...
 
 4. Wanneer u klaar bent, klikt u op de knop **verzenden** .
 
@@ -112,7 +112,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ## <a name="view-admin-submissions"></a>Beheerders inzendingen weergeven
 
-Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions**, ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
+Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions** , ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening** .
 
 Boven aan de pagina kunt u een begindatum, een einddatum en (standaard) filteren met **id voor indienen** (een GUID-waarde die is toegewezen aan elke verzending) door een waarde in te voeren in het vak en op de ![ knop Vernieuwen te klikken ](../../media/scc-quarantine-refresh.png) . U kunt meerdere waarden opgeven, gescheiden door komma's.
 
@@ -126,9 +126,9 @@ Als u de filtercriteria wilt wijzigen, klikt u op de knop voor de **leverings-id
 
 ![Filter opties voor beheerders inzendingen](../../media/admin-submission-email-filter-options.png)
 
-Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren** en selecteert u gegevens of **tabellen**van de **grafiek** . Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
+Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren** en selecteert u gegevens of **tabellen** van de **grafiek** . Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
 
-Onder de grafiek bevinden zich drie tabbladen: **e-mail** (standaard), **URL**en **bijlage**.
+Onder de grafiek bevinden zich drie tabbladen: **e-mail** (standaard), **URL** en **bijlage** .
 
 ### <a name="view-admin-email-submissions"></a>E-mail inzendingen van de beheerder weergeven
 
@@ -137,7 +137,7 @@ Selecteer het tabblad **e-mail** .
 U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
 - **Datum**
-- **Ingediende id**: een GUID-waarde die is toegewezen aan elke verzending.
+- **Ingediende id** : een GUID-waarde die is toegewezen aan elke verzending.
 - **Verzonden door**<sup>\*</sup>
 - **Onderwerp**<sup>\*</sup>
 - **Afzender**
@@ -184,9 +184,9 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 
 Als u de [invoegtoepassing bericht rapporteren](enable-the-report-message-add-in.md)hebt geïmplementeerd of personen de [ingebouwde rapporten gebruiken in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), kunt u zien wat gebruikers rapporteren op het tabblad **gebruikers** namen.
 
-1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> **Submissions**.
+1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> **Submissions** .
 
-2. Selecteer het tabblad **gebruikers submissies** en klik vervolgens op **nieuwe verzending**.
+2. Selecteer het tabblad **gebruikers submissies** en klik vervolgens op **nieuwe verzending** .
 
 U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
@@ -211,13 +211,13 @@ Als u de filtercriteria wilt wijzigen, klikt u op de knop **afzender** en kiest 
 
 ![Filter opties voor gebruikers inzendingen](../../media/user-submissions-filter-options.png)
 
-Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren** en selecteert u gegevens of **tabellen**van de **grafiek** . Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
+Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren** en selecteert u gegevens of **tabellen** van de **grafiek** . Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
 
 ## <a name="view-user-submissions-to-the-custom-mailbox"></a>Gebruikers inzendingen weergeven voor het aangepaste Postvak
 
 **Als** u [een aangepast postvak hebt geconfigureerd](user-submission.md) om door de gebruiker gerapporteerde berichten te ontvangen, kunt u berichten weergeven en ook verzenden die zijn bezorgd in het rapportage postvak.
 
-1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> **Submissions**.
+1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> **Submissions** .
 
 2. Selecteer het tabblad **aangepast postvak** .
 
@@ -232,7 +232,11 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 
 Boven aan de pagina kunt u een begindatum, een einddatum en u kunt filteren op **ingediend** door een waarde in te voeren in het vak en op de ![ knop Vernieuwen te klikken ](../../media/scc-quarantine-refresh.png) . U kunt meerdere waarden opgeven, gescheiden door komma's.
 
-Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren** en selecteert u gegevens of **tabellen**van de **grafiek** . Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
+Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren** en selecteert u gegevens of **tabellen** van de **grafiek** . Sla het CSV-bestand op in het dialoogvenster dat wordt weergegeven.
+
+## <a name="undo-user-submissions"></a>Gebruikers uitchecken ongedaan maken
+
+Wanneer een gebruiker een verdacht e-mailbericht voor het aangepaste postvak heeft ingediend, beschikt de gebruiker en beheerder niet over de optie om de verzending ongedaan te maken. Als de gebruiker de e-mail wil herstellen, is deze beschikbaar voor herstel in de mappen Verwijderde items of ongewenste E-mail. 
 
 ### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>Berichten indienen bij Microsoft vanuit het aangepaste Postvak
 

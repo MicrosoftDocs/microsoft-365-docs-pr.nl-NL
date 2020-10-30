@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Wat zijn de aanbevolen procedures voor beveiligingsinstellingen van Exchange Online Protection (EOP) en Advanced Threat Protection (ATP)? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Advanced Threat Protection (ATP) gebruikt?
-ms.openlocfilehash: fd2d680e093289aa5fc2dbcac127e35caf50098b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 4afd662be28c047d5f738dc0f70f0254e7a7a83f
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430655"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806770"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging
 
@@ -30,11 +30,12 @@ ms.locfileid: "48430655"
 
 **Exchange Online Protection (EOP)** is de kern van beveiliging voor microsoft 365-abonnementen en helpt voorkomen dat ongewenste e-mailberichten in de Postvak in van uw werknemers terechtkomen. Maar met nieuwe, nieuwe, nog geavanceerdere aanvallen die elke dag zijn verbeterd, zijn er vaak betere bescherming nodig. **Office 365 Advanced Threat Protection (ATP)** ATP abonnement 1 of ATP abonnement 2 bevat extra functies die beheerders meer lagen bieden voor beveiliging, controle en onderzoek.
 
-Hoewel we beveiligingsbeheerders kunnen helpen bij het aanpassen van hun beveiligingsinstellingen, zijn er twee beveiligingsniveaus in EOP en Office 365 ATP voor het eerst bedoeld: **Standard** en **strict**. De omgeving van elke klant en de behoeften zijn niet alleen van toepassing, maar we geloven dat ze in de meeste gevallen het postvak in van uw werknemers kunnen bereiken.
+Hoewel we beveiligingsbeheerders kunnen helpen bij het aanpassen van hun beveiligingsinstellingen, zijn er twee beveiligingsniveaus in EOP en Office 365 ATP voor het eerst bedoeld: **Standard** en **strict** . De omgeving van elke klant en de behoeften zijn niet alleen van toepassing, maar we geloven dat ze in de meeste gevallen het postvak in van uw werknemers kunnen bereiken.
 
 Als u de standaard-of strikte instellingen automatisch wilt toepassen op gebruikers, raadpleegt u [vooraf ingesteld beveiligingsbeleid in EOP en Office 365 ATP](preset-security-policies.md).
 
-**Opmerking**: de regel voor ongewenste e-mail moet worden ingeschakeld voor postvakken, zodat de juiste filters correct werken. Het is standaard ingeschakeld, maar u moet controleren of het filteren niet lijkt te werken. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
+> [!NOTE]
+> De regel voor ongewenste e-mail moet worden ingeschakeld voor postvakken, zodat de filters goed werken. Het is standaard ingeschakeld, maar u moet controleren of het filteren niet lijkt te werken. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
 In dit artikel worden de standaardinstellingen beschreven en worden ook de aanbevolen standaard-en strikte instellingen gebruikt om uw gebruikers te helpen beschermen.
 
@@ -62,7 +63,7 @@ Zie [Antispambeleid in Office 365 configureren](configure-your-spam-filter-polic
 |Bewaarperiode voor quarantaine <br/><br/> _QuarantineRetentionPeriod_|15 dagen|30 dagen|30 dagen||
 |**Veiligheids tips** <br/><br/> _InlineSafetyTipsEnabled_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |Toegestane afzenders <br/><br/> _AllowedSenders_|Geen|Geen|Geen||
-|Toegestaan domein van afzender <br/><br/> _AllowedSenderDomains_|Geen|Geen|Geen|Het is een goed idee om domeinen toe te voegen die u aan de lijst met toegestane afzenders hebt toegevoegd (_geaccepteerde domeinen_). Hackers kunnen u e-mailberichten sturen met een andere filter. <br/><br/> Gebruik [spoof Intelligence](learn-about-spoof-intelligence.md) in het beveiligings & compliance op de pagina **anti spam instellingen** om alle afzenders te bekijken die e-mailadressen van de afzender in de e-mail domeinen van uw organisatie of e-mailadressen van de afzender in de e-mail domeinen van uw organisatie spoofen.|
+|Toegestaan domein van afzender <br/><br/> _AllowedSenderDomains_|Geen|Geen|Geen|Het toevoegen van domeinen aan de lijst met toegestane afzenders is een zeer slecht idee. Hackers kunnen u e-mailberichten sturen met een andere filter. <br/><br/> Gebruik [spoof Intelligence](learn-about-spoof-intelligence.md) in het beveiligings & compliance op de pagina **anti spam instellingen** om alle afzenders te bekijken die e-mailadressen van de afzender in de e-mail domeinen van uw organisatie of e-mailadressen van de afzender in de e-mail domeinen van uw organisatie spoofen.|
 |Geblokkeerde afzenders <br/><br/> _BlockedSenders_|Geen|Geen|Geen||
 |Geblokkeerde afzender domeinen <br/><br/> _BlockedSenderDomains_|Geen|Geen|Geen||
 |**Spam meldingen voor eindgebruikers inschakelen** <br/><br/> _EnableEndUserSpamNotifications_|Uitgeschakeld <br/><br/> `$false`|Ingeschakeld <br/><br/> `$true`|Ingeschakeld <br/><br/> `$true`||
@@ -80,21 +81,21 @@ U wordt aangeraden deze ASF-instellingen voor **standaard** -en **strikte** nive
 
 |Naam van beveiligingsfunctie|Opmerking|
 |---|---|
-|**Afbeeldingskoppelingen naar externe sites** (_IncreaseScoreWithImageLinks_)||
-|Het **numerieke IP-adres in URL** (_IncreaseScoreWithNumericIps_)||
-|**Ul redirect to other Port** (_IncreaseScoreWithRedirectToOtherPort_)||
-|**URL naar. info-of. info-websites** (_IncreaseScoreWithBizOrInfoUrls_)||
-|**Lege berichten** (_MarkAsSpamEmptyMessages_)||
-|**JavaScript of VBScript in HTML** (_MarkAsSpamJavaScriptInHtml_)||
-|**Tags van het kader of IFRAME in HTML** (_MarkAsSpamFramesInHtml_)||
-|**Object-Tags in HTML** (_MarkAsSpamObjectTagsInHtml_)||
-|**Tags insluiten in HTML** (_MarkAsSpamEmbedTagsInHtml_)||
-|**Formulier Tags in HTML** (_MarkAsSpamFormTagsInHtml_)||
-|**Web bugs in HTML** (_MarkAsSpamWebBugsInHtml_)||
-|**Gevoelige woordenlijst toepassen** (_MarkAsSpamSensitiveWordList_)||
-|**SPF-record: vast failed** (_MarkAsSpamSpfRecordHardFail_)||
-|**Filteren van voorwaardelijke Sender-ID: harde fout** (_MarkAsSpamFromAddressAuthFail_)||
-|**Ndr's Backscatter** (_MarkAsSpamNdrBackscatter_)||
+|**Afbeeldingskoppelingen naar externe sites** ( _IncreaseScoreWithImageLinks_ )||
+|Het **numerieke IP-adres in URL** ( _IncreaseScoreWithNumericIps_ )||
+|**Ul redirect to other Port** ( _IncreaseScoreWithRedirectToOtherPort_ )||
+|**URL naar. info-of. info-websites** ( _IncreaseScoreWithBizOrInfoUrls_ )||
+|**Lege berichten** ( _MarkAsSpamEmptyMessages_ )||
+|**JavaScript of VBScript in HTML** ( _MarkAsSpamJavaScriptInHtml_ )||
+|**Tags van het kader of IFRAME in HTML** ( _MarkAsSpamFramesInHtml_ )||
+|**Object-Tags in HTML** ( _MarkAsSpamObjectTagsInHtml_ )||
+|**Tags insluiten in HTML** ( _MarkAsSpamEmbedTagsInHtml_ )||
+|**Formulier Tags in HTML** ( _MarkAsSpamFormTagsInHtml_ )||
+|**Web bugs in HTML** ( _MarkAsSpamWebBugsInHtml_ )||
+|**Gevoelige woordenlijst toepassen** ( _MarkAsSpamSensitiveWordList_ )||
+|**SPF-record: vast failed** ( _MarkAsSpamSpfRecordHardFail_ )||
+|**Filteren van voorwaardelijke Sender-ID: harde fout** ( _MarkAsSpamFromAddressAuthFail_ )||
+|**Ndr's Backscatter** ( _MarkAsSpamNdrBackscatter_ )||
 |
 
 #### <a name="eop-outbound-spam-policy-settings"></a>EOP uitgaande spam beleidsinstellingen
@@ -231,7 +232,8 @@ Zie [beleid voor veilige koppelingen instellen in Office 365 ATP](set-up-atp-saf
 
 In PowerShell gebruikt u de cmdlets [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) en [set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
 
-**Opmerking**: zoals eerder is beschreven, is er geen standaardbeleid voor veilige koppelingen. De waarden in de standaardkolom zijn de standaardwaarden in nieuwe beleidsregels voor veilige koppelingen die u maakt.
+> [!NOTE]
+> Zoals eerder is beschreven, is er geen standaardbeleid voor veilige koppelingen. De waarden in de standaardkolom zijn de standaardwaarden in nieuwe beleidsregels voor veilige koppelingen die u maakt.
 
 ****
 
@@ -260,7 +262,7 @@ In PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen** <br/><br/> _EnableATPForSPOTeamsODB_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
+|**ATP inschakelen voor SharePoint, OneDrive en Microsoft teams** <br/><br/> _EnableATPForSPOTeamsODB_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
 |**Veilige documenten voor Office-clients inschakelen**<bt/><br/> _EnableSafeDocs_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Deze instelling is alleen beschikbaar in de beveiligings licenties voor Microsoft 365 E5 of Microsoft 365 E5. Zie voor meer informatie [veilige documenten in Office 365 Advanced Threat Protection](safe-docs.md).|
 |**Toestaan dat personen kunnen klikken via de beveiligde weergave, zelfs als het bestand door veilige documenten wordt geïdentificeerd als schadelijk**<bt/><br/> _AllowSafeDocsOpen_|Uit <br/><br/> `$false`|Uit <br/><br/> `$false`|Deze instelling is gerelateerd aan veilige documenten.|
 |
@@ -271,7 +273,8 @@ Zie [beleid voor veilige bijlagen instellen in Office 365 ATP](set-up-atp-safe-a
 
 In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) en [set-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
 
-**Opmerking**: zoals eerder is beschreven, is er geen standaardbeleid voor veilige bijlagen. De waarden in de standaardkolom zijn de standaardwaarden in nieuwe beleidsregels voor veilige bijlagen die u maakt.
+> [!NOTE]
+> Zoals eerder is beschreven, is er geen standaardbeleid voor veilige bijlagen. De waarden in de standaardkolom zijn de standaardwaarden in nieuwe beleidsregels voor veilige bijlagen die u maakt.
 
 ****
 
@@ -284,10 +287,10 @@ In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.micr
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- Bent u op zoek naar aanbevolen procedures voor **Exchange-e-mail stroom regels (ook wel een zogenaamde transportregels genoemd**)? Zie [Aanbevolen procedures voor het configureren van e-mail stroom regels in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices).
+- Bent u op zoek naar aanbevolen procedures voor **Exchange-e-mail stroom regels (ook wel een zogenaamde transportregels genoemd** )? Zie [Aanbevolen procedures voor het configureren van e-mail stroom regels in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices).
 
 - Beheerders en gebruikers kunnen fout-positieven (goede e-mailberichten die als beschadigd zijn gemarkeerd) en foutieve negatieven (onjuiste e-mail toegestaan) indienen bij Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
 - Gebruik deze koppelingen voor informatie over het **instellen** van uw [EOP-service](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)en het **configureren** van [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). Vergeet de handige aanwijzingen niet te zien in '[beveiliging tegen bedreigingen in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'.
 
-- De **beveiligings basislijnen voor Windows** vindt u [hier](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) voor de opties voor groepsbeleidsobjecten/on-premises en [hier](https://docs.microsoft.com/intune/protect/security-baselines) voor beveiliging op basis van intune. Ten slotte is er een vergelijking tussen Microsoft Defender Advanced Threat Protection (ATP) en Microsoft intune Security-basis [lijnen beschikbaar.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)
+- In dit onderwerp vindt u de **beveiligings basislijnen voor Windows** : [waar kan ik de basislijnen voor beveiliging vinden? voor de](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) opties voor GPO en on-premises, en [beveiligings basislijnen gebruiken om Windows 10-apparaten te configureren in intune](https://docs.microsoft.com/intune/protect/security-baselines) voor intune-based beveiliging. Ten slotte kunt u een vergelijking tussen de Microsoft Defender Advanced Threat Protection (ATP) en Microsoft intune-beveiligings lijnen voor Microsoft intune-beveiligings lijnen en [de basislijnen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)van Microsoft intune-beveiliging vergelijken.

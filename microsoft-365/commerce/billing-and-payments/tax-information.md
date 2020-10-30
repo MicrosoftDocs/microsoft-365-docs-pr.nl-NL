@@ -20,12 +20,12 @@ description: "Bekijk hoeveel belasting u betaalt voor uw abonnement op Microsoft
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: d3d1bc1239cb99da33f776e603356ccae95a2353
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: d3654dd307e15e58acdd06277cf7338da537e5c6
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464094"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806598"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
@@ -99,21 +99,21 @@ Bedrijven in de volgende landen kunnen hun BTW-nummer of een plaatselijk equival
 
 ## <a name="europe-the-middle-east-and-africa-emea"></a>Europa, het Midden-Oosten en Afrika (EMEA)
 
-Wanneer u Microsoft 365-Services aanschaft in de Europese Unie, is deze aankoop onderhevig aan Value-Added BTW (BTW).
+Wanneer u Microsoft 365-Services aanschaft in de EMEA-regio, kon deze aankoop Value-Added BTW onderhevig zijn.
   
-- Als u zich in een lid staat van de Europese Unie bevindt en u uw geldige lokale BTW-nummer niet opgeeft, wordt Microsoft Ireland Operations Ltd. het huidige lokale BTW-tarief toepassen op basis van het Factuurland waarnaar uw account is ingesteld.
+- Als u zich bevindt in een lidstaat van de Europese Unie, Armenië, Belarus, Noorwegen, Turkije of Verenigde Arabische Emiraten, en u uw geldige lokale BTW-nummer niet opgeeft, wordt het huidige lokale BTW-tarief toegepast op basis van het Factuurland waarnaar uw account is ingesteld.
 
-- Als u in Zwitserland of Liechtenstein bent gevestigd, wordt het huidige Zwitserse btw-tarief toegepast, ongeacht of u uw btw-nummer opgeeft of niet.
+- Als u zich bevindt in Liechtenstein, Rusland, Servië, Zuid-Afrika of Zwitserland, wordt de BTW toegepast, ongeacht of u uw BTW-nummer opgeeft of niet.
 
-- Over het algemeen, indien u in een EMEA-land buiten de Europese Unie en Zwitserland/Liechtenstein betaalt, wordt er geen BTW geheven door Microsoft Ireland Operations Ltd.
-
-- Voordat we uw btw-nummer kunnen valideren, moet het beschikbaar zijn voor verificatie in het intracommunautaire btw-informatie-uitwisselingssysteem (VIES). Neem contact op met uw belastingdienst als uw BTW-nummer niet kan worden gecontroleerd.
+- Voor Europese klanten moet het BTW-nummer in het BTW-systeem (INTRACOMM. Exchange System) zijn voor verificatie voordat we uw BTW-nummer kunnen valideren. Neem contact op met uw belastingdienst als uw BTW-nummer niet kan worden gecontroleerd.
 
 U komt mogelijk in aanmerking voor BTW-tarief:
   
 - **U bevindt zich in een lidstaat van de Europese Unie, buiten Ierland:** U kunt uw geldige lokale BTW-nummer geven. Dit kan Microsoft Ireland Operations Ltd. BTW-tarief voor de transactie. Misschien hebt u echter een lokale BTW-boekings verplichting. Als u problemen ondervindt, neemt u contact op met uw belastingadviseur. Voor instructies raadpleegt [u uw BTW-nummer toevoegen](#add-your-vat-id).
 
 - **U bent in Ierland en hebt de toepasselijke geldig BTW-vrijstellings certificering:** Microsoft Ireland Operations Ltd. mei mag de transactie van BTW uitsluiten. Als u dat niet doet, past Microsoft Ireland Operations Ltd. het huidige Ierse BTW-tarief toe, ongeacht of u een BTW-nummer opgeeft of niet.
+
+- **U bent in Armenië, Belarus, Noorwegen, Turkije of Verenigde Arabische Emiraten:** U kunt uw lokale BTW-nummer geven. Dit geeft recht op Microsoft Ireland Operations Ltd. voor BTW met een tarief voor de transactie. Mogelijk hebt u een lokale BTW-boekings verplichting, dus neem contact op met uw belastingadviseur als u problemen hebt. Voor instructies raadpleegt [u uw BTW-nummer toevoegen](#add-your-vat-id).
 
 ## <a name="asia-pacific-countries-apac"></a>Azië en Stille Oceaan (APAC)
 
@@ -137,9 +137,9 @@ Als uw factuur wordt uitgevoerd door Microsoft Corporation ([Zie uw factuur](vie
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 2. Selecteer op het tabblad **Products** het abonnement dat u wilt bijwerken.
-3. Selecteer op de pagina Details van abonnement in de sectie **adres voor service gebruik** de optie **adres voor service gebruik bewerken**.
-4. Voer in het deelvenster **uw adres voor service gebruik wijzigen** uw BTW-nummer in het vak **BTW-nummer** in, inclusief het voorvoegsel, en zonder spaties.
-5. Kies **Opslaan**.
+3. Selecteer op de pagina Details van abonnement in de sectie **adres voor service gebruik** de optie **adres voor service gebruik bewerken** .
+4. Voer in het deelvenster **adres voor service gebruik bewerken** , in het vak **BTW-nummer** , uw BTW-nummer in, inclusief het voorvoegsel, en zonder spaties.
+5. Kies **Opslaan** .
 
 ## <a name="how-taxes-are-calculated"></a>Hoe BTW wordt berekend
 

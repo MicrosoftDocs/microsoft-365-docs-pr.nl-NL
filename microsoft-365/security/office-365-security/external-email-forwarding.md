@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: dff2ea4e144f8f8fcc0f42732141e110effe7e9e
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: 59e2c938c70dd8e3060fd85d084acbe8f79856ad
+ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774091"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48806636"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Automatische doorsturen van e-mail instellen in Microsoft 365
 
@@ -31,7 +31,7 @@ De volgende typen automatisch doorsturen zijn beschikbaar in Microsoft 365:
 
 - Gebruikers kunnen [regels voor Postvak in](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) instellen om berichten automatisch door te sturen naar externe afzenders (een onopzettelijke of als gevolg van een gemanipuleerd account).
 
-- Beheerders kunnen [Postvak doorsturen](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (ook wel SMTP-doorsturen genoemd) configureren om berichten automatisch door te sturen naar externe geadresseerden.
+- Beheerders kunnen [Postvak doorsturen](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (ook wel _SMTP-doorsturen_ genoemd) configureren om berichten automatisch door te sturen naar externe geadresseerden.
 
 U kunt uitgaande spamfilter beleidsregels gebruiken om automatisch doorsturen naar externe geadresseerden te beheren. Drie instellingen zijn beschikbaar:
 
@@ -45,9 +45,9 @@ Zie [uitgaande spamfilters in EOP](configure-the-outbound-spam-policy.md)voor in
 
 > [!NOTE]
 > 
-> - Als u automatisch doorsturen uitschakelt, worden ook regels voor het postvak in uitgeschakeld waarmee berichten naar externe adressen worden doorgestuurd.
+> - Als u automatisch doorsturen uitschakelt, worden regels voor Postvak in (gebruikers) of postvak doorsturen (beheerders) uitgeschakeld waarmee berichten naar externe adressen worden doorgestuurd.
 > 
->   In Office 365 is automatisch extern doorsturen niet toegestaan door regels voor Postvak in of door de Postvak configuratie, wat een veilig standaardbeleid biedt. De beheerder kan deze instellingen echter wijzigen voor alle gebruikers in de organisatie. Maak een [uitgaand spam beleid](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true#use-the-security--compliance-center-to-create-outbound-spam-policies) en wijzig de sectie automatisch doorsturen om automatisch e-mailberichten door gebruikers naar externe afzenders te sturen. Dit kan later worden toegepast op de interne afzenders waarop het beleid van toepassing is. Het doorsturen van berichten tussen interne gebruikers wordt niet beïnvloed door een wijziging.
+> - Het automatisch doorsturen van berichten tussen interne gebruikers heeft geen invloed op de instellingen in het filter beleid voor uitgaande spam.
 > 
 > - U vindt informatie over gebruikers die berichten automatisch doorsturen naar externe geadresseerden in het [rapport met automatisch doorgestuurde berichten](mfi-auto-forwarded-messages-report.md).
 
