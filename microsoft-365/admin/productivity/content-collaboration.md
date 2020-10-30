@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Details van de samenwerking van inhoud-personen met productiviteits Score.
-ms.openlocfilehash: 6e8f3113d2f35e6af268e4a8088bef34f529a676
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 87f89af527e2a1b843a9b70fbef590b69d920f7d
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795379"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804595"
 ---
 # <a name="content-collaboration--people-experiences"></a>Samenwerken aan inhoud: mensen ervaring
 
@@ -202,4 +201,13 @@ De volgende kolommen worden weergegeven in de tabel op gebruikersniveau:
 - **Extern gedeelde bestanden:** Het aantal online bestanden op OneDrive of SharePoint dat de persoon heeft gedeeld met andere personen van buiten uw organisatie in de afgelopen 28 dagen.
 - **Bijlage met Geee bestandsbijlagen:** Booleaanse waarde die aangeeft of de persoon een e-mailbericht heeft gestuurd met bestanden (niet op OneDrive of SharePoint) als bijlagen in de afgelopen 30 dagen.
 - **Online bestandsbijlagen voor e-mail:** Booleaanse waarde die aangeeft of de persoon met een koppeling naar online bestanden (OneDrive of SharePoint) een e-mailbericht heeft gestuurd met koppelingen naar online bestanden (OneDrive of SharePoint).
-- **Ingesloten link naar online bestand:** Booleaanse waarde die aangeeft of de persoon e-mailbericht heeft gestuurd met koppelingen naar online bestanden (OneDrive of SharePoint) die zijn ingesloten in de hoofdtekst van het e-mailbericht in de afgelopen 30 dagen
+- **Ingesloten link naar online bestand:** Booleaanse waarde die aangeeft of de persoon e-mailbericht heeft gestuurd met koppelingen naar online bestanden (OneDrive of SharePoint) die zijn ingesloten in de hoofdtekst van het e-mailbericht in de afgelopen 30 dagen.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Status van Microsoft 365-apps-technologie ervaringen](apps-health.md) (artikel) \
+[Communicatie: mensen ervaring](communication.md) (artikel) \
+[Vergaderingen: mensen ervaring](meetings.md) (artikel) \
+[Mobiliteit: mensen ervaring](mobility.md) (artikel) \
+[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel) \
+[Teamwerk: mensen ervaring](teamwork.md) (artikel)

@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: 'Details van het team team: de productiviteits Score van personen.'
-ms.openlocfilehash: d76447a187003aa3d3e87ec293cf4550ced2fc74
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: d7edd5685c8e818e08faf4ac227f3eb1a416c94c
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795270"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804791"
 ---
 # <a name="teamwork--people-experiences"></a>Teamwerk – ervaring met personen
 
@@ -193,3 +192,12 @@ De volgende kolommen worden weergegeven in de tabel op het niveau van de werkrui
 - Teamwerk maateenheden van de betrokkenheid van personen binnen uw organisatie. De activiteit van externe leden wordt&#39;t vastgelegd.
 - Kanaalberichten in teamwerk omvat geen berichten die zijn verzonden via de mobiele Microsoft teams-client.
 - Er kunnen kleine verschillen zijn tussen de e-mail metrische en de kanaalberichten tussen de categorieën voor communicatie en teamwerk waarmee we een oplossing kunnen vinden.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Status van Microsoft 365-apps-technologie ervaringen](apps-health.md) (artikel) \
+[Communicatie: mensen ervaring](communication.md) (artikel) \
+[Samenwerken aan inhoud: mensen ervaring](content-collaboration.md) (artikel) \
+[Vergaderingen: mensen ervaring](meetings.md) (artikel) \
+[Mobiliteit: mensen ervaring](mobility.md) (artikel) \
+[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel)

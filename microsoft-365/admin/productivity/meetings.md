@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Details van de vergaderingen-de productiviteits Score van personen.
-ms.openlocfilehash: 09869d92b093304e070d669db7d0e7dea825441f
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: cdb83000e176fb2a88d848a1b7f114499362672a
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795382"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804583"
 ---
 # <a name="meetings--people-experiences"></a>Vergaderingen: mensen ervaring
 
@@ -166,3 +165,12 @@ De volgende kolommen worden weergegeven in de tabel op gebruikersniveau:
 - Voor alle evaluaties wordt rekening gehouden met personen die toegang tot Microsoft teams hebben.
 - U uitsluiten broadcast gebeurtenissen en bepaalde gebeurtenissen die niet zijn gelabeld als een vergadering of gesprek.
 - Gebeurtenissen die beginnen met het delen van een scherm tussen de deelnemers, zijn gecategoriseerd als 1:1-gesprekken (met 2 deelnemers) of groepsgesprekken (3 of meer deelnemers).
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Status van Microsoft 365-apps-technologie ervaringen](apps-health.md) (artikel) \
+[Communicatie: mensen ervaring](communication.md) (artikel) \
+[Samenwerken aan inhoud: mensen ervaring](content-collaboration.md) (artikel) \
+[Mobiliteit: mensen ervaring](mobility.md) (artikel) \
+[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel) \
+[Teamwerk: mensen ervaring](teamwork.md) (artikel)

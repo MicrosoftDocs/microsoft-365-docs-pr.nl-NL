@@ -18,14 +18,13 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van Microsoft-productiviteits Score.
-ms.openlocfilehash: 3d014cd0eb3a3ceed3b3f3b48f126453e4ced193
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 3808583429c78460483cd7193d38810a7e189040
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48794963"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804724"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft-productiviteits Score 
 
@@ -43,25 +42,28 @@ We bieden gegevens, inzichten en aanbevelingen in twee gedeelten:
 
     We bieden deze inzichten, omdat ze online samenwerken, ze de tijd besparen en met de vrijheid van werken aan elk apparaat productiever en tevreden zijn. Met de mogelijkheid om efficiënter te communiceren, kunnen mensen efficiënter werken, zodat u beter de relaties kunt vormen. Zie [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)voor bewijzen.
 
-- **Technologie ervaring:** De productiviteit is afhankelijk van de betrouwbare en uitstekend bekrachtige technologie en de efficiëntste versie van Microsoft 365. We bieden [eindpunts analyses](https://aka.ms/endpointanalytics), zodat u kunt zien hoe de productiviteit van uw gebruikers kan worden beïnvloed door problemen met de prestaties en de status van uw eindpunttoewijzer en-software. We bieden ook aanbevolen acties om ze te herstellen en ook voor Microsoft 365 Network Connectivity Insights voor uw organisatie.
+- **Technologie ervaring:** De productiviteit van uw team is afhankelijk van de betrouwbare en uitstekend bekrachtige technologie en de efficiëntste versie van Microsoft 365. Met [endpoint Analytics](https://aka.ms/endpointanalytics) leert u hoe de productiviteit van uw gebruikers kan worden beïnvloed door problemen met de prestaties en de status van uw hardware en software. Met aanbevolen acties kunt u deze problemen oplossen. Microsoft 365 Network Connectivity Insights helpt u bij het oplossen van problemen met connectivty voor uw organisatie.
 
 Zie [Wat is Eindpunts analyse](https://docs.microsoft.com/mem/analytics/overview) voor een overzicht en de vereiste gegevens. Lees [het overzicht van netwerkverbinding](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview)voor meer informatie over microsoft 365 Network Connectivity Insights.
   
 
 ## <a name="how-the-score-is-calculated"></a>Hoe de score wordt berekend
 
-De productiviteits Score is gebaseerd op de gecombineerde cijfers van de categorieën mensen en technologie. Elke categorie wordt gelijkelijk gewogen, met een totaal van 100 punten. De hoogst mogelijke productiviteits Score is 500.
+De productiviteits Score is gebaseerd op de gecombineerde cijfers van de categorieën mensen en technologie. Elke categorie wordt gelijkelijk gewogen, met een totaal van 100 punten. De hoogst mogelijke productiviteits Score is 800.
 
 ### <a name="score-categories"></a>Score Categorieën 
 
-- Samenwerking van inhoud (100 punten)
 - Communicatie (100 punten)
+- Vergaderingen (100 punten)
+- Samenwerking van inhoud (100 punten)
+- Teamwerk (100 punten)
 - Mobiliteit (100 punten)
 - Endpoint Analytics (100 punten)
 - Netwerkverbinding (100 punten)
-- **Totale potentiële = 500 punten**
+- Status van Microsoft 365-apps (100 punten)
+- **Totale potentiële = 800 punten**
  
- In elke categorie identificeren we patronen voor belangrijke activiteiten die indicatoren zijn voor de manier waarop mensen Microsoft 365-producten gebruiken om samen te werken, te communiceren en te werken. We bieden 28-Day en 180-dagweergave van de belangrijkste activiteiten. We bieden ook ondersteunings metrieken die geen deel uitmaken van de score berekening, maar die u helpt bij het identificeren van onderliggend gedrag en instellingen waarop u kunt handelen.
+ In elke Score categorie identificeren we patronen voor belangrijke activiteiten die indicatoren zijn voor de manier waarop mensen Microsoft 365-producten gebruiken om samen te werken, te communiceren en te werken via platforms. We bieden 28-Day en 180-dagweergave van de belangrijkste activiteiten. We bieden ook ondersteunings metrieken die geen deel uitmaken van de score berekening, maar belangrijk voor u zijn de ondersteuning van onderliggend gedrag en instellingen te identificeren.
 
 ### <a name="products-included-in-productivity-score"></a>Producten die deel uitmaken van de productiviteits Score 
 
@@ -72,7 +74,9 @@ Uw score wordt dagelijks bijgewerkt en weerspiegelt de acties van gebruikers die
 
 ## <a name="pre-requisites"></a>Vereisten 
 
-Als u gegevens wilt weergeven voor personen die u nodig hebt, hebt u een abonnement op Microsoft 365 voor bedrijven of Office 365 voor Enterprise nodig en moet u gebruikmaken van meerdere tenants van cloudservices. Als u gegevens voor de Endpoint Analytics wilt voor de Tenant, moet u Microsoft intune toevoegen aan uw abonnement. Met intune kunt u de gegevens van uw organisatie beschermen door apparaten en apps te beheren.       Wanneer u intune hebt ingeschakeld, kunt u eindpunt analyse inschakelen in de intune-ervaring. Meer informatie over Microsoft intune. 
+Voor personen die gegevens hebben, moet u beschikken over een Microsoft 365 for Business-of Office 365 voor Enterprise-abonnement. Voor eindpunt analysegegevens voor uw Tenant moet u Microsoft intune toevoegen aan uw abonnement. Met intune kunt u de gegevens van uw organisatie beschermen door apparaten en apps te beheren. Wanneer u intune hebt ingeschakeld, kunt u eindpunt analyse inschakelen in de intune-ervaring. Meer informatie over Microsoft intune. 
+> [!NOTE]
+> Een licentie voor het gebruik van de werkplek is niet vereist voor de functies voor de productiviteits Score.
 
 Als u de productiviteits score voor uw organisatie wilt weergeven, moet u beschikken over een van de volgende rollen: 
 
@@ -90,11 +94,11 @@ U hebt toegang tot de ervaring via Microsoft 365 admin voor thuisgebruik onder *
 
 Op de startpagina van de productiviteits Score ziet u de totale score en de score en de belangrijkste inzichten van elke categorie.
 
-![Startpagina voor productiviteits Score](../../media/pslanding.png)
+:::image type="content" source="../../media/prodscore-landing.png" alt-text="Pagina met productiviteits scores in rapporten.":::
 
 **Uw score** wordt weergegeven als percentagewaarde en in punten. U kunt de punten in de teller zien en de maximum aantal mogelijke punten in de noemer.
 
-Met behulp van **peer-benchmarks** kunt u uw score vergelijken met organisaties zoals uw eigen. Voor de categorieën personen-ervaring wordt de Bench aanduiding voor de peer berekend als het gemiddelde van maateenheden binnen een set soortgelijke organisaties. De set is samengesteld uit organisaties in uw regio met een vergelijkbaar aantal gebruikers met een licentie, typen licenties, bedrijfstak en tenure met Microsoft 365. 
+Met behulp van **peer-benchmarks** kunt u uw score vergelijken met organisaties zoals uw eigen. De peer benchmark voor de functies voor personen die de categorie personen bevat, wordt berekend als het gemiddelde van maateenheden binnen een set soortgelijke organisaties. De organisatie sets bestaan uit organisaties in uw regio met een vergelijkbaar aantal gebruikers met een licentie, typen licenties, bedrijfstak en tenure met Microsoft 365. 
 
 De peer Bench endpoint Analytics bevat doelen voor de prestaties van het opstarten van apparaten en aanbevolen softwareconfiguratie op basis van geaggregeerde mediaan waarden in alle tenants.
 

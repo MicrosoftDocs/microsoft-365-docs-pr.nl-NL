@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Details van de status-technologie van Microsoft 365-apps-technologie met productiviteits Score.
-ms.openlocfilehash: bb6454b336caa9ac1e7b8f6049ea46c681c8bd77
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 4242a9b665bc7292232cc15ee0f1ec37915fb1ac
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795265"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804767"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Status van Microsoft 365-apps-technologie ervaring
 
@@ -112,3 +111,12 @@ De volgende kolommen worden weergegeven in de tabel op gebruikersniveau:
 - **Status:**   De ondersteunings status van de Microsoft 365-apps op basis van het huidige kanaal en de huidige versie.
 - **Versies:**   Actuele versies van Microsoft 365-apps op de apparaten.
 - **aantal apparaten:**  Aantal apparaten.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Communicatie: mensen ervaring](communication.md) (artikel) \
+[Samenwerken aan inhoud: mensen ervaring](content-collaboration.md) (artikel) \
+[Vergaderingen: mensen ervaring](meetings.md) (artikel) \
+[Mobiliteit: mensen ervaring](mobility.md) (artikel) \
+[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel) \
+[Teamwerk: mensen ervaring](teamwork.md) (artikel)

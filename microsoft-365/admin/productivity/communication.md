@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Details van de productiviteits score voor personen met de communicatie.
-ms.openlocfilehash: 071621759a922e6dda28a5a18f531a0f01d2f88f
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: 6f79a636c24548586048adf0151ac5eefb98fffe
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795021"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804653"
 ---
 # <a name="communication--people-experiences"></a>Communicatie: mensen ervaring
 
@@ -160,3 +159,12 @@ In deze sectie vindt u informatie op gebruikersniveau over activiteiten die rele
 - **Gebruikte dagen @mention per e-mail:** Het aantal dagen dat de gebruiker een e-mail heeft verzonden met een @mention in de afgelopen 30 dagen.
 
 U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door **de koppeling exporteren** te selecteren. Houd er rekening mee dat u de kolommen in de weergave kunt aanpassen door de vereiste kolommen te selecteren nadat u op **kolommen kiezen** hebt geklikt.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Status van Microsoft 365-apps-technologie ervaringen](apps-health.md) (artikel) \
+[Samenwerken aan inhoud: mensen ervaring](content-collaboration.md) (artikel) \
+[Vergaderingen: mensen ervaring](meetings.md) (artikel) \
+[Mobiliteit: mensen ervaring](mobility.md) (artikel) \
+[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel) \
+[Teamwerk: mensen ervaring](teamwork.md) (artikel)

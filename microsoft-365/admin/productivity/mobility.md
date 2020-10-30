@@ -18,14 +18,13 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Details van de productiviteits score voor personen in de mobiliteit.
-ms.openlocfilehash: 0d67cae7421b7b27e39420f691d72abd57a63a32
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: f40984b3c053dcb976c901830bf796e3b7297f2d
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795391"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804779"
 ---
 # <a name="mobility--people-experiences"></a>Mobiliteit – personen met ervaring
 
@@ -172,3 +171,12 @@ De volgende meetgegevens zijn gebaseerd op de vorige 28 dagen:
 - **Dagen in Skype (Desktop):** Het aantal dagen dat de persoon is geactiveerd op Skype in het bureaublad platform.
 - **Dagen in Skype (web):** Het aantal dagen dat de persoon is actief op Skype op het web platform.
 - **Dagen in Skype (mobiele nummers):** Aantal dagen dat de persoon is actief op Skype op het mobiele platform.
+
+## <a name="related-content"></a>Verwante onderwerpen
+
+[Status van Microsoft 365-apps-technologie ervaringen](apps-health.md) (artikel) \
+[Communicatie: mensen ervaring](communication.md) (artikel) \
+[Samenwerken aan inhoud: mensen ervaring](content-collaboration.md) (artikel) \
+[Vergaderingen: mensen ervaring](meetings.md) (artikel) \
+[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel) \
+[Teamwerk: mensen ervaring](teamwork.md) (artikel)
