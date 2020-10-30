@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Lees hoe je een classificatie maakt
-ms.openlocfilehash: 948ece1a19b7e6049167c373b3200efd316a60cd
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 97a7b28d45499a46d72029d47b422d2c32696a54
+ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338635"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48804813"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Een classificatie maken in Microsoft SharePoint Syntex
 
@@ -49,13 +49,13 @@ Om een classificatie te maken, moet je:
 
 De eerste stap voor het maken van een model is het geven van een naam:
 
-1. Selecteer in het Inhoudscentrum **Nieuw**en klik vervolgens **Maak een model**.
+1. Selecteer in het Inhoudscentrum **Nieuw** en klik vervolgens **Maak een model** .
 2. Typ in het deelvenster **Nieuw document met inzicht in model** in het veldtype **Naam** de naam van het model. Als je bijvoorbeeld documenten voor het verlengen van het contract wilt identificeren, kun je het model *Contractverlenging* noemen.
-3. Kies **Create**. Hiermee maa je een startpagina voor het model.</br>
+3. Kies **Create** . Hiermee maa je een startpagina voor het model.</br>
 
     ![Startpagina voor classificatiemodel](../media/content-understanding/model-home.png)
 
-Wanneer je een model maakt, maak je ook een nieuw site-inhoudstype. Een inhoudstype is een categorie documenten met gemeenschappelijke kenmerken en een verzameling kolommen of metagegevenseigenschappen voor die inhoud delen. SharePoint-inhoudstypen worden beheerd via de [Galerie met inhoudstypen](https://support.microsoft.com/office/create-or-customize-a-site-content-type-27eb6551-9867-4201-a819-620c5658a60f). Als je in dit voorbeeld het model maakt, maak je een nieuwe *contract vernieuwing*-inhoudstype.
+Wanneer je een model maakt, maak je ook een nieuw site-inhoudstype. Een inhoudstype is een categorie documenten met gemeenschappelijke kenmerken en een verzameling kolommen of metagegevenseigenschappen voor die inhoud delen. SharePoint-inhoudstypen worden beheerd via de [Galerie met inhoudstypen](https://support.microsoft.com/office/create-or-customize-a-site-content-type-27eb6551-9867-4201-a819-620c5658a60f). Als je in dit voorbeeld het model maakt, maak je een nieuwe *contract vernieuwing* -inhoudstype.
 
 Selecteer **Geavanceerde instellingen** als je dit model wilt toewijzen aan een bestaand ondernemingsinhoudstype in de SharePoint-galerie met inhoudstypen om het bijbehorende schema te gebruiken. Ondernemingsinhoudtypen worden opgeslagen in de hub inhoudstype in het SharePoint-Beheercentrum en worden gepubliceerd naar alle sites in de Tenant. Hoewel je een bestaand inhoudstype kunt gebruiken om het bijbehorende schema te gebruiken om te helpen bij het identificeren en classificeren, moet je het model nog steeds trainen om gegevens uit bestanden die worden geïdentificeerd op te halen.</br>
 
@@ -81,9 +81,9 @@ Zorg ervoor dat je minimaal vijf positieve voorbeelden gebruikt en ten minste é
 
 Om voorbeeldbestanden toe te voegen:
 
-1. Klik op de startpagina van het model in de **Voorbeeldbestanden toevoegen**-tegel op **Bestanden toevoegen**.
+1. Klik op de startpagina van het model in de **Voorbeeldbestanden toevoegen** -tegel op **Bestanden toevoegen** .
 2. Selecteer op de pagina **Voorbeeldbestanden voor je model** de optie bestanden uit de bibliotheek van trainingsbestanden in het inhoudscentrum. Als je ze nog niet hebt geüpload, kun je deze nu uploaden door op **Uploaden** te klikken om ze naar de bibliotheek met trainingsbestanden te kopiëren.
-3. Nadat je de voorbeeldbestanden hebt geselecteerd die je wilt gebruiken om het model te trainen, klik je op **Toevoegen**.
+3. Nadat je de voorbeeldbestanden hebt geselecteerd die je wilt gebruiken om het model te trainen, klik je op **Toevoegen** .
 
     ![Selecteer voorbeeldbestanden](../media/content-understanding/select-sample.png) 
 
@@ -91,9 +91,9 @@ Om voorbeeldbestanden toe te voegen:
 
 Nadat je de voorbeeldbestanden hebt toegevoegd, moet je ze een label geven als positieve of negatieve voorbeelden.
 
-1. Klik op de startpagina van het model, op de tegel **Bestanden classificeren en training uitvoeren**, en klik op **Train Classifier**.
+1. Klik op de startpagina van het model, op de tegel **Bestanden classificeren en training uitvoeren** , en klik op **Train Classifier** .
    Hier wordt de labelpagina weergegeven met een lijst met voorbeeldbestanden met het eerste bestand dat in de viewer wordt weergegeven.
-2. In de viewer boven aan het eerste voorbeeldbestand zie je tekst waarin je wordt gevraagd of het bestand een voorbeeld is van het model dat je zojuist hebt gemaakt. Als het om een positief voorbeeld gaat, selecteer je **Ja**. Als het om een negatief voorbeeld gaat, selecteer je **Nee**.
+2. In de viewer boven aan het eerste voorbeeldbestand zie je tekst waarin je wordt gevraagd of het bestand een voorbeeld is van het model dat je zojuist hebt gemaakt. Als het om een positief voorbeeld gaat, selecteer je **Ja** . Als het om een negatief voorbeeld gaat, selecteer je **Nee** .
 3. Klik in de **lijst met gelabelde voorbeelden** aan de linkerkant op extra bestanden die je als voorbeeld wilt gebruiken en voorzie ze van een label. 
 
     ![Startpagina voor classificatie](../media/content-understanding/classifier-home-page.png) 
@@ -113,17 +113,16 @@ Maak een uitleg:
 
 1. Op de startpagina van het model selecteer je het tabblad **Train** om naar de pagina Train te gaan.
 2. Op de pagina Train kun je in de sectie **Getrainde bestanden** een lijst zien met de voorbeeldbestanden waaraan je eerder een label hebt gegeven. Selecteer een van de positieve bestanden uit de lijst en deze wordt weergegeven in de viewer.
-3. In de sectie uitleg selecteert je **Nieuw** en vervolgens **Leeg**.
-4. Op de pagina **Maak een uitleg**:</br>
-    a. Typ de **Naam**(bijvoorbeeld "uitnamelijst").</br>
-    b. Selecteer het **Type**. Voor het voorbeeld selecteer je **lijst met frasen**omdat je een tekenreeks toevoegt.</br>
-    c. Typ de tekenreeks in het vak **Type hier**. Voor het voorbeeld moet je „verzoek om aanvullende informatie“ toe voegen. Je kunt **hoofdlettergevoeligheid selecteren** als de tekenreeks hoofdlettergevoelig moet zijn.</br>
-    d. Klik op **Opslaan**.
+3. In de sectie uitleg selecteert je **Nieuw** en vervolgens **Leeg** .
+4. Op de pagina **Maak een uitleg** :</br>
+    a. Typ de **Naam** (bijvoorbeeld "uitnamelijst").</br>
+    b. Selecteer het **Type** . Voor het voorbeeld selecteer je **lijst met frasen** omdat je een tekenreeks toevoegt.</br>
+    c. Typ de tekenreeks in het vak **Type hier** . Voor het voorbeeld moet je „verzoek om aanvullende informatie“ toe voegen. Je kunt **hoofdlettergevoeligheid selecteren** als de tekenreeks hoofdlettergevoelig moet zijn.</br>
+    d. Klik op **Opslaan** .
 
     ![Maak een uitleg](../media/content-understanding/explanation.png) 
     
- 
-5. Er wordt nu door het model gecontroleerd of de uitleg die je hebt gemaakt goed genoeg was om de achterliggende voorbeeldbestanden op de juiste manier te identificeren, als positieve en negatieve voorbeelden. Schakel in de sectie met opgeleid bestanden de **Evaluatie** kolom nadat de training is voltooid om de resultaten te zien. De bestanden bevatten de waarde **Overeenkomst**als de verklaringen die je hebt gemaakt voldoende zijn om aan te geven wat je als positief of negatief hebt gemarkeerd.
+5. Er wordt nu door het Inhoudscentrum gecontroleerd of de uitleg die je hebt gemaakt compleet is om de achterliggende voorbeeldbestanden op de juiste manier te identificeren, als positieve en negatieve voorbeelden. Schakel in de sectie met opgeleid bestanden de **Evaluatie** kolom nadat de training is voltooid om de resultaten te zien. De bestanden bevatten de waarde **Overeenkomst** als de verklaringen die je hebt gemaakt voldoende zijn om aan te geven wat je als positief of negatief hebt gemarkeerd.
 
     ![Overeenkomende waarde](../media/content-understanding/match.png) 
 
@@ -133,7 +132,7 @@ Als je een **niet-overeenkomende** ontvangt voor de gelabelde bestanden, moet je
 
 Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun je nu je model testen op de andere niet-gelabelde voorbeeldbestanden die het model nog niet heeft gezien.  Dit is een optionele, maar handige stap voor het evalueren van de "geschiktheid" of het voorbereiding van het model voordat dit wordt gebruikt, door het te testen op bestanden die het model nog niet heeft gezien.
 
-1. Op de startpagina van het model selecteer je het tabblad **Testen**.  Hiermee wordt het model uitgevoerd op de niet-gelabelde voorbeeldbestanden.
+1. Op de startpagina van het model selecteer je het tabblad **Testen** .  Hiermee wordt het model uitgevoerd op de niet-gelabelde voorbeeldbestanden.
 2. In de lijst **Testbestanden** worden de voorbeeldbestanden weergegeven en weergegeven als het model deze positief of negatief is. Gebruik deze informatie om de effectiviteit van je classificatie bij het identificeren van je documenten vast te stellen.
 
     ![Testen van bestanden zonder label](../media/content-understanding/test-on-files.png) 
