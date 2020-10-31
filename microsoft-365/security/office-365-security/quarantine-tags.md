@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie over het gebruik van quarantaine-Tags om te bepalen wat gebruikers kunnen doen met hun Quarantine-berichten.
-ms.openlocfilehash: 557a6832807c1768f482e76c76c0e92b027e49a7
-ms.sourcegitcommit: 2810d1347e5016412074b2dd18e654aee7e593de
+ms.openlocfilehash: 89f03795d8f12b3df3e5090648c5a6c8b64c322a
+ms.sourcegitcommit: 676479f1e65492b44c4d0316a765f55ae9fae374
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/31/2020
-ms.locfileid: "48819176"
+ms.locfileid: "48819738"
 ---
 # <a name="quarantine-tags"></a>Quarantaine Tags
 
@@ -477,7 +477,7 @@ Met de machtiging **afzender toestaan** ( _PermissionToAllowSender_ ) kunt u de 
 
 Zie voor meer informatie over de lijst met veilige afzenders de [Geblokkeerde afzenders verhinderen](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) en [Exchange Online PowerShell gebruiken voor het configureren van de veilige lijst-verzameling voor een postvak](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
-### <a name="block-sender-permission"></a>Machtigingen voor afzender blokkeren
+#### <a name="block-sender-permission"></a>Machtigingen voor afzender blokkeren
 
 Met de machtiging **afzender blokkeren** ( _PermissionToBlockSender_ ) kunt u de toegang tot de knop beheren waarmee gebruikers op de lijst met geblokkeerde afzenders in de lijst met geblokkeerde afzenders de juiste afzender kunnen toevoegen.
 
@@ -491,7 +491,7 @@ Met de machtiging **afzender blokkeren** ( _PermissionToBlockSender_ ) kunt u de
 
 Zie voor meer informatie over de lijst met geblokkeerde afzenders [berichten van iemand blokkeren](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) en [Exchange Online PowerShell gebruiken om de veilige lijst-verzameling te configureren voor een postvak](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
-### <a name="delete-permission"></a>Machtiging voor verwijderen
+#### <a name="delete-permission"></a>Machtiging voor verwijderen
 
 Met de machtiging **verwijderen** ( _PermissionToDelete_ ) kunt u gebruikers de mogelijkheid bieden hun berichten te verwijderen (berichten waarvan de gebruiker een geadresseerde is) uit Quarantine.
 
@@ -501,7 +501,7 @@ Met de machtiging **verwijderen** ( _PermissionToDelete_ ) kunt u gebruikers de 
 
 - **Meldingen voor spam van eindgebruikers** : geen effect.
 
-### <a name="preview-permission"></a>Voorbeeld van machtiging
+#### <a name="preview-permission"></a>Voorbeeld van machtiging
 
 Met de machtiging **voorbeeld** ( _PermissionToPreview_ ) kunt u bepalen of gebruikers hun berichten in quarantaine weergeven.
 
