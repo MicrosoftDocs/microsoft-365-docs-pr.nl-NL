@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 7699b31052ecc1bda33630fcf97e9d43875f4ae3
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: f3fa5c82efad0a51adf5e798bd89860e78256e15
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681588"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845310"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Functies voor bedreigingsbeveiliging configureren in Microsoft 365
 
@@ -49,91 +49,91 @@ Microsoft heeft een specifieke set voorwaardelijke toegang en gerelateerde belei
 - [Configuratie van identiteiten en apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md)
 - [Beveiligingsrichtlijnen voor Azure MFA](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
-## <a name="step-2-configure-azure-advanced-threat-protection"></a>Stap 2: Azure Advanced Threat Protection configureren
+## <a name="step-2-configure-microsoft-defender-for-identity"></a>Stap 2: Microsoft Defender configureren voor identiteit
 
-[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) (Azure ATP) is een op de cloud gebaseerde beveiligingsoplossing die geschikt is voor uw on-premises [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) -signalen voor het identificeren, detecteren en onderzoeken van geavanceerde bedreigingen, compromisloze identiteiten en schadelijke Insider-acties die u in uw organisatie kunt gebruiken.
+[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) is een op de cloud gebaseerde beveiligingsoplossing die werkt met uw on-premises [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) -signalen voor het identificeren, detecteren en onderzoeken van geavanceerde bedreigingen, compromisloze identiteiten en schadelijke Insider-acties die worden doorgestuurd naar uw organisatie.
 
-Azure ATP schakelt beveiligingsactiviteiten (SecOps) analisten en beveiligings professionals struggling uit om geavanceerde aanvallen in hybride omgevingen te detecteren voor:
+Microsoft Defender for Identity schakelt beveiligingsactiviteiten (SecOps) analisten en beveiligings professionals struggling uit om geavanceerde aanvallen in hybride omgevingen te detecteren voor:
 - Toezicht van gebruikers, entiteits gedrag en activiteiten met analyses op basis van Learning.
 - Gebruikersidentiteiten en -referenties beveiligen die zijn opgeslagen in Active Directory.
 - Verdachte gebruikersactiviteiten en geavanceerde aanvallen in de hele kill chain identificeren en onderzoeken.
 - Heldere incidentinformatie verstrekken op een eenvoudige tijdlijn voor snelle sortering.
 
-### <a name="to-set-up-azure-atp"></a>Azure ATP instellen
+### <a name="to-set-up-microsoft-defender-for-identity"></a>Microsoft Defender voor identiteit instellen
 
-![Installatie van Azure ATP voorbereiden](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
+![Installatie van Microsoft Defender voor identiteit](../media/solutions-architecture-center/deploy-azure-atp-steps.png) 
 
-1. [Azure ATP instellen](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) om uw primaire omgeving te beschermen.
+1. [Microsoft Defender voor de identiteit instellen](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) om uw primaire omgeving te beschermen.
 2. Beveilig al uw [domeincontrollers](https://docs.microsoft.com/azure-advanced-threat-protection/atp-sensor-monitoring) en [forests](https://docs.microsoft.com/azure-advanced-threat-protection/atp-multi-forest).
-3. [Azure ATP-waarschuwingen](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) in uw SecOps-werkstroom (beveiligingsbewerkingen) integreren.
+3. [Microsoft Defender integreren voor identiteits waarschuwingen](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide?tabs=external) in uw SecOps-werkstroom.
 
-### <a name="more-information-about-azure-atp"></a>Meer informatie over Azure ATP
+### <a name="more-information-about-microsoft-defender-for-identity"></a>Meer informatie over Microsoft Defender voor identiteit
 
-- [Wat is Azure ATP?](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
-- [Video: Inleiding tot Azure ATP](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
-- [Azure ATP-implementatie](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next)
+- [Wat is Microsoft Defender for Identity?](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
+- [Video: Inleiding tot Microsoft Defender voor identiteit](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
+- [Microsoft Defender for Identity Deployment](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next)
 
-## <a name="step-3-turn-on-microsoft-threat-protection"></a>Stap 3: Microsoft Threat Protection inschakelen
+## <a name="step-3-turn-on-microsoft-365-defender"></a>Stap 3: Microsoft 365 Defender inschakelen
 
-[Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) combineert signalen en biedt mogelijkheden in één oplossing. Met de geïntegreerde oplossing voor Microsoft Threat Protection kunnen beveiligings medewerkers de bedreigings signalen samenstellen die elk van deze producten ontvangen en bepalen wat het volledige bereik en de impact van de bedreiging zijn. de werking van de omgeving, wat van invloed is op de omgeving, en de werking van de organisatie. Microsoft Threat Protection beslaat automatische actie om de aanval te voorkomen of te stoppen, en de desbetreffende postvakken, eindpunten en gebruikers-id's.
+[Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) combineert signalen en biedt mogelijkheden in één oplossing. Met de geïntegreerde Microsoft 365 Defender-oplossing kunnen beveiligings medewerkers de bedreigings signalen van elk van deze producten samenvoegen en bepalen wat het volledige bereik en de impact van de bedreiging zijn. de werking van de omgeving, wat van invloed is op de omgeving, en de werking van de organisatie. Microsoft 365 Defender doet automatische actie om de aanval te voorkomen of te stoppen, en de desbetreffende postvakken, eindpunten en gebruikersidentiteiten te voorkomen.
 
-Microsoft Threat Protection beveiligt waarschuwingen, incidenten, geautomatiseerd onderzoek en antwoord en een geavanceerde jacht van de werkbelasting (Azure ATP, Office 365 ATP, Microsoft Defender ATP en de beveiliging van Microsoft Cloud apps) in één venster van glas. Wanneer u een of meer van uw Advanced Threat Protection-Services hebt geconfigureerd, schakelt u Microsoft Threat Protection in. Nieuwe functies worden continu toegevoegd aan Microsoft Threat Protection. u kunt ook kiezen voor het ontvangen van Voorbeeldfuncties.
+Microsoft 365 Defender verspreidt waarschuwingen, incidenten, geautomatiseerd onderzoek en antwoord, en de geavanceerde jacht van de werkbelasting (Microsoft Defender for Identity, Microsoft Defender for Office 365, Microsoft Defender voor eindpunt en beveiliging van de Cloud-app) in één venster van glas. Wanneer u een of meer van uw versie van de versie van de Defender voor Office 365-Services hebt geconfigureerd, schakelt u Microsoft 365 Defender in. Nieuwe functies worden continu toegevoegd aan Microsoft 365 Defender. u kunt ook kiezen voor het ontvangen van Voorbeeldfuncties.
 
-### <a name="to-set-up-microsoft-threat-protection"></a>Microsoft Threat Protection instellen
+### <a name="to-set-up-microsoft-365-defender"></a>Microsoft 365 Defender instellen
 
-![Installatie van Microsoft Threat Protection](../media/solutions-architecture-center/deploy-mtp-steps.png) 
+![Installatie van Microsoft 365 Defender](../media/solutions-architecture-center/deploy-mtp-steps.png) 
 
 1. [Controleer de vereisten](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites).
-2. [Schakel Microsoft Threat Protection in](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
+2. [Schakel Microsoft 365 Defender in](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
 3. Deel de optie [voor Voorbeeldfuncties](https://docs.microsoft.com/microsoft-365/security/mtp/preview).
 
-### <a name="more-information-about-microsoft-threat-protection"></a>Meer informatie over Microsoft Threat Protection
+### <a name="more-information-about-microsoft-365-defender"></a>Meer informatie over Microsoft 365 Defender
 
-- [Wat is Microsoft Threat Protection?](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
-- [Wat is er nieuw in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
+- [Wat is Microsoft 365 Defender?](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
+- [Nieuw in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
 
-## <a name="step-4-configure-office-365-advanced-threat-protection"></a>Stap 4: Office 365 Advanced Threat Protection configureren
+## <a name="step-4-configure-microsoft-defender-for-office-365"></a>Stap 4: Microsoft Defender voor Office 365 configureren
 
-[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (Office 365 ATP) beschermt uw organisatie tegen kwaadaardige bedreigingen in e-mailberichten (bijlagen en url's), Office-documenten en samenwerkingsprogramma's. De volgende tabel bevat een overzicht van de functies en mogelijkheden van Office 365 ATP die zijn opgenomen in Microsoft 365 E5:
+[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) beschermt uw organisatie tegen kwaadaardige bedreigingen in e-mailberichten (bijlagen en url's), Office-documenten en samenwerkingshulpmiddelen. De volgende tabel bevat een overzicht van de functies en mogelijkheden van Microsoft Defender voor Office 365, die beschikbaar zijn in Microsoft 365 E5:
 
 |Functies voor configuratie, beveiliging en detectie|Automatiserings-, onderzoek-, herstel-en onderwijs mogelijkheden|
 |---|---|
-|[Veilige bijlagen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Veilige documenten](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[ATP-bescherming tegen phishing](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Bedreigingsoverzichten](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Bedreigingsverkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Aanvalssimulator](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
+|[Veilige bijlagen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Veilige documenten](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Anti phishing in Defender voor Office 365-beveiliging](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Bedreigingsoverzichten](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Bedreigingsverkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Aanvalssimulator](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
-Met Office 365 ATP kunnen medewerkers in uw organisatie veiliger communiceren en samenwerken met behulp van bedreigingsbeveiliging voor hun e-mail inhoud en Office-documenten.
+Met Microsoft Defender voor Office 365 kunnen gebruikers in uw organisatie veiliger communiceren en samenwerken met behulp van bedreigingsbeveiliging voor hun e-mail inhoud en Office-documenten.
 
-### <a name="to-set-up-office-365-atp"></a>Office 365 ATP instellen
+### <a name="to-set-up-microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365 instellen
 
-![Installatie van Office 365 ATP voorbereiden](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
+![Installatie van Microsoft Defender voor Office 365](../media/solutions-architecture-center/deploy-office365-atp-steps.png) 
 
-1. [Stel uw Office 365 ATP-beleid in en configureer](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)dit.
-2. [Uw Office 365 ATP-rapporten weergeven en gebruiken](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).
+1. [Stel het beleid voor Microsoft Defender voor Office 365 in en configureer](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)dit.
+2. [Uw Microsoft Defender voor Office 365-rapporten weergeven en gebruiken](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).
 3. [Gebruik functies voor het onderzoek en antwoord van bedreigingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti).
 
-### <a name="more-information-about-office-365-atp"></a>Meer informatie over Office 365 ATP
+### <a name="more-information-about-microsoft-defender-for-office-365"></a>Meer informatie over Microsoft Defender voor Office 365
 
-- [Overzicht van Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
-- [Nieuw in Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
+- [Overzicht van Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+- [Nieuw in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
 
-## <a name="step-5-configure-microsoft-defender-advanced-threat-protection"></a>Stap 5: Microsoft Defender Advanced Threat Protection configureren
+## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>Stap 5: Microsoft Defender voor eindpunt configureren
 
-Met [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection) (Microsoft Defender ATP) beschermt u uw organisatie apparaten (ook wel eindpunten genoemd) van cyberthreats, geavanceerde aanvallen en schending van gegevens. Beveiligings teams kunnen efficiënter werken met het beheren van de beveiliging van hun eindpunten. Krachtige hulpmiddelen helpt organisaties bij het beschermen van systemen met een beveiligingslek via de detectie van beveiligingsproblemen met het [beheer van bedreiging en](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)risico. Geautomatiseerde detectie-en herstelmogelijkheden, zoals [aanval via een aanval](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction), de detectie van de [volgende generatie](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10), het detecteren van het [eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)en het beantwoorden van het [automatische onderzoek en herstel](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) zorgen ervoor dat uw apparatuur veilig is tegen malware. Met de beste van deze mogelijkheden kunnen klanten proactief meldingen ontvangen en via Microsoft Threat experts raadplegen op aanvraag, als onderdeel van de beheerde service voor het aangaan van een abonnement. 
+[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection) beschermt uw organisatie apparaten (ook wel eindpunten genoemd) in cyberthreats, geavanceerde aanvallen en schending van gegevens. Beveiligings teams kunnen efficiënter werken met het beheren van de beveiliging van hun eindpunten. Krachtige hulpmiddelen helpt organisaties bij het beschermen van systemen met een beveiligingslek via de detectie van beveiligingsproblemen met het [beheer van bedreiging en](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)risico. Geautomatiseerde detectie-en herstelmogelijkheden, zoals [aanval via een aanval](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction), de detectie van de [volgende generatie](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10), het detecteren van het [eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)en het beantwoorden van het [automatische onderzoek en herstel](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) zorgen ervoor dat uw apparatuur veilig is tegen malware. Met de beste van deze mogelijkheden kunnen klanten proactief meldingen ontvangen en via Microsoft Threat experts raadplegen op aanvraag, als onderdeel van de beheerde service voor het aangaan van een abonnement. 
 
 
-### <a name="set-up-microsoft-defender-atp"></a>Microsoft Defender ATP instellen
+### <a name="set-up-microsoft-defender-for-endpoint"></a>Microsoft Defender voor eindpunt instellen
 
-![Installatie van Microsoft Defender ATP voorbereiden](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
+![Installatie van Microsoft Defender voor eindpunt](../media/solutions-architecture-center/deploy-mdatp-steps.png) 
 
-1. [Uw Microsoft Defender ATP-implementatie voorbereiden](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases).
-2. [Uw implementatie van Microsoft Defender ATP instellen](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
-3. [Onboarding to the Microsoft Defender ATP service](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboarding).
+1. [Uw Microsoft Defender voorbereiden voor de implementatie van het eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases).
+2. [Uw Microsoft Defender voor eind implementatie instellen](https://docs.microsoft.com/windows/security/threat-protection/micros.oft-defender-atp/production-deployment)
+3. [Onboarding to the Microsoft Defender for Endpoint-service](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboarding).
 4. [Voltooi de belangrijkste beveiligingstaken](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation).
 
-### <a name="more-information-about-microsoft-defender-atp"></a>Meer informatie over Microsoft Defender ATP
+### <a name="more-information-about-microsoft-defender-for-endpoint"></a>Meer informatie over Microsoft Defender voor eindpunt
 
-- [Meer informatie over Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection).
-- [Probeer het Microsoft Defender ATP-evaluatie lab](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab).
+- Meer [informatie over Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection).
+- [Probeer Microsoft Defender voor evaluatie lab](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluation-lab).
 
 ## <a name="step-6-configure-microsoft-cloud-app-security"></a>Stap 6: beveiliging van de Microsoft Cloud app configureren
 

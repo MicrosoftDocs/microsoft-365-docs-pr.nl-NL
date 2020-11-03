@@ -1,6 +1,6 @@
 ---
-title: Licentie en gebruiksvoorwaarden voor Microsoft Threat Protection-Api's
-description: Beschrijving van de licentie en gebruiksvoorwaarden voor Api's in Microsoft Threat Protection
+title: Licentie en Gebruiksvoorwaarden Microsoft 365 Defender API
+description: Beschrijving van de licentie en gebruiksvoorwaarden voor Api's in Microsoft 365 Defender
 keywords: API, api's, licentie, termen, API, juridisch, kennisgevingen, gedragscode
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d76992108fb3cda82bd9ad9886a2886f70695788
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e88b59ea28f9e71c677c25d95edc2f91cc2e56d4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203669"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844894"
 ---
-#  <a name="microsoft-threat-protection-apis-license-and-terms-of-use"></a>Licentie en gebruiksvoorwaarden voor Microsoft Threat Protection-Api's
+#  <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Licentie en Gebruiksvoorwaarden Microsoft 365 Defender API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
@@ -39,7 +39,7 @@ ms.locfileid: "48203669"
 
 ## <a name="apis"></a>API‘s
 
- Microsoft Threat Protection-Api's worden onderhevig aan de [Microsoft API-licentie en de gebruiksvoorwaarden](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
+ Microsoft 365 Defender-Api's zijn onderworpen aan de [Microsoft API-licentie en de gebruiksvoorwaarden](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
 
 ### <a name="throttling-limits"></a>Limieten
 

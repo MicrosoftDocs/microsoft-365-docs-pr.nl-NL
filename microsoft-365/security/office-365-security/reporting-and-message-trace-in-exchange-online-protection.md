@@ -14,12 +14,12 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over hulpprogramma's voor het oplossen van rapporten die beschikbaar zijn voor Microsoft Exchange Online Protection (EOP)-beheerders.
-ms.openlocfilehash: 86f4e18430324ed95f036f93746d826225ec3b2f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9a8eb8e35ef73eb27604eef4bf701982b1d51710
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196397"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845550"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rapporten en berichten traceren in EOP
 
@@ -30,13 +30,13 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 
 ## <a name="usage-reports"></a>Gebruiksrapporten
 
-**Activiteiten van Microsoft 365 groepen**: informatie weergeven over het aantal microsoft 365-groepen dat is gemaakt en gebruikt.
+**Activiteiten van Microsoft 365 groepen** : informatie weergeven over het aantal microsoft 365-groepen dat is gemaakt en gebruikt.
 
-**E-mail activiteit**: Hier vindt u informatie over het aantal verzonden, ontvangen en gelezen berichten in uw hele organisatie en van specifieke gebruikers.
+**E-mail activiteit** : Hier vindt u informatie over het aantal verzonden, ontvangen en gelezen berichten in uw hele organisatie en van specifieke gebruikers.
 
-**Gebruik van e-mail-apps**: informatie weergeven over de gebruikte e-mail-apps. Dit omvat het totale aantal verbindingen voor elke app en de versies van Outlook die verbinding maken.
+**Gebruik van e-mail-apps** : informatie weergeven over de gebruikte e-mail-apps. Dit omvat het totale aantal verbindingen voor elke app en de versies van Outlook die verbinding maken.
 
-**Postvakgebruik**: informatie weergeven over gebruikte opslagruimte, quota verbruik, aantal items, en laatste activiteit (verzenden of lezen) voor postvakken.
+**Postvakgebruik** : informatie weergeven over gebruikte opslagruimte, quota verbruik, aantal items, en laatste activiteit (verzenden of lezen) voor postvakken.
 
 Raadpleeg de volgende bronnen voor meer informatie:
 
@@ -52,11 +52,11 @@ Raadpleeg de volgende bronnen voor meer informatie:
 
 Deze verbeterde rapporten bieden een interactieve rapportering van EOP-beheerders, waaronder samenvattende informatie en de mogelijkheid om te inzoomen voor meer details.
 
-**Advanced Threat Protection (ATP)**: Bekijk informatie over veilige koppelingen en veilige bijlagen die deel uitmaken van ATP.
+**Defender voor Office 365** : informatie weergeven over veilige koppelingen en veilige bijlagen die deel uitmaken van Microsoft Defender for Office 365.
 
-**EOP**: informatie over detectie van malware, spoofing voor e-mail, detectie van spam, en de e-mail stroom van en naar uw organisatie.
+**EOP** : informatie over detectie van malware, spoofing voor e-mail, detectie van spam, en de e-mail stroom van en naar uw organisatie.
 
-[Rapporten weergeven voor Office 365 Advanced Threat Protection](view-reports-for-atp.md)
+[Rapporten weergeven voor Defender voor Office 365](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Aangepaste rapporten met Microsoft Graph
 

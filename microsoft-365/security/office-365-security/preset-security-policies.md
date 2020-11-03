@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen informatie over het toepassen van standaard-en strikte beleidsinstellingen in de beveiligingsfuncties van Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: a624d48944965c217fb8547e4f09da0ec388e615
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+description: Beheerders kunnen de standaard-en strikte beleidsinstellingen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
+ms.openlocfilehash: 38a03727f91878f356d8bc0dc618c711bfc500bb
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830535"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845730"
 ---
-# <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Office 365 ATP
+# <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -59,31 +59,31 @@ Dit zijn de beschikbare voorwaarden en uitzonderingen:
 
 ### <a name="policies-in-preset-security-policies"></a>Beleidsregels in vooraf ingesteld beveiligingsbeleid
 
-Vooraf ingesteld beveiligingsbeleid Gebruik de bijbehorende beleidsregels van de verschillende beveiligingsfuncties in EOP en Office 365 ATP. Deze beleidsregels worden gemaakt _nadat_ u de vooraf ingestelde beveiligings beleidsregels **Standaardbeveiliging** of **strikte beveiliging** aan gebruikers hebt toegewezen. U kunt deze beleidsregels niet wijzigen.
+Vooraf ingesteld beveiligingsbeleid gebruikt het bijbehorende beleid van de verschillende beveiligingsfuncties in EOP en Microsoft Defender voor Office 365. Deze beleidsregels worden gemaakt _nadat_ u de vooraf ingestelde beveiligings beleidsregels **Standaardbeveiliging** of **strikte beveiliging** aan gebruikers hebt toegewezen. U kunt deze beleidsregels niet wijzigen.
 
 - **Beleid voor Exchange Online Protection (EOP)** : Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
   
-  - [Anti spam beleid](configure-your-spam-filter-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikte beveiligingsbeleid** .
-  - [Beleidsregels voor anti-malware](configure-anti-malware-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikt vooraf ingesteld beveiligingsbeleid** .
+  - [Anti spam beleid](configure-your-spam-filter-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikte beveiligingsbeleid**.
+  - [Beleidsregels voor anti-malware](configure-anti-malware-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikt vooraf ingesteld beveiligingsbeleid**.
   - [EOP anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid** (spoof instellingen).
 
-- **Office 365 Advanced Threat Protection (ATP)-beleidsregels** : Dit omvat organisaties met microsoft 365 E5 of Office 365 ATP-uitbreidings abonnementen:
+- **Beleidsregels voor Microsoft Defender voor Office 365** : Dit omvat organisaties met microsoft 365 E5 of Defender voor Office 365-invoegtoepassingen:
 
-  - ATP anti-phishingfilter met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid** , waaronder:
+  - Anti phishingfilter in Microsoft Defender voor Office 365 met de naam **standaard vooraf ingestelde beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid** , waaronder:
 
     - De [instellingen voor spoofing](set-up-anti-phishing-policies.md#spoof-settings) die beschikbaar zijn in het anti-phishings beleid van EOP.
-    - [Imitatie-instellingen](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
-    - [Geavanceerde phishingberichten](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
+    - [Imitatie-instellingen](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+    - [Geavanceerde phishingberichten](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
-  - [Beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md) met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid** .
+  - [Beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md) met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid**.
 
-  - [Beleidsregels voor veilige bijlagen](set-up-atp-safe-attachments-policies.md) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid** .
+  - [Beleidsregels voor veilige bijlagen](set-up-atp-safe-attachments-policies.md) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid**.
 
-U kunt EOP-bescherming toepassen op verschillende gebruikers dan ATP-beveiligingen.
+U kunt EOP-bescherming toepassen op verschillende gebruikers dan Microsoft Defender voor Office 365 Protection.
 
 ### <a name="policy-settings-in-preset-security-policies"></a>Beleidsinstellingen in vooraf ingesteld beveiligingsbeleid
 
-U kunt de beleidsinstellingen in de beveiligingsprofielen niet wijzigen. De waarden voor **standaard** en **strikte** beleidsinstelling worden beschreven in [Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging](recommended-settings-for-eop-and-office365-atp.md).
+U kunt de beleidsinstellingen in de beveiligingsprofielen niet wijzigen. De waarden voor **standaard** en **strikte** beleidsinstelling worden beschreven in [Aanbevolen instellingen voor EOP en microsoft Defender voor Office 365-beveiliging](recommended-settings-for-eop-and-office365-atp.md).
 
 ### <a name="order-of-precedence-for-preset-security-policies-and-other-policies"></a>Prioriteit van vooraf ingestelde beveiligingsbeleidsregels en andere beleidsregels
 
@@ -121,11 +121,11 @@ Met andere woorden: de instellingen van het **strikte beveiligings** beleid nege
 
 1. Ga in het beveiligings & nalevings centrum naar **Threat management** \> **Policy** \> **vooraf gedefinieerde beveiligingsbeleid** van het beleid voor bedreigings beheer.
 
-2. Klik onder **Standaardbeveiliging** of **strikte beveiliging** op **bewerken** .
+2. Klik onder **Standaardbeveiliging** of **strikte beveiliging** op **bewerken**.
 
 3. De wizard **Standaardbeveiliging toepassen** of **strikte beveiliging toepassen** . Identificeer op de **EOP-beveiligingstoepassing voor** stap de interne geadresseerden waarop de [EOP-bescherming](#policies-in-preset-security-policies) van toepassing is:
 
-   1. Klik op **een voorwaarde toevoegen** . Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als** :
+   1. Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als** :
 
       - **De geadresseerden zijn**
       - **De geadresseerden zijn lid van**
@@ -139,23 +139,23 @@ Met andere woorden: de instellingen van het **strikte beveiligings** beleid nege
 
       Herhaal de vorige stap om waarden toe te voegen aan de voorwaarde en herhaal deze stap zo vaak als nodig is of pas de voorwaarden af.
 
-   4. Als u een uitzondering wilt toevoegen, klikt u op **een voorwaarde toevoegen** . Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven, **behalve wanneer** . De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   4. Als u een uitzondering wilt toevoegen, klikt u op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven, **behalve wanneer**. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
-   Wanneer u klaar bent, klikt u op **volgende** .
+   Wanneer u klaar bent, klikt u op **volgende**.
 
-4. Als uw organisatie Office 365 ATP heeft, wordt u aangeraden de **ATP-beveiligingstoepassing** uit te voeren voor de interne geadresseerden waarop de [Office 365 ATP-beveiligingsmaatregelen](#policies-in-preset-security-policies) van toepassing zijn.
+4. Als uw organisatie Microsoft Defender voor Office 365 heeft, bent u op de i **ATP-beveiliging van toepassing** op de interne geadresseerden waarop de [Microsoft defender voor Office 365-beveiliging](#policies-in-preset-security-policies) van toepassing is.
 
    De instellingen en het gedrag lijken exact op de **EOP-bescherming van toepassing op** stap.
 
-   Wanneer u klaar bent, klikt u op **volgende** .
+   Wanneer u klaar bent, klikt u op **volgende**.
 
-5. Controleer uw selecties in de stap **bevestigen** en klik vervolgens op **bevestigen** .
+5. Controleer uw selecties in de stap **bevestigen** en klik vervolgens op **bevestigen**.
 
 ### <a name="use-the-security--compliance-center-to-modify-the-assignments-of-preset-security-policies"></a>Het nalevings centrum voor beveiliging & gebruiken om de toewijzingen van vooraf ingestelde beveiligingsbeleidsregels te wijzigen
 
 De stappen voor het wijzigen van de toewijzing van het beveiligingsbeleid van de **Standaardbeveiliging** of voor **strikte beveiliging** zijn hetzelfde als wanneer u [de vooraf ingestelde beveiligingsbeleidsregels aan gebruikers hebt toegewezen](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users).
 
-Als u de **Standaardbeveiliging** of beveiligings beleidsregels voor **strikte** beveiliging wilt uitschakelen, maar de bestaande voorwaarden en uitzonderingen wel wilt behouden, verschuift u de wisselknop naar **uitgeschakeld** . Als u het beleid wilt inschakelen, verschuift u de wisselknop naar **ingeschakeld** .
+Als u de **Standaardbeveiliging** of beveiligings beleidsregels voor **strikte** beveiliging wilt uitschakelen, maar de bestaande voorwaarden en uitzonderingen wel wilt behouden, verschuift u de wisselknop naar **uitgeschakeld**. Als u het beleid wilt inschakelen, verschuift u de wisselknop naar **ingeschakeld**.
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 

@@ -1,6 +1,6 @@
 ---
-title: Ondersteunde API‘s voor Microsoft Threat Protection
-description: Ondersteunde API‘s voor Microsoft Threat Protection
+title: Ondersteunde Microsoft 365 Defender-Api's
+description: Ondersteunde Microsoft 365 Defender-Api's
 keywords: MTP, API, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fda90945f09abfadfe56ea11469687130d88b2a7
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: b7c0accf2d649d4ad6177260294922ee17783f2c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203693"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844958"
 ---
-# <a name="supported-microsoft-threat-protection-apis"></a>Ondersteunde API‘s voor Microsoft Threat Protection 
+# <a name="supported-microsoft-365-defender-apis"></a>Ondersteunde Microsoft 365 Defender-Api's 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.

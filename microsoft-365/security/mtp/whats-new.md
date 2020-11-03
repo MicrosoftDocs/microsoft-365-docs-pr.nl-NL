@@ -1,6 +1,6 @@
 ---
-title: Wat is er nieuw in Microsoft Threat Protection
-description: Bevat een overzicht van de nieuwe functies en functionaliteit in Microsoft Threat Protection
+title: Nieuw in Microsoft 365 Defender
+description: Bevat een overzicht van de nieuwe functies en functionaliteit in Microsoft 365 Defender
 keywords: Nieuw in Microsoft Threat Protection, NH, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 1b3cc273b61fcdff3c01b30c9ef64619a0e7a368
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 5214f7c399ab511ec16231e4dda97a2c33b37668
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430395"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844702"
 ---
-# <a name="whats-new-in-microsoft-threat-protection"></a>Wat is er nieuw in Microsoft Threat Protection
+# <a name="whats-new-in-microsoft-365-defender"></a>Nieuw in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-De volgende functies zijn meestal beschikbaar (GA) in de nieuwste versie van Microsoft Threat Protection.
+De volgende functies zijn meestal beschikbaar (GA) in de nieuwste versie van Microsoft 365 Defender.
 
 RSS-feed: waarschuwen wanneer deze pagina wordt bijgewerkt door de volgende URL te kopiëren en te plakken in uw feed lezer:
 ```http

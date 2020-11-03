@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen inzicht krijgen in de werking van de spoof Intelligence-informatie, waaronder hoe u snel kunt bepalen welke afzenders u niet-geverifieerde e-mail hebt verzonden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fc934491606a53ebfb4bae4f46ab9e1ee93467b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 5995095e442bbcd07ddf4538b67be6e1b14fd8f1
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48198569"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844210"
 ---
-# <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Scenario: voor de spoofing informatie over spoof informatie in Microsoft 365
+# <a name="walkthrough---defender-for-office-365-spoof-intelligence-insight-in-microsoft-365"></a>Procedure-Defender voor Office 365 spoof Intelligence inzicht in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-In Microsoft 365-organisaties met Advanced Threat Protection (ATP) kunt u met behulp van de spoof Intelligence-informatie snel bepalen welke afzenders u legitiem e-mailadres kunt sturen. Als u wilt dat ze vervalste berichten kunnen verzenden, kunt u het risico van onbepaalde valse berichten verminderen. U kunt ook gebruikmaken van de informatie over het gebruik van spoof Intelligence voor het bewaken en beheren van toegestane domein paren, zodat er een extra beveiligingslaag wordt geboden en onveilige berichten in uw organisatie kunnen worden binnengekomen.
+In Microsoft 365-organisaties met Defender for Office 365 kunt u met behulp van de spoof Intelligence-informatie snel bepalen welke afzenders op de legitiem manier u niet-geverifieerde e-mail verzenden. Als u wilt dat ze vervalste berichten kunnen verzenden, kunt u het risico van onbepaalde valse berichten verminderen. U kunt ook gebruikmaken van de informatie over het gebruik van spoof Intelligence voor het bewaken en beheren van toegestane domein paren, zodat er een extra beveiligingslaag wordt geboden en onveilige berichten in uw organisatie kunnen worden binnengekomen.
 
 Als u geen ervaring hebt met [rapporten en inzichten in het beveiligings & compliance](reports-and-insights-in-security-and-compliance.md), kan het handig zijn om te zien hoe u eenvoudig kunt navigeren van een dashboard naar een insightle en aanbevolen actie.
 
@@ -49,7 +49,7 @@ Dit scenario is een van de verschillende voor het beveiligings & nalevings centr
   - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
   - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- U schakelt de spoof-informatie in en uit in het anti-phishingfilter-beleid. Zie voor meer informatie [het artikel ATP anti-phishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md).
+- U schakelt spoof informatie in en uit in anti-phishing-beleid in Microsoft Defender voor Office 365. Zie [anti phishing-beleid in Microsoft Defender voor Office 365 in Microsoft 365 configureren](configure-atp-anti-phishing-policies.md)voor meer informatie.
 
 - In Microsoft 365-organisaties met postvakken van Exchange Online en in standalone Exchange Online Protection (EOP) zonder postvakken van Exchange Online, kunt u gebruikmaken van spoof Intelligence om afzenders te volgen en te beheren waarnaar u niet-geverifieerde berichten verzendt. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
 
@@ -59,9 +59,9 @@ Dit scenario is een van de verschillende voor het beveiligings & nalevings centr
 
 2. Ga naar de rij **inzichten** en zoek een van de volgende items:
 
-   - **Spoof Intelligence is ingeschakeld**: het inzicht is **in vervals bare domeinen die de authenticatie van de afgelopen 30 dagen mislukt**. Dit is de standaardinstelling.
+   - **Spoof Intelligence is ingeschakeld** : het inzicht is **in vervals bare domeinen die de authenticatie van de afgelopen 30 dagen mislukt**. Dit is de standaardinstelling.
 
-   - **Spoof-informatie is uitgeschakeld**: de inzichten van de naam **spoofing inschakelen**en op de optie om spoof Intelligence in te schakelen.
+   - **Spoof-informatie is uitgeschakeld** : de inzichten van de naam **spoofing inschakelen** en op de optie om spoof Intelligence in te schakelen.
 
 3. Het inzicht in het Dashboard toont u informatie zoals hier:
 
@@ -83,11 +83,11 @@ Dit scenario is een van de verschillende voor het beveiligings & nalevings centr
 
    **Verdachte domein paren** zijn:
 
-   - **Spoofing met hoge betrouwbaarheid**: microsoft 365 heeft sterke signalen ontvangen waarmee deze domeinen verdacht zijn, op basis van de historische Verstuur patronen en de reputatie Score van de domeinen. Microsoft 365 is zeer geschikt voor spoofing en de berichten die vanuit deze domeinen worden verzonden, zijn minder waarschijnlijk legitiem.
+   - **Spoofing met hoge betrouwbaarheid** : microsoft 365 heeft sterke signalen ontvangen waarmee deze domeinen verdacht zijn, op basis van de historische Verstuur patronen en de reputatie Score van de domeinen. Microsoft 365 is zeer geschikt voor spoofing en de berichten die vanuit deze domeinen worden verzonden, zijn minder waarschijnlijk legitiem.
 
-   - **Spoofing van minder betrouwbaarheid**: microsoft 365 heeft geregelde signalen ontvangen dat deze domeinen verdacht zijn, op basis van historische Verstuur patronen en de reputatie Score van de domeinen. Office 365 is traag met een goede vertrouwene zekerheid dat de domeinen spoofing hebben en dat verzonden berichten van deze domeinen legitiem zijn. Deze Bucket heeft een groter risico met fout-positieven (FPs) dan de sterke vertrouw baarheid.
+   - **Spoofing van minder betrouwbaarheid** : microsoft 365 heeft geregelde signalen ontvangen dat deze domeinen verdacht zijn, op basis van historische Verstuur patronen en de reputatie Score van de domeinen. Office 365 is traag met een goede vertrouwene zekerheid dat de domeinen spoofing hebben en dat verzonden berichten van deze domeinen legitiem zijn. Deze Bucket heeft een groter risico met fout-positieven (FPs) dan de sterke vertrouw baarheid.
 
-   - **Niet-verdachte domein paren** (waaronder **herstel van spoofing**): hersteld spoof zijn domeinen die de expliciete verificatiecontrole hebben mislukt [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md)), maar het impliciet verifiëren van e-mail verificatie ([samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)). Daarom heeft Microsoft 365 het e-mailbericht namens u hersteld en wordt er geen anti-spoofing-actie uitgevoerd voor het bericht.
+   - **Niet-verdachte domein paren** (waaronder **herstel van spoofing** ): hersteld spoof zijn domeinen die de expliciete verificatiecontrole hebben mislukt [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md)), maar het impliciet verifiëren van e-mail verificatie ( [samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)). Daarom heeft Microsoft 365 het e-mailbericht namens u hersteld en wordt er geen anti-spoofing-actie uitgevoerd voor het bericht.
 
 ### <a name="view-detailed-information-about-suspicious-domain-pairs-from-the-spoof-intelligence-insight"></a>Gedetailleerde informatie weergeven over verdachte domein paren van de spoof Intelligence Insight
 

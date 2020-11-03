@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: In dit artikel leest u hoe u met SharePoint Online virussen kunt herkennen aan bestanden die gebruikers uploaden en voorkomen dat gebruikers de bestanden downloaden of synchroniseren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38d6111fe665e0af79cbd93f534b1058881ff76c
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: f774c9afd0988c504d6207b0e71ee9561312e6b4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327985"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844234"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Ingebouwde antivirusbeveiliging in SharePoint Online, OneDrive en Microsoft teams
 
@@ -65,9 +65,9 @@ Dit is wat er gebeurt:
 
 OneDrive-synchronisatieclient downloaden geen bestanden die virussen bevatten. Met de synchronisatieclient wordt een melding weergegeven dat het bestand niet kan worden gesynchroniseerd.
 
-## <a name="extended-capabilities-with-office-365-advanced-threat-protection"></a>Uitgebreide mogelijkheden met Office 365 Advanced Threat Protection
+## <a name="extended-capabilities-with-microsoft-defender-for-office-365"></a>Uitgebreide mogelijkheden met Microsoft Defender voor Office 365
 
-Microsoft 365-organisaties met een [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md) die zijn opgenomen in hun abonnement of die zijn gekocht als een invoegtoepassing, kunnen ATP voor SharePoint, OneDrive en Microsoft teams uitgebreide rapporten en beveiliging inschakelen. Zie [ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md)voor meer informatie.
+Microsoft 365-organisaties waarop [Microsoft Defender for Office 365](office-365-atp.md) in hun abonnement is opgenomen of als een invoegtoepassing zijn gekocht, kunnen ATP voor SharePoint, OneDrive en Microsoft teams gebruiken voor uitgebreide rapportage en bescherming. Zie [ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md)voor meer informatie.
 
 ## <a name="more-information"></a>Meer informatie
 

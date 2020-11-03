@@ -1,5 +1,5 @@
 ---
-title: Overzicht van aangepaste detecties in Microsoft Threat Protection
+title: Overzicht van aangepaste detecties in Microsoft 365 Defender
 description: Meer informatie over het gebruik van geavanceerde jacht om aangepaste detecties te maken en waarschuwingen te genereren
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, aangepaste detectie, schema, kusto, Microsoft 365, Microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 28d6cca20c8b386d5e6f7f39b80264a39f88ec55
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fe2b9f1b52fa2c8d9031bb58597992f3dda91520
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199463"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843910"
 ---
 # <a name="custom-detections-overview"></a>Overzicht van aangepaste detectie
 
@@ -30,7 +30,7 @@ ms.locfileid: "48199463"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 Met aangepaste detectie kunt u de diverse gebeurtenissen en systeemstatus proactief controleren en beantwoorden, waaronder verdachte schendings activiteiten en onjuist geconfigureerde eindpunten. Dit is mogelijk door aanpasbare detectieregels die automatisch waarschuwingen en antwoord acties activeren.
 

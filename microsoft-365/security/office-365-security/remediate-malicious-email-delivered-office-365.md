@@ -13,20 +13,20 @@ MS.collection: ''
 search.appverid: MET150
 description: Bedreiging voor herbemiddeling
 appliesto:
-- Microsoft Threat Protection
-ms.openlocfilehash: a7c1f6f89f5414f5fc6ef8dd59d2894195e75f7f
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+- Microsoft 365 Defender
+ms.openlocfilehash: af34b171cb213836d47edb2fb2905fb75341b02f
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48774057"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845598"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Kwaadwillende e-mailberichten herstellen die worden bezorgd in Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Herstel houdt in dat u een voorgeschreven actie neemt tegen een bedreiging. Kwaadwillende e-mailberichten die naar uw organisatie worden verzonden, kunnen worden opgeschoond door het systeem, via het automatisch opschonen van het systeem (ZAP), of door beveiligings teams via herstelacties zoals *verplaatsen naar Postvak in* , *verplaatsen naar ongewenste e-mail* , *verplaatsen naar verwijderde items* , *zacht verwijderen* of *permanent verwijderen* . Office Advanced Threat Protection (Office ATP) P2/E5 stelt beveiligings teams in staat bedreigingen te herstellen in de e-mail-en samenwerkings functionaliteit via handmatig en automatisch onderzoek.
+Herstel houdt in dat u een voorgeschreven actie neemt tegen een bedreiging. Kwaadwillende e-mailberichten die naar uw organisatie worden verzonden, kunnen worden opgeschoond door het systeem, via het automatisch opschonen van het systeem (ZAP), of door beveiligings teams via herstelacties zoals *verplaatsen naar Postvak in* , *verplaatsen naar ongewenste e-mail* , *verplaatsen naar verwijderde items* , *zacht verwijderen* of *permanent verwijderen*. Microsoft Defender voor Office 365 P2/E5 stelt beveiligings teams in staat bedreigingen te herstellen in de e-mail-en samenwerkings functionaliteit via handmatig en automatisch onderzoek.
 
 > [!NOTE]
 > Voor het herstellen van kwaadaardige e-mail hebben beveiligings teams de rol *zoeken en wissen* toegewezen. Roltoewijzing wordt uitgevoerd via machtigingen in het beveiligings-en compliance Center.
@@ -44,10 +44,10 @@ Voor zaken zoals berichtkoppen weergeven of e-mail inhoud downloaden, moet u een
 |Met behulp van de bedreigings Verkenner kopteksten en e-mailberichten die zijn bezorgd bij postvakken weergeven|Globale beheerder <br>Beveiligingsbeheerder <br> Beveiligings lezer <br> Voorbeeld|Ja|
 
 > [!NOTE]
-> Voorbeeld is een *rol* , geen *rollen groep* . De rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De *rol van globale beheerder* wordt toegewezen in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com). De rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in de [beveiligings-en compliance Centers](https://protection.office.com). Zie [machtigingen in de sectie Beveiliging en compliance](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
+> Voorbeeld is een *rol* , geen *rollen groep*. De rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De *rol van globale beheerder* wordt toegewezen in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com). De rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in de [beveiligings-en compliance Centers](https://protection.office.com). Zie [machtigingen in de sectie Beveiliging en compliance](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
 
 > [!NOTE]
-> Beheerders kunnen de juiste actie ondernemen voor e-mailberichten, maar als ze zijn goedgekeurd, moeten ze de rol zoeken en de functie voor het *opschonen* van de beheerder toewijzen via **beveiliging en compliance Center**  >  **Permissions** .
+> Beheerders kunnen de juiste actie ondernemen voor e-mailberichten, maar als ze zijn goedgekeurd, moeten ze de rol zoeken en de functie voor het *opschonen* van de beheerder toewijzen via **beveiliging en compliance Center**  >  **Permissions**.
 
 ## <a name="manual-and-automated-remediation"></a>Handmatige en geautomatiseerde herstel
 

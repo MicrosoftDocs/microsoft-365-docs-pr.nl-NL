@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-office365
 description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 kunt u de resultaten en de belangrijkste bevindingen bekijken.
 ms.date: 09/29/2020
-ms.openlocfilehash: 18da168615ce7e570bcdc9149ac14fe72b8eda4f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9640ec9429f1c8317c6526976b2fe24c1137115a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447057"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844570"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Wanneer een [geautomatiseerd onderzoek](office-365-air.md) zich voordoet in [Office 365 Advanced Threat Protection](office-365-atp.md), zijn er in en na het proces voor automatisch onderzoek informatie over dat onderzoek beschikbaar. Als u de benodigde machtigingen hebt, kunt u deze gegevens bekijken in de weergave Details van onderzoek. De weergave onderzoek Details biedt u de actuele status en de mogelijkheid om alle in behandeling zijnde acties goed te keuren.
+Wanneer er een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in [Microsoft Defender voor Office 365](office-365-atp.md), is er informatie over dat onderzoek beschikbaar tijdens en na het proces voor automatisch onderzoek. Als u de benodigde machtigingen hebt, kunt u deze gegevens bekijken in de weergave Details van onderzoek. De weergave onderzoek Details biedt u de actuele status en de mogelijkheid om alle in behandeling zijnde acties goed te keuren.
 
 ## <a name="investigation-status"></a>Status van onderzoek
 
@@ -42,15 +42,15 @@ Met de status van onderzoek wordt de voortgang van de analyse en acties aangegev
 |---|---|
 |Starten| Het onderzoek is geactiveerd en wacht tot de uitvoering is begonnen.|
 |Werking| Het onderzoek proces is begonnen en wordt uitgevoerd. Deze status treedt ook op wanneer [acties in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) zijn goedgekeurd.|
-|Geen bedreigingen gevonden| Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) vastgesteld. <br/><br/>**Tip**: als u vermoedt dat er iets mis is, kunt u de actie ondernemen met behulp van de [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
-|Bedreigingen gevonden|Het geautomatiseerde onderzoek heeft problemen gevonden, maar er zijn geen specifieke herstelacties om deze problemen op te lossen.<br/><br/> De status van de bedreigingen blijkt te bestaan wanneer sommige typen gebruikersactiviteiten zijn gevonden, maar er zijn geen opruimings acties beschikbaar. Voorbeelden hiervan zijn een van de volgende gebruikersactiviteiten: <br/>-Een gebeurtenis van [preventie van gegevensverlies](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) (DLP) <br/>-Een afwijkende e-mail verzenden <br/>-Verstuur malware <br/>-Verzonden phishing<br/>Het onderzoek vond geen schadelijke Url's, bestanden of e-mailberichten die u wilt herstellen, en geen activiteiten van het postvak voor het oplossen van problemen, zoals het uitschakelen van doorstuurregels of delegatie. <br/><br/>**Tip**: als u vermoedt dat er een fout is opgetreden (zoals een onwaar negatief), kunt u onderzoek doen en actie ondernemen met behulp van de [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
-|Beëindigd door systeem| Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen worden beëindigd:<br/>-De acties die in behandeling zijn verlopen. Time-out van activiteiten in behandeling na goedkeuring voor één week. <br/>-Er zijn te veel acties. Als u bijvoorbeeld wilt dat te veel gebruikers op schadelijke Url's klikken, kan dit de mogelijkheid voor het onderzoek van alle analyseren te lang zijn, zodat het onderzoek stopt. <br/><br/>**Tip**: als een onderzoek stopt voordat er een actie is ondernomen, kunt u de [bedreigings Verkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) gebruiken om bedreigingen te vinden en op te lossen.|
+|Geen bedreigingen gevonden| Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) vastgesteld. <br/><br/>**Tip** : als u vermoedt dat er iets mis is, kunt u de actie ondernemen met behulp van de [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
+|Bedreigingen gevonden|Het geautomatiseerde onderzoek heeft problemen gevonden, maar er zijn geen specifieke herstelacties om deze problemen op te lossen.<br/><br/> De status van de bedreigingen blijkt te bestaan wanneer sommige typen gebruikersactiviteiten zijn gevonden, maar er zijn geen opruimings acties beschikbaar. Voorbeelden hiervan zijn een van de volgende gebruikersactiviteiten: <br/>-Een gebeurtenis van [preventie van gegevensverlies](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) (DLP) <br/>-Een afwijkende e-mail verzenden <br/>-Verstuur malware <br/>-Verzonden phishing<br/>Het onderzoek vond geen schadelijke Url's, bestanden of e-mailberichten die u wilt herstellen, en geen activiteiten van het postvak voor het oplossen van problemen, zoals het uitschakelen van doorstuurregels of delegatie. <br/><br/>**Tip** : als u vermoedt dat er een fout is opgetreden (zoals een onwaar negatief), kunt u onderzoek doen en actie ondernemen met behulp van de [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
+|Beëindigd door systeem| Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen worden beëindigd:<br/>-De acties die in behandeling zijn verlopen. Time-out van activiteiten in behandeling na goedkeuring voor één week. <br/>-Er zijn te veel acties. Als u bijvoorbeeld wilt dat te veel gebruikers op schadelijke Url's klikken, kan dit de mogelijkheid voor het onderzoek van alle analyseren te lang zijn, zodat het onderzoek stopt. <br/><br/>**Tip** : als een onderzoek stopt voordat er een actie is ondernomen, kunt u de [bedreigings Verkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) gebruiken om bedreigingen te vinden en op te lossen.|
 |Actie in behandeling| Het onderzoek heeft een bedreiging gevonden, zoals een kwaadaardige e-mail, een schadelijke URL of een instelling voor risicoieve postvakken, en een actie om te voorkomen dat de bedreiging op de [goedkeuring](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)wacht.<br/><br/>De Actiestatus in behandeling wordt geactiveerd wanneer er een risico bestaat met een bijbehorende actie. De lijst met acties die in behandeling zijn, kan echter toenemen wanneer een onderzoek wordt uitgevoerd. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) om te zien of andere items nog niet zijn voltooid.|
-|Herstelde| Het onderzoek is voltooid en alle acties zijn goedgekeurd (volledig hersteld).<br/><br/>**Opmerking**: goedgekeurde herstelacties kunnen fouten bevatten waarmee de bewerkingen niet worden uitgevoerd. De status van onderzoek heeft geen invloed op het feit of herstelacties succesvol zijn voltooid. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor uitgebreide resultaten.|
+|Herstelde| Het onderzoek is voltooid en alle acties zijn goedgekeurd (volledig hersteld).<br/><br/>**Opmerking** : goedgekeurde herstelacties kunnen fouten bevatten waarmee de bewerkingen niet worden uitgevoerd. De status van onderzoek heeft geen invloed op het feit of herstelacties succesvol zijn voltooid. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor uitgebreide resultaten.|
 |Gedeeltelijk opgelost| Het onderzoek vertoont een herstelactie en sommige zijn goedgekeurd en voltooid. Andere acties zijn nog steeds [in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).|
-|Mislukt| Minstens één onderzoek analyse heeft een probleem voorgedaan waarbij het niet goed kon worden voltooid. <br/><br/>**Opmerking**: als een onderzoek mislukt nadat de acties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds geslaagd. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor uitgebreide resultaten.|
-|In wachtrij geplaatst door beperking| Er wordt een onderzoek in een wachtrij gehouden. Wanneer andere tests zijn voltooid, begint het in de wachtrij geplaatste onderzoek. Beperking helpt de prestaties van de service te voorkomen. <br/><br/>**Tip**: met de actie in behandeling kunnen de hoeveelheid nieuwe onderzoeken worden beperkt. Zorg ervoor dat de [actie in behandeling is goedgekeurd (of genegeerd)](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions).|
-|Beëindigd door de beperking| Als een onderzoek te lang wordt in de wachtrij gehouden, stopt dit. <br/><br/>**Tip**: u kunt [een onderzoek starten vanuit de Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).|
+|Mislukt| Minstens één onderzoek analyse heeft een probleem voorgedaan waarbij het niet goed kon worden voltooid. <br/><br/>**Opmerking** : als een onderzoek mislukt nadat de acties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds geslaagd. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor uitgebreide resultaten.|
+|In wachtrij geplaatst door beperking| Er wordt een onderzoek in een wachtrij gehouden. Wanneer andere tests zijn voltooid, begint het in de wachtrij geplaatste onderzoek. Beperking helpt de prestaties van de service te voorkomen. <br/><br/>**Tip** : met de actie in behandeling kunnen de hoeveelheid nieuwe onderzoeken worden beperkt. Zorg ervoor dat de [actie in behandeling is goedgekeurd (of genegeerd)](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions).|
+|Beëindigd door de beperking| Als een onderzoek te lang wordt in de wachtrij gehouden, stopt dit. <br/><br/>**Tip** : u kunt [een onderzoek starten vanuit de Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).|
 |
 
 ## <a name="view-details-of-an-investigation"></a>Details van een onderzoek weergeven
@@ -59,7 +59,7 @@ Met de status van onderzoek wordt de voortgang van de analyse en acties aangegev
 
 2. Voer een van de volgende bewerkingen uit:
 
-    - Ga naar **Threat management**  >  **Dashboard**Threat Management. U gaat nu naar het [beveiligings dashboard](security-dashboard.md). Uw lucht widgets worden weergegeven boven aan het [beveiligings dashboard](security-dashboard.md). Selecteer een widget, zoals **onderzoek samenvatting**.
+    - Ga naar **Threat management**  >  **Dashboard** Threat Management. U gaat nu naar het [beveiligings dashboard](security-dashboard.md). Uw lucht widgets worden weergegeven boven aan het [beveiligings dashboard](security-dashboard.md). Selecteer een widget, zoals **onderzoek samenvatting**.
 
     - Ga naar onderzoek voor **Threat Management**  >  **Investigations**.
 
@@ -87,7 +87,7 @@ Bepaalde soorten waarschuwingen activeren geautomatiseerd onderzoek in Microsoft
 
 5. Selecteer een item in de lijst. Er verschijnt een flyout met details over de waarschuwing en koppelingen naar aanvullende informatie en acties.
 
-6. De gegevens in het vervolgmenu bekijken en, afhankelijk van de bepaalde melding, een actie uitvoeren, zoals het **oplossen**, **onderdrukken**of waarschuwen van **gebruikers**.
+6. De gegevens in het vervolgmenu bekijken en, afhankelijk van de bepaalde melding, een actie uitvoeren, zoals het **oplossen** , **onderdrukken** of waarschuwen van **gebruikers**.
 
     - **Oplossing** is gelijk aan het sluiten van een waarschuwing
 
@@ -107,8 +107,8 @@ Op de pagina geautomatiseerd onderzoek ziet u de onderzoeken en de huidige statu
 
 U kunt:
 
-- Ga rechtstreeks naar een onderzoek (Selecteer een **onderzoek-id**).
-- Filters toepassen. Kies uit **onderzoek type**, **tijdsbereik**, **status**of een combinatie van deze.
+- Ga rechtstreeks naar een onderzoek (Selecteer een **onderzoek-id** ).
+- Filters toepassen. Kies uit **onderzoek type** , **tijdsbereik** , **status** of een combinatie van deze.
 - Exporteer de gegevens naar een CSV-bestand.
 
 ### <a name="investigation-graph"></a>Onderzoek grafiek
@@ -164,7 +164,7 @@ Het aantal e-mailberichten dat wordt aangegeven op het tabblad e-mail, staat mom
 
 E-mail van de Verkenner en de ether worden per geadresseerde verzonden, aangezien de beveiligings-Verdicts,-acties en-bezorgingslocaties verschillen per geadresseerde. Daarom telt een oorspronkelijk e-mailbericht dat naar drie gebruikers is verzonden, een totaal van drie e-mailberichten in plaats van één e-mailbericht. Er kunnen situaties zijn waarin een e-mailbericht twee of meer keren wordt geteld, bijvoorbeeld wanneer een e-mail meerdere acties bevat, of als er meerdere kopieën van de e-mail zijn wanneer alle acties plaatsvinden. Als u bijvoorbeeld een malware-e-mailbericht dat bij de bezorging is gedetecteerd, wordt weergegeven in zowel een vergrendelde e-mail als een vervangend e-mailbericht (bedreigings bestand vervangen door een waarschuwings bestand, vervolgens bezorgd in het postvak van de gebruiker). Aangezien er in het systeem wel of meerdere kopieën van de e-mail worden weergegeven, worden beide mogelijk geteld in het aantal clusters.
 
-Het aantal e-mailberichten wordt berekend op het moment van het onderzoek en sommige tellingen worden herberekend wanneer u onderzoek-flyouten opent (op basis van een onderliggende query). Het aantal e-mailberichten dat wordt weergegeven voor de e-mail clusters op het tabblad e-mail en de waarde voor e-mail hoeveelheid die wordt weergegeven in het cluster flyout, worden berekend op het moment van onderzoek en niet gewijzigd. Het aantal e-mailberichten onderaan het tabblad e-mail van de flyout e-mail cluster en het aantal e-mailberichten in Explorer weerspiegelt de e-mailberichten die zijn ontvangen na de eerste analyse van het onderzoek. Daarom wordt in een e-mail cluster met een oorspronkelijk aantal tien e-mailberichten een e-mail lijst met het totaal aantal tien weergegeven wanneer vijf e-mailberichten binnenkomen tussen de fase onderzoek analyse en wanneer de beheerder het onderzoek beoordeelt.  Ook oude onderzoeken kunnen beginnen met het groter maken van de weergave van Verkenner-query's, aangezien ATP P2 gegevens na 7 dagen verloopt voor proefversies en 30 dagen voor betaalde licenties.  Als u de weergave van zowel historische als huidige aantallen in verschillende weergaven wilt weergeven, wordt het e-mailbericht op het moment van het onderzoek en de huidige impact op het moment van herstel weergegeven.
+Het aantal e-mailberichten wordt berekend op het moment van het onderzoek en sommige tellingen worden herberekend wanneer u onderzoek-flyouten opent (op basis van een onderliggende query). Het aantal e-mailberichten dat wordt weergegeven voor de e-mail clusters op het tabblad e-mail en de waarde voor e-mail hoeveelheid die wordt weergegeven in het cluster flyout, worden berekend op het moment van onderzoek en niet gewijzigd. Het aantal e-mailberichten onderaan het tabblad e-mail van de flyout e-mail cluster en het aantal e-mailberichten in Explorer weerspiegelt de e-mailberichten die zijn ontvangen na de eerste analyse van het onderzoek. Daarom wordt in een e-mail cluster met een oorspronkelijk aantal tien e-mailberichten een e-mail lijst met het totaal aantal tien weergegeven wanneer vijf e-mailberichten binnenkomen tussen de fase onderzoek analyse en wanneer de beheerder het onderzoek beoordeelt.  Op deze manier kunnen ook oude onderzoeken beginnen met het maken van een groter aantal van de Verkenner-query's, aangezien de versie van de versie van de versie van de versie van Office 365 P2 na 7 dagen voor proefperiode en 30 dagen voor betaalde licenties  Als u de weergave van zowel historische als huidige aantallen in verschillende weergaven wilt weergeven, wordt het e-mailbericht op het moment van het onderzoek en de huidige impact op het moment van herstel weergegeven.
 
 U kunt bijvoorbeeld het volgende scenario volgen. Het eerste cluster van drie e-mailberichten werd als phishing beschouwd. Een ander cluster met soortgelijke berichten met hetzelfde IP-adres en onderwerp werd gevonden en als schadelijk werd beschouwd, omdat sommige hiervan zijn geïdentificeerd als phishing tijdens de eerste detectie.
 
@@ -198,13 +198,13 @@ Op het tabblad **computers** ziet u alle systemen die als onderdeel van het onde
 
 ![De pagina AIR-computer voor onderzoek](../../media/air-investigationmachinepage.png)
 
-Als onderdeel van een playbooks, verbindt lucht de vorm van e-mail Risico's met apparaten (bijvoorbeeld zapped malware). Een onderzoek geeft bijvoorbeeld een kwaadaardige bestandshash in [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
+Als onderdeel van een playbooks, verbindt lucht de vorm van e-mail Risico's met apparaten (bijvoorbeeld zapped malware). Een onderzoek geeft bijvoorbeeld een kwaadaardige bestandshash in [Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
 ) om te onderzoeken. Dit helpt voor een geautomatiseerde onderzoek van de relevante computers voor uw gebruikers, zodat bedreigingen zowel in de Cloud als in de eindpunten worden opgelost.
 
 U kunt:
 
 - Bekijk een visueel overzicht van de huidige systemen en bedreigingen.
-- Selecteer een machine om een weergave te openen in de verwante [Microsoft Defender ATP-onderzoeken](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) in het Microsoft Defender-Beveiligingscentrum.
+- Selecteer een machine om een weergave te openen in de verwante [Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) in het Microsoft Defender-Beveiligingscentrum.
 
 ### <a name="entity-investigation"></a>Dienst onderzoek
 
@@ -249,7 +249,7 @@ U kunt:
 |Spam onderzoek uitgaande malware en spam|Intra-organisatie en uitgaande malware, phishing of spam detecteren van gebruikers in uw organisatie|
 |Onderzoek domein van afzender|Controle op aanvraag van domein via de [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
 |IP-onderzoek van afzender| Controle op aanvraag van IP-reputatie via [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
-|URL'S klikken onderzoek| Onderzoek klikken van gebruikers die zijn beveiligd via [veilige koppelingen in Office 365 ATP](atp-safe-links.md) in uw organisatie|
+|URL'S klikken onderzoek| Onderzoek klikken van gebruikers die zijn beveiligd via [veilige koppelingen in Microsoft Defender voor Office 365](atp-safe-links.md) in uw organisatie|
 |URL-reputatie onderzoek|Vraag over de URL op aanvraag van de [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
 |Onderzoek van gebruikersactiviteit|Afwijkingen van gebruikersactiviteiten analyseren in de [Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|
 |Door de gebruiker gerapporteerde e-mail indicatoren|Indicatoren uitpakken uit de koptekst, hoofdtekst en inhoud van door de [gebruiker gerapporteerde e-mail](enable-the-report-message-add-in.md) voor onderzoek|
@@ -275,4 +275,4 @@ U kunt:
 
 - [In behandeling zijnde acties controleren en goedkeuren](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)
 
-- [Meer informatie over het geautomatiseerde onderzoek en antwoord in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Meer informatie over een automatisch onderzoek en antwoord in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

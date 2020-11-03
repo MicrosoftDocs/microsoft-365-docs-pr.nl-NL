@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: ed91ca8a2300cf69cb78ae24ad61e9aebb4dcc85
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 9aaeb5323900e65de47015b8cb28abf967694ea3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429417"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844798"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Overzicht van het Microsoft 365-Beveiligingscentrum
 
@@ -52,7 +52,7 @@ Het Microsoft 365 Beveiligingscentrum omvat:
 
 * **Thuis** : Bekijk in een oogopslag de algehele beveiligingsstatus van uw organisatie.
 * **Incidenten** -Zie de bredere verhalen van een aanval door de stippen te verbinden voor afzonderlijke waarschuwingen op de entiteiten. U weet exact waar een aanval is gestart, welke apparaten worden beïnvloed, welke gevolgen werden beïnvloed en waar de bedreiging is verdwenen.
-* **Waarschuwingen** : Lees meer inzicht in alle meldingen in uw microsoft 365-omgeving. Dit omvat waarschuwingen uit beveiliging van de Microsoft Cloud-app, Office 365 ATP, Azure Active Directory, Azure ATP en Microsoft Defender ATP. Beschikbaar voor de klanten E3 en E5.  
+* **Waarschuwingen** : Lees meer inzicht in alle meldingen in uw microsoft 365-omgeving. Dit omvat waarschuwingen uit Microsoft Cloud app Security, Microsoft Defender for Office 365, Azure Active Directory, Microsoft Defender for Identity en Microsoft Defender for Endpoint. Beschikbaar voor de klanten E3 en E5.  
 * **Actiecentrum** : het volume van waarschuwingen verminderen uw beveiligingsteam moet handmatig een adres invullen, zodat uw beveiligingsteam de aandacht biedt voor geavanceerdere bedreigingen en andere initiatieven voor hoge waarden.
 * **Rapporten** : de details en informatie die u nodig hebt om uw gebruikers, apparaten, apps en meer te beschermen.
 * **Secure Score** – Verbeter uw volledige beveiligings Posture met Microsoft Secure Score. Deze pagina bevat een volledig overzicht van de verschillende beveiligingsfuncties en mogelijkheden die u hebt ingeschakeld, inclusief aanbevelingen voor gebieden die u wilt verbeteren.

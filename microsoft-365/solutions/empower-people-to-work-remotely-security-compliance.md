@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik beveiligings- en complianceservices van Microsoft 365 om uw apps, gegevens en apparaten te beveiligen voor externe werknemers.
-ms.openlocfilehash: 7607f3945d2e3c4e057162296df94dce4c611dbe
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 6c6c30e320068a6e97cf5fd2cd81b4bfeff1c49e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681466"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845226"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Stap 3: Het implementeren van beveiliging en compliance voor externe werknemers
 
@@ -49,9 +49,9 @@ Beveilig uw toepassingen en gegevens met deze beveiligingsfuncties van Microsoft
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Office 365 Advanced Threat Protection (ATP) | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. <br><br> Met Office ATP worden signalen van uw apps verzameld en geanalyseerd voor detectie, onderzoek en herstel van beveiligingsrisico's en wordt uw organisatie beschermd tegen bedreigingen in de vorm van e-mailberichten, koppelingen (URL's) en hulpmiddelen voor samenwerking. | Microsoft 365 E3 of E5 | 
+| Microsoft Defender voor Office 365 | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. <br><br> Met Microsoft Defender voor Office 365 worden signalen van uw apps verzameld en geanalyseerd voor detectie, onderzoek en herstel van beveiligingsrisico's en wordt uw organisatie beschermd tegen bedreigingen in de vorm van e-mailberichten, koppelingen (URL's) en hulpmiddelen voor samenwerking. | Microsoft 365 E3 of E5 | 
 | Bescherming tegen malware | Microsoft Defender Antivirus en Device Guard bieden apparaatbescherming tegen malware. <br><br> In SharePoint Online wordt het uploaden van bestanden automatisch gescand op bekende malware. ‎<br><br> Exchange Online Protection (EOP) beveiligt postvakken in de cloud. | Microsoft 365 E3 of E5 |
-| Microsoft Defender ATP | Beveilig de apparaten van uw organisatie tegen cyberbedreigingen en datalekken en detecteer, onderzoek en reageer op geavanceerde bedreigingen. | Microsoft 365 E5 |
+| Microsoft Defender voor Eindpunt  | Beveilig de apparaten van uw organisatie tegen cyberbedreigingen en datalekken en detecteer, onderzoek en reageer op geavanceerde bedreigingen. | Microsoft 365 E5 |
 | Cloud App Security | Beveilig de cloudservices tegen een aanval. Zowel Microsoft 365 als andere SaaS-apps. | Microsoft 365 E5-licentie of afzonderlijke Cloud App Security-licenties |
 | Azure AD Identity Protection  | Detectie en herstel van identiteitsrisico's automatiseren. <br><br>Maak een risicobeleid voor voorwaardelijke toegang aan, waarbij meervoudige verificatie (MFA) voor risicovolle aanmeldingen vereist is. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties |
 ||||

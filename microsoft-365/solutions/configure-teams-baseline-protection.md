@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Leer teams met een basisbescherming te implementeren.
-ms.openlocfilehash: ac6974b5625a4eff0fcd11a17c4607a7c2caf97f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 76b60a61812c4d30884825b41ee7220d6686b58b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398863"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845298"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Teams met basisbescherming configureren
 
@@ -33,13 +33,13 @@ In dit artikel leest u hoe u teams met een basisbescherming kunt implementeren. 
 
 Als eerste stap wordt u aangeraden basisbeleid voor identiteiten en apparaattoegang te configureren. Zie [Beleidsaanbevelingen voor het beveiligen van Teams-chats, -groepen en -bestanden](../security/office-365-security/teams-access-policies.md) voor meer informatie.
 
-We raden u ook aan de basisfuncties van Advanced Threat Protection in te schakelen voor de bescherming tegen malware in documenten, bijlagen en koppelingen. We adviseren u om de opties in de volgende tabel in te schakelen.
+We raden u ook aan de basisfuncties van Defender voor Office 365 in te schakelen voor de bescherming tegen malware in documenten, bijlagen en koppelingen. We adviseren u om de opties in de volgende tabel in te schakelen.
 
 |Optie|Informatie|
 |:------|:-----------|
-|Veilige bijlagen in ATP voor SPO, OneDrive en Teams|[Veilige bijlagen in Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Office 365 ATP voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
-|Veilige bijlagen in ATP|[Veilige documenten in Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-|Veilige koppelingen in ATP voor Teams|[Veilige Office 365-koppelingen in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Veilige Office 365-koppelingen in ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
+|Veilige bijlagen voor SPO, OneDrive en Teams|[Veilige bijlagen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Defender voor Office 365 - SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
+|Veilige documenten|[Veilige documenten in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
+|Veilige koppelingen voor Teams|[Veilige Office 365-koppelingen in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Veilige koppelingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
 
 ## <a name="teams-guest-sharing"></a>Delen met gasten in Teams
 

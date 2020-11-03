@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik Microsoft Endpoint Manager om uw apparaten, pc's en andere eindpunten te beheren.
-ms.openlocfilehash: 72aa26c50f5d3c20409382f19d8beabb5d290023
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 291c1111bbfaf9a549c0d2ac22dab450a32a6a96
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681478"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845262"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Stap 4. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
 
@@ -44,7 +44,7 @@ Zie voor meer informatie dit [overzicht van Microsoft Intune](https://docs.micro
 
 ## <a name="configuration-manager"></a>Configuration Manager
 
-Configuration Manager is een on-premises beheeroplossing voor het beheer van desktops, servers en laptops op uw netwerk of op internet. Gebruik Configuration Manager om apps, software-updates en besturingssystemen te implementeren. U kunt ook toezicht houden op naleving, clients in real time doorzoeken en hiermee communiceren, en nog veel meer. U kunt cloudtoegang inschakelen voor integratie met Intune, Azure AD, Microsoft Defender ATP en andere cloudservices. 
+Configuration Manager is een on-premises beheeroplossing voor het beheer van desktops, servers en laptops op uw netwerk of op internet. Gebruik Configuration Manager om apps, software-updates en besturingssystemen te implementeren. U kunt ook toezicht houden op naleving, clients in real time doorzoeken en hiermee communiceren, en nog veel meer. U kunt cloudtoegang inschakelen voor integratie met Intune, Azure AD, Microsoft Defender voor Eindpunt en andere cloudservices. 
 
 Zie voor meer informatie dit [overzicht van Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/understand/introduction).
 

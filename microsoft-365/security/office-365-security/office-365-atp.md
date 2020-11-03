@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced Threat Protection
+title: Microsoft Defender voor Office 365
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -19,41 +19,41 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365 Advanced Threat Protection omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: 8acf38cc61f2789c407a80200b97269043bab95e
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
+ms.openlocfilehash: a822c3ab8e065d9349172731e2081799853be637
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600515"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845778"
 ---
-# <a name="office-365-advanced-threat-protection-atp"></a>Office 365 Advanced Threat Protection (ATP)
+# <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
+> Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
 
-Office 365 Advanced Threat Protection (ATP) beschermt uw organisatie tegen kwaadwillende bedreigingen door e-mailberichten, koppelingen (URL’s) en hulpmiddelen voor samenwerking. ATP bevat onder meer:
+Microsoft Defender voor Office 365 beschermt je organisatie tegen kwaadwillende bedreigingen afkomstig van e-mailberichten, koppelingen (URL’s) en hulpmiddelen voor samenwerking. Defender voor Office 365 omvat:
 
-- **[Beleid voor bedreigingsbeveiliging](#configure-atp-policies)**: definieer beleid voor bedreigingsbeveiliging om het juiste beveiligingsniveau in te stellen voor uw organisatie.
+- **[Beleid voor bedreigingsbeveiliging](#configure-microsoft-defender-for-office-365-policies)** : definieer beleid voor bedreigingsbeveiliging om het juiste beveiligingsniveau in te stellen voor uw organisatie.
 
-- **[Rapporten](#view-office-365-atp-reports)**: bekijk realtime rapporten om ATP-prestaties in uw organisatie te bewaken.
+- **[Rapporten](#view-microsoft-defender-for-office-365-reports)** : bekijk realtime rapporten om prestaties van Defender voor Office 365 in de organisatie te bewaken.
 
-- **[Functies voor bedreigingsonderzoek en reacties](#use-threat-investigation-and-response-capabilities)**: gebruik toonaangevende hulpmiddelen om bedreigingen te onderzoeken, te doorgronden, te simuleren en te voorkomen.
+- **[Functies voor bedreigingsonderzoek en reacties](#use-threat-investigation-and-response-capabilities)** : gebruik toonaangevende hulpmiddelen om bedreigingen te onderzoeken, te doorgronden, te simuleren en te voorkomen.
 
-- **[Mogelijkheden voor geautomatiseerd onderzoek en acties](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)**: bespaar tijd en moeite bij het onderzoeken en beperken van bedreigingen.
+- **[Mogelijkheden voor geautomatiseerd onderzoek en acties](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)** : bespaar tijd en moeite bij het onderzoeken en beperken van bedreigingen.
 
 ## <a name="getting-started"></a>Aan de slag
 
-Als u nog niet eerder met Office 365 Advanced Threat Protection hebt gewerkt of als u *al doende* het beste leert, kunt u er baat bij hebben om de initiële ATP-configuratie in segmenten op te delen en rapporten te bekijken met deze post als referentie. Hier vindt u logische segmenten van een vroege configuratie:
+Als je nog niet eerder met Microsoft Defender voor Office 365 hebt gewerkt of als je *al doende* het beste leert, kun je er baat bij hebben om de initiële Defender voor Office 365-configuratie in segmenten op te delen en rapporten te bekijken met dit artikel als referentie. Hier vindt u logische segmenten van een vroege configuratie:
 
-- Configureer alles met '*anti*' in de naam.
+- Configureer alles met ' *anti* ' in de naam.
     - anti-malware
     - anti-phishing
     - anti-spam
-- Configureer alles met '*veilig*' in de naam.
+- Configureer alles met ' *veilig* ' in de naam.
     - veilige koppelingen
     - veilige bijlagen
 - De werkbelastingen verdedigen (bijv. SharePoint Online, OneDrive en Teams) 
@@ -62,51 +62,51 @@ Als u nog niet eerder met Office 365 Advanced Threat Protection hebt gewerkt of 
 [Klik op deze koppeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide&preserve-view=true) om al doende te leren. 
 
 > [!NOTE]
-> ATP kent twee verschillende typen abonnementen. U kunt zien of u **Abonnement 1** hebt als u 'Realtime detecties' hebt en **Abonnement 2** als u Bedreigingsverkenner hebt. Het abonnement dat u gebruikt, is van invloed op de hulpmiddelen die u ziet, dus zorg er bij het leren voor dat u weet welk abonnement u hebt.
+> Er zijn twee verschillende typen abonnementen beschikbaar voor Microsoft Defender voor Office 365. U kunt zien of u **Abonnement 1** hebt als u 'Realtime detecties' hebt en **Abonnement 2** als u Bedreigingsverkenner hebt. Het abonnement dat u gebruikt, is van invloed op de hulpmiddelen die u ziet, dus zorg er bij het leren voor dat u weet welk abonnement u hebt.
 
-## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP-abonnement 1 en -abonnement 2
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365
 
 De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement.
 
 ****
 
-|Office 365 ATP-abonnement 1|Office 365 ATP-abonnement 2|
+|Abonnement 1 voor Microsoft Defender voor Office 365|Abonnement 2 voor Microsoft Defender voor Office 365|
 |---|---|
-|<br/>Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[ATP-bescherming tegen phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies van Office 365 ATP-abonnement 1<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:</li><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
+|<br/>Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies in abonnement 1 voor Microsoft Defender voor Office 365<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:</li><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
 |
 
-- Office 365 ATP-abonnement 2 is inbegrepen in Office 365 E5, Office 365 A5, Microsoft 365 E5 Security en Microsoft 365 E5.
+- Abonnement 2 voor Microsoft Defender voor Office 365 is inbegrepen in Office 365 E5, Office 365 A5, Microsoft 365 E5 Security en Microsoft 365 E5.
 
-- Office 365 ATP-abonnement 1 is inbegrepen in Microsoft 365 Business Premium.
+- Abonnement 1 voor Microsoft Defender voor Office 365 is inbegrepen in Microsoft 365 Business Premium.
 
-- Office 365 ATP-abonnement 1 en Office 365 ATP-abonnement 2 zijn elk beschikbaar als invoegtoepassing voor bepaalde abonnementen. Zie [Beschikbaarheid van functies in ATP-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- Abonnement 1 voor Microsoft Defender voor Office 365 en abonnement 2 voor Microsoft Defender voor Office 365 zijn elk beschikbaar als een invoegtoepassing voor bepaalde abonnementen. Raadpleeg voor meer informatie [Beschikbaarheid van functies in Microsoft Defender voor Office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
-- De [Veilige documenten](safe-docs.md)-functie is alleen beschikbaar voor gebruikers met Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in Office 365 ATP-abonnementen).
+- De functie [Veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met een Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in abonnementen voor Microsoft Defender voor Office 365).
 
-- Als uw huidige abonnement Office 365 ATP niet bevat, [neem dan contact op met de verkoopafdeling voor een proefabonnement](https://go.microsoft.com/fwlink/p/?LinkId=518644) en bekijk hoe ATP werkt voor uw organisatie.
+- Als je huidige abonnement Microsoft Defender voor Office 365 niet bevat, [neem dan contact op met de verkoopafdeling voor een proefabonnement](https://go.microsoft.com/fwlink/p/?LinkId=518644) en bekijk hoe Defender voor Office 365 werkt voor jouw organisatie.
 
-## <a name="configure-atp-policies"></a>ATP-beleid configureren
+## <a name="configure-microsoft-defender-for-office-365-policies"></a>Beleid in Microsoft Defender voor Office 365 instellen
 
-Met Office 365 ATP kan het beveiligingsteam van uw organisatie beveiliging configureren door beleid te definiëren in het beveiligings- en compliancecentrum (Ga naar [https://protection.office.com](https://protection.office.com) > **Threat management** > **Policy**).
+Met Microsoft Defender voor Office 365 kan het beveiligingsteam van je organisatie beveiliging configureren door beleid te definiëren in het beveiligings- en compliancecentrum (Ga naar [https://protection.office.com](https://protection.office.com) > **Bedreigingsbeheer** > **Beleid** ).
 
 > [!TIP]
 > Zie [Beveiligen tegen bedreigingen](protect-against-threats.md) voor een kort overzicht van te definiëren beleid.
 
-## <a name="advanced-threat-protection-policies"></a>Advanced Threat Protection-beleid
+## <a name="defender-for-office-365-policies"></a>Beleid voor Defender voor Office 365
 
 Het beleid dat wordt gedefinieerd voor uw organisatie bepaalt het gedrag en beveiligingsniveau voor vooraf gedefinieerde bedreigingen. Beleidsopties zijn bijzonder flexibel. Het beveiligingsteam van uw organisatie kan bijvoorbeeld verfijnde bedreigingsbeveiliging instellen op gebruikers-, organisatie-, ontvanger- en domeinniveau. Het is belangrijk regelmatig uw beleid te controleren, omdat er dagelijks nieuwe bedreigingen en uitdagingen bijkomen.
 
-- **[Veilige bijlagen](atp-safe-attachments.md)**: biedt ‘zero-day’-bescherming om uw berichtensysteem te beveiligen, door e-mailbijlagen te controleren op schadelijke inhoud. Alle berichten en bijlagen die geen virus-/malwarehandtekening hebben, worden gerouteerd naar een speciale omgeving en vervolgens worden machine learning en analysetechnieken gebruikt om kwaadwillende inhoud te ontdekken. Als er geen verdachte activiteit wordt gevonden, wordt het bericht doorgestuurd naar het postvak. Zie [Beleid voor veilige bijlagen instellen](set-up-atp-safe-attachments-policies.md) voor meer informatie.
+- **[Veilige bijlagen](atp-safe-attachments.md)** : biedt ‘zero-day’-bescherming om uw berichtensysteem te beveiligen, door e-mailbijlagen te controleren op schadelijke inhoud. Alle berichten en bijlagen die geen virus-/malwarehandtekening hebben, worden gerouteerd naar een speciale omgeving en vervolgens worden machine learning en analysetechnieken gebruikt om kwaadwillende inhoud te ontdekken. Als er geen verdachte activiteit wordt gevonden, wordt het bericht doorgestuurd naar het postvak. Zie [Beleid voor veilige bijlagen instellen](set-up-atp-safe-attachments-policies.md) voor meer informatie.
 
-- **[Veilige koppelingen](atp-safe-links.md)**: biedt ‘time-of-click’-verificatie van URL’s in bijvoorbeeld e-mailberichten en Office-bestanden. De bescherming is continu en is van toepassing op uw berichten- en Office-omgeving. Koppelingen worden gescand op elke klik: veilige koppelingen blijven toegankelijk en schadelijke koppelingen worden dynamisch geblokkeerd. Zie [Beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.md) voor meer informatie.
+- **[Veilige koppelingen](atp-safe-links.md)** : biedt ‘time-of-click’-verificatie van URL’s in bijvoorbeeld e-mailberichten en Office-bestanden. De bescherming is continu en is van toepassing op uw berichten- en Office-omgeving. Koppelingen worden gescand op elke klik: veilige koppelingen blijven toegankelijk en schadelijke koppelingen worden dynamisch geblokkeerd. Zie [Beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.md) voor meer informatie.
 
-- **[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)**: beschermt uw organisatie wanneer gebruikers samenwerken en bestanden delen door schadelijke bestanden in teamsites en documentbibliotheken te identificeren en te blokkeren. Zie [Office 365 ATP inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
+- **[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)** : beschermt uw organisatie wanneer gebruikers samenwerken en bestanden delen door schadelijke bestanden in teamsites en documentbibliotheken te identificeren en te blokkeren. Raadpleeg voor meer informatie [Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
-- **[ATP-bescherming tegen phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)**: detecteert pogingen om uw gebruikers en interne of aangepaste domeinen na te bootsen. Hiermee worden machine learning-modellen en geavanceerde vervalsingsdetectie-algoritmen toegepast om phishing-aanvallen te voorkomen. Zie [ATP-beleid voor anti-phishing configureren in Office 365](configure-atp-anti-phishing-policies.md) voor meer informatie.
+- **[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)** : detecteert pogingen om je gebruikers en interne of aangepaste domeinen na te bootsen. Hiermee worden machine learning-modellen en geavanceerde vervalsingsdetectie-algoritmen toegepast om phishing-aanvallen te voorkomen. Raadpleeg voor meer informatie [Beleid tegen phishing configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md).
 
-## <a name="view-office-365-atp-reports"></a>Office 365 ATP-rapporten bekijken
+## <a name="view-microsoft-defender-for-office-365-reports"></a>Microsoft Defender voor Office 365-rapporten weergeven
 
-Office 365 ATP bevat onder meer een geavanceerd [rapportagedashboard](view-reports-for-atp.md) om uw ATP-prestaties te bewaken. U kunt het openen in het Beveiligings- en compliancecentrum bij **Rapporten** > **Dashboard**.
+Microsoft Defender voor Office 365 bevat een geavanceerd [rapportagedashboard](view-reports-for-atp.md) voor het controleren van de prestaties van Defender voor Office 365. U kunt het openen in het Beveiligings- en compliancecentrum bij **Rapporten** > **Dashboard**.
 
 Rapporten worden in realtime bijgewerkt en voorzien u zo van de nieuwste inzichten. Deze rapporten bieden ook aanbevelingen en waarschuwen u tegen naderende bedreigingen. Vooraf gedefinieerde rapporten omvatten het volgende:
 
@@ -114,29 +114,29 @@ Rapporten worden in realtime bijgewerkt en voorzien u zo van de nieuwste inzicht
 
 - [Statusrapport bedreigingsbeveiliging](view-reports-for-atp.md#threat-protection-status-report)
 
-- [Rapport over bestandstypen Advanced Threat Protection](view-reports-for-atp.md#advanced-threat-protection-file-types-report)
+- [Rapport over bestandstypen voor Defender voor Office 365](view-reports-for-atp.md#defender-for-office-365-file-types-report)
 
-- [Rapport over berichtverwerking Advanced Threat Protection](view-reports-for-atp.md#advanced-threat-protection-message-disposition-report)
+- [Rapport over berichtverwerking voor Defender voor Office 365](view-reports-for-atp.md#defender-for-office-365-message-disposition-report)
 
 - ... en verschillende andere.
 
 ## <a name="use-threat-investigation-and-response-capabilities"></a>Functies gebruiken om bedreigingen te onderzoeken en erop te reageren
 
-Office 365 ATP-abonnement 2 bevat de beste [hulpmiddelen voor bedreigingsonderzoek en reacties](office-365-ti.md) waarmee het beveiligingsteam van uw organisatie kwaadwillende aanvallen kan anticiperen, doorgronden en voorkomen.
+Abonnement 2 van Microsoft Defender voor Office 365 bevat de beste [hulpmiddelen voor bedreigingsonderzoek en reacties](office-365-ti.md) waarmee het beveiligingsteam van je organisatie kwaadwillende aanvallen kan anticiperen, doorgronden en voorkomen.
 
 - **[Bedreigingsoverzichten](threat-trackers.md)** bieden de nieuwste informatie over actuele cybersecurity-kwesties.  U kunt bijvoorbeeld informatie bekijken over de nieuwste malware en tegenmaatregelen nemen voordat het een echte bedreiging voor uw organisatie wordt. De beschikbare overzichten bevatten [Noteworthy-overzichten](threat-trackers.md#noteworthy-trackers), [Trending-overzichten](threat-trackers.md#trending-trackers), [Bijgehouden query’s](threat-trackers.md#tracked-queries) en [Opgeslagen query’s](threat-trackers.md#saved-queries).
 
-- **[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)**(ook wel Verkenner genoemd) is een realtime rapport waarmee u recente bedreigingen kunt identificeren en analyseren. U kunt Verkenner configureren om gegevens weer te geven voor aangepaste perioden.
+- **[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)** (ook wel Verkenner genoemd) is een realtime rapport waarmee u recente bedreigingen kunt identificeren en analyseren. U kunt Verkenner configureren om gegevens weer te geven voor aangepaste perioden.
 
 - Met **[Aanvalssimulator](attack-simulator.md)** kunt u realistische aanvalscenario’s in uw organisatie uitvoeren om kwetsbaarheden te identificeren. Er zijn simulaties van de huidige typen aanvallen beschikbaar, inclusief spear phishingaanvallen ‘credential harvest’ en ‘attachment’ en wachtwoordspray en beveiligingsaanvallen op wachtwoorden.
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>Tijd besparen met geautomatiseerd onderzoek en acties
 
-(**NIEUW!**) Wanneer u een potentiële cyberaanval onderzoekt is tijd van doorslaggevend belang. Hoe sneller u aanvallen kunt identificeren en beperken, hoe beter het is voor uw organisatie. Mogelijkheden voor [Geautomatiseerd onderzoek en acties](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR) omvatten een aantal beveiligingsdraaiboeken die automatisch kunnen worden gestart, zoals wanneer een waarschuwing wordt geactiveerd, of handmatig, zoals vanaf een weergave in Verkenner. AIR kan uw beveiligingsteam tijd en moeite besparen bij het effectief en efficiënt beperken van bedreigingen. Zie [AIR in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) voor meer informatie.
+( **NIEUW!** ) Wanneer u een potentiële cyberaanval onderzoekt is tijd van doorslaggevend belang. Hoe sneller u aanvallen kunt identificeren en beperken, hoe beter het is voor uw organisatie. Mogelijkheden voor [Geautomatiseerd onderzoek en acties](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR) omvatten een aantal beveiligingsdraaiboeken die automatisch kunnen worden gestart, zoals wanneer een waarschuwing wordt geactiveerd, of handmatig, zoals vanaf een weergave in Verkenner. AIR kan uw beveiligingsteam tijd en moeite besparen bij het effectief en efficiënt beperken van bedreigingen. Zie [AIR in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) voor meer informatie.
 
-## <a name="permissions-required-to-use-atp-features"></a>Vereiste machtigingen voor ATP-functies
+## <a name="permissions-required-to-use-microsoft-defender-for-office-365-features"></a>Vereiste machtigingen voor het gebruik van de functies van Microsoft Defender voor Office 365
 
-U moet een passende rol zijn toegewezen om toegang te krijgen tot ATP-functies in het Beveiligings- en compliancecentrum. De volgende tabel bevat enkele voorbeelden:
+U moet een passende rol zijn toegewezen om toegang te krijgen tot Microsoft Defender voor Office 365-functies in het Beveiligings- en compliancecentrum. De volgende tabel bevat enkele voorbeelden:
 
 |Rol of rollengroep|Informatiebronnen|
 |---|---|
@@ -147,28 +147,28 @@ U moet een passende rol zijn toegewezen om toegang te krijgen tot ATP-functies i
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-## <a name="get-office-365-atp"></a>Office 365 ATP kopen
+## <a name="get-microsoft-defender-for-office-365"></a>Download Microsoft Defender voor Office 365
 
-Office 365 ATP is inbegrepen in bepaalde abonnementen, zoals Microsoft 365 E5, Office 365 E5, Office 365 A5 en Microsoft 365 Business Premium. Als uw abonnement niet beschikt over Office 365 ATP kunt u ATP-abonnement 1 of ATP-abonnement 2 als invoegtoepassing kopen bij bepaalde abonnementen. Zie de volgende bronnen voor meer informatie:
+Microsoft Defender voor Office 365 is inbegrepen in bepaalde abonnementen, zoals Microsoft 365 E5, Office 365 E5, Office 365 A5 en Microsoft 365 Business Premium. Als je abonnement geen Defender voor Office 365 bevat, kun je abonnement 1 voor Defender voor Office 365 of abonnement 2 voor Defender voor Office 365 aanschaffen als een invoegtoepassing voor bepaalde abonnementen. Zie de volgende bronnen voor meer informatie:
 
-- [Beschikbaarheid van Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) voor een lijst met abonnementen waarin ATP-abonnementen zijn opgenomen.
+- [Beschikbaarheid van Microsoft Defender voor Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) voor een lijst met abonnementen waarin een abonnement voor Defender voor Office 365 is opgenomen.
 
-- [De beschikbaarheid van functies in ATP-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) voor een lijst met functies in abonnement 1 en 2.
+- [De beschikbaarheid van functies in Microsoft Defender voor Office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) voor een lijst met functies in abonnement 1 en 2.
 
-- [De juiste Office 365 ATP aanschaffen](https://products.office.com/exchange/advance-threat-protection#pmg-allup-content) om abonnementen te vergelijken en Office 365 ATP te kopen.
+- [De juiste Microsoft Defender voor Office 365 kiezen](https://products.office.com/exchange/advance-threat-protection#pmg-allup-content) voor het vergelijken van abonnementen en het aanschaffen van Defender voor Office 365.
 
 - [Een gratis proefversie starten](https://go.microsoft.com/fwlink/p/?LinkID=698279)
 
-## <a name="new-features-in-office-365-atp"></a>Nieuwe functies in Office 365 ATP
+## <a name="new-features-in-microsoft-defender-for-office-365"></a>Nieuwe functies in Microsoft Defender voor Office 365
 
-Er worden continu nieuwe functies aan Office 365 ATP toegevoegd. Zie de volgende bronnen voor meer informatie:
+Er worden doorlopend nieuwe functies aan Microsoft Defender voor Office 365 toegevoegd. Zie de volgende bronnen voor meer informatie:
 
 - [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection) biedt een lijst met nieuwe functies die in ontwikkeling zijn en worden geïmplementeerd.
 
-- [Office 365 Advanced Threat Protection-servicebeschrijving](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) beschrijft de functies en beschikbaarheid in ATP-abonnementen.
+- [Beschrijving van de service Microsoft Defender voor Office 365 ](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) beschrijft de functies en beschikbaarheid in de verschillende abonnementen voor Defender voor Office 365.
 
 ## <a name="see-also"></a>Zie ook
 
-- [Microsoft Threat Protection](../mtp/microsoft-threat-protection.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-- [Geautomatiseerd onderzoek en acties (AIR) in Microsoft Threat Protection](../mtp/mtp-autoir.md)
+- [Geautomatiseerd onderzoek en acties (AIR) in Microsoft 365 Defender](../mtp/mtp-autoir.md)

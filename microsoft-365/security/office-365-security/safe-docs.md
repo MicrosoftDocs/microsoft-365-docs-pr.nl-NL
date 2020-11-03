@@ -1,5 +1,5 @@
 ---
-title: Veilige documenten in Office 365 ATP
+title: Veilige documenten in Microsoft Defender voor Office 365
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -15,23 +15,23 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over veilige documenten in Microsoft 365 E5 of Microsoft 365 E5 beveiliging.
-ms.openlocfilehash: baa04f74388b702b42a0bdb83a7f0797ace09883
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: 7fbee440298aea3609665b62a946ae3ce2857e37
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48773947"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845478"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveiliging waarbij [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) gebruikmaakt voor het scannen van documenten en bestanden die worden geopend in de [beveiligde weergave](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
+Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveiliging waarbij [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) wordt gebruikt om documenten en bestanden te scannen die worden geopend in de [beveiligde weergave](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
 
-- Veilige documenten zijn alleen beschikbaar voor gebruikers met de beveiligings licenties voor *Microsoft 365 E5* of *Microsoft 365 E5* . Deze licenties zijn niet opgenomen in Office 365 Advanced Threat Protection (ATP)-abonnementen.
+- Veilige documenten zijn alleen beschikbaar voor gebruikers met de beveiligings licenties voor *Microsoft 365 E5* of *Microsoft 365 E5* . Deze licenties zijn niet opgenomen in Microsoft Defender for Office 365-abonnementen.
 
 - Veilige documenten worden ondersteund in Microsoft 365-apps voor Enterprise (voorheen bekend als Office 365 ProPlus) versie 2004 of hoger.
 
@@ -43,13 +43,13 @@ Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveil
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Hoe bewerkt Microsoft uw gegevens?
 
-Om te beschermen, worden met veilige documenten bestanden naar de [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) -Cloud verzonden voor analyse. Meer informatie over de manier waarop u uw gegevens in Microsoft Defender ATP verwerkt, vindt u hier: [Microsoft Defender ATP data storage en privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
+Om te beschermen, worden met veilige documenten bestanden naar de [Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) van de Cloud verzonden voor analyse. In dit onderwerp vindt u informatie over de manier waarop u uw gegevens kunt vinden in Microsoft Defender for endpoints: [Microsoft Defender for Endpoint data storage en privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
 
 Bestanden die door veilige documenten zijn verzonden, worden niet langer bewaard dan de tijd die nodig is voor de analyse (meestal minder dan 24 uur).
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Beveiligings & voor naleving van Beveiligingscentrum gebruiken om veilige documenten te configureren
 
-1. Ga in het beveiligings & compliance naar veilige bijlagen voor het beleid voor **bedreigings beheer** \> **Policy** \> **ATP Safe Attachments** en klik vervolgens op **algemene instellingen** .
+1. Ga in het beveiligings & compliance naar veilige bijlagen voor het beleid voor **bedreigings beheer** \> **Policy** \> **ATP Safe Attachments** en klik vervolgens op **algemene instellingen**.
 
 2. Configureer de volgende instellingen in de **algemene instellingen** die worden weergegeven:
 
@@ -59,7 +59,7 @@ Bestanden die door veilige documenten zijn verzonden, worden niet langer bewaard
 
    Klik op **Opslaan** wanneer u gereed bent.
 
-   ![Instellingen voor veilige documenten nadat u wereldwijde instellingen hebt geselecteerd op de pagina met veilige ATP-bijlagen.](../../media/safe-docs.png)
+   ![Instellingen voor veilige documenten nadat u wereldwijde instellingen hebt geselecteerd op de pagina voor veilige bijlagen.](../../media/safe-docs.png)
 
 ### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Veilige documenten configureren met Exchange Online PowerShell
 

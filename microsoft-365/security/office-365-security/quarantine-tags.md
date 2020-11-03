@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie over het gebruik van quarantaine-Tags om te bepalen wat gebruikers kunnen doen met hun Quarantine-berichten.
-ms.openlocfilehash: 89f03795d8f12b3df3e5090648c5a6c8b64c322a
-ms.sourcegitcommit: 676479f1e65492b44c4d0316a765f55ae9fae374
+ms.openlocfilehash: e50d7eea4cec3c87231dda855725b1e901f5fa33
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48819738"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845694"
 ---
 # <a name="quarantine-tags"></a>Quarantaine Tags
 
@@ -68,11 +68,11 @@ U maakt en wijst quarantaine tags toe in het beveiligings & nalevings centrum of
 
 ## <a name="step-1-create-quarantine-tags-in-the-security--compliance-center"></a>Stap 1: quarantaine Tags maken in de beveiligings & nalevings centrum
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags** .
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags**.
 
-2. Selecteer op de pagina **Quarantine-Tags** de optie **aangepaste tag toevoegen** .
+2. Selecteer op de pagina **Quarantine-Tags** de optie **aangepaste tag toevoegen**.
 
-3. De wizard **nieuwe code** wordt geopend. Voer op de pagina **labelnaam** een korte maar unieke naam in het veld **labelnaam** in. U moet de tag op naam identificeren en selecteren in de komende stappen. Wanneer u klaar bent, klikt u op **volgende** .
+3. De wizard **nieuwe code** wordt geopend. Voer op de pagina **labelnaam** een korte maar unieke naam in het veld **labelnaam** in. U moet de tag op naam identificeren en selecteren in de komende stappen. Wanneer u klaar bent, klikt u op **volgende**.
 
 4. Selecteer op de pagina **bericht toegang voor geadresseerde** een van de volgende waarden:
    - **Geen toegang**
@@ -96,11 +96,11 @@ U maakt en wijst quarantaine tags toe in het beveiligings & nalevings centrum of
 
    Deze machtigingen en hun effect op quarantaine berichten en de spam meldingen van eindgebruikers worden beschreven in de sectie [machtigingsgegevens van Quarantine](#quarantine-tag-permission-details) voor de tag verderop in dit artikel.
 
-   Wanneer u klaar bent, klikt u op **volgende** .
+   Wanneer u klaar bent, klikt u op **volgende**.
 
 5. Controleer de instellingen op de pagina **overzicht** die wordt weergegeven. U kunt op de verschillende instellingen klikken om de **bewerking** te wijzigen.
 
-   Als u klaar bent, klikt u op **verzenden** .
+   Als u klaar bent, klikt u op **verzenden**.
 
 6. Op de bevestigingspagina die verschijnt, klikt u op **gereed** .
 
@@ -229,7 +229,7 @@ In _ondersteunde_ beveiligingsfuncties waarmee u berichten of bestanden (automat
 |Functie|Ondersteunde labels voor quarantaine?|Standaard gebruikte quarantaine Tags|
 |---|:---:|---|
 |[Anti spam beleid](configure-your-spam-filter-policies.md): <ul><li>**Spam** ( _SpamAction_ )</li><li>**Hoge betrouwbaarheid spam** ( _HighConfidenceSpamAction_ )</li><li>**Malafide e-mailadres** ( _PhishSpamAction_ )</li><li>**E-mail met malafide vertrouwens kwaliteit** ( _HighConfidencePhishAction_ )</li><li>**Bulk-e-mail** ( _BulkSpamAction_ )</li></ul>|Ja|<ul><li>DefaultSpamTag (volledige toegang)</li><li>DefaultHighConfSpamTag (volledige toegang)</li><li>DefaultPhishTag (volledige toegang)</li><li>DefaultHighConfPhishTag (geen toegang)</li><li>DefaultBulkTag (volledige toegang)</li></ul>
-|Anti malafide beleid: <ul><li>[Spoof Intelligence-bescherming](set-up-anti-phishing-policies.md#spoof-settings) ( _AuthenticationFailAction_ )</li><li>[Imitatie bescherming](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies):<sup>\*</sup> <ul><li>**E-mail wordt verzonden door een geïmiteerde gebruiker** ( _TargetedUserProtectionAction_ )</li><li>**E-mail wordt verzonden door een geïmiteerd domein** ( _TargetedDomainProtectionAction_ )</li><li>**Postvak intelligentie** \> **E-mail wordt verzonden door een geïmiteerde gebruiker** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|Nee|n/b|
+|Anti malafide beleid: <ul><li>[Spoof Intelligence-bescherming](set-up-anti-phishing-policies.md#spoof-settings) ( _AuthenticationFailAction_ )</li><li>[Imitatie bescherming](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**E-mail wordt verzonden door een geïmiteerde gebruiker** ( _TargetedUserProtectionAction_ )</li><li>**E-mail wordt verzonden door een geïmiteerd domein** ( _TargetedDomainProtectionAction_ )</li><li>**Postvak intelligentie** \> **E-mail wordt verzonden door een geïmiteerde gebruiker** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|Nee|n/b|
 |[Beleid voor anti-malware](configure-anti-malware-policies.md): alle gevonden berichten worden altijd in quarantaine geplaatst.|Nee|n/b|
 |[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)|Nee|n/b|
 |Voor [e-mail stroom regels](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel transport-regels genoemd) met de actie: **Bezorg het bericht in de gehoste quarantaine** ( _quarantaine_ ).|Nee|n/b|
@@ -243,7 +243,7 @@ Als u tevreden bent met de machtigingen voor eindgebruikers van de standaard Qua
 
 Volledige instructies voor het maken en wijzigen van anti-spam beleid vindt u in het onderwerp [Antispambeleid in EOP](configure-your-spam-filter-policies.md).
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** \> en selecteer vervolgens **anti spam** . Of open <https://protection.office.com/antispam> .
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** \> en selecteer vervolgens **anti spam**. Of open <https://protection.office.com/antispam> .
 
 2. Zoek en selecteer een bestaand Antispambeleid om dit te bewerken, of maak een nieuw anti-spam beleid.
 
@@ -304,9 +304,9 @@ Zie [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module
 
 Met de algemene instellingen voor quarantaine Tags kunt u de spam meldingen voor eindgebruikers aanpassen die worden verzonden naar geadresseerden van berichten die zijn gequarantined. Voor meer informatie over deze meldingen raadpleegt u [spam meldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags** .
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags**.
 
-2. Selecteer op de pagina **Quarantine-Tags** de optie **globale instellingen** .
+2. Selecteer op de pagina **Quarantine-Tags** de optie **globale instellingen**.
 
 3. Configureer enkele of alle van de volgende instellingen in het vervolgmenu met **instellingen voor Quarantine-meldingen** dat wordt geopend:
 
@@ -318,7 +318,7 @@ Met de algemene instellingen voor quarantaine Tags kunt u de spam meldingen voor
 
    - **Taal kiezen** : spam meldingen voor eindgebruikers zijn al gelokaliseerd op basis van de taalinstellingen van de geadresseerde. U kunt aangepaste tekst in verschillende talen opgeven voor de **weergavenaam** en de **vrijwarings** waarden.
 
-     Selecteer minimaal één taal in het vak voor de eerste taal en klik op **toevoegen** . U kunt meerdere talen selecteren door op **toevoegen** te klikken. Een vak van de sectie taal bevat alle talen die u hebt geselecteerd:
+     Selecteer minimaal één taal in het vak voor de eerste taal en klik op **toevoegen**. U kunt meerdere talen selecteren door op **toevoegen** te klikken. Een vak van de sectie taal bevat alle talen die u hebt geselecteerd:
 
      ![Geselecteerde talen in het tweede vak van de taal in de instellingen voor algemeen Quarantine-meldingen van quarantaine markeringen](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
@@ -340,7 +340,7 @@ Met de algemene instellingen voor quarantaine Tags kunt u de spam meldingen voor
 
 ## <a name="view-quarantine-tags-in-the-security--compliance-center"></a>Quarantaine tags weergeven in het beveiligings & nalevings centrum
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags** .
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags**.
 
 - Als u de instellingen van ingebouwde of aangepaste Quarantine-tags wilt bekijken, selecteert u de quarantaine-tag in de lijst (niet het selectievakje inschakelen).
 
@@ -384,9 +384,9 @@ Zie [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module
 
   Als u de tag Quarantine gebruikt, moet u [de toegewezen quarantaine-tag vervangen](#step-2-assign-a-quarantine-tag-to-supported-features) voordat u deze verwijdert.
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags** .
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags**.
 
-2. Selecteer op de pagina **Quarantine-Tags** de aangepaste Quarantine-tag die u wilt verwijderen en klik vervolgens op **markering verwijderen** .
+2. Selecteer op de pagina **Quarantine-Tags** de aangepaste Quarantine-tag die u wilt verwijderen en klik vervolgens op **markering verwijderen**.
 
 3. Klik in het bevestigingsvenster dat wordt weergegeven op **tag verwijderen** .
 

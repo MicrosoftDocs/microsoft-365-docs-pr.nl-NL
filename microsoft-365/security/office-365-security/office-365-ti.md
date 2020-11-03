@@ -1,5 +1,5 @@
 ---
-title: Onderzoek van risico & antwoord mogelijkheden-Office 365 ATP abonnement 2
+title: Risico onderzoek & antwoord mogelijkheden-Microsoft Defender voor Office 365-abonnement 2
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -19,20 +19,20 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over het onderzoek en de antwoord mogelijkheden in Office 365 Advanced Threat Protection-abonnement.
-ms.openlocfilehash: 4d51a172c3b6fb8641648ecd7a33e320b0a42b24
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+description: Meer informatie over het onderzoek en de antwoord mogelijkheden in Microsoft Defender for Office 365-abonnement.
+ms.openlocfilehash: 6dba883a910306b548f1880be00ad45207da27dd
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431133"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845790"
 ---
 # <a name="threat-investigation-and-response"></a>Threat onderzoek en-antwoord
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Oplossingen voor onderzoek en antwoorden in [Office 365 Advanced Threat Protection](office-365-atp.md) helpen beveiligings analisten en beheerders de mogelijkheid te bieden gebruikers van de organisatie microsoft 365 voor bedrijven te beschermen door:
+Met behulp van bedreigingen voor onderzoek en antwoorden in [Microsoft Defender voor Office 365](office-365-atp.md) kunt u beveiligings analisten en beheerders beschermen tegen gebruikers van de organisatie microsoft 365 voor bedrijven door:
 - Het identificeren, controleren en begrijpen van cyberattacks
 - U kunt snel bedreigingen in Exchange Online, SharePoint Online, OneDrive voor bedrijven en Microsoft teams oplossen
 - Het verschaffen van inzichten en kennis bij het voorkomen van cyberattacks bij hun organisatie
@@ -72,7 +72,7 @@ Gebruik de lijst met incidenten (dit wordt ook wel onderzoek genoemd) om een lij
 
 ![Lijst met huidige bedreigingen in Office 365](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
 
-Als u de lijst met huidige incidenten voor uw organisatie wilt weergeven, gaat u naar het beveiligings & nalevings centrum en **gaat u naar** \> **Review** \> **incidenten**controleren.
+Als u de lijst met huidige incidenten voor uw organisatie wilt weergeven, gaat u naar het beveiligings & nalevings centrum en **gaat u naar** \> **Review** \> **incidenten** controleren.
 
 ![Kies in het beveiligings & nalevings centrum de optie Threat Management \> Review](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
@@ -86,17 +86,17 @@ Gebruik geautomatiseerde functies voor onderzoek en Reacties (lucht) om tijd te 
 
 ## <a name="threat-intelligence-widgets"></a>Threat Intelligence widgets
 
-Als onderdeel van de aanbiedingen van Office 365 Advanced Threat Protection (abonnement 2), kunnen beveiligings analisten informatie over een bekende bedreiging nakijken. Dit is handig om te bepalen of er extra preventieve maatregelen/stappen zijn waarmee gebruikers veilig kunnen blijven.
+Als onderdeel van de aanbieding Microsoft Defender voor Office 365 abonnement 2, kunnen beveiligings analisten informatie over een bekende bedreiging bekijken. Dit is handig om te bepalen of er extra preventieve maatregelen/stappen zijn waarmee gebruikers veilig kunnen blijven.
 
 ![Beveiligings trends met informatie over recente bedreigingen](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
 
 ## <a name="how-do-we-get-these-capabilities"></a>Hoe krijgen we deze mogelijkheden?
 
-De mogelijkheden van Microsoft 365 Threat onderzoek en beantwoorden zijn opgenomen in Office 365 Advanced Threat Protection (abonnement 2), dat deel uitmaakt van Enterprise E5 of als een invoegtoepassing voor bepaalde abonnementen. Voor meer informatie raadpleegt u [Office 365 ATP abonnement 1 en abonnement 2](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
+De mogelijkheden van Microsoft 365 Threat onderzoek en beantwoorden zijn opgenomen in Microsoft Defender for Office 365-abonnement 2, dat deel uitmaakt van Enterprise E5 of als een invoegtoepassing voor bepaalde abonnementen. Zie voor meer informatie: [Defender for Office 365 abonnement 1 en abonnement 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
 
 ## <a name="required-roles-and-permissions"></a>Vereiste rollen en machtigingen
 
-Office 365 Advanced Threat Protection maakt gebruik van toegangsbeheer op basis van rollen. Machtigingen worden toegewezen via bepaalde rollen in azure Active Directory, het Microsoft 365-Beheercentrum of de beveiligings & nalevings centrum.
+Microsoft Defender voor Office 365 maakt gebruik van rollend toegangsbeheer op basis van rollen. Machtigingen worden toegewezen via bepaalde rollen in azure Active Directory, het Microsoft 365-Beheercentrum of de beveiligings & nalevings centrum.
 
 > [!TIP]
 > Hoewel sommige rollen, zoals beveiligingsbeheerder, in het beveiligings & nalevings centrum kunnen worden toegewezen, kunt u het beste het Microsoft 365-Beheercentrum of Azure Active Directory gebruiken. Raadpleeg de volgende bronnen voor meer informatie over rollen, rollen groepen en machtigingen:
@@ -113,7 +113,7 @@ Office 365 Advanced Threat Protection maakt gebruik van toegangsbeheer op basis 
 |Het gebruik van [bedreigings Verkenner (en real-time detecties)](threat-explorer.md) om bedreigingen te analyseren|Een van de volgende opties: <br/>- **Globale beheerder**  <br/> - **Beveiligingsbeheerder** <br/>- **Beveiligings lezer** <br/> <br/>U kunt deze rollen toewijzen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).|
 |Incidenten bekijken (ook wel onderzoek genoemd) <br/> E-mailberichten toevoegen aan een incident|Een van de volgende opties: <br/>- **Globale beheerder**  <br/> - **Beveiligingsbeheerder** <br/>- **Beveiligings lezer** <br/> <br/>U kunt deze rollen toewijzen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).|
 |E-mail acties in een incident activeren <br/> <br/> Verdachte e-mailberichten zoeken en verwijderen|Een van de volgende opties: <br/>- **Globale beheerder**  <br/> - **Beveiligingsbeheerder** plus de rol **zoeken en wissen**<br/><br/>De **globale beheerder** en rollen van **Beveiligingsbeheerders** kunnen worden toegewezen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ). <br/><br/>De rol **zoeken en wissen** moet worden toegewezen in het beveiligings & compliance Center ( [https://protection.office.com](https://protection.office.com) ).|
-|Office 365 Advanced Threat Protection (abonnement 2) integreren met Microsoft Defender Advanced Threat Protection  <br/><br/> Office 365 Advanced Threat Protection abonnement 2 integreren met een SIEM-server|De **globale beheerder** of de rol van **beveiligingsbeheerder** toegewezen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/>--- **Plus** ---<br/>De juiste rol die is toegewezen aan extra toepassingen (bijvoorbeeld [Microsoft Defender-Beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) of uw Siem server)|
+|Microsoft Defender voor Office 365-abonnement 2 integreren met Microsoft Defender voor eindpunt  <br/><br/> Microsoft Defender voor Office 365 abonnement 2 integreren met een SIEM-server|De **globale beheerder** of de rol van **beveiligingsbeheerder** toegewezen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/>--- **Plus** ---<br/>De juiste rol die is toegewezen aan extra toepassingen (bijvoorbeeld [Microsoft Defender-Beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) of uw Siem server)|
 |
 
 ## <a name="next-steps"></a>Volgende stappen
@@ -122,6 +122,6 @@ Office 365 Advanced Threat Protection maakt gebruik van toegangsbeheer op basis 
 
 - [Schadelijke e-mail zoeken en onderzoeken die is bezorgd (Office 365 Threat onderzoek en-antwoord)](investigate-malicious-email-that-was-delivered.md)
 
-- [Office 365-Threat onderzoek en-antwoord met Microsoft Defender Advanced Threat Protection](integrate-office-365-ti-with-wdatp.md)
+- [Office 365-Threat onderzoek en-antwoord met Microsoft Defender voor eindpunten integreren](integrate-office-365-ti-with-wdatp.md)
 
 - [Meer informatie over aanvals Simulator](attack-simulator.md)

@@ -19,13 +19,13 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-description: Beheerders kunnen leren werken met de functies van bescherming tegen phishing in Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: ca8b41c46a2d903edf0beae1de2334bd8c8d1e78
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Beheerders kunnen leren werken met de functies van bescherming tegen phishing in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
+ms.openlocfilehash: 51c539a47f1c137dbacbfaaf63212e1bb115860c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446953"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844510"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Bescherming tegen phishing in Microsoft 365
 
@@ -42,27 +42,27 @@ ms.locfileid: "48446953"
 
 - **Ransomware** waarmee u uw gegevens kunt versleutelen en betaling hoeft te decoderen om te voorkomen dat u in phishingberichten begint. Met anti malafide bescherming kunt u versleutelde bestanden niet ontsleutelen, maar u kunt wel de eerste Phishingberichten detecteren die aan de campagne van Ransomware zijn gekoppeld. Zie [herstel van een Ransomware aanval in Microsoft 365](recover-from-ransomware.md)voor meer informatie over het herstellen van een Ransomware-aanval.
 
-Met de toenemende complexiteit van aanvallen is het zelfs moeilijk voor gebruikers met een opgeleid, zodat ze een verfijnde malafide bericht kunnen vinden. Gelukkig kan Exchange Online Protection (EOP) en de extra functies in Office 365 Advanced Threat Protection (Office 365 ATP) helpen.
+Met de toenemende complexiteit van aanvallen is het zelfs moeilijk voor gebruikers met een opgeleid, zodat ze een verfijnde malafide bericht kunnen vinden. Gelukkig, Exchange Online Protection (EOP) en de extra functies in Microsoft Defender voor Office 365 kan u helpen.
 
 ## <a name="anti-phishing-protection-in-eop"></a>Bescherming tegen phishing in EOP
 
-EOP (dat wil zeggen Microsoft 365-organisaties zonder ATP) bevat functies waarmee u uw organisatie tegen phishing kunt beschermen:
+EOP (dat wil zeggen Microsoft 365-organisaties zonder Microsoft Defender for Office 365) bevat functies waarmee u uw organisatie tegen phishing kunt beschermen:
 
-- **Spoof-intelligentie**: bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie voor meer informatie [spoof Intelligence configureren in EOP](learn-about-spoof-intelligence.md).
+- **Spoof-intelligentie** : bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie voor meer informatie [spoof Intelligence configureren in EOP](learn-about-spoof-intelligence.md).
 
-- **Anti-phishingfilter in EOP**: Schakel spoof Intelligence in of uit, schakel de id van niet-geverifieerde afzenders in Outlook in of uit en geef de actie op voor geblokkeerde spoof afzenders (verplaatsen naar map Ongewenste e-mail of Quarantine). Zie [anti-phishings beleid in EOP](configure-anti-phishing-policies-eop.md)voor meer informatie.
+- **Anti-phishingfilter in EOP** : Schakel spoof Intelligence in of uit, schakel de id van niet-geverifieerde afzenders in Outlook in of uit en geef de actie op voor geblokkeerde spoof afzenders (verplaatsen naar map Ongewenste e-mail of Quarantine). Zie [anti-phishings beleid in EOP](configure-anti-phishing-policies-eop.md)voor meer informatie.
 
-- **Impliciete e-mail verificatie**: EOP verbetert standaardverificatie van e-mail verificatie voor inkomende E-mail ([SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)) met de reputatie van de afzender, de geschiedenis van de afzender, de geschiedenis van de ontvanger, de gedrags analyse en andere geavanceerde technieken om vervalste afzenders te helpen identificeren. Zie [E-mailverificatie in Microsoft 365](email-validation-and-authentication.md) voor meer informatie.
+- **Impliciete e-mail verificatie** : EOP verbetert standaardverificatie van e-mail verificatie voor inkomende E-mail ( [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)) met de reputatie van de afzender, de geschiedenis van de afzender, de geschiedenis van de ontvanger, de gedrags analyse en andere geavanceerde technieken om vervalste afzenders te helpen identificeren. Zie [E-mailverificatie in Microsoft 365](email-validation-and-authentication.md) voor meer informatie.
 
-## <a name="additional-anti-phishing-protection-in-office-365-atp"></a>Extra bescherming tegen phishing in Office 365 ATP
+## <a name="additional-anti-phishing-protection-in-microsoft-defender-for-office-365"></a>Extra bescherming tegen phishing in Microsoft Defender voor Office 365
 
-Office 365 ATP bevat extra en meer geavanceerde functies voor het anti-phishing van Office:
+Microsoft Defender voor Office 365 bevat extra en meer geavanceerde functies voor het anti-phishing van functies:
 
-- **ATP anti-phishingfilter**: Maak nieuwe aangepaste beleidsregels en Configureer instellingen voor de anti-personele instellingen (gebruikers en domeinen beschermen tegen imitatie), Postvak informatie-instellingen en instelbare geavanceerde phishing. Zie voor meer informatie [het artikel ATP anti-phishing configureren in Microsoft 365](configure-atp-anti-phishing-policies.md). Zie [anti phishing Policies in Microsoft 365](set-up-anti-phishing-policies.md)voor meer informatie over de verschillen tussen een anti-phishings beleid en een anti-phishingfilter.
+- **Anti phishingfilter in Microsoft Defender voor Office 365** : Maak nieuwe aangepaste beleidsregels en configureer anti-impersonele instellingen (gebruikers en domeinen beschermen tegen imitatie), Postvak Intelligence-instellingen en instelbare geavanceerde phishing-trucs. Zie [anti phishingberichten configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)voor meer informatie. Zie [anti phishing Policies in Microsoft 365](set-up-anti-phishing-policies.md)voor meer informatie over de verschillen tussen een anti-phishing beleid in EOP en anti 365 Phishingfilter.
 
-- **Campagne weergaven**: machine learning en andere heuristische analyses identificeren en analyseren van berichten die betrokken zijn bij gecoördineerde phishing-aanvallen tegen de hele service en uw organisatie. Zie voor meer informatie [campagne weergaven in Office 365 ATP](campaigns.md).
+- **Campagne weergaven** : machine learning en andere heuristische analyses identificeren en analyseren van berichten die betrokken zijn bij gecoördineerde phishing-aanvallen tegen de hele service en uw organisatie. Zie [campagne weergaven in Microsoft Defender voor Office 365](campaigns.md)voor meer informatie.
 
-- **Aanvals Simulator**: beheerders kunnen valse phishingberichten maken en ze verzenden naar interne gebruikers als een Education-programma. Zie [aanvals Simulator in Office 365 ATP](attack-simulator.md)voor meer informatie.
+- **Aanvals Simulator** : beheerders kunnen valse phishingberichten maken en ze verzenden naar interne gebruikers als een Education-programma. Zie [aanvals Simulator in Microsoft Defender voor Office 365](attack-simulator.md)voor meer informatie.
 
 ## <a name="other-anti-phishing-resources"></a>Andere anti malafide bronnen
 

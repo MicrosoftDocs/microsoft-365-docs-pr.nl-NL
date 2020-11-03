@@ -21,19 +21,19 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Meer informatie over Office 365 Advanced Threat Protection voor bestanden in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: e536809c74abbe87e1250acda3f3922180cfae97
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Meer informatie over Microsoft Defender voor Office 365 voor bestanden in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
+ms.openlocfilehash: 7b007671a7fecb3ae074fd07ce38d17fb025f6b4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446261"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844330"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP voor SharePoint, OneDrive en Microsoft Teams
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-ATP voor SharePoint, OneDrive en Microsoft teams in [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md) biedt een extra beveiligingslaag voor bestanden die al zijn gecontroleerd op het moment dat ze worden geüpload via de [algemene virusdetectie-engine in Microsoft 365](virus-detection-in-spo.md). Met ATP voor SharePoint, OneDrive en Microsoft teams kunt u bestaande bestanden die zijn geïdentificeerd als schadelijk op team sites en documentbibliotheken detecteren en blokkeren.
+ATP voor SharePoint, OneDrive en Microsoft teams in [Microsoft Defender voor Office 365](office-365-atp.md) biedt een extra beveiligingslaag voor bestanden die al zijn gecontroleerd op het moment dat ze worden geüpload via de [algemene virusdetectie-engine in Microsoft 365](virus-detection-in-spo.md). Met ATP voor SharePoint, OneDrive en Microsoft teams kunt u bestaande bestanden die zijn geïdentificeerd als schadelijk op team sites en documentbibliotheken detecteren en blokkeren.
 
 ATP voor SharePoint, OneDrive en Microsoft teams is standaard niet ingeschakeld. Als u dit wilt inschakelen, raadpleegt u [ATP voor SharePoint, OneDrive en Microsoft teams inschakelen](turn-on-atp-for-spo-odb-and-teams.md).
 
@@ -59,14 +59,14 @@ Zie [wat u moet doen als er een schadelijk bestand wordt gevonden in SharePoint 
 
 ## <a name="view-information-about-malicious-files-detected-by-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Informatie weergeven over schadelijke bestanden die zijn gedetecteerd door ATP voor SharePoint, OneDrive en Microsoft teams
 
-Bestanden die worden geïdentificeerd als schadelijk voor ATP, worden weergegeven in [rapporten voor Office 365 Advanced Threat Protection](view-reports-for-atp.md) en in [Explorer (en realtime-detectie)](threat-explorer.md).
+Bestanden die worden geïdentificeerd als schadelijk voor Microsoft Defender voor Office 365, worden weergegeven in [rapporten voor Microsoft Defender for office 365](view-reports-for-atp.md) en in [Explorer (en in realtime-detectie)](threat-explorer.md).
 
-Vanaf mei 2018 wordt het bestand ook in quarantaine geplaatst wanneer een bestand wordt geïdentificeerd als schadelijk voor ATP. Zie voor meer informatie het artikel over [beveiligings & voor nalevings centrum voor het beheren van gequarantinee bestanden](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files).
+Vanaf mei 2018, indien een bestand als schadelijk wordt geïdentificeerd door Microsoft Defender for Office 365, is het bestand ook beschikbaar in quarantaine. Zie voor meer informatie het artikel over [beveiligings & voor nalevings centrum voor het beheren van gequarantinee bestanden](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files).
 
 ## <a name="keep-these-points-in-mind"></a>Let op de volgende punten
 
-- Met ATP kunt u niet elk afzonderlijk bestand in SharePoint Online, OneDrive voor bedrijven of Microsoft teams scannen. Dit is inherent aan het ontwerp van het product. Bestanden worden asynchroon gescand. Met de functie voor het delen van gebeurtenissen en gebeurtenissen in een gast activiteit worden kwaadwillende bestanden aangegeven met behulp van slimme heuristisch en bedreigings signalen.
+- Met Defender voor Office 365 kunt u niet elk afzonderlijk bestand in SharePoint Online, OneDrive voor bedrijven of Microsoft teams scannen. Dit is inherent aan het ontwerp van het product. Bestanden worden asynchroon gescand. Met de functie voor het delen van gebeurtenissen en gebeurtenissen in een gast activiteit worden kwaadwillende bestanden aangegeven met behulp van slimme heuristisch en bedreigings signalen.
 
-- Zorg ervoor dat de SharePoint-sites zijn geconfigureerd voor gebruik van de [moderne ervaring](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). ATP-beveiliging is van toepassing op de meest recente ervaring of de klassieke weergave. de visuele indicatoren die een bestand blokkeert, zijn echter alleen beschikbaar in de moderne ervaring.
+- Zorg ervoor dat de SharePoint-sites zijn geconfigureerd voor gebruik van de [moderne ervaring](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). De bescherming van Defender voor Office 365 is van toepassing op de manier waarop de moderne ervaring of de klassieke weergave wordt gebruikt; de visuele indicatoren die een bestand blokkeert, zijn echter alleen beschikbaar in de moderne ervaring.
 
-- ATP voor SharePoint, OneDrive en Microsoft teams maakt deel uit van de algemene strategie voor risico beveiliging van uw organisatie, waaronder antispam en bescherming tegen malware in Exchange Online Protection (EOP), en veilige koppelingen en veilige bijlagen in Office 365 ATP. Voor meer informatie raadpleegt u [bescherming tegen bedreigingen in Office 365](protect-against-threats.md).
+- ATP voor SharePoint, OneDrive en Microsoft teams maakt deel uit van de algemene strategie voor risico beveiliging van uw organisatie, waaronder antispam en bescherming tegen malware in Exchange Online Protection (EOP), en veilige koppelingen en veilige bijlagen in Microsoft Defender voor Office 365. Voor meer informatie raadpleegt u [bescherming tegen bedreigingen in Office 365](protect-against-threats.md).

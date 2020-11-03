@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen Veelgestelde vragen en antwoorden over antispam beveiliging bekijken in Exchange Online Protection (EOP).
-ms.openlocfilehash: 2bf2808cc0da6124a0377b52dc46f88b2c8a69e0
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: d2505eea572e512b306cf26c7a57d1dc1b705c0b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445733"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844462"
 ---
 # <a name="anti-spam-protection-faq"></a>Veelgestelde vragen over beveiliging tegen ongewenste e-mail
 
@@ -59,7 +59,7 @@ Nadat u zich hebt aangemeld voor de service en uw domein toevoegt, wordt het fil
 
 Zie de volgende onderwerpen voor meer informatie:
 
-[Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging](recommended-settings-for-eop-and-office365-atp.md)
+[Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging](recommended-settings-for-eop-and-office365-atp.md)
 
 [Het filteren van verbindingen configureren in EOP](configure-the-connection-filter-policy.md)
 
@@ -105,9 +105,9 @@ U kunt een melding verzenden naar een opgegeven e-mailadres wanneer een afzender
 
 Ja. We raden u aan om uw MX-record naar Microsoft te laten verwijzen, maar er zijn ook goede zakelijke redenen om uw e-mail door te sturen naar een ander dan Microsoft.
 
-- **Inkomend**: Wijzig uw MX-records zodat ze verwijzen naar de externe provider, en leid de berichten vervolgens om naar EOP voor verdere verwerking. Zie voor meer informatie [uitgebreid filteren van connectors in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+- **Inkomend** : Wijzig uw MX-records zodat ze verwijzen naar de externe provider, en leid de berichten vervolgens om naar EOP voor verdere verwerking. Zie voor meer informatie [uitgebreid filteren van connectors in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-- **Uitgaand**: Configureer Smart host routering van microsoft 365 naar de doeltoepassing van derden.
+- **Uitgaand** : Configureer Smart host routering van microsoft 365 naar de doeltoepassing van derden.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Heb Microsoft een documentatie over hoe ik mij kan beschermen tegen phishing scams?
 

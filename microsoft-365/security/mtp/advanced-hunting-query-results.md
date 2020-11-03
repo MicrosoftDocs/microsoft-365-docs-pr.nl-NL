@@ -1,6 +1,6 @@
 ---
-title: Werken met geavanceerde zoekopdrachten voor de jacht in Microsoft Threat Protection
-description: Maak optimaal resultaten van de queryresultaten die worden geretourneerd door de geavanceerde jacht in Microsoft Threat Protection
+title: Werken met geavanceerde zoekopdrachten voor de jacht in Microsoft 365 Defender
+description: Maak optimaal resultaten van de queryresultaten die worden geretourneerd door de geavanceerde jacht in Microsoft 365 Defender
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, telemetrie, aangepaste detectie, schema, kusto, Microsoft 365, Microsoft Threat Protection, visualisatie, grafiek, filters en inzoomen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e19859189b57bbc9a6a4bbfb87fb224b2735331b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: de26989b9092b783a45d27ad2a529720d21169f8
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431073"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844126"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Werken met geavanceerde zoekresultaten van de jacht
 
@@ -32,7 +32,7 @@ ms.locfileid: "48431073"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -146,7 +146,7 @@ Klik met de rechtermuisknop op een waarde in de resultatenset om uw query snel t
 ## <a name="filter-the-query-results"></a>De queryresultaten filteren
 De filters rechts geven een overzicht van de resultatenset. Elke kolom heeft een eigen sectie met daarin de unieke waarden die zijn gevonden voor de kolom en het aantal exemplaren.
 
-Verfijn uw zoekopdracht door de `+` knoppen of de knoppen te selecteren `-` voor de waarden die u wilt opnemen of uitsluiten en vervolgens **query uitvoeren**te selecteren.
+Verfijn uw zoekopdracht door de `+` knoppen of de knoppen te selecteren `-` voor de waarden die u wilt opnemen of uitsluiten en vervolgens **query uitvoeren** te selecteren.
 
 ![Afbeelding van een geavanceerd jacht filter](../../media/advanced-hunting-filter.png)
 

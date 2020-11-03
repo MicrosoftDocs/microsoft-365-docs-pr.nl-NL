@@ -15,33 +15,33 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: Beheerders kunnen leren welke redenen en hoe een malafide bericht krijg in Microsoft 365 en wat u moet doen om te voorkomen dat er meer phishingberichten in de toekomst worden verstaan.
-ms.openlocfilehash: ab7087355ce8ee41616f63a7b466a0d5d0fc7b0f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: e933769b6bce9eb10765fb2b58025445432bed18
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446463"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845466"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Hoewel Microsoft 365 diverse functies van concurrentiebeperkende functies ondersteunt, is het mogelijk dat sommige malafide berichten ook naar uw postvakken gaan. In dit onderwerp wordt beschreven wat u kunt doen om te ontdekken waarom een malafide bericht is ontvangen en wat u kunt doen om de anti phishing-instellingen in uw Microsoft 365-organisatie te wijzigen _zonder per ongeluk dingen_te doen.
+Hoewel Microsoft 365 diverse functies van concurrentiebeperkende functies ondersteunt, is het mogelijk dat sommige malafide berichten ook naar uw postvakken gaan. In dit onderwerp wordt beschreven wat u kunt doen om te ontdekken waarom een malafide bericht is ontvangen en wat u kunt doen om de anti phishing-instellingen in uw Microsoft 365-organisatie te wijzigen _zonder per ongeluk dingen_ te doen.
 
 ## <a name="first-things-first-deal-with-any-compromised-accounts-and-make-sure-you-block-any-more-phishing-messages-from-getting-through"></a>U moet eerst het volgende doen: omgaan met verenigende accounts en ervoor zorgen dat u meer phishingberichten blokkeert voor het downloaden
 
 Als het account van een geadresseerde in het geval van een malafide account is aangetast, volgt u de stappen in [reageren op een gemanipuleerd e-mailaccount in Microsoft 365](responding-to-a-compromised-email-account.md).
 
-Als uw abonnement Advanced Threat Protection (ATP) bevat, kunt u [Office 365 Threat Intelligence](office-365-ti.md) gebruiken voor het identificeren van andere gebruikers die het malafide bericht ook hebben ontvangen. U hebt extra opties voor het blokkeren van malafide berichten:
+Als uw abonnement Microsoft Defender voor Office 365 bevat, kunt u de [bedreigings informatie van Office 365](office-365-ti.md) gebruiken voor het identificeren van andere gebruikers die het malafide bericht ook hebben ontvangen. U hebt extra opties voor het blokkeren van malafide berichten:
 
-- [Veilige koppelingen in Office 365 ATP](set-up-atp-safe-links-policies.md)
+- [Veilige koppelingen in Microsoft Defender voor Office 365](set-up-atp-safe-links-policies.md)
 
-- [Veilige bijlagen in Office 365 ATP](set-up-atp-safe-attachments-policies.md)
+- [Veilige bijlagen in Microsoft Defender voor Office 365](set-up-atp-safe-attachments-policies.md)
 
-- [Anti-phishings beleid in Office 365 ATP](configure-atp-anti-phishing-policies.md). Houd er rekening mee dat u de geavanceerde **verduidelijkings** **drempels** **van de** beleidsregels tijdelijk kunt verhogen, hoger **of agressief** **.**
+- [Anti malafide beleid in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md). Houd er rekening mee dat u de geavanceerde **verduidelijkings** **drempels** **van de** beleidsregels tijdelijk kunt verhogen, hoger **of agressief** **.**
 
-Controleer of deze ATP-functies zijn ingeschakeld.
+Controleer of de functies voor de functies van Defender voor Office 365 zijn ingeschakeld.
 
 ## <a name="report-the-phishing-message-to-microsoft"></a>Meld het phishingberichten aan Microsoft
 
@@ -59,7 +59,7 @@ Daarom moet u het koptekstveld **X-Forefront-spam-report** in de berichtkoppen c
 
 - Voor berichten die per ongeluk worden beëindigd, of voor berichten die zijn toegestaan via, raden we u aan om die berichten te zoeken in de [bedreigings Verkenner en de detectie van realtime](threat-explorer.md). U kunt zoeken op afzender, geadresseerde of bericht-ID. Wanneer u het bericht hebt gevonden, gaat u naar details door op het onderwerp te klikken. Voor een gequarantined bericht bekijkt u wat de detectietechnologie is, zodat u kunt gebruikmaken van de juiste methode om deze te overschrijven. Kijk voor een toegestaan bericht welke beleidsregels het bericht hebben toegestaan. 
 
-- Vervalste e-mailbericht wordt gemarkeerd als phishing in ATP. Soms is spoofing onschadelijk en soms willen gebruikers deze niet in quarantaine plaatsen. Regelmatig het [spoof Intelligence-rapport](learn-about-spoof-intelligence.md)voordat u de overlast voor gebruikers beperkt. Wanneer u alle benodigde overschrijvingen hebt gecontroleerd en de nodige overschrijvingen hebt aangebracht, kunt u verdachte [informatie configureren](set-up-anti-phishing-policies.md#spoof-settings) voor verdachte berichten in plaats van deze naar de map Ongewenste e-mail van de **gebruiker te verzenden** .
+- Vervalste e-mail is als phishing gelabeld in de Defender voor Office 365. Soms is spoofing onschadelijk en soms willen gebruikers deze niet in quarantaine plaatsen. Regelmatig het [spoof Intelligence-rapport](learn-about-spoof-intelligence.md)voordat u de overlast voor gebruikers beperkt. Wanneer u alle benodigde overschrijvingen hebt gecontroleerd en de nodige overschrijvingen hebt aangebracht, kunt u verdachte [informatie configureren](set-up-anti-phishing-policies.md#spoof-settings) voor verdachte berichten in plaats van deze naar de map Ongewenste e-mail van de **gebruiker te verzenden** .
 
 - U kunt de bovenstaande stap voor imitatie (domein of gebruiker) herhalen. Het imitatie rapport vindt u onder **Threat Management** \> **Dashboard** \> **inzichten**.
 

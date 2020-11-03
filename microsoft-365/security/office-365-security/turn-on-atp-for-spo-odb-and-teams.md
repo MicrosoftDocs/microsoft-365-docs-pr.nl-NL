@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP-SharePoint, OneDrive, & teams inschakelen
+title: Microsoft Defender voor Office 365 inschakelen-SharePoint, OneDrive, & teams
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -19,18 +19,18 @@ ms.collection:
 - SPO_Content
 description: Meer informatie over het inschakelen van ATP voor SharePoint, OneDrive en teams, inclusief het instellen van waarschuwingen voor gedetecteerde bestanden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c717a89492ea1160f26f26f13be6c36f348c79c
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 69cb7ffcfb06d5ccda915004a512e7eefc6eb56e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350653"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844270"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Office 365 Advanced Threat Protection (ATP) voor SharePoint, OneDrive en Microsoft teams beschermt uw organisatie per ongeluk om kwaadaardige bestanden te delen. Zie [ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md)voor meer informatie.
+Microsoft Defender voor Office 365 voor SharePoint, OneDrive en Microsoft teams zorgt ervoor dat uw organisatie per ongeluk schadelijke bestanden deelt. Zie [ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md)voor meer informatie.
 
 Dit artikel bevat de stappen voor het inschakelen en configureren van ATP voor SharePoint, OneDrive en Microsoft teams.
 
@@ -48,7 +48,7 @@ Dit artikel bevat de stappen voor het inschakelen en configureren van ATP voor S
 
 ## <a name="step-1-use-the-security--compliance-center-to-turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Stap 1: gebruik het beveiligings & nalevings centrum om ATP voor SharePoint, OneDrive en Microsoft teams in te schakelen
 
-1. Ga in het beveiligings & nalevings centrum naar veilige bijlagen voor het beleid voor **bedreigings beheer** \> **Policy** \> **ATP Safe Attachments**en klik op **globale instellingen**.
+1. Ga in het beveiligings & nalevings centrum naar veilige bijlagen voor het beleid voor **bedreigings beheer** \> **Policy** \> **ATP Safe Attachments** en klik op **globale instellingen**.
 
 2. Ga in de **algemene instellingen** die worden weergegeven naar de instelling **ATP inschakelen voor SharePoint, OneDrive en Microsoft teams** . Zet de wisselknop naar rechts om de ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) ATP voor SharePoint, OneDrive en Microsoft teams in te schakelen.
 
@@ -74,7 +74,7 @@ Als u wilt voorkomen dat gebruikers schadelijke bestanden downloaden, [maakt u v
 Set-SPOTenant -DisallowInfectedFileDownload $true
 ```
 
-**Opmerkingen**:
+**Opmerkingen** :
 
 - Deze instelling is van invloed op gebruikers en beheerders.
 - Personen kunnen wel schadelijke bestanden verwijderen.
@@ -91,24 +91,24 @@ U kunt een waarschuwings beleid maken waarmee u op de hoogte wordt gesteld van e
 
 3. De wizard **Nieuw waarschuwings beleid** wordt in één vliegtuig geopend. Configureer de volgende instellingen op de pagina **naam van uw waarschuwing** :
 
-   - **Naam**: Typ een unieke en een beschrijvende naam. Bijvoorbeeld Kwaadwillende bestanden in bibliotheken.
-   - **Beschrijving**: Typ een optionele beschrijving. U kunt bijvoorbeeld beheerders een melding sturen wanneer er schadelijke bestanden zijn gevonden in SharePoint Online, OneDrive of Microsoft teams.
-   - **Ernst**: Zorg dat de standaardwaarde **laag** is geselecteerd of selecteer **normaal** of **hoog**.
-   - **Selecteer een categorie**: Selecteer **risicobeheer**.
+   - **Naam** : Typ een unieke en een beschrijvende naam. Bijvoorbeeld Kwaadwillende bestanden in bibliotheken.
+   - **Beschrijving** : Typ een optionele beschrijving. U kunt bijvoorbeeld beheerders een melding sturen wanneer er schadelijke bestanden zijn gevonden in SharePoint Online, OneDrive of Microsoft teams.
+   - **Ernst** : Zorg dat de standaardwaarde **laag** is geselecteerd of selecteer **normaal** of **hoog**.
+   - **Selecteer een categorie** : Selecteer **risicobeheer**.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
 4. Configureer de volgende instellingen op de pagina instellingen voor het **maken van waarschuwingen** :
 
-   - **Waarover wilt u een bericht doorvoeren?: activiteit is**: Selecteer **malware gedetecteerd in bestand**.
-   - **Hoe wilt u dat de waarschuwing wordt geactiveerd?**: de standaardwaarde behouden **wanneer er een activiteit met de regel** is geselecteerd.
+   - **Waarover wilt u een bericht doorvoeren?: activiteit is** : Selecteer **malware gedetecteerd in bestand**.
+   - **Hoe wilt u dat de waarschuwing wordt geactiveerd?** : de standaardwaarde behouden **wanneer er een activiteit met de regel** is geselecteerd.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
 5. Configureer de volgende instellingen op de pagina de **geadresseerden instellen** :
 
-   - **E-mail meldingen verzenden**: Controleer deze optie is geselecteerd. Selecteer in het dialoogvenster **e-mail geadresseerden** een of meer globale beheerders, beveiligingsbeheerders of beveiligings lezers die een bericht moeten ontvangen wanneer een schadelijk bestand wordt gedetecteerd.
-   - **Daglimiet voor meldingen**: de standaardwaarde **hoeft niet** te zijn geselecteerd.
+   - **E-mail meldingen verzenden** : Controleer deze optie is geselecteerd. Selecteer in het dialoogvenster **e-mail geadresseerden** een of meer globale beheerders, beveiligingsbeheerders of beveiligings lezers die een bericht moeten ontvangen wanneer een schadelijk bestand wordt gedetecteerd.
+   - **Daglimiet voor meldingen** : de standaardwaarde **hoeft niet** te zijn geselecteerd.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
@@ -126,7 +126,7 @@ Als u liever PowerShell gebruikt om hetzelfde waarschuwings beleid te maken zoal
 New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies admins when malicious files are detected in SharePoint Online, OneDrive, or Microsoft Teams" -Category ThreatManagement -Operation FileMalwareDetected -NotifyUser "admin1@contoso.com","admin2@contoso.com"
 ```
 
-**Opmerking**: de standaardwaarde voor de _Ernst_ is laag. Als u gemiddeld of hoog wilt opgeven, voegt u de parameter voor de _Ernst_ en de waarde in de opdracht toe.
+**Opmerking** : de standaardwaarde voor de _Ernst_ is laag. Als u gemiddeld of hoog wilt opgeven, voegt u de parameter voor de _Ernst_ en de waarde in de opdracht toe.
 
 Zie [New-ActivityAlert](https://docs.microsoft.com/powershell/module/exchange/new-activityalert)voor gedetailleerde syntaxis-en parameterinformatie.
 
@@ -134,7 +134,7 @@ Zie [New-ActivityAlert](https://docs.microsoft.com/powershell/module/exchange/ne
 
 - Voer een van de volgende stappen uit om te controleren of u de ATP hebt ingeschakeld voor SharePoint, OneDrive en Microsoft teams:
 
-  - Ga in het [beveiligings & compliance](https://protection.office.com)naar veilige bijlagen voor het beleid voor **risicobeheer** \> **Policy** \> **ATP Safe Attachments**, selecteer **globale instellingen**en controleer de waarde van de instelling **ATP voor SharePoint, OneDrive en Microsoft teams inschakelen** .
+  - Ga in het [beveiligings & compliance](https://protection.office.com)naar veilige bijlagen voor het beleid voor **risicobeheer** \> **Policy** \> **ATP Safe Attachments** , selecteer **globale instellingen** en controleer de waarde van de instelling **ATP voor SharePoint, OneDrive en Microsoft teams inschakelen** .
 
   - In Exchange Online PowerShell voert u de volgende opdracht uit om de instelling van de eigenschap te controleren:
 

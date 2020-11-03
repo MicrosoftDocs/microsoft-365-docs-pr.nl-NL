@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: U hebt een snellere planning en configuratie van Microsoft 365 of Office 365 met instel hulpmiddelen.
-ms.openlocfilehash: 215f51af1fc553ef0710565af0a7c25111de8328
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+ms.openlocfilehash: 7024494de231e5adcce4bb91414b5f7bb3349f88
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48493695"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844090"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Installatie handleidingen voor Microsoft 365 en Office 365-Services
 
@@ -135,12 +135,12 @@ De [AD FS-implementatie adviseur](https://aka.ms/adfsguidance) biedt u stapsgewi
 
 ## <a name="guides-for-security-and-compliance"></a>Handleidingen voor beveiliging en compliance
 
-### <a name="microsoft-defender-advanced-threat-protection-atp-advisor"></a>Microsoft Defender Advanced Threat Protection (ATP) adviseur
+### <a name="microsoft-defender-for-endpoint-advisor"></a>Microsoft Defender voor eindpunten adviseur
 
-De [Microsoft Defender Advanced Threat Protection-adviseur](https://aka.ms/mdatpsetup) biedt instructies waarmee uw Enterprise-netwerk helpt bij het voorkomen, detecteren, onderzoeken en beantwoorden van geavanceerde bedreigingen. Maak een weloverwogen beoordeling van het beveiligingslek van uw organisatie en bepaal welke implementatiepakket-en configuratiemethoden het best zijn. 
+De [Microsoft Defender voor eindpunten adviseur](https://aka.ms/mdatpsetup) biedt instructies waarmee uw Enterprise-netwerk een oplossing biedt voor geavanceerde bedreigingen en deze kan detecteren, onderzoeken en beantwoorden. Maak een weloverwogen beoordeling van het beveiligingslek van uw organisatie en bepaal welke implementatiepakket-en configuratiemethoden het best zijn. 
 
 >[!NOTE]
->Een Microsoft volume licentie is vereist voor Microsoft Defender ATP.
+>Een Microsoft-volume licentie is vereist voor Microsoft Defender voor eindpunt.
 
 ### <a name="exchange-online-protection-setup-guide"></a>Installatiehandleiding voor Exchange Online Protection
 
@@ -148,9 +148,9 @@ Microsoft Exchange Online Protection (EOP) is een op de cloud gebaseerde e-mail 
 
 Gebruik de [Installatiehandleiding voor Exchange Online Protection](https://aka.ms/EOPguidance) om EOP in te stellen door te kiezen welke drie &mdash; on-premises on-premises postvakken, hybride (mix van on-premises en Cloud) postvakken, of alle Cloud postvakken &mdash; binnen uw organisatie passen. De handleiding biedt informatie en bronnen voor het instellen en controleren van de licenties van gebruikers, het toewijzen van machtigingen in het Microsoft 365-Beheercentrum en het beleid voor anti-malware en spam van uw organisatie in het beveiligings & nalevings centrum. 
 
-### <a name="office-365-advanced-threat-protection-advisor"></a>Office 365 Advanced Threat Protection-adviseur
+### <a name="microsoft-defender-for-office-365-advisor"></a>Microsoft Defender voor Office 365 adviseur
 
-De [Office 365 Advanced Threat Protection-adviseur](https://aka.ms/oatpsetup) beschermt uw organisatie tegen kwaadaardige bedreigingen die uw omgeving kan tegenkomen via e-mailberichten, koppelingen en samenwerkingsprogramma's van derden. In deze handleiding vindt u informatie over het voorbereiden en identificeren van het Advanced Threat Protection-abonnement op de behoeften van uw organisatie. 
+De [Microsoft Defender voor Office 365-adviseur](https://aka.ms/oatpsetup) beveiligt uw organisatie tegen kwaadaardige bedreigingen die uw omgeving kan ondervinden via e-mailberichten, koppelingen en samenwerkingsprogramma's van derden. In deze handleiding vindt u informatie over het voorbereiden en identificeren van het programma voor Defender voor Office 365 op de behoeften van uw organisatie. 
 
 ### <a name="microsoft-information-protection-setup-guide"></a>Installatiehandleiding voor Microsoft Information Protection
 

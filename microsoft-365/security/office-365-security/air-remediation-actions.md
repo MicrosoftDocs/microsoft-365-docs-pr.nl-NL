@@ -20,12 +20,12 @@ description: Meer informatie over herstelacties volgen na geautomatiseerd onderz
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: ffd0429d3dc85371e7b6bb1c2d1246d9820d0e2e
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: c178655d60b45e45680a86c3973317e63c354f17
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446705"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844534"
 ---
 # <a name="remediation-actions-following-automated-investigation-in-microsoft-defender-for-office-365"></a>Herstelacties na een geautomatiseerd onderzoek in Microsoft Defender voor Office 365
 
@@ -53,7 +53,7 @@ De volgende tabel bevat een overzicht van bedreigingen en de juiste herstelactie
 |Categorie|Bedreiging/risico|Herstelactie (s)|
 |---|---|---|
 |E-mail|Malware|E-mail/cluster met zachte verwijdering <br/><br/>Als meer dan een aantal e-mailberichten in een cluster malware bevat, wordt het cluster geacht schadelijk te zijn.|
-|E-mail|Schadelijke URL<br/>(Een schadelijke URL is gedetecteerd door [veilige koppelingen in Office 365 ATP](atp-safe-links.md).|E-mail/cluster met zachte verwijdering <br/><br/>E-mail met een schadelijke URL wordt geacht schadelijk te zijn.|
+|E-mail|Schadelijke URL<br/>(Een schadelijke URL is gedetecteerd door [veilige koppelingen in Microsoft Defender voor Office 365](atp-safe-links.md).|E-mail/cluster met zachte verwijdering <br/><br/>E-mail met een schadelijke URL wordt geacht schadelijk te zijn.|
 |E-mail|Phishing|E-mail/cluster met zachte verwijdering <br/><br/>Als meer dan een aantal e-mailberichten in een cluster phishingberichten bevat, wordt het cluster beschouwd als phishing.|
 |E-mail|Zapped phishing <br/>(E-mailberichten zijn bezorgd en [zapped](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge).)|E-mail/cluster met zachte verwijdering <br/><br/>Rapporten kunnen worden gebruikt om zapped-berichten te bekijken. [Kijk of zap een bericht en veelgestelde vragen verplaatste](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge#how-to-see-if-zap-moved-your-message).|
 |E-mail|E-mail met gemiste phishing door een gebruiker [gemeld](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in)|[Automatisch onderzoek geactiveerd door het rapport van de gebruiker](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-user-reported-phish-message-launches-an-investigation-playbook)|

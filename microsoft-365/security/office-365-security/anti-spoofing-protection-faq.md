@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen Veelgestelde vragen en antwoorden over anti-spoofing beveiliging weergeven in Exchange Online Protection (EOP).
-ms.openlocfilehash: 3b1a30541c46383284203eee61d8b6679ac3b493
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: a5b0484e41e3df7a7b6ad16e69a4f7062b19b554
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445709"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844390"
 ---
 # <a name="anti-spoofing-protection-faq"></a>Veelgestelde vragen over beveiliging tegen adresvervalsing
 
@@ -45,11 +45,9 @@ Wanneer Microsoft deze functie inschakelt in 2018, zijn er enkele onbepaalde fou
 
 Microsoft zelf heeft de nieuwe verificatievereisten voor e-mailberichten eerst enkele weken goedgekeurd voordat u deze implementeert bij klanten. Hoewel er aanvankelijk sprake was van verstoring, nam deze geleidelijk af.
 
-## <a name="is-spoof-intelligence-available-to-microsoft-365-customers-without-atp"></a>Is spoof Intelligence beschikbaar voor Microsoft 365-klanten zonder ATP?
+## <a name="is-spoof-intelligence-available-to-microsoft-365-customers-without-defender-for-office-365"></a>Is spoof Intelligence beschikbaar voor klanten met Microsoft 365 zonder Defender for Office 365?
 
 Ja. Vanaf oktober 2018 is spoof Intelligence beschikbaar voor alle organisaties met postvakken in Exchange Online, en zelfstandige EOP-organisaties zonder postvakken van Exchange Online.
-
-Anti-spoofing-technologie was in eerste instantie alleen beschikbaar in Office 365 Advanced Threat Protection. Bijvoorbeeld Microsoft E5-abonnementen of ATP-invoegtoepassingen.
 
 ## <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Hoe kan ik spam- of niet-spamberichten terugmelden bij Microsoft?
 
@@ -73,12 +71,12 @@ Helaas, Nee, nee. Hackers worden aangepast om andere technieken te gebruiken (bi
 
 Bijna alle grote e-mailservices voeren traditionele SPF-, DKIM-en DMARC-controles uit. Voor sommige services zijn er nog meer strikte controles, maar enkele stappen voor het blokkeren van niet-geverifieerde e-mailberichten in EOP en behandelen ze als vervalste berichten. De branche maakt echter meer kennis met betrekking tot problemen met niet-geverifieerde e-mail, met name vanwege het probleem van phishing.
 
-## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Moet ik de beleidsinstelling voor geavanceerde spam van de instelling SPF-record (_MarkAsSpamSpfRecordHardFail_) nog steeds inschakelen als ik anti-spoofing inschakel?
+## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Moet ik de beleidsinstelling voor geavanceerde spam van de instelling SPF-record ( _MarkAsSpamSpfRecordHardFail_ ) nog steeds inschakelen als ik anti-spoofing inschakel?
 
-Nee. Deze ASF-instelling is niet langer vereist. De bescherming tegen spoofing beoordeelt standaard beide SPF-storing en een veel grotere set criteria. Als u anti-adresvervalsing hebt ingeschakeld en het **SPF-record: hard fail** (_MarkAsSpamSpfRecordHardFail_) is ingeschakeld, krijgt u waarschijnlijk meer fout-positieven.
+Nee. Deze ASF-instelling is niet langer vereist. De bescherming tegen spoofing beoordeelt standaard beide SPF-storing en een veel grotere set criteria. Als u anti-adresvervalsing hebt ingeschakeld en het **SPF-record: hard fail** ( _MarkAsSpamSpfRecordHardFail_ ) is ingeschakeld, krijgt u waarschijnlijk meer fout-positieven.
 
 We raden u aan deze functie uit te schakelen omdat dit bijna geen extra voordeel uitmaakt voor het detecteren van spam of phishing en daarom vooral foutberichten verloopt. Zie voor meer informatie [Geavanceerde instellingen voor spam filter (ASF) in EOP](advanced-spam-filtering-asf-options.md).
 
 ## <a name="does-sender-rewriting-scheme-help-fix-forwarded-email"></a>Wordt in het schema voor het opnieuw schrijven van de afzender het doorgestuurde e-mail opgelost?
 
-SRS lost het probleem van doorgestuurde e-mail slechts gedeeltelijk op. Wanneer u de SMTP **-e-mail**herschrijft van, kan SRS ervoor zorgen dat het doorgestuurde bericht SPF op de volgende bestemming doorgeeft. Aangezien ook anti-spoofing is gebaseerd op het **van** -adres in combinatie met de **e-mail van** of het dkim-handtekeningen domein (of andere signalen), is het niet voldoende om te voorkomen dat doorgestuurde e-mailberichten worden gemarkeerd als spoofed.
+SRS lost het probleem van doorgestuurde e-mail slechts gedeeltelijk op. Wanneer u de SMTP **-e-mail** herschrijft van, kan SRS ervoor zorgen dat het doorgestuurde bericht SPF op de volgende bestemming doorgeeft. Aangezien ook anti-spoofing is gebaseerd op het **van** -adres in combinatie met de **e-mail van** of het dkim-handtekeningen domein (of andere signalen), is het niet voldoende om te voorkomen dat doorgestuurde e-mailberichten worden gemarkeerd als spoofed.

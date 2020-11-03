@@ -21,12 +21,12 @@ description: Ga aan de slag met het gebruik van geautomatiseerde onderzoek-en an
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 340fc4851043ff917eaff6f237c3ad7d5810a4cb
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 54dbd419380c18e23119887c93a71885c6f9ce7d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430917"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845802"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Aan de slag met geautomatiseerd onderzoek en antwoord (lucht) in Office 365
 
@@ -62,7 +62,7 @@ Op een hoog niveau wordt een waarschuwing geactiveerd en wordt een geautomatisee
     Wanneer herstelacties in behandeling zijn goedgekeurd (of afgekeurd), is het geautomatiseerde onderzoek voltooid.
 
 > [!NOTE]
-> In Office 365 ATP worden geen herstelacties automatisch uitgevoerd. Herstelacties worden alleen uitgevoerd na goedkeuring van het beveiligingsteam van uw organisatie. 
+> In Microsoft Defender voor Office 365 worden geen herstelacties automatisch uitgevoerd. Herstelacties worden alleen uitgevoerd na goedkeuring van het beveiligingsteam van uw organisatie. 
 
 Tijdens en na een proces van een geautomatiseerde onderzoek kan uw beveiligingsteam het volgende doen:
 

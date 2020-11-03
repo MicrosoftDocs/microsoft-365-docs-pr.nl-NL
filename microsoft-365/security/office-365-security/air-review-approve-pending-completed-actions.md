@@ -16,13 +16,13 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Meer informatie over herstelacties in het automatisch onderzoek en de antwoord mogelijkheden in Office 365 Advanced Threat Protection-abonnement 2.
-ms.openlocfilehash: 1df963a77054e1adc9a290e976be5998d6298436
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Meer informatie over herstelacties in de functies voor automatisch onderzoek en antwoord in Microsoft Defender voor Office 365, abonnement 2.
+ms.openlocfilehash: 7dc5c0ba2e320e3f140d26e79e5c2e4a8fde79d7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446625"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844558"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>In behandeling zijnde of voltooide herstelacties bekijken na een geautomatiseerd onderzoek in Office 365
 

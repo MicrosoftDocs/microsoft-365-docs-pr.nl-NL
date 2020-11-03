@@ -20,12 +20,12 @@ description: Leer hoe u een geautomatiseerd onderzoek en antwoord kunt integrere
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: 9bc5de44700b7f1b7207f8fae002adcb55d32841
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 8b08b441ca468b5efa1c4c003c636de2a43b3e7d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446681"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844546"
 ---
 # <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>De API voor beheeractiviteiten gebruiken voor aangepaste oplossingen of oplossingen voor rapportage van derden
 
@@ -43,7 +43,7 @@ Gebruik de volgende bronnen om dit in te stellen:
 |[Overzicht van Office 365 Management Api's](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)|De Office 365 Management Activity API biedt informatie over diverse acties en gebeurtenissen van gebruikers, beheerders, systemen en beleid uit Microsoft 365 en Azure Active Directory-activiteitenlogboeken.|
 |[Aan de slag met Api's van Office 365 Management](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)|De Office 365-beheer-API maakt gebruik van Azure AD om authenticatie services te bieden voor de toepassing om toegang te krijgen tot gegevens van Microsoft 365. Voer de stappen in dit artikel uit om dit in te stellen.|
 |[Office 365 Management Activity-API-referentie](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)|U kunt de Office 365 Management Activity API gebruiken om informatie op te halen over acties en gebeurtenissen van gebruikers, beheerders, systemen en beleid uit Microsoft 365 en Azure AD-activiteitenlogboeken. Lees dit artikel voor meer informatie over hoe dit werkt.|
-|[Office 365 Management Activity-API-schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)|Bekijk een overzicht van het [gemeenschappelijke schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) en het [schema Office 365 ATP-en risico onderzoek en antwoordschema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) voor informatie over specifieke soorten gegevens die beschikbaar zijn via de Office 365 Management Activity API.|
+|[Office 365 Management Activity-API-schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)|Bekijk een overzicht van het [veelgebruikte schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) en het [schema voor het onderzoek en antwoord van de Defender voor Office 365 en-antwoorden](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) voor informatie over specifieke soorten gegevens die beschikbaar zijn via de Office 365 Management Activity API.|
 |
 
 ## <a name="see-also"></a>Zie ook

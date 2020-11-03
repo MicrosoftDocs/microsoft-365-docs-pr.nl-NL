@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Uw zakelijke e-mail en gegevens beschermen tegen cyber bedreigingen, zoals Ransomware, phishing en kwaadaardige bijlagen.
-ms.openlocfilehash: c72090bebe92ea61d99772eccde041d011c05580
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: e91d2c6fc3df7cbcd7fedc198747838d470ab7d8
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398645"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845418"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>De belangrijkste 12 taken voor beveiligings teams voor de ondersteuning van thuisgebruik
 
@@ -42,9 +42,9 @@ Voor klanten die onze Enterprise-abonnementen gebruiken, adviseert Microsoft de 
 |---|---|---|---|---|
 |1|[Azure multi-factor Authentication (MFA) inschakelen](#1-enable-azure-multi-factor-authentication-mfa)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3|[Beveiligen tegen bedreigingen](#2-protect-against-threats)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|driefasig|[Office 365 Advanced Threat Protection configureren](#3-configure-office-365-advanced-threat-protection)|||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3|[Azure Advanced Threat Protection (ATP) configureren](#4-configure-azure-advanced-threat-protection)|||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|vijf|[Microsoft Threat Protection inschakelen](#5-turn-on-microsoft-threat-protection)|||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|driefasig|[Microsoft Defender voor Office 365 configureren](#3-configure-microsoft-defender-for-office-365)|||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3|[Microsoft Defender configureren voor identiteit](#4-configure-microsoft-defender-for-identity)|||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|vijf|[Microsoft 365 Defender inschakelen](#5-turn-on-microsoft-365-defender)|||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |zes|[De bescherming van intune mobiele apps configureren voor telefoons en tablets](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7,5|[MFA en voorwaardelijke toegang configureren voor gasten, waaronder de intune-app-beveiliging](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8:00|[Pc's registreren in Apparaatbeheer en compatibele Pc's vereisen](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -86,17 +86,17 @@ Voor alle Microsoft 365-abonnementen zijn diverse bedreigingen beveiligingsfunct
 
 Zie [beschermen tegen bedreigingen in Office 365](office-365-security/protect-against-threats.md) voor hulp bij het begin van de richtlijnen die u kunt gebruiken als uitgangspunt.
 
-## <a name="3-configure-office-365-advanced-threat-protection"></a>3: Office 365 Advanced Threat Protection configureren
+## <a name="3-configure-microsoft-defender-for-office-365"></a>3: Microsoft Defender voor Office 365 configureren
 
-Office 365 Advanced Threat Protection (ATP), inbegrepen in Microsoft 365 E5 en Office 365 E5, beschermt uw organisatie tegen kwaadaardige bedreigingen van e-mailberichten, koppelingen (Url's) en samenwerkingsprogramma's. Het kan enkele uren duren voordat het is geconfigureerd.
+Microsoft Defender voor Office 365, inbegrepen in Microsoft 365 E5 en Office 365 E5, beschermt uw organisatie tegen kwaadaardige bedreigingen via e-mailberichten, koppelingen (Url's) en samenwerkingsprogramma's. Het kan enkele uren duren voordat het is geconfigureerd.
 
-Office 365 ATP:
+Microsoft Defender voor Office 365:
 
 - Beschermt uw organisatie tegen onbekende e-mail bedreigingen in realtime met behulp van intelligente systemen die bijlagen en koppelingen voor schadelijke inhoud controleren. Deze geautomatiseerde systemen bestaan uit een robuust platform, heuristiek en machine learning-modellen.
 - Beschermt uw organisatie wanneer gebruikers bestanden samenwerken en delen door kwaadaardige bestanden in team sites en documentbibliotheken op te sporen en te blokkeren.
 - Hiermee past u machine learning modellen en geavanceerde imitatie algoritmen voor fraude detectie toe.
 
-Zie [Office 365 Advanced Threat Protection](office-365-security/office-365-atp.md)voor een overzicht, waaronder een overzicht van abonnementen.
+Zie voor een overzicht van een abonnement, waaronder een overzicht van de abonnementen, de [Defender voor Office 365](office-365-security/office-365-atp.md).
 
 Uw globale beheerder kan deze beveiligingsinstellingen configureren:
 
@@ -104,25 +104,25 @@ Uw globale beheerder kan deze beveiligingsinstellingen configureren:
 - [Algemene instellingen configureren voor veilige koppelingen](office-365-security/configure-global-settings-for-safe-links.md)
 - [Beleidsregels voor veilige bijlagen instellen](office-365-security/set-up-atp-safe-attachments-policies.md)
 
-U moet samenwerken met uw Exchange Online-beheerder en de SharePoint Online-beheerder om ATP te configureren voor de volgende werkbelasting:
+U moet samenwerken met uw Exchange Online-beheerder en de SharePoint Online-beheerder om Defender voor Office 365 te configureren voor de volgende werkbelasting:
 
 - [ATP voor SharePoint, OneDrive en Microsoft Teams](office-365-security/atp-for-spo-odb-and-teams.md)
 
-## <a name="4-configure-azure-advanced-threat-protection"></a>4: Azure Advanced Threat Protection configureren
+## <a name="4-configure-microsoft-defender-for-identity"></a>4: Microsoft Defender voor identiteit configureren
 
-[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) (Azure ATP) is een op de cloud gebaseerde beveiligingsoplossing waarmee u uw on-premises Active Directory-signaleren identificeert, opspoort en onderzoekt naar geavanceerde bedreigingen, compromisloze identiteiten en schadelijke Insider-acties die u kunt uitvoeren op uw organisatie. Richt u op de volgende oorzaak omdat uw on-premises beheerder en de Cloud infrastructuur geen afhankelijkheden of vereisten hebben en er direct voordelen kunnen bestaan.
+[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) is een op de cloud gebaseerde beveiligingsoplossing waarmee u uw on-premises Active Directory-signaleren identificeert, opspoort en onderzoekt naar geavanceerde bedreigingen, compromisloze identiteiten en schadelijke Insider-acties die u in uw organisatie worden doorgestuurd. Richt u op de volgende oorzaak omdat uw on-premises beheerder en de Cloud infrastructuur geen afhankelijkheden of vereisten hebben en er direct voordelen kunnen bestaan.
 
-- Zie voor meer informatie over het instellen van [Azure ATP-Snelstartgids](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1)
-- Bekijk de [video: Inleiding tot Azure ATP](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
-- De [drie fasen van de implementatie van Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next) bekijken
+- Zie [Microsoft Defender voor de identiteits introductie](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) om snel te kunnen instellen
+- Bekijk de [video: Inleiding tot Microsoft Defender voor identiteit](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
+- De [drie fasen van Microsoft Defender voor identiteits implementatie](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp#whats-next) bekijken
 
-## <a name="5-turn-on-microsoft-threat-protection"></a>5: Microsoft Threat Protection inschakelen
+## <a name="5-turn-on-microsoft-365-defender"></a>5: Microsoft 365 Defender inschakelen
 
-Nu u Office 365 ATP en Azure ATP hebt geconfigureerd, kunt u de gecombineerde signalen van deze mogelijkheden in één dashboard weergeven. Met [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) (MTP) worden waarschuwingen, incidenten, automatisch onderzoek en antwoord, en de geavanceerde jacht van de werkbelasting (Azure ATP, Office 365 ATP, Microsoft Defender ATP en Microsoft Cloud app Security) in één venster op [Security.Microsoft.com](https://security.microsoft.com).
+Nu u Microsoft Defender voor Office 365 en Microsoft Defender voor de identiteit hebt geconfigureerd, kunt u de gecombineerde signalen van deze mogelijkheden in één dashboard weergeven. In [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) worden waarschuwingen, incidenten, geautomatiseerd onderzoek en antwoord, en de geavanceerde jacht voor de werkbelasting (Microsoft Defender for identiteit, Defender for Office 365, Microsoft Defender voor eindpunten en beveiliging van de Cloud app) in één deelvenster op [Security.Microsoft.com](https://security.microsoft.com).
 
 ![Afbeelding van MTP-dashboard](../media/top-ten-security-remote-work-mtp-dashboard.png)
 
-Wanneer u een of meer van uw Advanced Threat Protection-Services hebt geconfigureerd, schakelt u MTP in. Nieuwe functies worden continu toegevoegd aan MTP. u kunt ook kiezen voor het ontvangen van Voorbeeldfuncties.
+Wanneer u een of meer van de services van de versie van de Defender voor Office 365-Services hebt geconfigureerd, schakelt u MTP in. Nieuwe functies worden continu toegevoegd aan MTP. u kunt ook kiezen voor het ontvangen van Voorbeeldfuncties.
 
 - [Meer informatie over MTP](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
 - [MTP inschakelen](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable)
@@ -173,7 +173,7 @@ U kunt ook profiteren van de volgende zelfstudies:
 
 Wanneer u de apparaten registreert, volgt u de richtlijnen in [common Identity-en Apparaattoegang voor beleids](./office-365-security/identity-access-policies.md) regels om deze beleidsregels te maken:
 
-- [Beleid voor naleving van apparaat definiëren](./office-365-security/identity-access-policies.md#define-device-compliance-policies) : de aanbevolen instellingen voor Windows 10 bevatten antivirusbeveiliging. Als u Microsoft 365 E5 hebt, kunt u de status van werknemers in Microsoft Defender Advanced Threat Protection volgen. Zorg ervoor dat nalevingsbeleid voor andere besturingssystemen antivirussoftware en bescherming tegen eindpunten omvat.
+- [Beleid voor naleving van apparaat definiëren](./office-365-security/identity-access-policies.md#define-device-compliance-policies) : de aanbevolen instellingen voor Windows 10 bevatten antivirusbeveiliging. Als u Microsoft 365 E5 hebt, kunt u Microsoft Defender voor eindpunt gebruiken om de status van werknemers apparaten te bewaken. Zorg ervoor dat nalevingsbeleid voor andere besturingssystemen antivirussoftware en bescherming tegen eindpunten omvat.
 - [Compatibele Pc's vereisen](./office-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) : dit is de regel voor voorwaardelijke toegang in azure AD die het beleid voor naleving van apparaatcompatibiliteit afdwingt.
 
 Er kan slechts één organisatie een apparaat beheren, dus zorg ervoor dat u Gastaccounts uitsluiten van de regel voor voorwaardelijke toegang in azure AD. Als u gast en externe gebruikers niet uitsluiten van beleidsregels waarvoor de naleving van een apparaat is vereist, blok keert dit beleid deze gebruikers. Zie voor meer informatie [het artikel common policies bijwerken om gast en externe toegang toe te staan en te beveiligen](./office-365-security/identity-access-policies-guest-access.md).
@@ -247,6 +247,6 @@ Microsoft 365 omvat verschillende manieren om de status te controleren en de jui
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Gefeliciteerd! U hebt snel enkele van de belangrijkste beveiligings bescherming geïmplementeerd en uw organisatie is veel veiliger. U kunt nu nog verder gaan met de mogelijkheden van bedreigingsbeveiliging (waaronder Microsoft Defender Advanced Threat Protection), functies voor gegevensclassificatie en beveiliging, en het beveiligen van administratieve accounts. Voor een lager, zeer uitgebreidere beveiligingsaanbevelingen voor Microsoft 365, raadpleegt [u Microsoft 365 Security for Business decisioners (BDMs)](Microsoft-365-security-for-bdm.md).
+Gefeliciteerd! U hebt snel enkele van de belangrijkste beveiligings bescherming geïmplementeerd en uw organisatie is veel veiliger. U kunt nu nog verder gaan met de mogelijkheden van bedreigingsbeveiliging (waaronder Microsoft Defender voor eindpunt), functies voor gegevensclassificatie en beveiliging, en om administratieve accounts te beveiligen. Voor een lager, zeer uitgebreidere beveiligingsaanbevelingen voor Microsoft 365, raadpleegt [u Microsoft 365 Security for Business decisioners (BDMs)](Microsoft-365-security-for-bdm.md).
 
 Bezoek ook het nieuwe Beveiligingscentrum van Microsoft op [docs.Microsoft.com/security](https://docs.microsoft.com/security).

@@ -1,5 +1,5 @@
 ---
-title: Gedeelde query's gebruiken in Microsoft Threat Protection Advanced jacht
+title: Gedeelde query's gebruiken in Microsoft 365 Defender Advanced jacht
 description: Start de bedreigings jacht direct met vooraf gedefinieerde en gedeelde query's. Uw query's delen met het publiek of uw organisatie.
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, telemetrie, aangepaste detectie, schema, kusto, github repo, mijn query's, gedeelde query's
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 7cdb15be274c89bd92995b9e947489c62521c6bb
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 48da1a3a64926f44582e7872f0b0ee03240409ca
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429681"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844078"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken in geavanceerde jacht
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429681"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 
@@ -55,7 +55,7 @@ U kunt een nieuwe of bestaande query opslaan, zodat deze alleen toegankelijk is 
     - **Gedeelde query's** , gedeeld met alle gebruikers van uw organisatie
     - **Mijn query's** : alleen toegankelijk voor u
     
-5. Kies **Opslaan**. 
+5. Klik op **Opslaan**. 
 
 ## <a name="delete-or-rename-a-query"></a>Een query verwijderen of de naam ervan wijzigen
 1. Klik met de rechtermuisknop op de query waarvan u de naam wilt wijzigen of die u wilt verwijderen.

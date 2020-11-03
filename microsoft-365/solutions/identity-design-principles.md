@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a1e85b2089663208e8b6004462211263a1b27242
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: fc975610e24980c6a552179359bb643eb9ac040c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547791"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845250"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Om de identiteit en verder te leren lopen: één gezichtspunt van een architect
 
@@ -132,11 +132,11 @@ Als u al deze signalen combineert, wordt het volgende toegestaan voor dynamische
 
 Als u akkoord gaat met deze uitgebreide definitie van autorisatie, moet u extra oplossingen implementeren. Welke oplossingen u implementeert, hangt af van de manier waarop dynamische beleidsregels moeten worden verwerkt en welke bedreigingen u prioriteit wilt geven. Enkele voorbeelden van dergelijke systemen zijn:
 - [Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/identity-protection/) 
-- [Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/) (Azure ATP)
-- [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) (Microsoft Defender ATP)
-- [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) (Office 365 ATP)
+- [Microsoft Defender voor identiteit](https://docs.microsoft.com/azure-advanced-threat-protection/)
+- [Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
 - [Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/) (MCAS)
-- MTP ( [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide) )
+- [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide)
 - [Microsoft Intune](https://docs.microsoft.com/mem/intune/)
 - [Microsoft Information Protection](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) (MIP)
 - [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/) 
@@ -208,7 +208,7 @@ Er is een lang en toenemende lijst met [ingebouwde rollen](https://docs.microsof
 
 Het is niet mogelijk om alles te delegeren (hoewel de leemte afneemt), wat betekent dat de rol van globale beheerder soms soms moet worden gebruikt. In plaats van personen lidmaatschap van deze rol, moet u als code en automatisering worden beschouwd.
 
-**Opmerking**: het microsoft 365-Beheercentrum heeft een gebruiksvriendelijke interface, maar biedt een subset van mogelijkheden vergeleken met de Azure AD-beheer ervaring. Beide portals gebruiken dezelfde functies van Azure AD, zodat de wijzigingen op dezelfde plaats plaatsvinden. Tip: als u wilt dat er een beheerder is van de GEBRUIKERSINTERFACE met een identiteits beheerder zonder dat u alle Azure onbelangrijke e-mail hoeft te gebruiken [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
+**Opmerking** : het microsoft 365-Beheercentrum heeft een gebruiksvriendelijke interface, maar biedt een subset van mogelijkheden vergeleken met de Azure AD-beheer ervaring. Beide portals gebruiken dezelfde functies van Azure AD, zodat de wijzigingen op dezelfde plaats plaatsvinden. Tip: als u wilt dat er een beheerder is van de GEBRUIKERSINTERFACE met een identiteits beheerder zonder dat u alle Azure onbelangrijke e-mail hoeft te gebruiken [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
 
 Wat is de naam van de persoon? Maak geen hypothesen van de naam van de rol. Taal is geen zeer nauwkeurig gereedschap. Het doel is om bewerkingen te definiëren die moeten worden gedelegeerd voordat u kunt kijken welke rollen u nodig hebt. Wanneer u iemand toevoegt aan de rol van beveiligings lezer, worden de beveiligingsinstellingen voor alles niet weergegeven. 
 
@@ -242,27 +242,27 @@ Zoals eerder is vermeld, willen veel klanten een meer granulair delegerings mode
 
 - **Exchange Online** - [https://docs.microsoft.com/exchange/permissions-exo/permissions-exo](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) 
 - **SharePoint Online** - [https://docs.microsoft.com/sharepoint/manage-site-collection-administrators](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators) 
-- **Microsoft teams**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness ](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
+- **Microsoft teams**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
 - **eDiscovery** - [https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions](https://docs.microsoft.com/microsoft-365/compliance/) 
-  + **Machtigingen filteren**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search ](https://docs.microsoft.com/microsoft-365/compliance/)
-  + **Nalevings grenzen**  -  [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries ](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
-  + **Geavanceerd eDiscovery**  -  [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 ](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
+  + **Machtigingen filteren**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search](https://docs.microsoft.com/microsoft-365/compliance/)
+  + **Nalevings grenzen**  -  [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
+  + **Geavanceerd eDiscovery**  -  [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
 - **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins) 
 - **Meerdere geografische** - [https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin) 
 - **Dynamics 365** – [https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
   Opmerking: deze koppeling gaat naar de hoofdsite van de documentatie. Er bestaan meerdere soorten services met variaties in het model voor de beheerder/overdracht.
-- **Power platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation ](https://docs.microsoft.com/power-platform/admin/admin-documentation )
-  + **Power-apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security ](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
+- **Power platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation](https://docs.microsoft.com/power-platform/admin/admin-documentation )
+  + **Power-apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
     Opmerking: er zijn verschillende typen met variaties in de beheer-en delegerings modellen.
-  + Automatisch aan de **macht**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin ](https://docs.microsoft.com/power-automate/environments-overview-admin )
-  + **PowerBI**  -  [https://docs.microsoft.com/power-bi/service-admin-governance ](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
+  + Automatisch aan de **macht**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin](https://docs.microsoft.com/power-automate/environments-overview-admin )
+  + **PowerBI**  -  [https://docs.microsoft.com/power-bi/service-admin-governance](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
 Opmerking: beveiliging en delegering van het gegevens platform is een complex gebied, wat Power BI is.
-- **Mem/intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control ](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
-- **Microsoft Defender ATP**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
-- **Microsoft Threat Protection** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions)
+- **Mem/intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
+- **Microsoft Defender voor eindpunt**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
+- **Microsoft 365 Defender** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions)
 - **Microsoft Cloud-app-beveiliging** - [https://docs.microsoft.com/cloud-app-security/manage-admins](https://docs.microsoft.com/cloud-app-security/manage-admins)
-- **Gegevensstroom**  -  [https://docs.microsoft.com/stream/assign-administrator-user-role ](https://docs.microsoft.com/stream/assign-administrator-user-role )
-- **Informatie belemmeringen**  -  [https://docs.microsoft.com/microsoft-365/compliance/information-barriers ](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
+- **Gegevensstroom**  -  [https://docs.microsoft.com/stream/assign-administrator-user-role](https://docs.microsoft.com/stream/assign-administrator-user-role )
+- **Informatie belemmeringen**  -  [https://docs.microsoft.com/microsoft-365/compliance/information-barriers](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
 
 Voor de rest is zoeken in documenten echt helemaal goed [https://docs.microsoft.com/](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) . 
 
@@ -273,9 +273,9 @@ Office 365 heeft een [Uniform auditlogboek](https://docs.microsoft.com/microsoft
 Hier volgen enkele voorbeelden van de logboeken van Microsoft 365 die worden weergegeven via de andere API:
 - [Azure AD](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (activiteiten die niet gerelateerd zijn aan Office 365)
 - [Exchange-berichten traceren](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace)
-- Threat/UEBA Systems hierboven besproken (bijvoorbeeld Azure AD Identity Protection, Microsoft Cloud app Security, Microsoft Defender ATP, etc.)
+- Threat/UEBA Systems hierboven besproken (bijvoorbeeld Azure AD Identity Protection, Microsoft Cloud app Security, Microsoft Defender voor eindpunt, etc.)
 - [Microsoft-informatiebescherming](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
-- [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
+- [Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
 Het is belangrijk dat u eerst alle benodigde logboek bronnen identificeert voor een beveiligings-en compliance-programma. Houd er rekening mee dat verschillende logboeken een afwijkende Bewaar limiet hebben. 
@@ -292,7 +292,7 @@ Als u alle logboeken in één opslaglocatie combineert, wordt er een extra voord
 
 Logboeken hoeven niet naar één plaats te worden doorgestuurd. Het kan ook handig zijn om [Office 365-logboeken met de Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) of een aangepast RBAC-model in [Power bi](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics?view=o365-worldwide)te integreren. Verschillende opslaglocaties hebben verschillende voordelen en doelgroepen.
 
-Er wordt aangegeven dat er een zeer uitgebreid ingebouwd Analytics-systeem is voor beveiliging, bedreigingen en beveiligingslekken, etc. in een service genaamd [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide).
+Er wordt aangegeven dat er een zeer uitgebreid ingebouwd Analytics-systeem is voor beveiliging, bedreigingen en beveiligingslekken, etc. in een service genaamd [Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide).
 
 Veel grote klanten willen deze logboekgegevens overbrengen naar een systeem van derden (bijvoorbeeld SIEM). Er zijn verschillende manieren waarop u dit kunt doen, maar in-algemene [Azure Event hub](https://docs.microsoft.com/azure/azure-monitor/platform/stream-monitoring-data-event-hubs) en [Graph](https://docs.microsoft.com/graph/security-integration) goede beginpunten zijn.
 
@@ -305,7 +305,7 @@ Het is belangrijk dat u de relaties tussen verschillende services in dezelfde Te
 -   Stuur elk een van deze via een goedkeuringsproces (Power platform).
 -   Wanneer alle onderdelen zijn goedgekeurd, kunt u deze samenvoegen tot een uitgesplitste product (s) (Azure) [Microsoft Graph API](https://docs.microsoft.com/azure/active-directory/develop/microsoft-graph-intro) de beste vriend voor u zijn.  Is niet mogelijk, maar u kunt een oplossing voor [meerdere tenants](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps)niet ontwerpen.
 
-Azure-toegangsbeheer op basis van rollen (RBAC) maakt ondersteuning voor het verkrijgen van toegang tot het detail beheer van Azure. Met behulp van RBAC kunt u de toegang tot bronnen beheren door gebruikers de minste machtigingen te verlenen die nodig zijn om hun taken uit te voeren. De gegevens bevinden zich buiten de reikwijdte van dit document, maar Zie [Wat is op rollen gebaseerd toegangsbeheer voor rollen in azure?](https://docs.microsoft.com/azure/role-based-access-control/overview) voor meer informatie. RBAC is belangrijk, maar slechts een deel van de aandachtspunten voor Azure. [Cloud acceptatie raamwerk](https://docs.microsoft.com/azure/cloud-adoption-framework/govern/) is een geweldig uitgangspunt voor meer informatie. Ik vind het leuk voor mijn vriend, Andres Ravinett klanten stapsgewijs stapsgewijs door verschillende onderdelen te kiezen. Een weergave op het hoogste niveau voor verschillende elementen (niet zo goed als de procedure om het werkelijke klantmodel te bereiken) is een soortgelijke manier:
+Azure Role-Based toegangsbeheer (RBAC) zorgt voor het verkrijgen van toegang tot een verfijnde toegangsbeheer voor Azure. Met behulp van RBAC kunt u de toegang tot bronnen beheren door gebruikers de minste machtigingen te verlenen die nodig zijn om hun taken uit te voeren. De gegevens bevinden zich buiten de reikwijdte van dit document, maar Zie [Wat is op rollen gebaseerd toegangsbeheer voor rollen in azure?](https://docs.microsoft.com/azure/role-based-access-control/overview) voor meer informatie. RBAC is belangrijk, maar slechts een deel van de aandachtspunten voor Azure. [Cloud acceptatie raamwerk](https://docs.microsoft.com/azure/cloud-adoption-framework/govern/) is een geweldig uitgangspunt voor meer informatie. Ik vind het leuk voor mijn vriend, Andres Ravinett klanten stapsgewijs stapsgewijs door verschillende onderdelen te kiezen. Een weergave op het hoogste niveau voor verschillende elementen (niet zo goed als de procedure om het werkelijke klantmodel te bereiken) is een soortgelijke manier:
 
 ![Algemeen overzicht van Azure-onderdelen voor gedelegeerd beheer](../media/solutions-architecture-center/identity-beyond-illustration-5.png)
 

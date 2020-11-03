@@ -1,6 +1,6 @@
 ---
 title: API voor update van incidenten
-description: Informatie over het bijwerken van incidenten met Microsoft Threat Protection API
+description: Meer informatie over het bijwerken van incidenten met de Microsoft 365 Defender API
 keywords: Update, API, incident
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8ad47453c7163bfac99c17f42986b818cdca603f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3f77980863b0c232166d736a6b557444df98c8ac
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203625"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844834"
 ---
 # <a name="update-incidents-api"></a>API voor update van incidenten
 
@@ -32,7 +32,7 @@ ms.locfileid: "48203625"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
@@ -49,7 +49,7 @@ Hiermee worden de eigenschappen van een bestaand incident bijgewerkt.
 
 
 ## <a name="permissions"></a>Machtigingen
-U moet een van de volgende machtigingen hebben om deze API te kunnen bellen. Voor meer informatie, waaronder de manier waarop u machtigingen kiest, raadpleegt u [de Api's Microsoft Threat Protection openen](api-access.md).
+U moet een van de volgende machtigingen hebben om deze API te kunnen bellen. Voor meer informatie, waaronder de manier waarop u machtigingen kiest, raadpleegt u [de Microsoft 365-api's voor Access](api-access.md).
 
 Type machtiging |   Machtigingsset  |   Weergavenaam van de machtiging
 :---|:---|:---

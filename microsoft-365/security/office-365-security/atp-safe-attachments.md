@@ -18,23 +18,23 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 - seo-marvel-apr2020
-description: Beheerders kunnen de functie voor veilige bijlagen in Office 365 Advanced Threat Protection (ATP) leren kennen.
-ms.openlocfilehash: b8a74ac9cea56612d4669f3e68b1b2c83f23c7a4
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: Beheerders kunnen meer te weten komen over de functie voor veilige bijlagen in Microsoft Defender voor Office 365.
+ms.openlocfilehash: 031760c58ae18ca7dec1ecd1c1c7f870633e87fd
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446693"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844282"
 ---
-# <a name="safe-attachments-in-office-365-atp"></a>Veilige bijlagen in Office 365 ATP
+# <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Veilige bijlagen in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Veilige bijlagen in [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md) biedt een extra beveiligingslaag voor e-mailbijlagen die al zijn gescand door [beveiliging tegen malware in Exchange Online Protection (EOP)](anti-malware-protection.md). Met name: veilige bijlagen gebruiken een virtuele omgeving om bijlagen in e-mailberichten te controleren voordat ze worden afgeleverd bij geadresseerden (een proces met de _detonatie_functie).
+Veilige bijlagen in [Microsoft Defender voor Office 365](office-365-atp.md) biedt een extra beveiligingslaag voor e-mailbijlagen die al zijn gescand door [beveiliging tegen malware in Exchange Online Protection (EOP)](anti-malware-protection.md). Met name: veilige bijlagen gebruiken een virtuele omgeving om bijlagen in e-mailberichten te controleren voordat ze worden afgeleverd bij geadresseerden (een proces met de _detonatie_ functie).
 
-Beveiliging van bijlagen voor e-mailberichten wordt bepaald door beleidsregels voor veilige bijlagen. Er is geen standaardbeleid voor beveiliging van bijlagen, **dus als u de beveiliging van veilige bijlagen wilt achterhalen, moet u een of meer regels voor veilig bijlagen maken**. Zie voor instructies het [beleid voor veilige bijlagen instellen in ATP](set-up-atp-safe-attachments-policies.md).
+Beveiliging van bijlagen voor e-mailberichten wordt bepaald door beleidsregels voor veilige bijlagen. Er is geen standaardbeleid voor beveiliging van bijlagen, **dus als u de beveiliging van veilige bijlagen wilt achterhalen, moet u een of meer regels voor veilig bijlagen maken**. Zie voor instructies voor het [instellen van beleidsregels voor veilige bijlagen in Defender voor Office 365](set-up-atp-safe-attachments-policies.md).
 
-In de volgende tabel wordt beschreven hoe u scenario's voor veilige bijlagen in Microsoft 365 en Office 365-organisaties met ATP (met andere woorden, gebrek aan licentieverlening in de voorbeelden) biedt.
+In de volgende tabel wordt beschreven hoe u scenario's voor veilige bijlagen in Microsoft 365 en Office 365-organisaties met Microsoft Defender for Office 365 (met andere woorden, gebrek aan licentieverlening in de voorbeelden) bevat.
 
 ****
 
@@ -59,7 +59,7 @@ Het scannen van veilige bijlagen vindt plaats in dezelfde regio waarin uw gegeve
 
 In deze sectie worden de instellingen in het beleid voor veilige bijlagen beschreven:
 
-- **Veilige bijlagen onbekende malware**: met deze instelling wordt de actie bestuurd voor het scannen van schadelijke bijlagen in e-mailberichten. In de volgende tabel vindt u een beschrijving van de beschikbare opties:
+- **Veilige bijlagen onbekende malware** : met deze instelling wordt de actie bestuurd voor het scannen van schadelijke bijlagen in e-mailberichten. In de volgende tabel vindt u een beschrijving van de beschikbare opties:
 
   ****
 
@@ -72,21 +72,21 @@ In deze sectie worden de instellingen in het beleid voor veilige bijlagen beschr
   |**Dynamische bezorging**|Hiermee worden berichten onmiddellijk bezorgd, maar worden bijlagen met tijdelijke aanduidingen vervangen totdat de scan is voltooid. <br/><br/> Zie voor meer informatie de sectie [dynamische bezorging in beleidsregels voor veilige bijlagen](#dynamic-delivery-in-safe-attachments-policies) verderop in dit onderwerp.|Voorkom dat berichten worden vertraagd wanneer u geadresseerden tegen kwaadwillende bestanden beschermt <br/> <br/> Voorbeelden van bijlagen weergeven in de veilige modus terwijl de scanfunctie plaatsvindt|
   |
 
-- **Bijlage doorsturen naar detectie: Schakel omleiding** in en **Stuur de bijlage naar het volgende e-mailadres**: voor **blok**punten, **monitors**of **vervangen** , berichten met schadelijke bijlagen verzenden naar het opgegeven interne of externe e-mailadres voor analyse en onderzoek.
+- **Bijlage doorsturen naar detectie: Schakel omleiding** in en **Stuur de bijlage naar het volgende e-mailadres** : voor **blok** punten, **monitors** of **vervangen** , berichten met schadelijke bijlagen verzenden naar het opgegeven interne of externe e-mailadres voor analyse en onderzoek.
 
   De aanbeveling voor standaard-en strikte beleidsinstellingen is om omleiding in te schakelen. Zie [instellingen voor veilige bijlagen](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)voor meer informatie.
 
-- **De bovenstaande selectie toepassen als u wilt dat malware wordt gescand op bijlagen wanneer een fout optreedt of als de fout zich voordoet**, wordt de actie die is opgegeven door veilige bijlagen, ook wel als gevolg van **schadelijke malware** op berichten. Altijd deze optie selecteren als u **omleiden inschakelen**selecteert. Anders zijn er mogelijk berichten verloren.
+- **De bovenstaande selectie toepassen als u wilt dat malware wordt gescand op bijlagen wanneer een fout optreedt of als de fout zich voordoet** , wordt de actie die is opgegeven door veilige bijlagen, ook wel als gevolg van **schadelijke malware** op berichten. Altijd deze optie selecteren als u **omleiden inschakelen** selecteert. Anders zijn er mogelijk berichten verloren.
 
-- **Filters voor geadresseerden**: u moet de voorwaarden en uitzonderingen opgeven voor de ontvanger van het beleid. U kunt deze eigenschappen gebruiken voor voorwaarden en uitzonderingen:
+- **Filters voor geadresseerden** : u moet de voorwaarden en uitzonderingen opgeven voor de ontvanger van het beleid. U kunt deze eigenschappen gebruiken voor voorwaarden en uitzonderingen:
 
   - **De ontvanger is**
   - **Het domein van de ontvanger is**
   - **De ontvanger is lid van**
 
-  U kunt slechts één voorwaarde of een uitzondering gebruiken, maar de voorwaarde of uitzondering kan meerdere waarden bevatten. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
+  U kunt slechts één voorwaarde of een uitzondering gebruiken, maar de voorwaarde of uitzondering kan meerdere waarden bevatten. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_ ).
 
-- **Prioriteit**: als u meerdere beleidsregels maakt, kunt u de volgorde opgeven waarin ze worden toegepast. Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
+- **Prioriteit** : als u meerdere beleidsregels maakt, kunt u de volgorde opgeven waarin ze worden toegepast. Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
   Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
@@ -125,7 +125,7 @@ Er zijn scenario's waarin de dynamische levering geen bijlagen in berichten kan 
 
 - [S/MIME)](s-mime-for-message-signing-and-encryption.md) versleutelde berichten.
 
-- U hebt de actie voor dynamische bezorging geconfigureerd in een veilig bijlage beleid, maar de geadresseerde biedt geen ondersteuning voor dynamische bezorging (de ontvanger is bijvoorbeeld een postvak in een on-premises Exchange-organisatie). Met [veilige koppelingen in Office 365 ATP](set-up-atp-safe-links-policies.md) kunt u echter wel Office-bestandsbijlagen met url's zoeken (afhankelijk van de manier waarop de [algemene instellingen voor veilige koppelingen](configure-global-settings-for-safe-links.md) zijn geconfigureerd).
+- U hebt de actie voor dynamische bezorging geconfigureerd in een veilig bijlage beleid, maar de geadresseerde biedt geen ondersteuning voor dynamische bezorging (de ontvanger is bijvoorbeeld een postvak in een on-premises Exchange-organisatie). Met [veilige koppelingen in Microsoft Defender voor Office 365](set-up-atp-safe-links-policies.md) kunt u echter wel Office-bestandsbijlagen met url's scannen (afhankelijk van de manier waarop de [algemene instellingen voor veilige koppelingen](configure-global-settings-for-safe-links.md) zijn geconfigureerd).
 
 ## <a name="submitting-files-for-malware-analysis"></a>Bestanden voor de analyse van malware indienen
 

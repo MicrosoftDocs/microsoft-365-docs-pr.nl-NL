@@ -1,6 +1,6 @@
 ---
-title: Partner toegang via Microsoft Threat Protection-Api's
-description: Meer informatie over het maken van een AAD-toepassing voor toegang via programmacode voor Microsoft Threat Protection namens uw klanten
+title: Partner toegang via Microsoft 365 Defender-Api's
+description: Meer informatie over het maken van een AAD-toepassing voor het verkrijgen van toegang via een programma voor Microsoft 365 Defender namens uw klanten
 keywords: partner, Access, API, multitenant, instemming, toegangstoken, app
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,42 +19,42 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ae9e5ae158c95ae52112f7bc16559559230a20e8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: eb40d5d2d82f57be225515ad0aa566038397bbbd
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203705"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844982"
 ---
-# <a name="partner-access-through-microsoft-threat-protection-apis"></a>Partner toegang via Microsoft Threat Protection-Api's
+# <a name="partner-access-through-microsoft-365-defender-apis"></a>Partner toegang via Microsoft 365 Defender-Api's
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
 
-Op deze pagina wordt beschreven hoe u een AAD-toepassing maakt om via programma toegang te krijgen tot Microsoft Threat Protection namens uw klanten.
+Op deze pagina wordt beschreven hoe u een AAD-toepassing maakt om toegang te krijgen tot Microsoft 365 Defender namens uw klanten via programmering.
 
-Microsoft Threat Protection geeft veel van zijn gegevens en acties getoond via een set programmeer Api's. Met deze Api's wordt u geholpen bij het automatiseren van werkstromen en innoveren op basis van de mogelijkheden van Microsoft Threat Protection. Voor API-toegang is OAuth 2.0-authenticatie vereist. Voor meer informatie raadpleegt u [OAuth 2,0 Authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+Microsoft 365 Defender geeft veel van zijn gegevens en acties getoond via een set programmeer Api's. Met deze Api's wordt u geholpen bij het automatiseren van werkstromen en innoveren op basis van de mogelijkheden van Microsoft 365 Defender. Voor API-toegang is OAuth 2.0-authenticatie vereist. Voor meer informatie raadpleegt u [OAuth 2,0 Authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
 In het algemeen dient u de volgende stappen uit te voeren om de Api's te gebruiken:
 - Maak een Aad-toepassing van **meerdere tenants** .
-- Neem toestemming (instemming) door de beheerder van uw klant voor uw toepassing om toegang te krijgen tot de informatie die nodig is voor Microsoft Threat Protection.
+- Neem geautoriseerd (instemming) door de beheerder van uw klant voor uw toepassing om toegang te krijgen tot de informatie die nodig is voor Microsoft 365.
 - U krijgt een toegangstoken met deze toepassing.
-- Gebruik het token om toegang te krijgen tot de Microsoft Threat Protection API.
+- Gebruik het token om toegang te krijgen tot de Microsoft 365 Defender API.
 
-De volgende stappen uit voor de manier waarop u een AAD-toepassing maakt, krijgt een toegangstoken voor Microsoft Threat Protection en valideert het token.
+De volgende stappen uit de handleiding voor het maken van een AAD-toepassing: krijg een toegangstoken aan Microsoft 365 Defender en valideer het token.
 
 ## <a name="create-the-multi-tenant-app"></a>De app meerdere tenants maken
 
 1. Meld u aan bij uw [Azure-Tenant](https://portal.azure.com) met een gebruiker met een **globale beheerdersrol** .
 
-2. Ga naar de **Azure Active Directory**-  >  **app registraties**  >  **nieuwe registratie**. 
+2. Ga naar de **Azure Active Directory** -  >  **app registraties**  >  **nieuwe registratie**. 
 
    ![Afbeelding van Microsoft Azure en navigatie naar toepassing registreren](../../media/atp-azure-new-app2.png)
 
@@ -69,12 +69,12 @@ De volgende stappen uit voor de manier waarop u een AAD-toepassing maakt, krijgt
     ![Afbeelding van registratie van Microsoft Azure-partner toepassing](../../media/atp-api-new-app-partner.png)
 
 
-4. Zorg dat uw toepassing toegang kan krijgen tot Microsoft Threat Protection en wijs dit toe aan de minimaal vereiste machtigingen om de integratie te voltooien.
+4. Zorg dat uw toepassing toegang heeft tot Microsoft 365 Defender en wijs dit toe aan de minimaal vereiste machtigingen om de integratie te voltooien.
 
-   - Klik op de pagina toepassingen op **API-machtigingen**  >  **add**API  >  **-api's voor mijn organisatie gebruiken** > type **Microsoft Threat Protection** en klik op **Microsoft Threat Protection**.
+   - Klik op de pagina van de toepassing op **API-machtigingen** voor het toevoegen van een  >  **machtiging** voor  >  **Mijn organisatie** > type **Microsoft 365 Defender** en klik op **Microsoft 365 Defender**.
 
    >[!NOTE]
-   >Microsoft Threat Protection wordt niet weergegeven in de oorspronkelijke lijst. U moet de naam ervan beginnen te schrijven in het tekstvak om de naam weer te geven.
+   >Microsoft 365 Defender wordt niet weergegeven in de oorspronkelijke lijst. U moet de naam ervan beginnen te schrijven in het tekstvak om de naam weer te geven.
 
    ![Afbeelding van API-toegang en API-selectie](../../media/apis-in-my-org-tab.PNG)
    
@@ -98,10 +98,10 @@ De volgende stappen uit voor de manier waarop u een AAD-toepassing maakt, krijgt
 
 6. Voeg een geheim toe aan de toepassing.
 
-    - Klik op **certificaten & geheimen**, voeg een beschrijving toe aan het geheim en klik op **toevoegen**.
+    - Klik op **certificaten & geheimen** , voeg een beschrijving toe aan het geheim en klik op **toevoegen**.
 
     >[!IMPORTANT]
-    > Nadat u **toevoegen**hebt geselecteerd, **kopieert u de gegenereerde geheime waarde**. Wanneer u niets kunt terughalen.
+    > Nadat u **toevoegen** hebt geselecteerd, **kopieert u de gegenereerde geheime waarde**. Wanneer u niets kunt terughalen.
 
     ![Afbeelding van de sleutel app maken](../../media/webapp-create-key2.png)
 
@@ -113,7 +113,7 @@ De volgende stappen uit voor de manier waarop u een AAD-toepassing maakt, krijgt
 
 8. Voeg de toepassing toe aan de Tenant van uw klant.
 
-    U moet uw aanvraag in elke Tenant van de klant goedkeuren, waarbij u deze wilt gebruiken. Dit komt doordat de toepassing samenwerkt met de Microsoft Threat Protection-toepassing namens de klant.
+    U moet uw aanvraag in elke Tenant van de klant goedkeuren, waarbij u deze wilt gebruiken. Dit komt doordat de toepassing wordt uitgevoerd met de Microsoft 365-app voor uw klant namens de klant.
 
     Een gebruiker met een **globale beheerder** van de Tenant van uw klant moet op de koppeling naar de toestemming klikken en de toepassing goedkeuren.
 
@@ -203,7 +203,7 @@ return $token
 - Een opdrachtvenster openen
 - CLIENT_ID instellen op uw Azure-toepassings-ID
 - CLIENT_SECRET instellen op uw Azure-toepassing Secret
-- TENANT_ID instellen voor de Azure-TENANT-ID van de klant waarmee u de toepassing wilt gebruiken om toegang te krijgen tot Microsoft Threat Protection Application
+- TENANT_ID instellen voor de Azure-TENANT-ID van de klant die de toepassing wil gebruiken voor toegang tot de Microsoft 365-app
 - Voer de onderstaande opdracht uit:
 
 ```
@@ -222,14 +222,14 @@ Sanity Controleer of u het juiste token hebt:
 
 - Kopiëren/ [plakken het token](https://jwt.ms) dat u in de vorige stap ontvangt om dit te decoderen
 - Valideren dat u de claim ' roles ' ontvangt met de gewenste machtigingen
-- In de onderstaande schermafbeelding ziet u een versleuteld token van een toepassing met meerdere rechten voor Microsoft Threat Protection:
+- In de onderstaande schermafbeelding ziet u een versleuteld token dat u hebt verkregen van een toepassing met meerdere rechten voor Microsoft 365 Defender:
 - De ' TID ' claim is de Tenant-ID waarvan het token deel uitmaakt.
 
 ![Afbeelding van validatie van tokens](../../media/webapp-decoded-token.png)
 
-## <a name="use-the-token-to-access-microsoft-threat-protection-api"></a>Het token gebruiken om toegang te krijgen tot de Microsoft Threat Protection API
+## <a name="use-the-token-to-access-microsoft-365-defender-api"></a>Het token gebruiken om toegang te krijgen tot de Microsoft 365 Defender API
 
-- Kies de API die u wilt gebruiken voor meer informatie. Zie [ondersteunde Microsoft Threat Protection-api's](api-supported.md)
+- Kies de API die u wilt gebruiken voor meer informatie. [ondersteunde Microsoft 365 Defender-api's](api-supported.md)
 - Stel de autorisatie header in op de HTTP-aanvraag die u verstuurt naar ' Bearer {token} ' (Bearer is het autorisatieschema).
 - De verlooptijd van het token is 1 uur (u kunt meer dan één aanvraag met hetzelfde token verzenden)
 
@@ -248,6 +248,6 @@ Sanity Controleer of u het juiste token hebt:
 
 ## <a name="related-topics"></a>Verwante onderwerpen 
 
-- [Toegang tot de Microsoft Threat Protection-Api's](api-access.md)
-- [Toegang tot Microsoft Threat Protection met toepassingscontext](api-create-app-web.md)
-- [Microsoft Threat Protection met gebruikerscontext openen](api-create-app-user-context.md)
+- [Toegang tot de Microsoft 365 Defender-Api's](api-access.md)
+- [Toegang tot Microsoft 365 Defender met toepassingscontext](api-create-app-web.md)
+- [Toegang tot Microsoft 365 Defender met gebruikerscontext](api-create-app-user-context.md)

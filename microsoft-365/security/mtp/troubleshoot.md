@@ -1,6 +1,6 @@
 ---
-title: Problemen met Microsoft Threat Protection-service oplossen
-description: Oplossingen zoeken en de problemen met bekende Microsoft Bedreigingsbeveiliging omzeilen
+title: Problemen met Microsoft 365 Defender-service oplossen
+description: Oplossingen zoeken en de problemen met bekende Microsoft 365 Defender oplossen
 keywords: problemen oplossen met Microsoft Threat Protection, problemen oplossen, Azure ATP, problemen, invoegtoepassing, pagina instellingen
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,35 +19,35 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bcf5b79fcd2fdf0a5af5648e6f6b7ea65d69594c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 16cb1116f400c8d0a83ccc4cac23da06cd1be2a4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201285"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844666"
 ---
-# <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>Problemen met Microsoft Threat Protection-service oplossen
+# <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Problemen met Microsoft 365 Defender-service oplossen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-In deze sectie worden problemen opgelost die kunnen optreden bij het gebruik van de Microsoft Threat Protection-Service.
+In deze sectie worden problemen beschreven die kunnen optreden wanneer u de Microsoft 365 Defender-service gebruikt.
 
 
-## <a name="i-dont-see-microsoft-threat-protection-content"></a>Ik zie geen inhoud voor Microsoft Threat Protection
+## <a name="i-dont-see-microsoft-365-defender-content"></a>Ik zie de inhoud van Microsoft 365 Defender niet
 Als u de mogelijkheden van het navigatiedeelvenster, zoals het geval, het Onderhoudscentrum of de jacht niet ziet in de portal, moet u controleren of de Tenant de juiste licenties heeft. 
 
 Zie [vereisten](prerequisites.md)voor meer informatie.
 
-## <a name="azure-atp-alerts-are-not-showing-up-in-the-microsoft-threat-protection-incidents"></a>Azure ATP-meldingen worden niet weergegeven in de Microsoft Threat Protection-incidenten
-Als u Azure ATP hebt geïmplementeerd in uw omgeving, maar u geen Azure ATP-waarschuwingen ziet als onderdeel van Microsoft Threat Protection, moet u ervoor zorgen dat de integratie met de Microsoft Cloud-app en Azure ATP is ingeschakeld. 
+## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Microsoft Defender voor identiteits waarschuwingen worden niet weergegeven in de Microsoft 365 Defender-incidenten
+Als Microsoft Defender voor de identiteit is geïmplementeerd in uw omgeving, maar als u in de Microsoft 365-versie van Microsoft 2010 niet werkt met de identiteits waarschuwingen, moet u ervoor zorgen dat de beveiligings-app voor Microsoft Cloud app en Defender voor identiteits integratie is ingeschakeld. 
 
-Zie [integratie van Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration)voor meer informatie.
+Zie [Microsoft Defender for Identity Integration](https://docs.microsoft.com/cloud-app-security/aatp-integration)voor meer informatie.
 
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de pagina instellingen voor het inschakelen van de service?
-Als u Microsoft Threat Protection wilt inschakelen, opent u de **instellingen** van het navigatiedeelvenster in het microsoft 365-Beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u beschikt over de [vereiste machtigingen en licenties](mtp-enable.md#check-license-eligibility-and-required-permissions).
+Als u Microsoft 365 Defender wilt inschakelen, opent u de **instellingen** van het navigatiedeelvenster in het microsoft 365 Beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u beschikt over de [vereiste machtigingen en licenties](mtp-enable.md#check-license-eligibility-and-required-permissions).
  
 

@@ -1,6 +1,6 @@
 ---
-title: Uw testomgeving voor Microsoft Threat Protection voorbereiden
-description: Het afmelden van een belanghebbende, tijdlijnen, overwegingen voor de omgeving en de acceptatie bestellen bij het instellen van uw Microsoft Threat Protection-proefversie voor het lab of de proef omgeving
+title: Uw proef omgeving voor Microsoft 365 Defender voorbereiden
+description: Het afmelden van een belanghebbende, tijdlijnen, overwegingen voor de omgeving en de acceptatie orde voorkomen bij het instellen van uw Microsoft 365-proefabonnement voor de proefversie of pilot omgeving
 keywords: MTP-proefabonnement, MTP pilot prep, prep voor het uitvoeren van een MTP pilot-project, uitvoering van een testprogramma voor MTP-project, implementatie, voorbereiden, belanghebbende, tijdlijn, omgeving, eindpunt, Server, beheer, acceptatie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,39 +18,39 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 79e30ee6fd68148543a63377d89fe2955f276f24
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: a255c74db030325ba22c2095fba732a93b8c269c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446729"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844846"
 ---
-# <a name="prepare-your-microsoft-threat-protection-trial-lab-or-pilot-environment"></a>Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden
+# <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving voorbereiden
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-U maakt een Microsoft Threat Protection-proefversie voor proef omgevingen of pilot omgevingen en de implementatie hiervan is een proces van drie fasen:
+U maakt een Microsoft 365-proefabonnement voor proef omgevingen of pilot omgevingen en de implementatie ervan is een proces van drie fasen:
 
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft Threat Protection trial lab environment" title="Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden" />
+        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab environment" title="Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving voorbereiden" />
       <br/>Fase 1: voorbereiding </a><br>
     </td>
      <td align="center"  >
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft Threat Protection trial lab environment" title="Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen" />
+        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab environment" title="Uw Microsoft 365 Defender-proefversie Lab of pilot omgeving instellen" />
       <br/>Fase 2: instellen </a><br>
         </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval">
-        <img src="../../media/config-onboard.png" alt="Configure each Microsoft Threat Protection pillar" title="Elke Microsoft Threat Protection-pijler configureren en de eindpunten voorbereiden" />
+        <img src="../../media/config-onboard.png" alt="Configure each Microsoft 365 Defender pillar" title="Elke Microsoft 365 Defender-pijler configureren en de eindpunten voorbereiden" />
       <br/>Fase 3: & onboard configureren</a><br>
 </td>
   </tr>
@@ -70,10 +70,10 @@ U maakt een Microsoft Threat Protection-proefversie voor proef omgevingen of pil
 U bevindt zich in de voorbereidende fase.
 
 
-De voorbereiding is essentieel voor een succesvolle implementatie. In deze sectie wordt uitgelegd wat u moet doen als u een proefabonnement voor de implementatie van Microsoft Threat Protection maakt.
+De voorbereiding is essentieel voor een succesvolle implementatie. In deze sectie wordt uitgelegd wat u moet doen als u een proefabonnement voor de implementatie van Microsoft 365 wilt maken.
 
 ## <a name="prerequisites"></a>Vereisten
-Meer informatie over de licenties, hardware-en softwarevereisten en andere configuratie-instellingen voor het inrichten en gebruiken van Microsoft Threat Protection. Zie de minimale vereisten voor [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [Microsoft Defender atp](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), beveiliging van de [Microsoft Cloud-app](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
+Meer informatie over de licenties, hardware-en softwarevereisten en andere configuratie-instellingen voor het inrichten en gebruiken van Microsoft 365 Defender. Zie de minimale vereisten voor [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites), [Microsoft Defender for endpoints](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements), [microsoft Defender for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description), Microsoft-app [voor identiteit](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites), beveiliging van de [Cloud-app van Microsoft](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Belanghebbenden en afmelden
 Identificeer alle belanghebbenden die deelnemen aan het project en wie kan zich mogelijk registreren, beoordelen, of op de hoogte blijven, of u nu een proefproject wilt maken of uitvoeren.
@@ -98,7 +98,7 @@ Voeg belanghebbenden toe aan de onderstaande tabel voor uw organisatie.
 | Voer naam en e-mailadres in | **Beveiligings analist** *een vertegenwoordiger van het CDOC-team die feedback kan geven over de detectie functies, de gebruikerservaring en de algehele bruikbaarheid van deze wijziging vanuit een oogpunt van beveiligingsactiviteiten.* | Vind      |
 
 ## <a name="prepare-your-azure-active-directory"></a>Azure Active Directory voorbereiden
-Sla deze stap over als u al synchronisatie tussen Active Directory en Azure Active Directory hebt ingeschakeld. Bekijk bestaande documentatie voor aanbevolen procedures van Azure Active Directory. De volgende stappen zijn geoptimaliseerd voor het evalueren of uitvoeren van een pilot Microsoft Threat Protection-project.
+Sla deze stap over als u al synchronisatie tussen Active Directory en Azure Active Directory hebt ingeschakeld. Bekijk bestaande documentatie voor aanbevolen procedures van Azure Active Directory. De volgende stappen zijn geoptimaliseerd voor het evalueren of uitvoeren van een pilot Microsoft 365 Defender-project.
 
 1. Ga naar [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) Portal > **Azure AD Connect**. 
 ![Afbeelding van Azure Active Directory-portal pagina](../../media/mtp-eval-1.png) <br> 
@@ -128,16 +128,16 @@ U kunt nu [gebruikers en groepen toevoegen aan Active Directory](https://docs.mi
 
 
 ## <a name="configuration-order"></a>Configuratie volgorde
-In de volgende tabel wordt aangegeven welke volgorde Microsoft adviseert om de Microsoft Threat Protection-onderdelen voor de implementatie van een proefabonnement of pilot omgeving te configureren.
+In de volgende tabel wordt aangegeven welke volgorde Microsoft adviseert voor het configureren van de Microsoft 365-onderdelen voor de implementatie van proefversie of pilot omgeving.
 
 | Invoert                               | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rangschikking van de configuratie volgorde |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Office 365 Advanced Threat Protection| Office 365 ATP beschermt uw organisatie tegen kwaadaardige bedreigingen van e-mailberichten, koppelingen (Url's) en samenwerkingsprogramma's. <br> [Meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
-|Azure Advanced Threat Protection|Azure ATP maakt gebruik van Active Directory-signalen voor het identificeren, detecteren en onderzoeken van geavanceerde bedreigingen, compromisloze identiteiten, en het uitvoeren van schadelijke Insider-acties die worden doorgestuurd naar uw organisatie. <br> [Meer informatie](https://docs.microsoft.com/azure-advanced-threat-protection/).| 3 |
+|Microsoft Defender voor Office 365|Microsoft Defender voor Office 365 beschermt uw organisatie tegen kwaadaardige bedreigingen van e-mailberichten, koppelingen (Url's) en samenwerkingsprogramma's. <br> [Meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
+|Microsoft Defender voor identiteit|Microsoft Defender for Identity maakt gebruik van Active Directory-signalen voor het identificeren, detecteren en onderzoeken van geavanceerde bedreigingen, compromisloze identiteiten, en het uitvoeren van schadelijke Insider-acties die worden doorgestuurd naar uw organisatie. <br> [Meer informatie](https://docs.microsoft.com/azure-advanced-threat-protection/).| 3 |
 |Microsoft Cloud App Security| Microsoft Cloud-app-beveiliging is een Cloud Access Security Broker (CASB) die op meerdere clouds werkt. Het biedt uitgebreide zichtbaarheid, controle over gegevens reis en geavanceerde analyses voor het identificeren en bestrijden van cyberthreats in alle cloudservices. <br> [Meer informatie](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |driefasig                   |
-|Microsoft Defender Advanced Threat Protection | De detectie-en antwoord mogelijkheden van Microsoft Defender ATP voor Microsoft Defender bieden geavanceerde aanvals detectie die bij realtime en op actie kan worden uitgevoerd. Beveiligings analisten kunnen waarschuwingen effectiever uitstellen, inzicht krijgen in de volledige reikwijdte van een overtreding en antwoord acties uitvoeren om bedreigingen te herstellen. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |3                   |                                                                                                                                                                                                                                    
+|Microsoft Defender voor eindpunt | Microsoft Defender voor detectie van eindpunten voor eindpunten biedt geavanceerde aanvals detectie die bij realtime en actie mogelijk zijn. Beveiligings analisten kunnen waarschuwingen effectiever uitstellen, inzicht krijgen in de volledige reikwijdte van een overtreding en antwoord acties uitvoeren om bedreigingen te herstellen. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |3                   |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Volgende stap
-|![Fase 2: instellen](../../media/setup.png) <br>[Fase 2: instellen](setup-mtpeval.md) | Uw Microsoft Threat Protection-proefversie Lab of pilot omgeving instellen
+|![Fase 2: instellen](../../media/setup.png) <br>[Fase 2: instellen](setup-mtpeval.md) | Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving instellen
 |:-------|:-----|
 

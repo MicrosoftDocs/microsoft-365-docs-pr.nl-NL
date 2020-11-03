@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-defender-office365
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ae2c53f12465fd1d6ef5c5e4bd24309467be008
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: a6123306c1d707a3eeab5c5dd67ed25bebb71965
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769374"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845674"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
-Als uw organisatie [office 365 Advanced Threat Protection](office-365-atp.md) (Office 365 ATP) heeft en u de [benodigde machtigingen](#required-licenses-and-permissions)hebt, hebt u de keuze uit de **Verkenner** of de **realtime** (voorheen *realtime-rapporten* ), [Zie wat is er nieuw](#new-features-in-threat-explorer-and-real-time-detections)!. Ga in het beveiligings & nalevings centrum naar **Threat Management** en kies vervolgens **Verkenner** _of_ **realtime-detecties** .
+Als uw organisatie [Microsoft Defender voor Office 365](office-365-atp.md)heeft en u de [benodigde machtigingen](#required-licenses-and-permissions)hebt, hebt u de keuze uit de **Verkenner** of de **realtime** (voorheen *realtime-rapporten* ), [Zie wat is er nieuw](#new-features-in-threat-explorer-and-real-time-detections)!. Ga in het beveiligings & nalevings centrum naar **Threat Management** en kies vervolgens **Verkenner** _of_ **realtime-detecties**.
 
-|Met ATP abonnement 2 ziet u het volgende:|Met ATP abonnement 1 ziet u het volgende:|
+|Met Microsoft Defender voor Office 365 abonnement 2 ziet u het volgende:|Met Microsoft Defender voor Office 365 abonnement 1 ziet u het volgende:|
 |---|---|
 |![Bedreigings Verkenner](../../media/threatmgmt-explorer.png)|![Detecties in realtime](../../media/threatmgmt-realtimedetections.png)|
 |
@@ -42,27 +42,27 @@ Met dit rapport kunt u:
 
 - [Zie malware die door Microsoft 365 beveiligingsfuncties is gedetecteerd.](#see-malware-detected-in-email-by-technology)
 - [Bekijk gegevens over phishingberichten en klik op Verdict](#view-data-about-phishing-urls-and-click-verdict)
-- [Een automatisch onderzoek en antwoord proces starten vanuit een weergave in Verkenner (alleen voor het](#start-automated-investigation-and-response) ATP-abonnement 2)
+- [Een automatisch onderzoek en antwoord proces starten vanuit een weergave in Verkenner](#start-automated-investigation-and-response) (alleen voor Office 365, abonnement 2)
 - ... [Onderzoek kwaadaardige e-mail en nog veel meer](#more-ways-to-use-explorer-or-real-time-detections).
 
 
 ## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Ervaar verbeteringen in de weergave van de bedreiging en de real-time detectie
 
-## <a name="tags-in-threat-explorer"></a>Labels in de Threat Explorer
+### <a name="tags-in-threat-explorer"></a>Labels in de Threat Explorer
 
 > [!NOTE]
 > De functie gebruikers Tags is in voorbeeld, is niet beschikbaar voor iedereen, en kan veranderen. Voor informatie over de release planning raadpleegt u het Microsoft 365-wegwijzer.
 
-Gebruikers Tags zijn id's voor specifieke groepen gebruikers in Microsoft Defender voor Office 365. Zie voor meer informatie over tags, licenties en het configureren van Tags hier meer: [gebruikers Tags in Office 365 ATP](user-tags.md).
+Gebruikers Tags zijn id's voor specifieke groepen gebruikers in Microsoft Defender voor Office 365. Zie voor meer informatie over tags, licenties en het configureren van tags de [gebruikers Tags in de 365 voor Office](user-tags.md).
 
-In de bedreigings Verkenner kunt u informatie over gebruikers Tags zien in de volgende functies:
+In de bedreigings Verkenner kunt u informatie weergeven over gebruikers Tags in de volgende toepassingen:
 
 #### <a name="email-grid-view"></a>Weergave van e-mail raster
 
 De kolom Tags die in het raster van de e-mail worden weergegeven, bevat alle labels die zijn toegepast op de afzender of de postvakken van de geadresseerde. Standaard worden in systeem Tags zoals prioritaire accounts eerst weergegeven.
 
 > [!div class="mx-imgBorder"]
-> ![Labels filteren](../../media/tags-grid.png)
+> ![Labels filteren in de weergave e-mail raster](../../media/tags-grid.png)
 
 #### <a name="filtering"></a>Bewerkingen
 We hebben nu labels als een filter, zodat u precies achter de prioriteits accounts kunt, of specifieke scenario's voor gebruikers Tags, en zelfs resultaten met bepaalde Tags uitsluit als onderdeel van deze ervaring. U kunt deze functie combineren met de verschillende filters die we bieden en helpt u om uw onderzoek bereik te beperken
@@ -123,7 +123,7 @@ Naast het identificeren van alle activiteiten met betrekking tot bezorging en na
 
 De bezorgingslocatie bevindt zich nu in het raster en de e-mail flyout van de e-mail. Doorgaan wordt de naam van het veld bezorgingslocatie gewijzigd in oorspronkelijke bezorgingslocatie. Daarnaast wordt ook een ander veld met de naam meest recente bezorgingslocatie geïntroduceerd.
 
-Op de oorspronkelijke bezorgingslocatie vindt u meer informatie over de locatie van een e-mailbericht dat u aanvankelijk ontvangt. De meest recente bezorgingslocatie bevat locaties waar een e-mailbericht mogelijk is gelost na systeemacties zoals ZAP-of beheeracties, zoals **verplaatsen naar verwijderde items** . Nieuwste bezorgingslocatie is bedoeld om beheerders op de hoogte te stellen van de laatste locatie van de publicatie na de bezorging van het bericht of van systeem/beheer-acties. Op basis van ontwerpen bevat dit geen activiteiten met betrekking tot de eindgebruikers van de e-mail. Bijvoorbeeld: als een gebruiker een bericht verwijdert of het bericht verplaatst naar archief-of PST-bestand, wordt het bericht ' bezorgingslocatie ' niet bijgewerkt. Als een systeemactie de locatie echter heeft bijgewerkt (bijvoorbeeld ZAP resulteerde in een e-mailbericht dat overstapt naar Quarantine), ziet u de nieuwste bezorgingslocatie in quarantaine.
+Op de oorspronkelijke bezorgingslocatie vindt u meer informatie over de locatie van een e-mailbericht dat u aanvankelijk ontvangt. De meest recente bezorgingslocatie bevat locaties waar een e-mailbericht mogelijk is gelost na systeemacties zoals ZAP-of beheeracties, zoals **verplaatsen naar verwijderde items**. Nieuwste bezorgingslocatie is bedoeld om beheerders op de hoogte te stellen van de laatste locatie van de publicatie na de bezorging van het bericht of van systeem/beheer-acties. Op basis van ontwerpen bevat dit geen activiteiten met betrekking tot de eindgebruikers van de e-mail. Bijvoorbeeld: als een gebruiker een bericht verwijdert of het bericht verplaatst naar archief-of PST-bestand, wordt het bericht ' bezorgingslocatie ' niet bijgewerkt. Als een systeemactie de locatie echter heeft bijgewerkt (bijvoorbeeld ZAP resulteerde in een e-mailbericht dat overstapt naar Quarantine), ziet u de nieuwste bezorgingslocatie in quarantaine.
 
 > [!div class="mx-imgBorder"]
 > ![Bijgewerkte bezorgingslocaties](../../media/Updated_Delivery_Location.png)
@@ -196,6 +196,16 @@ Als onderdeel van de verbetering van de jacht, hebben we enkele updates gemaakt 
 - [Bijwerken in het vernieuwingsproces](#update-in-the-refresh-process)
 - [DrillDown voor de grafiek om toe te voegen aan filters](#chart-drilldown-to-add-to-filters)
 - [Updates voor productgegevens](#in-product-information-updates)
+
+### <a name="filter-by-user-tags"></a>Filteren op gebruikers Tags
+
+U kunt nu sorteren en filteren op een systeem of aangepaste gebruikers Tags om snel de reikwijdte van bedreigingen te begrijpt. Zie [gebruikers Tags in Office 365 ATP](user-tags.md) voor meer informatie.
+
+> [!IMPORTANT]
+> Filteren en sorteren op gebruikerscodes bevindt zich momenteel in de openbare preview-versie.
+> Dit kan ingrijpend veranderd voordat het commercieel uitkomt. Microsoft verbiedt geen garanties, uitdrukkelijke of impliciete informatie met betrekking tot de verstrekte informatie.
+
+![Kolom Tags in Verkenner](../../media/threat-explorer-tags.png)
 
 ### <a name="timezone-improvements"></a>Tijdzone verbeteringen
 
@@ -345,12 +355,12 @@ U wilt malware van de malware in een e-mail weergeven, door Microsoft 365-techno
 
 1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie** ). (In dit voorbeeld wordt Explorer gebruikt.)
 
-2. Kies in het menu **weergave** de optie **e-mail**  >  **malware** .
+2. Kies in het menu **weergave** de optie **e-mail**  >  **malware**.
 
    > [!div class="mx-imgBorder"]
    > ![Menu Beeld voor Verkenner](../../media/ExplorerViewEmailMalwareMenu.png)
 
-3. Klik op **afzender** en kies vervolgens **Basic**  >  **Detection Technology** .
+3. Klik op **afzender** en kies vervolgens **Basic**  >  **Detection Technology**.
 
    Uw detectie technologieën zijn nu beschikbaar als filters voor het rapport.
 
@@ -372,12 +382,12 @@ Als u de Url's van de phishing in berichten en op Url's in phishingberichten wil
 
 1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie** ). (In dit voorbeeld wordt Explorer gebruikt.)
 
-2. Kies in het menu **weergave** de optie **e-mail**  >  **phishing** .
+2. Kies in het menu **weergave** de optie **e-mail**  >  **phishing**.
 
    > [!div class="mx-imgBorder"]
-   > ![Menu Beeld voor Verkenner](../../media/ExplorerViewEmailPhishMenu.png)
+   > ![Het menu Beeld voor Explorer in de Phishingfilter-context](../../media/ExplorerViewEmailPhishMenu.png)
 
-3. Klik op **afzender** en kies vervolgens **url's**  >  **op Verdict** .
+3. Klik op **afzender** en kies vervolgens **url's**  >  **op Verdict**.
 
 4. Selecteer een of meer opties, zoals **geblokkeerde** en **geblokkeerde overschreven** , en klik vervolgens op de knop **vernieuwen** die zich op dezelfde regel bevindt als de opties om dat filter toe te passen. (Vernieuw het browservenster niet.)
 
@@ -419,24 +429,24 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie als ongewe
 
 1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie** ). (In dit voorbeeld wordt Explorer gebruikt.)
 
-2. Kies in het menu **weergave** de optie **e-mail**  >  **inzendingen** .
+2. Kies in het menu **weergave** de optie **e-mail**  >  **inzendingen**.
 
    > [!div class="mx-imgBorder"]
-   > ![Menu Beeld voor Verkenner](../../media/explorer-view-menu-email-user-reported.png)
+   > ![Menu weergeven voor Explorer voor e-mailberichten](../../media/explorer-view-menu-email-user-reported.png)
 
-3. Klik op **afzender** en kies type **basis**  >  **rapport** .
+3. Klik op **afzender** en kies type **basis**  >  **rapport**.
 
 4. Selecteer een optie, zoals **phishing** , en klik vervolgens op de knop **vernieuwen** .
 
    > [!div class="mx-imgBorder"]
    > ![Door de gebruiker gerapporteerde phishing](../../media/EmailUserReportedReportType.png)
 
-Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die gebruikers in uw organisatie hebben gerapporteerd als een phishing-poging. U kunt deze gegevens gebruiken om verdere analyse uit te voeren, en zo nodig uw [ATP anti-phishingfilter-beleid](configure-atp-anti-phishing-policies.md)aanpassen.
+Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die gebruikers in uw organisatie hebben gerapporteerd als een phishing-poging. U kunt deze gegevens gebruiken om verdere analyse uit te voeren en uw [anti-phishing te wijzigen in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="start-automated-investigation-and-response"></a>Automatisch onderzoek en antwoord starten
 
 > [!NOTE]
-> Automatisch onderzoek en antwoord mogelijkheden zijn beschikbaar in **office 365 ATP-abonnement 2** en **Office 365 E5** .
+> De mogelijkheden voor automatisch onderzoek en antwoord zijn beschikbaar in **Microsoft Defender voor Office 365, abonnement 2** en **Office 365 E5**.
 
 (Nieuw!) Met [geautomatiseerd onderzoek en reactie](automated-investigation-response-office.md) kunnen uw beveiligingsactiviteiten team veel tijd in beslag houden en te zorgen voor een onderzoek en beperking van cyberattacks. U kunt niet alleen waarschuwingen configureren die een beveiligings Playbook, maar u kunt wel een automatisch onderzoek en antwoord proces starten vanuit een weergave in Explorer.
 
@@ -454,11 +464,11 @@ Naast de scenario's die in dit artikel worden beschreven, hebt u veel meer optie
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 
-U moet beschikken over de [ATP van Office 365](office-365-atp.md) om Explorer of realtime-detectie te krijgen.
+U moet beschikken over [Microsoft Defender voor Office 365](office-365-atp.md) om Explorer of realtime-detectie te kunnen krijgen.
 
-- Explorer is opgenomen in Office 365 ATP-abonnement 2.
-- Het rapport realtime detectie is opgenomen in Office 365 ATP (abonnement 1).
-- Het toewijzen van licenties aan alle gebruikers die moet worden beveiligd door Office 365 ATP. (Verkenner of realtime-detectie laat detectiegegevens zien voor gebruikers met een licentie.)
+- Explorer maakt deel uit van de werkruimte voor Office 365, abonnement 2.
+- Het rapport realtime detectie is opgenomen in de lijst met Defender voor Office 365, abonnement 1.
+- Het toewijzen van licenties aan alle gebruikers die moeten worden beveiligd door Defender voor Office 365. (Verkenner of realtime-detectie laat detectiegegevens zien voor gebruikers met een licentie.)
 
 Als u Verkenner of realtime-detectie wilt weergeven en gebruiken, moet u de juiste machtigingen hebben, zoals de machtigingen die zijn toegewezen aan een beveiligingsbeheerder of beveiligings lezer.
 
@@ -482,9 +492,9 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
 ## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>Enkele verschillen tussen de bedreigings Verkenner en de real-time detectie
 
-- Het rapport **realtime-detecties** is beschikbaar in Office 365 ATP, abonnement 1, terwijl de **bedreigings Verkenner** beschikbaar is in Office 365 ATP-abonnement 2.
+- Het rapport **realtime-detecties** is beschikbaar in de Defender for Office 365-abonnement 1, terwijl de **bedreigings Verkenner** beschikbaar is in de Defender for Office 365-abonnement 2.
 - Met het rapport **realtime detectie** kunt u detecties in realtime weergeven. U kunt dit ook doen met **risico Verkenner** , maar u kunt ook aanvullende Details voor een bepaalde aanval weergeven.
 - De weergave **alle e-mail** is beschikbaar in de **Threat Explorer** (en komt niet voor in het rapport **realtime detectie** ).
-- U vindt meer filterfuncties en de beschikbare acties in de **Threat Explorer** .
+- U vindt meer filterfuncties en de beschikbare acties in de **Threat Explorer**.
 
-Zie het artikel over de [beschikbaarheid van functies in Office 365 ATP-service beschrijving](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)voor meer informatie.
+Zie voor meer informatie [Microsoft Defender for Office 365 Service Description: beschikbaarheid van functies in office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).

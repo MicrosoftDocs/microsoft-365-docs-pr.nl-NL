@@ -1,5 +1,5 @@
 ---
-title: Microsoft aanbevelingen voor EOP en Office 365 vooraf ingestelde beveiligingsinstellingen, aanbevelingen, kader voor het beleid voor de afzender, het rapporteren van berichten en conformiteit voor E-mail, het werken met E-mail, stappen, hoe werkt dit, met basislijnen voor het werken met basislijnen voor het werken met een EOP
+title: Microsoft aanbevelingen voor EOP en Defender voor de beveiligingsinstellingen van Office 365, aanbevelingen, kader voor het beleid voor geadresseerden, berichten rapporteren en conformeert, DomainKeys geïdentificeerd, wat betekent dat u E-mail, stappen, hoe dit werkt, hoe u werkt met basislijnen, wat betekent dat het werkt, de basislijnen voor het werken met Office 365 365 365
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,23 +16,23 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: Wat zijn de aanbevolen procedures voor beveiligingsinstellingen van Exchange Online Protection (EOP) en Advanced Threat Protection (ATP)? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Advanced Threat Protection (ATP) gebruikt?
-ms.openlocfilehash: 4afd662be28c047d5f738dc0f70f0254e7a7a83f
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+description: Wat zijn de aanbevolen procedures voor de beveiligingsinstellingen van Exchange Online Protection (EOP) en Defender for Office 365? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Defender voor Office 365 gebruikt?
+ms.openlocfilehash: ab8640574d15cc1950ac0873ef90c4d984553510
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806770"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845646"
 ---
-# <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging
+# <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Exchange Online Protection (EOP)** is de kern van beveiliging voor microsoft 365-abonnementen en helpt voorkomen dat ongewenste e-mailberichten in de Postvak in van uw werknemers terechtkomen. Maar met nieuwe, nieuwe, nog geavanceerdere aanvallen die elke dag zijn verbeterd, zijn er vaak betere bescherming nodig. **Office 365 Advanced Threat Protection (ATP)** ATP abonnement 1 of ATP abonnement 2 bevat extra functies die beheerders meer lagen bieden voor beveiliging, controle en onderzoek.
+**Exchange Online Protection (EOP)** is de kern van beveiliging voor microsoft 365-abonnementen en helpt voorkomen dat ongewenste e-mailberichten in de Postvak in van uw werknemers terechtkomen. Maar met nieuwe, nieuwe, nog geavanceerdere aanvallen die elke dag zijn verbeterd, zijn er vaak betere bescherming nodig. **Microsoft Defender voor Office 365** Abonnement 1 of abonnement 2 bevat extra functies die beheerders meer lagen bieden voor beveiliging, controle en onderzoek.
 
-Hoewel we beveiligingsbeheerders kunnen helpen bij het aanpassen van hun beveiligingsinstellingen, zijn er twee beveiligingsniveaus in EOP en Office 365 ATP voor het eerst bedoeld: **Standard** en **strict** . De omgeving van elke klant en de behoeften zijn niet alleen van toepassing, maar we geloven dat ze in de meeste gevallen het postvak in van uw werknemers kunnen bereiken.
+Hoewel we beveiligingsbeheerders kunnen helpen bij het aanpassen van hun beveiligingsinstellingen, zijn er twee beveiligingsniveaus in EOP en Microsoft Defender voor Office 365 die wij aanraden: **Standard** en **strict**. De omgeving van elke klant en de behoeften zijn niet alleen van toepassing, maar we geloven dat ze in de meeste gevallen het postvak in van uw werknemers kunnen bereiken.
 
-Als u de standaard-of strikte instellingen automatisch wilt toepassen op gebruikers, raadpleegt u [vooraf ingesteld beveiligingsbeleid in EOP en Office 365 ATP](preset-security-policies.md).
+Als u de standaard-of strikte instellingen automatisch wilt toepassen op gebruikers, raadpleegt u [vooraf ingestelde beveiligingsbeleid in EOP en Microsoft Defender voor Office 365](preset-security-policies.md).
 
 > [!NOTE]
 > De regel voor ongewenste e-mail moet worden ingeschakeld voor postvakken, zodat de filters goed werken. Het is standaard ingeschakeld, maar u moet controleren of het filteren niet lijkt te werken. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
@@ -142,27 +142,27 @@ Zie [spoof Settings (spoof Settings](set-up-anti-phishing-policies.md#spoof-sett
 |**Als e-mail wordt verzonden door iemand die uw domein niet mag spoofen** <br/><br/> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste E-mail van de geadresseerde** <br/><br/> `MoveToJmf`|**Bericht verplaatsen naar de mappen ongewenste E-mail van de geadresseerde** <br/><br/> `MoveToJmf`|**Het bericht Quarantine** <br/><br/> `Quarantine`|Deze instelling geldt voor geblokkeerde afzenders in [spoof Intelligence](learn-about-spoof-intelligence.md).|
 |
 
-## <a name="office-365-advanced-threat-protection-security"></a>Beveiliging van Office 365 Advanced Threat Protection
+## <a name="microsoft-defender-for-office-365-security"></a>Microsoft Defender voor Office 365-beveiliging
 
-Extra beveiligingsvoordelen worden geleverd met een abonnement op Office 365 Advanced Threat Protection (ATP). Voor het laatste nieuws en informatie kunt u zien [wat er nieuw is in Office 365 ATP](whats-new-in-office-365-atp.md).
+Extra beveiligingsvoordelen worden geleverd met een Microsoft Defender for Office 365-abonnement. Voor het laatste nieuws en informatie kunt u zien [wat er nieuw is in Defender voor Office 365](whats-new-in-office-365-atp.md).
 
 > [!IMPORTANT]
 >
-> - Het standaard ATP anti phishingfilter biedt de bescherming van de [spoofing](set-up-anti-phishing-policies.md#spoof-settings) voor alle geadresseerden. De beschikbare [beveiligings](#impersonation-settings-in-atp-anti-phishing-policies) instellingen voor imitatie van bepaalde afzenders of afzender worden echter niet geconfigureerd of ingeschakeld in het standaardbeleid. Als u imitatie beveiliging wilt inschakelen, configureert u het standaardbeleid of maakt u extra ATP anti-phishingfilter.
+> - Het standaard anti-phishingfilter in Microsoft Defender voor Office 365 biedt [vervalsings beveiliging](set-up-anti-phishing-policies.md#spoof-settings) voor alle geadresseerden. De beschikbare [beveiligings](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) instellingen voor imitatie van bepaalde afzenders of afzender worden echter niet geconfigureerd of ingeschakeld in het standaardbeleid. Als u imitatie beveiliging wilt inschakelen, configureert u het standaardbeleid of maakt u een extra anti-phishingfilter in de Defender voor Office 365.
 >
 > - Er zijn geen standaardbeleid voor veilige koppelingen of beleidsregels voor veilige bijlagen waarmee alle geadresseerden in de organisatie automatisch worden beveiligd. Voor de bescherming moet u minimaal één beleid voor veilige koppelingen en een veilig bijlage beleid creëren.
 >
 > - Het beleid voor [de bescherming van](safe-docs.md) [ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md) heeft geen afhankelijkheden voor beleidsregels voor veilige koppelingen.
 
-Als uw abonnement Office 365 ATP bevat, of als u Office 365 ATP als een invoegtoepassing hebt gekocht, kunt u de volgende standaard-of strikte configuraties instellen.
+Als uw abonnement Microsoft Defender voor Office 365 bevat of als u Defender voor Office 365 als een invoegtoepassing hebt gekocht, kunt u de volgende standaard-of strikte configuraties instellen.
 
-### <a name="atp-anti-phishing-policy-settings"></a>Instellingen voor het anti-phishingfilter van ATP
+### <a name="anti-phishing-policy-settings-in-microsoft-defender-for-office-365"></a>Anti malafide beleidsinstellingen in Microsoft Defender voor Office 365
 
-EOP-klanten hebben een eenvoudige anti-phishing zoals eerder beschreven, maar Office 365 ATP bevat meer functies en controle voor het voorkomen, detecteren en herstellen tegen aanvallen. Als u deze beleidsregels wilt maken en configureren, raadpleegt u [het artikel ATP anti-phishing configureren in Office 365](configure-atp-anti-phishing-policies.md).
+EOP-klanten hebben een eenvoudige anti-phishing zoals hierboven beschreven, maar Microsoft Defender voor Office 365 bevat meer functies en beheer voor het voorkomen, detecteren en oplossen van aanvallen. Als u deze beleidsregels wilt maken en configureren, raadpleegt u [anti phishingfilter configureren in de Defender voor Office 365](configure-atp-anti-phishing-policies.md).
 
-#### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>Imitatie-instellingen in ATP anti-phishingfilter
+#### <a name="impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Imitatie-instellingen in anti-phishing beleid in Microsoft Defender voor Office 365
 
-Zie voor meer informatie over deze instellingen de [instelling in een anti-phishingfilter-beleidsregels voor imitatie](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies). Als u deze instellingen wilt configureren, raadpleegt u [het artikel ATP anti-phishingfilter configureren](configure-atp-anti-phishing-policies.md).
+Zie voor meer informatie over deze instellingen de instelling [imitatie in Microsoft Defender voor Office 365](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365). Als u deze instellingen wilt configureren, raadpleegt u [anti phishingfilter configureren in de Defender voor Office 365](configure-atp-anti-phishing-policies.md).
 
 ****
 
@@ -183,7 +183,7 @@ Zie voor meer informatie over deze instellingen de [instelling in een anti-phish
 |**Vertrouwde domeinen** <br/><br/> _ExcludedDomains_|Geen|Geen|Geen|Afhankelijk van uw organisatie, wordt u aangeraden domeinen toe te voegen die niet als phishing worden aangemerkt, en geen andere filters.|
 |
 
-#### <a name="spoof-settings-in-atp-anti-phishing-policies"></a>Vervalsings instellingen in ATP anti-phishings beleid
+#### <a name="spoof-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Spoofberichten instellingen in Microsoft Defender voor Office 365
 
 Dit zijn de instellingen die beschikbaar zijn in de instellingen voor [Antispambeleid in EOP](#eop-anti-spam-policy-settings).
 
@@ -196,9 +196,9 @@ Dit zijn de instellingen die beschikbaar zijn in de instellingen voor [Antispamb
 |**Als e-mail wordt verzonden door iemand die uw domein niet mag spoofen** <br/><br/> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste E-mail van de geadresseerde** <br/><br/> `MoveToJmf`|**Het bericht Quarantine** <br/><br/> `Quarantine`|Deze instelling geldt voor geblokkeerde afzenders in [spoof Intelligence](learn-about-spoof-intelligence.md).|
 |
 
-#### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>Geavanceerde instellingen in ATP anti-phishings beleid
+#### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Geavanceerde instellingen in anti-phishing-beleid in Microsoft Defender voor Office 365
 
-Zie voor meer informatie over deze instelling [Geavanceerde phishingberichten in het anti-phishingfilter-beleid](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies). Zie beleid voor de [anti-phishing van ATP configureren](configure-atp-anti-phishing-policies.md)voor informatie over het configureren van deze instelling.
+Zie voor meer informatie over deze instelling [Geavanceerde phishingberichten in Microsoft Defender voor Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365). Als u deze instelling wilt configureren, raadpleegt u [anti phishingfilter configureren in de Defender voor Office 365](configure-atp-anti-phishing-policies.md).
 
 ****
 
@@ -209,11 +209,11 @@ Zie voor meer informatie over deze instelling [Geavanceerde phishingberichten in
 
 ### <a name="safe-links-settings"></a>Instellingen voor veilige koppelingen
 
-Veilige koppelingen in Office 365 ATP bestaan uit globale instellingen die van toepassing zijn op alle gebruikers die deel uitmaken van het beleid van Active links Zie voor meer informatie [veilige koppelingen in Office 365 ATP](atp-safe-links.md).
+Veilige koppelingen in Defender voor Office 365 bevatten algemene instellingen die van toepassing zijn op alle gebruikers die deel uitmaken van het beleid van Active links Zie voor meer informatie [veilige koppelingen in Defender voor Office 365](atp-safe-links.md).
 
 #### <a name="global-settings-for-safe-links"></a>Algemene instellingen voor veilige koppelingen
 
-Zie [algemene instellingen configureren voor veilige koppelingen in Office 365 ATP](configure-global-settings-for-safe-links.md)voor het configureren van deze instellingen.
+Als u deze instellingen wilt configureren, raadpleegt u [algemene instellingen configureren voor veilige koppelingen in Defender voor Office 365](configure-global-settings-for-safe-links.md).
 
 In PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
 
@@ -221,14 +221,14 @@ In PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**Veilige koppelingen gebruiken in: Office 365-toepassingen** <br/><br/> _EnableSafeLinksForO365Clients_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik veilige koppelingen voor ATP in ondersteunde Office 365-Desktop-en mobiele apparaten (iOS-en Android-apps). Zie [instellingen voor veilige koppelingen voor Office 365-apps](atp-safe-links.md#safe-links-settings-for-office-365-apps)voor meer informatie.|
+|**Veilige koppelingen gebruiken in: Office 365-toepassingen** <br/><br/> _EnableSafeLinksForO365Clients_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Gebruik veilige koppelingen in ondersteunde Office 365-bureaubladtoepassingen en mobiele apparaten (iOS-en Android-apps). Zie [instellingen voor veilige koppelingen voor Office 365-apps](atp-safe-links.md#safe-links-settings-for-office-365-apps)voor meer informatie.|
 |**Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** <br/><br/> _TrackClicks_|Aan <br/><br/> `$false`|Uit <br/><br/> `$true`|Uit <br/><br/> `$true`|Als u deze instelling uitschakelt (bij het instellen van _TrackClicks_ op `$true` ), worden de gebruikers in ondersteunde Office 365-apps bijgehouden.|
 |**Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL** <br/><br/> _AllowClickThrough_|Aan <br/><br/> `$false`|Aan <br/><br/> `$false`|Aan <br/><br/> `$false`|Als u deze instelling inschakelt ( _AllowClickThrough_ instellen op `$false` ), kunt u door de oorspronkelijke URL in ondersteunde Office 365-apps klikken.|
 |
 
 #### <a name="safe-links-policy-settings"></a>Beleidsinstellingen voor veilige koppelingen
 
-Zie [beleid voor veilige koppelingen instellen in Office 365 ATP](set-up-atp-safe-links-policies.md)voor het configureren van deze instellingen.
+Als u deze instellingen wilt configureren, raadpleegt u [beleidsregels voor veilige koppelingen instellen in Microsoft Defender voor Office 365](set-up-atp-safe-links-policies.md).
 
 In PowerShell gebruikt u de cmdlets [New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) en [set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
 
@@ -250,7 +250,7 @@ In PowerShell gebruikt u de cmdlets [New-SafeLinksPolicy](https://docs.microsoft
 
 ### <a name="safe-attachments-settings"></a>Instellingen voor veilige bijlagen
 
-Veilige bijlagen in Office 365 ATP bestaan uit algemene instellingen die geen relatie hebben met beleidsregels voor veilige bijlagen, en instellingen die specifiek zijn voor elk beleid voor veilige koppelingen. Zie voor meer informatie [veilige bijlagen in Office 365 ATP](atp-safe-attachments.md).
+Veilige bijlagen in Microsoft Defender voor Office 365 bevatten algemene instellingen die geen relatie hebben met beleidsregels voor veilige bijlagen en instellingen die specifiek zijn voor elk beleid voor veilige koppelingen. Zie voor meer informatie [veilige bijlagen in de Defender voor Office 365](atp-safe-attachments.md).
 
 #### <a name="global-settings-for-safe-attachments"></a>Algemene instellingen voor veilige bijlagen
 
@@ -263,13 +263,13 @@ In PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft
 |Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**ATP inschakelen voor SharePoint, OneDrive en Microsoft teams** <br/><br/> _EnableATPForSPOTeamsODB_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`||
-|**Veilige documenten voor Office-clients inschakelen**<bt/><br/> _EnableSafeDocs_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Deze instelling is alleen beschikbaar in de beveiligings licenties voor Microsoft 365 E5 of Microsoft 365 E5. Zie voor meer informatie [veilige documenten in Office 365 Advanced Threat Protection](safe-docs.md).|
+|**Veilige documenten voor Office-clients inschakelen**<bt/><br/> _EnableSafeDocs_|Aan <br/><br/> `$true`|Aan <br/><br/> `$true`|Deze instelling is alleen beschikbaar in de beveiligings licenties voor Microsoft 365 E5 of Microsoft 365 E5. Zie voor meer informatie [veilige documenten in Microsoft Defender voor Office 365](safe-docs.md).|
 |**Toestaan dat personen kunnen klikken via de beveiligde weergave, zelfs als het bestand door veilige documenten wordt geïdentificeerd als schadelijk**<bt/><br/> _AllowSafeDocsOpen_|Uit <br/><br/> `$false`|Uit <br/><br/> `$false`|Deze instelling is gerelateerd aan veilige documenten.|
 |
 
 #### <a name="safe-attachments-policy-settings"></a>Beleidsinstellingen voor veilige bijlagen
 
-Zie [beleid voor veilige bijlagen instellen in Office 365 ATP](set-up-atp-safe-attachments-policies.md)voor het configureren van deze instellingen.
+Als u deze instellingen wilt configureren, raadpleegt u [beleidsregels voor veilige bijlagen instellen in Defender voor Office 365](set-up-atp-safe-attachments-policies.md).
 
 In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) en [set-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
 
@@ -291,6 +291,6 @@ In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.micr
 
 - Beheerders en gebruikers kunnen fout-positieven (goede e-mailberichten die als beschadigd zijn gemarkeerd) en foutieve negatieven (onjuiste e-mail toegestaan) indienen bij Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-- Gebruik deze koppelingen voor informatie over het **instellen** van uw [EOP-service](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)en het **configureren** van [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). Vergeet de handige aanwijzingen niet te zien in '[beveiliging tegen bedreigingen in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'.
+- Gebruik deze koppelingen voor informatie over het **instellen** van uw [EOP-service](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)en het **configureren** [van Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). Vergeet de handige aanwijzingen niet te zien in '[beveiliging tegen bedreigingen in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'.
 
-- In dit onderwerp vindt u de **beveiligings basislijnen voor Windows** : [waar kan ik de basislijnen voor beveiliging vinden? voor de](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) opties voor GPO en on-premises, en [beveiligings basislijnen gebruiken om Windows 10-apparaten te configureren in intune](https://docs.microsoft.com/intune/protect/security-baselines) voor intune-based beveiliging. Ten slotte kunt u een vergelijking tussen de Microsoft Defender Advanced Threat Protection (ATP) en Microsoft intune-beveiligings lijnen voor Microsoft intune-beveiligings lijnen en [de basislijnen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)van Microsoft intune-beveiliging vergelijken.
+- In dit onderwerp vindt u de **beveiligings basislijnen voor Windows** : [waar kan ik de basislijnen voor beveiliging vinden? voor de](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) opties voor GPO en on-premises, en [beveiligings basislijnen gebruiken om Windows 10-apparaten te configureren in intune](https://docs.microsoft.com/intune/protect/security-baselines) voor intune-based beveiliging. Ten slotte is er een vergelijking tussen Microsoft Defender voor eindpunten en Microsoft intune-beveiligings lijnen beschikbaar in [de Microsoft-eindpunten voor eindpunten en de Windows intune-beveiligings basislijnen vergelijken](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines).

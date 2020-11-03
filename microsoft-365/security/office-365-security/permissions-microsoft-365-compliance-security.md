@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Via het Microsoft 365-beveiligingscentrum of het Microsoft 365-compliancecentrum kunt u machtigingen centraal beheren voor alle taken die zijn gerelateerd aan beveiliging of naleving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43c98e0b710f5b88c17e089fd974e924728f27f3
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9ad17933592b860fb81e469fd55a454c90b71320
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202673"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845754"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Machtigingen in het Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum
 
@@ -99,12 +99,12 @@ Gebruikers met deze rol hebben machtigingen voor het beheren van beveiligingsfun
 |**Identity Protection Center**|Doe alles wat de Beveiligingslezer kan, plus voer alle Identity Protection Center-werkzaamheden uit, met uitzondering van het opnieuw instellen van wachtwoorden.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Doe alles wat de Beveiligingslezer kan. <br/><br/> **Kan** geen functietoewijzingen of -instellingen in Azure AD beheren.|
 |[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Beveiligingsbeleid beheren. <br/><br/> Beveiligingsrisico's bekijken, onderzoeken en oplossen <br/><br/> Rapporten bekijken. <br/><br/> Gevoeligheidslabels beheren.|
-|**Azure Advanced Threat Protection**|Toezicht houden op verdachte beveiligingsactiviteiten en hierop reageren.|
-|**Windows Defender ATP en EDR**|Rollen toewijzen. <br/><br/> Machinegroepen beheren. <br/><br/> Bedreigingsdetectie en automatisch herstel van eindpunten configureren. <br/><br/> Meldingen bekijken, onderzoeken en hierop reageren.|
+|**Microsoft Defender for Identity**|Toezicht houden op verdachte beveiligingsactiviteiten en hierop reageren.|
+|**Microsoft Defender voor Eindpunt en EDR**|Rollen toewijzen. <br/><br/> Machinegroepen beheren. <br/><br/> Bedreigingsdetectie en automatisch herstel van eindpunten configureren. <br/><br/> Meldingen bekijken, onderzoeken en hierop reageren.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Beheerders, beleid en instellingen toevoegen, logboeken uploaden en beheeracties uitvoeren.|
-|[**Azure Security Center**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (binnenkort beschikbaar)|Beveiligingsbeleid en beveiligingsstatus bekijken, beveiligingsbeleid bewerken, meldingen en aanbevelingen bekijken en meldingen en aanbevelingen verwijderen.|
-|[**Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
+|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (binnenkort beschikbaar)|Beveiligingsbeleid en beveiligingsstatus bekijken, beveiligingsbeleid bewerken, meldingen en aanbevelingen bekijken en meldingen en aanbevelingen verwijderen.|
+|[_ *Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
 |
 
 ### <a name="security-operator"></a>Beveiligingsoperator
@@ -119,7 +119,7 @@ Gebruikers met deze rol kunnen meldingen beheren en hebben globale alleen-lezent
 |**Identity Protection Center** (binnenkort beschikbaar)|Doe alles wat de Beveiligingslezer kan.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Doe alles wat de Beveiligingslezer kan.|
 |[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Doe alles wat de Beveiligingslezer kan. <br/><br/> Beveiligingsrisico's bekijken, onderzoeken en oplossen|
-|**Windows Defender ATP en EDR**|Doe alles wat de Beveiligingslezer kan. <br/><br/> Meldingen bekijken, onderzoeken en hierop reageren.|
+|**Microsoft Defender voor Eindpunt en EDR**|Doe alles wat de Beveiligingslezer kan. <br/><br/> Meldingen bekijken, onderzoeken en hierop reageren.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Doe alles wat de Beveiligingslezer, plus meldingen bekijken en verwijderen.|
 |[**Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
@@ -134,14 +134,14 @@ Gebruikers met deze rol hebben globale alleen-lezentoegang tot beveiligingsfunct
 |In deze service...|De beveiligingslezer kan...|
 |---|---|
 |[**Microsoft 365-beveiligingscentrum**](https://security.microsoft.com/)|Beveiligingsbeleid van de Microsoft 365-services bekijken. <br/><br/> Beveiligingsbedreigingen en -meldingen bekijken. <br/><br/> Rapporten bekijken.|
-|**Identity Protection Center**|Alle beveiligingsrapporten en informatie over instellingen van beveiligingsfuncties lezen: anti-spam, versleuteling, preventie van gegevensverlies (DLP), anti-malware, Advanced Threat Protection (ATP), anti-phishing en regels voor e-mailstroom (ook wel transportregels genoemd).|
+|**Identity Protection Center**|Alle beveiligingsrapporten en informatie over instellingen van beveiligingsfuncties lezen: anti-spam, versleuteling, preventie van gegevensverlies (DLP), anti-malware, Defender voor Office 365, anti-phishing en regels voor e-mailstroom (ook wel transportregels genoemd).|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Alleen-lezentoegang gebruiken om alle informatie in Azure AD PIM te bekijken: beleid en rapporten voor Azure AD-roltoewijzingen, beveiligingscontroles en (in de toekomst) beleidsgegevens en -rapporten voor andere scenario's dan Azure AD-roltoewijzing. <br/><br/> **Kan** niet aanmelden bij Azure AD PIM of hier wijzigingen aanbrengen. In het PIM-portal of via PowerShell kan iemand in deze rol extra rollen activeren (bijvoorbeeld globale beheerder of beheerder van rolbevoegdheden), als de gebruiker hiervoor in aanmerking komt.|
 |[**Beveiligings- en compliancecentrum**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Beveiligingsbeleid bekijken. <br/><br/> Beveiligingsrisico's bekijken en onderzoeken. <br/><br/> Rapporten bekijken.|
-|**Windows Defender ATP en EDR**|Meldingen bekijken en onderzoeken.|
+|**Microsoft Defender voor Eindpunt en EDR**|Meldingen bekijken en onderzoeken.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Alleen-lezen machtigingen gebruiken om informatie te bekijken. <br/><br/> Waarschuwingen beheren.|
-|[**Azure Security Center**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Aanbevelingen en meldingen bekijken. <br/><br/> Beveiligingsbeleid bekijken. <br/><br/> Beveiligingsstatus bekijken, maar geen wijzigingen aanbrengen.|
-|[**Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
+|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Aanbevelingen en meldingen bekijken. <br/><br/> Beveiligingsbeleid bekijken. <br/><br/> Beveiligingsstatus bekijken, maar geen wijzigingen aanbrengen.|
+|[_ *Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>Globale beheerders kunnen rollen beheren in Azure Active Directory
@@ -162,7 +162,7 @@ De rollen die worden weergegeven in het Microsoft 365-compliancecentrum en het M
 
 Het is belangrijk om te weten dat u deze rollen in Azure Active Directory centraal beheert voor **alle** Microsoft 365-services. Wanneer u echter een rol in een specifieke service beheert, zoals het Beveiligings- en compliancecentrum, beheert u de rol **alleen** voor die specifieke service. De toewijzingen en machtigingen voor een rol in een service vervangen alle machtigingen die zijn verleend aan de Azure Active Directory-rol.
 
-Dit kan nuttig zijn - wanneer een persoon bijvoorbeeld wordt toegewezen aan de rol van beveiligingsbeheerder, is deze persoon niet gemachtigd om incidenten te beheren. Maar u kunt de machtigingen in Windows Defender Advanced Thread Protection gebruiken om hen de specifieke machtiging voor het beheren van incidenten in die service te geven.
+Dit kan nuttig zijn - wanneer een persoon bijvoorbeeld wordt toegewezen aan de rol van beveiligingsbeheerder, is deze persoon niet gemachtigd om incidenten te beheren. Maar u kunt de machtigingen in Microsoft Defender voor Eindpunt gebruiken om hen de specifieke machtiging voor het beheren van incidenten in die service te geven.
 
 ## <a name="where-to-find-role-information-for-each-microsoft-365-service"></a>Waar vind ik informatie over rollen voor elke Microsoft 365-service?
 
@@ -174,7 +174,7 @@ Als u een gebruiker toewijst aan een van de beheerdersrollen voor naleving of be
 |---|---|
 |Beheerdersrollen in abonnementen voor Office 365- en Microsoft 365 voor Bedrijven|[Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)|
 |Azure Active Directory (Azure AD) en Azure AD Identity Protection|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Azure Advanced Threat Protection|[Azure ATP-rolgroepen](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
+|Microsoft Defender for Identity|[Microsoft Defender for Identity-rolgroepen](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Compliancebeheer|[Compliancebeheer](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-setup#set-user-permissions-and-assign-roles)|
 |Exchange Online|[Toegangsbeheer in Exchange op basis van rollen](https://docs.microsoft.com/exchange/understanding-role-based-access-control-exchange-2013-help)|
@@ -186,7 +186,7 @@ Als u een gebruiker toewijst aan een van de beheerdersrollen voor naleving of be
 |Secure Score|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |SharePoint Online|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <br/><br/> [Over de SharePoint-beheerdersrollen in Office 365](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)|
 |Teams/Skype voor Bedrijven|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Windows Defender Advanced Threat Protection|[Toegangsbeheer in Windows Defender ATP op basis van rollen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)|
+|Microsoft Defender voor Eindpunt |[Op rollen gebaseerd Microsoft Defender voor Eindpunt-toegangsbeheer](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)|
 |
 
 ## <a name="what-is-coming-soon"></a>Wat wordt er binnenkort beschikbaar?

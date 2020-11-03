@@ -1,6 +1,6 @@
 ---
 title: Geavanceerde jacht-Api's
-description: Meer informatie over het uitvoeren van geavanceerde query's met een Microsoft Threat Protection-API
+description: Meer informatie over het uitvoeren van geavanceerde zoekopdrachten met Microsoft 365 Defender API
 keywords: Geavanceerde jacht, Api's, API, MTP
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: dd7b02200e370588bbb9470a3d7e897b30234ead
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c43d263009578af6280ffdc780ab0f9a174a3b97
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197807"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844030"
 ---
 # <a name="advanced-hunting-apis"></a>Geavanceerde jacht-Api's
 
@@ -32,7 +32,7 @@ ms.locfileid: "48197807"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
@@ -46,7 +46,7 @@ ms.locfileid: "48197807"
 
 
 ## <a name="permissions"></a>Machtigingen
-U moet een van de volgende machtigingen hebben om deze API te kunnen bellen. Zie [de Api's Microsoft Threat Protection openen](api-access.md) voor meer informatie, waaronder de manier waarop u machtigingen kiest.
+U moet een van de volgende machtigingen hebben om deze API te kunnen bellen. Voor meer informatie, waaronder de manier waarop u machtigingen kiest, raadpleegt u [de Microsoft 365 Defender-Api's openen](api-access.md)
 
 Type machtiging |   Machtigingsset  |   Weergavenaam van de machtiging
 :---|:---|:---
@@ -65,7 +65,7 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Factuurkop | Value 
+Factuurkop | Waarde 
 :---|:---
 Bevoegdheid | Bearer {token}. **Vereist**.
 Inhouds type    | toepassing/JSON
@@ -82,7 +82,7 @@ Als dit is gelukt, retourneert deze methode 200 OK en _QueryResponse_ object in 
 
 Het antwoordobject is onderverdeeld in drie delen (eigenschappen):<br>
 1) ```Stats``` -Prestatiestatistieken voor query's.<br>
-2) ```Schema``` -Het schema van het antwoord, een lijst met namen van de typen paren voor elke kolom. <br>
+2) ```Schema``` -Het schema van het antwoord, een lijst met Name-Type paren voor elke kolom. <br>
 3) ```Results``` -Een lijst met geavanceerde bejacht gebeurtenissen.
 
 ## <a name="example"></a>Voorbeeld
@@ -168,4 +168,4 @@ Hier ziet u een voorbeeld van het antwoord.
 ```
 
 ## <a name="related-topic"></a>Verwante onderwerpen
-- [Toegang tot de Microsoft Threat Protection-Api's](api-access.md)
+- [Toegang tot de Microsoft 365 Defender-Api's](api-access.md)

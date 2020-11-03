@@ -1,6 +1,6 @@
 ---
-title: Brontype voor incidenten in Microsoft Threat Protection API
-description: Meer informatie over de methoden en eigenschappen van het brontype incident in Microsoft Threat Protection
+title: Type incident bron in Microsoft 365 Defender API
+description: Meer informatie over de methoden en eigenschappen van het type incident bron in Microsoft 365 Defender
 keywords: incident, incidenten, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ac149ca7263b8ef8bb37a7dd18bf0787a3114b37
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 68bee647cdd5687dbaad08ce3cd01b427dabf030
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201301"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48844018"
 ---
 # <a name="incident-resource-type"></a>Brontype incident
 
@@ -32,7 +32,7 @@ ms.locfileid: "48201301"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
