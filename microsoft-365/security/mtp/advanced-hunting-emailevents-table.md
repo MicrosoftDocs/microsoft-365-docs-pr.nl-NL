@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 63f12aaa84415b354fd257558612dbbe28e41360
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 86cc32cf395f2216eb3e167e372d1225734c4c28
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429453"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842630"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -32,11 +32,11 @@ ms.locfileid: "48429453"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 
-De `EmailEvents` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over gebeurtenissen die betrekking hebben op het verwerken van e-mailberichten in Office 365 ATP. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De `EmailEvents` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over gebeurtenissen die betrekking hebben op het verwerken van e-mailberichten in Microsoft Defender voor Office 365. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
 >[!TIP]
 > Voor gedetailleerde informatie over de typen gebeurtenissen ( `ActionType` waarden) die door een tabel worden ondersteund, gebruikt u de [ingebouwde schema verwijzing](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) die beschikbaar is in het Beveiligingscentrum.
@@ -62,9 +62,9 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `DeliveryAction` | tekenreeks | Bezorgings actie van de e-mail: bezorgd, ongewenst, geblokkeerd of vervangen |
 | `DeliveryLocation` | tekenreeks | De locatie waar het e-mailbericht is bezorgd: Postvak in/map, on-premises/extern, ongewenste E-mail, Quarantine, mislukt, neergezette, verwijderde items |
 | `PhishFilterVerdict` | tekenreeks | Verdict van de filters stapel voor het filteren van e-mail of het e-mailbericht is gephishd: phishing of niet phishing |
-| `PhishDetectionMethod` | tekenreeks | Methode die wordt gebruikt om het e-mailbericht als een phishing op te sporen: schadelijke URL-reputatie, vrije-vorm-URL-detonatie, algemeen phishing-filter, algemeen phishing-filter, anti-bedrog: intra organisatie, anti-spoof: extern domein, domein imitatie, gebruikers imitatie, merk persoon |
+| `PhishDetectionMethod` | tekenreeks | Methode die wordt gebruikt om het e-mailbericht als een phishing te detecteren: kwaadaardige URL-reputatie, veilige koppelings-URL-detonatie, algemeen phishing-filter, anti-spoof: intra organisatie, anti-spoof: extern domein, domein imitatie, gebruikers imitatie, merk persoon |
 | `MalwareFilterVerdict` | tekenreeks | Verdict van de filters stapel voor e-mail om te bepalen of het e-mailbericht malware bevat: malware, geen malware |
-| `MalwareDetectionMethod` | tekenreeks | Methode voor het detecteren van malware in de e-mail: antimalware-engine, reputatie van bestanden, veilige bijlagen van ATP |
+| `MalwareDetectionMethod` | tekenreeks | Methode voor het detecteren van malware in de e-mail: antimalware-engine, reputatie van bestanden, veilige bijlagen |
 | `FinalEmailAction` | tekenreeks | Laatste actie van de e-mail op basis van filter Verdict, beleidsregels en gebruikersacties: bericht verplaatsen naar map Ongewenste e-mail, X-header toevoegen, onderwerp wijzigen, bericht omleiden, geen actie ondernomen, berichten verzenden naar Quarantine |
 | `FinalEmailActionPolicy` | tekenreeks | Actiebeleid dat heeft geduurd: spam hoge betrouwbaarheid, spam, spam bulkmail, spam phishing, anti phishing Domain disuserion, anti phishing, anti phishing Graph, anti phishing Graph, anti malafide Graph, anti malafide Graph, anti malafide Graph (ETR toe) |
 | `FinalEmailActionPolicyGuid` | tekenreeks | Unieke id voor het beleid dat de definitieve actie heeft bepaald |

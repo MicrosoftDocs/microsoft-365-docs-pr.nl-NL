@@ -1,5 +1,5 @@
 ---
-title: De tijdzone voor Microsoft Threat Protection-functies instellen
+title: De tijdzone voor Microsoft 365 Defender-functies instellen
 description: Leer hoe u de tijdzone kiest voor datum-en tijdgegevens die zijn gekoppeld aan incidenten, automatisch onderzoek en herstel, en geavanceerde jacht
 keywords: tijdzone, datum, tijd, MTP, Microsoft Threat Protection, M365, beveiliging, incidenten, geautomatiseerd onderzoek en antwoord, lucht, geavanceerde jacht
 search.product: eADQiWindows 10XVcnh
@@ -19,26 +19,26 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 60795815ae68d640eeac4b9bc9f0188c7751aaf9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 81a744c3f5ebace445a8a944c0fa152ae6b5a09e
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201029"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841912"
 ---
-# <a name="set-the-time-zone-for-microsoft-threat-protection"></a>De tijdzone instellen voor Microsoft Threat Protection
+# <a name="set-the-time-zone-for-microsoft-365-defender"></a>Tijdzone instellen voor Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 
-Microsoft Threat Protection kan datum-en tijdgegevens weergeven met behulp van uw lokale tijdzone of UTC. De geselecteerde tijdzone wordt toegepast op alle datum-en tijdinformatie die wordt weergegeven in de volgende functies in het Microsoft 365-Beveiligingscentrum:
+In Microsoft 365 Defender kunnen datum-en tijdgegevens worden weergegeven met behulp van uw lokale tijdzone of UTC. De geselecteerde tijdzone wordt toegepast op alle datum-en tijdinformatie die wordt weergegeven in de volgende functies in het Microsoft 365-Beveiligingscentrum:
 - Incidenten
 - Automatisch onderzoek en herstel, waaronder het Actiecentrum
 - Geavanceerd opsporen
 
-Als u de tijdzone voor deze functies wilt instellen, gaat u naar **instellingen**  >  **Microsoft Threat Protection**  >  **time zone**.
+Als u de tijdzone voor deze functies wilt instellen, gaat u naar **instellingen**  >  **Microsoft 365 Defender** -  >  **Tijdzone**.

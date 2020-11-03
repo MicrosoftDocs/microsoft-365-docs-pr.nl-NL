@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 4d70176e7dbbb6963565c0b6c38699cb09b5cd9b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1f7df85838654473fea593b235785b4320ea7164
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429897"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842676"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429897"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 De `DeviceRegistryEvents` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over het maken en bewerken van registervermeldingen. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 

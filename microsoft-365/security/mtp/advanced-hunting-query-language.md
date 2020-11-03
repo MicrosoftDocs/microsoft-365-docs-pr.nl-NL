@@ -1,5 +1,5 @@
 ---
-title: Meer informatie over de querytaal Advanced jacht in Microsoft Threat Protection
+title: Meer informatie over de querytaal Advanced jacht in Microsoft 365 Defender
 description: Maak uw eerste bedreigings informatie en leer meer over de gangbare operatoren en andere aspecten van de geavanceerde jacht-querytaal
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, update, learn, First query, Telemetry, gebeurtenissen, telemetrie, aangepaste detectie, schema, telemetrie, en voorbeeld van gegevenstypen
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 09f0a5437c3ae3b54fa086d93e475e4881c2d4bf
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: bb3caff642e752cb6d3941b697820fbad69ae23c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431049"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841974"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Meer informatie over de querytaal Advanced jacht
 
@@ -32,7 +32,7 @@ ms.locfileid: "48431049"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 Voor de geavanceerde jacht op basis van de [querytaal Kusto](https://docs.microsoft.com/azure/kusto/query/). U kunt Kusto operatoren en statements gebruiken om query's te maken waarmee informatie in een speciaal [schema](advanced-hunting-schema-tables.md)wordt gezocht. Voor een betere uitleg van deze concepten voert u uw eerste query uit.
 
@@ -155,8 +155,8 @@ Meer informatie over deze gegevenstypen vindt u in [Kusto scalaire gegevenstypen
 
 ## <a name="get-help-as-you-write-queries"></a>Hulp vragen bij het schrijven van query's
 Profiteer van de volgende functies om query's sneller te schrijven:
-- **Suggesties, wanneer**u query's schrijft, biedt geavanceerde jacht suggesties voor IntelliSense. 
-- **Schemastructuur**: een schema weergave met daarin de lijst met tabellen en de bijbehorende kolommen wordt weergegeven naast uw werkruimte. Plaats de muisaanwijzer op een item voor meer informatie. Dubbelklik op een item om het in te voegen in de query editor.
+- **Suggesties, wanneer** u query's schrijft, biedt geavanceerde jacht suggesties voor IntelliSense. 
+- **Schemastructuur** : een schema weergave met daarin de lijst met tabellen en de bijbehorende kolommen wordt weergegeven naast uw werkruimte. Plaats de muisaanwijzer op een item voor meer informatie. Dubbelklik op een item om het in te voegen in de query editor.
 - Naslag voor **[schema verwijzingen](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** in de portal met beschrijvingen van tabellen en kolommen, en ondersteunde gebeurtenistypen ( `ActionType` waarden) en voorbeeldquery's
 
 ## <a name="work-with-multiple-queries-in-the-editor"></a>Werken met meerdere query's in de editor

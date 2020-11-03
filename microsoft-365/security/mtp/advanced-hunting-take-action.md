@@ -1,5 +1,5 @@
 ---
-title: Actie ondernemen voor geavanceerde jacht-queryresultaten in Microsoft Threat Protection
+title: Actie ondernemen voor geavanceerde jacht-queryresultaten in Microsoft 365 Defender
 description: Snel bedreigingen en beïnvloede assets in uw geavanceerde zoekresultaten voor de jacht
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, telemetrie, actie ondernemen
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 7250feffa69cc1a6cc37908a599dff0fab6c5e6c
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 506af82ec08ad6cd8dbeece5c1c2741e09e4817a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429649"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842462"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Actie ondernemen op geavanceerde zoekresultaten van de jacht
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429649"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -42,7 +42,7 @@ U kunt snel bedreigingen of opgetaste activa opnemen in een [geavanceerde jacht]
 - Quarantine-bestanden
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
-U kunt pas actie ondernemen via een geavanceerde jacht als u een rol hebt in Microsoft Defender ATP met [machtigingen voor het verzenden van herstelacties op apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options). Als u geen actie onderneemt, neemt u contact op met een globale beheerder voor het verkrijgen van de volgende machtigingen:
+U kunt pas actie ondernemen via een geavanceerde jacht als u een rol hebt in Microsoft Defender voor het eindpunt met [machtigingen voor het verzenden van herstelacties op apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options). Als u geen actie onderneemt, neemt u contact op met een globale beheerder voor het verkrijgen van de volgende machtigingen:
 
 *Actieve herstelacties > Threat en beveiligingslek beheer-herstelbewerkingen*
 
@@ -55,7 +55,7 @@ U kunt de volgende acties uitvoeren op apparaten die zijn gedefinieerd door de `
 - Een geautomatiseerd onderzoek initiëren om bedreigingen op het apparaat te controleren en te herstellen, en mogelijk andere getroffen apparaten
 - De uitvoering van de app beperken tot alleen door Microsoft ondertekende uitvoerbare bestanden, verdere bedreigings activiteiten via malware of andere niet-vertrouwde uitvoerbare bestand voorkomen
 
-Meer informatie over de manier waarop deze antwoord acties worden uitgevoerd via Microsoft Defender ATP, [vindt u in antwoord acties op apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts).
+Meer informatie over de manier waarop deze antwoord acties worden uitgevoerd via Microsoft Defender voor eindpunten, [vindt u in antwoord acties op apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts).
    
 ## <a name="quarantine-files"></a>Quarantine-bestanden
 U kunt de actie *Quarantine* op een bestand implementeren, zodat de actie automatisch wordt gemigreerd wanneer deze wordt aangetroffen. Wanneer u deze actie selecteert, kunt u kiezen tussen de volgende kolommen om te bepalen welke bestanden in uw queryresultaten in quarantaine zijn:
@@ -76,7 +76,7 @@ Als u een van de beschreven acties wilt uitvoeren, selecteert u een of meer reco
 ![Afbeelding van geselecteerde record met deelvenster voor inspectie van de record](../../media/mtp-ah/ah-take-actions.png)
 
 ## <a name="review-actions-taken"></a>Bekijk de gebruikte acties
-Elke actie wordt afzonderlijk opgenomen in het [Actiecentrum](mtp-action-center.md) onder **Actiecentrum**  >  **geschiedenis** ([Security.Microsoft.com/Action-Center/History](https://security.microsoft.com/action-center/history)). Ga naar het Actiecentrum om de status van elke actie te controleren.
+Elke actie wordt afzonderlijk opgenomen in het [Actiecentrum](mtp-action-center.md) onder **Actiecentrum**  >  **geschiedenis** ( [Security.Microsoft.com/Action-Center/History](https://security.microsoft.com/action-center/history)). Ga naar het Actiecentrum om de status van elke actie te controleren.
  
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

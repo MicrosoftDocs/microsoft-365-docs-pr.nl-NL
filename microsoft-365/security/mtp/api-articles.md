@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c0bd20ee9b100fcdc53ebf2e5d755ca38c6df545
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 40ee2b6a68438cf703daa2337483bb44d8cbeca9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197749"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841848"
 ---
 # <a name="additional-protection-apis"></a>Extra beveiligings-Api's
 
@@ -32,13 +32,13 @@ ms.locfileid: "48197749"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
-De volgende bronnen geven meer informatie over andere Api's, beschikbaar voor werkstromen in Microsoft Threat Protection:
+De volgende bronnen geven meer informatie over andere Api's die beschikbaar zijn voor werkstromen in Microsoft 365 Defender:
 
-- [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
-- [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office/office-365-management-api/)
+- [Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
+- [Microsoft Defender voor Office 365](https://docs.microsoft.com/office/office-365-management-api/)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/api-introduction)

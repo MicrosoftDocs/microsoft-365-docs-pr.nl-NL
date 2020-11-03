@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Meer informatie over hoe u uw bedrijf kunt overzetten van Microsoft 365 Business Premium naar Microsoft 365 E3.
-ms.openlocfilehash: fbd5c0710bffa92cfc17447094bb9b2683641d5f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 874da0d35759c8af4c3ee2ca4a1bdfa90a91627c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195514"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842195"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Migreren van Microsoft 365 Business Premium naar Microsoft 365 E3
 
@@ -40,7 +40,7 @@ Of uw bedrijf heeft ondernemingsfuncties nodig, zoals Microsoft 365-apps voor En
 Een upgrade is eenvoudig: u kunt de upgrade starten [vanuit het Beheercentrum](../commerce/subscriptions/upgrade-to-different-plan.md). Al uw gegevens en configuratie in uw huidige abonnement blijven behouden. U hoeft niets te doen om de migratie te voorbereiden en niets later te doen, tenzij u de nieuwe functies gaat gebruiken.
 
 >[!Note]
->U kunt ook een Microsoft 365 Business Premium-abonnement voor maximaal 300 stoelen gebruiken en een Microsoft 365 E3-abonnement kopen voor meer dan 300 seats. Office 365 ATP is echter niet opgenomen in Microsoft 365 E3. Voor een voortdurende bescherming van de bedreiging dient u extra Office 365 ATP-licenties toe te voegen, zodat alle gebruikers in de reikwijdte van uw Office 365-voorraadbeleid een licentie voor u hebben.
+>U kunt ook een Microsoft 365 Business Premium-abonnement voor maximaal 300 stoelen gebruiken en een Microsoft 365 E3-abonnement kopen voor meer dan 300 seats. Microsoft Defender voor Office 365 is echter niet opgenomen in Microsoft 365 E3. Voor een voortdurende bedreigingsbeveiliging moet u extra Defender voor Office 365-licenties toevoegen, zodat alle gebruikers in het bereik van uw 365 voor Office een licentie voor u zijn.
 >
 
 ## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Verschillen tussen Microsoft 365 Business Premium en Microsoft 365 Enterprise
@@ -60,12 +60,12 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Mic
 | Outlook Customer Manager, MileIQ    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Bedreigingsbeveiliging**        | | | 
 | Minder mogelijkheden voor oppervlakte van aanval    | [Bekijk deze lijst](#threat-protection) | Enterprise-beheer van hardwarematige isolatie voor Microsoft Edge | 
-| Office 365 Advanced Threat Protection (ATP)-abonnement 1 | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
+| Abonnement 1 voor Office 365 | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
 | **Identiteitsbeheer**        | | | 
 | Selfservice voor wachtwoordherstel voor hybride Azure Active Directory-accounts (Azure AD), Azure multi-factor Authentication (MFA), voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises id's|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
 | Detectie van Cloud apps, Azure AD Connect Health    |     | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Office 365-apps eenmalige aanmelding (SSO): 10 apps per gebruiker (Galerie SaaS-apps zoals Salesforce) * | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: geen limieten (on-premises apps via Azure AD-toepassings proxy en niet-galerij-apps met behulp van sjablonen voor de integratie van zelf-service-apps)    |     | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
+| Azure AD Office 365-apps eenmalige Sign-On (SSO): 10 apps per gebruiker (Galerie SaaS-apps zoals Salesforce) * | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: geen limiet (on-premises apps via Azure AD-toepassings proxy en niet-galerij-apps met beSelf-Service hulp van sjablonen voor de integratie van apps)    |     | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
 | **Apparaten en apps beheren**        | | | 
 | Microsoft intune, Windows auto pilot|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
 |Toegang tot virtueel bureaublad (VDA)    |  |     ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
@@ -129,7 +129,7 @@ Windows 10 Business omvat deze beveiligingsmaatregelen:
 Windows 10 Enterprise E3 omvat ook Enterprise-beheer van hardwarematige isolatie voor Microsoft Edge.
 
 >[!Note]
->Gebruikers die zijn gemigreerd naar Microsoft 365 E3, hebben elk een Office 365 ATP-licentie nodig voor de voortdurende beveiliging van de bedreiging. Zorg ervoor dat u extra Office 365 ATP-licenties koopt, zodat alle gebruikers in de reikwijdte van Office 365 een licentie voor u hebben. 
+>Gebruikers die zijn gemigreerd naar Microsoft 365 E3, hebben elk een Microsoft Defender for Office 365-licentie nodig voor de voortdurende beveiliging van de bedreiging. Zorg ervoor dat u extra licenties voor de versie van Defender voor Office 365 koopt, zodat alle gebruikers in het bereik van uw 365 voor Office een licentie voor u zijn. 
 >
 
 ### <a name="device-management-with-intune"></a>Apparaatbeheer met intune

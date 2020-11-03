@@ -1,5 +1,5 @@
 ---
-title: Gegevenstabellen in het geavanceerde jacht schema Microsoft Threat Protection
+title: Gegevenstabellen in het Microsoft 365 Defender Advanced jacht-schema
 description: Meer informatie over de tabellen in het geavanceerde jacht-schema om inzicht te krijgen in de gegevens waarop u de zoekopdrachten voor de bedreiging kunt uitvoeren
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, telemetrie, schema naslag, kusto, tabel, Data
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: c23637f2a26f62e3fa1ca50e9f8c75edb7c2b50a
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: d267219cfa36987c7372a42572d00f4441ccd0cd
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429648"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842486"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Meer informatie over het schema voor geavanceerde jacht
 
@@ -32,7 +32,7 @@ ms.locfileid: "48429648"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -57,7 +57,7 @@ In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke t
 | Tabelnaam | Beschrijving |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Bestanden, IP-adressen, Url's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
-| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Waarschuwingen uit Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud app Security en Azure ATP, waaronder informatie over de ernst en de bedreiging van de bedreiging  |
+| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Waarschuwingen van Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud app Security en Microsoft Defender for Identity, waaronder informatie over de ernst en bedreigings categorisatie  |
 | **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | Activiteiten met betrekking tot bestanden in Cloud-apps en-services |
 | **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Meerdere gebeurtenistypen, waaronder gebeurtenissen die zijn geactiveerd door beveiligings besturingselementen zoals Windows Defender antivirus en exploit Protection |
 | **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Certificaatgegevens met ondertekende bestanden die zijn opgehaald uit certificaatverificatie gebeurtenissen op eindpunten |

@@ -1,5 +1,5 @@
 ---
-title: Office 365 beveiliging, Office 365 ATP, EOP, ATP, MSDO
+title: Office 365 beveiliging, Microsoft Defender voor Office 365, EOP, MSDO
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -14,37 +14,37 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: Beveiliging in Office 365, van EOP tot ATP-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties, en nog veel meer. Begrijpt wat u hebt en hoe u uw eigenschappen kunt beveiligen.
-ms.openlocfilehash: 256a24a7816a40e1bd60c687a875f84e605f5208
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties en meer. Begrijpt wat u hebt en hoe u uw eigenschappen kunt beveiligen.
+ms.openlocfilehash: 90900251c4c965d72d24b4a6bf2dceb1819f90c4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456469"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842390"
 ---
 # <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
 
 In dit artikel worden de nieuwe beveiligingseigenschappen in de Cloud geïntroduceerd. Ongeacht of u deel uitmaakt van een Beveiligingscentrum, bent u een beveiligingsbeheerder van de ruimte, of wilt u een nieuweder, laten we aan de slag gaan.
 
 > [!CAUTION]
-> Als u gebruikmaakt van **Outlook.com**, **Microsoft 365-familie**of **Microsoft 365 Personal**en de informatie voor *veilige koppelingen* en *veilige bijlagen* hebt, ***klikt u op deze koppeling***: [geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Als u gebruikmaakt van **Outlook.com** , **Microsoft 365-familie** of **Microsoft 365 Personal** , en u hebt *veilige koppelingen* en *veilige bijlagen* met informatie nodig, * **klikt u op deze koppeling** _: [geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 ## <a name="office-365-security-spelled-out"></a>Beveiligings spelling van Office 365
 
 Elk Office 365-abonnement bevat beveiligingsmogelijkheden. Welke doelstellingen en acties u kunt uitvoeren, hangt af van de focus van deze verschillende abonnementen. In Office 365-beveiliging zijn er drie belangrijke beveiligingsservices (of-producten) die zijn gekoppeld aan uw type abonnement:
 
 1. Exchange Online Protection (EOP)
-1. Advanced Threat Protection, abonnement 1 (ATP P1)
-1. Advanced Threat Protection, abonnement 2 (ATP P2)
+1. Microsoft Defender voor Office 365, abonnement 1 (Defender voor Office P1)
+1. Microsoft Defender voor Office 365, abonnement 2 (Defender voor Office P2)
 
 > [!NOTE]
-> Als u uw abonnement hebt gekocht en beveiligingsfuncties *nu*moet uitvoeren, gaat u verder met de stappen in het artikel [beveiliging tegen bedreigingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) . Als u nog geen ervaring hebt met uw abonnement en uw licentie wilt weten voordat u begint, kunt u door de facturering > uw producten in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com/AdminPortal/#/homepage).
+> Als u uw abonnement hebt gekocht en beveiligingsfuncties wilt toepassen _right nu *, gaat u verder met de stappen in het artikel [beveiliging tegen bedreigingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) . Als u nog geen ervaring hebt met uw abonnement en uw licentie wilt weten voordat u begint, kunt u door de facturering > uw producten in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com/AdminPortal/#/homepage).
 
 Beveiligings versies van Office 365 op basis van de kern beveiligingen die worden aangeboden door EOP. EOP bevindt zich in elk abonnement waar Exchange Online-postvakken kunnen worden gevonden (Let op: alle beveiligingsproducten die hier worden besproken zijn op de Cloud).
 
 U wordt gewend de volgende drie onderdelen te zien die op deze manier worden beschreven:
 
-|EOP  | ATP P1 | ATP P2  |
+|EOP  | Microsoft Defender voor Office 365 P1 | Microsoft Defender voor Office 365 P2  |
 |---------|---------|---------|
 |Zorgt voor geen algemene, op volume gebaseerde, bekende aanvallen.    |  Beschermt e-mail en samenwerking tegen malware van malware, phishing en zakelijke e-mail in de dag van de dag.       | Hiermee voegt u een onderzoek, jacht, reactie, automatisering en simulatie van een post-schending toe.         |
 
@@ -52,36 +52,36 @@ Laten we aan de hand van de architectuur eerst denken aan elk deel als cumulatie
 
 <!--:::image type="content" source="../../media/tp-EOPATPStack.PNG" alt-text="Placeholder graphic":::-->
 
-:::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="Placeholder graphic":::
+:::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="EOP en Microsoft Defender voor Office 365 en hun onderlinge relatie met Service nadruk, waaronder een opmerking voor e-mail verificatie.":::
 
-Hoewel elk van deze services een doelstelling opneemt van het beschermen, detecteren, onderzoeken en beantwoorden, kunnen ***alle*** Services ***een van de*** doelstellingen van de beveiliging, detectie, onderzoek en reageren uitvoeren.
+Hoewel elk van deze services een doelstelling opneemt van beschermen, detecteren, onderzoeken en beantwoorden, * **alle** _ de services kunnen de doelen _*_van de_*_ bescherming, detectie, onderzoek en reageren uitvoeren.
 
-De kern van Office 365 beveiliging is EOP bescherming. ATP P1 bevat EOP. ATP P2 bevat P1 en EOP. De structuur is cumulatief. Daarom moet u bij het configureren van dit product beginnen met EOP en werken met ATP.
+De kern van Office 365 beveiliging is EOP bescherming. Microsoft Defender voor Office 365 P1 bevat EOP. Defender voor Office 365 P2 bevat P1 en EOP. De structuur is cumulatief. Daarom moet u bij het configureren van dit product beginnen met EOP en werken met Defender voor Office 365.
 
-Hoewel configuratie van e-mail verificatie plaatsvindt in openbare DNS, is het belangrijk om deze functie te configureren om spoofing te verdedigen. *Als u gebruikmaakt van EOP,* ***moet u [e-mail verificatie configureren](https://docs.microsoft.com/microsoft-365/security/office-365-security/email-validation-and-authentication)***.
+Hoewel configuratie van e-mail verificatie plaatsvindt in openbare DNS, is het belangrijk om deze functie te configureren om spoofing te verdedigen. _Als u gebruikmaakt van EOP, * *, **moet u [e-mail verificatie configureren](https://docs.microsoft.com/microsoft-365/security/office-365-security/email-validation-and-authentication)**_.
 
-Als u een Office 365 E3 of lager hebt, hebt u EOP, maar met de optie voor het aanschaffen van zelfstandige ATP P1 via een upgrade. Als u Office 365 E5 hebt, hebt u al ATP P2.
+Als u een Office 365 E3 of lager hebt, hebt u EOP, maar u kunt ook zelfstandige versie voor Office 365 P1 installeren via een upgrade. Als u Office 365 E5 hebt, hebt u al een Defender voor Office 365 P2.
 
 > [!TIP]
-> Als uw abonnement geen Office 365 E3 of E5 is, kunt u nog steeds controleren of u een upgrade wilt uitvoeren naar ATP P1. Als u geïnteresseerd bent, biedt [deze webpagina](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection#coreui-contentrichblock-x07wids) een lijst met abonnementen die in aanmerking komen voor de ATP P1-upgrade (Controleer het einde van de pagina voor het nauwkeurig afdrukken).
+> Als uw abonnement geen Office 365 E3 of E5 is, kunt u nog steeds controleren of u beschikt over de optie om een upgrade uit te voeren naar Microsoft Defender voor Office 365 P1. Als u geïnteresseerd bent, biedt [deze webpagina](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection#coreui-contentrichblock-x07wids) een lijst met abonnementen die in aanmerking komen voor de upgrade Microsoft Defender for Office 365 P1 (Controleer het einde van de pagina voor het nauwkeurig afdrukken).
 
-## <a name="the-office-365-security-ladder-from-eop-to-atp"></a>De beveiligings ladder van Office 365 van EOP naar ATP
+## <a name="the-office-365-security-ladder-from-eop-to-microsoft-defender-for-office-365"></a>De beveiligings ladder van Office 365 van EOP naar Microsoft Defender voor Office 365
 
 <br/>
 
-![EOP en ATP en de nadruk op hun beveiliging, via beschermen en detecteren voor onderzoek en antwoorden.Configuratie voor e-mail verificatie (minimaal DKIM en DMARC) moet zijn ingesteld voor EOP en up.](../../media/tp_EOPATPP1P2Take6.gif#lightbox)
+![EOP en Microsoft Defender voor Office 365 en hun beveiliging te benadrukken, via beschermen en detecteren om te onderzoeken en te reageren. Configuratie voor e-mail verificatie (minimaal DKIM en DMARC) moet zijn ingesteld voor EOP en up.](../../media/tp_EOPATPP1P2Take6.gif#lightbox)
 
 
 > [!IMPORTANT]
-> Meer informatie over deze pagina's: [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview)en [Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp).
+> Meer informatie over deze pagina's: [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview)en [Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp).
 
-Met het toevoegen van ATP-abonnementen wordt een voordeel van het gebruik van echt EOP Threat Management soms moeilijk te zien. Als u wilt weten of een upgrade-pad geschikt is voor uw organisatie, kunt u het volgende doen om de mogelijkheden van elk product te bekijken:
+Wat maakt het toevoegen van Microsoft Defender voor Office 365 met een voordeel van het gebruik van echt EOP Threat Management is moeilijk te zien. Als u wilt weten of een upgrade-pad geschikt is voor uw organisatie, kunt u het volgende doen om de mogelijkheden van elk product te bekijken:
 
  - bedreigingen voorkomen en detecteren
  - wordt onderzocht
  - stopt
 
-beginnen met **Exchange Online Protection**:
+beginnen met _ * Exchange Online Protection * *:
 <p>
 
 |Voorkomen/detecteren  |Onderzoeken  |Beantwoorden  |
@@ -90,56 +90,56 @@ beginnen met **Exchange Online Protection**:
 
 Als u de EOP wilt zien, gaat u **[naar dit artikel](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide#:~:text=Exchange%20Online%20Protection%20%28EOP%29%20is%20the%20cloud-based%20filtering,is%20also%20available%20in%20the%20following%20on-premises%20scenarios%3A)**.
 
-Omdat deze producten cumulatief zijn en u een abonnement op deze producten evalueert, voegt u deze mogelijkheden toe.
+Omdat deze producten cumulatief zijn, voegt u deze mogelijkheden toe als u Microsoft Defender voor Office 365 P1 evalueert en ervoor kiest om u aan te melden.
 
-Winst met **Advanced Threat Protection, abonnement 1** (naar datum):
+Winst met **Defender voor Office 365, abonnement 1** (naar datum):
 <p>
 
 |Voorkomen/detecteren  |Onderzoeken  |Beantwoorden  |
 |---------|---------|---------|
-| Technologieën bevatten alles in EOP plus:<u1><li>Veilige bijlagen</li><li>Veilige koppelingen<li>ATP-beveiliging voor werkbelasting (ex. SharePoint Online, teams, OneDrive voor bedrijven)</li><li>Beveiliging van de tijd van klikken op e-mail, Office-clients en teams</li><li>ATP anti-phishing</li><li>De bescherming van gebruikers en domein imitatie</li><li>Waarschuwingen en integratie-API van SIEM voor waarschuwingen</li>|<li>SIEM-integratie-API voor detecties</li><li>**Functie voor detecteren van real time**</li><li>URL-tracering</li>|<li>Datzelfde</li></u1>
+| Technologieën bevatten alles in EOP plus:<u1><li>Veilige bijlagen</li><li>Veilige koppelingen<li>Microsoft Defender voor Office 365 beveiliging voor werkbelasting (ex. SharePoint Online, teams, OneDrive voor bedrijven)</li><li>Beveiliging van de tijd van klikken op e-mail, Office-clients en teams</li><li>anti phishing in Defender voor Office 365</li><li>De bescherming van gebruikers en domein imitatie</li><li>Waarschuwingen en integratie-API van SIEM voor waarschuwingen</li>|<li>SIEM-integratie-API voor detecties</li><li>**Functie voor detecteren van real time**</li><li>URL-tracering</li>|<li>Datzelfde</li></u1>
 
-Daarom is ATP P1 uitgebreid aan de ***preventie*** kant van het huis en voegt extra vormen van ***detectie***toe.
+Daarom breidt Microsoft Defender voor Office 365 P1 uit op de * *_belettende_* _ zijde van het huis, en voegt extra vormen van _*_detectie_*_ toe.
 
-Met ATP P1 voegt u ook eenmalige **detectie van realtime** toe voor onderzoek. De naam van de *bedreiging van de* hulp van de hulp van de hulp van een programma De presentatie wordt niet weergegeven in ATP P2.
+Met Microsoft Defender voor Office 365 P1 voegt u ook de *constante detectie van de real time* toe * voor onderzoek. De naam van de hulp van de hulpfunctie van de Threat jacht is vetgedrukt, omdat dit duidelijk is omdat u *weet* dat u Defender voor Office 365 P1 gebruikt. Dit wordt niet weergegeven in Defender voor Office 365 P2.
 
-Winst met **Advanced Threat Protection, abonnement 2** (tot datum):
+Winst met **Defender voor Office 365, abonnement 2** (op datum):
 <p>
 
 |Voorkomen/detecteren  |Onderzoeken  |Beantwoorden  |
 |---------|---------|---------|
-| Technologieën bevatten alles in EOP en ATP P1 plus:<u1><li>Datzelfde</li>|<li>**Bedreigingsverkenner**</li><li>Bedreigingsoverzichten</li><li>Campagne weergaven</li>|<li>Geautomatiseerd onderzoek en antwoord (lucht)</li><li>AIR van bedreigings Verkenner</li><li>AIR voor gebruikers met een veraangetaste</li><li>SIEM-integratie-API voor geautomatiseerde onderzoeken</li>
+| Technologieën bevatten alles in EOP en Microsoft Defender voor Office 365 P1 plus:<u1><li>Datzelfde</li>|<li>**Bedreigingsverkenner**</li><li>Bedreigingsoverzichten</li><li>Campagne weergaven</li>|<li>Geautomatiseerd onderzoek en antwoord (lucht)</li><li>AIR van bedreigings Verkenner</li><li>AIR voor gebruikers met een veraangetaste</li><li>SIEM-integratie-API voor geautomatiseerde onderzoeken</li>
 
-Daarom is de ATP-P2 uitgebreid aan het ***onderzoek en de respons*** zijde van het huis, en wordt een nieuwe jacht sterkte toegevoegd. Automatiseringsinvoegtoepassingen.
+Daarom breidt Microsoft Defender voor Office 365 P2 uit op het * *_onderzoek en antwoord_* _ kant van het huis, en voegt een nieuwe jacht sterkte toe. Automatiseringsinvoegtoepassingen.
 
-In het hulpprogramma voor ATP wordt het hulpprogramma voor primaire jacht aangeduid met de naam **Threat Explorer** , in plaats van detectie van realtime. Als u de bedreigings Verkenner ziet wanneer u naar het Beveiligingscentrum gaat, gebruikt u de ATP-P2.
+In Microsoft Defender voor Office 365 P2 wordt het hulpprogramma voor primaire jacht genoemd met de naam _ *bedreigings Verkenner* * in plaats van detectie van real time. Als u de bedreigings Verkenner ziet wanneer u naar het Beveiligingscentrum gaat, hebt u Microsoft Defender voor Office 365 P2.
 
-**[Ga naar dit artikel](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)** voor meer informatie over ATP P1 en P2.
+**[Ga naar dit artikel](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)** voor informatie over Microsoft Defender voor Office 365 P1 en P2.
 
 > [!TIP]
-> EOP en ATP worden ook verschillend wanneer het bij eindgebruikers komt. In EOP en ATP *P1 is de focus op de*aandacht gebracht en zijn deze twee services ook de *Outlook-invoegtoepassing* voor het rapporteren van berichten, zodat gebruikers e-mailberichten kunnen rapporteren die ze verdacht kunnen vinden, voor verdere analyse. <p> In de ATP-P2 (die alles in EOP en P1 bevat), wordt de focus verplaatst naar een *verdere training* voor eindgebruikers en zodat het Beveiligingscentrum toegang heeft tot een krachtig hulpmiddel voor het hulpmiddel van de *Threat Simulator* , en de metriek van de eindgebruikers biedt.
+> EOP en Microsoft Defender voor Office 365 worden ook verschillend wanneer ze bij eindgebruikers komen. In EOP en Defender voor Office 365 *P1 is de focus op de* aandacht gebracht en zijn deze twee services ook de *Outlook-invoegtoepassing* voor het rapporteren van berichten, zodat gebruikers e-mailberichten kunnen rapporteren die ze verdacht kunnen vinden voor verdere analyse. <p> In de EOP-versie van Defender voor Office 365 (die alles bevat in en P1), wordt de focus verplaatst naar een *verdere training* voor eindgebruikers en zodat het Beveiligingscentrum toegang heeft tot een krachtig hulpmiddel voor het hulpmiddel van de *bedreiging* , en de metriek van de eindgebruikers biedt.
 
-## <a name="office-365-atp-plan-1-vs-plan-2-cheat-sheet"></a>Office 365 ATP plan 1 versus abonnement 2 referentiemateriaal blad
+## <a name="microsoft-defender-for-office-365-plan-1-vs-plan-2-cheat-sheet"></a>Microsoft Defender voor Office 365, abonnement 1 versus abonnement 2 referentiemateriaal blad
 
-Aan de hand van deze naslaginformatie kunt u inzicht krijgen in de mogelijkheden van elk ATP-abonnement. Wanneer deze combinatie met uw kennis van EOP-functies is, kan de IT-medewerkers van besluit om te bepalen welke ATP het meest geschikt is voor hun behoeften.
+Deze naslaggids helpt u inzicht te krijgen in de mogelijkheden van elk Microsoft Defender voor Office 365-abonnement. Wanneer deze combinatie met uw kennis van EOP-functies is, kan de IT-medewerkers van de organisatie vaststellen wat Microsoft Defender for Office 365 het beste is voor hun behoeften.
 
-|Office 365 ATP-abonnement 1|Office 365 ATP-abonnement 2|
+|Abonnement 1 voor Office 365|Abonnement 2 voor Office 365|
 |---|---|
-|<br/>Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[ATP-bescherming tegen phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies van Office 365 ATP-abonnement 1<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:</li><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
+|<br/>Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|De mogelijkheden van de abonnement 1 voor Defender voor Office 365<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:</li><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
 |
 
-- Office 365 ATP-abonnement 2 is inbegrepen in Office 365 E5, Office 365 A5 en Microsoft 365 E5.
+- Microsoft Defender voor Office 365 abonnement 2 is opgenomen in Office 365 E5, Office 365 A5 en Microsoft 365 E5.
 
-- Office 365 ATP-abonnement 1 is inbegrepen in Microsoft 365 Business Premium.
+- Microsoft Defender voor Office 365 abonnement 1 is inbegrepen in Microsoft 365 Business Premium.
 
-- Office 365 ATP-abonnement 1 en Office 365 ATP-abonnement 2 zijn elk beschikbaar als invoegtoepassing voor bepaalde abonnementen. Voor meer informatie gaat u naar de [beschikbaarheid](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)van een koppelings functie voor meer informatie over ATP-abonnementen.
+- Microsoft Defender voor Office 365 plan 1 en Defender for Office 365-abonnement 2 zijn elk beschikbaar als invoegtoepassing voor bepaalde abonnementen. Voor meer informatie gaat u verder met de [beschikbaarheid van een koppelings functie in Microsoft Defender for Office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
-- De [Veilige documenten](safe-docs.md)-functie is alleen beschikbaar voor gebruikers met Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in Office 365 ATP-abonnementen).
+- De functie [veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met de beveiligings licenties voor microsoft 365 E5 of microsoft 365 E5 (niet opgenomen in Microsoft Defender voor Office 365-abonnementen).
 
-- Als uw huidige abonnement Office 365 ATP niet bevat en u dit wilt, kunt u [contact opnemen met de verkoop om een proefabonnement te starten](https://go.microsoft.com/fwlink/p/?LinkId=518644)en erachter te komen hoe ATP in uw organisatie kan werken.
+- Als uw huidige abonnement geen Microsoft Defender voor Office 365 bevat en u dit wilt, kunt u [contact opnemen met de verkoop als u een proefabonnement wilt starten](https://go.microsoft.com/fwlink/p/?LinkId=518644)en wilt weten hoe Microsoft voor Office 365 in uw organisatie kan werken.
 
 > [!TIP]
-> ***Insider-tip***. Met de inhoudsopgave docs.microsoft.com kunt u meer lezen over EOP en ATP. Ga terug naar deze pagina, [Office 365 Beveiligingsoverzicht](https://docs.microsoft.com/microsoft-365/security/office-365-security/?view=o365-worldwide), en u ziet dat de inhoudsopgave van de inhoudsopgave op de zijbalk wordt weergegeven. Het begint met de implementatie (inclusief migratie) en gaat verder met preventie, detectie, onderzoek en antwoord. <p> Dit is een deel van de onderdelen van **beveiligingsbeheer** , zodat onderwerpen over beveiligings **bewerkingen** worden gevolgd. Als u een nieuw lid bent van een van beide functie, gebruikt u de koppeling in deze tip en uw kennis van de inhoudsopgave om de ruimte te leren kennen. Let op het gebruik van *feedback koppelingen* en *tarief artikelen* . Feedback helpt ons wat we u bieden.
+> ***Insider-tip** _. U kunt de docs.microsoft.com-inhoudsopgave gebruiken voor meer informatie over EOP en Microsoft Defender voor Office 365. Ga terug naar deze pagina, [Office 365 Beveiligingsoverzicht](https://docs.microsoft.com/microsoft-365/security/office-365-security/?view=o365-worldwide), en u ziet dat de inhoudsopgave van de inhoudsopgave op de zijbalk wordt weergegeven. Het begint met de implementatie (inclusief migratie) en gaat verder met preventie, detectie, onderzoek en antwoord. <p> Deze structuur wordt gedeeld, zodat _ *beveiligingsbeheer* * onderwerpen worden gevolgd door onderwerpen over **beveiligingsbewerkingen** . Als u een nieuw lid bent van een van beide functie, gebruikt u de koppeling in deze tip en uw kennis van de inhoudsopgave om de ruimte te leren kennen. Let op het gebruik van *feedback koppelingen* en *tarief artikelen* . Feedback helpt ons wat we u bieden.
 
 ## <a name="where-to-go-next"></a>Waar u verder kunt gaan
 
@@ -149,8 +149,8 @@ Als u een beveiligingsbeheerder bent, moet u mogelijk DKIM of DMARC configureren
 
 [Bekijk de specifieke ' gouden ' configuraties](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp) en [Gebruik de aanbevolen standaardinstellingen om beveiligingsbeleid snel te configureren](https://docs.microsoft.com/microsoft-365/security/office-365-security/preset-security-policies)
 
-Bijpraten over [nieuwe functies in Office 365 ATP (waaronder EOP-ontwikkelingen)](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
+Bijpraten over [nieuwe functies in Microsoft Defender voor Office 365 (waaronder EOP-ontwikkelingen)](https://docs.microsoft.com/microsoft-365/security/office-365-security/whats-new-in-office-365-atp)
 
 [Bedreigings Verkenner of realtime-detectie gebruiken](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)
 
-[Aanvals Simulator gebruiken in Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)
+[Aanvals Simulator gebruiken in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)

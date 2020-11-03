@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 4e63badee2ca031bdd3ea7682396353d1658981b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: c2772d0fc77e563bc80b0f29815349d1bfb3e2ea
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430407"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842510"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Professionele training krijgen bij een geavanceerde jacht
 
@@ -32,14 +32,14 @@ ms.locfileid: "48430407"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-Breid uw kennis van geavanceerde jacht snel uit met _het bijhouden van de Adversary_, een webcast reeks voor nieuwe beveiligings analisten en geseizoensgebondene bedreigingen. De reeks begeleidt u door de basisbeginselen voor het maken van uw eigen verfijnde query's. Begin met de eerste video op basis van basisprincipes of ga naar meer geavanceerde Video's die op uw niveau van ervaring passen.
+Breid uw kennis van geavanceerde jacht snel uit met _het bijhouden van de Adversary_ , een webcast reeks voor nieuwe beveiligings analisten en geseizoensgebondene bedreigingen. De reeks begeleidt u door de basisbeginselen voor het maken van uw eigen verfijnde query's. Begin met de eerste video op basis van basisprincipes of ga naar meer geavanceerde Video's die op uw niveau van ervaring passen.
 
 
 | Title | Beschrijving | Visualisatie | Aanvragen | 
 |--|--|--|--|
-| Aflevering 1: basisprincipes van KQL | Deze aflevering omvat de basisbeginselen van de geavanceerde jacht in Microsoft Threat Protection. Lees meer over de beschikbare geavanceerde jacht-gegevens en de Basic KQL syntaxis en operatoren. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
+| Aflevering 1: basisprincipes van KQL | Deze aflevering bestrijkt de basisbeginselen van de geavanceerde jacht in Microsoft 365 Defender. Lees meer over de beschikbare geavanceerde jacht-gegevens en de Basic KQL syntaxis en operatoren. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
 | Aflevering 2: joins | Ga verder met het leren van gegevens in de geavanceerde jacht en het samenvoegen van tabellen. Meer informatie over `inner` ,, `outer` `unique` , en `semi` deelnemen en uitleg van de nuances van de standaard `innerunique` join voor Kusto. | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
 | Aflevering 3: gegevens samenvatten, draaien en visualiseren | Nu u hebt geleerd hoe u gegevens wilt filteren, manipuleren en samenvoegen, is het tijd om samen te vatten, te kwantificeren, te draaien en te visualiseren. In deze aflevering wordt de `summarize` operator en verschillende berekeningen besproken en worden er extra tabellen in het schema geïntroduceerd. U leert ook gegevenssets omzetten in grafieken die u kunnen helpen om inzicht te verkrijgen. | [YouTube](https://youtu.be/UKnk9U1NH6Y?t=296) (48:52) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl) |
 | Aflevering 4: laten we beginnen. KQL toepassen op incidenten bijhouden | In deze aflevering leert u hoe u een deel van de activiteiten van derden bijhoudt. We gebruiken onze verbeterde inzicht in Kusto en de geavanceerde jacht om een aanval bij te houden. Meer informatie over werkelijke trucs die in het veld zijn gebruikt, waaronder de ABCs van Cyber Security en hoe u ze toepast op antwoord op een incident. | [YouTube](https://youtu.be/2EUxOc_LNd8?t=291) (59:36) | [CSL-bestand](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)
@@ -51,7 +51,7 @@ Het volgende fragment van een CSL-bestand bevat een uitgebreide set richtlijnen 
 
 ```kusto
 // DeviceLogonEvents
-// A table containing a row for each logon a device enrolled in Defender ATP
+// A table containing a row for each logon a device enrolled in Microsoft Defender for Endpoint
 // Contains
 // - Account information associated with the logon
 // - The device which the account logged onto
@@ -67,7 +67,7 @@ DeviceLogonEvents
 | count
 
 // DeviceLogonEvents
-// A table containing a row for each logon a device enrolled in Defender ATP
+// A table containing a row for each logon a device enrolled in Microsoft Defender for Endpoint
 // Contains
 // - Account information associated with the logon
 // - The device which the account logged onto

@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ea580ad6b7bb7cc905a299e473f23a4c74fb289e
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: a41e05f54a8ba94752c6df91628a2200367ac0f3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294782"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843838"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -76,7 +76,7 @@ Met een verbeterings actie wordt u bijvoorbeeld 10 punten vrijmaken door al uw g
 
 ### <a name="products-included-in-secure-score"></a>Producten die deel uitmaken van Secure Score
 
-Er zijn momenteel aanbevelingen voor Microsoft 365 (waaronder Exchange Online), Azure Active Directory, Microsoft Defender ATP, Azure ATP en beveiliging van Cloud apps. Aanbevelingen voor andere beveiligingsproducten zijn binnenkort beschikbaar. De aanbevelingen bedekken geen enkele aanvals vlakken die zijn gekoppeld aan elk product, maar ze zijn een goede basislijn. U kunt ook de verduidelijkings acties markeren als bedoeld bij een derde persoon of een andere beperking.
+Er zijn momenteel aanbevelingen voor Microsoft 365 (waaronder Exchange Online), Azure Active Directory, Microsoft Defender voor eindpunten, Microsoft Defender voor identiteit en beveiliging van Cloud apps. Aanbevelingen voor andere beveiligingsproducten zijn binnenkort beschikbaar. De aanbevelingen bedekken geen enkele aanvals vlakken die zijn gekoppeld aan elk product, maar ze zijn een goede basislijn. U kunt ook de verduidelijkings acties markeren als bedoeld bij een derde persoon of een andere beperking.
 
 ### <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
 

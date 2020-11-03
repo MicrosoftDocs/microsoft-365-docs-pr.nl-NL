@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het inschakelen van de invoegtoepassing bericht rapporteren voor Outlook en de webversie van Outlook voor afzonderlijke gebruikers of voor de hele organisatie.
-ms.openlocfilehash: b061d9db44b08a65b59481035c055a1b75eb6e3c
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: d760aa5d58e628872682131efae9d9c3b3c46734
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600367"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842450"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
@@ -35,7 +35,7 @@ Met de invoegtoepassing bericht rapporteren voor Outlook en de webversie van Out
 
 Stel dat personen een heleboel berichten als phishing rapporteren. Deze informatie vlakken zijn te zien in het [beveiligings dashboard](security-dashboard.md) en andere rapporten. Het beveiligingsteam van uw organisatie kan deze gegevens gebruiken, omdat er mogelijk een anti-phishing beleid moet worden bijgewerkt. Of als personen een heleboel berichten rapporteren die als ongewenste e-mail zijn gemarkeerd als niet-ongewenste e-mail met behulp van de invoegtoepassing berichten rapporteren, moet het beveiligingsteam van uw organisatie het [Antispambeleid](configure-your-spam-filter-policies.md)wellicht aanpassen.
 
-Ook als uw organisatie [Office 365 Advanced Threat Protection (abonnement 1](office-365-atp.md) of [abonnement 2](office-365-ti.md)) gebruikt, biedt de invoegtoepassing bericht melden het beveiligingsteam van uw organisatie nuttige informatie die zij kunnen gebruiken voor het controleren en bijwerken van beveiligingsbeleid.
+Als uw organisatie gebruikmaakt van [Microsoft Defender voor Office 365 (abonnement 1](office-365-atp.md) of [abonnement 2](office-365-ti.md)), biedt de invoegtoepassing bericht melden het beveiligingsteam van uw organisatie nuttige informatie die kan worden gebruikt om beveiligingsbeleid te controleren en bij te werken.
 
 Beheerders kunnen de invoegtoepassing bericht rapporteren voor de organisatie inschakelen en afzonderlijke gebruikers kunnen de invoegtoepassing voor zichzelf installeren.
 
@@ -43,7 +43,7 @@ Als u een individuele gebruiker bent, kunt u [de invoegtoepassing bericht rappor
 
 Als u een globale beheerder of een beheerder van Exchange Online bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u [de invoegtoepassing bericht rapporteren voor uw organisatie inschakelen](#get-and-enable-the-report-message-add-in-for-your-organization). De Add-In rapportberichten is nu beschikbaar via [gecentraliseerde implementatie](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
 
 - De invoegtoepassing bericht rapporteren werkt met de meeste Microsoft 365-abonnementen en de volgende producten:
 
@@ -101,7 +101,7 @@ Zie [de invoegtoepassing bericht rapporteren gebruiken](https://support.microsof
 
    ![Een nieuwe pagina met invoegtoepassingen implementeren](../../media/NewAddInScreen2.png)
 
-4. Klik op de pagina **invoegtoepassing selecteren** die wordt weergegeven in het **zoekvak** , Voer **rapportbericht**in en klik vervolgens op **Zoek** ![ actie zoeken ](../../media/search-icon.png) . Zoek in de lijst met resultaten naar **rapport** en klik op **toevoegen**.
+4. Klik op de pagina **invoegtoepassing selecteren** die wordt weergegeven in het **zoekvak** , Voer **rapportbericht** in en klik vervolgens op **Zoek** ![ actie zoeken ](../../media/search-icon.png) . Zoek in de lijst met resultaten naar **rapport** en klik op **toevoegen**.
 
    ![Zoekresultaten van invoegtoepassing selecteren](../../media/NewAddInScreen3.png)
 
@@ -109,17 +109,17 @@ Zie [de invoegtoepassing bericht rapporteren gebruiken](https://support.microsof
 
 6. Configureer de volgende instellingen op de pagina **invoegtoepassing configureren** die wordt weergegeven:
 
-   - **Toegewezen gebruikers**: Selecteer een van de volgende waarden:
+   - **Toegewezen gebruikers** : Selecteer een van de volgende waarden:
 
      - **Iedereen** (standaard)
      - **Specifieke gebruikers/groepen**
      - **Alleen ik**
 
-   - **Implementatiemethode**: Selecteer een van de volgende waarden:
+   - **Implementatiemethode** : Selecteer een van de volgende waarden:
 
-     - **Fixed (standaardinstelling)**: de invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers en kan de invoegtoepassing niet verwijderen.
-     - **Beschikbaar**: gebruikers kunnen de invoegtoepassing installeren bij de beheerder van de **Startpagina** \> **invoegtoepassingen** \> **beheren**.
-     - **Optioneel**: de invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen de optie wel verwijderen.
+     - **Fixed (standaardinstelling)** : de invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers en kan de invoegtoepassing niet verwijderen.
+     - **Beschikbaar** : gebruikers kunnen de invoegtoepassing installeren bij de beheerder van de **Startpagina** \> **invoegtoepassingen** \> **beheren**.
+     - **Optioneel** : de invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen de optie wel verwijderen.
 
    ![Pagina invoegtoepassing configureren](../../media/configure-add-in.png)
 

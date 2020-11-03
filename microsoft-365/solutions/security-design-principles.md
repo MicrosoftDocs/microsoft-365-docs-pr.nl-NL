@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 563972c458e77d96cf075f048dcee027bf29bc95
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 9a1a0204f1c79ad1eab7d62adf45022d1d5bc035
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399395"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842796"
 ---
 # <a name="security-hurdles-you-can-sail-over--one-architects-viewpoint"></a>Beveiligingsbeperkingen u kunt overstappen op een enkele gezichtspunt van een architect
 
@@ -55,7 +55,7 @@ Zie [configuraties voor identiteit en Apparaattoegang](../security/office-365-se
 
 Veel beveiligings teams gebruiken nog steeds de aanbevolen traditionele beveiligingsmaatregelen voor een alle on-premises wereld, waaronder het bijhouden van een netwerk perimeter beveiliging en het afdwingen van de on-premises beveiligingshulpprogramma's en besturingselementen voor cloud oplossingen. Een dergelijk besturingselement is niet ontworpen voor de Cloud, is niet van invloed, en belemmert de aanneming van de moderne Cloud mogelijkheden. De processen en hulpmiddelen die voor een beveiligingsmethode voor netwerkverbindingen werken, zijn inefficiënt, obstructief voor Cloud functies en kunnen geen gebruikmaken van moderne en geautomatiseerde beveiligingsfuncties.
 
-U kunt deze beperkingen overzetten door de defensie strategieën te verschuiven voor de bescherming van de cloud die door de Cloud wordt beheerd, automatisch onderzoek en herbemiddeling, automatisch toetsen testen, Advanced Threat Protection en incident analyses. Voor klanten die gebruikmaken van moderne Apparaatbeheer oplossingen zijn automatisch beheer, gestandaardiseerde patches, antivirussoftware, beleids afdwinging en Toepassingsbeveiliging op alle apparaten (ongeacht een smartphone, Personal computer, laptop of Tablet) geïmplementeerd. Hiermee wordt de behoefte voor een VPN, Microsoft System Center Configuration Manager (SCCM) en Active Directory-groepsbeleid geëlimineerd. Dit, met behulp van regels voor voorwaardelijke toegang, biedt krachtige controle en zichtbaarheid en ook gestroomlijnde toegang tot bronnen, ongeacht waar de gebruikers werkzaam zijn.
+U kunt deze hindernis overzetten door de defensie strategieën te verschuiven voor de bescherming door de cloud die door de Cloud wordt beheerd, automatisch onderzoek en herbemiddeling, automatische penbewegingen testen, Defender voor Office 365 en incident analyses. Voor klanten die gebruikmaken van moderne Apparaatbeheer oplossingen zijn automatisch beheer, gestandaardiseerde patches, antivirussoftware, beleids afdwinging en Toepassingsbeveiliging op alle apparaten (ongeacht een smartphone, Personal computer, laptop of Tablet) geïmplementeerd. Hiermee wordt de behoefte voor een VPN, Microsoft System Center Configuration Manager (SCCM) en Active Directory-groepsbeleid geëlimineerd. Dit, met behulp van regels voor voorwaardelijke toegang, biedt krachtige controle en zichtbaarheid en ook gestroomlijnde toegang tot bronnen, ongeacht waar de gebruikers werkzaam zijn.
 
 ## <a name="strive-for-best-together-security-tools"></a>Streven naar beveiligingshulpprogramma's met de beste samenwerking
 

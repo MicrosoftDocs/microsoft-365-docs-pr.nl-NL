@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Configureer de beveiliging en service-infrastructuur om uw informatie te beschermen en te voldoen aan de regelgeving voor informatiebescherming.
-ms.openlocfilehash: 4296e2f08d9dada62cc45226885d9519a33e6532
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 9af0a113d9b0eb2cbca07fdf457cd8bb7db3e094
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655811"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842294"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Information Protection voor data privacy-regels implementeren met Microsoft 365
 
@@ -39,7 +39,7 @@ Om de criteria te voldoen voor de bescherming van de informatie over naleving va
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
 | Compliancebeheer | Compliance Compliance-activiteiten beheren, een algemene score voor de huidige compliance-configuratie krijgen en aanbevelingen vinden voor verbetering in dit hulpprogramma op werkstroom basis risico onderzoek in het Microsoft 365 compliance Center. | Microsoft 365 E3 en E5 |
-| Office Advanced Threat Protection (ATP) | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. | Microsoft 365 E3 en E5 | 
+| Microsoft Defender voor Office 365 | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. | Microsoft 365 E3 en E5 | 
 | Vertrouwelijkheidslabels | Classificeer en bescherm de gegevens van uw organisatie zonder de productiviteit van gebruikers en hun vermogen om samen te werken te belemmeren door het labelen van e-mail, bestanden of websites met diverse beschermingsniveaus. | Microsoft 365 E3 en E5 |
 | Preventie van gegevensverlies (DLP) | Detecteer, waarschuw voor en blokkeer risicovol, onbedoeld of ongepast delen, zoals het delen van gegevens met persoonlijke informatie, zowel intern als extern. | Microsoft 365 E3 en E5 | 
 | Labels en beleid voor gegevensretentie | Implementeer informatiebeheer-besturingselementen, zoals hoe lang gegevens bewaard blijven en vereisten voor het opslaan van persoonlijke gegevens van klanten, om te voldoen aan het beleid of de gegevensvoorschriften van uw organisatie. | Microsoft 365 E3 en E5 |

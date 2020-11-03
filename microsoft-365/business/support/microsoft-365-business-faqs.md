@@ -1,6 +1,6 @@
 ---
-title: Veelgestelde vragen over Microsoft 365 Business 
-description: Hier vindt u antwoorden op veelgestelde vragen over Microsoft 365 Business, een nieuwe oplossing die is ontworpen voor kleine en middelgrote bedrijven (MKB). 
+title: Veelgestelde vragen over Microsoft 365 Business
+description: Hier vindt u antwoorden op veelgestelde vragen over Microsoft 365 Business, een nieuwe oplossing die is ontworpen voor kleine en middelgrote bedrijven (MKB).
 author: Sirkkuw
 f1.keywords:
 - NOCSH
@@ -10,15 +10,15 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-audience: microsoft-business 
+audience: microsoft-business
 keywords: Microsoft 365 Business Premium, Microsoft 365, MKB, FAQ, veelgestelde vragen, antwoorden, zakelijk
 ms.date: 07/21/2020
-ms.openlocfilehash: a8547240a2733a10730d0f8fb62fe8e8c7ef971c
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b117f0aecb76dc3b30a30e067c37328865eb0fdf
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948563"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842105"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft 365 Business
 
@@ -27,15 +27,15 @@ ms.locfileid: "47948563"
 ### <a name="what-is-microsoft-365-business-premium"></a>Wat is Microsoft 365 Business Premium?
 Microsoft 365 is een geïntegreerde oplossing die de beste productiviteitstools, beveiliging en apparaatbeheer combineert voor kleine tot middelgrote bedrijven. Deze omvat:
 
-**Een reeks zakelijke productiviteits-en samenwerkingsprogramma's**:
+**Een reeks zakelijke productiviteits-en samenwerkingsprogramma's** :
 
 - Word, Excel, PowerPoint, Outlook, OneNote, Publisher en Access
 - Exchange Online, Skype voor Bedrijven, Microsoft Teams en SharePoint.
 - Zakelijke apps van Office (Bookings, MileIQ<sup>[1](#footnote1)</sup>).
 
-De **mogelijkheden van het beheer van apparaten en beveiliging**van uw bedrijf:
+De **mogelijkheden van het beheer van apparaten en beveiliging** van uw bedrijf:
 
-- Zorgt voor bescherming tegen externe bedreigingen als phishing en verfijnde malware met Office 365 Advanced Threat Protection (abonnement 1) en Microsoft Defender exploit Guard.
+- Zorgt voor bescherming tegen externe bedreigingen als phishing en verfijnde malware met Microsoft Defender voor Office 365, abonnement 1 en Microsoft Defender exploit Guard.
 - Helpt bij het controleren en beheren van hoe gevoelige informatie wordt geopend en verzonden, met beleid ter voorkoming van gegevensverlies en Azure Information Protection Plan 1.
 - Beschermt en behoudt uw gegevens en maakt er een back-up van met Exchange Online Archiving.
 - App-bescherming voor Office en andere mobiele apps met Intune App Protection.
@@ -43,14 +43,14 @@ De **mogelijkheden van het beheer van apparaten en beveiliging**van uw bedrijf:
 - Identiteitsbescherming met meervoudige verificatie, self-service voor wachtwoordherstel en voorwaardelijke toegang.
 - Consistente beveiligingsconfiguratie voor de &mdash; bescherming van bedrijfsgegevens op verschillende apparaten; Microsoft Defender antivirus, altijd aan en up-to-date.
 
-**Eenvoudige implementatie van apparatuur en instellen van gebruikers**:
+**Eenvoudige implementatie van apparatuur en instellen van gebruikers** :
 
 - Eén beheerconsole om gebruikers en apparaten in te stellen en te beheren
 - Automatische installatie van Office-apps op Windows 10 pc's.
 - Office + Windows 10 altijd up-to-date.
 - Gestroomlijnde implementatie van pc's met Windows AutoPilot.
 
-**Overige rechten**:
+**Overige rechten** :
 
 - Microsoft 365 Business Premium-klanten hebben ook toegang tot de functionaliteit van Windows Virtual Desktop en Office Shared Computer Activation. Lees de [Microsoft 365 Business Premium blog](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) voor meer informatie. Zie ook de [servicebeschrijving van Microsoft 365 voor bedrijven](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
 
@@ -70,7 +70,7 @@ Microsoft 365 Business Premium kan worden aangeschaft via een [Microsoft-partner
 
 ### <a name="how-much-does-microsoft-365-business-premium-cost"></a>Hoeveel kost Microsoft 365 Business Premium?
 
-Microsoft 365 Business Premium wordt aangeboden voor USD$20,00 per gebruiker/maand op basis van een _jaarcontract_, indien rechtstreeks bij Microsoft gekocht. Bij aankoop via een Microsoft-partner kunnen de prijzen variëren op basis van de services die de partner biedt en hun prijsmodel voor Microsoft 365 Business Premium.
+Microsoft 365 Business Premium wordt aangeboden voor USD$20,00 per gebruiker/maand op basis van een _jaarcontract_ , indien rechtstreeks bij Microsoft gekocht. Bij aankoop via een Microsoft-partner kunnen de prijzen variëren op basis van de services die de partner biedt en hun prijsmodel voor Microsoft 365 Business Premium.
 
 ### <a name="is-there-a-cap-to-how-many-microsoft-365-business-premium-seats-a-customer-can-have"></a>Is er een limiet voor hoeveel Microsoft 365 Business Premium-seats een klant kan hebben?
 
@@ -156,7 +156,7 @@ De eenvoudigste manier voor een succesvolle implementatie van Microsoft 365 Busi
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Omvat Microsoft 365 Business Premium de volledige functionaliteit van Microsoft Intune?
 
-Ja, Microsoft 365 Business Premium-abonnees hebben een licentie voor het gebruik van volledige intune-mogelijkheden voor iOS, Android, macOS en ander Apparaatbeheer. Functies die niet beschikbaar zijn in de vereenvoudigd beheerconsole van Microsoft 365 Business Premium, zoals het beheer van apps van derden, de configuratie van Wi-Fi-profielen en VPN-certificaten, kunnen worden beheerd in de volledige intune-console.
+Ja, Microsoft 365 Business Premium-abonnees hebben een licentie voor het gebruik van volledige intune-mogelijkheden voor iOS, Android, macOS en ander Apparaatbeheer. Functies die niet beschikbaar zijn in de vereenvoudigde beheerconsole van Microsoft 365 Business Premium, zoals het beheer van apps van derden, de configuratie van Wi-Fi-profielen en VPN-certificaten, kunnen worden beheerd in de volledige intune-console.
 
 ### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Is Azure Active Directory (Azure AD) Premium P1 meegeleverd met Microsoft 365 Business Premium?
 
@@ -180,9 +180,9 @@ Alle invoegtoepassingen die kunnen worden toegevoegd aan Microsoft 365 Business 
 
 Ja, u kunt een abonnement voor voice mail kopen. [Business Voice](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) is een telefoon oplossing voor kleine en middelgrote bedrijven van 300-gebruikers die telefoonsystemen, audio vergaderingen, een abonnement voor binnenlandse gesprekken bundelen en meer. De mogelijkheden van telefoonsystemen die u ontvangt, zijn onder andere voicemail nummers, nummerweergave, oproep Park, gesprekken doorschakelen, auto attendants en oproep wachtrijen. <br> Als u wilt weten of zakelijke spraak beschikbaar is in uw land of regio, raadpleegt u [beschikbare landen en regio's voor zakelijke spraak](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability). Zie [tarieven voor zakelijke spraak](https://go.microsoft.com/fwlink/?linkid=2127221)voor prijsinformatie.
 
-### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Kunnen klanten met Microsoft 365 Business Premium gebruikmaken van geavanceerde bedreigings bescherming van Microsoft Defender?
+### <a name="can-microsoft-365-business-premium-customers-use-microsoft-defender-for-endpoint"></a>Kunnen klanten met Microsoft 365 Business Premium Microsoft Defender voor eindpunten gebruiken?
 
-Ja, Microsoft Defender Advanced Threat Protection is beschikbaar als een invoegtoepassing voor Microsoft 365 Business Premium, indien aangeschaft bij een [Microsoft Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
+Ja, Microsoft Defender voor eindpunt is beschikbaar als een invoegtoepassing voor Microsoft 365 Business Premium, indien aangeschaft bij een [Microsoft Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
 ## <a name="partner-opportunity"></a>Kansen voor partners
 
@@ -224,7 +224,7 @@ Microsoft 365 Business Premium maakt een niet-legitieme versie van Windows niet 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-premium-help-customers-with-their-compliance-obligations"></a>Wat is de AVG en hoe helpt Microsoft 365 Business Premium klanten met hun nalevingsverplichtingen?
 
-De Algemene Verordening Gegevensbescherming (AVG) is een allesomvattende nieuwe privacywet die inwoners van de Europese Unie (EU) meer controle geeft over hun 'persoonlijke gegevens' en van organisaties verlangt dat ze de integriteit van die persoonlijke gegevens bewaken. De AVG vereist dat organisaties die persoonlijke gegevens beheren of verwerken die zijn verbonden aan EU-inwoners, alleen externe gegevensverwerkers gebruiken die voldoen aan de AVG-vereisten voor de verwerking van persoonlijke gegevens. In maart 2017 heeft Microsoft contractuele garanties afgegeven die deze zekerheid geven. Klanten die vragen hebben over hoe Microsoft hen kan helpen aan hun aanvullende AVG-verplichtingen te voldoen, kunnen zich verdiepen in de geavanceerde nalevings- en beveiligingsmogelijkheden die beschikbaar zijn in Microsoft 365 Business Premium (bijvoorbeeld Azure Information Protection, preventie van gegevensverlies en Advanced Threat Protection) en in andere suites (bijvoorbeeld Microsoft 365 Enterprise E5). Voor meer informatie gaat u naar [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
+De Algemene Verordening Gegevensbescherming (AVG) is een allesomvattende nieuwe privacywet die inwoners van de Europese Unie (EU) meer controle geeft over hun 'persoonlijke gegevens' en van organisaties verlangt dat ze de integriteit van die persoonlijke gegevens bewaken. De AVG vereist dat organisaties die persoonlijke gegevens beheren of verwerken die zijn verbonden aan EU-inwoners, alleen externe gegevensverwerkers gebruiken die voldoen aan de AVG-vereisten voor de verwerking van persoonlijke gegevens. In maart 2017 heeft Microsoft contractuele garanties afgegeven die deze zekerheid geven. Klanten die vragen hebben over hoe Microsoft ze kunnen helpen bij het voldoen aan hun aanvullende AVG-verplichtingen, moeten weten over de geavanceerde compliance-en beveiligingsmogelijkheden die beschikbaar zijn in Microsoft 365 Business Premium (bijvoorbeeld Azure Information Protection, preventie van gegevensverlies, Defender voor Office 365, enzovoort) en andere suites (bijvoorbeeld Microsoft 365 Enterprise E5). Voor meer informatie gaat u naar [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 ## <a name="footnotes"></a>Voetnoten
 

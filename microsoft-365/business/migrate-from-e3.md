@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over hoe u uw bedrijf kunt overzetten naar Microsoft 365 Business Premium van Office 365 E3.
-ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295285"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842155"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium 
 
@@ -51,7 +51,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Off
 | StaffHub    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Office 365 E3](../media/check-mark.png) | 
 | Outlook Customer Manager, MileIQ    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Bedreigingsbeveiliging**        | | | 
-| Office 365 Advanced Threat Protection (ATP)-abonnement 1 | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
+| Abonnement 1 voor Office 365 | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
 | **Identiteitsbeheer**        | | | 
 | Selfservice voor wachtwoordherstel voor hybride Azure Active Directory-accounts (Azure AD), Azure multi-factor Authentication (MFA), voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises id's|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
 | **Apparaten en apps beheren**        | | |
@@ -97,7 +97,7 @@ U kunt deze stappen ook voltooien op de pagina apparaten:
   
 1. Ga in het Beheercentrum in het linkernavigatievenster naar **apparaten** \> **beleid**.
     
-2. Kies **toevoegen**op de pagina **apparaatbeleid** .
+2. Kies **toevoegen** op de pagina **apparaatbeleid** .
     
 3. Geef in het deelvenster **beleid toevoegen** een naam op voor het beleid en kies vervolgens een **beleidstype** in de vervolgkeuzelijst. 
     
@@ -122,7 +122,7 @@ Microsoft 365 Business Premium heeft een opslaglimiet van 50 GB omdat Exchange O
 
 ### <a name="threat-protection"></a>Bedreigingsbeveiliging
 
-Na de migratie naar Microsoft 365 Business Premium hebt u Office 365 ATP. Zie [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) voor een overzicht. Als u deze instelling wilt instellen, raadpleegt u de [veilige koppelingen voor ATP instellen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [veilige bijlagen van ATP instellen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)en de [anti-phishing van ATP instellen](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
+Na de migratie naar Microsoft 365 Business Premium hebt u Defender voor Office 365. Zie [Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) voor een overzicht. Als u deze instelling wilt instellen, raadpleegt [u veilige koppelingen instellen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [veilige bijlagen instellen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)en [anti phishing instellen in Defender voor Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 

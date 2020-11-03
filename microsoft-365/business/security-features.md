@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Meer informatie over de beveiligingsfuncties die worden geleverd bij Microsoft 365 Business Premium om uw gegevens op Pc's, telefoons en tablets te beschermen.
-ms.openlocfilehash: 5e16d4bf297d363b6f9b44ce854c857e7e5464ed
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 587d80c27f867a387c901d23f4ec05f3c5905bf6
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357313"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843483"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Functies voor beveiliging en compliance van Microsoft 365 Business Premium
 
@@ -63,9 +63,9 @@ U kunt een groot aantal beveiligingsfuncties in Microsoft 365 Business Premium b
 
 Geavanceerde functies in Microsoft 365 Business Premium zijn beschikbaar om u te helpen uw bedrijf te beschermen tegen een Cyber-Threat en gevoelige informatie te beschermen.
   
-- **[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
+- **[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
-    Met Advanced Threat Protection (ATP) beschermt u uw bedrijf tegen een verfijnde phishing-en Ransomware-aanval, zodat u medewerkers of klantgegevens kunt manipuleren. Functies zijn onder andere:
+    Microsoft Defender voor Office 365 helpt uw bedrijf te beschermen tegen een verfijnde phishing-en Ransomware-aanval, zodat medewerkers of klantengegevens kunnen binnendringen. Functies zijn onder andere:
     
   - Geavanceerde bijlage scan en AI-krachtige analyse voor het detecteren en verwijderen van schadelijke berichten.
     
@@ -104,7 +104,7 @@ Uw Microsoft 365 Business Premium-abonnement bevat functies waarmee u normen en 
     
     Met de licentie voor archivering met Exchange Online kunnen berichten eenvoudig worden gearchiveerd met continue gegevensback-up. Het bevat alle e-mailberichten van een gebruiker, inclusief verwijderde items, voor het geval ze later worden gebruikt voor ontdekking of herstel. Daarnaast kunt u een ander bewaarbeleid gebruiken om e-mail gegevens te bewaren voor beantwoordings regels, eDiscovery of om aan nalevingsvereisten te voldoen.
     
-- **[Gevoeligheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
+- **[Vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
    Microsoft 365 Business Premium omvat alle functies van [Azure Information Protection (abonnement 1](https://go.microsoft.com/fwlink/p/?linkid=871407)). Met dit abonnement kunt u tekstrisico **labels** maken waarmee u de toegang tot gevoelige informatie in e-mail en documenten kunt beheren, met besturingselementen als niet doorsturen en niet kopiëren. U kunt ook gevoelige informatie classificeren als vertrouwelijk en opgeven hoe geclassificeerde informatie buiten en binnen het bedrijf kan worden gedeeld. Bedrijfskwaliteit versleuteling is eenvoudig van toepassing op e-mail en documenten om uw informatie privé te houden. U kunt ook de clienttoepassing voor Azure Information Protection voor Office-apps installeren. Zie voor meer informatie de uitgebreide [client voor Azure Information Protection (Unified labels](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)). Voor de tekstlabels, installeert u de **AzInfoProtection_UL.exe**.
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 2d37868af5c582512b543c1e2ca859e63b190425
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 6684f2d56cb30c909cae57e7b3e6593377449f6b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430833"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842558"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -32,9 +32,9 @@ ms.locfileid: "48430833"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-De `EmailUrlInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over url's voor e-mailberichten en bijlagen die door Office 365 ATP zijn verwerkt. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De `EmailUrlInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over url's van e-mailberichten en bijlagen die door Microsoft Defender voor Office 365 zijn verwerkt. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 
 Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
 

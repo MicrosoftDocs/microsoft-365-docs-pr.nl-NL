@@ -24,12 +24,12 @@ description: Meer informatie over het aanschaffen van een invoegtoepassing om ex
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: e73a3430dbcded25a15fad19815106a72798d8e8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: cfbce7efa1c80d9e5da8390c183233a6f2a12eb7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638385"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842818"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Een invoegtoepassing kopen of bewerken
 
@@ -48,7 +48,7 @@ Voor enkele Microsoft 365 voor bedrijven-abonnementen bestaan invoegtoepassingen
 
 1. Ga in het Beheercentrum naar de pagina Services voor het kopen van **facturen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> .
 
-2. Selecteer **invoegtoepassingen**onder aan de pagina **Services aanschaffen** .
+2. Selecteer **invoegtoepassingen** onder aan de pagina **Services aanschaffen** .
 
 3. Selecteer op de pagina **Services aanschaffen** het aanvullende abonnement dat u wilt kopen.
 
@@ -234,7 +234,7 @@ Zie [invoeg toepassings licenties voor Skype voor bedrijven en Microsoft teams](
 |**Invoegtoepassing**|**Beschikbaar bij deze abonnementen**|
 |:-----|:-----|
 |Klanten-lockbox  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
-|[Office 365 online Advanced Threat Protection](https://go.microsoft.com/fwlink/p/?LinkId=691156) <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
+|[Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/p/?LinkId=691156) <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
 |[Exchange Online Archiving](https://go.microsoft.com/fwlink/p/?LinkId=691157) <br/> | Microsoft 365 Business Basic  <br/>  Microsoft 365 Business Standard  <br/>  Office 365 Enterprise E1  <br/>  Office 365 Enterprise F1  <br/> |
 |Microsoft MyAnalytics  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
 |Office 365 Geavanceerde compliance  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |

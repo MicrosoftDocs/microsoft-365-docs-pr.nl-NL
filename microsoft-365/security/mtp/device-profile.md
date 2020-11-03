@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: f6b79d3252084b298f94e01b18ebe3505f83b480
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3840a6beae3b586fc90420f7813ff6e9d3cc6c60
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196855"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843850"
 ---
 # <a name="device-profile-page"></a>De pagina apparaat Profiel
 
@@ -27,9 +27,9 @@ ms.locfileid: "48196855"
 Met de Microsoft 365-beveiligings Portal beschikt u over apparaatprofielen, zodat u snel de status en status van apparaten in uw netwerk kunt beoordelen.
 
 > [!IMPORTANT]
-> De pagina apparaat-profiel kan enigszins afwijken, afhankelijk van of het apparaat is ingeschreven in Microsoft Defender ATP, Azure ATP of beide.
+> De pagina apparaat-profiel kan enigszins afwijken, afhankelijk van of het apparaat is ingeschreven in Microsoft Defender for Endpoint, Microsoft Defender for Identity of beide.
 
-Als het apparaat is ingeschreven in Microsoft Defender ATP, kunt u ook de profielpagina van het apparaat gebruiken om enkele veelvoorkomende beveiligingstaken uit te voeren.
+Als het apparaat is ingeschreven in Microsoft Defender for Endpoint, kunt u ook de profielpagina van het apparaat gebruiken om enkele veelvoorkomende beveiligingstaken uit te voeren.
 
 ## <a name="navigating-the-device-profile-page"></a>Navigeren in de profielpagina van het apparaat
 
@@ -41,7 +41,7 @@ De zijbalk (1) geeft een overzicht van de algemene Details van het apparaat.
 
 Het gebied met de hoofdinhoud (2) bevat tabbladen waarmee u kunt schakelen om verschillende soorten informatie over het apparaat weer te geven.
 
-Als het apparaat is ingeschreven in Microsoft Defender ATP, ziet u ook een lijst met antwoord acties (3). Met antwoord acties kunt u veelvoorkomende taken uitvoeren met betrekking tot beveiliging.
+Als het apparaat is ingeschreven in Microsoft Defender voor eindpunten, ziet u ook een lijst met antwoord acties (3). Met antwoord acties kunt u veelvoorkomende taken uitvoeren met betrekking tot beveiliging.
 
 ## <a name="sidebar"></a>Protection
 
@@ -51,15 +51,15 @@ Naast het gebied met de hoofdinhoud van de profielpagina van het apparaat is de 
 
 De zijbalk bevat de volledige naam en het belichtings niveau van het apparaat. Het biedt ook enkele belangrijke basisinformatie in kleine subsecties die kunnen worden geopend of gesloten.
 
-* **Tags** : Microsoft Defender ATP, Azure ATP of aangepaste labels die zijn gekoppeld aan het apparaat. Tags van Azure ATP kunnen niet worden bewerkt.
-* **Beveiligingsgegevens** -open incidenten en actieve meldingen. Op apparaten die zijn geregistreerd in Microsoft Defender ATP worden ook belichtings niveau en risiconiveau weergegeven.
+* **Tags** : Microsoft Defender for endpoints, Microsoft Defender for Identity of aangepaste labels die zijn gekoppeld aan het apparaat. Tags van Microsoft Defender for Identity zijn niet bewerkbaar.
+* **Beveiligingsgegevens** -open incidenten en actieve meldingen. Op apparaten die zijn geregistreerd in Microsoft Defender voor eindpunten, worden ook belichtings niveau en risiconiveau weergegeven.
 
 > [!TIP]
 > Belichtings niveau is afhankelijk van het aantal beveiligingsaanbevelingen, waarbij risiconiveau wordt berekend op basis van een aantal factoren, waaronder de typen en de ernst van actieve waarschuwingen.
 
-* **Apparaatgegevens** : domein, besturingssysteem, tijdstempel van wanneer het apparaat voor het eerst werd gezien, IP-adressen, bronnen. Op apparaten die zijn geregistreerd in Microsoft Defender ATP wordt ook de status status weergegeven. In azure ATP ingeschreven apparaten wordt de naam van de SAM weergegeven en wordt een tijdstempel weergegeven voor wanneer het apparaat voor het eerst is gemaakt.
+* **Apparaatgegevens** : domein, besturingssysteem, tijdstempel van wanneer het apparaat voor het eerst werd gezien, IP-adressen, bronnen. Op apparaten die zijn geregistreerd in Microsoft Defender voor eindpunten, wordt ook de status status weergegeven. Apparaten die zijn ingeschreven in Microsoft Defender for Identity, tonen SAM-naam en een tijdstempel voor wanneer het apparaat voor het eerst is gemaakt.
 * **Netwerkactiviteit** : tijdstempels voor de eerste keer en de laatste keer dat het apparaat is gedetecteerd op het netwerk.
-* **Active Directory** [-vlaggen,](https://docs.microsoft.com/windows/security/identity-protection/user-account-control/user-account-control-overview) [spn's](https://docs.microsoft.com/windows/win32/ad/service-principal-names)en groepslidmaatschappen (*alleen voor apparaten die zijn geregistreerd in azure ATP*).
+* **Active Directory** [-vlaggen,](https://docs.microsoft.com/windows/security/identity-protection/user-account-control/user-account-control-overview) [spn's](https://docs.microsoft.com/windows/win32/ad/service-principal-names)en groepslidmaatschappen ( *alleen voor apparaten die zijn geregistreerd in Microsoft Defender for Identity* ).
 
 ## <a name="response-actions"></a>Antwoord acties
 
@@ -68,13 +68,13 @@ Antwoord acties bieden een snelle manier om bedreigingen te verdedigen en analys
 ![Afbeelding van actiebalk voor Profiel van apparaat](../../media/mtp-device-profile/hybrid-device-long-action-bar.png)
 
 > [!IMPORTANT]
-> * [Antwoord acties](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts) zijn alleen beschikbaar als het apparaat is ingeschreven in Microsoft Defender ATP.
-> * Apparaten die zijn ingeschreven in Microsoft Defender ATP, kunnen verschillende nummers van antwoord acties weergeven, op basis van het OS en het versienummer van het apparaat.
+> * [Antwoord acties](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts) zijn alleen beschikbaar als het apparaat is ingeschreven in Microsoft Defender for Endpoint.
+> * Apparaten die zijn ingeschreven in Microsoft Defender voor eindpunten, kunnen verschillende nummers van antwoord acties weergeven, op basis van het besturingssysteem van het apparaat en van het versienummer.
 
 Dit zijn de beschikbare acties op de profielpagina van het apparaat:
 
 * **Tags beheren** : Hiermee worden aangepaste tags bijgewerkt die u hebt toegepast op dit apparaat.
-* **Isoleer apparaat** : isoleert het apparaat in het netwerk van uw organisatie en houdt het verbonden met Microsoft Defender Advanced Threat Protection. U kunt ervoor kiezen Outlook, teams en Skype voor bedrijven uit te voeren wanneer het apparaat is geïsoleerd voor communicatiedoeleinden.
+* **Isoleer apparaat** : isoleert het apparaat in het netwerk van uw organisatie en houdt het verbonden met Microsoft Defender voor eindpunt. U kunt ervoor kiezen Outlook, teams en Skype voor bedrijven uit te voeren wanneer het apparaat is geïsoleerd voor communicatiedoeleinden.
 * **Onderhoudscentrum** : de status van ingediende acties weergeven. Alleen beschikbaar als er nog een actie is geselecteerd.
 * **App-uitvoering beperken** : verhindert toepassingen die niet door Microsoft worden uitgevoerd.
 * **Voer antivirus scan uit** : updates voor Windows Defender antivirus en direct een antivirus scan uitvoeren. Kies tussen snelle scan of volledige scan.
@@ -87,7 +87,7 @@ Dit zijn de beschikbare acties op de profielpagina van het apparaat:
 
 Op de tabbladen apparaat-profiel kunt u een overzicht van beveiligings Details over het apparaat en de tabellen met een lijst met waarschuwingen wisselen.
 
-Op apparaten die zijn ingeschreven in Microsoft Defender ATP worden ook tabbladen weergegeven die een tijdlijn betreffen, een lijst met beveiligingsaanbevelingen, een inventarisatie van de software, een lijst met ontdekte beveiligingslekken en ontbrekende KBs (beveiligingsupdates).
+In Microsoft Defender voor eindpunt ingeschreven apparaten worden ook tabbladen weergegeven met een tijdlijn, een lijst met beveiligingsaanbevelingen, een inventarisatie van de software, een lijst met ontdekte beveiligingslekken en ontbrekende KBs (beveiligingsupdates).
 
 ### <a name="overview-tab"></a>Tabblad Overzicht
 
@@ -97,11 +97,11 @@ Het standaardtabblad is **overzicht**. Dit biedt een kort overzicht van het bela
 
 Hier ziet u een beknopt overzicht van de actieve waarschuwingen van het apparaat en van gebruikers die momenteel zijn aangemeld.
 
-Als het apparaat is ingeschreven in Microsoft Defender ATP, wordt ook het risiconiveau van het apparaat en de beschikbare gegevens van beveiligings beoordelingen weergegeven. Met de beveiligings beoordelingen wordt het belichtings niveau van het apparaat beschreven, aanbevelingen van beveiligingsaanbevelingen en betroffen software en ontdekte beveiligingslekken.
+Als het apparaat is ingeschreven in Microsoft Defender voor eindpunten, wordt ook het risiconiveau van het apparaat en de beschikbare gegevens op beveiligings beoordelingen weergegeven. Met de beveiligings beoordelingen wordt het belichtings niveau van het apparaat beschreven, aanbevelingen van beveiligingsaanbevelingen en betroffen software en ontdekte beveiligingslekken.
 
 ### <a name="alerts-tab"></a>Tabblad waarschuwingen
 
-Het tabblad **waarschuwingen** bevat een lijst met waarschuwingen die op het apparaat zijn geactiveerd, in zowel Azure ATP als Microsoft Defender ATP.
+Het tabblad **waarschuwingen** bevat een lijst met waarschuwingen die op het apparaat zijn geactiveerd, van beide Microsoft Defender for Identity en Microsoft Defender for Endpoint.
 
 ![Afbeelding van tabblad Waarschuwingen voor apparaatprofiel](../../media/mtp-device-profile/hybrid-device-tab-alerts.png)
 
@@ -179,7 +179,7 @@ Wanneer u een item selecteert, wordt een flyout geopend dat is gekoppeld aan de 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-* [Overzicht van Microsoft Threat Protection](microsoft-threat-protection.md)
-* [Microsoft Threat Protection inschakelen](mtp-enable.md)
+* [Overzicht van Microsoft 365 Defender](microsoft-threat-protection.md)
+* [Microsoft 365 Defender inschakelen](mtp-enable.md)
 * [Entiteiten op apparaten onderzoeken met Live antwoord](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response)
 * [Geautomatiseerd onderzoek en antwoord (lucht) in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)

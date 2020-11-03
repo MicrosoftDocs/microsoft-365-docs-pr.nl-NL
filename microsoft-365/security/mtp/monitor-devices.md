@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b84ca774e1b9bd0bca51b8ee21f6a06f2fde5b4
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 92760ef14fb1192e4462bab656e22f3595f9b449
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430619"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843862"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Apparaten volgen en rapporteren in het Microsoft 365-Beveiligingscentrum
 
@@ -33,11 +33,11 @@ Zorg dat uw apparaten veilig, up-to-date en potentiële bedreigingen in het Micr
 
 ## <a name="view-device-alerts"></a>Waarschuwingen voor apparaten weergeven
 
-U ontvangt actuele meldingen over de overtredings activiteit en andere bedreigingen op uw apparaten in Microsoft Defender ATP (beschikbaar met een E5-licentie). Microsoft 365-Beveiligingscentrum controleert deze meldingen op een hoog niveau met behulp van de door u gewenste werkstroom.
+U ontvangt up-to-date meldingen over de overtredings activiteit en andere bedreigingen op uw apparaten, van Microsoft Defender voor eindpunt (beschikbaar bij een E5-licentie). Microsoft 365-Beveiligingscentrum controleert deze meldingen op een hoog niveau met behulp van de door u gewenste werkstroom.
 
 ### <a name="monitor-high-impact-alerts"></a>Waarschuwingen voor hoge impact volgen
 
-Elke Microsoft Defender ATP-waarschuwing heeft een corresponderende Ernst (hoog, normaal, laag of informatie). Dit geeft de potentiële impact op uw netwerk aan als ze niet aanwezig zijn.  
+Elke Microsoft Defender for Endpoint-waarschuwing heeft een corresponderende Ernst (hoog, normaal, laag of informatie). Dit geeft de potentiële impact op uw netwerk aan als ze niet aanwezig zijn.  
 
 U kunt de kaart voor de **geluidssignaal** van uw apparaat gebruiken om specifiekere meldingen te benadrukken en mogelijk direct antwoord te vragen. Op deze kaart kunt u meer informatie weergeven op de portal Microsoft Defender-Beveiligingscentrum.
 
@@ -45,7 +45,7 @@ U kunt de kaart voor de **geluidssignaal** van uw apparaat gebruiken om specifie
 
 ### <a name="understand-sources-of-alerts"></a>Meer informatie over de bronnen van waarschuwingen
 
-Microsoft Defender ATP maakt gebruik van gegevens uit tal van beveiligings sensies en intelligence-bronnen voor het genereren van waarschuwingen. Dit kan bijvoorbeeld de detectie informatie van Microsoft Defender antivirus en van malware van derden gebruiken. U kunt ook uw eigen aangepaste bedreigings informatie gebruiken die beschikbaar is via de API van de webservice.
+Microsoft Defender voor eindpunten profiteert van gegevens uit tal van beveiligings sensies en intelligence-bronnen om waarschuwingen te genereren. Dit kan bijvoorbeeld de detectie informatie van Microsoft Defender antivirus en van malware van derden gebruiken. U kunt ook uw eigen aangepaste bedreigings informatie gebruiken die beschikbaar is via de API van de webservice.
 
 Op de kaart met de detectie bronnen voor **device-meldingen** ziet u de distributie van waarschuwingen per bron. Activiteiten bijhouden met betrekking tot bepaalde bronnen, met name de aangepaste bronnen. U kunt ook de kaart gebruiken om te focussen op meldingen die afkomstig zijn van sensoren die niet zijn geconfigureerd om schadelijke activiteiten of onderdelen automatisch te blokkeren.
 
@@ -55,7 +55,7 @@ Op deze kaart kunt u meer informatie weergeven op de portal Microsoft Defender-B
 
 ### <a name="understand-the-types-of-threats-that-trigger-alerts"></a>Meer informatie over de typen bedreigingen die waarschuwingen activeren
 
-In Microsoft Defender ATP wordt elke waarschuwing in een categorie gesorteerd in een categorie voor een bepaalde fase in de hack-ketting of het type risico onderdeel. Een gedetecteerde bedreiging is bijvoorbeeld mogelijk gecategoriseerd als ' zijdelings verplaatsings actie ' om aan te geven dat er andere apparaten in het netwerk konden worden bereikt. De activiteit is waarschijnlijk opgetreden nadat een hacker een initiële foothold heeft verkregen. Wanneer deze worden gedetecteerd, kan een onderdeel van de bedreiging algemeen als malware of specifiek risico type worden geclassificeerd. Specifieke voorbeelden van Ransomware, referentie diefstal of andere typen kwaadaardige en ongewenste software.
+Microsoft Defender voor eindpunt Hiermee wordt elke waarschuwing in een categorie gesorteerd voor een bepaalde fase van de hack-ketting of het type risico onderdeel. Een gedetecteerde bedreiging is bijvoorbeeld mogelijk gecategoriseerd als ' zijdelings verplaatsings actie ' om aan te geven dat er andere apparaten in het netwerk konden worden bereikt. De activiteit is waarschijnlijk opgetreden nadat een hacker een initiële foothold heeft verkregen. Wanneer deze worden gedetecteerd, kan een onderdeel van de bedreiging algemeen als malware of specifiek risico type worden geclassificeerd. Specifieke voorbeelden van Ransomware, referentie diefstal of andere typen kwaadaardige en ongewenste software.
 
 De kaart **bedreigings categorieën voor apparaten** toont de distributie van waarschuwingen in deze categorieën. Met deze informatie kunt u bedreigings activiteiten identificeren, zoals diefstal van referenties, die meestal hoger zijn dan de pogingen van sociale engineering. U kunt ook controleren op mogelijk destructieve bedreigingen, zoals Ransomware.
 
@@ -69,7 +69,7 @@ De **melding status** kaart van het apparaat geeft het aantal waarschuwingen aan
 
 ### <a name="monitor-classification-of-resolved-alerts"></a>De classificatie van opgeloste waarschuwingen controleren
 
-Wanneer u een Microsoft Defender ATP-waarschuwing verhelpt, kunnen uw beveiligingspersoneel opgeven of een waarschuwing is geverifieerd als:
+Wanneer u een Microsoft Defender voor eindpunt-waarschuwing verhelpt, kunnen uw beveiligingspersoneel opgeven of een waarschuwing is geverifieerd als:
 
 * Een echte waarschuwing waarin de feitelijke activiteiten van de overtreding of de bedreigings onderdelen worden aangegeven
 * Een onjuiste waarschuwing met een onjuiste detectie van normaal activiteiten
@@ -86,12 +86,12 @@ Als u een melding wilt ontvangen, ongeacht of een waarschuwing waar of onwaar is
 
 De kaart voor de **waarschuwings analyse** van uw apparaat toont de bepaling die voor elke melding wordt weergegeven.
 
-* **Apt**: geavanceerde permanente bedreiging, waarmee wordt aangegeven dat de gedetecteerde activiteit of de bedreiging onderdeel is onderdeel van een verfijnde geschaade schending, ontwikkeld voor het verkrijgen van een foothold in de betreffende netwerk  
-* **Malware**: schadelijk bestand of programmacode
-* **Beveiligingspersoneel**: normale activiteit uitgevoerd door beveiligingspersoneel
-* **Beveiliging testen**: activiteit of onderdelen die zijn ontworpen om feitelijke bedreigingen te simuleren en om meldingen te activeren en waarschuwingen te genereren
-* **Ongewenste software**: apps en andere software die niet als schadelijk worden beschouwd, maar op een andere wijze beleidsregels of acceptabele gebruiks normen schenden
-* **Andere**bepalingen die niet onder de geleverde soorten vallen.
+* **Apt** : geavanceerde permanente bedreiging, waarmee wordt aangegeven dat de gedetecteerde activiteit of de bedreiging onderdeel is onderdeel van een verfijnde geschaade schending, ontwikkeld voor het verkrijgen van een foothold in de betreffende netwerk  
+* **Malware** : schadelijk bestand of programmacode
+* **Beveiligingspersoneel** : normale activiteit uitgevoerd door beveiligingspersoneel
+* **Beveiliging testen** : activiteit of onderdelen die zijn ontworpen om feitelijke bedreigingen te simuleren en om meldingen te activeren en waarschuwingen te genereren
+* **Ongewenste software** : apps en andere software die niet als schadelijk worden beschouwd, maar op een andere wijze beleidsregels of acceptabele gebruiks normen schenden
+* **Andere** bepalingen die niet onder de geleverde soorten vallen.
 
 Vanaf dit kaartje kunt u meer informatie weergeven in Microsoft Defender-Beveiligingscentrum.
 
@@ -162,9 +162,9 @@ De kaart **reductie regels** van een aanval biedt een overzicht van de implement
 
 De bovenste balk van de kaart toont het totale aantal apparaten dat zich in de volgende implementatie modi bevindt:
 
-* **Blokmodus**: apparaten met minimaal één regel geconfigureerd om gedetecteerde activiteiten blokkeren
-* **Controlemodus**: apparaten zonder regels die zijn ingesteld voor het blokkeren van gedetecteerde activiteiten, maar er is minimaal één regel ingesteld om controle gedetecteerde activiteiten te controleren  
-* **Uitgeschakeld**: apparaten met alle ASR-regels uitgeschakeld
+* **Blokmodus** : apparaten met minimaal één regel geconfigureerd om gedetecteerde activiteiten blokkeren
+* **Controlemodus** : apparaten zonder regels die zijn ingesteld voor het blokkeren van gedetecteerde activiteiten, maar er is minimaal één regel ingesteld om controle gedetecteerde activiteiten te controleren  
+* **Uitgeschakeld** : apparaten met alle ASR-regels uitgeschakeld
 
 In het onderste gedeelte van dit kaartje worden instellingen weergegeven op regel op uw apparaten. Met elke balk wordt het aantal apparaten aangegeven dat is ingesteld op blokkeren, controleren en controleren of de regel volledig is uitgeschakeld.
 
@@ -176,10 +176,10 @@ Als u gedetailleerde informatie over de detectie van de ASR-regel wilt weergeven
 
 De grafiek boven aan de pagina toont detecties van detectie van tijds stapels die zijn geblokkeerd of gecontroleerd. De tabel onderaan bevat de meest recente detecties. Gebruik de volgende informatie op de tabel om inzicht te krijgen in de aard van de detecties:
 
-* **Vastgesteld bestand**: het bestand, meestal een script of een document, waarvan de inhoud de inhoud van de verdachte aanval heeft geactiveerd.
-* **Regel**: naam waarmee de aanvals activiteiten worden beschreven die de regel is bedoeld om te worden onderschept. Meer informatie over bestaande ASR-regels
-* **Bron-app**: de toepassing die inhoud heeft geladen of uitgevoerd met de activering van de verdachte aanvals activiteit. Het kan een legitieme toepassing zijn, zoals een webbrowser, een Office-toepassing of een systeem hulpmiddel zoals PowerShell
-* **Uitgever**: de leverancier die de bron-app heeft vrijgegeven
+* **Vastgesteld bestand** : het bestand, meestal een script of een document, waarvan de inhoud de inhoud van de verdachte aanval heeft geactiveerd.
+* **Regel** : naam waarmee de aanvals activiteiten worden beschreven die de regel is bedoeld om te worden onderschept. Meer informatie over bestaande ASR-regels
+* **Bron-app** : de toepassing die inhoud heeft geladen of uitgevoerd met de activering van de verdachte aanvals activiteit. Het kan een legitieme toepassing zijn, zoals een webbrowser, een Office-toepassing of een systeem hulpmiddel zoals PowerShell
+* **Uitgever** : de leverancier die de bron-app heeft vrijgegeven
 
 ### <a name="review-device-asr-rule-settings"></a>Instellingen voor ASR-regel voor apparaat controleren
 
@@ -207,7 +207,7 @@ De tabel bevat een overzicht van alle bestandsnamen die door uw aanvals regels v
 
 Als u een lijst met de geselecteerde bestanden met hun volledige paden voor uitsluiting wilt weergeven, selecteert u **uitsluitings paden aanvragen**.
 
-Logboeken voor de inlog regels voor ASR-regels die **van het Windows Local Security Authority Subsystem (lsass.exe) worden gestolen** de bron-app **lsass.exe**vastleggen. Het is een normaal systeembestand, maar vastgelegd als het gevonden bestand. De gegenereerde lijst met uitgesloten paden bevat daarom het bestand. Als u het bestand wilt uitsluiten dat deze regel heeft geactiveerd in plaats van **lsass.exe**, gebruikt u het pad naar de bron-app in plaats van het gevonden bestand.
+Logboeken voor de inlog regels voor ASR-regels die **van het Windows Local Security Authority Subsystem (lsass.exe) worden gestolen** de bron-app **lsass.exe** vastleggen. Het is een normaal systeembestand, maar vastgelegd als het gevonden bestand. De gegenereerde lijst met uitgesloten paden bevat daarom het bestand. Als u het bestand wilt uitsluiten dat deze regel heeft geactiveerd in plaats van **lsass.exe** , gebruikt u het pad naar de bron-app in plaats van het gevonden bestand.
 
 U kunt de bron-app vinden door de volgende [geavanceerde zoekopdracht](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) uit te voeren voor deze specifieke regel (aangeduid met regel-id 9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2):
 

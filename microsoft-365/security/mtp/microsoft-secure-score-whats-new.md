@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: a7d79684a085072e1af113bc0466ab26574ab904
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: d63994778762968962b2a32f026dbb81af39b664
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779232"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843814"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
@@ -35,7 +35,7 @@ Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Po
 
 ## <a name="october-2020"></a>Oktober 2020
 
-### <a name="remove-improvement-action-related-to-microsoft-defender-advanced-threat-protection"></a>Verbeterings actie verwijderen met betrekking tot geavanceerde bedreigings bescherming van Microsoft Defender
+### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Actie voor verbetering van Microsoft Defender voor eindpunt verwijderen
 
 - Microsoft Windows Store voor de Windows Store-app voor Windows Store voor de spellingcontrole instellen op waarschuwen
 
@@ -54,8 +54,8 @@ In tijd wordt de identiteitsbeveiliging Score en de Graph API het nieuwe score m
 ## <a name="updated-improvement-actions"></a>Gewijzigde acties voor verbetering
 
 - Azure Active Directory-verbeterings acties toegevoegd
-- Actie voor verbetering van Azure Advanced Threat Protection toegevoegd
-- Ondersteuning voor de Microsoft Defender ATP- [& bedreiging](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) beveiligingsaanbevelingen van beveiligingsaanbevelingen
+- Microsoft Defender heeft toegevoegd voor Identity-verbeterings acties
+- Ondersteuning voor Microsoft Defender voor de [bedreiging &](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) beveiligingsaanbevelingen
     - Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu beschikbaar
 
 ## <a name="updated-interface-and-functionality"></a>Bijgewerkte interface en functionaliteit

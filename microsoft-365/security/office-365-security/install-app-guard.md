@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Geniet van de nieuwste isolatie op basis van hardware. Voorkomen dat huidige en opkomende aanvallen, zoals misbruik of kwaadaardige koppelingen, geen productiviteit voor werknemers en beveiliging van de werknemers kunnen storen.
-ms.openlocfilehash: 3a20649338bbcd58ad86f70142c2bd9f1c2fd948
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3b31ef639667c7ef761d1d5fa0295f5d767e0c48
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197571"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843004"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard voor Office (openbare preview) voor beheerders
 
@@ -40,15 +40,15 @@ Microsoft Defender Application Guard voor Office (Application Guard voor Office)
 
 ### <a name="minimum-hardware-requirements"></a>Minimale hardwarevereisten
 
-* **CPU**: 64-bits, vier kernen (fysiek of virtueel), virtualisatie-extensies (Intel VT-x of AMD-V), Kern i5-equivalent of hoger aanbevolen
-* **Fysiek geheugen**: 8 GB RAM
-* **Harde schijf**: 10 GB beschikbare ruimte op het systeemstation (SSD aanbevolen)
+* **CPU** : 64-bits, vier kernen (fysiek of virtueel), virtualisatie-extensies (Intel VT-x of AMD-V), Kern i5-equivalent of hoger aanbevolen
+* **Fysiek geheugen** : 8 GB RAM
+* **Harde schijf** : 10 GB beschikbare ruimte op het systeemstation (SSD aanbevolen)
 
 ### <a name="minimum-software-requirements"></a>Minimale softwarevereisten
 
-* **Windows 10**: Windows 10 Enterprise Edition, client Build versie 2004 (20H1) Build 19041
-* **Office**: Office Beta-kanaal Build versie 2008 16.0.13212 of hoger
-* **Update pakket**: cumulatieve maandelijkse beveiligingsupdates voor Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) 
+* **Windows 10** : Windows 10 Enterprise Edition, client Build versie 2004 (20H1) Build 19041
+* **Office** : Office Beta-kanaal Build versie 2008 16.0.13212 of hoger
+* **Update pakket** : cumulatieve maandelijkse beveiligingsupdates voor Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756) 
 
 Voor gedetailleerde systeemvereisten raadpleegt u [systeemvereisten voor Microsoft Defender Application Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard). Zie aan de slag met [Office Insider-builds](https://insider.office.com/business/deploy)voor meer informatie over versies van Office Insider preview.
 
@@ -92,7 +92,7 @@ In deze stap wordt gecontroleerd of de gegevens die nodig zijn voor het identifi
 
     ![Menu Start](../../media/ag05-diagnostic.png)
 
-2.  Selecteer **Privacy**in **Windows-instellingen**.
+2.  Selecteer **Privacy** in **Windows-instellingen**.
 
     ![Menu instellingen van Windows](../../media/ag06-diagnostic.png)
 
@@ -160,9 +160,9 @@ Als u problemen ondervindt bij het starten van Application Guard voor Office, wo
 
 4.  Voer in het vak uitgebreide beschrijving **uitleggen** een gedetailleerde beschrijving in van het probleem dat zich heeft voorgedaan, en selecteer vervolgens **volgende**.
 
-5.  Selecteer de bel naast probleem. Zorg ervoor dat de geselecteerde categorie **beveiliging en privacy \> Microsoft Defender Application Guard – Office**is en selecteer **volgende**.
+5.  Selecteer de bel naast probleem. Zorg ervoor dat de geselecteerde categorie **beveiliging en privacy \> Microsoft Defender Application Guard – Office** is en selecteer **volgende**.
 
-6.  Selecteer **nieuwe feedback**en vervolgens **volgende**.
+6.  Selecteer **nieuwe feedback** en vervolgens **volgende**.
 
 7.  Tracering verzamelen over het probleem:
 
@@ -188,13 +188,13 @@ Als u problemen ondervindt bij het starten van Application Guard voor Office, wo
 
 U kunt ook binnen Office feedback verzenden als het probleem optreedt wanneer Office-documenten worden geopend in Application Guard. Ga naar de [Office Insider](https://insider.office.com/handbook) -handleiding voor het verzenden van feedback.
 
-## <a name="integration-with-microsoft-defender-atp-and-office-atp"></a>Integratie met Microsoft Defender ATP en Office ATP
+## <a name="integration-with-microsoft-defender-for-endpoint-and-microsoft-defender-for-office-365"></a>Integratie met Microsoft Defender voor eindpunten en Microsoft Defender voor Office 365
 
-Application Guard voor Office is geïntegreerd met Microsoft Defender Advance Threat Protection (ATP) voor het bewaken en signalering van schadelijke activiteiten in de geïsoleerde omgeving.
+Application Guard voor Office is geïntegreerd met Microsoft Defender voor eindpunten, zodat u kunt controleren wat er gebeurt met schadelijke activiteiten in de geïsoleerde omgeving.
 
-Microsoft Defender ATP is een beveiligings platform dat is ontworpen om Enterprise-netwerken te helpen voorkomen, het detecteren, onderzoeken en beantwoorden van geavanceerde bedreigingen. Ga naar de pagina [Microsoft Defender Advanced Threat Protection](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) voor meer informatie over dit platform. Meer informatie over onboarding-apparaten naar dit platform op [interne apparaten in de Microsoft Defender ATP-service](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure).
+Microsoft Defender voor eindpunt is een beveiligings platform dat is ontworpen om Enterprise-netwerken te helpen voorkomen, het detecteren, onderzoeken en beantwoorden van geavanceerde bedreigingen. Ga naar de pagina [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) voor meer informatie over dit platform. Meer informatie over het onboarding van apparaten naar dit platform op [interne apparaten met een Microsoft-service voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure).
 
-U kunt ook Office 365 ATP configureren voor gebruik met Microsoft Defender ATP. Zie [Office 365 ATP integreren met Microsoft Defender ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/integrate-office-365-ti-with-wdatp?view=o365-worldwide).
+U kunt Microsoft Defender voor Office 365 ook configureren voor gebruik van Defender voor eindpunten. Zie [Microsoft Defender for Office 365 integreren met Microsoft Defender voor eindpunt](https://docs.microsoft.com/microsoft-365/security/office-365-security/integrate-office-365-ti-with-wdatp?view=o365-worldwide).
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 

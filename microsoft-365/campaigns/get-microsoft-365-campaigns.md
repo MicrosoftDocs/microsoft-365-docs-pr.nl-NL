@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Neem Microsoft 365 voor uw campagnes, zodat u uw campagne kunt beschermen tegen Cyber securitye bedreigingen voor e-mail, gegevens en communicatie.
-ms.openlocfilehash: fcb28ba7ca52ee3498afd12cf93157fa90d0d80b
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: 6fe67f8e5723a272643c7980bf1744f80c612188
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131974"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843232"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>Microsoft 365 voor campagnes kopen
 
@@ -43,11 +43,11 @@ Als u niet in aanmerking komt voor speciale prijzen, is Microsoft 365 Business P
 
 ## <a name="what-does-microsoft-365-for-campaigns-include"></a>Waar bevat Microsoft 365 voor campagnes?
 Deze configuratie van Microsoft 365 Business Premium bevat eenvoudige besturingselementen waarmee u en uw medewerkers veilig kunnen samenwerken: 
-- **Gebruikersidentiteit beschermen**: Zorg ervoor dat gebruikers zich afmelden dat ze zich bevinden als ze zich aanmelden om e-mail te verzenden of om bestanden (meervoudige verificatie) te openen.
-- **Vertrouwelijke informatie beschermen**: gevoelige informatie beschermen voor het bewaken van informatie die buiten uw organisatie wordt gebruikt (preventie van gegevensverlies).
-- **Mobiele apparaten beschermen**: Beveilig de gegevens op mobiele apparaten (beveiligingsbeleid voor mobiele apps).
-- **Beschermen tegen schadelijke inhoud**: toegang tot schadelijke inhoud voorkomen door e-mailbijlagen te scannen (Advanced Threat Protection).
-- **Wachtwoorden beschermen**: Stel wachtwoorden zodanig in dat deze nooit verloopt en dat er geen werk wordt ondergebracht (wachtwoordbeleid). 
+- **Gebruikersidentiteit beschermen** : Zorg ervoor dat gebruikers zich afmelden dat ze zich bevinden als ze zich aanmelden om e-mail te verzenden of om bestanden (meervoudige verificatie) te openen.
+- **Vertrouwelijke informatie beschermen** : gevoelige informatie beschermen voor het bewaken van informatie die buiten uw organisatie wordt gebruikt (preventie van gegevensverlies).
+- **Mobiele apparaten beschermen** : Beveilig de gegevens op mobiele apparaten (beveiligingsbeleid voor mobiele apps).
+- **Beschermen tegen kwaadaardige inhoud** : toegang tot schadelijke inhoud voorkomen door e-mailbijlagen (Defender voor Office 365) te scannen.
+- **Wachtwoorden beschermen** : Stel wachtwoorden zodanig in dat deze nooit verloopt en dat er geen werk wordt ondergebracht (wachtwoordbeleid). 
 
 
 ## <a name="what-does-it-cost-who-needs-it-and-what-is-the-commitment"></a>Wat kost het, wie moet dit doen en wat is de toezegging?

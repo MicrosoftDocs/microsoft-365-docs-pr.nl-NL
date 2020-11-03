@@ -14,12 +14,12 @@ ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe Exchange Online Protection (EOP) u kan helpen uw on-premises e-mail organisatie te beschermen in zelfstandige en hybride omgevingen.
-ms.openlocfilehash: f99954ec280eeb8c84e6183cea9ad0b9fee63507
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a8b30a475e6865916c74f08c4d927662f658a096
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202901"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842402"
 ---
 # <a name="exchange-online-protection-overview"></a>Overzicht Exchange Online Protection
 
@@ -28,9 +28,9 @@ ms.locfileid: "48202901"
 
 Exchange Online Protection (EOP) is de service voor filteren op de Cloud waarmee u uw organisatie kunt beschermen tegen spam en malware. EOP is opgenomen in alle Microsoft 365-organisaties met postvakken van Exchange Online. EOP is echter ook beschikbaar in de volgende on-premises scenario's:
 
-- **In een standalone scenario**: EOP biedt cloudbeveiliging voor de on-premises Exchange-organisatie of voor andere on-premises SMTP-e-mail oplossingen.
+- **In een standalone scenario** : EOP biedt cloudbeveiliging voor de on-premises Exchange-organisatie of voor andere on-premises SMTP-e-mail oplossingen.
 
-- **In een hybride implementatie**: EOP kan worden geconfigureerd om uw e-mail omgeving te beschermen en e-mail routering te bepalen wanneer u een combinatie van on-premises en Cloud postvakken hebt.
+- **In een hybride implementatie** : EOP kan worden geconfigureerd om uw e-mail omgeving te beschermen en e-mail routering te bepalen wanneer u een combinatie van on-premises en Cloud postvakken hebt.
 
 In deze scenario's kan EOP het beheer van uw e-mail omgeving vereenvoudigen en veel van de lasten van het onderhoud van on-premises hardware en software.
 
@@ -58,11 +58,11 @@ Zie voor meer informatie de [volgorde en prioriteit van e-mail beveiliging](how-
 
 Dit zijn de beschikbare EOP-abonnementen:
 
-- **Zelfstandige**versie van EOP: u registreert zich in EOP om uw on-premises e-mail organisatie te beschermen.
+- **Zelfstandige** versie van EOP: u registreert zich in EOP om uw on-premises e-mail organisatie te beschermen.
 
-- **EOP-functies in Exchange Online**: elk abonnement met Exchange Online (standalone of als onderdeel van microsoft 365) maakt gebruik van EOP om uw postvakken van Exchange Online te beveiligen.
+- **EOP-functies in Exchange Online** : elk abonnement met Exchange Online (standalone of als onderdeel van microsoft 365) maakt gebruik van EOP om uw postvakken van Exchange Online te beveiligen.
 
-- **Exchange Enterprise CAL met Services**: als u een on-premises Exchange-organisatie hebt waarop u extra Exchange Enterprise-licentieverlening met Services-licenties hebt aangeschaft, maakt EOP deel uit van de opgenomen services.
+- **Exchange Enterprise CAL met Services** : als u een on-premises Exchange-organisatie hebt waarop u extra Exchange Enterprise-licentieverlening met Services-licenties hebt aangeschaft, maakt EOP deel uit van de opgenomen services.
 
 Zie de beschrijving van de [Exchange Online Protection Service](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)voor informatie over vereisten, belangrijke grenzen en de beschikbaarheid van functies in alle EOP-abonnementen.
 
@@ -80,7 +80,7 @@ EOP voert werklastverdeling uit tussen datacenters, maar alleen binnen een regio
 
 - In Europa, het Midden-Oosten en Afrika (EMEA), vindt u alle Exchange Online-postvakken in EMEA-datacenters en worden alle berichten gerouteerd via de EMEA-datacenters voor EOP filteren.
 
-- In Azië en Stille Oceaan (APAC) bevinden zich alle Exchange Online-postvakken in APAC-datacenters en worden berichten momenteel gerouteerd via APAC-datacenters voor EOP filteren.
+- In Asia-Pacific (APAC) bevinden alle Exchange Online-postvakken zich in APAC-datacenters en worden berichten momenteel gerouteerd via APAC-datacenters voor EOP filteren.
 
 - In het continent voor de services worden de services op de volgende locaties gedistribueerd:
 
@@ -96,7 +96,7 @@ EOP voert werklastverdeling uit tussen datacenters, maar alleen binnen een regio
 
 De Help-inhoud voor EOP-beheerders bestaat uit de volgende categorieën op het hoogste niveau:
 
-- [CONFIGUREER EOP, dag 1 voor Office 365 ATP-beheerders](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide): Configureer EOP Protection en Detection Programma's op de kern van Office 365 Advanced Threat Protection.
+- [CONFIGUREER EOP, dag 1, voor Microsoft Defender for Office 365-beheerders](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide): Configureer EOP Protection en Detection Programma's met de kern van Microsoft Defender for Office 365.
 
 - [Functies in EOP](eop-features.md): bevat een lijst met functies die beschikbaar zijn in EOP.
 

@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lees meer over Microsoft 365 Business Premium, een abonnementsservice met Office-productiviteitsapps en geavanceerde bescherming voor uw bedrijf tegen cyberdreigingen.
-ms.openlocfilehash: 50b1fec21593bd22577e07e000cedb89dfd90f66
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: e67ae036bf3ce7811f19c8745838bb51dde073ea
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138223"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842175"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Overzicht van Microsoft 365 Business Premium
 
@@ -71,11 +71,11 @@ Microsoft 365 Business Premium helpt in elk van deze gevallen bij het beschermen
 
 Microsoft 365 Business Premium biedt **bescherming tegen bedreigingen** door:
 
-- Het scannen van links in e-mails en documenten in realtime om onveilige websites te blokkeren (ATP veilige koppelingen).
+- In realtime scan koppelingen in e-mailberichten en documenten om onveilige websites te blokkeren (veilige koppelingen).
 
-- Het uitvoeren van een geavanceerde analyse van e-mailbijlagen in een sandbox-omgeving voor het detecteren van nieuw ontwikkelde malware (ATP-veilige bijlagen). 
+- Het uitvoeren van een geavanceerde analyse van e-mailbijlagen in een sandbox-omgeving voor het detecteren van nieuwe malware (veilige bijlagen). 
 
-- Het inschakelen van een anti-phishing-beleid dat gebruikmaakt van machinelearning-modellen en imitatiedetectie om bescherming te bieden tegen geavanceerde aanvallen (ATP-anti-phishing). 
+- Een anti-phishings beleid in te schakelen voor het gebruik van machine leer modellen en imitatie detectie om beveiliging te bieden tegen geavanceerde aanvallen (anti phishing in Defender voor Office 365 Intelligence). 
 
 - Het instellen van geavanceerde beleidsregels voor het uitschakelen van de toegang tot niet-vertrouwde locaties of het omzeilen van meervoudige factorverificatie van vertrouwde locaties zoals uw bedrijfsnetwerk (Azure MFA met vertrouwde IPs en voorwaardelijke toegang). 
 

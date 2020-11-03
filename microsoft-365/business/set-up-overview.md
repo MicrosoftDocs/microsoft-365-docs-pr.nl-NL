@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Meer informatie over de installatiestappen voor Microsoft 365 Business Premium, van een abonnement, het toevoegen van een domein en gebruikers, het instellen van beveiligingsbeleid en meer.
-ms.openlocfilehash: 8ec01a58d1a15d5c4aa1cef8b81518b474630d8b
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: 46370166a9d5e8c9308b8947513e631c159f0b86
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841129"
+ms.locfileid: "48842125"
 ---
 # <a name="overview-of-setup"></a>Overzicht van instelling
 
@@ -48,7 +48,7 @@ U kunt de meeste installatiestappen uitvoeren in de begeleide installatie, maar 
 
    - **[Uw domein toevoegen](set-up.md#add-your-domain-to-personalize-sign-in)** (als u uw domein hebt gekocht tijdens de [registratie](sign-up.md), is deze stap al gereed.)
 
-   - **Gebruikers toevoegen** . U kunt gebruikers op de volgende drie manieren toevoegen:
+   - **Gebruikers toevoegen**. U kunt gebruikers op de volgende drie manieren toevoegen:
         - In de [begeleide setup](set-up.md#add-users-in-the-wizard).
         - Gebruik adreslijstsynchronisatie om [gebruikers toe te voegen met behulp van Azure AD Connect](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) als u een on-premises Active Directory hebt.
         - U kunt ook [gebruikers later toevoegen](add-users-m365b.md) in het Beheercentrum.
@@ -61,7 +61,7 @@ U kunt de meeste installatiestappen uitvoeren in de begeleide installatie, maar 
   Naast de beveiligingsinstellingen van de wizard Setup kunt u de beveiliging verhogen door de volgende instellingen toe te voegen:
 
 - **Beveiliging tegen ongewenste e-mail**
-- **ATP anti-phishing**
+- **Anti phishing in Defender voor Office 365**
 - **Exchange Online Archiving**
 - **Azure-informatiebescherming (Plan1** )
 

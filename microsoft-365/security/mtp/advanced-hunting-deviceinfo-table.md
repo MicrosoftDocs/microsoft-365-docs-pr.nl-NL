@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 966f329d1d3ce374cc3eed9eccb6c337071f4ee1
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1bb48b4332bc9d60de15bb513f04a503d6a6913b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430077"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842712"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430077"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 
@@ -46,7 +46,7 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
 | `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
 | `ClientVersion` | tekenreeks | Versie van de eindpunt-agent of-sensor die op de computer wordt uitgevoerd |
-| `PublicIP` | tekenreeks | Openbaar IP-adres dat wordt gebruikt door de gehoste computer om verbinding te maken met de Microsoft Defender ATP-service. Dit kan het IP-adres van de computer, een NAT-apparaat of een proxy zijn |
+| `PublicIP` | tekenreeks | Openbaar IP-adres dat wordt gebruikt door de gehoste computer om verbinding te maken met de Microsoft Defender voor eindpunt-service. Dit kan het IP-adres van de computer, een NAT-apparaat of een proxy zijn |
 | `OSArchitecture` | tekenreeks | Architectuur van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties in dezelfde familie, zoals Windows 10 en Windows 7 |
 | `OSBuild` | tekenreeks | Build-versie van het besturingssysteem dat op de computer wordt uitgevoerd |

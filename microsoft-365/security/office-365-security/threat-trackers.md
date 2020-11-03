@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Lees meer over bedreigings trajecten, waaronder nieuwe opspoorers, om uw organisatie op de hoogte te houden van beveiligingskwesties.
-ms.openlocfilehash: a810dca8dd556d91196d48f387c799bbf89ef869
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: df544da7bfc5abebd45b0861c29f9e49632cdcd8
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446487"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842318"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Bedreigings tracks-nieuw en opmerkelijk
 
@@ -32,7 +32,7 @@ ms.locfileid: "48446487"
 Met behulp van [Office 365 Threat onderzoek en antwoord](office-365-ti.md) mogelijkheden kan het beveiligingsteam van uw organisatie ontdekken en actie ondernemen tegen Cyber securitye bedreigingen. Office 365 Threat onderzoek en antwoord mogelijkheden zijn functies voor de bedreigings functie, waaronder vertoonder nummers. Lees dit artikel voor een overzicht van de nieuwe functies en volgende stappen. 
 
 > [!IMPORTANT]
-> Office 365 Threat Intelligence is nu Office 365 Advanced Threat Protection abonnement 2, met extra mogelijkheden voor beveiliging tegen bedreigingen. Zie voor meer informatie [office 365 Advanced Threat Protection-abonnementen en-prijzen](https://products.office.com/exchange/advance-threat-protection) en de beschrijving van de [Office 365 Advanced Threat Protection-Service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+> Office 365 Threat Intelligence is nu Microsoft Defender for Office 365-abonnement 2, samen met extra mogelijkheden voor beveiliging tegen bedreigingen. Zie [Microsoft Defender for office 365-abonnementen en-prijzen](https://products.office.com/exchange/advance-threat-protection) en de [Microsoft defender for Office 365 service-beschrijving](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie.
   
 ## <a name="what-are-threat-trackers"></a>Wat zijn bedreigings tracks?
 
@@ -44,9 +44,9 @@ Voor de meeste tracerings pagina's worden trend nummers weergegeven die regelmat
   
 ![Voorbeeld van een campagne-informatie in Verkenner](../../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   
-Voor de meeste fantastische functies die u ontvangt met [Office 365 Advanced Threat Protection-abonnement 2](office-365-ti.md). Bedreigings tracks bestaan uit [Noteworth trackers](#noteworthy-trackers), [trends](#trending-trackers), [bijgehouden query's](#tracked-queries)en [opgeslagen query's](#saved-queries).
+Voor de meeste fantastische functies die u ontvangt met [Microsoft Defender voor Office 365, abonnement 2](office-365-ti.md). Bedreigings tracks bestaan uit [Noteworth trackers](#noteworthy-trackers), [trends](#trending-trackers), [bijgehouden query's](#tracked-queries)en [opgeslagen query's](#saved-queries).
   
-Als u uw bedreigings overzichten voor uw organisatie wilt weergeven en gebruiken, gaat u naar het Security &amp; compliance Center ( [https://protection.office.com](https://protection.office.com) ) en kiest u **Threat management** \> **bedreigings**beheer.
+Als u uw bedreigings overzichten voor uw organisatie wilt weergeven en gebruiken, gaat u naar het Security &amp; compliance Center ( [https://protection.office.com](https://protection.office.com) ) en kiest u **Threat management** \> **bedreigings** beheer.
   
 > [!NOTE]
 > Als u bedreigings tracks wilt gebruiken, moet u een globale beheerder, beveiligingsbeheerder of beveiligings lezer zijn. Zie [machtigingen in het beveiligings &amp; conformiteitscentrum](permissions-in-the-security-and-compliance-center.md). 
@@ -87,13 +87,13 @@ En vergeet niet dat u ons feedback kunt geven op deze of andere beveiligingsfunc
   
 ![Beveiligings &amp; Conformiteitscentrum](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
   
-## <a name="trackers-and-office-365-advanced-threat-protection"></a>Tracerers en Office 365 Advanced Threat Protection
+## <a name="trackers-and-microsoft-defender-for-office-365"></a>Spoort en Microsoft Defender voor Office 365
 
-Met onze Inaugural bedachte bedreiging, markeren we geavanceerde malware-bedreigingen die door [veilige bijlagen](atp-safe-attachments.md)zijn gedetecteerd. Als u een Office 365 Enterprise E5-klant bent en u niet werkt met [office 365 Advanced Threat Protection](office-365-atp.md) (ATP), moet u deze in uw abonnement opnemen. ATP biedt zelfs een waarde als u andere beveiligingshulpprogramma's die de e-mail stroom filteren met uw Office 365-Services. Functies met antispam en [veilige verbindingen](atp-safe-links.md) werken echter het best wanneer uw belangrijke e-mail beveiligingsoplossing via Office 365 wordt gebruikt.
+Met onze Inaugural bedachte bedreiging, markeren we geavanceerde malware-bedreigingen die door [veilige bijlagen](atp-safe-attachments.md)zijn gedetecteerd. Als u een Office 365 Enterprise E5-klant bent en u niet [Microsoft Defender voor Office 365](office-365-atp.md)gebruikt, is het raadzaam dat u de naam van uw abonnement hebt. Defender voor Office 365 biedt zelfs een waarde als u andere beveiligingshulpprogramma's die de e-mail stroom filteren met uw Office 365-Services. Functies met antispam en [veilige verbindingen](atp-safe-links.md) werken echter het best wanneer uw belangrijke e-mail beveiligingsoplossing via Office 365 wordt gebruikt.
   
-![ATP in het beveiligings &amp; Conformiteitscentrum](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
+![Microsoft Defender voor Office 365 in het beveiligings &amp; Conformiteitscentrum](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
   
-Met de bedreiging van de hedendaagse riddled wereld, waarop alleen traditionele anti-malware scans worden uitgevoerd, is u niet goed te beschermen tegen aanvallen. Aan de hand van de meer geavanceerde hackers kunnen veelgebruikte hulpprogramma's worden gebruikt voor het maken van nieuwe, verduidelijkende en vertraagde aanvallen die niet worden herkend door traditionele anti malware op basis van een handtekening. De functie voor veilige bijlagen maakt een e-mailbijlage en zet deze in een virtuele omgeving af om te bepalen of deze veilig of kwaad is. Dit detonatie proces opent elk bestand in een omgeving met een virtuele computer en controleert wat er gebeurt nadat het bestand is geopend. Ongeacht of u een PDF-bestand of een gecomprimeerd bestand, of een Office-document, kunt u kwaadaardige code verbergen in een bestand, zodat u deze alleen kunt activeren als het slachtoffer de persoon opent op hun computer. Door het bestand in de e-mail stroom te en analyseren 365, vindt u deze bedreigingen op basis van gedrag, de reputatie van het bestand en een aantal heuristische regels.
+Met de bedreiging van de hedendaagse riddled wereld, waarop alleen traditionele anti-malware scans worden uitgevoerd, is u niet goed te beschermen tegen aanvallen. Aan de hand van de meer geavanceerde hackers kunnen veelgebruikte hulpprogramma's worden gebruikt voor het maken van nieuwe, verduidelijkende en vertraagde aanvallen die niet worden herkend door traditionele anti malware op basis van een handtekening. De functie voor veilige bijlagen maakt een e-mailbijlage en zet deze in een virtuele omgeving af om te bepalen of deze veilig of kwaad is. Dit detonatie proces opent elk bestand in een omgeving met een virtuele computer en controleert wat er gebeurt nadat het bestand is geopend. Ongeacht of u een PDF-bestand of een gecomprimeerd bestand, of een Office-document, kunt u kwaadaardige code verbergen in een bestand, zodat u deze alleen kunt activeren als het slachtoffer de persoon opent op hun computer. Door het bestand in de e-mail stroom 365 te en analyseren, vindt u deze bedreigingen op basis van gedrag, de reputatie van het bestand en een aantal heuristische regels.
   
 Met het nieuwe verdachte bedreiging-filter worden items gemarkeerd die onlangs zijn gedetecteerd via veilige bijlagen. Dit detectie vertegenwoordigen items die nieuwe, schadelijke bestanden zijn en die niet eerder zijn gevonden door Microsoft 365 in de e-mail van uw e-mail stroom of van een andere klant. Let op de items in de bedachte bedreigings tracker, zie wie de doelgroep is bedoeld en Bekijk de detonatie gegevens op het tabblad geavanceerde analyses (gevonden door te klikken op het onderwerp van de e-mail in de Explorer). Opmerking u krijgt dit tabblad alleen te zien op e-mailberichten die zijn gevonden met de mogelijkheden voor veilige bijlagen-met deze optie kunt u dit filter ook gebruiken voor andere zoekopdrachten in de Verkenner.
   
@@ -103,6 +103,6 @@ Met het nieuwe verdachte bedreiging-filter worden items gemarkeerd die onlangs z
 
 - Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een hoofdbeheerder zijn of de rol beveiligingsbeheerder of zoeken en wissen zijn toegewezen in het Beveiligingscentrum voor beveiligings &amp; naleving. Zie [machtigingen in het beveiligings &amp; conformiteitscentrum](permissions-in-the-security-and-compliance-center.md).
 
-- Kijk of u de nieuwe trackers wilt weergeven in de Microsoft 365-omgeving. Wanneer deze beschikbaar is, vindt u [hier](https://protection.office.com/)uw nummer. Ga naar **Threat management** \> **bedreigings**beheer.
+- Kijk of u de nieuwe trackers wilt weergeven in de Microsoft 365-omgeving. Wanneer deze beschikbaar is, vindt u [hier](https://protection.office.com/)uw nummer. Ga naar **Threat management** \> **bedreigings** beheer.
 
-- Als u dit nog niet hebt gedaan, kunt u hier lezen hoe u [Office 365 Advanced Threat Protection](office-365-atp.md) voor uw organisatie, zoals [veilige koppelingen](atp-safe-links.md) en [veilige bijlagen](atp-safe-attachments.md), kunt configureren.
+- Als u dit nog niet hebt gedaan, kunt u meer lezen over en de configuratie van [Microsoft Defender voor Office 365](office-365-atp.md) voor uw organisatie, zoals [veilige koppelingen](atp-safe-links.md) en [veilige bijlagen](atp-safe-attachments.md).
