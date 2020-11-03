@@ -19,36 +19,36 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 2d37868af5c582512b543c1e2ca859e63b190425
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 6684f2d56cb30c909cae57e7b3e6593377449f6b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430833"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842558"
 ---
-# <a name="emailurlinfo"></a><span data-ttu-id="c3e26-104">EmailUrlInfo</span><span class="sxs-lookup"><span data-stu-id="c3e26-104">EmailUrlInfo</span></span>
+# <a name="emailurlinfo"></a><span data-ttu-id="5f47c-104">EmailUrlInfo</span><span class="sxs-lookup"><span data-stu-id="5f47c-104">EmailUrlInfo</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="c3e26-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="c3e26-105">**Applies to:**</span></span>
-- <span data-ttu-id="c3e26-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="c3e26-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="5f47c-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="5f47c-105">**Applies to:**</span></span>
+- <span data-ttu-id="5f47c-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="5f47c-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="c3e26-107">De `EmailUrlInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over url's voor e-mailberichten en bijlagen die door Office 365 ATP zijn verwerkt.</span><span class="sxs-lookup"><span data-stu-id="c3e26-107">The `EmailUrlInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about URLs on emails and attachments processed by Office 365 ATP.</span></span> <span data-ttu-id="c3e26-108">Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.</span><span class="sxs-lookup"><span data-stu-id="c3e26-108">Use this reference to construct queries that return information from this table.</span></span>
+<span data-ttu-id="5f47c-107">De `EmailUrlInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over url's van e-mailberichten en bijlagen die door Microsoft Defender voor Office 365 zijn verwerkt.</span><span class="sxs-lookup"><span data-stu-id="5f47c-107">The `EmailUrlInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about URLs on emails and attachments processed by Microsoft Defender for Office 365.</span></span> <span data-ttu-id="5f47c-108">Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.</span><span class="sxs-lookup"><span data-stu-id="5f47c-108">Use this reference to construct queries that return information from this table.</span></span>
 
-<span data-ttu-id="c3e26-109">Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.</span><span class="sxs-lookup"><span data-stu-id="c3e26-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+<span data-ttu-id="5f47c-109">Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.</span><span class="sxs-lookup"><span data-stu-id="5f47c-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
 
-| <span data-ttu-id="c3e26-110">Kolomnaam</span><span class="sxs-lookup"><span data-stu-id="c3e26-110">Column name</span></span> | <span data-ttu-id="c3e26-111">Gegevenstype</span><span class="sxs-lookup"><span data-stu-id="c3e26-111">Data type</span></span> | <span data-ttu-id="c3e26-112">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="c3e26-112">Description</span></span> |
+| <span data-ttu-id="5f47c-110">Kolomnaam</span><span class="sxs-lookup"><span data-stu-id="5f47c-110">Column name</span></span> | <span data-ttu-id="5f47c-111">Gegevenstype</span><span class="sxs-lookup"><span data-stu-id="5f47c-111">Data type</span></span> | <span data-ttu-id="5f47c-112">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="5f47c-112">Description</span></span> |
 |-------------|-----------|-------------|
-| `Timestamp` | <span data-ttu-id="c3e26-113">tijd</span><span class="sxs-lookup"><span data-stu-id="c3e26-113">datetime</span></span> | <span data-ttu-id="c3e26-114">De datum en tijd waarop de gebeurtenis is vastgelegd</span><span class="sxs-lookup"><span data-stu-id="c3e26-114">Date and time when the event was recorded</span></span> |
-| `UrlId` | <span data-ttu-id="c3e26-115">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="c3e26-115">string</span></span> | <span data-ttu-id="c3e26-116">Unieke id voor de URL in het onderwerp, de hoofdtekst of de bijlage van het e-mailbericht</span><span class="sxs-lookup"><span data-stu-id="c3e26-116">Unique identifier for the URL in the email subject, body, or attachment</span></span> |
-| `NetworkMessageId` | <span data-ttu-id="c3e26-117">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="c3e26-117">string</span></span> | <span data-ttu-id="c3e26-118">Unieke id voor de e-mail, gegenereerd door Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c3e26-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
-| `Url` | <span data-ttu-id="c3e26-119">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="c3e26-119">string</span></span> | <span data-ttu-id="c3e26-120">Volledige URL in het onderwerp van de e-mail, de hoofdtekst of de bijlage</span><span class="sxs-lookup"><span data-stu-id="c3e26-120">Full URL in the email subject, body, or attachment</span></span> |
+| `Timestamp` | <span data-ttu-id="5f47c-113">tijd</span><span class="sxs-lookup"><span data-stu-id="5f47c-113">datetime</span></span> | <span data-ttu-id="5f47c-114">De datum en tijd waarop de gebeurtenis is vastgelegd</span><span class="sxs-lookup"><span data-stu-id="5f47c-114">Date and time when the event was recorded</span></span> |
+| `UrlId` | <span data-ttu-id="5f47c-115">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="5f47c-115">string</span></span> | <span data-ttu-id="5f47c-116">Unieke id voor de URL in het onderwerp, de hoofdtekst of de bijlage van het e-mailbericht</span><span class="sxs-lookup"><span data-stu-id="5f47c-116">Unique identifier for the URL in the email subject, body, or attachment</span></span> |
+| `NetworkMessageId` | <span data-ttu-id="5f47c-117">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="5f47c-117">string</span></span> | <span data-ttu-id="5f47c-118">Unieke id voor de e-mail, gegenereerd door Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="5f47c-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
+| `Url` | <span data-ttu-id="5f47c-119">tekenreeks</span><span class="sxs-lookup"><span data-stu-id="5f47c-119">string</span></span> | <span data-ttu-id="5f47c-120">Volledige URL in het onderwerp van de e-mail, de hoofdtekst of de bijlage</span><span class="sxs-lookup"><span data-stu-id="5f47c-120">Full URL in the email subject, body, or attachment</span></span> |
 
-## <a name="related-topics"></a><span data-ttu-id="c3e26-121">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="c3e26-121">Related topics</span></span>
-- [<span data-ttu-id="c3e26-122">Overzicht van geavanceerd opsporen</span><span class="sxs-lookup"><span data-stu-id="c3e26-122">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="c3e26-123">De querytaal leren</span><span class="sxs-lookup"><span data-stu-id="c3e26-123">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="c3e26-124">Gedeelde query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="c3e26-124">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="c3e26-125">Opsporen op apparaten en in e-mailberichten, apps en identiteiten</span><span class="sxs-lookup"><span data-stu-id="c3e26-125">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="c3e26-126">Meer informatie over het schema</span><span class="sxs-lookup"><span data-stu-id="c3e26-126">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="c3e26-127">Aanbevolen procedures voor query's toepassen</span><span class="sxs-lookup"><span data-stu-id="c3e26-127">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+## <a name="related-topics"></a><span data-ttu-id="5f47c-121">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="5f47c-121">Related topics</span></span>
+- [<span data-ttu-id="5f47c-122">Overzicht van geavanceerd opsporen</span><span class="sxs-lookup"><span data-stu-id="5f47c-122">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="5f47c-123">De querytaal leren</span><span class="sxs-lookup"><span data-stu-id="5f47c-123">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="5f47c-124">Gedeelde query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="5f47c-124">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="5f47c-125">Opsporen op apparaten en in e-mailberichten, apps en identiteiten</span><span class="sxs-lookup"><span data-stu-id="5f47c-125">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="5f47c-126">Meer informatie over het schema</span><span class="sxs-lookup"><span data-stu-id="5f47c-126">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="5f47c-127">Aanbevolen procedures voor query's toepassen</span><span class="sxs-lookup"><span data-stu-id="5f47c-127">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
