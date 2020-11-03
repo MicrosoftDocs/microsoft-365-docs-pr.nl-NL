@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inzicht in de basisstructuur van de on-premises IT-infrastructuur van Contoso en de manier waarop de zakelijke behoeften van het bedrijf voldoen aan Microsoft 365 for Enterprise.
-ms.openlocfilehash: 767374097efa116f116cff6f6ddf96d075eb71ed
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 0a837a457869fc579d94ee5e5f9bb114cb93f641
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754584"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847128"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT-infrastructuur en bedrijfsbehoeften
 
@@ -121,10 +121,10 @@ De IT-afdeling van Contoso heeft bepaald dat de volgende toewijzingen van zakeli
 |  | Verbeter de productiviteit voor externe en mobiele werknemers | Werkbelasting en cloud-gebaseerde gegevens voor Microsoft 365 |
 |  | Verbeter de creativiteit en innovatie | Windows Ink, Cortana op het werk, PowerPoint |
 | Beveiliging |  |  |
-|  | Identiteits- en toegangsbeheer | Toegewezen globale beheerdersaccounts met Azure multi-factor Authentication (MFA) en Azure Active Directory-geprivilegieerde identiteitsbeheer (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
-|  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Microsoft 365 Threat onderzoek en-antwoord <BR> |
+|  | Identiteits- en toegangsbeheer | Toegewijde wereldwijde beheerdersaccounts met Azure meervoudige verificatie (MFA) en Azure AD Privileged Identity Management (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
+|  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Defender voor Office 365 <BR> Microsoft Defender voor Office 365 <BR> Microsoft 365 Threat onderzoek en-antwoord <BR> |
 |  | Gegevensbeveiliging | Azure-gegevensbeveiliging <BR> Preventie van gegevensverlies (DLP, Data Loss Prevention) <BR> Windows-gegevensbescherming (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
-|  | Beveiligingsbeheer | Azure Security Center  <BR> Windows Defender-Beveiligingscentrum |
+|  | Beveiligingsbeheer | Azure Defender *  <BR> Windows Defender-Beveiligingscentrum |
 | Externe en mobiele toegang en zakelijke partners |  |  |
 |  | Verbeterde beveiliging voor externe en mobiele werknemers | Microsoft Intune |
 |  | De infrastructuur voor externe toegang voor werknemers reduceren | Werkbelasting en cloud-gebaseerde gegevens voor Microsoft 365 |

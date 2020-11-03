@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: De routekaart voor het instellen van client-en serversoftware voor Microsoft 365.
-ms.openlocfilehash: 94412ca4a7665807368ae33a0e50dc928445c8b7
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: d51aead9a50df3acace94526824cfa08fc083a01
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655957"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847152"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Routekaart voor client-en serversoftware voor Microsoft 365
 
@@ -89,7 +89,7 @@ In veel grote en kleine organisaties wordt mogelijk een combinatie gebruikt van 
 - Moeten worden bijgewerkt met de nieuwste beveiligingsupdates en ondersteuningsoplossingen. In sommige gevallen worden deze updates maandelijks uitgebracht.
 - Zijn niet optimaal geschikt om de cloudtechnologieën van Microsoft te gebruiken en u te helpen bij het digitaal transformeren van uw bedrijf.
 - Voegen geen nieuwe productiviteitstoepassingen toe, zoals Microsoft Teams.
-- Voegen niet de nieuwste beveiligingsfuncties toe, zoals Exchange Advanced Threat Protection.
+- Neem de nieuwste beveiligingsfuncties niet op, zoals Exchange en Defender voor Office 365.
 
 Microsoft 365 voor Enterprise bevat Cloud versies van Office Server-services die gebruikmaken van enkele van deze hulpprogramma's als on-premises versies van Office Server-software, zoals webbrowsers en de Outlook-client. Deze services worden voortdurend bijgewerkt op het punt van beveiliging zonder dat de IT-afdeling hierbij betrokken hoeft te zijn. U bespaart zo tijd die u kunt gebruiken om on-premises servers te onderhouden en bij te werken. Deze services bieden ook nieuw functieverbeteringen die niet aanwezig zijn in Office Server-software.
 

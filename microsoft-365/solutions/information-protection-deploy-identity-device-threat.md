@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Voorkom dat persoonlijke gegevens worden geschonden met identiteits-, service-en Threat Protection-Services van Microsoft 365.
-ms.openlocfilehash: e084036860f5d15a14ca6c75305583b86a5fc53f
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 321b60efbdabe62b14502df4a16dd2dcec4b9cef
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398689"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847176"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Identiteit, apparaat en bedreigings bescherming gebruiken voor data privacy verordening
 
@@ -70,12 +70,12 @@ Gebruik [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/mic
 - Mobiele apparaten moeten worden vergrendeld bij inactiviteit.
 - Vereisen dat mobiele apparaten meerdere aanmeldingsfouten wissen.
 
-Gebruik [Exchange Online Protection en Office 365 Advanced Threat Protection (ATP)](../security/office-365-security/office-365-atp.md) voor de categorie **beveiliging tegen bedreigingen** , waarop u het volgende kunt doen:
+Gebruik [Exchange Online Protection en Microsoft Defender voor Office 365](../security/office-365-security/office-365-atp.md) voor de categorie **beveiliging tegen bedreigingen** , waarmee u het volgende kunt doen:
 
 - Verzender verificatie inschakelen (SPF, DMARC en DKIM).
-- Stel Office 365 Advanced Threat Protection (ATP) anti malafide beleid in.
-- Een veilige bijlage van de ATP-toepassing implementeren.
-- Veilige koppelingen voor ATP implementeren.
+- Microsoft Defender for Office 365 anti phishing policies instellen.
+- Veilige bijlagen implementeren.
+- Veilige koppelingen implementeren.
 - Detectie van malware en antwoord beleid implementeren.
 - Implementeer uitgaand en inkomend spam beleid.
 
@@ -83,6 +83,6 @@ Gebruik [Exchange Online Protection en Office 365 Advanced Threat Protection (AT
 
 - [Algemeen beleid voor identiteiten en apparaattoegang](../security/office-365-security/identity-access-policies.md)
 - [Beveiliging tegen bedreigingen in Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [Veilige bijlage van ATP](../security/office-365-security/atp-safe-attachments.md)
-- [Veilige ATP-koppelingen](../security/office-365-security/atp-safe-links.md)
-- [Veilige bijlagen in ATP](../security/office-365-security/safe-docs.md)
+- [Veilige bijlagen](../security/office-365-security/atp-safe-attachments.md)
+- [Veilige koppelingen](../security/office-365-security/atp-safe-links.md)
+- [Veilige documenten](../security/office-365-security/safe-docs.md)

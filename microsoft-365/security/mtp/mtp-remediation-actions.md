@@ -1,6 +1,6 @@
 ---
-title: Herstelacties na geautomatiseerd onderzoek in Microsoft Threat Protection
-description: Bekijk een overzicht van de acties voor herstel na de geautomatiseerde tests in Microsoft Threat Protection
+title: Herstelacties na geautomatiseerd onderzoek in Microsoft 365 Defender
+description: Een overzicht van herstelacties volgen voor geautomatiseerde onderzoek in Microsoft 365 Defender
 keywords: automatisch, onderzoek, waarschuwing, trigger, actie, herstel
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -21,27 +21,27 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 5106ef34f11cb43d74fa993fcdb820d6a5dce86f
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 71cdf2d1b9a40e9cfbf487ca8596a0c2b09475d1
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429469"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847210"
 ---
-# <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Herstelacties na geautomatiseerd onderzoek in Microsoft Threat Protection
+# <a name="remediation-actions-following-automated-investigations-in-microsoft-365-defender"></a>Herstelacties na geautomatiseerd onderzoek in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 ## <a name="remediation-actions"></a>Herstelacties
 
-Bij een geautomatiseerd onderzoek in Microsoft Threat Protection worden herstelacties herkend voor schadelijke of verdachte items. Sommige soorten herstelbewerkingen worden uitgevoerd op apparaten, ook wel eindpunten genoemd. Voor e-mail inhoud worden andere herstelacties gebruikt. Geautomatiseerd onderzoek na voltooiing van herstelacties worden uitgevoerd, goedgekeurd of afgekeurd.
+Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 Defender, worden herstelacties herkend voor schadelijke of verdachte items. Sommige soorten herstelbewerkingen worden uitgevoerd op apparaten, ook wel eindpunten genoemd. Voor e-mail inhoud worden andere herstelacties gebruikt. Geautomatiseerd onderzoek na voltooiing van herstelacties worden uitgevoerd, goedgekeurd of afgekeurd.
 
-De volgende tabel bevat een overzicht van herstelacties die momenteel worden ondersteund in Microsoft Threat Protection: 
+De volgende tabel bevat een overzicht van herstelacties die momenteel worden ondersteund in Microsoft 365 Defender: 
 
 |Acties voor herstel van apparaten (eindpunten)  |Acties voor het herstel van e-mailberichten  |
 |---------|---------|
@@ -57,14 +57,14 @@ De volgende tabel bevat mogelijke Verdicts en resultaten:
 
 |Verdict    |Ziet    |Resultaten|
 |------|------|------|
-|Schadelijke    |Apparaten (eindpunten)    |Herstel stappen worden automatisch uitgevoerd (als u ervan uitgaat dat de [Apparaatgroepen](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) van uw organisatie **automatisch**worden ingesteld op volledig herstelde bedreigingen)|
+|Schadelijke    |Apparaten (eindpunten)    |Herstel stappen worden automatisch uitgevoerd (als u ervan uitgaat dat de [Apparaatgroepen](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) van uw organisatie **automatisch** worden ingesteld op volledig herstelde bedreigingen)|
 |Schadelijke    |E-mail inhoud (Url's of bijlagen) | Aanbevolen herstelacties wachten op goedkeuring|
 |Melden    |Apparaten of e-mail inhoud |Aanbevolen herstelacties wachten op goedkeuring|
 |Geen bedreigingen gevonden    |Apparaten of e-mail inhoud    |Er zijn geen herstelacties nodig|
 
 > [!IMPORTANT]
 > Of herstelacties automatisch of alleen na de goedkeuring worden uitgevoerd, hangt af van bepaalde instellingen, zoals het beleid van de groep apparaat van uw organisatie. Zie de volgende artikelen voor meer informatie:
-> - [Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft Threat Protection configureren](mtp-configure-auto-investigation-response.md)
+> - [Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft 365 Defender configureren](mtp-configure-auto-investigation-response.md)
 > - [Hoe bedreigingen op apparaten worden hersteld](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 ## <a name="next-steps"></a>Volgende stappen

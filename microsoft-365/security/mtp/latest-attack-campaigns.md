@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48fd80aca01ab3bf5665a53e5538cc450320cf6b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 8590f73b32e452c9d34d179db12c4db978df8e4d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197915"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846698"
 ---
 # <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a>Meer informatie over de meest recente aanvals campagnes en-technieken met bedreigings analyses 
 
@@ -31,4 +31,4 @@ Cyber threats worden steeds vaker en Geavanceerd. Het is belangrijk dat organisa
 
 **Threat Analytics** is een reeks interactieve rapporten die worden gepubliceerd als nieuwe bedreigingen (nieuwe technieken, aanvals campagnes en malware-uitbraken) worden geïdentificeerd. Met de rapporten kunt u de gevolgen van bedreigingen voor uw omgeving beoordelen en aanbevolen acties voor het opnemen, vergroten van organisatie bestendigheid en bepaalde bedreigingen voorkomen.
 
-Meer [informatie over Threat Analytics in Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics).  
+Meer [informatie over Threat Analytics in Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics).  

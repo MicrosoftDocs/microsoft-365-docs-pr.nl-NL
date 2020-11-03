@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: cb2aad70b8ba6ccd9075513b5f383ede42ebd6c0
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: ff81b6e1a290d928d68cb43b455713183d24f75b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295126"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846638"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Evalueer uw beveiligings Posture met Microsoft Secure Score
 
@@ -38,7 +38,7 @@ Voor de gegevens die u nodig hebt om sneller te kunnen werken, zijn Microsoft-ve
 
 * Identiteit (Azure Active Directory-accounts & rollen)
 * Gegevens (Microsoft-informatiebescherming)
-* Apparaat (Microsoft Defender ATP, genaamd [Microsoft Secure score voor apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
+* Apparaat (Microsoft Defender for Endpoint, genaamd [Microsoft Secure score voor apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * App (e-mail en Cloud-apps, waaronder Office 365 en de beveiligingsupdates van Microsoft Cloud apps)
 * Infrastructuur (geen stappen voor verbetering)
 
@@ -51,15 +51,15 @@ Kijk op de pagina Microsoft Secure Score Overview hoe punten worden verdeeld ove
 
 ## <a name="check-your-current-score"></a>De huidige Score controleren
 
-Als u op uw huidige score wilt controleren, gaat u naar de pagina Microsoft Secure Score Overview en zoekt u de tegel waarmee **u uw beveiligde Score**kunt uitchecken. Uw score wordt weergegeven als een percentage, samen met het aantal punten dat u uit een totaal aantal mogelijke punten hebt behaald.
+Als u op uw huidige score wilt controleren, gaat u naar de pagina Microsoft Secure Score Overview en zoekt u de tegel waarmee **u uw beveiligde Score** kunt uitchecken. Uw score wordt weergegeven als een percentage, samen met het aantal punten dat u uit een totaal aantal mogelijke punten hebt behaald.
 
 Als u de knop **opnemen** naast de Score selecteert, kunt u ook verschillende weergaven van uw Score kiezen. De verschillende Score weergaven worden weergegeven in de grafiek op de Score tegel en het diagram uitsplitsing.
 
 Hier volgen een aantal scores die u aan uw weergave van uw algemene score kunt toevoegen, zodat u een beeld krijgt van uw algemene score:
 
-- **Geplande Score**: geschatte Score weergeven wanneer geplande acties zijn voltooid
-- **Huidige licentie**: Score weergeven die kan worden behaald met uw huidige Microsoft-licentie
-- **Behaald bare Score**: Toon Score die kan worden behaald met uw Microsoft-licenties en huidige risico acceptatie
+- **Geplande Score** : geschatte Score weergeven wanneer geplande acties zijn voltooid
+- **Huidige licentie** : Score weergeven die kan worden behaald met uw huidige Microsoft-licentie
+- **Behaald bare Score** : Toon Score die kan worden behaald met uw Microsoft-licenties en huidige risico acceptatie
 
 In deze weergave ziet u hoe deze eruitziet als u alle mogelijke score weergaven hebt opgenomen:
 

@@ -1,5 +1,5 @@
 ---
-title: AssignedIPAddresses (), functie in geavanceerde jacht voor Microsoft Threat Protection
+title: AssignedIPAddresses (), functie in geavanceerde jacht voor Microsoft 365 Defender
 description: Meer informatie over het gebruik van de functie AssignedIPAddresses () om de meest recente IP-adressen aan een apparaat te krijgen
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, FileProfile, bestands profiel, functie, verrijking
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 462a4884e2b17f9ae75ea3bdc1531b180dcc5934
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: cb9dffca148c95f284a6a7e920f3a08a839b748d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430125"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847642"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430125"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 Gebruik de `AssignedIPAddresses()` functie in uw [geavanceerde jacht](advanced-hunting-overview.md) -query's om snel de nieuwste IP-adressen te verkrijgen die aan een apparaat zijn toegewezen. Als u een argument voor een tijdstempel opgeeft, worden voor deze functie de meest recente IP-adressen op de opgegeven tijd opgehaald. 
 
@@ -54,7 +54,7 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Argumenten
 
-- **x**— `DeviceId` of `DeviceName` waarde die het apparaat identificeert
+- **x** — `DeviceId` of `DeviceName` waarde die het apparaat identificeert
 - **y** `Timestamp` de waarde y (datetime) die de functie vraagt om de meest recente IP-adressen van een specifieke tijd te verkrijgen. Als dat niet is opgegeven, retourneert de functie de nieuwste IP-adressen.
 
 ## <a name="examples"></a>Voorbeelden

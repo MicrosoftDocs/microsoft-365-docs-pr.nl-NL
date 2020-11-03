@@ -1,6 +1,6 @@
 ---
-title: Feedback geven over Microsoft Threat Protection
-description: Product feedback geven over Microsoft Threat Protection
+title: Feedback geven over Microsoft 365 Defender
+description: Product feedback geven over Microsoft 365 Defender
 keywords: feedback, m365 beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,20 +19,20 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 832442ce392882951d0b960d5f36a864ba59684b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 56f8bd0ff303ff38f8b3a577f6bc7aa58f21a745
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199403"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846725"
 ---
-# <a name="provide-feedback-on-microsoft-threat-protection"></a>Feedback geven over Microsoft Threat Protection
+# <a name="provide-feedback-on-microsoft-365-defender"></a>Feedback geven over Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 Met uw feedback kunnen we uw omgeving beter beschermen tegen geavanceerde aanvallen. Deel uw ervaring, hits en aanvragen door feedback te geven.
 

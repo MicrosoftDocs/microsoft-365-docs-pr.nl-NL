@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6c758c05a64cd7ce84a2b021fe32f9e5ce5c1090
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 97640c318908b87c211caed780624080508a255f
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431061"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847342"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Zoeken naar bedreigingen op apparaten, e-mailberichten, apps en identiteiten
 
@@ -32,12 +32,12 @@ ms.locfileid: "48431061"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-Met de [geavanceerde jacht](advanced-hunting-overview.md) in Microsoft Threat Protection kunt u op verschillende manieren te zoeken naar bedreigingen voor:
-- Apparaten die worden beheerd met Microsoft Defender ATP
+Met de [geavanceerde jacht](advanced-hunting-overview.md) in microsoft 365 Defender kunt u op verschillende manieren te zoeken naar bedreigingen voor:
+- Apparaten die worden beheerd door Microsoft Defender voor eindpunt
 - E-mailberichten die worden verwerkt door Microsoft 365
-- Cloud-app-activiteiten, verificatiegebeurtenissen en activiteiten van de domeincontroller die worden bijgehouden via de beveiliging van Microsoft Cloud-apps en Azure ATP
+- Activiteiten van de Cloud-app, verificatiegebeurtenissen en de domeincontroller activiteiten die worden bijgehouden via de Microsoft Cloud app Security en Microsoft Defender for Identity
 
 Met dit niveau van de zichtbaarheid kunt u snel zoeken naar bedreigingen die door secties van uw netwerk bladeren, waaronder verfijnde indringers die aankomen via e-mail of het web, lokale bevoegdheden toevoegen, machtigingen voor domeinnamen 
 

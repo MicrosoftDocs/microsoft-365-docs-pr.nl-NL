@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8ced46ea30c7225fd3e5c8f1309ef482542e51b2
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: de0bc092c35c7f48c562da8d4218f7a638abe1d5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445781"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847778"
 ---
 # <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Rollen en verantwoordelijkheden voor Microsoft Managed Desktop
 
@@ -33,7 +33,7 @@ Rol of verantwoordelijkheid | Beschrijving
 MDM-beleidsbeheer | Microsoft zal MDM-beleid toepassen op basis van aanbevolen procedures en verzoeken om beleidswijzigingen. We brengen u ook wijzigingen in uw Tenant aan, zoals aangegeven in het [beleid voor apparaten](../service-description/device-policies.md).
 gebruikers ondersteuning | We bieden gebruikers ondersteuning voor apparaten, Windows en de Microsoft 365-apps voor Enterprise productsuite voor alle geregistreerde gebruikers via de Help-app die vooraf is geïnstalleerd op alle door Microsoft beheerde bureaublad apparaten. 
 Ondersteuning voor Microsoft beheerde bureaublad service | Microsoft zal de IT-afdeling ondersteunen via een Microsoft-beheerd bureaublad operationeel team. Dit team biedt ondersteuning voor technische probleemoplossing, wijzigingsaanvragen en incidentenbeheer voor de Microsoft beheerde bureaubladomgeving van de klant. Zie voor meer informatie [beheerders ondersteuning voor Microsoft Managed Desktop](../working-with-managed-desktop/admin-support.md).
-Beveiligings monitoring | Microsoft beheert uw door Microsoft beheerde bureaublad apparaten met behulp van Microsoft Defender ATP. Als het Microsoft-Beheercentrum voor Microsoft-beveiliging een bedreiging detecteert, meldt u het apparaat en verstuurt u dit probleem op afstand. Zie [beveiliging](../service-description/security.md)voor meer informatie.
+Beveiligings monitoring | Microsoft beheert uw door Microsoft beheerde bureaublad apparaten met behulp van Microsoft Defender voor eindpunt. Als het Microsoft-Beheercentrum voor Microsoft-beveiliging een bedreiging detecteert, meldt u het apparaat en verstuurt u dit probleem op afstand. Zie [beveiliging](../service-description/security.md)voor meer informatie.
 Controle en beheer bijwerken | We monitoren uw door Microsoft beheerde bureaublad apparaten actief en garanderen dat de nieuwste updates voor kwaliteit en onderdelen voor Microsoft Windows en Microsoft Office zijn geïnstalleerd. Zie [hoe updates worden afgehandeld](../service-description/updates.md)voor meer informatie.
 Groeperen van gebruiker en apparaat | Het Microsoft beheerde bureaublad bewerkingen team maakt en beheert het vereiste apparaat en de gebruikersgroepen als onderdeel van de activiteiten. Deze groepen kunnen geen lidmaatschaps-of configuratiewijzigingen hebben. Het wijzigen van deze groepen kan leiden tot onverwachte configuratie van apparaten en verlies van functionaliteit. Voor eventuele problemen of vragen rond deze groepen, kunnen IT-beheerders contact opnemen met Microsoft beheerde bureaublad activiteiten. Zie voor meer informatie [beheerders ondersteuning voor Microsoft Managed Desktop](../working-with-managed-desktop/admin-support.md).
 

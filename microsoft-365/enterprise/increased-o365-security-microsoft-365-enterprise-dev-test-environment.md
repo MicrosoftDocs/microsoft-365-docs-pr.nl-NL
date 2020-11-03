@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Gebruik deze test lab-handleiding voor het inschakelen van extra Microsoft 365-beveiligingsinstellingen voor uw Microsoft 365 voor Enterprise test omgeving.
-ms.openlocfilehash: 7c3300111f5999714b87a176087207a1651cdcaf
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: d385688a6e59ee500442bcf1b815dfd165102242
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487398"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846998"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>Verbeterde Microsoft 365-beveiliging voor uw Microsoft 365 voor Enterprise testomgeving
 
@@ -57,16 +57,16 @@ Voor apps waarvoor geen ondersteuning biedt voor moderne verificatie, gelden gee
  
 2. Klik op het nieuwe **Microsoft 365-Beheercentrum** , onder **beheer centra** in het linker navigatiedeelvenster, op **SharePoint**.
 3. Klik op het tabblad nieuw **SharePoint-Beheercentrum** op **beleids > toegangsbeheer**.
-4. Klik op **apps die moderne verificatie niet ondersteunen**, selecteer **toegang blokkeren**en klik op **Opslaan**.
+4. Klik op **apps die moderne verificatie niet ondersteunen** , selecteer **toegang blokkeren** en klik op **Opslaan**.
 
 
-### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>Geavanceerde Bedreigingsbeveiliging inschakelen voor SharePoint, OneDrive voor bedrijven en Microsoft teams
+### <a name="enable-defender-for-office-365-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>Defender voor Office 365 inschakelen voor SharePoint, OneDrive voor bedrijven en Microsoft teams
 
-Office 365 Advanced Threat Protection (ATP) voor SharePoint, OneDrive en Microsoft teams beschermt uw organisatie per ongeluk om kwaadaardige bestanden te delen.
+Met de app voor Office 365 voor SharePoint, OneDrive en Microsoft teams kunt u per ongeluk kwaadaardige bestanden delen met uw organisatie.
 
 1. Ga naar de [beveiligings & nalevings centrum](https://protection.office.com) en meld u aan met uw globale beheerdersaccount.
 
-2. Klik in het linker navigatiedeelvenster onder **bedreigings beheer**op **beleidsregels**en klik vervolgens op **veilige bijlagen voor ATP**. 
+2. Klik in het linker navigatiedeelvenster onder **Threat Management** op **beleid** en klik vervolgens op **veilige bijlagen**. 
 
 3. Onder **bestanden beschermen in SharePoint, OneDrive en Microsoft teams**. Selecteer **ATP inschakelen voor SharePoint, OneDrive en Microsoft teams**.
 
@@ -85,7 +85,7 @@ U kunt als volgt controleren of de verwerking van schadelijke software wordt uit
 2. Klik op **anti malware**.
 3. Dubbelklik op het beleid met de naam **standaard**.
 4. Klik in het venster **anti-malwarebeleid** op **instellingen**.
-4. Selecteer onder **algemene typen bijlagen**de optie **aan**en klik vervolgens op **Opslaan**.
+4. Selecteer onder **algemene typen bijlagen** de optie **aan** en klik vervolgens op **Opslaan**.
 
 
 ## <a name="phase-3-examine-the-security-dashboard"></a>Fase 3: het beveiligings dashboard onderzoeken
@@ -96,7 +96,7 @@ Het beveiligings dashboard weergeven:
 
 1. Ga zo nodig naar de [beveiligings & nalevings centrum](https://protection.office.com) en meld u aan met uw globale beheerdersaccount.
 
-2. Klik in het linker navigatiedeelvenster onder **Threat Management**op **Dashboard**.
+2. Klik in het linker navigatiedeelvenster onder **Threat Management** op **Dashboard**.
 
 Neem contact op met alle kaarten op het dashboard om uzelf vertrouwd te maken met de verstrekte informatie.
 

@@ -1,5 +1,5 @@
 ---
-title: FileProfile (), functie in geavanceerde jacht voor Microsoft Threat Protection
+title: FileProfile (), functie in geavanceerde jacht voor Microsoft 365 Defender
 description: Meer informatie over het gebruik van de FileProfile () om informatie te verrijken over bestanden in uw geavanceerde zoekresultaten voor de jacht
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, FileProfile, bestands profiel, functie, verrijking
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: e99e545b5578b5eff8c19345dc672f735e4f7bd2
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 31959ed146df52aa6568f7aa60617b74ab8dd4db
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430583"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847450"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430583"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 De `FileProfile()` functie is een verrijkings functie in de [geavanceerde jacht](advanced-hunting-overview.md) waarmee de volgende gegevens worden toegevoegd aan bestanden die door de query zijn gevonden.
 
@@ -63,8 +63,8 @@ invoke FileProfile(x,y)
 
 ## <a name="arguments"></a>Argumenten
 
-- **x**— kolom met bestands-id die moet worden gebruikt: `SHA1` , `SHA256` , `InitiatingProcessSHA1` of `InitiatingProcessSHA256` ; functie gebruikt `SHA1` indien niet opgegeven.
-- **y**: Beperk het aantal records tot rijk, 1-1000; functie gebruikt 100 indien niet opgegeven
+- **x** — kolom met bestands-id die moet worden gebruikt: `SHA1` , `SHA256` , `InitiatingProcessSHA1` of `InitiatingProcessSHA256` ; functie gebruikt `SHA1` indien niet opgegeven.
+- **y** : Beperk het aantal records tot rijk, 1-1000; functie gebruikt 100 indien niet opgegeven
 
 ## <a name="examples"></a>Voorbeelden
 

@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Gesplitste tunneling voor VPN implementeren voor Office 365
-ms.openlocfilehash: ff79138d44c98d76af1a3d9c374159b0fae4c7ed
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 4a7c2a18ae5d4f275210ddeaea90eb1bb9bc1f16
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295272"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846986"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Gesplitste VPN-tunneling implementeren voor Office 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "48295272"
 
 Gedurende een groot aantal jaren hebben bedrijven een VPN gebruikt voor de ondersteuning van externe ervaringen voor hun gebruikers. Hoewel kern lasten on-premises bleven, was een VPN van de externe client die via een datacenter op het bedrijfsnetwerk is gerouteerd de primaire methode voor externe gebruikers om toegang te krijgen tot de bedrijfsbronnen. Om deze verbindingen te beschermen, bouwen ondernemingen lagen van netwerkbeveiligings oplossingen langs de VPN-paden. Dit is de bescherming van de interne infrastructuur en het veilig surfen van externe websites door verkeer om te leiden naar het VPN en vervolgens via het on-premises Internet perimeter. Vpn's, netwerkverkeer en bijbehorende beveiligingsinfrastructuur waren vaak gebouwd en geschaald voor een bepaald volume van het verkeer, meestal met het merendeel van de verbinding vanaf het bedrijfsnetwerk, en het grootste deel van de verbinding binnen de interne netwerk grenzen.
 
-Voor zeer enige tijd worden VPN-modellen waarbij alle verbindingen van het externe gebruikersapparaat worden gerouteerd naar het on-premises netwerk (bekend als **geforceerde tunneling**), veel duurzaam, aangezien de gelijktijdig gebruikte schaal van de VPN-verbinding laag was.  Sommige klanten blijven gebruikmaken van VPN-geforceerde tunneling als status-quo, zelfs nadat hun toepassingen binnen het bedrijfsnetwerk zijn verplaatst naar openbare SaaS-wolken, Office 365 in een prime voorbeeld.
+Voor zeer enige tijd worden VPN-modellen waarbij alle verbindingen van het externe gebruikersapparaat worden gerouteerd naar het on-premises netwerk (bekend als **geforceerde tunneling** ), veel duurzaam, aangezien de gelijktijdig gebruikte schaal van de VPN-verbinding laag was.  Sommige klanten blijven gebruikmaken van VPN-geforceerde tunneling als status-quo, zelfs nadat hun toepassingen binnen het bedrijfsnetwerk zijn verplaatst naar openbare SaaS-wolken, Office 365 in een prime voorbeeld.
 
 Het gebruik van geforceerde verbonden Vpn's voor het maken van een verbinding met de Distributed-en prestatie gevoelige Cloud toepassingen is zeer geschikt, maar de negatieve gevolgen van die van sommige ondernemingen zijn voor het behoud van de status quo van een beveiligings perspectief. Hieronder ziet u een voorbeeld van een diagram van dit scenario:
 
@@ -49,7 +49,7 @@ De aangeraden Microsoft-strategie voor het optimaliseren van de connectiviteit v
 
 ## <a name="common-vpn-scenarios"></a>Veelgebruikte VPN-scenario's
 
-In de onderstaande lijst ziet u de meest voorkomende VPN-scenario's die worden weergegeven in Enterprise-omgevingen. Meeste klanten werken met model 1 (VPN geforceerd tunnel). In deze sectie wordt u geholpen bij het snel en veilig overstappen naar **model 2**, wat niet voldoende is voor de prestaties en de gebruikservaring van uw netwerk.
+In de onderstaande lijst ziet u de meest voorkomende VPN-scenario's die worden weergegeven in Enterprise-omgevingen. Meeste klanten werken met model 1 (VPN geforceerd tunnel). In deze sectie wordt u geholpen bij het snel en veilig overstappen naar **model 2** , wat niet voldoende is voor de prestaties en de gebruikservaring van uw netwerk.
 
 | **Model** | **Beschrijving** |
 | --- | --- |
@@ -91,7 +91,7 @@ Een geavanceerdere versie van het modelnummer twee, waarbij interne services wor
 
 ## <a name="implement-vpn-split-tunneling"></a>Gesplitste VPN-tunneling implementeren
 
-In deze sectie vindt u de eenvoudige stappen die nodig zijn voor het migreren van de architectuur van de VPN-client van een _geforceerde_ VPN-tunnel naar een _geforceerde VPN-tunnel met een klein aantal vertrouwde uitzonderingen_, [#2](#2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions) in de sectie [veelvoorkomende VPN-scenario's](#common-vpn-scenarios) .
+In deze sectie vindt u de eenvoudige stappen die nodig zijn voor het migreren van de architectuur van de VPN-client van een _geforceerde_ VPN-tunnel naar een _geforceerde VPN-tunnel met een klein aantal vertrouwde uitzonderingen_ , [#2](#2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions) in de sectie [veelvoorkomende VPN-scenario's](#common-vpn-scenarios) .
 
 In het onderstaande diagram ziet u hoe de aanbevolen tunnel oplossing voor VPN werkt:
 
@@ -99,7 +99,7 @@ In het onderstaande diagram ziet u hoe de aanbevolen tunnel oplossing voor VPN w
 
 ### <a name="1-identify-the-endpoints-to-optimize"></a>1. bepalen welke eindpunten u wilt optimaliseren
 
-In het onderwerp [Office 365-url's en IP-adresbereiken](urls-and-ip-address-ranges.md) identificeert Microsoft duidelijk de sleutel eindpunten **die u**nodig hebt om ze te optimaliseren en te categoriseren. Op dit moment zijn er slechts vier URL'S en twintig IP-subnetten die moeten worden geoptimaliseerd. Deze kleine groepen met eindpunten voor ongeveer 70%-80% van het volume van het verkeer naar de Office 365-service, waaronder de bewaarde eindpunten zoals de eindpunten voor teams-media. Dit is een zeer belangrijke hoeveelheid verkeer waarvan we u speciale aandacht moeten richten en ook het verkeer naar traditionele netwerkpaden en VPN-infrastructuur.
+In het onderwerp [Office 365-url's en IP-adresbereiken](urls-and-ip-address-ranges.md) identificeert Microsoft duidelijk de sleutel eindpunten **die u** nodig hebt om ze te optimaliseren en te categoriseren. Op dit moment zijn er slechts vier URL'S en twintig IP-subnetten die moeten worden geoptimaliseerd. Deze kleine groepen met eindpunten voor ongeveer 70%-80% van het volume van het verkeer naar de Office 365-service, waaronder de bewaarde eindpunten zoals de eindpunten voor teams-media. Dit is een zeer belangrijke hoeveelheid verkeer waarvan we u speciale aandacht moeten richten en ook het verkeer naar traditionele netwerkpaden en VPN-infrastructuur.
 
 Url's in deze categorie hebben de volgende kenmerken:
 
@@ -169,9 +169,9 @@ $destPrefix = "52.120.0.0/14", "52.112.0.0/14", "13.107.64.0/18" # Teams Media e
 foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
 ```
 
-In het bovenstaande script is _$intIndex_ de index van de interface die is verbonden met internet (zoeken door **Get-netadapter** in PowerShell uit **te voeren;** Zoek de waarde van _ifIndex_) en _$Gateway_ de standaardgateway van die interface (zoek **-NetIPConfiguration | Foreach-IPv4DefaultGateway). NextHop** in PowerShell).
+In het bovenstaande script is _$intIndex_ de index van de interface die is verbonden met internet (zoeken door **Get-netadapter** in PowerShell uit **te voeren;** Zoek de waarde van _ifIndex_ ) en _$Gateway_ de standaardgateway van die interface (zoek **-NetIPConfiguration | Foreach-IPv4DefaultGateway). NextHop** in PowerShell).
 
-Wanneer u de routes hebt toegevoegd, kunt u controleren of de routetabel juist is door **route afdrukken** in een opdrachtprompt of PowerShell uit te voeren. De uitvoer moet de aangevoegde routes bevatten, met de interface-index (_22_ in dit voorbeeld) en de gateway voor de interface (_192.168.1.1_ in dit voorbeeld):
+Wanneer u de routes hebt toegevoegd, kunt u controleren of de routetabel juist is door **route afdrukken** in een opdrachtprompt of PowerShell uit te voeren. De uitvoer moet de aangevoegde routes bevatten, met de interface-index ( _22_ in dit voorbeeld) en de gateway voor de interface ( _192.168.1.1_ in dit voorbeeld):
 
 ![Afdrukuitvoer routeren](../media/vpn-split-tunneling/vpn-route-print.png)
 
@@ -232,11 +232,11 @@ Signalering van verkeer wordt doorgevoerd via HTTPS en is niet de latentie gevoe
 
 Eén gemeenschappelijk argument voor het vermijden van gesplitste tunnels is dat het minder veilig is, d.w.z. verkeer dat niet via de VPN-tunnel gaat, is niet van toepassing op de VPN-tunnel, en is daarom minder veilig.
 
-Het belangrijkste argument van Counter is dat media verkeer al versleuteld is via _Secure real-time Transport Protocol (srtp)_, een profiel van real-time Transport Protocol (RTP) waarmee u beveiliging van de bescherming van een RTP-verkeer kunt waarborgen. SRTP zichzelf vertoont een willekeurig gegenereerde sessiesleutel, die wordt uitgewisseld via het TLS-kanaal voor beveiligde signalering. Dit wordt in [deze beveiligingshandleiding](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/security-guide-for-skype-for-business-online)uitvoerig besproken, maar de belangrijkste belangrijke sectie is media versleuteling.
+Het belangrijkste argument van Counter is dat media verkeer al versleuteld is via _Secure Real-Time Transport Protocol (srtp)_ , een profiel van Real-Time Transport Protocol (RTP) waarmee vertrouwelijkheid, verificatie en beveiliging van aanvallen op RTP-verkeer wordt geboden. SRTP zichzelf vertoont een willekeurig gegenereerde sessiesleutel, die wordt uitgewisseld via het TLS-kanaal voor beveiligde signalering. Dit wordt in [deze beveiligingshandleiding](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/security-guide-for-skype-for-business-online)uitvoerig besproken, maar de belangrijkste belangrijke sectie is media versleuteling.
 
 Media verkeer wordt versleuteld met SRTP, dat gebruikmaakt van een sessiesleutel die wordt gegenereerd door een Secure Random Number Generator en Exchange via het TLS-kanaal signalering. Daarnaast kunt u ook mediastromen in beide richtingen tussen de bemiddelings server en de interne volgende hop versleutelen met behulp van SRTP.
 
-In Skype voor bedrijven online worden gebruikersnamen en wachtwoorden voor veilige toegang tot media relays via het _traversal via NETWERKADRESOMZETTING weer_gegeven. Media relay Exchange de gebruikersnaam/het wachtwoord uitwisselen via een TLS-kanaal met SIP-beveiliging. Het is ook mogelijk dat ook hoewel een VPN-tunnel kan worden gebruikt om de client te verbinden met het bedrijfsnetwerk, het verkeer nog steeds moet debiet in het SRTP-formulier wanneer het het bedrijfsnetwerk van de dienst verlaat.
+In Skype voor bedrijven online worden gebruikersnamen en wachtwoorden voor veilige toegang tot media relays via het _traversal via NETWERKADRESOMZETTING weer_ gegeven. Media relay Exchange de gebruikersnaam/het wachtwoord uitwisselen via een TLS-kanaal met SIP-beveiliging. Het is ook mogelijk dat ook hoewel een VPN-tunnel kan worden gebruikt om de client te verbinden met het bedrijfsnetwerk, het verkeer nog steeds moet debiet in het SRTP-formulier wanneer het het bedrijfsnetwerk van de dienst verlaat.
 
 [In dit artikel](https://docs.microsoft.com/openspecs/office_protocols/ms-ice2/69525351-8c68-4864-b8a6-04bfbc87785c)vindt u informatie over de manier waarop teams veelvoorkomende beveiligingskwesties zoals spraak _-of sessie traversal Utilities voor NAT (stun)_ verhogen.
 
@@ -266,13 +266,13 @@ Als u meer informatie nodig hebt over het oplossen van problemen of als u hulp n
 
 Dit gedeelte bevat koppelingen naar gedetailleerde gidsen voor het implementeren van gesplitste tunneling voor Office 365-verkeer van de meest voorkomende partners in deze ruimte. We toevoegen extra hulplijnen wanneer deze beschikbaar komen.
 
-- **Windows 10 VPN-client**: [Office 365-verkeer voor externe werknemers optimaliseren met de native Windows 10 VPN-client](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-office-365-optimization)
-- **Cisco AnyConnect**: [AnyConnect Split-tunnel voor Office365 optimaliseren](https://www.cisco.com/c/en/us/support/docs/security/anyconnect-secure-mobility-client/215343-optimize-anyconnect-split-tunnel-for-off.html)
-- **Palo Alto GlobalProtect**: [Office 365-verkeer optimaliseren via de gesplitste tunnel van een VPN-verbinding uitsluiten](https://live.paloaltonetworks.com/t5/Prisma-Access-Articles/GlobalProtect-Optimizing-Office-365-Traffic/ta-p/319669)
-- **F5 netwerken Big-IP apm**: [Office 365-verkeer optimaliseren voor externe toegang via vpn's wanneer u gebruikmaakt van grote IP-apm](https://devcentral.f5.com/s/articles/SSL-VPN-Split-Tunneling-and-Office-365)
-- **Citrix gateway**: het [optimaliseren van een gesplitste tunnel voor VPN-gateway voor Office365](https://docs.citrix.com/en-us/citrix-gateway/13/optimizing-citrix-gateway-vpn-split-tunnel-for-office365.html)
-- **Pulse veilig**: [VPN-tunneling: gesplitste tunneling configureren om Office365-toepassingen uit te sluiten](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44417)
-- **Kijk punt VPN**: de [gesplitste Tunnel voor Office 365 en andere SaaS-toepassingen configureren](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk167000)
+- **Windows 10 VPN-client** : [Office 365-verkeer voor externe werknemers optimaliseren met de native Windows 10 VPN-client](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-office-365-optimization)
+- **Cisco AnyConnect** : [AnyConnect Split-tunnel voor Office365 optimaliseren](https://www.cisco.com/c/en/us/support/docs/security/anyconnect-secure-mobility-client/215343-optimize-anyconnect-split-tunnel-for-off.html)
+- **Palo Alto GlobalProtect** : [Office 365-verkeer optimaliseren via de gesplitste tunnel van een VPN-verbinding uitsluiten](https://live.paloaltonetworks.com/t5/Prisma-Access-Articles/GlobalProtect-Optimizing-Office-365-Traffic/ta-p/319669)
+- **F5 netwerken Big-IP apm** : [Office 365-verkeer optimaliseren voor externe toegang via vpn's wanneer u gebruikmaakt van grote IP-apm](https://devcentral.f5.com/s/articles/SSL-VPN-Split-Tunneling-and-Office-365)
+- **Citrix gateway** : het [optimaliseren van een gesplitste tunnel voor VPN-gateway voor Office365](https://docs.citrix.com/en-us/citrix-gateway/13/optimizing-citrix-gateway-vpn-split-tunnel-for-office365.html)
+- **Pulse veilig** : [VPN-tunneling: gesplitste tunneling configureren om Office365-toepassingen uit te sluiten](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44417)
+- **Kijk punt VPN** : de [gesplitste Tunnel voor Office 365 en andere SaaS-toepassingen configureren](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk167000)
 
 ## <a name="faq"></a>Veelgestelde vragen
 
@@ -306,7 +306,7 @@ We kunnen vervolgens het beleid activeren, zoals goedkeuren, een MFA activeren o
 
 Ook weer, Office 365 biedt bescherming voor de gemarkeerde eindpunten in verschillende lagen in de service zelf, [zoals beschreven in dit document](https://docs.microsoft.com/office365/Enterprise/office-365-malware-and-ransomware-protection). Zoals u ziet, is het zeer efficiënt om deze beveiligingselementen aan te bieden in de service zelf, in plaats van het te proberen en te doen in overeenstemming met apparaten die de protocollen/verkeer mogelijk niet volledig begrijpen. In SharePoint Online wordt het uploaden van bestanden op basis van bekende malware standaard [automatisch gecontroleerd](https://docs.microsoft.com/microsoft-365/security/office-365-security/virus-detection-in-spo) .
 
-Voor de bovenstaande Exchange-eindpunten, [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) en [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) , bieden een uitstekend overzicht van de beveiliging van het verkeer naar de service.
+Voor de bovenstaande Exchange-eindpunten, [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) en [Microsoft Defender voor Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) , beschikt u over een uitstekende functie voor het verschaffen van de beveiliging van het verkeer naar de service.
 
 ### <a name="can-i-send-more-than-just-the-optimize-traffic-direct"></a>Kan ik meer dan alleen het verkeer voor direct optimaliseren verzenden?
 
@@ -324,11 +324,11 @@ Poort 80 wordt alleen gebruikt voor zaken zoals omleiding naar een poort 443-ses
 
 ### <a name="does-this-advice-apply-to-users-in-china-using-a-worldwide-instance-of-office-365"></a>Is dit advies van toepassing op gebruikers in China met een wereldwijde instantie van Office 365?
 
-**Nee**, dat is niet het geval. Het voorbeeld van het bovenstaande advies is gebruikers in de Volksrepubliek China die verbinding maken met een wereldwijde instantie van Office 365. De prestaties van de netwerkcongestie van de gemeenschappelijke grenzen in de regio zijn direct van een variabele. De meeste klanten in de regio werken via een VPN om het verkeer in het bedrijfsnetwerk te brengen en gebruikmaken van hun geautoriseerde MPLS-circuit of vergelijkbaar met het opzeggen van het land via een geoptimaliseerd pad. Dit wordt verder beschreven in het artikel [Office 365 prestaties optimaliseren voor gebruikers van China](microsoft-365-networking-china.md).
+**Nee** , dat is niet het geval. Het voorbeeld van het bovenstaande advies is gebruikers in de Volksrepubliek China die verbinding maken met een wereldwijde instantie van Office 365. De prestaties van de netwerkcongestie van de gemeenschappelijke grenzen in de regio zijn direct van een variabele. De meeste klanten in de regio werken via een VPN om het verkeer in het bedrijfsnetwerk te brengen en gebruikmaken van hun geautoriseerde MPLS-circuit of vergelijkbaar met het opzeggen van het land via een geoptimaliseerd pad. Dit wordt verder beschreven in het artikel [Office 365 prestaties optimaliseren voor gebruikers van China](microsoft-365-networking-china.md).
 
 ### <a name="does-split-tunnel-configuration-work-for-teams-running-in-a-browser"></a>Werkt de gesplitste tunnelconfiguratie voor teams met een browser?
 
-**Nee**, dat is niet het geval. Dit werkt alleen op Microsoft teams-clientversie 1.3.00.13565 of hoger. Deze versie bevat verbeteringen voor het detecteren van beschikbare netwerkpaden in de client.
+**Nee** , dat is niet het geval. Dit werkt alleen op Microsoft teams-clientversie 1.3.00.13565 of hoger. Deze versie bevat verbeteringen voor het detecteren van beschikbare netwerkpaden in de client.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

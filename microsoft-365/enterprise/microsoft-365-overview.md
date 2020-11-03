@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, abonnementen en implementatie paden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 0cee9752ae21e08831b6a3df856452a7ca6aec71
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+ms.openlocfilehash: 0916fa97daec166a7bae8b19e3c9efbd693f4874
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655969"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846962"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -44,7 +44,7 @@ Microsoft 365 voor bedrijven is beschikbaar in drie abonnementen.
 |Naam van abonnement|Mogelijkheden|
 |---|---|
 |E3|Toegang tot de kernproducten en -functies van Microsoft 365, om de productiviteit op de werkplek te verbeteren en innovatie te stimuleren.|
-|E5|Open de meest recente producten en functies van Microsoft 365. Deze omvatten geavanceerde bescherming tegen bedreigingen, beveiligingstools en samenwerkingstools. Dit plan bevat alle mogelijkheden van E3 plus geavanceerde functies voor beveiliging, spraak en gegevensanalyse.|
+|E5|Open de meest recente producten en functies van Microsoft 365. Deze omvatten Defender voor Office 365 en beveiligings- en samenwerkingshulpmiddelen. Dit plan bevat alle mogelijkheden van E3 plus geavanceerde functies voor beveiliging, spraak en gegevensanalyse.|
 |F3|Kom in contact met uw eerstelijnsmedewerkers via speciaal ontworpen hulpmiddelen en bronnen waarmee ze hun beste werk kunnen doen.|
 |||
 
@@ -85,7 +85,7 @@ Deze poster van twee pagina‘s is een snelle manier om de bestaande infrastruct
 
 [Windows 7](https://aka.ms/win7upgrade) heeft het einde van de ondersteuning bereikt op **14 januari 2020**.
 
-Voor deze producten wordt de ondersteuning beëindigd op **13 oktober 2020**:
+Voor deze producten wordt de ondersteuning beëindigd op **13 oktober 2020** :
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](exchange-2010-end-of-support.md)

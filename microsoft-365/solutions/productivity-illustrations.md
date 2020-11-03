@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 9c4898f6ecf17ad57da9ecd54499764c7efc2a6c
-ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
+ms.openlocfilehash: 160211fe481d14749bd778255e6844b12aa80672
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816872"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847234"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
@@ -58,14 +58,14 @@ Beveiliging en informatiebescherming voor organisaties met meerdere regio's en e
 |:-----|:-----|
 |[![Miniatuurafbeelding van de infographic voor meerdere regio's](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Laatst bijgewerkt: maart 2020 |Een Microsoft 365-tenant voor uw wereldwijde organisatie is de beste keuze en ervaring om een groot aantal redenen. Veel architecten weten echter niet precies hoe ze de doelen voor beveiliging en informatiebescherming in verschillende regio's moeten realiseren. In deze serie onderwerpen vindt u aanbevelingen. |
 
-### <a name="microsoft-defender-atp-deployment-strategy"></a>Implementatiestrategie voor Microsoft Defender ATP
+### <a name="microsoft-defender-for-endpoint-deployment-strategy"></a>Implementatiestrategie voor Microsoft Defender voor eindpunten
 
 Sommige hulpprogramma's zijn beter geschikt voor bepaalde architecturen, afhankelijk van uw omgeving.
 
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Miniatuurafbeelding van de implementatiestrategie voor Microsoft Defender ATP](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Laatst bijgewerkt: februari 2020| Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li>
+|[![Afbeelding van miniatuur voor implementatiestrategie voor Microsoft Defender voor eindpunten](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Laatst bijgewerkt: februari 2020| Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li>
 
 
 <a name="BKMK_O365IDP"></a>

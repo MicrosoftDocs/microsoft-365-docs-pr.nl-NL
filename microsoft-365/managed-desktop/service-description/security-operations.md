@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 15a62da1222fc55d50dfd4c3b2f0e7ba4a0554eb
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 5698e2a88adf3d2bae84a82e0e001132293e36be
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778613"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847714"
 ---
 # <a name="security-operations-in-microsoft-managed-desktop"></a>Beveiligingsbewerkingen in Microsoft beheerde desktop
 
@@ -41,4 +41,4 @@ De SOC biedt deze diensten:
     - Herstelassistent
     - Activiteiten na incidenten
 - Microsoft-beheerde bureaublad klanten komen in aanmerking voor de registratie van de Microsoft Threat experts-service. Met deze service kunnen medewerkers van liaises de complexe bedreigingen voor uw organisatie beter begrijpen, waaronder meldingen van waarschuwingen, mogelijk gemanipuleerde apparatuur, hoofdoorzaak van een verdachte netwerkverbinding en extra bedreigings informatie over voortdurende, geavanceerde permanente Threats campagnes. Zie [Microsoft Threat experts](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)voor meer informatie.
-- Het beleid van de bedreiging van de bedreiging en het beveiligingslek maakt deel uit van de services van Microsoft om aanbevelingen te informeren over uw organisatie om zich te beschermen tegen bedreigingen. De SOC verbruikt gegevens van uw Microsoft Defender Advanced Threat Protection-Beveiligingscentrum en van relevante beveiligingsgegevens bronnen binnen en buiten Microsoft om zwakke plekken en onjuiste configuraties te ontdekken en rapportage te ondernemen.
+- Het beleid van de bedreiging van de bedreiging en het beveiligingslek maakt deel uit van de services van Microsoft om aanbevelingen te informeren over uw organisatie om zich te beschermen tegen bedreigingen. De SOC verbruikt gegevens van uw Microsoft Defender voor eindpunten van het Beveiligingscentrum en van relevante beveiligingsgegevens bronnen binnen en buiten Microsoft om zwakke plekken en onjuiste configuraties te ontdekken en rapportage te ondernemen.

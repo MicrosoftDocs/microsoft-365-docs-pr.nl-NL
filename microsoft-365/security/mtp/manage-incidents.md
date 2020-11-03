@@ -1,5 +1,5 @@
 ---
-title: Incidenten beheren in Microsoft Threat Protection
+title: Incidenten beheren in Microsoft 365 Defender
 description: Meer informatie over het toewijzen en bijwerken van de status.
 keywords: incident, incidenten, waarschuwingen, gerelateerde waarschuwingen, toewijzen, bijwerken, status, beheren, classificatie, Microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
@@ -21,24 +21,24 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c599343233e7e29589bc4e3d1cda01da505b16f1
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 29f55d99dd3acd26ae305c03b533e2ca9bb61f2a
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430559"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846650"
 ---
-# <a name="manage-incidents-in-microsoft-threat-protection"></a>Incidenten beheren in Microsoft Threat Protection
+# <a name="manage-incidents-in-microsoft-365-defender"></a>Incidenten beheren in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 
-Het beheren van incidenten is een belangrijke oplossing voor de bedreigingen. Microsoft Threat Protection biedt toegang tot het beheren van incidenten op apparaten, gebruikers en postvakken. 
+Het beheren van incidenten is een belangrijke oplossing voor de bedreigingen. U kunt in Microsoft 365 Defender toegang krijgen tot het beheer van incidenten op apparaten, gebruikers en postvakken. 
 
 
 U kunt incidenten beheren door een incident te selecteren in de **wachtrij met incidenten**. 
@@ -64,7 +64,7 @@ Als er nog geen incident is toegewezen, kunt u **toewijzen aan mij** selecteren 
 
 ## <a name="set-status-and-classification"></a>Status en classificatie instellen
 ### <a name="incident-status"></a>Status van incident
-U kunt incidenten (als **actief**of **opgelost**) categoriseren door hun status te wijzigen tijdens het onderzoek. Dit helpt u bij het organiseren en beheren van hoe uw team op incidenten kan reageren.
+U kunt incidenten (als **actief** of **opgelost** ) categoriseren door hun status te wijzigen tijdens het onderzoek. Dit helpt u bij het organiseren en beheren van hoe uw team op incidenten kan reageren.
 
 Uw SOC-analist kan bijvoorbeeld de dringende **actieve** incidenten voor de dag nakijken en besluiten ze aan zichzelf toe te wijzen voor onderzoek.
 

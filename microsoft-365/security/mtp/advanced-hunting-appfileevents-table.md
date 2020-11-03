@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 5cab6e3fe7a3b4b74989dde360c03d58e0bad46f
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 1a7f523e96c0a46c29098f7e5bb2fbb83a4db4bb
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430149"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847654"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430149"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 De `AppFileEvents` tabel in het [Geavanceerde bejachts](advanced-hunting-overview.md) schema bevat informatie over Bestandsactiviteiten in Cloud-apps en services die worden gecontroleerd in de beveiliging van de Microsoft Cloud-app. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
 

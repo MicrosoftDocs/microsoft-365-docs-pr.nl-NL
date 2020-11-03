@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe contoso gebruikmaakt van de beveiligingsfuncties van Microsoft 365 for Enterprise.
-ms.openlocfilehash: d84b1423497a6a4358142902c4e159cc54b3500b
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 8d62dba96ecf19f0dc31af2cf5a2d85257ca19d5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754230"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847104"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 for Enterprise Security voor Contoso Corporation
 
@@ -89,9 +89,9 @@ Als u aanbevolen procedures voor de beveiliging en Microsoft 365 wilt volgen, ge
 
   Contoso gebruikt [Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) voor bescherming tegen malware en antimalwarebeheer voor pc's en apparaten met Windows 10 Enterprise.
 
-- Een veilige e-mailstroom en controlelogboekregistratie voor postvakken met Office 365 Advanced Threat Protection 
+- Logboekregistratie voor e-mail stroom en Postvak controle met Microsoft Defender voor Office 365 
 
-  Contoso gebruikt Exchange Online Protection en [Office 365 ATP (Advanced Threat Protection)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) om zich te beschermen tegen onbekende malware, virussen en schadelijke URL's die worden verstuurd via e-mailberichten.
+  Contoso gebruikt Exchange Online Protection en [Defender voor Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) om te beschermen tegen onbekende malware, virussen en schadelijke url's die via e-mailberichten worden verzonden.
 
   Contoso heeft ook gecontroleerd of de auditlogboek registratie voor postvakken van gebruikers aanmeldt, berichten verzendt en andere activiteiten verricht van de eigenaar van het postvak, een gedelegeerde gebruiker of beheerder.
 
@@ -127,9 +127,9 @@ Als u aanbevolen procedures voor de beveiliging en Microsoft 365 wilt volgen, ge
 
 ## <a name="security-management"></a>Beveiligingsbeheer
 
-- Centraal beveiligingsdashboard voor IT met Azure Security Center
+- Centraal beveiligings dashboard voor IT met Azure Defender *
 
-  Contoso gebruikt het [Azure-Beveiligingscentrum](https://azure.microsoft.com/services/security-center/) voor een uniforme weergave van beveiliging en risico beveiliging, voor het beheren van beveiligingsbeleid voor de werkbelasting en om te reageren op cyberattacks.
+  Contoso gebruikt de functie [Azure Defender *](https://azure.microsoft.com/services/security-center/) om een uniforme weergave van beveiliging en beveiliging van bedreigingen te presenteren, voor het beheren van beveiligingsbeleid voor de werkbelasting en om te reageren op cyberattacks.
 
 - Centraal beveiligingsdashboard voor gebruikers met Windows Defender-beveiligingscentrum
 

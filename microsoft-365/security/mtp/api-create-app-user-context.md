@@ -1,6 +1,6 @@
 ---
-title: Toegang tot Microsoft Threat Protection-Api's met behulp van gebruikersnamen
-description: Meer informatie over het openen van Microsoft Threat Protection-Api's met behulp van gebruikersnamen
+title: Toegang verkrijgen via Microsoft 365 Defender-Api's met behulp van gebruikersnamen
+description: Meer informatie over het openen van Microsoft 365 Defender-Api's met behulp van gebruikersnamen
 keywords: toegang, in naam van gebruiker, API, toepassing, gebruiker, toegangstoken, token,
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,42 +19,42 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: a62d90004d00e8c553f1b011e77b871df7cd94f4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a72bc7648045e5cc37a1d899f9e15237ce29ed37
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197795"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847354"
 ---
-# <a name="access-microsoft-threat-protection-apis-on-behalf-of-user"></a>Toegang tot Api's voor Microsoft Threat Protection namens een gebruiker
+# <a name="access-microsoft-365-defender-apis-on-behalf-of-user"></a>Toegang tot Microsoft 365 Defender-Api's namens een gebruiker
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
 
-Op deze pagina wordt beschreven hoe u een toepassing maakt om via een programma toegang te krijgen tot Microsoft Threat Protection namens een gebruiker.
+Op deze pagina wordt beschreven hoe u een toepassing maakt voor het toegankelijk maken van toegang tot Microsoft 365 Defender namens een gebruiker.
 
-Zie [een app maken om toegang te krijgen tot Microsoft Threat Protection zonder een gebruiker](api-create-app-web.md)als u Microsoft Threat Protection zonder een gebruiker via programmacode moet openen.
+Als u toegang wilt hebben tot Microsoft 365 Defender zonder een gebruiker, raadpleegt u [een app maken om toegang te krijgen tot Microsoft 365 Defender zonder een gebruiker](api-create-app-web.md).
 
-Als u niet zeker weet welke toegang u nodig hebt, raadpleegt u de [Access-api's voor Microsoft Threat Protection](api-access.md).
+Als u niet zeker weet welke toegang u nodig hebt, raadpleegt u de [Access-api's van Microsoft 365 Defender](api-access.md).
 
-Microsoft Threat Protection geeft veel van zijn gegevens en acties getoond via een set programmeer Api's. Met deze Api's kunt u werkstromen en innoveren automatiseren op basis van de mogelijkheden van Microsoft Threat Protection. Voor API-toegang is OAuth 2.0-authenticatie vereist. Voor meer informatie raadpleegt u [OAuth 2,0 Authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
+Microsoft 365 Defender geeft veel van zijn gegevens en acties getoond via een set programmeer Api's. Met deze Api's kunt u werkstromen en innoveren automatiseren op basis van de mogelijkheden van Microsoft 365 Defender. Voor API-toegang is OAuth 2.0-authenticatie vereist. Voor meer informatie raadpleegt u [OAuth 2,0 Authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).
 
 In het algemeen dient u de volgende stappen uit te voeren om de Api's te gebruiken:
 - Een AAD-toepassing maken
 - Een toegangstoken verkrijgen met deze toepassing
-- Het token gebruiken om toegang te krijgen tot de Microsoft Threat Protection API
+- Het token gebruiken om toegang te krijgen tot de Microsoft 365 Defender API
 
-Op deze pagina wordt uitgelegd hoe u een AAD-toepassing maakt, een toegangstoken krijgt voor Microsoft Threat Protection en het token valideert.
+Op deze pagina wordt uitgelegd hoe u een AAD-toepassing maakt, een toegangstoken krijgt voor Microsoft 365 Defender en het token valideert.
 
 >[!NOTE]
-> Wanneer u de Microsoft Threat Protection-API namens een gebruiker opent, hebt u de juiste machtigingen voor de toepassing en de gebruikersmachtigingen nodig.
+> Wanneer u de Microsoft 365-API-API opent namens een gebruiker, hebt u de juiste machtigingen voor de toepassing en de gebruikersmachtigingen nodig.
 
 
 >[!TIP]
@@ -64,7 +64,7 @@ Op deze pagina wordt uitgelegd hoe u een AAD-toepassing maakt, een toegangstoken
 
 1. Meld u aan bij [Azure](https://portal.azure.com) met een gebruiker die de rol van **globale beheerder** heeft.
 
-2. Ga naar de **Azure Active Directory**-  >  **app registraties**  >  **nieuwe registratie**. 
+2. Ga naar de **Azure Active Directory** -  >  **app registraties**  >  **nieuwe registratie**. 
 
    ![Afbeelding van Microsoft Azure en navigatie naar toepassing registreren](../../media/atp-azure-new-app2.png)
 
@@ -76,14 +76,14 @@ Op deze pagina wordt uitgelegd hoe u een AAD-toepassing maakt, een toegangstoken
    - **Type toepassing:** Openbare client
    - **URI omleiden:**https://portal.azure.com
 
-4. Als u de app wilt gebruiken voor toegang tot Microsoft Threat Protection en de machtigingen voor deze persoon wilt toewijzen, selecteert u op de Toepassingspagina **API-machtigingen**de optie API-  >  api's**toevoegen**  >  **Mijn organisatie gebruikt** >, typt u **Microsoft Threat Protection**en selecteert u vervolgens **Microsoft Threat Protection**.
+4. Als u wilt dat de app toegang kan krijgen tot Microsoft 365 Defender en machtigingen toewijzen, selecteert u op de pagina toepassing de optie **API-machtigingen**  >  **toevoegen** aan  >  **Mijn organisatie** de optie >, typt u **Microsoft 365 Defender** en selecteert u vervolgens **Microsoft 365 Defender**.
 
     >[!NOTE]
-    > Microsoft Threat Protection wordt niet weergegeven in de oorspronkelijke lijst. U moet de naam ervan beginnen te schrijven in het tekstvak om de naam weer te geven.
+    > Microsoft 365 Defender wordt niet weergegeven in de oorspronkelijke lijst. U moet de naam ervan beginnen te schrijven in het tekstvak om de naam weer te geven.
 
       ![Afbeelding van API-toegang en API-selectie](../../media/apis-in-my-org-tab.PNG)
 
-    - Kies **gedelegeerde machtigingen** > Kies de relevante machtigingen voor uw scenario, bijvoorbeeld **incident. Read**, en selecteer vervolgens **machtigingen toevoegen**.
+    - Kies **gedelegeerde machtigingen** > Kies de relevante machtigingen voor uw scenario, bijvoorbeeld **incident. Read** , en selecteer vervolgens **machtigingen toevoegen**.
 
       ![Afbeelding van API-toegang en API-selectie](../../media/request-api-permissions-delegated.PNG)
 
@@ -126,5 +126,5 @@ $response.AccessToken
 ```
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Toegang tot de Microsoft Threat Protection-Api's](api-access.md)
-- [Toegang tot Microsoft Threat Protection met toepassingscontext](api-create-app-web.md)
+- [Toegang tot de Microsoft 365 Defender-Api's](api-access.md)
+- [Toegang tot Microsoft 365 Defender met toepassingscontext](api-create-app-web.md)

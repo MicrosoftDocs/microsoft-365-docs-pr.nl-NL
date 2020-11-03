@@ -1,6 +1,6 @@
 ---
-title: Incidenten prioriteren in Microsoft Threat Protection
-description: Meer informatie over het instellen van een prioriteit aan de incidenten wachtrij in Microsoft Threat Protection
+title: Incidenten prioriteren in Microsoft 365 Defender
+description: Meer informatie over het instellen van een prioriteit in de wachtrij voor incidenten in Microsoft 365 Defender
 keywords: incident, wachtrij, overzicht, apparaten, identiteiten, gebruikers, postvak, e-mail, incidenten
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -21,24 +21,24 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 382cfd374c40d0c5a0dd7d7705281bd56263d8b8
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: f681d02cc4af8bd56ba945a3d944798e545bf93c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430821"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846710"
 ---
-# <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Incidenten prioriteren in Microsoft Threat Protection
+# <a name="prioritize-incidents-in-microsoft-365-defender"></a>Incidenten prioriteren in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 
 
-Microsoft Threat Protection past correlatie analyses toe en voegt alle bijbehorende waarschuwingen en onderzoek van verschillende producten samen tot één voorval. Microsoft Threat Protection zorgt ook voor unieke meldingen over activiteiten die alleen als schadelijk kunnen worden geïdentificeerd aan de end-to-end zichtbaarheid van Microsoft Threat Protection voor het hele erfgoed en de suite met producten. Op deze manier beschermt Microsoft Threat Protection het bredere verhaal van een verhaal, waardoor een beveiligings analist de analist begrijpt en begrijpt met ingewikkelde bedreigingen binnen de organisatie.
+Met Microsoft 365 Defender past u correlatie analyses toe en voegt u alle gerelateerde waarschuwingen en onderzoek van verschillende producten samen tot één voorval. Microsoft 365 Defender zorgt ook voor unieke meldingen van activiteiten die alleen als schadelijk kunnen worden geïdentificeerd op basis van de end-to-end detectie van de end-to-end-versie van Microsoft 365 voor het hele erfgoed en de productsuite. Op deze manier wordt in Microsoft 365 Defender het bericht over een bredere aanval met de analist ingesproken, waardoor een beveiligings analist de analist begrijpt en verlegt met ingewikkelde bedreigingen binnen de organisatie.
 
 
 In de **wachtrij incidenten** wordt een verzameling incidenten weergegeven die zijn gemarkeerd voor alle apparaten, gebruikers en postvakken. Met deze functie kunt u een weloverwogen Cyber Security-antwoord beslissing stellen en een weloverwogen antwoord beslissing stellen.
@@ -75,7 +75,7 @@ Filteren om alleen aanvragen weer te geven die meer dan één waarschuwing bevat
 
 
 ### <a name="multiple-service-sources"></a>Meerdere servicebronnen 
-Filteren om alleen incidenten weer te geven die waarschuwingen van verschillende bronnen bevatten (Microsoft Defender ATP, beveiliging van Microsoft Cloud app, Azure ATP, Office 365 ATP)
+Filteren om alleen incidenten weer te geven die waarschuwingen uit verschillende bronnen bevatten (Microsoft Defender for Endpoint, Microsoft Cloud app Security, Microsoft Defender for Identity, Microsoft Defender voor Office 365)
 ### <a name="service-sources"></a>Service bronnen
 Als u een specifieke bron kiest, kunt u zich richten op incidenten met minstens één waarschuwing van de gekozen bron. 
 

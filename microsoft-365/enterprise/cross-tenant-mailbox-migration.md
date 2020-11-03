@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 06a82fda31e602ed2feb53d00e8839daf801bf7e
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: a9f983cebfbed1482fca7e44b77c200cbd9574ac
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277493"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847116"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van cross-Tenant postvak (preview)
 
@@ -97,7 +97,7 @@ De bron Tenant voorbereiden:
 4. Wijzig de map met de bestands map in de naam van het script of Controleer of het script momenteel is opgeslagen op de locatie die u in de externe PowerShell-sessie hebt opgeslagen.
 5. Voer het script uit met de volgende parameters en waarden.
 
-    | Tabelwaardeparameter | Value | Vereist of optioneel
+    | Tabelwaardeparameter | Waarde | Vereist of optioneel
     |---------------------------------------------|-----------------|--------------|
     | -ResourceTenantDomain                       | Tenant domein voor bronnen, zoals fabrikam \. onmicrosoft.com. | Vereist |
     | -ResourceTenantAdminEmail                   | E-mailadres van de bron tenantbeheerder. Dit is de bron tenantbeheerder die wordt doorgestuurd naar het gebruik van de migratietoepassing voor postvakken die van de doel beheerder is verzonden. De beheerder die de e-mail uitnodiging voor de toepassing ontvangt. | Vereist |
@@ -181,7 +181,7 @@ De installatie van doel beheerders is nu voltooid.
 
 7. Voer het script uit met de volgende vereiste parameters en waarden.
 
-    | Tabelwaardeparameter | Value |
+    | Tabelwaardeparameter | Waarde |
     |-----|------|
     | -SourceMailboxMovePublishedScopes | Beveiligingsgroep met e-mail gemaakt door bron Tenant voor de identiteiten/postvakken die binnen het bereik van de migratie liggen. |
     | -ResourceTenantDomain | Naam van bron Tenant domein, bijvoorbeeld fabrikam \. onmicrosoft.com. |
@@ -291,7 +291,7 @@ U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de 
  
     Voorbeeld van een **doel** -MailUser-object:
  
-    | Attribuut             | Value                                                                                                                    |
+    | Attribuut             | Waarde                                                                                                                    |
     |-----------------------|--------------------------------------------------------------------------------------------------------------------------|
     | Alias                 | LaraN                                                                                                                    |
     | RecipientType         | Sharedmailbox                                                                                                                 |
@@ -310,7 +310,7 @@ U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de 
 
    Voorbeeld van een **bron** postvak:
 
-   | Attribuut             | Value                                                                    |
+   | Attribuut             | Waarde                                                                    |
    |-----------------------|--------------------------------------------------------------------------|
    | Alias                 | LaraN                                                                    |
    | RecipientType         | User Mailbox                                                              |
@@ -542,7 +542,7 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
      ```
 
    > [!Note]
-   > Het * \. com-adres contoso. onmicrosoft* is *niet* aanwezig in de matrix EmailAddress/proxyAddresses.
+   > Het *\. com-adres contoso. onmicrosoft* is *niet* aanwezig in de matrix EmailAddress/proxyAddresses.
 
 - **Probleem: gebruikersobjecten met een externe primaire SMTP-adres worden gewijzigd/opnieuw ingesteld op intern geclaimde domeinen**
 
@@ -644,8 +644,8 @@ NT AUTHORITY\SELF                                {FullAccess, ReadPermission}   
    | Microsoft Business Center                         |
    | Microsoft MyAnalytics (volledig)                      |
    | Office 365 Advanced eDiscovery                    |
-   | Office 365 Advanced Threat Protection (abonnement 1)    |
-   | Office 365 Advanced Threat Protection (abonnement 2)    |
+   | Microsoft Defender voor Office 365 (abonnement 1)    |
+   | Microsoft Defender voor Office 365 (abonnement 2)    |
    | Toegangsbeheer voor Office 365-bevoegdheden           |
    | Outlook Customer Manager                          |
    | Premium-codering in Office 365                  |

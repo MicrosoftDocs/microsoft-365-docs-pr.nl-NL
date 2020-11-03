@@ -1,5 +1,5 @@
 ---
-title: Onderzoek incidenten in Microsoft Threat Protection
+title: Gebeurtenissen onderzoeken in Microsoft 365 Defender
 description: Analyseren van incidenten met betrekking tot apparaten, gebruikers en postvakken.
 keywords: incident, incidenten, computers, apparaten, gebruikers, identiteiten, e-mail, e-mail, postvak, onderzoek, Graph, bewijzen
 search.product: eADQiWindows 10XVcnh
@@ -21,33 +21,33 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 7a4e901c016d55115eb79001ff2fc42d2340f8f2
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: a6cdf55b33c91a33675bb4909c0cb08e8561d212
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430595"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846746"
 ---
-# <a name="investigate-incidents-in-microsoft-threat-protection"></a>Onderzoek incidenten in Microsoft Threat Protection
+# <a name="investigate-incidents-in-microsoft-365-defender"></a>Gebeurtenissen onderzoeken in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
 
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-Microsoft Threat Protection integreert alle gerelateerde waarschuwingen, middelen, onderzoeken en bewijzen van op uw apparaten, gebruikers en postvakken, zodat u een allesomvattende uitstraling krijgt voor de hele aanval.
+Microsoft 365 Defender verzamelt alle gerelateerde waarschuwingen, assets, onderzoeken en bewijzen van op uw apparaten, gebruikers en postvakken, zodat u een allesomvattende uitstraling krijgt.
 
 Onderzoek welke meldingen van invloed zijn op uw netwerk, begrijpt wat ze betekenen, en sorteer het bewijs dat u een effectief herstelabonnement kunt opstellen.
 
 ## <a name="investigate-an-incident"></a>Een incident onderzoeken
 
-1. Selecteer een incident in de wachtrij met incidenten. <BR> Hiermee opent u een zijlade en krijgt u een voorbeeld van belangrijke informatie, zoals de status, de ernst, categorieën en de beïnvloede entiteiten.
+1. Selecteer een incident in de wachtrij met incidenten. <BR> Er wordt een deelvenster geopend met een voorbeeld van belangrijke informatie, zoals status, Ernst, categorieën en de beïnvloede entiteiten.
 
     ![Afbeelding van het deelvenster incidenten](../../media/incident-side-panel.png)
 
-2. Selecteer **incident pagina openen**. <BR> De incident pagina wordt geopend, waar u meer informatie kunt vinden over de details van uw incident, opmerkingen en acties, tabbladen (overzicht, waarschuwingen, apparaten, gebruikers, onderzoek, bewijs).
+2. Selecteer **incident pagina openen**. <BR> De incident pagina wordt geopend, waar u meer informatie, opmerkingen en acties, tabbladen (overzicht, waarschuwingen, apparaten, gebruikers, onderzoek, bewijs) kunt vinden.
 
 3. Bekijk de waarschuwingen, apparaten, gebruikers, andere entiteiten die betrokken zijn bij het incident.
 
@@ -57,7 +57,7 @@ De pagina overzicht bevat een overzicht van de belangrijkste punten die u moet w
 
 ![Afbeelding van de pagina overzicht van incidenten](../../media/incidents-overview.png)
 
-De categorieën aanval bieden u een visuele en numerieke weergave van de werking van de aanval waarmee de aanval verloopt. Net zoals bij andere Microsoft-beveiligingsproducten, is Microsoft Threat Protection uitgelijnd met de [Mitre ATT&VERzonken &trade; ](https://attack.mitre.org/) raam.
+De categorieën aanval bieden een visuele en numerieke weergave van de werking van de aanval waarmee de aanval verloopt. Net als met andere Microsoft-beveiligingsproducten is Microsoft 365 Defender uitgelijnd met de [Mitre &trade; att&verzonken](https://attack.mitre.org/) raam.
 
 De sectie bereik biedt een lijst met de meest voorkomende activa die deel uitmaken van dit incident. Als er specifieke informatie is over dit activum, zoals risiconiveau, prioriteit van onderzoek en labels voor de activa, wordt dit ook in deze sectie weergegeven.
 
@@ -69,11 +69,11 @@ Dit overzicht is een overzicht van de belangrijkste kenmerken van het incident w
 
 ## <a name="alerts"></a>Waarschuwingen
 
-U kunt alle meldingen weergeven die zijn gerelateerd aan het incident en andere informatie over de meldingen, zoals Ernst, entiteiten die betrokken zijn bij de waarschuwing, de bron van de waarschuwingen (Azure ATP, Microsoft Defender ATP, Office 365 ATP) en de reden waarop ze zijn gekoppeld.
+U kunt alle meldingen weergeven die zijn gerelateerd aan het incident en andere informatie over de meldingen, zoals Ernst, entiteiten die betrokken zijn bij de waarschuwing, de bron van de waarschuwingen (Microsoft Defender for Identity, Microsoft Defender for Endpoint, Microsoft Defender voor Office 365) en de reden waarop ze zijn gekoppeld.
 
 ![Afbeelding van de pagina incident waarschuwingen](../../media/incident-alerts.png)
 
-Standaard worden de waarschuwingen chronologisch geordend, zodat u eerst kunt zien hoe de aanval gedurende een bepaalde periode wordt afgespeeld. Als u op een melding klikt, gaat u naar de desbetreffende waarschuwingspagina waar u een uitgebreid onderzoek van die waarschuwing kunt uitvoeren.
+Standaard worden de waarschuwingen chronologisch geordend, zodat u eerst kunt zien hoe de aanval gedurende een bepaalde periode wordt afgespeeld. Als u op een melding klikt, gaat u naar de desbetreffende waarschuwingspagina waar u een uitgebreid onderzoek van de melding kunt uitvoeren.
 
 ## <a name="devices"></a>Apparaten
 
@@ -95,21 +95,21 @@ Als u op de gebruikersnaam klikt, gaat u naar de pagina beveiliging van de Cloud
 
 ## <a name="mailboxes"></a>Postbus
 
-Onderzoek postvakken die zijn geïdentificeerd om deel te nemen aan of die zijn gerelateerd aan een incident. Om verder onderzoek te doen, wordt het selecteren van de melding mail gerelateerde geopend en wordt Office 365 Advanced Threat Protection geopend, waar u herstelbewerkingen kunt uitvoeren.
+Onderzoek postvakken die zijn geïdentificeerd om deel te nemen aan of die zijn gerelateerd aan een incident. Om verder onderzoek te doen, wordt het selecteren van de e-mail gerelateerde melding geopend Microsoft Defender voor Office 365, waarop u herstelbewerkingen kunt uitvoeren.
 
 ![Afbeelding van het tabblad Postvak van een incident](../../media/incident-mailboxes.png)
 
 ## <a name="investigations"></a>Tests
 
-Selecteer **onderzoek** om alle geautomatiseerde onderzoeken te zien die zijn geactiveerd door waarschuwingen in dit incident. Het onderzoek voert herstelacties uit of wacht op goedkeuring van de analist van acties, afhankelijk van de manier waarop u uw geautomatiseerde onderzoek hebt geconfigureerd voor het uitvoeren van Microsoft Defender ATP en Office 365 Advanced Threat Protection.
+Selecteer **onderzoek** om alle geautomatiseerde onderzoeken te zien die zijn geactiveerd door waarschuwingen in dit incident. Het onderzoek voert herstelacties uit of wacht op goedkeuring van de analist van acties, afhankelijk van de manier waarop u uw geautomatiseerde onderzoek hebt geconfigureerd voor het uitvoeren van Microsoft Defender voor eindpunten en Defender voor Office 365.
 
 ![Afbeelding van het tabblad onderzoek van een incident](../../media/incident-investigations.png)
 
-Selecteer een onderzoek om te navigeren naar de pagina met het onderzoeksteam voor volledige informatie over de status van onderzoek en herstel. Als er acties in behandeling zijn om te worden goedgekeurd als onderdeel van het onderzoek, worden deze weergegeven op het tabblad acties in behandeling. Onderneem actie als onderdeel van het herstel van incidenten.
+Selecteer een onderzoek om te navigeren naar de pagina met het onderzoeksteam voor volledige informatie over de status van onderzoek en herstel. Als er voor de goedkeuring een actie is ondergebracht, wordt deze weergegeven in het tabblad acties in behandeling. Onderneem actie als onderdeel van het herstel van incidenten.
 
 ## <a name="evidence"></a>Voldoende
 
-Microsoft Threat Protection onderzoekt automatisch de ondersteunde gebeurtenissen en verdachte entiteiten in de waarschuwingen, zodat u automatisch antwoord en informatie krijgt over de belangrijkste bestanden, processen, services, e-mailberichten en meer. Hiermee kunt u potentiële bedreigingen in het incident snel detecteren en blokkeren.
+Microsoft 365 Defender onderzoekt automatisch de ondersteunde gebeurtenissen en verdachte entiteiten in de waarschuwingen, zodat u automatisch antwoord en informatie krijgt over de belangrijkste bestanden, processen, services, e-mailberichten en meer. Hiermee kunt u potentiële bedreigingen in het incident snel detecteren en blokkeren.
 
 ![Afbeelding van het tabblad bewijs van een incident](../../media/incident-evidence.png)
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Dit artikel biedt de meest recente richtlijnen om Microsoft 365-netwerkverbindingen veilig te optimaliseren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7602ee5ac7001b4d4d88232c9528f0bdc731e90b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8036a4759f959a075ad0398e823116491e128c0b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689046"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847010"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Beginselen voor Microsoft 365-netwerkverbindingen
 
@@ -67,7 +67,7 @@ Het primaire doel van het netwerkontwerp moet zijn om de latentie te minimaliser
   
 Het identificeren van Microsoft 365-netwerkverkeer is de eerste stap om dat verkeer te kunnen onderscheiden van generiek internetgebonden netwerkverkeer. Microsoft 365-connectiviteit kan worden geoptimaliseerd door een combinatie van benaderingen te implementeren, zoals netwerkroute-optimalisering, firewallregels, browserproxy-instellingen en omzeilen van netwerkinspectie-apparaten voor bepaalde eindpunten.
   
-Eerdere richtlijnen voor Microsoft 365-optimalisering verdeelden Microsoft 365-eindpunten in twee categorieën, **Vereist** en **Optioneel**. Aangezien er eindpunten zijn toegevoegd om nieuwe Microsoft 365-services en -functies te ondersteunen, hebben we Microsoft 365-eindpunten in drie categorieën gereorganiseerd: **Optimaliseren**, **Toestaan** en **Standaard**. Richtlijnen voor elke categorie zijn van toepassing op alle eindpunten in de categorie, waardoor optimalisering gemakkelijker te begrijpen en te implementeren is.
+Eerdere richtlijnen voor Microsoft 365-optimalisering verdeelden Microsoft 365-eindpunten in twee categorieën, **Vereist** en **Optioneel**. Aangezien er eindpunten zijn toegevoegd om nieuwe Microsoft 365-services en -functies te ondersteunen, hebben we Microsoft 365-eindpunten in drie categorieën gereorganiseerd: **Optimaliseren** , **Toestaan** en **Standaard**. Richtlijnen voor elke categorie zijn van toepassing op alle eindpunten in de categorie, waardoor optimalisering gemakkelijker te begrijpen en te implementeren is.
   
 Zie voor meer informatie over Microsoft 365-eindpuntcategorieën en optimaliseringsmethoden de sectie [Nieuwe Office 365-eindpuntcategorieën](microsoft-365-network-connectivity-principles.md#BKMK_Categories).
   
@@ -143,31 +143,31 @@ Microsoft 365-beheerders kunnen PAC-scripts (Proxy Automatic Configuration) make
 #### <a name="microsoft-365-security-features"></a>Beveiligingsfuncties in Microsoft 365
 <a name="BKMK_WebSvc"> </a>
 
-Microsoft is transparant over datacenterbeveiliging, operationele beveiliging en risicovermindering rond Microsoft 365-servers en de netwerkeindpunten die ze vertegenwoordigen. De ingebouwde beveiligingsfuncties van Microsoft 365 zijn beschikbaar om netwerkbeveiligingsrisico's te verminderen, zoals preventie van gegevensverlies, anti-virus, meervoudige verificatie, Customer Lock Box, geavanceerde bedreigingsbeveiliging, Microsoft 365 Threat Intelligence, Microsoft 365 Secure Score, Exchange Online Protection en netwerk DDOS-beveiliging.
+Microsoft is transparant over datacenterbeveiliging, operationele beveiliging en risicovermindering rond Microsoft 365-servers en de netwerkeindpunten die ze vertegenwoordigen. De ingebouwde beveiligingsfuncties van Microsoft 365 zijn beschikbaar om netwerkbeveiligingsrisico's te verminderen, zoals preventie van gegevensverlies, anti-virus, meervoudige verificatie, Customer Lock Box, Defender voor Office 365, Microsoft 365 Threat Intelligence, Microsoft 365 Secure Score, Exchange Online Protection en netwerk-DDOS-beveiliging.
   
 Zie het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter/security) voor meer informatie over het datacenter van Microsoft en Global Network Security.
   
 ## <a name="new-office-365-endpoint-categories"></a>Nieuwe categorieën met Office 365-eindpunten
 <a name="BKMK_Categories"> </a>
 
-Office 365-eindpunten vertegenwoordigen een gevarieerde reeks netwerkadressen en subnetten. Eindpunten kunnen URL's, IP-adressen of IP-bereiken zijn en sommige eindpunten worden weergegeven met specifieke TCP/UDP-poorten. URL's kunnen een FQDN zijn, zoals *account.office.net*, of een wildcard-URL zoals *\*.office365.com*.
+Office 365-eindpunten vertegenwoordigen een gevarieerde reeks netwerkadressen en subnetten. Eindpunten kunnen URL's, IP-adressen of IP-bereiken zijn en sommige eindpunten worden weergegeven met specifieke TCP/UDP-poorten. URL's kunnen een FQDN zijn, zoals *account.office.net* , of een wildcard-URL zoals *\*.office365.com*.
   
 > [!NOTE]
 > De locaties van Office 365-eindpunten binnen het netwerk zijn niet rechtstreeks gerelateerd aan de locatie van de Microsoft 365-Tenantgegevens. Om deze reden moeten klanten Microsoft 365 beschouwen als een gedistribueerde en wereldwijde service en mogen ze niet proberen netwerkverbindingen met Office 365-eindpunten te blokkeren op basis van geografische criteria.
   
 In onze vorige richtlijnen voor het beheren van Microsoft 365-verkeer waren eindpunten onderverdeeld in twee categorieën, **vereist** en **optioneel**. Eindpunten binnen elke categorie vereisten verschillende optimalisaties, afhankelijk van de ernst van de service. Veel klanten kwamen voor uitdagingen te staan bij het rechtvaardigen van de toepassing van dezelfde netwerkoptimalisaties op de volledige lijst met Office 365-URL's en IP-adressen.
   
-In het nieuwe model worden eindpunten onderverdeeld in drie categorieën,** Optimaliseren**, **Toestaan** en **Standaard**, waardoor een op prioriteiten gebaseerd eindpunt wordt geboden waarop netwerkoptimaliseringsinspanningen moeten worden gericht om de beste prestatieverbeteringen en het beste rendement te realiseren. De eindpunten zijn geconsolideerd in de bovenstaande categorieën op basis van de gevoeligheid van de effectieve gebruikerservaring voor netwerkkwaliteit, volume, de prestaties van scenario's en het implementatiegemak. Aanbevolen optimalisaties kunnen op dezelfde manier worden toegepast op alle eindpunten in een bepaalde categorie.
+In het nieuwe model worden eindpunten onderverdeeld in drie categorieën, **Optimaliseren** , **Toestaan** en **Standaard** , waardoor een op prioriteiten gebaseerd eindpunt wordt geboden waarop netwerkoptimaliseringsinspanningen moeten worden gericht om de beste prestatieverbeteringen en het beste rendement te realiseren. De eindpunten zijn geconsolideerd in de bovenstaande categorieën op basis van de gevoeligheid van de effectieve gebruikerservaring voor netwerkkwaliteit, volume, de prestaties van scenario's en het implementatiegemak. Aanbevolen optimalisaties kunnen op dezelfde manier worden toegepast op alle eindpunten in een bepaalde categorie.
   
-- Het **optimaliseren**-eindpunten zijn vereist voor connectiviteit met elke Office 365 service en vertegenwoordigen meer dan 75% van de Office 365-bandbreedte, verbindingen en datavolume. Deze eindpunten vertegenwoordigen Office 365-scenario's die het gevoeligst zijn voor netwerkprestaties, latentie en beschikbaarheid. Alle eindpunten worden gehost in Microsoft-datacenters. De mate van verandering van de eindpunten in deze categorie zal naar verwachting veel lager zijn dan voor de eindpunten in de andere twee categorieën. Deze categorie bevat een klein aantal (een stuk of 10) sleutel-URL's en een gedefinieerde reeks IP-subnetten die zijn bedoeld voor de belangrijkste Office 365-workloads, zoals Exchange Online, SharePoint Online, Skype voor Bedrijven Online en Microsoft Teams.
+- Het **optimaliseren** -eindpunten zijn vereist voor connectiviteit met elke Office 365 service en vertegenwoordigen meer dan 75% van de Office 365-bandbreedte, verbindingen en datavolume. Deze eindpunten vertegenwoordigen Office 365-scenario's die het gevoeligst zijn voor netwerkprestaties, latentie en beschikbaarheid. Alle eindpunten worden gehost in Microsoft-datacenters. De mate van verandering van de eindpunten in deze categorie zal naar verwachting veel lager zijn dan voor de eindpunten in de andere twee categorieën. Deze categorie bevat een klein aantal (een stuk of 10) sleutel-URL's en een gedefinieerde reeks IP-subnetten die zijn bedoeld voor de belangrijkste Office 365-workloads, zoals Exchange Online, SharePoint Online, Skype voor Bedrijven Online en Microsoft Teams.
 
     Een beknopte lijst met goed gedefinieerde kritieke eindpunten zou u moeten helpen om hoogwaardige netwerkoptimalisering voor deze bestemmingen sneller en gemakkelijker te plannen en te implementeren.
 
-    Voorbeelden van *optimaliseren*-eindpunten zijn *https://outlook.office365.com*, *https://\<tenant\>.sharepoint.com* en *https://\<tenant\>-my.sharepoint.com*.
+    Voorbeelden van *optimaliseren* -eindpunten zijn *https://outlook.office365.com* , *https://\<tenant\>.sharepoint.com* en *https://\<tenant\>-my.sharepoint.com*.
 
     Optimaliseringsmethoden zijn:
 
-  - *Optimaliseren*-eindpunten omzeilen op netwerkapparaten en services die verkeersinterceptie, SSL-decodering, deep packet-inspectie en inhoudsfiltering uitvoeren.
+  - *Optimaliseren* -eindpunten omzeilen op netwerkapparaten en services die verkeersinterceptie, SSL-decodering, deep packet-inspectie en inhoudsfiltering uitvoeren.
   - Omzeil lokale proxy-apparaten en cloudgebaseerde proxyservices die vaak worden gebruikt voor algemeen surfen op internet.
   - Geef prioriteit aan de evaluatie van deze eindpunten als volledig vertrouwd door uw netwerkinfrastructuur en perimetersystemen.
   - Geef prioriteit aan het verminderen of elimineren van WAN-backhauling, en faciliteer direct gedistribueerd uitgaand verkeer via internet voor deze eindpunten, zo dicht mogelijk bij gebruikers/filialen.
@@ -175,21 +175,21 @@ In het nieuwe model worden eindpunten onderverdeeld in drie categorieën,** Opti
   - Zorg ervoor dat IP-adressen die worden geretourneerd door DNS-naamomzetting overeenkomen met het uitgaande pad voor routering voor deze eindpunten.
   - Geef prioriteit aan deze eindpunten voor SD-WAN-integratie voor directe routering met minimale latentie naar het dichtstbijzijnde internetpeering-punt van het wereldwijde Microsoft-netwerk.
 
-- **Toestaan**-eindpunten zijn vereist voor verbindingen met specifieke services en functies van Office 365, maar zijn niet zo gevoelig voor netwerkprestaties en latentie als in de categorie *Optimaliseren*. De totale netwerkvoetafdruk van deze eindpunten vanuit het oogpunt van bandbreedte en aantal verbindingen is ook kleiner. Deze eindpunten zijn specifiek voor Office 365 en worden gehost in Microsoft-datacenters. Ze vertegenwoordigen een brede reeks Office 365-microservices en hun afhankelijkheden (een stuk of 100 URL's) en zullen naar verwachting sneller veranderen dan die in de categorie *Optimaliseren*. Niet alle eindpunten in deze categorie zijn gekoppeld aan gedefinieerde toegewezen IP-subnetten.
+- **Toestaan** -eindpunten zijn vereist voor verbindingen met specifieke services en functies van Office 365, maar zijn niet zo gevoelig voor netwerkprestaties en latentie als in de categorie *Optimaliseren*. De totale netwerkvoetafdruk van deze eindpunten vanuit het oogpunt van bandbreedte en aantal verbindingen is ook kleiner. Deze eindpunten zijn specifiek voor Office 365 en worden gehost in Microsoft-datacenters. Ze vertegenwoordigen een brede reeks Office 365-microservices en hun afhankelijkheden (een stuk of 100 URL's) en zullen naar verwachting sneller veranderen dan die in de categorie *Optimaliseren*. Niet alle eindpunten in deze categorie zijn gekoppeld aan gedefinieerde toegewezen IP-subnetten.
 
-    Netwerkoptimalisering voor *Toestaan*-eindpunten kunnen de Office 365-gebruikerservaring verbeteren, maar sommige klanten kunnen ervoor kiezen om die optimalisaties nauwkeuriger te beperken, om wijzigingen in hun netwerk te minimaliseren.
+    Netwerkoptimalisering voor *Toestaan* -eindpunten kunnen de Office 365-gebruikerservaring verbeteren, maar sommige klanten kunnen ervoor kiezen om die optimalisaties nauwkeuriger te beperken, om wijzigingen in hun netwerk te minimaliseren.
 
-    Voorbeelden van *Toestaan*-eindpunten zijn *https://\*.protection.outlook.com* en *https://accounts.accesscontrol.windows.net*.
+    Voorbeelden van *Toestaan* -eindpunten zijn *https://\*.protection.outlook.com* en *https://accounts.accesscontrol.windows.net*.
 
     Optimaliseringsmethoden zijn:
 
-  - *Toestaan*-eindpunten omzeilen op netwerkapparaten en services die verkeersinterceptie, SSL-decodering, deep packet-inspectie en inhoudsfiltering uitvoeren.
+  - *Toestaan* -eindpunten omzeilen op netwerkapparaten en services die verkeersinterceptie, SSL-decodering, deep packet-inspectie en inhoudsfiltering uitvoeren.
   - Geef prioriteit aan de evaluatie van deze eindpunten als volledig vertrouwd door uw netwerkinfrastructuur en perimetersystemen.
   - Geef prioriteit aan het verminderen of elimineren van WAN-backhauling, en faciliteer direct gedistribueerd uitgaand verkeer via internet voor deze eindpunten, zo dicht mogelijk bij gebruikers/filialen.
   - Zorg ervoor dat IP-adressen die worden geretourneerd door DNS-naamomzetting overeenkomen met het uitgaande pad voor routering voor deze eindpunten.
   - Geef prioriteit aan deze eindpunten voor SD-WAN-integratie voor directe routering met minimale latentie naar het dichtstbijzijnde internetpeering-punt van het wereldwijde Microsoft-netwerk.
 
-- **Standaard**-eindpunten vertegenwoordigen Office 365-services en -afhankelijkheden die niet hoeven te worden geoptimaliseerd en die door klantnetwerken kunnen worden behandeld als normaal internetverkeer. Sommige eindpunten in deze categorie worden mogelijk niet gehost in Microsoft-datacenters. Voorbeelden hiervan zijn *https://odc.officeapps.live.com* en *https://appexsin.stb.s-msn.com*.
+- **Standaard** -eindpunten vertegenwoordigen Office 365-services en -afhankelijkheden die niet hoeven te worden geoptimaliseerd en die door klantnetwerken kunnen worden behandeld als normaal internetverkeer. Sommige eindpunten in deze categorie worden mogelijk niet gehost in Microsoft-datacenters. Voorbeelden hiervan zijn *https://odc.officeapps.live.com* en *https://appexsin.stb.s-msn.com*.
 
 Zie het artikel [Office 365-eindpunten beheren](managing-office-365-endpoints.md) voor meer informatie over de methoden voor netwerkoptimalisering in Office 365.
   

@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Overzicht: informatie over de migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: a77dc43c4c30992d2e50aad94878f9269573db52
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 23ccc30bab5d1045e4716cd637899e20362fc597
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327115"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846938"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Migratie van Microsoft Cloud Deutschland naar Office 365-Services in de nieuwe Duitse datacenter gebieden
 
@@ -133,7 +133,7 @@ De volgende 15 Services zijn beschikbaar in de cloudservice van Microsoft Cloud 
 3. Groepen (moderne groepen)
 4. Delve-profiel
 5. Exchange Online Protection
-6. Advanced Threat Protection (ATP)
+6. Defender voor Office 365
 7. Advanced eDiscovery
 8. Voorschot gegevensbeheer
 9. SharePoint Online
@@ -153,7 +153,7 @@ Er zijn momenteel 29 services beschikbaar als onderdeel van Office 365-Services 
 5. MyAnalytics
 6. Workplace Analytics
 7. Exchange Online Protection
-8. Advanced Threat Protection (ATP)
+8. Defender voor Office 365
 9. Advanced eDiscovery
 10. Geavanceerd beveiligingsbeheer
 11. Information Rights Management
@@ -221,7 +221,7 @@ Tijdens de migratie van Microsoft Cloud Deutschland naar Office 365-Services, wo
 | Office 365 a1 voor faculteiten \_ de ( \_ STANDARDWOFFPACK \_ -faculteit de) | Office 365 a1 voor faculteiten (STANDARDWOFFPACK \_ -faculteit) |
 | Office 365 a1 voor studenten en \_ de STANDARDWOFFPACK \_ leerling/student \_ de | Office 365 a1 voor studenten (STANDARDWOFFPACK \_ leerling) |
 | Office 365 Advanced compliance \_ de (EQUIVIO \_ Analytics \_ de) | Naleving van Microsoft 365 E5 (naleving van informatie \_ bescherming \_ ) |
-| Office 365 Advanced Threat Protection (abonnement 1) \_ de (ATP \_ Enterprise \_ de) | Office 365 Advanced Threat Protection (abonnement 1) (ATP \_ Enterprise) |
+|Microsoft Defender voor Office 365 (abonnement 1) \_ de (ATP \_ Enterprise \_ de) |Microsoft Defender voor Office 365 (abonnement 1) (ATP \_ Enterprise) |
 | Office 365 Business Essentials the \_ (O365 \_ Business \_ Essentials \_ de) | Microsoft 365 Business Basic (O365 \_ Business \_ Essentials) |
 | Office 365 Business Premium \_ de (O365 \_ Business \_ Premium \_ -de) | Microsoft 365 Business Standard (O365 \_ Business \_ Premium) |
 | Office 365 Business \_ de (O365 \_ Business \_ de) | Microsoft 365-apps voor bedrijven (O365 \_ Business) |

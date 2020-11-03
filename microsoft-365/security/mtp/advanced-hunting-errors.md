@@ -1,5 +1,5 @@
 ---
-title: Fouten afhandelen in de geavanceerde jacht voor Microsoft Threat Protection
+title: Fouten oplossen in de geavanceerde jacht voor Microsoft 365 Defender
 description: Wat zijn de fouten die worden weergegeven bij gebruik van geavanceerde jacht
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema, kusto, timeout, bronnen, fouten, onbekende fout, limieten, quota, parameter, toewijzing
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 8b9c46e312d28c7a08efbfa74f96dc33b90fee0a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a5379db66034ecfe537f7d9effdd83f6c41bfd58
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636891"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846890"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Geavanceerde jacht-fouten verwerken
 
@@ -45,6 +45,6 @@ Met geavanceerde jacht worden fouten weergegeven om te melden bij syntaxisfouten
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Best practices voor geavanceerde jacht](advanced-hunting-best-practices.md)
-- [Quota en gebruiks parameters](advanced-hunting-limits.md)
+- [Quota en gebruiksparameters](advanced-hunting-limits.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Overzicht van Kusto query taal](https://docs.microsoft.com/azure/data-explorer/kusto/query/)

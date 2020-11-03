@@ -1,5 +1,5 @@
 ---
-title: Geavanceerde jacht-quota's en gebruiks parameters in Microsoft Threat Protection
+title: Geavanceerde jacht-quota's en gebruiks parameters in Microsoft 365 Defender
 description: Meer informatie over diverse quota's en gebruiks parameters (Service limieten) waarmee de Advanced USMT-service kan reageren
 keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema, kusto, processorlimiet, query limiet, bronnen, maximum resultaten, quota, parameters, toewijzing
 search.product: eADQiWindows 10XVcnh
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 192fb47aafdd20bd5e1f0774a64ec3215f1203d1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bab63d9e5939f87f6a1edbf62d256b82552e4fe9
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636903"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48847366"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>Geavanceerde jacht-quota's en gebruiks parameters
 
@@ -32,7 +32,7 @@ ms.locfileid: "48636903"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 Als u de service wilt blijven gebruiken, stelt u in geavanceerde jacht diverse quota's en gebruiks parameters in (ook wel ' service limieten ' genoemd). Deze quota's en parameters zijn van toepassing op handmatig en door [aangepaste detectieregels](custom-detection-rules.md)worden uitgevoerd. Klanten die regelmatig meerdere query's uitvoeren, moeten verbruik bijhouden en [Best practices toepassen](advanced-hunting-best-practices.md) om onderbrekingen te beperken.
 
