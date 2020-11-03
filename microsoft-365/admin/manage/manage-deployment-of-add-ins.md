@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Informatie over het implementeren van invoegtoepassingen voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het Beheercentrum.
-ms.openlocfilehash: 20ebdfd2072c49fabadcbaf66dead54e75f9becd
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 9708ec9877c4d07b0cf93ea9d6815303236eff4b
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304790"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830635"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Invoegtoepassingen implementeren in het beheercentrum
 
@@ -63,33 +63,33 @@ Zie [bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor
   
 1. Ga in het Beheercentrum naar de pagina **Settings** met \> **invoegtoepassingen** voorinstellingen. Als u de pagina met **invoeg** toepassingen niet ziet, gaat u naar de pagina met invoegtoepassingen voor de **instellingen** voor \> **geïntegreerde apps** \> **Add-ins** .
     
-2. Selecteer **invoegtoepassing implementeren** boven aan de pagina en selecteer **volgende**.
+2. Selecteer **invoegtoepassing implementeren** boven aan de pagina en selecteer **volgende** .
  
     > [!NOTE]
-    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen**van de  >  **geïntegreerde apps**te gaan. Kies invoeg **toepassingen**op de bovenkant van de pagina **geïntegreerde apps** .
+    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen** van de  >  **geïntegreerde apps** te gaan. Kies invoeg **toepassingen** op de bovenkant van de pagina **geïntegreerde apps** .
     
 3. Selecteer een optie en volg de instructies.
   
 4. Als u de optie voor het toevoegen van een invoegtoepassing uit de Office Store hebt geselecteerd, maakt u de selectie van de invoegtoepassing. </br>
 
-    U kunt beschikbare invoegtoepassingen op Categorieën weergeven: **voorgesteld voor u**, **beoordeling**of **naam**. Alleen gratis invoegtoepassingen zijn beschikbaar in de Office Store. Betaalde invoegtoepassingen worden momenteel niet ondersteund. Wanneer u een invoegtoepassing hebt geselecteerd, accepteert u de voorwaarden om door te gaan. <br/> 
+    U kunt beschikbare invoegtoepassingen op Categorieën weergeven: **voorgesteld voor u** , **beoordeling** of **naam** . Alleen gratis invoegtoepassingen zijn beschikbaar in de Office Store. Betaalde invoegtoepassingen worden momenteel niet ondersteund. Wanneer u een invoegtoepassing hebt geselecteerd, accepteert u de voorwaarden om door te gaan. <br/> 
 
     > [!NOTE] 
-    > Met de optie Office Store worden updates en verbeteringen automatisch aan gebruikers toegevoegd.
+    > Met de optie Office Store worden updates en verbeteringen automatisch geïmplementeerd voor gebruikers.
 
-5. Selecteer op de volgende pagina **iedereen**, **specifieke gebruikers/groepen**, of **alleen ik** wil opgeven met wie de invoegtoepassing wordt geïmplementeerd. Gebruik het vak Zoeken om specifieke gebruikers of groepen te vinden. <br/>
+5. Selecteer op de volgende pagina **iedereen** , **specifieke gebruikers/groepen** , of **alleen ik** wil opgeven met wie de invoegtoepassing wordt geïmplementeerd. Gebruik het vak Zoeken om specifieke gebruikers of groepen te vinden. <br/>
 
     > [!NOTE] 
     > Zie [Staten van invoegtoepassingen](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center.md)voor meer informatie over andere statussen die van toepassing zijn op een invoegtoepassing.
   
-6. Selecteer **implementeren**.
+6. Selecteer **implementeren** .
   
 7. Wanneer de invoegtoepassing wordt geïmplementeerd, wordt een groen vinkje weergegeven. Volg de instructies op de pagina om de invoegtoepassing te testen.
 
     > [!NOTE]
     > Gebruikers moeten mogelijk Office opnieuw starten om het pictogram van de invoegtoepassing weer te geven op het lint van de app. Het kan 24 uur duren voordat Outlook-invoegtoepassingen worden weergegeven op het lint van de app.
     
-8. Selecteer **volgende**wanneer u klaar bent. Als u alleen aan uzelf hebt gedistribueerd, kunt u **wijzigen wie toegang heeft tot de invoegtoepassing** selecteren om meer gebruikers te implementeren.
+8. Selecteer **volgende** wanneer u klaar bent. Als u alleen aan uzelf hebt gedistribueerd, kunt u **wijzigen wie toegang heeft tot de invoegtoepassing** selecteren om meer gebruikers te implementeren.
 
     Als u de invoegtoepassing hebt geïmplementeerd voor andere leden van uw organisatie, volgt u de instructies voor het aankondigen van de implementatie van de invoegtoepassing. <br/>
   

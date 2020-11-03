@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
 description: In dit artikel vindt u informatie over het uitvoeren van algemene beheertaken voor Microsoft 365-groepen in PowerShell.
-ms.openlocfilehash: c1aa551597644b7f41c3445a791ea27579464f7b
-ms.sourcegitcommit: 1423e08a02d30f0a2b993fb99325c3f499c31787
+ms.openlocfilehash: 1cad2aa39a6b106cbb4dbfbafa995899b2442ed1
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277481"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830613"
 ---
 # <a name="manage-microsoft-365-groups-with-powershell"></a>Microsoft 365-groepen beheren met PowerShell
 
@@ -114,7 +114,7 @@ Nadat deze instellingen zijn ingeschakeld, kunnen de groepseigenaar een classifi
 ## <a name="hide-microsoft-365-groups-from-the-global-address-list"></a>Microsoft 365 groepen verbergen in de algemene adreslijst.
 <a name="BKMK_CreateClassification"> </a>
 
-U kunt opgeven of een Microsoft 365-groep moet worden weergegeven in de algemene adreslijst (GAL) en in de andere lijsten van uw organisatie. Als u bijvoorbeeld een juridische afdeling hebt die u niet wilt weergeven in de adreslijst, kunt u ervoor zorgen dat de groep niet meer wordt weergegeven in de algemene adreslijst. Voer de cmdlet Set-Unified Group uit om de groep te verbergen in de adreslijst, zoals hier:
+U kunt opgeven of een Microsoft 365-groep moet worden weergegeven in de algemene adreslijst (GAL) en in de andere lijsten van uw organisatie. Als u bijvoorbeeld een juridische afdeling hebt die u niet wilt weergeven in de adreslijst, kunt u ervoor zorgen dat de groep niet meer wordt weergegeven in de algemene adreslijst. Voer de Set-Unified groep-cmdlet uit om de groep te verbergen in de adreslijst, zoals hier:
 
 ```powershell
 Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $true
@@ -125,7 +125,7 @@ Set-UnifiedGroup -Identity "Legal Department" -HiddenFromAddressListsEnabled $tr
 
 Als u niet wilt dat gebruikers van andere organisaties een e-mailbericht verzenden naar een Microsoft 365-groep, kunt u de instellingen voor die groep wijzigen. Met deze optie kunnen alleen interne gebruikers een e-mailbericht sturen naar uw groep. Als een externe gebruiker een bericht naar die groep probeert te sturen, wordt dit genegeerd.
 
-Voer de cmdlet Set-UnifiedGroup uit om deze instelling bij te werken, zoals hier:
+Voer de Set-UnifiedGroup cmdlet uit om deze instelling bij te werken, zoals hier:
 
 ```powershell
 Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationEnabled $true
@@ -150,7 +150,7 @@ Set-UnifiedGroup -Identity "MailaTip Group" -MailTip "This group has a MailTip" 
 
 ## <a name="change-the-display-name-of-the-microsoft-365-group"></a>De weergavenaam van de Microsoft 365-groep wijzigen
 
-De weergavenaam geeft de naam van de Microsoft 365-groep aan. U kunt deze naam zien in uw Exchange Admin Center of het Microsoft 365-Beheercentrum. U kunt de weergavenaam van de groep wijzigen of een weergavenaam toewijzen aan een bestaande groep Microsoft 365 door de opdracht set-UnifiedGroup uit te voeren:
+De weergavenaam geeft de naam van de Microsoft 365-groep aan. U kunt deze naam zien in uw Exchange Admin Center of het Microsoft 365-Beheercentrum. U kunt de weergavenaam van de groep wijzigen of een weergavenaam toewijzen aan een bestaande groep Microsoft 365 door de opdracht Set-UnifiedGroup uit te voeren:
 
 ```powershell
 Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
@@ -181,10 +181,10 @@ De volgende cmdlets kunnen worden gebruikt met Microsoft 365 groepen.
 |:-----|:-----|
 |[Get-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616182) <br/> |Gebruik deze cmdlet om bestaande Microsoft 365-groepen te zoeken en om eigenschappen van het groepsobject te bekijken.  <br/> |
 |[Set-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616189) <br/> |De eigenschappen van een bepaalde Microsoft 365-groep bijwerken  <br/> |
-|[New-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |Maak een nieuwe groep Microsoft 365. Deze cmdlet biedt een minimale set parameters. Voor het instellen van waarden voor uitgebreide eigenschappen gebruikt u set-UnifiedGroup nadat u de nieuwe groep hebt gemaakt.  <br/> |
+|[New-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616183) <br/> |Maak een nieuwe groep Microsoft 365. Deze cmdlet biedt een minimale set parameters. Als u waarden wilt instellen voor uitgebreide eigenschappen, gebruikt u Set-UnifiedGroup nadat u de nieuwe groep hebt gemaakt.  <br/> |
 |[Remove-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616186) <br/> |Een bestaande Microsoft 365-groep verwijderen  <br/> |
 |[Get-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616194) <br/> |Gegevens voor lidmaatschap en eigenaar ophalen voor een Microsoft 365-groep  <br/> |
-|[Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |Honderden of duizenden gebruikers, of nieuwe eigenaren, toevoegen aan een bestaande Microsoft 365-groep  <br/> |
+|[Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191) <br/> |Leden, eigenaren en abonnees toevoegen aan een bestaande Microsoft 365-groep <br/> |
 |[Remove-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616195) <br/> |Leden en eigenaren verwijderen uit een bestaande Microsoft 365-groep  <br/> |
 |[Get-UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536510) <br/> |Wordt gebruikt om informatie weer te geven over de foto van een gebruiker die is gekoppeld aan een account. Foto's van gebruikers worden opgeslagen in Active Directory  <br/> |
 |[Set-UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536511) <br/> |Wordt gebruikt om een gebruikers foto aan een account te koppelen. Foto's van gebruikers worden opgeslagen in Active Directory  <br/> |
@@ -194,7 +194,7 @@ De volgende cmdlets kunnen worden gebruikt met Microsoft 365 groepen.
 
 [Distributielijsten upgraden naar Microsoft 365-groepen](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 
-[Beheren wie Microsoft 365-groepen kunnen maken](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
+[Beheren wie Microsoft 365-groepen kunnen](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups) maken
 
 [Gasttoegang tot Microsoft 365-groepen beheren](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 

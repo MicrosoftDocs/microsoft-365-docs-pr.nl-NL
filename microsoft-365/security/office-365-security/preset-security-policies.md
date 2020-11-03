@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over het toepassen van standaard-en strikte beleidsinstellingen in de beveiligingsfuncties van Exchange Online Protection (EOP) en Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: 8431d36779069b0b289a2533fbd6b85abee24536
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: a624d48944965c217fb8547e4f09da0ec388e615
+ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326541"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48830535"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Office 365 ATP
 
@@ -44,40 +44,40 @@ Daarnaast is de volgorde van prioriteit belangrijk als er meerdere vooraf ingest
 
 Een profiel bepaalt het beschermingsniveau. De volgende profielen zijn beschikbaar:
 
-- **Standaard bescherming**: een profiel voor basisbescherming dat geschikt is voor de meeste gebruikers.
-- **Stringente bescherming**: een meer agressief beveiligingsprofiel voor geselecteerde gebruikers (doelgroepen met hoge waarden of gebruikersprioriteit).
+- **Standaard bescherming** : een profiel voor basisbescherming dat geschikt is voor de meeste gebruikers.
+- **Stringente bescherming** : een meer agressief beveiligingsprofiel voor geselecteerde gebruikers (doelgroepen met hoge waarden of gebruikersprioriteit).
 
 U gebruikt regels met voorwaarden en uitzonderingen om te bepalen wie er profielen zijn of waarop niet wordt toegepast.
 
-U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
+U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_ ).
 
 Dit zijn de beschikbare voorwaarden en uitzonderingen:
 
-- **De geadresseerden zijn**: postvakken, e-mail gebruikers of contactpersonen in uw organisatie.
-- **De geadresseerden zijn lid van**: groepen in uw organisatie.
-- **De domeinen van de ontvanger zijn**: geaccepteerde domeinen die zijn geconfigureerd in microsoft 365.
+- **De geadresseerden zijn** : postvakken, e-mail gebruikers of contactpersonen in uw organisatie.
+- **De geadresseerden zijn lid van** : groepen in uw organisatie.
+- **De domeinen van de ontvanger zijn** : geaccepteerde domeinen die zijn geconfigureerd in microsoft 365.
 
 ### <a name="policies-in-preset-security-policies"></a>Beleidsregels in vooraf ingesteld beveiligingsbeleid
 
 Vooraf ingesteld beveiligingsbeleid Gebruik de bijbehorende beleidsregels van de verschillende beveiligingsfuncties in EOP en Office 365 ATP. Deze beleidsregels worden gemaakt _nadat_ u de vooraf ingestelde beveiligings beleidsregels **Standaardbeveiliging** of **strikte beveiliging** aan gebruikers hebt toegewezen. U kunt deze beleidsregels niet wijzigen.
 
-- **Beleid voor Exchange Online Protection (EOP)**: Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
+- **Beleid voor Exchange Online Protection (EOP)** : Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
   
-  - [Anti spam beleid](configure-your-spam-filter-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikte beveiligingsbeleid**.
-  - [Beleidsregels voor anti-malware](configure-anti-malware-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikt vooraf ingesteld beveiligingsbeleid**.
+  - [Anti spam beleid](configure-your-spam-filter-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikte beveiligingsbeleid** .
+  - [Beleidsregels voor anti-malware](configure-anti-malware-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikt vooraf ingesteld beveiligingsbeleid** .
   - [EOP anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid** (spoof instellingen).
 
-- **Office 365 Advanced Threat Protection (ATP)-beleidsregels**: Dit omvat organisaties met microsoft 365 E5 of Office 365 ATP-uitbreidings abonnementen:
+- **Office 365 Advanced Threat Protection (ATP)-beleidsregels** : Dit omvat organisaties met microsoft 365 E5 of Office 365 ATP-uitbreidings abonnementen:
 
-  - ATP anti-phishingfilter met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid**, waaronder:
+  - ATP anti-phishingfilter met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid** , waaronder:
 
     - De [instellingen voor spoofing](set-up-anti-phishing-policies.md#spoof-settings) die beschikbaar zijn in het anti-phishings beleid van EOP.
     - [Imitatie-instellingen](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
     - [Geavanceerde phishingberichten](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
 
-  - [Beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md) met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid**.
+  - [Beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md) met de naam **standaard vooraf ingesteld beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid** .
 
-  - [Beleidsregels voor veilige bijlagen](set-up-atp-safe-attachments-policies.md) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid**.
+  - [Beleidsregels voor veilige bijlagen](set-up-atp-safe-attachments-policies.md) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid** .
 
 U kunt EOP-bescherming toepassen op verschillende gebruikers dan ATP-beveiligingen.
 
@@ -114,17 +114,18 @@ Met andere woorden: de instellingen van het **strikte beveiligings** beleid nege
   - Voor alleen-lezen toegang voor vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van een van de volgende groepen rollen:
 
     - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+    - **Algemene lezer** in de [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
     - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Met behulp van het compliance-beveiligings & u vooraf ingestelde beveiligingsbeleidsregels aan gebruikers toewijzen
 
-1. Ga in het beveiligings & nalevings centrum naar **Threat management** \> **Policy** \> **vooraf gedefinieerde beveiligingsbeleid**van het beleid voor bedreigings beheer.
+1. Ga in het beveiligings & nalevings centrum naar **Threat management** \> **Policy** \> **vooraf gedefinieerde beveiligingsbeleid** van het beleid voor bedreigings beheer.
 
-2. Klik onder **Standaardbeveiliging** of **strikte beveiliging**op **bewerken**.
+2. Klik onder **Standaardbeveiliging** of **strikte beveiliging** op **bewerken** .
 
 3. De wizard **Standaardbeveiliging toepassen** of **strikte beveiliging toepassen** . Identificeer op de **EOP-beveiligingstoepassing voor** stap de interne geadresseerden waarop de [EOP-bescherming](#policies-in-preset-security-policies) van toepassing is:
 
-   1. Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als**:
+   1. Klik op **een voorwaarde toevoegen** . Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als** :
 
       - **De geadresseerden zijn**
       - **De geadresseerden zijn lid van**
@@ -138,23 +139,23 @@ Met andere woorden: de instellingen van het **strikte beveiligings** beleid nege
 
       Herhaal de vorige stap om waarden toe te voegen aan de voorwaarde en herhaal deze stap zo vaak als nodig is of pas de voorwaarden af.
 
-   4. Als u een uitzondering wilt toevoegen, klikt u op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven, **behalve wanneer**. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   4. Als u een uitzondering wilt toevoegen, klikt u op **een voorwaarde toevoegen** . Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven, **behalve wanneer** . De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
-   Wanneer u klaar bent, klikt u op **volgende**.
+   Wanneer u klaar bent, klikt u op **volgende** .
 
 4. Als uw organisatie Office 365 ATP heeft, wordt u aangeraden de **ATP-beveiligingstoepassing** uit te voeren voor de interne geadresseerden waarop de [Office 365 ATP-beveiligingsmaatregelen](#policies-in-preset-security-policies) van toepassing zijn.
 
    De instellingen en het gedrag lijken exact op de **EOP-bescherming van toepassing op** stap.
 
-   Wanneer u klaar bent, klikt u op **volgende**.
+   Wanneer u klaar bent, klikt u op **volgende** .
 
-5. Controleer uw selecties in de stap **bevestigen** en klik vervolgens op **bevestigen**.
+5. Controleer uw selecties in de stap **bevestigen** en klik vervolgens op **bevestigen** .
 
 ### <a name="use-the-security--compliance-center-to-modify-the-assignments-of-preset-security-policies"></a>Het nalevings centrum voor beveiliging & gebruiken om de toewijzingen van vooraf ingestelde beveiligingsbeleidsregels te wijzigen
 
 De stappen voor het wijzigen van de toewijzing van het beveiligingsbeleid van de **Standaardbeveiliging** of voor **strikte beveiliging** zijn hetzelfde als wanneer u [de vooraf ingestelde beveiligingsbeleidsregels aan gebruikers hebt toegewezen](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users).
 
-Als u de **Standaardbeveiliging** of beveiligings beleidsregels voor **strikte** beveiliging wilt uitschakelen, maar de bestaande voorwaarden en uitzonderingen wel wilt behouden, verschuift u de wisselknop naar **uitgeschakeld**. Als u het beleid wilt inschakelen, verschuift u de wisselknop naar **ingeschakeld**.
+Als u de **Standaardbeveiliging** of beveiligings beleidsregels voor **strikte** beveiliging wilt uitschakelen, maar de bestaande voorwaarden en uitzonderingen wel wilt behouden, verschuift u de wisselknop naar **uitgeschakeld** . Als u het beleid wilt inschakelen, verschuift u de wisselknop naar **ingeschakeld** .
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
