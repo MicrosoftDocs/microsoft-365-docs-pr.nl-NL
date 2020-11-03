@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Leer hoe u een Microsoft 365-rapport van activiteiten ontvangt in het Microsoft 365-Beheercentrum.
-ms.openlocfilehash: 78b09edfbfeb83c056af16787085b7c4cfe93fc6
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 843548e77067c7598cfa78ba6fac985237f6f62c
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949202"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841111"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Microsoft 365-rapporten in het Beheercentrum-activiteit formulieren
 
@@ -39,7 +39,7 @@ U kunt bijvoorbeeld inzicht krijgen in de activiteiten van elke gebruiker in lic
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer in de vervolgkeuzelijst **een rapport selecteren** de optie **formulieren** \> **activiteit**.
+2. Selecteer in de vervolgkeuzelijst **een rapport selecteren** de optie **formulieren** \> **activiteit** .
 
 ## <a name="interpret-the-forms-activity-report"></a>Het rapport formulier activiteit interpreteren
 

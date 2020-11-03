@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Leer hoe u een Microsoft Forms Pro-activiteitenrapport maakt met het Microsoft 365-rapporten dashboard in het Microsoft 365-Beheercentrum.
-ms.openlocfilehash: 58c7a76c49b7c925a4e7851f7e81c7f47d465d3a
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d7252aae40a61d65a32630d01dc2a6fcd1466212
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949190"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841155"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-pro-activity"></a>Microsoft 365-rapporten in het Beheercentrum-Forms Pro activity
 
@@ -39,7 +39,7 @@ U kunt bijvoorbeeld inzicht krijgen in de activiteiten van elke gebruiker in lic
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
 
     
-2. Selecteer in de vervolgkeuzelijst **een rapport selecteren** de optie **Forms Pro** \> **Activity**.
+2. Selecteer in de vervolgkeuzelijst **een rapport selecteren** de optie **Forms Pro** \> **Activity** .
 
 ## <a name="interpret-the-forms-activity-report"></a>Het rapport formulier activiteit interpreteren
 
@@ -52,7 +52,7 @@ Met de grafieken **activiteit** en **gebruikers** kunt u inzicht krijgen in de a
 |1.  <br/> |In het rapport **Forms Pro** activity kunnen trends worden weergegeven voor de laatste 7, 30, 90 of 180 dagen. Als u echter een bepaalde dag selecteert in het rapport, worden in de tabel (7) gegevens weergegeven voor tot 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd).   <br/> |
 |2.  <br/> |De gegevens in elk rapport zijn meestal net zo recent als de laatste 48 uur.  <br/> |
 |3.  <br/> |De weergave **gebruikers** helpt u inzicht te krijgen in de trend van het aantal actieve Forms Pro-gebruikers. Als een gebruiker een activiteit rond een pro-enquête heeft uitgevoerd (maken, bewerken, weergeven, enzovoort) binnen een specifieke periode, wordt een gebruiker als actief beschouwd.  <br/> |
-|4.  <br/> |De weergave **activiteit** helpt u inzicht te krijgen in de trend van het aantal actieve gebruikers. Een gebruiker wordt als actief beschouwd als hij of zij een bestandsactiviteit (opslaan, synchroniseren, wijzigen of delen) heeft uitgevoerd of een pagina bezocht in de opgegeven periode.<br/> Opmerking: een activiteit kan meerdere keren voor één enquête plaatsvinden, maar wordt slechts als één actieve enquête geteld. U kunt bijvoorbeeld een pro-enquête maken en dezelfde enquête meerdere keren gedurende een bepaalde periode tegelijk bewerken, maar alleen als één enquête tellen. <br>|
+|4.  <br/> |De weergave **activiteit** helpt u inzicht te krijgen in de trend van het aantal actieve gebruikers. Als een gebruiker een Bestandsactiviteit heeft uitgevoerd (opslaan, synchroniseren, wijzigen of delen) of een pagina binnen een specifieke periode heeft bezocht, wordt een gebruiker als actief beschouwd.<br/> Opmerking: een activiteit kan meerdere keren voor één enquête plaatsvinden, maar wordt slechts als één actieve enquête geteld. U kunt bijvoorbeeld een pro-enquête maken en dezelfde enquête meerdere keren gedurende een bepaalde periode tegelijk bewerken, maar alleen als één enquête tellen. <br>|
 |5.<br/>|In de grafiek **gebruikers** is de Y-as het aantal unieke gebruikers. X-as is de datum waarop de unieke gebruikers actief zijn. De legenda zijn:<br/><br/>**Ontwerpers** betekent dat de gebruiker een enquête voor formulieren Pro heeft gemaakt of bewerkt.<br><br>In de grafiek **activiteit** is de Y-as het aantal formulieren Pro-antwoorden per enquête. X-as is de datum waarop de enquête-of antwoord activiteit heeft plaatsgevonden. De legenda zijn:<br/><br/>**Gemaakte enquêtes** is het aantal unieke enquêtes van Forms Pro dat de gebruikers hebben gemaakt<br>**Antwoorden** is het aantal anonieme of niet-anonieme antwoorden dat de gebruikers die de enquête hebben ontvangen, hebben ingediend. |
 |zes.<br/>|U kunt de reeks die u in de grafiek ziet, filteren door een item te selecteren in de legenda. Selecteer bijvoorbeeld in de grafiek gebruikers de optie ontwerpers, responders of totale gebruikers als u alleen de gegevens wilt zien die betrekking hebben op deze personen. Door deze selectie te wijzigen, verandert de informatie in de rastertabel eronder niet.|
 |7,5.<br/>|De tabel toont een uitsplitsing van de activiteiten op het niveau per gebruiker. De legenda zijn:<br/><br/>**Gebruikersnaam** is het e-mailadres van de gebruiker die de activiteit heeft uitgevoerd op Microsoft Forms.<br/>**Datum van laatste activiteit (UTC)** is de datum waarop de laatste formulier activiteit is uitgevoerd door de gebruiker voor het geselecteerde datumbereik. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/>Hiermee wordt de tabel gefilterd en worden gegevens over Bestandsactiviteiten alleen weergegeven voor gebruikers die de activiteit op die bepaalde dag hebben uitgevoerd.<br/><br/>**Aantal gemaakte enquêtes** is het aantal enquêtes dat de gebruiker heeft gemaakt.<br/> Het aantal antwoord op een **enquête** is het aantal antwoorden van de responders aan wie de enquête is gedistribueerd.|

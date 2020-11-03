@@ -19,29 +19,28 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Lees een overzicht van hoe uw organisatie Microsoft 365-Services kan overnemen en hieraan kan communiceren.
-ms.openlocfilehash: fecaed3aa9fc2d0990cb3e7b416cee1bfab21d7e
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d7e9e6cf945134df54221bb8a03ef83d1a8851cc
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948626"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841385"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse
----
 
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Overzicht van Microsoft 365 Gebruiksanalyse
 
-Gebruik Microsoft 365 gebruiksanalyse in Power BI om inzicht te krijgen in hoe uw organisatie de verschillende services binnen Microsoft 365 aanneemt om te communiceren en samen te werken. U kunt Microsoft 365-gebruiksgegevens visualiseren en analyseren, aangepaste rapporten maken en de inzichten binnen uw organisatie delen en inzicht krijgen in de manier waarop bepaalde regio's of afdelingen gebruikmaken van Microsoft 365.
+Gebruik Microsoft 365 gebruiksanalyse in Power BI om inzicht te krijgen in hoe uw organisatie de verschillende services binnen Microsoft 365 toeneemt. U kunt Microsoft 365-gebruiksgegevens visualiseren en analyseren, aangepaste rapporten maken en de inzichten binnen uw organisatie delen. U kunt ook inzicht krijgen in de manier waarop bepaalde regio's en afdelingen gebruikmaken van Microsoft 365.
   
-De gebruiksanalyse van Microsoft 365 is een sjabloon-app waarmee u toegang krijgt tot een vooraf gemaakt Dashboard met een weergave van de afgelopen 12 maanden en een aantal vooraf samengestelde rapporten. Elk rapport biedt u specifieke inzichten. Gebruikersgerichte informatie is beschikbaar voor de laatste volledige agenda maand.
+Met de Microsoft 365 gebruiksanalyse beschikt u over een vooraf gemaakt Dashboard dat een weergave van de afgelopen 12 maanden bevat, en een aantal vooraf samengestelde rapporten. Elk rapport biedt u specifieke inzichten. Gebruikersspecifieke gegevens zijn beschikbaar voor de laatste volledige maand van de agenda.
   
-Het [gegevensmodel](usage-analytics-data-model.md) waarmee de sjabloon-app is gemachtigd, bevat gebruikerskenmerken uit Active Directory, zodat de mogelijkheid om in bepaalde rapporten te draaien. Het omvat de volgende Active Directory-attributen: locatie, afdeling en organisatie. 
+Het [gegevensmodel](usage-analytics-data-model.md) waarmee de sjabloon-app is gemachtigd, bevat gebruikerskenmerken uit Active Directory, zodat de mogelijkheid om in bepaalde rapporten te draaien. De volgende Active Directory-kenmerken zijn opgenomen: locatie, afdeling en organisatie. 
   
 Zie [Microsoft 365 Gebruiksanalyse inschakelen](enable-usage-analytics.md) om te beginnen met het verzamelen van gegevens. 
   
 Microsoft 365 gebruiksanalyse bevat een aantal rapporten die in de volgende secties worden beschreven. 
 
-U kunt in elk gebied gedetailleerde rapporten openen door de gegevenstabellen te selecteren. U kunt alle vooraf gedefinieerde rapporten weergeven door de tabbladen onder aan de site te selecteren, wanneer u de rapporten bekijkt. Zie voor meer gedetailleerde instructies [navigeren en de rapporten gebruiken in Microsoft 365 Usage Analytics](navigate-and-utilize-reports.md) en [de rapporten aanpassen in Microsoft 365 gebruiksanalyse](customize-reports.md).
+U kunt in elk gebied gedetailleerde rapporten openen door de gegevenstabellen te selecteren. U kunt alle vooraf gedefinieerde rapporten weergeven door de tabbladen onder aan de site te selecteren. Lees [navigeren en](navigate-and-utilize-reports.md) de rapporten gebruiken en [de rapporten aanpassen](customize-reports.md)voor uitgebreide instructies.
 
 ## <a name="executive-summary"></a>Samenvatting van Executive
 
@@ -93,7 +92,7 @@ Als u de dashboards met anderen wilt delen, raadpleegt u meer op [dashboards en 
 
 ### <a name="who-can-connect-to-microsoft-365-usage-analytics"></a>Wie kan verbinding maken met Microsoft 365 Gebruiksanalyse?
 
-U moet een **globale beheerder**, **Exchange-beheerder**, **Skype voor bedrijven-beheerder**, **SharePoint-beheerder**, **algemene lezer** of **rapportlezer** zijn om de verbinding met de sjabloon-app tot stand te brengen. Zie [informatie over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie.
+U moet een **globale beheerder** , **Exchange-beheerder** , **Skype voor bedrijven-beheerder** , **SharePoint-beheerder** , **algemene lezer** of **rapportlezer** zijn om de verbinding met de sjabloon-app tot stand te brengen. Zie [informatie over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie.
 
 ### <a name="who-can-customize-the-usage-analytics-reports"></a>Wie kan de Gebruiksanalyserapporten aanpassen?
 

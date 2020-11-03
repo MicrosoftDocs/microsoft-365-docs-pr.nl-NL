@@ -18,57 +18,57 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Bepaal welke functies en hun nieuwe inhoud wordt weergegeven aan of verborgen voor eindgebruikers in de Office What's New Management voor Office-bureaubladapps.
-ms.openlocfilehash: 9f63da1870253c9023fa1e2e169bae22435807e4
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+description: Bepaal welke functies en wat er nieuwe inhoud wordt weergegeven in eindgebruikers in Office-bureaublad-apps voor Office.
+ms.openlocfilehash: 8a7511845dbcce56848834178ed81cd7b919de42
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844726"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841409"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>Nieuwe functies weergeven of verbergen met Beheer van nieuwe functies
 
-Met Nieuw beheer voor Windows in Office kan uw organisatie bepalen welke functies worden weergegeven of verborgen voor eindgebruikers in de Office-bureaubladapp. Elke versie van Office bevat nieuwe en verbeterde functies en met de inhoudsvoorbeeld u nieuwe inhoud voor elke releaseversie en -kanaal bekijken en kiezen of u nieuwe inhoud voor elke functie wilt verbergen of weergeven aan eindgebruikers. 
+In **Office wat nieuw management voor Windows is** , kunt u in uw organisatie bepalen welke functies worden weergegeven voor eindgebruikers in de Office-bureaublad-apps. Met het voorbeeld van de inhoud kunt u nieuwe inhoud bekijken voor elke releaseversie en elk kanaal. U kunt vervolgens kiezen of u de inhoud van de functie voor elke functie voor eindgebruikers wilt weergeven of verbergen. 
 
-In de nieuwe inhoud van Wat in de Office-bureaubladapps wordt een samengestelde lijst met nieuwe functies weergegeven die voor die toepassing worden vrijgegeven, met een korte beschrijving en vaak een afbeelding of een video die is gemaakt door het team dat de functie vrijgeeft om klanten te helpen leren hoe ze de functie moeten gebruiken. 
+De **inhoud van wat is er nieuw in de Office-bureaublad-apps** en bevat een overzicht van de nieuwe functies die voor een toepassing worden uitgebracht. Dit bevat ook een korte beschrijving, vaak een afbeelding of een video, waarmee klanten kunnen leren hoe u deze functie kunt gebruiken. 
 
-Office Wat nieuw beheer is beschikbaar in het Microsoft 365-beheercentrum en via de [clientconfiguratieservice](https://config.office.com).
+**Office is nieuw** in het Beheercentrum van microsoft 365 en via de [client configuratie service](https://config.office.com).
 
 > [!NOTE]
-> Beheerdersrollen voor beheerders en Office Apps beheren de nieuwe inhoud die gebruikers in hun Office-apps zien.
+> Beheerders van globale beheerders en Office-apps beheren de inhoud van wat is er nieuw voor gebruikers in hun Office-apps.
 
 ##  <a name="show-or-hide-new-features"></a>Nieuwe functies weergeven of verbergen 
 
-Beheerders kunnen een voorbeeld bekijken van de nieuwe inhoud voor een kanaal en de release van de inhoud beheren met Office What's New-beheer.
+Beheerders kunnen de **nieuwe** inhoud voor een kanaal bekijken en de versie van de inhoud beheren met de **nieuwe functie van Office wat is er nieuw** aan het beheer.
 
-1. Kies in het Microsoft 365-beheercentrum onder **Instellingen**de optie Instellingen voor **organisatie**.
-2. Kies op het tabblad **Services** de optie **Nieuw beheer van Office What's**.
-3. Selecteer een of meer functies om de functienaam, een korte beschrijving, de toepassing en de releaseversie voor elke functie in het flyout-deelvenster weer te geven.
-4. Kies **Verbergen voor gebruikers** of **Weergeven aan gebruikers**.  
-    De status **Die standaard wordt weergegeven,** geeft aan dat functie-informatie standaard aan gebruikers wordt weergegeven totdat de beheerder de status voor een functie instelt op **Verborgen** of **Weergegeven**.  
+1. Kies in het Microsoft 365-Beheercentrum, onder **instellingen** , de optie **instellingen voor organisatie** .
+2. Kies op het tabblad **Services** de optie **Office nieuw beheer** .
+3. Selecteer een of meer functies om de naam van de functie, een korte beschrijving, de doeltoepassing, en de releaseversie voor elke functie in het deelvenster voor uitvullen weer te geven.
+4. Kies **verbergen voor gebruikers** of **weergeven aan gebruikers** .  
+    De status wordt **standaard** aangegeven, zodat de functie gegevens standaard worden weergegeven aan gebruikers totdat de beheerder de status voor een functie instelt op **verborgen** of **weergegeven** .  
 
     > [!NOTE]
-    > Als een functie beschikbaar is in meerdere Office-apps, verbergt de functieaankondiging in alle Office-apps als u de functie instelt op verborgen functies.
+    > Als er in meerdere Office-apps een functie beschikbaar is, kunt u met de functie voor Hidden de functie aankondiging verbergen voor alle Office-apps.
 
-Nieuwe functies worden weergegeven in Office What's New Management op basis van dit schema:
+Nieuwe functies worden weergegeven in Office nieuw management op basis van deze planning:
 
 ||||
 |:-----|:-----|:-----|
-|**Kanaal** <br/> |**In managementpreview** <br/> |**Actie ondernemen** <br/> |
-|**Huidige** <br/> |15e van de maand  <br/> |1 - 3 weken voor de maandelijkse release <br/> |
-|**Maandelijkse onderneming** <br/> |1e van de maand  <br/> |2 weken voor de grote release die nieuwe functies brengt |
-|**Semi-annual Enterprise (Preview)** <br/> |1 september en 1 maart <br/> | 2 weken voor de grote release die nieuwe functies brengt|
-|**Semi-jaarlijkse onderneming** <br/> |Jan 1 en 1 juli <br/> | 2 weken voor de grote release die nieuwe functies brengt<br/> |
+|**Kanaal** <br/> |**In het beheer voorbeeld** <br/> |**Actie ondernemen** <br/> |
+|**Stroom** <br/> |15 van de maand  <br/> |1-3 weken vóór de maandelijkse release <br/> |
+|**Maand Enterprise** <br/> |Voornaam van de maand  <br/> |Twee weken vóór de grote release waarmee nieuwe functies worden gebundeld |
+|**Semi-Annual Enterprise (preview)** <br/> |1 september en 1 maart <br/> | 2 weken vóór de grote release die nieuwe functies levert|
+|**Semi-Annual Enterprise** <br/> |1 januari en 1 juli <br/> | 2 weken vóór de grote release die nieuwe functies levert<br/> |
 
-Zie [Updategeschiedenis voor Microsoft 365-apps (vermeld op datum) voor](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)meer informatie over schema's voor het bijwerken van kanalen.
+Zie [geschiedenis van updates voor Microsoft 365-apps (weergegeven op datum)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)voor meer informatie over het werken met kanaal updates.
 
-## <a name="add-office-whats-new-management-card-to-the-admin-center-home-page"></a>Office What's New Management-kaart toevoegen aan de startpagina van het beheercentrum
+## <a name="add-office-whats-new-management-card-to-the-admin-center-home-page"></a>Office toevoegen wat er op de startpagina van het Beheercentrum is.
 
-1. Kies op de microsoft 365-beheerderspagina de optie Kaart toevoegen boven aan de pagina
-2. Zoek **wat er nieuw is in Office Apps** in de lijst en kies het.
-3. Zodra de kaart op onze startpagina staat, u **Beheren** kiezen om de functies voor de organisatie van yor weer te geven of te [verbergen.](#show-or-hide-new-features) 
+1. Kies op de pagina Microsoft 365-beheerder de optie **kaart toevoegen** boven aan de pagina.
+2. Kijk **wat er nieuw is in Office-apps** in de lijst en kies deze.
+3. Wanneer de kaart op de startpagina staat, kunt **u kiezen om** de functies voor uw organisatie weer te [geven of te verbergen](#show-or-hide-new-features) . 
 
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Office What's New management is nu algemeen beschikbaar](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-is-now-generally-available/ba-p/1179954)
+[Office voor het nieuwe beheer is nu algemeen beschikbaar](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-is-now-generally-available/ba-p/1179954)

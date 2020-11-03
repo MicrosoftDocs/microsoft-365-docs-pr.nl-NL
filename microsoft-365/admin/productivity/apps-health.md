@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de status-technologie van Microsoft 365-apps-technologie met productiviteits Score.
-ms.openlocfilehash: 4242a9b665bc7292232cc15ee0f1ec37915fb1ac
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 9497118f4ebfb1cb2b64670638ce939da21eb261
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804767"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841187"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Status van Microsoft 365-apps-technologie ervaring
 
-Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met metrische gegevens over hoe mensen Microsoft 365-apps gebruiken en de ondersteunende technologie. De Score weerspiegelt uw organisatie&#39;de prestaties van de categorieën personen en technologie ervaring en vergelijkt uw score met organisaties als uw eigen. De categorie teamwerk maakt deel uit van de maten onder mensen met een handicap. Zie het [overzicht van de productiviteits Score](productivity-score.md) voor meer informatie.
+Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met metrische gegevens over hoe mensen Microsoft 365-apps gebruiken en de ondersteunende technologie. De Score weerspiegelt uw organisatie&#39;de prestaties van de categorieën personen en technologie ervaring en vergelijkt uw score met organisaties als uw eigen. De categoriestatus van apps maakt deel uit van de maten onder mensen ervaring. Zie het [overzicht van de productiviteits Score](productivity-score.md) voor meer informatie.
 
 ## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>Waarom uw organisatie de status Score van Microsoft 365 apps&#39;s heeft
 
