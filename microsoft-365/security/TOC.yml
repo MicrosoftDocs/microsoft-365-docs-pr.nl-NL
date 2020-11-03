@@ -410,6 +410,8 @@
               href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
             - name: Beleid voor het indienen van gebruikers
               href: ./office-365-security/user-submission.md
+            - name: Gebruikerstags in Office 365 ATP
+              href: ./office-365-security/user-tags.md
             - name: 'ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: DKIM gebruiken om uitgaande e-mail te valideren
@@ -487,6 +489,8 @@
           items:
             - name: Bedreigingsoverzichten gebruiken
               href: ./office-365-security/threat-trackers.md
+            - name: Waarschuwingen weergeven
+              href: ../compliance/alert-policies.md
             - name: Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: De invoegtoepassing Bericht rapporteren inschakelen
