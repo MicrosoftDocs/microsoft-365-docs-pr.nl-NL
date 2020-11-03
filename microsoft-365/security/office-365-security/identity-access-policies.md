@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 28d4fc196e75a1a7a27cbe2a0f6804646002354f
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: f9c26e7e4af99174c5723b44c59d7279ca93afa5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464072"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846446"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -59,7 +59,7 @@ Om u tijd te bieden voor het uitvoeren van deze taken, wordt u aangeraden het ba
 |        |[Goedgekeurde apps en app-beveiliging vereisen](#require-approved-apps-and-app-protection)|Hiermee wordt de bescherming van de mobiele app afgedwongen voor telefoons en tablets via iOS, iPadOS of Android.|
 |        |[Beleidsregels voor naleving van apparaten definiëren](#define-device-compliance-policies)|Eén beleid voor elk platform.|
 |        |[Eis conforme pc’s](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Het intune-beheer van Pc's afdwingen met behulp van Windows of MacOS.|
-|**Gevoelig**|[MFA vereisen wanneer het aanmelding van risico *slecht*, *gemiddeld*of *hoog* is](#require-mfa-based-on-sign-in-risk)| |
+|**Gevoelig**|[MFA vereisen wanneer het aanmelding van risico *slecht* , *gemiddeld* of *hoog* is](#require-mfa-based-on-sign-in-risk)| |
 |         |[Compatibele Pc's *en* mobiele apparaten vereisen](#require-compliant-pcs-and-mobile-devices)|Dwing het intune-beheer af voor Pc's (Windows of MacOS) en telefoons of Tablets (iOS, iPadOS of Android).|
 |**Sterk gereglementeerd**|[*Altijd* MFA vereisen](#require-mfa-based-on-sign-in-risk)|
 | | | |
@@ -100,7 +100,7 @@ Nadat uw gebruikers zijn geregistreerd, kunt u MFA vereisen voor aanmelding met 
 
 1. Ga naar de [Azure-Portal](https://portal.azure.com)en meld u aan met uw referenties.
 2. Kies in de lijst met Azure-Services **Azure Active Directory**.
-3. Kies **beveiliging**in de lijst **beheren** en kies **voorwaardelijke toegang**.
+3. Kies **beveiliging** in de lijst **beheren** en kies **voorwaardelijke toegang**.
 4. Kies **nieuwe beleids** tekst en typ de naam van het nieuwe beleid.
 
 In de volgende tabellen worden de beleidsinstellingen voor voorwaardelijke toegang beschreven waarop MFA is vereist op basis van een aanmeldings risico.
@@ -109,9 +109,9 @@ In de sectie **opdrachten** :
 
 |Instelling|Eigenschappen|Waarden|Opmerkingen|
 |:---|:---------|:-----|:----|
-|Gebruikers en groepen|Voorzien| **Selecteer gebruikers en groepen > gebruikers en groepen**: Selecteer specifieke groepen met gerichte gebruikersaccounts. |Begin met de groep die gebruikersaccounts voor prototype bevat.|
-||Uit| **Gebruikers en groepen**: Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
-|Cloud-apps of-acties| **> van Cloud apps zijn inbegrepen** | **Selecteer apps**: Selecteer de apps waarop u dit beleid wilt toepassen. Selecteer bijvoorbeeld Exchange Online.||
+|Gebruikers en groepen|Voorzien| **Selecteer gebruikers en groepen > gebruikers en groepen** : Selecteer specifieke groepen met gerichte gebruikersaccounts. |Begin met de groep die gebruikersaccounts voor prototype bevat.|
+||Uit| **Gebruikers en groepen** : Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
+|Cloud-apps of-acties| **> van Cloud apps zijn inbegrepen** | **Selecteer apps** : Selecteer de apps waarop u dit beleid wilt toepassen. Selecteer bijvoorbeeld Exchange Online.||
 |Vastgestelde| | |Configureer voorwaarden die specifiek zijn voor uw omgeving en behoefte.|
 ||Aanmeld risico||Zie de instructies in de volgende tabel.|
 |||||
@@ -138,7 +138,7 @@ In de sectie **Access-besturingselementen** :
 
 Kies **selecteren** om de **machtigings** instellingen op te slaan.
 
-Selecteer ten slotte het selectievakje **ingeschakeld** voor het **beleid inschakelen**en kies vervolgens **maken**.
+Selecteer ten slotte het selectievakje **ingeschakeld** voor het **beleid inschakelen** en kies vervolgens **maken**.
 
 U kunt ook het hulpprogramma [Wat als](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) gebruiken om het beleid te testen.
 
@@ -152,9 +152,9 @@ In de sectie **opdrachten** :
 
 |Instelling|Eigenschappen|Waarden|Opmerkingen|
 |:---|:---------|:-----|:----|
-|Gebruikers en groepen|Voorzien| **Selecteer gebruikers en groepen > gebruikers en groepen**: Selecteer specifieke groepen met gerichte gebruikersaccounts. |Begin met de groep die gebruikersaccounts voor prototype bevat.|
-||Uit| **Gebruikers en groepen**: Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
-|Cloud-apps of-acties|**> van Cloud apps zijn inbegrepen**| **Selecteer apps**: Selecteer de apps die overeenkomen met de clients die moderne verificatie niet ondersteunen.||
+|Gebruikers en groepen|Voorzien| **Selecteer gebruikers en groepen > gebruikers en groepen** : Selecteer specifieke groepen met gerichte gebruikersaccounts. |Begin met de groep die gebruikersaccounts voor prototype bevat.|
+||Uit| **Gebruikers en groepen** : Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
+|Cloud-apps of-acties|**> van Cloud apps zijn inbegrepen**| **Selecteer apps** : Selecteer de apps die overeenkomen met de clients die moderne verificatie niet ondersteunen.||
 |Vastgestelde| **Client toepassingen** | Kies **Ja** voor **configureren** <br> De vinkjes voor **browser** -en **mobiele apps en desktop clients** wissen | |
 ||||
 
@@ -168,7 +168,7 @@ In de sectie **Access-besturingselementen** :
 
 Kies **selecteren** om de **machtigings** instellingen op te slaan.
 
-Selecteer ten slotte het selectievakje **ingeschakeld** voor het **beleid inschakelen**en kies vervolgens **maken**.
+Selecteer ten slotte het selectievakje **ingeschakeld** voor het **beleid inschakelen** en kies vervolgens **maken**.
 
 U kunt ook het hulpmiddel [Wat als](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) gebruiken om het beleid te testen.
 
@@ -198,7 +198,7 @@ In het tweede gedeelte **toewijzingen** :
 
 Kies **gereed** om de instellingen voor **Access** op te slaan.
 
-Selecteer ten slotte het selectievakje **inschakelen** voor **beleid afdwingen**en kies vervolgens **Opslaan**.
+Selecteer ten slotte het selectievakje **inschakelen** voor **beleid afdwingen** en kies vervolgens **Opslaan**.
 
 U kunt ook het hulpmiddel [Wat als](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) gebruiken om het beleid te testen.
 
@@ -274,7 +274,7 @@ U moet een beleid maken voor elke PC, telefoon of Tablet platform:
 - Windows 8,1 en hoger
 - Windows 10 en hoger
 
-U maakt beleidsregels voor naleving van apparaten door u aan te melden bij het [Microsoft Endpoint Manager-Beheercentrum](https://endpoint.microsoft.com) met uw **Devices**beheerdersreferenties en vervolgens naar  >  beleidsregels voor**nalevingsbeleid**van apparaten te navigeren  >  **Policies**. Selecteer **beleid maken**.
+U maakt beleidsregels voor naleving van apparaten door u aan te melden bij het [Microsoft Endpoint Manager-Beheercentrum](https://endpoint.microsoft.com) met uw **Devices** beheerdersreferenties en vervolgens naar  >  beleidsregels voor **nalevingsbeleid** van apparaten te navigeren  >  **Policies**. Selecteer **beleid maken**.
 
 Voor het toepassen van apparaatcompatibiliteit moet de beleidsregels worden toegewezen aan gebruikersgroepen. U kunt een beleid toewijzen nadat u het hebt gemaakt en opgeslagen. Selecteer in het Beheercentrum het beleid en selecteer vervolgens **opdrachten**. Nadat u de groepen waarvoor u het beleid wilt ontvangen, hebt geselecteerd, selecteert u **Opslaan** om deze groepstoewijzing op te slaan en het beleid te implementeren.
 
@@ -282,7 +282,7 @@ Zie [een nalevingsbeleid maken in Microsoft intune](https://docs.microsoft.com/m
 
 ### <a name="recommended-settings-for-windows-10-and-later"></a>Aanbevolen instellingen voor Windows 10 en hoger
 
-De volgende instellingen worden aanbevolen voor Pc's met Windows 10 en latere versies, zoals is geconfigureerd in **stap 2: compliance Settings**, van het proces voor het maken van beleid.
+De volgende instellingen worden aanbevolen voor Pc's met Windows 10 en latere versies, zoals is geconfigureerd in **stap 2: compliance Settings** , van het proces voor het maken van beleid.
 
 Zie de volgende tabel voor meer informatie over de statuswaarden van de apparaatstatusverklaring- **Service >**.
 
@@ -293,9 +293,9 @@ Zie de volgende tabel voor meer informatie over de statuswaarden van de apparaat
 |Code integriteit vereist|Dient| Kiest |
 ||||
 
-Voor **Apparaateigenschappen**geeft u de juiste waarden op voor besturingssysteemversies op basis van uw IT-en beveiligingsbeleid.
+Voor **Apparaateigenschappen** geeft u de juiste waarden op voor besturingssysteemversies op basis van uw IT-en beveiligingsbeleid.
 
-Voor **naleving van Configuration Manager**selecteert u **vereisen**.
+Voor **naleving van Configuration Manager** selecteert u **vereisen**.
 
 Zie de volgende tabel voor meer informatie over **systeembeveiliging**.
 
@@ -319,11 +319,11 @@ Zie de volgende tabel voor meer informatie over **systeembeveiliging**.
 ||Real-time beveiliging|Dient|Kiest <br>Alleen ondersteund voor Windows 10-bureaublad|
 |||||
 
-**Microsoft Defender ATP**
+**Microsoft Defender voor eindpunt**
 
 |Type|Eigenschappen|Waarde|Actierij|
 |:---|:---------|:-----|:----|
-|Regels voor Geavanceerd Bedreigingsbeveiliging voor Microsoft Defender|Het apparaat moet zich op of onder de risicoscore voor de machine bevinden|Medium|Kiest|
+|Microsoft Defender voor eindpunt regels|Het apparaat moet zich op of onder de risicoscore voor de machine bevinden|Medium|Kiest|
 |||||
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Compatibele Pc's (maar niet compliant telefoons en tablets) vereisen
@@ -334,22 +334,22 @@ Compatibele Pc's vereisen:
 
 1. Ga naar de [Azure-Portal](https://portal.azure.com)en meld u aan met uw referenties.
 2. Kies in de lijst met Azure-Services **Azure Active Directory**.
-3. Kies **beveiliging**in de lijst **beheren** en kies **voorwaardelijke toegang**.
+3. Kies **beveiliging** in de lijst **beheren** en kies **voorwaardelijke toegang**.
 4. Kies **nieuwe beleids** tekst en typ de naam van het nieuwe beleid.
 
-5. Onder **toewijzingen**kiest u **gebruikers en groepen** , en kunt u ook aangeven met wie u het beleid wilt toepassen. Sluit ook uw groep met voorwaardelijke toegang.
+5. Onder **toewijzingen** kiest u **gebruikers en groepen** , en kunt u ook aangeven met wie u het beleid wilt toepassen. Sluit ook uw groep met voorwaardelijke toegang.
 
-6. Kies onder **opdrachten**de optie **Cloud-apps of acties**.
+6. Kies onder **opdrachten** de optie **Cloud-apps of acties**.
 
-7. Voor **opnemen**kiest **u apps selecteren > selecteren**en selecteert u vervolgens de gewenste apps in de lijst met **Cloud-apps** . Selecteer bijvoorbeeld Exchange Online. Kies **selecteren wanneer u** klaar bent.
+7. Voor **opnemen** kiest **u apps selecteren > selecteren** en selecteert u vervolgens de gewenste apps in de lijst met **Cloud-apps** . Selecteer bijvoorbeeld Exchange Online. Kies **selecteren wanneer u** klaar bent.
 
-8. Als u compatibele Pc's (maar niet de compliant telefoons en tablets) nodig hebt, kiest u onder **opdrachten**de optie **voorwaarden > apparaat-platforms**. Selecteer **Ja** voor **configureren**. Kies  **hardwareplatforms selecteren**, selecteer **Windows** en **macOS**en kies vervolgens **gereed**.
+8. Als u compatibele Pc's (maar niet de compliant telefoons en tablets) nodig hebt, kiest u onder **opdrachten** de optie **voorwaarden > apparaat-platforms**. Selecteer **Ja** voor **configureren**. Kies  **hardwareplatforms selecteren** , selecteer **Windows** en **macOS** en kies vervolgens **gereed**.
 
 9. Kies **subsidie** onder **toegangsbeheer**.
 
 10. Kies **toegang verlenen** en controleer vervolgens of **apparaat is gemarkeerd als compatibel**. Voor meerdere besturingselementen selecteert u **alle geselecteerde besturingselementen vereisen**. Wanneer u klaar bent, kiest **u selecteren**. 
 
-10. Selecteer **inschakelen** voor **beleids**optie en kies vervolgens **maken**.
+10. Selecteer **inschakelen** voor **beleids** optie en kies vervolgens **maken**.
 
 >[!Note]
 >Zorg ervoor dat uw apparaat compatibel is voordat u dit beleid inschakelt. Anders kon u uitgaand raken en kunt u dit beleid niet wijzigen totdat uw gebruikersaccount is toegevoegd aan de groep voorwaardelijke toegang.
@@ -361,20 +361,20 @@ Naleving voor alle apparaten vereisen:
 
 1. Ga naar de [Azure-Portal](https://portal.azure.com)en meld u aan met uw referenties.
 2. Kies in de lijst met Azure-Services **Azure Active Directory**.
-3. Kies **beveiliging**in de lijst **beheren** en kies **voorwaardelijke toegang**.
+3. Kies **beveiliging** in de lijst **beheren** en kies **voorwaardelijke toegang**.
 4. Kies **nieuwe beleids** tekst en typ de naam van het nieuwe beleid.
 
-5. Onder **toewijzingen**kiest u **gebruikers en groepen** , en kunt u ook aangeven met wie u het beleid wilt toepassen. Sluit ook uw groep met voorwaardelijke toegang.
+5. Onder **toewijzingen** kiest u **gebruikers en groepen** , en kunt u ook aangeven met wie u het beleid wilt toepassen. Sluit ook uw groep met voorwaardelijke toegang.
 
-6. Kies onder **opdrachten**de optie **Cloud-apps of acties**.
+6. Kies onder **opdrachten** de optie **Cloud-apps of acties**.
 
-7. Voor **opnemen**kiest **u apps selecteren > selecteren**en selecteert u vervolgens de gewenste apps in de lijst met **Cloud-apps** . Selecteer bijvoorbeeld Exchange Online. Kies **selecteren wanneer u** klaar bent.
+7. Voor **opnemen** kiest **u apps selecteren > selecteren** en selecteert u vervolgens de gewenste apps in de lijst met **Cloud-apps** . Selecteer bijvoorbeeld Exchange Online. Kies **selecteren wanneer u** klaar bent.
 
 8. Kies **subsidie** onder **toegangsbeheer**.
 
 9. Kies **toegang verlenen** en controleer vervolgens of **apparaat is gemarkeerd als compatibel**. Voor meerdere besturingselementen selecteert u **alle geselecteerde besturingselementen vereisen**. Wanneer u klaar bent, kiest **u selecteren**. 
 
-10. Selecteer **inschakelen** voor **beleids**optie en kies vervolgens **maken**.
+10. Selecteer **inschakelen** voor **beleids** optie en kies vervolgens **maken**.
 
 >[!Note]
 >Zorg ervoor dat uw apparaat compatibel is voordat u dit beleid inschakelt. Anders kon u uitgaand raken en kunt u dit beleid niet wijzigen totdat uw gebruikersaccount is toegevoegd aan de groep voorwaardelijke toegang.

@@ -1,6 +1,6 @@
 ---
-title: Uw proefproject voor Microsoft Threat Protection plannen
-description: Plan uw pilot Microsoft Threat Protection-project met belanghebbenden voor het beheren van de verwachtingen en zorg voor een succesvolle uitslag.
+title: Uw proefproject voor Microsoft 365 Defender plannen
+description: Plan uw pilot Microsoft 365 Defender-project met belanghebbenden voor het beheren van de verwachtingen en zorg voor een succesvolle uitslag.
 keywords: Proefversie van Microsoft Threat Protection, proefabonnement Microsoft Threat Protection, Microsoft Threat Protection evalueren in productie, Microsoft Threat Protection pilotproject, Cyber beveiliging, Geavanceerd permanent risico, beveiliging van uw bedrijf, apparatuur, apparaat, identiteit, gebruikers, gegevens, toepassingen, incidenten, geautomatiseerd onderzoek en herstel, geavanceerde jacht
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,41 +20,41 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: e62b4ec0ee6c9d05321accf269406e8127019f5b
-ms.sourcegitcommit: a83acd5b9eeefd2e20e5bac916fe29d09fb53de9
+ms.openlocfilehash: ec2bfe52308231577e4f2749e1f4cdf24a36f604
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48418107"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846018"
 ---
-# <a name="planning-your-pilot-microsoft-threat-protection-project"></a>Uw proefproject voor Microsoft Threat Protection plannen 
+# <a name="planning-your-pilot-microsoft-365-defender-project"></a>Uw proefproject voor Microsoft 365 Defender plannen 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 <br>
 <table border="0" width="100%" align="center">
   <tr style="text-align:center;">
     <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
       <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft Threat Protection project" title="Uw proefproject voor Microsoft Threat Protection plannen" />
-      <br/>Plannen</a><br>
+        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="Uw proefabonnement op Microsoft 365 Defender plannen" />
+      <br/>Plan</a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft Threat Protection trial lab or pilot environment" title="Uw proefabonnement voor Microsoft Threat Protection of een testomgeving voorbereiden" />
+        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving voorbereiden" />
       <br/>Voorbereiden</a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft Threat Protection attack simulations" title="Simulaties van aanvallen van Microsoft Threat Protection uitvoeren" />
+        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Uw Microsoft 365 Defender-aanvals simulaties uitvoeren" />
      <br/>Een aanval simuleren</a><br>
     </td>
     <td align="center">
       <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft Threat Protection pilot" title="Uw proef Microsoft Threat Protection sluiten en samenvatten" />
+        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Een proefproject van Microsoft 365 Defender sluiten en samenvatten" />
      <br/>Sluiten en samenvatten</a><br>
     </td>
   </tr>
@@ -91,7 +91,7 @@ Het bereik van de leider bepaalt hoe breed de test is, op basis van uw omgeving 
 - Productieomgeving met Microsoft 365, azure, Active Directory Services, eindpunten en servers
 
 >[!NOTE]
->Als u de volledige licentie nog niet hebt, kunt u een proefabonnement krijgen voor het [evalueren van Microsoft Threat Protection (Microsoft Threat Protection](https://aka.ms/mtp-trial-lab) plannen, voorbereiden, instellen, configureren en uitvoeren van uw pilotproject). De belanghebbenden kunnen een belangrijke rol spelen, zodat de procedure van begin tot eind wordt vergemakkelijkt.
+>Als u de volledige licentie nog niet hebt, kunt u een proefversie aanvragen voor het [evalueren van Microsoft 365](https://aka.ms/mtp-trial-lab) , het plannen, voorbereiden, configureren en uitvoeren van een pilotproject. De belanghebbenden kunnen een belangrijke rol spelen, zodat de procedure van begin tot eind wordt vergemakkelijkt.
 
 De typen besturingssystemen die moeten worden geëvalueerd, worden ook gedefinieerd op basis van de organisatie-Makeup. Dit kan de volgende bebestaan: [Mac-eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac#system-requirements), [Linux-servers](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-linux#system-requirements), [Windows 10-eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#supported-windows-versions), [Windows Server 2016](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#supported-windows-versions).
 
@@ -110,11 +110,11 @@ Vanuit de lijst met begebruikte zaken, kunt u beginnen met het maken van vereist
 
 ## <a name="test-plan"></a>Test plan
 
-Afhankelijk van de vereisten, is het mogelijk dat er verschillende testmethoden geschikt zijn. Als u bijvoorbeeld de effectiviteit van geautomatiseerde herbemiddeling evalueert, moet het testplan stappen opnemen om de gedrag (en) te genereren waarmee een geautomatiseerde herstelactie binnen Microsoft Threat Protection werd geactiveerd. Als u een bepaald gedrag of een bepaalde aanval moet detecteren, dan kan de test meer stappen veroorzaken. U kunt het beste een plan op basis van de vereisten nauwkeurig testen.
+Afhankelijk van de vereisten, is het mogelijk dat er verschillende testmethoden geschikt zijn. Als u bijvoorbeeld de effectiviteit van geautomatiseerde herbemiddeling evalueert, moet het testplan stappen opnemen om de gedrag (en) te genereren waarmee een geautomatiseerde herstelactie in Microsoft 365 Defender wordt geactiveerd. Als u een bepaald gedrag of een bepaalde aanval moet detecteren, dan kan de test meer stappen veroorzaken. U kunt het beste een plan op basis van de vereisten nauwkeurig testen.
 
 ## <a name="success-criteria"></a>Criteria voor succes
 
-De criteria voor succes zijn uiteindelijk de balk die is ingesteld voor de waardering van wat u wilt testen. Of u nu Microsoft Threat Protection (of andere hulpmiddelen voor die materie) tegen andere hulpmiddelen of op een andere manier test, moet u een aantal meetbaarste criteria gebruiken om de waarde van het hulpmiddel te bepalen. Afhankelijk van de vereisten voor het bereik, de vereisten en het testen van het plan, wordt het resultaat van de test bepaald. Dit kan minder of niet meer zijn, en ook een gewogen score op basis van uw behoeften. Als u bijvoorbeeld een succesvolle aanduiding wilt hebben, moet een hulpmiddel mogelijk een Score van 80% hebben in bepaalde kritieke gebieden die u identificeert.
+De criteria voor succes zijn uiteindelijk de balk die is ingesteld voor de waardering van wat u wilt testen. Of u nu Microsoft 365 Defender (of andere technologie voor die materie) tegen andere hulpprogramma's of zelftest, u moet enkele meetbaar criterium hebben om de waarde te bepalen die het hulpprogramma biedt. Afhankelijk van de vereisten voor het bereik, de vereisten en het testen van het plan, wordt het resultaat van de test bepaald. Dit kan minder of niet meer zijn, en ook een gewogen score op basis van uw behoeften. Als u bijvoorbeeld een succesvolle aanduiding wilt hebben, moet een hulpmiddel mogelijk een Score van 80% hebben in bepaalde kritieke gebieden die u identificeert.
 
 ## <a name="scorecard"></a>Werd
 
@@ -122,12 +122,12 @@ U kunt ook een scorecard maken om alle elementen van uw plan bijeen te brengen. 
 
 | Use-case | Vereisten | Configuratievereisten | Test plan | Verwacht resultaat | Status testen | Score | Opmerkingen |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-|Incidentenbeheer|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP </br></br>-Beveiliging van Microsoft Cloud-app (optioneel)|Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie |[Een aanval simuleren](mtp-pilot-simulate.md) <br></br>[Het incident onderzoeken](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Onderzoekers kunnen inzicht krijgen in de reikwijdte en impact van het incident en het incident beheren||||
-|AutoIR|-Microsoft Threat Protection </br></br>-Azure ATP </br></br>-Microsoft Defender ATP |Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie <br>AutoIR inschakelen  |[Een aanval simuleren](mtp-pilot-simulate.md) <br></br>[Automatisch onderzoek](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Waarschuwingen en incidenten worden automatisch doorgevoerd door Microsoft Threat Protection||||
-|Geavanceerd opsporen|-Microsoft Threat Protection </br></br>-Microsoft Defender ATP </br></br>-Office 365 ATP   |Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie|[Scenario voor Geavanceerd jacht](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Onderzoekers kunnen gegevens vinden via Geavanceerd jacht, draaien naar beïnvloede entiteiten en aangepaste detecties maken||||
+|Incidentenbeheer|-Microsoft 365 Defender  </br></br>-Microsoft Defender for Identity </br></br>-Microsoft Defender voor eindpunt </br></br>-Beveiliging van Microsoft Cloud-app (optioneel)|Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie |[Een aanval simuleren](mtp-pilot-simulate.md) <br></br>[Het incident onderzoeken](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Onderzoekers kunnen inzicht krijgen in de reikwijdte en impact van het incident en het incident beheren||||
+|AutoIR|-Microsoft 365 Defender </br></br>-Microsoft Defender for Identity </br></br>-Microsoft Defender voor eindpunt |Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie <br>AutoIR inschakelen  |[Een aanval simuleren](mtp-pilot-simulate.md) <br></br>[Automatisch onderzoek](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Waarschuwingen en incidenten worden automatisch doorgevoerd door Microsoft 365 Defender||||
+|Geavanceerd opsporen|-Microsoft 365 Defender </br></br>-Microsoft Defender voor eindpunt </br></br>-Microsoft Defender voor Office 365 |Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie|[Scenario voor Geavanceerd jacht](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Onderzoekers kunnen gegevens vinden via Geavanceerd jacht, draaien naar beïnvloede entiteiten en aangepaste detecties maken||||
 
 
 
 ## <a name="next-step"></a>Volgende stap
-|![Voorbereidende fase](../../media/mtp/prep.png) <br>[Voorbereidende fase](prepare-mtpeval.md) | Uw testomgeving voor Microsoft Threat Protection voorbereiden
+|![Voorbereidende fase](../../media/mtp/prep.png) <br>[Voorbereidende fase](prepare-mtpeval.md) | Uw proef omgeving voor Microsoft 365 Defender voorbereiden
 |:-------|:-----|

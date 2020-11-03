@@ -17,14 +17,14 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u met de wizard Configuratie analyse beveiligingsbeleid onder de standaardbeveiliging en strikte beveiligings beleidsregels voor beveiliging kunt vinden en oplossen.
-ms.openlocfilehash: ac70b7fa2b2d0ecc65cf81ea4e5e5f2e807f2467
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 1429bddc5ae5f8409ad4f3593f7ea236b13f854c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326577"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846470"
 ---
-# <a name="configuration-analyzer-for-protection-policies-in-eop-and-office-365-atp"></a>Configuratie analyse voor beveiligingsbeleid in EOP en Office 365 ATP
+# <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Configuratie analyse voor beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,25 +36,25 @@ Configuratie-analyse in het compliance van beveiligings & biedt een centrale loc
 
 De volgende typen beleidsregels worden geanalyseerd door de Configuration Analyzer:
 
-- **Beleid voor Exchange Online Protection (EOP)**: Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
+- **Beleid voor Exchange Online Protection (EOP)** : Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
   
   - [Anti spam beleid](configure-your-spam-filter-policies.md).
   - [Beleid voor malware van malware](configure-anti-malware-policies.md).
   - [EOP anti phishings beleid](set-up-anti-phishing-policies.md#spoof-settings).
 
-- **Office 365 Advanced Threat Protection (ATP)-beleidsregels**: Dit omvat organisaties met microsoft 365 E5 of Office 365 ATP-uitbreidings abonnementen:
+- **Beleidsregels voor Microsoft Defender voor Office 365** : Dit omvat organisaties met microsoft 365 E5 of Defender voor Office 365-invoegtoepassingen:
 
-  - ATP anti-phishing-beleid, waaronder:
+  - Anti-phishings beleid in Microsoft Defender voor Office 365, waaronder:
 
     - De [instellingen voor spoofing](set-up-anti-phishing-policies.md#spoof-settings) die beschikbaar zijn in het anti-phishings beleid van EOP.
-    - [Imitatie-instellingen](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies)
-    - [Geavanceerde phishingberichten](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies)
+    - [Imitatie-instellingen](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+    - [Geavanceerde phishingberichten](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
   - [Beleidsregels voor veilige koppelingen](set-up-atp-safe-links-policies.md).
 
   - [Beleidsregels voor veilige bijlagen](set-up-atp-safe-attachments-policies.md).
 
-De **standaard** waarden en **strikte** beleidsinstelling waarden die worden gebruikt als basislijnen, worden beschreven in [Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging](recommended-settings-for-eop-and-office365-atp.md).
+De **standaard** -en **strikte** beleidsinstelling waarden die worden gebruikt als basislijnen, worden beschreven in [Aanbevolen instellingen voor EOP en microsoft Defender voor Office 365-beveiliging](recommended-settings-for-eop-and-office365-atp.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -76,19 +76,19 @@ De **standaard** waarden en **strikte** beleidsinstelling waarden die worden geb
 
 ## <a name="use-the-configuration-analyzer-in-the-security--compliance-center"></a>Werken met de functie Configuration Analyzer in het compliance van beveiligings &
 
-Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **configuratie analyse**beleid voor Threat Management.
+Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **configuratie analyse** beleid voor Threat Management.
 
 ![De widget configuratie analyse op de pagina beleid voor risicobeheer \>](../../media/configuration-analyzer-widget.png)
 
 De configuratie analyse bestaat uit twee hoofdtabbladen:
 
-- **Instellingen en aanbevelingen**: u kunt standaard of strict selecteren en deze instellingen vergelijken met uw bestaande beveiligingsbeleidsregels. In de resultaten kunt u de waarden van uw instellingen aanpassen, zodat ze op hetzelfde niveau als standaard of strikt worden weergegeven.
+- **Instellingen en aanbevelingen** : u kunt standaard of strict selecteren en deze instellingen vergelijken met uw bestaande beveiligingsbeleidsregels. In de resultaten kunt u de waarden van uw instellingen aanpassen, zodat ze op hetzelfde niveau als standaard of strikt worden weergegeven.
 
-- Configuratie van de overstappen **en geschiedenis**van de configuratie van de overstappen, zodat u de beleidswijzigingen in de tijd kunt bijhouden.
+- Configuratie van de overstappen **en geschiedenis** van de configuratie van de overstappen, zodat u de beleidswijzigingen in de tijd kunt bijhouden.
 
 ### <a name="setting-and-recommendations-tab-in-the-configuration-analyzer"></a>Tabblad instelling en aanbevelingen in de configuratie-analyse
 
-Standaard wordt het tabblad op de vergelijking met het standaardbeveiligingsprofiel geopend. U kunt overstappen op de vergelijking van het strikte beveiligingsprofiel door op **strikte aanbevelingen weergeven**te klikken. Als u wilt terugkeren, selecteert u **standaard aanbevelingen weergeven**.
+Standaard wordt het tabblad op de vergelijking met het standaardbeveiligingsprofiel geopend. U kunt overstappen op de vergelijking van het strikte beveiligingsprofiel door op **strikte aanbevelingen weergeven** te klikken. Als u wilt terugkeren, selecteert u **standaard aanbevelingen weergeven**.
 
 ![De weergave van instellingen en aanbevelingen in de configuratie-analyse](../../media/configuration-analyzer-settings-and-recommendations-view.png)
 
@@ -97,32 +97,32 @@ De kolom **Beleidsgroep/naam van instelling** bevat standaard een samengevouwen 
 - **Anti spam**
 - **Anti phishing**
 - **Anti malware**
-- **Veilige bijlage van ATP** (als uw abonnement de ATP omvat)
-- **Veilige koppelingen voor ATP** (als uw abonnement de ATP omvat)
+- **Veilige bijlage van ATP** (als uw abonnement Microsoft Defender voor Office 365 bevat)
+- **Veilige koppelingen voor ATP** (als uw abonnement Microsoft Defender voor Office 365 bevat)
 
 In de standaardweergave is alles samengevouwen. Naast elk beleid bevindt zich een samenvatting van vergelijkingsresultaten van uw beleid (die u kunt wijzigen) en de instellingen in het bijbehorende beleid voor de standaard-of strikte beveiligingsprofielen (die u niet kunt wijzigen). U ziet de volgende informatie voor het beveiligingsprofiel waarmee u een vergelijking maakt:
 
-- **Groen**: alle instellingen in alle bestaande beleidsregels zijn ten minste veilig als het beveiligingsprofiel.
-- **Geel**: een klein aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel.
-- **Rood**: een groot aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel. Dit kan een paar instellingen zijn voor veel beleidsregels of veel instellingen in één beleid.
+- **Groen** : alle instellingen in alle bestaande beleidsregels zijn ten minste veilig als het beveiligingsprofiel.
+- **Geel** : een klein aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel.
+- **Rood** : een groot aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel. Dit kan een paar instellingen zijn voor veel beleidsregels of veel instellingen in één beleid.
 
 Voor gunstige vergelijkingen ziet u de tekst: bij **alle instellingen volgen** de \<**Standard** or **Strict**\> **aanbevelingen**. Anders ziet u het aantal aanbevolen instellingen dat u wilt wijzigen.
 
-Als u **Beleidsgroep/naam**van de instelling uitvouwt, worden alle beleidsregels en de bijbehorende instellingen in elk specifiek beleid weergegeven dat aandacht moet richten. U kunt ook een specifiek type beleid uitvouwen (bijvoorbeeld **anti spam**), zodat alleen de instellingen worden weergegeven van de typen beleidsregels die uw aandacht vereisen.
+Als u **Beleidsgroep/naam** van de instelling uitvouwt, worden alle beleidsregels en de bijbehorende instellingen in elk specifiek beleid weergegeven dat aandacht moet richten. U kunt ook een specifiek type beleid uitvouwen (bijvoorbeeld **anti spam** ), zodat alleen de instellingen worden weergegeven van de typen beleidsregels die uw aandacht vereisen.
 
 Als de vergelijking geen aanbevelingen oplevert voor verbetering (groen), onthult het beleid niets. Als er sprake is van een aantal aanbevelingen voor verbetering (geel of rood), worden de instellingen die aandacht vereisen weergegeven en wordt de bijbehorende informatie getoond in de volgende kolommen:
 
 - De naam van de instelling die uw aandacht vereist. In de vorige schermafbeelding ziet u bijvoorbeeld de limiet voor **bulk mail** in een antispambeleid.
 
-- **Beleid**: de naam van het betreffende beleid dat de instelling bevat.
+- **Beleid** : de naam van het betreffende beleid dat de instelling bevat.
 
-- **Toepassen op**: het aantal gebruikers waarop het desbetreffende beleid wordt toegepast.
+- **Toepassen op** : het aantal gebruikers waarop het desbetreffende beleid wordt toegepast.
 
-- **Huidige configuratie**: de huidige waarde van de instelling.
+- **Huidige configuratie** : de huidige waarde van de instelling.
 
-- **Laatst gewijzigd**: de datum waarop het beleid het laatst is gewijzigd.
+- **Laatst gewijzigd** : de datum waarop het beleid het laatst is gewijzigd.
 
-- **Aanbevelingen**: de waarde van de instelling in het standaard-of strikte beveiligingsprofiel. Als u de waarde van de instelling in het beleid wilt wijzigen zodat deze overeenkomt met de aanbevolen waarde in het beveiligingsprofiel, klikt u op **aannemen**. Als de wijziging slaagt, ziet u het volgende bericht: **aanbevelingen zijn besloten**. Klik op **vernieuwen** om het minder aantal aanbevelingen te zien en het verwijderen van de specifieke rij voor beleidsregels/beleid van de resultaten.
+- **Aanbevelingen** : de waarde van de instelling in het standaard-of strikte beveiligingsprofiel. Als u de waarde van de instelling in het beleid wilt wijzigen zodat deze overeenkomt met de aanbevolen waarde in het beveiligingsprofiel, klikt u op **aannemen**. Als de wijziging slaagt, ziet u het volgende bericht: **aanbevelingen zijn besloten**. Klik op **vernieuwen** om het minder aantal aanbevelingen te zien en het verwijderen van de specifieke rij voor beleidsregels/beleid van de resultaten.
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>Configuratie van configuratie van drijfman en historie van configuratie-analyse
 

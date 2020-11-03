@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor standalone Exchange Online Protection (EOP) om ervoor te zorgen dat er geen veelvoorkomende configuratiefouten zijn opgetreden.
-ms.openlocfilehash: b734fe87b82c243531944bbd9cf53d22d5b42f53
-ms.sourcegitcommit: 5e1b8c959a081022826fb09358730096248507ed
+ms.openlocfilehash: abf68e361293b2a55cd0a382cc376cbfe21236e7
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48414032"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845946"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Aanbevolen procedures voor het configureren van zelfstandige EOP
 
@@ -35,7 +35,7 @@ Als uw organisatie bestaande gebruikersaccounts bevat in een on-premises Active 
 
 ## <a name="recommended-settings"></a>Aanbevolen instellingen
 
-Beveiligingsbeheerders worden geadviseerd hun beveiligingsinstellingen aan te passen en te voldoen aan de behoeften van hun organisatie. Hoewel het in het algemeen een regel is, zijn er twee beveiligingsniveaus in EOP en in Office 365 ATP: standaard en strikte. Deze instellingen worden weergegeven in de [Aanbevolen instellingen voor EOP en Office 365 ATP-beveiliging](recommended-settings-for-eop-and-office365-atp.md).
+Beveiligingsbeheerders worden geadviseerd hun beveiligingsinstellingen aan te passen en te voldoen aan de behoeften van hun organisatie. Hoewel het in de regel algemeen een regel is, zijn er twee beveiligingsniveaus in EOP en Microsoft Defender voor Office 365 die wij aanraden: Standard en strict. Deze instellingen worden weergegeven in de [Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging](recommended-settings-for-eop-and-office365-atp.md).
 
 ### <a name="miscellaneousnon-policy-settings"></a>Diversen/niet-beleidsinstellingen
 

@@ -1,6 +1,6 @@
 ---
-title: Bekende foutcodes Microsoft Threat Protection REST API
-description: Meer informatie over de veelvoorkomende foutcodes voor Microsoft Threat Protection REST API
+title: Veelgebruikte foutcodes voor Microsoft 365 Defender REST API
+description: Meer informatie over de veelvoorkomende foutcodes voor Microsoft 365 Defender REST API
 keywords: API, fout, code, veelvoorkomende fouten, MTP, API-foutcodes
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,25 +19,25 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 81375b919b52ff895e5ec7014feb747b1a0eae65
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: aceb376662f2b27397aa2332f8929a57d5a3ee03
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201337"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846006"
 ---
-# <a name="common-microsoft-threat-protection-rest-api-error-codes"></a>Bekende foutcodes Microsoft Threat Protection REST API
+# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Veelgebruikte foutcodes voor Microsoft 365 Defender REST API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 >[!IMPORTANT] 
 >Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
-De foutcodes in de volgende tabel kunnen als resultaat worden gegeven door een bewerking bij een van de Microsoft Threat Protection-Api's.
+De foutcodes in de volgende tabel kunnen als resultaat worden gegeven door een bewerking voor een van de Microsoft 365-Api's.
 
 Elk foutbericht bevat een foutbericht dat kan worden opgelost om het probleem te verhelpen.
 

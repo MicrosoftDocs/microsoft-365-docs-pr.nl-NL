@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 926f129b95e1d9d6b07f56955bdf061884d4340b
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 9291d9f113fdc1c082b38d92399c1dee646b523d
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430103"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846168"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -32,7 +32,7 @@ ms.locfileid: "48430103"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 De `DeviceFileCertificateInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over het ondertekenen van certificaten. In deze tabel worden de gegevens gebruikt die zijn verkregen van activiteiten voor certificaatverificatie, die regelmatig worden uitgevoerd voor bestanden op eindpunten.
 

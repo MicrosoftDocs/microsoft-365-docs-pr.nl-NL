@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 39209e81c380887d8a65e28f12ea00c6050e28fa
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 52bbbad5acac3b0407ffbf0cd78888d74cfb05d3
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950328"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846190"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Ondersteuning voor Microsoft Managed Desktop
 
@@ -33,7 +33,7 @@ Ondersteuning voor Microsoft Managed Desktop omvat:
 
 Ondersteunde producten:
 
-- Windows 10 met Microsoft Defender Advanced Threat Protection 
+- Windows 10 met Microsoft Defender voor eindpunt
 - Deze Microsoft 365-apps voor Enterprise-apps: Outlook, Word, PowerPoint, Excel, Skype voor bedrijven-client, Microsoft teams 
 - Microsoft Store voor Bedrijven 
 - Client van OneDrive voor bedrijven 

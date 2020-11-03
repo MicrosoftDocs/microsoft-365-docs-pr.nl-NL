@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Een overzicht van beveiligings-en SIEM-Serverintegratie met Microsoft 365-cloudservices en-toepassingen
-ms.openlocfilehash: 6d657990417cab2a8cbb1b03b8b79a65c095d1a5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0e582333615d11c500b114225435903cea386ade
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202203"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846398"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Beveiligingsinformatie en Gebeurtenissenbeheer (SIEM) Serverintegratie met Microsoft 365-Services en-toepassingen
 
@@ -52,13 +52,13 @@ Een SIEM-server kan gegevens ontvangen van diverse Microsoft 365-Services en-toe
 
 |Microsoft 365-service of-toepassing|SIEM-server ingangen/-methoden|Informatiebronnen|
 |---|---|---|
-|[Office 365 Advanced Threat Protection](office-365-atp.md)|Controlelogboeken|[SIEM-integratie met Office 365 Advanced Threat Protection](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/)|HTTPS-eindpunt gehost in azure <br/>REST-API|[Waarschuwingen aantrekken voor uw SIEM-hulpmiddelen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
+|[Microsoft Defender voor Office 365](office-365-atp.md)|Controlelogboeken|[SIEM-integratie met Microsoft Defender voor Office 365](siem-integration-with-office-365-ti.md)|
+|[Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/)|HTTPS-eindpunt gehost in azure <br/>REST-API|[Waarschuwingen aantrekken voor uw SIEM-hulpmiddelen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Integratie van logboek|[SIEM-integratie met Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/siem)|
 |
 
 > [!TIP]
-> Bekijk [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview). Azure Sentinel wordt geleverd met connectors voor Microsoft-oplossingen. Deze verbindingslijnen bevinden zich in de loop van het vak en geven de mogelijkheid om in realtime te integreren. U kunt Azure verklikker gebruiken met uw Microsoft Threat Protection-oplossingen en Microsoft 365-Services, waaronder Office 365, Azure AD, Azure Office, Azure ATP, Microsoft Cloud app Security en meer.
+> Bekijk [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview). Azure Sentinel wordt geleverd met connectors voor Microsoft-oplossingen. Deze verbindingslijnen bevinden zich in de loop van het vak en geven de mogelijkheid om in realtime te integreren. U kunt Azure Sentinel gebruiken met uw Microsoft 365 Defender-oplossingen en Microsoft 365-Services, waaronder Office 365, Azure AD, Microsoft Defender for Identity, Microsoft Cloud app Security en meer.
 
 ### <a name="audit-logging-must-be-turned-on"></a>Controlelogboekregistratie moet zijn ingeschakeld
 
@@ -70,6 +70,6 @@ Zorg ervoor dat het logboekregistratie van gebeurtenissen is ingeschakeld voorda
 
 ## <a name="more-resources"></a>Meer informatie
 
-[Beveiligingsoplossingen integreren in azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
+[Beveiligingsoplossingen in azure Defender integreren](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
 [Microsoft Graph beveiligings API-waarschuwingen integreren met een SIEM](https://docs.microsoft.com/graph/security-integration)

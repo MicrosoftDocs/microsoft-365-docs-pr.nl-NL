@@ -1,5 +1,5 @@
 ---
-title: Aanvals Simulator in ATP
+title: Aanvals Simulator in Microsoft Defender voor Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,20 +18,20 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe u met behulp van Hack Simulator een aanval uitvoert met phishing en wachtwoorden in hun Microsoft 365 E5-of ATP-abonnement 2-organisaties.
-ms.openlocfilehash: 2c837df1abc344186168c88ce0db94dd9d1d2b4a
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+description: Beheerders kunnen leren hoe u met behulp van Hack Simulator een aanval en wachtwoord aanval uitvoert in hun Microsoft 365 E5 of Microsoft Defender for Office 365-abonnement 2-organisaties.
+ms.openlocfilehash: b7d04b3c81791bfc107b48176373ffc84fc8f6c5
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430785"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845994"
 ---
-# <a name="attack-simulator-in-atp"></a>Aanvals Simulator in ATP
+# <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Aanvals Simulator in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Als uw organisatie Office 365 Advanced Threat Protection (ATP) heeft, waaronder het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van Office, kunt u met behulp van aanvals functie in het beveiligings & nalevings centrum realistische aanvalsscenario's in uw organisatie uitvoeren. Met de gesimuleerde aanvallen kunt u gebruikers kwetsbaar maken en kwetsbaar maken voor een echte aanval met uw onderste regel. Lees dit artikel voor meer informatie.
+Als uw organisatie Microsoft Defender voor Office 365, abonnement 2 bevat, inclusief het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van de organisatie, kunt u met behulp van aanvals functie in het beveiligings & nalevings centrum realistische aanvalsscenario's in uw organisatie uitvoeren. Met de gesimuleerde aanvallen kunt u gebruikers kwetsbaar maken en kwetsbaar maken voor een echte aanval met uw onderste regel. Lees dit artikel voor meer informatie.
 
 > [!NOTE]
 > Simulatie van aanval en opleidingen met betrekking tot de training voor Microsoft 365-Services met andere klantgegevens. Zie [Microsoft 365-gegevenslocaties](/microsoft-365/enterprise/o365-data-locations)voor meer informatie.
@@ -40,7 +40,7 @@ Als uw organisatie Office 365 Advanced Threat Protection (ATP) heeft, waaronder 
 
 - Ga naar <https://protection.office.com/> om het Beveiligings- en compliancecentrum te openen. Er is een aanvals Simulator beschikbaar op de **bedreigings beheer** \> **aanval Simulator**. Ga rechtstreeks naar aanval Simulator, open <https://protection.office.com/attacksimulator> .
 
-- Zie voor meer informatie over de beschikbaarheid van een aanvals functie in diverse Microsoft 365-abonnementen de [Beschrijving van Office 365 Advanced Threat Protection Service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+- Zie voor meer informatie over de beschikbaarheid van Hack Simulator in diverse Microsoft 365-abonnementen de [servicebeschrijving van Microsoft Defender for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
 - U moet lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** . Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
@@ -56,7 +56,7 @@ Als uw organisatie Office 365 Advanced Threat Protection (ATP) heeft, waaronder 
 
 In het geval van een aanvals Simulator zijn er twee verschillende typen vergelijkende phishingberichten beschikbaar:
 
-- **Spear phishing (credentials oogst)**: de aanval probeert de geadresseerden te overtuigen om op een URL in het bericht te klikken. Als u op de koppeling klikt, wordt u gevraagd hun referenties in te voeren. Als dat het geval is, worden deze in een van de volgende locaties gezet:
+- **Spear phishing (credentials oogst)** : de aanval probeert de geadresseerden te overtuigen om op een URL in het bericht te klikken. Als u op de koppeling klikt, wordt u gevraagd hun referenties in te voeren. Als dat het geval is, worden deze in een van de volgende locaties gezet:
 
   - Een standaardpagina waarmee wordt uitgelegd dat dit een enkele test is en geeft tips voor het herkennen van phishingberichten.
 
@@ -64,7 +64,7 @@ In het geval van een aanvals Simulator zijn er twee verschillende typen vergelij
 
   - Een aangepaste pagina (URL) die u opgeeft.
 
-- **Spear phishing (bijlage)**: de aanval probeert de geadresseerden te overtuigen een. DOCX-of. PDF-bijlage te openen in het bericht. De bijlage bevat dezelfde inhoud van de standaard malafide hyperlink, maar de eerste zin begint met ' \<Display Name\> , dit bericht wordt weergegeven als een onlangs verzonden e-mailbericht dat u hebt geopend... '.
+- **Spear phishing (bijlage)** : de aanval probeert de geadresseerden te overtuigen een. DOCX-of. PDF-bijlage te openen in het bericht. De bijlage bevat dezelfde inhoud van de standaard malafide hyperlink, maar de eerste zin begint met ' \<Display Name\> , dit bericht wordt weergegeven als een onlangs verzonden e-mailbericht dat u hebt geopend... '.
 
 > [!NOTE]
 > Op dit moment verloopt het met Spear vermoeden van een aanvals Simulator niet.
@@ -73,11 +73,11 @@ In het geval van een aanvals Simulator zijn er twee verschillende typen vergelij
 
 Een belangrijk onderdeel van een spear phishing is het uiterlijk van het e-mailbericht dat naar de specifieke geadresseerden is verzonden. Als u het e-mailbericht wilt maken en configureren, hebt u de volgende opties:
 
-- **Een ingebouwde e-mail sjabloon gebruiken**: er zijn twee ingebouwde sjablonen beschikbaar: **prijs Giveaway** en **salaris update**. U kunt enkele, alle of geen van de e-mail eigenschappen van de sjabloon verder aanpassen wanneer u de campagne maakt en start.
+- **Een ingebouwde e-mail sjabloon gebruiken** : er zijn twee ingebouwde sjablonen beschikbaar: **prijs Giveaway** en **salaris update**. U kunt enkele, alle of geen van de e-mail eigenschappen van de sjabloon verder aanpassen wanneer u de campagne maakt en start.
 
-- **Een herbruikbare e-mail sjabloon maken**: nadat u de e-mail sjabloon hebt gemaakt en opgeslagen, kunt u deze opnieuw gebruiken in toekomstige phishingberichten van een malafide programma. U kunt enkele, alle of geen van de e-mail eigenschappen van de sjabloon verder aanpassen wanneer u de campagne maakt en start.
+- **Een herbruikbare e-mail sjabloon maken** : nadat u de e-mail sjabloon hebt gemaakt en opgeslagen, kunt u deze opnieuw gebruiken in toekomstige phishingberichten van een malafide programma. U kunt enkele, alle of geen van de e-mail eigenschappen van de sjabloon verder aanpassen wanneer u de campagne maakt en start.
 
-- **Het e-mailbericht maken in de wizard**: u kunt het e-mailbericht rechtstreeks in de wizard maken wanneer u de Spear malafide-campagne maakt en start.
+- **Het e-mailbericht maken in de wizard** : u kunt het e-mailbericht rechtstreeks in de wizard maken wanneer u de Spear malafide-campagne maakt en start.
 
 #### <a name="step-1-optional-create-a-custom-email-template"></a>Stap 1 (optioneel): een aangepaste e-mail sjabloon maken
 
@@ -95,11 +95,11 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
 5. Configureer de volgende instellingen in de stap **e-mail gegevens configureren** :
 
-   - **From (naam)**: de weergavenaam die wordt gebruikt voor de afzender van het bericht.
+   - **From (naam)** : de weergavenaam die wordt gebruikt voor de afzender van het bericht.
 
-   - **From (e-mail)**: het e-mailadres van de afzender.
+   - **From (e-mail)** : het e-mailadres van de afzender.
 
-   - **URL voor phishing-login server**: Klik op de vervolgkeuzelijst en selecteer een van de beschikbare url's in de lijst. Dit is de URL die gebruikers in de neiging krijgen om te klikken. U kunt kiezen uit de volgende opties:
+   - **URL voor phishing-login server** : Klik op de vervolgkeuzelijst en selecteer een van de beschikbare url's in de lijst. Dit is de URL die gebruikers in de neiging krijgen om te klikken. U kunt kiezen uit de volgende opties:
 
      - <http://portal.docdeliveryapp.com>
      - <http://portal.docdeliveryapp.net>
@@ -120,11 +120,11 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
      >
      > - Een URL-reputatie service kan een of meer van deze Url's als onveilig identificeren. Controleer de beschikbaarheid van de URL in de ondersteunde webbrowsers voordat u de URL in een malafide campagne gebruikt.
 
-   - **URL voor aangepaste landingspagina**: Voer een optionele openingspagina in, waar gebruikers worden gehouden als ze op de phishing-koppeling klikken en hun referenties invoeren. Met deze koppeling vervangt u de standaard landingspagina. Als u bijvoorbeeld een interne bewustmakings training hebt, kunt u die URL hier opgeven.
+   - **URL voor aangepaste landingspagina** : Voer een optionele openingspagina in, waar gebruikers worden gehouden als ze op de phishing-koppeling klikken en hun referenties invoeren. Met deze koppeling vervangt u de standaard landingspagina. Als u bijvoorbeeld een interne bewustmakings training hebt, kunt u die URL hier opgeven.
 
-   - **Categorie**: deze instelling wordt op dit moment niet gebruikt (alle ingevoerde tekst wordt genegeerd).
+   - **Categorie** : deze instelling wordt op dit moment niet gebruikt (alle ingevoerde tekst wordt genegeerd).
 
-   - **Onderwerp**: het veld **onderwerp** van het e-mailbericht.
+   - **Onderwerp** : het veld **onderwerp** van het e-mailbericht.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
@@ -152,7 +152,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
 3. De wizard **phishing configureren** begint in een nieuwe flyout. Voer in de stap **begin** een van de volgende stappen uit:
 
-   - Voer in het vak **naam** een unieke weergavenaam voor de campagne in. Klik niet op **sjabloon gebruiken**omdat u het e-mailbericht later in de wizard gaat maken.
+   - Voer in het vak **naam** een unieke weergavenaam voor de campagne in. Klik niet op **sjabloon gebruiken** omdat u het e-mailbericht later in de wizard gaat maken.
 
    - Klik op **sjabloon gebruiken** en selecteer een ingebouwde of aangepaste e-mail sjabloon. Wanneer u de sjabloon hebt geselecteerd, wordt het vak **naam** automatisch ingevuld op basis van de sjabloon, maar u kunt de naam wijzigen.
 
@@ -172,11 +172,11 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    Als u een sjabloon hebt geselecteerd in de **begin** stap, zijn de meeste van deze waarden al geconfigureerd, maar u kunt ze wijzigen.
 
-   - **From (naam)**: de weergavenaam die wordt gebruikt voor de afzender van het bericht.
+   - **From (naam)** : de weergavenaam die wordt gebruikt voor de afzender van het bericht.
 
-   - **From (e-mail)**: het e-mailadres van de afzender. U kunt een echt e-mailadres of e-mailadres invoeren in het e-mail domein van uw organisatie, of u kunt een echt of vervalst extern e-mailadres invoeren. Een geldig e-mailadres van de afzender van uw organisatie wordt daadwerkelijk omgezet in de e-mailclient van de ontvanger.
+   - **From (e-mail)** : het e-mailadres van de afzender. U kunt een echt e-mailadres of e-mailadres invoeren in het e-mail domein van uw organisatie, of u kunt een echt of vervalst extern e-mailadres invoeren. Een geldig e-mailadres van de afzender van uw organisatie wordt daadwerkelijk omgezet in de e-mailclient van de ontvanger.
 
-   - **URL voor phishing-login server**: Klik op de vervolgkeuzelijst en selecteer een van de beschikbare url's in de lijst. Dit is de URL die gebruikers in de neiging krijgen om te klikken. U kunt kiezen uit de volgende opties:
+   - **URL voor phishing-login server** : Klik op de vervolgkeuzelijst en selecteer een van de beschikbare url's in de lijst. Dit is de URL die gebruikers in de neiging krijgen om te klikken. U kunt kiezen uit de volgende opties:
 
      - <http://portal.docdeliveryapp.com>
      - <http://portal.docdeliveryapp.net>
@@ -199,13 +199,13 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
      >
      > - U moet een URL selecteren. U kunt de koppeling in de hoofdtekst van het bericht in de volgende stap verwijderen (in de volgende stap, anders is het bericht een koppeling **en** een **bijlage).**
 
-   - **Bijlage type**: deze instelling is alleen beschikbaar in een **Spear malafide-campagne (bijlage)** . Klik op de vervolgkeuzelijst en selecteer **. DOCX** of **. PDF** uit de lijst.
+   - **Bijlage type** : deze instelling is alleen beschikbaar in een **Spear malafide-campagne (bijlage)** . Klik op de vervolgkeuzelijst en selecteer **. DOCX** of **. PDF** uit de lijst.
 
-   - **Bijlagenaam**: deze instelling is alleen beschikbaar in een **Spear malafide-campagne (bijlage)** . Voer een bestandsnaam in voor de. DOCX-of. PDF-bijlage.
+   - **Bijlagenaam** : deze instelling is alleen beschikbaar in een **Spear malafide-campagne (bijlage)** . Voer een bestandsnaam in voor de. DOCX-of. PDF-bijlage.
 
-   - **URL voor aangepaste landingspagina**: Voer een optionele openingspagina in, waar gebruikers worden gehouden als ze op de phishing-koppeling klikken en hun referenties invoeren. Met deze koppeling vervangt u de standaard landingspagina. Als u bijvoorbeeld een interne bewustmakings training hebt, kunt u die URL hier opgeven.
+   - **URL voor aangepaste landingspagina** : Voer een optionele openingspagina in, waar gebruikers worden gehouden als ze op de phishing-koppeling klikken en hun referenties invoeren. Met deze koppeling vervangt u de standaard landingspagina. Als u bijvoorbeeld een interne bewustmakings training hebt, kunt u die URL hier opgeven.
 
-   - **Onderwerp**: het veld **onderwerp** van het e-mailbericht.
+   - **Onderwerp** : het veld **onderwerp** van het e-mailbericht.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
@@ -231,11 +231,11 @@ Een *wachtwoord aanval* probeert wachtwoorden te raden voor gebruikersaccounts i
 
 In het geval van een aanvals Simulator zijn voor u de complexiteit van de wachtwoorden van de gebruikers mogelijk.
 
-- **Wachtwoord voor brute kracht (woordenboekaanval)**: een *Grove* woord of *woordenboek* aanval gebruikt een groot woordenboek met wachtwoorden voor een gebruikersaccount, zodat een van deze wachtwoorden (veel wachtwoorden voor één account) werkt. Onjuiste wachtwoord vergrendelings helpt bij het beschermen van grove aanvals wachtwoorden.
+- **Wachtwoord voor brute kracht (woordenboekaanval)** : een *Grove* woord of *woordenboek* aanval gebruikt een groot woordenboek met wachtwoorden voor een gebruikersaccount, zodat een van deze wachtwoorden (veel wachtwoorden voor één account) werkt. Onjuiste wachtwoord vergrendelings helpt bij het beschermen van grove aanvals wachtwoorden.
 
   Voor de woordenboekaanval kunt u een of meer wachtwoorden opgeven voor de invoer (handmatig of in een geüpload bestand) en kunt u een of meer gebruikers opgeven.
 
-- **Aanval**met een wachtwoord: een aanval met een *wachtwoord* gebruikt hetzelfde zorgvuldig als het wachtwoord voor een lijst met gebruikersaccounts (één wachtwoord voor een groot aantal accounts). Aanval met een wachtwoord is moeilijker te detecteren dan aanvallen met een grove kracht (de kans op succes vergroot wanneer een aanvaller één wachtwoord probeert uit te proberen of honderden accounts zonder dat het risico loopt dat de gebruikers onjuiste wachtwoorden voor de gebruiker uitchecken).
+- **Aanval** met een wachtwoord: een aanval met een *wachtwoord* gebruikt hetzelfde zorgvuldig als het wachtwoord voor een lijst met gebruikersaccounts (één wachtwoord voor een groot aantal accounts). Aanval met een wachtwoord is moeilijker te detecteren dan aanvallen met een grove kracht (de kans op succes vergroot wanneer een aanvaller één wachtwoord probeert uit te proberen of honderden accounts zonder dat het risico loopt dat de gebruikers onjuiste wachtwoorden voor de gebruiker uitchecken).
 
   Voor de wachtwoord spray mag u slechts één wachtwoord opgeven om te proberen, en kunt u een of meer gebruikers opgeven.
 
@@ -264,13 +264,13 @@ In het geval van een aanvals Simulator zijn voor u de complexiteit van de wachtw
 
 5. Kies in de stap **Choose Attack Settings** wat u wilt doen op basis van het type campagne:
 
-   - **Wachtwoord voor brute kracht (woordenboekaanval)**: Voer een van de volgende stappen uit:
+   - **Wachtwoord voor brute kracht (woordenboekaanval)** : Voer een van de volgende stappen uit:
 
-     - **Voer uw wachtwoorden handmatig**in: Typ een wachtwoord in het vak **Druk op ENTER om een wachtwoord toe te voegen** en druk op ENTER. Herhaal deze stap zo vaak als nodig is.
+     - **Voer uw wachtwoorden handmatig** in: Typ een wachtwoord in het vak **Druk op ENTER om een wachtwoord toe te voegen** en druk op ENTER. Herhaal deze stap zo vaak als nodig is.
 
-     - **Wachtwoorden van een woordenlijstbestand uploaden**: Klik op **uploaden** om een bestaand tekstbestand te importeren dat één wachtwoord bevat op een regel en een lege laatste regel. Het tekstbestand mag niet groter zijn dan 10 MB, en mag niet meer dan 30000 wachtwoorden bevatten.
+     - **Wachtwoorden van een woordenlijstbestand uploaden** : Klik op **uploaden** om een bestaand tekstbestand te importeren dat één wachtwoord bevat op een regel en een lege laatste regel. Het tekstbestand mag niet groter zijn dan 10 MB, en mag niet meer dan 30000 wachtwoorden bevatten.
 
-   - **Aanval**met een wachtwoord: Typ in **het vak voor de aanval** één wachtwoord.
+   - **Aanval** met een wachtwoord: Typ in **het vak voor de aanval** één wachtwoord.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
@@ -298,25 +298,25 @@ U vindt de volgende informatie op de pagina met details van een **aanval** voor 
 
 - **Totaal aantal gebruikers dat is gericht**
 
-- **Geslaagde pogingen**: het aantal gebruikers dat op de koppeling heeft geklikt **en** hun referenties heeft ingevoerd (*elke* gebruikersnaam en wachtwoord).
+- **Geslaagde pogingen** : het aantal gebruikers dat op de koppeling heeft geklikt **en** hun referenties heeft ingevoerd ( *elke* gebruikersnaam en wachtwoord).
 
-- **Algemeen succes tarief**: een percentage dat wordt berekend door de **succesvolle pogingen**voor een  /  **Totaal aantal gebruikers**die zijn gericht.
+- **Algemeen succes tarief** : een percentage dat wordt berekend door de **succesvolle pogingen** voor een  /  **Totaal aantal gebruikers** die zijn gericht.
 
-- **Snelste Klik**: hoe lang het duurt voordat de eerste gebruiker op de koppeling klikt, nadat u de campagne hebt gestart.
+- **Snelste Klik** : hoe lang het duurt voordat de eerste gebruiker op de koppeling klikt, nadat u de campagne hebt gestart.
 
-- **Gemiddelde Klik**: de som van hoe lang het duurt voordat iedereen op de koppeling klikt, gedeeld door het aantal gebruikers dat op de koppeling heeft geklikt.
+- **Gemiddelde Klik** : de som van hoe lang het duurt voordat iedereen op de koppeling klikt, gedeeld door het aantal gebruikers dat op de koppeling heeft geklikt.
 
-- **Klik op succes tarief**: een percentage dat wordt berekend door (aantal gebruikers dat op de koppeling hebt geklikt)/ **totale aantal gebruikers**dat is gericht.
+- **Klik op succes tarief** : een percentage dat wordt berekend door (aantal gebruikers dat op de koppeling hebt geklikt)/ **totale aantal gebruikers** dat is gericht.
 
-- **Snelste referenties**: hoe lang het duurt voordat de eerste gebruiker de referenties heeft ingevoerd nadat u de campagne hebt gestart.
+- **Snelste referenties** : hoe lang het duurt voordat de eerste gebruiker de referenties heeft ingevoerd nadat u de campagne hebt gestart.
 
-- **Gemiddelde referenties**: de som van hoe lang het duurt voordat iedereen de referenties heeft ingevoerd, gedeeld door het aantal gebruikers dat hun referenties heeft ingevoerd.
+- **Gemiddelde referenties** : de som van hoe lang het duurt voordat iedereen de referenties heeft ingevoerd, gedeeld door het aantal gebruikers dat hun referenties heeft ingevoerd.
 
-- **Geslaagde referenties**: een percentage dat wordt berekend door (aantal gebruikers dat zijn of haar referenties heeft ingevoerd)/ **totale aantal gebruikers met een targeted**.
+- **Geslaagde referenties** : een percentage dat wordt berekend door (aantal gebruikers dat zijn of haar referenties heeft ingevoerd)/ **totale aantal gebruikers met een targeted**.
 
 - Een staafdiagram met een koppeling waarmee de **koppeling wordt geklikt** en de **ingevoerde** nummers per dag.
 
-- Een cirkeldiagram waarin de koppeling wordt weergegeven waarop de **koppeling**is **gebaseerd**, en **geen** percentages van de campagne.
+- Een cirkeldiagram waarin de koppeling wordt weergegeven waarop de **koppeling** is **gebaseerd** , en **geen** percentages van de campagne.
 
 - De sectie verdeelde **gebruikers** bevat de details van de gebruikers die op de koppeling hebben geklikt:
 
@@ -338,15 +338,15 @@ U vindt de volgende informatie op de pagina met details van een **aanval** voor 
 
 - **Totaal aantal gebruikers dat is gericht**
 
-- **Geslaagde pogingen**: het aantal gebruikers dat de bijlage heeft geopend of gedownload en geopend (geen aantal).
+- **Geslaagde pogingen** : het aantal gebruikers dat de bijlage heeft geopend of gedownload en geopend (geen aantal).
 
-- **Algemeen succes tarief**: een percentage dat wordt berekend door de **succesvolle pogingen**voor een  /  **Totaal aantal gebruikers**die zijn gericht.
+- **Algemeen succes tarief** : een percentage dat wordt berekend door de **succesvolle pogingen** voor een  /  **Totaal aantal gebruikers** die zijn gericht.
 
-- **Snelste tijd voor bijlage open**: hoelang de eerste gebruiker de bijlage heeft gemaakt om de bijlage te openen na het starten van de campagne.
+- **Snelste tijd voor bijlage open** : hoelang de eerste gebruiker de bijlage heeft gemaakt om de bijlage te openen na het starten van de campagne.
 
-- **Gemiddelde openingstijd bijlage**: de som van hoe lang het duurt voordat iedereen de bijlage opent, gedeeld door het aantal gebruikers dat de bijlage heeft geopend.
+- **Gemiddelde openingstijd bijlage** : de som van hoe lang het duurt voordat iedereen de bijlage opent, gedeeld door het aantal gebruikers dat de bijlage heeft geopend.
 
-- **Bijlage openen geslaagd**: een percentage dat wordt berekend door (aantal gebruikers dat de bijlage heeft geopend)/ **totale aantal gebruikers**dat is gericht.
+- **Bijlage openen geslaagd** : een percentage dat wordt berekend door (aantal gebruikers dat de bijlage heeft geopend)/ **totale aantal gebruikers** dat is gericht.
 
 ### <a name="brute-force-password-dictionary-attack-campaign-results"></a>De campagne resultaten van brute kracht (woordenboekaanval)
 
@@ -356,9 +356,9 @@ U vindt de volgende informatie op de pagina met details van een **aanval** voor 
 
 - **Totaal aantal gebruikers dat is gericht**
 
-- **Geslaagde pogingen**: het aantal gebruikers dat is gevonden met een van de opgegeven wachtwoorden.
+- **Geslaagde pogingen** : het aantal gebruikers dat is gevonden met een van de opgegeven wachtwoorden.
 
-- **Algemeen succes tarief**: een percentage dat wordt berekend door de **succesvolle pogingen**voor een  /  **Totaal aantal gebruikers**die zijn gericht.
+- **Algemeen succes tarief** : een percentage dat wordt berekend door de **succesvolle pogingen** voor een  /  **Totaal aantal gebruikers** die zijn gericht.
 
 - In de sectie met verdeelde **gebruikers** worden de e-mailadressen van de betrokken gebruikers weergegeven. U kunt op **exporteren** klikken om de resultaten naar een CSV-bestand te exporteren.
 
@@ -370,6 +370,6 @@ U vindt de volgende informatie op de pagina met details van een **aanval** voor 
 
 - **Totaal aantal gebruikers dat is gericht**
 
-- **Geslaagde pogingen**: het aantal gebruikers dat het opgegeven wachtwoord heeft gevonden.
+- **Geslaagde pogingen** : het aantal gebruikers dat het opgegeven wachtwoord heeft gevonden.
 
-- **Algemeen succes tarief**: een percentage dat wordt berekend door de **succesvolle pogingen**voor een  /  **Totaal aantal gebruikers**die zijn gericht.
+- **Algemeen succes tarief** : een percentage dat wordt berekend door de **succesvolle pogingen** voor een  /  **Totaal aantal gebruikers** die zijn gericht.

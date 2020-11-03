@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f4af346877b41b03c07750508ff93661cc642ec4
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: b98cec62a018556bfbd31df0aa824acbd00b37b6
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289103"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846238"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Technologieën in Microsoft Managed Desktop
 
@@ -42,7 +42,7 @@ Webtoepassingen |  Yammer, Office in een browser, Delve, flow, StaffHub, PowerAp
  |
  --- | ---
 Application Virtualization (app-V) |    Klanten kunnen app-V-pakketten implementeren met behulp van de intune Win32®-app voor app-beheer.
-Microsoft Defender Advanced Threat Protection |  Microsoft Managed Desktop gebruikt deze om de beveiliging van apparaten te bewaken. 
+Microsoft Defender voor eindpunt |    Microsoft Managed Desktop gebruikt deze om de beveiliging van apparaten te bewaken. 
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5
 

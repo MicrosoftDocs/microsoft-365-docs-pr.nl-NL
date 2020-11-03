@@ -25,34 +25,34 @@ search.appverid:
 - ZPP160
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
-description: In dit artikel hebben beheerders een betere beveiliging van veilige koppelingen in Office 365 Advanced Threat Protection (ATP) om hun organisatie tegen phishing en andere aanvallen die gebruikmaken van schadelijke Url's te beschermen.
-ms.openlocfilehash: 45936cabf012c5f40080f3bbfee224aec9593d30
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+description: In dit artikel kunnen beheerders informatie bieden over beveiliging van veilige koppelingen in Defender voor Office 365 om hun organisatie tegen phishing en andere aanvallen met schadelijke Url's te beschermen.
+ms.openlocfilehash: 869cb2f330b81481a2a0a013564853274654d0ef
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806724"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846054"
 ---
-# <a name="safe-links-in-office-365-atp"></a>Veilige koppelingen in Office 365 ATP
+# <a name="safe-links-in-microsoft-defender-for-office-365"></a>Veilige koppelingen in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Office 365 Advanced Threat Protection (ATP)](office-365-atp.md)hebben. Als u gebruikmaakt van Outlook.com, Microsoft 365 Family of Microsoft 365 Personal en u zoekt naar informatie over Safelinks in Outlook, raadpleegt u [geavanceerde beveiliging van Outlook.com](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Dit artikel is bedoeld voor zakelijke klanten met [Microsoft Defender voor Office 365](office-365-atp.md). Als u gebruikmaakt van Outlook.com, Microsoft 365 Family of Microsoft 365 Personal en u zoekt naar informatie over Safelinks in Outlook, raadpleegt u [geavanceerde beveiliging van Outlook.com](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Veilige koppelingen is een functie in [Office 365 Advanced Threat Protection](office-365-atp.md) waarmee inkomende e-mailberichten in de e-mail stroom worden gescand en herschreven, en de time-to-klik verificatie van url's en koppelingen in e-mailberichten en andere locaties. Het scannen van veilige koppelingen vindt u naast de regelmatige [antispam en anti-malware bescherming](anti-spam-and-anti-malware-protection.md) in inkomende e-mailberichten in Exchange Online Protection (EOP). Met behulp van veilige koppelingen scannen kunt u uw organisatie beschermen tegen kwaadaardige koppelingen die worden gebruikt in phishing en andere aanvallen.
+Veilige koppelingen is een functie in [Defender voor Office 365](office-365-atp.md) waarmee u de inkomende e-mailberichten in de e-mail stroom kunt scannen en opnieuw kunt schrijven, en de gewenste verificatie van url's en koppelingen in e-mailberichten en andere locaties. Het scannen van veilige koppelingen vindt u naast de regelmatige [antispam en anti-malware bescherming](anti-spam-and-anti-malware-protection.md) in inkomende e-mailberichten in Exchange Online Protection (EOP). Met behulp van veilige koppelingen scannen kunt u uw organisatie beschermen tegen kwaadaardige koppelingen die worden gebruikt in phishing en andere aanvallen.
 
 Beveiliging van veilige koppelingen is beschikbaar op de volgende locaties:
 
-- **E-mailberichten** : beveiliging van veilige koppelingen voor koppelingen in e-mailberichten wordt bepaald door beleid voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in een e-mailbericht wilt ontvangen, moet u een of meer beleidsregels voor veilige koppelingen maken** . Zie voor instructies het [beleid voor veilige koppelingen instellen in ATP](set-up-atp-safe-links-policies.md).
+- **E-mailberichten** : beveiliging van veilige koppelingen voor koppelingen in e-mailberichten wordt bepaald door beleid voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in een e-mailbericht wilt ontvangen, moet u een of meer beleidsregels voor veilige koppelingen maken**. Zie [beleid voor veilige koppelingen instellen in Microsoft Defender voor Office 365](set-up-atp-safe-links-policies.md)voor instructies.
 
   Zie de [instellingen voor veilige koppelingen voor e-mailberichten](#safe-links-settings-for-email-messages) verderop in dit artikel voor meer informatie over de bescherming van veilige koppelingen voor e-mailberichten.
 
-- **Microsoft teams** (momenteel in de preview-versie van het lint): beveiliging van veilige koppelingen voor koppelingen in teams-gesprekken, groepsgesprekken of van kanalen wordt ook bestuurd door beleidsregels voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in teams wilt instellen, moet u een of meer beleidsregels voor veilige koppelingen maken** .
+- **Microsoft teams** (momenteel in de preview-versie van het lint): beveiliging van veilige koppelingen voor koppelingen in teams-gesprekken, groepsgesprekken of van kanalen wordt ook bestuurd door beleidsregels voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in teams wilt instellen, moet u een of meer beleidsregels voor veilige koppelingen maken**.
 
   Zie de sectie [instellingen voor veilige koppelingen voor Microsoft teams](#safe-links-settings-for-microsoft-teams) verderop in dit onderwerp voor meer informatie over beveiliging van veilige koppelingen in teams.
 
-- **Apps van office 365** : beveiliging van veilige koppelingen voor Office 365-apps is beschikbaar in de ondersteunde Desktop-, Mobile-en Web-APS. U **configureert** de bescherming voor veilige koppelingen voor Office 365-apps in de globale instelling **buiten** het beleid voor veilige koppelingen. Zie [algemene instellingen configureren voorinstellingen voor veilige koppelingen in Office 365 ATP](configure-global-settings-for-safe-links.md)voor instructies.
+- **Apps van office 365** : beveiliging van veilige koppelingen voor Office 365-apps is beschikbaar in de ondersteunde Desktop-, Mobile-en Web-APS. U **configureert** de bescherming voor veilige koppelingen voor Office 365-apps in de globale instelling **buiten** het beleid voor veilige koppelingen. Zie [algemene instellingen configureren voorinstellingen voor veilige koppelingen in Microsoft Defender voor Office 365](configure-global-settings-for-safe-links.md)voor instructies.
 
   Maar de bescherming van veilige koppelingen voor Office 365-apps is alleen van **toepassing** op gebruikers die deel uitmaken van de beleidsregels voor Active Safe koppelingen. Als een gebruiker niet is opgenomen in een actief beleid voor veilige koppelingen, wordt de beveiliging van veilige koppelingen niet ondersteund in ondersteunde Office 365-apps.
 
@@ -71,7 +71,7 @@ Dit artikel bevat uitgebreide beschrijvingen van de volgende typen instellingen 
   - [Instellingen voor veilige koppelingen voor Office 365-apps](#safe-links-settings-for-office-365-apps)
   - [De lijst volgende Url's blokkeren voor veilige koppelingen](#block-the-following-urls-list-for-safe-links)
 
-In de volgende tabel wordt beschreven hoe u veilige koppelingen in Microsoft 365-en Office 365-organisaties die ATP bevatten (met andere woorden, gebrek aan licenties, geen enkel probleem in de voorbeelden).
+In de volgende tabel wordt beschreven hoe u veilige koppelingen in Microsoft 365 en Office 365-organisaties die de oplossing van Defender voor Office 365 bevatten (met andere woorden, onvoldoende licentieverlening in de voorbeelden).
 
 ****
 
@@ -91,7 +91,7 @@ Nadat u met veilige koppelingen een URL hebt geschreven, wordt de URL opnieuw we
 
 In de volgende lijst vindt u een beschrijving van de instellingen voor beleidsregels voor veilige koppelingen die van toepassing zijn op e-mailberichten:
 
-- **Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten** : schakelt veilige koppelingen in e-mailberichten in of uit. De aanbevolen waarde is **ingeschakeld** . U schakelt deze instelling in door de volgende acties uit te voeren.
+- **Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten** : schakelt veilige koppelingen in e-mailberichten in of uit. De aanbevolen waarde is **ingeschakeld**. U schakelt deze instelling in door de volgende acties uit te voeren.
 
   - Het scannen van veilige koppelingen is ingeschakeld in Outlook (C2R) voor Windows.
   - Url's worden herschreven en gebruikers gerouteerd via de bescherming van veilige koppelingen wanneer ze op Url's in berichten klikken.
@@ -152,7 +152,7 @@ Met een hoog niveau gaat u als volgt te werk om de beveiliging van veilige koppe
 > [!IMPORTANT]
 > Met ingang van maart 2020 is deze functie in de preview-versie en is deze alleen beschikbaar voor leden van het Microsoft teams-programma voor de acceptatie van Microsoft teams. Voor informatie over de release planning raadpleegt u het [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams).
 
-U kunt de bescherming van veilige koppelingen voor Microsoft teams in-of uitschakelen in het beleid voor veilige koppelingen. Met name gebruikt u de instelling **de actie een actie voor onbekende of mogelijk schadelijke url's binnen Microsoft teams** . De aanbevolen waarde is **ingeschakeld** .
+U kunt de bescherming van veilige koppelingen voor Microsoft teams in-of uitschakelen in het beleid voor veilige koppelingen. Met name gebruikt u de instelling **de actie een actie voor onbekende of mogelijk schadelijke url's binnen Microsoft teams** . De aanbevolen waarde is **ingeschakeld**.
 
 De volgende instellingen in beleid voor veilige koppelingen die gelden voor koppelingen in e-mailberichten, gelden ook voor koppelingen in teams:
 
@@ -180,7 +180,7 @@ Met een hoog niveau gaat u als volgt te werk om de beveiliging van veilige koppe
 
 1. Een gebruiker begint de teams-app.
 
-2. Microsoft 365 verifieert dat de organisatie van Office 365 de beschikbare ATP van de gebruiker bevat en dat de gebruiker is opgenomen in een actief beleid voor veilige koppelingen waarbij beveiliging voor Microsoft teams is ingeschakeld.
+2. Microsoft 365 verifieert dat de organisatie van de gebruiker Microsoft Defender for Office 365 bevat en dat de gebruiker is opgenomen in een actief beleid voor veilige koppelingen waarbij beveiliging voor Microsoft teams is ingeschakeld.
 
 3. Url's worden gevalideerd wanneer u op het moment van klikken voor de gebruiker in chats, groepsgesprekken, kanalen en tabbladen.
 
@@ -204,11 +204,11 @@ U configureert de bescherming voor veilige koppelingen voor Office 365-apps in d
 
 De volgende instellingen voor veilige koppelingen zijn beschikbaar voor Office 365-apps:
 
-- **Office 365-toepassingen** : Hiermee wordt de scan van veilige koppelingen in ondersteunde Office 365-apps in-of uitgeschakeld. De standaard en aanbevolen waarde is **ingeschakeld** .
+- **Office 365-toepassingen** : Hiermee wordt de scan van veilige koppelingen in ondersteunde Office 365-apps in-of uitgeschakeld. De standaard en aanbevolen waarde is **ingeschakeld**.
 
 - **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** : de optie voor het opslaan van veilige koppelingen op de bureaublad versies van Word, Excel, PowerPoint en Visio wordt uitgeschakeld. De aanbevolen waarde is **uitgeschakeld** , wat betekent dat de gebruiker klikt op bijgehouden.
 
-- **Laat gebruikers niet via veilige koppelingen naar de oorspronkelijke URL klikken** : Hiermee kunt u gebruikers niet via de [waarschuwingspagina](#warning-pages-from-safe-links) doorlopen in de bureaubladversie van Word, Excel, PowerPoint en Visio. De standaard en aanbevolen waarde is **ingeschakeld** .
+- **Laat gebruikers niet via veilige koppelingen naar de oorspronkelijke URL klikken** : Hiermee kunt u gebruikers niet via de [waarschuwingspagina](#warning-pages-from-safe-links) doorlopen in de bureaubladversie van Word, Excel, PowerPoint en Visio. De standaard en aanbevolen waarde is **ingeschakeld**.
 
 Zie [beveiliging van veilige koppelingen voor office 365-apps configureren](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center)als u de instellingen voor veilige koppelingen voor Office 365-Apps wilt configureren.
 

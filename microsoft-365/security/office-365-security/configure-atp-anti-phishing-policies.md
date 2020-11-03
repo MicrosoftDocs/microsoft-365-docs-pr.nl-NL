@@ -1,5 +1,5 @@
 ---
-title: ATP-beleid tegen phishing configureren
+title: Anti phishingfilter configureren in Microsoft Defender voor Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,48 +13,46 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u het geavanceerde anti-phishingfilter kunt maken, wijzigen en verwijderen, dat beschikbaar is in organisaties met Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: d6655089556f7268222dc47e2196f8aa1fc3da4e
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+description: Beheerders kunnen leren hoe u het geavanceerde anti-phishingfilter kunt maken, wijzigen en verwijderen, dat beschikbaar is in organisaties met Microsoft Defender voor Office 365.
+ms.openlocfilehash: 9e07107c302f83b71a97517b11e71eac81f84f6b
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769218"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48845922"
 ---
-# <a name="configure-atp-anti-phishing-policies"></a>ATP-beleid tegen phishing configureren
+# <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Anti phishingfilter configureren in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-ATP anti-Phishingfilter maakt deel uit van [Office 365 Advanced Threat Protection](office-365-atp.md). Met een anti-phishingfilter van ATP kunt u uw organisatie beschermen tegen kwaadaardige aanvallen op basis van kwaadaardige gebruikers en andere typen phishing-aanvallen. Zie [bescherming tegen phishing](anti-phishing-protection.md)voor meer informatie over de verschillen tussen het anti-virus beleid in Exchange Online Protection (EOP) en het ATP anti phishingfilter.
+Met anti phishingfilter in [Microsoft Defender voor Office 365](office-365-atp.md) kunt u uw organisatie beschermen tegen kwaadaardige aanvallen op basis van kwaadaardige gebruikers en andere typen phishing-aanvallen. Voor meer informatie over de verschillen tussen een anti-phishingfilter in Exchange Online Protection (EOP) en anti phishingfilter in Microsoft Defender voor Office 365 raadpleegt u [bescherming tegen phishing](anti-phishing-protection.md).
 
-Beheerders kunnen het standaardbeleid voor de vrije voor uitphishing van vrije gebruikers weergeven, bewerken en configureren (maar niet verwijderen). Voor een grotere nauwkeurigheid kunt u ook aangepast ATP anti-phishingfilter maken dat geldt voor specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
+Beheerders kunnen het standaard anti phishingfilter-beleid bekijken, bewerken en configureren (maar niet verwijderen). Voor een betere granulatie kunt u ook een aangepast anti-phishings beleid maken dat van toepassing is op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U kunt het beleid voor het instellen van ATP anti phishing configureren in de beveiligings & nalevings centrum of in Exchange Online PowerShell.
+U kunt een anti-phishingfilter configureren in het beveiligings & nalevings centrum of in Exchange Online PowerShell.
 
-Zie [anti phishingberichten configureren in EOP](configure-anti-phishing-policies-eop.md)voor informatie over het configureren van het meer beperkte beveiligingsbeleid dat beschikbaar is in Exchange Online Protection-organisaties (dat wil zeggen microsoft 365-organisaties zonder Office 365 ATP).
+Zie [anti phishingberichten configureren in EOP](configure-anti-phishing-policies-eop.md)voor informatie over het configureren van het meer beperkte beveiligingsbeleid dat beschikbaar is in Exchange Online Protection-organisaties (dat wil zeggen organisaties zonder Microsoft Defender for Office 365).
 
-## <a name="atp-anti-phishing-policies-in-the-security--compliance-center-vs-powershell"></a>ATP anti-phishingfilter in de beveiligings & nalevings centrum VS PowerShell
-
-De basiselementen van een ATP anti-phishingfilter zijn:
+De basisonderdelen van een anti phishingfilter zijn:
 
 - **Het anti-virus beleid** : Hiermee geeft u de phishing-beveiliging op om in of uit te schakelen, en de acties voor het toepassen van opties.
 - **De anti-phishings regel** : Hiermee geeft u de prioriteiten en de filters voor geadresseerden op (wie het beleid van toepassing is) voor een anti-phishing beleid.
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u het beleid voor het beheren van ATP anti-phishing beheert in het beveiligings & nalevings centrum:
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u een anti-phishing beleid beheert in de beveiligings & nalevings centrum:
 
 - Wanneer u een beleid maakt, maakt u eigenlijk een anti-phishings regel en het bijbehorende anti-phishings beleid met dezelfde naam voor beide.
 - Wanneer u een beleid wijzigt, worden de instellingen voor de naam, prioriteit, ingeschakeld of uitgeschakeld en de filters voor geadresseerden de anti-late regel gewijzigd. Alle andere instellingen wijzigen het bijbehorende anti-phishings beleid.
 - Wanneer u een beleid verwijdert, worden de anti-phishings regel en het bijbehorende anti-onphishings beleid verwijderd.
 
-In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie de sectie [Exchange Online PowerShell gebruiken voor het configureren van het onderdeel ATP anti-phishingfilter](#use-exchange-online-powershell-to-configure-atp-anti-phishing-policies) in dit onderwerp.
+In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie het artikel [Exchange Online PowerShell gebruiken voor het configureren van anti phishingfilter in Microsoft Defender voor Office 365](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) verderop in dit onderwerp.
 
-Elke Office 365 ATP-organisatie heeft een ingebouwde ATP anti-phishingfilter met de naam Office365 AntiPhish standaard met de volgende eigenschappen:
+Elke Microsoft Defender voor Office 365-organisatie heeft een ingebouwd anti-phishingfilter-beleid met de naam Office365 AntiPhish standaard met de volgende eigenschappen:
 
 - Het beleid wordt toegepast op alle geadresseerden in de organisatie, ook al is er geen anti-avond regel (Recipient filters) gekoppeld aan het beleid.
 - Het beleid heeft de prioriteit **Laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast). Alle beleid dat u maakt heeft altijd een hogere prioriteit.
 - Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True`) en u kunt het standaardbeleid niet verwijderen.
 
-Om de effectiviteit van bescherming tegen phishing te bevorderen, kunt u aangepaste ATP anti-phishingfilter-beleidsregels maken met strikte instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
+Voor een grotere effectiviteit van de bescherming tegen phishing in Microsoft Defender voor Office 365, kunt u een aangepast anti-phishings beleid maken met strikte instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -64,31 +62,31 @@ Om de effectiviteit van bescherming tegen phishing te bevorderen, kunt u aangepa
 
 - U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
 
-  - Als u een beleid wilt toevoegen, wijzigen of verwijderen uit het beleid van ATP, moet u lid zijn van een van de volgende rollen groepen:
+  - Als u een anti-phishingfilter wilt toevoegen, wijzigen of verwijderen, moet u lid zijn van een van de volgende groepen rollen:
 
     - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
     - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-  - Voor alleen-lezen toegang tot ATP anti-phishingfilter moet u lid zijn van een van de volgende rollen groepen:
+  - Voor alleen-lezen toegang tot anti phishingfilter moet u lid zijn van een van de volgende rollen groepen:
 
     - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
     - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-- Voor de aanbevolen instellingen voor het anti-phishingfilter van ATP, raadpleegt u de [instellingen van het beleid voor het anti-phishingfilter van ATP](recommended-settings-for-eop-and-office365-atp.md#atp-anti-phishing-policy-settings).
+- Voor de aanbevolen instellingen voor anti-phishing beleid in Microsoft Defender voor Office 365 raadpleegt u [anti phishingfilter in de instellingen van de Defender voor office 365](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365).
 
 - Maximaal 30 minuten toegestaan voor het toepassen van een nieuwe of bijgewerkte beleidsregels.
 
 - Zie de [volgorde en prioriteit van e-mail beveiliging](how-policies-and-protections-are-combined.md)voor informatie over waar anti phishingfilter in de filter pijplijn wordt toegepast.
 
-## <a name="use-the-security--compliance-center-to-create-atp-anti-phishing-policies"></a>De beveiligings & voor compliance gebruiken om een ATP anti-phishings beleid te maken
+## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Met behulp van het beveiligings & compliance Center maakt u een anti-phishingfilter in Microsoft Defender voor Office 365
 
-Wanneer u een aangepast ATP anti-Phishingfilter maakt in het compliance-& Beveiligingscentrum, maakt de anti-phishings regel en het bijbehorende anti-phishings beleid op hetzelfde moment op dezelfde manier met dezelfde naam voor beide.
+Als u een aangepast anti-Phishingfilter maakt in het compliance-& Beveiligingscentrum, maakt u op hetzelfde moment de anti-phishing regel en het bijbehorende anti-phishings beleid met dezelfde naam voor beide.
 
-Wanneer u een ATP anti-Phishingfilter maakt, kunt u alleen de Beleidsnaam, de beschrijving en het filter voor de ontvanger opgeven waarmee wordt aangegeven voor wie het beleid van toepassing is. Nadat u het beleid hebt gemaakt, kunt u het beleid wijzigen, zodat u de standaardinstellingen voor anti phishing kunt wijzigen of bekijken.
+Wanneer u een anti Phishingfilter maakt, kunt u alleen de Beleidsnaam, de beschrijving en het filter voor de ontvanger opgeven waarmee wordt aangegeven voor wie het beleid van toepassing is. Nadat u het beleid hebt gemaakt, kunt u het beleid wijzigen, zodat u de standaardinstellingen voor anti phishing kunt wijzigen of bekijken.
 
-1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing** .
+1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing**.
 
-2. Op de **anti phishing** -pagina klikt u op **maken** .
+2. Op de **anti phishing** -pagina klikt u op **maken**.
 
 3. De wizard **nieuw anti-phishingfilterbeleid maken** wordt geopend. Configureer de volgende instellingen op de pagina **naam van uw beleid** :
 
@@ -96,13 +94,13 @@ Wanneer u een ATP anti-Phishingfilter maakt, kunt u alleen de Beleidsnaam, de be
 
    - **Beschrijving** : voer een optionele beschrijving in voor het beleid.
 
-   Wanneer u klaar bent, klikt u op **volgende** .
+   Wanneer u klaar bent, klikt u op **volgende**.
 
 4. Op de pagina **toegepast op** die wordt weergegeven, identificeert u de interne geadresseerden waarop het beleid van toepassing is.
 
    U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_ ).
 
-   Klik op **een voorwaarde toevoegen** . Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als** :
+   Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als** :
 
    - **De ontvanger is** : geeft een of meer postvakken, e-mail gebruikers of e-mail contactpersonen in uw organisatie op.
    - **De ontvanger is lid van** : Hiermee geeft u een of meer groepen op in uw organisatie.
@@ -116,27 +114,27 @@ Wanneer u een ATP anti-Phishingfilter maakt, kunt u alleen de Beleidsnaam, de be
    - Als u afzonderlijke vermeldingen wilt verwijderen **, klikt u** op ![ het pictogram verwijderen ](../../media/scc-remove-icon.png) van de waarde.
    - Als u de hele voorwaarde wilt verwijderen **, klikt u op** ![ pictogram verwijderen ](../../media/scc-remove-icon.png) in de voorwaarde.
 
-   Als u een extra voorwaarde wilt toevoegen, klikt u op **een voorwaarde toevoegen** en selecteert u een resterende waarde onder **toegepast als** .
+   Als u een extra voorwaarde wilt toevoegen, klikt u op **een voorwaarde toevoegen** en selecteert u een resterende waarde onder **toegepast als**.
 
-   Als u uitzonderingen wilt toevoegen, klikt u op **een voorwaarde toevoegen** en selecteert u een uitzondering onder **behalve als** . De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   Als u uitzonderingen wilt toevoegen, klikt u op **een voorwaarde toevoegen** en selecteert u een uitzondering onder **behalve als**. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
-   Wanneer u klaar bent, klikt u op **volgende** .
+   Wanneer u klaar bent, klikt u op **volgende**.
 
 5. Controleer de instellingen op de pagina **uw instellingen bekijken** die wordt weergegeven. U kunt op de verschillende instellingen klikken om de **bewerking** te wijzigen.
 
-   Wanneer u klaar bent, klikt u op **dit beleid maken** .
+   Wanneer u klaar bent, klikt u op **dit beleid maken**.
 
 6. Klik op **OK** in het bevestigingsvenster dat wordt weergegeven.
 
-Nadat u het ATP anti-phishingfilter met deze algemene beleidsinstellingen hebt gemaakt, volgt u de instructies in het volgende gedeelte om de beveiligingsinstellingen in het beleid te configureren.
+Nadat u het anti phishingfilter met deze algemene instellingen hebt gemaakt, volgt u de instructies in het volgende gedeelte om de beveiligingsinstellingen in het beleid te configureren.
 
-## <a name="use-the-security--compliance-center-to-modify-atp-anti-phishing-policies"></a>U kunt het nalevings centrum voor beveiligings & gebruiken om het gebruik van ATP anti-phishing-beleid te wijzigen
+## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>De beveiligings & voor naleving van Beveiligingscentrum gebruiken om anti phishing-beleid te wijzigen in Microsoft Defender voor Office 365
 
-Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Phishingfilter: een nieuw beleid dat u hebt gemaakt of bestaande beleidsregels die u al hebt aangepast.
+Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuwe beleidsregels die u hebt gemaakt of bestaande beleidsregels die u al hebt aangepast.
 
-1. Als u dit nog niet hebt gedaan, opent u het beveiligings & nalevings centrum en gaat u naar het beleid voor het beleid voor **bedreigings beheer** voor \> **Policy** \> **ATP anti phishing** .
+1. Als u dit nog niet hebt gedaan, opent u het beveiligings & nalevings centrum en gaat u naar het beleid voor het beleid voor **bedreigings beheer** voor \> **Policy** \> **ATP anti phishing**.
 
-2. Selecteer het aangepaste ATP anti phishing-beleid dat u wilt wijzigen. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
+2. Selecteer het aangepaste anti-phishingfilter dat u wilt wijzigen. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
 
 3. De flyout **uw beleid \<name\> bewerken** wordt weergegeven. Als u in een sectie op **bewerken** klikt, krijgt u toegang tot de instellingen in deze sectie.
 
@@ -144,7 +142,7 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
 
    - Nadat u op **bewerken** in een sectie hebt geklikt, worden de beschikbare instellingen in de wizard indeling weergegeven, maar u kunt wel binnen de pagina's in een willekeurige Volg **Cancel** orde springen **Close** , en u kunt op de pagina **Opslaan** of sluiten klikken op het pictogram voor het ![ ](../../media/scc-remove-icon.png) **bewerken van uw beleid \<name\>** (u hoeft niet te klikken op de laatste pagina van de wizard om de pagina te openen
 
-4. **Beleidsinstelling** : Klik op **bewerken** als u de instellingen wilt wijzigen die beschikbaar waren wanneer u [het beleid hebt gemaakt](#use-the-security--compliance-center-to-create-atp-anti-phishing-policies) in de vorige sectie:
+4. **Beleidsinstelling** : Klik op **bewerken** als u de instellingen wilt wijzigen die beschikbaar waren wanneer u [het beleid hebt gemaakt](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) in de vorige sectie:
 
    - **Naam**
    - **Beschrijving**
@@ -153,9 +151,9 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
 
    Wanneer u klaar bent, klikt u op **Opslaan** op een willekeurige pagina.
 
-5. **Imitatie** : Klik op **bewerken** om de beveiligde afzenders en beveiligde domeinen in het beleid te wijzigen. Deze instellingen vormen een voorwaarde voor het beleid waarmee vervalste afzenders worden geïdentificeerd om te zoeken naar (afzonderlijk of per domein) in het van-adres van inkomende berichten. Zie voor meer informatie [imitatie-instellingen in het anti-phishingfilter-beleid](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies).
+5. **Imitatie** : Klik op **bewerken** om de beveiligde afzenders en beveiligde domeinen in het beleid te wijzigen. Deze instellingen vormen een voorwaarde voor het beleid waarmee vervalste afzenders worden geïdentificeerd om te zoeken naar (afzonderlijk of per domein) in het van-adres van inkomende berichten. Zie voor meer informatie [imitatie-instellingen in anti-phishing-beleid in Microsoft Defender voor Office 365](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
 
-   - **Gebruikers toevoegen om te beveiligen** : de standaardwaarde is **uitgeschakeld** . Als u de functie wilt inschakelen, verschuift u de schuifregelaar naar **aan** en klikt u op de knop **gebruiker toevoegen** die wordt weergegeven.
+   - **Gebruikers toevoegen om te beveiligen** : de standaardwaarde is **uitgeschakeld**. Als u de functie wilt inschakelen, verschuift u de schuifregelaar naar **aan** en klikt u op de knop **gebruiker toevoegen** die wordt weergegeven.
 
      Configureer de volgende waarden in het vervolgmenu **gebruiker toevoegen** dat wordt weergegeven:
 
@@ -176,8 +174,8 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
        
    - **Domeinen toevoegen die u wilt beveiligen** : Configureer een of beide van de volgende instellingen:
 
-     - **Automatisch de domeinen opnemen waarvan ik de eigenaar ben** : de standaardwaarde is **uitgeschakeld** . Schuif de wisselknop **naar aan om** deze optie in te schakelen.
-     - **Aangepaste domeinen opnemen** : de standaardwaarde is **uitgeschakeld** . Als u deze optie wilt inschakelen, verschuift u de schuifregelaar naar **aan** en voert u in het vak **domeinen toevoegen** de domeinnaam in (bijvoorbeeld contoso.com), drukt u op ENTER en herhaalt u de gewenste stappen.
+     - **Automatisch de domeinen opnemen waarvan ik de eigenaar ben** : de standaardwaarde is **uitgeschakeld**. Schuif de wisselknop **naar aan om** deze optie in te schakelen.
+     - **Aangepaste domeinen opnemen** : de standaardwaarde is **uitgeschakeld**. Als u deze optie wilt inschakelen, verschuift u de schuifregelaar naar **aan** en voert u in het vak **domeinen toevoegen** de domeinnaam in (bijvoorbeeld contoso.com), drukt u op ENTER en herhaalt u de gewenste stappen.
 
      > [!NOTE]
      > U kunt maximaal 50 domeinen invoeren in het beveiligings & nalevings centrum of in PowerShell.
@@ -204,17 +202,17 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
 
    - Klik op de **beveiligingstips voor imitatie inschakelen** en configureer de volgende instellingen:
 
-     - **Tip weergeven voor geïmiteerde gebruikers** : de standaardwaarde is **uitgeschakeld** . Schuif de wisselknop **naar aan om** deze optie in te schakelen.
-     - **Tip weergeven voor geïmiteerde domeinen** : de standaardwaarde is **uitgeschakeld** . Schuif de wisselknop **naar aan om** deze optie in te schakelen.
-     - **Tip voor ongebruikelijk tekens weergeven** : de standaardwaarde is **uitgeschakeld** . Schuif de wisselknop **naar aan om** deze optie in te schakelen.
+     - **Tip weergeven voor geïmiteerde gebruikers** : de standaardwaarde is **uitgeschakeld**. Schuif de wisselknop **naar aan om** deze optie in te schakelen.
+     - **Tip weergeven voor geïmiteerde domeinen** : de standaardwaarde is **uitgeschakeld**. Schuif de wisselknop **naar aan om** deze optie in te schakelen.
+     - **Tip voor ongebruikelijk tekens weergeven** : de standaardwaarde is **uitgeschakeld**. Schuif de wisselknop **naar aan om** deze optie in te schakelen.
 
      Klik op **Opslaan** wanneer u gereed bent.
 
    - **Postvak informatie** :
 
-     - **Postvak intelligentie inschakelen?** : de standaardwaarde is **ingeschakeld** . Verschuif de wissel **knop om deze** uit te schakelen.
+     - **Postvak intelligentie inschakelen?** : de standaardwaarde is **ingeschakeld**. Verschuif de wissel **knop om deze** uit te schakelen.
 
-     - **Schakelt u de bescherming van imitatie op basis van een postvak in?** : deze instelling is alleen beschikbaar als **Postvak Intelligence inschakelen?** is **ingeschakeld** .
+     - **Schakelt u de bescherming van imitatie op basis van een postvak in?** : deze instelling is alleen beschikbaar als **Postvak Intelligence inschakelen?** is **ingeschakeld**.
 
        In **als e-mailbericht wordt verzonden door een geïmiteerde gebruiker** , kunt u een van de volgende acties opgeven voor het uitvoeren van berichten die niet beschikbaar zijn voor de Postvak informatie (dezelfde acties die beschikbaar zijn voor beveiligde gebruikers en beveiligde domeinen):
 
@@ -256,7 +254,7 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
      > [!NOTE]
      > U hoeft geen anti-spoofing-beveiliging uit te schakelen als uw MX-record niet verwijst naar Microsoft 365. u kunt in plaats hiervan uitgebreid filteren op connectors. Zie voor meer informatie het artikel [uitgebreid filteren op connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-   - **Functie niet-geverifieerde afzender inschakelen** : de standaardwaarde is **ingeschakeld** . Verschuif de wissel **knop om deze** uit te schakelen.
+   - **Functie niet-geverifieerde afzender inschakelen** : de standaardwaarde is **ingeschakeld**. Verschuif de wissel **knop om deze** uit te schakelen.
 
    - **Acties** : de actie opgeven die moet worden uitgevoerd voor berichten die geen spoof Intelligence hebben:
 
@@ -275,7 +273,7 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
 
    Wanneer u klaar bent, klikt u op **Opslaan** op een willekeurige pagina.
 
-7. **Geavanceerde instellingen** : Klik op **bewerken** om de drempelwaarden voor Geavanceerd phishing te configureren. Zie voor meer informatie [Geavanceerde phishingberichten in het anti-phishingfilter-beleid](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies).
+7. **Geavanceerde instellingen** : Klik op **bewerken** om de drempelwaarden voor Geavanceerd phishing te configureren. Voor meer informatie raadpleegt u [Advanced phishing Thresholds in Microsoft Defender for Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
 
    - **Geavanceerde fraude drempels** : Selecteer een van de volgende waarden:
 
@@ -288,17 +286,17 @@ Gebruik de volgende procedures voor het wijzigen van het gebruik van ATP anti-Ph
 
    Wanneer u klaar bent, klikt u op **Opslaan** op een van beide pagina's.
 
-8. Ga op de pagina **\<Name\> beleid bewerken** naar de instellingen en klik op **sluiten** .
+8. Ga op de pagina **\<Name\> beleid bewerken** naar de instellingen en klik op **sluiten**.
 
-### <a name="use-the-security--compliance-center-to-modify-the-default-atp-anti-phishing-policy"></a>Met behulp van het compliance-beveiligings & u het standaardbeleid voor het anti-phishingfilter van ATP
+### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy-in-microsoft-defender-for-office-365"></a>Met behulp van het nalevings centrum voor beveiliging & u het standaard anti-phishingfilter in Microsoft Defender voor Office 365
 
-Het standaard-Phishingfilter anti-phishingfilter heeft de naam Office365 AntiPhish standaard en wordt niet weergegeven in de lijst met beleidsregels. Voer de volgende stappen uit als u het standaard-Phishingfilter voor de vrije tijd wilt wijzigen:
+Het standaard anti-phishingfilter in Microsoft Defender voor Office 365 heeft de naam Office365 AntiPhish standaard en wordt niet weergegeven in de lijst met beleidsregels. Ga als volgt te werk om het standaard anti-phishingfilter te wijzigen:
 
-1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing** .
+1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing**.
 
-2. Klik op de pagina **anti phishing** op **standaardbeleid** .
+2. Klik op de pagina **anti phishing** op **standaardbeleid**.
 
-3. De standaardpagina voor het **bewerken van uw beleid Office365 AntiPhish** wordt weergegeven. De volgende secties zijn beschikbaar, met een identieke instelling voor [het wijzigen van een aangepast beleid](#use-the-security--compliance-center-to-modify-atp-anti-phishing-policies):
+3. De standaardpagina voor het **bewerken van uw beleid Office365 AntiPhish** wordt weergegeven. De volgende secties zijn beschikbaar, met een identieke instelling voor [het wijzigen van een aangepast beleid](#use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365):
 
    - **Imitatie**
    - **Met**
@@ -310,11 +308,11 @@ Het standaard-Phishingfilter anti-phishingfilter heeft de naam Office365 AntiPhi
    - U kunt het standaardbeleid niet verwijderen.
    - Het is niet mogelijk om de prioriteit van het standaardbeleid te wijzigen (dit wordt altijd als laatste toegepast).
 
-4. Controleer de instellingen op de pagina **uw beleid Office365 AntiPhish standaard** instellen en klik op **sluiten** .
+4. Controleer de instellingen op de pagina **uw beleid Office365 AntiPhish standaard** instellen en klik op **sluiten**.
 
-### <a name="enable-or-disable-custom-atp-anti-phishing-policies"></a>Aangepaste ATP anti-phishings beleid in-of uitschakelen
+### <a name="enable-or-disable-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Aangepaste anti-phishingfilter-beleidsregels in-of uitschakelen in Microsoft Defender voor Office 365
 
-1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing** .
+1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing**.
 
 2. Let op de waarde in de kolom **status** :
 
@@ -324,27 +322,27 @@ Het standaard-Phishingfilter anti-phishingfilter heeft de naam Office365 AntiPhi
 
 U kunt het standaard anti-Phishingfilter niet uitschakelen.
 
-### <a name="set-the-priority-of-custom-atp-anti-phishing-policies"></a>De prioriteit van een aangepast ATP anti-phishings beleid instellen
+### <a name="set-the-priority-of-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>De prioriteit van een aangepast anti-phishings beleid instellen in Microsoft Defender voor Office 365
 
-Standaard krijgt u in het geval van een anti-phishingfilter een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels zijn een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
+Standaard krijgt u een anti-phishingfilter met een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels zijn een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
 Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
-Aangepast ATP anti-phishingfilter worden weergegeven in de volgorde waarin ze zijn verwerkt (het eerste beleid heeft **de waarde 0** ). Het standaard anti-phishingfilter met de naam Office365 AntiPhish standaard heeft de waarde van een aangepaste **prioriteit en kunt** deze niet wijzigen.
+Een aangepast anti-phishings beleid wordt weergegeven in de volgorde waarin ze worden verwerkt ( **het eerste** beleid heeft de waarde 0). Het standaard anti-phishingfilter met de naam Office365 AntiPhish standaard heeft de waarde van een aangepaste **prioriteit en kunt** deze niet wijzigen.
 
- **Opmerking** : in het beveiligings & nalevings centrum kunt u alleen de prioriteit van het anti-phishingfilter wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit negeren wanneer u de regel voor de anti-phishing maakt (die van invloed kunnen zijn op de prioriteit van bestaande regels).
+ **Opmerking** : in het beveiligings & nalevings centrum kunt u de prioriteit van het anti phishingfilter wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit negeren wanneer u de regel voor de anti-phishing maakt (die van invloed kunnen zijn op de prioriteit van bestaande regels).
 
 Als u de prioriteit van een beleid wilt wijzigen, klikt u op **prioriteit verhogen** of **prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **prioriteits** nummer niet rechtstreeks wijzigen in de beveiligings & compliance Center). Als u meerdere beleidsregels hebt, kunt u de prioriteit van een beleid alleen wijzigen.
 
-1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing** .
+1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing**.
 
 2. Selecteer het beleid dat u wilt wijzigen. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
 
 3. De flyout **uw beleid \<name\> bewerken** wordt weergegeven.
 
-   - Het aangepaste ATP anti-phishingfilter met de **prioriteits** waarde **0** heeft slechts de knop **prioriteit verlagen** .
+   - Het aangepaste anti-phishingfilter met de **prioriteits** waarde **0** heeft slechts de knop **prioriteit verlagen** .
 
-   - Het aangepaste ATP anti-phishingfilter met de laagste **prioriteits** waarde (bijvoorbeeld **3** ) is slechts de knop **prioriteit verhogen** beschikbaar.
+   - Het aangepaste anti-phishingfilter met de laagste **prioriteits** waarde (bijvoorbeeld **3** ) is slechts de knop **prioriteit verhogen** beschikbaar.
 
    - Als u beschikt over drie of meer aangepaste anti phishingfilter-beleidsregels, hebben beleidsregels tussen de hoogste en laagste prioriteit de knoppen **prioriteit verhogen** en **prioriteit verlagen** .
 
@@ -352,21 +350,21 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **prioriteit verhog
 
 5. Klik op **Sluiten** wanneer u gereed bent.
 
-## <a name="use-the-security--compliance-center-to-view-atp-anti-phishing-policies"></a>Met behulp van het beveiligings & compliance
+## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Met behulp van het beveiligings & compliance in Microsoft Defender voor Office 365
 
-1. Ga in het beveiligings & compliance Center naar het beleid voor het beheer van bedreigingen en ga naar het beleid voor het **beheer van bedreigingen** \> **Policy** \> **ATP anti-phishing** .
+1. Ga in het beveiligings & compliance Center naar het beleid voor het beheer van bedreigingen en ga naar het beleid voor het **beheer van bedreigingen** \> **Policy** \> **ATP anti-phishing**.
 
 2. Voer een van de volgende stappen uit:
 
-   - Selecteer een aangepast ATP anti phishing-beleid dat u wilt bekijken. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
+   - Selecteer een aangepast anti-phishingfilter dat u wilt bekijken. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
 
    - Klik op **standaardbeleid** om het standaard anti-phishingfilter te bekijken.
 
 3. De flyout voor het **beleid \<name\> bewerken** wordt weergegeven, waarin u de instellingen en waarden kunt weergeven.
 
-## <a name="use-the-security--compliance-center-to-remove-atp-anti-phishing-policies"></a>Met behulp van het beveiligings & compliance
+## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>De beveiligings & voor nalevings centrum gebruiken om anti phishingfilter te verwijderen uit Microsoft Defender voor Office 365
 
-1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing** .
+1. Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing**.
 
 2. Selecteer het beleid dat u wilt verwijderen. Als de optie al is geselecteerd, schakelt u deze uit en selecteert u het opnieuw.
 
@@ -374,7 +372,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **prioriteit verhog
 
 U kunt het standaardbeleid niet verwijderen.
 
-## <a name="use-exchange-online-powershell-to-configure-atp-anti-phishing-policies"></a>PowerShell van Exchange Online gebruiken om een anti-phishings beleid van ATP te configureren
+## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>PowerShell van Exchange Online gebruiken om anti phishingfilter te configureren in Microsoft Defender voor Office 365
 
 Zoals hierboven beschreven, bestaat een anti-spam beleid en een anti-phishings regel.
 
@@ -614,9 +612,9 @@ Zie [Remove-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
-Voer een of meer van de volgende stappen uit om te controleren of u het juiste beleid voor het gebruik van ATP anti phishing hebt geconfigureerd:
+Voer een van de volgende stappen uit om te controleren of u een anti-phishingfilter-beleid hebt geconfigureerd in Microsoft Defender voor Office 365:
 
-- Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing** . Controleer de lijst met beleidsregels, de **status** waarden en de waarden van de **prioriteit** . Ga op een van de volgende manieren te werk om meer informatie weer te geven:
+- Ga in het beveiligings & compliance naar het compliance-beleid voor het **beheer** van behulp van een \> **Policy** \> **anti-phishing**. Controleer de lijst met beleidsregels, de **status** waarden en de waarden van de **prioriteit** . Ga op een van de volgende manieren te werk om meer informatie weer te geven:
 
   - Selecteer een beleid in de lijst en Bekijk de details in de vervolgkeuzelijst.
   - Klik op **standaardbeleid** en Bekijk de details in het vervolgmenu.

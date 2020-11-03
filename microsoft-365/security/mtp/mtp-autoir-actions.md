@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 22a40e3c0c804800f2de02e705d1dfec6e296db0
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: ed0b9afa576f65d33cd9a49dfacd96ffaf173d28
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429609"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846530"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Acties die in behandeling zijn, goedkeuren of weigeren na een geautomatiseerd onderzoek
 
@@ -34,12 +34,12 @@ ms.locfileid: "48429609"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
 Wanneer een geautomatiseerd onderzoek wordt uitgevoerd, kan dit resulteren in een of meer [herstelacties](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) die moeten worden goedgekeurd om verder te gaan. Als u bijvoorbeeld een cluster van e-mailberichten wilt verwijderen, of als u een bestand met quarantaine wilt verwijderen, moet u het bestand mogelijk verwijderen. Het is belangrijk dat u de in behandeling zijnde acties zo snel mogelijk goedkeurt (of afwijst), zodat uw geautomatiseerde onderzoek op een redelijke manier kan worden voortgezet en voltooid. 
 
 > [!TIP]
-> Laat het ons weten als u denkt dat er een fout is opgetreden met een automatisch onderzoek en antwoord functies in Microsoft Threat Protection. Lees [hoe u in Microsoft Threat Protection onjuiste positief en negatief kunt rapporteren in de functies voor automatisch onderzoek en Reacties (lucht)](mtp-autoir-report-false-positives-negatives.md).
+> Laat het ons weten als u denkt dat er een probleem is opgetreden met een automatisch onderzoek en antwoord functies in Microsoft 365 Defender. Lees [hoe u in Microsoft 365 Defender onjuiste positieve en negatieve functies kunt melden voor automatisch onderzoek en Reacties (lucht)](mtp-autoir-report-false-positives-negatives.md).
 
 Acties die in behandeling zijn, kunnen worden gecontroleerd en goedgekeurd met behulp van het [Onderhoudscentrum](#review-a-pending-action-in-the-action-center) of de [weergave Details van onderzoek](#review-a-pending-action-in-the-investigation-details-view).
 
@@ -62,7 +62,7 @@ Acties die in behandeling zijn, kunnen worden gecontroleerd en goedgekeurd met b
 
 ![Details van onderzoek](../../media/mtp-air-investdetails.png)
 
-1. Selecteer op de pagina [Details van onderzoek](mtp-autoir-results.md) het tabblad **acties in behandeling** (of **acties**). Items die in behandeling zijn, worden hier weergegeven.
+1. Selecteer op de pagina [Details van onderzoek](mtp-autoir-results.md) het tabblad **acties in behandeling** (of **acties** ). Items die in behandeling zijn, worden hier weergegeven.
 
 2. Selecteer een item in de lijst en kies vervolgens **goedkeuren** of **weigeren**.
 

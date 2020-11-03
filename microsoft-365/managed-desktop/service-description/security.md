@@ -8,12 +8,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1e50b07208df46b199aada9c2ccbe04cc1c1ae72
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: e69656e13cd9a300cd56bdd5db7703f2387d23d4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289481"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846202"
 ---
 # <a name="security-technologies-in-microsoft-managed-desktop"></a>Beveiligingstechnologieën in Microsoft Managed Desktop
 
@@ -39,7 +39,7 @@ Service | Beschrijving
 --- | ---
 Antivirussoftware | Microsoft Defender AV is geïnstalleerd en geconfigureerd<br>Definities voor Microsoft Defender AV up-to-date
 Volledige volume versleuteling |    Windows BitLocker is de volume versleutelings oplossing voor Microsoft Managed Desktop devices.<br><br>Wanneer een organisatie is binnengebracht in de service, worden de apparaten versleuteld met behulp van Windows BitLocker met ingebouwde Trust platform module (TPM) om onbevoegde toegang tot lokale gegevens te voorkomen wanneer het apparaat in de slaapstand staat. 
-Uitoefenen |    Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP) wordt gebruikt voor de beveiliging van beveiligingsbedreigingen op alle door Microsoft beheerde bureaublad apparaten. Met Microsoft Defender ATP kunnen Enterprise-klanten geavanceerde bedreigingen op hun bedrijfsnetwerk detecteren, onderzoeken en beantwoorden. Zie [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) voor meer informatie. 
+Uitoefenen |    Microsoft Defender voor eindpunt wordt gebruikt voor beveiliging van beveiligingsbedreigingen op alle door Microsoft beheerde bureaublad apparaten. Met eindpunten voor eindpunten kunnen Enterprise-klanten geavanceerde bedreigingen op hun bedrijfsnetwerk detecteren, onderzoeken en beantwoorden. Zie [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) voor meer informatie. 
 Updates voor besturingssystemen |  Door Microsoft beheerde bureaublad apparaten worden altijd de meest recente beveiligingsupdates beveiligd.
 Configuratie van beveiligde apparaten |   Microsoft Managed Desktop implementeert de Microsoft-beveiligings basis. Zie [Windows-beveiligings lijnen](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines) voor meer informatie.
 

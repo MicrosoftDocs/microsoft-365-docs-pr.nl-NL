@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a76bae70adeb07d9ea0574a25bac14f89a0a790d
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: 5533284d4a3f55a51b3017a64e4c353b4ec71352
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262215"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846226"
 ---
 # <a name="device-configuration"></a>Apparaatconfiguratie
 
@@ -53,5 +53,5 @@ Verbindingen met datalimiet | Standaard worden updates via verbindingen met een 
  ### <a name="additional-security-policies"></a>Extra beveiligingsbeleid
 
  Deze beleidsregels worden toegevoegd om de beveiliging voor zeer gereguleerde industrieën te bevorderen. 
- - **Beveiligings monitoring**: Microsoft controleert apparaten met behulp van [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Als een bedreiging wordt gedetecteerd, waarschuwt Microsoft de klant, isoleert het apparaat en corrigeert het probleem extern. 
- - **PowerShell V2 uitschakelen**: Microsoft verwijdert PowerShell v2 in augustus 2017. Deze functie is uitgeschakeld op alle Microsoft beheerde bureaublad apparaten. Zie voor meer informatie over deze wijziging [Windows PowerShell 2,0 afschaffing](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).
+ - **Beveiligings monitoring** : Microsoft controleert apparaten met behulp [van Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Als een bedreiging wordt gedetecteerd, waarschuwt Microsoft de klant, isoleert het apparaat en corrigeert het probleem extern. 
+ - **PowerShell V2 uitschakelen** : Microsoft verwijdert PowerShell v2 in augustus 2017. Deze functie is uitgeschakeld op alle Microsoft beheerde bureaublad apparaten. Zie voor meer informatie over deze wijziging [Windows PowerShell 2,0 afschaffing](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).

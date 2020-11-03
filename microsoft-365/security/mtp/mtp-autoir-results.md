@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 83a897438b9da88287574ff576fab9b2f6b30236
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 183435596706855479c49abc34358c85dccb0da4
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430797"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48846506"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
@@ -34,9 +34,9 @@ ms.locfileid: "48430797"
 
 
 **Van toepassing op:**
-- Microsoft Threat Protection
+- Microsoft 365 Defender
 
-Wanneer er een geautomatiseerd onderzoek plaatsvindt in Microsoft Threat Protection, is er informatie over dat onderzoek beschikbaar via en na het geautomatiseerde onderzoek proces. Als u de [benodigde machtigingen](mtp-action-center.md#required-permissions-for-action-center-tasks)hebt, kunt u deze gegevens bekijken in de weergave Details van onderzoek. De weergave onderzoek Details biedt u de actuele status en de mogelijkheid om alle in behandeling zijnde acties goed te keuren. 
+Wanneer een geautomatiseerd onderzoek plaatsvindt in Microsoft 365 Defender, zijn er informatie over dat onderzoek beschikbaar via en na het proces voor automatisch onderzoek. Als u de [benodigde machtigingen](mtp-action-center.md#required-permissions-for-action-center-tasks)hebt, kunt u deze gegevens bekijken in de weergave Details van onderzoek. De weergave onderzoek Details biedt u de actuele status en de mogelijkheid om alle in behandeling zijnde acties goed te keuren. 
 
 ![Details van onderzoek](../../media/mtp-air-investdetails.png)
 
@@ -74,7 +74,7 @@ U kunt de weergave Details van onderzoek gebruiken om eerdere, huidige en activi
 
 ![Details van onderzoek](../../media/mtp-air-investdetails.png)
 
-In de weergave Details van onderzoek kunt u informatie weergeven over de tabbladen **onderzoek grafiek**, **waarschuwingen**, **apparaten**, **identiteiten**, **belangrijke bevindingen**, **entiteiten**, **Logboeken**en **acties in behandeling** , zoals in de volgende tabel wordt beschreven.
+In de weergave Details van onderzoek kunt u informatie weergeven over de tabbladen **onderzoek grafiek** , **waarschuwingen** , **apparaten** , **identiteiten** , **belangrijke bevindingen** , **entiteiten** , **Logboeken** en **acties in behandeling** , zoals in de volgende tabel wordt beschreven.
 
 |Tabblad    |Beschrijving |
 |--------|--------|
