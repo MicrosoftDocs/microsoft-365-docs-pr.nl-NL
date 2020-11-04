@@ -12,19 +12,18 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a0dabc7694c925f35a98d9ca0c9855bd85bf6c53
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 3d8ee3dd32810adf967f45e54e38e71301c60e07
+ms.sourcegitcommit: 371249d3dde12092b820cd11ed3e02b31e88636a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521383"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48897219"
 ---
 # <a name="microsoft-365-foundation-solutions-overview"></a>Overzicht van Microsoft 365 Foundation-oplossingen
 
-
-![blokkeert ](https://docs.microsoft.com/office/media/icons/blocks-blue.png) **Funderingsoplossingen** Deze oplossingen bieden een volledige leidraad voor een specifiek bedrijfsprobleem of -behoefte. Zij begeleiden u door concepten en functies en helpen u bij het maken van de keuzes die leiden tot een goed functionerend eindresultaat, van planning tot implementatie, tot adoptie. 
+![stenen ](https://docs.microsoft.com/office/media/icons/blocks-blue.png) **Foundation-oplossingen**  deze oplossingen bieden een volledige richtlijnen voor een specifiek zakelijk probleem of behoefte. De persoon die u begeleidt u door concepten en functies en helpt u bij het maken van de keuzes die tot een functionerend eindresultaat leiden, van het plannen van de implementatie tot de aanneming.
 
 - [Externe werknemers mogelijkheden bieden](empower-people-to-work-remotely.md)
 - [Veilig samenwerken in teams, groepen en sites](setup-secure-collaboration-with-teams.md)
-- [Zet bedreigingsbescherming en cyberbeveiliging in uw hele organisatie in](deploy-threat-protection.md)
+- [Bedreigingsbeveiliging en Cyber-beveiliging instellen in uw organisatie](deploy-threat-protection.md)
 - [Informatiebescherming implementeren voor gegevensprivacyregels](information-protection-deploy.md)
