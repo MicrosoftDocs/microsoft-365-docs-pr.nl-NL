@@ -8,16 +8,16 @@ ms.topic: article
 ms.collection:
 - M365-security-compliance
 ms.prod: microsoft-365-enterprise
-ms.custom: ''
+ms.custom: seo-marvel-jun2020
 localization_priority: Priority
-description: Ontdek hoe u financiële services met Microsoft 365 kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
+description: Lees hoe financiële dienstverlening aan financiële compliance kan voldoen en effectief kan samenwerken met Microsoft 365 en Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: ba8feb12dbd9e7b82a2c85b0a1d8d26110e10140
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8bc9e965029414dadc39757b926949f3f60afc16
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844186"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906905"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 

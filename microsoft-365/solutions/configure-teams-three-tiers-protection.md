@@ -1,5 +1,5 @@
 ---
-title: Teams met drie beschermingsniveaus configureren
+title: Teams met drie beveiligingslagen voor het delen van bestanden configureren
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -18,14 +18,15 @@ ms.collection:
 - m365solution-scenario
 ms.custom:
 - Ent_Architecture
+- seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
-description: Configuratieaanbevelingen voor het beveiligen van bestanden in Microsoft Teams.
-ms.openlocfilehash: e1ec598bede2419abc19db2dbe3fd3ff63d8f583
-ms.sourcegitcommit: 24ccb910ffac4d065c512a57c5decd9dd19ef4c1
+description: Meer informatie over hoe u Teams configureert voor een betere beveiliging bij het delen van bestanden met behulp van drie niveaus bescherming, waarbij beveiliging en eenvoudige samenwerking met elkaar in evenwicht zijn.
+ms.openlocfilehash: 5a3449294c6e64355961d10d84750c53715366ef
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "48594928"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906881"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 

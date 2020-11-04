@@ -13,18 +13,18 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 2f716c0220f9fb85dd52e214aabc0df02ca4b222
-  ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+  ms.openlocfilehash: be575abfe658c77c0346b20efe77e1d52bc49918
+  ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 11/03/2020
-  ms.locfileid: "48847690"
+  ms.lasthandoff: 11/04/2020
+  ms.locfileid: "48906809"
 landingContent:
-- title: Microsoft Threat Protection
+- title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Microsoft Threat Protection?
+    - text: Wat is Microsoft 365 Defender?
       url: mtp/microsoft-threat-protection.md
     - text: Microsoft 365-beveiligingscentrum
       url: mtp/overview-security-center.md
@@ -50,27 +50,27 @@ landingContent:
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
     - text: Microsoft Defender for Identity-architectuur
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
-- title: Office 365 ATP
+- title: Defender voor Office 365
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Office 365 ATP?
+    - text: Wat is Defender voor Office 365?
       url: office-365-security/office-365-atp.md
-    - text: Beschrijving van de Office 365 ATP-service
+    - text: Beschrijving van Defender voor Office 365-service
       url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Microsoft Defender ATP
+- title: Defender voor Eindpunt
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Microsoft Defender ATP?
+    - text: Wat is Microsoft Defender voor Eindpunt?
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
     - text: Overzicht van mogelijkheden
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
-- title: Azure Security Center
+- title: Azure Defender
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat is Azure Security Center?
+    - text: Wat is Azure Defender?
       url: https://docs.microsoft.com/azure/security-center/security-center-intro
     - text: Ondersteunde functies
       url: https://docs.microsoft.com/azure/security-center/security-center-services
