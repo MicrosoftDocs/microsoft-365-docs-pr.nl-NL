@@ -35,15 +35,15 @@
           href: mtp/microsoft-secure-score-whats-coming.md
         - name: Wat is er nieuw
           href: mtp/microsoft-secure-score-whats-new.md
-    - name: Microsoft Threat Protection
+    - name: Microsoft 365 Defender
       items:
         - name: Overzicht
           items:
-            - name: Wat is Microsoft Threat Protection?
+            - name: Wat is Microsoft 365 Defender?
               href: mtp/microsoft-threat-protection.md
-            - name: Wat is er nieuw in Microsoft Threat Protection
+            - name: Wat is er nieuw in Microsoft 365 Defender
               href: mtp/whats-new.md
-            - name: Voorbeeldfuncties
+            - name: Preview-functies
               href: mtp/preview.md
             - name: Microsoft 365-beveiligingscentrum
               href: mtp/overview-security-center.md
@@ -67,7 +67,7 @@
               href: mtp/setup-mtpeval.md
             - name: Configureren en onboarden
               href: mtp/config-mtpeval.md
-            - name: Microsoft Threat Protection-service starten
+            - name: De Microsoft 365 Defender-service starten
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Een testwaarschuwing genereren
               href: mtp/generate-test-alert.md
@@ -91,7 +91,7 @@
               href: mtp/mtp-pilot.md
             - name: Ondersteunde services implementeren
               href: mtp/deploy-supported-services.md
-            - name: Microsoft Threat Protection inschakelen
+            - name: Microsoft 365 Defender inschakelen
               href: mtp/mtp-enable.md
             - name: Veelgestelde vragen inschakelen
               href: mtp/mtp-enable-faq.md
@@ -137,7 +137,7 @@
                       href: mtp/advanced-hunting-shared-queries.md
                     - name: 'Opsporen op apparaten en in e-mailberichten, apps en identiteiten'
                       href: mtp/advanced-hunting-query-emails-devices.md
-                    - name: Overgang van Microsoft Defender ATP
+                    - name: Overstappen van Defender voor Eindpunt
                       href: mtp/advanced-hunting-migrate-from-mdatp.md
                 - name: Werken met queryresultaten
                   href: mtp/advanced-hunting-query-results.md
@@ -251,15 +251,15 @@
                       href: ./mtp/tickets.md
                     - name: ServiceNow-tickets in het beveiligingscentrum
                       href: ./mtp/tickets-security-center.md
-            - name: API‘s voor Microsoft Threat Protection (preview)
+            - name: Microsoft 365 Defender-API's (preview)
               items:
-                - name: Overzicht van API‘s voor Microsoft Threat Protection (preview)
+                - name: Overzicht van Microsoft 365 Defender-API's (preview)
                   href: mtp/api-overview.md
-                - name: Aan de slag met API‘s voor Microsoft Threat Protection (preview)
+                - name: Aan de slag met Microsoft 365 Defender-API's (preview)
                   items:
-                    - name: Licentie en gebruiksrechtovereenkomst voor API‘s voor Microsoft Threat Protection
+                    - name: Microsoft 365 Defender-API-licentie en -gebruiksrechtovereenkomst
                       href: mtp/api-terms.md
-                    - name: Toegang tot API‘s voor Microsoft Threat Protection
+                    - name: Toegang krijgen tot Microsoft 365 Defender-API's
                       href: mtp/api-access.md
                     - name: Voorbeeld van Hallo wereld
                       href: mtp/api-hello-world.md
@@ -271,9 +271,9 @@
                       href: mtp/api-partner-access.md
                     - name: Overige API-resources
                       href: mtp/api-articles.md
-                - name: API‘s en schema voor Microsoft Threat Protection (preview)
+                - name: Microsoft 365 Defender-API's en schema (preview)
                   items:
-                    - name: Ondersteunde API‘s voor Microsoft Threat Protection
+                    - name: Ondersteunde Microsoft 365 Defender-API's
                       href: mtp/api-supported.md
                     - name: Algemene REST API-foutcodes
                       href: mtp/api-error-codes.md
@@ -310,11 +310,11 @@
                   href: ./office-365-security/quarantine-email-messages.md
                 - name: Controlerapporten in standalone EOP
                   href: ./office-365-security/auditing-reports-in-eop.md
-            - name: Office 365 Advanced Threat Protection
+            - name: Defender voor Office 365
               href: ./office-365-security/office-365-atp.md
-            - name: Nieuw in Office 365 ATP
+            - name: Nieuw in Defender voor Office 365
               href: office-365-security/whats-new-in-office-365-atp.md
-            - name: 'ATP voor SharePoint, OneDrive en Microsoft Teams'
+            - name: 'Defender voor Office 365 voor SharePoint, OneDrive en Microsoft Teams'
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: Nieuw Microsoft 365-beveiligingscentrum
               href: ./mtp/overview-security-center.md
@@ -334,11 +334,11 @@
               href: ./office-365-security/anti-spam-protection.md
             - name: Bescherming tegen phishing
               href: ./office-365-security/anti-phishing-protection.md
-            - name: Beveiliging tegen adresvervalsing
+            - name: Beveiliging tegen adresvervalsing (spoofing)
               href: ./office-365-security/anti-spoofing-protection.md
-            - name: Veilige bijlagen in Office 365 ATP
+            - name: Veilige bijlagen in Defender voor Office 365
               href: ./office-365-security/atp-safe-attachments.md
-            - name: Veilige koppelingen in Office 365 ATP
+            - name: Veilige koppelingen in Defender voor Office 365
               href: ./office-365-security/atp-safe-links.md
             - name: Beveiliging tegen uitgaande spam
               href: ./office-365-security/outbound-spam-controls.md
@@ -368,15 +368,15 @@
                   href: ./office-365-security/set-up-your-eop-service.md
             - name: Beveiligen tegen bedreigingen
               href: ./office-365-security/protect-against-threats.md
-            - name: Office 365 ATP integreren met Microsoft Defender ATP
+            - name: Defender voor Office 365 integreren met Defender voor Eindpunt
               href: ./office-365-security/integrate-office-365-ti-with-wdatp.md
-            - name: Rapporten in het beveiligings- en compliancecentrum
+            - name: Machtigingen in het beveiligings- en compliancecentrum
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
             - name: SIEM-serverintegratie
               href: ./office-365-security/siem-server-integration.md
-            - name: Integratie van SIEM met Office 365 ATP
+            - name: Integratie van SIEM met Defender voor Office 365
               href: ./office-365-security/siem-integration-with-office-365-ti.md
-            - name: ATP-beleid tegen phishing configureren
+            - name: Beleid tegen phishing configureren
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Beleid tegen malware configureren
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -384,7 +384,7 @@
               href: ./office-365-security/configure-your-spam-filter-policies.md
             - name: Filteren van verbinding configureren
               href: ./office-365-security/configure-the-connection-filter-policy.md
-            - name: Algemene instellingen voor veilige koppelingen in Office 365 ATP configureren
+            - name: Algemene instellingen voor veilige koppelingen in Defender voor Office 365 configureren
               href: ./office-365-security/configure-global-settings-for-safe-links.md
             - name: Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken
               href: ./office-365-security/configure-junk-email-settings-on-exo-mailboxes.md
@@ -398,21 +398,21 @@
               href: ./office-365-security/Create-safe-sender-lists-in-office-365.md
             - name: E-mailverificatie
               href: ./office-365-security/email-validation-and-authentication.md
-            - name: Gebruikers toegang tot het Beveiligingscentrum geven
+            - name: Gebruikers toegang tot het beveiligingscentrum geven
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
-            - name: Veilige documenten in Office 365 ATP
+            - name: Veilige documenten in Defender voor Office 365
               href: ./office-365-security/safe-docs.md
-            - name: Beleid voor veilige koppelingen in Office 365 ATP instellen
+            - name: Beleid voor veilige koppelingen in Defender voor Office 365 instellen
               href: ./office-365-security/set-up-atp-safe-links-policies.md
-            - name: Beleid voor veilige bijlagen in Office 365 ATP instellen
+            - name: Beleid voor veilige bijlagen in Defender voor Office 365 instellen
               href: ./office-365-security/set-up-atp-safe-attachments-policies.md
             - name: SPF instellen om adresvervalsing te helpen voorkomen
               href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
-            - name: Beleid voor het indienen van gebruikers
+            - name: Beleid voor inzendingen van gebruikers
               href: ./office-365-security/user-submission.md
-            - name: Gebruikerstags in Office 365 ATP
+            - name: Gebruikerstags in Defender voor Office 365
               href: ./office-365-security/user-tags.md
-            - name: 'ATP voor SharePoint, OneDrive en Microsoft Teams inschakelen'
+            - name: 'Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: DKIM gebruiken om uitgaande e-mail te valideren
               href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -422,9 +422,9 @@
               href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
             - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
               href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-            - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
+            - name: Teamsites maken in een ontwikkel- en testomgeving voor politieke campagnes
               href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: Gebruikerstags in Office 365 ATP
+            - name: Gebruikerstags in Defender voor Office 365
               href: ./office-365-security/user-tags.md
             - name: S/MIME
               href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
@@ -459,9 +459,9 @@
               href: ./office-365-security/preset-security-policies.md
             - name: Configuratie-analyse voor vooraf ingesteld beveiligingsbeleid
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
-            - name: Aanvalssimulator in Office 365 ATP
+            - name: Aanvalssimulator in Defender voor Office 365
               href: ./office-365-security/attack-simulator.md
-            - name: Aanbevolen instellingen voor het configureren van EOP en Office 365 ATP-beveiliging
+            - name: Aanbevolen instellingen voor het configureren van EOP en Defender voor Office 365-beveiliging
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: Aanbevolen procedures voor het configureren van EOP
               href: ./office-365-security/best-practices-for-configuring-eop.md
@@ -513,9 +513,9 @@
               href: ./office-365-security/campaigns.md
             - name: Schadelijke e-mail onderzoeken
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: ATP-rapporten bekijken in Beveiligings- en compliancecentrum
+            - name: Rapporten weergeven in het beveiligings- en compliancecentrum
               href: ./office-365-security/view-reports-for-atp.md
-            - name: Details en resultaten van een geautomatiseerd onderzoek bekijken
+            - name: Details en resultaten van een geautomatiseerd onderzoek weergeven
               href: ./office-365-security/air-view-investigation-results.md
             - name: E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
               href: ./office-365-security/view-email-security-reports.md
@@ -553,7 +553,7 @@
               href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
             - name: Inzicht in wachtrijen
               href: ./office-365-security/mfi-queue-alerts-and-queues.md
-            - name: Stapsgewijze instructies voor ATP-adresvervalsingsanalyse
+            - name: Stapsgewijze instructies voor inzicht in adresvervalsingsanalyses
               href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
         - name: Beantwoorden
           items:
