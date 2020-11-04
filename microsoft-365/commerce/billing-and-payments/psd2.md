@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Vanaf 14 september 2019 zijn de banken in de 31 landen van de Europese economische ruimte verplicht de identiteit te verifiëren van de persoon die een onlineaankoop verricht voordat de betaling kan worden verwerkt.
+description: Met ingang van 14 september 2019 zijn de banken in de 31 landen van de Europese economische ruimte verplicht de identiteit te verifiëren van de persoon die een onlineaankoop doet voordat de betaling kan worden verwerkt.
 keywords: voor uitbetalings Services, met grote klanten verificatie, meervoudige verificatie
-ms.openlocfilehash: fc8784949cdacea10957660c99795b4ade0f9f7a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d6564a8c6d31bd0758f1084e7ee9b6857aed034e
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638421"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906607"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>Betalingsdiensten-richtlijn 2 en sterke klanten verificatie voor commerciële klanten
 
-Vanaf 14 september 2019 zijn de banken in de 31 landen van de Europese economische ruimte verplicht de identiteit te verifiëren van de persoon die een onlineaankoop verricht voordat de betaling kan worden verwerkt. Voor deze verificatie is meervoudige verificatie vereist om te zorgen dat uw online aankopen veilig en beschermd zijn. De datum voor deze verificatievereisten wordt vertraagd voor sommige landen. 
+Met ingang van 14 september 2019 zijn de banken in de 31 landen van de Europese economische ruimte verplicht de identiteit te verifiëren van de persoon die een onlineaankoop doet voordat de betaling kan worden verwerkt. Voor deze verificatie is meervoudige verificatie vereist om te zorgen dat uw online aankopen veilig en beschermd zijn. De datum voor deze verificatievereisten wordt vertraagd voor sommige landen.
 
 Voor meer informatie raadpleegt u [Veelgestelde vragen over Microsoft voor de betalings Services-richtlijn 2 en sterke klanten verificatie](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication).
 

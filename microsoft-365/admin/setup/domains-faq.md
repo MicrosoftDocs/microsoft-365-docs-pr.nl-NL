@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- seo-marvel-may2020
 search.appverid:
 - BCS160
 - MET150
@@ -23,20 +24,20 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
-description: Meer informatie over domeinen vindt u in antwoorden op uw veelgestelde vragen.
-ms.openlocfilehash: b51b5fe56bbae56dd473dd831ec91e629d9233f3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Meer informatie over domeinen (onmicrosoft domein en Tranfer domein) kunt u vinden in veelgestelde vragen.
+ms.openlocfilehash: 8d504711f46383000697736d6825a813f01fbe69
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644577"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906475"
 ---
 # <a name="domains-faq"></a>Veelgestelde vragen over domeinen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview).
 
 ::: moniker-end
 
@@ -73,7 +74,7 @@ E-mail wordt bezorgd bij de Mail Exchange-server met het laagste voorkeursgetal 
     
 ## <a name="how-can-i-validate-spf-records-for-my-domain"></a>Hoe kan ik SPF-records voor mijn domein valideren?
 
-Het is belangrijk dat u  **maar één TXT-record voor SPF**hebt gemaakt. Als u al een SPF-record hebt, moet u de nieuwe Microsoft 365-waarden toevoegen aan de record, en niet een nieuwe maken. Wanneer u de SPF-record voor Microsoft-e-mail hebt toegevoegd of bijgewerkt, controleert u of de syntaxis in een van de volgende hulpprogramma's correct is: 
+Het is belangrijk dat u  **maar één TXT-record voor SPF** hebt gemaakt. Als u al een SPF-record hebt, moet u de nieuwe Microsoft 365-waarden toevoegen aan de record, en niet een nieuwe maken. Wanneer u de SPF-record voor Microsoft-e-mail hebt toegevoegd of bijgewerkt, controleert u of de syntaxis in een van de volgende hulpprogramma's correct is: 
   
 - [Hulpprogramma's voor het testen van SPF-records](http://www.kitterman.com/spf/validate.html)
     
@@ -85,7 +86,7 @@ Het is belangrijk dat u  **maar één TXT-record voor SPF**hebt gemaakt. Als u a
 
 Een domein is een unieke naam die na het **@** -teken wordt weergegeven in een e-mailadres en na **www.** in een webadres. Meestal bestaat deze uit de naam van uw organisatie en een standaard-internetachtervoegsel, zoals  *uwbedrijf.com*  of  *universiteit.edu*  . 
   
-Met behulp van een aangepast domein zoals '**rob \@ contoso.com**' met Microsoft 365 kunt u geloofwaardigheid en herkenning voor uw merk opbouwen. 
+Met behulp van een aangepast domein zoals ' **rob \@ contoso.com** ' met Microsoft 365 kunt u geloofwaardigheid en herkenning voor uw merk opbouwen. 
   
 U kunt [een domein kopen in Microsoft 365 en we stellen dit automatisch in](../get-help-with-domains/buy-a-domain-name.md)of u kunt een domein kopen of ophalen dat u al hebt gekocht bij een domeinregistratie.
     
@@ -206,9 +207,9 @@ Voor de procedure voor het testen van de Microsoft 365-e-mail functionaliteit va
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>Waarom heb ik een domein met de naam onmicrosoft.com?
 
-Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.com*, wanneer u zich aanmeldt bij de service. De gebruikers-ID die u maakt wanneer u zich registreert, omvat het domein, bijvoorbeeld *Alan@contoso.onmicrosoft.com*. 
+Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.com* , wanneer u zich aanmeldt bij de service. De gebruikers-ID die u maakt wanneer u zich registreert, omvat het domein, bijvoorbeeld *Alan@contoso.onmicrosoft.com*. 
   
- **Als u uw e-mail wilt weergeven als *Alan \@ contoso.com*:** [Koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg de stappen in [uw gebruikers en domein toevoegen aan Microsoft 365](add-domain.md) als u het al bent. 
+ **Als u uw e-mail wilt weergeven als *Alan \@ contoso.com* :** [Koop het domein](../get-help-with-domains/buy-a-domain-name.md) of volg de stappen in [uw gebruikers en domein toevoegen aan Microsoft 365](add-domain.md) als u het al bent. 
   
 - **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als u tijdens het registreren bijvoorbeeld in eerste instantie fourthcoffee.onmicrosoft.com hebt gekozen, kunt u deze naam niet meer wijzigen in fabrikam.onmicrosoft.com. Als u een ander onmicrosoft.com-domein wilt gebruiken, moet u een nieuw abonnement beginnen met Microsoft 365. 
     
@@ -223,9 +224,9 @@ U kunt het onmicrosoft.com-domein blijven gebruiken, ook nadat u uw domein hebt 
 ::: moniker range="o365-germany"
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>Waarom heb ik een onmicrosoft.de-domein?
 
-Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.de*, wanneer u zich aanmeldt bij de service. De gebruikers-ID die u maakt wanneer u zich registreert, omvat het domein, bijvoorbeeld *Alan@contoso.onmicrosoft.de*. 
+Microsoft 365 maakt een domein voor u, zoals *contoso.onmicrosoft.de* , wanneer u zich aanmeldt bij de service. De gebruikers-ID die u maakt wanneer u zich registreert, omvat het domein, bijvoorbeeld *Alan@contoso.onmicrosoft.de*. 
   
- **Ga als volgt te werk als u uw e-mail wilt weergeven als *Alan@contoso.de*:** [het domein kopen](../get-help-with-domains/buy-a-domain-name.md) of voer de stappen uit in [uw gebruikers en domein toevoegen aan Microsoft 365](add-domain.md) als u de e-mail al hebt gekocht. 
+ **Ga als volgt te werk als u uw e-mail wilt weergeven als *Alan@contoso.de* :** [het domein kopen](../get-help-with-domains/buy-a-domain-name.md) of voer de stappen uit in [uw gebruikers en domein toevoegen aan Microsoft 365](add-domain.md) als u de e-mail al hebt gekocht. 
   
 - **U kunt de naam van het onmicrosoft-domein niet meer wijzigen nadat u zich hebt geregistreerd.** Als het eerste domein dat u hebt gekozen bijvoorbeeld fourthcoffee.onmicrosoft.de, kunt u dit niet wijzigen in fabrikam.onmicrosoft.de. Als u een ander onmicrosoft.de-domein wilt gebruiken, moet u een nieuw abonnement beginnen met Microsoft 365. 
     

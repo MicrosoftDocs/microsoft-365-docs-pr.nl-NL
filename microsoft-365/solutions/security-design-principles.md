@@ -1,6 +1,6 @@
 ---
-title: Beveiligingsbeperkingen u kunt overstappen op een enkele gezichtspunt van een architect
-description: Beschrijving.
+title: Microsoft 365 Enterprise resource planning-Cyber Security architectuur
+description: Meer informatie over het oplossen van beveiligingsproblemen in Microsoft Enterprise Architecture van Kozeta Garrett, Cyber Security Architect bij Microsoft.
 ms.author: bcarter
 author: brendacarter
 manager: bcarter
@@ -11,14 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.custom: ''
+- M365solutions
+ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 9a1a0204f1c79ad1eab7d62adf45022d1d5bc035
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 454db3da5c37035cb3146e437761eff0f953b642
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842796"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906975"
 ---
 # <a name="security-hurdles-you-can-sail-over--one-architects-viewpoint"></a>Beveiligingsbeperkingen u kunt overstappen op een enkele gezichtspunt van een architect
 

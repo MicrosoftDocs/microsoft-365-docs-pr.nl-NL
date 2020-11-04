@@ -11,25 +11,25 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 6e4038982f396bbd427273225c2a3d1a9f866252
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: d87a52bc6aca2f033a6e0d26a8c9c0e167908759
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948124"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906963"
 ---
 # <a name="topic-center-overview-preview"></a>Overzicht van topic Center (preview)
 
 > [!Note] 
-> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Lees meer over project cortex](https://aka.ms/projectcortex).
+> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
 
 Het onderwerp centrum is een moderne SharePoint-site die fungeert als een informatiecentrum voor uw organisatie. Dit wordt gemaakt tijdens de [configuratie van kennisbeheer](set-up-knowledge-network.md) in het microsoft 365-Beheercentrum.
 
-In het onderwerp centrum kunnen gebruikers met de juiste machtigingen het volgende doen:
+Het onderwerp bevat een standaardstartpagina waarop u kunt zien met wie u bent verbonden of met een verbinding hebt geadviseerd. Gebruikers met de juiste machtigingen kunnen ook:
 
-- Ontdekte onderwerpen bevestigen of negeren
 - Een nieuwe onderwerpenpagina maken
-- Een bestaande onderwerpenpagina bewerken
+- Voorgestelde onderwerpen bevestigen of negeren
+- Wijzigingen op een onderwerpenpagina bewerken en publiceren
 
 > [!Note] 
 > U vindt meer informatie over elke taak in [werken met onderwerpen in het onderwerp centrum](work-with-topics.md).
@@ -44,14 +44,26 @@ Het onderwerp centrum wordt gemaakt tijdens de configuratie van Knowledge Manage
 
 2. Ga op de pagina **personen verbinden met kennis** in de sectie in **een oogopslag** naar het **adres** van het onderwerp voor de URL van de site.
 
-## <a name="permissions-to-use-the-topic-center"></a>Machtigingen voor het gebruik van het onderwerp centrum
+## <a name="home-page"></a>Startpagina
 
-Als u wilt werken in het onderwerp centrum, moet u beschikken over de vereiste machtigingen. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens het [instellen van Knowledge Management](set-up-knowledge-network.md)of nieuwe gebruikers kunnen [later](give-user-permissions-to-the-topic-center.md) door een beheerder worden toegevoegd via het Microsoft 365-Beheercentrum.
+Als u het onderwerp wilt bekijken, moet u beschikken over machtigingen voor het weergeven van onderwerpen en de onderwerp-ervaringen. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens het [instellen van Knowledge Management](set-up-knowledge-network.md)of nieuwe gebruikers kunnen [later](give-user-permissions-to-the-topic-center.md) door een beheerder worden toegevoegd via het Microsoft 365-Beheercentrum.
+
+Op de startpagina 
+- **Onderwerpen weergeven** : ervaringen van een onderwerp weergeven. U kunt onderwerpen in de organisatie weergeven en feedback geven over de onderwerpen waarop u bent verbonden:
+1. Voorgestelde verbindingen: Dit zijn onderwerpen waarbij de verbinding is voorgesteld
+2. Bevestigde verbindingen: Dit zijn onderwerpen waar ik ben vastgemaakt aan het onderwerp of ik heb bevestigd dat mijn verbindings onderwerpen worden verplaatst van de sectie voorgestelde naar bevestigd wanneer ik een voorgestelde verbinding bevestig.
+Wanneer ik ben vastgemaakt, kan de pagina met het onderwerp worden bewerkt.
+
+- **Onderwerpen maken en bewerken** : nieuw onderwerp is beschikbaar en u kunt pagina's bewerken
+
+
+## <a name="permissions-to-use-the-manage-topics-capability-topic-center"></a>Machtigingen voor het gebruik van de functies voor het beheren van onderwerpen
+
+Als u wilt werken in de sectie Manage topics van topic Center, moet u beschikken over de vereiste machtigingen. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens het [instellen van Knowledge Management](set-up-knowledge-network.md)of nieuwe gebruikers kunnen [later](give-user-permissions-to-the-topic-center.md) door een beheerder worden toegevoegd via het Microsoft 365-Beheercentrum.
 
 De gebruikers van het onderwerp centrum kunnen twee groepen machtigingen krijgen:
 
-- **Onderwerpen maken en bewerken**: nieuwe onderwerpen maken of inhoud van een onderwerp bijwerken, zoals de omschrijving, documenten en gekoppelde personen. Wijs deze machtiging toe aan de experts van het onderwerp die zijn gekoppeld aan de beoordelings pagina's.
-- **Onderwerpen beheren**: gebruik het onderwerp dashboard om onderwerpen te reviseren in de hele organisatie. Gebruikers kunnen acties uitvoeren, zoals het bevestigen en weigeren van niet-bevestigde onderwerpen.
+- **Onderwerpen beheren** : gebruik het onderwerp dashboard om onderwerpen te reviseren in de hele organisatie. Gebruikers kunnen acties uitvoeren, zoals het bevestigen en weigeren van niet-bevestigde onderwerpen.
 
 Een gebruiker kan beide sets machtigingen krijgen, of slechts één, indien nodig. 
 

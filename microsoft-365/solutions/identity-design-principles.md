@@ -1,6 +1,6 @@
 ---
-title: 'Om de identiteit en verder te leren lopen: één gezichtspunt van een architect'
-description: Beschrijving.
+title: Microsoft 365 Enterprise resource planning-beveiligingsarchitectuur
+description: Meer informatie over de belangrijkste ontwerp strategieën voor Microsoft Enterprise Architecture van Alex Shteynberg, technische hoofd architect van Microsoft.
 ms.author: bcarter
 author: brendacarter
 manager: bcarter
@@ -11,14 +11,15 @@ localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.custom: ''
+- M365solutions
+ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: fc975610e24980c6a552179359bb643eb9ac040c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e691b47a2d508064243886957ac491088df2f8ae
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845250"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906893"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Om de identiteit en verder te leren lopen: één gezichtspunt van een architect
 
@@ -132,8 +133,8 @@ Als u al deze signalen combineert, wordt het volgende toegestaan voor dynamische
 
 Als u akkoord gaat met deze uitgebreide definitie van autorisatie, moet u extra oplossingen implementeren. Welke oplossingen u implementeert, hangt af van de manier waarop dynamische beleidsregels moeten worden verwerkt en welke bedreigingen u prioriteit wilt geven. Enkele voorbeelden van dergelijke systemen zijn:
 - [Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/identity-protection/) 
-- [Microsoft Defender voor identiteit](https://docs.microsoft.com/azure-advanced-threat-protection/)
-- [Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/)
+- [Microsoft Defender voor Eindpunt ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - [Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)
 - [Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/) (MCAS)
 - [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide)
@@ -275,7 +276,7 @@ Hier volgen enkele voorbeelden van de logboeken van Microsoft 365 die worden wee
 - [Exchange-berichten traceren](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace)
 - Threat/UEBA Systems hierboven besproken (bijvoorbeeld Azure AD Identity Protection, Microsoft Cloud app Security, Microsoft Defender voor eindpunt, etc.)
 - [Microsoft-informatiebescherming](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
-- [Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
+- [Microsoft Defender voor Eindpunt ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
 Het is belangrijk dat u eerst alle benodigde logboek bronnen identificeert voor een beveiligings-en compliance-programma. Houd er rekening mee dat verschillende logboeken een afwijkende Bewaar limiet hebben. 
@@ -284,7 +285,7 @@ In het perspectief van de beheerder is de meeste Microsoft 365-activiteitenlogbo
 
 Diagram op hoog niveau:
 
-![diagram op hoog niveau van de logboek stroom](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
+![schema van logboek bronnen voor een programma voor beveiliging en compliance](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
 
 Het bovenstaande diagram bevat ingebouwde mogelijkheden voor het verzenden van logboeken naar Event hub en/of Azure Storage en/of Azure log Analytics. Niet alle systemen bevatten deze kant-en-klare box nog. U kunt deze logboeken ook op andere manieren verzenden naar dezelfde bibliotheek. Zie bijvoorbeeld [uw teams beschermen met Azure Sentinel](https://techcommunity.microsoft.com/t5/azure-sentinel/protecting-your-teams-with-azure-sentinel/ba-p/1265761).
 

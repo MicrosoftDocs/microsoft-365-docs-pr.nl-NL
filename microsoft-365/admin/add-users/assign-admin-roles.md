@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Meer informatie over het toewijzen van beheerdersrollen aan een of meer gebruikers in uw bedrijf, zodat ze bepaalde taken in het Beheercentrum kunnen uitvoeren.
-ms.openlocfilehash: 6d7a09ca9c515494eaf18ea144b7f67ce0003890
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+ms.openlocfilehash: c0dfef0860e5729a135a142383bdb60aa9d310be
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131756"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906249"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
@@ -46,7 +46,7 @@ Als u nieuwe gebruikers toevoegt en geen beheerder een beheerder toewijst aan ee
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen 
 
@@ -62,15 +62,15 @@ U kunt gebruikers op twee verschillende manieren aan een rol toewijzen:
 1. Ga in het Beheercentrum naar **rollen** > **rollen** om alle beheerdersrollen weer te geven die beschikbaar zijn voor uw organisatie.
 2. Selecteer de beheerdersrol waaraan u de gebruiker wilt toewijzen.
 3. Selecteer **toegewezen beheerders** > **toevoegen**.
-4. Typ de **weergavenaam** of **gebruikers**naam van de gebruiker en selecteer vervolgens de gebruiker in de lijst met suggesties.
+4. Typ de **weergavenaam** of **gebruikers** naam van de gebruiker en selecteer vervolgens de gebruiker in de lijst met suggesties.
 5. Voeg meerdere gebruikers toe totdat u klaar bent.
-6. Selecteer **Opslaan**, waarna de gebruiker aan de lijst met toegewezen beheerders wordt toegevoegd.
+6. Selecteer **Opslaan** , waarna de gebruiker aan de lijst met toegewezen beheerders wordt toegevoegd.
 
 ### <a name="assign-a-user-to-an-admin-role-from-active-users"></a>Een gebruiker toewijzen aan een beheerdersrol van actieve gebruikers
 
 1. Ga in het Beheercentrum naar de pagina **gebruikers** met > [actieve gebruikers](https://go.microsoft.com/fwlink/p/?linkid=834822) .
 
-2. Selecteer op de pagina **actieve gebruikers** de gebruiker van wie u de beheerdersrol wilt wijzigen. Selecteer in het deelvenster flyout naast **rollen**de optie **rollen beheren**.
+2. Selecteer op de pagina **actieve gebruikers** de gebruiker van wie u de beheerdersrol wilt wijzigen. Selecteer in het deelvenster flyout naast **rollen** de optie **rollen beheren**.
 
 3. Selecteer de beheerdersrol die u aan de gebruiker wilt toewijzen. Als u de gewenste rol niet ziet, selecteert u **AllesWeergeven** onder aan de lijst.
 
@@ -80,7 +80,7 @@ U kunt gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer op de pagina **actieve gebruikers** de gebruiker van wie u de beheerdersrol wilt wijzigen. Selecteer in het deelvenster flyout naast **rollen**de optie **bewerken**. 
+2. Selecteer op de pagina **actieve gebruikers** de gebruiker van wie u de beheerdersrol wilt wijzigen. Selecteer in het deelvenster flyout naast **rollen** de optie **bewerken**. 
 
     Als u de optie **bewerken** niet ziet, hebt u geen toestemming om beheerdersrollen te bewerken en kunt u geen beheerdersrollen toewijzen aan andere personen. Vraag een globale beheerder in uw bedrijf rollen toe te wijzen. In een klein bedrijf is de bedrijfseigenaar (de persoon die uw abonnement heeft gekocht) een globale beheerder. In een groot bedrijf zijn belangrijke personen in de IT-afdeling globale beheerders.
 
@@ -92,7 +92,7 @@ U kunt gebruikers op twee verschillende manieren aan een rol toewijzen:
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer op de pagina **actieve gebruikers** de gebruiker van wie u de beheerdersrol wilt wijzigen. Selecteer in het deelvenster flyout naast **rollen**de optie **bewerken**.
+2. Selecteer op de pagina **actieve gebruikers** de gebruiker van wie u de beheerdersrol wilt wijzigen. Selecteer in het deelvenster flyout naast **rollen** de optie **bewerken**.
 
     Als u de optie **bewerken** niet ziet, hebt u geen toestemming om beheerdersrollen te bewerken en kunt u geen beheerdersrollen toewijzen aan andere personen. Vraag een globale beheerder in uw bedrijf rollen toe te wijzen. In een klein bedrijf is de bedrijfseigenaar (de persoon die uw abonnement heeft gekocht) een globale beheerder. In een groot bedrijf zijn belangrijke personen in de IT-afdeling globale beheerders.
 
@@ -108,9 +108,14 @@ Voer de volgende instructies uit als u rollen wilt toewijzen aan tientallen gebr
 
 ::: moniker range="o365-worldwide"
 
-## <a name="check-your-permissions"></a>Machtigingen controleren
+## <a name="check-admin-roles-in-your-organization"></a>Beheerdersrollen in uw organisatie controleren
 
-Misschien hebt u niet de juiste machtigingen om beheerdersrollen toe te wijzen aan andere gebruikers. Controleer of u de juiste machtigingen hebt of als u een andere beheerder wilt vragen om rollen voor u toe te wijzen.
+Misschien hebt u niet de juiste machtigingen om beheerdersrollen toe te wijzen aan andere gebruikers. Controleer of u de juiste machtigingen hebt of als u een andere beheerder wilt vragen om rollen toe te wijzen.
+
+U kunt de machtigingen voor beheerdersrollen op twee verschillende manieren controleren:
+
+- Ga naar de gegevens van de gebruiker en kijk onder **rollen** op de **account** pagina.
+- U kunt ook naar **rollen** gaan en de beheerdersrol selecteren en toegewezen beheerders selecteren om te zien welke gebruikers zijn toegewezen.
 
 ::: moniker-end
 

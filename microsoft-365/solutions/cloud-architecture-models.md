@@ -1,6 +1,6 @@
 ---
-title: Modellen voor Microsoft-cloudarchitectuur
-description: Deze Cloud architecturen bieden u informatie over Microsoft-cloudservices, waaronder Microsoft 365, Azure Active Directory (Azure AD), Microsoft intune, Microsoft Dynamics 365 en hybride on-premises en Cloud oplossingen.
+title: Microsoft Cloud Architecture-modellen-Enterprise resource planning
+description: Deze Microsoft Cloud architecturen bieden u informatie over Microsoft-cloudservices, zoals Azure en Office 365.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -10,14 +10,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-ms.custom: ''
+- M365solutions
+ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 9988a822880db43feebb6ef007c39bd59c5ce6c7
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 0089210b72f65a05b87446132572de028b2a67a8
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464454"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906869"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Microsoft Cloud voor Enterprise Architects
 
@@ -55,7 +56,7 @@ Wat IT-architecten moeten weten over hybride Cloud voor Microsoft-services en-pl
    
 
 ### <a name="architecture-approaches-for-microsoft-cloud-tenant-to-tenant-migrations"></a>Architectuur methoden voor het migreren van tenants van Microsoft Cloud naar-tenants 
-In deze reeks onderwerpen worden diverse Architecture benaderingen getoond voor samenvoegfuncties, acquisities, divestitures en andere scenario's die u mogelijk leiden tot een nieuwe Cloud Tenant. In deze onderwerpen vindt u informatie over het starten van de planning. 
+In deze reeks onderwerpen worden diverse Architecture benaderingen getoond voor samenvoegfuncties, acquisities, divestitures en andere scenario's die u mogelijk leiden tot een nieuwe Cloud Tenant. In deze onderwerpen vindt u informatie over de beginpunten voor Enterprise resource planning. 
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
@@ -74,7 +75,7 @@ What IT architects need to know about security in Microsoft cloud services and p
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Updated December 2018 | This model contains: <ul><li>Microsoft's role in providing secure services and platforms</li><li>Customer responsibilities to mitigate security risks</li><li>Top security certifications </li><li>Security offerings provided by Microsoft consulting services </ul><br/>|
+|[![Poster for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Updated December 2018 | This model contains: <ul><li>Microsoft's role in providing secure services and platforms</li><li>Customer responsibilities to mitigate security risks</li><li>Top security certifications </li><li>Security offerings provided by Microsoft consulting services </ul><br/>|
 
 --> 
 
@@ -84,5 +85,5 @@ What IT architects need to know about security in Microsoft cloud services and p
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Afbeelding van miniatuur van de veelvoorkomende aanvals poster. ](../media/solutions-architecture-center/common-attacks-model-thumb.png)](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> Update van augustus 2017 | In deze poster ziet u het pad naar veelvoorkomende aanvallen en wordt beschreven welke mogelijkheden voor het stopzetten van een aanval een aanval ondersteunen. <br/>|
+|[![Illustratie van de poster voor veelvoorkomende aanvallen. ](../media/solutions-architecture-center/common-attacks-model-thumb.png)](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> Update van augustus 2017 | In deze poster ziet u het pad naar veelvoorkomende aanvallen en wordt beschreven welke mogelijkheden voor het stopzetten van een aanval een aanval ondersteunen. <br/>|
 

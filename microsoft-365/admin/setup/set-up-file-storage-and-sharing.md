@@ -19,6 +19,7 @@ ms.custom:
 - IT_Networking
 - TRN_M365B
 - OKR_SMB_Videos
+- seo-marvel-may2020
 - AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -27,27 +28,27 @@ search.appverid:
 - ODB150
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
-description: Meer informatie over het gebruik van OneDrive en een team site om bestanden op te slaan en te delen.
-ms.openlocfilehash: e6722dc7460a63878ba7fc6a15f6c384ca37e136
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+description: Meer informatie over het gebruik van OneDrive en een team site voor Microsoft 365-opslag en het delen van bestanden met Microsoft 365.
+ms.openlocfilehash: cc6a7a45fda65073dc9b0cd15a844ec9aefca794
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350359"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906391"
 ---
-# <a name="set-up-file-storage-and-sharing"></a>Bestandsopslag en -deling instellen
+# <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Bestandsopslag en-deling instellen in Microsoft 365
 
 Een van de beste methoden voor het opslaan en delen van bestanden voor uw bedrijf is door OneDrive en een team site samen te gebruiken. Dit is ideaal voor een klein bedrijf met een klein aantal medewerkers.
 
-Bekijk een korte video over waar u bestanden kunt opslaan in Microsoft 365.<br><br>
+Bekijk een korte video over het opslaan van bestanden in de Microsoft 365-Cloud.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="where-you-can-store-documents-in-microsoft-365"></a>Waar u documenten kunt opslaan in Microsoft 365
+## <a name="microsoft-365-document-storage-and-management"></a>"Microsoft 365-opslag en-beheer van documenten"
 
-- OneDrive is bedoeld voor individueel gebruik, met het af en toe delen van bestanden. 
+- OneDrive is bedoeld voor individueel gebruik, met het af en toe delen van bestanden.
 
 - Een team site is ontworpen om regelmatig bestanden te delen en samen te werken. Een team site is ideaal voor het opslaan van bestanden met een gedeelde eigendom, waarbij diverse personen de bestanden kunnen bewerken en hieraan kunnen samenwerken. Maak een Microsoft-team om een team site toe te voegen. [Meer informatie vindt u in een team maken in teams](https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b).
 
@@ -72,13 +73,13 @@ Hier vindt u aanbevelingen voor wat u op elk van de locaties moet opslaan wannee
 
 Iedereen in uw bedrijf aan wie een Microsoft 365-licentie is toegewezen (en SharePoint Online is geselecteerd) krijgt de cloudopslag van OneDrive. Ze kunnen bedrijfs gerelateerde bestanden hier bewaren voor toegang vanaf elk apparaat en ze zijn alleen beschikbaar voor die gebruiker. Ze kunnen hier bijvoorbeeld een conceptversie van een offerte, hun vergadernotities of een script opslaan voor een demo die ze gaan geven.
   
-Werknemers kunnen ook OneDrive-bestanden en-mappen delen. Als een werknemer niet aanwezig is of het bedrijf verlaat, hebben anderen toegang tot gedeelde bestanden die zijn opgeslagen in OneDrive.
+Werknemers kunnen ook OneDrive-bestanden en-mappen delen. Als een werknemer niet aanwezig is of het bedrijf verlaat, hebben anderen toegang tot gedeelde bestanden die zijn opgeslagen in OneDrive (OneDrive-teammappen delen).
   
 U kunt als volgt de afzonderlijke personen in uw team OneDrive instellen en bestanden delen.
 
 1. Ga naar de <a href="https://portal.office.com/ " target="_blank">Microsoft 365-Portal</a>en meld u aan met uw gebruikersnaam en wachtwoord.
 
-2. Selecteer **OneDrive**in het startprogramma voor apps.
+2. Selecteer **OneDrive** in het startprogramma voor apps.
 
 3. In OneDrive kunnen teamleden hun eigen bestanden voor bedrijven opslaan. U kunt afzonderlijke bestanden of een hele map delen. Kies een bestand of map, klik met de rechtermuisknop en kies vervolgens **delen**.
 
@@ -92,7 +93,7 @@ U kunt als volgt de afzonderlijke personen in uw team OneDrive instellen en best
 
     ![Het dialoogvenster koppeling delen met typen en een naam selecteren.](../../media/877e6587-db9d-4903-a87b-11e570eee926.png)
   
-5. Selecteer **verzenden**wanneer u klaar bent met het invoeren van de persoon met wie u wilt delen. Het e-mailbericht wordt direct verzonden naar de personen die u uitnodigt.
+5. Selecteer **verzenden** wanneer u klaar bent met het invoeren van de persoon met wie u wilt delen. Het e-mailbericht wordt direct verzonden naar de personen die u uitnodigt.
 
     ![Een koppeling delen om een lijst met namen weer te geven](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
   
@@ -135,7 +136,7 @@ Hier volgt de werkwijze waarop u bestanden op uw teamsite kunt synchroniseren me
   
 2. Kies **synchroniseren** als u alle bestanden wilt synchroniseren. Of blader naar de map die u wilt synchroniseren.
 
-3. Kies **Ja**wanneer u wordt gevraagd om tussen apps te schakelen. OneDrive is het proces dat de synchronisatie uitvoert.
+3. Kies **Ja** wanneer u wordt gevraagd om tussen apps te schakelen. OneDrive is het proces dat de synchronisatie uitvoert.
   
 4. Meld u aan met uw werk-of schoolaccount als u vervolgens een **OneDrive** -prompt ontvangt.
 
@@ -157,11 +158,11 @@ Hier volgen enkele tips voor het optimaal benutten van OneDrive of uw SharePoint
   
 ### <a name="file-storage-and-collaboration-recommendations-for-other-types-of-small-businesses"></a>Aanbevelingen voor bestandsopslag en samenwerking voor andere typen kleine bedrijven
 
-- **Exclusieve eenmans zaken**: gebruik OneDrive voor het opslaan van uw eigen bestanden en deel ze met klanten per geval.
+- **Exclusieve eenmans zaken** : gebruik OneDrive voor het opslaan van uw eigen bestanden en deel ze met klanten per geval.
 
-- **Mede-eigenaarschap**: beide eigenaren gebruiken OneDrive en delen bestanden opnieuw.
+- **Mede-eigenaarschap** : beide eigenaren gebruiken OneDrive en delen bestanden opnieuw.
 
-- **Bedrijven met externe clients of partners die toegang hebben tot bestanden**: Maak een nieuwe team site voor het opslaan en delen van documenten die bedoeld zijn voor een specifieke klant. Stel de site zo in dat alleen die klant kan worden geopend. Vervolgens hoeft u zich geen zorgen te maken dat één klant per ongeluk toegang krijgt tot informatie die bedoeld is voor een andere klant.
+- **Bedrijven met externe clients of partners die toegang hebben tot bestanden** : Maak een nieuwe team site voor het opslaan en delen van documenten die bedoeld zijn voor een specifieke klant. Stel de site zo in dat alleen die klant kan worden geopend. Vervolgens hoeft u zich geen zorgen te maken dat één klant per ongeluk toegang krijgt tot informatie die bedoeld is voor een andere klant.
 
 ### <a name="keep-private-files-private"></a>Persoonlijke bestanden privé houden
 

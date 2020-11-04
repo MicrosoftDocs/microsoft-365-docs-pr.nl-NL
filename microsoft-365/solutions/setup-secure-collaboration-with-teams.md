@@ -11,27 +11,29 @@ ms.collection:
 - M365-collaboration
 - m365solution-securecollab
 - m365solution-overview
-ms.custom: ''
+ms.custom:
+- M365solutions
+- seo-marvel-jun2020
 f1.keywords: NOCSH
-description: Meer informatie over het instellen van teams om uw gegevens te beschermen op basis van de gevoeligheid
-ms.openlocfilehash: 5cf4937a79fdf33e160432c740504ec84d196585
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Meer informatie over het instellen van veilig samenwerken aan inhoud in teams om uw gegevens te beschermen op basis van de vertrouwelijkheid.
+ms.openlocfilehash: 310605d0db84e33be1d5fdc925fadcfcdf9dddaf
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843538"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906797"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Veilige samenwerking met Microsoft 365 instellen
 
 U kunt eenvoudig informatie delen met de juiste personen, maar u kunt de inhoud van het bestand op de succesvolle manier delen met het succes van een organisatie. Dit omvat ook veilig het delen van gevoelige gegevens met uitsluitend degenen die er toegang toe moeten hebben. Afhankelijk van het project, kan dit betrekking hebben op het delen van gevoelige gegevens met personen buiten uw organisatie.
 
-De richtlijnen voor oplossingen bestaan uit twee onderdelen waarmee u het volgende kunt doen:
+De richtlijnen voor de samenwerking van oplossingen bestaan uit twee onderdelen waarmee u het volgende kunt doen:
 - Microsoft teams implementeren met het juiste niveau van bescherming voor elk project
 - Extern delen configureren met de juiste beveiligingsinstellingen voor elk project
 
 ![Teams implementeren met de juiste bescherming en extern delen configureren met de juiste beveiligingsinstellingen](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
-Gebruikers kunnen vaak samenwerken via e-mailberichten als de veelzijdige en eenvoudig te gebruiken samenwerkingsfuncties niet beschikbaar zijn. Dit is een saaie methode voor samenwerking met een fout en een groter risico, wat niet mogelijk is met ongepaste delen van informatie. Als mensen te moeilijk informatie vinden over het delen van gegevens, kunnen ze teruggaan naar het gebruik van consumentenproducten die niet door het programma worden bestuurd. Dit kan een nog groter risico vormen.
+Gebruikers kunnen vaak samenwerken via e-mailberichten als de functies voor samenwerken met inhoud en eenvoud niet beschikbaar zijn. Dit is een saaie methode voor samenwerking met een fout en een groter risico, wat niet mogelijk is met ongepaste delen van informatie. Als mensen te moeilijk informatie vinden over het delen van gegevens, kunnen ze teruggaan naar het gebruik van consumentenproducten die niet door het programma worden bestuurd. Dit kan een nog groter risico vormen.
 
 Met Microsoft 365 kunt u teams implementeren met diverse configuraties waarmee u het volgende kunt doen:
 

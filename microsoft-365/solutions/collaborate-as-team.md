@@ -15,13 +15,13 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een team voor samenwerking met gasten in teams.
-ms.openlocfilehash: 7a2259358d6976184d393980b2b7c0320c3bb171
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een team voor taak, discussie en de samenwerking van documenten met gasten in teams.
+ms.openlocfilehash: b4eea473f03441144a0236ec53dcecde9080fc7a
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48409046"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906857"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Met gasten samenwerken in een team
 
@@ -54,7 +54,7 @@ Instellingen voor organisatie relaties instellen
 
 Let op de instellingen in de sectie **samenwerkings beperkingen** . Zorg ervoor dat de domeinen van de gasten waarmee u wilt samenwerken, niet zijn geblokkeerd.
 
-Als u met gasten in meerdere organisaties werkt, is het raadzaam om de toegang van Directory-gegevens te beperken. Hiermee kunt u voorkomen dat ze zien welke iemand anders een gast is in de adreslijst. Als u dit wilt doen, selecteert u onder **toegangsbeperkingen**voor gastgebruikers de optie **gastgebruikers beperkte toegang tot eigenschappen en lidmaatschap van adreslijst objecten** of **toegang voor gastgebruikers is beperkt tot eigenschappen en lidmaatschap van eigen directoryobjecten**.
+Als u met gasten in meerdere organisaties werkt, is het raadzaam om de toegang van Directory-gegevens te beperken. Hiermee kunt u voorkomen dat ze zien welke iemand anders een gast is in de adreslijst. Als u dit wilt doen, selecteert u onder **toegangsbeperkingen** voor gastgebruikers de optie **gastgebruikers beperkte toegang tot eigenschappen en lidmaatschap van adreslijst objecten** of **toegang voor gastgebruikers is beperkt tot eigenschappen en lidmaatschap van eigen directoryobjecten**.
 
 ## <a name="teams-guest-access-settings"></a>Instellingen voor gasttoegang voor teams
 
@@ -84,7 +84,7 @@ Teams gebruikt Microsoft 365-groepen voor lidmaatschap van een team. De instelli
 
 De gastinstellingen van Microsoft 365 groepen instellen
 
-1. In het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, vouwt u **instellingen**uit.
+1. In het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, vouwt u **instellingen** uit.
 2. Klik op **instellingen voor organisatie**.
 3. Klik in de lijst op **Microsoft 365 groepen**.
 4. Zorg ervoor dat de selectievakjes **eigenaren van gebruikers buiten uw organisatie toevoegen aan Microsoft 365-groepen als gasten** en de selectievakjes voor **groepsleden toegang krijgen tot groepsinhoud** beide zijn ingeschakeld.
@@ -104,7 +104,7 @@ Als u het delen van bestanden en mappen met niet-geverifieerde personen wilt toe
 
 Instellingen voordelen van SharePoint op organisatieniveau instellen
 
-1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra**op **SharePoint**.
+1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra** op **SharePoint**.
 2. Vouw in het SharePoint-Beheercentrum in het linker navigatievenster **beleidsregels** uit en klik vervolgens op **delen**.
 3. Zorg ervoor dat extern delen voor SharePoint is ingesteld op **iedereen** of **nieuwe en bestaande gasten**.
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
@@ -128,7 +128,7 @@ Kies een van de volgende koppelingstypen die standaard worden geselecteerd wanne
 De standaardinstellingen voor de koppeling naar het SharePoint-organisatieniveau instellen
 
 1. Ga naar de pagina delen in het SharePoint-Beheercentrum.
-2. Selecteer onder **koppelingen voor bestanden en mappen**de standaardkoppeling voordelen die u wilt gebruiken.
+2. Selecteer onder **koppelingen voor bestanden en mappen** de standaardkoppeling voordelen die u wilt gebruiken.
 3. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
 ## <a name="create-a-team"></a>Een team maken
@@ -147,7 +147,7 @@ We nodigen later gebruikers uit. Vervolgens moet u de instellingen voordelen op 
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voordelen op SharePoint-siteniveau
 
-Controleer de instellingen voordelen op siteniveau om ervoor te zorgen dat u het gewenste type toegang toestaat voor dit team. Als u bijvoorbeeld de instellingen op organisatieniveau instelt op **iedereen**, maar u wilt dat alle gasten verificatie voor dit team hebben, controleert u of de instellingen voordelen op het siteniveau zijn ingesteld op **nieuwe en bestaande gasten**.
+Controleer de instellingen voordelen op siteniveau om ervoor te zorgen dat u het gewenste type toegang toestaat voor dit team. Als u bijvoorbeeld de instellingen op organisatieniveau instelt op **iedereen** , maar u wilt dat alle gasten verificatie voor dit team hebben, controleert u of de instellingen voordelen op het siteniveau zijn ingesteld op **nieuwe en bestaande gasten**.
 
 ![Schermafbeelding van de instellingen voor extern delen van SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
@@ -166,14 +166,14 @@ Instellingen voor het delen van gasten zijn nu geconfigureerd, zodat u interne g
 Interne gebruikers uitnodigen voor een team
 1. Klik in het team op **meer opties** ( **\*\*\*** ) en klik vervolgens op **lid toevoegen**.
 2. Typ de naam van de persoon die u wilt uitnodigen.
-3. Klik op **toevoegen**en klik vervolgens op **sluiten**.
+3. Klik op **toevoegen** en klik vervolgens op **sluiten**.
 
 Gasten uitnodigen voor een team
 1. Klik in het team op **meer opties** ( **\*\*\*** ) en klik vervolgens op **lid toevoegen**.
 2. Voer het e-mailadres in van de gast die u wilt uitnodigen.
 3. Klik op **gast gegevens bewerken**.
 4. Typ de volledige naam van de gast en klik op het vinkje.
-5. Klik op **toevoegen**en klik vervolgens op **sluiten**.
+5. Klik op **toevoegen** en klik vervolgens op **sluiten**.
 
 ## <a name="see-also"></a>Zie ook
 

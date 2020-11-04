@@ -1,5 +1,5 @@
 ---
-title: 'Een team site aanpassen voor het opslaan en delen van bestanden: SharePoint Online'
+title: Een SharePoint-Team site aanpassen voor het opslaan en delen van bestanden
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -17,19 +17,20 @@ ms.collection:
 ms.custom:
 - IT_Networking
 - seo-marvel-apr2020
+- seo-marvel-may2020
 - AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
-description: In dit artikel leert u hoe u uw team site aanpast, organiseert en beheert voor het opslaan en delen van bestanden.
-ms.openlocfilehash: f2c59607d006cd6e5529d9e5ffb3d2f6eead6edf
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Leer hoe u uw SharePoint-Team site aanpast, organiseert en beheert met documentbibliotheken, lijsten en hubs.
+ms.openlocfilehash: 3eb09f0b0160333e3b17ebc5f02424ba3d24a13c
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644565"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906487"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Uw teamsite aanpassen voor het opslaan en delen van bestanden
 
@@ -39,7 +40,7 @@ Als u een klein bedrijf met een paar medewerkers hebt, kunt u op een van de volg
   
 [Een team site maken in SharePoint](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)
   
-Hier volgen enkele ideeën en koppelingen om uw teamsite aan te passen, te organiseren en te beheren. 
+Hier volgen enkele ideeën en koppelingen om uw teamsite aan te passen, te organiseren en te beheren.
   
  
 ## <a name="customize-your-team-site"></a>Uw teamsite aanpassen
@@ -60,7 +61,7 @@ Meer informatie over de teamsite-instellingen vindt u in [De instellingen van uw
   
 ## <a name="work-with-document-libraries"></a>Werken met documentbibliotheken
 
-Een team site bevat een documentbibliotheek die u direct kunt gaan gebruiken. 
+Een team site bevat een documentbibliotheek die u direct kunt gebruiken voor het opslaan van bestanden en documentbeheer.
 
 Zie [een map of bestanden uploaden naar een documentbibliotheek](https://support.microsoft.com/office/eb18fcba-c953-4d45-8d90-8da66edeacdb) als u wilt beginnen met uploaden.
    
@@ -70,7 +71,7 @@ Voor informatie over het maken van weergaven van bibliotheken om specifieke gege
   
 ## <a name="work-with-lists-to-organize-data"></a>Werken met lijsten om gegevens te ordenen
 
-SharePoint bevat veel sjablonen voor lijsten die u aan uw site kunt toevoegen, zoals een lijst met koppelingen, een agenda, contactpersonen en taken. 
+SharePoint bevat veel sjablonen voor lijsten die u aan uw site kunt toevoegen, zoals een lijst met koppelingen, een agenda, contactpersonen en taken.
   
 Informatie over [Een lijst maken in SharePoint](https://support.microsoft.com/office/0D397414-D95F-41EB-ADDD-5E6EFF41B083#ID0EAAGAAA=Online).
   
@@ -82,7 +83,7 @@ Bekijk een video over het toevoegen van agenda's aan uw site, Zie [een gedeelde 
 
 ## <a name="organize-sites-into-hubs"></a>Sites in hubs onderverdelen
 
-Uw teamsite deelt bijna alles met alle leden van de groep die is gekoppeld aan de site. Als u een afzonderlijke site voor bepaalde klanten wilt hebben, kunt u aanvullende teamsites maken en beheren met SharePoint-hubsites. Hier vindt u meer informatie. 
+Uw teamsite deelt bijna alles met alle leden van de groep die is gekoppeld aan de site. Als u een afzonderlijke site voor bepaalde klanten wilt hebben, kunt u aanvullende teamsites maken en beheren met SharePoint-hubsites. Hier vindt u meer informatie.
   
 Met hubsites kunt u sites toevoegen en koppelen. Raadpleeg voor meer informatie [Wat is een SharePoint-hubsite?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f).
   
@@ -92,7 +93,7 @@ Raadpleeg [Een SharePoint-site koppelen aan een hubsite](https://support.microso
   
 ## <a name="sharing-files-with-the-team"></a>Bestanden delen met het team
 
-Naast opslag en organisatie is ook het delen van bestanden met uw team en externe klanten belangrijk. Hier volgen enkele koppelingen naar onderwerpen die u kunnen helpen uw gebruikers te beheren en uw gegevens te delen. 
+Hoewel het opslaan van bestanden en documentbeheer een start is, zijn delen met uw team en externe clients ook belangrijk. Hier volgen enkele koppelingen naar onderwerpen die u kunnen helpen uw gebruikers te beheren en uw gegevens te delen.
   
 Zie [SharePoint-bestanden of-mappen delen in Microsoft 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)voor meer informatie over het delen van bestanden met uw team.
   
@@ -100,7 +101,7 @@ Raadpleeg [Extern delen beheren voor uw SharePoint Online-omgeving](/sharepoint/
   
 ## <a name="managing-users-and-groups"></a>Gebruikers en groepen beheren.
 
-Tijdens het beheer van uw teamsite moet u wellicht gebruikers toevoegen of verwijderen. Hier vindt u informatie met inzichten over het toevoegen en beheren van gebruikers op uw teamsite. 
+Tijdens het beheer van uw teamsite moet u wellicht gebruikers toevoegen of verwijderen. Hier vindt u informatie met inzichten over het toevoegen en beheren van gebruikers op uw teamsite.
   
 Bekijk een video over groepen, zie [Groepen begrijpen en beheren](https://support.microsoft.com/office/9c1037b7-de0b-41cd-b8f0-79a95aac854d). 
   
@@ -119,6 +120,3 @@ Meer informatie over het verwerken van toegangsaanvragen met [toegangsaanvragen 
   - [Office instellen op een Windows Phone met Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
     
 - [Meer informatie over het gebruik van OneDrive](https://go.microsoft.com/fwlink/?LinkID=511458).
-    
-
-

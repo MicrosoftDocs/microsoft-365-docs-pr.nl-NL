@@ -1,5 +1,5 @@
 ---
-title: Uw Microsoft 365 voor bedrijven-gebruikers upgraden naar de meest recente Office-client
+title: Upgrade uw Office 2010 naar Microsoft 365-Microsoft 365-beheer
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -16,16 +16,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.custom:
+- fwlink 824861; CampaignID
+- O365_Comm_SR_UpgradeOffice
+- seo-marvel-may2020
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
-description: Meer informatie over hoe u uw gebruikers kunt upgraden naar de nieuwste Office-client.
-ms.openlocfilehash: 40160dc5590144a1132971368da70c6f36ed460c
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+description: Meer informatie over het upgraden van Microsoft Office naar de nieuwste Office-client voor gebruikers in uw organisatie.
+ms.openlocfilehash: 596dfc8f4a005d01c0bf330243bf1fb3c639f97e
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456317"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906439"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Uw Microsoft 365 voor bedrijven-gebruikers upgraden naar de meest recente Office-client
 
@@ -47,7 +50,7 @@ Zie [Office 2010 end of support routekaart](https://docs.microsoft.com/deployoff
 
  Als u geen beheerder bent en u een [Microsoft 365-](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) product hebt, raadpleegt u [Hoe kan ik een upgrade van Office uitvoeren](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) naar informatie over het upgraden van een oudere versie van Office voor thuisgebruik.
 
-## <a name="get-ready-to-upgrade"></a>Voorbereiden op het uitvoeren van de upgrade
+## <a name="get-ready-to-upgrade-to-microsoft-365"></a>Voorbereiden op een upgrade naar Microsoft 365
 
 Als beheerder kunt u bepalen welke versie van Office iedereen in uw organisatie kan installeren. We raden u ten zeerste aan om gebruikers in uw organisatie te helpen met het uitvoeren van oudere versies van Office, zoals Office 2010, Office 2013 of Office 2016, upgrade naar de nieuwste versie om te profiteren van de verbeteringen van de beveiliging en productiviteit.
 

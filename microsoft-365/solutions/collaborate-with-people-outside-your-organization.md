@@ -13,15 +13,16 @@ ms.collection:
 - m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Configureer Microsoft 365 zodat delen en extra beveiliging wordt ingeschakeld wanneer u externe gebruikers uitnodigt om samen te werken in teams en SharePoint-sites te delen.
-ms.openlocfilehash: 11359e2de358d5673da6c39ca2d419c94349a829
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: Leer hoe u Microsoft 365-apps zoals teams, OneDrive en SharePoint kunt configureren voor samenwerking met personen buiten uw organisatie.
+ms.openlocfilehash: 9a15ea06cec6982977ec88edf5ee95b35591a33c
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377411"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906987"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Samenwerken met personen buiten uw organisatie
 

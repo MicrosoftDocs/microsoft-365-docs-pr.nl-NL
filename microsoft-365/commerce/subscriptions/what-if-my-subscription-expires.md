@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Meer informatie over wat er gebeurt met uw gegevens als uw abonnement op Microsoft 365 for Business verloopt, is uitgeschakeld of als u het abonnement opzegt.
-ms.openlocfilehash: 77b65931056ca504d6f3efd7ca86560496495f5d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b09f56fefb7791af012c9dab2ba4e5684b9bf89f
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646869"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906821"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor bedrijven-abonnement afloopt?
 
@@ -203,6 +203,10 @@ Op dit moment kunt u het abonnement niet opnieuw activeren. Maar als globale beh
 > [!NOTE]
 > Bij het toevoegen van een nieuw abonnement van hetzelfde type waarvoor de toegang is opgeheven, worden de gegevens die aan het niet-ingerichte abonnement zijn gekoppeld, niet hersteld.
 
+
+> [!NOTE]
+> Als een CSP-licentie is opgeschort, is er geen termijn van 30 dagen en zijn de services direct uitgeschakeld. De gegevens worden na 90 dagen verwijderd als de Tenant niet opnieuw wordt geactiveerd door een nieuwe licentie toe te voegen.
+
 ### <a name="what-happens-when-my-trial-ends"></a>Wat gebeurt er als mijn proefabonnement afloopt?
 
 Wanneer uw proefabonnement is afgelopen, kunt u Microsoft 365 gratis niet gebruiken. U hebt een aantal opties:
@@ -237,3 +241,4 @@ Wanneer uw proefabonnement is afgelopen, kunt u Microsoft 365 gratis niet gebrui
 [Uw abonnement opzeggen](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription) (artikel) \
 [Microsoft 365 voor bedrijven verlengen](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription) (artikel) \
 [Uw abonnement opnieuw activeren](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription) (artikel)
+

@@ -19,19 +19,19 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
-description: Meer informatie over de selfservice voor Microsoft 365 selfservice en beschikbare selfservice Programma's zoals Microsoft Power apps, Microsoft flow en Dynamics 365 voor de financiering.
-ms.openlocfilehash: 8e8ed80cc24e3c6ec0a4a9d408d202495de52adb
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+description: Lees meer over het aanmelden bij Microsoft 365 selfservice en beschikbare selfservice Programma's zoals Microsoft Power apps, Microsoft flow en Dynamics 365 voor financiering.
+ms.openlocfilehash: 21e41661141a817a1751c80608035d839d2e3952
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324478"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906571"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Zelfregistratie gebruiken in uw organisatie
 
-Met selfservice registratie kunnen gebruikers in uw organisatie zich makkelijker registreren voor online services van Microsoft. We bellen u dit proces "selfservice registratie" omdat uw gebruikers zich kunnen registreren voor het gebruik van services die door uw abonnement zijn betaald, of het gebruik van gratis services, zonder dat u zich hoeft aan te melden.
+Met selfservice registratie kunnen gebruikers in uw organisatie zich makkelijker registreren voor online services van Microsoft. We bellen u dit abonnement "selfservice voor eenmalige aanmelding", omdat uw gebruikers zich kunnen registreren voor het gebruik van services die door uw abonnement zijn betaald, of het gebruik van gratis services, zonder dat u om namens de actie hoeft te ondernemen.
   
-## <a name="how-self-service-sign-up-works"></a>Hoe werkt zelfregistratie
+## <a name="how-self-service-sign-up-works"></a>Hoe werkt selfservice registratie?
 
 Hieronder volgt een voorbeeld van zelfregistratie bij een onderwijsinstelling. De procedure is dezelfde voor elke organisatie die selfservice-programma's heeft ingeschakeld in de tenant.
   
@@ -42,11 +42,10 @@ Hieronder volgt een voorbeeld van zelfregistratie bij een onderwijsinstelling. D
 
 ## <a name="available-self-service-programs"></a>Beschikbare selfservice-programma 's
 
-Hier volgen de selfservice-programma's die momenteel beschikbaar zijn Deze lijst wordt bijgewerkt wanneer er nieuwe programma's worden toegevoegd.
+Hieronder vindt u de beschikbare selfservice Programma's. Deze lijst wordt bijgewerkt wanneer nieuwe Programma's worden toegevoegd.
   
-|||||
+| Programma <br/> | Beschrijving <br/> | Aanvullende informatie <br/> | Website voor zelfregistratie <br/> |
 |:-----|:-----|:-----|:-----|
-|**Programma** <br/> |**Beschrijving** <br/> |**Aanvullende informatie** <br/> |****Website voor zelfregistratie**** <br/> |
 |Office 365 a1 * * * * <br/> |Leerlingen en studenten kunnen een e-mailadres van school gebruiken om u aan te melden voor gratis Office 365 en Office-apps voor het web te downloaden, 1 TB OneDrive-cloudopslag en SharePoint Online voor klas-, team-en projectsites.  <br/> |[Office 365 Education - veelgestelde technische vragen](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
 |**Office 365 a1 plus** <br/> |In aanmerking komende studenten en docenten kunnen zich registreren voor Office 365 a1 plus, waaronder alles wat hierboven wordt genoemd plus Microsoft 365-apps voor Enterprise. Microsoft 365-apps voor Enterprise is productiviteitssoftware, waaronder Word, PowerPoint, Excel, Outlook, OneNote, Publisher, Access en Skype voor bedrijven, die op uw desktop-of laptopcomputer is geïnstalleerd.  <br/> |[Office 365 Education - veelgestelde technische vragen](https://go.microsoft.com/fwlink/p/?LinkId=536625) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
 |**Power BI** <br/> |Met Power BI kunnen gebruikersgegevens visualiseren, ontdekkingen delen en samenwerken op intuïtieve nieuwe manieren. <br/> Als u al een abonnement hebt op uw organisatie, kunt u ook licenties voor ' Power BI Pro voor individuele gebruikers proefversies ' weergeven, waarin gebruikers beperkte, gratis toegang krijgen tot geavanceerde mogelijkheden.  <br/> |[Power BI in uw organisatie](https://go.microsoft.com/fwlink/p/?LinkId=536626) <br/> |[Microsoft Power BI](https://go.microsoft.com/fwlink/p/?LinkId=536629) <br/> |
@@ -54,7 +53,7 @@ Hier volgen de selfservice-programma's die momenteel beschikbaar zijn Deze lijst
 |**Microsoft PowerApps** <br/> |In PowerApps kunt u organisatiegegevens beheren door een app uit te voeren die u hebt gemaakt, of die iemand anders heeft gemaakt en met u heeft gedeeld. Apps worden uitgevoerd op mobiele apparaten zoals telefoons, maar u kunt ze ook uitvoeren in een browser door Dynamics 365 te openen. U kunt allerlei verschillende soorten apps maken, zonder dat u een programmeertaal zoals C# hoeft te leren.  <br/> |[Aanmelding voor PowerApps via selfservice](https://go.microsoft.com/fwlink/p/?linkid=841461) <br/> |[Microsoft PowerApps](https://go.microsoft.com/fwlink/p/?linkid=841462) <br/> |
 |**Dynamics 365 for Financials** <br/> |Een complete oplossing voor zakelijk en financieel beheer voor kleine en middelgrote bedrijven. Met Dynamics 365 for Financials kunt u vanaf dag één eenvoudiger inkopen, verkopen, factureren en rapporteren.  <br/> |[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/p/?linkid=841466) <br/> |[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/p/?linkid=841466) <br/> |
 |**Microsoft Dynamics 365 for Operations** <br/> |Verhoog de snelheid van zakendoen. De uitgebreide ERP-hulpmiddelen in 365 Dynamics for Operations bieden globale schaalbaarheid en digitale bedrijfsinformatie waarmee uw organisatie in het gewenste tempo kan groeien.  <br/> |[Microsoft Dynamics 365 for Operations](https://go.microsoft.com/fwlink/p/?linkid=841467) <br/> |[Microsoft Dynamics 365 for Operations](https://go.microsoft.com/fwlink/p/?linkid=841467) <br/> |
-|**Microsoft AppSource** <br/> |Microsoft AppSource is een verzameling zakelijke SaaS-apps (Software as a Service) die zijn gebaseerd op het Microsoft-cloudplatform. Op AppSource vindt u honderden apps, invoegtoepassingen en inhoudspakketten waarmee u de functionaliteit kunt uitbreiden van Microsoft-producten, zoals Azure, Microsoft Dynamics 365, Office 365 en Power BI.  <br/> |[Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=841474) <br/> |[Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=841474) <br/> |
+|**Microsoft AppSource** <br/> |Microsoft AppSource is een verzameling zakelijke SaaS-apps (Software as a Service) die zijn gebaseerd op het Microsoft-cloudplatform. AppSource biedt honderden apps, invoegtoepassingen en inhoudspakketten die de functionaliteit van Microsoft-producten zoals Azure, Dynamics 365, Office 365 en Power BI verlengen.  <br/> |[Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=841474) <br/> |[Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=841474) <br/> |
 |**Microsoft Partner Network** <br/> |Het Microsoft Partner Network biedt drie typen lidmaatschappen. Elk type biedt een aantal voordelen om uw bedrijf te helpen groeien. Naarmate u uw doelstellingen realiseert, kunt u deelnemen aan het programma op het niveau dat aansluit bij uw unieke behoeften om zo toegang te krijgen tot meer voordelen en uw relatie met ons en met andere partners in het netwerk te verdiepen.  <br/> |[Microsoft Partner Network](https://go.microsoft.com/fwlink/p/?linkid=841469) <br/> |[Microsoft Partner Network](https://go.microsoft.com/fwlink/p/?linkid=841469) <br/> |
 |**Microsoft Business Center** <br/> |Microsoft Business Center is de portal voor klanten die aankopen hebben gedaan via de Microsoft Products and Services Agreement (MPSA). <br/> |[Quick Start: Register for the Microsoft Business Center](https://go.microsoft.com/fwlink/p/?linkid=841479) (Snel aan de slag: Registreren voor het Microsoft Business Center) <br/> |[Microsoft Business Center](https://go.microsoft.com/fwlink/p/?linkid=841470) <br/> |
 |**Microsoft volume licentie service centrum** <br/> |Het Microsoft volume licentie service centrum toont licenties die zijn aangeschaft onder Enterprise, SELECT, education (school of school), Open Value, open licentie en ISV Royalty's overeenkomsten.  <br/> |[VLSC-training en-bronnen](https://www.microsoft.com/en-us/Licensing/existing-customer/vlsc-training-and-resources.aspx) <br/> |[Service Centrum voor volume licenties](https://www.microsoft.com/Licensing/servicecenter/default.aspx) <br/> |

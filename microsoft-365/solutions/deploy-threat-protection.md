@@ -14,12 +14,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 2d1316927124b1ce03910190922fa0804853ae4b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 1bf06c605290dc94f64da6c2aabca3683c234c9a
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845274"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906749"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Functies voor bedreigingsbeveiliging implementeren in Microsoft 365
 
@@ -53,9 +53,9 @@ In de volgende afbeelding wordt een aanbevolen pad getoond voor de implementatie
 |Oplossing/mogelijkheden  |Beschrijving  |
 |---------|---------|
 |Meervoudige verificatie en voorwaardelijke toegang     |Beveilig tegen met compromisloze identiteiten en apparaten. Begin met deze bescherming omdat dit de basis vormt. De configuratie die in deze richtlijnen wordt aanbevolen bevat Azure AD-identiteitsbeveiliging.     |
-|Microsoft Defender voor identiteit     |  Een op de cloud gebaseerde beveiligingsoplossing waarmee u uw on-premises Active Directory-Signa rekken kunt identificeren, detecteren en onderzoeken, en hoe u geavanceerde bedreigingen, compromisloze identiteiten, en schadelijke Insider-acties die u kunt uitvoeren op uw organisatie. Richt ons op Microsoft Defender voor de identiteit, aangezien dit uw on-premises en de Cloud infrastructuur beschermt, geen afhankelijkheden of vereisten heeft en direct een goede vergoeding kan geven.       | 
+|Microsoft Defender for Identity     |  Een op de cloud gebaseerde beveiligingsoplossing waarmee u uw on-premises Active Directory-Signa rekken kunt identificeren, detecteren en onderzoeken, en hoe u geavanceerde bedreigingen, compromisloze identiteiten, en schadelijke Insider-acties die u kunt uitvoeren op uw organisatie. Richt ons op Microsoft Defender voor de identiteit, aangezien dit uw on-premises en de Cloud infrastructuur beschermt, geen afhankelijkheden of vereisten heeft en direct een goede vergoeding kan geven.       | 
 |Microsoft Defender voor Office 365     | Beschermt uw organisatie tegen kwaadaardige bedreigingen van e-mailberichten, koppelingen (Url's) en samenwerkingsprogramma's. Beveiligingsmaatregelen voor malware, phishing, spoofing en andere soorten aanval. Het configureren van Microsoft Defender voor Office 365 wordt vervolgens aanbevolen omdat de instelling van het besturingselement wijzigen, het migreren van instellingen van het systeem en andere overwegingen voor de implementatie van de implementatie mogelijk langer duurt. <br><br>Opmerking: Zorg ervoor dat u de mogelijkheden voor beveiliging van bedreigingen configureert die zijn opgenomen in alle Office 365-abonnementen (Exchange Online Protection).       |
-|Microsoft Defender voor eindpunt    | Een Endpoint Protection platform dat helpt bij het voorkomen, analyseren, onderzoeken en beantwoorden van geavanceerde bedreigingen.  Het kan enige tijd duren voor de implementatie van eindpunten voor eindpunten is voltooid, maar de configuratie kan parallel worden uitgevoerd met andere mogelijkheden.   |
+|Microsoft Defender voor Eindpunt     | Een Endpoint Protection platform dat helpt bij het voorkomen, analyseren, onderzoeken en beantwoorden van geavanceerde bedreigingen.  Het kan enige tijd duren voor de implementatie van eindpunten voor eindpunten is voltooid, maar de configuratie kan parallel worden uitgevoerd met andere mogelijkheden.   |
 |Microsoft Cloud App Security     |   Een beveiligings Broker voor Cloud toegang voor ontdekking, onderzoek en governance. U kunt de beveiliging van Microsoft Cloud-apps vroegtijdig inschakelen om te beginnen met het verzamelen van gegevens en inzichten. Als u informatie implementeert en andere gerichte beveiliging toepast op uw SaaS-apps, moet de planning en tijd in beslag nemen.       | 
 
 > [!TIP]
@@ -77,5 +77,3 @@ Om ervoor te zorgen dat uw organisatie de beste beveiliging heeft, kunt u de vol
 Uw functies voor beveiliging tegen bedreigingen kunnen parallel worden geconfigureerd, dus als u meerdere netwerk beveiligings teams hebt die verantwoordelijk zijn voor verschillende services, kunnen ze de beveiligingsfuncties van uw organisatie op hetzelfde moment configureren. In het volgende diagram ziet u het proces voor het uitvoeren van bedreigingen voor beveiliging op hoog niveau. 
 
 ![Proces voor de implementatie van functies voor bedreigingsbeveiliging](../media/solutions-architecture-center/deploy-threat-protection-across-m365-grid.png) 
-
-

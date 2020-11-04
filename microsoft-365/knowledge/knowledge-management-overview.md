@@ -11,12 +11,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van de Knowledge Management in Project cortex.
-ms.openlocfilehash: c4f7ff7d65ec08740dc14f717712731d839bd903
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: d422b54bb7991fb5fd61465cd0428ab586d10bf5
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361949"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906939"
 ---
 # <a name="knowledge-management-overview-preview"></a>Overzicht van kennisbeheer (preview)
 
@@ -29,25 +29,32 @@ Knowledge Management gebruikt Microsoft AI-technologie, Microsoft 365, Delve, Se
 
 Het is van doel om informatie te verstrekken aan gebruikers in apps die ze dagelijks gebruiken, zoals Outlook, teams en SharePoint.
 
-Gebruikers zien bijvoorbeeld onbekende voorwaarden in hun e-mailberichten, SharePoint-sites of in team gesprekken waarover ze meer willen weten. Met de functie AI kunt u met AI automatisch zoeken naar en identificeren van deze onderwerpen, en informatie over deze **onderwerpen**samenstellen, zoals een korte beschrijving, onderhevige experts voor het onderwerp en sites, bestanden en pagina's die hieraan zijn gerelateerd. U kunt ervoor kiezen om de informatie over het onderwerp naar wens bij te werken. Vervolgens kunt u de beschikbare onderwerpen voor uw gebruikers maken, wat inhoudt voor elk exemplaar van het onderwerp dat wordt weergegeven in apps zoals Outlook, teams en SharePoint, wordt de tekst gemarkeerd. Gebruikers kunnen kiezen om het onderwerp te selecteren, waarover u meer wilt weten over de details van het onderwerp.
+Gebruikers zien bijvoorbeeld onbekende voorwaarden in hun e-mailberichten, SharePoint-sites of in team gesprekken waarover ze meer willen weten. Met de functie AI kunt u met AI automatisch zoeken naar en identificeren van deze onderwerpen, en informatie over deze **onderwerpen** samenstellen, zoals een korte beschrijving, onderhevige experts voor het onderwerp en sites, bestanden en pagina's die hieraan zijn gerelateerd. U kunt ervoor kiezen om de informatie over het onderwerp naar wens bij te werken. Vervolgens kunt u de beschikbare onderwerpen voor uw gebruikers maken, wat inhoudt voor elk exemplaar van het onderwerp dat wordt weergegeven in apps zoals Outlook, teams en SharePoint, wordt de tekst gemarkeerd. Gebruikers kunnen kiezen om het onderwerp te selecteren, waarover u meer wilt weten over de details van het onderwerp.
 
 
-## <a name="topic-discovery"></a>Onderwerp detecteren
+## <a name="topic-indexing"></a>Onderwerp indexeren
 
-Knowledge Management gebruikt Microsoft AI-technologie om te zoeken naar **onderwerpen** in uw Office 365-omgeving.
+Knowledge Management gebruikt Microsoft AI-technologie om **onderwerpen** te identificeren in de Office 365-omgeving.
 
 Een onderwerp is een woordgroep of term die in de organisatie belangrijk of belangrijk is. Deze heeft een specifieke betekenis van de organisatie en bevat bronnen die hieraan kunnen werken zodat ze meer informatie kunnen vinden.
 
-Wanneer een onderwerp wordt gedetecteerd, wordt er een **onderwerp** gemaakt voor de site met informatie die is verzameld via de detectie van het onderwerp, zoals:
+Wanneer een onderwerp wordt geïdentificeerd, wordt er een **onderwerp** gemaakt met informatie die is verzameld via het indexeren van onderwerpen, zoals:
 
+- Alternatieve namen en/of acroniemen.
 - Een korte beschrijving van het onderwerp.
 - Gebruikers die misschien informatie willen over het onderwerp.
 - Bestanden, pagina's en sites die zijn gerelateerd aan het onderwerp.
 
 
+## <a name="topic-discovery"></a>Onderwerp detecteren
+Wanneer een onderwerp wordt genoemd in inhoud op SharePoint-nieuws en-pagina's, ziet u dat het is gemarkeerd. Open het onderwerp met een overzicht van de markering. Open het onderwerp Details van de titel van het overzicht. <!--(msg for Efren: not sure if I should use discovery for this; we use discovered in-product for indexing?)--> Het vermelde onderwerp kan automatisch worden geïdentificeerd of toegevoegd aan de pagina, met een directe verwijzing naar het onderwerp door de auteur van de pagina.
+
+U kunt ook onderwerpen ontdekken via Microsoft Search.
+
+
 ## <a name="topic-management"></a>Onderwerp beheren
 
-Het beheer van het onderwerp wordt uitgevoerd in het **onderwerp centrum**van uw organisatie. De site centrum site wordt tijdens de installatie gemaakt en fungeert als uw kennis punt voor uw organisatie. Het bevat een lijst met alle onderwerpen die zijn gevonden in uw omgeving, en alle topic pagina's die zijn gemaakt voor deze onderwerpen. 
+Het beheer van het onderwerp wordt uitgevoerd in het **onderwerp centrum** van uw organisatie. De site centrum site wordt tijdens de installatie gemaakt en fungeert als uw kennis punt voor uw organisatie. Het bevat een lijst met alle onderwerpen die zijn gevonden in uw omgeving, en alle topic pagina's die zijn gemaakt voor deze onderwerpen. 
 
 Gebruikers die de juiste machtigingen hebben, kunnen het volgende doen in het onderwerp:
 
@@ -70,15 +77,13 @@ Met beheer besturingselementen in het Microsoft 365-Beheercentrum kunt u uw kenn
 
 Zie [uw kennis netwerk beheren](manage-knowledge-network.md) voor meer informatie. 
 
-## <a name="topic-curation"></a>Onderwerp-curator
+## <a name="topic-curation--feedback"></a>Onderwerp & feedback
 
 AI biedt voortdurend suggesties voor het verbeteren van uw onderwerpen wanneer er wijzigingen worden aangebracht in uw omgeving.
 
-Gebruikers die u toegang wilt geven tot de onderwerpen op hun dagelijkse werk, kunnen suggesties doen om ze te verbeteren. Als een gebruiker bijvoorbeeld de onderwerpenpagina weergeeft en informatie ziet die niet klopt of die moet worden toegevoegd, kunt u met een koppeling op de onderwerpenpagina een aanvraag indienen om de informatie bij te werken.
+Gebruikers die u toegang wilt geven tot de onderwerpen op hun dagelijkse werk, kunnen suggesties doen om ze te verbeteren. Als een gebruiker bijvoorbeeld de onderwerpenpagina weergeeft en informatie ziet die niet klopt of die moet worden toegevoegd, kunt u de gegevens rechtstreeks bewerken via een koppeling op de onderwerpenpagina. Een ander voorbeeld: als een gebruiker een markering op een SharePoint-nieuwspagina bekijkt, vindt u vragen die aangeven of het gemarkeerd is voor uw organisatie. Met uw antwoord wordt bepaald wat er wordt weergegeven in de overzichts overzichten en de details van het onderwerp.
 
-Daarnaast kunnen gebruikers met de juiste machtigingen items markeren zoals teams-gesprek dat relevant is voor een onderwerp en ze aan een specifiek onderwerp toevoegen.
-
-
+Daarnaast kunnen gebruikers met de juiste machtigingen items markeren zoals een Yammer-gesprek dat relevant is voor een onderwerp en ze aan een specifiek onderwerp toevoegen. <!--(msg for Efren: changed to Yammer, because we will not have shipped Teams yet)-->
 
 
 ## <a name="see-also"></a>Zie ook

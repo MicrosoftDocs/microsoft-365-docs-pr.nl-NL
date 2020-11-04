@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365-oplossings- en architectuurcentrum
-description: Krijg de technische richtlijnen die u nodig hebt om geïntegreerde Microsoft 365-oplossingen te begrijpen, te plannen en te implementeren voor veilige en compatibele moderne samenwerking.
+description: Technische richtlijnen voor het begrijpen, plannen en implementeren van geïntegreerde Microsoft 365-oplossingen voor de planning van ondernemingen en de veilig werken.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -12,29 +12,29 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 1f9d2d1a8a1c346214fa58f0f6095683bee0b24f
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 61947c940a5079574954344ab72d86594ac3ba48
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46520967"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906201"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossings- en architectuurcentrum
 
-Dit oplossings- en architectuurcentrum brengt de technische richtlijnen samen die u nodig hebt om geïntegreerde Microsoft 365-oplossingen te begrijpen, te plannen en te implementeren voor veilige en compatibele moderne samenwerking. In dit centrum vindt u:
+Deze oplossing en architectuur centrum bieden de technische richtlijnen die u nodig hebt om geïntegreerde Microsoft 365-oplossingen voor Enterprise resource planning te leren kennen en de veilig en compliante samenwerking te implementeren. In dit centrum vindt u:
 
-![blokkeert ](https://docs.microsoft.com/office/media/icons/blocks-blue.png) **[foundational solution guidance](foundation-solutions-overview.md)** Deze oplossingen bieden een volledige leidraad voor een specifiek zakelijk probleem of behoefte. Zij begeleiden u door concepten en functies en helpen u bij het maken van de keuzes die leiden tot een goed functionerend eindresultaat, van planning tot implementatie, tot adoptie. 
+![onze ](https://docs.microsoft.com/office/media/icons/blocks-blue.png) oplossingen bieden **[ondersteuning voor Foundation](foundation-solutions-overview.md)**  -oplossingen deze oplossingen bieden een volledige richtlijnen voor een specifiek zakelijk probleem of behoefte. De persoon die u begeleidt u door concepten en functies en helpt u bij het maken van de keuzes die tot een functionerend eindresultaat leiden, van het plannen van de implementatie tot de aanneming. 
 
 - [Externe werknemers mogelijkheden bieden met Microsoft 365](empower-people-to-work-remotely.md)
 - [Veilige samenwerking met Microsoft 365 instellen](setup-secure-collaboration-with-teams.md)
 - [Bedreigingsbeveiliging implementeren in Microsoft 365](deploy-threat-protection.md)
 - [Informatiebescherming implementeren voor gegevensprivacyregels](information-protection-deploy.md)
 
-![objecten ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **[Workloadoplossing en scenariobegeleiding](workload-solutions-scenarios-overview.md)** Met deze scenario's en oplossingen u een specifieke bedrijfsdoelstelling bereiken. U ze toevoegen aan de fundamentele oplossingen om mogelijkheden toe te voegen aan uw omgeving.
+![oplossing van objecten ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **[oplossing en scenario richtlijnen](workload-solutions-scenarios-overview.md)**  deze scenario's en oplossingen helpen u bij het uitvoeren van een specifieke bedrijfs doelstelling. U kunt ze toevoegen aan de Foundation-oplossingen om functies toe te voegen aan uw omgeving.
 
-![Cloud- en liniaalsymbolen ](https://docs.microsoft.com/office/media/icons/cloud-architecture2.png) **[Oplossings- en architectuurillustraties](productivity-illustrations.md)** Bekijk of download deze illustraties om inzicht te krijgen in de mogelijkheden van Microsoft 365 en de architectuur van de cloudservices van Microsoft 365.
+![](https://docs.microsoft.com/office/media/icons/cloud-architecture2.png) **[Oplossingen voor oplossingen en architecturen voor de oplossing en de liniaal met oplossingen en architecturen](productivity-illustrations.md)** voor Microsoft 365 de mogelijkheden en de architectuur van de cloudservices van Microsoft 365.
 
-![Best practices lint ](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **[Branchespecifieke richtlijnen](industry-specific-guidance-overview.md)** Vind best practices voor uw branche : financiën, gezondheidszorg en onderwijs.
+![](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **[Richtlijnen voor de branchespecifieke richtlijnen met betrekking](industry-specific-guidance-overview.md)** tot de branchespecifieke richtlijnen voor uw bedrijfstak, financiering, gezondheidszorg en onderwijs.
 
-![Lay-out/navigatiesymbool ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[Ontwerpprincipes](design-principles.md)** Begrijp de belangrijkste principes die u nodig hebt om netwerken, identiteit, beveiliging en multinationale architecturen te begrijpen.
+![Ontwerp beginselen van indeling/navigatie symbool ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[Design principles](design-principles.md)** informatie over de belangrijkste beginselen die u nodig hebt om te begrijpen hoe u netwerk, identiteit, beveiliging en multicore-architecturen begrijpt.
 

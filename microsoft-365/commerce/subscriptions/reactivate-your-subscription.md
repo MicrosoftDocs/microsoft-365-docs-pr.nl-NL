@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
-description: Meer informatie over het opnieuw activeren van uw abonnement wanneer het verloopt of als Microsoft het in het midden opheft.
-ms.openlocfilehash: cbd5fbc5bd6423f6583701682e63ed93206b562e
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+description: Meer informatie over het opnieuw activeren van uw abonnement als dit is verlopen, is uitgeschakeld of geannuleerd.
+ms.openlocfilehash: 36d82699f6eb0c1cd4a1c404d7b030a865111d03
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324290"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906773"
 ---
 # <a name="reactivate-your-subscription"></a>Uw abonnement opnieuw activeren
 
@@ -38,7 +38,7 @@ ms.locfileid: "47324290"
 
 ::: moniker-end
 
-Als uw abonnement is verlopen, is uitgeschakeld door Microsoft of als u het midden in een abonnementsperiode hebt geannuleerd, kunt u het opnieuw activeren in het Beheercentrum.
+U kunt uw abonnement opnieuw activeren in het Beheercentrum als: het abonnement is verlopen, is uitgeschakeld door Microsoft of als u het midden in een abonnementsperiode hebt geannuleerd.
   
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -52,9 +52,9 @@ U moet een globale beheerder of Factureringsbeheerder zijn om een abonnement opn
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 2. Ga naar het tabblad **Products** en zoek het abonnement dat u opnieuw wilt activeren. Selecteer **meer acties** (drie puntjes) en selecteer vervolgens **opnieuw activering van dit abonnement**. \
-    [Neem contact op met de ondersteuning](../../admin/contact-support-for-business-products.md)als u **het abonnement opnieuw activeren**niet ziet.
+    [Neem contact op met de ondersteuning](../../admin/contact-support-for-business-products.md)als u **het abonnement opnieuw activeren** niet ziet.
 3. Selecteer in het deelvenster **dit abonnement opnieuw activeren** een betalingswijze in de vervolgkeuzelijst of selecteer **betalingsmethode toevoegen**.
-4. Kies **Opslaan**.
+4. Klik op **Opslaan**.
 
 ::: moniker-end
 
@@ -75,7 +75,7 @@ U moet een globale beheerder of Factureringsbeheerder zijn om een abonnement opn
    > [!NOTE]
    > De mogelijkheid om te betalen via een bankrekening is niet beschikbaar in sommige landen of regio's.
   
-   Als uw abonnement is geannuleerd of is uitgeschakeld omdat een betaling niet is ontvangen, keert dit terug naar een actieve provincie en blijft uw **volgende factuur** datum ongewijzigd.
+   Als uw abonnement is geannuleerd of als dit is uitgeschakeld omdat een betaling niet is ontvangen, keert dit terug naar een actieve provincie en blijft uw **volgende factuur** datum ongewijzigd.
 
 ::: moniker-end
 
@@ -91,12 +91,12 @@ U moet een globale beheerder of Factureringsbeheerder zijn om een abonnement opn
 
 3. Voer uw betalingsgegevens in. U kunt uw bestaande betalingsgegevens hier bijwerken.
 
-   Als uw abonnement is verlopen en u daarna uw betaalgegevens hebt verzonden, wordt de status van uw abonnement teruggezet naar een actieve staat en wordt de **volgende factuur** datum op een maand of één jaar weergegeven, afhankelijk van uw huidige abonnements verbintenis. Als u met een creditcard of via een bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, wordt de toestel weergegeven op uw volgende factuur. Als u er zeker van wilt zijn dat uw abonnement niet opnieuw verloopt, kunt u [terugkerende facturering inschakelen](renew-your-subscription.md#turn-recurring-billing-off-or-on).
+   Als uw abonnement is verlopen en u daarna uw betaalgegevens hebt verzonden, wordt de status van uw abonnement teruggezet naar een actieve staat en wordt de **volgende factuur** datum op een maand of één jaar weergegeven, afhankelijk van uw huidige abonnements verbintenis. Als u met een creditcard of via een bankrekening betaalt, wordt uw creditcard of bankrekening in rekening gebracht voor de verlenging. Als u per factuur betaalt, wordt de toestel weergegeven op uw volgende factuur. Als u er zeker van wilt zijn dat uw abonnement niet opnieuw verloopt, [schakelt u periodieke facturering in](renew-your-subscription.md#turn-recurring-billing-off-or-on).
 
    > [!NOTE]
    > De mogelijkheid om te betalen via een bankrekening is niet beschikbaar in sommige landen of regio's.
   
-   Als uw abonnement is geannuleerd of is uitgeschakeld omdat een betaling niet is ontvangen, keert dit terug naar een actieve provincie en blijft uw **volgende factuur** datum ongewijzigd.
+   Als uw abonnement is geannuleerd of als dit is uitgeschakeld omdat een betaling niet is ontvangen, keert dit terug naar een actieve provincie en blijft uw **volgende factuur** datum ongewijzigd.
 
 ::: moniker-end
 
