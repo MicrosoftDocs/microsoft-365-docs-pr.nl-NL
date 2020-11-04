@@ -11,14 +11,14 @@ ms.collection:
 - M365-security-compliance
 ms.prod: microsoft-365-enterprise
 localization_priority: Priority
-description: Ontdek hoe Microsoft 365 energiebedrijven helpt bij de overstap naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving
-ms.custom: ''
-ms.openlocfilehash: 67cdf4d0bd037f71f3e483097152ce8baeedd396
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Microsoft 365 helpt energiebedrijven bij de overstap naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving.
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 0fedb042d01814ef6cd53e9271f93b3c80b6babe
+ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843562"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48906225"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor de energiesector
 ![De illustratie is een metafoor voor een wereldwijd perspectief van diverse industrieën die de cloud gebruiken](../media/solution-arch-center/MSC17_global_016.png)
