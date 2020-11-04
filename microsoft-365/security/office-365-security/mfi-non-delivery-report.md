@@ -2,7 +2,7 @@
 title: Rapport over niet-uitgevoerde bezorging van het dashboard voor e-mail stroom
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van het rapport over niet-uitgevoerde bezorgings gegevens in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum voor het bewaken van de meest voorkomende foutcodes in rapporten over niet-uitgevoerde bezorging (ook wel Ndr's of stuiteren) van afzenders in uw organisatie.
-ms.openlocfilehash: bc530cce54b3d4fd9f414920a8fb58f4322f6b5c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4967b3b5c294566e46bbc715dd6702c23d618105
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195962"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877679"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>Rapport over niet-uitgevoerde bezorging van de beveiligings & nalevings centrum
 
@@ -33,7 +33,7 @@ Het **rapport over niet-** uitgevoerde bezorging van het [Dashboard voor e-mail 
 
 Door te klikken op de widget **niet-bezorgingsrapport** gaat u naar het **rapport niet-** uitgevoerde bezorging.
 
-Standaard wordt de activiteit voor alle foutcodes weergegeven. Als u op **gegevens weergeven**klikt, kunt u een specifieke foutcode selecteren in de vervolgkeuzelijst.
+Standaard wordt de activiteit voor alle foutcodes weergegeven. Als u op **gegevens weergeven** klikt, kunt u een specifieke foutcode selecteren in de vervolgkeuzelijst.
 
 Als u een bepaalde kleur (foutcode) op een specifieke dag van de grafiek aanwijst, ziet u het totale aantal berichten voor de fout.
 
@@ -43,10 +43,10 @@ Als u een bepaalde kleur (foutcode) op een specifieke dag van de grafiek aanwijs
 
 Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
 
-- **Einddatum**
+- **Datum**
 - **Rapportcode niet-uitgevoerde bezorging**
 - **Getal**
-- **Voorbeeldberichten**: de bericht-id's van een voorbeeld van de betreffende berichten.
+- **Voorbeeldberichten** : de bericht-id's van een voorbeeld van de betreffende berichten.
 
 Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
 
@@ -54,10 +54,10 @@ Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden
 
 Wanneer u een rij in de tabel selecteert, wordt een flyout met de volgende informatie weergegeven:
 
-- **Einddatum**
+- **Datum**
 - **Rapportcode voor niet-** uitgevoerde bezorging: u kunt op de link klikken voor meer informatie over de oorzaken en oplossingen voor de specifieke foutcode.
 - **Getal**
-- **Voorbeeldberichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de betreffende berichten.
+- **Voorbeeldberichten** : u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de betreffende berichten.
 
 ![Info-flyout na het selecteren van een rij in de tabel Details in het rapport niet-uitgevoerde bezorging](../../media/mfi-non-delivery-report-details-flyout.png)
 

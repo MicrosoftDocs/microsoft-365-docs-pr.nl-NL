@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f681d02cc4af8bd56ba945a3d944798e545bf93c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4369d51ed740af652be632ba0b8752c708d6c719
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846710"
+ms.locfileid: "48877217"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Incidenten prioriteren in Microsoft 365 Defender
 
@@ -46,44 +46,29 @@ In de **wachtrij incidenten** wordt een verzameling incidenten weergegeven die z
 
 ![Afbeelding van een wachtrij voor incidenten](../../media/incidents-queue.png) 
 
-Standaard worden in de wachtrij in het Microsoft 365-Beveiligingscentrum de incidenten weergegeven die in de afgelopen 30 dagen worden weergegeven, met het meest recente incident dat bovenaan de lijst wordt weergegeven, zodat u eerst de meest recente aanvragen kunt zien.
+Standaard worden in de wachtrij in het Microsoft 365-Beveiligingscentrum de incidenten weergegeven die in de afgelopen 30 dagen zijn weergegeven. Het nieuwste incident staat boven aan de lijst, zodat u het eerst kunt zien.
 
-In de wachtrij voor incidenten worden aanpasbare kolommen gemaakt waarmee u inzicht krijgt in verschillende kenmerken van het incident of de opgenomen entiteiten, zodat u een weloverwogen beslissing moet nemen over de prioriteit van incidenten.
+In de wachtrij voor incidenten worden aanpasbare kolommen getoond die u inzicht geven in verschillende kenmerken van het incident of de opgenomen entiteiten. Dit helpt u bij het maken van een weloverwogen beslissing met betrekking tot de prioriteit van incidenten.
 
-Voor meer inzicht in één oogopslag worden namen van geadresseerden automatisch de naam van een incident gegenereerd op basis van waarschuwings kenmerken, zoals het aantal desbetreffende eindpunten, gebruikers die worden getroffen, detectie bronnen of categorieën. Zo kunt u snel inzicht krijgen in de reikwijdte van het incident.
+Voor een extra detectie in één oogopslag worden de namen van de incidenten gegenereerd op basis van waarschuwings kenmerken, zoals het aantal desbetreffende eindpunten, gebruikers die worden getroffen, detectie bronnen of categorieën. Zo kunt u snel inzicht krijgen in de reikwijdte van het incident.
 
 Voorbeeld: een *incident van meerdere stappen op meerdere eindpunten, gerapporteerd door meerdere bronnen.*
 
 > [!NOTE]
 > Voor incidenten die bestonden vóór de implementatie van de naam van het automatische incident, is de naam niet gewijzigd.
 
-In de wachtrij voor incidenten worden ook meerdere filteropties getoond die u kunt gebruiken om ervoor te zorgen dat al uw bestaande incidenten in uw omgeving meerdere keren worden opruimen of dat u zich kunt richten op een specifiek scenario of bedreiging. Door filters toe te passen op de incident wachtrij, kunt u bepalen welk incident directe aandacht vereist. 
+In de wachtrij voor incidenten worden ook meerdere filteropties getoond die u kunt toepassen, zodat u een breed opruimen kunt maken van alle bestaande incidenten in uw omgeving, of als u de focus wilt verplaatsen naar een specifiek scenario of bedreiging. Door filters toe te passen op de incident wachtrij, kunt u bepalen welk incident directe aandacht vereist. 
 
 ## <a name="available-filters"></a>Beschikbare filters
 
-### <a name="status"></a>Status
-U kunt ervoor kiezen de lijst te beperken van de namen die worden weergegeven op basis van hun status, zodat u kunt zien welke gebeurtenissen actief zijn of worden opgelost.
-
-### <a name="severity"></a>Ernst
-De ernst van een incident is van invloed op de invloed die dit kan hebben op uw activa. Hoe hoger de ernst, hoe groter de impact en is meestal de enige directe aandacht. 
-
-### <a name="assigned-to-owner"></a>Toegewezen aan (eigenaar)
-Als u de lijst wilt filteren, selecteert u de gewenste optie voor iedereen of degene die aan u is toegewezen.
-
-### <a name="multiple-alerts"></a>Meerdere meldingen 
-Filteren om alleen aanvragen weer te geven die meer dan één waarschuwing bevatten. Dit kan een aanwijzing zijn voor een aanval met een complexere of een afgang van de werk keten. 
-
-
-### <a name="multiple-service-sources"></a>Meerdere servicebronnen 
-Filteren om alleen incidenten weer te geven die waarschuwingen uit verschillende bronnen bevatten (Microsoft Defender for Endpoint, Microsoft Cloud app Security, Microsoft Defender for Identity, Microsoft Defender voor Office 365)
-### <a name="service-sources"></a>Service bronnen
-Als u een specifieke bron kiest, kunt u zich richten op incidenten met minstens één waarschuwing van de gekozen bron. 
-
-### <a name="multiple-categories"></a>Meerdere categorieën 
-U kunt ervoor kiezen om alleen aanvragen weer te geven die zijn toegewezen aan meerdere categorieën van de Kill-chain en hierdoor meer schade kan veroorzaken. 
+### <a name="assigned-to"></a>Toegewezen aan
+U kunt ervoor kiezen om waarschuwingen weer te geven die aan u zijn toegewezen of die zijn afgehandeld door automatisering.
 
 ### <a name="categories"></a>Categorieën
-Kies specifieke categorieën om te focussen op een specifieke stap in de keten afbreken
+Kies categorieën om te focussen op specifieke tactiek, technieken of onderdelen van een aanval. 
+
+### <a name="classification"></a>Contactpersoonclassificatie
+Filter incidenten op basis van de ingestelde classificaties van de gerelateerde waarschuwingen. De waarden bestaan uit echte waarschuwingen, onjuiste waarschuwingen of niet ingesteld.
 
 ### <a name="data-sensitivity"></a>Gegevens gevoeligheid
 Sommige aanvallen richten op het bereiken van exfiltrate gevoelige of waardevolle gegevens. Door een filter toe te passen om te zien of de gevoelige gegevens bij het incident passen, kunt u snel vaststellen of gevoelige informatie al mogelijk is aangetast en de prioriteit van die incidenten bepalen.
@@ -91,13 +76,40 @@ Sommige aanvallen richten op het bereiken van exfiltrate gevoelige of waardevoll
 >[!NOTE]
 >Alleen van toepassing als Microsoft-informatiebeveiliging is ingeschakeld.
 
+### <a name="device-group"></a>Apparaten groep
+Filteren op gedefinieerde apparaatgroepen.
+
+### <a name="investigation-state"></a>Onderzoek status
+Filteren op incidenten met de status van een geautomatiseerd onderzoek. 
+
+### <a name="multiple-categories"></a>Meerdere categorieën 
+U kunt ervoor kiezen om alleen aanvragen weer te geven die zijn toegewezen aan meerdere categorieën en daarom mogelijk meer schade kunnen veroorzaken. 
+
+### <a name="multiple-service-sources"></a>Meerdere servicebronnen 
+Filteren om alleen incidenten weer te geven die waarschuwingen van verschillende bronnen bevatten (Microsoft Defender for Endpoint, Microsoft Cloud app Security, Microsoft Defender for Identity, Microsoft Defender voor Office 365).
+
+### <a name="os-platform"></a>Platform van OS
+De weergave van de incidenten wachtrij beperken met besturingssysteem.
+
+### <a name="service-sources"></a>Service bronnen
+Als u een specifieke bron kiest, kunt u zich richten op incidenten met minstens één waarschuwing van de gekozen bron. 
+
+### <a name="severity"></a>Ernst
+De ernst van een incident is een indicatie van de invloed die op uw tegoed kan worden beïnvloed. Hoe hoger de ernst, wat groter de gevolgen en is meestal de enige directe aandacht. 
+
+### <a name="status"></a>Status
+U kunt ervoor kiezen de lijst te beperken van de namen die worden weergegeven op basis van hun status, zodat u kunt zien welke gebeurtenissen actief zijn of worden opgelost.
+
+>[!IMPORTANT]
+>De filters categorie, apparaat, onderzoek en OS platform zijn momenteel alleen beschikbaar in de openbare preview-versie.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Nadat u hebt vastgesteld voor welk incident de hoogste prioriteit is vereist, kunt u doorgaan met het verdere onderzoek verder werken aan een incident.
 - [Incidenten onderzoeken](investigate-incidents.md)
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten](incidents-overview.md)
 - [Incidenten onderzoeken](investigate-incidents.md)
 - [Incidenten beheren](manage-incidents.md)

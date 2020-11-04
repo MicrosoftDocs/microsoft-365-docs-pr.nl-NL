@@ -2,7 +2,7 @@
 title: Inzicht in automatisch doorgestuurde berichten
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Beheerders kunnen informatie vinden over het rapport met automatisch doorgestuurde berichten in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum.
-ms.openlocfilehash: d4b772e6392e0af22e6bed475970f637ed03dcb1
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: 01a094b8531672708fc024e8ed0c5833786dbb0c
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245945"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877787"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Berichten met automatisch doorgestuurde inzichten in het beveiligings & nalevings centrum
 
@@ -31,14 +31,14 @@ Met de **automatisch doorgestuurde berichten** in het [Dashboard voor e-mail str
 
 Wanneer u op het aantal berichten in het object klikt, wordt er een flyout weergegeven met meer informatie over de automatisch doorgestuurde berichten:
 
-- **Berichten automatisch doorsturen met behulp van doorstuur methoden**:
+- **Berichten automatisch doorsturen met behulp van doorstuur methoden** :
 
   - **Door een e-mail stroom regel**
   - **Door regels voor Postvak in**
-  - **Door het doorsturen van SMTP**: dit is automatisch doorsturen die beheerders kunnen configureren in een postvak zoals beschreven in het [doorsturen van e-mail voor een postvak configureren](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
+  - **Door het doorsturen van SMTP** : dit is automatisch doorsturen die beheerders kunnen configureren in een postvak zoals beschreven in het [doorsturen van e-mail voor een postvak configureren](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
   - Een koppeling naar het [doorstuur rapport](view-mail-flow-reports.md#forwarding-report) voor meer informatie.
 
-- **Berichten automatisch doorsturen en door domeinen en gebruikers**:
+- **Berichten automatisch doorsturen en door domeinen en gebruikers** :
 
   - **Vijf belangrijkste domeinen doorgestuurd naar**
   - **Nieuwe domeinen (vorige week)**

@@ -2,7 +2,7 @@
 title: Berichten handmatig bij Microsoft indienen voor analyse
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders en eindgebruikers kunnen zien hoe u e-mailberichten (goede e-mailberichten die zijn gemarkeerd als beschadigd of niet toegestaan) in Microsoft voor analyse.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6673dc7e7ac263ea9f734c002d0ffac410fadc07
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 68a0921f85e5b916cd53ebe84e4ea7d35e39967e
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202195"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877703"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Berichten handmatig bij Microsoft indienen voor analyse
 
@@ -48,9 +48,9 @@ Als u een bericht ontvangt dat via spam filtert dat als spam of phishing werd he
 
 1. Maak een nieuw, leeg e-mailbericht met een van de volgende geadresseerden:
 
-   - **Ongewenste e-mail**: `junk@office365.microsoft.com`
+   - **Ongewenste e-mail** : `junk@office365.microsoft.com`
 
-   - **Phishing**: `phish@office365.microsoft.com`
+   - **Phishing** : `phish@office365.microsoft.com`
 
 2. Sleep de ongewenste e-mail of het bericht naar het nieuwe bericht. Hierdoor wordt het ongewenste e-mailbericht of het bericht opgeslagen als een bijlage in het nieuwe bericht. Kopieer en plak de inhoud van het bericht niet of stuur het bericht door (we hebben het oorspronkelijke bericht nodig, zodat we de berichtkoppen kunnen controleren).
 

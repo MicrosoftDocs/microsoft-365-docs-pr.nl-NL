@@ -2,7 +2,7 @@
 title: Inzicht in wachtrijen in het dashboard voor e-mail stromen
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Beheerders kunnen informatie over het gebruik van de widget wachtrijen in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum om de niet-geslaagde e-mail stroom te controleren aan hun on-premises of partnerorganisaties via uitgaande connectoren.
-ms.openlocfilehash: 3291a21828215d0a2a99c2226147bb1b748b8469
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: e6935793cd04c6072784cd20b55649126864c369
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199287"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877571"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Inzicht in wachtrijen in het beveiligings & nalevings centrum
 
@@ -34,7 +34,7 @@ Als het e-mail volume in de wachtrij de vooraf gedefinieerde drempelwaarde overs
 
 - De **wachtrijen** zijn te zien in het [Dashboard voor de e-mail stroom](mail-flow-insights-v2.md) van het [beveiligings & nalevings centrum](https://protection.office.com). Zie voor meer informatie de [wachtrijen inzichtelijk in de sectie e-mail stroom dashboard](#queues-insight-in-the-mail-flow-dashboard) in dit onderwerp.
   
-- Er wordt een waarschuwing weergegeven bij **recente meldingen** het dashboard waarschuwingen in het [compliance-Beveiligingscentrum van beveiligings &](https://protection.office.com) (**waarschuwingen** \> **Dashboard** of <https://protection.office.com/alertsdashboard> ).
+- Er wordt een waarschuwing weergegeven bij **recente meldingen** het dashboard waarschuwingen in het [compliance-Beveiligingscentrum van beveiligings &](https://protection.office.com) ( **waarschuwingen** \> **Dashboard** of <https://protection.office.com/alertsdashboard> ).
 
   ![Recente waarschuwingen in het meldingen dashboard in het nalevings centrum voor beveiliging &](../../media/mfi-queued-messages-alert.png)
 
@@ -52,16 +52,16 @@ Als het e-mail volume in de wachtrij de vooraf gedefinieerde drempelwaarde overs
 
    ![Berichten hebben een vertragings beleid voor de beveiliging & nalevings centrum](../../media/mfi-queued-messages-alert-policy.png)
 
-   - **Status**: u kunt de melding in-of uitschakelen.
+   - **Status** : u kunt de melding in-of uitschakelen.
 
    - Geadresseerden en **meldingen** **per E-mail ontvangen** : Klik op **bewerken** om de volgende instellingen te configureren:
 
-4. Klik op **bewerken**om de instellingen voor meldingen te configureren. Configureer de volgende instellingen in de flyout **beleidsregels bewerken** die wordt weergegeven:
+4. Klik op **bewerken** om de instellingen voor meldingen te configureren. Configureer de volgende instellingen in de flyout **beleidsregels bewerken** die wordt weergegeven:
 
-   - **E-mail meldingen verzenden**: de standaardwaarde is ingeschakeld.
-   - **Geadresseerden voor e-mail**: de standaardwaarde is **TenantAdmins**.
-   - **Dagelijkse meldings limiet**: de standaardwaarde is **geen limiet**.
-   - **Drempel**waarde: de standaardwaarde is 200.
+   - **E-mail meldingen verzenden** : de standaardwaarde is ingeschakeld.
+   - **Geadresseerden voor e-mail** : de standaardwaarde is **TenantAdmins**.
+   - **Dagelijkse meldings limiet** : de standaardwaarde is **geen limiet**.
+   - **Drempel** waarde: de standaardwaarde is 200.
 
    ![De instellingen voor meldingen in de berichten hebben een vertragings beleid voor de beveiliging & nalevings centrum](../../media/mfi-queued-messages-alert-policy-notification-settings.png)
 
@@ -76,13 +76,13 @@ Ook als het volume van de wachtrij niet de drempelwaarde heeft overschreden en e
 Als u op het aantal berichten in het object klikt, wordt een flyout met de berichten in de **wachtrij** weergegeven met de volgende informatie:
 
 - **Aantal berichten in de wachtrij**
-- **Naam connector**: Klik op de naam van de verbindingslijn om de connector te beheren in het Exchange-Beheercentrum.
+- **Naam connector** : Klik op de naam van de verbindingslijn om de connector te beheren in het Exchange-Beheercentrum.
 - **Begintijd wachtrij**
 - **Oudste berichten verlopen**
 - **Doelserver**
 - **Laatste IP-adres**
 - **Laatste fout**
-- **Oplossing**: er zijn veelvoorkomende problemen en oplossingen beschikbaar. Als de koppeling **nu repareren** beschikbaar is, klikt u erop om het probleem op te lossen. U kunt ook op een van de beschikbare koppelingen klikken voor meer informatie over de fout en mogelijke oplossingen.
+- **Oplossing** : er zijn veelvoorkomende problemen en oplossingen beschikbaar. Als de koppeling **nu repareren** beschikbaar is, klikt u erop om het probleem op te lossen. U kunt ook op een van de beschikbare koppelingen klikken voor meer informatie over de fout en mogelijke oplossingen.
 
 ![Meer informatie over het klikken op de wachtrijen in het dashboard voor e-mail stroom](../../media/mfi-queues-details.png)
 

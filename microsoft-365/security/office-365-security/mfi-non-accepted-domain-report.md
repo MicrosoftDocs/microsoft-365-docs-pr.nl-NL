@@ -2,7 +2,7 @@
 title: Rapport over niet-geaccepteerd domein in het dashboard voor de e-mail stroom
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u het niet-geaccepteerde domein rapport gebruikt in het dashboard voor e-mail stromen in de beveiligings & nalevings centrum voor het bewaken van berichten van uw on-premises organisatie waarbij het domein van de afzender niet is geconfigureerd in Microsoft 365.
-ms.openlocfilehash: d05489ec4a6d670fc89b5d943b3e7061506b6fe8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 06acacb79c826cb465b3fd28086a7df9d64eabdc
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199323"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877715"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Rapport over niet-geaccepteerd domein in de beveiligings & nalevings centrum
 
@@ -35,7 +35,7 @@ In Microsoft 365 kunnen deze berichten worden beperkt als we gegevens hebben om 
 
 Door te klikken op het diagram in het **niet-geaccepteerde domein** object, gaat u naar het rapport **niet-geaccepteerd domein** .
 
-Standaard wordt de activiteit voor alle desbetreffende verbindingslijnen weergegeven. Als u op **gegevens weergeven**klikt, kunt u een specifieke verbindingslijn selecteren in de vervolgkeuzelijst.
+Standaard wordt de activiteit voor alle desbetreffende verbindingslijnen weergegeven. Als u op **gegevens weergeven** klikt, kunt u een specifieke verbindingslijn selecteren in de vervolgkeuzelijst.
 
 Als u de muisaanwijzer over een gegevenspunt (dag) van de grafiek houdt, ziet u het totale aantal berichten voor de verbindingslijn.
 
@@ -45,11 +45,11 @@ Als u de muisaanwijzer over een gegevenspunt (dag) van de grafiek houdt, ziet u 
 
 Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
 
-- **Einddatum**
+- **Datum**
 - **Naam van inkomende connector**
 - **Afzenderdomein**
 - **Aantal berichten**
-- **Voorbeeldberichten**: de bericht-id's van een voorbeeld van de betreffende berichten.
+- **Voorbeeldberichten** : de bericht-id's van een voorbeeld van de betreffende berichten.
 
 Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
 
@@ -57,11 +57,11 @@ Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden
 
 Wanneer u een rij in de tabel selecteert, wordt een flyout met de volgende informatie weergegeven:
 
-- **Einddatum**
+- **Datum**
 - **Naam van inkomende connector**
 - **Afzenderdomein**
 - **Aantal berichten**
-- **Voorbeeldberichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de betreffende berichten.
+- **Voorbeeldberichten** : u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de betreffende berichten.
 
 ![Info-flyout na het selecteren van een rij in de weergave Details van een niet-geaccepteerd domein rapport](../../media/mfi-non-accepted-domain-report-details-flyout.png)
 

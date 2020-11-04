@@ -2,7 +2,7 @@
 title: Inzicht in nieuwe gebruikers die e-mails doorsturen
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen informatie over het gebruik van de nieuwe gebruikers die e-mail inzicht doorsturen in het beveiligings & Conformiteitscentrum gebruiken om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar nieuwe domeinen.
-ms.openlocfilehash: 42f8c536f8a8a1421d97726c7af432c01d053b05
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: af66a84efbd4c0b8f1ccdacf4b71d1caca1c3929
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200653"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877523"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Nieuwe gebruikers die e-mail inzicht doorsturen in de beveiligings & nalevings centrum
 
@@ -35,7 +35,7 @@ Wanneer u op de widget klikt, verschijnt er een flyout waar u meer informatie ku
 
 ![Info-menu dat wordt weergegeven nadat u hebt geklikt op de nieuwe gebruikers e-mail doorsturen](../../media/mfi-new-users-forwarding-email-details.png)
 
-U kunt deze detailpagina ook raadplegen wanneer u het inzicht selecteert nadat u op **AllesWeergeven** hebt geklikt in het gebied **belangrijkste inzichten &** gebied voor aanbevelingen (**Reports** \> **Dashboard** rapporten of <https://protection.office.com/insightdashboard> ).
+U kunt deze detailpagina ook raadplegen wanneer u het inzicht selecteert nadat u op **AllesWeergeven** hebt geklikt in het gebied **belangrijkste inzichten &** gebied voor aanbevelingen ( **Reports** \> **Dashboard** rapporten of <https://protection.office.com/insightdashboard> ).
 
 U kunt klikken op de koppeling **Zie het rapport dat is gekoppeld** aan de Insight-koppeling om naar het **rapport met doorstuur wijzigingen** te gaan, zoals in de volgende sectie is beschreven.
 
@@ -59,11 +59,11 @@ Dit rapport is niet rechtstreeks beschikbaar in het dash [Board voor e-mail stro
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens weergeven voor: nieuwe doorstuur gebruikers**:
+- **Gegevens weergeven voor: nieuwe doorstuur gebruikers** :
 
   ![Nieuwe weergave voor het doorsturen van gebruikers in het rapport met doorgestuurde wijzigingen](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
-- **Gegevens weergeven voor: nieuwe forwarding domains**:
+- **Gegevens weergeven voor: nieuwe forwarding domains** :
 
   ![Nieuwe weergave van doorgestuurd domein in het rapport voor het doorsturen van wijzigingen](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
@@ -71,20 +71,20 @@ Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeve
 
 ### <a name="details-table-view-for-the-forwarding-modifications-report"></a>De tabel weergave Details voor het rapport met wijzigingen doorsturen
 
-Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
+Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
 
-- **Gegevens weergeven voor: nieuwe doorstuur gebruikers**:
+- **Gegevens weergeven voor: nieuwe doorstuur gebruikers** :
 
-  - **Naam**: het e-mailadres van de afzender.
+  - **Naam** : het e-mailadres van de afzender.
   - **Type forwarding**
   - **Adres van ontvanger**
   - **Details**
   - **Getal**
   - **Eerste doorstuur datum**
 
-- **Gegevens weergeven voor: nieuwe forwarding domains**:
+- **Gegevens weergeven voor: nieuwe forwarding domains** :
 
-  - **Naam**: het e-mail domein van de afzender.
+  - **Naam** : het e-mail domein van de afzender.
   - **Type forwarding**
   - **Adres van ontvanger**
   - **Details**
@@ -95,13 +95,13 @@ Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datum
 
 Als u een rij in de tabel selecteert, wordt een flyout met **Details** weergegeven met de volgende informatie:
 
-- **Naam**: dit is het e-mailadres van de afzender (van **gegevens weergeven voor: nieuwe weergave voor doorstuur gebruikers** ) of het e-mail domein van de afzender (van **gegevens weergeven voor: nieuwe weergave met forwarding domains** ).
+- **Naam** : dit is het e-mailadres van de afzender (van **gegevens weergeven voor: nieuwe weergave voor doorstuur gebruikers** ) of het e-mail domein van de afzender (van **gegevens weergeven voor: nieuwe weergave met forwarding domains** ).
 - **Type forwarding**
 - **Ontvanger**
 - **Details**
 - **Getal**
 - **Begindatum**
-- **Aanbeveling**: van hieruit kunt u klikken op de koppeling voor het beheren van de gebruiker in het microsoft 365-Beheercentrum.
+- **Aanbeveling** : van hieruit kunt u klikken op de koppeling voor het beheren van de gebruiker in het microsoft 365-Beheercentrum.
 
 ![Flyout Details van de tabel Details van de nieuwe weergave voor het doorsturen van gebruikers in het rapport met doorgestuurde wijzigingen](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Bestaande Office 365-klanten moeten een aanvraag indienen vóór de deadline voor de deadline voor de datum waarop hun Microsoft 365-Services-gegevens zijn verplaatst naar hun nieuwe geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f8f25fcaf3e8beb59ca43ad260e2636cf0c4949
-ms.sourcegitcommit: d648356b27842e779921859480b1b405a1804c7c
+ms.openlocfilehash: b6ad699830389ef405b005bf8675a2bd0fb4f20b
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361937"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877253"
 ---
 # <a name="how-to-request-your-data-move"></a>De verplaatsing van uw gegevens aanvragen
 
@@ -44,14 +44,14 @@ In aanmerking komende Microsoft 365-klanten kunnen voor hun gehele organisatie d
 |Zuid-Afrika  <br/> |Woensdag 25 juli 2019  <br/> |30 juni 2020  <br/> |
 |Zwitserland, Liechtenstein  <br/> |Dinsdag 10 december 2019  <br/> |30 juni 2020  <br/> |
 |Noorwegen  <br/> |Woensdag 15 april 2020  <br/> |30 oktober 2020  <br/> |
-|Duitsland  <br/> |Overwogen  <br/> |Overwogen  <br/> |
+|Duitsland  <br/> |Woensdag 1 november 2020  <br/> |30 april 2021  <br/> |
 
 ## <a name="how-to-request-a-move"></a>Een overstap aanvragen
 
-In aanmerking komende klanten zien een pagina in het [Microsoft 365-Beheercentrum](https://aka.ms/365admin), zodat ze aanvragen de belangrijkste klantgegevens kunnen verplaatsen naar hun nieuwe datacenter regio.  
+In aanmerking komende klanten zien een pagina in het Microsoft 365-Beheercentrum, zodat ze aanvragen de belangrijkste klantgegevens kunnen verplaatsen naar hun nieuwe datacenter regio.  
   
-Als u de pagina wilt openen in het Microsoft 365-Beheercentrum, vouwt u in het navigatiedeelvenster links de optie **instellingen**uit en klikt u vervolgens op **instellingen voor organisatie**.
-Selecteer het profiel van de tab **-organisatie**en selecteer vervolgens de optie **gegevens woonplaats**.
+Als u de pagina wilt openen in het Microsoft 365-Beheercentrum, vouwt u in het navigatiedeelvenster links de optie **instellingen** uit en klikt u vervolgens op **instellingen voor organisatie**.
+Selecteer het profiel van de tab **-organisatie** en selecteer vervolgens de optie **gegevens woonplaats**.
   
 U krijgt deze sectie niet te zien als uw Tenant niet in aanmerking komt voor het Microsoft 365-verplaatsings programma.  Als uw organisatie de vereisten voor data-woonplaats heeft en u de migratie moet aanvragen, schakelt u het selectievakje in en selecteert u vervolgens **Opslaan**.
   

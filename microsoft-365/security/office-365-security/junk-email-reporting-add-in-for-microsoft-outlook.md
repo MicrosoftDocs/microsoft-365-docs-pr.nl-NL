@@ -2,7 +2,7 @@
 title: De invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook installeren en gebruiken
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Informatie over het installeren en gebruiken van de invoegtoepassing voor het rapporteren van ongewenste E-mail om spam, geen spam en phishing-berichten te rapporteren aan Microsoft.
-ms.openlocfilehash: 096bd83c53149360e6cdd3ba8e73aacce5b1106f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6e4c16ed8efd781a6e8ecea422fe55fb6723209c
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199683"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877547"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>De invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook installeren en gebruiken
 
@@ -33,7 +33,7 @@ Met de invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsof
 
 In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor het rapporteren van ongewenste E-mail installeert en gebruikt.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
 
 - Als u de invoegtoepassing voor het rapporteren van ongewenste E-mail wilt installeren, raadpleegt u de sectie [invoegtoepassing voor ongewenste E-mail installeren](#install-the-junk-email-reporting-add-in) verderop in dit onderwerp.
 
@@ -48,11 +48,11 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor het rapporteren 
 
 1. Voor berichten in het postvak in of een andere e-mailmap met uitzondering van ongewenste E-mail, gebruikt u een van de volgende methoden om spam en phishing-berichten te rapporteren:
 
-   - Selecteer het bericht of open het bericht. Klik op het lint op het tabblad **Start** of **bericht** op **ongewenste e-mail**en selecteer vervolgens **rapporteren als ongewenste e-mail** of **rapporteren als phishing**.
+   - Selecteer het bericht of open het bericht. Klik op het lint op het tabblad **Start** of **bericht** op **ongewenste e-mail** en selecteer vervolgens **rapporteren als ongewenste e-mail** of **rapporteren als phishing**.
 
      ![Ongewenste e-mail of malafide e-mail melden via het lint](../../media/junk-email-reporting-ribbon.png)
 
-   - Klik met de rechtermuisknop op het bericht, selecteer **ongewenste e-mail**en selecteer vervolgens **rapporteren als ongewenste e-mail** of **rapporteren als phishing**.
+   - Klik met de rechtermuisknop op het bericht, selecteer **ongewenste e-mail** en selecteer vervolgens **rapporteren als ongewenste e-mail** of **rapporteren als phishing**.
 
      ![Ongewenste e-mail of malafide e-mail melden met de rechtermuisknop](../../media/junk-email-reporting-right-click.png)
 
@@ -77,11 +77,11 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor het rapporteren 
 
 1. Gebruik een van de volgende methoden in de map Ongewenste E-mail om spam te rapporteren met een fout positief of malafide bericht:
 
-   - Selecteer het bericht of open het bericht. Klik op het lint op het tabblad **Start** of **bericht** op **geen ongewenste E-mail**en selecteer vervolgens **als niet-ongewenste e-mail melden** of **rapporteren als phishing**.
+   - Selecteer het bericht of open het bericht. Klik op het lint op het tabblad **Start** of **bericht** op **geen ongewenste E-mail** en selecteer vervolgens **als niet-ongewenste e-mail melden** of **rapporteren als phishing**.
 
      ![Ongewenst of malafide e-mail melden via het lint in de map Ongewenste E-mail](../../media/junk-email-reporting-junk-folder-ribbon.png)
 
-   - Klik met de rechtermuisknop op het bericht en klik op **ongewenste e-mail**en selecteer vervolgens **rapporteren als geen ongewenste e-mail** of **Meld als phishing**.
+   - Klik met de rechtermuisknop op het bericht en klik op **ongewenste e-mail** en selecteer vervolgens **rapporteren als geen ongewenste e-mail** of **Meld als phishing**.
 
      ![Meld geen ongewenste e-mail of malafide e-mail van met de rechtermuisknop in de map Ongewenste E-mail.](../../media/junk-email-reporting-junk-folder-right-click.png)
 
@@ -108,8 +108,8 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor het rapporteren 
 
 - Ga naar <https://www.microsoft.com/download/details.aspx?id=18275> en Download het juiste MSI-bestand voor uw versie van Office op een locatie die u kunt vinden:
 
-  - **32-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
-  - **64-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
+  - **32-bits** : `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
+  - **64-bits** : `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
 - Voor Outlook 2013 of hoger is het enige voorwaarden de Microsoft .NET Framework 2,0. In Windows 10 installeert u .NET Framework 2,0 niet vanaf een download.
 
@@ -133,7 +133,7 @@ Zoek de knop **ongewenste e-mail** op het lint van Outlook. U kunt nu ongewenste
 
 Kies de pijl-omlaag naast **ongewenste e-mail** voor meer opties, zoals **rapporteren als phishing,** als u malafide e-mailberichten bij Microsoft wilt melden. U kunt ook in de map Ongewenste e-mail de optie **geen ongewenste E-mail melden** als een e-mailadres verkeerd is aangemerkt als ongewenste e-mail.
 
-### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a>De invoegtoepassing voor het rapporteren van ongewenste E-mail installeren via de Stille modus
+### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a>De rapportage Add-In voor ongewenste E-mail installeren via de Stille modus
 
 1. Sluit Outlook op uw computer.
 
@@ -172,7 +172,7 @@ Kies de pijl-omlaag naast **ongewenste e-mail** voor meer opties, zoals **rappor
 
 Als u wilt controleren of de invoegtoepassing voor het rapporteren van ongewenste E-mail is geïnstalleerd, voert u de volgende stappen uit in Outlook:
 
-- Selecteer het bericht of open het bericht. Klik op het lint op het tabblad **Start** of **bericht** op **ongewenste e-mail**en controleer of de volgende opties beschikbaar zijn:
+- Selecteer het bericht of open het bericht. Klik op het lint op het tabblad **Start** of **bericht** op **ongewenste e-mail** en controleer of de volgende opties beschikbaar zijn:
 
   - **Rapporteren als ongewenste E-mail**
   - **Melden als phishing**
@@ -181,7 +181,7 @@ Als u wilt controleren of de invoegtoepassing voor het rapporteren van ongewenst
 
   ![Ongewenste e-mail of malafide e-mail melden via het lint](../../media/junk-email-reporting-ribbon.png)
 
-- Klik met de rechtermuisknop op het bericht, selecteer **ongewenste e-mail**en controleer of de volgende opties beschikbaar zijn:
+- Klik met de rechtermuisknop op het bericht, selecteer **ongewenste e-mail** en controleer of de volgende opties beschikbaar zijn:
 
   - **Rapporteren als ongewenste E-mail**
   - **Melden als phishing**
@@ -197,7 +197,7 @@ Als u wilt controleren of de invoegtoepassing voor het rapporteren van ongewenst
 
   ![Meerdere spam-en malafide e-mailberichten rapporteren met de rechtermuisknop](../../media/junk-email-reporting-right-click-multiple.png)
 
-- Ga als volgt te werk in de map **ongewenste e-mail** en controleer of de vorige opties voor het rapporteren van **Ongewenste E-mail** **geen ongewenste e-mail**zijn.
+- Ga als volgt te werk in de map **ongewenste e-mail** en controleer of de vorige opties voor het rapporteren van **Ongewenste E-mail** **geen ongewenste e-mail** zijn.
 
   ![Ongewenst of malafide e-mail melden via het lint in de map Ongewenste E-mail](../../media/junk-email-reporting-junk-folder-ribbon.png)
 
@@ -209,27 +209,27 @@ Als u wilt controleren of de invoegtoepassing voor het rapporteren van ongewenst
 
 Nadat u Outlook hebt gesloten, gebruikt u een van de volgende procedures om de invoegtoepassing voor het rapporteren van ongewenste E-mail te verwijderen:
 
-- **Configuratiescherm**: druk op de Windows-toets + R. Voer in het dialoogvenster **uitvoeren** dat wordt geopend, Enter `control appwiz.cpl` en klik vervolgens op **OK**.
+- **Configuratiescherm** : druk op de Windows-toets + R. Voer in het dialoogvenster **uitvoeren** dat wordt geopend, Enter `control appwiz.cpl` en klik vervolgens op **OK**.
 
   Selecteer de **invoegtoepassing voor het rapporteren van ongewenste e-mail van Microsoft** in de lijst en klik op **verwijderen**.
 
-- **Windows-installatiepakket**: Zoek of download het juiste MSI-bestand en dubbelklik erop.
+- **Windows-installatiepakket** : Zoek of download het juiste MSI-bestand en dubbelklik erop.
 
-  - **32-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
+  - **32-bits** : `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
-  - **64-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
+  - **64-bits** : `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
   Selecteer in het dialoogvenster dat wordt weergegeven de optie **Microsoft-invoegtoepassing voor ongewenste E-mail verwijderen voor Outlook** en klik op **volgende**.
 
-- **Stille modus**: Zoek of download het juiste MSI-bestand. In het venster met de opdracht prompt vervangt u \<PathToFile\> de locatie van het MSI-bestand en voert u een van de volgende opdrachten uit:
+- **Stille modus** : Zoek of download het juiste MSI-bestand. In het venster met de opdracht prompt vervangt u \<PathToFile\> de locatie van het MSI-bestand en voert u een van de volgende opdrachten uit:
 
-  - **32-bits**:
+  - **32-bits** :
 
     ```dos
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
     ```
 
-  - **64-bits**:
+  - **64-bits** :
 
     ```dos
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
@@ -263,7 +263,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 1. Controleer of stel de `LoggingLevel` registersleutel in op de waarde ' uitgebreid '.
 
-   - **32-bits versie van Outlook op 32-bits Windows**:
+   - **32-bits versie van Outlook op 32-bits Windows** :
 
      ```text
      Windows Registry Editor Version 5.00
@@ -272,7 +272,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
      "LoggingLevel"="Verbose"
      ```
 
-   - **32-bits versie van Outlook op 64-bits Windows**:
+   - **32-bits versie van Outlook op 64-bits Windows** :
 
      ```text
      Windows Registry Editor Version 5.00
@@ -281,7 +281,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
      "LoggingLevel"="Verbose"
      ```
 
-   - **64-bits Outlook**:
+   - **64-bits Outlook** :
 
      ```text
      Windows Registry Editor Version 5.00

@@ -2,7 +2,7 @@
 title: Ongewenste e-mail en malafide e-mailberichten in Outlook voor iOS en Android melden
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 ms.date: ''
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de ingebouwde opties voor ongewenste e-mail, ongewenste e-mail en het rapporteren van phishing-e-mail in Outlook voor iOS en Android.
-ms.openlocfilehash: 23668a762301ee442bc805e62863079ee7ae6076
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 1c842ac5349f9c2804c637fa4c5598b06e8f489f
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350853"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877289"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Ongewenste e-mail en malafide e-mailberichten in Outlook voor iOS en Android melden in Exchange Online
 
@@ -54,7 +54,7 @@ Voor berichten in het postvak in of een andere e-mailmap met uitzondering van on
 
    ![Ongewenste e-mail of malafide e-mail melden](../../media/Android-report-junk-or-phishing.png)
 
-4. In het dialoogvenster dat wordt weergegeven, kunt u op **rapport** of **Nee bedankt**klikken. Als u **geen dank**hebt getikt, **wordt het bericht** naar de map Ongewenste e-mail verplaatst, als **u de map** hebt getikt. Selecteer **rapport** om ook een kopie van het bericht naar Microsoft te verzenden.
+4. In het dialoogvenster dat wordt weergegeven, kunt u op **rapport** of **Nee bedankt** klikken. Als u **geen dank** hebt getikt, **wordt het bericht** naar de map Ongewenste e-mail verplaatst, als **u de map** hebt getikt. Selecteer **rapport** om ook een kopie van het bericht naar Microsoft te verzenden.
 
    ![Rapportageopties voor ongewenste e-mail of malafide e-mail melden](../../media/Android-junk-email-reporting-options.png)
 

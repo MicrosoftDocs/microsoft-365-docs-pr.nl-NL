@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Meer informatie over Microsoft 365 multi-geo, hoe meerdere geografische functies werken en welke geografische locaties beschikbaar zijn voor gegevensopslag.
-ms.openlocfilehash: 1924141b86ba3e1c16e4760e0f40d61b6f47ce69
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a8eba731fac16e56ef66ac0a905de521dfa7a6c8
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689200"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877229"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>Microsoft 365 multi-geografische abonnement
 
@@ -30,7 +30,7 @@ In een configuratie van meerdere geo bestaat uw Microsoft 365-Tenant uit een cen
 
 Hier volgen enkele belangrijke termen in meerdere geografische termen waarmee u inzicht krijgt in de basisbeginselen van de configuratie:
 
--   **Tenant** : de representatie van een organisatie in microsoft 365 waaraan meestal een of meer domeinen zijn gekoppeld (bijvoorbeeld https://contoso.sharepoint.com) . 
+-   **Tenant** : de representatie van een organisatie in microsoft 365 waaraan meestal een of meer domeinen zijn gekoppeld (bijvoorbeeld https://contoso.sharepoint.com) . 
 
 -   **Geografische locaties** : de geografische locaties die beschikbaar zijn voor het hosten van gegevens in een microsoft 365-Tenant.
 
@@ -73,7 +73,7 @@ Als uw gebruikers worden gesynchroniseerd vanuit een on-premises Active Director
 
 Het beheer van een multigeo-Tenant kan verschillen van een niet-meervoudige geo-Tenant, net zoals een groot aantal SharePoint-en OneDrive-instellingen en-services. U wordt aangeraden [een multifunctionele omgeving te beheren](administering-a-multi-geo-environment.md) voordat u met uw configuratie verdergaat.
 
-Lees de [gebruikerservaring in een meerv-geografische omgeving](multi-geo-user-experience.md) voor informatie over de ervaring van de eindgebruikers in een omgeving met meerdere geografische locaties.
+Lees de [gebruikerservaring in een omgeving met meerdere geografische omgevingen](multi-geo-user-experience.md) voor informatie over de ervaring van de eindgebruikers in een omgeving met meerdere geografische omgevingen.
 
 Zie [teams-ervaring in een Microsoft 365 OneDrive en SharePoint Online-pacht](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo)voor meer informatie over de teams-ervaring in een microsoft 365-multitenancy.
 

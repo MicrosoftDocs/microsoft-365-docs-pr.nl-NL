@@ -2,7 +2,7 @@
 title: Inzicht en rapporten met SMTP-verificatie clients in het dashboard voor e-mail stroom
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u het SMTP-authenticatie inzicht en rapporten kunt gebruiken in het dashboard voor de beveiliging van de e-mail in het beveiligings & nalevings centrum om e-mail afzenders in hun organisatie met geverifieerde SMTP-verificatie (SMTP-verificatie) te controleren en e-mailberichten te verzenden.
-ms.openlocfilehash: 7ca673e5ecc92c28996a976c26a38ae570f16203
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 54798dfcad50c263705b027c879fdf71d0dabfba
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199239"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877559"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Client-auth-clients inzicht en rapporteren in de beveiligings & nalevings centrum
 
@@ -45,11 +45,11 @@ In het rapport worden standaardgegevens weergegeven voor de laatste 7 dagen, maa
 
 De sectie overzicht bevat de volgende grafieken:
 
-- **Gegevens weergeven voor: verzenden volume**: in de grafiek worden standaard de SMTP-auth-client berichten weergegeven die zijn verzonden vanuit alle domeinen (**gegevens weergeven voor: alle domeinen** van de afzender worden standaard geselecteerd). U kunt de resultaten filteren op een bepaald domein van de afzender door op **gegevens weergeven voor** te klikken en het domein van de afzender in de vervolgkeuzelijst te selecteren. Als u een specifiek gegevenspunt (dag) aanwijst, wordt het aantal berichten weergegeven.
+- **Gegevens weergeven voor: verzenden volume** : in de grafiek worden standaard de SMTP-auth-client berichten weergegeven die zijn verzonden vanuit alle domeinen ( **gegevens weergeven voor: alle domeinen** van de afzender worden standaard geselecteerd). U kunt de resultaten filteren op een bepaald domein van de afzender door op **gegevens weergeven voor** te klikken en het domein van de afzender in de vervolgkeuzelijst te selecteren. Als u een specifiek gegevenspunt (dag) aanwijst, wordt het aantal berichten weergegeven.
 
   ![De weergave volume in het rapport SMTP-auth-clients verzenden in het Beveiligingscentrum voor beveiliging &](../../media/mfi-smtp-auth-clients-report-sending-volume-view.png)
 
-- **Gegevens weergeven op: TLS**: de grafiek bevat het percentage van TLS-gebruik voor alle SMTP auth-client berichten tijdens de geselecteerde tijdsperiode. Met deze grafiek kunt u de gebruikers en systeemaccounts identificeren en er actie ondernemen wanneer u nog oudere versies van TLS gebruikt.
+- **Gegevens weergeven op: TLS** : de grafiek bevat het percentage van TLS-gebruik voor alle SMTP auth-client berichten tijdens de geselecteerde tijdsperiode. Met deze grafiek kunt u de gebruikers en systeemaccounts identificeren en er actie ondernemen wanneer u nog oudere versies van TLS gebruikt.
 
   ![Voorbeeld van TLS-weergave in het rapport SMTP-auth-clients in het nalevings centrum voor beveiligings &](../../media/mfi-smtp-auth-clients-report-tls-usage-view.png)
 
@@ -59,16 +59,16 @@ Klik op **rapportaanvragen** om een gedetailleerde versie van het rapport in een
 
 ### <a name="details-table-view-for-the-smtp-auth-clients-report"></a>Weergave Details voor het rapport met SMTP-verificatie clients
 
-Als u op **detail tabel weergeven**klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
+Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
 
-- **Gegevens weergeven voor: verzenden volume**: de volgende informatie wordt weergegeven in een tabel:
+- **Gegevens weergeven voor: verzenden volume** : de volgende informatie wordt weergegeven in een tabel:
 
   - **Adres afzender**
   - **Aantal berichten**
 
   Als u een rij selecteert, worden de gegevens in een flyout weergegeven.
 
-- **Gegevens weergeven op: TLS-gebruik**: de volgende informatie wordt weergegeven in een tabel:
+- **Gegevens weergeven op: TLS-gebruik** : de volgende informatie wordt weergegeven in een tabel:
 
   - **Adres afzender**
   - **TLS 1.0%**<sup>\*</sup>
