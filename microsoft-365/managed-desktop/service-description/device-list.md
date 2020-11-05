@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 37a43717ebb003c10a65e14da46012dab164916d
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: 2af301fcac2f02a415972f8bf7857fa7b6ee0c1e
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48429381"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919830"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Beheerde bureaublad apparaten van Microsoft 
 
@@ -28,7 +28,7 @@ Als u zich wilt aanmelden bij Microsoft Managed Desktop, moet een apparaat een v
 De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt ordenen, moet u werken met uw commerciële kanaal contactpersonen om ervoor te zorgen dat u de juiste configuraties kiest. In deze tabel is de *Archiefdatum* de datum waarop deze modellen van toepassing zijn op een kortere Microsoft beheerde bureaublad service. op alle apparaten die na deze datum zijn ondergebracht, ontvangt u geen volledige ondersteuning voor driejarige waarden van Microsoft Managed Desktop. Gearchiveerde apparaten worden ook weergegeven in [Microsoft beheerde bureaublad gearchiveerde apparaten](archived-device-list.md). *Pensioneringsdatum* is de datum waarop dit model helemaal niet meer wordt ondersteund door Microsoft beheerde desktop. Op deze datum worden alle geregistreerde apparaten van dit model verwijderd van Microsoft Managed Desktop, ongeacht wanneer ze zijn ingeschreven.
 
 >[!NOTE]
->U kunt op elk gewenst moment apparaten toevoegen aan deze tabel, maar er wordt een melding van 90 dagen weergegeven voor wijzigingen van archief-of pensioneringsdatum. De apparaten die het laatst zijn toegevoegd, zijn gemarkeerd met **\*** .
+>U kunt op elk gewenst moment apparaten toevoegen aan deze tabel, maar er wordt een melding van 90 dagen weergegeven voor wijzigingen van archief-of pensioneringsdatum. De meest recent toegevoegde apparaten zijn gemarkeerd met * *\** _.
 
 
 ## <a name="microsoft-managed-desktop-devices"></a>Beheerde bureaublad apparaten van Microsoft
@@ -37,7 +37,7 @@ De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt o
 
 | Model    | Minimum specificaties  | Aanvullende vereisten   | Archiefdatum   | Datum van pensionering   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| **\*[Dell Precision 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022  | Donderdag 28 april 2025 |
+| _ *\* [Dell Precision 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022  | Donderdag 28 april 2025 |
 | **\*[Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022 | Donderdag 28 april 2025  |
 | **\*[Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022 | Donderdag 28 april 2025 |
 | **\*[Dell Latitude 7310/7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | 4 mei 2022  | 4 mei 2025  |
@@ -59,7 +59,7 @@ De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt o
 | [HP EliteBook x360 1040 G7](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1040-g7-notebook-pc-customizable-8wa57av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 8XW08AV| 30 augustus 2021 | 30 augustus 2024 |
 | [HP Elite DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ21AV | 31 maart 2021 | 31 maart 2024 |
 | [HP Z2 mini G5-werkstation](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 8QR48AV| 31 december 2021 | 31 december 2024 |
-| [HP ZBook 14u/15u G6 mobiele workstation](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8 GB RAM | SKU met 9JD63AV, IR-camera vereist | 30 nov 2020 | 30 nov 2023 |
+| **\*[HP ZBook Firefly hulpmiddelen 14/15 G7 mobiel workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ22AV, IR-camera vereist | 30 nov 2021 | 30 nov 2024 |
 
 ### <a name="microsoft"></a>Microsoft
 

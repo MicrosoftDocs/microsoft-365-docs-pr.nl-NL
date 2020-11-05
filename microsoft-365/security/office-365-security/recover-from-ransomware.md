@@ -5,7 +5,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: how-to
+ms.article: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -14,25 +14,29 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Microsoft 365-beheerders kunnen leren hoe ze kunnen worden hersteld via een Ransomware-aanval.
-ms.openlocfilehash: dd740b19abac9d30196c1ffd82c8a3f377b19dbf
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: de1cddbdf1c2b3ffeb8fd74a8f0d31e815eb1b70
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845538"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920606"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Herstel van een Ransomware aanval in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Zelfs als u om de bescherming van uw organisatie te beschermen, kunt u nog steeds slachtoffer [van een aanval](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) doen. Ransomware is Big Business en de aanvallen zijn uitgebreid.
+Zelfs als u om de bescherming van uw organisatie te beschermen, kunt u nog steeds slachtoffer [van een aanval](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) doen. Ransomware is Big Business en de aanvallen zijn zeer geraffineerd.
 
-Met de stappen in dit onderwerp krijgt u de beste kans om gegevens te herstellen die zijn versleuteld met de Ransomware, en om de verspreiding van de infectie binnen uw organisatie te voorkomen. Houd rekening met de volgende punten voordat u aan de slag gaat:
+Met de stappen in dit artikel krijgt u de beste mogelijkheid om gegevens te herstellen en de interne verspreiding van infectie te beëindigen. Houd rekening met de volgende punten voordat u aan de slag gaat:
 
-- Er is geen garantie voor het betalen van de Ransom om toegang te krijgen tot uw bestanden. Met de Ransom kunt u in feite een doelwit maken van een meer Ransomware. Als u al hebt betaald, maar u hebt uw bestanden wel hersteld zonder dat u de resolutie van de aanvaller hoeft te gebruiken, belt u de Bank om te zien of ze de transactie kunnen blokkeren. We raden u ook aan om de fraude aanval aan te melden, websites met uitlichting en Microsoft te melden zoals verderop in dit artikel wordt beschreven.
+- Er is geen garantie voor het betalen van de Ransom om toegang te krijgen tot uw bestanden. Met de Ransom kunt u in feite een doelwit maken van een meer Ransomware.
 
-- Het is heel belangrijk dat u snel aan de aanval antwoordt en de gevolgen hiervan. Hoe meer u wacht, hoe minder waarschijnlijk u de betrokken gegevens kunt herstellen.
+  Als u al hebt betaald, maar u hebt gerestitueerd zonder de oplossing van de aanvaller te gebruiken, neem dan contact op met uw bank om te zien of de transactie kan worden geblokkeerd.
+
+  We raden u ook aan dat u de aanvals fraude, websites voor de fraude, het rapporteren van de fraude, en Microsoft meldt zoals verderop in dit artikel wordt beschreven.
+
+- Het is belangrijk dat u snel en op de gevolgen van de aanval bent. Hoe meer u wacht, hoe minder waarschijnlijk u de betrokken gegevens kunt herstellen.
 
 ## <a name="step-1-verify-your-backups"></a>Stap 1: uw back-ups controleren
 
@@ -40,13 +44,13 @@ Als u offline back-ups hebt, kunt u de versleutelde gegevens waarschijnlijk teru
 
 U kunt deze stap overslaan als u geen back-ups hebt, of als de back-up ook van invloed zijn op de back-up.
 
-## <a name="step-2-disable-activesync-and-onedrive-sync"></a>Stap 2: ActiveSync en OneDrive-synchronisatie uitschakelen
+## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>Stap 2: de synchronisatie van Exchange ActiveSync en OneDrive uitschakelen
 
 Met het hoofdpunt kunt u het versleutelen van gegevensversleuteling door de Ransomware beëindigen.
 
-Als u vermoedt dat e-mail een doel is, dient u gebruikers toegang tot postvakken tijdelijk uit te schakelen. Exchange ActiveSync wordt door mobiele apparaten gebruikt voor het synchroniseren van gegevens tussen het apparaat en het Exchange Online-postvak.
+Als u e-mailberichten als doel van de Ransomware-versleuteling vermoedt, schakelt u gebruikers toegang tot postvakken tijdelijk uit. Exchange ActiveSync synchroniseert gegevens tussen apparaten en postvakken van Exchange Online.
 
-Zie [Exchange ActiveSync voor gebruikers uitschakelen in Exchange Online voor meer informatie over](https://support.microsoft.com/help/2795303)het uitschakelen van ActiveSync voor een postvak.
+Zie [Exchange ActiveSync voor gebruikers uitschakelen in Exchange Online voor meer informatie over het](https://support.microsoft.com/help/2795303)uitschakelen van Exchange ActiveSync voor een postvak.
 
 Als u andere soorten toegang wilt uitschakelen voor een postvak, raadpleegt u:
 
@@ -58,7 +62,9 @@ Als u de synchronisatie van OneDrive onderbreekt, wordt de bescherming van uw cl
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Stap 3: Verwijder de malware van de betreffende apparaten
 
-Voer een volledige virusscan uit met de meest recente updates op alle verdachte computers en apparaten om de nettolading te detecteren en te verwijderen die is gekoppeld aan de Ransomware. Vergeet niet om apparaten te gebruiken die gegevens synchroniseren, of het doel van toegewezen netwerkstations (deze computers en apparaten moeten ook worden gescand).
+Voer een volledige, actuele antivirus scan op alle verdachte computers en apparaten uit om de nettolading te detecteren en te verwijderen die is gekoppeld aan de Ransomware.
+
+Vergeet niet om apparaten te scannen die gegevens synchroniseren of de doelen van toegewezen netwerkstations.
 
 U kunt [Windows Defender](https://www.microsoft.com/windows/comprehensive-security) of (voor oudere clients) [Microsoft Security Essentials](https://www.microsoft.com/download/details.aspx?id=5201)gebruiken.
 
@@ -90,7 +96,7 @@ In het zeldzame geval dat de Ransomware al uw e-mail heeft verwijderd, kunt u de
 
 ## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Stap 7: synchronisatie van Exchange ActiveSync en OneDrive opnieuw inschakelen
 
-Nadat u de computers en apparaten hebt opgeschoond en de gegevens hebt hersteld, kunt u ActiveSync en OneDrive-synchronisatie opnieuw inschakelen die u eerder in [stap 2](#step-2-disable-activesync-and-onedrive-sync)hebt uitgeschakeld.
+Nadat u uw computers en apparaten hebt opgeschoond en uw gegevens hebt hersteld, kunt u Exchange ActiveSync en OneDrive-synchronisatie opnieuw inschakelen die u eerder in [stap 2](#step-2-disable-exchange-activesync-and-onedrive-sync)hebt uitgeschakeld.
 
 ## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Stap 8 (optioneel): OneDrive-synchronisatieblok keren voor specifieke bestandsextensies
 
@@ -126,7 +132,7 @@ Als uw land niet wordt vermeld, vraag dan contact op met uw lokale of nationale 
 
 ### <a name="submit-email-messages-to-microsoft"></a>E-mailberichten bij Microsoft indienen
 
-U kunt phishing melden met Ransomware met een van de verschillende methoden. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
+U kunt phishingberichten met Ransomware melden door een van de volgende methoden te gebruiken. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="see-also"></a>Zie ook
 

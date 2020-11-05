@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Via het Microsoft 365-beveiligingscentrum of het Microsoft 365-compliancecentrum kunt u machtigingen centraal beheren voor alle taken die zijn gerelateerd aan beveiliging of naleving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ad17933592b860fb81e469fd55a454c90b71320
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0f7dcddd7070f95ae61b17b9623dfcbab4a62e5f
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845754"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920630"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Machtigingen in het Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum
 
@@ -103,8 +103,8 @@ Gebruikers met deze rol hebben machtigingen voor het beheren van beveiligingsfun
 |**Microsoft Defender voor Eindpunt en EDR**|Rollen toewijzen. <br/><br/> Machinegroepen beheren. <br/><br/> Bedreigingsdetectie en automatisch herstel van eindpunten configureren. <br/><br/> Meldingen bekijken, onderzoeken en hierop reageren.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Beheerders, beleid en instellingen toevoegen, logboeken uploaden en beheeracties uitvoeren.|
-|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (binnenkort beschikbaar)|Beveiligingsbeleid en beveiligingsstatus bekijken, beveiligingsbeleid bewerken, meldingen en aanbevelingen bekijken en meldingen en aanbevelingen verwijderen.|
-|[_ *Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
+|[**Azure Defender**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (binnenkort beschikbaar)|Beveiligingsbeleid en beveiligingsstatus bekijken, beveiligingsbeleid bewerken, meldingen en aanbevelingen bekijken en meldingen en aanbevelingen verwijderen.|
+|[**Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
 |
 
 ### <a name="security-operator"></a>Beveiligingsoperator
@@ -140,8 +140,8 @@ Gebruikers met deze rol hebben globale alleen-lezentoegang tot beveiligingsfunct
 |**Microsoft Defender voor Eindpunt en EDR**|Meldingen bekijken en onderzoeken.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Informatie over gebruikers, apparaten, implementatie, configuratie en toepassingen bekijken. <br/><br/> **Kan** geen wijzigingen doorvoeren in Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Alleen-lezen machtigingen gebruiken om informatie te bekijken. <br/><br/> Waarschuwingen beheren.|
-|[**Azure Defender** _](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Aanbevelingen en meldingen bekijken. <br/><br/> Beveiligingsbeleid bekijken. <br/><br/> Beveiligingsstatus bekijken, maar geen wijzigingen aanbrengen.|
-|[_ *Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
+|[**Azure Defender**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)|Aanbevelingen en meldingen bekijken. <br/><br/> Beveiligingsbeleid bekijken. <br/><br/> Beveiligingsstatus bekijken, maar geen wijzigingen aanbrengen.|
+|[**Office 365-servicestatus**](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)|De status van Office 365-services bekijken.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>Globale beheerders kunnen rollen beheren in Azure Active Directory

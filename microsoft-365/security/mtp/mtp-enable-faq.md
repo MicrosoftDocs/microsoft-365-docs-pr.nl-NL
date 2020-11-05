@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bfb58cb043f2bc641245814c41e389ddcdbfdefa
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 3dae9f208f5bb08d694322eb9f7cff35986930da
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842414"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920488"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>Veelgestelde vragen wanneer u Microsoft 365 Defender inschakelt
 
@@ -42,8 +42,8 @@ Lees de antwoorden op de meest gestelde vragen over het inschakelen van [Microso
 
 Voor klanten met de volgende niet-E5-licenties kan Microsoft 365 Defender worden gebruikt:
 
-- Microsoft Defender voor eindpunt
-- Microsoft Defender voor identiteit
+- Microsoft Defender voor Eindpunt 
+- Microsoft Defender for Identity
 - Microsoft Cloud App Security
 - Defender voor Office 365 (abonnement 2)
  
@@ -59,7 +59,7 @@ Voor het optimaliseren van uw Microsoft 365-ervaring voor Microsoft kunt u het b
 Microsoft 365 Defender selecteert automatisch een optimale locatie voor het datacenter waar geconsolideerde gegevens worden verwerkt en opgeslagen. Als u Microsoft Defender voor eindpunten hebt, wordt de gebruikte locatie voor eindpunten van Defender geselecteerd.
 
 >[!NOTE]
->Microsoft Defender voor eindpunten in de Europese Unie (EU)-datacenters worden automatisch aangerekend wanneer Azure Defender * wordt ingeschakeld. Microsoft 365 Defender wordt automatisch ingericht in hetzelfde EU-datacenter voor klanten die Microsoft Defender voor eindpunten op deze manier hebben ingericht. 
+>Microsoft Defender voor eindpunten in de Europese Unie (EU)-datacenters worden automatisch aangerekend wanneer Azure Defender wordt ingeschakeld. Microsoft 365 Defender wordt automatisch ingericht in hetzelfde EU-datacenter voor klanten die Microsoft Defender voor eindpunten op deze manier hebben ingericht. 
 
 De locatie van het datacenter wordt weergegeven vóór en nadat de service is ingericht op de pagina instellingen voor Microsoft 365 Defender (de **instellingen > Microsoft 365 Defender** ). Als u liever een andere locatie voor het datacenter wilt gebruiken, selecteert u **hulp nodig?** in het microsoft 365-Beveiligingscentrum voor contact opnemen met Microsoft ondersteuning.
 

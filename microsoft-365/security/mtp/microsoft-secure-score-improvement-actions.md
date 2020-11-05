@@ -20,24 +20,23 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ff81b6e1a290d928d68cb43b455713183d24f75b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 02c79edaa05e7903a8797cdf83c18a4ce69716dc
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846638"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920534"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Evalueer uw beveiligings Posture met Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
 
 Secure Score van Microsoft is een afmeting van de beveiligings Posture van een organisatie, met een hoger nummer voor het uitvoeren van extra verbeterings acties. U vindt het https://security.microsoft.com/securescore in [microsoft 365 Beveiligingscentrum](overview-security-center.md).
 
 Voor de gegevens die u nodig hebt om sneller te kunnen werken, zijn Microsoft-verduidelijkings acties ingedeeld in de volgende groepen:
 
 * Identiteit (Azure Active Directory-accounts & rollen)
-* Gegevens (Microsoft-informatiebescherming)
+* Gegevens (geen stappen voor de verbetering van nu)
 * Apparaat (Microsoft Defender for Endpoint, genaamd [Microsoft Secure score voor apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * App (e-mail en Cloud-apps, waaronder Office 365 en de beveiligingsupdates van Microsoft Cloud apps)
 * Infrastructuur (geen stappen voor verbetering)

@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inzicht in de basisstructuur van de on-premises IT-infrastructuur van Contoso en de manier waarop de zakelijke behoeften van het bedrijf voldoen aan Microsoft 365 for Enterprise.
-ms.openlocfilehash: 0a837a457869fc579d94ee5e5f9bb114cb93f641
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b3b67429faccc5d22d49a2921fff4c8b3c3c062e
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847128"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920452"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT-infrastructuur en bedrijfsbehoeften
 
@@ -124,7 +124,7 @@ De IT-afdeling van Contoso heeft bepaald dat de volgende toewijzingen van zakeli
 |  | Identiteits- en toegangsbeheer | Toegewijde wereldwijde beheerdersaccounts met Azure meervoudige verificatie (MFA) en Azure AD Privileged Identity Management (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
 |  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Defender voor Office 365 <BR> Microsoft Defender voor Office 365 <BR> Microsoft 365 Threat onderzoek en-antwoord <BR> |
 |  | Gegevensbeveiliging | Azure-gegevensbeveiliging <BR> Preventie van gegevensverlies (DLP, Data Loss Prevention) <BR> Windows-gegevensbescherming (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
-|  | Beveiligingsbeheer | Azure Defender *  <BR> Windows Defender-Beveiligingscentrum |
+|  | Beveiligingsbeheer | Azure Defender  <BR> Windows Defender-Beveiligingscentrum |
 | Externe en mobiele toegang en zakelijke partners |  |  |
 |  | Verbeterde beveiliging voor externe en mobiele werknemers | Microsoft Intune |
 |  | De infrastructuur voor externe toegang voor werknemers reduceren | Werkbelasting en cloud-gebaseerde gegevens voor Microsoft 365 |

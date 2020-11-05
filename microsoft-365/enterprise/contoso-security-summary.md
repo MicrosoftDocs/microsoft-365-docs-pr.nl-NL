@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe contoso gebruikmaakt van de beveiligingsfuncties van Microsoft 365 for Enterprise.
-ms.openlocfilehash: 8d62dba96ecf19f0dc31af2cf5a2d85257ca19d5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: a72a770029328eaddf76cbe1b2039386c50c2750
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847104"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920416"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 for Enterprise Security voor Contoso Corporation
 
@@ -127,9 +127,9 @@ Als u aanbevolen procedures voor de beveiliging en Microsoft 365 wilt volgen, ge
 
 ## <a name="security-management"></a>Beveiligingsbeheer
 
-- Centraal beveiligings dashboard voor IT met Azure Defender *
+- Centraal beveiligings dashboard voor IT met Azure Defender
 
-  Contoso gebruikt de functie [Azure Defender *](https://azure.microsoft.com/services/security-center/) om een uniforme weergave van beveiliging en beveiliging van bedreigingen te presenteren, voor het beheren van beveiligingsbeleid voor de werkbelasting en om te reageren op cyberattacks.
+  Contoso maakt gebruik van [Azure Defender](https://azure.microsoft.com/services/security-center/) om een uniforme weergave van beveiliging en beveiliging van bedreigingen te presenteren, voor het beheren van beveiligingsbeleid in de werkbelasting en om te reageren op cyberattacks.
 
 - Centraal beveiligingsdashboard voor gebruikers met Windows Defender-beveiligingscentrum
 

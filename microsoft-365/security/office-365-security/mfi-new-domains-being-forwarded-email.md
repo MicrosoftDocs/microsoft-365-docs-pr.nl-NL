@@ -10,20 +10,22 @@ ms.topic: conceptual
 ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
-description: Beheerders kunnen informatie over het gebruik van de nieuwe domeinen waarmee e-mail inzicht wordt doorgestuurd in het moderne Exchange-Beheercentrum om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar externe domeinen waarnaar nooit is doorgestuurd.
-ms.openlocfilehash: 7dfdd63a9358b1057313962bc21424a325d7bc52
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+description: Beheerders kunnen inzicht krijgen in de manier waarop u via de nieuwe domeinen e-mail informatie in het compliance-Dash & Board kunt gebruiken om te onderzoeken wanneer hun gebruikers berichten doorsturen naar externe domeinen waarnaar nooit is doorgestuurd.
+ms.openlocfilehash: f2d8c9229062cbef0ad90b3d0fd843d6588a08dc
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877739"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920562"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Nieuwe domeinen worden doorgestuurd via e-mail inzicht in de beveiligings & nalevings centrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Hoewel u waarschijnlijk geldige zakelijke redenen hebt voor het doorsturen van e-mailberichten naar externe geadresseerden in specifieke domeinen, is het verdacht Wanneer gebruikers in uw organisatie zich op een plotselinge manier van berichten doorsturen naar externe domeinen, en niemand in de organisatie ooit berichten heeft doorgestuurd naar die domeinen vóór (nieuwe domeinen). Deze voorwaarde kan betekenen dat de gebruikersaccounts worden aangetast. Als u vermoedt dat de accounts zijn aangetast, raadpleegt u [reageren op een gemanipuleerd e-mailaccount](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
+Er zijn geldige zakelijke redenen voor het doorsturen van e-mailberichten naar externe geadresseerden in bepaalde domeinen. Het is echter ook verdacht Wanneer gebruikers in uw organisatie zich op een plotselinge plaats van berichten naar een domein kunnen doorsturen, ongeacht waar niemand in uw organisatie ooit berichten heeft doorgestuurd naar (een nieuw domein).
+
+Dit kan betekenen dat de gebruikersaccounts zijn aangetast. Als u vermoedt dat de accounts zijn aangetast, raadpleegt u [reageren op een gemanipuleerd e-mailaccount](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
 
 De **nieuwe domeinen waarnaar e-mail inzicht wordt doorgestuurd** in de [beveiliging & nalevings centrum](https://protection.office.com) u ontvangt een melding wanneer gebruikers in uw organisatie berichten doorsturen naar nieuwe domeinen.
 

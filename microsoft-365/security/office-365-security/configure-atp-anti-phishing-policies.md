@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het geavanceerde anti-phishingfilter kunt maken, wijzigen en verwijderen, dat beschikbaar is in organisaties met Microsoft Defender voor Office 365.
-ms.openlocfilehash: 9e07107c302f83b71a97517b11e71eac81f84f6b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: ecc68a8dc050a5f08c6982b023861e0ea8976775
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845922"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920654"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Anti phishingfilter configureren in Microsoft Defender voor Office 365
 
@@ -159,9 +159,9 @@ Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuw
 
      - **E-mailadres** :
 
-        - Klik in het vak en blader door de lijst met gebruikers die u wilt selecteren.
-        - Klik in het vak en begin te typen om de lijst te filteren en selecteer een gebruiker.
-        - Als u een vermelding **wilt verwijderen, klikt u** op ![ het pictogram verwijderen ](../../media/scc-remove-icon.png) van de gebruiker.
+       - Klik in het vak en blader door de lijst met gebruikers die u wilt selecteren.
+       - Klik in het vak en begin te typen om de lijst te filteren en selecteer een gebruiker.
+       - Als u een vermelding **wilt verwijderen, klikt u** op ![ het pictogram verwijderen ](../../media/scc-remove-icon.png) van de gebruiker.
 
      - **Naam** : deze waarde wordt ingevuld op basis van het e-mailadres dat u hebt geselecteerd, maar u kunt dit wijzigen.
 
@@ -170,15 +170,15 @@ Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuw
      Als u een bestaande vermelding wilt bewerken, selecteert u de beveiligde gebruiker in de lijst.
 
      > [!NOTE]
-     > U kunt maximaal 60 gebruikers opgeven in het beveiligings & nalevings centrum of in PowerShell.
-       
+     > U kunt maximaal 60 gebruikers in een anti-phishing beleid hebben. Met andere woorden: u kunt met 60 beveiligde gebruikers in één beleid, 12 beveiligde gebruikers in 5 beleidsregels, etc.
+
    - **Domeinen toevoegen die u wilt beveiligen** : Configureer een of beide van de volgende instellingen:
 
      - **Automatisch de domeinen opnemen waarvan ik de eigenaar ben** : de standaardwaarde is **uitgeschakeld**. Schuif de wisselknop **naar aan om** deze optie in te schakelen.
      - **Aangepaste domeinen opnemen** : de standaardwaarde is **uitgeschakeld**. Als u deze optie wilt inschakelen, verschuift u de schuifregelaar naar **aan** en voert u in het vak **domeinen toevoegen** de domeinnaam in (bijvoorbeeld contoso.com), drukt u op ENTER en herhaalt u de gewenste stappen.
 
      > [!NOTE]
-     > U kunt maximaal 50 domeinen invoeren in het beveiligings & nalevings centrum of in PowerShell.
+     > U kunt maximaal 50 domeinen in een anti-phishing beleid hebben. Met andere woorden: u kunt met 50 beveiligde gebruikers in één beleid, 10 beveiligde gebruikers in 5 beleidsregels, etc.
 
    - **Acties** : Klik op **bewerken**
 
@@ -193,12 +193,12 @@ Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuw
 
      - **Als e-mailberichten worden verzonden door een geïmiteerd domein** : Configureer een van de volgende acties voor berichten waarvan de vervalste verzender zich bevindt in een van de beveiligde domeinen die u hebt opgegeven in **domeinen toevoegen om te beschermen** :
 
-     - **Geen actie toepassen**
-     - **Bericht omleiden naar andere e-mailadressen**
-     - **Bericht verplaatsen naar map Ongewenste e-mail**
-     - **Het bericht Quarantine**
-     - **Het bericht bezorgen en andere adressen toevoegen aan de regel BCC**
-     - **Het bericht verwijderen voordat het wordt bezorgd**
+       - **Geen actie toepassen**
+       - **Bericht omleiden naar andere e-mailadressen**
+       - **Bericht verplaatsen naar map Ongewenste e-mail**
+       - **Het bericht Quarantine**
+       - **Het bericht bezorgen en andere adressen toevoegen aan de regel BCC**
+       - **Het bericht verwijderen voordat het wordt bezorgd**
 
    - Klik op de **beveiligingstips voor imitatie inschakelen** en configureer de volgende instellingen:
 
@@ -267,7 +267,6 @@ Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuw
 
      - U kunt in elke sectie op **bewerken** klikken om terug te gaan naar de gewenste pagina.
      - U kunt de volgende instellingen rechtstreeks op deze pagina **in** -of **uitschakelen** :
-
        - **Antispoofing-beveiliging inschakelen**
        - **Niet-geverifieerde afzender functie inschakelen**
 

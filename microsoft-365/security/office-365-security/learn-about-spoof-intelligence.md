@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie vinden over spoof Intelligence in Exchange Online Protection (EOP), waar u specifieke afzenders kunt toestaan of blokkeren.
-ms.openlocfilehash: 4ebc32a6c87c58edcceb0d57ee8d55be43f2dd20
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4d40dae9518b451affc11c6666ee8f7454eceff3
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841826"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920642"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Spoof informatie configureren in EOP
 
@@ -181,7 +181,7 @@ U kunt instellingen voor spoof Intelligence configureren in het standaard anti-p
 
 - Een [anti-phishing beleid configureren in EOP](configure-anti-phishing-policies-eop.md).
 
-- [U kunt anti phishingfilter configureren in Microsoft Defender for Office 365 in Microsoft 365](configure-atp-anti-phishing-policies.md).
+- Een [anti-phishing beleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 

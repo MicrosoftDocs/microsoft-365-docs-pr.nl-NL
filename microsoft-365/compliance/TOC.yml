@@ -296,8 +296,8 @@
           href: create-apply-retention-labels.md
         - name: Een retentielabel automatisch toepassen op inhoud
           href: apply-retention-labels-automatically.md
-        - name: Voldoen aan SEC Rule 17a-4
-          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: Vergrendelingsbeleid om wijzigingen te beperken
+          href: retention-preservation-lock.md
         - name: Retentielabels maken met PowerShell
           href: bulk-create-publish-labels-using-powershell.md
         - name: Retentie starten als zich een gebeurtenis voordoet
@@ -426,6 +426,8 @@
           href: declare-records.md
         - name: Versiebeheer van records gebruiken
           href: record-versioning.md
+        - name: Resources voor wettelijke vereisten
+          href: retention-regulatory-requirements.md
 - name: eDiscovery beheren
   items:
     - name: eDiscovery in Microsoft 365
@@ -531,6 +533,8 @@
               href: data-spillage-scenariosearch-and-purge.md
             - name: BCC-geadresseerden voor zoekacties behouden
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+            - name: Ontsleutelen in eDiscovery-hulpprogramma's
+              href: ediscovery-decryption.md
             - name: Veelvoorkomende problemen met eDiscovery oplossen
               href: ediscovery-troubleshooting-common-issues.md
             - name: Een mislukte zoekactie opnieuw uitvoeren
@@ -660,6 +664,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Compliancegrenzen instellen
               href: set-up-compliance-boundaries.md
+            - name: Ontsleutelen in eDiscovery-hulpprogramma's
+              href: ediscovery-decryption.md
             - name: Zoeken naar eDiscovery-activiteiten in het auditlogboek
               href: search-for-ediscovery-activities-in-the-audit-log.md
             - name: Problemen met AzCopy oplossen

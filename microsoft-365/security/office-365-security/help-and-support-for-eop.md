@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft biedt hulp bij EOP op diverse locaties en methoden, waaronder ondersteuning voor ondersteuning en ondersteuning.
-ms.openlocfilehash: c305f2e63d668a163bb82f5a4712cbdddc6f9259
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: dd68200b7a3723adc7ccba899c0cc88031891197
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202721"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920428"
 ---
 # <a name="help-and-support-for-eop"></a>Help en ondersteuning voor EOP
 
@@ -28,7 +28,7 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 
 ## <a name="self-support-options"></a>Opties voor automatische ondersteuning
 
-Wanneer u zich aanmeldt, biedt het Microsoft 365-Beheercentrum informatie over de status van de services van uw organisatie. Daarnaast ziet u in het gedeelte servicestatus de huidige status van uw services, Details over onderbrekingen en vervalt en de geplande onderhouds tijden. Het Microsoft 365-Beheercentrum bevat ook informatie over bekende problemen en verwachte oplossingen. Als u beïnvloed wordt door een service-hele gebeurtenis, moet u een communicatie waarschuwing zien (meestal met een klokpictogram). We raden u aan alle items die u nodig hebt, te lezen en te ondernemen. Zie voor meer informatie over het informatiegebied servicestatus [en continuïteit](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity). Mogelijk kunt u met de sites hulpmiddelen, forums en community's hier meer hulp vinden.
+Wanneer u zich aanmeldt, biedt het Microsoft 365-Beheercentrum informatie over de status van de services van uw organisatie. Daarnaast ziet u in het gedeelte servicestatus de huidige status van uw services, Details over onderbrekingen en vervalt en de geplande onderhouds tijden. Het Microsoft 365-Beheercentrum bevat ook informatie over bekende problemen en verwachte oplossingen. Als u beïnvloed wordt door een service-hele gebeurtenis, moet u een communicatie waarschuwing zien (meestal met een klokpictogram). We raden u aan alle items die u nodig hebt, te lezen en te ondernemen. Zie voor meer informatie over het informatiegebied servicestatus [en continuïteit](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity). U kunt uw eigen hulp ook vinden met behulp van de hieronder weergegeven hulpmiddelen, forums en community-sites.
 
 [Product overzicht voor Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
@@ -62,7 +62,7 @@ Zie [Premier Support voor partners](https://partner.microsoft.com/support/micros
 
 1. Meld u aan bij het Beheercentrum van Microsoft 365.
 
-2. Neem voor algemene product problemen contact op met de **ondersteuning** \> **vragen voor** \> **telefonische**ondersteuning van klanten.
+2. Voor algemene product kwesties gaat u naar **ondersteuning** \> voor telefonische ondersteuning **van klantondersteuning** \> **Call technical support**.
 
    Voor vragen over het kopen van EOP of vragen over facturering en abonnementen gaat **u naar ondersteunings** \> **vragen voor klantondersteuning** \> **bellen en abonnements ondersteuning**.
 

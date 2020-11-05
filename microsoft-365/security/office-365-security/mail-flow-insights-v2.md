@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Beheerders kunnen inzicht krijgen in de inzichten en rapporten die beschikbaar zijn in het dashboard voor de e-mail stroom van de beveiligings & compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d252b9d898d4ee5a0df854a871f821c2b02bb482
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: f7781dca48e1eae4716dbe6c7c3b40da4bae0cd8
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877775"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920006"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>E-mailstroominzichten in het Beveiligings- en compliancecentrum
 
@@ -66,13 +66,12 @@ Het dashboard voor e-mail stroom is beschikbaar voor leden van de volgende rolle
 
 - **[Exchange-beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in azure Active Directory.
 
-- E-mail **stroom beheerder** in de beveiligings & nalevings centrum: als een lid van deze rollen groep geen lid is van de globale beheerder of de rollen groepen van Exchange-beheerders, moet u de volgende problemen en vereisten noteren:
-
+- **Beheerder** van de beheerder van het beveiligings & van de beheerder. Als het account geen lid is van de rollen groepen Organisatiebeheer of Exchange-beheerder, kunt u het volgende doen:
   - De gebruiker moet zich rechtstreeks aanmelden bij de beveiligings & nalevings centrum <https://protection.office.com> .
   - De gebruiker heeft slechts de alleen-lezen machtiging voor het dashboard voor e-mail stroom.
   - De gebruiker heeft geen toegang tot het Microsoft 365-Beheercentrum.
 
-Zie [machtigingen in het beveiligings & nalevings](permissions-in-the-security-and-compliance-center.md) centrum en [gebruikers toegang geven tot de beveiligings & nalevings centrum](grant-access-to-the-security-and-compliance-center.md)voor meer informatie over machtigingen in het nalevings centrum voor beveiligings &.
+Zie [machtigingen in de beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md) en [gebruikers toegang geven tot het beveiligings & nalevings centrum](grant-access-to-the-security-and-compliance-center.md)voor meer informatie over machtigingen.
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Waar vind ik het e-mail stroom dashboard?
 

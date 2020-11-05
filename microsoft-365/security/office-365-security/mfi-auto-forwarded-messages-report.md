@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Beheerders kunnen informatie vinden over het rapport met automatisch doorgestuurde berichten in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum.
-ms.openlocfilehash: 01a094b8531672708fc024e8ed0c5833786dbb0c
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 28cb593d56d0b0054c8c8cbe4596d4f7df6442ab
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877787"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920594"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Berichten met automatisch doorgestuurde inzichten in het beveiligings & nalevings centrum
 
@@ -35,7 +35,7 @@ Wanneer u op het aantal berichten in het object klikt, wordt er een flyout weerg
 
   - **Door een e-mail stroom regel**
   - **Door regels voor Postvak in**
-  - **Door het doorsturen van SMTP** : dit is automatisch doorsturen die beheerders kunnen configureren in een postvak zoals beschreven in het [doorsturen van e-mail voor een postvak configureren](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
+  - **Door het doorsturen van SMTP: met** deze methode wordt automatisch doorsturen aangegeven die beheerders kunnen configureren in een postvak, zoals beschreven in het [doorsturen van e-mail voor een postvak configureren](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
   - Een koppeling naar het [doorstuur rapport](view-mail-flow-reports.md#forwarding-report) voor meer informatie.
 
 - **Berichten automatisch doorsturen en door domeinen en gebruikers** :

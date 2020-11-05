@@ -12,20 +12,22 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe u het e-mail stroom status inzicht van de belangrijkste domein kunt gebruiken in het dashboard voor e-mail stroom in het nalevings centrum voor beveiliging & voor het oplossen van problemen met de e-mail stroom in hun e-mail domeinen.
-ms.openlocfilehash: d4abc311e96df87894d5f059328f1a16a00190b8
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+description: Beheerders kunnen leren hoe u met behulp van de belangrijkste status van de e-mail stroom van het e-mailsysteem in het Beveiligingscentrum van het & Beveiligingscentrum van uw MX-records problemen met de e-mail stroom kunt oplossen.
+ms.openlocfilehash: 0d750ab4dbe5875796118086fae1d9119dc486f0
+ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877504"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48920582"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>Belangrijkste status inzicht in de e-mail stroom van het domein in het beveiligings & nalevings centrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Met de **belangrijkste status van de e-mail stroom** van de e-mail in het Beveiligingscentrum van de e-mail in het [compliance-& Beveiligingscentrum](https://protection.office.com) beschikt u over de huidige status voor de domeinen van uw organisatie in de voorwaarden voor de e-mail stroom. [Mail flow dashboard](mail-flow-insights-v2.md) Dit inzicht helpt bij het identificeren en oplossen van problemen met domeinen met een impact van de *_e-mail stroom_* (bijvoorbeeld om externe e-mail te ontvangen), met name domein einden of domeinen met onjuiste MX-records.
+Met de **belangrijkste status van de e-mail stroom** van het domein in het nalevings [Dashboard](mail-flow-insights-v2.md) van de [beveiligings &](https://protection.office.com) hebt u de huidige status van de e-mail stroom voor uw organisatie.
+
+Dit inzicht helpt bij het identificeren en oplossen van domeinen met een *_e-mail stroom_* _ problemen. Het domein kan bijvoorbeeld geen externe e-mail ontvangen omdat het domein is verlopen of het domein een onjuiste MX-record heeft.
 
 ![De widget hoofddomein stroom status in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-top-domain-mail-flow-status-widget.png)
 
@@ -43,6 +45,6 @@ U kunt klikken op **meer weergeven** om dezelfde gegevens te bekijken voor meer 
 
 ![Flyout Details in de e-mail stroom status van het belangrijkste domein](../../media/mfi-top-domain-mail-flow-status-view-details.png)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="see-also"></a>Zie ook
 
 Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).
