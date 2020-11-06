@@ -17,19 +17,23 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Basis mobiliteit en beveiliging maakt deel uit van de Microsoft 365-abonnementen.
-ms.openlocfilehash: df52d500c945275b62170ab16260f0c019340f73
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: Basis mobiliteit en beveiliging maken deel uit van de Microsoft 365-abonnementen.
+ms.openlocfilehash: b9568d0aad03fc3c8a5c81d02f98f5b238124a82
+ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429924"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48930163"
 ---
-# <a name="choose-between-basic-mobility-and-security-and-intune"></a>Kiezen tussen basis mobiliteit en beveiliging en intune
+# <a name="choose-between-basic-mobility-and-security-or-intune"></a>Kiezen tussen basis mobiliteit en beveiliging of intune
 
-Microsoft intune is een standalone product dat is inbegrepen bij bepaalde Microsoft 365-abonnementen, terwijl basis & beveiliging deel uitmaakt van de Microsoft 365-abonnementen. Beide zijn opgenomen in diverse plannen, zoals in de volgende tabel wordt beschreven.
+[Microsoft intune](https://docs.microsoft.com/mem/intune/) is een standalone product dat is inbegrepen bij bepaalde microsoft 365-abonnementen, terwijl basis en beveiliging deel uitmaakt van de microsoft 365-abonnementen. 
 
-|**Abonnement**|**Basis mobiliteit en beveiliging**|**Microsoft Intune**|
+ ## <a name="availability-of-basic-mobility-and-security-and-intune"></a>Beschikbaarheid van basis mobiliteit en beveiliging en intune
+ 
+Zowel eenvoudige mobiliteit als beveiliging en intune zijn opgenomen in diverse plannen, zoals in de volgende tabel wordt beschreven.
+
+|**Plannen**|**Basis mobiliteit en beveiliging**|**Microsoft Intune**|
 |:-----|:-----|:-----|
 |Microsoft 365-apps|Ja|Nee|
 |Microsoft 365 Business Basic|Ja|Nee|
@@ -41,7 +45,7 @@ Microsoft intune is een standalone product dat is inbegrepen bij bepaalde Micros
 |Microsoft 365 Firstline Workers 3 |Ja|Ja|
 |Microsoft 365 Enterprise E3 |Ja|Ja|
 |Microsoft 365 Enterprise E5 |Ja|Ja|
-|Microsoft 365 Eductation a1 |Ja|Ja|
+|Microsoft 365 education a1 |Ja|Ja|
 |Microsoft 365 education a3 |Ja|Ja|
 |Microsoft 365 education A5 |Ja|Ja|
 |Microsoft Intune |Nee|Ja|
@@ -51,24 +55,52 @@ Microsoft intune is een standalone product dat is inbegrepen bij bepaalde Micros
 >[!NOTE]
 >Als u al Microsoft intune gebruikt, kunt u geen eenvoudige mobiliteit en beveiliging gebruiken.
 
+ Zie [beschrijvingen van Microsoft 365 en Office 365 platform service](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)voor meer informatie. 
+
 ## <a name="differences-in-capabilities"></a>Verschillen in mogelijkheden
 
 Microsoft intune en ingebouwde basis mobiliteit en beveiliging bieden u de mogelijkheid om mobiele apparaten te beheren in uw organisatie, maar er zijn belangrijke verschillen in de mogelijkheid, zoals in de volgende tabel wordt beschreven.
 
 >[!NOTE]
->U kunt gebruikers en hun mobiele apparaten beheren met zowel intune als basis mobiliteit en beveiliging in dezelfde Microsoft 365 Business Standard-organisatie door eerst basis mobiliteit en beveiliging in te stellen en vervolgens Microsoft intune toe te voegen. Hiermee kunt u opgeven of u de apparaten van een gebruiker wilt beheren met basis mobiliteit en beveiliging of met de functie meer-rijke intune-oplossingen. In de modus bepaalt de licentietoewijzing welke service met het apparaat is ingeschreven. Wijs een intune-licentie toe om de functies intune-only in te schakelen.
+>U kunt gebruikers en hun mobiele apparaten beheren met zowel intune als basis mobiliteit en beveiliging in dezelfde Microsoft 365 Business Standard-organisatie *door eerst basis mobiliteit en beveiliging in te stellen en vervolgens Microsoft intune toe te voegen*. Hiermee kunt u eenvoudige mobiliteit en beveiliging kiezen, of de functie meer-rijke intune-oplossingen. Wijs een intune-licentie toe als u de intune-functies wilt inschakelen.
 
 |**Functiegebied**|**Kenmerken van functies**|**Basis mobiliteit en beveiliging**|**Microsoft Intune**|
 |:-----|:-----|:-----|:-----|
-|Apparaattypen|Verschillende besturingssysteem platforms en varianten van de hoofdmodus van de beheerder. |Windows<br/>Apparaten<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>Apparaten<br/>Android<br/>Android Samsung KNOX<br/>Mac OS<br/>iPad OS|
-|Apparaatcompatibiliteit|Stel beveiligingsbeleid in en beheer dit, zoals pincode vergrendeling op apparaatniveau en detectie van jailbreak. |Beperkingen voor Android 9 en latere apparaten. Zie [mogelijkheden van eenvoudige mobiliteit en beveiliging](capabilities.md)voor meer informatie.|Ja|
-|Voorwaardelijke toegang op basis van apparaatcompatibiliteit |Voorkomen dat niet-compatibele apparaten toegang hebben tot zakelijke e-mail en-gegevens vanuit de Cloud. |-Wordt niet ondersteund in Windows 10.<br/>: Beperkt tot het regelen van de toegang tot Exchange Online, SharePoint Online en Outlook services. |Nee|
-|Apparaatconfiguratie  |Apparaatinstellingen configureren (bijvoorbeeld de camera uitschakelen). |Beperkte set instellingen.Zie [mogelijkheden van eenvoudige mobiliteit en beveiliging](capabilities.md)voor meer informatie. |Ja|
-|Externe acties  |Opdrachten verzenden naar apparaten via internet. Als u bijvoorbeeld Office-gegevens van een apparaat van een werknemer wilt verwijderen, terwijl u persoonlijke gegevens op hun plaats verlaat (buiten gebruik stellen). |Buiten gebruik stellen<br/>Vegen<br/>Wissen|-Auto Pilot-opnieuw instellen (alleen Windows)<br/>- [BitLocker-sneltoets draaien](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys)   (Alleen Windows)<br/>- [Wissen](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal)<br/>- [Activeer-Loc uitschakelen](https://docs.microsoft.com/mem/intune/remote-actions/device-activation-lock-disable)   (alleen iOS)<br/>- [Fresh Start](https://docs.microsoft.com/mem/intune/remote-actions/device-fresh-start)   (Alleen Windows)<br/>- [Volledige scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)   (Alleen Windows 10)<br/>- [Apparaat zoeken](https://docs.microsoft.com/mem/intune/remote-actions/device-locate)   (alleen iOS)<br/>- [Verloren modus](https://docs.microsoft.com/mem/intune/remote-actions/device-lost-mode)   (alleen iOS)<br/>- [Snel scannen](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)(alleen Windows 10)<br/>- [Extern beheer voor Android](https://docs.microsoft.com/mem/intune/remote-actions/teamviewer-support)<br/>- [Extern vergrendelen](https://docs.microsoft.com/mem/intune/remote-actions/device-remote-lock)<br/>- [Naam van apparaat wijzigen](https://docs.microsoft.com/mem/intune/remote-actions/device-rename)<br/>- [Wachtwoord opnieuw instellen](https://docs.microsoft.com/mem/intune/remote-actions/device-passcode-reset)<br/>- [Opnieuw opstarten](https://docs.microsoft.com/mem/intune/remote-actions/device-restart)   (Alleen Windows)<br/>- [Buiten gebruik stellen](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#retire)<br/>-Windows Defender-beveiligingsinformatie bijwerken (alleen Windows)<br/>-Windows 10 pincode opnieuw instellen (alleen Windows)<br/>- [Vegen](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#wipe)<br/>- [Aangepaste meldingen verzenden](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device)   (Android, iOS, iPad OS)<br/>- [Apparaat synchroniseren](https://docs.microsoft.com/mem/intune/remote-actions/device-sync)|
+|Apparaattypen|Het beheren van diverse varianten van OS en belangrijkste beheermodus. |Windows<br/>Apparaten<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>Apparaten<br/>Android<br/>Android Samsung KNOX<br/>Mac OS, iPad OS|
+|Apparaatcompatibiliteit|Stel beveiligingsbeleid in en beheer dit, zoals pincode vergrendeling op apparaatniveau en detectie van jailbreak. |Beperkingen voor Android 9 en latere apparaten. [Details](capabilities.md)weergeven. |Ja|
+|Voorwaardelijke toegang op basis van apparaatcompatibiliteit |Voorkomen dat niet-compatibele apparaten toegang hebben tot zakelijke e-mail en-gegevens vanuit de Cloud. |Niet ondersteund in Windows 10.<br/>Beperkt tot het beheren van de toegang tot Exchange Online, SharePoint Online en Outlook. |Nee |
+|Apparaatconfiguratie  |Instellingen configureren voor apparaten (bijvoorbeeld de camera uitschakelen)|Apparaatcompatibiliteit|Stel beveiligingsbeleid in en beheer dit, zoals pincode vergrendeling op apparaatniveau en detectie van jailbreak. |Beperkingen voor Android 9 en latere apparaten. [Details](capabilities.md)weergeven. |Ja|
+ |Beperkte set instellingen. |Ja|
 |E-mail profielen  |Het inrichten van een systeemeigen e-mail profiel op het apparaat. |Ja|Ja|
-|WIFI-profielen |Het inrichten van een systeemeigen WIFI-profiel op het apparaat. |Nee|Ja|
+|WiFi-profielen |Het inrichten van een systeemeigen WiFi-profiel op het apparaat. |Nee|Ja|
 |VPN-profielen |Het inrichten van een systeemeigen VPN-profiel op het apparaat. |Nee|Ja|
-|MDM-Toepassingsbeheer  |Implementeer uw interne line-of-Business-Apps en van apps winkels voor gebruikers. |Nee|Ja|
-|Mobiele toepassing beschermen  |Zorg ervoor dat uw gebruikers veilig toegang krijgen tot bedrijfsgegevens met behulp van de Office Mobile-en line-of-Business-Apps waarover ze weten en wat de beveiliging van gegevens kan helpen voor het beperken van acties zoals kopiëren, knippen, plakken en opslaan als voor alleen de apps die zijn erkend voor bedrijfsgegevens. Werkt zelfs als de apparaten niet zijn ingeschreven op MDM. Zie app-gegevens beschermen met behulp van MAM-beleidsregels. |Nee|Ja|
+|MDM-Toepassingsbeheer |Implementeer uw interne line-of-Business-Apps en van apps winkels voor gebruikers. |Nee|Ja|
+|MAM |Zorg ervoor dat uw gebruikers veilig toegang hebben tot de bedrijfsgegevens met de Office Mobile-en line-of-Business-Apps door de werking van acties zoals kopiëren, knippen, plakken en opslaan als te beperken tot alleen de apps die zijn goedgekeurd voor bedrijfsgegevens. |Nee|Ja|
 |Beheerde browser  |Veiliger browsen op het web met behulp van de Edge-app. |Nee|Ja|
-|Nul aanraak Programma's |Registreer grote nummers van bedrijfseigendoms apparaten, terwijl de gebruikersinstellingen eenvoudiger worden gemaakt. |Nee|Ja|
+|Ongeproefde aanraak Programma's voor aanmelding |Registreer grote nummers van bedrijfseigendoms apparaten, terwijl gebruikersinstellingen eenvoudiger worden. |Nee|Ja|
+|||
+
+Naast de functies die in de bovenstaande tabel worden vermeld, zijn basis mobiliteit en beveiliging en intune ook een reeks externe acties opgenomen waarmee opdrachten naar apparaten via internet worden verzonden. U kunt bijvoorbeeld Office-gegevens verwijderen van het apparaat van een werknemer, terwijl u persoonlijke gegevens op hun plaats laat staan (buiten gebruik stellen), Office-apps verwijderen van het apparaat van een werknemer (wissen) of een apparaat opnieuw instellen op de fabrieksinstellingen (volledig wissen). 
+
+Basisacties voor mobiliteit en beveiliging zijn onder meer buiten gebruik stellen, wissen en volledig wissen. Zie [mogelijkheden van eenvoudige mobiliteit en beveiliging](capabilities.md)voor meer informatie over basisacties voor mobiliteit en beveiliging.
+
+Met intune hebt u de volgende set acties:
+
+-   Auto Pilot opnieuw instellen (alleen Windows)
+-  [BitLocker-sneltoets draaien](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys)   (Alleen Windows)
+-  [Het apparaat wissen, buiten gebruik stellen of handmatig opnieuw registreren](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal)
+-  [Activeer-Loc uitschakelen](https://docs.microsoft.com/mem/intune/remote-actions/device-activation-lock-disable)   (alleen iOS)
+-  [Fresh Start](https://docs.microsoft.com/mem/intune/remote-actions/device-fresh-start)   (Alleen Windows)
+- [Volledige scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)   (Alleen Windows 10)
+- [Apparaat zoeken](https://docs.microsoft.com/mem/intune/remote-actions/device-locate)   (alleen iOS)
+- [Verloren modus](https://docs.microsoft.com/mem/intune/remote-actions/device-lost-mode)   (alleen iOS): [snelle scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)(alleen Windows 10)
+- [Extern beheer voor Android](https://docs.microsoft.com/mem/intune/remote-actions/teamviewer-support)
+- [Extern vergrendelen](https://docs.microsoft.com/mem/intune/remote-actions/device-remote-lock)
+- [Naam van apparaat wijzigen](https://docs.microsoft.com/mem/intune/remote-actions/device-rename)
+-  [Wachtwoordcode opnieuw instellen](https://docs.microsoft.com/mem/intune/remote-actions/device-passcode-reset) [Restart](https://docs.microsoft.com/mem/intune/remote-actions/device-restart)   (alleen Windows)
+-  Windows Defender-beveiligingsinformatie bijwerken (alleen Windows)
+-  Windows 10 pincode opnieuw instellen (alleen Windows)
+-  [Aangepaste meldingen verzenden](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device)   (Android, iOS, iPad OS)
+-  [Apparaat synchroniseren](https://docs.microsoft.com/mem/intune/remote-actions/device-sync)
+
+Zie [Microsoft intune-documentatie](https://docs.microsoft.com/mem/intune/)voor meer informatie over intune-acties.

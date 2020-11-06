@@ -13,15 +13,17 @@ ms.custom: ''
 ms.collection:
 - Strat_SP_gtc
 - SPO_Content
+- m365solution-scenario
+- m365solution-spintranet
 localization_priority: Normal
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: Breid uw Microsoft 365-aanwezigheid uit naar meerdere geografische regio's met mogelijkheden voor meervoudige geo-mogelijkheden in OneDrive online.
-ms.openlocfilehash: 73561e8420d12687474e3cd69eb389fc69c2038e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 84abfc01d5073889e998347f58d4a3e8bb29ea33
+ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689118"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48930175"
 ---
 # <a name="multi-geo-capabilities-in-onedrive-and-sharepoint-online"></a>Mogelijkheden voor meervoudige geo in OneDrive en SharePoint Online
 
@@ -55,7 +57,7 @@ Het instellen en beheren van uw omgeving met meerdere geografische omgevingen do
 
 [Meerdere geografische groepen in SharePoint-en Microsoft 365-groepen](https://techcommunity.microsoft.com/t5/Office-365-Blog/Now-available-Multi-Geo-in-SharePoint-and-Office-365-Groups/ba-p/263302)
 
-[Een omgeving met meerdere geografische gebieden beheren](administering-a-multi-geo-environment.md)
+[Een multi-geo-omgeving beheren](administering-a-multi-geo-environment.md)
 
 [SharePoint-opslag quota's in meerdere geografische omgevingen](sharepoint-multi-geo-storage-quota.md)
 
