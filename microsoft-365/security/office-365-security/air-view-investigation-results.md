@@ -17,47 +17,45 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 kunt u de resultaten en de belangrijkste bevindingen bekijken.
-ms.date: 09/29/2020
-ms.openlocfilehash: 9640ec9429f1c8317c6526976b2fe24c1137115a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.date: 11/05/2020
+ms.openlocfilehash: 0f472c117ff1f6c2b563063d0eeb9a27cc5afebe
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844570"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931988"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Wanneer er een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in [Microsoft Defender voor Office 365](office-365-atp.md), is er informatie over dat onderzoek beschikbaar tijdens en na het proces voor automatisch onderzoek. Als u de benodigde machtigingen hebt, kunt u deze gegevens bekijken in de weergave Details van onderzoek. De weergave onderzoek Details biedt u de actuele status en de mogelijkheid om alle in behandeling zijnde acties goed te keuren.
+Wanneer er een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in [Microsoft Defender voor Office 365](office-365-atp.md), is er informatie over dat onderzoek beschikbaar tijdens en na het proces voor automatisch onderzoek. Als u de benodigde machtigingen hebt, kunt u deze gegevens weergeven in het Microsoft 365-Beveiligingscentrum. Onderzoek Details bieden u de nieuwste status en de mogelijkheid om alle in behandeling zijnde acties goed te keuren.
 
 ## <a name="investigation-status"></a>Status van onderzoek
 
 Met de status van onderzoek wordt de voortgang van de analyse en acties aangegeven. Wanneer het onderzoek wordt uitgevoerd, wordt de status gewijzigd om aan te geven of er bedreigingen zijn gevonden en of de acties zijn goedgekeurd.
 
-****
-
-|Status|Wat betekent dit?|
-|---|---|
-|Starten| Het onderzoek is geactiveerd en wacht tot de uitvoering is begonnen.|
-|Werking| Het onderzoek proces is begonnen en wordt uitgevoerd. Deze status treedt ook op wanneer [acties in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) zijn goedgekeurd.|
-|Geen bedreigingen gevonden| Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) vastgesteld. <br/><br/>**Tip** : als u vermoedt dat er iets mis is, kunt u de actie ondernemen met behulp van de [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
-|Bedreigingen gevonden|Het geautomatiseerde onderzoek heeft problemen gevonden, maar er zijn geen specifieke herstelacties om deze problemen op te lossen.<br/><br/> De status van de bedreigingen blijkt te bestaan wanneer sommige typen gebruikersactiviteiten zijn gevonden, maar er zijn geen opruimings acties beschikbaar. Voorbeelden hiervan zijn een van de volgende gebruikersactiviteiten: <br/>-Een gebeurtenis van [preventie van gegevensverlies](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) (DLP) <br/>-Een afwijkende e-mail verzenden <br/>-Verstuur malware <br/>-Verzonden phishing<br/>Het onderzoek vond geen schadelijke Url's, bestanden of e-mailberichten die u wilt herstellen, en geen activiteiten van het postvak voor het oplossen van problemen, zoals het uitschakelen van doorstuurregels of delegatie. <br/><br/>**Tip** : als u vermoedt dat er een fout is opgetreden (zoals een onwaar negatief), kunt u onderzoek doen en actie ondernemen met behulp van de [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
-|Beëindigd door systeem| Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen worden beëindigd:<br/>-De acties die in behandeling zijn verlopen. Time-out van activiteiten in behandeling na goedkeuring voor één week. <br/>-Er zijn te veel acties. Als u bijvoorbeeld wilt dat te veel gebruikers op schadelijke Url's klikken, kan dit de mogelijkheid voor het onderzoek van alle analyseren te lang zijn, zodat het onderzoek stopt. <br/><br/>**Tip** : als een onderzoek stopt voordat er een actie is ondernomen, kunt u de [bedreigings Verkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) gebruiken om bedreigingen te vinden en op te lossen.|
-|Actie in behandeling| Het onderzoek heeft een bedreiging gevonden, zoals een kwaadaardige e-mail, een schadelijke URL of een instelling voor risicoieve postvakken, en een actie om te voorkomen dat de bedreiging op de [goedkeuring](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)wacht.<br/><br/>De Actiestatus in behandeling wordt geactiveerd wanneer er een risico bestaat met een bijbehorende actie. De lijst met acties die in behandeling zijn, kan echter toenemen wanneer een onderzoek wordt uitgevoerd. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) om te zien of andere items nog niet zijn voltooid.|
-|Herstelde| Het onderzoek is voltooid en alle acties zijn goedgekeurd (volledig hersteld).<br/><br/>**Opmerking** : goedgekeurde herstelacties kunnen fouten bevatten waarmee de bewerkingen niet worden uitgevoerd. De status van onderzoek heeft geen invloed op het feit of herstelacties succesvol zijn voltooid. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor uitgebreide resultaten.|
-|Gedeeltelijk opgelost| Het onderzoek vertoont een herstelactie en sommige zijn goedgekeurd en voltooid. Andere acties zijn nog steeds [in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).|
-|Mislukt| Minstens één onderzoek analyse heeft een probleem voorgedaan waarbij het niet goed kon worden voltooid. <br/><br/>**Opmerking** : als een onderzoek mislukt nadat de acties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds geslaagd. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor uitgebreide resultaten.|
-|In wachtrij geplaatst door beperking| Er wordt een onderzoek in een wachtrij gehouden. Wanneer andere tests zijn voltooid, begint het in de wachtrij geplaatste onderzoek. Beperking helpt de prestaties van de service te voorkomen. <br/><br/>**Tip** : met de actie in behandeling kunnen de hoeveelheid nieuwe onderzoeken worden beperkt. Zorg ervoor dat de [actie in behandeling is goedgekeurd (of genegeerd)](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions).|
-|Beëindigd door de beperking| Als een onderzoek te lang wordt in de wachtrij gehouden, stopt dit. <br/><br/>**Tip** : u kunt [een onderzoek starten vanuit de Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).|
+|Status|Beschrijving|
+|:---|:---|
+|**Starten** | Het onderzoek is geactiveerd en wacht tot de uitvoering is begonnen.|
+|**Werking** | Het onderzoek proces is begonnen en wordt uitgevoerd. Deze status treedt ook op wanneer [acties in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) zijn goedgekeurd.|
+|**Geen bedreigingen gevonden** | Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) vastgesteld. <br/><br/>**Tip** : als u vermoedt dat er iets mis is, kunt u de actie ondernemen met behulp van de [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
+|**Bedreigingen gevonden** |Het geautomatiseerde onderzoek heeft problemen gevonden, maar er zijn geen specifieke herstelacties om deze problemen op te lossen.<br/><br/> De status van de **bedreigingen blijkt** te bestaan wanneer sommige typen gebruikersactiviteiten zijn gevonden, maar er zijn geen opruimings acties beschikbaar. Voorbeelden hiervan zijn een van de volgende gebruikersactiviteiten: <br/>-Een gebeurtenis van [preventie van gegevensverlies](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) (DLP) <br/>-Een afwijkende e-mail verzenden <br/>-Verstuur malware <br/>-Verzonden phishing<br/>Het onderzoek vond geen schadelijke Url's, bestanden of e-mailberichten die u wilt herstellen, en geen activiteiten van het postvak voor het oplossen van problemen, zoals het uitschakelen van doorstuurregels of delegatie. <br/><br/>**Tip** : als u vermoedt dat er een fout is opgetreden (zoals een onwaar negatief), kunt u onderzoek doen en actie ondernemen met behulp van de [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
+|**Beëindigd door systeem** | Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen worden beëindigd:<br/>-De acties die in behandeling zijn verlopen. Time-out van activiteiten in behandeling na goedkeuring voor één week. <br/>-Er zijn te veel acties. Als u bijvoorbeeld wilt dat te veel gebruikers op schadelijke Url's klikken, kan dit de mogelijkheid voor het onderzoek van alle analyseren te lang zijn, zodat het onderzoek stopt. <br/><br/>**Tip** : als een onderzoek stopt voordat er een actie is ondernomen, kunt u de [bedreigings Verkenner](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) gebruiken om bedreigingen te vinden en op te lossen.|
+|**Actie in behandeling** | Het onderzoek heeft een bedreiging gevonden, zoals een kwaadaardige e-mail, een schadelijke URL of een instelling voor risicoieve postvakken, en een actie om te voorkomen dat de bedreiging op de [goedkeuring wacht](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).<br/><br/>De **Actiestatus in behandeling** wordt geactiveerd wanneer er een risico bestaat met een bijbehorende actie. De lijst met acties die in behandeling zijn, kan echter toenemen wanneer een onderzoek wordt uitgevoerd. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) om te zien of andere items nog niet zijn voltooid.|
+|**Herstelde** | Het onderzoek is voltooid en alle verwerkings acties zijn goedgekeurd (dit wordt als volledig doorgevoerd aangegeven).<br/><br/>**Opmerking** : goedgekeurde herstelacties kunnen fouten bevatten waarmee de bewerkingen niet worden uitgevoerd. De status van onderzoek heeft geen invloed op het feit of herstelacties succesvol zijn voltooid. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor uitgebreide resultaten.|
+|**Gedeeltelijk opgelost**| Het onderzoek vertoont een herstelactie en sommige zijn goedgekeurd en voltooid. Andere acties zijn nog steeds [in behandeling](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions).|
+|**Mislukt** | Minstens één onderzoek analyse heeft een probleem voorgedaan waarbij het niet goed kon worden voltooid. <br/><br/>**Opmerking** : als een onderzoek mislukt nadat de acties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds geslaagd. Bekijk het [onderzoek logboek](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) voor uitgebreide resultaten.|
+|**In wachtrij geplaatst door beperking** | Er wordt een onderzoek in een wachtrij gehouden. Wanneer andere tests zijn voltooid, begint het in de wachtrij geplaatste onderzoek. Beperking helpt de prestaties van de service te voorkomen. <br/><br/>**Tip** : met de actie in behandeling kunnen de hoeveelheid nieuwe onderzoeken worden beperkt. Zorg ervoor dat de [actie in behandeling is goedgekeurd (of genegeerd)](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions).|
+|**Beëindigd door de beperking** | Als een onderzoek te lang wordt in de wachtrij gehouden, stopt dit. <br/><br/>**Tip** : u kunt [een onderzoek starten vanuit de Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).|
 |
 
 ## <a name="view-details-of-an-investigation"></a>Details van een onderzoek weergeven
 
 1. Ga naar de beveiligings & nalevings centrum ( [https://protection.office.com](https://protection.office.com) ) en meld u aan.
 
-2. Voer een van de volgende bewerkingen uit:
+2. Voer een van de volgende handelingen uit:
 
     - Ga naar **Threat management**  >  **Dashboard** Threat Management. U gaat nu naar het [beveiligings dashboard](security-dashboard.md). Uw lucht widgets worden weergegeven boven aan het [beveiligings dashboard](security-dashboard.md). Selecteer een widget, zoals **onderzoek samenvatting**.
 
@@ -75,7 +73,9 @@ Met de status van onderzoek wordt de voortgang van de analyse en acties aangegev
 
 ## <a name="view-details-about-an-alert-related-to-an-investigation"></a>Details weergeven van een waarschuwing die is gerelateerd aan een onderzoek
 
-Bepaalde soorten waarschuwingen activeren geautomatiseerd onderzoek in Microsoft 365. Zie [waarschuwingen](automated-investigation-response-office.md#alerts)voor meer informatie. Gebruik de volgende procedure om details weer te geven van een waarschuwing die is gekoppeld aan een geautomatiseerd onderzoek.
+Bepaalde soorten waarschuwingen activeren geautomatiseerd onderzoek in Microsoft 365. Zie voor meer informatie: [waarschuwings beleid voor het activeren van geautomatiseerde onderzoeken](office-365-air.md#which-alert-policies-trigger-automated-investigations). 
+
+Gebruik de volgende procedure om details weer te geven van een waarschuwing die is gekoppeld aan een geautomatiseerd onderzoek.
 
 1. Ga naar de beveiligings & nalevings centrum ( [https://protection.office.com](https://protection.office.com) ) en meld u aan.
 
@@ -108,7 +108,9 @@ Op de pagina geautomatiseerd onderzoek ziet u de onderzoeken en de huidige statu
 U kunt:
 
 - Ga rechtstreeks naar een onderzoek (Selecteer een **onderzoek-id** ).
+
 - Filters toepassen. Kies uit **onderzoek type** , **tijdsbereik** , **status** of een combinatie van deze.
+
 - Exporteer de gegevens naar een CSV-bestand.
 
 ### <a name="investigation-graph"></a>Onderzoek grafiek
@@ -120,8 +122,11 @@ Wanneer u een specifiek onderzoek opent, ziet u de pagina onderzoeksteam. Op dez
 U kunt:
 
 - Een visueel overzicht van het huidige onderzoek.
+
 - Een overzicht van de duur van het onderzoek weergeven.
+
 - Selecteer een knooppunt in de visualisatie om Details voor dat knooppunt weer te geven.
+
 - Selecteer boven aan het tabblad een tabblad om Details voor dat tabblad weer te geven.
 
 ### <a name="alert-investigation"></a>Waarschuwing voor onderzoek
@@ -133,63 +138,98 @@ Op het tabblad **waarschuwingen** voor een onderzoek kunt u meldingen van belang
 U kunt:
 
 - Een visueel overzicht van de huidige trigger en bijbehorende waarschuwingen weergeven.
+
 - Selecteer een waarschuwing in de lijst om een uitklap pagina te openen waarin de details van de volledige waarschuwing worden weergegeven.
 
 ### <a name="email-investigation"></a>E-mail onderzoek
 
-Op het tabblad **e-mail** voor een onderzoek ziet u de oorspronkelijke e-mailberichten en de clusters met soortgelijke e-mail geïdentificeerd als onderdeel van het onderzoek.
-
-De hoeveelheid e-mail die gebruikers in een organisatie verzenden en ontvangen, en de meerdere gebruikers van e-mail communicatie en aanvallen, het proces van
-
-- het cluster van e-mailberichten op basis van soortgelijke kenmerken van een kop, hoofdtekst, URL en bijlage in een bericht
-- het scheiden van kwaadaardige e-mail van de goede e-mail; en
-- actie ondernemen op kwaadwillende e-mailberichten
-
-kan veel tijd in beslag nemen. AIR automatiseert dit proces nu en bespaart de tijd en inspanning van uw organisatie.
-
-Er worden drie verschillende typen e-mail clusters aangegeven tijdens de stap voor de analyse van e-mail: gelijkenis clusters (alle controles), indicator clusters (alle controles) en Postvak/gebruikers clusters.
-
-- Gelijkenis clusters zijn e-mailberichten die worden aangegeven met de jacht voor e-mailberichten met soortgelijke afzender en inhouds kenmerken. Deze clusters worden geëvalueerd voor schadelijke inhoud op basis van de oorspronkelijke detectie bevindingen. E-mail clusters met voldoende schadelijke e-mail detectie worden als schadelijk beschouwd.
-- Indicator clusters zijn e-mailberichten die worden geïdentificeerd door te zoeken naar dezelfde indicator entiteit (bestandshash of URL) van het oorspronkelijke e-mailbericht. Wanneer het ouserriginal-bestand/de URL-entiteit als schadelijk wordt geïdentificeerd, past lucht de indicator verdict toe op het hele cluster van e-mailberichten die de desbetreffende entiteit bevatten. Een bestand dat is geïdentificeerd als malware betekent dat het cluster van e-mailberichten met dat bestand als malware-e-mailberichten wordt behandeld.
-- Postvak/gebruikers clusters zijn e-mailberichten die zijn gerelateerd aan de gebruiker bij een aanvaller onderzoek.  Houd er rekening mee dat deze e-mail clusters voor verdere analyse door het team van beveiligingsbewerkingen zijn bedoeld en geen acties voor het doorsturen van e-mailberichten kunnen genereren.  Het postvak/gebruikers clusters van de compromis van Playbook beoordeelt de e-mail die wordt verzonden door de gebruiker die wordt geanalyseerd, zodat u inzicht krijgt in de mogelijke gevolgen van e-mailberichten die worden verzonden via het postvak:
-    - Kwaadwillende e-mailberichten die zijn verzonden via het postvak of de gebruiker, die de mogelijke compromissen van het postvak of de account weergeven en worden andere gebruikers/postvakken weergegeven die schadelijk kunnen zijn als onderdeel van een aanval.
-    - Verdachte e-mailberichten die zijn verzonden door het postvak of de gebruiker, met ongewenste e-mail/bulk berichten die vanuit het postvak zijn verzonden en die mogelijk te maken hebben met mogelijke compromissen of ten minste een ongewenste activiteit van het e-mailaccount aangeven.
-    - U kunt e-mailberichten die zijn verzonden door het postvak of de gebruiker wissen, waarmee het beveiligingsactiviteiten team een weergave biedt van legitieme gebruikers e-mailberichten die een weergave van geldige e-mail e-mailaccounts bevat.
-
-Het doel van clustering is om andere verwante e-mailberichten te zoeken die door dezelfde afzender worden verzonden als onderdeel van een aanval of een campagne.  In sommige gevallen kan via legitiem e-mail onderzoek een onderzoek worden gestart (bijvoorbeeld een gebruiker heeft een marketing-e-mail).  In deze scenario's moet in het cluster van e-mail clusters wordt aangegeven dat e-mail clusters niet schadelijk zijn, op voor willekeurige wijze, en het is **niet mogelijk** om e-mail te verwijderen.
-
-Het tabblad **e-mail** bevat ook e-mail items die betrekking hebben op het onderzoek, zoals de door de gebruiker gerapporteerde e-mail gegevens, het oorspronkelijke e-mailbericht, het e-mailbericht of de e-mailberichten zapped vanwege malware/phishing, enzovoort.
-
-Het aantal e-mailberichten dat wordt aangegeven op het tabblad e-mail, staat momenteel voor het totaal van alle e-mailberichten die worden weergegeven op het tabblad **e-mail** . Aangezien e-mailberichten in meerdere clusters zijn opgenomen, wordt het totale aantal e-mailberichten dat wordt aangeduid (en beïnvloed door acties voor herbemiddeling) het aantal unieke e-mailberichten die in alle clusters en e-mailberichten van de oorspronkelijke geadresseerden zijn aangegeven.
-
-E-mail van de Verkenner en de ether worden per geadresseerde verzonden, aangezien de beveiligings-Verdicts,-acties en-bezorgingslocaties verschillen per geadresseerde. Daarom telt een oorspronkelijk e-mailbericht dat naar drie gebruikers is verzonden, een totaal van drie e-mailberichten in plaats van één e-mailbericht. Er kunnen situaties zijn waarin een e-mailbericht twee of meer keren wordt geteld, bijvoorbeeld wanneer een e-mail meerdere acties bevat, of als er meerdere kopieën van de e-mail zijn wanneer alle acties plaatsvinden. Als u bijvoorbeeld een malware-e-mailbericht dat bij de bezorging is gedetecteerd, wordt weergegeven in zowel een vergrendelde e-mail als een vervangend e-mailbericht (bedreigings bestand vervangen door een waarschuwings bestand, vervolgens bezorgd in het postvak van de gebruiker). Aangezien er in het systeem wel of meerdere kopieën van de e-mail worden weergegeven, worden beide mogelijk geteld in het aantal clusters.
-
-Het aantal e-mailberichten wordt berekend op het moment van het onderzoek en sommige tellingen worden herberekend wanneer u onderzoek-flyouten opent (op basis van een onderliggende query). Het aantal e-mailberichten dat wordt weergegeven voor de e-mail clusters op het tabblad e-mail en de waarde voor e-mail hoeveelheid die wordt weergegeven in het cluster flyout, worden berekend op het moment van onderzoek en niet gewijzigd. Het aantal e-mailberichten onderaan het tabblad e-mail van de flyout e-mail cluster en het aantal e-mailberichten in Explorer weerspiegelt de e-mailberichten die zijn ontvangen na de eerste analyse van het onderzoek. Daarom wordt in een e-mail cluster met een oorspronkelijk aantal tien e-mailberichten een e-mail lijst met het totaal aantal tien weergegeven wanneer vijf e-mailberichten binnenkomen tussen de fase onderzoek analyse en wanneer de beheerder het onderzoek beoordeelt.  Op deze manier kunnen ook oude onderzoeken beginnen met het maken van een groter aantal van de Verkenner-query's, aangezien de versie van de versie van de versie van de versie van Office 365 P2 na 7 dagen voor proefperiode en 30 dagen voor betaalde licenties  Als u de weergave van zowel historische als huidige aantallen in verschillende weergaven wilt weergeven, wordt het e-mailbericht op het moment van het onderzoek en de huidige impact op het moment van herstel weergegeven.
-
-U kunt bijvoorbeeld het volgende scenario volgen. Het eerste cluster van drie e-mailberichten werd als phishing beschouwd. Een ander cluster met soortgelijke berichten met hetzelfde IP-adres en onderwerp werd gevonden en als schadelijk werd beschouwd, omdat sommige hiervan zijn geïdentificeerd als phishing tijdens de eerste detectie.
+Op het tabblad **e-mail** voor een onderzoek ziet u de oorspronkelijke e-mailberichten en de clusters met soortgelijke e-mail geïdentificeerd als onderdeel van het onderzoek. Het tabblad **e-mail** bevat ook e-mail items die betrekking hebben op het onderzoek, zoals de door de gebruiker gerapporteerde e-mail gegevens, het oorspronkelijke e-mailbericht, het e-mailbericht of de e-mailberichten zapped vanwege malware/phishing, enzovoort.
 
 ![E-mailbericht over lucht onderzoek](../../media/air-investigationemailpage.png)
 
-U kunt:
+Met een onderzoek via e-mail kunt u:
+
 - Een visueel overzicht van de huidige cluster resultaten en-bedreigingen weergeven.
+
 - Klik op een cluster entiteit of een lijst met bedreigingen om een uitklap pagina te openen waarop de details van de volledige waarschuwing worden weergegeven.
-- Onderzoek het e-mail cluster verder door te klikken op de koppeling openen in Verkenner boven aan het tabblad Details van e-mail cluster
+
+- Onderzoek het e-mail cluster verder door te klikken op de koppeling **openen in Verkenner** boven aan het tabblad **Details van e-mail cluster**
 
 ![E-mail met een lucht onderzoek met flyout Details](../../media/air-investigationemailpageflyoutdetails.png)
 
+De volgende stappen kunnen veel tijd in beslag nemen, wat het volume van de e-mail is die gebruikers in een organisatie verzenden en ontvangen, plus de meerdere gebruikers aard van e-mail communicatie en aanvallen:
+
+1. E-mailberichten op basis van vergelijkbare kenmerken van een kop, hoofdtekst, URL en bijlagen in een e-mailbericht geclusterd
+
+2. Schadelijke e-mail van goede e-mail scheiden
+
+3. Actie ondernemen op kwaadwillende e-mailberichten
+
+AIR automatiseert dit proces en bespaart de tijd en inspanning van uw organisatie. 
+
+#### <a name="types-of-email-clusters"></a>Typen e-mail clusters
+
+Er kunnen drie verschillende typen e-mail clusters worden geïdentificeerd tijdens de stap voor de analyse van e-mail: gelijkenis clusters (alle controles), indicator clusters (alle controles) en Postvak/gebruikers clusters. In de volgende tabel worden deze typen e-mail clusters beschreven.
+
+|E-mail cluster  |Beschrijving  |
+|---------|---------|
+|Gelijkenis clusters     |E-mailberichten die worden geïdentificeerd door jacht voor e-mailberichten met soortgelijke afzender en inhouds kenmerken. Deze clusters worden geëvalueerd voor schadelijke inhoud op basis van de oorspronkelijke detectie bevindingen. E-mail clusters met voldoende schadelijke e-mail detectie worden als schadelijk beschouwd.         |
+|Indicator clusters | E-mailberichten die worden geïdentificeerd door te zoeken naar dezelfde indicator entiteit (bestandshash of URL) van het oorspronkelijke e-mailbericht. Wanneer de oorspronkelijke bestands-en URL-entiteit als schadelijk wordt geïdentificeerd, past de ether de indicator verdict toe aan het volledige cluster van e-mailberichten die de desbetreffende entiteit bevatten. Een bestand dat is geïdentificeerd als malware betekent dat het cluster van e-mailberichten met dat bestand als malware-e-mailberichten wordt behandeld. |
+|Postvak/gebruikers clusters | E-mailberichten met betrekking tot de gebruiker bij een aanvaller onderzoek.  Deze e-mail clusters zijn voor verdere analyse door het team van beveiligingsactiviteiten en genereren geen herstelacties voor e-mailberichten. <br/> De beveiligings Playbook van de gebruiker bekijkt de e-mailberichten die worden verzonden wanneer de gebruiker wordt geanalyseerd om inzicht te krijgen in de mogelijke gevolgen van e-mailberichten die vanuit het postvak worden verzonden. |
+
 > [!NOTE]
-> In het context van e-mailberichten ziet u mogelijk een volume anomalie risico, als onderdeel van het onderzoek. Een volume anomalie geeft een Prikker aan in soortgelijke e-mailberichten over de tijd voor onderzoek gebeurtenissen, vergeleken met eerdere tijds gebieden. Deze Prikker in het e-mail verkeer met vergelijkbare kenmerken (zoals onderwerp en e-mailadres van de afzender, Tekstsoort gelijke en IP-adres van de afzender is gebruikelijk van het starten van e-mail campagnes of aanvallen. Met grote hoeveelheden spam en legitieme e-mail campagnes deelt u deze kenmerken vaak. Volume afwijkingen vormen een potentiële bedreiging, en zijn daarom minder sterk, vergeleken met malware of phishing-bedreigingen die worden aangeduid met anti-virus motoren, detonatie of kwaadaardige reputatie.
+> Het doel van clustering is om andere verwante e-mailberichten te zoeken die door dezelfde afzender worden verzonden als onderdeel van een aanval of een campagne.  In sommige gevallen kan via legitiem e-mail onderzoek een onderzoek plaatsvinden (bijvoorbeeld een gebruiker heeft een marketing-e-mail).  In deze scenario's moet in het cluster van e-mail clusters wordt aangegeven dat e-mail clusters niet schadelijk zijn, op voor willekeurige wijze, geen bedreiging en **geen** e-mailberichten worden verwijderd.
+
+#### <a name="email-classifications"></a>Categorieën voor e-mail
+
+Wanneer e-mailberichten worden geanalyseerd, worden deze geclassificeerd als *schadelijk* , *verdacht* of *schoon* (zoals in, *niet aangeduid als bedreiging* ):
+
+- *Kwaadwillende e-mailberichten* die zijn verzonden via het postvak/van de gebruiker, geven de mogelijke compromissen van het postvak/account aan Andere gebruikers/postvakken waarop kwaadaardige e-mail als onderdeel van een aanval is aangetast, worden weergegeven.
+
+- *Verdachte e-mailberichten* die door het postvak zijn verzonden, geven de mogelijkheid aan dat een niet-aangetaste e-mail activiteit of een ongewenst Deze berichten bevatten spam-en bulk-e-mailberichten die vanuit het postvak zijn verzonden.
+
+- *Overbodige e-mailberichten* (e-mailberichten die worden beschouwd als geen bedreiging) die door het postvak worden verzonden Deze e-mailberichten kunnen echter ook gegevens exfiltration bevatten als het e-mailaccount wordt aangetast.
+
+#### <a name="more-about-email-counts"></a>Meer informatie over het aantal e-mailberichten
+
+Het aantal e-mailberichten dat wordt aangegeven op het tabblad e-mail, staat momenteel voor het totaal van alle e-mailberichten die worden weergegeven op het tabblad **e-mail** . Aangezien e-mailberichten in meerdere clusters zijn opgenomen, wordt het totale aantal e-mailberichten dat wordt aangeduid (en beïnvloed door acties voor herbemiddeling) het aantal unieke e-mailberichten die in alle clusters en e-mailberichten van de oorspronkelijke geadresseerden zijn aangegeven.
+
+E-mail van de type [Explorer](threat-explorer.md) en Air wordt per geadresseerde verzonden, aangezien de beveiligings-Verdicts,-acties en de bezorgingslocaties verschillen per geadresseerde. Daarom telt een oorspronkelijk e-mailbericht dat naar drie gebruikers is verzonden, een totaal van drie e-mailberichten in plaats van één e-mailbericht. 
+
+Er kunnen situaties zijn waarin een e-mailbericht twee of meer keren wordt geteld, bijvoorbeeld wanneer een e-mail meerdere acties bevat, of als er meerdere kopieën van de e-mail zijn wanneer alle acties plaatsvinden. 
+
+Als u bijvoorbeeld een malware-e-mailbericht dat bij de bezorging is gedetecteerd, wordt weergegeven in zowel een vergrendelde e-mail als een vervangend e-mailbericht (bedreigings bestand vervangen door een waarschuwings bestand, vervolgens bezorgd in het postvak van de gebruiker). Aangezien er in het systeem wel of meerdere kopieën van de e-mail worden weergegeven, worden beide mogelijk geteld in het aantal clusters.
+
+> [!IMPORTANT]
+> Hier volgen enkele punten waarmee u rekening moet houden:
+> 
+> - Het aantal e-mailberichten wordt berekend op het moment van het onderzoek en sommige tellingen worden herberekend wanneer u onderzoek-flyouten opent (gebaseerd op een onderliggende query). 
+> 
+> - Het aantal e-mailberichten dat wordt weergegeven voor de e-mail clusters op het tabblad **e-mail** en de waarde voor e-mail hoeveelheid weergegeven in het cluster flyout worden op het moment van onderzoek berekend en niet gewijzigd. 
+> 
+> - Het aantal e-mailberichten onderaan het tabblad **e-mail** van de flyout e-mail cluster en het aantal e-mailberichten in Explorer weerspiegelt de e-mailberichten die zijn ontvangen na de eerste analyse van het onderzoek. 
+
+Daarom wordt in een e-mail cluster met een oorspronkelijk aantal tien e-mailberichten een e-mail lijst weergegeven met het totaal aantal van 15 wanneer vijf e-mailberichten binnenkomen tussen de fase onderzoek analyse en wanneer de beheerder het onderzoek beoordeelt. Op deze manier kunnen oude onderzoeken ook beginnen met het weergeven van de resultaten van de Verkenner, omdat gegevens in Microsoft Defender voor Office 365, abonnement 2 na 7 dagen voor trials en 30 dagen voor betaalde licenties, verlopen.  
+
+Als u de weergave van zowel historische als huidige aantallen in verschillende weergaven wilt weergeven, wordt het e-mailbericht op het moment van het onderzoek en de huidige impact op het moment van herstel weergegeven.
+
+> [!NOTE]
+> In het context van e-mail ziet u mogelijk een volume anomalie risico, als onderdeel van het onderzoek. Een volume anomalie geeft een Prikker aan in soortgelijke e-mailberichten over de tijd voor onderzoek gebeurtenissen, vergeleken met eerdere tijds gebieden. Deze Prikker in het e-mail verkeer met vergelijkbare kenmerken (zoals onderwerp en e-mailadres van de afzender, Tekstsoort gelijke en IP-adres van de afzender is gebruikelijk van het starten van e-mail campagnes of aanvallen. Met grote hoeveelheden spam en legitieme e-mail campagnes deelt u deze kenmerken vaak. 
+>
+> Volume afwijkingen vormen een potentiële bedreiging, en zijn daarom minder sterk, vergeleken met malware of phishing-bedreigingen die worden aangeduid met anti-virus motoren, detonatie of kwaadaardige reputatie.
 
 ### <a name="user-investigation"></a>Gebruikers onderzoek
 
 Op het tabblad **gebruikers** ziet u alle gebruikers die als onderdeel van het onderzoek worden geïdentificeerd. Gebruikersaccounts worden weergegeven in het onderzoek wanneer er sprake is van een gebeurtenis of aanduiding dat deze gebruikersaccounts mogelijk worden beïnvloed of gemanipuleerd.
 
-In de volgende afbeelding heeft lucht bijvoorbeeld indicatoren voor compromissen en afwijkingen aangegeven op basis van een nieuwe regel voor Postvak in die is gemaakt. Aanvullende informatie (het bewijs) van het onderzoek bevindt zich via gedetailleerde weergaven op dit tabblad. Indicatoren voor compromissen en anomalieën kunnen ook afwijkende detecties van de beveiliging van de [Microsoft Cloud app](https://docs.microsoft.com/cloud-app-security)omvatten.
+In de volgende afbeelding heeft lucht bijvoorbeeld indicatoren voor compromissen en afwijkingen aangegeven op basis van een nieuwe regel voor Postvak in die is gemaakt. Aanvullende informatie (het bewijs) van het onderzoek bevindt zich via gedetailleerde weergaven op dit tabblad. Indicatoren van compromissen en anomalieën kunnen ook afwijkende detecties van de beveiliging van de [Microsoft Cloud app](https://docs.microsoft.com/cloud-app-security)bevatten.
 
 ![De pagina gebruikers van lucht onderzoek](../../media/air-investigationuserspage.png)
 
 U kunt:
+
 - Een visueel overzicht van geïdentificeerde resultaten en Risico's van gebruikers gevonden.
+
 - Selecteer een gebruiker voor het openen van een uitklap pagina waarop de details van de volledige waarschuwing worden weergegeven.
 
 ### <a name="machine-investigation"></a>Computer onderzoek
@@ -198,13 +238,14 @@ Op het tabblad **computers** ziet u alle systemen die als onderdeel van het onde
 
 ![De pagina AIR-computer voor onderzoek](../../media/air-investigationmachinepage.png)
 
-Als onderdeel van een playbooks, verbindt lucht de vorm van e-mail Risico's met apparaten (bijvoorbeeld zapped malware). Een onderzoek geeft bijvoorbeeld een kwaadaardige bestandshash in [Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
+Als onderdeel van sommige playbooks, verbindt lucht een e-mail bedreiging met apparaten (bijvoorbeeld zapped malware). Een onderzoek geeft bijvoorbeeld een kwaadaardige bestandshash in [Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
 ) om te onderzoeken. Dit helpt voor een geautomatiseerde onderzoek van de relevante computers voor uw gebruikers, zodat bedreigingen zowel in de Cloud als in de eindpunten worden opgelost.
 
 U kunt:
 
 - Bekijk een visueel overzicht van de huidige systemen en bedreigingen.
-- Selecteer een machine om een weergave te openen in de verwante [Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) in het Microsoft Defender-Beveiligingscentrum.
+
+-  Selecteer een machine om een weergave te openen in de verwante [Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) in het Microsoft Defender-Beveiligingscentrum.
 
 ### <a name="entity-investigation"></a>Dienst onderzoek
 
@@ -215,7 +256,9 @@ Hier ziet u de onderzochte entiteiten en Details van de typen entiteiten, zoals 
 ![De pagina met instellingen voor vlieg maatschappijen](../../media/air-investigationentitiespage.png)
 
 U kunt:
+
 - Een visueel overzicht van de onderzoeksinstellingen en bedreigingen voor onderzoek.
+
 - Selecteer een entiteit om een uitklap pagina te openen waarin de details van de gerelateerde entiteit worden weergegeven.
 
 ![Gegevens van AIR onderzoek entiteiten](../../media/air-investigationsentitiespagedetails.png)
@@ -229,50 +272,36 @@ Op het tabblad **logboek** ziet u alle Playbook stappen die tijdens het onderzoe
 U kunt:
 
 - Bekijk een visueel overzicht van de stappen die u hebt gemaakt in Playbook.
+
 - De resultaten naar een CSV-bestand exporteren.
 - Filter de weergave.
 
-****
-
-|Analyzer| Beschrijving|
-|---|---|
-|DLP-schendingen onderzoek|Schendingen van [preventie van gegevensverlies](../../compliance/data-loss-prevention-policies.md) (DLP) onderzoeken|
-|Extractie van e-mail indicatoren|Indicatoren uitpakken uit de koptekst, hoofdtekst en inhoud van een e-mailbericht voor onderzoek|
-|Reputatie van bestands hash|Afwijkingen detecteren op basis van bestands-hashes voor gebruikers en computers in uw organisatie|
-|E-mail cluster identificatie|Analyse van e-mail cluster op basis van koptekst, hoofdtekst, inhoud, bestanden en Url's|
-|Analyse van clustervolume in mail|Analyse van e-mail cluster op basis van uitgaande e-mail patronen volume patronen|
-|Verificatie van e-mail overdracht|De toegang tot gebruikerspostvakken voor dit onderzoek onderzoeken|
-|Onderzoek van regels voor het doorsturen van e-mail|Alle regels voor het doorsturen van e-mail onderzoeken voor postvakken van gebruikers die zijn gekoppeld aan dit onderzoek|
-|Gemiste malware gedetecteerd|Gemiste malware van gebruikerspostvak in uw organisatie detecteren|
-|Op aanvraag detonatie|Detonatie met een uitbellen geactiveerd voor e-mailberichten, bijlagen en Url's|
-|Voor uitgaand e-mail anomalie onderzoek|Afwijkingen detecteren op basis van de historische e-mail stroom voor het verzenden van patronen voor gebruikers binnen uw organisatie|
-|Spam onderzoek uitgaande malware en spam|Intra-organisatie en uitgaande malware, phishing of spam detecteren van gebruikers in uw organisatie|
-|Onderzoek domein van afzender|Controle op aanvraag van domein via de [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
-|IP-onderzoek van afzender| Controle op aanvraag van IP-reputatie via [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
-|URL'S klikken onderzoek| Onderzoek klikken van gebruikers die zijn beveiligd via [veilige koppelingen in Microsoft Defender voor Office 365](atp-safe-links.md) in uw organisatie|
-|URL-reputatie onderzoek|Vraag over de URL op aanvraag van de [Microsoft intelligent Security Graph](https://www.microsoft.com/security/operations/intelligence) en externe bedreigings informatiebronnen|
-|Onderzoek van gebruikersactiviteit|Afwijkingen van gebruikersactiviteiten analyseren in de [Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|
-|Door de gebruiker gerapporteerde e-mail indicatoren|Indicatoren uitpakken uit de koptekst, hoofdtekst en inhoud van door de [gebruiker gerapporteerde e-mail](enable-the-report-message-add-in.md) voor onderzoek|
-|
-
 ### <a name="recommended-actions"></a>Aanbevolen acties
 
-Op het tabblad **acties** ziet u alle Playbook-acties die worden aanbevolen voor herstel na voltooiing van het onderzoek.
+Op het tabblad **acties** ziet u alle Playbook-acties die worden aanbevolen voor herstel na voltooiing van het onderzoek. Acties vastleggen de stappen Microsoft raadt u aan het einde van een onderzoek aan te nemen. Door een of meer acties te selecteren, kunt u deze stappen uitvoeren. 
 
-Acties vastleggen de stappen Microsoft raadt u aan het einde van een onderzoek aan te nemen. Door een of meer acties te selecteren, kunt u deze stappen uitvoeren. Met klikken op **goedkeuren** kunt u beginnen met herstellen. (De juiste machtigingen zijn vereist-de rol ' zoeken en wissen ' is vereist voor het uitvoeren van acties van Explorer en AIR). Een beveiligings lezer kan bijvoorbeeld acties weergeven maar deze niet goedkeuren. Opmerking: u hoeft niet elke actie goed te keuren. Als u niet akkoord gaat met de aanbevolen actie of als uw organisatie bepaalde typen acties niet kiest, kunt u ervoor kiezen **om de acties te negeren of** ze gewoon te negeren en geen actie te ondernemen. Als u alle acties goedkeurt en/of weigert, kunt u het onderzoek volledig sluiten (de status wordt hersteld), terwijl sommige acties niet-compleet worden uitgevoerd, worden de status van het onderzoek wijzigen in een gedeeltelijk herstelstatus.
+Wanneer u **goedkeuring** selecteert, kunt u beginnen met herstellen. (De juiste machtigingen zijn vereist-de rol **zoeken en wissen** is vereist voor het uitvoeren van acties van Explorer en Air). 
+
+Een beveiligings lezer kan bijvoorbeeld acties weergeven, maar deze niet goedkeuren. 
+
+> [!IMPORTANT]
+> U hoeft niet elke actie te keuren. Als u niet akkoord gaat met de aanbevolen actie of als uw organisatie bepaalde typen acties niet kiest, kunt u ervoor kiezen **om de acties te negeren of** ze gewoon te negeren en geen actie te ondernemen. Als u alle acties goedkeurt en/of weigert, kunt u het onderzoek volledig sluiten (de status wordt hersteld), terwijl sommige acties niet-compleet worden uitgevoerd, worden de status van het onderzoek wijzigen in een gedeeltelijk herstelstatus.
 
 ![Actie pagina AIR onderzoek](../../media/air-investigationactionspage.png)
 
 U kunt:
 
 - Een visueel overzicht van de aanbevolen acties in Playbook.
+
 - Selecteer één actie of meerdere acties.
+
 - Aanbevolen acties met opmerkingen goedkeuren of afwijzen.
+
 - De resultaten naar een CSV-bestand exporteren.
+
 - Filter de weergave.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [In behandeling zijnde acties controleren en goedkeuren](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)
 
-- [Meer informatie over een automatisch onderzoek en antwoord in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

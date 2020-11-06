@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a6dec9473ee632b74bb79e50156cedff53a3cba3
-ms.sourcegitcommit: fa26da0be667d4be0121c52b05488dc76c5d626c
+ms.openlocfilehash: c28353698dd372e14d5ec51b92eb4c0c051c92a4
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48795115"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931910"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
 
@@ -127,7 +127,7 @@ U hebt momenteel de pagina met de inschrijvings status (ESP) ingeschakeld. Als u
 
 **Niet gereed**
 
-Voor het weergeven van de voortgang van de **apps en profielen** moet u de standaard-ESP-profielset opgeven. Schakel deze instelling uit door de stappen te volgen in [de pagina inschrijvings status instellen](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status).
+Voor het weergeven van de voortgang van de **apps en profielen** moet u de standaard-ESP-profielset opgeven. Schakel deze instelling uit of zorg ervoor dat toewijzingen aan een Azure AD-groep geen door Microsoft beheerde bureaublad apparaten bevatten door de stappen te volgen in [de pagina inschrijvings status instellen](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status).
 
 **Adviser**
 
@@ -137,9 +137,9 @@ Zorg ervoor dat profielen met de instelling **voortgang van app en profielconfig
 
 Windows 10-apparaten in uw Azure AD-organisatie moeten automatisch worden geregistreerd in intune.
 
-**Niet gereed**
+**Adviser**
 
-Gebruikers in uw Azure AD-organisatie worden niet automatisch ingeschreven in Microsoft intune. Het MDM-gebruikers bereik wijzigen **in** **Alles of alles** . Als u **een aantal** kiest, meldt u zich weer na de inschrijving en selecteert u de groep **modern Workplace-all** Azure AD voor **groepen** .
+Zorg ervoor dat het bereik van MDM-gebruikers is **ingesteld op** **Alles of alles** , niet **none**. Als u **een aantal** kiest, meldt u zich weer na de inschrijving en selecteert u de groep **modern Workplace-all** Azure AD voor **groepen**.
 
 
 ### <a name="microsoft-store-for-business"></a>Microsoft Store voor Bedrijven
@@ -180,7 +180,7 @@ Windows PowerShell-scripts kunnen niet worden toegewezen in de manier waarop Mic
 
 **Adviser**
 
-Zorg ervoor dat Windows PowerShell-scripts in uw Azure AD-organisatie geen Microsoft-bureaublad apparaten of-gebruikers beheren. Zie [PowerShell-scripts op Windows 10-apparaten gebruiken in intune](https://docs.microsoft.com/mem/intune/apps/intune-management-extension)voor meer informatie.
+Zorg ervoor dat Windows PowerShell-scripts in uw Azure AD-organisatie geen Microsoft-bureaublad apparaten of-gebruikers beheren. Wijs geen PowerShell-script toe om alle gebruikers, alle apparaten of beide te bereiken. Wijzig het beleid voor het gebruik van een opdracht die een specifieke Azure AD-groep bedoelt die geen door Microsoft beheerde bureaublad apparaten bevat. Zie [PowerShell-scripts op Windows 10-apparaten gebruiken in intune](https://docs.microsoft.com/mem/intune/apps/intune-management-extension)voor meer informatie.
 
 ### <a name="region"></a>Regio
 
@@ -254,7 +254,7 @@ Adviseert het controleren van een instelling die (indien ingesteld op ' onwaar '
 
 **Adviser**
 
-Zorg ervoor dat **AllowAdHocSubscriptions** is ingesteld op **waar** . Anders werkt Enterprise State roaming mogelijk niet. Zie [set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)voor meer informatie.
+Zorg ervoor dat **AllowAdHocSubscriptions** is ingesteld op **waar**. Anders werkt Enterprise State roaming mogelijk niet. Zie [set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)voor meer informatie.
 
 
 ### <a name="enterprise-state-roaming"></a>Enterprise State Roaming
@@ -308,19 +308,11 @@ U hebt beveiligingsstandaarden ingeschakeld. Schakel beveiligingsstandaarden uit
 
 ### <a name="self-service-password-reset"></a>Selfservice voor wachtwoordherstel
 
-Selfservice voor wachtwoordherstel (SSPR) moet zijn ingeschakeld.
-
-**Niet gereed**
-
-SSPR moet zijn ingeschakeld voor alle gebruikers. Als dat niet het geval is, kunnen de Microsoft-services voor beheerde bureaublad accounts niet werken. Zie [Zelfstudie: gebruikers toestaan hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met behulp van Azure Active Directory-wachtwoordherstel](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+Selfservice voor wachtwoordherstel (SSPR) moet zijn ingeschakeld voor alle gebruikers. Als dat niet het geval is, kunnen de Microsoft-services voor beheerde bureaublad accounts niet werken. Zie [Zelfstudie: gebruikers toestaan hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met behulp van Azure Active Directory-wachtwoordherstel](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
 
 **Adviser**
 
 Zorg ervoor dat de **geselecteerde** instelling voor SSPR Microsoft beheerde bureaublad apparaten bevat.
-
-**Fout**
-
-De rol intune-beheerder heeft onvoldoende machtigingen voor deze controle. Voor de uitvoering van deze controle moet u ook de functie rapporten lezer Azure AD aan te voeren.
 
 
 ### <a name="standard-user-role"></a>Standaard gebruikersrol

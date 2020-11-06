@@ -8,7 +8,7 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 11/04/2020
+ms.date: 11/05/2020
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -21,23 +21,27 @@ description: Ga aan de slag met het gebruik van geautomatiseerde onderzoek-en an
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 7e9b786a9d00a34f5e2e88a8481e82fa8425a501
-ms.sourcegitcommit: 751dc531f0410ee075c179efe409a01664483ee2
+ms.openlocfilehash: 5796cdf21f9dd12c35a2f84422f03503433755b0
+ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48925602"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48931934"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Aan de slag met geautomatiseerd onderzoek en antwoord (lucht) in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-[Microsoft Defender voor Office 365](office-365-atp.md) bevat krachtige functies voor automatisch onderzoek en Reacties (lucht) waarmee u tijd en inspanningen van uw beveiligingsactiviteiten kunnen opslaan. Aangezien waarschuwingen worden geactiveerd, kunt u deze meldingen nakijken, van een prioriteit voorzien en hierop reageren. U kunt het volume van inkomende waarschuwingen overweldigen. Door sommige taken te automatiseren, kunt u het volgende doen. Met lucht kan uw beveiligingsteam zich richten op taken met een hoge prioriteit, zonder dat het zichtbaar is wanneer u belangrijke waarschuwingen gaat verliezen.
+[Microsoft Defender voor Office 365](office-365-atp.md) bevat krachtige functies voor automatisch onderzoek en Reacties (lucht) waarmee u tijd en inspanningen van uw beveiligingsactiviteiten kunnen opslaan. Aangezien waarschuwingen worden geactiveerd, kunt u deze meldingen nakijken, van een prioriteit voorzien en hierop reageren. U kunt het volume van inkomende waarschuwingen overweldigen. Door sommige taken te automatiseren, kunt u het volgende doen. 
+
+AIR zorgt ervoor dat uw beveiligingsteam efficiënter en effectiever functioneert. De lucht mogelijkheden zijn geautomatiseerde onderzoek processen in antwoord naar bekende bedreigingen die vandaag zijn. Juiste herstelacties wachten op goedkeuring, zodat het team van uw beveiligingsactiviteiten effectief kan reageren op ontdekte bedreigingen. Met lucht kan uw beveiligingsteam zich richten op taken met een hoge prioriteit, zonder dat het zichtbaar is wanneer u belangrijke waarschuwingen gaat verliezen.
 
 In dit artikel worden de volgende artikelen beschreven:
 - De [algehele stroom van lucht](#the-overall-flow-of-air);
 - [Hoe u lucht verzorgt](#how-to-get-air); en 
 - De [vereiste machtigingen](#required-permissions-to-use-air-capabilities) voor het configureren of gebruiken van lucht capaciteiten. 
+
+Dit artikel bevat ook [volgende stappen](#next-steps)en bronnen voor meer informatie.
 
 ## <a name="the-overall-flow-of-air"></a>De totale luchtstroom
 
@@ -45,7 +49,7 @@ Er wordt een waarschuwing gegeven en een beveiligings Playbook start een geautom
 
 1. Een geautomatiseerd onderzoek wordt op een van de volgende manieren gestart:
 
-   - Een [waarschuwing](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) wordt geactiveerd door iets verdacht in een e-mail (zoals een bericht, bijlage of URL). Er wordt een incident gemaakt. Afhankelijk van het type incident, wordt er een [beveiligings Playbook](automated-investigation-response-office.md#security-playbooks) uitgevoerd, waarna een geautomatiseerd onderzoek wordt gestart. 
+   - Een [waarschuwing wordt geactiveerd](#which-alert-policies-trigger-automated-investigations) door iets verdacht in een e-mail (zoals een bericht, bijlage, URL of gemanipuleerd gebruikersaccount). Er wordt een incident gemaakt en een geautomatiseerd onderzoek begint. 
 
      ------
    
@@ -61,7 +65,9 @@ Er wordt een waarschuwing gegeven en een beveiligings Playbook start een geautom
 5. Wanneer herstelacties in behandeling zijn goedgekeurd (of afgekeurd), is het geautomatiseerde onderzoek voltooid.
 
 > [!IMPORTANT]
-> In Microsoft Defender voor Office 365 worden geen herstelacties automatisch uitgevoerd. Herstelacties worden alleen uitgevoerd na goedkeuring van het beveiligingsteam van uw organisatie. U kunt echter de tijd van uw beveiligingsactiviteiten in uw organisatie opslaan door herstelacties aan te duiden en de benodigde informatie te verstrekken om een weloverwogen beslissing te nemen.
+> In Microsoft Defender voor Office 365 worden geen herstelacties automatisch uitgevoerd. Herstelacties worden alleen uitgevoerd na goedkeuring van het beveiligingsteam van uw organisatie. 
+>
+> LUCHT capaciteiten Sla uw beveiligingsactiviteiten voor het team op door herstel activiteiten te identificeren en de details te verstrekken die nodig zijn om een weloverwogen beslissing te nemen.
 
 Wanneer u een geautomatiseerd onderzoek doet, kan uw beveiligingsteam:
 
@@ -96,29 +102,35 @@ Zorg er ook voor dat u het [waarschuwings beleid van uw organisatie](https://doc
 
 ## <a name="which-alert-policies-trigger-automated-investigations"></a>Welke waarschuwings beleidsregels activeren geautomatiseerd onderzoek?
 
-Microsoft 365 biedt een groot aantal ingebouwde waarschuwingen waarmee beheerdersmachtigingen van Exchange kunnen identificeren, schadelijke activiteiten, potentiële externe en interne bedreigingen en informatiebeheer Risico's. Een aantal [standaard waarschuwings beleidsregels](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) kan automatisch onderzoek activeren. Deze omvatten de volgende:
+Microsoft 365 biedt een groot aantal ingebouwde waarschuwingen waarmee beheerdersmachtigingen van Exchange kunnen identificeren, schadelijke activiteiten, potentiële externe en interne bedreigingen en informatiebeheer Risico's. Een aantal [standaard waarschuwings beleidsregels](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) kan automatisch onderzoek activeren. In de volgende tabel vindt u een beschrijving van de waarschuwingen waarmee automatisch onderzoek en de ernst ervan worden geactiveerd in het Microsoft 365-Beveiligingscentrum en hoe deze worden gegenereerd:
 
-- Er is een potentieel schadelijke URL klik gedetecteerd
-- Een e-mailbericht wordt door een gebruiker gemeldd als phishing
-- E-mailberichten met malware worden verwijderd na levering
-- E-mailberichten met phishing-Url's worden verwijderd na levering
-- Verdachte patronen voor het verzenden van e-mail worden gedetecteerd
-- Een gebruiker mag geen e-mail verzenden
+
+|Bericht  |Ernst |Hoe de waarschuwing wordt gegenereerd  |
+|---------|---------|--------|
+|Er is een mogelijk schadelijke URL gevonden     |**Hoog** |U ontvangt deze waarschuwing als u een van de volgende handelingen doet:<br/> -Een gebruiker die is beveiligd door [veilige koppelingen](atp-safe-links.md) in uw organisatie op een schadelijke koppeling klikt <br/>-Verdict wijzigingen voor Url's worden geïdentificeerd door Microsoft Defender voor Office 365 <br/>-Gebruikers negeren waarschuwings pagina's voor veilige koppelingen (op basis van het [beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md)van uw organisatie).<br/><br/> Zie [beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.md)voor meer informatie over gebeurtenissen waarmee deze melding wordt geactiveerd.         |
+|Een e-mailbericht wordt door een gebruiker gemeld als malware of phishing |**Informatieve**    |Deze melding wordt gegenereerd wanneer gebruikers in uw organisatie berichten als malafide rapporteren via de [invoegtoepassing berichten rapporteren](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in). |
+|E-mailberichten met malware worden verwijderd na levering |**Informatieve**     |Deze waarschuwing wordt gegenereerd wanneer u e-mailberichten met malware bezorgt voor postvakken in uw organisatie. Als deze gebeurtenis zich voordoet, verwijdert Microsoft de geïnfecteerde berichten uit postvakken van Exchange Online met [automatisch wissen van uur uur](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge).   |
+|E-mailberichten met phishing-Url's worden verwijderd na levering     |**Informatieve**        |Deze waarschuwing wordt gegenereerd wanneer berichten met phishing worden afgeleverd bij postvakken in uw organisatie. Als deze gebeurtenis zich voordoet, verwijdert Microsoft de geïnfecteerde berichten uit postvakken van Exchange Online met [automatisch wissen van uur uur](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge).  |
+|Verdachte patronen voor het verzenden van e-mail worden gedetecteerd     |**Medium**         |Deze melding wordt gegenereerd wanneer iemand in uw organisatie verdacht e-mailbericht heeft gestuurd en risico loopt dat e-mail wordt verzonden. Dit is een vroegtijdige waarschuwing voor gedrag dat kan betekenen dat de account is aangetast, maar niet zo sterk genoeg om de gebruiker te beperken.<br/><br/> Hoewel dit niet het geval is, kan een waarschuwing die door dit beleid is gegenereerd, een afwijkend zijn. Het is echter wel een goed idee om te [controleren of het gebruikersaccount is aangetast](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).  |
+|Een gebruiker mag geen e-mail verzenden    |**Hoog** |Deze melding wordt gegenereerd wanneer iemand in uw organisatie beperkingen heeft voor het verzenden van uitgaande e-mail. Dit levert meestal een [e-mailaccount in gevaar](responding-to-a-compromised-email-account.md).<br/><br/>Zie voor meer informatie over beperkte gebruikers [Geblokkeerde gebruikers verwijderen uit de portal met beperkte gebruikers in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam).    |
+
+> [!TIP]
+> Als u meer wilt weten over waarschuwings beleidsregels of de standaardinstellingen bewerken, raadpleegt u [waarschuwings beleid in het Microsoft 365 compliance Center](https://docs.microsoft.com/microsoft-365/compliance/alert-policies).
 
 ## <a name="required-permissions-to-use-air-capabilities"></a>Vereiste machtigingen voor het gebruik van lucht mogelijkheden
 
 Machtigingen worden toegekend via bepaalde rollen, zoals de functies die in de volgende tabel worden beschreven: 
 
 |Taak |Vereiste functie (s) |
-|--|--|
+|:--|:--|
 |LUCHT functies instellen |Een van de volgende rollen: <br/>-Globale beheerder<br/>-Beveiligingsbeheerder <br/>U kunt deze rollen toewijzen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het [beveiligings & nalevings centrum](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
-|Aanbevolen acties goedkeuren of afwijzen|Een van de volgende rollen, toegewezen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het [beveiligings & nalevings centrum](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center):<br/>-Globale beheerder <br/>-Beveiligingsbeheerder<br/>-Beveiligings lezer <br/>---en---<br/>-Zoeken en wissen (deze rol wordt alleen toegewezen in het [nalevings centrum voor de beveiliging &](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Mogelijk moet u een nieuwe rolgroep maken en de rol zoeken en permanent toevoegen aan de nieuwe rollen groep toevoegen.)
+|Een automatisch onderzoek starten <br/><br/>------<br/><br/>Aanbevolen acties goedkeuren of afwijzen|Een van de volgende rollen, toegewezen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het [beveiligings & nalevings centrum](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center):<br/>-Globale beheerder <br/>-Beveiligingsbeheerder<br/>-Beveiligings lezer <br/>---en---<br/>-Zoeken en wissen (deze rol wordt alleen toegewezen in het [nalevings centrum voor de beveiliging &](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Mogelijk moet u een nieuwe rolgroep maken en de rol zoeken en permanent toevoegen aan de nieuwe rollen groep toevoegen.) |
 
 ## <a name="required-licenses"></a>Vereiste licenties
 
-[Voor Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) -licenties moet worden toegewezen:
+[Microsoft Defender voor Office 365-abonnement 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#microsoft-defender-for-office-365-plan-1-and-plan-2) -licenties moet worden toegewezen aan:
 - Beveiligingsbeheerders (waaronder globale beheerders)
-- Het bedrijfsactiviteiten team van uw organisatie (met inbegrip van beveiligings lezers en de functies met de rol zoeken en wissen)
+- Het bedrijfsactiviteiten team van uw organisatie (met inbegrip van beveiligings lezers en de functies met de rol **zoeken en wissen** )
 - Eindgebruikers
 
 
@@ -128,7 +140,7 @@ Machtigingen worden toegekend via bepaalde rollen, zoals de functies die in de v
 
 - [In behandeling zijnde acties controleren en goedkeuren](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="see-also"></a>Zie ook
 
 - [Automatisch onderzoek en herstel in Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
