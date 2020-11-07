@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c28353698dd372e14d5ec51b92eb4c0c051c92a4
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: 642de80e1a133f212b7afb6774d9aab2eeaabdbf
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931910"
+ms.locfileid: "48941407"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
 
@@ -308,20 +308,20 @@ U hebt beveiligingsstandaarden ingeschakeld. Schakel beveiligingsstandaarden uit
 
 ### <a name="self-service-password-reset"></a>Selfservice voor wachtwoordherstel
 
-Selfservice voor wachtwoordherstel (SSPR) moet zijn ingeschakeld voor alle gebruikers. Als dat niet het geval is, kunnen de Microsoft-services voor beheerde bureaublad accounts niet werken. Zie [Zelfstudie: gebruikers toestaan hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met behulp van Azure Active Directory-wachtwoordherstel](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+U moet selfservice voor wachtwoordherstel (SSPR) inschakelen voor alle gebruikers, met uitzondering van Microsoft Managed Desktop service-accounts. Zie [Zelfstudie: gebruikers toestaan hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met behulp van Azure Active Directory-wachtwoordherstel](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
 
 **Adviser**
 
-Zorg ervoor dat de **geselecteerde** instelling voor SSPR Microsoft beheerde bureaublad apparaten bevat.
+Zorg ervoor dat de **geselecteerde** instelling voor SSPR Microsoft beheerde bureaublad apparaten bevat, maar dat Microsoft beheerde bureaublad-serviceaccounts niet is opgenomen. Accounts van Microsoft beheerde bureaubladservices werken niet zoals verwacht wanneer SSPR is ingeschakeld.  
 
 
 ### <a name="standard-user-role"></a>Standaard gebruikersrol
 
-Microsoft beheerde bureaubladgebruikers moeten standaardgebruikers zijn zonder lokale beheerdersbevoegdheden. Er wordt een standaard gebruikersrol toegewezen wanneer het Microsoft-beheerapparaat wordt gestart.
+Behalve de gebruikers die een Azure AD-rol van globale beheerder en een andere netwerkbeheerder toegewezen, zijn Microsoft-beheerde bureaubladgebruikers standaardgebruikers zonder lokale beheerdersbevoegdheden. Voor alle andere gebruikers wordt een standaard gebruikersrol toegewezen wanneer ze hun Microsoft-beheerde bureaublad apparaat starten.
 
 **Adviser**
 
-Microsoft beheerde bureaubladgebruikers moeten geen lokale beheerdersbevoegdheden hebben voordat ze zich kunnen registreren.
+Microsoft beheerde bureaubladgebruikers hebben geen lokale beheerdersbevoegdheden op hun Microsoft beheerde bureaublad apparaten na registratie.
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen
 

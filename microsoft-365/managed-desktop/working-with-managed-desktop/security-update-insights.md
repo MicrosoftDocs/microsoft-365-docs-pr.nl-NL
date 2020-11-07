@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 772d1d52e977a067ff9bc3517de9cb2ae6c8c9a3
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b3b1f43217b3be285f20925065bf9710a38f9606
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950365"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941439"
 ---
 # <a name="windows-security-update-insights"></a>Inzichten in Windows-beveiligingsupdates
 Deze weergave bevat een overzicht van de status van beveiligingsupdates voor uw beheerde bureaublad apparaten van Microsoft. 
@@ -23,11 +23,11 @@ Als u gebruiksgegevens wilt weergeven, selecteert u het tabblad <strong>Windows-
 
 ## <a name="device-status"></a>Apparaatstatus
 
-Voor apparaten die moeten worden bijgewerkt door Windows Update, moeten ze verbinding hebben met internet en niet in de slaapstand gedurende minimaal zes uur, waarvan de slaapstand niet lang moet zijn. Zolang een apparaat is aangesloten en niet in de slaapstand staat, wordt het beschouwd als ' in gebruik '. Hoewel het mogelijk is dat een apparaat dat niet aan deze vereisten voldoet, wordt bijgewerkt, zijn de apparaten die aan hen voldoen de beste kans om te worden bijgewerkt. 
+Voor apparaten die moeten worden bijgewerkt door Windows Update, moeten ze verbinding hebben met internet en niet in de slaapstand gedurende minimaal zes uur, waarvan de slaapstand niet lang moet zijn. Hoewel het mogelijk is dat een apparaat dat niet aan deze vereisten voldoet, wordt bijgewerkt, zijn de apparaten die aan hen voldoen de beste kans om te worden bijgewerkt. 
 
 De hardware-activiteit wordt in de context van Windows Update met deze voorwaarden gecategoriseerd:
 
-- <strong>Actief:</strong> Apparaten die voldoen aan de minimale gebruiks criteria (zes uur, twee continu) voor de meest recente update van beveiligingsupdates en minstens elke vijf dagen ingecheckt met Microsoft intune
+- <strong>Actief:</strong> Apparaten die voldoen aan de minimale activiteiten criteria (zes uur, twee continu) voor de meest recente update van beveiligingsupdates en met Microsoft intune minstens elke vijf dagen zijn ingecheckt
 - <strong>Gesynchroniseerd:</strong> Apparaten die zijn ingecheckt met intune in de afgelopen 28 dagen
 - <strong>Niet gesynchroniseerd:</strong> Apparaten die <i>niet</i> zijn ingecheckt met intune in de afgelopen 30 dagen
 

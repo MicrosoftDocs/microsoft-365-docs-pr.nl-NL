@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6123306c1d707a3eeab5c5dd67ed25bebb71965
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6a1aff37cc845e09be332b853aa938cb66fdb43f
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845674"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941485"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -53,7 +53,7 @@ Met dit rapport kunt u:
 > [!NOTE]
 > De functie gebruikers Tags is in voorbeeld, is niet beschikbaar voor iedereen, en kan veranderen. Voor informatie over de release planning raadpleegt u het Microsoft 365-wegwijzer.
 
-Gebruikers Tags zijn id's voor specifieke groepen gebruikers in Microsoft Defender voor Office 365. Zie voor meer informatie over tags, licenties en het configureren van tags de [gebruikers Tags in de 365 voor Office](user-tags.md).
+Gebruikers Tags zijn id's voor specifieke groepen gebruikers in Microsoft Defender voor Office 365. Zie voor meer informatie over tags, licenties en het configureren van tags de [gebruikers Tags](user-tags.md).
 
 In de bedreigings Verkenner kunt u informatie weergeven over gebruikers Tags in de volgende toepassingen:
 
@@ -199,7 +199,7 @@ Als onderdeel van de verbetering van de jacht, hebben we enkele updates gemaakt 
 
 ### <a name="filter-by-user-tags"></a>Filteren op gebruikers Tags
 
-U kunt nu sorteren en filteren op een systeem of aangepaste gebruikers Tags om snel de reikwijdte van bedreigingen te begrijpt. Zie [gebruikers Tags in Office 365 ATP](user-tags.md) voor meer informatie.
+U kunt nu sorteren en filteren op een systeem of aangepaste gebruikers Tags om snel de reikwijdte van bedreigingen te begrijpt. Zie [gebruikers Tags](user-tags.md) voor meer informatie.
 
 > [!IMPORTANT]
 > Filteren en sorteren op gebruikerscodes bevindt zich momenteel in de openbare preview-versie.

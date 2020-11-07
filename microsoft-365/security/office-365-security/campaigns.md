@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Meer informatie over campagne weergaven in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 7ee4f724295994a402a006906412c5d84bab5095
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 181b6ce5859dd5146512fe854c983b6b9096d8c6
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845934"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941353"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Campagne weergaven in Microsoft Defender voor Office 365
 
@@ -60,11 +60,8 @@ De weergave campagne is beschikbaar in het [beveiligings & compliance](https://p
 U kunt ook weergave van de campagne bekijken:
 
 - **Threat Management** \> **Verkenner** \> **Weergave** \> Een **campagne**
-
 - **Threat Management** \> **Verkenner** \> **Weergave** \> **Alle e-mailberichten** \> Tabblad **campagne**
-
 - **Threat Management** \> **Verkenner** \> **Weergave** \> **Phishing** \> Tabblad **campagne**
-
 - **Threat Management** \> **Verkenner** \> **Weergave** \> **Malware** \> Tabblad **campagne**
 
 Voor de weergave van een campagne moet u lid zijn van de rollen groepen **Organisatiebeheer** , **beveiliging beheerder** of **beveiligings lezer** in het beveiligings & nalevings centrum. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
@@ -89,12 +86,10 @@ De rest van de pagina overzicht bevat de volgende informatie op het tabblad **ca
 - **Type** : deze waarde is een **phishing** of **malware**.
 
 - **Subtype** : deze waarde bevat meer details over de campagne. Bijvoorbeeld:
-
   - **Phishing** : indien beschikbaar, het merk dat wordt door deze campagne verphishd. Bijvoorbeeld,, `Microsoft` , `365` `Unknown` `Outlook` of `DocuSign` .
-
   - **Malware** : bijvoorbeeld `HTML/PHISH` of `HTML/<MalwareFamilyName>` .
 
-Indien beschikbaar, het merk dat door deze campagne wordt verphishd. Wanneer de detectie wordt gestuurd met de ATP-technologie, wordt de **ATP-** voorvoegsel toegevoegd aan de waarde van het subtype.
+  Indien beschikbaar, het merk dat door deze campagne wordt verphishd. Wanneer de detectie wordt bestuurd door de technologie van Defender voor Office 365, wordt de **ATP-** voorvoegsel toegevoegd aan de waarde van het subtype.
 
 - **Geadresseerden** : het aantal gebruikers dat is gericht op deze campagne.
 
@@ -123,7 +118,6 @@ Als u de weergave verder wilt filteren, kunt u één eigenschap met meerdere waa
 In de volgende lijst vindt u een beschrijving van de beschikbare campagne-eigenschappen:
 
 - Basic
-
   - **Type campagne** : Selecteer **malware** of **phishing**. Wanneer u de selecties uitschakelt, heeft dit hetzelfde resultaat als met beide.
   - **Naam van campagne**
   - **Subtype campagne**
@@ -139,17 +133,13 @@ In de volgende lijst vindt u een beschrijving van de beschikbare campagne-eigens
   - **Systeem overschrijvingen**
 
 - Advanced
-
   - **Internet bericht-id** : beschikbaar in het veld **bericht-id-** koptekst in de kop van het bericht. Een Voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Let op de punthaken).
-  
   - **Netwerkbericht-id** : een GUID-waarde die beschikbaar is in het veld **X-MS-Exchange-Organization-Network-Message-ID** in de kop van het bericht.
-  
   - **IP van afzender**
-  
   - **Bijlage sha256** : als u de sha256-hashwaarde van een bestand wilt zoeken in Windows, voert u de volgende opdracht uit op een opdrachtregel: `certutil.exe -hashfile "<Path>\<Filename>" SHA256` .
-  
+
   - **Cluster-ID**
-  
+
   - **ID van waarschuwings beleid**
 
 - URLs
@@ -187,7 +177,6 @@ Boven in de weergave met campagnegegevens zijn de volgende gegevens van de campa
 - **Begonnen** en **beëindigd** : de begindatum en einddatum van de campagne. Houd er rekening mee dat deze datums mogelijk verder lopen dan de filter datums die u hebt geselecteerd op de pagina overzicht.
 
 - **Impact** : deze sectie bevat de volgende gegevens voor het datumbereik dat u hebt geselecteerd (of die u in de tijdlijn selecteert):
-  
   - Het totale aantal geadresseerden.
   - Het aantal berichten dat is verzonden naar het postvak in (dat wordt bezorgd in het postvak in, niet op de map Ongewenste E-mail).
   - Hoeveel gebruikers klikken op de URL-nettolading in het malafide bericht.
@@ -215,9 +204,7 @@ Als u de muisaanwijzer over een horizontale band in het diagram houdt, ziet u he
 Het diagram bevat de volgende informatie:
 
 - **Ip's van afzender**
-
 - **Zender domeinen**
-
 - **Filter Verdicts** : verdict waarden zijn gerelateerd aan de beschikbare methoden voor phishing en spamfilters, zoals wordt beschreven in [anti spambericht koppen](anti-spam-message-headers.md). In de volgende tabel vindt u een beschrijving van de beschikbare waarden:
 
   ****
@@ -241,7 +228,6 @@ Het diagram bevat de volgende informatie:
   <sup>\*\*</sup> Controleer uw Antispambeleid, omdat deze berichten in quarantaine moeten worden geplaatst.
 
 - **Bezorgingslocaties** : u wilt waarschijnlijk berichten onderzoeken die voor geadresseerden zijn afgeleverd (naar het postvak in of de map Ongewenste e-mail), zelfs als gebruikers niet op de URL van de nettolading in het bericht klikken. U kunt ook de in quarantaine geplaatste berichten verwijderen uit quarantaine. Zie voor meer informatie [Gequarantinee e-mailberichten in EOP](quarantine-email-messages.md).
-
   - **Map verwijderd**
   - **Drop**
   - **Extern** : de geadresseerde bevindt zich in de on-premises e-mail organisatie in hybride omgevingen.
@@ -264,13 +250,9 @@ Wanneer een malafide bericht wordt bezorgd in het postvak in of de map Ongewenst
 Als een gebruiker in het malafide e-mailbericht op de URL van de nettolading heeft geklikt, worden de acties weergegeven in het gebied voor de **URL-klikken** van het diagram in de weergave campagne Details.
 
 - **Ingesteld**
-
 - **BlockPage** : de geadresseerde heeft op de URL van de nettolading geklikt, maar de toegang tot de schadelijke website werd geblokkeerd door een beleid voor [veilige koppelingen](atp-safe-links.md) in uw organisatie.
-
 - **BlockPageOverride** : de geadresseerde die in het bericht op de URL van de nettolading hebt geklikt, heeft veilige koppelingen geprobeerd ze te stoppen, maar ze kunnen het blok negeren. Controleer uw [beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md) om te zien waarom gebruikers de verdict voor veilige koppelingen mogen negeren en doorgaan naar de schadelijke website.
-
 - **PendingDetonationPage** : veilige bijlagen in Microsoft Defender voor Office 365 wordt geopend en onderzocht de URL van de nettolading in een virtuele computeromgeving.
-
 - **PendingDetonationPageOverride** : de geadresseerde mag de detonatie procedure overschrijven en de URL openen zonder te hoeven wachten tot de resultaten.
 
 ### <a name="tabs"></a>Tabvolgorde
@@ -281,14 +263,12 @@ Op de tabbladen in de weergave campagne Details kunt u de campagne verder onderz
 > De informatie die wordt weergegeven op de tabbladen, wordt bepaald door het gearceerde datumbereik op de tijdlijn, zoals beschreven in de sectie [campagnegegevens](#campaign-information) .
 
 - **URL-klikken** : als gebruikers niet op de URL van de nettolading in het bericht klikken, is dit gedeelte leeg. Als een gebruiker op de URL kon klikken, worden de volgende waarden ingevuld:
-
   - **Aanmeldings**<sup>\*</sup>
   - **URL**<sup>\*</sup>
   - **Klik op tijd**
   - **Klik op Verdict**
 
 - **Ip's van afzender**
-
   - **IP van afzender**<sup>\*</sup>
   - **Totaal aantal**
   - **Postvak in**
@@ -296,7 +276,6 @@ Op de tabbladen in de weergave campagne Details kunt u de campagne verder onderz
   - **SPF doorgegeven** : de afzender is geauthenticeerd door het [beleidsraamwerk voor verzenders (SPF)](how-office-365-uses-spf-to-prevent-spoofing.md). Een afzender die niet voldoet aan de SPF-validatie, geeft een niet-geverifieerde afzender aan, of het bericht is spoofing voor een legitieme afzender.
 
 - **Afzenders**
-
   - **Afzender** : dit is het werkelijke adres van de afzender in de SMTP-e-mail van de opdracht, wat niet het is: een e-mailadres dat gebruikers zien in hun e-mailclients.
   - **Totaal aantal**
   - **Postvak in**
@@ -305,14 +284,12 @@ Op de tabbladen in de weergave campagne Details kunt u de campagne verder onderz
   - **DMARC doorgegeven** : de afzender is geverifieerd door [verificatie op basis van een domein op basis van een berichtverificatie, rapportering en conformiteit (DMARC)](use-dmarc-to-validate-email.md). Een afzender die geen DMARC-validatie geeft, geeft een niet-geverifieerde afzender aan, of het bericht vervalst een legitiem afzender.
 
 - **Stukken**
-
   - **Namen**
   - **SHA256**
   - **Familie van malware**
   - **Totaal aantal**
 
 - **URL**
-
   - **URL**<sup>\*</sup>
   - **Totaal aantal**
 
@@ -323,5 +300,4 @@ Op de tabbladen in de weergave campagne Details kunt u de campagne verder onderz
 Met de knoppen in de weergave campagne Details kunt u de kracht van de bedreigings Verkenner gebruiken om de campagne verder te onderzoeken.
 
 - **Campagne verkennen** : Hiermee opent u een nieuw tabblad Zoeken in de bedreiging van een nieuwe bedreiging met de waarde van de **campagne-id** als het zoekfilter.
-
 - **Berichten in Postvak in verkennen** : Hiermee opent u een nieuw Zoek tabblad van de bedreigings Verkenner met behulp van de **campagne-id** en locatie van de **geadresseerde: Postvak in** als zoekfilter.

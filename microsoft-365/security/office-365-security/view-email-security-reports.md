@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36d7fde77ae8a6280dae26e5a0f7a75537bf28d4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fafb499e40c0014a85c9566b3e5aadf2751202a1
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841870"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48941473"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -336,7 +336,7 @@ De volgende weergaven zijn beschikbaar:
 
 - **Opsplitsen op: detectietechnologie** en **gegevens weergeven op: e-mail \> malware** : de volgende informatie wordt weergegeven:
 
-  - **ATP-de reputatie van het bestand gegenereerd**<sup>1</sup>: alle kwaadaardige bestanden die zijn gegenereerd met ATP-detonatie.
+  - **ATP-de reputatie 1 van het bestand gegenereerd**<sup>1</sup>door een kwaadaardige reputatie van de kwaadwillende bestanden die wordt gegenereerd door Defender voor Office 365-detonatie.
   - **Anti malware engine**<sup>1</sup>: detectie van anti malware-engines.
   - **Anti malwarebeleid type blok** : Dit zijn e-mailberichten die zijn gefilterd door het type schadelijk bestand dat in het bericht wordt genoemd.
   - **Bestands detonatie**<sup>1</sup>: detonatie afvangen door veilige bijlagen.  

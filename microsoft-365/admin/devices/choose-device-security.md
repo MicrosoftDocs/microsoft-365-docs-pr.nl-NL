@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Kies een van de verschillende MDM-en MAM-methoden.
-ms.openlocfilehash: 6231b7c82f280a60ae9d30bcf27697dc131b2471
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: 2866aa8cf172361b2b5f5055932717154cd6ddd1
+ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930263"
+ms.locfileid: "48941295"
 ---
 # <a name="options-for-protecting-your-devices-and-app-data"></a>Opties voor het beschermen van uw apparaten en app-gegevens
 
@@ -37,8 +37,6 @@ U kunt op verschillende manieren uw organisatie apparaten en-gegevens beveiligen
 - Microsoft 365 Enterprise-abonnementen, waaronder Advanced beveiliging en bedreigings bescherming.
 
 ## <a name="device-management-options"></a>Opties voor Apparaatbeheer
-
-![Een afbeelding van welke abonnementen moet worden gebruikt op welke MDM-en MAM-methoden.](../../m365-mam-mdm.png)
 
 - Voor de meeste Microsoft 365-abonnementen is **eenvoudige mobiliteit en beveiliging** beschikbaar, en de enige ingebouwde keuze voor microsoft 365 Business Standard en microsoft 365 Business Basic. Voor meer informatie raadpleegt u de [beschikbaarheid van basis mobiliteit en beveiliging](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune). 
 
