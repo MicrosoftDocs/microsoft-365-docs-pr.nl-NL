@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: de meest voorkomende scenario's voor de bedreiging en aanval die momenteel door organisaties worden geconfronteerd voor hun Microsoft 365-omgevingen, en aanbevolen acties om deze Risico's te beperken.
-ms.openlocfilehash: b359b16042d419a06096a48ddcbc50affbcc4cd6
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 64f4491db3dc4ef18411b166fb23c4388383dae2
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843126"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944298"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 Security for Business Decisioners (BDMs)
 
@@ -30,6 +30,8 @@ Dit artikel is ingedeeld op prioriteit van werk, te beginnen met de bescherming 
 [![Afbeelding van miniatuur Microsoft 365 BDM beveiligingsaanbevelingen](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
 Microsoft biedt u het hulpmiddel voor veilig scoren in uw Tenant voor het automatisch analyseren van uw beveiligings Posture op basis van uw normale activiteiten, het toewijzen van een score en het verschaffen van aanbevelingen voor beveiligingsverbeteringen. Voordat u de acties in dit artikel uitvoert, moet u rekening houden met uw huidige score en aanbevelingen. Met de acties die in dit artikel worden aanbevolen, wordt uw score hoger weergegeven. Het doel is niet de maximum score te bereiken, maar wel op een manier om uw omgeving te beschermen op een wijze die niet negatief van invloed is op de productiviteit van uw gebruikers. Zie [Microsoft Secure Score](mtp/microsoft-secure-score.md).
+
+![Volg deze stappen om Risico's voor uw bedrijf te beperken.](../media/security/security-for-bdms-overview.png)
 
 Nog een ding voordat we aan de slag gaan. . . Zorg ervoor dat u [het auditlogboek inschakelt](../compliance/search-the-audit-log-in-security-and-compliance.md). U hebt deze gegevens later nodig, in het geval dat u een incident of een schending moet onderzoeken. 
 

@@ -15,16 +15,18 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Uw zakelijke e-mail en gegevens beschermen tegen cyber bedreigingen, zoals Ransomware, phishing en kwaadaardige bijlagen.
-ms.openlocfilehash: e91d2c6fc3df7cbcd7fedc198747838d470ab7d8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8f170079a5542f703376139cdd6ec4550712d0fd
+ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845418"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48944371"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>De belangrijkste 12 taken voor beveiligings teams voor de ondersteuning van thuisgebruik
 
 Als u tevreden bent met [Microsoft](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/) en plotseling uw eigen personeel op basis van het thuisgebruik ondersteunt, willen we u helpen te voorkomen dat uw organisatie zo veilig mogelijk werkt. In dit artikel worden de prioriteit van taken, zodat beveiligings teams de belangrijkste beveiligingsmogelijkheden zo snel mogelijk kunnen implementeren.
+
+![Voer deze belangrijkste taken uit voor de ondersteuning voor thuisgebruik.](../media/security/security-support-remote-work.png)
 
 Als u een kleine of middelgrote organisatie hebt met een van de Business-abonnementen van Microsoft, raadpleegt u de volgende informatiebronnen:
 
@@ -110,7 +112,7 @@ U moet samenwerken met uw Exchange Online-beheerder en de SharePoint Online-behe
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Microsoft Defender voor identiteit configureren
 
-[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) is een op de cloud gebaseerde beveiligingsoplossing waarmee u uw on-premises Active Directory-signaleren identificeert, opspoort en onderzoekt naar geavanceerde bedreigingen, compromisloze identiteiten en schadelijke Insider-acties die u in uw organisatie worden doorgestuurd. Richt u op de volgende oorzaak omdat uw on-premises beheerder en de Cloud infrastructuur geen afhankelijkheden of vereisten hebben en er direct voordelen kunnen bestaan.
+[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) is een cloudbeveiligingsoplossing die gebruikmaakt van uw on-premises Active Directory-signalen om geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadwillende acties van binnenuit die zijn gericht op uw organisatie, te identificeren, te detecteren en te onderzoeken. Richt u op de volgende oorzaak omdat uw on-premises beheerder en de Cloud infrastructuur geen afhankelijkheden of vereisten hebben en er direct voordelen kunnen bestaan.
 
 - Zie [Microsoft Defender voor de identiteits introductie](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) om snel te kunnen instellen
 - Bekijk de [video: Inleiding tot Microsoft Defender voor identiteit](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
