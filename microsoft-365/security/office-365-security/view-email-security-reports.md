@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fafb499e40c0014a85c9566b3e5aadf2751202a1
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 738ae55fac5677a1b4f78e4c67506e85d5975090
+ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941473"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48945352"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -129,7 +129,7 @@ Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeve
   - **Datum**
   - **Domein van de ontvanger**
   - **Aantal berichten**
-  
+
 Als u in een weergave met detail tabellen op **filters** klikt, kunt u de resultaten wijzigen met de volgende filters:
 
 - **Begindatum** en **einddatum**
@@ -270,9 +270,11 @@ Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
 
 ## <a name="threat-protection-status-report"></a>Statusrapport bedreigingsbeveiliging
 
-Het rapport **status beveiliging** van de bedreiging is beschikbaar in zowel EOP als Microsoft Defender voor Office 365. de rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie over malware bekijken die zijn gevonden in een e-mail, maar niet informatie over [schadelijke bestanden die zijn gedetecteerd door ATP voor SharePoint, OneDrive of Microsoft teams](atp-for-spo-odb-and-teams.md).
+Het rapport **status beveiliging** van de bedreiging is beschikbaar in zowel EOP als Microsoft Defender voor Office 365. de rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie over malware bekijken die zijn gevonden in een e-mail, maar niet informatie over schadelijke bestanden die zijn gedetecteerd door [ATP voor SharePoint, OneDrive of Microsoft teams](atp-for-spo-odb-and-teams.md).
 
-Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (Url's), die zijn geblokkeerd door de anti-malware-engine, [automatisch wissen van Zero uur (ZAP)](zero-hour-auto-purge.md)en Defender voor Office 365-functies zoals [veilige koppelingen](atp-safe-links.md), [veilige bijlagen](atp-safe-attachments.md)en [anti-phishing](set-up-anti-phishing-policies.md). U kunt deze gegevens gebruiken om trends te identificeren of te bepalen of een organisatiebeleid moet worden aangepast. Het is belangrijk om te weten dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.
+Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (Url's), die zijn geblokkeerd door de anti-malware-engine, [automatisch wissen van Zero uur (ZAP)](zero-hour-auto-purge.md)en Defender voor Office 365-functies zoals [veilige koppelingen](atp-safe-links.md), [veilige bijlagen](atp-safe-attachments.md)en [anti-phishing](set-up-anti-phishing-policies.md). U kunt deze gegevens gebruiken om trends te identificeren of te bepalen of een organisatiebeleid moet worden aangepast.
+
+**Opmerking** : het is van belang dat u begrijpt dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.
 
 Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **Reports** \> **Dashboard** rapporten en selecteert u de **status bedreigingsbeveiliging**. Als u rechtstreeks naar het rapport wilt gaan, opent u een van de volgende Url's:
 
@@ -297,8 +299,8 @@ De volgende weergaven zijn beschikbaar:
 
 - **Gegevens weergeven op: inhoud \> Malware**<sup>1</sup>: de volgende informatie wordt weergegeven in Microsoft Defender for Office 365-organisaties:
 
-  - **Anti malware-engine** : vangen van schadelijke bestanden in SharePoint Online, OneDrive en teams met anti malware.
-  - **Bestands detonatie** : detonatie van schadelijke bestanden in SharePoint Online, OneDrive en teams door veilige bijlagen.
+  - **Anti malware-engine** : kwaadwillende bestanden die zijn gevonden in SharePoint, OneDrive en Microsoft teams met [ingebouwde virusdetectie in Microsoft 365](virus-detection-in-spo.md).
+  - **Bestands detonatie** : kwaadwillende bestanden gedetecteerd door [ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md).
 
   ![De weergave met schadelijke inhoud in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-content-malware-view.png)
 
@@ -318,7 +320,7 @@ De volgende weergaven zijn beschikbaar:
 
 - **Onderbreek omlaag met: detectietechnologie** en **gegevens weergeven op \> : e-mailbericht** : de volgende informatie wordt weergegeven:
 
-  - Met **ATP gegenereerde URL-reputatie**<sup>1</sup>: schadelijke URL-reputatie van de 365 voor Office 365-detonaties in andere gebruikers van de Defender voor Office.
+  - Met **ATP gegenereerde URL-reputatie**<sup>1</sup>: schadelijke URL-reputatie van de 365 voor Office 365-detonaties in andere Microsoft-klanten.
   - **Geavanceerd phishing-filter** : malafide signalen op basis van machine learning.
   - **Anti-spoof-DMARC fout** : DMARC-Authenticatiefout bij berichten.
   - **Anti-spoof-intra organisatie** : de afzender probeert het domein van de ontvanger te vervalsen.
@@ -326,7 +328,7 @@ De volgende weergaven zijn beschikbaar:
   - **Merken van merken** : imitatie van bekende merken op basis van afzenders.
   - **Domein** imitatie <sup>1</sup>: imitatie van domeinen waarvan de klant eigenaar is of waarvan de naam is gedefinieerd.
   - **EOP URL-reputatie** : schadelijke URL-reputatie.
-  - **Algemeen phishing-filter** : phishingberichten op basis van regels van analisten. 
+  - **Algemeen phishing-filter** : phishingberichten op basis van regels van analisten.
   - **Gezien**
   - **PHISH ZAP**<sup>2</sup>: een uur automatisch wissen malafide berichten wissen.
   - **URL-detonatie**<sup>1</sup>
@@ -339,7 +341,7 @@ De volgende weergaven zijn beschikbaar:
   - **ATP-de reputatie 1 van het bestand gegenereerd**<sup>1</sup>door een kwaadaardige reputatie van de kwaadwillende bestanden die wordt gegenereerd door Defender voor Office 365-detonatie.
   - **Anti malware engine**<sup>1</sup>: detectie van anti malware-engines.
   - **Anti malwarebeleid type blok** : Dit zijn e-mailberichten die zijn gefilterd door het type schadelijk bestand dat in het bericht wordt genoemd.
-  - **Bestands detonatie**<sup>1</sup>: detonatie afvangen door veilige bijlagen.  
+  - **Bestands detonatie**<sup>1</sup>: detectie door veilige bijlagen.
   - **Schadelijke bestands reputatie**
   - **Malware ZAP**<sup>2</sup>
   - **Gezien**
@@ -349,7 +351,7 @@ De volgende weergaven zijn beschikbaar:
 - **Onderbreek een regeltype in: beleid** en **gegevens weergeven \> op: e-mailen** en **gegevens weergeven op \>** : e-mail problemen weergeven:
 
   - **Anti malware**
-  - **Veilige bijlage**<sup>1</sup>
+  - **Veilige bijlagen**<sup>1</sup>
   - **Anti-phishing**
   - **Anti spam**
   - **E-mail stroom regel** (ook wel een transportregel genoemd)
@@ -377,26 +379,28 @@ alleen <sup>1</sup> Defender voor Office 365
 
 Als u op **filters** klikt, zijn de beschikbare filters afhankelijk van de grafiek die u bekijkt:
 
-Voor **\> malware van inhoud** kunt u het rapport wijzigen op basis van de **begindatum** en **einddatum** , en de **detectie** waarde.
+- Voor het **weergeven van gegevens op: \> malware van inhoud** kunt u het rapport wijzigen op basis van de **begindatum** en **einddatum** , en de **detectie** waarde.
 
-Voor het **opheffen van berichten** kunt u het rapport wijzigen met de volgende filters:
+- Voor het **weergeven van gegevens op: het negeren van berichten** kunt u het rapport wijzigen met de volgende filters:
 
-- **Begindatum** en **einddatum**
-- **Reden negeren**
-- **Tag** : filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
-- **Domein**
+  - **Begindatum** en **einddatum**
+  - **Reden negeren**
+  - **Label** : filter de resultaten op gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Domein**
 
-Voor alle andere weergaven kunt u het rapport wijzigen met de volgende filters:
+- Voor alle andere weergaven kunt u het rapport wijzigen met de volgende filters:
 
-- **Begindatum** en **einddatum**
-- **Bronuitputtingsdetectie**
-- **Beveiligd door** : **ATP** of **EOP**
-- **Tag** : filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
-- **Domein**
+  - **Begindatum** en **einddatum**
+  - **Bronuitputtingsdetectie**
+  - **Beveiligd door** : **ATP** of **EOP**
+  - **Label** : filter de resultaten op gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Domein**
 
 ### <a name="details-table-view-for-the-threat-protection-status-report"></a>De tabel weergave Details voor het statusrapport Bedreigingsbeveiliging
 
 Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
+
+- **Gegevens weergeven op: overzicht** : de knop **informatietabel weergeven** is beschikbaar.
 
 - **Gegevens weergeven op: inhoud \> Malware** :
 
@@ -405,7 +409,7 @@ Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeve
   - **Omgeleid door**
   - **Naam van malware**
 
-Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen op basis van de **begindatum** en **einddatum** , en de **detectie** waarde.
+  Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen op basis van de **begindatum** en **einddatum** , en de **detectie** waarde.
 
 - **Gegevens weergeven op: bericht negeren** :
 
@@ -418,15 +422,13 @@ Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen op basi
   - **Bron van compromissen**
   - **Tags**
 
-Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen met de volgende filters:
+  Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen met de volgende filters:
 
-- **Begindatum** en **einddatum**
-- **Reden negeren**
-- **Tag** : filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
-- **Domein**
-- **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
-
-**Gegevens weergeven op: overzicht** : de knop **informatietabel weergeven** is beschikbaar.
+  - **Begindatum** en **einddatum**
+  - **Reden negeren**
+  - **Label** : filter de resultaten op gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Domein**
+  - **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
 
 - Alle overige grafieken:
 
@@ -439,14 +441,14 @@ Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen met de 
   - **Bron van compromissen**
   - **Tags**
 
-Als u op **filters** klikt, kunt u het rapport met de volgende filters wijzigen:
+  Als u op **filters** klikt, kunt u het rapport met de volgende filters wijzigen:
 
-- **Begindatum** en **einddatum**
-- **Bronuitputtingsdetectie**
-- **Beveiligd door** : **Defender voor Office 365** of **EOP**
-- **Tag** : filteren op label om gebruikers of groepen te retourneren waarop een specifieke tag is toegepast. Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
-- **Domein**
-- **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
+  - **Begindatum** en **einddatum**
+  - **Bronuitputtingsdetectie**
+  - **Beveiligd door** : **Defender voor Office 365** of **EOP**
+  - **Label** : filter de resultaten op gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Domein**
+  - **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
 
 ## <a name="top-malware-report"></a>Belangrijkste rapport van malware
 

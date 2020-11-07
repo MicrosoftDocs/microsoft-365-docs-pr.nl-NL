@@ -15,19 +15,19 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze bepaalde groepen gebruikers identificeren met gebruikers Tags in Microsoft Defender voor Office 365, abonnement 2. Het filteren van labels is beschikbaar via waarschuwingen, rapporten en onderzoek in Microsoft Defender voor Office 365, zodat u snel de gecodeerde gebruikers kunt identificeren.
-ms.openlocfilehash: fcc13a04ed603712bb2a45ccaadbaf161702c502
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9c83a323a3116b3da61a133c7fb449978ca13841
+ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842878"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48945316"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Gebruikers Tags in Microsoft Defender voor Office 365
 
 > [!NOTE]
 > De functie gebruikers Tags is in voorbeeld, is niet beschikbaar voor iedereen, en kan veranderen. Voor informatie over de release planning raadpleegt u het [Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap).
 
-Gebruikers Tags zijn id's voor specifieke groepen gebruikers in [Defender voor Office 365](office-365-atp.md). Er zijn twee soorten gebruikers Tags:
+Gebruikers Tags zijn id's voor specifieke groepen gebruikers in [Microsoft Defender voor Office 365](office-365-atp.md). Er zijn twee soorten gebruikers Tags:
 
 - **Systeem Tags** : momenteel is de [prioriteit accounts](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) het enige type systeemcode.
 - **Aangepaste tags** : u kunt deze gebruikers Tags zelf maken.

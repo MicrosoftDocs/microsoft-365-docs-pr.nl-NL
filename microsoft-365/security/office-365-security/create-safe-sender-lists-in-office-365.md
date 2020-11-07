@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 4009dcd506921b473e938828e5bdc10411c06ce2
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 0ab0a636cb70d98aa7c17ffe6aaec66ae1f4ecc7
+ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600319"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "48945340"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
@@ -57,17 +57,17 @@ Regels voor e-mail stroom in Exchange Online en standalone EOP voorwaarden en ui
 
 In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van contoso.com om spam te filteren. Configureer de volgende instellingen:
 
-1. **Voorwaarde**: het domein van **de afzender** \> **is** \> contoso.com.
+1. **Voorwaarde** : het domein van **de afzender** \> **is** \> contoso.com.
 
 2. Configureer een van de volgende instellingen:
 
-   - **Voorwaarde voor de e-mail stroom regel**: **een kop van een bericht** \> **bevat een van deze woorden** \> **Header name**: header `Authentication-Results` \> **waarde**: `dmarc=pass` of `dmarc=bestguesspass` .
+   - **Voorwaarde voor de e-mail stroom regel** : **een kop van een bericht** \> **bevat een van deze woorden** \> **Header name** : header `Authentication-Results` \> **waarde** : `dmarc=pass` of `dmarc=bestguesspass` .
 
-     Met deze voorwaarde wordt de verificatiestatus van de afzender van het verzonden e-mail domein gecontroleerd om ervoor te zorgen dat het verzendende domein geen spoofing heeft. Zie [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)voor meer informatie over e-mail verificatie.
+     Met deze voorwaarde wordt de verificatiestatus van het e-mail domein voor e-mail gecontroleerd, zodat u zeker weet dat het verzendende domein geen Spoofing wordt. Zie [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)voor meer informatie over e-mail verificatie.
 
    - **Lijst met toegestane IP-** adressen: Geef het bron-IP-adres of-adresbereik op in het filter beleid voor verbindingen.
   
-     Gebruik deze instelling als het verzendende domein geen verificatie heeft. Zo beperkt mogelijk wanneer het komt in de bron-IP-adressen in de lijst met toegestane IP-adressen. We raden u aan een IP-adresbereik van/24 of minder te (minder is beter). Gebruik geen IP-adresbereiken die deel uitmaken van consumenten Services (bijvoorbeeld outlook.com) of gedeelde infrastructuur.
+     Gebruik deze instelling als het verzendende domein geen e-mail verificatie gebruikt. Zo beperkt mogelijk wanneer het komt in de bron-IP-adressen in de lijst met toegestane IP-adressen. We raden u aan een IP-adresbereik van/24 of minder te (minder is beter). Gebruik geen IP-adresbereiken die deel uitmaken van consumenten Services (bijvoorbeeld outlook.com) of gedeelde infrastructuur.
 
    > [!IMPORTANT]
    >
@@ -77,17 +77,17 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van 
    >
    > - Als u een IP-adres toestaat dat zich achter een NAT-gateway (Network Address Translation) bevindt, moet u weten welke servers bij de NAT-groep betrokken zijn om het bereik van de toegestane lijst met IP-adressen te weten te komen. IP-adressen en NAT-deelnemers kunnen wijzigen. U dient regelmatig te controleren of uw IP-vermeldingen voor lijsten in de standaard onderhoudsprocedures worden toegestaan.
 
-3. **Facultatieve voorwaarden**:
+3. **Facultatieve voorwaarden** :
 
-   - **De afzender** \> **is intern/extern** \> **Buiten de organisatie**: deze voorwaarde is impliciet, maar u kunt deze wel gebruiken om te werken met on-premises e-mailservers die mogelijk niet correct zijn geconfigureerd.
+   - **De afzender** \> **is intern/extern** \> **Buiten de organisatie** : deze voorwaarde is impliciet, maar u kunt deze wel gebruiken om te werken met on-premises e-mailservers die mogelijk niet correct zijn geconfigureerd.
 
    - **Het onderwerp of de hoofdtekst** \> het **onderwerp of de hoofdtekst bevat een van deze woorden** \> \<keywords\>: Als u de berichten verder wilt beperken tegen trefwoorden of woordgroepen in het onderwerp of de hoofdtekst van het bericht, kunt u deze woorden als voorwaarde gebruiken.
 
-4. **Actie**: Configureer beide acties in de regel:
+4. **Actie** : Configureer beide acties in de regel:
 
    a. **De berichteigenschappen wijzigen** \> **het betrouwbaarheidsniveau voor ongewenste e-mail (SCL) instellen** \> **Spam filteren negeren**.
 
-   b. **Een berichtkop** \> **bevat een of meer van deze woorden** \> **Naam van koptekst**: \<CustomHeaderName\> **waarde van koptekst**: \<CustomHeaderValue\> .
+   b. **De berichteigenschappen wijzigen** \> **een berichtkop instellen** : **Stel de kop van het bericht** \<CustomHeaderName\> **in op de waarde** \<CustomHeaderValue\> .
 
       Bijvoorbeeld `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`. Als de regel meer dan één domein bevat, kunt u de koptekst van de gewenste tekst aanpassen.
 
@@ -105,7 +105,7 @@ Wanneer spam wordt gefilterd door de lijst met veilige afzenders van een gebruik
 
 Als u de e-mail stroom regels niet zoals hierboven beschreven kunt gebruiken, kunt u de bron-e-mailserver of servers toevoegen aan de lijst met toegestane IP-adressen in het filter beleid voor verbindingen. Zie voor meer informatie het [filteren van verbindingen configureren in EOP](configure-the-connection-filter-policy.md).
 
-**Opmerkingen**:
+**Opmerkingen** :
 
 - Het is belangrijk dat u het aantal toegestane IP-adressen naar een minimum beperkt, dus vermijdt u zo mogelijk volledige IP-adresbereiken.
 
@@ -130,7 +130,7 @@ De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen. u kunt echter 
 
 ## <a name="considerations-for-bulk-email"></a>Aandachtspunten voor bulk-e-mail
 
-Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en de inhoud van het bericht. De envelop bericht bevat informatie die nodig is voor het verzenden en het verzenden van het bericht tussen SMTP-servers. De inhoud van het bericht bevat berichtkop velden (gezamenlijk de kop van het *e-mailbericht*genoemd) en de berichttekst. De envelop van het bericht wordt beschreven in RFC 5321 en de kop van het e-mailbericht wordt beschreven in RFC 5322. Geadresseerden zien de envelop met het werkelijke bericht niet omdat deze wordt gegenereerd door het proces voor het verzenden van berichten en het maakt niet uit van het bericht.
+Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en de inhoud van het bericht. De envelop bericht bevat informatie die nodig is voor het verzenden en het verzenden van het bericht tussen SMTP-servers. De inhoud van het bericht bevat berichtkop velden (gezamenlijk de kop van het *e-mailbericht* genoemd) en de berichttekst. De envelop van het bericht wordt beschreven in RFC 5321 en de kop van het e-mailbericht wordt beschreven in RFC 5322. Geadresseerden zien de envelop met het werkelijke bericht niet omdat deze wordt gegenereerd door het proces voor het verzenden van berichten en het maakt niet uit van het bericht.
 
 - Het `5321.MailFrom` adres (ook wel **e-mail adres van** de afzender, de afzender van P1 of de afzender) is het e-mailadres dat wordt gebruikt in de SMTP-overdracht van het bericht. Dit e-mailadres wordt meestal opgenomen in het veld voor **de veldnamenrij in de kop van** het bericht (hoewel het mogelijk is dat de afzender een ander e-mailadres voor het **retour traject** aanwijst). Als het bericht niet kan worden bezorgd, is dit de geadresseerde voor het rapport over niet-uitgevoerde bezorging (ook wel een NDR genoemd of een bericht met een stuiter bericht).
 
