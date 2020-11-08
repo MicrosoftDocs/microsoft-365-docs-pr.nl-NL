@@ -475,7 +475,7 @@
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: Rapporten uitschakelen bij het exporteren van zoekresultaten
               href: disable-reports-when-you-export-content-search-results.md
-        - name: Inzicht in inhoud zoeken
+        - name: Verwijzing voor inhoud zoeken
           items:
             - name: Limieten voor inhoud zoeken
               href: limits-for-content-search.md
@@ -535,6 +535,8 @@
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
             - name: Ontsleutelen in eDiscovery-hulpprogramma's
               href: ediscovery-decryption.md
+            - name: Diagnostische gegevens voor eDiscovery verzamelen
+              href: ediscovery-diagnostic-info.md
             - name: Veelvoorkomende problemen met eDiscovery oplossen
               href: ediscovery-troubleshooting-common-issues.md
             - name: Een mislukte zoekactie opnieuw uitvoeren
@@ -666,6 +668,8 @@
               href: set-up-compliance-boundaries.md
             - name: Ontsleutelen in eDiscovery-hulpprogramma's
               href: ediscovery-decryption.md
+            - name: Diagnostische gegevens voor eDiscovery verzamelen
+              href: ediscovery-diagnostic-info.md
             - name: Zoeken naar eDiscovery-activiteiten in het auditlogboek
               href: search-for-ediscovery-activities-in-the-audit-log.md
             - name: Problemen met AzCopy oplossen

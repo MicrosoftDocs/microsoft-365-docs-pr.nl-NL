@@ -292,6 +292,8 @@
       items:
         - name: Overzicht
           items:
+            - name: Roadmap voor beveiliging
+              href: ./office-365-security/security-roadmap.md
             - name: Exchange Online Protection
               items:
                 - name: Overzicht Exchange Online Protection
@@ -318,8 +320,6 @@
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: Nieuw Microsoft 365-beveiligingscentrum
               href: ./mtp/overview-security-center.md
-            - name: Roadmap voor beveiliging
-              href: ./office-365-security/security-roadmap.md
             - name: Bedreigingsverkenner (en realtime detecties)
               href: ./office-365-security/threat-explorer.md
             - name: AIR-overzicht
@@ -374,9 +374,11 @@
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
             - name: SIEM-serverintegratie
               href: ./office-365-security/siem-server-integration.md
-            - name: Integratie van SIEM met Defender voor Office 365
+            - name: SIEM-integratie met Defender voor Office 365
               href: ./office-365-security/siem-integration-with-office-365-ti.md
-            - name: Beleid tegen phishing configureren
+            - name: Standaard beveiligen
+              href: ./office-365-security/secure-by-default.md
+            - name: ATP-beleid tegen phishing configureren
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Beleid tegen malware configureren
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -459,8 +461,14 @@
               href: ./office-365-security/preset-security-policies.md
             - name: Configuratie-analyse voor vooraf ingesteld beveiligingsbeleid
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
-            - name: Aanvalssimulator in Defender voor Office 365
+            - name: Aanvalssimulatie in Defender voor Office 365
               href: ./office-365-security/attack-simulator.md
+            - name: Een phishing-aanval simuleren met een aanvalssimulatietraining
+              href: ./office-365-security/attack-simulation-training.md
+            - name: Een aangepaste nettolading maken voor aanvalssimulatietraining
+              href: ./office-365-security/attack-simulation-training-payloads.md
+            - name: Meer inzicht krijgen middels aanvalssimulatietraining
+              href: ./office-365-security/attack-simulation-training-insights.md
             - name: Aanbevolen instellingen voor het configureren van EOP en Defender voor Office 365-beveiliging
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: Aanbevolen procedures voor het configureren van EOP
