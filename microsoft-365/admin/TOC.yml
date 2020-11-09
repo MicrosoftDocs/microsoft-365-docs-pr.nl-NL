@@ -288,40 +288,61 @@
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
         - name: Een handleiding voor AVG-naleving
           href: security-and-compliance/gdpr-compliance.md
-    - name: Apparaten beheren
+    - name: Apparaten en app-gegevens beheren
+      href: devices/index.yml
       items:
-        - name: Beleid en apparaten bekijken en bewerken
-          href: ../business/view-policies-and-devices.md
-        - name: Bedrijfsgegevens verwijderen
-          href: ../business/remove-company-data.md
-        - name: Fabrieksinstellingen terugzetten voor apparaten
-          href: ../business/reset-devices-to-factory-settings.md
-        - name: Beveiligingsfuncties toewijzen aan Intune-instellingen
-          href: ../business/map-protection-features-to-intune-settings.md
-        - name: Apparaatstatussen
-          href: ../business/device-states.md
-        - name: Instellingen voor app-beveiliging voor Windows 10-pc's
-          href: ../business/protection-settings-for-windows-10-devices.md
-        - name: Instellingen voor app-beveiliging instellen voor Android en iOS
-          href: ../business/app-protection-settings-for-android-and-ios.md
+        - name: Methoden voor het beveiligen van apparaat- en app-gegevens
+          href: devices/choose-device-security.md
+        - name: Microsoft Intune-documentatie
+          href: 'https://docs.microsoft.com/mem/intune/'
+        - name: Microsoft 365 Business Premium
           items:
-            - name: Instellingen valideren op Android of iOS
-              href: ../business/validate-settings-on-android-or-ios.md
-        - name: Beveiligingsinstellingen voor apparaten bewerken of maken voor Windows 10-pc's
-          href: ../business/protection-settings-for-windows-10-pcs.md
+            - name: Beleid en apparaten bekijken en bewerken
+              href: ../business/view-policies-and-devices.md
+            - name: Bedrijfsgegevens verwijderen
+              href: ../business/remove-company-data.md
+            - name: Fabrieksinstellingen terugzetten voor apparaten
+              href: ../business/reset-devices-to-factory-settings.md
+            - name: Beveiligingsfuncties toewijzen aan Intune-instellingen
+              href: ../business/map-protection-features-to-intune-settings.md
+            - name: Apparaatstatussen
+              href: ../business/device-states.md
+            - name: Instellingen voor app-beveiliging voor Windows 10-pc's
+              href: ../business/protection-settings-for-windows-10-devices.md
+            - name: Instellingen voor app-beveiliging instellen voor Android en iOS
+              href: ../business/app-protection-settings-for-android-and-ios.md
+              items:
+                - name: Instellingen valideren op Android of iOS
+                  href: ../business/validate-settings-on-android-or-ios.md
+            - name: Beveiligingsinstellingen voor apparaten bewerken of maken voor Windows 10-pc's
+              href: ../business/protection-settings-for-windows-10-pcs.md
+              items:
+                - name: Instellingen valideren op Windows 10-pc's
+                  href: ../business/validate-settings-on-windows-10-pcs.md
+            - name: AutoPilot
+              items:
+                - name: AutoPilot-apparaten en -profiel toevoegen
+                  href: ../business/add-autopilot-devices-and-profile.md
+                - name: AutoPilot-profielen maken en bewerken
+                  href: ../business/create-and-edit-autopilot-profiles.md
+                - name: AutoPilot-apparaten maken en bewerken
+                  href: ../business/create-and-edit-autopilot-devices.md
+                - name: AutoPilot-profielinstellingen
+                  href: ../business/autopilot-profile-settings.md
+        - name: Microsoft 365 enterprise-documentatie
+          href: ../enterprise/index.yml
+        - name: Basic Mobility en Security
           items:
-            - name: Instellingen valideren op Windows 10-pc's
-              href: ../business/validate-settings-on-windows-10-pcs.md
-        - name: AutoPilot
-          items:
-            - name: AutoPilot-apparaten en -profiel toevoegen
-              href: ../business/add-autopilot-devices-and-profile.md
-            - name: AutoPilot-profielen maken en bewerken
-              href: ../business/create-and-edit-autopilot-profiles.md
-            - name: AutoPilot-apparaten maken en bewerken
-              href: ../business/create-and-edit-autopilot-devices.md
-            - name: AutoPilot-profielinstellingen
-              href: ../business/autopilot-profile-settings.md
+            - name: Overzicht van de Basic Mobility en Security
+              href: basic-mobility-security/overview.md
+            - name: Basic Mobility Security en Intune vergelijken
+              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
+            - name: Veelgestelde vragen voor Basic Mobility en Security
+              href: basic-mobility-security/frequently-asked-questions.md
+            - name: Capaciteiten Basic Mobility en Security
+              href: basic-mobility-security/capabilities.md
+            - name: Basic Mobility Security en Intune vergelijken
+              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
     - name: Werken met klanten
       href: work-with-customers/index.yml
       items:
