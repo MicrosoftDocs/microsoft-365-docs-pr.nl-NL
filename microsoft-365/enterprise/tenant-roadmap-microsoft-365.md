@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: De routekaart voor het instellen van uw tenants voor Microsoft 365.
-ms.openlocfilehash: 038d9b0d94b84d184f0d9d9b250d0ee4d2c19de9
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: d2640a036eedda0b0962a15a03dcf0211ea0209b
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753964"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948395"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Tenant plattegrond voor Microsoft 365
 
@@ -33,7 +33,7 @@ Als u wilt dat de Tenant klaar is voor gebruik van gebruikers, groepen, licentie
 
 Nadat u ervoor hebt gezorgd dat uw netwerk voor de toegang tot Microsoft 365 is geoptimaliseerd voor zowel on-premises gebruikers als zelfstandige medewerkers, wordt uw Microsoft 365-Tenant geconfigureerd en geconfigureerd met DNS-domeinnamen, common Services en voor de infrastructuur van de identiteit die een beveiligde gebruikersaanmelding ondersteunt.
 
-### <a name="plan"></a>Abonnement
+### <a name="plan"></a>Plannen
 
 Voor het plannen van uw Tenant-implementatie:
 
@@ -66,7 +66,7 @@ Met Microsoft 365 multi-geo kan uw organisatie zijn Microsoft 365-aanwezigheid u
 
 Zie [Microsoft 365 multi-geo](microsoft-365-multi-geo.md)voor meer informatie.
 
-## <a name="manage-multiple-microsoft-365-tenant"></a>Meerdere Microsoft 365-tenants beheren 
+## <a name="manage-multiple-microsoft-365-tenants"></a>Meerdere Microsoft 365-tenants beheren 
 
 Hoewel een enkele Tenant voor uw oganization ideaal is, is het mogelijk dat u een van de vele organisaties met meerdere tenants hebt. Redenen zijn fusies en verwervingen, u wilt beheerders isolatie, of u hebt een gedecentraliseerde.
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Meer informatie over campagne weergaven in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 181b6ce5859dd5146512fe854c983b6b9096d8c6
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 1e5754e077d4c1b8f685b5dea1f8a59985e08a13
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941353"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948479"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Campagne weergaven in Microsoft Defender voor Office 365
 
@@ -115,9 +115,9 @@ De meest basisfilters die u kunt uitvoeren, zijn de begindatum/-tijd en de eindd
 
 Als u de weergave verder wilt filteren, kunt u één eigenschap met meerdere waarden filteren door te klikken op de knop **campagnetype** , uw selectie te maken en vervolgens op **vernieuwen** te klikken.
 
-In de volgende lijst vindt u een beschrijving van de beschikbare campagne-eigenschappen:
+De eigenschappen van de beschikbare campagne van de knop **campagnetype** worden beschreven in de volgende lijst:
 
-- Basic
+- **Basis** :
   - **Type campagne** : Selecteer **malware** of **phishing**. Wanneer u de selecties uitschakelt, heeft dit hetzelfde resultaat als met beide.
   - **Naam van campagne**
   - **Subtype campagne**
@@ -127,23 +127,26 @@ In de volgende lijst vindt u een beschrijving van de beschikbare campagne-eigens
   - **Onderwerp**
   - **Bestandsnaam van bijlage**
   - **Familie van malware**
+  - **Tags** : gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Systeem overschrijvingen**
   - **Bezorgings actie**
+  - **Extra actie**
+  - **Richting**
   - **Detectietechnologie**
-  - **Tags**
+  - **Oorspronkelijke bezorgingslocatie**
+  - **Nieuwste bezorgingslocatie**
   - **Systeem overschrijvingen**
 
-- Advanced
+- **Geavanceerd** :
   - **Internet bericht-id** : beschikbaar in het veld **bericht-id-** koptekst in de kop van het bericht. Een Voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Let op de punthaken).
   - **Netwerkbericht-id** : een GUID-waarde die beschikbaar is in het veld **X-MS-Exchange-Organization-Network-Message-ID** in de kop van het bericht.
   - **IP van afzender**
   - **Bijlage sha256** : als u de sha256-hashwaarde van een bestand wilt zoeken in Windows, voert u de volgende opdracht uit op een opdrachtregel: `certutil.exe -hashfile "<Path>\<Filename>" SHA256` .
-
   - **Cluster-ID**
-
   - **ID van waarschuwings beleid**
+  - **ZAP-URL-signaal**
 
-- URLs
-
+- **Url's** :
   - **URL-domein**
   - **URL Domain en Path**
   - **URL**

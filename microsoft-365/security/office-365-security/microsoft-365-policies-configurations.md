@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-overview
-ms.openlocfilehash: 6d0f090f9931e88566e37b038cc30375657019c3
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 4667f84cc3a2e34e6b5e85640c84f090d0b0f1df
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487670"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948467"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -71,9 +71,9 @@ De meeste organisaties hebben specifieke vereisten inzake beveiliging en gegeven
 
 Elke bedrijfstak heeft ook een eigen set gespecialiseerde voorschriften. In plaats van een lijst te maken met alle mogelijke beveiligingsopties of een aanbevelingen per sector segment of functie, zijn er aanbevelingen voor drie verschillende niveaus van beveiliging en bescherming die kunnen worden toegepast op basis van de granulatie van uw behoeften.
 
-- **Basislijn beveiliging**: u wordt aangeraden een minimum standaard te creëren voor het beschermen van gegevens, evenals de identiteiten en apparaten die toegang hebben tot uw gegevens. U kunt deze aanbevelingen volgen om krachtige standaardbeveiliging te bieden die voldoet aan de behoeften van vele organisaties.
-- **Gevoelige beveiliging**: sommige klanten hebben een subset van gegevens die op een hoger niveau moeten worden beveiligd, of alle gegevens moeten worden beveiligd op een hoger niveau. U kunt betere beveiliging toepassen op alle of specifieke gegevenssets in uw Microsoft 365-omgeving. U wordt aangeraden identiteiten en apparaten te beschermen die toegang hebben tot gevoelige gegevens met vergelijkbare beveiligingsniveaus.  
-- **Zeer gereguleerd**: sommige organisaties hebben mogelijk een kleine hoeveelheid gegevens die in hoge mate is geclassificeerd, dat wil zeggen handelsgeheimen of een gereguleerde gegevens. Microsoft biedt mogelijkheden om organisaties te helpen aan deze vereisten te voldoen, waaronder extra bescherming voor identiteiten en apparaten.
+- **Basislijn beveiliging** : u wordt aangeraden een minimum standaard te creëren voor het beschermen van gegevens, evenals de identiteiten en apparaten die toegang hebben tot uw gegevens. U kunt deze aanbevelingen volgen om krachtige standaardbeveiliging te bieden die voldoet aan de behoeften van vele organisaties.
+- **Gevoelige beveiliging** : sommige klanten hebben een subset van gegevens die op een hoger niveau moeten worden beveiligd, of alle gegevens moeten worden beveiligd op een hoger niveau. U kunt betere beveiliging toepassen op alle of specifieke gegevenssets in uw Microsoft 365-omgeving. U wordt aangeraden identiteiten en apparaten te beschermen die toegang hebben tot gevoelige gegevens met vergelijkbare beveiligingsniveaus.  
+- **Zeer gereguleerd** : sommige organisaties hebben mogelijk een kleine hoeveelheid gegevens die in hoge mate is geclassificeerd, dat wil zeggen handelsgeheimen of een gereguleerde gegevens. Microsoft biedt mogelijkheden om organisaties te helpen aan deze vereisten te voldoen, waaronder extra bescherming voor identiteiten en apparaten.
 
 ![Beveiligings kegel: alle klanten > sommige klanten > specifieke klanten. Uitgebreide toepassing voor een specifieke toepassing](../../media/microsoft-365-policies-configurations/M365-idquality-threetiers.png)
 
@@ -194,9 +194,7 @@ Microsoft adviseert geen beleids sets te maken die van toepassing zijn op alle a
 3. Beleidsregels voor voorwaardelijke toegang configureren voor gast en externe gebruikers.
 4. Beleidsregels voor voorwaardelijke toegang configureren voor Microsoft 365 Cloud-apps zoals Microsoft teams, Exchange Online en SharePoint.
 
-<!--
-After you have configured identity and device access, see the [Azure AD feature deployment guide](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2) for a phased checklist of additional features to consider and [Azure AD Identity Governance](https://docs.microsoft.com/azure/active-directory/governance/) to protect, monitor, and audit access.  
---> 
+Wanneer u de identiteit en de toegang tot de apparaten hebt geconfigureerd, raadpleegt u de [Azure AD feature Implementation Guide](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2) voor een gefaseerde controlelijst met aanvullende [functies voor het](https://docs.microsoft.com/azure/active-directory/governance/) bespreken, controleren en controleren van toegang.  
 
 ## <a name="next-step"></a>Volgende stap
 

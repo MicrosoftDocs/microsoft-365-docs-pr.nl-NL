@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: In dit artikel leest u hoe u met EOP en Office 365 u kunt beschermen tegen spam, phishing en preventie van malware, door een veiligheids tip toe te voegen aan de e-mail.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3da52a8ef2913c30c281fec74f92142847e29792
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 0e204021bfd79dabd4abdeefaa990da50915eaf0
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201981"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948443"
 ---
 # <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
 
@@ -47,14 +47,6 @@ Met de veiligheids tip, een bericht met een kleurcode, wordt u gewaarschuwd voor
     ![Schermafbeelding met een groene veiligheids tip.](../../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
 
     Naast onveilige berichten wordt u ook gewaarschuwd dat u de juiste berichten van afzenders vertrouwt met een groene veiligheids tip. Met een groene waarschuwings punt in een e-mailbericht wordt de afzender van het bericht gecontroleerd en gecontroleerd of het bericht veilig is. Microsoft onderhoudt deze lijst met vertrouwde afzenders, waaronder financiële organisaties en andere, vaak vervalste of geïmiteerde rechten.
-
-- Ongefilterde e-mail (grijze veiligheids tip).
-
-    ![Schermafbeelding met een grijze veiligheids tip.](../../media/c4d0cf8f-08e9-4c84-beee-1d9e0b022e0a.png)
-
-    U wordt ook gewaarschuwd wanneer u de controle van een e-mailbericht hebt overgeslagen omdat het afkomstig is van een afzender die u vertrouwt in de lijst met veilige afzenders of als een e-mail stroom regel bestaat om het filteren
-
-    De grijze veiligheids tip wordt ook weergegeven wanneer externe afbeeldingen worden geblokkeerd, dat wil zeggen dat het bericht in uw postvak in wordt weergegeven en dat er geen spam is, maar dat u externe afbeeldingen bevat die u niet hebt gedownload.
 
 ## <a name="working-with-safety-tips"></a>Werken met Veiligheidstips
 

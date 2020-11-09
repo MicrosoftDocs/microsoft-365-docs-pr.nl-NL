@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a1aff37cc845e09be332b853aa938cb66fdb43f
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 561e4c62922a4da0789111de5c3be7844bb83692
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941485"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948491"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -45,7 +45,6 @@ Met dit rapport kunt u:
 - [Een automatisch onderzoek en antwoord proces starten vanuit een weergave in Verkenner](#start-automated-investigation-and-response) (alleen voor Office 365, abonnement 2)
 - ... [Onderzoek kwaadaardige e-mail en nog veel meer](#more-ways-to-use-explorer-or-real-time-detections).
 
-
 ## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Ervaar verbeteringen in de weergave van de bedreiging en de real-time detectie
 
 ### <a name="tags-in-threat-explorer"></a>Labels in de Threat Explorer
@@ -65,6 +64,7 @@ De kolom Tags die in het raster van de e-mail worden weergegeven, bevat alle lab
 > ![Labels filteren in de weergave e-mail raster](../../media/tags-grid.png)
 
 #### <a name="filtering"></a>Bewerkingen
+
 We hebben nu labels als een filter, zodat u precies achter de prioriteits accounts kunt, of specifieke scenario's voor gebruikers Tags, en zelfs resultaten met bepaalde Tags uitsluit als onderdeel van deze ervaring. U kunt deze functie combineren met de verschillende filters die we bieden en helpt u om uw onderzoek bereik te beperken
 
 [![Labels ](../../media/tags-filter-normal.png) filteren](../../media/tags-filter-normal.png#lightbox)
@@ -113,11 +113,11 @@ In de vervolgmenu e-mail-> tabblad Details ziet u nu een specifieke bedreiging v
 
 Naast het identificeren van alle activiteiten met betrekking tot bezorging en na levering, biedt de tijdlijnweergave ook informatie over de bedreiging die op dat moment is geïdentificeerd voor een subset van deze gebeurtenissen. Ook krijgt u meer informatie over extra acties (bijvoorbeeld, ZAP, handmatig herstel), samen met het resultaat van die actie. De tijdlijnweergave bevat informatie over de oorspronkelijke bezorgings periode en daaropvolgende gebeurtenissen na de bezorging van een e-mailbericht.
 
--   Bron: dit kan de beheerder/het systeem/de gebruiker zijn op basis van de bron van de gebeurtenis.
--   Gebeurtenis: Dit omvat gebeurtenissen op het hoogste niveau zoals de oorspronkelijke levering, handmatig herbemiddeling, ZAP, inzendingen en dynamische bezorging.
--   Actie: Dit geldt voor de specifieke actie die is uitgevoerd als onderdeel van ZAP-of beheerdersactie (zoals een tijdelijke verwijdering).
--   Threats: behandelt de bedreigingen (malware, phishing en spam) die op dat moment identificeren.
--   Resultaat/informatie: Hier vindt u meer informatie over het resultaat van de actie, ongeacht of de actie is uitgevoerd als onderdeel van ZAP/admin.
+- Bron: dit kan de beheerder/het systeem/de gebruiker zijn op basis van de bron van de gebeurtenis.
+- Gebeurtenis: Dit omvat gebeurtenissen op het hoogste niveau zoals de oorspronkelijke levering, handmatig herbemiddeling, ZAP, inzendingen en dynamische bezorging.
+- Actie: Dit geldt voor de specifieke actie die is uitgevoerd als onderdeel van ZAP-of beheerdersactie (zoals een tijdelijke verwijdering).
+- Threats: behandelt de bedreigingen (malware, phishing en spam) die op dat moment identificeren.
+- Resultaat/informatie: Hier vindt u meer informatie over het resultaat van de actie, ongeacht of de actie is uitgevoerd als onderdeel van ZAP/admin.
 
 ### <a name="original-and-latest-delivery-location"></a>Oorspronkelijke en meest recente bezorgingslocatie
 
@@ -170,15 +170,15 @@ Systeem overschrijvingen zijn een methode voor het aanstellen van uitzonderingen
 
 De reeks verbeteringen die zijn gericht op URL en URL klikken op gegevens zijn:
 
- - Het weergeven van de volledige geklikt URL (waaronder query parameters die deel uitmaken van de URL) binnen de Click-sectie in URL-flyout. Op dit moment wordt het URL-domein en pad weergegeven op de titelbalk. We verlengen deze informatie om de volledige URL weer te geven.
+- Het weergeven van de volledige geklikt URL (waaronder query parameters die deel uitmaken van de URL) binnen de Click-sectie in URL-flyout. Op dit moment wordt het URL-domein en pad weergegeven op de titelbalk. We verlengen deze informatie om de volledige URL weer te geven.
 
- - Oplossingen voor URL-filters (URL versus URL Domain versus URL Domain en Path): er zijn updates voor het zoeken naar berichten die een URL bevatten/Klik op Verdict. Daarom hebben we ondersteuning ingeschakeld voor protocol agnostic-zoekopdrachten (dat wil zeggen dat u rechtstreeks kunt zoeken naar een URL zonder http). Standaard wordt via URL'S gezocht naar http, tenzij expliciet is opgegeven. Bijvoorbeeld:
+- Oplossingen voor URL-filters (URL versus URL Domain versus URL Domain en Path): er zijn updates voor het zoeken naar berichten die een URL bevatten/Klik op Verdict. Daarom hebben we ondersteuning ingeschakeld voor protocol agnostic-zoekopdrachten (dat wil zeggen dat u rechtstreeks kunt zoeken naar een URL zonder http). Standaard wordt via URL'S gezocht naar http, tenzij expliciet is opgegeven. Bijvoorbeeld:
 
-   1. Zoek met en zonder het `http://` voorvoegsel in de URL-, het URL-domein en de url's-domein en-pad filtervelden. Dit gedrag is consistent en moet hetzelfde resultaat weergeven.
+  1. Zoek met en zonder het `http://` voorvoegsel in de URL-, het URL-domein en de url's-domein en-pad filtervelden. Dit gedrag is consistent en moet hetzelfde resultaat weergeven.
 
-   1. Zoek het `https://` voorvoegsel in URL. Wanneer u dit niet doet, `http://` wordt uitgegaan van het voorvoegsel.
+  1. Zoek het `https://` voorvoegsel in URL. Wanneer u dit niet doet, `http://` wordt uitgegaan van het voorvoegsel.
 
-   1. `/` aan het begin en einde van de velden URL-pad, URL-domein en pad, wordt genegeerd. `/` aan het einde van het veld URL wordt genegeerd.
+  1. `/` aan het begin en einde van de velden URL-pad, URL-domein en pad, wordt genegeerd. `/` aan het einde van het veld URL wordt genegeerd.
 
 ### <a name="phish-confidence-level"></a>Betrouwbaarheidsniveau voor phishing
 
@@ -247,12 +247,13 @@ U kunt de lijst met gerichte gebruikers ook exporteren naar een limiet van 3000,
 > [!div class="mx-imgBorder"]
 > ![Belangrijkste gerichte gebruikers](../../media/Top_Targeted_Users.png)
 
-
 ### <a name="exchange-transport-rules"></a>Exchange-transportregels
+
 Als onderdeel van gegevens verrijking dient u ook alle verschillende transportregels te zien die zijn toegepast op een bericht. Deze informatie wordt weergegeven in de weergave voor het weergeven van de E-mail (als u dit wilt bekijken, selecteert u kolom opties in het raster en voegt u een Exchange-Transport regel toe via de kolom opties in het raster) en de flyout Details in het e-mailbericht.
 U kunt zowel de GUID als de naam van de transportregels zien die op het bericht zijn toegepast. U kunt ook zoeken naar de berichten met behulp van de naam van de transportregel. Dit is een ' contain '-zoekopdracht, wat betekent dat u kunt zoeken met gedeeltelijke zoekopdrachten.
 
 #### <a name="important-note"></a>Belangrijke opmerking:
+
 De ETR toe zoeken en de beschikbaarheid van namen is afhankelijk van de specifieke rol die aan u is toegewezen. U moet beschikken over een van de volgende rollen/machtigingen om de namen en zoekopdrachten van ETR toe te kunnen bekijken.  Als u niet beschikt over de volgende rollen die aan u zijn toegewezen, kunt u niet de namen van de transportregels zien en de naam van de berichten zoeken met behulp van de namen van de ETR toe. U kunt echter het ETR toe-label en de GUID-informatie in de e-mail gegevens zien. Uw andere ervaring rond het weergeven van records in e-mail rasters, e-mail flyout, filters en exporteren worden niet beïnvloed.
 
 - Alleen EXO-preventie van gegevensverlies: alles

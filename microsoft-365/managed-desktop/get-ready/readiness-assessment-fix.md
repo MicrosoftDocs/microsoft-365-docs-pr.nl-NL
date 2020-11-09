@@ -1,5 +1,5 @@
 ---
-title: Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
+title: Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 description: Gedetailleerde stappen voor elk probleem dat met het hulpprogramma wordt gevonden
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 642de80e1a133f212b7afb6774d9aab2eeaabdbf
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: c342ea9f662d883883755d2f67e5c25ffabddf83
+ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941407"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948407"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
 Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten weergegeven:
 
@@ -242,7 +242,7 @@ U hebt een beleid voor het bijwerken van een update voor alle apparaten, alle ge
 
 **Adviser**
 
-Zorg ervoor dat bij een update ring beleid u de **moderne werkplek, alle** Azure AD-groep, hebt uitgesloten. Zie [updates voor Windows 10-software beheren in intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor instructies. De **moderne werkplekken-** de groep Azure AD is een dynamische groep die we maken wanneer u zich aanmeldt bij Microsoft Managed Desktop, zodat u deze groep moet uitsluiten na inschrijving.
+Zorg ervoor dat bij een update ring beleid u de **moderne Werkplaatsings apparaten-alle** Azure AD-groep uitsluiten. Als u een Azure AD-gebruikersgroep aan deze beleidsregels hebt toegewezen, moet u ervoor zorgen dat u ook de **moderne werkplek,** exclusief de Azure AD-groep, die uw door Microsoft beheerde bureaubladgebruikers omvat. Zie [updates voor Windows 10-software beheren in intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor instructies. Zowel de **moderne werkplekken-** alle en de **moderne werkplek: alle** Azure ad-groepen zijn toegewezen groepen die we maken wanneer u zich aanmeldt bij Microsoft Managed Desktop, zodat u deze groep moet uitsluiten na inschrijving.
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory-instellingen
