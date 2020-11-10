@@ -16,16 +16,16 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 description: Dit artikel bevat bronnen voor gebruikers die Office 2007 of Office 2010 gebruiken om hun upgrade te helpen plannen.
-ms.openlocfilehash: 4fa340f2dfa8091aba962da475f5ffb883ba4e3f
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 3193be0fb7b386f78ed4bdb9b80f2a2da72102b4
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920262"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951137"
 ---
 # <a name="plan-your-upgrade-from-office-2007-or-office-2010-servers-and-clients"></a>De upgrade van Office 2007 of Office 2010-servers en-clients plannen
 
-*Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
+*Dit artikel is van toepassing op Microsoft 365 for Enterprise en Office 365 for Enterprise.*
 
 Als uw organisatie oude versies van Office-producten en-servers gebruikt, is het een prima moment om te beginnen met het plannen van de upgrade. Office 2007-producten en-services hebben hun [einde van de ondersteuning](upgrade-from-office-2007-servers-and-products.md)bereikt. Voor Office 2010-producten en-services:
 
@@ -47,9 +47,9 @@ Microsoft 365 is de manier om uw bedrijf digitaal te converteren met voortdurend
 |Materialen|Beschrijving|
 |---|---|
 |[Microsoft 365](https://www.microsoft.com/microsoft-365)|Lees meer over de versies van Microsoft 365.|
-|[Microsoft 365-bedrijfsdocumentatie](https://docs.microsoft.com/microsoft-365/business/)|Uitgebreide informatie over de versie van Microsoft 365 voor kleine en middelgrote bedrijven.|
-|[Microsoft 365 education-documentatie](https://docs.microsoft.com/microsoft-365/education/)|Meer informatie over de versie van Microsoft 365 voor onderwijs organisaties.|
-|[Microsoft 365 Enterprise-documentatie](https://docs.microsoft.com/microsoft-365/enterprise/)|Ga voor gedetailleerde informatie over de versie van Microsoft 365 voor Enterprise-organisaties.|
+|[Documentatie voor Microsoft 365 voor bedrijven](https://docs.microsoft.com/microsoft-365/business/)|Uitgebreide informatie over de versie van Microsoft 365 voor kleine en middelgrote bedrijven.|
+|[Documentatie voor Microsoft 365 voor onderwijs](https://docs.microsoft.com/microsoft-365/education/)|Meer informatie over de versie van Microsoft 365 voor onderwijs organisaties.|
+|[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/)|Ga voor gedetailleerde informatie over de versie van Microsoft 365 voor Enterprise-organisaties.|
 |||
 
 ## <a name="what-happens-if-i-dont-upgrade"></a>Wat gebeurt er als ik een upgrade niet uitvoer?

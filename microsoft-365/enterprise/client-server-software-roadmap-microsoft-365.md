@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Met deze routekaart kunt u client-en serversoftware instellen voor Microsoft 365.
-ms.openlocfilehash: 2fb63f73ad49c68cbeb6c92497835c36f9faf737
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 7ebb48eb474991feae325cab00ebc2a0e9348db8
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920440"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950958"
 ---
 # <a name="client-and-server-software-roadmap-for-microsoft-365"></a>Routekaart voor client-en serversoftware voor Microsoft 365
 
-De meeste Enterprise-organisaties hebben een heterogene omgeving met verschillende versies van besturingssystemen, clientsoftware en serversoftware. Microsoft 365 Enterprise bevat de veiligste versies van de belangrijkste onderdelen van de IT-infrastructuur. Dit omvat ook productiviteitsfuncties die zijn ontworpen om te profiteren van Cloud technologieën.
+De meeste Enterprise-organisaties hebben een heterogene omgeving met verschillende versies van besturingssystemen, clientsoftware en serversoftware. Microsoft 365 voor Enterprise bevat de veiligste versies van de belangrijkste onderdelen van de IT-infrastructuur. Dit omvat ook productiviteitsfuncties die zijn ontworpen om te profiteren van Cloud technologieën.
 
-Om de bedrijfswaarde van de geïntegreerde productsuite van Microsoft 365 Enterprise te maximaliseren, begint u met het plannen en implementeren van een strategie voor het migreren van releases van:
+Als u de Business waarde van de Microsoft 365 for Enterprise Integrated suite van producten wilt maximaliseren, begint u met het plannen en implementeren van een strategie voor het migreren van versies van:
 
 - De Office-client op uw computers naar Microsoft 365-apps voor Enterprise is geïnstalleerd.
 - De Office-servers die op uw servers zijn geïnstalleerd, zijn gelijkwaardige Services in Microsoft 365.
@@ -34,7 +34,7 @@ Om de bedrijfswaarde van de geïntegreerde productsuite van Microsoft 365 Enterp
 >Ondersteuning voor Windows 7 is beëindigd op *14 januari 2020*. Zie voor meer informatie de informatie [over einde van de ondersteuning](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020).
 >
 
-Wanneer u deze migraties gedurende een bepaalde periode uitvoert, is uw organisatie dichter bij de visie van de [moderne werkplek](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/). Deze beveiligde en geïntegreerde omgeving kan u helpen bij het ontgrendelen van teamwerk en creativiteit binnen uw organisatie. Microsoft 365 Enterprise biedt u alles over de mogelijkheid.
+Wanneer u deze migraties gedurende een bepaalde periode uitvoert, is uw organisatie dichter bij de visie van de [moderne werkplek](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/). Deze beveiligde en geïntegreerde omgeving kan u helpen bij het ontgrendelen van teamwerk en creativiteit binnen uw organisatie. Microsoft 365 for Enterprise biedt u de mogelijkheid om u helemaal overal op de weg te doen.
 
 ## <a name="migration-for-office-client-products"></a>Migratie voor Office-clientproducten
 
@@ -44,7 +44,7 @@ Een groot en klein aantal organisaties gebruiken vaak een combinatie van oudere 
 - Niet geoptimaliseerd voor gebruik van Microsoft Cloud Technologies waarmee u uw bedrijf digitaal kunt transformeren.
 - Voer de nieuwste functies niet uit.
 
-Microsoft 365 Enterprise bevat Microsoft 365-apps voor Enterprise. Deze versie van de Office-clientproducten is beschikbaar met een Microsoft 365 Enterprise-licentie. De app wordt geïnstalleerd en bijgewerkt via de Microsoft-Cloud. Microsoft 365-apps voor ondernemingen bevat beveiligingsupdates en de nieuwste functies. Zie [over Microsoft 365-apps voor ondernemingen voor](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)meer informatie.
+Microsoft 365 voor Enterprise bevat Microsoft 365-apps voor Enterprise. Deze versie van de Office-clientproducten is beschikbaar met een Microsoft 365 for Enterprise-licentie. De app wordt geïnstalleerd en bijgewerkt via de Microsoft-Cloud. Microsoft 365-apps voor ondernemingen bevat beveiligingsupdates en de nieuwste functies. Zie [over Microsoft 365-apps voor ondernemingen voor](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)meer informatie.
 
 ### <a name="office-2007"></a>Office 2007
 
@@ -72,7 +72,7 @@ Microsoft 365-apps voor Enterprise installeert automatisch zowel beveiligingsupd
 
 ### <a name="office-2013-and-office-2016"></a>Office 2013 en Office 2016
 
-De kant-en-support routekaart voor Office 2013 en Office 2016 is nog niet bepaald. In deze versies, zoals Office 2010, moet u nog altijd [beveiligingsupdates installeren](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5). Deze taak kan niet goed worden aangepast, afhankelijk van de grootte van uw organisatie.
+Zie de [kant-en-support routekaart voor Office 2013](https://docs.microsoft.com/lifecycle/products/microsoft-office-2013). Het einde van de ondersteuning voor Office 2016 is nog niet bepaald. In deze versies, zoals Office 2010, moet u nog altijd [beveiligingsupdates installeren](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5). Deze taak kan niet goed worden aangepast, afhankelijk van de grootte van uw organisatie.
 
 U kunt de volgende stappen uitvoeren in plaats van de nieuwste beveiligingsupdates voor Office 2013 of Office 2016 te gebruiken 2016 2013, maar u kunt ook de volgende stappen uitvoeren:
 
@@ -91,7 +91,7 @@ De grote en kleine organisatie gebruiken vaak een combinatie van oudere versies 
 - Neem geen nieuwe productiviteitstoepassingen op, zoals Microsoft teams.
 - Neem de nieuwste beveiligingsfuncties niet op, zoals Exchange en Defender voor Office 365.
 
-Microsoft 365 Enterprise bevat Cloud versies van Office Server-services die gebruikmaken van een aantal hulpprogramma's als on-premises versies van Office Server-software, zoals webbrowsers en de Outlook-client. Deze services worden automatisch bijgewerkt voor beveiliging. Uw IT-personeel bespaart de tijd die het duurt om on-premises servers te onderhouden en bij te werken. Deze services bieden ook nieuwe functieverbeteringen die niet beschikbaar zijn in de Office Server-software.
+Microsoft 365 voor Enterprise bevat Cloud versies van Office Server-services die gebruikmaken van enkele van deze hulpprogramma's als on-premises versies van Office Server-software, zoals webbrowsers en de Outlook-client. Deze services worden automatisch bijgewerkt voor beveiliging. Uw IT-personeel bespaart de tijd die het duurt om on-premises servers te onderhouden en bij te werken. Deze services bieden ook nieuwe functieverbeteringen die niet beschikbaar zijn in de Office Server-software.
 
 Gebruik de volgende bronnen voor meer informatie over het migreren van gebruikers en gegevens voor specifieke Microsoft 365-werkbelasting:
 
@@ -155,21 +155,21 @@ Hier ziet u een visuele samenvatting van de opties voor upgrade, migratie en ver
 
 [![Afbeelding met de opties voor het einde van de ondersteuning voor Office 2010-clients en-servers en Windows 7.](../media/microsoft-365-overview/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
-Deze poster voor één pagina is een snelle manier om inzicht te krijgen in de paden die u kunt nemen om het einde van de ondersteuning voor Office 2010-client en-Server producten en Windows 7 te beheren. De gewenste paden worden ondersteund in Microsoft 365 Enterprise.
+Deze poster voor één pagina is een snelle manier om inzicht te krijgen in de paden die u kunt nemen om het einde van de ondersteuning voor Office 2010-client en-Server producten en Windows 7 te beheren. De gewenste paden worden ondersteund in Microsoft 365 for Enterprise.
 
 U kunt [deze poster downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) en afdrukken met de lettergrootte, de Legal formaat of de tabloid-formaat (11 x 17 inch).
 
 ## <a name="transition-your-entire-organization"></a>Uw hele organisatie overzetten
 
-Download deze overgangs poster voor een betere afbeelding van het verplaatsen van de hele organisatie naar de producten en services in Microsoft 365 Enterprise:
+Als u een betere afbeelding wilt over het verplaatsen van de hele organisatie naar de producten en services in Microsoft 365 for Enterprise, downloadt u deze overgangs poster:
 
 [![Afbeelding met de overgang naar Microsoft 365-poster.](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 
-Deze poster van twee pagina‘s is een snelle manier om de bestaande infrastructuur te inventariseren. U kunt deze gebruiken voor informatie over het overstappen op een product of service in Microsoft 365 Enterprise. Dit toont Windows-en Office-producten en andere infrastructuur en beveiligingselementen, zoals Apparaatbeheer, identiteit en beveiliging van bedreigingen, en informatie en compliance bescherming.
+Deze poster van twee pagina‘s is een snelle manier om de bestaande infrastructuur te inventariseren. U kunt deze gebruiken voor informatie over het overstappen op een product of service in Microsoft 365 for Enterprise. Dit toont Windows-en Office-producten en andere infrastructuur en beveiligingselementen, zoals Apparaatbeheer, identiteit en beveiliging van bedreigingen, en informatie en compliance bescherming.
 
-## <a name="how-microsoft-migrated-to-microsoft-365-enterprise"></a>Hoe Microsoft is gemigreerd naar Microsoft 365 Enterprise
+## <a name="how-microsoft-migrated-to-microsoft-365-for-enterprise"></a>Hoe Microsoft gemigreerd naar Microsoft 365 for Enterprise
 
-Kijk hoe IT-experts aan Microsoft het bedrijf hebben gemigreerd naar Microsoft 365 Enterprise:
+Kijk hoe IT-experts aan Microsoft het bedrijf hebben gemigreerd naar Microsoft 365 for Enterprise:
 
 - [Microsoft 365-Apps implementeren en bijwerken voor Enterprise](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [Microsoft migrates 150,000 mailboxes to Exchange Online](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)(Hoe Microsoft 150.000 postvakken heeft gemigreerd naar Exchange Online)

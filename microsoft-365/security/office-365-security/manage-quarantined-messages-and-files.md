@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven en beheren van quarantaine berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook quarantaine bestanden beheren in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: b6f6f47dc227d3bada425d02784a8aff5da8b3d3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9d58f8c08d994e5e9736c8223239b54e52c4edab
+ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842926"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48951045"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -127,14 +127,6 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
    Nadat u de zoekcriteria hebt opgegeven, klikt u op de ![Knop vernieuwen](../../media/scc-quarantine-refresh.png) **Vernieuwen** om de resultaten te filteren.
 
 Nadat u een specifiek bericht in quarantaine hebt gevonden, selecteert u het bericht om de details te bekijken en actie te ondernemen (bijvoorbeeld bericht bekijken, vrijgeven, downloaden of verwijderen).
-
-#### <a name="export-message-results"></a>Berichtresultaat exporteren
-
-1. Selecteer de berichten waarin u bent geïnteresseerd en klik op **Resultaten exporteren**.
-
-2. Klik op **Ja** in het bevestigingsbericht dat een waarschuwing weergeeft om het browservenster open te houden.
-
-3. Wanneer uw export klaar is, kunt u de downloadlocatie voor het .csv-bestand benoemen en kiezen.
 
 #### <a name="view-quarantined-message-details"></a>Gegevens van bericht in quarantaine bekijken
 
@@ -255,14 +247,6 @@ In organisaties met Defender voor Office 365 kunnen beheerders quarantaine besta
    - **Beleidstype**
 
 Wanneer u een specifiek in quarantaine geplaatste bestand hebt gevonden, selecteert u het bestand om de details ervan weer te geven, en kunt u actie ondernemen (u kunt het bericht bijvoorbeeld weergeven, vrijgeven, downloaden of verwijderen).
-
-#### <a name="export-file-results"></a>Bestandsresultaten exporteren
-
-1. Selecteer de bestanden waarin u bent geïnteresseerd en klik op **resultaten exporteren**.
-
-2. Klik op **Ja** in het bevestigingsbericht dat een waarschuwing weergeeft om het browservenster open te houden.
-
-3. Wanneer uw export klaar is, kunt u de downloadlocatie voor het .csv-bestand benoemen en kiezen.
 
 #### <a name="view-quarantined-file-details"></a>Details van bestand met quarantaine weergeven
 
