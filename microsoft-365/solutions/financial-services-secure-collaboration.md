@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Lees hoe financiële dienstverlening aan financiële compliance kan voldoen en effectief kan samenwerken met Microsoft 365 en Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: 8bc9e965029414dadc39757b926949f3f60afc16
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 7192b29d09acb23df368e2458fac62c18bbbadb2
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906905"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988712"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
@@ -164,7 +164,7 @@ Met Microsoft 365 kunnen alle organisaties gevoelige gegevens binnen de organisa
 * **Microsoft Information Protection (MIP)** voor classificatie op basis van gebruikers en automatische classificatie van gevoelige gegevens.
 * **Office 365 DLP (preventie van gegevensverlies)** voor automatische identificatie van gevoelige gegevens met behulp van gevoelige gegevenstypen (met andere woorden, reguliere expressies) en trefwoorden en het afdwingen van beleid.
 
-Met **[Microsoft Information Protection (MIP)](../compliance/protect-information.md)** kunnen organisaties documenten en e-mails intelligent classificeren met behulp van gevoeligheidslabels. Gevoeligheidslabels kunnen door gebruikers handmatig worden toegepast op documenten in Microsoft Office-toepassingen en e-mailberichten in Outlook. Met de labels kunnen automatisch documentmarkeringen, bescherming via versleuteling en het afdwingen van rechtenbeheer worden toegepast. U kunt ook automatisch gevoeligheidslabels toepassen door beleid in te stellen waarvoor trefwoorden en gevoelige gegevenstypen worden gebruikt, zoals creditcardnummers, burgerservicenummers en identiteitsnummers, om automatisch gevoelige gegevens te zoeken en te classificeren.
+Met **[Microsoft Information Protection (MIP)](../compliance/information-protection.md)** kunnen organisaties documenten en e-mails intelligent classificeren met behulp van gevoeligheidslabels. Gevoeligheidslabels kunnen door gebruikers handmatig worden toegepast op documenten in Microsoft Office-toepassingen en e-mailberichten in Outlook. Met de labels kunnen automatisch documentmarkeringen, bescherming via versleuteling en het afdwingen van rechtenbeheer worden toegepast. U kunt ook automatisch gevoeligheidslabels toepassen door beleid in te stellen waarvoor trefwoorden en gevoelige gegevenstypen worden gebruikt, zoals creditcardnummers, burgerservicenummers en identiteitsnummers, om automatisch gevoelige gegevens te zoeken en te classificeren.
 
 Daarnaast biedt Microsoft 'trainbare classificaties' die machine learning-modellen gebruiken om gevoelige gegevens te identificeren op basis van de inhoud, en niet alleen door te zoeken op patroonovereenkomsten of de elementen in de inhoud. Een classificatie leert hoe een inhoudstype moet worden geïdentificeerd door te kijken naar een groot aantal voorbeelden van de inhoud die moet worden geclassificeerd. U kunt een classificatie trainen door voorbeelden van de inhoud van een bepaalde categorie toe te voegen. Nadat het model van deze voorbeelden heeft geleerd, wordt het getest door een combinatie van overeenkomende en niet-overeenkomende voorbeelden in te voeren. De classificatie voorspelt of een bepaald voorbeeld al dan niet in de categorie. Een persoon bevestigt vervolgens de resultaten, waarbij de positieve waarden, negatieve waarden, fout-positieven en fout-negatieven worden gesorteerd om nauwkeurigere voorspellingen te krijgen. Wanneer de getrainde classificatie wordt gepubliceerd, wordt de inhoud van Microsoft SharePoint Online, Exchange Online en OneDrive voor Bedrijven verwerkt en wordt deze automatisch geclassificeerd.
 

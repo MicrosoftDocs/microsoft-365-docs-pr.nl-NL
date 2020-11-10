@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: U krijgt inzicht in de Microsoft teams-apps die in uw organisatie worden gebruikt door het rapport app-gebruik van Microsoft teams te downloaden van Microsoft 365-rapporten.
-ms.openlocfilehash: deda550b3ffc4209f718d36a3010605edbc1102b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 928ba7bbe4d4753499e71b347baffafa7441f5b5
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636971"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988526"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Microsoft 365-rapporten in het Beheercentrum-Apparaatgebruik in Microsoft teams
 
@@ -61,5 +61,4 @@ U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de 
 |Web  <br/> |Geselecteerd als de gebruiker is geactiveerd in de webclient van teams op apparaten.|
 |Datum van laatste activiteit (UTC)  <br/> |De laatste datum (UTC) waaraan de gebruiker heeft deelgenomen aan een teams-activiteit.  <br/> |
 |Is een licentie|Geselecteerd als de gebruiker een licentie heeft om teams te gebruiken.|
-|Totale team activiteit|Het totaal aantal teamactiviteiten gedurende de geselecteerde tijdsperiode. |
 |||

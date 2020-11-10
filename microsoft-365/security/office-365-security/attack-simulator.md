@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met behulp van Hack Simulator een aanval en wachtwoord aanval uitvoert in hun Microsoft 365 E5 of Microsoft Defender for Office 365-abonnement 2-organisaties.
-ms.openlocfilehash: b7d04b3c81791bfc107b48176373ffc84fc8f6c5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0698d5d97dcedec05e76728379971fad2ab669c6
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845994"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988562"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Aanvals Simulator in Microsoft Defender voor Office 365
 
@@ -35,6 +35,9 @@ Als uw organisatie Microsoft Defender voor Office 365, abonnement 2 bevat, inclu
 
 > [!NOTE]
 > Simulatie van aanval en opleidingen met betrekking tot de training voor Microsoft 365-Services met andere klantgegevens. Zie [Microsoft 365-gegevenslocaties](/microsoft-365/enterprise/o365-data-locations)voor meer informatie.
+
+> [!TIP]
+> Simulatie van aanval is beschikbaar in de openbare preview-versie van het Microsoft 365-Beveiligingscentrum. Zie [een phishing-aanval simuleren met Microsoft Defender voor Office 365](attack-simulation-training.md) voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 

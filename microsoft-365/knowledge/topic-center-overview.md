@@ -11,19 +11,19 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d87a52bc6aca2f033a6e0d26a8c9c0e167908759
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 39a851ed3613057c7b3b931a94a79fed235d277a
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906963"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988828"
 ---
 # <a name="topic-center-overview-preview"></a>Overzicht van topic Center (preview)
 
 > [!Note] 
 > De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
 
-Het onderwerp centrum is een moderne SharePoint-site die fungeert als een informatiecentrum voor uw organisatie. Dit wordt gemaakt tijdens de [configuratie van kennisbeheer](set-up-knowledge-network.md) in het microsoft 365-Beheercentrum.
+Het onderwerp centrum is een moderne SharePoint-site die fungeert als een informatiecentrum voor uw organisatie. Dit wordt gemaakt tijdens de [configuratie van kennisbeheer](set-up-topic-experiences.md) in het microsoft 365-Beheercentrum.
 
 Het onderwerp bevat een standaardstartpagina waarop u kunt zien met wie u bent verbonden of met een verbinding hebt geadviseerd. Gebruikers met de juiste machtigingen kunnen ook:
 
@@ -36,7 +36,7 @@ Het onderwerp bevat een standaardstartpagina waarop u kunt zien met wie u bent v
 
 ## <a name="where-is-the-topic-center"></a>Waar is het onderwerp centrum?
 
-Het onderwerp centrum wordt gemaakt tijdens de configuratie van Knowledge Management. Wanneer de installatie is voltooid, kan de beheerder de URL vinden op de [beheerpagina van het Knowledge Center](manage-knowledge-network.md).
+Het onderwerp centrum wordt gemaakt tijdens de configuratie van Knowledge Management. Wanneer de installatie is voltooid, kan de beheerder de URL vinden op de [beheerpagina van het Knowledge Center](topic-experiences-discovery.md).
 
 1. Selecteer in het Microsoft 365-Beheercentrum de optie **instellingen** in het navigatiedeelvenster en selecteer in de sectie **bedrijfsinformatie** de optie **personen verbinden met kennis**.
 
@@ -46,7 +46,7 @@ Het onderwerp centrum wordt gemaakt tijdens de configuratie van Knowledge Manage
 
 ## <a name="home-page"></a>Startpagina
 
-Als u het onderwerp wilt bekijken, moet u beschikken over machtigingen voor het weergeven van onderwerpen en de onderwerp-ervaringen. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens het [instellen van Knowledge Management](set-up-knowledge-network.md)of nieuwe gebruikers kunnen [later](give-user-permissions-to-the-topic-center.md) door een beheerder worden toegevoegd via het Microsoft 365-Beheercentrum.
+Als u het onderwerp wilt bekijken, moet u beschikken over machtigingen voor het weergeven van onderwerpen en de onderwerp-ervaringen. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens het [instellen van Knowledge Management](set-up-topic-experiences.md)of nieuwe gebruikers kunnen [later](give-user-permissions-to-the-topic-center.md) door een beheerder worden toegevoegd via het Microsoft 365-Beheercentrum.
 
 Op de startpagina 
 - **Onderwerpen weergeven** : ervaringen van een onderwerp weergeven. U kunt onderwerpen in de organisatie weergeven en feedback geven over de onderwerpen waarop u bent verbonden:
@@ -59,7 +59,7 @@ Wanneer ik ben vastgemaakt, kan de pagina met het onderwerp worden bewerkt.
 
 ## <a name="permissions-to-use-the-manage-topics-capability-topic-center"></a>Machtigingen voor het gebruik van de functies voor het beheren van onderwerpen
 
-Als u wilt werken in de sectie Manage topics van topic Center, moet u beschikken over de vereiste machtigingen. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens het [instellen van Knowledge Management](set-up-knowledge-network.md)of nieuwe gebruikers kunnen [later](give-user-permissions-to-the-topic-center.md) door een beheerder worden toegevoegd via het Microsoft 365-Beheercentrum.
+Als u wilt werken in de sectie Manage topics van topic Center, moet u beschikken over de vereiste machtigingen. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens het [instellen van Knowledge Management](set-up-topic-experiences.md)of nieuwe gebruikers kunnen [later](give-user-permissions-to-the-topic-center.md) door een beheerder worden toegevoegd via het Microsoft 365-Beheercentrum.
 
 De gebruikers van het onderwerp centrum kunnen twee groepen machtigingen krijgen:
 

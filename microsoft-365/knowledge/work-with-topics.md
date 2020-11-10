@@ -11,12 +11,12 @@ ms.service: o365-administration
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: d2fd3df200ab350ca3e6595402bab17034d960a7
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 464a926b99cceeb652756ad6d1456c5e17d2a925
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906917"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988736"
 ---
 # <a name="work-with-topics-in-the-topic-center-preview"></a>Werken met onderwerpen in het onderwerp centrum (preview)
 
@@ -28,7 +28,7 @@ In het onderwerp centrum kan een Knowledge Manager onderwerpen controleren die z
 
 ## <a name="requirements"></a>Vereisten
 
-Om in het onderwerp te kunnen werken, moet u beschikken over de vereiste machtigingen. Uw beheerder kan u tijdens het [instellen van Knowledge Management](set-up-knowledge-network.md)toevoegen of nieuwe gebruikers kunnen [later worden toegevoegd](give-user-permissions-to-the-topic-center.md).
+Om in het onderwerp te kunnen werken, moet u beschikken over de vereiste machtigingen. Uw beheerder kan u tijdens het [instellen van Knowledge Management](set-up-topic-experiences.md)toevoegen of nieuwe gebruikers kunnen [later worden toegevoegd](give-user-permissions-to-the-topic-center.md).
 
 De gebruikers van het onderwerp centrum kunnen twee groepen machtigingen krijgen:
 
@@ -72,7 +72,7 @@ Een bevestigd onderwerp bekijken:
 3. U kunt het ook afwijzen
 
 ## <a name="review-published-topics"></a>Gepubliceerde onderwerpen bekijken
-Gepubliceerde onderwerpen zijn bewerkt, zodat de bepaalde-informatie altijd zichtbaar is voor iedereen encountrs de pagina. Handmatig gemaakte onderwerpen worden hier weergegeven.
+Gepubliceerde onderwerpen zijn bewerkt, zodat bepaalde informatie altijd wordt weergegeven voor iemand die de pagina tegenkomt. Handmatig gemaakte onderwerpen worden hier weergegeven.
 
    
 ## <a name="create-a-new-topic"></a>Een nieuw onderwerp maken

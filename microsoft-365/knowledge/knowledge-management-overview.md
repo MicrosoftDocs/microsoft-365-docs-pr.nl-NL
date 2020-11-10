@@ -11,12 +11,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van de Knowledge Management in Project cortex.
-ms.openlocfilehash: d422b54bb7991fb5fd61465cd0428ab586d10bf5
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 27ce6457f2329ccaa4738d6868b4f2051c0c0a51
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906939"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988840"
 ---
 # <a name="knowledge-management-overview-preview"></a>Overzicht van kennisbeheer (preview)
 
@@ -75,7 +75,7 @@ Met beheer besturingselementen in het Microsoft 365-Beheercentrum kunt u uw kenn
 - Bepalen welke gebruikers onderwerpen in het onderwerp centrum kunnen bevestigen of afwijzen.
 - Bepalen welke gebruikers onderwerpen kunnen maken en bewerken in het onderwerp centrum.
 
-Zie [uw kennis netwerk beheren](manage-knowledge-network.md) voor meer informatie. 
+Zie [uw kennis netwerk beheren](topic-experiences-discovery.md) voor meer informatie. 
 
 ## <a name="topic-curation--feedback"></a>Onderwerp & feedback
 
@@ -87,5 +87,5 @@ Daarnaast kunnen gebruikers met de juiste machtigingen items markeren zoals een 
 
 
 ## <a name="see-also"></a>Zie ook
-[Kennisbeheer instellen](set-up-knowledge-network.md)</br>
+[Kennisbeheer instellen](set-up-topic-experiences.md)</br>
 [Overzicht van topic Center](topic-center-overview.md)

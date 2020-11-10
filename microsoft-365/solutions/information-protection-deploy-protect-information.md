@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Implementeer Microsoft 365 beveiligings-en nalevings functies en beveilig uw persoonlijke gegevens.
-ms.openlocfilehash: 97c34ca236ea4be98b9412518788630732259d5a
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: f17568c5a19446644cfb7ee64aac3e0f9eae5793
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377149"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988480"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Informatie beschermen onder de regelgeving van de privacy van data
 
@@ -65,7 +65,7 @@ Om u te helpen aan de slag te gaan met een informatie beschermings schema in Mic
 
 ## <a name="managing-information-protection-in-microsoft-365"></a>Information Protection beheren in Microsoft 365
 
-Oplossingen voor Microsoft- [informatiebescherming](../compliance/protect-information.md) bestaan uit verschillende functies, waaronder microsoft 365, Microsoft Azure en Microsoft Windows. In Microsoft 365 kunt u oplossingen voor informatiebeveiliging onder meer:
+Oplossingen voor Microsoft- [informatiebescherming](../compliance/information-protection.md) bestaan uit verschillende functies, waaronder microsoft 365, Microsoft Azure en Microsoft Windows. In Microsoft 365 kunt u oplossingen voor informatiebeveiliging onder meer:
 
 - [Service versleuteling met klant sleutel](../compliance/customer-key-overview.md)
 - De [typen gevoelige informatie](../compliance/what-the-sensitive-information-types-look-for.md) (beschreven in het [artikel vertrouwelijkheid van gegevens en identificeren van gevoelige artikelen](information-protection-deploy-assess.md))

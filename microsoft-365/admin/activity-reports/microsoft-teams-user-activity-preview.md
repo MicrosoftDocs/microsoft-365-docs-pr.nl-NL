@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het verkrijgen van het Rapportgebruikers activiteit in Microsoft teams en het verkrijgen van inzichten aan de activiteiten van teams in uw organisatie.
-ms.openlocfilehash: 8ce29b43e6238883470d1159ad1d22fefca88792
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b85f073a2916b646a5a03e62913de44b410ca058
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637065"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988468"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Microsoft 365-rapporten in het Beheercentrum-gebruikersactiviteit in Microsoft teams
 
@@ -44,7 +44,7 @@ U kunt de activiteit van gebruikers weergeven in het rapport teams door het tabb
 
 Selecteer **kolommen kiezen** als u kolommen wilt toevoegen aan of verwijderen uit het rapport.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
 
-U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. De geëxporteerde indeling voor **Audio**-en **video** tijd en **scherm delen** volgt de iso8601-tijdsindeling.
+U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. De geëxporteerde indeling voor **Audio** -en **video** tijd en **scherm delen** volgt de iso8601-tijdsindeling.
 
 |Item|Beschrijving|
 |:-----|:-----|
@@ -59,5 +59,5 @@ U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de 
 |Vergaderingen geordend in de adhoc <br/> |Het aantal vergaderingen dat niet is gepland in de agenda die de gebruiker heeft georganiseerd in de opgegeven periode. <br/>|
 |Geplande vergaderingen  <br/> |Het aantal geplande vergaderingen dat een gebruiker heeft georganiseerd in de opgegeven periode.  <br/> |
 |Is een licentie |Geselecteerd als de gebruiker een licentie heeft om teams te gebruiken.|
-|Overige activiteiten|de gebruiker wordt als actief beschouwd maar heeft een nulwaarde voor de chat berichten, 1:1-gesprekken, Kanaalberichten, totale vergaderingen en vergaderingen georganiseerde metrische waarden. Voorbeelden van acties zijn een bericht wanneer een gebruiker een bericht bericht post opent, maar geen antwoord ontvangt of wanneer een privébericht wordt ontvangen en wordt gelezen, maar er wordt niet gereageerd. |
+|Overige activiteiten|De gebruiker is actief, maar er zijn andere activiteiten uitgevoerd dan de weergegeven actietypen in het rapport (verzenden of beantwoorden met kanaalberichten en chatberichten, planning of deelnemen aan gesprekken en vergaderingen in 1:1). Voorbeelden van acties zijn een wijziging wanneer een gebruiker de Teamstatus of het statusbericht van een team wijzigt of een Kanaalbericht post opent, maar geen antwoord heeft. |
 |||
