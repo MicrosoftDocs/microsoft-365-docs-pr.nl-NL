@@ -1,16 +1,16 @@
-- name: Aan de slag met kennismanagement
+- name: Aan de slag met Knowledge Management
   items:
-    - name: Overzicht van kennismanagement
+    - name: Overzicht van kennisbeheer
       href: knowledge-management-overview.md
-    - name: Overzicht van het onderwerpcentrum
+    - name: Overzicht van topic Center
       href: topic-center-overview.md
-    - name: Werken met onderwerpen in het onderwerpcentrum
+    - name: Werken met onderwerpen in het onderwerp centrum
       href: work-with-topics.md
-    - name: Gebruikers machtigingen geven aan het onderwerpcentrum
+    - name: Gebruikersmachtigingen verlenen voor het onderwerp centrum
       href: give-user-permissions-to-the-topic-center.md
-- name: Aan de slag met setup
+- name: Aan de slag met Setup
   items:
-    - name: Kennismanagement opzetten
-      href: set-up-knowledge-network.md
-    - name: Beheer uw kennismanagementnetwerk
-      href: manage-knowledge-network.md
+    - name: Kennisbeheer instellen
+      href: set-up-topic-experiences.md
+    - name: Uw kennisbeheer netwerk beheren
+      href: topic-experiences-discovery.md
