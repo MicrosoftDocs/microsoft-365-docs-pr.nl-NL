@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 88db2182ec1a3250d2f4308858026fec97a2f91b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5259c7b74446ad273ff9b1ae0baccd339e34baa3
+ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844102"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48984948"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender-pijlers configureren voor uw proefversie of pilot omgeving
 
@@ -68,13 +68,13 @@ De voorbereiding is essentieel voor een succesvolle implementatie. In dit artike
 ## <a name="microsoft-365-defender-pillars"></a>Microsoft 365 Defender-pijlers
 Microsoft 365 Defender bestaat uit vier pijlers. Hoewel één van de voorwaarden van de veiligheid van uw netwerkorganisatie al waarden kan bieden, bieden de vier Microsoft 365 Defender-pijltjes de meeste waarden.
 
-![Afbeelding of_Microsoft 365, oplossing voor gebruikers, Microsoft Defender for-eindpunten, Microsoft Defender for endpoints, voor Cloud-apps, Microsoft Cloud app Security en voor gegevens, Microsoft Defender voor Office 365](../../media/mtp-eval-31.png)
+![Afbeelding of_Microsoft 365, oplossing voor gebruikers, Microsoft Defender for-eindpunten, Microsoft Defender for endpoints, voor Cloud-apps, Microsoft Cloud app Security en voor gegevens, Microsoft Defender voor Office 365](../../media/mtp/m365pillars.png)
 
 In deze sectie wordt u begeleid bij de configuratie:
 -   Microsoft Defender voor Office 365
--   Microsoft Defender voor identiteit 
+-   Microsoft Defender for Identity 
 -   Microsoft Cloud App Security
--   Microsoft Defender voor eindpunt
+-   Microsoft Defender voor Eindpunt 
 
 
 ## <a name="configure-microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365 configureren
