@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het geavanceerde anti-phishingfilter kunt maken, wijzigen en verwijderen, dat beschikbaar is in organisaties met Microsoft Defender voor Office 365.
-ms.openlocfilehash: ecc68a8dc050a5f08c6982b023861e0ea8976775
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 7665d0dc475909d04da209aa6c1cd6b12378f8a9
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920654"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993386"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Anti phishingfilter configureren in Microsoft Defender voor Office 365
 
@@ -170,7 +170,10 @@ Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuw
      Als u een bestaande vermelding wilt bewerken, selecteert u de beveiligde gebruiker in de lijst.
 
      > [!NOTE]
-     > U kunt maximaal 60 gebruikers in een anti-phishing beleid hebben. Met andere woorden: u kunt met 60 beveiligde gebruikers in één beleid, 12 beveiligde gebruikers in 5 beleidsregels, etc.
+     >
+     > - In elk anti-phishingfilter kunt u maximaal 60 beveiligde gebruikers opgeven (e-mailadressen van afzender). U kunt niet dezelfde beveiligde gebruiker opgeven in meerdere beleidsregels.
+     >
+     > - Gebruikers imitatie bescherming werkt niet als de afzender en de geadresseerde eerder via e-mail zijn gecommuniceerd. Als de afzender en de ontvanger niet via e-mail zijn gecommuniceerd, wordt het bericht herkend als een imitatie poging.
 
    - **Domeinen toevoegen die u wilt beveiligen** : Configureer een of beide van de volgende instellingen:
 
@@ -178,7 +181,7 @@ Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuw
      - **Aangepaste domeinen opnemen** : de standaardwaarde is **uitgeschakeld**. Als u deze optie wilt inschakelen, verschuift u de schuifregelaar naar **aan** en voert u in het vak **domeinen toevoegen** de domeinnaam in (bijvoorbeeld contoso.com), drukt u op ENTER en herhaalt u de gewenste stappen.
 
      > [!NOTE]
-     > U kunt maximaal 50 domeinen in een anti-phishing beleid hebben. Met andere woorden: u kunt met 50 beveiligde gebruikers in één beleid, 10 beveiligde gebruikers in 5 beleidsregels, etc.
+     > U kunt maximaal 50 domeinen in een anti-phishing beleid hebben.
 
    - **Acties** : Klik op **bewerken**
 

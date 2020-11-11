@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: Meer informatie over het beheren van multi-geografische instellingen van Exchange Online in uw Microsoft 365-omgeving met PowerShell.
-ms.openlocfilehash: ea7090cd65634138f9677960beab7770825a6e86
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: c9219d29a1fdae68075d296404a6c2aeab30f1aa
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950674"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993374"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Postvakken van Exchange Online in een omgeving met meerdere geografische gebieden beheren
 
@@ -93,11 +93,11 @@ Get-OrganizationConfig | Select DefaultMailboxRegion
 
 Met de cmdlet **Get-Mailbox** in Exchange Online PowerShell worden de volgende eigenschappen met betrekking tot multi-geografische eigenschappen weergegeven voor postvakken:
 
-- **Database**: de eerste drie letters van de database naam komen overeen met de geografische code, waarmee wordt aangegeven waar het postvak zich momenteel bevindt. Voor online archief postvakken moet de eigenschap **ArchiveDatabase** worden gebruikt.
+- **Database** : de eerste drie letters van de database naam komen overeen met de geografische code, waarmee wordt aangegeven waar het postvak zich momenteel bevindt. Voor online archief postvakken moet de eigenschap **ArchiveDatabase** worden gebruikt.
 
-- **MailboxRegion**: geeft de geografische locatie code aan die door de beheerder is ingesteld (gesynchroniseerd van **PREFERREDDATALOCATION** in azure AD).
+- **MailboxRegion** : geeft de geografische locatie code aan die door de beheerder is ingesteld (gesynchroniseerd van **PREFERREDDATALOCATION** in azure AD).
 
-- **MailboxRegionLastUpdateTime**: geeft aan wanneer de MailboxRegion voor het laatst is bijgewerkt (automatisch of handmatig).
+- **MailboxRegionLastUpdateTime** : geeft aan wanneer de MailboxRegion voor het laatst is bijgewerkt (automatisch of handmatig).
 
 Gebruik de volgende syntaxis om de eigenschappen van een postvak te bekijken:
 
@@ -160,21 +160,39 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 >   - Het aantal postvakken dat wordt verplaatst.
 >   - De beschikbaarheid van bronnen voor verhuizing.
 
-### <a name="move-disabled-mailboxes-that-are-on-litigation-hold"></a>Uitgeschakelde postvakken in de geschil stand verplaatsen
+### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>Een inactief postvak naar een specifieke geo verplaatsen
 
-Uitgeschakelde postvakken voor het bewaren van een zaak die behouden blijven voor eDiscovery-doeleinden kunnen niet worden verplaatst door de **PreferredDataLocation** -waarde in hun uitgeschakelde staat te wijzigen. Een uitgeschakeld Postvak verplaatsen voor de geschil:
+Het is niet mogelijk om niet-actieve postvakken te verplaatsen die worden bewaard voor nalevings functies (bijvoorbeeld postvakken op de aangifte voor de geschil) door hun **PreferredDataLocation** waarde te wijzigen. Voer de volgende stappen uit om een inactief postvak naar een andere geografische plaats te verplaatsen:
 
-1. Wijs een licentie tijdelijk toe aan het postvak.
+1. Herstel het inactief postvak. Zie [een inactief postvak herstellen](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox)voor instructies.
 
-2. Wijzig de **PreferredDataLocation**.
+2. Voorkomen dat de assistent voor beheerde mappen het herstelde postvak verwerkt door te vervangen door \<MailboxIdentity\> de naam, alias, account of het e-mailadres van het postvak en de volgende opdracht uit te voeren in [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell):
 
-3. Verwijder de licentie uit het postvak nadat deze naar de geselecteerde geo-locatie is verplaatst en zet deze weer in de status uitgeschakeld.
+    ```powershell
+    Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $true
+    ```
+
+3. Wijs een licentie voor **Exchange Online plan 2** toe aan het hersteld postvak. Deze stap is vereist voor het terugplaatsen van het postvak op het in de wachtstand van een zaak. Zie [licenties toewijzen aan gebruikers](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)voor instructies.
+
+4. Configureer de **PreferredDataLocation** -waarde in het postvak, zoals beschreven in de vorige sectie.
+
+5. Nadat u hebt bevestigd dat het postvak naar de nieuwe geografische locatie is verplaatst, plaatst u het herstelde postvak weer op de plaats van het betreffende geschil. Zie voor instructies [een postvak in plaats van de rechtszaken](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold).
+
+6. Nadat u hebt gecontroleerd of het bericht over de bewaring is ingevoerd, kunt u de Managed folder-assistent opnieuw uitvoeren door de \<MailboxIdentity\> naam, alias, account of het e-mailadres van het postvak te vervangen door de volgende opdracht uit te voeren in [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell):
+
+    ```powershell
+    Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $false
+    ```
+
+7. Maak het postvak opnieuw inactief door het gebruikersaccount dat is gekoppeld aan het postvak te verwijderen. Zie [een gebruiker van uw organisatie verwijderen](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)voor instructies. In deze stap wordt ook de licentie voor Exchange Online plan 2 vrijgegeven voor andere gebruiksdoeleinden.
+
+**Opmerking** : wanneer u een inactief postvak naar een andere geografische locatie verplaatst, kan dit gevolgen hebben voor de zoekresultaten van inhoud of de mogelijkheid om te zoeken in het postvak van de voormalige geografische locatie. Zie [inhoud zoeken en exporteren in meerdere geo-omgevingen](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)voor meer informatie.
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>Nieuwe Cloud postvakken maken op een specifieke geografische locatie
 
 Voer een van de volgende stappen uit als u een nieuw postvak op een specifieke geografische locatie wilt maken:
 
-- Configureer de **PreferredDataLocation** waarde zoals beschreven in de vorige sectie *voordat* het postvak in Exchange Online werd gemaakt. Configureer bijvoorbeeld de **PreferredDataLocation** -waarde voor een gebruiker voordat u een licentie toewijst.
+- Configureer de **PreferredDataLocation** waarde zoals beschreven in het vorige [postvak van een bestaande Cloud naar een specifieke geo-locatie](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) sectie verplaatsen *voordat* u het postvak maakt in Exchange Online. U kunt bijvoorbeeld de **PreferredDataLocation** -waarde configureren voor een gebruiker voordat u een licentie toewijst.
 
 - Wijs tegelijkertijd een licentie toe aan de **PreferredDataLocation** -waarde.
 
@@ -201,7 +219,7 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
 Als u meer wilt weten over het maken van nieuwe gebruikersaccounts en het vinden van LicenseAssignment-waarden in azure AD PowerShell, raadpleegt u [gebruikersaccounts maken met PowerShell](create-user-accounts-with-microsoft-365-powershell.md) en [licenties en services weergeven met PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md).
 
 > [!NOTE]
-> Als u Exchange Online PowerShell gebruikt om een postvak in te schakelen en het postvak rechtstreeks moet maken op de geografische locatie die in **PreferredDataLocation**is opgegeven, moet u een cmdlet van Exchange Online gebruiken, zoals **inschakelen-postvak** of **Nieuw-postvak** rechtstreeks op de Cloud-service. Als u de **Enable-RemoteMailbox-** cmdlet in on-premises Exchange PowerShell gebruikt, wordt het postvak gemaakt in de centrale geo-locatie.
+> Als u Exchange Online PowerShell gebruikt om een postvak in te schakelen en het postvak rechtstreeks moet maken op de geografische locatie die in **PreferredDataLocation** is opgegeven, moet u een cmdlet van Exchange Online gebruiken, zoals **inschakelen-postvak** of **Nieuw-postvak** rechtstreeks op de Cloud-service. Als u de **Enable-RemoteMailbox-** cmdlet in on-premises Exchange PowerShell gebruikt, wordt het postvak gemaakt in de centrale geo-locatie.
 
 ## <a name="onboard-existing-on-premises-mailboxes-in-a-specific-geo-location"></a>Bestaande on-premises postvakken in een specifieke geografische locatie opvullen
 

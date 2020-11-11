@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
-ms.openlocfilehash: c1254ccdc678bd25c2d3481b0a43cca5ff9816c0
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: b54f452fb984f61913f2ade53ad45ed169a43832
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919774"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993352"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -97,7 +97,7 @@ De volgende spoof-instellingen zijn beschikbaar in anti-phishing-beleid in EOP e
   > [!NOTE]
   >
   > - De bescherming tegen spoofing is standaard ingeschakeld in het standaard anti-phishingfilter en in elk nieuw aangepast anti-phishing-beleid dat u maakt.
-  > 
+  >
   > - U hoeft geen anti-spoofing-beveiliging uit te schakelen als uw MX-record niet verwijst naar Microsoft 365. u kunt in plaats hiervan uitgebreid filteren op connectors. Zie voor meer informatie het artikel [uitgebreid filteren op connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
   Voor berichten van geblokkeerde vervalste afzenders kunt u ook opgeven welke actie u wilt uitvoeren op de berichten:
@@ -158,7 +158,10 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingfilter
   U kunt beveiligde gebruikers gebruiken om interne en externe afzender e-mailadressen toe te voegen om tegen imitatie te beschermen. Deze lijst met **afzenders** die zijn beveiligd tegen gebruikers imitatie, wijken af van de lijst met **geadresseerden** waarop het beleid van toepassing is (alle geadresseerden voor het standaardbeleid; specifieke geadresseerden die zijn geconfigureerd in de instelling **voor toepassen op** in het onderdeel [beleidsinstellingen](#policy-settings) ).
 
   > [!NOTE]
-  > Het maximale aantal beveiligde gebruikers (e-mailadressen van e-mailadressen) dat u in een anti-phishingfilter kunt definiëren is 60. Met andere woorden: u kunt met 60 beveiligde gebruikers in één beleid, 12 beveiligde gebruikers in 5 beleidsregels, etc.
+  >
+  > - In elk anti-phishingfilter kunt u maximaal 60 beveiligde gebruikers opgeven (e-mailadressen van afzender). U kunt niet dezelfde beveiligde gebruiker opgeven in meerdere beleidsregels.
+  >
+  > - Gebruikers imitatie bescherming werkt niet als de afzender en de geadresseerde eerder via e-mail zijn gecommuniceerd. Als de afzender en de ontvanger niet via e-mail zijn gecommuniceerd, wordt het bericht herkend als een imitatie poging.
 
   Standaard worden er geen e-mailadressen van de afzender geconfigureerd voor imitatie bescherming in **gebruikers**. Daarom zijn de e-mailadressen van de afzender standaard niet onder de bescherming van de imitatie, hetzij in het standaardbeleid of in aangepaste beleidsregels.
 
@@ -167,7 +170,7 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingfilter
 - **Te beschermen domeinen** : voorkomt dat de opgegeven domeinen worden geïmiteerd **in het domein van de afzender van het bericht**. Voorbeelden van alle domeinen die u eigenaar bent ([geaccepteerde domeinen](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) of specifieke domeinen (domeinen die u bezit of een partnerdomein). Deze lijst met het **domein** van de afzender die is beveiligd tegen imitatie, is niet hetzelfde als de lijst met **geadresseerden** waarop het beleid van toepassing is (alle geadresseerden voor het standaardbeleid; specifieke geadresseerden die zijn geconfigureerd met de instelling **toepassen op** in het onderdeel [beleidsinstellingen](#policy-settings) ).
 
   > [!NOTE]
-  > Het maximale aantal beveiligde domeinen dat u in een anti-phishingfilter kunt definiëren, is 50. Met andere woorden: u kunt met 50 beveiligde domeinen in één beleid, 10 beveiligde domeinen in 5 beleidsregels, etc.
+  > Het maximale aantal beveiligde domeinen dat u in een anti-phishingfilter kunt definiëren, is 50.
 
   Standaard worden er geen verzender domeinen geconfigureerd voor de bescherming van imitatie in **domeinen**. Daarom worden niet-gegroepeerde domeinnamen bedoeld met de bescherming van de imitatie, hetzij in het standaardbeleid of aangepaste beleidsregels.
 
