@@ -18,16 +18,16 @@ ms.collection:
 localization_priority: Normal
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: Breid uw Microsoft 365-aanwezigheid uit naar meerdere geografische regio's met mogelijkheden voor meervoudige geo-mogelijkheden in OneDrive online.
-ms.openlocfilehash: 84abfc01d5073889e998347f58d4a3e8bb29ea33
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: 8f42b071abef0602304f1a468190c33700fe3e82
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930175"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995907"
 ---
 # <a name="multi-geo-capabilities-in-onedrive-and-sharepoint-online"></a>Mogelijkheden voor meervoudige geo in OneDrive en SharePoint Online
 
-Met mogelijkheden voor meervoudige geo in OneDrive en SharePoint Online kunt u de besturing van het land of de regio met gedeelde bronnen zoals SharePoint-Team sites en Microsoft 365-groeps postvakken bewaren.
+Met mogelijkheden voor meervoudige geografische functies in OneDrive en SharePoint Online kunt u gedeelde bronnen, zoals SharePoint-Team sites en Microsoft 365-groeps postvakken, opslaan in de rest van een land of regio.
 
 Voor elke gebruiker, groeps postvak en SharePoint-site is een voorkeurs gegevenslocatie (PDL) beschikbaar waarmee de geografische locatie wordt aangegeven waar gerelateerde gegevens moeten worden opgeslagen. De persoonsgegevens (Exchange-postvak en OneDrive) van gebruikers en de Microsoft 365-groepen of SharePoint-sites die ze maken, kunnen op de opgegeven geo-locatie worden opgeslagen om te voldoen aan de vereisten voor data-woonplaats. U kunt [verschillende beheerders opgeven voor elke geografische locatie](add-a-sharepoint-geo-admin.md).
 

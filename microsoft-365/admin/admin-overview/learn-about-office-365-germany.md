@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Meer informatie over Office 365 Duitsland.
-ms.openlocfilehash: b0b370399cc7687f3c564903d01bd07f447dc16a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8b999ecbd2e429ad8a60fa60de1ad3a06664f085
+ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843328"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48995855"
 ---
 # <a name="learn-about-office-365-germany"></a>Meer informatie over Office 365 Duitsland
 
@@ -43,7 +43,7 @@ De behoeften van Office 365 Duitsland en de afscherming van Office Duitsland vas
 
 De aanbiedingen van Office 365 Duitsland zijn zo veel mogelijk afgestemd op de wereldwijde aanbiedingen in deze geïsoleerde omgeving. Uitgesloten zijn Yammer-gerelateerde abonnementen, abonnementen aan het einde van de levenscyclus en abonnementen die beschikbaar zijn via non-profitprogramma's. Office 365 E5, SPE en andere services zijn beschikbaar na de algemene beschikbaarheid van Office 365 Duitsland. 
   
-De volgende services en functies zijn beschikbaar in bepaalde [Office 365 Germany-abonnementen](https://go.microsoft.com/fwlink/p/?linkid=839016). Zie daarnaast de [Gebruiksrechtovereenkomst voor onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
+De volgende services en functies zijn beschikbaar in bepaalde [Office 365 Germany-abonnementen](https://go.microsoft.com/fwlink/p/?linkid=839016). Zie daarnaast de [Gebruiksrechtovereenkomst voor onlineservices](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
   
 - Microsoft 365-apps voor Enterprise, Office 2016 en Office 2013<sup>1</sup>. Houd er rekening mee dat in Office 2013 [moderne verificatie met Office-clients is 365](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)vereist.
     
@@ -85,7 +85,7 @@ De volgende services en functies zijn beschikbaar in bepaalde [Office 365 German
     
 - Delve
     
-<sup>1</sup> Office 365 Duitsland-abonnementen bestaan uit clientsoftware toepassingen die zijn geïnstalleerd en worden uitgevoerd op het apparaat van een eindgebruiker (' clientsoftware toepassingen '), zoals Microsoft 365-apps voor Enterprise, Office 2013 en Office 2016. Clientsoftwaretoepassingen werken niet uitsluitend in Duitse datacenters en kunnen een eindgebruiker ook in staat stellen om toegang te krijgen tot onlineservices die geen [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58) zijn. In het kader van uw overeenkomst met Microsoft zijn clientsoftwaretoepassingen geen [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Zowel de afspraken met betrekking tot de aanwezigheid van de gegevens in Duitsland als het toegangsbeheer door de Duitse gegevensbeheerder is alleen van toepassing op de [Duitse onlineservices](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
+<sup>1</sup> Office 365 Duitsland-abonnementen bestaan uit clientsoftware toepassingen die zijn geïnstalleerd en worden uitgevoerd op het apparaat van een eindgebruiker (' clientsoftware toepassingen '), zoals Microsoft 365-apps voor Enterprise, Office 2013 en Office 2016. Clientsoftwaretoepassingen werken niet uitsluitend in Duitse datacenters en kunnen een eindgebruiker ook in staat stellen om toegang te krijgen tot onlineservices die geen [Duitse onlineservices](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58) zijn. In het kader van uw overeenkomst met Microsoft zijn clientsoftwaretoepassingen geen [Duitse onlineservices](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Zowel de afspraken met betrekking tot de aanwezigheid van de gegevens in Duitsland als het toegangsbeheer door de Duitse gegevensbeheerder is alleen van toepassing op de [Duitse onlineservices](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
   
 ## <a name="general-information"></a>Algemene gegevens
 
