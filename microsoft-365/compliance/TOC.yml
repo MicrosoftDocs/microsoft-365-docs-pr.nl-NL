@@ -82,7 +82,7 @@
 - name: Informatiebescherming beheren
   items:
     - name: 'Uw gegevens kennen, uw gegevens beschermen, gegevensverlies voorkomen'
-      href: protect-information.md
+      href: information-protection.md
     - name: Typen gevoelige informatie
       items:
         - name: Definities van entiteiten van het type Gevoelige informatie
