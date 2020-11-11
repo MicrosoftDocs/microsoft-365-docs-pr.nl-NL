@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in je organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kun je voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: dee0f3e586c49c25daafe999d065e743babf020e
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: 9c3416f415c43377669b2c032e10696343c4416f
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779118"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988456"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
@@ -48,13 +48,13 @@ Bekijk deze video voor meer informatie over hoe je de rapporten kunt gebruiken:
 
 ::: moniker range="o365-germany"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Rapporten** \> **Gebruik** .
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">beheercentrum</a> naar de pagina **Rapporten** \> **Gebruik**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Rapporten** \> **Gebruik** .
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum</a> naar de pagina **Rapporten** \> **Gebruik**.
 
 ::: moniker-end
 
@@ -96,10 +96,14 @@ Afhankelijk van je abonnement zijn de volgende rapporten beschikbaar.
   
 - [Gebruik van e-mail-apps](email-apps-usage.md)
 
-- [Formulieractiviteit](forms-activity.md)
+- [Formulieractiviteit](forms-activity-ww.md)
 
-- [Formulieren Pro-activiteiten](forms-pro-activity.md)
+- [Formulieractiviteit voor de Amerikaanse overheid](forms-activity.md)
+
+- [Dynamics 365 Customer Voice-activiteit](forms-pro-activity-ww.md)
   
+- [Dynamics 365 Customer Voice-activiteit voor de Amerikaanse overheid](forms-pro-activity.md)
+
 - [Microsoft 365-groepen](office-365-groups.md)
   
 - [Gebruikersactiviteit in OneDrive voor Bedrijven](onedrive-for-business-activity-ww.md)
@@ -206,7 +210,7 @@ Als je gebruikersgegevens wilt verbergen bij het genereren van rapporten, kun je
   
 1. Ga in het beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Services &amp; invoegtoepassingen</a>.
 
-2. Selecteer **Rapporten** . 
+2. Selecteer **Rapporten**. 
   
 3. Selecteer de gewenste opties in het deelvenster **Rapporten** en sla de wijzigingen op.
   

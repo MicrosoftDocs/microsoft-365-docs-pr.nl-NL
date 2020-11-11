@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 6078b41f8911301d343925c5bf895e881abddffe
-ms.sourcegitcommit: 88c2461b14cd16f74979f4bcd0a9ad18e4422cb3
+ms.openlocfilehash: 8f1ebd70f932bce874efc19f525b549f6717f532
+ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469719"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988679"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -52,9 +52,9 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
 
 4. Op de pagina **Formulierverwerking configureren** kunt u kiezen of u wilt dat gebruikers formulierverwerkingsmodellen kunnen maken in specifieke SharePoint-documentbibliotheken. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek voor het **maken van een formulierverwerkingsmodel** in SharePoint-documentbibliotheken waarin dit is ingeschakeld.
  
-     Bij **Welke SharePoint-bibliotheken moeten de optie weergeven voor het maken van een formulierverwerkingsmodel**, kunt u het volgende selecteren:</br>
+     Bij **Welke SharePoint-bibliotheken moeten de optie weergeven voor het maken van een formulierverwerkingsmodel** , kunt u het volgende selecteren:</br>
       - **Alle SharePoint-bibliotheken** om de optie beschikbaar te maken voor alle SharePoint-bibliotheken in uw organisatie.</br>
-      - **Alleen bibliotheken op geselecteerde sites**; selecteer vervolgens de sites waar u de optie beschikbaar wilt maken of upload een lijst met maximaal 50 sites.</br>
+      - **Alleen bibliotheken op geselecteerde sites** ; selecteer vervolgens de sites waar u de optie beschikbaar wilt maken of upload een lijst met maximaal 50 sites.</br>
       - **Geen SharePoint-bibliotheken** als u de optie niet beschikbaar wilt maken voor sites (u kunt dit wijzigen na de installatie).
 
    > [!div class="mx-imgBorder"]
@@ -92,7 +92,7 @@ Licenties toewijzen:
 
 3. Selecteer **Meer toewijzen**.
 
-4. Zie **Intelligente inhoudsservices**. Zorg dat onder **Apps** de opties **Common Data Service voor intelligente inhoudsservices** en **Intelligente inhoudsservices** zijn geselecteerd.
+4. Selecteer **SharePoint Syntex**. Zorg ervoor dat onder **Apps** **Algemene Gegevens sService voor SharePoint Syntex** , **SharePoint Syntex** en **SharePoint Syntex-SPO type** allemaal zijn geselecteerd.
 
     > [!div class="mx-imgBorder"]
     > ![SharePoint Syntex-licenties in het Microsoft 365-beheercentrum](../media/content-understanding/sharepoint-syntex-licenses.png)
