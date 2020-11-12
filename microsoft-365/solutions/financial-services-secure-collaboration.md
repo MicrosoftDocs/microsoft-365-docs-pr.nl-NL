@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Lees hoe financiële dienstverlening aan financiële compliance kan voldoen en effectief kan samenwerken met Microsoft 365 en Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: 7192b29d09acb23df368e2458fac62c18bbbadb2
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: 2e0148a89a811fb910237469c42e136d0c744087
+ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988712"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993398"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
@@ -47,7 +47,16 @@ In de financiële dienstverlening is zorgvuldige afweging vereist voor de config
 
 Als Microsoft-partner heeft Protiviti bijgedragen aan dit artikel door belangrijke feedback te geven.
 
-## <a name="empower-organizational-and-employee-productivity-by-using-microsoft-365-and-teams"></a>De productiviteit van organisaties en werknemers empoweren met behulp van Microsoft 365 en Teams
+De volgende downloadbare illustraties vullen dit artikel aan. Woodgrove Bank en Contoso worden gebruikt om aan te tonen hoe de in dit artikel beschreven mogelijkheden kunnen worden toegepast om te voldoen aan algemene regelgevingsvereisten voor financiële services. U kunt deze illustraties aan uw eigen wensen aanpassen. 
+
+**Illustraties voor informatiebeveiliging en naleving in Microsoft 365**
+
+| Item | Beschrijving |
+|:-----|:-----|
+|[![Modelposter: Microsoft 365-gegevensbescherming en nalevingsmogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Downloaden als PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)\| [Downloaden als Visio  ](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Bijgewerkt: oktober 2020|Omvat: <ul><li>  Microsoft informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en retentielabels </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
+
+
+## <a name="empower-organizational-and-employee-productivity-by-using-microsoft-365-and-teams"></a>Versterk de productiviteit van organisaties en medewerkers door Microsoft 365 en Teams te gebruiken
 
 Samenwerking vereist meestal verschillende vormen van communicatie, de mogelijkheid om documenten/gegevens op te slaan en te openen en de mogelijkheid om zo nodig andere toepassingen te integreren. Werknemers in de financiële dienstverlening moeten meestal samenwerken en communiceren met leden van andere afdelingen of teams en soms met externe entiteiten. Daarom kunt u beter geen systemen gebruiken die silo's maken of het delen van informatie bemoeilijken. In plaats daarvan kunt u beter platforms en toepassingen gebruiken waarmee medewerkers veilig kunnen communiceren, samenwerken en informatie kunnen delen volgens het bedrijfsbeleid.
 

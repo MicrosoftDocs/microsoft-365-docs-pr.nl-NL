@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de samenwerking van inhoud-personen met productiviteits Score.
-ms.openlocfilehash: 87f89af527e2a1b843a9b70fbef590b69d920f7d
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 5cdbe0cbb683715a19b182d0781fe238d026a400
+ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804595"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999426"
 ---
 # <a name="content-collaboration--people-experiences"></a>Samenwerken aan inhoud: mensen ervaring
 
@@ -32,7 +32,7 @@ Met productiviteits Score kunt u transformeren hoe werk wordt gedaan met metrisc
 
 ## <a name="why-your-organization39s-content-collaboration-score-matters"></a>Waarom uw organisatie de samenwerking van de inhoud van de organisatie&#39;
 
-Een fundamentele pijler voor de productiviteit van een organisatie is de manier waarop mensen in bestanden kunnen samenwerken. Met uw inhoud op Microsoft 365 kunnen personen toegang krijgen tot inhoud en deze op een willekeurige locatie maken, wijzigen en hieraan samenwerken. Onderzoek laat zien dat elke persoon een gemiddelde van 100 minuten per week opslaat wanneer mensen samenwerken met online bestanden. Zie het [bewijs](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
+Een fundamentele pijler voor de productiviteit van een organisatie is de manier waarop mensen in bestanden kunnen samenwerken. Met uw inhoud op Microsoft 365 kunnen personen toegang krijgen tot inhoud en deze op een willekeurige locatie maken, wijzigen en hieraan samenwerken. Onderzoek laat zien dat elke persoon een gemiddelde van 100 minuten per week opslaat wanneer mensen samenwerken met online bestanden. [Zie het bewijs](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
 ## <a name="how-we-calculate-the-content-collaboration-score"></a>De score voor de samenwerking van inhoud berekenen
 
@@ -81,7 +81,7 @@ De typen die voor deze informatie worden overwogen, zijn Word-, Excel-, PowerPoi
 
 In de grafiek trend visualisaties ziet u de trendlijn met de primaire informatie over de belangrijkste informatie van de inzichten en medewerkers, binnen de laatste 180 dagen. Elk gegevenspunt in de grafiek is een samenvatting van de activiteit voor de afgelopen 28 dagen. Elke creatorgegevens punt biedt een telling van alle personen die zijn gemarkeerd als Creators binnen de laatste 28 dagen voor elke datum op de x-as.
 
-:::image type="content" source="../../media/trendvisualization.jpg" alt-text="Belangrijkste inzichten van communicatie-samenwerkings Score.":::
+:::image type="content" source="../../media/trendvisualization.jpg" alt-text="Diagram met trends voor de samenwerking van primaire inzichten.":::
 
 ### <a name="scoring-framework"></a>Score raamwerk
 
@@ -93,7 +93,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop mensen i
 
 ### <a name="creating-files-to-onedrive-or-sharepoint"></a>Bestanden maken in OneDrive of SharePoint
 
-:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="Belangrijkste inzichten van communicatie-samenwerkings Score.":::
+:::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="Grafiek met het aantal personen die bestanden maken in OneDrive of SharePoint":::
 
 1. **Koptekst:** Hiermee wordt het percentage aangegeven van personen die actief zijn op Microsoft 365 Office-toepassingen die bestanden maken in OneDrive of SharePoint.
 2. **Hoofdtekst:** Dit artikel bevat informatie over de waarde van het maken van inhoud in OneDrive en SharePoint.
@@ -109,7 +109,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop mensen i
 
 ### <a name="use-of-attachments-in-email"></a>Het gebruik van bijlagen in een e-mail
 
-:::image type="content" source="../../media/emailattachments.png" alt-text="Belangrijkste inzichten van communicatie-samenwerkings Score.":::
+:::image type="content" source="../../media/emailattachments.png" alt-text="Gebruik van e-mailbijlagen.":::
 
 1. **Koptekst:** Hiermee markeert u het percentage personen die bijlagen gebruiken in e-mailberichten die niet zijn opgeslagen in OneDrive of SharePoint.
 2. **Hoofdtekst:** Dit artikel bevat informatie over de waarde voor het delen van koppelingen naar online bestanden vanuit een oogpunt van samenwerking en beveiliging.
@@ -127,7 +127,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop mensen i
 
 ### <a name="sharing-of-online-files"></a>Online bestanden delen
 
-:::image type="content" source="../../media/sharingonlinefiles.png" alt-text="Belangrijkste inzichten van communicatie-samenwerkings Score.":::
+:::image type="content" source="../../media/sharingonlinefiles.png" alt-text="Grafiek met het aantal personen waarmee bestanden online worden gedeeld.":::
 
 1. **Koptekst:** Hiermee markeert u het percentage van personen die toegang hebben tot OneDrive of SharePoint, en het delen van bestanden extern.
 2. **Hoofdtekst:** Biedt informatie over de beheerders&#39; mogelijkheid de instellingen voor het delen van bestanden in de organisatie te wijzigen, zodat het gewenste niveau van samenwerking voor uw organisatie kan worden ingeschakeld.
@@ -142,7 +142,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop mensen i
 
 ### <a name="intensity-of-files-collaborated-on"></a>Intensiteit van bestanden die zijn samengewerkt
 
-:::image type="content" source="../../media/intensityofcollab.png" alt-text="Belangrijkste inzichten van communicatie-samenwerkings Score.":::
+:::image type="content" source="../../media/intensityofcollab.png" alt-text="Diagram waarin wordt weergegeven hoe vaak bestanden aan het bestand zijn gewerkt.":::
 
 1. **Koptekst:** Dit markeert het percentage personen die toegang hebben tot OneDrive of SharePoint, en die samenwerken aan 4 of meer bestanden.
 2. **Hoofdtekst:** Dit biedt informatie over hoe mensen online bestanden kunnen inzetten voor betere samenwerking.
@@ -164,7 +164,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop mensen i
 
 ### <a name="network-performance-strength-for-onedrive-and-sharepoint"></a>Netwerk prestatie sterkte voor OneDrive en SharePoint
 
-:::image type="content" source="../../media/networkperfstrength.png" alt-text="Belangrijkste inzichten van communicatie-samenwerkings Score.":::
+:::image type="content" source="../../media/networkperfstrength.png" alt-text="Grafiek met netwerkprestaties voor OneDrive en SharePoint.":::
 
 1. **Koptekst:** Hiermee wordt het percentage van de apparaten voor alle geteste systemen gemarkeerd met een slechte netwerkverbinding met OneDrive en SharePoint. 
 2. **Hoofdtekst:** Dit artikel bevat informatie over waarom de prestaties van netwerkverbindingen belangrijk zijn voor samenwerking. 
