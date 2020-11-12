@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b98cec62a018556bfbd31df0aa824acbd00b37b6
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: a6e3e7cc0404a56e4d69da69b95aa95fa6795dd5
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846238"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002219"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Technologieën in Microsoft Managed Desktop
 
@@ -31,9 +31,9 @@ Dit onderwerp bevat een overzicht van de onderdelen die deel uitmaken van de ver
  |
  --- | ---
 Microsoft 365-apps voor Enterprise (64-bits) | Deze Office-toepassingen worden met het apparaat verzonden: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype voor bedrijven, OneNote.<br><br>De 64-bits volledige versies van Microsoft Project en Microsoft Visio zijn niet opgenomen. Aangezien de installatie van deze toepassingen afhankelijk is van de installatie van de Microsoft 365-apps voor de Enterprise-installatie, heeft Microsoft Managed Desktop standaard Microsoft intune-implementaties en beveiligingsgroepen gemaakt, die u vervolgens kunt gebruiken om deze toepassingen te implementeren voor gelicentieerde gebruikers. Zie [Microsoft Project of Microsoft Visio installeren op door Microsoft beheerde bureaublad apparaten](../get-started/project-visio.md)voor meer informatie.
-OneDrive voor Bedrijven |Azure Active Directory eenmalige aanmelding is ingeschakeld voor gebruikers bij de eerste aanmelding bij OneDrive voor bedrijven.<br><br>Bekende Mapomleiding voor ' Bureaublad ', ' document ' en ' afbeeldingen ' bevat mappen. is ingeschakeld en geconfigureerd voor Microsoft Managed Desktop. 
+OneDrive |Azure Active Directory eenmalige aanmelding is ingeschakeld voor gebruikers bij de eerste aanmelding bij OneDrive.<br><br>Bekende Mapomleiding voor ' Bureaublad ', ' document ' en ' afbeeldingen ' bevat mappen. is ingeschakeld en geconfigureerd voor Microsoft Managed Desktop.
 Store-apps |    Microsoft Sway en Power BI worden niet met het apparaat verzonden. U kunt deze apps downloaden in de Microsoft Store.
-Win32-toepassingen |    Teams worden niet geleverd met het apparaat, maar is verpakt en geleverd door Microsoft van Microsoft beheerde bureaublad apparaten. Azure Information Protection-client wordt niet met het apparaat verzonden, maar u kunt dit pakket wel voor implementatie. 
+Win32-toepassingen |    Teams worden niet geleverd met het apparaat, maar is verpakt en geleverd door Microsoft van Microsoft beheerde bureaublad apparaten. Azure Information Protection-client wordt niet met het apparaat verzonden, maar u kunt dit pakket wel voor implementatie.
 Webtoepassingen |  Yammer, Office in een browser, Delve, flow, StaffHub, PowerApps en planner worden niet met het apparaat verzonden. Gebruikers hebben toegang tot de webversie van deze toepassingen via een browser.
 
 
@@ -42,7 +42,7 @@ Webtoepassingen |  Yammer, Office in een browser, Delve, flow, StaffHub, PowerAp
  |
  --- | ---
 Application Virtualization (app-V) |    Klanten kunnen app-V-pakketten implementeren met behulp van de intune Win32®-app voor app-beheer.
-Microsoft Defender voor eindpunt |    Microsoft Managed Desktop gebruikt deze om de beveiliging van apparaten te bewaken. 
+Microsoft Defender voor Eindpunt  |    Microsoft Managed Desktop gebruikt deze om de beveiliging van apparaten te bewaken. 
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5
 

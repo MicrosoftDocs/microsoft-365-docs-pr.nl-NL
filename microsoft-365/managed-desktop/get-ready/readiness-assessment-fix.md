@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c342ea9f662d883883755d2f67e5c25ffabddf83
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: b77313a18a5744549e492de991e282bc34dbb6da
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948407"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002415"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
@@ -214,7 +214,7 @@ Bekijk de apps waarover u Microsoft beheerde bureaubladgebruikers wilt hebben.
 
 **Adviser**
 
-U moet een inventarisatie voorbereiden van de apps die u wilt laten door Microsoft beheerde bureaubladgebruikers. Zorg ervoor dat deze apps kunnen worden geïmplementeerd door intune. Zie [apps in Microsoft Managed Desktop](apps.md)voor meer informatie.
+U moet een inventarisatie voorbereiden van de apps die u wilt laten door Microsoft beheerde bureaubladgebruikers. Aangezien deze apps moeten worden geïmplementeerd door intune, evalueert u de bestaande intune-apps opnieuw. Overweeg om bedrijfsportal te gebruiken (Zie [intune-bedrijfsportal installeren op apparaten](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/company-portal) en de pagina inschrijvings status (ESP) om apps te distribueren voor uw gebruikers. Zie [apps in Microsoft Managed Desktop](apps.md) en [First-Run met auto pilot en de pagina met de inschrijvings status](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/esp-first-run)voor meer informatie.
 
 U kunt de vertegenwoordiger van uw Microsoft-account vragen om te bepalen welke apps gereed zijn om te worden gemigreerd naar intune of een correctie.
 
@@ -289,9 +289,8 @@ Gebruikers met bepaalde beveiligingsrollen moeten de toewijzingen in Microsoft D
 
 **Adviser**
 
-Als u een van deze rollen hebt toegewezen aan uw Azure AD-organisatie, moet u ervoor zorgen dat deze rollen ook zijn toegewezen in Microsoft Defender voor eindpunt. Anders hebben beheerders met deze rollen geen toegang tot de beheerportal.
+Als u gebruikers hebt toegewezen aan een van deze rollen in uw Azure AD-organisatie, moet u ervoor zorgen dat deze rollen ook zijn toegewezen in Microsoft Defender voor eindpunt. Anders hebben beheerders met deze rollen geen toegang tot de beheerportal.
 
-- Beveiligings lezer
 - Beveiligings operator
 - Algemene lezer
 
@@ -308,7 +307,7 @@ U hebt beveiligingsstandaarden ingeschakeld. Schakel beveiligingsstandaarden uit
 
 ### <a name="self-service-password-reset"></a>Selfservice voor wachtwoordherstel
 
-U moet selfservice voor wachtwoordherstel (SSPR) inschakelen voor alle gebruikers, met uitzondering van Microsoft Managed Desktop service-accounts. Zie [Zelfstudie: gebruikers toestaan hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met behulp van Azure Active Directory-wachtwoordherstel](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+U moet selfservice voor wachtwoordherstel (SSPR) inschakelen voor alle Microsoft beheerde bureaubladgebruikers, met uitzondering van Microsoft beheerde bureaublad serviceaccounts. Zie [Zelfstudie: gebruikers toestaan hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met behulp van Azure Active Directory-wachtwoordherstel](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
 
 **Adviser**
 
@@ -325,11 +324,11 @@ Microsoft beheerde bureaubladgebruikers hebben geen lokale beheerdersbevoegdhede
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen
 
-### <a name="onedrive-for-business"></a>OneDrive voor Bedrijven
+### <a name="onedrive"></a>OneDrive
 
 De instelling voor **synchronisatie alleen toestaan op pc's die lid zijn van een specifieke domein** instelling, conflicteert met Microsoft Managed Desktop.
 
 **Adviser**
 
-U gebruikt de instelling **synchronisatie alleen toestaan op pc's die lid zijn van bepaalde domeinen** . Deze instelling werkt niet met beheerde Microsoft-bureaublad. Schakel deze instelling uit en zet OneDrive voor bedrijven zodanig op dat deze gebruikmaakt van een voorwaardelijk toegangsbeleid. Zie [voorwaardelijke toegang plannen](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) voor hulp.
+U gebruikt de instelling **synchronisatie alleen toestaan op pc's die lid zijn van bepaalde domeinen** . Deze instelling werkt niet met beheerde Microsoft-bureaublad. Schakel deze instelling uit en zet OneDrive zodanig in dat deze gebruikmaakt van een voorwaardelijk toegangsbeleid. Zie [voorwaardelijke toegang plannen](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) voor hulp.
 

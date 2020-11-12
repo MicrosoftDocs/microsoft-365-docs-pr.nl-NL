@@ -1,5 +1,5 @@
 ---
-title: Een niet-routeerbaar domein voorbereiden op adreslijstsynchronisatie
+title: Het voorbereiden van een niet-routeerbaar domein voor adreslijstsynchronisatie
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -22,14 +22,14 @@ search.appverid:
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
 description: Meer informatie over wat u moet doen als u een niet-routeerbaar domein hebt dat is gekoppeld aan uw on-premises gebruikers voordat u synchroniseert met Microsoft 365.
-ms.openlocfilehash: 835beffb77c495179991fbb4388ecd9ee804ec91
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 21344cb0d495691a96867d401a5262fbbcfd02d4
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46695672"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002379"
 ---
-# <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>Een niet-routeerbaar domein voorbereiden op adreslijstsynchronisatie
+# <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>Het voorbereiden van een niet-routeerbaar domein voor adreslijstsynchronisatie
 Wanneer u uw on-premises adreslijst synchroniseert met Microsoft 365, hebt u een geverifieerd domein in azure Active Directory (Azure AD). Alleen de UPN (User Principal Names) die zijn gekoppeld aan het on-premises domein, worden gesynchroniseerd. Elke UPN die een niet-routeerbaar domein bevat, bijvoorbeeld. lokaal (zoals billa@contoso. lokaal), wordt wel gesynchroniseerd met een. onmicrosoft.com-domein (zoals billa@contoso.onmicrosoft.com). 
 
 Als u momenteel een. local-domein gebruikt voor uw gebruikersaccounts in Active Directory Domain Services (AD DS), wordt u aangeraden ze te wijzigen voor gebruik van een geverifieerd domein (bijvoorbeeld billa@contoso.com) om correct te kunnen synchroniseren met uw Microsoft 365-domein.
@@ -42,7 +42,7 @@ Azure AD Connect synchroniseert de UPN en het wachtwoord van uw gebruikers, zoda
   
 ### <a name="change-your-primary-domain"></a>**Uw primaire domein wijzigen**
 
-Uw primaire domein wijzigen in een domein dat u hebt geverifieerd in Microsoft 365, bijvoorbeeld contoso.com. Elke gebruiker met het domein contoso. local wordt vervolgens bijgewerkt naar contoso.com. Zie de werking van [domeinnamen](https://go.microsoft.com/fwlink/p/?LinkId=624174)voor instructies. Dit is een zeer dicht proces en een eenvoudiger oplossing wordt beschreven in de volgende sectie.
+Uw primaire domein wijzigen in een domein dat u hebt geverifieerd in Microsoft 365, bijvoorbeeld contoso.com. Elke gebruiker met het domein contoso. local wordt vervolgens bijgewerkt naar contoso.com. Dit is een zeer dicht proces en een eenvoudiger oplossing wordt beschreven in de volgende sectie.
   
 ### <a name="add-upn-suffixes-and-update-your-users-to-them"></a>**UPN-achtervoegsels toevoegen en de gebruikers hieraan bijwerken**
 
@@ -60,7 +60,7 @@ Nadat u de Upn's hebt bijgewerkt voor gebruik met het geverifieerde domein, kunt
     
     ![Kies Active Directory-domeinen en vertrouwensrelaties.](../media/46b6e007-9741-44af-8517-6f682e0ac974.png)
   
-2. Klik in het venster **Active Directory-domeinen en vertrouwensrelaties** met de rechtermuisknop op **Active Directory-domeinen en vertrouwensrelaties**en kies **Eigenschappen**.
+2. Klik in het venster **Active Directory-domeinen en vertrouwensrelaties** met de rechtermuisknop op **Active Directory-domeinen en vertrouwensrelaties** en kies **Eigenschappen**.
     
     ![Klik met de rechtermuisknop op Active Directory-domeinen en-vertrouwensrelaties en kies Eigenschappen](../media/39d20812-ffb5-4ba9-8d7b-477377ac360d.png)
   
