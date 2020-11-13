@@ -11,17 +11,18 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: In dit artikel leert u hoe u kunt samenwerken met gasten aan een document in SharePoint en OneDrive.
-ms.openlocfilehash: 022811be642a79c07c632cefcc67a27f19e3af4f
-ms.sourcegitcommit: 39af527404cb06e05c5aa4550dbec39aec133016
+ms.openlocfilehash: e3492732756aecb176eb21f0bdfd0d394013975e
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48422603"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030003"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Samenwerken met gasten aan een document
 
@@ -54,7 +55,7 @@ Externe samenwerkings instellingen instellen
 
 Let op de instellingen in de sectie **samenwerkings beperkingen** . Zorg ervoor dat de domeinen van de gasten waarmee u wilt samenwerken, niet zijn geblokkeerd.
 
-Als u met gasten in meerdere organisaties werkt, is het raadzaam om de toegang van Directory-gegevens te beperken. Hiermee kunt u voorkomen dat ze zien welke iemand anders een gast is in de adreslijst. Als u dit wilt doen, selecteert u onder **toegangsbeperkingen**voor gastgebruikers de optie **gastgebruikers beperkte toegang tot eigenschappen en lidmaatschap van adreslijst objecten** of **toegang voor gastgebruikers is beperkt tot eigenschappen en lidmaatschap van eigen directoryobjecten**.
+Als u met gasten in meerdere organisaties werkt, is het raadzaam om de toegang van Directory-gegevens te beperken. Hiermee kunt u voorkomen dat ze zien welke iemand anders een gast is in de adreslijst. Als u dit wilt doen, selecteert u onder **toegangsbeperkingen** voor gastgebruikers de optie **gastgebruikers beperkte toegang tot eigenschappen en lidmaatschap van adreslijst objecten** of **toegang voor gastgebruikers is beperkt tot eigenschappen en lidmaatschap van eigen directoryobjecten**.
 
 ## <a name="sharepoint-organization-level-sharing-settings"></a>Instellingen voordelen op SharePoint-organisatieniveau
 
@@ -71,8 +72,8 @@ Voor SharePoint kiest u de meest strikte instelling die moet worden gebruikt doo
 
 Instellingen voordelen van SharePoint op organisatieniveau instellen
 
-1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra**op **SharePoint**.
-2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid**, op **delen**.
+1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra** op **SharePoint**.
+2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid** , op **delen**.
 3. Zorg ervoor dat extern delen voor SharePoint of OneDrive is ingesteld op **iedereen** of **nieuwe en bestaande gasten**. (Houd er rekening mee dat de instelling OneDrive niet hoger is dan de instelling van SharePoint).
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
@@ -94,7 +95,7 @@ Kies een koppeling uit een van de volgende typen die standaard wordt geselecteer
 De instellingen voor de standaardkoppeling van SharePoint en OneDrive instellen op organisatieniveau
 
 1. Ga naar de pagina delen in het SharePoint-Beheercentrum.
-2. Selecteer onder **koppelingen voor bestanden en mappen**de standaardkoppeling voordelen die u wilt gebruiken.
+2. Selecteer onder **koppelingen voor bestanden en mappen** de standaardkoppeling voordelen die u wilt gebruiken.
 3. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
 Als u de machtiging voor de koppeling voordelen wilt instellen, klikt u onder **Kies de machtiging die standaard wordt geselecteerd voor koppelingen voordelen.**

@@ -11,17 +11,18 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 f1.keywords: NOCSH
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: 204f13cb9546d4604f8789d54ce3164788b64a95
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 184962b1de8d1dccf86541dba302ca9de26989c2
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528204"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030075"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -47,7 +48,7 @@ Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door 
 |Machtigingen voor gastgebruikers zijn beperkt|Ja|Deze instelling heeft invloed op de directorytaken die een gast kan uitvoeren.|
 |Beheerders en gebruikers in de rol van gastuitnodiger kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen beheerders gasten uitnodigen via Microsoft Azure AD en via het deelopties van Microsoft 365, zoals Teams en SharePoint. Wanneer ingesteld op **Nee** is dat niet mogelijk.|
 |Leden kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Gebruikers toestaan nieuwe gasten aan de organisatie toe te voegen** in Beveiliging & privacy van Microsoft 365.|
-|Gasten kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen gasten in de Directory andere gasten uitnodigen om samen te werken aan Microsoft Azure AD-resources en aan bestanden en mappen in SharePoint en OneDrive. Wanneer ingesteld op **Nee** is dat niet mogelijk. <br><br>Merk op dat**Externe gebruikers toestaan om gebruikersaccounts te zoeken in de adreslijst door exacte e-mail adressen te typen** in het SharePoint Online-beheercentrum moet zijn ingeschakeld voordat gasten bestanden en mappen met andere gasten kunnen delen.|
+|Gasten kunnen uitnodigen|Ja|Wanneer ingesteld op **Ja** kunnen gasten in de Directory andere gasten uitnodigen om samen te werken aan Microsoft Azure AD-resources en aan bestanden en mappen in SharePoint en OneDrive. Wanneer ingesteld op **Nee** is dat niet mogelijk. <br><br>Merk op dat **Externe gebruikers toestaan om gebruikersaccounts te zoeken in de adreslijst door exacte e-mail adressen te typen** in het SharePoint Online-beheercentrum moet zijn ingeschakeld voordat gasten bestanden en mappen met andere gasten kunnen delen.|
 |Eenmalige e-mailwachtwoordcode voor gasten inschakelen (voorbeeld)|Nee|Wanneer ingesteld op **Ja** kunnen gasten zonder een MSA of een werk- of schoolaccount [verifiëren met Azure AD middels een eenmalige wachtwoordcode](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode); wanneer ingesteld op **Nee** moeten gebruikers een Microsoft-account maken om te verifiëren. Deze instelling moet zijn ingesteld op **Ja** om [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) te laten werken.|
 |Samenwerkingsbeperkingen|Uitnodigingen verzenden naar ieder domein toestaan|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint. U kunt domeinen nauwkeuriger toestaan of blokkeren door domeinfilters in SharePoint of Teams te gebruiken.|
 
@@ -170,7 +171,7 @@ Omdat OneDrive een hiërarchie van sites binnen SharePoint is, hebben de instell
 
 ### <a name="sharepoint-and-onedrive-file-and-folder-link-settings"></a>Instellingen voor koppelingen naar bestanden en mappen in SharePoint en OneDrive
 
-Wanneer bestanden en mappen in SharePoint en OneDrive worden gedeeld, wordt aan de ontvangers ervan een koppeling verzonden met daarin de machtigingen voor het bestand of de map in plaats van hen rechtstreeks toegang tot het bestand of de map te geven. Er zijn verschillende typen koppelingen beschikbaar en u kunt het standaardkoppelingstype kiezen dat aan gebruikers wordt aangebonden wanneer ze een bestand of map delen. U kunt ook machtigingen en verloopopties instellen voor *Iedereen*-koppelingen.
+Wanneer bestanden en mappen in SharePoint en OneDrive worden gedeeld, wordt aan de ontvangers ervan een koppeling verzonden met daarin de machtigingen voor het bestand of de map in plaats van hen rechtstreeks toegang tot het bestand of de map te geven. Er zijn verschillende typen koppelingen beschikbaar en u kunt het standaardkoppelingstype kiezen dat aan gebruikers wordt aangebonden wanneer ze een bestand of map delen. U kunt ook machtigingen en verloopopties instellen voor *Iedereen* -koppelingen.
 
 **Navigatie:** SharePoint Online-beheercentrum > Delen
 
@@ -179,9 +180,9 @@ Wanneer bestanden en mappen in SharePoint en OneDrive worden gedeeld, wordt aan 
 |**Instelling**|**Standaard**|**Beschrijving**|
 |:-----|:-----|:-----|
 |Koppelingen naar bestanden en mappen|Iedereen met de koppeling|Hiermee wordt bepaald welke koppeling voor delen standaard wordt weergegeven wanneer een gebruiker een bestand of map deelt. Gebruikers kunnen desgewenst de optie wijzigen voordat ze delen. Als de standaardinstelling is ingesteld op **Iedereen met de koppeling** en delen met *Iedereen* is niet toegestaan voor een bepaalde site, dan worden **Alleen personen in uw organisatie** weergegeven als de standaardinstelling voor die site.|
-|Deze koppelingen moeten binnen dit aantal dagen verlopen|Uit (geen verloopdatum)|Hiermee geeft u het aantal dagen na de dag van maken op waarna een *Iedereen*-koppeling vervalt. Verlopen koppelingen kunnen niet worden verlengd. Maak een nieuwe koppeling als u wilt doorgaan met het delen na de verloopdatum.|
-|Machtigingen voor bestanden|Bekijken en bewerken|Hiermee worden de machtigingsniveaus bepaald die voor gebruikers beschikbaar zijn bij het maken van een *Iedereen*-koppeling. Als **Bekijken** is geselecteerd, kunnen gebruikers alleen *Iedereen*-bestandskoppelingen maken met machtigingen voor bekijken. Als **Bekijken en bewerken** is geselecteerd, kunnen gebruikers kiezen tussen de machtigingen bekijken en bekijken en bewerken wanneer ze de koppeling maken.|
-|Mapmachtigingen beheren|Bekijken, bewerken en uploaden|Hiermee worden de machtigingsniveaus voor mappen bepaald die voor gebruikers beschikbaar zijn bij het maken van een *Iedereen*-koppeling. Als **Bekijken** is geselecteerd, kunnen gebruikers alleen *Iedereen*-mapkoppelingen maken met machtigingen voor bekijken. Als **Bekijken, bewerken en uploaden** is geselecteerd, kunnen gebruikers kiezen tussen de machtigingen bekijken en bekijken, bewerken en uploaden wanneer ze de koppeling maken.|
+|Deze koppelingen moeten binnen dit aantal dagen verlopen|Uit (geen verloopdatum)|Hiermee geeft u het aantal dagen na de dag van maken op waarna een *Iedereen* -koppeling vervalt. Verlopen koppelingen kunnen niet worden verlengd. Maak een nieuwe koppeling als u wilt doorgaan met het delen na de verloopdatum.|
+|Machtigingen voor bestanden|Bekijken en bewerken|Hiermee worden de machtigingsniveaus bepaald die voor gebruikers beschikbaar zijn bij het maken van een *Iedereen* -koppeling. Als **Bekijken** is geselecteerd, kunnen gebruikers alleen *Iedereen* -bestandskoppelingen maken met machtigingen voor bekijken. Als **Bekijken en bewerken** is geselecteerd, kunnen gebruikers kiezen tussen de machtigingen bekijken en bekijken en bewerken wanneer ze de koppeling maken.|
+|Mapmachtigingen beheren|Bekijken, bewerken en uploaden|Hiermee worden de machtigingsniveaus voor mappen bepaald die voor gebruikers beschikbaar zijn bij het maken van een *Iedereen* -koppeling. Als **Bekijken** is geselecteerd, kunnen gebruikers alleen *Iedereen* -mapkoppelingen maken met machtigingen voor bekijken. Als **Bekijken, bewerken en uploaden** is geselecteerd, kunnen gebruikers kiezen tussen de machtigingen bekijken en bekijken, bewerken en uploaden wanneer ze de koppeling maken.|
 
 ### <a name="sharepoint-and-onedrive-security-group-settings"></a>SharePoint- en OneDrive-instellingen voor beveiligingsgroepen
 
@@ -193,20 +194,20 @@ Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt 
 
 |**Instelling**|**Standaard**|**Beschrijving**|
 |:-----|:-----|:-----|
-|Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen|Uit|Wanneer **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met externe gebruikers delen. Alleen *Specifieke personen*-koppelingen zijn beschikbaar. Met *Iedereen* delen wordt in feite uitgeschakeld, tenzij **Alleen gebruikers in geselecteerde beveiligingsgroepen toestaan met geverifieerde externe gebruikers delen en met gebruik van anonieme koppelingen** ook **Aan** is|
-|Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen en met gebruik van anonieme koppelingen|Uit|Wanneer **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met gasten delen. Zowel *Iedereen*- als *Specifieke personen*-koppelingen zijn beschikbaar.|
+|Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen|Uit|Wanneer **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met externe gebruikers delen. Alleen *Specifieke personen* -koppelingen zijn beschikbaar. Met *Iedereen* delen wordt in feite uitgeschakeld, tenzij **Alleen gebruikers in geselecteerde beveiligingsgroepen toestaan met geverifieerde externe gebruikers delen en met gebruik van anonieme koppelingen** ook **Aan** is|
+|Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen en met gebruik van anonieme koppelingen|Uit|Wanneer **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met gasten delen. Zowel *Iedereen* - als *Specifieke personen* -koppelingen zijn beschikbaar.|
 
-Beide instellingen kunnen tegelijkertijd worden gebruikt. Als een gebruiker in een beveiligingsgroep voor beide instellingen wordt opgegeven, is het hogere machtigingsniveau van toepassing (*Iedereen* plus *Specifieke gebruikers*). Geneste beveiligingsgroepen worden ondersteund.
+Beide instellingen kunnen tegelijkertijd worden gebruikt. Als een gebruiker in een beveiligingsgroep voor beide instellingen wordt opgegeven, is het hogere machtigingsniveau van toepassing ( *Iedereen* plus *Specifieke gebruikers* ). Geneste beveiligingsgroepen worden ondersteund.
 
 ## <a name="sharepoint-site-level"></a>SharePoint (siteniveau)
 
 **Beheerdersrol:** SharePoint-beheerder
 
-Aangezien deze instellingen afhankelijk zijn van de organisatiebrede instellingen voor SharePoint is het mogelijk dat de instelling voor het delen van bestanden voor de site wordt gewijzigd als de instelling op organisatieniveau verandert. Als u hier een instelling kiest en er wordt later op organisatieniveau een meer beperkende waarde ingesteld, wordt voor deze site die meer beperkende waarde gebruikt. Als u bijvoorbeeld **Iedereen** kiest en de instelling op organisatieniveau wordt later ingesteld op **Nieuwe en bestaande gasten**, worden alleen nieuwe en bestaande gasten door deze site toegestaan. Als de instelling op organisatieniveau vervolgens weer wordt ingesteld op **Iedereen**, worden *Iedereen*-koppelingen weer toegestaan op de site.
+Aangezien deze instellingen afhankelijk zijn van de organisatiebrede instellingen voor SharePoint is het mogelijk dat de instelling voor het delen van bestanden voor de site wordt gewijzigd als de instelling op organisatieniveau verandert. Als u hier een instelling kiest en er wordt later op organisatieniveau een meer beperkende waarde ingesteld, wordt voor deze site die meer beperkende waarde gebruikt. Als u bijvoorbeeld **Iedereen** kiest en de instelling op organisatieniveau wordt later ingesteld op **Nieuwe en bestaande gasten** , worden alleen nieuwe en bestaande gasten door deze site toegestaan. Als de instelling op organisatieniveau vervolgens weer wordt ingesteld op **Iedereen** , worden *Iedereen* -koppelingen weer toegestaan op de site.
 
 ### <a name="site-sharing"></a>Delen van een site
 
-U kunt voor elke site in SharePoint machtigingen voor het delen met gasten instellen. Deze instelling geldt voor zowel het delen van sites als het delen van bestanden en mappen. (Met *Iedereen* delen is niet beschikbaar voor het delen van een site. Als u **Iedereen** kiest, kunnen gebruikers bestanden en mappen delen met *Iedereen*-koppelingen en de site zelf met nieuwe en bestaande gasten.)
+U kunt voor elke site in SharePoint machtigingen voor het delen met gasten instellen. Deze instelling geldt voor zowel het delen van sites als het delen van bestanden en mappen. (Met *Iedereen* delen is niet beschikbaar voor het delen van een site. Als u **Iedereen** kiest, kunnen gebruikers bestanden en mappen delen met *Iedereen* -koppelingen en de site zelf met nieuwe en bestaande gasten.)
 
 **Navigatie:** SharePoint Online-beheercentrum > Actieve sites > Selecteer de site > tabblad Beleid > Extern delen bewerken
 
@@ -218,7 +219,7 @@ U kunt voor elke site in SharePoint machtigingen voor het delen met gasten inste
 
 ### <a name="site-file-and-folder-link-settings"></a>Instellingen voor sitebestand en mapkoppeling
 
-U kunt voor elke site het standaardtype koppeling en de standaardmachtigingen en de verloopinstellingen instellen voor *Iedereen*-koppelingen. Als u deze instellingen op siteniveau instelt, worden de instellingen op organisatieniveau overschreven. Merk op dat als *Iedereen*-koppelingen worden uitgeschakeld op organisatieniveau, *Iedereen*-koppelingen niet beschikbaar zijn als koppelingstype op siteniveau.
+U kunt voor elke site het standaardtype koppeling en de standaardmachtigingen en de verloopinstellingen instellen voor *Iedereen* -koppelingen. Als u deze instellingen op siteniveau instelt, worden de instellingen op organisatieniveau overschreven. Merk op dat als *Iedereen* -koppelingen worden uitgeschakeld op organisatieniveau, *Iedereen* -koppelingen niet beschikbaar zijn als koppelingstype op siteniveau.
 
 **Navigatie:** SharePoint Online-beheercentrum > Actieve sites > Selecteer de site > tabblad Beleid > Extern delen bewerken
 
@@ -228,7 +229,7 @@ U kunt voor elke site het standaardtype koppeling en de standaardmachtigingen en
 |:-----|:-----|:-----|
 |Delen beperken per domein|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling kan niet worden gebruikt om de domeinbeperkingen die zijn ingesteld op het organisatieniveau of het Microsoft Azure AD-niveau te overschrijven.|
 |Standaardkoppelingstype voor delen|Hetzelfde als de instelling op organisatieniveau|Met deze instelling kunt u de standaardkoppeling voor delen opgeven die worden weergegeven aan gebruikers op deze site. De optie *Hetzelfde als de instelling op organisatieniveau* wordt gedefinieerd door een combinatie van de instellingen voor delen van de organisatie en de site.|
-|Geavanceerde instellingen voor Iedereen-koppelingen|Hetzelfde als de instelling op organisatieniveau|Hiermee geeft u het aantal dagen na de dag van maken op waarna een *Iedereen*-koppeling voor een bestand in deze site vervalt. Verlopen koppelingen kunnen niet worden verlengd. Maak een nieuwe koppeling als u wilt doorgaan met het delen na de verloopdatum.|
+|Geavanceerde instellingen voor Iedereen-koppelingen|Hetzelfde als de instelling op organisatieniveau|Hiermee geeft u het aantal dagen na de dag van maken op waarna een *Iedereen* -koppeling voor een bestand in deze site vervalt. Verlopen koppelingen kunnen niet worden verlengd. Maak een nieuwe koppeling als u wilt doorgaan met het delen na de verloopdatum.|
 |Standaardmachtiging voor koppelingen|Hetzelfde als de instelling op organisatieniveau|Met deze instelling kunt u de standaardmachtiging (Bekijken of bewerken) opgeven voor het delen van koppelingen naar bestanden op deze site.|
 
 ### <a name="default-site-sharing-settings"></a>Standaardinstellingen voor het delen van een site

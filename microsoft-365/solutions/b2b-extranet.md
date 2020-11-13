@@ -11,16 +11,17 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Leer hoe u een B2B-extranetsite of-team maakt met beheerde gastgebruikers van een partnerorganisatie.
-ms.openlocfilehash: 83252241833f3dfe663cc70eae28a5df1214cce0
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b052598f86072776f69e538c70a6bd56d79c3f81
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949382"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030051"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>Een B2B-extranet maken met beheerde gasten
 
@@ -55,7 +56,7 @@ Een verbonden organisatie toevoegen
 5. Voer een naam en beschrijving voor de organisatie in en klik op **volgende: adreslijst + domein**.
 6. Klik op **adreslijst + domein toevoegen**.
 7. Typ het domein voor de organisatie waarmee u verbinding wilt maken en klik op **toevoegen**.
-8. Klik op **verbinden**en klik vervolgens op **volgende: sponsors**.
+8. Klik op **verbinden** en klik vervolgens op **volgende: sponsors**.
 9. Voeg mensen uit uw organisatie of organisatie toe die u wilt gebruiken voor de toegang tot gastgebruikers.
 10. Klik op **volgende: bekijken + maken**.
 11. Controleer de instellingen die u hebt gekozen en klik vervolgens op **maken**.
@@ -78,7 +79,7 @@ Een catalogus maken
 Nadat de catalogus is gemaakt, voegt u de SharePoint-site of het team toe dat u wilt delen met de partnerorganisatie.
 
 Resources aan een catalogus toevoegen
-1. Klik in azure AD Identity governance op **catalogi**en klik vervolgens op de catalogus waaraan u resources wilt toevoegen.
+1. Klik in azure AD Identity governance op **catalogi** en klik vervolgens op de catalogus waaraan u resources wilt toevoegen.
 2. Klik op **resources** en klik vervolgens op **resources toevoegen**.
 3. Selecteer de teams of SharePoint-sites die u wilt opnemen in uw extranet en klik op **toevoegen**.
 
@@ -87,19 +88,19 @@ Resources aan een catalogus toevoegen
 Wanneer u de bronnen hebt gedefinieerd die u wilt delen, moet u een toegangs pakket maken, waarmee het type toegang dat partner gebruikers worden verleend en het goedkeuringsproces voor nieuwe partner gebruikers die toegang vraagt, wordt gedefinieerd.
 
 Een toegangs pakket maken
-1. Klik in azure AD Identity governance op **catalogi**en klik vervolgens op de catalogus waarop u een toegangs pakket wilt maken.
-2. Klik op **toegangs pakketten**en klik vervolgens op **nieuw toegangs pakket**.
+1. Klik in azure AD Identity governance op **catalogi** en klik vervolgens op de catalogus waarop u een toegangs pakket wilt maken.
+2. Klik op **toegangs pakketten** en klik vervolgens op **nieuw toegangs pakket**.
 3. Typ een naam en beschrijving voor het toegangs pakket en klik vervolgens op **volgende: resource rollen**.
 4. Kies de resources in de catalogus die u wilt gebruiken voor uw extranet.
 5. Kies voor elke **resource de gebruikersrol** die u wilt verlenen aan de gastgebruikers die het extranet gebruiken.
 6. Klik op **volgende: aanvragen**.
-7. Kies onder **gebruikers die toegang kunnen aanvragen** **voor gebruikers die niet in uw adreslijst**staan.
+7. Kies onder **gebruikers die toegang kunnen aanvragen** **voor gebruikers die niet in uw adreslijst** staan.
 8. Zorg ervoor dat de optie **specifieke verbonden organisaties** is geselecteerd en klik vervolgens op **mappen toevoegen**.
 9. Kies de verbonden organisatie die u eerder toevoegt en klik vervolgens op **selecteren**
-10. Kies onder **goedkeuring**de optie **Ja** voor **Goedkeuring vereisen**.
-11. Kies onder **First beoordelaar**een van de sponsors die u eerder hebt toegevoegd of kies een specifieke gebruiker.
+10. Kies onder **goedkeuring** de optie **Ja** voor **Goedkeuring vereisen**.
+11. Kies onder **First beoordelaar** een van de sponsors die u eerder hebt toegevoegd of kies een specifieke gebruiker.
 12. Klik op **terugval toevoegen** en selecteer een terugval beoordelaar.
-13. Kies onder **inschakelen**de optie **Ja**.
+13. Kies onder **inschakelen** de optie **Ja**.
 14. Klik op **volgende: levenscyclus**.
 15. Kies de instellingen voor het verloop en toegangscontrole die u wilt gebruiken en klik op **volgende: controleren + maken**.
 16. Controleer de instellingen en klik vervolgens op **maken**.
@@ -109,9 +110,9 @@ Een toegangs pakket maken
 Als u een partner maakt met een grote organisatie, wilt u mogelijk het toegangs pakket verbergen. Als het pakket verborgen is, wordt het pakket niet in de partnerorganisatie weergegeven op de portal van *Mijn toegang* . In plaats daarvan moet de persoon een directe koppeling sturen om zich voor het pakket te registreren. Als u het toegangs pakket verbergt, kan het aantal ongepaste toegangsaanvragen verminderd en worden de beschikbare toegangs pakketten in de portal van de partnerorganisatie ook bijgehouden.
 
 Een toegangs pakket instellen op verborgen
-1. Klik in azure AD Identity governance op **toegangs pakketten**en klik vervolgens op uw toegangs pakket.
+1. Klik in azure AD Identity governance op **toegangs pakketten** en klik vervolgens op uw toegangs pakket.
 2. Klik op de pagina **overzicht** op **bewerken**.
-3. Kies onder **Eigenschappen**de optie **Ja** voor **verborgen**en klik vervolgens op **Opslaan**.
+3. Kies onder **Eigenschappen** de optie **Ja** voor **verborgen** en klik vervolgens op **Opslaan**.
 
    ![Schermafbeelding van het scherm Eigenschappen van het Access-pakket bewerken](../media/identity-governance-access-package-hidden.png)
 
@@ -120,7 +121,7 @@ Een toegangs pakket instellen op verborgen
 Als u het toegangs pakket instelt op verborgen, moet u een rechtstreekse koppeling naar de partnerorganisatie verzenden, zodat ze toegang tot uw site of team kunnen aanvragen.
 
 De koppeling naar een Access-Portal zoeken
-1. Klik in azure AD Identity governance op **toegangs pakketten**en klik vervolgens op uw toegangs pakket.
+1. Klik in azure AD Identity governance op **toegangs pakketten** en klik vervolgens op uw toegangs pakket.
 2. Klik op de pagina **overzicht** op **naar Klembord kopiëren om** de **koppeling naar de portal voor mijn toegang**.
 
    ![Schermafbeelding van eigenschappen van het Access-pakket met de koppeling naar de portal van Access](../media/identity-governance-access-portal-link.png)

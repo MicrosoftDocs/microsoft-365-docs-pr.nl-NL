@@ -11,17 +11,18 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een SharePoint-site voor samenwerking met gasten.
-ms.openlocfilehash: dbbf84539c1bef239abc76e142922976902a01ed
-ms.sourcegitcommit: ae3aa7f29be16d08950cf23cad489bc069aa8617
+ms.openlocfilehash: df9068ef4b4eb35f946b78d8f7fefa01c254c79c
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48409034"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49029991"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Samenwerken met gasten op een site
 
@@ -54,7 +55,7 @@ Externe samenwerkings instellingen instellen
 
 Let op de instellingen in de sectie **samenwerkings beperkingen** . Zorg ervoor dat de domeinen van de gasten waarmee u wilt samenwerken, niet zijn geblokkeerd.
 
-Als u met gasten in meerdere organisaties werkt, is het raadzaam om de toegang van Directory-gegevens te beperken. Hiermee kunt u voorkomen dat ze zien welke iemand anders een gast is in de adreslijst. Als u dit wilt doen, selecteert u onder **toegangsbeperkingen**voor gastgebruikers de optie **gastgebruikers beperkte toegang tot eigenschappen en lidmaatschap van adreslijst objecten** of **toegang voor gastgebruikers is beperkt tot eigenschappen en lidmaatschap van eigen directoryobjecten**.
+Als u met gasten in meerdere organisaties werkt, is het raadzaam om de toegang van Directory-gegevens te beperken. Hiermee kunt u voorkomen dat ze zien welke iemand anders een gast is in de adreslijst. Als u dit wilt doen, selecteert u onder **toegangsbeperkingen** voor gastgebruikers de optie **gastgebruikers beperkte toegang tot eigenschappen en lidmaatschap van adreslijst objecten** of **toegang voor gastgebruikers is beperkt tot eigenschappen en lidmaatschap van eigen directoryobjecten**.
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Gastinstellingen voor Microsoft 365-groepen
 
@@ -64,7 +65,7 @@ Moderne SharePoint-sites gebruikmaken Microsoft 365 groepen om de toegang van de
 
 De gastinstellingen van Microsoft 365 groepen instellen
 
-1. In het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, vouwt u **instellingen**uit.
+1. In het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, vouwt u **instellingen** uit.
 2. Klik op **instellingen voor organisatie**.
 3. Klik in de lijst op **Microsoft 365 groepen**.
 4. Zorg ervoor dat de selectievakjes **eigenaren van gebruikers buiten uw organisatie toevoegen aan Microsoft 365-groepen als gasten** en de selectievakjes voor **groepsleden toegang krijgen tot groepsinhoud** beide zijn ingeschakeld.
@@ -83,8 +84,8 @@ Als u niet-geverifieerde bestanden en mappen wilt delen, kiest u **iedereen**. A
 
 Instellingen voordelen van SharePoint op organisatieniveau instellen
 
-1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra**op **SharePoint**.
-2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid**, op **delen**.
+1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra** op **SharePoint**.
+2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid** , op **delen**.
 3. Zorg ervoor dat extern delen voor SharePoint is ingesteld op **iedereen** of **nieuwe en bestaande gasten**.
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
@@ -97,7 +98,7 @@ Een site maken
 2. Klik op **Maken**.
 3. Klik op **team site**.
 4. Typ een naam voor de site en voer een naam in voor de eigenaar van de groep (site-eigenaar).
-5. Kies onder **Geavanceerde instellingen**of u deze site een openbare of persoonlijke versie wilt maken.
+5. Kies onder **Geavanceerde instellingen** of u deze site een openbare of persoonlijke versie wilt maken.
 6. Klik op **Volgende**.
 7. Klik op **Voltooien**.
 
@@ -105,9 +106,9 @@ We nodigen later gebruikers uit. Vervolgens moet u de instellingen voordelen op 
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voordelen op SharePoint-siteniveau
 
-Controleer de instellingen op siteniveau delen om ervoor te zorgen dat ze het gewenste type toegang voor deze site toestaan. Als u bijvoorbeeld de instellingen op organisatieniveau instelt op **iedereen**, maar u wilt dat alle gasten verificatie voor deze site verifiëren, controleert u of de instellingen voordelen op het siteniveau zijn ingesteld op **nieuwe en bestaande gasten**.
+Controleer de instellingen op siteniveau delen om ervoor te zorgen dat ze het gewenste type toegang voor deze site toestaan. Als u bijvoorbeeld de instellingen op organisatieniveau instelt op **iedereen** , maar u wilt dat alle gasten verificatie voor deze site verifiëren, controleert u of de instellingen voordelen op het siteniveau zijn ingesteld op **nieuwe en bestaande gasten**.
 
-Houd er rekening mee dat de site niet kan worden gedeeld met niet-geverifieerde personen (**iedereen** ), maar ook afzonderlijke bestanden en mappen.
+Houd er rekening mee dat de site niet kan worden gedeeld met niet-geverifieerde personen ( **iedereen** ), maar ook afzonderlijke bestanden en mappen.
 
 ![Schermafbeelding van de instellingen voor extern delen van SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
@@ -131,7 +132,7 @@ Interne gebruikers voor een groep uitnodigen
 Gastgebruikers kunnen niet worden toegevoegd van de site. U moet ze toevoegen met de webversie van Outlook. Daarom moet u als vereisten voor het toevoegen en uitnodigen van gasten aan een groep klikken op de URL van de site in de kolom **URL**  om naar de specifieke sitepagina te gaan. Klik op deze pagina op het pictogram van het **startprogramma voor apps** en selecteer **Outlook**. Dit is het scherm waarmee u gasten kunt uitnodigen voor een groep, waaronder de onderstaande procedure wordt beschreven.
 
 Gasten voor een groep uitnodigen
-1. Klik onder **groepen**op de groep waaraan u gasten wilt uitnodigen.
+1. Klik onder **groepen** op de groep waaraan u gasten wilt uitnodigen.
 2. Open het visitekaartje van de groep, klik op de koppeling **leden** in de rechterbovenhoek (de koppeling die het aantal leden aanduidt).
 3. Klik op **leden toevoegen**.
 4. Voer de e-mailadressen in van de gasten die u wilt uitnodigen en klik op **toevoegen**.

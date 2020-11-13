@@ -11,6 +11,7 @@ ms.collection:
 - M365-collaboration
 - m365solution-3tiersprotection
 - m365solution-securecollab
+- m365initiative-externalcollab
 search.appverid:
 - SPO160
 - MET150
@@ -18,12 +19,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Leer meer over de mogelijkheden om delen in Microsoft 365 te beperken of uit te schakelen.
-ms.openlocfilehash: 7ed9cc499e16de835c6ba96eb19bcc28a144b68b
-ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
+ms.openlocfilehash: 504d2b5dd72aead266697d273395e371ad6f5846
+ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48651416"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030039"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Delen beperken in Microsoft 365
 
@@ -35,9 +36,9 @@ De methoden voor het delen van bestanden worden weergegeven in de onderstaande t
 |:-------------|:----------|:-------------|
 |[Microsoft 365-groep of -team](#microsoft-365-group-or-team)|Personen die toegang hebben tot een team van Microsoft Teams of Microsoft 365, hebben toegang tot bestanden in de gekoppelde SharePoint-site.|Indien de groep of het team privé is, worden uitnodigingen om lid te worden van het team naar de eigenaar gestuurd voor goedkeuring. Beheerders kunnen gasttoegang uitschakelen of gevoeligheidslabels gebruiken om te voorkomen dat personen van buiten de organisatie toegang krijgen.|
 |[SharePoint-site](#sharepoint-site)|Personen kunnen toegang krijgen tot een SharePoint-site als Eigenaar, Lid of Bezoeker, en hebben op dit niveau toegang tot bestanden op de site.|Sitemachtigingen kunnen worden beperkt, zodat alleen site-eigenaren de site kunnen delen. Beheerders kunnen een site instellen op alleen-lezen of de toegang helemaal blokkeren.|
-|[Delen met specifieke personen](#sharing-with-specific-people)|Siteleden en personen met machtiging voor bewerkingen kunnen rechtstreekse machtigingen geven voor bestanden en mappen of ze delen met behulp van *Specifieke personen*-links.|Sitemachtigingen kunnen worden beperkt, zodat alleen site-eigenaren de bestanden en mappen kunnen delen. In dit geval wordt het delen van rechtstreekse toegang en een *Specifieke personen*-link aan de site-eigenaar voorgelegd voor toestemming.|
+|[Delen met specifieke personen](#sharing-with-specific-people)|Siteleden en personen met machtiging voor bewerkingen kunnen rechtstreekse machtigingen geven voor bestanden en mappen of ze delen met behulp van *Specifieke personen* -links.|Sitemachtigingen kunnen worden beperkt, zodat alleen site-eigenaren de bestanden en mappen kunnen delen. In dit geval wordt het delen van rechtstreekse toegang en een *Specifieke personen* -link aan de site-eigenaar voorgelegd voor toestemming.|
 |[SharePoint-gast delen](#sharepoint-guest-sharing)|SharePoint-site-eigenaren en -leden kunnen bestanden en mappen delen met personen buiten de organisatie.|Het delen van gasten kan worden uitgeschakeld voor de hele organisatie of voor afzonderlijke sites.|
-|[*Personen in uw organisatie* links delen](#people-in-your-organization-sharing-links)|SharePoint-site-eigenaren en -leden kunnen bestanden delen met *Personen in uw organisatie*-links. Dit werkt voor iedereen binnen de organisatie.|*Personen in uw organisatie*-links kunnen worden uitgeschakeld op siteniveau.|
+|[*Personen in uw organisatie* links delen](#people-in-your-organization-sharing-links)|SharePoint-site-eigenaren en -leden kunnen bestanden delen met *Personen in uw organisatie* -links. Dit werkt voor iedereen binnen de organisatie.|*Personen in uw organisatie* -links kunnen worden uitgeschakeld op siteniveau.|
 |[Sites, groepen en teams maken](#create-sites-groups-and-teams)|Standaard kunnen gebruikers nieuwe sites, groepen en teams maken waaruit inhoud kan worden gedeeld.|Beheerders kunnen beperken wie sites, groepen en teams kan maken.|
 |[E-mail](#email)|Personen met toegang tot een bestand kunnen het via e-mail naar anderen verzenden.|Beheerders kunnen bestanden versleutelen met behulp van gevoeligheidslabels om te voorkomen dat ze worden gedeeld met niet-geautoriseerde personen.|
 |[Bestanden downloaden of kopiëren](#download-or-file-copy)|Personen met toegang tot een bestand kunnen het downloaden of kopiëren en delen met anderen buiten het bereik van Microsoft 365.|Beheerders kunnen bestanden versleutelen met behulp van gevoeligheidslabels om te voorkomen dat ze worden gedeeld met niet-geautoriseerde personen.|
@@ -79,7 +80,7 @@ U kunt het delen met gasten beperken voor gebruikers van specifieke domeinen doo
 Uitnodigingen voor delen alleen bij specifieke domeinen toestaan
 1. Klik in Azure Active Directory op de Overzichtspagina op **Organisatierelaties**.
 2. Klik op **Instellingen**.
-3. Onder **Samenwerkingsbeperkingen**selecteert u **Uitnodigingen weigeren bij de gespecificeerde domeinen** of **Alleen uitnodigingen toestaan voor de gespecificeerde domeinen**en typ vervolgens de domeinen in die u wilt gebruiken.
+3. Onder **Samenwerkingsbeperkingen** selecteert u **Uitnodigingen weigeren bij de gespecificeerde domeinen** of **Alleen uitnodigingen toestaan voor de gespecificeerde domeinen** en typ vervolgens de domeinen in die u wilt gebruiken.
 4. Klik op **Opslaan**.
 
     ![Schermafbeelding van de instellingen voor samenwerkingsbeperkingen in Azure Active Directory](../media/azure-ad-allow-only-specified-domains.png)
@@ -125,7 +126,7 @@ Hoewel niet aanbevolen kunt u de [Overname van machtigingen in SharePoint](https
 
 ## <a name="sharing-with-specific-people"></a>Delen met specifieke personen
 
-Als u het delen van een site of de inhoud ervan wilt beperken, kunt u de site zo configureren dat alleen site-eigenaren bestanden, mappen en de site kunnen delen. Wanneer dit is geconfigureerd, worden pogingen van siteleden om bestanden of mappen te delen met behulp van *Specifieke personen*-links naar de site-eigenaar doorgestuurd voor goedkeuring.
+Als u het delen van een site of de inhoud ervan wilt beperken, kunt u de site zo configureren dat alleen site-eigenaren bestanden, mappen en de site kunnen delen. Wanneer dit is geconfigureerd, worden pogingen van siteleden om bestanden of mappen te delen met behulp van *Specifieke personen* -links naar de site-eigenaar doorgestuurd voor goedkeuring.
 
 Het delen van de site, bestanden of mappen beperken tot eigenaren
 1. Klik in de werkbalk op het pictogram voor Instellingen en vervolgens op **Site-machtigingen**.
@@ -151,20 +152,20 @@ Het delen met gasten uitschakelen voor een site
 1. Klik in het SharePoint-beheercentrum onder **Sites** op **Actieve sites**.
 2. Klik op de site die u wilt configureren.
 3. Klik op het tabblad **Beleid** onder **Extern delen** op **Bewerken**.
-4. Kies onder**Extern delen** voor **Alleen personen in uw organisatie** en klik vervolgens op **Opslaan**.
+4. Kies onder **Extern delen** voor **Alleen personen in uw organisatie** en klik vervolgens op **Opslaan**.
 
     ![Schermafbeelding van de instellingen voor delen op siteniveau van SharePoint ingesteld op alleen mensen uit uw organisatie](../media/sharepoint-site-external-sharing-settings-off.png)
 
-Als u het delen met personen buiten uw organisatie wilt toestaan, maar wel wilt dat iedereen wordt geverifieerd, kunt u de *Iedereen*-links (anoniem delen) voor de hele organisatie of voor een afzonderlijke site uitschakelen.
+Als u het delen met personen buiten uw organisatie wilt toestaan, maar wel wilt dat iedereen wordt geverifieerd, kunt u de *Iedereen* -links (anoniem delen) voor de hele organisatie of voor een afzonderlijke site uitschakelen.
 
-*Iedereen*-links op organisatieniveau uitschakelen
+*Iedereen* -links op organisatieniveau uitschakelen
 1. Klik in het SharePoint-beheercentrum onder **Beleid** op **Delen**.
 2. Sleep de SharePoint-schuifregelaar onder **Extern delen** naar **Nieuwe en bestaande gasten**.
 3. Klik op **Opslaan**.
 
     ![Schermafbeelding van de instellingen voor delen op organisatieniveau van SharePoint ingesteld op Nieuwe en bestaande gasten](../media/sharepoint-guest-sharing-new-existing-guests.png)
 
-*Iedereen*-links voor een site uitschakelen
+*Iedereen* -links voor een site uitschakelen
 1. Klik in het SharePoint-beheercentrum onder **Sites** op **Actieve sites**.
 2. Klik op de site die u wilt configureren.
 3. Klik op het tabblad **Beleid** onder **Extern delen** op **Bewerken**.
@@ -172,9 +173,9 @@ Als u het delen met personen buiten uw organisatie wilt toestaan, maar wel wilt 
 
     ![Schermafbeelding van de instellingen voor delen op siteniveau van SharePoint ingesteld op Nieuwe en bestaande instellingen](../media/sharepoint-site-external-sharing-settings-new-existing-guests.png)
 
-## <a name="people-in-your-organization-sharing-links"></a>*Personen in uw organisatie*-links delen
+## <a name="people-in-your-organization-sharing-links"></a>*Personen in uw organisatie* -links delen
 
-Leden van een site kunnen standaard bestanden en mappen delen met andere personen in uw organisatie met behulp van een *Personen in uw organisatie*-link. Met PowerShell kunt u *Personen in uw organisatie*-links uitschakelen:
+Leden van een site kunnen standaard bestanden en mappen delen met andere personen in uw organisatie met behulp van een *Personen in uw organisatie* -link. Met PowerShell kunt u *Personen in uw organisatie* -links uitschakelen:
 
 `Set-SPOSite -Identity <site> -DisableCompanyWideSharingLinks`
 
