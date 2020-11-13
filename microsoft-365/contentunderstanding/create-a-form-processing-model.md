@@ -9,12 +9,12 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Priority
 description: Maak een formulierverwerkingmodel in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 784a3e0a918424e599e87852d2a36b613867f62e
-ms.sourcegitcommit: 7e8151ff74cb1cfc0dd59fadcac423c338415d77
+ms.openlocfilehash: 7edea0d36c85fba7bda31effdcdff08cd59a1174
+ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48390183"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002427"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Maak een formulierverwerkingmodel in Microsoft SharePoint Syntex
 
@@ -38,17 +38,17 @@ Het maken van een formulierverwerkingsmodel omvat het volgende:
 
 Je kunt alleen een model voor het verwerken van een formulier maken in de SharePoint-documentbibliotheken waarvoor het model is ingeschakeld. Als de verwerking van formulieren is ingeschakeld, kun je de **AI Builder** zien **„een formulierverwerkingsmodel maken“** onder het menu **Automatiseren** in de documentbibliotheek.  Als je verwerking wilt inschakelen voor je documentbibliotheek, moet je contact opnemen met je SharePoint-beheerder.
 
- ![Een AI-Buildermodel maken](../media/content-understanding/create-ai-builder-model.png)</br>
+ ![Een AI Builder-model maken](../media/content-understanding/create-ai-builder-model.png)</br>
 
 ## <a name="step-1-create-a-form-processing-model"></a>Stap 1: Een formulierverwerkingsmodel maken
 
-De eerste stap bij het maken van een formulierverwerkingsmodel is het maken van een naam en het maken van het nieuwe inhoudstype en het maken van de nieuwe documentbibliotheekweergave.
+De eerste stap bij het maken van een formulierverwerkingsmodel is het een naam te geven, het nieuwe inhoudstype te definiëren en de bijbehorende nieuwe documentbibliotheekweergave te maken.
 
-1. Selecteer in de documentbibliotheek het menu **Automatisch openen**, selecteer **AI-Builder** en selecteer vervolgens **Een formulierverwerkingsmodel maken**.
+1. Selecteer in de documentbibliotheek het menu **Automatisch openen** , selecteer **AI-Builder** en selecteer vervolgens **Een formulierverwerkingsmodel maken**.
 
     ![Een model kiezen](../media/content-understanding/create-ai-builder-model.png)</br>
 
-2. Typ in het deelvenster **Nieuw formulierverwerkingsmodel**in het veld**naam** een naam voor je model (bijvoorbeeld *aankoop orders*).
+2. Typ in het deelvenster **Nieuw formulierverwerkingsmodel** in het veld **naam** een naam voor je model (bijvoorbeeld *aankoop orders* ).
 
     ![Nieuw Formulierverwerkingsmodel](../media/content-understanding/new-form-model.png)</br> 
 
@@ -56,7 +56,7 @@ De eerste stap bij het maken van een formulierverwerkingsmodel is het maken van 
 
     Selecteer **Geavanceerde instellingen** als je dit model wilt toewijzen aan een bestaand inhoudstype in de SharePoint-galerie met inhoudstypen om het bijbehorende schema te gebruiken. 
 
-4. Het model maakt in je documentbibliotheek een nieuwe weergave voor de geëxtraheerde gegevens. Als je de standaardweergave niet wilt weergeven, schakel je **de weergave instellen als standaard**uit.
+4. Het model maakt in je documentbibliotheek een nieuwe weergave voor de geëxtraheerde gegevens. Als je de standaardweergave niet wilt weergeven, schakel je **de weergave instellen als standaard** uit.
 
 5. Selecteer **Maken**. 
 
@@ -69,7 +69,7 @@ Wanneer je een nieuw formulierverwerkingsmodel hebt gemaakt, wordt in je browser
 
    ![Power Apps AI Builder](../media/content-understanding/powerapps.png)</br> 
  
-1. Selecteer **Documenten toevoegen** om voorbeelddocumenten toe te voegen die worden geanalyseerd om te bepalen welke benoemde waardeparen kunnen worden geëxtraheerd. Je kunt vervolgens **Uploaden van lokale opslag**, **SharePoint-** of **Azure Blob-opslag**. Je moet ten minste vijf bestanden gebruiken voor de training.
+1. Selecteer **Documenten toevoegen** om voorbeelddocumenten toe te voegen die worden geanalyseerd om te bepalen welke benoemde waardeparen kunnen worden geëxtraheerd. Je kunt vervolgens **Uploaden van lokale opslag** , **SharePoint-** of **Azure Blob-opslag**. Je moet ten minste vijf bestanden gebruiken voor de training.
 
 2. Nadat je bestanden hebt toegevoegd, selecteer je **Analyseren** om te controleren of alle gemeenschappelijke gegevens alle bestanden zijn. Dit kan een aantal minuten in beslag nemen.</br> 
  
@@ -87,7 +87,7 @@ Nadat je de documenten voor velden hebt geanalyseerd, zie je nu de velden die we
 
     ![Paginavelden selecteren](../media/content-understanding/select-fields-page.png)</br> 
 
-2. Selecteer de velden die je wilt opslaan en schakel het selectievakje in om de selectie te bevestigen. In het Inkoopordermodel selecteer je bijvoorbeeld de velden*datum*, *PO*en *Totaal*.  Je kunt er ook voor kiezen om de naam van een veld te wijzigen. </br>
+2. Selecteer de velden die je wilt opslaan en schakel het selectievakje in om de selectie te bevestigen. In het Inkoopordermodel selecteer je bijvoorbeeld de velden *datum* , *PO* en *Totaal*.  Je kunt er ook voor kiezen om de naam van een veld te wijzigen. </br>
 
     ![Selecteer PO #](../media/content-understanding/po.png)</br> 
 
@@ -109,13 +109,13 @@ Nadat je de velden hebt geselecteerd die je wilt opslaan, kun je op de pagina **
 
 2. Wanneer je het bericht ziet dat de training is voltooid, selecteer je **Naar detailspagina gaan**. 
 
-3. Op de pagina **Modeldetails** kun je testen hoe je model werkt door **Snelle test**te selecteren. Hiermee kun je bestanden slepen naar en neerzetten op de pagina en nagaan of de velden worden gevonden.
+3. Op de pagina **Modeldetails** kun je testen hoe je model werkt door **Snelle test** te selecteren. Hiermee kun je bestanden slepen naar en neerzetten op de pagina en nagaan of de velden worden gevonden.
 
     ![Velden bevestigen](../media/content-understanding/select-fields-train.png)</br> 
 
 2. Wanneer je het bericht ziet dat de training is voltooid, selecteer je **Naar detailspagina gaan**. 
 
-3. Op de pagina **Modeldetails** kun je testen hoe je model werkt door **Snelle test**te selecteren. Hiermee kun je bestanden slepen naar en neerzetten op de pagina en nagaan of de velden worden gevonden.
+3. Op de pagina **Modeldetails** kun je testen hoe je model werkt door **Snelle test** te selecteren. Hiermee kun je bestanden slepen naar en neerzetten op de pagina en nagaan of de velden worden gevonden.
 
 ## <a name="step-5-publish-your-model"></a>Stap 5: uw model publiceren
 
