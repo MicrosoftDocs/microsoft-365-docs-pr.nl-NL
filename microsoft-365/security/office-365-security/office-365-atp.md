@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: a822c3ab8e065d9349172731e2081799853be637
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: c102948ff66a6362a1adb60734629b79e7eb7ad5
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845778"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021107"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -141,8 +141,8 @@ U moet een passende rol zijn toegewezen om toegang te krijgen tot Microsoft Defe
 |Rol of rollengroep|Informatiebronnen|
 |---|---|
 |Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
-|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
-|Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
+|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
+|Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |Zoeken en opschonen (die wordt alleen toegewezen in het beveiligings- en compliancecentrum)|[Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.

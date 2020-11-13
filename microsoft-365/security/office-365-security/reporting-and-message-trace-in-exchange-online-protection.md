@@ -14,12 +14,12 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel vindt u meer informatie over hulpprogramma's voor het oplossen van rapporten die beschikbaar zijn voor Microsoft Exchange Online Protection (EOP)-beheerders.
-ms.openlocfilehash: 9a8eb8e35ef73eb27604eef4bf701982b1d51710
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 856e99e55e6b67d1d22a30e2f55f60857eb4fe75
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845550"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49020889"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rapporten en berichten traceren in EOP
 
@@ -83,8 +83,8 @@ In de volgende tabel wordt beschreven wanneer EOP-rapporten en-traceringsgegeven
 |Rapporttype|Beschikbare gegevens voor (weergeven als periode)|Tijd|
 |---|---|---|
 |Overzichtsrapporten mail beveiliging|90 dagen|Het samenvoegen van berichtgegevens is vooral binnen 24-48 uur voltooid. Sommige kleine, incrementele, incrementele, ondergebrachte wijzigingen worden gedurende vijf dagen veroorzaakt.|
-|Details van e-mail beveiligingsrapporten|90 dagen|Voor detailgegevens die minder dan zeven dagen oud zijn, moeten de gegevens binnen 24 uur worden weergegeven, maar mogelijk niet voltooien tot 48 uur. U kunt maximaal 5 dagen enkele kleine incrementele wijzigingen voordoen. <br/><br/> Als u detailrapporten wilt weergeven voor berichten die ouder zijn dan zeven dagen, kan het tot een paar uur duren voordat de resultaten zijn afgelopen.|
-|Berichten traceren|90 dagen|Wanneer u een bericht tracering uitvoert voor berichten die minder dan zeven dagen oud zijn, worden de berichten weergegeven binnen 5-30 minuten.<br/><br/> Wanneer u een bericht tracering uitvoert voor berichten die ouder zijn dan zeven dagen, kunnen de resultaten enkele uren duren.|
+|Details van e-mail beveiligingsrapporten|90 dagen|Voor detailgegevens die minder dan zeven dagen oud zijn, moeten de gegevens binnen 24 uur worden weergegeven, maar mogelijk niet voltooien tot 48 uur. U kunt maximaal 5 dagen enkele kleine incrementele wijzigingen voordoen. <p> Als u detailrapporten wilt weergeven voor berichten die ouder zijn dan zeven dagen, kan het tot een paar uur duren voordat de resultaten zijn afgelopen.|
+|Berichten traceren|90 dagen|Wanneer u een bericht tracering uitvoert voor berichten die minder dan zeven dagen oud zijn, worden de berichten weergegeven binnen 5-30 minuten.<p> Wanneer u een bericht tracering uitvoert voor berichten die ouder zijn dan zeven dagen, kunnen de resultaten enkele uren duren.|
 |
 
 > [!NOTE]

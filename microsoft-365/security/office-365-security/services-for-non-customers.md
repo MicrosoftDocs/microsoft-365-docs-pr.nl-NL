@@ -16,12 +16,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Microsoft heeft verschillende beleidsregels en technologieën ingevoerd om onze gebruikers te helpen beschermen voor het behoud van gebruikers vertrouwen in het gebruik van e-mail.
-ms.openlocfilehash: e9389d52ee1d6c1c0bbab8630778749a6ed6005f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 478f94d2ed1a03253168486d48fb2b2df57a6a5e
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199575"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021023"
 ---
 # <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Services voor niet-klanten die e-mail verzenden naar Microsoft 365
 
@@ -38,7 +38,7 @@ Dit overzicht bevat informatie over de voordelen die we voor uw organisatie leve
 
 |Service|Bene|
 |---|---|
-|Deze inhoud van online-Help|Wordt <br/> Een beginpunt voor vragen die betrekking hebben op het leveren van communicatie voor EOP-gebruikers. <br/><br/> Inclusief een eenvoudige online handleiding met ons beleid en de vereisten. <br/><br/> Een overzicht van de filters voor ongewenste e-mail en verificatietechnologieën die door Microsoft worden gebruikt.|
+|Deze inhoud van online-Help|Wordt <ul><li>Een beginpunt voor vragen die betrekking hebben op het leveren van communicatie voor EOP-gebruikers.</li><li>Inclusief een eenvoudige online handleiding met ons beleid en de vereisten.</li><li>Een overzicht van de filters voor ongewenste e-mail en verificatietechnologieën die door Microsoft worden gebruikt.</li><ul>|
 |[Microsoft ondersteuning](#microsoft-support)|Biedt ondersteuning voor Self-Help en escalatie voor bezorgings problemen.|
 |[Portal voor IP-adressen met anti-spam](#anti-spam-ip-delist-portal)|Een hulpmiddel voor het verzenden van een aanvraag voor een IP-lijst. Voordat u deze aanvraag verzendt, is het de verantwoordelijkheid van de afzender om te controleren of verdere e-mail die afkomstig is van het IP-adres in kwestie, geen beledigend of kwaadief is.|
 |[Misbruik en spam van e-mailberichten die afkomstig zijn van Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Zorgt dat ongewenste e-mail en andere ongewenste e-mail worden verzonden via Exchange Online en maak de Internet-en e-mail systemen onoverzichtelijk.|

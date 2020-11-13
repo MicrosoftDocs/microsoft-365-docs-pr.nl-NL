@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Lees meer over de slimme rapporten en inzichten die beschikbaar zijn in het beveiligings & compliance en hoe u ze kunt gebruiken om gegevens te bekijken en te verkennen en snelle acties uit te voeren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 384ae51a514c31c659ce80f30e0b8c09976ec44b
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 860457962e2a269829d9b3bcdb94ac29eeaeaa11
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877347"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49020877"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
 
@@ -53,8 +53,8 @@ U hebt een groot aantal verschillende rapporten beschikbaar in de beveiligings &
 |**Data Governance** <br/> Informatie over de manier waarop labels worden toegepast, labels die zijn geclassificeerd als record, trends voor labels en meer|Ga in het beveiligings & compliance naar **Information governance** \> **Dashboard** Information governance|[De gegevensbeheerrapporten weergeven](../../compliance/view-the-data-governance-reports.md)|
 |**Threat Management Dashboard** (dit wordt ook wel het beveiligings dashboard genoemd)  <br/> Bedreigings detectie, trends van malware, belangrijkste gerichte gebruikers, Details over het verzenden en ontvangen van e-mailberichten en meer|Ga in het beveiligings & nalevings centrum naar **Threat management** het \> **Dashboard** Threat Management|[Rapporten weergeven voor Defender voor Office 365](view-reports-for-atp.md)|
 |**Threat Explorer** (ook wel een zogenaamde Explorer genoemd) of **realtime detectie** <br/> Verdachte malware gedetecteerd in e-mail en bestanden in Microsoft 365|Ga in het beveiligings & compliance naar de compatibiliteits **beheer** \> **Verkenner** of **realtime detectie**<br/> |[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)|
-|**Beveiligingsrapporten van Defender voor Office 365 en e-mail beveiliging** <br/> Rapporten over e-mail beveiliging en beveiliging van bedreigingen (waaronder malware, spam, phishing en spoofing rapporten)|Ga in het beveiligings & compliance naar **Reports** \> **Dashboard** rapporten|[Rapporten weergeven voor Defender voor Office 365](view-reports-for-atp.md) <br/><br/> [Beveiligingsrapporten voor e-mail weergeven in het beveiligings & nalevings centrum](view-email-security-reports.md)|
-|**E-mailstroom** <br/> Informatie over het verzenden en ontvangen van e-mailberichten, recente meldingen, belangrijkste afzenders en geadresseerden, het doorsturen van e-mail rapporten en meer|Ga in het beveiligings & nalevings centrum naar **e-mail stroom** \> **Dashboard** en **Reports** \> **Dashboard** rapporten|[E-mail stroom inzichten in het nalevings centrum voor beveiligings &](mail-flow-insights-v2.md) <br/><br/> [De e-mail stroom rapporten weergeven in het beveiligings & nalevings centrum](view-mail-flow-reports.md)|
+|**Beveiligingsrapporten van Defender voor Office 365 en e-mail beveiliging** <br/> Rapporten over e-mail beveiliging en beveiliging van bedreigingen (waaronder malware, spam, phishing en spoofing rapporten)|Ga in het beveiligings & compliance naar **Reports** \> **Dashboard** rapporten|[Rapporten weergeven voor Defender voor Office 365](view-reports-for-atp.md) <p> [Beveiligingsrapporten voor e-mail weergeven in het beveiligings & nalevings centrum](view-email-security-reports.md)|
+|**E-mailstroom** <br/> Informatie over het verzenden en ontvangen van e-mailberichten, recente meldingen, belangrijkste afzenders en geadresseerden, het doorsturen van e-mail rapporten en meer|Ga in het beveiligings & nalevings centrum naar **e-mail stroom** \> **Dashboard** en **Reports** \> **Dashboard** rapporten|[E-mail stroom inzichten in het nalevings centrum voor beveiligings &](mail-flow-insights-v2.md) <p> [De e-mail stroom rapporten weergeven in het beveiligings & nalevings centrum](view-mail-flow-reports.md)|
 |**AVG naleving** <br/> Informatie over de compliance van AVG, waaronder koppelingen naar gegevens onderwerpen, label trends en Active & gesloten zaken|Ga in het beveiligings & compliance naar het **Data privacy** \> **Dashboard** data privacy AVG|[Office 365 Information Protection voor de AVG](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)|
 |**Controlelogboek** <br/> Informatie over activiteiten, gebruikers, bestanden en mappen van Microsoft 365 en meer|Ga in het beveiligings & compliance naar **Zoek & onderzoek** \> **audit logboek zoeken**|[Zoeken in het auditlogboek in het beveiligings & nalevings centrum](../../compliance/search-the-audit-log-in-security-and-compliance.md)|
 |**Nalevings rapporten** <br/> FedRAMP-rapporten, beheermiddelen, risico-en compliance rapporten, informatierapporten over ISO-informatie en de service organisatie besturingselementen voor controle-en beoordelingsrapporten|Ga in het beveiligings & nalevings centrum naar **Service assurance** \> **compliance-rapporten** van service Assurance|[Beveiligings & naleving in Office 365](../../compliance/plan-for-security-and-compliance.md)|

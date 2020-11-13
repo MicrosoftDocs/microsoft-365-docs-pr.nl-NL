@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Bedreiging voor herbemiddeling
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: af34b171cb213836d47edb2fb2905fb75341b02f
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 60a658ec4f94dc35519c21b5354f480845342663
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845598"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49020937"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Kwaadwillende e-mailberichten herstellen die worden bezorgd in Office 365
 
@@ -38,16 +38,16 @@ Voor zaken zoals berichtkoppen weergeven of e-mail inhoud downloaden, moet u een
 ****
 
 |Activiteit|Rollen groep|Is de functie *voorbeeld* nodig?|
-|---|---|---|
-|Het gebruik van bedreigings Verkenner (en real-time detecties) om bedreigingen te analyseren |Globale beheerder <br> Beveiligingsbeheerder <br> Beveiligings lezer|Nee|
-|De weergave van bedreigingen (en realtime detectie) gebruiken om kopteksten voor e-mailberichten weer te geven en de gequarantinee e-mailberichten te bekijken en te downloaden|Globale beheerder <br> Beveiligingsbeheerder <br>Beveiligings lezer|Nee|
-|Met behulp van de bedreigings Verkenner kopteksten en e-mailberichten die zijn bezorgd bij postvakken weergeven|Globale beheerder <br>Beveiligingsbeheerder <br> Beveiligings lezer <br> Voorbeeld|Ja|
+|---|---|:---:|
+|Het gebruik van bedreigings Verkenner (en real-time detecties) om bedreigingen te analyseren |Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligings lezer|Nee|
+|De weergave van bedreigingen (en realtime detectie) gebruiken om kopteksten voor e-mailberichten weer te geven en de gequarantinee e-mailberichten te bekijken en te downloaden|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligings lezer|Nee|
+|Met behulp van de bedreigings Verkenner kopteksten en e-mailberichten die zijn bezorgd bij postvakken weergeven|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligings lezer <p> Voorbeeld|Ja|
 
 > [!NOTE]
-> Voorbeeld is een *rol* , geen *rollen groep*. De rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De *rol van globale beheerder* wordt toegewezen in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com). De rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in de [beveiligings-en compliance Centers](https://protection.office.com). Zie [machtigingen in de sectie Beveiliging en compliance](permissions-in-the-security-and-compliance-center.md)voor meer informatie over rollen en machtigingen.
-
-> [!NOTE]
-> Beheerders kunnen de juiste actie ondernemen voor e-mailberichten, maar als ze zijn goedgekeurd, moeten ze de rol zoeken en de functie voor het *opschonen* van de beheerder toewijzen via **beveiliging en compliance Center**  >  **Permissions**.
+>
+> - Voorbeeld is een *rol* , geen *rollen groep*. De rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De *rol van globale beheerder* wordt toegewezen in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com). De rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in het [nalevings centrum voor beveiligings &](https://protection.office.com). Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
+>
+> - Beheerders kunnen de juiste actie ondernemen voor e-mailberichten, maar als ze zijn goedgekeurd, moeten ze de rol zoeken en de functie voor het *opschonen* van de beheerder toewijzen via **beveiliging & machtigingen voor compliance Center** \> **Permissions**.
 
 ## <a name="manual-and-automated-remediation"></a>Handmatige en geautomatiseerde herstel
 
@@ -77,67 +77,66 @@ Alle herstelbewerkingen (directe goedkeuring of goedkeuring van twee stappen) di
 
 ![Het Actiecentrum met een lijst met bedreigingen op datum en ernst.](../../media/tp-RemediationArticle4.png)
 
-In het Actiecentrum worden alle herstelacties voor de afgelopen 30 dagen weergegeven. Acties die worden uitgevoerd via de bedreigings Verkenner, worden weergegeven op basis van de naam van het beveiligingsteam dat bij het maken van de herstelbewerking is uitgevoerd. Acties die zijn ondernomen via geautomatiseerde onderzoek hebben titels die beginnen met de verwante waarschuwing die het onderzoek heeft geactiveerd, zoals ' ZAP-e-mail cluster... ."
+In het Actiecentrum worden alle herstelacties voor de afgelopen 30 dagen weergegeven. Acties die worden uitgevoerd via de bedreigings Verkenner, worden weergegeven op basis van de naam van het beveiligingsteam dat bij het maken van de herstelbewerking is uitgevoerd. Acties die via geautomatiseerde onderzoek worden verricht, hebben titels die beginnen met de verwante waarschuwing die het onderzoek heeft geactiveerd, zoals ' ZAP-e-mail cluster... '
 
 Open elk herstelitem om informatie hierover weer te geven, zoals de naam, de aanmaakdatum, de beschrijving, de ernst van de bedreiging en de status. Ook de volgende twee tabbladen worden weergegeven.
 
-- Tabblad **e-mail verzending** : hier ziet u het aantal e-mailberichten dat u hebt verzonden via de Threat Explorer of automatische onderzoek. Deze e-mailberichten kunnen actie ondernemen of niet op actie ondernemen.<br/><br/>![Het Actiecentrum met een actie en geen bedreigingen.](../../media/tp-RemediationArticle5.png)
+- Tabblad **e-mail verzending** : hier ziet u het aantal e-mailberichten dat u hebt verzonden via de Threat Explorer of automatische onderzoek. Deze e-mailberichten kunnen actie ondernemen of niet op actie ondernemen.
 
-   - **Actie** : e-mailberichten op de volgende locaties in het Cloud postvak kunnen op en worden verplaatst:
+  ![Het Actiecentrum met een actie en geen bedreigingen.](../../media/tp-RemediationArticle5.png)
 
-     - Postvak in
-     - Ongewenste e-mail
-     - Map verwijderd
-     - Tijdelijke, verwijderde map
+  - **Actie** : e-mailberichten op de volgende locaties in het Cloud postvak kunnen op en worden verplaatst:
+    - Postvak in
+    - Ongewenste e-mail
+    - Map verwijderd
+    - Tijdelijke, verwijderde map
 
-     > [!NOTE]
-     > U kunt op dit moment alleen een gebruiker met toegang tot het postvak herstellen items uit een tijdelijke map verwijderen.
+      > [!NOTE]
+      > U kunt op dit moment alleen een gebruiker met toegang tot het postvak herstellen items uit een tijdelijke map verwijderen.
 
-   - **Niet-actioneel** : e-mailberichten op de volgende locaties kunnen niet worden uitgevoerd op het tijdstip van herstelactie of zijn verplaatst.
+  - **Niet-actioneel** : e-mailberichten op de volgende locaties kunnen niet worden uitgevoerd op het tijdstip van herstelactie of zijn verplaatst.
+    - Quarantaine
+    - Map met verwijderde vaste mappen
+    - On-premises/extern
+    - Mislukt/neergezet
 
-     - Quarantaine
-     - Map met verwijderde vaste mappen
-     - On-premises/extern
-     - Mislukt/neergezet
+  Verdachte berichten zijn gecategoriseerd als herstelbaar of niet-herstelbaar. In de meeste gevallen kunt u verholpen berichten en niet-herstelbare berichten combineren totale aantal verzonden berichten. In zeldzame gevallen is dit niet waar. Dit kan gebeuren vanwege systeem vertragingen, time-outs of verlopen berichten. Berichten lopen af op basis van de bewaarperiode van de bedreigings Verkenner voor uw organisatie.
 
-   Verdachte berichten zijn gecategoriseerd als herstelbaar of niet-herstelbaar. In de meeste gevallen kunt u verholpen berichten en niet-herstelbare berichten combineren totale aantal verzonden berichten. In zeldzame gevallen is dit niet waar. Dit kan gebeuren vanwege systeem vertragingen, time-outs of verlopen berichten. Berichten lopen af op basis van de bewaarperiode van de bedreigings Verkenner voor uw organisatie.
+  U wordt aangeraden om oude berichten te herstellen nadat u de bewaarperiode voor de bedreiging van de organisatie hebt hersteld, maar u kunt het probleem mogelijk oplossen door de items opnieuw te herstellen als u nummer inconsistenties ziet. Herstel updates worden in enkele uren meestal vernieuwd voor vertragingen van het systeem.
 
-   U wordt aangeraden om oude berichten te herstellen nadat u de bewaarperiode voor de bedreiging van de organisatie hebt hersteld, maar u kunt het probleem mogelijk oplossen door de items opnieuw te herstellen als u nummer inconsistenties ziet. Herstel updates worden in enkele uren meestal vernieuwd voor vertragingen van het systeem.
+  Als de bewaarperiode voor e-mailberichten in de bedreigings Verkenner 30 dagen duurt en u terugkeert naar e-mailberichten van 29-30, wordt het aantal verzending van e-mailberichten mogelijk niet altijd opgeteld. De e-mailberichten zijn mogelijk al na verloop van de bewaarperiode.
 
-   Als de bewaarperiode voor e-mailberichten in de bedreigings Verkenner 30 dagen duurt en u terugkeert naar e-mailberichten van 29-30, wordt het aantal verzending van e-mailberichten mogelijk niet altijd opgeteld. De e-mailberichten zijn mogelijk al na verloop van de bewaarperiode.
+  Als hersteltijden in de status ' in uitvoering ' voor een tijdje blijven staan, is dit waarschijnlijk vanwege een systeem vertraging. Het kan een paar uur duren voordat het probleem is verholpen. Mogelijk ziet u variaties in e-mail verzendingen, omdat sommige e-mailberichten mogelijk niet zijn opgenomen in het begin van het herstel vanwege systeem vertragingen. Het is een goed idee om in dergelijke gevallen opnieuw te herstellen.
 
-   Als hersteltijden in de status ' in uitvoering ' voor een tijdje blijven staan, is dit waarschijnlijk vanwege een systeem vertraging. Het kan een paar uur duren voordat het probleem is verholpen. Mogelijk ziet u variaties in e-mail verzendingen, omdat sommige e-mailberichten mogelijk niet zijn opgenomen in het begin van het herstel vanwege systeem vertragingen. Het is een goed idee om in dergelijke gevallen opnieuw te herstellen.
+  > [!NOTE]
+  > Voor de beste resultaten moet het herstel plaatsvinden in batches van 50.000 of minder.
 
-  >[!Note]
-  >Voor de beste resultaten moet het herstel plaatsvinden in batches van 50.000 of minder.
+  Alleen herstelbare e-mailberichten worden verwerkt tijdens het herstel. Niet-herstelbare e-mailberichten kunnen niet worden doorgevoerd in het Office 365-e-mailsysteem, aangezien ze niet zijn opgeslagen in Cloud postvakken.
 
-   Alleen herstelbare e-mailberichten worden verwerkt tijdens het herstel. Niet-herstelbare e-mailberichten kunnen niet worden doorgevoerd in het Office 365-e-mailsysteem, aangezien ze niet zijn opgeslagen in Cloud postvakken.
+  Beheerders kunnen op elk gewenst manier van e-mailberichten in quarantaine overstappen, maar deze e-mailberichten verlopen uit de quarantaine als ze niet handmatig worden verwijderd. E-mailberichten die zijn gequarantined omdat schadelijke inhoud niet toegankelijk zijn voor gebruikers, dient het beveiligingspersoneel geen actie te ondernemen om bedreigingen in quarantaine te verwijderen. Als het e-mailadres on-premises of extern is, kan de gebruiker contact met u opnemen om het verdachte e-mailadres te verhelpen. Of de beheerders kunnen gebruikmaken van aparte e-mailserver-en beveiligingshulpprogramma's voor verwijdering. Deze e-mailberichten kunnen worden geïdentificeerd door het toepassen van de *bezorgingslocatie = on-premises* extern filter in de Threat Explorer. Voor mislukte of genegeerde e-mailberichten of e-mailberichten die niet toegankelijk zijn voor gebruikers, zijn er geen e-mailberichten die kunnen worden verminderd, aangezien deze e-mailberichten het postvak niet bereiken.
 
-   Beheerders kunnen op elk gewenst manier van e-mailberichten in quarantaine overstappen, maar deze e-mailberichten verlopen uit de quarantaine als ze niet handmatig worden verwijderd. E-mailberichten die zijn gequarantined omdat schadelijke inhoud niet toegankelijk zijn voor gebruikers, dient het beveiligingspersoneel geen actie te ondernemen om bedreigingen in quarantaine te verwijderen. Als het e-mailadres on-premises of extern is, kan de gebruiker contact met u opnemen om het verdachte e-mailadres te verhelpen. Of de beheerders kunnen gebruikmaken van aparte e-mailserver-en beveiligingshulpprogramma's voor verwijdering. Deze e-mailberichten kunnen worden geïdentificeerd door het toepassen van de *bezorgingslocatie = on-premises* extern filter in de Threat Explorer. Voor mislukte of genegeerde e-mailberichten of e-mailberichten die niet toegankelijk zijn voor gebruikers, zijn er geen e-mailberichten die kunnen worden verminderd, aangezien deze e-mailberichten het postvak niet bereiken.
+  In de volgende afbeelding ziet u hoe een inzending in het Actiecentrum uitziet. Een herstel kan meerdere inzendingen bevatten. Wanneer meerdere acties worden goedgekeurd via één automatisch onderzoek, wordt elk e-mailbericht of e-mail cluster actie in dezelfde herbemiddeling weergegeven als een andere aanvraag.
 
-   In de volgende afbeelding ziet u hoe een inzending in het Actiecentrum uitziet. Een herstel kan meerdere inzendingen bevatten. Wanneer meerdere acties worden goedgekeurd via één automatisch onderzoek, wordt elk e-mailbericht of e-mail cluster actie in dezelfde herbemiddeling weergegeven als een andere aanvraag.
+  ![Deelvenster van flyout voor e-mail cluster van ZAP.](../../media/tp-RemediationArticle6.png)
 
-   ![Deelvenster van flyout voor e-mail cluster van ZAP.](../../media/tp-RemediationArticle6.png)
-
-   Selecteer een item voor de verzending van een e-mail om de details van die herstelfunctie weer te geven, zoals de query (wanneer herstel wordt geactiveerd via geautomatiseerde onderzoeken of de Threat Explorer via een query) en de begin-en eindtijd van herstel. Ook wordt een lijst weergegeven met berichten die zijn ingediend voor herstel. Wanneer berichten vanuit de bewaarperiode van de bedreigings Verkenner worden verplaatst, verdwijnen de berichten uit deze lijst. De lijst geeft ook individuele berichten weer die kunnen worden hersteld.
+  Selecteer een item voor de verzending van een e-mail om de details van die herstelfunctie weer te geven, zoals de query (wanneer herstel wordt geactiveerd via geautomatiseerde onderzoeken of de Threat Explorer via een query) en de begin-en eindtijd van herstel. Ook wordt een lijst weergegeven met berichten die zijn ingediend voor herstel. Wanneer berichten vanuit de bewaarperiode van de bedreigings Verkenner worden verplaatst, verdwijnen de berichten uit deze lijst. De lijst geeft ook individuele berichten weer die kunnen worden hersteld.
 
 - **Actie logboeken** : dit tabblad bevat de berichten die zijn doorgevoerd, waaronder de goedkeuringsdatum, de beheerder die de actie, actie, status en aantallen heeft goedgekeurd.
 
-   Status kan zijn:
+  Status kan zijn:
 
-     - **Begonnen** : herstel wordt geactiveerd.
-     - **In de wachtrij geplaatst** : herbemiddeling is in de wachtrij geplaatst voor het beperken van e-mailberichten.
-     - Wordt **uitgevoerd** : de beperking wordt uitgevoerd.
-     - **Voltooid** : de beperking van alle herstelbare e-mailberichten is voltooid of met een aantal mislukte pogingen.
-     - **Mislukt** : er zijn geen herstelbewerkingen gelukt.
+  - **Begonnen** : herstel wordt geactiveerd.
+  - **In de wachtrij geplaatst** : herbemiddeling is in de wachtrij geplaatst voor het beperken van e-mailberichten.
+  - Wordt **uitgevoerd** : de beperking wordt uitgevoerd.
+  - **Voltooid** : de beperking van alle herstelbare e-mailberichten is voltooid of met een aantal mislukte pogingen.
+  - **Mislukt** : er zijn geen herstelbewerkingen gelukt.
 
-   Wanneer alleen herstelbare e-mailberichten kunnen worden vastgelegd, wordt het opschonen van elke e-mail weergegeven als geslaagd of mislukt. Vanuit het totale aantal opherstel bare e-mails, geslaagde en mislukte beperkingen worden gerapporteerd.
+  Wanneer alleen herstelbare e-mailberichten kunnen worden vastgelegd, wordt het opschonen van elke e-mail weergegeven als geslaagd of mislukt. Vanuit het totale aantal opherstel bare e-mails, geslaagde en mislukte beperkingen worden gerapporteerd.
 
-   - **Gelukt** : de gewenste actie voor herstelbare e-mailberichten is voltooid. Een beheerder wil bijvoorbeeld e-mailberichten uit postvakken verwijderen, dus de beheerder gaat de actie van de Soft-e-mailberichten verwijderen. Als u na het uitvoeren van de actie een herstelbaar e-mailbericht niet kunt vinden in de oorspronkelijke map, wordt de status weergegeven als voltooid.
+  - **Gelukt** : de gewenste actie voor herstelbare e-mailberichten is voltooid. Een beheerder wil bijvoorbeeld e-mailberichten uit postvakken verwijderen, dus de beheerder gaat de actie van de Soft-e-mailberichten verwijderen. Als u na het uitvoeren van de actie een herstelbaar e-mailbericht niet kunt vinden in de oorspronkelijke map, wordt de status weergegeven als voltooid.
 
-   - **Fout** : de gewenste actie voor herstelbare e-mailberichten mislukt. Een beheerder wil bijvoorbeeld e-mailberichten uit postvakken verwijderen, dus de beheerder gaat de actie van de Soft-e-mailberichten verwijderen. Als na het uitvoeren van de actie een herstelbaar e-mailbericht nog steeds wordt weergegeven in het postvak, wordt de status weergeven als mislukt.
+  - **Fout** : de gewenste actie voor herstelbare e-mailberichten mislukt. Een beheerder wil bijvoorbeeld e-mailberichten uit postvakken verwijderen, dus de beheerder gaat de actie van de Soft-e-mailberichten verwijderen. Als na het uitvoeren van de actie een herstelbaar e-mailbericht nog steeds wordt weergegeven in het postvak, wordt de status weergeven als mislukt.
 
-   Selecteer een item in het Actielogboek om details van herstel weer te geven. Als de Details ' succesvol ' of ' niet gevonden in Postvak ' zijn, is dat item al uit het postvak verwijderd. Soms is er een systeemfout tijdens het herstel. In deze gevallen is het verstandig om herstel te herhalen.
+  Selecteer een item in het Actielogboek om details van herstel weer te geven. Als de Details ' succesvol ' of ' niet gevonden in Postvak ' zijn, is dat item al uit het postvak verwijderd. Soms is er een systeemfout tijdens het herstel. In deze gevallen is het verstandig om herstel te herhalen.
 
- Herstel is een krachtig hulpmiddel om bedreigingen te beperken en verdachte e-mailberichten te adresseren. Een organisatie helpt een organisatie veilig te houden.
-
+  Herstel is een krachtig hulpmiddel om bedreigingen te beperken en verdachte e-mailberichten te adresseren. Een organisatie helpt een organisatie veilig te houden.

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: d57709d78cd8b64b740c88362cb99653f6dec681
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: db0f001d20f46c5c248ec153238fe394b8e9721c
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48463988"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49020971"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Vereisten voor het implementeren van identiteits-en Apparaattoegang
 
@@ -60,7 +60,7 @@ In deze sectie vindt u een beschrijving van de standaardplatform-clientconfigura
 ### <a name="windows-devices"></a>Windows-apparaten
 U wordt aangeraden Windows 10 (versie 2004 of hoger) te installeren, omdat Azure is ontworpen om de soepele SSO-ervaring te bieden voor zowel on-premises als Azure AD. Apparaten op basis van werk of school moeten worden geconfigureerd om rechtstreeks lid te worden van Azure AD of als de organisatie on-premises AD-Domeindeelname gebruikt, worden deze apparaten [zodanig geconfigureerd dat ze automatisch en zonder meldingen worden geregistreerd met Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup).
 
-Voor BYOD Windows-apparaten kunnen gebruikers **werk-of schoolaccount toevoegen**gebruiken. Houd er rekening mee dat gebruikers van de Google Chrome-browser op Windows 10-apparaten [een uitbreiding moeten installeren om een](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) goede aanmeld ervaring op te doen als gebruikers van Microsoft Edge. Daarnaast kunt u Microsoft Workplace join installeren voor niet-Windows 10-computers als uw organisatie Windows 8 of 8,1-apparaten heeft die lid zijn van een domein. [Download het pakket om apparaten te registreren](https://www.microsoft.com/download/details.aspx?id=53554) met Azure AD.
+Voor BYOD Windows-apparaten kunnen gebruikers **werk-of schoolaccount toevoegen** gebruiken. Houd er rekening mee dat gebruikers van de Google Chrome-browser op Windows 10-apparaten [een uitbreiding moeten installeren om een](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) goede aanmeld ervaring op te doen als gebruikers van Microsoft Edge. Daarnaast kunt u Microsoft Workplace join installeren voor niet-Windows 10-computers als uw organisatie Windows 8 of 8,1-apparaten heeft die lid zijn van een domein. [Download het pakket om apparaten te registreren](https://www.microsoft.com/download/details.aspx?id=53554) met Azure AD.
 
 ### <a name="ios-devices"></a>iOS-apparaten
 U wordt aangeraden om de [Microsoft Authenticator-app](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) te installeren op gebruikers apparaten voordat u beleidsregels voor voorwaardelijke toegang of MFA implementeert. De app moet minimaal worden geïnstalleerd wanneer gebruikers wordt gevraagd hun apparaat te registreren met Azure AD door een werk-of schoolaccount toe te voegen of wanneer ze de app intune Company Portal installeren om hun apparaat in te delen in Management. Dit is afhankelijk van het geconfigureerde voorwaardelijke toegangsbeleid.

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b77313a18a5744549e492de991e282bc34dbb6da
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 0459de8974fe6bae98e6984fd7dc65afeb04b4e7
+ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002415"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021083"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
@@ -29,6 +29,8 @@ Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten 
 |Error | De rol van Azure Active Director (AD) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
 
 ## <a name="microsoft-intune-settings"></a>Microsoft intune-instellingen
+
+U kunt de intune-instellingen openen via het [Beheercentrum](https://endpoint.microsoft.com)van Microsoft Endpoint Manager.
 
 ### <a name="autopilot-deployment-profile"></a>Auto Pilot-implementatie profiel
 
@@ -247,6 +249,7 @@ Zorg ervoor dat bij een update ring beleid u de **moderne Werkplaatsings apparat
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory-instellingen
 
+U kunt toegang krijgen tot Azure Active Directory-instellingen op de [Azure-Portal](https://portal.azure.com).
 
 ### <a name="ad-hoc-subscriptions"></a>Ad hoc-abonnementen
 
@@ -326,7 +329,7 @@ Microsoft beheerde bureaubladgebruikers hebben geen lokale beheerdersbevoegdhede
 
 ### <a name="onedrive"></a>OneDrive
 
-De instelling voor **synchronisatie alleen toestaan op pc's die lid zijn van een specifieke domein** instelling, conflicteert met Microsoft Managed Desktop.
+De instelling voor **synchronisatie alleen toestaan op pc's die lid zijn van een specifieke domein** instelling, conflicteert met Microsoft Managed Desktop. U kunt toegang krijgen tot OneDrive-instellingen in het OneDrive- [Beheercentrum](https://admin.onedrive.com).
 
 **Adviser**
 
