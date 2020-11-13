@@ -224,18 +224,20 @@
           href: manage/pin-apps-to-app-launcher.md
         - name: Gebruikers upgraden naar de nieuwste apps
           href: setup/upgrade-users-to-latest-office-client.md
-        - name: Vereisten voor gecentraliseerde implementatie van invoegtoepassingen
-          href: manage/centralized-deployment-of-add-ins.md
+        - name: Gecentraliseerde implementatie van invoegtoepassingen
+          items:
+            - name: Vereisten voor gecentraliseerde implementatie van invoegtoepassingen
+              href: manage/centralized-deployment-of-add-ins.md
+            - name: Invoegtoepassingen implementeren in het beheercentrum
+              href: manage/manage-deployment-of-add-ins.md
+            - name: Invoegtoepassingen beheren in het beheercentrum
+              href: manage/manage-addins-in-the-admin-center.md
+            - name: Veelgestelde vragen over Gecentraliseerde implementatie
+              href: manage/centralized-deployment-faq.md
         - name: Branchenieuws beheren
           href: manage/manage-industry-news.md
-        - name: Invoegtoepassingen implementeren in het beheercentrum
-          href: manage/manage-deployment-of-add-ins.md
-        - name: Invoegtoepassingen beheren in het beheercentrum
-          href: manage/manage-addins-in-the-admin-center.md
         - name: Instellingen voor Office-scripts beheren
           href: manage/manage-office-scripts-settings.md
-        - name: Veelgestelde vragen over Gecentraliseerde implementatie
-          href: manage/centralized-deployment-faq.md
         - name: Een partner of wederverkoper zoeken
           href: manage/find-your-partner-or-reseller.md
         - name: Berichten in het berichtencentrum beheren

@@ -415,8 +415,6 @@
           href: manage-microsoft-365-groups.md
         - name: Beheermodel
           href: manage-microsoft-365-identity-governance.md
-        - name: Verwijderde items herstellen in het postvak van een gebruiker
-          href: recover-deleted-items-in-a-mailbox.md
         - name: Adreslijstsynchronisatie
           items:
             - name: Status weergeven
@@ -604,9 +602,9 @@
                   href: disable-access-to-services-while-assigning-user-licenses.md
         - name: Groepen
           items:
-            - name: Groepslidmaatschap onderhouden
+            - name: Lidmaatschap van beveiligingsgroep onderhouden
               href: maintain-group-membership-with-microsoft-365-powershell.md
-            - name: Microsoft 365-groepen
+            - name: Microsoft 365-groepen beheren
               href: manage-microsoft-365-groups-with-powershell.md
     - name: SharePoint beheren
       href: manage-sharepoint-online-with-microsoft-365-powershell.md

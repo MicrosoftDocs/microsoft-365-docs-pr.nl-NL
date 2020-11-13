@@ -47,16 +47,18 @@
               href: mtp/preview.md
             - name: Microsoft 365-beveiligingscentrum
               href: mtp/overview-security-center.md
+            - name: Problemen oplossen
+              href: ./mtp/troubleshoot.md
+            - name: Tests in de bedrijfstak
+              href: ./mtp/top-scoring-industry-tests.md
+        - name: Abonnement
+          items:
             - name: Vereisten
               href: mtp/prerequisites.md
             - name: Gegevensbeveiliging en privacy
               href: mtp/data-privacy.md
             - name: Microsoft-beveiligingsportals
               href: mtp/portals.md
-            - name: Problemen oplossen
-              href: ./mtp/troubleshoot.md
-            - name: Tests in de bedrijfstak
-              href: ./mtp/top-scoring-industry-tests.md
         - name: Mogelijkheden evalueren
           items:
             - name: Overzicht van het testlab
@@ -71,28 +73,30 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Een testwaarschuwing genereren
               href: mtp/generate-test-alert.md
-        - name: Een pilotproject uitvoeren in productie
+        - name: Implementeren
           items:
-            - name: Overzicht van testfase
-              href: mtp/mtp-pilot.md
-            - name: Plannen
-              href: mtp/mtp-pilot-plan.md
-            - name: Voorbereiden
-              href: mtp/prepare-mtpeval.md
-            - name: Een aanval simuleren
-              href: mtp/mtp-pilot-simulate.md
-            - name: Sluiten en samenvatten
-              href: mtp/mtp-pilot-close.md
+            - name: Microsoft Threat Protection inschakelen
+              href: mtp/mtp-enable.md
+            - name: Een pilotproject uitvoeren in productie
+              items:
+                - name: Overzicht van testfase
+                  href: mtp/mtp-pilot.md
+                - name: Plannen
+                  href: mtp/mtp-pilot-plan.md
+                - name: Voorbereiden
+                  href: mtp/prepare-mtpeval.md
+                - name: Een aanval simuleren
+                  href: mtp/mtp-pilot-simulate.md
+                - name: Sluiten en samenvatten
+                  href: mtp/mtp-pilot-close.md
+            - name: Ondersteunde services implementeren
+              href: mtp/deploy-supported-services.md
         - name: Handleidingen
           items:
             - name: Een testlab- of testfaseomgeving maken
               href: mtp/mtp-evaluation.md
             - name: Een testfase-playbook uitvoeren
               href: mtp/mtp-pilot.md
-            - name: Ondersteunde services implementeren
-              href: mtp/deploy-supported-services.md
-            - name: Microsoft 365 Defender inschakelen
-              href: mtp/mtp-enable.md
             - name: Veelgestelde vragen inschakelen
               href: mtp/mtp-enable-faq.md
             - name: Incidenten

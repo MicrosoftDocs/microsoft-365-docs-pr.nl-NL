@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 225cb8b74a50fa8308cc14e8ad35283e6a7aa044
-ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
+ms.openlocfilehash: 48c69a71a98e381123a8f87acc20a34eb6e99806
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48279572"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071487"
 ---
 # <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
@@ -47,6 +47,8 @@ U kunt het [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/pack
 1.  Open een PowerShell-prompt met beheerdersrechten.
 2.  Uitgevoerd `Install-Script -Name Get-WindowsAutoPilotInfo`
 3.  Uitgevoerd `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+4.  Uitvoeren `powershell -ExecutionPolicy restricted` om te voorkomen dat er volgende niet-beperkte scripts worden uitgevoerd.
+
 
 #### <a name="flash-drive-method"></a>Methode Flash Drive
 
@@ -81,10 +83,10 @@ Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de opt
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-Volg deze stappen:
+Ga als volgt te werk:
 
-1. In **bestand uploaden**geeft u het pad op naar het CSV-bestand dat u eerder hebt gemaakt.
-3. Selecteer **apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op de **Blade van apparaten**, dat is gemarkeerd als **registratie in behandeling**. Registratie duurt meestal minder dan 10 minuten en wanneer het apparaat succesvol wordt weergegeven als u **klaar bent** , wordt de gebruiker gevraagd het programma te gebruiken.
+1. In **bestand uploaden** geeft u het pad op naar het CSV-bestand dat u eerder hebt gemaakt.
+3. Selecteer **apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op de **Blade van apparaten** , dat is gemarkeerd als **registratie in behandeling**. Registratie duurt meestal minder dan 10 minuten en wanneer het apparaat succesvol wordt weergegeven als u **klaar bent** , wordt de gebruiker gevraagd het programma te gebruiken.
 
 
 U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina. Mogelijke Staten hebben aangegeven:
@@ -119,7 +121,6 @@ U kunt de afbeelding ook zelf toepassen als u dat wilt. Als u aan de slag wilt g
 > Voordat u het apparaat aan de gebruiker laat overleveren, controleert u of u de [juiste licenties](../get-ready/prerequisites.md) voor die gebruiker hebt verkregen en toegepast.
 
 Als alle licenties worden toegepast, kunt u de [gebruikers voorbereiden op het gebruik van apparaten](get-started-devices.md)en vervolgens uw gebruiker het apparaat laten opstarten en doorgaan met de installatie van Windows.
-
 
 
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Meer informatie over het gebruik van gecentraliseerde invoegtoepassingen om invoegtoepassingen te implementeren voor gebruikers en groepen in uw organisatie.
-ms.openlocfilehash: 6339858871834637c0b8fdd1b16c17b534026de9
-ms.sourcegitcommit: e5ac81132cc5fd248350627a3cc7b3c640f53b6e
+ms.openlocfilehash: 5521b01e059ca8ae4a97ecb094f9aa1198263701
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48207884"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071475"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Invoegtoepassingen beheren in het beheercentrum
 
@@ -61,7 +61,7 @@ U kunt ook een invoegtoepassing verwijderen die is geïmplementeerd.
 1. Ga in het Beheercentrum naar de pagina **instellingen**  >  **Services & invoegtoepassingen** .
 
      > [!NOTE]
-    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen**van de  >  **geïntegreerde apps**te gaan. Kies invoeg **toepassingen**op de bovenkant van de pagina **geïntegreerde apps** .
+    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen** van de  >  **geïntegreerde apps** te gaan. Kies invoeg **toepassingen** op de bovenkant van de pagina **geïntegreerde apps** .
 
 2. Selecteer de geïmplementeerde invoegtoepassing.
 
@@ -76,7 +76,7 @@ Na implementatie kunnen beheerders ook gebruikers toegang tot invoegtoepassingen
 1. Ga in het Beheercentrum naar de pagina **instellingen**  >  **Services & invoegtoepassingen** .
 
      > [!NOTE]
-    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen**van de  >  **geïntegreerde apps**te gaan. Kies invoeg **toepassingen**op de bovenkant van de pagina **geïntegreerde apps** .
+    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen** van de  >  **geïntegreerde apps** te gaan. Kies invoeg **toepassingen** op de bovenkant van de pagina **geïntegreerde apps** .
 
 2. Selecteer de geïmplementeerde invoegtoepassing.
 
@@ -93,10 +93,10 @@ Als organisatie kunt u het downloaden van nieuwe Office-invoegtoepassingen vanui
   
 **Verwerving van invoegtoepassing uitschakelen**
   
-1. Ga in het beheercentrum naar de pagina**Instellingen** \> [Services &amp; invoegtoepassingen](https://go.microsoft.com/fwlink/p/?linkid=2053743).
+1. Ga in het beheercentrum naar de pagina **Instellingen** \> [Services &amp; invoegtoepassingen](https://go.microsoft.com/fwlink/p/?linkid=2053743).
 
      > [!NOTE]
-    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen**van de  >  **geïntegreerde apps**te gaan. Kies invoeg **toepassingen**op de bovenkant van de pagina **geïntegreerde apps** .
+    > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen** van de  >  **geïntegreerde apps** te gaan. Kies invoeg **toepassingen** op de bovenkant van de pagina **geïntegreerde apps** .
     
 3. Selecteer **apps en services van gebruikers**.
     
@@ -133,6 +133,9 @@ Hiermee wordt niet voorkomen dat een beheerder Gecentraliseerde implementatie ge
   
 Om te voorkomen dat een gebruiker zich aanmeldt met een Microsoft-account, kunt u ervoor zorgen dat er alleen kan worden aangemeld met het account van de organisatie. Zie voor meer informatie [identiteit, authenticatie en autorisatie in Office 2016](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx).  
 
+> [!NOTE]
+> Voorkomen dat gebruikers toegang krijgen tot de Office Store kunnen ze ook [Office-invoegtoepassingen voor het testen van Office-invoegtoepassingen](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)verhinderen.
+
 ## <a name="more-about-the-end-user-experience-with-add-ins"></a>Meer informatie over de eindgebruikers ervaring met invoegtoepassingen
 
 Wanneer u een invoegtoepassing hebt geïmplementeerd, kunnen uw eindgebruikers deze gaan gebruiken in hun Office-toepassingen (Zie [uw Office-invoegtoepassing gaan gebruiken](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). De invoegtoepassing wordt weergegeven op alle platforms die de invoegtoepassing ondersteunt.
@@ -145,7 +148,7 @@ Als de geïmplementeerde invoegtoepassing geen ondersteuning biedt voor opdracht
   
 ### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a>In Word 2016, Excel 2016 of PowerPoint 2016
 
-1. Selecteer ** \> mijn invoegtoepassingen invoegen**. 
+1. Selecteer **\> mijn invoegtoepassingen invoegen**. 
     
 2. Selecteer het tabblad **Beheerd door beheerder** in het venster Office-invoegtoepassingen. 
     
@@ -153,7 +156,7 @@ Als de geïmplementeerde invoegtoepassing geen ondersteuning biedt voor opdracht
   
 ### <a name="in-outlook"></a>In Outlook
 
-1. Selecteer **invoegtoepassing downloaden**op het lint **Start** .<br/>![Knop Store in Outlook](../../media/getaddinsicon.png)
+1. Selecteer **invoegtoepassing downloaden** op het lint **Start** .<br/>![Knop Store in Outlook](../../media/getaddinsicon.png)
   
 2. Selecteer **beheerder beheerd** in het linkernavigatievenster. 
 

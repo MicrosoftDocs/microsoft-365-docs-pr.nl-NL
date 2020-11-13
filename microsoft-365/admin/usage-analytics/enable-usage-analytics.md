@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Meer informatie over het verzamelen van gegevens voor uw Tenant met behulp van de app Microsoft 365 Usage Analytics template in Power BI.
-ms.openlocfilehash: 347256fa7acaae18cd31f0c8c6b7eca20ad2e9dd
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: cda5931e81f7ea13208825afa658f1c672a2f326
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941329"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071453"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse inschakelen
 
@@ -92,7 +92,7 @@ U moet een hoofd **beheerder** , **rapportlezer** , **Exchange-beheerder** , **S
   
 8. Nadat de sjabloon-app is geïnstantieerd, is het dashboard Microsoft 365 Usage Analytics beschikbaar in de webversie van Power BI. Het eerste laden van het dashboard duurt 2 tot 30 minuten.
   
-Samengevoegde gegevens op tenantniveau zijn beschikbaar in alle rapporten. **Gegevens op gebruikersniveau zijn pas beschikbaar na de 1e of 15e dag van de kalendermaand na aanmelding**. Dit is van invloed op alle rapporten onder gebruikersactiviteit. Zie [navigeren en de rapporten gebruiken in Microsoft 365 gebruiksanalyse](navigate-and-utilize-reports.md) voor tips over het weergeven en gebruiken van deze rapporten.
+Samenvoeging van Tenant niveau is beschikbaar in alle rapporten nadat u zich hebt aangemeld. **Details van gebruikersniveau komen slechts binnen de vijfde van de volgende maand van de volgende maand na het** intrekken. Dit is van invloed op alle rapporten onder gebruikersactiviteit (Zie [navigeren en de rapporten gebruiken in Microsoft 365 gebruiksanalyse](navigate-and-utilize-reports.md) voor tips over het weergeven en gebruiken van deze rapporten).
     
 ## <a name="make-the-collected-data-anonymous"></a>Verzamelde gegevens anoniem maken
 

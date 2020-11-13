@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Meer informatie over hoe u uw bedrijf kunt overzetten van Microsoft 365 Business Premium naar Microsoft 365 E3.
-ms.openlocfilehash: 874da0d35759c8af4c3ee2ca4a1bdfa90a91627c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2b15d20e3ae1ad0bef871b139e61abf3ba260729
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842195"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071422"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Migreren van Microsoft 365 Business Premium naar Microsoft 365 E3
 
@@ -57,7 +57,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Mic
 | Teams    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
 | OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Begrensd | 
 | Yammer, SharePoint Online, planner, stream    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager, MileIQ    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | | 
+| MileIQ    | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Bedreigingsbeveiliging**        | | | 
 | Minder mogelijkheden voor oppervlakte van aanval    | [Bekijk deze lijst](#threat-protection) | Enterprise-beheer van hardwarematige isolatie voor Microsoft Edge | 
 | Abonnement 1 voor Office 365 | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
@@ -106,7 +106,7 @@ Uw gebruikers kunnen nu onbeperkt bewaren in de mappen Exchange Online en OneDri
 U kunt de detectie van Cloud apps, Azure AD Connect Health en SSO voor meer dan 10 apps gaan gebruiken.
 
 >[!Note]
->Gebruikers die zijn gemigreerd naar Microsoft 365 E3, kunnen niet langer gebruikmaken van Outlook Customer Manager en MileIQ.
+>Gebruikers die zijn gemigreerd naar Microsoft 365 E3, kunnen niet langer gebruikmaken van MileIQ.
 >
 
 <a name="threat-protection"></a>
