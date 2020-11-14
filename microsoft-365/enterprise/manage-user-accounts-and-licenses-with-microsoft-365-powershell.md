@@ -3,7 +3,7 @@ title: Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met Powe
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 11/13/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
 description: Meer informatie over het beheren van gebruikersaccounts, licenties en groepen van Microsoft 365 met PowerShell.
-ms.openlocfilehash: 0c6ca6a4165b616097405a9de178c254aa489a3c
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: ec60fcfe3c3d2c0e26cb2cca6a56741067d154c0
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429984"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49073123"
 ---
 # <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell
 
@@ -40,9 +40,10 @@ Zie de volgende artikelen voor meer informatie.
 - [Rollen toewijzen aan gebruikersaccounts](assign-roles-to-user-accounts-with-microsoft-365-powershell.md)
 - [Gebruikersaccounts verwijderen en herstellen](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)
 - [Gebruikersaccounts blokkeren](block-user-accounts-with-microsoft-365-powershell.md)
+- [Wachtwoorden](manage-passwords-with-microsoft-365-powershell.md)
 
 ## <a name="licenses-and-services"></a>Licenties en services
-- [Licenties en services weergeven](view-licenses-and-services-with-microsoft-365-powershell.md)
+- [Licenties en services bekijken](view-licenses-and-services-with-microsoft-365-powershell.md)
 - [Gelicentieerde en niet-gelicentieerde gebruikers weergeven](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
 - [Licenties aan gebruikersaccounts toewijzen](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
 - [Accountlicentie-en servicedetails weergeven](view-account-license-and-service-details-with-microsoft-365-powershell.md)
@@ -53,4 +54,4 @@ Zie de volgende artikelen voor meer informatie.
 
 ## <a name="groups"></a>Groepen
 - [Groepslidmaatschap onderhouden](maintain-group-membership-with-microsoft-365-powershell.md)
-- [Microsoft 365-groepen](manage-microsoft-365-groups-with-powershell.md)
+- [Microsoft 365-groepen beheren](manage-microsoft-365-groups-with-powershell.md)

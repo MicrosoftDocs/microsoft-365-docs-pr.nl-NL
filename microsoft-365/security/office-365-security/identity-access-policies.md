@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: f9c26e7e4af99174c5723b44c59d7279ca93afa5
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 19e121ce3f85dc31c3bf81c4750300c4016b1222
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846446"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072769"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -35,8 +35,9 @@ In deze richtlijnen wordt uitgelegd hoe u de aanbevolen beleidsregels implemente
 
 In het volgende diagram wordt de aanbevolen set beleidsregels getoond. In dit voorbeeld wordt aangegeven welke beveiligings bescherming elk beleid van toepassing is en of het beleid van toepassing is op Pc's of telefoons en tablets, of op beide soorten apparaten. Ook wordt aangegeven waar u deze beleidsregels configureert.
 
-[ ![ Veelgebruikte beleidsregels voor het configureren van de identiteit en Apparaattoegang bieden](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png) 
- [een grotere versie van deze afbeelding weer](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+[![Veelgebruikte beleidsregels voor het configureren van de identiteit en Apparaattoegang](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+
+[Een grotere versie van deze afbeelding weergeven](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
 
 Hier ziet u een PDF-samenvatting van één pagina met koppelingen naar de afzonderlijke beleidsregels:
 
@@ -319,7 +320,7 @@ Zie de volgende tabel voor meer informatie over **systeembeveiliging**.
 ||Real-time beveiliging|Dient|Kiest <br>Alleen ondersteund voor Windows 10-bureaublad|
 |||||
 
-**Microsoft Defender voor eindpunt**
+**Microsoft Defender voor Eindpunt**
 
 |Type|Eigenschappen|Waarde|Actierij|
 |:---|:---------|:-----|:----|

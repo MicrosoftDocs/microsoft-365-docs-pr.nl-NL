@@ -1,5 +1,5 @@
 ---
-title: Groepslidmaatschap van Microsoft 365 in PowerShell onderhouden
+title: Lidmaatschap van beveiligingsgroep onderhouden met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,18 +18,18 @@ ms.custom:
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: Meer informatie over het gebruik van PowerShell om lidmaatschap te onderhouden in Microsoft 365 groepen.
-ms.openlocfilehash: 7763f4275ff31f3dc26aa7fecba93e545f7c7644
-ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
+ms.openlocfilehash: b47f501c9726e1d4dcb2e9d61108224db0408b8e
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48580972"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49073059"
 ---
-# <a name="maintain-microsoft-365-group-membership-with-powershell"></a>Groepslidmaatschap van Microsoft 365 in PowerShell onderhouden
+# <a name="maintain-security-group-membership-with-powershell"></a>Lidmaatschap van beveiligingsgroep onderhouden met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt PowerShell voor Microsoft 365 als alternatief voor het Beheercentrum van Microsoft 365 gebruiken om groepslidmaatschappen in Microsoft 365 te onderhouden. 
+U kunt PowerShell voor Microsoft 365 in plaats van het Microsoft 365-Beheercentrum gebruiken om lidmaatschap van beveiligingsgroepen te onderhouden in Microsoft 365. 
 
 >[!Note]
 >[Meer informatie over het beheren van groepslidmaatschappen van Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/add-or-remove-members-from-groups) met het microsoft 365-Beheercentrum. Zie [gebruikers en groepen beheren](https://docs.microsoft.com/microsoft-365/admin/add-users/)voor een lijst met aanvullende bronnen.
@@ -40,7 +40,7 @@ Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-pow
 
 ### <a name="add-or-remove-user-accounts-as-members-of-a-group"></a>Gebruikersaccounts toevoegen of verwijderen als lid van een groep
 
-**Als u een gebruikersaccount wilt toevoegen aan de UPN**, vult u de User Principal Name (UPN) van het gebruikersaccount in en de naam van de groepsweergave, verwijdert u de tekens ' < ' en ' > ' en voert u deze opdrachten uit in het PowerShell-venster of in de ISE (Integrated script Environment) van PowerShell.
+**Als u een gebruikersaccount wilt toevoegen aan de UPN** , vult u de User Principal Name (UPN) van het gebruikersaccount in en de weergavenaam van de beveiligingsgroep, verwijdert u de tekens ' < ' en ' > ' en voert u deze opdrachten uit in het PowerShell-venster of in de ISE (Integrated script Environment) van PowerShell.
 
 ```powershell
 $userUPN="<UPN of the user account to add>"
@@ -48,7 +48,7 @@ $groupName="<display name of the group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
 ```
 
-**Als u een gebruikersaccount wilt toevoegen op basis van de weergavenaam**, vult u de weergavenaam van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
+**Als u een gebruikersaccount wilt toevoegen op basis van de weergavenaam** , vult u de weergavenaam van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
 
 ```powershell
 $userName="<display name of the user account to add>"
@@ -56,7 +56,7 @@ $groupName="<display name of the group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $userName }).ObjectID -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
 ```
 
-**Als u een gebruikersaccount wilt verwijderen van de UPN**, vult u de UPN van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
+**Als u een gebruikersaccount wilt verwijderen van de UPN** , vult u de UPN van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
 
 ```powershell
 $userUPN="<UPN of the user account to remove>"
@@ -64,7 +64,7 @@ $groupName="<display name of the group>"
 Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
 ```
 
-**Als u een gebruikersaccount wilt verwijderen met de weergavenaam**, vult u de weergavenaam van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
+**Als u een gebruikersaccount wilt verwijderen met de weergavenaam** , vult u de weergavenaam van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
 
 ```powershell
 $userName="<display name of the user account to remove>"
@@ -76,7 +76,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -e
 
 Beveiligingsgroepen kunnen andere groepen als leden bevatten. Microsoft 365 groepen is echter niet mogelijk. Dit gedeelte bevat PowerShell-opdrachten voor het toevoegen of verwijderen van groepen voor een beveiligingsgroep.
 
-**Als u een groep wilt toevoegen op basis van de weergavenaam**, vult u de weergavenaam in van de groep die u wilt toevoegen, en de weergavenaam van de groep die de leden groep bevat, en voert u deze opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
+**Als u een groep wilt toevoegen op basis van de weergavenaam** , vult u de weergavenaam in van de groep die u wilt toevoegen, en de weergavenaam van de groep die de leden groep bevat, en voert u deze opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
 
 ```powershell
 $groupMemberName="<display name of the group to add>"
@@ -84,7 +84,7 @@ $groupName="<display name of the group that will contain the member group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupMemberName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
 ```
 
-**Als u een groep op basis van de weergavenaam wilt verwijderen**, vult u de weergavenaam in van de groep die u wilt verwijderen en de weergavenaam van de groep die de leden groep bevat, en voert u deze opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
+**Als u een groep op basis van de weergavenaam wilt verwijderen** , vult u de weergavenaam in van de groep die u wilt verwijderen en de weergavenaam van de groep die de leden groep bevat, en voert u deze opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
 
 ```powershell
 $groupMemberName="<display name of the group to add>"
@@ -99,7 +99,7 @@ Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-pow
 
 ### <a name="add-or-remove-user-accounts-as-members-of-a-group"></a>Gebruikersaccounts toevoegen of verwijderen als lid van een groep
 
-**Als u een gebruikersaccount wilt toevoegen aan de UPN**, vult u de User Principal Name (UPN) van het gebruikersaccount in en de naam van de groepsweergave, verwijdert u de tekens ' < ' en ' > ' en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
+**Als u een gebruikersaccount wilt toevoegen aan de UPN** , vult u de User Principal Name (UPN) van het gebruikersaccount in en de naam van de groepsweergave, verwijdert u de tekens ' < ' en ' > ' en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
 
 ```powershell
 $userUPN="<UPN of the user account to add>"
@@ -107,7 +107,7 @@ $groupName="<display name of the group>"
 Add-MsolGroupMember -GroupMemberObjectId (Get-MsolUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
 ```
 
-**Als u een gebruikersaccount wilt toevoegen op basis van de weergavenaam**, vult u de weergavenaam van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
+**Als u een gebruikersaccount wilt toevoegen op basis van de weergavenaam** , vult u de weergavenaam van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
 
 ```powershell
 $userName="<display name of the user account to add>"
@@ -115,7 +115,7 @@ $groupName="<display name of the group>"
 Add-MsolGroupMember -GroupMemberObjectId (Get-MsolUser | Where { $_.DisplayName -eq $userName }).ObjectID -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
 ```
 
-**Als u een gebruikersaccount wilt verwijderen van de UPN**, vult u de UPN van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
+**Als u een gebruikersaccount wilt verwijderen van de UPN** , vult u de UPN van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
 
 ```powershell
 $userUPN="<UPN of the user account to remove>"
@@ -123,7 +123,7 @@ $groupName="<display name of the group>"
 Remove-MsolGroupMember -GroupMemberObjectId (Get-MsolUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
 ```
 
-**Als u een gebruikersaccount wilt verwijderen met de weergavenaam**, vult u de weergavenaam van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
+**Als u een gebruikersaccount wilt verwijderen met de weergavenaam** , vult u de weergavenaam van het gebruikersaccount in en voert u de naam van de groep in en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ISE.
 
 ```powershell
 $userName="<display name of the user account to remove>"
@@ -135,7 +135,7 @@ Remove-MsolGroupMember -GroupMemberObjectId (Get-MsolUser | Where { $_.DisplayNa
 
 Beveiligingsgroepen kunnen andere groepen als leden bevatten. Microsoft 365 groepen is echter niet mogelijk. Dit gedeelte bevat PowerShell-opdrachten voor het toevoegen of verwijderen van groepen voor een beveiligingsgroep.
 
-**Als u een groep wilt toevoegen op basis van de weergavenaam**, vult u de weergavenaam in van de groep die u wilt toevoegen, en de weergavenaam van de groep die de leden groep bevat, en voert u deze opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
+**Als u een groep wilt toevoegen op basis van de weergavenaam** , vult u de weergavenaam in van de groep die u wilt toevoegen, en de weergavenaam van de groep die de leden groep bevat, en voert u deze opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
 
 ```powershell
 $groupMemberName="<display name of the group to add>"
@@ -143,7 +143,7 @@ $groupName="<display name of the group that will contain the member group>"
 Add-MsolGroupMember -GroupMemberObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $groupMemberName }).ObjectID -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $groupName }).ObjectID -GroupMemberType Group
 ```
 
-**Als u een groep op basis van de weergavenaam wilt verwijderen**, vult u de weergavenaam in van de groep die u wilt verwijderen en de weergavenaam van de groep die de leden groep bevat, en voert u deze opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
+**Als u een groep op basis van de weergavenaam wilt verwijderen** , vult u de weergavenaam in van de groep die u wilt verwijderen en de weergavenaam van de groep die de leden groep bevat, en voert u deze opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
 
 ```powershell
 $groupMemberName="<display name of the group to add>"

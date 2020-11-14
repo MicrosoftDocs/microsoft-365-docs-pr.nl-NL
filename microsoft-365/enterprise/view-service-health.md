@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Bekijk de status van Microsoft 365-Services voordat u de ondersteuning belt om te zien of er een actieve serviceonderbreking is.
-ms.openlocfilehash: 20e19072e1a851fba20e556be696146b8ad57a2f
-ms.sourcegitcommit: 392f60efa0921c64ac1462dd63985cd156e6498a
+ms.openlocfilehash: b1819e455732d142c563f598433c410b0ae60882
+ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48134073"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "49072757"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>De servicestatus van Microsoft 365 controleren
 
@@ -39,7 +39,8 @@ ms.locfileid: "48134073"
 
 U kunt de status van uw Microsoft-services bekijken, waaronder Office op internet, Yammer, Microsoft Dynamics CRM en Mobile Device Management cloudservices, op de pagina **service status** in het [Microsoft 365-Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339). Als u problemen ondervindt met een cloudservice, kunt u de servicestatus controleren om na te gaan of dit een bekend probleem is met een oplossing die al wordt uitgevoerd voordat u de ondersteuning belt of tijd hebt om problemen op te lossen.
 
-Als u zich niet kunt aanmelden bij de Service Portal, kunt u op de [pagina servicestatus](https://status.office365.com) klikken op bekende problemen die u niet kunt aanmelden bij uw Tenant.
+Als u zich niet kunt aanmelden bij het Beheercentrum, kunt u op de pagina met de status van de [service](https://status.office365.com) controleren op bekende problemen die u niet kunt aanmelden bij uw Tenant.  Meld u ook aan om ons op [@MSFT365status](https://twitter.com/MSFT365Status) op Twitter te volgen om informatie over bepaalde gebeurtenissen te bekijken.
+
   
 ### <a name="how-to-check-service-health"></a>Servicestatus controleren
 
@@ -50,7 +51,7 @@ Als u zich niet kunt aanmelden bij de Service Portal, kunt u op de [pagina servi
   
 2. Als u niet werkt met het nieuwe Beheercentrum, selecteert u op de **Start** pagina de wisselknop **het nieuwe Beheercentrum uitproberen** in de rechterbovenhoek.
 
-3. Als u de status van de service wilt weergeven, gaat **u naar**het Beheercentrum en gaat u naar status  >  **servicestatus**of selecteert u de kaart **servicestatus** in het **Dashboard voor thuis**gebruik. De dashboard kaart geeft aan of er een actief serviceprobleem is en dat er koppelingen naar de pagina gedetailleerde **servicestatus** .
+3. Als u de status van de service wilt weergeven, gaat **u naar** het Beheercentrum en gaat u naar status  >  **servicestatus** of selecteert u de kaart **servicestatus** in het **Dashboard voor thuis** gebruik. De dashboard kaart geeft aan of er een actief serviceprobleem is en dat er koppelingen naar de pagina gedetailleerde **servicestatus** .
   
 4. Op de pagina **service status** wordt de status van elke Cloud service weergegeven in een tabelindeling.
 
@@ -62,11 +63,11 @@ Als u de weergave wilt filteren op Services die momenteel een incident ondervind
 
 Het tabblad **geschiedenis** toont de geschiedenis van incidenten en adviseurs die zijn opgelost.
 
-Als u een probleem hebt met een Microsoft 365-service en dit niet wordt weergegeven op de pagina **servicestatus** , laat het ons weten door **een probleem melden**te selecteren en het korte formulier in te vullen. We bekijken de gerelateerde gegevens en rapporten van andere organisaties om te zien hoe het probleem zich verhoudt en of het van toepassing is op onze service. Als dit het geval is, voegen we het toe als een nieuw incident of advies op de pagina **service status** , waar u de resolutie kunt bijhouden. Als u het probleem niet in de lijst ziet staan, moet u contact opnemen met de ondersteuning om dit probleem op te lossen.
+Als u een probleem hebt met een Microsoft 365-service en dit niet wordt weergegeven op de pagina **servicestatus** , laat het ons weten door **een probleem melden** te selecteren en het korte formulier in te vullen. We bekijken de gerelateerde gegevens en rapporten van andere organisaties om te zien hoe het probleem zich verhoudt en of het van toepassing is op onze service. Als dit het geval is, voegen we het toe als een nieuw incident of advies op de pagina **service status** , waar u de resolutie kunt bijhouden. Als u het probleem niet in de lijst ziet staan, moet u contact opnemen met de ondersteuning om dit probleem op te lossen.
 
-Als u de weergave van de services die u wilt weergeven op **Preferences**het dashboard wilt aanpassen, selecteert u  >  **aangepaste weergave**voorkeuren en schakelt u de selectievakjes uit voor de services die u wilt filteren in de dashboardweergave voor de service status. Zorg ervoor dat het selectievakje is ingeschakeld voor elke service die u wilt controleren.    
+Als u de weergave van de services die u wilt weergeven op **Preferences** het dashboard wilt aanpassen, selecteert u  >  **aangepaste weergave** voorkeuren en schakelt u de selectievakjes uit voor de services die u wilt filteren in de dashboardweergave voor de service status. Zorg ervoor dat het selectievakje is ingeschakeld voor elke service die u wilt controleren.    
 
-Als u zich wilt registreren voor e-mail meldingen van nieuwe incidenten die van invloed zijn op de Tenant en statuswijzigingen voor een actief incident, selecteert u **Voorkeuren**  >  **e-mail**, klikt u op meldingen over de **Servicemelding verzenden in e-mail**en geeft u het volgende op:
+Als u zich wilt registreren voor e-mail meldingen van nieuwe incidenten die van invloed zijn op de Tenant en statuswijzigingen voor een actief incident, selecteert u **Voorkeuren**  >  **e-mail** , klikt u op meldingen over de **Servicemelding verzenden in e-mail** en geeft u het volgende op:
 
 - Maximaal twee e-mailadressen.
 - Of u meldingen wilt ontvangen voor incidenten of adviseurs
