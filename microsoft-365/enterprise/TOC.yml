@@ -467,10 +467,10 @@
               href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
             - name: Project Server 2010
               href: project-server-2010-end-of-support.md
-- name: Beveiliging
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
 - name: Compliance
-  href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+  href: ../compliance/index.yml
+- name: Beveiliging
+  href: ../security/index.yml
 - name: Cloudservices
   items:
     - name: Roadmap
@@ -564,7 +564,7 @@
           href: cmdlet-references-for-microsoft-365-services.md
         - name: Bronnen van PowerShell-community
           href: microsoft-365-powershell-community-resources.md
-    - name: 'Gebruikersaccounts, -licenties en -groepen beheren met PowerShell'
+    - name: 'Gebruikersaccounts, -wachtwoorden, -licenties en -groepen beheren met PowerShell'
       href: manage-user-accounts-and-licenses-with-microsoft-365-powershell.md
       items:
         - name: Gebruikersaccounts
@@ -581,6 +581,8 @@
               href: delete-and-restore-user-accounts-with-microsoft-365-powershell.md
             - name: Blokkeren
               href: block-user-accounts-with-microsoft-365-powershell.md
+            - name: Wachtwoorden
+              href: manage-passwords-with-microsoft-365-powershell.md
         - name: Licenties en services
           items:
             - name: Licenties en services bekijken
@@ -602,6 +604,8 @@
                   href: disable-access-to-services-while-assigning-user-licenses.md
         - name: Groepen
           items:
+            - name: Beveiligingsgroepen beheren
+              href: manage-security-groups-with-microsoft-365-powershell.md
             - name: Lidmaatschap van beveiligingsgroep onderhouden
               href: maintain-group-membership-with-microsoft-365-powershell.md
             - name: Microsoft 365-groepen beheren
@@ -723,11 +727,7 @@
       href: contoso-info-protect.md
     - name: Beveiligingsoverzicht
       href: contoso-security-summary.md
-- name: Microsoft 365-compliance
-  href: ../compliance/index.yml
-- name: Microsoft 365-beveiliging
-  href: ../security/index.yml
-- name: Microsoft 365-architectuur en oplossingen
+- name: Microsoft 365-architectuur en -oplossingen
   href: ../solutions/index.yml
 - name: Enterprise Business Continuity Management (EBCM) met cloudservices
   href: ebcm-understanding-ebcm-with-cloud-services.md

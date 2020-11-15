@@ -914,6 +914,8 @@
           href: compliance-manager-improvement-actions.md
         - name: Hoe uw compliancescore wordt berekend
           href: compliance-score-calculation.md
+        - name: Compliance Configuration Analyzer-tool
+          href: compliance-manager-mcca.md
         - name: Veelgestelde vragen
           href: compliance-manager-faq.md
         - name: Compliancebeheer (klassiek)
