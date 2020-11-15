@@ -61,6 +61,8 @@
           href: get-ready/mapped-drives.md
         - name: Certificaten en netwerkprofielen voorbereiden
           href: get-ready/certs-wifi-lan.md
+        - name: Vereisten voor gast-accounts
+          href: get-ready/guest-accounts.md
         - name: Printbronnen voorbereiden
           href: get-ready/printing.md
         - name: Apps voorbereiden
