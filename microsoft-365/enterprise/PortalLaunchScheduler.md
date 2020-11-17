@@ -17,18 +17,18 @@ search.appverid:
 - SPO160
 - MET150
 description: In dit artikel wordt uitgelegd hoe u uw portal kunt starten met behulp van de lanceer planner voor portals
-ms.openlocfilehash: 6a191cf323e180fa77614eb09bae4185228a5029
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: a7a007fdd95638109830a8e3689232060f2b9d8b
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087665"
+ms.locfileid: "49123581"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>De portal starten met behulp van de lanceer planner voor portal
 
 Een portal is een SharePoint-site op uw intranet met een groot aantal sitebezoekers die inhoud op de site gebruiken. Het starten van de portal in golven is een belangrijk onderdeel van de zorgen dat gebruikers een eenvoudige en ervaren ervaring hebben om toegang te krijgen tot een nieuwe SharePoint Online-Portal. 
 
-De lancering in golven is een belangrijke manier om de portal uit te vouwen, zoals wordt uitgelegd in [het implementatieplan van uw portal lanceren in SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide). De lancerings planner voor de portal is bedoeld om u te helpen bij het volgen van een rol met Golf/gefaseerde samenvatting door de omleidingen voor de nieuwe portal te beheren. U kunt tijdens elk van de golven feedback van gebruikers verzamelen en de prestaties controleren tijdens elke implementatie. Dit heeft het voordeel van langzaam de portal, met de mogelijkheid om problemen te onderbreken en op te lossen voordat u verder gaat met de volgende golf, en de gebruikers uiteindelijk zorgen voor een gunstige ervaring. 
+De lancering in golven is een belangrijke manier om de portal uit te vouwen, zoals wordt uitgelegd in [het implementatieplan van uw portal lanceren in SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide). De lancerings planner voor de portal is bedoeld om u te helpen bij het volgen van een rol met Golf/gefaseerde samenvatting door de omleidingen voor de nieuwe portal te beheren. U kunt tijdens elk van de golven feedback van gebruikers verzamelen en de prestaties controleren tijdens elke implementatie. Dit heeft het voordeel van langzaam de portal, met de mogelijkheid om problemen te onderbreken en op te lossen voordat u verder gaat met de volgende golf, en de gebruikers uiteindelijk zorgen voor een gunstige ervaring. 
 
 Er zijn twee typen omleiding: 
 - bidirectioneel: een nieuwe moderne SharePoint Online-Portal starten om een bestaande SharePoint-klassieke of moderne portal te vervangen 
