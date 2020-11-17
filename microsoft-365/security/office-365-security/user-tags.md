@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze bepaalde groepen gebruikers identificeren met gebruikers Tags in Microsoft Defender voor Office 365, abonnement 2. Het filteren van labels is beschikbaar via waarschuwingen, rapporten en onderzoek in Microsoft Defender voor Office 365, zodat u snel de gecodeerde gebruikers kunt identificeren.
-ms.openlocfilehash: 9c83a323a3116b3da61a133c7fb449978ca13841
-ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
+ms.openlocfilehash: 14ebcebeb8081a2de341fd06facabd9f7d55b119
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48945316"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123617"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Gebruikers Tags in Microsoft Defender voor Office 365
 
@@ -29,8 +29,8 @@ ms.locfileid: "48945316"
 
 Gebruikers Tags zijn id's voor specifieke groepen gebruikers in [Microsoft Defender voor Office 365](office-365-atp.md). Er zijn twee soorten gebruikers Tags:
 
-- **Systeem Tags** : momenteel is de [prioriteit accounts](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) het enige type systeemcode.
-- **Aangepaste tags** : u kunt deze gebruikers Tags zelf maken.
+- **Systeem Tags**: momenteel is de [prioriteit accounts](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) het enige type systeemcode.
+- **Aangepaste tags**: u kunt deze gebruikers Tags zelf maken.
 
 Als uw organisatie is aangemeld voor Office 365, abonnement 2 (opgenomen in uw abonnement of als een invoegtoepassing), kunt u ook aangepaste gebruikers Tags maken en de tag met de prioriteits accounts gebruiken.
 
@@ -40,6 +40,7 @@ Wanneer u systeem Tags of aangepaste tags op gebruikers hebt toegepast, kunt u d
 - [Bedreigings Verkenner en real-time ontdekken](threat-explorer.md)
 - [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
 - [Campagneweergaven](campaigns.md)
+- Voor prioriteits accounts kunt u het [rapport e-mail problemen met prioriteits accounts](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) in het Exchange-Beheercentrum (SBV) gebruiken.
 
 In dit artikel wordt uitgelegd hoe u gebruikers Tags kunt configureren in de beveiligings & nalevings centrum. De beveiligings & bevat geen cmdlets voor het beheren van gebruikers Tags.
 
@@ -60,17 +61,14 @@ In dit artikel wordt uitgelegd hoe u gebruikers Tags kunt configureren in de bev
 2. Klik op de pagina **gebruikers Tags** die wordt geopend op **tag maken**.
 
 3. De wizard **tag maken** wordt geopend in een nieuwe vlucht. Configureer de volgende instellingen op de pagina **tag definiëren** :
-
-   - **Naam** : Typ een unieke, beschrijvende naam voor de tag. Dit is de waarde die u ziet en gebruikt.
-
-   - **Beschrijving** : Typ een optionele beschrijving voor de tag.
+   - **Naam**: Typ een unieke, beschrijvende naam voor de tag. Dit is de waarde die u ziet en gebruikt.
+   - **Beschrijving**: Typ een optionele beschrijving voor de tag.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
 4. Voer een van de volgende stappen uit op de pagina **postvakken toewijzen** :
 
    - Klik op **postvakken toevoegen**. Voer een van de volgende stappen uit om afzonderlijke gebruikers of groepen toe te voegen:
-
      - Klik in het vak en blader door de lijst om een gebruiker of groep te selecteren.
      - Klik in het vak en begin te typen om de lijst te filteren en selecteer een gebruiker of groep.
      - Als u extra waarden wilt toevoegen, klikt u op een leeg gebied in het vak.
@@ -109,7 +107,7 @@ In dit artikel wordt uitgelegd hoe u gebruikers Tags kunt configureren in de bev
 
 ## <a name="use-the-security-center-to-remove-user-tags"></a>Beveiligingscentrum gebruiken om gebruikers Tags te verwijderen
 
-**Opmerking** : u kunt de code van het ingebouwde **prioriteits account** niet verwijderen.
+**Opmerking**: u kunt de code van het ingebouwde **prioriteits account** niet verwijderen.
 
 1. Ga in het Beveiligingscentrum naar **Threat management** \> **gebruikers Tags** van Threat Management.
 

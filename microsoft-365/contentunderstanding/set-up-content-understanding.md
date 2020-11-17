@@ -6,15 +6,16 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
+ms.collection: enabler-strategic
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 8f1ebd70f932bce874efc19f525b549f6717f532
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: dfbcc8e41a28e3107b58ac6b8d471e3a2a08d036
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988679"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087569"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -22,12 +23,12 @@ Beheerders kunnen het Microsoft 365-beheercentrum gebruiken om [Microsoft ShareP
 
 Houd rekening met het volgende voordat u begint:
 
-- Op welke SharePoint-sites wordt het verwerken van formulieren ingeschakeld? Op alle sites, enkele sites of alleen specifieke sites?
+- Which SharePoint sites will you enable form processing? All of them, some, or select sites?
 - Wat is de naam van uw standaard inhoudscentrum?
 
 U kunt de instellingen wijzigen na de eerste installatie in het Microsoft 365-beheercentrum.
 
-Voordat u met het instellen begint, moet u plannen wat de beste manier is om inhoudsbegrip te configureren voor uw omgeving. Zo moet u bijvoorbeeld rekening houden met de namen van:
+Prior to setup, make sure to plan for the best way to set up and configure content understanding in your environment. For example, you need to make considerations about the following names of:
 
 - De SharePoint-sites waarvoor u de formulierverwerking wilt inschakelen; alle sites, enkele sites of specifieke sites
 - Uw inhoudscentrum en de naam van de primaire beheerder van de site
@@ -50,11 +51,11 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
     > [!div class="mx-imgBorder"]
     > ![Installatie starten](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
-4. Op de pagina **Formulierverwerking configureren** kunt u kiezen of u wilt dat gebruikers formulierverwerkingsmodellen kunnen maken in specifieke SharePoint-documentbibliotheken. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek voor het **maken van een formulierverwerkingsmodel** in SharePoint-documentbibliotheken waarin dit is ingeschakeld.
+4. On the **Configure Form Processing** page, you can choose if you want to let users be able to create form processing models in specific SharePoint document libraries. A menu option will be available in the document library ribbon to **Create a form processing model** in SharePoint document libraries in which it is enabled.
  
-     Bij **Welke SharePoint-bibliotheken moeten de optie weergeven voor het maken van een formulierverwerkingsmodel** , kunt u het volgende selecteren:</br>
+     Bij **Welke SharePoint-bibliotheken moeten de optie weergeven voor het maken van een formulierverwerkingsmodel**, kunt u het volgende selecteren:</br>
       - **Alle SharePoint-bibliotheken** om de optie beschikbaar te maken voor alle SharePoint-bibliotheken in uw organisatie.</br>
-      - **Alleen bibliotheken op geselecteerde sites** ; selecteer vervolgens de sites waar u de optie beschikbaar wilt maken of upload een lijst met maximaal 50 sites.</br>
+      - **Alleen bibliotheken op geselecteerde sites**; selecteer vervolgens de sites waar u de optie beschikbaar wilt maken of upload een lijst met maximaal 50 sites.</br>
       - **Geen SharePoint-bibliotheken** als u de optie niet beschikbaar wilt maken voor sites (u kunt dit wijzigen na de installatie).
 
    > [!div class="mx-imgBorder"]
@@ -67,18 +68,18 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
 
     1. Typ voor **Sitenaam** de naam die u de inhoudscentrumsite wilt geven.
     
-    1. Bij **Siteadres** wordt de URL voor uw site weergegeven op basis van wat u hebt opgegeven als sitenaam. Klik op **Bewerken** om dit te wijzigen.
+    1. The **Site address** will show the URL for your site, based on what you selected for the site name. If you want to change it, click **Edit**.
 
        > [!div class="mx-imgBorder"]
        > ![Inhoudscentrum maken](../media/content-understanding/admin-cu-create-cc.png)</br>
 
        Selecteer **Volgende**.
 
-6. Op de pagina **Controleren en voltooien** kunt u de geselecteerde instelling bekijken en wijzigingen aanbrengen. Selecteer **Activeren** wanneer u tevreden bent met uw selecties.
+6. On the **Review and finish** page, you can look at your selected setting and choose to make changes. If you are satisfied with your selections, select **Activate**.
 
 7. Klik op **Gereed** op de bevestigingspagina.
 
-8. U gaat terug naar de pagina **Inhoudsbegrip automatiseren**. Op deze pagina kunt u **Beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
+8. You'll be returned to your **Automate content understanding** page. From this page, you can select **Manage** to make any changes to your configuration settings. 
 
 ## <a name="assign-licenses"></a>Licenties toewijzen
 
@@ -92,7 +93,7 @@ Licenties toewijzen:
 
 3. Selecteer **Meer toewijzen**.
 
-4. Selecteer **SharePoint Syntex**. Zorg ervoor dat onder **Apps** **Algemene Gegevens sService voor SharePoint Syntex** , **SharePoint Syntex** en **SharePoint Syntex-SPO type** allemaal zijn geselecteerd.
+4. Select **SharePoint Syntex**. Under **Apps**, make sure **Common Data Service for SharePoint Syntex**, **SharePoint Syntex**, and **SharePoint Syntex - SPO type** are all selected.
 
     > [!div class="mx-imgBorder"]
     > ![SharePoint Syntex-licenties in het Microsoft 365-beheercentrum](../media/content-understanding/sharepoint-syntex-licenses.png)
@@ -101,7 +102,7 @@ Licenties toewijzen:
 
 ## <a name="ai-builder-credits"></a>AI Builder-credits
 
-Als u 300 of meer SharePoint Syntex-licenties voor SharePoint Syntex in uw organisatie hebt, worden er 1 miljoen AI Builder-credits aan u toegewezen. Als u minder dan 300 licenties hebt, moet u AI Builder-credits kopen om formulierverwerking te kunnen gebruiken.
+If you have 300 or more SharePoint Syntex licenses for SharePoint Syntex in your organization, you will be allocated one million AI Builder credits. If you have fewer than 300 licenses, you must purchase AI Builder credits in order to use forms processing.
 
 U kunt een schatting maken van de benodigde AI Builder-capaciteit [AI Builder-calculator](https://powerapps.microsoft.com/ai-builder-calculator).
 

@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de status-technologie van Microsoft 365-apps-technologie met productiviteits Score.
-ms.openlocfilehash: 9497118f4ebfb1cb2b64670638ce939da21eb261
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: c38f2109ed41377cfccb9838c95dbfbebbfd322a
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841187"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123509"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Status van Microsoft 365-apps-technologie ervaring
 
-Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met metrische gegevens over hoe mensen Microsoft 365-apps gebruiken en de ondersteunende technologie. De Score weerspiegelt uw organisatie&#39;de prestaties van de categorieën personen en technologie ervaring en vergelijkt uw score met organisaties als uw eigen. De categoriestatus van apps maakt deel uit van de maten onder mensen ervaring. Zie het [overzicht van de productiviteits Score](productivity-score.md) voor meer informatie.
+Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met metrische gegevens over hoe mensen Microsoft 365-apps gebruiken en de ondersteunende technologie. De Score weerspiegelt uw organisatie&#39;de prestaties van de categorieën personen en technologie ervaring en vergelijkt uw score met organisaties als uw eigen. De categorie apps status maakt deel uit van de maten onder technologie-ervaringen. Zie het [overzicht van de productiviteits Score](productivity-score.md) voor meer informatie.
 
 ## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>Waarom uw organisatie de status Score van Microsoft 365 apps&#39;s heeft
 
@@ -59,7 +59,7 @@ Dit geldt voor Microsoft 365-apps kanaal, build en versie die wordt uitgevoerd o
 
 In het volgende diagram ziet u het aantal apparaten in het aanbevolen update kanaal voor de laatste 180 dagen. Het gegevenspunt op het lijndiagram is een samenvatting van de activiteit voor de afgelopen 28 dagen.
 
-:::image type="content" source="../../media/appshealth-primarytrend.png" alt-text="Primair in visuele visualisatie voor Microsoft 365-apps.":::
+:::image type="content" source="../../media/appshealth-primarytrend.png" alt-text="Dit grafiektype toont de trend voor apparaten met het aanbevolen update kanaal.":::
 
 ### <a name="scoring-framework"></a>Score raamwerk
 
@@ -71,7 +71,7 @@ We bieden ook ondersteuningsinformatie die u helpt om te zorgen dat de kanalen e
 
 ### <a name="devices-on-current-channel-and-running-supported-versions"></a>Apparaten in het huidige kanaal en actieve ondersteunde versies
 
-:::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="Primair in visuele visualisatie voor Microsoft 365-apps.":::
+:::image type="content" source="../../media/devices-current-suppported-channel.png" alt-text="De grafiek met het aantal apparaten in het huidige, ondersteunde kanaal.":::
 
 1. **Koptekst:**  Markeert het percentage apparaten in het huidige kanaal waarop ondersteunde versies van Microsoft 365-apps worden uitgevoerd
 1. **Hoofdtekst:**  Dit artikel bevat informatie over de waarde van apparaten met Microsoft 365-apps op het aanbevolen kanaal.
@@ -82,7 +82,7 @@ We bieden ook ondersteuningsinformatie die u helpt om te zorgen dat de kanalen e
 
 ### <a name="devices-running-latest-and-supported-versions"></a>Apparaten met de nieuwste en ondersteunde versies
 
-:::image type="content" source="../../media/device-supported-versions.png" alt-text="Primair in visuele visualisatie voor Microsoft 365-apps.":::
+:::image type="content" source="../../media/device-supported-versions.png" alt-text="Grafiek met het aantal apparaten waarop de nieuwste en ondersteunde versies van apps worden uitgevoerd.":::
 
 1. **Koptekst:**  Hiermee markeert u het percentage apparaten met ondersteunde versies en apparaten met de meest recente versies.
 1. **Hoofdtekst:**  Dit artikel bevat informatie over de waarde met apparaten in Aanbevolen kanalen en ondersteunde/nieuwste versies.
@@ -99,7 +99,7 @@ We bieden ook ondersteuningsinformatie die u helpt om te zorgen dat de kanalen e
 
 Dit diagram toont de trendlijn van de apparaten met ondersteunde versies en de nieuwste versies van Microsoft 365-apps gedurende de laatste 180 dagen.
 
-:::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Primair in visuele visualisatie voor Microsoft 365-apps.":::
+:::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Dit is een overzicht van de manier waarop u in de loop van de tijd wordt getoontd en de nieuwste versies van apps.":::
 
 ## <a name="people-in-your-organization"></a>Personen in uw organisatie
 

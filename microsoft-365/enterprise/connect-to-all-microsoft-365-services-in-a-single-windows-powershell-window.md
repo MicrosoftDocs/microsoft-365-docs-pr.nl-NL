@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: 'Samenvatting: verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster.'
-ms.openlocfilehash: 04be916f745e2bde70554045340fc8ec03f87413
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 4128e360a3664d3a61559139bc4e6e346418fa61
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754314"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087025"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Verbinding maken met alle Microsoft 365-services in een enkel PowerShell-venster
 
@@ -68,7 +68,7 @@ Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beher
   - [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
   - [Overzicht van PowerShell voor Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
     
--  Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en het Beveiligings- &amp; en compliancecentrum. Voer de volgende opdracht uit in een Windows PowerShell-sessie met een verhoogde bevoegdheid (een Windows PowerShell-sessie die u **Als beheerder uitvoert** ).
+-  Windows PowerShell moet worden geconfigureerd voor het uitvoeren van ondertekende scripts voor Skype voor Bedrijven Online en het Beveiligings- &amp; en compliancecentrum. Voer de volgende opdracht uit in een Windows PowerShell-sessie met een verhoogde bevoegdheid (een Windows PowerShell-sessie die u **Als beheerder uitvoert**).
     
    ```powershell
    Set-ExecutionPolicy RemoteSigned
@@ -76,7 +76,7 @@ Voordat u Microsoft 365 vanuit één exemplaar van Windows PowerShell kunt beher
 
 ## <a name="exchange-online-and-security-amp-compliance-center-with-the-exchange-online-powershell-v2-module"></a>Exchange Online en Beveiligings- &amp; en compliancecentrum met Exchange Online PowerShell V2-module
 
-De procedures in dit artikel gebruiken de Exchange Online PowerShell V2-module om verbinding te maken met zowel Exchange Online als het Beveiligings- &amp; en compliancecentrum. Maar momenteel kunt u geen verbinding maken met beide *in hetzelfde PowerShell-venster* . U moet er dus voor kiezen om verbinding te maken met de een of de ander wanneer u een PowerShell-venster configureert voor meerdere Microsoft 365-services.
+De procedures in dit artikel gebruiken de Exchange Online PowerShell V2-module om verbinding te maken met zowel Exchange Online als het Beveiligings- &amp; en compliancecentrum. Maar momenteel kunt u geen verbinding maken met beide *in hetzelfde PowerShell-venster*. U moet er dus voor kiezen om verbinding te maken met de een of de ander wanneer u een PowerShell-venster configureert voor meerdere Microsoft 365-services.
 
 ## <a name="connection-steps-when-using-just-a-password"></a>Verbindingsstappen als u alleen een wachtwoord gebruikt
 
@@ -109,7 +109,7 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
+   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $Credential
    ```
 
 5. Voer deze opdrachten uit om verbinding te maken met Skype voor Bedrijven Online. De eerste keer dat u verbinding maakt, wordt er een waarschuwing weergegeven over het vergroten van de `WSMan NetworkDelayms` waarde. U kunt dit negeren.
@@ -152,7 +152,7 @@ Hier volgen de stappen voor het maken van verbinding met alle services in één 
    ```
   
    > [!Note]
-   > Zie [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams) om verbinding te maken met andere Microsoft Teams-clouds dan *Worldwide* .
+   > Zie [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams) om verbinding te maken met andere Microsoft Teams-clouds dan *Worldwide*.
 
 
 ### <a name="azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph-module

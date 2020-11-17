@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de samenwerking van inhoud-personen met productiviteits Score.
-ms.openlocfilehash: 5cdbe0cbb683715a19b182d0781fe238d026a400
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: 99f5a897dc372a45be31a8c01379c6fe4c980de9
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999426"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123443"
 ---
 # <a name="content-collaboration--people-experiences"></a>Samenwerken aan inhoud: mensen ervaring
 
-Met productiviteits Score kunt u transformeren hoe werk wordt gedaan met metrische gegevens over hoe mensen Microsoft 365-apps gebruiken en de technologie ervaring die deze ondersteunen. De score geeft uw organisatie&#39;de prestaties van de personen en de technologie en vergelijkt uw score met organisaties als uw eigen. Samenwerken aan inhoud is een van de maateenheden onder mensen ervaring. Bekijk het overzicht van de  [productiviteits Score](productivity-score.md).
+Met productiviteits Score kunt u transformeren hoe werk wordt gedaan met metrische gegevens over hoe mensen Microsoft 365-apps gebruiken en de technologie ervaring die deze ondersteunen. De score geeft uw organisatie&#39;de prestaties van de personen en de technologie en vergelijkt uw score met organisaties als uw eigen. Samenwerken aan inhoud is een van de maateenheden onder mensen ervaring. Bekijk het overzicht van de [productiviteits Score](productivity-score.md).
 
 ## <a name="why-your-organization39s-content-collaboration-score-matters"></a>Waarom uw organisatie de samenwerking van de inhoud van de organisatie&#39;
 
@@ -140,25 +140,25 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop mensen i
         - Noemer: het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad
 4. **Koppeling naar bronnen:** Selecteer deze koppeling om de Help-inhoud te bekijken.
 
-### <a name="intensity-of-files-collaborated-on"></a>Intensiteit van bestanden die zijn samengewerkt
+### <a name="number-of-files-collaborated-on"></a>Het aantal bestanden dat is samengewerkt
 
 :::image type="content" source="../../media/intensityofcollab.png" alt-text="Diagram waarin wordt weergegeven hoe vaak bestanden aan het bestand zijn gewerkt.":::
 
-1. **Koptekst:** Dit markeert het percentage personen die toegang hebben tot OneDrive of SharePoint, en die samenwerken aan 4 of meer bestanden.
+1. **Koptekst:** Hiermee wordt het percentage aangegeven van personen die toegang hebben tot OneDrive of SharePoint, en die samenwerken aan vier of meer bestanden.
 2. **Hoofdtekst:** Dit biedt informatie over hoe mensen online bestanden kunnen inzetten voor betere samenwerking.
 3. **Visualisatie:** Hier ziet u een distributie van de personen die toegang hebben tot OneDrive of SharePoint, op basis van het aantal bestanden waaraan ze zijn samengewerkt. Dit wordt weergegeven in de volgende vier categorieën (voor elk, het blauwe gedeelte van de balk en de breuk geeft het percentage aan van personen die toegang hebben tot OneDrive of SharePoint in die categorie):
       - **Geen samenwerking:**
         - **Teller:** Het aantal personen die geen deel uitzien van bestanden in de afgelopen 28 dagen
-        - **Noemer:** Het totale aantal personen dat OneDrive of SharePoint heeft voor minstens 1 van de afgelopen 28 dagen
+        - **Noemer:** Het totale aantal personen dat OneDrive of SharePoint heeft voor minstens 1 van de afgelopen 30 dagen.
       - **Samenwerking voor 1-3-bestanden:**
         - **Teller:** Het aantal personen dat in de afgelopen 28 dagen samen met 1-3 bestanden samenwerkt
-        - **Noemer:** Het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad
+        - **Noemer:** Het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad.
       - **Samenwerking voor 4-10-bestanden:**
         - **Teller:** Het aantal personen dat in de afgelopen 28 dagen samen met 4-10 bestanden samenwerkt
-        - **Noemer: het** totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad
+        - **Noemer: het** totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad.
       - **Samenwerking voor 11 of meer bestanden:**
         - **Teller:** Het aantal personen in de afgelopen 28 dagen samen met 11 of meer bestanden
-        - **Noemer:** Het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad
+        - **Noemer:** Het totale aantal personen waartoe OneDrive of SharePoint voor minstens 1 van de afgelopen 28 dagen toegang heeft gehad.
         
 4. **Koppeling naar bronnen:** Selecteer deze koppeling om de Help-inhoud te bekijken.
 
@@ -169,11 +169,11 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop mensen i
 1. **Koptekst:** Hiermee wordt het percentage van de apparaten voor alle geteste systemen gemarkeerd met een slechte netwerkverbinding met OneDrive en SharePoint. 
 2. **Hoofdtekst:** Dit artikel bevat informatie over waarom de prestaties van netwerkverbindingen belangrijk zijn voor samenwerking. 
 3. **Visualisatie:** toont een percentage van apparaten met verschillende niveaus voor de prestaties van de netwerkverbinding, met betrekking tot OneDrive en SharePoint:
-      - **80-100 (Best)** : het donkere groen (gekleurd) gedeelte van de staaf staat voor de beste prestaties.
-      - **60-80** : het groene (gekleurd) gedeelte van de staaf staat voor een percentage van apparaten met een netwerk prestatiescore tussen 60-80. 
-      - **40-60** : het oranje (kleur) gedeelte van de balk geeft een percentage van apparaten weer met een netwerk prestatiescore tussen 40-60. 
-      - **20-40** : het rode (gekleurde) gedeelte van de balk geeft een percentage van apparaten weer met een netwerk prestatiescore tussen 20-40. 
-      - **0-20** : het donkergrijze rode (gekleurd) gedeelte van de balk geeft een percentage van apparaten weer met een slechtste netwerk prestatiescore tussen 0-20. 
+      - **80-100 (Best)**: het donkere groen (kleur) van de staaf staat voor de beste prestaties voor een percentage van de apparaten.
+      - **60-80**: het groene (gekleurd) gedeelte van de staaf staat voor een percentage van apparaten met een netwerk prestatiescore tussen 60-80. 
+      - **40-60**: het oranje (kleur) gedeelte van de balk geeft een percentage van apparaten weer met een netwerk prestatiescore tussen 40-60. 
+      - **20-40**: het rode (gekleurde) gedeelte van de balk geeft een percentage van apparaten weer met een netwerk prestatiescore tussen 20-40. 
+      - **0-20**: het donkergrijze rode (gekleurd) gedeelte van de balk geeft een percentage van apparaten weer met een slechtste netwerk prestatiescore tussen 0-20. 
 
 ### <a name="people-in-your-organization"></a>Personen in uw organisatie
 
@@ -183,12 +183,12 @@ De volgende kolommen worden weergegeven in de tabel op gebruikersniveau:
 
 - **Gebruikersnaam**  is het e-mailadres van de gebruiker.
 - **Weergavenaam**  is de volledige naam van de gebruiker.
-- **Datum van laatste activiteit**  verwijst naar de laatste keer dat de gebruiker een activiteit heeft uitgevoerd met betrekking tot een van de inzichten binnen de laatste 28 dagen
-- **Afdeling:** De gebruiker&#39;s afdeling, zoals gedefinieerd in azure Active Directory (AAD)
-- **Bedrijf:** De gebruiker&#39;s Company, zoals gedefinieerd in AAD
-- **Land:** De gebruiker&#39;s Country, zoals gedefinieerd in AAD
-- **Staat:** De status van de gebruiker&#39;s, zoals gedefinieerd in AAD
-- **Plaats:** De gebruiker&#39;s plaats, zoals gedefinieerd in AAD
+- **Datum van laatste activiteit**  verwijst naar de laatste keer dat de gebruiker een activiteit heeft uitgevoerd met betrekking tot een van de inzichten binnen de laatste 28 dagen.
+- **Afdeling:** De gebruiker&#39;s afdeling, zoals gedefinieerd in azure Active Directory (AAD).
+- **Bedrijf:** De gebruiker&#39;s Company, zoals gedefinieerd in AAD.
+- **Land:** De gebruiker&#39;s Country, zoals gedefinieerd in AAD.
+- **Staat:** De status van de gebruiker&#39;s, zoals gedefinieerd in AAD.
+- **Plaats:** De gebruiker&#39;s plaats, zoals gedefinieerd in AAD.
 - **OneDrive:** Booleaanse waarde die aangeeft of de persoon toegang heeft tot OneDrive voor minstens 1 van de afgelopen 28 dagen.
 - **SharePoint:** Booleaanse waarde die aangeeft of de persoon voor het laatst de laatste 28 dagen toegang heeft tot toSharePoint.
 - **Geopende Office-bestanden:** Booleaanse waarde die aangeeft of de persoon de afgelopen 28 dagen bestanden heeft geopend via Microsoft Word, Excel, PowerPoint of OneNote.

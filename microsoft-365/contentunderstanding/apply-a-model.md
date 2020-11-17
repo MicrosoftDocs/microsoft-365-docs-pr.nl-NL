@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Informatie over het toepassen van een gepubliceerd model op een SharePoint-documentbibliotheek.
-ms.openlocfilehash: 771b0f451d404c6e90f62091ca466bfaf34bae39
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 0ca58e863d42d41b634978f53f55201a10a5ed93
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338671"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087485"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Een documentbegripmodel toepassen in Microsoft SharePoint Syntex
 
@@ -49,7 +50,7 @@ U past als volgt een model toe op een SharePoint-documentbibliotheek:
 
     ![Een documentbibliotheek selecteren](../media/content-understanding/select-doc-library.png)</br>
 
-4. Aangezien het model aan een inhoudstype is gekoppeld, worden het inhoudstype en de bijbehorende weergave met de labels die worden opgehaald, als kolommen toegevoegd wanneer u het model toepast. Deze weergave is de standaardweergave van de bibliotheek, maar u kunt ervoor kiezen om dit niet de standaardweergave te maken door **Geavanceerde instellingen** te selecteren en **Deze nieuwe weergave instellen als standaard**te deselecteren.</br>
+4. Aangezien het model aan een inhoudstype is gekoppeld, worden het inhoudstype en de bijbehorende weergave met de labels die worden opgehaald, als kolommen toegevoegd wanneer u het model toepast. Deze weergave is de standaardweergave van de bibliotheek, maar u kunt ervoor kiezen om dit niet de standaardweergave te maken door **Geavanceerde instellingen** te selecteren en **Deze nieuwe weergave instellen als standaard** te deselecteren.</br>
 
     ![Documentbibliotheekweergave](../media/content-understanding/library-view.png)</br>
 

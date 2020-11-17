@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Wat zijn de aanbevolen procedures voor de beveiligingsinstellingen van Exchange Online Protection (EOP) en Defender for Office 365? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Defender voor Office 365 gebruikt?
-ms.openlocfilehash: 032cd6a50f56fd3e1e47faebfaea5f6665553a4b
-ms.sourcegitcommit: 09518b7c9146cda7fd42839ee644ad418d48491a
+ms.openlocfilehash: bc91ba58c9dc14954f638853ad24fcf7a26684e3
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49001523"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123467"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging
 
@@ -81,21 +81,21 @@ U wordt aangeraden deze ASF-instellingen voor **standaard** -en **strikte** nive
 
 |Naam van beveiligingsfunctie|Opmerking|
 |---|---|
-|**Afbeeldingskoppelingen naar externe sites** ( _IncreaseScoreWithImageLinks_ )||
-|Het **numerieke IP-adres in URL** ( _IncreaseScoreWithNumericIps_ )||
-|**Ul redirect to other Port** ( _IncreaseScoreWithRedirectToOtherPort_ )||
-|**URL naar. info-of. info-websites** ( _IncreaseScoreWithBizOrInfoUrls_ )||
-|**Lege berichten** ( _MarkAsSpamEmptyMessages_ )||
-|**JavaScript of VBScript in HTML** ( _MarkAsSpamJavaScriptInHtml_ )||
-|**Tags van het kader of IFRAME in HTML** ( _MarkAsSpamFramesInHtml_ )||
-|**Object-Tags in HTML** ( _MarkAsSpamObjectTagsInHtml_ )||
-|**Tags insluiten in HTML** ( _MarkAsSpamEmbedTagsInHtml_ )||
-|**Formulier Tags in HTML** ( _MarkAsSpamFormTagsInHtml_ )||
-|**Web bugs in HTML** ( _MarkAsSpamWebBugsInHtml_ )||
-|**Gevoelige woordenlijst toepassen** ( _MarkAsSpamSensitiveWordList_ )||
-|**SPF-record: vast failed** ( _MarkAsSpamSpfRecordHardFail_ )||
-|**Filteren van voorwaardelijke Sender-ID: harde fout** ( _MarkAsSpamFromAddressAuthFail_ )||
-|**Ndr's Backscatter** ( _MarkAsSpamNdrBackscatter_ )||
+|**Afbeeldingskoppelingen naar externe sites** (_IncreaseScoreWithImageLinks_)||
+|Het **numerieke IP-adres in URL** (_IncreaseScoreWithNumericIps_)||
+|**Ul redirect to other Port** (_IncreaseScoreWithRedirectToOtherPort_)||
+|**URL naar. info-of. info-websites** (_IncreaseScoreWithBizOrInfoUrls_)||
+|**Lege berichten** (_MarkAsSpamEmptyMessages_)||
+|**JavaScript of VBScript in HTML** (_MarkAsSpamJavaScriptInHtml_)||
+|**Tags van het kader of IFRAME in HTML** (_MarkAsSpamFramesInHtml_)||
+|**Object-Tags in HTML** (_MarkAsSpamObjectTagsInHtml_)||
+|**Tags insluiten in HTML** (_MarkAsSpamEmbedTagsInHtml_)||
+|**Formulier Tags in HTML** (_MarkAsSpamFormTagsInHtml_)||
+|**Web bugs in HTML** (_MarkAsSpamWebBugsInHtml_)||
+|**Gevoelige woordenlijst toepassen** (_MarkAsSpamSensitiveWordList_)||
+|**SPF-record: vast failed** (_MarkAsSpamSpfRecordHardFail_)||
+|**Filteren van voorwaardelijke Sender-ID: harde fout** (_MarkAsSpamFromAddressAuthFail_)||
+|**Ndr's Backscatter** (_MarkAsSpamNdrBackscatter_)||
 |
 
 #### <a name="eop-outbound-spam-policy-settings"></a>EOP uitgaande spam beleidsinstellingen
@@ -148,7 +148,7 @@ Extra beveiligingsvoordelen worden geleverd met een Microsoft Defender for Offic
 
 > [!IMPORTANT]
 >
-> - Het standaard anti-phishingfilter in Microsoft Defender voor Office 365 biedt [vervalsings beveiliging](set-up-anti-phishing-policies.md#spoof-settings) voor alle geadresseerden. De beschikbare [beveiligings](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) instellingen voor imitatie van bepaalde afzenders of afzender worden echter niet geconfigureerd of ingeschakeld in het standaardbeleid. Als u imitatie beveiliging wilt inschakelen, configureert u het standaardbeleid of maakt u een extra anti-phishingfilter in de Defender voor Office 365.
+> - Het standaard anti-phishingfilter in Microsoft Defender voor Office 365 biedt [vervalsings beveiliging](set-up-anti-phishing-policies.md#spoof-settings) en Postvak intelligentie voor alle geadresseerden. De andere beschikbare functies voor [imitatie beveiliging](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) en [Geavanceerde instellingen](#advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) zijn echter niet geconfigureerd of ingeschakeld in het standaardbeleid. Als u alle beveiligingsfuncties wilt inschakelen, wijzigt u het standaard anti-phishingfilter of maakt u een extra anti-phishingfilter.
 >
 > - Er zijn geen standaardbeleid voor veilige koppelingen of beleidsregels voor veilige bijlagen waarmee alle geadresseerden in de organisatie automatisch worden beveiligd. Voor de bescherming moet u minimaal één beleid voor veilige koppelingen en een veilig bijlage beleid creëren.
 >
@@ -287,7 +287,7 @@ In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.micr
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- Bent u op zoek naar aanbevolen procedures voor **Exchange-e-mail stroom regels (ook wel een zogenaamde transportregels genoemd** )? Zie [Aanbevolen procedures voor het configureren van e-mail stroom regels in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices).
+- Bent u op zoek naar aanbevolen procedures voor **Exchange-e-mail stroom regels (ook wel een zogenaamde transportregels genoemd**)? Zie [Aanbevolen procedures voor het configureren van e-mail stroom regels in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices).
 
 - Beheerders en gebruikers kunnen fout-positieven (goede e-mailberichten die als beschadigd zijn gemarkeerd) en foutieve negatieven (onjuiste e-mail toegestaan) indienen bij Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 

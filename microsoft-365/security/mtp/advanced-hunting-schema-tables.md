@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: d267219cfa36987c7372a42572d00f4441ccd0cd
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: ed5c7084e899c99237074a46af21454a4c21dfe8
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842486"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087013"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Meer informatie over het schema voor geavanceerde jacht
 
@@ -41,10 +41,10 @@ Het schema voor [geavanceerde jacht](advanced-hunting-overview.md) bestaat uit m
 ## <a name="get-schema-information-in-the-security-center"></a>Schemainformatie in het Beveiligingscentrum weergeven
 Gebruik tijdens het maken van query's de ingebouwde schema verwijzing om snel de volgende informatie weer te geven over de tabellen in het schema:
 
-- **Beschrijving van tabellen** : type gegevens in de tabel en de gegevensbron.
-- **Kolommen** : alle kolommen in de tabel.
-- **Actietypen** : mogelijke waarden in de `ActionType` kolom die de gebeurtenistypen vertegenwoordigen die door de tabel worden ondersteund. Dit wordt alleen verleend voor tabellen met informatie over gebeurtenissen.
-- **Voorbeeldquery** : voorbeeldquery's die de werking van de tabel kunnen benutten.
+- **Beschrijving van tabellen**: type gegevens in de tabel en de gegevensbron.
+- **Kolommen**: alle kolommen in de tabel.
+- **Actietypen**: mogelijke waarden in de `ActionType` kolom die de gebeurtenistypen vertegenwoordigen die door de tabel worden ondersteund. Deze informatie wordt alleen verstrekt voor tabellen die gebeurtenisinformatie bevatten.
+- **Voorbeeldquery**: voorbeeldquery's die de werking van de tabel kunnen benutten.
 
 ### <a name="access-the-schema-reference"></a>Toegang tot de schema verwijzing
 Om snel toegang te krijgen tot de schema verwijzing, selecteert u de **verwijzingsactie weergeven** naast de tabelnaam in de schema weergave. U kunt ook **schema verwijzingen** selecteren om een tabel te zoeken.   
@@ -52,13 +52,14 @@ Om snel toegang te krijgen tot de schema verwijzing, selecteert u de **verwijzin
 ![Afbeelding van naslaginformatie over het gebruik van naslaginformatie over Portal in de portal ](../../media/mtp-ah/ah-reference.png) 
 
 ## <a name="learn-the-schema-tables"></a>Meer informatie over de schema tabellen
-In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke tabelnaam wordt een koppeling naar een pagina gemaakt met een beschrijving van de kolomnamen voor de tabel. De namen van tabellen en kolommen worden ook weergegeven in het Beveiligingscentrum, als onderdeel van de schema weergave in het scherm Geavanceerde jacht.
+In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke tabelnaam wordt een koppeling naar een pagina gemaakt met een beschrijving van de kolomnamen voor de tabel. De namen van tabellen en kolommen worden ook in het Beveiligingscentrum weergegeven als onderdeel van de schema weergave in het scherm Geavanceerde jacht.
 
 | Tabelnaam | Beschrijving |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Bestanden, IP-adressen, Url's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
 | **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Waarschuwingen van Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud app Security en Microsoft Defender for Identity, waaronder informatie over de ernst en bedreigings categorisatie  |
 | **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | Activiteiten met betrekking tot bestanden in Cloud-apps en-services |
+| **[CloudAppEvents](advanced-hunting-cloudappevents-table.md)** | Gebeurtenissen met accounts en objecten in Office 365 en andere Cloud-apps en-services |
 | **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Meerdere gebeurtenistypen, waaronder gebeurtenissen die zijn geactiveerd door beveiligings besturingselementen zoals Windows Defender antivirus en exploit Protection |
 | **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Certificaatgegevens met ondertekende bestanden die zijn opgehaald uit certificaatverificatie gebeurtenissen op eindpunten |
 | **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Bestanden maken, wijzigen en andere bestandssystemen gebeurtenissen |
@@ -66,7 +67,7 @@ In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke t
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Computerinformatie, waaronder besturingssysteemgegevens |
 | **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Registreren en andere verificatiegebeurtenissen op apparaten |
 | **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | Netwerkverbinding en gerelateerde gebeurtenissen |
-| **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Netwerkeigenschappen van machines, waaronder adapters, IP-en MAC-adressen, en verbonden netwerken en domeinen |
+| **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Netwerkeigenschappen van apparaten, waaronder fysieke adapters, IP-en MAC-adressen, en verbonden netwerken en domeinen |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Proces maken en gerelateerde gebeurtenissen |
 | **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | Registervermeldingen maken en wijzigen |
 | **[DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md)** | & bedreiging van beveiligingsgebeurtenissen in het beveiligingslek met betrekking tot het beheren van beveiligingsfuncties, met de status van diverse beveiligingsconfiguraties op apparaten |
@@ -77,10 +78,10 @@ In de volgende naslag worden alle tabellen in het schema weergegeven. Met elke t
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365-e-mail gebeurtenissen, waaronder e-mail bezorging en blokkering van gebeurtenissen |
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Beveiligingsgebeurtenissen die na na ontvangst plaatsvinden, nadat Microsoft 365 de e-mail heeft bezorgd in het postvak van de geadresseerde |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Info over Url's voor e-mailberichten |
-| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | Gebeurtenissen waarbij een on-premises domeincontroller met Active Directory (AD) wordt uitgevoerd. Deze tabel bevat een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller. |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | Gebeurtenissen waarbij een on-premises domeincontroller met Active Directory (AD) wordt uitgevoerd. Deze tabel behandelt een bereik van gebeurtenissen die betrekking hebben op de identiteit en de systeemgebeurtenissen op de domeincontroller. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Account gegevens van diverse bronnen, waaronder Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen in Active Directory en Microsoft Online Services |
-| **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Query activiteiten die worden uitgevoerd op Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
+| **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Query's voor Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

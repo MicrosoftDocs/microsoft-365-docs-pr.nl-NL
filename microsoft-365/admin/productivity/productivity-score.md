@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Overzicht van Microsoft-productiviteits Score.
-ms.openlocfilehash: 3808583429c78460483cd7193d38810a7e189040
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: 49ae35d68b0d0ebf627e44e5912d4a1bb7b712c0
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804724"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123487"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft-productiviteits Score 
 
@@ -88,7 +88,7 @@ Als u de productiviteits score voor uw organisatie wilt weergeven, moet u beschi
 - Algemene lezer 
 - Rapporten lezer 
 
-U hebt toegang tot de ervaring via Microsoft 365 admin voor thuisgebruik onder **rapporterende**  >  **productiviteit** .
+U hebt toegang tot de ervaring via Microsoft 365 admin voor thuisgebruik onder **rapporterende**  >  **productiviteit**.
 
 ## <a name="interpreting-productivity-score"></a>De Score van de productiviteit interpreteren 
 

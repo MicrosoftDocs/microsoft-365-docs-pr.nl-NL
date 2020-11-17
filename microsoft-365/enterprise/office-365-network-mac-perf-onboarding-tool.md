@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
-ms.openlocfilehash: 2be48f42c8529334b55b311e6f202d9f3b25ff9e
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 4fc12645ccd6a022e4ef4ebe849ac91ba431129b
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295524"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087077"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
 
@@ -183,7 +183,7 @@ De SharePoint-Service voor de SharePoint-site wordt op dezelfde manier geïdenti
 
 #### <a name="download-speed"></a>Download snelheid
 
-We waarderen de downloadsnelheid van een 15Mb-bestand vanuit de front cover van de SharePoint-service. Het resultaat wordt in megabytes per seconde weergegeven om aan te geven welk bestandsgrootte in megabytes van SharePoint of OneDrive binnen **één seconde**kan worden gedownload. Het cijfer moet gelijk zijn aan één tiende van de minimale bandbreedte in megabits per seconde. Als u bijvoorbeeld een 100 Mbps internetverbinding hebt, verwacht u mogelijk 10 megabytes per seconde (10MBps).
+We waarderen de downloadsnelheid van een 15Mb-bestand vanuit de front cover van de SharePoint-service. Het resultaat wordt in megabytes per seconde weergegeven om aan te geven welk bestandsgrootte in megabytes van SharePoint of OneDrive binnen **één seconde** kan worden gedownload. Het cijfer moet gelijk zijn aan één tiende van de minimale bandbreedte in megabits per seconde. Als u bijvoorbeeld een 100 Mbps internetverbinding hebt, verwacht u mogelijk 10 megabytes per seconde (10MBps).
 
 #### <a name="buffer-bloat"></a>Buffer groter
 
@@ -217,7 +217,7 @@ Geeft de gemeten UDP-jitter weer, wat lager moet zijn dan **30ms**.
 
 We testen for HTTP Connectivity van de gebruikerslocatie van de gebruiker op alle vereiste Microsoft 365-netwerkeindpunten. Deze worden gepubliceerd op [https://aka.ms/o365ip](https://aka.ms/o365ip) . Er wordt een netwerk inzicht weergegeven voor alle vereiste netwerkeindpunten waarop geen verbinding kan worden gemaakt.
 
-Connectiviteits ay worden geblokkeerd door een proxyserver, firewall of een ander netwerk beveiligingsapparaat in het netwerk van het bedrijf of wordt gebruikt als Cloud proxy.
+Het kan zijn dat de verbinding wordt geblokkeerd door een proxyserver, firewall of een ander netwerk beveiligingsapparaat in de netwerkverbinding van het bedrijfsnetwerk. De connectiviteit met TCP-poort 80 wordt getest met een HTTP-aanvraag en connectiviteit met TCP-poort 443 wordt getest met een HTTPS-aanvraag. Als er geen antwoord is, is de FQDN als fout gemarkeerd. Als er een HTTP-antwoordcode 407 is, is de FQDN als fout gemarkeerd. Als er een HTTP-antwoordcode 403 is, wordt het server kenmerk van het antwoord gecontroleerd en als dit een proxyserver is, wordt dit als gevolg van een fout gemarkeerd. U kunt de tests simuleren die we uitvoeren met het hulpprogramma Windows-opdrachtregel curl.exe.
 
 We testen het SSL-certificaat op elk vereist Microsoft 365-netwerk eindpunt in de categorie optimaliseren of toestaan zoals gedefinieerd [https://aka.ms/o365ip](https://aka.ms/o365ip) . Als een van de tests een Microsoft SSL-certificaat niet vindt, moet het versleutelde netwerk zijn onderschept door een tussenliggend netwerkapparaat. Een netwerk inzicht wordt weergegeven op een geintercepteerde, versleutelde netwerkeindpunten.
 

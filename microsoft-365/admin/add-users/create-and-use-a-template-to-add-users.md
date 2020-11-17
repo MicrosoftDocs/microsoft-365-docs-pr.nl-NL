@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: U kunt een sjabloon maken en gebruiken om tijd te besparen en instellingen te normaliseren wanneer u meerdere gebruikers toevoegt.
-ms.openlocfilehash: 92d3bd68a57291586da27eb2d578a26c53d20d78
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+ms.openlocfilehash: aef5085da603c38b37544b76c5336c9bfe4edd24
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245855"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123415"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Een sjabloon maken en gebruiken om gebruikers toe te voegen
 
@@ -33,7 +33,7 @@ U kunt een sjabloon maken en gebruiken om tijd te besparen en instellingen te no
 
 ## <a name="create-a-template"></a>Een sjabloon maken
 
-Sjablonen zijn gemakkelijk te maken &mdash; u kunt **gebruikers**  >  **Active users**  >  **sjablonen**van gebruikers selecteren en vervolgens **een sjabloon toevoegen** aan de vervolgkeuzelijst selecteren, of u kunt een nieuwe gebruiker toevoegen en wanneer u klaar bent, kunt u het item opslaan als een sjabloon.
+Sjablonen zijn gemakkelijk te maken &mdash; u kunt **gebruikers**  >  **Active users**  >  **sjablonen** van gebruikers selecteren en vervolgens **een sjabloon toevoegen** aan de vervolgkeuzelijst selecteren, of u kunt een nieuwe gebruiker toevoegen en wanneer u klaar bent, kunt u het item opslaan als een sjabloon.
 
 Wanneer u een sjabloon maakt na het toevoegen van een gebruiker, worden de waarden die u hebt gekozen voor de volgende instellingen opgeslagen in de sjabloon:
 
@@ -44,7 +44,7 @@ Wanneer u een sjabloon maakt na het toevoegen van een gebruiker, worden de waard
 - Licentie keuzes
 - Toepassingsopties
 - Rol
-- Meeste profielinformatie, zoals het **taak profiel**, de **afdeling**, het **Office**- **telefoonnummer**en het **adres** 
+- Meeste profielinformatie, zoals het **taak profiel**, de **afdeling**, het **Office**- **telefoonnummer** en het **adres** 
 
 De volgende informatie is specifiek voor de gebruiker en wordt niet opgeslagen in de sjabloon:
 
@@ -62,25 +62,25 @@ Wanneer u een sjabloon maakt door de optie **een sjabloon toevoegen** te selecte
 
 Een bestaande sjabloon gebruiken om een gebruiker toe te voegen:
 
-1. Selecteer **gebruikers**  >  **actieve gebruikers**in het Beheercentrum.
+1. Selecteer **gebruikers**  >  **actieve gebruikers** in het Beheercentrum.
 
-2. Selecteer **gebruikerssjablonen**en selecteer vervolgens een sjabloon in de vervolgkeuzelijst. (De lijst bevat alleen de sjablonen die u hebt gemaakt, niet de sjablonen die zijn gemaakt door andere beheerders.)
+2. Selecteer **gebruikerssjablonen** en selecteer vervolgens een sjabloon in de vervolgkeuzelijst. (De lijst bevat alleen de sjablonen die u hebt gemaakt, niet de sjablonen die zijn gemaakt door andere beheerders.)
 
- > [!NOTE]
- > U kunt ook een sjabloon gebruiken om een gebruiker toe te voegen door **gebruikerssjablonen**te selecteren  >  ,**sjablonen**te selecteren, een sjabloon te selecteren en vervolgens **sjabloon gebruiken**te kiezen.
+   > [!NOTE]
+   > U kunt ook een sjabloon gebruiken om een gebruiker toe te voegen door **gebruikerssjablonen** te selecteren  >  ,**sjablonen** te selecteren, een sjabloon te selecteren en vervolgens **sjabloon gebruiken** te kiezen.
 
 3. Voer de stappen uit om een gebruiker te maken van de sjabloon die u hebt geselecteerd.
 
-> [!NOTE]
-> Als u niet over voldoende licenties beschikt voor een gebruiker die u toevoegt en uw betalingsgegevens beschikbaar zijn, trachten we een andere licentie te kopen met uw bestaande betaalgegevens. Als uw betalingsinformatie niet beschikbaar is, wordt de gebruiker gemaakt als een gebruiker zonder licentie.
+   > [!NOTE]
+   > Als u niet over voldoende licenties beschikt voor een gebruiker die u toevoegt en uw betalingsgegevens beschikbaar zijn, trachten we een andere licentie te kopen met uw bestaande betaalgegevens. Als uw betalingsinformatie niet beschikbaar is, wordt de gebruiker gemaakt als een gebruiker zonder licentie.
 
 ## <a name="manage-templates"></a>Sjablonen beheren
 
-U kunt eenvoudig sjablonen die u niet meer nodig hebt, verwijderen en nieuwe sjablonen toevoegen. Een sjabloon verwijderen:
+U kunt alleen sjablonen die u niet meer nodig hebt, verwijderen en nieuwe sjablonen toevoegen. Een sjabloon verwijderen:
 
-1. Selecteer **gebruikers**  >  **actieve gebruikers**in het Beheercentrum.
+1. Selecteer **gebruikers**  >  **actieve gebruikers** in het Beheercentrum.
 
-2. Selecteer **sjablonen**en selecteer vervolgens **sjablonen beheren** in de vervolgkeuzelijst.
+2. Selecteer **sjablonen** en selecteer vervolgens **sjablonen beheren** in de vervolgkeuzelijst.
 
 3. Er verschijnt een lijst met sjablonen. U kunt op een van de volgende manieren een sjabloon verwijderen:
     - Selecteer een of meer sjablonen en selecteer vervolgens **verwijderen**. 

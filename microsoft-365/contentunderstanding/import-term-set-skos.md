@@ -8,14 +8,15 @@ audience: admin
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.service: ''
+ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 318497b8b1815b281eff7d781820616c9be9d5ed
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: 96ffa22880aa9bcb70c0f7159ac7587c911b375b
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321239"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087353"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>Een termenset met een SKOS-indeling importeren
 
@@ -37,7 +38,7 @@ We adviseren om importbestanden te beperken tot 20.000 termen of minder. Met gro
 
 7.  Klik op **Bladeren** om te navigeren naar het bestand en het toe te voegen.
 
-8.  Klik op **Importeren **. Sluit het deelvenster totdat het importeren is voltooid.
+8.  Klik op **Importeren**. Sluit het deelvenster totdat het importeren is voltooid.
 
 Wanneer het bestand is geïmporteerd wordt er een bericht weergegeven dat het importeren is geslaagd. Vervolgens wordt het termenarchief vernieuwd en kunt u naar de nieuw gemaakte termensets navigeren.
 

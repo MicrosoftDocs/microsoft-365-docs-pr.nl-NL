@@ -7,14 +7,15 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 localization_priority: Priority
 description: Lees hoe je een Extractor kunt maken in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 260486c128ce76c31fe5f4a0994b4e103687b829
-ms.sourcegitcommit: 0f48beaca3afa4df12d41847014975d50a4ebe7d
+ms.openlocfilehash: 99d2a4602c03d8a7207736ea17ed500626ce43ac
+ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338647"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49087461"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Maak een Extractor in Microsoft SharePoint Syntex.
 
@@ -27,7 +28,7 @@ ms.locfileid: "48338647"
 
 Vóór of na het maken van een classificatiemodel voor het automatiseren van de identificatie en classificatie van specifieke documenttypen, kun je desgewenst extra uittreksels toevoegen aan je model om specifieke informatie uit deze documenten te halen. Het is bijvoorbeeld mogelijk dat je wilt dat je model niet alleen wordt herkend aan *alle* documenten die worden toegevoegd aan de documentbibliotheek, maar je kunt ook de *service-begindatum* voor elk document weergeven als een kolomwaarde in de documentbibliotheek.
 
-Je moet een extractor maken voor elke entiteit in het document die je wilt ophalen. In ons voorbeeld willen we de  **begindatum van de service**extraheren voor elke  **contractvernieuwing** -document dat door het model wordt geïdentificeerd. We willen een weergave kunnen zien in de documentbibliotheek van alle **contract** documenten, met een kolom waarin de **begindatum van de service** van elk document wordt weergegeven. 
+Je moet een extractor maken voor elke entiteit in het document die je wilt ophalen. In ons voorbeeld willen we de  **begindatum van de service** extraheren voor elke  **contractvernieuwing** -document dat door het model wordt geïdentificeerd. We willen een weergave kunnen zien in de documentbibliotheek van alle  **contract** documenten, met een kolom waarin de **begindatum van de service** van elk document wordt weergegeven. 
 
 > [!NOTE]
 > Als je een extractor wilt maken, gebruik je dezelfde bestanden die je eerder hebt geüpload om de classificatie te trainen. 
@@ -44,7 +45,7 @@ De volgende stap bestaat uit het label van de entiteit die je wilt ophalen in de
 
 Als je de Extractor maakt, wordt de extractor-pagina geopend. Hier zie je een lijst met je voorbeeldbestanden, met het eerste bestand in de lijst die wordt weergegeven in de viewer.
 
-1. Selecteer in de viewer de gegevens die je wilt ophalen uit de bestanden. Als je bijvoorbeeld de *begindatum van service*wilt ophalen, markeer je de datumwaarde in het eerste bestand (*maandag, 14 oktober 2019*). en klik dan op **Opslaan**.  De weergave van de waarde wordt weergegeven in het bestand in de lijst voorbeelden met een bijschrift onder de **labelkolom**.
+1. Selecteer in de viewer de gegevens die je wilt ophalen uit de bestanden. Als je bijvoorbeeld de *begindatum van service* wilt ophalen, markeer je de datumwaarde in het eerste bestand (*maandag, 14 oktober 2019*). en klik dan op **Opslaan**.  De weergave van de waarde wordt weergegeven in het bestand in de lijst voorbeelden met een bijschrift onder de **labelkolom**.
 2. Selecteer **Volgende bestand** om automatisch op te slaan en het volgende bestand te openen in de lijst in de viewer. Of selecteer **Opslaan** en selecteer een ander bestand van de lijst **Gelabelde voorbeelden**.
 3. Herhaal stap 1 en 2 in de viewer en herhaal dit totdat je het label in alle vijf bestanden hebt opgeslagen.
 
@@ -80,7 +81,7 @@ Als je de *begindatum van de service* wilt identificeren kun je een uitleg bij h
 
 Voor het maken van toelichtingen voor items als datums, is het eenvoudiger om [de uitlegbibliotheek te gebruiken](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-the-explanation-library) dan om alle variaties handmatig in te voeren. De uitlegbibliotheek is een set vooraf gedefinieerde frasen en patroonverklaringen. De bibliotheek biedt alle indelingen voor veelgebruikte woordenlijsten of patroonlijsten, zoals datums, telefoonnummers en postcodes. 
 
-Voor het voorbeeld*Begindatum van de service* is het efficiënter om de vooraf gedefinieerde uitleg voor *Datum* te gebruiken in de uitlegbibliotheek:
+Voor het voorbeeld *Begindatum van de service* is het efficiënter om de vooraf gedefinieerde uitleg voor *Datum* te gebruiken in de uitlegbibliotheek:
 
 1. In de **Sectie uitleg** selecteer je **Nieuw** en vervolgens **Uit Uitlegbibliotheek**.
 2. Uit de uitlegbibliotheek, selecteer **Datum**. Je kunt alle datumvariaties weergeven die worden herkend.

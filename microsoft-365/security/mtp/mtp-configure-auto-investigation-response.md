@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: 5ba17c414b6f6470d2e9af14d1f484b435cb4f51
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 3c8477ce16249cb4d21c736da60d619774175041
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846494"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123605"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft 365 Defender configureren
 
@@ -91,13 +91,13 @@ Met behulp van beveiligingsinstellingen in Office 365 kunt u e-mail en inhoud be
 
 1. Ga naar het Microsoft 365-Beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
 
-2. Zoek in het navigatiedeelvenster naar **incidenten** , **Onderhoudscentrum** en **jacht** , zoals wordt weergegeven in de volgende afbeelding:
+2. Zoek in het navigatiedeelvenster naar **incidenten**, **Onderhoudscentrum** en **jacht**, zoals wordt weergegeven in de volgende afbeelding:
 
    :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP ingeschakeld":::
 
-   - Als u **incidenten** , **Actiecentrum** en **jacht** ziet, is Microsoft 365 Defender ingeschakeld. Ga verder met de volgende procedure, [het automatiserings niveau voor apparaatgroepen controleren of wijzigen](#review-or-change-the-automation-level-for-device-groups).
+   - Als u **incidenten**, **Actiecentrum** en **jacht** ziet, is Microsoft 365 Defender ingeschakeld. Zie de procedure [het automatiserings niveau voor apparaatgroepen controleren of wijzigen](#review-or-change-the-automation-level-for-device-groups) (in dit artikel).
 
-   - Als u *geen* **incidenten** , **Onderhoudscentrum** of **jacht** ziet, is Microsoft 365 Defender mogelijk niet ingeschakeld. Ga in dit geval verder met de volgende stap.
+   - Als u *geen* **incidenten**, **Onderhoudscentrum** of **jacht** ziet, is Microsoft 365 Defender mogelijk niet ingeschakeld. Ga in dat geval verder met de volgende stap ([acties in behandeling en voltooid](#review-pending-and-completed-actions-in-the-action-center), in dit artikel).
 
 3. Kies in het navigatiedeelvenster **instellingen**  >  **Microsoft 365 Defender**. Ga na of Microsoft 365 Defender is ingeschakeld. 
 
