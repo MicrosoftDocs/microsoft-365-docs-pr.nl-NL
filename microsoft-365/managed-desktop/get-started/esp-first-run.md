@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 7337dd28f7940256d1753cd4c0b6309406fab2d1
-ms.sourcegitcommit: 888b9355ef7b933c55ca6c18639c12426ff3fbde
+ms.openlocfilehash: 5e2340c7c0bf00165bb43740d3d095b5b0402fc0
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48305268"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126623"
 ---
 # <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>First-Run-ervaring met de pagina AutoPilot en Inschrijvingsstatus
 
@@ -34,7 +34,7 @@ Wanneer uw apparaten met de service zijn geregistreerd, kunt u ESP inschakelen v
 Microsoft Managed Desktop gebruikt de volgende instellingen in het auto pilot-profiel dat wordt gebruikt voor de apparaten van uw gebruikers:
 
 
-|Instelling  |Value  |
+|Instelling  |Waarde  |
 |---------|---------|
 |Implementatie modus |  Gebruikersgerichte       |
 |Deelnemen aan Azure AD als     |  Azure AD lid geworden       |
@@ -56,7 +56,7 @@ Microsoft Managed Desktop gebruikt de volgende instellingen in het auto pilot-pr
 Microsoft Managed Desktop gebruikt de volgende instellingen voor de pagina met de inschrijvings status:
 
 
-|Instelling  |Value  |
+|Instelling  |Waarde  |
 |---------|---------|
 |Voortgang van configuratie van apps en profielen weergeven     | Ja        |
 |Een foutmelding weergeven wanneer de installatie langer duurt dan het opgegeven aantal minuten     |  60       |
@@ -77,7 +77,7 @@ De ervaring verloopt als volgt:
 
 1. De auto pilot-ervaring begint en de gebruiker voert zijn of haar referenties in.
 2. Op het apparaat wordt de pagina met de inschrijvings status geopend en wordt de instelling van apparatuur voor het voorbereiden van apparatuur en de instelling van de De derde stap (account configuratie) wordt *momenteel overgeslagen* in de Microsoft beheerde bureaubladconfiguratie, omdat gebruikers ESP is uitgeschakeld. Het apparaat wordt opnieuw gestart.
-3. Nadat de computer opnieuw is opgestart, wordt de aanmeldingspagina van Windows met **andere gebruiker**geopend.
+3. Nadat de computer opnieuw is opgestart, wordt de aanmeldingspagina van Windows met **andere gebruiker** geopend.
 4. De gebruikers voeren hun referenties opnieuw in en het bureaublad wordt geopend.
 
 > [!NOTE]
@@ -95,7 +95,7 @@ Als de installatie van de Microsoft-website die door Microsoft wordt beheerd, ni
 
 ### <a name="autopilot-settings-change"></a>Wijziging van auto pilot-instellingen
 
-Mogelijk wilt u een andere sjabloon voor de naam van de apparaat aanvragen. U kunt echter de implementatie modus wijzigen, lid worden van Azure als privacy-instellingen of type gebruikers account.
+Mogelijk wilt u een andere sjabloon voor de naam van de apparaat aanvragen. U kunt echter de implementatie modus wijzigen, lid worden van Azure AD als privacy-instellingen of type gebruikers account.
 
 ### <a name="enrollment-status-page-settings-change"></a>Wijziging van de pagina instellingen voor de inschrijvings status
 

@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 5382dc07-aaa5-45c9-8767-502333b214ce
 description: Meer informatie over het verkrijgen van toegang tot Microsoft bookings in Microsoft 365.
-ms.openlocfilehash: 815aa3a859db15364aa18d3550001a28d085b711
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: 7e4eaa1e474f3f49807b842097c855193f028af0
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419454"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126589"
 ---
 # <a name="turn-microsoft-bookings-on-or-off"></a>Microsoft bookings in-of uitschakelen
 
@@ -27,7 +27,7 @@ U kunt bookings in-of uitschakelen voor uw gehele organisatie of voor specifieke
 
 1. Meld u aan bij het Microsoft 365-Beheercentrum als globale beheerder.
 
-2. Ga in het Beheercentrum naar **instellingen**   \> **instellingen** en selecteer **Bookings**.
+2. Ga in het Beheercentrum naar  **instellingen**   \> **org** en selecteer **Bookings**.
 
 3. Schakel het selectievakje in om **ervoor te zorgen dat uw organisatie** reserveringen in-of uitschakelt voor uw organisatie.
 
@@ -38,7 +38,7 @@ U kunt bookings in-of uitschakelen voor uw gehele organisatie of voor specifieke
 
 ## <a name="turn-bookings-on-or-off-for-your-organization-using-powershell"></a>Bookings in-of uitschakelen voor uw organisatie met behulp van PowerShell
 
-[Maak verbinding met Exchange Online PowerShell]() en voer de volgende opdracht uit om bookings in of uit te schakelen voor uw organisatie met behulp van de PowerShell [-cmdlet Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig).
+[Maak verbinding met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) en voer de volgende opdracht uit om bookings in of uit te schakelen voor uw organisatie met behulp van de PowerShell [-cmdlet Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig).
 
 ```PowerShell
    Set-OrganizationConfig -BookingsEnabled $false

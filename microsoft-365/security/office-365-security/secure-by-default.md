@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de standaardinstelling veilig in Exchange Online Protection (EOP)
-ms.openlocfilehash: 50d1c64e4d8343fdb9b25bfcbeee5d988ddc6b8a
-ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
+ms.openlocfilehash: d4345134e98ae204f73dfb51a0abf5136590a24c
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48945328"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126659"
 ---
 # <a name="secure-by-default-in-office-365"></a>Standaard veilig in Office 365
 
@@ -49,18 +49,15 @@ Aangezien Microsoft onze klanten de mogelijkheid geeft standaard te beschermen, 
 
 Meer informatie over deze overschrijvingen vindt u in [lijsten met veilige afzenders maken](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365).
 
-Deze instelling is standaard veilig en is niet een instelling die kan worden in-of uitgeschakeld, maar de manier waarop onze filters van het vak werken, om ongewenste berichten in uw postvakken te houden. Malware en kwaliteit van hoge betrouwbaarheid worden naar Quarantine verzonden. Alleen beheerders kunnen berichten beheren die zijn gequarantined als malware of phishing van hoge betrouwbaarheid, en kunnen ze ook fout-positieven naar Microsoft melden. Zie voor meer informatie geplaatste [berichten en bestanden beheren als beheerder in EOP](manage-quarantined-messages-and-files.md)
+Deze instelling is standaard veilig en is niet een instelling die kan worden in-of uitgeschakeld, maar de manier waarop onze filters van het vak werken, om ongewenste berichten in uw postvakken te houden. De malware en de kwaliteit van de hoge betrouwbaarheid worden naar Quarantine verzonden. Alleen beheerders kunnen berichten beheren die zijn gequarantined als malware of phishing van hoge betrouwbaarheid, en kunnen ze ook fout-positieven naar Microsoft melden. Zie voor meer informatie geplaatste [berichten en bestanden beheren als beheerder in EOP](manage-quarantined-messages-and-files.md)
 
 ## <a name="exceptions"></a>Ring
 
-De enige overschrijving waarmee alle filters worden overgeslagen omvat:
+Met de enige Negeer functie voor het filteren van e-mail wordt het filteren van Exchange-e-mail stroom regels (ook wel wel transport regels genoemd) toegestaan. Als u de e-mail stroom regels wilt gebruiken om het filteren te negeren, raadpleegt u [de e-mail stroom regels gebruiken om de SCL in te stellen](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
 
-- Exchange-Transport regels (ETR toe)/mail-stroom regels. Met behulp van regels voor e-mail stroom kunt u het betrouwbaarheidsniveau voor ongewenste e-mail (SCL) instellen in berichten in EOP.
-- Tenant accepteren/blokkeren: Url's en bestanden beheren in de lijst Tenant toestaan/blokkeren.
+Overschrijvingen mag alleen worden gebruikt voor:
 
-Dit soort overschrijvingen is handig voor:
-
-- Phishing-simulaties: gesimuleerde aanvallen kunnen u helpen gevoelige gebruikers te identificeren voordat een echte aanval van invloed is op uw organisatie.
+- Malafide simulaties: gesimuleerde aanvallen kunnen u helpen gevoelige gebruikers te identificeren voordat een echte aanval uw organisatie beïnvloedt.
 - Beveiligings-SecOps-postvakken: speciale postvakken die door beveiligings teams worden gebruikt om ongefilterde berichten te ontvangen (zowel goed als slecht). Teams kan vervolgens controleren of ze schadelijke inhoud bevatten.
 - Filters van derden: sommige leveranciers van derden adviseren om EOP (SCL =-1) uit te schakelen als het filter van een derde partij de filtering voor e-mail beheert. Microsoft adviseert om EOP uit te schakelen als EOP is vereist voor Defender voor Office 365.
 - Foutberichten: u kunt bepaalde berichten die nog door Microsoft worden geanalyseerd, toestaan door de [admin-inzendingen](admin-submission.md). Net als met alle overschrijvingen, is het raadzaam dat ze tijdelijk zijn.

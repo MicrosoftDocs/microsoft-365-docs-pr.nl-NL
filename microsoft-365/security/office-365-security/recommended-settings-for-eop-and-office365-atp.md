@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Wat zijn de aanbevolen procedures voor de beveiligingsinstellingen van Exchange Online Protection (EOP) en Defender for Office 365? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Defender voor Office 365 gebruikt?
-ms.openlocfilehash: bc91ba58c9dc14954f638853ad24fcf7a26684e3
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: bcad3609f5f73ac538ae9d1a0964ecc8e176003e
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123467"
+ms.locfileid: "49126635"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging
 
@@ -189,11 +189,11 @@ Dit zijn de instellingen die beschikbaar zijn in de instellingen voor [Antispamb
 
 ****
 
-|Naam van beveiligingsfunctie|Standard|Klep|Opmerking|
-|---|---|---|---|
-|**Anti spoofing-beveiliging inschakelen** <p> _EnableAntispoofEnforcement_|Aan <p> `$true`|Aan <p> `$true`||
-|**Niet-geverifieerde afzender inschakelen** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Voegt een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-aangewezen vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md).|
-|**Als e-mail wordt verzonden door iemand die uw domein niet mag spoofen** <p> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste E-mail van de geadresseerde** <p> `MoveToJmf`|**Het bericht Quarantine** <p> `Quarantine`|Deze instelling geldt voor geblokkeerde afzenders in [spoof Intelligence](learn-about-spoof-intelligence.md).|
+|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|---|---|---|---|---|
+|**Anti spoofing-beveiliging inschakelen** <p> _EnableAntispoofEnforcement_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
+|**Niet-geverifieerde afzender inschakelen** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Voegt een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-aangewezen vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md).|
+|**Als e-mail wordt verzonden door iemand die uw domein niet mag spoofen** <p> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste E-mail van de geadresseerde** <p> `MoveToJmf`|**Bericht verplaatsen naar de mappen ongewenste E-mail van de geadresseerde** <p> `MoveToJmf`|**Het bericht Quarantine** <p> `Quarantine`|Deze instelling geldt voor geblokkeerde afzenders in [spoof Intelligence](learn-about-spoof-intelligence.md).|
 |
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Geavanceerde instellingen in anti-phishing-beleid in Microsoft Defender voor Office 365

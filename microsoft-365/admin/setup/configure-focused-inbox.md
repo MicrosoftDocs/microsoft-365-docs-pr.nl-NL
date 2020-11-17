@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 'Leer hoe u postvak IN met prioriteit configureert voor alle of specifieke gebruikers binnen uw organisatie. '
-ms.openlocfilehash: eaf2c7623c81b24670a7b512c6311f0af036b255
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 76a449295b7a2ad0cc1c82488a131a3a89fe41fc
+ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644601"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49123427"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Postvak IN met prioriteit configureren voor iedereen in uw organisatie
 
   Als u voor iedereen in uw bedrijf moet configureren hoe e-mail wordt gebruikt, is dit artikel interessant voor u. Er wordt uitgelegd hoe u dit kunt aanpassen of kunt uitschakelen voor uw bedrijf, en u krijgt antwoord op [Veelgestelde vragen](#faq-for-focused-inbox).  <br/> Zie [Postvak IN met prioriteit uitschakelen](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2) als u Postvak IN met prioriteit alleen voor uzelf wilt uitschakelen.  
-   
+
 Als u er zeker van wilt zijn dat uw gebruikers bepaalde zakelijke e-mailberichten ontvangen, bijvoorbeeld van de afdeling HR of de salarisadministratie, kunt u Postvak IN met prioriteit configureren zodat deze specifieke zakelijke e-mail met prioriteit wordt weergegeven. U kunt ook bepalen of gebruikers in uw organisatie Postvak IN met prioriteit zien in hun postvak.
   
 ## <a name="turn-focused-inbox-on-or-off-in-your-organization"></a>Postvak IN met prioriteit in- of uitschakelen in uw organisatie
@@ -42,31 +42,31 @@ U kunt Windows PowerShell gebruiken om Postvak IN met prioriteit voor iedereen i
 Het volgende PowerShell-voorbeeld schakelt Postvak IN met prioriteit **uit** in uw organisatie. De functie blijft echter wel beschikbaar voor uw gebruikers, wat betekent dat ze Postvak IN met prioriteit desgewenst weer kunnen inschakelen in een e-mailclient. 
   
 1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
-    
+
 2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796) (Machtigingen voor berichtenbeleid en naleving).
-    
+
 3. Voer de cmdlet **Get-OrganizationConfig** uit. 
-    
+
  ``` PowerShell
 Get-OrganizationConfig
  ```
 
 4. Zoek naar **FocusedInboxOn** en bekijk de huidige instelling: 
-    
+
     ![Antwoord van PowerShell op de status van het Postvak IN met prioriteit.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. Voer de volgende cmdlet uit om Postvak IN met prioriteit uit te schakelen.
-    
+
  ``` PowerShell
  Set-OrganizationConfig -FocusedInboxOn $false
  ```
 
 6. Voer de cmdlet **Get-OrganizationConfig** opnieuw uit. FocusedInboxOn staat nu ingesteld op $false, wat betekent dat het is uitgeschakeld. 
-    
+
  **Postvak IN met prioriteit inschakelen:**
   
 - Voer in stap 5 hierboven de volgende cmdlet uit om Postvak IN met prioriteit in te schakelen.
-    
+
  ``` PowerShell
  Set-OrganizationConfig -FocusedInboxOn $true
  ```
@@ -88,27 +88,27 @@ Wanneer een gebruiker besluit Postvak IN met prioriteit te gaan gebruiken, wordt
 In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matthews in de organisatie Contoso. De functie blijft echter wel beschikbaar voor hem. Als hij wil, kan hij Postvak IN met prioriteit weer inschakelen in elk van zijn clients. 
   
 1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
-    
+
 2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in het artikel Messaging policy and compliance permissions (Machtigingen voor berichtenbeleid en naleving).
-    
+
 3. Voer de cmdlet **Get-FocusedInbox** uit, bijvoorbeeld: 
-    
+
  ``` PowerShell
  Get-FocusedInbox -Identity <tim@contoso.com>
  ```
 
 4. Zoek naar FocusedInboxOn en bekijk de huidige instelling:
-    
+
     ![Antwoord van PowerShell op de status van het Postvak IN met prioriteit.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. Voer de volgende cmdlet uit om Postvak IN met prioriteit uit te schakelen:
-    
+
  ``` PowerShell
  Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $false
  ```
 
 6. Of voer de volgende cmdlet uit om het in te schakelen:
-    
+
  ``` PowerShell
  Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $true
  ```
@@ -116,23 +116,26 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
 ## <a name="use-the-ui-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>De gebruikersinterface gebruiken om een transportregel te maken om e-mailberichten voor alle gebruikers met prioriteit weer te geven
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>.
-    
+
 2. Ga naar **E-mailstroom** \> **Regels**. Selecteer ![SBV-pictogram toevoegen](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif) en selecteer vervolgens **Een nieuwe regel maken...**. 
-    
-3. Wanneer u klaar bent met het maken van een nieuwe regel, klikt u op **Opslaan** om de regel toe te passen. 
-    
+
+3. Wanneer u klaar bent met het maken van een nieuwe regel, klikt u op **Opslaan** om de regel toe te passen.
+
     In de volgende afbeelding wordt een voorbeeld weergegeven waarbij alle berichten van 'Salarisadministratie' worden afgeleverd in Postvak IN met prioriteit.
-    
+
     ![postvakinmetprioriteit salarisadministratie](../../media/focusedinbox-transport-rule.PNG)
+
+> [!NOTE]
+> De waardetekst van de berichtkop in dit voorbeeld is **X-MS-Exchange-Organization-BypassFocusedInbox**.
   
 ## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Windows PowerShell gebruiken om een transportregel te maken om e-mailberichten voor alle gebruikers met prioriteit weer te geven
 
 1. [Maak verbinding met Exchange Online via externe PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
-    
+
 2. U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Zie voor meer informatie het item Transport rules (Transportregels) in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796) (Machtigingen voor berichtenbeleid en naleving).
 
 3. Voer de volgende opdracht uit om alle berichten van bijvoorbeeld 'Salarisadministratie' at te leveren in Postvak IN met prioriteit.
-    
+
  ``` PowerShell
  New-TransportRule -Name <name_of_the_rule> -From "Payroll Department" -SetHeaderName "X-MS-Exchange-Organization-BypassFocusedInbox" -SetHeaderValue "true"
  ```
@@ -143,15 +146,15 @@ In dit voorbeeld wordt Postvak IN met prioriteit **uitgeschakeld** voor Tim Matt
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-U kunt de koptekst van e-mailberichten controleren om te kijken of de e-mailberichten door toepassing van een transportregel zijn bezorgd in Postvak IN met prioriteit. Kies een e-mailbericht in een postvak in uw organisatie waarop een transportregel voor Postvak IN met prioriteit is toegepast. Kijk of in de koptekst de tekst **X-MS-Exchange-Organization-BypassFocusedInbox: true** voorkomt. De regel werkt als dit het geval is. Zie het artikel[Koptekstgegevens weergeven voor een e-mailbericht](https://go.microsoft.com/fwlink/p/?LinkId=822530) voor instructies voor het vinden van de koptekstgegevens van een bericht. 
- 
+U kunt de koptekst van e-mailberichten controleren om te kijken of de e-mailberichten door toepassing van een transportregel zijn bezorgd in Postvak IN met prioriteit. Kies een e-mailbericht in een postvak in uw organisatie waarop een transportregel voor Postvak IN met prioriteit is toegepast. Kijk of in de koptekst de tekst **X-MS-Exchange-Organization-BypassFocusedInbox: true** voorkomt. De regel werkt als dit het geval is. Zie het artikel[Koptekstgegevens weergeven voor een e-mailbericht](https://go.microsoft.com/fwlink/p/?LinkId=822530) voor instructies voor het vinden van de koptekstgegevens van een bericht.
+
 ## <a name="turn-onoff-clutter"></a>Onbelangrijke e-mail in- of uitschakelen
- 
+
 We hebben meldingen ontvangen dat de functie Onbelangrijke e-mail voor sommige gebruikers plotseling niet meer werkt. Als dit gebeurt, kunt u deze functie weer inschakelen voor specifieke gebruikers. Zie [Onbelangrijke e-mail configureren voor uw organisatie](../email/configure-clutter.md).
- 
+
 ## <a name="faq-for-focused-inbox"></a>Veelgestelde vragen over Postvak IN met prioriteit
 
-Hier vindt u antwoorden op Veelgestelde vragen over Postvak IN met prioriteit. 
+Hier vindt u antwoorden op Veelgestelde vragen over Postvak IN met prioriteit.
 
 ### <a name="can-i-control-how-i-roll-out-focused-inbox-in-my-organization"></a>Kan ik bepalen op welke manier ik de functie Postvak IN met prioriteit implementeer in mijn organisatie?
 
@@ -183,10 +186,10 @@ Nee. U kunt de cmdlet Set-Clutter gebruiken om de functie Onbelangrijke e-mail e
 
 Postvak IN met prioriteit kan op twee niveaus worden ingesteld.
   
-- **Organisatieniveau**: status van Postvak IN met prioriteit en een bijbehorend tijdstempel van het laatste tijdstip van bijwerken. 
-    
+- **Organisatieniveau**: status van Postvak IN met prioriteit en een bijbehorend tijdstempel van het laatste tijdstip van bijwerken.
+
 - **Postvakniveau**: status van Postvak IN met prioriteit en een bijbehorend tijdstempel van het laatste tijdstip van bijwerken 
-    
+
 ### <a name="how-does-outlook-decide-to-show-the-focused-inbox-experience-with-these-two-states"></a>Hoe wordt er door Outlook aan de hand van deze twee statuswaarden bepaald of de functie Postvak IN met prioriteit wordt gebruikt?
 
 Dit wordt bepaald aan de hand van de cmdlet met de meest recente tijdstempel. Standaard zijn beide tijdstempels 'null' en in dit geval wordt de functie ingeschakeld.
