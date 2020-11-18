@@ -37,7 +37,7 @@ Het maken van een formulierverwerkingsmodel omvat het volgende:
 
 ## <a name="requirements"></a>Vereisten
 
-U kunt alleen een model voor het verwerken van een formulier maken in de SharePoint-documentbibliotheken waarvoor het model is ingeschakeld. Als de verwerking van formulieren is ingeschakeld, ziet u de **AI Builder** **Een formulierverwerkingsmodel maken** onder het menu **Automate** in de documentbibliotheek.  Als u verwerking wilt inschakelen voor uw documentbibliotheek, moet u contact opnemen met uw SharePoint-beheerder.
+Je kunt alleen een model voor formulierverwerking maken in de SharePoint-documentbibliotheken waarvoor het model is ingeschakeld. Als formulierverwerking is ingeschakeld, zie je **AI Builder** **Een formulierverwerkingsmodel maken** onder het menu **Automate** in de documentbibliotheek. Als je verwerking wilt inschakelen voor jouw documentbibliotheek, moet je contact opnemen met je SharePoint-beheerder.
 
  ![Een AI Builder-model maken](../media/content-understanding/create-ai-builder-model.png)</br>
 
@@ -51,28 +51,28 @@ De eerste stap bij het maken van een formulierverwerkingsmodel is het een naam t
 
 2. Typ in het deelvenster **Nieuw formulierverwerkingsmodel** in het veld **naam** een naam voor je model (bijvoorbeeld *aankoop orders*).
 
-    ![Nieuw Formulierverwerkingsmodel](../media/content-understanding/new-form-model.png)</br> 
+    ![Nieuw formulierverwerkingsmodel](../media/content-understanding/new-form-model.png)</br> 
 
-3. Wanneer u een formulierverwerkingsmodel maakt, maakt u een nieuw SharePoint-inhoudstype. Een SharePoint-inhoudstype is een categorie documenten met gemeenschappelijke kenmerken en kolommen of metagegevenseigenschappen die inhoud delen. SharePoint-inhoudstypen worden beheerd via de [Galerie met inhoudstypen]().
+3. Wanneer je een formulierverwerkingsmodel maakt, maak je een nieuw SharePoint-inhoudstype. Een SharePoint-inhoudstype is een categorie documenten die gemeenschappelijke kenmerken hebben en die een verzameling kolommen of metagegevenseigenschappen delen voor de desbetreffende inhoud. SharePoint-inhoudstypen worden beheerd via de [galerie met inhoudstypen]().
 
     Selecteer **Geavanceerde instellingen** als je dit model wilt toewijzen aan een bestaand inhoudstype in de SharePoint-galerie met inhoudstypen om het bijbehorende schema te gebruiken. 
 
-4. Het model maakt in uw documentbibliotheek een nieuwe weergave voor de geëxtraheerde gegevens. Als u de standaardweergave niet wilt weergeven, schakelt u **De weergave instellen als standaard** uit.
+4. In de documentbibliotheek wordt een nieuwe weergave gemaakt voor de geëxtraheerde gegevens. Als je deze weergave niet als standaardweergave wilt gebruiken, schakel je **De weergave instellen als standaard** uit.
 
-5. Selecteer **Maken**. 
+5. Selecteer **Maken**.
 
 ## <a name="step-2-add-and-analyze-documents"></a>Stap 2: Documenten toevoegen en analyseren
 
-Wanneer u een nieuw model voor formulierverwerking hebt gemaakt, wordt in uw browser een nieuwe pagina voor een model van formulierverwerking van PowerApps Al Builder geopend. Op deze pagina kunt u voorbeelddocumenten toevoegen en analyseren. </br>
+Nadat je een nieuw model voor formulierverwerking hebt gemaakt, wordt in de browser een pagina geopend voor het nieuwe PowerApps Al Builder-formulierverwerkingsmodel. Op deze pagina kun je voorbeelddocumenten toevoegen en analyseren. </br>
 
 > [!NOTE]
-> Als je voorbeeldbestanden zoekt die je wilt gebruiken, raadpleeg je de [ vereisten voor formulierverwerkingseisen en optimaliseringstips](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
+> Als je voorbeeldbestanden zoekt om te gebruiken, raadpleeg je de [vereisten en optimalisatietips voor invoerdocumenten voor formulierverwerkingsmodellen](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
 
    ![Power Apps AI Builder](../media/content-understanding/powerapps.png)</br> 
  
-1. Selecteer **Documenten toevoegen** om voorbeelddocumenten toe te voegen die worden geanalyseerd om te bepalen welke benoemde waardeparen kunnen worden geëxtraheerd. U kunt vervolgens **Uploaden van lokale opslag** **SharePoint** of **Azure Blob-opslag**. U moet ten minste vijf bestanden gebruiken voor de training.
+1. Selecteer **Documenten toevoegen** om voorbeelddocumenten toe te voegen die worden geanalyseerd om te bepalen welke benoemde waardeparen kunnen worden geëxtraheerd. Je kunt vervolgens **Uploaden van lokale opslag**, **SharePoint** of **Azure Blob-opslag** kiezen. Je moet ten minste vijf bestanden gebruiken voor de training.
 
-2. Nadat u bestanden hebt toegevoegd, selecteert u **Analyseren** om gemeenschappelijke gegevens in alle bestanden te controleren. Dit kan enkele minuten duren.</br> 
+2. Nadat je bestanden hebt toegevoegd, selecteer je **Analyseren** om te controleren op gemeenschappelijke in alle bestanden. Dit kan enkele minuten duren.</br> 
  
     ![Bestanden analyseren](../media/content-understanding/analyze.png)</br> 
 
@@ -82,49 +82,49 @@ Wanneer u een nieuw model voor formulierverwerking hebt gemaakt, wordt in uw bro
 
 ## <a name="step-3-select-your-form-fields"></a>Stap 3: De formuliervelden selecteren
 
-Nadat u de documenten voor velden hebt geanalyseerd, ziet u nu de velden die werden gevonden en identificeert u de velden die u wilt opslaan. Opgeslagen velden worden als kolommen weergegeven in de documentbibliotheek van uw model en tonen de geëxtraheerde waarden van elk document.
+Nadat je de documenten voor velden hebt geanalyseerd, zie je nu de velden die zijn gevonden en identificeer je de velden die je wilt opslaan. Opgeslagen velden worden als kolommen weergegeven in de documentbibliotheekweergave van je model en bevatten de waarden die voor elk document zijn geëxtraheerd.
 
-1. Op de volgende pagina wordt een van de voorbeeldbestanden weergegeven en worden alle gemeenschappelijke velden gemarkeerd die automatisch door het systeem zijn gedetecteerd. </br>
+1. Op de volgende pagina wordt een van de voorbeeldbestanden weergegeven en zijn alle gemeenschappelijke velden gemarkeerd die automatisch zijn gedetecteerd met het systeem. </br>
 
-    ![Paginavelden selecteren](../media/content-understanding/select-fields-page.png)</br> 
+    ![Pagina voor veldselectie](../media/content-understanding/select-fields-page.png)</br> 
 
-2. Selecteer de velden die u wilt opslaan en schakel het selectievakje in om de selectie te bevestigen. In het Purchase Order-model selecteert u bijvoorbeeld de *Datum-* *PO-* en *Totaal* velden.  U kunt er ook voor kiezen om de naam van een veld te wijzigen. </br>
+2. Selecteer de velden die je wilt opslaan en schakel het selectievakje in om de selectie te bevestigen. In het Purchase Order-model selecteer je bijvoorbeeld de velden *Date*, *PO* en *Total*. Je kunt er ook voor kiezen om de naam van een veld te wijzigen. </br>
 
-    ![Selecteer PO #](../media/content-understanding/po.png)</br> 
+    ![PO # selecteren](../media/content-understanding/po.png)</br> 
 
-3. Als een veld niet door de analyse is gedetecteerd, kunt u het nog steeds toevoegen. Markeer de gegevens die u wilt ophalen en typ in het naamvak de gewenste naam. Schakel het selectievakje in. U moet niet-gedetecteerde velden in de resterende voorbeeldbestanden bevestigen.
+3. Als een veld niet is gedetecteerd tijdens de analyse, kun je het nog steeds toevoegen. Markeer de gegevens die je wilt extraheren en typ in het naamvak de gewenste naam. Schakel het selectievakje vervolgens in. Je moet niet-gedetecteerde velden in de resterende voorbeeldbestanden bevestigen.
 
 4. Klik op **Velden bevestigen** nadat je de velden hebt geselecteerd die je wilt opslaan. </br>
  
-    ![Velden bevestigen na selectie van velden](../media/content-understanding/confirm-fields.png)</br> 
+    ![Velden bevestigen na veldselectie](../media/content-understanding/confirm-fields.png)</br> 
  
-5. Selecteer op de **De formuliervelden die u wilt opslaan** pagina, hier wordt het aantal velden weergegeven dat u hebt geselecteerd. Selecteer **Gereed**.
+5. Op de pagina **Selecteer de formuliervelden die u wilt opslaan** wordt het aantal velden weergegeven dat je hebt geselecteerd. Selecteer **Gereed**.
 
-## <a name="step-4-train-and-test-your-model"></a>Stap 4: Uw model trainen en testen
+## <a name="step-4-train-and-test-your-model"></a>Stap 4: Het model trainen en testen
 
-Nadat je de velden hebt geselecteerd die je wilt opslaan, kun je op de pagina **Model Samenvatting** het model trainen en testen.
+Nadat je de velden hebt geselecteerd die je wilt opslaan, kun je op de pagina **Modelsamenvatting** het model trainen en testen.
 
-1. Op de pagina **Model Samenvatting** worden de opgeslagen velden weergegeven in de sectie **Geselecteerde velden**. Selecteer **Trainen** om te beginnen met de training op uw voorbeeldbestanden. Het kan enkele minuten duren voordat dit is voltooid.</br>
+1. Op de pagina **Modelsamenvatting** worden de opgeslagen velden weergegeven in de sectie **Geselecteerde velden**. Selecteer **Trainen** om te beginnen met de training voor jouw voorbeeldbestanden. Het kan enkele minuten duren voordat dit is voltooid.</br>
 
-     ![Velden trainen selecteren](../media/content-understanding/select-fields-train.png)</br> 
+     ![Velden selecteren voor training](../media/content-understanding/select-fields-train.png)</br> 
 
-2. Wanneer je het bericht ziet dat de training is voltooid, selecteer je **Naar detailspagina gaan**. 
+2. Wanneer je het bericht ziet dat de training is voltooid, selecteer je **Naar detailpagina gaan**. 
 
-3. Op de pagina **Modeldetails** kunt u testen hoe uw model werkt door **Snelle Test** te selecteren. Hiermee kunt u bestanden slepen naar en neerzetten op de pagina en nagaan of de velden worden gevonden.
+3. Op de pagina **Modeldetails** kun je testen hoe jouw model werkt door **Snelle test** te selecteren. Hiermee kun je bestanden slepen en neerzetten naar de pagina en nagaan of de velden worden gedetecteerd.
 
     ![Velden bevestigen](../media/content-understanding/select-fields-train.png)</br> 
 
-2. Wanneer je het bericht ziet dat de training is voltooid, selecteer je **Naar detailspagina gaan**. 
+2. Wanneer je het bericht ziet dat de training is voltooid, selecteer je **Naar detailpagina gaan**. 
 
-3. Op de pagina **Modeldetails** kunt u testen hoe uw model werkt door **Snelle test** te selecteren. Hiermee kunt u bestanden slepen naar en neerzetten op de pagina en nagaan of de velden worden gevonden.
+3. Op de pagina **Modeldetails** kun je testen hoe jouw model werkt door **Snelle test** te selecteren. Hiermee kun je bestanden slepen en neerzetten naar de pagina en nagaan of de velden worden gevonden.
 
-## <a name="step-5-publish-your-model"></a>Stap 5: Uw model publiceren
+## <a name="step-5-publish-your-model"></a>Stap 5: Het model publiceren
 
-1. Als u tevreden bent over de resultaten van je model, selecteert u **Publiceren** om het beschikbaar te maken voor gebruik.
+1. Als je tevreden bent over de resultaten van je model, selecteer je **Publiceren** om het beschikbaar te maken voor gebruik.
 
-2. Nadat het model is gepubliceerd, selecteert u **Model gebruiken**. Hiermee maakt u een PowerAutomate-stroom die kan worden uitgevoerd in uw SharePoint-documentbibliotheek, waarna de velden worden geëxtraheerd die in het model zijn geïdentificeerd, selecteer vervolgens **Stroom maken**.
+2. Nadat het model is gepubliceerd, selecteer je **Model gebruiken**. Hiermee maak je een PowerAutomate-stroom die kan worden uitgevoerd in jouw SharePoint-documentbibliotheek, waarna de velden worden geëxtraheerd die in het model zijn geïdentificeerd. Selecteer vervolgens **Stroom maken**.
   
-3. Wanneer u klaar bent, ziet u het bericht **Uw stroom is succesvol gemaakt**.
+3. Wanneer je klaar bent, zie je het bericht **Uw stroom is gemaakt**.
  
 ## <a name="step-6-use-your-model"></a>Stap 6: uw model gebruiken
 
@@ -140,7 +140,7 @@ Na het publiceren van je model en het maken van de PowerAutomate-stroom, kun je 
 
     ![Knop Info](../media/content-understanding/info-button.png)</br>  
 
-4. Upload bestanden in uw documentbibliotheek. Alle bestanden die door het model worden geïdentificeerd, worden weergegeven in de lijst met de bestanden in de weergave en de geëxtraheerde gegevens worden weergegeven in de kolommen.</br>
+4. Upload bestanden naar jouw documentbibliotheek. Alle bestanden die in het model worden geïdentificeerd voor het bijbehorende inhoudstype, worden weergegeven in de weergave en de geëxtraheerde gegevens worden weergegeven in de kolommen.</br>
 
     ![Gereed](../media/content-understanding/doc-lib-done.png)</br>  
 

@@ -23,28 +23,28 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Meer informatie over wat er gebeurt met uw gegevens als uw abonnement op Microsoft 365 for Business verloopt, is uitgeschakeld of als u het abonnement opzegt.
-ms.openlocfilehash: b09f56fefb7791af012c9dab2ba4e5684b9bf89f
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: c191b2fa795614a272b28cedae8d23693933dc95
+ms.sourcegitcommit: 0badd6a7af803a52c7c46a4374211cb89307eacf
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906821"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135977"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor bedrijven-abonnement afloopt?
 
-Als uw abonnement afloopt, omdat dit verloopt, of als u ervoor kiest om u af te melden, wordt de toegang tot Microsoft 365-Services,-toepassingen en-klantgegevens via meerdere provincies weergegeven voordat het abonnement volledig is uitgeschakeld of niet wordt *ingericht*. Als u op de hoogte bent van deze voortgang, kunt u het beste uw abonnement op een actieve staat teruggeven voordat het te laat is, of, als u Microsoft 365 wilt verlaten, een back-up van uw gegevens maken voordat deze uiteindelijk wordt verwijderd.
+Als uw abonnement afloopt, omdat dit verloopt, of als u ervoor kiest om u af te melden, wordt de toegang tot Microsoft 365-Services,-toepassingen en-klantgegevens uitgebreid via meerdere staten voordat het abonnement volledig is uitgeschakeld of wordt *verwijderd*. Als u op de hoogte bent van deze voortgang, kunt u het beste uw abonnement op een actieve staat teruggeven voordat het te laat is, of, als u Microsoft 365 wilt verlaten, een back-up van uw gegevens maken voordat deze uiteindelijk wordt verwijderd.
 
 Lees deze belangrijke informatie voordat u contact opneemt met de [ondersteuning van Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>Wat gebeurt er met gegevens wanneer een abonnement verloopt?
 
-- Als uw abonnement is verlopen, kunt u het volgende doen: verlopen/uitgeschakeld/ongedaan gemaakt. De verlopen fase begint direct nadat de einddatum van het abonnement is bereikt.
+- Als uw abonnement is verlopen, kunt u het volgende doen: verlopen/uitgeschakeld/verwijderd. De verlopen fase begint direct nadat de einddatum van het abonnement is bereikt.
 - Als u terugkerende facturering uitschakelt voor uw jaarabonnement, komt dit in dezelfde fasen als een verlopen abonnement. De eerste fase begint met de verjaardag van het jaarabonnement, beginnend niet op de datum waarop de terugkerende facturerings instelling van het abonnement is uitgeschakeld.
 - Als u uw maandabonnement opzegt, wordt het direct uitgeschakeld (op de annuleringsdatum). Dit betekent dat uw gebruikers de toegang tot de Microsoft 365-assets direct kwijtraken en dat alleen beheerderstoegang hebben tot de gegevens voor de volgende 90 dagen.
 
 In de volgende tabel wordt uitgelegd wat u kunt verwachten als een betaald abonnement op Microsoft 365 voor bedrijven verloopt.
 
-| **Actief**                                                             | **Verlopen <br/> (30 dagen \* )**                                                | **Uitgeschakeld <br/> (90 dagen \* )**                                               | **Opgeheven**                                                                         |
+| Actief | Liep <br/>(30 dagen \* ) | Uitgeschakeld <br/>(90 dagen \* ) | Deleted |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Gegevens toegankelijk voor iedereen*                                               | *Gegevens toegankelijk voor iedereen*                                                     | *Gegevens alleen toegankelijk voor beheerders*                                             | **Gegevens verwijderd <br/> Azure Active Directory is verwijderd, indien niet door andere services gebruikt.** |
 | Gebruikers hebben normaal toegang tot Microsoft 365, bestanden en toepassingen   | Gebruikers hebben normaal toegang tot Microsoft 365, bestanden en toepassingen              | Gebruikers hebben geen toegang tot 365, bestanden en toepassingen van Microsoft                        | Gebruikers hebben geen toegang tot 365, bestanden en toepassingen van Microsoft                                     |
@@ -192,16 +192,16 @@ In deze staat wordt uw toegang aanzienlijk afgenomen. Uw gebruikers kunnen zich 
 
 Als globale beheerder of factureringsbeheerder kunt u [het abonnement opnieuw activeren](reactivate-your-subscription.md) en microsoft 365 blijven gebruiken met al uw klantgegevens intact. Als u ervoor kiest om te reactiveren, moet u [een back-up van uw gegevens maken](back-up-data-before-switching-plans.md).
 
-### <a name="state-deprovisioned"></a>Status: deprovisioned
+### <a name="state-deleted"></a>Status: verwijderd
   
- **Wat u kunt verwachten:** Als u uw abonnement niet opnieuw activeert tijdens de respijt of uitschakelt, wordt het abonnement opgeheven.
+ **Wat u kunt verwachten:** Als u uw abonnement niet opnieuw activeert tijdens de respijtperiode of als dit is uitgeschakeld, wordt het abonnement verwijderd.
   
 Beheerders en gebruikers hebben niet langer toegang tot de services of Office-toepassingen bij het abonnement. Alle klantengegevens (van gebruikersgegevens in documenten en e-mail) worden permanent verwijderd en kunnen niet meer worden hersteld.
   
 Op dit moment kunt u het abonnement niet opnieuw activeren. Maar als globale beheerder of factureringsbeheerder kunt u nog steeds toegang krijgen tot het Beheercentrum om andere abonnementen te beheren, of om nieuwe abonnementen te kopen voor uw bedrijfsbehoeften.
   
 > [!NOTE]
-> Bij het toevoegen van een nieuw abonnement van hetzelfde type waarvoor de toegang is opgeheven, worden de gegevens die aan het niet-ingerichte abonnement zijn gekoppeld, niet hersteld.
+> Bij het toevoegen van een nieuw abonnement van hetzelfde type dat is verwijderd, worden de gegevens die aan het verwijderde abonnement zijn gekoppeld, niet hersteld.
 
 
 > [!NOTE]

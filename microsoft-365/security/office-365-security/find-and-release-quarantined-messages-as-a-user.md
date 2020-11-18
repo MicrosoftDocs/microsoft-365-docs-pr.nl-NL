@@ -85,9 +85,9 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
 
    - **Beleidstype**: berichten filteren op beleidstype:
      - **Beleid tegen phishing**
-     - **Beleidsregels voor gehoste inhoudsfilters** (antispambeleid)
+     - **Beleid voor gehoste inhoudsfilters** (antispambeleid)
 
-   Als u het filter wilt wissen, drukt u op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
+   Als je het filter wilt wissen, druk je op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
 
 4. Gebruik **Resultaten sorteren op** (standaard de knop **Bericht-ID**) en een bijbehorende waarde om naar specifieke berichten te zoeken. Jokertekens worden niet ondersteund. U kunt zoeken op een van de volgende waarden:
 
