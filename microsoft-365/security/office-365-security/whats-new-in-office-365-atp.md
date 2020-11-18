@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: e0801fb26b0bc7c4d37ab9455d9fcd2630f0fe51
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5aa1d5fe14f6213931e089c2f97fcf06c96397b3
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842842"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131144"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuw in Microsoft Defender voor Office 365
 
@@ -40,6 +40,10 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 > [!TIP]
 > Hebt u nog geen Microsoft Defender voor Office 365? [Neem contact op met de verkoop om een proefabonnement te starten](https://go.microsoft.com/fwlink/p/?LinkId=518644).
+
+## <a name="november-2020"></a>November 2020 
+
+- Bijgewerkte export limieten in beoordeling > Onderhoudscentrum > herstelactie via e-mail verzending en Actielogboek (Defender for Office 365, abonnement 2)
 
 ## <a name="septemberoctober-2020"></a>September/oktober 2020 
 
@@ -75,11 +79,11 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 - [URL exporteren Klik op gegevens voor offline analyses](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365, abonnement 1 of abonnement 2)
 
-- [Campagne weergaven gebruiken in Microsoft Defender voor office 365 ( **Preview** )](campaigns.md) (Microsoft Defender for Office 365 plan 2)
+- [Campagne weergaven gebruiken in Microsoft Defender voor office 365 (**Preview**)](campaigns.md) (Microsoft Defender for Office 365 plan 2)
 
 ## <a name="november-2019"></a>November 2019
 
-- [Nieuwe functies voor het detecteren en beantwoorden van gebruikers uitchecken](address-compromised-users-quickly.md) ( **Preview** ) (Microsoft Defender for Office 365 plan 2)
+- [Nieuwe functies voor het detecteren en beantwoorden van gebruikers uitchecken](address-compromised-users-quickly.md) (**Preview**) (Microsoft Defender for Office 365 plan 2)
 
 ## <a name="september-2019"></a>September 2019
 
@@ -101,7 +105,7 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 - [Bekijk gegevens over phishingwebsites en klik op Verdict](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Microsoft Defender for Office 365 abonnement 1 of abonnement 2)
 
-## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender voor Office 365, abonnement 1 en abonnement 2
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365
 
 Wist u dat Microsoft Defender voor Office 365 beschikbaar is in twee abonnementen? Meer [informatie over wat elk abonnement omvat](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
 

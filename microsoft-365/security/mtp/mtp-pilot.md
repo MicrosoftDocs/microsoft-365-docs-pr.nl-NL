@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 350904022ec86acdbebf109dd5946598643aea83
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 50f334a055a5bd974f9ea1f39c8fa38d44be9c26
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843658"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131239"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Voer uw proef Microsoft 365 Defender-project uit. 
 
@@ -56,7 +56,7 @@ Met de geïntegreerde Microsoft 365 Defender-oplossing kunnen beveiligings techn
 
 Het volgende voorbeeld van een tijdlijn is afhankelijk van de juiste bronnen in uw omgeving. Voor sommige detecties en werkstromen is mogelijk meer leer tijd nodig dan voor de andere.
 
-![Voorbeeld van een tijdlijn in een Microsoft 365 Defender-pilot](../../media/pilotimeline.png)
+![Voorbeeld van een tijdlijn in een Microsoft 365 Defender-pilot](../../media/phase-diagrams/pilot-phases.png)
 
 >[!IMPORTANT]
 >Volg voor optimale resultaten de instructies voor het testen.
@@ -68,11 +68,11 @@ Er zijn vier fasen met een Microsoft 365:
 
 |Fase | Beschrijving | 
 |:-------|:-----|
-| ![Planning](../../media/mtp/plan.png)<br>[Planning](mtp-pilot-plan.md)| Meer informatie over wat u moet doen voordat u uw Microsoft 365-proefproject voor Microsoft-Defender uitvoert: <br><br>-Bereik <br> -Use cases <br>-Vereisten <br>Test plan <br> -Succescriteria <br> -Scorecard 
-| ![Uitwerking](../../media/mtp/prep.png) <br>[Uitwerking](mtp-evaluation.md)|  Open Microsoft 365-Beveiligingscentrum voor het instellen van uw proef omgeving voor Microsoft 365 Defender. U wordt begeleid bij:<br><br>-Belanghebbenden identificeren en zich afmelden voor uw pilot <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde <br> -Registreren voor Microsoft 365 E5-proefabonnement <br> Domein configureren <br>-Microsoft 365 E5-licenties toewijzen <br> -De wizard Setup voltooien in de portal|
-| ![Simulatie van aanval](../../media/mtp/run-sim.png) <br>[Simulatie van aanval](mtp-pilot-simulate.md) | U wordt begeleid bij het maken van een aanval:<br><br>-Controleer de vereisten voor de testomgeving <br>-De simulatie uitvoeren <br>-Onderzoek een incident <br>-het incident oplossen 
-| ![Sluiten en samenvatting](../../media/mtp/close.png) <br>[Sluiten en samenvatting](mtp-pilot-close.md) | Wanneer u het einde van het proces hebt bereikt, gaat u verder met:<br><br>-Doorgaan met de laatste uitvoer<br>-De uitvoer presenteren aan de belanghebbenden <br>-Feedback geven <br>-Voer de volgende stappen uit 
+| [Planning](mtp-pilot-plan.md)<br> ~ 1 dag| Meer informatie over wat u moet doen voordat u uw Microsoft 365-proefproject voor Microsoft-Defender uitvoert: <br><br>-Bereik <br> -Use cases <br>-Vereisten <br>Test plan <br> -Succescriteria <br> -Scorecard 
+| [Uitwerking](mtp-evaluation.md) <br>~ 2 dagen|  Open Microsoft 365-Beveiligingscentrum voor het instellen van uw proef omgeving voor Microsoft 365 Defender. U wordt begeleid bij:<br><br>-Belanghebbenden identificeren en zich afmelden voor uw pilot <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde <br> -Registreren voor Microsoft 365 E5-proefabonnement <br> Domein configureren <br>-Microsoft 365 E5-licenties toewijzen <br> -De wizard Setup voltooien in de portal|
+| [Simulatie van aanval](mtp-pilot-simulate.md) <br>~ 2 dagen| U wordt begeleid bij het maken van een aanval:<br><br>-Controleer de vereisten voor de testomgeving <br>-De simulatie uitvoeren <br>-Onderzoek een incident <br>-het incident oplossen 
+| [Sluiten en samenvatting](mtp-pilot-close.md) <br>~ 1 dag| Wanneer u het einde van het proces hebt bereikt, gaat u verder met:<br><br>-Doorgaan met de laatste uitvoer<br>-De uitvoer presenteren aan de belanghebbenden <br>-Feedback geven <br>-Voer de volgende stappen uit 
 
 ## <a name="next-step"></a>Volgende stap
-|![Planningfase](../../media/mtp/plan.png) <br>[Planningfase](mtp-pilot-plan.md) | Een proefproject voor Microsoft 365 Defender plannen 
+|[Planningfase](mtp-pilot-plan.md) | Een proefproject voor Microsoft 365 Defender plannen 
 |:-------|:-----|

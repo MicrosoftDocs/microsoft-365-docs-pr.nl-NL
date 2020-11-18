@@ -20,59 +20,21 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 700bd7a3f4ba8d152cf66a27c0f66aa375872698
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fac3a79f1522e5e7777b2b54bce2b8bd695f8d7a
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842060"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131343"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Uw Microsoft 365 Defender-aanvals simulaties uitvoeren  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-**Van toepassing op:**
-- Microsoft 365 Defender
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-plan"> 
-        <img src="../../media/mtp/plan.png" alt="Plan your pilot Microsoft 365 Defender project" title="Uw proefabonnement op Microsoft 365 Defender plannen" />
-      <br/>Regeling </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval">
-        <img src="../../media/mtp/prep.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving voorbereiden" />
-      <br/>Ervoor </a><br>
-    </td>
-    <td align="center"bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate">
-        <img src="../../media/mtp/run-sim.png" alt="Run your Microsoft 365 Defender attack simulations" title="Uw Microsoft 365 Defender-aanvals simulaties uitvoeren" />
-      <br/>Aanval simuleren </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-close">
-        <img src="../../media/mtp/close.png" alt="Close and summarize your Microsoft 365 Defender pilot" title="Een proefproject van Microsoft 365 Defender sluiten en samenvatten" />
-      <br/>Sluiten en samenvatten </a><br>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
-
-</td>    
-    <td valign="top" style="width:25%; border:0;">
-
-</td>
-  </tr>
-</table>
+|[![Planning](../../media/phase-diagrams/1-planning.png)](mtp-pilot-plan.md)<br/>[Planning](mtp-pilot-plan.md) |[![Voorbereiden](../../media/phase-diagrams/2-prepare.png)](prepare-mtpeval.md)<br/>[Uitwerking](prepare-mtpeval.md) | ![Een aanval simuleren](../../media/phase-diagrams/3-simluate.png)<br/>Een aanval simuleren| [![Sluiten en samenvatten](../../media/phase-diagrams/4-summary.png)](mtp-pilot-close.md)<br/>[Sluiten en samenvatten](mtp-pilot-close.md)|
+|--|--|--|--|
+|| |*Dat is alles!* | |
 
 U bevindt zich momenteel in de simulatie fase aanval.
 
@@ -369,9 +331,9 @@ Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een
 
     1.  Bekijk de resultaten en kijk of u het e-mailbericht dat u hebt geopend kunt identificeren.  Het kan tot 2 uur duren voordat het bericht in de geavanceerde jacht wordt weergegeven. Als de e-mail omgeving grote en veel resultaten bevat, kunt u de **optie filters weergeven** gebruiken om het bericht te zoeken. 
 
-   In het voorbeeld is het e-mailbericht verzonden via een Yahoo-account. Klik op het **+** pictogram naast **Yahoo.com** onder de sectie SenderFromDomain en klik vervolgens op **toepassen** om het geselecteerde domein toe te voegen aan de query.  Gebruik het domein of e-mailaccount dat is gebruikt voor het verzenden van het testbericht in stap 1 van de simulatie uitvoeren om de resultaten te filteren.  Voer de query opnieuw uit om een kleinere resultatenset te krijgen om te controleren of het bericht in de simulatie wordt weergegeven.
+           In het voorbeeld is het e-mailbericht verzonden via een Yahoo-account. Klik op het **+** pictogram naast **Yahoo.com** onder de sectie SenderFromDomain en klik vervolgens op **toepassen** om het geselecteerde domein toe te voegen aan de query.  Gebruik het domein of e-mailaccount dat is gebruikt voor het verzenden van het testbericht in stap 1 van de simulatie uitvoeren om de resultaten te filteren.  Voer de query opnieuw uit om een kleinere resultatenset te krijgen om te controleren of het bericht in de simulatie wordt weergegeven.
    
-        ![Screenshot of the filters. Use filters to narrow down the search, and find what you’re looking for faster.](../../media/mtp/fig20.png) 
+        ![Schermafbeelding van de filters. U kunt filters gebruiken om de zoekopdracht te verfijnen en te vinden wat u zoekt.](../../media/mtp/fig20.png) 
 
         ```console
         EmailEvents 
@@ -394,7 +356,7 @@ Er is één intern postvak en apparaat vereist voor dit scenario. U hebt ook een
 
 5.  Neem vervolgens de informatie over de bijlage op (bijvoorbeeld: bestandsnaam, hashes) in de resultatenset. U kunt dit doen door lid te worden van de tabel **EmailAttachmentInfo** . De veelgebruikte velden die u kunt gebruiken om deel te nemen in dit geval zijn **NetworkMessageId** en **RecipientObjectId**.
 
-De volgende query bevat ook een extra regel | **Project: Wijzig de naam van EmailTimestamp = tijdstempel,** zodat u kunt zien welke tijdstempels zijn gerelateerd aan de e-mail en tijdstempels die u toevoegt aan de volgende stap.
+    De volgende query bevat ook een extra regel | **Project: Wijzig de naam van EmailTimestamp = tijdstempel,** zodat u kunt zien welke tijdstempels zijn gerelateerd aan de e-mail en tijdstempels die u toevoegt aan de volgende stap.
 
     ```console
     EmailEvents 
@@ -467,15 +429,15 @@ Door aangepaste detecties wordt de query uitgevoerd volgens de frequentie die u 
 
     Voor deze pilot kunt u de regel beperkingen toepassen op een subset van testapparaten in uw productieomgeving.
 
-6.  Selecteer **Maken**. Selecteer vervolgens **aangepaste detectieregels** in het navigatiedeelvenster.
+6.  Selecteer **Maken**.  Selecteer vervolgens **aangepaste detectieregels** in het navigatiedeelvenster.
  
     ![Schermafbeelding van de optie voor aangepaste detectieregels in het menu](../../media/mtp/fig27a.png) 
 
     ![Schermafbeelding van de pagina detectieregels waarop de regel en de details van de uitvoering worden weergegeven](../../media/mtp/fig27b.png) 
 
-Op deze pagina kunt u de detectieregel selecteren waarmee een detailpagina wordt geopend. 
+    Op deze pagina kunt u de detectieregel selecteren waarmee een detailpagina wordt geopend. 
 
-    ![Screenshot of the email attachments page where you can see the status of the rule execution, triggered alerts and actions, edit the detection, and so on](../../media/mtp/fig28.png) 
+    ![Schermafbeelding van de pagina met e-mailbijlagen waarop u de status van de regel uitvoer, geactiveerde waarschuwingen en acties, de detectie bewerkt, enzovoort kunt zien](../../media/mtp/fig28.png) 
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>Aanvullende geavanceerde jacht Walk-in-oefeningen
 

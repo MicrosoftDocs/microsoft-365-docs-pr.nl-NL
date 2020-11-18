@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: d6c96f7720344721bb2786dc130c490a5a8ea657
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fe0a06dd104f0f0532363ee046f4bad1c03c5400
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846482"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130877"
 ---
 # <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Een Microsoft 365 Defender-proef Lab of pilot omgeving maken 
 
@@ -54,11 +54,13 @@ Deze handleiding helpt u bij:
 
 Er zijn drie fasen in het maken van een proefversie van Microsoft voor Microsoft 365 Defender met proef omgevingen en de implementatie ervan:
 
+![Implementatiefasen: voorbereiden, instellen, onboardd](../../media/phase-diagrams/deployment-phases.png)
+
 |Fase | Beschrijving | 
 |:-------|:-----|
-| ![Fase 1: voorbereiding](../../media/prepare.png)<br>[Fase 1: voorbereiding](prepare-mtpeval.md)| Meer informatie over wat u moet doen wanneer u Microsoft 365 Defender implementeert in een proefversie van het lab of een testomgeving: <br><br>-Belanghebbenden en afmelden <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde
-|  ![Fase 2: instellen](../../media/setup.png) <br>[Fase 2: instellen](setup-mtpeval.md)|  Voer de volgende stappen uit om toegang te krijgen tot het Microsoft 365-Beveiligingscentrum voor het instellen van uw proefversie van Microsoft 365 Defender of prototype. U wordt begeleid bij:<br><br>-Registreren voor Microsoft 365 E5-proefabonnement <br>  Domein configureren<br>-Microsoft 365 E5-licenties toewijzen<br>-De wizard Setup voltooien in de portal|
-|  ![Fase 3: & onboard configureren](../../media/config-onboard.png) <br>[Fase 3: & onboard configureren](config-mtpeval.md) | Configureer elke Microsoft 365 Defender-pijler pijler en de ingebouwde eindpunten. U wordt begeleid bij:<br><br>-Microsoft Defender voor Office 365 configureren<br>-Beveiliging van Microsoft Cloud-app configureren<br>-Microsoft Defender configureren voor identiteit<br>-Microsoft Defender voor eindpunt configureren
+|[Fase 1: voorbereiding](prepare-mtpeval.md)| Meer informatie over wat u moet doen wanneer u Microsoft 365 Defender implementeert in een proefversie van het lab of een testomgeving: <br><br>-Belanghebbenden en afmelden <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde
+|[Fase 2: instellen](setup-mtpeval.md)|  Voer de volgende stappen uit om toegang te krijgen tot het Microsoft 365-Beveiligingscentrum voor het instellen van uw proefversie van Microsoft 365 Defender of prototype. U wordt begeleid bij:<br><br>-Registreren voor Microsoft 365 E5-proefabonnement <br>  Domein configureren<br>-Microsoft 365 E5-licenties toewijzen<br>-De wizard Setup voltooien in de portal|
+|[Fase 3: & onboard configureren](config-mtpeval.md) | Configureer elke Microsoft 365 Defender-pijler pijler en de ingebouwde eindpunten. U wordt begeleid bij:<br><br>-Microsoft Defender voor Office 365 configureren<br>-Beveiliging van Microsoft Cloud-app configureren<br>-Microsoft Defender configureren voor identiteit<br>-Microsoft Defender voor eindpunt configureren
 
 
 ## <a name="in-scope"></a>In bereik
@@ -72,9 +74,9 @@ De volgende taken bevinden zich in het bereik van deze handleiding:
     -   De installatiewizard in de portal voltooien
 -   Alle Microsoft 365 Defender-pijlers configureren op basis van aanbevolen procedures
     -   Microsoft Defender voor Office 365
-    -   Microsoft Defender voor identiteit
+    -   Microsoft Defender for Identity
     -   Microsoft Cloud App Security
-    -   Microsoft Defender voor eindpunt
+    -   Microsoft Defender voor Eindpunt 
 
 ## <a name="out-of-scope"></a>Buiten bereik
 
@@ -84,5 +86,5 @@ Het volgende is niet het bereik van deze Implementatiehandleiding:
 -   Penetratie tests in productieomgeving
 
 ## <a name="next-step"></a>Volgende stap
-![Fase 1: voorbereiding](../../media/prepare.png) <br>[Fase 1: voorbereiding](prepare-mtpeval.md) 
+[Fase 1: voorbereiding](prepare-mtpeval.md) 
 <br> Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving voorbereiden

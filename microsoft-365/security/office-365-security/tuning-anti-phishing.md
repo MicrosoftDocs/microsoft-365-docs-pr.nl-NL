@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: Beheerders kunnen leren welke redenen en hoe een malafide bericht krijg in Microsoft 365 en wat u moet doen om te voorkomen dat er meer phishingberichten in de toekomst worden verstaan.
-ms.openlocfilehash: e933769b6bce9eb10765fb2b58025445432bed18
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: c495be3f5a90ca96f9a7a05513df9438f88910ad
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845466"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131319"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
 
@@ -51,15 +51,15 @@ Het melden van phishing-berichten is handig bij het afstemmen van de filters die
 
 U kunt de kopteksten van het malafide bericht bekijken om te zien of er iets is wat u kunt doen om te voorkomen dat u meer malafide berichten kunt voorkomen. Met andere woorden: wanneer u de berichtkoppen evalueert, kunt u de instellingen in uw organisatie identificeren die verantwoordelijk zijn voor het toestaan van malafide berichten.
 
-Daarom moet u het koptekstveld **X-Forefront-spam-report** in de berichtkoppen controleren op de plaats van overgeslagen spam of phishing-filters in de Verdict (SFV) voor spam filtering. Berichten die het filteren overslaan heeft een vermelding van `SCL:-1` , wat betekent dat een van uw instellingen dit bericht toestaat door de spam of phishing Verdicts te vervangen door de service. Zie [antispam berichtkoppen in Microsoft 365](anti-spam-message-headers.md)voor meer informatie over het weergeven van berichtkoppen en de volledige lijst met alle beschikbare antispam-en anti-spambericht koppen.
+Daarom moet u het koptekstveld **X-Forefront-spam-report** in de berichtkoppen controleren voor aanwijzingen voor het overgeslagen filteren van spam of phishing in de Verdict (SFV) voor spam filtering. Berichten die het filteren overslaan heeft een vermelding van `SCL:-1` , wat betekent dat een van uw instellingen dit bericht toestaat door de spam of phishing Verdicts te vervangen door de service. Zie [antispam berichtkoppen in Microsoft 365](anti-spam-message-headers.md)voor meer informatie over het weergeven van berichtkoppen en de volledige lijst met alle beschikbare antispam-en e-malafide berichtkoppen.
 
 ## <a name="best-practices-to-stay-protected"></a>Aanbevolen procedures om beveiligd te blijven
 
 - Voer op een maandbasis [beveiligde Score](../mtp/microsoft-secure-score.md) uit om de beveiligingsinstellingen van uw organisatie te beoordelen.
 
-- Voor berichten die per ongeluk worden beëindigd, of voor berichten die zijn toegestaan via, raden we u aan om die berichten te zoeken in de [bedreigings Verkenner en de detectie van realtime](threat-explorer.md). U kunt zoeken op afzender, geadresseerde of bericht-ID. Wanneer u het bericht hebt gevonden, gaat u naar details door op het onderwerp te klikken. Voor een gequarantined bericht bekijkt u wat de detectietechnologie is, zodat u kunt gebruikmaken van de juiste methode om deze te overschrijven. Kijk voor een toegestaan bericht welke beleidsregels het bericht hebben toegestaan. 
+- Voor berichten die per ongeluk worden beëindigd, of voor berichten die zijn toegestaan via, raden we u aan om die berichten te zoeken in de [bedreigings Verkenner en de detectie van realtime](threat-explorer.md). U kunt zoeken op afzender, geadresseerde of bericht-ID. Wanneer u het bericht hebt gevonden, gaat u naar details door op het onderwerp te klikken. Voor een gequarantined bericht bekijkt u wat de detectietechnologie is, zodat u kunt gebruikmaken van de juiste methode om deze te overschrijven. Kijk voor een toegestaan bericht welke beleidsregels het bericht hebben toegestaan.
 
-- Vervalste e-mail is als phishing gelabeld in de Defender voor Office 365. Soms is spoofing onschadelijk en soms willen gebruikers deze niet in quarantaine plaatsen. Regelmatig het [spoof Intelligence-rapport](learn-about-spoof-intelligence.md)voordat u de overlast voor gebruikers beperkt. Wanneer u alle benodigde overschrijvingen hebt gecontroleerd en de nodige overschrijvingen hebt aangebracht, kunt u verdachte [informatie configureren](set-up-anti-phishing-policies.md#spoof-settings) voor verdachte berichten in plaats van deze naar de map Ongewenste e-mail van de **gebruiker te verzenden** .
+- Vervalste e-mail is gemarkeerd als phishing in Defender voor Office 365. Soms is spoofing onschadelijk en soms willen gebruikers deze niet in quarantaine plaatsen. Regelmatig het [spoof Intelligence-rapport](learn-about-spoof-intelligence.md)voordat u de overlast voor gebruikers beperkt. Wanneer u alle benodigde overschrijvingen hebt gecontroleerd en de nodige overschrijvingen hebt aangebracht, kunt u verdachte [informatie configureren](set-up-anti-phishing-policies.md#spoof-settings) voor verdachte berichten in plaats van deze naar de map Ongewenste e-mail van de **gebruiker te verzenden** .
 
 - U kunt de bovenstaande stap voor imitatie (domein of gebruiker) herhalen. Het imitatie rapport vindt u onder **Threat Management** \> **Dashboard** \> **inzichten**.
 
@@ -74,7 +74,7 @@ Daarom moet u het koptekstveld **X-Forefront-spam-report** in de berichtkoppen c
   - Gebruik hard fail ( \- alle) om ervoor te zorgen dat ongeautoriseerde afzenders worden geweigerd door e-mail systemen die hiervoor zijn geconfigureerd. U kunt met behulp van [spoof Intelligence](learn-about-spoof-intelligence.md) afzenders identificeren die uw domein gebruiken, zodat u geautoriseerde afzenders van derden kunt opnemen in uw SPF-record.
 
   Zie voor meer informatie:
-  
+
   - [SPF instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   - [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein](use-dkim-to-validate-outbound-email.md)

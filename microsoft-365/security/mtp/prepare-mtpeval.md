@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: a255c74db030325ba22c2095fba732a93b8c269c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7149524de868a3670807556f5f423ba0ee4a772a
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844846"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131237"
 ---
 # <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving voorbereiden
 
@@ -35,37 +35,9 @@ ms.locfileid: "48844846"
 
 U maakt een Microsoft 365-proefabonnement voor proef omgevingen of pilot omgevingen en de implementatie ervan is een proces van drie fasen:
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" bgcolor="#d5f5e3">
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab environment" title="Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving voorbereiden" />
-      <br/>Fase 1: voorbereiding </a><br>
-    </td>
-     <td align="center"  >
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab environment" title="Uw Microsoft 365 Defender-proefversie Lab of pilot omgeving instellen" />
-      <br/>Fase 2: instellen </a><br>
-        </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval">
-        <img src="../../media/config-onboard.png" alt="Configure each Microsoft 365 Defender pillar" title="Elke Microsoft 365 Defender-pijler configureren en de eindpunten voorbereiden" />
-      <br/>Fase 3: & onboard configureren</a><br>
-</td>
-  </tr>
-  <tr>
-    <td style="width:25%; border:0;">
-   
-    </td>
-    <td valign="top" style="width:25%; border:0;">
-    
-</td>
-    <td valign="top" style="width:25%; border:0;">
-
-</td>    
-  </tr>
-</table>
+|![Fase 1: voorbereiding](../../media/phase-diagrams/prepare.png)<br/>Fase 1: voorbereiding |[![Fase 2: instellen](../../media/phase-diagrams/setup.png)](setup-mtpeval.md)<br/>[Fase 2: instellen](setup-mtpeval.md) |[![Fase 3: onboarding](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[Fase 3: onboarding](config-mtpeval.md) | [![Terug naar de pilot](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[Terug naar de pilot Playbook](mtp-pilot.md) |
+|--|--|--|--|
+|*Dat is alles!* | || |
 
 U bevindt zich in de voorbereidende fase.
 
@@ -132,10 +104,10 @@ In de volgende tabel wordt aangegeven welke volgorde Microsoft adviseert voor he
 
 | Invoert                               | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rangschikking van de configuratie volgorde |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-|Microsoft Defender voor Office 365|Microsoft Defender voor Office 365 beschermt uw organisatie tegen kwaadaardige bedreigingen van e-mailberichten, koppelingen (Url's) en samenwerkingsprogramma's. <br> [Meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
-|Microsoft Defender voor identiteit|Microsoft Defender for Identity maakt gebruik van Active Directory-signalen voor het identificeren, detecteren en onderzoeken van geavanceerde bedreigingen, compromisloze identiteiten, en het uitvoeren van schadelijke Insider-acties die worden doorgestuurd naar uw organisatie. <br> [Meer informatie](https://docs.microsoft.com/azure-advanced-threat-protection/).| 3 |
+|Microsoft Defender voor Office 365|Microsoft Defender voor Office 365 beschermt je organisatie tegen kwaadwillende bedreigingen afkomstig van e-mailberichten, koppelingen (URL’s) en hulpmiddelen voor samenwerking. <br> [Meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)                                                                                                                                                                                                                                             | 1                   |
+|Microsoft Defender for Identity|Microsoft Defender for Identity maakt gebruik van Active Directory-signalen voor het identificeren, detecteren en onderzoeken van geavanceerde bedreigingen, compromisloze identiteiten, en het uitvoeren van schadelijke Insider-acties die worden doorgestuurd naar uw organisatie. <br> [Meer informatie](https://docs.microsoft.com/azure-advanced-threat-protection/).| 3 |
 |Microsoft Cloud App Security| Microsoft Cloud-app-beveiliging is een Cloud Access Security Broker (CASB) die op meerdere clouds werkt. Het biedt uitgebreide zichtbaarheid, controle over gegevens reis en geavanceerde analyses voor het identificeren en bestrijden van cyberthreats in alle cloudservices. <br> [Meer informatie](https://docs.microsoft.com/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |driefasig                   |
-|Microsoft Defender voor eindpunt | Microsoft Defender voor detectie van eindpunten voor eindpunten biedt geavanceerde aanvals detectie die bij realtime en actie mogelijk zijn. Beveiligings analisten kunnen waarschuwingen effectiever uitstellen, inzicht krijgen in de volledige reikwijdte van een overtreding en antwoord acties uitvoeren om bedreigingen te herstellen. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |3                   |                                                                                                                                                                                                                                    
+|Microsoft Defender voor Eindpunt  | Microsoft Defender voor detectie van eindpunten voor eindpunten biedt geavanceerde aanvals detectie die bij realtime en actie mogelijk zijn. Beveiligings analisten kunnen waarschuwingen effectiever uitstellen, inzicht krijgen in de volledige reikwijdte van een overtreding en antwoord acties uitvoeren om bedreigingen te herstellen. <br> [Meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |3                   |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Volgende stap
 |![Fase 2: instellen](../../media/setup.png) <br>[Fase 2: instellen](setup-mtpeval.md) | Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving instellen

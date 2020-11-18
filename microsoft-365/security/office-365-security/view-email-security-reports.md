@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75370cbbdfbc59bf8e9334d1e11d8b92c5c97e61
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 1b2fd7a18589932d56ea39722b48462d2a6eac2f
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087749"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131199"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -334,7 +334,7 @@ De volgende weergaven zijn beschikbaar:
   - **EOP URL-reputatie**: schadelijke URL-reputatie.
   - **Algemeen phishing-filter**: phishingberichten op basis van regels van analisten.
   - **Gezien**
-  - **PHISH ZAP**<sup>2</sup>: een uur automatisch wissen malafide berichten wissen.
+  - **PHISH ZAP**<sup>2</sup>: automatisch wissen van phishingberichten met een nulsaldo.
   - **URL-detonatie**<sup>1</sup>
   - **Gebruikers** imitatie <sup>1</sup>: imitatie van gebruikers die zijn gedefinieerd door de beheerder of door de Postvak intelligentie zijn geleerd.
 

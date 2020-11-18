@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met de functie voor het automatisch wissen van rijen (ZAP) bezorgde berichten in een Exchange Online-postvak naar de map Ongewenste E-mail verplaatst, en de map Ongewenste E-mail naar een andere map.
-ms.openlocfilehash: e59d93285dd75a749739b8247c156c19533ce2b1
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: fd5186bc40d2d80097e6292d86ea113a41e0dd52
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845442"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131141"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Zero-Hour auto opgeschoond (ZAP) in Exchange Online
 
@@ -55,15 +55,15 @@ Malware ZAP is standaard ingeschakeld in beleid voor anti-malware. Zie voor meer
 
 ### <a name="phish-zap"></a>Phishing ZAP
 
-Voor **gelezen of ongelezen berichten** die als aflezing na ontvangst worden geïdentificeerd, is de hoeveelheid ZAP afhankelijk van de actie die is geconfigureerd voor het filteren van **phishing-e-mail** verdict in het toepasselijke antispambeleid. In de volgende lijst vindt u een beschrijving van de beschikbare verdict-acties voor het filteren van een filter en de bijbehorende ZAP-resultaten.
+Voor **gelezen of ongelezen berichten** die na ontvangst zijn geïdentificeerd, is de hoeveelheid ZAP afhankelijk van de actie die is geconfigureerd voor het filteren van **phishing-e-mail** verdict in het toepasselijke antispambeleid. In de volgende lijst worden de beschikbare opties voor het filteren van verdict voor phishing en de mogelijke ZAP-resultaten beschreven:
 
-- **Door onderwerpregel met tekst** **toevoegen** : zap hoeft geen actie te ondernemen voor het bericht.
+- **Door onderwerpregel met tekst** **toevoegen**: zap hoeft geen actie te ondernemen voor het bericht.
 
 - **Bericht verplaatsen naar ongewenste** E-mail: zap verplaatst het bericht naar de map Ongewenste e-mail, mits de regel voor ongewenste e-mail is ingeschakeld in het postvak (dit is standaard ingeschakeld). Zie voor meer informatie [instellingen voor ongewenste E-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-- **Bericht omleiden naar e-mailadres** , **bericht verwijderen** , **quarantaine bericht** : zap quarantinet het bericht.
+- **Bericht omleiden naar e-mailadres**, **bericht verwijderen**, **quarantaine bericht**: zap quarantinet het bericht.
 
-Standaard is Phish ZAP ingeschakeld in Antispambeleid en de standaardactie voor het filteren van **phishingberichten via e-mail** in de verdict is **quarantaine bericht** , wat betekent dat met phishing ZAP standaard het bericht wordt gequarantined.
+Standaard is Phish ZAP ingeschakeld in Antispambeleid en de standaardactie voor het filteren van **phishingberichten via e-mail** in de verdict is **quarantaine bericht**, wat betekent dat met phishing ZAP standaard het bericht wordt gequarantined.
 
 Zie [Antispambeleid in Microsoft 365 configureren](configure-your-spam-filter-policies.md)voor meer informatie over het configureren van spam filtering Verdicts.
 
@@ -71,11 +71,11 @@ Zie [Antispambeleid in Microsoft 365 configureren](configure-your-spam-filter-po
 
 Bij **ongelezen berichten** die als spam na ontvangst worden geïdentificeerd, is de Zap-uitslag afhankelijk van de actie die is geconfigureerd voor het **spam** filter verdict in het toepasselijke antispambeleid. In de volgende lijst vindt u de beschikbare verdict-acties voor het filteren van ongewenste e-mail en de mogelijke ZAP-resultaten.
 
-- **Door onderwerpregel met tekst** **toevoegen** : zap hoeft geen actie te ondernemen voor het bericht.
+- **Door onderwerpregel met tekst** **toevoegen**: zap hoeft geen actie te ondernemen voor het bericht.
 
 - **Bericht verplaatsen naar ongewenste** E-mail: zap verplaatst het bericht naar de map Ongewenste e-mail, mits de regel voor ongewenste e-mail is ingeschakeld in het postvak (dit is standaard ingeschakeld). Zie voor meer informatie [instellingen voor ongewenste E-mail configureren in Exchange Online-postvakken in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-- **Bericht omleiden naar e-mailadres** , **bericht verwijderen** , **quarantaine bericht** : zap quarantinet het bericht. Eindgebruikers kunnen hun eigen spamberichten in quarantaine weergeven en beheren.
+- **Bericht omleiden naar e-mailadres**, **bericht verwijderen**, **quarantaine bericht**: zap quarantinet het bericht. Eindgebruikers kunnen hun eigen spamberichten in quarantaine weergeven en beheren.
 
 Spam ZAP is standaard ingeschakeld in Antispambeleid en de standaardactie voor het filteren van **ongewenste** e-mail verstuurt **bericht naar de map** ongewenste e-mail, wat betekent dat ongewenste e-mail standaard **Ongelezen** berichten naar de map Ongewenste e-mail verplaatst.
 
@@ -83,7 +83,7 @@ Zie [Antispambeleid in Microsoft 365 configureren](configure-your-spam-filter-po
 
 ### <a name="zap-considerations-for-microsoft-defender-for-office-365"></a>ZAP-overwegingen voor Microsoft Defender voor Office 365
 
-ZAP vervangt geen berichten die zich in het proces bevindt waarin de [dynamische bezorging](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) van de bijlage wordt gecontroleerd, of waar het filteren van malware via malware de bijlage al heeft vervangen door de **malware-waarschuwing Text.txt** bestand. Als het signaal voor phishing of spam wordt ontvangen voor deze typen berichten en het filteren van de verdict in het antispambeleid is ingesteld op het uitvoeren van wat actie op het bericht (verplaatsen naar ongewenste E-mail, omleiden, verwijderen of Quarantine), wordt ZAP standaard ingesteld op de actie ' naar ongewenste E-mail '.
+ZAP vervangt geen berichten die zich in het proces bevindt waarin de [dynamische bezorging](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) van de bijlage wordt gecontroleerd, of waar het filteren van malware via malware de bijlage al heeft vervangen door de **malware-waarschuwing Text.txt** bestand. Als er voor dit soort berichten een malafide of spam signaal wordt ontvangen en de filter-verdict in het antispambeleid is ingesteld op het uitvoeren van wat u wilt doen (overstappen op ongewenste E-mail, omleiden, verwijderen of Quarantine), wordt ZAP standaard gewijzigd in de actie ' naar ongewenste E-mail '.
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>Kijken of ZAP uw bericht heeft verplaatst
 
@@ -105,7 +105,7 @@ De lijst veilige afzenders, e-mail stroom en het blokkeren en toestaan van organ
 
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>Wat gebeurt er als een bericht naar een andere map wordt verplaatst (bijvoorbeeld regels voor Postvak in)?
 
-ZAP werkt nog steeds zo lang het bericht niet is verwijderd, niet is verwijderd, of zo lang dit niet is gebeurd, is de actie niet al toegepast. Als u bijvoorbeeld het beleid voor phishing hebt ingesteld op Quarantine en de gebruiker of beheerder de e-mail al heeft gemaild en de e-mail al heeft ongewenst.
+ZAP werkt nog steeds zo lang het bericht niet is verwijderd, niet is verwijderd, of zo lang dit niet is gebeurd, is de actie niet al toegepast. Als het anti-spam beleid bijvoorbeeld is ingesteld op quarantaine en het bericht al in het ongewenste e-mailbericht staat, duurt ZAP de actie om het bericht te plaatsen.
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>Hoe beïnvloedt ZAP-postvakken zich in de wacht?
 

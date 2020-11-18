@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de standaardinstelling veilig in Exchange Online Protection (EOP)
-ms.openlocfilehash: d4345134e98ae204f73dfb51a0abf5136590a24c
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: 9f676dcd89f0322792bd40e06879b9758082d94e
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126659"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131095"
 ---
 # <a name="secure-by-default-in-office-365"></a>Standaard veilig in Office 365
 
@@ -41,7 +41,7 @@ Microsoft 365-organisaties met postvakken in Exchange Online zijn beveiligd via 
 1. E-mail met verdachte malware wordt automatisch in quarantaine geplaatst en geadresseerden ontvangen een melding. Zie [anti-malwarebeleid in EOP configureren](configure-anti-malware-policies.md).
 1. Malafide e-mailadres dat is aangeduid als ' hoge betrouwbaarheid ' wordt verwerkt overeenkomstig de actie tegen antispambeleid. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md).
 
-Aangezien Microsoft onze klanten de mogelijkheid geeft standaard te beschermen, worden sommige tenants overschreven voor malware of een hoge betrouwbaarheid. Deze overschrijvingen zijn:
+Aangezien Microsoft onze klanten de mogelijkheid geeft standaard te beschermen, worden sommige tenants overschreven voor malware of phishing met een hoge betrouwbaarheid niet toegepast. Deze overschrijvingen zijn:
 
 - Lijsten met toegestane afzenders of toegestane domeinen (Antispambeleid)
 - Veilige afzenders van Outlook

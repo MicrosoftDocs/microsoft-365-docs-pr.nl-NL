@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen leren hoe u een postvak configureert om spam en phishing-e-mail te verzamelen die door gebruikers worden gerapporteerd.
-ms.openlocfilehash: edef506074faa1c2104069e6042ee58111d5e367
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 31249ab930c44d84f27efac95d8e57bd88d9742f
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877475"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130897"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor het aanmissionen van gebruikers
 
@@ -76,27 +76,27 @@ Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden vold
 
 2. Selecteer een van de volgende opties op de pagina **gebruikers items** die wordt weergegeven:
 
-   1. **De functie bericht rapporteren voor Outlook inschakelen (aanbevolen)** : Selecteer deze optie als u de invoegtoepassing bericht rapporteren of de ingebouwde rapporten in de webversie van Outlook gebruikt en de volgende instellingen configureert:
+   1. **De functie bericht rapporteren voor Outlook inschakelen (aanbevolen)**: Selecteer deze optie als u de invoegtoepassing bericht rapporteren of de ingebouwde rapporten in de webversie van Outlook gebruikt en de volgende instellingen configureert:
 
-      - **Het bevestigingsbericht voor eindgebruikers aanpassen** : Klik op deze link. Configureer de volgende instellingen in het vervolgmenu met **bevestigingsberichten aanpassen** dat wordt weergegeven:
+      - **Het bevestigingsbericht voor eindgebruikers aanpassen**: Klik op deze link. Configureer de volgende instellingen in het vervolgmenu met **bevestigingsberichten aanpassen** dat wordt weergegeven:
 
-      - **Voordat u gaat verzenden** : Typ in de vakken **titel** en **bevestiging** de beschrijvende tekst die gebruikers zien voordat ze een bericht rapporteren met behulp van de invoegtoepassing bericht melden. U kunt de variabele% type% gebruiken voor het inzendings type (ongewenst, geen ongewenste e-mail, phishing, enzovoort).
+      - **Voordat u gaat verzenden**: Typ in de vakken **titel** en **bevestiging** de beschrijvende tekst die gebruikers zien voordat ze een bericht rapporteren met behulp van de invoegtoepassing bericht melden. U kunt de variabele% type% gebruiken voor het inzendings type (ongewenst, geen ongewenste e-mail, phishing, enzovoort).
 
         Zoals u ziet, wordt de volgende tekst ook toegevoegd aan de melding wanneer u een optie selecteert waarmee de gerapporteerde berichten naar Microsoft worden verzonden:
 
         > Uw e-mailbericht wordt verzonden naar Microsoft voor analyse. Sommige e-mailberichten kunnen persoonlijke of gevoelige informatie bevatten.
 
-      - **Na verzending** : Klik op ![ pictogram uitvouwen ](../../media/scc-expand-icon.png) . Voer in de vakken **titel** en **bevestigingsbericht** de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben gerapporteerd via de invoegtoepassing bericht rapporteren. U kunt de variabele% type% gebruiken om het type levering op te nemen.
+      - **Na verzending**: Klik op ![ pictogram uitvouwen ](../../media/scc-expand-icon.png) . Voer in de vakken **titel** en **bevestigingsbericht** de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben gerapporteerd via de invoegtoepassing bericht rapporteren. U kunt de variabele% type% gebruiken om het type levering op te nemen.
 
       Klik op **Opslaan** wanneer u gereed bent. Als u deze waarden wilt wissen, klikt u op de pagina voor het **aanbrengen** van **gebruikers** op terug herstellen.
 
-      - **Verstuur de gerapporteerde berichten naar** : Voer een van de volgende opties in:
+      - **Verstuur de gerapporteerde berichten naar**: Voer een van de volgende opties in:
 
-        - **Microsoft (aanbevolen)** : het postvak voor de gebruiker wordt niet gebruikt (alle gerapporteerde berichten gaan naar Microsoft).
+        - **Microsoft (aanbevolen)**: het postvak voor de gebruiker wordt niet gebruikt (alle gerapporteerde berichten gaan naar Microsoft).
 
-        - **Microsoft en een aangepast postvak** : in het vak dat wordt weergegeven, voert u het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruikers inzendingen gaan naar Microsoft for Analysis en naar het aangepaste postvak voor uw beheerder of beveiligingsactiviteiten team om dit te analyseren.
+        - **Microsoft en een aangepast postvak**: in het vak dat wordt weergegeven, voert u het e-mailadres van een bestaand Exchange Online-postvak in. Distributiegroepen zijn niet toegestaan. Gebruikers inzendingen gaan naar Microsoft for Analysis en naar het aangepaste postvak voor uw beheerder of beveiligingsactiviteiten team om dit te analyseren.
 
-        - **Aangepast postvak** : Typ in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht eerst naar een beheerder of het beveiligings werkactiviteiten team gaat voor analyse. Berichten gaan niet naar Microsoft, tenzij deze door de beheerder zelf worden doorgestuurd.
+        - **Aangepast postvak**: Typ in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht eerst naar een beheerder of het beveiligings werkactiviteiten team gaat voor analyse. Berichten gaan niet naar Microsoft, tenzij deze door de beheerder zelf worden doorgestuurd.
 
         > [!NOTE]
         > US Government-organisaties (GCC, GCC-H en DoD) kunnen alleen **aangepaste postvak** configureren. De andere twee opties zijn uitgeschakeld. 
@@ -106,7 +106,7 @@ Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden vold
       > [!CAUTION]
       > Als u de [rapportage van ongewenste e-mail in de webversie van Outlook hebt uitgeschakeld](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) met behulp van de beleidsregels voor het postvak in de webversie van Outlook, maar u de volgende instellingen voor het melden van berichten naar Microsoft hebt uitgeschakeld, kunnen gebruikers berichten rapporteren aan Microsoft in de webversie van Outlook met behulp van de invoegtoepassing berichten rapporteren.
 
-   - **De functie voor het melden van berichten voor Outlook uitschakelen** : Selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoegtoepassing berichten rapporteren of de ingebouwde rapporten in de webversie van Outlook en configureer de volgende instellingen:
+   - **De functie voor het melden van berichten voor Outlook uitschakelen**: Selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoegtoepassing berichten rapporteren of de ingebouwde rapporten in de webversie van Outlook en configureer de volgende instellingen:
 
       Selecteer **dit aangepaste postvak gebruiken om door de gebruiker gerapporteerde inzendingen te ontvangen**. In het vak dat wordt weergegeven, voert u het e-mailadres in van een bestaand postvak dat zich al in Office 365 bevindt. Dit moet een bestaand postvak zijn in Exchange Online, dat e-mailberichten kan ontvangen.
 
@@ -121,7 +121,7 @@ Berichten die naar aangepaste postvakken worden verzonden, moeten een specifieke
 waarbij SafetyAPIAction een van de volgende gehele waarden is:
 
 - 1: ongewenste e-mail
-- 2: NotJunk
+- 2: geen ongewenste e-mail
 - 3: phishing
 
 In het volgende voorbeeld:
@@ -132,6 +132,6 @@ In het volgende voorbeeld:
 - Het van-adres is test@contoso.com.
 - De onderwerpregel van het bericht is "phishing testen"
 
-`3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phish submission)`
+`3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
 Berichten die niet op deze indeling volgen, worden niet correct weergegeven in de portal voor ingediende items.

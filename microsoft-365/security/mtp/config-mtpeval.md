@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 5259c7b74446ad273ff9b1ae0baccd339e34baa3
-ms.sourcegitcommit: 89f56c3e0b619a4700a75a21927d9ffc90658632
+ms.openlocfilehash: 240ffd7ec8d46da33c43ec2f9cb50cf59c89f11b
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48984948"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131295"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender-pijlers configureren voor uw proefversie of pilot omgeving
 
@@ -38,29 +38,11 @@ ms.locfileid: "48984948"
 
 U maakt een Microsoft 365-proefabonnement voor proef omgevingen of pilot omgevingen en de implementatie ervan is een proces van drie fasen:
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving voorbereiden" />
-      <br/>Fase 1: voorbereiding </a><br>
-    </td>
-     <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab or pilot environment" title="Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving instellen" />
-      <br/>Fase 2: instellen </a><br>
-    </td>
-    <td align="center" bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
-        <img src="../../media/config-onboard.png" alt="Configure & Onboard" title="Elke Microsoft 365 Defender-pijler voor uw proefabonnement voor Microsoft 365 voor Microsoft Defender of een testomgeving configureren" />
-      <br/>Fase 3: & onboard configureren </a><br>
-</td>
-  </tr>
-</table>
+|[![Fase 1: voorbereiding](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)<br/>[Fase 1: voorbereiding](prepare-mtpeval.md) |[![Fase 2: instellen](../../media/phase-diagrams/setup.png)](setup-mtpeval.md)<br/>[Fase 2: instellen](setup-mtpeval.md) |![Fase 3: onboarding](../../media/phase-diagrams/onboard.png)<br/>Fase 3: onboarding | [![Terug naar de pilot](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[Terug naar de pilot Playbook](mtp-pilot.md) |
+|--|--|--|--|
+|| |*Dat is alles!* | |
 
 U bevindt zich momenteel in de configuratiefase.
-
 
 De voorbereiding is essentieel voor een succesvolle implementatie. In dit artikel wordt u begeleid over de punten waarmee u rekening moet houden wanneer u Microsoft Defender voor eindpunten gaat voorbereiden.
 
@@ -88,7 +70,7 @@ Er is een PowerShell-module genaamd *Office 365 Advanced Threat Protection recom
 
    ![Afbeelding of_Office 365 beveiligings & beleidsregels voor het beleid voor nalevings centrum](../../media/mtp-eval-32.png)
  
-2. Klik op **anti malafide** , selecteer **maken** en vul de Beleidsnaam en beschrijving in. Klik op **Volgende**.
+2. Klik op **anti malafide**, selecteer **maken** en vul de Beleidsnaam en beschrijving in. Klik op **Volgende**.
 
    ![Afbeelding of_Office 365 beveiligings & beleids pagina voor naleving van het nalevings centrum, waarin u uw beleid kunt benoemen](../../media/mtp-eval-33.png)
 
@@ -200,7 +182,7 @@ Er is een PowerShell-module genaamd *Office 365 Advanced Threat Protection recom
    > [!NOTE]
    > Als u deze vraag niet ziet, betekent dit dat uw Microsoft Defender voor Identity Data Integration al is ingeschakeld. Als u dat nog niet weet, neemt u contact op met uw IT-beheerder om te bevestigen. 
 
-3. Ga naar **instellingen** , schakel de wisselknop **Microsoft Defender voor Identity Integration** in en klik op **Opslaan**. 
+3. Ga naar **instellingen**, schakel de wisselknop **Microsoft Defender voor Identity Integration** in en klik op **Opslaan**. 
 
    ![Afbeelding van of_the pagina instellingen waar u de wisselknop Microsoft Defender voor Identity Integration moet inschakelen en klik op opslaan](../../media/mtp-eval-55.png)
    
@@ -308,5 +290,5 @@ Gefeliciteerd! U hebt zojuist een proefabonnement voor Microsoft 365 Defender ge
 Vervolgens kunt u een aanval simuleren en kijken hoe de functies voor cross product detectie, waarschuwingen maken en automatisch reageren op een aanval met een bestand op een eindpunt.
 
 ## <a name="next-step"></a>Volgende stap
-|![Simulatie fase aanval](../../media/mtp/run-sim.png) <br>[Simulatie fase aanval](mtp-pilot-simulate.md) | Voer de simulatie van een aanval uit voor de testomgeving van Microsoft 365 Defender.
+|[Simulatie fase aanval](mtp-pilot-simulate.md) | Voer de simulatie van een aanval uit voor de testomgeving van Microsoft 365 Defender.
 |:-------|:-----|

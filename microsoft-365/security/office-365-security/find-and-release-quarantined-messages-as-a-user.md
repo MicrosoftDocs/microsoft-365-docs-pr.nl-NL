@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
-ms.openlocfilehash: 2a8e37dc430af5b3d3c47179c721d83832f01184
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 48c727c442ee6f861499f1a72c687f7b3457c594
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600343"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130849"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
 
@@ -54,27 +54,16 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
 2. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. Standaardwaarden worden aangegeven met een sterretje (<sup>\*</sup>):
 
    - **Ontvangen**<sup>\*</sup>
-
    - **Afzender**<sup>\*</sup>
-
    - **Onderwerp**<sup>\*</sup>
-
    - **Reden van quarantaine**<sup>\*</sup>
-
    - **Vrijgegeven?**<sup>\*</sup>
-
    - **Beleidstype**<sup>\*</sup>
-
    - **Vervalt op**<sup>\*</sup>
-
    - **Ontvanger**
-
    - **Bericht-ID**
-
    - **Beleidsnaam**
-
    - **Grootte**
-
    - **Richting**
 
    Klik op **Opslaan** of op **Instellen op standaard** wanneer u gereed bent.
@@ -82,29 +71,21 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
 3. Klik op **Filter** om de resultaten te filteren. De beschikbare filters zijn:
 
    - **Vervaldatum**: filtert de berichten op de datum dat de quarantaineperiode vervalt:
-
      - **Vandaag**
-
      - **Komende 2 dagen**
-
      - **Komende 7 dagen**
-
      - **Aangepast**: voer een **begindatum** en **einddatum** in.
 
-   - **Ontvangen op**: voer een **begindatum** en**einddatum** in.
+   - **Ontvangen op**: voer een **begindatum** en **einddatum** in.
 
    - **Reden van quarantaine**:
-
      - **Bulk**
-
      - **Spam**
-
      - **Phishing**
-     
+
    - **Beleidstype**: berichten filteren op beleidstype:
      - **Beleid tegen phishing**
-     - **Beleidsregels voor gehoste inhoudsfilters**
-     
+     - **Beleidsregels voor gehoste inhoudsfilters** (antispambeleid)
 
    Als u het filter wilt wissen, drukt u op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
 
@@ -113,7 +94,7 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
    - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht. Als u een bericht selecteert in de lijst, verschijnt de waarde **Bericht-ID** in het deelvenster **Details** dat wordt weergegeven. Beheerders kunnen [berichttracering](message-trace-scc.md) gebruiken om naar berichten en de bijbehorende bericht-ID’s te zoeken.
 
    - **E-mailadres afzender**: een enkel e-mailadres van een afzender.
-   
+
    - **Beleidsnaam**: gebruik de volledige Beleidsnaam van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
 
    - **E-mailadres ontvanger**: een enkel e-mailadres van een ontvanger.
@@ -165,9 +146,7 @@ Nadat u een bericht selecteert, krijgt u in het deelvenster **Details** opties w
 - **Berichtkop bekijken**: kies deze koppeling om de tekst van de berichtkop te bekijken. Om de kopvelden en -waarden uitgebreid te analyseren, kopieert u de berichtkoptekst naar uw klembord en kies vervolgens **Microsoft-berichtkopanalyse** om naar de Verbindingsanalyse op afstand te gaan (klik met de rechtermuisknop en kies **In een nieuw tabblad openen** als u Microsoft 365 niet wilt verlaten om deze taak te voltooien). Plak de berichtkop in de pagina in de sectie Berichtkopanalyse en kies **Koppen analyseren**:
 
 - **Preview van bericht**: kies in het deelvenster dat wordt weergegeven een van de volgende opties:
-
   - **Bronweergave**: toont de HTML-versie van het bericht met uitgeschakelde koppelingen.
-  
   - **Tekstweergave**: toont het bericht in gewone tekst.
 
 - **Bericht downloaden**: selecteer in het deelvenster dat wordt weergegeven **Ik begrijp de risico’s van het downloaden van dit bericht** om een lokale kopie van het bericht op te slaan in .eml-indeling.

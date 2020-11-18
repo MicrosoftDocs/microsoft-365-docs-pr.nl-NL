@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 0ab0a636cb70d98aa7c17ffe6aaec66ae1f4ecc7
-ms.sourcegitcommit: 9dbc6a08177aaca112e84d30dbaa79a0a8e9dbf8
+ms.openlocfilehash: 6d862f0ed6d6bbea56cb2bb79fee69a044e4fede
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48945340"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130791"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
@@ -57,11 +57,11 @@ Regels voor e-mail stroom in Exchange Online en standalone EOP voorwaarden en ui
 
 In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van contoso.com om spam te filteren. Configureer de volgende instellingen:
 
-1. **Voorwaarde** : het domein van **de afzender** \> **is** \> contoso.com.
+1. **Voorwaarde**: het domein van **de afzender** \> **is** \> contoso.com.
 
 2. Configureer een van de volgende instellingen:
 
-   - **Voorwaarde voor de e-mail stroom regel** : **een kop van een bericht** \> **bevat een van deze woorden** \> **Header name** : header `Authentication-Results` \> **waarde** : `dmarc=pass` of `dmarc=bestguesspass` .
+   - **Voorwaarde voor de e-mail stroom regel**: **een kop van een bericht** \> **bevat een van deze woorden** \> **Header name**: header `Authentication-Results` \> **waarde**: `dmarc=pass` of `dmarc=bestguesspass` .
 
      Met deze voorwaarde wordt de verificatiestatus van het e-mail domein voor e-mail gecontroleerd, zodat u zeker weet dat het verzendende domein geen Spoofing wordt. Zie [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)voor meer informatie over e-mail verificatie.
 
@@ -77,17 +77,17 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van 
    >
    > - Als u een IP-adres toestaat dat zich achter een NAT-gateway (Network Address Translation) bevindt, moet u weten welke servers bij de NAT-groep betrokken zijn om het bereik van de toegestane lijst met IP-adressen te weten te komen. IP-adressen en NAT-deelnemers kunnen wijzigen. U dient regelmatig te controleren of uw IP-vermeldingen voor lijsten in de standaard onderhoudsprocedures worden toegestaan.
 
-3. **Facultatieve voorwaarden** :
+3. **Facultatieve voorwaarden**:
 
-   - **De afzender** \> **is intern/extern** \> **Buiten de organisatie** : deze voorwaarde is impliciet, maar u kunt deze wel gebruiken om te werken met on-premises e-mailservers die mogelijk niet correct zijn geconfigureerd.
+   - **De afzender** \> **is intern/extern** \> **Buiten de organisatie**: deze voorwaarde is impliciet, maar u kunt deze wel gebruiken om te werken met on-premises e-mailservers die mogelijk niet correct zijn geconfigureerd.
 
    - **Het onderwerp of de hoofdtekst** \> het **onderwerp of de hoofdtekst bevat een van deze woorden** \> \<keywords\>: Als u de berichten verder wilt beperken tegen trefwoorden of woordgroepen in het onderwerp of de hoofdtekst van het bericht, kunt u deze woorden als voorwaarde gebruiken.
 
-4. **Actie** : Configureer beide acties in de regel:
+4. **Actie**: Configureer beide acties in de regel:
 
    a. **De berichteigenschappen wijzigen** \> **het betrouwbaarheidsniveau voor ongewenste e-mail (SCL) instellen** \> **Spam filteren negeren**.
 
-   b. **De berichteigenschappen wijzigen** \> **een berichtkop instellen** : **Stel de kop van het bericht** \<CustomHeaderName\> **in op de waarde** \<CustomHeaderValue\> .
+   b. **De berichteigenschappen wijzigen** \> **een berichtkop instellen**: **Stel de kop van het bericht** \<CustomHeaderName\> **in op de waarde** \<CustomHeaderValue\> .
 
       Bijvoorbeeld `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`. Als de regel meer dan één domein bevat, kunt u de koptekst van de gewenste tekst aanpassen.
 
@@ -99,13 +99,13 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van 
 
 In plaats van een organisatie-instelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst met veilige afzenders in het postvak. Zie voor instructies voor het [instellen van instellingen voor ongewenste e-mail in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Dit is in de meeste situaties wenselijk, omdat afzenders delen van de filter stapel negeren. Hoewel u de afzender vertrouwt, kan deze nog steeds worden aangetast en moet de afzender kwaadaardige inhoud verzenden. Het is raadzaam om de filters uit te voeren die nodig zijn om elk bericht te controleren en vervolgens [de foutwaarde positief/negatief aan Microsoft te melden als de](report-junk-email-messages-to-microsoft.md) filters het probleem hebben. Het omzeilen van de filterstack verstoort ook met [ZAP](zero-hour-auto-purge.md).
 
-Wanneer spam wordt gefilterd door de lijst met veilige afzenders van een gebruiker, bevat het veld **X-Forefront-spam-report** header de waarde `SFV:SFE` waarmee wordt aangegeven dat spam, spoof en phishing-filters zijn genegeerd.
+Wanneer spam wordt gefilterd door de lijst met veilige afzenders van een gebruiker, bevat het veld **X-Forefront-spam-report** header de waarde `SFV:SFE` waarmee wordt aangegeven dat filteren op spam, spoofing en phishing is genegeerd.
 
 ## <a name="use-the-ip-allow-list"></a>De lijst met toegestane IP-adressen gebruiken
 
 Als u de e-mail stroom regels niet zoals hierboven beschreven kunt gebruiken, kunt u de bron-e-mailserver of servers toevoegen aan de lijst met toegestane IP-adressen in het filter beleid voor verbindingen. Zie voor meer informatie het [filteren van verbindingen configureren in EOP](configure-the-connection-filter-policy.md).
 
-**Opmerkingen** :
+**Opmerkingen**:
 
 - Het is belangrijk dat u het aantal toegestane IP-adressen naar een minimum beperkt, dus vermijdt u zo mogelijk volledige IP-adresbereiken.
 

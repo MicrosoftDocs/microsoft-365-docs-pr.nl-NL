@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-evalutatemtp
 ms.topic: article
-ms.openlocfilehash: 47f4ceeebd50784b1880a028ebe2698012c406da
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 503b7a6a6b3ad6394293e9f70dbdd336f6bee9dd
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844822"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49131307"
 ---
 # <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Uw Microsoft 365-proef omgeving voor Lab instellen 
 
@@ -36,30 +36,10 @@ ms.locfileid: "48844822"
 
 U maakt een Microsoft 365-proefabonnement voor proef omgevingen of pilot omgevingen en de implementatie ervan is een proces van drie fasen:
 
-<br>
-<table border="0" width="100%" align="center">
-  <tr style="text-align:center;">
-    <td align="center" style="width:25%; border:0;" >
-      <a href= "https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval?view=o365-worldwide"> 
-        <img src="../../media/prepare.png" alt="Prepare your Microsoft 365 Defender trial lab or pilot environment" title="Uw Microsoft 365 Defender-evaluatie lab of prototypeomgeving voorbereiden" />
-      <br/>Fase 1: voorbereiding </a><br>
-    </td>
-     <td align="center"bgcolor="#d5f5e3">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/setup-mtpeval?view=o365-worldwide">
-        <img src="../../media/setup.png" alt="Set up your Microsoft 365 Defender trial lab or pilot environment" title="Uw proefabonnement voor Microsoft 365 Defender of pilot omgeving instellen" />
-      <br/>Fase 2: instellen </a><br>
-    </td>
-    <td align="center">
-      <a href="https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide">
-        <img src="../../media/config-onboard.png" alt="
-Configure each Microsoft 365 Defender pillar for your Microsoft 365 Defender trial lab or pilot environment and onboard your endpoints" title="
-Elke Microsoft 365 voor Microsoft Defender-pijler configureren voor uw proefabonnement voor Microsoft 365 Defender of een proef omgeving" />
-      <br/>Fase 3: & onboard configureren </a><br>
-</td>
+|[![Fase 1: voorbereiding](../../media/phase-diagrams/prepare.png)](prepare-mtpeval.md)<br/>[Fase 1: voorbereiding](prepare-mtpeval.md) |![Fase 2: instellen](../../media/phase-diagrams/setup.png)<br/>Fase 2: instellen |[![Fase 3: onboarding](../../media/phase-diagrams/onboard.png)](config-mtpeval.md)<br/>[Fase 3: onboarding](config-mtpeval.md) | [![Terug naar de pilot](../../media/phase-diagrams/backtopilot.png)](mtp-pilot.md)<br/>[Terug naar de pilot Playbook](mtp-pilot.md) |
+|--|--|--|--|
+||*Dat is alles!*  | | |
 
-
-  </tr>
-</table>
 
 U bevindt zich momenteel in de configuratiefase. Voer de volgende stappen uit om toegang te krijgen tot het Microsoft 365-Beveiligingscentrum en vervolgens uw proefabonnement of pilot omgeving in te stellen.
 
@@ -178,5 +158,5 @@ In deze fase wordt u begeleid bij het volgende:
 
 
 ## <a name="next-step"></a>Volgende stap
-|![Fase 3: & onboard configureren](../../media/config-onboard.png) <br>[Fase 3: & onboard configureren](config-mtpeval.md) | Configureer elke Microsoft 365 Defender-pijler voor uw proefabonnement voor Microsoft 365 voor de proefversie of een proef omgeving, en haal uw eindpunten over.
+|[Fase 3: & onboard configureren](config-mtpeval.md) | Configureer elke Microsoft 365 Defender-pijler voor uw proefabonnement voor Microsoft 365 voor de proefversie of een proef omgeving, en haal uw eindpunten over.
 |:-------|:-----|
