@@ -212,6 +212,19 @@
           href: activity-reports/activity-reports.md
         - name: Gebruikersproductiviteit controleren met productiviteitsscore
           href: productivity/productivity-score.md
+          items:
+            - name: Samenwerken aan inhoud
+              href: productivity/content-collaboration.md
+            - name: Communicatie
+              href: productivity/communication.md
+            - name: Mobiliteit
+              href: productivity/mobility.md
+            - name: Teamwerk
+              href: productivity/teamwork.md
+            - name: Status van Microsoft 365-apps
+              href: productivity/apps-health.md
+            - name: DNS-records maken bij een DNS-host
+              href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
         - name: De contactgegevens van uw organisatie wijzigen
           href: manage/change-address-contact-and-more.md
         - name: De contactgegevens van uw beheerder bijwerken
