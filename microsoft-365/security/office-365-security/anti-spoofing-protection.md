@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
-ms.openlocfilehash: 631c38a49b3e1fa5217545449c522ccc9cf0d913
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 57d6dc8d9c1935578db15abdbb3e17e72bb64257
+ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844414"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130827"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -39,11 +39,11 @@ Wanneer het gaat om het beschermen van haar gebruikers, neemt Microsoft de dreig
 
 De volgende anti-spoofing-technologieën zijn beschikbaar in EOP:
 
-- **Spoof-intelligentie** : bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
+- **Spoof-intelligentie**: bekijk vervalste berichten van afzenders in interne en externe domeinen en sta die afzenders toe of blokkeer ze. Zie [spoof-intelligentie configureren in Microsoft 365](learn-about-spoof-intelligence.md) voor meer informatie.
 
-- **Antiphishing-beleid** : in EOP kunt u met het antiphishing-beleid spoof-intelligentie in- of uitschakelen, niet-geverifieerde afzenderidentificatie in Outlook in- of uitschakelen en de actie specificeren voor geblokkeerde vervalste afzenders (ga naar de map ongewenste e-mail of quarantaine). Het geavanceerd antiphishing-beleid dat beschikbaar is in Microsoft Defender voor Office 365, bevat ook anti-imitatie-instellingen (beveiligde afzenders en domeinen), mailbox intelligence-instellingen en aanpasbare geavanceerde phishing-drempels. Zie [Antiphishing-beleid configureren in Microsoft 365](set-up-anti-phishing-policies.md) voor meer informatie.
+- **Antiphishing-beleid**: in EOP kunt u met het antiphishing-beleid spoof-intelligentie in- of uitschakelen, niet-geverifieerde afzenderidentificatie in Outlook in- of uitschakelen en de actie specificeren voor geblokkeerde vervalste afzenders (ga naar de map ongewenste e-mail of quarantaine). Het geavanceerd antiphishing-beleid dat beschikbaar is in Microsoft Defender voor Office 365, bevat ook anti-imitatie-instellingen (beveiligde afzenders en domeinen), mailbox intelligence-instellingen en aanpasbare geavanceerde phishing-drempels. Zie [Antiphishing-beleid configureren in Microsoft 365](set-up-anti-phishing-policies.md) voor meer informatie.
 
-- **E-mailverificatie** : een integraal onderdeel van elke poging tot spoofing is het gebruik van e-mailverificatie (ook bekend als e-mailvalidatie) door SPF-, DKIM- en DMARC-records in DNS. U kunt deze records configureren voor uw domeinen, zodat doel-e-mailsystemen de geldigheid kunnen controleren van berichten die beweren afkomstig te zijn van afzenders in uw domeinen. Voor inkomende berichten vereist Microsoft 365 e-mailverificatie voor de domeinen van de afzender. Zie [E-mailverificatie in Microsoft 365](email-validation-and-authentication.md) voor meer informatie.
+- **E-mailverificatie**: een integraal onderdeel van elke poging tot spoofing is het gebruik van e-mailverificatie (ook bekend als e-mailvalidatie) door SPF-, DKIM- en DMARC-records in DNS. U kunt deze records configureren voor uw domeinen, zodat doel-e-mailsystemen de geldigheid kunnen controleren van berichten die beweren afkomstig te zijn van afzenders in uw domeinen. Voor inkomende berichten vereist Microsoft 365 e-mailverificatie voor de domeinen van de afzender. Zie [E-mailverificatie in Microsoft 365](email-validation-and-authentication.md) voor meer informatie.
 
 Vanaf oktober 2018 is bescherming tegen adresvervalsing beschikbaar in EOP.
 
@@ -55,13 +55,13 @@ EOP analyseert en blokkeert berichten die niet kunnen worden geverifieerd door d
 
 Spoofberichten hebben de volgende negatieve gevolgen voor gebruikers:
 
-- **Vervalste berichten misleiden gebruikers** : een vervalst bericht kan de ontvanger misleiden tot het klikken op een link en het opgeven van hun inloggegevens, het downloaden van malware of het beantwoorden van een bericht met gevoelige inhoud (bekend als een zakelijk e-mail compromis of BEC).
+- **Vervalste berichten misleiden gebruikers**: een vervalst bericht kan de ontvanger misleiden tot het klikken op een link en het opgeven van hun inloggegevens, het downloaden van malware of het beantwoorden van een bericht met gevoelige inhoud (bekend als een zakelijk e-mail compromis of BEC).
 
   In het volgende voorbeeld ziet u een phishingbericht met een vervalste afzender msoutlook94@service.outlook.com:
 
   ![Phishingbericht dat zich voordoet als service.outlook.com](../../media/1a441f21-8ef7-41c7-90c0-847272dc5350.jpg)
 
-  Dit bericht is niet afkomstig van service.outlook.com, maar de aanvaller heeft het **Van** -veld in de header vervalst om het er zo uit te laten zien. Dit was een poging om de ontvanger te misleiden om op de link voor het **wijzigen van uw wachtwoord** te klikken en hun inloggegevens op te geven.
+  Dit bericht is niet afkomstig van service.outlook.com, maar de aanvaller heeft het **Van**-veld in de header vervalst om het er zo uit te laten zien. Dit was een poging om de ontvanger te misleiden om op de link voor het **wijzigen van uw wachtwoord** te klikken en hun inloggegevens op te geven.
 
   Hieronder ziet u een voorbeeld van BEC waarin het vervalste e-mail domein contoso.com wordt gebruikt:
 
@@ -69,7 +69,7 @@ Spoofberichten hebben de volgende negatieve gevolgen voor gebruikers:
 
   Het bericht ziet er legitiem uit, maar de afzender is vervalst.
 
-- **Gebruikers verwarren echte berichten met nepberichten** : zelfs gebruikers die op de hoogte zijn van phishing kunnen moeite hebben om de verschillen tussen echte berichten en vervalste berichten te zien.
+- **Gebruikers verwarren echte berichten met nepberichten**: zelfs gebruikers die op de hoogte zijn van phishing kunnen moeite hebben om de verschillen tussen echte berichten en vervalste berichten te zien.
 
   Het volgende bericht is een voorbeeld van een echt wachtwoordherstelbericht van het Microsoft Beveiliging-account:
 
@@ -81,7 +81,7 @@ Spoofberichten hebben de volgende negatieve gevolgen voor gebruikers:
 
 Microsoft maakt onderscheid tussen twee verschillende typen adresvervalsingberichten:
 
-- **Intra-org-spoofing** : ook bekend als _Self-to-self_ -spoofing. Bijvoorbeeld:
+- **Intra-org-spoofing**: ook bekend als _Self-to-self_-spoofing. Bijvoorbeeld:
 
   - De afzender en ontvanger bevinden zich in hetzelfde domein:
     > Van: chris@contoso.com <br/> Aan: michelle@contoso.com
@@ -104,7 +104,7 @@ Microsoft maakt onderscheid tussen twee verschillende typen adresvervalsingberic
 
   - SFTY geeft het beveiligingsniveau van het bericht. 9 geeft phishing aan, .11 geeft aan dat er sprake is van intra-org-spoofing.
 
-- **spoofing tussen domeinen** : de afzender- en ontvangerdomeinen zijn verschillend en hebben geen relatie met elkaar (ook wel externe domeinen genoemd). Bijvoorbeeld:
+- **spoofing tussen domeinen**: de afzender- en ontvangerdomeinen zijn verschillend en hebben geen relatie met elkaar (ook wel externe domeinen genoemd). Bijvoorbeeld:
     > Van: chris@contoso.com <br/> Aan: michelle@tailspintoys.com
 
   Berichten waarvoor de [samengestelde verificatie](email-validation-and-authentication.md#composite-authentication) is mislukt vanwege adresvervalsing tussen domeinen bevatten de volgende waarden in de koppen:
@@ -133,11 +133,11 @@ Mailinglijsten (ook wel discussielijsten genoemd) staan erom bekend dat ze probl
 
 Stel dat Gabriela Laureano (glaureano@contoso.com) geïnteresseerd is in vogels spotten en lid wordt van de mailinglijst vogelspotters@fabrikam.com. Ze stuurt het volgende bericht naar de lijst:
 
-> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> **Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <br/><br/>Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg?
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> **Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg?
 
 De mailinglijstserver ontvangt het bericht, wijzigt de inhoud ervan en speelt het opnieuw af voor de leden van de lijst. Het opnieuw afgespeelde bericht heeft hetzelfde Van-adres (glaureano@contoso.com), maar er wordt een label aan de onderwerpregel toegevoegd en er wordt een voettekst onder aan het bericht toegevoegd. Dit type wijziging komt veel voor in mailinglijsten en kan leiden tot fout-positieven voor spoofing.
 
-> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> **Betreft:** [VOGELSPOTTERS] Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <br/><br/> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg? <br/><br/> Dit bericht is verzonden naar de Vogelspotters-discussielijst. U kunt zich op elk moment weer afmelden.
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> **Betreft:** [VOGELSPOTTERS] Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg? <p> Dit bericht is verzonden naar de Vogelspotters-discussielijst. U kunt zich op elk moment weer afmelden.
 
 Voer de volgende stappen uit, afhankelijk van of u de mailinglijst beheert, om ervoor te zorgen dat mailinglijstberichten anti-spoofingcontroles doorstaan:
 
