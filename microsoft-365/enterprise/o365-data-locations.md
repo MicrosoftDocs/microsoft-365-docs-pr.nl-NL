@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Bepalen waar uw Microsoft 365-klantgegevens wereldwijd worden opgeslagen
-ms.openlocfilehash: e450468b54bdbce0e6c01dd3b935922836ab9f90
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+ms.openlocfilehash: 4fd3f480ef2ad3389e9a959695b9654badbda27f
+ms.sourcegitcommit: 0badd6a7af803a52c7c46a4374211cb89307eacf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48493683"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135989"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -127,6 +127,7 @@ Onderstaande geeft de steden op waar data-at-rest wordt opgeslagen voor land-/re
 | Land | Plaats |
 | --- | --- |
 | Australië | Sydney, Melbourne |
+| Brazilië | Rio, Campinas |
 | Canada | Quebec City, Toronto |
 | Europese Unie | Oostenrijk (Wenen), Finland (Helsinki), Frankrijk (Parijs, Marseille), Ierland (Dublin), Nederland (Amsterdam). |
 | Frankrijk | Parijs, Marseille |
@@ -892,19 +893,19 @@ Nieuwe Microsoft 365-tenants worden standaard ingesteld op geografische locatie 
 
 | Service | Locatie |
 | --- | --- |
-| Exchange Online | Wereldwijde regio 3: Amerikaans continent |
-| OneDrive voor Bedrijven | Wereldwijde regio 3: Amerikaans continent |
-| SharePoint Online | Wereldwijde regio 3: Amerikaans continent |
+| Exchange Online | Brazilië |
+| OneDrive voor Bedrijven | Brazilië |
+| SharePoint Online | Brazilië |
 | Skype voor Bedrijven | Verenigde Staten |
-| Microsoft Teams | Verenigde Staten |
-| Office Online &amp; Mobile | Wereldwijde regio 3: Amerikaans continent |
-| EOP | Wereldwijde regio 3: Amerikaans continent |
+| Microsoft Teams | Brazilië |
+| Office Online &amp; Mobile | Brazilië |
+| EOP | Brazilië |
 | Intune | Verenigde Staten |
-| MyAnalytics | Wereldwijde regio 3: Amerikaans continent |
+| MyAnalytics | Brazilië |
 | Planner | Verenigde Staten |
 | Sway | Verenigde Staten |
 | Yammer | Verenigde Staten |
-| OneNote-services | Wereldwijde regio 3: Amerikaans continent |
+| OneNote-services | Brazilië |
 | Stream | Verenigde Staten |
 | Whiteboard | Verenigde Staten |
 | Forms | Verenigde Staten |
