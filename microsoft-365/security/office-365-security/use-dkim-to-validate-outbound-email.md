@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
-ms.openlocfilehash: a2cf47d12d00eb2f4b4d58921ea09ddfaa91cece
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 7f9e33a6f117f5da592d875e40cefc6a0072fd4a
+ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446427"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49126671"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -311,7 +311,7 @@ In dit voorbeeld bevatten de hostnaam en het domein de waarden waarnaar de CNAME
 ## <a name="set-up-dkim-so-that-a-third-party-service-can-send-or-spoof-email-on-behalf-of-your-custom-domain"></a>DKIM instellen zodat een externe service namens uw aangepaste domein e-mails kan verzenden of spoofen
 <a name="SetUp3rdPartyspoof"> </a>
 
-Bij sommige providers voor bulkmail, of providers van software-als-een-service, kunt u DKIM-sleutels instellen voor e-mail die afkomstig is van hun service. Hiervoor is coördinatie tussen uzelf en de derde partij nodig om de vereiste DNS-records in te stellen. Er zijn er geen twee organisaties die dit op precies dezelfde manier doen. In plaats daarvan hangt het proces volledig af van de organisatie.
+Bij sommige providers voor bulkmail, of providers van software-als-een-service, kunt u DKIM-sleutels instellen voor e-mail die afkomstig is van hun service. Hiervoor is coördinatie tussen uzelf en de derde partij nodig om de vereiste DNS-records in te stellen. Sommige servers van derden kunnen eigen CNAME-records met verschillende Select-records hebben. Er zijn er geen twee organisaties die dit op precies dezelfde manier doen. In plaats daarvan hangt het proces volledig af van de organisatie.
 
 Een voorbeeldbericht met een correct geconfigureerde DKIM voor contoso.com en bulkemailprovider.com kan er als volgt uitzien:
 
