@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Gegevens verplaatsingen bestaan uit een back-end en worden weergegeven wanneer door Microsoft services en bijbehorende gegevens voor uw Tenant worden verplaatst naar een nieuw datacenter-geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 63536a46e28f264f49e8071710221b0847f62414
-ms.sourcegitcommit: 86e878849a8bdd456cee6a3f49939d26223fb626
+ms.openlocfilehash: ca3159aeb951fb0cb3bf3aba953979dabc6ba024
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48997789"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349254"
 ---
 # <a name="during-and-after-your-data-move"></a>Tijdens en na het verplaatsen van uw gegevens
 
@@ -46,6 +46,7 @@ Bekijk het Microsoft 365-berichtencentrum ter bevestiging wanneer u de chatfunct
 |Zwitserland, Liechtenstein  <br/> |Woensdag 1 juli 2022  <br/> |
 |Noorwegen  <br/> |Woensdag 1 november 2022  <br/> |
 |Duitsland  <br/> |1 mei 2023  <br/> |
+|Brazilië  <br/> |Woensdag 1 juni 2023  <br/> |
 
 ## <a name="exchange-online"></a>Exchange Online
 

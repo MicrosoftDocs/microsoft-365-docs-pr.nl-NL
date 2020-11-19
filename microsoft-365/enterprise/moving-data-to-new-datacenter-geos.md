@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Lees meer over de nieuwe Office 365 datacenter GEOS en hoe u de optie gegevens woonplaats kunt gebruiken om een verplaatsing van de kerngegevens naar een nieuwe geo te vragen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17b8d5c828a8c528aba180c260510345e77226d5
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: 6c5e63a973ca6fdf6aaaaca884df306ff790c325
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333710"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349242"
 ---
 # <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>Basisgegevens verplaatsen naar nieuwe Microsoft 365 datacenter GEOS
 
@@ -48,6 +48,7 @@ Bestaande klanten die hun kern klantgegevens hebben opgeslagen in een al bestaan
 |**Zwitserland, Liechtenstein**| Europese Unie | Zwitserland | December 2019 |
 |**Duitsland**| Europese Unie | Duitsland | December 2019 |
 |**Noorwegen**| Europese Unie | Noorwegen | April 2020 |
+|**Brazilië**| Amerikaanse | Brazilië | November 2020 |
 
 Met een Office 365 education-abonnement dat deel uitmaakt van de Tenant, is het niet mogelijk om te migreren vanaf 1 oktober 2020.
 

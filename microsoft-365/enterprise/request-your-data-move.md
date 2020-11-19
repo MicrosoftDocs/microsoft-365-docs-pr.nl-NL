@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Bestaande Office 365-klanten moeten een aanvraag indienen vóór de deadline voor de deadline voor de datum waarop hun Microsoft 365-Services-gegevens zijn verplaatst naar hun nieuwe geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6ad699830389ef405b005bf8675a2bd0fb4f20b
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 216cd3b0cb55cbbe6be89945b98a01ae469ec4e2
+ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877253"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349230"
 ---
 # <a name="how-to-request-your-data-move"></a>De verplaatsing van uw gegevens aanvragen
 
@@ -45,6 +45,7 @@ In aanmerking komende Microsoft 365-klanten kunnen voor hun gehele organisatie d
 |Zwitserland, Liechtenstein  <br/> |Dinsdag 10 december 2019  <br/> |30 juni 2020  <br/> |
 |Noorwegen  <br/> |Woensdag 15 april 2020  <br/> |30 oktober 2020  <br/> |
 |Duitsland  <br/> |Woensdag 1 november 2020  <br/> |30 april 2021  <br/> |
+|Brazilië  <br/> |Dinsdag 18 november 2020  <br/> |31 mei 2021  <br/> |
 
 ## <a name="how-to-request-a-move"></a>Een overstap aanvragen
 

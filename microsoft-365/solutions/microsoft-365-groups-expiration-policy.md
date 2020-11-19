@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Meer informatie over verloopbeleid voor Microsoft 365-groepen.
-ms.openlocfilehash: 8fc9c48d5a86c68eabd4139ad0a2d0dc1e83da0f
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 4b283bcc9f4e54462a71b9aee70d6312b9f127d6
+ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377221"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350710"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Verloopbeleid voor groepen Microsoft 365-groep
 
@@ -34,7 +34,7 @@ Wanneer een groep verloopt, betekent dit dat deze gedurende 30 dagen nog langer 
 Beheerders kunnen een verloopperiode opgeven en alle inactieve groepen die het einde van die periode bereiken en niet worden vernieuwd. (Inclusief gearchiveerde teams) De verloopperiode begint wanneer de groep is gemaakt, of op de datum waarop deze het laatst is vernieuwd. Groepseigenaren ontvangen automatisch een e-mailbericht vóór de vervaldatum, zodat ze de groep kunnen verlengen met een ander verloopinterval. Teams-gebruikers zien permanente meldingen in teams.
 
 Groepen die actief worden gebruikt, worden automatisch verlengd. Een groep wordt automatisch verlengd met een van de volgende acties:
-- SharePoint: weergeven, bewerken, downloaden, verplaatsen, delen of uploaden van bestanden.
+- SharePoint: weergeven, bewerken, downloaden, verplaatsen, delen of uploaden van bestanden. (Het weergeven van een SharePoint-pagina wordt niet geteld als een actie voor automatisch verlengen.)
 - Outlook: u kunt deelnemen aan een groep of een groepsbericht lezen of schrijven in de groep, en bijvoorbeeld een bericht (de webversie van Outlook).
 - Teams: u bezoekt een team kanaal.
 
@@ -55,13 +55,13 @@ Het is belangrijk om te weten dat de vervaldatum standaard is uitgeschakeld. Beh
 
 ## <a name="how-to-set-the-expiration-policy"></a>Het verloopbeleid instellen
 
-Zoals hierboven aangegeven, is vervaldatum standaard uitgeschakeld. Een beheerder dient het verloopbeleid in te schakelen en de eigenschappen in te stellen dat deze van kracht worden. Als u dit wilt inschakelen, wordt het naar **Azure Active Directory**-  >  **groepen**  >  **verloopt**. U kunt hier de standaardlevensduur voor groepen instellen en opgeven hoe ver van tevoren u de eerste en tweede verloop bevestiging wilt naar de eigenaar van de groep.
+Zoals hierboven aangegeven, is vervaldatum standaard uitgeschakeld. Een beheerder dient het verloopbeleid in te schakelen en de eigenschappen in te stellen dat deze van kracht worden. Als u deze optie wilt inschakelen, gaat u naar **Azure Active Directory**-  >  **groepen**  >  **verloopt**. U kunt hier de standaardlevensduur voor groepen instellen en opgeven hoe ver van tevoren u de eerste en tweede verloop bevestiging wilt naar de eigenaar van de groep.
 
 De levensduur van de groep wordt in dagen opgegeven en kan worden ingesteld op 180, 365 of op een aangepaste waarde die u opgeeft. De aangepaste waarde moet ten minste 30 dagen bedragen.
 
 Als de groep geen eigenaar heeft, wordt de vervaldatum van de e-mail naar de opgegeven beheerder verzonden.
 
-U kunt het beleid instellen voor al uw groepen, alleen geselecteerde groepen of het geheel uitschakelen door **geen**te selecteren. U kunt momenteel geen verschillende beleidsregels voor verschillende groepen hebben.
+U kunt het beleid instellen voor al uw groepen, alleen geselecteerde groepen of het geheel uitschakelen door **geen** te selecteren. U kunt momenteel geen verschillende beleidsregels voor verschillende groepen hebben.
 
 ![Schermafbeelding van instellingen voor groeps verloop in azure Active Directory](../media/azure-groups-expiration-settings.png)
 

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u meer informatie over ondersteuning voor de Microsoft 365-client-app voor verificatie op basis van certificaten.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 57ced47c268f4d0515acb26aa8f705fa6e9ae0f9
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: fde124fcefdf3b949ec35a3b2ed99b15ee36f85e
+ms.sourcegitcommit: 2beefb695cead03cc21d6066f589572d3ae029aa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999382"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349678"
 ---
 # <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Ondersteuning voor Microsoft 365-client-apps: verificatie op basis van certificaat
 
@@ -29,8 +29,8 @@ ms.locfileid: "48999382"
 
 Moderne verificatie is een overkoepelende term voor een combinatie van authenticatie-en autorisatie methoden. Dit zijn onder andere:
 
-- **Verificatiemethoden** : meervoudige verificatie; Verificatie op basis van client certificaat.
-- **Autorisatie methoden** : de implementatie van Microsoft Open Authorization (OAuth).
+- **Verificatiemethoden**: meervoudige verificatie; Verificatie op basis van client certificaat.
+- **Autorisatie methoden**: de implementatie van Microsoft Open Authorization (OAuth).
 
 Moderne verificatie wordt ingeschakeld via het gebruik van een authenticatie bibliotheek, zoals Active Directory Authentication Library (ADAL) of Microsoft Authentication Library (MSAL). Moderne verificatie is wat clients gebruiken om toegang tot bronnen van Microsoft 365 te verifiëren en te machtigen. Moderne verificatie maakt gebruik van OAuth en biedt een veilig mechanisme voor het verkrijgen van toegang tot Microsoft 365-Services, zonder dat ze toegang hebben tot gebruikersreferenties. Wanneer de gebruiker zich aanmeldt, verifieert de gebruiker rechtstreeks met Azure Active Directory en ontvangt een token paar voor Access/vernieuwen. Met het toegangstoken wordt de clienttoegang verleend tot de juiste bronnen in de Microsoft 365-Tenant. Een vernieuwingstoken wordt gebruikt om een nieuw toegangstoken of vernieuwingstoken paar te verkrijgen wanneer het huidige toegangstoken verloopt.
 
@@ -87,7 +87,7 @@ De meest recente versies van de volgende clients en platforms ondersteunen verif
 | Yammer | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Overwogen | N.v.t. | Overwogen |
 
 >[!NOTE]
-><sup>1</sup> Edge voor IOS en Android ondersteunt verificatie op basis van certificaten tijdens het account toevoegen van stromen. Edge voor iOS en Android biedt geen ondersteuning voor verificatie op basis van certificaten wanneer u authenticatie uitvoert voor websites die meestal intranetsites zijn. <br><br>  In dit scenario gaat een gebruiker navigeren naar een website (meestal op het intranet) waar de gebruiker moet authenticatie via een certificaat voor de website. Dit geldt niet voor moderne verificatie en maakt geen gebruik van een Microsoft-verificatie bibliotheek. Dit wordt veroorzaakt door een beperking met iOS: iOS voorkomt dat apps van derden toegang krijgen tot de systeemsleutel hanger, waar de certificaten worden opgeslagen (alleen Apple-apps en de Webwerkset van [Safari](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) hebben toegang tot de systeemsleutel hanger <br><br> De Edge is niet toegankelijk voor webkit, maar het is niet mogelijk om de sleutelhanger van het systeem te openen en de gebruiker met de optie certificaat te presenteren. Dit is helaas een ontwerp vanwege de architectuur van Apple.
+><sup>1</sup> Edge voor IOS en Android ondersteunt verificatie op basis van certificaten tijdens het account toevoegen van stromen. Edge voor iOS en Android biedt geen ondersteuning voor verificatie op basis van certificaten wanneer u authenticatie uitvoert voor websites die meestal intranetsites zijn. <br><br>  In dit scenario gaat een gebruiker navigeren naar een website (meestal op het intranet) waar de gebruiker moet authenticatie via een certificaat voor de website. Dit geldt niet voor moderne verificatie en maakt geen gebruik van een Microsoft-verificatie bibliotheek. Dit wordt veroorzaakt door een beperking met iOS: iOS voorkomt dat apps van derden toegang krijgen tot de systeemsleutel hanger, waar de certificaten worden opgeslagen (alleen Apple-apps en de Webwerkset van [Safari](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) hebben toegang tot de systeemsleutel hanger <br><br> Aangezien Edge gebruikmaakt van de [webkit](https://developer.apple.com/documentation/webkit) Framework voor het weergeven van websites, kan Edge geen toegang krijgen tot de systeemsleutel hanger en de gebruiker de mogelijkheid bieden een certificaat te gebruiken. Dit is helaas een ontwerp vanwege de architectuur van Apple.
 
 ## <a name="supported-powershell-modules"></a>Ondersteunde PowerShell-modules
 
