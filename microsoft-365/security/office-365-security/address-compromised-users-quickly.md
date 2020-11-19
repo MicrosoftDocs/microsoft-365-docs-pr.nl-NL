@@ -14,19 +14,19 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Meer informatie over het versnellen van het proces voor het opsporen en adresseren van gebruikersaccounts met automatisch onderzoek en antwoord mogelijkheden in Microsoft Defender voor Office 365, abonnement 2.
-ms.openlocfilehash: 0da065bea17796d09de771a767991804afb5335b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 80e4529f864d83d2a1711007f0f095de39955e68
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844594"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357905"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Opgetaste gebruikersaccounts met een automatisch onderzoek en antwoord
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[Microsoft Defender voor Office 365 abonnement 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) bevat krachtige mogelijkheden voor [automatisch onderzoek en reacties](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (lucht). Een dergelijk vermogen kan uw bedrijfsactiviteiten team een veel tijd en een inspanning van bedreigingen bieden. Microsoft blijft de functionaliteit van beveiligingsfuncties verbeteren. Onlangs werden lucht mogelijkheden uitgebreid met een in de preview-versie Playbook (momenteel in preview-versie). Lees dit artikel voor meer informatie over de beveiligings Playbook van de aanvaller. En de beschikbare tijd voor een blogbericht [detecteren en beantwoorden met Microsoft Defender voor Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) voor meer informatie.
+[Microsoft Defender voor Office 365 abonnement 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) bevat krachtige mogelijkheden voor [automatisch onderzoek en reacties](office-365-air.md) (lucht). Een dergelijk vermogen kan uw bedrijfsactiviteiten team een veel tijd en een inspanning van bedreigingen bieden. Microsoft blijft de functionaliteit van beveiligingsfuncties verbeteren. Onlangs werden lucht mogelijkheden uitgebreid met een in de preview-versie Playbook (momenteel in preview-versie). Lees dit artikel voor meer informatie over de beveiligings Playbook van de aanvaller. En de beschikbare tijd voor een blogbericht [detecteren en beantwoorden met Microsoft Defender voor Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) voor meer informatie.
 
 ![Automatisch onderzoek voor een gemanipuleerde gebruiker](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -59,7 +59,7 @@ Wanneer een gebruikersaccount wordt gekraakt, worden waarschuwingen geactiveerd.
 - [Details van geautomatiseerde onderzoeken weergeven](#view-details-about-automated-investigations)
 
 > [!IMPORTANT]
-> U moet de juiste machtigingen hebben om de volgende taken uit te voeren. Zie de [vereiste machtigingen voor het gebruik van lucht mogelijkheden](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide#required-permissions-to-use-air-capabilities).
+> U moet de juiste machtigingen hebben om de volgende taken uit te voeren. Zie de [vereiste machtigingen voor het gebruik van lucht mogelijkheden](office-365-air.md#required-permissions-to-use-air-capabilities).
 
 ### <a name="view-and-investigate-restricted-users"></a>Gebruikers met beperkte toegang weergeven en onderzoeken
 
@@ -73,31 +73,32 @@ U kunt op een aantal manieren naar een lijst met gebruikers met beperkte toegang
 
    ![Andere meldingen](/microsoft-365/media/office365atp-otheralertswidget.jpg)
 
-   Hiermee opent u de lijst met gebruikers met beperkte rechten.<br/>![Gebruikers met beperkingen in Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg)
+   Hiermee opent u de lijst met gebruikers met beperkte rechten.
 
-4. Selecteer een gebruikersaccount in de lijst om details weer te geven en actie te ondernemen, zoals [de beperkte gebruiker vrijgeven](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam).
+   ![Gebruikers met beperkingen in Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg)
+
+4. Selecteer een gebruikersaccount in de lijst om details weer te geven en actie te ondernemen, zoals [de beperkte gebruiker vrijgeven](removing-user-from-restricted-users-portal-after-spam.md).
 
 ### <a name="view-details-about-automated-investigations"></a>Details van geautomatiseerde onderzoeken weergeven
 
 Wanneer een geautomatiseerd onderzoek is begonnen, kunt u de details en resultaten bekijken in het beveiligings & nalevings centrum. Ga naar onderzoek voor **Threat Management**  >  **Investigations** en selecteer een onderzoek om de details ervan weer te geven.
 
-Zie [Details van een onderzoek weergeven](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results)voor meer informatie.
+Zie [Details van een onderzoek weergeven](air-view-investigation-results.md)voor meer informatie.
 
 ## <a name="keep-the-following-points-in-mind"></a>Let op de volgende punten
 
 - **Blijf op de hoogte van uw meldingen**. Aangezien u weet, loopt het langer een aanval niet, hoe groter de potentiële impact en kosten voor uw organisatie, klanten en partners. Vroegtijdige detectie en tijdig antwoord zijn essentieel voor het beperken van bedreigingen en vooral wanneer het account van een gebruiker wordt aangetast.
 
-- **Automatisering assistt, maar het team van uw beveiligingsactiviteiten wordt niet vervangen**. Met de functie voor automatisch onderzoek en antwoord kunt u een gemanipuleerde gebruiker op een vroeg moment detecteren, maar het team van uw beveiligingsactiviteiten dient waarschijnlijk een oplossing te bieden voor onderzoek en herstel. Hebt u hulp nodig? Zie [acties controleren en goedkeuren](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air#review-and-approve-actions).
+- **Automatisering assistt, maar het team van uw beveiligingsactiviteiten wordt niet vervangen**. Met de functie voor automatisch onderzoek en antwoord kunt u een gemanipuleerde gebruiker op een vroeg moment detecteren, maar het team van uw beveiligingsactiviteiten dient waarschijnlijk een oplossing te bieden voor onderzoek en herstel. Hebt u hulp nodig? Zie [acties controleren en goedkeuren](air-review-approve-pending-completed-actions.md).
 
 - **Vertrouw niet op een verdachte aanmeldingen als u maar wilt**. Als een gebruikersaccount wordt gekraakt, wordt dit mogelijk veroorzaakt door een verdachte inlog signaal. Soms is het de reeks activiteiten die zich voordoen nadat een account is geknoeid en een melding wordt geactiveerd. Wilt u meer weten over waarschuwingen? Zie [waarschuwings beleid](https://docs.microsoft.com/microsoft-365/compliance/alert-policies).
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Controleer de vereiste machtigingen voor het gebruik van lucht mogelijkheden](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide#required-permissions-to-use-air-capabilities)
+- [Controleer de vereiste machtigingen voor het gebruik van lucht mogelijkheden](office-365-air.md#required-permissions-to-use-air-capabilities)
 
-- [Schadelijke e-mail zoeken en onderzoeken in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered?view=o365-worldwide)
+- [Schadelijke e-mail zoeken en onderzoeken in Office 365](investigate-malicious-email-that-was-delivered.md)
 
 - [Meer informatie over AIR in Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 - [Ga naar het Microsoft 365-wegwijzer om te zien wat er binnenkort beschikbaar is en rollen](https://www.microsoft.com/microsoft-365/roadmap?filters=)
-

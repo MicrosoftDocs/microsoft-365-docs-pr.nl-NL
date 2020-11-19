@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen informatie over het gebruik van de nieuwe gebruikers die e-mail inzicht doorsturen in het beveiligings & Conformiteitscentrum gebruiken om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar nieuwe domeinen.
-ms.openlocfilehash: af66a84efbd4c0b8f1ccdacf4b71d1caca1c3929
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 22bbd762b221fae151a489aa1e9485dfc7baf06a
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877523"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357271"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Nieuwe gebruikers die e-mail inzicht doorsturen in de beveiligings & nalevings centrum
 
@@ -25,7 +25,7 @@ ms.locfileid: "48877523"
 
 Het verdacht wanneer nieuwe gebruikersaccounts in uw organisatie zich plotseling voor het doorsturen van e-mailberichten naar externe domeinen.
 
-De **nieuwe domeinen waarnaar e-mail inzicht wordt doorgestuurd** in de [beveiliging & nalevings centrum](https://protection.office.com) meldt dat u een melding krijgt wanneer nieuwe gebruikers in uw organisatie berichten doorsturen naar externe domeinen. Deze voorwaarde kan worden gebruikt voor het maken van beheerdersaccounts waarmee de nieuwe gebruikers zijn gemanipuleerd. Als u vermoedt dat de accounts zijn aangetast, raadpleegt u [reageren op een gemanipuleerd e-mailaccount](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account).
+De **nieuwe domeinen waarnaar e-mail inzicht wordt doorgestuurd** in de [beveiliging & nalevings centrum](https://protection.office.com) meldt dat u een melding krijgt wanneer nieuwe gebruikers in uw organisatie berichten doorsturen naar externe domeinen. Deze voorwaarde kan worden gebruikt voor het maken van beheerdersaccounts waarmee de nieuwe gebruikers zijn gemanipuleerd. Als u vermoedt dat de accounts zijn aangetast, raadpleegt u [reageren op een gemanipuleerd e-mailaccount](responding-to-a-compromised-email-account.md).
 
 Dit inzicht wordt alleen weergegeven als het probleem zich voordoet, en wordt weergegeven op de pagina voor het [doorsturen van rapporten](view-mail-flow-reports.md#forwarding-report) .
 
@@ -35,7 +35,7 @@ Wanneer u op de widget klikt, verschijnt er een flyout waar u meer informatie ku
 
 ![Info-menu dat wordt weergegeven nadat u hebt geklikt op de nieuwe gebruikers e-mail doorsturen](../../media/mfi-new-users-forwarding-email-details.png)
 
-U kunt deze detailpagina ook raadplegen wanneer u het inzicht selecteert nadat u op **AllesWeergeven** hebt geklikt in het gebied **belangrijkste inzichten &** gebied voor aanbevelingen ( **Reports** \> **Dashboard** rapporten of <https://protection.office.com/insightdashboard> ).
+U kunt deze detailpagina ook raadplegen wanneer u het inzicht selecteert nadat u op **AllesWeergeven** hebt geklikt in het gebied **belangrijkste inzichten &** gebied voor aanbevelingen (**Reports** \> **Dashboard** rapporten of <https://protection.office.com/insightdashboard> ).
 
 U kunt klikken op de koppeling **Zie het rapport dat is gekoppeld** aan de Insight-koppeling om naar het **rapport met doorstuur wijzigingen** te gaan, zoals in de volgende sectie is beschreven.
 
@@ -59,11 +59,11 @@ Dit rapport is niet rechtstreeks beschikbaar in het dash [Board voor e-mail stro
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens weergeven voor: nieuwe doorstuur gebruikers** :
+- **Gegevens weergeven voor: nieuwe doorstuur gebruikers**:
 
   ![Nieuwe weergave voor het doorsturen van gebruikers in het rapport met doorgestuurde wijzigingen](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
-- **Gegevens weergeven voor: nieuwe forwarding domains** :
+- **Gegevens weergeven voor: nieuwe forwarding domains**:
 
   ![Nieuwe weergave van doorgestuurd domein in het rapport voor het doorsturen van wijzigingen](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
@@ -73,18 +73,18 @@ Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeve
 
 Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
 
-- **Gegevens weergeven voor: nieuwe doorstuur gebruikers** :
+- **Gegevens weergeven voor: nieuwe doorstuur gebruikers**:
 
-  - **Naam** : het e-mailadres van de afzender.
+  - **Naam**: het e-mailadres van de afzender.
   - **Type forwarding**
   - **Adres van ontvanger**
   - **Details**
   - **Getal**
   - **Eerste doorstuur datum**
 
-- **Gegevens weergeven voor: nieuwe forwarding domains** :
+- **Gegevens weergeven voor: nieuwe forwarding domains**:
 
-  - **Naam** : het e-mail domein van de afzender.
+  - **Naam**: het e-mail domein van de afzender.
   - **Type forwarding**
   - **Adres van ontvanger**
   - **Details**
@@ -95,13 +95,13 @@ Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datum
 
 Als u een rij in de tabel selecteert, wordt een flyout met **Details** weergegeven met de volgende informatie:
 
-- **Naam** : dit is het e-mailadres van de afzender (van **gegevens weergeven voor: nieuwe weergave voor doorstuur gebruikers** ) of het e-mail domein van de afzender (van **gegevens weergeven voor: nieuwe weergave met forwarding domains** ).
+- **Naam**: dit is het e-mailadres van de afzender (van **gegevens weergeven voor: nieuwe weergave voor doorstuur gebruikers** ) of het e-mail domein van de afzender (van **gegevens weergeven voor: nieuwe weergave met forwarding domains** ).
 - **Type forwarding**
 - **Ontvanger**
 - **Details**
 - **Getal**
 - **Begindatum**
-- **Aanbeveling** : van hieruit kunt u klikken op de koppeling voor het beheren van de gebruiker in het microsoft 365-Beheercentrum.
+- **Aanbeveling**: van hieruit kunt u klikken op de koppeling voor het beheren van de gebruiker in het microsoft 365-Beheercentrum.
 
 ![Flyout Details van de tabel Details van de nieuwe weergave voor het doorsturen van gebruikers in het rapport met doorgestuurde wijzigingen](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 

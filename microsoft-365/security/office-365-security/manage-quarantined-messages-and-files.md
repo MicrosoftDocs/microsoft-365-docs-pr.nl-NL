@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven en beheren van quarantaine berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook quarantaine bestanden beheren in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: 94dfc8503d61c16aadc8e9d0ccfd295e2684fbba
-ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
+ms.openlocfilehash: fed05ee202e4352200a80516e0ec1b62c8421178
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349278"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357131"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -165,7 +165,7 @@ Wanneer u een bericht hebt geselecteerd, kunt u in het vervolgmenu **Details** v
   - Kies een van de volgende opties:
     - **Berichten uitbrengen voor alle geadresseerden**
     - **Berichten vrijgeven aan specifieke geadresseerden**
-    - **Berichten uitbrengen aan andere personen**
+    - **Berichten uitbrengen voor andere personen**: Opmerking: het vrijgeven van malware-berichten aan andere personen dan originele geadresseerden wordt niet ondersteund. 
 
   Klik op **Berichten vrijgeven** wanneer u gereed bent.
 
@@ -189,7 +189,7 @@ Wanneer u een bericht hebt geselecteerd, kunt u in het vervolgmenu **Details** v
 
   - **Object type**: **e-mail** (standaard), **URL** of **bijlage**.
 
-  - **Indeling voor indienen**: **netwerkbericht-id** (standaard met de overeenkomstige waarde in het vak **netwerkbericht-id** ) of **bestand** (Blader naar een Local. eml-of. msg-bestand). Als u **bestand** selecteert en vervolgens **netwerkbericht-id** selecteert, is de aanvankelijke waarde verdwenen.
+  - **Indeling voor indienen**: **netwerkbericht-id** (standaard met de overeenkomstige waarde in het vak **netwerkbericht-id** ) of **bestand** (Blader naar een Local. eml-of. msg-bestand). Houd er rekening mee dat als u **bestand** selecteert en vervolgens **netwerkbericht-id** selecteert, de aanvankelijke waarde is verdwenen.
 
   - **Geadresseerden**: Typ een originele geadresseerde van het bericht, of klik op **Alles selecteren** om alle geadresseerden te identificeren. U kunt ook op **de knop Alles selecteren** klikken en vervolgens selectief afzonderlijke geadresseerden verwijderen.
 
@@ -208,7 +208,7 @@ Wanneer u meerdere e-mailberichten in quarantaine selecteert (maximaal 100), ver
   > [!NOTE]
   > Kijk eens naar het volgende scenario: john@gmail.com verzendt een bericht naar faith@contoso.com en john@subsidiary.contoso.com. Gmail bifurcates dit bericht in twee kopieën die beide worden gerouteerd naar Quarantine als phishing in Microsoft. Een beheerder geeft beide berichten vrij op admin@contoso.com. Het eerste uitgebrachte bericht waarin het postvak van de beheerder is bereikt, wordt bezorgd. Het tweede uitgebrachte bericht wordt geïdentificeerd als duplicaten ontvangst en wordt overgeslagen. Berichten worden geïdentificeerd als duplicaten als ze dezelfde bericht-ID hebben en tijd hebben ontvangen.
 
-- **Berichten verwijderen**: nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, worden de berichten onmiddellijk verwijderd, zonder naar de originele ontvanger te worden verzonden.
+- **Berichten verwijderen**: nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, worden de berichten onmiddellijk verwijderd zonder dat ze naar de oorspronkelijke geadresseerden worden verzonden.
 
 Klik op **Sluiten** wanneer u gereed bent.
 

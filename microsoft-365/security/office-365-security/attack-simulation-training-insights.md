@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: In dit artikel leest u hoe u simulatie training in Microsoft 365 Beveiligingscentrum van invloed zijn op medewerkers en krijgt u inzicht in de resultaten van simulatie en training.
-ms.openlocfilehash: 80b8c275d1d64dd3dbd6509309fb88cd641734e3
-ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
+ms.openlocfilehash: 6a8ee15f14475a1cebb169ab49bdb0f490c81345
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48950981"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357349"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Meer inzicht krijgen middels aanvalssimulatietraining
 
@@ -54,4 +54,4 @@ De sectie aanbevolen acties bevat een beschrijving van de aanbevelingen die besc
 
 ## <a name="related-links"></a>Verwante koppelingen
 
-**Aanvals Simulator** [Maak een simulatie aanval](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide) en [Maak een nettolading voor de opleiding van uw personen](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training-payloads?view=o365-worldwide)
+**Aanvals Simulator** [Maak een simulatie aanval](attack-simulation-training.md) en [Maak een nettolading voor de opleiding van uw personen](attack-simulation-training-payloads.md)

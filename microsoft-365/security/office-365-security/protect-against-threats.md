@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-m365-defender
 description: Beheerders kunnen informatie lezen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe u deze voor uw organisatie gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6ac5b67d589db57d449ba61f07668b10b32706d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: d80e81ab5648d186bb72f29acc010442877aba7c
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845718"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356677"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-In deze handleiding wordt stapsgewijs uitgelegd hoe u de configuratie van Defender voor Office 365 in segmenten kunt afbreken. Als u nog niet bekend bent met de functies voor beveiliging van bedreigingen in Office 365, weet u niet zeker waar u moet beginnen, of als u het beste kunt *doen* , gebruikt u deze instructies als een controlelijst en een beginpunt.
+In deze handleiding wordt stapsgewijs uitgelegd hoe u de configuratie van Defender voor Office 365 in segmenten kunt afbreken. Als u nog niet bekend bent met de functies voor beveiliging van bedreigingen in Office 365, weet u niet zeker waar u moet beginnen, of als u het beste kunt *doen*, gebruikt u deze instructies als een controlelijst en een beginpunt.
 
 > [!IMPORTANT]
 > De **Aanbevolen instellingen worden voor elk type beleid opgenomen, maar er zijn veel opties beschikbaar en u kunt de instellingen aanpassen aan de behoeften van uw specifieke organisatie**. Sta ongeveer 30 minuten toe aan uw beleidsregels of wijzigingen die u kunt gebruiken in uw datacenter.
@@ -43,14 +43,14 @@ In deze handleiding wordt stapsgewijs uitgelegd hoe u de configuratie van Defend
 Functies voor beveiliging tegen bedreigingen zijn opgenomen in *alle* Microsoft-of Office 365-abonnementen. Sommige abonnementen hebben echter geavanceerde functies. In de onderstaande tabel vindt u een overzicht van de beveiligingsfuncties die in dit artikel zijn opgenomen, samen met de minimale abonnements vereisten.
 
 > [!TIP]
-> U ziet dat de stappen voor het inschakelen van de controle *stappen* niet werken met anti-malware, anti phishing en antispam, die zijn gemarkeerd als onderdeel van Office 365 Exchange Online Protection ( **EOP** ). Dit kan oneven zijn in een 365-artikel van een-artikel totdat u het volgende weet: ( **Defender for office 365** ) bevat en builds EOP.
+> U ziet dat de stappen voor het inschakelen van de controle *stappen* niet werken met anti-malware, anti phishing en antispam, die zijn gemarkeerd als onderdeel van Office 365 Exchange Online Protection (**EOP**). Dit kan oneven zijn in een 365-artikel van een-artikel totdat u het volgende weet: (**Defender for office 365**) bevat en builds EOP.
 
 ****
 
 |Type beveiliging|Vereisten voor het abonnement|
 |---|---|
 |Controlelogboekregistratie (voor rapportagedoeleinden)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)|
-|Beveiliging tegen malware|[Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) ( **EOP** )|
+|Beveiliging tegen malware|[Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) (**EOP**)|
 |Bescherming tegen phishing|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Beveiliging tegen ongewenste e-mail|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Automatisch wissen van 0 uur (voor e-mail)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
@@ -169,7 +169,7 @@ Voor het instellen van [veilige bijlagen](atp-safe-attachments.md)maakt u minima
 
      Klik op **Volgende**.
 
-3. Klik op de pagina **toegepast op** **een voorwaarde toevoegen** , kies **toegepast als: het domein van de ontvanger** , klik op **toevoegen** , selecteer uw domein of domeinen, klik op **toevoegen** , klik op **Voltooien** en klik op **volgende**.
+3. Klik op de pagina **toegepast op** **een voorwaarde toevoegen**, kies **toegepast als: het domein van de ontvanger**, klik op **toevoegen**, selecteer uw domein of domeinen, klik op **toevoegen**, klik op **Voltooien** en klik op **volgende**.
 
 4. Controleer de instellingen en klik vervolgens op **Voltooien**.
 
@@ -180,8 +180,8 @@ Voor het instellen van [veilige koppelingen](atp-safe-links.md), controleert u d
 1. Kies in het [beveiligings & nalevings centrum](https://protection.office.com)de optie veilige koppelingen voor het beleid voor **bedreigings beheer**  >  **Policy**  >  **ATP Safe Links** en klik op **globale instellingen** en configureer de volgende instellingen:
 
    - Controleer de optie **veilige koppelingen gebruiken in: Office 365-toepassingen** is ingeschakeld: inschakelen ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
-   - **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** : Schakel deze instelling uit om de gebruikers klikken te volgen: ![ uit-/uitschakelen ](../../media/scc-toggle-off.png) .
-   - **Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL** : Controleer of de optie is ingeschakeld: ingeschakeld ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken**: Schakel deze instelling uit om de gebruikers klikken te volgen: ![ uit-/uitschakelen ](../../media/scc-toggle-off.png) .
+   - **Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL**: Controleer of de optie is ingeschakeld: ingeschakeld ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
    Klik op **Opslaan** wanneer u gereed bent.
 
@@ -192,8 +192,8 @@ Voor het instellen van [veilige koppelingen](atp-safe-links.md), controleert u d
    - Typ een naam in het vak **naam** `Safe Links` en klik op **volgende**.
 
    - Configureer de volgende instellingen op de pagina **instellingen** :
-     - **Selecteer de actie voor onbekende, mogelijk schadelijke url's in berichten** : Kies **aan**.
-     - **Selecteer de actie voor onbekende of mogelijk schadelijke url's in Microsoft teams** : Kies **aan**.
+     - **Selecteer de actie voor onbekende, mogelijk schadelijke url's in berichten**: Kies **aan**.
+     - **Selecteer de actie voor onbekende of mogelijk schadelijke url's in Microsoft teams**: Kies **aan**.
      - **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden**
      - **Wachten tot URL-Scan is voltooid voordat het bericht wordt bezorgd**
      - **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden**
@@ -201,7 +201,7 @@ Voor het instellen van [veilige koppelingen](atp-safe-links.md), controleert u d
 
      Klik op **Volgende**.
 
-4. Klik op de pagina **toegepast op** **een voorwaarde toevoegen** , kies **toegepast als: het domein van de ontvanger** , klik op **toevoegen** , selecteer uw domein of domeinen, klik op **toevoegen** , klik op **Voltooien** en klik op **volgende**.
+4. Klik op de pagina **toegepast op** **een voorwaarde toevoegen**, kies **toegepast als: het domein van de ontvanger**, klik op **toevoegen**, selecteer uw domein of domeinen, klik op **toevoegen**, klik op **Voltooien** en klik op **volgende**.
 
 5. Controleer de instellingen en klik vervolgens op **Voltooien**.
 
@@ -209,7 +209,7 @@ Zie [Beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.m
 
 ## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>Deel 5-de ATP voor SharePoint, OneDrive en Microsoft teams ingeschakeld laten
 
-Werkbelastingen, zoals SharePoint, OneDrive en teams, zijn ontwikkeld voor samenwerking. Met behulp van Defender voor Office 365 kunt u bestanden die zijn geïdentificeerd als schadelijk op team sites en documentbibliotheken blokkeren en detecteren. Lees [hier](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)meer over het werken.
+Werkbelastingen, zoals SharePoint, OneDrive en teams, zijn ontwikkeld voor samenwerking. Met behulp van Defender voor Office 365 kunt u bestanden die zijn geïdentificeerd als schadelijk op team sites en documentbibliotheken blokkeren en detecteren. Lees [hier](atp-for-spo-odb-and-teams.md)meer over het werken.
 
 > [!IMPORTANT]
 > **Voordat u met deze procedure begint, controleert u of logboekregistratie al is ingeschakeld voor uw Microsoft 365-omgeving**. Dit gebeurt meestal door iemand die de rol audit logboeken heeft toegewezen in Exchange Online. Zie [auditlogboek zoeken in-of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md)voor meer informatie.

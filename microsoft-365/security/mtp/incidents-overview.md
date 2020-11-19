@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e5ac3e9a02c333d3168c328aa6ad5532c48af99e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6149b6f128b3c96d2338e325caa8df835c292b13
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846686"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357609"
 ---
 # <a name="incidents-overview-in-microsoft-365-defender"></a>Overzicht van incidenten in Microsoft 365 Defender
 
@@ -36,6 +36,8 @@ ms.locfileid: "48846686"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
+> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+>
 
 
 Incidenten zijn gebaseerd op verwante meldingen. Er worden waarschuwingen gemaakt wanneer een schadelijke gebeurtenis of activiteit op uw netwerk wordt weergegeven. Afzonderlijke waarschuwingen zorgen voor nuttige aanwijzingen over een voortdurende aanval. Een aanval maakt echter meestal uiteenlopende vectoren en technieken om een schending te voeren. Piecing afzonderlijk aanvullen van een ogenblik kan lastig en tijdrovend zijn.

@@ -14,12 +14,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365 for Enterprise heeft goedgekeurd.
-ms.openlocfilehash: 980146a2a9c2a909d0b65c20e460841dce9fecee
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: eef22b372df36a4e5d14351df342268c195d04ce
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754666"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356989"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 voor Enterprise voor contoso B.v.
 
@@ -66,6 +66,12 @@ Zie de volgende artikelen voor meer informatie:
 - [Overzicht van Microsoft 365 for Enterprise Security](contoso-security-summary.md)
 
   Contoso maakt gebruik van de volledige versie van Microsoft 365 voor beveiligingsfuncties voor identiteits-en toegangsbeheer, beveiliging tegen bedreigingen, informatiebescherming en beveiligingsbeheer.
+
+Bekijk deze aanvullende IT-scenario's en configuraties:
+
+- [COVID-19 respons en infrastructuur voor een Hybrid Workforce](../solutions/contoso-hybrid-workforce.md)
+
+  Meer informatie over hoe contoso hun infrastructuur voor externe toegang heeft bijgewerkt voor de COVID-19 Pandemic en de nieuwe infrastructuur van installaties en updates voor een Hybrid Workforce.
 
 - [Team voor een zeer geheim project](../solutions/contoso-team-for-top-secret-project.md)
 

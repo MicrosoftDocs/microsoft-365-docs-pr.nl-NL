@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie over het gebruik van quarantaine-Tags om te bepalen wat gebruikers kunnen doen met hun Quarantine-berichten.
-ms.openlocfilehash: e50d7eea4cec3c87231dda855725b1e901f5fa33
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e194aabf57a1a105f01d8d34815312d3c2fa153d
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845694"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357645"
 ---
 # <a name="quarantine-tags"></a>Quarantaine Tags
 
@@ -44,12 +44,12 @@ De beschikbare afzonderlijke machtigingen en de beschikbare afzonderlijke machti
 
 |Machtigingsset|Geen toegang|Beperkte toegang|Volledige toegang|
 |---|:---:|:---:|:---:|
-|**Afzender toestaan** ( _PermissionToAllowSender_ )|||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Afzender blokkeren** ( _PermissionToBlockSender_ )||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Delete** ( _PermissionToDelete_ )||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Voorbeeld** ( _PermissionToPreview_ )||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Toestaan dat geadresseerden een bericht uit Quarantine vrijgeven** ( _PermissionToRelease_ )|||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Toestaan dat geadresseerden een bericht aanvragen om te worden vrijgegeven uit Quarantine** ( _PermissionToRequestRelease_ )||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|**Afzender toestaan** (_PermissionToAllowSender_)|||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Afzender blokkeren** (_PermissionToBlockSender_)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Delete** (_PermissionToDelete_)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Voorbeeld** (_PermissionToPreview_)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Toestaan dat geadresseerden een bericht uit Quarantine vrijgeven** (_PermissionToRelease_)|||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Toestaan dat geadresseerden een bericht aanvragen om te worden vrijgegeven uit Quarantine** (_PermissionToRequestRelease_)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |
 
 Als u de standaardmachtigingen in de vooraf ingestelde machtigingsgroepen niet bevalt, kunt u aangepaste machtigingen gebruiken wanneer u aangepaste quarantaine Tags maakt of wijzigt. Zie voor meer informatie over wat u doet met de machtiging de sectie Machtigingen voor quarantaine voor de [quarantaine-label](#quarantine-tag-permission-details) verderop in dit artikel.
@@ -83,12 +83,12 @@ U maakt en wijst quarantaine tags toe in het beveiligings & nalevings centrum of
 
    Als u aangepaste machtigingen wilt opgeven, selecteert u **specifieke toegang instellen (Geavanceerd)** en configureert u de volgende instellingen:
 
-     - **Selecteer voorkeur van release actie** : Selecteer een van de volgende waarden:
-       - **Geen uitgave actie** : dit is de standaardwaarde.
+     - **Selecteer voorkeur van release actie**: Selecteer een van de volgende waarden:
+       - **Geen uitgave actie**: dit is de standaardwaarde.
        - **Toestaan dat geadresseerden een bericht uit Quarantine vrijgeven**
        - **Toestaan dat geadresseerden een bericht aanvragen om te worden vrijgegeven uit Quarantine**
 
-     - **Selecteer extra acties geadresseerden kunnen berichten in quarantaine plaatsen** : Selecteer enkele, alle of geen van de volgende waarden:
+     - **Selecteer extra acties geadresseerden kunnen berichten in quarantaine plaatsen**: Selecteer enkele, alle of geen van de volgende waarden:
        - **Wissen**
        - **Voorbeeld**
        - **Afzender toestaan**
@@ -178,19 +178,19 @@ De standaardwaarde voor ongebruikte parameters is `$false` , dus u hoeft de para
 
 In de volgende voorbeelden ziet u hoe u machtigingsobjecten kunt maken die overeenkomen met de vooraf ingestelde machtigingsgroepen:
 
-- **Geen toegang** :
+- **Geen toegang**:
 
   ```powershell
   $NoAccess = New-QuarantinePermissions
   ```
 
-- **Beperkte toegang** :
+- **Beperkte toegang**:
 
   ```powershell
   $LimitedAccess = New-QuarantinePermissions -PermissionToBlockSender $true -PermissionToDelete $true -PermissionToPreview $true -PermissionToRequestRelease $true
   ```
 
-- **Volledige toegang** :
+- **Volledige toegang**:
 
   ```powershell
   $FullAccess = New-QuarantinePermissions -PermissionToAllowSender $true -PermissionToBlockSender $true -PermissionToDelete $true -PermissionToPreview $true -PermissionToRelease $true
@@ -228,11 +228,11 @@ In _ondersteunde_ beveiligingsfuncties waarmee u berichten of bestanden (automat
 
 |Functie|Ondersteunde labels voor quarantaine?|Standaard gebruikte quarantaine Tags|
 |---|:---:|---|
-|[Anti spam beleid](configure-your-spam-filter-policies.md): <ul><li>**Spam** ( _SpamAction_ )</li><li>**Hoge betrouwbaarheid spam** ( _HighConfidenceSpamAction_ )</li><li>**Malafide e-mailadres** ( _PhishSpamAction_ )</li><li>**E-mail met malafide vertrouwens kwaliteit** ( _HighConfidencePhishAction_ )</li><li>**Bulk-e-mail** ( _BulkSpamAction_ )</li></ul>|Ja|<ul><li>DefaultSpamTag (volledige toegang)</li><li>DefaultHighConfSpamTag (volledige toegang)</li><li>DefaultPhishTag (volledige toegang)</li><li>DefaultHighConfPhishTag (geen toegang)</li><li>DefaultBulkTag (volledige toegang)</li></ul>
-|Anti malafide beleid: <ul><li>[Spoof Intelligence-bescherming](set-up-anti-phishing-policies.md#spoof-settings) ( _AuthenticationFailAction_ )</li><li>[Imitatie bescherming](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**E-mail wordt verzonden door een geïmiteerde gebruiker** ( _TargetedUserProtectionAction_ )</li><li>**E-mail wordt verzonden door een geïmiteerd domein** ( _TargetedDomainProtectionAction_ )</li><li>**Postvak intelligentie** \> **E-mail wordt verzonden door een geïmiteerde gebruiker** ( _MailboxIntelligenceProtectionAction_ )</li></ul></li></ul></ul>|Nee|n/b|
+|[Anti spam beleid](configure-your-spam-filter-policies.md): <ul><li>**Spam** (_SpamAction_)</li><li>**Hoge betrouwbaarheid spam** (_HighConfidenceSpamAction_)</li><li>**Malafide e-mailadres** (_PhishSpamAction_)</li><li>**E-mail met malafide vertrouwens kwaliteit** (_HighConfidencePhishAction_)</li><li>**Bulk-e-mail** (_BulkSpamAction_)</li></ul>|Ja|<ul><li>DefaultSpamTag (volledige toegang)</li><li>DefaultHighConfSpamTag (volledige toegang)</li><li>DefaultPhishTag (volledige toegang)</li><li>DefaultHighConfPhishTag (geen toegang)</li><li>DefaultBulkTag (volledige toegang)</li></ul>
+|Anti malafide beleid: <ul><li>[Spoof Intelligence-bescherming](set-up-anti-phishing-policies.md#spoof-settings) (_AuthenticationFailAction_)</li><li>[Imitatie bescherming](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365):<sup>\*</sup> <ul><li>**E-mail wordt verzonden door een geïmiteerde gebruiker** (_TargetedUserProtectionAction_)</li><li>**E-mail wordt verzonden door een geïmiteerd domein** (_TargetedDomainProtectionAction_)</li><li>**Postvak intelligentie** \> **E-mail wordt verzonden door een geïmiteerde gebruiker** (_MailboxIntelligenceProtectionAction_)</li></ul></li></ul></ul>|Nee|n/b|
 |[Beleid voor anti-malware](configure-anti-malware-policies.md): alle gevonden berichten worden altijd in quarantaine geplaatst.|Nee|n/b|
 |[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)|Nee|n/b|
-|Voor [e-mail stroom regels](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel transport-regels genoemd) met de actie: **Bezorg het bericht in de gehoste quarantaine** ( _quarantaine_ ).|Nee|n/b|
+|Voor [e-mail stroom regels](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel transport-regels genoemd) met de actie: **Bezorg het bericht in de gehoste quarantaine** (_quarantaine_).|Nee|n/b|
 |
 
 <sup>\*</sup> De instellingen voor imitatie beveiliging zijn alleen beschikbaar in Microsoft Defender voor Office 365.
@@ -251,7 +251,7 @@ Volledige instructies voor het maken en wijzigen van anti-spam beleid vindt u in
   
 4. Als u **quarantaine bericht** hebt geselecteerd voor de actie van een beschikbare spamfilter Verdict, is het dialoogvenster **quarantainebeleid toepassen** beschikbaar voor het selecteren van de Quarantine-tag voor die Verdict.
 
-   **Opmerking** : wanneer u een nieuw beleid maakt, wordt er een lege Quarantine-label waarde voor een spam filterd verdict aangegeven Wanneer u de beleidsregels later bewerkt, worden de lege waarden vervangen door de werkelijke namen van de werkelijke namen van quarantaine Tags, zoals beschreven in de vorige tabel.
+   **Opmerking**: wanneer u een nieuw beleid maakt, wordt er een lege Quarantine-label waarde voor een spam filterd verdict aangegeven Wanneer u de beleidsregels later bewerkt, worden de lege waarden vervangen door de werkelijke namen van de werkelijke namen van quarantaine Tags, zoals beschreven in de vorige tabel.
   
    ![Selectie van quarantaine-Tags in een Antispambeleid](../../media/quarantine-tags-in-anti-spam-policies.png)
 
@@ -265,7 +265,7 @@ Als u liever PowerShell gebruikt om quarantaine tags toe te wijzen in Antispambe
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
 ```
 
-**Opmerkingen** :
+**Opmerkingen**:
 
 - De standaardwaarde voor de _HighConfidencePhishAction_ -parameter is Quarantine, dus u hoeft de Quarantine-actie niet in te stellen voor de detectie van hoge betrouwbaarheid in nieuwe antispambeleid. Voor alle andere Verdicts voor spamfilters in een nieuw of bestaand Antispambeleid, is de quarantaine-tag alleen van kracht als de actiewaarde Quarantine is. Voer de volgende opdracht uit als u de actiewaarden wilt weergeven in een bestaand Antispambeleid:
 
@@ -310,19 +310,19 @@ Met de algemene instellingen voor quarantaine Tags kunt u de spam meldingen voor
 
 3. Configureer enkele of alle van de volgende instellingen in het vervolgmenu met **instellingen voor Quarantine-meldingen** dat wordt geopend:
 
-   - **Mijn bedrijfslogo gebruiken** : Selecteer deze optie om het standaardlogo van Microsoft te vervangen dat wordt gebruikt voor spam meldingen voor eindgebruikers. Voordat u dit doet, moet u de instructies volgen in [het Microsoft 365-thema aanpassen voor uw organisatie](https://docs.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme) om het aangepaste logo te uploaden.
+   - **Mijn bedrijfslogo gebruiken**: Selecteer deze optie om het standaardlogo van Microsoft te vervangen dat wordt gebruikt voor spam meldingen voor eindgebruikers. Voordat u dit doet, moet u de instructies volgen in [het Microsoft 365-thema aanpassen voor uw organisatie](https://docs.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme) om het aangepaste logo te uploaden.
 
      In de volgende schermafbeelding ziet u een aangepast logo in een spam melding voor eindgebruikers:
 
      ![Een aangepast logo in een melding voor spam van eindgebruikers](../../media/quarantine-tags-esn-customization-logo.png)
 
-   - **Taal kiezen** : spam meldingen voor eindgebruikers zijn al gelokaliseerd op basis van de taalinstellingen van de geadresseerde. U kunt aangepaste tekst in verschillende talen opgeven voor de **weergavenaam** en de **vrijwarings** waarden.
+   - **Taal kiezen**: spam meldingen voor eindgebruikers zijn al gelokaliseerd op basis van de taalinstellingen van de geadresseerde. U kunt aangepaste tekst in verschillende talen opgeven voor de **weergavenaam** en de **vrijwarings** waarden.
 
      Selecteer minimaal één taal in het vak voor de eerste taal en klik op **toevoegen**. U kunt meerdere talen selecteren door op **toevoegen** te klikken. Een vak van de sectie taal bevat alle talen die u hebt geselecteerd:
 
      ![Geselecteerde talen in het tweede vak van de taal in de instellingen voor algemeen Quarantine-meldingen van quarantaine markeringen](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
-   - **Weergavenaam** : de weergavenaam van de afzender aanpassen die wordt gebruikt voor spam meldingen voor eindgebruikers.
+   - **Weergavenaam**: de weergavenaam van de afzender aanpassen die wordt gebruikt voor spam meldingen voor eindgebruikers.
 
      Voor elke taal die u hebt toegevoegd, selecteert u de taal in het tweede vak taal (niet op de X) en typt u de gewenste tekstwaarde in het vak **weergavenaam** .
 
@@ -330,7 +330,7 @@ Met de algemene instellingen voor quarantaine Tags kunt u de spam meldingen voor
 
      ![Een aangepaste weergavenaam van de afzender in een spam melding voor eindgebruikers](../../media/quarantine-tags-esn-customization-display-name.png)
 
-   - **Vrijwaring** : een aangepaste Disclaimer toevoegen aan de onderkant van spam meldingen voor eindgebruikers. De gelokaliseerde tekst, **een afwijzing van uw organisatie:** wordt altijd eerst opgenomen, gevolgd door de tekst die u opgeeft.
+   - **Vrijwaring**: een aangepaste Disclaimer toevoegen aan de onderkant van spam meldingen voor eindgebruikers. De gelokaliseerde tekst, **een afwijzing van uw organisatie:** wordt altijd eerst opgenomen, gevolgd door de tekst die u opgeeft.
 
      Voor elke taal die u hebt toegevoegd, selecteert u de taal in het tweede vak taal (niet op de X) en typt u de gewenste tekstwaarde in het vak **Disclaimer** .
 
@@ -372,7 +372,7 @@ Zie [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module
 
 ## <a name="remove-quarantine-tags-in-the-security--compliance-center"></a>Quarantaine markeringen verwijderen in het beveiligings & nalevings centrum
 
-**Opmerkingen** :
+**Opmerkingen**:
 
 - U kunt ingebouwde Quarantine-Tags niet verwijderen.
 
@@ -412,11 +412,11 @@ De afzonderlijke machtigingen in de vooraf ingestelde machtigingsgroepen worden 
 
 Als u in het deel van de Quarantine de machtigingen **geen toegangs** rechten (geen machtigingen) toewijst, krijgen gebruikers nog enkele basismogelijkheden:
 
-- **Details van quarantaine berichten** : de knop **koptekst van bericht weergeven** is altijd beschikbaar.
+- **Details van quarantaine berichten**: de knop **koptekst van bericht weergeven** is altijd beschikbaar.
 
   ![De beschikbare knoppen in de details van het gequarantinete bericht als met het quarantaine-label de gebruiker geen toegang heeft](../../media/quarantine-tags-quarantined-message-details-no-access.png)
 
-- **Meldingen voor spam van eindgebruikers** : de knop **controleren** waarmee de gebruiker het bericht in quarantaine afneemt is altijd beschikbaar.
+- **Meldingen voor spam van eindgebruikers**: de knop **controleren** waarmee de gebruiker het bericht in quarantaine afneemt is altijd beschikbaar.
 
   ![Beschikbare knoppen in de melding voor spam van eindgebruikers als met het quarantaine-label de gebruiker geen toegang heeft](../../media/quarantine-tags-esn-no-access.png)
 
@@ -424,7 +424,7 @@ Als u in het deel van de Quarantine de machtigingen **geen toegangs** rechten (g
 
 Als het Quarantine-label de machtigingen voor **beperkte toegang** toewijst, krijgen gebruikers de volgende mogelijkheden:
 
-- **Details van quarantaine bericht** : de volgende knoppen zijn beschikbaar:
+- **Details van quarantaine bericht**: de volgende knoppen zijn beschikbaar:
   - **Release aanvragen**
   - **Koptekst van bericht weergeven**
   - **Voorbeeld van bericht**
@@ -433,7 +433,7 @@ Als het Quarantine-label de machtigingen voor **beperkte toegang** toewijst, kri
 
   ![De beschikbare knoppen in de details van het gequarantinete bericht als de quarantaine-tag de gebruikers beperkte toegangsmachtigingen geeft](../../media/quarantine-tags-quarantined-message-details-limited-access.png)
 
-- **Spam meldingen voor eindgebruikers** : de volgende knoppen zijn beschikbaar:
+- **Spam meldingen voor eindgebruikers**: de volgende knoppen zijn beschikbaar:
   - **Afzender blokkeren**
   - **Gereviseerd**
 
@@ -443,7 +443,7 @@ Als het Quarantine-label de machtigingen voor **beperkte toegang** toewijst, kri
 
 Als het Quarantine-label de **volledige toegangs** machtigingen (alle beschikbare machtigingen) toewijst, krijgen gebruikers de volgende mogelijkheden:
 
-- **Details van quarantaine bericht** : de volgende knoppen zijn beschikbaar:
+- **Details van quarantaine bericht**: de volgende knoppen zijn beschikbaar:
   - **Bericht uitbrengen**
   - **Koptekst van bericht weergeven**
   - **Voorbeeld van bericht**
@@ -453,7 +453,7 @@ Als het Quarantine-label de **volledige toegangs** machtigingen (alle beschikbar
 
   ![De beschikbare knoppen in de details van het gequarantinete bericht als de Quarantine-tag de gebruiker volledige toegangsmachtigingen geeft](../../media/quarantine-tags-quarantined-message-details-full-access.png)
 
-- **Spam meldingen voor eindgebruikers** : de volgende knoppen zijn beschikbaar:
+- **Spam meldingen voor eindgebruikers**: de volgende knoppen zijn beschikbaar:
   - **Afzender blokkeren**
   - **Release**
   - **Gereviseerd**
@@ -467,59 +467,59 @@ Als het Quarantine-label de **volledige toegangs** machtigingen (alle beschikbar
 
 #### <a name="allow-sender-permission"></a>Toestemming voor afzender toestaan
 
-Met de machtiging **afzender toestaan** ( _PermissionToAllowSender_ ) kunt u de toegang tot de knop beheren waarmee gebruikers de verzender van het gequarantinete bericht eenvoudig kunnen toevoegen aan hun lijst met veilige afzenders.
+Met de machtiging **afzender toestaan** (_PermissionToAllowSender_) kunt u de toegang tot de knop beheren waarmee gebruikers de verzender van het gequarantinete bericht eenvoudig kunnen toevoegen aan hun lijst met veilige afzenders.
 
-- **Details van quarantaine berichten** :
+- **Details van quarantaine berichten**:
   - Toestemming voor **afzender toestaan** ingeschakeld: de knop **afzender toestaan** is beschikbaar.
   - Toestemming voor **afzender toestaan** uitgeschakeld: de knop **afzender toestaan** is niet beschikbaar.
 
-- **Meldingen voor spam van eindgebruikers** : geen effect.
+- **Meldingen voor spam van eindgebruikers**: geen effect.
 
-Zie voor meer informatie over de lijst met veilige afzenders de [Geblokkeerde afzenders verhinderen](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) en [Exchange Online PowerShell gebruiken voor het configureren van de veilige lijst-verzameling voor een postvak](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
+Zie voor meer informatie over de lijst met veilige afzenders de [Geblokkeerde afzenders verhinderen](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) en [Exchange Online PowerShell gebruiken voor het configureren van de veilige lijst-verzameling voor een postvak](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
 #### <a name="block-sender-permission"></a>Machtigingen voor afzender blokkeren
 
-Met de machtiging **afzender blokkeren** ( _PermissionToBlockSender_ ) kunt u de toegang tot de knop beheren waarmee gebruikers op de lijst met geblokkeerde afzenders in de lijst met geblokkeerde afzenders de juiste afzender kunnen toevoegen.
+Met de machtiging **afzender blokkeren** (_PermissionToBlockSender_) kunt u de toegang tot de knop beheren waarmee gebruikers op de lijst met geblokkeerde afzenders in de lijst met geblokkeerde afzenders de juiste afzender kunnen toevoegen.
 
-- **Details van quarantaine berichten** :
+- **Details van quarantaine berichten**:
   - Machtigingen voor **afzender blokkeren** ingeschakeld: de knop **afzender blokkeren** is beschikbaar.
   - Toestemming voor **afzender blokkeren** uitgeschakeld: de knop **afzender blokkeren** is niet beschikbaar.
 
-- **Spam meldingen voor eindgebruikers** :
+- **Spam meldingen voor eindgebruikers**:
   - Toestemming voor **afzender blokkeren** uitgeschakeld: de knop **afzender blokkeren** is niet beschikbaar.
   - Machtigingen voor **afzender blokkeren** ingeschakeld: de knop **afzender blokkeren** is beschikbaar.
 
-Zie voor meer informatie over de lijst met geblokkeerde afzenders [berichten van iemand blokkeren](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) en [Exchange Online PowerShell gebruiken om de veilige lijst-verzameling te configureren voor een postvak](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
+Zie voor meer informatie over de lijst met geblokkeerde afzenders [berichten van iemand blokkeren](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) en [Exchange Online PowerShell gebruiken om de veilige lijst-verzameling te configureren voor een postvak](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox).
 
 #### <a name="delete-permission"></a>Machtiging voor verwijderen
 
-Met de machtiging **verwijderen** ( _PermissionToDelete_ ) kunt u gebruikers de mogelijkheid bieden hun berichten te verwijderen (berichten waarvan de gebruiker een geadresseerde is) uit Quarantine.
+Met de machtiging **verwijderen** (_PermissionToDelete_) kunt u gebruikers de mogelijkheid bieden hun berichten te verwijderen (berichten waarvan de gebruiker een geadresseerde is) uit Quarantine.
 
-- **Details van quarantaine berichten** :
+- **Details van quarantaine berichten**:
   - Machtigingen voor **verwijderen** ingeschakeld: de knop **verwijderen uit quarantaine** is beschikbaar.
   - **Verwijderen** machtiging uitgeschakeld: de knop **verwijderen uit quarantaine** is niet beschikbaar.
 
-- **Meldingen voor spam van eindgebruikers** : geen effect.
+- **Meldingen voor spam van eindgebruikers**: geen effect.
 
 #### <a name="preview-permission"></a>Voorbeeld van machtiging
 
-Met de machtiging **voorbeeld** ( _PermissionToPreview_ ) kunt u bepalen of gebruikers hun berichten in quarantaine weergeven.
+Met de machtiging **voorbeeld** (_PermissionToPreview_) kunt u bepalen of gebruikers hun berichten in quarantaine weergeven.
 
-- **Details van quarantaine berichten** :
+- **Details van quarantaine berichten**:
   - **Voorbeeld** van machtigingen ingeschakeld: de knop **voorbeeld van bericht** is beschikbaar.
   - **Voorbeeld** van machtiging uitgeschakeld: de knop **voorbeeld van bericht** is niet beschikbaar.
 
-- **Meldingen voor spam van eindgebruikers** : geen effect.
+- **Meldingen voor spam van eindgebruikers**: geen effect.
 
 #### <a name="allow-recipients-to-release-a-message-from-quarantine-permission"></a>Toestaan dat geadresseerden een bericht uit quarantaine vrijgeven
 
-Met de mogelijkheid om te zorgen dat de gebruikers van de **quarantaine machtiging een bericht vrijgeven** ( _PermissionToRelease_ ), kunt u de mogelijkheid van gebruikers de mogelijkheid bieden rechtstreeks hun berichten in quarantaine te brengen en zonder de goedkeuring van een beheerder.
+Met de mogelijkheid om te zorgen dat de gebruikers van de **quarantaine machtiging een bericht vrijgeven** (_PermissionToRelease_), kunt u de mogelijkheid van gebruikers de mogelijkheid bieden rechtstreeks hun berichten in quarantaine te brengen en zonder de goedkeuring van een beheerder.
 
-- **Details van quarantaine berichten** :
+- **Details van quarantaine berichten**:
   - Machtigingen ingeschakeld: de knop **bericht vrijgeven** is beschikbaar.
   - Machtiging uitgeschakeld: de knop **bericht vrijgeven** is niet beschikbaar.
   
-- **Spam meldingen voor eindgebruikers** :
+- **Spam meldingen voor eindgebruikers**:
   - Machtigingen ingeschakeld: de knop **uitbrengen** is beschikbaar.
   - Machtiging uitgeschakeld: de knop **release** is niet beschikbaar.
 
@@ -527,8 +527,8 @@ Met de mogelijkheid om te zorgen dat de gebruikers van de **quarantaine machtigi
 
 De mogelijkheid van de _gebruikers om de_ vrijgave van de geplaatste berichten _PermissionToRequestRelease_ in te stellen, wordt bepaald door de mogelijkheid **dat geadresseerden een bericht aanvragen voor** de toegang tot de Quarantine. Het bericht wordt alleen vrijgegeven nadat een beheerder de aanvraag heeft goedgekeurd.
 
-- **Details van quarantaine berichten** :
+- **Details van quarantaine berichten**:
   - Machtigingen ingeschakeld: de knop **release aanvragen** is beschikbaar.
   - Machtiging uitgeschakeld: de knop **release aanvragen** is niet beschikbaar.
 
-- **Meldingen voor spam van eindgebruikers** : de knop **uitbrengen** is niet beschikbaar.
+- **Meldingen voor spam van eindgebruikers**: de knop **uitbrengen** is niet beschikbaar.

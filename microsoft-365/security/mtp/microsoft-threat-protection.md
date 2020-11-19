@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: a8d25ba0b36ad6ba1651ffe19e3e2f6e241548c7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 573f30dc3d8a43a337a4333dbaf05baf916857fa
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843802"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357897"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -34,7 +34,8 @@ ms.locfileid: "48843802"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-
+> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+>
 
 Microsoft 365 Defender is een geïntegreerde pre-en-update voor Enterprise defensie waarmee de detectie, preventie, onderzoek en reactie in eindpunten, identiteiten, e-mailberichten en toepassingen voor geïntegreerde beveiliging tegen geavanceerde aanvallen worden geboden.
 

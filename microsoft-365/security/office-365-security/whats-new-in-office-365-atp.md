@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 5aa1d5fe14f6213931e089c2f97fcf06c96397b3
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 01a5e374396b1f7ef79dff436cd9ecc4e0c4abf1
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131144"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357235"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuw in Microsoft Defender voor Office 365
 
@@ -41,11 +41,11 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 > [!TIP]
 > Hebt u nog geen Microsoft Defender voor Office 365? [Neem contact op met de verkoop om een proefabonnement te starten](https://go.microsoft.com/fwlink/p/?LinkId=518644).
 
-## <a name="november-2020"></a>November 2020 
+## <a name="november-2020"></a>November 2020
 
 - Bijgewerkte export limieten in beoordeling > Onderhoudscentrum > herstelactie via e-mail verzending en Actielogboek (Defender for Office 365, abonnement 2)
 
-## <a name="septemberoctober-2020"></a>September/oktober 2020 
+## <a name="septemberoctober-2020"></a>September/oktober 2020
 
 - [Uw beleidsregels controleren met behulp van configuratie analyse](configuration-analyzer-for-security-policies.md)
 - [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
@@ -53,27 +53,27 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 - Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md#threats-in-urls) (malware, phishing, spam of geen) (Defender for Office 365-abonnement 2)
 - [Verbeteringen in](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) de weergave van de versie van de Office-ervaring met updates rond bedreigingen, extra acties, lever locaties en bijgewerkte tijdlijnweergave (Defender voor Office 365, abonnement 2)
 
-## <a name="julyaugust-2020"></a>Juli 2020 
+## <a name="julyaugust-2020"></a>Juli 2020
 
 - [Ervaring met de ervaring voor de jacht](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365 abonnement 1 of abonnement 2)
 - [Eenvoudig aanbevolen instellingen toepassen via vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md) 
 
 ## <a name="marchapril-2020"></a>Maart 2020
 
-- De mogelijkheid voor het [oplossen van gebruikersaccounts met gemanipuleerde gebruikersaccounts met automatisch onderzoek en antwoord](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) is nu meestal beschikbaar. (Microsoft Defender voor Office 365-abonnement 2)
+- De mogelijkheid voor het [oplossen van gebruikersaccounts met gemanipuleerde gebruikersaccounts met automatisch onderzoek en antwoord](address-compromised-users-quickly.md) is nu meestal beschikbaar. (Microsoft Defender voor Office 365-abonnement 2)
 
 ## <a name="januaryfebruary-2020"></a>Januari 2020
 
 - [Algemene beschikbaarheid van campagne weergaven in Microsoft Defender voor office 365](campaigns.md) (Microsoft Defender voor Office 365-abonnement 2)
 - Uitbreidingen van de [bedreigings Verkenner](threat-explorer.md) voor het in-en uitschakelen van beveiligingsactiviteiten teams om meerdere velden te doorzoeken en te filteren, terwijl u [e-mail](investigate-malicious-email-that-was-delivered.md)bezorgt: (Microsoft Defender voor Office 365-abonnement 2)
-    - Bezorgingslocatie en speciale acties
-    - Richting (inkomend, uitgaand of intra organisatie)
-    - Geavanceerde niet-filters (dit zijn Geavanceerde filteropties die geen deel uitmaken van de optie geen, enzovoort).
-    - Granulaire tijdfilters (dag, uur, half uur) 
+  - Bezorgingslocatie en speciale acties
+  - Richting (inkomend, uitgaand of intra organisatie)
+  - Geavanceerde niet-filters (dit zijn Geavanceerde filteropties die geen deel uitmaken van de optie geen, enzovoort).
+  - Granulaire tijdfilters (dag, uur, half uur)
 
 - De widget **incidenten** is nu de widget van het **Actiecentrum** . (Als u uw beveiligings widgets wilt bekijken, gaat u naar het beveiligings & nalevings centrum en gaat u naar **risicobeheer**  >  **Reviseren**.) (Microsoft Defender voor Office 365-abonnement 2)
 
-- [Veilige documenten in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(preview)**
+- [Veilige documenten in Microsoft 365](safe-docs.md) **(preview)**
 
 ## <a name="december-2019"></a>December 2019
 

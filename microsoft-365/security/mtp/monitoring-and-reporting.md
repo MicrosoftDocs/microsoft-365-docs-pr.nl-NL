@@ -17,17 +17,19 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e434f6088fa1cd08e6b14e3808007e89f32b83a3
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: d52c401c4b2e995e5ec18895c158f77ce0fce746
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48431037"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356881"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Rapporten in het Microsoft 365-Beveiligingscentrum bewaken en weergeven
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+>
 
 Het Microsoft 365 Beveiligingscentrum biedt een overzicht van de beschermings-en beveiligingsstatus in uw Microsoft 365-omgeving.
 
@@ -42,7 +44,7 @@ Kaarten zijn standaard gegroepeerd in de volgende categorieën:
 * [Apparaten](monitor-devices.md) : computers, mobiele telefoons en andere apparaten
 * [Apps](monitor-apps.md) -Programma's en bijgevoegde Online Services
 
-Ga naar **groeperen op onderwerp**als u de kaarten wilt herschikken en ze wilt groeperen in de volgende onderwerpen:
+Ga naar **groeperen op onderwerp** als u de kaarten wilt herschikken en ze wilt groeperen in de volgende onderwerpen:
 
 * **Risico** kaarten die entiteiten markeren, zoals accounts en apparaten, zijn mogelijk risico. Deze kaarten markeren ook mogelijke risico bronnen, zoals nieuwe Threat campagnes en geautoriseerde Cloud-apps  
 * **Detectie trends** : kaarten die de nieuwe bedreigings detectie, afwijkingen en beleidsschendingen markeren

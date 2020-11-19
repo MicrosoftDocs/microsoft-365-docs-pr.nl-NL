@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders in China met Office 365, beheerd door 21Vianet, kunnen informatie over het gebruik van zelfstandige Exchange Online Protection (EOP) om hun on-premises postvakken te beschermen.
-ms.openlocfilehash: eb17b25db93aa50c6c390b5f79cdbd707762a0f9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 9b91abec8d258df2b549cee1d538d2f65d2974ab
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202481"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356893"
 ---
 # <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>On-premises postvakken in China beveiligen met standalone EOP
 
@@ -36,7 +36,7 @@ ms.locfileid: "48202481"
 > [!NOTE]
 > Dit artikel is alleen van toepassing op Office 365, dat wordt beheerd door 21Vianet in China.
 
-Zelfs als u van plan bent om sommige of alle postvakken on-premises te hosten, kunt u de postvakken nog steeds beschermen met Exchange Online Protection (EOP). Voor het configureren van connectors moet uw account een globale beheerder of een beheerder van Exchange-beheerder (de rollen groep Organisatiebeheer) zijn. Zie [beheerdersrollen toewijzen in Office 365 beheerd door 21vianet](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-21vianet)voor informatie over de machtigingen van Office 365 met betrekking tot Exchange-machtigingen. Als al uw Exchange-postvakken on-premises zijn, voert u deze stappen uit om de EOP-service in te stellen.
+Zelfs als u van plan bent om sommige of alle postvakken on-premises te hosten, kunt u de postvakken nog steeds beschermen met Exchange Online Protection (EOP). Voor het configureren van connectors moet uw account een globale beheerder of een beheerder van Exchange-beheerder (de rollen groep Organisatiebeheer) zijn. Zie [beheerdersrollen toewijzen in Office 365 beheerd door 21vianet](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-21vianet&preserve-view=true)voor informatie over de machtigingen van Office 365 met betrekking tot Exchange-machtigingen. Als al uw Exchange-postvakken on-premises zijn, voert u deze stappen uit om de EOP-service in te stellen.
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Stap 1: het Microsoft 365-Beheercentrum gebruiken om uw domein toe te voegen en te verifiëren
 
@@ -45,7 +45,7 @@ Zelfs als u van plan bent om sommige of alle postvakken on-premises te hosten, k
 2. Volg de stappen in de portal om de toepasselijke DNS-records toe te voegen aan uw DNS-hosting provider om de eigendom van het domein te verifiëren.
 
 > [!TIP]
-> [Uw domein en gebruikers toevoegen aan Office 365, beheerd door 21vianet](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain?view=o365-21vianet) en [DNS-records voor Office 365 maken wanneer u uw DNS-records beheert](https://docs.microsoft.com/microsoft-365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?view=o365-21vianet) , zijn nuttige bronnen voor verwijzingen wanneer u uw domein aan de service toevoegt en DNS configureert.
+> [Uw domein en gebruikers toevoegen aan Office 365, beheerd door 21vianet](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain?view=o365-21vianet&preserve-view=true) en [DNS-records voor Office 365 maken wanneer u uw DNS-records beheert](https://docs.microsoft.com/microsoft-365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?view=o365-21vianet&preserve-view=true) , zijn nuttige bronnen voor verwijzingen wanneer u uw domein aan de service toevoegt en DNS configureert.
 
 ### <a name="step-2-add-recipients-and-configure-the-domain-type"></a>Stap 2: geadresseerden toevoegen en het domeintype configureren
 
@@ -80,7 +80,7 @@ Hoe weet u of deze taak heeft gewerkt?
 
 Op dit moment hebt u de service levering voor een correct geconfigureerde, uitgaande on-premises connector gecontroleerd en u hebt gecontroleerd of uw MX-record de EOP wijst. U kunt nu de volgende extra testen uitvoeren om te controleren of een e-mailbericht door de service naar uw on-premises omgeving wordt verzonden:
 
-- Ga in de Remote Connectivity Analyzer naar het tabblad **Office 365** en voer de test **inkomende SMTP-e-mail** onder **Internet-e-mail tests**uit.
+- Ga in de Remote Connectivity Analyzer naar het tabblad **Office 365** en voer de test **inkomende SMTP-e-mail** onder **Internet-e-mail tests** uit.
 
 - Een e-mailbericht verzenden vanuit een e-mailaccount op het web naar een e-mailadres in uw organisatie waarvan het domein overeenkomt met het domein dat u hebt toegevoegd aan de service. Bevestig de bezorging van het bericht in het on-premises postvak via Microsoft Outlook of een ander e-mailclient.
 

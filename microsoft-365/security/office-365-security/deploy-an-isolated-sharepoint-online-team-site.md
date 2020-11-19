@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: Gebruik deze stapsgewijze instructies voor het maken en configureren van een geïsoleerde SharePoint Online-team site in Microsoft Office 365.
-ms.openlocfilehash: f2800e74149e79e5c3f0444799f454ab8b3caf69
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f9e8482238c7da4d10b6299b0f8a997734edbb13
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203129"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356905"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite implementeren
 
@@ -79,13 +79,13 @@ U moet de volgende toegangsgroepen maken in azure AD:
     
     - Selecteer **Beveiliging** bij **Groepstype**.
 
-    - Typ een **naam**voor de groep.
+    - Typ een **naam** voor de groep.
 
     - Typ een beschrijving van de groep in de **groepsbeschrijving**.
 
     - Selecteer **Toegewezen** bij **Lidmaatschapstype**.
     
-5. Klik op **Maken** en sluit vervolgens de blade**Groep**.
+5. Klik op **Maken** en sluit vervolgens de blade **Groep**.
     
 6. Herhaal stappen 3-5 voor uw extra groepen.
     
@@ -112,7 +112,7 @@ Als u gebruikersaccounts en groepen beheert via Office 365, kunt u het Microsoft
   
 Voor het Microsoft 365-Beheercentrum, meldt u zich aan met een gebruikersaccount waaraan de rol van beheerder of beheerder van het bedrijf is toegewezen en groepen om de juiste gebruikersaccounts en groepen toe te voegen aan de juiste toegangsgroepen.
   
-Maak voor PowerShell eerst [verbinding met de Azure Active Directory PowerShell voor Graph module](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell?view=o365-worldwide#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Maak voor PowerShell eerst [verbinding met de Azure Active Directory PowerShell voor Graph module](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
 Gebruik vervolgens de volgende opdracht blokkering om een afzonderlijk gebruikersaccount toe te voegen aan een Access-groep:
   
@@ -166,17 +166,17 @@ Maak eerst de SharePoint Online-team site met deze stappen.
   
 1. Meld u aan bij het Microsoft 365-Beheercentrum met een account dat ook wordt gebruikt voor het beheren van de SharePoint Online-team site (een beheerder van SharePoint Online). Zie [Waar kan ik me aanmelden in Office 365?](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
 
-2. Klik in het Microsoft 365-Beheercentrum onder **beheer centra**op **SharePoint**.
+2. Klik in het Microsoft 365-Beheercentrum onder **beheer centra** op **SharePoint**.
 
 3. In het SharePoint-Beheercentrum, vouwt u **sites** uit en klikt u op **actieve sites**.
 
-4. Klik op **maken**en kies **andere opties**.
+4. Klik op **maken** en kies **andere opties**.
 
 5. Kies in de lijst **een sjabloon kiezen** de optie **team site**.
    
-6. Typ in **site naam**een naam voor de team site. 
+6. Typ in **site naam** een naam voor de team site. 
     
-7. Typ bij **primaire beheerder**het account waarmee u bent aangemeld.
+7. Typ bij **primaire beheerder** het account waarmee u bent aangemeld.
  
 8. Klik op **Voltooien**.
     
@@ -184,7 +184,7 @@ Vervolgens configureert u op de nieuwe SharePoint Online-team site machtigingen.
   
 1. Klik in de werkbalk op het pictogram Instellingen en vervolgens op **Site-machtigingen**.
 
-2. Klik onder **site delen**op **wijzigen hoe leden kunnen delen**.
+2. Klik onder **site delen** op **wijzigen hoe leden kunnen delen**.
 
 3. Kies de **enige site-eigenaren kunnen bestanden, mappen en de site delen**.
 
@@ -194,25 +194,25 @@ Vervolgens configureert u op de nieuwe SharePoint Online-team site machtigingen.
     
 6. Klik in het deelvenster **machtigingen** op **Geavanceerde instellingen voor machtigingen**.
     
-7. Klik op het tabblad **machtigingen** van uw browser op ** \<site name> leden** in de lijst.
+7. Klik op het tabblad **machtigingen** van uw browser op **\<site name> leden** in de lijst.
     
-8. Klik in **personen en groepen**op **Nieuw**.
+8. Klik in **personen en groepen** op **Nieuw**.
     
 9. Typ in het dialoogvenster **delen** de naam van de groep toegang tot siteleden, Selecteer deze en klik vervolgens op **delen**.
     
 10. Klik op de terugknop in uw browser.
     
-11. Klik op ** \<site name> eigenaren** in de lijst.
+11. Klik op **\<site name> eigenaren** in de lijst.
     
-12. Klik in **personen en groepen**op **Nieuw**.
+12. Klik in **personen en groepen** op **Nieuw**.
     
 13. Typ in het dialoogvenster **delen** de naam van de groep sitebeheerders toegang, Selecteer deze en klik vervolgens op **delen**.
     
 14. Klik op de terugknop in uw browser.
     
-15. Klik op ** \<site name> bezoekers** in de lijst.
+15. Klik op **\<site name> bezoekers** in de lijst.
     
-16. Klik in **personen en groepen**op **Nieuw**.
+16. Klik in **personen en groepen** op **Nieuw**.
     
 17. Typ in het dialoogvenster **delen** de naam van de groep toegang tot site kijkers, Selecteer deze en klik vervolgens op **delen**.
     
@@ -220,11 +220,11 @@ Vervolgens configureert u op de nieuwe SharePoint Online-team site machtigingen.
     
 De resultaten van deze machtigingsinstellingen zijn:
   
-- De SharePoint-groep ** \<site name> eigenaren** bevat de groep sitebeheerders toegang, waarbij alle leden het machtigingsniveau **volledig beheer** hebben.
+- De SharePoint-groep **\<site name> eigenaren** bevat de groep sitebeheerders toegang, waarbij alle leden het machtigingsniveau **volledig beheer** hebben.
     
-- De SharePoint-groep ** \<site name> leden** bevat de groep toegang tot siteleden, waarbij alle leden het machtigingsniveau voor **bewerken** hebben.
+- De SharePoint-groep **\<site name> leden** bevat de groep toegang tot siteleden, waarbij alle leden het machtigingsniveau voor **bewerken** hebben.
     
-- De SharePoint-groep ** \<site name> bezoekers** bevat de groep gebruikers van de site met de machtiging voor het **lezen** van de site.
+- De SharePoint-groep **\<site name> bezoekers** bevat de groep gebruikers van de site met de machtiging voor het **lezen** van de site.
     
 - De mogelijkheid om leden te uitnodigen andere leden uit te nodigen of voor niet-leden om toegang aan te vragen is uitgeschakeld.
     

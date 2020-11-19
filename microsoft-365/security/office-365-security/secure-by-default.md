@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de standaardinstelling veilig in Exchange Online Protection (EOP)
-ms.openlocfilehash: 9f676dcd89f0322792bd40e06879b9758082d94e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 23c0cad2b96b3a2002f235db7739b903cf862366
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131095"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357861"
 ---
 # <a name="secure-by-default-in-office-365"></a>Standaard veilig in Office 365
 
@@ -47,7 +47,7 @@ Aangezien Microsoft onze klanten de mogelijkheid geeft standaard te beschermen, 
 - Veilige afzenders van Outlook
 - Lijst met toegestane IP-adressen (verbindingen filteren)
 
-Meer informatie over deze overschrijvingen vindt u in [lijsten met veilige afzenders maken](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365).
+Meer informatie over deze overschrijvingen vindt u in [lijsten met veilige afzenders maken](create-safe-sender-lists-in-office-365.md).
 
 Deze instelling is standaard veilig en is niet een instelling die kan worden in-of uitgeschakeld, maar de manier waarop onze filters van het vak werken, om ongewenste berichten in uw postvakken te houden. De malware en de kwaliteit van de hoge betrouwbaarheid worden naar Quarantine verzonden. Alleen beheerders kunnen berichten beheren die zijn gequarantined als malware of phishing van hoge betrouwbaarheid, en kunnen ze ook fout-positieven naar Microsoft melden. Zie voor meer informatie geplaatste [berichten en bestanden beheren als beheerder in EOP](manage-quarantined-messages-and-files.md)
 

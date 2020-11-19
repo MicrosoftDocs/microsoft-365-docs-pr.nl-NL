@@ -17,18 +17,19 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 97dece3f3c732686cff885923532af14b6106b48
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 70fd278dd4cdeadd5e8911705ac3f87d981a3de0
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906837"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356869"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Overzicht van het Microsoft 365-Beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
+> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+>
 Het beheren van de beveiliging van uw bedrijf om te beschermen tegen een ooit veranderende bedreiging, biedt veel uitdagingen. Misschien hebt u te veel beveiligingsoplossingen met diverse locaties om veel besturingselementen te configureren. U kunt het lastig zijn om te weten welke besturingselementen het doel treffen en wat nieuwe uitdaging is voor uw personeelsleden. Het kan lastig zijn dat beveiligings teams het juiste evenwicht van beveiliging en productiviteit ontdekken.
 
 Voer Microsoft 365-Beveiligingscentrum in, de nieuwe functies voor het bewaken en beheren van beveiliging voor Microsoft identities, gegevens, apparaten, apps en infrastructuur. U kunt hier eenvoudig de beveiligingsstatus van uw organisatie bekijken, uw apparaten, gebruikers en apps configureren en waarschuwingen ontvangen voor verdachte activiteiten. Het Microsoft 365 Beveiligingscentrum is bedoeld om beveiligingsbeheerders en beveiliging van beveiligings processen te helpen bij het beheren en beveiligen van de organisatie.

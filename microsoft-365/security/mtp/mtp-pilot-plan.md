@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-scenario
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 4420342f964564305bb113c45ee0e3107f8a822e
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 649f3e777a330e1b60faf4f3513a470b51e56a80
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130979"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356977"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>Uw proefproject voor Microsoft 365 Defender plannen 
 
@@ -88,8 +88,8 @@ U kunt ook een scorecard maken om alle elementen van uw plan bijeen te brengen. 
 | Use-case | Vereisten | Configuratievereisten | Test plan | Verwacht resultaat | Status testen | Score | Opmerkingen |
 |:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 |Incidentenbeheer|-Microsoft 365 Defender  </br></br>-Microsoft Defender for Identity </br></br>-Microsoft Defender voor eindpunt </br></br>-Beveiliging van Microsoft Cloud-app (optioneel)|Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie |[Een aanval simuleren](mtp-pilot-simulate.md) <br></br>[Het incident onderzoeken](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#investigate-an-incident) |Onderzoekers kunnen inzicht krijgen in de reikwijdte en impact van het incident en het incident beheren||||
-|AutoIR|-Microsoft 365 Defender </br></br>-Microsoft Defender for Identity </br></br>-Microsoft Defender voor eindpunt |Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie <br>AutoIR inschakelen  |[Een aanval simuleren](mtp-pilot-simulate.md) <br></br>[Automatisch onderzoek](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#automated-investigation-and-remediation) |Waarschuwingen en incidenten worden automatisch doorgevoerd door Microsoft 365 Defender||||
-|Geavanceerd opsporen|-Microsoft 365 Defender </br></br>-Microsoft Defender voor eindpunt </br></br>-Microsoft Defender voor Office 365 |Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie|[Scenario voor Geavanceerd jacht](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate.md#advanced-hunting-scenario) |Onderzoekers kunnen gegevens vinden via Geavanceerd jacht, draaien naar beïnvloede entiteiten en aangepaste detecties maken||||
+|AutoIR|-Microsoft 365 Defender </br></br>-Microsoft Defender for Identity </br></br>-Microsoft Defender voor eindpunt |Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie <br>AutoIR inschakelen  |[Een aanval simuleren](mtp-pilot-simulate.md) <br></br>[Automatisch onderzoek](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#automated-investigation-and-remediation) |Waarschuwingen en incidenten worden automatisch doorgevoerd door Microsoft 365 Defender||||
+|Geavanceerd opsporen|-Microsoft 365 Defender </br></br>-Microsoft Defender voor eindpunt </br></br>-Microsoft Defender voor Office 365 |Zie de [vereisten](https://aka.ms/mtp-trial-lab) voor voorbereiden voor voorbereiden, instellen en configureren voor meer informatie|[Scenario voor Geavanceerd jacht](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-pilot-simulate#advanced-hunting-scenario) |Onderzoekers kunnen gegevens vinden via Geavanceerd jacht, draaien naar beïnvloede entiteiten en aangepaste detecties maken||||
 
 
 

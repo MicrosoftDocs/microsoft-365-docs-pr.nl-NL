@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom:
 - autoir
-ms.openlocfilehash: 101747fa1121c675938610b9681f98c6e39b7d75
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 27edc44145e7b61768d9caf00a3f308e8561d708
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446613"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357397"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Onjuiste positief en negatief rapporteren in automatisch onderzoek en antwoord mogelijkheden
 
@@ -36,16 +36,17 @@ ms.locfileid: "48446613"
 **Van toepassing op:**
 - Microsoft Defender voor Office 365
 
-Is er [geautomatiseerd onderzoek-en antwoord mogelijkheden in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) mis of er is iets misgegaan? Er zijn stappen die u kunt uitvoeren om het probleem op te lossen. U kunt:
-- [Meld een fout-positief/negatief aan Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);
-- [Pas uw meldingen](#adjust-an-alert-to-prevent-false-positives-from-recurring) aan (indien nodig). en 
-- [Herstelbewerkingen die zijn uitgevoerd, ongedaan maken](#undo-a-remediation-action). 
+Is er [geautomatiseerd onderzoek-en antwoord mogelijkheden in Office 365](automated-investigation-response-office.md) mis of er is iets misgegaan? Er zijn stappen die u kunt uitvoeren om het probleem op te lossen. U kunt:
 
-Gebruik dit artikel als leidraad. 
+- [Meld een fout-positief/negatief aan Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);
+- [Pas uw meldingen](#adjust-an-alert-to-prevent-false-positives-from-recurring) aan (indien nodig). en
+- [Herstelbewerkingen die zijn uitgevoerd, ongedaan maken](#undo-a-remediation-action).
+
+Gebruik dit artikel als leidraad.
 
 ## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Meld een fout-positief/negatief aan Microsoft voor analyse
 
-Als AIR in Microsoft Defender for Office 365 een e-mailbericht, een e-mailbijlage, een URL in een e-mailbericht of een URL in een Office-bestand heeft gemist, kunt u [verdachte spam, phishing, url's en bestanden verzenden naar Microsoft Office 365 scan](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission).
+Als AIR in Microsoft Defender for Office 365 een e-mailbericht, een e-mailbijlage, een URL in een e-mailbericht of een URL in een Office-bestand heeft gemist, kunt u [verdachte spam, phishing, url's en bestanden verzenden naar Microsoft Office 365 scan](admin-submission.md).
 
 U kunt ook [een bestand bij Microsoft indienen voor de analyse van malware](https://www.microsoft.com/wdsi/filesubmission).
 
@@ -57,7 +58,7 @@ Als uw organisatie [Microsoft Defender voor eind 365 punt](https://docs.microsof
 
 ## <a name="undo-a-remediation-action"></a>Een herstelactie ongedaan maken
 
-In de meeste gevallen geldt dat als een herstelactie is ondernomen voor een e-mailbericht, e-mailbijlage of URL, en het item eigenlijk geen bedreiging is, kan uw beveiligingsteam de actie ongedaan maken en stappen uitvoeren om te voorkomen dat de fout iets positief is. U kunt met behulp van de optie [bedreigingen](#undo-an-action-using-threat-explorer) en het [tabblad acties](#undo-an-action-using-the-actions-tab-for-an-investigation) een actie ongedaan maken. 
+In de meeste gevallen geldt dat als een herstelactie is ondernomen voor een e-mailbericht, e-mailbijlage of URL, en het item eigenlijk geen bedreiging is, kan uw beveiligingsteam de actie ongedaan maken en stappen uitvoeren om te voorkomen dat de fout iets positief is. U kunt met behulp van de optie [bedreigingen](#undo-an-action-using-threat-explorer) en het [tabblad acties](#undo-an-action-using-the-actions-tab-for-an-investigation) een actie ongedaan maken.
 
 > [!IMPORTANT]
 > Zorg ervoor dat u over de benodigde machtigingen beschikt voordat u probeert de volgende taken uit te voeren.
@@ -70,8 +71,8 @@ Met de bedreigings Verkenner kan uw beveiligingsteam een e-mailbericht vinden da
 
 |Voorbeeld|Opties voor ongedaan maken|Meer informatie|
 |---|---|---|
-|Een e-mailbericht is doorgestuurd naar de map Ongewenste E-mail van een gebruiker|-Verplaats het bericht naar de map Verwijderde items van de gebruiker<br/>-Verplaats het bericht naar het postvak in van de gebruiker <br/>-Verwijder het bericht|[Schadelijke e-mail zoeken en onderzoeken die is bezorgd in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered)|
-|Een e-mailbericht of een bestand is in quarantaine geplaatst|-De e-mail of het bestand vrijgeven <br/>-De e-mail of het bestand verwijderen|[Geplaatste berichten en bestanden in een beheerder in Office 365 beheren](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files)|
+|Een e-mailbericht is doorgestuurd naar de map Ongewenste E-mail van een gebruiker|<ul><li>Verplaats het bericht naar de map Verwijderde items van de gebruiker</li><li>Het bericht verplaatsen naar het postvak in van de gebruiker</li><li>Het bericht verwijderen</li></ul>|[Schadelijke e-mail zoeken en onderzoeken die is bezorgd in Office 365](investigate-malicious-email-that-was-delivered.md)|
+|Een e-mailbericht of een bestand is in quarantaine geplaatst|<ul><li>Het e-mailbericht of het bestand vrijgeven</li><li>Het e-mailbericht of het bestand verwijderen</li></ul>|[Geplaatste berichten in quarantaine beheren als beheerder](manage-quarantined-messages-and-files.md)|
 |
 
 ### <a name="undo-an-action-using-the-actions-tab-for-an-investigation"></a>Een bewerking ongedaan maken via het tabblad acties voor een onderzoek
@@ -86,12 +87,12 @@ In het Actiecentrum ziet u de acties die u kunt uitvoeren om de actie te herstel
 
 4. Selecteer het tabblad **acties** .
 
-5. Selecteer een item met de status **voltooid**en zoek een koppeling, zoals **goedgekeurd**, in de kolom **beslissing** . Er wordt een flyout geopend met meer informatie over de actie.
+5. Selecteer een item met de status **voltooid** en zoek een koppeling, zoals **goedgekeurd**, in de kolom **beslissing** . Er wordt een flyout geopend met meer informatie over de actie.
 
 6. Als u de actie ongedaan wilt maken, selecteert u **herstel verwijderen**.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
+[Microsoft Defender voor Office 365](office-365-atp.md)
 
 [AIR in Microsoft Defender voor Office 365](office-365-air.md)

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Meer informatie over het beheren van gebruikers van e-mailberichten in Exchange Online Protection (EOP), waaronder het gebruik van adreslijstsynchronisatie, SBV en PowerShell voor het beheren van gebruikers.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56e6f8955b5993fb4b5064aa92cdde80a4c67ffe
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 3c3e69def731a85c0dccffdcb5620560dcf00052
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201781"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356725"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>E-mailgebruikers beheren in standalone EOP
 
@@ -63,7 +63,7 @@ Voor zelfstandige EOP-organisaties met een klein aantal gebruikers, kunt u e-mai
 
    - **Achternaam**
 
-   - <sup>\*</sup>**Weergavenaam**: in dit vak worden standaard de waarden in de vakken **voornaam**, **initialen**en **Achternaam** weergegeven. U kunt deze waarde accepteren of wijzigen. De waarde moet uniek zijn en mag maximaal 64 tekens lang zijn.
+   - <sup>\*</sup>**Weergavenaam**: in dit vak worden standaard de waarden in de vakken **voornaam**, **initialen** en **Achternaam** weergegeven. U kunt deze waarde accepteren of wijzigen. De waarde moet uniek zijn en mag maximaal 64 tekens lang zijn.
 
    - <sup>\*</sup>**Alias**: Voer een unieke alias in met tot 64 tekens voor de gebruiker
 
@@ -77,7 +77,7 @@ Voor zelfstandige EOP-organisaties met een klein aantal gebruikers, kunt u e-mai
 
 ### <a name="use-the-eac-to-modify-mail-users"></a>Het Exchange-Beheercentrum gebruiken om e-mail gebruikers te wijzigen
 
-1. Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen**met geadresseerden.
+1. Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen** met geadresseerden.
 
 2. Selecteer de e-mail gebruiker die u wilt wijzigen en klik vervolgens **Edit** op het ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-AddIcon.png) .
 
@@ -128,7 +128,7 @@ Via het tabblad **organisatie** kunt u gedetailleerde informatie over de rol van
 
 ### <a name="use-the-eac-to-remove-mail-users"></a>Het Exchange-Beheercentrum gebruiken om e-mail gebruikers te verwijderen
 
-1. Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen**met geadresseerden.
+1. Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen** met geadresseerden.
 
 2. Selecteer de e-mail gebruiker die u wilt verwijderen en **Klik op het** ![ pictogram verwijderen ](../../media/ITPro-EAC-RemoveIcon.gif) .
 
@@ -230,7 +230,7 @@ Zie [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/r
 
 Ga op een van de volgende manieren te werk om te controleren of u e-mail gebruikers met een zelfstandige EOP hebt gemaakt, gewijzigd of verwijderd.
 
-- Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen**met geadresseerden. Controleer of de e-mail gebruiker wordt weergegeven (of niet wordt weergegeven). Selecteer e-mail gebruiker en Bekijk de informatie in het detailvenster of Klik **Edit** op ![ bewerkingspictogram bewerken ](../../media/ITPro-EAC-AddIcon.png) om de instellingen weer te geven.
+- Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen** met geadresseerden. Controleer of de e-mail gebruiker wordt weergegeven (of niet wordt weergegeven). Selecteer e-mail gebruiker en Bekijk de informatie in het detailvenster of Klik **Edit** op ![ bewerkingspictogram bewerken ](../../media/ITPro-EAC-AddIcon.png) om de instellingen weer te geven.
 
 - Voer in standalone EOP PowerShell de volgende opdracht uit om te controleren of de e-mail gebruiker wordt weergegeven (of wordt niet weergegeven):
 
@@ -258,11 +258,11 @@ Directory-synchronisatie via zelfstandige EOP is beschikbaar voor klanten met ee
 
 - Het gebruik van adreslijstsynchronisatie wordt aanbevolen voor gebruik met de volgende functies:
 
-  - Lijsten met **veilige afzenders van Outlook en geblokkeerde lijsten van afzenders**: wanneer u de service synchroniseert, hebben deze lijsten voorrang op het filteren van ongewenste e-mail in de service. Hiermee kunnen gebruikers hun eigen lijst met veilige afzenders en lijst met geblokkeerde afzenders beheren met individuele items voor de afzender en het domein. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes) voor meer informatie.
+  - Lijsten met **veilige afzenders van Outlook en geblokkeerde lijsten van afzenders**: wanneer u de service synchroniseert, hebben deze lijsten voorrang op het filteren van ongewenste e-mail in de service. Hiermee kunnen gebruikers hun eigen lijst met veilige afzenders en lijst met geblokkeerde afzenders beheren met individuele items voor de afzender en het domein. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
   - **Op mappen gebaseerde rand blokkeren (DBEB)**: Zie voor meer informatie over DBEB voor meer informatie over [het gebruik van op mappen gebaseerde blokken blokkeren om berichten die naar ongeldige geadresseerden zijn verzonden, af te](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)wijzen.
 
-  - **Eindgebruikers toegang tot Quarantine**: de geadresseerden moeten een geldige gebruikers-id en een geldig wachtwoord in de service hebben om toegang te krijgen tot de berichten in quarantaine. Zie geplaatste [berichten in quarantaine plaatsen en vrijgeven als een gebruiker](https://docs.microsoft.com/microsoft-365/security/office-365-security/find-and-release-quarantined-messages-as-a-user)voor meer informatie over quarantaine.
+  - **Eindgebruikers toegang tot Quarantine**: de geadresseerden moeten een geldige gebruikers-id en een geldig wachtwoord in de service hebben om toegang te krijgen tot de berichten in quarantaine. Zie geplaatste [berichten in quarantaine plaatsen en vrijgeven als een gebruiker](find-and-release-quarantined-messages-as-a-user.md)voor meer informatie over quarantaine.
 
   - **Regels voor e-mail stroom (ook wel transport-regels genoemd)**: wanneer u adreslijstsynchronisatie gebruikt, worden uw bestaande Active Directory-gebruikers en-groepen automatisch geüpload naar de Cloud, en kunt u vervolgens een e-mail stroom regel maken die specifieke gebruikers en/of groepen bedoelt, zonder dat u ze handmatig hoeft toe te voegen aan de service. Houd er rekening mee dat [dynamische distributiegroepen](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) niet kunnen worden gesynchroniseerd via adreslijstsynchronisatie.
 

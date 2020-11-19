@@ -20,19 +20,19 @@ description: Leer hoe u een geautomatiseerd onderzoek en antwoord kunt integrere
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: 8b08b441ca468b5efa1c4c003c636de2a43b3e7d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7b0b0570624b2e0dd40d40b178951a747698afe2
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844546"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357465"
 ---
 # <a name="use-the-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>De API voor beheeractiviteiten gebruiken voor aangepaste oplossingen of oplossingen voor rapportage van derden
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Met [Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)kunt u [gedetailleerde informatie raadplegen over geautomatiseerde onderzoek](air-view-investigation-results.md). Sommige organisaties gebruiken echter ook een aangepaste oplossing of een rapportage oplossing van derden. Als uw organisatie informatie wil integreren over een geautomatiseerd onderzoek met een dergelijke oplossing, kunt u gebruikmaken van de API Office 365 Management Activity.
+Met [Microsoft Defender voor Office 365](office-365-atp.md)kunt u [gedetailleerde informatie raadplegen over geautomatiseerde onderzoek](air-view-investigation-results.md). Sommige organisaties gebruiken echter ook een aangepaste oplossing of een rapportage oplossing van derden. Als uw organisatie informatie wil integreren over een geautomatiseerd onderzoek met een dergelijke oplossing, kunt u gebruikmaken van de API Office 365 Management Activity.
 
 Gebruik de volgende bronnen om dit in te stellen:
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-office365
 - seo-marvel-apr2020
 description: Beheerders kunnen meer te weten komen over de functie voor veilige bijlagen in Microsoft Defender voor Office 365.
-ms.openlocfilehash: d758db46f53be46d8213794f90bf8c462f9135e8
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: da3949a4520c52c7f5685efd109f8c976305ea06
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49020949"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357211"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Veilige bijlagen in Microsoft Defender voor Office 365
 
@@ -59,7 +59,7 @@ Het scannen van veilige bijlagen vindt plaats in dezelfde regio waarin uw gegeve
 
 In deze sectie worden de instellingen in het beleid voor veilige bijlagen beschreven:
 
-- **Veilige bijlagen onbekende malware** : met deze instelling wordt de actie bestuurd voor het scannen van schadelijke bijlagen in e-mailberichten. In de volgende tabel vindt u een beschrijving van de beschikbare opties:
+- **Veilige bijlagen onbekende malware**: met deze instelling wordt de actie bestuurd voor het scannen van schadelijke bijlagen in e-mailberichten. In de volgende tabel vindt u een beschrijving van de beschikbare opties:
 
   ****
 
@@ -69,24 +69,24 @@ In deze sectie worden de instellingen in het beleid voor veilige bijlagen beschr
   |**Monitor**|Levert berichten met bijlagen en spoort wat er gebeurt met ontdekte malware. <p> Het bezorgen van veilige berichten wordt mogelijk vertraagd door het scannen van veilige bijlagen.|Kijk waar de gedetecteerde malware in uw organisatie terechtkomt.|
   |**Blokkeren**|Hiermee voorkomt u dat berichten met gedetecteerde schadelijke bijlagen worden afgeleverd. <p> Berichten worden in [quarantaine geplaatst](manage-quarantined-messages-and-files.md) waarbij alleen beheerders (niet eindgebruikers) de berichten kunnen controleren, vrijgeven of verwijderen. <p> Toekomstige exemplaren van berichten en bijlagen automatisch blokkeren. <p> Het bezorgen van veilige berichten wordt mogelijk vertraagd door het scannen van veilige bijlagen.|Beschermt uw organisatie tegen herhaling van aanvallen met dezelfde malware-bijlagen. <p> Dit is de standaardwaarde en de aanbevolen waarde in de standaard en strikte [vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md).|
   |**Vervangen**|Verwijdert gedetecteerde schadelijke bijlagen. <p> Hiermee wordt de ontvanger gewaarschuwd dat bijlagen zijn verwijderd. <p>  Berichten worden in [quarantaine geplaatst](manage-quarantined-messages-and-files.md) waarbij alleen beheerders (niet eindgebruikers) de berichten kunnen controleren, vrijgeven of verwijderen. <p> Het bezorgen van veilige berichten wordt mogelijk vertraagd door het scannen van veilige bijlagen.|De zichtbaarheid van de ontvangers voor de verwijdering van bijlagen is vanwege malware gedetecteerd.|
-  |**Dynamische bezorging**|Hiermee worden berichten onmiddellijk bezorgd, maar worden bijlagen met tijdelijke aanduidingen vervangen totdat de scan is voltooid. <p> Zie voor meer informatie de sectie [dynamische bezorging in beleidsregels voor veilige bijlagen](#dynamic-delivery-in-safe-attachments-policies) verderop in dit onderwerp.|Voorkom dat berichten worden vertraagd wanneer u geadresseerden tegen kwaadwillende bestanden beschermt <br/> <br/> Voorbeelden van bijlagen weergeven in de veilige modus terwijl de scanfunctie plaatsvindt|
+  |**Dynamische bezorging**|Hiermee worden berichten onmiddellijk bezorgd, maar worden bijlagen met tijdelijke aanduidingen vervangen totdat de scan is voltooid. <p> Zie voor meer informatie de sectie [dynamische bezorging in beleidsregels voor veilige bijlagen](#dynamic-delivery-in-safe-attachments-policies) verderop in dit onderwerp.|Voorkom dat berichten worden vertraagd wanneer u geadresseerden tegen kwaadwillende bestanden beschermt. <p> Ontvangers kunnen voorbeelden van bijlagen weergeven in de veilige modus tijdens het scannen.|
   |
 
-- **Bijlage doorsturen naar detectie: Schakel omleiding** in en **Stuur de bijlage naar het volgende e-mailadres** : voor **blok** punten, **monitors** of **vervangen** , berichten met schadelijke bijlagen verzenden naar het opgegeven interne of externe e-mailadres voor analyse en onderzoek.
+- **Bijlage doorsturen naar detectie: Schakel omleiding** in en **Stuur de bijlage naar het volgende e-mailadres**: voor **blok** punten, **monitors** of **vervangen** , berichten met schadelijke bijlagen verzenden naar het opgegeven interne of externe e-mailadres voor analyse en onderzoek.
 
   De aanbeveling voor standaard-en strikte beleidsinstellingen is om omleiding in te schakelen. Zie [instellingen voor veilige bijlagen](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)voor meer informatie.
 
-- **De bovenstaande selectie toepassen als u wilt dat malware wordt gescand op bijlagen wanneer een fout optreedt of als de fout zich voordoet** , wordt de actie die is opgegeven door veilige bijlagen, ook wel als gevolg van **schadelijke malware** op berichten. Altijd deze optie selecteren als u **omleiden inschakelen** selecteert. Anders zijn er mogelijk berichten verloren.
+- **De bovenstaande selectie toepassen als u wilt dat malware wordt gescand op bijlagen wanneer een fout optreedt of als de fout zich voordoet**, wordt de actie die is opgegeven door veilige bijlagen, ook wel als gevolg van **schadelijke malware** op berichten. Altijd deze optie selecteren als u **omleiden inschakelen** selecteert. Anders zijn er mogelijk berichten verloren.
 
-- **Filters voor geadresseerden** : u moet de voorwaarden en uitzonderingen opgeven voor de ontvanger van het beleid. U kunt deze eigenschappen gebruiken voor voorwaarden en uitzonderingen:
+- **Filters voor geadresseerden**: u moet de voorwaarden en uitzonderingen opgeven voor de ontvanger van het beleid. U kunt deze eigenschappen gebruiken voor voorwaarden en uitzonderingen:
 
   - **De ontvanger is**
   - **Het domein van de ontvanger is**
   - **De ontvanger is lid van**
 
-  U kunt slechts één voorwaarde of een uitzondering gebruiken, maar de voorwaarde of uitzondering kan meerdere waarden bevatten. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_ ).
+  U kunt slechts één voorwaarde of een uitzondering gebruiken, maar de voorwaarde of uitzondering kan meerdere waarden bevatten. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
-- **Prioriteit** : als u meerdere beleidsregels maakt, kunt u de volgorde opgeven waarin ze worden toegepast. Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
+- **Prioriteit**: als u meerdere beleidsregels maakt, kunt u de volgorde opgeven waarin ze worden toegepast. Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
   Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Microsoft 365-beheerders kunnen leren hoe ze kunnen worden hersteld via een Ransomware-aanval.
-ms.openlocfilehash: de1cddbdf1c2b3ffeb8fd74a8f0d31e815eb1b70
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: a1369e64821902e3c2a3061acd1bbebeeb6c85ac
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920606"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357095"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Herstel van een Ransomware aanval in Microsoft 365
 
@@ -76,7 +76,7 @@ Als deze opties niet werken, kunt u [Windows Defender offline](https://support.m
 
 Nadat u de vorige stap hebt uitgevoerd om de een Ransomware-nettolading uit uw omgeving te verwijderen (zodat de software niet uw bestanden kan versleutelen of verwijderen), kunt u de [geschiedenis](https://support.microsoft.com/help/17128) van bestanden in Windows 10 en Windows 8,1 of systeembeveiliging in Windows 7 gebruiken om te proberen om uw lokale bestanden en mappen te herstellen.
 
-**Opmerkingen** :
+**Opmerkingen**:
 
 - U kunt ook de back-upversies van Ransomware versleutelen of verwijderen, zodat u geen bestanden kunt herstellen met bestandsgeschiedenis of systeembeveiliging Als dat het geval is, dan moet u gebruikmaken van back-ups op externe stations of apparaten die niet worden beïnvloed door de Ransomware of OneDrive, zoals beschreven in de volgende sectie.
 
@@ -148,7 +148,7 @@ U kunt phishingberichten met Ransomware melden door een van de volgende methoden
 
 - [Macro's in Office-bestanden in-of uitschakelen](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-- [Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp)
+- [Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging](recommended-settings-for-eop-and-office365-atp.md)
 
 - [Een waardevolle-upgrade: beveiliging van volgende generatie voor Windows 10 bewijst krachtig tegen Ransomware-uitbraken in 2017](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 

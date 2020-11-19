@@ -1,5 +1,5 @@
 ---
-title: Nieuw in Microsoft 365 Defender
+title: Wat is er nieuw in Microsoft 365 Defender
 description: Bevat een overzicht van de nieuwe functies en functionaliteit in Microsoft 365 Defender
 keywords: Nieuw in Microsoft Threat Protection, NH, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.product: eADQiWindows 10XVcnh
@@ -17,17 +17,19 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 5214f7c399ab511ec16231e4dda97a2c33b37668
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: ade93bf8c89077c117ada764478cc74f4a5f14cc
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844702"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357317"
 ---
-# <a name="whats-new-in-microsoft-365-defender"></a>Nieuw in Microsoft 365 Defender
+# <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+>
 
 De volgende functies zijn meestal beschikbaar (GA) in de nieuwste versie van Microsoft 365 Defender.
 
@@ -35,6 +37,9 @@ RSS-feed: waarschuwen wanneer deze pagina wordt bijgewerkt door de volgende URL 
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+> Wilt u Microsoft 365 Defender ervaren? U kunt [dit evalueren in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren in de productie](https://aka.ms/m365d-pilotplaybook)
+>
+
 ## <a name="september-2020"></a>September 2020
 - [IdentityDirectoryEvents-tabel](advanced-hunting-identitydirectoryevents-table.md) <br> Gebeurtenissen zoeken waarbij een on-premises domeincontroller met Active Directory (AD) wordt uitgevoerd. Deze schema tabel bevat [geavanceerde zoek](advanced-hunting-overview.md) opdrachten die betrekking hebben op de domeincontroller, biedt een bereik aan identiteits gerichte gebeurtenissen en systeemgebeurtenissen.
 - [AssignedIPAddresses (), functie](advanced-hunting-assignedipaddresses-function.md) <br> Gebruik deze functie in uw geavanceerde jacht-query's om snel de nieuwste IP-adressen te verkrijgen die zijn toegewezen aan een apparaat of de meest recente IP-adressen vanaf een specifieke tijd.

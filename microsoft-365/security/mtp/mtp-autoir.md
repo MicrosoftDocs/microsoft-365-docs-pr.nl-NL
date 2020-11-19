@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 09/16/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: d17bd49206bcdef9f60a4873c642179165753887
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2b8872288291adc0b9fc5e1c1541f885711df230
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843682"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49356701"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Automatisch onderzoek en antwoord in Microsoft 365 Defender
 
@@ -35,6 +35,9 @@ ms.locfileid: "48843682"
 
 **Van toepassing op:**
 - Microsoft 365 Defender
+
+> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+>
 
 Wanneer beveiligingswaarschuwingen worden geactiveerd, kunt u het beste uw beveiligingsteam raadplegen met deze waarschuwingen en de stappen ondernemen om uw organisatie te beveiligen. Het kan zeer lang voor het maken van waarschuwingen, met name wanneer nieuwe waarschuwingen worden gehouden wanneer een onderzoek wordt gehouden, zeer veel tijd in beslag nemen en onderzoeken. Beveiligingsactiviteiten teams kunnen overspoeld worden door het doorschijnende volume van de bedreigingen die ze moeten controleren en beschermen. Geautomatiseerd onderzoek en antwoord functies met zelfherstel in Microsoft 365 Defender kan u helpen.
 
@@ -69,10 +72,10 @@ Een waarschuwing met een trigger maakt een incident, dat een geautomatiseerd ond
 
 |Onderzoeksinstellingen |Service voor Threat Protection  |
 |---------|---------|
-|Apparaten (ook wel eindpunten genoemd)     |[Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Microsoft Defender voor identiteit](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
+|Apparaten (ook wel eindpunten genoemd)     |[Microsoft Defender voor Eindpunt ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
 |E-mail inhoud (bestanden en berichten in postvakken)     |[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
 
-Bij elk onderzoek wordt Verdicts ( *kwaadaardige* , *verdachte* of *geen bedreigingen gevonden* ) voor elk onderzocht onderzoek. Afhankelijk van het type bedreiging en het resultaat Verdict, worden herstelacties automatisch of na goedkeuring uitgevoerd door het team van uw organisatie. Acties in behandeling en voltooid worden weergegeven in het [Actiecentrum](mtp-action-center.md).
+Bij elk onderzoek wordt Verdicts (*kwaadaardige*, *verdachte* of *geen bedreigingen gevonden*) voor elk onderzocht onderzoek. Afhankelijk van het type bedreiging en het resultaat Verdict, worden herstelacties automatisch of na goedkeuring uitgevoerd door het team van uw organisatie. Acties in behandeling en voltooid worden weergegeven in het [Actiecentrum](mtp-action-center.md).
 
 Wanneer een onderzoek wordt uitgevoerd, worden eventuele andere bijbehorende waarschuwingen toegevoegd aan het onderzoek totdat het onderzoek wordt voltooid. Als een incriminated-entiteit elders wordt weergegeven, wordt het bereik van de geautomatiseerd onderzoek uitgebreid met die entiteit, en moet een algemeen beveiligings Playbook worden uitgevoerd. 
 

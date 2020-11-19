@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Wat zijn de aanbevolen procedures voor de beveiligingsinstellingen van Exchange Online Protection (EOP) en Defender for Office 365? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Defender voor Office 365 gebruikt?
-ms.openlocfilehash: bcad3609f5f73ac538ae9d1a0964ecc8e176003e
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: af741e1af412d535c53beb83c36c0cbe3fcd617b
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126635"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357119"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging
 
@@ -52,7 +52,7 @@ Zie [Antispambeleid in Office 365 configureren](configure-your-spam-filter-polic
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Spam** detectie actie <p> _SpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantaine bericht** <p> `Quarantine`||
 |**Hoge betrouwbaarheid van spam** detectie actie <p> _HighConfidenceSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantaine bericht** <p> `Quarantine`|**Quarantaine bericht** <p> `Quarantine`||
@@ -106,7 +106,7 @@ Zie [limieten verzenden](https://docs.microsoft.com/office365/servicedescription
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Maximum aantal geadresseerden per gebruiker: extern uur limiet** <p> _RecipientLimitExternalPerHour_|0|500|400|De standaardwaarde 0 betekent dat de service standaardwaarden worden gebruikt.|
 |**Maximaal aantal geadresseerden per gebruiker: intern uur limiet** <p> _RecipientLimitInternalPerHour_|0|1000|800|De standaardwaarde 0 betekent dat de service standaardwaarden worden gebruikt.|
@@ -120,7 +120,7 @@ Zie [anti malware-beleidsregels in Office 365 configureren](configure-anti-malwa
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Wilt u geadresseerden informeren wanneer hun berichten in quarantaine worden geplaatst?** <p> _Actierij_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Als er malware in een e-mailbijlage is gedetecteerd, wordt het bericht in quarantaine geplaatst en kan het alleen door een beheerder worden vrijgegeven.|
 |**Algemene bijlage typen filter** <p> _EnableFileFilter_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van bestandstypen, ongeacht de inhoud van de bijlage.|
@@ -135,7 +135,7 @@ Zie [spoof Settings (spoof Settings](set-up-anti-phishing-policies.md#spoof-sett
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Anti spoofing-beveiliging inschakelen** <p> _EnableAntispoofEnforcement_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
 |**Niet-geverifieerde afzender inschakelen** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Voegt een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-aangewezen vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md).|
@@ -166,7 +166,7 @@ Zie voor meer informatie over deze instellingen de instelling [imitatie in Micro
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |Beveiligde gebruikers: **gebruikers toevoegen om te beschermen** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|Uit <p> `$false` <p> geen|Aan <p> `$true` <p> \<list of users\>|Aan <p> `$true` <p> \<list of users\>|Afhankelijk van uw organisatie adviseren we u om gebruikers (afzenders van berichten) toe te voegen in belangrijke rollen. Intern, beveiligde afzenders kunnen de directeur, CFO en andere leidinggevenden zijn. Extern kunnen beveiligde afzenders ook onder de Commissie vallen.|
 |Beveiligde domeinen: **automatisch de domeinen opnemen waarvan ik eigenaar ben** <p> _EnableOrganizationDomainsProtection_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
@@ -189,7 +189,7 @@ Dit zijn de instellingen die beschikbaar zijn in de instellingen voor [Antispamb
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|---|---|---|---|
 |**Anti spoofing-beveiliging inschakelen** <p> _EnableAntispoofEnforcement_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
 |**Niet-geverifieerde afzender inschakelen** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Voegt een vraagteken (?) toe aan de foto van de afzender in Outlook voor niet-aangewezen vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md).|
@@ -202,7 +202,7 @@ Zie voor meer informatie over deze instelling [Geavanceerde phishingberichten in
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Geavanceerde phishingberichten** <p> _PhishThresholdLevel_|**1-standaard** <p> `1`|**2-agressief** <p> `2`|**3-meer agressief** <p> `3`||
 |
@@ -219,7 +219,7 @@ In PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Veilige koppelingen gebruiken in: Office 365-toepassingen** <p> _EnableSafeLinksForO365Clients_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Gebruik veilige koppelingen in ondersteunde Office 365-bureaubladtoepassingen en mobiele apparaten (iOS-en Android-apps). Zie [instellingen voor veilige koppelingen voor Office 365-apps](atp-safe-links.md#safe-links-settings-for-office-365-apps)voor meer informatie.|
 |**Niet bijhouden wanneer gebruikers op veilige koppelingen klikken** <p> _TrackClicks_|Aan <p> `$false`|Uit <p> `$true`|Uit <p> `$true`|Als u deze instelling uitschakelt (bij het instellen van _TrackClicks_ op `$true` ), worden de gebruikers in ondersteunde Office 365-apps bijgehouden.|
@@ -237,7 +237,7 @@ In PowerShell gebruikt u de cmdlets [New-SafeLinksPolicy](https://docs.microsoft
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Selecteer de actie voor onbekende, mogelijk schadelijke Url's in berichten** <p> _IsEnabled_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
 |**Selecteer de actie voor onbekende of mogelijk schadelijke Url's in Microsoft teams** <p> _EnableSafeLinksForTeams_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
@@ -260,7 +260,7 @@ In PowerShell gebruikt u de cmdlet [set-AtpPolicyForO365](https://docs.microsoft
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**ATP inschakelen voor SharePoint, OneDrive en Microsoft teams** <p> _EnableATPForSPOTeamsODB_|Aan <p> `$true`|Aan <p> `$true`||
 |**Veilige documenten voor Office-clients inschakelen**<bt/><br/> _EnableSafeDocs_|Aan <p> `$true`|Aan <p> `$true`|Deze instelling is alleen beschikbaar in de beveiligings licenties voor Microsoft 365 E5 of Microsoft 365 E5. Zie voor meer informatie [veilige documenten in Microsoft Defender voor Office 365](safe-docs.md).|
@@ -278,7 +278,7 @@ In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.micr
 
 ****
 
-|Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
+|Naam van beveiligingsfunctie|Standaard|Standaard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Veilige bijlagen onbekende schadelijk malware-antwoord** <p> _Actierij_|Blokkeren <p> `Block`|Blokkeren <p> `Block`|Blokkeren <p> `Block`||
 |**Bijlage omleiden bij detectie** : **omleiden inschakelen** <p> _Omleiden_ <p> _RedirectAddress_|Off, en geen e-mailadres opgegeven. <p> `$true` <p> geen|En geef een e-mailadres op. <p> `$true` <p> een e-mailadres|En geef een e-mailadres op. <p> `$true` <p> een e-mailadres|Berichten doorsturen naar een beveiligingsbeheerder voor revisie.|
@@ -291,6 +291,6 @@ In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.micr
 
 - Beheerders en gebruikers kunnen fout-positieven (goede e-mailberichten die als beschadigd zijn gemarkeerd) en foutieve negatieven (onjuiste e-mail toegestaan) indienen bij Microsoft voor analyse. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-- Gebruik deze koppelingen voor informatie over het **instellen** van uw [EOP-service](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)en het **configureren** [van Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). Vergeet de handige aanwijzingen niet te zien in '[beveiliging tegen bedreigingen in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)'.
+- Gebruik deze koppelingen voor informatie over het **instellen** van uw [EOP-service](set-up-your-eop-service.md)en het **configureren** [van Microsoft Defender voor Office 365](office-365-atp.md). Vergeet de handige aanwijzingen niet te zien in '[beveiliging tegen bedreigingen in Office 365](protect-against-threats.md)'.
 
 - In dit onderwerp vindt u de **beveiligings basislijnen voor Windows** : [waar kan ik de basislijnen voor beveiliging vinden? voor de](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) opties voor GPO en on-premises, en [beveiligings basislijnen gebruiken om Windows 10-apparaten te configureren in intune](https://docs.microsoft.com/intune/protect/security-baselines) voor intune-based beveiliging. Ten slotte is er een vergelijking tussen Microsoft Defender voor eindpunten en Microsoft intune-beveiligings lijnen beschikbaar in [de Microsoft-eindpunten voor eindpunten en de Windows intune-beveiligings basislijnen vergelijken](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines).

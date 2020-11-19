@@ -18,20 +18,20 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 19e121ce3f85dc31c3bf81c4750300c4016b1222
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: b4468bfc7ef4b6f76d44b328f4e5b6d61d7f06ac
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49072769"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357837"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
-In dit artikel wordt het aanbevolen beleid beschreven voor de beveiliging van de toegang tot Microsoft 365-cloudservices, waaronder on-premises toepassingen die zijn gepubliceerd met de toepassings proxy Azure Active Directory (Azure AD). 
+In dit artikel wordt het aanbevolen beleid beschreven voor de beveiliging van de toegang tot Microsoft 365-cloudservices, waaronder on-premises toepassingen die zijn gepubliceerd met de toepassings proxy Azure Active Directory (Azure AD).
 
-In deze richtlijnen wordt uitgelegd hoe u de aanbevolen beleidsregels implementeert in een nieuw ingerichte omgeving. Door deze beleidsregels in een afzonderlijke lab-omgeving in te stellen, kunt u de aanbevolen beleidsregels uitleggen en evalueren voordat u de implementatie uitschakelt voor de producties en productieomgevingen. Uw zojuist ingerichte omgeving kan alleen in de Cloud of hybride worden weergegeven om de evaluatie behoeften weer te geven.  
+In deze richtlijnen wordt uitgelegd hoe u de aanbevolen beleidsregels implementeert in een nieuw ingerichte omgeving. Door deze beleidsregels in een afzonderlijke lab-omgeving in te stellen, kunt u de aanbevolen beleidsregels uitleggen en evalueren voordat u de implementatie uitschakelt voor de producties en productieomgevingen. Uw zojuist ingerichte omgeving kan alleen in de Cloud of hybride worden weergegeven om de evaluatie behoeften weer te geven.
 
-## <a name="policy-set"></a>Beleidsinstelling 
+## <a name="policy-set"></a>Beleidsinstelling
 
 In het volgende diagram wordt de aanbevolen set beleidsregels getoond. In dit voorbeeld wordt aangegeven welke beveiligings bescherming elk beleid van toepassing is en of het beleid van toepassing is op Pc's of telefoons en tablets, of op beide soorten apparaten. Ook wordt aangegeven waar u deze beleidsregels configureert.
 
@@ -41,35 +41,34 @@ In het volgende diagram wordt de aanbevolen set beleidsregels getoond. In dit vo
 
 Hier ziet u een PDF-samenvatting van één pagina met koppelingen naar de afzonderlijke beleidsregels:
 
-[![Afbeelding van miniatuur voor identiteit en beveiliging van identiteit en apparaat voorhand-out van Microsoft 365](../../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br/>  [Weergeven als een PDF-bestand](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)  
+[![Afbeelding van miniatuur voor identiteit en beveiliging van identiteit en apparaat voorhand-out van Microsoft 365](../../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br/>  [Weergeven als een PDF-bestand](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)
 
-In de rest van dit artikel wordt uitgelegd hoe u deze beleidsregels configureert. 
+In de rest van dit artikel wordt uitgelegd hoe u deze beleidsregels configureert.
 
->[!Note]
->Als u wilt dat het gebruik van multi-factor Authentication (MFA) wordt aanbevolen voordat u intune-apparaten registreert, moet u ervoor zorgen dat het apparaat over de juiste gebruiker beschikt. U moet apparaten in intune registreren voordat u beleidsregels voor apparaatcompatibiliteit kunt afdwingen.
->
+> [!NOTE]
+> Als u wilt dat het gebruik van multi-factor Authentication (MFA) wordt aanbevolen voordat u intune-apparaten registreert, moet u ervoor zorgen dat het apparaat over de juiste gebruiker beschikt. U moet apparaten in intune registreren voordat u beleidsregels voor apparaatcompatibiliteit kunt afdwingen.
 
 Om u tijd te bieden voor het uitvoeren van deze taken, wordt u aangeraden het basisbeleid voor basisregels te implementeren in de volgorde waarin deze tabel wordt weergegeven. De MFA-beleidsregels voor gevoelige en hoogst gereglementeerde beveiligingsniveaus kunnen op elk moment worden geïmplementeerd.
 
 |Beveiligingsniveau|Lijnen|Meer informatie|
-|:---------------|:-------|:----------------|
-|**Basislijn**|[MFA vereisen wanneer het aanmeld risico *normaal* of *hoog* is](#require-mfa-based-on-sign-in-risk)| |
-|        |[Clients blokkeren die moderne verificatie niet ondersteunen](#block-clients-that-dont-support-modern-authentication)|Clients die geen moderne verificatie gebruiken, kunnen het beleid voor voorwaardelijke toegang omzeilen, dus het is belangrijk dat u dit blokkeert.|
-|        |[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](#high-risk-users-must-change-password)|Hiermee zorgt u dat gebruikers hun wachtwoord kunnen wijzigen bij het aanmelden als er een High Risk-activiteit voor hun account wordt gedetecteerd.|
-|        |[Beleid voor app-gegevensbeveiliging toepassen](#apply-app-data-protection-policies)|Eén beleid voor het intune-app-bescherming per platform (Windows, iOS of iPadOS, Android).|
-|        |[Goedgekeurde apps en app-beveiliging vereisen](#require-approved-apps-and-app-protection)|Hiermee wordt de bescherming van de mobiele app afgedwongen voor telefoons en tablets via iOS, iPadOS of Android.|
-|        |[Beleidsregels voor naleving van apparaten definiëren](#define-device-compliance-policies)|Eén beleid voor elk platform.|
-|        |[Eis conforme pc’s](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Het intune-beheer van Pc's afdwingen met behulp van Windows of MacOS.|
-|**Gevoelig**|[MFA vereisen wanneer het aanmelding van risico *slecht* , *gemiddeld* of *hoog* is](#require-mfa-based-on-sign-in-risk)| |
-|         |[Compatibele Pc's *en* mobiele apparaten vereisen](#require-compliant-pcs-and-mobile-devices)|Dwing het intune-beheer af voor Pc's (Windows of MacOS) en telefoons of Tablets (iOS, iPadOS of Android).|
+|---|---|---|
+|**Basislijn**|[MFA vereisen wanneer het aanmeld risico *normaal* of *hoog* is](#require-mfa-based-on-sign-in-risk)||
+||[Clients blokkeren die moderne verificatie niet ondersteunen](#block-clients-that-dont-support-modern-authentication)|Clients die geen moderne verificatie gebruiken, kunnen het beleid voor voorwaardelijke toegang omzeilen, dus het is belangrijk dat u dit blokkeert.|
+||[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](#high-risk-users-must-change-password)|Hiermee zorgt u dat gebruikers hun wachtwoord kunnen wijzigen bij het aanmelden als er een High Risk-activiteit voor hun account wordt gedetecteerd.|
+||[Beleid voor app-gegevensbeveiliging toepassen](#apply-app-data-protection-policies)|Eén beleid voor het intune-app-bescherming per platform (Windows, iOS of iPadOS, Android).|
+||[Goedgekeurde apps en app-beveiliging vereisen](#require-approved-apps-and-app-protection)|Hiermee wordt de bescherming van de mobiele app afgedwongen voor telefoons en tablets via iOS, iPadOS of Android.|
+||[Beleidsregels voor naleving van apparaten definiëren](#define-device-compliance-policies)|Eén beleid voor elk platform.|
+||[Eis conforme pc’s](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Het intune-beheer van Pc's afdwingen met behulp van Windows of MacOS.|
+|**Gevoelig**|[MFA vereisen wanneer het aanmelding van risico *slecht*, *gemiddeld* of *hoog* is](#require-mfa-based-on-sign-in-risk)||
+||[Compatibele Pc's *en* mobiele apparaten vereisen](#require-compliant-pcs-and-mobile-devices)|Dwing het intune-beheer af voor Pc's (Windows of MacOS) en telefoons of Tablets (iOS, iPadOS of Android).|
 |**Sterk gereglementeerd**|[*Altijd* MFA vereisen](#require-mfa-based-on-sign-in-risk)|
-| | | |
+|
 
 ## <a name="assigning-policies-to-groups-and-users"></a>Beleid toewijzen aan groepen en gebruikers
 
-Voordat u beleidsregels configureert, identificeert u de groepen van Azure AD die u voor elke beschermingsniveau gebruikt. Normaalgesproken geldt er basislijn beveiliging voor iedereen in de organisatie. Een gebruiker die is opgenomen in de basislijn en de gevoelige beveiliging, heeft alle toegepaste basisregels plus het gevoelige beleid. Beveiliging is cumulatief en het meest beperkte beleid wordt afgedwongen. 
+Voordat u beleidsregels configureert, identificeert u de groepen van Azure AD die u voor elke beschermingsniveau gebruikt. Normaalgesproken geldt er basislijn beveiliging voor iedereen in de organisatie. Een gebruiker die is opgenomen in de basislijn en de gevoelige beveiliging, heeft alle toegepaste basisregels plus het gevoelige beleid. Beveiliging is cumulatief en het meest beperkte beleid wordt afgedwongen.
 
-U wordt geadviseerd een Azure AD-groep te maken voor de uitsluiting van voorwaardelijke toegang. Voeg deze groep toe aan al uw voorwaardelijke toegangsbeleidsregels in de instelling **uitsluiten** van de instelling **gebruikers en groepen** in de sectie **opdrachten** . U onthoudt een methode voor het verlenen van toegang aan een gebruiker wanneer u problemen met Access oplost. Dit wordt alleen aanbevolen als tijdelijke oplossing. Bewaakt deze groep voor wijzigingen en zorg ervoor dat de uitsluitings groep uitsluitend wordt gebruikt zoals bedoeld. 
+U wordt geadviseerd een Azure AD-groep te maken voor de uitsluiting van voorwaardelijke toegang. Voeg deze groep toe aan al uw voorwaardelijke toegangsbeleidsregels in de instelling **uitsluiten** van de instelling **gebruikers en groepen** in de sectie **opdrachten** . U onthoudt een methode voor het verlenen van toegang aan een gebruiker wanneer u problemen met Access oplost. Dit wordt alleen aanbevolen als tijdelijke oplossing. Bewaakt deze groep voor wijzigingen en zorg ervoor dat de uitsluitings groep uitsluitend wordt gebruikt zoals bedoeld.
 
 Hier ziet u een voorbeeld van opdrachten en uitsluitingen van groepen voor de vereiste MFA.
 
@@ -87,7 +86,7 @@ Dit zijn de resultaten:
 
   In dit geval komen leden van de bovenste geheimen van Project X-groepen overeen met het beleid voor voorwaardelijke toegang met basislijn en regels met volledig gereglementeerde regels. De toegangs elementen voor beide beleidsregels worden gecombineerd. Aangezien de toegangsregeling voor het zwaarbeveiligde beleid voor voorwaardelijke toegang meer beperkingen bevat, wordt dit gebruikt.
 
-Wees voorzichtig wanneer u een hoger beveiligingsniveau toepast voor groepen en gebruikers. Leden van de hoofdmap Project X zijn bijvoorbeeld verplicht MFA te gebruiken telkens wanneer ze zich aanmelden, ook als ze niet werken met de uiterst gereguleerde inhoud van Project X.  
+Wees voorzichtig wanneer u een hoger beveiligingsniveau toepast voor groepen en gebruikers. Leden van de hoofdmap Project X zijn bijvoorbeeld verplicht MFA te gebruiken telkens wanneer ze zich aanmelden, ook als ze niet werken met de uiterst gereguleerde inhoud van Project X.
 
 Alle Azure AD-groepen die als onderdeel van deze aanbevelingen zijn gemaakt, moeten worden gemaakt als Microsoft 365-groepen. Dit is belangrijk voor de implementatie van tekstlabels bij het beveiligen van documenten in Microsoft teams en SharePoint.
 
@@ -109,33 +108,33 @@ In de volgende tabellen worden de beleidsinstellingen voor voorwaardelijke toega
 In de sectie **opdrachten** :
 
 |Instelling|Eigenschappen|Waarden|Opmerkingen|
-|:---|:---------|:-----|:----|
-|Gebruikers en groepen|Voorzien| **Selecteer gebruikers en groepen > gebruikers en groepen** : Selecteer specifieke groepen met gerichte gebruikersaccounts. |Begin met de groep die gebruikersaccounts voor prototype bevat.|
-||Uit| **Gebruikers en groepen** : Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
-|Cloud-apps of-acties| **> van Cloud apps zijn inbegrepen** | **Selecteer apps** : Selecteer de apps waarop u dit beleid wilt toepassen. Selecteer bijvoorbeeld Exchange Online.||
-|Vastgestelde| | |Configureer voorwaarden die specifiek zijn voor uw omgeving en behoefte.|
+|---|---|---|---|
+|Gebruikers en groepen|Voorzien|**Selecteer gebruikers en groepen > gebruikers en groepen**: Selecteer specifieke groepen met gerichte gebruikersaccounts.|Begin met de groep die gebruikersaccounts voor prototype bevat.|
+||Uit|**Gebruikers en groepen**: Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
+|Cloud-apps of-acties|**> van Cloud apps zijn inbegrepen**|**Selecteer apps**: Selecteer de apps waarop u dit beleid wilt toepassen. Selecteer bijvoorbeeld Exchange Online.||
+|Vastgestelde|||Configureer voorwaarden die specifiek zijn voor uw omgeving en behoefte.|
 ||Aanmeld risico||Zie de instructies in de volgende tabel.|
-|||||
+|
 
-**Instellingen voor aanmeldings risico**
+### <a name="sign-in-risk-condition-settings"></a>Instellingen voor aanmeldings risico
 
 De instellingen voor risiconiveau toepassen op basis van het beschermingsniveau dat u wilt instellen.
 
 |Beschermingsniveau|Vereiste risiconiveau waarden|Actierij|
-|:---------|:-----|:----|
+|---|---|---|
 |Basislijn|Hoog, normaal|Schakel beide selectievakjes in.|
 |Gevoelig|Hoog, normaal, laag|Selecteer alledrie.|
-|Sterk gereglementeerd| |Schakel alle opties uit om MFA altijd af te dwingen.|
-||||
+|Sterk gereglementeerd||Schakel alle opties uit om MFA altijd af te dwingen.|
+|
 
 In de sectie **Access-besturingselementen** :
 
 |Instelling|Eigenschappen|Waarden|Actierij|
-|:---|:---------|:-----|:----|
-|Wijs|**Grant access**| | Kiest |
-|||**Verificatie via meerdere factoren vereisen**| Cheque |
-||**Alle geselecteerde besturingselementen vereisen** ||Kiest|
-|||||
+|---|---|---|---|
+|Wijs|**Grant access**||Kiest|
+|||**Verificatie via meerdere factoren vereisen**|Cheque|
+||**Alle geselecteerde besturingselementen vereisen**||Kiest|
+|
 
 Kies **selecteren** om de **machtigings** instellingen op te slaan.
 
@@ -152,20 +151,20 @@ Zie [dit artikel](../../enterprise/microsoft-365-client-support-modern-authentic
 In de sectie **opdrachten** :
 
 |Instelling|Eigenschappen|Waarden|Opmerkingen|
-|:---|:---------|:-----|:----|
-|Gebruikers en groepen|Voorzien| **Selecteer gebruikers en groepen > gebruikers en groepen** : Selecteer specifieke groepen met gerichte gebruikersaccounts. |Begin met de groep die gebruikersaccounts voor prototype bevat.|
-||Uit| **Gebruikers en groepen** : Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
-|Cloud-apps of-acties|**> van Cloud apps zijn inbegrepen**| **Selecteer apps** : Selecteer de apps die overeenkomen met de clients die moderne verificatie niet ondersteunen.||
-|Vastgestelde| **Client toepassingen** | Kies **Ja** voor **configureren** <br> De vinkjes voor **browser** -en **mobiele apps en desktop clients** wissen | |
-||||
+|---|---|---|---|
+|Gebruikers en groepen|Voorzien|**Selecteer gebruikers en groepen > gebruikers en groepen**: Selecteer specifieke groepen met gerichte gebruikersaccounts.|Begin met de groep die gebruikersaccounts voor prototype bevat.|
+||Uit|**Gebruikers en groepen**: Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
+|Cloud-apps of-acties|**> van Cloud apps zijn inbegrepen**|**Selecteer apps**: Selecteer de apps die overeenkomen met de clients die moderne verificatie niet ondersteunen.||
+|Vastgestelde|**Client toepassingen**|Kies **Ja** voor **configureren** <br/> De vinkjes voor **browser** -en **mobiele apps en desktop clients** wissen||
+|
 
 In de sectie **Access-besturingselementen** :
 
 |Instelling|Eigenschappen|Waarden|Actierij|
-|:---|:---------|:-----|:----|
-|Wijs|**Toegang blokkeren**| | Kiest |
-||**Alle geselecteerde besturingselementen vereisen** ||Kiest|
-|||||
+|---|---|---|---|
+|Wijs|**Toegang blokkeren**||Kiest|
+||**Alle geselecteerde besturingselementen vereisen**||Kiest|
+|
 
 Kies **selecteren** om de **machtigings** instellingen op te slaan.
 
@@ -184,18 +183,18 @@ Meld u aan bij de [Microsoft Azure https://portal.azure.com) -Portal (](https://
 In de sectie **opdrachten** :
 
 |Type|Eigenschappen|Waarden|Actierij|
-|:---|:---------|:-----|:----|
+|---|---|---|---|
 |Gebruikers|Voorzien|**Alle gebruikers**|Kiest|
-|Gebruikers risico| **Hoog**||Kiest|
-|||||
+|Gebruikers risico|**Hoog**||Kiest|
+|
 
 In het tweede gedeelte **toewijzingen** :
 
-| Type | Eigenschappen | Waarden                  | Actierij |
-|:-----|:-----------|:------------------------|:------|
-| Access | **Toegang toestaan** |  | Kiest  |
-|      |     | **Wachtwoord wijzigen vereist** | Cheque  |
-|||||
+|Type|Eigenschappen|Waarden|Actierij|
+|---|---|---|---|
+|Access|**Toegang toestaan**||Kiest|
+|||**Wachtwoord wijzigen vereist**|Cheque|
+|
 
 Kies **gereed** om de instellingen voor **Access** op te slaan.
 
@@ -207,32 +206,33 @@ U kunt dit beleid gebruiken in combinatie met [Azure AD-wachtwoordbeveiliging co
 
 ## <a name="apply-app-data-protection-policies"></a>Beleid voor APP-gegevensbeveiliging toepassen
 
-App-beveiligingsbeleid (APP) Definieer welke apps zijn toegestaan en welke acties ze kunnen uitvoeren met de gegevens van uw organisatie. Met de beschikbare opties in de APP kunnen organisaties de beveiliging op hun specifieke behoeften aanpassen. Voor sommige gevallen is het mogelijk niet duidelijk welke beleidsinstellingen zijn vereist voor de implementatie van een compleet scenario. Microsoft heeft de taxonomie geïntroduceerd voor de APP Data Protection Framework voor iOS-en Android-apps voor mobiele apparaten. 
+App-beveiligingsbeleid (APP) Definieer welke apps zijn toegestaan en welke acties ze kunnen uitvoeren met de gegevens van uw organisatie. Met de beschikbare opties in de APP kunnen organisaties de beveiliging op hun specifieke behoeften aanpassen. Voor sommige gevallen is het mogelijk niet duidelijk welke beleidsinstellingen zijn vereist voor de implementatie van een compleet scenario. Microsoft heeft de taxonomie geïntroduceerd voor de APP Data Protection Framework voor iOS-en Android-apps voor mobiele apparaten.
 
-De APP Data Protection Framework is onderverdeeld in drie verschillende configuratieniveaus, waarbij elk niveau van het vorige niveau wordt opgebouwd: 
+De APP Data Protection Framework is onderverdeeld in drie verschillende configuratieniveaus, waarbij elk niveau van het vorige niveau wordt opgebouwd:
 
-- Met **Enterprise Basic Data Protection** (niveau 1) zorgt u ervoor dat apps zijn beveiligd met een pincode en worden versleuteld en om selectief wissen te uitvoeren. Voor Android-apparaten valideert dit niveau Android-apparaatstatusverklaring. Dit is een configuratie op het niveau van het gegevensbescherming van een e-mailbericht dat vergelijkbaar is met gegevensbescherming in Postvak beleid van Exchange Online, met ininformatie over en de gebruikers bevolking op APP. 
-- **Enterprise Enhanced Data Protection** (niveau 2) introduceert app data lekkage preventie en minimale besturingssysteemvereisten. Dit is de configuratie die van toepassing is op de meeste mobiele gebruikers, die werk-of school gegevens raadplegen. 
-- Met **High Data Protection** (niveau 3) van de onderneming worden geavanceerde mechanismen voor gegevensbeveiliging geïntroduceerd, verbeterde configuratie van pincode en beveiliging van de mobiele bedreiging van de app. Deze configuratie is wenselijk voor gebruikers die toegang hebben tot de High Risk-gegevens. 
+- Met **Enterprise Basic Data Protection** (niveau 1) zorgt u ervoor dat apps zijn beveiligd met een pincode en worden versleuteld en om selectief wissen te uitvoeren. Voor Android-apparaten valideert dit niveau Android-apparaatstatusverklaring. Dit is een configuratie op het niveau van het gegevensbescherming van een e-mailbericht dat vergelijkbaar is met gegevensbescherming in Postvak beleid van Exchange Online, met ininformatie over en de gebruikers bevolking op APP.
+- **Enterprise Enhanced Data Protection** (niveau 2) introduceert app data lekkage preventie en minimale besturingssysteemvereisten. Dit is de configuratie die van toepassing is op de meeste mobiele gebruikers, die werk-of school gegevens raadplegen.
+- Met **High Data Protection** (niveau 3) van de onderneming worden geavanceerde mechanismen voor gegevensbeveiliging geïntroduceerd, verbeterde configuratie van pincode en beveiliging van de mobiele bedreiging van de app. Deze configuratie is wenselijk voor gebruikers die toegang hebben tot de High Risk-gegevens.
 
-Als u de specifieke aanbevelingen voor elk configuratieniveau en de minimaal te beschermen Apps wilt bekijken, moet [u gegevens beschermings raamwerk raadplegen met behulp van het app-beveiligingsbeleid](https://docs.microsoft.com/mem/intune/apps/app-protection-framework). 
+Als u de specifieke aanbevelingen voor elk configuratieniveau en de minimaal te beschermen Apps wilt bekijken, moet [u gegevens beschermings raamwerk raadplegen met behulp van het app-beveiligingsbeleid](https://docs.microsoft.com/mem/intune/apps/app-protection-framework).
 
 Met behulp van de basisprincipes van het werken met [identiteits-en Apparaattoegang-configuraties](microsoft-365-policies-configurations.md), de plattegrond van de basislijn en de gevoelige beveiliging nauwkeurig met de instellingen voor verbeterde gegevensbeveiliging van niveau 2 Enterprise. De zeer gereguleerde beveiligingslagen zijn nauwkeurig voor de instellingen voor hoog beveiligingsniveau van de onderneming van niveau 3.
 
-|Beveiligingsniveau |Beleid voor app-beveiliging  |Meer informatie  |
-|---------|---------|---------|
-|Basislijn     | [Niveau 2 verbeterde gegevensbescherming](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-2-enterprise-enhanced-data-protection)        | Met de beleidsinstellingen die worden toegepast op niveau 2, zijn alle beleidsinstellingen die worden aanbevolen voor niveau 1 opgenomen en worden de onderstaande beleidsinstellingen toegevoegd of bijgewerkt om meer besturingselementen te implementeren en een meer verfijnde configuratie dan niveau 1 te implementeren.         |
-|Gevoelig     | [Niveau 2 verbeterde gegevensbescherming](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-2-enterprise-enhanced-data-protection)        | Met de beleidsinstellingen die worden toegepast op niveau 2, zijn alle beleidsinstellingen die worden aanbevolen voor niveau 1 opgenomen en worden de onderstaande beleidsinstellingen toegevoegd of bijgewerkt om meer besturingselementen te implementeren en een meer verfijnde configuratie dan niveau 1 te implementeren.        |
-|Zeer gereguleerd     | [Niveau 3 Enterprise High Data Protection](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-3-enterprise-high-data-protection)        | Met de beleidsinstellingen die worden toegepast op niveau 3, worden alle beleidsinstellingen die worden aanbevolen voor niveau 1 en 2, weergegeven en worden alleen de onderstaande beleidsinstellingen toegevoegd of bijgewerkt om meer besturingselementen en een verfijnde configuratie van niveau 2 te implementeren.        |
+|Beveiligingsniveau|Beleid voor app-beveiliging|Meer informatie|
+|---|---|---|
+|Basislijn|[Niveau 2 verbeterde gegevensbescherming](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-2-enterprise-enhanced-data-protection)|Met de beleidsinstellingen die worden toegepast op niveau 2, zijn alle beleidsinstellingen die worden aanbevolen voor niveau 1 opgenomen en worden de onderstaande beleidsinstellingen toegevoegd of bijgewerkt om meer besturingselementen te implementeren en een meer verfijnde configuratie dan niveau 1 te implementeren.|
+|Gevoelig|[Niveau 2 verbeterde gegevensbescherming](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-2-enterprise-enhanced-data-protection)|Met de beleidsinstellingen die worden toegepast op niveau 2, zijn alle beleidsinstellingen die worden aanbevolen voor niveau 1 opgenomen en worden de onderstaande beleidsinstellingen toegevoegd of bijgewerkt om meer besturingselementen te implementeren en een meer verfijnde configuratie dan niveau 1 te implementeren.|
+|Zeer gereguleerd|[Niveau 3 Enterprise High Data Protection](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-3-enterprise-high-data-protection)|Met de beleidsinstellingen die worden toegepast op niveau 3, worden alle beleidsinstellingen die worden aanbevolen voor niveau 1 en 2, weergegeven en worden alleen de onderstaande beleidsinstellingen toegevoegd of bijgewerkt om meer besturingselementen en een verfijnde configuratie van niveau 2 te implementeren.|
+|
 
 U kunt als volgt een nieuw beleid voor app-beveiliging maken voor elk platform (iOS en Android) in Microsoft Endpoint Manager met de instellingen voor Data Protection Framework:
 
-1. Maak handmatig een beleid door de stappen [te volgen voor het maken en implementeren van een app-beveiligingsbeleid met Microsoft intune](https://docs.microsoft.com/mem/intune/apps/app-protection-policies). 
+1. Maak handmatig een beleid door de stappen [te volgen voor het maken en implementeren van een app-beveiligingsbeleid met Microsoft intune](https://docs.microsoft.com/mem/intune/apps/app-protection-policies).
 2. Importeer de JSON-sjablonen voor het voorbeeld van een [intune-app-beveiligings raamwerk](https://github.com/microsoft/Intune-Config-Frameworks/tree/master/AppProtectionPolicies) met [de PowerShell-scripts van intune](https://github.com/microsoftgraph/powershell-intune-samples).
 
 ## <a name="require-approved-apps-and-app-protection"></a>Goedgekeurde apps en APP-beveiliging vereisen
 
-Als u wilt dat het beleid voor APP-beveiliging afdwingt dat u hebt toegepast op intune, moet u een beleid voor voorwaardelijke toegang maken om goedgekeurde client-apps en de voorwaarden in het beleid voor APP-beveiliging te vereisen. 
+Als u wilt dat het beleid voor APP-beveiliging afdwingt dat u hebt toegepast op intune, moet u een beleid voor voorwaardelijke toegang maken om goedgekeurde client-apps en de voorwaarden in het beleid voor APP-beveiliging te vereisen.
 
 Voor het afdwingen van een APP-beveiligingsbeleid is een set beleidsregels vereist die worden beschreven in het [beleid voor de app-beveiliging vereisen voor toegang tot de Cloud-app met voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access). Deze beleidsregels zijn allemaal opgenomen in deze aanbevolen set identiteit en toegangsbeleid.
 
@@ -283,16 +283,16 @@ Zie [een nalevingsbeleid maken in Microsoft intune](https://docs.microsoft.com/m
 
 ### <a name="recommended-settings-for-windows-10-and-later"></a>Aanbevolen instellingen voor Windows 10 en hoger
 
-De volgende instellingen worden aanbevolen voor Pc's met Windows 10 en latere versies, zoals is geconfigureerd in **stap 2: compliance Settings** , van het proces voor het maken van beleid.
+De volgende instellingen worden aanbevolen voor Pc's met Windows 10 en latere versies, zoals is geconfigureerd in **stap 2: compliance Settings**, van het proces voor het maken van beleid.
 
 Zie de volgende tabel voor meer informatie over de statuswaarden van de apparaatstatusverklaring- **Service >**.
 
 |Eigenschappen|Waarde|Actierij|
-|:---------|:-----|:----|
-|BitLocker vereisen|Dient| Kiest |
-|Het veilig opstarten moet zijn ingeschakeld op het apparaat|Dient| Kiest |
-|Code integriteit vereist|Dient| Kiest |
-||||
+|---|---|---|
+|BitLocker vereisen|Dient|Kiest|
+|Het veilig opstarten moet zijn ingeschakeld op het apparaat|Dient|Kiest|
+|Code integriteit vereist|Dient|Kiest|
+|
 
 Voor **Apparaateigenschappen** geeft u de juiste waarden op voor besturingssysteemversies op basis van uw IT-en beveiligingsbeleid.
 
@@ -301,35 +301,35 @@ Voor **naleving van Configuration Manager** selecteert u **vereisen**.
 Zie de volgende tabel voor meer informatie over **systeembeveiliging**.
 
 |Type|Eigenschappen|Waarde|Actierij|
-|:---|:---------|:-----|:----|
-|Wachtwoord|Een wachtwoord vereisen om mobiele apparaten te ontgrendelen|Dient| Kiest |
+|---|---|---|---|
+|Wachtwoord|Een wachtwoord vereisen om mobiele apparaten te ontgrendelen|Dient|Kiest|
 ||Eenvoudige wachtwoorden|Blokkeren|Kiest|
 ||Type wachtwoord|Apparaat standaard|Kiest|
 ||Minimale wachtwoordlengte|zes|Type|
-||Maximum aantal minuten van inactiviteit voordat wachtwoord is vereist|15|Type <br>Deze instelling wordt ondersteund voor Android-versies 4,0 en hoger of KNOX 4,0 en hoger. Voor iOS-apparaten is de ondersteuning voor iOS 8,0 en hoger.|
+||Maximum aantal minuten van inactiviteit voordat wachtwoord is vereist|15|Type <br/> Deze instelling wordt ondersteund voor Android-versies 4,0 en hoger of KNOX 4,0 en hoger. Voor iOS-apparaten is de ondersteuning voor iOS 8,0 en hoger.|
 ||Wachtwoord verloopt (dagen)|41|Type|
 ||Aantal eerdere wachtwoorden om hergebruik te voorkomen|vijf|Type|
 ||Wachtwoord vereisen wanneer het apparaat niet-actief is (mobiele en Holographic)|Dient|Beschikbaar voor Windows 10 en nieuwere versies|
 |Versleuteling|Versleuteling van gegevensopslag op apparaat|Dient|Kiest|
 |Beveiliging van apparaten|Blokkeert|Dient|Kiest|
 ||Antivirussoftware|Dient|Kiest|
-||Programma's|Dient|Kiest <br> Voor deze instelling is een anti spyware-oplossing vereist die is geregistreerd met Windows Beveiligingscentrum.|
+||Programma's|Dient|Kiest <br/> Voor deze instelling is een anti spyware-oplossing vereist die is geregistreerd met Windows Beveiligingscentrum.|
 |Beschermd|Microsoft Defender antimalware|Dient|Kiest|
-||Minimale versie Microsoft Defender antimalware||Type <br> Alleen ondersteund voor de bureaubladversie van Windows 10. Microsoft adviseert geen versies van meer dan vijf erachter van de meest recente versie.|
+||Minimale versie Microsoft Defender antimalware||Type <br/> Alleen ondersteund voor de bureaubladversie van Windows 10. Microsoft adviseert geen versies van meer dan vijf erachter van de meest recente versie.|
 ||Microsoft Defender antimalware-handtekening up-to-date|Dient|Kiest|
-||Real-time beveiliging|Dient|Kiest <br>Alleen ondersteund voor Windows 10-bureaublad|
-|||||
+||Real-time beveiliging|Dient|Kiest <br/> Alleen ondersteund voor Windows 10-bureaublad|
+|
 
-**Microsoft Defender voor Eindpunt**
+#### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt 
 
 |Type|Eigenschappen|Waarde|Actierij|
-|:---|:---------|:-----|:----|
+|---|---|---|---|
 |Microsoft Defender voor eindpunt regels|Het apparaat moet zich op of onder de risicoscore voor de machine bevinden|Medium|Kiest|
-|||||
+|
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Compatibele Pc's (maar niet compliant telefoons en tablets) vereisen
 
-Voordat u een beleid toevoegt voor het vereisen van compatibele Pc's, moet u de apparaten voor het beheer van intune registreren. Het gebruik van multi-factor Authentication wordt aanbevolen voordat u apparaten registreert voor een intune-service om zeker te zijn dat het apparaat in bezit is van de bedoelde gebruiker. 
+Voordat u een beleid toevoegt voor het vereisen van compatibele Pc's, moet u de apparaten voor het beheer van intune registreren. Het gebruik van multi-factor Authentication wordt aanbevolen voordat u apparaten registreert voor een intune-service om zeker te zijn dat het apparaat in bezit is van de bedoelde gebruiker.
 
 Compatibele Pc's vereisen:
 
@@ -344,17 +344,16 @@ Compatibele Pc's vereisen:
 
 7. Voor **opnemen** kiest **u apps selecteren > selecteren** en selecteert u vervolgens de gewenste apps in de lijst met **Cloud-apps** . Selecteer bijvoorbeeld Exchange Online. Kies **selecteren wanneer u** klaar bent.
 
-8. Als u compatibele Pc's (maar niet de compliant telefoons en tablets) nodig hebt, kiest u onder **opdrachten** de optie **voorwaarden > apparaat-platforms**. Selecteer **Ja** voor **configureren**. Kies  **hardwareplatforms selecteren** , selecteer **Windows** en **macOS** en kies vervolgens **gereed**.
+8. Als u compatibele Pc's (maar niet de compliant telefoons en tablets) nodig hebt, kiest u onder **opdrachten** de optie **voorwaarden > apparaat-platforms**. Selecteer **Ja** voor **configureren**. Kies  **hardwareplatforms selecteren**, selecteer **Windows** en **macOS** en kies vervolgens **gereed**.
 
 9. Kies **subsidie** onder **toegangsbeheer**.
 
-10. Kies **toegang verlenen** en controleer vervolgens of **apparaat is gemarkeerd als compatibel**. Voor meerdere besturingselementen selecteert u **alle geselecteerde besturingselementen vereisen**. Wanneer u klaar bent, kiest **u selecteren**. 
+10. Kies **toegang verlenen** en controleer vervolgens of **apparaat is gemarkeerd als compatibel**. Voor meerdere besturingselementen selecteert u **alle geselecteerde besturingselementen vereisen**. Wanneer u klaar bent, kiest **u selecteren**.
 
-10. Selecteer **inschakelen** voor **beleids** optie en kies vervolgens **maken**.
+11. Selecteer **inschakelen** voor **beleids** optie en kies vervolgens **maken**.
 
->[!Note]
->Zorg ervoor dat uw apparaat compatibel is voordat u dit beleid inschakelt. Anders kon u uitgaand raken en kunt u dit beleid niet wijzigen totdat uw gebruikersaccount is toegevoegd aan de groep voorwaardelijke toegang.
->
+> [!NOTE]
+> Zorg ervoor dat uw apparaat compatibel is voordat u dit beleid inschakelt. Anders kon u uitgaand raken en kunt u dit beleid niet wijzigen totdat uw gebruikersaccount is toegevoegd aan de groep voorwaardelijke toegang.
 
 ## <a name="require-compliant-pcs-and-mobile-devices"></a>Compatibele Pc's *en* mobiele apparaten vereisen
 
@@ -373,13 +372,12 @@ Naleving voor alle apparaten vereisen:
 
 8. Kies **subsidie** onder **toegangsbeheer**.
 
-9. Kies **toegang verlenen** en controleer vervolgens of **apparaat is gemarkeerd als compatibel**. Voor meerdere besturingselementen selecteert u **alle geselecteerde besturingselementen vereisen**. Wanneer u klaar bent, kiest **u selecteren**. 
+9. Kies **toegang verlenen** en controleer vervolgens of **apparaat is gemarkeerd als compatibel**. Voor meerdere besturingselementen selecteert u **alle geselecteerde besturingselementen vereisen**. Wanneer u klaar bent, kiest **u selecteren**.
 
 10. Selecteer **inschakelen** voor **beleids** optie en kies vervolgens **maken**.
 
->[!Note]
->Zorg ervoor dat uw apparaat compatibel is voordat u dit beleid inschakelt. Anders kon u uitgaand raken en kunt u dit beleid niet wijzigen totdat uw gebruikersaccount is toegevoegd aan de groep voorwaardelijke toegang.
->
+> [!NOTE]
+> Zorg ervoor dat uw apparaat compatibel is voordat u dit beleid inschakelt. Anders kon u uitgaand raken en kunt u dit beleid niet wijzigen totdat uw gebruikersaccount is toegevoegd aan de groep voorwaardelijke toegang.
 
 ## <a name="next-step"></a>Volgende stap
 

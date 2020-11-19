@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 56b712c73d63bfcb06d5d35d627facb229668c59
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: fa22d445b0e4517bedd1c04378271e561ecb6703
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48464142"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357501"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Beleids aanbevelingen voor het beveiligen van teams-chats,-groepen en-bestanden
 
@@ -63,17 +63,17 @@ Dit zijn de afhankelijke services die moeten worden opgenomen in de toewijzing v
 In deze tabel vindt u een overzicht van de beleidsregels die moeten worden Revisited en koppelingen naar de verschillende beleidsregels moeten worden opgenomen in het [beleid voor veelgebruikte identiteits-en Apparaattoegang](identity-access-policies.md), waarvan de bredere beleidsregels voor alle Office-toepassingen zijn ingesteld.
 
 |Beveiligingsniveau|Lijnen|Meer informatie voor de implementatie van teams|
-|:---------------|:-------|:----------------|
+|---|---|---|
 |**Basislijn**|[MFA vereisen wanneer het aanmeld risico *normaal* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de lijst met apps. Voor teams zijn gasttoegang en regels voor externe toegang ter overweging, u vindt hier meer informatie over deze verderop in dit artikel.|
-|        |[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Teams en afhankelijke services opnemen in de toewijzing van Cloud-apps.|
-|        |[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](identity-access-policies.md#high-risk-users-must-change-password)|Zorgt ervoor dat teams gebruikers hun wachtwoord kunnen wijzigen bij het aanmelden als er een High Risk-activiteit voor hun account wordt gedetecteerd. Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de lijst met apps.|
-|        |[Beleid voor APP-gegevensbeveiliging toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de lijst met apps. Werk het beleid voor elk platform (iOS, Android, Windows) bij.|
-|        |[Beleidsregels voor naleving van apparaten definiëren](identity-access-policies.md#define-device-compliance-policies)|Teams en afhankelijke services opnemen in dit beleid.|
-|        |[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Teams en afhankelijke services opnemen in dit beleid.|
+||[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Teams en afhankelijke services opnemen in de toewijzing van Cloud-apps.|
+||[Gebruikers met een hoog risico moeten het wachtwoord wijzigen](identity-access-policies.md#high-risk-users-must-change-password)|Zorgt ervoor dat teams gebruikers hun wachtwoord kunnen wijzigen bij het aanmelden als er een High Risk-activiteit voor hun account wordt gedetecteerd. Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de lijst met apps.|
+||[Beleid voor APP-gegevensbeveiliging toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat teams en afhankelijke services zijn opgenomen in de lijst met apps. Werk het beleid voor elk platform (iOS, Android, Windows) bij.|
+||[Beleidsregels voor naleving van apparaten definiëren](identity-access-policies.md#define-device-compliance-policies)|Teams en afhankelijke services opnemen in dit beleid.|
+||[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Teams en afhankelijke services opnemen in dit beleid.|
 |**Gevoelig**|[MFA vereisen wanneer het aanmeld risico *slecht*, *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Voor teams zijn gasttoegang en regels voor externe toegang ter overweging, u vindt hier meer informatie over deze verderop in dit artikel. Teams en afhankelijke services opnemen in dit beleid.|
-|         |[Compatibele Pc's *en* mobiele apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Teams en afhankelijke services opnemen in dit beleid.|
+||[Compatibele Pc's *en* mobiele apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Teams en afhankelijke services opnemen in dit beleid.|
 |**Sterk gereglementeerd**|[*Altijd* MFA vereisen](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Ongeacht de gebruikersidentiteit wordt MFA gebruikt door uw organisatie. Teams en afhankelijke services opnemen in dit beleid. |
-| | |
+|
 
 ## <a name="teams-dependent-services-architecture"></a>Architectuur van gebonden Services voor teams
 
@@ -94,27 +94,27 @@ In Microsoft teams wordt het volgende gedefinieerd:
 Beleidsregels voor voorwaardelijke toegang gelden alleen voor gasttoegang in teams omdat er een Azure AD B2B-account is.
 
 <!--
-In Azure AD, guest and external users are the same. The user type for both of these is Guest. Guest users are B2B users. Microsoft Teams differentiates between guest users and external users in the app. While it's important to understand how each of these are treated in Teams, both types of users are B2B users in Azure AD and the recommended policies for B2B users apply to both. 
+In Azure AD, guest and external users are the same. The user type for both of these is Guest. Guest users are B2B users. Microsoft Teams differentiates between guest users and external users in the app. While it's important to understand how each of these are treated in Teams, both types of users are B2B users in Azure AD and the recommended policies for B2B users apply to both.
 
---> 
+-->
 
 Zie beleidsregels voor het toestaan van toegang tot [gastaccounts en externe B2B-accounts](identity-access-policies-guest-access.md)voor aanbevolen beleidsregels voor toegang voor gasten en externe gebruikers met een Azure AD B2B-account.
 
 ### <a name="guest-access-in-teams"></a>Gasttoegang in teams
 
-Naast de beleidsregels voor gebruikers die intern zijn voor uw bedrijf of organisatie, kunnen beheerders de toegang voor gasten toestaan, gebruikers die buiten uw bedrijf of organisatie deelnemen aan teams-bronnen en interactie met interne personen voor zaken zoals groepsgesprekken, chatten en vergaderingen. 
+Naast de beleidsregels voor gebruikers die intern zijn voor uw bedrijf of organisatie, kunnen beheerders de toegang voor gasten toestaan, gebruikers die buiten uw bedrijf of organisatie deelnemen aan teams-bronnen en interactie met interne personen voor zaken zoals groepsgesprekken, chatten en vergaderingen.
 
 Zie voor meer informatie over gasttoegang en hoe u deze implementeert,  [gasttoegang voor teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 ### <a name="external-access-in-teams"></a>Externe toegang in teams
 
-Externe toegang wordt soms niet verward met gasttoegang, dus het is belangrijk dat deze twee niet-interne toegangs mechanismen werkelijk afwijken. 
+Externe toegang wordt soms niet verward met gasttoegang, dus het is belangrijk dat deze twee niet-interne toegangs mechanismen werkelijk afwijken.
 
 Externe toegang is een manier om teams-gebruikers van een volledig extern domein in te stellen, te bellen, te chatten en vergaderingen met uw gebruikers te vinden in teams. Beheerders van teams configureren externe toegang op organisatieniveau. Zie [externe toegang beheren in Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-external-access)voor meer informatie.
 
 Externe gebruikers hebben geen toegang en functionaliteit dan een persoon die is toegevoegd via gasttoegang. Gebruikers van externe toegang kunnen bijvoorbeeld chatten met uw interne gebruikers met teams, maar hebben geen toegang tot team kanalen, bestanden of andere informatiebronnen.
 
-Externe toegang maakt geen gebruik van Azure AD B2B-gebruikersaccounts en maakt daarom geen gebruik van regels voor voorwaardelijke toegang. 
+Externe toegang maakt geen gebruik van Azure AD B2B-gebruikersaccounts en maakt daarom geen gebruik van regels voor voorwaardelijke toegang.
 
 ## <a name="teams-policies"></a>Beleidsregels voor teams
 
@@ -150,4 +150,3 @@ Beleidsregels voor voorwaardelijke toegang configureren voor:
 
 - [Exchange Online](secure-email-recommended-policies.md)
 - [SharePoint](sharepoint-file-access-policies.md)
-
