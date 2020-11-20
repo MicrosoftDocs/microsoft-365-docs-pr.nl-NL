@@ -210,7 +210,7 @@
       items:
         - name: Gebruikersactiviteiten controleren met behulp van rapporten
           href: activity-reports/activity-reports.md
-        - name: Gebruikersproductiviteit controleren met productiviteitsscore
+        - name: Gebruikersproductiviteit controleren met Productiviteitsscore
           href: productivity/productivity-score.md
           items:
             - name: Samenwerken aan inhoud
@@ -225,7 +225,7 @@
               href: productivity/apps-health.md
             - name: DNS-records maken bij een DNS-host
               href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
-        - name: De contactgegevens van uw organisatie wijzigen
+        - name: De contactgegevens van je organisatie wijzigen
           href: manage/change-address-contact-and-more.md
         - name: De contactgegevens van uw beheerder bijwerken
           href: manage/update-phone-number-and-email-address.md
