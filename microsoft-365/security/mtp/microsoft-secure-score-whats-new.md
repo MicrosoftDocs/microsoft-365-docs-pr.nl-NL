@@ -20,18 +20,20 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 0ba3d7a5e46f7e0f8677ce2844c5551bf70739e3
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 6d1358da465bd7e31ca7b234f140aa8e48bb7508
+ms.sourcegitcommit: aa8d2de6ffac0157fffd14d0ea7f51ef0c287607
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367107"
+ms.locfileid: "49373993"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Posture wilt maken, hebben we enkele wijzigingen aangebracht. Zie voor meer informatie over geplande wijzigingen wat er wordt weergegeven [in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md).
+
+Secure Score Microsoft is te vinden https://security.microsoft.com/securescore in het [microsoft 365-Beveiligingscentrum](overview-security-center.md).
 
 ## <a name="november-2020"></a>November 2020
 
