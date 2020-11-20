@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: In dit artikel wordt uitgelegd hoe u gebruikers kunt inrichten voor Microsoft 365 met behulp van adreslijstsynchronisatie en de lange termijn voordelen van het gebruik van deze methode.
-ms.openlocfilehash: b74310b0f444da118699c5ad5fbb68b15519b830
-ms.sourcegitcommit: 45c0afcf958069c5c1b31f9b6c762d8dd806e1e9
+ms.openlocfilehash: e49cc4472b47320650d8a0ca90395b69ae5b6df7
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48773983"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371622"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Directory-synchronisatie voorbereiden op Microsoft 365
 
@@ -127,7 +127,7 @@ De kenmerken die u moet voorbereiden, vindt u hier:
     Houd er rekening mee dat de ongeldige tekens van toepassing zijn op de tekens die volgen op het type scheidingsteken en ': ', zodat de SMTP:User@contso.com is toegestaan, maar SMTP:user:M@contoso.com niet.
 
     > [!IMPORTANT]
-    > Alle SMTP-adressen (Simple Mail Transport Protocol) moeten voldoen aan de standaarden voor e-mailberichten. Raadpleeg het Help-onderwerp [voor het verwijderen van dubbele en ongewenste proxy-adressen in Exchange](https://go.microsoft.com/fwlink/?LinkId=293860)als er dubbele of ongewenste adressen bestaan.
+    > Alle SMTP-adressen (Simple Mail Transport Protocol) moeten voldoen aan de standaarden voor e-mailberichten. Verwijder dubbele of ongewenste adressen als ze bestaan.
 
 - **sAMAccountName**
 
@@ -170,7 +170,7 @@ De kenmerken die u moet voorbereiden, vindt u hier:
 
 ## <a name="3-prepare-the-userprincipalname-attribute"></a>3. het kenmerk userPrincipalName voorbereiden
 
-Active Directory is bedoeld voor de eindgebruikers in uw organisatie waarmee ze zich kunnen aanmelden bij uw adreslijst met behulp van **sAMAccountName** of **userPrincipalName** . Eindgebruikers kunnen zich ook aanmelden bij Microsoft 365 met behulp van de UPN (User Principal Name) van hun werk-of schoolaccount. Adreslijstsynchronisatie probeert nieuwe gebruikers te maken in azure Active Directory met behulp van dezelfde UPN in uw AD DS. De UPN wordt opgemaakt als een e-mailadres.
+Active Directory is bedoeld voor de eindgebruikers in uw organisatie waarmee ze zich kunnen aanmelden bij uw adreslijst met behulp van **sAMAccountName** of **userPrincipalName**. Eindgebruikers kunnen zich ook aanmelden bij Microsoft 365 met behulp van de UPN (User Principal Name) van hun werk-of schoolaccount. Adreslijstsynchronisatie probeert nieuwe gebruikers te maken in azure Active Directory met behulp van dezelfde UPN in uw AD DS. De UPN wordt opgemaakt als een e-mailadres.
 
 In Microsoft 365 is de UPN het standaardkenmerk dat wordt gebruikt voor het genereren van het e-mailadres. U kunt in de proxyAddresses **-app** en het primaire e-mailadres in **proxyAddresses** op verschillende waarden instellen. Wanneer ze zijn ingesteld op verschillende waarden, kan dit leiden tot verwarring voor beheerders en eindgebruikers.
 

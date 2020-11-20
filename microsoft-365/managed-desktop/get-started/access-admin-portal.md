@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 5adf57c2397c4de3c5ea8622a2a9be7207ebf152
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 66e4e5c305947f90f935563a3baf0592ce42480a
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379300"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371668"
 ---
 # <a name="access-the-admin-portal"></a>Toegang tot de beheerportal
 
@@ -37,7 +37,7 @@ Met de onderstaande rollen kunnen verschillende toegangsniveaus worden toegeweze
 |Globale beheerder     | Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen voor alle functies** in de portal van Microsoft beheerde bureaubladbeheer.         |
 |Algemene lezer     | Beheerders met deze rol hebben **alleen-lezen machtigingen voor alle functies** in de Microsoft beheerde portal van de bureaublad beheerder.         |
 |InTune-service beheerder     |  Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen voor functies die niet gerelateerd zijn aan beveiliging** in de Microsoft beheerde portal van de bureaublad beheerder.       |
-|Service ondersteuningsbeheerder     | Beheerders die met deze rol werken, hebben **Lees-en schrijfmachtigingen voor functies die niet gerelateerd zijn aan beveiliging** in de Microsoft beheerde portal van de bureaublad beheerder.         |
+|Service ondersteuningsbeheerder     | Beheerders met deze rol hebben **alleen-lezen machtigingen voor functies die niet gerelateerd zijn aan beveiligings** -en **schrijfmachtigingen voor het beheren van ondersteuningsaanvragen** in de portal van de beheerde bureaublad beheerder van Microsoft.         |
 |Beveiligingsbeheerder | Beheerders met deze rol hebben **alleen-lezen machtigingen voor alle functies** en **schrijfmachtigingen voor gerelateerde functies** in Microsoft Managed desktop in de beheerportal. |
 |Beveiligings lezer |Beheerders met deze rol hebben **alleen-lezen machtigingen voor alle functies** in de Microsoft beheerde portal van de bureaublad beheerder.|
 

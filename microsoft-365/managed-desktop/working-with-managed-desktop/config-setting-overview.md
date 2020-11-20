@@ -1,7 +1,7 @@
 ---
 title: Configureerbare instellingen voor Microsoft Managed Desktop
-description: Informatie over configureerbare instellingen met Microsoft Managed Desktop
-keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie, instellingen, configureerbare instellingen
+description: Info over configureerbare instellingen met Microsoft Managed Desktop
+keywords: Microsoft Managed Desktop, Microsoft 365, service, Documentatie, instellingen, configureerbare instellingen
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
@@ -9,70 +9,70 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1af320ee6151036000e4e8c6fedc4d9152411283
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: bf8672ee6c3332ea6f8522f5086d72e58d1b9048
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530233"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371488"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>Configureerbare instellingen - Microsoft Managed Desktop
 
-Microsoft Managed Desktop implementeert instellingen en beleidsregels die worden toegepast op alle apparaten die worden beheerd door Microsoft Managed Desktop. Zie [Apparaatconfiguratie voor](../service-description/device-policies.md)meer informatie.
+Microsoft Managed Desktop implementeert instellingen en beleidsregels die worden toegepast op alle apparaten die door Microsoft worden beheerd. Zie [apparaatconfiguratie configureren](../service-description/device-policies.md)voor meer informatie.
 
-Configureerbare instellingen in Microsoft Managed Desktop bieden IT-beheerders een manier om instellingen aan te passen en te implementeren die uniek zijn voor hun organisatie en zakelijke behoeften. Deze instellingen zijn naast apparaatconfiguratie-instellingen en -beleidsregels die worden beheerd door Microsoft Managed Desktop.  
+Configureerbare instellingen in Microsoft Managed desktop bieden IT-beheerders een manier om instellingen aan te passen en te implementeren die uniek zijn voor hun organisatie en de bedrijfsbehoeften. Deze instellingen zijn niet alleen geconfigureerd voor configuratie van apparaatconfiguratie en beleidsregels die worden beheerd door Microsoft beheerde bureaublad.  
 
-Configureerbare instellingswijzigingen worden aangebracht in de cloud en toegepast op uw Microsoft Managed Desktop-apparaten in gedefinieerde implementatiegroepen. Dit proces is vergelijkbaar met de manier waarop Microsoft Managed Desktop wijzigingen beheert in instellingen voor apparaatconfiguratie en -beleidsregels die door de service zijn gedefinieerd en beheerd. Door hetzelfde proces te gebruiken dat Microsoft Managed Desktop gebruikt voor het implementeren van wijzigingen, blijft u uw organisatie vooruit helpen met behulp van moderne IT-beheerpraktijken.
+Instellingen voor het configureren van de instellingen worden in de Cloud gemaakt en toegepast op uw door Microsoft beheerde bureaublad apparaten in gedefinieerde implementatie groepen. Dit proces is vergelijkbaar met de manier waarop Microsoft Managed Desktop wijzigingen beheert in configuratie-instellingen en beleid van de apparaatconfiguratie, die worden gedefinieerd en beheerd door de service. Met behulp van het proces dat door Microsoft door Microsoft wordt gebruikt voor de implementatie van wijzigingen, blijft u uw organisatie verder verplaatsen met behulp van moderne IT-beheer praktijken.
 
-## <a name="when-to-use-configurable-settings"></a>Wanneer configureerbare instellingen gebruiken?
+## <a name="when-to-use-configurable-settings"></a>Wanneer gebruikt u configureerbare instellingen?
 
-Er zijn een paar keer om configureerbare instellingen te gebruiken. 
+Er zijn een paar keer dat u configureerbare instellingen kunt gebruiken. 
 
-**Onboarding-proces** : Microsoft Managed Desktop raadt u aan configureerbare instellingen aan te passen wanneer u ingebruik bent bij de Microsoft Managed Desktop-service of wanneer u een groot aantal apparaten ingebruik bent (20 of meer). Instellingscategorieën zijn geconfigureerd in de beheerportal voor Beheerde bureaubladen van Microsoft. Nadat u hebt onboarded en toegang hebt tot de beheerportal, u bepalen welke instellingscategorieën u wilt aanpassen voor uw organisatie, de wijzigingen aanbrengen, een implementatie instellen en vervolgens uw wijzigingen implementeren.
+**Onboarding** : Microsoft Managed Desktop adviseert configureerbare instellingen aan te passen wanneer u de Microsoft beheerde bureaublad service uitvalt, of als u een groot aantal apparaten hebt opruimen (20 of meer). Het instellen van categorieën wordt geconfigureerd in de portal van de beheerde bureaublad beheerder van Microsoft. Wanneer u de beheerder hebt geklikt en u toegang hebt tot de beheerportal, kunt u bepalen welke instellings categorieën u wilt aanpassen voor uw organisatie, de wijzigingen aanbrengen, een implementatie klaarzetten en de wijzigingen vervolgens implementeren.
 
-**Instellingen behouden** - Controleer uw instellingen regelmatig en maak de benodigde updates. Mogelijk moet u wijzigingen aanbrengen om een wijziging in uw bedrijf te ondersteunen.   
+**Instellingen onderhouden** : Controleer de instellingen regelmatig en breng de benodigde wijzigingen aan. Mogelijk moet u wijzigingen aanbrengen ter ondersteuning van een wijziging in uw bedrijf.   
 
 ## <a name="setting-categories"></a>Categorieën instellen
 
-Dit zijn de configureerbare instellingencategorieën die u aanpassen:
-- [Bureaubladachtergrondafbeelding](config-setting-ref.md#desktop-background-picture) : pas de bureaubladachtergrondafbeelding aan voor Microsoft Managed Desktop-apparaten. 
-- [Startpagina's van](config-setting-ref.md#browser-start-pages) de browser : startpagina's toevoegen om te gebruiken met Microsoft Edge. Zie Startpagina browser
-- [Enterprise mode site lijst](config-setting-ref.md#enterprise-mode-site-list-location) - Sites toevoegen, en hun compatibiliteitsmodus. Sites in de lijst worden gestart in Internet Explorer. 
-- [Vertrouwde sites](config-setting-ref.md#trusted-sites) : voeg vertrouwde sites toe en stel beveiligingszones in voor elke site. 
-- [Uitzonderingen op proxysite](config-setting-ref.md#proxy) : stel het adresnummer en het poortnummer van uw proxyserver in en voeg uitzonderingen op proxysite toe.
+Dit zijn de categorieën configureerbare instellingen die u kunt aanpassen:
+- [Afbeelding van bureaubladachtergrond](config-setting-ref.md#desktop-background-picture) : de afbeelding van het bureaublad aanpassen voor Microsoft beheerde bureaublad apparaten. 
+- [Startpagina's in browser](config-setting-ref.md#browser-start-pages) : startpagina's toevoegen voor gebruik met Microsoft Edge. De startpagina van de browser weergeven
+- [Site lijst voor ondernemingsmodus](config-setting-ref.md#enterprise-mode-site-list-location) : sites toevoegen en de compatibiliteitsmodus. Sites in de lijst worden gestart in Internet Explorer. 
+- [Vertrouwde sites](config-setting-ref.md#trusted-sites) : vertrouwde websites toevoegen en beveiligingszones voor elke site instellen. 
+- [Uitzonderingen op proxy site](config-setting-ref.md#proxy) -u kunt het adres nummer en het poortnummer van de proxyserver instellen en proxy site-uitzonderingen toevoegen.
 
-Elke instellingscategorie kan op zichzelf worden aangepast en geïmplementeerd. U wijzigingen tegelijkertijd implementeren in meerdere instellingscategorieën, maar u slechts één wijziging tegelijk implementeren in een instellingscategorie.
+Elke instellings categorie kan worden aangepast en geïmplementeerd. U kunt wijzigingen in meerdere instellings categorieën tegelijk implementeren, maar u kunt slechts één wijziging tegelijk toepassen op een instellings categorie.
 
 Bijvoorbeeld:
-- U wijzigingen implementeren in bureaubladachtergrondafbeelding en vertrouwde sites, elk als hun eigen implementatie, tegelijkertijd. 
-- U niet twee implementaties tegelijk implementeren in startpagina's in de browser. De meest recente implementatie stopt eerdere implementaties die nog in uitvoering zijn.
+- U kunt wijzigingen op de bureaubladachtergrond afbeelding en de vertrouwde sites op elk moment implementeren. 
+- Het is niet mogelijk om twee implementaties te implementeren voor het openen van pagina's in de browser. De meest recente implementatie stopt eerdere implementaties die nog actief zijn.
 
-## <a name="configurable-setting-process"></a>Configureerbaar instellingsproces
+## <a name="configurable-setting-process"></a>Instelbare instellingsproces
 
-Microsoft Managed Desktop raadt aan een proces te volgen dat vergelijkbaar is met het volgende wanneer u configureerbare instellingen voor uw organisatie gebruikt:
+Microsoft Managed Desktop adviseert een proces dat vergelijkbaar is met het volgende bij het gebruik van configureerbare instellingen voor uw organisatie:
 
-**Stap 1 - Plannen** - Meer informatie over configureerbare instellingen en bepaal welke instellingscategorieën u wilt configureren voor uw organisatie. Maak een tijdlijn voor wanneer u verwacht wijzigingen in elke groep te implementeren. Plan communicatie naar uw gebruikers die voldoet aan uw interne change management processen. Als u bijvoorbeeld startpagina's van de browser toevoegt, laat u uw gebruikers weten dat ze na de implementatie een nieuwe set startpagina's in hun browser hebben.  
+**Stap 1:** Maak informatie over configureerbare instellingen en bepaal welke instellings categorieën u wilt configureren voor uw organisatie. Maak een tijdlijn waarvoor u wijzigingen wilt implementeren voor elke groep. Plan de communicatie met uw gebruikers die voldoet aan uw interne processen voor wijzigingsbeheer. Als u bijvoorbeeld startpagina's voor een browser toevoegt, kunnen uw gebruikers weten dat ze na de implementatie een nieuwe set startpagina's in hun browser hebben.  
 
-**Stap 2 - Implementatie configureren en fase maken** - Wijzigingen aanbrengen in configureerbare instellingen in de beheerportal voor Beheerde bureaublad van Microsoft. De wijzigingen in scène zetten, zodat ze klaar zijn om te implementeren. Vergeet niet om uw gebruikers op de hoogte te brengen van de wijzigingen en hoe de wijzigingen hun apparaatervaring zullen veranderen.   
+**Stap 2: implementatie configureren en stage** -wijzigingen aanbrengen in configureerbare instellingen in Microsoft Managed Desktop admin Portal. Stage de wijzigingen zodat ze klaar zijn voor de implementatie. Vergeet niet dat uw gebruikers op de hoogte kunnen blijven van de wijzigingen en wat de werking van het apparaat verandert.   
 
-U configureert en faseert wijzigingen in de Microsoft Managed Desktop-beheerportal. Zie [Configureerbare instellingen aanpassen voor](config-setting-ref.md)meer informatie. 
+U configureert wijzigingen en stage-wijzigingen in de beheerportal van Microsoft Managed Desktop. Zie [configureerbare instellingen aanpassen](config-setting-ref.md)voor meer informatie. 
 
-**Stap 3 - Wijzigingen communiceren** Communiceer informatie over aankomende wijzigingen aan uw gebruikers. Voer voor elke implementatie de communicatie uit die deel uitmaakt van uw change management processen. U moet elke wijziging die van invloed is op de werking van een gebruiker of wat hij of zij op zijn of haar apparaten ziet, duidelijk communiceren.
+**Stap 3: wijzigingen communiceren** Communiceer informatie over aanstaande wijzigingen aan uw gebruikers. Maak voor elke implementatie de communicatie die deel uitmaakt van uw processen voor wijzigingsbeheer. U dient duidelijk te communiceren welke wijziging van invloed is op de werking van een gebruiker, of wat ze op hun apparaat te zien krijgen.
 
-**Stap 4 - Wijzigingen implementeren** : Implementeer uw wijzigingen, te beginnen met de groep Testen. Met de groep Testen u eventuele problemen in een groep met minder apparaten valideren en oplossen voordat wijzigingen worden geïmplementeerd in grotere groepen apparaten. Als u problemen ondervindt, u de wijziging terugdraaien, de instelling bijwerken en een nieuwe implementatie uitvoeren. Microsoft Managed Desktop raadt u aan de gestructureerde aanpak te volgen en te implementeren in groepen in deze volgorde: Test, First, Fast en vervolgens Broad.   
+**Stap 4: wijzigingen implementeren** – uw wijzigingen implementeren, beginnend bij de groep testen. Met de groep testen kunt u problemen in een groep met minder apparaten valideren en oplossen voordat u wijzigingen aanbrengt in grotere groepen apparaten. Als u problemen ondervindt, kunt u de wijziging herstellen, de instelling bijwerken en een nieuwe implementatie stage. Microsoft Managed Desktop adviseert de gestructureerde aanpak en implementeer de groepen in deze volgorde: testen, voor het eerst, snel en vervolgens algemeen.   
 
-Alle configureerbare instellingen worden beheerd met behulp van de Microsoft Managed Desktop-beheerportal. Zie [Wijzigingen implementeren voor](config-setting-deploy.md)meer informatie. 
+Alle instellingen die kunnen worden geconfigureerd, worden beheerd met behulp van de beheerde portal voor Microsoft-bureaubladbeheer. Zie [wijzigingen implementeren](config-setting-deploy.md)voor meer informatie. 
 
-**Stap 5 - Wijzigingen bijhouden** : houd de voortgang bij voor uw wijzigingen in de implementatiestatus. Voor elke instelling u:
-- **Voortgang bijhouden** : houd de status bij nadat u de wijziging hebt geïmplementeerd. De status wordt gewijzigd **in Aan de gang**en vervolgens **Voltooien**of **Mislukt**. Als een implementatie mislukt, wordt er automatisch een ondersteuningsverzoek geopend voor Microsoft Managed Desktop Operations om het probleem te onderzoeken.  
-- **Zie geïmplementeerde versie** : elke geïmplementeerde wijziging heeft een versienummer.
-- **Wijzigingen terugzetten** : als u een wijziging terugzet, wordt de huidige implementatie gestopt en worden alle groepen teruggezet naar de laatste wijzigingen die in alle groepen zijn geïmplementeerd. U draait terug naar de laatst bekende goede instellingswaarde.
-- **Wijzigingen valideren** - Nadat de implementatie is voltooid, valideert u de wijzigingen die zijn toegepast zoals u had verwacht.  
+**Stap 5: wijzigingen bijhouden** : de voortgang bijhouden voor de wijzigingen op de implementatiestatus. Voor elke instelling kunt u het volgende doen:
+- **Voortgang bijhouden** – status bijhouden nadat u de wijziging hebt geïmplementeerd. De status wordt gewijzigd **in voortgang** en vervolgens **voltooid**, of **mislukt**. Als een implementatie mislukt, wordt een ondersteuningsverzoek automatisch geopend voor Microsoft beheerde bureaublad bewerkingen om het probleem te onderzoeken.  
+- **Zie versie geïmplementeerd** – elke geïmplementeerde wijziging heeft een versienummer.
+- **Wijzigingen ongedaan** maken: als u een wijziging aanbrengt, stopt de huidige implementatie en keert alle groepen terug naar de laatste wijzigingen die zijn geïmplementeerd voor alle groepen. U keert terug naar de laatst bekende goede instellingswaarde.
+- **Wijzigingen valideren** -nadat de implementatie is voltooid, controleert u of de wijzigingen zijn toegepast zoals u verwacht.  
 
-Als een implementatie is mislukt of als u een wijziging niet terugdraaien, opent u [een ondersteuningsverzoek](admin-support.md) met Microsoft Managed Desktop Operations. 
+Als een implementatie mislukt, of als u de wijziging niet kunt terugdraaien, [opent u een ondersteuningsaanvraag](admin-support.md) met Microsoft beheerde bureaublad bewerkingen. 
 
-Zie [Configureerbare instellingen implementeren en bijhouden](config-setting-deploy.md)voor meer informatie.
+Zie [configureerbare instellingen implementeren en bijhouden](config-setting-deploy.md)voor meer informatie.
 
-## <a name="additional-resources"></a>Overige informatiebronnen
+## <a name="additional-resources"></a>Aanvullende bronnen
 - [Verwijzing naar configureerbare instellingen](config-setting-ref.md) 
 - [Configureerbare instellingen implementeren](config-setting-deploy.md) 

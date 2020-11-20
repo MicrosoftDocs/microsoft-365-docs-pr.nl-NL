@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
 description: Meer informatie over het beheren van gebruikersaccounts, licenties en groepen van Microsoft 365 met PowerShell.
-ms.openlocfilehash: ec60fcfe3c3d2c0e26cb2cca6a56741067d154c0
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: d3745b9365c67615efe32881408d1a717b8dbbed
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073123"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371534"
 ---
 # <a name="manage-microsoft-365-user-accounts-licenses-and-groups-with-powershell"></a>Microsoft 365-gebruikersaccounts, -licenties en -groepen beheren met PowerShell
 
@@ -53,5 +53,6 @@ Zie de volgende artikelen voor meer informatie.
 - [Licenties van gebruikersaccounts intrekken](remove-licenses-from-user-accounts-with-microsoft-365-powershell.md)
 
 ## <a name="groups"></a>Groepen
-- [Groepslidmaatschap onderhouden](maintain-group-membership-with-microsoft-365-powershell.md)
+- [Beveiligingsgroepen beheren](manage-security-groups-with-microsoft-365-powershell.md)
+- [Lidmaatschap van beveiligingsgroep onderhouden](maintain-group-membership-with-microsoft-365-powershell.md)
 - [Microsoft 365-groepen beheren](manage-microsoft-365-groups-with-powershell.md)
