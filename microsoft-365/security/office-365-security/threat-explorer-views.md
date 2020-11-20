@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Lees meer over het gebruik van bedreigings Verkenner en het rapport realtime detectie om bedreigingen te onderzoeken en te beantwoorden in het Security &amp; compliance Center.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83fa2d89c74b5ec1e2de7e65457313f20bbf2681
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: f9412350384c0b2092c376db371e93fa5295c454
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844318"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367187"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in de bedreigings Verkenner en de real-time detectie
 
@@ -35,7 +35,7 @@ ms.locfileid: "48844318"
 - Als u [Microsoft Defender voor Office 365](office-365-atp.md) abonnement 2 hebt, dan hebt u Explorer.
 - Als u Microsoft Defender voor Office 365 abonnement 1 hebt, hebt u realtime detecties.
 
-Wanneer u het voor het eerst opent (of het rapport realtime-detectie), ziet u in de standaardweergave voor de afgelopen 7 dagen een malware van de malware van de e-mail. Dit rapport kan ook detectie van Microsoft Defender voor Office 365 weergeven, zoals schadelijke Url's die zijn gedetecteerd door [veilige koppelingen](atp-safe-links.md), en kwaadwillende bestanden die zijn gedetecteerd door [veilige bijlagen](atp-safe-attachments.md). Dit rapport kan worden gewijzigd om gegevens weer te geven voor de afgelopen 30 dagen (met een betaald Microsoft Defender for Office 365-betaalde abonnement). Met proefabonnementen worden alleen de afgelopen zeven dagen gegevens opgenomen.
+Wanneer u het voor het eerst opent (of het rapport realtime-detectie), ziet u in de standaardweergave voor de afgelopen 7 dagen een malware van de malware van de e-mail. Dit rapport kan ook detectie van Microsoft Defender voor Office 365 weergeven, zoals schadelijke Url's die zijn gedetecteerd door [veilige koppelingen](atp-safe-links.md), en kwaadwillende bestanden die zijn gedetecteerd door [veilige bijlagen](atp-safe-attachments.md). Dit rapport kan worden gewijzigd om gegevens weer te geven voor de afgelopen 30 dagen (met een betaald abonnement van Microsoft Defender voor Office 365). Met proefabonnementen worden alleen de afgelopen zeven dagen gegevens opgenomen.
 
 ****
 
@@ -92,7 +92,7 @@ Wanneer u een item in de lijst selecteert, zoals een URL die is gedetecteerd, wo
 
 ## <a name="email--submissions"></a>E-mail > ingediende items
 
-Als u dit rapport wilt weergeven, kiest u in Verkenner (of realtime-detectie **View** ) de optie  >  **e-mail**  >  **missies** weergeven. In deze weergave ziet u e-mail die gebruikers hebben gerapporteerd als ongewenste e-mail, geen ongewenste e-mail of phishing-e-mail.
+Als u dit rapport wilt weergeven, kiest u in Verkenner (of realtime-detectie **View**) de optie  >  **e-mail**  >  **missies** weergeven. In deze weergave ziet u e-mail die gebruikers hebben gerapporteerd als ongewenste e-mail, geen ongewenste e-mail of phishing-e-mail.
 
 ![Door gebruikers gemelde e-mailberichten](../../media/ThreatExplorerEmailUserReportedViewOptions.png)
 
@@ -113,9 +113,9 @@ Selecteer een item in de lijst om meer details weer te geven.
 Als u dit rapport wilt weergeven, kiest **View** u in Verkenner de optie  >  **e-mail** van  >  **alle e-mail** weergeven. Deze weergaven toont een weergave van een weergave van e-mail activiteiten, waaronder e-mail die als schadelijk is geïdentificeerd vanwege phishing of malware, en alle niet-schadelijke e-mail (normaal e-mail, spam en bulkmail).
 
 > [!NOTE]
-> Als er een foutbericht wordt weergegeven met de melding dat er **te veel gegevens worden weergegeven** , voegt u een filter toe en beperkt u zo nodig het datumbereik dat u bekijkt.
+> Als er een foutbericht wordt weergegeven met de melding dat er **te veel gegevens worden weergegeven**, voegt u een filter toe en beperkt u zo nodig het datumbereik dat u bekijkt.
 
-Als u een filter wilt toepassen, kiest u **afzender** , selecteert u een item in de lijst en klikt u op de knop Vernieuwen. In ons voorbeeld hebben we de **detectietechnologie** als een filter gebruikt (er zijn verschillende opties beschikbaar). Bekijk de informatie per afzender, het domein van de afzender, de geadresseerden, het onderwerp, de naam van de bijlage, de malware-serie, de beveiligingsstatus (acties die worden uitgevoerd door de functies en beleidsregels van bedreigingen in Office 365), de detectietechnologie (hoe de malware is gedetecteerd) en meer.
+Als u een filter wilt toepassen, kiest u **afzender**, selecteert u een item in de lijst en klikt u op de knop Vernieuwen. In ons voorbeeld hebben we de **detectietechnologie** als een filter gebruikt (er zijn verschillende opties beschikbaar). Bekijk de informatie per afzender, het domein van de afzender, de geadresseerden, het onderwerp, de naam van de bijlage, de malware-serie, de beveiligingsstatus (acties die worden uitgevoerd door de functies en beleidsregels van bedreigingen in Office 365), de detectietechnologie (hoe de malware is gedetecteerd) en meer.
 
 ![Gegevens voor gedetecteerde e-mail weergeven in de detectietechnologie](../../media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png)
 

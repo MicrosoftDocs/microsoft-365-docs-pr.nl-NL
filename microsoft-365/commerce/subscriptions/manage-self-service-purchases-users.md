@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Gebruikers kunnen meer weten over het beheren van hun selfservice aankopen.
-ms.openlocfilehash: 7a5b52c0378e4d8f2a48ce7cdb56fb1901c25472
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: a94a474bf2a5c506f4e6ed02659cd10d371fb779
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546604"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367153"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
 
@@ -59,7 +59,7 @@ U kunt een lijst weergeven met alle selfservice aangeschafte abonnementen die u 
 4. Begin in het deelvenster **Licenties toewijzen aan gebruikers** met het typen van een naam en kies de naam in de resultaten om deze aan de lijst toe te voegen. U kunt maximaal 20 gebruikers tegelijk toevoegen.
     > [!NOTE]
     > U kunt alleen licenties toewijzen aan personen in uw organisatie.
-5. Kies **toewijzen**en kies vervolgens **sluiten**.
+5. Kies **toewijzen** en kies vervolgens **sluiten**.
 
 ### <a name="to-unassign-licenses"></a>Licenties intrekken
 
@@ -74,13 +74,13 @@ U kunt een lijst weergeven met alle selfservice aangeschafte abonnementen die u 
 1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
 2. Zoek op het tabblad **producten** naar het abonnement dat u wilt opzeggen. Selecteer **meer acties** (drie puntjes) en selecteer vervolgens **abonnement annuleren**.
 3. Kies in het deelvenster **abonnement annuleren** een reden waarom u wilt opzeggen. Eventueel kunt u feedback geven.
-4. Selecteer **Opslaan**.
+4. Klik op **Opslaan**.
 
 ## <a name="manage-your-payment-details"></a>Uw betaalgegevens beheren
 
 1. Ga in het Beheercentrum naar de pagina **facturerings**  >  profielen van **& betalingsrekeningen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> .
 2. Selecteer een factuur profiel in de lijst.
-3. Kies een van de volgende opties op de pagina Details van factuur profiel onder **betaalmethode**: \
+3. Kies een van de volgende opties op de pagina Details facturerings profiel onder **Betalingswijze**:
     - Als u een bestaande betalingsmethode wilt bijwerken, selecteert u **bewerken**.
     - Als u een nieuwe betalingsmethode wilt toevoegen, selecteert u **vervangen**.
 4. Voer in het rechterdeelvenster de kaartgegevens in en kies vervolgens **Opslaan**.
@@ -89,19 +89,19 @@ U kunt een lijst weergeven met alle selfservice aangeschafte abonnementen die u 
 
 1. Ga in het Beheercentrum naar de pagina **facturen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalingen</a> .
 2. Kies een bestaande betaalmethode in de lijst op het tabblad **betaalwijzen** .
-3. Kies **bewerken**in het rechterdeelvenster. U kunt de beveiligingscode, de vervaldatum, de naam van de kaart en het adres wijzigen.
+3. Kies **bewerken** in het rechterdeelvenster. U kunt de beveiligingscode, de vervaldatum, de naam van de kaart en het adres wijzigen.
 4. Breng de gewenste wijzigingen aan en kies **Opslaan**.
 
 ### <a name="add-a-new-payment-method"></a>Een nieuwe betaalwijze toevoegen
 
 1. Ga in het Beheercentrum naar de pagina **facturen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalingen</a> .
-2. Kies **een betalingsmethode toevoegen**op het tabblad **betalingsmethoden** .
+2. Kies **een betalingsmethode toevoegen** op het tabblad **betalingsmethoden** .
 3. Voer in het deelvenster **een betalingsmethode toevoegen** de gegevens voor de nieuwe betaalmethode in en kies **toevoegen**.
 
 ## <a name="view-your-invoices"></a>Uw facturen weergeven
 
-1. Ga in het Beheercentrum naar **facturerings**  >  pagina<a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalingen</a> .
-2. Selecteer op het tabblad **facturen** de factuur die u wilt weergeven. Als er geen facturen worden weergegeven, wijzigt u de **afgelopen drie** maanden in de **afgelopen zes maanden** of **geeft u een datumbereik**op.
+1. Ga in het Beheercentrum naar **facturerings**  >  pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalingen</a> .
+2. Selecteer op het tabblad **facturen** de factuur die u wilt weergeven. Als er geen facturen worden weergegeven, wijzigt u de **afgelopen drie** maanden in de **afgelopen zes maanden** of **geeft u een datumbereik** op.
 
 ## <a name="need-help-contact-us"></a>Hulp nodig? Neem contact met ons op.
 

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/09/2019
+ms.date: 11/19/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -14,12 +14,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: U kunt deze test lab-handleiding gebruiken om beleid voor het naleving van intune-apparaten toe te voegen aan de testomgeving van Microsoft 365.
-ms.openlocfilehash: c1de822e5a97416bd0c672d88f2902d8986638c8
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: d42c9a603ca581941cb5a8f30b9ecd9d6f780759
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487410"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367093"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-for-enterprise-test-environment"></a>Beleid voor apparaatcompatibiliteit voor uw Microsoft 365 voor Enterprise testomgeving
 
@@ -48,34 +48,25 @@ Als u het MAM-beleid in een gesimuleerde Enterprise wilt configureren, volgt u d
 
 ## <a name="phase-2-create-a-device-compliance-policy-for-windows-10-devices"></a>Fase 2: een beleid voor naleving van apparaten maken voor Windows 10-apparaten
 
-In deze fase maakt u een apparaatcompatibiliteit voor Windows 10-apparaten.
-  
-1. Ga naar het [Microsoft 365-Beheercentrum](https://admin.microsoft.com) , Meld u aan bij uw microsoft 365-test abonnement met uw globale beheerdersaccount.
-1. Open de Azure-Portal op een nieuw tabblad van uw browser [https://portal.azure.com](https://portal.azure.com) .
-1. Voer in het zoekvak van de Azure-Portal **intune**in en selecteer vervolgens **intune**.
-1. Als u in het **Microsoft intune** -venster geen optie voor **Apparaatbeheer hebt ingeschakeld** , kunt u deze selecteren. Selecteer in het deelvenster **Mobile Device Management Authority** de optie **intune MDM Authority**en selecteer vervolgens **Choose**.
-1. Vernieuw het tabblad browser.
-1. Selecteer **groepen**in het linker navigatiedeelvenster.
-1. Selecteer in het deelvenster **groepen-alle groepen de** optie **+ nieuwe groep**.
-1. Selecteer in het deelvenster **groep** de optie **Microsoft 365** of **beveiliging** voor **groepstype?**, Voer **beheerde gebruikers van Windows 10-apparaten** in **naam**in, selecteer **toegewezen aan** **lidmaatschaps type**en selecteer **maken**.
-1. Selecteer **Microsoft intune**.
-1. Selecteer in het deelvenster **Microsoft intune** in de lijst **snelle taken** de optie **een nalevingsbeleid maken**.
-1. Selecteer in het deelvenster beleids **profielen voor compliance beleids** **regels maken**.
-1. Voer in het deelvenster **beleid maken** in **naam** **Windows 10**in. In **platform**selecteert u **Windows 10 en later**, selecteert u **OK** in het deelvenster **nalevingsbeleid van Windows 10** en selecteert u **maken**.
-1. Selecteer **profielen voor nalevingsbeleid**en selecteer vervolgens de naam van het **Windows 10** -beleid.
-1. Selecteer in het deelvenster **Windows 10** **opdrachten**en selecteer **groepen selecteren om op te nemen**.
-1. Selecteer in het deelvenster **groepen selecteren die moeten worden opgenomen** de groep gebruikers van de **beheerde Windows 10-apparaten** en selecteer vervolgens **selecteren**.
-1. Selecteer **Opslaan**, selecteer **Microsoft intune-overzicht**en selecteer **client toepassingen** in de linkernavigatiebalk.
-1. Selecteer **apps**in het deelvenster **client-apps** en selecteer vervolgens **toevoegen**.
-1. Selecteer in het deelvenster **app toevoegen** de optie **app-type**en selecteer vervolgens **Windows 10** onder **Microsoft 365 Suite**.
-1. Selecteer in het deelvenster **app toevoegen** de gegevens van de **app-Suite**.
-1. Voer in het deelvenster met **app-Suite gegevens** de **Microsoft 365-apps voor Enterprise** in zowel **naam** als **Suite-beschrijving**in en selecteer **OK**.
-1. Selecteer in het deelvenster **app toevoegen** de optie **app-Suite configureren**en selecteer vervolgens **OK**.
-1. Selecteer **app Suite-instellingen**in het deelvenster **app toevoegen** .
-1. Selecteer voor **Update kanaal**de optie **Semi-Annual Enterprise**en selecteer vervolgens **OK**.
-1. Selecteer **toevoegen**in het deelvenster **app toevoegen** .
+In deze fase maakt u een beleid voor naleving van apparaten voor Windows 10-apparaten. In deze fase wordt Microsoft intune en het [Beheercentrum van Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) gebruikt om een groep toe te voegen en een nalevingsbeleid te maken.
 
-U beschikt nu over een apparaatcompatibiliteit voor het testen van de geselecteerde apps in het nalevingsbeleid voor **Windows 10** -apparaten en de leden van de groep gebruikers van de **beheerde Windows 10-apparaat** . Houd er rekening mee dat **Microsoft 365** wordt geselecteerd als groepstype, om aanvullende bronnen te maken.
+1. Ga naar het [Microsoft 365-Beheercentrum](https://admin.microsoft.com)en meld u aan bij uw microsoft 365-test abonnement met uw globale beheerdersaccount. Selecteer het Beheercentrum voor **eindpunten** van de beheerder. Het [Beheercentrum voor eindpunten](https://go.microsoft.com/fwlink/?linkid=2109431) wordt geopend.
+
+    Als u een bericht ziet dat vergelijkbaar is met de optie **Apparaatbeheer** weergeven, selecteert u intune als de MDM-autoriteit. Voor de specifieke stappen raadpleegt u [de service voor het beheer van mobiele apparaten instellen](/mem/intune/fundamentals/mdm-authority-set).
+
+    Het Beheercentrum voor eindpunten van het Beheercentrum voor apparaten en de app-beheer. Voor een rondleiding van dit Beheercentrum raadpleegt u [Zelfstudie: procedure intune in Microsoft Endpoint Manager](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager).
+
+2. In **groepen** voegt u een nieuwe **Microsoft 365** of **beveiligings** groep met de naam **beheerde gebruikers van Windows 10-apparaten** met een **toegewezen** lidmaatschaps type toe. In de volgende stappen wijst u uw compliance-beleid toe aan deze groep. 
+
+    Voor de specifieke stappen en voor informatie over **Microsoft 365** of **beveiligings** groepen, raadpleegt [u groepen toevoegen om gebruikers en apparaten te ordenen](/mem/intune/fundamentals/groups-add).
+
+3. Maak in **apparaten** een nalevingsbeleid voor Windows 10. Wijs dit beleid toe aan de groep gebruikers van de **beheerde Windows 10-apparaten** die u hebt gemaakt.
+
+    In uw beleid kunt u eenvoudige wachtwoorden blokkeren, een firewall vereisen, de Microsoft Defender malware-service uitvoeren en nog veel meer. Het nalevingsbeleid bevat meestal de basisinstellingen, of het minimum aantal voor elk apparaat.
+
+    Voor de specifieke stappen en voor informatie over de beschikbare compliance-instellingen die u kunt configureren, raadpleegt u [nalevingsbeleid gebruiken om regels in te stellen voor apparaten die u beheert](/mem/intune/protect/device-compliance-get-started).
+
+Wanneer u klaar bent, beschikt u over een beleid voor apparaatcompatibiliteit voor het testen van leden in de groep gebruikers van de **beheerde Windows 10-apparaten** .
   
 ## <a name="next-step"></a>Volgende stap
 

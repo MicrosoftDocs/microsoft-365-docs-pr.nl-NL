@@ -20,18 +20,26 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: d63994778762968962b2a32f026dbb81af39b664
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0ba3d7a5e46f7e0f8677ce2844c5551bf70739e3
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843814"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367107"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Posture wilt maken, hebben we enkele wijzigingen aangebracht. Zie voor meer informatie over geplande wijzigingen wat er wordt weergegeven [in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md).
+
+## <a name="november-2020"></a>November 2020
+
+### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Voor Microsoft Defender voor eindpunt zijn 3 extra uitbreidingen voor kwaliteitsverbetering toegevoegd (voorheen Microsoft Defender ATP):
+
+- Het service traject voor niet-geciteerde Windows-Services oplossen
+- Het uitvoerbare pad van de service wijzigen in een bekende beveiligde locatie
+- Serviceaccount wijzigen om het wachtwoord in de cache te vermijden in het Windows-register
 
 ## <a name="october-2020"></a>Oktober 2020
 

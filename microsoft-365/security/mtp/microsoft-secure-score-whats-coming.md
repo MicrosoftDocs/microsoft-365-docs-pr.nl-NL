@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 82ec67cae86525c055b2232667cccb603830d15f
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: 5627358db1b762db772b8f4ee61569968dc73a73
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779246"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367110"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
 
@@ -34,33 +34,10 @@ We maken de nabije toekomst enkele wijzigingen in de nabije toekomst, zodat [Mic
 
 ### <a name="november-2020"></a>November 2020
 
-U kunt de mogelijkheid om ServiceNow-tickets te creëren via een Secure Score door naar **> ServiceNow te delen** .
+U kunt de mogelijkheid om ServiceNow-tickets te creëren via een Secure Score door naar **> ServiceNow te delen**.
 
 - De voorbeeldperiode voor de ServiceNow-connector wordt beëindigd. Deze functie is niet meer beschikbaar voor het einde van 2020. Bedankt voor uw feedback en voortdurende ondersteuning terwijl we volgende stappen bepalen.
 
-Toevoegen van 18 verbeterings acties voor Microsoft Defender voor eindpunten (voorheen Microsoft Defender ATP):
-
-Aanbevelingen voor een aanvals oppervlakte (ASR):
-- Uitvoerbare inhoud blokkeren van e-mailclient en webmail
-- Alle Office-toepassingen blokkeren om onderliggende processen te maken
-- Voorkomen dat Office-toepassingen uitvoerbare inhoud kunnen maken
-- Voorkomen dat Office-toepassingen code in andere processen invoegen
-- JavaScript of VBScript blokkeren voor het starten van downloadbare inhoud
-- Het uitvoeren van mogelijk af te schrijven scripts blokkeren
-- Win32 API-aanroepen blokkeren vanuit Office-macro's
-- Voorkomen dat uitvoerbare bestanden worden uitgevoerd, tenzij ze voldoen aan een invloed, ouderdom of vertrouwd lijst criterium
-- Geavanceerde beveiliging gebruiken voor Ransomware
-- Referenties blokkeren van het subsysteem Windows Local Security Authority (lsass.exe)
-- Proces creatie blokkeren vanuit PSExec en WMI-opdrachten
-- Niet-vertrouwde en niet-ondertekende processen blokkeren die vanaf USB worden uitgevoerd
-- Voor het maken van onderliggende processen voor Office-communicatietoepassingen blokkeren
-- Voorkomen dat Adobe Reader onderliggende processen kan maken
-- Permanente hand stenen via een WMI-gebeurtenisabonnement
-
-Verwante aanbevelingen voor services:
-- Het service traject voor niet-geciteerde Windows-Services oplossen
-- Het uitvoerbare pad van de service wijzigen in een bekende beveiligde locatie
-- Serviceaccount wijzigen om het wachtwoord in de cache te vermijden in het Windows-register
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 

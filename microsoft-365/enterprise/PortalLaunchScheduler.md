@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: In dit artikel wordt uitgelegd hoe u uw portal kunt starten met behulp van de lanceer planner voor portals
-ms.openlocfilehash: e5e5850fa7e74f3e3b342e9bb28d17f65b491664
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 7e488caba5e4df47bb3f51f195e093891565d95c
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356665"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367199"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>De portal starten met behulp van de lanceer planner voor portal
 
@@ -34,7 +34,7 @@ Er zijn twee typen omleiding:
 - bidirectioneel: een nieuwe moderne SharePoint Online-Portal starten om een bestaande SharePoint-klassieke of moderne portal te vervangen 
 - tijdelijke omleiding van pagina: een nieuwe moderne SharePoint Online-Portal starten zonder bestaande SharePoint-Portal
 
-De lancerings planner voor de portal is alleen beschikbaar voor het openen van moderne SharePoint Online-portals (bijv. Communicatiesites). Start moet ten minste 7 dagen vooraf worden gepland. Het aantal vereiste golven wordt bepaald door het verwachte aantal gebruikers. Voordat u begint met het plannen van een portal, moet u eerst het [hulpprogramma pagina diagnose voor SharePoint](https://aka.ms/perftool) uitvoeren om te controleren of de startpagina op de portal in orde is. Aan het einde van de start van de portal hebben alle gebruikers met machtigingen voor de site toegang tot de nieuwe site. 
+De lancerings planner voor de portal is alleen beschikbaar voor het openen van moderne SharePoint Online-portals, zoals Communicatiesites en moderne team sites. Start moet ten minste 7 dagen vooraf worden gepland. Het aantal vereiste golven wordt bepaald door het verwachte aantal gebruikers. Voordat u begint met het plannen van een portal, moet u eerst het [hulpprogramma pagina diagnose voor SharePoint](https://aka.ms/perftool) uitvoeren om te controleren of de startpagina op de portal in orde is. Aan het einde van de start van de portal hebben alle gebruikers met machtigingen voor de site toegang tot de nieuwe site. 
 
 Als u meer wilt weten over het starten van een succesvolle Portal, volgt u de basisprincipes, procedures en aanbevelingen voor informatie over het [maken, starten en onderhouden van een gezonde Portal](https://docs.microsoft.com/sharepoint/portal-health). 
 
@@ -70,7 +70,7 @@ Het aantal vereiste Golf punten is afhankelijk van de verwachte start grootte.
 
 Bidirectionele omleiding houdt in dat u een nieuwe moderne SharePoint Online-Portal moet starten om een bestaande SharePoint-klassieke of moderne portal te vervangen. Gebruikers in actieve golven worden omgeleid naar de nieuwe site, ongeacht of ze naar de oude of nieuwe site navigeren. Gebruikers in een niet-geactiveerde golf die toegang proberen te krijgen tot de nieuwe site, worden weer naar de oude site omgeleid totdat hun Wave wordt gestart. 
 
-Als u beheerders of eigenaren hebt die toegang moeten hebben tot de oude en nieuwe sites zonder te worden doorgestuurd, moet u ervoor zorgen dat ze worden weergegeven met behulp van de `WaveOverrideUsers` parameter. We ondersteunen alleen omleiding tussen de standaardstartpagina van de oude site en de standaardstartpagina van de nieuwe site.
+We ondersteunen alleen omleiding tussen de standaardstartpagina van de oude site en de standaardstartpagina van de nieuwe site. Als u beheerders of eigenaren hebt die toegang moeten hebben tot de oude en nieuwe sites zonder te worden doorgestuurd, moet u ervoor zorgen dat ze worden weergegeven met behulp van de `WaveOverrideUsers` parameter. Als u beheerders of eigenaren hebt die toegang moeten hebben tot de oude en nieuwe sites zonder te worden doorgestuurd, moet u ervoor zorgen dat ze worden weergegeven met behulp van de `WaveOverrideUsers` parameter. We ondersteunen alleen omleiding tussen de standaardstartpagina van de oude site en de standaardstartpagina van de nieuwe site.
 
 Gebruikers migreren van een bestaande SharePoint-site naar een nieuwe SharePoint-site op een gefaseerde manier:
 
