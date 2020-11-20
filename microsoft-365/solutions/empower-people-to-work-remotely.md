@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Zorg ervoor dat u alle functies van Microsoft 365 hebt ingeschakeld om de productiviteit van externe werknemers te maximaliseren en veilige toegang tot uw servers, gegevens en de cloud te behouden.
-ms.openlocfilehash: b886341adc49ba728856dc39786e926ebfadd3ef
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 6cf956d7d7e895dc328c8551f98e78d0fc42d86c
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906737"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357035"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
 
@@ -113,3 +113,5 @@ Gebruik de volgende stappen om de toegang tot de servers en cloudservices van je
 [![De stappen om externe werknemers mogelijkheden te bieden met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
 Voor de meest recente informatie van Microsoft over het ondersteunen van externe werknemers, raadpleegt u de [Site van Microsoft Teams voor het inschakelen hybride werken](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
+
+Als u wilt zien hoe een fictieve, maar representatieve multinational-organisatie haar externe werknemers heeft aangewezen, raadpleegt u [het antwoord op COVID-19 en de infrastructuur van Contoso voor hybride personeel](contoso-hybrid-workforce.md).

@@ -16,23 +16,23 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 2bb6bff5fae661d755ea19dbb5af8ca62fbacbd8
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 34e0f3cf1ae382dcb256887557af18556d52a7df
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130861"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357885"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of standalone EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, zijn binnenkomende e-mailberichten automatisch tegen spam beschermd door EOP. EOP gebruikt antispambeleid (ook wel bekend als spamfilterbeleid of inhoudsfilterbeleid) als onderdeel van de algehele bescherming van uw bedrijf tegen spam. Zie [Bescherming tegen antispam](anti-spam-protection.md) voor meer informatie.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken worden inkomende e-mailberichten automatisch beschermd tegen spam door EOP. EOP gebruikt een antispambeleid (ook wel bekend als spamfilter beleid of het beleid voor inhoudsfilters) als onderdeel van de algehele bescherming tegen ongewenste e-mail van uw organisatie. Zie [bescherming tegen ongewenste e-mail](anti-spam-protection.md)voor meer informatie.
 
-Beheerders kunnen het standaardbeleid bekijken, bewerken en configureren (maar niet verwijderen). Voor grotere nauwkeurigheid kunt u ook aangepast antispambeleid maken dat wordt toegepast op specifieke gebruikers, groepen of domeinen binnen uw bedrijf. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
+Beheerders kunnen het standaard antispambeleid weergeven, bewerken en configureren (maar niet verwijderen). Voor een grotere nauwkeurigheid kunt u ook aangepast anti-spam beleid maken dat van toepassing is op specifieke gebruikers, groepen en domeinen in uw organisatie. Aangepaste beleidsregels hebben altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (doorlopende volgorde) van het aangepaste beleid wijzigen.
 
-U kunt antispambeleid configureren in het Beveiligings- en compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+U kunt antispambeleid configureren in het Beveiligings- en compliancecentrum of in Windows PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 De basiselementen van antispambeleid zijn: 
 
@@ -42,24 +42,24 @@ De basiselementen van antispambeleid zijn:
 Het verschil tussen deze twee elementen is niet overduidelijk wanneer u antispambeleid beheert in het Beveiligings- en compliancecentrum:
 
 - Wanneer u antispambeleid maakt, maakt u in feite tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid met dezelfde naam voor beide.
-- Wanneer u antispambeleid wijzigt, wordt de spamfilterregel gewijzigd door instellingen met betrekking tot de naam, prioriteit, in- of uitgeschakeld en geadresseerdenfilters. Alle andere instellingen wijzigen het bijbehorende spamfilterbeleid.
+- Wanneer u een antispambeleid wijzigt, wordt de spamfilterregel gewijzigd door instellingen met betrekking tot de naam, prioriteit, in- of uitgeschakeld en geadresseerdenfilters. Alle overige instellingen wijzigen het bijbehorende beleid voor het filteren van ongewenste e-mail.
 - Wanneer u antispambeleid verwijdert, worden de spamfilterregel en het bijbehorende spamfilterbeleid verwijderd.
 
-In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie [Exchange Online PowerShell of standalone EOP PowerShell gebruiken om antispambeleid te configureren](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) later in dit hoofdstuk voor meer informatie.
+In Exchange Online PowerShell of zelfstandige EOP Windows PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie de [Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken voor het configureren van antispambeleid](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies)-sectie verderop in dit onderwerp.
 
 Elk bedrijf heeft een ingebouwd antispambeleid met de naam Standaard met de volgende eigenschappen:
 
 - Het beleid wordt toegepast op alle geadresseerden in het bedrijf, ook al is er geen spamfilterregel (geadresseerdenregels) gekoppeld aan het beleid.
-- Het beleid heeft de prioriteit **Laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast). Alle beleid dat u maakt heeft altijd een hogere prioriteit.
+- Het beleid heeft de aangepaste prioriteitswaarde **laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast). Elk aangepast beleid dat u maakt, heeft altijd een hogere prioriteit.
 - Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True`) en u kunt het standaardbeleid niet verwijderen.
 
 Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid maken met strengere instellingen dat wordt toegepast op specifieke gebruikers of groepen gebruikers.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik <https://protection.office.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
+- U opent het Beveiligings- & Compliance Center op <https://protection.office.com/>. Gebruik <https://protection.office.com/antispam>als u rechtstreeks naar de pagina met **antispaminstellingen** wilt gaan.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)als u verbinding wilt maken met een zelfstandige EOP Windows PowerShell.
 
 - U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
 
@@ -85,9 +85,9 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
 3. Configureer in het deelvenster **Nieuw spamfilterbeleid** dat wordt geopend de volgende instellingen:
 
-   - **Naam**: een unieke beschrijvende naam voor het beleid. U mag de volgende tekens niet gebruiken: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.
+   - **Naam**: Voer een unieke, beschrijvende naam in voor het beleid. Gebruik niet de volgende tekens: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.
 
-      Als u eerder al antispambeleid hebt gemaakt in het Exchange-beheercentrum (EAC) dat deze tekens bevat, moet u het antispambeleid in PowerShell hernoemen. Zie de sectie [PowerShell gebruiken om spamfilterregels te wijzigen](#use-powershell-to-modify-spam-filter-rules) verderop in dit artikel voor instructies.
+      Als u eerder antispambeleid hebt gemaakt in het Exchange-beheercentrum, waarin deze tekens voorkomen, moet u de naam van het antispambeleid in Windows PowerShell wijzigen. Voor instructies, zie de [Windows PowerShell gebruiken voor het wijzigen van de regels voor spamfilter](#use-powershell-to-modify-spam-filter-rules) verderop in dit onderwerp.
 
    - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
@@ -108,7 +108,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
      ****
 
-     |<span>|Spam|Hoog<br/>betrouwbaarheid<br/>spam|Phishing<br/>e-mail|Hoog<br/>betrouwbaarheid<br/>phishing<br/>e-mail|Bulk<br/>e-mail|
+     |Actie|Spam|Hoog<br/>betrouwbaarheid<br/>spam|Phishing<br/>e-mail|Hoog<br/>betrouwbaarheid<br/>phishing<br/>e-mail|Bulk<br/>e-mail|
      |---|:---:|:---:|:---:|:---:|:---:|
      |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
      |**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak. <p> U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in.  <p> Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|

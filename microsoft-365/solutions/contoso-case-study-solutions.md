@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365-oplossingen heeft geïmplementeerd.
-ms.openlocfilehash: 8ee25baa9c412e51de7d70e35662d03d1c148369
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 8ba1661a2a4257409b7622b6d78dca4bcd103929
+ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521635"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49357693"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Microsoft 365-oplossingen voor Contoso Corporation
 
@@ -31,6 +31,8 @@ Het algehele doel van Contoso voor Microsoft 365 Enterprise is hun digitale tran
 Lees eerst over [Contoso Corporation](../enterprise/contoso-overview.md), hun wereldwijde kantoren en de ontwerpoverwegingen bij de implementatie van Microsoft 365 Enterprise.
 
 Zie vervolgens hoe Contoso Microsoft 365 heeft gebruikt voor deze oplossingen en scenario's:
+
+- [COVID-19-respons en-infrastructuur voor een hybride personeel](contoso-hybrid-workforce.md)
 
 - [Geïsoleerd team voor een uiterst geheim project](contoso-team-for-top-secret-project.md)
 
