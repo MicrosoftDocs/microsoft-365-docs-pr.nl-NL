@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: f84c1c4a8d507ae9a4be3cb69a816a8494e08cc3
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 9bd5ad3e2544e0c715ade59ca4744e08c8a548a6
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906785"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376663"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
@@ -43,12 +43,12 @@ Wat IT-architecten moeten weten over Microsoft 365-groepen
 
 Microsoft 365 omvat een uitgebreide set informatiebescherming en mogelijkheden voor naleving. Naast de productiviteitshulpmiddelen van Microsoft zijn de volgende mogelijkheden bedoeld om organisaties te helpen in realtime samen te werken en te voldoen aan de nalevings kaders van strikte regelgevende naleving. 
 
-Deze reeks illustraties gebruikt een van de meest gereguleerde industrieën, financiële diensten om te laten zien hoe deze mogelijkheden voor de gemeenschappelijke regelgeving van toepassing zijn. U kunt deze afbeeldingen aan uw eigen gebruik aanpassen. 
+Deze reeks illustraties gebruikt een van de meest gereguleerde industrieën, financiële diensten om te laten zien hoe deze mogelijkheden voor de gemeenschappelijke regelgeving van toepassing zijn. U kunt deze illustraties aan uw eigen wensen aanpassen. 
 
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Model poster: Microsoft 365 Information Protection en compliance-mogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Downloaden als een PDF-bestand](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [Downloaden als een Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Update van oktober 2020|Waaronder <ul><li>  Microsoft-informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en labels voor bewaarbeleid </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
+|[![Modelposter: Microsoft 365-gegevensbescherming en nalevingsmogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> Engels: [downloaden als een PDF-](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) bestand \| [downloaden als een Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Japans: [downloaden als een PDF-](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf) bestand \| [downloaden als een Visio](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx)   <br/> Update van november 2020|Omvat: <ul><li>  Microsoft informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en labels voor bewaarbeleid </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
 
 
 ### <a name="security-and-information-protection-for-multi-region-organizations"></a>Beveiliging en informatiebescherming voor organisaties met meerdere regio's
@@ -84,7 +84,7 @@ Geavanceerde eDiscovery-werkstroom en gegevensstroom, waaronder binnen Microsoft
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Model poster: geavanceerde eDiscovery-architectuur in Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Als een afbeelding](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| weergeven [Downloaden als een PDF-bestand](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Downloaden als een Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Update van oktober 2020|Waaronder <ul><li>  End-to-end werkstroom in één omgeving</li><li>End-to-end werkstroom in een multi-geografische omgeving van Microsoft 365 </li><li>End-to-end gegevensstroom die ondersteuning biedt voor de EDRM-werkstroom</li> |
+|[![Model poster: geavanceerde eDiscovery-architectuur in Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Als een afbeelding](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| weergeven [Downloaden als een PDF-bestand](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Downloaden als een Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Bijgewerkt: oktober 2020|Omvat: <ul><li>  End-to-end werkstroom in één omgeving</li><li>End-to-end werkstroom in een multi-geografische omgeving van Microsoft 365 </li><li>End-to-end gegevensstroom die ondersteuning biedt voor de EDRM-werkstroom</li> |
   
 <!--
 

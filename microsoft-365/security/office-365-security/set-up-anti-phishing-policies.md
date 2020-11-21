@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
-ms.openlocfilehash: c728a69a3b0841219e4f9b546e80e71b2cf89151
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: a02d69b278420d814871df8eebdd6efcdf5d8e7f
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123629"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376341"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -200,8 +200,11 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingfilter
   - **Geïmiteerde domeinen**: het van-adres bevat een beveiligd domein.
   - **Ongebruikelijk tekens**: het van-adres bevat ongebruikelijke tekensets (bijvoorbeeld wiskundige symbolen en tekst of een combinatie van hoofdletters en kleine letters) in een beveiligde afzender of domein.
 
-  > [!NOTE]
-  > Zelfs wanneer de veiligheidstips voor de imitatie zijn uitgeschakeld, kunt u een e-mail stroom regel (ook wel een transportregel genoemd) gebruiken om een berichtheader met de naam **X-MS-Exchange-EnableFirstContactSafetyTip** aan berichten toe te voegen. Specifieke veiligheidstips worden weergegeven met de mededeling dat geadresseerden geen e-mail ontvangen van de afzender of wanneer de geadresseerde voor het eerst een e-mail voor de eerste keer voor de afzender ontvangt.
+> [!IMPORTANT]
+>
+> Zelfs wanneer de veiligheidsaanbevelingen voor imitatie zijn uitgeschakeld, wordt u **aangeraden** een e-mail stroom regel (ook wel een transportregel genoemd) te gebruiken om een berichtheader met de naam **X-MS-Exchange-EnableFirstContactSafetyTip** aan berichten toe te voegen. Specifieke veiligheidstips worden weergegeven met de mededeling dat geadresseerden geen e-mail ontvangen van de afzender of wanneer de geadresseerde voor het eerst een e-mail voor de eerste keer voor de afzender ontvangt.
+>:::image type="content" source="../../media/Urja_FirstContactEmail-Set-us-anti-phish-pol-safetyTip-ImpersonationProtection-MultipleRecipients.png" alt-text="De tekst van de veiligheids tip voor imitatie bescherming met meerdere geadresseerden.":::
+<p>
 
 - **Postvak intelligentie**: Hiermee wordt gecommuniceerd met de optie veelgebruikte contactpersonen (AI) in-of uitgeschakeld. Met deze instelling zorgt u ervoor dat de AI onderscheidt tussen legitieme en vervalste e-mail van deze contactpersonen. Postvak intelligentie is alleen beschikbaar voor postvakken van Exchange Online.
 

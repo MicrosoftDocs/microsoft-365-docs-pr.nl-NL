@@ -18,23 +18,22 @@ ms.collection:
 - M365-security-compliance
 description: In dit artikel leest u hoe u met EOP en Office 365 u kunt beschermen tegen spam, phishing en preventie van malware, door een veiligheids tip toe te voegen aan de e-mail.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e204021bfd79dabd4abdeefaa990da50915eaf0
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: e36887e2bb0146c86a8a4f1526f1e712a38b46ba
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948443"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376617"
 ---
 # <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
 Met Exchange Online Protection (EOP) en Microsoft 365 beschermt u spam, phishing en preventie van malware. Vandaag zijn sommige van deze aanvallen zo goed ontworpen dat ze legitiem lijken. Berichten verzenden naar de map Ongewenste E-mail is niet altijd genoeg. Wanneer u nu uw e-mail in Outlook of de webversie van Outlook of een e-mailclient controleert, controleert EOP de afzender automatisch en voegt een veiligheids tip toe aan het begin van de e-mail.
 
 Veiligheidstips in Outlook zijn niet afhankelijk van welke versie van Outlook u gebruikt omdat de veiligheidswaarschuwing is gekraakt en rechtstreeks in de hoofdtekst van het bericht wordt ingevoegd. Dat betekent dat de veiligheids tip wordt weergegeven in de e-mailclient die u gebruikt. De app wordt uitgevoerd op het e-mail filterniveau en wordt niet weergegeven op het niveau van de mail-client, dus niet alleen weergegeven in een versie van Outlook, en wordt ook weergegeven in een e-mailclient.
 
-Met de veiligheids tip, een bericht met een kleurcode, wordt u gewaarschuwd voor mogelijk schadelijke berichten. De meeste berichten in uw postvak in hebben geen veiligheidstips. U ziet ze alleen wanneer EOP en Microsoft 365 gegevens bevatten die u nodig hebt om spam, phishing en malware te helpen voorkomen. Als beveiligingstips in uw postvak in worden weergegeven, kunt u de volgende voorbeelden gebruiken voor meer informatie over elk type veiligheids tip.
+De veiligheids tip: een bericht met een kleurcode--wordt u gewaarschuwd voor potentieel schadelijke berichten. De meeste berichten in uw postvak in hebben geen veiligheidstips. U ziet ze alleen wanneer EOP en Microsoft 365 gegevens bevatten die u nodig hebt om spam, phishing en malware te helpen voorkomen. Als beveiligingstips in uw postvak in worden weergegeven, kunt u de volgende voorbeelden gebruiken voor meer informatie over elk type veiligheids tip.
 
 - Verdachte e-mail (rode veiligheids tip).
 
