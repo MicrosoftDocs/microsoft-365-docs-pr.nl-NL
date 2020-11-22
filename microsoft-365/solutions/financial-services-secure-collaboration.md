@@ -12,30 +12,30 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Lees hoe financiële dienstverlening aan financiële compliance kan voldoen en effectief kan samenwerken met Microsoft 365 en Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: 2e0148a89a811fb910237469c42e136d0c744087
-ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+ms.openlocfilehash: cf485ec673c2f53d1b088c24be950dfe98c71276
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993398"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376641"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
 ## <a name="introduction"></a>Inleiding
-Financiële dienstverleners gaan verder dan de meeste commerciële bedrijven wat betreft de vraag naar strenge beveiligings-, compliance- en beheercontroles. De bescherming van gegevens, identiteiten, apparaten en toepassingen is niet alleen van cruciaal belang voor hun bedrijf, het is onderhevig aan compliancevereisten en richtlijnen van regelgevende instanties zoals de Amerikaanse Securities and Exchange Commission (SEC), de Financial Industry Regulatory Authority (FINRA), de Federal Financial Institutions Examination Council (FFIEC) en de Commodity Futures Trading Commission (CFTC). Daarnaast moeten financiële instellingen zich houden aan wetten zoals Dodd-Frank en de Sarbanes-Oxley Act uit 2002.
+Financiële dienstverleners overtreffen bijna alle commerciële bedrijven in hun vraag naar strikte controles op het gebied van beveiligings-, compliance- en beheerfuncties. De bescherming van gegevens, identiteiten, apparaten en applicaties is niet alleen van cruciaal belang voor hun bedrijf, het is ook onderworpen aan nalevingsvereisten en richtlijnen van regelgevende instanties zoals de Amerikaanse Securities and Exchange Commission (SEC), de Financial Industry Regulatory Authority (FINRA), de Federal Financial Institutions Examination Council (FFIEC) en de Commodity Futures Trading Commission (CFTC). Bovendien zijn financiële instellingen onderworpen aan wetten zoals Dodd-Frank en de Sarbanes-Oxley Act van 2002.
 
 In het huidige klimaat van verhoogde waakzaamheid, interne risico's en inbreuken op openbare gegevens, eisen klanten ook een hoog beveiligingsniveau van hun financiële instellingen zodat ze hun persoonlijke gegevens en bankactiva aan hen kunnen toevertrouwen.
 
-Historisch gezien had de behoefte aan uitgebreide controles een directe impact op de IT-systemen en platforms die financiële instellingen gebruiken om intern en extern samen te werken. Tegenwoordig hebben werknemers in de financiële dienstverlening een modern samenwerkingsplatform nodig dat gemakkelijk te gebruiken is. Maar bij financiële services is een flexibele samenwerking moeilijk tussen gebruikers, teams en afdelingen met beveiligings- en compliancecontroles die beleid afdwingen om gebruikers en IT-systemen te beschermen tegen bedreigingen.
+Historisch gezien had de behoefte aan uitgebreide controles een directe invloed op en beperkte het de IT-systemen en platforms die financiële instellingen gebruiken om interne en externe samenwerking mogelijk te maken. Tegenwoordig hebben financiële dienstverleners een modern samenwerkingsplatform nodig dat gemakkelijk te gebruiken is. Maar financiële diensten kunnen de flexibiliteit om samen te werken tussen gebruikers, teams en afdelingen niet ruilen met beveiligings- en nalevingscontroles die beleid afdwingen om gebruikers en IT-systemen te beschermen tegen bedreigingen.
 
-In de financiële dienstverlening is zorgvuldige afweging vereist voor de configuratie en implementatie van samenwerkingstools en veiligheidscontroles, waaronder:
+In de financiële dienstverlening is zorgvuldige afweging vereist voor de configuratie en implementatie van samenwerkingshulpmiddelen en veiligheidscontroles, waaronder:
 - Risicoanalyse voor algemene samenwerking binnen de organisatie en scenario's voor bedrijfsprocessen
 - Vereisten voor informatiebescherming en gegevensbeheer
 - Cyberbeveiliging en interne bedreigingen
 - Wettelijke compliancevereisten
 - Andere operationele risico's
 
-**Microsoft 365 is een moderne cloudomgeving op de werkplek die is afgestemd op de hedendaagse uitdagingen waarmee financiële dienstverleners worden geconfronteerd. Veilige en flexibele samenwerking binnen de onderneming wordt gecombineerd met controles en handhaving van het beleid om te voldoen aan strikte regelgevingskaders.** In dit artikel wordt beschreven hoe u financiële services via het Microsoft 365-platform kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving:
+**Microsoft 365 is een moderne cloudomgeving op de werkplek die is afgestemd op de hedendaagse uitdagingen waarmee financiële dienstverleners worden geconfronteerd. Veilige en flexibele samenwerking binnen de onderneming wordt gecombineerd met controles en handhaving van beleid om te voldoen aan strenge regelgevingskaders.** Dit artikel beschrijft hoe het Microsoft 365-platform financiële diensten helpt om over te stappen naar een modern samenwerkingsplatform, terwijl het helpt om gegevens en systemen veilig te houden en te laten voldoen aan de regelgeving:
 
 * De productiviteit van organisaties en werknemers mogelijk maken met behulp van Microsoft 365 en Microsoft Teams
 * Moderne samenwerking beveiligen met Microsoft 365 
@@ -47,13 +47,13 @@ In de financiële dienstverlening is zorgvuldige afweging vereist voor de config
 
 Als Microsoft-partner heeft Protiviti bijgedragen aan dit artikel door belangrijke feedback te geven.
 
-De volgende downloadbare illustraties vullen dit artikel aan. Woodgrove Bank en Contoso worden gebruikt om aan te tonen hoe de in dit artikel beschreven mogelijkheden kunnen worden toegepast om te voldoen aan algemene regelgevingsvereisten voor financiële services. U kunt deze illustraties aan uw eigen wensen aanpassen. 
+De volgende downloadbare illustraties vormen een aanvulling op dit artikel. Woodgrove Bank en Contoso worden gebruikt om aan te tonen hoe de in dit artikel beschreven mogelijkheden kunnen worden toegepast om te voldoen aan algemene regelgevingsvereisten voor financiële services. Pas deze illustraties gerust aan voor eigen gebruik. 
 
 **Illustraties voor informatiebeveiliging en naleving in Microsoft 365**
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Modelposter: Microsoft 365-gegevensbescherming en nalevingsmogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Downloaden als PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)\| [Downloaden als Visio  ](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Bijgewerkt: oktober 2020|Omvat: <ul><li>  Microsoft informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en retentielabels </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
+|[![Modelposter: Microsoft 365-gegevensbescherming en nalevingsmogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/>Engels: [Downloaden als PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)\| [Downloaden als Visio  ](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Japans: [Downloaden als PDF](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)\| [Downloaden als Visio  ](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx)<br/> Laatst bijgewerkt: november 2020|Omvat: <ul><li>  Microsoft informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en retentielabels </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
 
 
 ## <a name="empower-organizational-and-employee-productivity-by-using-microsoft-365-and-teams"></a>Versterk de productiviteit van organisaties en medewerkers door Microsoft 365 en Teams te gebruiken
@@ -62,7 +62,7 @@ Samenwerking vereist meestal verschillende vormen van communicatie, de mogelijkh
 
 Door medewerkers een modern samenwerkingsplatform in de cloud te bieden, kunnen ze tools kiezen en integreren waarmee ze productiever worden en flexibel kunnen werken. Door Teams te gebruiken in combinatie met veiligheidscontroles en beleid voor informatiebeheer die de organisatie beschermen, kunnen uw medewerkers effectief communiceren en samenwerken.
 
-Teams biedt een samenwerkingshub voor de organisatie. Zo kunnen mensen samenwerken aan algemene initiatieven en projecten. Met Teams kunnen teamleden een-op-een en met meerdere partijen chatten, samenwerken aan documenten en bestanden opslaan en delen. Met Teams kunt u ook onlinevergaderingen houden via geïntegreerde spraak en video in het bedrijf. Teams kan ook worden aangepast met Microsoft-apps, zoals Microsoft Planner, Microsoft Dynamics 365, PowerApps, PowerBI en externe line-of-business-toepassingen. Teams is bedoeld voor gebruik door zowel interne teamleden als gemachtigde externe gebruikers die kunnen deelnemen aan teamkanalen en chatgesprekken, toegang hebben tot opgeslagen bestanden en andere toepassingen kunnen gebruiken
+Teams biedt een samenwerkingshub voor de organisatie. Zo kunnen mensen samenwerken aan algemene initiatieven en projecten. Met Teams kunnen teamleden een-op-een en met meerdere partijen chatten, samenwerken aan documenten en bestanden opslaan en delen. Met Teams kunt u ook zakelijke onlinevergaderingen houden via geïntegreerde spraak en video. Teams kan ook worden aangepast met Microsoft-apps, zoals Microsoft Planner, Microsoft Dynamics 365, PowerApps, Power BI en externe line-of-business-toepassingen. Teams is bedoeld voor gebruik door zowel interne teamleden als gemachtigde externe gebruikers die kunnen deelnemen aan teamkanalen en chatgesprekken, toegang hebben tot opgeslagen bestanden en andere toepassingen kunnen gebruiken
 
 Elk Microsoft-team wordt ondersteund door een Microsoft 365-groep. Deze groep wordt beschouwd als de lidmaatschapsservice voor diverse Office 365-services, waaronder Teams. Microsoft 365-groepen worden gebruikt om op een veilige manier onderscheid te maken tussen 'eigenaren' en 'leden' en om de toegang tot verschillende functies binnen Teams te beheren. Als Teams wordt gekoppeld aan de juiste beheerfuncties met regelmatig beheerde toegangscontroles, kunnen alleen leden en eigenaren de geautoriseerde kanalen en functionaliteit gebruiken.
 
@@ -226,7 +226,7 @@ Financiële instellingen beheren grote hoeveelheden gegevens. En sommige bewaarp
 
 De retentielabels worden vervolgens gepubliceerd naar SharePoint- en OneDrive-sites, Exchange-postvakken en Microsoft 365-groepen. Gebruikers kunnen de retentielabels handmatig toepassen op documenten en e-mails. Recordbeheerders kunnen intelligentie gebruiken om de labels automatisch toe te passen. Intelligente functionaliteit kan worden gebaseerd op [meer dan 90 ingebouwde typen gevoelige informatie](https://docs.microsoft.com/microsoft-365/compliance/content-search?view=o365-worldwide) (zoals het ABA Outing-nummer, het Amerikaanse bankrekeningnummer of Amerikaanse burgerservicenummer). Deze functionaliteit kan ook worden aangepast op basis van trefwoorden of gevoelige gegevens in documenten of e-mailberichten, zoals creditcardnummers of andere persoonsgegevens die zijn gebaseerd op SharePoint-metagegevens. Voor gegevens die niet gemakkelijk kunnen worden geïdentificeerd door handmatige of geautomatiseerde patroonvergelijking, kunnen trainbare classificaties worden gebruikt om documenten intelligent te classificeren op basis van technieken voor machine learning.
  
-De _ *Securities and Exchange Commission (SEC)* * vereist dat brokerdealers en andere gereguleerde financiële instellingen alle zakelijke communicatie bewaren. Deze vereisten zijn van toepassing op veel typen communicatie en gegevens, waaronder e-mailberichten, documenten, chatberichten en faxberichten en meer. **SEC-regel 17a-4** definieert de criteria waaraan deze organisaties moeten voldoen om records op te slaan in een elektronisch gegevensopslagsysteem. In 2003 bracht de SEC een release uit waarin deze vereisten werden toegelicht. Deze bevat de volgende criteria:
+De _ *Securities and Exchange Commission (SEC)** vereist dat brokerdealers en andere gereguleerde financiële instellingen alle zakelijke communicatie bewaren. Deze vereisten zijn van toepassing op veel typen communicatie en gegevens, waaronder e-mailberichten, documenten, chatberichten en faxberichten en meer. **SEC-regel 17a-4** definieert de criteria waaraan deze organisaties moeten voldoen om records op te slaan in een elektronisch gegevensopslagsysteem. In 2003 bracht de SEC een release uit waarin deze vereisten werden toegelicht. Deze bevat de volgende criteria:
 
 * Gegevens die door een elektronisch opslagsysteem worden bewaard, moeten niet-herschrijfbaar en niet-uitwisbaar zijn. Dit wordt een WORM-vereiste genoemd (één keer schrijven, veel lezen).
 * Het opslagsysteem moet gegevens langer kunnen opslaan dan de door de regel vereiste bewaartermijn, in geval van een dagvaarding of een ander gerechtelijk bevel.
