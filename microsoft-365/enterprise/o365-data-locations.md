@@ -16,29 +16,30 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Bepalen waar uw Microsoft 365-klantgegevens wereldwijd worden opgeslagen
-ms.openlocfilehash: 4fd3f480ef2ad3389e9a959695b9654badbda27f
-ms.sourcegitcommit: 0badd6a7af803a52c7c46a4374211cb89307eacf
+ms.openlocfilehash: 6ad35082cbed602325e2a32edb825a17b5cb9f4a
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49135989"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376513"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
 -->
 
-# <a name="where-your-microsoft-365-customer-data-is-stored"></a>Opslagplaats van uw Microsoft 365-klantgegevens
+# <a name="where-your-microsoft-365-customer-data-is-stored"></a>Waar uw Microsoft 365-klantgegevens worden opgeslagen
 
-In de onderstaande tabellen kunt u zien waar data-at-rest wordt opgeslagen voor Microsoft 365-diensten in de wereldwijde cloudlocaties van Microsoft. Vouw de locatie uit van het land van uw factuuradres om te ontdekken waar klantgegevens voor elke service worden opgeslagen.
+In de onderstaande tabellen kunt u zien waar data-at-rest wordt opgeslagen voor Microsoft 365-diensten in de wereldwijde cloudlocaties van Microsoft. Vouw de locatie van het land van uw factuuradres uit om erachter te komen waar de klantgegevens voor elke service worden opgeslagen.
 
-Klanten kunnen informatie over gegevenslocaties van specifieke tenants bekijken in uw Microsoft 365-beheercentrum in **Instellingen | Org-instellingen | Organisatieprofiel | Gegevenslocatie**.
+Als uw bedrijf in de Europese Unie is gevestigd, raadpleegt u [Gegevenslocaties voor de Europese Unie](EU-data-storage-locations.md) voor meer informatie. 
+
+Klanten kunnen informatie over gegevenslocaties van specifieke tenants bekijken in uw Microsoft 365-beheercentrum onder **Instellingen | Org-instellingen | Organisatieprofiel | Gegevenslocatie**.
 
 Nieuwe Microsoft 365-tenants worden standaard ingesteld op geografische locatie op basis van het land van de transactie die is gekoppeld aan het eerste abonnement van die tenant.
 
 Meer informatie over de contractuele afspraken voor gegevenslocatie van data-at-rest vindt u in de [Microsoft-onlineservicevoorwaarden (OST)](https://go.microsoft.com/fwlink/p/?LinkId=2098215).
 
 Ga naar [AAD-gegevenstoewijzing](https://go.microsoft.com/fwlink/p/?linkid=2092972) voor gegevenslocaties van Azure Active Directory.
-
 
 Als het factuuradres van de klant buiten Europa ligt en de klant een Office 365 Education-abonnement heeft, kan Microsoft, niettegenstaande het gedeelte 'Locatie van inactieve klantgegevens voor Core Online Services' van de OST, de Office 365-tenant van de klant inrichten en klantgegevens overdragen naar en inactieve klantgegevens opslaan op willekeurige locaties in Europa of Noord-Amerika.  Als het factuuradres van de klant in Europa ligt en de klant een Office 365 Education-abonnement heeft, kan Microsoft, niettegenstaande het gedeelte 'Locatie van inactieve klantgegevens voor Core Online Services' van de OST, de Office 365-tenant van de klant inrichten en klantgegevens overdragen naar en inactieve klantgegevens opslaan op willekeurige locaties in de Europese Unie.
 
