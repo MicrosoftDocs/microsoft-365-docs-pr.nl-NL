@@ -18,16 +18,16 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Zorg ervoor dat u alle functies van Microsoft 365 hebt ingeschakeld om de productiviteit van externe werknemers te maximaliseren en veilige toegang tot uw servers, gegevens en de cloud te behouden.
-ms.openlocfilehash: 6cf956d7d7e895dc328c8551f98e78d0fc42d86c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 833f0351c3eb78afb7218ea1c1c51151d70bb608
+ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357035"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49371500"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
 
-De werknemers van uw bedrijf moeten mogelijk vanuit huis veilige toegang tot de on-premises en cloudgegevens, -hulpprogramma's en -informatiebronnen van uw organisatie kunnen krijgen. Door werknemers op afstand te laten werken, kunnen veel organisaties:
+De werknemers van uw bedrijf moeten mogelijk vanuit huis veilige toegang tot on-premises- en cloudgegevens, hulpprogramma's en informatiebronnen van uw organisatie kunnen krijgen. Werknemers in staat stellen buiten kantoor te werken is belangrijk voor veel organisaties om:
 
 - Besparen op kantoorruimte.
 - Werknemers aannemen en behouden die niet bereid zijn te verhuizen.
@@ -69,7 +69,7 @@ Deze oplossing biedt de volgende belangrijke mogelijkheden.
 
   - Gedeelde taken en werkstromen om het werk te verdelen en taken uit te voeren. 
 
-Voor een naadloze aanmelding moeten de on-premise gebruikersaccounts van Active Directory Domain Services (AD DS) worden gesynchroniseerd met Azure Active Directory (Azure AD). Als u uw Windows 10-apparaten wilt beveiligen, moeten ze worden ingeschreven in Intune. Dit is een algemeen overzicht van de infrastructuur.
+Voor een naadloze aanmeldervaring moeten de gebruikersaccounts voor on-premises Active Directory Domain Services (AD DS) zijn gesynchroniseerd met Azure Active Directory (Azure AD). Om uw Windows 10-apparaten te beveiligen, moeten ze worden geregistreerd in Intune. Dit is een algemeen overzicht van de infrastructuur.
 
 ![De basisinfrastructuur voor externe werknemers met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
 
@@ -112,6 +112,6 @@ Gebruik de volgende stappen om de toegang tot de servers en cloudservices van je
 
 [![De stappen om externe werknemers mogelijkheden te bieden met Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
-Voor de meest recente informatie van Microsoft over het ondersteunen van externe werknemers, raadpleegt u de [Site van Microsoft Teams voor het inschakelen hybride werken](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
+Voor de meest recente informatie van Microsoft over het ondersteunen van externe werknemers, raadpleegt u de [Site voor het mogelijk maken van hybride werken met Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/).
 
-Als u wilt zien hoe een fictieve, maar representatieve multinational-organisatie haar externe werknemers heeft aangewezen, raadpleegt u [het antwoord op COVID-19 en de infrastructuur van Contoso voor hybride personeel](contoso-hybrid-workforce.md).
+Als u wilt zien welke mogelijkheden een fictieve, maar representatieve multinational zijn externe werknemers heeft geboden, raadpleegt u [De COVID-19-aanpak en de infrastructuur voor extern en onsite werken van Contoso](contoso-remote-onsite-work.md).
