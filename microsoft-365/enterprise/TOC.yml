@@ -342,7 +342,9 @@
           href: data-move-faq.md
         - name: Waar klantgegevens worden opgeslagen
           href: o365-data-locations.md
-        - name: Microsoft Cloud Duitsland
+        - name: Gegevenslocaties voor de Europese Unie
+          href: eu-data-storage-locations.md
+        - name: Microsoft Cloud Deutschland
           items:
             - name: Overzicht
               href: ms-cloud-germany-transition.md
@@ -562,9 +564,9 @@
           href: use-windows-powershell-to-create-reports-in-microsoft-365.md
         - name: Cmdlet-verwijzingen voor Microsoft 365-Services
           href: cmdlet-references-for-microsoft-365-services.md
-        - name: Bronnen van PowerShell-community
+        - name: PowerShell communityresources
           href: microsoft-365-powershell-community-resources.md
-    - name: 'Gebruikersaccounts, -wachtwoorden, -licenties en -groepen beheren met PowerShell'
+    - name: 'Gebruikersaccounts, wachtwoorden, licenties en groepen'
       href: manage-user-accounts-and-licenses-with-microsoft-365-powershell.md
       items:
         - name: Gebruikersaccounts

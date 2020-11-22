@@ -287,9 +287,9 @@
           href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: Meervoudige verificatie instellen
           href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Moderne verificatie voor Office 2013 inschakelen
+        - name: Moderne Verificatie voor Office 2013 inschakelen
           href: security-and-compliance/enable-modern-authentication.md
-        - name: Microsoft Business Premium beveiligen
+        - name: Microsoft 365 Business Premium beveiligen
           items:
             - name: Vereisten voor gegevensbescherming
               href: ../business/pre-requisites-for-data-protection.md
@@ -297,6 +297,10 @@
               href: ../business/security-features.md
             - name: Bedreigingsbeveiliging verbeteren
               href: ../business/increase-threat-protection.md
+            - name: Bedreigingen gedetecteerd door Microsoft Defender Antivirus
+              href: ../business/threats-detected-defender-av.md
+            - name: Gedetecteerde bedreigingen bekijken en actie ondernemen
+              href: ../business/review-threats-take-action.md
             - name: Compliancefuncties instellen
               href: ../business/set-up-compliance.md
         - name: Veiligheidsscore
