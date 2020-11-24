@@ -1,5 +1,5 @@
 ---
-title: Ontdekte bedreigingen controleren en actie ondernemen
+title: Gedetecteerde bedreigingen bekijken en actie ondernemen
 f1.keywords: NOCSH
 ms.author: sharik
 author: SKjerland
@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Meer informatie over het controleren en beheren van bedreigingen die zijn gedetecteerd door Microsoft Defender antivirus op uw Windows 10-apparaten.
-ms.openlocfilehash: 21830b91bfbb88fdd5d5139ee07c4dfb35f5b875
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: ffdf5cffb50d6145d6059233e0850839f4dfb582
+ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376686"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385238"
 ---
-# <a name="review-detected-threats-and-take-action"></a>Ontdekte bedreigingen controleren en actie ondernemen
+# <a name="review-detected-threats-and-take-action"></a>Gedetecteerde bedreigingen bekijken en actie ondernemen
 
 Zodra een schadelijk bestand of software is gedetecteerd, blokkeert Microsoft Defender antivirus het en zorgt u ervoor dat de toepassing niet wordt uitgevoerd. En met de ingeschakelde bescherming van de cloud worden de nieuw ontdekte bedreigingen toegevoegd aan de antivirus-en antimalware-engine, zodat uw andere apparaten en gebruikers ook worden beveiligd.
 
@@ -58,7 +58,7 @@ De volgende procedure is van toepassing op klanten met Microsoft 365 Business Pr
 
 ## <a name="manage-threat-detections-on-the-active-threats-page"></a>Detectie van bedreigings informatie op de pagina **actieve bedreigingen** beheren
 
-De volgende procedure is van toepassing op klanten met Microsoft 365 Business. [Windows 10-apparaten moeten worden beveiligd](/microsoft-365/business/secure-win-10-pcs) en [ingeschreven in intune](/mem/intune/enrollment/windows-enrollment-methods).
+De volgende procedure is van toepassing op klanten met Microsoft 365 Business Premium. [Windows 10-apparaten moeten worden beveiligd](/microsoft-365/business/secure-win-10-pcs) en [ingeschreven in intune](/mem/intune/enrollment/windows-enrollment-methods).
 
 > [!NOTE]
 > De pagina's **Microsoft Defender antivirus** en **Active Threat** worden in fasen uitgerold, zodat u deze mogelijk niet direct kunt openen.
