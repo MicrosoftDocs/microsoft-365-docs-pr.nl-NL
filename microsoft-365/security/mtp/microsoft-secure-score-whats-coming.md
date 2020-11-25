@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3e9a8b34f8f112cadc0377dd73ba846c88b8604c
-ms.sourcegitcommit: aa8d2de6ffac0157fffd14d0ea7f51ef0c287607
+ms.openlocfilehash: e42c65fdb4d409c1da7b85fbe7eca13170b9b974
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49374005"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409231"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
 
@@ -33,6 +33,17 @@ Secure Score Microsoft is te vinden https://security.microsoft.com/securescore i
 ## <a name="proposed-changes"></a>Voorgestelde wijzigingen
 
 We maken de nabije toekomst enkele wijzigingen in de nabije toekomst, zodat [Microsoft Secure Score](microsoft-secure-score.md) een betere medewerker is van uw beveiligings Posture en de bruikbaarheid verbeteren. Uw score en de maximaal mogelijke score kunnen wijzigen.
+
+### <a name="december-2020"></a>December 2020
+
+Het toevoegen van stappen voor verbetering van 6 accounts voor Microsoft Defender voor eindpunten (voorheen Microsoft Defender ATP):
+
+- De minimum lengte van een wachtwoord instellen op veertien of meer tekens
+- ' Wachtwoordgeschiedenis afdwingen ' instellen op een of meer wachtwoorden
+- Stel ' Maximale wachtwoordduur ' in ' 60 of minder dagen, maar niet 0 '
+- Stel ' minimale wachtwoordduur ' in op ' 1 of meer dag (en) '
+- Het ingebouwde beheerdersaccount uitschakelen
+- Het ingebouwde gastaccount uitschakelen
 
 ### <a name="november-2020"></a>November 2020
 

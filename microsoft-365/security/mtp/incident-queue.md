@@ -1,6 +1,6 @@
 ---
 title: Incidenten prioriteren in Microsoft 365 Defender
-description: Meer informatie over het instellen van een prioriteit in de wachtrij voor incidenten in Microsoft 365 Defender
+description: Meer informatie over het filteren van incidenten in de wachtrij incident in Microsoft 365 Defender
 keywords: incident, wachtrij, overzicht, apparaten, identiteiten, gebruikers, postvak, e-mail, incidenten
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -21,12 +21,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4369d51ed740af652be632ba0b8752c708d6c719
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: e587004fbb3bc6defab985cea9b427f64b3aab35
+ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877217"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49409253"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Incidenten prioriteren in Microsoft 365 Defender
 
@@ -38,7 +38,7 @@ ms.locfileid: "48877217"
 
 
 
-Met Microsoft 365 Defender past u correlatie analyses toe en voegt u alle gerelateerde waarschuwingen en onderzoek van verschillende producten samen tot één voorval. Microsoft 365 Defender zorgt ook voor unieke meldingen van activiteiten die alleen als schadelijk kunnen worden geïdentificeerd op basis van de end-to-end detectie van de end-to-end-versie van Microsoft 365 voor het hele erfgoed en de productsuite. Op deze manier wordt in Microsoft 365 Defender het bericht over een bredere aanval met de analist ingesproken, waardoor een beveiligings analist de analist begrijpt en verlegt met ingewikkelde bedreigingen binnen de organisatie.
+Met Microsoft 365 Defender past u correlatie analyses toe en voegt u alle gerelateerde waarschuwingen en onderzoek van verschillende producten samen tot één voorval. Microsoft 365 Defender zorgt ook voor unieke meldingen van activiteiten die alleen als schadelijk kunnen worden geïdentificeerd op basis van de end-to-end detectie van de end-to-end-versie van Microsoft 365 voor het hele erfgoed en de productsuite. In deze weergave kunnen uw beveiligings voering de analist van een Hacke aanval bieden zodat ze beter inzicht krijgen in en omgaan met ingewikkelde bedreigingen binnen de organisatie.
 
 
 In de **wachtrij incidenten** wordt een verzameling incidenten weergegeven die zijn gemarkeerd voor alle apparaten, gebruikers en postvakken. Met deze functie kunt u een weloverwogen Cyber Security-antwoord beslissing stellen en een weloverwogen antwoord beslissing stellen.
@@ -100,8 +100,7 @@ De ernst van een incident is een indicatie van de invloed die op uw tegoed kan w
 ### <a name="status"></a>Status
 U kunt ervoor kiezen de lijst te beperken van de namen die worden weergegeven op basis van hun status, zodat u kunt zien welke gebeurtenissen actief zijn of worden opgelost.
 
->[!IMPORTANT]
->De filters categorie, apparaat, onderzoek en OS platform zijn momenteel alleen beschikbaar in de openbare preview-versie.
+
 
 
 ## <a name="next-steps"></a>Volgende stappen
