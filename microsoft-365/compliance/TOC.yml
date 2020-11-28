@@ -477,8 +477,6 @@
           items:
             - name: Filtering van machtigingen voor inhoud zoeken configureren
               href: permissions-filtering-for-content-search.md
-            - name: De downloadsnelheid vergroten bij het exporteren van zoekresultaten
-              href: increase-download-speeds-when-exporting-ediscovery-results.md
             - name: De grootte van PST-bestanden wijzigen bij het exporteren van zoekresultaten
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: Rapporten uitschakelen bij het exporteren van zoekresultaten
