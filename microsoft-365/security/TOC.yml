@@ -141,6 +141,8 @@
                       href: mtp/advanced-hunting-shared-queries.md
                     - name: 'Opsporen op apparaten en in e-mailberichten, apps en identiteiten'
                       href: mtp/advanced-hunting-query-emails-devices.md
+                    - name: Ransomware opsporen
+                      href: mtp/advanced-hunting-find-ransomware.md
                     - name: Overstappen van Defender voor Eindpunt
                       href: mtp/advanced-hunting-migrate-from-mdatp.md
                 - name: Werken met queryresultaten
