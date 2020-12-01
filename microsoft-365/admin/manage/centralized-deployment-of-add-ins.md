@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw Tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie kunt gebruiken om Office-invoegtoepassingen te implementeren.
-ms.openlocfilehash: af7a127d438e81d6ecd025b6a71b9d7e5df2ecc8
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 04c5f9090ca788f00f2d17d3af59e8022195e9be
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681622"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519363"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie
 
@@ -45,7 +45,7 @@ Het kan maximaal 24 uur duren voordat een invoegtoepassing aan alle gebruikers w
   
 ## <a name="requirements"></a>Vereisten
 
-Gecentraliseerde implementatie van invoegtoepassingen vereist dat de gebruikers Microsoft 365-apps gebruiken voor Microsoft 365 for Enterprise, of Microsoft 365 voor bedrijven (en zijn aangemeld bij Office met hun organisatie-ID), en de postvakken Exchange Online en Active Exchange Online hebben. Uw abonnements gids moet zijn aangemeld of federatief zijn voor Azure Active Directory.
+Gecentraliseerde implementatie van invoegtoepassingen vereist dat de gebruikers Microsoft 365 Enterprise-Sku's: E3/E5/F3 of Business Sku's: Business Basic, Business Standard, Business Premium (en zijn aangemeld bij Office met hun organisatie-ID), en de postvakken Exchange Online en Active Exchange Online gebruiken. Uw abonnements gids moet zijn aangemeld of federatief zijn voor Azure Active Directory.
 U kunt de specifieke vereisten voor Office en Exchange bekijken of de [compatibiliteitscontrole voor gecentraliseerde implementatie](#centralized-deployment-compatibility-checker)gebruiken.
 
 Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
@@ -55,17 +55,17 @@ Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
 - Implementatie van invoegtoepassing aan een Exchange on-premises Postvak
 - Implementatie van invoegtoepassingen op SharePoint  
 - Teams-apps
-- Implementatie van COM- (Component Object Model) of VSTO-invoegtoepassingen (Visual Studio Tools for Office)
-- Implementaties van Microsoft 365 die geen Exchange bevatten, zoals Microsoft 365-apps voor bedrijven
+- Implementatie van COM-invoegtoepassingen (Component Object Model) of VSTO-invoegtoepassingen (Visual Studio Tools for Office).
+- Implementaties van Microsoft 365 die geen Exchange Online bevatten, zoals Sku's: Microsoft 365 apps for Business en Microsoft 365 apps for Enterprise.
 
 ### <a name="office-requirements"></a>Office-vereisten
 
 - Voor Word-, Excel-en PowerPoint-invoegtoepassingen moeten de gebruikers een van de volgende handelingen uitvoeren:
-  - Op een Windows-apparaat, versie 1704 of hoger van Microsoft 365-apps voor Microsoft 365 voor Enterprise of Microsoft 365 voor bedrijven.
+  - Op een Windows-apparaat, versie 1704 of hoger van Microsoft 365 Enterprise Sku's: E3/E5/F3 of Business Sku's: Business Basic, Business Standard, Business Premium.
   - Op een Mac, versie 15,34 of hoger.
 
 - Voor Outlook moeten de gebruikers een van de volgende handelingen uitvoeren: 
-  - Versie 1701 of hoger van Microsoft 365-apps voor Microsoft 365 voor Enterprise of Microsoft 365 voor bedrijven.
+  - Versie 1701 of hoger van Microsoft 365 Enterprise Sku's: E3/E5/F3 of Business Sku's: Business Basic, Business Standard, Business Premium.
   - Versie 1808 of hoger van Office Professional Plus 2019 of Office Standard 2019.
   - Versie 16.0.4494.1000 of hoger van Office Professional Plus 2016 (MSI) of Office Standard 2016 (MSI)\*
   - Versie 15.0.4937.1000 of hoger van Office Professional Plus 2013 (MSI) of Office Standard 2013 (MSI)\*
@@ -74,20 +74,6 @@ Gecentraliseerde implementatie biedt geen ondersteuning voor het volgende:
 - Versie 2.2.145 of hoger van Outlook Mobile voor Android 
     
     * MSI-versies van Outlook tonen beheerders geïnstalleerde invoegtoepassingen op het juiste Outlook-lint, niet de sectie ' mijn invoegtoepassingen '.
-    
-
-#### <a name="find-out-if-microsoft-365-apps-for-enterprise-is-installed"></a>Achterhalen of Microsoft 365-apps voor Enterprise is geïnstalleerd
-
-Als u Microsoft 365-Apps wilt gebruiken voor Enterprise, moet een gebruiker beschikken over een Microsoft 365-account en moet er een licentie aan zijn toegewezen. Zie voor meer informatie het artikel [overzicht van Microsoft 365 apps for Enterprise](https://go.microsoft.com/fwlink/p/?linkid=846328).
-
-De eenvoudigste manier om te bepalen of een gebruiker Microsoft 365-apps voor Enterprise heeft geïnstalleerd en onlangs is gebruikt, is door het rapport Microsoft Office-activeringen te gebruiken, dat beschikbaar is in het Microsoft 365-Beheercentrum. Het rapport biedt een lijst met alle gebruikers die Microsoft 365-apps voor Enterprise hebben geactiveerd binnen de laatste 7 dagen, 30 dagen, 90 dagen of 180 dagen. Voor gecentraliseerde implementatiedoeleinden zijn de bureaubladactiveringen voor Windows of Mac de belangrijke kolommen in het rapport. U kunt het rapport exporteren naar Excel. Zie [Microsoft 365-rapporten in het Beheercentrum-Microsoft Office-activeringen](../activity-reports/microsoft-office-activations.md)voor meer informatie over het rapport.
-  
-Als u het rapport activeringen niet wilt gebruiken, kunt u een gebruiker vragen een Office-toepassing, zoals Word, op hun computer, te openen en vervolgens op **Bestands** \> **account**te klikken. Onder **product gegevens**ziet u het **abonnement product** en **Microsoft 365 for Enterprise**, of Microsoft 365 Business Premium, zoals in de volgende afbeelding wordt weergegeven.
-
-![Product informatie in een Office-toepassing](../../media/product-information-microsoft-365-enterprise.png)
-  
-Zie [Tips voor het oplossen van problemen met Microsoft 365-apps voor Enterprise](https://go.microsoft.com/fwlink/p/?linkid=846339)voor hulp bij microsoft 365-apps voor ondernemingen.
-
 
 ### <a name="exchange-online-requirements"></a>Vereisten voor Exchange Online
 

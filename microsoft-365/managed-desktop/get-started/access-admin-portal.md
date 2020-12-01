@@ -9,12 +9,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 66e4e5c305947f90f935563a3baf0592ce42480a
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: deeced350ad867a374a486967c2cbd278ba91710
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371668"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519327"
 ---
 # <a name="access-the-admin-portal"></a>Toegang tot de beheerportal
 
@@ -59,7 +59,7 @@ Met de onderstaande rollen kunnen verschillende toegangsniveaus worden toegeweze
 Als u hulp nodig hebt bij het toewijzen van Azure Active Directory-rollen, raadpleegt u [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
 
 Voor een eenvoudig beheer van de ingebouwde rollen is een beveiligingsgroep gemaakt voor elke aangepaste rol (bijvoorbeeld ' rollen van modern Workplace-Security Manager '). Voer de volgende stappen uit als u gebruikers wilt toewijzen aan een van de beveiligingsgroepen:
-1.  Ga naar de Azure-Portal en ga naar de Azure Active Directory-Blade.
+1.  De portal van Microsoft Endpoint Manager bezoeken
 2.  Selecteer groepen aan de linkerkant.
 3.  Zoek naar rollen voor moderne werkplekken en selecteer de groep die is gekoppeld aan de rol die u wilt toewijzen. 
 4.  Selecteer leden aan de linkerkant en selecteer vervolgens + leden toevoegen op de opdrachtbalk.

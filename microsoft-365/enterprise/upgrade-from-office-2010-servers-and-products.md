@@ -23,12 +23,12 @@ f1.keywords:
 - NOCSH
 description: Start de planning van de upgrade van Office 2010-servers en-clienttoepassingen, omdat ondersteuning binnenkort wordt beëindigd en aangepaste ondersteuningsovereenkomsten niet beschikbaar zijn.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 879aae71f703d8a26b3d6e640eff6d30a81febac
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+ms.openlocfilehash: b9dcf5c36cff5e14828b1a6540ed920577537c49
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456349"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519776"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2010-servers-and-clients"></a>Bronnen om u te helpen bij het upgraden van Office 2010-servers en-clients
 
@@ -38,19 +38,19 @@ Office 2010 en Exchange 2010 bereiken hun einde van de ondersteuning op **13 okt
 
 SharePoint 2010 en Project Server 2010 krijgen hun einde van de ondersteuning op **13 April 2021**.
 
-Wanneer u de upgrade plant, is dit een prima moment om te denken op Microsoft 365.
+Wanneer u de upgrade plant, kunt u overstappen op Microsoft 365.
 
-- Microsoft 365 heeft cloudservices voor Office 2010-Server producten, zoals Exchange Server en SharePoint Server en services, zoals teams en OneDrive voor bedrijven.
+- Microsoft 365 heeft cloudservices voor Office 2010 Server-producten, zoals Exchange Server en SharePoint Server, en services, zoals teams en OneDrive voor bedrijven.
 
-- Microsoft 365-apps voor Enterprise (al met name Office 365 ProPlus), inbegrepen in Microsoft 365 E3 en E5, is de set Office-client-apps die u op uw lokale apparaat installeert. Deze worden bijgewerkt met de nieuwe productiviteits-en beveiligingsfuncties, zodat ze in de Microsoft-Cloud voortdurend worden bijgewerkt.
+- Microsoft 365-apps voor Enterprise (voorheen *Office 365 ProPlus*), dat deel uitmaakt van microsoft 365 E3 en E5, is de set Office-client-apps die u op uw lokale apparaat installeert. Ze worden bijgewerkt met nieuwe productiviteits-en beveiligingsfuncties, regelmatig van de Microsoft-Cloud.
 
-Voor een visueel overzicht van de opties voor de upgrade, migratie en verplaatsen van een upgrade, migratie en migratie van Office 2010-clients en-servers en Windows 7, raadpleegt u het [einde van de ondersteunings poster](../downloads/Office2010Windows7EndOfSupport.pdf).
+Voor een visueel overzicht van de opties voor de upgrade, migratie en verplaatsen van de opties voor Office 2010-clients en-servers en Windows 7, raadpleegt u het [einde van de ondersteunings poster](../downloads/Office2010Windows7EndOfSupport.pdf).
 
-[![Afbeelding van de poster Eindgebruikersondersteuning voor Office 2010-clients en -servers en Windows 7](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
+[![Einde van de ondersteuning voor Office 2010-clients en-servers en Windows 7-poster](../media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](../downloads/Office2010Windows7EndOfSupport.pdf)
 
-Deze poster van één pagina is een snelle manier om inzicht te krijgen in de verschillende paden die u kunt nemen om te voorkomen dat Office 2010-client-en Server producten en Windows 7 niet meer worden ondersteund, met voorkeurs paden en optie ondersteuning in Microsoft 365 Enterprise gemarkeerd.
+Deze poster van één pagina bevat een overzicht van de verschillende paden die u kunt nemen om Office 2010-client en-Server producten en Windows 7 af te handelen. Voorkeurs paden en optie ondersteuning in Microsoft 365 Enterprise zijn gemarkeerd.
 
-U kunt deze poster ook [downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) en afdrukken in de indelingen letter, Legal en tabloid (11 x 17 inch).
+U kunt deze poster ook [downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) en afdrukken met de indeling letter, juridisch of tabloid (11 x 17).
 
 ## <a name="office-2010-client-and-server-upgrade-planning"></a>Planning van upgrade van Office 2010-client en server
 

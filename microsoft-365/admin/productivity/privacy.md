@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Hoe de privacy van de productiviteits score wordt beschermd.
-ms.openlocfilehash: 8686c7c86249a408fe8d4fda14c2ae23a168cafe
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: c88886e9d1470bda48d023b77472e7dd296508a0
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999404"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519351"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Privacy-instellingen voor de productiviteits Score
 
@@ -54,7 +54,7 @@ Voor het weergeven van de volledige productiviteits Score, waaronder metrische g
 
 Wijs de rol rapporten lezer toe aan iedereen die verantwoordelijk is voor het wijzigen van het beheer en de aanneming. Deze rol biedt gebruikers toegang tot de volledige ervaring, waaronder metrische informatie over tenantniveau en Details per gebruikersniveau.
 
-Het rapport personen ervaring bevat gegevens per activiteit per gebruiker voor elke detailpagina van elke categorie. Wijs een aangepaste rol met de naam Gebruiksoverzicht rapporten (beschikbaar in 29 oktober 2020) toe om toegang te krijgen tot alleen de samengestelde metrische gegevens van de personen ervaring. Deze rol moet via PowerShell-cmdlets worden toegewezen, zodat deze wordt toegewezen via het Microsoft-Beheercentrum op 11/15/2020.
+Het rapport personen ervaring bevat gegevens per activiteit per gebruiker voor elke detailpagina van elke categorie. Wijs een aangepaste rol met de naam Gebruiksoverzicht rapporten (beschikbaar in 29 oktober 2020) toe om toegang te krijgen tot alleen de samengestelde metrische gegevens van de personen ervaring. Deze rol moet via PowerShell-cmdlets worden toegewezen, zodat de functie later dit jaar wordt toegewezen aan het Microsoft-Beheercentrum.
 
 De rol van lezers voor Gebruiksoverzicht van rapporten toewijzen met PowerShell:
 
@@ -62,6 +62,7 @@ De rol van lezers voor Gebruiksoverzicht van rapporten toewijzen met PowerShell:
 
 ```powershell
 Connect-AzureAD
+Enable-AzureADDirectoryRole -RoleTemplateId '75934031-6c7e-415a-99d7-48dbd49e875e'
 $role=Get-AzureADDirectoryRole -Filter "roleTemplateId eq '75934031-6c7e-415a-99d7-48dbd49e875e'"
 Get-AzureADDirectoryRoleMember -ObjectId $role.ObjectId
 $u=Get-AzureADUser -ObjectId <user upn>

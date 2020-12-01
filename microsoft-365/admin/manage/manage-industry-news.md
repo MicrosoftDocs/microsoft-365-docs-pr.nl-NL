@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Zorg dat uw gebruikers up-to-date nieuwskoppen koppen hebben over uw bedrijfstak en informatie van uw organisatie, gebruik de nieuwsservice om een aangepaste nieuwsfeed in te schakelen voor uw organisatie.
-ms.openlocfilehash: c0758c3a762c39534629095345d935456cb938e9
-ms.sourcegitcommit: ccbb405227880f40581c3cdfb974368a29d496f7
+ms.openlocfilehash: 90fa9a046e5207ae032180099f7766ef18d71898
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48791820"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519303"
 ---
 # <a name="manage-industry-news"></a>Bedrijfstak nieuws beheren
 
@@ -28,13 +28,11 @@ Als u uw gebruikers wilt voorzien van up-to-date nieuwskoppen van uw branche en 
 
 ## <a name="what-your-users-will-see"></a>Wat uw gebruikers te zien krijgen
  
-Aangemelde gebruikers die zich bevinden op de startpagina van Bing, zien uw nieuwsfeed onder de persoonlijke gegevens van uw organisatie.
-
-:::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Schermafbeelding van de afbeeldings carrousel met het nieuws van de website":::
-
+Aangemelde gebruikers die naar de introductiepagina van Bing gaan, zien de nieuwsfeed van uw branche onder de persoonlijke gegevens voor uw organisatie.   
+ :::image type="content" source="../../media/manage-industry-news-2.jpg" alt-text="Schermafbeelding van de afbeeldings carrousel met het nieuws van de website":::
 Ze kunnen ook bedrijven, sectoren en interne nieuws of persoonlijke werkgegevens op hun nieuwe tabblad Microsoft Edge raadplegen. 
 
-:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Schermafbeelding van de afbeeldings carrousel met het nieuws van de website":::
+:::image type="content" source="../../media/manage-industry-news-3.png" alt-text="Microsoft op de startpagina van nieuws":::
 
 ## <a name="news-settings"></a>Nieuwsinstellingen
 
@@ -45,23 +43,23 @@ Als beheerder beheert u de instellingen voor de nieuwsfeed voor uw organisatie, 
 3. Selecteer in de lijst **branche** de branches van uw organisatie. Hiermee wordt het algemene nieuws bepaald dat wordt weergegeven in de nieuwe feed van uw organisatie. Microsoft kan vooraf een bedrijfstak selecteren waarbij informatie van uw account wordt gebruikt. U mag branches verwijderen of toevoegen door de sector sector bij te werken.
 4. Ga naar het veld **topics** en voer onderwerpen in waarop u nieuwsartikelen wilt weergeven. Gebruikers kunnen deze onderwerpen niet wijzigen.
 5. U kunt artikelen met trefwoorden blokkeren in het veld **Inhoud uitsluiten** .  Als u bijvoorbeeld wilt voorkomen dat artikelen met het trefwoord bakken worden weergegeven in de nieuwsfeed, voegt u het woord ' bakken ' toe in het veldinhoud uitsluiten. Vermijd het gebruik van algemene voorwaarden (de, IT en etc.), zodat relevante inhoud kan worden weergegeven in uw nieuwsfeeds voor bedrijven.
-6. Klik op **Opslaan** . Het kan tot 24 uur duren voordat wijzigingen worden weergegeven.
+6. Klik op **Opslaan**. Het kan tot 24 uur duren voordat wijzigingen worden weergegeven.
 
 ## <a name="bing-homepage"></a>Startpagina van Bing
 
 U kunt de startpagina van Bing aanpassen zodat u nieuws over uw branche kunt opnemen. 
 
 1. Ga in het Microsoft 365-Beheercentrum naar instellingen voor de **instellingen** voor  >  **organisatie-instellingen**  >  **Services**  >  [News](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
-2. Klik in het deelvenster **Nieuws** op het tabblad **Startpagina van Bing** en selecteer **opnemen op de startpagina van Bing** .
+2. Klik in het deelvenster **Nieuws** op het tabblad **Startpagina van Bing** en selecteer **opnemen op de startpagina van Bing**.
 3. Het nieuws van de sector wordt weergegeven onder de persoonlijke gegevens van uw organisatie op Bing.com.
 
 ## <a name="microsoft-edge-new-tab-page"></a>Nieuwe tab Microsoft Edge-pagina 
 Wanneer gebruikers zich aanmelden bij Microsoft Edge (versie 87 of hoger) met een geldig werk-of schoolaccount, kunnen ze het nieuws zien dat op uw organisatie is afgestemd.
 
 1. Ga in het Microsoft 365-Beheercentrum naar instellingen voor de **instellingen** voor  >  **organisatie-instellingen**  >  **Services**  >  [News](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews).
-2. Klik in het deelvenster **Nieuws** op **nieuwe tab-pagina in Microsoft Edge** .
-3. Selecteer **Office 365-inhoud toestaan op het nieuwe tabblad** . Wanneer gebruikers hun functie inschakelt, kunnen ze hun nieuwe tabblad aanpassen voor het weergeven van informatie van Office 365, inclusief aanbevolen en recente bestanden, samen met veelgebruikte SharePoint-sites en andere informatie.
-4. Selecteer **Bedrijfsgegevens en nieuws met bedrijfstak weergeven op de pagina nieuw tabblad** . Berichten over uw organisatie en branche worden weergegeven voor gebruikers die de artikelen op hun nieuwe tabblad willen zien.
+2. Klik in het deelvenster **Nieuws** op **nieuwe tab-pagina in Microsoft Edge**.
+3. Selecteer **Office 365-inhoud toestaan op het nieuwe tabblad**. Wanneer gebruikers hun functie inschakelt, kunnen ze hun nieuwe tabblad aanpassen voor het weergeven van informatie van Office 365, inclusief aanbevolen en recente bestanden, samen met veelgebruikte SharePoint-sites en andere informatie.
+4. Selecteer **Bedrijfsgegevens en nieuws met bedrijfstak weergeven op de pagina nieuw tabblad**. Berichten over uw organisatie en branche worden weergegeven voor gebruikers die de artikelen op hun nieuwe tabblad willen zien.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

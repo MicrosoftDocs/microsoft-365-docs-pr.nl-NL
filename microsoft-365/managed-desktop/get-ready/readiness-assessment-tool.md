@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 347266f71dada3de1bbd9b1434cb1e6628249147
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+ms.openlocfilehash: e2d1c68c3fe963c957e4c3e18fce441b92c96bf1
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931922"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519819"
 ---
 # <a name="readiness-assessment-tool"></a>Hulpmiddel voor gereedheids beoordeling
 
@@ -22,7 +22,7 @@ Voor de soepelste ervaring wanneer u zich registreert bij Microsoft Managed Desk
 
 Met de Tool controleert u de instellingen in Microsoft Endpoint Manager (specifiek, Microsoft intune), Azure Active Directory (Azure AD) en Microsoft 365 om te controleren of deze geschikt zijn voor Microsoft beheerde bureaublad. Microsoft Managed Desktop houdt de gegevens van deze controles gedurende 12 maanden na de laatste keer dat u een cheque uitvoert in uw Azure AD-organisatie (Tenant). Na 12 maanden behoudt Skype het in de aangegeven vorm.  U kunt ervoor kiezen de gegevens te verwijderen die we verzamelen.
 
-Iedereen met een minimum van de beheerder van intune heeft de mogelijkheid dit hulpprogramma uit te voeren, maar twee van de controles ([certificaat connectors](readiness-assessment-fix.md#certificate-connectors) en [Meervoudige verificatie](readiness-assessment-fix.md#multi-factor-authentication) vereisen extra machtigingen).
+Iedereen met een minimaal de beheerder van intune heeft de mogelijkheid dit hulpprogramma uit te voeren, maar twee van de controles ([voorwaardelijke toegangsregels](readiness-assessment-fix.md#conditional-access-policies) en [Meervoudige verificatie](readiness-assessment-fix.md#multi-factor-authentication) vereisen extra machtigingen).
  
 Het beoordelingsprogramma controleert de volgende items:
 

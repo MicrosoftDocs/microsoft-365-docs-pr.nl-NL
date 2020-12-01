@@ -24,18 +24,18 @@ f1.keywords:
 - NOCSH
 description: Dit artikel bevat informatiebronnen die u helpen bij het upgraden van Office 2007-servers en-clients, als de ondersteuning voor Office 2007 is beëindigd.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3dc33d03c32880627f3c85d6212756f45548ce0b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 28fa1d56ef66297eaf69d2d11b720e3de2d668f7
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688918"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519778"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2007-servers-and-clients"></a>Bronnen om u te helpen bij het upgraden van Office 2007-servers en-clients
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Als u Office 2007-producten en-services gebruikt, is de ondersteuning voor deze toepassingen beëindigd. Wanneer u de upgrade hebt gepland, is dit een prima moment om te denken dat u kunt overstappen op de Microsoft-Cloud, vanaf Microsoft 365. Gebruik dit artikel als uitgangspunt om uw opties te bekijken en de upgrade te plannen.
+Als u Office 2007-producten en-services gebruikt, moet u zich realiseren dat de ondersteuning van deze toepassingen is beëindigd. U kunt ook overstappen op de Microsoft-Cloud, vanaf Microsoft 365. Gebruik dit artikel als uitgangspunt om uw opties te bekijken en de upgrade te plannen.
       
 ## <a name="office-2007-planning-roadmaps"></a>Plannings schema's voor Office 2007
   
@@ -50,7 +50,13 @@ Ondersteuning is beëindigd voor Office 2007-producten en-services. De volgende 
 |[Upgrade van Office Communications Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |Donderdag 8 januari 2018  <br/> |
 |[Roadmap voor einde van ondersteuning voor PerformancePoint Server 2007](pps-2007-end-of-support.md) <br/> |Woensdag 9 januari 2018  <br/> |
    
-Wanneer ondersteuning voor een Microsoft-product wordt beëindigd, zijn er geen nieuwe beveiligingsupdates, niet-beveiligingsupdates, gratis of betaalde ondersteuningsopties (inclusief aangepaste ondersteuningsovereenkomsten) of online-Inhoudsupdates. Of u nu een organisatie of een individuele thuisgebruiker bent, u kunt uit verschillende opties kiezen:
+Wanneer de ondersteuning voor een Microsoft-product eindigt, zijn er niet meer:
+- Nieuwe beveiligingsupdates
+- Nieuwe niet-beveiligingsupdates
+- Gratis of betaalde beschikbare ondersteuningsopties (inclusief aangepaste ondersteuningsovereenkomsten)
+- Nieuwe technische updates voor online-inhoud
+
+Of u nu een organisatie of een individuele thuisgebruiker bent, u kunt uit verschillende opties kiezen.
 
 ## <a name="im-a-home-user-what-do-i-do"></a>Ik ben een thuisgebruiker. Wat moet ik doen?
 
@@ -64,4 +70,3 @@ Als u Office 2007-producten en-toepassingen thuis gebruikt, kunt u [deze informa
 
 [De upgrade van Office 2007 of Office 2010-servers en-clients plannen](plan-upgrade-previous-versions-office.md)
   
-

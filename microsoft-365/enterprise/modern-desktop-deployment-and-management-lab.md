@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: bf49a815c0d3d952187f863120865ab3aa4674fc
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: 65c251b2cd161687eb0a2e9c7ece29f453fcaae8
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171408"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519620"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab kit
 
@@ -34,9 +34,9 @@ Dit pakket wordt ten zeerste aanbevolen voor organisaties die Windows 8-Upgrades
 
 Met het lab beschikt u over een automatisch ingerichte virtuele testomgeving, inclusief desktopclients die lid zijn van een domein, een domeincontroller, een internetgateway en een volledig geconfigureerd Configuration Manager-exemplaar. De Lab bevat de laatste evaluatieversies van de volgende producten:
 
-  - NIEUW! Windows 10 Enterprise, versie 2004
+  - NIEUW! Windows 10 Enterprise, versie 20H2
   - Windows 7 Enterprise
-  - NIEUW! Microsoft Endpoint Configuration Manager, versie 2002
+  - Microsoft Endpoint Configuration Manager, versie 2002
   - Windows Assessment and Deployment Kit voor Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -90,11 +90,11 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 ### <a name="deploy-windows-virtual-desktop"></a>Windows virtueel bureaublad implementeren  
 - Voorbereiden, implementeren, optimaliseren
  
-### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit downloaden
+## <a name="download-the-windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit downloaden
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-*Gebruik een ruimere bandbreedte om deze inhoud te downloaden om uw download ervaring te verbeteren en 30-45 minuten te laten voor automatisch inrichten. Voor de testomgeving is minimaal 16 GB beschikbare geheugen en 150 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbare geheugen aanbevolen. De Lab eindigt op 5 december 2020. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.*
+* Gebruik een brede bandbreedte om deze inhoud te downloaden om uw download ervaring te verbeteren en 30-45 minuten voor automatisch inrichten toe te staan. Voor de testomgeving is minimaal 16 GB beschikbare geheugen en 300 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbare geheugen aanbevolen. De Lab verloopt februari 2020. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

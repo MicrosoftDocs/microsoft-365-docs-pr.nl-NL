@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 7674777214cb5684bb02039f739458352bc701ad
-ms.sourcegitcommit: 61d7284b412d0f7bbd8bbb2225c2e6324f86b717
+ms.openlocfilehash: 65d1d18037a10cd36c3be9498a4373fa67b6afd9
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262277"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519608"
 ---
 # <a name="compliance"></a>Compliance
 
@@ -24,17 +24,17 @@ Wanneer u Microsoft Managed Desktop voor een service gebruikt, biedt Microsoft e
 
 Microsoft Managed Desktop heeft de volgende certificeringen bereikt:
 
-- [ISO 27001 Information Security Management Standards (ISMS)](../../compliance/offering-ISO-27001.md)
-- [ISO 27701 Privacy Information Management System (PIMS)](../../compliance/offering-iso-27701.md)
-- [ISO 27017-code van de Oefen service voor informatie over beveiligingscontroles](../../compliance/offering-ISO-27017.md)
-- [ISO 27018-code van de praktijk voor het beschermen van persoonlijke gegevens in de Cloud](../../compliance/offering-ISO-27018.md)
-- [Standaarden voor ISO 9001-kwaliteitsbeheer systemen](../../compliance/offering-ISO-9001.md)
-- [ISO 20000-1 Information Technology Service Management](../../compliance/offering-ISO-20000-1-2011.md)
-- [ISO 22301 Business Continuity Management Standard](../../compliance/offering-ISO-22301.md)
-- [Attest van de Cloud Security Alliance (CSA) STAR](../../compliance/offering-CSA-STAR-Attestation.md)
-- [Certificering van CSA (Cloud Security Alliance)-ster](../../compliance/offering-CSA-Star-Certification.md)
-- [Service organisatie besturingselementen (SOC) 1, 2, 3](../../compliance/offering-SOC.md)
-- [Data Security Standard van de credit card (PCI) Data Security Standard (DSS)](../../compliance/offering-PCI-DSS.md)
+- [ISO 27001 Information Security Management Standards (ISMS)](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
+- [ISO 27701 Privacy Information Management System (PIMS)](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
+- [ISO 27017-code van de Oefen service voor informatie over beveiligingscontroles](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27017)
+- [ISO 27018-code van de praktijk voor het beschermen van persoonlijke gegevens in de Cloud](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27018)
+- [Standaarden voor ISO 9001-kwaliteitsbeheer systemen](https://docs.microsoft.com/compliance/regulatory/offering-ISO-9001)
+- [ISO 20000-1 Information Technology Service Management](https://docs.microsoft.com/compliance/regulatory/offering-ISO-20000-1-2011)
+- [ISO 22301 Business Continuity Management Standard](https://docs.microsoft.com/compliance/regulatory/offering-ISO-22301)
+- [Attest van de Cloud Security Alliance (CSA) STAR](https://docs.microsoft.com/compliance/regulatory/offering-CSA-STAR-Attestation)
+- [Certificering van CSA (Cloud Security Alliance)-ster](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
+- [Service organisatie besturingselementen (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
+- [Data Security Standard van de credit card (PCI) Data Security Standard (DSS)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Auditor rapporten en compliance certificates
 

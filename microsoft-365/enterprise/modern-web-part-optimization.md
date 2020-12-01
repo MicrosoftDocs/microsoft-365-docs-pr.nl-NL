@@ -21,12 +21,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Meer informatie over het gebruik van diagnostische gegevens voor pagina's voor het optimaliseren van de prestaties van webonderdelen in SharePoint Online-sitepagina's.
-ms.openlocfilehash: 7dcfcbfe033ef5f4257cc9688b61aca3227ade8b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f7b72aa8ed212147c06660585c4e58e548762c35
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689238"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519749"
 ---
 # <a name="optimize-web-part-performance-in-sharepoint-online-modern-site-pages"></a>De prestaties van het webonderdeel in SharePoint Online moderne sitepagina's optimaliseren
 
@@ -80,7 +80,7 @@ Er zijn drie categorieën mogelijke oorzaken voor slechtere prestaties van het w
   - U kunt onder andere kaders gebruiken, zoals _reageren_ en de invoer van de _infrastructuur_ , die deel uitmaken van de SharePoint Framework (SPFx). Voor meer informatie raadpleegt u [overzicht van SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview).
   - Zorg ervoor dat u de meest recente versie van het SharePoint-Framework gebruikt en een upgrade uitvoert naar nieuwe versies zodra deze beschikbaar komen.
 - Gegevens ophalen/in cache opslaan
-  - Als het webonderdeel gebruikmaakt van extra server oproepen om gegevens op te halen voor weergave, moet u ervoor zorgen dat deze server-Api's snel en/of de cache voor clienttoegang gebruiken (zoals het gebruik van _localStorage_ of _IndexDB_ voor grotere sets).
+  - Als het webonderdeel gebruikmaakt van extra server oproepen om gegevens op te halen voor weergave, moet u ervoor zorgen dat deze server-Api's snel en/of de cache voor clienttoegang gebruiken (zoals het gebruik van _localStorage_ of _IndexedDB_ voor grotere sets).
   - Als er meerdere oproepen vereist zijn om cruciale gegevens weer te geven, kunt u overwegen om batches op de server of andere methoden voor het samenvoegen van aanvragen in één gesprek.
   - Als voor sommige elementen met gegevens een langzamere API is vereist, maar niet essentieel is voor het maken van de rendering, ontkoppelt u deze naar een afzonderlijke oproep die wordt uitgevoerd nadat de kritieke gegevens zijn weergegeven.
   - Als in meerdere delen dezelfde gegevens worden gebruikt, gebruikt u een gemeenschappelijke Gegevenstoegangslaag om dubbele oproepen te voorkomen.
@@ -106,6 +106,6 @@ Voordat u de revisies van pagina's aanbrengt om prestatieproblemen te verhelpen,
 
 [Prestaties in de moderne SharePoint-ervaring](https://docs.microsoft.com/sharepoint/modern-experience-performance)
 
-[Netwerken voor content levering](content-delivery-networks.md)
+[Netwerken voor contentlevering](content-delivery-networks.md)
 
 [Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
