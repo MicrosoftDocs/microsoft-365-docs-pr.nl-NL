@@ -2,8 +2,8 @@
 title: Een gebruikersnaam en e-mailadres wijzigen
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: 82284f653675ee4f8c89fe52d75bbc0a0efe2e2b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 1672401e9a8e994b91804870130b659ad8724b5e
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646689"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551506"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -38,11 +38,11 @@ Bekijk een korte video over het wijzigen van het e-mailadres van een gebruiker. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
-
-## <a name="change-a-users-email-address"></a>Het e-mailadres van een gebruiker wijzigen
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te voeren. 
+
+## <a name="change-a-users-email-address"></a>Het e-mailadres van een gebruiker wijzigen
 
 ::: moniker range="o365-worldwide"
  

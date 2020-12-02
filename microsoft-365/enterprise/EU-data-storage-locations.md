@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Bepalen waar in de Europese Unie uw Microsoft 365-klantgegevens worden opgeslagen
-ms.openlocfilehash: 5a50600c123dad1a0e4d14fd8f47283f951d3edc
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 78c2ae75656df017631fce0a189f6e25ee44f20f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376690"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527683"
 ---
 # <a name="data-locations-for-the-european-union"></a>Gegevenslocaties voor de Europese Unie
 
@@ -63,8 +63,10 @@ We hebben datacenters in Duitsland en Frankrijk, die u in staat stellen om gegev
 ||||| 
 
 >[!Note]
->Als u een Office 365 Education-abonnement hebt met een factuuradres in Frankrijk of Duitsland, zijn uw gegevens mogelijk opgeslagen in onze Europese datacenters. 
+>Als u een Office 365 Education-abonnement hebt met een factuuradres in Frankrijk of Duitsland, zijn uw gegevens mogelijk opgeslagen in onze Europese datacenters. Zie [Waar uw Microsoft 365-klantgegevens worden opgeslagen](o365-data-locations.md) voor de locaties van tenanttegevens buiten de EU.
 >
+
+
 
 ### <a name="where-eu-data-is-computed"></a>Waar worden EU-gegevens berekend?
 

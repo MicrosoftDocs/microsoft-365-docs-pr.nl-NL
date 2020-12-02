@@ -82,7 +82,7 @@
           href: get-started/access-admin-portal.md
         - name: Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal
           href: get-started/add-admin-contacts.md
-        - name: Voorwaardelijke toegang aanpassen
+        - name: Instellingen aanpassen na inschrijving
           href: get-started/conditional-access.md
         - name: Licenties toewijzen
           href: get-started/assign-licenses.md
