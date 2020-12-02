@@ -109,15 +109,17 @@
           items:
             - name: Overzicht
               href: collaboration-governance-overview.md
-            - name: Beheer eerst
+            - name: Een beheerplan maken
               href: collaboration-governance-first.md
-            - name: Groepen met SharePoint
-              href: groups-sharepoint-governance.md
-            - name: 'Groepen, SharePoint en Teams'
-              href: groups-sharepoint-teams-governance.md
-            - name: Verwijzing naar service-interacties
-              href: groups-services-interactions.md
-            - name: Access
+            - name: Instellingen in services
+              items:
+                - name: Groepen met SharePoint
+                  href: groups-sharepoint-governance.md
+                - name: 'Groepen, SharePoint en Teams'
+                  href: groups-sharepoint-teams-governance.md
+                - name: Groepen met andere diensten
+                  href: groups-services-interactions.md
+            - name: Toegang
               href: groups-teams-access-governance.md
             - name: Compliance
               href: groups-teams-compliance-governance.md
