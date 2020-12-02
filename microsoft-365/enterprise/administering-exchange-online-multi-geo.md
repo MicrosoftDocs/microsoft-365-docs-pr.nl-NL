@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: Meer informatie over het beheren van multi-geografische instellingen van Exchange Online in uw Microsoft 365-omgeving met PowerShell.
-ms.openlocfilehash: c9219d29a1fdae68075d296404a6c2aeab30f1aa
-ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+ms.openlocfilehash: 63eb1957611fd57e216012435188a6ddd1b232d3
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993374"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49552005"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Postvakken van Exchange Online in een omgeving met meerdere geografische gebieden beheren
 
@@ -37,7 +37,9 @@ U moet de waarde specifiek toevoegen `?email=<emailaddress>` aan het einde van d
 
 Voor klanten met Microsoft 365 of Microsoft 365 GCC, hoeft u de _ConnectionUri_ -parameter meestal niet te gebruiken om verbinding te maken met Exchange Online PowerShell. Als u verbinding wilt maken met een specifieke geografische locatie, moet u _ConnectionUri_ -parameter gebruiken, zodat u `?email=<emailaddress>` deze kunt gebruiken in de waarde.
 
-### <a name="connect-to-a-geo-location-in-exchange-online-powershell-using-multi-factor-authentication-mfa"></a>Verbinding maken met een geografische locatie in Exchange Online PowerShell met multi-factor Authentication (MFA)
+### <a name="connect-to-a-geo-location-in-exchange-online-powershell"></a>Verbinding maken met een geografische locatie in Exchange Online PowerShell
+
+De volgende verbindings instructies werken voor accounts die niet zijn geconfigureerd voor multi-factor Authentication (MFA).
 
 1. Laad in een Windows PowerShell-venster de module EXO V2 door de volgende opdracht uit te voeren:
 
@@ -47,31 +49,11 @@ Voor klanten met Microsoft 365 of Microsoft 365 GCC, hoeft u de _ConnectionUri_ 
 
 2. In het volgende voorbeeld is admin@contoso.onmicrosoft.com het beheerdersaccount en is de geografische locatie van de doellocatie de plaats waar het postvak olga@contoso.onmicrosoft.com zich bevindt.
 
-  ```powershell
-  Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
-  ```
-
-### <a name="connect-to-a-geo-location-in-exchange-online-powershell-without-using-mfa"></a>Verbinding maken met een geografische locatie in Exchange Online PowerShell zonder MFA te gebruiken
-
-1. Laad in een Windows PowerShell-venster de module EXO V2 door de volgende opdracht uit te voeren:
-
    ```powershell
-   Import-Module ExchangeOnlineManagement
+   Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
    ```
 
-2. Voer de volgende opdracht uit:
-
-   ```powershell
-   $UserCredential = Get-Credential
-   ```
-
-   In het dialoogvenster **referentie aanvraag voor Windows PowerShell** dat wordt weergegeven, typt u uw werk-of schoolaccount en wachtwoord en klikt u op **OK**.
-
-3. In het volgende voorbeeld is de geografische locatie van de doellocatie waar de Postvak olga@contoso.onmicrosoft.com zich bevinden.
-
-   ```powershell
-   Connect-ExchangeOnline -Credential $UserCredential -ShowProgress $true -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
-   ```
+3. Voer het wachtwoord in voor de admin@contoso.onmicrosoft.com in de prompt die wordt weergegeven. Als het account is geconfigureerd voor MFA, moet u ook de beveiligingscode invoeren.
 
 ## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>De beschikbare geo-locaties weergeven die zijn geconfigureerd in uw Exchange Online-organisatie
 
@@ -93,11 +75,11 @@ Get-OrganizationConfig | Select DefaultMailboxRegion
 
 Met de cmdlet **Get-Mailbox** in Exchange Online PowerShell worden de volgende eigenschappen met betrekking tot multi-geografische eigenschappen weergegeven voor postvakken:
 
-- **Database** : de eerste drie letters van de database naam komen overeen met de geografische code, waarmee wordt aangegeven waar het postvak zich momenteel bevindt. Voor online archief postvakken moet de eigenschap **ArchiveDatabase** worden gebruikt.
+- **Database**: de eerste drie letters van de database naam komen overeen met de geografische code, waarmee wordt aangegeven waar het postvak zich momenteel bevindt. Voor online archief postvakken moet de eigenschap **ArchiveDatabase** worden gebruikt.
 
-- **MailboxRegion** : geeft de geografische locatie code aan die door de beheerder is ingesteld (gesynchroniseerd van **PREFERREDDATALOCATION** in azure AD).
+- **MailboxRegion**: geeft de geografische locatie code aan die door de beheerder is ingesteld (gesynchroniseerd van **PREFERREDDATALOCATION** in azure AD).
 
-- **MailboxRegionLastUpdateTime** : geeft aan wanneer de MailboxRegion voor het laatst is bijgewerkt (automatisch of handmatig).
+- **MailboxRegionLastUpdateTime**: geeft aan wanneer de MailboxRegion voor het laatst is bijgewerkt (automatisch of handmatig).
 
 Gebruik de volgende syntaxis om de eigenschappen van een postvak te bekijken:
 
@@ -186,7 +168,7 @@ Het is niet mogelijk om niet-actieve postvakken te verplaatsen die worden bewaar
 
 7. Maak het postvak opnieuw inactief door het gebruikersaccount dat is gekoppeld aan het postvak te verwijderen. Zie [een gebruiker van uw organisatie verwijderen](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)voor instructies. In deze stap wordt ook de licentie voor Exchange Online plan 2 vrijgegeven voor andere gebruiksdoeleinden.
 
-**Opmerking** : wanneer u een inactief postvak naar een andere geografische locatie verplaatst, kan dit gevolgen hebben voor de zoekresultaten van inhoud of de mogelijkheid om te zoeken in het postvak van de voormalige geografische locatie. Zie [inhoud zoeken en exporteren in meerdere geo-omgevingen](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)voor meer informatie.
+**Opmerking**: wanneer u een inactief postvak naar een andere geografische locatie verplaatst, kan dit gevolgen hebben voor de zoekresultaten van inhoud of de mogelijkheid om te zoeken in het postvak van de voormalige geografische locatie. Zie [inhoud zoeken en exporteren in meerdere geo-omgevingen](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)voor meer informatie.
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>Nieuwe Cloud postvakken maken op een specifieke geografische locatie
 

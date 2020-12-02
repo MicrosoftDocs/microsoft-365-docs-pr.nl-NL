@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de productiviteits score voor personen met de communicatie.
-ms.openlocfilehash: ba2e69659f49c90d3b65e56e54b3026c7c9ff36a
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: a6fccdcc7f6440195bb83949ee294bbb4fe5ce7f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123442"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527499"
 ---
 # <a name="communication--people-experiences"></a>Communicatie: mensen ervaring
 
@@ -119,9 +119,9 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop mensen i
 2. **Hoofdtekst:** Biedt informatie over de waarde van het gebruik van kanaalberichten in Microsoft teams
 3. **Visualisatie:** Hiermee wordt het gebruik van chat-en kanaalberichten opsplitst.
       - **Personen die chatberichten verzenden:** Het kleur gedeelte en de breuk geven het gebruik van chatberichten in personen die berichten hebben verzonden in Microsoft teams. Het deel wordt samengesteld uit:
-        - **Teller:** Personen die in de afgelopen 28 dagen chatberichten hebben verzonden naar Microsoft teams
-        - **Noemer:** Personen hebben berichten verzonden in Microsoft teams in de afgelopen 30 dagen
-      - **Personen die chatberichten verzenden:** Het kleur gedeelte en de breuk geven het gebruik van kanaalberichten aan van personen die berichten verzenden in Microsoft teams. Het deel wordt samengesteld uit:
+        - **Teller:** Personen die in de afgelopen 28 dagen chatberichten hebben verzonden naar Microsoft teams.
+        - **Noemer:** Personen die berichten hebben verzonden in Microsoft teams in de afgelopen 30 dagen.
+      - **Personen die kanaalberichten verzenden:** Het kleur gedeelte en de breuk geven het gebruik van kanaalberichten aan van personen die berichten verzenden in Microsoft teams. Het deel wordt samengesteld uit:
         - **Teller:** Personen die in de afgelopen 28 dagen chatberichten hebben verzonden naar Microsoft teams.
         - **Noemer:** Personen die berichten hebben verzonden in Microsoft teams in de afgelopen 30 dagen.
 4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om gesorteerde Video's en andere verwante Help-inhoud weer te geven.

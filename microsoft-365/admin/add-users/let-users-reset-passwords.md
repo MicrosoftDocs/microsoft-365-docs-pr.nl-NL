@@ -2,8 +2,8 @@
 title: Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Meer informatie over het opnieuw instellen van uw wachtwoorden met het hulpprogramma voor het zelf opnieuw instellen van wachtwoorden.
-ms.openlocfilehash: 7ecadaa42610e0b77dc1727c11140080bd7b1779
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bbde517858186d844412aca21f231620ed76496a
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646677"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551918"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -71,7 +71,7 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>naar de pagina **instellingen** \> **Settings** \> **beveiliging beveiliging &amp; ** .
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>naar de pagina **instellingen** \> **Settings** \> **beveiliging beveiliging &amp;** .
 
 ::: moniker-end
 
@@ -79,9 +79,9 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
   
 3. Selecteer **selfservice voor wachtwoordherstel**.
 
-4. Selecteer onder **selfservice voor wachtwoordherstel**de optie **Ga naar de Azure-Portal om selfservice voor wachtwoordherstel in te schakelen**.
+4. Selecteer onder **selfservice voor wachtwoordherstel** de optie **Ga naar de Azure-Portal om selfservice voor wachtwoordherstel in te schakelen**.
 
-5. Selecteer **gebruikers**in het linker navigatiedeelvenster en klik vervolgens op de **gebruikers | Pagina alle gebruikers** , selecteer **wachtwoord opnieuw instellen**.
+5. Selecteer **gebruikers** in het linker navigatiedeelvenster en klik vervolgens op de **gebruikers | Pagina alle gebruikers** , selecteer **wachtwoord opnieuw instellen**.
   
 6. Selecteer **Alles** op de pagina **Eigenschappen** om dit in te schakelen voor iedereen in uw bedrijf, en selecteer vervolgens **Opslaan**.
   

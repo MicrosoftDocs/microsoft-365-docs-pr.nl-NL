@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Beheerders van Exchange Online beheren e-mail en postvakken van uw organisatie. Ze herstellen bijvoorbeeld Verwijderde items in het postvak van een gebruiker. '
-ms.openlocfilehash: cd2c4c10554cbaf425fa6ae9156a8ceeb1a21503
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8e332e886ca25221fefbbc5d1bb790bd4f513f00
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646701"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527511"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>De Exchange Online-beheerdersrol
 
@@ -44,7 +44,7 @@ Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wa
 
 - Postvakfuncties instellen zoals het beleid voor het delen van een postvak: hoe gebruikers een agenda en contactpersonen met anderen kunnen delen buiten uw organisatie.
 
-- Stel de gemachtigden '[verzenden als](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)' en '[verzenden op abehalf](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)' in voor het postvak van iemand. Een manager wil bijvoorbeeld dat zijn of assistent over de mogelijkheid beschikt om namens hem of haar e-mail te verzenden.
+- Stel de gemachtigden voor '[verzenden als](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)' en '[Verzenden namens ' in](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)voor het postvak van iemand. Een manager wil bijvoorbeeld dat zijn of assistent over de mogelijkheid beschikt om namens hem of haar e-mail te verzenden.
 
 - [Maak een gedeeld postvak](../email/create-a-shared-mailbox.md) zodat een groep personen e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres.
 
@@ -58,7 +58,7 @@ In een grote organisatie kan de Exchange-beheerder gebruikers toewijzen aan Exch
   
  De Exchange-beheerder kan bijvoorbeeld iemand toewijzen aan de rollengroep Discovery-beheer zodat die persoon in postvakken kan zoeken naar gegevens die aan bepaalde criteria voldoen. Zie [Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) en [Rollengroepen beheren](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help) voor meer informatie.
   
-## <a name="learn-about-other-admin-role"></a>Meer informatie over andere beheerdersrol
+## <a name="learn-about-other-admin-roles"></a>Meer informatie over andere beheerdersrollen
 
 - [Over Microsoft 365-beheersrollen](about-admin-roles.md)
 

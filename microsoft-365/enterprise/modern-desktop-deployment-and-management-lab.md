@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 65c251b2cd161687eb0a2e9c7ece29f453fcaae8
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 4ee3663e326dc5a7fbefce06a696cca6a4b060a9
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519620"
+ms.locfileid: "49527453"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab kit
 
@@ -36,7 +36,7 @@ Met het lab beschikt u over een automatisch ingerichte virtuele testomgeving, in
 
   - NIEUW! Windows 10 Enterprise, versie 20H2
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager, versie 2002
+  - Microsoft endpoint Configuration Manager, versie 2010 *
   - Windows Assessment and Deployment Kit voor Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -94,7 +94,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* Gebruik een brede bandbreedte om deze inhoud te downloaden om uw download ervaring te verbeteren en 30-45 minuten voor automatisch inrichten toe te staan. Voor de testomgeving is minimaal 16 GB beschikbare geheugen en 300 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbare geheugen aanbevolen. De Lab verloopt februari 2020. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.
+* Geïnstalleerde basislijn versie 2002 kan worden bijgewerkt naar versie 2010 met de update van de console. Gebruik een ruimere bandbreedte om deze inhoud te downloaden om uw download ervaring te verbeteren en 30-45 minuten te laten voor automatisch inrichten. Voor de testomgeving is minimaal 16 GB beschikbare geheugen-en 150GB voor de beschikbare schijfruimte vereist. Voor optimale prestaties wordt de beschikbare hoeveelheid geheugen en 300 GB aanbevolen. De Lab eindigt 7 februari 2021. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van de portal voor uitnodigingen van de beveiligings & nalevings centrum voor het verzenden van verdachte e-mailberichten, verdachte e-mailberichten, spam en andere mogelijk schadelijke berichten, Url's en bestanden aan Microsoft voor het scannen.
-ms.openlocfilehash: be2fc8e41e3b53923b0297f30dfb102bbabd7489
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 1e133c0d4a875fc9735cc8a92e42b6ffeee6dd5f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877265"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527743"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.
 
@@ -52,7 +52,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Verdachte inhoud rapporteren aan Microsoft
 
-1. Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions** , ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
+1. Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions**, ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
 
 2. Gebruik de nieuwe flyout voor **indienen** die wordt weergegeven om het bericht, de URL of de bijlage te verzenden, zoals beschreven in de volgende secties.
 
@@ -60,9 +60,12 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 1. Selecteer in de sectie **object type** de optie **e-mail**. Gebruik een van de volgende opties in de sectie **opmaak van indiening** .
 
-   - **Netwerkbericht-id** : dit is een GUID-waarde die beschikbaar is in de header **X-MS-Exchange-Organization-Network-Message-ID** in het bericht.
+   - **Netwerkbericht-id**: dit is een GUID-waarde die beschikbaar is in de header **X-MS-Exchange-Organization-Network-Message-ID** in het bericht.
 
-   - **Bestand** : Klik op **bestand kiezen**. In het dialoogvenster dat wordt geopend, zoekt en selecteert u het bestand. eml of. msg en klikt u vervolgens op **openen**.
+   - **Bestand**: Klik op **bestand kiezen**. In het dialoogvenster dat wordt geopend, zoekt en selecteert u het bestand. eml of. msg en klikt u vervolgens op **openen**.
+   
+   > [!NOTE]
+   > Beheerders met Defender voor Office 365, abonnement 1 of abonnement 2 kunnen berichten indienen als oud als 30 dagen. Andere beheerders kunnen 7 dagen maar één keer teruggaan.
 
 2. Geef in de sectie **geadresseerden** een of meer geadresseerden op waarvoor u een beleid wilt uitvoeren. Met de beleidscontrole wordt bepaald of het e-mailbericht dat wordt genegeerd vanwege het beleid van de gebruiker of organisatie.
 
@@ -70,13 +73,9 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
    - **Mag niet zijn geblokkeerd**
 
-   - **Is geblokkeerd** : Selecteer **spam** , **phishing** of **malware**. Als u niet zeker weet of u niet weet, kunt u het beste de beste beslissing gebruiken.
+   - **Is geblokkeerd**: Selecteer **spam**, **phishing** of **malware**. Als u niet zeker weet of u niet weet, kunt u het beste de beste beslissing gebruiken.
 
-4. Als het filter werd genegeerd vanwege beleidsregels bij het verzenden, ziet u informatie over dat beleid.
-
-   Als het filter niet door een of meer beleidsregels werd genegeerd, wordt de scan over enkele minuten voltooid. Als u op de koppeling naar de status klikt, ziet u aanvullende informatie over de verzending. Dit omvat de resultaten van de beleidscontrole en de rescan-Verdict. Opmerking op deze manier wordt de e-mail niet uitgevoerd via de Microsoft Defender for Office 365-stack volledig filteren, maar wordt een gedeeltelijke herscan uitgevoerd op basis van bepaalde kenmerken van de e-mail, URL of het bestand.
-
-5. Wanneer u klaar bent, klikt u op de knop **verzenden** .
+4. Wanneer u klaar bent, klikt u op de knop **verzenden** .
 
 ![Voorbeeld van URL-indiening](../../media/submission-flyout-email.PNG)
 
@@ -88,7 +87,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
    - **Mag niet zijn geblokkeerd**
 
-   - **Moet zijn geblokkeerd** : Selecteer **phishing** of **malware**.
+   - **Moet zijn geblokkeerd**: Selecteer **phishing** of **malware**.
 
 3. Wanneer u klaar bent, klikt u op de knop **verzenden** .
 
@@ -104,7 +103,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
    - **Mag niet zijn geblokkeerd**
 
-   - Is **geblokkeerd** : **malware** is de enige keuze en wordt automatisch geselecteerd...
+   - Is **geblokkeerd**: **malware** is de enige keuze en wordt automatisch geselecteerd...
 
 4. Wanneer u klaar bent, klikt u op de knop **verzenden** .
 
@@ -112,7 +111,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ## <a name="view-admin-submissions"></a>Beheerders inzendingen weergeven
 
-Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions** , ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
+Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions**, ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
 
 Boven aan de pagina kunt u een begindatum, een einddatum en (standaard) filteren met **id voor indienen** (een GUID-waarde die is toegewezen aan elke verzending) door een waarde in te voeren in het vak en op de ![ knop Vernieuwen te klikken ](../../media/scc-quarantine-refresh.png) . U kunt meerdere waarden opgeven, gescheiden door komma's.
 
@@ -137,7 +136,7 @@ Selecteer het tabblad **e-mail** .
 U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
 - **Datum**
-- **Ingediende id** : een GUID-waarde die is toegewezen aan elke verzending.
+- **Ingediende id**: een GUID-waarde die is toegewezen aan elke verzending.
 - **Verzonden door**<sup>\*</sup>
 - **Onderwerp**<sup>\*</sup>
 - **Afzender**
@@ -145,10 +144,19 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 - **Type levering**
 - **Bezorgings reden**
 - **Status**<sup>\*</sup>
-- **Typebesturingselement**
-- **Besturingselementbron**
 
   <sup>\*</sup> Als u op deze waarde klikt, wordt er meer informatie weergegeven in een flyout.
+
+#### <a name="admin-submission-rescan-details"></a>Details van opnieuw gescande beheerder
+
+Berichten die worden verzonden in admin-inzendingen, worden opnieuw gecontroleerd en de resultaten worden weergegeven in het detail menu:
+
+- Wanneer de e-mail verificatie van de afzender mislukt op het moment van de levering.
+- Informatie over beleids hits die de verdict van een bericht kunnen beïnvloeden of van de overschreven.
+- Actuele detonatie resultaten om te zien of de Url's of bestanden in het bericht schadelijk of niet waren.
+- Feedback van Beoordelingen.
+
+Als er een overschrijving is gevonden, moet de herscan in enkele minuten voltooien. Als er geen fout is opgetreden bij het verifiëren van e-mailberichten of als de bezorging geen invloed heeft op de ontvangst van een override, kan de feedback van een cijfer een dag duren.
 
 ### <a name="view-admin-url-submissions"></a>Ingediende items van de beheerders-URL weergeven
 

@@ -1,5 +1,5 @@
 ---
-title: Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
+title: Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
 description: Gedetailleerde stappen voor elk probleem dat met het hulpprogramma wordt gevonden
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0459de8974fe6bae98e6984fd7dc65afeb04b4e7
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: f23209568fcfc2db4a22dbb034890c5a25e21bf7
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021083"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527731"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
 
 Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten weergegeven:
 
@@ -141,7 +141,7 @@ Windows 10-apparaten in uw Azure AD-organisatie moeten automatisch worden geregi
 
 **Adviser**
 
-Zorg ervoor dat het bereik van MDM-gebruikers is **ingesteld op** **Alles of alles** , niet **none**. Als u **een aantal** kiest, meldt u zich weer na de inschrijving en selecteert u de groep **modern Workplace-all** Azure AD voor **groepen**.
+Zorg ervoor dat het bereik van MDM-gebruikers is **ingesteld op** **Alles of alles**, niet **none**. Als u **een aantal** kiest, meldt u zich weer na de inschrijving en selecteert u de groep **modern Workplace-all** Azure AD voor **groepen**.
 
 
 ### <a name="microsoft-store-for-business"></a>Microsoft Store voor Bedrijven
@@ -152,14 +152,14 @@ We gebruiken Microsoft Store voor bedrijven, zodat u de bedrijfs portal kunt dow
 
 Microsoft Store voor bedrijven is niet ingeschakeld of wordt niet gesynchroniseerd met intune. Zie voor meer informatie het artikel [apps gekochte apps in Microsoft Store voor bedrijven beheren met Microsoft intune](https://docs.microsoft.com/mem/intune/apps/windows-store-for-business) en de [intune-bedrijfs portal installeren op een apparaat](../get-started/company-portal.md).
 
-### <a name="multi-factor-authentication"></a>Meervoudige verificatie
+### <a name="multifactor-authentication"></a>Meervoudige verificatie
 
-Meervoudige verificatie mag niet per ongeluk worden toegepast op Microsoft beheerde bureaublad serviceaccounts.
+Meervoudige verificatie mag niet per ongeluk worden toegepast op accounts van Microsoft Managed Desktop service.
 
 
 **Niet gereed**
 
-U hebt een aantal opties voor het instellen van multi-factor Authentication (MFA) ingesteld voor het beleid voor voorwaardelijke toegang dat aan alle gebruikers wordt toegewezen. Wijzig het beleid voor het gebruik van een opdracht die een specifieke Azure AD-groep bedoelt die geen door Microsoft beheerde bureaublad apparaten bevat. Zie voor meer informatie [beleidsregels voor voorwaardelijke toegang](#conditional-access-policies) en [voorwaardelijke toegang: MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
+U hebt een MFA-beleid (multi-factor Authentication) ingesteld als vereist voor regels voor voorwaardelijke toegang die zijn toegewezen aan alle gebruikers. Wijzig het beleid voor het gebruik van een opdracht die een specifieke Azure AD-groep bedoelt die geen door Microsoft beheerde bureaublad apparaten bevat. Zie voor meer informatie [beleidsregels voor voorwaardelijke toegang](#conditional-access-policies) en [voorwaardelijke toegang: MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
 
 **Adviser**
 

@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 0bce37e2ad20ddde556608a72d7df3a1879ae427
-  ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
+  ms.openlocfilehash: 1884e0a4946546f4f51aa8afc2476bbdd9d4346c
+  ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 11/11/2020
-  ms.locfileid: "48993330"
+  ms.lasthandoff: 12/01/2020
+  ms.locfileid: "49519315"
 landingContent:
 - title: Gegevensbeveiliging en -beheer beheren
   linkLists:
@@ -68,14 +68,12 @@ landingContent:
     links:
     - text: Compliancebeheer
       url: compliance-manager.md
-    - text: AVG-naleving actieplan
-      url: gdpr-action-plan.md
-    - text: Informatiebeveiliging voor de AVG
-      url: office-365-info-protection-for-gdpr-overview.md
-    - text: ISO-naleving actieplan
-      url: iso-action-plan.md
+    - text: AVG-compliance actieplan
+      url: https://docs.microsoft.com/compliance/regulatory/gdpr-action-plan
+    - text: ISO-compliance actieplan
+      url: https://docs.microsoft.com/compliance/regulatory/iso-action-plan
     - text: NIST-naleving actieplan
-      url: nist-action-plan.md
+      url: https://docs.microsoft.com/compliance/regulatory/nist-action-plan
 - title: Nalevingssoplossingen implementeren
   linkLists:
   - linkListType: how-to-guide

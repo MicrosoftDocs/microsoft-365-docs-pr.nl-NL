@@ -3,7 +3,7 @@ title: Opt-in voor migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deuts
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 09/30/2020
+ms.date: 12/01/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Totaal '
-ms.openlocfilehash: 41f3e928bde0b366b17f698c30f33359a471e757
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 76cad72d742f6bf7ab6ddd1f90bfe0e5a2435df1
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327187"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49552084"
 ---
 # <a name="how-to-opt-in-for-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Opt-in voor migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in de nieuwe Duitse datacenter regio's
 
@@ -44,7 +44,7 @@ Als uw organisatie de service wil migreren van Microsoft Cloud Duitsland (Micros
  
 ![Inleiding voor opt-in](../media/ms-cloud-germany-migration-opt-in/tenant-migration.png)
 
-Er verschijnt een nieuwe sectie aan de rechterkant van het scherm om de bevestiging te accepteren. Selecteer de wisselknop naast **Ja**en klik vervolgens op **Opslaan**.
+Er verschijnt een nieuwe sectie aan de rechterkant van het scherm om de bevestiging te accepteren. Selecteer de wisselknop naast **Ja** en klik vervolgens op **Opslaan**.
  
 ![Opt-in-acceptatie](../media/ms-cloud-germany-migration-opt-in/tenant-migration-new-regions.png)
 
@@ -62,10 +62,27 @@ De Online Services-voorwaarden zijn gewijzigd zodat ze ook Microsoft kunnen gebr
 
 Tenantbeheerders van klanten en partners worden aangemoedigd om u aan te melden voor migratie in het Beheercentrum, zodat het migratieproces zo snel mogelijk kan beginnen.
 
+
+## <a name="next-step"></a>Volgende stap
+
+[Inzicht in de ervaring van de klanten tijdens de migratie](ms-cloud-germany-transition-experience.md)
+
 ## <a name="more-information"></a>Meer informatie
 
+Aan de slag:
+
+- [Migratie van Microsoft Cloud Deutschland naar Office 365-Services in de nieuwe Duitse datacenter gebieden](ms-cloud-germany-transition.md)
 - [Migratie ondersteuning voor Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
-- [Office 365-migratieprogramma voor klanten van Microsoft Cloud Deutschland](https://aka.ms/office365germanymove)
-- [Dynamics 365-migratieprogramma voor klanten van Microsoft Cloud Deutschland](https://aka.ms/d365ceoptin)
-- [Power BI-migratieprogramma voor klanten van Microsoft Cloud Deutschland](https://aka.ms/pbioptin)
-- Wilt u vragen indienen met behulp van de ' hulp nodig? ' koppeling van het [Microsoft 365-Beheercentrum](https://portal.office.de/)
+- [Gebruikerservaring tijdens de migratie](ms-cloud-germany-transition-experience.md)
+
+Door de overgang navigeren:
+
+- [Acties en effecten bij migratie fasen](ms-cloud-germany-transition-phases.md)
+- [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
+- Aanvullende informatie over [Services](ms-cloud-germany-transition-add-general.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
+
+Cloud-apps:
+
+- [Dynamics 365-migratieprogramma gegevens](https://aka.ms/d365ceoptin)
+- [Informatie over migratieprogramma's voor Power BI](https://aka.ms/pbioptin)
+- [Aan de slag met uw upgrade naar Microsoft teams](https://aka.ms/SkypeToTeams-Home)

@@ -2,8 +2,8 @@
 title: Een gebruiker herstellen
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Meer informatie over het herstellen van Verwijderde gebruikersaccounts en alle bijbehorende gegevens.
-ms.openlocfilehash: 905113c40f49f433a3d84810e04abc5f26724ecb
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 7d7269ec338aafb9be317c2ee10a57d23c775c0a
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646665"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551842"
 ---
 # <a name="restore-a-user"></a>Een gebruiker herstellen
 
@@ -60,13 +60,13 @@ U moet een globale beheerder van Microsoft 365 of gebruikersbeheerder zijn om de
 
 ::: moniker range="o365-germany"
 
-1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde**gebruikers.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde** gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde**gebruikers.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde** gebruikers.
 
 ::: moniker-end
 
@@ -95,13 +95,13 @@ U kunt dit oplossen door het actieve gebruikersaccount te vervangen door het acc
 
 ::: moniker range="o365-germany"
 
-1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde**gebruikers.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde** gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde**gebruikers.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde** gebruikers.
 
 ::: moniker-end
 
@@ -136,13 +136,13 @@ U moet beschikken over [beheerdersmachtigingen](about-admin-roles.md) in microso
 
 ::: moniker range="o365-germany"
 
-Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde**gebruikers.
+Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=848041) **en selecteer** \> **Verwijderde** gebruikers.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde**gebruikers.
+1. Ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=850627) **en selecteer** \> **Verwijderde** gebruikers.
 
 ::: moniker-end
 

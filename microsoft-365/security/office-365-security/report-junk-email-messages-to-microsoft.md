@@ -16,12 +16,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de verschillende manieren waarop u goede en beschadigde berichten en bestanden aan Microsoft kunt rapporteren voor analyse.
-ms.openlocfilehash: 379393919274662554522e21e98637105bc82287
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: df89e90998b5aa482dc1ea4003d53cf98b4b4d3f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49020901"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527779"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Berichten en bestanden rapporteren aan Microsoft
 
@@ -37,7 +37,7 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 |[De invoegtoepassing Bericht rapporteren inschakelen](enable-the-report-message-add-in.md)|Werkt met Outlook, Outlook voor Mac, en de webversie van Outlook (voorheen Outlook Web app), en de aanbevolen invoegtoepassing. <p> Afhankelijk van uw abonnement zijn berichten die gebruikers hebben gerapporteerd met de invoegtoepassing beschikbaar in [de portal van de beheerder-Portal](admin-submission.md), het [geautomatiseerde onderzoek antwoord en de reactie resultaten (lucht)](air-view-investigation-results.md), het rapport door de [gebruiker gerapporteerde berichten](view-email-security-reports.md#user-reported-messages-report)en de [Threat Explorer](threat-explorer-views.md#email--submissions) <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).|
 |[De invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook installeren en gebruiken](junk-email-reporting-add-in-for-microsoft-outlook.md)|Werkt alleen in Outlook.|
 |[Ongewenste e-mail en phishingberichten rapporteren in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|De ingebouwde mogelijkheden in de webversie van Outlook gebruiken voor organisaties met postvakken van Exchange Online (niet beschikbaar in zelfstandige EOP). <p> Berichten die gebruikers rapporteren, zijn beschikbaar in [de portal van de beheerder ingediende beheerders](admin-submission.md). <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).|
-|[Ongewenste e-mail en malafide e-mailberichten in Outlook voor iOS en Android melden](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)|Gebruik de ingebouwde mogelijkheden in Outlook voor iOS een Android voor organisaties met postvakken van Exchange Online (niet beschikbaar in zelfstandige EOP). <p> Berichten die gebruikers rapporteren, zijn beschikbaar in [de portal van de beheerder ingediende beheerders](admin-submission.md). <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).|
+|[Ongewenste e-mail en malafide e-mailberichten in Outlook voor iOS en Android melden](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)|Gebruik de ingebouwde mogelijkheden van Outlook voor iOS en Android voor organisaties met postvakken van Exchange Online (niet beschikbaar in zelfstandige EOP). <p> Berichten die gebruikers rapporteren, zijn beschikbaar in [de portal van de beheerder ingediende beheerders](admin-submission.md). <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).|
 |[Berichten handmatig bij Microsoft indienen voor analyse](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Handmatig bijgevoegde berichten verzenden naar specifieke Microsoft-e-mailadressen voor spam, geen spam en phishing.|
 |[Regels voor e-mailstromen gebruiken om te zien wat je gebruikers melden bij Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|In dit artikel leest u hoe u een e-mail stroom regel (ook wel een transportregel genoemd) maakt waarmee u wordt gewaarschuwd wanneer gebruikers berichten aan Microsoft voor analyse rapporteren.
 |||

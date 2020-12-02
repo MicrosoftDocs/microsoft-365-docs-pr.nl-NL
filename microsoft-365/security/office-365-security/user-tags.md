@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe ze bepaalde groepen gebruikers identificeren met gebruikers Tags in Microsoft Defender voor Office 365, abonnement 2. Het filteren van labels is beschikbaar via waarschuwingen, rapporten en onderzoek in Microsoft Defender voor Office 365, zodat u snel de gecodeerde gebruikers kunt identificeren.
-ms.openlocfilehash: 14ebcebeb8081a2de341fd06facabd9f7d55b119
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: 136de95addae7dcd48de2c6ac1f30ce67714817c
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123617"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49552017"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Gebruikers Tags in Microsoft Defender voor Office 365
 
@@ -66,9 +66,9 @@ In dit artikel wordt uitgelegd hoe u gebruikers Tags kunt configureren in de bev
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
-4. Voer een van de volgende stappen uit op de pagina **postvakken toewijzen** :
+4. Voer op de pagina **gebruikers toewijzen** een van de volgende stappen uit:
 
-   - Klik op **postvakken toevoegen**. Voer een van de volgende stappen uit om afzonderlijke gebruikers of groepen toe te voegen:
+   - Klik op **gebruikers toevoegen**. Voer een van de volgende stappen uit om afzonderlijke gebruikers of groepen toe te voegen:
      - Klik in het vak en blader door de lijst om een gebruiker of groep te selecteren.
      - Klik in het vak en begin te typen om de lijst te filteren en selecteer een gebruiker of groep.
      - Als u extra waarden wilt toevoegen, klikt u op een leeg gebied in het vak.

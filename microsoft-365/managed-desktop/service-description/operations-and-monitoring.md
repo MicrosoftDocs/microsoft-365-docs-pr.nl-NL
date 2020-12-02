@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8355b1609746abee12e4ca02942a567fec940623
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 1ddac923849abfa2c912244c5ff987ec885f3d45
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846214"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527591"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Microsoft beheerde bureaublad bewerkingen en bewaking
 

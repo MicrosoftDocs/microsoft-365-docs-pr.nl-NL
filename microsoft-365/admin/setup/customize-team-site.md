@@ -2,8 +2,8 @@
 title: Een SharePoint-Team site aanpassen voor het opslaan en delen van bestanden
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: sharik
+author: SKjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: Leer hoe u uw SharePoint-Team site aanpast, organiseert en beheert met documentbibliotheken, lijsten en hubs.
-ms.openlocfilehash: 3eb09f0b0160333e3b17ebc5f02424ba3d24a13c
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 3ef82cecf22226380fbb18492a7630aa023b4036
+ms.sourcegitcommit: 4a9e1b6851b988bcd31e87b184fc185be949840d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906487"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49525531"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Uw teamsite aanpassen voor het opslaan en delen van bestanden
 
@@ -85,7 +85,7 @@ Bekijk een video over het toevoegen van agenda's aan uw site, Zie [een gedeelde 
 
 Uw teamsite deelt bijna alles met alle leden van de groep die is gekoppeld aan de site. Als u een afzonderlijke site voor bepaalde klanten wilt hebben, kunt u aanvullende teamsites maken en beheren met SharePoint-hubsites. Hier vindt u meer informatie.
   
-Met hubsites kunt u sites toevoegen en koppelen. Raadpleeg voor meer informatie [Wat is een SharePoint-hubsite?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f).
+Met hubsites kunt u sites toevoegen en koppelen. Zie [Wat is een SharePoint-hub-site?](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f)voor meer informatie.
   
 Als u klaar bent om een hubsite te maken, raadpleegt u [Een hubsite maken in SharePoint Online](/sharepoint/create-hub-site).
   
@@ -93,11 +93,11 @@ Raadpleeg [Een SharePoint-site koppelen aan een hubsite](https://support.microso
   
 ## <a name="sharing-files-with-the-team"></a>Bestanden delen met het team
 
-Hoewel het opslaan van bestanden en documentbeheer een start is, zijn delen met uw team en externe clients ook belangrijk. Hier volgen enkele koppelingen naar onderwerpen die u kunnen helpen uw gebruikers te beheren en uw gegevens te delen.
+Hoewel het opslaan van bestanden en documentbeheer een start is, zijn delen met uw team en externe clients ook belangrijk. In de volgende artikelen vindt u informatie over het beheren van gebruikers en het delen van uw gegevens:
   
-Zie [SharePoint-bestanden of-mappen delen in Microsoft 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)voor meer informatie over het delen van bestanden met uw team.
+- Zie [SharePoint-bestanden of-mappen delen in Microsoft 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)voor meer informatie over het delen van bestanden met uw team.
   
-Raadpleeg [Extern delen beheren voor uw SharePoint Online-omgeving](/sharepoint/external-sharing-overview) om te begrijpen hoe u bestanden deelt buiten uw team.
+- Raadpleeg [Extern delen beheren voor uw SharePoint Online-omgeving](/sharepoint/external-sharing-overview) om te begrijpen hoe u bestanden deelt buiten uw team.
   
 ## <a name="managing-users-and-groups"></a>Gebruikers en groepen beheren.
 
@@ -109,9 +109,9 @@ Als u gebruikers wilt toevoegen aan een Microsoft 365-groep, raadpleegt u [gebru
   
 Meer informatie over het verwerken van toegangsaanvragen met [toegangsaanvragen instellen en beheren](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3).
   
-## <a name="here-are-more-topics-you-might-be-interested-in"></a>Andere onderwerpen die mogelijk interessant zijn voor u
+## <a name="here-are-more-articles-you-might-be-interested-in"></a>Hier zijn meer artikelen waarin u misschien geïnteresseerd bent
 
-- **Office-apps instellen voor uw tablets en telefoons**. U moet dit doen om vanaf uw tablet of telefoon bestanden te kunnen bewerken die zijn opgeslagen op uw teamsite. Als u de Office-apps voor uw tablet of telefoon niet installeert, kunt u uw bestanden op uw teamsite wel zien maar niet bewerken. 
+- **Office-apps instellen voor uw tablets en telefoons**. U moet dit doen, zodat u bestanden die zijn opgeslagen op uw team site, kunt bewerken op een tablet of telefoon. Als u de Office-apps voor uw tablet of telefoon niet installeert, kunt u uw bestanden op uw teamsite wel zien maar niet bewerken. 
     
   - [Office installeren en instellen op een Android met Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
     

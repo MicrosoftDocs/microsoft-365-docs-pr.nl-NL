@@ -2,8 +2,8 @@
 title: Een gebruiker uit uw organisatie verwijderen
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Meer informatie over het verwijderen van een gebruikersaccount. Bepaal wat u wilt doen met de e-mail-en OneDrive-inhoud van de gebruiker. En geef aan of u de productlicentie wilt behouden of niet langer wilt betalen.
-ms.openlocfilehash: bcccaa13614114c9588c43d857336bce44a84147
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: 45cf8b9173a3a4260fe664b809f47ab14b57d9fe
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324558"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551374"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
@@ -37,7 +37,7 @@ ms.locfileid: "47324558"
 - U hebt 30 dagen de tijd om het account te [herstellen](restore-user.md). Daarna worden de gegevens van de gebruiker permanent verwijderd.
 - Als u de OneDrive-gegevens van de gebruiker wilt behouden, verplaatst u ze naar een andere locatie. U kunt de gegevens zelfs maar dertig dagen na verwijdering van het account verplaatsen. Zie [Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken](get-access-to-and-back-up-a-former-user-s-data.md). U hoeft de SharePoint-bestanden van de gebruiker niet te verplaatsen; u hebt daar nog steeds toegang toe.
 - Als u de e-mail van de gebruiker wilt bewaren, moet u deze naar een andere locatie verplaatsen **VOORDAT** u het account verwijdert. Als u het account al hebt verwijderd, kunt u het binnen 30 dagen herstellen en vervolgens de e-mailgegevens verplaatsen. Hierna kunt u het account verwijderen. Zie [Toegang krijgen tot de gegevens van een voormalige gebruiker en er een back-up van maken](get-access-to-and-back-up-a-former-user-s-data.md).
-- Als u een Enterprise-abonnement, zoals Office 365 Enterprise E3 hebt, kunt u de postvakgegevens van een verwijderd gebruikersaccount bewaren door deze in een *inactief postvak*in te schakelen. Zie het Engelstalige artikel [Manage inactive mailboxes in Exchange Online (Inactieve postvakken beheren in Exchange Online)](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365) voor meer informatie.
+- Als u een Enterprise-abonnement, zoals Office 365 Enterprise E3 hebt, kunt u de postvakgegevens van een verwijderd gebruikersaccount bewaren door deze in een *inactief postvak* in te schakelen. Zie het Engelstalige artikel [Manage inactive mailboxes in Exchange Online (Inactieve postvakken beheren in Exchange Online)](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365) voor meer informatie.
 
 ## <a name="global-admin-delete-a-user-stop-paying-for-their-license-and-choose-what-to-do-with-their-email-and-onedrive-content"></a>Globale beheerder: Verwijder een gebruiker, stop de betaling voor zijn licentie en kies u wilt doen met zijn e-mailadres en de OneDrive-inhoud
 

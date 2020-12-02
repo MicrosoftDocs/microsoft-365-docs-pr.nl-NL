@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de productiviteits score voor personen in de mobiliteit.
-ms.openlocfilehash: f40984b3c053dcb976c901830bf796e3b7297f2d
-ms.sourcegitcommit: d578b28ed1886abd083b01b93f01b354067e6d47
+ms.openlocfilehash: e37d5ff0377163bea270b1d16e8b4fddae9099b4
+ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48804779"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49551861"
 ---
 # <a name="mobility--people-experiences"></a>Mobiliteit – personen met ervaring
 
-Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met metrische gegevens over hoe mensen Microsoft 365-apps gebruiken en de ondersteunende technologie. De Score weerspiegelt uw organisatie&#39;de prestaties van de categorieën personen en technologie ervaring en vergelijkt uw score met organisaties als uw eigen. De categorie teamwerk maakt deel uit van de maten onder mensen met een handicap. Zie het [overzicht van de productiviteits Score](productivity-score.md) voor meer informatie.
+Productiviteits Score biedt ondersteuning voor de reis naar digitale transformatie met inzicht in hoe uw organisatie Microsoft 365 en de technologie ervan gebruikt. De Score van uw organisatie weerspiegelt de maten voor personen en technologieën, en kan worden vergeleken met de Bench maten van organisaties vergelijkbaar met de grootte van uw organisatie. De categorie mobiliteit maakt deel uit van de ervaring met mensen. Zie het [overzicht van de productiviteits Score](productivity-score.md) voor meer informatie.
 
 ## <a name="why-your-organization39s-mobility-score-matters"></a>Waarom uw organisatie&#39;s voor de mobiliteits Score
 
@@ -56,19 +56,20 @@ Met Microsoft 365 kunnen personen flexibeler werken in apps, zoals Microsoft Out
 
 #### <a name="trend-visualization-of-the-primary-insight"></a>Trend visualisatie van de primaire inzichten
 
-:::image type="content" source="../../media/mobility-primary.png" alt-text="Afbeelding van het belangrijkste inzicht in de productiviteits-personen in de productiviteit.":::
+:::image type="content" source="../../media/mobility-primary.png" alt-text="Grafiek met het aantal personen dat meer dan één platform versus een tijd gebruikt.":::
 
 In dit diagram ziet u de trendlijn, waarbij de teller het aantal personen is dat apps heeft gebruikt, gedurende de laatste 180 dagen. Elk gegevenspunt op het lijndiagram is een samenvatting van de activiteit voor de afgelopen 28 dagen. Elk gegevenspunt biedt een telling van alle personen die een toepassing gebruiken op minstens twee platforms van de laatste 28 dagen voor elke datum op de x-as.
 
 ### <a name="scoring-framework"></a>Score raamwerk
 
-De Mobility-score geeft aan of mensen Microsoft 365-apps gebruiken: Outlook, teams, Word, Excel, PowerPoint, OneNote, Yammer en Skype – via de verschillende platforms, Desktop, Web en Mobile.
+De Score van de mobiliteit voor uw organisatie betreffen de maateenheden van een organisatie (aggregaat), of mensen Microsoft 365-apps gebruiken: Outlook, teams, Word, Excel, PowerPoint, OneNote, Yammer en Skype-overal op de verschillende platforms-Desktop, Web en Mobile.
+De scores zijn niet beschikbaar op het niveau van de afzonderlijke gebruiker.
 
 ## <a name="explore-how-your-org-works-across-platforms-and-locations"></a>Kennismaken met de werking van uw organisatie op platforms en locaties
 
 ### <a name="use-of-outlook-across-platforms"></a>Het gebruik van Outlook op meerdere platforms
 
-:::image type="content" source="../../media/outlook-across-platforms.png" alt-text="Afbeelding van het belangrijkste inzicht in de productiviteits-personen in de productiviteit.":::
+:::image type="content" source="../../media/outlook-across-platforms.png" alt-text="Dit is de grafiek waarmee wordt aangegeven hoeveel mensen gebruikmaken van Outlook op meerdere platforms.":::
 
 1. **Koptekst:** Hier ziet u het percentage personen dat actief is in Outlook en die gebruikmaken van Outlook op meerdere platforms.
 2. **Hoofdtekst:** Dit artikel bevat informatie over de waarde van het gebruik van Outlook op mobiele apparaten, zodat u overal ter e-mail contact kunt blijven houden.
@@ -89,7 +90,7 @@ De Mobility-score geeft aan of mensen Microsoft 365-apps gebruiken: Outlook, tea
 
 ### <a name="use-of-teams-across-platforms"></a>Gebruik van teams op meerdere platforms
 
-:::image type="content" source="../../media/teams-across-platforms.png" alt-text="Afbeelding van het belangrijkste inzicht in de productiviteits-personen in de productiviteit.":::
+:::image type="content" source="../../media/teams-across-platforms.png" alt-text="Dit is de grafiek waarmee wordt aangegeven hoeveel mensen teams gebruiken op meerdere of één platform.":::
 
 1. **Koptekst:** Het percentage van de personen die actief zijn op Microsoft teams op meerdere platforms gebruiken.
 2. **Hoofdtekst:** Dit artikel bevat informatie over de waarde van het gebruik van teams op mobiele apparaten, zodat personen op de hoogte blijven van berichten terwijl ze vanaf elke locatie werken.
@@ -110,7 +111,7 @@ De Mobility-score geeft aan of mensen Microsoft 365-apps gebruiken: Outlook, tea
 
 ### <a name="use-of-microsoft-365-apps-across-platforms"></a>Het gebruik van Microsoft 365-apps op meerdere platforms
 
-:::image type="content" source="../../media/microsoft365apps-platforms.png" alt-text="Afbeelding van het belangrijkste inzicht in de productiviteits-personen in de productiviteit.":::
+:::image type="content" source="../../media/microsoft365apps-platforms.png" alt-text="Grafiek met het aantal personen dat Microsoft 365-apps op meerdere of één platform gebruikt.":::
 
 1. **Koptekst:** Het percentage personen dat actief is op Microsoft 365-apps (Word, Excel, PowerPoint en OneNote) op meerdere platforms.
 2. **Hoofdtekst:** Biedt informatie over de waarde van het verschaffen van personen in uw organisatie de flexibiliteit om vanaf elke locatie toegang te krijgen tot hun bestanden.
@@ -123,7 +124,7 @@ De Mobility-score geeft aan of mensen Microsoft 365-apps gebruiken: Outlook, tea
 
 ### <a name="remote-work"></a>Extern werk
 
-:::image type="content" source="../../media/remotework-trend.png" alt-text="Afbeelding van het belangrijkste inzicht in de productiviteits-personen in de productiviteit.":::
+:::image type="content" source="../../media/remotework-trend.png" alt-text="Dit is de grafiek waarmee wordt aangegeven hoeveel mensen extern werken, op de site of beide.":::
 
 1. **Koptekst:** Hier ziet u het percentage van personen die uitsluitend werken vanaf thuis of op een locatie buiten de organisatie&#39;s-netwerk.
 2. **Hoofdtekst:** Hiermee markeert u het belangrijk om extern werk te bevorderen voor mensen die geen toegang hebben tot organisatie&#39;s.
