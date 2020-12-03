@@ -17,14 +17,14 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Rapporten voor Microsoft Defender voor Office 365 zoeken en gebruiken in het beveiligings &amp; compliance Center.
+description: Rapporten voor Microsoft Defender voor Office 365 zoeken en gebruiken in het beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8885eea2168cc40c497f6fa1066ae020dda7fd7c
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 5efaef018c78bd161c9cde81af36be92173479ae
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087707"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561725"
 ---
 # <a name="view-reports-for-microsoft-defender-for-office-365"></a>Rapporten weergeven voor Microsoft Defender voor Office 365
 
@@ -35,7 +35,7 @@ Bedrijven van Microsoft Defender voor Office 365 (bijvoorbeeld Microsoft 365 E5-
 
 ![Het Dashboard rapporten in het nalevings centrum voor beveiligings &](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="defender-for-office-365-file-types-report"></a>Rapport over bestandstypen voor Defender voor Office 365
+## <a name="defender-for-office-365-file-types-report"></a>Rapport met bestandstypen voor Defender voor Office 365
 
 In het rapport met het **rapport bestandstypen voor 365 van** wordt weergegeven welk type bestanden als schadelijk voor [veilige bijlagen](atp-safe-attachments.md)is gedetecteerd.
 
@@ -119,7 +119,7 @@ Als u klikt op **Details tabel weergeven**, biedt het rapport een vrijwel realti
 
 Als u wilt teruggaan naar de weergave rapporten, klikt u op **rapport weergeven**.
 
-## <a name="defender-for-office-365-message-disposition-report"></a>Rapport over berichtverwerking voor Defender voor Office 365
+## <a name="defender-for-office-365-message-disposition-report"></a>Rapport over afwezigheid voor Office 365-bericht
 
 In het rapport vrije voorkeuren voor **ATP-berichten** ziet u de acties die zijn ondernomen voor e-mailberichten die zijn gevonden met schadelijke inhoud.
 
@@ -338,7 +338,7 @@ Naast de rapporten die in dit onderwerp worden beschreven, zijn er nog enkele an
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Welke machtigingen zijn vereist voor het weergeven van de rapporten van de Defender for Office 365?
 
-Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden beschreven, **moet u beschikken over de juiste rol die is toegewezen aan het beveiligings &amp; compliance en het Beheercentrum van Exchange**.
+Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden beschreven, **moet u beschikken over de juiste rol die is toegewezen aan de beveiligings & nalevings centrum en het Beheercentrum van Exchange**.
 
 - Voor het beveiligings & nalevings centrum moet een van de volgende rollen zijn toegewezen:
 

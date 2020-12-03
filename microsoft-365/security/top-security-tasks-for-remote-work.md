@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Uw zakelijke e-mail en gegevens beschermen tegen cyber bedreigingen, zoals Ransomware, phishing en kwaadaardige bijlagen.
-ms.openlocfilehash: 8f170079a5542f703376139cdd6ec4550712d0fd
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: df6d837c31244efb1b6cea804972601acdb5dc17
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944371"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558536"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>De belangrijkste 12 taken voor beveiligings teams voor de ondersteuning van thuisgebruik
 
@@ -42,7 +42,7 @@ Voor klanten die onze Enterprise-abonnementen gebruiken, adviseert Microsoft de 
 
 |Stap|Taak|Alle Office 365 Enterprise-abonnementen|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
-|1|[Azure multi-factor Authentication (MFA) inschakelen](#1-enable-azure-multi-factor-authentication-mfa)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1|[Azure AD multi-factor Authentication (MFA) inschakelen](#1-enable-azure-ad-multi-factor-authentication-mfa)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3|[Beveiligen tegen bedreigingen](#2-protect-against-threats)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |driefasig|[Microsoft Defender voor Office 365 configureren](#3-configure-microsoft-defender-for-office-365)|||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3|[Microsoft Defender configureren voor identiteit](#4-configure-microsoft-defender-for-identity)|||![Toegevoegd](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -60,7 +60,7 @@ Voordat u begint, controleert u de [Secure Score van Microsoft 365](https://docs
 
 ![Schermafbeelding van Secure Score van Microsoft](../media/secure-score.png)
 
-## <a name="1-enable-azure-multi-factor-authentication-mfa"></a>1: Azure multi-factor Authentication (MFA) inschakelen
+## <a name="1-enable-azure-ad-multi-factor-authentication-mfa"></a>1: Azure AD multi-factor Authentication (MFA) inschakelen
 
 De beste manier om de beveiliging te verbeteren voor werknemers die in huis werken, is MFA inschakelen. Als u nog geen processen hebt, beschouwt u dit als een proefproduct voor noodgevallen en zorgt u ervoor dat u voor de ondersteuning van medewerkers die aan de slag gaan. Aangezien u waarschijnlijk geen hardware-beveiligingsapparaten kunt distribueren, kunt u gebruikmaken van Windows hello biometrie en smartphone Authentication-apps, zoals Microsoft Authenticator.
 
@@ -112,7 +112,7 @@ U moet samenwerken met uw Exchange Online-beheerder en de SharePoint Online-behe
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Microsoft Defender voor identiteit configureren
 
-[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) is een cloudbeveiligingsoplossing die gebruikmaakt van uw on-premises Active Directory-signalen om geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadwillende acties van binnenuit die zijn gericht op uw organisatie, te identificeren, te detecteren en te onderzoeken. Richt u op de volgende oorzaak omdat uw on-premises beheerder en de Cloud infrastructuur geen afhankelijkheden of vereisten hebben en er direct voordelen kunnen bestaan.
+[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) is een op de cloud gebaseerde beveiligingsoplossing waarmee u uw on-premises Active Directory-signaleren identificeert, opspoort en onderzoekt naar geavanceerde bedreigingen, compromisloze identiteiten en schadelijke Insider-acties die u in uw organisatie worden doorgestuurd. Richt u op de volgende oorzaak omdat uw on-premises beheerder en de Cloud infrastructuur geen afhankelijkheden of vereisten hebben en er direct voordelen kunnen bestaan.
 
 - Zie [Microsoft Defender voor de identiteits introductie](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) om snel te kunnen instellen
 - Bekijk de [video: Inleiding tot Microsoft Defender voor identiteit](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)

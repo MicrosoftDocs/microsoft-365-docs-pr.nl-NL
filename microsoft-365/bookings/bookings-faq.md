@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings Veelgestelde vragen.
-ms.openlocfilehash: 40605cfc7e5d30e12cd34a463a76e8d9c324efc7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 47bb71476c3fd0b32f9be3e71b188bef6efe2498
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445449"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561553"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft Bookings
 
@@ -29,7 +29,7 @@ Bookings is een online dienst, dus u hoeft niets te downloaden. Ga naar de app-k
 
 ### <a name="who-has-access-to-microsoft-bookings"></a>Wie heeft er toegang tot Microsoft Bookings?
 
-Bookings is standaard beschikbaar en actief voor Microsoft 365 Business Premium, a3, A5, E3 en E5 klanten wereldwijd. Bookings is ook beschikbaar in Office 365, beheerd door 21Vianet.
+Bookings is standaard beschikbaar en actief voor Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, A5, E3 en E5-klanten wereldwijd. Bookings is ook beschikbaar in Office 365, beheerd door 21Vianet.
 
 ### <a name="will-my-customers-see-my-personal-or-business-calendar"></a>Zien mijn klanten mijn persoonlijke of zakelijke agenda?
 
@@ -37,7 +37,7 @@ Uw klanten zien alleen de boekings agenda die u online publiceert voor de servic
 
 ### <a name="how-do-end-users-access-the-bookings-app"></a>Hoe opent eindgebruikers de app Bookings?
 
-Iedereen die een licentie heeft voor Microsoft 365 Business Premium, a3, A5, E3, E5 of wordt toegevoegd als een personeelslid in de beheerder of de viewer rollen, hebben toegang tot bookings in de app-kiezer binnen de Microsoft 365-webervaring. Er is ook een Companion-app beschikbaar voor iOS en Android.
+Iedereen die een licentie heeft voor Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, A5, E3, E5 of wordt toegevoegd als een personeelslid in de beheerder of de functie voor het openen van een book in de app-kiezer binnen de Microsoft 365-website. Er is ook een Companion-app beschikbaar voor iOS en Android.
 
 ### <a name="can-i-use-bookings-in-my-own-web-site"></a>Kan ik Bookings gebruiken in mijn eigen website?
 
@@ -49,7 +49,7 @@ Ja. We bieden een koppeling naar de boekings pagina op het tabblad **reservering
 
 ### <a name="can-our-it-department-control-whether-end-users-can-access-bookings"></a>Kan onze IT-afdeling bepalen of eindgebruikers toegang hebben tot Bookings?
 
-Bookings is standaard beschikbaar in Business Premium, M365 a3/A5 en E3/E5-tenants, maar beheerders kunnen de optie uitschakelen in het Microsoft 365-Beheercentrum, indien van toepassing. Als u dit wilt doen, [volgt u deze instructies](turn-bookings-on-or-off.md).
+Bookings is beschikbaar in Microsoft 365 Business Premium, Microsoft 365 Business Standard, M365 a3/A5 en E3/E5-tenants, maar beheerders kunnen de optie uitschakelen in het Microsoft 365-Beheercentrum, indien van toepassing. Als u dit wilt doen, [volgt u deze instructies](turn-bookings-on-or-off.md).
 
 Als een klant de toegang tot Bookings van bepaalde licenties in de Tenant wil blokkeren, kunnen ze een Groepsbeleid gebruiken om licenties te beperken of een beleid voor het OWA-postvak in te voeren waarmee wordt beperkt wie nieuwe boekings agenda's kunnen maken.
 
@@ -114,7 +114,7 @@ Bookings is een ideale oplossing voor klanten met een bedrijfsbeheerder en een k
 
 ### <a name="how-do-i-get-microsoft-bookings"></a>Hoe krijg ik Microsoft Bookings?
 
-Bookings is beschikbaar in Microsoft 365 voor klanten met een licentie voor Business Premium, a3, A5, E3 en E5, samen met een Companion-app van iOS en Android. Bookings is niet beschikbaar als zelfstandige app. Outlook Web app of de webversie van Outlook moeten zijn ingeschakeld voor het gebruik van reserveringen, aangezien hierin gegevens in Outlook worden opgeslagen.
+Bookings is beschikbaar in Microsoft 365 voor klanten met Microsoft 365 Business Premium, Microsoft 365 Business Standard, a3, A5, E3, en E5-app. Bookings is niet beschikbaar als zelfstandige app. Outlook Web app of de webversie van Outlook moeten zijn ingeschakeld voor het gebruik van reserveringen, aangezien hierin gegevens in Outlook worden opgeslagen.
 
 Een Bookings-licentie biedt volledige functionaliteit voor het product, waaronder het maken en beheren van agenda's. De mogelijkheid biedt gebruikers ook de mogelijkheid om bestaande agenda's weer te geven en te bewerken wanneer deze gebruikers als medewerkers worden toegevoegd aan de rol van een beheerder of lezer.
 
@@ -172,9 +172,9 @@ Met een instelling die de **maximum tijd voor potentiële klanten** wordt genoem
 
 ### <a name="how-does-bookings-work-across-time-zones"></a>Hoe werken boekingen over tijdzones?
 
-Alle tijden bevinden zich standaard in de Business-tijdzone (de lokale tijdzone). Dit betekent dat elke instelling die u configureert voor een Bookings agenda, zoals werkuren, wordt weergegeven in deze tijdzone. De pagina selfservice is de mogelijkheid om alle tijden van de afspraak weer te geven in de tijdzone van de eindgebruiker, die desgewenst kunnen worden uitgeschakeld.Als **altijd tijds sleuven in de Business-tijdzone weergeven** worden uitgeschakeld op het tabblad Bookings pagina, zien de personen die de pagina bezoeken de tijd sleuven in hun eigen lokale tijdzones.
+Alle tijden bevinden zich standaard in de Business-tijdzone (de lokale tijdzone). Dit betekent dat elke instelling die u configureert voor een Bookings agenda, zoals werkuren, wordt weergegeven in deze tijdzone. De pagina selfservice is de mogelijkheid om alle tijden van de afspraak weer te geven in de tijdzone van de eindgebruiker, die desgewenst kunnen worden uitgeschakeld. Als **altijd tijds sleuven in de Business-tijdzone weergeven** worden uitgeschakeld op het tabblad Bookings pagina, zien de personen die de pagina bezoeken de tijd sleuven in hun eigen lokale tijdzones.
 
-:::image type="content" source="media/bookings-faq-region.png" alt-text="Plannen in Bookings":::
+:::image type="content" source="media/bookings-faq-region.png" alt-text="Instellingen voor boekings gebieden en tijdzone":::
 
 U kunt geen tijdzone instellen voor medewerkers in bookings. De tijdzone van de werknemers, dus ook kantooruren, worden in de Business Time zone weergegeven.
 
@@ -202,7 +202,7 @@ Ja, we hebben een functie voor groeps Booking waarmee meerdere personen dezelfde
 
 Ja. Er is een selectievakje op het tabblad boekings pagina in de web-app: er is **een Microsoft 365-of Office 365-account van mijn organisatie om te boeken vereist**. Als u dit selectievakje inschakelt, wordt selfservice voor selfservice beperkt tot alleen de gebruikers die zich in de Tenant bevinden. De Bookings-agenda die zich in de web-app bevindt voor het maken en beheren van gegevens, kan alleen worden gebruikt door gebruikers die zijn toegevoegd als medewerkers aan de pagina met beheerders-of viewer rollen.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Plannen in Bookings":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Toegangsbeheer voor boekings pagina's in Bookings":::
 
 ### <a name="how-frequently-does-the-home-page-update"></a>Hoe vaak wordt de startpagina bijgewerkt?
 
@@ -250,7 +250,7 @@ Elke boekings agenda wordt onafhankelijk bijgehouden. Er is geen samengevoegde w
 
 Voor toegang tot de web-app Bookings is verificatie vereist via de reguliere verificatie van Azure Active Directory (AAD). De hand boekings pagina voor selfservice kan worden gemaakt voor iedereen met de koppeling naar de webpagina. Wanneer de instelling **een Microsoft 365-of Office 365-account van de instelling voor het boeken van mijn organisatie vereisen** is geselecteerd, is de pagina alleen toegestaan voor gebruik binnen de microsoft 365-Tenant (met authenticatie via Aad).
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Plannen in Bookings":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="Toegangsbeheer voor boekings pagina's in Bookings":::
 
 ### <a name="does-customer-data-leave-the-production-system-for-any-reason"></a>Laat de klantgegevens om welke reden dan ook?
 
@@ -303,18 +303,20 @@ Als u wilt dat de boekingen correct worden gesynchroniseerd met de agenda's van 
 
 1. Meld u aan bij Microsoft 365 en selecteer **Outlook** in het startprogramma voor apps.
 
-   ![Afbeelding van Outlook in startprogramma voor apps](../media/bookings-applauncher-outlook.png)
+   > [!div class="mx-imgBorder"]
+   > ![Afbeelding van Outlook in startprogramma voor apps](../media/bookings-applauncher-outlook.png)
 
 1. Selecteer agenda **delen** boven aan de pagina \> **Calendar**.
 
    ![Afbeelding van het menu agenda delen](../media/bookings-share-calendar.png)
 
-1. Selecteer in de sectie **personen binnen uw organisatie** de vervolgkeuzelijst naast **Mijn organisatie**en selecteer vervolgens **kan weergeven wanneer ik bezet ben**.
+1. Selecteer in de sectie **personen binnen uw organisatie** de vervolgkeuzelijst naast **Mijn organisatie** en selecteer vervolgens **kan weergeven wanneer ik bezet ben**.
 
-> [!NOTE]
-> Met deze instelling deelt u uw beschikbaarheidsinfo met Bookings en andere gebruikers in uw organisatie. Het bevat geen andere informatie, zoals het type afspraak dat u hebt gepland, waarvan u de afspraak hebt gepland, of de locatie.
+   > [!NOTE]
+   > Met deze instelling deelt u uw beschikbaarheidsinfo met Bookings en andere gebruikers in uw organisatie. Het bevat geen andere informatie, zoals het type afspraak dat u hebt gepland, waarvan u de afspraak hebt gepland, of de locatie.
 
-   ![Afbeelding van het scherm voor het delen van een agenda met kan weergeven wanneer ik bezet ben](../media/bookings-view-busy.png)
+   > [!div class="mx-imgBorder"]
+   > ![Afbeelding van het scherm voor het delen van een agenda met kan weergeven wanneer ik bezet ben](../media/bookings-view-busy.png)
 
 1. Selecteer **Gereed**.
 
@@ -328,14 +330,14 @@ Als een werknemer uw bedrijf heeft verlaten en u deze hebt verwijderd uit uw Mic
 
 1. Selecteer het pictogram **verwijderen** .
 
-1. Selecteer **OK**in het bevestigingsvenster.
+1. Selecteer **OK** in het bevestigingsvenster.
 
 > [!NOTE]
 > Als u meer dan één boekings agenda hebt, moet u deze van alle gebruikers verwijderen.
 
 Als u wilt controleren of u meer dan één agenda hebt, selecteert u de vervolgkeuzepijl naast de naam van uw bedrijf in het linkermenu en selecteert u vervolgens **openen**. Als u maar één agenda hebt, ziet u alleen de optie om een boekings agenda toe te voegen. In dit voorbeeld ziet u dat er een tweede agenda met de naam ' contoso co' is.
 
-   ![Afbeelding van het scherm een agenda kiezen met een tweede agenda weergegeven](../media/bookings-choose-calendar.png)
+![Afbeelding van het scherm een agenda kiezen met een tweede agenda weergegeven](../media/bookings-choose-calendar.png)
 
 ### <a name="theres-a-syncing-error-we-cant-identify"></a>Er kan niet worden vastgesteld dat er een synchronisatiefout is opgetreden.
 

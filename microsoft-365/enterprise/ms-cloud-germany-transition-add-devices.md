@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: aanvullende informatie over apparaten voor services wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: da05a3c2eb6a8d579c53d403a1ef575c389eda12
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 941b836871f4ffb7f39f6e144675e9ee15510270
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551951"
+ms.locfileid: "49560854"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende informatie over apparaten voor de migratie van Microsoft Cloud Deutschland
 
@@ -136,6 +136,12 @@ Het apparaat maakt automatisch deel uit van Azure AD zonder dat de gebruiker of 
 
 
 ## <a name="windows-azure-ad-join"></a>Deelnemen aan Windows Azure AD
+
+**Belangrijk:** De intune service-principal wordt ingeschakeld na commerce Migration, wat impliceert het activeren van Azure AD-apparaatregistratie. Als u ervoor hebt gezorgd dat u de registratie van Azure AD-apparaat voorafgaand aan de migratie hebt geblokkeerd, moet u de intune-Service-Principal uitschakelen met PowerShell om Azure AD-apparaatregistratie opnieuw te uitschakelen met de Azure AD-Portal U kunt tijdens de module Azure Active Directory PowerShell voor Graph de intune-Service-Principal uitschakelen met deze opdracht.
+
+```powershell
+Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
+```
 
 ### <a name="unjoin"></a>Ontkoppelen
 

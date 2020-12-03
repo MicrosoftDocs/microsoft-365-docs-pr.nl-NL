@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Lees meer over bedreigings trajecten, waaronder nieuwe opspoorers, om uw organisatie op de hoogte te houden van beveiligingskwesties.
-ms.openlocfilehash: df544da7bfc5abebd45b0861c29f9e49632cdcd8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: bdd15f7c2e74a2e30b2e4c5296cfde5e59bfb378
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842318"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561279"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Bedreigings tracks-nieuw en opmerkelijk
 
@@ -46,10 +46,10 @@ Voor de meeste tracerings pagina's worden trend nummers weergegeven die regelmat
   
 Voor de meeste fantastische functies die u ontvangt met [Microsoft Defender voor Office 365, abonnement 2](office-365-ti.md). Bedreigings tracks bestaan uit [Noteworth trackers](#noteworthy-trackers), [trends](#trending-trackers), [bijgehouden query's](#tracked-queries)en [opgeslagen query's](#saved-queries).
   
-Als u uw bedreigings overzichten voor uw organisatie wilt weergeven en gebruiken, gaat u naar het Security &amp; compliance Center ( [https://protection.office.com](https://protection.office.com) ) en kiest u **Threat management** \> **bedreigings** beheer.
+Als u uw bedreigings overzichten voor uw organisatie wilt weergeven en gebruiken, gaat u naar het beveiligings & nalevings centrum ( [https://protection.office.com](https://protection.office.com) ) en kiest u risico **beheer voor bedreigings beheer** \> **Threat tracker**.
   
 > [!NOTE]
-> Als u bedreigings tracks wilt gebruiken, moet u een globale beheerder, beveiligingsbeheerder of beveiligings lezer zijn. Zie [machtigingen in het beveiligings &amp; conformiteitscentrum](permissions-in-the-security-and-compliance-center.md). 
+> Als u bedreigings tracks wilt gebruiken, moet u een globale beheerder, beveiligingsbeheerder of beveiligings lezer zijn. Zie [machtigingen in het beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md). 
   
 ### <a name="noteworthy-trackers"></a>Opspoorers
 
@@ -85,13 +85,13 @@ Of u e-mail, inhoud of Office-activiteiten (binnenkort beschikbaar), Explorer en
   
 En vergeet niet dat u ons feedback kunt geven op deze of andere beveiligingsfuncties van Microsoft 365 door te klikken op de **feedback** knop in de rechterbenedenhoek van het [overzicht van de beveiligings & compliance Center](https://support.microsoft.com/office/a5f2fd18-b029-4257-b5a8-ae83e7768c85).
   
-![Beveiligings &amp; Conformiteitscentrum](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
+![Beveiligings- en compliancecentrum](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
   
 ## <a name="trackers-and-microsoft-defender-for-office-365"></a>Spoort en Microsoft Defender voor Office 365
 
 Met onze Inaugural bedachte bedreiging, markeren we geavanceerde malware-bedreigingen die door [veilige bijlagen](atp-safe-attachments.md)zijn gedetecteerd. Als u een Office 365 Enterprise E5-klant bent en u niet [Microsoft Defender voor Office 365](office-365-atp.md)gebruikt, is het raadzaam dat u de naam van uw abonnement hebt. Defender voor Office 365 biedt zelfs een waarde als u andere beveiligingshulpprogramma's die de e-mail stroom filteren met uw Office 365-Services. Functies met antispam en [veilige verbindingen](atp-safe-links.md) werken echter het best wanneer uw belangrijke e-mail beveiligingsoplossing via Office 365 wordt gebruikt.
   
-![Microsoft Defender voor Office 365 in het beveiligings &amp; Conformiteitscentrum](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
+![Microsoft Defender voor Office 365 in de beveiligings & nalevings centrum](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
   
 Met de bedreiging van de hedendaagse riddled wereld, waarop alleen traditionele anti-malware scans worden uitgevoerd, is u niet goed te beschermen tegen aanvallen. Aan de hand van de meer geavanceerde hackers kunnen veelgebruikte hulpprogramma's worden gebruikt voor het maken van nieuwe, verduidelijkende en vertraagde aanvallen die niet worden herkend door traditionele anti malware op basis van een handtekening. De functie voor veilige bijlagen maakt een e-mailbijlage en zet deze in een virtuele omgeving af om te bepalen of deze veilig of kwaad is. Dit detonatie proces opent elk bestand in een omgeving met een virtuele computer en controleert wat er gebeurt nadat het bestand is geopend. Ongeacht of u een PDF-bestand of een gecomprimeerd bestand, of een Office-document, kunt u kwaadaardige code verbergen in een bestand, zodat u deze alleen kunt activeren als het slachtoffer de persoon opent op hun computer. Door het bestand in de e-mail stroom 365 te en analyseren, vindt u deze bedreigingen op basis van gedrag, de reputatie van het bestand en een aantal heuristische regels.
   
@@ -101,7 +101,7 @@ Met het nieuwe verdachte bedreiging-filter worden items gemarkeerd die onlangs z
 
 - Als uw organisatie de functies voor onderzoek en antwoord van Office 365 nog niet hebt, raadpleegt [u hoe kan ik Office 365 Threat onderzoek en antwoord mogelijkheden krijgen?](office-365-ti.md).
 
-- Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een hoofdbeheerder zijn of de rol beveiligingsbeheerder of zoeken en wissen zijn toegewezen in het Beveiligingscentrum voor beveiligings &amp; naleving. Zie [machtigingen in het beveiligings &amp; conformiteitscentrum](permissions-in-the-security-and-compliance-center.md).
+- Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een hoofdbeheerder zijn of de rol beveiligingsbeheerder of zoeken en wissen zijn toegewezen in het beveiligings & nalevings centrum. Zie [machtigingen in het beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
 - Kijk of u de nieuwe trackers wilt weergeven in de Microsoft 365-omgeving. Wanneer deze beschikbaar is, vindt u [hier](https://protection.office.com/)uw nummer. Ga naar **Threat management** \> **bedreigings** beheer.
 

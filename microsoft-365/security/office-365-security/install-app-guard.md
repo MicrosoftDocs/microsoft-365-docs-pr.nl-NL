@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Geniet van de nieuwste isolatie op basis van hardware. Voorkomen dat huidige en opkomende aanvallen, zoals misbruik of kwaadaardige koppelingen, geen productiviteit voor werknemers en beveiliging van de werknemers kunnen storen.
-ms.openlocfilehash: c9b31ff91521b6badda31b6eb3202f370769a0fd
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 075006bb8f000dbbda2fd564e0c7cf83c1a15129
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021071"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561433"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard voor Office (openbare preview) voor beheerders
 
@@ -29,8 +29,8 @@ ms.locfileid: "49021071"
 
 **Van toepassing op:** Word, Excel en PowerPoint voor Microsoft 365, Windows 10 Enterprise
 
->[!IMPORTANT]
->Sommige gegevens zijn gerelateerd aan een voorvrijgegeven product, dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend kan worden gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
+> [!IMPORTANT]
+> Sommige gegevens zijn gerelateerd aan een voorvrijgegeven product, dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend kan worden gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
 Microsoft Defender Application Guard voor Office (Application Guard voor Office) helpt voorkomen dat niet-vertrouwde bestanden toegang krijgen tot vertrouwde bronnen, zodat uw onderneming veilig blijft tegen nieuwe en opkomende aanvallen. Dit artikel helpt beheerders bij het instellen van apparaten voor een preview van Application Guard voor Office. Dit artikel bevat informatie over systeemvereisten en installatiestappen voor het inschakelen van Application Guard voor Office op een apparaat.
 
@@ -38,15 +38,15 @@ Microsoft Defender Application Guard voor Office (Application Guard voor Office)
 
 ### <a name="minimum-hardware-requirements"></a>Minimale hardwarevereisten
 
-* **CPU** : 64-bits, vier kernen (fysiek of virtueel), virtualisatie-extensies (Intel VT-x of AMD-V), Kern i5-equivalent of hoger aanbevolen
-* **Fysiek geheugen** : 8 GB RAM
-* **Harde schijf** : 10 GB beschikbare ruimte op het systeemstation (SSD aanbevolen)
+* **CPU**: 64-bits, vier kernen (fysiek of virtueel), virtualisatie-extensies (Intel VT-x of AMD-V), Kern i5-equivalent of hoger aanbevolen
+* **Fysiek geheugen**: 8 GB RAM
+* **Harde schijf**: 10 GB beschikbare ruimte op het systeemstation (SSD aanbevolen)
 
 ### <a name="minimum-software-requirements"></a>Minimale softwarevereisten
 
-* **Windows 10** : Windows 10 Enterprise Edition, client Build versie 2004 (20H1) Build 19041
-* **Office** : Office Beta-kanaal Build versie 2008 16.0.13212 of hoger
-* **Update pakket** : cumulatieve maandelijkse beveiligingsupdates voor Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
+* **Windows 10**: Windows 10 Enterprise Edition, client Build versie 2004 (20H1) Build 19041
+* **Office**: Office Beta-kanaal Build versie 2008 16.0.13212 of hoger
+* **Update pakket**: cumulatieve maandelijkse beveiligingsupdates voor Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
 
 Voor gedetailleerde systeemvereisten raadpleegt u [systeemvereisten voor Microsoft Defender Application Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard). Zie aan de slag met [Office Insider-builds](https://insider.office.com/business/deploy)voor meer informatie over versies van Office Insider preview.
 

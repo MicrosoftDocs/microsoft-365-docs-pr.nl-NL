@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Meer informatie over hoe Contoso de functies voor informatiebeveiliging in Microsoft 365 for Enterprise gebruikt om de digitale activa in de cloud te beveiligen.
-ms.openlocfilehash: a1aa08a20d284d3a003f4a406c37f2107ce19bd1
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 7cc51110a0bc4c87e57e71b2ddb42aa0dbaa288d
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754599"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558502"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Informatiebescherming voor Contoso Corporation
 
@@ -34,14 +34,14 @@ Contoso heeft een analyse van hun gegevens uitgevoerd en heeft de volgende class
 
 | Niveau 1: basislijn | Niveau 2: gevoelig | Niveau 3: sterk gereglementeerd |
 |:-------|:-----|:-----|
-| Gegevens zijn versleuteld en alleen beschikbaar voor geverifieerde gebruikers.<BR> <BR> Verstrekt voor alle gegevens die lokaal zijn opgeslagen, en in opslagsystemen en werkbelasting in de Cloud. Gegevens worden versleuteld wanneer ze zich in de service bevinden en tijdens de overdracht tussen de service en de clientapparaten. <BR><BR>Voorbeelden van gegevens van niveau 1 zijn normale bedrijfscommunicatie (e-mail) en bestanden voor administratieve, verkoop- en ondersteuningsmedewerkers. | Niveau 1 plus krachtige verificatie en bescherming tegen gegevensverlies.<BR> <BR> Geavanceerde verificatie omvat Azure Meervoudige Verificatie (MFA) met SMS-validatie. Preventie van gegevensverlies zorgt ervoor dat gevoelige of kritieke informatie niet wordt verzonden buiten de Microsoft-Cloud.<BR><BR>Voorbeelden van gegevens op niveau 2 zijn financiële en juridische informatie en onderzoeks- en ontwikkelingsgegevens voor nieuwe producten. | Niveau 2 plus de hoogste niveaus van versleuteling, verificatie en controle.<BR><BR>De hoogste niveaus van codering voor gegevens in de service en in de Cloud, conform de regionale voorschriften, gecombineerd met MFA met smartcards en granulaire controle en waarschuwingen.<BR> <BR>Voorbeelden van gegevens over de klant en de partners zijn persoonlijke gegevens over de klant en de partner, specificaties voor product engineering en eigen productietechnieken.  |
+| Gegevens zijn versleuteld en alleen beschikbaar voor geverifieerde gebruikers.<BR> <BR> Verstrekt voor alle gegevens die lokaal zijn opgeslagen, en in opslagsystemen en werkbelasting in de Cloud. Gegevens worden versleuteld wanneer ze zich in de service bevinden en tijdens de overdracht tussen de service en de clientapparaten. <BR><BR>Voorbeelden van gegevens van niveau 1 zijn normale bedrijfscommunicatie (e-mail) en bestanden voor administratieve, verkoop- en ondersteuningsmedewerkers. | Niveau 1 plus krachtige verificatie en bescherming tegen gegevensverlies.<BR> <BR> Sterke verificatie omvat Azure AD multi-factor Authentication (MFA) met SMS-validatie. Preventie van gegevensverlies zorgt ervoor dat gevoelige of kritieke informatie niet wordt verzonden buiten de Microsoft-Cloud.<BR><BR>Voorbeelden van gegevens op niveau 2 zijn financiële en juridische informatie en onderzoeks- en ontwikkelingsgegevens voor nieuwe producten. | Niveau 2 plus de hoogste niveaus van versleuteling, verificatie en controle.<BR><BR>De hoogste niveaus van codering voor gegevens in de service en in de Cloud, conform de regionale voorschriften, gecombineerd met MFA met smartcards en granulaire controle en waarschuwingen.<BR> <BR>Voorbeelden van gegevens over de klant en de partners zijn persoonlijke gegevens over de klant en de partner, specificaties voor product engineering en eigen productietechnieken.  |
 ||||
 
 ## <a name="contoso-information-policies"></a>Contoso Information policies
 De volgende tabel bevat informatie over contoso Information policies.
 
 
-| Waarde | Access | Gegevensretentie | Informatiebescherming |
+| Value | Toegang | Gegevensretentie | Gegevensbescherming |
 |:-------|:-----|:-----|:-----|
 | Lage bedrijfswaarde (niveau 1: basislijn) | Toegang tot iedereen toestaan.  | 6 maanden | Gebruik versleuteling. |
 | Gemiddelde bedrijfswaarde (niveau 2: gevoelig) | Sta toegang tot Contoso medewerkers, onderaannemers en partners. <BR><BR> Gebruik MFA, TLS (Transport Layer Security) en Mobile Application Management (MAM). | 2 jaar  | Gebruik hash-waarden voor gegevensintegriteit.  |

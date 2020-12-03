@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inzicht in de basisstructuur van de on-premises IT-infrastructuur van Contoso en de manier waarop de zakelijke behoeften van het bedrijf voldoen aan Microsoft 365 for Enterprise.
-ms.openlocfilehash: b3b67429faccc5d22d49a2921fff4c8b3c3c062e
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 72d502b5078a1e572eeba27832550af52907e209
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920452"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558404"
 ---
 # <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT-infrastructuur en bedrijfsbehoeften
 
@@ -121,7 +121,7 @@ De IT-afdeling van Contoso heeft bepaald dat de volgende toewijzingen van zakeli
 |  | Verbeter de productiviteit voor externe en mobiele werknemers | Werkbelasting en cloud-gebaseerde gegevens voor Microsoft 365 |
 |  | Verbeter de creativiteit en innovatie | Windows Ink, Cortana op het werk, PowerPoint |
 | Beveiliging |  |  |
-|  | Identiteits- en toegangsbeheer | Toegewijde wereldwijde beheerdersaccounts met Azure meervoudige verificatie (MFA) en Azure AD Privileged Identity Management (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
+|  | Identiteits- en toegangsbeheer | Toegewezen globale beheerdersaccounts met Azure AD multi-factor Authentication (MFA) en Azure AD-geprivilegieerde identiteitsbeheer (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
 |  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Defender voor Office 365 <BR> Microsoft Defender voor Office 365 <BR> Microsoft 365 Threat onderzoek en-antwoord <BR> |
 |  | Gegevensbeveiliging | Azure-gegevensbeveiliging <BR> Preventie van gegevensverlies (DLP, Data Loss Prevention) <BR> Windows-gegevensbescherming (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Beveiligingsbeheer | Azure Defender  <BR> Windows Defender-Beveiligingscentrum |

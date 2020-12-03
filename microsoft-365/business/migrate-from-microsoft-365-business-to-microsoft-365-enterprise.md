@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Meer informatie over hoe u uw bedrijf kunt overzetten van Microsoft 365 Business Premium naar Microsoft 365 E3.
-ms.openlocfilehash: 3f840a27cdcf50bba7710681135f6c2e241ad14b
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 3f1bb9591e1bd2bac49326325ce6c8c2d6778497
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367050"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558233"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Migreren van Microsoft 365 Business Premium naar Microsoft 365 E3
 
@@ -62,7 +62,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Mic
 | Minder mogelijkheden voor oppervlakte van aanval    | [Bekijk deze lijst](#threat-protection) | Enterprise-beheer van hardwarematige isolatie voor Microsoft Edge | 
 | Abonnement 1 voor Office 365 | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
 | **Identiteitsbeheer**        | | | 
-| Selfservice voor wachtwoordherstel voor hybride Azure Active Directory-accounts (Azure AD), Azure multi-factor Authentication (MFA), voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises id's|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
+| Selfservice voor wachtwoordherstel voor hybride Azure Active Directory-accounts (Azure AD), Azure AD multi-factor Authentication (MFA), voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises id's|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
 | Detectie van Cloud apps, Azure AD Connect Health    |     | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
 | Azure AD Office 365-apps eenmalige Sign-On (SSO): 10 apps per gebruiker (Galerie SaaS-apps zoals Salesforce) * | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 
 | Azure AD Premium 1 SSO: geen limiet (on-premises apps via Azure AD-toepassings proxy en niet-galerij-apps met beSelf-Service hulp van sjablonen voor de integratie van apps)    |     | ![Inbegrepen in Microsoft 365 E3](../media/check-mark.png) | 

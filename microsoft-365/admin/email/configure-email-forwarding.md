@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: E-mail doorsturen naar een of meer e-mailaccounts via Office365.
-ms.openlocfilehash: acdca0b19eda70d7da34ce1093a4a1b11052fd79
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: c821d4363a053b432c4376d7b4fec4926df7b568
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551830"
+ms.locfileid: "49560790"
 ---
 # <a name="configure-email-forwarding"></a>Doorsturen van e‑mail configureren
 
@@ -39,6 +39,9 @@ ms.locfileid: "49551830"
 ::: moniker-end
   
 Als beheerder van een organisatie hebt u mogelijk een bedrijf nodig om het doorsturen van e-mail in te stellen voor het postvak van een gebruiker. Dankzij de functie voor e-mail doorsturen kunt u e-mailberichten vanuit het postvak van een gebruiker doorsturen naar het postvak van een gebruiker binnen of buiten de organisatie.
+
+> [!IMPORTANT]
+> U kunt uitgaande spamfilter beleidsregels gebruiken om automatisch doorsturen naar externe geadresseerden te beheren. Zie voor meer informatie [het artikel automatisch doorsturen van externe e-mail in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/external-email-forwarding?view=o365-worldwide#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls).
 
   
 ## <a name="configure-email-forwarding"></a>Doorsturen van e‑mail configureren
@@ -102,5 +105,6 @@ U kunt deze stappen alleen uitvoeren als u een Exchange-beheerder of globale beh
      U kunt ook [een distributiegroep maken](../setup/create-distribution-lists.md)in het Beheercentrum, [de adressen toevoegen aan](add-user-or-contact-to-distribution-list.md)de groep en vervolgens doorsturen instellen zodat ze verwijzen naar de DL met behulp van de instructies in dit artikel.
     
 5. Verwijder niet het account van de gebruiker van wie u e-mail wilt doorsturen of verwijderen.  Als u dat doet, wordt het doorsturen van e-mail gestopt. 
+
 
 ::: moniker-end 

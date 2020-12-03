@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u de lijst Portal kunt gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders in Microsoft 365.
-ms.openlocfilehash: 637b610d0dd621e6d922d23354aead8e3824ad6a
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: f4e7bcc13ac6c133880eb0ebe69ba3f724d0a84e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445529"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561421"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>De delist-portal gebruiken om jezelf uit de lijst met geblokkeerde afzenders te verwijderen
 
@@ -39,13 +39,13 @@ Microsoft gebruikt de lijst met geblokkeerde afzenders om klanten tegen spam, sp
 
 U weet dat u bent toegevoegd aan de lijst wanneer u een antwoord ontvangt voor een e-mailbericht met een foutmelding die er ongeveer als volgt uitziet:
 
-> 550 5.7.606-649 toegang geweigerd, weigering IP [_IP Address_]; Als u het verwijderen van deze lijst wilt aanvragen, gaat u https://sender.office.com/ verder met de instructies. Zie [rapporten over niet-uitgevoerde bezorging van e-mail in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)voor meer informatie.
+> 550 5.7.606-649 toegang geweigerd, weigering IP [_IP Address_]; Als u het verwijderen van deze lijst wilt aanvragen, gaat u <https://sender.office.com/> verder met de instructies. Zie [rapporten over niet-uitgevoerde bezorging van e-mail in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)voor meer informatie.
 
 waarbij  _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt uitgevoerd.
 
 ### <a name="to-use-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>U kunt als volgt de lijst met geblokkeerde afzenders gebruiken om de portal te verwijderen
 
-1. Ga in een webbrowser naar [https://sender.office.com](https://sender.office.com) .
+1. Ga in een webbrowser naar <https://sender.office.com> .
 
 2. Volg de instructies op de pagina. Zorg ervoor dat u het e-mailadres gebruikt waarnaar het foutbericht is verzonden en het IP-adres dat is opgegeven in het foutbericht. U kunt slechts één e-mailadres en één IP-adres per bezoek invoeren.
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 description: Beheerders kunnen informatie lezen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe u deze voor uw organisatie gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d80e81ab5648d186bb72f29acc010442877aba7c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 98a20c8805ff9eb735ca880cfc24a0acf9698b3e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356677"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561199"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -71,7 +71,7 @@ Als u het beleid voor Defender voor Office 365 wilt configureren, moet u beschik
 |Beheer van organisatie van Exchange Online|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>en<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |
 
-Zie [machtigingen in het beveiligings &amp; centrum](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
+Zie voor meer informatie [machtigingen in de beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="before-you-begin-turn-on-audit-logging-for-reporting-and-investigation"></a>Voordat u begint, schakelt u audit logboekregistratie voor rapportage en onderzoek in
 

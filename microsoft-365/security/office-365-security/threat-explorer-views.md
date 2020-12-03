@@ -14,14 +14,14 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Lees meer over het gebruik van bedreigings Verkenner en het rapport realtime detectie om bedreigingen te onderzoeken en te beantwoorden in het Security &amp; compliance Center.
+description: Lees meer over het gebruik van bedreigings Verkenner en het rapport realtime detectie om bedreigingen te onderzoeken en te beantwoorden in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9412350384c0b2092c376db371e93fa5295c454
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 551425bf3e6b2c4fbb429dd6698b4f85e30d1ebe
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367187"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561229"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in de bedreigings Verkenner en de real-time detectie
 
@@ -30,7 +30,7 @@ ms.locfileid: "49367187"
 
 ![Bedreigingsverkenner](../../media/ThreatExplorerFirstOpened.png)
 
-[Threat Explorer](threat-explorer.md) (en het rapport realtime detectie) is een krachtig hulpmiddel in het nabije realtime-hulpmiddel om beveiligingsactiviteiten teams te helpen bij het onderzoeken en beantwoorden van bedreigingen in het beveiligings &amp; centrum. Explorer (en het rapport realtime detectie) bevat informatie over verdachte malware en phishing in e-mail en in bestanden in Office 365, evenals andere beveiligingsrisico's en risico's voor uw organisatie.
+[Threat Explorer](threat-explorer.md) (en het rapport realtime detectie) is een krachtig, bijna vrijwel krachtig hulpmiddel om beveiligingsactiviteiten teams te helpen bij het onderzoeken en beantwoorden van bedreigingen in de beveiligings & nalevings centrum. Explorer (en het rapport realtime detectie) bevat informatie over verdachte malware en phishing in e-mail en in bestanden in Office 365, evenals andere beveiligingsrisico's en risico's voor uw organisatie.
 
 - Als u [Microsoft Defender voor Office 365](office-365-atp.md) abonnement 2 hebt, dan hebt u Explorer.
 - Als u Microsoft Defender voor Office 365 abonnement 1 hebt, hebt u realtime detecties.

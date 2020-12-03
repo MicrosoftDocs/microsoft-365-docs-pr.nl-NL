@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Basis mobiliteit en beveiliging maken deel uit van de Microsoft 365-abonnementen.
-ms.openlocfilehash: b9568d0aad03fc3c8a5c81d02f98f5b238124a82
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: 8724b3dccbdb5949190ceda4b804b9f1f2a5d4b2
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930163"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561493"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>Kiezen tussen basis mobiliteit en beveiliging of intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "48930163"
  
 Zowel eenvoudige mobiliteit als beveiliging en intune zijn opgenomen in diverse plannen, zoals in de volgende tabel wordt beschreven.
 
-|**Plannen**|**Basis mobiliteit en beveiliging**|**Microsoft Intune**|
+| Plan | Basis mobiliteit en beveiliging | Microsoft Intune |
 |:-----|:-----|:-----|
 |Microsoft 365-apps|Ja|Nee|
 |Microsoft 365 Business Basic|Ja|Nee|
@@ -64,11 +64,11 @@ Microsoft intune en ingebouwde basis mobiliteit en beveiliging bieden u de mogel
 >[!NOTE]
 >U kunt gebruikers en hun mobiele apparaten beheren met zowel intune als basis mobiliteit en beveiliging in dezelfde Microsoft 365 Business Standard-organisatie *door eerst basis mobiliteit en beveiliging in te stellen en vervolgens Microsoft intune toe te voegen*. Hiermee kunt u eenvoudige mobiliteit en beveiliging kiezen, of de functie meer-rijke intune-oplossingen. Wijs een intune-licentie toe als u de intune-functies wilt inschakelen.
 
-|**Functiegebied**|**Kenmerken van functies**|**Basis mobiliteit en beveiliging**|**Microsoft Intune**|
+| Functiegebied | Kenmerken van functies | Basis mobiliteit en beveiliging | Microsoft Intune |
 |:-----|:-----|:-----|:-----|
 |Apparaattypen|Het beheren van diverse varianten van OS en belangrijkste beheermodus. |Windows<br/>Apparaten<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>Apparaten<br/>Android<br/>Android Samsung KNOX<br/>Mac OS, iPad OS|
 |Apparaatcompatibiliteit|Stel beveiligingsbeleid in en beheer dit, zoals pincode vergrendeling op apparaatniveau en detectie van jailbreak. |Beperkingen voor Android 9 en latere apparaten. [Details](capabilities.md)weergeven. |Ja|
-|Voorwaardelijke toegang op basis van apparaatcompatibiliteit |Voorkomen dat niet-compatibele apparaten toegang hebben tot zakelijke e-mail en-gegevens vanuit de Cloud. |Niet ondersteund in Windows 10.<br/>Beperkt tot het beheren van de toegang tot Exchange Online, SharePoint Online en Outlook. |Nee |
+|Voorwaardelijke toegang op basis van apparaatcompatibiliteit |Voorkomen dat niet-compatibele apparaten toegang hebben tot zakelijke e-mail en-gegevens vanuit de Cloud. |Niet ondersteund in Windows 10.<br/>Beperkt tot het beheren van de toegang tot Exchange Online, SharePoint Online en Outlook. |Ja |
 |Apparaatconfiguratie  |Instellingen configureren voor apparaten (bijvoorbeeld de camera uitschakelen)|Apparaatcompatibiliteit|Stel beveiligingsbeleid in en beheer dit, zoals pincode vergrendeling op apparaatniveau en detectie van jailbreak. |Beperkingen voor Android 9 en latere apparaten. [Details](capabilities.md)weergeven. |Ja|
  |Beperkte set instellingen. |Ja|
 |E-mail profielen  |Het inrichten van een systeemeigen e-mail profiel op het apparaat. |Ja|Ja|

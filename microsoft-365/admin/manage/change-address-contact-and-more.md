@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Meer informatie over het aanbrengen van wijzigingen in uw organisatieprofiel, zoals de naam van de organisatie, het adres, het telefoonnummer, de technische contactpersoon en het e-mailbericht.
-ms.openlocfilehash: 17202bb35e6d5e7d40b135f65467aef111aad070
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 19769c827284000e1ad0e86e3666d9980322b6a9
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645105"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49560850"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Het adres en de technische contactpersoon van uw organisatie en meer wijzigen
 
@@ -73,14 +73,15 @@ Als beheerder kunt u het alternatieve e-mailadres voor het opnieuw instellen van
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>.
 
-2. Selecteer uw profiel pictogram in de koptekst en selecteer **Mijn account**.
+2. Selecteer uw profiel pictogram in de koptekst en selecteer vervolgens **account weergeven**.
 
-3. Selecteer aan de linkerkant **persoonlijke gegevens**.
+3. Selecteer aan de linkerkant **beveiligingsgegevens**.
 
-4. Selecteer **bewerken**op de kaart **Details van contact persoon** .
+4. Selecteer in de sectie E-mail de optie **wijzigen**
 
-5. Bewerk het adres in het vak **alternatief e-mail** adres en selecteer vervolgens **Opslaan**.
+5. Bewerk het adres in het vak **alternatief e-mail** adres en selecteer **volgende**.
 
+6. Voer de code in die naar het alternatieve e-mailadres is verzonden en selecteer **OK** om de wijziging te bevestigen.
 Zie [uw voorkeuren voor contact wijzigen](change-contact-preferences.md) of [de weergavetaal wijzigen](https://support.microsoft.com/office/6f238bff-5252-441e-b32b-655d5d85d15b.aspx)voor meer informatie over het wijzigen van andere profielgegevens.
   
 ### <a name="email-signatures"></a>E-mailhandtekeningen

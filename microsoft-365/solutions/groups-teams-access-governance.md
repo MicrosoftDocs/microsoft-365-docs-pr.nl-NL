@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over het beheren van toegang in Microsoft 365 groepen, teams en SharePoint.
-ms.openlocfilehash: ec4e62f4d77b9aadbdc7457631ac1c4b498221c3
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 2a3a5a126a340a8ec1036eaebd22a0a0a81cf6c3
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377567"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558220"
 ---
 # <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Toegang in Microsoft 365 groepen, teams en SharePoint beheren
 
@@ -35,10 +35,10 @@ De volgende tabel bevat een beknopt overzicht van de beschikbare besturingseleme
 ||Dynamisch groepslidmaatschap op basis van regels|[Een dynamische groep maken of bijwerken in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)|
 ||Bepalen wie bestanden, mappen en sites kan delen.|[Toegangsaanvragen instellen en beheren](https://support.microsoft.com/office/94b26e0b-2822-49d4-929a-8455698654b3)|
 |Voorwaardelijke toegang|||
-||Meervoudige verificatie|[Azure multi-factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)|
+||Meervoudige verificatie|[Multi-factor Authentication in azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)|
 ||De toegang tot uw apparaat beheren op basis van de gevoeligheid van een groep, team of site.|[De beschikbaarheid van labels gebruiken om inhoud te beschermen in Microsoft teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)|
 ||Toegang tot de site beperken voor niet-beheerde apparaten.|[Toegang tot SharePoint beheren vanaf niet-beheerde apparaten](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)|
-||Toegang tot een site beheren op basis van locatie|[Toegang tot SharePoint-en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)|
+||Toegang tot een site beheren op basis van locatie|[Toegang tot SharePoint en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)|
 |Gasttoegang|||
 ||Delen van SharePoint in opgegeven domeinen toestaan of blokkeren.|[Delen van SharePoint-en OneDrive-inhoud beperken per domein](https://docs.microsoft.com/sharepoint/restricted-domains-sharing)|
 ||Groepslidmaatschappen van bepaalde domeinen toestaan of blokkeren.|[Uitnodigingen voor B2B-gebruikers in bepaalde organisaties toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)|
@@ -73,7 +73,7 @@ SharePoint-sites bieden de mogelijkheid om eigenaren, leden en bezoekers van een
 
 Met Microsoft 365 kunt u meervoudige verificatie vereisen voor personen binnen en buiten uw organisatie. Er zijn veel opties voor de omstandigheden waarin u wordt gevraagd om een tweede verificatie factor. U wordt ten zeerste aangeraden verificatie met meerdere factoren te implementeren voor uw organisatie:
 
-- [Azure multi-factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)
+- [Multi-factor Authentication in azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)
 
 Als u vertrouwelijke informatie hebt in sommige van uw groepen en teams, kunt u beleidsregels voor Apparaatbeheer afdwingen op basis van het gevoeligheids label van een groep of een team. U kunt Access helemaal blokkeren vanaf niet-beheerde apparaten of alleen beperkte toegang tot Internet toestaan:
 
@@ -81,7 +81,7 @@ Als u vertrouwelijke informatie hebt in sommige van uw groepen en teams, kunt u 
 
 In SharePoint kunt u de toegang tot sites beperken vanaf opgegeven netwerklocaties.
 
-- [Toegang tot SharePoint-en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
+- [Toegang tot SharePoint en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
 
 
 Aanvullende informatiebronnen:

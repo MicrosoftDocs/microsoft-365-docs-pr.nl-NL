@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: aanvullende algemene informatie over services wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 6fa09165f8aaa68e0f9fc567d96a4e53baaa594e
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 93692200f2519dbc647bb4e81b4bd8c646815858
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551780"
+ms.locfileid: "49558428"
 ---
 # <a name="additional-general-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende algemene informatie over de migratie van Microsoft Cloud Deutschland
 
@@ -49,14 +49,14 @@ Er zijn drie voorwaarden voor het bijwerken van uw aanmeldings autoriteit:
 
 Een toepassing kan een van de volgende oorzaken hebben:
 
-- App voor één pagina (SPA)
-- Web-app die zich aanmeldt bij gebruikers
-- Web-app waarmee u Web-Api's aanroept
-- Beveiligde web-API
-- Web-API waarmee Web-Api's worden aangeroepen
-- Bureaublad-app
-- Daemon-app
-- Mobiele app
+- [App voor één pagina (SPA)](https://docs.microsoft.com/azure/active-directory/develop/scenario-spa-overview)
+- [Web-app die zich aanmeldt bij gebruikers](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-sign-user-overview)
+- [Web-app waarmee u Web-Api's aanroept](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-call-api-overview)
+- [Beveiligde web-API](https://docs.microsoft.com/azure/active-directory/develop/scenario-protected-web-api-overview)
+- [Web-API waarmee Web-Api's worden aangeroepen](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-api-call-api-overview)
+- [Bureaublad-app](https://docs.microsoft.com/azure/active-directory/develop/scenario-desktop-overview)
+- [Daemon-app](https://docs.microsoft.com/azure/active-directory/develop/scenario-daemon-overview)
+- [Mobiele app](https://docs.microsoft.com/azure/active-directory/develop/scenario-mobile-overview)
  
 > [!NOTE] 
 > Wanneer een toepassing overschakelt naar `login.microsoftonline.com` het gebruik van de autoriteit, worden de tokens ondertekend door deze nieuwe instantie. Als u bronnen toepassingen host die andere apps bellen, moet u de validatie van Lax-tokens toestaan. Dit betekent dat de app tokens moet toestaan die zijn ondertekend met de Clouds van Azure AD Duitsland en Azure AD. Deze Lax-token validatie is vereist totdat alle clienttoepassingen die uw serviceoproepen, volledig zijn gemigreerd naar de openbare Azure AD-Cloud. Na de migratie hoeft de brontoepassing alleen tokens te accepteren die zijn ondertekend met de openbare Azure AD-Cloud.
@@ -76,10 +76,10 @@ Een toepassing kan een van de volgende oorzaken hebben:
 
 5. U kunt als volgt Omgevings parameters bijwerken voor `AzurePublic` (in plaats van `AzureGermany` ) in beheerprogramma's en scripts voor:
 
-    - Azure PowerShell
-    - Azure AD PowerShell (MSOnline)
-    - Azure AD PowerShell (AzureAD)
-    - Azure CLI
+    - [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.8.0&viewFallbackFrom=azurermps-5.6.0)
+    - [Azure AD PowerShell (MSOnline)](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    - [Azure AD PowerShell (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+    - [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)
  
 **Hoe zit het met toepassingen die ik publiceer?**
 

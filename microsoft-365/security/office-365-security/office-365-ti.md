@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het onderzoek en de antwoord mogelijkheden in Microsoft Defender for Office 365-abonnement.
-ms.openlocfilehash: 6dba883a910306b548f1880be00ad45207da27dd
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7ae61e7ea70d8be5c31ec12443c8943f6e54bcf4
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845790"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561253"
 ---
 # <a name="threat-investigation-and-response"></a>Threat onderzoek en-antwoord
 
@@ -33,12 +33,13 @@ ms.locfileid: "48845790"
 
 
 Met behulp van bedreigingen voor onderzoek en antwoorden in [Microsoft Defender voor Office 365](office-365-atp.md) kunt u beveiligings analisten en beheerders beschermen tegen gebruikers van de organisatie microsoft 365 voor bedrijven door:
+
 - Het identificeren, controleren en begrijpen van cyberattacks
 - U kunt snel bedreigingen in Exchange Online, SharePoint Online, OneDrive voor bedrijven en Microsoft teams oplossen
 - Het verschaffen van inzichten en kennis bij het voorkomen van cyberattacks bij hun organisatie
 - [Geautomatiseerd onderzoek en antwoord in Office 365](automated-investigation-response-office.md) gebruiken voor cruciale bedreigingen op basis van e-mail
-    
-Functies voor onderzoek en reacties van bedreigingen bieden inzicht in bedreigingen en gerelateerde antwoord acties die beschikbaar zijn in het beveiligings &amp; compliance Center. Met deze inzichten kan het beveiligingsteam van uw organisatie gebruikers beschermen tegen een aanval via e-mail of op basis van een bestand. Met de functies kunt u signalen bijhouden en gegevens uit verschillende bronnen verzamelen, zoals gebruikersactiviteit, verificatie, e-mail, gemanipuleerde Pc's en beveiligingsincidenten. Besluitvormers en uw beveiligingsteam van uw bedrijf kunnen deze informatie gebruiken om de bedreigingen tegen uw organisatie te begrijpen en te beantwoorden en uw intellectuele eigendom te beschermen.
+
+Functies voor onderzoek en reacties van bedreigingen bieden inzicht in bedreigingen en gerelateerde antwoord acties die beschikbaar zijn in het beveiligings & nalevings centrum. Met deze inzichten kan het beveiligingsteam van uw organisatie gebruikers beschermen tegen een aanval via e-mail of op basis van een bestand. Met de functies kunt u signalen bijhouden en gegevens uit verschillende bronnen verzamelen, zoals gebruikersactiviteit, verificatie, e-mail, gemanipuleerde Pc's en beveiligingsincidenten. Besluitvormers en uw beveiligingsteam van uw bedrijf kunnen deze informatie gebruiken om de bedreigingen tegen uw organisatie te begrijpen en te beantwoorden en uw intellectuele eigendom te beschermen.
 
 ## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>Vertrouwd raken met de hulpmiddelen voor het onderzoek en de reactie van een bedreiging
 
@@ -53,19 +54,19 @@ Het gebied voor onderzoek van bedreigingen en antwoord mogelijkheden in het beve
 ### <a name="threat-dashboard"></a>Threat dashboard
 
 Gebruik het bedreigings dashboard (dit wordt ook wel het [beveiligings dashboard](security-dashboard.md)genoemd) om snel te zien welke bedreigingen zijn geadresseerd, en u kunt een visuele manier melden aan de professionele besluitvorming hoe microsoft 365-Services uw bedrijf beschermen.
-  
+
 ![Threat dashboard](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
-  
-Als u dit dashboard wilt weergeven en gebruiken, gaat u naar het beveiligings &amp; compliance-dashboard en gaat u naar het hulpmiddel **Threat Management** \> **Dashboard**.
-  
+
+Als u dit dashboard wilt weergeven en gebruiken, gaat u naar het beveiligings **Threat management** & nalevings centrum en gaat u naar \> **Dashboard** voor risicobeheer.
+
 ### <a name="threat-explorer"></a>Bedreigingsverkenner
 
 Met behulp van [bedreigings Verkenner (en realtime-detectie)](threat-explorer.md) voor het analyseren van bedreigingen, raadpleegt u het volume van aanvallen gedurende een periode en analyseert u de gegevens per bedreigings familie, infrastructuur van kwaadwillenden en meer. De Threat Explorer (ook wel ook wel Explorer genoemd) is het beginpunt voor de onderzoek werkstroom van een beveiligings analist.
 
 ![Bedreigings Verkenner](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
-  
-Als u dit rapport wilt weergeven en gebruiken, &amp; gaat u naar het Beveiligingscentrum voor **Threat Management** \> **Explorer**.
-  
+
+Als u dit rapport wilt weergeven en gebruiken, **gaat u naar** het beveiligings & compliance Center \> **Explorer**.
+
 ### <a name="incidents"></a>Incidenten
 
 Gebruik de lijst met incidenten (dit wordt ook wel onderzoek genoemd) om een lijst weer te geven met een overzicht van de beveiligingsincidenten van de vlucht. Incidenten worden gebruikt om bedreigingen zoals verdachte e-mailberichten bij te houden en verder onderzoek en herstel te doen.
@@ -101,7 +102,7 @@ Microsoft Defender voor Office 365 maakt gebruik van rollend toegangsbeheer op b
 > [!TIP]
 > Hoewel sommige rollen, zoals beveiligingsbeheerder, in het beveiligings & nalevings centrum kunnen worden toegewezen, kunt u het beste het Microsoft 365-Beheercentrum of Azure Active Directory gebruiken. Raadpleeg de volgende bronnen voor meer informatie over rollen, rollen groepen en machtigingen:
 >
-> - [Machtigingen in het beveiligings &amp; Conformiteitscentrum](permissions-in-the-security-and-compliance-center.md)
+> - [Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)
 >
 > - [Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 

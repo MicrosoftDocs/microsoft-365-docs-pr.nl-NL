@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-overview
-ms.openlocfilehash: 993dd1ed66ca5bc6635c0eadf2dc7345ab84b57d
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 0144e9478e74e252e0c4ccc0c902df376129c388
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356917"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558284"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -110,7 +110,7 @@ Azure AD biedt een volledige suite met mogelijkheden voor identiteitsbeheer. We 
 
 |Functie|Beschrijving|Licenties|
 |---|---|---|
-|[Multi-factor Authentication (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks)|Voor MFA moeten gebruikers twee soorten verificatie bieden, zoals een gebruikerswachtwoord plus een melding van de Microsoft Authenticator-app of een telefoongesprek. MFA reduceert sterk het risico dat gestolen referenties kunnen worden gebruikt om toegang te krijgen tot uw omgeving. Microsoft 365 maakt gebruik van de Azure multi-factor Authentication Service voor op MFA gebaseerde aanmeldinformatie.|Microsoft 365 E3 of E5|
+|[Multi-factor Authentication (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks)|Voor MFA moeten gebruikers twee soorten verificatie bieden, zoals een gebruikerswachtwoord plus een melding van de Microsoft Authenticator-app of een telefoongesprek. MFA reduceert sterk het risico dat gestolen referenties kunnen worden gebruikt om toegang te krijgen tot uw omgeving. Microsoft 365 gebruikt de service Azure AD multi-factor Authentication voor op MFA gebaseerde aanmeldinformatie.|Microsoft 365 E3 of E5|
 |[Voorwaardelijke toegang](/azure/active-directory/conditional-access/overview)|Azure AD evalueert de voorwaarden van de gebruikersaanmelding en gebruikt voorwaardelijke toegangsbeleid om te bepalen welke toegang is toegestaan. In deze richtlijnen wordt uitgelegd hoe u een voorwaardelijk toegangsbeleid moet maken om de naleving van een apparaat te vereisen voor toegang tot gevoelige gegevens. Hierdoor wordt het risico voor hackers met hun eigen apparaat en gestolen referenties sterk beperkt. De bescherming beschermt ook gevoelige informatie op de apparaten, aangezien de apparaten moeten voldoen aan specifieke vereisten voor de gezondheid en beveiliging.|Microsoft 365 E3 of E5|
 |[Azure AD-groepen](/azure/active-directory/fundamentals/active-directory-manage-groups)|Beleidsregels voor voorwaardelijke toegang en Apparaatbeheer met intune en zelfs machtigingen voor bestanden en sites in uw organisatie afhankelijk van de toewijzing aan gebruikersaccounts of Azure AD-groepen. We raden u aan om Azure AD-groepen te maken die overeenkomen met het niveau van bescherming dat u implementeert. Uw personeelsleden hebben bijvoorbeeld waarschijnlijk een hogere waarde voor de doelwit van hackers. Daarom is het verstandig om de gebruikersaccounts van deze werknemers toe te voegen aan een Azure AD-groep en deze groep toe te wijzen aan het beleid voor voorwaardelijke toegang en andere beleidsregels die een hoger beschermingsniveau voor Access afdwingen.|Microsoft 365 E3 of E5|
 |[Apparaatregistratie](/azure/active-directory/devices/overview)|U registreert een apparaat in azure AD om een identiteit voor het apparaat te maken. Deze identiteit wordt gebruikt om het apparaat te verifiëren wanneer een gebruiker zich aanmeldt en voorwaardelijke Access-beleidsregels toe te passen waarvoor domein-of compatibele Pc's zijn vereist. Voor deze richtlijnen gebruiken we de registratie van het apparaat voor het automatisch registreren van Windows-computers die lid zijn van het domein. Registratie van apparaten is een vereiste voor het beheren van apparaten met intune.|Microsoft 365 E3 of E5|

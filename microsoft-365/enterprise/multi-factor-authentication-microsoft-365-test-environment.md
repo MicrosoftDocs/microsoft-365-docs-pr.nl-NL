@@ -16,18 +16,18 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 description: Configureer multi-factor Authentication met behulp van SMS-berichten die zijn verzonden naar een smartphone in uw Microsoft 365 voor Enterprise test environment.
-ms.openlocfilehash: f41fe7ad933f85c4b44a1e90529a998651412191
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 4c59405c1ce59cafaf0309e2314e5cbfa4eb080a
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487138"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558440"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-for-enterprise-test-environment"></a>Meervoudige verificatie voor uw Microsoft 365 voor Enterprise testomgeving
 
 *U kunt deze test lab-handleiding gebruiken voor zowel Microsoft 365 voor Enterprise als Office 365 Enterprise test omgevingen.*
 
-Voor een extra beveiligingsniveau voor het aanmelden bij Microsoft 365 of een willekeurige service of toepassing die de Azure AD-Tenant voor uw abonnement gebruikt, kunt u gebruikmaken van Azure multi-factor Authentication, waarvoor meer dan alleen een gebruikersnaam en wachtwoord voor de verificatie van een account is vereist.
+Voor een extra beveiligingsniveau voor het aanmelden bij Microsoft 365 of een willekeurige service of toepassing die de Azure AD-Tenant voor uw abonnement gebruikt, kunt u de multi-factor Authentication van Azure AD inschakelen, waarvoor meer dan alleen een gebruikersnaam en wachtwoord vereist zijn
 
 Met authenticatie via meerdere factoren zijn gebruikers verplicht een telefoongesprek te erkennen, typt u een verificatiecode die u in een SMS-bericht ontvangt, of controleert u de verificatie met een app op de smartphone nadat de juiste wachtwoorden zijn ingevoerd. Ze kunnen zich alleen aanmelden nadat aan deze tweede verificatie factor is voldaan.
   
@@ -58,17 +58,17 @@ Schakel meervoudige verificatie in voor de gebruiker 2-account door deze stappen
   
 1. Open een afzonderlijke, persoonlijke versie van uw browser, ga naar het Microsoft 365-Beheercentrum ( [https://portal.microsoft.com](https://portal.microsoft.com) ) en meld u aan met uw globale beheerdersaccount.
     
-2. Selecteer **gebruikers**  >  **actieve gebruikers**in het linker navigatie.
+2. Selecteer **gebruikers**  >  **actieve gebruikers** in het linker navigatie.
     
 3. Selecteer in het deelvenster actieve gebruikers **Meervoudige verificatie**.
     
 4. Selecteer in de lijst de account **gebruiker 2** .
     
-5. Selecteer in de sectie **User 2** onder **snelle stappen**de optie **inschakelen**.
+5. Selecteer in de sectie **User 2** onder **snelle stappen** de optie **inschakelen**.
     
 6. Selecteer in het dialoogvenster **voor het inschakelen van multi-factor Authentication** de optie **multi-factor Authentication inschakelen**.
     
-7. Selecteer **sluiten**in het dialoogvenster **updates voltooid** .
+7. Selecteer **sluiten** in het dialoogvenster **updates voltooid** .
     
 8. Selecteer op het tabblad **Microsoft 365-Beheercentrum** het pictogram voor het gebruikersaccount in de rechterbovenhoek en selecteer **Afmelden**.
     
@@ -94,7 +94,7 @@ Voltooi de configuratie van de gebruiker 2-account om een tekstbericht te valide
     
 6. Voer de verificatiecode in van het SMS-bericht dat op uw smartphone is ontvangen en selecteer vervolgens **verifiëren**.
     
-7. Selecteer **gereed**op de pagina **stap 3: de bestaande toepassingen bewaren** .
+7. Selecteer **gereed** op de pagina **stap 3: de bestaande toepassingen bewaren** .
     
 8. Als dit de eerste keer is dat u zich aanmeldt met het account van de gebruiker 2, wordt u gevraagd het wachtwoord te wijzigen. Voer het oorspronkelijke wachtwoord en een nieuw wachtwoord twee keer in en selecteer vervolgens **wachtwoord bijwerken en meld u aan**. Neem het nieuwe wachtwoord op een veilige locatie op.
     
@@ -110,25 +110,25 @@ Vervolgens maakt u een nieuwe groep met de naam MFAUsers en voegt u de gebruiker
 
 1. Ga naar het tabblad **Microsoft 365-Beheercentrum** , selecteer **groepen** in het linker navigatieonderdeel en selecteer **groepen**.
 2. Selecteer **een groep toevoegen**.
-3. Selecteer in het deelvenster **een groepstype kiezen** de optie **beveiliging**en selecteer vervolgens **volgende**.
-4. Selecteer **groep maken**in het deelvenster **basisbeginselen instellen** en selecteer vervolgens **sluiten**.
-5. Voer in het deelvenster **groep toevoegen en voltooien** **MFAUsers**in en selecteer vervolgens **volgende**.
+3. Selecteer in het deelvenster **een groepstype kiezen** de optie **beveiliging** en selecteer vervolgens **volgende**.
+4. Selecteer **groep maken** in het deelvenster **basisbeginselen instellen** en selecteer vervolgens **sluiten**.
+5. Voer in het deelvenster **groep toevoegen en voltooien** **MFAUsers** in en selecteer vervolgens **volgende**.
 6. Selecteer in de lijst met groepen de groep **MFAUsers** .
-7. Selecteer **leden**in het **MFAUsers** -deelvenster en selecteer vervolgens **AllesWeergeven en leden beheren**.
-8. Selecteer **leden toevoegen**in het deelvenster **MFAUsers** , selecteer het account van de **gebruiker 3** **en selecteer vervolgens sluiten**  >  **sluiten**  >  **Close**.
+7. Selecteer **leden** in het **MFAUsers** -deelvenster en selecteer vervolgens **AllesWeergeven en leden beheren**.
+8. Selecteer **leden toevoegen** in het deelvenster **MFAUsers** , selecteer het account van de **gebruiker 3** **en selecteer vervolgens sluiten**  >  **sluiten**  >  **Close**.
 
 Vervolgens maakt u een voorwaardelijk toegangsbeleid voor de verificatie van meervoudige authenticatie voor leden van de groep MFAUsers.
 
 1. Ga op een nieuw tabblad van uw browser naar [https://portal.azure.com](https://portal.azure.com) .
 2. Selecteer voorwaardelijke toegang van **Azure Active Directory**-  >  **beveiliging**  >  **Conditional Access**.
-3. Selecteer in het deelvenster **voorwaardelijke toegang – beleidsregels** de optie **nieuwe beleids**optie.
+3. Selecteer in het deelvenster **voorwaardelijke toegang – beleidsregels** de optie **nieuwe beleids** optie.
 4. Voer in het **nieuwe** deelvenster **MFA in voor gebruikersaccounts** in het vak **naam** .
 5. Selecteer in de sectie **opdrachten** de optie **gebruikers en groepen**.
 6. Selecteer op het tabblad **opnemen** van het deelvenster **gebruikers en groepen** de optie **gebruikers en groepen**  >  **gebruikers en groepen**  >  **selecteren**.
-7. In het **selectie** deelvenster selecteert u de groep **MFAUsers** **en selecteert u**vervolgens  >  **gereed**.
+7. In het **selectie** deelvenster selecteert u de groep **MFAUsers** **en selecteert u** vervolgens  >  **gereed**.
 8. Selecteer in de sectie **Access-besturingselementen** van het **nieuwe** deelvenster de optie **verlenen**.
-9. Selecteer in het deelvenster **verlenen** de optie **Meervoudige verificatie vereisen**en selecteer vervolgens **selecteren**.
-10. Selecteer **in het** deelvenster **Nieuw** de optie inschakelen voor **beleidsinstelling**en selecteer **maken**.
+9. Selecteer in het deelvenster **verlenen** de optie **Meervoudige verificatie vereisen** en selecteer vervolgens **selecteren**.
+10. Selecteer **in het** deelvenster **Nieuw** de optie inschakelen voor **beleidsinstelling** en selecteer **maken**.
 11. Sluit de tabbladen **Azure Portal** en **Microsoft 365-Beheercentrum** .
 
 Als u dit beleid wilt testen, meldt u zich af en meldt u zich aan met het account van de gebruiker 3. U wordt gevraagd MFA te configureren. Dit demonstreert het toepassen van het MFAUsers-beleid.

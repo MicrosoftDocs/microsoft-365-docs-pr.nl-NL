@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Meer informatie over hoe u uw bedrijf kunt overzetten naar Microsoft 365 Business Premium van Office 365 E3.
-ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: eebf78c24ed4bfd1a4fc2d843f37aebbe3d35e31
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842155"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558247"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium 
 
@@ -53,7 +53,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Off
 | **Bedreigingsbeveiliging**        | | | 
 | Abonnement 1 voor Office 365 | ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
 | **Identiteitsbeheer**        | | | 
-| Selfservice voor wachtwoordherstel voor hybride Azure Active Directory-accounts (Azure AD), Azure multi-factor Authentication (MFA), voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises id's|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
+| Selfservice voor wachtwoordherstel voor hybride Azure Active Directory-accounts (Azure AD), Azure AD multi-factor Authentication (MFA), voorwaardelijke toegang, wachtwoord terugschrijven voor on-premises id's|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
 | **Apparaten en apps beheren**        | | |
 | Microsoft intune, Windows auto pilot|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | Gedeelde computeractivering|     ![Inbegrepen in Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen in Office 365 E3](../media/check-mark.png)| 

@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2af301fcac2f02a415972f8bf7857fa7b6ee0c1e
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 2cca4850227716fe5f7d7d21f3220b46e9761420
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919830"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561181"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Beheerde bureaublad apparaten van Microsoft 
 
@@ -37,16 +37,16 @@ De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt o
 
 | Model    | Minimum specificaties  | Aanvullende vereisten   | Archiefdatum   | Datum van pensionering   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| _ *\* [Dell Precision 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022  | Donderdag 28 april 2025 |
-| **\*[Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022 | Donderdag 28 april 2025  |
-| **\*[Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022 | Donderdag 28 april 2025 |
-| **\*[Dell Latitude 7310/7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | 4 mei 2022  | 4 mei 2025  |
+| [Dell Precision 5310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-5310-2-in-1-business-laptop/spd/latitude-13-5310-2-in-1-laptop) | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022  | Donderdag 28 april 2025 |
+| [Dell Latitude 5410](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-5410-business-laptop/spd/latitude-14-5410-laptop) | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022 | Donderdag 28 april 2025  |
+| [Dell Latitude 5510](https://www.dell.com/en-us/work/shop/laptops/15-5510/spd/latitude-15-5510-laptop)_ * | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | Donderdag 28 april 2022 | Donderdag 28 april 2025 |
+| [Dell Latitude 7310/7310 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/latitude-7310-business-laptop-or-2-in-1/spd/latitude-13-7310-2-in-1-laptop) | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | 4 mei 2022  | 4 mei 2025  |
 | [Dell Latitude 7410/7410 2-in-1](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-7410-business-laptop-or-2-in-1/spd/latitude-14-7410-2-in-1-laptop) | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | 19 mei 2022  | 19 mei 2025  |
 | [Dell Latitude 9410 2-in-1](https://www.dell.com/en-us/work/shop/laptops/new-14-9410-2-in-1/spd/latitude-14-9410-2-in-1-laptop) | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | 5 mei 2022  | 5 mei 2025  |
-| **\*[Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop)** | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | 5 mei 2022  | 5 mei 2025  |
-| **\*[Dell OptiPlex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop)** | 128 GB/Intel i3/8 GB RAM | Geen | 27 mei 2022  | 27 mei 2025  |
-| **\*[Dell OptiPlex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio)** | 128 GB/Intel i3/8 GB RAM | Geen | 15 mei 2022  | 15 mei 2025  |
-| **\*[Dell 5550-werkstation](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop)** | 256 GB/Intel i5/8 GB RAM | Geen | 27 mei 2022  | 27 mei 2025  |
+| [Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop) | 256 GB/Intel i5/8 GB RAM | IR-camera vereist | 5 mei 2022  | 5 mei 2025  |
+| [Dell OptiPlex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | 128 GB/Intel i3/8 GB RAM | Geen | 27 mei 2022  | 27 mei 2025  |
+| [Dell OptiPlex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | 128 GB/Intel i3/8 GB RAM | Geen | 15 mei 2022  | 15 mei 2025  |
+| [Dell 5550-werkstation](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop) | 256 GB/Intel i5/8 GB RAM | Geen | 27 mei 2022  | 27 mei 2025  |
 
 ### <a name="hp"></a>HP
 
@@ -55,9 +55,10 @@ De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt o
 | [HP EliteBook 830/840/850 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-830-g7-notebook-pc-customizable-8pv71av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ21AV | 30 nov 2021 | 30 nov 2024 |
 | [HP EliteBook x360 830 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g7-notebook-pc-p-1f6c0ut-aba-1) | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ21AV | 30 nov 2021 | 30 nov 2024 |
 | [HP Elite x2 G4-Tablet](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256 GB/Intel i5/8 GB RAM | SKU met 5VS03AV | Dinsdag 31 juli 2021 | Dinsdag 31 juli 2024 |
-| [HP EliteBook x360 1030 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 GB/Intel i5/8 GB RAM | SKU met 8XW08AV | 30 augustus 2021 | 30 augustus 2024 |
-| [HP EliteBook x360 1040 G7](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1040-g7-notebook-pc-customizable-8wa57av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 8XW08AV| 30 augustus 2021 | 30 augustus 2024 |
+| [HP EliteBook x360 1030/1040 G7 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256 GB/Intel i5/8 GB RAM | SKU met 8XW08AV | 30 augustus 2021 | 30 augustus 2024 |
 | [HP Elite DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ21AV | 31 maart 2021 | 31 maart 2024 |
+| **\*[HP EliteOne 800 G6 24/27 all-in-One PC](https://store.hp.com/us/en/pdp/hp-eliteone-800-g6-all-in-one-touch-pc)** | 256/Intel i5/8 GB RAM | SKU met 9XM14AV | 30 juni 2022 | 30 juni 2025 |
+| **\*[HP EliteDesk 800 G6 desktop mini PC](https://store.hp.com/us/en/pdp/hp-elitedesk-800-g6-desktop-mini-pc#!)** | 256/Intel i5/8 GB RAM | SKU met 9XM14AV | 30 juni 2022 | 30 juni 2025 |
 | [HP Z2 mini G5-werkstation](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256 GB/Intel i5/8 GB RAM | SKU met 8QR48AV| 31 december 2021 | 31 december 2024 |
 | **\*[HP ZBook Firefly hulpmiddelen 14/15 G7 mobiel workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256 GB/Intel i5/8 GB RAM | SKU met 9MZ22AV, IR-camera vereist | 30 nov 2021 | 30 nov 2024 |
 
@@ -65,8 +66,8 @@ De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt o
 
 | Model    | Minimum specificaties  | Aanvullende vereisten   | Archiefdatum   | Datum van pensionering   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| **\*[Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab)** | 256 GB/Intel i5/8 GB RAM | Geen | 21 mei 2022 | 21 mei 2027 |
-| **\*[Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab)** | 128 GB/Intel Core M3/8 GB RAM | Geen | 21 mei 2022 | 21 mei 2027 |
+| [Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8 GB RAM | Geen | 21 mei 2022 | 21 mei 2027 |
+| [Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 GB/Intel Core M3/8 GB RAM | Geen | 21 mei 2022 | 21 mei 2027 |
 | [Surface laptop voor onderweg](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 GB/Intel i5/8 GB RAM | Geen | 12 oktober 2022 | 12 oktober 2025 |
 | [Surface laptop 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8 GB RAM | Geen | 16 oktober 2020 | 16 oktober 2023 |
 | [Surface laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 GB/Intel i5/8 GB RAM | Geen | 22 oktober 2021 | 22 oktober 2024 |

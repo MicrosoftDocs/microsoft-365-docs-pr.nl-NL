@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over hoe u MFA moet vereisen en regels voor voorwaardelijke toegang voor Microsoft 365 voor bedrijven kunt instellen.
-ms.openlocfilehash: 5908a36f09753cd8f66169c6a67be45c748807b7
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+ms.openlocfilehash: 08a77615d6801eef52465c450c2559a9d786befb
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071499"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558272"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Meervoudige verificatie vereisen en beleid voor voorwaardelijke toegang instellen
 
@@ -45,7 +45,7 @@ Op dit moment bevat het basislijnbeleid het volgende:
     - **Verouderde verificatie blokkeren** : oudere clienttoepassingen en bepaalde nieuwe apps gebruiken geen nieuwere, veiliger, authenticatie protocollen. Met deze oudere apps kunt u beleidsregels voor voorwaardelijke toegang negeren en onbevoegd toegang krijgen tot uw omgeving. Dit beleid blokkeert de toegang vanaf clients die geen voorwaardelijke toegang ondersteunen. 
     - **MFA vereisen voor Service beheer** : hiervoor is meervoudige verificatie vereist voor de toegang tot beheerprogramma's, waaronder Azure Portal (waar u beleidsregels voor basisregels configureert). 
 
-Microsoft raadt u aan al deze basisregels voor basisregels in te schakelen. Nadat dit beleid is ingeschakeld, wordt beheerders en gebruikers gevraagd zich aan te melden voor Azure multi-factor Authentication.
+Microsoft raadt u aan al deze basisregels voor basisregels in te schakelen. Nadat dit beleid is ingeschakeld, wordt beheerders en gebruikers gevraagd zich aan te melden bij een meervoudige verificatie van Azure AD.
 
 Zie [Wat zijn basisregels voor basisregels](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)? voor meer informatie over deze beleidsregels.
 

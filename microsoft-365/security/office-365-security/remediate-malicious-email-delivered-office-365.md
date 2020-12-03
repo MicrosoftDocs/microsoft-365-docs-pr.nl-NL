@@ -14,19 +14,19 @@ search.appverid: MET150
 description: Bedreiging voor herbemiddeling
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: 5568a296697c7cdbbada333d45f498a2876603f9
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: 4adabe3e85b2bff26167bfad92a9a7fcbf24e58e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350732"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561289"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Kwaadwillende e-mailberichten herstellen die worden bezorgd in Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Herstel houdt in dat u een voorgeschreven actie neemt tegen een bedreiging. Kwaadwillende e-mailberichten die naar uw organisatie worden verzonden, kunnen worden opgeschoond door het systeem, via het automatisch opschonen van het systeem (ZAP), of door beveiligings teams via herstelacties zoals *verplaatsen naar Postvak in*, *verplaatsen naar ongewenste e-mail*, *verplaatsen naar verwijderde items*, *zacht verwijderen* of *permanent verwijderen*. Microsoft Defender voor Office 365 P2/E5 stelt beveiligings teams in staat bedreigingen te herstellen in de e-mail-en samenwerkings functionaliteit via handmatig en automatisch onderzoek.
+Herstel houdt in dat u een voorgeschreven actie neemt tegen een bedreiging. Kwaadwillende e-mailberichten die naar uw organisatie worden verzonden, kunnen worden opgeschoond door het systeem, via het automatisch wissen van 0 uur (ZAP), of door beveiligings teams via herstelacties zoals *verplaatsen naar Postvak in*, *verplaatsen naar ongewenste e-mail*, *soft delete* *verplaatsen naar verwijderde items*, *ongedaan* maken of verwijderen. Microsoft Defender voor Office 365 P2/E5 stelt beveiligings teams in staat bedreigingen te herstellen in de e-mail-en samenwerkings functionaliteit via handmatig en automatisch onderzoek.
 
 > [!NOTE]
 > Voor het herstellen van kwaadaardige e-mail hebben beveiligings teams de rol *zoeken en wissen* toegewezen. Roltoewijzing wordt uitgevoerd via machtigingen in het beveiligings-en compliance Center.

@@ -16,14 +16,14 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Meer informatie over het gebruik van de Verkenner en de real-time detectie van beveiligings &amp; compliance om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
+description: Meer informatie over het gebruik van de Verkenner en de realtime-detectie in de beveiligings & nalevings centrum om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bc137a7390961e2b6abe049aead2b238cb9d3a16
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 021810a4d64dc3a8d9089a3b7174a1b5f536745a
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021119"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561397"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -289,7 +289,7 @@ Hieronder ziet u een overzicht van de nieuwe functies.
 
 ### <a name="preview-email-header-and-download-email-body"></a>Voorbeeld van e-mailkop tekst
 
-De mogelijkheid om een voorbeeld van een e-mailbericht te bekijken en de tekst van het bericht te downloaden zijn nieuwe functies die beschikbaar zijn in de Threat Explorer Beheerders kunnen gedownloade berichtkoppen/e-mailberichten analyseren voor bedreigingen. Aangezien het downloaden van e-mailberichten de blootstelling van gegevens kan betekenen, wordt dit proces bepaald door toegangsbeheer op basis van rollen. Een nieuwe rol, *Preview* , moet worden toegevoegd aan een andere rolgroep (zoals beveiligingsactiviteiten of beveiligingsbeheerder) om de mogelijkheid om e-mailberichten te downloaden en voorbeelden van kopteksten weer te geven in de weergave alle e-mailberichten.
+De mogelijkheid om een voorbeeld van een e-mailbericht te bekijken en de tekst van het bericht te downloaden zijn nieuwe functies die beschikbaar zijn in de Threat Explorer Beheerders kunnen gedownloade berichtkoppen/e-mailberichten analyseren voor bedreigingen. Aangezien het downloaden van e-mailberichten de blootstelling van gegevens kan betekenen, wordt dit proces bepaald door toegangsbeheer op basis van rollen. Een nieuwe rol, *Preview*, moet worden toegevoegd aan een andere rolgroep (zoals beveiligingsactiviteiten of beveiligingsbeheerder) om de mogelijkheid om e-mailberichten te downloaden en voorbeelden van kopteksten weer te geven in de weergave alle e-mailberichten.
 
 Maar in de Verkenner (en realtime-detectie) worden ook nieuwe velden toegevoegd waarmee u een beter beeld kunt krijgen van de locatie van uw e-mailberichten. Onderdeel van het doel van deze wijziging is om de jacht eenvoudiger te maken voor mensen met een hoeveelheid werk, maar het resultaat van de e-mail is in één oogopslag de locatie van de problematische e-mailberichten.
 
@@ -318,13 +318,13 @@ En wat ze niet kan zien en wat ze niet kan doen:
 
 Locatie van levering toont de resultaten van beleidsregels en detecties die na levering worden uitgevoerd. Het is gekoppeld aan een bezorgings actie. Dit veld is toegevoegd om inzicht te krijgen in de actie die optreedt wanneer er een probleem met de e-mail is gevonden. Dit zijn de mogelijke waarden van de lever locatie:
 
-- **Postvak in of map** : het e-mailbericht bevindt zich in het postvak in of een map (volgens uw e-mail regels).
-- **On-premises of extern** : het postvak bestaat niet in de Cloud, maar is on-premises.
-- **Map Ongewenste e-mail** : de e-mail bevindt zich in de map Ongewenste e-mail van een gebruiker.
-- **Map Verwijderde items** : het e-mailbericht in de map Verwijderde items van een gebruiker.
-- **Quarantine** : het e-mailbericht in quarantaine, dat zich niet in het postvak van een gebruiker bevindt.
-- **Mislukt** : het e-mailadres is niet bereikbaar voor het postvak.
-- **Neergezet** : de e-mail wordt ergens in de e-mail stroom verwijderd.
+- **Postvak in of map**: het e-mailbericht bevindt zich in het postvak in of een map (volgens uw e-mail regels).
+- **On-premises of extern**: het postvak bestaat niet in de Cloud, maar is on-premises.
+- **Map Ongewenste e-mail**: de e-mail bevindt zich in de map Ongewenste e-mail van een gebruiker.
+- **Map Verwijderde items**: het e-mailbericht in de map Verwijderde items van een gebruiker.
+- **Quarantine**: het e-mailbericht in quarantaine, dat zich niet in het postvak van een gebruiker bevindt.
+- **Mislukt**: het e-mailadres is niet bereikbaar voor het postvak.
+- **Neergezet**: de e-mail wordt ergens in de e-mail stroom verwijderd.
 
 ### <a name="email-timeline"></a>E-mail tijdlijn
 
@@ -354,7 +354,7 @@ U kunt in het rapport realtime detecties de volgende keer naar dezelfde locatie 
 
 U wilt malware van de malware in een e-mail weergeven, door Microsoft 365-technologie. Als u dit wilt doen, gebruikt u de [e-mail >](threat-explorer-views.md#email--malware) weergave voor malware van Explorer (of realtime gedetecteerde).
 
-1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie** ). (In dit voorbeeld wordt Explorer gebruikt.)
+1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
 
 2. Kies in het menu **weergave** de optie **e-mail**  >  **malware**.
 
@@ -381,7 +381,7 @@ Stel dat u phishingberichten via Url's wilt weergeven in een e-mail, waaronder e
 
 Als u de Url's van de phishing in berichten en op Url's in phishingberichten wilt bekijken, gebruikt u de [e-mail > phishing-](threat-explorer-views.md#email--phish) weergave van Explorer (of realtime-detecties).
 
-1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie** ). (In dit voorbeeld wordt Explorer gebruikt.)
+1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
 
 2. Kies in het menu **weergave** de optie **e-mail**  >  **phishing**.
 
@@ -390,7 +390,7 @@ Als u de Url's van de phishing in berichten en op Url's in phishingberichten wil
 
 3. Klik op **afzender** en kies vervolgens **url's**  >  **op Verdict**.
 
-4. Selecteer een of meer opties, zoals **geblokkeerde** en **geblokkeerde overschreven** , en klik vervolgens op de knop **vernieuwen** die zich op dezelfde regel bevindt als de opties om dat filter toe te passen. (Vernieuw het browservenster niet.)
+4. Selecteer een of meer opties, zoals **geblokkeerde** en **geblokkeerde overschreven**, en klik vervolgens op de knop **vernieuwen** die zich op dezelfde regel bevindt als de opties om dat filter toe te passen. (Vernieuw het browservenster niet.)
 
    > [!div class="mx-imgBorder"]
    > ![Url's en klik op Verdicts](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
@@ -415,20 +415,20 @@ Als u de Url's van de phishing in berichten en op Url's in phishingberichten wil
 
 Binnen de E-mail-of URL-flyout, met de bovenste klikken en in onze filter ervaring, ziet u verschillende waarden als onderdeel van de jacht-ervaring. Hieronder ziet u de mogelijke waarden van klik Verdicts en de interpretatie ervan:
 
-- **Geen** : de verdict voor de URL is niet vastgelegd. De gebruiker heeft mogelijk geklikt door de URL.
-- **Toegestaan** : de gebruiker heeft toegestaan om naar de URL te navigeren.
-- **Geblokkeerd** : de gebruiker is geblokkeerd om naar de URL te navigeren.
-- **In behandeling verdict** : de gebruiker heeft weergegeven met de pagina detonatie in behandeling.
-- **Geblokkeerde overschreven** : de gebruiker is geblokkeerd en navigeert niet naar de URL. de gebruiker overrode het blok echter om naar de URL te gaan.
-- **Verdict in behandeling** : de gebruiker heeft weergegeven met de detonatie pagina. de gebruiker overrode echter de pagina om naar de URL te navigeren.
-- **Fout** : de gebruiker heeft de foutpagina weergegeven. Dit kan ook betekenen dat er een fout is opgetreden bij het vastleggen van de Verdict.
-- **Fout** : er is een onbekende uitzondering opgetreden tijdens het vastleggen van de Verdict. De gebruiker heeft mogelijk geklikt door de URL.
+- **Geen**: de verdict voor de URL is niet vastgelegd. De gebruiker heeft mogelijk geklikt door de URL.
+- **Toegestaan**: de gebruiker heeft toegestaan om naar de URL te navigeren.
+- **Geblokkeerd**: de gebruiker is geblokkeerd om naar de URL te navigeren.
+- **In behandeling verdict**: de gebruiker heeft weergegeven met de pagina detonatie in behandeling.
+- **Geblokkeerde overschreven**: de gebruiker is geblokkeerd en navigeert niet naar de URL. de gebruiker overrode het blok echter om naar de URL te gaan.
+- **Verdict in behandeling**: de gebruiker heeft weergegeven met de detonatie pagina. de gebruiker overrode echter de pagina om naar de URL te navigeren.
+- **Fout**: de gebruiker heeft de foutpagina weergegeven. Dit kan ook betekenen dat er een fout is opgetreden bij het vastleggen van de Verdict.
+- **Fout**: er is een onbekende uitzondering opgetreden tijdens het vastleggen van de Verdict. De gebruiker heeft mogelijk geklikt door de URL.
 
 ## <a name="review-email-messages-reported-by-users"></a>Door gebruikers verzonden e-mailberichten bekijken
 
 Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie als ongewenste E-mail hebben gerapporteerd, geen ongewenste E-mail of phishing via de [invoegtoepassing bericht rapporteren voor Outlook en de webversie van Outlook](enable-the-report-message-add-in.md). Als u dit wilt doen, gebruikt u de bewerkingsweergave voor [e-mail > ingediend](threat-explorer-views.md#email--submissions) van Explorer (of realtime-detecties).
 
-1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie** ). (In dit voorbeeld wordt Explorer gebruikt.)
+1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
 
 2. Kies in het menu **weergave** de optie **e-mail**  >  **inzendingen**.
 
@@ -437,7 +437,7 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie als ongewe
 
 3. Klik op **afzender** en kies type **basis**  >  **rapport**.
 
-4. Selecteer een optie, zoals **phishing** , en klik vervolgens op de knop **vernieuwen** .
+4. Selecteer een optie, zoals **phishing**, en klik vervolgens op de knop **vernieuwen** .
 
    > [!div class="mx-imgBorder"]
    > ![Door de gebruiker gerapporteerde phishing](../../media/EmailUserReportedReportType.png)
@@ -473,7 +473,7 @@ U moet beschikken over [Microsoft Defender voor Office 365](office-365-atp.md) o
 
 Als u Verkenner of realtime-detectie wilt weergeven en gebruiken, moet u de juiste machtigingen hebben, zoals de machtigingen die zijn toegewezen aan een beveiligingsbeheerder of beveiligings lezer.
 
-- Voor het beveiligings &amp; conformiteitscentrum moet een van de volgende rollen zijn toegewezen:
+- Voor het beveiligings & nalevings centrum moet een van de volgende rollen zijn toegewezen:
 
   - Organisatiebeheer
   - Beveiligingsbeheerder (deze kan worden toegewezen in het Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) ))
@@ -488,7 +488,7 @@ Als u Verkenner of realtime-detectie wilt weergeven en gebruiken, moet u de juis
 
 Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
-- [Machtigingen in het beveiligings &amp; Conformiteitscentrum](permissions-in-the-security-and-compliance-center.md)
+- [Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)
 - [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
 ## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>Enkele verschillen tussen de bedreigings Verkenner en de real-time detectie

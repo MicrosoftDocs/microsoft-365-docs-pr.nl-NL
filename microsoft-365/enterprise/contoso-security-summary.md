@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Hoe contoso gebruikmaakt van de beveiligingsfuncties van Microsoft 365 for Enterprise.
-ms.openlocfilehash: a72a770029328eaddf76cbe1b2039386c50c2750
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 5c951a973fbebeff92040f9411ad2c81788f920a
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920416"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558392"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Overzicht van Microsoft 365 for Enterprise Security voor Contoso Corporation
 
@@ -56,7 +56,7 @@ Als u aanbevolen procedures voor de beveiliging en Microsoft 365 wilt volgen, ge
 
 - Specifieke hoofdbeheerdersaccounts met MFA en PIM
 
-  In plaats van de globale beheerdersrol toe te wijzen aan dagelijkse gebruikersaccounts, is contoso drie toegewezen globale beheerdersaccounts gemaakt met sterke wachtwoorden. De accounts zijn beveiligd via Azure multi-factor Authentication (MFA) en Azure Active Directory (Azure AD) met geprivilegieerde identiteitsbeheer (PIM). *PIM is alleen beschikbaar met Microsoft 365 E5.*
+  In plaats van de globale beheerdersrol toe te wijzen aan dagelijkse gebruikersaccounts, is contoso drie toegewezen globale beheerdersaccounts gemaakt met sterke wachtwoorden. De accounts zijn beveiligd via Azure AD multi-factor Authentication (MFA) en Active Directory (Azure AD) met geprivilegieerde identiteitsbeheer (PIM). *PIM is alleen beschikbaar met Microsoft 365 E5.*
 
   Wanneer u zich aanmeldt met een account van een globale beheerder, wordt alleen rekening gemaakt voor specifieke beheertaken. De wachtwoorden zijn alleen bekend bij aangewezen medewerkers en kunnen alleen worden gebruikt binnen een tijdsperiode die is geconfigureerd in azure AD PIM.
 

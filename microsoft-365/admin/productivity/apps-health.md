@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de status-technologie van Microsoft 365-apps-technologie met productiviteits Score.
-ms.openlocfilehash: c38f2109ed41377cfccb9838c95dbfbebbfd322a
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: a84e919ce01775b8791ed7a1992464e4f52c7234
+ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123509"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49562941"
 ---
 # <a name="microsoft-365-apps-health--technology-experiences"></a>Status van Microsoft 365-apps-technologie ervaring
 
-Met productiviteits Score kunnen organisaties transformeren hoe werk wordt gedaan met metrische gegevens over hoe mensen Microsoft 365-apps gebruiken en de ondersteunende technologie. De Score weerspiegelt uw organisatie&#39;de prestaties van de categorieën personen en technologie ervaring en vergelijkt uw score met organisaties als uw eigen. De categorie apps status maakt deel uit van de maten onder technologie-ervaringen. Zie het [overzicht van de productiviteits Score](productivity-score.md) voor meer informatie.
+Productiviteits Score biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologie ervaring ter ondersteuning van uw organisatie. De Score van uw organisatie weerspiegelt de maten voor personen en technologieën, en kan worden vergeleken met de Bench maten van organisaties die vergelijkbaar zijn met uw organisatie. De categorie apps status maakt deel uit van de maten onder technologie-ervaringen. Ga voor meer informatie naar het overzicht van de [productiviteits Score](productivity-score.md) en lees de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
 
 ## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>Waarom uw organisatie de status Score van Microsoft 365 apps&#39;s heeft
 
@@ -101,11 +101,11 @@ Dit diagram toont de trendlijn van de apparaten met ondersteunde versies en de n
 
 :::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="Dit is een overzicht van de manier waarop u in de loop van de tijd wordt getoontd en de nieuwste versies van apps.":::
 
-## <a name="people-in-your-organization"></a>Personen in uw organisatie
+## <a name="devices-in-your-organization"></a>Apparaten in uw organisatie
 
 In deze sectie vindt u meer informatie over de metrieke gegevens door relevante informatie te verstrekken aan alle metrieken voor Microsoft 365-apps voor de gezondheid-technologie.
 
-De volgende kolommen worden weergegeven in de tabel op gebruikersniveau:
+De volgende kolommen worden weergegeven in de tabel op kanaal/versieniveau:
 
 - **Kanaal** : Huidig kanaal van microsoft 365-apps op de apparaten.
 - **Status:**   De ondersteunings status van de Microsoft 365-apps op basis van het huidige kanaal en de huidige versie.

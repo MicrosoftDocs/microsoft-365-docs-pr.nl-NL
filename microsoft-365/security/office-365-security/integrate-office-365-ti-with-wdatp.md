@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Gebruik Microsoft Defender voor Office 365 samen met Microsoft Defender for Endpoint voor meer informatie over bedreigingen voor uw apparaten en e-mail inhoud.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f668aa1234509789dacd2b018b94f1bfbc79e2c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 8a598dce3a8049d97d43b742477ca8f7a2bfeadb
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357777"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561217"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Microsoft Defender voor Office 365 samen met Microsoft Defender voor eindpunt gebruiken
 
@@ -47,7 +47,7 @@ In dit voorbeeld ziet u dat de geadresseerden van het gedetecteerde e-mailberich
 
 - Uw organisatie moet Microsoft Defender voor Office 365 (of Office 365 E5) en Microsoft Defender voor eindpunten hebben.
     
-- U moet een hoofdbeheerder zijn of de rol van beveiligingsbeheerder (zoals beveiligingsbeheerder) hebben die is toegewezen aan het [beveiligings &amp; conformiteitscentrum](https://protection.office.com). (Zie [machtigingen in het Security &amp; compliance Center](permissions-in-the-security-and-compliance-center.md))
+- U moet een hoofdbeheerder zijn of de rol van beveiligingsbeheerder, zoals beveiligingsbeheerder, hebben toegewezen in het [beveiligings & nalevings centrum](https://protection.office.com). (Zie [machtigingen in de beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md))
     
 - U moet in de beveiligings & nalevings centrum en het Microsoft Defender-Beveiligingscentrum toegang hebben tot zowel de [Verkenner (of realtime detectie)](threat-explorer.md) .
     
@@ -75,4 +75,4 @@ Integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor ei
   
 [Microsoft Defender voor Office 365](office-365-atp.md)
   
-[Microsoft Defender voor Eindpunt ](https://docs.microsoft.com/windows/security/threat-protection)
+[Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection)
