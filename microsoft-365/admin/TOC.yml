@@ -121,6 +121,8 @@
               href: create-groups/compare-groups.md
             - name: Een groep maken
               href: create-groups/create-groups.md
+            - name: Groepen uitleggen
+              href: create-groups/explain-groups-knowledge-worker.md
             - name: Groepen beheren
               href: create-groups/manage-groups.md
             - name: Groepsleden toevoegen of verwijderen
@@ -208,9 +210,9 @@
     - name: Uw gegevens en services beheren
       href: manage/index.yml
       items:
-        - name: Gebruikersactiviteiten controleren met behulp van rapporten
+        - name: Microsoft 365-activiteit bijhouden met behulp van rapporten
           href: activity-reports/activity-reports.md
-        - name: Gebruikersproductiviteit controleren met Productiviteitsscore
+        - name: Overzicht van Microsoft Productiviteitsscore
           href: productivity/productivity-score.md
           items:
             - name: Samenwerken aan inhoud
