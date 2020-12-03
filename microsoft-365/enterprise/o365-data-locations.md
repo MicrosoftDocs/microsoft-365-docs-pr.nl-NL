@@ -16,20 +16,20 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Bepalen waar uw Microsoft 365-klantgegevens wereldwijd worden opgeslagen
-ms.openlocfilehash: 6ad35082cbed602325e2a32edb825a17b5cb9f4a
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 4b1e0d30d37ec9bc7a333216854e8eb602e07cc1
+ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376513"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49519725"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
 -->
 
-# <a name="where-your-microsoft-365-customer-data-is-stored"></a>Waar uw Microsoft 365-klantgegevens worden opgeslagen
+# <a name="where-your-microsoft-365-customer-data-is-stored"></a>Opslagplaats van uw Microsoft 365-klantgegevens
 
-In de onderstaande tabellen kunt u zien waar data-at-rest wordt opgeslagen voor Microsoft 365-diensten in de wereldwijde cloudlocaties van Microsoft. Vouw de locatie van het land van uw factuuradres uit om erachter te komen waar de klantgegevens voor elke service worden opgeslagen.
+In de onderstaande tabellen kunt u zien waar data-at-rest wordt opgeslagen voor Microsoft 365-diensten in de wereldwijde cloudlocaties van Microsoft. Vouw de locatie uit van het land van uw factuuradres om te zien waar klantgegevens voor elke service worden opgeslagen.
 
 Als uw bedrijf in de Europese Unie is gevestigd, raadpleegt u [Gegevenslocaties voor de Europese Unie](EU-data-storage-locations.md) voor meer informatie. 
 
@@ -143,7 +143,7 @@ Onderstaande geeft de steden op waar data-at-rest wordt opgeslagen voor land-/re
 | Verenigd Koninkrijk | Durham, Londen, Cardiff |
 | Verenigde Staten |  Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio, Santa Clara, San Jose |
 
-Nieuwe Microsoft 365-tenants worden standaard ingesteld op geografische locatie op basis van het land van het factuuradres dat is gekoppeld aan het eerste abonnement van die tenant. Om te bevestigen waar klantgegevens worden opgeslagen voor bestaande Office 365-services, kunt u informatie over gegevenslocaties van specifieke tenants bekijken in uw Office 365-beheercentrum in Instellingen | Organisatieprofiel | Gegevenslocatiekaart. U kunt ook in onderstaande lijst het land uitvouwen waarin uw bedrijf is gevestigd, om te ontdekken waar klantgegevens worden opgeslagen als u vandaag zou beginnen met het gebruik van een Microsoft 365-service.
+Nieuwe Microsoft 365-tenants worden standaard ingesteld op de geografische locatie op basis van het land van het factuuradres dat is gekoppeld aan het eerste abonnement van die tenant. Om te bevestigen waar klantgegevens worden opgeslagen voor bestaande Office 365-services, kunt u specifieke informatie over gegevenslocaties van een tenant bekijken in uw Office 365-beheercentrum in Instellingen | Organisatie-instellingen | Organisatieprofiel | Gegevenslocatiekaart. U kunt ook in de onderstaande lijst het land uitvouwen waarin uw bedrijf is gevestigd om te zien waar klantgegevens worden opgeslagen als u vandaag zou beginnen met het gebruik van een Microsoft 365-service.
 
 ## <a name="afghanistan"></a>Afghanistan
 <details><summary>Klik om uit te vouwen</summary><p>
