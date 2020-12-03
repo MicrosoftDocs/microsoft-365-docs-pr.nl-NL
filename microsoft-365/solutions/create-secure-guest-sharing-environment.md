@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Meer informatie over beschikbare opties in Microsoft 365 om een veilige omgeving voor delen met gasten te maken, waarin gasten toegang krijgen voor verbeterde samenwerking.
-ms.openlocfilehash: e0b943ce698cc6b93bd250a83b1c94eba406c484
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 4e2045113a6c98e2b3839a3a2cdd83105be94023
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030015"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558186"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -55,9 +55,9 @@ Meervoudige verificatie instellen voor gasten
 2. Klik in de blade **Voorwaardelijke toegang | Beleid** op **Nieuw beleid**.
 3. Typ een naam in het veld **Naam**.
 4. Klik onder **toewijzingen** op **gebruikers en groepen**.
-5. Selecteer op de blade **Gebruikers en groepen** , de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
+5. Selecteer op de blade **Gebruikers en groepen**, de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
 6. Klik onder **Toewijzingen** op **Cloud-apps of -acties**.
-7. Selecteer op de blade **Cloud-apps of -acties** , **Alle Cloud-apps** op het tabblad **Opnemen**.
+7. Selecteer op de blade **Cloud-apps of -acties**, **Alle Cloud-apps** op het tabblad **Opnemen**.
 8. Klik onder **Toegangsbeheer** op **Toewijzen**.
 9. Schakel op de blade **Toewijzen** het selectievakje **Meervoudige verificatie vereisen** in en klik vervolgens op **Selecteren**.
 10. Klik op de blade **Nieuw** onder **Beleid inschakelen** op **Aan** en klik vervolgens op **Maken**.
@@ -66,7 +66,7 @@ Nu moeten gasten zich eerst inschrijven voor meervoudige verificatie voordat ze 
 
 ### <a name="more-information"></a>Meer informatie
 
-[Een implementatie van meervoudige verificatie in Azure plannen](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+[Een implementatie van meervoudige verificatie in Azure AD plannen](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## <a name="set-up-a-terms-of-use-for-guests"></a>Gebruiksvoorwaarden voor gasten instellen
 
@@ -86,7 +86,7 @@ Gebruiksvoorwaarden voor Azure AD maken
 6. Voor **gebruiksrechtovereenkomst** bladert u naar het PDF-bestand dat u hebt gemaakt en selecteert u het.
 7. Selecteer de taal voor uw gebruiksrechtovereenkomst.
 8. Stel **Gebruikers verplichten om de gebruiksvoorwaarden uit te vouwen** in op **Aan**.
-9. Kies onder **Voorwaardelijke toegang** in de lijst **Afdwingen met sjabloon voor voorwaardelijke toegang** , **Maak later een beleid voor voorwaardelijke toegang**.
+9. Kies onder **Voorwaardelijke toegang** in de lijst **Afdwingen met sjabloon voor voorwaardelijke toegang**, **Maak later een beleid voor voorwaardelijke toegang**.
 10. Klik op **Maken**.
 
 Als u de gebruiksvoorwaarden hebt gemaakt, is de volgende stap het maken van een beleid voor voorwaardelijke toegang waarin de gebruiksrechtovereenkomst voor gastgebruikers wordt weergegeven.
@@ -97,10 +97,10 @@ Een voorwaardelijk toegangsbeleid maken
 2. Klik in de blade **Voorwaardelijke toegang | Beleid** op **Nieuw beleid**.
 3. Typ een naam in het vak **Naam**.
 4. Klik onder **toewijzingen** op **gebruikers en groepen**.
-5. Selecteer op de blade **Gebruikers en groepen** , de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
+5. Selecteer op de blade **Gebruikers en groepen**, de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
 6. Klik onder **Toewijzingen** op **Cloud-apps of -acties**.
-7. Selecteer op het tabblad **Opnemen** , **Apps selecteren** en klik vervolgens op **Selecteren**.
-8. Selecteer op de blade **selecteren** , **Microsoft Teams** , **Office 365 SharePoint Online** en **Outlook Groups** en klik vervolgens op **Selecteren**.
+7. Selecteer op het tabblad **Opnemen**, **Apps selecteren** en klik vervolgens op **Selecteren**.
+8. Selecteer op de blade **selecteren**, **Microsoft Teams**, **Office 365 SharePoint Online** en **Outlook Groups** en klik vervolgens op **Selecteren**.
 9. Klik onder **Toegangsbeheer** op **Toewijzen**.
 10. Selecteer op de blade **Toewijzen** de optie **Gebruiksrechtovereenkomst voor gasten** en klik vervolgens op **Selecteren**.
 11. Klik op de blade **Nieuw** onder **Beleid inschakelen** op **Aan** en klik vervolgens op **Maken**.
@@ -141,7 +141,7 @@ De controle van de toegang van een gastgebruiker instellen
 4. Voor **frequentie** kiest u **driemaandelijks**.
 5. Kies voor **beëindigen** de optie **nooit**.
 6. Kies **alleen gastgebruikers** voor **bereik**.
-7. Klik op **groep** , selecteer de groepen die u wilt opnemen in de toegangscontrole en klik vervolgens op **selecteren**.
+7. Klik op **groep**, selecteer de groepen die u wilt opnemen in de toegangscontrole en klik vervolgens op **selecteren**.
 8. Klik onder **Programma's** op **koppeling naar programma**.
 9. Kies op de blade **Selecteer een programma** de optie **Programma gasttoegangscontrole**
 10. Klik op **Start**.
@@ -168,13 +168,13 @@ De toegang van gasten beperken tot alleen webtoegang voor groepen en teams
 2. Klik in de blade **Voorwaardelijke toegang - Beleid** op **Nieuw beleid**.
 3. Typ een naam in het vak **Naam**.
 4. Klik onder **toewijzingen** op **gebruikers en groepen**.
-5. Selecteer op de blade **Gebruikers en groepen** , de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
+5. Selecteer op de blade **Gebruikers en groepen**, de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
 6. Klik onder **Toewijzingen** op **Cloud-apps of -acties**.
-7. Selecteer op het tabblad **Opnemen** , **Apps selecteren** en klik vervolgens op **Selecteren**.
+7. Selecteer op het tabblad **Opnemen**, **Apps selecteren** en klik vervolgens op **Selecteren**.
 8. Selecteer op de blade **Selecteren** de opties **Microsoft Teams** eb **Outlook Groups** en klik vervolgens op **Selecteren**.
 9. Klik onder **toewijzingen** op **voorwaarden**.
 10. Klik op de blade **Voorwaarden** op **Client-apps**.
-11. Klik op de blade **Client-apps** op **Ja** voor **Configureren** en selecteer vervolgens de instellingen voor **Mobiele apps- en bureaublad-clients** , **Exchange ActiveSync-clients** en **Andere clients**. Schakel het selectievakje **Browser** uit.
+11. Klik op de blade **Client-apps** op **Ja** voor **Configureren** en selecteer vervolgens de instellingen voor **Mobiele apps- en bureaublad-clients**, **Exchange ActiveSync-clients** en **Andere clients**. Schakel het selectievakje **Browser** uit.
 
     ![Schermafbeelding van de instellingen van client-apps voor voorwaardelijke toegang in Azure Active Directory](../media/azure-ad-conditional-access-client-mobile.png)
 
@@ -202,10 +202,10 @@ Een beleid voor de time-out van een gastsessie configureren
 2. Klik in de blade **voorwaardelijke toegang - beleid** op **nieuw beleid**.
 3. Typ in het vak **naam** *time-out van gast sessie*.
 4. Klik onder **toewijzingen** op **gebruikers en groepen**.
-5. Selecteer op de blade **Gebruikers en groepen** , de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
+5. Selecteer op de blade **Gebruikers en groepen**, de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
 6. Klik onder **Toewijzingen** op **Cloud-apps of -acties**.
-7. Selecteer op het tabblad **Opnemen** , **Apps selecteren** en klik vervolgens op **Selecteren**.
-8. Selecteer op de blade **selecteren** , **Microsoft Teams** , **Office 365 SharePoint Online** en **Outlook Groups** en klik vervolgens op **Selecteren**.
+7. Selecteer op het tabblad **Opnemen**, **Apps selecteren** en klik vervolgens op **Selecteren**.
+8. Selecteer op de blade **selecteren**, **Microsoft Teams**, **Office 365 SharePoint Online** en **Outlook Groups** en klik vervolgens op **Selecteren**.
 9. Klik onder **toegangsbeheer** op **sessie**.
 10. Op de blade **sessie** selecteert u **aanmeldingsfrequentie**.
 11. Selecteer **1** en **dagen** voor de tijdsperiode en klik vervolgens op **selecteren**.
@@ -242,15 +242,15 @@ Een beleid voor automatisch labellen maken
 3. Klik op het tabblad **Automatisch labellen** op **Beleid voor automatisch labellen maken**.
 4. Op de pagina **Kies de info waarop dit label moet worden toegepast** kiest u **Aangepast** en klikt u op **Volgende**.
 5. Typ een naam en beschrijving voor het beleid en klik op **Volgende**.
-6. Op de pagina **Locaties kiezen waarop u het label wilt toepassen** , schakelt u **SharePoint-sites** in en klikt u op **Sites kiezen**.
+6. Op de pagina **Locaties kiezen waarop u het label wilt toepassen**, schakelt u **SharePoint-sites** in en klikt u op **Sites kiezen**.
 7. Voeg de URL's toe van de sites waarvoor u automatisch labellen wilt inschakelen en klik op **Gereed**.
 8. Klik op **Volgende**.
 9. Kies op de pagina **Algemene of geavanceerde regels instellen** de optie **Algemene regels** en klik op **Volgende**.
 10. Klik op de pagina **Regels voor inhoud op alle locaties definiëren** op **Nieuwe regel**.
 11. Geef op de pagina **Nieuwe regel** een naam op voor de regel, klik op **Voorwaarde toevoegen** en klik vervolgens op **Inhoud bevat typen gevoelige info**.
-12. Klik op **Toevoegen** , klik op **Typen gevoelige informatie** , kies de typen gevoelige informatie die u wilt gebruiken, klik op **Toevoegen** en klik vervolgens op **Opslaan**.
+12. Klik op **Toevoegen**, klik op **Typen gevoelige informatie**, kies de typen gevoelige informatie die u wilt gebruiken, klik op **Toevoegen** en klik vervolgens op **Opslaan**.
 13. Klik op **Volgende**.
-14. Klik op **Kies een label** , selecteer het label dat u wilt gebruiken en klik vervolgens op **Toevoegen**.
+14. Klik op **Kies een label**, selecteer het label dat u wilt gebruiken en klik vervolgens op **Toevoegen**.
 15. Klik op **Volgende**.
 16. Laat het beleid in de simulatiemodus staan en klik op **Volgende**.
 17. Klik op **Beleid maken** en klik vervolgens op **Gereed**.
@@ -275,7 +275,7 @@ Een DLP-regel maken
 6. Klik op de pagina **Beleidsinstellingen definiëren** op **Volgende**.
 7. Klik op de pagina **Geavanceerde DLP-regels aanpassen** op **Regel maken** en typ een naam voor de regel.
 8. Klik onder **Voorwaarden** op **Voorwaarde toevoegen** en kies **Inhoud bevat**.
-9. Klik op **Toevoegen** , kies **Vertrouwelijkheidslabels** , kies de labels die u wilt gebruiken en klik op **Toevoegen**.
+9. Klik op **Toevoegen**, kies **Vertrouwelijkheidslabels**, kies de labels die u wilt gebruiken en klik op **Toevoegen**.
 
    ![Schermafbeelding van voorwaardenopties, typen gevoelige info, vertrouwelijkheidslabels en retentielabels.](../media/limit-accidental-exposure-dlp-conditions.png)
 

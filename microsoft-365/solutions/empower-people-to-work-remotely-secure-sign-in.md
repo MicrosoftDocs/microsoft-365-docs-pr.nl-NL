@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Vereis dat uw externe werknemers zich aanmelden met meervoudige verificatie (MFA).
-ms.openlocfilehash: aa9b122ca18c4d8a8123914ee2d29d41c9ec789e
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 85bac90085b47b5114db875c822d98aa1365cf97
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681454"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558162"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Stap 1. Aanmeldingsbeveiliging voor externe werknemers verbeteren met MFA
 
@@ -43,7 +43,7 @@ Er zijn drie manieren waarop u uw gebruikers kunt verplichten MFA te gebruiken o
 
 ## <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
 
-De standaardinstellingen voor beveiliging zijn een nieuwe functie voor betaalde Microsoft 365- en Office 365-abonnementen en proefabonnementen van Microsoft 365 en Office 365 die zijn gemaakt na 21 oktober 2019. Bij deze abonnementen zijn de standaardinstellingen voor beveiliging ingeschakeld waarmee ***al uw gebruikers MFA met de Microsoft Authenticator-app moeten gebruiken**_.
+De standaardinstellingen voor beveiliging zijn een nieuwe functie voor betaalde Microsoft 365- en Office 365-abonnementen en proefabonnementen van Microsoft 365 en Office 365 die zijn gemaakt na 21 oktober 2019. Bij deze abonnementen zijn de standaardinstellingen voor beveiliging ingeschakeld waarmee ***al uw gebruikers MFA met de Microsoft Authenticator-app moeten gebruiken** _.
  
 Gebruikers hebben 14 dagen de tijd om zich te registreren voor MFA met de Microsoft Authenticator-app vanaf hun smartphone. Deze periode gaat in bij de eerste aanmelding nadat de standaardinstellingen voor beveiliging zijn ingeschakeld. Na 14 dagen kunnen gebruikers zich alleen aanmelden als de MFA-registratie is voltooid.
 
@@ -75,7 +75,7 @@ Voor Azure AD Identity Protection zijn Azure AD Premium P2-licenties vereist, di
 
 Zie [Risk-based Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users) (Op risico's gebaseerde voorwaardelijke toegang) voor meer informatie.
 
-Met Azure AD-identiteitsbescherming kun je ook een beleid maken om te vereisen dat je gebruikers zich registreren voor MFA. Voor meer informatie, zie [Het beleid voor Azure Multi-Factor Authentication-registratie configureren](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+Met Azure Active Directory Identity Protection kunt u ook een beleid maken om te vereisen dat uw gebruikers zich registreren voor MFA. Voor meer informatie, zie [Het beleid voor Azure AD Multi-Factor Authentication-registratie configureren](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 
 
 ## <a name="using-these-methods-together"></a>Deze methoden samen gebruiken
@@ -91,7 +91,7 @@ In deze tabel ziet u de resultaten na het inschakelen van MFA met de standaardin
 
 | Methode | Ingeschakeld | Uitgeschakeld | Extra verificatiemethode |
 |:-------|:-----|:-------|:-------|
-| _*Standaardinstellingen voor beveiliging**  | Kan geen beleid voor voorwaardelijke toegang gebruiken | Kan beleid voor voorwaardelijke toegang gebruiken | De Microsoft Authenticator-app |
+| _ *Standaardinstellingen voor beveiliging**  | Kan geen beleid voor voorwaardelijke toegang gebruiken | Kan beleid voor voorwaardelijke toegang gebruiken | De Microsoft Authenticator-app |
 | **Beleidsregels voor voorwaardelijke toegang** | Als er een of meer zijn ingeschakeld, kunt u de standaardinstellingen voor beveiliging niet inschakelen | Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen  | Opgeven door gebruiker tijdens MFA-registratie  |
 ||||
 
