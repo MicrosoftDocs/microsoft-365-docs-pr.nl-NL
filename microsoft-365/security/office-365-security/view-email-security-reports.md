@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 038f310d8690652a3aefb2eab5ac01f76986d210
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 1ab78f17cd5689f9110227762c149d3691433179
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357933"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572559"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -498,19 +498,16 @@ Voer een van de volgende handelingen uit in het [nalevings centrum van beveiligi
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn vereist voor het weergeven van deze rapporten?
 
-Als u de rapporten wilt weergeven en gebruiken, moet u lid zijn van de opgegeven rollen groep in het beveiligings & nalevings centrum **en** in Exchange Online.
+Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden beschreven, moet u lid zijn van een van de volgende rollen groepen in het compliance-& Beveiligingscentrum:
 
-- In het nalevings centrum beveiligings & moet u lid zijn van een van de volgende rollen groepen:
+- **Organisatiebeheer**
+- **Beveiligingsbeheerder**
+- **Beveiligings lezer**
+- **Algemene lezer**
 
-  -Organisatiebeheer-beveiligingsbeheerder (u kunt dit ook doen in het [Azure Active Directory-beheercentrum](https://aad.portal.azure.com) -beveiligings lezer
+Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
-
-- In Exchange Online moet u lid zijn van een van de volgende groepen rollen:
-
-  -Organisatiebeheer-alleen-bekijken Organisatiebeheer-alleen voor weergeven geadresseerden
-
-Zie [machtigingen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo) en [rollen groepen beheren in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)voor meer informatie.
+**Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat moet ik doen als de rapporten geen gegevens weergeven?
 

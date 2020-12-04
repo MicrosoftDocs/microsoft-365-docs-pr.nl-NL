@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen zien hoe het filteren van verbindingen in Exchange Online Protection (EOP) wordt geconfigureerd om e-mailberichten van e-mailservers toe te staan of te blokkeren.
-ms.openlocfilehash: 95e178e34c944c13cd99e4d4a0e9f30ed083842c
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+ms.openlocfilehash: a2a755516f029f5d72016e9ea8fcb87a997d5065
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318250"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572823"
 ---
 # <a name="configure-connection-filtering"></a>Filteren van verbinding configureren
 
@@ -34,7 +34,7 @@ Als u een klant van Microsoft 365 met postvakken in Exchange Online of een zelfs
 
 - **Lijst met IP-** adressen: Sla spamfilters voor alle binnenkomende berichten op van de bron-e-mailservers die u opgeeft via het IP-adres of het IP-adresbereik. Zie de [scenario's waarin berichten van bronnen in de lijst met toegestane IP-adressen in de lijst met IP-adressen in de lijst met toegestane IP-berichten](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) in een document worden weergegeven. Zie [lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md)voor meer informatie over de manier waarop de lijst met toegestane IP-adressen in uw algemene afzender strategie past.
 
-- **Lijst met IP-blok**keringen: alle inkomende berichten van de bron-e-mailservers die u hebt opgegeven via een IP-adres of IP-adresbereik blokkeren. De inkomende berichten worden geweigerd, worden niet als spam gemarkeerd, en er vindt geen extra filters plaats. Zie [lijsten met geblokkeerde verzenders maken in EOP](create-block-sender-lists-in-office-365.md)voor meer informatie over de manier waarop de lijst met geblokkeerde afzenders in de lijst met geblokkeerde afzenders moet passen.
+- **Lijst met IP-blok** keringen: alle inkomende berichten van de bron-e-mailservers die u hebt opgegeven via een IP-adres of IP-adresbereik blokkeren. De inkomende berichten worden geweigerd, worden niet als spam gemarkeerd, en er vindt geen extra filters plaats. Zie [lijsten met geblokkeerde verzenders maken in EOP](create-block-sender-lists-in-office-365.md)voor meer informatie over de manier waarop de lijst met geblokkeerde afzenders in de lijst met geblokkeerde afzenders moet passen.
 
 - **Lijst met veilige lijsten**: de *lijst veilig* is een dynamische lijst met toegestane gebruikers in het Microsoft-datacenter waarvoor geen klant configuratie is vereist. Microsoft identificeert deze vertrouwde e-mail bronnen van abonnementen op diverse lijsten van derden. U schakelt het gebruik van de lijst veilig in of uit. u kunt de bron-e-mailservers in de lijst veilig niet configureren. Filteren van spam wordt overgeslagen op inkomende berichten van de e-mailservers in de lijst veilig.
 
@@ -49,17 +49,16 @@ In dit onderwerp wordt uitgelegd hoe u het standaardbeleid voor verbindings filt
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+  - Als u het standaardbeleid voor verbindings filters wilt wijzigen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+  - Voor alleen-lezen toegang tot het standaardbeleid voor verbindings filters moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
-  - Als u het standaardbeleid voor verbindings filters wilt wijzigen, moet u lid zijn van een van de volgende groepen rollen:
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Opmerkingen**:
 
-  - Voor alleen-lezen toegang tot het standaardbeleid voor verbindings filters moet u lid zijn van een van de volgende rollen groepen:
-
-    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
 
 - Als u wilt zoeken naar de bron-IP-adressen van de e-mailservers (afzenders) die u wilt toestaan of blokkeren, kunt u het koptekstveld voor de verbinding van IP (**overschrijving**) controleren in de kop van het e-mailbericht. Zie [internetberichtkoppen weergeven in Outlook](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)als u een berichtkop wilt weergeven in verschillende e-mailclients.
 
@@ -69,7 +68,7 @@ In dit onderwerp wordt uitgelegd hoe u het standaardbeleid voor verbindings filt
 
 ## <a name="use-the-security--compliance-center-to-modify-the-default-connection-filter-policy"></a>U kunt het standaardbeleid voor verbindings filters wijzigen via het compliance-& Beveiligingscentrum
 
-1. Ga in het beveiligings & compliance en ga **Threat management** naar \> **Policy** \> **anti spam**over beleid voor Threat Management.
+1. Ga in het beveiligings & compliance en ga **Threat management** naar \> **Policy** \> **anti spam** over beleid voor Threat Management.
 
 2. Vouw op de pagina **anti spam instellingen** het **beleid voor verbindings filters** uit door te klikken op het ![ pictogram uitvouwen ](../../media/scc-expand-icon.png) en vervolgens op **beleid bewerken**.
 
@@ -97,7 +96,7 @@ In dit onderwerp wordt uitgelegd hoe u het standaardbeleid voor verbindings filt
 
 ## <a name="use-the-security--compliance-center-to-view-the-default-connection-filter-policy"></a>Het standaardbeleid voor verbindings filters & gebruiken om het standaardbeleid voor verbindings filters te bekijken
 
-1. Ga in het beveiligings & compliance en ga **Threat management** naar \> **Policy** \> **anti spam**over beleid voor Threat Management.
+1. Ga in het beveiligings & compliance en ga **Threat management** naar \> **Policy** \> **anti spam** over beleid voor Threat Management.
 
 2. Op de pagina **anti spam instellingen** klikt u op de vervolgkeuzelijst naast het standaardbeleid met de naam **verbindings filter beleid**.
 
@@ -183,7 +182,7 @@ Met de bron-e-mailserver 192.168.1.25 wordt bijvoorbeeld e-mail verzonden via de
 
    - Voorwaarde van de regel: **deze regel toepassen als** \> **het** \> **IP-adres van de afzender in een van deze bereiken valt of precies overeenkomt** met \> 192.168.1.25 (hetzelfde IP-adres of adresbereik dat u in de vorige stap hebt toegevoegd aan de lijst met toegestane IP-adressen).
 
-   - Actie van de regel: **Wijzig de berichteigenschappen** \> **stellen het betrouwbaarheidsniveau voor ongewenste e-mail (SCL)** \> **0**in.
+   - Actie van de regel: **Wijzig de berichteigenschappen** \> **stellen het betrouwbaarheidsniveau voor ongewenste e-mail (SCL)** \> **0** in.
 
    - Regel uitzondering: **het domein van de afzender** \> **is** \> fabrikam.com (alleen het domein of de domeinen die u wilt filteren. spam filteren).
 

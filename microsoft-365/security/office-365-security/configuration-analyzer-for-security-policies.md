@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u met de wizard Configuratie analyse beveiligingsbeleid onder de standaardbeveiliging en strikte beveiligings beleidsregels voor beveiliging kunt vinden en oplossen.
-ms.openlocfilehash: 1429bddc5ae5f8409ad4f3593f7ea236b13f854c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7d02a6f83ceb06eb56039b449890fd90712c76e5
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846470"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572535"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Configuratie analyse voor beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
@@ -36,13 +36,13 @@ Configuratie-analyse in het compliance van beveiligings & biedt een centrale loc
 
 De volgende typen beleidsregels worden geanalyseerd door de Configuration Analyzer:
 
-- **Beleid voor Exchange Online Protection (EOP)** : Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
+- **Beleid voor Exchange Online Protection (EOP)**: Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
   
   - [Anti spam beleid](configure-your-spam-filter-policies.md).
   - [Beleid voor malware van malware](configure-anti-malware-policies.md).
   - [EOP anti phishings beleid](set-up-anti-phishing-policies.md#spoof-settings).
 
-- **Beleidsregels voor Microsoft Defender voor Office 365** : Dit omvat organisaties met microsoft 365 E5 of Defender voor Office 365-invoegtoepassingen:
+- **Beleidsregels voor Microsoft Defender voor Office 365**: Dit omvat organisaties met microsoft 365 E5 of Defender voor Office 365-invoegtoepassingen:
 
   - Anti-phishings beleid in Microsoft Defender voor Office 365, waaronder:
 
@@ -62,17 +62,16 @@ De **standaard** -en **strikte** beleidsinstelling waarden die worden gebruikt a
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+  - Als u de Configuration Analyzer wilt gebruiken **en** beveiligingsbeleidsregels wilt bijwerken, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+  - Voor alleen-lezen toegang tot de configuratie analyse, moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
-  - Als u de Configuration Analyzer wilt gebruiken **en** beveiligingsbeleidsregels wilt bijwerken, moet u lid zijn van een van de volgende groepen rollen:
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Opmerkingen**:
 
-  - Voor alleen-lezen toegang tot de configuratie analyse, moet u lid zijn van een van de volgende groepen rollen:
-
-    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
 
 ## <a name="use-the-configuration-analyzer-in-the-security--compliance-center"></a>Werken met de functie Configuration Analyzer in het compliance van beveiligings &
 
@@ -82,7 +81,7 @@ Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> 
 
 De configuratie analyse bestaat uit twee hoofdtabbladen:
 
-- **Instellingen en aanbevelingen** : u kunt standaard of strict selecteren en deze instellingen vergelijken met uw bestaande beveiligingsbeleidsregels. In de resultaten kunt u de waarden van uw instellingen aanpassen, zodat ze op hetzelfde niveau als standaard of strikt worden weergegeven.
+- **Instellingen en aanbevelingen**: u kunt standaard of strict selecteren en deze instellingen vergelijken met uw bestaande beveiligingsbeleidsregels. In de resultaten kunt u de waarden van uw instellingen aanpassen, zodat ze op hetzelfde niveau als standaard of strikt worden weergegeven.
 
 - Configuratie van de overstappen **en geschiedenis** van de configuratie van de overstappen, zodat u de beleidswijzigingen in de tijd kunt bijhouden.
 
@@ -102,27 +101,27 @@ De kolom **Beleidsgroep/naam van instelling** bevat standaard een samengevouwen 
 
 In de standaardweergave is alles samengevouwen. Naast elk beleid bevindt zich een samenvatting van vergelijkingsresultaten van uw beleid (die u kunt wijzigen) en de instellingen in het bijbehorende beleid voor de standaard-of strikte beveiligingsprofielen (die u niet kunt wijzigen). U ziet de volgende informatie voor het beveiligingsprofiel waarmee u een vergelijking maakt:
 
-- **Groen** : alle instellingen in alle bestaande beleidsregels zijn ten minste veilig als het beveiligingsprofiel.
-- **Geel** : een klein aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel.
-- **Rood** : een groot aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel. Dit kan een paar instellingen zijn voor veel beleidsregels of veel instellingen in één beleid.
+- **Groen**: alle instellingen in alle bestaande beleidsregels zijn ten minste veilig als het beveiligingsprofiel.
+- **Geel**: een klein aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel.
+- **Rood**: een groot aantal instellingen in het bestaande beleid is niet veilig als het beveiligingsprofiel. Dit kan een paar instellingen zijn voor veel beleidsregels of veel instellingen in één beleid.
 
 Voor gunstige vergelijkingen ziet u de tekst: bij **alle instellingen volgen** de \<**Standard** or **Strict**\> **aanbevelingen**. Anders ziet u het aantal aanbevolen instellingen dat u wilt wijzigen.
 
-Als u **Beleidsgroep/naam** van de instelling uitvouwt, worden alle beleidsregels en de bijbehorende instellingen in elk specifiek beleid weergegeven dat aandacht moet richten. U kunt ook een specifiek type beleid uitvouwen (bijvoorbeeld **anti spam** ), zodat alleen de instellingen worden weergegeven van de typen beleidsregels die uw aandacht vereisen.
+Als u **Beleidsgroep/naam** van de instelling uitvouwt, worden alle beleidsregels en de bijbehorende instellingen in elk specifiek beleid weergegeven dat aandacht moet richten. U kunt ook een specifiek type beleid uitvouwen (bijvoorbeeld **anti spam**), zodat alleen de instellingen worden weergegeven van de typen beleidsregels die uw aandacht vereisen.
 
 Als de vergelijking geen aanbevelingen oplevert voor verbetering (groen), onthult het beleid niets. Als er sprake is van een aantal aanbevelingen voor verbetering (geel of rood), worden de instellingen die aandacht vereisen weergegeven en wordt de bijbehorende informatie getoond in de volgende kolommen:
 
 - De naam van de instelling die uw aandacht vereist. In de vorige schermafbeelding ziet u bijvoorbeeld de limiet voor **bulk mail** in een antispambeleid.
 
-- **Beleid** : de naam van het betreffende beleid dat de instelling bevat.
+- **Beleid**: de naam van het betreffende beleid dat de instelling bevat.
 
-- **Toepassen op** : het aantal gebruikers waarop het desbetreffende beleid wordt toegepast.
+- **Toepassen op**: het aantal gebruikers waarop het desbetreffende beleid wordt toegepast.
 
-- **Huidige configuratie** : de huidige waarde van de instelling.
+- **Huidige configuratie**: de huidige waarde van de instelling.
 
-- **Laatst gewijzigd** : de datum waarop het beleid het laatst is gewijzigd.
+- **Laatst gewijzigd**: de datum waarop het beleid het laatst is gewijzigd.
 
-- **Aanbevelingen** : de waarde van de instelling in het standaard-of strikte beveiligingsprofiel. Als u de waarde van de instelling in het beleid wilt wijzigen zodat deze overeenkomt met de aanbevolen waarde in het beveiligingsprofiel, klikt u op **aannemen**. Als de wijziging slaagt, ziet u het volgende bericht: **aanbevelingen zijn besloten**. Klik op **vernieuwen** om het minder aantal aanbevelingen te zien en het verwijderen van de specifieke rij voor beleidsregels/beleid van de resultaten.
+- **Aanbevelingen**: de waarde van de instelling in het standaard-of strikte beveiligingsprofiel. Als u de waarde van de instelling in het beleid wilt wijzigen zodat deze overeenkomt met de aanbevolen waarde in het beveiligingsprofiel, klikt u op **aannemen**. Als de wijziging slaagt, ziet u het volgende bericht: **aanbevelingen zijn besloten**. Klik op **vernieuwen** om het minder aantal aanbevelingen te zien en het verwijderen van de specifieke rij voor beleidsregels/beleid van de resultaten.
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>Configuratie van configuratie van drijfman en historie van configuratie-analyse
 

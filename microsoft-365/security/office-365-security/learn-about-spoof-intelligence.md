@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie vinden over spoof Intelligence in Exchange Online Protection (EOP), waar u specifieke afzenders kunt toestaan of blokkeren.
-ms.openlocfilehash: 62964550be161b16767595890872055b56586f1d
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 9168d43e6e5544ad3454729afc8140642deba0ef
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367129"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572727"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Spoof informatie configureren in EOP
 
@@ -57,17 +57,16 @@ U kunt spoof Intelligence beheren in het beveiligings & nalevings centrum of in 
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+  - Als u het beleid voor spoof informatie wilt wijzigen of spoof Intelligence wilt in-of uitschakelen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+  - Voor alleen-lezen toegang tot het beleid voor spoof Intelligence moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
-  - Als u het beleid voor spoof informatie wilt wijzigen of spoof Intelligence wilt in-of uitschakelen, moet u lid zijn van een van de volgende rollen groepen:
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Opmerkingen**:
 
-  - Voor alleen-lezen toegang tot het beleid voor spoof Intelligence moet u lid zijn van een van de volgende rollen groepen:
-
-    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
 
 - Voor de aanbevolen instellingen voor spoof Intelligence raadpleegt u [EOP standaard anti phishingfilter-beleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
 

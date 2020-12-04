@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Dit artikel bevat informatie over het oplossen van problemen met het verzenden van e-mail naar postvakken in Microsoft 365 & best practices voor bulk mailing naar klanten met Microsoft 365.
-ms.openlocfilehash: 52b4bb333a92dcaa21f45977b3d59a96053a69c2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 895f2651529cd46968d053fefac10cb22b6a5d86
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201727"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568552"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Problemen met e-mailberichten die worden verzonden naar Microsoft 365 oplossen
 
@@ -51,9 +51,7 @@ Als u wilt weten hoe u DNS-records maakt en onderhoudt, waaronder de MX-record d
 We accepteren mogelijk geen e-mailberichten van afzenders die een opzoek service voor omkering van de DNS hebben. In sommige gevallen adverteert legitiem afzenders zichzelf onjuist als een niet-Internet routeerbaar IP-adres bij het openen van een verbinding met EOP. IP-adressen die zijn gereserveerd voor privé-netwerken (niet-routeerbaar), zijn:
 
 - 192.168.0.0/16 (of 192.168.0.0-192.168.255.255)
-
 - 10.0.0.0/8 (of 10.0.0.0-10.255.255.255)
-
 - 172.16.0.0/11 (of 172.16.0.0-172.31.255.255)
 
 ## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>U hebt een NDR van een niet-uitgevoerde bezorging van een e-mailbericht ontvangen voor het verzenden van e-mail naar een gebruiker in Office 365

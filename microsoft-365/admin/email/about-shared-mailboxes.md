@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gedeelde postvakken worden gebruikt wanneer meerdere personen toegang hebben tot hetzelfde postvak. Meer informatie over wat u moet weten voordat u een gedeeld postvak maakt.
-ms.openlocfilehash: d0e0888a71e2a017b3934caa67f8d53ffb787fe7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: cc94ae30edcc7a8307328230989dc4a883732b0e
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445697"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568292"
 ---
 # <a name="about-shared-mailboxes"></a>Meer over gedeelde postvakken
 
@@ -42,7 +42,7 @@ Voordat u [een gedeeld postvak maakt](create-a-shared-mailbox.md), vindt u hier 
 
 - **Externe gebruikers:** U kunt personen van buiten uw bedrijf, zoals gebruikers met een Gmail-account, geen toegang geven tot uw gedeelde Postvak. Als u dat toch wilt doen, kunt u een groep voor Outlook maken. Zie [een Microsoft 365-groep maken in het Beheercentrum](../create-groups/create-groups.md)voor meer informatie.
 
--  **Gebruiken met Outlook:** U kunt niet alleen de webversie van Outlook vanuit uw browser gebruiken voor toegang tot gedeelde postvakken, maar ook de app Outlook voor iOS of de app Outlook voor Android. Zie <a href="https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">een gedeeld postvak toevoegen aan Outlook Mobile</a>voor meer informatie. Een andere optie is om een groep voor uw gedeelde Postvak te maken. Zie [Groepen vergelijken](../create-groups/compare-groups.md)voor meer informatie.  
+- **Gebruiken met Outlook:** U kunt niet alleen de webversie van Outlook vanuit uw browser gebruiken voor toegang tot gedeelde postvakken, maar ook de app Outlook voor iOS of de app Outlook voor Android. Zie [een gedeeld postvak toevoegen aan Outlook Mobile](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f)voor meer informatie. Een andere optie is om een groep voor uw gedeelde Postvak te maken. Zie [Groepen vergelijken](../create-groups/compare-groups.md)voor meer informatie.
 
 - **Versleuteling:** U kunt vanuit een gedeeld postvak verzonden e-mail niet versleutelen. Dit komt doordat een gedeeld postvak geen eigen beveiligingscontext (gebruikersnaam/wachtwoord) heeft, zodat er geen sleutel kan worden toegewezen. Als meer dan één persoon een lid is en ze berichten verzenden/ontvangen die ze hebben versleuteld met hun eigen toetsen, kunnen andere leden het e-mailbericht misschien wel lezen en ook niet op andere leden, afhankelijk van de openbare sleutel waarop het e-mailbericht is versleuteld.
 

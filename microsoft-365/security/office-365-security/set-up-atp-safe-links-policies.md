@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie lezen over het weergeven, maken, wijzigen en verwijderen van beleidsregels voor veilige koppelingen en algemene instellingen voor veilige koppelingen in Microsoft Defender voor Office 365.
-ms.openlocfilehash: ed95c72c98e0c9d59b9860e89843c5f9b4970c8e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 550be48d5f1cae490c53c8f4a9fcedb0b9f21f73
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846434"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572715"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels voor veilige koppelingen instellen in Microsoft Defender voor Office 365
 
@@ -40,7 +40,7 @@ U kunt beleidsregels voor veilige koppelingen configureren in het beveiligings &
 De basiselementen van een beleid voor veilige koppelingen zijn:
 
 - **Het beleid voor veilige** koppelingen: Schakel beveiliging van veilige koppelingen in, schakel de mogelijkheid om in realtime url's in te schakelen en geef aan of u wilt wachten tot de realtime-controle is voltooid voordat u het bericht bezorgt, de scanfunctie voor interne berichten opgeeft en opgeven of gebruikers de muisklik op de URL moeten volgen en opgeven of gebruikers op Trough kunnen klikken voor de oorspronkelijke URL.
-- **De regel voor veilige koppelingen** : Hiermee geeft u de prioriteit op voor de filters voor de prioriteit en de geadresseerden (waarvoor het beleid van toepassing is).
+- **De regel voor veilige koppelingen**: Hiermee geeft u de prioriteit op voor de filters voor de prioriteit en de geadresseerden (waarvoor het beleid van toepassing is).
 
 Het verschil tussen deze twee elementen is niet duidelijk wanneer u beleidsregels voor veilige koppelingen beheert in het beveiligings & nalevings centrum:
 
@@ -59,10 +59,16 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
-- Voor het weergeven, maken, wijzigen en verwijderen van beleid voor veilige koppelingen, moet u lid zijn van een van de volgende groepen rollen:
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+  - Als u beleidsregels voor veilige koppelingen wilt maken, wijzigen en verwijderen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+  - Voor alleen-lezen toegang tot beleid voor veilige koppelingen moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
-  - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-  - **Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+
+  **Opmerkingen**:
+
+  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
 
 - Zie [beleidsinstellingen voor veilige koppelingen](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings)voor de aanbevolen instellingen voor beleidsregels voor veilige koppelingen.
 
@@ -80,25 +86,25 @@ Als u een aangepast beleid voor veilige koppelingen maakt in de beveiligings & n
 
 3. De wizard **beleid voor nieuwe beleidsregels** wordt geopend. Configureer de volgende instellingen op de pagina **naam van uw beleid** :
 
-   - **Naam** : een unieke beschrijvende naam voor het beleid.
+   - **Naam**: een unieke beschrijvende naam voor het beleid.
 
-   - **Beschrijving** : voer een optionele beschrijving in voor het beleid.
+   - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
 4. Configureer de volgende instellingen op de pagina **instellingen** die wordt weergegeven:
 
-   - **Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten** : Selecteer **aan** om de bescherming van veilige koppelingen in te schakelen voor koppelingen in e-mailberichten.
+   - **Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten**: Selecteer **aan** om de bescherming van veilige koppelingen in te schakelen voor koppelingen in e-mailberichten.
 
-   - **Selecteer de actie voor onbekende of mogelijk schadelijke url's in Microsoft teams** : Selecteer **aan om de bescherming van veilige** koppelingen in te schakelen voor koppelingen in teams.
+   - **Selecteer de actie voor onbekende of mogelijk schadelijke url's in Microsoft teams**: Selecteer **aan om de bescherming van veilige** koppelingen in te schakelen voor koppelingen in teams.
 
-   - Het **scannen van realtime-Url's toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden** : Selecteer deze instelling om de realtime scan van koppelingen in e-mailberichten in te schakelen.
+   - Het **scannen van realtime-Url's toepassen op verdachte koppelingen en koppelingen die verwijzen naar bestanden**: Selecteer deze instelling om de realtime scan van koppelingen in e-mailberichten in te schakelen.
 
-   - **Wacht totdat het scannen van url's is voltooid voordat u het bericht bezorgt** : Selecteer deze instelling om te wachten tot de realtime-URL wordt gescand voordat u het bericht aflevert.
+   - **Wacht totdat het scannen van url's is voltooid voordat u het bericht bezorgt**: Selecteer deze instelling om te wachten tot de realtime-URL wordt gescand voordat u het bericht aflevert.
 
-   - **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden** : Selecteer deze instelling om het beleid voor veilige koppelingen toe te passen op berichten tussen interne afzenders en interne geadresseerden.
+   - **Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie worden verzonden**: Selecteer deze instelling om het beleid voor veilige koppelingen toe te passen op berichten tussen interne afzenders en interne geadresseerden.
 
-   - **Gebruikers niet op klikken volgen** : laat deze instelling uitgeschakeld om de gebruiker te laten klikken op url's in e-mailberichten.
+   - **Gebruikers niet op klikken volgen**: laat deze instelling uitgeschakeld om de gebruiker te laten klikken op url's in e-mailberichten.
 
    - **Gebruikers niet toestaan door de oorspronkelijke URL** te klikken: Selecteer deze instelling om te voorkomen dat gebruikers op de oorspronkelijke URL van [waarschuwings pagina's](atp-safe-links.md#warning-pages-from-safe-links)klikken.
 
@@ -118,13 +124,13 @@ Als u een aangepast beleid voor veilige koppelingen maakt in de beveiligings & n
 
 5. Op de pagina **toegepast op** die wordt weergegeven, identificeert u de interne geadresseerden waarop het beleid van toepassing is.
 
-   U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_ ).
+   U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
-   Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als** :
+   Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als**:
 
-   - **De ontvanger is** : geeft een of meer postvakken, e-mail gebruikers of e-mail contactpersonen in uw organisatie op.
-   - **De ontvanger is lid van** : Hiermee geeft u een of meer groepen op in uw organisatie.
-   - **Het domein van de geadresseerde is** : specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie.
+   - **De ontvanger is**: geeft een of meer postvakken, e-mail gebruikers of e-mail contactpersonen in uw organisatie op.
+   - **De ontvanger is lid van**: Hiermee geeft u een of meer groepen op in uw organisatie.
+   - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie.
 
    Wanneer u de voorwaarde hebt geselecteerd, wordt een bijbehorende vervolgkeuzelijst weergegeven met een **van deze** vakken.
 
@@ -182,7 +188,7 @@ Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen va
 
 Beleidsregels voor veilige koppelingen worden weergegeven in de volgorde waarin ze worden verwerkt ( **het eerste** beleid heeft de waarde 0).
 
-**Opmerking** : in het beveiligings & nalevings centrum kunt u de prioriteit van het beleid voor veilige koppelingen alleen wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit negeren wanneer u de regel voor veilige koppelingen maakt (die van invloed kunnen zijn op de prioriteit van bestaande regels).
+**Opmerking**: in het beveiligings & nalevings centrum kunt u de prioriteit van het beleid voor veilige koppelingen alleen wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit negeren wanneer u de regel voor veilige koppelingen maakt (die van invloed kunnen zijn op de prioriteit van bestaande regels).
 
 Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden verplaatsen in de lijst (u kunt het **Prioriteit** snummer in het Beveiligings en compliancecentrum niet rechtstreeks wijzigen).
 
@@ -194,7 +200,7 @@ Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden
 
    - Voor het beleid voor veilige koppelingen met de **prioriteits** waarde **0** is slechts de knop **prioriteit verlagen** beschikbaar.
 
-   - Het beleid voor veilige koppelingen met de laagste **prioriteits** waarde (bijvoorbeeld **3** ) is alleen beschikbaar voor de knop **prioriteit verhogen** .
+   - Het beleid voor veilige koppelingen met de laagste **prioriteits** waarde (bijvoorbeeld **3**) is alleen beschikbaar voor de knop **prioriteit verhogen** .
 
    - Als u een beleidsregels voor veilige koppelingen hebt, kunt u beleidsregels gebruiken tussen de waarden voor de hoogste en laagste prioriteit, en de knoppen prioriteit **verhogen** en **prioriteit verlagen** .
 
@@ -227,13 +233,13 @@ Het maken van een beleid voor veilige koppelingen in PowerShell is een procedure
 1. Maak het beleid voor veilige koppelingen.
 2. Maak de regel voor veilige koppelingen die het beleid voor veilige koppelingen opgeeft waarop de regel van toepassing is.
 
- **Opmerkingen** :
+ **Opmerkingen**:
 
 - U kunt een nieuwe regel voor veilige koppelingen maken en hieraan een bestaand, niet-gekoppeld beleid voor veilige koppelingen toewijzen. Een regel voor veilige koppelingen kan niet worden gekoppeld aan meer dan één beleid voor veilige koppelingen.
 
 - U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor veilige koppelingen in PowerShell die niet beschikbaar zijn in het beveiligings & nalevings centrum voordat u het beleid hebt gemaakt:
 
-  - Het nieuwe beleid maken als uitgeschakeld ( _ingeschakeld_ `$false` in de **nieuwe SafeLinksRule-** cmdlet).
+  - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld_ `$false` in de **nieuwe SafeLinksRule-** cmdlet).
   - De prioriteit van het beleid instellen voor het maken _Priority_ van de _\<Number\>_ **nieuwe SafeLinksRule-** cmdlet (prioriteit).
 
 - Een nieuw beleid voor veilige koppelingen dat u in PowerShell maakt, is niet zichtbaar in het beveiligings & nalevings centrum tot u het beleid aan een regel voor veilige koppelingen toewijst.
@@ -246,7 +252,7 @@ Als u een beleid voor veilige koppelingen wilt maken, gebruikt u de volgende syn
 New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEnabled <$true | $false>] [-EnableSafeLinksForTeams <$true | $false>] [-ScanUrls <$true | $false>] [-DeliverMessageAfterScan <$true | $false>] [-EnableForInternalSenders <$true | $false>] [-DoNotAllowClickThrough <$true | $false>] [-DoNotTrackUserClicks <$true | $false>] [-DoNotRewriteUrls "Entry1","Entry2",..."EntryN"]
 ```
 
-**Opmerkingen** :
+**Opmerkingen**:
 
 - Zie de [invoer syntaxis voor de lijst ' de volgende url's niet herschrijven '](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)voor meer informatie over de syntaxis van de _DoNotRewriteUrls_ -parameter.
 
@@ -416,7 +422,7 @@ In dit voorbeeld wordt de prioriteit van de regel met de naam Marketing Departme
 Set-SafeLinksRule -Identity "Marketing Department" -Priority 2
 ```
 
-**Opmerking** : als u de prioriteit wilt instellen van een nieuwe regel wanneer u deze maakt, gebruikt u de parameter _Priority_ op de cmdlet **New-SafeLinksRule** .
+**Opmerking**: als u de prioriteit wilt instellen van een nieuwe regel wanneer u deze maakt, gebruikt u de parameter _Priority_ op de cmdlet **New-SafeLinksRule** .
 
 Zie [set-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule)voor gedetailleerde syntaxis-en parameterinformatie.
 

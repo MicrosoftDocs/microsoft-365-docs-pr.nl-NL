@@ -1,5 +1,5 @@
 ---
-title: Rapporten weergeven voor Defender voor Office 365
+title: Rapporten van Defender for Office 365 weergeven in het Dashboard rapporten
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-office365
 description: Rapporten voor Microsoft Defender voor Office 365 zoeken en gebruiken in het beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5efaef018c78bd161c9cde81af36be92173479ae
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: a237049c9ebbccf1c01feeb21129496e16d437b2
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561725"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572487"
 ---
-# <a name="view-reports-for-microsoft-defender-for-office-365"></a>Rapporten weergeven voor Microsoft Defender voor Office 365
+# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Rapporten van Defender for Office 365 weergeven in het Dashboard rapporten in het nalevings centrum voor beveiligings &
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -338,27 +338,16 @@ Naast de rapporten die in dit onderwerp worden beschreven, zijn er nog enkele an
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Welke machtigingen zijn vereist voor het weergeven van de rapporten van de Defender for Office 365?
 
-Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden beschreven, **moet u beschikken over de juiste rol die is toegewezen aan de beveiligings & nalevings centrum en het Beheercentrum van Exchange**.
+Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden beschreven, moet u lid zijn van een van de volgende rollen groepen in het compliance-& Beveiligingscentrum:
 
-- Voor het beveiligings & nalevings centrum moet een van de volgende rollen zijn toegewezen:
+- **Organisatiebeheer**
+- **Beveiligingsbeheerder**
+- **Beveiligings lezer**
+- **Algemene lezer**
 
-  - Organisatiebeheer
-  - Beveiligingsbeheerder (deze kan worden toegewezen in het Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) ))
-  - Beveiligings operator (dit kan worden toegewezen in het Azure Active Directory-beheercentrum [https://aad.portal.azure.com](https://aad.portal.azure.com) )
-  - Beveiligings lezer
+Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-- Voor Exchange Online moet u beschikken over een van de volgende rollen die zijn toegewezen in het Exchange-Beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) of met PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)):
-
-  - Organisatiebeheer
-  - Organisatiebeheer alleen weergeven
-  - Rollen View-Only geadresseerden
-  - Nalevings beheer
-
-Zie de volgende bronnen voor meer informatie:
-
-- [Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)
-
-- [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+**Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat moet ik doen als de rapporten geen gegevens weergeven?
 

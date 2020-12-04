@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: Meer informatie over het gebruik van het rapport postvak bijhouden voor de activiteiten van de gebruikers met een postvak van de gebruiker.
-ms.openlocfilehash: 988f6e638e01cb5929e2ad9dd74e3d08f8e51c97
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: ee6a39518cc4e73364749d3634710b5d9db868ba
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561457"
+ms.locfileid: "49568268"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>Microsoft 365-rapporten in het Beheercentrum-postvakgebruik
 
@@ -36,8 +36,8 @@ Het **rapport postvakgebruik** biedt informatie over gebruikers met het postvak 
 ## <a name="how-to-get-to-the-mailbox-usage-report"></a>Het gebruiksrapport verkrijgen
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>.
-2. Selecteer **meer weergeven** onder **actieve gebruikers: Microsoft 365-Services**. 
-3. Selecteer in de vervolgkeuzelijst met **actieve gebruikers** de optie **Exchange** - \> **postvakgebruik**.
+2. Selecteer **meer weergeven** onder **e-mail activiteit**. 
+3. Selecteer in de vervolgkeuzelijst **e-mail activiteit** de **Exchange** optie \> **postvakgebruik** in Exchange.
 
   
 ## <a name="interpret-the-mailbox-usage-report"></a>Het rapport Postvakgebruik interpreteren

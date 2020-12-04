@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u het anti-phishingfilter kunt maken, wijzigen en verwijderen dat beschikbaar is in organisaties met een Exchange Online-bescherming (EOP) met of zonder postvakken van Exchange Online.
-ms.openlocfilehash: 797dc36670ad8c3b8515a1e06efc43e57ea2dc71
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 69ab17263ab8c0cc03d3bc4aed6bdf39b251b9fb
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846458"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572523"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Anti-phishings beleid configureren in EOP
 
@@ -36,8 +36,8 @@ Voor informatie over het maken en aanpassen van het Geavanceerd anti-phishingfil
 
 De basisonderdelen van een anti phishingfilter zijn:
 
-- **Het anti-virus beleid** : Hiermee geeft u de phishing-beveiliging op om in of uit te schakelen, en de acties voor het toepassen van opties.
-- **De anti-phishings regel** : Hiermee geeft u de prioriteiten en de filters voor geadresseerden op (wie het beleid van toepassing is) voor een anti-phishing beleid.
+- **Het anti-virus beleid**: Hiermee geeft u de phishing-beveiliging op om in of uit te schakelen, en de acties voor het toepassen van opties.
+- **De anti-phishings regel**: Hiermee geeft u de prioriteiten en de filters voor geadresseerden op (wie het beleid van toepassing is) voor een anti-phishing beleid.
 
 Het verschil tussen deze twee elementen is niet duidelijk wanneer u een anti-phishing beleid beheert in de beveiligings & nalevings centrum:
 
@@ -63,17 +63,17 @@ Voor een grotere effectiviteit van de bescherming tegen phishing is het mogelijk
 
   U kunt geen anti-phishings beleid beheren in standalone EOP PowerShell.
 
-- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+  - Als u een anti-phishings beleid wilt toevoegen, wijzigen of verwijderen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+  - Voor alleen-lezen toegang tot anti phishingfilter moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** <sup>\*</sup> .
 
-  - Als u een anti-phishingfilter wilt toevoegen, wijzigen of verwijderen, moet u lid zijn van een van de volgende groepen rollen:
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Opmerkingen**:
 
-  - Voor alleen-lezen toegang tot anti phishingfilter moet u lid zijn van een van de volgende rollen groepen:
-
-    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie <sup>\*</sup> .
+  - <sup>\*</sup> In het beveiligings & voor nalevings centrum kunt u met alleen-lezen toegang de instellingen van een aangepast anti-phishing beleid bekijken. Alleen-lezen gebruikers kunnen de instellingen van het standaard anti-Phishingfilter niet zien.
 
 - Als u een anti-phishings beleid wilt maken en wijzigen in een zelfstandige EOP, moet u iets doen waarvoor _bidons_ voor uw Tenant is vereist. In het Exchange-Beheercentrum gaat u bijvoorbeeld naar het tabblad **machtigingen** , selecteert u een bestaande rollen groep, klikt u op **Edit** ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) en verwijdert u een functie (die u uiteindelijk later gaat toevoegen). Als uw Tenant nooit is gehydrateerd, krijgt u een dialoogvenster met de naam **organisatie-instellingen bijwerken** met een voortgangsbalk die succesvol moet worden voltooid. Als u meer wilt weten over bidons, raadpleegt u de cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (die niet beschikbaar is in een zelfstandige EOP PowerShell of in het beveiligings & nalevings centrum).
 
@@ -95,21 +95,21 @@ Wanneer u een anti Phishingfilter maakt, kunt u alleen de Beleidsnaam, de beschr
 
 3. De wizard **nieuw anti-phishingfilterbeleid maken** wordt geopend. Configureer de volgende instellingen op de pagina **naam van uw beleid** :
 
-   - **Naam** : een unieke beschrijvende naam voor het beleid.
+   - **Naam**: een unieke beschrijvende naam voor het beleid.
 
-   - **Beschrijving** : voer een optionele beschrijving in voor het beleid.
+   - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
 4. Op de pagina **toegepast op** die wordt weergegeven, identificeert u de interne geadresseerden waarop het beleid van toepassing is.
 
-   U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_ ).
+   U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
-   Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als** :
+   Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als**:
 
-   - **De ontvanger is** : geeft een of meer postvakken, e-mail gebruikers of e-mail contactpersonen in uw organisatie op.
-   - **De ontvanger is lid van** : Hiermee geeft u een of meer groepen op in uw organisatie.
-   - **Het domein van de geadresseerde is** : specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie.
+   - **De ontvanger is**: geeft een of meer postvakken, e-mail gebruikers of e-mail contactpersonen in uw organisatie op.
+   - **De ontvanger is lid van**: Hiermee geeft u een of meer groepen op in uw organisatie.
+   - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie.
 
    Wanneer u de voorwaarde hebt geselecteerd, wordt een bijbehorende vervolgkeuzelijst weergegeven met een **van deze** vakken.
 
@@ -147,7 +147,7 @@ Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuw
 
    - Nadat u op **bewerken** in een sectie hebt geklikt, worden de beschikbare instellingen in de wizard indeling weergegeven, maar u kunt wel binnen de pagina's in een willekeurige Volg **Cancel** orde springen **Close** , en u kunt op de pagina **Opslaan** of sluiten klikken op het pictogram voor het ![ ](../../media/scc-remove-icon.png) **bewerken van uw beleid \<name\>** (u hoeft niet te klikken op de laatste pagina van de wizard om de pagina te openen
 
-4. **Beleidsinstelling** : Klik op **bewerken** als u de instellingen wilt wijzigen die beschikbaar waren wanneer u [het beleid hebt gemaakt](#use-the-security--compliance-center-to-create-anti-phishing-policies) in de vorige sectie:
+4. **Beleidsinstelling**: Klik op **bewerken** als u de instellingen wilt wijzigen die beschikbaar waren wanneer u [het beleid hebt gemaakt](#use-the-security--compliance-center-to-create-anti-phishing-policies) in de vorige sectie:
 
    - **Naam**
    - **Beschrijving**
@@ -156,25 +156,25 @@ Gebruik de volgende procedures om een anti-phishingfilter te wijzigen: een nieuw
 
    Wanneer u klaar bent, klikt u op **Opslaan** op een willekeurige pagina.
 
-5. **Spoof** : Klik op **bewerken** als u de identiteit van spoofing wilt in-of uitschakelen, schakel de identificatie van niet-geverifieerde afzenders in Outlook in of uit en configureer de actie die u wilt toepassen op berichten van geblokkeerde vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings).
+5. **Spoof**: Klik op **bewerken** als u de identiteit van spoofing wilt in-of uitschakelen, schakel de identificatie van niet-geverifieerde afzenders in Outlook in of uit en configureer de actie die u wilt toepassen op berichten van geblokkeerde vervalste afzenders. Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings).
 
    Deze instellingen zijn ook beschikbaar in anti-phishing-beleid in de Defender voor Office 365.
 
-   - **Instellingen voor spoofing filter** : de standaardwaarde is **ingeschakeld** en u wordt aangeraden deze in te stellen. Verschuif de wissel **knop om deze** uit te schakelen. Zie voor meer informatie [spoof Intelligence configureren in EOP](learn-about-spoof-intelligence.md).
+   - **Instellingen voor spoofing filter**: de standaardwaarde is **ingeschakeld** en u wordt aangeraden deze in te stellen. Verschuif de wissel **knop om deze** uit te schakelen. Zie voor meer informatie [spoof Intelligence configureren in EOP](learn-about-spoof-intelligence.md).
 
      > [!NOTE]
      > U hoeft geen anti-spoofing-beveiliging uit te schakelen als uw MX-record niet verwijst naar Microsoft 365. u kunt in plaats hiervan uitgebreid filteren op connectors. Zie voor meer informatie het artikel [uitgebreid filteren op connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-   - **Functie niet-geverifieerde afzender inschakelen** : de standaardwaarde is **ingeschakeld**. Verschuif de wissel **knop om deze** uit te schakelen.
+   - **Functie niet-geverifieerde afzender inschakelen**: de standaardwaarde is **ingeschakeld**. Verschuif de wissel **knop om deze** uit te schakelen.
 
-   - **Acties** : de actie opgeven die moet worden uitgevoerd voor berichten die geen spoof Intelligence hebben:
+   - **Acties**: de actie opgeven die moet worden uitgevoerd voor berichten die geen spoof Intelligence hebben:
 
      **Als e-mail wordt verzonden door iemand die uw domein niet mag vervalsen, doet u het** volgende:
 
      - **Bericht verplaatsen naar de mappen ongewenste E-mail van de geadresseerde**
      - **Het bericht Quarantine**
 
-   - **Controleer uw instellingen** : in plaats van op elke afzonderlijke stap te klikken, worden de instellingen in een overzicht weergegeven.
+   - **Controleer uw instellingen**: in plaats van op elke afzonderlijke stap te klikken, worden de instellingen in een overzicht weergegeven.
 
      - U kunt in elke sectie op **bewerken** klikken om terug te gaan naar de gewenste pagina.
      - U kunt de volgende instellingen rechtstreeks op deze pagina **in** -of **uitschakelen** :
@@ -228,7 +228,7 @@ Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen va
 
 Een aangepast anti-phishings beleid wordt weergegeven in de volgorde waarin ze worden verwerkt ( **het eerste** beleid heeft de waarde 0). Het standaard anti-phishingfilter met de naam Office365 AntiPhish standaard heeft de waarde van een aangepaste **prioriteit en kunt** deze niet wijzigen.
 
- **Opmerking** : in het beveiligings & nalevings centrum kunt u de prioriteit van het anti phishingfilter wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit negeren wanneer u de regel voor de anti-phishing maakt (die van invloed kunnen zijn op de prioriteit van bestaande regels).
+ **Opmerking**: in het beveiligings & nalevings centrum kunt u de prioriteit van het anti phishingfilter wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit negeren wanneer u de regel voor de anti-phishing maakt (die van invloed kunnen zijn op de prioriteit van bestaande regels).
 
 Als u de prioriteit van een beleid wilt wijzigen, klikt u op **prioriteit verhogen** of **prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **prioriteits** nummer niet rechtstreeks wijzigen in de beveiligings & compliance Center). Als u meerdere beleidsregels hebt, kunt u de prioriteit van een beleid alleen wijzigen.
 
@@ -240,7 +240,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **prioriteit verhog
 
    - Het aangepaste anti-phishingfilter met de **prioriteits** waarde **0** heeft slechts de knop **prioriteit verlagen** .
 
-   - Het aangepaste anti-phishingfilter met de laagste **prioriteits** waarde (bijvoorbeeld **3** ) is slechts de knop **prioriteit verhogen** beschikbaar.
+   - Het aangepaste anti-phishingfilter met de laagste **prioriteits** waarde (bijvoorbeeld **3**) is slechts de knop **prioriteit verhogen** beschikbaar.
 
    - Als u beschikt over drie of meer aangepaste anti phishingfilter-beleidsregels, hebben beleidsregels tussen de hoogste en laagste prioriteit de knoppen **prioriteit verhogen** en **prioriteit verlagen** .
 
@@ -290,13 +290,13 @@ Het maken van een anti-phishingfilter in PowerShell is een procedure die bestaat
 1. Maak het anti-phishings beleid.
 2. Maak de anti-phishings regel waarmee het anti-phishings beleid wordt aangegeven waarop de regel van toepassing is.
 
- **Opmerkingen** :
+ **Opmerkingen**:
 
 - U kunt een nieuwe anti-phishings regel maken en er een bestaande, niet-bijbehorend anti-phishings beleid aan toewijzen. Een anti-phishings regel kan niet worden gekoppeld aan meer dan een anti-phishings beleid.
 
 - U kunt de volgende instellingen configureren voor nieuwe anti-phishings beleidsregels in PowerShell die niet beschikbaar zijn in het beveiligings & compliance Center totdat u het beleid hebt gemaakt:
 
-  - Het nieuwe beleid maken als uitgeschakeld ( _ingeschakeld_ `$false` in de **nieuwe AntiPhishRule-** cmdlet).
+  - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld_ `$false` in de **nieuwe AntiPhishRule-** cmdlet).
   - De prioriteit van het beleid instellen voor het maken _Priority_ van de _\<Number\>_ **nieuwe AntiPhishRule-** cmdlet (prioriteit).
 
 - Een nieuw anti-phishings beleid dat u in PowerShell maakt, is niet zichtbaar in het beveiligings & nalevings centrum tot u het beleid aan een anti-phishing regel toewijst.
@@ -464,7 +464,7 @@ In dit voorbeeld wordt de prioriteit van de regel met de naam Marketing Departme
 Set-AntiPhishRule -Identity "Marketing Department" -Priority 2
 ```
 
-**Opmerkingen** :
+**Opmerkingen**:
 
 - Als u de prioriteit wilt instellen van een nieuwe regel wanneer u deze maakt, gebruikt u de parameter _Priority_ op de cmdlet **New-AntiPhishRule** .
 

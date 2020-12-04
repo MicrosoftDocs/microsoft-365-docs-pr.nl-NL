@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen de standaard-en strikte beleidsinstellingen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
-ms.openlocfilehash: 38a03727f91878f356d8bc0dc618c711bfc500bb
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: e968f7ea768ac8a0b402c28f3830a52b44afa342
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845730"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572775"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
@@ -44,32 +44,32 @@ Daarnaast is de volgorde van prioriteit belangrijk als er meerdere vooraf ingest
 
 Een profiel bepaalt het beschermingsniveau. De volgende profielen zijn beschikbaar:
 
-- **Standaard bescherming** : een profiel voor basisbescherming dat geschikt is voor de meeste gebruikers.
-- **Stringente bescherming** : een meer agressief beveiligingsprofiel voor geselecteerde gebruikers (doelgroepen met hoge waarden of gebruikersprioriteit).
+- **Standaard bescherming**: een profiel voor basisbescherming dat geschikt is voor de meeste gebruikers.
+- **Stringente bescherming**: een meer agressief beveiligingsprofiel voor geselecteerde gebruikers (doelgroepen met hoge waarden of gebruikersprioriteit).
 
 U gebruikt regels met voorwaarden en uitzonderingen om te bepalen wie er profielen zijn of waarop niet wordt toegepast.
 
-U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_ ). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_ ).
+U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
 Dit zijn de beschikbare voorwaarden en uitzonderingen:
 
-- **De geadresseerden zijn** : postvakken, e-mail gebruikers of contactpersonen in uw organisatie.
-- **De geadresseerden zijn lid van** : groepen in uw organisatie.
-- **De domeinen van de ontvanger zijn** : geaccepteerde domeinen die zijn geconfigureerd in microsoft 365.
+- **De geadresseerden zijn**: postvakken, e-mail gebruikers of contactpersonen in uw organisatie.
+- **De geadresseerden zijn lid van**: groepen in uw organisatie.
+- **De domeinen van de ontvanger zijn**: geaccepteerde domeinen die zijn geconfigureerd in microsoft 365.
 
 ### <a name="policies-in-preset-security-policies"></a>Beleidsregels in vooraf ingesteld beveiligingsbeleid
 
 Vooraf ingesteld beveiligingsbeleid gebruikt het bijbehorende beleid van de verschillende beveiligingsfuncties in EOP en Microsoft Defender voor Office 365. Deze beleidsregels worden gemaakt _nadat_ u de vooraf ingestelde beveiligings beleidsregels **Standaardbeveiliging** of **strikte beveiliging** aan gebruikers hebt toegewezen. U kunt deze beleidsregels niet wijzigen.
 
-- **Beleid voor Exchange Online Protection (EOP)** : Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
+- **Beleid voor Exchange Online Protection (EOP)**: Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
   
   - [Anti spam beleid](configure-your-spam-filter-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikte beveiligingsbeleid**.
   - [Beleidsregels voor anti-malware](configure-anti-malware-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikt vooraf ingesteld beveiligingsbeleid**.
   - [EOP anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid** (spoof instellingen).
 
-- **Beleidsregels voor Microsoft Defender voor Office 365** : Dit omvat organisaties met microsoft 365 E5 of Defender voor Office 365-invoegtoepassingen:
+- **Beleidsregels voor Microsoft Defender voor Office 365**: Dit omvat organisaties met microsoft 365 E5 of Defender voor Office 365-invoegtoepassingen:
 
-  - Anti phishingfilter in Microsoft Defender voor Office 365 met de naam **standaard vooraf ingestelde beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid** , waaronder:
+  - Anti phishingfilter in Microsoft Defender voor Office 365 met de naam **standaard vooraf ingestelde beveiligingsbeleid** en **strikte vooraf ingesteld beveiligingsbeleid**, waaronder:
 
     - De [instellingen voor spoofing](set-up-anti-phishing-policies.md#spoof-settings) die beschikbaar zijn in het anti-phishings beleid van EOP.
     - [Imitatie-instellingen](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
@@ -104,18 +104,11 @@ Met andere woorden: de instellingen van het **strikte beveiligings** beleid nege
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
+- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
 
-  - Voor het configureren van vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van een van de volgende groepen rollen:
+  - Voor het configureren van vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van de rollen **Organisatiebeheer** of **beveiligingsbeheerder** in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
-    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
-
-  - Voor alleen-lezen toegang voor vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van een van de volgende groepen rollen:
-
-    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Algemene lezer** in de [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - Voor alleen-lezen toegang voor vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van de rollen groep **algemene lezer** in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Met behulp van het compliance-beveiligings & u vooraf ingestelde beveiligingsbeleidsregels aan gebruikers toewijzen
 
@@ -125,7 +118,7 @@ Met andere woorden: de instellingen van het **strikte beveiligings** beleid nege
 
 3. De wizard **Standaardbeveiliging toepassen** of **strikte beveiliging toepassen** . Identificeer op de **EOP-beveiligingstoepassing voor** stap de interne geadresseerden waarop de [EOP-bescherming](#policies-in-preset-security-policies) van toepassing is:
 
-   1. Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als** :
+   1. Klik op **een voorwaarde toevoegen**. Selecteer een voorwaarde in de vervolgkeuzelijst die wordt weergegeven **als**:
 
       - **De geadresseerden zijn**
       - **De geadresseerden zijn lid van**

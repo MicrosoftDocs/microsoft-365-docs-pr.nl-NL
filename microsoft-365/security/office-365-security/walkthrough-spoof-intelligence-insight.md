@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen inzicht krijgen in de werking van de spoof Intelligence-informatie. De persoon kan snel bepalen welke afzenders legitiem e-mail naar hun organisatie verzenden vanuit domeinen die geen e-mail verificatiecontroles doorgeven (SPF, DKIM of DMARC).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 89a31c6df7c9b6e02f52ea414ceb6334427feab1
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 6f5ebd0fd42d17354eeb1e03c946ac5446c3667c
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920476"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572739"
 ---
 # <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Scenario-spoof informatie inzicht in Microsoft Defender voor Office 365
 
@@ -44,12 +44,13 @@ Dit scenario is een van de verschillende voor het beveiligings & nalevings centr
 
   U kunt de spoof Intelligence-informatie van meer dan één dashboard bekijken in de beveiligings & compliance Center. Ongeacht het dashboard dat u zoekt, biedt het inzicht dezelfde Details, zodat u snel dezelfde taken kunt uitvoeren.
 
-- U moet machtigingen zijn toegewezen voordat u de procedures in dit onderwerp kunt uitvoeren. Als u de spoof Intelligence-inzichten wilt gebruiken, moet u lid zijn van een van de volgende rollen groepen:
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+  - **Organisatiebeheer**
+  - **Beveiligingsbeheerder**
+  - **Beveiligings lezer**
+  - **Algemene lezer**
 
-  - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-  - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
-  - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-  - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
 
 - U schakelt spoof informatie in en uit in anti-phishing-beleid in Microsoft Defender voor Office 365. Zie [anti phishingberichten configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)voor meer informatie.
 
@@ -61,8 +62,8 @@ Dit scenario is een van de verschillende voor het beveiligings & nalevings centr
 
 2. Ga naar de rij **inzichten** en zoek een van de volgende items:
 
-   - **Spoof Intelligence is ingeschakeld** : het inzicht is **in vervals bare domeinen die de authenticatie van de afgelopen 30 dagen mislukt**. Dit is de standaardinstelling.
-   - **Spoof-informatie is uitgeschakeld** : de inzichten van de naam **spoofing inschakelen** en op de optie om spoof Intelligence in te schakelen.
+   - **Spoof Intelligence is ingeschakeld**: het inzicht is **in vervals bare domeinen die de authenticatie van de afgelopen 30 dagen mislukt**. Dit is de standaardinstelling.
+   - **Spoof-informatie is uitgeschakeld**: de inzichten van de naam **spoofing inschakelen** en op de optie om spoof Intelligence in te schakelen.
 
 3. Het inzicht in het Dashboard toont u informatie zoals hier:
 
@@ -70,9 +71,9 @@ Dit scenario is een van de verschillende voor het beveiligings & nalevings centr
 
    Dit inzicht heeft in twee modi:
 
-   - Berekenings **modus** : als spoof Intelligence is ingeschakeld, ziet u in het voor inzicht hoe veel berichten werden beïnvloed door onze spoofberichten en de afgelopen 30 dagen.
+   - Berekenings **modus**: als spoof Intelligence is ingeschakeld, ziet u in het voor inzicht hoe veel berichten werden beïnvloed door onze spoofberichten en de afgelopen 30 dagen.
 
-   - **Wat als-modus** : als spoof Intelligence is uitgeschakeld, kunt u in het inzicht zien hoeveel *berichten werden beïnvloed door* onze vervals Intelligence-mogelijkheden in de afgelopen 30 dagen.
+   - **Wat als-modus**: als spoof Intelligence is uitgeschakeld, kunt u in het inzicht zien hoeveel *berichten werden beïnvloed door* onze vervals Intelligence-mogelijkheden in de afgelopen 30 dagen.
 
    In beide gevallen zijn de spoofende domeinen die worden weergegeven in het inzicht, onderverdeeld in twee categorieën: **verdachte domein paren** en **niet-verdachte domein paren**. Deze categorieën worden verder onderverdeeld in drie verschillende buckets om te worden gecontroleerd.
 
@@ -84,11 +85,11 @@ Dit scenario is een van de verschillende voor het beveiligings & nalevings centr
 
    **Verdachte domein paren** zijn:
 
-   - **Spoofing van hoge betrouwbaarheid** : op basis van de historische verplaatsings patronen en de reputatie Score van de domeinen, hebben we nadrukkelijk vertrouwen dat de domeinen wel spoofing zijn en dat berichten van deze domeinen waarschijnlijk schadelijk zijn.
+   - **Spoofing van hoge betrouwbaarheid**: op basis van de historische verplaatsings patronen en de reputatie Score van de domeinen, hebben we nadrukkelijk vertrouwen dat de domeinen wel spoofing zijn en dat berichten van deze domeinen waarschijnlijk schadelijk zijn.
 
-   - **Spoofing van matige betrouwbaarheid** : op basis van de historische Verstuur patronen en de reputatie Score van de domeinen, zijn er zeker van te zijn dat de domeinen spoofing zijn en dat berichten die vanuit deze domeinen worden verzonden, legitiem zijn. In deze categorie zijn er onjuiste positieve en onjuiste vertrouw baarheid van een spoof.
+   - **Spoofing van matige betrouwbaarheid**: op basis van de historische Verstuur patronen en de reputatie Score van de domeinen, zijn er zeker van te zijn dat de domeinen spoofing zijn en dat berichten die vanuit deze domeinen worden verzonden, legitiem zijn. In deze categorie zijn er onjuiste positieve en onjuiste vertrouw baarheid van een spoof.
 
-   - **Niet-verdachte domein paren** (waaronder **herstel van spoofing** ): het domein is vanwege expliciete verificatie van e-mail [verificatie gecontroleerd,](how-office-365-uses-spf-to-prevent-spoofing.md) [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)). Het domein heeft echter wel verificatie gecontroleerd op impliciete e-mail verificatie ([samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)). Daarom is er geen anti-spoofing-actie uitgevoerd voor het bericht.
+   - **Niet-verdachte domein paren** (waaronder **herstel van spoofing**): het domein is vanwege expliciete verificatie van e-mail [verificatie gecontroleerd,](how-office-365-uses-spf-to-prevent-spoofing.md) [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)). Het domein heeft echter wel verificatie gecontroleerd op impliciete e-mail verificatie ([samengestelde verificatie](email-validation-and-authentication.md#composite-authentication)). Daarom is er geen anti-spoofing-actie uitgevoerd voor het bericht.
 
 ### <a name="view-detailed-information-about-suspicious-domain-pairs-from-the-spoof-intelligence-insight"></a>Gedetailleerde informatie weergeven over verdachte domein paren van de spoof Intelligence Insight
 
@@ -119,7 +120,7 @@ Als u een domein paar toestaat, is de combinatie van het vervalste domein *en* d
 
 U kunt bijvoorbeeld het volgende domein paar vervalste berichten in uw organisatie verzenden:
 
-- *Vervalste domein* : Gmail.com
+- *Vervalste domein*: Gmail.com
 - *Infrastructuur verzenden* `tms.mx.com` :
 
 Alleen e-mailberichten van dit domein paar kunnen worden vervalst. Andere afzenders proberen te vervalsen gmail.com zijn niet toegestaan. Berichten in andere domeinen van tms.mx.com zijn gecontroleerd via spoof Intelligence.

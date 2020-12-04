@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van de portal voor uitnodigingen van de beveiligings & nalevings centrum voor het verzenden van verdachte e-mailberichten, verdachte e-mailberichten, spam en andere mogelijk schadelijke berichten, Url's en bestanden aan Microsoft voor het scannen.
-ms.openlocfilehash: 1e133c0d4a875fc9735cc8a92e42b6ffeee6dd5f
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 0c01afff2e9e5a656099192f3867bb3a6f1cee23
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527743"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568588"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.
 
@@ -60,10 +60,10 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 1. Selecteer in de sectie **object type** de optie **e-mail**. Gebruik een van de volgende opties in de sectie **opmaak van indiening** .
 
-   - **Netwerkbericht-id**: dit is een GUID-waarde die beschikbaar is in de header **X-MS-Exchange-Organization-Network-Message-ID** in het bericht.
+   - **Netwerkbericht-id**: dit is een GUID-waarde die beschikbaar is in de header **x-MS-Exchange-Organization-Network-Message-ID** in het bericht of in de header **X-MS-Office365-filtering-correlatie-id** in berichten in quarantaine.
 
    - **Bestand**: Klik op **bestand kiezen**. In het dialoogvenster dat wordt geopend, zoekt en selecteert u het bestand. eml of. msg en klikt u vervolgens op **openen**.
-   
+
    > [!NOTE]
    > Beheerders met Defender voor Office 365, abonnement 1 of abonnement 2 kunnen berichten indienen als oud als 30 dagen. Andere beheerders kunnen 7 dagen maar één keer teruggaan.
 
@@ -244,7 +244,7 @@ Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren
 
 ## <a name="undo-user-submissions"></a>Gebruikers uitchecken ongedaan maken
 
-Wanneer een gebruiker een verdacht e-mailbericht voor het aangepaste postvak heeft ingediend, beschikt de gebruiker en beheerder niet over de optie om de verzending ongedaan te maken. Als de gebruiker de e-mail wil herstellen, is deze beschikbaar voor herstel in de mappen Verwijderde items of ongewenste E-mail. 
+Wanneer een gebruiker een verdacht e-mailbericht voor het aangepaste postvak heeft ingediend, beschikt de gebruiker en beheerder niet over de optie om de verzending ongedaan te maken. Als de gebruiker de e-mail wil herstellen, is deze beschikbaar voor herstel in de mappen Verwijderde items of ongewenste E-mail.
 
 ### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>Berichten indienen bij Microsoft vanuit het aangepaste Postvak
 

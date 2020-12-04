@@ -14,16 +14,19 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
-ms.openlocfilehash: 4fc12645ccd6a022e4ef4ebe849ac91ba431129b
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: b29eb29cd390c3febd0992e942cf8ab39f652fb2
+ms.sourcegitcommit: 26c2f01d6f88f6c288b04f9f08062d68dd1e67e1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087077"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49569985"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Test hulpmiddel voor Microsoft 365-netwerkverbindingen (preview)
 
 Het testprogramma voor Microsoft 365-netwerkconnectiviteit bevindt zich op <https://connectivity.office.com> . Het is een adjunct-hulpmiddel voor de netwerkanalyse-en netwerk inzichten-informatie die beschikbaar is in het Microsoft 365-Beheercentrum, onder de **status | Verbindings** menu.
+
+> [!IMPORTANT]
+> Het is belangrijk om u aan te melden bij uw Microsoft 365-Tenant omdat alle testrapporten worden gedeeld met de beheerder en worden geüpload naar de Tenant wanneer u bent aangemeld.
 
 ![Hulpprogramma voor connectiviteitstest](../media/m365-mac-perf/m365-mac-perf-test-tool-page.png)
 
