@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over de configuratie van URL-items in de lijst Tenant toestaan/blokkeren in het beveiligings & nalevings centrum.
-ms.openlocfilehash: eb9dcc5b239aae1366a0a2e0eebd68b3f0082e6b
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1aae54ffd6026a7fc131017a10f9676d96be9b69
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202337"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572635"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>URL's beheren in de lijst met toegestane/geblokkeerde tenants
 
@@ -52,17 +52,16 @@ In dit onderwerp wordt beschreven hoe u items in de lijst met toegestane/geblokk
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+  - Als u waarden wilt toevoegen aan of verwijderen uit de lijst Tenant toestaan/blokkeren, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+  - Voor alleen-lezen toegang tot de lijst Tenant toegestaan/blokkeren moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
-  - Als u waarden wilt toevoegen aan of verwijderen uit de lijst Tenant toestaan/blokkeren, moet u lid zijn van een van de volgende groepen rollen:
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Opmerkingen**:
 
-  - Voor alleen-lezen toegang tot de lijst Tenant toestaan/blokkeren moet u lid zijn van een van de volgende rollen groepen:
-
-    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het compliance-beveiligings & voor het maken van URL-vermeldingen in de lijst Tenant toestaan/blokkeren
 
@@ -120,7 +119,7 @@ Klik op **filter**. Configureer de volgende instellingen in de **gefilterde** fl
 
 Wanneer u klaar bent, klikt u op **toepassen**.
 
-Als u bestaande filters wilt wissen, klikt u op **filter**en klikt u in het **filter** flyout dat wordt weergegeven op **filters wissen**.
+Als u bestaande filters wilt wissen, klikt u op **filter** en klikt u in het **filter** flyout dat wordt weergegeven op **filters wissen**.
 
 ## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a>Met behulp van het compliance-beveiligings & voor het wijzigen van vermeldingen in de lijst Tenant toestaan/blokkeren
 
@@ -308,7 +307,7 @@ Geldige URL-vermeldingen en de bijbehorende resultaten worden beschreven in de v
   - www.contoso.com
   - www. contoso. com/q = a@contoso. com
 
-- **Blok niet-gerelateerde**waarde: ABC-contoso.com
+- **Blok niet-gerelateerde** waarde: ABC-contoso.com
 
 #### <a name="scenario-left-wildcard-subdomain"></a>Scenario: links jokerteken (subdomein)
 
@@ -373,7 +372,7 @@ Geldige URL-vermeldingen en de bijbehorende resultaten worden beschreven in de v
   - contoso.com/b/a/c
   - contoso.com/ba
 
-- **Niet-afgestemde** en niet- **gematchte blokkeren**toestaan: contoso.com
+- **Niet-afgestemde** en niet- **gematchte blokkeren** toestaan: contoso.com
 
 #### <a name="scenario-left-wildcard-subdomain-and-right-wildcard-suffix"></a>Scenario: het subdomein met jokertekens en het achtervoegsel rechts
 
@@ -387,7 +386,7 @@ Geldige URL-vermeldingen en de bijbehorende resultaten worden beschreven in de v
   - www.contoso.com/b/a/c
   - xyz.contoso.com/ba
 
-- **Niet-afgestemde** en niet- **gematchte blokkeren**toestaan: contoso.com/b
+- **Niet-afgestemde** en niet- **gematchte blokkeren** toestaan: contoso.com/b
 
 #### <a name="scenario-left-and-right-tilde"></a>Scenario: linker-en rechter tilde
 
@@ -410,7 +409,7 @@ Geldige URL-vermeldingen en de bijbehorende resultaten worden beschreven in de v
 
 **Invoer**: `1.2.3.4`
 
-- **Overeenkomst toestaan** en **blokkeren**toestaan: 1.2.3.4
+- **Overeenkomst toestaan** en **blokkeren** toestaan: 1.2.3.4
 
 - **Niet-gematchte** en **geblokkeerde blokkeren**:
 
@@ -456,7 +455,7 @@ De volgende vermeldingen zijn ongeldig:
   - \*
   - \*.\*
 
-- **Jokertekens**voor het midden:
+- **Jokertekens** voor het midden:
 
   - conto \* so.com
   - rel. com
