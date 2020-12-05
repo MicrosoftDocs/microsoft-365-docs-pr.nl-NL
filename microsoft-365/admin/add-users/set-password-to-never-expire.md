@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Meer informatie over het instellen van wachtwoorden voor afzonderlijke gebruikers voor nooit verloopt, met behulp van Windows PowerShell.
-ms.openlocfilehash: 9497dfb5793ddbfc3d6845ec1efba91ad972ea38
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2d60a8312be070d3f56cfef7cfb93e6c5da32991
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646653"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580635"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt
 
@@ -107,6 +107,9 @@ Run one of the following commands:
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
     ```
 
+> [!WARNING]
+> Gebruikersaccounts die zijn geconfigureerd met de `-PasswordPolicies DisablePasswordExpiration` parameter die nog ouder is gemaakt op basis van het `pwdLastSet` kenmerk. `pwdLastSet`Als u het verloop overstapt op basis van het kenmerk, `-PasswordPolicies None` moet de gebruiker de volgende keer dat u zich aanmeldt voor alle wachtwoorden die een pwdLastSet hebben die ouder zijn dan 90 dagen. Deze wijziging kan van invloed zijn op een groot aantal gebruikers.
+
 ### <a name="set-a-password-to-expire"></a>Instellen dat een wachtwoord verloopt
 
 Voer een van de volgende opdrachten uit:
@@ -122,9 +125,6 @@ Voer een van de volgende opdrachten uit:
     ```powershell
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
     ```
-
-> [!WARNING]
-> Gebruikersaccounts die zijn geconfigureerd met de `-PasswordPolicies DisablePasswordExpiration` parameter die nog ouder is gemaakt op basis van het kenmerk van het `pwdLastSet` gebruikersaccount. Als u bijvoorbeeld het wachtwoord van een gebruiker zo instelt dat het nooit verloopt en 90 of meer dagen gaat, verloopt het wachtwoord nog steeds. Op basis van het kenmerk van het `pwdLastSet` gebruikersaccount voor gebruikersaccounts die met de `-PasswordPolicies None` parameter zijn geconfigureerd, `pwdLastSet` moet de gebruiker de volgende keer dat u zich aanmeldt, gebruikersaccounts met een ouder dan 90 dagen wijzigen. Deze wijziging kan van invloed zijn op een groot aantal gebruikers.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 

@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Inzicht in de manier waarop Contoso B.v. de COVID-19 Pandemic heeft gereageerd en de IT-infrastructuur voor de installatie en het bijwerken van de software voor extern en on-site werken.
-ms.openlocfilehash: 8e25b399d7acd2cb3486283623d29315eac9491e
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: d04b4efcdd4dd04315ad37311cdd2cfbc2e64e88
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371749"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580671"
 ---
 # <a name="contosos-covid-19-response-and-support-for-remote-and-onsite-work"></a>Het COVID-19-antwoord en de ondersteuning van Contoso voor extern en on-site werken
 
@@ -44,8 +44,8 @@ Een externe werknemer met de geïnstalleerde VPN-client gebruikt DNS om het land
 Nadat de eerste wijzigingen zijn aangebracht in het grootste medewerkers van regio-vergrendelingen, heeft Contoso wijzigingen in de infrastructuur aangebracht voor de ondersteuning van de externe en op de volgende werknemer:
 
 - Altijd extern.
-- Altijd on-premises.
-- Een combinatie van afstand en on-premises.
+- Altijd op de site.
+- Een combinatie van on-site en afstandsbediening.
 
 Microsoft 365 identiteit, beveiliging en compliance-functies zijn ontworpen voor een vertrouwensrelatie van nul en werken ongeacht de locatie van de gebruiker en hun apparaat. Zie voor meer informatie [0 vertrouwen](https://www.microsoft.com/security/business/zero-trust).
 

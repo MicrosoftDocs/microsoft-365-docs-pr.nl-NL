@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: In dit artikel vindt u meer informatie over hoe u uw Microsoft 365-aanwezigheid uitbreidt naar meerdere geografische regio's met Microsoft 365 meerdere geografische regio's.
-ms.openlocfilehash: 10f941549fd4899d5b3a14c97e6f301339702722
-ms.sourcegitcommit: cd11588b47904c7d2ae899a9f5280f93d3850171
+ms.openlocfilehash: cf5f655e2b205001c6c16ed05abc33d68324ff15
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171324"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580695"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -52,7 +52,8 @@ Dit zijn de belangrijkste voorwaarden die worden gebruikt in de basis van Micros
 
 Microsoft 365 multi-geo is beschikbaar als een invoegtoepassing voor de volgende Microsoft 365-abonnementen voor EA-klanten met een minimum van 250 Microsoft 365 seats in hun Tenant, en minimaal 5% van deze stoelen met meerdere geografische versies. Neem contact op met uw Microsoft-accountteam voor meer informatie.
 
-- Microsoft 365 F1, E1, E3 of E5
+- Microsoft 365 F1, F3, E3 of E5
+- Office 365 F3, E1, E3 of E5
 - Exchange Online abonnement 1 of abonnement 2
 - OneDrive voor bedrijven abonnement 1 of abonnement 2
 - SharePoint Online, abonnement 1 of abonnement 2

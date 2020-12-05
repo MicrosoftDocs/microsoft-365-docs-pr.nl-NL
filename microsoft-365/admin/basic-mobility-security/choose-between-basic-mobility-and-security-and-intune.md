@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Basis mobiliteit en beveiliging maken deel uit van de Microsoft 365-abonnementen.
-ms.openlocfilehash: 8724b3dccbdb5949190ceda4b804b9f1f2a5d4b2
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 75fef5bd70d7b8926d31b80f16952aa996bc625c
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561493"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580659"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>Kiezen tussen basis mobiliteit en beveiliging of intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "49561493"
  
 Zowel eenvoudige mobiliteit als beveiliging en intune zijn opgenomen in diverse plannen, zoals in de volgende tabel wordt beschreven.
 
-| Plan | Basis mobiliteit en beveiliging | Microsoft Intune |
+| Abonnement | Basis mobiliteit en beveiliging | Microsoft Intune |
 |:-----|:-----|:-----|
 |Microsoft 365-apps|Ja|Nee|
 |Microsoft 365 Business Basic|Ja|Nee|
@@ -69,8 +69,7 @@ Microsoft intune en ingebouwde basis mobiliteit en beveiliging bieden u de mogel
 |Apparaattypen|Het beheren van diverse varianten van OS en belangrijkste beheermodus. |Windows<br/>Apparaten<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>Apparaten<br/>Android<br/>Android Samsung KNOX<br/>Mac OS, iPad OS|
 |Apparaatcompatibiliteit|Stel beveiligingsbeleid in en beheer dit, zoals pincode vergrendeling op apparaatniveau en detectie van jailbreak. |Beperkingen voor Android 9 en latere apparaten. [Details](capabilities.md)weergeven. |Ja|
 |Voorwaardelijke toegang op basis van apparaatcompatibiliteit |Voorkomen dat niet-compatibele apparaten toegang hebben tot zakelijke e-mail en-gegevens vanuit de Cloud. |Niet ondersteund in Windows 10.<br/>Beperkt tot het beheren van de toegang tot Exchange Online, SharePoint Online en Outlook. |Ja |
-|Apparaatconfiguratie  |Instellingen configureren voor apparaten (bijvoorbeeld de camera uitschakelen)|Apparaatcompatibiliteit|Stel beveiligingsbeleid in en beheer dit, zoals pincode vergrendeling op apparaatniveau en detectie van jailbreak. |Beperkingen voor Android 9 en latere apparaten. [Details](capabilities.md)weergeven. |Ja|
- |Beperkte set instellingen. |Ja|
+|Apparaatconfiguratie  |Instellingen configureren voor apparaten (bijvoorbeeld de camera uitschakelen)|Beperkte set instellingen.|Ja|Apparaatcompatibiliteit|Stel beveiligingsbeleid in en beheer dit, zoals pincode vergrendeling op apparaatniveau en detectie van jailbreak. |Beperkingen voor Android 9 en latere apparaten. [Details](capabilities.md)weergeven. |Ja|
 |E-mail profielen  |Het inrichten van een systeemeigen e-mail profiel op het apparaat. |Ja|Ja|
 |WiFi-profielen |Het inrichten van een systeemeigen WiFi-profiel op het apparaat. |Nee|Ja|
 |VPN-profielen |Het inrichten van een systeemeigen VPN-profiel op het apparaat. |Nee|Ja|
