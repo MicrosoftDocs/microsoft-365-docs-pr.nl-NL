@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Instructies voor het instellen van meervoudige verificatie voor uw organisatie.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 1bbca8efe09655195605f0610f92c8f66486b940
-ms.sourcegitcommit: 09518b7c9146cda7fd42839ee644ad418d48491a
+ms.openlocfilehash: db858cbd4242a096261942fd12b911ecff43f71f
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49001499"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558208"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
 
@@ -42,7 +42,7 @@ Gezien uw ervaring met [meervoudige verificatie (MFA) en de bijbehorende onderst
 - U moet een algemeen beheerder zijn om MFA te beheren. Raadpleeg [Over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie.
 - Als verouderde per persoon-MFA is ingeschakeld, [schakel dit dan uit](#turn-off-legacy-per-user-mfa).
 - Als u Office 2013-clients op Windows-apparaten hebt, moet u [Moderne verificatie voor Office 2013-clients inschakelen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication).
-- Geavanceerd: Als u adreslijstservices van derden van Active Directory Federation Services (AD FS) hebt, moet u de Azure MFA-server instellen. Raadpleeg [geavanceerde scenario's met Azure Multi-Factor Authentication en VPN-oplossingen van derden](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
+- Geavanceerd: als u adreslijstservices van derden met Active Directory Federation Services (AD FS) hebt, moet u de Azure MFA-server instellen. Raadpleeg [geavanceerde scenario's met Azure AD Multi-Factor Authentication en VPN-oplossingen van derden](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
 
 ## <a name="turn-security-defaults-on-or-off"></a>Standaardinstellingen voor beveiliging in- of uitschakelen
 
