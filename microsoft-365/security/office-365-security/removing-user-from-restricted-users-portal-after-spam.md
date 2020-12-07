@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer informatie krijgen over het verwijderen van gebruikers uit de portal voor gebruikers met beperkte rechten in Office 365. Gebruikers worden toegevoegd aan de portal gebruikers met beperkte rechten voor het verzenden van uitgaande spam, meestal vanwege een inbreuk op het account.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c63d50fcf24e19c6a3265d57ea34fb8ab852c61c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f464a2c02ae6b6290e79cc9aff7d3a37bc08a6ff
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201553"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572439"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365
 
@@ -43,19 +43,18 @@ Beheerders kunnen gebruikers verwijderen uit de portal met beperkte verzenders i
 
 - U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **Beperkte gebruikers** wilt gaan, gebruik dan <https://protection.office.com/restrictedusers>.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om de procedures in dit onderwerp te kunnen uitvoeren:
+- Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
+  - Als je gebruikers wilt verwijderen uit de portal voor gebruikers met beperkte rechten, moet je lid zijn van de functiegroep **Organisatiebeheer** of **Beveiligingsbeheer**.
+  - Voor alleen-lezentoegang tot de portal met beperkte gebruikers moet je lid zijn van de functiegroep **Global Reader** of **Beveiligingslezer**.
 
-  - Als u gebruikers wilt verwijderen uit de portal voor gebruikers met beperkte rechten, moet u lid zijn van een van de volgende rolgroepen:
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-    - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Organisatiebeheer** of **Hygiënebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  **Opmerkingen**:
 
-  - Voor alleen-lezentoegang voor de portal voor gebruikers met beperkte rechten, moet u lid zijn van een van de volgende rolgroepen:
-
-    - **Beveiligingslezer** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
-    - **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Een afzender die de uitgaande e-maillimieten overschrijdt, is een indicator van een verdacht account. Voordat u de gebruiker verwijdert uit de portal met beperkte gebruikers, moet u de vereiste stappen volgen om het beheer van het account te herstellen. Zie voor meer informatie [Reageren op een verdacht e-mailaccount in Office 365](responding-to-a-compromised-email-account.md).
 
