@@ -527,7 +527,7 @@
               href: ./office-365-security/campaigns.md
             - name: Schadelijke e-mail onderzoeken
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: Rapporten weergeven in het beveiligings- en compliancecentrum
+            - name: Bekijk Defender voor Office 365-rapporten in het Beveiligings- en compliancecentrum
               href: ./office-365-security/view-reports-for-atp.md
             - name: Details en resultaten van een geautomatiseerd onderzoek weergeven
               href: ./office-365-security/air-view-investigation-results.md
