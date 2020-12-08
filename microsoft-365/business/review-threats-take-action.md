@@ -1,5 +1,5 @@
 ---
-title: Gedetecteerde bedreigingen bekijken en actie ondernemen
+title: Ontdekte bedreigingen controleren en actie ondernemen
 f1.keywords: NOCSH
 ms.author: sharik
 author: SKjerland
@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Meer informatie over het controleren en beheren van bedreigingen die zijn gedetecteerd door Microsoft Defender antivirus op uw Windows 10-apparaten.
-ms.openlocfilehash: ffdf5cffb50d6145d6059233e0850839f4dfb582
-ms.sourcegitcommit: 26b35012c42fef935d6c4a6509dde6c22a9b922a
+ms.openlocfilehash: 41465cb81850415a7b490b6af7f0ec66c724ca68
+ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385238"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588515"
 ---
-# <a name="review-detected-threats-and-take-action"></a>Gedetecteerde bedreigingen bekijken en actie ondernemen
+# <a name="review-detected-threats-and-take-action"></a>Ontdekte bedreigingen controleren en actie ondernemen
 
 Zodra een schadelijk bestand of software is gedetecteerd, blokkeert Microsoft Defender antivirus het en zorgt u ervoor dat de toepassing niet wordt uitgevoerd. En met de ingeschakelde bescherming van de cloud worden de nieuw ontdekte bedreigingen toegevoegd aan de antivirus-en antimalware-engine, zodat uw andere apparaten en gebruikers ook worden beveiligd.
 
@@ -42,7 +42,7 @@ U hebt verschillende opties voor het weergeven van specifieke informatie over de
 
 - De pagina **actieve apparaten** in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>. Zie [bedreigings detectie van de pagina actieve apparaten](#manage-threat-detections-on-the-active-devices-page) in dit artikel beheren.
 - De pagina **actieve bedreigingen** in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a>. Zie [bedreigings detectie van de pagina actieve bedreigingen](#manage-threat-detections-on-the-active-threats-page) in dit artikel beheren.
-- De pagina met **antivirus software** in <a href="https://endpoint.microsoft.com" target="_blank">Microsoft Endpoint Manager</a>. Zie [bedreigings detectie in Microsoft Endpoint Manager beheren](#manage-threat-detections-in-microsoft-endpoint-manager) in dit artikel.
+- De pagina met **antivirus software** in <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">Microsoft Endpoint Manager</a>. Zie [bedreigings detectie in Microsoft Endpoint Manager beheren](#manage-threat-detections-in-microsoft-endpoint-manager) in dit artikel.
 
 Zie [bedreigingen gedetecteerd door Microsoft Defender antivirus](threats-detected-defender-av.md)voor meer informatie.
 
@@ -88,7 +88,7 @@ Wanneer u details weergeeft van bepaalde bedreigingen of apparaten, ziet u aanbe
 
 U kunt Microsoft Endpoint Manager gebruiken voor het beheren van bedreigings detectie. Windows 10-apparaten moeten zijn [ingeschreven voor intune](/mem/intune/enrollment/windows-enrollment-methods) (onderdeel van Microsoft Endpoint Manager).
 
-1. Ga naar het Microsoft-Beheercentrum voor eindpunten <a href="https://endpoint.microsoft.com" target="_blank">https://endpoint.microsoft.com</a> en meld u aan.
+1. Ga naar het Microsoft-Beheercentrum voor eindpunten <a href="https://go.microsoft.com/fwlink/p/?linkid=2150463" target="_blank">https://endpoint.microsoft.com</a> en meld u aan.
 
 2. Selecteer in het navigatiedeelvenster de optie **Endpoint beveiliging**.
 

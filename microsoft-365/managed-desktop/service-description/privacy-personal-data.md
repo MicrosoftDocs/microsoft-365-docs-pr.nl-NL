@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 294a3c6c54e28fa03ff6264898e7763325f78c3e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8412c10416a4a131129eebd20d1b4f01228afaf3
+ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847766"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586683"
 ---
 # <a name="privacy-and-personal-data"></a>Privacy en persoonlijke gegevens
 
@@ -46,6 +46,10 @@ Microsoft Managed Desktop slaat de gegevens op een of meer van de volgende Micro
 - Azure-opslag
 
 Microsoft Managed Desktop slaat de gegevens op in de Verenigde Staten. Persoonlijke gegevens blijven gedurende dertig dagen door Microsoft beheerd bureaublad bewaard.
+
+### <a name="staff-location"></a>Locatie van medewerkers
+
+De bewerkings-en MMD beveiligingsactiviteiten van MMD bevinden zich in de Verenigde Staten en India.
 
 ## <a name="data-usage-of-microsoft-managed-desktop"></a>Data gebruik van Microsoft Managed Desktop
 

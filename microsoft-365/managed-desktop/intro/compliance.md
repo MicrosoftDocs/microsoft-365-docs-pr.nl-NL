@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 65d1d18037a10cd36c3be9498a4373fa67b6afd9
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: d47757e8e9b36baf060c86436bd7840ded7c324d
+ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519608"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586671"
 ---
 # <a name="compliance"></a>Compliance
 
-Wanneer u Microsoft Managed Desktop voor een service gebruikt, biedt Microsoft een uitgebreide set compliance-aanbiedingen. Dit helpt uw organisatie te voldoen aan de verschillende nalevingsvereisten.
+Wanneer u Microsoft Managed Desktop gebruikt, biedt Microsoft een uitgebreide set compliance-aanbiedingen. Dit helpt uw organisatie te voldoen aan de verschillende nalevingsvereisten.
 
 ## <a name="compliance-coverage"></a>Nalevings dekking
 
@@ -35,6 +35,9 @@ Microsoft Managed Desktop heeft de volgende certificeringen bereikt:
 - [Certificering van CSA (Cloud Security Alliance)-ster](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
 - [Service organisatie besturingselementen (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
 - [Data Security Standard van de credit card (PCI) Data Security Standard (DSS)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
+- [Portal voor gezondheidszorg en verantwoording Act (HIPAA)](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech)
+- [Australische Government Information Security Registerd beoordelaar programma (IRAP)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
+
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Auditor rapporten en compliance certificates
 
@@ -45,4 +48,4 @@ U vindt relevante informatie, waaronder de besturing en technische vereisten, in
 
 ## <a name="shared-responsibility"></a>Gedeelde verantwoordelijkheid
 
-Naleving voor cloudservices is een gedeelde verantwoordelijkheid tussen cloudservice providers en hun klanten. Zie voor meer informatie [gedeelde verantwoordelijkheden voor Cloud Computing](https://gallery.technet.microsoft.com/Shared-Responsibilities-81d0ff91) in de TechNet-galerie.
+Naleving voor cloudservices is een gedeelde verantwoordelijkheid tussen cloudservice providers en hun klanten. Zie voor meer informatie [gedeelde verantwoordelijkheden voor Cloud Computing](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility).
