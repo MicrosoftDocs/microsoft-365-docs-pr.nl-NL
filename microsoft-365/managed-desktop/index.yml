@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Documentatie voor Microsoft Managed Desktop
-summary: Microsoft Managed Desktop combineert Microsoft 365 Enterprise, apparaatbeheer in de cloud door Microsoft en beveiligingscontroles, zodat uw IT-teams zich kunnen concentreren op de kernbehoeften van uw bedrijf.
+summary: Microsoft Managed Desktop is een unieke ITaaS oplossing die het beheer van eindpunten en beveiliging combineert op een manier die gebruikers een veilige en productieve apparaat-ervaring geeft die IT-specialisten kunnen vertrouwen.
 metadata:
   title: Documentatie voor Microsoft Managed Desktop
   description: Microsoft Managed Desktop combineert Microsoft 365 Enterprise, apparaatbeheer in de cloud door Microsoft en beveiligingscontroles, zodat uw IT-teams zich kunnen concentreren op de kernbehoeften van uw bedrijf.
@@ -9,13 +9,13 @@ metadata:
   ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.date: 07/13/2020
-  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
-  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.date: 12/04/2020
+  ms.openlocfilehash: 59d8d4ae0986af58c086ea08f486feca5cb23f71
+  ms.sourcegitcommit: 9d5ddfc856926ce6919498c9c42a7421fef78328
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 08/05/2020
-  ms.locfileid: "46564141"
+  ms.lasthandoff: 12/04/2020
+  ms.locfileid: "49576773"
 landingContent:
 - title: Over Microsoft Managed Desktop
   linkLists:
@@ -33,21 +33,33 @@ landingContent:
       url: get-started/index.md
     - text: Werken met Microsoft Managed Desktop
       url: /microsoft-365/managed-desktop/working-with-managed-desktop/
-- title: Nieuwe artikelen en blogberichten
+- title: Artikelen en blogberichten
   linkLists:
-  - linkListType: whats-new
+  - linkListType: learn
     links:
-    - text: '[Roadmap] Your Complete Roadmap to Microsoft Managed Desktop'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
-    - text: '[Technisch artikel] Study: Rising Demand for Managed Desktop Services'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
-    - text: '[E-book] Delight your company with a modern workplace'
-      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
-- title: Video's
+    - text: "[Blog] Werkplekapparaten zijn de nieuwe 'gratis snacks'"
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/workplace-devices-are-the-new-free-snacks/ba-p/1675936
+    - text: '[Artikel] Onderzoek: Microsoft Managed Desktop bespaart u tijd en kosten'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/study-microsoft-managed-desktop-saves-time-and-costs/ba-p/1403408
+    - text: '[Artikel] Microsoft Managed Desktop kan u helpen de betrokkenheid te verhogen'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/microsoft-managed-desktop-can-help-boost-engagement/ba-p/1031932
+    - text: '[Artikel] SA Power Networks zet Microsoft Managed Desktop in om te voldoen aan de groeiende behoeften van gebruikers'
+      url: https://customers.microsoft.com/story/832888-sa-power-networks-case-study-energy-microsoft-managed-desktop
+- title: Voordelen en aandachtspunten
   linkLists:
   - linkListType: video
     links:
-    - text: Meer informatie over de voordelen van Microsoft Managed Desktop van de technisch directeur van Lloyds Banking Group.
+    - text: Microsoft Managed Desktop-IT-beheer ervaring
+      url: https://www.youtube.com/watch?v=UQ8VRSysUXw&feature=youtu.be
+    - text: Wat bedrijven aanspreekt in Microsoft Managed Desktop
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4yjfL
+    - text: 'Microsoft Managed Desktop: geweldige apparaat-ervaring'
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE41urx?autoplay=false
+    - text: 'Microsoft Managed Desktop: beveiligingsbewerkingen'
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: 'Microsoft Managed Desktop: proces voor wijzigen en vrijgeven'
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: 'The Shiproom / IGM / Aflevering 29: prioriteit geven aan gebruikerservaring met beveiliging'
+      url: https://www.youtube.com/watch?v=im11J9C1MTA&feature=youtu.be
+    - text: 'The Shiproom / Lloyds Banking Group / Aflevering 25: Leiderschap tijdens snelle verandering'
       url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
-    - text: Hoogtepunten van Microsoft Managed Desktop tijdens de jaarlijkse Ignite-conferentie
-      url: /microsoft-365/managed-desktop/service-description
