@@ -99,10 +99,20 @@
       items:
         - name: Posters van Teams-architectuur
           href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: Telefonieoplossingen
+        - name: Teams voice in Microsoft 365 implementeren
           items:
-            - name: Spraakoplossing voor Teams kiezen
+            - name: Overzicht
+              href: deploy-voice.md
+            - name: Stap 1. Kies uw voice oplossing
               href: 'https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Stap 2. - Telefoonsysteem instellen
+              href: 'https://docs.microsoft.com/microsoftteams/setting-up-your-phone-system?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Stap 3. - PSTN-connectiviteit instellen
+              items:
+                - name: Abonnementsoptie
+                  href: 'https://docs.microsoft.com/microsoftteams/set-up-calling-plans?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+                - name: Optie voor directe routering
+                  href: 'https://docs.microsoft.com/microsoftteams/direct-routing-configure?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: Casestudy voor multinationale bedrijven
               href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Samenwerkingsbeheer
