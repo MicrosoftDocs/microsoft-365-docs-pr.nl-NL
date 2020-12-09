@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen. '
-ms.openlocfilehash: 1672401e9a8e994b91804870130b659ad8724b5e
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 7f894af3778964dfa6c696c1f467bc0dd8313f32
+ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551506"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49585292"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -81,7 +81,8 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 ::: moniker-end
 
-**BELANGRIJK**: als u een foutbericht krijgt, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
+> [!IMPORTANT]
+> Als u een foutbericht krijgt, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
 ## <a name="set-the-primary-email-address"></a>Het primaire e-mailadres instellen
 
@@ -93,23 +94,24 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **BELANGRIJK**: u ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
-    
-    U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
+   > [!IMPORTANT]
+   > U ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
+   >  
+   > U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
 4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
     
 5. Geef de gebruikers de volgende gegevens:
  
-  - Deze wijziging kan even duren.
+   - Deze wijziging kan even duren.
   
-  - De nieuwe gebruikersnaam. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
+   - De nieuwe gebruikersnaam. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
     
-  - Als ze Skype voor Bedrijven Online gebruiken, moeten ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
+   - Als ze Skype voor Bedrijven Online gebruiken, moeten ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
-  - Als ze OneDrive gebruiken, is de URL naar deze locatie gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
+   - Als ze OneDrive gebruiken, is de URL naar deze locatie gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
   
-  - Als ook het wachtwoord is gewijzigd, worden ze gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
+   - Als ook het wachtwoord is gewijzigd, worden ze gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
   
 ::: moniker-end
 
@@ -121,23 +123,24 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **BELANGRIJK**: u ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
-    
-    U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
+   > [!IMPORTANT]
+   > U ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
+   > 
+   > U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
 4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
     
 5. Geef de gebruikers de volgende gegevens:
  
-  - Het kan even duren voordat deze wijziging van kracht wordt.
+   - Het kan even duren voordat deze wijziging van kracht wordt.
   
-  - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
+   - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
     
-  - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
+   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
-  - Als ze OneDrive gebruiken, moet u laten weten dat de URL naar deze locatie is gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
+   - Als ze OneDrive gebruiken, moet u laten weten dat de URL naar deze locatie is gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
   
-  - Als ook het wachtwoord is gewijzigd, moet u gebruikers laten weten dat ze worden gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
+   - Als ook het wachtwoord is gewijzigd, moet u gebruikers laten weten dat ze worden gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
 
 ::: moniker-end
 
@@ -149,23 +152,24 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
     
-    **BELANGRIJK**: u ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
-    
-    U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
+   > [!IMPORTANT]
+   > U ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
+   >  
+   > U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
   
 4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
     
 5. Geef de gebruikers de volgende gegevens:
  
-  - Het kan even duren voordat deze wijziging van kracht wordt.
+   - Het kan even duren voordat deze wijziging van kracht wordt.
   
-  - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
+   - Wat de nieuwe gebruikersnaam is. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
     
-  - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
+   - Als ze Skype voor Bedrijven Online gebruiken, moet ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
-  - Als ze OneDrive gebruiken, moet u laten weten dat de URL naar deze locatie is gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
+   - Als ze OneDrive gebruiken, moet u laten weten dat de URL naar deze locatie is gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
   
-  - Als ook het wachtwoord is gewijzigd, moet u gebruikers laten weten dat ze worden gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
+   - Als ook het wachtwoord is gewijzigd, moet u gebruikers laten weten dat ze worden gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
 
 ::: moniker-end
   
@@ -179,7 +183,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 3. Typ in het vak **Weergavenaam** een nieuwe naam voor de persoon en selecteer vervolgens **Opslaan**.
 
-    Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
+   Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
 Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam.
 
@@ -193,7 +197,7 @@ Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorg
 
 3. Typ in het vak **Weergavenaam** een nieuwe naam voor de persoon en selecteer vervolgens **Opslaan**.
 
-    Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
+   Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
 Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam. Zorg er dus voor dat ze op de hoogte zijn van de wijziging.
 
@@ -207,7 +211,7 @@ Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorg
 
 3. Typ in het vak **Weergavenaam** een nieuwe naam voor de persoon en selecteer vervolgens **Opslaan**.
 
-    Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
+   Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
 Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam. Zorg er dus voor dat ze op de hoogte zijn van de wijziging.
 
