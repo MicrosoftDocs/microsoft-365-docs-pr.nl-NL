@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Overzicht: Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne.'
-ms.openlocfilehash: 1ae147cef3f7c946946d10fe50a7c23bd9e61a2e
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: d6fe2067e51e47fed4bd90e1a1fa6c898034a6d7
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203153"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561193"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
 
@@ -44,11 +44,11 @@ In deze fase maakt u de labels voor de verschillende beveiligingsniveaus van doc
   
 1. Indien nodig meldt u zich aan bij het beheercentrum met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement. Zie [Waar kan ik me aanmelden in Microsoft 365?](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
     
-2. Klik in het tabblad **Microsoft Office voor Thuisgebruik** op de tegel **Beheerder**.
+2. Klik op het tabblad **Microsoft Office Home** op de tegel **Beheerder**.
     
-3. Klik in het nieuwe **Microsoft 365-beheercentrum**-tabblad van uw browser op **Beheercentra > Beveiliging &amp; Compliance**.
+3. Klik op het nieuwe tabblad **Microsoft 365-beheercentrum** van uw browser op **Beheercentra > Beveiliging en compliance**.
     
-4. Klik in het nieuwe **Start - Beveiliging &amp; Compliance**-tabblad van uw browser op **Classificaties > Labels**.
+4. Klik op het nieuwe tabblad **Start - Beveiliging en compliance** van uw browser op **Classificaties > Labels**.
     
 5. Klik in het deelvenster **Start > Labels** op **Label maken**.
     
@@ -100,7 +100,7 @@ Als u een openbare SharePoint Online-teamsite wilt maken, gaat u als volgt te we
     
 5. Typ bij **Sitenaam****Gehele campagne** in. 
     
-6. Typ bij **Beschrijving van de teamsite**in **SharePoint-site voor de gehele campagne**.
+6. Typ bij **Beschrijving van de teamsite** in **SharePoint-site voor de gehele campagne**.
     
 7. Selecteer bij **Privacy-instellingen** **Publiek: iedereen in de organisatie kan toegang krijgen tot deze site** en klik vervolgens op **Volgende**.
     
@@ -144,7 +144,7 @@ Configureer vervolgens de map met documenten van Campagneproject 1 voor het priv
     
 3. Klik onder **Machtigingen en beheer** op **Label op items in deze bibliotheek toepassen**.
     
-4. Selecteer in **Instellingen-Label toepassen** de optie **Privé**en klik vervolgens op **Opslaan**.
+4. Selecteer in **Instellingen-Label toepassen** de optie **Privé** en klik vervolgens op **Opslaan**.
     
 ### <a name="campaign-marketing-team-site"></a>Teamsite voor marketing van de campagne
 
@@ -216,15 +216,15 @@ Configureer vervolgens de map met documenten van de teamsite van de marketing vo
     
 4. Selecteer bij **Instellingen-Label toepassen** de optie **Gevoelig** en klik vervolgens op **Opslaan**.
     
-Configureer vervolgens een beleid voor de preventie van gegevensverlies dat gebruikers een melding stuurt wanneer ze een document van de SharePoint Online-teamsite met het label Gevoelig buiten de organisatie delen. Dit beleid wordt toegepast op resources op de site van de marketing voor de campagne.
+Configureer vervolgens een beleid voor de preventie van gegevensverlies dat gebruikers een melding stuurt wanneer ze een document van de SharePoint Online-teamsite met het label Gevoelig buiten de organisatie delen. Dit DLP-beleid wordt toegepast op resources op de site van de marketing voor de campagne.
   
-1. Klik in het **Microsoft Office voor Thuisgebruik**-tabblad van uw browser op de tegel **Beveiliging &amp; Compliance**.
+1. Klik op het tabblad **Microsoft Office Home** van uw browser op de tegel **Beveiliging en compliance**.
     
-2. Klik in het nieuwe **Security &amp; Compliance**-tabblad in uw browser op **Preventie van gegevensverlies > Beleid**.
+2. Klik op het nieuwe tabblad **Beveiliging en compliance** in uw browser op **Preventie van gegevensverlies > Beleid**.
     
 3. Klik in het deelvenster **Preventie van gegevensverlies** op **+ Een beleid maken**.
     
-4. Klik in het deelvenster **Met een sjabloon beginnen of een aangepast beleid maken** op **Aangepast**en klik vervolgens op **Volgende**.
+4. Klik in het deelvenster **Met een sjabloon beginnen of een aangepast beleid maken** op **Aangepast** en klik vervolgens op **Volgende**.
     
 5. Typ in het deelvenster **Uw beleid een naam geven** **Label Gevoelig voor SharePoint Online-teamsites** in bij **Naam** en klik vervolgens op **Volgende**.
     
@@ -328,15 +328,15 @@ Configureer vervolgens een beleid voor de preventie van gegevensverlies dat gebr
   
 1. Gebruik indien nodig een browser op uw lokale computer en meld u aan bij het beheercentrum ([https://admin.microsoft.com](https://admin.microsoft.com)) met een account met de rol Beveiligingsbeheerder of Bedrijfsbeheerder.
     
-2. Klik in het **Microsoft Office voor Thuisgebruik**-tabblad van uw browser op de tegel **Beveiliging &amp; Compliance**.
+2. Klik op het tabblad **Microsoft Office Home** van uw browser op de tegel **Beveiliging en compliance**.
     
-3. Klik in het nieuwe **Security &amp; Compliance**-tabblad in uw browser op **Preventie van gegevensverlies > Beleid**.
+3. Klik op het nieuwe tabblad **Beveiliging en compliance** in uw browser op **Preventie van gegevensverlies > Beleid**.
     
 4. Klik in het deelvenster **Preventie van gegevensverlies** op **+ Een beleid maken**.
     
-5. Klik in het deelvenster **Met een sjabloon beginnen of een aangepast beleid maken** op **Aangepast**en klik vervolgens op **Volgende**.
+5. Klik in het deelvenster **Met een sjabloon beginnen of een aangepast beleid maken** op **Aangepast** en klik vervolgens op **Volgende**.
     
-6. Typ in het deelvenster **Uw beleid een naam geven** **Label Zeer vertrouwelijk voor SharePoint-sites** in bij **Naam**en klik vervolgens op **Volgende**.
+6. Typ in het deelvenster **Uw beleid een naam geven** **Label Zeer vertrouwelijk voor SharePoint-sites** in bij **Naam** en klik vervolgens op **Volgende**.
     
 7. Klik in het deelvenster **Locaties kiezen** op **Laat mij specifieke locaties kiezen** en klik vervolgens op **Volgende**.
     
@@ -376,7 +376,7 @@ Configureer vervolgens Azure Information Protection met een nieuw beleid en een 
     
 2. Open een afzonderlijk tabblad in uw browser en ga naar de Microsoft Azure-portal ([https://portal.azure.com](https://portal.azure.com)).
     
-4. Typ in het deelvenster **informatie**en klik vervolgens op **Azure Information Protection**.
+4. Typ in het deelvenster **informatie** en klik vervolgens op **Azure Information Protection**.
 
 5. Klik op **Labels**.
     
@@ -398,7 +398,7 @@ Configureer vervolgens Azure Information Protection met een nieuw beleid en een 
     
 14. Klik tweemaal op **OK**.
     
-15. Klik in het **Sublabel**-tabblad op **Opslaan**en klik vervolgens op **OK**.
+15. Klik in het **Sublabel**-tabblad op **Opslaan** en klik vervolgens op **OK**.
 
 16. Klik in het **Azure Information Protection**-tabblad op **Beleid > + Een nieuw beleid toevoegen**.
     
@@ -408,7 +408,7 @@ Configureer vervolgens Azure Information Protection met een nieuw beleid en een 
     
 19. Klik vervolgens op **Selecteren > OK**.
 
-20. Klik op **Labels toevoegen of verwijderen**. Klik in het deelvenster **Beleid: Labels toevoegen of verwijderen** op **CampagneStrategie**en klik vervolgens op **OK**.   
+20. Klik op **Labels toevoegen of verwijderen**. Klik in het deelvenster **Beleid: Labels toevoegen of verwijderen** op **CampagneStrategie** en klik vervolgens op **OK**.   
 
 21. Klik op **Opslaan** en klik vervolgens op **OK**.
   

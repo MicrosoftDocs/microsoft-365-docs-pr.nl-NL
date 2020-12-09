@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
-ms.openlocfilehash: 7f9e33a6f117f5da592d875e40cefc6a0072fd4a
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: 66f352b6c3a5d3b3beff3043a3f0d1a435d1e5d1
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126671"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49560882"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -130,7 +130,10 @@ Als u DKIM wilt configureren, voert u de volgende stappen uit:
 
 U moet twee CNAME-records publiceren voor elk domein waarvoor u een DKIM-handtekening wilt toevoegen in DNS.
 
-Voer de volgende opdrachten uit om de kiezer-records te maken:
+> [!NOTE]
+> Als u nog niet het hele artikel hebt gelezen, hebt u deze tijdbesparende PowerShell-verbindingsinformatie misschien gemist: [Verbinding maken met Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (De cmdlet is afkomstig van Exchange Online.) 
+
+Voer de volgende opdrachten uit om de selectorrecords te maken:
 
 ```powershell
 New-DkimSigningConfig -DomainName <domain> -Enabled $false
@@ -187,8 +190,6 @@ TTL:                3600
 > [!NOTE]
 > Het is belangrijk om de tweede record te maken, maar mogelijk is slechts één van de kiezers beschikbaar op het moment dat het bestand wordt gemaakt. In wezen kan de tweede kiezer verwijzen naar een adres dat nog niet is gemaakt. We raden u niettemin aan om de tweede CNAME-record te maken, omdat de sleutelrotatie dan probleemloos zal verlopen.
 
-> [!CAUTION]
-> Automatische sleutelrotatie is tijdelijk uitgeschakeld terwijl er enkele ontwerpwijzigingen worden doorgevoerd in de manier waarop we sleutels maken. Het is een goede gewoonte om meerdere sleutels te hebben, zodat u ze regelmatig kunt roteren. Hoewel ze moeilijk te kraken zijn, is het nog steeds een praktische beperkingsstrategie tegen zaken zoals imitatie. Raadpleeg het document [Rotate DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig) voor informatie over hoe u dit kunt doen voor uw organisatie. We verwachten dat automatische rotatie weer wordt ingeschakeld vóór augustus 2020.
 
 ### <a name="enable-dkim-signing-for-your-custom-domain"></a>DKIM-ondertekening voor uw aangepaste domein inschakelen
 <a name="EnableDKIMinO365"> </a>
@@ -349,4 +350,8 @@ De DKIM-record zou er bijvoorbeeld als volgt uitzien:
 ## <a name="next-steps-after-you-set-up-dkim-for-microsoft-365"></a>Volgende stappen: nadat u DKIM hebt ingesteld voor Microsoft 365
 <a name="DKIMNextSteps"> </a>
 
-Hoewel DKIM is bedoeld om spoofing te voorkomen, werkt DKIM beter met SPF en DMARC. Als u DKIM hebt ingesteld, maar u hebt SPF nog niet ingesteld, moet u dat zeker doen. Zie voor een korte introductie van SPF en om het snel te configureren [SPF in Microsoft 365 instellen om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Voor een beter begrip van hoe Microsoft 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Microsoft 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md). Zie vervolgens [DMARC gebruiken om e-mail te valideren](use-dmarc-to-validate-email.md). [Antispamberichtkoppen](anti-spam-message-headers.md) bevatten onder meer de syntaxis en koptekstvelden die door Microsoft 365 worden gebruikt voor KIM-controles.
+Hoewel DKIM is bedoeld om spoofing te voorkomen, werkt DKIM beter met SPF en DMARC. Als u DKIM hebt ingesteld, maar u hebt SPF nog niet ingesteld, moet u dat zeker doen. Zie voor een korte introductie van SPF en om het snel te configureren [SPF in Microsoft 365 instellen om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Voor een beter begrip van hoe Microsoft 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Microsoft 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md). Zie vervolgens [DMARC gebruiken om e-mail te valideren](use-dmarc-to-validate-email.md). [Antispamberichtkoppen](anti-spam-message-headers.md) bevatten de syntaxis en koptekstvelden die door Microsoft 365 worden gebruikt voor DKIM-controles.
+
+## <a name="more-information"></a>Meer informatie
+
+Sleutelrotatie via PowerShell [Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig)

@@ -12,30 +12,30 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Lees hoe financiële dienstverlening aan financiële compliance kan voldoen en effectief kan samenwerken met Microsoft 365 en Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: cf485ec673c2f53d1b088c24be950dfe98c71276
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: ff4ce29e42ea3a8a5619f514373041c1e8c3e138
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376641"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558476"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
 ## <a name="introduction"></a>Inleiding
-Financiële dienstverleners overtreffen bijna alle commerciële bedrijven in hun vraag naar strikte controles op het gebied van beveiligings-, compliance- en beheerfuncties. De bescherming van gegevens, identiteiten, apparaten en applicaties is niet alleen van cruciaal belang voor hun bedrijf, het is ook onderworpen aan nalevingsvereisten en richtlijnen van regelgevende instanties zoals de Amerikaanse Securities and Exchange Commission (SEC), de Financial Industry Regulatory Authority (FINRA), de Federal Financial Institutions Examination Council (FFIEC) en de Commodity Futures Trading Commission (CFTC). Bovendien zijn financiële instellingen onderworpen aan wetten zoals Dodd-Frank en de Sarbanes-Oxley Act van 2002.
+Financiële dienstverleners gaan verder dan de meeste commerciële bedrijven wat betreft de vraag naar strenge beveiligings-, compliance- en beheercontroles. De bescherming van gegevens, identiteiten, apparaten en toepassingen is niet alleen van cruciaal belang voor hun bedrijf, het is onderhevig aan compliancevereisten en richtlijnen van regelgevende instanties zoals de Amerikaanse Securities and Exchange Commission (SEC), de Financial Industry Regulatory Authority (FINRA), de Federal Financial Institutions Examination Council (FFIEC) en de Commodity Futures Trading Commission (CFTC). Daarnaast moeten financiële instellingen zich houden aan wetten zoals Dodd-Frank en de Sarbanes-Oxley Act uit 2002.
 
 In het huidige klimaat van verhoogde waakzaamheid, interne risico's en inbreuken op openbare gegevens, eisen klanten ook een hoog beveiligingsniveau van hun financiële instellingen zodat ze hun persoonlijke gegevens en bankactiva aan hen kunnen toevertrouwen.
 
-Historisch gezien had de behoefte aan uitgebreide controles een directe invloed op en beperkte het de IT-systemen en platforms die financiële instellingen gebruiken om interne en externe samenwerking mogelijk te maken. Tegenwoordig hebben financiële dienstverleners een modern samenwerkingsplatform nodig dat gemakkelijk te gebruiken is. Maar financiële diensten kunnen de flexibiliteit om samen te werken tussen gebruikers, teams en afdelingen niet ruilen met beveiligings- en nalevingscontroles die beleid afdwingen om gebruikers en IT-systemen te beschermen tegen bedreigingen.
+Historisch gezien had de behoefte aan uitgebreide controles een directe impact op de IT-systemen en platforms die financiële instellingen gebruiken om intern en extern samen te werken. Tegenwoordig hebben werknemers in de financiële dienstverlening een modern samenwerkingsplatform nodig dat gemakkelijk te gebruiken is. Maar bij financiële services is een flexibele samenwerking moeilijk tussen gebruikers, teams en afdelingen met beveiligings- en compliancecontroles die beleid afdwingen om gebruikers en IT-systemen te beschermen tegen bedreigingen.
 
-In de financiële dienstverlening is zorgvuldige afweging vereist voor de configuratie en implementatie van samenwerkingshulpmiddelen en veiligheidscontroles, waaronder:
+In de financiële dienstverlening is zorgvuldige afweging vereist voor de configuratie en implementatie van samenwerkingstools en veiligheidscontroles, waaronder:
 - Risicoanalyse voor algemene samenwerking binnen de organisatie en scenario's voor bedrijfsprocessen
 - Vereisten voor informatiebescherming en gegevensbeheer
 - Cyberbeveiliging en interne bedreigingen
 - Wettelijke compliancevereisten
 - Andere operationele risico's
 
-**Microsoft 365 is een moderne cloudomgeving op de werkplek die is afgestemd op de hedendaagse uitdagingen waarmee financiële dienstverleners worden geconfronteerd. Veilige en flexibele samenwerking binnen de onderneming wordt gecombineerd met controles en handhaving van beleid om te voldoen aan strenge regelgevingskaders.** Dit artikel beschrijft hoe het Microsoft 365-platform financiële diensten helpt om over te stappen naar een modern samenwerkingsplatform, terwijl het helpt om gegevens en systemen veilig te houden en te laten voldoen aan de regelgeving:
+**Microsoft 365 is een moderne cloudomgeving op de werkplek die is afgestemd op de hedendaagse uitdagingen waarmee financiële dienstverleners worden geconfronteerd. Veilige en flexibele samenwerking binnen de onderneming wordt gecombineerd met controles en handhaving van het beleid om te voldoen aan strikte regelgevingskaders.** In dit artikel wordt beschreven hoe u financiële services via het Microsoft 365-platform kunt overzetten naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving:
 
 * De productiviteit van organisaties en werknemers mogelijk maken met behulp van Microsoft 365 en Microsoft Teams
 * Moderne samenwerking beveiligen met Microsoft 365 
@@ -47,7 +47,7 @@ In de financiële dienstverlening is zorgvuldige afweging vereist voor de config
 
 Als Microsoft-partner heeft Protiviti bijgedragen aan dit artikel door belangrijke feedback te geven.
 
-De volgende downloadbare illustraties vormen een aanvulling op dit artikel. Woodgrove Bank en Contoso worden gebruikt om aan te tonen hoe de in dit artikel beschreven mogelijkheden kunnen worden toegepast om te voldoen aan algemene regelgevingsvereisten voor financiële services. Pas deze illustraties gerust aan voor eigen gebruik. 
+De volgende downloadbare illustraties vullen dit artikel aan. Woodgrove Bank en Contoso worden gebruikt om aan te tonen hoe de in dit artikel beschreven mogelijkheden kunnen worden toegepast om te voldoen aan algemene regelgevingsvereisten voor financiële services. U kunt deze illustraties aan uw eigen wensen aanpassen. 
 
 **Illustraties voor informatiebeveiliging en naleving in Microsoft 365**
 
@@ -121,7 +121,7 @@ Tijdens het werk kunnen medewerkers steeds wisselen van toepassing, locatie en a
 
 Microsoft 365 biedt een veilig identiteitsplatform in [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/), waarin de id's centraal worden opgeslagen en veilig worden beheerd. Azure AD vormt samen met een groot aantal gerelateerde Microsoft 365-beveiligingsservices, de basis om werknemers de toegang te bieden die ze nodig hebben om veilig te werken en tegelijk de organisatie te beschermen tegen bedreigingen.
 
-[Azure Multi-Factor Authentication (MFA)](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-mfa-get-started) is ingebouwd in het platform en biedt een extra verificatiemiddel voor het bevestigen van de gebruikersidentiteit bij het verkrijgen van toegang tot gevoelige financiële gegevens en toepassingen. Azure MFA vereist ten minste twee vormen van verificatie, zoals een wachtwoord plus een bekend mobiel apparaat. Er worden verschillende opties voor tweestapsverificatie ondersteund, waaronder:
+[Azure AD Multi-Factor Authentication (MFA)](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-mfa-get-started) is ingebouwd in het platform en biedt een extra verificatiemiddel voor het bevestigen van de gebruikersidentiteit bij het verkrijgen van toegang tot gevoelige financiële gegevens en toepassingen. Azure MFA vereist ten minste twee vormen van verificatie, zoals een wachtwoord plus een bekend mobiel apparaat. Er worden verschillende opties voor tweestapsverificatie ondersteund, waaronder:
 
 - De Microsoft Authenticator-app
 - Een eenmalige toegangscode via sms
