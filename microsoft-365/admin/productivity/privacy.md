@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Hoe de privacy van de productiviteits score wordt beschermd.
-ms.openlocfilehash: db123042761b07ed64dd2dd94e783d65205e1460
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: ceb19fcb7bbf2f6a58e38684604ed3b0dac2a5d4
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561508"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604324"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Privacy-instellingen voor de productiviteits Score
 
@@ -73,7 +73,7 @@ Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $u.ObjectId
 
 ## <a name="capability-to-opt-out-of-people-experiences"></a>Mogelijkheid om te profiteren van mensen die zich afmelden
 
-U kunt ook afmelden voor het gebied personen van de productiviteits Score. Als u zich afmeldt, kan niemand van uw organisatie deze metrische gegevens weergeven en wordt uw organisatie verwijderd uit eventuele berekeningen waarvoor communicatie, vergaderingen, teamwerk en de samenwerking van inhoud is vereist.
+U kunt ook afmelden voor het gebied personen van de productiviteits Score. Als u zich afmeldt, kan niemand van uw organisatie deze metrische gegevens weergeven en wordt uw organisatie verwijderd uit eventuele berekeningen waarvoor communicatie, vergaderingen, teamwerk en de samenwerking van inhoud is vereist. U moet een globale beheerder zijn om u te laten weten dat uw organisatie aan de hand van de rapporten van mensen kan deelnemen.
 
 Als u wilt deelnemen aan een plaats:
 

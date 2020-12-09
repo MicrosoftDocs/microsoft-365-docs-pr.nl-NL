@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e42c65fdb4d409c1da7b85fbe7eca13170b9b974
-ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
+ms.openlocfilehash: 950daef315ef27fe5d6bc40528eb0104974c8c00
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49409231"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604393"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
 
@@ -44,14 +44,6 @@ Het toevoegen van stappen voor verbetering van 6 accounts voor Microsoft Defende
 - Stel ' minimale wachtwoordduur ' in op ' 1 of meer dag (en) '
 - Het ingebouwde beheerdersaccount uitschakelen
 - Het ingebouwde gastaccount uitschakelen
-
-### <a name="november-2020"></a>November 2020
-
-#### <a name="removing-the-ability-to-create-servicenow-tickets-through-secure-score"></a>De mogelijkheid om ServiceNow-tickets te creëren via een Secure Score 
-
-De mogelijkheid om ServiceNow-tickets te creëren via een Secure Score via **delen > ServiceNow** wordt verwijderd.
-
-De voorbeeldperiode voor de ServiceNow-connector wordt beëindigd. Deze functie is niet meer beschikbaar voor het einde van 2020. Bedankt voor uw feedback en voortdurende ondersteuning terwijl we volgende stappen bepalen.
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 

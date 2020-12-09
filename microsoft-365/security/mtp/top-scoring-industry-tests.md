@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 824864ffd69a1f885c56a55957fc369fec4f640a
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: a1e8c083c0769031fcc17cc799e7edc29fc9bc57
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357295"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604405"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Best scoren in bedrijfstak tests
 
@@ -40,7 +40,7 @@ Microsoft 365 Defender combineert de mogelijkheden van [Microsoft Defender for e
 
 De kern van de test aanpak van MITRE is een aanval van de constante, zodat u kunt zien of oplossingen deze op hun juiste manier kunnen detecteren en beantwoorden. Wanneer de test gericht is op het detecteren van het eindpunt en-antwoord, is de gesimuleerde APT29-aanval van MITRE een aanval van meer aanvallen, zodat u de gebruikers kunt beschermen tegen een eindpunt. Microsoft uitgebreide Microsoft uitgebreide versies van verdedigen met Microsoft 365 Defender.
 
-- ATT&op basis van de handleiding op basis van [de handleiding](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/) microsoft 365 2020 Defender
+- ATT&op basis van de navolgende evaluatie van Microsoft 365 Defender-mei 2020: [voor onze wereld detectie](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
     Microsoft 365 Defender biedt bijna 100 procent behoefte aan de ketting voor de hack-ketting. Het bevindt zich in de richting van een aanval. De zichtbaarheid verkleint het handmatige werk voor de bedrijfsactiviteiten centrum en de leveranciers oplossingen die specifiek zijn voor specifieke configuratiewijzigingen. In Microsoft 365 Defender stond ook de minste hiaten in de zichtbaarheid en vermindert de mogelijkheid van de aanvaller om niet gedetecteerd te worden.
 
@@ -56,33 +56,33 @@ Het onderzoek en de certificering van een AV-TEST product op drie categorieën: 
 
 **Download het meest recente transparantie rapport: [onderzoek van AV-test resultaten, January-February 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
 
-- Juli, augustus 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2020/microsoft-defender-antivirus-4.18-203215/) <sup>**nieuwste**</sup>
+- September-oktober 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2020/microsoft-defender-antivirus-4.18-204116/) <sup>**nieuwste**</sup>
 
-    Microsoft Defender antivirus bereikte een perfecte beveiligings Score van 6.0/6.0 met 100% in juli en augustus. voorbeelden van malware in 13.941.
+    Microsoft Defender antivirus bereikte een perfecte beveiligings Score van 6.0/6.0 met 100% in september en oktober. voorbeelden van malware in 12.650.
+
+- Juli-augustus 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2020/microsoft-defender-antivirus-4.18-203215/)
 
 - Mei 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/june-2020/microsoft-windows-defender-antivirus-4.18-202513/)
 
-- Maart, april 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
+- Maart-april 2020 AV-TEST zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)
 
-- Januari: februari 2020 AV-test zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
+- Januari 2020 AV-test zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
-- November, december 2019 AV-TEST zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
+- November 2019 AV-TEST Business User Test: Protection- [Score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
 
-- September, oktober 2019 AV-TEST zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2019/microsoft-windows-defender-antivirus-4.18-194115/)
-
-- Juli, augustus 2019 AV-test zakelijke gebruikers test: [beveiligings score 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/august-2019/microsoft-windows-defender-antivirus-4.18-193215/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
+- September-oktober 2019 AV-TEST zakelijke gebruikers test: [beveiligings score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2019/microsoft-windows-defender-antivirus-4.18-194115/)
 
 ### <a name="av-comparatives-protection-rating-of-997-in-the-latest-test"></a>AV-comparatieve: beveiligings beoordeling van 99,7% in de meest recente test
 
 De beveiligings test voor bedrijven bestaat uit drie hoofdonderdelen: Real-World de beschermings test voor beveiliging van online malware, de proefversie van malware-beveiliging waarbij de malware van het systeem wordt binnengebracht (bijvoorbeeld USB), en de prestatie test die de invloed op de prestaties van het systeem controleert.
 
-- Business Security test 2020 (maart – juni): [realtime beveiligings rente 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**laatste**</sup>
+- Business Security test 2020 (maart-juni): [realtime beschermings tarief 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/) <sup>**laatste**</sup>
 
     Microsoft Defender antivirus scoort in het afgelopen jaar voortdurend een hoge mate van Real-World beveiligings tarieven, met 99,7% in de meest recente test.
 
-- Business Security test 2019 (augustus – november): [realtime beschermings tarief 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
+- Business Security test 2019 (augustus-november): [realtime beschermings tarief 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
 
-- Business Security test 2019 (maart – juni): [realtime beveiligings tarief 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
+- Business Security test 2019 (maart-juni): [realtime beveiligings tarief 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  |  [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
 ### <a name="se-labs-aaa-award-in-the-latest-test"></a>SE Labs: AAA Award in de nieuwste test
 
@@ -90,17 +90,17 @@ SE Labs test een reeks oplossingen die door producten en services worden gebruik
 
 **Download het meest recente transparantie rapport: [testresultaten van SE Labs, January-March 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
 
-- Enterprise Endpoint Protection juli-september 2020: [AAA Award](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/) , <sup>**nieuwste**</sup>
+- Enterprise Endpoint Protection juli-september 2020: [AAA Award](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/) <sup>**nieuwste**</sup>
 
     Het product van de volgende generatie-gen-bescherming van Microsoft stopt alle gerichte aanvallen, maar mist een aantal openbare bedreigingen.
 
-- Enterprise Endpoint Protection april — juni 2020: [AAA Award](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
+- Enterprise Endpoint Protection april-juni 2020: [AAA Award](https://selabs.uk/reports/epp-ent-20q2-security-testing/)
 
-- Enterprise Endpoint Protection januari: maart 2020: [AAA Award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
+- Enterprise Endpoint Protection januari-maart 2020: [AAA Award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
-- Oktober Enterprise Endpoint Protection, december 2019: [AAA Award](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf) <sup>**PDF**</sup>
+- Oktober Enterprise Endpoint Protection 2019: [AAA Award](https://selabs.uk/download/enterprise/epp/2019/oct-dec-2019-enterprise.pdf) <sup>**PDF**</sup>
 
-- Enterprise Endpoint Protection juli — september 2019: [AAA Award](https://selabs.uk/download/enterprise/epp/2019/jul-sep-2019-enterprise.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
+- Enterprise Endpoint Protection juli-september 2019: [AAA Award](https://selabs.uk/download/enterprise/epp/2019/jul-sep-2019-enterprise.pdf) <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4kagp)
 
 
 ## <a name="endpoint-detection--response"></a>Detectie van eindpunten & antwoord
@@ -113,7 +113,7 @@ De mogelijkheden van Microsoft Defender voor de functies EDR en Endpoint Protect
 
 MITRE getest de mogelijkheid van producten voor het detecteren van technieken die meestal door de gerichte aanvals groep APT3 (ook wel boor of NOODVOEDINGSHARDWARE genoemd). Voor de detectie functies zijn alle functies voor beveiliging en preventie uitgeschakeld. Microsoft is blij met een van de eerste EDR-leveranciers voor het registreren van de MITRE-evaluatie op basis van de ATT&verzonken raam. Het Framework wordt in veel gevallen aangemerkt als de meest uitgebreide catalogus met technieken en tactieken van kwaadwillenden.
 
-- ATT&op basis van de handleiding op basis van de handleiding voor eind december 2018: de [belangrijkste functies voor de detectie functies](https://www.microsoft.com/security/blog/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)  |  [Analysis](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/MITRE-evaluation-highlights-industry-leading-EDR-capabilities-in/ba-p/369831)
+- ATT&op basis van de handleiding op basis van de handleiding voor eind december 2018: [belangrijkste functies voor de detectie functies](https://www.microsoft.com/security/blog/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)  |  [Analysis](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/MITRE-evaluation-highlights-industry-leading-EDR-capabilities-in/ba-p/369831)
 
     Microsoft Defender voor eindpunt heeft een uitgebreide aflevering van een aanval toepassen op de hele Hack-ketting. Met hooglichten wordt de breedte van telemetrie, de sterkte van de bedreigings informatie en het Geavanceerd, automatisch detecteren, en de werking van de machine learning, heuristisch en de werking van het gedrag inbegrepen.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Meer informatie over hoe u kunt bepalen welke gebruikers Microsoft 365-groepen kunnen maken.
-ms.openlocfilehash: e3424a9cc916c9464478fbe4411bbbf7b971d989
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 3a0ac5ef48eabfd06e0df3f509c7d8e4be3cff10
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572619"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602017"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Beheren wie Microsoft 365-groepen kunnen maken
 
@@ -114,7 +114,7 @@ en [Meld u aan met uw beheerdersaccount](https://docs.microsoft.com/microsoft-36
 
 ```PowerShell
 $GroupName = "<SecurityGroupName>"
-$AllowGroupCreation = $False"
+$AllowGroupCreation = $False
 
 Connect-AzureAD
 

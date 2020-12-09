@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Meer informatie over het instellen van veilig samenwerken aan inhoud in teams om uw gegevens te beschermen op basis van de vertrouwelijkheid.
-ms.openlocfilehash: 310605d0db84e33be1d5fdc925fadcfcdf9dddaf
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 4f2e157025f00660e77ba3377221368e37e45445
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906797"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602071"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Veilige samenwerking met Microsoft 365 instellen
 
@@ -60,7 +60,7 @@ Gegevens die van essentieel belang zijn voor de succes van uw organisatie of een
 
 U kunt teams in Microsoft teams gebruiken om de gegevens op te slaan, te delen en samen te werken. 
 
-Voor het configureren van de Secure collabration gebruikt u deze Microsoft 365-functies en-functies.
+Voor het configureren van veilig samenwerken gebruikt u deze Microsoft 365-functies en-functies.
 
 | Product of onderdeel | Functie | Licenties |
 |:-------|:-----|:-------|
@@ -76,9 +76,9 @@ Voor het beheren van de toegang tot informatie met verschillende sensitivities, 
 ![Miniatuurafbeelding van de poster Logische architectuur van Teams](../media/solutions-architecture-center/Teams-tiers-of-protection-1.png)
 
 
-Met deze lagen, met een *basislijn* , *gevoelige* en *zeer gevoelige* beveiliging, verhoogt u de bescherming waarmee u overstappen en mogelijke informatie lekkage kunt voorkomen, zoals in de volgende tabel wordt weergegeven.
+Met deze lagen, met een *basislijn*, *gevoelige* en *zeer gevoelige* beveiliging, verhoogt u de bescherming waarmee u overstappen en mogelijke informatie lekkage kunt voorkomen, zoals in de volgende tabel wordt weergegeven.
 
-||**Basislijn**|**Gevoelige laag**|**Uiterst gevoelige laag**|
+|-|**Basislijn**|**Gevoelige laag**|**Uiterst gevoelige laag**|
 |:--|:-----------|:------------|:-------------------|
 |Openbaar of privé team|Ontbreekt|Privé|Privé|
 |Niet-geverifieerd delen|Blokkeert|Blokkeert|Blokkeert|
