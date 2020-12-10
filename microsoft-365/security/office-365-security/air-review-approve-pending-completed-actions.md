@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Meer informatie over herstelacties in de functies voor automatisch onderzoek en antwoord in Microsoft Defender voor Office 365, abonnement 2.
-ms.openlocfilehash: 7dc5c0ba2e320e3f140d26e79e5c2e4a8fde79d7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9a1fdb4bec5168dfcd816dbce7da01f930e38ae1
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844558"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615190"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>In behandeling zijnde of voltooide herstelacties bekijken na een geautomatiseerd onderzoek in Office 365
 
@@ -39,17 +39,17 @@ Tijdens het bekijken [van de details van een onderzoek](air-view-investigation-r
 > [!IMPORTANT]
 > U moet de juiste machtigingen hebben om herstelacties goed te keuren of te weigeren. Zie de [vereiste machtigingen voor het gebruik van lucht mogelijkheden](office-365-air.md#required-permissions-to-use-air-capabilities).
 
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan. U gaat nu naar de beveiligings & nalevings centrum.
+1. Ga naar <https://protection.office.com> en meld u aan. U gaat nu naar de beveiligings & nalevings centrum.
 
-2. Ga naar onderzoek voor **Threat Management**  >  **Investigations**.
+2. Ga naar onderzoek voor **Threat Management** \> .
 
-3. Selecteer een item in de kolom **id** van de lijst met onderzoek. 
+3. Selecteer een item in de kolom **id** van de lijst met onderzoek.
 
 4. Selecteer het tabblad **acties** .
 
 5. Selecteer een item in de lijst. (Hiermee activeert u de knoppen goedkeuren en negeren).
 
-6. Bekijk de beschikbare gegevens voor elk item dat u hebt geselecteerd, en keur vervolgens de actie (s) goed of af. 
+6. Bekijk de beschikbare gegevens voor elk item dat u hebt geselecteerd, en keur vervolgens de actie (s) goed of af.
    - **Hiermee kunt** u beginnen met herstellen.
    - Bij **negeren** wordt geen verdere actie ondernomen
 

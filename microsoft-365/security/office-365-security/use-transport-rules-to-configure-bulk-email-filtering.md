@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over het gebruik van regels voor e-mail stroom (transportregels) voor het identificeren en filteren van bulkmail (grijze e-mail) in Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82a93cdc7375468748f241e2d15d729811095330
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+ms.openlocfilehash: 1f88358973648846d650700bb5939c052851c789
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600307"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615634"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>E-mailstroomregels gebruiken om bulk-e-mail te filteren in standalone EOP
 
@@ -39,12 +39,12 @@ In dit onderwerp wordt uitgelegd hoe u deze regels voor de e-mail stroom maakt i
 - U moet machtigingen toegewezen hebben voordat u de volgende procedures kunt uitvoeren:
 
   - In Exchange Online raadpleegt u de invoer voor de e-mail stroom in [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/feature-permissions).
-  
+
   - In zelfstandige EOP hebt u de rol Transport regel nodig, die standaard is toegewezen aan de rollen de organizationmanagement, ComplianceManagement en RecordsManagement. Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
 - Zie [Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center)om het SBV te openen in Exchange Online. Als u het Exchange-Beheercentrum in standalone EOP wilt openen, raadpleegt u [Exchange Admin Center in STANDALONE EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - Zie de volgende onderwerpen voor meer informatie over regels voor e-mail stroom in Exchange Online en zelfstandige EOP:
 
@@ -62,7 +62,7 @@ In dit onderwerp wordt uitgelegd hoe u deze regels voor de e-mail stroom maakt i
 
 ## <a name="use-the-eac-to-create-mail-flow-rules-that-filter-bulk-email"></a>Het Exchange-Beheercentrum gebruiken om grote hoeveelheden e-mail te filteren
 
-1. Ga in het Exchange-Beheercentrum naar de regels voor de **e-mail stroom** \> **Rules**.
+1. Ga in het Exchange-Beheercentrum naar de regels voor de **e-mail stroom** \> .
 
 2. Klik **op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.png) en selecteer vervolgens **een nieuwe regel maken**.
 
@@ -89,7 +89,7 @@ In dit onderwerp wordt uitgelegd hoe u deze regels voor de e-mail stroom maakt i
        - `to change your (subscription preferences|preferences or unsubscribe)`
        - `click (here to|the) unsubscribe`
 
-      Als u een vermelding wilt bewerken, selecteert u **Edit** deze en klikt u op ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) . Als u een vermelding wilt verwijderen, selecteert u deze **en klikt u** op het ![ pictogram verwijderen ](../../media/ITPro-EAC-DeleteIcon.png) .
+      Als u een vermelding wilt bewerken, selecteert u  deze en klikt u op ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) . Als u een vermelding wilt verwijderen, selecteert u deze **en klikt u** op het ![ pictogram verwijderen ](../../media/ITPro-EAC-DeleteIcon.png) .
 
        Wanneer u klaar bent, klikt u op **OK**.
 
@@ -109,13 +109,13 @@ In dit onderwerp wordt uitgelegd hoe u deze regels voor de e-mail stroom maakt i
        - `view this email as a webpage`
        - `You are receiving this email because you are subscribed`
 
-      Als u een vermelding wilt bewerken, selecteert u **Edit** deze en klikt u op ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) . Als u een vermelding wilt verwijderen, selecteert u deze **en klikt u** op het ![ pictogram verwijderen ](../../media/ITPro-EAC-DeleteIcon.png) .
+      Als u een vermelding wilt bewerken, selecteert u  deze en klikt u op ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) . Als u een vermelding wilt verwijderen, selecteert u deze **en klikt u** op het ![ pictogram verwijderen ](../../media/ITPro-EAC-DeleteIcon.png) .
 
        Wanneer u klaar bent, klikt u op **OK**.
 
-   - **Ga als volgt**te werk: opties voor het wijzigen van het **bericht** is \> **het betrouwbaarheidsniveau van spam (SCL)**. In het dialoogvenster **SCL opgeven** dat wordt weergegeven, configureert u een van de volgende instellingen:
+   - **Ga als volgt** te werk: opties voor het wijzigen van het **bericht** is \> **het betrouwbaarheidsniveau van spam (SCL)**. In het dialoogvenster **SCL opgeven** dat wordt weergegeven, configureert u een van de volgende instellingen:
 
-     - Selecteer **6**om berichten als **spam**te markeren. De actie die u hebt geconfigureerd voor het filteren van **ongewenste e-mail** Verdicts in uw Antispambeleid op de berichten (de standaardwaarde is **bericht verplaatsen naar map Ongewenste e-mail**).
+     - Selecteer **6** om berichten als **spam** te markeren. De actie die u hebt geconfigureerd voor het filteren van **ongewenste e-mail** Verdicts in uw Antispambeleid op de berichten (de standaardwaarde is **bericht verplaatsen naar map Ongewenste e-mail**).
 
      - Als u berichten wilt markeren als **spam van hoge betrouwbaarheid** , selecteert u **9**. De actie die u hebt geconfigureerd voor het filteren van **spam** filteren Verdicts in uw Antispambeleid, wordt op de berichten toegepast (de standaardwaarde is **bericht verplaatsen naar map Ongewenste e-mail**).
 

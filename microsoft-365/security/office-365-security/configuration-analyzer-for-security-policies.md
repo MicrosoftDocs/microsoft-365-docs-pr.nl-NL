@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen leren hoe u met de wizard Configuratie analyse beveiligingsbeleid onder de standaardbeveiliging en strikte beveiligings beleidsregels voor beveiliging kunt vinden en oplossen.
-ms.openlocfilehash: 7d02a6f83ceb06eb56039b449890fd90712c76e5
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 5a57e16dcac6afee910ce546d3a40c2c9c669f2d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572535"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616150"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Configuratie analyse voor beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
@@ -37,7 +37,7 @@ Configuratie-analyse in het compliance van beveiligings & biedt een centrale loc
 De volgende typen beleidsregels worden geanalyseerd door de Configuration Analyzer:
 
 - **Beleid voor Exchange Online Protection (EOP)**: Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
-  
+
   - [Anti spam beleid](configure-your-spam-filter-policies.md).
   - [Beleid voor malware van malware](configure-anti-malware-policies.md).
   - [EOP anti phishings beleid](set-up-anti-phishing-policies.md#spoof-settings).
@@ -60,9 +60,9 @@ De **standaard** -en **strikte** beleidsinstelling waarden die worden gebruikt a
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u direct naar de pagina **Configuration Analyzer** wilt gaan, gebruikt u <https://protection.office.com/configurationAnalyzer> .
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
-- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+- Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
   - Als u de Configuration Analyzer wilt gebruiken **en** beveiligingsbeleidsregels wilt bijwerken, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
   - Voor alleen-lezen toegang tot de configuratie analyse, moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
@@ -70,12 +70,12 @@ De **standaard** -en **strikte** beleidsinstelling waarden die worden gebruikt a
 
   **Opmerkingen**:
 
-  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
-  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 ## <a name="use-the-configuration-analyzer-in-the-security--compliance-center"></a>Werken met de functie Configuration Analyzer in het compliance van beveiligings &
 
-Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **configuratie analyse** beleid voor Threat Management.
+Ga in het beveiligings & compliance naar  \>  \> **configuratie analyse** beleid voor Threat Management.
 
 ![De widget configuratie analyse op de pagina beleid voor risicobeheer \>](../../media/configuration-analyzer-widget.png)
 

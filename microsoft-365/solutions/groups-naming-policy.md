@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Leer hoe u een naamgevingsbeleid maakt voor Microsoft 365-groepen.
-ms.openlocfilehash: 55faf5c61d577b35b34923efc7b65457fe46de29
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 15fcbace737398c6edd2062e72622e8551ebd222
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377603"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613500"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Naam beleid voor Microsoft 365-groepen
 
@@ -45,7 +45,7 @@ Als u Azure AD namebeleid voor Microsoft 365-groepen gebruikt, moet u beschikken
 
 Dit is ook vereist voor de beheerder die het naamgevingsbeleid voor groepen maakt.
 
-## <a name="prefix-suffix-naming-policy"></a>Naamgeving van voorvoegsels/achtervoegsels
+## <a name="prefix-suffix-naming-policy"></a>Naam beleid Prefix-Suffix
 
 Voorvoegsels en achtervoegsels kunnen vaste tekenreeksen of gebruikerskenmerken zijn.
 
@@ -122,8 +122,8 @@ Sommige beheerders worden vrijgemaakt van deze polissen voor alle bewerkings-en 
 
 Een naamgevingsbeleid instellen:
 
-1. Klik in [Azure Active Directory](https://aad.portal.azure.com)onder **beheren**op **groepen**.
-2. Klik onder **instellingen**op **naam beleid**.
+1. Klik in [Azure Active Directory](https://aad.portal.azure.com)onder **beheren** op **groepen**.
+2. Klik onder **instellingen** op **naam beleid**.
 3. Kies het tabblad **naam beleid voor groepen** .
 4. Kies onder **huidig beleid**, als u een voor-of achtervoegsel of beide wilt vereisen, en schakel de gewenste selectievakjes in.
 5. Kies voor elke regel een van de **kenmerken** en de **tekenreeks** en geef vervolgens het kenmerk of de tekenreeks op.
@@ -132,5 +132,9 @@ Een naamgevingsbeleid instellen:
 ![Schermafbeelding van de instellingen voor het wijzigen van de naam van een Groepsbeleid in azure Active Directory](../media/groups-naming-policy-azure.png)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Azure Active Directory-cmdlets voor het configureren van instellingen voor groepen](https://go.microsoft.com/fwlink/?linkid=868341)

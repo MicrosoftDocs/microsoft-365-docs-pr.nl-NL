@@ -1,5 +1,5 @@
 ---
-title: Voorkomen dat gastgebruikers aan een specifieke groep worden toegevoegd
+title: Voorkomen dat gasten worden toegevoegd aan een specifieke groep
 ms.reviewer: arvaradh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,15 +14,15 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Meer informatie over hoe u kunt voorkomen dat gastgebruikers aan een specifieke groep worden toegevoegd
-ms.openlocfilehash: 91c7560186fb0b954075e9ff9c997b34121951cd
-ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
+description: Meer informatie over hoe u ervoor kunt zorgen dat gasten niet aan een specifieke groep worden toegevoegd
+ms.openlocfilehash: 99e78932b29d25054922b56fcadb608a7dfca432
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48651348"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613054"
 ---
-# <a name="prevent-guest-users-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Voorkomen dat gastgebruikers worden toegevoegd aan een specifieke Microsoft 365-groep of in een Microsoft teams-team
+# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Voorkomen dat gasten worden toegevoegd aan een specifieke Microsoft 365-groep of een Microsoft teams-team
 
 Als u gasttoegang wilt verlenen tot de meeste groepen en teams, maar wel een deel van de toegang tot gasttoegang wilt blokkeren, kunt u gasttoegang voor afzonderlijke groepen en teams blokkeren. (Het blokkeren van toegang tot een team is ongedaan gemaakt door gasttoegang tot de bijbehorende groep te blokkeren). Hiermee voorkomt u dat nieuwe gasten worden toegevoegd, maar geen gasten die al deel uitmaken van de groep of het team.
 
@@ -69,7 +69,7 @@ De verificatie ziet er als volgt uit:
   
 ## <a name="allow-or-block-guest-access-based-on-their-domain"></a>Gasttoegang op basis van hun domein toestaan of blokkeren
 
-U kunt gastgebruikers die een specifiek domein gebruiken toestaan of blokkeren. Als uw bedrijf (Contoso) bijvoorbeeld een partnership heeft met een ander bedrijf (fabrikam), kunt u fabrikam toevoegen aan uw lijst toestaan, zodat uw gebruikers deze gasten kunnen toevoegen aan hun groepen.
+U kunt gast personen die een specifiek domein gebruiken toestaan of blokkeren. Als uw bedrijf (Contoso) bijvoorbeeld een partnership heeft met een ander bedrijf (fabrikam), kunt u fabrikam toevoegen aan uw lijst toestaan, zodat uw gebruikers deze gasten kunnen toevoegen aan hun groepen.
 
 Zie [uitnodigingen voor B2B-gebruikers in specifieke organisaties toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)voor meer informatie.
 
@@ -77,7 +77,7 @@ Zie [uitnodigingen voor B2B-gebruikers in specifieke organisaties toestaan of bl
 
 Gasten worden standaard niet weergegeven in de algemene adreslijst van Exchange. Volg de onderstaande stappen om een gast zichtbaar te maken in de algemene adreslijst.
 
-Ga als volgt te werk om de ObjectID van de gastgebruiker op te voeren:
+Ga als volgt te werk om de ObjectID van de gast te zoeken:
 
 ```PowerShell
 Get-AzureADUser -Filter "userType eq 'Guest'"
@@ -89,7 +89,11 @@ Voer vervolgens de volgende opdracht uit om de juiste waarden te gebruiken voor 
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'
 ```
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Groepslidmaatschap beheren in het Microsoft 365-Beheercentrum](https://docs.microsoft.com/microsoft-365/admin/create-groups/add-or-remove-members-from-groups)
   

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Gebruik het nieuwe beveiligings dashboard om de status van de Bedreigingsbeveiliging van Office 365 te controleren en beveiligingswaarschuwingen weer te geven en te ondernemen.
-ms.openlocfilehash: b49422621e70d597251cd342559e59ffa0e128f6
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 6a2669e3e36ee9238de99014a6c899df75204726
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877323"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615814"
 ---
 # <a name="security-dashboard"></a>Beveiligings dashboard
 
@@ -40,7 +40,7 @@ Bekijk de video om een overzicht te krijgen en lees dit artikel voor meer inform
 
 Afhankelijk van wat het abonnement van uw organisatie is, bevat het beveiligings dashboard diverse widgets, zoals het overzicht van risicobeheer, de status van Bedreigingsbeveiliging, globale wekelijkse bedreigingen detectie, malware en meer, zoals beschreven in de volgende secties.
 
-Als u het beveiligings dashboard wilt weergeven, gaat u naar het hulpmiddel voor het **beheer van bedreigingen** van [beveiligings &](../../compliance/go-to-the-securitycompliance-center.md) \> **Dashboard**.
+Als u het beveiligings dashboard wilt weergeven, gaat u naar het hulpmiddel voor het **beheer van bedreigingen** van [beveiligings &](../../compliance/go-to-the-securitycompliance-center.md) \> .
 
 > [!NOTE]
 > U moet een globale beheerder, een beveiligingsbeheerder of een beveiligings lezer zijn om het beveiligings dashboard te kunnen bekijken. Voor sommige objecten hebt u extra machtigingen nodig om weer te geven. Zie voor meer informatie [machtigingen in de beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
@@ -55,7 +55,7 @@ De informatie die u in het overzicht van risicobeheer ziet, is afhankelijk van h
 
 |Office 365 E3|Office 365 E5|
 |---|---|
-|Malware-berichten geblokkeerd<br/>Malafide berichten geblokkeerd<br>Berichten aangegeven door gebruikers<br><br><br><br>|Malware-berichten geblokkeerd<br>Malafide berichten geblokkeerd<br>Berichten aangegeven door gebruikers<br>Malware blokkeren op nul dagen<br>Geavanceerde phishingberichten gevonden<br>Geblokkeerde schadelijke Url's|
+|Malware-berichten geblokkeerd<br>Malafide berichten geblokkeerd<br>Berichten aangegeven door gebruikers<br><br><br><br>|Malware-berichten geblokkeerd<br>Malafide berichten geblokkeerd<br>Berichten aangegeven door gebruikers<br>Malware blokkeren op nul dagen<br>Geavanceerde phishingberichten gevonden<br>Geblokkeerde schadelijke Url's|
 
 Als u de widget overzicht van risicobeheer wilt weergeven of gebruiken, moet u beschikken over machtigingen voor het weergeven van de rapporten van Defender for Office 365. Voor meer informatie raadpleegt [u de machtigingen voor het weergeven van de rapporten van de Defender for Office 365](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports).
 
@@ -69,8 +69,8 @@ Welke details er zijn, is afhankelijk van het feit of uw Microsoft 365-abonnemen
 
 |Als uw abonnement dit omvat...|Deze gegevens worden weergegeven|
 |---|---|
-|EOP, maar niet Microsoft Defender voor Office 365|Schadelijke e-mail die is gedetecteerd en geblokkeerd door EOP.<br><br> Zie [status rapport Threat Protection (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Microsoft Defender voor Office 365|Kwaadwillende inhoud en kwaadaardige e-mail detectie en geblokkeerd door EOP en Defender voor Office 365<br><br>Het totaal aantal unieke e-mailberichten met schadelijke inhoud die wordt geblokkeerd door de anti malware-engine, [automatisch wissen van Zero uur](zero-hour-auto-purge.md)en de functies van de Defender voor Office 365 (inclusief [veilige koppelingen](atp-safe-links.md), [veilige bijlagen](atp-safe-attachments.md)en [anti-phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)).<br><br>Zie [statusrapport bedreigingsbeveiliging](view-reports-for-atp.md#threat-protection-status-report).|
+|EOP, maar niet Microsoft Defender voor Office 365|Schadelijke e-mail die is gedetecteerd en geblokkeerd door EOP.<p> Zie [status rapport Threat Protection (EOP)](view-email-security-reports.md#threat-protection-status-report).|
+|Microsoft Defender voor Office 365|Kwaadwillende inhoud en kwaadaardige e-mail detectie en geblokkeerd door EOP en Defender voor Office 365 <p> Het totaal aantal unieke e-mailberichten met schadelijke inhoud die wordt geblokkeerd door de anti malware-engine, [automatisch wissen van Zero uur](zero-hour-auto-purge.md)en de functies van de Defender voor Office 365 (inclusief [veilige koppelingen](atp-safe-links.md), [veilige bijlagen](atp-safe-attachments.md)en [anti-phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)). <p> Zie [statusrapport bedreigingsbeveiliging](view-reports-for-atp.md#threat-protection-status-report).|
 
 Als u de widget Bedreigingsbeveiliging wilt weergeven of gebruiken, moet u beschikken over machtigingen voor het weergeven van de rapporten van Defender for Office 365. Voor meer informatie raadpleegt [u welke machtigingen nodig zijn voor het weergeven van de rapporten van de Defender for Office 365?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 

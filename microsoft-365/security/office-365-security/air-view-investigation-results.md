@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 kunt u de resultaten en de belangrijkste bevindingen bekijken.
 ms.date: 11/05/2020
-ms.openlocfilehash: 4dc74987619c3f958c874927af6e4240b9d7e154
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 2018f008e043f36cd41047185f305209fcb725d7
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357283"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615142"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
@@ -53,13 +53,13 @@ Met de status van onderzoek wordt de voortgang van de analyse en acties aangegev
 
 ## <a name="view-details-of-an-investigation"></a>Details van een onderzoek weergeven
 
-1. Ga naar de beveiligings & nalevings centrum ( [https://protection.office.com](https://protection.office.com) ) en meld u aan.
+1. Ga naar de beveiligings & nalevings centrum ( <https://protection.office.com> ) en meld u aan.
 
 2. Voer een van de volgende handelingen uit:
 
-    - Ga naar **Threat management** \> **Dashboard** Threat Management. U gaat nu naar het [beveiligings dashboard](security-dashboard.md). Uw lucht widgets worden weergegeven boven aan het [beveiligings dashboard](security-dashboard.md). Selecteer een widget, zoals **onderzoek samenvatting**.
+    - Ga naar  \> **Dashboard** Threat Management. U gaat nu naar het [beveiligings dashboard](security-dashboard.md). Uw lucht widgets worden weergegeven boven aan het [beveiligings dashboard](security-dashboard.md). Selecteer een widget, zoals **onderzoek samenvatting**.
 
-    - Ga naar onderzoek voor **Threat Management** \> **Investigations**.
+    - Ga naar onderzoek voor **Threat Management** \> .
 
     Met beide methoden gaat u naar een lijst met onderzoek.
 
@@ -77,9 +77,9 @@ Bepaalde soorten waarschuwingen activeren geautomatiseerd onderzoek in Microsoft
 
 Gebruik de volgende procedure om details weer te geven van een waarschuwing die is gekoppeld aan een geautomatiseerd onderzoek.
 
-1. Ga naar de beveiligings & nalevings centrum ( [https://protection.office.com](https://protection.office.com) ) en meld u aan.
+1. Ga naar de beveiligings & nalevings centrum ( <https://protection.office.com> ) en meld u aan.
 
-2. Ga naar onderzoek voor **Threat Management** \> **Investigations**.
+2. Ga naar onderzoek voor **Threat Management** \> .
 
 3. Selecteer een item in de kolom **id** van de lijst met onderzoek.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
-ms.openlocfilehash: 839d76c1e07b457f671f1f0eccd0a9160e4039a3
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 9d3c8c0bf2b1c440892a1099d3d0812d95027156
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568568"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615766"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -129,7 +129,6 @@ U hebt de volgende opties om te voorkomen dat het vraagteken of via tag wordt to
 - Laat de afzender spoofen in het beleid voor spoof Intelligence. Met deze actie wordt voorkomen dat de via-code in berichten van de afzender wordt weergegeven als de id van de niet-geverifieerde afzender is uitgeschakeld. Zie voor instructies voor instructies het artikel [spoof Intelligence configureren in Microsoft 365](learn-about-spoof-intelligence.md).
 
 - [Configureer e-mail verificatie](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) voor het domein van de afzender.
-  
   - Voor het vraagteken in de foto van de afzender, SPF of DKIM zijn de belangrijkste punten.
   - Voor de via-tag bevestigt u het domein in de DKIM-handtekening of het e-mail adres dat overeenkomt met het **e-mail** adres of het subdomein van het domein in het van-adres.
 

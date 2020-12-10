@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: 'Overzicht: een SharePoint Online-team site configureren die is geïsoleerd van de rest van de organisatie in uw Microsoft 365-ontwikkelomgeving/testomgeving.'
-ms.openlocfilehash: e21dccb9ef535bb997d6e62b70e5576bf531041c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 6e056cd1d930d13e1ae20f8f8d0cdc9aa886f17e
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199659"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616486"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Geïsoleerde ontwikkelaar van SharePoint Online-team site/testomgeving
 
@@ -34,11 +34,9 @@ SharePoint Online-team sites in Microsoft 365 zijn locaties voor samenwerking wa
 
 Toegang tot SharePoint Online-team sites en wat gebruikers kunnen doen, wordt beheerd door SharePoint-groepen en machtigingsniveaus. SharePoint Online-sites hebben standaard drie toegangsniveaus:
 
-- **Leden**van de site, die de bronnen op de site kunnen bekijken, maken en wijzigen.
-
-- **Eigenaren**van de volledige controle over de site, waaronder de mogelijkheid om machtigingen te wijzigen.
-
-- **Gebruikers**die alleen de resources op de site kunnen weergeven.
+- **Leden** van de site, die de bronnen op de site kunnen bekijken, maken en wijzigen.
+- **Eigenaren** van de volledige controle over de site, waaronder de mogelijkheid om machtigingen te wijzigen.
+- **Gebruikers** die alleen de resources op de site kunnen weergeven.
 
 In dit artikel wordt u stapsgewijs begeleid bij de configuratie van een alleenstaande SharePoint Online-team site voor een Secret Research project met de naam Projectx. De toegangsvereisten zijn:
 
@@ -135,15 +133,15 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 Uitvoer
 
-- De groep Projectx-leden bevat de gebruikersaccounts voor de potentiële klant en de gebruikers van de potentiële klant
+- De groep ProjectX-Members toegang bevat de gebruikersaccounts van de potentiële klant voor potentiële klanten en gebruikers van de potentiële klant
 
-- De groep Projectx-beheerderstoegang bevat het account van de globale beheerder voor uw proefabonnement.
+- De groep ProjectX-Admins toegang bevat het account van de globale beheerder voor uw proefabonnement
 
-- De groep Projectx-viewers heeft het gebruikersaccount Development VP.
+- De groep ProjectX-Viewers toegang bevat het gebruikersaccount van Development VP
 
 Afbeelding 1 toont de toegangsgroepen en hun lidmaatschap.
 
-**Afbeelding 1**
+**Afbeelding 1**:
 
 ![De Microsoft 365-groepen en hun lidmaatschap van een geïsoleerde site van een SharePoint Online-groep](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
 
@@ -151,15 +149,15 @@ Afbeelding 1 toont de toegangsgroepen en hun lidmaatschap.
 
 Ga als volgt te werk om een SharePoint Online-team site voor Projectx te maken:
 
-1. Meld u aan bij het Microsoft 365-Beheercentrum [https://admin.microsoft.com](https://admin.microsoft.com) met uw globale beheerdersaccount en gebruik een browser op uw lokale computer (Lightweight Configuration) of op CLIENT1 (gesimuleerde Enterprise Configuration).
+1. Meld u aan bij het Microsoft 365-Beheercentrum <https://admin.microsoft.com> met uw globale beheerdersaccount en gebruik een browser op uw lokale computer (Lightweight Configuration) of op CLIENT1 (gesimuleerde Enterprise Configuration).
 
 2. Klik in de lijst met tegels op **SharePoint**.
 
 3. Klik in het nieuwe SharePoint-tabblad in uw browser op **+ Site maken**.
 
-4. In de naam van de **team site**typt u **projectx**. Selecteer bij **privacyinstellingen**de optie **persoonlijke leden hebben toegang tot deze site**.
+4. In de naam van de **team site** typt u **projectx**. Selecteer bij **privacyinstellingen** de optie **persoonlijke leden hebben toegang tot deze site**.
 
-5. Typ in de beschrijving van de **team site**een **SharePoint-site voor projectx**en klik vervolgens op **volgende**.
+5. Typ in de beschrijving van de **team site** een **SharePoint-site voor projectx** en klik vervolgens op **volgende**.
 
 6. Aan **wie wilt u toevoegen**? Klik op **Voltooien**.
 
@@ -197,13 +195,13 @@ Ga als volgt te werk om een SharePoint Online-team site voor Projectx te maken:
 
 Dit zijn de resultaten van het configureren van machtigingen:
 
-- De SharePoint-groep leden van Projectx bevat alleen de groep Projectx-leden (die alleen de gebruikersaccounts voor de potentiële klant en de gebruikers van de potentiële klant voor de potentiële klanten bevat) en de Projectx-groep (die alleen het globale beheerdersaccount bevat).
+- De SharePoint-groep leden van Projectx bevat alleen de toegangsgroep voor ProjectX-Members (dit bevat alleen de gebruikersaccounts van de potentiële klant en de gebruikers van de gebruikers van de potentiële klant) en de Projectx-groep (die alleen het hoofd beheerders gebruikersaccount bevat).
 
-- De SharePoint-groep eigenaren van Projectx bevat alleen de groep Projectx-beheerderstoegang (die alleen het hoofd beheerders gebruikersaccount bevat).
+- De SharePoint-groep eigenaren van Projectx bevat alleen de groep ProjectX-Admins toegang (die alleen het hoofd beheerders gebruikersaccount bevat).
 
-- De SharePoint-groep voor bezoekers van Projectx bevat alleen de groep Projectx-viewers, die alleen het gebruikersaccount van Development VP bevat.
+- De SharePoint-groep voor bezoekers van Projectx bevat alleen de toegangsgroep voor ProjectX-Viewers (die alleen het gebruikersaccount van Development VP bevat).
 
-- Leden kunnen geen machtigingen op siteniveau wijzigen (dit kan alleen worden uitgevoerd door leden van de groep Projectx-beheerders).
+- Leden kunnen geen machtigingen op siteniveau wijzigen (dit kan alleen worden uitgevoerd door leden van de groep ProjectX-Admins).
 
 - Andere gebruikersaccounts hebben geen toegang tot de site of de bijbehorende resources en kunnen geen toegang tot de site aanvragen.
 
@@ -219,13 +217,13 @@ Laten we Access demonstreren met behulp van de gebruikersaccount van de potenti�
 
 2. Klik op de naam van de globale beheerder en klik vervolgens op **Afmelden**.
 
-3. Meld u aan bij het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ) met behulp van de naam van het account en het wachtwoord van de potentiële klant.
+3. Meld u aan bij het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ) met behulp van de naam van het account en het wachtwoord van de potentiële klant.
 
 4. Klik in de lijst met tegels op **SharePoint**.
 
 5. Typ op het tabblad nieuwe **SharePoint** in uw browser **projectx** in het zoekvak, activeer de zoekfunctie en klik vervolgens op de **projectx** -team site. U ziet nu een nieuw tabblad in uw browser voor de Projectx-team site.
 
-6. Klik op het pictogram instellingen. Let erop dat er geen optie is voor **site machtigingen**. Dit klopt niet omdat alleen de leden van de groep Projectx-beheerdersmachtigingen voor de site kunnen wijzigen.
+6. Klik op het pictogram instellingen. Let erop dat er geen optie is voor **site machtigingen**. Dit klopt omdat alleen de leden van de groep ProjectX-Admins de machtigingen voor de site kunnen wijzigen.
 
 7. Open Kladblok of een teksteditor van uw keuze.
 
@@ -237,9 +235,9 @@ Laten we Access demonstreren met behulp van de gebruikersaccount van de potenti�
 
 11. Klik in uw browser op het tabblad nieuwe **projectx-documenten** op **Nieuw > Word-document**.
 
-12. Voer wat tekst op de pagina in, wacht tot de status is **opgeslagen**en klik op de knop terug in uw browser en vernieuw de pagina. U ziet nu een nieuwe **Document.docx** in de map **documenten** .
+12. Voer wat tekst op de pagina in, wacht tot de status is **opgeslagen** en klik op de knop terug in uw browser en vernieuw de pagina. U ziet nu een nieuwe **Document.docx** in de map **documenten** .
 
-13. Klik op het beletselteken voor het **Document.docx** document en klik vervolgens op **koppeling weer**geven.
+13. Klik op het beletselteken voor het **Document.docx** document en klik vervolgens op **koppeling weer** geven.
 
 14. Kopieer de URL in het dialoogvenster **' Document.docx ' delen** en plak deze op een nieuwe regel in Kladblok of in de teksteditor en sluit vervolgens het dialoogvenster **' Document.docx '** .
 
@@ -249,23 +247,23 @@ Laten we Access demonstreren met behulp van de gebruikersaccount van de potenti�
 
 Laten we nu eens kijken hoe u het gebruikersaccount van Development VP gebruikt:
 
-1. Meld u aan bij het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ) met de accountnaam van Development VP en het bijbehorende wachtwoord.
+1. Meld u aan bij het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ) met de accountnaam van Development VP en het bijbehorende wachtwoord.
 
 2. Klik in de lijst met tegels op **SharePoint**.
 
 3. Typ op het tabblad nieuwe **SharePoint** in uw browser **projectx** in het zoekvak, activeer de zoekfunctie en klik vervolgens op de **projectx** -team site. U ziet nu een nieuw tabblad in uw browser voor de Projectx-team site.
 
-4. Klik op **documenten**en klik vervolgens op het **Document.docx** bestand.
+4. Klik op **documenten** en klik vervolgens op het **Document.docx** bestand.
 
 5. Probeer de tekst te wijzigen op het tabblad **Document.docx** in de browser. U ziet een bericht **met de mededeling dat het document alleen-lezen is.** Dit wordt verwacht omdat het gebruikersaccount van Development VP alleen weergave machtigingen voor de site heeft.
 
-6. Sluit de tabbladen **Document.docx**, **projectx-documenten**en **SharePoint** in uw browser.
+6. Sluit de tabbladen **Document.docx**, **projectx-documenten** en **SharePoint** in uw browser.
 
 7. Ga naar het tabblad **Start van Microsoft Office** , klik op de naam van de naam van de **ontwikkelaars** en klik vervolgens op **Afmelden**.
 
 Laten we nu eens kijken naar Access met een gebruikersaccount zonder machtigingen:
 
-1. Meld u aan bij het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ) met behulp van de accountnaam en het wachtwoord van de gebruiker.
+1. Meld u aan bij het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ) met behulp van de accountnaam en het wachtwoord van de gebruiker.
 
 2. Klik in de lijst met tegels op **SharePoint**.
 
@@ -289,7 +287,7 @@ Als u klaar bent om een geïsoleerde SharePoint Online-teamsite in productie te 
 
 [Geïsoleerde SharePoint Online-teamsites](isolated-sharepoint-online-team-sites.md)
 
-[Testlabrichtlijnen voor cloudacceptatie (TLG's)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Cloud adoption Test Lab Guides (TLGs)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
 [De basisconfiguratie voor een gesimuleerde Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
 

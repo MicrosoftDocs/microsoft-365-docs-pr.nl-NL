@@ -2,7 +2,7 @@
 title: Een B2B-extranet maken met beheerde gasten
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Leer hoe u een B2B-extranetsite of-team maakt met beheerde gastgebruikers van een partnerorganisatie.
-ms.openlocfilehash: b052598f86072776f69e538c70a6bd56d79c3f81
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+description: Leer hoe u een B2B-extranetsite of-team maakt met beheerde gasten van een partnerorganisatie.
+ms.openlocfilehash: cfb7cc4310cb83f9ce7761c95f021724b7d75faf
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030051"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613594"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>Een B2B-extranet maken met beheerde gasten
 
 Met [Azure Active Directory-beheer van rechten](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) kunt u een B2B-extranet maken om samen te werken met een partnerorganisatie die gebruikmaakt van Azure Active Directory. Hiermee kunnen gebruikers zichzelf registreren op de extranetsite of het team en toegang krijgen via een goedkeuringswerkstroom.
 
-Met deze methode voor het delen van bronnen voor samenwerking kan de organisatie organisatie de gastgebruikers aan hun einde bijhouden en goedkeuren, waardoor de belasting van uw IT-afdeling wordt beperkt en de functies voor de samenwerking voor de samenwerking voor de samenwerking voor de samenwerking kunnen worden beheerd.
+Met deze methode voor het delen van bronnen voor samenwerking kan de organisatie organisatie de gasten aan hun einde bijhouden en goedkeuren, zodat de belasting van uw IT-afdeling kan worden beperkt en de functies voor de samenwerking voor de samenwerking voor de samenwerking van gebruikers toegang kunnen worden beheerd.
 
 In dit artikel worden de stappen beschreven voor het maken van een bron pakket (in dit geval een site of team) dat u kunt delen met een partnerorganisatie via een registratie model voor selfservice toegang. 
 
@@ -57,7 +57,7 @@ Een verbonden organisatie toevoegen
 6. Klik op **adreslijst + domein toevoegen**.
 7. Typ het domein voor de organisatie waarmee u verbinding wilt maken en klik op **toevoegen**.
 8. Klik op **verbinden** en klik vervolgens op **volgende: sponsors**.
-9. Voeg mensen uit uw organisatie of organisatie toe die u wilt gebruiken voor de toegang tot gastgebruikers.
+9. Voeg personen toe uit uw organisatie of de organisatie die u verbindt met wie u de toegang voor gasten wilt goedkeuren.
 10. Klik op **volgende: bekijken + maken**.
 11. Controleer de instellingen die u hebt gekozen en klik vervolgens op **maken**.
 
@@ -92,7 +92,7 @@ Een toegangs pakket maken
 2. Klik op **toegangs pakketten** en klik vervolgens op **nieuw toegangs pakket**.
 3. Typ een naam en beschrijving voor het toegangs pakket en klik vervolgens op **volgende: resource rollen**.
 4. Kies de resources in de catalogus die u wilt gebruiken voor uw extranet.
-5. Kies voor elke **resource de gebruikersrol** die u wilt verlenen aan de gastgebruikers die het extranet gebruiken.
+5. Kies voor elke **resource de gebruikersrol** die u wilt verlenen aan de gasten die gebruikmaken van het extranet.
 6. Klik op **volgende: aanvragen**.
 7. Kies onder **gebruikers die toegang kunnen aanvragen** **voor gebruikers die niet in uw adreslijst** staan.
 8. Zorg ervoor dat de optie **specifieke verbonden organisaties** is geselecteerd en klik vervolgens op **mappen toevoegen**.

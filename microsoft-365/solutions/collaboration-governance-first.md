@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Leer hoe u uw samenwerkings abonnement maakt
-ms.openlocfilehash: 2fb2db16df3c83347831f4ea3489835e5037bbec
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: c27ac401d06808d1a4337e9ec7ec0700bfba19ea
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568280"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613294"
 ---
 # <a name="create-your-collaboration-governance-plan"></a>Uw plan voor samenwerking maken
 
@@ -133,6 +133,8 @@ Uiteindelijk is het welslagen van uw beheeractiviteiten afhankelijk van de manie
 - U kunt een Microsoft 365 leiders-programma maken voor uw organisatie? Daarnaast kunt u zich ook aanmelden bij het wereldwijde [Microsoft 365-programma](https://aka.ms/O365Champions) voor het maken van ideeën en benaderingen voor uw eigen leiders-programma en om contact op te nemen met mensen die denken aan de aandacht van Microsoft.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
 [Beheer in het Microsoft Cloud-acceptatie raamwerk voor Azure](https://docs.microsoft.com/azure/cloud-adoption-framework/govern)
 

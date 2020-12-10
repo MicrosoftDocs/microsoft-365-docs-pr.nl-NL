@@ -3,7 +3,7 @@ title: Teams met bescherming voor vertrouwelijke gegevens configureren
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het implementeren van teams met bescherming voor vertrouwelijke gegevens.
-ms.openlocfilehash: 3c68e6690d9fdab28a5dd1369876bec5b3fd9bc7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: ad1cf437bdbe3bd7b25347bb49698314097462ab
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528192"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49612950"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Teams met bescherming voor vertrouwelijke gegevens configureren
 
@@ -56,7 +56,7 @@ Wanneer u gevoeligheidslabels voor Teams hebt ingeschakeld, is de volgende stap 
 
 Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
-2. Klik onder **Oplossingen**op **Informatiebeveiliging**.
+2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **Een label maken**.
 4. Geef een naam op voor het label. We suggereren **gevoelig**, maar u kunt een andere naam kiezen als die al in gebruik is.
 5. Voeg een knopinfo toe en klik vervolgens op **volgende**.
@@ -65,7 +65,7 @@ Een gevoeligheidslabel maken
 8. Stel op de pagina **Site- en groepsinstellingen** de **Site- en groepsinstellingen** in op **Aan**.
 9. Klik in de vervolgkeuzelijst **Privacy van Office 365 met de groep verbonden teamsites** op **Privé - alleen leden hebben toegang tot de site**.
 10. Als u gasttoegang wilt toestaan, selecteert u het selectievakje **laat groepseigenaren van Office 365 gebruikers buiten de organisatie toevoegen aan de groep**. 
-11. Kies onder **niet-beheerde apparaten**de optie **beperkte toegang tot het Internet toestaan**.
+11. Kies onder **niet-beheerde apparaten** de optie **beperkte toegang tot het Internet toestaan**.
 12. Klik op **Volgende**.
 13. Klik op de pagina **Automatische labeling voor Office-apps** op **Volgende**.
 14. Klik op **Verzenden** en klik vervolgens op **Gereed**.
@@ -90,7 +90,7 @@ Een team maken voor vertrouwelijke informatie
 In deze fase wordt u aangeraden het maken van privé-kanalen tot teameigenaren te beperken.
 
 Het maken van een privé-kanaal beperken
-1. In het team klikt u op **Meer opties**en klikt u vervolgens op **Team beheren**.
+1. In het team klikt u op **Meer opties** en klikt u vervolgens op **Team beheren**.
 2. Vouw op het tabblad **Instellingen** de optie **Machtigingen voor leden** uit.
 3. Schakel het selectievakje **Leden toestaan privékanalen te maken** uit.
 

@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Lees meer over het regelen van gerelateerde functies in Microsoft 365 groepen, teams, SharePoint en Yammer.
-ms.openlocfilehash: 2e4064ec64c52d4d3afe3d2e83f34079b3749f97
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 2319a0f5b8c74925569d00eb781d247fe61a5a76
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568402"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613030"
 ---
 # <a name="what-is-collaboration-governance"></a>Wat is Collaborate governance?
 
@@ -141,7 +141,7 @@ De beheermogelijkheden voor samenwerking in Microsoft 365 bevatten functies in M
 |Verloopbeleid voor groepen|U kunt instellen dat inactieve groepen en teams vervalt en na een bepaalde tijdsperiode worden verwijderd.|Microsoft 365 E5 of E3 met Azure AD Premium-licenties|
 |Gasttoegang per groep|Teams en groepen delen met personen buiten uw organisatie toestaan of voorkomen per groep.|Microsoft 365 E5 of E3|
 
-## <a name="create-your-governance-plan"></a>Uw beheer abonnement maken
+## <a name="collaboration-governance-planning-step-by-step"></a>Stapsgewijze planning voor samenwerking
 
 Volg deze basisstappen om uw beheer plan te maken:
 
@@ -208,12 +208,12 @@ De logische architectuur van productiviteitsservices in Microsoft 365, geleid do
 
 Microsoft 365 omvat een uitgebreide set informatiebescherming en mogelijkheden voor naleving. Naast de productiviteitshulpmiddelen van Microsoft zijn de volgende mogelijkheden bedoeld om organisaties te helpen in realtime samen te werken en te voldoen aan de nalevings kaders van strikte regelgevende naleving. 
 
-Deze reeks illustraties gebruikt een van de meest gereguleerde industrieën, financiële diensten om te laten zien hoe deze mogelijkheden voor de gemeenschappelijke regelgeving van toepassing zijn. U kunt deze afbeeldingen aan uw eigen gebruik aanpassen. 
+Deze reeks illustraties gebruikt een van de meest gereguleerde industrieën, financiële diensten om te laten zien hoe deze mogelijkheden voor de gemeenschappelijke regelgeving van toepassing zijn. U kunt deze illustraties aan uw eigen wensen aanpassen. 
 
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Model poster: Microsoft 365 Information Protection en compliance-mogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> Engels: [downloaden als een PDF-](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) bestand \| [downloaden als een Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Japans: [downloaden als een PDF-](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf) bestand \| [downloaden als een Visio](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx)   <br/> Update van november 2020|Waaronder <ul><li>  Microsoft-informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en labels voor bewaarbeleid </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
+|[![Modelposter: Microsoft 365-gegevensbescherming en nalevingsmogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> Engels: [Downloaden als PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)\| [Downloaden als Visio  ](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Japans: [Downloaden als PDF](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)\| [Downloaden als Visio  ](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> Laatst bijgewerkt: november 2020|Omvat: <ul><li>  Microsoft informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en retentielabels </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
 
 ## <a name="conference-sessions"></a>Vergader sessies
 

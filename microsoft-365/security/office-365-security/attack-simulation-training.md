@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Leer hoe u phishing-aanvallen simuleert en gebruikers traint voor phishing met aanvals training in Microsoft Defender voor Office 365.
-ms.openlocfilehash: b9b8a431fc28942f5e11bc7ce2e805ca082cf36b
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: 8f5f457f60c81fe961282f33bb8c37f4d9e27aab
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944453"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616102"
 ---
 # <a name="simulate-a-phishing-attack"></a>Een malafide aanval simuleren
 
@@ -58,8 +58,8 @@ Nettoladingen bevatten een aantal gegevenspunten waarmee u kunt kiezen:
 - **Klik op rente** telt het aantal personen dat op deze nettolading heeft geklikt.
 - Voor **speld** percentage voor speling voorspelt, voorspelt het percentage personen die in deze nettolading worden aangetast op basis van historische gegevens voor deze nettolading voor Microsoft Defender voor Office 365-klanten.
 - **Gestarte simulaties** Hiermee wordt het aantal keren geteld dat deze nettolading in andere simulaties werd gebruikt.
-- De **complexiteit** , die beschikbaar is via **filters** , wordt berekend op basis van het aantal indicatoren binnen de nettolading, wat er op de computer een aanval van maakt. Meer indicatoren leiden tot een lagere complexiteit.
-- **Bron** , beschikbaar via **filters** , geeft aan of de nettolading is gemaakt met de Tenant of dat deze deel uitmaakt van de reeds bestaande nettoladingen catalogus van Microsoft (globaal).
+- De **complexiteit**, die beschikbaar is via **filters**, wordt berekend op basis van het aantal indicatoren binnen de nettolading, wat er op de computer een aanval van maakt. Meer indicatoren leiden tot een lagere complexiteit.
+- **Bron**, beschikbaar via **filters**, geeft aan of de nettolading is gemaakt met de Tenant of dat deze deel uitmaakt van de reeds bestaande nettoladingen catalogus van Microsoft (globaal).
 
 ![Geselecteerde nettolading binnen aanval simulatie training in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-select-payload.png)
 
@@ -69,11 +69,11 @@ Als u uw eigen nettolading wilt maken, raadpleegt u [een nettolading maken voor 
 
 ## <a name="audience-targeting"></a>Doelgroepen
 
-Nu is het tijd om het publiek van deze simulatie te selecteren. U kunt ervoor kiezen om **alle gebruikers in uw organisatie** op te nemen of **alleen bepaalde gebruikers en groepen toe te voegen**. 
+Nu is het tijd om het publiek van deze simulatie te selecteren. U kunt ervoor kiezen om **alle gebruikers in uw organisatie** op te nemen of **alleen bepaalde gebruikers en groepen toe te voegen**.
 
 Wanneer u ervoor kiest om **alleen bepaalde gebruikers en groepen toe te voegen,** hebt u de volgende mogelijkheden:
 
-- **Voeg gebruikers toe** , zodat u kunt zoeken naar uw Tenant en de functies voor Geavanceerd zoeken en filteren, zoals het doel van gebruikers die niet zijn gericht op een simulatie in de afgelopen drie maanden.
+- **Voeg gebruikers toe**, zodat u kunt zoeken naar uw Tenant en de functies voor Geavanceerd zoeken en filteren, zoals het doel van gebruikers die niet zijn gericht op een simulatie in de afgelopen drie maanden.
   ![Gebruiker filteren bij simulatie van aanval in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-user-targeting.png)
 - **Met importeren vanuit CSV** kunt u een vooraf gedefinieerde set gebruikers voor deze simulatie importeren.
 
@@ -94,7 +94,7 @@ In de volgende stappen dient u **trainingen toe te voegen** als u ervoor hebt ge
 
 ## <a name="launch-details-and-review"></a>Details starten en controleren
 
-Nu alles is geconfigureerd, kunt u deze simulatie direct starten of plannen voor een latere datum. U moet ook kiezen wanneer u deze simulatie wilt beëindigen. We zullen niet langer de interactie met deze simulatie na de geselecteerde tijd beëindigen. 
+Nu alles is geconfigureerd, kunt u deze simulatie direct starten of plannen voor een latere datum. U moet ook kiezen wanneer u deze simulatie wilt beëindigen. We zullen niet langer de interactie met deze simulatie na de geselecteerde tijd beëindigen.
 
 **Ondersteuning voor regio detectie van tijdzones** voor de levering van de gesimuleerde aanvals berichten voor uw werknemers gedurende hun werktijden op basis van hun regio.
 

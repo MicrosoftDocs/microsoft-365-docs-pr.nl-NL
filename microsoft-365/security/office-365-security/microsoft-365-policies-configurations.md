@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-overview
-ms.openlocfilehash: 0144e9478e74e252e0c4ccc0c902df376129c388
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: c5c6dae49943aba4288ef2a0dfe9662b02d3b054
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558284"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616366"
 ---
 # <a name="identity-and-device-access-configurations"></a>Configuratie van identiteiten en apparaattoegang
 
@@ -43,9 +43,8 @@ Deze mogelijkheden en de bijbehorende aanbevelingen:
 
 Als uw organisatie unieke omgevings eisen of complexe vereisten heeft, kunt u deze aanbevelingen als uitgangspunt gebruiken. De meeste organisaties kunnen deze aanbevelingen evenwel implementeren.
 
->[!Note]
->Microsoft verkoopt ook licenties voor Enterprise Mobility + Security (EMS) voor Office 365-abonnementen. EMS E3 en EMS E5 zijn gelijk aan de mogelijkheden van Microsoft 365 E3 en Microsoft 365 E5. Zie [EMS-abonnementen](https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) voor de details.
->
+> [!NOTE]
+> Microsoft verkoopt ook licenties voor Enterprise Mobility + Security (EMS) voor Office 365-abonnementen. EMS E3 en EMS E5 zijn gelijk aan de mogelijkheden van Microsoft 365 E3 en Microsoft 365 E5. Zie [EMS-abonnementen](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing) voor de details.
 
 ## <a name="intended-audience"></a>Doelgroep
 
@@ -83,7 +82,7 @@ Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegev
 
 Het model **identiteit en beveiliging voor Microsoft 365** Architecture laat u zien welke mogelijkheden vergelijkbaar zijn.
 
-[![Afbeelding van miniatuur van de bescherming van identiteit en apparaat voor Microsoft 365-poster](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Weergeven als een PDF-bestand](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
+[![Afbeelding van miniatuur van de bescherming van identiteit en apparaat voor Microsoft 365-poster](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [Weergeven als een PDF-bestand](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
 
 Zie ook de oplossing [gegevensbescherming implementeren voor data privacy Regulation](../../solutions/information-protection-deploy.md) voor informatie over de bescherming van informatie die is opgeslagen in microsoft 365.
 

@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Interacties tussen groepen Services
-ms.openlocfilehash: 235a897314a784ba3bb1ac50fe8bdfe9986a70d3
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 6d5681b11cdbd837f784b6c8364cce23f964b167
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377627"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613224"
 ---
 # <a name="groups-services-interactions"></a>Interacties tussen groepen Services
 
@@ -89,14 +89,14 @@ Een veelgebruikte aanpak voor het beheren van sprawl van teams is beperkt welke 
 De ervaring voor het maken van groepen is afhankelijk van apps en services:
 
 
-|App of service|Optreedt|
+|App of service|Ervaring|
 |:-------------|:---------|
 |Outlook|De optie **nieuwe groep** wordt verwijderd uit het menu Nieuw op de pagina personen|
 |Planner|**Nieuw plan** geeft aan dat het maken van groepen is uitgeschakeld en dat u aanbiedingen wilt toevoegen aan een bestaande groep|
 |Project voor het web en routekaart|Menu **groep maken** geeft uitleg dat het maken van groepen is beperkt en dat een bestaande groep wordt voorgesteld.|
 |SharePoint|U kunt nog steeds een team site maken die niet is gekoppeld aan een groep.|
 |Stream|De optie **groep** wordt niet weergegeven in het **menu maken**.|
-|Teams|Gebruiker kan geen team maken met een nieuwe groep, maar u kunt nog wel een team maken dat gebruikmaakt van een bestaande groep.<br><br>U **maakt een team** knop door **team maken van een groep**te vervangen.|
+|Teams|Gebruiker kan geen team maken met een nieuwe groep, maar u kunt nog wel een team maken dat gebruikmaakt van een bestaande groep.<br><br>U **maakt een team** knop door **team maken van een groep** te vervangen.|
 |Yammer|**De optie een groep maken** wordt verwijderd uit hoofdgroepen/community's-navigatie.|
 
 ## <a name="services-interactions-with-groups"></a>Service interacties met groepen
@@ -639,4 +639,10 @@ Nee, de Yammer-groep kan maar ooit worden gekoppeld aan de Microsoft 365-groep w
 **Verwijdert de Yammer-groep de groep Microsoft 365.**
 
 Ja, als u de groep in Yammer verwijdert, worden verwante Microsoft-groepen en door groepen gekoppelde services en inhoud verwijderd.
+
+## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 

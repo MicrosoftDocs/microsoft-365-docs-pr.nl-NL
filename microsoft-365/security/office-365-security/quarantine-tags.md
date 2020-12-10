@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie over het gebruik van quarantaine-Tags om te bepalen wat gebruikers kunnen doen met hun Quarantine-berichten.
-ms.openlocfilehash: 68f28e2dff3bdeada2685ef6806489f5e57f5daf
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 498a5f45fa62481f7f4f8dfe5ece8a51a038f99a
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572667"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616006"
 ---
 # <a name="quarantine-tags"></a>Quarantaine Tags
 
@@ -60,13 +60,13 @@ U maakt en wijst quarantaine tags toe in het beveiligings & nalevings centrum of
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **quarantaine Tags** wilt gaan, opent u deze <https://protection.office.com/quarantineTags> .
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - Als u quarantaine codes wilt weergeven, maken, wijzigen of verwijderen, moet u lid zijn van de rollen **Organisatiebeheer** of **beveiligingsbeheerder** in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="step-1-create-quarantine-tags-in-the-security--compliance-center"></a>Stap 1: quarantaine Tags maken in de beveiligings & nalevings centrum
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags**.
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \>  en selecteer vervolgens **quarantaine Tags**.
 
 2. Selecteer op de pagina **Quarantine-Tags** de optie **aangepaste tag toevoegen**.
 
@@ -161,7 +161,9 @@ Zie [New-QuarantineTag](https://docs.microsoft.com/powershell/module/exchange/ne
 Voer de volgende stappen uit om een Quarantine-tag te maken met behulp van de parameter _EndUserQuarantinePermissionsValue_ :
 
 Een. Een quarantaine machtigingen object in een variabele opslaan met de **nieuwe QuarantinePermissions-** cmdlet.
-<br/>
+
+<p>
+
 BB. Gebruik de variabele als _EndUserQuarantinePermissions_ waarde in de opdracht **New-QuarantineTag** .
 
 ##### <a name="step-a-store-a-quarantine-permissions-object-in-a-variable"></a>Stap A: een quarantaine machtigingen object opslaan in een variabele
@@ -241,16 +243,16 @@ Als u tevreden bent met de machtigingen voor eindgebruikers van de standaard Qua
 
 Volledige instructies voor het maken en wijzigen van anti-spam beleid vindt u in het onderwerp [Antispambeleid in EOP](configure-your-spam-filter-policies.md).
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** \> en selecteer vervolgens **anti spam**. Of open <https://protection.office.com/antispam> .
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \>  \> en selecteer vervolgens **anti spam**. Of open <https://protection.office.com/antispam> .
 
 2. Zoek en selecteer een bestaand Antispambeleid om dit te bewerken, of maak een nieuw anti-spam beleid.
 
 3. Ga in het vervolgmenu met beleidsdetails naar het gedeelte **spam-en Bulkacties** .
-  
+
 4. Als u **quarantaine bericht** hebt geselecteerd voor de actie van een beschikbare spamfilter Verdict, is het dialoogvenster **quarantainebeleid toepassen** beschikbaar voor het selecteren van de Quarantine-tag voor die Verdict.
 
    **Opmerking**: wanneer u een nieuw beleid maakt, wordt er een lege Quarantine-label waarde voor een spam filterd verdict aangegeven Wanneer u de beleidsregels later bewerkt, worden de lege waarden vervangen door de werkelijke namen van de werkelijke namen van quarantaine Tags, zoals beschreven in de vorige tabel.
-  
+
    ![Selectie van quarantaine-Tags in een Antispambeleid](../../media/quarantine-tags-in-anti-spam-policies.png)
 
 5. Klik op **Opslaan** wanneer u gereed bent.
@@ -302,7 +304,7 @@ Zie [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module
 
 Met de algemene instellingen voor quarantaine Tags kunt u de spam meldingen voor eindgebruikers aanpassen die worden verzonden naar geadresseerden van berichten die zijn gequarantined. Voor meer informatie over deze meldingen raadpleegt u [spam meldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags**.
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \>  en selecteer vervolgens **quarantaine Tags**.
 
 2. Selecteer op de pagina **Quarantine-Tags** de optie **globale instellingen**.
 
@@ -338,7 +340,7 @@ Met de algemene instellingen voor quarantaine Tags kunt u de spam meldingen voor
 
 ## <a name="view-quarantine-tags-in-the-security--compliance-center"></a>Quarantaine tags weergeven in het beveiligings & nalevings centrum
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags**.
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \>  en selecteer vervolgens **quarantaine Tags**.
 
 - Als u de instellingen van ingebouwde of aangepaste Quarantine-tags wilt bekijken, selecteert u de quarantaine-tag in de lijst (niet het selectievakje inschakelen).
 
@@ -382,7 +384,7 @@ Zie [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module
 
   Als u de tag Quarantine gebruikt, moet u [de toegewezen quarantaine-tag vervangen](#step-2-assign-a-quarantine-tag-to-supported-features) voordat u deze verwijdert.
 
-1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \> **Policy** en selecteer vervolgens **quarantaine Tags**.
+1. Ga in het beveiligings & compliance naar beleid voor **risicobeheer** \>  en selecteer vervolgens **quarantaine Tags**.
 
 2. Selecteer op de pagina **Quarantine-Tags** de aangepaste Quarantine-tag die u wilt verwijderen en klik vervolgens op **markering verwijderen**.
 
@@ -516,14 +518,14 @@ Met de mogelijkheid om te zorgen dat de gebruikers van de **quarantaine machtigi
 - **Details van quarantaine berichten**:
   - Machtigingen ingeschakeld: de knop **bericht vrijgeven** is beschikbaar.
   - Machtiging uitgeschakeld: de knop **bericht vrijgeven** is niet beschikbaar.
-  
+
 - **Spam meldingen voor eindgebruikers**:
   - Machtigingen ingeschakeld: de knop **uitbrengen** is beschikbaar.
   - Machtiging uitgeschakeld: de knop **release** is niet beschikbaar.
 
 #### <a name="allow-recipients-to-request-a-message-to-be-released-from-quarantine-permission"></a>Toestaan dat geadresseerden een bericht aanvragen om te worden vrijgegeven uit de quarantaine machtiging
 
-De mogelijkheid van de _gebruikers om de_ vrijgave van de geplaatste berichten _PermissionToRequestRelease_ in te stellen, wordt bepaald door de mogelijkheid **dat geadresseerden een bericht aanvragen voor** de toegang tot de Quarantine. Het bericht wordt alleen vrijgegeven nadat een beheerder de aanvraag heeft goedgekeurd.
+De mogelijkheid van de _gebruikers om de_ vrijgave van de geplaatste berichtenin te stellen, wordt bepaald door de mogelijkheid **dat geadresseerden een bericht aanvragen voor** de toegang tot de Quarantine. Het bericht wordt alleen vrijgegeven nadat een beheerder de aanvraag heeft goedgekeurd.
 
 - **Details van quarantaine berichten**:
   - Machtigingen ingeschakeld: de knop **release aanvragen** is beschikbaar.

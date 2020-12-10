@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen leren hoe u een postvak configureert om spam en phishing-e-mail te verzamelen die door gebruikers worden gerapporteerd.
-ms.openlocfilehash: 31249ab930c44d84f27efac95d8e57bd88d9742f
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 7064e2d26722c433d33fe2f983484a40fa33c1e6
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130897"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615622"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor het aanmissionen van gebruikers
 
@@ -72,7 +72,7 @@ Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden vold
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>De beveiligings & voor nalevings centrum gebruiken om het postvak voor de gebruiker te configureren
 
-1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **risicobeheer** \> **Policy** \> **User submissions**.
+1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **risicobeheer** \>  \> .
 
 2. Selecteer een van de volgende opties op de pagina **gebruikers items** die wordt weergegeven:
 
@@ -99,7 +99,7 @@ Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden vold
         - **Aangepast postvak**: Typ in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online-postvak. Distributiegroepen zijn niet toegestaan. Gebruik deze optie als u wilt dat het bericht eerst naar een beheerder of het beveiligings werkactiviteiten team gaat voor analyse. Berichten gaan niet naar Microsoft, tenzij deze door de beheerder zelf worden doorgestuurd.
 
         > [!NOTE]
-        > US Government-organisaties (GCC, GCC-H en DoD) kunnen alleen **aangepaste postvak** configureren. De andere twee opties zijn uitgeschakeld. 
+        > US Government-organisaties (GCC, GCC-H en DoD) kunnen alleen **aangepaste postvak** configureren. De andere twee opties zijn uitgeschakeld.
 
       Wanneer u klaar bent, klikt u op **bevestigen**.
 

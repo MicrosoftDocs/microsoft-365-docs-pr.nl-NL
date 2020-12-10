@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Gebruikers moeten zijn toegewezen machtigingen in het Microsoft 365-beveiligings & nalevings centrum voordat ze de functies voor beveiliging of compliance kunnen beheren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d586684d44545f7aea94c30f5474b1fe5fa4651
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1bf8da85a0e090a9d74934ea5084f547d6a8794f
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202805"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616606"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot de beveiligings & nalevings centrum
 
@@ -49,11 +49,11 @@ Als u meer wilt weten over de verschillende machtigingen die u aan gebruikers ku
 
 1. Open het beveiligings & nalevings centrum aan <https://protection.office.com> en ga vervolgens naar **machtigingen**. Ga direct naar het tabblad **machtigingen** en open <https://protection.office.com/permissions> .
 
-2. Kies in de lijst met rollen groepen de rollen groep en klik vervolgens op het **Edit** ![ pictogram bewerken bewerken ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
+2. Kies in de lijst met rollen groepen de rollen groep en klik vervolgens op het  ![ pictogram bewerken bewerken ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
 
-3. Klik op de pagina eigenschappen van rollen groep **Members**, onder leden **, op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.gif) en selecteer de naam van de gebruiker (s) die u wilt toevoegen.
+3. Klik op de pagina eigenschappen van rollen groep , onder leden **, op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.gif) en selecteer de naam van de gebruiker (s) die u wilt toevoegen.
 
-4. Wanneer u alle gebruikers hebt geselecteerd die u wilt toevoegen aan de rollen groep, klikt u op **toevoegen \> ** en vervolgens op **OK**.
+4. Wanneer u alle gebruikers hebt geselecteerd die u wilt toevoegen aan de rollen groep, klikt u op **toevoegen \>** en vervolgens op **OK**.
 
 5. Klik op **Opslaan** wanneer u gereed bent.
 
@@ -81,7 +81,7 @@ Zie [add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/
 
 Voer een van de volgende stappen uit om te controleren of u toegang hebt tot de beveiligings & nalevings centrum:
 
-- Ga in het beveiligings & nalevings centrum naar **machtigingen** en selecteer de rolgroep. Controleer de leden van de groep rollen in het flyout Details dat wordt geopend. 
+- Ga in het beveiligings & nalevings centrum naar **machtigingen** en selecteer de rolgroep. Controleer de leden van de groep rollen in het flyout Details dat wordt geopend.
 
 - In het beveiligings & nalevings centrum voor PowerShell, vervangt u \<RoleGroupName\> de naam van de rolgroep en voert u de volgende opdracht uit:
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen Veelgestelde vragen en antwoorden over antispam beveiliging bekijken in Exchange Online Protection (EOP).
-ms.openlocfilehash: d2505eea572e512b306cf26c7a57d1dc1b705c0b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 21c70f1942703b8e5f3f4d96b136aff46afcc32b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844462"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615430"
 ---
 # <a name="anti-spam-protection-faq"></a>Veelgestelde vragen over beveiliging tegen ongewenste e-mail
 
@@ -105,9 +105,9 @@ U kunt een melding verzenden naar een opgegeven e-mailadres wanneer een afzender
 
 Ja. We raden u aan om uw MX-record naar Microsoft te laten verwijzen, maar er zijn ook goede zakelijke redenen om uw e-mail door te sturen naar een ander dan Microsoft.
 
-- **Inkomend** : Wijzig uw MX-records zodat ze verwijzen naar de externe provider, en leid de berichten vervolgens om naar EOP voor verdere verwerking. Zie voor meer informatie [uitgebreid filteren van connectors in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+- **Inkomend**: Wijzig uw MX-records zodat ze verwijzen naar de externe provider, en leid de berichten vervolgens om naar EOP voor verdere verwerking. Zie voor meer informatie [uitgebreid filteren van connectors in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-- **Uitgaand** : Configureer Smart host routering van microsoft 365 naar de doeltoepassing van derden.
+- **Uitgaand**: Configureer Smart host routering van microsoft 365 naar de doeltoepassing van derden.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Heb Microsoft een documentatie over hoe ik mij kan beschermen tegen phishing scams?
 
@@ -124,7 +124,7 @@ De hieronder weergegeven richtlijnen zijn aanbevolen procedures voor het verzend
 - **U moet het bron-e-mail domein omzetten in DNS.**
 
   Als de afzender bijvoorbeeld user@fabrikam is, wordt het domein fabrikam omgezet in het IP Address 192.0.43.10.
-  
+
   Als een verzendend domein geen A-record en geen MX-record in DNS bevat, stuurt de service het bericht door naar de groep grotere risico levering, ongeacht of de inhoud van het bericht spam is. Zie voor meer informatie over de extra groep risico levering de [groep hoog risico voor uitgaande berichten](high-risk-delivery-pool-for-outbound-messages.md).
 
 - **Uitgaande e-mail eServer moet een reverse DNS-vermelding (PTR) hebben.**
@@ -155,11 +155,11 @@ De hieronder weergegeven richtlijnen zijn aanbevolen procedures voor het verzend
 
   De hoofdtekst van het bericht dient een duidelijke aanwijzing te hebben van de aanbieding, service of product. Als een afzender een bulk mailing verzendt voor de contoso-organisatie, kunt u bijvoorbeeld de volgende items van het e-mailbericht en de naam van het onderwerp zien:
 
-  > Van: marketing@contoso.com <br/> Onderwerp: nieuwe bijgewerkte catalogus voor een kerst seizoen.
+  > Van: marketing@contoso.com <br> Onderwerp: nieuwe bijgewerkte catalogus voor een kerst seizoen.
 
   Hieronder ziet u een voorbeeld van wat niet te doen is omdat dit niet het geval is:
 
-  > Van: user@hotmail.com <br/> Onderwerp: catalogi
+  > Van: user@hotmail.com <br> Onderwerp: catalogi
 
 - **Als u een groot aantal geadresseerden en het bericht in de nieuwsbrief indeling verzendt, moet u de abonnement onder aan het bericht op een andere manier afmelden.**
 

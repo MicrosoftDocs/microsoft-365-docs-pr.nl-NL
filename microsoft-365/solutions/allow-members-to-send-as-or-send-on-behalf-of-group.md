@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Lees hoe u leden toestaat e-mail te verzenden als een Microsoft 365-groep of e-mail te verzenden namens een groep Microsoft 365.
-ms.openlocfilehash: 9ccaeff49914dd5b510beb80f40a3a3b790ce831
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 2abf0668411ccd08db5bbd8408605dcd0aa2d832
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377591"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613570"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Toestaan dat leden namens een groep verzenden of verzenden
 
@@ -75,6 +75,10 @@ In deze sectie wordt uitgelegd hoe u gebruikers kunt toestaan e-mail te verzende
     ![Typ om te zoeken of selecteer een gebruiker in de lijst](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
 ## <a name="related-articles"></a>Verwante artikelen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Meer informatie over Microsoft 365-groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 

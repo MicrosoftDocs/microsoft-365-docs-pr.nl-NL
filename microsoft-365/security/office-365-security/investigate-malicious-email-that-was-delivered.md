@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van de functie voor het onderzoek van bedreigingen en de antwoord mogelijkheden om kwaadaardige e-mail te vinden en te onderzoeken.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a411e221d49a30a103de6e0f169588d13c387443
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: f3fd2e5c0f75de9a1b942e8f0baa8e9d44843de4
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561326"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616522"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Schadelijke e-mailberichten onderzoeken die zijn uitgebracht in Office 365
 
@@ -62,7 +62,7 @@ Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of h
 |
 
 > [!NOTE]
-> *Voorbeeld* is een rol en geen rollen groep. de rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De rol van de globale beheerder wordt het Microsoft 365-Beheercentrum toegewezen [https://admin.microsoft.com](https://admin.microsoft.com) , en de rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in het beveiligings & nalevings centrum ( [https://protection.office.com](https://protection.office.com) ). Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
+> *Voorbeeld* is een rol en geen rollen groep. de rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De rol van de globale beheerder wordt het Microsoft 365-Beheercentrum toegewezen <https://admin.microsoft.com> , en de rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in het beveiligings & nalevings centrum ( <https://protection.office.com> ). Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Verdachte e-mail vinden die is bezorgd
 
@@ -71,7 +71,7 @@ Bedreigings Verkenner is een krachtig rapport waarmee u kunt zoeken naar meerder
 > [!NOTE]
 > Standaardzoekopdrachten in Explorer bevatten momenteel geen zapped-items.  Dit geldt voor alle weergaven, bijvoorbeeld malware of phishing. Als u zapped-items wilt opnemen, moet u een actie voor de leverings actie toevoegen zodat de waarde ' verwijderd door ZAP ' wordt vermeld. Als u alle opties opneemt, ziet u alle resultaten van de bezorgings actie, waaronder zapped-items.
 
-1. **Ga naar Threat Explorer**: Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met uw werk-of schoolaccount voor Office 365. U gaat nu naar de beveiligings & compliance Center.
+1. **Ga naar Threat Explorer**: Ga naar <https://protection.office.com> en meld u aan met uw werk-of schoolaccount voor Office 365. U gaat nu naar de beveiligings & compliance Center.
 
 2. Kies in de navigatiebalk aan de linkerkant de optie **Threat Management** \> **Explorer**.
 

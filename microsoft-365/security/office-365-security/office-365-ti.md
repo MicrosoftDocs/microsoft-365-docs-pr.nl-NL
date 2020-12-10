@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het onderzoek en de antwoord mogelijkheden in Microsoft Defender for Office 365-abonnement.
-ms.openlocfilehash: 7ae61e7ea70d8be5c31ec12443c8943f6e54bcf4
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: cbda50dacd6b892c976ce55632c8fc35813839b7
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561253"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614772"
 ---
 # <a name="threat-investigation-and-response"></a>Threat onderzoek en-antwoord
 
@@ -57,7 +57,7 @@ Gebruik het bedreigings dashboard (dit wordt ook wel het [beveiligings dashboard
 
 ![Threat dashboard](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
 
-Als u dit dashboard wilt weergeven en gebruiken, gaat u naar het beveiligings **Threat management** & nalevings centrum en gaat u naar \> **Dashboard** voor risicobeheer.
+Als u dit dashboard wilt weergeven en gebruiken, gaat u naar het beveiligings  & nalevings centrum en gaat u naar \> **Dashboard** voor risicobeheer.
 
 ### <a name="threat-explorer"></a>Bedreigingsverkenner
 
@@ -65,7 +65,7 @@ Met behulp van [bedreigings Verkenner (en realtime-detectie)](threat-explorer.md
 
 ![Bedreigings Verkenner](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
 
-Als u dit rapport wilt weergeven en gebruiken, **gaat u naar** het beveiligings & compliance Center \> **Explorer**.
+Als u dit rapport wilt weergeven en gebruiken, **gaat u naar** het beveiligings & compliance Center \> .
 
 ### <a name="incidents"></a>Incidenten
 
@@ -73,7 +73,7 @@ Gebruik de lijst met incidenten (dit wordt ook wel onderzoek genoemd) om een lij
 
 ![Lijst met huidige bedreigingen in Office 365](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
 
-Als u de lijst met huidige incidenten voor uw organisatie wilt weergeven, gaat u naar het beveiligings & nalevings centrum en **gaat u naar** \> **Review** \> **incidenten** controleren.
+Als u de lijst met huidige incidenten voor uw organisatie wilt weergeven, gaat u naar het beveiligings & nalevings centrum en **gaat u naar** \>  \> **incidenten** controleren.
 
 ![Kies in het beveiligings & nalevings centrum de optie Threat Management \> Review](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
@@ -110,11 +110,11 @@ Microsoft Defender voor Office 365 maakt gebruik van rollend toegangsbeheer op b
 
 |Activiteit|Rollen en machtigingen|
 |---|---|
-|Het risico dashboard (of het nieuwe [beveiligings dashboard](security-dashboard.md)) gebruiken<br/> <br/>Informatie weergeven over recente of actuele bedreigingen|Een van de volgende opties: <br/>- **Globale beheerder**  <br/> - **Beveiligingsbeheerder** <br/>- **Beveiligings lezer** <br/> <br/>U kunt deze rollen toewijzen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).|
-|Het gebruik van [bedreigings Verkenner (en real-time detecties)](threat-explorer.md) om bedreigingen te analyseren|Een van de volgende opties: <br/>- **Globale beheerder**  <br/> - **Beveiligingsbeheerder** <br/>- **Beveiligings lezer** <br/> <br/>U kunt deze rollen toewijzen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).|
-|Incidenten bekijken (ook wel onderzoek genoemd) <br/> E-mailberichten toevoegen aan een incident|Een van de volgende opties: <br/>- **Globale beheerder**  <br/> - **Beveiligingsbeheerder** <br/>- **Beveiligings lezer** <br/> <br/>U kunt deze rollen toewijzen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).|
-|E-mail acties in een incident activeren <br/> <br/> Verdachte e-mailberichten zoeken en verwijderen|Een van de volgende opties: <br/>- **Globale beheerder**  <br/> - **Beveiligingsbeheerder** plus de rol **zoeken en wissen**<br/><br/>De **globale beheerder** en rollen van **Beveiligingsbeheerders** kunnen worden toegewezen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ). <br/><br/>De rol **zoeken en wissen** moet worden toegewezen in het beveiligings & compliance Center ( [https://protection.office.com](https://protection.office.com) ).|
-|Microsoft Defender voor Office 365-abonnement 2 integreren met Microsoft Defender voor eindpunt  <br/><br/> Microsoft Defender voor Office 365 abonnement 2 integreren met een SIEM-server|De **globale beheerder** of de rol van **beveiligingsbeheerder** toegewezen in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of het Microsoft 365-Beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/>--- **Plus** ---<br/>De juiste rol die is toegewezen aan extra toepassingen (bijvoorbeeld [Microsoft Defender-Beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) of uw Siem server)|
+|Het risico dashboard (of het nieuwe [beveiligings dashboard](security-dashboard.md)) gebruiken <p> Informatie weergeven over recente of actuele bedreigingen|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligings lezer**</li></ul> <p> U kunt deze rollen toewijzen in azure Active Directory ( <https://portal.azure.com> ) of in het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ).|
+|Het gebruik van [bedreigings Verkenner (en real-time detecties)](threat-explorer.md) om bedreigingen te analyseren|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligings lezer**</li></ul> <p> U kunt deze rollen toewijzen in azure Active Directory ( <https://portal.azure.com> ) of in het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ).|
+|Incidenten bekijken (ook wel onderzoek genoemd) <p> E-mailberichten toevoegen aan een incident|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligings lezer**</li></ul> <p> U kunt deze rollen toewijzen in azure Active Directory ( <https://portal.azure.com> ) of in het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ).|
+|E-mail acties in een incident activeren <p> Verdachte e-mailberichten zoeken en verwijderen|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder** plus de rol **zoeken en wissen**</li></ul> <p> De **globale beheerder** en rollen van **Beveiligingsbeheerders** kunnen worden toegewezen in azure Active Directory ( <https://portal.azure.com> ) of in het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ). <p> De rol **zoeken en wissen** moet worden toegewezen in het beveiligings & compliance Center ( <https://protection.office.com> ).|
+|Microsoft Defender voor Office 365-abonnement 2 integreren met Microsoft Defender voor eindpunt  <p> Microsoft Defender voor Office 365 abonnement 2 integreren met een SIEM-server|De **globale beheerder** of de rol van **beveiligingsbeheerder** toegewezen in azure Active Directory ( <https://portal.azure.com> ) of het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ). <p> --- **Plus** --- <p> De juiste rol die is toegewezen aan extra toepassingen (bijvoorbeeld [Microsoft Defender-Beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) of uw Siem server).|
 |
 
 ## <a name="next-steps"></a>Volgende stappen

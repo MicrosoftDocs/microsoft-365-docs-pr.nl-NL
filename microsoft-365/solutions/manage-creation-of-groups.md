@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Meer informatie over hoe u kunt bepalen welke gebruikers Microsoft 365-groepen kunnen maken.
-ms.openlocfilehash: 3a0ac5ef48eabfd06e0df3f509c7d8e4be3cff10
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 2954f68dce289d43b37bf8f5c6ff43fe1b5c48c7
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602017"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613558"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Beheren wie Microsoft 365-groepen kunnen maken
 
@@ -36,7 +36,7 @@ Als u wilt dat u kunt instellen wie groepen kan maken, kunt u dat doen door de p
 - Microsoft Teams
 - Microsoft Stream
 - Planner
-- PowerBI (klassiek)
+- Power BI (klassiek)
 - Project voor het web/routekaart
 
 U kunt het maken van een Microsoft 365-groep beperken tot de leden van een bepaalde beveiligingsgroep. U kunt deze configureren met behulp van Windows PowerShell. In dit artikel wordt u stapsgewijs begeleid bij het uitvoeren van de benodigde stappen.
@@ -167,7 +167,11 @@ Probeer opnieuw dezelfde procedure met een lid van de beveiligingsgroep.
 > [!NOTE]
 > Als leden van de beveiligingsgroep geen groepen kunnen maken, controleert u of ze niet worden geblokkeerd via het [OWA-postvak beleid](https://go.microsoft.com/fwlink/?linkid=852135).
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Getting started with Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
 

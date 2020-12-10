@@ -14,12 +14,12 @@ ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u domeinen en instellingen verplaatst van de ene Microsoft Exchange Online Protection-organisatie (Tenant) naar een andere.
-ms.openlocfilehash: 141fb85bb7120f4e547c27f399d254847b19e3c2
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 485911ff7ac94c820d6f1e0f7cfa54da08943054
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200501"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614820"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
 
@@ -29,7 +29,10 @@ ms.locfileid: "48200501"
 Het wijzigen van de bedrijfsvereisten kan soms voorkomen dat u een Microsoft Exchange Online-organisatie (Tenant) van twee afzonderlijke organisaties samenvoegt, en dat u twee organisaties samenvoegt, of uw domein-en EOP-instellingen verplaatst van de ene organisatie naar de andere. Het overstappen van een EOP-organisatie naar een tweede EOP-organisatie kan lastig zijn, maar met een paar van de externe Windows PowerShell-scripts en een kleinere voorbereiding kunt u dit bereiken met een relatief klein onderhoudsvenster.
 
 > [!NOTE]
-> Instellingen kunnen alleen op een vaste manier van een zelfstandige EOP (standaard) worden verplaatst naar een andere EOP-Standard of een Exchange Enterprise-organisatie met Services (EOP Premium), of van een EOP Premium-organisatie en een andere EOP Premium-organisatie. Aangezien sommige Premium-functies niet worden ondersteund in EOP Standard-organisaties, wordt de overgebracht van een EOP-Premium-organisatie naar een EOP Standard-organisatie mogelijk niet succesvol. <br><br> Deze instructies zijn bedoeld voor organisaties die alleen EOP filteren. Er gelden extra aandachtspunten voor de overstap van de ene Exchange Online-organisatie naar een andere Exchange Online-organisatie. Organisaties van Exchange Online hebben geen bereik voor deze instructies.
+>
+> - Instellingen kunnen alleen op een vaste manier van een zelfstandige EOP (standaard) worden verplaatst naar een andere EOP-Standard of een Exchange Enterprise-organisatie met Services (EOP Premium), of van een EOP Premium-organisatie en een andere EOP Premium-organisatie. Aangezien sommige Premium-functies niet worden ondersteund in EOP Standard-organisaties, wordt de overgebracht van een EOP-Premium-organisatie naar een EOP Standard-organisatie mogelijk niet succesvol.
+>
+> - Deze instructies zijn bedoeld voor organisaties die alleen EOP filteren. Er gelden extra aandachtspunten voor de overstap van de ene Exchange Online-organisatie naar een andere Exchange Online-organisatie. Organisaties van Exchange Online hebben geen bereik voor deze instructies.
 
 In het volgende voorbeeld is contoso, Ltd. samen met Contoso suites samengevoegd. In de volgende afbeelding ziet u hoe u domeinen, e-mail gebruikers en groepen, en instellingen van de bron EOP organisatie (contoso.onmicrosoft.com) verplaatst naar de doel EOP-organisatie (contososuites.onmicrosoft.com):
 
@@ -42,27 +45,20 @@ Met de uitdaging voor het verplaatsen van domeinen van de ene naar de andere org
 Als u de bronorganisatie opnieuw wilt maken in de doelorganisatie, controleert u of u de volgende informatie over de bronorganisatie verzamelt en opslaat:
 
 - Domeinen
-
 - E-mail gebruikers
-
 - Groepen
-
 - Anti spam
-
   - Anti spam beleid (ook wel bekend als inhouds filter beleid)
   - Beleid voor uitgaande spamfilters
   - Beleidsregels voor verbindings filters
-
 - Beleidsregels voor malware
-
 - Verbindingslijnen
-
 - E-mail stroom regels (ook wel een transportregel genoemd)
 
   > [!NOTE]
   > Ondersteuning voor cmdlets voor het exporteren en importeren van de verzameling voor e-mail stroom regels wordt momenteel alleen ondersteund voor EOP Premium-abonnementen.
 
-De eenvoudigste manier om al uw instellingen te verzamelen is via PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+De eenvoudigste manier om al uw instellingen te verzamelen is via PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 Vervolgens kunt u uw instellingen verzamelen en ze exporteren naar een XML-bestand dat u wilt importeren in de doel Tenant. In het algemeen kunt u de uitvoer van de cmdlet **Get** voor elke instelling naar de **export-Clixml-** cmdlet bijpipeen om de instellingen in XML-bestanden op te slaan, zoals wordt weergegeven in het volgende codevoorbeeld.
 
@@ -186,11 +182,11 @@ U kunt nu de gegevens controleren en verzamelen van het Microsoft 365-Beheercent
 
 2. Klik op **domeinen**.
 
-   Als u domeinen niet ziet, klikt u op **navigatie aanpassen**, selecteert u **instellingen**en klikt u vervolgens op **Opslaan**.
+   Als u domeinen niet ziet, klikt u op **navigatie aanpassen**, selecteert u **instellingen** en klikt u vervolgens op **Opslaan**.
 
 3. Klik op een koppeling voor de start van de **installatie** en voer vervolgens door met de installatiewizard.
 
-4. Selecteer op de pagina **Bevestig de eigenaar** voor de **Stapsgewijze instructies voor de uitvoering van deze stap met**de optie **algemene instructies**.
+4. Selecteer op de pagina **Bevestig de eigenaar** voor de **Stapsgewijze instructies voor de uitvoering van deze stap met** de optie **algemene instructies**.
 
 5. Neem de MX-record op of de TXT-record die u gebruikt om uw domein te verifiëren en voltooi de installatiewizard.
 
@@ -252,7 +248,7 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 
 ## <a name="step-5-verify-domains-for-the-target-organization"></a>Stap 5: domeinen voor de doelorganisatie verifiëren
 
-1. Meld u aan bij het Beheercentrum [https://portal.office.com](https://portal.office.com) .
+1. Meld u aan bij het Beheercentrum <https://portal.office.com> .
 
 2. Klik op **domeinen**.
 

@@ -11,14 +11,14 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Meer informatie over het maken van een aangepaste nettolading voor simulatie van aanvals simulaties in Microsoft Defender voor Office 365.
-ms.openlocfilehash: ffb5397d9b39a35b4cb8bd0fdb3301cd156896e1
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: a8366e6cbf703ef1e1a14e216ada71200668cd14
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944521"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616270"
 ---
-# <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor de simulatie van aanvals oefeningen
+# <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor aanvalssimulatietraining
 
 Microsoft biedt een krachtige versie van de nettolading voor diverse social engineering-technieken voor het koppelen van uw aanvals training. U kunt echter wel aangepaste ladingen maken die beter voor uw organisatie kunnen worden gebruikt. Hieronder wordt beschreven hoe u een nettolading maakt voor simulatie van aanvals simulatie via Microsoft Defender voor Office 365.
 
@@ -60,7 +60,7 @@ Voeg een aangepaste beschrijving toe om de indicator te beschrijven en klik in h
 
 ## <a name="review-payload"></a>Nettolading controleren
 
-U bent klaar met het maken van uw nettolading. Nu is het tijd om de details te bekijken en een voorbeeld van uw nettolading te bekijken. Het voorbeeld bevat alle indicatoren die u hebt gemaakt. U kunt in deze stap elk deel van de nettolading bewerken. Als dit is voldaan, **verzendt** u uw nettolading. 
+U bent klaar met het maken van uw nettolading. Nu is het tijd om de details te bekijken en een voorbeeld van uw nettolading te bekijken. Het voorbeeld bevat alle indicatoren die u hebt gemaakt. U kunt in deze stap elk deel van de nettolading bewerken. Als dit is voldaan, **verzendt** u uw nettolading.
 
 > [!IMPORTANT]
 > Nettoladingen die u hebt gemaakt, hebben een **Tenant** ingesteld als de bron. Wanneer u nettoladingen selecteert, controleert u of de **Tenant** niet is gefilterd.

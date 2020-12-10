@@ -17,19 +17,19 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12b6499822f8ed97ace8468054f219361d925332
-ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+ms.openlocfilehash: b5b095a1d75ead0f963a71d816e7d879b7cd3697
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49562988"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614796"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Evalueer Microsoft Defender for Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
->[!IMPORTANT]
->Evalueer Microsoft Defender for Office 365 zal binnenkort in de openbare preview-versie worden weergegeven zonder een serviceovereenkomst. Het is mogelijk dat bepaalde functies niet worden ondersteund of mogelijk een beperkte functionaliteit hebben.
+> [!IMPORTANT]
+> Evalueer Microsoft Defender for Office 365 binnenkort in de openbare preview-versie. Deze preview-versie is beschikbaar zonder serviceovereenkomst. Het is mogelijk dat bepaalde functies niet worden ondersteund of mogelijk een beperkte functionaliteit hebben.
 
 U kunt een uitgebreide beoordeling van de veiligheid van het product bieden om u op de hoogte te stellen van upgrades en aankopen. Het is handig om de mogelijkheden van het beveiligings product uit te proberen om te beoordelen hoe dit uw team van beveiligingsactiviteiten kan helpen bij hun dagelijkse taken.
 
@@ -73,7 +73,7 @@ Als u niet een van deze licenties hebt, moet u een proeflicentie aanvragen.
 
 Als u een proeflicentie voor Microsoft Defender voor Office 365 wilt verkrijgen, moet u beschikken over de rol van **factureringsbeheerder** of **globale beheerder**. Vraagt om toestemming van iemand met de rol van globale beheerder. [Meer informatie over abonnementen en licenties](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
 
-Wanneer u de juiste rol hebt, is het aanbevolen pad om een proeflicentie voor Microsoft Defender for Office 365 (abonnement 2) te verkrijgen in het Microsoft 365-Beheercentrum via facturering > Services aanschaffen. De proefperiode omvat een gratis proefversie van 30 dagen voor 25 licenties. U [ontvangt een proefabonnement voor Microsoft Defender for Office 365 (abonnement 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA). 
+Wanneer u de juiste rol hebt, is het aanbevolen pad om een proeflicentie voor Microsoft Defender for Office 365 (abonnement 2) te verkrijgen in het Microsoft 365-Beheercentrum via facturering > Services aanschaffen. De proefperiode omvat een gratis proefversie van 30 dagen voor 25 licenties. U [ontvangt een proefabonnement voor Microsoft Defender for Office 365 (abonnement 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA).
 
 U hebt een venster van dertig dagen met de evaluatie voor het bewaken van en rapporteren over geavanceerde bedreigingen. U kunt ook een betaald abonnement kopen als u de volledige functionaliteit van de Defender voor Office 365 wilt gebruiken.
 
@@ -81,13 +81,14 @@ U hebt een venster van dertig dagen met de evaluatie voor het bewaken van en rap
 
 Exchange Online-rollen zijn vereist voor het instellen van Defender voor Office 365 in de evaluatiemodus. U hebt de volgende rollen nodig:
 
-|Taak | Rol |
-|-----| -----|
-| Maak een gratis proefversie of koop Microsoft Defender for Office 365 (abonnement 2)| Rol van factureringsbeheerder of globale beheerder|
-| Evaluatie beleid maken| De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders|
-| Evaluatie beleid bewerken | De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders |
-| Evaluatie beleid verwijderen | De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders |
-|Evaluatieverslag weergeven | Rol van beveiligingsbeheerder of beveiligings lezer|
+|Taak|Rol|
+|---|---|
+|Maak een gratis proefversie of koop Microsoft Defender for Office 365 (abonnement 2)|Rol van factureringsbeheerder of globale beheerder|
+|Evaluatie beleid maken|De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders|
+|Evaluatie beleid bewerken|De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders|
+|Evaluatie beleid verwijderen|De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders |
+|Evaluatieverslag weergeven|Rol van beveiligingsbeheerder of beveiligings lezer|
+|
 
 ### <a name="enhanced-filtering"></a>Uitgebreid filteren
 
@@ -107,7 +108,7 @@ U moet de bijbehorende Details voorbereiden die u moet instellen voor de manier 
 
 Ondersteunde e-mail routeringsscenario's zijn:
 
-- **Partner van derden en/of on-premises service provider**: de binnenkomende verbindingslijn die u wilt evalueren, maakt gebruik van een externe provider en/of u gebruikt een oplossing voor e-mail beveiliging.  
+- **Partner van derden en/of on-premises service provider**: de binnenkomende verbindingslijn die u wilt evalueren, maakt gebruik van een externe provider en/of u gebruikt een oplossing voor e-mail beveiliging.
 - **Alleen Microsoft Exchange Online Protection**: de Tenant die u wilt evalueren, maakt gebruik van Office 365 voor e-mail beveiliging en de MX-record (mail exchanger) van Microsoft.
 
 ### <a name="email-security-gateway"></a>Beveiligingsgateway voor e-mail
@@ -154,7 +155,7 @@ Als u een bestaande gateway hebt, wilt u deze mogelijk niet meer filteren, omdat
 
 ## <a name="evaluate-capabilities"></a>Mogelijkheden evalueren
 
-Wanneer het evaluatierapport is gegenereerd, raadpleegt u het aantal geavanceerde bedreigings koppelingen, geavanceerde bijlagen met bedreigingen en mogelijke oorzaken werden aangegeven in de werkruimten voor e-mailberichten en samenwerking in uw organisatie.  
+Wanneer het evaluatierapport is gegenereerd, raadpleegt u het aantal geavanceerde bedreigings koppelingen, geavanceerde bijlagen met bedreigingen en mogelijke oorzaken werden aangegeven in de werkruimten voor e-mailberichten en samenwerking in uw organisatie.
 
 Wanneer de proefperiode is verlopen, kunt u het rapport nog voor 90 dagen openen. Er is echter geen informatie verzameld. Als u Microsoft Defender voor Office 365 wilt blijven gebruiken nadat uw proefabonnement is verlopen, moet u ervoor zorgen dat u [een betaald abonnement koopt voor Microsoft Defender for Office 365 (abonnement 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA).
 

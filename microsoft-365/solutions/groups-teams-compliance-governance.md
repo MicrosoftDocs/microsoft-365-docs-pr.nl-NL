@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over nalevings opties voor Microsoft 365 groepen, teams en de samenwerking via SharePoint.
-ms.openlocfilehash: 0383b0728d9b8ea12ce75de8bf0e250932d14ae5
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: e1ca6e638b2d44ae3b04e2a0f13222424e89714d
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377531"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613628"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Nalevings opties voor Microsoft 365 groepen, teams en de samenwerking via SharePoint
 
@@ -113,8 +113,10 @@ Met informatie barrières kunt u uw gegevens en gebruikers segmenteren voor het 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
+
 [Beveiliging en naleving voor Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance)
 
 [Informatie beschermen](https://docs.microsoft.com/microsoft-365/compliance/protect-information)
-
-

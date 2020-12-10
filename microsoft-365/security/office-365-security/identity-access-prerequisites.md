@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 67835f4140179c69b5e0f2cd0287e656dd4c49ad
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: bd0b4efb1281d467a61e4aee792b507f0ca44181
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558548"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616558"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Vereisten voor het implementeren van identiteits-en Apparaattoegang
 
@@ -38,7 +38,7 @@ Voordat u de aanbevolen beleidsregels implementeert en een beleid voor het opene
 - Hybride met Pass-Through-verificatie (PTA)
 - Verbonden
 
-In de volgende tabel vindt u een overzicht van de vereisten en de configuratie van de functies die van toepassing zijn op alle identiteits modellen, tenzij anders vermeld. 
+In de volgende tabel vindt u een overzicht van de vereisten en de configuratie van de functies die van toepassing zijn op alle identiteits modellen, tenzij anders vermeld.
 
 |Configuratie|Ring|
 |---|:---:|
@@ -76,7 +76,7 @@ We raden u ook aan de eigen apparatuur van de organisatie te gebruiken voor Oem'
 
 ### <a name="recommended-email-clients"></a>Aanbevolen e-mailclients
 
-De volgende e-mailclients ondersteunen moderne verificatie en voorwaardelijke toegang. 
+De volgende e-mailclients ondersteunen moderne verificatie en voorwaardelijke toegang.
 
 |Platform|Client|Versie/notities|
 |---|---|---|
@@ -116,9 +116,9 @@ Voor edities van Microsoft 365 of Office 365 waarvoor geen ondersteuning wordt g
 
 Hier volgen enkele aanvullende aanbevelingen:
 
-- U kunt het aantal permanente beheeraccounts beperken met behulp van [Azure AD geprivilegieerde Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) . 
-- [Gebruik geprivilegieerd toegangsbeheer](../../compliance/privileged-access-management-overview.md) om uw organisatie te beschermen tegenstrijdige beheerdersaccounts die bestaande beheerdersaccounts met toegang hebben tot gevoelige gegevens of toegang tot belangrijke configuratie-instellingen. 
-- Afzonderlijke accounts maken en gebruiken die uitsluitend aan [Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) zijn toegewezen *voor beheer*. Beheerders moeten hun eigen gebruikersaccount hebben voor regelmatig niet-beheerders gebruik en alleen een beheeraccount gebruiken om een taak te voltooien die is gekoppeld aan een functie of functie. 
+- U kunt het aantal permanente beheeraccounts beperken met behulp van [Azure AD geprivilegieerde Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) .
+- [Gebruik geprivilegieerd toegangsbeheer](../../compliance/privileged-access-management-overview.md) om uw organisatie te beschermen tegenstrijdige beheerdersaccounts die bestaande beheerdersaccounts met toegang hebben tot gevoelige gegevens of toegang tot belangrijke configuratie-instellingen.
+- Afzonderlijke accounts maken en gebruiken die uitsluitend aan [Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) zijn toegewezen *voor beheer*. Beheerders moeten hun eigen gebruikersaccount hebben voor regelmatig niet-beheerders gebruik en alleen een beheeraccount gebruiken om een taak te voltooien die is gekoppeld aan een functie of functie.
 - Volg [Aanbevolen procedures](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices) voor het beveiligen van geprivilegieerde accounts in azure AD.
 
 ## <a name="next-step"></a>Volgende stap

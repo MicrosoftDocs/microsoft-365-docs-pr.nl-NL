@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over instellingen interacties tussen Microsoft 365 groepen, teams en SharePoint
-ms.openlocfilehash: 3a6d4e057f88410a8808ea133bf7e579d0041228
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 23ef7a316417109ae51c221f1a25524dea3abeca
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377543"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613664"
 ---
 # <a name="settings-interactions-between-microsoft-365-groups-teams-and-sharepoint"></a>Instellingen interacties tussen Microsoft 365 groepen, teams en SharePoint
 
@@ -48,6 +48,10 @@ Bepaalde instellingen voor Microsoft 365-groepen, Microsoft teams en SharePoint 
 |Verloopbeleid voor groepen|Hiermee wordt een periode opgegeven waarna groepen die niet actief worden gebruikt, automatisch worden verwijderd.|Wanneer de groep is verwijderd, worden het team en de gekoppelde SharePoint-site ook verwijderd. Inhoud die is beveiligd met een bewaarbeleid blijft behouden.|Gebruik een verloopbeleid om te voorkomen dat ongebruikte teams, groepen en sites worden sprawl.|
 
 ## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Samenwerken met personen buiten uw organisatie](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 

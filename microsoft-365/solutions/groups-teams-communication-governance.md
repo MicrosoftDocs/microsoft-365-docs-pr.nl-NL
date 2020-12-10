@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over samenwerkingsscenario's voor communicatiebeheer.
-ms.openlocfilehash: 05644b5d86fc3ca83e7d140a73666a172937bd54
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 4b60f0be3cde23330880d652bc62110cf4e55175
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377519"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613676"
 ---
 # <a name="communications-governance-for-collaboration-scenarios"></a>Communicatiebeheer voor samenwerkingsscenario's
 
@@ -67,6 +67,10 @@ Met communicatie naleving in Microsoft 365 kunt u de communicatie voor aanstootg
 [Communicatie naleving in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Instellingen voor Microsoft teams beheren voor uw organisatie](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
 

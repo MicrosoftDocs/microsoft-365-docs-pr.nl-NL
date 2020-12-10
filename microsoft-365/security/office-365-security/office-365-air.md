@@ -21,12 +21,12 @@ description: Ga aan de slag met het gebruik van geautomatiseerde onderzoek-en an
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 86414eaf0917a6cad7debc44e3f7aa604c55ae70
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 8b6ef712e2e90e6798f16c54bc82f99590dbea42
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357741"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614832"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Geautomatiseerd onderzoek en antwoord (lucht) in Microsoft Defender voor Office 365
 
@@ -124,7 +124,7 @@ Machtigingen worden toegekend via bepaalde rollen, zoals de functies die in de v
 |Taak|Vereiste functie (s)|
 |---|---|
 |LUCHT functies instellen|Een van de volgende rollen: <ul><li>Globale beheerder</li><li>Beveiligingsbeheerder</li></ul> <p> U kunt deze rollen toewijzen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).|
-|Een automatisch onderzoek starten <p> ------ <p> Aanbevolen acties goedkeuren of afwijzen|Een van de volgende rollen, toegewezen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md): <ul><li>Globale beheerder</li><li>Beveiligingsbeheerder</li><li>Beveiligings lezer <br/>---en---</li><li>Zoeken en wissen (deze rol wordt alleen toegewezen in het [nalevings centrum voor de beveiliging &](permissions-in-the-security-and-compliance-center.md). U moet mogelijk een nieuwe rolgroep maken en de rol zoeken en permanent toevoegen aan deze nieuwe rollen groep toevoegen.</li></ul>|
+|Een automatisch onderzoek starten <p> ------ <p> Aanbevolen acties goedkeuren of afwijzen|Een van de volgende rollen, toegewezen in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) of in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md): <ul><li>Globale beheerder</li><li>Beveiligingsbeheerder</li><li>Beveiligings lezer <br> ---en--- </li><li>Zoeken en wissen (deze rol wordt alleen toegewezen in het [nalevings centrum voor de beveiliging &](permissions-in-the-security-and-compliance-center.md). U moet mogelijk een nieuwe rolgroep maken en de rol zoeken en permanent toevoegen aan deze nieuwe rollen groep toevoegen.</li></ul>|
 |
 
 ## <a name="required-licenses"></a>Vereiste licenties

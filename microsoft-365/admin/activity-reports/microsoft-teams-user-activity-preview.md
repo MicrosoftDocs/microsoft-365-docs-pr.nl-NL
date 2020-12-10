@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het verkrijgen van het Rapportgebruikers activiteit in Microsoft teams en het verkrijgen van inzichten aan de activiteiten van teams in uw organisatie.
-ms.openlocfilehash: b85f073a2916b646a5a03e62913de44b410ca058
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: 7e32ca6b665cab9da93dec9632ef25176db0e839
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988468"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611398"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Microsoft 365-rapporten in het Beheercentrum-gebruikersactiviteit in Microsoft teams
 
@@ -44,7 +44,9 @@ U kunt de activiteit van gebruikers weergeven in het rapport teams door het tabb
 
 Selecteer **kolommen kiezen** als u kolommen wilt toevoegen aan of verwijderen uit het rapport.  <br/> ![Teams user activity report - choose columns](../../media/a1513028-cf09-4186-93a6-8a203cd22475.png)
 
-U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. De geëxporteerde indeling voor **Audio** -en **video** tijd en **scherm delen** volgt de iso8601-tijdsindeling.
+U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de koppeling **exporteren** te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren. De geëxporteerde indeling voor **Audio**-en **video tijd** en de tijd voor het delen van het **scherm** volgt de iso8601-Duurnotatie.
+
+Om ervoor te zorgen dat de gegevenskwaliteit gegarandeerd is, kunnen we voor de laatste drie dagen eerst controles voor gegevensvalidatie uitvoeren en worden eventuele hiaten opgespoord. U merkt mogelijk dat er verschillen zijn in historische gegevens tijdens dit proces.
 
 |Item|Beschrijving|
 |:-----|:-----|

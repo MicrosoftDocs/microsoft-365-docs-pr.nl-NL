@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: 01a5e374396b1f7ef79dff436cd9ecc4e0c4abf1
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: d219895767919c2a0658f8b83150fe6edde01b5b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357235"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615550"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuw in Microsoft Defender voor Office 365
 
@@ -56,7 +56,7 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 ## <a name="julyaugust-2020"></a>Juli 2020
 
 - [Ervaring met de ervaring voor de jacht](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365 abonnement 1 of abonnement 2)
-- [Eenvoudig aanbevolen instellingen toepassen via vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md) 
+- [Eenvoudig aanbevolen instellingen toepassen via vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md)
 
 ## <a name="marchapril-2020"></a>Maart 2020
 
@@ -71,7 +71,7 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
   - Geavanceerde niet-filters (dit zijn Geavanceerde filteropties die geen deel uitmaken van de optie geen, enzovoort).
   - Granulaire tijdfilters (dag, uur, half uur)
 
-- De widget **incidenten** is nu de widget van het **Actiecentrum** . (Als u uw beveiligings widgets wilt bekijken, gaat u naar het beveiligings & nalevings centrum en gaat u naar **risicobeheer**  >  **Reviseren**.) (Microsoft Defender voor Office 365-abonnement 2)
+- De widget **incidenten** is nu de widget van het **Actiecentrum** . (Als u uw beveiligings widgets wilt bekijken, gaat u naar het beveiligings & nalevings centrum en gaat u naar **risicobeheer** \> **Reviseren**.) (Microsoft Defender voor Office 365-abonnement 2)
 
 - [Veilige documenten in Microsoft 365](safe-docs.md) **(preview)**
 
@@ -105,7 +105,7 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 - [Bekijk gegevens over phishingwebsites en klik op Verdict](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Microsoft Defender for Office 365 abonnement 1 of abonnement 2)
 
-## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender voor Office 365, abonnement 1 en abonnement 2
 
 Wist u dat Microsoft Defender voor Office 365 beschikbaar is in twee abonnementen? Meer [informatie over wat elk abonnement omvat](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
 

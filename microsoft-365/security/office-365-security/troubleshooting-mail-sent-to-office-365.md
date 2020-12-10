@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Dit artikel bevat informatie over het oplossen van problemen met het verzenden van e-mail naar postvakken in Microsoft 365 & best practices voor bulk mailing naar klanten met Microsoft 365.
-ms.openlocfilehash: 895f2651529cd46968d053fefac10cb22b6a5d86
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 8b7c008f827a579e234d8a8feab008d36ecfe064
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568552"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615406"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Problemen met e-mailberichten die worden verzonden naar Microsoft 365 oplossen
 
@@ -92,11 +92,11 @@ Het onderwerp moet een kort overzicht zijn van de inhoud van het bericht en de h
 
 Juist:
 
-> Van: marketing@shoppershandbag.com <br/> Onderwerp: heeft een catalogus voor een kerst seizoen bijgewerkt.
+> Van: marketing@shoppershandbag.com <br> Onderwerp: heeft een catalogus voor een kerst seizoen bijgewerkt.
 
 Onjuist:
 
-> Van: someone@outlook.com <br/> Onderwerp: catalogi
+> Van: someone@outlook.com <br> Onderwerp: catalogi
 
 Het eenvoudiger maken om te weten wie u bent en wat u aan het doen bent, hoe minder problemen u te bieden via de meeste spamfilters.
 

@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen de standaard-en strikte beleidsinstellingen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
-ms.openlocfilehash: e968f7ea768ac8a0b402c28f3830a52b44afa342
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: fb613916ec375214b33b8b842c6817561920715d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572775"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616042"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
@@ -62,7 +62,7 @@ Dit zijn de beschikbare voorwaarden en uitzonderingen:
 Vooraf ingesteld beveiligingsbeleid gebruikt het bijbehorende beleid van de verschillende beveiligingsfuncties in EOP en Microsoft Defender voor Office 365. Deze beleidsregels worden gemaakt _nadat_ u de vooraf ingestelde beveiligings beleidsregels **Standaardbeveiliging** of **strikte beveiliging** aan gebruikers hebt toegewezen. U kunt deze beleidsregels niet wijzigen.
 
 - **Beleid voor Exchange Online Protection (EOP)**: Dit omvat microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder postvakken van Exchange Online:
-  
+
   - [Anti spam beleid](configure-your-spam-filter-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikte beveiligingsbeleid**.
   - [Beleidsregels voor anti-malware](configure-anti-malware-policies.md) met de naam **standaard ingestelde beveiligingsbeleid** en **strikt vooraf ingesteld beveiligingsbeleid**.
   - [EOP anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings) met de naam **standaard ingesteld beveiligingsbeleid** en **strikte beveiligingsbeleid** (spoof instellingen).
@@ -112,7 +112,7 @@ Met andere woorden: de instellingen van het **strikte beveiligings** beleid nege
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Met behulp van het compliance-beveiligings & u vooraf ingestelde beveiligingsbeleidsregels aan gebruikers toewijzen
 
-1. Ga in het beveiligings & nalevings centrum naar **Threat management** \> **Policy** \> **vooraf gedefinieerde beveiligingsbeleid** van het beleid voor bedreigings beheer.
+1. Ga in het beveiligings & nalevings centrum naar  \>  \> **vooraf gedefinieerde beveiligingsbeleid** van het beleid voor bedreigings beheer.
 
 2. Klik onder **Standaardbeveiliging** of **strikte beveiliging** op **bewerken**.
 

@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 59e2c938c70dd8e3060fd85d084acbe8f79856ad
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: bbe341899599d5092db0b0961add5a9825eca3b4
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806636"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616594"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Automatische doorsturen van e-mail instellen in Microsoft 365
 
@@ -35,20 +35,20 @@ De volgende typen automatisch doorsturen zijn beschikbaar in Microsoft 365:
 
 U kunt uitgaande spamfilter beleidsregels gebruiken om automatisch doorsturen naar externe geadresseerden te beheren. Drie instellingen zijn beschikbaar:
 
-- **Automatisch** : automatisch extern doorsturen wordt geblokkeerd. Interne automatisch doorsturen van berichten blijft werken. Dit is de standaardinstelling.
+- **Automatisch**: automatisch extern doorsturen wordt geblokkeerd. Interne automatisch doorsturen van berichten blijft werken. Dit is de standaardinstelling.
 
-- **Aan** : automatisch extern doorsturen is toegestaan en niet beperkt.
+- **Aan**: automatisch extern doorsturen is toegestaan en niet beperkt.
 
-- **Off** : automatisch extern doorsturen is uitgeschakeld en resulteert in een rapport over niet-uitgevoerde bezorging (ook wel een NDR-of stuiter bericht) voor de afzender.
+- **Off**: automatisch extern doorsturen is uitgeschakeld en resulteert in een rapport over niet-uitgevoerde bezorging (ook wel een NDR-of stuiter bericht) voor de afzender.
 
 Zie [uitgaande spamfilters in EOP](configure-the-outbound-spam-policy.md)voor instructies voor het configureren van deze instellingen.
 
 > [!NOTE]
-> 
+>
 > - Als u automatisch doorsturen uitschakelt, worden regels voor Postvak in (gebruikers) of postvak doorsturen (beheerders) uitgeschakeld waarmee berichten naar externe adressen worden doorgestuurd.
-> 
+>
 > - Het automatisch doorsturen van berichten tussen interne gebruikers heeft geen invloed op de instellingen in het filter beleid voor uitgaande spam.
-> 
+>
 > - U vindt informatie over gebruikers die berichten automatisch doorsturen naar externe geadresseerden in het [rapport met automatisch doorgestuurde berichten](mfi-auto-forwarded-messages-report.md).
 
 ## <a name="how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls"></a>Hoe de beleidsinstellingen voor het uitgaande spamfilter werken met andere besturingselementen voor automatisch doorsturen van e-mail

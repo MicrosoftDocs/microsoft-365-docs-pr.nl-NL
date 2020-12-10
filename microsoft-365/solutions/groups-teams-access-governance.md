@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over het beheren van toegang in Microsoft 365 groepen, teams en SharePoint.
-ms.openlocfilehash: 2a3a5a126a340a8ec1036eaebd22a0a0a81cf6c3
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: fb1bec219ef0d27c2a908f5f385185a1a70e01e1
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558220"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613464"
 ---
 # <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Toegang in Microsoft 365 groepen, teams en SharePoint beheren
 
@@ -38,7 +38,7 @@ De volgende tabel bevat een beknopt overzicht van de beschikbare besturingseleme
 ||Meervoudige verificatie|[Multi-factor Authentication in azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)|
 ||De toegang tot uw apparaat beheren op basis van de gevoeligheid van een groep, team of site.|[De beschikbaarheid van labels gebruiken om inhoud te beschermen in Microsoft teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)|
 ||Toegang tot de site beperken voor niet-beheerde apparaten.|[Toegang tot SharePoint beheren vanaf niet-beheerde apparaten](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)|
-||Toegang tot een site beheren op basis van locatie|[Toegang tot SharePoint en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)|
+||Toegang tot een site beheren op basis van locatie|[Toegang tot SharePoint-en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)|
 |Gasttoegang|||
 ||Delen van SharePoint in opgegeven domeinen toestaan of blokkeren.|[Delen van SharePoint-en OneDrive-inhoud beperken per domein](https://docs.microsoft.com/sharepoint/restricted-domains-sharing)|
 ||Groepslidmaatschappen van bepaalde domeinen toestaan of blokkeren.|[Uitnodigingen voor B2B-gebruikers in bepaalde organisaties toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)|
@@ -81,7 +81,7 @@ Als u vertrouwelijke informatie hebt in sommige van uw groepen en teams, kunt u 
 
 In SharePoint kunt u de toegang tot sites beperken vanaf opgegeven netwerklocaties.
 
-- [Toegang tot SharePoint en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
+- [Toegang tot SharePoint-en OneDrive-gegevens regelen op basis van netwerklocatie](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
 
 
 Aanvullende informatiebronnen:
@@ -158,6 +158,10 @@ Aanvullende informatiebronnen:
 - [Azure Active Directory Identity governance](https://docs.microsoft.com/azure/active-directory/governance)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Beveiliging en compliance in Microsoft Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
 

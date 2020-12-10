@@ -14,12 +14,12 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Beheerders kunnen informatie lezen over het instellen van zelfstandige Exchange Online Protection (EOP) om on-premises e-mail omgevingen te beschermen.
-ms.openlocfilehash: 53386b700c2a2832cf16d47da0678dfb91c5b6d7
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: ab34d715bd8196bb2376926402f6a88018d1d7ae
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197165"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615670"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Uw zelfstandige EOP-service instellen
 
@@ -29,7 +29,9 @@ ms.locfileid: "48197165"
 In dit onderwerp wordt uitgelegd hoe u zelfstandige Exchange Online Protection (EOP) kunt instellen. Als u hier de wizard Office 365 domains hebt gezet, gaat u terug naar de wizard domeinen van Office 365 als u Exchange Online Protection niet wilt gebruiken. Zie [e-mail stroom configureren met connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)als u meer informatie zoekt over het configureren van connectors.
 
 > [!NOTE]
-> In dit onderwerp wordt ervan uitgegaan dat u on-premises postvakken hebt en u deze wilt beschermen met EOP, een zogenaamde standalone scenario. Als u al uw postvakken in de Cloud wilt hosten met Exchange Online, hoeft u niet alle stappen in dit artikel uit te voeren. Ga naar [Exchange Online-abonnementen vergelijken](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) om u aan te melden en de Cloud postvakken te kopen. Als u bepaalde postvakken on-premises wilt hosten en bepaalde in de Cloud, wordt dit ook wel een hybride scenario genoemd. Voor de toepassing zijn meer geavanceerde instellingen voor e-mail stroom nodig. [Hybride implementaties van Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid) legt een hybride e-mail stroom in en bevat koppelingen naar bronnen waarin wordt getoond hoe u deze kunt instellen.
+> In dit onderwerp wordt ervan uitgegaan dat u on-premises postvakken hebt en u deze wilt beschermen met EOP, een zogenaamde standalone scenario. Als u al uw postvakken in de Cloud wilt hosten met Exchange Online, hoeft u niet alle stappen in dit artikel uit te voeren. Ga naar [Exchange Online-abonnementen vergelijken](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) om u aan te melden en de Cloud postvakken te kopen.
+>
+> Als u bepaalde postvakken on-premises wilt hosten en bepaalde in de Cloud, wordt dit ook wel een hybride scenario genoemd. Voor de toepassing zijn meer geavanceerde instellingen voor e-mail stroom nodig. [Hybride implementaties van Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid) legt een hybride e-mail stroom in en bevat koppelingen naar bronnen waarin wordt getoond hoe u deze kunt instellen.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -96,4 +98,6 @@ Op dit moment hebt u de service levering voor een correct geconfigureerde, uitga
 - Als u een uitgaande e-mail test wilt uitvoeren, kunt u een e-mailbericht van een gebruiker in uw organisatie verzenden naar een e-mailaccount op het web en controleren of het bericht is ontvangen.
 
 > [!TIP]
-> Wanneer u klaar bent met de installatie, hoeft u geen extra stappen uit te voeren om te zorgen dat EOP spam en malware verwijdert. EOP verwijdert spam en malware automatisch. U kunt echter uw instellingen verfijnen op basis van uw bedrijfsvereisten. Zie [antispam en beveiliging tegen malware in Office 365](anti-spam-and-anti-malware-protection.md) en [vervalsings informatie configureren](learn-about-spoof-intelligence.md)voor meer informatie. <br/><br/> Nu uw service wordt uitgevoerd, adviseren we [Best practices voor het configureren van EOP](best-practices-for-configuring-eop.md), waarin aanbevolen instellingen en overwegingen worden beschreven voor het instellen van EOP.
+> Wanneer u klaar bent met de installatie, hoeft u geen extra stappen uit te voeren om te zorgen dat EOP spam en malware verwijdert. EOP verwijdert spam en malware automatisch. U kunt echter uw instellingen verfijnen op basis van uw bedrijfsvereisten. Zie [antispam en beveiliging tegen malware in Office 365](anti-spam-and-anti-malware-protection.md) en [vervalsings informatie configureren](learn-about-spoof-intelligence.md)voor meer informatie.
+>
+> Nu uw service wordt uitgevoerd, adviseren we [Best practices voor het configureren van EOP](best-practices-for-configuring-eop.md), waarin aanbevolen instellingen en overwegingen worden beschreven voor het instellen van EOP.

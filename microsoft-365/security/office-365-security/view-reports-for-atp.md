@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-office365
 description: Rapporten voor Microsoft Defender voor Office 365 zoeken en gebruiken in het beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a237049c9ebbccf1c01feeb21129496e16d437b2
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 2818362eea4071430bb2c784ceb0ce0eeb970a79
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572487"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615574"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Rapporten van Defender for Office 365 weergeven in het Dashboard rapporten in het nalevings centrum voor beveiligings &
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Bedrijven van Microsoft Defender voor Office 365 (bijvoorbeeld Microsoft 365 E5-abonnementen of Microsoft Defender voor Office 365-abonnement 1 of Microsoft Defender voor Office 365 abonnement 2-uitbreidingen) bevatten diverse beveiligingsrapporten. Als u de [benodigde machtigingen](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)hebt, kunt u deze rapporten weergeven in het compliance-beveiligings & door **Reports** naar het \> **Dashboard** rapporten te gaan. Open om rechtstreeks naar het Dashboard rapporten te gaan <https://protection.office.com/insightdashboard> .
+Bedrijven van Microsoft Defender voor Office 365 (bijvoorbeeld Microsoft 365 E5-abonnementen of Microsoft Defender voor Office 365-abonnement 1 of Microsoft Defender voor Office 365 abonnement 2-uitbreidingen) bevatten diverse beveiligingsrapporten. Als u de [benodigde machtigingen](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)hebt, kunt u deze rapporten weergeven in het compliance-beveiligings & door  naar het \> **Dashboard** rapporten te gaan. Open om rechtstreeks naar het Dashboard rapporten te gaan <https://protection.office.com/insightdashboard> .
 
 ![Het Dashboard rapporten in het nalevings centrum voor beveiligings &](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -356,5 +356,5 @@ Als u geen gegevens ziet in uw 365-rapporten van Defender for Office, controleer
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Slimme rapporten en inzichten in het nalevings centrum voor beveiligings &](reports-and-insights-in-security-and-compliance.md)
-  
+
 [Rolmachtigingen (Azure Active Directory)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

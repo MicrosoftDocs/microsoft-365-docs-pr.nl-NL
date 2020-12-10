@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-workloadoplossingen en -scenario's
+title: Microsoft 365-bewerkings oplossingen en scenario's
 description: Beschrijving.
 ms.author: samanro
 author: samanro
@@ -12,13 +12,14 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 85c85c086260932308da53fc511127e8c94fb6bb
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ROBOTS: NOINDEX
+ms.openlocfilehash: d7243c68ca52ac2c84d96e3db0fa60b9592cbac3
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521287"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613546"
 ---
-# <a name="microsoft-365-workload-solutions-and-scenarios"></a>Microsoft 365-workloadoplossingen en -scenario's
+# <a name="microsoft-365-workload-solutions-and-scenarios"></a>Microsoft 365-bewerkings oplossingen en scenario's
 
-![objecten ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **Werkbelastingscenario's en -oplossingen** Met deze scenario's en oplossingen u een specifieke bedrijfsdoelstelling bereiken. U ze toevoegen aan de fundamentele oplossingen om mogelijkheden toe te voegen aan uw omgeving.
+![scenario's van objecten werkactiviteiten ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **en oplossingen**  deze scenario's en oplossingen helpen u bij het uitvoeren van een specifieke bedrijfs doelstelling. U kunt ze toevoegen aan de Foundation-oplossingen om functies toe te voegen aan uw omgeving.

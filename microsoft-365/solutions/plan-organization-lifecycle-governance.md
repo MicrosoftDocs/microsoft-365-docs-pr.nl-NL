@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Opties voor het beheer van de levenscyclus van functies voor samenwerking in Microsoft 365
-ms.openlocfilehash: 706f1aaecf22c4088d4539c208fef68320c5e710
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 4d779701d241fc7178ab759063be1b8cdf2e960c
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377185"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613018"
 ---
 # <a name="plan-organization-and-lifecycle-governance-for-microsoft-365-groups-and-microsoft-teams"></a>Beheer organisatie en levenscyclusbeheer voor Microsoft 365-groepen en Microsoft teams
 
@@ -74,3 +74,9 @@ Wanneer u groepen hebt ingesteld op verloopt, doet u het volgende:
 - Een groep die wordt verwijderd, kan binnen 30 dagen worden teruggezet door de groepseigenaren of de beheerder.
 
 Verloopbeleid is een goede manier om de groeps sprawl te beperken door te zorgen dat groepen die niet meer worden gebruikt, worden verwijderd. Zie [verloopbeleid voor groepen Microsoft 365](microsoft-365-groups-expiration-policy.md)als u een verloopbeleid voor groepen wilt maken.
+
+## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)

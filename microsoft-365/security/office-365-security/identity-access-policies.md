@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: b4468bfc7ef4b6f76d44b328f4e5b6d61d7f06ac
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 0a9c09e33eb8fd5d03fcbdf44701544e656673d2
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357837"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615154"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Algemeen beleid voor identiteiten en apparaattoegang
 
@@ -41,7 +41,7 @@ In het volgende diagram wordt de aanbevolen set beleidsregels getoond. In dit vo
 
 Hier ziet u een PDF-samenvatting van één pagina met koppelingen naar de afzonderlijke beleidsregels:
 
-[![Afbeelding van miniatuur voor identiteit en beveiliging van identiteit en apparaat voorhand-out van Microsoft 365](../../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br/>  [Weergeven als een PDF-bestand](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)
+[![Afbeelding van miniatuur voor identiteit en beveiliging van identiteit en apparaat voorhand-out van Microsoft 365](../../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br> [Weergeven als een PDF-bestand](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)
 
 In de rest van dit artikel wordt uitgelegd hoe u deze beleidsregels configureert.
 
@@ -155,7 +155,7 @@ In de sectie **opdrachten** :
 |Gebruikers en groepen|Voorzien|**Selecteer gebruikers en groepen > gebruikers en groepen**: Selecteer specifieke groepen met gerichte gebruikersaccounts.|Begin met de groep die gebruikersaccounts voor prototype bevat.|
 ||Uit|**Gebruikers en groepen**: Selecteer uw groep met uitzonderingen voor voorwaardelijke toegang. serviceaccounts (app-Identities).|Het lidmaatschap moet zo nodig worden gewijzigd.|
 |Cloud-apps of-acties|**> van Cloud apps zijn inbegrepen**|**Selecteer apps**: Selecteer de apps die overeenkomen met de clients die moderne verificatie niet ondersteunen.||
-|Vastgestelde|**Client toepassingen**|Kies **Ja** voor **configureren** <br/> De vinkjes voor **browser** -en **mobiele apps en desktop clients** wissen||
+|Vastgestelde|**Client toepassingen**|Kies **Ja** voor **configureren** <p> De vinkjes voor **browser** -en **mobiele apps en desktop clients** wissen||
 |
 
 In de sectie **Access-besturingselementen** :
@@ -192,7 +192,7 @@ In het tweede gedeelte **toewijzingen** :
 
 |Type|Eigenschappen|Waarden|Actierij|
 |---|---|---|---|
-|Access|**Toegang toestaan**||Kiest|
+|Toegang|**Toegang toestaan**||Kiest|
 |||**Wachtwoord wijzigen vereist**|Cheque|
 |
 
@@ -275,7 +275,7 @@ U moet een beleid maken voor elke PC, telefoon of Tablet platform:
 - Windows 8,1 en hoger
 - Windows 10 en hoger
 
-U maakt beleidsregels voor naleving van apparaten door u aan te melden bij het [Microsoft Endpoint Manager-Beheercentrum](https://endpoint.microsoft.com) met uw **Devices** beheerdersreferenties en vervolgens naar  >  beleidsregels voor **nalevingsbeleid** van apparaten te navigeren  >  **Policies**. Selecteer **beleid maken**.
+U maakt beleidsregels voor naleving van apparaten door u aan te melden bij het [Microsoft Endpoint Manager-Beheercentrum](https://endpoint.microsoft.com) met uw  beheerdersreferenties en vervolgens naar \> beleidsregels voor **nalevingsbeleid** van apparaten te navigeren \> . Selecteer **beleid maken**.
 
 Voor het toepassen van apparaatcompatibiliteit moet de beleidsregels worden toegewezen aan gebruikersgroepen. U kunt een beleid toewijzen nadat u het hebt gemaakt en opgeslagen. Selecteer in het Beheercentrum het beleid en selecteer vervolgens **opdrachten**. Nadat u de groepen waarvoor u het beleid wilt ontvangen, hebt geselecteerd, selecteert u **Opslaan** om deze groepstoewijzing op te slaan en het beleid te implementeren.
 
@@ -287,7 +287,7 @@ De volgende instellingen worden aanbevolen voor Pc's met Windows 10 en latere ve
 
 Zie de volgende tabel voor meer informatie over de statuswaarden van de apparaatstatusverklaring- **Service >**.
 
-|Eigenschappen|Waarde|Actierij|
+|Eigenschappen|Value|Actierij|
 |---|---|---|
 |BitLocker vereisen|Dient|Kiest|
 |Het veilig opstarten moet zijn ingeschakeld op het apparaat|Dient|Kiest|
@@ -300,29 +300,29 @@ Voor **naleving van Configuration Manager** selecteert u **vereisen**.
 
 Zie de volgende tabel voor meer informatie over **systeembeveiliging**.
 
-|Type|Eigenschappen|Waarde|Actierij|
+|Type|Eigenschappen|Value|Actierij|
 |---|---|---|---|
 |Wachtwoord|Een wachtwoord vereisen om mobiele apparaten te ontgrendelen|Dient|Kiest|
 ||Eenvoudige wachtwoorden|Blokkeren|Kiest|
 ||Type wachtwoord|Apparaat standaard|Kiest|
 ||Minimale wachtwoordlengte|zes|Type|
-||Maximum aantal minuten van inactiviteit voordat wachtwoord is vereist|15|Type <br/> Deze instelling wordt ondersteund voor Android-versies 4,0 en hoger of KNOX 4,0 en hoger. Voor iOS-apparaten is de ondersteuning voor iOS 8,0 en hoger.|
+||Maximum aantal minuten van inactiviteit voordat wachtwoord is vereist|15|Type <p> Deze instelling wordt ondersteund voor Android-versies 4,0 en hoger of KNOX 4,0 en hoger. Voor iOS-apparaten is de ondersteuning voor iOS 8,0 en hoger.|
 ||Wachtwoord verloopt (dagen)|41|Type|
 ||Aantal eerdere wachtwoorden om hergebruik te voorkomen|vijf|Type|
 ||Wachtwoord vereisen wanneer het apparaat niet-actief is (mobiele en Holographic)|Dient|Beschikbaar voor Windows 10 en nieuwere versies|
 |Versleuteling|Versleuteling van gegevensopslag op apparaat|Dient|Kiest|
 |Beveiliging van apparaten|Blokkeert|Dient|Kiest|
 ||Antivirussoftware|Dient|Kiest|
-||Programma's|Dient|Kiest <br/> Voor deze instelling is een anti spyware-oplossing vereist die is geregistreerd met Windows Beveiligingscentrum.|
+||Programma's|Dient|Kiest <p> Voor deze instelling is een anti spyware-oplossing vereist die is geregistreerd met Windows Beveiligingscentrum.|
 |Beschermd|Microsoft Defender antimalware|Dient|Kiest|
-||Minimale versie Microsoft Defender antimalware||Type <br/> Alleen ondersteund voor de bureaubladversie van Windows 10. Microsoft adviseert geen versies van meer dan vijf erachter van de meest recente versie.|
+||Minimale versie Microsoft Defender antimalware||Type <p> Alleen ondersteund voor de bureaubladversie van Windows 10. Microsoft adviseert geen versies van meer dan vijf erachter van de meest recente versie.|
 ||Microsoft Defender antimalware-handtekening up-to-date|Dient|Kiest|
-||Real-time beveiliging|Dient|Kiest <br/> Alleen ondersteund voor Windows 10-bureaublad|
+||Real-time beveiliging|Dient|Kiest <p> Alleen ondersteund voor Windows 10-bureaublad|
 |
 
-#### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt 
+#### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor eindpunt
 
-|Type|Eigenschappen|Waarde|Actierij|
+|Type|Eigenschappen|Value|Actierij|
 |---|---|---|---|
 |Microsoft Defender voor eindpunt regels|Het apparaat moet zich op of onder de risicoscore voor de machine bevinden|Medium|Kiest|
 |

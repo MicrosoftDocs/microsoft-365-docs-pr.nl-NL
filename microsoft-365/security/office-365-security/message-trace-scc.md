@@ -13,12 +13,12 @@ ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen de functie voor bericht tracering gebruiken in het beveiligings & nalevings centrum om erachter te komen wat er is gebeurd met berichten.
-ms.openlocfilehash: 1e9f5e21655e55f711997defcb7ace0319ff4be6
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 46aa454ff709e9b17c3b18992757a9a4c3a51247
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48197535"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616750"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Berichttracering in het Beveiligings- en compliancecentrum
 
@@ -41,7 +41,7 @@ Bericht tracering in het nalevings centrum voor beveiliging & verbetert de oorsp
 
 1. Open het beveiligings & nalevings centrum op <https://protection.office.com> .
 
-2. Vouw de **e-mail stroom**uit en selecteer vervolgens **bericht traceren**.
+2. Vouw de **e-mail stroom** uit en selecteer vervolgens **bericht traceren**.
 
 ## <a name="message-trace-page"></a>Pagina bericht traceren
 
@@ -66,7 +66,10 @@ De standaardwaarden zijn **alle afzenders** en **alle geadresseerden**, maar u k
 - **Voor deze personen**: Klik in dit veld om een of meer geadresseerden in uw organisatie te selecteren.
 
 > [!NOTE]
-> U kunt ook de e-mailadressen van externe afzenders en geadresseerden typen. Jokertekens worden ondersteund (bijvoorbeeld `*@contoso.com` ), maar u kunt niet meerdere jokertekens gebruiken in hetzelfde veld. <br/><br/> U kunt meerdere lijsten van afzenders of geadresseerden plakken, gescheiden door puntkomma's ( `;` ). spaties ( `\s` ), regeleinden ( `\r` ) of volgende regels ( `\n` ).
+>
+> - U kunt ook de e-mailadressen van externe afzenders en geadresseerden typen. Jokertekens worden ondersteund (bijvoorbeeld `*@contoso.com` ), maar u kunt niet meerdere jokertekens gebruiken in hetzelfde veld.
+>
+> - U kunt meerdere lijsten van afzenders of geadresseerden plakken, gescheiden door puntkomma's ( `;` ). spaties ( `\s` ), regeleinden ( `\r` ) of volgende regels ( `\n` ).
 
 ### <a name="time-range"></a>Tijdsbereik
 
@@ -132,9 +135,9 @@ U kunt de resultaten van client IP addressiseren om gehacke computers te onderzo
 
 De beschikbare rapporttypen zijn:
 
-- **Overzicht**: beschikbaar als het tijdsbereik kleiner is dan 10 dagen en geen extra filteropties vereist. De resultaten zijn bijna direct beschikbaar nadat u op **zoeken**hebt geklikt. Het rapport levert tot 20000 resultaten.
+- **Overzicht**: beschikbaar als het tijdsbereik kleiner is dan 10 dagen en geen extra filteropties vereist. De resultaten zijn bijna direct beschikbaar nadat u op **zoeken** hebt geklikt. Het rapport levert tot 20000 resultaten.
 
-- **Uitgebreid overzicht** of **uitgebreid**: deze rapporten zijn alleen beschikbaar als CSV-bestanden die kunnen worden gedownload en u hebt een of meer van de volgende filteropties, ongeacht het tijdsbereik: **door deze personen**, **voor deze personen**of **bericht-id**vereist. U kunt jokertekens gebruiken voor de afzenders of de geadresseerden (bijvoorbeeld \* @contoso. com). Het verbeterde overzichtsrapport levert tot 50000 resultaten. Het uitgebreide rapport levert tot 1000 resultaten.
+- **Uitgebreid overzicht** of **uitgebreid**: deze rapporten zijn alleen beschikbaar als CSV-bestanden die kunnen worden gedownload en u hebt een of meer van de volgende filteropties, ongeacht het tijdsbereik: **door deze personen**, **voor deze personen** of **bericht-id** vereist. U kunt jokertekens gebruiken voor de afzenders of de geadresseerden (bijvoorbeeld \* @contoso. com). Het verbeterde overzichtsrapport levert tot 50000 resultaten. Het uitgebreide rapport levert tot 1000 resultaten.
 
 **Opmerkingen**:
 
@@ -142,7 +145,7 @@ De beschikbare rapporttypen zijn:
 
 - Hoewel u een uitgebreid overzicht of uitgebreid rapport voor datum/tijd-bereik kunt selecteren, zijn meestal de laatste vier uur gearchiveerde gegevens niet beschikbaar voor deze twee typen rapporten.
 
-Wanneer u op **volgende**klikt, wordt er een overzichtspagina weergegeven met de filteropties die u hebt geselecteerd, een unieke (bewerkbaar) titel voor het rapport en het e-mailadres dat de melding ontvangt wanneer de bericht tracering wordt voltooid (ook in een van de geaccepteerde domeinen van uw organisatie). Klik op **rapport voorbereiden** voor het verzenden van de bericht tracering. Op de hoofdpagina van **bericht tracering** ziet u de status van het rapport in de sectie **downloadbare rapporten** .
+Wanneer u op **volgende** klikt, wordt er een overzichtspagina weergegeven met de filteropties die u hebt geselecteerd, een unieke (bewerkbaar) titel voor het rapport en het e-mailadres dat de melding ontvangt wanneer de bericht tracering wordt voltooid (ook in een van de geaccepteerde domeinen van uw organisatie). Klik op **rapport voorbereiden** voor het verzenden van de bericht tracering. Op de hoofdpagina van **bericht tracering** ziet u de status van het rapport in de sectie **downloadbare rapporten** .
 
 Zie de volgende sectie voor meer informatie over de gegevens die worden geretourneerd in de verschillende rapporttypen.
 
@@ -174,13 +177,13 @@ U kunt op de kolomkoppen klikken om de resultaten te sorteren op de waarden in d
 
 U kunt op **resultaten filteren** klikken om de resultaten te filteren op een of meer kolommen.
 
-U kunt de resultaten exporteren nadat u een of meer rijen hebt geselecteerd door te klikken op **resultaten exporteren** en vervolgens **alle resultaten exporteren**, **geladen resultaten exporteren**of **exporteren**selecteren.
+U kunt de resultaten exporteren nadat u een of meer rijen hebt geselecteerd door te klikken op **resultaten exporteren** en vervolgens **alle resultaten exporteren**, **geladen resultaten exporteren** of **exporteren** selecteren.
 
 #### <a name="find-related-records-for-this-message"></a>Gerelateerde records zoeken voor dit bericht
 
 Gerelateerde berichten records zijn records die dezelfde bericht-ID hebben. Vergeet niet dat er slechts één bericht tussen twee personen kan worden gegenereerd. Het aantal records is groter als het bericht van invloed is op de expansie van distributiegroepen, doorstuur berichten, e-mail stroom regels (ook wel een zogenaamde transportregels genoemd), enzovoort.
 
-Nadat u het selectievakje van een rij hebt geselecteerd, kunt u verwante records voor het bericht vinden door te klikken op de knop **gerelateerde zoeken** die wordt weergegeven, of door **meer opties** ![ ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **voor het zoeken naar gerelateerde records zoeken voor dit bericht**te selecteren.
+Nadat u het selectievakje van een rij hebt geselecteerd, kunt u verwante records voor het bericht vinden door te klikken op de knop **gerelateerde zoeken** die wordt weergegeven, of door **meer opties** ![ ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **voor het zoeken naar gerelateerde records zoeken voor dit bericht** te selecteren.
 
 Zie voor meer informatie over de bericht-ID de sectie bericht-ID eerder in dit onderwerp.
 
@@ -260,9 +263,9 @@ In het gedeelte **downloadbare rapporten** kunnen beschikbare (voltooide) verbet
 
 - **connector_id**: de naam van de bron-of doel verbindingslijn. Zie voor meer informatie over connectors in Exchange Online de [e-mail stroom configureren met connectors in Office 365](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-- **delivery_priority** <sup>*</sup> : of het bericht is verzonden met de prioriteit **hoog**, **laag**of **normaal** .
+- **delivery_priority** <sup>*</sup> : of het bericht is verzonden met de prioriteit **hoog**, **laag** of **normaal** .
 
-<sup>*</sup>Deze eigenschappen zijn alleen beschikbaar in uitgebreide overzichtsrapporten.
+<sup>*</sup> Deze eigenschappen zijn alleen beschikbaar in uitgebreide overzichtsrapporten.
 
 ### <a name="extended-reports"></a>Uitgebreide rapporten
 

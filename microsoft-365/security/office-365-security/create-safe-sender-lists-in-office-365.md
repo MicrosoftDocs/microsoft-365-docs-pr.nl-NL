@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 6d862f0ed6d6bbea56cb2bb79fee69a044e4fede
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 71c413cdf3f9a189420c33953d7bce41362ab6a9
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130791"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616630"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
@@ -61,12 +61,12 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van 
 
 2. Configureer een van de volgende instellingen:
 
-   - **Voorwaarde voor de e-mail stroom regel**: **een kop van een bericht** \> **bevat een van deze woorden** \> **Header name**: header `Authentication-Results` \> **waarde**: `dmarc=pass` of `dmarc=bestguesspass` .
+   - **Voorwaarde voor de e-mail stroom regel**: **een kop van een bericht** \> **bevat een van deze woorden** \> : header `Authentication-Results` \> **waarde**: `dmarc=pass` of `dmarc=bestguesspass` .
 
      Met deze voorwaarde wordt de verificatiestatus van het e-mail domein voor e-mail gecontroleerd, zodat u zeker weet dat het verzendende domein geen Spoofing wordt. Zie [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)voor meer informatie over e-mail verificatie.
 
    - **Lijst met toegestane IP-** adressen: Geef het bron-IP-adres of-adresbereik op in het filter beleid voor verbindingen.
-  
+
      Gebruik deze instelling als het verzendende domein geen e-mail verificatie gebruikt. Zo beperkt mogelijk wanneer het komt in de bron-IP-adressen in de lijst met toegestane IP-adressen. We raden u aan een IP-adresbereik van/24 of minder te (minder is beter). Gebruik geen IP-adresbereiken die deel uitmaken van consumenten Services (bijvoorbeeld outlook.com) of gedeelde infrastructuur.
 
    > [!IMPORTANT]

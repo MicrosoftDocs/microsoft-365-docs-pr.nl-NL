@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft biedt hulp bij EOP op diverse locaties en methoden, waaronder ondersteuning voor ondersteuning en ondersteuning.
-ms.openlocfilehash: dd68200b7a3723adc7ccba899c0cc88031891197
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 3d11abee08fa3fdd7dfb659bd90e29908f9e4bda
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920428"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614856"
 ---
 # <a name="help-and-support-for-eop"></a>Help en ondersteuning voor EOP
 
@@ -62,7 +62,7 @@ Zie [Premier Support voor partners](https://partner.microsoft.com/support/micros
 
 1. Meld u aan bij het Beheercentrum van Microsoft 365.
 
-2. Voor algemene product kwesties gaat u naar **ondersteuning** \> voor telefonische ondersteuning **van klantondersteuning** \> **Call technical support**.
+2. Voor algemene product kwesties gaat u naar **ondersteuning** \> voor telefonische ondersteuning **van klantondersteuning** \> .
 
    Voor vragen over het kopen van EOP of vragen over facturering en abonnementen gaat **u naar ondersteunings** \> **vragen voor klantondersteuning** \> **bellen en abonnements ondersteuning**.
 
@@ -76,13 +76,13 @@ Microsoft biedt lokale of gratis telefoonnummers voor productondersteuning overa
 
 |Land of regio|Voorlopige vragen en vragen over de facturering|Vragen over technische ondersteuning|
 |---|---|---|
-|Brazilië|Gratis: 08007621146 <br/> Lokaal: 1147001999|Datzelfde|
-|Frankrijk|Gratis: 0805 540 594 <br/> Lokaal: 01 57 32 42 97|Datzelfde|
-|Duitsland|Gratis: 0800 589 2332 <br/>  Lokaal: 069 380 789 508|Datzelfde|
-|Japan |Gratis: 0120-628860 <br/> Lokaal: 343326257|Gratis: 0120-996680 <br/> Lokaal: 357679793|
-|Korea|Gratis: 080-495-0880 <br/> Lokaal: 234831937|Datzelfde|
-|Spanje|Gratis: 900 814 197 <br/> Lokaal: 912 718 160|Datzelfde|
-|Verenigd Koninkrijk|Gratis: 0800 032 6417 <br/> Lokaal: 0203 450 6455|Datzelfde|
+|Brazilië|Gratis: 08007621146 <br> Lokaal: 1147001999|Datzelfde|
+|Frankrijk|Gratis: 0805 540 594 <br> Lokaal: 01 57 32 42 97|Datzelfde|
+|Duitsland|Gratis: 0800 589 2332 <br>  Lokaal: 069 380 789 508|Datzelfde|
+|Japan |Gratis: 0120-628860 <br> Lokaal: 343326257|Gratis: 0120-996680 <br> Lokaal: 357679793|
+|Korea|Gratis: 080-495-0880 <br> Lokaal: 234831937|Datzelfde|
+|Spanje|Gratis: 900 814 197 <br> Lokaal: 912 718 160|Datzelfde|
+|Verenigd Koninkrijk|Gratis: 0800 032 6417 <br> Lokaal: 0203 450 6455|Datzelfde|
 |Verenigde Staten|Gratis: 1-877-913-2707|Gratis: 1-800-865-9408|
 |
 

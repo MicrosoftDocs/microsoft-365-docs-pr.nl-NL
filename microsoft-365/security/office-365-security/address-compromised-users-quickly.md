@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Meer informatie over het versnellen van het proces voor het opsporen en adresseren van gebruikersaccounts met automatisch onderzoek en antwoord mogelijkheden in Microsoft Defender voor Office 365, abonnement 2.
-ms.openlocfilehash: 80e4529f864d83d2a1711007f0f095de39955e68
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 19c9bad33263178f92c6fe523b44497cf38ebd53
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357905"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616735"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Opgetaste gebruikersaccounts met een automatisch onderzoek en antwoord
 
@@ -63,11 +63,11 @@ Wanneer een gebruikersaccount wordt gekraakt, worden waarschuwingen geactiveerd.
 
 ### <a name="view-and-investigate-restricted-users"></a>Gebruikers met beperkte toegang weergeven en onderzoeken
 
-U kunt op een aantal manieren naar een lijst met gebruikers met beperkte toegang navigeren. In dit voorbeeld kunt u in het beveiligings & compliance de gebruikers **met**  >  **Review**  >  **beperkte toegang** controleren. In de volgende procedure wordt de navigatie in het dashboard **waarschuwingen** beschreven, wat een goede manier is om diverse soorten waarschuwingen te zien die mogelijk zijn geactiveerd.
+U kunt op een aantal manieren naar een lijst met gebruikers met beperkte toegang navigeren. In dit voorbeeld kunt u in het beveiligings & compliance de gebruikers **met** \>  \> **beperkte toegang** controleren. In de volgende procedure wordt de navigatie in het dashboard **waarschuwingen** beschreven, wat een goede manier is om diverse soorten waarschuwingen te zien die mogelijk zijn geactiveerd.
 
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan.
+1. Ga naar <https://protection.office.com> en meld u aan.
 
-2. Kies in het navigatiedeelvenster **meldingen**  >  **Dashboard**.
+2. Kies in het navigatiedeelvenster **meldingen** \> **Dashboard**.
 
 3. Kies in de **andere waarschuwings** widget de optie **gebruikers met beperkte beperkingen**.
 
@@ -81,7 +81,7 @@ U kunt op een aantal manieren naar een lijst met gebruikers met beperkte toegang
 
 ### <a name="view-details-about-automated-investigations"></a>Details van geautomatiseerde onderzoeken weergeven
 
-Wanneer een geautomatiseerd onderzoek is begonnen, kunt u de details en resultaten bekijken in het beveiligings & nalevings centrum. Ga naar onderzoek voor **Threat Management**  >  **Investigations** en selecteer een onderzoek om de details ervan weer te geven.
+Wanneer een geautomatiseerd onderzoek is begonnen, kunt u de details en resultaten bekijken in het beveiligings & nalevings centrum. Ga naar onderzoek voor **Threat Management** \> en selecteer een onderzoek om de details ervan weer te geven.
 
 Zie [Details van een onderzoek weergeven](air-view-investigation-results.md)voor meer informatie.
 

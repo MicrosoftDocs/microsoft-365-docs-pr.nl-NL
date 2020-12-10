@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: In dit artikel leert u hoe u de lijst Portal kunt gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders in Microsoft 365.
-ms.openlocfilehash: f4e7bcc13ac6c133880eb0ebe69ba3f724d0a84e
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 0c87d467db004a50502402b05eb0fa3283aa46c5
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561421"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614760"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>De delist-portal gebruiken om jezelf uit de lijst met geblokkeerde afzenders te verwijderen
 

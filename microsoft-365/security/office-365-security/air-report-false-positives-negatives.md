@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom:
 - autoir
-ms.openlocfilehash: 27edc44145e7b61768d9caf00a3f308e8561d708
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 0fe8891f5ea6af215791c5f4321a93667a9d58f0
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357397"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616174"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Onjuiste positief en negatief rapporteren in automatisch onderzoek en antwoord mogelijkheden
 
@@ -79,9 +79,9 @@ Met de bedreigings Verkenner kan uw beveiligingsteam een e-mailbericht vinden da
 
 In het Actiecentrum ziet u de acties die u kunt uitvoeren om de actie te herstellen.
 
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan. U gaat nu naar de beveiligings & compliance Center.
+1. Ga naar <https://protection.office.com> en meld u aan. U gaat nu naar de beveiligings & compliance Center.
 
-2. Ga naar onderzoek voor **Threat Management**  >  **Investigations**.
+2. Ga naar onderzoek voor **Threat Management** \> .
 
 3. Selecteer in de lijst met onderzoek het pictogram **openen in nieuw venster** naast de id van het item.
 

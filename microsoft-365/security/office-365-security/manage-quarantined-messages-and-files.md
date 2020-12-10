@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven en beheren van quarantaine berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook quarantaine bestanden beheren in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: fed05ee202e4352200a80516e0ec1b62c8421178
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 8f4ca5caef9bf244315db2271011126ad4d7976e
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357131"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616774"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -42,7 +42,7 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
 
 - Ga naar <https://protection.office.com> om het Beveiligings- en compliancecentrum te openen. Ga naar <https://protection.office.com/quarantine> als u de quarantaine-pagina direct wilt openen.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - U moet machtigingen zijn toegewezen voordat u de quarantaine als een beheerder kunt beheren. De machtigingen worden beheerd op basis van de rol van **Quarantine** in het compliance-& Beveiligingscentrum. Deze functie wordt standaard toegewezen aan **Organisatiebeheer** (globale beheerders), **Quarantine beheerder** en **Beveiligingsbeheerders** van rollen in het nalevings centrum voor beveiligings &. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
@@ -99,16 +99,16 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
      - **Spam**
      - **Hoge betrouwbaarheid van phishing**
 
-   - **Beleidstype**: berichten filteren op beleidstype:
+   - **Type beleid**: berichten filteren op beleidstype:
      - **Anti malwarebeleid**
      - **Beleid voor veilige bijlagen**
-     - **Beleid tegen phishing**
-     - **Beleid voor gehoste inhoudsfilters** (antispambeleid)
+     - **Anti-phishings beleid**
+     - **Filter beleid met gehoste inhoud** (Antispambeleid)
      - **Transport regel**
 
    - **E-mail ontvanger**: alle gebruikers of alleen berichten die naar u zijn verzonden. Eindgebruikers kunnen alleen quarantaine berichten beheren die ze hebben verzonden.
 
-   Als je het filter wilt wissen, druk je op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
+   Als u het filter wilt wissen, drukt u op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
 
 5. Gebruik **Resultaten sorteren op** (standaard de knop **Bericht-ID**) en een bijbehorende waarde om naar specifieke berichten te zoeken. Jokertekens worden niet ondersteund. U kunt zoeken op een van de volgende waarden:
 
@@ -123,7 +123,7 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
    - **E-mailadres ontvanger**: een enkel e-mailadres van een ontvanger.
 
    - **Onderwerp**: gebruik het volledige onderwerp van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
-  
+
    - **Beleidsnaam**: de naam van het beleid dat verantwoordelijk is voor het quarantining van het bericht.
 
    Nadat u de zoekcriteria hebt opgegeven, klikt u op de ![Knop vernieuwen](../../media/scc-quarantine-refresh.png) **Vernieuwen** om de resultaten te filteren.
@@ -165,7 +165,7 @@ Wanneer u een bericht hebt geselecteerd, kunt u in het vervolgmenu **Details** v
   - Kies een van de volgende opties:
     - **Berichten uitbrengen voor alle geadresseerden**
     - **Berichten vrijgeven aan specifieke geadresseerden**
-    - **Berichten uitbrengen voor andere personen**: Opmerking: het vrijgeven van malware-berichten aan andere personen dan originele geadresseerden wordt niet ondersteund. 
+    - **Berichten uitbrengen voor andere personen**: Opmerking: het vrijgeven van malware-berichten aan andere personen dan originele geadresseerden wordt niet ondersteund.
 
   Klik op **Berichten vrijgeven** wanneer u gereed bent.
 

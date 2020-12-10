@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Lees meer over het gebruik van bedreigings Verkenner en het rapport realtime detectie om bedreigingen te onderzoeken en te beantwoorden in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 551425bf3e6b2c4fbb429dd6698b4f85e30d1ebe
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: b7300f8c87b100a38117b0cc4bee1bb95c9584c6
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561229"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615706"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in de bedreigings Verkenner en de real-time detectie
 
@@ -56,7 +56,7 @@ Wanneer u een weergave hebt geselecteerd, kunt u filters toepassen en query's in
 
 ## <a name="email--malware"></a>E-mail > malware
 
-Als u dit rapport wilt weergeven, kiest u in Verkenner (of realtime detectie) **View** de optie  >  **e-mail**  >  **malware** weergeven. In deze weergave ziet u informatie over e-mailberichten die zijn geïdentificeerd met malware.
+Als u dit rapport wilt weergeven, kiest u in Verkenner (of realtime detectie)  de optie \> **e-mail** \> **malware** weergeven. In deze weergave ziet u informatie over e-mailberichten die zijn geïdentificeerd met malware.
 
 ![Gegevens voor e-mail identificeren als malware weergeven](../../media/ExplorerEmailMalwareMenu.png)
 
@@ -72,7 +72,7 @@ Bekijk de details van specifieke berichten onder de grafiek. Wanneer u een item 
 
 ## <a name="email--phish"></a>E-mail > phishing
 
-Als u dit rapport wilt weergeven, kiest u **View**  >  **e-mail** beantwoorde e-mail weergeven in Verkenner (of realtime-detectie)  >  **Phish**. In deze weergave ziet u e-mailberichten die zijn aangegeven als phishing-pogingen.
+Als u dit rapport wilt weergeven, kiest u  \> **e-mail** beantwoorde e-mail weergeven in Verkenner (of realtime-detectie) \> . In deze weergave ziet u e-mailberichten die zijn aangegeven als phishing-pogingen.
 
 ![Gegevens van e-mailberichten die zijn geïdentificeerd als phishing weergeven](../../media/ThreatExplorerEmailPhish.png)
 
@@ -92,13 +92,13 @@ Wanneer u een item in de lijst selecteert, zoals een URL die is gedetecteerd, wo
 
 ## <a name="email--submissions"></a>E-mail > ingediende items
 
-Als u dit rapport wilt weergeven, kiest u in Verkenner (of realtime-detectie **View**) de optie  >  **e-mail**  >  **missies** weergeven. In deze weergave ziet u e-mail die gebruikers hebben gerapporteerd als ongewenste e-mail, geen ongewenste e-mail of phishing-e-mail.
+Als u dit rapport wilt weergeven, kiest u in Verkenner (of realtime-detectie  ) de optie \> **e-mail** \> **missies** weergeven. In deze weergave ziet u e-mail die gebruikers hebben gerapporteerd als ongewenste e-mail, geen ongewenste e-mail of phishing-e-mail.
 
 ![Door gebruikers gemelde e-mailberichten](../../media/ThreatExplorerEmailUserReportedViewOptions.png)
 
 Klik op **afzender** om uw lijst met weergaveopties te openen. In deze lijst kunt u informatie weergeven per afzender, geadresseerden, rapporttype (de vaststelling van de e-mail is ongewenste e-mail, geen ongewenste e-mail of phishing) en meer.
 
-Als u bijvoorbeeld informatie wilt weergeven over e-mailberichten die zijn Gereedgemeld voor phishing, klikt u op **Sender**  >  **Rapporttype** afzender, selecteert u **phishing** en klikt u op de knop Vernieuwen.
+Als u bijvoorbeeld informatie wilt weergeven over e-mailberichten die zijn Gereedgemeld voor phishing, klikt u op  \> **Rapporttype** afzender, selecteert u **phishing** en klikt u op de knop Vernieuwen.
 
 ![Phishing geselecteerd voor rapport type filter](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
 
@@ -110,7 +110,7 @@ Selecteer een item in de lijst om meer details weer te geven.
 
 ## <a name="email--all-email"></a>E-mail > alle e-mail
 
-Als u dit rapport wilt weergeven, kiest **View** u in Verkenner de optie  >  **e-mail** van  >  **alle e-mail** weergeven. Deze weergaven toont een weergave van een weergave van e-mail activiteiten, waaronder e-mail die als schadelijk is geïdentificeerd vanwege phishing of malware, en alle niet-schadelijke e-mail (normaal e-mail, spam en bulkmail).
+Als u dit rapport wilt weergeven, kiest  u in Verkenner de optie \> **e-mail** van \> **alle e-mail** weergeven. Deze weergaven toont een weergave van een weergave van e-mail activiteiten, waaronder e-mail die als schadelijk is geïdentificeerd vanwege phishing of malware, en alle niet-schadelijke e-mail (normaal e-mail, spam en bulkmail).
 
 > [!NOTE]
 > Als er een foutbericht wordt weergegeven met de melding dat er **te veel gegevens worden weergegeven**, voegt u een filter toe en beperkt u zo nodig het datumbereik dat u bekijkt.
@@ -123,7 +123,7 @@ Onder de grafiek vindt u meer informatie over specifieke e-mailberichten, zoals 
 
 ## <a name="content--malware"></a>Inhoud > malware
 
-Als u dit rapport wilt weergeven, kiest u in Verkenner (of realtime detectie) de optie malware van inhoud **weergeven**  >  **Content**  >  **Malware**. In deze weergave worden de bestanden weergegeven die zijn geïdentificeerd als schadelijk [voor Microsoft Defender voor Office 365 in SharePoint Online, OneDrive voor bedrijven en Microsoft teams](atp-for-spo-odb-and-teams.md).
+Als u dit rapport wilt weergeven, kiest u in Verkenner (of realtime detectie) de optie malware van inhoud **weergeven** \>  \> . In deze weergave worden de bestanden weergegeven die zijn geïdentificeerd als schadelijk [voor Microsoft Defender voor Office 365 in SharePoint Online, OneDrive voor bedrijven en Microsoft teams](atp-for-spo-odb-and-teams.md).
 
 Bekijk de informatie op malware-serie, detectietechnologie (hoe de malware is gedetecteerd) en werkbelasting (OneDrive, SharePoint of teams).
 

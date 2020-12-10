@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: Beheerders kunnen leren welke redenen en hoe een malafide bericht krijg in Microsoft 365 en wat u moet doen om te voorkomen dat er meer phishingberichten in de toekomst worden verstaan.
-ms.openlocfilehash: c495be3f5a90ca96f9a7a05513df9438f88910ad
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 8a2c63d499317427b921d7786dd60b3ad4f18c42
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131319"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615382"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
 

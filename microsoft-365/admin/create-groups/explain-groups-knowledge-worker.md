@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Meer informatie over het uitleggen van Microsoft 365 groepen voor uw gebruikers.
-ms.openlocfilehash: 179452800fb28c193622b47dce85dd6419ae5ac2
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 2f983d69f8b3138634739a82e35de9e62821d252
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49554782"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613006"
 ---
 # <a name="explaining-microsoft-365-groups-to-your-users"></a>Microsoft 365 groepen uitleggen voor uw gebruikers
 
@@ -38,6 +38,8 @@ Aangezien groepen op diverse manieren kunnen worden gemaakt, wordt u aangeraden 
 [Beschrijving van de ![ ](../../media/03.png) afbeelding ](../../media/03.png#lightbox)
 
 Als u uw gebruikers traint om altijd de methode voor het maken van een groep te gebruiken die de meeste uitlijnt wanneer ze een ruimte nodig hebben om samen te werken met andere personen, kunt u de bronnen voorkomen en duplicaten. Aangezien gebruikers meer ervaring hebben, is het beter om het verzamelen van services voor een groep te verbeteren en te zorgen dat verschillende methoden voor maken leiden tot hetzelfde resultaat.
+
+U kunt de [Microsoft 365 groepen voor zakelijke gebruikers-PowerPoint-sjabloon](https://www.microsoft.com/download/details.aspx?id=102396) als uitgangspunt voor het trainen van presentaties voor uw gebruikers gebruiken.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

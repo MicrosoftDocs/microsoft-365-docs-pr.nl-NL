@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Informatie over het installeren en gebruiken van de invoegtoepassing voor het rapporteren van ongewenste E-mail om spam, geen spam en phishing-berichten te rapporteren aan Microsoft.
-ms.openlocfilehash: 6e4c16ed8efd781a6e8ecea422fe55fb6723209c
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 6f08c72ae797825695c443848429dcfd2cd485a2
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877547"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616426"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>De invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook installeren en gebruiken
 
@@ -33,7 +33,7 @@ Met de invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsof
 
 In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor het rapporteren van ongewenste E-mail installeert en gebruikt.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - Als u de invoegtoepassing voor het rapporteren van ongewenste E-mail wilt installeren, raadpleegt u de sectie [invoegtoepassing voor ongewenste E-mail installeren](#install-the-junk-email-reporting-add-in) verderop in dit onderwerp.
 
@@ -70,7 +70,7 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor het rapporteren 
 
    - Verplaatst naar de map Ongewenste E-mail als deze als spam is gerapporteerd.
    - Verwijderd als phishing werd gerapporteerd.
-   
+
    Als u wilt controleren of de berichten zijn verzonden, opent u de map **verzonden items** om de verzonden berichten te bekijken.
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-non-spam-and-phishing-messages-from-the-junk-email-folder"></a>De invoegtoepassing voor het rapporteren van ongewenste E-mail gebruiken om niet-spamberichten en phishingberichten te rapporteren vanuit de map Ongewenste E-mail
@@ -108,8 +108,8 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor het rapporteren 
 
 - Ga naar <https://www.microsoft.com/download/details.aspx?id=18275> en Download het juiste MSI-bestand voor uw versie van Office op een locatie die u kunt vinden:
 
-  - **32-bits** : `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
-  - **64-bits** : `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
+  - **32-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
+  - **64-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
 - Voor Outlook 2013 of hoger is het enige voorwaarden de Microsoft .NET Framework 2,0. In Windows 10 installeert u .NET Framework 2,0 niet vanaf een download.
 
@@ -209,27 +209,27 @@ Als u wilt controleren of de invoegtoepassing voor het rapporteren van ongewenst
 
 Nadat u Outlook hebt gesloten, gebruikt u een van de volgende procedures om de invoegtoepassing voor het rapporteren van ongewenste E-mail te verwijderen:
 
-- **Configuratiescherm** : druk op de Windows-toets + R. Voer in het dialoogvenster **uitvoeren** dat wordt geopend, Enter `control appwiz.cpl` en klik vervolgens op **OK**.
+- **Configuratiescherm**: druk op de Windows-toets + R. Voer in het dialoogvenster **uitvoeren** dat wordt geopend, Enter `control appwiz.cpl` en klik vervolgens op **OK**.
 
   Selecteer de **invoegtoepassing voor het rapporteren van ongewenste e-mail van Microsoft** in de lijst en klik op **verwijderen**.
 
-- **Windows-installatiepakket** : Zoek of download het juiste MSI-bestand en dubbelklik erop.
+- **Windows-installatiepakket**: Zoek of download het juiste MSI-bestand en dubbelklik erop.
 
-  - **32-bits** : `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
+  - **32-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
-  - **64-bits** : `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
+  - **64-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
   Selecteer in het dialoogvenster dat wordt weergegeven de optie **Microsoft-invoegtoepassing voor ongewenste E-mail verwijderen voor Outlook** en klik op **volgende**.
 
-- **Stille modus** : Zoek of download het juiste MSI-bestand. In het venster met de opdracht prompt vervangt u \<PathToFile\> de locatie van het MSI-bestand en voert u een van de volgende opdrachten uit:
+- **Stille modus**: Zoek of download het juiste MSI-bestand. In het venster met de opdracht prompt vervangt u \<PathToFile\> de locatie van het MSI-bestand en voert u een van de volgende opdrachten uit:
 
-  - **32-bits** :
+  - **32-bits**:
 
     ```dos
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
     ```
 
-  - **64-bits** :
+  - **64-bits**:
 
     ```dos
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
@@ -263,7 +263,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 1. Controleer of stel de `LoggingLevel` registersleutel in op de waarde ' uitgebreid '.
 
-   - **32-bits versie van Outlook op 32-bits Windows** :
+   - **32-bits versie van Outlook op 32-bits Windows**:
 
      ```text
      Windows Registry Editor Version 5.00
@@ -272,7 +272,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
      "LoggingLevel"="Verbose"
      ```
 
-   - **32-bits versie van Outlook op 64-bits Windows** :
+   - **32-bits versie van Outlook op 64-bits Windows**:
 
      ```text
      Windows Registry Editor Version 5.00
@@ -281,7 +281,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
      "LoggingLevel"="Verbose"
      ```
 
-   - **64-bits Outlook** :
+   - **64-bits Outlook**:
 
      ```text
      Windows Registry Editor Version 5.00

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Integreer de SIEM-server van uw organisatie met Microsoft Defender for Office 365 en gerelateerde bedreigingen gebeurtenissen in de beheer-API van Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6253ed0133bf53bdbeca71bb595a850e25441311
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 93ff1606130c60ceb46087d28bb26f9a6d27d330
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561697"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615658"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>SIEM-integratie met Microsoft Defender voor Office 365
 
@@ -61,7 +61,9 @@ De volgende tabel bevat een overzicht van de waarden van **AuditLogRecordType** 
 |
 
 > [!IMPORTANT]
-> U moet een hoofdbeheerder zijn of de rol van beveiligingsbeheerder toegewezen hebben voor de beveiligings & voor nalevings centrum voor het instellen van SIEM-integratie met Microsoft Defender voor Office 365.<br/>U moet de controlelogboekregistratie inschakelen voor uw Microsoft 365-omgeving. Als u hulp nodig hebt, raadpleegt u de [zoekfunctie voor auditlogboeken in-of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md).
+> U moet een hoofdbeheerder zijn of de rol van beveiligingsbeheerder toegewezen hebben voor de beveiligings & voor nalevings centrum voor het instellen van SIEM-integratie met Microsoft Defender voor Office 365.
+>
+> U moet de controlelogboekregistratie inschakelen voor uw Microsoft 365-omgeving. Als u hulp nodig hebt, raadpleegt u de [zoekfunctie voor auditlogboeken in-of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md).
 
 ## <a name="see-also"></a>Zie ook
 

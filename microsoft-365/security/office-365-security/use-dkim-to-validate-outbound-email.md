@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
-ms.openlocfilehash: 66f352b6c3a5d3b3beff3043a3f0d1a435d1e5d1
-ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
+ms.openlocfilehash: f8ae6334a078d635de069d2fe7af351ad42d8df3
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49560882"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615358"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -90,7 +90,7 @@ Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt
    1. [Maak verbinding met de Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (De cmdlet is afkomstig van Exchange Online.)
    1. Voer de volgende opdracht uit:
 
-      ```powershell 
+      ```powershell
       Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
       ```
 
@@ -131,7 +131,7 @@ Als u DKIM wilt configureren, voert u de volgende stappen uit:
 U moet twee CNAME-records publiceren voor elk domein waarvoor u een DKIM-handtekening wilt toevoegen in DNS.
 
 > [!NOTE]
-> Als u nog niet het hele artikel hebt gelezen, hebt u deze tijdbesparende PowerShell-verbindingsinformatie misschien gemist: [Verbinding maken met Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (De cmdlet is afkomstig van Exchange Online.) 
+> Als u nog niet het hele artikel hebt gelezen, hebt u deze tijdbesparende PowerShell-verbindingsinformatie misschien gemist: [Verbinding maken met Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (De cmdlet is afkomstig van Exchange Online.)
 
 Voer de volgende opdrachten uit om de selectorrecords te maken:
 
@@ -254,7 +254,7 @@ Wacht een paar minuten voordat u deze stappen uitvoert om te bevestigen dat u de
 
 Als u in de toekomst besluit om een ander aangepast domein toe te voegen en u wilt DKIM inschakelen voor het nieuwe domein, moet u de stappen in dit artikel voor elk domein voltooien. Voer met name alle stappen uit in [Wat u moet doen om DKIM handmatig in te stellen](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365).
 
-## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>Het DKIM-handtekeningenbeleid uitschakelen voor een aangepast domein 
+## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>Het DKIM-handtekeningenbeleid uitschakelen voor een aangepast domein
 <a name="DisableDKIMSigningPolicy"> </a>
 
 Als u het handtekeningenbeleid uitschakelt, wordt DKIM niet volledig uitgeschakeld. Na een bepaalde tijd zal Microsoft 365 automatisch het standaardbeleid toepassen op uw domein. Zie [Standaardgedrag voor DKIM en Microsoft 365](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior) voor meer informatie.
@@ -336,7 +336,7 @@ In dit voorbeeld, om dit resultaat te bereiken, moet u het volgende doen:
    > sender@**contoso.com**
 
    > d=**contoso.com**
-   
+
 ## <a name="identify-domains-that-do-not-send-email"></a>Domeinen identificeren die geen e-mail verzenden
 
 Organisaties moeten het duidelijk aangeven als een domein geen e-mail verzendt, door `v=DKIM1; p=` op te geven in de DKIM-record voor die domeinen. Dit geeft aan ontvangende e-mailservers aan dat er geen geldige openbare sleutels zijn voor het domein en e-mails die beweren van dat domein afkomstig te zijn, moeten worden geweigerd. U moet dit voor elk domein en subdomein doen met een DKIM met jokerteken.

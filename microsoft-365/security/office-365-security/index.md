@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties en meer. Begrijpt wat u hebt en hoe u uw eigenschappen kunt beveiligen.
-ms.openlocfilehash: 008488149a403fdafef9de0b0f64a9a43616debe
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 84d7dcfc68ce78bfde92f3d7096cd4104355ce94
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357753"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616246"
 ---
 # <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
 
@@ -124,16 +124,16 @@ Deze naslaggids helpt u inzicht te krijgen in de mogelijkheden van elk Microsoft
 
 |Abonnement 1 voor Office 365|Abonnement 2 voor Office 365|
 |---|---|
-|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|De mogelijkheden van de abonnement 1 voor Defender voor Office 365<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:</li><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
+|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|De mogelijkheden van de abonnement 1 voor Defender voor Office 365 <p> --- plus --- <p> Functies voor automatisering, onderzoek, herstel en onderwijs: <ul><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
 |
 
 - Microsoft Defender voor Office 365 abonnement 2 is opgenomen in Office 365 E5, Office 365 A5 en Microsoft 365 E5.
 
-- Abonnement 1 voor Microsoft Defender voor Office 365 is inbegrepen in Microsoft 365 Business Premium.
+- Microsoft Defender voor Office 365 abonnement 1 is inbegrepen in Microsoft 365 Business Premium.
 
 - Microsoft Defender voor Office 365 plan 1 en Defender for Office 365-abonnement 2 zijn elk beschikbaar als invoegtoepassing voor bepaalde abonnementen. Voor meer informatie gaat u verder met de [beschikbaarheid van een koppelings functie in Microsoft Defender for Office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
-- De functie [Veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met een Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in abonnementen voor Microsoft Defender voor Office 365).
+- De functie [veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met de beveiligings licenties voor microsoft 365 E5 of microsoft 365 E5 (niet opgenomen in Microsoft Defender voor Office 365-abonnementen).
 
 - Als uw huidige abonnement geen Microsoft Defender voor Office 365 bevat en u dit wilt, kunt u [contact opnemen met de verkoop als u een proefabonnement wilt starten](https://go.microsoft.com/fwlink/p/?LinkId=518644)en wilt weten hoe Microsoft voor Office 365 in uw organisatie kan werken.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Meer informatie over het gebruik van de Verkenner en de realtime-detectie in de beveiligings & nalevings centrum om bedreigingen effectiever en efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 021810a4d64dc3a8d9089a3b7174a1b5f536745a
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 4328bfc52497f911c57256f8366b3742523b17b0
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561397"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615562"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -67,7 +67,7 @@ De kolom Tags die in het raster van de e-mail worden weergegeven, bevat alle lab
 
 We hebben nu labels als een filter, zodat u precies achter de prioriteits accounts kunt, of specifieke scenario's voor gebruikers Tags, en zelfs resultaten met bepaalde Tags uitsluit als onderdeel van deze ervaring. U kunt deze functie combineren met de verschillende filters die we bieden en helpt u om uw onderzoek bereik te beperken
 
-[![Labels ](../../media/tags-filter-normal.png) filteren](../../media/tags-filter-normal.png#lightbox)
+[![Labels filteren](../../media/tags-filter-normal.png)](../../media/tags-filter-normal.png#lightbox)
 
 > [!div class="mx-imgBorder"]
 > ![Geen labels filteren](../../media/tags-filter-not.png)
@@ -149,7 +149,7 @@ Aanvullende acties bestaan uit de acties die zijn toegepast op de bezorging van 
 > - Er worden nieuwe velden en waarden weergegeven voor detectie technologieën en extra acties (met name voor ZAP-scenario's). Evalueer uw bestaande opgeslagen Query's en bijgehouden query's om ervoor te zorgen dat ze werken met de nieuwe waarden.
 
 > [!div class="mx-imgBorder"]
-> ![Additional_Actions](../../media/Additional_Actions.png)
+> ![Aanvullende acties in Verkenner](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>Systeem overschrijvingen
 
@@ -161,10 +161,10 @@ Systeem overschrijvingen zijn een methode voor het aanstellen van uitzonderingen
 - Toegestaan door het beleid voor de organisatie: Dit houdt in dat de beveiligings teams van de organisatie beleidsregels of e-mail stroom regels instellen voor het blokkeren van afzenders, domeinen, berichten talen of bron-IPs voor gebruikers in hun organisatie. Dit kan ook voor een reeks gebruikers of de hele organisatie.
 - Bestandsextensie wordt geblokkeerd door het organisatiebeleid: dit doet zich voor als een bestandsextensie wordt geblokkeerd door de beveiligings teams van een organisatie via de beleidsinstellingen voor anti-malware. Deze waarden worden nu weergegeven in e-mail gegevens om onderzoek te doen. Secops teams kunnen ook filteren op geblokkeerde bestandsextensies met behulp van de functies voor uitgebreid filteren.
 
-[![System_Overrides ](../../media/System_Overrides.png)](../../media/System_Overrides.png#lightbox)
+[![Systeem overschrijvingen in Explorer](../../media/System_Overrides.png)](../../media/System_Overrides.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> ![System_Overrides_Grid](../../media/System_Overrides_Grid.png)
+> ![Raster overschrijvingen in Explorer](../../media/System_Overrides_Grid.png)
 
 ### <a name="improvements-around-url-and-clicks-experience"></a>Verbeteringen rond URL'S en klikken
 
@@ -184,7 +184,7 @@ De reeks verbeteringen die zijn gericht op URL en URL klikken op gegevens zijn:
 
 Met betrouwbaarheid van phishing kunt u de mate van betrouwbaarheid identificeren, waarbij een e-mailbericht als phishing werd gecategoriseerd. De twee mogelijke waarden zijn hoog en normaal. In de eerste fase is dit filter alleen beschikbaar in de weergave phishing van de Threat Explorer.
 
-[![Phish_Confidence_Level ](../../media/Phish_Confidence_Level.png)](../../media/Phish_Confidence_Level.png#lightbox)
+[![Betrouwbaarheidsniveau voor phishing in Explorer](../../media/Phish_Confidence_Level.png)](../../media/Phish_Confidence_Level.png#lightbox)
 
 ### <a name="zap-url-signal"></a>ZAP-URL-signaal
 
@@ -354,14 +354,14 @@ U kunt in het rapport realtime detecties de volgende keer naar dezelfde locatie 
 
 U wilt malware van de malware in een e-mail weergeven, door Microsoft 365-technologie. Als u dit wilt doen, gebruikt u de [e-mail >](threat-explorer-views.md#email--malware) weergave voor malware van Explorer (of realtime gedetecteerde).
 
-1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
+1. Kies in het beveiligings & conformiteitscentrum ( <https://protection.office.com> ) de optie **Threat Management** \> **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
 
-2. Kies in het menu **weergave** de optie **e-mail**  >  **malware**.
+2. Kies in het menu **weergave** de optie **e-mail** \> **malware**.
 
    > [!div class="mx-imgBorder"]
    > ![Menu Beeld voor Verkenner](../../media/ExplorerViewEmailMalwareMenu.png)
 
-3. Klik op **afzender** en kies vervolgens **Basic**  >  **Detection Technology**.
+3. Klik op **afzender** en kies vervolgens **Basic** \> **Detection Technology**.
 
    Uw detectie technologieën zijn nu beschikbaar als filters voor het rapport.
 
@@ -381,14 +381,14 @@ Stel dat u phishingberichten via Url's wilt weergeven in een e-mail, waaronder e
 
 Als u de Url's van de phishing in berichten en op Url's in phishingberichten wilt bekijken, gebruikt u de [e-mail > phishing-](threat-explorer-views.md#email--phish) weergave van Explorer (of realtime-detecties).
 
-1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
+1. Kies in het beveiligings & conformiteitscentrum ( <https://protection.office.com> ) de optie **Threat Management** \> **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
 
-2. Kies in het menu **weergave** de optie **e-mail**  >  **phishing**.
+2. Kies in het menu **weergave** de optie **e-mail** \> **phishing**.
 
    > [!div class="mx-imgBorder"]
    > ![Het menu Beeld voor Explorer in de Phishingfilter-context](../../media/ExplorerViewEmailPhishMenu.png)
 
-3. Klik op **afzender** en kies vervolgens **url's**  >  **op Verdict**.
+3. Klik op **afzender** en kies vervolgens **url's** \> **op Verdict**.
 
 4. Selecteer een of meer opties, zoals **geblokkeerde** en **geblokkeerde overschreven**, en klik vervolgens op de knop **vernieuwen** die zich op dezelfde regel bevindt als de opties om dat filter toe te passen. (Vernieuw het browservenster niet.)
 
@@ -428,14 +428,14 @@ Binnen de E-mail-of URL-flyout, met de bovenste klikken en in onze filter ervari
 
 Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie als ongewenste E-mail hebben gerapporteerd, geen ongewenste E-mail of phishing via de [invoegtoepassing bericht rapporteren voor Outlook en de webversie van Outlook](enable-the-report-message-add-in.md). Als u dit wilt doen, gebruikt u de bewerkingsweergave voor [e-mail > ingediend](threat-explorer-views.md#email--submissions) van Explorer (of realtime-detecties).
 
-1. Kies in het beveiligings & conformiteitscentrum ( [https://protection.office.com](https://protection.office.com) ) de optie **Threat Management**  >  **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
+1. Kies in het beveiligings & conformiteitscentrum ( <https://protection.office.com> ) de optie **Threat Management** \> **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
 
-2. Kies in het menu **weergave** de optie **e-mail**  >  **inzendingen**.
+2. Kies in het menu **weergave** de optie **e-mail** \> **inzendingen**.
 
    > [!div class="mx-imgBorder"]
    > ![Menu weergeven voor Explorer voor e-mailberichten](../../media/explorer-view-menu-email-user-reported.png)
 
-3. Klik op **afzender** en kies type **basis**  >  **rapport**.
+3. Klik op **afzender** en kies type **basis** \> **rapport**.
 
 4. Selecteer een optie, zoals **phishing**, en klik vervolgens op de knop **vernieuwen** .
 
@@ -476,14 +476,14 @@ Als u Verkenner of realtime-detectie wilt weergeven en gebruiken, moet u de juis
 - Voor het beveiligings & nalevings centrum moet een van de volgende rollen zijn toegewezen:
 
   - Organisatiebeheer
-  - Beveiligingsbeheerder (deze kan worden toegewezen in het Azure Active Directory-beheercentrum ( [https://aad.portal.azure.com](https://aad.portal.azure.com) ))
+  - Beveiligingsbeheerder (deze kan worden toegewezen in het Azure Active Directory-beheercentrum <https://aad.portal.azure.com>
   - Beveiligings lezer
 
-- Voor Exchange Online moet u beschikken over een van de volgende rollen die zijn toegewezen in het Exchange-Beheercentrum ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) of met PowerShell-cmdlets (Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)):
+- Voor Exchange Online moet u beschikken over een van de volgende rollen in het Exchange Admin Center ( <https://admin.protection.outlook.com/ecp/> ) of [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell):
 
   - Organisatiebeheer
-  - Organisatiebeheer alleen weergeven
-  - Rollen View-Only geadresseerden
+  - View-Only Organisatiebeheer
+  - Geadresseerden View-Only
   - Nalevings beheer
 
 Zie de volgende bronnen voor meer informatie over rollen en machtigingen:

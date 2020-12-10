@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Meer informatie over hoe gebruiksanalyses verbinding maakt met een API en de maandelijkse trend voor gebruik van diverse Microsoft 365-Services biedt.  '
-ms.openlocfilehash: 9d13d979e64a68aaffb3582ad6b09ab901843cd4
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+ms.openlocfilehash: d7b3e7e9467a57f913f069c48249e82b5958aabb
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841373"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611446"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 Gegevensmodel gebruiksanalyse
 
@@ -153,7 +153,7 @@ In deze tabel vindt u informatie over de acceptatie van maand-op-maand voor elk 
 |Product  <br/> |Naam van het product waarvoor de gebruiksinformatie wordt samengevat. De waarde Microsoft 365 in de kolom product die activiteiten bevat van een van de producten  <br/> |
 |Timeframe  <br/> |Maandwaarde. Er is een rij per product per maand voor de laatste 12 maanden inclusief de huidige gedeeltelijke maand.  <br/> |
 |EnabledUsers  <br/> |Het aantal gebruikers dat is ingeschakeld voor het gebruik van het product voor de time-frame waarde, als een gebruiker is ingeschakeld voor een deel van de maand, worden ze nog steeds geteld.  <br/> |
-|ActiveUsers  <br/> |Het aantal gebruikers dat een opzettelijke activiteit heeft uitgevoerd in het product voor de waarde time frame.  <br/> Gebruikers worden geteld als actief voor een product in een bepaalde maand als ze een van de hoofdactiviteiten hebben uitgevoerd in het product. De hoofdactiviteiten zijn te vinden in de tabel **Tenant Product Activity** .  <br/> |
+|ActiveUsers  <br/> |Het aantal gebruikers dat een opzettelijke activiteit heeft uitgevoerd in het product voor de waarde time frame.  <br/> Gebruikers worden geteld als actief voor een product in een bepaalde maand als ze een van de hoofdactiviteiten hebben uitgevoerd in het product. De hoofdactiviteiten zijn te vinden in de tabel **Tenant Product Activity**.  <br/> |
 |CumulativeActiveUsers  <br/> |Het aantal gebruikers dat is ingeschakeld voor het gebruik van een product, en dat het product ten minste eenmaal heeft gebruikt in de bij Timeframe vermelde maand sinds de start van de gegevensverzameling in het nieuwe gebruikssysteem.  <br/> |
 |MoMReturningUsers  <br/> |Het aantal gebruikers dat actief was in de bij Timeframe vermelde waarde en in de maand daarvoor.  <br/> |
 |FirstTimeUsers  <br/> |Het aantal gebruikers dat voor het eerst actief werd in de bij Timeframe vermelde waarde sinds de gegevensverzameling in het nieuwe gebruikssysteem.  <br/> Gebruikers worden geteld als nieuwe gebruikers in een bepaalde maand, als hun activiteit voor het eerst wordt gedetecteerd sinds de start van de gegevensverzameling met dit nieuwe rapportagesysteem. Als de waarde van de gebruiker een eerste keer wordt geteld, wordt deze nooit opnieuw geteld als een gebruiker die een eerste keer wordt gebruikt  <br/> |
@@ -215,8 +215,8 @@ Deze tabel bevat een overzicht van maand-na-maand-gegevens over het gebruik of d
 |DocumentCount  <br/> |Het totaalaantal documenten op de site aan het einde van de periode.  <br/> |
 |Diplansed  <br/> |De totale gebruikte opslagruimte voor alle sites aan het einde van de periode.  <br/> |
 |ActivityType  <br/> |Het aantal sites dat de verschillende soorten bestandsactiviteit (any/active files/ files shared EXT/INT/files synched) heeft geregistreerd.  <br/> Vertegenwoordigt een van de bestandsactiviteit die is uitgevoerd.  <br/> |
-|SitesWithOwnerActivities  <br/> |Het aantal actieve sites waarop de site-eigenaar een bepaalde activiteit met bestanden heeft uitgevoerd op een eigen site.  <br/> |
-|SitesWithNonOwnerActivities  <br/> |Het totaalaantal actieve sites waarop gebruikers anders dan de site-eigenaar een bepaalde activiteit met bestanden hebben uitgevoerd in een maand.  <br/> |
+|SitesWithOwnerActivities  <br/> |Het aantal actieve sites waarop de site-eigenaar een bepaalde activiteit met bestanden heeft uitgevoerd op een eigen site. U kunt de eigenaar van de site achterhalen via de PowerShell **-opdracht Get-sposite**. Dit is de persoon die verantwoordelijk is voor de site.   <br/> |
+|SitesWithNonOwnerActivities  <br/> |Het totaalaantal actieve sites waarop gebruikers anders dan de site-eigenaar een bepaalde activiteit met bestanden hebben uitgevoerd in een maand. U kunt de eigenaar van de site achterhalen via de PowerShell **-opdracht Get-sposite**. Dit is de persoon die verantwoordelijk is voor de site. <br/> |
 |ActivityTotalSites  <br/> |Het aantal sites waarop een activiteit is uitgevoerd in de periode. Als er aan het begin van de periode activiteit heeft plaatsgevonden op een site die later in de periode is verwijderd, wordt die activiteit toch meegeteld voor het totaal voor die periode.  <br/> |
 |Timeframe  <br/> |Deze kolom bevat de datumwaarde. Wordt gebruikt als veel-op-een-relatie met tabel Calendar.  <br/> |
 |Content date  <br/> |Als het veld Timeframe de huidige maand bevat, geeft deze waarde de laatste datum in de huidige maand aan waarvoor gegevens beschikbaar zijn.  <br/> Als het veld Timeframe de vorige maand bevat, geeft deze waarde de laatste datum van die maand aan.  <br/> |

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over de configuratie van URL-items in de lijst Tenant toestaan/blokkeren in het beveiligings & nalevings centrum.
-ms.openlocfilehash: 1aae54ffd6026a7fc131017a10f9676d96be9b69
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 0fdfa23ba22b240032e7a6888948de180aa0f6ae
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572635"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614962"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>URL's beheren in de lijst met toegestane/geblokkeerde tenants
 
@@ -50,9 +50,9 @@ In dit onderwerp wordt beschreven hoe u items in de lijst met toegestane/geblokk
 
 - Standaard verloopt de invoer van vermeldingen in de lijst Tenant toestaan/blokkeren na 30 dagen. U kunt een datum opgeven of instellen dat deze nooit verloopt.
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
   - Als u waarden wilt toevoegen aan of verwijderen uit de lijst Tenant toestaan/blokkeren, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
   - Voor alleen-lezen toegang tot de lijst Tenant toegestaan/blokkeren moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
@@ -60,8 +60,8 @@ In dit onderwerp wordt beschreven hoe u items in de lijst met toegestane/geblokk
 
   **Opmerkingen**:
 
-  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
-  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het compliance-beveiligings & voor het maken van URL-vermeldingen in de lijst Tenant toestaan/blokkeren
 
@@ -296,7 +296,7 @@ Geldige URL-vermeldingen en de bijbehorende resultaten worden beschreven in de v
   - test.com/q=contoso.com
   - www.contoso.com
   - www. contoso. com/q = a@contoso. com
-  
+
 - **Blok treffer**:
 
   - contoso.com
@@ -324,7 +324,7 @@ Geldige URL-vermeldingen en de bijbehorende resultaten worden beschreven in de v
   - contoso.com
   - test.com/contoso.com
   - www.contoso.com/abc
-  
+
 #### <a name="scenario-right-wildcard-at-top-of-path"></a>Scenario: rechts jokerteken boven aan het pad
 
 **Invoer**: `contoso.com/a/*`
@@ -341,7 +341,7 @@ Geldige URL-vermeldingen en de bijbehorende resultaten worden beschreven in de v
   - contoso.com/a
   - www.contoso.com
   - www. contoso. com/q = a@contoso. com
-  
+
 #### <a name="scenario-left-tilde"></a>Scenario: de tilde links
 
 **Invoer**: `~contoso.com`

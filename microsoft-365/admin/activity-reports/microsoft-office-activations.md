@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: In dit artikel leest u hoe u een Office-activerings rapport krijgt om te weten welke gebruikers hun Office-abonnement hebben geactiveerd, en gebruikers identificeren die mogelijk extra hulp nodig hebben.
-ms.openlocfilehash: 228d8a6437cecfad8e7600a354ca31ddd6b0e6c4
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 1af022053735fb9b1b8fe382c44bbe9cc11058a5
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47949142"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611410"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Microsoft 365-rapporten in het Beheercentrum-Microsoft Office-activeringen
 

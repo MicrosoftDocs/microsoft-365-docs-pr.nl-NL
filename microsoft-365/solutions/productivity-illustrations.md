@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 81e729d9b0ff145d1d10a385cdd3f0856287dd9f
-ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
+ms.openlocfilehash: 1a82fc414bfed2f7a054ae533700c52a8270ed6d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588583"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615286"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
@@ -43,12 +43,12 @@ Wat IT-architecten moeten weten over Microsoft 365-groepen
 
 Microsoft 365 omvat een uitgebreide set informatiebescherming en mogelijkheden voor naleving. Naast de productiviteitshulpmiddelen van Microsoft zijn de volgende mogelijkheden bedoeld om organisaties te helpen in realtime samen te werken en te voldoen aan de nalevings kaders van strikte regelgevende naleving. 
 
-Deze reeks illustraties gebruikt een van de meest gereguleerde industrieën, financiële diensten om te laten zien hoe deze mogelijkheden voor de gemeenschappelijke regelgeving van toepassing zijn. U kunt deze afbeeldingen aan uw eigen gebruik aanpassen. 
+Deze reeks illustraties gebruikt een van de meest gereguleerde industrieën, financiële diensten om te laten zien hoe deze mogelijkheden voor de gemeenschappelijke regelgeving van toepassing zijn. U kunt deze illustraties aan uw eigen wensen aanpassen. 
 
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Model poster: Microsoft 365 Information Protection en compliance-mogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> Engels: [downloaden als een PDF-](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) bestand \| [downloaden als een Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx)   <br/> Japans: [downloaden als een PDF-](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf) bestand \| [downloaden als een Visio](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx)   <br/> Update van november 2020|Waaronder <ul><li>  Microsoft-informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en labels voor bewaarbeleid </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
+|[![Modelposter: Microsoft 365-gegevensbescherming en nalevingsmogelijkheden](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> Engels: [Downloaden als PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)\| [Downloaden als Visio  ](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Japans: [Downloaden als PDF](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)\| [Downloaden als Visio  ](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> Laatst bijgewerkt: november 2020|Omvat: <ul><li>  Microsoft informatiebescherming en preventie van gegevensverlies</li><li>Bewaarbeleid en retentielabels </li><li>Informatiebelemmeringen</li><li>Communicatiecompliance</li><li>Insider-risico</li><li>Gegevens ingestie van derden</li>|
 
 
 ### <a name="security-and-information-protection-for-multi-region-organizations"></a>Beveiliging en informatiebescherming voor organisaties met meerdere regio's
@@ -84,7 +84,7 @@ Geavanceerde eDiscovery-werkstroom en gegevensstroom, waaronder binnen Microsoft
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Model poster: geavanceerde eDiscovery-architectuur in Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Als een afbeelding](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| weergeven [Downloaden als een PDF-bestand](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Downloaden als een Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Update van oktober 2020|Waaronder <ul><li>  End-to-end werkstroom in één omgeving</li><li>End-to-end werkstroom in een multi-geografische omgeving van Microsoft 365 </li><li>End-to-end gegevensstroom die ondersteuning biedt voor de EDRM-werkstroom</li> |
+|[![Model poster: geavanceerde eDiscovery-architectuur in Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Als een afbeelding](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| weergeven [Downloaden als een PDF-bestand](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Downloaden als een Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Update van oktober 2020|Omvat: <ul><li>  End-to-end werkstroom in één omgeving</li><li>End-to-end werkstroom in een multi-geografische omgeving van Microsoft 365 </li><li>End-to-end gegevensstroom die ondersteuning biedt voor de EDRM-werkstroom</li> |
   
 <!--
 
@@ -146,7 +146,7 @@ Zie voor meer informatie het artikel voor deze poster: [externe medewerkers stim
 Met Microsoft 365 kunt u een privé team configureren in Microsoft teams en de beveiligingsinstellingen voor SharePoint-sites en een uniek vertrouwelijkheids label gebruiken om bestanden te versleutelen, zodat alleen teamleden ze kunnen decoderen.
 
 [![Poster Microsoft Teams met beveiligingsisolatie](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf) <br/>
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) <br> Update van augustus 2020
+[PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)  |  [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) <br> Update van augustus 2020
 
 Zie voor meer informatie het artikel voor deze poster: [een team configureren met behulp van beveiligings isolatie](secure-teams-security-isolation.md).
 

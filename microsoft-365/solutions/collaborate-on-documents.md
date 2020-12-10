@@ -2,7 +2,7 @@
 title: Samenwerken met gasten aan een document
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: In dit artikel leert u hoe u kunt samenwerken met gasten aan een document in SharePoint en OneDrive.
-ms.openlocfilehash: e3492732756aecb176eb21f0bdfd0d394013975e
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: bb97beaacf6a433e4fc5c38a897327d1e359ffb1
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030003"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613512"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Samenwerken met gasten aan een document
 
@@ -73,7 +73,7 @@ Voor SharePoint kiest u de meest strikte instelling die moet worden gebruikt doo
 Instellingen voordelen van SharePoint op organisatieniveau instellen
 
 1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra** op **SharePoint**.
-2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid** , op **delen**.
+2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid**, op **delen**.
 3. Zorg ervoor dat extern delen voor SharePoint of OneDrive is ingesteld op **iedereen** of **nieuwe en bestaande gasten**. (Houd er rekening mee dat de instelling OneDrive niet hoger is dan de instelling van SharePoint).
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 

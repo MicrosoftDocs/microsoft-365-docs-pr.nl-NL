@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen Veelgestelde vragen en antwoorden over anti-spoofing beveiliging weergeven in Exchange Online Protection (EOP).
-ms.openlocfilehash: a5b0484e41e3df7a7b6ad16e69a4f7062b19b554
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: f567c7bc0c6a6efed7621cec86c5db4e616290b7
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844390"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616729"
 ---
 # <a name="anti-spoofing-protection-faq"></a>Veelgestelde vragen over beveiliging tegen adresvervalsing
 
@@ -71,9 +71,9 @@ Helaas, Nee, nee. Hackers worden aangepast om andere technieken te gebruiken (bi
 
 Bijna alle grote e-mailservices voeren traditionele SPF-, DKIM-en DMARC-controles uit. Voor sommige services zijn er nog meer strikte controles, maar enkele stappen voor het blokkeren van niet-geverifieerde e-mailberichten in EOP en behandelen ze als vervalste berichten. De branche maakt echter meer kennis met betrekking tot problemen met niet-geverifieerde e-mail, met name vanwege het probleem van phishing.
 
-## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Moet ik de beleidsinstelling voor geavanceerde spam van de instelling SPF-record ( _MarkAsSpamSpfRecordHardFail_ ) nog steeds inschakelen als ik anti-spoofing inschakel?
+## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Moet ik de beleidsinstelling voor geavanceerde spam van de instelling SPF-record (_MarkAsSpamSpfRecordHardFail_) nog steeds inschakelen als ik anti-spoofing inschakel?
 
-Nee. Deze ASF-instelling is niet langer vereist. De bescherming tegen spoofing beoordeelt standaard beide SPF-storing en een veel grotere set criteria. Als u anti-adresvervalsing hebt ingeschakeld en het **SPF-record: hard fail** ( _MarkAsSpamSpfRecordHardFail_ ) is ingeschakeld, krijgt u waarschijnlijk meer fout-positieven.
+Nee. Deze ASF-instelling is niet langer vereist. De bescherming tegen spoofing beoordeelt standaard beide SPF-storing en een veel grotere set criteria. Als u anti-adresvervalsing hebt ingeschakeld en het **SPF-record: hard fail** (_MarkAsSpamSpfRecordHardFail_) is ingeschakeld, krijgt u waarschijnlijk meer fout-positieven.
 
 We raden u aan deze functie uit te schakelen omdat dit bijna geen extra voordeel uitmaakt voor het detecteren van spam of phishing en daarom vooral foutberichten verloopt. Zie voor meer informatie [Geavanceerde instellingen voor spam filter (ASF) in EOP](advanced-spam-filtering-asf-options.md).
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Geniet van de nieuwste isolatie op basis van hardware. Voorkomen dat huidige en opkomende aanvallen, zoals misbruik of kwaadaardige koppelingen, geen productiviteit voor werknemers en beveiliging van de werknemers kunnen storen.
-ms.openlocfilehash: 075006bb8f000dbbda2fd564e0c7cf83c1a15129
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: a1d0fb857a80d5500036f6d9a95f930ec4df38a0
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561433"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616786"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard voor Office (openbare preview) voor beheerders
 
@@ -76,9 +76,7 @@ Voor gedetailleerde systeemvereisten raadpleegt u [systeemvereisten voor Microso
 
    U kunt ook het bijbehorende Cryptografiebeleid instellen:
 
-   OMA-URI: **./device/Vendor/MSFT/WindowsDefenderApplicationGuard/Settings/AllowWindowsDefenderApplicationGuard**<br/>
-   Gegevenstype: **geheel getal**<br/>
-   Waarde: **2**
+   > OMA-URI: **./device/Vendor/MSFT/WindowsDefenderApplicationGuard/Settings/AllowWindowsDefenderApplicationGuard** <br> Gegevenstype: **geheel getal** <br> Waarde: **2**
 
 4. Start het systeem opnieuw op.
 

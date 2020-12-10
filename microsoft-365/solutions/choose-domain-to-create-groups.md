@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 description: Leer het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen door e-mailadres beleidsregels te configureren met PowerShell.
-ms.openlocfilehash: bb6137a3dfce17bc9c94648e5ea9e12ec2776195
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 1e56268c3994b1ac822869d154be826326039bfc
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377435"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49612938"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Het domein kiezen dat u wilt gebruiken voor het maken van Microsoft 365-groepen
 
@@ -119,5 +119,9 @@ Er zijn nog een paar dingen die u moet weten:
 - Er kunnen maximaal 100 e-mailadresbeleidsregel voor een organisatie worden geconfigureerd.
     
 ## <a name="related-articles"></a>Verwante artikelen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Een Microsoft 365-groep maken in het Beheercentrum](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)

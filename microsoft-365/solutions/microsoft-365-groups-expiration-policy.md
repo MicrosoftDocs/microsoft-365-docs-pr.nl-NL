@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Meer informatie over verloopbeleid voor Microsoft 365-groepen.
-ms.openlocfilehash: 4b283bcc9f4e54462a71b9aee70d6312b9f127d6
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: d55cc7fff939cb07ae2eba92de411e8f0d088885
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350710"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613652"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Verloopbeleid voor groepen Microsoft 365-groep
 
@@ -81,7 +81,11 @@ Als geen van de eigenaren of beheerders de groep verlengt voordat deze verloopt,
 
 Als u een groep hebt die u niet meer wilt gebruiken, maar u wilt de inhoud behouden, raadpleegt u [Archief groepen, teams en Yammer](end-life-cycle-groups-teams-sites-yammer.md) voor informatie over het exporteren van gegevens uit de verschillende groepen-Services.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-topics"></a>Verwante onderwerpen
+
+[Stapsgewijze planning voor samenwerking](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[Uw plan voor samenwerking maken](collaboration-governance-first.md)
 
 [Overzicht van bewaarbeleid](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)
 

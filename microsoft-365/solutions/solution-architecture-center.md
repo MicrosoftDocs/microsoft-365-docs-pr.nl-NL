@@ -12,12 +12,13 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 61947c940a5079574954344ab72d86594ac3ba48
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ROBOTS: NOINDEX
+ms.openlocfilehash: 2da8d423f2fcebdf7a2663dee8cadfd92f82803a
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906201"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613640"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossings- en architectuurcentrum
 
@@ -36,5 +37,5 @@ Deze oplossing en architectuur centrum bieden de technische richtlijnen die u no
 
 ![](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **[Richtlijnen voor de branchespecifieke richtlijnen met betrekking](industry-specific-guidance-overview.md)** tot de branchespecifieke richtlijnen voor uw bedrijfstak, financiering, gezondheidszorg en onderwijs.
 
-![Ontwerp beginselen van indeling/navigatie symbool ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[Design principles](design-principles.md)** informatie over de belangrijkste beginselen die u nodig hebt om te begrijpen hoe u netwerk, identiteit, beveiliging en multicore-architecturen begrijpt.
+![Ontwerp beginselen van indeling/navigatie symbool ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[](design-principles.md)** informatie over de belangrijkste beginselen die u nodig hebt om te begrijpen hoe u netwerk, identiteit, beveiliging en multicore-architecturen begrijpt.
 

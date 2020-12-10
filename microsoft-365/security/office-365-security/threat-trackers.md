@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Lees meer over bedreigings trajecten, waaronder nieuwe opspoorers, om uw organisatie op de hoogte te houden van beveiligingskwesties.
-ms.openlocfilehash: e173bb2b4ee6e7c54c7414c7f102d8c4d1d06641
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 551f5704337ef8989fd1568854822bc1d9d4c14b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568454"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615454"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Bedreigings tracks-nieuw en opmerkelijk
 
@@ -46,7 +46,7 @@ Voor de meeste tracerings pagina's worden trend nummers weergegeven die regelmat
 
 Voor de meeste fantastische functies die u ontvangt met [Microsoft Defender voor Office 365, abonnement 2](office-365-ti.md). Bedreigings tracks bestaan uit [Noteworth trackers](#noteworthy-trackers), [trends](#trending-trackers), [bijgehouden query's](#tracked-queries)en [opgeslagen query's](#saved-queries).
 
-Als u uw bedreigings overzichten voor uw organisatie wilt weergeven en gebruiken, gaat u naar het beveiligings & nalevings centrum ( [https://protection.office.com](https://protection.office.com) ) en kiest u risico **beheer voor bedreigings beheer** \> **Threat tracker**.
+Als u uw bedreigings overzichten voor uw organisatie wilt weergeven en gebruiken, gaat u naar het beveiligings & nalevings centrum ( <https://protection.office.com> ) en kiest u risico **beheer voor bedreigings beheer** \> .
 
 > [!NOTE]
 > Als u bedreigings tracks wilt gebruiken, moet u een globale beheerder, beveiligingsbeheerder of beveiligings lezer zijn. Zie [machtigingen in het beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
@@ -103,6 +103,6 @@ Met het nieuwe verdachte bedreiging-filter worden items gemarkeerd die onlangs z
 
 - Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een hoofdbeheerder zijn of de rol beveiligingsbeheerder of zoeken en wissen zijn toegewezen in het beveiligings & nalevings centrum. Zie [machtigingen in het beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
 
-- Kijk of u de nieuwe trackers wilt weergeven in de Microsoft 365-omgeving. Wanneer deze beschikbaar is, vindt u [hier](https://protection.office.com/)uw nummer. Ga naar **Threat management** \> **bedreigings** beheer.
+- Kijk of u de nieuwe trackers wilt weergeven in de Microsoft 365-omgeving. Wanneer deze beschikbaar is, vindt u [hier](https://protection.office.com/)uw nummer. Ga naar  \> **bedreigings** beheer.
 
 - Als u dit nog niet hebt gedaan, kunt u meer lezen over en de configuratie van [Microsoft Defender voor Office 365](office-365-atp.md) voor uw organisatie, zoals [veilige koppelingen](atp-safe-links.md) en [veilige bijlagen](atp-safe-attachments.md).
