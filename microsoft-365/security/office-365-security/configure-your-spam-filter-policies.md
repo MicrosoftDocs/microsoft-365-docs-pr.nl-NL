@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 2601e4b7b360ce45fbece3e66b5aa09cd512f68c
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 81c5e74ec45cc633b3a4ba46c7865d0a643af2cd
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572811"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616690"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -107,7 +107,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
      ****
 
-     |Actie|Spam|Hoog<br/>betrouwbaarheid<br/>spam|Phishing<br/>e-mail|Hoog<br/>betrouwbaarheid<br/>phishing<br/>e-mail|Bulk<br/>e-mail|
+     |Actie|Spam|Hoog<br>betrouwbaarheid<br>spam|Phishing<br>e-mail|Hoog<br>betrouwbaarheid<br>phishing<br>e-mail|Bulk<br>e-mail|
      |---|:---:|:---:|:---:|:---:|:---:|
      |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
      |**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak. <p> U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in.  <p> Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|

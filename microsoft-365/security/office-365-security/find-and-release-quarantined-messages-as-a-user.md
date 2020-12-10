@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
-ms.openlocfilehash: 48c727c442ee6f861499f1a72c687f7b3457c594
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 038d3326df2572f792f1cfc7efa6ad6d03e0a602
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130849"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611362"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
 
@@ -87,7 +87,7 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
      - **Beleid tegen phishing**
      - **Beleid voor gehoste inhoudsfilters** (antispambeleid)
 
-   Als je het filter wilt wissen, druk je op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
+   Als u het filter wilt wissen, drukt u op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
 
 4. Gebruik **Resultaten sorteren op** (standaard de knop **Bericht-ID**) en een bijbehorende waarde om naar specifieke berichten te zoeken. Jokertekens worden niet ondersteund. U kunt zoeken op een van de volgende waarden:
 
@@ -148,8 +148,6 @@ Nadat u een bericht selecteert, krijgt u in het deelvenster **Details** opties w
 - **Preview van bericht**: kies in het deelvenster dat wordt weergegeven een van de volgende opties:
   - **Bronweergave**: toont de HTML-versie van het bericht met uitgeschakelde koppelingen.
   - **Tekstweergave**: toont het bericht in gewone tekst.
-
-- **Bericht downloaden**: selecteer in het deelvenster dat wordt weergegeven **Ik begrijp de risico’s van het downloaden van dit bericht** om een lokale kopie van het bericht op te slaan in .eml-indeling.
 
 - **Verwijderen uit quarantaine**: nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, wordt het bericht onmiddellijk verwijderd.
 

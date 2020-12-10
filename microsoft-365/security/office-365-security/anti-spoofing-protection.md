@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
-ms.openlocfilehash: 57d6dc8d9c1935578db15abdbb3e17e72bb64257
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: cae99cce070e6dc362dc678c153074fee53ca6a6
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130827"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616714"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -84,13 +84,13 @@ Microsoft maakt onderscheid tussen twee verschillende typen adresvervalsingberic
 - **Intra-org-spoofing**: ook bekend als _Self-to-self_-spoofing. Bijvoorbeeld:
 
   - De afzender en ontvanger bevinden zich in hetzelfde domein:
-    > Van: chris@contoso.com <br/> Aan: michelle@contoso.com
+    > Van: chris@contoso.com <br> Aan: michelle@contoso.com
 
   - De afzender en de ontvanger bevinden zich in de subdomeinen van hetzelfde domein:
-    > Van: laura@marketing.fabrikam.com <br/> Aan: julia@engineering.fabrikam.com
+    > Van: laura@marketing.fabrikam.com <br> Aan: julia@engineering.fabrikam.com
 
   - De afzender en de ontvanger bevinden zich in verschillende domeinen van dezelfde organisatie (dat wil zeggen: beide domeinen zijn geconfigureerd als [geaccepteerde domeinen](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) in dezelfde organisatie):
-    > Van: sender @ microsoft.com <br/> Aan: geadresseerde @ bing.com
+    > Van: sender @ microsoft.com <br> Aan: geadresseerde @ bing.com
 
     In de e-mailadressen worden spaties gebruikt om kopiëren door spambots te voorkomen.
 
@@ -105,7 +105,7 @@ Microsoft maakt onderscheid tussen twee verschillende typen adresvervalsingberic
   - SFTY geeft het beveiligingsniveau van het bericht. 9 geeft phishing aan, .11 geeft aan dat er sprake is van intra-org-spoofing.
 
 - **spoofing tussen domeinen**: de afzender- en ontvangerdomeinen zijn verschillend en hebben geen relatie met elkaar (ook wel externe domeinen genoemd). Bijvoorbeeld:
-    > Van: chris@contoso.com <br/> Aan: michelle@tailspintoys.com
+    > Van: chris@contoso.com <br> Aan: michelle@tailspintoys.com
 
   Berichten waarvoor de [samengestelde verificatie](email-validation-and-authentication.md#composite-authentication) is mislukt vanwege adresvervalsing tussen domeinen bevatten de volgende waarden in de koppen:
 
@@ -133,11 +133,11 @@ Mailinglijsten (ook wel discussielijsten genoemd) staan erom bekend dat ze probl
 
 Stel dat Gabriela Laureano (glaureano@contoso.com) geïnteresseerd is in vogels spotten en lid wordt van de mailinglijst vogelspotters@fabrikam.com. Ze stuurt het volgende bericht naar de lijst:
 
-> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> **Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg?
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br> **Betreft:** Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg?
 
 De mailinglijstserver ontvangt het bericht, wijzigt de inhoud ervan en speelt het opnieuw af voor de leden van de lijst. Het opnieuw afgespeelde bericht heeft hetzelfde Van-adres (glaureano@contoso.com), maar er wordt een label aan de onderwerpregel toegevoegd en er wordt een voettekst onder aan het bericht toegevoegd. Dit type wijziging komt veel voor in mailinglijsten en kan leiden tot fout-positieven voor spoofing.
 
-> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br/> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br/> **Betreft:** [VOGELSPOTTERS] Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg? <p> Dit bericht is verzonden naar de Vogelspotters-discussielijst. U kunt zich op elk moment weer afmelden.
+> **Van:** 'Gabriela Laureano' \<glaureano@contoso.com\> <br> **Aan:** Vogelaars discussielijst \<birdwatchers@fabrikam.com\> <br> **Betreft:** [VOGELSPOTTERS] Geweldig treffen van blauwe gaaien op de top van de Wageningse Berg deze week <p> Wil iedereen de bezichtiging zien deze week vanaf de Wageningse Berg? <p> Dit bericht is verzonden naar de Vogelspotters-discussielijst. U kunt zich op elk moment weer afmelden.
 
 Voer de volgende stappen uit, afhankelijk van of u de mailinglijst beheert, om ervoor te zorgen dat mailinglijstberichten anti-spoofingcontroles doorstaan:
 

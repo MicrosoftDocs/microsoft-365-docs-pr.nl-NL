@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Meer informatie over hoe u Teams configureert voor een betere beveiliging bij het delen van bestanden met behulp van drie niveaus bescherming, waarbij beveiliging en eenvoudige samenwerking met elkaar in evenwicht zijn.
-ms.openlocfilehash: 5a3449294c6e64355961d10d84750c53715366ef
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: cb49c35cc1c485d45656b1716d385cf626322ce8
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906881"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602005"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 
@@ -49,7 +49,7 @@ Voor meer informatie over deze lagen en aanbevolen functionaliteiten voor elke a
 
 De volgende tabel bevat een overzicht van de configuraties voor elke laag. Gebruik deze configuraties als uitgangspunt en pas de configuraties aan de behoeften van uw organisatie aan. Het is mogelijk dat u niet elke laag nodig hebt.
 
-||Basislijn (openbaar)|Basislijn (privé)|Gevoelig|Zeer gevoelig|
+|-|Basislijn (openbaar)|Basislijn (privé)|Gevoelig|Zeer gevoelig|
 |:-----|:-----|:-----|:-----|:-----|
 |Privé of openbaar team|Openbaar|Privé|Privé|Privé|
 |Wie heeft er toegang?|Iedereen in de organisatie, waaronder B2B-gebruikers.|Alleen leden van het team. Anderen kunnen toegang aanvragen tot de bijbehorende site.|Alleen leden van het team.|Alleen leden van het team.|
