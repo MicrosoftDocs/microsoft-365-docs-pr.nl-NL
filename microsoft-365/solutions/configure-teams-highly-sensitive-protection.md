@@ -3,7 +3,7 @@ title: Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het implementeren van teams met bescherming voor zeer vertrouwelijke gegevens.
-ms.openlocfilehash: 92defdf5d06788f4a4cbefeb5e81308611966bec
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 77ec469776bf263bbd3d667a28f1f9b1bc3284b5
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527812"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49612962"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 
@@ -61,14 +61,14 @@ Wanneer u gevoeligheidslabels voor Teams hebt ingeschakeld, is de volgende stap 
 
 Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
-2. Klik onder **Oplossingen**op **Informatiebeveiliging**.
+2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **Een label maken**.
 4. Geef een naam op voor het label. We suggereren **Zeer gevoelig**, maar u kunt een andere naam kiezen als die al in gebruik is.
 5. Voeg een knopinfo toe en klik vervolgens op **Volgende**.
 6. Kies op de pagina **Versleuteling** in de vervolgkeuzelijst **Versleuteling** de optie **Toepassen**.
 7. Klik onder **Machtigingen toewijzen aan specifieke gebruikers en groepen** op **Machtigingen toewijzen**.
 8. Klik op **Alle gebruikers en groepen in uw organisatie toevoegen**.
-9. Als gastgebruikers machtigingen voor het ontsleutelen van bestanden moeten hebben, klikt u op **Gebruikers of groepen toevoegen** om ze toe te voegen.
+9. Als gastgebruikers machtigingen voor het ontsleutelen van bestanden moeten hebben, klikt u op **Gebruikers of groepen toevoegen** en voegt u ze toe.
 10.  Klik op **Opslaan** en klik vervolgens op **Volgende**.
 11. Schakel op de pagina **Inhoudsmarkering** de optie inhoudsmarkering in als u automatisch een koptekst, voettekst of watermerk wilt toevoegen aan bestanden die met dit label worden geclassificeerd.
 12. Stel op de pagina **Site- en groepsinstellingen** de **Site- en groepsinstellingen** in op **Aan**.
@@ -99,7 +99,7 @@ Een team maken voor zeer vertrouwelijke informatie
 In deze fase wordt u aangeraden het maken van privé-kanalen tot teameigenaren te beperken.
 
 Het maken van een privé-kanaal beperken
-1. In het team klikt u op **Meer opties**en klikt u vervolgens op **Team beheren**.
+1. In het team klikt u op **Meer opties** en klikt u vervolgens op **Team beheren**.
 2. Vouw op het tabblad **Instellingen** de optie **Machtigingen voor leden** uit.
 3. Schakel het selectievakje **Leden toestaan privékanalen te maken** uit.
 
