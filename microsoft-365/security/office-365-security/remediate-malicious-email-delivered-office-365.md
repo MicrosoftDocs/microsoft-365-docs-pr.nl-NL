@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Bedreiging voor herbemiddeling
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: 742f19c4051b2cab3311562f688da51975bd3c48
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 67b27102ff9319e334b5ff1e006fe49f14d3f1ed
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615886"
+ms.locfileid: "49620573"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Kwaadwillende e-mailberichten herstellen die worden bezorgd in Office 365
 
@@ -33,7 +33,7 @@ Herstel houdt in dat u een voorgeschreven actie neemt tegen een bedreiging. Kwaa
 
 ## <a name="what-you-need-to-know-before-you-begin"></a>Wat u moet weten voordat u begint
 
-Beheerders kunnen de juiste actie ondernemen voor e-mailberichten, maar als ze zijn goedgekeurd, moeten ze de rol zoeken en de functie voor het *opschonen* van de beheerder toewijzen via **beveiliging & machtigingen voor compliance Center** \> . Zonder dat de rol ' zoeken en wissen ' aan een van de Role groepen is toegevoegd, kunnen ze de actie niet uitvoeren.
+Beheerders kunnen de juiste actie ondernemen voor e-mailberichten, maar als ze zijn goedgekeurd, moeten ze de rol zoeken en de functie voor het *opschonen* van de beheerder toewijzen via **beveiliging & machtigingen voor compliance Center** \> . Zonder dat de rol ' zoeken en wissen ' aan een van de rol-groepen is toegevoegd, kunnen ze de actie niet uitvoeren.
 
 ## <a name="manual-and-automated-remediation"></a>Handmatige en geautomatiseerde herstel
 

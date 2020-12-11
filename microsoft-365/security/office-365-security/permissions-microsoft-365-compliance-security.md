@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Via het Microsoft 365-beveiligingscentrum of het Microsoft 365-compliancecentrum kunt u machtigingen centraal beheren voor alle taken die zijn gerelateerd aan beveiliging of naleving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5322a972a93ee603ef31754288e9ab9b7eb401a9
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: 266d8184db5ebc79609c0a5f27c7511087ea42d0
+ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604282"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49624718"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Machtigingen in het Microsoft 365-compliancecentrum en het Microsoft 365-beveiligingscentrum
 
@@ -85,7 +85,7 @@ Als u een gebruiker toewijst aan een van de beheerdersrollen voor naleving of be
 |Microsoft Defender for Identity|[Microsoft Defender for Identity-rolgroepen](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Compliancebeheer|[Compliancebeheer](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-setup#set-user-permissions-and-assign-roles)|
-|Exchange Online|[Toegangsbeheer in Exchange op basis van rollen](https://docs.microsoft.com/exchange/understanding-role-based-access-control-exchange-2013-help)|
+|Exchange Online|[Toegangsbeheer in Exchange op basis van rollen](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)|
 |Intune|[Toegangsbeheer in Intune op basis van rollen](https://docs.microsoft.com/intune/role-based-access-control)|
 |Managed Desktop|[Azure AD-beheerdersrollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Microsoft Cloud App Security|[Toegangsbeheer op basis van rollen](https://docs.microsoft.com/cloud-app-security/manage-admins)|
