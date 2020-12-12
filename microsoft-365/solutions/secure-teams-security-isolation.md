@@ -3,7 +3,7 @@ title: Een team configureren met beveiligingsisolatie
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 localization_priority: Priority
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: 46bc63bab52bf75dc7c215510d49b4d985ff07c3
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: c7230f23a21804530863f125003e4db0eaeeeb60
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487480"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616294"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -50,7 +50,7 @@ Bekijk deze video voor een overzicht van het implementatieproces.
 
 [![Poster Microsoft Teams met beveiligingsisolatie](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
-U kunt deze poster ook downloaden in [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)-indeling en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
+U kunt deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) of [PowerPoint-](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) indeling en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
 
 ## <a name="initial-protections"></a>Initiële bescherming
 
@@ -79,7 +79,7 @@ Een team maken voor vertrouwelijke informatie
 2. Klik op **Team maken** (eerste kaart, linkerbovenhoek).
 3. Kies **Een volledig nieuw team maken**.
 4. Behoudt in de lijst **gevoeligheid** de standaardwaarde.
-5. Klik onder **privacy**op **persoonlijk**.
+5. Klik onder **privacy** op **persoonlijk**.
 6. Typ een naam voor het team dat is gerelateerd aan uw vertrouwelijke project. Bijvoorbeeld **Project Saturnus**.
 7. Klik op **Maken**.
 8. Voeg gebruikers toe aan het team en klik vervolgens op **sluiten**.
@@ -89,7 +89,7 @@ Een team maken voor vertrouwelijke informatie
 U wordt aangeraden het maken van persoonlijke kanalen tot teameigenaren te beperken.
 
 Het maken van een persoonlijk kanaal beperken
-1. In het team klikt u op **Meer opties**en klikt u vervolgens op **Team beheren**.
+1. In het team klikt u op **Meer opties** en klikt u vervolgens op **Team beheren**.
 2. Vouw op het tabblad **Instellingen** de optie **Machtigingen voor leden** uit.
 3. Schakel het selectievakje **Leden toestaan privékanalen te maken** uit.
 
@@ -103,14 +103,14 @@ Als u een interne partner- of stakeholdergroep heeft die versleutelde documenten
 
 Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
-2. Klik onder **Oplossingen**op **Informatiebeveiliging**.
+2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **een label maken**.
 4. Typ een naam voor het label dat vergelijkbaar is met de naam van uw team. Bijvoorbeeld **zeer gevoelig - Project Saturnus**.
 5. Voeg een knopinfo toe en klik vervolgens op **volgende**.
 6. Kies op de pagina **versleuteling** in de vervolgkeuzelijst **versleuteling** de optie **toepassen**.
 7. Teammachtigingen toevoegen:<br>
   a. Klik op **Machtigingen toewijzen**.<br>
-  b. Klik op **gebruikers of groepen toevoegen**Selecteer het team dat u hebt gemaakt en klik vervolgens op **toevoegen.**<br>
+  b. Klik op **gebruikers of groepen toevoegen** Selecteer het team dat u hebt gemaakt en klik vervolgens op **toevoegen.**<br>
   c. Klik op **Machtigingen kiezen**.<br>
   d. Kies **co-auteurs** in de vervolgkeuzelijst en klik vervolgens op **opslaan**.<br>
 8. Als u gebruikers of groepen wilt opnemen met alleen-lezen toegang tot bestanden met het label:<br>
@@ -138,7 +138,7 @@ Een gevoeligheidslabel publiceren
 4. Selecteer het label dat u hebt gemaakt en klik vervolgens op **toevoegen**.
 5. Klik op **Volgende**.
 6. Klik op de pagina Publiceren voor gebruikers en groepen op **Gebruikers en groepen kiezen**.
-7. Klik op **toevoegen**en selecteer vervolgens het team dat u hebt gemaakt.
+7. Klik op **toevoegen** en selecteer vervolgens het team dat u hebt gemaakt.
 8. Klik op **Toevoegen** en klik op **Gereed**.
 9. Klik op **Volgende**.
 10. Schakel op de pagina beleidsinstellingen het selectievakje **gebruikers moeten redenen geven om een label of lagere classificatielabel te verwijderen** in en klik vervolgens op **volgende**.
@@ -153,7 +153,7 @@ Het gevoeligheidslabel toepassen
 1. Open het [SharePoint-beheercentrum](https://admin.microsoft.com/sharepoint).
 2. Klik onder **Sites** op **Actieve sites**.
 3. Klik op de site die is gekoppeld aan het team.
-4. Klik op het tabblad **beleid** onder **gevoeligheid**op **bewerken**.
+4. Klik op het tabblad **beleid** onder **gevoeligheid** op **bewerken**.
 5. Selecteer het label dat u hebt gemaakt en klik vervolgens op **opslaan**.
 
 ## <a name="sharepoint-settings"></a>SharePoint-instellingen
@@ -191,7 +191,7 @@ Als u privékanalen aan het team toevoegt, maakt elk privékanaal een nieuwe Sha
 - `-SharingCapability Disabled` om delen met gasten uit te schakelen (deze is standaard ingeschakeld)
 - `-DefaultSharingLinkType Internal` om de standaard koppeling voor delen te wijzigen in *specifieke personen*
 
-Als u niet van plan bent om privékanalen met uw team te gebruiken, overweeg dan om de mogelijkheid voor teamleden uit te schakelen om ze te maken onder ** ledenmachtigingen** in [teaminstellingen](https://support.microsoft.com/office/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Als u niet van plan bent om privékanalen met uw team te gebruiken, overweeg dan om de mogelijkheid voor teamleden uit te schakelen om ze te maken onder **ledenmachtigingen** in [teaminstellingen](https://support.microsoft.com/office/ce053b04-1b8e-4796-baa8-90dc427b3acc).
 
 ### <a name="site-sharing-settings"></a>Standaardinstellingen voor het delen van een site
 
@@ -211,7 +211,7 @@ Als u personen met een weergavemachtiging hebt toegevoegd aan het gevoeligheidsl
 
 Gebruikers toevoegen aan de site
 1. Klik op de site op het pictogram instellingen en klik vervolgens op **site-machtigingen**.
-2. Klik op **personen uitnodigen**en klik vervolgens op **alleen site delen**.
+2. Klik op **personen uitnodigen** en klik vervolgens op **alleen site delen**.
 3. Typ de namen van de gebruikers en groepen die u wilt uitnodigen.
 4. Voor elke persoon of groep die u toevoegt, wijzigt u de machtigingen van **bewerken** naar **lezen**.
 5. Kies of u hen een e-mailbericht met een koppeling naar de site wilt sturen.
@@ -221,7 +221,7 @@ Gebruikers toevoegen aan de site
 
 Microsoft 365 biedt aanvullende methoden voor het beveiligen van uw inhoud. Overweeg of de volgende opties de beveiliging van uw organisatie zouden kunnen verbeteren.
 
-- Laat uw gastgebruikers akkoord gaan met de [gebruiksvoorwaarden](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
+- Laat je gastgebruikers akkoord gaan met de [gebruiksrechtovereenkomst](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
 - Configureer een [beleid voor de time-out van een sessie](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) voor gasten.
 - Maak [gevoelige informatietypen](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) en gebruik [gegevensverliesbeveiliging](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) om beleid in te stellen rond toegang tot gevoelige informatie.
 - Gebruik [Azure Active Directory-toegangsbeoordelingen](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) om periodiek teamtoegang en lidmaatschap te controleren.

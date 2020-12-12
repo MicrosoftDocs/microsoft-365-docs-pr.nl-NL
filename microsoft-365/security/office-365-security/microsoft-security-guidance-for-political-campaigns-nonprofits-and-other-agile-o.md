@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: 'Samenvatting: Planning en implementatie begeleiding voor snel bewegende organisaties met een verhoogd risicoprofiel.'
-ms.openlocfilehash: 40ce24a7d11f89e7b8704d96fb8c7a3dda15cf11
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 7818dde40086a1f1b424091d6fb951eb6d650073
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199191"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616114"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere wendbare organisaties
 
@@ -45,8 +45,8 @@ Deze richtlijn beschrijft hoe u een veilige cloudomgeving implementeert. De oplo
 
 |Item|Beschrijving|
 |---|---|
-|**Microsoft Security-richtlijnen voor politieke campagnes** <br/> [![Miniatuur voor miniposterserie.](../../media/d370ce28-ca40-4930-9a2c-907312aa06c8.png)](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf) <br/> [PDF](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf) \| [Visio](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.vsdx)|In deze instructies wordt een politieke campagne organisatie als voorbeeld gebruikt. U kunt deze richtlijnen gebruiken als uitgangspunt voor het ontwerpen van uw eigen omgeving.|
-|**Microsoft Security-richtlijnen voor non-profitorganisaties** <br/> [![Miniatuurafbeelding voor downloadbaar bestand](../../media/e4784889-1c69-4067-9a8f-31d31d1eceea.png)](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf) <br/> [PDF](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf) \| [Visio](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.vsdx)|Deze handleiding is enigszins gewijzigd voor non-profit organisaties. Er wordt bijvoorbeeld verwezen naar Office 365 Non-profit-abonnementen. De technische richtlijnen zijn dezelfde als in de handleiding voor politieke campagnes.|
+|**Microsoft Security-richtlijnen voor politieke campagnes** <br> [![Miniatuur voor miniposterserie.](../../media/d370ce28-ca40-4930-9a2c-907312aa06c8.png)](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf) <br> [PDF](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf) \| [Visio](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.vsdx)|In deze instructies wordt een politieke campagne organisatie als voorbeeld gebruikt. U kunt deze richtlijnen gebruiken als uitgangspunt voor het ontwerpen van uw eigen omgeving.|
+|**Microsoft Security-richtlijnen voor non-profitorganisaties** <br> [![Miniatuurafbeelding voor downloadbaar bestand](../../media/e4784889-1c69-4067-9a8f-31d31d1eceea.png)](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf) <br> [PDF](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf) \| [Visio](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.vsdx)|Deze handleiding is enigszins gewijzigd voor non-profit organisaties. Er wordt bijvoorbeeld verwezen naar Office 365 Non-profit-abonnementen. De technische richtlijnen zijn dezelfde als in de handleiding voor politieke campagnes.|
 |
 
 ## <a name="test-lab-guides"></a>Testlabrichtlijnen

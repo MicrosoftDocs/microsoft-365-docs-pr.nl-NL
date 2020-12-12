@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Overzicht: maak proefabonnementen voor Office 365 en Enterprise Mobility + Security (EMS) met gebruikers en groepen voor een ontwikkel-/testomgeving voor politieke campagnes.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 80454477bc55ab54ae7edf14ded5b4fa49fe1530
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1fac15cc0b2a512745e0538ec689bd5f17555419
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203357"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614904"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
 
@@ -68,7 +68,7 @@ In deze fase maakt en configureert u de Microsoft Azure AD-groepen voor uw campa
 
 Maak eerst een set groepen voor een normale politieke campagne met de Microsoft Azure-portal.
 
-1. Open een afzonderlijk tabblad in uw browser en ga naar de Microsoft Azure-portal op [https://portal.azure.com](https://portal.azure.com). Indien nodig meldt u zich aan met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement op Office 365 E5.
+1. Open een afzonderlijk tabblad in je browser en ga naar de Microsoft Azure-portal op <https://portal.azure.com>. Indien nodig meldt u zich aan met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement op Office 365 E5.
 
 2. Klik in de Microsoft Azure-portal op **Azure Active Directory > gebruikers en groepen > alle groepen**.
 
@@ -96,13 +96,13 @@ Maak eerst een set groepen voor een normale politieke campagne met de Microsoft 
 
 5. Klik op **dynamische query toevoegen**.
 
-6. Selecteer voor **gebruikers toevoegen waar**de optie **afdeling**.
+6. Selecteer voor **gebruikers toevoegen waar** de optie **afdeling**.
 
 7. Selecteer in het volgende veld **is gelijk aan**.
 
 8. Typ de groepsnaam uit de lijst in het volgende veld.
 
-9. Klik op **query toevoegen**en klik vervolgens op **maken**.
+9. Klik op **query toevoegen** en klik vervolgens op **maken**.
 
 10. Klik op **gebruikers en groepen: alle groepen**.
 
@@ -110,9 +110,9 @@ Vervolgens configureert u de groepen zo dat er automatisch Office 365 E5- en EMS
 
 1. Klik in de Microsoft Azure-portal op **licenties voor Azure Active Directory > alle producten**.
 
-2. Selecteer in de lijst zowel **Enterprise Mobility + Security E5** als **Office 365 Enterprise E5**en klik vervolgens op **+ Toewijzen**.
+2. Selecteer in de lijst zowel **Enterprise Mobility + Security E5** als **Office 365 Enterprise E5** en klik vervolgens op **+ Toewijzen**.
 
-3. Klik in de blade **Licentie toewijzen** op ** Gebruikers en groepen**.
+3. Klik in de blade **Licentie toewijzen** op **Gebruikers en groepen**.
 
 4. In de lijst met groepen selecteert u het volgende:
 

@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Meer informatie over drie hulpprogramma's die u kunt gebruiken om te controleren op lekkage van persoonlijke gegevens.
-ms.openlocfilehash: 67cce80435aa0f01f496ec67d617f0a2dfff8ec8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a212067d75ab3d9e195e3d869e0a6ae7d1ed4d01
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202697"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616378"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Controleer op lekken van persoonlijke gegevens
 
@@ -117,7 +117,6 @@ Het tweede beleid blokkeert het downloaden van bestanden naar een onbeheerd appa
 Deze kenmerktypen komen binnenkort beschikbaar in Cloud App Security:
 
 - Gevoelige informatietypen
-
 - Geïntegreerde labels in Microsoft 365 en Azure Information Protection
 
 ### <a name="cloud-app-security-dashboard"></a>Cloud App Security-dashboard
@@ -142,69 +141,24 @@ Meer informatie:
 
 Waarschuwen wanneer een bestand met een creditcardnummer wordt gedeeld vanuit een goedgekeurde cloud-app.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>Besturingselement</strong></th>
-<th align="left"><strong>Instellingen</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Beleidstype</td>
-<td align="left">Bestandsbeleid</td>
-</tr>
-<tr class="even">
-<td align="left">Beleidssjabloon</td>
-<td align="left">Geen sjabloon</td>
-</tr>
-<tr class="odd">
-<td align="left">Ernst van beleid</td>
-<td align="left">Hoog</td>
-</tr>
-<tr class="even">
-<td align="left">Categorie</td>
-<td align="left">DLP</td>
-</tr>
-<tr class="odd">
-<td align="left">Filterinstellingen</td>
-<td align="left"><p>Toegangsniveau = openbaar (internet), openbaar, extern</p>
-<p>App = &lt;selecteer apps&gt; (gebruik deze instelling als u de bewaking wilt beperken tot specifieke SaaS-apps)</p></td>
-</tr>
-<tr class="even">
-<td align="left">Toepassen op</td>
-<td align="left">Alle bestanden, alle eigenaren</td>
-</tr>
-<tr class="odd">
-<td align="left">Inhoudsinspectie</td>
-<td align="left"><p>Bevat bestanden die voldoen aan een huidige expressie: alle landen: financiën: creditcardnummer</p>
-<p>Vereis geen relevante context: niet aangevinkt (dit komt zowel overeen met trefwoorden als met regex)</p>
-<p>Bevat bestanden met ten minste 1 overeenkomst</p>
-<p>De laatste vier tekens van de fout opsporen: ingeschakeld</p></td>
-</tr>
-<tr class="even">
-<td align="left">Waarschuwingen</td>
-<td align="left"><p>Een waarschuwing maken voor elk overeenkomend bestand: ingeschakeld</p>
-<p>Dagelijkse waarschuwingslimiet: 1000</p>
-<p>Een waarschuwing als e-mail selecteren: ingeschakeld</p>
-<p>Aan: infosec@contoso.com</p></td>
-</tr>
-<tr class="odd">
-<td align="left">Beheermodel</td>
-<td align="left"><p>Microsoft OneDrive voor Bedrijven</p>
-<p>Privé maken: vink Externe gebruikers verwijderen aan.</p>
-<p>Alle andere instellingen: uitgeschakeld</p>
-<p>Microsoft SharePoint Online</p>
-<p>Privé maken: vink Externe gebruikers verwijderen aan.</p>
-<p>Alle andere instellingen: uitgeschakeld</p></td>
-</tr>
-</tbody>
-</table>
+****
+
+|Besturingselement|Instellingen|
+|---|---|
+|Beleidstype|Bestandsbeleid|
+|Beleidssjabloon|Geen sjabloon|
+|Ernst van beleid|Hoog|
+|Categorie|DLP|
+|Filterinstellingen|Toegangsniveau = openbaar (internet), openbaar, extern <p> App = \<select apps\> (gebruik deze instelling als je de bewaking wilt beperken tot specifieke SaaS-apps)|
+|Toepassen op|Alle bestanden, alle eigenaren|
+|Inhoudsinspectie|Bevat bestanden die voldoen aan een huidige expressie: alle landen: financiën: creditcardnummer <p> Vereis geen relevante context: niet aangevinkt (dit komt zowel overeen met trefwoorden als met regex) <p> Bevat bestanden met ten minste 1 overeenkomst <p> De laatste vier tekens van de fout opsporen: ingeschakeld|
+|Waarschuwingen|Een waarschuwing maken voor elk overeenkomend bestand: ingeschakeld <p> Dagelijkse waarschuwingslimiet: 1000 <p> Een waarschuwing als e-mail selecteren: ingeschakeld <p> Aan: infosec@contoso.com|
+|Beheermodel|Microsoft OneDrive voor Bedrijven <p> Privé maken: vink Externe gebruikers verwijderen aan. <p> Alle andere instellingen: uitgeschakeld <p> Microsoft SharePoint Online <p> Privé maken: vink Externe gebruikers verwijderen aan. <p> Alle andere instellingen: uitgeschakeld|
+|
 
 Vergelijkbare beleidsregels:
 
 - Het delen van bestanden met PII-e-mailadres opsporen
-
 - Het delen van bestanden met PII-paspoortnummer opsporen
 
 ### <a name="detect-customer-or-hr-data-in-box-or-onedrive-for-business"></a>Detecteer klant- of HR-gegevens in Box of OneDrive voor Bedrijven
@@ -214,64 +168,23 @@ Waarschuwen wanneer een bestand met het label Klantgegevens of HR-gegevens wordt
 Opmerkingen:
 
 - Voor het bewaken van Box moet een connector worden geconfigureerd met de API-connector SDK.
-
 - Dit beleid vereist functies die momenteel in de preview-versie privé zijn.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>Besturingselement</strong></th>
-<th align="left"><strong>Instellingen</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Beleidstype</td>
-<td align="left">Activiteitenbeleid</td>
-</tr>
-<tr class="even">
-<td align="left">Beleidssjabloon</td>
-<td align="left">Geen sjabloon</td>
-</tr>
-<tr class="odd">
-<td align="left">Ernst van beleid</td>
-<td align="left">Hoog</td>
-</tr>
-<tr class="even">
-<td align="left">Categorie</td>
-<td align="left">Besturingselement delen</td>
-</tr>
-<tr class="odd">
-<td align="left">Reageren op</td>
-<td align="left">Afzonderlijke activiteit</td>
-</tr>
-<tr class="even">
-<td align="left">Filterinstellingen</td>
-<td align="left"><p>Activiteitstype = bestand uploaden</p>
-<p>App = Microsoft OneDrive voor Bedrijven en Box</p>
-<p>Classificatielabel (momenteel in privépreview): Azure Information Protection = klantgegevens, personeelszaken (salarisgegevens, personeelszaken), werknemersgegevens</p></td>
-</tr>
-<tr class="odd">
-<td align="left">Waarschuwingen</td>
-<td align="left"><p>Een waarschuwing maken: ingeschakeld</p>
-<p>Dagelijkse waarschuwingslimiet: 1000</p>
-<p>Een waarschuwing als e-mail selecteren: ingeschakeld</p>
-<p>Aan: infosec@contoso.com</p></td>
-</tr>
-<tr class="even">
-<td align="left">Beheermodel</td>
-<td align="left"><p>Alle apps</p>
-<p>Gebruiker in quarantaine plaatsen: ingeschakeld</p>
-<p>Alle andere instellingen: uitgeschakeld</p>
-<p>Office 365</p>
-<p>Gebruiker in quarantaine plaatsen: ingeschakeld</p>
-<p>Alle andere instellingen: uitgeschakeld</p></td>
-</tr>
-</tbody>
-</table>
+****
+
+|Besturingselement|Instellingen|
+|---|---|
+|Beleidstype|Activiteitenbeleid|
+|Beleidssjabloon|Geen sjabloon|
+|Ernst van beleid|Hoog|
+|Categorie|Besturingselement delen|
+|Reageren op|Afzonderlijke activiteit|
+|Filterinstellingen|Activiteitstype = bestand uploaden <p> App = Microsoft OneDrive voor Bedrijven en Box <p> Classificatielabel (momenteel in privépreview): Azure Information Protection = klantgegevens, personeelszaken (salarisgegevens, personeelszaken), werknemersgegevens|
+|Waarschuwingen|Een waarschuwing maken: ingeschakeld <p> Dagelijkse waarschuwingslimiet: 1000 <p> Een waarschuwing als e-mail selecteren: ingeschakeld <p> Aan: infosec@contoso.com|
+|Beheermodel|Alle apps <p> Gebruiker in quarantaine plaatsen: ingeschakeld <p> Alle andere instellingen: uitgeschakeld <p> Office 365 <p> Gebruiker in quarantaine plaatsen: ingeschakeld <p> Alle andere instellingen: uitgeschakeld|
+|
 
 Vergelijkbare beleidsregels:
 
 - Detecteer grote downloads van klantgegevens of HR-gegevens. Waarschuw wanneer een groot aantal bestanden met klantgegevens of HR-gegevens in een korte periode wordt gedownload door een enkele gebruiker.
-
 - Detecteer het delen van klant- en HR-gegevens. Waarschuw wanneer bestanden met klant- of HR-gegevens worden gedeeld.

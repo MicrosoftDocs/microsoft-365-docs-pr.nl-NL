@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
-ms.openlocfilehash: ce8a982b875632ad58b34ae240c02b507c4656fe
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 137937b106be9ce0cf782a84b988913e2c6dac4b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021059"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615718"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
@@ -69,11 +69,11 @@ Verzamel de volgende informatie:
    |---|---|---|---|
    |1|Elk e-mailsysteem (vereist)|Gangbaar. Alle SPF-records beginnen met deze waarde|`v=spf1`|
    |2|Exchange Online|Gangbaar|`include:spf.protection.outlook.com`|
-   |3|Alleen Exchange Online|Niet gangbaar|`ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com`|
+   |3|Alleen Exchange Online|Niet gangbaar|`ip4:23.103.224.0/19` <br> `ip4:206.191.224.0/19` <br> `ip4:40.103.0.0/16` <br> `include:spf.protection.outlook.com`|
    |4|Office 365 Duitsland, alleen Microsoft Cloud Duitsland|Niet gangbaar|`include:spf.protection.outlook.de`|
-   |5|E-mailsysteem van derden|Niet gangbaar|`include:<domain_name>`  <br/> Waarbij \<domain_name\> de domeinnaam is van het e-mailsysteem van derden.|
-   |6|On-premises e-mailsysteem. Bijvoorbeeld, Exchange Online Protection plus een ander e-mailsysteem|Niet gangbaar|Gebruik een van deze voor elk extra e-mailsysteem: <br> `ip4:<IP_address>` <br/> `ip6:<IP_address>` <br/> `include:<domain_name>` <br/> Waarbij \<IP_address\> en \<domain_name\> het IP-adres en domein zijn van het andere e-mailsysteem waarmee e-mail namens uw domein wordt verzonden.|
-   |7|Elk e-mailsysteem (vereist)|Gangbaar. Alle SPF-records eindigen met deze waarde|`<enforcement rule>` <br/> Dit kan een van meerdere waarden zijn. We adviseren de waarde ‘-all’.|
+   |5|E-mailsysteem van derden|Niet gangbaar|`include:<domain_name>` <p> \<domain_name\> is de domeinnaam is van het e-mailsysteem van derden.|
+   |6|On-premises e-mailsysteem. Bijvoorbeeld, Exchange Online Protection plus een ander e-mailsysteem|Niet gangbaar|Gebruik een van deze voor elk extra e-mailsysteem: <p> `ip4:<IP_address>` <br> `ip6:<IP_address>` <br> `include:<domain_name>` <p> \<IP_address\> en \<domain_name\> zijn het IP-adres en domein van het andere e-mailsysteem waarmee e-mail namens je domein wordt verzonden.|
+   |7|Elk e-mailsysteem (vereist)|Gangbaar. Alle SPF-records eindigen met deze waarde|`<enforcement rule>` <p> Dit kan een van meerdere waarden zijn. We adviseren de waarde `-all`.|
    |
 
 2. Als u dit nog niet hebt gedaan, kunt u het SPF TXT-record maken met behulp van de syntaxis uit de tabel.

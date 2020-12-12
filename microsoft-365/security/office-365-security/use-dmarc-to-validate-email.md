@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
-ms.openlocfilehash: 4ff2c93e420957714815100243a6502e7ea087a7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9dd97b1fc60f0b6198bb6c55af291c7dd103ac5d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446369"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615334"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
@@ -191,7 +191,7 @@ U kunt DMARC geleidelijk implementeren zonder gevolgen voor de rest van uw e-mai
 3. Verzoeken dat externe e-mailsystemen geen berichten accepteren waarvan de DMARC-controle is mislukt
 
     De laatste stap is het implementeren van weigeringsbeleid. Weigeringsbeleid is een DMARC TXT-record waarvan het beleid is ingesteld op weigeren (p=weigeren). Wanneer u dit doet, vraagt u DMARC-ontvangers geen berichten te accepteren waarvan de DMARC-controle is mislukt.
-    
+
 4. DMARC instellen voor subdomein
 
 DMARC wordt geïmplementeerd door beleid te publiceren als TXT-record in DNS en is hiërarchisch (beleid dat is gepubliceerd voor contoso.com is bijvoorbeeld van toepassing op sub.domain.contoso.com, tenzij voor het subdomein expliciet ander beleid is bepaald). Dit is handig, want organisaties kunnen zo een kleiner aantal DMARC-records op hoog niveau afgeven voor een bredere dekking. Het is belangrijk expliciete DMARC-records voor subdomeinen te configureren wanneer u niet wilt dat de subdomeinen de DMARC-record van het hoogste niveau overnemen.

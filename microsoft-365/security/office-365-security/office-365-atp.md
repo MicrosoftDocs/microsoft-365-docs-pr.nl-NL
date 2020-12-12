@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: 11b6445e17fc870c2999ddb56715b0c5cee5b5fc
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 86e738fa9390cc40b06c10a27f3198715bb991fd
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357705"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614808"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -72,7 +72,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 |Abonnement 1 voor Microsoft Defender voor Office 365|Abonnement 2 voor Microsoft Defender voor Office 365|
 |---|---|
-|<br/>Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies in abonnement 1 voor Microsoft Defender voor Office 365<br/>--- plus ---<br/>Functies voor automatisering, onderzoek, herstel en onderwijs:</li><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
+|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies in abonnement 1 voor Microsoft Defender voor Office 365 <br>--- plus ---<br> Functies voor automatisering, onderzoek, herstel en onderwijs:<ul><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulator](attack-simulator.md)</li><li>[Campagneweergaven](campaigns.md)</li></ul>|
 |
 
 - Abonnement 2 voor Microsoft Defender voor Office 365 is inbegrepen in Office 365 E5, Office 365 A5, Microsoft 365 E5 Security en Microsoft 365 E5.
@@ -87,7 +87,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Beleid in Microsoft Defender voor Office 365 instellen
 
-Met Microsoft Defender voor Office 365 kan het beveiligingsteam van je organisatie beveiliging configureren door beleid te definiëren in het beveiligings- en compliancecentrum (Ga naar [https://protection.office.com](https://protection.office.com) > **Bedreigingsbeheer** > **Beleid**).
+Met Microsoft Defender voor Office 365 kan het beveiligingsteam van uw organisatie beveiliging configureren door beleid te definiëren in het Beveiligings- en compliancecentrum (Ga naar <https://protection.office.com> \> **Bedreigingsbeheer** \> **Beleid**).
 
 > [!TIP]
 > Zie [Beveiligen tegen bedreigingen](protect-against-threats.md) voor een kort overzicht van te definiëren beleid.
@@ -106,7 +106,7 @@ Het beleid dat wordt gedefinieerd voor uw organisatie bepaalt het gedrag en beve
 
 ## <a name="view-microsoft-defender-for-office-365-reports"></a>Microsoft Defender voor Office 365-rapporten weergeven
 
-Microsoft Defender voor Office 365 bevat een geavanceerd [rapportagedashboard](view-reports-for-atp.md) voor het controleren van de prestaties van Defender voor Office 365. U kunt het openen in het Beveiligings- en compliancecentrum bij **Rapporten** > **Dashboard**.
+Microsoft Defender voor Office 365 bevat een geavanceerd [rapportagedashboard](view-reports-for-atp.md) voor het controleren van de prestaties van Defender voor Office 365. Je vindt het in het Beveiligings- en compliancecentrum bij **Rapporten**\>**Dashboard**.
 
 Rapporten worden in realtime bijgewerkt en voorzien u zo van de nieuwste inzichten. Deze rapporten bieden ook aanbevelingen en waarschuwen u tegen naderende bedreigingen. Vooraf gedefinieerde rapporten omvatten het volgende:
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Zorg ervoor dat u alle functies van Microsoft 365 hebt ingeschakeld om de productiviteit van externe werknemers te maximaliseren en veilige toegang tot uw servers, gegevens en de cloud te behouden.
-ms.openlocfilehash: 1af5d1dd2fbc6f5792ee0458e521dfa2f46f46b5
-ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
+ms.openlocfilehash: c6f17f2a80fa37abe43ceabc7a06c86c80eeadbd
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588571"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616354"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
 
@@ -99,7 +99,7 @@ Raadpleeg [Beveiliging en compliance implementeren voor beveiligings- en complia
 
 [![Poster Externe werknemers mogelijkheden bieden](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
 
-U kunt deze poster ook downloaden als [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
+Je kunt deze poster ook downloaden in [PDF-](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) of [PowerPoint-](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx)indeling en afdrukken op papier met formaat Letter, Legal of Tabloid (27,9 x 43,2 cm).
 
 ## <a name="provide-remote-working-for-all-of-your-workers"></a>Thuiswerken aanbieden voor alle werknemers
 
