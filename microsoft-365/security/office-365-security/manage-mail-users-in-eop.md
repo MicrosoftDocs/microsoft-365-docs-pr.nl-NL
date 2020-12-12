@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Meer informatie over het beheren van gebruikers van e-mailberichten in Exchange Online Protection (EOP), waaronder het gebruik van adreslijstsynchronisatie, SBV en PowerShell voor het beheren van gebruikers.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3c3e69def731a85c0dccffdcb5620560dcf00052
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: a8258a63fe0fbf4a6b5641fbdef213f25de2e4dd
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356725"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658831"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>E-mailgebruikers beheren in standalone EOP
 
@@ -30,21 +30,21 @@ Gebruikers van een zelfstandige Exchange Online Protection-organisatie (EOP) zon
 > [!NOTE]
 > Wanneer u een e-mail gebruiker maakt, is het bijbehorende gebruikersaccount beschikbaar in het Microsoft 365-Beheercentrum. Wanneer u een gebruikersaccount maakt in het Microsoft 365-Beheercentrum, kunt u dit account niet gebruiken om een e-mail gebruiker te maken.
 
-De aanbevolen methode voor het maken en beheren van e-mail gebruikers in standalone EOP is door gebruik te maken van adreslijstsynchronisatie, zoals beschreven in de sectie [e-mail gebruikers van de sectie e-mailadressen beheren](#use-directory-synchronization-to-manage-mail-users) .
+De aanbevolen methode voor het maken en beheren van e-mail gebruikers in standalone EOP is door gebruik te maken van adreslijstsynchronisatie, zoals beschreven in de sectie [e-mail gebruikers van e-mailberichten beheren](#use-directory-synchronization-to-manage-mail-users) verderop in dit artikel.
 
-Voor zelfstandige EOP-organisaties met een klein aantal gebruikers, kunt u e-mail gebruikers toevoegen en beheren in het Exchange-Beheercentrum (Microsoft) of in een zelfstandige EOP-PowerShell zoals in dit onderwerp wordt beschreven.
+Voor zelfstandige EOP-organisaties met een klein aantal gebruikers, kunt u e-mail gebruikers toevoegen en beheren in het Exchange-Beheercentrum (Microsoft) of in een zelfstandige EOP-PowerShell zoals in dit artikel wordt beschreven.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - U opent het Exchange-Beheercentrum door het Exchange- [Beheercentrum in zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - Wanneer u e-mail gebruikers maakt in EOP PowerShell, kan dat leiden tot vertraging. Daarnaast wordt in de EOP PowerShell-cmdlets een batch verwerkingsmethode gebruikt die de vertraging van een paar minuten oplevert voordat de resultaten van de opdrachten zichtbaar zijn.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Specifiek hebt u de e-mailadressen voor e-mail geadresseerden (maken) en e-mail geadresseerden (wijzigen) nodig die standaard zijn toegewezen aan de de organizationmanagement (algemene beheerders) en RecipientManagement rollen groepen. Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- U moet machtigingen zijn toegewezen in Exchange Online Protection voordat u de procedures in dit artikel kunt uitvoeren. Specifiek hebt u de **e-mailadressen voor de ontvangers van e-mailberichten** (maken) en **e-mail geadresseerden** (wijzigen) nodig die zijn toegewezen aan het **Organisatiebeheer** (globale beheerders) en rollen groepen voor **geadresseerden** . Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
-- Zie toetscombinaties [voor het Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over toetscombinaties die van toepassing kunnen zijn op de procedures in dit onderwerp.
+- Zie toetscombinaties [voor het Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over toetscombinaties die van toepassing kunnen zijn op de procedures in dit artikel.
 
 > [!TIP]
 > Problemen? Hulp vragen op de Exchange-forums. Bezoek het forum [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
@@ -53,7 +53,7 @@ Voor zelfstandige EOP-organisaties met een klein aantal gebruikers, kunt u e-mai
 
 ### <a name="use-the-eac-to-create-mail-users"></a>Het Exchange-Beheercentrum gebruiken om e-mail gebruikers te maken
 
-1. Ga in het Exchange-beheer **Recipients** centrum naar \> **contacten** met geadresseerden
+1. Ga in het Exchange-beheer  centrum naar \> **contacten** met geadresseerden
 
 2. Klik op **Nieuw** ![ pictogram nieuw ](../../media/ITPro-EAC-AddIcon.png) . Configureer de volgende instellingen op de pagina **nieuwe e-mail gebruiker** die wordt geopend. Instellingen die zijn gemarkeerd met een <sup>\*</sup> zijn vereist.
 
@@ -77,9 +77,9 @@ Voor zelfstandige EOP-organisaties met een klein aantal gebruikers, kunt u e-mai
 
 ### <a name="use-the-eac-to-modify-mail-users"></a>Het Exchange-Beheercentrum gebruiken om e-mail gebruikers te wijzigen
 
-1. Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen** met geadresseerden.
+1. Ga in het Exchange-beheer  centrum naar \> **contactpersonen** met geadresseerden.
 
-2. Selecteer de e-mail gebruiker die u wilt wijzigen en klik vervolgens **Edit** op het ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-AddIcon.png) .
+2. Selecteer de e-mail gebruiker die u wilt wijzigen en klik vervolgens  op het ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-AddIcon.png) .
 
 3. Op de pagina met de gebruikerseigenschappen van de e-mail die wordt geopend, klikt u op een van de volgende tabbladen om de eigenschappen weer te geven of te wijzigen.
 
@@ -128,7 +128,7 @@ Via het tabblad **organisatie** kunt u gedetailleerde informatie over de rol van
 
 ### <a name="use-the-eac-to-remove-mail-users"></a>Het Exchange-Beheercentrum gebruiken om e-mail gebruikers te verwijderen
 
-1. Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen** met geadresseerden.
+1. Ga in het Exchange-beheer  centrum naar \> **contactpersonen** met geadresseerden.
 
 2. Selecteer de e-mail gebruiker die u wilt verwijderen en **Klik op het** ![ pictogram verwijderen ](../../media/ITPro-EAC-RemoveIcon.gif) .
 
@@ -230,7 +230,7 @@ Zie [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/r
 
 Ga op een van de volgende manieren te werk om te controleren of u e-mail gebruikers met een zelfstandige EOP hebt gemaakt, gewijzigd of verwijderd.
 
-- Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen** met geadresseerden. Controleer of de e-mail gebruiker wordt weergegeven (of niet wordt weergegeven). Selecteer e-mail gebruiker en Bekijk de informatie in het detailvenster of Klik **Edit** op ![ bewerkingspictogram bewerken ](../../media/ITPro-EAC-AddIcon.png) om de instellingen weer te geven.
+- Ga in het Exchange-beheer  centrum naar \> **contactpersonen** met geadresseerden. Controleer of de e-mail gebruiker wordt weergegeven (of niet wordt weergegeven). Selecteer e-mail gebruiker en Bekijk de informatie in het detailvenster of Klik  op ![ bewerkingspictogram bewerken ](../../media/ITPro-EAC-AddIcon.png) om de instellingen weer te geven.
 
 - Voer in standalone EOP PowerShell de volgende opdracht uit om te controleren of de e-mail gebruiker wordt weergegeven (of wordt niet weergegeven):
 
@@ -285,4 +285,4 @@ Zorg dat u de benodigde machtigingen hebt en voorbereiding voor adreslijstsynchr
 > [!IMPORTANT]
 > Wanneer u de wizard Configuratie van Azure Active Directory-synchronisatie hebt voltooid, wordt het **MSOL_AD_Sync** -account gemaakt in het Active Directory-forest. Dit account wordt gebruikt voor het lezen en synchroniseren van uw on-premises Active Directory-informatie. Zorg ervoor dat de TCP 443 op de lokale adreslijstsynchronisatie server is geopend, zodat de adreslijstsynchronisatie naar behoren werkt.
 
-Voordat u de synchronisatie hebt geconfigureerd, controleert u of de AAD-verbinding correct wordt gesynchroniseerd. Ga in het Exchange-beheer **Recipients** centrum naar \> **contactpersonen** van geadresseerden en bekijk dat de lijst met gebruikers correct is gesynchroniseerd vanuit uw on-premises omgeving.
+Voordat u de synchronisatie hebt geconfigureerd, controleert u of de AAD-verbinding correct wordt gesynchroniseerd. Ga in het Exchange-beheer  centrum naar \> **contactpersonen** van geadresseerden en bekijk dat de lijst met gebruikers correct is gesynchroniseerd vanuit uw on-premises omgeving.

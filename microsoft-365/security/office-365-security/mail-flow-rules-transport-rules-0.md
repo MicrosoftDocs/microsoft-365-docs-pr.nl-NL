@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: U kunt de e-mail stroom regels (transportregels) gebruiken om berichten te identificeren en te ondernemen die door uw organisatie worden verzonden.
-ms.openlocfilehash: 11bf2af56c6e85c868e2e0726736f624e196805c
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 6bbf50b1a99b6691e959f6dcd4cfce33686a0014
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021047"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659194"
 ---
 # <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>E-mailstroomregels (transportregels) in standalone EOP
 
@@ -56,19 +56,19 @@ In de volgende video ziet u een demonstratie van het instellen van e-mail stroom
 
 Een e-mail stroom regel bestaat uit voorwaarden, uitzonderingen, acties en eigenschappen:
 
-- **Voorwaarden** : Geef aan met welke berichten u de acties wilt toepassen. In sommige voorwaarden wordt de bericht-header velden onderzocht, bijvoorbeeld de velden aan, van of CC. Overige voorwaarden Bekijk de berichteigenschappen (bijvoorbeeld het onderwerp van het bericht, de hoofdtekst, de bijlagen, de berichtgrootte of de bericht classificatie). Voor de meeste voorwaarden moet u een vergelijkingsoperator opgeven (bijvoorbeeld is gelijk aan, is niet gelijk aan, is niet gelijk aan, is niet gelijk aan, is niet gelijk aan) en een waarde Als er geen voorwaarden of uitzonderingen zijn, wordt de regel toegepast op alle berichten.
+- **Voorwaarden**: Geef aan met welke berichten u de acties wilt toepassen. In sommige voorwaarden wordt de bericht-header velden onderzocht, bijvoorbeeld de velden aan, van of CC. Overige voorwaarden Bekijk de berichteigenschappen (bijvoorbeeld het onderwerp van het bericht, de hoofdtekst, de bijlagen, de berichtgrootte of de bericht classificatie). Voor de meeste voorwaarden moet u een vergelijkingsoperator opgeven (bijvoorbeeld is gelijk aan, is niet gelijk aan, is niet gelijk aan, is niet gelijk aan, is niet gelijk aan) en een waarde Als er geen voorwaarden of uitzonderingen zijn, wordt de regel toegepast op alle berichten.
 
 Zie voor meer informatie over de voorwaarden voor de e-mail stroom regels in zelfstandige EOP de [voorwaarden voor de e-mail stroom regels en uitzonderingen (predikaten) in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
-- **Uitzonderingen** : Identificeer ook de berichten waarop de acties niet van toepassing zijn. De in voorwaarden beschikbare bericht aanduidingen zijn ook beschikbaar in uitzonderingen. Uitzonderingen voor voorwaarden negeren en voorkomen dat de regelacties worden toegepast op een bericht, zelfs als het bericht overeenkomt met alle geconfigureerde voorwaarden.
+- **Uitzonderingen**: Identificeer ook de berichten waarop de acties niet van toepassing zijn. De in voorwaarden beschikbare bericht aanduidingen zijn ook beschikbaar in uitzonderingen. Uitzonderingen voor voorwaarden negeren en voorkomen dat de regelacties worden toegepast op een bericht, zelfs als het bericht overeenkomt met alle geconfigureerde voorwaarden.
 
-- **Acties** : Geef aan wat er moet gebeuren met berichten die voldoen aan de voorwaarden in de regel en die niet overeenkomen met een van de uitzonderingen. Er zijn veel acties beschikbaar, zoals het afwijzen, verwijderen of omleiden van berichten, het toevoegen van extra geadresseerden, het toevoegen van voorvoegsels in het onderwerp van het bericht of het invoegen van disclaimers in de berichttekst.
+- **Acties**: Geef aan wat er moet gebeuren met berichten die voldoen aan de voorwaarden in de regel en die niet overeenkomen met een van de uitzonderingen. Er zijn veel acties beschikbaar, zoals het afwijzen, verwijderen of omleiden van berichten, het toevoegen van extra geadresseerden, het toevoegen van voorvoegsels in het onderwerp van het bericht of het invoegen van disclaimers in de berichttekst.
 
 Zie [acties voor e-mail stroom regels in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)voor meer informatie over acties voor e-mail stroom regels die beschikbaar zijn in zelfstandige EOP.
 
-- **Eigenschappen** : andere regels opgeven die geen voorwaarden, uitzonderingen of acties opgeven. Wanneer de regel moet worden toegepast, of als u de regel wilt toepassen of testen, en de periode waarin de regel actief is.
+- **Eigenschappen**: andere regels opgeven die geen voorwaarden, uitzonderingen of acties opgeven. Wanneer de regel moet worden toegepast, of als u de regel wilt toepassen of testen, en de periode waarin de regel actief is.
 
-  Zie voor meer informatie de sectie [Eigenschappen voor e-mail stroom regels](#mail-flow-rule-properties) in dit onderwerp.
+  Zie de sectie [Eigenschappen voor e-mail stroom regels](#mail-flow-rule-properties) in dit artikel voor meer informatie.
 
 ### <a name="multiple-conditions-exceptions-and-actions"></a>Meerdere voorwaarden, uitzonderingen en acties
 
@@ -104,7 +104,7 @@ In de volgende tabel worden de regeleigenschappen beschreven die beschikbaar zij
 
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>Hoe e-mail stroom regels worden toegepast op berichten
 
-Alle berichten die door uw organisatie worden doorgevoerd, worden geëvalueerd tegen de ingeschakelde regels voor de e-mail stroom in uw organisatie. Regels worden in de weergegeven volgorde verwerkt op de pagina regels voor **e-mail stroom** \> **Rules** in het PowerShell-programma of op basis van de bijbehorende parameterwaarde voor _prioriteit_ in PowerShell.
+Alle berichten die door uw organisatie worden doorgevoerd, worden geëvalueerd tegen de ingeschakelde regels voor de e-mail stroom in uw organisatie. Regels worden in de weergegeven volgorde verwerkt op de pagina regels voor **e-mail stroom** \>  in het PowerShell-programma of op basis van de bijbehorende parameterwaarde voor _prioriteit_ in PowerShell.
 
 Elke regel biedt ook de mogelijkheid om de verwerking van meer regels te onderbreken wanneer de regel wordt vergeleken. Deze instelling is belangrijk voor berichten die voldoen aan de voorwaarden in meerdere e-mail stroom regels (welke regel wilt u op het bericht toepassen? Al? Slechts één?).
 
@@ -116,14 +116,14 @@ Er zijn verschillende typen berichten die een organisatie passeren. In de volgen
 
 |Type bericht|Kan een regel worden toegepast?|
 |---|---|
-|**Normale berichten** : berichten met een berichttekst met een enkele tekstindeling (Rich Text Format), HTML of tekst zonder opmaak of een meerdelige of een andere groep berichten.|Ja|
-|Berichten **versleutelen in office 365** : berichten versleuteld met bericht versleuteling van Office 365 in Office 365. Zie voor meer informatie [versleutelen in Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption).|Regels hebben altijd toegang tot envelop koppen en proces berichten op basis van voorwaarden die deze kopteksten controleren. <p> Als u de inhoud van een versleuteld bericht wilt controleren of wijzigen, dient u te controleren of het versleutelen van transport is ingeschakeld (verplicht of optioneel; de standaardinstelling is optioneel). Zie [regels definiëren voor het versleutelen of versleutelen van e-mailberichten in Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)voor meer informatie.|
+|**Normale berichten**: berichten met een berichttekst met een enkele tekstindeling (Rich Text Format), HTML of tekst zonder opmaak of een meerdelige of een andere groep berichten.|Ja|
+|Berichten **versleutelen in office 365**: berichten versleuteld met bericht versleuteling van Office 365 in Office 365. Zie voor meer informatie [versleutelen in Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption).|Regels hebben altijd toegang tot envelop koppen en proces berichten op basis van voorwaarden die deze kopteksten controleren. <p> Als u de inhoud van een versleuteld bericht wilt controleren of wijzigen, dient u te controleren of het versleutelen van transport is ingeschakeld (verplicht of optioneel; de standaardinstelling is optioneel). Zie [regels definiëren voor het versleutelen of versleutelen van e-mailberichten in Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)voor meer informatie.|
 |**S/MIME versleutelde berichten**|Regels hebben alleen toegang tot envelop koppen en proces berichten op basis van voorwaarden die deze kopteksten controleren. <p> Regels met voorwaarden die inspectie van de inhoud van het bericht vereisen of acties waarmee de inhoud van het bericht wordt gewijzigd, kunnen niet worden verwerkt.|
-|**Beveiligde berichten in RMS** : berichten waarop een Active Directory Rights Management Services-of Azure Rights Management (RMS)-beleid is toegepast.|Regels hebben altijd toegang tot envelop koppen en proces berichten op basis van voorwaarden die deze kopteksten controleren. <p> Voor een regel om de inhoud van een beveiligd bericht met RMS te controleren of te wijzigen, controleert u of het versleutelen van transport is ingeschakeld (verplicht of optioneel; de standaardinstelling is optioneel).|
+|**Beveiligde berichten in RMS**: berichten waarop een Active Directory Rights Management Services-of Azure Rights Management (RMS)-beleid is toegepast.|Regels hebben altijd toegang tot envelop koppen en proces berichten op basis van voorwaarden die deze kopteksten controleren. <p> Voor een regel om de inhoud van een beveiligd bericht met RMS te controleren of te wijzigen, controleert u of het versleutelen van transport is ingeschakeld (verplicht of optioneel; de standaardinstelling is optioneel).|
 |**Berichten** met een uitgeschakeld bericht: berichten die zijn ondertekend maar niet zijn versleuteld.|Ja|
-|**Um-berichten** : berichten die zijn gemaakt of verwerkt door de Unified Messaging-Service, zoals voicemail, Fax, meldingen voor gemiste oproepen en berichten die zijn gemaakt of doorgestuurd met behulp van Microsoft Outlook Voice Access.|Ja|
-|**Anonieme berichten** : berichten verzonden door anonieme afzenders.|Ja|
-|**Lees rapporten** : rapporten die worden gegenereerd in antwoord om ontvangstbevestiging van afzender verzoeken te lezen. Lees rapporten hebben een berichtklasse van `IPM.Note*.MdnRead` of `IPM.Note*.MdnNotRead` .|Ja|
+|**Um-berichten**: berichten die zijn gemaakt of verwerkt door de Unified Messaging-Service, zoals voicemail, Fax, meldingen voor gemiste oproepen en berichten die zijn gemaakt of doorgestuurd met behulp van Microsoft Outlook Voice Access.|Ja|
+|**Anonieme berichten**: berichten verzonden door anonieme afzenders.|Ja|
+|**Lees rapporten**: rapporten die worden gegenereerd in antwoord om ontvangstbevestiging van afzender verzoeken te lezen. Lees rapporten hebben een berichtklasse van `IPM.Note*.MdnRead` of `IPM.Note*.MdnNotRead` .|Ja|
 |
 
 ## <a name="what-else-should-i-know"></a>Wat moet ik nog meer weten?

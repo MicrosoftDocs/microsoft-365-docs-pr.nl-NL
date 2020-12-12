@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 'Wijzig uw eerste e-mailadres in een vriendelijk e-mailadres, zoals tom@fourthcoffee.com. Hiervoor moet u een domeinnaam kopen en toevoegen aan Microsoft 365. '
-ms.openlocfilehash: 7b5ab62ea99af52c61ca4ba6a7e9ea37604ddf19
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d23c612eecae0a0b58d844fbbe25392ffa682fde
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645537"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656829"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken
 
@@ -41,7 +41,7 @@ ms.locfileid: "48645537"
 
 ::: moniker-end
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 ::: moniker range="o365-worldwide"
 
@@ -85,7 +85,7 @@ U moet een hoofd beheerdersaccount hebben om deze stappen uit te voeren.
 
 ::: moniker-end 
 
-2. Ga naar de **Setup**  >  pagina**domeinen** instellen. 
+2. Ga naar de   >  pagina **domeinen** instellen. 
 
 3. Op de pagina **Domeinen** selecteert u **Domein toevoegen**.
     

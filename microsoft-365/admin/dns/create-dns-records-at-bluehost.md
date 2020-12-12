@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Bluehost voor Microsoft.
-ms.openlocfilehash: c0ba1b876c939632bc6c43a6e0004fbbe23a7723
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a9de709b0981c3e74eec1a3ea0e0452d068c5ad4
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646233"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658145"
 ---
 # <a name="create-dns-records-at-bluehost-for-microsoft"></a>DNS-records bij Bluehost maken voor Microsoft
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als Bluehost uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online enzovoort in te stellen.
   
@@ -53,7 +53,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
+3. Selecteer in het ***gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record op de pagina **DNS Zone Editor**. 
     
@@ -93,7 +93,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
+3. Selecteer in het ***gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record op de pagina **DNS Zone Editor**. 
     
@@ -115,7 +115,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Selecteer verwijderen voor elke extra MX-record.](../../media/6be17f54-3f33-47af-a9db-4689141530c2.png)
   
-7. Selecteer **OK**in het bevestigingsvenster.
+7. Selecteer **OK** in het bevestigingsvenster.
     
     ![Selecteer OK.](../../media/a50df7a3-2906-4cc0-87d4-1231ab234230.png)
   
@@ -130,7 +130,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
+3. Selecteer in het ***gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Zoek in de sectie **A (host)** de rij voor de **Autodiscover** -record en selecteer **verwijderen** voor die rij. 
     
@@ -173,7 +173,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. Hebt u voorbeelden nodig? Bekijk deze [Externe Domain Name System-records voor Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Voor het valideren van uw SPF-record gebruikt u een van deze[SPF-validatie hulpmiddelen](../setup/domains-faq.md). 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. Hebt u voorbeelden nodig? Bekijk deze [Externe Domain Name System-records voor Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Voor het valideren van uw SPF-record gebruikt u een van deze[SPF-validatie hulpmiddelen](../setup/domains-faq.yml). 
   
 1. Ga eerst naar de pagina met domeinen bij Bluehost via [deze koppeling](https://my.bluehost.com/cgi/dm). U wordt gevraagd u eerst aan te melden.
     
@@ -181,7 +181,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
+3. Selecteer in het ***gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Typ of kopieer en plak de waarden uit de volgende tabel in het gebied **Add DNS Record** in de vakken voor de nieuwe record op de pagina **DNS Zone Editor**. 
     
@@ -206,7 +206,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     (Mogelijk moet u omlaag schuiven.)
     
-3. Selecteer in het ** _domain_name_*gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
+3. Selecteer in het ***gebied Domain_Name _, op de rij _* DNS-zone editor, de** optie **Manage DNS records**.
     
 4. Maak als volgt de eerste van de twee SRV-records.
     

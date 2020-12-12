@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met de functie voor het automatisch wissen van rijen (ZAP) bezorgde berichten in een Exchange Online-postvak naar de map Ongewenste E-mail verplaatst, en de map Ongewenste E-mail naar een andere map.
-ms.openlocfilehash: fd5186bc40d2d80097e6292d86ea113a41e0dd52
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 7b43fb46adacfe1e9f1e7e622122df90e747ff44
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131141"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659427"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Zero-Hour auto opgeschoond (ZAP) in Exchange Online
 
@@ -97,7 +97,7 @@ U moet het normale rapportageproces voor [onjuiste positieven](report-junk-email
 
 ### <a name="what-if-i-use-the-quarantine-folder-instead-of-the-junk-mail-folder"></a>Wat moet ik doen als ik de map Quarantine gebruik in plaats van de map Ongewenste e-mail?
 
-ZAP zal actie ondernemen op een bericht op basis van de configuratie van uw Antispambeleid zoals beschreven in dit onderwerp.
+ZAP zal actie ondernemen op een bericht op basis van de configuratie van uw Antispambeleid zoals eerder in dit artikel wordt beschreven.
 
 ### <a name="what-if-im-using-safe-senders-mail-flow-rules-or-allowedblocked-sender-lists"></a>Wat moet ik doen als ik veilige afzenders, e-mail stroom regels of lijsten met toegestane/geblokkeerde afzenders gebruik?
 

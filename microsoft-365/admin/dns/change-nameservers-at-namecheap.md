@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 84f467f6-28cf-40f0-94d0-a2a27ddfc2e7
 description: 'Leer hoe u uw Microsoft-aangepaste domein instelt met Namecheap als u wilt dat Microsoft uw DNS-records beheert. '
-ms.openlocfilehash: e305abb7768b286dbd24336c1dab39d919f9a0ac
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 0dec28c99bd49d3ba558e11afac8142c7df96591
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646449"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657982"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-namecheap"></a>Naamservers wijzigen voor het instellen van Microsoft met Namecheap
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt.
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt.
   
 Voer de volgende instructies uit als u wilt dat Microsoft uw DNS-records voor u beheert. (Als u wilt, kunt u [al uw Microsoft DNS-records beheren op NameCheap](create-dns-records-at-namecheap.md).)
   
@@ -41,7 +41,7 @@ Voer de volgende instructies uit als u wilt dat Microsoft uw DNS-records voor u 
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account**de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
@@ -60,7 +60,7 @@ Voer de volgende instructies uit als u wilt dat Microsoft uw DNS-records voor u 
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **TXT Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen**selecteert.
+    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert.
   
     ![Namecheap-BP-Verify-1-1](../../media/a5b40973-19b5-4c32-8e1b-1521aa971836.png)
   
@@ -116,7 +116,7 @@ Om het instellen van uw domein met Microsoft te voltooien, kunt u de NS-records 
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account**de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   

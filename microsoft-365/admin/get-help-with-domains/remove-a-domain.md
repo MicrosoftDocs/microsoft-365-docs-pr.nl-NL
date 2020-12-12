@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Meer informatie over het verwijderen van een oud domein uit Microsoft 365 en het verplaatsen van gebruikers en groepen naar een ander domein.
-ms.openlocfilehash: 4eb44914daf500ac48f140bd999a2cf783a9bf83
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: cddbb0ef9cf48147e33b93a4a8def15576edfab5
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645285"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655528"
 ---
 # <a name="remove-a-domain"></a>Een domein verwijderen
 
@@ -38,7 +38,7 @@ ms.locfileid: "48645285"
 
 ::: moniker-end
   
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Verwijdert u uw domein omdat u het aan een ander abonnement van Microsoft 365 wilt toevoegen? Of wilt u uw abonnement gewoon opzeggen? U kunt [uw abonnement wijzigen](../../commerce/subscriptions/switch-to-a-different-plan.md) of [uw abonnement opzeggen](../../commerce/subscriptions/cancel-your-subscription.md).
   
@@ -50,7 +50,7 @@ Verwijdert u uw domein omdat u het aan een ander abonnement van Microsoft 365 wi
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Beheercentrum</a>.
 
-2. Selecteer **gebruikers** van de > **actieve**gebruiker.
+2. Selecteer **gebruikers** van de > **actieve** gebruiker.
 
 3. Schakel de selectievakjes in naast de namen van de gebruikers die u wilt verplaatsen.
 
@@ -66,7 +66,7 @@ U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verw
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Beheercentrum</a>.  
 
-2. Selecteer **gebruikers** van de > **actieve**gebruiker.
+2. Selecteer **gebruikers** van de > **actieve** gebruiker.
 
 3. Schakel de selectievakjes in naast de namen van de gebruikers die u wilt verplaatsen.
 
@@ -82,7 +82,7 @@ U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verw
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>.  
 
-2. Selecteer **gebruikers** van de > **actieve**gebruiker.
+2. Selecteer **gebruikers** van de > **actieve** gebruiker.
 
 3. Schakel de selectievakjes in naast de namen van de gebruikers die u wilt verplaatsen.
 
@@ -100,9 +100,9 @@ U moet dit ook voor uzelf doen, als u zich in het domein bevindt dat u wilt verw
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Beheercentrum</a>.
 
-2. Ga naar **gebruikers** \> van **actieve gebruikers**en selecteer uw account in de lijst.
+2. Ga naar **gebruikers** \> van **actieve gebruikers** en selecteer uw account in de lijst.
 
-3. Selecteer op het tabblad **account** de optie **gebruikersnaam beheren**en kies een ander domein.
+3. Selecteer op het tabblad **account** de optie **gebruikersnaam beheren** en kies een ander domein.
   
 4. Selecteer bovenaan de naam van uw account en selecteer **Afmelden**.
 
@@ -114,9 +114,9 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 ::: moniker range="o365-germany"
 
-1. Ga naar **gebruikers** \> van **actieve gebruikers**en selecteer uw naam in de lijst.
+1. Ga naar **gebruikers** \> van **actieve gebruikers** en selecteer uw naam in de lijst.
 
-2. Selecteer in de sectie **gebruikersnaam/e-mailen** de optie **bewerken**en kies vervolgens een ander domein.
+2. Selecteer in de sectie **gebruikersnaam/e-mailen** de optie **bewerken** en kies vervolgens een ander domein.
 
 3. Selecteer **instellen als primair** > **Opslaan** > **sluiten**.
   
@@ -130,9 +130,9 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar **gebruikers** \> van **actieve gebruikers**en selecteer uw naam in de lijst.
+1. Ga naar **gebruikers** \> van **actieve gebruikers** en selecteer uw naam in de lijst.
 
-2. Selecteer in de sectie **gebruikersnaam/e-mailen** de optie **bewerken**en kies vervolgens een ander domein.
+2. Selecteer in de sectie **gebruikersnaam/e-mailen** de optie **bewerken** en kies vervolgens een ander domein.
 
 3. Selecteer **instellen als primair** > **Opslaan** > **sluiten**.
   
@@ -192,13 +192,13 @@ U kunt ook PowerShell gebruiken om gebruikers te verplaatsen naar een ander dome
 
 ::: moniker range="o365-germany"
 
-1. Ga in het Beheercentrum naar de pagina **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domeinen</a> instellen.
+1. Ga in het Beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domeinen</a> instellen.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het Beheercentrum naar de pagina **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domeinen</a> instellen.
+1. Ga in het Beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domeinen</a> instellen.
 
 ::: moniker-end
   
@@ -227,7 +227,7 @@ Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. 
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Veelgestelde vragen over domeinen](../setup/domains-faq.md)
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml)
 
 [Overstappen op een ander Microsoft 365 voor Bedrijven-abonnement](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

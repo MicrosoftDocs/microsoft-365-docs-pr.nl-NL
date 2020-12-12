@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Beheerders kunnen leren hoe u het auditlogboek van de beheerder kunt weergeven en doorzoeken op zelfstandige Exchange Online Protection (EOP).
-ms.openlocfilehash: 9fe2c742083cde1ca36f6a04cd357a473a10aeac
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: c65c09efa0f90fc9b63d635dae598b24d93ea714
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196541"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659439"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>Het auditlogboek van de beheerder bekijken in standalone EOP
 
@@ -32,7 +32,7 @@ In het auditlogboek voor beheerders worden specifieke acties vastgelegd op basis
 >
 > - Logboekregistratie van beheerders is standaard ingeschakeld, en u kunt deze niet uitschakelen.
 >
-> - Het controlelogboek van de beheerder recordeert geen acties op basis van cmdlets die beginnen met de werkwoorden **Get**, **Search**of **test**.
+> - Het controlelogboek van de beheerder recordeert geen acties op basis van cmdlets die beginnen met de werkwoorden **Get**, **Search** of **test**.
 >
 > - Audit logboekvermeldingen worden gedurende 90 dagen bewaard. Wanneer een item ouder is dan 90 dagen, wordt dit verwijderd
 
@@ -40,18 +40,18 @@ In het auditlogboek voor beheerders worden specifieke acties vastgelegd op basis
 
 - Om het Exchange-Beheercentrum te openen, raadpleegt u het [Exchange-Beheercentrum in zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Specifiek hebt u de rol Auditlogboeken of alleen-lezen rollen nodig die zijn toegewezen aan de ComplianceManagement, de organizationmanagement (globale beheerders) en SecurityAdministrator rollen groepen. Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- U moet machtigingen zijn toegewezen in Exchange Online Protection voordat u de procedures in dit artikel kunt uitvoeren. Specifiek hebt u de rol **audit** Logboeken of **alleen-lezen** rollen nodig die zijn toegewezen aan de rollen groepen **Organisatiebeheer**, **Compliance Management** en **beveiligingsbeheerder** . Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
-- Zie toetscombinaties [voor het Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over toetscombinaties die van toepassing kunnen zijn op de procedures in dit onderwerp.
+- Zie toetscombinaties [voor het Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over toetscombinaties die van toepassing kunnen zijn op de procedures in dit artikel.
 
 > [!TIP]
 > Problemen? Vraag om hulp op het forum van [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
 
 ## <a name="use-the-eac-to-view-the-admin-audit-log"></a>Het controlelogboek van de beheerder weergeven via het Exchange-beheer logboek
 
-1. Ga in het Exchange-Beheercentrum naar **compliance** \> - **controle**en kies vervolgens **het controleverslag rapport van de beheerder uitvoeren**.
+1. Ga in het Exchange-Beheercentrum naar **compliance** \> - **controle** en kies vervolgens **het controleverslag rapport van de beheerder uitvoeren**.
 
 2. Kies een **begindatum** en **einddatum** in de pagina **rollen groepen zoeken naar beheerders** die worden geopend (het standaardbereik is de afgelopen twee weken) en kies vervolgens **zoeken**. Alle configuratie aangebrachte wijzigingen in de opgegeven periode worden weergegeven en kunnen worden gesorteerd met behulp van de volgende informatie:
 
@@ -112,7 +112,7 @@ Zie [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange
 
 ### <a name="view-details-of-audit-log-entries"></a>Details van controlelogboekvermeldingen weergeven
 
-Met de cmdlet **Search-AdminAuditLog** worden de velden geretourneerd die worden beschreven in de sectie inhoud van het [audit logboek](#audit-log-contents) verderop in dit onderwerp. Van de velden die worden geretourneerd door de cmdlets, twee velden, **CmdletParameters** en **ModifiedProperties**, bevatten aanvullende informatie die standaard niet wordt weergegeven.
+Met de cmdlet **Search-AdminAuditLog** worden de velden geretourneerd die worden beschreven in de sectie inhoud van het [audit logboek](#audit-log-contents) verderop in dit artikel. Van de velden die worden geretourneerd door de cmdlets, twee velden, **CmdletParameters** en **ModifiedProperties**, bevatten aanvullende informatie die standaard niet wordt weergegeven.
 
 Voer de volgende stappen uit om de inhoud van de velden **CmdletParameters** en **ModifiedProperties** weer te geven.
 

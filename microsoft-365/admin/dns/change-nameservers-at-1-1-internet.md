@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: Meer informatie over hoe u Office 365, beheerd door 21Vianet, kunt instellen voor het beheren van DNS-records wanneer 1&1 Internet de DNS-hosting provider is.
-ms.openlocfilehash: 8a783be20d2f8dbdb26e9826018f911289b35235
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b363718c7d1d1845117f44317ae9e6b24e9a2e28
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646557"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658030"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Naamservers wijzigen voor het instellen van Microsoft 365 met 1&1 IONOS
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Volg deze instructies als u wilt dat Microsoft 365 uw DNS-records van Microsoft 365 voor u beheert. (Als u wilt, kunt u [al uw DNS-records voor Microsoft 365 beheren bij 1&1 IONOS](create-dns-records-at-1-1-internet.md).) 
   
@@ -66,7 +66,7 @@ Volg onderstaande stappen of [bekijk de video (start op 0:42)](https://support.m
 |TXT  <br/> |(Laat dit veld leeg.)  <br/> |MS=ms *XXXXXXXX* <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365. [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
-7. Selecteer **Opslaan**en **Sla** het bestand opnieuw op. 
+7. Selecteer **Opslaan** en **Sla** het bestand opnieuw op. 
     
 8. Selecteer in het dialoogvenster **Edit DNS Settings** de optie **Yes**.
     

@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: fbcef2d7-ebaf-40d0-ba1f-cdaeff9f50ef
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Azure DNS-zones voor Microsoft.
-ms.openlocfilehash: 40fadb81ebd0ae5385bbbdad727b1c579142b227
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c276570ec1d5ff079348bd8202ea597ef61e88f6
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645669"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656865"
 ---
 # <a name="create-dns-records-for-azure-dns-zones"></a>DNS-records voor Azure DNS-zones maken
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als Azure uw DNS-hosting provider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records in te stellen voor e-mail, Skype voor bedrijven online, enzovoort.
   
@@ -170,7 +170,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 6. Als er andere MX-records worden vermeld in de sectie **MX records** , moet u deze verwijderen. 
     
-    Selecteer eerst de **MX-recordset**in het gebied **DNS zone** .
+    Selecteer eerst de **MX-recordset** in het gebied **DNS zone** .
     
     ![2-3-](../../media/9890da61-6fcd-4c61-888e-ccbb84f80cd0.png)
   

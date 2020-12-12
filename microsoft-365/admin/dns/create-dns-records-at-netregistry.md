@@ -22,16 +22,16 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op netregistry voor Microsoft.
-ms.openlocfilehash: 016df6c61fd6934c1bc46b55c7e110d8442cf1d5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 857645c685cce946b39a7c3dcadb0a45b43686cf
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645969"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657801"
 ---
 # <a name="create-dns-records-at-netregistry-for-microsoft"></a>DNS-records bij netregistry voor Microsoft maken
 
-[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md) als u niet kunt vinden wat u zoekt. 
+[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml) als u niet kunt vinden wat u zoekt. 
   
 Als Netregistry uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
   
@@ -73,7 +73,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
     
     ![Netregistry_selectZoneManager](../../media/e18c32f9-c1e7-4aa2-9aa6-8dc9c5ea44af.png)
   
-4. Kies in de lijst onder **add a zone record**de optie **TXT record** en selecteer **Create New record**.
+4. Kies in de lijst onder **add a zone record** de optie **TXT record** en selecteer **Create New record**.
     
     ![Netregistry_TXT_select](../../media/eb1761e6-9deb-4631-8deb-bc5d09926722.png)
   
@@ -126,11 +126,11 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_selectZoneManager](../../media/914021f6-dff3-4640-84d6-b83cf8f61cf1.png)
   
-4. Verwijder onder **huidige zonerecords**de standaard MX-records door **verwijderen** naast elke MX-record in de lijst te selecteren. 
+4. Verwijder onder **huidige zonerecords** de standaard MX-records door **verwijderen** naast elke MX-record in de lijst te selecteren. 
     
     ![Netregistry_MX_remove](../../media/494670a9-8b8d-46e5-8136-05e82212a115.png)
   
-5. Kies onder **add a zone record**de optie **MX record** in de lijst en selecteer **Create New record**.
+5. Kies onder **add a zone record** de optie **MX record** in de lijst en selecteer **Create New record**.
     
     ![Netregistry_MX_select](../../media/29b60eb9-6c40-490f-9669-e65b65962f37.png)
   
@@ -161,7 +161,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_selectZoneManager](../../media/58384add-0a9d-472b-a5d0-51ec8155fd41.png)
   
-4. Kies in de lijst onder  **add a zone record**de optie **CNAME record** en selecteer **Create New record**.
+4. Kies in de lijst onder  **add a zone record** de optie **CNAME record** en selecteer **Create New record**.
     
     ![Netregistry_CNAME_CreateNewRecord](../../media/7b4f133f-45da-48da-93c0-62f57c786165.png)
   
@@ -203,7 +203,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_selectZoneManager](../../media/372e5918-b6dc-4268-8f9a-0aa71d65deef.png)
   
-4. Kies in de lijst onder **add a zone record**de optie **TXT record** en selecteer **Create New record**.
+4. Kies in de lijst onder **add a zone record** de optie **TXT record** en selecteer **Create New record**.
     
     ![Netregistry_TXT_select](../../media/a2930d03-853a-4f1e-9205-d00f25bed35f.png)
   
@@ -237,7 +237,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     
     ![Netregistry_selectZoneManager](../../media/f122888b-3cc5-40ec-adac-0ede04799d9a.png)
   
-4. Kies onder  **add a zone record**de optie **SRV record** in de lijst en selecteer vervolgens **Create New record**.
+4. Kies onder  **add a zone record** de optie **SRV record** in de lijst en selecteer vervolgens **Create New record**.
     
     ![Netregistry_SRV_select](../../media/e5dab850-acd1-48b8-8b4a-e3b9777cf508.png)
   

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Rapporten voor Microsoft Defender voor Office 365 zoeken en gebruiken in het beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2818362eea4071430bb2c784ceb0ce0eeb970a79
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 82c003478538274be1dd1d2e04816de80d1eae6d
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615574"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659451"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Rapporten van Defender for Office 365 weergeven in het Dashboard rapporten in het nalevings centrum voor beveiligings &
 
@@ -35,7 +35,7 @@ Bedrijven van Microsoft Defender voor Office 365 (bijvoorbeeld Microsoft 365 E5-
 
 ![Het Dashboard rapporten in het nalevings centrum voor beveiligings &](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="defender-for-office-365-file-types-report"></a>Rapport met bestandstypen voor Defender voor Office 365
+## <a name="defender-for-office-365-file-types-report"></a>Rapport over bestandstypen voor Defender voor Office 365
 
 In het rapport met het **rapport bestandstypen voor 365 van** wordt weergegeven welk type bestanden als schadelijk voor [veilige bijlagen](atp-safe-attachments.md)is gedetecteerd.
 
@@ -119,7 +119,7 @@ Als u klikt op **Details tabel weergeven**, biedt het rapport een vrijwel realti
 
 Als u wilt teruggaan naar de weergave rapporten, klikt u op **rapport weergeven**.
 
-## <a name="defender-for-office-365-message-disposition-report"></a>Rapport over afwezigheid voor Office 365-bericht
+## <a name="defender-for-office-365-message-disposition-report"></a>Rapport over berichtverwerking voor Defender voor Office 365
 
 In het rapport vrije voorkeuren voor **ATP-berichten** ziet u de acties die zijn ondernomen voor e-mailberichten die zijn gevonden met schadelijke inhoud.
 
@@ -313,7 +313,7 @@ Als u klikt op **Details tabel weergeven**, biedt het rapport een vrijwel realti
 - **Klik op tijd**
 - **Gebruiker**
 - **URL**
-- **Actierij**
+- **Actie**
 - **App**
 
 Als u in de weergave Details op **filters** klikt, kunt u filteren op dezelfde criteria als in de rapportweergave, en ook op **domeinen** of **geadresseerden** , gescheiden door komma's.
@@ -322,7 +322,7 @@ Als u wilt teruggaan naar de weergave rapporten, klikt u op **rapport weergeven*
 
 ## <a name="additional-reports-to-view"></a>Extra rapporten om weer te geven
 
-Naast de rapporten die in dit onderwerp worden beschreven, zijn er nog enkele andere rapporten beschikbaar, zoals beschreven in de volgende tabel:
+Naast de in dit artikel beschreven rapporten, zijn er nog enkele andere rapporten beschikbaar, zoals wordt beschreven in de volgende tabel:
 
 ****
 
@@ -338,7 +338,7 @@ Naast de rapporten die in dit onderwerp worden beschreven, zijn er nog enkele an
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Welke machtigingen zijn vereist voor het weergeven van de rapporten van de Defender for Office 365?
 
-Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden beschreven, moet u lid zijn van een van de volgende rollen groepen in het compliance-& Beveiligingscentrum:
+Voor het weergeven en gebruiken van de rapporten die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollen groepen in het compliance-& Beveiligingscentrum:
 
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
@@ -347,7 +347,7 @@ Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden bes
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-**Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+**Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat moet ik doen als de rapporten geen gegevens weergeven?
 

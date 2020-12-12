@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: d4ba60f3-4e1c-4180-99bd-250b8955be2a
 description: 'Leer hoe u uw Microsoft-aangepaste domein instelt met Network Solutions als u wilt dat Microsoft uw DNS-records beheert. '
-ms.openlocfilehash: 1cb5cd3cc8628a629fb6d7044063914e37adfac2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 04817ca24b13b4c138986df3875b6d397100fffd
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646401"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658426"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-network-solutions"></a>Naamservers wijzigen voor het instellen van Microsoft met Network Solutions
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt.
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt.
   
 Voer de volgende instructies uit als u wilt dat Microsoft uw DNS-records voor u beheert. (Als u wilt, kunt u [al uw Microsoft DNS-records beheren bij Network Solutions](create-dns-records-at-network-solutions.md).)
   
@@ -120,7 +120,7 @@ Om het instellen van uw domein met Microsoft te voltooien, kunt u de NS-records 
 Bent u klaar voor het wijzigen van uw NS-records zodat Microsoft uw domein kan instellen? Volg onderstaande stappen of [bekijk de video (start bij 2:23)](https://support.microsoft.com/office/69b092e3-c026-4d19-a7d0-16cdb2d8b261).
   
 > [!IMPORTANT]
->  Wanneer u de stappen in deze sectie hebt voltooid, kunt u  *alleen*  de volgende vier naamservers in de lijst vinden **: ns1.BDM.microsoftonline.com**, **ns2.BDM.microsoftonline.com**, **ns3.BDM.microsoftonline.com**en **ns4.BDM.microsoftonline.com**. In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de  *juiste*  naamservers toevoegt als deze niet al in de lijst staan. 
+>  Wanneer u de stappen in deze sectie hebt voltooid, kunt u  *alleen*  de volgende vier naamservers in de lijst vinden **: ns1.BDM.microsoftonline.com**, **ns2.BDM.microsoftonline.com**, **ns3.BDM.microsoftonline.com** en **ns4.BDM.microsoftonline.com**. In de volgende procedure kunt u zien hoe u andere, ongewenste naamservers uit de lijst verwijdert en hoe u de  *juiste*  naamservers toevoegt als deze niet al in de lijst staan. 
   
 1. Als u wilt beginnen, gaat u [via deze koppeling](https://www.networksolutions.com/manage-it) naar uw pagina met domeinen bij Network Solutions. U wordt gevraagd u aan te melden.
     

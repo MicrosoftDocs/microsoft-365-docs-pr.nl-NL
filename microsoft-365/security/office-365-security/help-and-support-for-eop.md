@@ -12,19 +12,19 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft biedt hulp bij EOP op diverse locaties en methoden, waaronder ondersteuning voor ondersteuning en ondersteuning.
-ms.openlocfilehash: 3d11abee08fa3fdd7dfb659bd90e29908f9e4bda
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 7551a792c1d9c10cf5c655dade04bb5606b75f04
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614856"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658693"
 ---
 # <a name="help-and-support-for-eop"></a>Help en ondersteuning voor EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken kunnen de technische ondersteuningsbronnen in dit onderwerp helpen bij het vinden van antwoorden als u problemen ondervindt met EOP. Microsoft biedt hulp bij EOP op diverse locaties en methoden, waaronder ondersteuning voor ondersteuning en ondersteuning.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken worden de technische ondersteuningsbronnen in dit artikel helpt bij het vinden van antwoorden als u problemen ondervindt met EOP. Microsoft biedt hulp bij EOP op diverse locaties en methoden, waaronder ondersteuning voor ondersteuning en ondersteuning.
 
 ## <a name="self-support-options"></a>Opties voor automatische ondersteuning
 

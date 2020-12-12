@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Cloudflare voor Microsoft.
-ms.openlocfilehash: 301ed156584d9a9a2b84b88db7d6969ade5b34a2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 110bd96c0eecf40ae96efe7055d82a8d12dde607
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646149"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657958"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>DNS-records bij Cloudflare maken voor Microsoft
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als Cloudflare uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
   
@@ -84,7 +84,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
 3. Selecteer op de pagina **Overview** voor uw domein de optie **DNS**.
 
   
-4. Klik op de pagina **DNS-beheer** op **record toevoegen**en selecteer vervolgens de waarden uit de volgende tabel. 
+4. Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de volgende tabel. 
     
     |**Type**|**Name**|**Automatic TTL**|**Content**|
     |:-----|:-----|:-----|:----|
@@ -128,7 +128,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 3. Selecteer op de pagina **Overview** voor uw domein de optie **DNS**.
 
   
-4. Klik op de pagina **DNS-beheer** op **record toevoegen**en selecteer vervolgens de waarden uit de volgende tabel. 
+4. Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de volgende tabel. 
     
     |**Type**|**Name**|**Mail server**|**Priority**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
@@ -156,7 +156,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 4. Voeg de eerste van de vijf CNAME-records toe.
     
-    Klik op de pagina **DNS-beheer** op **record toevoegen**en selecteer vervolgens de waarden uit de volgende tabel.
+    Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de volgende tabel.
     
     
     |**Type**|**Naam**|**Doel**|**TTL**|
@@ -190,7 +190,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 3. Selecteer op de pagina **Overview** voor uw domein de optie **DNS**.
 
   
-4. Klik op de pagina **DNS-beheer** op **record toevoegen**en selecteer vervolgens de waarden uit de volgende tabel.  
+4. Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de volgende tabel.  
     
     |**Type**|**Name**|**TTL**|**Content**|
     |:-----|:-----|:-----|:-----|
@@ -215,7 +215,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 4. Voeg de eerste van de twee SRV-records toe.
 
-    Klik op de pagina **DNS-beheer** op **record toevoegen**en selecteer vervolgens de waarden uit de eerste rij van de volgende tabel.
+    Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de eerste rij van de volgende tabel.
         
     |**Type**|**Service**|**Protocol**|**Naam**|**TTL**|**Prioriteit**|**Gewicht**|**Poort**|**Doel**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

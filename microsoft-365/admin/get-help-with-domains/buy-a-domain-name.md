@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Meer informatie over het kopen van een domeinnaam in Microsoft 365.
-ms.openlocfilehash: f636b9e6afc1e910a6b0c01a58a4e69127c80772
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d8c0bac5921b5cb3efacffdfee3ab948857b8a1f
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645513"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658609"
 ---
 # <a name="buy-a-domain-name"></a>Een domeinnaam kopen
 
@@ -42,7 +42,7 @@ ms.locfileid: "48645513"
 
  *Als u domeinen wilt toevoegen, wijzigen of verwijderen, **moet** u een **globale beheerder** van een [zakelijk of Enterprise-abonnement](https://products.office.com/business/office)zijn. Deze wijzigingen zijn van invloed op de hele Tenant, *aangepaste beheerders* of *gewone gebruikers* kunnen deze wijzigingen niet aanbrengen.*  
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 ### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Aanmelden en ga naar instellingen \> domeinen \> een domein kopen
 
@@ -74,7 +74,7 @@ U kunt kiezen uit de volgende topleveldomeinen voor uw domein.
     
 
 > [!NOTE]
-> Als u **domein kopen**selecteert, wordt u mogelijk doorgestuurd naar de website van uw Microsoft-partner als de Tenant via een Microsoft-partner is aangeschaft of wordt beheerd.
+> Als u **domein kopen** selecteert, wordt u mogelijk doorgestuurd naar de website van uw Microsoft-partner als de Tenant via een Microsoft-partner is aangeschaft of wordt beheerd.
 
 ### <a name="domain-privacy"></a>Privacy van domein
 We bieden een gratis privacy-abonnement voor het domein met de aankoop van een domein. Hiermee blijven uw contactgegevens bij de registratie van uw domein bijgevoegd met ICANN private. [Meer informatie.](https://whois.icann.org/en/privacy-and-proxy-services)
@@ -128,6 +128,6 @@ Nadat u uw domein hebt geregistreerd (bij een domeinregistratieservice), meldt u
 
 [Een domein toevoegen aan Microsoft 365](../setup/add-domain.md)
 
-[Veelgestelde vragen over domeinen](../setup/domains-faq.md)
+[Veelgestelde vragen over domeinen](../setup/domains-faq.yml)
 
 [DNS-records bijwerken als u uw website bij uw huidige hosting provider wilt houden](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider).

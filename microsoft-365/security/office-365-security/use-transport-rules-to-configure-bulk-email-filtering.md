@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over het gebruik van regels voor e-mail stroom (transportregels) voor het identificeren en filteren van bulkmail (grijze e-mail) in Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f88358973648846d650700bb5939c052851c789
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: b029e805147218551ba6ff80fb5abfda3fbfef7f
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615634"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658635"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>E-mailstroomregels gebruiken om bulk-e-mail te filteren in standalone EOP
 
@@ -36,11 +36,13 @@ In dit onderwerp wordt uitgelegd hoe u deze regels voor de e-mail stroom maakt i
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U moet machtigingen toegewezen hebben voordat u de volgende procedures kunt uitvoeren:
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor Exchange Online of Exchange Online Protection. Specifiek hebt u de rol van **transport regels** nodig, dat is toegewezen aan **Organisatiebeheer**, **nalevings beheer** (globale beheerders) en rollen groepen voor **recordbeheer** .
 
-  - In Exchange Online raadpleegt u de invoer voor de e-mail stroom in [Functiemachtigingen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/feature-permissions).
+  Zie de volgende onderwerpen voor meer informatie:
 
-  - In zelfstandige EOP hebt u de rol Transport regel nodig, die standaard is toegewezen aan de rollen de organizationmanagement, ComplianceManagement en RecordsManagement. Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+  - [Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+  - [Machtigingen in standalone EOP](feature-permissions-in-eop.md)
+  - [Werken met de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - Zie [Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center)om het SBV te openen in Exchange Online. Als u het Exchange-Beheercentrum in standalone EOP wilt openen, raadpleegt u [Exchange Admin Center in STANDALONE EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 

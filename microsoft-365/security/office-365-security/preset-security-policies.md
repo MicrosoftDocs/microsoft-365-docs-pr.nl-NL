@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen de standaard-en strikte beleidsinstellingen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
-ms.openlocfilehash: fb613916ec375214b33b8b842c6817561920715d
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: a77201835652fb36822fbc603f5211c1f7a9521b
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616042"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659230"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingesteld beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
@@ -102,13 +102,15 @@ Met andere woorden: de instellingen van het **strikte beveiligings** beleid nege
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u direct naar de pagina **vooraf ingesteld beveiligingsbeleid** wilt gaan, gebruikt u <https://protection.office.com/presetSecurityPolicies> .
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
+- Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
+  - Voor het configureren van vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+  - Voor alleen-lezen toegang voor vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van de rollen groep **algemene lezer** .
 
-  - Voor het configureren van vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van de rollen **Organisatiebeheer** of **beveiligingsbeheerder** in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-  - Voor alleen-lezen toegang voor vooraf ingestelde beveiligingsbeleidsregels moet u lid zijn van de rollen groep **algemene lezer** in het [beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
+  **Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Met behulp van het compliance-beveiligings & u vooraf ingestelde beveiligingsbeleidsregels aan gebruikers toewijzen
 

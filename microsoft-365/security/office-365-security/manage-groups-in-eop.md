@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders in zelfstandige Exchange Online Protection-organisaties (EOP) kunnen leren hoe u distributiegroepen en beveiligingsgroepen met e-mail kunt maken, wijzigen en verwijderen in het Exchange Admin Center (PowerShell) en zelfstandige Exchange Online Protection (EOP) PowerShell.
-ms.openlocfilehash: a395c0738093a00c0225aea22a6e556863eebee5
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 5ff7c61d51ded039b06d1faa98ba6390939b3413
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201875"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658843"
 ---
 # <a name="manage-groups-in-eop"></a>Groepen beheren in EOP
 
@@ -44,13 +44,13 @@ U kunt groepen beheren in het Exchange Admin Center (SBV) en zelfstandige EOP Po
 
 - Om het Exchange-Beheercentrum te openen, raadpleegt u het [Exchange-Beheercentrum in zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Wanneer u groepen beheert in zelfstandige EOP PowerShell, kan dit leiden tot vertraging. Voor de PowerShell-procedures in dit onderwerp wordt een batch verwerkingsmethode gebruikt waarmee de vertragings vertraging van een paar minuten wordt veroorzaakt voordat de resultaten van de opdrachten zichtbaar zijn.
+- Wanneer u groepen beheert in zelfstandige EOP PowerShell, kan dit leiden tot vertraging. In de PowerShell-procedures in dit artikel wordt gebruikgemaakt van een batch verwerkingsmethode waarmee de vertragings vertraging van een paar minuten wordt veroorzaakt voordat de resultaten van de opdrachten zichtbaar zijn.
 
-- U moet beschikken over bepaalde machtigingen om deze procedures te kunnen uitvoeren. Specifiek hebt u de rol van distributiegroepen nodig, dat is toegewezen aan de de organizationmanagement (algemene beheerders) en RecipientManagement rollen groepen. Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- U moet machtigingen zijn toegewezen in Exchange Online Protection voordat u de procedures in dit artikel kunt uitvoeren. Specifiek hebt u de rol van **distributiegroepen** nodig, die standaard is toegewezen aan de rollen groepen **Organisatiebeheer** en **geadresseerden beheren** . Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
-- Zie toetscombinaties [voor het Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over toetscombinaties die van toepassing kunnen zijn op de procedures in dit onderwerp.
+- Zie toetscombinaties [voor het Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over toetscombinaties die van toepassing kunnen zijn op de procedures in dit artikel.
 
 > [!TIP]
 > Problemen? Vraag om hulp op het forum van [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
@@ -79,7 +79,7 @@ U kunt groepen beheren in het Exchange Admin Center (SBV) en zelfstandige EOP Po
 
    - <sup>\*</sup>**Eigenaren**: een groepseigenaar kan groepslidmaatschap beheren. Standaard is de persoon die een groep maakt, de eigenaar. Alle groepen moeten minimaal één eigenaar hebben.
 
-     Als u eigenaren wilt **Add** toevoegen, klikt u op ![ pictogram toevoegen toevoegen ](../../media/ITPro-EAC-AddIcon.png) . In het dialoogvenster dat wordt weergegeven, zoekt en selecteert u een geadresseerde of groep en klikt u vervolgens op **add->**. Herhaal deze stap zo vaak als nodig is. Wanneer u klaar bent, klikt u op **OK**.
+     Als u eigenaren wilt  toevoegen, klikt u op ![ pictogram toevoegen toevoegen ](../../media/ITPro-EAC-AddIcon.png) . In het dialoogvenster dat wordt weergegeven, zoekt en selecteert u een geadresseerde of groep en klikt u vervolgens op **add->**. Herhaal deze stap zo vaak als nodig is. Wanneer u klaar bent, klikt u op **OK**.
 
      Als u een eigenaar wilt verwijderen, selecteert u de eigenaar en klikt **u op** ![ pictogram verwijderen ](../../media/ITPro-EAC-RemoveIcon.gif) .
 
@@ -119,7 +119,7 @@ Via dit tabblad kunt u algemene informatie over de groep weergeven of wijzigen.
 
 Gebruik dit tabblad om groepseigenaren toe te wijzen. Een groepseigenaar kan groepslidmaatschap beheren. Standaard is de persoon die een groep maakt, de eigenaar. Alle groepen moeten minimaal één eigenaar hebben.
 
-Als u eigenaren wilt **Add** toevoegen, klikt u op ![ pictogram toevoegen toevoegen ](../../media/ITPro-EAC-AddIcon.png) . In het dialoogvenster dat wordt weergegeven, zoekt en selecteert u een geadresseerde en klikt u vervolgens op **add->**. Herhaal deze stap zo vaak als nodig is. Wanneer u klaar bent, klikt u op **OK**.
+Als u eigenaren wilt  toevoegen, klikt u op ![ pictogram toevoegen toevoegen ](../../media/ITPro-EAC-AddIcon.png) . In het dialoogvenster dat wordt weergegeven, zoekt en selecteert u een geadresseerde en klikt u vervolgens op **add->**. Herhaal deze stap zo vaak als nodig is. Wanneer u klaar bent, klikt u op **OK**.
 
 Als u een eigenaar wilt verwijderen, selecteert u de eigenaar en klikt **u op** ![ pictogram verwijderen ](../../media/ITPro-EAC-RemoveIcon.gif) .
 
@@ -229,7 +229,7 @@ Zie [Remove-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/e
 
 Voer een van de volgende stappen uit om te controleren of u een distributiegroep of een beveiligingsgroep met e-mail hebt gemaakt, gewijzigd of verwijderd:
 
-- Ga in het Exchange-beheercentrum naar **Geadresseerden** \> **Groepen**. Controleer of de groep wel of niet in de lijst staat, en controleer de waarde van het **groeps type** . Selecteer de groep en Bekijk de informatie in het detailvenster of klik op **Edit** ![ bewerkingspictogram bewerken ](../../media/ITPro-EAC-AddIcon.png) om de instellingen weer te geven.
+- Ga in het Exchange-beheercentrum naar **Geadresseerden** \> **Groepen**. Controleer of de groep wel of niet in de lijst staat, en controleer de waarde van het **groeps type** . Selecteer de groep en Bekijk de informatie in het detailvenster of klik op  ![ bewerkingspictogram bewerken ](../../media/ITPro-EAC-AddIcon.png) om de instellingen weer te geven.
 
 - Voer in standalone EOP PowerShell de volgende opdracht uit om te controleren of de groep wordt weergegeven (of niet wordt weergegeven):
 

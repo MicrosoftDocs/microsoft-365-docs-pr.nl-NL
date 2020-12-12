@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 54ae2002-b38e-43a1-82fa-3e49d78fda56
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op NameCheap voor Microsoft.
-ms.openlocfilehash: 25b40dad0eb47c190df9496d5df4f061d8fdba6d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 1e0fa8839e4ceae5074059d6ae05e3c7456611c2
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645921"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657837"
 ---
 # <a name="create-dns-records-at-namecheap-for-microsoft"></a>DNS-records bij namecheap maken voor Microsoft
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als Namecheap uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
   
@@ -53,7 +53,7 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account**de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
@@ -72,7 +72,7 @@ Voer de onderstaande stappen uit:
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **TXT Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen**selecteert. 
+    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert. 
   
     ![Namecheap-BP-Verify-1-1](../../media/a5b40973-19b5-4c32-8e1b-1521aa971836.png)
   
@@ -123,7 +123,7 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account**de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
@@ -181,7 +181,7 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account**de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
@@ -200,7 +200,7 @@ Voer de onderstaande stappen uit:
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **CNAME Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen**selecteert. 
+    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert. 
   
     ![Namecheap-BP-Configure-3-1](../../media/0898f3b2-06ab-4364-a86a-a603a25b39f4.png)
   
@@ -233,7 +233,7 @@ Voer de onderstaande stappen uit:
   
 1. Ga eerst naar de domeinenpagina bij Namecheap via [deze koppeling](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). U wordt gevraagd u aan te melden en verder te gaan.
     
-2. Kies op de **openings** pagina onder **account**de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
@@ -252,7 +252,7 @@ Voer de onderstaande stappen uit:
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **TXT Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen**selecteert. 
+    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert. 
   
     ![Namecheap-BP-Configure-4-1](../../media/c5d1fddb-28b5-48ec-91c9-3e5d3955ac80.png)
   
@@ -277,7 +277,7 @@ Voer de onderstaande stappen uit:
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. Kies op de **openings** pagina onder **account**de optie **Domain List** in de vervolgkeuzelijst. 
+2. Kies op de **openings** pagina onder **account** de optie **Domain List** in de vervolgkeuzelijst. 
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
@@ -296,7 +296,7 @@ Voer de onderstaande stappen uit:
 6. Selecteer in de vervolgkeuzelijst **Type** de optie **SRV Record**.
     
     > [!NOTE]
-    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen**selecteert. 
+    > De vervolgkeuzelijst **type** wordt automatisch weergegeven wanneer u **nieuwe record toevoegen** selecteert. 
   
     ![Namecheap-BP-Configure-5-1](../../media/fd55cd7c-2243-4de1-8d39-2c3f7ea3ae51.png)
   

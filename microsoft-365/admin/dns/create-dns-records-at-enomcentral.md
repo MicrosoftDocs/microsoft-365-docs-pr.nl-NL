@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: a6626053-a9c8-445b-81ee-eeb6672fae77
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op eNomCentral voor Microsoft.
-ms.openlocfilehash: c60c33f4be94e2f7719fdfc583500c6d1164991d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e6e05b987a893da582ea7fb062eafe421861b970
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646161"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658109"
 ---
 # <a name="create-dns-records-at-enomcentral-for-microsoft"></a>DNS-records bij eNomCentral maken voor Microsoft
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt.
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt.
 
 Als eNomCentral uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online, enzovoort in te stellen.
 
@@ -53,7 +53,7 @@ Volg onderstaande stappen of [bekijk de video (start op 0:46)](https://support.m
 
    ![eNom voor 1-1](../../media/6f754710-fd29-4a0a-b362-fa7a5c5ff74f.png)
 
-2. Selecteer onder **My Domains**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **My Domains** de naam van het domein dat u wilt bewerken.
 
    ![eNom voor 1-2](../../media/09d53e84-371c-4704-a8ce-e429ce9e133a.png)
 
@@ -101,7 +101,7 @@ Volg onderstaande stappen of [bekijk de video (start op 3:40)](https://support.m
 
    ![eNom voor 1-1](../../media/6f754710-fd29-4a0a-b362-fa7a5c5ff74f.png)
 
-2. Selecteer onder **My Domains**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **My Domains** de naam van het domein dat u wilt bewerken.
 
    ![eNom voor 1-2](../../media/09d53e84-371c-4704-a8ce-e429ce9e133a.png)
 
@@ -142,7 +142,7 @@ Volg onderstaande stappen of [bekijk de video (start op 4:24)](https://support.m
 
    ![eNom voor 1-1](../../media/6f754710-fd29-4a0a-b362-fa7a5c5ff74f.png)
 
-2. Selecteer onder **My Domains**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **My Domains** de naam van het domein dat u wilt bewerken.
 
    ![eNom voor 1-2](../../media/09d53e84-371c-4704-a8ce-e429ce9e133a.png)
 
@@ -184,7 +184,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:12)](https://support.m
 
    ![eNom voor 1-1](../../media/6f754710-fd29-4a0a-b362-fa7a5c5ff74f.png)
 
-2. Selecteer onder **My Domains**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **My Domains** de naam van het domein dat u wilt bewerken.
 
    ![eNom voor 1-2](../../media/09d53e84-371c-4704-a8ce-e429ce9e133a.png)
 
@@ -215,7 +215,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:50)](https://support.m
 
    ![eNom voor 1-1](../../media/6f754710-fd29-4a0a-b362-fa7a5c5ff74f.png)
 
-2. Selecteer onder **My Domains**de naam van het domein dat u wilt bewerken.
+2. Selecteer onder **My Domains** de naam van het domein dat u wilt bewerken.
 
    ![eNom voor 1-2](../../media/09d53e84-371c-4704-a8ce-e429ce9e133a.png)
 
@@ -223,7 +223,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:50)](https://support.m
 
    ![eNom voor 1-5](../../media/c92c514c-8166-4cba-97e3-ee1d9847d255.png)
 
-4. Selecteer aan de rechterkant van **nieuwe rij**de optie **SRV-of SPF-record toevoegen**.
+4. Selecteer aan de rechterkant van **nieuwe rij** de optie **SRV-of SPF-record toevoegen**.
 
    ![eNom voor 5-1](../../media/c73c154d-5aa0-41ef-be25-f43129eb178c.png)
 

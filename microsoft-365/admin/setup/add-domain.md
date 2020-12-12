@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Voeg uw domein toe aan Microsoft 365 in het Microsoft 365-Beheercentrum door een DNS-record toe te voegen aan uw DNS-host. De installatiewizard begeleidt u bij het proces.
-ms.openlocfilehash: 3a4cd31a37eb01570f58e9cdb83940640768a273
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3e7463bd4cf6b7836a9770421e0b8ce597524a67
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644613"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658049"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "48644613"
 
 ::: moniker-end
 
- **[Raadpleeg de veelgestelde vragen over domeinen](domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
  *Als u domeinen wilt toevoegen, wijzigen of verwijderen, **moet** u een **globale beheerder** van een [zakelijk of Enterprise-abonnement](https://products.office.com/business/office)zijn. Deze wijzigingen zijn van invloed op de hele Tenant, *aangepaste beheerders* of *gewone gebruikers* kunnen deze wijzigingen niet aanbrengen.*  
 
@@ -114,7 +114,7 @@ Voer de onderstaande stappen uit om een aangepaste record toe te voegen voor een
 
 3. Selecteer een domein op de pagina **Domeinen**. 
     
-4. Selecteer **aangepaste records**onder **DNS-instellingen**. Selecteer vervolgens **nieuwe aangepaste record**.
+4. Selecteer **aangepaste records** onder **DNS-instellingen**. Selecteer vervolgens **nieuwe aangepaste record**.
 
 5. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
     
@@ -151,7 +151,7 @@ Als uw bedrijf een website heeft, blijft die gewoon werken. De installatiestappe
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Veelgestelde vragen over domeinen](domains-faq.md)
+[Veelgestelde vragen over domeinen](domains-faq.yml)
 
 [Wat is een domein?](../get-help-with-domains/what-is-a-domain.md)
 

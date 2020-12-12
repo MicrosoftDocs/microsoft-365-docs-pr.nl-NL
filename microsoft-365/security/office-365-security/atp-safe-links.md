@@ -26,19 +26,19 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel kunnen beheerders informatie bieden over beveiliging van veilige koppelingen in Defender voor Office 365 om hun organisatie tegen phishing en andere aanvallen met schadelijke Url's te beschermen.
-ms.openlocfilehash: f2a747b0776a16ac981158ab866f28699583a06b
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 066732e2f1a886e303fea86730baeb78c8152990
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616318"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659487"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Veilige koppelingen in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten met [Microsoft Defender voor Office 365](office-365-atp.md). Als u gebruikmaakt van Outlook.com, Microsoft 365 Family of Microsoft 365 Personal en u zoekt naar informatie over Safelinks in Outlook, raadpleegt u [geavanceerde beveiliging van Outlook.com](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](office-365-atp.md) hebben. Als u gebruikmaakt van Outlook.com, Microsoft 365 Family of Microsoft 365 Personal en u zoekt naar informatie over Safelinks in Outlook, raadpleegt u [geavanceerde beveiliging van Outlook.com](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Veilige koppelingen is een functie in [Defender voor Office 365](office-365-atp.md) waarmee u de inkomende e-mailberichten in de e-mail stroom kunt scannen en opnieuw kunt schrijven, en de gewenste verificatie van url's en koppelingen in e-mailberichten en andere locaties. Het scannen van veilige koppelingen vindt u naast de regelmatige [antispam en anti-malware bescherming](anti-spam-and-anti-malware-protection.md) in inkomende e-mailberichten in Exchange Online Protection (EOP). Met behulp van veilige koppelingen scannen kunt u uw organisatie beschermen tegen kwaadaardige koppelingen die worden gebruikt in phishing en andere aanvallen.
 
@@ -50,7 +50,7 @@ Beveiliging van veilige koppelingen is beschikbaar op de volgende locaties:
 
 - **Microsoft teams** (momenteel in de preview-versie van het lint): beveiliging van veilige koppelingen voor koppelingen in teams-gesprekken, groepsgesprekken of van kanalen wordt ook bestuurd door beleidsregels voor veilige koppelingen. Er is geen standaardbeleid voor veilige koppelingen, **dus als u de beveiliging van veilige koppelingen in teams wilt instellen, moet u een of meer beleidsregels voor veilige koppelingen maken**.
 
-  Zie de sectie [instellingen voor veilige koppelingen voor Microsoft teams](#safe-links-settings-for-microsoft-teams) verderop in dit onderwerp voor meer informatie over beveiliging van veilige koppelingen in teams.
+  Zie de sectie [instellingen voor veilige koppelingen voor Microsoft teams](#safe-links-settings-for-microsoft-teams) verderop in dit artikel voor meer informatie over beveiliging van veilige koppelingen in teams.
 
 - **Apps van office 365**: beveiliging van veilige koppelingen voor Office 365-apps is beschikbaar in de ondersteunde Desktop-, Mobile-en Web-APS. U **configureert** de bescherming voor veilige koppelingen voor Office 365-apps in de globale instelling **buiten** het beleid voor veilige koppelingen. Zie [algemene instellingen configureren voorinstellingen voor veilige koppelingen in Microsoft Defender voor Office 365](configure-global-settings-for-safe-links.md)voor instructies.
 
@@ -80,8 +80,8 @@ In de volgende tabel wordt beschreven hoe u veilige koppelingen in Microsoft 365
 |Jean maakt deel uit van de marketingafdeling. Beveiliging van veilige koppelingen voor Office 365-apps is ingeschakeld in de algemene instellingen voor veilige koppelingen en een beleid voor veilige koppelingen dat van toepassing is op leden van de marketingafdeling. Jean opent een PowerPoint-presentatie in een e-mailbericht en klikt op een URL in de presentatie.|Jean is beveiligd met behulp van veilige koppelingen. <p> Jean maakt deel uit van een beleid voor veilige koppelingen, en beveiliging van beveiligde koppelingen voor Office 365-apps is ingeschakeld. <p> Zie de sectie [instellingen voor veilige koppelingen voor office 365](#safe-links-settings-for-office-365-apps) -apps verderop in dit artikel voor meer informatie over de vereisten voor de bescherming van veilige koppelingen in Office 365-apps.|
 |De organisatie van Chris Microsoft 365 E5 heeft geen beleid voor veilige koppelingen geconfigureerd. Chris ontvangt een e-mailbericht van een externe afzender die een URL bevat naar een schadelijke website waarop hij uiteindelijk klikt.|Chris is niet beveiligd via veilige koppelingen. <p> Een beheerder moet ten minste één beleid voor veilige koppelingen maken voor iedereen om veilige koppelingen te beschermen in inkomende e-mailberichten. Chris moet zijn opgenomen in de voorwaarden van het beleid om de bescherming van veilige koppelingen te voorkomen.|
 |In de organisatie van de Pat hebben beheerders geen beleid voor veilige koppelingen gemaakt, maar beveiliging van Office 365-apps is ingeschakeld. Pat opent een Word-document en klikt op een URL in het bestand.|Pat is niet beveiligd door veilige koppelingen. <p> Hoewel de bescherming van veilige koppelingen voor Office 365-apps algemeen is ingeschakeld, is Pat niet opgenomen in actieve beleidsregels voor veilige koppelingen, zodat de beveiliging niet kan worden toegepast.|
-|De organisatie van Lee `https://tailspintoys.com` is geconfigureerd in de lijst **de volgende Url's blokkeren** in de algemene instellingen voor veilige koppelingen. Er bestaat al een beleid voor veilige koppelingen met de optie Lee. Lee ontvangt een e-mailbericht met de URL `https://tailspintoys.com/aboutus/trythispage` . Lee: klikken op de URL.|De URL wordt mogelijk automatisch geblokkeerd voor Lee. Dit hangt af van de URL-vermelding in de lijst en de e-mailclient Lee die wordt gebruikt. Zie voor meer informatie de sectie [' de volgende Url's blokkeren voor veilige koppelingen '](#block-the-following-urls-list-for-safe-links) verderop in dit onderwerp.|
-|Jan en Julia beide werken voor contoso.com. Lang geleden, beheerders die het beleid voor veilige koppelingen voor beheerders hebben geconfigureerd, gelden voor zowel Janny als Julia. Jan verzendt een e-mailbericht naar Julia, en weet niet dat het e-mailbericht een schadelijke URL bevat.|Julia is beveiligd met behulp van veilige koppelingen **als** het beleid voor veilige koppelingen dat van toepassing is, is geconfigureerd voor het toepassen van berichten tussen interne geadresseerden. Zie voor meer informatie de sectie [instellingen voor veilige koppelingen voor e-mailberichten](#safe-links-settings-for-email-messages) verderop in dit onderwerp.|
+|De organisatie van Lee `https://tailspintoys.com` is geconfigureerd in de lijst **de volgende Url's blokkeren** in de algemene instellingen voor veilige koppelingen. Er bestaat al een beleid voor veilige koppelingen met de optie Lee. Lee ontvangt een e-mailbericht met de URL `https://tailspintoys.com/aboutus/trythispage` . Lee: klikken op de URL.|De URL wordt mogelijk automatisch geblokkeerd voor Lee. Dit hangt af van de URL-vermelding in de lijst en de e-mailclient Lee die wordt gebruikt. Zie voor meer informatie de sectie [' de volgende Url's blokkeren voor veilige koppelingen '](#block-the-following-urls-list-for-safe-links) verderop in dit artikel.|
+|Jan en Julia beide werken voor contoso.com. Lang geleden, beheerders die het beleid voor veilige koppelingen voor beheerders hebben geconfigureerd, gelden voor zowel Janny als Julia. Jan verzendt een e-mailbericht naar Julia, en weet niet dat het e-mailbericht een schadelijke URL bevat.|Julia is beveiligd met behulp van veilige koppelingen **als** het beleid voor veilige koppelingen dat van toepassing is, is geconfigureerd voor het toepassen van berichten tussen interne geadresseerden. Zie voor meer informatie de sectie [instellingen voor veilige koppelingen voor e-mailberichten](#safe-links-settings-for-email-messages) verderop in dit artikel.|
 
 ## <a name="safe-links-settings-for-email-messages"></a>Instellingen voor veilige koppelingen voor e-mailberichten
 

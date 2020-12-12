@@ -24,40 +24,40 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Leer de waarden/informatie vinden die u nodig hebt om DNS-records voor Microsoft 365 te maken. '
-ms.openlocfilehash: eca9dbe4e40193f76538b639624b827177ff7772
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: db9aff1fdcd9fa52c90cc96b1a32cd3908c30edb
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645309"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658505"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>De gegevens verzamelen die u nodig hebt om DNS-records te maken
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 ### <a name="step-1-find-the-txt-record-value-and-verify"></a>Stap 1: Zoek de TXT-recordwaarde en controleer of
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het Microsoft 365-Beheercentrum naar **Setup** de \> pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen</a> instellen.
+1. Ga in het Microsoft 365-Beheercentrum naar  de \> pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen</a> instellen.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het Beheercentrum naar de pagina **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domeinen</a> instellen.
+1. Ga in het Beheercentrum naar de pagina  > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domeinen</a> instellen.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het Beheercentrum naar de pagina **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domeinen</a> instellen.
+1. Ga in het Beheercentrum naar de pagina  > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domeinen</a> instellen.
 
 ::: moniker-end
     
 2. Selecteer uw domein op de pagina **domeinen** en selecteer vervolgens **Setup starten**. U gaat terug naar de wizard voor het instellen van domeinen voor de specifieke waarde die u moet toevoegen.
     
-3. Selecteer op de pagina **domein verifiëren** de optie hier **TXT-record toevoegen**en selecteer **volgende**.
+3. Selecteer op de pagina **domein verifiëren** de optie hier **TXT-record toevoegen** en selecteer **volgende**.
     
 4. Kopieer de getoonde **txt-waarde** . Dit ziet er als volgt uit: **MS = msXXXXXXXX**. 
     
@@ -71,19 +71,19 @@ ms.locfileid: "48645309"
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het Microsoft 365-Beheercentrum naar **Setup** de \> pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen</a> instellen.
+1. Ga in het Microsoft 365-Beheercentrum naar  de \> pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen</a> instellen.
 
 ::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. Ga in het Beheercentrum naar de pagina **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domeinen</a> instellen.
+1. Ga in het Beheercentrum naar de pagina  > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domeinen</a> instellen.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het Beheercentrum naar de pagina **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domeinen</a> instellen.
+1. Ga in het Beheercentrum naar de pagina  > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domeinen</a> instellen.
 
 ::: moniker-end
     

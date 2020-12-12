@@ -18,19 +18,19 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ab78f17cd5689f9110227762c149d3691433179
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: e98e59d39744d67427a272f456a03fc123034aa7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572559"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659475"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Er zijn diverse rapporten beschikbaar in het [beveiligings & compliance Center](https://protection.office.com) , zodat u kunt zien hoe e-mail beveiligingsfuncties, zoals antispam, anti-malware en versleutelings functies in microsoft 365, uw organisatie beschermen. Als u de [benodigde machtigingen](#what-permissions-are-needed-to-view-these-reports)hebt, kunt u deze rapporten weergeven in het compliance-beveiligings & door **Reports** naar het \> **Dashboard** rapporten te gaan. Open om rechtstreeks naar het Dashboard rapporten te gaan <https://protection.office.com/insightdashboard> .
+Er zijn diverse rapporten beschikbaar in het [beveiligings & compliance Center](https://protection.office.com) , zodat u kunt zien hoe e-mail beveiligingsfuncties, zoals antispam, anti-malware en versleutelings functies in microsoft 365, uw organisatie beschermen. Als u de [benodigde machtigingen](#what-permissions-are-needed-to-view-these-reports)hebt, kunt u deze rapporten weergeven in het compliance-beveiligings & door  naar het \> **Dashboard** rapporten te gaan. Open om rechtstreeks naar het Dashboard rapporten te gaan <https://protection.office.com/insightdashboard> .
 
 ![Dashboard rapporten in het nalevings centrum voor beveiligings &](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -45,7 +45,7 @@ Het rapport verdachte **gebruikers** toont het aantal gebruikersaccounts dat is 
 
 De statistische weergave bevat gegevens voor de laatste 90 dagen en de detailweergave bevat gegevens voor de afgelopen 30 dagen.
 
-Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **Reports** \> **Dashboard** rapporten en selecteert u gebruikers die zijn **gemanipuleerd**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=CompromisedUsers> .
+Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar  \> **Dashboard** rapporten en selecteert u gebruikers die zijn **gemanipuleerd**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=CompromisedUsers> .
 
 U kunt zowel de grafiek als de tabel met details filteren door op **filters** te klikken en een of meer van de volgende waarden te selecteren:
 
@@ -61,7 +61,7 @@ Als u op **detail tabel weergeven** klikt, ziet u de volgende informatie:
 
 - **Tijdstip van aanmaken**
 - **Gebruikers-ID**
-- **Actierij**
+- **Actie**
 
 Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
 
@@ -228,7 +228,7 @@ Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volg
 - **Adres afzender**
 - **Adres van ontvanger**
 - **Evenementtype**
-- **Actierij**
+- **Actie**
 - **Onderwerp**
 
 Als u op **filters** in een gegevenstabel klikt, kunt u de resultaten wijzigen met de volgende filters:
@@ -267,7 +267,7 @@ Als u op **detail tabel weergeven** klikt, ziet u de volgende informatie:
 - **Vervalste afzender**
 - **Ware afzender**
 - **IP van afzender**
-- **Actierij**
+- **Actie**
 - **Aantal berichten**
 
 Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
@@ -280,7 +280,7 @@ Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals besta
 
 **Opmerking**: het is van belang dat u begrijpt dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.
 
-Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **Reports** \> **Dashboard** rapporten en selecteert u de **status bedreigingsbeveiliging**. Als u rechtstreeks naar het rapport wilt gaan, opent u een van de volgende Url's:
+Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar  \> **Dashboard** rapporten en selecteert u de **status bedreigingsbeveiliging**. Als u rechtstreeks naar het rapport wilt gaan, opent u een van de volgende Url's:
 
 - Microsoft Defender voor Office 365: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
 - EOP <https://protection.office.com/reportv2?id=TPSAggregateReport>
@@ -342,7 +342,7 @@ De volgende weergaven zijn beschikbaar:
 
 - **Opsplitsen op: detectietechnologie** en **gegevens weergeven op: e-mail \> malware**: de volgende informatie wordt weergegeven:
 
-  - **ATP-de reputatie 1 van het bestand gegenereerd**<sup>1</sup>door een kwaadaardige reputatie van de kwaadwillende bestanden die wordt gegenereerd door Defender voor Office 365-detonatie.
+  - **ATP-de reputatie 1 van het bestand gegenereerd**<sup></sup>door een kwaadaardige reputatie van de kwaadwillende bestanden die wordt gegenereerd door Defender voor Office 365-detonatie.
   - **Anti malware engine**<sup>1</sup>: detectie van anti malware-engines.
   - **Anti malwarebeleid type blok**: Dit zijn e-mailberichten die zijn gefilterd door het type schadelijk bestand dat in het bericht wordt genoemd.
   - **Bestands detonatie**<sup>1</sup>: detectie door veilige bijlagen.
@@ -487,9 +487,9 @@ Details zijn beschikbaar voor elk bericht, waaronder de bezorgings reden, een ui
 
 Voer een van de volgende handelingen uit in het [nalevings centrum van beveiligings &](https://protection.office.com)om dit rapport te bekijken:
 
-- Ga naar **Threat management** \> het door **Dashboard** \> **gebruiker gerapporteerde berichten van het** dashboard voor risicobeheer.
+- Ga naar  \> het door  \> **gebruiker gerapporteerde berichten van het** dashboard voor risicobeheer.
 
-- Ga naar **bedreigings beheer** door door de \> **Review** \> **gebruiker gerapporteerde berichten**.
+- Ga naar **bedreigings beheer** door door de \>  \> **gebruiker gerapporteerde berichten**.
 
 ![Kies in het beveiligings & nalevings centrum de optie bedreigings beheer door \> \> gebruiker gerapporteerde berichten controleren](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
 
@@ -498,7 +498,7 @@ Voer een van de volgende handelingen uit in het [nalevings centrum van beveiligi
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn vereist voor het weergeven van deze rapporten?
 
-Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden beschreven, moet u lid zijn van een van de volgende rollen groepen in het compliance-& Beveiligingscentrum:
+Voor het weergeven en gebruiken van de rapporten die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollen groepen in het compliance-& Beveiligingscentrum:
 
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
@@ -507,7 +507,7 @@ Voor het weergeven en gebruiken van de rapporten die in dit onderwerp worden bes
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-**Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+**Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat moet ik doen als de rapporten geen gegevens weergeven?
 

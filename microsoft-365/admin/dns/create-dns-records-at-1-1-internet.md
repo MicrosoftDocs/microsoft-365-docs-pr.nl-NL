@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: Leer hoe u uw domein verifieert en DNS-records voor e-mail, Skype voor bedrijven online en andere services voor e-mail, Skype voor bedrijven online en andere services voor 1&1 IONOS voor Microsoft hebt ingesteld.
-ms.openlocfilehash: b88fa4f14104f60f22857bb9cfdc9e6366d2c303
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8e2deab05b5ef8d8f22993d2bfdd032999ed9c39
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646389"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657994"
 ---
 # <a name="create-dns-records-at-11-ionos-for-microsoft"></a>DNS-records bij 1&1 IONOS voor Microsoft maken
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 > [!CAUTION]
 > Met 1&1 IONOS kan een domein niet zowel een MX-record als een Autodiscover-record van het hoogste niveau bevatten. Dit beperkt de manieren waarop u Exchange Online voor Microsoft kunt configureren. Er is een tijdelijke oplossing, maar u kunt deze **alleen** gebruiken als u al ervaring hebt met het maken van subdomeinen voor 1&1 IONOS. > als deze [servicebeperking](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) u kiest voor het beheren van uw eigen Microsoft DNS-records bij 1&1 IONOS, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records in te stellen voor E-mail, Skype voor bedrijven online. 
@@ -164,7 +164,7 @@ Volg onderstaande stappen of [bekijk de video (start op 3:57)](https://docs.micr
   
 8. Selecteer in het gebied **subdomain Settings** de optie **Edit DNS Settings**. <br/>![afbeelding van 1 &amp; 3-5](../../media/5c602118-b89b-4897-9faf-0736be8a6a0d.png)
   
-9. Selecteer **CNAME**in het gebied **IP Address (a record)** van de sectie **A/AAAA records (IP** addresses).<br/>![afbeelding van 1 &amp; 3-6](../../media/7f57f468-fbee-4440-a53d-3e334d8e5b71.png)
+9. Selecteer **CNAME** in het gebied **IP Address (a record)** van de sectie **A/AAAA records (IP** addresses).<br/>![afbeelding van 1 &amp; 3-6](../../media/7f57f468-fbee-4440-a53d-3e334d8e5b71.png)
   
 10. Typ of kopieer en plak alleen de **Alias**-waarde uit de volgende tabel in het vak **Alias:**.<br/> 
     
@@ -197,7 +197,7 @@ Met de extra CNAME-records die in de volgende procedure worden gemaakt, worden S
     
 5. Zoek in de sectie **subdomain Overview** het **lyncdiscover** -subdomein dat u zojuist hebt gemaakt, en selecteer het besturingselement **panel (v)** voor dat subdomein. <br/>Selecteer in het gebied **subdomain Settings** de optie **Edit DNS Settings**.
     
-6. Selecteer **CNAME**in het gebied **IP Address (a record)** van de sectie **A/AAAA records (IP** addresses).
+6. Selecteer **CNAME** in het gebied **IP Address (a record)** van de sectie **A/AAAA records (IP** addresses).
     
 7. Typ of kopieer en plak alleen de **Alias**-waarde uit de volgende tabel in het vak **Alias:**. <br/>
     
@@ -223,7 +223,7 @@ Met de extra CNAME-records die in de volgende procedure worden gemaakt, worden S
     
 14. Zoek in de sectie **subdomain Overview** het **SIP** -subdomein dat u zojuist hebt gemaakt, en selecteer het besturingselement **panel (v)** voor dat subdomein. <br/>Selecteer in het gebied **subdomain Settings** de optie **Edit DNS Settings**.
     
-15. Selecteer **CNAME**in het gebied **IP Address (a record)** van de sectie **A/AAAA records (IP** addresses).
+15. Selecteer **CNAME** in het gebied **IP Address (a record)** van de sectie **A/AAAA records (IP** addresses).
     
 16. Typ of kopieer en plak alleen de **Alias**-waarde uit de volgende tabel in het vak **Alias:**. 
     
@@ -248,7 +248,7 @@ Met de extra CNAME-records die in de volgende procedure worden gemaakt, worden S
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 
 > [!IMPORTANT]
-> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. Hebt u voorbeelden nodig? Bekijk deze [Externe Domain Name System-records voor Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Voor het valideren van uw SPF-record gebruikt u een van deze[SPF-validatie hulpmiddelen](../setup/domains-faq.md). 
+> U kunt maximaal 1 TXT-record hebben voor SPF voor een domein. Als uw domein meer dan één SPF-record heeft, kan dit resulteren in e-mailfouten, evenals leverings- en spamclassificatieproblemen. Als u al een SPF-record voor uw domein hebt, hoeft u geen nieuwe te maken voor Microsoft. In plaats daarvan voegt u de vereiste Microsoft-waarden toe aan de huidige record, zodat u  *één*  SPF-record hebt die beide sets met waarden bevat. Hebt u voorbeelden nodig? Bekijk deze [Externe Domain Name System-records voor Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Voor het valideren van uw SPF-record gebruikt u een van deze[SPF-validatie hulpmiddelen](../setup/domains-faq.yml). 
   
 Volg onderstaande stappen of [bekijk de video (start op 5:09)](https://docs.microsoft.com/microsoft-365/admin/dns/create-dns-records-at-1-1-internet).
   
@@ -311,7 +311,7 @@ Volg onderstaande stappen of [bekijk de video (start op 5:51)](https://docs.micr
   
 9. Selecteer in het dialoogvenster **Edit DNS Settings** de optie **Yes**. <br/>![Ja selecteren in het dialoogvenster Edit DNS Settings](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   
-10. Voeg de andere SRV-record toe. <br/>Selecteer in de sectie **txt and SRV records** de optie **add record**. <br/>Maak in het gebied **add record** een record met behulp van de waarden uit de andere rij in de tabel en selecteer vervolgens opnieuw **add**, **Save**en **Yes** om de record te voltooien. 
+10. Voeg de andere SRV-record toe. <br/>Selecteer in de sectie **txt and SRV records** de optie **add record**. <br/>Maak in het gebied **add record** een record met behulp van de waarden uit de andere rij in de tabel en selecteer vervolgens opnieuw **add**, **Save** en **Yes** om de record te voltooien. 
     
 > [!NOTE]
 > Het duurt meestal ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](../get-help-with-domains/find-and-fix-issues.md). 

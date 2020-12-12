@@ -13,12 +13,12 @@ ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen de functie voor bericht tracering gebruiken in het beveiligings & nalevings centrum om erachter te komen wat er is gebeurd met berichten.
-ms.openlocfilehash: 46aa454ff709e9b17c3b18992757a9a4c3a51247
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 455a1e22ff67ec47e1a6292c962d2a276ec54a64
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616750"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658986"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Berichttracering in het Beveiligings- en compliancecentrum
 
@@ -85,7 +85,7 @@ De standaardwaarde is **2 dagen**, maar u kunt datum/tijd-bereiken opgeven van m
 
   Voor 10 dagen of minder zijn de resultaten direct beschikbaar als **overzichts** rapport. Als u een tijdsbereik opgeeft dat nog iets langer is dan 10 dagen, wordt het resultaat vertraagd omdat dit alleen beschikbaar is als het downloadbare CSV-bestand ( **uitgebreide samenvatting** of **uitgebreide** rapporten).
 
-  Zie voor meer informatie over de verschillende soorten rapporten de sectie [Rapporttype kiezen](#choose-report-type) in dit onderwerp.
+  Zie de sectie [Rapporttype kiezen](#choose-report-type) in dit artikel voor meer informatie over de verschillende soorten rapporten.
 
   **Opmerking**: een uitgebreide samenvatting en uitgebreide rapporten worden gemaakt met behulp van gearchiveerde berichten traceringsgegevens, en het kan tot enkele uren duren voordat het rapport kan worden gedownload. Afhankelijk van het aantal andere beheerders heeft ook een vertraging ingediend voor het uitvoeren van de verwerking voor uw aanvraag in de wachtrij, voordoend.
 
@@ -185,7 +185,7 @@ Gerelateerde berichten records zijn records die dezelfde bericht-ID hebben. Verg
 
 Nadat u het selectievakje van een rij hebt geselecteerd, kunt u verwante records voor het bericht vinden door te klikken op de knop **gerelateerde zoeken** die wordt weergegeven, of door **meer opties** ![ ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **voor het zoeken naar gerelateerde records zoeken voor dit bericht** te selecteren.
 
-Zie voor meer informatie over de bericht-ID de sectie bericht-ID eerder in dit onderwerp.
+Zie voor meer informatie over de bericht-ID de sectie bericht-ID eerder in dit artikel.
 
 #### <a name="message-trace-details"></a>Details van bericht tracering
 
@@ -225,7 +225,7 @@ De details van de bericht tracering bevatten de volgende aanvullende informatie 
 
 - **Meer informatie**: deze sectie bevat de volgende informatie:
 
-  - **Bericht-id**: deze waarde wordt beschreven in de sectie [bericht-id](#message-id) , eerder in dit onderwerp. Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
+  - **Bericht-id**: deze waarde wordt beschreven in de sectie [bericht-id](#message-id) , eerder in dit artikel. Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
 
   - **Berichtgrootte**
 
@@ -253,7 +253,7 @@ In het gedeelte **downloadbare rapporten** kunnen beschikbare (voltooide) verbet
 
 - **total_bytes**: de grootte van het bericht in bytes, inclusief bijlagen.
 
-- **message_id**: deze waarde wordt beschreven in de sectie [bericht-id](#message-id) , eerder in dit onderwerp. Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
+- **message_id**: deze waarde wordt beschreven in de sectie [bericht-id](#message-id) , eerder in dit artikel. Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
 
 - **network_message_id**: een unieke id voor de bericht-id die wordt doorgevoerd in alle kopieën van het bericht dat kan worden gemaakt vanwege bifurcation of distributiegroepen. Een voorbeeld van een waarde is `1341ac7b13fb42ab4d4408cf7f55890f` .
 

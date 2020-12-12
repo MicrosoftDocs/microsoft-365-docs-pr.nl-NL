@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Beheerders kunnen de foutcodes voor de bezorging van berichten achterhalen via connectors (ook wel e-mail stroom informatie genoemd).
-ms.openlocfilehash: 461d9bfa91d88b8bbec52d5aad6ec7a2e534bc96
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 5339bf2117a87cd940c4b96b3d00b7b8ba78a1da
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877799"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658855"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>E-mailstroomanalyse in EOP
 
@@ -27,7 +27,7 @@ ms.locfileid: "48877799"
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken gebruikt u meestal een verbindingslijn voor het routeren van e-mailberichten van EOP naar uw on-premises e-mail omgeving. U kunt ook een connector gebruiken om berichten van Microsoft 365 door te sturen naar een partnerorganisatie. Wanneer Microsoft 365 deze berichten niet via de connector bezorgt, worden deze in de wachtrij geplaatst in Microsoft 365. Microsoft 365 blijft gedurende 24 uur opnieuw proberen voor elk bericht. Na 24 uur verloopt het bericht in de wachtrij en wordt het verzonden naar de oorspronkelijke afzender in een rapport over niet-uitgevoerde bezorging (ook wel een NDR genoemd of een bericht met een stuiter bericht).
 
-In Microsoft 365 wordt een fout gegenereerd wanneer een bericht niet kan worden afgeleverd via een verbindingslijn. In dit onderwerp worden de meest voorkomende fouten en hun oplossingen beschreven. Gezamenlijk, Queuing-en meldings fouten voor niet-bezorg bare berichten die via connectors worden verzonden, worden ook wel _e-mail stroom informatie_ genoemd.
+In Microsoft 365 wordt een fout gegenereerd wanneer een bericht niet kan worden afgeleverd via een verbindingslijn. Dit artikel bevat een beschrijving van de meest voorkomende fouten en de bijbehorende oplossingen. Gezamenlijk, Queuing-en meldings fouten voor niet-bezorg bare berichten die via connectors worden verzonden, worden ook wel _e-mail stroom informatie_ genoemd.
 
 ## <a name="error-code-450-44312-dns-query-failed"></a>Foutcode: 450 4.4.312 DNS-query mislukt
 
@@ -73,15 +73,15 @@ Dit betekent meestal dat er in Microsoft 365 een verbindingsfout is opgetreden b
 
     1. Ga in het Exchange-Beheercentrum naar **e-mail stroom** \> **verbindingslijnen**.
 
-    2. Selecteer de connector met de **From** waarde van **Office 365** en de waarde **voor** de **e-mailserver van uw organisatie** en voer een van de volgende stappen uit:
+    2. Selecteer de connector met de  waarde van **Office 365** en de waarde **voor** de **e-mailserver van uw organisatie** en voer een van de volgende stappen uit:
 
        - Als u de verbindingslijn wilt verwijderen **, klikt u** op het ![ pictogram verwijderen](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - Schakel de verbindingslijn uit **Edit** door te klikken op het ![ pictogram bewerken bewerken ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) en **het** selectievakje in te schakelen.
+       - Schakel de verbindingslijn uit  door te klikken op het ![ pictogram bewerken bewerken ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) en **het** selectievakje in te schakelen.
 
   - Wijzig het geaccepteerde domein in Microsoft 365 dat is gekoppeld aan uw on-premises e-mail omgeving van **interne** doorgifte naar **gezaghebbend**. Zie [geaccepteerde domeinen beheren in Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)voor instructies.
 
-  **Opmerking** : deze wijzigingen treden doorgaans tussen 30 minuten en één uur in werking. Na één uur controleert u of u de fout niet meer ontvangt.
+  **Opmerking**: deze wijzigingen treden doorgaans tussen 30 minuten en één uur in werking. Na één uur controleert u of u de fout niet meer ontvangt.
 
 - Neem contact op met uw partner om dit probleem op te lossen als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudservice provider).
 

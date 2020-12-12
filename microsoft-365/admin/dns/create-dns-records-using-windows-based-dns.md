@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op basis van Windows-DNS voor Microsoft.
-ms.openlocfilehash: 471aa0323bd59b09c672431ef39bb33f5c89b555
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8202ffe10b4a0ff9c94d863d92fc55c47ebb38d3
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645573"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656841"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>DNS-records voor Microsoft maken met Windows-DNS
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
    
 Als u uw eigen DNS-records met Windows-DNS host, volgt u de stappen in dit artikel voor het instellen van uw records voor e-mail, Skype voor Bedrijven Online, enzovoort.
   
@@ -39,7 +39,7 @@ Om aan de slag te gaan, moet u [de DNS-records vinden in Windows-DNS](#find-your
 Problemen met de e-mail stroom of andere problemen nadat u DNS-records hebt toegevoegd, raadpleegt [u problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Uw DNS-records vinden in Windows-DNS
-<a name="BKMK_find_your_dns_1"> </a> Ga naar de pagina met de DNS-records voor uw domein. Als u met Windows Server 2008 werkt, gaat u naar **Start**  >  **Run**. Als u werkt met Windows Server 2012, drukt u op de Windows-toets en op **r**. Typ **dnsmgmnt. msc**en selecteer **OK**. Vouw in DNS-beheer de optie ** \<DNS server name\> \> zones voor forward lookup  **uit. Selecteer uw domein. Nu kunt u de DNS-records gaan maken.
+<a name="BKMK_find_your_dns_1"></a> Ga naar de pagina met de DNS-records voor uw domein. Als u met Windows Server 2008 werkt, gaat u naar **Start**  >  **Run**. Als u werkt met Windows Server 2012, drukt u op de Windows-toets en op **r**. Typ **dnsmgmnt. msc** en selecteer **OK**. Vouw in DNS-beheer de optie **\<DNS server name\> \> zones voor forward lookup** uit. Selecteer uw domein. Nu kunt u de DNS-records gaan maken.
    
 ## <a name="add-mx-record"></a>MX-record toevoegen
 <a name="BKMK_add_MX"> </a>
@@ -53,7 +53,7 @@ Voeg een MX-record toe zodat e-mail voor uw domein bij Microsoft komt.
     - @Address: plak de waarde van het adres waarnaar wordt verwezen die u zojuist uit Microsoft hebt gekopieerd.  
     - Pref 
 - Selecteer **Save Changes**.
-- Verouderde MX-records verwijderen. Als u oude MX-records voor dit domein hebt waarmee e-mail naar een andere locatie wordt doorgestuurd **, schakelt u**het selectievakje naast elke verouderde record in en selecteert u vervolgens  >  **OK**. 
+- Verouderde MX-records verwijderen. Als u oude MX-records voor dit domein hebt waarmee e-mail naar een andere locatie wordt doorgestuurd **, schakelt u** het selectievakje naast elke verouderde record in en selecteert u vervolgens  >  **OK**. 
    
 ## <a name="add-cname-records"></a>CNAME-records toevoegen
 <a name="BKMK_add_CNAME"> </a>
@@ -68,7 +68,7 @@ Voeg de CNAME-records toe die voor Microsoft vereist zijn. Als er extra CNAME-re
     - Hostnaam: automatisch opsporen
     - Typ 
     - CNAMEAddress: autodiscover.outlook.com
-- Selecteer **O**K.
+- Selecteer **O** K.
 
 Voeg de SIP CNAME-record toe. 
 - Ga op de pagina DNS-beheer voor het domein naar **actie** \> **CNAME (CNAME)**. 
@@ -168,7 +168,7 @@ Voordat u de DNS-records toevoegt voor het instellen van uw Microsoft-services, 
 
 1. Gegevens van Microsoft verzamelen.  <br/> 
 2. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina. 
-3. Selecteer op de pagina **Domains** in de kolom **Actions** de optie **Setup starten**voor het domein dat u wilt verifiëren. 
+3. Selecteer op de pagina **Domains** in de kolom **Actions** de optie **Setup starten** voor het domein dat u wilt verifiëren. 
 4. Selecteer op de pagina **een domein toevoegen aan Microsoft** de optie **begin met stap 1**. 
 5. Op de pagina **Bevestig dat u de eigenaar bent van uw domein** , in de vervolgkeuzelijst **Zie de instructies voor de uitvoering van deze stap met** , kiest u de optie **algemene instructies**. 
 6. Kopieer vanuit de tabel de waarde Doel of adres waarnaar wordt verwezen. Deze hebt u nodig voor de volgende stap. Het is raadzaam deze waarde te kopiëren en te plakken, zodat alle spatiëring ongewijzigd blijft.
@@ -184,16 +184,16 @@ Voeg een TXT-record toe.
 - Naam host: @
 - Typ: TXT
 - Adres: plak de waarde van bestemming of verwijzen naar adres die u zojuist uit Microsoft hebt gekopieerd.  
-- Selecteer **OK**  >  **Done**.
+- Selecteer **OK**  >  .
 
 Uw domein in Microsoft verifiëren.  
 > [!IMPORTANT]
 > Wacht ongeveer 15 minuten voordat u dit doet, zodat de record die u zojuist hebt gemaakt op internet kan worden bijgewerkt.       
 
 - Ga terug naar Microsoft en volg de onderstaande stappen om een verificatiecontrole aan te vragen. Er wordt gecontroleerd op de TXT-record die u in de vorige stap hebt toegevoegd. Wanneer de juiste TXT-record wordt gevonden, wordt het domein geverifieerd.  
-1. Ga in het Beheercentrum naar de pagina **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen</a> instellen.
-2. Selecteer op de pagina **Domains** in de kolom **Action** de optie **Setup starten**voor het domein dat u wilt verifiëren. 
-3. Selecteer **gedaan, nu controleren**op de pagina **Bevestig dat u eigenaar bent van uw domein** en selecteer **Voltooien**in het bevestigingsdialoogvenster. 
+1. Ga in het Beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen</a> instellen.
+2. Selecteer op de pagina **Domains** in de kolom **Action** de optie **Setup starten** voor het domein dat u wilt verifiëren. 
+3. Selecteer **gedaan, nu controleren** op de pagina **Bevestig dat u eigenaar bent van uw domein** en selecteer **Voltooien** in het bevestigingsdialoogvenster. 
    
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 

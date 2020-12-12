@@ -22,16 +22,16 @@ description: Meer informatie over wat een domein is en hoe u een domein kunt kop
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 0c59fb6bc5f9a7796c84a0370c771bf90102dec0
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 9afc38aeda32870a248212f7b67f2fb4af8fd960
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645117"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658073"
 ---
 # <a name="what-is-a-domain"></a>Wat is een domein?
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Een domein is een unieke naam die na het **@** -teken wordt weergegeven in een e-mailadres en na **www.** in een webadres. Normaalgesproken wordt de naam van de naam van uw organisatie en een standaard Internet achtervoegsel gebruikt, zoals *yourbusiness. <span> com* of *stateuniversity. <span> edu*. 
   

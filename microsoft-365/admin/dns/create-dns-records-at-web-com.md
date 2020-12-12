@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op web.com voor Microsoft.
-ms.openlocfilehash: 25df88e05e96e2394628bf89c8cc07af2d0eac1e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 943070f3790f532a0cc686270e0ecdea08f802fd
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645753"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656889"
 ---
 # <a name="create-dns-records-at-webcom-for-microsoft"></a>DNS-records bij web.com maken voor Microsoft
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als web.com uw DNS-hosting provider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records in te stellen voor e-mail, Skype voor bedrijven online, enzovoort.
   
@@ -84,7 +84,7 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
 3. Selecteer onder * * beheren * mijn domein * * * de optie **Geavanceerde DNS-records bewerken**.
 
   
-4. Klik op de pagina **Domain names** onder **Text (TXT records)** op **Edit TXT records**en selecteer vervolgens de waarden uit de volgende tabel. 
+4. Klik op de pagina **Domain names** onder **Text (TXT records)** op **Edit TXT records** en selecteer vervolgens de waarden uit de volgende tabel. 
     
     |**Host**|**TTL**|**Tekst**|
     |:-----|:-----|:----|
@@ -127,7 +127,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 3. Selecteer onder * * beheren * mijn domein * * * de optie **Geavanceerde DNS-records bewerken**.
 
-4. Klik onder **e-mail servers (MX records)** op **Edit MX records**en selecteer vervolgens de waarden uit de volgende tabel. 
+4. Klik onder **e-mail servers (MX records)** op **Edit MX records** en selecteer vervolgens de waarden uit de volgende tabel. 
     
     |**Priority**|**TTL**|**Mail server**|
     |:-----|:-----|:-----|
@@ -136,7 +136,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 
 5. Kies **Opslaan**.
   
-6. Als er andere MX-records worden vermeld in de sectie **MX records** , selecteert u het selectievakje naast de record onder **verwijderen**en selecteert u **Opslaan**. 
+6. Als er andere MX-records worden vermeld in de sectie **MX records** , selecteert u het selectievakje naast de record onder **verwijderen** en selecteert u **Opslaan**. 
   
 7. Selecteer in het bevestigingsvenster de optie **Save Changes**. 
 
@@ -152,7 +152,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 
 4. Voeg de eerste van de zes CNAME-records toe.
     
-    Klik onder **Host Aliases (CNAME records)** op **Edit CNAME records**en selecteer vervolgens de waarden uit de volgende tabel.
+    Klik onder **Host Aliases (CNAME records)** op **Edit CNAME records** en selecteer vervolgens de waarden uit de volgende tabel.
     
     
     |**Alias**|**TTL**|**Refers to Host Name**|**Andere host**|
@@ -184,7 +184,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 3. Selecteer onder * * beheren * mijn domein * * * de optie **Geavanceerde DNS-records bewerken**.
 
   
-4. Klik op de pagina **Domain names** onder **Text (TXT records)** op **Edit TXT records**en selecteer vervolgens de waarden uit de volgende tabel.   
+4. Klik op de pagina **Domain names** onder **Text (TXT records)** op **Edit TXT records** en selecteer vervolgens de waarden uit de volgende tabel.   
     
     |**Host**|**TTL**|**Tekst**|
     |:-----|:-----|:-----|
@@ -211,7 +211,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 4. Voeg de eerste van de twee SRV-records toe.
 
-    Klik onder **service (SRV records)** op **Edit SRV records**en selecteer vervolgens de waarden uit de volgende tabel. 
+    Klik onder **service (SRV records)** op **Edit SRV records** en selecteer vervolgens de waarden uit de volgende tabel. 
         
     |**Service**|**Protocol**|**TTL**|**Prioriteit**|**Gewicht**|**Poort**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|

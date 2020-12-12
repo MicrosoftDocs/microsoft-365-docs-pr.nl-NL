@@ -22,16 +22,16 @@ search.appverid:
 - MOE150
 ms.assetid: ec6f4bd8-5996-4505-ba68-afaf8a141fb9
 description: Meer informatie over het werken met registratie van domein verbindingen ingeschakeld en uw domein toevoegen aan Microsoft 365.
-ms.openlocfilehash: e907317ec5b606c2fe73232a73c9abdfce26feea
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 109255d82100e636e3472242866a519ff64a9e54
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645345"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655610"
 ---
 # <a name="using-domain-connect"></a>Werken met domein verbinding
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt.
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt.
   
 Met de [met de domein Connect](https://www.domainconnect.org/) ingeschakelde registraties kunt u uw domein toevoegen aan microsoft 365 in drie stappen die een paar minuten duren. 
   

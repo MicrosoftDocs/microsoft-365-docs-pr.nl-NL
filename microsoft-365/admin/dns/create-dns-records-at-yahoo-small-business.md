@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Yahoo! Professionals en kleine bedrijven voor Microsoft.
-ms.openlocfilehash: 3c6bc44baef4924133ea2308189662dd53399689
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 47b3b1f3a6e889d067d0166f872725aa3812a7b4
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645597"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656901"
 ---
 # <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>DNS-records bij Yahoo! Professionals en kleine bedrijven voor Microsoft
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Als Yahoo! Small Business uw DNS-hostingprovider was, dan is dit voortaan Aabaco Small Business.
   
@@ -45,7 +45,7 @@ U dient een Aabaco-account te maken voordat u [DNS-records kunt maken](../get-he
     
     ![Selecteer uw Aabaco Small Business-account instellen](../../media/d708f272-d42f-40a1-9aaf-d05d8cfd55cf.png)
   
-2. Geef uw Yahoo! **E-mailadres en Yahoo**van kleine bedrijven en selecteer **ik geen robot**.
+2. Geef uw Yahoo! **E-mailadres en Yahoo** van kleine bedrijven en selecteer **ik geen robot**.
     
     ![Select I am not a robot](../../media/ded4b5dd-4e04-4baa-ae31-8426b5799151.png)
   
@@ -60,7 +60,7 @@ U dient een Aabaco-account te maken voordat u [DNS-records kunt maken](../get-he
   
     ![The You've got mail page](../../media/2e02fc30-6cca-40d6-bb64-131a41b4a369.png)
   
-5. Selecteer e-mailadres **bevestigen**in het Aabaco **om door te gaan** met het instellen van e-mailberichten.
+5. Selecteer e-mailadres **bevestigen** in het Aabaco **om door te gaan** met het instellen van e-mailberichten.
     
     ![Selecteer e-mailadres bevestigen](../../media/eb5f5526-6f90-4a10-83a7-5249a1ebd562.png)
   
@@ -71,7 +71,7 @@ U dient een Aabaco-account te maken voordat u [DNS-records kunt maken](../get-he
   
     ![The Choose your password page](../../media/cc592345-72d1-4a41-9410-a1f3345cfd1d.png)
   
-7. Selecteer **Ik ga akkoord met de voorwaarden**en selecteer vervolgens **wachtwoord maken**.
+7. Selecteer **Ik ga akkoord met de voorwaarden** en selecteer vervolgens **wachtwoord maken**.
     
     ![Selecteer wachtwoord maken](../../media/434aa6a3-076e-4abf-a9cf-31145786e819.png)
   

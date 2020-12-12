@@ -20,16 +20,16 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Meer informatie over de ' MSOID-CNAME-record in Office 365 waarmee u naar de beste server voor verificatieprocessen wordt geleid, zodat u een sneller antwoord krijgt.
 monikerRange: o365-21vianet
-ms.openlocfilehash: ac9ad3ad9f860722760d59c54570a453146a3a93
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: aea04391768993c40978d94b50817244cd77405c
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644637"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655482"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>Wat is het doel van de CNAME-record MSOID voor Office 365?
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
 > [!NOTE]
 > Het volgende is alleen van toepassing op * * Office 365, beheerd door 21Vianet.
   

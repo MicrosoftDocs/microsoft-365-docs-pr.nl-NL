@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op easyDNS voor Microsoft.
-ms.openlocfilehash: 4909a02ec56fc9720a2636e822da0339e89bccf8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a971a722f071ef5df9ce0fba387cfacfeb409f5b
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645549"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656817"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>DNS-records bij easyDNS maken voor Microsoft
 
-[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md) als u niet kunt vinden wat u zoekt. 
+[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml) als u niet kunt vinden wat u zoekt. 
   
 Voor het routeren van e-mail naar Microsoft moet u alle volgende DNS-records toevoegen op de website van uw bewaarder, uw domein gebruiken voor teams en Skype voor bedrijven, enzovoort.
   

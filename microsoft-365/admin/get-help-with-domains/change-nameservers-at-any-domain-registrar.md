@@ -25,16 +25,16 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Lees hoe u uw domein kunt toevoegen en instellen in Microsoft 365, zodat uw services zoals e-mail en Skype voor bedrijven online uw eigen domeinnaam kunnen gebruiken.
-ms.openlocfilehash: f233cc9b2d37e3ee81e52178a7cc045cb3579e42
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a4218b03e3f23ba8bc39c5eb84b42f87a71b9a65
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645393"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658597"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Microsoft 365 met een domeinregistratie
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
   
 Controleer eerst [uw domein instellen (host-specifieke instructies)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) om te zien of er instructies voor uw registratieservice zijn. 
   
@@ -80,7 +80,7 @@ Voer een van de volgende handelingen uit, afhankelijk van of u een TXT-record of
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
-|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* > [!NOTE]> Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. Zie [Wat is MX-prioriteit?](../setup/domains-faq.md#what-is-mx-priority) voor meer informatie over prioriteit. |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
+|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* > [!NOTE]> Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit. |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
    
 ### <a name="save-the-record"></a>Sla de record op
 
@@ -126,7 +126,7 @@ Als u de naamservers van het domein zelf wilt wijzigen op de website van de dome
 |Vierde naamserver  <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
    > [!TIP]
-   > Het is raadzaam om alle vier de records toe te voegen, maar als u met de registratiefunctie slechts twee wilt ondersteunen, voegt u **ns1.BDM.microsoftonline.com** en **ns2.BDM.microsoftonline.com**toe. 
+   > Het is raadzaam om alle vier de records toe te voegen, maar als u met de registratiefunctie slechts twee wilt ondersteunen, voegt u **ns1.BDM.microsoftonline.com** en **ns2.BDM.microsoftonline.com** toe. 
   
 3. Sla uw wijzigingen op.
     
@@ -166,7 +166,7 @@ Hierna volgt een voorbeeld van extra stappen die mogelijk zijn vereist voor de h
 
 2. Selecteer het domein op de pagina **domeinen** en kies vervolgens **DNS-records**.
 
-3. Selecteer **aangepaste records**onder **DNS-instellingen**en kies vervolgens **nieuwe aangepaste record**.
+3. Selecteer **aangepaste records** onder **DNS-instellingen** en kies vervolgens **nieuwe aangepaste record**.
 
 4. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-office365
 - seo-marvel-apr2020
 description: Beheerders kunnen meer te weten komen over de functie voor veilige bijlagen in Microsoft Defender voor Office 365.
-ms.openlocfilehash: d38f95991a1d310e8a894a32e06b5891ebb498a9
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 07e44885a3813ce625c6a853f4070d644a392ded
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616678"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659193"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Veilige bijlagen in Microsoft Defender voor Office 365
 
@@ -69,7 +69,7 @@ In deze sectie worden de instellingen in het beleid voor veilige bijlagen beschr
   |**Monitor**|Levert berichten met bijlagen en spoort wat er gebeurt met ontdekte malware. <p> Het bezorgen van veilige berichten wordt mogelijk vertraagd door het scannen van veilige bijlagen.|Kijk waar de gedetecteerde malware in uw organisatie terechtkomt.|
   |**Blokkeren**|Hiermee voorkomt u dat berichten met gedetecteerde schadelijke bijlagen worden afgeleverd. <p> Berichten worden in [quarantaine geplaatst](manage-quarantined-messages-and-files.md) waarbij alleen beheerders (niet eindgebruikers) de berichten kunnen controleren, vrijgeven of verwijderen. <p> Toekomstige exemplaren van berichten en bijlagen automatisch blokkeren. <p> Het bezorgen van veilige berichten wordt mogelijk vertraagd door het scannen van veilige bijlagen.|Beschermt uw organisatie tegen herhaling van aanvallen met dezelfde malware-bijlagen. <p> Dit is de standaardwaarde en de aanbevolen waarde in de standaard en strikte [vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md).|
   |**Vervangen**|Verwijdert gedetecteerde schadelijke bijlagen. <p> Hiermee wordt de ontvanger gewaarschuwd dat bijlagen zijn verwijderd. <p>  Berichten worden in [quarantaine geplaatst](manage-quarantined-messages-and-files.md) waarbij alleen beheerders (niet eindgebruikers) de berichten kunnen controleren, vrijgeven of verwijderen. <p> Het bezorgen van veilige berichten wordt mogelijk vertraagd door het scannen van veilige bijlagen.|De zichtbaarheid van de ontvangers voor de verwijdering van bijlagen is vanwege malware gedetecteerd.|
-  |**Dynamische bezorging**|Hiermee worden berichten onmiddellijk bezorgd, maar worden bijlagen met tijdelijke aanduidingen vervangen totdat de scan is voltooid. <p> Zie voor meer informatie de sectie [dynamische bezorging in beleidsregels voor veilige bijlagen](#dynamic-delivery-in-safe-attachments-policies) verderop in dit onderwerp.|Voorkom dat berichten worden vertraagd wanneer u geadresseerden tegen kwaadwillende bestanden beschermt. <p> Ontvangers kunnen voorbeelden van bijlagen weergeven in de veilige modus tijdens het scannen.|
+  |**Dynamische bezorging**|Hiermee worden berichten onmiddellijk bezorgd, maar worden bijlagen met tijdelijke aanduidingen vervangen totdat de scan is voltooid. <p> Zie voor meer informatie de sectie [dynamische bezorging in beleidsregels voor veilige bijlagen](#dynamic-delivery-in-safe-attachments-policies) verderop in dit artikel.|Voorkom dat berichten worden vertraagd wanneer u geadresseerden tegen kwaadwillende bestanden beschermt. <p> Ontvangers kunnen voorbeelden van bijlagen weergeven in de veilige modus tijdens het scannen.|
   |
 
 - **Bijlage doorsturen naar detectie: Schakel omleiding** in en **Stuur de bijlage naar het volgende e-mailadres**: voor **blok** punten, **monitors** of **vervangen** , berichten met schadelijke bijlagen verzenden naar het opgegeven interne of externe e-mailadres voor analyse en onderzoek.

@@ -23,16 +23,16 @@ search.appverid:
 - MOE150
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op GoDaddy voor Microsoft.
-ms.openlocfilehash: 995e579e21a185084d9ee64a7ee462930d845844
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: fdd8688f848e676411e736a5be10a2d01dcce50b
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646125"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658474"
 ---
 # <a name="create-dns-records-at-godaddy-for-microsoft"></a>DNS-records bij GoDaddy maken voor Microsoft
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt.
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt.
 
 Als GoDaddy uw DNS-hostingprovider is, voert u de stappen in dit artikel uit om uw domein te verifiëren en DNS-records voor e-mail, Skype voor Bedrijven Online enzovoort in te stellen.
 
@@ -55,7 +55,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy voor 1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Onder **domeinen**selecteert u DNS onder het domein dat u wilt bewerken.
+2. Onder **domeinen** selecteert u DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy voor 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -106,7 +106,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy voor 1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Onder **domeinen**selecteert u DNS onder het domein dat u wilt bewerken.
+2. Onder **domeinen** selecteert u DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy voor 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -137,7 +137,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy voor 1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Onder **domeinen**selecteert u DNS onder het domein dat u wilt bewerken.
+2. Onder **domeinen** selecteert u DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy voor 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -180,7 +180,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy voor 1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Onder **domeinen**selecteert u DNS onder het domein dat u wilt bewerken.
+2. Onder **domeinen** selecteert u DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy voor 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -214,7 +214,7 @@ Voer de onderstaande stappen uit:
 
     ![GoDaddy voor 1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Onder **domeinen**selecteert u DNS onder het domein dat u wilt bewerken.
+2. Onder **domeinen** selecteert u DNS onder het domein dat u wilt bewerken.
 
     ![GoDaddy voor 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 

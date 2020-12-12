@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Meer informatie over hoe u uw e-mailadres en domein eigendom controleert voor het overnemen van een niet-beheerde Tenant in Microsoft 365
-ms.openlocfilehash: 9ae09a4b88887664a0615128bcddc48ad6f57118
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 28359908576260218459d13b8c1c1b662b9a2c8f
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645057"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658061"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Een interne beheerder overnemen
 
- **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.md)** als u niet kunt vinden wat u zoekt. 
+ **[Raadpleeg de veelgestelde vragen over domeinen](../setup/domains-faq.yml)** als u niet kunt vinden wat u zoekt. 
 
 Als u een beheerder bent en een niet-beheerde Tenant die is gemaakt door een selfservicegebruiker, wilt overnemen, kunt u dit doen met een interne beheerder van de beheerder.
 
