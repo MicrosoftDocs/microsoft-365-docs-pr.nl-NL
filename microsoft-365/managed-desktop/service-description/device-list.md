@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 2cca4850227716fe5f7d7d21f3220b46e9761420
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: e858ae1fc564fdcacbe181930ae1489d131965e7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561181"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659676"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Beheerde bureaublad apparaten van Microsoft 
 
@@ -69,9 +69,7 @@ De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt o
 | [Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8 GB RAM | Geen | 21 mei 2022 | 21 mei 2027 |
 | [Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 GB/Intel Core M3/8 GB RAM | Geen | 21 mei 2022 | 21 mei 2027 |
 | [Surface laptop voor onderweg](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 GB/Intel i5/8 GB RAM | Geen | 12 oktober 2022 | 12 oktober 2025 |
-| [Surface laptop 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8 GB RAM | Geen | 16 oktober 2020 | 16 oktober 2023 |
 | [Surface laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 GB/Intel i5/8 GB RAM | Geen | 22 oktober 2021 | 22 oktober 2024 |
-| [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel i5/8 GB RAM | Geen | 16 oktober 2020 | 16 oktober 2023 |
 | [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 GB/Intel i5/8 GB RAM | Geen | 22 oktober 2021 | 22 oktober 2024 |
 
 Daarnaast moet het apparaat ook voldoen aan de volgende criteria:     

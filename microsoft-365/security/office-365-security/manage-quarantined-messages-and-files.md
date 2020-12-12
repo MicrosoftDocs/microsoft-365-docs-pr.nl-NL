@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven en beheren van quarantaine berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook quarantaine bestanden beheren in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: 8f4ca5caef9bf244315db2271011126ad4d7976e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 5f4d63576e57ac50abe1ec1eb378221c4d457280
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616774"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659984"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -44,14 +44,21 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- U moet machtigingen zijn toegewezen voordat u de quarantaine als een beheerder kunt beheren. De machtigingen worden beheerd op basis van de rol van **Quarantine** in het compliance-& Beveiligingscentrum. Deze functie wordt standaard toegewezen aan **Organisatiebeheer** (globale beheerders), **Quarantine beheerder** en **Beveiligingsbeheerders** van rollen in het nalevings centrum voor beveiligings &. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
+  - Als u een actie wilt uitvoeren op berichten in quarantaine voor alle gebruikers, moet u lid zijn van de rollen groepen **Organisatiebeheer**, **beveiliging beheerder** of **quarantaine beheerder** <sup>\*</sup> .
+  - Voor alleen-lezen toegang tot quarantaine berichten voor alle gebruikers moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
+
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+
+  **Opmerkingen**:
+
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
+  - <sup>\*</sup> Leden van de rollen groep **Quarantine beheerder** moeten ook lid zijn van de rollen groep **hygiëne beheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) om quarantaine procedures uit te voeren in Exchange Online PowerShell.
 
 - Berichten in quarantaine worden gedurende een standaardperiode bewaard voordat ze automatisch worden verwijderd:
-
   - 30 dagen voor berichten die zijn gequarantined door Antispambeleid (spam, phishing en bulk-e-mail). Dit is de standaard-en maximumwaarde. Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md)voor het configureren van deze waarde.
-
   - 15 dagen voor berichten die malware bevatten.
-
   - 15 dagen voor bestanden die worden Quarantine door ATP voor SharePoint, OneDrive en Microsoft teams in de Defender voor Office 365.
 
   Wanneer een bericht verloopt over quarantaine, kunt u dit niet herstellen.
@@ -99,11 +106,11 @@ U kunt berichten in quarantaine weergeven en beheren in het beveiligings & nalev
      - **Spam**
      - **Hoge betrouwbaarheid van phishing**
 
-   - **Type beleid**: berichten filteren op beleidstype:
+   - **Beleidstype**: berichten filteren op beleidstype:
      - **Anti malwarebeleid**
      - **Beleid voor veilige bijlagen**
-     - **Anti-phishings beleid**
-     - **Filter beleid met gehoste inhoud** (Antispambeleid)
+     - **Beleid tegen phishing**
+     - **Beleid voor gehoste inhoudsfilters** (antispambeleid)
      - **Transport regel**
 
    - **E-mail ontvanger**: alle gebruikers of alleen berichten die naar u zijn verzonden. Eindgebruikers kunnen alleen quarantaine berichten beheren die ze hebben verzonden.

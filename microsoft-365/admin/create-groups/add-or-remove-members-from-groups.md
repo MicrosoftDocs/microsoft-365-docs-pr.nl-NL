@@ -15,18 +15,15 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Leer hoe u een lid aan een groep toevoegt, lid uit een groep verwijdert en de status van groepseigenaar beheert in het Microsoft 365-Beheercentrum.
-ms.openlocfilehash: a8739b6cd2005598acbfccbaff6131235ec480ee
-ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
+ms.openlocfilehash: 34c026bced5563e07a1ae0d13f4c691cfaf3f624
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753311"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663241"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Leden toevoegen aan of verwijderen uit Microsoft 365 groepen met behulp van het Beheercentrum
 
@@ -37,9 +34,9 @@ In Microsoft 365 worden groepsleden meestal hun eigen groepen gemaakt, toegevoeg
   
 ## <a name="add-a-member-to-a-group-in-the-admin-center"></a>Een lid toevoegen aan een groep in het Beheercentrum
 
-1. Ga in het Beheercentrum naar de pagina **groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen</a> .  
+1. Ga in het Beheercentrum naar de pagina [**actieve groepen**](https://admin.microsoft.com/Adminportal/Home?#/groups) .  
 
-2. Selecteer de naam van een groep.
+2. Klik op de naam van een groep.
 
 3. Ga in het deelvenster Details naar het tabblad **leden** , selecteer **AllesWeergeven en leden beheren**, en selecteer vervolgens **leden toevoegen**.
 
@@ -49,9 +46,9 @@ In Microsoft 365 worden groepsleden meestal hun eigen groepen gemaakt, toegevoeg
 
 ## <a name="add-a-group-to-a-member-in-the-admin-center"></a>Een groep aan een lid toevoegen in het Beheercentrum
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.  
+1. Ga naar de pagina [**actieve gebruikers**](https://admin.microsoft.com/Adminportal/Home?#/users) in het Beheercentrum.  
 
-2. Selecteer een gebruiker.
+2. Klik op een gebruiker.
 
 3. Selecteer in het deelvenster Details, op het tabblad **account** , de optie **groepen beheren**.
 
@@ -62,11 +59,11 @@ In Microsoft 365 worden groepsleden meestal hun eigen groepen gemaakt, toegevoeg
 ## <a name="remove-a-member-from-a-group-in-the-admin-center"></a>Een lid verwijderen uit een groep in het Beheercentrum
 
 > [!NOTE]
-> Wanneer u een lid uit een privégroep verwijdert, duurt het 5 minuten voordat die persoon wordt geblokkeerd in de groep (nadat lidmaatschapswijzigingen volledig zijn doorgevoerd tussen domeincontrollers).
+> Wanneer u een lid uit een privégroep verwijdert, duurt het 5 minuten voordat die persoon wordt geblokkeerd in de groep.
 
-1. Ga in het Beheercentrum naar de pagina **groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen</a> .
+1. Ga in het Beheercentrum naar de pagina [**actieve groepen**](https://admin.microsoft.com/Adminportal/Home?#/groups) .  
 
-2. Selecteer de naam van een groep.
+2. Klik op de naam van een groep.
 
 3. Selecteer in het deelvenster Details, op het tabblad **leden** , de optie **AllesWeergeven en leden beheren**.
 
@@ -80,23 +77,23 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
   
 ### <a name="promote-a-member-to-owner-status-in-the-admin-center"></a>Het niveau van een lid verhogen naar de status van eigenaar in het Beheercentrum
 
-1. Ga in het Beheercentrum naar de pagina **groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen</a> .
+1. Ga in het Beheercentrum naar de pagina [**actieve groepen**](https://admin.microsoft.com/Adminportal/Home?#/groups) .  
 
-2. Selecteer de naam van een groep.
+2. Klik op de naam van een groep.
 
 3. Selecteer in het deelvenster Details, op het tabblad **leden** , de optie **AllesWeergeven en eigenaren beheren**.
 
-4. Zoek een lid of selecteer **eigenaren toevoegen**.
+4. Selecteer **eigenaren toevoegen**.
 
 5. Schakel het selectievakje in naast de naam van het lid dat u wilt toevoegen.
 
-6. Selecteer **Opslaan**en vervolgens **sluiten**.
+6. Selecteer **Opslaan** en vervolgens **sluiten**.
 
 ### <a name="remove-owner-status-in-the-admin-center"></a>De status van eigenaar verwijderen in het Beheercentrum
 
-1. Ga in het Beheercentrum naar de pagina **groepen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groepen</a> .
+1. Ga in het Beheercentrum naar de pagina [**actieve groepen**](https://admin.microsoft.com/Adminportal/Home?#/groups) .  
 
-2. Selecteer de naam van een groep.
+2. Klik op de naam van een groep.
 
 3. Selecteer in het deelvenster Details, op het tabblad **leden** , de optie **AllesWeergeven en eigenaren beheren**.
 
@@ -108,7 +105,7 @@ Standaard is de maker van de groep de groepseigenaar. Vaak heeft een groep meerd
 
 - [Groepen beheren in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=847632): zie de sectie Hoe kan ik het lidmaatschap van een groep dynamisch beheren?
 
-- Als u honderden of duizenden gebruikers wilt toevoegen aan groepen, gebruikt u de [add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191).
+- Als u honderden of duizenden gebruikers wilt toevoegen aan groepen, gebruikt u de [add-UnifiedGroupLinks](https://docs.microsoft.com/powershell/module/exchange/add-unifiedgrouplinks).
 
 - [Een nieuwe eigenaar toewijzen aan een groep zonder eigenaar](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 

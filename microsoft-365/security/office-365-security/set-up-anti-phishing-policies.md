@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
-ms.openlocfilehash: 9d3c8c0bf2b1c440892a1099d3d0812d95027156
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 34c66d8ab39af443462e8c5ac99009b4170be21e
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615766"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659854"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -84,7 +84,7 @@ De volgende beleidsinstellingen zijn beschikbaar in anti-phishing-beleid in EOP 
     - **Het domein van de ontvanger is**
 
   > [!NOTE]
-  > De instelling **voor toepassen op** is vereist in een aangepast anti phishingfilter om te bepalen in welke **geadresseerden** <u>het beleid van toepassing is</u>. Een anti-phishingfilter in Microsoft Defender voor Office 365 heeft ook [imitatie-instellingen](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) waarin u de e-mailadressen van afzonderlijke e-mailadressen of e-mailadressen van de afzender kunt opgeven die de bescherming van <u>imitatie ontvangen</u> zoals verderop in dit onderwerp wordt beschreven.
+  > De instelling **voor toepassen op** is vereist in een aangepast anti phishingfilter om te bepalen in welke **geadresseerden** <u>het beleid van toepassing is</u>. Een anti-phishingfilter in Microsoft Defender voor Office 365 heeft ook [imitatie-instellingen](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) waar u de e-mailadressen of e-mailadressen van de afzender of <u>het</u> domein van de afzender kunt opgeven, zoals verderop in dit artikel wordt beschreven.
 
 ## <a name="spoof-settings"></a>Spoof-instellingen
 

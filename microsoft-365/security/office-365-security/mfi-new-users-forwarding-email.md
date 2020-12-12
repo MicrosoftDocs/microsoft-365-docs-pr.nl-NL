@@ -11,12 +11,12 @@ ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen informatie over het gebruik van de nieuwe gebruikers die e-mail inzicht doorsturen in het beveiligings & Conformiteitscentrum gebruiken om te onderzoeken wanneer gebruikers in hun organisatie berichten doorsturen naar nieuwe domeinen.
-ms.openlocfilehash: 22bbd762b221fae151a489aa1e9485dfc7baf06a
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: cf1852169279e19ac00e5e29dd1c26e155936039
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357271"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49660015"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Nieuwe gebruikers die e-mail inzicht doorsturen in de beveiligings & nalevings centrum
 
@@ -31,11 +31,11 @@ Dit inzicht wordt alleen weergegeven als het probleem zich voordoet, en wordt we
 
 ![Inzicht in nieuwe gebruikers die e-mails doorsturen](../../media/mfi-new-users-forwarding-email.png)
 
-Wanneer u op de widget klikt, verschijnt er een flyout waar u meer informatie kunt vinden over de doorgestuurde berichten, waaronder een koppeling naar het [rapport met doorsturen van wijzigingen](#forwarding-modifications-report) , zoals verderop in dit onderwerp wordt beschreven.
+Wanneer u op de widget klikt, verschijnt er een flyout waar u meer informatie kunt vinden over de doorgestuurde berichten, waaronder een koppeling naar het [rapport met doorsturen van wijzigingen](#forwarding-modifications-report) , zoals verderop in dit artikel wordt beschreven.
 
 ![Info-menu dat wordt weergegeven nadat u hebt geklikt op de nieuwe gebruikers e-mail doorsturen](../../media/mfi-new-users-forwarding-email-details.png)
 
-U kunt deze detailpagina ook raadplegen wanneer u het inzicht selecteert nadat u op **AllesWeergeven** hebt geklikt in het gebied **belangrijkste inzichten &** gebied voor aanbevelingen (**Reports** \> **Dashboard** rapporten of <https://protection.office.com/insightdashboard> ).
+U kunt deze detailpagina ook raadplegen wanneer u het inzicht selecteert nadat u op **AllesWeergeven** hebt geklikt in het gebied **belangrijkste inzichten &** gebied voor aanbevelingen ( \> **Dashboard** rapporten of <https://protection.office.com/insightdashboard> ).
 
 U kunt klikken op de koppeling **Zie het rapport dat is gekoppeld** aan de Insight-koppeling om naar het **rapport met doorstuur wijzigingen** te gaan, zoals in de volgende sectie is beschreven.
 

@@ -18,33 +18,33 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de typen e-mailadressen die worden geaccepteerd of geweigerd door Exchange Online Protection (EOP) en Outlook.com om phishing te voorkomen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e0afd05c80bb4de665d23b17c7089631dad93c78
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 25fbca8fa5d264a212ac25e2035bffde0819383d
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196057"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659652"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>Hoe EOP het van-adres valideert om phishing te voorkomen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Phishing-aanvallen vormen een constante bedreiging voor elke e-mail organisatie. Naast het gebruik van [valse vervalste e-mailadressen van e-mailadressen](anti-spoofing-protection.md), kunnen aanvallers ook waarden gebruiken in het van-adres dat schendt voor internetstandaarden. Om dit type phishing te helpen voorkomen, moeten inkomende berichten door EOP (Exchange Online Protection) en Outlook.com voortaan inkomende berichten bevatten, zoals in dit artikel beschreven. Dit executie is ingeschakeld in november 2017.
+Phishing-aanvallen vormen een constante bedreiging voor elke e-mail organisatie. Naast het gebruik van [valse vervalste e-mailadressen van e-mailadressen](anti-spoofing-protection.md), kunnen aanvallers ook waarden gebruiken in het van-adres dat schendt voor internetstandaarden. Om dit type phishing te helpen voorkomen, hebben inkomende berichten via Exchange Online Protection (EOP) en Outlook.com voortaan inkomende berichten opgenomen, zodat een RFC-compatibel adres wordt opgenomen in dit artikel. Dit executie is ingeschakeld in november 2017.
 
 **Opmerkingen**:
 
-- Als u regelmatig e-mailberichten ontvangt van organisaties die een verkeerd gespelde versie hebben van adressen zoals in dit onderwerp wordt beschreven, raden we u aan deze organisaties te updaten hun e-mailservers bij te werken zodat ze voldoen aan de moderne beveiligings
+- Als u regelmatig e-mailberichten ontvangt van organisaties die een verkeerd gespelde fout hebben op basis van adressen zoals in dit artikel wordt beschreven, raden we u aan deze organisaties te laten bijwerken dat hun e-mailservers voldoen aan de moderne beveiligings normen
 
 - Het veld voor de bijbehorende afzender (voor verzenden namens en adressenlijsten) wordt niet beïnvloed door deze vereisten. Voor meer informatie raadpleegt u het volgende blogbericht: [Wat betekenen we wanneer we naar de afzender van een e-mailbericht verwijzen?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/).
 
 ## <a name="an-overview-of-email-message-standards"></a>Een overzicht van de standaarden voor e-mailberichten
 
-Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en de inhoud van het bericht. De envelop bericht bevat informatie die nodig is voor het verzenden en het verzenden van het bericht tussen SMTP-servers. De inhoud van het bericht bevat berichtkop velden (gezamenlijk de kop van het *e-mailbericht*genoemd) en de berichttekst. De envelop van het bericht wordt beschreven in [rfc 5321](https://tools.ietf.org/html/rfc5321)en de kop van het e-mailbericht wordt beschreven in [RFC 5322](https://tools.ietf.org/html/rfc5322). Geadresseerden zien de envelop met het werkelijke bericht niet omdat deze wordt gegenereerd door het proces voor het verzenden van berichten en het maakt niet uit van het bericht.
+Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en de inhoud van het bericht. De envelop bericht bevat informatie die nodig is voor het verzenden en het verzenden van het bericht tussen SMTP-servers. De inhoud van het bericht bevat berichtkop velden (gezamenlijk de kop van het *e-mailbericht* genoemd) en de berichttekst. De envelop van het bericht wordt beschreven in [rfc 5321](https://tools.ietf.org/html/rfc5321)en de kop van het e-mailbericht wordt beschreven in [RFC 5322](https://tools.ietf.org/html/rfc5322). Geadresseerden zien de envelop met het werkelijke bericht niet omdat deze wordt gegenereerd door het proces voor het verzenden van berichten en het maakt niet uit van het bericht.
 
 - Het `5321.MailFrom` adres (ook wel **e-mail adres van** de afzender, de afzender van P1 of de afzender) is het e-mailadres dat wordt gebruikt in de SMTP-overdracht van het bericht. Dit e-mailadres wordt meestal opgenomen in het veld voor **de veldnamenrij in de kop van** het bericht (hoewel het mogelijk is dat de afzender een ander e-mailadres voor het **retour traject** aanwijst).
 
-- De `5322.From` (ook bekend als de afzender van address of P2) is het e-mailadres in het veld **van** koptekst en het e-mailadres van de afzender dat wordt weergegeven in e-mailclients. Het van-adres is de focus van de vereisten in dit onderwerp.
+- De `5322.From` (ook bekend als de afzender van address of P2) is het e-mailadres in het veld **van** koptekst en het e-mailadres van de afzender dat wordt weergegeven in e-mailclients. Het van-adres is de focus van de vereisten in dit artikel.
 
 Het van-adres wordt uitvoerig beschreven in diverse Rfc's (bijvoorbeeld RFC 5322, punt 3.2.3, 3,4 en 3.4.1, en [RFC 3696](https://tools.ietf.org/html/rfc3696)). Er zijn veel variaties op de adressering en wat wordt als geldig of ongeldig beschouwd. Om de sjabloon eenvoudig te houden, raden we de volgende opmaak en definities aan:
 

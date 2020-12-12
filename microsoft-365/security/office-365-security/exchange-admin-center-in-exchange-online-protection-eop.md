@@ -16,12 +16,12 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de web management interface in standalone Exchange Online Protection (EOP).
-ms.openlocfilehash: 732991befa9084b62c152295d10a2bbf94bc36ec
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: fc76ecd6dafcf9453a0c6de14917c96c950f8370
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202949"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659664"
 ---
 # <a name="exchange-admin-center-in-standalone-eop"></a>Exchange-beheercentrum in standalone EOP
 
@@ -54,7 +54,7 @@ Zelfstandige EOP-klanten hebben toegang tot het SBV-programma met behulp van de 
 
 In deze sectie worden de onderdelen van de gebruikersinterface beschreven die zijn gevonden in het Exchange-Beheercentrum.
 
-![EOP-Te102827792beheercentrum](../../media/EOP-AdminCenter.png)
+![Het Exchange-Beheercentrum in Exchange Online Protection](../../media/EOP-AdminCenter.png)
 
 ### <a name="feature-pane"></a>Deelvenster functie
 
@@ -85,14 +85,14 @@ Wanneer u op de meeste tabbladen klikt, wordt een werkbalk weergegeven. De werkb
 
 ****
 
-|Pictogram|Naam|Actierij|
+|Pictogram|Naam|Actie|
 |---|---|---|
 |![Pictogram toevoegen](../../media/ITPro-EAC-AddIcon.gif)|Toevoegen, nieuw|Gebruik dit pictogram om een nieuw object te maken. Sommige van deze pictogrammen bevatten een pijl-omlaag waarop u kunt klikken om extra objecten weer te geven die u kunt maken.|
 |![Pictogram bewerken](../../media/ITPro-EAC-EditIcon.gif)|Bewerken|Gebruik dit pictogram als u een object wilt bewerken.|
 |![Pictogram Verwijderen](../../media/ITPro-EAC-DeleteIcon.gif)|Wissen|Gebruik dit pictogram om een object te verwijderen. Sommige delete-pictogrammen bevatten een pijl-omlaag waarop u kunt klikken om extra opties weer te geven.|
 |![Pictogram Zoeken](../../media/ITPro-EAC-.gif)|Vinden|Gebruik dit pictogram om een zoekvak te openen waarin u de zoekterm kunt typen voor een object dat u wilt zoeken.|
 |![Pictogram Vernieuwen](../../media/ITPro-EAC-RefreshIcon.gif)|Vernieuwen|Gebruik dit pictogram om de lijstweergave te vernieuwen.|
-|![Pictogram meer opties](../../media/ITPro-EAC-MoreOptionsIcon.gif)|Meer opties|Gebruik dit pictogram om meer acties weer te geven die u voor dit tabblad objecten kunt uitvoeren. Bij ** \> gebruikers** die op dit pictogram klikken, ziet u bijvoorbeeld de optie voor het uitvoeren van een **Geavanceerd zoeken**.|
+|![Pictogram meer opties](../../media/ITPro-EAC-MoreOptionsIcon.gif)|Meer opties|Gebruik dit pictogram om meer acties weer te geven die u voor dit tabblad objecten kunt uitvoeren. Bij **\> gebruikers** die op dit pictogram klikken, ziet u bijvoorbeeld de optie voor het uitvoeren van een **Geavanceerd zoeken**.|
 |![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.gif)![Pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.gif)|Pijl-omhoog en pijl-omlaag|Gebruik deze pictogrammen als u de prioriteit van een object omhoog of omlaag wilt verplaatsen.|
 |![Pictogram Verwijderen](../../media/ITPro-EAC-RemoveIcon.gif)|Schakel|Gebruik dit pictogram om objecten uit een lijst te verwijderen.|
 |
@@ -107,16 +107,12 @@ Wanneer u in de lijstweergave een object selecteert, wordt informatie over dat o
 
 ### <a name="me-tile-and-help"></a>Ik-tegel en Help
 
-Met de tegel **Ik** kunt u zich afmelden bij het SBV-bericht en u aanmelden als een andere gebruiker. In het **Help** ![ ](../../media/ITPro-EAC-HelpIcon.gif) vervolgkeuzemenu Help-Help-pictogram kunt u de volgende acties uitvoeren:
+Met de tegel **Ik** kunt u zich afmelden bij het SBV-bericht en u aanmelden als een andere gebruiker. In het  ![ ](../../media/ITPro-EAC-HelpIcon.gif) vervolgkeuzemenu Help-Help-pictogram kunt u de volgende acties uitvoeren:
 
 - **Help**: Klik op ![ Help-pictogram ](../../media/ITPro-EAC-HelpIcon.gif) om de inhoud van de online-Help weer te geven.
-
 - **Feedback**: Geef feedback.
-
 - **Community**: Stel een vraag voor het zoeken van antwoorden op de forums van de community.
-
 - **Help bellen uitschakelen**: de Help-Bel wordt contextuele Help voor velden weergegeven wanneer u een object maakt of bewerkt. U kunt de Help bellen uitschakelen of inschakelen als deze functie is uitgeschakeld.
-
 - **Logboekregistratie weergeven**: er wordt een nieuw venster geopend waarin de overeenkomstige PowerShell-opdrachten worden weergegeven op basis van wat u hebt geconfigureerd in het SBV
 
 ## <a name="supported-browsers"></a>Ondersteunde browsers

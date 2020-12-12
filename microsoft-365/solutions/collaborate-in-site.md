@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een SharePoint-site voor samenwerking met gasten.
-ms.openlocfilehash: df9068ef4b4eb35f946b78d8f7fefa01c254c79c
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 6862fe715fe2f19b968b773bc6df6c70c207a44f
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49029991"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663522"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Samenwerken met gasten op een site
 
@@ -38,9 +38,9 @@ In deze video ziet u de configuratiestappen die in dit document worden beschreve
 
 ## <a name="azure-external-collaboration-settings"></a>Instellingen voor externe samenwerking van Azure
 
-Delen in Microsoft 365 wordt bepaald met het hoogste niveau van de [instellingen voor organisatie relaties in azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als gasten delen is uitgeschakeld of niet beschikbaar is in azure AD, worden de instellingen voordelen overschreven die u configureert in Microsoft 365.
+Delen in Microsoft 365 wordt bepaald door de [instellingen voor B2B External collaboration in azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als gasten delen is uitgeschakeld of niet beschikbaar is in azure AD, worden de instellingen voordelen overschreven die u configureert in Microsoft 365.
 
-Controleer de instellingen voor externe samenwerking om ervoor te zorgen dat delen met gasten niet is geblokkeerd.
+Controleer de instellingen voor B2B externe samenwerking om ervoor te zorgen dat delen met gasten niet is geblokkeerd.
 
 ![Schermafbeelding van de pagina met instellingen voor externe samenwerking van Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
@@ -79,13 +79,13 @@ De instellingen op het niveau van organisatie bepalen de instellingen die beschi
 
 Als u niet-geverifieerde bestanden en mappen wilt delen, kiest u **iedereen**. Als u ervoor wilt zorgen dat alle personen van buiten uw organisatie verificatie hebben, kiest u **nieuwe en bestaande gasten**. Kies de meest strikte instelling die moet worden gebruikt door alle sites in uw organisatie.
 
-![Schermafbeelding van de instellingen voor delen op organisatieniveau in SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
+![Schermafbeelding van de instellingen voor delen op organisatieniveau van SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
 
 
 Instellingen voordelen van SharePoint op organisatieniveau instellen
 
 1. Klik in het Microsoft 365-Beheercentrum, in het linker navigatiedeelvenster, onder **beheer centra** op **SharePoint**.
-2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid** , op **delen**.
+2. Klik in het SharePoint-Beheercentrum, in het linker navigatiedeelvenster, onder **beleid**, op **delen**.
 3. Zorg ervoor dat extern delen voor SharePoint is ingesteld op **iedereen** of **nieuwe en bestaande gasten**.
 4. Als u wijzigingen hebt aangebracht, klikt u op **Opslaan**.
 
@@ -106,9 +106,11 @@ We nodigen later gebruikers uit. Vervolgens moet u de instellingen voordelen op 
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voordelen op SharePoint-siteniveau
 
-Controleer de instellingen op siteniveau delen om ervoor te zorgen dat ze het gewenste type toegang voor deze site toestaan. Als u bijvoorbeeld de instellingen op organisatieniveau instelt op **iedereen** , maar u wilt dat alle gasten verificatie voor deze site verifiëren, controleert u of de instellingen voordelen op het siteniveau zijn ingesteld op **nieuwe en bestaande gasten**.
+Controleer de instellingen op siteniveau delen om ervoor te zorgen dat ze het gewenste type toegang voor deze site toestaan. Als u bijvoorbeeld de instellingen op organisatieniveau instelt op **iedereen**, maar u wilt dat alle gasten verificatie voor deze site verifiëren, controleert u of de instellingen voordelen op het siteniveau zijn ingesteld op **nieuwe en bestaande gasten**.
 
-Houd er rekening mee dat de site niet kan worden gedeeld met niet-geverifieerde personen ( **iedereen** ), maar ook afzonderlijke bestanden en mappen.
+Houd er rekening mee dat de site niet kan worden gedeeld met niet-geverifieerde personen (**iedereen** ), maar ook afzonderlijke bestanden en mappen.
+
+U kunt ook de [instellingen voor het extern delen van SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)met behulp van palletlabels gebruiken.
 
 ![Schermafbeelding van de instellingen voor extern delen van SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
@@ -129,7 +131,7 @@ Interne gebruikers voor een groep uitnodigen
 3. Klik op **leden toevoegen**.
 4. Typ de namen of e-mailadressen van de gebruikers die u wilt uitnodigen voor de site en klik op **Opslaan**.
 
-Gastgebruikers kunnen niet worden toegevoegd van de site. U moet ze toevoegen met de webversie van Outlook. Daarom moet u als vereisten voor het toevoegen en uitnodigen van gasten aan een groep klikken op de URL van de site in de kolom **URL**  om naar de specifieke sitepagina te gaan. Klik op deze pagina op het pictogram van het **startprogramma voor apps** en selecteer **Outlook**. Dit is het scherm waarmee u gasten kunt uitnodigen voor een groep, waaronder de onderstaande procedure wordt beschreven.
+U kunt geen gasten toevoegen vanaf de site. U moet ze toevoegen met de webversie van Outlook. Daarom moet u als vereisten voor het toevoegen en uitnodigen van gasten aan een groep klikken op de URL van de site in de kolom **URL**  om naar de specifieke sitepagina te gaan. Klik op deze pagina op het pictogram van het **startprogramma voor apps** en selecteer **Outlook**. Dit is het scherm waarmee u gasten kunt uitnodigen voor een groep, waaronder de onderstaande procedure wordt beschreven.
 
 Gasten voor een groep uitnodigen
 1. Klik onder **groepen** op de groep waaraan u gasten wilt uitnodigen.

@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: fe0a06dd104f0f0532363ee046f4bad1c03c5400
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 8504b036203e1f73dc9e0a0d79a228425fb88bfa
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130877"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659631"
 ---
 # <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Een Microsoft 365 Defender-proef Lab of pilot omgeving maken 
 
@@ -35,9 +35,13 @@ ms.locfileid: "49130877"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
+
+Deze handleiding helpt u bij het instellen van een lab-omgeving met gebruikers en groepen, en begeleidt u door de configuratie van de mogelijkheden in Microsoft 365 Defender, zodat u een aanvals probleem kunt nabootsen en een zinvolle resultaten kunt krijgen. 
+
 Het doel van het maken van deze proefversie of pilot omgeving is het illustreren van de allesomvattende en geïntegreerde Microsoft 365 Defender-mogelijkheden. Ervaar hoe deze intelligente beveiligingsoplossing detecteert, voorkomt automatisch onderzoek en reageert op geavanceerde bedreigingen voor uw organisatie. 
 
-In deze handleiding vindt u de stappen voor het starten van uw Microsoft 365-evaluatieversie op basis van de aanbevolen distributie paden. Het doel is om u te helpen bij het instellen van de beveiligingsoplossing in een lab-omgeving met een proefaccount, of in een testomgeving in productie met een volledige licentie. Het voorbereiden van uw proefversie of pilot omgeving kan u helpen bij het presenteren van beveiligingsactiviteiten voor besluitvormings Programma's in uw organisatie. Wanneer u klaar bent met het uitvoeren van uw aanvals simulaties en tevreden bent over de resultaten, kunt u deze in uw organisatie volledig implementeren en operationalize met behulp van de Help van Microsoft Technical Sales professionals of experts in uw organisatie. 
+
+U wordt begeleid bij de stappen om uw proefversie van Microsoft 365 Defender te starten op basis van de aanbevolen implementatie paden. Het doel is om u te helpen bij het instellen van de beveiligingsoplossing in een lab-omgeving met een proefaccount, of in een testomgeving in productie met een volledige licentie. Het voorbereiden van uw proefversie of pilot omgeving kan u helpen bij het presenteren van beveiligingsactiviteiten voor besluitvormings Programma's in uw organisatie. Wanneer u klaar bent met het uitvoeren van uw aanvals simulaties en tevreden bent over de resultaten, kunt u deze in uw organisatie volledig implementeren en operationalize met behulp van de Help van Microsoft Technical Sales professionals of experts in uw organisatie. 
 
 Deze handleiding helpt u bij:
 - Uw testserver en computers instellen
@@ -52,15 +56,30 @@ Deze handleiding helpt u bij:
 
 ## <a name="deployment-phases"></a>Implementatiefasen
 
-Er zijn drie fasen in het maken van een proefversie van Microsoft voor Microsoft 365 Defender met proef omgevingen en de implementatie ervan:
+Er zijn drie fasen in het maken van een proefversie van Microsoft 365 Defender.
 
-![Implementatiefasen: voorbereiden, instellen, onboardd](../../media/phase-diagrams/deployment-phases.png)
+![Implementatiefasen: voorbereiden, instellen, onboardd](../../media/evaluation-guide-phases.png)
 
 |Fase | Beschrijving | 
 |:-------|:-----|
 |[Fase 1: voorbereiding](prepare-mtpeval.md)| Meer informatie over wat u moet doen wanneer u Microsoft 365 Defender implementeert in een proefversie van het lab of een testomgeving: <br><br>-Belanghebbenden en afmelden <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde
 |[Fase 2: instellen](setup-mtpeval.md)|  Voer de volgende stappen uit om toegang te krijgen tot het Microsoft 365-Beveiligingscentrum voor het instellen van uw proefversie van Microsoft 365 Defender of prototype. U wordt begeleid bij:<br><br>-Registreren voor Microsoft 365 E5-proefabonnement <br>  Domein configureren<br>-Microsoft 365 E5-licenties toewijzen<br>-De wizard Setup voltooien in de portal|
 |[Fase 3: & onboard configureren](config-mtpeval.md) | Configureer elke Microsoft 365 Defender-pijler pijler en de ingebouwde eindpunten. U wordt begeleid bij:<br><br>-Microsoft Defender voor Office 365 configureren<br>-Beveiliging van Microsoft Cloud-app configureren<br>-Microsoft Defender configureren voor identiteit<br>-Microsoft Defender voor eindpunt configureren
+
+
+Wanneer u klaar bent met deze handleiding, hebt u de betrokken belanghebbenden geïdentificeerd en moeten ze de juiste machtigingen hebben, de juiste toegangsmachtigingen hebben, zich hebben geregistreerd voor proefversies, geconfigureerde domeinen en elk van de Microsoft 365-werkbalken, en de eindpunten worden in de service gehouden.
+
+## <a name="key-capabilities"></a>Belangrijkste mogelijkheden
+
+Hoewel Microsoft 365 Defender veel mogelijkheden biedt, kunt u het hoofddoel van deze Implementatiehandleiding gebruiken om u op weg te helpen. Daarnaast kunt u met deze richtlijnen aan de slag met de volgende mogelijkheden.
+
+
+Mogelijkheid | Beschrijving 
+:---|:---
+Microsoft Defender voor Office 365 | Beschermt uw volledige Office 365-envrionment vanaf de bedreiging van vandaag
+Microsoft Defender for Identity | Identificeert en detecteert bedreigingen voor de compromisloze identiteiten en schadelijke Insider-acties.
+Microsoft Cloud App Security | Zorgt voor uitgebreide informatie over het beheren van gegevens en het vinden van cyberthreats in de cloudservices.
+Microsoft Defender for Endpoint | Maakt, detecteert en levert antwoord mogelijkheden voor geavanceerde bedreigingen met uitgebreide beveiliging van het eindpunt.
 
 
 ## <a name="in-scope"></a>In bereik
@@ -76,7 +95,7 @@ De volgende taken bevinden zich in het bereik van deze handleiding:
     -   Microsoft Defender voor Office 365
     -   Microsoft Defender for Identity
     -   Microsoft Cloud App Security
-    -   Microsoft Defender voor Eindpunt 
+    -   Microsoft Defender for Endpoint
 
 ## <a name="out-of-scope"></a>Buiten bereik
 

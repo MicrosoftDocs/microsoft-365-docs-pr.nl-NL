@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Informatie over het maken van een e-mail stroom regels (transportregels) om berichten te identificeren en het betrouwbaarheidsniveau (spam niveau) van berichten in Exchange Online Protection in te stellen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 791e6747e1ffa92d54e7d4f4a6c257c3aad4c0d9
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 447333eb968ba7d91a1673c57b11afdb16b90469
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195853"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659835"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages-in-eop"></a>De regels voor de e-mail stroom gebruiken voor het instellen van het betrouwbaarheidsniveau voor ongewenste e-mail (SCL) in berichten in EOP
 
@@ -35,15 +35,23 @@ Als u bepaalde berichten wilt markeren als spam voordat ze worden gescand via sp
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U moet machtigingen toegewezen hebben in Exchange Online voordat u deze procedures kunt uitvoeren. Specifiek moet u de rol van **transport regels** toewijzen, die aan de rollen voor **Organisatiebeheer**, **Compliance Management**, en het **beheer van recordbeheer** standaard is toegewezen. Zie [rollen groepen beheren in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)voor meer informatie.
+- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor Exchange Online of Exchange Online Protection. Specifiek hebt u de rol van **transport regels** nodig, dat is toegewezen aan **Organisatiebeheer**, **nalevings beheer** (globale beheerders) en rollen groepen voor **recordbeheer** .
 
-- Zie [Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center)om het SBV te openen in Exchange Online.
+  Zie de volgende onderwerpen voor meer informatie:
 
-- Zie voor meer informatie over regels voor de e-mail stroom in Exchange Online, [regels voor e-mail stroom (transportregels) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
+  - [Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+  - [Machtigingen in standalone EOP](feature-permissions-in-eop.md)
+  - [Werken met de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+
+- Zie [Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center)om het SBV te openen in Exchange Online. Als u het Exchange-Beheercentrum in standalone EOP wilt openen, raadpleegt u [Exchange Admin Center in STANDALONE EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
+
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
+
+- Zie voor meer informatie over regels voor e-mail stroom in Exchange Online en Exchange Online Protection Zie [regels voor e-mail stroom (transportregels) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
 ## <a name="use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message"></a>Het Exchange-Beheercentrum gebruiken om een e-mail stroom regel te maken waarmee de SCL van een bericht wordt ingesteld
 
-1. Ga in het Exchange-Beheercentrum naar de regels voor de **e-mail stroom** \> **Rules**.
+1. Ga in het Exchange-Beheercentrum naar de regels voor de **e-mail stroom** \> .
 
 2. Klik **op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.png) en selecteer vervolgens **een nieuwe regel maken**.
 
@@ -55,7 +63,7 @@ Als u bepaalde berichten wilt markeren als spam voordat ze worden gescand via sp
 
    - **Deze regel toepassen als**: Selecteer een of meer voorwaarden voor het identificeren van berichten. Zie voor meer informatie de [voorwaarden voor de e-mail stroom regels en uitzonderingen (predikaten) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
-   - **Ga als volgt**te werk: opties voor het wijzigen van het **bericht** is \> **het betrouwbaarheidsniveau van spam (SCL)**. In het dialoogvenster **SCL opgeven** dat wordt weergegeven, configureert u een van de volgende waarden:
+   - **Ga als volgt** te werk: opties voor het wijzigen van het **bericht** is \> **het betrouwbaarheidsniveau van spam (SCL)**. In het dialoogvenster **SCL opgeven** dat wordt weergegeven, configureert u een van de volgende waarden:
 
    - **Spam filteren negeren**: de berichten worden in spam filteren overgeslagen.
 
@@ -72,4 +80,4 @@ Als u bepaalde berichten wilt markeren als spam voordat ze worden gescand via sp
 
 ## <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Ga als volgt te werk om te controleren of deze procedure goed werkt: een e-mailbericht naar iemand binnen uw organisatie verzenden en controleren of de actie die op het bericht is uitgevoerd, is zoals verwacht. Als u bijvoorbeeld **het spam niveau (SCL) instelt** om **spam te filteren**, moet het bericht naar het postvak in van de opgegeven ontvanger worden verzonden. Als u echter **het betrouwbaarheidsniveau voor ongewenste e-mail (SCL) instelt** op **9**en de actie **spam hoge betrouwbaarheid** voor uw toepasselijke Antispambeleid is het verplaatsen van het bericht naar de map Ongewenste e-mail, dan moet het bericht worden verzonden naar de map Ongewenste e-mail van de opgegeven geadresseerde.
+Ga als volgt te werk om te controleren of deze procedure goed werkt: een e-mailbericht naar iemand binnen uw organisatie verzenden en controleren of de actie die op het bericht is uitgevoerd, is zoals verwacht. Als u bijvoorbeeld **het spam niveau (SCL) instelt** om **spam te filteren**, moet het bericht naar het postvak in van de opgegeven ontvanger worden verzonden. Als u echter **het betrouwbaarheidsniveau voor ongewenste e-mail (SCL) instelt** op **9** en de actie **spam hoge betrouwbaarheid** voor uw toepasselijke Antispambeleid is het verplaatsen van het bericht naar de map Ongewenste e-mail, dan moet het bericht worden verzonden naar de map Ongewenste e-mail van de opgegeven geadresseerde.

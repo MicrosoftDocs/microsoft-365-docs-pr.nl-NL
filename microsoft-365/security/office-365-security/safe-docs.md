@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over veilige documenten in Microsoft 365 E5 of Microsoft 365 E5 beveiliging.
-ms.openlocfilehash: 7fbee440298aea3609665b62a946ae3ce2857e37
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 0acb5d4ee0c80deebc4d0b040b046d63037037a7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845478"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659871"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
@@ -29,7 +29,7 @@ ms.locfileid: "48845478"
 
 Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveiliging waarbij [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) wordt gebruikt om documenten en bestanden te scannen die worden geopend in de [beveiligde weergave](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - Veilige documenten zijn alleen beschikbaar voor gebruikers met de beveiligings licenties voor *Microsoft 365 E5* of *Microsoft 365 E5* . Deze licenties zijn niet opgenomen in Microsoft Defender for Office 365-abonnementen.
 
@@ -37,9 +37,18 @@ Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveil
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com>. Als u rechtstreeks naar de pagina met **veilige bijlage van ATP** wilt gaan, opent u deze <https://protection.office.com/safeattachmentv2> .
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet machtigingen zijn toegewezen voordat u de procedures in dit onderwerp kunt uitvoeren. Als u veilige documenten wilt inschakelen en configureren, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** . Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
+- Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
+  - Als u instellingen voor veilige documenten wilt configureren, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+  - Voor alleen-lezen toegang tot instellingen voor veilige documenten moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
+
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+
+  **Opmerkingen**:
+
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Hoe bewerkt Microsoft uw gegevens?
 
@@ -49,13 +58,13 @@ Bestanden die door veilige documenten zijn verzonden, worden niet langer bewaard
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Beveiligings & voor naleving van Beveiligingscentrum gebruiken om veilige documenten te configureren
 
-1. Ga in het beveiligings & compliance naar veilige bijlagen voor het beleid voor **bedreigings beheer** \> **Policy** \> **ATP Safe Attachments** en klik vervolgens op **algemene instellingen**.
+1. Ga in het beveiligings & compliance naar veilige bijlagen voor het beleid voor **bedreigings beheer** \>  \> en klik vervolgens op **algemene instellingen**.
 
 2. Configureer de volgende instellingen in de **algemene instellingen** die worden weergegeven:
 
-   - **Veilige documenten inschakelen voor Office-clients** : zet de wisselknop naar rechts om de functie in te schakelen: ![ wisselknop ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Veilige documenten inschakelen voor Office-clients**: zet de wisselknop naar rechts om de functie in te schakelen: ![ wisselknop ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
 
-   - **Toestaan dat personen kunnen klikken via de beveiligde weergave, zelfs als de veilige documenten het bestand als schadelijk identificeren** : u wordt aangeraden deze optie uit te schakelen (laat de schakeloptie links: ![ uit ](../../media/scc-toggle-off.png) ) staan.
+   - **Toestaan dat personen kunnen klikken via de beveiligde weergave, zelfs als de veilige documenten het bestand als schadelijk identificeren**: u wordt aangeraden deze optie uit te schakelen (laat de schakeloptie links: ![ uit ](../../media/scc-toggle-off.png) ) staan.
 
    Klik op **Opslaan** wanneer u gereed bent.
 
@@ -84,7 +93,7 @@ Zie [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange
 
 Ga op een van de volgende manieren te werk om te controleren of u veilige documenten hebt ingeschakeld en geconfigureerd:
 
-- Ga in het beveiligings & compliance **naar het** beleid voor het oplossen van beveiligingsfuncties, ga naar \> **Policy** \> **veilige bijlagen** **voor Office** , klik op **algemene instellingen** en zorg ervoor **dat personen kunnen klikken op de beveiligde weergave, ongeacht of het bestand wordt geïdentificeerd als kwaadwillende documenten** .
+- Ga in het beveiligings & compliance **naar het** beleid voor het oplossen van beveiligingsfuncties, ga naar \>  \> **veilige bijlagen** **voor Office** , klik op **algemene instellingen** en zorg ervoor **dat personen kunnen klikken op de beveiligde weergave, ongeacht of het bestand wordt geïdentificeerd als kwaadwillende documenten** .
 
 - Voer de volgende opdracht uit in Exchange Online PowerShell en controleer de eigenschapwaarden.
 

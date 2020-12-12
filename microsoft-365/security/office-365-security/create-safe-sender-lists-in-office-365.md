@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 71c413cdf3f9a189420c33953d7bce41362ab6a9
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 38f1ab2451191dd63d5738075dbf42f8201a34ca
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616630"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659902"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
@@ -47,7 +47,7 @@ Regels voor e-mail stroom bieden de meeste flexibiliteit om ervoor te zorgen dat
 >
 > - Als u wilt dat een domein niet-geverifieerde e-mail kan verzenden (anti-spoofing beveiliging), maar niet antispam en anti-malware controleert, kunt u deze toevoegen aan de [lijst met veilige afzenders van AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)
 >
-> - In EOP en Outlook worden de verschillende berichteigenschappen gecontroleerd om de afzender van het bericht te bepalen. Zie voor meer informatie de sectie [overwegingen voor bulk e-mail](#considerations-for-bulk-email) verderop in dit onderwerp.
+> - In EOP en Outlook worden de verschillende berichteigenschappen gecontroleerd om de afzender van het bericht te bepalen. Zie voor meer informatie de sectie [overwegingen voor bulk e-mail](#considerations-for-bulk-email) verderop in dit artikel.
 
 In het contrast hebt u ook verschillende opties om e-mail van bepaalde bronnen te blokkeren met behulp van _lijsten met geblokkeerde afzenders_. Zie [Lijsten met geblokkeerde afzenders maken in EOP](create-block-sender-lists-in-office-365.md) voor meer informatie.
 

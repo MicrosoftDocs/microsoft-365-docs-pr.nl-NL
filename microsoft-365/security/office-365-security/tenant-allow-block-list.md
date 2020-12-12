@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over de configuratie van URL-items in de lijst Tenant toestaan/blokkeren in het beveiligings & nalevings centrum.
-ms.openlocfilehash: 0fdfa23ba22b240032e7a6888948de180aa0f6ae
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 4bf5e2e29a9f48c434be527a2447ca4bf98c4208
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614962"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659996"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>URL's beheren in de lijst met toegestane/geblokkeerde tenants
 
@@ -28,7 +28,7 @@ ms.locfileid: "49614962"
 
 
 > [!NOTE]
-> De functies die in dit onderwerp worden beschreven, zijn in de preview-versie en kunnen worden gewijzigd, en zijn niet beschikbaar in alle organisaties.
+> De functies die in dit artikel worden beschreven, zijn in voorbeeld, kunnen worden gewijzigd, en zijn niet beschikbaar in alle organisaties.
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, kunt u niet akkoord met de EOP-filter Verdict. U kunt bijvoorbeeld een goed bericht markeren als beschadigd (een fout-positief) of een onjuist bericht mag worden toegestaan via (een onwaar negatief).
 
@@ -40,7 +40,7 @@ In dit onderwerp wordt beschreven hoe u items in de lijst met toegestane/geblokk
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u direct naar de pagina met de **lijst met toegestane/geblokkeerde tenants** wilt gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
 
-- In dit onderwerp vindt u een beschrijving van de beschikbare URL-waarden in de [URL-syntaxis voor de sectie lijst met toegestane/geblokkeerde tenants](#url-syntax-for-the-tenant-allowblock-list)
+- De beschikbare URL-waarden worden beschreven in de [URL-syntaxis voor de sectie lijst met toegestane/geblokkeerde tenants](#url-syntax-for-the-tenant-allowblock-list) in dit artikel.
 
 - De lijst Tenant toestaan/blokkeren mag maximaal 500 vermeldingen voor Url's zijn.
 
@@ -60,14 +60,14 @@ In dit onderwerp wordt beschreven hoe u items in de lijst met toegestane/geblokk
 
   **Opmerkingen**:
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het compliance-beveiligings & voor het maken van URL-vermeldingen in de lijst Tenant toestaan/blokkeren
 
-Zie voor meer informatie over de syntaxis voor URL-vermeldingen de [URL-syntaxis voor de sectie lijst met toegestane/geblokkeerde tenants](#url-syntax-for-the-tenant-allowblock-list) in dit onderwerp.
+Zie voor meer informatie over de syntaxis voor URL-vermeldingen de [URL-syntaxis voor de sectie de lijst toestaan/blokkeren van de Tenant](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel.
 
-1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **bedreigings beheer** van de \> **Policy** \> **Tenant**.
+1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **bedreigings beheer** van de \>  \> **Tenant**.
 
 2. Zorg dat op de pagina **lijst met toegestane/geblokkeerde tenants** de optie het tabblad **url's** is geselecteerd en klik op **toevoegen** .
 
@@ -91,7 +91,7 @@ Zie voor meer informatie over de syntaxis voor URL-vermeldingen de [URL-syntaxis
 
 ## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>De beveiligings & voor compliance gebruiken om vermeldingen weer te geven in de lijst Tenant toestaan/blokkeren
 
-1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **bedreigings beheer** van de \> **Policy** \> **Tenant**.
+1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **bedreigings beheer** van de \>  \> **Tenant**.
 
 2. Selecteer het tabblad **url's** .
 
@@ -125,11 +125,11 @@ Als u bestaande filters wilt wissen, klikt u op **filter** en klikt u in het **f
 
 U kunt de URL-waarde zelf niet wijzigen. In plaats daarvan moet u de vermelding verwijderen en opnieuw maken.
 
-1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **bedreigings beheer** van de \> **Policy** \> **Tenant**.
+1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **bedreigings beheer** van de \>  \> **Tenant**.
 
 2. Selecteer het tabblad **url's** .
 
-3. Selecteer de vermelding die u wilt wijzigen en klik vervolgens op het **Edit** ![ pictogram bewerken bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) .
+3. Selecteer de vermelding die u wilt wijzigen en klik vervolgens op het  ![ pictogram bewerken bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) .
 
 4. Configureer de volgende instellingen in het vervolgmenu dat wordt weergegeven:
 
@@ -149,7 +149,7 @@ U kunt de URL-waarde zelf niet wijzigen. In plaats daarvan moet u de vermelding 
 
 ## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Met behulp van het compliance-beveiligings & voor het verwijderen van vermeldingen uit de lijst Tenant toestaan/blokkeren
 
-1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **bedreigings beheer** van de \> **Policy** \> **Tenant**.
+1. Ga in het beveiligings & compliance naar beleidsregels voor het beleid voor **bedreigings beheer** van de \>  \> **Tenant**.
 
 2. Selecteer het tabblad **url's** .
 

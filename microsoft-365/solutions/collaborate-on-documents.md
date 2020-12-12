@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: In dit artikel leert u hoe u kunt samenwerken met gasten aan een document in SharePoint en OneDrive.
-ms.openlocfilehash: bb97beaacf6a433e4fc5c38a897327d1e359ffb1
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 1b2fe003902b69e4c0c58852af67862ce6f2eb34
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613512"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663509"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Samenwerken met gasten aan een document
 
@@ -34,15 +34,13 @@ In deze video ziet u de configuratiestappen die in dit document worden beschreve
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE450Vt?autoplay=false]
 
-## <a name="azure-organizational-relationships-settings"></a>Instellingen van Azure organisatie relaties
+## <a name="azure-external-collaboration-settings"></a>Instellingen voor externe samenwerking van Azure
 
-Delen in Microsoft 365 wordt bepaald met het hoogste niveau van de [instellingen voor organisatie relaties in azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als gasten delen is uitgeschakeld of niet beschikbaar is in azure AD, worden de instellingen voordelen overschreven die u configureert in Microsoft 365.
+Delen in Microsoft 365 wordt bepaald door de [instellingen voor B2B External collaboration in azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Als gasten delen is uitgeschakeld of niet beschikbaar is in azure AD, worden de instellingen voordelen overschreven die u configureert in Microsoft 365.
 
-Controleer de instellingen van de organisatie om te controleren of delen met gasten niet is geblokkeerd.
+Controleer de instellingen voor B2B externe samenwerking om ervoor te zorgen dat delen met gasten niet is geblokkeerd.
 
 ![Schermafbeelding van de instellingenpagina voor organisatierelaties in Microsoft Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
-
-Instellingen voor organisatie relaties instellen
 
 Externe samenwerkings instellingen instellen
 
@@ -67,7 +65,7 @@ Voor SharePoint en OneDrive, als u niet-geverifieerde bestanden en mappen wilt d
 
 Voor SharePoint kiest u de meest strikte instelling die moet worden gebruikt door alle sites in uw organisatie.
 
-![Schermafbeelding van de instellingen voor delen op organisatieniveau in SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
+![Schermafbeelding van de instellingen voor delen op organisatieniveau van SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
 
 
 Instellingen voordelen van SharePoint op organisatieniveau instellen
@@ -109,11 +107,11 @@ Machtigingen instellen voor koppelingen waarmee u met iedereen kunt delen
 
 1. In het deelvenster **deze koppelingen kunnen deze machtigingen geven:** subvenster 
     1. In de vervolgkeuzelijst **bestanden** , 
-        1. Selecteer **weergeven en bewerken** als u niet-geverifieerde gebruikers wilt toestaan om wijzigingen aan te brengen in de bestanden.
-        2. Selecteer **weergeven** als u niet wilt dat niet-geverifieerde gebruikers wijzigingen in de bestanden aanbrengen.
+        - Selecteer **weergeven en bewerken** als u niet-geverifieerde gebruikers wilt toestaan om wijzigingen aan te brengen in de bestanden.
+        - Selecteer **weergeven** als u niet wilt dat niet-geverifieerde gebruikers wijzigingen in de bestanden aanbrengen.
     2. In de vervolgkeuzelijst **mappen** ,
-        1. Selecteer **weergeven, bewerken en uploaden** als u niet-geverifieerde gebruikers wilt toestaan om wijzigingen aan te brengen in de mappen.
-        2. Selecteer **weergeven** als u niet wilt dat niet-geverifieerde gebruikers wijzigingen in de mappen aanbrengen.
+        - Selecteer **weergeven, bewerken en uploaden** als u niet-geverifieerde gebruikers wilt toestaan om wijzigingen aan te brengen in de mappen.
+        - Selecteer **weergeven** als u niet wilt dat niet-geverifieerde gebruikers wijzigingen in de mappen aanbrengen.
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Instellingen voordelen op SharePoint-siteniveau
 

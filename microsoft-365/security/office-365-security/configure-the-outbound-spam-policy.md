@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven, maken, wijzigen en verwijderen van beleid voor uitgaande spam in Exchange Online Protection (EOP).
-ms.openlocfilehash: 237703d9ad6ed652a3feb4dda57a7af0e99240f7
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 0deafe2817c3e10371b02349aca2612af090af65
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614938"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659700"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaande spamfilters configureren in EOP
 
@@ -51,7 +51,7 @@ Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande sp
 - Wanneer u een beleid wijzigt, worden de instellingen voor de regels naam, prioriteit, ingeschakeld of uitgeschakeld en de filters voor uitgaande spamfilters gewijzigd. Alle andere instellingen wijzigen het bijbehorende uitgaande spamfilter beleid.
 - Wanneer u een beleid verwijdert, worden de regels uitgaande spamfilter en het bijbehorende uitgaande spamfilter verwijderd.
 
-In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie de sectie [Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om uitgaande spam beleidsregels](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) verderop in dit onderwerp te configureren.
+In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie de sectie [Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om uitgaande spam beleidsregels te configureren](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) verderop in dit artikel.
 
 Elke organisatie heeft een ingebouwd spam beleid met de naam standaard met de volgende eigenschappen:
 
@@ -75,7 +75,7 @@ Als u de efficiëntie van uitgaande spamfilters wilt verbeteren, kunt u een aang
 
   **Opmerkingen**:
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Voor de aanbevolen instellingen voor het beleid voor uitgaande spam, raadpleegt u [beleidsinstellingen voor uitgaande spamfilters EOP](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings).
@@ -158,7 +158,7 @@ Als u een aangepast beleid voor uitgaande spam maakt in de beveiligings & nalevi
 
      - **Geen actie, alleen waarschuwingen**: e-mail meldingen worden verzonden.
 
-6. Option Vouw **automatisch doorsturen** uit om het automatisch doorsturen van e-mail door gebruikers naar externe afzenders te regelen. Zie [doorsturen van E-mail configureren](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding)voor meer informatie over automatisch doorsturen.
+6. Option Vouw **automatisch doorsturen** uit om het automatisch doorsturen van e-mail door gebruikers naar externe afzenders te regelen. Zie voor meer informatie [het artikel automatisch doorsturen van externe e-mail in Microsoft 365](external-email-forwarding.md).
 
    > [!NOTE]
    >
@@ -166,7 +166,7 @@ Als u een aangepast beleid voor uitgaande spam maakt in de beveiligings & nalevi
    >
    > - Deze instellingen zijn alleen van toepassing op postvakken op basis van de Cloud.
    >
-   > - Wanneer automatisch doorsturen is uitgeschakeld, ontvangt de ontvanger een rapport over niet-uitgevoerde bezorging (ook wel een NDR genoemd of bericht over een NDR) als externe afzenders een e-mail verzenden naar een postvak waarop het doorsturen is geplaatst. Als het e-mailbericht door een interne afzender wordt verzonden, krijgt de afzender de NDR.
+   > - Wanneer automatisch doorsturen is uitgeschakeld, ontvangt de ontvanger een rapport over niet-uitgevoerde bezorging (ook wel een NDR genoemd of bericht over een NDR) als externe afzenders een e-mail verzenden naar een postvak waarop het doorsturen is geplaatst. Als het bericht wordt verzonden door een interne afzender **en** de doorstuur methode [Postvak doorsturen](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (ook wel _SMTP-doorsturen_ genoemd), krijgt de interne afzender de NDR. De interne verzender ontvangt geen NDR als het doorsturen is gebeurd vanwege een regel voor Postvak in.
 
    De beschikbare waarden zijn:
 
@@ -396,7 +396,7 @@ Zie [Get-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/mod
 
 ### <a name="use-powershell-to-modify-outbound-spam-filter-policies"></a>PowerShell gebruiken om uitgaand spamfilter beleid te wijzigen
 
-U kunt dezelfde instellingen gebruiken als u een beleid voor het filteren van schadelijke software in PowerShell wijzigt, zoals wordt beschreven in de sectie [stap 1: PowerShell gebruiken om een uitgaand spamfilter beleid te maken](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) eerder in dit onderwerp.
+U kunt dezelfde instellingen gebruiken als u een beleid voor het filteren van schadelijke software in PowerShell wijzigt, zoals wordt beschreven in de sectie [stap 1: PowerShell gebruiken om een uitgaand spamfilter beleid te maken](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) eerder in dit artikel.
 
 > [!NOTE]
 > U kunt de naam van een uitgaand spamfilter beleid niet wijzigen (de cmdlet **set-HostedOutboundSpamFilterPolicy** heeft geen _naam_ parameter). Wanneer u de naam van een uitgaand spam beleid wijzigt in de beveiligings & nalevings centrum, wordt de naam van de uitgaande spamfilter _regel_ alleen gewijzigd.
@@ -413,7 +413,7 @@ Zie [set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/m
 
 De enige instelling die niet beschikbaar is wanneer u een uitgaande spamfilter regel wijzigt in PowerShell is de _ingeschakelde_ parameter waarmee u een uitgeschakelde regel kunt maken. Zie de volgende sectie als u bestaande regels voor uitgaande spamfilters wilt in-of uitschakelen.
 
-Anders zijn er geen extra instellingen beschikbaar wanneer u een uitgaande spamfilter regel wijzigt in PowerShell. U kunt dezelfde instellingen gebruiken wanneer u een regel maakt zoals wordt beschreven in de sectie [stap 2: PowerShell gebruiken om een uitgaande spamfilter regel te maken](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) eerder in dit onderwerp.
+Anders zijn er geen extra instellingen beschikbaar wanneer u een uitgaande spamfilter regel wijzigt in PowerShell. U kunt dezelfde instellingen gebruiken wanneer u een regel maakt zoals wordt beschreven in de sectie [stap 2: PowerShell gebruiken om een uitgaande spamfilter regel te maken](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) eerder in dit artikel.
 
 Als u een uitgaande spamfilter regel wilt wijzigen, gebruikt u de volgende syntaxis:
 

@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Meer informatie over hoe u ervoor kunt zorgen dat gasten niet aan een specifieke groep worden toegevoegd
-ms.openlocfilehash: 99e78932b29d25054922b56fcadb608a7dfca432
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 8bee26bf5ec323536ca1ac6f25ce96927634cee7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613054"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49660046"
 ---
 # <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>Voorkomen dat gasten worden toegevoegd aan een specifieke Microsoft 365-groep of een Microsoft teams-team
 
@@ -30,7 +30,7 @@ Als u de palletlabels in uw organisatie gebruikt, raden we u aan ze te gebruiken
 
 ## <a name="change-group-settings-using-microsoft-powershell"></a>Groepsinstellingen wijzigen met Microsoft PowerShell
 
-U kunt er ook voor zorgen dat nieuwe gasten worden toegevoegd aan individuele groepen met behulp van PowerShell.
+U kunt er ook voor zorgen dat nieuwe gasten worden toegevoegd aan individuele groepen met behulp van PowerShell. Houd er rekening mee dat de gekoppelde SharePoint-site van het team [afzonderlijke besturingselementen](https://docs.microsoft.com/sharepoint/change-external-sharing-site)voor het delen van gasten bevat.
 
 U moet de preview-versie van [Azure Active Directory PowerShell voor Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (module name **AzureADPreview**) gebruiken om de instelling voor gasttoegang op het groepeerniveau te wijzigen:
 

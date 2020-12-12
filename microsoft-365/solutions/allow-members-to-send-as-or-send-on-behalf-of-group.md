@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Lees hoe u leden toestaat e-mail te verzenden als een Microsoft 365-groep of e-mail te verzenden namens een groep Microsoft 365.
-ms.openlocfilehash: 2abf0668411ccd08db5bbd8408605dcd0aa2d832
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 6dff559eceec1b719f31d577d7fff8f604636a47
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613570"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663581"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Toestaan dat leden namens een groep verzenden of verzenden
 
-Een lid van een Microsoft 365-groep aan wie de machtiging **verzenden als** of **Verzenden namens** is toegewezen, kan e-mail verzenden als de groep of namens de groep. In dit artikel wordt uitgelegd hoe een beheerder deze machtigingen kan instellen.
+Een lid van een Microsoft 365-groep aan wie de machtiging **verzenden als** of **Verzenden namens** is toegewezen, kan e-mail verzenden als de groep of namens de groep. In dit artikel wordt uitgelegd hoe u een globale beheerder of Exchange-beheerder deze machtigingen kunt instellen.
   
 Als Megan Bowen deel uitmaakt van de groep **training** microsoft 365 en als ze een e-mailbericht **verzendt als de** groep, ziet het er als volgt uit: de **trainings** groep stuurt de e-mail. 
   
@@ -42,7 +42,7 @@ Met de machtiging **Verzenden namens** kan een gebruiker e-mail verzenden namens
 
 In deze sectie wordt uitgelegd hoe u gebruikers kunt toestaan e-mail te verzenden als een groep in het [Exchange-Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2059104) in Exchange Online.
   
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange Admin Center</a>naar groepen met **geadresseerden** \> **Groups**.
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange Admin Center</a>naar groepen met **geadresseerden** \> .
     
 2. Selecteer **bewerkings** ![ pictogram bewerken ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) voor de groep die u wilt toestaan dat gebruikers verzenden als.   
     
@@ -60,7 +60,7 @@ In deze sectie wordt uitgelegd hoe u gebruikers kunt toestaan e-mail te verzende
 
 In deze sectie wordt uitgelegd hoe u gebruikers kunt toestaan e-mail te verzenden namens een groep in het Exchange-Beheercentrum in Exchange Online.
   
-1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange Admin Center</a>naar groepen met **geadresseerden** \> **Groups**.
+1. Ga in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange Admin Center</a>naar groepen met **geadresseerden** \> .
     
 2. Selecteer **bewerkings** ![ pictogram bewerken ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) voor de groep die u wilt toestaan dat gebruikers verzenden als. 
     

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Managed Desktop-app-vereisten
+title: Vereisten voor Microsoft Managed desktop-app
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -9,38 +9,36 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bd775e201f5fec556941ae0e8e7b025744da0419
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 322a46ce48cce4d080e51f482178462934d5c8f2
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529431"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659712"
 ---
-# <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft Managed Desktop-app-vereisten
+# <a name="microsoft-managed-desktop-app-requirements"></a>Vereisten voor Microsoft Managed desktop-app
 
 <!--This topic is the target for aka.ms/app-req. This is aka link is used from EA agreement for MMD. do not delete.-->
 
 <!--Application addendum -->
  
-Microsoft Managed Desktop vereist dat we apparaten beheren met behulp van een specifieke aanpak om de prestaties, betrouwbaarheid en bruikbaarheid van apparaten te garanderen. Als u er zeker van bent dat de aanpak van Microsoft Managed Desktop voor de onderstaande gebieden niet voor u werkt, u een uitzondering op [het serviceplan](customizing.md)aanvragen.
+Microsoft Managed Desktop vereist het beheren van apparaten met behulp van een specifieke aanpak, zodat de prestaties, betrouwbaarheid en servicemogelijkheden van apparaten gegarandeerd zijn.
 
 
-|Beheersgebied  |Microsoft Managed Desktop-aanpak  |
+|Gebied beheer  |Microsoft beheerde bureaublad aanpak  |
 |---------|---------|
 |Apparaatconfiguratie of beleidsbeheer     |  Microsoft Intune       |
-|Toepassingsbeheer     | Microsoft Intune en Bedrijfsportal        |
-|Implementatie van stuurprogramma's     |  Stuurprogramma's die bij het apparaat, Windows Update of Intune zijn meegeleverd       |
-|Apparaatbeveiliging     | Zie [Apparaatbeveiliging](security.md#device-security)      |
-|Identiteits- en toegangsbeheer     | Zie [Identiteits- en toegangsbeheer](security.md#identity-and-access-management)        |
-|Netwerkbeveiliging     | Zie [Netwerkbeveiliging](security.md#network-security)        |
-|Informatiebeveiliging     |  Zie [Informatiebeveiliging](security.md#information-security)       |
-|Gegevensherstel     | OneDrive voor Bedrijven        |
-|Kernproductiviteit     | Microsoft 365-apps voor ondernemingen    |
+|Toepassingsbeheer     | Microsoft intune en bedrijfs portal        |
+|Deployment drivers     |  Drivers die deel uitmaken van het apparaat, Windows Update of intune       |
+|Beveiliging van apparaten     | Zie [beveiliging van apparaten](security.md#device-security)      |
+|Identiteits- en toegangsbeheer     | Zie [identiteit en toegangsbeheer](security.md#identity-and-access-management)        |
+|Netwerkbeveiliging     | Bekijk de [Netwerkbeveiliging](security.md#network-security)        |
+|Gegevensbeveiliging     |  [Gegevensbeveiliging](security.md#information-security) weergeven       |
+|Gegevens herstellen     | OneDrive voor Bedrijven        |
+|Kern productiviteit     | Microsoft 365-apps voor ondernemingen    |
 |Browser     | Microsoft Edge        |
 
 
 
 
-Microsoft Managed Desktop kan andere software controleren die op beheerde apparaten wordt uitgevoerd. Als dit een negatieve invloed heeft op de beveiliging, prestaties of betrouwbaarheid van het systeem, moet u mogelijk een uitzondering op het serviceplan aanvragen.
-
-
+Microsoft Managed Desktop kan andere software volgen die op beheerde apparaten wordt uitgevoerd. Als dit negatief invloed heeft op het beheren van apparaten, beveiliging van apparaten, prestaties of betrouwbaarheid, moet u mogelijk een [uitzondering van het serviceplan](customizing.md)aanvragen.

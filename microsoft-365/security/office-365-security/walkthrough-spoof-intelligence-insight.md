@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen inzicht krijgen in de werking van de spoof Intelligence-informatie. De persoon kan snel bepalen welke afzenders legitiem e-mail naar hun organisatie verzenden vanuit domeinen die geen e-mail verificatiecontroles doorgeven (SPF, DKIM of DMARC).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9139a2b4c3c7ed8262f3d75b445defb869371d07
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 665745e940ea9547d57a1d7c47ff54eaae3756b7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602107"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659688"
 ---
 # <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Scenario-spoof informatie inzicht in Microsoft Defender voor Office 365
 
@@ -50,7 +50,9 @@ Dit scenario is een van de verschillende voor het beveiligings & nalevings centr
   - **Beveiligings lezer**
   - **Algemene lezer**
 
-  **Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+
+  **Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
 
 - U schakelt spoof informatie in en uit in anti-phishing-beleid in Microsoft Defender voor Office 365. Spoof Intelligence is standaard ingeschakeld. Zie [anti phishingberichten configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)voor meer informatie.
 

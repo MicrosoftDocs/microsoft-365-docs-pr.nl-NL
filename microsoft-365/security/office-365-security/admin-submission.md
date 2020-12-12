@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van de portal voor uitnodigingen van de beveiligings & nalevings centrum voor het verzenden van verdachte e-mailberichten, verdachte e-mailberichten, spam en andere mogelijk schadelijke berichten, Url's en bestanden aan Microsoft voor het scannen.
-ms.openlocfilehash: 0c01afff2e9e5a656099192f3867bb3a6f1cee23
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 7327768780e5db16e09e2b709c9c11344573c404
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568588"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659823"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.
 
@@ -46,13 +46,13 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
   - **Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
-    Houd er rekening mee dat lidmaatschap van deze rollen groep is vereist voor [het weergeven van gebruikers inzendingen aan het aangepaste postvak](#view-user-submissions-to-the-custom-mailbox) , zoals verderop in dit onderwerp wordt beschreven.
+    Houd er rekening mee dat lidmaatschap van deze rollen groep is vereist voor [het weergeven van gebruikers inzendingen voor het aangepaste postvak](#view-user-submissions-to-the-custom-mailbox) , zoals verderop in dit artikel wordt beschreven.
 
 - Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md)voor meer informatie over hoe gebruikers berichten en bestanden kunnen indienen bij Microsoft.
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Verdachte inhoud rapporteren aan Microsoft
 
-1. Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions**, ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
+1. Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> , ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
 
 2. Gebruik de nieuwe flyout voor **indienen** die wordt weergegeven om het bericht, de URL of de bijlage te verzenden, zoals beschreven in de volgende secties.
 
@@ -111,7 +111,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ## <a name="view-admin-submissions"></a>Beheerders inzendingen weergeven
 
-Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> **Submissions**, ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
+Ga in het beveiligings & compliance naar uitnodigingen voor **risicobeheer** \> , ga na of u het tabblad **admin-submissies** gebruikt, en klik vervolgens op **nieuwe indiening**.
 
 Boven aan de pagina kunt u een begindatum, een einddatum en (standaard) filteren met **id voor indienen** (een GUID-waarde die is toegewezen aan elke verzending) door een waarde in te voeren in het vak en op de ![ knop Vernieuwen te klikken ](../../media/scc-quarantine-refresh.png) . U kunt meerdere waarden opgeven, gescheiden door komma's.
 
@@ -192,7 +192,7 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 
 Als u de [invoegtoepassing bericht rapporteren](enable-the-report-message-add-in.md)hebt geïmplementeerd of personen de [ingebouwde rapporten gebruiken in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), kunt u zien wat gebruikers rapporteren op het tabblad **gebruikers** namen.
 
-1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> **Submissions**.
+1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> .
 
 2. Selecteer het tabblad **gebruikers submissies** en klik vervolgens op **nieuwe verzending**.
 
@@ -225,7 +225,7 @@ Als u de resultaten wilt exporteren, klikt u boven aan de pagina op **exporteren
 
 **Als** u [een aangepast postvak hebt geconfigureerd](user-submission.md) om door de gebruiker gerapporteerde berichten te ontvangen, kunt u berichten weergeven en ook verzenden die zijn bezorgd in het rapportage postvak.
 
-1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> **Submissions**.
+1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> .
 
 2. Selecteer het tabblad **aangepast postvak** .
 
