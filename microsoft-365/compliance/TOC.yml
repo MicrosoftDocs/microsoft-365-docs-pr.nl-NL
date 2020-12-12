@@ -18,8 +18,32 @@
       href: compliance-extensibility.md
 - name: Insider-risico's beheren
   items:
+    - name: Microsoft 365-oplossingen voor insider-risico‘s
+      href: insider-risk-solution-overview.md
+    - name: Communicatiecompliance
+      items:
+        - name: Overzicht
+          href: communication-compliance-solution-overview.md
+        - name: Meer informatie over communicatiecompliance
+          href: communication-compliance.md
+        - name: Communicatiecompliance plannen
+          href: communication-compliance-plan.md
+        - name: Aan de slag met communicatiecompliance
+          href: communication-compliance-configure.md
+        - name: Waarschuwingen voor communicatiecompliance onderzoeken en oplossen
+          href: communication-compliance-investigate-remediate.md
+        - name: Functieverwijzing voor communicatiecompliance
+          href: communication-compliance-feature-reference.md
+        - name: Casestudy - Contoso configureert snel een beleid tegen aanstootgevende taal
+          href: communication-compliance-case-study.md
+        - name: Toezichtbeleid in Office 365
+          href: supervision-policies.md
+        - name: Toezichtbeleid configureren voor Office 365
+          href: configure-supervision-policies.md
     - name: Intern risicobeheer
       items:
+        - name: Overzicht
+          href: insider-risk-management-solution-overview.md
         - name: Meer informatie over intern risicobeheer
           href: insider-risk-management.md
         - name: Intern risicobeheer plannen
@@ -40,27 +64,12 @@
           href: insider-risk-management-users.md
         - name: Kennisgevingssjablonen voor insider-risico maken
           href: insider-risk-management-notices.md
-    - name: Communicatiecompliance
-      items:
-        - name: Meer informatie over communicatiecompliance
-          href: communication-compliance.md
-        - name: Communicatiecompliance plannen
-          href: communication-compliance-plan.md
-        - name: Aan de slag met communicatiecompliance
-          href: communication-compliance-configure.md
-        - name: Waarschuwingen voor communicatiecompliance onderzoeken en oplossen
-          href: communication-compliance-investigate-remediate.md
-        - name: Functieverwijzing voor communicatiecompliance
-          href: communication-compliance-feature-reference.md
-        - name: Casestudy - Contoso configureert snel een beleid tegen aanstootgevende taal
-          href: communication-compliance-case-study.md
-        - name: Toezichtbeleid in Office 365
-          href: supervision-policies.md
-        - name: Toezichtbeleid configureren voor Office 365
-          href: configure-supervision-policies.md
     - name: Informatiebelemmeringen
-      href: information-barriers.md
       items:
+        - name: Overzicht
+          href: information-barriers-solution-overview.md
+        - name: Leer meer over informatiebelemmeringen
+          href: information-barriers.md
         - name: Beleid voor informatiebelemmering definiëren
           href: information-barriers-policies.md
         - name: Kenmerken voor het beleid voor informatiebelemmering
@@ -71,6 +80,8 @@
           href: information-barriers-edit-segments-policies.md
     - name: Privileged Access Management
       items:
+        - name: Overzicht
+          href: privileged-access-management-solution-overview.md
         - name: Meer informatie over Privileged Access Management
           href: privileged-access-management-overview.md
         - name: Aan de slag met Privileged Access Management
@@ -918,7 +929,7 @@
           href: compliance-manager-faq.md
         - name: Compliancebeheer (klassiek)
           href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
-    - name: Microsoft Service Trust Portaal
+    - name: Microsoft Service Trust Portal
       href: get-started-with-service-trust-portal.md
     - name: Branchespecifieke richtlijnen
       items:
@@ -931,7 +942,7 @@
     - name: Exchange Online-e-mailversleuteling met AD RMS
       href: information-rights-management-in-exchange-online.md
       items:
-        - name: IRM configureren voor gebruik van een AD RMS-server op locatie
+        - name: IRM configureren voor gebruik van een on-premises AD RMS-server
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
 - name: Office 365 Enterprise
   href: 'https://docs.microsoft.com/Office365/Enterprise'
