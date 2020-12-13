@@ -198,7 +198,7 @@
         - name: Testfase van Microsoft 365 uitvoeren vanaf mijn aangepaste domein
           href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: Veelgestelde vragen over domeinen
-          href: setup/domains-faq.md
+          href: setup/domains-faq.yml
         - name: Hostspecifieke instructies
           items:
             - name: Naamservers wijzigen bij een DNS-host
@@ -227,7 +227,7 @@
               href: productivity/apps-health.md
             - name: DNS-records maken bij een DNS-host
               href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
-        - name: De contactgegevens van je organisatie wijzigen
+        - name: De contactgegevens van uw organisatie wijzigen
           href: manage/change-address-contact-and-more.md
         - name: De contactgegevens van uw beheerder bijwerken
           href: manage/update-phone-number-and-email-address.md
@@ -289,7 +289,7 @@
           href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: Meervoudige verificatie instellen
           href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Moderne Verificatie voor Office 2013 inschakelen
+        - name: Moderne verificatie voor Office 2013 inschakelen
           href: security-and-compliance/enable-modern-authentication.md
         - name: Microsoft 365 Business Premium beveiligen
           items:
