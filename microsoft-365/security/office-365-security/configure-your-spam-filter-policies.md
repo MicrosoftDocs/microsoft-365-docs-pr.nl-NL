@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: 81c5e74ec45cc633b3a4ba46c7865d0a643af2cd
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: d83c41b52db5c0533a9a5d52ab20ace9b612e1e6
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616690"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658647"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -45,7 +45,7 @@ Het verschil tussen deze twee elementen is niet overduidelijk wanneer u antispam
 - Wanneer u antispambeleid wijzigt, wordt de spamfilterregel gewijzigd door instellingen met betrekking tot de naam, prioriteit, in- of uitgeschakeld en geadresseerdenfilters. Alle andere instellingen wijzigen het bijbehorende spamfilterbeleid.
 - Wanneer u antispambeleid verwijdert, worden de spamfilterregel en het bijbehorende spamfilterbeleid verwijderd.
 
-In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie [Exchange Online PowerShell of standalone EOP PowerShell gebruiken om antispambeleid te configureren](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) later in dit hoofdstuk voor meer informatie.
+In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie [Exchange Online PowerShell of standalone EOP PowerShell gebruiken om antispambeleid te configureren](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) later in dit artikel voor meer informatie.
 
 Elk bedrijf heeft een ingebouwd antispambeleid met de naam Standaard met de volgende eigenschappen:
 
@@ -86,7 +86,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
    - **Naam**: een unieke beschrijvende naam voor het beleid. U mag de volgende tekens niet gebruiken: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.
 
-      Als u eerder al antispambeleid hebt gemaakt in het Exchange-beheercentrum (EAC) dat deze tekens bevat, moet u het antispambeleid in PowerShell hernoemen. Zie de sectie [PowerShell gebruiken om spamfilterregels te wijzigen](#use-powershell-to-modify-spam-filter-rules) verderop in dit artikel voor instructies.
+      Als u eerder al antispambeleid hebt gemaakt in het Exchange-beheercentrum (EAC) dat deze tekens bevat, moet u het antispambeleid in PowerShell hernoemen. Zie de sectie [PowerShell gebruiken om spamfilterregels te wijzigen](#use-powershell-to-modify-spam-filter-rules) later in dit artikel voor instructies.
 
    - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
@@ -513,7 +513,7 @@ Zie [Get-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/e
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>PowerShell gebruiken om spamfilterbeleid te wijzigen
 
-Voor het wijzigen van spamfilterbeleid in PowerShell kunt u, naast de volgende items, beschikken over dezelfde instellingen als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).
+Voor het wijzigen van spamfilterbeleid in PowerShell zijn, behalve voor de volgende items, dezelfde instellingen beschikbaar als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).
 
 - De schakeloptie _MakeDefault_ die het specifieke beleid wijzigt in het standaardbeleid (toegepast op iedereen, altijd **Laagste** prioriteit en kan niet worden verwijderd) is alleen beschikbaar wanneer u spamfilterbeleid wijzigt in PowerShell.
 
