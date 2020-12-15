@@ -1,143 +1,97 @@
 ---
-title: 'Uw kennisbeheer netwerk beheren (preview) '
-description: Het instellen van kennisbeheer.
+title: Detectie van onderwerp beheren in Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/01/2020
+ms.reviewer: nkokoye
 audience: admin
 ms.topic: article
 ms.service: o365-administration
-search.appverid: ''
+search.appverid: MET150
+localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: None
-ms.openlocfilehash: 265816a8d3d04b8d10b529f1ea1a0b658aa2931d
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+description: Meer informatie over het beheren van topic Discovery in Microsoft 365.
+ms.openlocfilehash: 035fb74f1989dc7ef5b7fcf8e9c6d59b63cf2b42
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988949"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667854"
 ---
-# <a name="manage-your-knowledge-management-network-preview"></a><span data-ttu-id="f6c34-103">Uw kennisbeheer netwerk beheren (preview)</span><span class="sxs-lookup"><span data-stu-id="f6c34-103">Manage your knowledge management network (Preview)</span></span>
+# <a name="manage-topic-discovery-in-microsoft-365"></a><span data-ttu-id="7e3b5-103">Detectie van onderwerp beheren in Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="7e3b5-103">Manage topic discovery in Microsoft 365</span></span>
 
-> [!Note] 
-> <span data-ttu-id="f6c34-104">De inhoud in dit artikel is bedoeld voor project cortex private preview.</span><span class="sxs-lookup"><span data-stu-id="f6c34-104">The content in this article is for Project Cortex Private Preview.</span></span> <span data-ttu-id="f6c34-105">[Meer informatie over Project Cortex](https://aka.ms/projectcortex).</span><span class="sxs-lookup"><span data-stu-id="f6c34-105">[Find out more about Project Cortex](https://aka.ms/projectcortex).</span></span>
+<span data-ttu-id="7e3b5-104">U kunt de instellingen voor de detectie van het onderwerp beheren in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="7e3b5-104">You can manage topic discovery settings in the [Microsoft 365 admin center](https://admin.microsoft.com).</span></span> <span data-ttu-id="7e3b5-105">U moet een globale beheerder of SharePoint-beheerder zijn om deze taken uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-105">You must be a global administrator or SharePoint administrator to perform these tasks.</span></span>
 
+## <a name="to-access-topics-management-settings"></a><span data-ttu-id="7e3b5-106">De instellingen voor het beheer van onderwerpen raadplegen:</span><span class="sxs-lookup"><span data-stu-id="7e3b5-106">To access topics management settings:</span></span>
 
-<span data-ttu-id="f6c34-106">Nadat u [kennisbeheer hebt ingesteld](set-up-topic-experiences.md), kunt u op elk gewenst moment een beheerder de configuratie-instellingen wijzigen via het microsoft 365-Beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="f6c34-106">After you [set up knowledge management](set-up-topic-experiences.md), at any time afterwards an admin can make adjustments to your configuration settings through the Microsoft 365 admin center.</span></span>
+1. <span data-ttu-id="7e3b5-107">Klik in het Microsoft 365-Beheercentrum op **instellingen** en vervolgens op **organisatie-instellingen**.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-107">In the Microsoft 365 admin center, click **Settings**, then **Org settings**.</span></span>
+2. <span data-ttu-id="7e3b5-108">Klik op het tabblad **Services** op **kennis netwerk**.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-108">On the **Services** tab, click **Knowledge network**.</span></span>
 
-<span data-ttu-id="f6c34-107">U moet bijvoorbeeld de instellingen voor de volgende opties wijzigen:</span><span class="sxs-lookup"><span data-stu-id="f6c34-107">For example, you may need to adjust your settings for any of the following:</span></span>
-- <span data-ttu-id="f6c34-108">Nieuwe SharePoint-bronnen toevoegen aan mijn onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="f6c34-108">Add new SharePoint sources to mine topics.</span></span>
-- <span data-ttu-id="f6c34-109">Wijzig welke gebruikers toegang hebben tot onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="f6c34-109">Change which users will have access to topics.</span></span>
-- <span data-ttu-id="f6c34-110">Wijzig welke gebruikers gemachtigd zijn om taken uit te voeren in het onderwerp centrum.</span><span class="sxs-lookup"><span data-stu-id="f6c34-110">Change which users have permissions to do tasks on the topic center.</span></span>
-- <span data-ttu-id="f6c34-111">De naam van het topic Center wijzigen</span><span class="sxs-lookup"><span data-stu-id="f6c34-111">Change the name of your topic center</span></span>
+    ![Mensen verbinden met kennis](../media/admin-org-knowledge-options-completed.png) 
 
+3. <span data-ttu-id="7e3b5-110">Selecteer het tabblad **detectie van onderwerp** . Zie de volgende secties voor informatie over elke instelling.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-110">Select the **Topic discovery** tab. See the following sections for information about each setting.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f6c34-112">Vereisten</span><span class="sxs-lookup"><span data-stu-id="f6c34-112">Requirements</span></span> 
-<span data-ttu-id="f6c34-113">U moet een globale beheerder of SharePoint-beheerdersmachtigingen hebben om toegang te krijgen tot het Microsoft 365-Beheercentrum en om organisatie-kennis taken te kunnen beheren.</span><span class="sxs-lookup"><span data-stu-id="f6c34-113">You must have Global Admin or SharePoint admin permissions to be able to access the Microsoft 365 admin center and manage Organizational knowledge tasks.</span></span>
+    ![kennis netwerk-instellingen](../media/knowledge-network-settings-topic-discovery.png) 
 
+## <a name="select-sharepoint-topic-sources"></a><span data-ttu-id="7e3b5-112">Selecteer SharePoint-onderwerpen bronnen</span><span class="sxs-lookup"><span data-stu-id="7e3b5-112">Select SharePoint topic sources</span></span>
 
-## <a name="to-access-knowledge-management-settings"></a><span data-ttu-id="f6c34-114">Toegang krijgen tot de instellingen van kennisbeheer:</span><span class="sxs-lookup"><span data-stu-id="f6c34-114">To access knowledge management settings:</span></span>
+<span data-ttu-id="7e3b5-113">U kunt de SharePoint-sites in uw organisatie wijzigen die worden verkend voor onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-113">You can change the SharePoint sites in your organization that will be crawled for topics.</span></span>
 
-1. <span data-ttu-id="f6c34-115">Selecteer in het Microsoft 365-Beheercentrum de optie **instellen** en bekijk vervolgens de sectie **bedrijfsinformatie** .</span><span class="sxs-lookup"><span data-stu-id="f6c34-115">In the Microsoft 365 admin center, select **Setup** , and then view the **Organizational Knowledge** section.</span></span>
-2. <span data-ttu-id="f6c34-116">Klik in de sectie **kennis van organisatie** op **personen verbinden met kennis**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-116">In the **Organizational Knowledge** section, click **Connect people to knowledge**.</span></span><br/>
+<span data-ttu-id="7e3b5-114">Als u een bepaalde lijst met sites wilt opnemen of uitsluiten, kunt u de volgende CSV-sjabloon gebruiken:</span><span class="sxs-lookup"><span data-stu-id="7e3b5-114">If you want to include or exclude a specific list of sites, you can use the following .csv template:</span></span>
 
-    ![Mensen verbinden met kennis](../media/content-understanding/admin-org-knowledge-options.png) </br>
+``` csv
+Site name,URL
+```
 
-3. <span data-ttu-id="f6c34-118">Selecteer op de pagina **personen verbinden met kennis** de optie **beheren** om het deelvenster instellingen van het **kennis netwerk** te openen.</span><span class="sxs-lookup"><span data-stu-id="f6c34-118">On the **Connect people to knowledge** page, select **Manage** to open the **Knowledge network settings** pane.</span></span><br/>
+<span data-ttu-id="7e3b5-115">Als u sites toevoegt met behulp van de site kiezer, worden deze toegevoegd aan de bestaande lijst met sites die u wilt opnemen of uitsluiten.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-115">If you add sites using the site picker, they are added to the existing list of sites to include or exclude.</span></span> <span data-ttu-id="7e3b5-116">Als u een CSV-bestand uploadt, wordt een bestaande lijst overschreven.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-116">If you upload a .csv file, it overwrites any existing list.</span></span> <span data-ttu-id="7e3b5-117">Als u eerder specifieke sites hebt opgenomen of uitgesloten, downloadt u de lijst als een. CSV-bestand, brengt u wijzigingen aan en uploadt u de nieuwe lijst.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-117">If you have previously included or excluded specific sites, you and download the list as a .csv file, make changes, and upload the new list.</span></span>
 
-    ![kennis netwerk-instellingen](../media/content-understanding/knowledge-network-settings.png) </br>
+<span data-ttu-id="7e3b5-118">Sites kiezen voor detectie van een onderwerp</span><span class="sxs-lookup"><span data-stu-id="7e3b5-118">To choose sites for topic discovery</span></span>
 
-## <a name="change-how-the-knowledge-network-can-find-topics"></a><span data-ttu-id="f6c34-120">Wijzigen hoe het kennis netwerk onderwerpen kan vinden</span><span class="sxs-lookup"><span data-stu-id="f6c34-120">Change how the knowledge network can find topics</span></span>
+1. <span data-ttu-id="7e3b5-119">Selecteer op het tabblad **topic Discovery** onder **Select SharePoint topics** de optie **Edit**.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-119">On the **Topic discovery** tab, under **Select SharePoint topic sources**, select **Edit**.</span></span>
+2. <span data-ttu-id="7e3b5-120">Selecteer op de pagina **SharePoint-onderwerpen selecteren** welke SharePoint-sites worden verkend als bronnen voor uw onderwerpen tijdens de detectie.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-120">On the **Select SharePoint topic sources** page, select which SharePoint sites will be crawled as sources for your topics during discovery.</span></span> <span data-ttu-id="7e3b5-121">Dit omvat:</span><span class="sxs-lookup"><span data-stu-id="7e3b5-121">This includes:</span></span>
+    - <span data-ttu-id="7e3b5-122">**Alle sites**: alle SharePoint-sites in de Tenant.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-122">**All sites**: All SharePoint sites in your tenant.</span></span> <span data-ttu-id="7e3b5-123">Hiermee worden de huidige en toekomstige sites vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-123">This captures current and future sites.</span></span>
+    - <span data-ttu-id="7e3b5-124">**Alles, met uitzondering van geselecteerde sites**: Typ de namen van de sites die u wilt uitsluiten.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-124">**All, except selected sites**: Type the names of the sites you want to exclude.</span></span>  <span data-ttu-id="7e3b5-125">U kunt ook een lijst uploaden met sites die u wilt afmelden bij ontdekking.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-125">You can also upload a list of sites you want to opt out from discovery.</span></span> <span data-ttu-id="7e3b5-126">Sites die u later maakt, worden opgenomen als bronnen voor het detecteren van het onderwerp.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-126">Sites created in the future will be included as sources for topic discovery.</span></span> 
+    - <span data-ttu-id="7e3b5-127">**Alleen geselecteerde sites**: Typ de namen van de sites die u wilt opnemen.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-127">**Only selected sites**: Type the names of the sites you want to include.</span></span> <span data-ttu-id="7e3b5-128">U kunt ook een lijst met sites uploaden.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-128">You can also upload a list of sites.</span></span> <span data-ttu-id="7e3b5-129">Sites die u later maakt, worden niet opgenomen als bronnen voor de detectie van het onderwerp.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-129">Sites created in the future will not be included as sources for topic discovery.</span></span>
+    - <span data-ttu-id="7e3b5-130">**Geen sites**: onderwerpen worden niet automatisch aangemaakt of bijgewerkt met SharePoint-inhoud.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-130">**No sites**: Topics won't be automatically generated or updated with SharePoint content.</span></span> <span data-ttu-id="7e3b5-131">Bestaande onderwerpen blijven behouden in het onderwerp centrum.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-131">Existing topics remain in the topic center.</span></span>
 
-<span data-ttu-id="f6c34-121">Selecteer het tabblad detectie van het **onderwerp** als u de keuzes voor de bronnen van het SharePoint-onderwerp wilt bijwerken.</span><span class="sxs-lookup"><span data-stu-id="f6c34-121">Select the **Topic discovery** tab if you want to update your choices for  for SharePoint topic sources.</span></span> <span data-ttu-id="f6c34-122">Met deze instelling kunt u de SharePoint-sites in de Tenant selecteren die worden verkend en mined voor onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="f6c34-122">This setting let you select the SharePoint sites in your tenant that will be crawled and mined for topics.</span></span>
-
-1. <span data-ttu-id="f6c34-123">Selecteer op het tabblad **topic Discovery** onder **Select SharePoint topics** de optie **Edit**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-123">On the **Topic discovery** tab, under **Select SharePoint topic sources** , select **Edit**.</span></span>
-2. <span data-ttu-id="f6c34-124">Selecteer op de pagina **SharePoint-onderwerpen selecteren** welke SharePoint-sites worden verkend als bronnen voor uw onderwerpen tijdens de detectie.</span><span class="sxs-lookup"><span data-stu-id="f6c34-124">On the **Select SharePoint topic sources** page, select which SharePoint sites will be crawled as sources for your topics during discovery.</span></span> <span data-ttu-id="f6c34-125">Dit omvat:</span><span class="sxs-lookup"><span data-stu-id="f6c34-125">This includes:</span></span></br>
-    <span data-ttu-id="f6c34-126">a.</span><span class="sxs-lookup"><span data-stu-id="f6c34-126">a.</span></span> <span data-ttu-id="f6c34-127">**Alle sites** : alle SharePoint-sites in de Tenant.</span><span class="sxs-lookup"><span data-stu-id="f6c34-127">**All sites** : All SharePoint sites in your tenant.</span></span> <span data-ttu-id="f6c34-128">Hiermee worden de huidige en toekomstige sites vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="f6c34-128">This captures current and future sites.</span></span></br>
-    <span data-ttu-id="f6c34-129">b.</span><span class="sxs-lookup"><span data-stu-id="f6c34-129">b.</span></span> <span data-ttu-id="f6c34-130">**Alles, met uitzondering van geselecteerde sites** : Typ de namen van de sites die u wilt uitsluiten.</span><span class="sxs-lookup"><span data-stu-id="f6c34-130">**All, except selected sites** : Type the names of the sites you want to exclude.</span></span>  <span data-ttu-id="f6c34-131">U kunt ook een lijst uploaden met sites die u wilt afmelden bij ontdekking.</span><span class="sxs-lookup"><span data-stu-id="f6c34-131">You can also upload a list of sites you want to opt out from discovery.</span></span> <span data-ttu-id="f6c34-132">Sites die u later maakt, worden opgenomen als bronnen voor het detecteren van het onderwerp.</span><span class="sxs-lookup"><span data-stu-id="f6c34-132">Sites created in the future will be included as sources for topic discovery.</span></span> </br>
-    <span data-ttu-id="f6c34-133">c.</span><span class="sxs-lookup"><span data-stu-id="f6c34-133">c.</span></span> <span data-ttu-id="f6c34-134">**Alleen geselecteerde sites** : Typ de namen van de sites die u wilt opnemen.</span><span class="sxs-lookup"><span data-stu-id="f6c34-134">**Only selected sites** : Type the names of the sites you want to include.</span></span> <span data-ttu-id="f6c34-135">U kunt ook een lijst met sites uploaden.</span><span class="sxs-lookup"><span data-stu-id="f6c34-135">You can also upload a list of sites.</span></span> <span data-ttu-id="f6c34-136">Sites die u later maakt, worden niet opgenomen als bronnen voor de detectie van het onderwerp.</span><span class="sxs-lookup"><span data-stu-id="f6c34-136">Sites created in the future will not be included as sources for topic discovery.</span></span> </br>
-
-    ![Kiezen hoe u onderwerpen kunt zoeken](../media/content-understanding/k-manage-select-topic-source.png) </br>
+    ![Schermafbeelding van de gebruikersinterface van de SharePoint-onderwerp bronnen](../media/k-manage-select-topic-source.png)
    
-    <span data-ttu-id="f6c34-138">Als u een aantal sites hebt die u wilt uitsluiten (als u **alles selecteert, met uitzondering van geselecteerde sites** ) of opnemen (als u **alleen geselecteerde sites** hebt geselecteerd), kunt u ervoor kiezen om een CSV-bestand met de sitenamen en url's te uploaden.</span><span class="sxs-lookup"><span data-stu-id="f6c34-138">If you have a number of sites that you want to exclude (if you select **All, except selected sites** ) or include (if you selected **Only selected sites** ), you can choose to upload a CSV file with the site names and URLs.</span></span> <span data-ttu-id="f6c34-139">Selecteer **sitesjabloon. csv downloaden** als u het CSV-sjabloonbestand wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="f6c34-139">You can select **Download site template .csv** if you want to use the CSV template file.</span></span>
+3. <span data-ttu-id="7e3b5-133">Klik op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-133">Click **Save**.</span></span>
 
-3. <span data-ttu-id="f6c34-140">Klik op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-140">Select **Save**.</span></span>
+## <a name="exclude-topics-by-name"></a><span data-ttu-id="7e3b5-134">Onderwerpen uitsluiten op naam</span><span class="sxs-lookup"><span data-stu-id="7e3b5-134">Exclude topics by name</span></span>
 
-##  <a name="change-who-can-see-topics-in-your-organization"></a><span data-ttu-id="f6c34-141">Wijzigen wie de onderwerpen in uw organisatie kunnen zien</span><span class="sxs-lookup"><span data-stu-id="f6c34-141">Change who can see topics in your organization</span></span>
+<span data-ttu-id="7e3b5-135">U kunt onderwerpen uitsluiten van detectie door een lijst te uploaden met een. CSV-bestand.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-135">You can exclude topics from discovery by uploading a list using a .csv file.</span></span> <span data-ttu-id="7e3b5-136">Als u eerder uitgesloten onderwerpen hebt, kunt u het CSV-bestand downloaden, wijzigingen aanbrengen en opnieuw uploaden.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-136">If you've previously excluded topics, you can download the .csv, make changes, and upload it again.</span></span>
 
-<span data-ttu-id="f6c34-142">Selecteer het tabblad detectie van het **onderwerp** als u wilt bijwerken wie in uw organisatie gedetecteerde onderwerpen kan zien in zoekresultaten en wanneer onderwerpen zijn gemarkeerd met inhoud zoals SharePoint-pagina's.</span><span class="sxs-lookup"><span data-stu-id="f6c34-142">Select the **Topic discovery** tab if you want to update who in your organization can see discovered topics in search results and when topics are highlighted in content like SharePoint pages.</span></span>
+1. <span data-ttu-id="7e3b5-137">Selecteer op het tabblad **onderwerp detecteren** onder **onderwerpen uitsluiten** de optie **bewerken**.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-137">On the **Topic discovery** tab, under **Exclude topics**, select **Edit**.</span></span>
+2. <span data-ttu-id="7e3b5-138">Klik op **onderwerpen uitsluiten op naam**.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-138">Click **Exclude topics by name**.</span></span>
+3. <span data-ttu-id="7e3b5-139">Als u een lijst wilt maken, downloadt u de. CSV-sjabloon en voegt u de onderwerpen toe die u wilt uitsluiten (Zie *werken met de. CSV-sjabloon* hieronder).</span><span class="sxs-lookup"><span data-stu-id="7e3b5-139">If you need to create a list, download the .csv template and add the topics that you want to exclude (see *Working with the .csv template* below).</span></span> <span data-ttu-id="7e3b5-140">Wanneer het bestand klaar is, klikt u op **Bladeren** en uploadt u het bestand.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-140">When the file is ready, click **Browse** and upload the file.</span></span> <span data-ttu-id="7e3b5-141">Als u een bestaande lijst hebt, kunt u het. CSV-bestand met de lijst downloaden.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-141">If there's an existing list, you can download the .csv containing the list.</span></span>
+4. <span data-ttu-id="7e3b5-142">Klik op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-142">Click **Save**.</span></span>
 
-1. <span data-ttu-id="f6c34-143">Selecteer op het tabblad **onderwerp detecteren** onder **wie kan de onderwerpen in het kennis netwerk zien** de optie **bewerken**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-143">On the **Topic discovery** tab, under **Who can see topics in the knowledge network** , select **Edit**.</span></span>
-2. <span data-ttu-id="f6c34-144">Op de pagina **wie kan de onderwerpen zien op de pagina van het kennis netwerk** , kiest u wie toegang heeft tot de details van het onderwerp, zoals gemarkeerde onderwerpen, topic cards, topic Answers in Search en topic Pages.</span><span class="sxs-lookup"><span data-stu-id="f6c34-144">On the **Who can see topics in the knowledge network** page, you choose who will have access to topic details, such as highlighted topics, topic cards, topic answers in search, and topic pages.</span></span> <span data-ttu-id="f6c34-145">U kunt kiezen voor:</span><span class="sxs-lookup"><span data-stu-id="f6c34-145">You can select:</span></span></br>
-    <span data-ttu-id="f6c34-146">a.</span><span class="sxs-lookup"><span data-stu-id="f6c34-146">a.</span></span> <span data-ttu-id="f6c34-147">**Iedereen in uw organisatie**</span><span class="sxs-lookup"><span data-stu-id="f6c34-147">**Everyone in your organization**</span></span></br>
-    <span data-ttu-id="f6c34-148">b.</span><span class="sxs-lookup"><span data-stu-id="f6c34-148">b.</span></span> <span data-ttu-id="f6c34-149">**Alleen geselecteerde personen of beveiligingsgroepen**</span><span class="sxs-lookup"><span data-stu-id="f6c34-149">**Only selected people or security groups**</span></span></br>
-    <span data-ttu-id="f6c34-150">c.</span><span class="sxs-lookup"><span data-stu-id="f6c34-150">c.</span></span> <span data-ttu-id="f6c34-151">**Niemand**</span><span class="sxs-lookup"><span data-stu-id="f6c34-151">**No one**</span></span></br>
+    ![Schermafbeelding van de gebruikersinterface van de onderdelen uitsluiten](../media/km-manage-exclude-topics.png)
 
-    ![Wie kan onderwerpen zien?](../media/content-understanding/k-manage-who-can-see-topics.png) </br> 
-3. <span data-ttu-id="f6c34-153">Klik op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-153">Select **Save**.</span></span>  
- 
-> [!Note] 
-> <span data-ttu-id="f6c34-154">Met deze instelling kunt u een gebruiker in de organisatie selecteren, zodat alleen gebruikers met een licentie voorkennis beheer die aan hen zijn toegewezen, onderwerpen kunnen weergeven.</span><span class="sxs-lookup"><span data-stu-id="f6c34-154">While this setting allows you to select any user in your organization, only users who have knowledge management licenses assigned to them will be able to view topics.</span></span>
+### <a name="working-with-the-csv-template"></a><span data-ttu-id="7e3b5-144">Werken met de. CSV-sjabloon</span><span class="sxs-lookup"><span data-stu-id="7e3b5-144">Working with the .csv template</span></span>
 
-## <a name="change-who-has-permissions-to-do-tasks-on-the-topic-center"></a><span data-ttu-id="f6c34-155">Wijzigen wie gemachtigd is om taken uit te voeren in het onderwerp centrum</span><span class="sxs-lookup"><span data-stu-id="f6c34-155">Change who has permissions to do tasks on the topic center</span></span>
+<span data-ttu-id="7e3b5-145">U kunt de onderstaande CSV-sjabloon kopiëren:</span><span class="sxs-lookup"><span data-stu-id="7e3b5-145">You can copy the csv template below:</span></span>
 
-<span data-ttu-id="f6c34-156">Selecteer het tabblad **onderwerp machtigingen** als u het volgende wilt bijwerken op de pagina met het onderwerp centrum:</span><span class="sxs-lookup"><span data-stu-id="f6c34-156">Select the **Topic permissions** tab if you want to update who has permissions to do the following in the topic center page:</span></span>
+``` csv
+Name (required),Expansion,MatchType- Exact/Partial (required)
+```
 
-- <span data-ttu-id="f6c34-157">Welke gebruikers kunnen onderwerpen maken en bewerken: nieuwe onderwerpen maken die niet zijn gevonden tijdens het detecteren of bewerken van bestaande Details van een onderwerppagina.</span><span class="sxs-lookup"><span data-stu-id="f6c34-157">Which users can create and edit topics: Create new topics that were not found during discovery or edit existing topic page details.</span></span>
-- <span data-ttu-id="f6c34-158">Welke gebruikers onderwerpen kunnen beheren: gedetecteerde of genegeerde onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="f6c34-158">Which users can manage topics: Confirm or reject discovered topics.</span></span>
+<span data-ttu-id="7e3b5-146">Voer de volgende informatie over de onderwerpen die u wilt uitsluiten in het CSV-sjabloon in:</span><span class="sxs-lookup"><span data-stu-id="7e3b5-146">In the CSV template, enter the following information about the topics you want to exclude:</span></span>
 
-<span data-ttu-id="f6c34-159">Een update maken van de gebruikers die gemachtigd zijn om onderwerpen te maken en bewerken:</span><span class="sxs-lookup"><span data-stu-id="f6c34-159">To update who has permissions to create and edit topics:</span></span>
+- <span data-ttu-id="7e3b5-147">**Naam**: Typ de naam van het onderwerp dat u wilt uitsluiten.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-147">**Name**: Type the name of the topic you want to exclude.</span></span> <span data-ttu-id="7e3b5-148">U kunt dit op twee manieren doen:</span><span class="sxs-lookup"><span data-stu-id="7e3b5-148">There are two ways to do this:</span></span>
+    - <span data-ttu-id="7e3b5-149">Exacte overeenkomst: u kunt de exacte naam of het acroniem opnemen, bijvoorbeeld *Contoso* of *ATL*.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-149">Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).</span></span>
+    - <span data-ttu-id="7e3b5-150">Gedeeltelijke overeenkomst: u kunt alle onderwerpen met een specifiek woord uitsluiten.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-150">Partial match: You can exclude all topics that have a specific word in it.</span></span>  <span data-ttu-id="7e3b5-151">Met de *boog* worden bijvoorbeeld alle onderwerpen met het woord *boog* weggelaten, zoals *boog cirkel*, *plasma boog lassen* of *boog boog*. Houd er rekening mee dat onderwerpen waarvan de tekst deel uitmaakt van een woord, zoals de *architectuur*, niet worden uitgesloten.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-151">For example, *arc* will exclude all topics with the word *arc* in it, such as *Arc circle*, *Plasma arc welding*, or *Training arc*. Note that it will not exclude topics in which the text is included as part of a word, such as *Architecture*.</span></span>
+- <span data-ttu-id="7e3b5-152">**Staat voor (optioneel)**: als u een acroniem wilt uitsluiten, typt u de woorden waarop het acroniem staat.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-152">**Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.</span></span>
+- <span data-ttu-id="7e3b5-153">**MatchType-exact/gedeeltelijk**: Typ of de ingevoerde naam een *exact* of *gedeeltelijk* overeenkomend type is.</span><span class="sxs-lookup"><span data-stu-id="7e3b5-153">**MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.</span></span>
 
-1. <span data-ttu-id="f6c34-160">Selecteer op het tabblad **onderwerp machtigingen** onder **wie kan onderwerpen maken en bewerken** de optie **bewerken**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-160">On the **Topic permissions** tab, under **Who can create and edit topics** , select **Edit**.</span></span></br>
-2. <span data-ttu-id="f6c34-161">Op de pagina **wie kan onderwerpen maken en bewerken** , kunt u het volgende selecteren:</span><span class="sxs-lookup"><span data-stu-id="f6c34-161">On the **Who can create and edit topics** page, you can select:</span></span></br>
-    <span data-ttu-id="f6c34-162">a.</span><span class="sxs-lookup"><span data-stu-id="f6c34-162">a.</span></span> <span data-ttu-id="f6c34-163">**Iedereen in uw organisatie**</span><span class="sxs-lookup"><span data-stu-id="f6c34-163">**Everyone in your organization**</span></span></br>
-    <span data-ttu-id="f6c34-164">b.</span><span class="sxs-lookup"><span data-stu-id="f6c34-164">b.</span></span> <span data-ttu-id="f6c34-165">**Alleen geselecteerde personen of beveiligingsgroepen**</span><span class="sxs-lookup"><span data-stu-id="f6c34-165">**Only selected people or security groups**</span></span></br>
+    ![Onderwerpen in CSV-sjabloon uitsluiten](../media/exclude-topics-csv.png) 
 
-    ![Onderwerpen maken en bewerken](../media/content-understanding/k-manage-who-can-create-and-edit.png) </br> 
+## <a name="see-also"></a><span data-ttu-id="7e3b5-155">Zie ook</span><span class="sxs-lookup"><span data-stu-id="7e3b5-155">See also</span></span>
 
-3. <span data-ttu-id="f6c34-167">Klik op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-167">Select **Save**.</span></span></br>
+[<span data-ttu-id="7e3b5-156">De zichtbaarheid van een onderwerp beheren in Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="7e3b5-156">Manage topic visibility in Microsoft 365</span></span>](topic-experiences-knowledge-rules.md)
 
-<span data-ttu-id="f6c34-168">Bijwerken met de gebruikers die gemachtigd zijn om onderwerpen te beheren:</span><span class="sxs-lookup"><span data-stu-id="f6c34-168">To update who has permissions to manage topics:</span></span>
+[<span data-ttu-id="7e3b5-157">Machtigingen voor onderwerp beheren in Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="7e3b5-157">Manage topic permissions in Microsoft 365</span></span>](topic-experiences-user-permissions.md)
 
-1. <span data-ttu-id="f6c34-169">Selecteer op het tabblad **machtigingen voor onderwerp** onder **wie kan onderwerpen beheren** de optie **bewerken**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-169">On the **Topic permissions** tab, under **Who can manage topics** , select **Edit**.</span></span></br>
-2. <span data-ttu-id="f6c34-170">Op de pagina **wie kan onderwerpen beheren** , kunt u de volgende opties kiezen:</span><span class="sxs-lookup"><span data-stu-id="f6c34-170">On the **Who can manage topics** page, you can select:</span></span></br>
-    <span data-ttu-id="f6c34-171">a.</span><span class="sxs-lookup"><span data-stu-id="f6c34-171">a.</span></span> <span data-ttu-id="f6c34-172">**Iedereen in uw organisatie**</span><span class="sxs-lookup"><span data-stu-id="f6c34-172">**Everyone in your organization**</span></span></br>
-    <span data-ttu-id="f6c34-173">b.</span><span class="sxs-lookup"><span data-stu-id="f6c34-173">b.</span></span> <span data-ttu-id="f6c34-174">**Geselecteerde personen of beveiligingsgroepen**</span><span class="sxs-lookup"><span data-stu-id="f6c34-174">**Selected people or security groups**</span></span></br>
-
-    ![Onderwerpen beheren](../media/content-understanding/k-manage-who-can-manage-topics.png) </br> 
-
-3. <span data-ttu-id="f6c34-176">Klik op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-176">Select **Save**.</span></span></br>
-
-
-##  <a name="update-your-topic-center-name"></a><span data-ttu-id="f6c34-177">De naam van uw topic Center bijwerken</span><span class="sxs-lookup"><span data-stu-id="f6c34-177">Update your topic center name</span></span>
-
-<span data-ttu-id="f6c34-178">Selecteer het tabblad **onderwerp centrum** als u de naam van het onderwerp centrum wilt bijwerken.</span><span class="sxs-lookup"><span data-stu-id="f6c34-178">Select the **Topic center** tab if you want to update the name of your topic center.</span></span> 
-
-1. <span data-ttu-id="f6c34-179">Selecteer op het tabblad **onderwerp centrum** , onder **naam onderwerp centrum** , de optie **bewerken**.</span><span class="sxs-lookup"><span data-stu-id="f6c34-179">On the **Topic center** tab, under **Topic center name** , select **Edit**.</span></span>
-2. <span data-ttu-id="f6c34-180">Typ op de paginanaam van het **centrum voor bewerken** , in het vak **naam van onderwerp centrum** , de nieuwe naam voor het onderwerp Center.</span><span class="sxs-lookup"><span data-stu-id="f6c34-180">On the **Edit topic center name** page, in the **Topic center name** box, type the new name for your topic center.</span></span>
-3. <span data-ttu-id="f6c34-181">Selecteer **Opslaan** .</span><span class="sxs-lookup"><span data-stu-id="f6c34-181">Select **Save**</span></span>
-
-    ![Naam van onderwerp centrum bewerken](../media/content-understanding/manage-topic-center-name.png) </br> 
-
-
-
-
-
-
-
-
-
-
-
-## <a name="see-also"></a><span data-ttu-id="f6c34-183">Zie ook</span><span class="sxs-lookup"><span data-stu-id="f6c34-183">See also</span></span>
-
-
-
-  
-
-
-
-
-
+[<span data-ttu-id="7e3b5-158">De naam van het onderwerp centreren in Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="7e3b5-158">Change the name of the topic center in Microsoft 365</span></span>](topic-experiences-administration.md)
 
