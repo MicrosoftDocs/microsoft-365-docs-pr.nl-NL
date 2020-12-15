@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: Meer informatie over het maken van een aangepaste nettolading voor simulatie van aanvals simulaties in Microsoft Defender voor Office 365.
-ms.openlocfilehash: a8366e6cbf703ef1e1a14e216ada71200668cd14
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Beheerders kunnen aangepaste ladingen maken voor simulatie van aanvals vaardigheden in Microsoft Defender voor Office 365.
+ms.openlocfilehash: c42090634f6fa9500ae4c3e781b49b607ee928f5
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616270"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667502"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor aanvalssimulatietraining
 
-Microsoft biedt een krachtige versie van de nettolading voor diverse social engineering-technieken voor het koppelen van uw aanvals training. U kunt echter wel aangepaste ladingen maken die beter voor uw organisatie kunnen worden gebruikt. Hieronder wordt beschreven hoe u een nettolading maakt voor simulatie van aanvals simulatie via Microsoft Defender voor Office 365.
+Microsoft biedt een robuuste nettolading-catalogus voor diverse social engineering-technieken voor het koppelen van uw aanvals training. U kunt echter wel aangepaste ladingen maken die beter voor uw organisatie kunnen worden gebruikt. In dit artikel wordt uitgelegd hoe u een nettolading maakt voor de training voor simulatie aanval in Microsoft Defender voor Office 365.
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
@@ -34,17 +34,17 @@ Geef in de volgende stap de naam uw nettolading. U kunt ook een beschrijving opg
 
 ## <a name="configure-payload"></a>Nettolading configureren
 
-Nu is het tijd om uw nettolading aan te maken. Voer de naam van de afzender, het e-mailadres en het onderwerp van de e-mail in het gedeelte **Details van afzender** in. Selecteer een phishingwebsite in de lijst met opgegeven URL'S. Deze URL wordt later ingesloten in de hoofdtekst van het bericht.
+Nu is het tijd om uw nettolading aan te maken. Voer de naam en het e-mailadres van de afzender en het onderwerp van de e-mail in het gedeelte **Details van afzender** in. Selecteer een phishingwebsite in de lijst met opgegeven URL'S. Deze URL wordt later ingesloten in de hoofdtekst van het bericht.
 
 > [!TIP]
 > U kunt een interne e-mail voor de afzender van uw nettolading kiezen, zodat de nettolading wordt weergegeven als de naam van een andere werknemer van het bedrijf. Hierdoor wordt de kans groter voor de nettolading en kunnen werknemers aan het risico van interne bedreigingen zorgen.
 
-De RTF-editor is beschikbaar voor het maken van uw nettolading. U kunt ook een e-mailbericht importeren dat u vooraf hebt gemaakt. Wanneer u de hoofdtekst van het e-mailbericht structureert, profiteert u van de **dynamische Tags** om de e-mail aan te passen aan uw doelen. Klik op **phishing** om de eerder geselecteerde phishingwebsite in de hoofdtekst van het e-mailbericht toe te voegen.
+De RTF-editor is beschikbaar voor het maken van uw nettolading. U kunt ook een e-mailbericht importeren dat u vooraf hebt gemaakt. Wanneer u de hoofdtekst van het e-mailbericht maakt, profiteert u van de **dynamische Tags** om de e-mail te personaliseren met uw doelen. Klik op **phishing** om de eerder geselecteerde phishingwebsite toe te voegen aan de hoofdtekst van het bericht.
 
 ![Phishing en dynamische Tags gemarkeerd in het maken van nettolading voor Microsoft Defender voor Office 365](../../media/attack-sim-preview-payload-email-body.png)
 
 > [!TIP]
-> Als u uw tijd wilt besparen, schakelt u de optie voor het **vervangen van alle koppelingen in het e-mailbericht met de phishing-koppeling uit**.
+> Als u tijd wilt besparen, schakelt u de optie voor het **vervangen van alle koppelingen in het e-mailbericht met de phishingwebsite** in.
 
 Wanneer u klaar bent met het maken van de nettolading, klikt u op **volgende**.
 
@@ -63,4 +63,4 @@ Voeg een aangepaste beschrijving toe om de indicator te beschrijven en klik in h
 U bent klaar met het maken van uw nettolading. Nu is het tijd om de details te bekijken en een voorbeeld van uw nettolading te bekijken. Het voorbeeld bevat alle indicatoren die u hebt gemaakt. U kunt in deze stap elk deel van de nettolading bewerken. Als dit is voldaan, **verzendt** u uw nettolading.
 
 > [!IMPORTANT]
-> Nettoladingen die u hebt gemaakt, hebben een **Tenant** ingesteld als de bron. Wanneer u nettoladingen selecteert, controleert u of de **Tenant** niet is gefilterd.
+> Nettoladingen die u hebt gemaakt, hebben de **Tenant** als de bron. Zorg er bij het selecteren van nettolading voor dat u de **Tenant** niet hoeft te filteren.

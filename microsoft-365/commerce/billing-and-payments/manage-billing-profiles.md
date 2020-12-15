@@ -1,5 +1,5 @@
 ---
-title: Factureringsprofielen beheren
+title: Meer informatie over facturerings profielen
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -12,25 +12,27 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- Commerce
 search.appverid:
 - MET150
 description: Meer informatie over hoe facturerings profielen facturen ondersteunen.
-keywords: facturerings profiel, facturen, kosten, beheerde kosten
-ms.openlocfilehash: de6d6cd65d9e83e7211bcdc33f1774aaec3d1729
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 708096b624caa9c23a40df4842ccfce856db048d
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638445"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667772"
 ---
-# <a name="manage-billing-profiles"></a>Factureringsprofielen beheren
+# <a name="understand-billing-profiles"></a>Meer informatie over facturerings profielen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
@@ -63,7 +65,7 @@ Rollen aan facturerings profielen beschikken over machtigingen voor het beheren 
 
 1. Ga in het Beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Facturen en betalingen</a>.
 
-2. Kies **facturerings profielen**en kies vervolgens een factuur profiel in de lijst.
+2. Kies **facturerings profielen** en kies vervolgens een factuur profiel in de lijst.
 
     - Op het tabblad **overzicht** kunt u details van facturerings profielen bewerken en het verzenden van een factuur per e-mail in-of uitschakelen.
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het toevoegen van gebruikers en het toewijzen van licenties aan Microsoft 365 tegelijk.
 ms.date: 07/01/2020
-ms.openlocfilehash: 95f84ead009b7510699e467bf5f12bf32d8097d8
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 5df0db1cb782cc55bcf3e2b599430a98ea88750c
+ms.sourcegitcommit: 8252377f63de188d32ed1ccd37540d92cba3cb65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948794"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49670993"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Gebruikers toevoegen en licenties toewijzen
 
@@ -41,7 +41,7 @@ De personen in uw team moeten elk een gebruikersaccount hebben voordat ze zich k
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers toe te voegen en licenties toe te wijzen. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers toe te voegen en licenties toe te wijzen. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="watch-add-users-in-the-admin-center"></a>Bekijken: gebruikers toevoegen in het Beheercentrum
 
@@ -64,7 +64,7 @@ U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers t
     - Kies of u het wachtwoord in een e-mail wilt verzenden wanneer de gebruiker wordt toegevoegd.
 4. Selecteer in het deelvenster **Productlicenties toewijzen** de locatie en de geschikte licentie voor de gebruiker. Als u geen beschikbare licenties hebt, kunt u nog steeds een gebruiker toevoegen en extra licenties kopen. Vouw **apps** uit en schakel de selectievakjes voor apps in of uit om de apps te beperken waarvoor de gebruiker een licentie heeft. Selecteer **Volgende**.
 5. Vouw in het deelvenster **optionele instellingen** **rollen** uit om deze gebruiker een beheerder te maken. Vouw **profielinformatie** uit om extra informatie toe te voegen aan de gebruiker.
-6. Selecteer **volgende**, Controleer de instellingen van de nieuwe gebruiker, breng de gewenste wijzigingen aan en selecteer vervolgens **Voltooien toevoegen**en vervolgens **sluiten**.
+6. Selecteer **volgende**, Controleer de instellingen van de nieuwe gebruiker, breng de gewenste wijzigingen aan en selecteer vervolgens **Voltooien toevoegen** en vervolgens **sluiten**.
 
 ::: moniker-end
 
@@ -72,7 +72,7 @@ U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers t
 
 1. Ga naar het beheercentrum via <https://portal.office.de/adminportal>.
 2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
-3. Vul de volgende gegevens in het deelvenster **Nieuwe gebruikers** in. Selecteer **toevoegen**wanneer u klaar bent.
+3. Vul de volgende gegevens in het deelvenster **Nieuwe gebruikers** in. Selecteer **toevoegen** wanneer u klaar bent.
     - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in.
     - **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld de gebruikersnaam van de gebruiker is en het domein contoso.com, meldt u zich aan door jakob@contoso.com te typen.
     - **Contactgegevens** Vouw deze sectie uit om een mobiel telefoonnummer, adres, enzovoort in te vullen.
@@ -86,7 +86,7 @@ U moet een globale, licentie of beheerder van een gebruiker zijn om gebruikers t
 
 1. Ga naar het beheercentrum via <https://portal.partner.microsoftonline.cn>.
 2. Ga naar **Gebruikers** > **Actieve gebruikers** en selecteer **Gebruiker toevoegen**.
-3. Vul de volgende gegevens in het deelvenster **Nieuwe gebruikers** in. Selecteer **toevoegen**wanneer u klaar bent.
+3. Vul de volgende gegevens in het deelvenster **Nieuwe gebruikers** in. Selecteer **toevoegen** wanneer u klaar bent.
     - **Naam** Vul de voor- en achternaam, weergavenaam en gebruikersnaam in.
     - **Domein** Als de gebruikersnaam van de gebruiker bijvoorbeeld de gebruikersnaam van de gebruiker is en het domein contoso.com, meldt u zich aan door jakob@contoso.com te typen.
     - **Contactgegevens** Vouw deze sectie uit om een mobiel telefoonnummer, adres, enzovoort in te vullen.

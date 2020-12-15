@@ -19,12 +19,12 @@ mms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 87ebf4ca0ff773dd5622097385173f538d990afc
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6d88303b34f78abc857e9aec749bf2f58090f43a
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847474"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667647"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -52,6 +52,10 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `SHA256` | tekenreeks | SHA-256 van het bestand waarop de opgenomen actie is toegepast. Dit veld wordt meestal niet ingevuld, met behulp van de SHA1-kolom. |
 | `MalwareFilterVerdict` | tekenreeks | Verdict van de filters stapel voor e-mail om te bepalen of het e-mailbericht malware bevat: malware, geen malware |
 | `MalwareDetectionMethod` | tekenreeks | Methode voor het detecteren van malware in de e-mail: antimalware-engine, reputatie van bestanden, veilige bijlagen |
+| `SenderDisplayName` | tekenreeks | Naam van de afzender die in het adresboek wordt weergegeven, meestal een combinatie van een bepaalde of voornaam, een tweede initiaal en een achternaam of achternaam |
+| `SenderObjectId` | tekenreeks | Unieke id voor het account van de afzender in azure AD |
+| `ThreatTypes` | tekenreeks | Verdict van de filters stapel voor e-mail, ongeacht of het e-mailbericht malware, phishing of andere bedreigingen bevat |
+| `ThreatNames` | tekenreeks | Detectie naam voor malware of andere bedreigingen gevonden |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

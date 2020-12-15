@@ -1,7 +1,7 @@
 ---
-title: Een phishing-aanval simuleren met Microsoft Defender voor
-ms.author: daniha
-author: danihalfin
+title: Een phishing-aanval simuleren met Microsoft Defender voor Office 365
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
@@ -10,44 +10,44 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: Leer hoe u phishing-aanvallen simuleert en gebruikers traint voor phishing met aanvals training in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 8f5f457f60c81fe961282f33bb8c37f4d9e27aab
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Beheerders kunnen een malafide aanval simuleren en hun gebruikers trainen via phishing met behulp van simulatie gerichte training in Microsoft Defender voor Office 365.
+ms.openlocfilehash: 3707041067fd76ee9535d0dccf5cdfcb9d74fbd7
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616102"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667553"
 ---
 # <a name="simulate-a-phishing-attack"></a>Een malafide aanval simuleren
 
-Met behulp van aanval met aanvals Simulator via Microsoft Defender voor Office 365 kunt u kwaadaardige, kwaadaardige aanvallen uitvoeren op uw organisatie om uw beveiligingsbeleid en-praktijken te testen en de werknemers van uw organisatie de mogelijkheid te bieden om de aandacht te vestigen op aanvallen. Met behulp van een malafide aanval met behulp van een aanval via een aanval met behulp van een aanval via een aanval
+Met aanval van een aanval met Office 365 kunt u in Microsoft Defender voor Office uw eigen beveiligingsbeleid en-procedures testen en de aandacht vestigen op uw medewerkers en de betasting ervan verlagen voor aanvallen. In dit artikel wordt u stapsgewijs begeleid bij het maken van een simulatie aanval via een aanval via een aanval.
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Als u een gesimuleerde malafide aanval wilt starten, gaat u naar het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/). Klik onder **e-mail & samenwerken** op **aanvals Simulator** en schakel over naar het tabblad [**simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations) .
+Als u een gesimuleerde malafide aanval wilt starten, opent u het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/), gaat u naar **e-mail & Collaboration** \> **Simulator** en gaat u naar het tabblad [**simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations) .
 
 Selecteer onder **simulaties** **de optie + een simulatie starten**.
 
 ![Een simulatie knop starten in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-launch.png)
 
 > [!NOTE]
-> U kunt op elk gewenst moment tijdens het maken van een simulatie de mogelijkheid opslaan en sluiten om de simulatie op een later tijdstip verder te configureren.
+> U kunt op elk gewenst moment tijdens het maken van een simulatie de werktijd opslaan en sluiten om de simulatie later verder te configureren.
 
 ## <a name="selecting-a-social-engineering-technique"></a>Een maatschappelijke techniek selecteren
 
-Selecteer een van de vier verschillende technieken, met een curator van de [Mitre ATT&a® Framework](https://attack.mitre.org/techniques/enterprise/). Verschillende nettoladingen zijn beschikbaar voor verschillende technieken.
+Selecteer een van de vier verschillende technieken, met een curator van de [Mitre ATT&a® Framework](https://attack.mitre.org/techniques/enterprise/). Verschillende nettoladingen zijn beschikbaar voor verschillende technieken:
 
-- **Credential oogst** probeert referenties te verzamelen van medewerkers door ze te nemen aan een bekende website met invoervakken om een gebruikersnaam en wachtwoord in te dienen.
-- **Bijlage met schadelijke software** voegt een kwaadaardige bijlage toe aan een bericht. Bij het openen van deze bijlage worden enkele willekeurige code uitgevoerd waarmee de aanvaller het apparaat van de doel kan bereiken.
+- **Credential oogst** probeert referenties te verzamelen door gebruikers te laten weten dat ze een bekende, op een bekende, juiste website met invoervakken voor het verzenden van een gebruikersnaam en wachtwoord in te voeren.
+- **Bijlage met schadelijke software** voegt een kwaadaardige bijlage toe aan een bericht. Wanneer de gebruiker de bijlage opent, wordt willekeurige code uitgevoerd die de aanvaller helpt het apparaat van de doel te manipuleren.
 - **Koppeling in bijlage** is een type referentie oogst waartoe hybride. Een aanvaller voegt een URL in een e-mailbijlage in. De URL in de bijlage volgt dezelfde methode als de oogst van de Credential.
-- **Koppeling naar malware** voert een willekeurige code uit vanuit een bestand dat wordt gehost op een bekende site voor het delen van bestanden. Er wordt een koppeling naar dit schadelijke bestand toegevoegd aan het bericht dat naar de bestemming is verzonden en met de opdracht door erop te klikken wordt het bestand uitgevoerd en helpt de kwaadwillende persoon het apparaat van de doel te betrekken.
+- **Koppeling naar malware** voert sommige willekeurige code uit vanuit een bestand dat wordt gehost op een bekende bestands Sharing-service. Het bericht dat naar de gebruiker is verzonden, bevat een koppeling naar dit schadelijke bestand. Het bestand wordt geopend en Help de kwaadwillende persoon kan zich betrekken bij het doelapparaat.
 
 > [!TIP]
-> Als u in de beschrijving van elke methode op **Details weergeven** klikt, wordt er meer informatie weergegeven over de techniek en de bewerkingsstappen voor die methode.
+> Door te klikken op **Details weergeven** in de beschrijving van de verschillende technieken, worden aanvullende informatie en de simulatie stappen voor de techniek weergegeven.
 >
 > ![Simulatie stappen voor het verzamelen van referenties binnen een aanvals training in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-sim-steps.png)
 
-Wanneer u de techniek hebt geselecteerd en op volgende hebt geklikt, geeft u op de **volgende** wijze uw simulatie een naam en eventueel een beschrijving.
+Wanneer u de techniek hebt geselecteerd en op **volgende** hebt geklikt, geeft u een simulatie een naam en eventueel een beschrijving.
 
 ## <a name="selecting-a-payload"></a>Een nettolading selecteren
 
@@ -56,7 +56,7 @@ Vervolgens moet u een nettolading selecteren in de reeds bestaande nettolading.
 Nettoladingen bevatten een aantal gegevenspunten waarmee u kunt kiezen:
 
 - **Klik op rente** telt het aantal personen dat op deze nettolading heeft geklikt.
-- Voor **speld** percentage voor speling voorspelt, voorspelt het percentage personen die in deze nettolading worden aangetast op basis van historische gegevens voor deze nettolading voor Microsoft Defender voor Office 365-klanten.
+- Voor **speld** percentage voor speling voorspelt, voorspelt het percentage personen dat met deze nettolading wordt geknoeid op basis van historische gegevens voor de nettolading van Microsoft Defender voor Office 365-klanten.
 - **Gestarte simulaties** Hiermee wordt het aantal keren geteld dat deze nettolading in andere simulaties werd gebruikt.
 - De **complexiteit**, die beschikbaar is via **filters**, wordt berekend op basis van het aantal indicatoren binnen de nettolading, wat er op de computer een aanval van maakt. Meer indicatoren leiden tot een lagere complexiteit.
 - **Bron**, beschikbaar via **filters**, geeft aan of de nettolading is gemaakt met de Tenant of dat deze deel uitmaakt van de reeds bestaande nettoladingen catalogus van Microsoft (globaal).

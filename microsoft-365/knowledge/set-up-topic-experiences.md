@@ -1,148 +1,147 @@
 ---
-title: 'Kennisbeheer instellen (preview) '
-description: Het instellen van kennisbeheer.
+title: Onderwerpen over functies instellen in Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 8/1/2020
+ms.reviewer: nkokoye
 audience: admin
 ms.topic: article
 ms.service: o365-administration
-search.appverid: ''
+search.appverid: MET150
+localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: None
-ms.openlocfilehash: c7c30c0f8c1ec4cf8836547e2a23e1e2e6f4f783
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+description: Meer informatie over het instellen van onderwerps functies in Microsoft 365
+ms.openlocfilehash: cc157463c8c85f25ba232c344294ef3e0fabba23
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988943"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667939"
 ---
-# <a name="set-up-knowledge-management-preview"></a>Kennisbeheer instellen (preview)
+# <a name="set-up-topic-experiences-in-microsoft-365"></a>Onderwerpen over functies instellen in Microsoft 365
 
-> [!Note] 
-> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
+Met het Microsoft 365-Beheercentrum kunt u [topic Experience](knowledge-management-overview.md)instellen en configureren. 
 
-Met het Microsoft 365-Beheercentrum kunt u [kennisbeheer](knowledge-management-overview.md)instellen en configureren. 
+Het is belangrijk dat u de beste manier voor het plannen en configureren van onderwerpen in uw omgeving van plan bent. Zorg ervoor dat u de ervaringen van het [plan](plan-topic-experiences.md) vindt voordat u de procedures in dit artikel start.
 
-> [!Important]
-> Het is belangrijk dat u de beste manier voor het instellen van kennisbeheer in uw omgeving de beste manier plant en configureert. U moet bijvoorbeeld overwegingen voor het volgende doen:
-- De SharePoint-sites die u voor onderwerpen wilt analyseren.
-- De gebruikers van wie u de onderwerpen zichtbaar wilt maken.
-- Welke gebruikers u machtigingen wilt geven om onderwerpen te beheren in het onderwerp centrum.
-- Welke gebruikers u machtigingen wilt geven om onderwerpen te maken of te bewerken in het onderwerp centrum.
-- De naam van het onderwerp dat u wilt geven.
+U moet een globale beheerder of SharePoint-beheerder zijn om toegang te krijgen tot het Microsoft 365-Beheercentrum en de functies voor het onderwerp in te stellen.
 
-> [!Note]
-> Het kan handig zijn om beveiligingsgroepen te maken om uw gebruikers de benodigde machtigingen voor het weergeven van onderwerpen te zien, onderwerp te beheren en onderwerpen te maken en bewerken.
+## <a name="set-up-topic-experiences"></a>Ervaring met het onderwerp instellen
 
-Een beheerder kan ook [op elk gewenst moment na de installatie wijzigingen aanbrengen](topic-experiences-discovery.md) in de instellingen voorkennis beheer in het microsoft 365-Beheercentrum.
+Topic Experience instellen in Microsoft 365
 
-## <a name="requirements"></a>Vereisten 
-U moet een globale beheerder of SharePoint-beheerdersmachtigingen hebben om toegang te krijgen tot het Microsoft 365-Beheercentrum en om bedrijfsinformatie in te stellen.
+1. Selecteer in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com)de optie **Setup** en vervolgens de sectie **bestanden en inhoud** weergeven.
+2. Klik in de sectie **bestanden en inhoud** op **personen verbinden met kennis**.
 
-## <a name="set-up-your-knowledge-network"></a>Uw kennis netwerk instellen
+    ![Mensen verbinden met kennis](../media/admin-org-knowledge-options.png) 
 
-Het instellen van uw kennis netwerk begeleidt u door het volgende:
+3. Klik op de pagina **personen verbinden met kennis** op aan de slag om u door te **gaan** met het instellen van het installatieproces.
 
-- Onderwerp detecteren: het selecteren van onderwerpen bronnen en onderwerpen voor het opzeggen van detectie.
-- Onderwerp zichtbaar: wanneer u een gebruiker selecteert, kunt u deze onderwerpen als aandachtspunten weergeven op de tabbladen zoeken en onderwerp.
-- Onderwerp machtigingen: selecteren wie onderwerpen kan maken, bewerken en beheren.
-- Onderwerpen centrum: het onderwerpen centrum maken.
-- Controleren: de instellingen controleren en toepassen.
+    ![Aan de slag](../media/k-get-started.png) 
 
-Uw kennis netwerk instellen:
+4. Ga naar de pagina **Kies hoe u de pagina wilt zoeken** in het onderwerp: detectie van een kennis netwerk. Selecteer in de sectie **SharePoint-onderwerpen selecteren** welke SharePoint-sites worden verkend als bronnen voor uw onderwerpen tijdens de detectie. Kies uit:
+    - **Alle sites**: alle SharePoint-sites in uw organisatie. Dit geldt ook voor huidige en toekomstige sites.
+    - **Alles, met uitzondering van geselecteerde sites**: Typ de namen van de sites die u wilt uitsluiten.  U kunt ook een lijst uploaden met sites die u wilt afmelden bij ontdekking. Sites die in de toekomst zijn gemaakt, worden opgenomen als bronnen voor de detectie van het onderwerp. 
+    - **Alleen geselecteerde sites**: Typ de namen van de sites die u wilt opnemen. U kunt ook een lijst met sites uploaden. Sites die u later maakt, worden niet opgenomen als bronnen voor de detectie van het onderwerp.
+    - **Geen sites**: geen SharePoint-sites opnemen.
 
-1. In het Microsoft 365-Beheercentrum (admin.microsoft.com), selecteert u **instellingen** en vervolgens de afdelings informatie van de **organisatie** weergeven.
-2. Klik in de sectie **kennis van organisatie** op **personen verbinden met kennis**.<br/>
-
-    ![Mensen verbinden met kennis](../media/content-understanding/admin-org-knowledge-options.png) </br>
-
-3. Klik op de pagina **personen verbinden met kennis** op aan de slag om u door te **gaan** met het instellen van het installatieproces.<br/>
-
-    ![Aan de slag](../media/content-understanding/k-get-started.png) </br>
-
-4. Ga naar de pagina **Kies hoe u de pagina wilt zoeken** in het onderwerp: detectie van een kennis netwerk. Selecteer in de sectie **SharePoint-onderwerpen selecteren** welke SharePoint-sites worden verkend als bronnen voor uw onderwerpen tijdens de detectie. Dit omvat:</br>
-    a. **Alle sites** : alle SharePoint-sites in de Tenant. Hiermee worden de huidige en toekomstige sites vastgelegd.</br>
-    b. **Alles, met uitzondering van geselecteerde sites** : Typ de namen van de sites die u wilt uitsluiten.  U kunt ook een lijst uploaden met sites die u wilt afmelden bij ontdekking. Sites die in de toekomst zijn gemaakt, worden opgenomen als bronnen voor de detectie van het onderwerp. </br>
-    c. **Alleen geselecteerde sites** : Typ de namen van de sites die u wilt opnemen. U kunt ook een lijst met sites uploaden. Sites die u later maakt, worden niet opgenomen als bronnen voor de detectie van het onderwerp. </br>
-
-    ![Kiezen hoe u onderwerpen kunt zoeken](../media/content-understanding/ksetup1.png) </br>
+    ![Kiezen hoe u onderwerpen kunt zoeken](../media/ksetup1.png) 
    
-5. In de sectie **onderwerpen uitsluiten van naam** kunt u kiezen of u namen wilt opnemen van onderwerpen die u niet wilt opnemen in de gedetecteerde resultaten. Gebruik deze instelling om te voorkomen dat vertrouwelijke onderwerpen worden opgenomen als onderdeel van het kennis netwerk. De opties zijn:</br>
-    a. **Geen onderwerpen uitsluiten** </br>
-    b. **Onderwerpen uitsluiten op naam** : als u onderwerpen hebt die u niet wilt weergeven aan gebruikers als onderdeel van het kennis netwerk.</br>
+5. In de sectie **onderwerpen uitsluiten van naam** kunt u namen van onderwerpen toevoegen die u wilt uitsluiten van het detecteren van het onderwerp. Met deze instelling kunt u voorkomen dat vertrouwelijke informatie wordt opgenomen in de onderwerpen. De opties zijn:
+    - **Geen onderwerpen uitsluiten** 
+    - **Onderwerpen uitsluiten op naam**
 
-    ![Onderwerpen uitsluiten](../media/content-understanding/topics-excluded-by-name.png) </br>
+    ![Onderwerpen uitsluiten](../media/topics-excluded-by-name.png) 
+
+    (Kennis managers kunnen onderwerpen in het onderwerp centrum ook uitsluiten na ontdekking.)
 
     #### <a name="how-to-exclude-topics-by-name"></a>Onderwerpen uitsluiten op naam    
 
-    Als u onderwerpen wilt uitsluiten, selecteert u **de sjabloon. csv downloaden** als u **onderwerpen uitsluiten op naam** selecteert. Gebruik Excel. CSV-sjabloon voor een lijst met onderwerpen die u niet wilt opnemen in de resultaten van detectie.
+    Als **u onderwerpen moet** uitsluiten, selecteert u de sjabloon. csv downloaden en bijwerken met de lijst met onderwerpen die u wilt uitsluiten van de resultaten van de zoekresultaten.
 
-    ![Onderwerpen in CSV-sjabloon uitsluiten](../media/content-understanding/csv1.png) </br>
+    ![Onderwerpen in CSV-sjabloon uitsluiten](../media/exclude-topics-csv.png) 
 
     Voer de volgende informatie over de onderwerpen die u wilt uitsluiten in het CSV-sjabloon in:
 
-    - **Naam** : Typ de naam van het onderwerp dat u wilt uitsluiten. U kunt dit op twee manieren doen:</br>
-        - Exacte overeenkomst: u kunt de exacte naam of het acroniem opnemen, bijvoorbeeld *Contoso* of *ATL*.</br>
-        - Gedeeltelijke overeenkomst: u kunt alle onderwerpen met een specifiek woord uitsluiten.  Met de *boog* worden bijvoorbeeld alle onderwerpen met het woord *boog* weggelaten, zoals *boog cirkel* , *plasma boog lassen* of *boog boog*. Houd er rekening mee dat onderwerpen waarvan de tekst deel uitmaakt van een woord, zoals de *architectuur* , niet worden uitgesloten.</br>
-    - **Expansie (optioneel)** : als u een acroniem wilt uitsluiten, typt u de woorden waarop het acroniem staat.</br>
-    - **MatchType-exact/gedeeltelijk** : Typ of de ingevoerde naam een *exact* of *gedeeltelijk* overeenkomend type is.</br>
+    - **Naam**: Typ de naam van het onderwerp dat u wilt uitsluiten. U kunt dit op twee manieren doen:
+        - Exacte overeenkomst: u kunt de exacte naam of het acroniem opnemen, bijvoorbeeld *Contoso* of *ATL*.
+        - Gedeeltelijke overeenkomst: u kunt alle onderwerpen met een specifiek woord uitsluiten.  Met de *boog* worden bijvoorbeeld alle onderwerpen met het woord *boog* weggelaten, zoals *boog cirkel*, *plasma boog lassen* of *boog boog*. Houd er rekening mee dat onderwerpen waarvan de tekst deel uitmaakt van een woord, zoals de *architectuur*, niet worden uitgesloten.
+    - **Staat voor (optioneel)**: als u een acroniem wilt uitsluiten, typt u de woorden waarop het acroniem staat.
+    - **MatchType-exact/gedeeltelijk**: Typ of de ingevoerde naam een *exact* of *gedeeltelijk* overeenkomend type is.
 
-    Wanneer u het CSV-sjabloonbestand hebt voltooid en opgeslagen, selecteert u **Bladeren** om naar het bestand te zoeken en te selecteren.
+    Wanneer u het CSV-bestand hebt voltooid en opgeslagen, selecteert u **Bladeren** om naar het bestand te zoeken en te selecteren.
     
-    Selecteer **Volgende**.</br>
+    Selecteer **Volgende**.
 
-6. In de pagina **wie kan de onderwerpen zien en waar ze deze kunnen zien** , wordt de zichtbaarheid van het onderwerp geconfigureerd. In de instelling **wie kan de onderwerpen zien in de instelling van het kennis netwerk** , kiest u wie toegang heeft tot de details van het onderwerp, zoals gemarkeerde onderwerpen, topic cards, onderwerp Answers in Search en topic Pages. U kunt kiezen voor:</br>
-    a. **Iedereen in uw organisatie**</br>
-    b. **Alleen geselecteerde personen of beveiligingsgroepen**</br>
-    c. **Niemand**</br>
+6. Als u in de sectie **wie kan de onderwerpen zien en waar kan ze** de pagina zien, wordt de zichtbaarheid van het onderwerp geconfigureerd. In de instelling **wie kan de onderwerpen zien in de instelling van het kennis netwerk** , kiest u wie toegang heeft tot de details van het onderwerp, zoals gemarkeerde onderwerpen, topic cards, onderwerp Answers in Search en topic Pages. U kunt kiezen voor:
+    - **Iedereen binnen mijn organisatie**
+    - **Alleen geselecteerde personen of beveiligingsgroepen**
+    - **Niemand**
 
-    ![Wie kan onderwerpen zien?](../media/content-understanding/ksetup2.png) </br> 
+    ![Wie kan onderwerpen zien?](../media/ksetup2.png)  
 
  > [!Note] 
- > Met deze instelling kunt u een gebruiker in de organisatie selecteren, zodat alleen gebruikers met een licentie voorkennis beheer die aan hen zijn toegewezen, onderwerpen kunnen weergeven. 
+ > Met deze instelling kunt u een gebruiker in de organisatie selecteren, zodat alleen gebruikers met een onderwerp licenties die aan hen zijn toegewezen, onderwerpen kunnen weergeven.
 
-7. Op de pagina **machtigingen voor onderwerp beheren** kiest u wie onderwerpen kan maken, bewerken en beheren. In de sectie **wie kan onderwerpen maken en bewerken** , kunt u het volgende selecteren:</br>
-    a. **Iedereen in uw organisatie**</br>
-    b. **Alleen geselecteerde personen of beveiligingsgroepen**</br>
-8. In de sectie **wie kan secties beheren** , kunt u het volgende selecteren:</br>
-    a. **Iedereen in uw organisatie**</br>
-    b. **Geselecteerde personen of beveiligingsgroepen**</br>
+7. Op de pagina **machtigingen voor onderwerp beheren** kiest u wie onderwerpen kan maken, bewerken en beheren. In de sectie **wie kan onderwerpen maken en bewerken** , kunt u het volgende selecteren:
+    - **Iedereen binnen mijn organisatie**
+    - **Alleen geselecteerde personen of beveiligingsgroepen**
+    - **Niemand**
 
-    ![Machtigingen voor onderwerp beheren](../media/content-understanding/ksetup3.png) </br>
+    ![Machtigingen voor het beheer van onderwerpen, die onderwerpen kunnen maken en bewerken](../media/ksetup3.png) 
 
-    Selecteer **Volgende**.</br>
-9. Op de pagina **topic maken** kunt u de site van het onderwerp maken waarin de onderwerpen kunnen worden weergegeven en de onderwerpen kunnen worden beheerd.  Typ in het vak **naam van onderwerp centrum** een naam voor het onderwerp Center. U kunt desgewenst een korte beschrijving typen in het vak **Beschrijving van site** . </br>
+8. In de sectie **wie kan secties beheren** , kunt u het volgende selecteren:
+    - **Iedereen binnen mijn organisatie**
+    - **Alleen geselecteerde personen of beveiligingsgroepen**
 
-Selecteer **Volgende**.</br>
+    ![Machtigingen voor onderwerp beheren](../media/km-setup-create-edit-topics.png) 
 
-   ![Kennis centrum maken](../media/content-understanding/ksetup4.png) </br> 
+    Selecteer **Volgende**.
+
+9. Op de pagina **topic maken** kunt u de site van het onderwerp maken waarin de onderwerpen kunnen worden weergegeven en de onderwerpen kunnen worden beheerd. Typ in het vak **site naam** een naam voor het onderwerp Center. U kunt desgewenst een korte beschrijving typen in het vak **Beschrijving** . 
+
+Selecteer **Volgende**.
+
+   ![Kennis centrum maken](../media/ksetup4.png)  
 
 10. Op de pagina **Controleren en voltooien** kunt u de geselecteerde instelling bekijken en wijzigingen aanbrengen. Selecteer **Activeren** wanneer u tevreden bent met uw selecties.
 
-    ![Voltooien en controleren](../media/content-understanding/ksetup5.png) </br> 
-
-11. De pagina voor **geactiveerde kennis netwerk** wordt weergegeven en u wordt bevestigd dat het systeem nu begint met het analyseren van de geselecteerde sites voor onderwerpen en de site van de Knowledge Center-site maakt. Selecteer **Gereed**.</br>
-
-    ![Gestart](../media/content-understanding/ksetup6.png) </br> 
+11. De pagina voor **geactiveerde kennis netwerk** wordt weergegeven en u wordt bevestigd dat het systeem nu begint met het analyseren van de geselecteerde sites voor onderwerpen en de site van de Knowledge Center-site maakt. Selecteer **Gereed**.
 
 12. U gaat terug naar de pagina contact **personen verbinden met kennis** . Op deze pagina kunt u **Beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
 
-    ![Instellingen toegepast](../media/content-understanding/ksetup7.png) </br>   
+    ![Instellingen toegepast](../media/ksetup7.png)    
 
-> [!Note]
-> Na de installatie kan een beheerder op elk moment [wijzigingen aanbrengen in uw geselecteerde instellingen voorkennis beheer](topic-experiences-discovery.md) , door terug te gaan naar deze pagina.
+## <a name="assign-licenses"></a>Licenties toewijzen
 
+Wanneer u onderwerpen hebt geconfigureerd, moet u een licentie toewijzen voor de gebruikers die gebruikmaken van de functies van het onderwerp. Alleen gebruikers met een licentie kunnen informatie over onderwerpen, waaronder hooglichten, topic cards, topic pagina's en het onderwerp centrum zien. 
+
+Licenties toewijzen:
+
+1. Klik in het Microsoft 365-beheercentrum onder **Gebruikers** op **Actieve gebruikers**.
+
+2. Selecteer de gebruikers aan wie u een licentie wilt toewijzen en klik op **Productlicenties beheren**.
+
+3. Selecteer **Meer toewijzen**.
+
+4. Selecteer onder **licenties** de optie **onderwerp**.
+
+5. Zorg ervoor dat onder **apps** de optie **Graph-verbindingslijnen zoeken met** de functies index en **onderwerp** zijn geselecteerd.
+
+    > [!div class="mx-imgBorder"]
+    > ![SharePoint Syntex-licenties in het Microsoft 365-beheercentrum](../media/topic-experiences-licenses.png)
+
+6. Klik op **Wijzigingen opslaan**.
+
+## <a name="manage-topic-experiences"></a>Onderwerp ervaring beheren
+
+Wanneer u de ervaringen met het onderwerp hebt ingesteld, kunt u de instellingen wijzigen die u tijdens de installatie hebt gekozen in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement). Zie de volgende verwijzingen:
+
+- [Detectie van onderwerp beheren in Microsoft 365](topic-experiences-discovery.md)
+- [De zichtbaarheid van een onderwerp beheren in Microsoft 365](topic-experiences-knowledge-rules.md)
+- [Machtigingen voor onderwerp beheren in Microsoft 365](topic-experiences-user-permissions.md)
+- [De naam van het onderwerp centreren in Microsoft 365](topic-experiences-administration.md)
 
 ## <a name="see-also"></a>Zie ook
 
-
-
-  
-
-
-
-
-
-
+[Overzicht van kennisbeheer](knowledge-management-overview.md)

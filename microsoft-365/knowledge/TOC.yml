@@ -8,9 +8,19 @@
       href: work-with-topics.md
     - name: Gebruikersmachtigingen verlenen voor het onderwerp centrum
       href: give-user-permissions-to-the-topic-center.md
-- name: Aan de slag met Setup
+- name: Installeren en beheren
   items:
-    - name: Kennisbeheer instellen
+    - name: Onderwerp beveiliging
+      href: topic-experiences-security-privacy.md
+    - name: Ervaring met onderwerpen plannen
+      href: plan-topic-experiences.md
+    - name: Ervaring met het onderwerp instellen
       href: set-up-topic-experiences.md
-    - name: Uw kennisbeheer netwerk beheren
+    - name: Detectie van onderwerp beheren
       href: topic-experiences-discovery.md
+    - name: De zichtbaarheid van een onderwerp beheren
+      href: topic-experiences-knowledge-rules.md
+    - name: Machtigingen voor onderwerp beheren
+      href: topic-experiences-user-permissions.md
+    - name: De naam van het topic Center wijzigen
+      href: topic-experiences-administration.md

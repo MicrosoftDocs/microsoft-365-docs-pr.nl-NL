@@ -1,7 +1,7 @@
 ---
 title: Meer inzicht krijgen middels aanvalssimulatietraining
-ms.author: daniha
-author: danihalfin
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
@@ -10,30 +10,29 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: In dit artikel leest u hoe u simulatie training in Microsoft 365 Beveiligingscentrum van invloed zijn op medewerkers en krijgt u inzicht in de resultaten van simulatie en training.
-ms.openlocfilehash: 772815add47d2e0a61187f2d687ff047a4de9c31
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Beheerders kunnen zien hoe aanvals training in het Microsoft 365-Beveiligingscentrum van invloed is op werknemers en inzicht krijgen in de resultaten van simulatie en training.
+ms.openlocfilehash: 6fc109469f8a9a3cf6aa87e9b8f9e3a024fed6e3
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615178"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667593"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Meer inzicht krijgen middels aanvalssimulatietraining
 
-Ter simulatie van een aanval biedt Microsoft u inzicht in op basis van de resultaten van simulaties en medewerkers. Aan de hand van deze inzichten wordt u geïnformeerd over de voortgang van uw werknemers en gaat u verder met de volgende stappen om uw werknemers en uw omgeving beter voor te bereiden op aanvallen.
+In simulatie training voor een aanval biedt Microsoft u inzichten op basis van de resultaten van simulaties en opleidingen waarvan de werknemers zijn gekomen. Met deze inzichten wordt u op de hoogte gehouden van de voortgang van uw werknemers, en adviseert u de volgende stappen om uw werknemers en uw omgeving beter voor te bereiden op aanvallen.
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-We werken continu met uitbreiding van inzichten die voor u beschikbaar zijn, met gevolgen voor gedrag en aanbevolen acties die momenteel beschikbaar zijn.
-Als u wilt beginnen, gaat u naar [training voor simulatie van aanval op het Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/attacksimulator?viewid=overview).
+We werken voortdurend aan de uitbreiding van de inzichten die voor u beschikbaar is. De werking van gedrag en aanbevolen acties zijn momenteel beschikbaar. Als u wilt beginnen, gaat u naar [training voor simulatie van aanval in het Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/attacksimulator?viewid=overview).
 
 ## <a name="behavior-impact-on-compromise-rate"></a>Werking van invloed op compromissen
 
-Op **het tabblad simulatie** van aanvals training ziet u de **gevolgen voor compromissen voor de compromis graad** . Op deze kaart ziet u hoe werknemers omgaan met een simulatie waarmee u omgaat naar de **voorspelde compromissen**. U kunt deze inzichten gebruiken om de voortgang van de werknemers gereed te houden door meerdere simulaties uit te voeren voor dezelfde groepen werknemers.
+Op het tabblad **overzicht** van simulatie van aanval aanval ziet u de **gevolgen voor compromissen voor de beoordeling van de compromissen** . Op deze kaart ziet u hoe werknemers omgaan met de simulaties die u hebt gemaakt, contrast voor de **voorspelde compromis graad**. U kunt deze inzichten gebruiken om de voortgang van de werknemers gereed te houden door meerdere simulaties uit te voeren voor dezelfde groepen werknemers.
 
 In de grafiek ziet u:
 
-- **Voorspelbare compromis graad** met hetzelfde type nettolading voor simulaties met behulp van een aanval met simulatie van aanval.
+- **Voorspelbare compromis graad** waarbij de gemiddelde compromis graad voor simulaties wordt gebruikt met hetzelfde type nettolading in andere microsoft 365-tenants die gebruikmaken van simulatie training.
 - De **effectieve baudrate** weerspiegelt het percentage van de werknemers dat is gezakt voor de simulatie.
 
 Daarnaast `<number> less susceptible to phishing` weerspiegelt het verschil tussen het werkelijke aantal werknemers dat is aangetast door de aanval en de voorspelde compromissen. Dit aantal werknemers is minder waarschijnlijk met soortgelijke aanvallen in de toekomst, terwijl ook `<percent%> better than predicted rate` wordt aangegeven hoe werknemers in het geheel hebben gereageerd op het voor spelde compromis.
@@ -41,13 +40,13 @@ Daarnaast `<number> less susceptible to phishing` weerspiegelt het verschil tuss
 > [!div class="mx-imgBorder"]
 > ![Kaart voor gedrag van gedrag bij simulatie van aanvals overzicht](../../media/attack-sim-preview-behavior-impact-card.png)
 
-Als u een gedetailleerdere weergave wilt weergeven, klikt u op het **rapport simulaties en trainings effectiviteit weergeven** , dat dezelfde informatie biedt als een extra context van de simulatie zelf, zoals simulatie technieken en totaal aantal gebruikersgerichte.
+Als u een gedetailleerdere rapporten wilt weergeven, klikt u op **simulaties weergeven en rapport over trainings effectiviteit**. Dit rapport bevat dezelfde informatie met aanvullende context uit de simulatie zelf (bijvoorbeeld simulatie techniek en totaal aantal gebruikers die zijn gericht).
 
 ## <a name="recommended-actions"></a>Aanbevolen acties
 
-Selecteer op het [tabblad **simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations)de optie simulaties om de simulaties te bekijken. Hier ziet u de sectie **aanbevolen acties** .
+Wanneer u op het [tabblad **simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations)een simulatie selecteert, krijgt u de gewenste details van de simulatie, waar u de sectie **aanbevolen acties** vindt.
 
-De sectie aanbevolen acties bevat een beschrijving van de aanbevelingen die beschikbaar zijn in [Microsoft Secure Score](../mtp/microsoft-secure-score.md). Deze aanbevelingen zijn gebaseerd op de nettolading die wordt gebruikt in de simulatie en helpt u bij het beschermen van uw werknemers en uw omgeving. Door te klikken op elke actie bij verbetering gaat u naar de details.
+De sectie aanbevolen acties bevat een beschrijving van de aanbevelingen die beschikbaar zijn in [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score). Deze aanbevelingen zijn gebaseerd op de nettolading die wordt gebruikt in de simulatie en helpt u bij het beschermen van uw werknemers en uw omgeving. Door te klikken op elke actie bij verbetering gaat u naar de details.
 
 > [!div class="mx-imgBorder"]
 > ![Sectie aanbevelings acties voor simulatie van aanval](../../media/attack-sim-preview-recommended-actions.png)

@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5b095a1d75ead0f963a71d816e7d879b7cd3697
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 54acf9d21e3dd935f8b87c6ee4a13ab30e7bc59e
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614796"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49668071"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Evalueer Microsoft Defender for Office 365
 
@@ -63,7 +63,7 @@ Met een eenvoudige instelling kunt u zich richten op:
 Voor toegang tot de evaluatie moet u voldoen aan de licentievereisten. De volgende licenties werken wel:
 
 - Abonnement 1 voor Microsoft Defender voor Office 365
-- Microsoft Defender voor Office 365, abonnement 2
+- Abonnement 2 voor Microsoft Defender voor Office 365
 - Microsoft 365 E5, Microsoft 365 E5-beveiliging
 - Office 365 E5
 

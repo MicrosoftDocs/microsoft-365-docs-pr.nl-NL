@@ -1,143 +1,97 @@
 ---
-title: 'Uw kennisbeheer netwerk beheren (preview) '
-description: Het instellen van kennisbeheer.
+title: Detectie van onderwerp beheren in Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/01/2020
+ms.reviewer: nkokoye
 audience: admin
 ms.topic: article
 ms.service: o365-administration
-search.appverid: ''
+search.appverid: MET150
+localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: None
-ms.openlocfilehash: 265816a8d3d04b8d10b529f1ea1a0b658aa2931d
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+description: Meer informatie over het beheren van topic Discovery in Microsoft 365.
+ms.openlocfilehash: 035fb74f1989dc7ef5b7fcf8e9c6d59b63cf2b42
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988949"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667854"
 ---
-# <a name="manage-your-knowledge-management-network-preview"></a>Uw kennisbeheer netwerk beheren (preview)
+# <a name="manage-topic-discovery-in-microsoft-365"></a>Detectie van onderwerp beheren in Microsoft 365
 
-> [!Note] 
-> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
+U kunt de instellingen voor de detectie van het onderwerp beheren in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com). U moet een globale beheerder of SharePoint-beheerder zijn om deze taken uit te voeren.
 
+## <a name="to-access-topics-management-settings"></a>De instellingen voor het beheer van onderwerpen raadplegen:
 
-Nadat u [kennisbeheer hebt ingesteld](set-up-topic-experiences.md), kunt u op elk gewenst moment een beheerder de configuratie-instellingen wijzigen via het microsoft 365-Beheercentrum.
+1. Klik in het Microsoft 365-Beheercentrum op **instellingen** en vervolgens op **organisatie-instellingen**.
+2. Klik op het tabblad **Services** op **kennis netwerk**.
 
-U moet bijvoorbeeld de instellingen voor de volgende opties wijzigen:
-- Nieuwe SharePoint-bronnen toevoegen aan mijn onderwerpen.
-- Wijzig welke gebruikers toegang hebben tot onderwerpen.
-- Wijzig welke gebruikers gemachtigd zijn om taken uit te voeren in het onderwerp centrum.
-- De naam van het topic Center wijzigen
+    ![Mensen verbinden met kennis](../media/admin-org-knowledge-options-completed.png) 
 
+3. Selecteer het tabblad **detectie van onderwerp** . Zie de volgende secties voor informatie over elke instelling.
 
-## <a name="requirements"></a>Vereisten 
-U moet een globale beheerder of SharePoint-beheerdersmachtigingen hebben om toegang te krijgen tot het Microsoft 365-Beheercentrum en om organisatie-kennis taken te kunnen beheren.
+    ![kennis netwerk-instellingen](../media/knowledge-network-settings-topic-discovery.png) 
 
+## <a name="select-sharepoint-topic-sources"></a>Selecteer SharePoint-onderwerpen bronnen
 
-## <a name="to-access-knowledge-management-settings"></a>Toegang krijgen tot de instellingen van kennisbeheer:
+U kunt de SharePoint-sites in uw organisatie wijzigen die worden verkend voor onderwerpen.
 
-1. Selecteer in het Microsoft 365-Beheercentrum de optie **instellen** en bekijk vervolgens de sectie **bedrijfsinformatie** .
-2. Klik in de sectie **kennis van organisatie** op **personen verbinden met kennis**.<br/>
+Als u een bepaalde lijst met sites wilt opnemen of uitsluiten, kunt u de volgende CSV-sjabloon gebruiken:
 
-    ![Mensen verbinden met kennis](../media/content-understanding/admin-org-knowledge-options.png) </br>
+``` csv
+Site name,URL
+```
 
-3. Selecteer op de pagina **personen verbinden met kennis** de optie **beheren** om het deelvenster instellingen van het **kennis netwerk** te openen.<br/>
+Als u sites toevoegt met behulp van de site kiezer, worden deze toegevoegd aan de bestaande lijst met sites die u wilt opnemen of uitsluiten. Als u een CSV-bestand uploadt, wordt een bestaande lijst overschreven. Als u eerder specifieke sites hebt opgenomen of uitgesloten, downloadt u de lijst als een. CSV-bestand, brengt u wijzigingen aan en uploadt u de nieuwe lijst.
 
-    ![kennis netwerk-instellingen](../media/content-understanding/knowledge-network-settings.png) </br>
-
-## <a name="change-how-the-knowledge-network-can-find-topics"></a>Wijzigen hoe het kennis netwerk onderwerpen kan vinden
-
-Selecteer het tabblad detectie van het **onderwerp** als u de keuzes voor de bronnen van het SharePoint-onderwerp wilt bijwerken. Met deze instelling kunt u de SharePoint-sites in de Tenant selecteren die worden verkend en mined voor onderwerpen.
+Sites kiezen voor detectie van een onderwerp
 
 1. Selecteer op het tabblad **topic Discovery** onder **Select SharePoint topics** de optie **Edit**.
-2. Selecteer op de pagina **SharePoint-onderwerpen selecteren** welke SharePoint-sites worden verkend als bronnen voor uw onderwerpen tijdens de detectie. Dit omvat:</br>
-    a. **Alle sites** : alle SharePoint-sites in de Tenant. Hiermee worden de huidige en toekomstige sites vastgelegd.</br>
-    b. **Alles, met uitzondering van geselecteerde sites** : Typ de namen van de sites die u wilt uitsluiten.  U kunt ook een lijst uploaden met sites die u wilt afmelden bij ontdekking. Sites die u later maakt, worden opgenomen als bronnen voor het detecteren van het onderwerp. </br>
-    c. **Alleen geselecteerde sites** : Typ de namen van de sites die u wilt opnemen. U kunt ook een lijst met sites uploaden. Sites die u later maakt, worden niet opgenomen als bronnen voor de detectie van het onderwerp. </br>
+2. Selecteer op de pagina **SharePoint-onderwerpen selecteren** welke SharePoint-sites worden verkend als bronnen voor uw onderwerpen tijdens de detectie. Dit omvat:
+    - **Alle sites**: alle SharePoint-sites in de Tenant. Hiermee worden de huidige en toekomstige sites vastgelegd.
+    - **Alles, met uitzondering van geselecteerde sites**: Typ de namen van de sites die u wilt uitsluiten.  U kunt ook een lijst uploaden met sites die u wilt afmelden bij ontdekking. Sites die u later maakt, worden opgenomen als bronnen voor het detecteren van het onderwerp. 
+    - **Alleen geselecteerde sites**: Typ de namen van de sites die u wilt opnemen. U kunt ook een lijst met sites uploaden. Sites die u later maakt, worden niet opgenomen als bronnen voor de detectie van het onderwerp.
+    - **Geen sites**: onderwerpen worden niet automatisch aangemaakt of bijgewerkt met SharePoint-inhoud. Bestaande onderwerpen blijven behouden in het onderwerp centrum.
 
-    ![Kiezen hoe u onderwerpen kunt zoeken](../media/content-understanding/k-manage-select-topic-source.png) </br>
+    ![Schermafbeelding van de gebruikersinterface van de SharePoint-onderwerp bronnen](../media/k-manage-select-topic-source.png)
    
-    Als u een aantal sites hebt die u wilt uitsluiten (als u **alles selecteert, met uitzondering van geselecteerde sites** ) of opnemen (als u **alleen geselecteerde sites** hebt geselecteerd), kunt u ervoor kiezen om een CSV-bestand met de sitenamen en url's te uploaden. Selecteer **sitesjabloon. csv downloaden** als u het CSV-sjabloonbestand wilt gebruiken.
-
 3. Klik op **Opslaan**.
 
-##  <a name="change-who-can-see-topics-in-your-organization"></a>Wijzigen wie de onderwerpen in uw organisatie kunnen zien
+## <a name="exclude-topics-by-name"></a>Onderwerpen uitsluiten op naam
 
-Selecteer het tabblad detectie van het **onderwerp** als u wilt bijwerken wie in uw organisatie gedetecteerde onderwerpen kan zien in zoekresultaten en wanneer onderwerpen zijn gemarkeerd met inhoud zoals SharePoint-pagina's.
+U kunt onderwerpen uitsluiten van detectie door een lijst te uploaden met een. CSV-bestand. Als u eerder uitgesloten onderwerpen hebt, kunt u het CSV-bestand downloaden, wijzigingen aanbrengen en opnieuw uploaden.
 
-1. Selecteer op het tabblad **onderwerp detecteren** onder **wie kan de onderwerpen in het kennis netwerk zien** de optie **bewerken**.
-2. Op de pagina **wie kan de onderwerpen zien op de pagina van het kennis netwerk** , kiest u wie toegang heeft tot de details van het onderwerp, zoals gemarkeerde onderwerpen, topic cards, topic Answers in Search en topic Pages. U kunt kiezen voor:</br>
-    a. **Iedereen in uw organisatie**</br>
-    b. **Alleen geselecteerde personen of beveiligingsgroepen**</br>
-    c. **Niemand**</br>
+1. Selecteer op het tabblad **onderwerp detecteren** onder **onderwerpen uitsluiten** de optie **bewerken**.
+2. Klik op **onderwerpen uitsluiten op naam**.
+3. Als u een lijst wilt maken, downloadt u de. CSV-sjabloon en voegt u de onderwerpen toe die u wilt uitsluiten (Zie *werken met de. CSV-sjabloon* hieronder). Wanneer het bestand klaar is, klikt u op **Bladeren** en uploadt u het bestand. Als u een bestaande lijst hebt, kunt u het. CSV-bestand met de lijst downloaden.
+4. Klik op **Opslaan**.
 
-    ![Wie kan onderwerpen zien?](../media/content-understanding/k-manage-who-can-see-topics.png) </br> 
-3. Klik op **Opslaan**.  
- 
-> [!Note] 
-> Met deze instelling kunt u een gebruiker in de organisatie selecteren, zodat alleen gebruikers met een licentie voorkennis beheer die aan hen zijn toegewezen, onderwerpen kunnen weergeven.
+    ![Schermafbeelding van de gebruikersinterface van de onderdelen uitsluiten](../media/km-manage-exclude-topics.png)
 
-## <a name="change-who-has-permissions-to-do-tasks-on-the-topic-center"></a>Wijzigen wie gemachtigd is om taken uit te voeren in het onderwerp centrum
+### <a name="working-with-the-csv-template"></a>Werken met de. CSV-sjabloon
 
-Selecteer het tabblad **onderwerp machtigingen** als u het volgende wilt bijwerken op de pagina met het onderwerp centrum:
+U kunt de onderstaande CSV-sjabloon kopiëren:
 
-- Welke gebruikers kunnen onderwerpen maken en bewerken: nieuwe onderwerpen maken die niet zijn gevonden tijdens het detecteren of bewerken van bestaande Details van een onderwerppagina.
-- Welke gebruikers onderwerpen kunnen beheren: gedetecteerde of genegeerde onderwerpen.
+``` csv
+Name (required),Expansion,MatchType- Exact/Partial (required)
+```
 
-Een update maken van de gebruikers die gemachtigd zijn om onderwerpen te maken en bewerken:
+Voer de volgende informatie over de onderwerpen die u wilt uitsluiten in het CSV-sjabloon in:
 
-1. Selecteer op het tabblad **onderwerp machtigingen** onder **wie kan onderwerpen maken en bewerken** de optie **bewerken**.</br>
-2. Op de pagina **wie kan onderwerpen maken en bewerken** , kunt u het volgende selecteren:</br>
-    a. **Iedereen in uw organisatie**</br>
-    b. **Alleen geselecteerde personen of beveiligingsgroepen**</br>
+- **Naam**: Typ de naam van het onderwerp dat u wilt uitsluiten. U kunt dit op twee manieren doen:
+    - Exacte overeenkomst: u kunt de exacte naam of het acroniem opnemen, bijvoorbeeld *Contoso* of *ATL*.
+    - Gedeeltelijke overeenkomst: u kunt alle onderwerpen met een specifiek woord uitsluiten.  Met de *boog* worden bijvoorbeeld alle onderwerpen met het woord *boog* weggelaten, zoals *boog cirkel*, *plasma boog lassen* of *boog boog*. Houd er rekening mee dat onderwerpen waarvan de tekst deel uitmaakt van een woord, zoals de *architectuur*, niet worden uitgesloten.
+- **Staat voor (optioneel)**: als u een acroniem wilt uitsluiten, typt u de woorden waarop het acroniem staat.
+- **MatchType-exact/gedeeltelijk**: Typ of de ingevoerde naam een *exact* of *gedeeltelijk* overeenkomend type is.
 
-    ![Onderwerpen maken en bewerken](../media/content-understanding/k-manage-who-can-create-and-edit.png) </br> 
-
-3. Klik op **Opslaan**.</br>
-
-Bijwerken met de gebruikers die gemachtigd zijn om onderwerpen te beheren:
-
-1. Selecteer op het tabblad **machtigingen voor onderwerp** onder **wie kan onderwerpen beheren** de optie **bewerken**.</br>
-2. Op de pagina **wie kan onderwerpen beheren** , kunt u de volgende opties kiezen:</br>
-    a. **Iedereen in uw organisatie**</br>
-    b. **Geselecteerde personen of beveiligingsgroepen**</br>
-
-    ![Onderwerpen beheren](../media/content-understanding/k-manage-who-can-manage-topics.png) </br> 
-
-3. Klik op **Opslaan**.</br>
-
-
-##  <a name="update-your-topic-center-name"></a>De naam van uw topic Center bijwerken
-
-Selecteer het tabblad **onderwerp centrum** als u de naam van het onderwerp centrum wilt bijwerken. 
-
-1. Selecteer op het tabblad **onderwerp centrum** , onder **naam onderwerp centrum** , de optie **bewerken**.
-2. Typ op de paginanaam van het **centrum voor bewerken** , in het vak **naam van onderwerp centrum** , de nieuwe naam voor het onderwerp Center.
-3. Selecteer **Opslaan** .
-
-    ![Naam van onderwerp centrum bewerken](../media/content-understanding/manage-topic-center-name.png) </br> 
-
-
-
-
-
-
-
-
-
-
+    ![Onderwerpen in CSV-sjabloon uitsluiten](../media/exclude-topics-csv.png) 
 
 ## <a name="see-also"></a>Zie ook
 
+[De zichtbaarheid van een onderwerp beheren in Microsoft 365](topic-experiences-knowledge-rules.md)
 
+[Machtigingen voor onderwerp beheren in Microsoft 365](topic-experiences-user-permissions.md)
 
-  
-
-
-
-
-
+[De naam van het onderwerp centreren in Microsoft 365](topic-experiences-administration.md)
 

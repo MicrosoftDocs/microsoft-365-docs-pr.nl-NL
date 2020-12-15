@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 86cc32cf395f2216eb3e167e372d1225734c4c28
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 00fcc6514679868066ef88b0c9bc4a485d032528
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842630"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667635"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -71,6 +71,17 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `AttachmentCount` | int | Aantal bijlagen in het e-mailbericht |
 | `UrlCount` | int | Aantal ingesloten Url's in het e-mailbericht |
 | `EmailLanguage` | tekenreeks | Gedetecteerde taal van de e-mail inhoud |
+| `OrgLevelAction` | tekenreeks | Actie die met het e-mailbericht is uitgevoerd als reactie op een beleid dat is gedefinieerd op het niveau van de organisatie |
+| `OrgLevelPolicy` | tekenreeks | Beleid voor organisatie dat de actie heeft uitgevoerd die de e-mail heeft gemaakt |
+| `UserLevelAction` | tekenreeks | Actie die heeft plaatsgevonden voor het e-mailbericht in antwoord op overeenkomsten met een postvak beleid dat is gedefinieerd door de geadresseerde |
+| `UserLevelPolicy` | tekenreeks | Postvak beleid voor eindgebruikers dat de actie heeft uitgevoerd die de e-mail heeft gemaakt |
+| `Connectors` | tekenreeks | Aangepaste instructies waarmee u de e-mail stroom van de organisatie en de manier van de e-mail Omring kunt definiëren |
+| `SenderDisplayName` | tekenreeks | Naam van de afzender die in het adresboek wordt weergegeven, meestal een combinatie van een bepaalde of voornaam, een tweede initiaal en een achternaam of achternaam |
+| `SenderObjectId` | tekenreeks |Unieke id voor het account van de afzender in azure AD |
+| `ThreatTypes` | tekenreeks | Verdict van de filters stapel voor e-mail, ongeacht of het e-mailbericht malware, phishing of andere bedreigingen bevat |
+| `ThreatNames` | tekenreeks |Detectie naam voor malware of andere bedreigingen gevonden |
+| `DetectionMethods` | tekenreeks | Methoden voor het detecteren van malware, phishing of andere bedreigingen die zijn gevonden in het e-mailbericht |
+
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
