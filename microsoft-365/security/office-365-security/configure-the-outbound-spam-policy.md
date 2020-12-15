@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie lezen over het weergeven, maken, wijzigen en verwijderen van beleid voor uitgaande spam in Exchange Online Protection (EOP).
-ms.openlocfilehash: 0deafe2817c3e10371b02349aca2612af090af65
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 1e25d687ea22c70ba36f7c183b1fd8e578f7fa13
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659700"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683329"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaande spamfilters configureren in EOP
 
@@ -117,7 +117,7 @@ Als u een aangepast beleid voor uitgaande spam maakt in de beveiligings & nalevi
 
         De geadresseerden die u hebt toegevoegd, worden weergegeven in de sectie **lijst met geadresseerden** in de vervolgkeuzelijst. Als u een geadresseerde wilt verwijderen, klikt u op de ![ knop verwijderen ](../../media/scc-remove-icon.png) .
 
-     1. Klik op **Opslaan** wanneer u gereed bent.
+     1. Wanneer u gereed bent, klikt u op **Opslaan**.
 
         Als u deze instelling wilt uitschakelen, schakelt u het selectievakje uit.
 
@@ -230,7 +230,7 @@ Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van bel
 
    Verplaats te wisselknop naar links om het beleid uit te schakelen: ![Uitschakelen](../../media/scc-toggle-off.png)
 
-   Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Inschakelen](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
+   Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Inschakelen](../../media/scc-toggle-on.png)
 
 U kunt het standaardbeleid voor uitgaande spam niet uitschakelen.
 

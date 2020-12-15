@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: 3c8477ce16249cb4d21c736da60d619774175041
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: 12f71011e28d5c8c8287146670282a86a77781ff
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123605"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682979"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft 365 Defender configureren
 
@@ -55,12 +55,11 @@ Of geautomatiseerd onderzoek wordt uitgevoerd en of herstelacties automatisch of
 
 1. Ga naar het Microsoft Defender-Beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) en meld u aan.
 
-2. Ga naar **instellingen** van het  >  **Permissions**  >  **apparaat** machtigingen. 
+2. Ga naar **instellingen** van het  >    >  **apparaat** machtigingen. 
 
 3. Controleer het beleid voor Groepsbeleid. Kijk vooral naar de kolom **herstelniveau** . We raden u aan dat u de functie voor **volledig herstel van bedreigingen automatisch** gebruikt.  Mogelijk moet u de Apparaatgroepen maken of bewerken om het gewenste automatiserings niveau te kunnen bereiken. Zie de volgende artikelen voor meer informatie over deze taak:
 
    - [Hoe bedreigingen worden hersteld](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations#how-threats-are-remediated)
-   
    - [Apparaatgroepen maken en beheren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/machine-groups) 
 
 ## <a name="review-your-security-and-alert-policies-in-office-365"></a>Controleer uw beveiligings-en waarschuwings beleid in Office 365
@@ -105,6 +104,6 @@ Met behulp van beveiligingsinstellingen in Office 365 kunt u e-mail en inhoud be
 
 ## <a name="review-pending-and-completed-actions-in-the-action-center"></a>Acties in behandeling en voltooid bekijken in het Actiecentrum
 
-Nadat u automatisch onderzoek en antwoord in Microsoft 365 Defender hebt geconfigureerd, kunt u de volgende stap bezoeken om het Actiecentrum te openen [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) . Daar kunt u de acties die in behandeling zijn, controleren en goedkeuren en verwerkings acties weergeven die automatisch zijn doorgevoerd. 
+Nadat u automatisch onderzoek en antwoord in Microsoft 365 Defender hebt geconfigureerd, kunt u de volgende stap bezoeken om het Actiecentrum te openen [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) . Daar kunt u de acties die in behandeling zijn, controleren en goedkeuren, en de acties voor herbemiddeling weergeven die automatisch of handmatig zijn uitgevoerd. 
 
 [Bezoek het Actiecentrum](mtp-action-center.md).

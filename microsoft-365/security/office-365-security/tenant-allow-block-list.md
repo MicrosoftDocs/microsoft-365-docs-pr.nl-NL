@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over de configuratie van URL-items in de lijst Tenant toestaan/blokkeren in het beveiligings & nalevings centrum.
-ms.openlocfilehash: 4bf5e2e29a9f48c434be527a2447ca4bf98c4208
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: f60e2f29bf9b880e9d2247fa59554300ae348a03
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659996"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683209"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>URL's beheren in de lijst met toegestane/geblokkeerde tenants
 
@@ -83,7 +83,7 @@ Zie voor meer informatie over de syntaxis voor URL-vermeldingen de [URL-syntaxis
 
      of
 
-     - Zet de wisselknop naar rechts om de items zodanig te configureren dat deze nooit verloopt: ![Inschakelen](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+     - Zet de wisselknop naar rechts om de items zodanig te configureren dat deze nooit verloopt: ![Inschakelen](../../media/scc-toggle-on.png).
 
    - **Optionele opmerking**: Voer een beschrijvende tekst voor de vermeldingen in.
 
@@ -111,7 +111,7 @@ Klik op **filter**. Configureer de volgende instellingen in de **gefilterde** fl
 
 - **Actie**: Selecteer **toestaan**, **blokkeren** of beide.
 
-- **Verloopt nooit**: selecteren (uitschakelen ![ ](../../media/scc-toggle-off.png) ) of aan ( ![ wisselknop ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) ).
+- **Verloopt nooit**: selecteren: uit- ![ ](../../media/scc-toggle-off.png) of aan: in- ![ /uitschakelen ](../../media/scc-toggle-on.png)
 
 - **Laatst bijgewerkt**: Selecteer een begindatum (**van**), een einddatum (**en**) of beide.
 
@@ -141,11 +141,11 @@ U kunt de URL-waarde zelf niet wijzigen. In plaats daarvan moet u de vermelding 
 
      of
 
-     - Schuif de wisselknop naar rechts om het item zo te configureren dat het nooit verloopt: ![Inschakelen](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+     - Schuif de wisselknop naar rechts om het item zo te configureren dat het nooit verloopt: ![Inschakelen](../../media/scc-toggle-on.png).
 
    - **Optionele opmerking**: Typ een beschrijvende tekst voor de vermelding.
 
-5. Klik op **Opslaan** wanneer u gereed bent.
+5. Wanneer u gereed bent, klikt u op **Opslaan**.
 
 ## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Met behulp van het compliance-beveiligings & voor het verwijderen van vermeldingen uit de lijst Tenant toestaan/blokkeren
 

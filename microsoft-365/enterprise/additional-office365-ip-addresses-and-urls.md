@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: "Overzicht: de nieuwe webservice van het eindpunt biedt geen klein aantal eindpunten voor specifieke scenario's."
 hideEdit: true
-ms.openlocfilehash: b94bd187eb0e450a2a85d4d156472e1f96420261
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 8e1d464a4bb24594ae783a8e1e272050b6c038bb
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558174"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682851"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Extra eindpunten die niet zijn opgenomen in het Office 365 IP Address en de webservice URL-webservice
 
@@ -74,7 +74,7 @@ Naast de DNS zijn deze allemaal optioneel voor de meeste klanten, tenzij u een s
 
 [Office 365-eindpunten beheren](managing-office-365-endpoints.md)
   
-[Verbindingsproblemen met Office 365 oplossen](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d.aspx)
+[Microsoft 365-connectiviteit bewaken](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
   
 [Clientconnectiviteit](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   

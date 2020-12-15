@@ -8,6 +8,8 @@
       href: work-with-topics.md
     - name: Gebruikersmachtigingen verlenen voor het onderwerp centrum
       href: give-user-permissions-to-the-topic-center.md
+    - name: Uw omgeving voorbereiden
+      href: topic-experiences-get-ready.md
 - name: Installeren en beheren
   items:
     - name: Onderwerp beveiliging
@@ -24,3 +26,7 @@
       href: topic-experiences-user-permissions.md
     - name: De naam van het topic Center wijzigen
       href: topic-experiences-administration.md
+- name: Ingebruikname
+  items:
+    - name: Aan de slag
+      href: topics-adoption-getstarted.md

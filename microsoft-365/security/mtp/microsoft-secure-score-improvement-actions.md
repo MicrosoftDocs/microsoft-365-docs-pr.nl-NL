@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 02c79edaa05e7903a8797cdf83c18a4ce69716dc
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 8ebfe5746a69cc0161c38f0467954fabb3839240
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920534"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683341"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Evalueer uw beveiligings Posture met Microsoft Secure Score
 
@@ -36,10 +36,8 @@ Secure Score van Microsoft is een afmeting van de beveiligings Posture van een o
 Voor de gegevens die u nodig hebt om sneller te kunnen werken, zijn Microsoft-verduidelijkings acties ingedeeld in de volgende groepen:
 
 * Identiteit (Azure Active Directory-accounts & rollen)
-* Gegevens (geen stappen voor de verbetering van nu)
 * Apparaat (Microsoft Defender for Endpoint, genaamd [Microsoft Secure score voor apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
 * App (e-mail en Cloud-apps, waaronder Office 365 en de beveiligingsupdates van Microsoft Cloud apps)
-* Infrastructuur (geen stappen voor verbetering)
 
 >[!NOTE]
 >In de recente release van Microsoft Secure Score is een verbeterd score model vrijgegeven waarmee Microsoft Secure Score tijdelijk niet compatibel is met identiteitsbeveiliging en de Graph API. [Details weergeven](microsoft-secure-score-whats-new.md)
@@ -56,9 +54,9 @@ Als u de knop **opnemen** naast de Score selecteert, kunt u ook verschillende we
 
 Hier volgen een aantal scores die u aan uw weergave van uw algemene score kunt toevoegen, zodat u een beeld krijgt van uw algemene score:
 
-- **Geplande Score** : geschatte Score weergeven wanneer geplande acties zijn voltooid
-- **Huidige licentie** : Score weergeven die kan worden behaald met uw huidige Microsoft-licentie
-- **Behaald bare Score** : Toon Score die kan worden behaald met uw Microsoft-licenties en huidige risico acceptatie
+- **Geplande Score**: geschatte Score weergeven wanneer geplande acties zijn voltooid
+- **Huidige licentie**: Score weergeven die kan worden behaald met uw huidige Microsoft-licentie
+- **Behaald bare Score**: Toon Score die kan worden behaald met uw Microsoft-licenties en huidige risico acceptatie
 
 In deze weergave ziet u hoe deze eruitziet als u alle mogelijke score weergaven hebt opgenomen:
 
@@ -114,7 +112,7 @@ In de sectie **implementatie** worden alle vereisten weergegeven, stapsgewijs de
 
 Voor de vereisten gelden alle licenties die moeten worden verkregen of acties die moeten worden voltooid voordat de actie actie moet worden verholpen. Zorg ervoor dat uw licentie voldoende stoelen bevat voor het voltooien van de verbeterings actie en dat deze licenties gelden voor de noodzakelijke gebruikers.  
 
-## <a name="we-want-to-hear-from-you"></a>We horen graag van u
+## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
 Als u problemen ondervindt, kunt u het ons laten weten dat u de community [beveiliging, Privacy & naleving](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . We volgen de community en bieden hulp.
 
@@ -123,4 +121,4 @@ Als u problemen ondervindt, kunt u het ons laten weten dat u de community [bevei
 - [Overzicht van Microsoft Secure Score](microsoft-secure-score.md)
 - [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
-- [Wat is er nieuw](microsoft-secure-score-whats-new.md)
+- [Nieuwe functies](microsoft-secure-score-whats-new.md)

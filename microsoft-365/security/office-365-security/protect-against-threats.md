@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 description: Beheerders kunnen informatie lezen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe u deze voor uw organisatie gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 646fff4550de2e07342c0fef04952846db65a8eb
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 3eec37f01bb39dda9f767ad32be96bbff43a2ee0
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615118"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683245"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -179,11 +179,11 @@ Voor het instellen van [veilige koppelingen](atp-safe-links.md), controleert u d
 
 1. Kies in het [beveiligings & nalevings centrum](https://protection.office.com)de optie veilige koppelingen voor het beleid voor **bedreigings beheer** \>  \> en klik op **globale instellingen** en configureer de volgende instellingen:
 
-   - Controleer de optie **veilige koppelingen gebruiken in: Office 365-toepassingen** is ingeschakeld: inschakelen ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - Controleer de optie **veilige koppelingen gebruiken in: Office 365-toepassingen** is ingeschakeld: inschakelen ![ ](../../media/scc-toggle-on.png) .
    - **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken**: Schakel deze instelling uit om de gebruikers klikken te volgen: ![ uit-/uitschakelen ](../../media/scc-toggle-off.png) .
-   - **Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL**: Controleer of de optie is ingeschakeld: ingeschakeld ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL**: Controleer of de optie is ingeschakeld: ingeschakeld ![ ](../../media/scc-toggle-on.png) .
 
-   Klik op **Opslaan** wanneer u gereed bent.
+   Wanneer u gereed bent, klikt u op **Opslaan**.
 
 2. Terug naar de hoofdpagina voor veilige koppelingen: Klik op **maken**.
 
@@ -216,7 +216,7 @@ Werkbelastingen, zoals SharePoint, OneDrive en teams, zijn ontwikkeld voor samen
 
 1. Kies in het [beveiligings & compliance](https://protection.office.com)de optie voor het oplossen van **bedreigings beheer** \> **beleidsregels** voor \> **veilige bijlagen** en klik vervolgens op **algemene instellingen**.
 
-2. Controleer of de wisselknop **ATP voor SharePoint, OneDrive en Microsoft teams in-of uitschakelen** aan de rechterkant: inschakelen ![ ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) en klik vervolgens op **Opslaan**.
+2. Controleer of de wisselknop **ATP voor SharePoint, OneDrive en Microsoft teams in-of uitschakelen** aan de rechterkant: inschakelen ![ ](../../media/scc-toggle-on.png) en klik vervolgens op **Opslaan**.
 
 3. Bekijk (en, indien nodig, bewerken) het beleid voor [veilige bijlagen](set-up-atp-safe-attachments-policies.md) van uw organisatie en het [beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md).
 

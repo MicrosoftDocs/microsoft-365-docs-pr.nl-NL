@@ -17,19 +17,19 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het definiëren van beleidsregels voor veilige bijlagen om uw organisatie tegen kwaadwillende bestanden in een e-mail te beschermen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a14f5a22795fc08b76165466d8e44ee38d8a2d81
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 9105e7ed9e9bc376b3d86cd846d8c1d6eae8deea
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572634"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682902"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels voor veilige bijlagen instellen in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten met [Microsoft Defender voor Office 365](office-365-atp.md). Als u een thuisgebruiker bent die op zoek bent naar informatie over het scannen van bijlagen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over het scannen van bijlagen in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Veilige bijlagen is een functie in [Microsoft Defender voor Office 365](office-365-atp.md) waarbij een virtuele omgeving wordt gebruikt voor het controleren van bijlagen in inkomende e-mailberichten nadat ze zijn gescand door [beveiliging tegen malware in Exchange Online Protection (EOP)](anti-malware-protection.md), maar voordat ze worden bezorgd voor geadresseerden. Zie voor meer informatie [veilige bijlagen in Microsoft Defender voor Office 365](atp-safe-attachments.md).
 
@@ -57,9 +57,9 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **veilige bijlagen** wilt gaan, gebruikt u <https://protection.office.com/safeattachmentv2> .
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
   - Als u beleidsregels voor veilige bijlagen wilt maken, wijzigen en verwijderen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
   - Voor alleen-lezen toegang tot beveiligingsbeleid voor veilige bijlagen moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
@@ -67,8 +67,8 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
   **Opmerkingen**:
 
-  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
-  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Zie [instellingen voor veilige bijlagen](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)voor de aanbevolen instellingen voor beleidsregels voor veilige bijlagen.
 
@@ -78,7 +78,7 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 Als u een aangepast veilig bijlagebeleid maakt in de beveiligings & nalevings centrum, wordt de veilige bijlage regel en het bijbehorende veilige bijlage beleid tegelijk gemaakt met dezelfde naam voor beide.
 
-1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **veilige bijlagen** voor het beleid voor risicobeheer.
+1. Ga in het beveiligings & compliance naar  \>  \> **veilige bijlagen** voor het beleid voor risicobeheer.
 
 2. Klik op de pagina met **veilige bijlagen** op **maken**.
 
@@ -140,7 +140,7 @@ Als u een aangepast veilig bijlagebeleid maakt in de beveiligings & nalevings ce
 
 ## <a name="use-the-security--compliance-center-to-view-safe-attachments-policies"></a>Het Beveiligingscentrum voor beveiligings & gebruiken om beleid voor veilige bijlagen weer te geven
 
-1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **veilige bijlagen** voor het beleid voor risicobeheer.
+1. Ga in het beveiligings & compliance naar  \>  \> **veilige bijlagen** voor het beleid voor risicobeheer.
 
 2. Selecteer een beleid in de lijst op de pagina **veilige bijlagen** en klik erop (niet het selectievakje inschakelen).
 
@@ -148,7 +148,7 @@ Als u een aangepast veilig bijlagebeleid maakt in de beveiligings & nalevings ce
 
 ## <a name="use-the-security--compliance-center-to-modify-safe-attachments-policies"></a>Het Beveiligingscentrum voor beveiligings & gebruiken om beleid voor veilige bijlagen te wijzigen
 
-1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **veilige bijlagen** voor het beleid voor risicobeheer.
+1. Ga in het beveiligings & compliance naar  \>  \> **veilige bijlagen** voor het beleid voor risicobeheer.
 
 2. Selecteer een beleid in de lijst op de pagina **veilige bijlagen** en klik erop (niet het selectievakje inschakelen).
 
@@ -160,13 +160,13 @@ Zie de volgende secties als u een beleid wilt in-of uitschakelen of de prioritei
 
 ### <a name="enable-or-disable-safe-attachments-policies"></a>Beleidsregels voor veilige bijlagen in-of uitschakelen
 
-1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **veilige bijlagen** voor het beleid voor risicobeheer.
+1. Ga in het beveiligings & compliance naar  \>  \> **veilige bijlagen** voor het beleid voor risicobeheer.
 
 2. Let op de waarde in de kolom **status** :
 
    - Zet de wisselknop naar links ![Beleid uitschakelen](../../media/scc-toggle-off.png) om het beleid uit te schakelen.
 
-   - De wisselknop naar rechts verplaatsen ![Beleid inschakelen](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) het beleid in te schakelen.
+   - De wisselknop naar rechts verplaatsen ![Beleid inschakelen](../../media/scc-toggle-on.png) het beleid in te schakelen.
 
 ### <a name="set-the-priority-of-safe-attachments-policies"></a>De prioriteit voor beleidsregels voor veilige bijlagen instellen
 
@@ -180,7 +180,7 @@ Beleidsregels voor veilige bijlagen worden weergegeven in de volgorde waarin ze 
 
 Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden verplaatsen in de lijst (u kunt het **Prioriteit** snummer in het Beveiligings en compliancecentrum niet rechtstreeks wijzigen).
 
-1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **veilige bijlagen** voor het beleid voor risicobeheer.
+1. Ga in het beveiligings & compliance naar  \>  \> **veilige bijlagen** voor het beleid voor risicobeheer.
 
 2. Selecteer een beleid in de lijst op de pagina **veilige bijlagen** en klik erop (niet het selectievakje inschakelen).
 
@@ -198,7 +198,7 @@ Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden
 
 ## <a name="use-the-security--compliance-center-to-remove-safe-attachments-policies"></a>Het Beveiligingscentrum voor beveiligings & gebruiken om beleid voor veilige bijlagen te verwijderen
 
-1. Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **veilige bijlagen** voor het beleid voor risicobeheer.
+1. Ga in het beveiligings & compliance naar  \>  \> **veilige bijlagen** voor het beleid voor risicobeheer.
 
 2. Selecteer een beleid in de lijst op de pagina **veilige bijlagen** en klik erop (niet het selectievakje inschakelen).
 
@@ -227,7 +227,7 @@ Het maken van een beleid voor veilige bijlagen in PowerShell is een procedure di
 
 - U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor veilige bijlagen in PowerShell die niet beschikbaar zijn in het beveiligings & nalevings centrum voordat u het beleid hebt gemaakt:
   - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld_ `$false` in de **nieuwe SafeAttachmentRule-** cmdlet).
-  - De prioriteit van het beleid instellen voor het maken _Priority_ van de _\<Number\>_ **nieuwe SafeAttachmentRule-** cmdlet (prioriteit).
+  - De prioriteit van het beleid instellen voor het maken van de _\<Number\>_ **nieuwe SafeAttachmentRule-** cmdlet (prioriteit).
 
 - Een nieuw beleid voor veilige bijlagen dat u in PowerShell maakt, is niet zichtbaar in het beveiligings & nalevings centrum tot u het beleid aan een veilige regel regel toewijst.
 
@@ -438,7 +438,7 @@ Zie [Remove-SafeAttachmentRule](https://docs.microsoft.com/powershell/module/exc
 
 Voer een van de volgende stappen uit om te controleren of u het beleid voor veilige bijlagen hebt gemaakt, gewijzigd of verwijderd:
 
-- Ga in het beveiligings & compliance naar **Threat management** \> **Policy** \> **veilige bijlagen** voor het beleid voor risicobeheer. Controleer de lijst met beleidsregels, de **status** waarden en de waarden van de **prioriteit** . Als u meer informatie wilt bekijken, selecteert u het beleid in de lijst en bekijkt u de details in de vlucht.
+- Ga in het beveiligings & compliance naar  \>  \> **veilige bijlagen** voor het beleid voor risicobeheer. Controleer de lijst met beleidsregels, de **status** waarden en de waarden van de **prioriteit** . Als u meer informatie wilt bekijken, selecteert u het beleid in de lijst en bekijkt u de details in de vlucht.
 
 - In Exchange Online PowerShell of Exchange Online Protection PowerShell vervangt u \<Name\> de naam van het beleid of de regel door de volgende opdracht uit te voeren en de instellingen te controleren:
 

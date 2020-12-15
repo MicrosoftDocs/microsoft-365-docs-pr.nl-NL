@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 183435596706855479c49abc34358c85dccb0da4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 39f6be70ad7a611f9919bb0529e8c8ed7f9dc339
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846506"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683354"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
@@ -74,19 +74,19 @@ U kunt de weergave Details van onderzoek gebruiken om eerdere, huidige en activi
 
 ![Details van onderzoek](../../media/mtp-air-investdetails.png)
 
-In de weergave Details van onderzoek kunt u informatie weergeven over de tabbladen **onderzoek grafiek** , **waarschuwingen** , **apparaten** , **identiteiten** , **belangrijke bevindingen** , **entiteiten** , **Logboeken** en **acties in behandeling** , zoals in de volgende tabel wordt beschreven.
+In de weergave Details van onderzoek kunt u informatie weergeven over de tabbladen **onderzoek grafiek**, **waarschuwingen**, **apparaten**, **identiteiten**, **belangrijke bevindingen**, **entiteiten**, **Logboeken** en **acties in behandeling** , zoals in de volgende tabel wordt beschreven.
 
-|Tabblad    |Beschrijving |
+| Tabblad | Beschrijving |
 |--------|--------|
-|Onderzoek grafiek    |Geeft een visuele voorstelling van het onderzoek. Geeft een voorbeeld weer van de weergave van de bedreigingen en lijsten<br/>U kunt op een item in de grafiek klikken om meer informatie weer te geven. Als u bijvoorbeeld op het pictogram **bedreigingen gevonden** klikt, gaat u naar het tabblad **belangrijkste bevindingen** . |
-|Waarschuwingen |Hier vindt u een overzicht van de waarschuwingen bij het onderzoek. Waarschuwingen zijn afkomstig van functies voor bedreigingsbeveiliging op de computer van een gebruiker, in Office-apps, de beveiliging van Cloud apps en andere functies van Microsoft 365 Threat Protection.|
-|Apparaten|Lijst met machines die in het onderzoek zijn opgenomen, samen met het herstelniveau.|
-|Belangrijkste bevindingen   |Dit bevat een overzicht van de resultaten van het onderzoek samen met de status en de beschikbare acties of in behandeling. Op dit tabblad kunt u acties in behandeling voor apparaten en identiteiten goedkeuren.|
-|Onderzoeksinstellingen   |Hier vindt u een lijst van gebruikersactiviteiten, bestanden, processen, services, Stuurprogramma's, IP-adressen, en permanente methoden voor het onderzoek, en over de status van de uitgevoerde acties.|
-|Inloggen    |Een gedetailleerde weergave van alle stappen die tijdens het onderzoek zijn verricht, en de status.|
-|Acties in behandeling    |Een lijst met items die moeten worden goedgekeurd om te worden voortgezet.|
+| **Onderzoek grafiek**   | Geeft een visuele voorstelling van het onderzoek. Geeft een voorbeeld weer van de weergave van de bedreigingen en lijsten<br/>U kunt op een item in de grafiek klikken om meer informatie weer te geven. Als u bijvoorbeeld op het pictogram **bedreigingen gevonden** klikt, gaat u naar het tabblad **belangrijkste bevindingen** . |
+| **Waarschuwingen**    | Hier vindt u een overzicht van de waarschuwingen bij het onderzoek. Waarschuwingen kunnen afkomstig zijn van bedreigingen voor beveiliging op de computer van een gebruiker, in Office-apps, de beveiliging van Cloud apps en andere functies van Microsoft 365.|
+| **Apparaten** | Lijst met machines die in het onderzoek zijn opgenomen, samen met het herstelniveau.|
+| **Belangrijkste bevindingen**  | Dit bevat een overzicht van de resultaten van het onderzoek samen met de status en de beschikbare acties of in behandeling. Op dit tabblad kunt u acties in behandeling voor apparaten en identiteiten goedkeuren.|
+| **Onderzoeksinstellingen**  | Hier vindt u een lijst van gebruikersactiviteiten, bestanden, processen, services, Stuurprogramma's, IP-adressen, en permanente methoden voor het onderzoek, en over de status van de uitgevoerde acties.|
+|**Inloggen**    | Een gedetailleerde weergave van alle stappen die tijdens het onderzoek zijn verricht, en de status.|
+| **Acties in behandeling** | Een lijst met items die moeten worden goedgekeurd om te worden voortgezet.|
 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Acties met betrekking tot een automatisch onderzoek en antwoord goedkeuren of afwijzen](mtp-autoir-actions.md)
-
+- [Herstelacties bekijken](mtp-remediation-actions.md)

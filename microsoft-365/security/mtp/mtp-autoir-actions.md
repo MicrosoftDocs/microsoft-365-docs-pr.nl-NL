@@ -20,13 +20,13 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 09/16/2020
-ms.openlocfilehash: ed0b9afa576f65d33cd9a49dfacd96ffaf173d28
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.date: 12/09/2020
+ms.openlocfilehash: b34f4a532571d6215500ab2bec022489fd462d0f
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846530"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683358"
 ---
 # <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Acties die in behandeling zijn, goedkeuren of weigeren na een geautomatiseerd onderzoek
 
@@ -44,7 +44,7 @@ Wanneer een geautomatiseerd onderzoek wordt uitgevoerd, kan dit resulteren in ee
 Acties die in behandeling zijn, kunnen worden gecontroleerd en goedgekeurd met behulp van het [Onderhoudscentrum](#review-a-pending-action-in-the-action-center) of de [weergave Details van onderzoek](#review-a-pending-action-in-the-investigation-details-view).
 
 > [!NOTE]
-> U moet de [juiste machtigingen](mtp-action-center.md#required-permissions-for-action-center-tasks) hebben om herstelacties goed te keuren of te weigeren.
+> U moet de [juiste machtigingen](mtp-action-center.md#required-permissions-for-action-center-tasks) hebben om herstelacties goed te keuren of te weigeren. Zie voor meer informatie de [vereisten voor automatisch onderzoek en antwoord in Microsoft 365 Defender](mtp-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender).
 
 ## <a name="review-a-pending-action-in-the-action-center"></a>Een actie in behandeling nakijken in het Actiecentrum
 
@@ -62,7 +62,7 @@ Acties die in behandeling zijn, kunnen worden gecontroleerd en goedgekeurd met b
 
 ![Details van onderzoek](../../media/mtp-air-investdetails.png)
 
-1. Selecteer op de pagina [Details van onderzoek](mtp-autoir-results.md) het tabblad **acties in behandeling** (of **acties** ). Items die in behandeling zijn, worden hier weergegeven.
+1. Selecteer op de pagina [Details van onderzoek](mtp-autoir-results.md) het tabblad **acties in behandeling** (of **acties**). Items die in behandeling zijn, worden hier weergegeven.
 
 2. Selecteer een item in de lijst en kies vervolgens **goedkeuren** of **weigeren**.
 

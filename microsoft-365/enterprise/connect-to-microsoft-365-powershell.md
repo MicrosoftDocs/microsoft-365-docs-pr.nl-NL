@@ -35,23 +35,23 @@ Er zijn twee versies van de PowerShell-module die je kunt gebruiken om verbindin
 - Azure Active Directory PowerShell voor Graph, waarvan de cmdlets *AzureAD* in de naam hebben
 - Microsoft Azure Active Directory-module voor Windows PowerShell, waarvan cmdlets *MSol* in de naam hebben
 
-Momenteel vervangt de module Azure Active Directory PowerShell voor Graph nog niet alle functionaliteit van de Microsoft Azure Active Directory-module voor Windows PowerShell voor het beheer van gebruikers, groepen en licenties. In sommige gevallen moet je beide versies gebruiken. Je kunt beide versies veilig op dezelfde computer installeren.
+Momenteel vervangt de module Azure Active Directory PowerShell voor Graph nog niet alle functionaliteit van de Microsoft Azure Active Directory-module voor Windows PowerShell voor het beheer van gebruikers, groepen en licenties. In sommige gevallen moet u beide versies gebruiken. U kunt beide versies op dezelfde computer veilig installeren.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 
 **Besturingssysteem**
 
 Je moet een 64-bits versie van Windows gebruiken. Ondersteuning voor de 32-bits versie van de Microsoft Azure Active Directory-module voor Windows PowerShell is in 2014 beëindigd.
 
-Je kunt de volgende versies van Windows gebruiken:
+U kunt de volgende versies van Windows gebruiken:
     
-  - Windows 10, Windows 8.1, Windows 8 of Windows 7 Service Pack 1 (SP1) 
+  - Windows 10, Windows 8.1, Windows 8, of Windows 7 Service Pack 1 (SP1) 
     
-  - Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012 of Windows Server 2008 R2 SP1
+  - Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, of Windows Server 2008 R2 SP1
 
 >[!Note]
->Voor Windows 8.1, Windows 8, Windows 7 Service Pack 1 (SP1), Windows Server 2012 R2, Windows Server 2012 en Windows Server 2008 R2 SP1 kun je het [Windows Management Framework 5.1](https://www.microsoft.com/download/details.aspx?id=54616) downloaden en installeren.
+>Voor Windows 8,1, Windows 8, Windows 7 Service Pack 1 (SP1), Windows Server 2012 R2, Windows Server 2012 en Windows Server 2008 R2 SP1 kunt u het [Windows Management Framework 5.1](https://www.microsoft.com/download/details.aspx?id=54616)downloaden en installeren.
 
 **PowerShell**
 
@@ -63,9 +63,9 @@ Je kunt de volgende versies van Windows gebruiken:
 >Deze procedures zijn bedoeld voor gebruikers die lid zijn van een Microsoft 365-beheerdersrol. Raadpleeg [Over beheerdersrollen](https://go.microsoft.com/fwlink/p/?LinkId=532367) voor meer informatie.
 
 
-## <a name="connect-with-the-azure-active-directory-powershell-for-graph-module"></a>Maak verbinding met de Azure Active Directory PowerShell voor Graph-module.
+## <a name="connect-with-the-azure-active-directory-powershell-for-graph-module"></a>Maak verbinding met de Windows PowerShell voor Graph-module van Microsoft Azure Active Directory.
 
-Opdrachten in de module Azure Active Directory PowerShell voor Graph hebben *AzureAD* in de naam van de cmdlet. Je kunt de module [Azure Active Directory PowerShell voor Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) of [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps) installeren.
+Opdrachten in de module Azure Active Directory PowerShell voor Graph hebben *AzureAD* in de naam van de cmdlet. U kunt de module [ Azure Active Directory PowerShell voor Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) of [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps) installeren.
 
 Voer de volgende stappen uit om de module te installeren en verbinding te maken met je Microsoft 365-abonnement voor procedures waarvoor de nieuwe cmdlets in de module Azure Active Directory PowerShell voor Graph zijn vereist.
 
@@ -144,7 +144,7 @@ Als je meervoudige verificatie gebruikt, volg je de instructies om aanvullende v
 
 ### <a name="how-do-you-know-it-worked"></a>Hoe weet ik dat het werkt?
 
-Als je geen foutmelding krijgt, ben je verbonden. Een snelle test is het uitvoeren van een Microsoft 365-cmdlet, bijvoorbeeld **Get-MsolUser** , en bekijk de resultaten.
+Als je geen foutmelding krijgt, ben je verbonden. Een snelle test is het uitvoeren van een Microsoft 365-cmdlet, bijvoorbeeld **Get-MsolUser**, en bekijk de resultaten.
   
 Als er een foutbericht wordt weergegeven, controleer je de volgende problemen:
   
@@ -159,17 +159,17 @@ Als er een foutbericht wordt weergegeven, controleer je de volgende problemen:
   - Zie voor Windows 10, Windows 8.1 en Windows 8 [.NET Framework 3.5 installeren in Windows 10, Windows 8.1 en Windows 8](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10)
 
   
-- **Jouw versie van de module Microsoft Azure Active Directory voor Windows PowerShell is mogelijk verouderd.** Als je dit wilt controleren, voer je de volgende opdracht uit in PowerShell voor Microsoft 365 of de Microsoft Azure Active Directory-module voor Windows PowerShell:
+- **Uw versie van de module Microsoft Azure Active Directory voor Windows PowerShell is wellicht verouderd.** Als u dit wilt controleren, voert u de volgende opdracht uit in PowerShell voor Microsoft 365 of de Microsoft Azure Active Directory-module voor Windows PowerShell:
     
   ```powershell
   (Get-Item C:\Windows\System32\WindowsPowerShell\v1.0\Modules\MSOnline\Microsoft.Online.Administration.Automation.PSModule.dll).VersionInfo.FileVersion
   ```
 
-    Als het geretourneerde versienummer lager is dan de waarde *1.0.8070.2* , verwijder je de Microsoft Azure Active Directory-module voor Windows PowerShell en installeer je deze vanuit [Stap 1](#step-1-install-the-required-software) hierboven.
+    Als het geretourneerde versienummer lager is dan de waarde *1.0.8070.2*, verwijder je de Microsoft Azure Active Directory-module voor Windows PowerShell en installeer je deze vanuit [Stap 1](#step-1-install-the-required-software) hierboven.
 
-- **Als je een verbindingsfoutbericht krijgt** , raadpleeg je [Foutbericht 'Connect-MsolService: Exception of type was thrown'](https://go.microsoft.com/fwlink/p/?LinkId=532377).
+- **Als je een verbindingsfoutbericht krijgt**, raadpleeg je [Foutbericht 'Connect-MsolService: Exception of type was thrown'](https://go.microsoft.com/fwlink/p/?LinkId=532377).
     
-- **Als je de foutmelding 'Get-Item: Cannot find path' krijgt** , voer je de volgende opdracht uit:
+- **Als je de foutmelding 'Get-Item: Cannot find path' krijgt**, voer je de volgende opdracht uit:
 
 
    ```powershell

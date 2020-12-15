@@ -20,21 +20,20 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: a41e05f54a8ba94752c6df91628a2200367ac0f3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7fe5be065ee45700a1f08a39c8050757c3843f7b
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843838"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682569"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-
 Secure Score van Microsoft is een afmeting van de beveiligings Posture van een organisatie, met een hoger nummer voor het uitvoeren van extra verbeterings acties. U vindt het https://security.microsoft.com/securescore in [microsoft 365 Beveiligingscentrum](overview-security-center.md).
 
-Door de aanbevelingen van de Secure score te volgen, kunt u uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-Beveiligingscentrum kunnen organisaties de beveiliging van hun identiteit, gegevens, apps, apparaten en infrastructuur van Microsoft 365 volgen en gebruiken.
+Door de aanbevelingen van de Secure score te volgen, kunt u uw organisatie beschermen tegen bedreigingen. Vanuit een gecentraliseerd dashboard in het Microsoft 365-Beveiligingscentrum kunnen organisaties de beveiliging van hun identiteit, apps en apparaten met Microsoft 365 volgen en gebruiken.
 
 Secure Score helpt organisaties:  
 
@@ -120,7 +119,7 @@ Met alleen-lezen toegang kunt u niet de status of notities voor een actie voor v
 
 Secure Score van Microsoft is een numerieke samenvatting van uw beveiligings Posture op basis van systeemconfiguraties, gebruikersgedrag en andere beveiligings maten. Het maakt niet uit hoe waarschijnlijk uw systeem of gegevens worden geschonden. In plaats daarvan wordt aangegeven in welke mate u beveiligings besturing in uw Microsoft-omgeving hebt aangenomen waarmee u het risico van schending kunt compenseren. Geen enkele online dienst is volledig gekraakt tegen beveiligingsproblemen en de Secure Score mag niet worden geïnterpreteerd als garantie tegen schending van de beveiliging.
 
-## <a name="we-want-to-hear-from-you"></a>We horen graag van u
+## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
 Als u problemen ondervindt, kunt u het ons laten weten dat u de community [beveiliging, Privacy & naleving](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . We volgen de community en bieden hulp.
 
@@ -129,4 +128,4 @@ Als u problemen ondervindt, kunt u het ons laten weten dat u de community [bevei
 - [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
 - [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
-- [Wat is er nieuw](microsoft-secure-score-whats-new.md)
+- [Nieuwe functies](microsoft-secure-score-whats-new.md)

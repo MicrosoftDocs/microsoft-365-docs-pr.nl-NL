@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Beheerders krijgen de machtigingen die beschikbaar zijn in het beveiligings & nalevings centrum in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff1aec2b513b90cf64007ce3b955ca11b9faf90b
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 6c01e70dd693b313ca369901a2d6475961510b6e
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663617"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683257"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>Machtigingen in het beveiligings- en compliancecentrum
 
@@ -59,7 +59,7 @@ Als u wilt weten hoe u toegang verleent tot de beveiligings & nalevings centrum,
 |Rollen groep|Beschrijving|Standaardrollen toegewezen|
 |---|---|---|
 |**Communicatie naleving**|Hiermee krijgt u toegang tot alle functies voor communicatie naleving: beheerder, analist, onderzoeker en viewer.|Case beheer <p> Beheerder van communicatie naleving <p> Analyse van communicatie naleving <p> Communicatiebeleid voor compliance <p> Communicatie nalevings onderzoek <p> Viewer voor communicatie naleving <p> Feedback provider van gegevensclassificatie <p> View-Only zaak|
-|**Beheerders van communicatie naleving**|Beheerders van communicatie naleving waarmee u beleidsregels kunt maken en bewerken en algemene instellingen kunt definiëren.|Beheerder van ommunication compliance <p> Communicatiebeleid voor compliance|
+|**Beheerders van communicatie naleving**|Beheerders van communicatie naleving waarmee u beleidsregels kunt maken en bewerken en algemene instellingen kunt definiëren.|Beheerder van communicatie naleving <p> Communicatiebeleid voor compliance|
 |**Analisten voor communicatie compliance**|Analisten van communicatie naleving die beleids overeenkomsten kunnen onderzoeken, metagegevens van berichten bekijken en herstelacties uitvoeren.|Analyse van communicatie naleving <p> Communicatiebeleid voor compliance|
 |**Onderzoekers voor communicatie naleving**|Analisten van communicatie naleving waarmee beleids overeenkomsten kunnen worden onderzocht, de inhoud van het bericht kunnen worden bekeken en hersteltaken kunnen worden uitgevoerd.|Case beheer <p> Analyse van communicatie naleving <p> Communicatiebeleid voor compliance <p> Communicatie nalevings onderzoek <p> Feedback provider van gegevensclassificatie <p> View-Only zaak|
 |**Viewers voor communicatie naleving**|Viewer voor communicatie naleving waarmee de beschikbare rapporten en widgets kunnen worden geopend.|Communicatiebeleid voor compliance <p> Viewer voor communicatie naleving|
@@ -89,7 +89,7 @@ Als u wilt weten hoe u toegang verleent tot de beveiligings & nalevings centrum,
 |**Medewerkers van privacybeleid**|Beheer de Inzender toegang voor aanvragen voor privacy management.|Permanente bijdrage van privacybeleid <p> Tijdelijke bijdrage van privacy-beheer|
 |**Privacyverklaring voor onderzoek**|Analisten van een oplossing voor privacybeleid waarmee u beleids overeenkomsten kunt onderzoeken, de inhoud van berichten kunt weergeven en herstelacties kunt uitvoeren.|Onderzoek naar privacy-beheer|
 |**Viewers voor privacyverklaring beheer**|Viewer van een oplossing voor privacy-beheer die toegang heeft tot de beschikbare dashboards en widgets.|Privacyverklaring voor beheer|
-|**Recordbeheer**|Leden kunnen record inhoud beheren en verwijderen.|RecordManagement|
+|**Recordbeheer**|Leden kunnen alle aspecten van recordbeheer configureren, inclusief Bewaar etiketten en depositie Beoordelingen.|RecordManagement <p> Bewaar beheer <p> Dispositie beheer|
 |**Revisor**|Leden kunnen de lijst met aanvragen alleen weergeven op de pagina eDiscovery-aanvragen in het Beveiligingscentrum beveiligings &. Ze kunnen geen eDiscovery-zaak maken, openen of beheren. Het primaire doel van deze groep is de mogelijkheid te bieden dat leden gegevens kunnen bekijken en openen in [Advanced eDiscovery (Classic)](../../compliance/office-365-advanced-ediscovery.md) (ook wel *Advanced eDiscovery v1*). <p> Deze groep heeft de meest beperkte eDiscovery-gerelateerde machtigingen. <p> **Opmerking:** Momenteel hebben gebruikers die lid zijn van de gegevensbeheerderrol, geen toegang tot gegevens in [Advanced eDiscovery in Microsoft 365](../../compliance/overview-ediscovery-20.md) (ook wel *Advanced eDiscovery v2* genoemd). Als u leden wilt toevoegen aan een zaak in Advanced eDiscovery v2, zodat ze aanvraaggegevens kunnen bekijken, moet een gebruiker lid zijn van de functiegroep eDiscovery-beheerder.|Gereviseerd|
 |**Beveiligingsbeheerder**|Leden hebben toegang tot een aantal beveiligingsfuncties van identiteits beschermings centrum, compatibiliteit met geprivilegieerde identiteiten, monitoring Microsoft 365-service status en beveiliging & nalevings centrum. <p> Standaard lijken deze rollen groep geen leden te hebben. De rol Beveiligingsbeheerder van Azure Active Directory is echter toegewezen aan deze rollen groep. Deze rollen groep neemt daarom de mogelijkheden en het lidmaatschap van de beveiligingsrol beveiligingsbeheerder uit Azure Active Directory. <p> Als u machtigingen centraal wilt beheren, kunt u groepsleden toevoegen en verwijderen in het Azure Active Directory-Beheercentrum. Zie [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)voor meer informatie. Als u deze rollen groep in het beveiligings & nalevings centrum bewerkt (lidmaatschap of rollen), zijn deze wijzigingen alleen van toepassing op de beveiligings & nalevings centrum en niet voor andere services. <p> Deze rolgroep bevat alle alleen-lezen machtigingen van de rol van beveiligings lezer, plus een aantal extra beheerdersmachtigingen voor dezelfde services: Azure Information Protection, Identity Protection Center, Microsoft 365-service status en beveiliging & nalevings centrum.|Controlelogboeken <p> Apparaatbeheer <p> DLP-beleid voor naleving <p> IB-nalevings beheer <p> Waarschuwingen beheren <p> Quarantaine <p> Beveiligingsbeheerder <p> De beheerder van het vertrouwelijkheids label <p> Label bijdrage <p> Label Manager <p> Label lezer <p> Controlelogboeken View-Only <p> Apparaten beheren in View-Only <p> DLP-nalevings beheer View-Only <p> View-Only IB-beheer voor naleving <p> View-Only waarschuwingen beheren|
 |**Beveiligings operator**|Leden kunnen beveiligingswaarschuwingen beheren en ook rapporten en instellingen van beveiligingsfuncties weergeven.|Zoekopdracht voor compliance <p> Waarschuwingen beheren <p> Beveiligings lezer <p> Label bijdrage <p> Label lezer <p> Controlelogboeken View-Only <p> Apparaten beheren in View-Only <p> DLP-nalevings beheer View-Only <p> View-Only IB-beheer voor naleving <p> View-Only waarschuwingen beheren|
@@ -171,7 +171,7 @@ Houd er rekening mee dat de volgende rollen niet standaard zijn toegewezen aan d
 |**Gegevensclassificatie lijst viewer**|Bekijk de lijst met bestanden in inhouds Verkenner.|Inhouds Verkenner lijst viewer|
 |**Gegevens onderzoek beheer**|Het maken, bewerken, verwijderen en beheren van toegang tot gegevens onderzoek.|Beheerder voor naleving <p> Gegevens onderzoeker|
 |**Apparaatbeheer**|Instellingen en rapporten voor functies voor Apparaatbeheer weergeven en bewerken.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer <p> Beveiligingsbeheerder|
-|**Dispositie beheer**|Machtigingen beheren voor het openen van de handmatige vernietiging in de beveiligings & nalevings centrum.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving|
+|**Dispositie beheer**|Inhoud weergeven en actie ondernemen die het einde van de bewaarperiode heeft bereikt. <p> | Gegevensbeheerder voor naleving|
 |**DLP-beleid voor naleving**|Instellingen en rapporten voor preventie van gegevensverlies (DLP)-beleid bekijken en bewerken.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer <p> Beveiligingsbeheerder|
 |**Voeren**|Postvak en site-inhoud exporteren die het resultaat is van zoekopdrachten.|eDiscovery-Manager|
 |**Stellen**|Inhoud in postvakken, sites en openbare mappen in de wacht zetten. Wanneer het in de wachtstand staat, wordt een kopie van de inhoud opgeslagen op een veilige locatie. Inhouds eigenaren kunnen de oorspronkelijke inhoud nog steeds wijzigen of verwijderen.|Beheerder voor naleving <p> eDiscovery-Manager <p> Organisatiebeheer|
@@ -192,8 +192,8 @@ Houd er rekening mee dat de volgende rollen niet standaard zijn toegewezen aan d
 |**Tijdelijke bijdrage van privacy-beheer**|Wordt gebruikt voor toegang tot het privacy-beheer dossier als tijdelijke bijdrage.|Privacybeleid <p> Medewerkers van privacybeleid|
 |**Privacyverklaring voor beheer**|Wordt gebruikt voor toegang tot dashboards & widgets in oplossing voor privacy-beheer.|PrivacyManagement <p> Viewers voor privacyverklaring beheer|
 |**Quarantaine**|Hiermee kunt u gequarantinede e-mail weergeven en vrijgeven.|Quarantaine beheerder <p> Beveiligingsbeheerder <p> Organisatiebeheer|
-|**RecordManagement**|De configuratie en rapporten voor de functie voor record beheer weergeven en bewerken.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer <p> Recordbeheer|
-|**Bewaar beheer**|Bewaarbeleid beheren.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer|
+|**RecordManagement**|De configuratie van de functie voor recordbeheer weergeven en bewerken.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer <p> Recordbeheer|
+|**Bewaar beheer**|Beleidsregels voor bewaarbeleid, Bewaar etiketten en bewaar labels beheren.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer <p> Recordbeheer|
 |**Gereviseerd**|Gebruik Advanced eDiscovery voor het bijhouden, markeren, analyseren en testen van documenten die aan hen zijn toegewezen.|eDiscovery-Manager <p> Revisor|
 |**RMS ontsleutelen**|Met RMS beveiligde inhoud ontsleutelen bij het exporteren van zoekresultaten.|eDiscovery-Manager|
 |**Rollenbeheer**|Lidmaatschap van rollen groepen beheren en aangepaste Rolgroepen maken of verwijderen.|Organisatiebeheer|
@@ -214,6 +214,6 @@ Houd er rekening mee dat de volgende rollen niet standaard zijn toegewezen aan d
 |**View-only Compliance Management**|Bekijk de configuratie en rapporten voor de functie voor informatie barrières.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer <p> Beveiligingsbeheerder <p> Beveiligings operator <p> Beveiligings lezer|
 |**Alleen-lezen waarschuwingen beheren**|Bekijk de configuratie en rapporten voor de functie waarschuwingen beheren.|Beveiligingsbeheerder <p> Beveiligings operator <p> Beveiligings lezer <p> Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer|
 |**Geadresseerden voor alleen weergeven**|Informatie over gebruikers en groepen weergeven.|Beheerder van de mailflow <p> Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer|
-|**Record beheer alleen weergeven**|De configuratie en rapporten voor de functie voor record beheer weergeven.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer|
-|**Voorbeeld van Bewaar beheer**|Bekijk de configuratie en rapporten voor de functie Bewaar beheer.|Gegevensbeheerder voor naleving <p> Organisatiebeheer <p> Beheerder voor naleving|
+|**Record beheer alleen weergeven**|De configuratie van de functie voor recordbeheer weergeven.|Beheerder voor naleving <p> Gegevensbeheerder voor naleving <p> Organisatiebeheer|
+|**Voorbeeld van Bewaar beheer**|U kunt de configuratie van bewaarbeleid, Bewaar etiketten en bewaarbeleid bekijken.|Gegevensbeheerder voor naleving <p> Organisatiebeheer <p> Beheerder voor naleving|
 |

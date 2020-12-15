@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
-ms.openlocfilehash: d83c41b52db5c0533a9a5d52ab20ace9b612e1e6
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: f5cc652bcc16cec28dd411ad30ce0896334733f4
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658647"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683377"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -102,20 +102,20 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
      De beschikbare acties voor spamfilterbeoordelingen worden beschreven in de volgende tabel.
 
-     - Een vinkje ( ![vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)) geeft aan dat de actie beschikbaar is (niet alle acties zijn beschikbaar voor alle spamfilterbeoordelingen).
+     - Een vinkje ( ![vinkje](../../media/checkmark.png)) geeft aan dat de actie beschikbaar is (niet alle acties zijn beschikbaar voor alle spamfilterbeoordelingen).
      - Een asterisk (<sup>\*</sup>) na het vinkje geeft de standaardactie aan voor de spamfilterbeoordeling. 
 
      ****
 
      |Actie|Spam|Hoog<br>betrouwbaarheid<br>spam|Phishing<br>e-mail|Hoog<br>betrouwbaarheid<br>phishing<br>e-mail|Bulk<br>e-mail|
      |---|:---:|:---:|:---:|:---:|:---:|
-     |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-     |**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak. <p> U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in.  <p> Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-     |**Onderwerpregel vooraan uitbreiden met tekst**: hiermee wordt tekst toegevoegd aan het begin van de onderwerpregel van het bericht. Het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1,2</sup> <p> U voert de tekst later in het vak **Voeg deze tekst toe vooraan de onderwerpregel** in.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-     |**Bericht naar e-mailadres omleiden**: hiermee wordt het bericht omgeleid naar andere geadresseerden in plaats van de beoogde geadresseerde. <p> U geeft de geadresseerden later op in het vak **Omleiden naar dit e-mailadres**.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-     |**Bericht verwijderen**: hiermee wordt het volledige bericht verwijderd, inclusief alle bijlagen.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-     |**Bericht in quarantaine**: hiermee wordt het bericht in quarantaine geplaatst in plaats van verzonden naar de beoogde geadresseerden. <p> U geeft later in het vak **Quarantaine** aan hoelang het bericht in quarantaine moet blijven.|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-     |**Geen actie**|||||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|
+     |**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak. <p> U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in.  <p> Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)<sup>\*</sup>|
+     |**Onderwerpregel vooraan uitbreiden met tekst**: hiermee wordt tekst toegevoegd aan het begin van de onderwerpregel van het bericht. Het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1,2</sup> <p> U voert de tekst later in het vak **Voeg deze tekst toe vooraan de onderwerpregel** in.|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
+     |**Bericht naar e-mailadres omleiden**: hiermee wordt het bericht omgeleid naar andere geadresseerden in plaats van de beoogde geadresseerde. <p> U geeft de geadresseerden later op in het vak **Omleiden naar dit e-mailadres**.|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+     |**Bericht verwijderen**: hiermee wordt het volledige bericht verwijderd, inclusief alle bijlagen.|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
+     |**Bericht in quarantaine**: hiermee wordt het bericht in quarantaine geplaatst in plaats van verzonden naar de beoogde geadresseerden. <p> U geeft later in het vak **Quarantaine** aan hoelang het bericht in quarantaine moet blijven.|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+     |**Geen actie**|||||![Vinkje](../../media/checkmark.png)|
      |
 
      > <sup>1</sup> In Exchange Online wordt het bericht verplaatst naar de map Ongewenste e-mail als de regel Ongewenste e-mail is ingeschakeld voor het postvak (standaard is die regel ingeschakeld). Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
@@ -301,7 +301,7 @@ Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van bel
 
    Verplaats te wisselknop naar links om het beleid uit te schakelen: ![Uitschakelen](../../media/scc-toggle-off.png)
 
-   Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Inschakelen](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
+   Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Inschakelen](../../media/scc-toggle-on.png)
 
 U kunt het standaardantispambeleid niet uitschakelen.
 

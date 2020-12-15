@@ -17,19 +17,19 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie over het weergeven en configureren van globale instellingen (de lijst de volgende Url's blokkeren en beveiliging voor Office 365-apps) voor veilige koppelingen in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 2793985e6289b26baad268925cbf9c5e9a89dce9
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: bc44432d4d9478e4c6a2414a70acc785c5b2c005
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572427"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682903"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Algemene instellingen configureren voor veilige koppelingen in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten met [Microsoft Defender voor Office 365](office-365-atp.md). Als u een thuisgebruiker bent die op zoek bent naar informatie over Safelinks in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](office-365-atp.md) hebben. Als u een thuisgebruiker bent die op zoek bent naar informatie over Safelinks in Outlook, raadpleegt u [geavanceerde Outlook.com-beveiliging](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Veilige koppelingen is een functie in [Microsoft Defender voor Office 365](office-365-atp.md) met het scannen van inkomende e-mailberichten in de e-mail stroom, en de tijd waarop u kunt klikken op verificatie van url's en koppelingen in e-mailberichten en andere locaties. Zie voor meer informatie [veilige koppelingen in Microsoft Defender voor Office 365](atp-safe-links.md).
 
@@ -48,9 +48,9 @@ U kunt de algemene instellingen voor veilige koppelingen in het beveiligings & n
 
 - U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **veilige koppelingen** wilt gaan, gebruikt u <https://protection.office.com/safelinksv2> .
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als u verbinding wilt maken met standalone EOP PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Voordat u de procedures in dit artikel kunt uitvoeren, moet u beschikken over machtigingen voor beveiliging & nalevings centrum.
+- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
   - Als u de algemene instellingen voor veilige koppelingen wilt configureren, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
   - Voor alleen-lezen toegang tot de algemene instellingen voor veilige koppelingen, moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
@@ -58,8 +58,8 @@ U kunt de algemene instellingen voor veilige koppelingen in het beveiligings & n
 
   **Opmerkingen**:
 
-  - Door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het Microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in het beveiligings & nalevings centrum _en_ machtigingen voor andere functies in microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
-  - De functiegroep **alleen weergeven voor Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Zie [instellingen voor veilige koppelingen](recommended-settings-for-eop-and-office365-atp.md#safe-links-settings)voor de aanbevolen waarden voor de algemene instellingen voor veilige koppelingen.
 
@@ -71,13 +71,13 @@ U kunt de algemene instellingen voor veilige koppelingen in het beveiligings & n
 
 De lijst **de volgende Url's blokkeren** identificeert de koppelingen die u altijd moet blokkeren door veilige koppelingen in ondersteunde apps te scannen. Zie voor meer informatie [de lijst de volgende Url's blokkeren voor veilige koppelingen](atp-safe-links.md#block-the-following-urls-list-for-safe-links).
 
-1. Ga in het beveiligings & nalevings centrum naar veilige koppelingen voor het beleid voor **bedreigings beheer** \> **Policy** \> **ATP Safe Links** en klik vervolgens op **algemene instellingen**.
+1. Ga in het beveiligings & nalevings centrum naar veilige koppelingen voor het beleid voor **bedreigings beheer** \>  \> en klik vervolgens op **algemene instellingen**.
 
 2. Ga in het **beleid voor veilige koppelingen voor uw organisatie** dat wordt weergegeven naar het vak **Blokkeer de volgende url's** .
 
 3. Configureer een of meer vermeldingen zoals beschreven in [de invoer syntaxis voor de lijst ' de volgende Url's blokkeren '](atp-safe-links.md#entry-syntax-for-the-block-the-following-urls-list).
 
-   Klik op **Opslaan** wanneer u gereed bent.
+   Wanneer u gereed bent, klikt u op **Opslaan**.
 
 ### <a name="configure-the-block-the-following-urls-list-in-powershell"></a>De lijst "de volgende Url's blokkeren" in PowerShell configureren
 
@@ -116,17 +116,17 @@ Met de cmdlet **Get-AtpPolicyForO365** kunt u bestaande vermeldingen in de _Bloc
 
 Beveiliging van veilige koppelingen voor Office 365-apps is van toepassing op documenten in ondersteunde Office-Desktop-, mobiele en web-apps. Zie [instellingen voor veilige koppelingen voor Office 365-apps](atp-safe-links.md#safe-links-settings-for-office-365-apps)voor meer informatie.
 
-1. Ga in het beveiligings & nalevings centrum naar veilige koppelingen voor het beleid voor **bedreigings beheer** \> **Policy** \> **ATP Safe Links** en klik vervolgens op **algemene instellingen**.
+1. Ga in het beveiligings & nalevings centrum naar veilige koppelingen voor het beleid voor **bedreigings beheer** \>  \> en klik vervolgens op **algemene instellingen**.
 
 2. In het **beleid voor veilige koppelingen voor uw organisatie** die wordt weergegeven, configureert u de volgende instellingen in de sectie **instellingen van toepassing op inhoud met uitzondering van e-mailberichten** :
 
-   - **Office 365-toepassingen**: Controleer of de wisselknop naar rechts is ingesteld voor ondersteunde Office 365-apps: Schakel ![ over ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Office 365-toepassingen**: Controleer of de wisselknop naar rechts is ingesteld voor ondersteunde Office 365-apps: Schakel ![ over ](../../media/scc-toggle-on.png) .
 
    - **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken**: schuif de wisselknop naar links om de gebruikers klikken met geblokkeerde url's bij te houden in ondersteunde Office 365-apps: ![ uitschakelen ](../../media/scc-toggle-off.png) .
 
-   - **Laat gebruikers niet via veilige koppelingen naar de oorspronkelijke URL klikken**: Controleer of de wisselknop zich rechts bevindt om te voorkomen dat gebruikers door doorgaan naar de oorspronkelijke geblokkeerde URL in ondersteunde Office 365-apps: ![ Schakel over ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Laat gebruikers niet via veilige koppelingen naar de oorspronkelijke URL klikken**: Controleer of de wisselknop zich rechts bevindt om te voorkomen dat gebruikers door doorgaan naar de oorspronkelijke geblokkeerde URL in ondersteunde Office 365-apps: ![ Schakel over ](../../media/scc-toggle-on.png) .
 
-   Klik op **Opslaan** wanneer u gereed bent.
+   Wanneer u gereed bent, klikt u op **Opslaan**.
 
 ### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>Beveiliging van veilige koppelingen voor Office 365-apps in PowerShell configureren
 
@@ -152,7 +152,7 @@ Zie [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange
 
 Voer een van de volgende stappen uit om te controleren of u de algemene instellingen voor veilige koppelingen hebt geconfigureerd (de lijst **de volgende Url's blokkeren** en de instellingen voor de beveiligingsinstellingen van Office 365-apps):
 
-- Ga in het beveiligings & compliance naar veilige koppelingen voor het beleid voor **risicobeheer** \> **Policy** \> **ATP Safe Links**, klik op **algemene instellingen** en controleer de instellingen in het venster dat wordt weergegeven.
+- Ga in het beveiligings & compliance naar veilige koppelingen voor het beleid voor **risicobeheer** \>  \> , klik op **algemene instellingen** en controleer de instellingen in het venster dat wordt weergegeven.
 
 - Voer de volgende opdracht uit in PowerShell van Exchange Online of Exchange Online Protection en controleer de instellingen:
 

@@ -19,23 +19,23 @@ ms.locfileid: "49087641"
 ---
 # <a name="introduction-to-explanation-types"></a>Inleiding tot uitlegtypen
 
-Uitleg wordt gebruikt om de gegevens te definiëren die u wilt labelen en ophalen in uw documentinformatie over modellen in Microsoft SharePoint Syntex. Bij het maken van een uitleg moet u een uitleg type selecteren. In dit artikel vindt u informatie over de verschillende typen uitleg en hoe deze worden gebruikt. 
+Uitleg wordt gebruikt om de gegevens te definiëren die je wilt labelen en ophalen in je documentinformatie over modellen in Microsoft SharePoint Syntex. Bij het maken van een uitleg moet je een uitlegtype selecteren. In dit artikel vind je meer informatie over de verschillende uitlegtypen en hoe je deze kunt gebruiken. 
 
    ![Uitlegtypen](../media/content-understanding/explanation-types.png) 
    
 Deze uitlegtypen zijn beschikbaar:
 
-- **Frasenlijst**: lijst met woorden, woordgroepen, getallen of andere tekens die u kunt gebruiken in het document of de gegevens die u wilt ophalen. De tekenreeks **Verwijzende Arts** wordt bijvoorbeeld gebruikt bij documenten die u identificeert als medische verwijzen.</br>
+- **Frasenlijst**: Lijst met woorden, woordgroepen, getallen of andere tekens die je kunt gebruiken in het document of de gegevens die je wilt ophalen. De tekenreeks **Verwijzen naar Doctor** wordt bijvoorbeeld gebruikt in medische verwijsdocumenten die je identificeert.</br>
 
-- **Lijst met patronen**: Lijst patronen met getallen, letters of andere tekens die u kunt gebruiken om de gegevens te identificeren die u wilt ophalen. U kunt bijvoorbeeld het **Telefoonnummer** van de verwijzende arts ophalen uit documenten die u identificeert als medische verwijzen.</br>
+- **Patroonlijst**: lijst patronen met getallen, letters of andere tekens die je kunt gebruiken om de gegevens te identificeren die je wilt ophalen. Je kunt bijvoorbeeld het **Telefoonnummer** van de verwijsarts extraheren uit medische verwijsdocumenten die je identificeert.</br>
 
-- **Proximity**: Beschrijft hoe dicht toelichtingen bij elkaar liggen. Een *huisnummer* patronenlijst wordt bijvoorbeeld direct weergeven voor de *straatnaam*, frasenlijst, zonder tokens ertussen (u vindt meer informatie over tokens verderop in dit artikel). Voor het type Proximity moet u ten minste twee uitleggen bij het model hebben of de optie wordt uitgeschakeld. 
+- **Proximity**: in dit artikel wordt beschreven hoe dicht toelichtingen bij elkaar liggen. Een patroonlijst van *straatnummer* wordt bijvoorbeeld direct weergeven voor de woordenlijst met *straatnamen* zonder tokens ertussen (je vind meer informatie over tokens verderop in dit artikel). Voor het type proximity moet je ten minste twee uitleggen in je model hebben, of de optie wordt uitgeschakeld. 
  
 ## <a name="phrase-list"></a>Woordenlijst
 
-Het type uitleg van een frasenlijst wordt meestal gebruikt om een document te identificeren en klassificeren via je model. Zoals wordt beschreven in het labelvoorbeeld *Verwijzende Arts*, is het een tekenreeks met woorden, woordgroepen, getallen of tekens die consequent voorkomen in de documenten die u wilt herkennen.
+Het uitlegtype van een woordenlijst wordt meestal gebruikt om een document te identificeren en te classificeren via je model. Zoals wordt beschreven in het labelvoorbeeld *Verwijzende arts*, is het een tekenreeks met woorden, woordgroepen, getallen of tekens die consequent voorkomen in de documenten die je wilt herkennen.
 
-Hoewel het geen eis is, kunt u uw uitleg beter laten opvallen als de woordgroep die je wilt vastleggen zich op een consistente locatie in het document bevindt. Het label *Verwijzende Arts* bevindt zich consequent in de eerste alinea van uw document.
+Hoewel het geen eis is, kunt je je uitleg beter laten opvallen als de woordgroep die je wilt vastleggen zich op een consistente locatie in het document bevindt. Zo kan het label *Verwijzende arts* label zich in de eerste alinea van het document bevinden.
 
 Als hoofdlettergevoeligheid een vereiste is bij het identificeren van je label, kun je met het woordenlijsttype in uw uitleg opgeven door het selectievakje **Alleen exacte kapitalisatie** in te schakelen.
 
@@ -43,9 +43,9 @@ Als hoofdlettergevoeligheid een vereiste is bij het identificeren van je label, 
 
 ## <a name="pattern-lists"></a>Patroonlijsten
 
-Een patroonlijst is met name handig wanneer u een uitleg maakt waarmee gegevens uit een document worden geïdentificeerd en opgehaald. Deze worden meestal weergegeven in verschillende indelingen, zoals datums, telefoonnummers en creditcardnummers. Een datum kan bijvoorbeeld worden weergegeven in een aantal verschillende notaties (1/1/2020, 1-1-2020, 01/01/20, 01/01/2020, 1 januari 2020, enzovoort). Door een patroonlijst te definiëren, kunt u zich efficiënter identificeren door eventuele variaties in de gegevens vast te leggen die u probeert vast te stellen en op te halen. 
+Een patroonlijst is met name handig wanneer je een uitleg maakt waarmee gegevens uit een document worden geïdentificeerd en opgehaald. Deze worden meestal weergegeven in verschillende indelingen, zoals datums, telefoonnummers of creditcardnummers. Een datum kan bijvoorbeeld worden weergegeven in een aantal verschillende notaties (1/1/2020, 1-1-2020, 01/01/20, 01/01/2020, 1 januari 2020, enzovoort). Door een patroonlijst te definiëren, kun je je efficiënter identificeren door eventuele variaties in de gegevens vast te leggen die je probeert vast te stellen en op te halen. 
 
-Voor het **Telefoonnummer** voorbeeld haalt u het telefoonnummer voor elke verwijzende arts op uit alle medische documenten die door het model worden geïdentificeerd. Wanneer u de uitleg maakt, selecteert u het type patroonlijst om de verschillende indelingen toe te staan die mogelijk naar verwachting worden geretourneerd.
+Voor het voorbeeld **Telefoonnummer** moet je het telefoonnummer voor elke verwijzende arts ophalen uit alle Medische Verwijzingsdocumenten die door het model worden geïdentificeerd. Wanneer je de uitleg maakt, selecteer je het patroonlijsttype om de verschillende indelingen toe te staan die mogelijk naar verwachting worden geretourneerd.
 
    ![Patroonlijst telefoonnummers](../media/content-understanding/pattern-list.png)
 
@@ -55,13 +55,13 @@ Voor dit voorbeeld selecteert u het selectievakje **een cijfer van 0-9** als u e
 
 Als u een patroonlijst maakt die teksttekens bevat, selecteert u het selectievakje **een letter van a-z** om elk teken dat wordt gebruikt in de patroonlijst te herkennen aan een teken van a tot en met z.
 
-Als je bijvoorbeeld een patroonlijst **Datum** maakt en je ervoor wilt zorgen dat een datumnotatie wordt ondersteund zoals *1 januari 2020*, moet je het volgende doen:
+Als je bijvoorbeeld een patroonlijst **Datum** maakt en je ervoor wilt zorgen dat een datumnotatie wordt ondersteund zoals *2020 1 januari*, moet je het volgende doen:
 - Voeg *AAA 0, 0000* en *AAA 00, 0000* aan de patroonlijst toe.
 - Zorg ervoor dat **Een willekeurige letter van a-z** is geselecteerd.
 
    ![Een letter van a-z](../media/content-understanding/any-letter.png)
 
-Als u in de lijst met patronen hoofdlettergebruik hebt, kunt u ook het selectievakje **Alleen exact hoofdlettergebruik** selecteren. Als u voor het voorbeeld Datum de eerste letter van de maand met een hoofdletter wilt, moet u het volgende doen:
+Als je hoofdlettereisen in je patroonlijst hebt, kun je ook het selectievakje **Alleen exact hoofdlettergebruik** selecteren. Als de eerste letter van de maand moet worden gekapitaliseerd, moet je het volgende doen:
 
 - Voeg *Aaa 0, 0000* en *AAA 00, 0000* aan de patroonlijst toe.
 - Zorg ervoor dat **Alleen exact hoofdlettergebruik** ook is geselecteerd.
@@ -73,7 +73,7 @@ Als u in de lijst met patronen hoofdlettergebruik hebt, kunt u ook het selectiev
 
 ## <a name="proximity"></a>Proximity 
 
-Het type uitleg Proximity helpt bij het identificeren van gegevens door te bepalen hoe dicht u een ander stukje gegevens maakt. Stel dat u in uw model twee verklaringen hebt gedefinieerd waaraan zowel *huisnummer* als *telefoonnummer* van de klant is gedefinieerd. 
+Met het Proximity-uitlegtype kan je model identificeren met behulp van hoe dichtbij een ander stukje gegevens is. Bijvoorbeeld, in je model heb je twee verklaringen gedefinieerd waaraan zowel het *huisnummer* als *telefoonnummer* zijn gelabeld. 
 
 Je ziet ook dat de telefoonnummers van klanten altijd voor het huisnummer worden weergegeven. 
 
@@ -88,20 +88,20 @@ Gebruik de proximity-uitleg om te bepalen hoe ver de uitleg van een telefoonnumm
 
 #### <a name="what-are-tokens"></a>Wat zijn tokens?
 
-Als u het uitleg van het type proximity wilt gebruiken, moet u weten wat een token is, omdat in het aantal tokens de afstand tussen de Proximity-uitleg ten opzichte van een andere uitleg is. Een token is een doorlopende reeks (exclusief spaties of interpunctie) van letters en cijfers. 
+Voor het gebruik van het Proximity-uitlegtype moet je weten wat een token is, omdat het aantal tokens is hoe de proximity-uitleg de afstand tussen een verklaring en een andere meet. Een token is een doorlopende reeks (geen spaties of interpunctie) van letters en cijfers. 
 
-In de volgende tabel ziet u enkele voorbeelden van hoe u het aantal tokens in een woordgroep kunt vaststellen.
+In de volgende tabel zie je enkele voorbeelden van hoe je het aantal tokens in een woordgroep kunt vaststellen.
 
 |Woordengroep|Aantal tokens|Uitleg|
 |--|--|--|
 |`Dog`|1|Eén woord zonder leesteken of spatie.|
 |`RMT33W`|1|Een record locatornummer. Het mag cijfers en letters bevatten, maar geen leestekens.|
-|`425-555-5555`|5|Een telefoonnummer. Elk leesteken bestaat uit één token, dus `425-555-5555` is 5 tokens:<br>`425`<br>`-`<br>`555`<br>`-`<br>`5555` |
+|`425-555-5555`|5|Een telefoonnummer. Elk leesteken bestaat uit één token, zodat `425-555-5555` 5 tokens zou zijn:<br>`425`<br>`-`<br>`555`<br>`-`<br>`5555` |
 |`https://luis.ai`|7|`https`<br>`:`<br>`/`<br>`/`<br>`luis`<br>`.`<br>`ai`<br>|
 
 #### <a name="configure-the-proximity-explanation-type"></a>Het proximity-uitlegtype configureren
 
-Voor het voorbeeld configureert u de Proximity-instelling om het bereik van het aantal tokens in het *Telefoonnummer* uitleg in te stellen bij de *straatnummer* uitleg. U ziet dat het minimumbereik “0“ is, omdat er geen tokens zijn tussen het telefoonnummer en het huisnummer.
+Voor het voorbeeld configureer je de proximity-instelling zodanig dat je het aantal tokens kunt definiëren in *Telefoonnummer*-uitleg afkomstig van de *Huisnummer*-uitleg. Je ziet dat het minimumbereik “0“ is omdat er geen tokens zijn tussen het telefoonnummer en het huisnummer.
 
 Sommige telefoonnummers in de voorbeelddocumenten worden echter toegevoegd met *(mobiel)*.
 
@@ -156,7 +156,7 @@ Let op: de uitlegbibliotheek bevat ook sjablonen voor verklaringen van een woord
 
        ![Selecteer een sjabloon](../media/content-understanding/phone-template.png)</br>
 
-3. De informatie voor de sjabloon die u hebt geselecteerd, wordt weergegeven op de **Een uitleg maken** pagina. Wijzig zo nodig de naam van de uitleg en voeg items toe aan of verwijder items uit de lijstpatroon. </br> 
+3. De informatie voor de sjabloon die je hebt geselecteerd, wordt weergegeven op de pagina **Een uitleg maken**. Bewerk zo nodig de naam van de uitleg en voeg items toe aan of verwijder items uit de patroonlijst. </br> 
 
    ![Sjabloon bewerken](../media/content-understanding/phone-template-live.png)</br>
 

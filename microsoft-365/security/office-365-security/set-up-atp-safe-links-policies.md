@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie lezen over het weergeven, maken, wijzigen en verwijderen van beleidsregels voor veilige koppelingen en algemene instellingen voor veilige koppelingen in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 8a6d8a7ad567b658f04cb0b28800d4edbc33ec67
-ms.sourcegitcommit: f81ca61f74f11a7436a6172538c3bda81b484d62
+ms.openlocfilehash: 7a00b73855302f5046afa0605fd7188007394ed7
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675239"
+ms.locfileid: "49683161"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels voor veilige koppelingen instellen in Microsoft Defender voor Office 365
 
@@ -178,7 +178,7 @@ Zie de volgende secties als u een beleid wilt in-of uitschakelen of de prioritei
 
    - Verplaats te wisselknop naar links om het beleid uit te schakelen: ![Beleid uitschakelen](../../media/scc-toggle-off.png).
 
-   - Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Beleid inschakelen](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+   - Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Beleid inschakelen](../../media/scc-toggle-on.png).
 
 ### <a name="set-the-priority-of-safe-links-policies"></a>De prioriteit voor beleidsregels voor veilige koppelingen instellen
 

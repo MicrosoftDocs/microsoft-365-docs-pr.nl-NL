@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over veilige documenten in Microsoft 365 E5 of Microsoft 365 E5 beveiliging.
-ms.openlocfilehash: 0acb5d4ee0c80deebc4d0b040b046d63037037a7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 1bf802422dc05babaf5e2616468f8326b7007dc8
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659871"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682935"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
@@ -62,11 +62,11 @@ Bestanden die door veilige documenten zijn verzonden, worden niet langer bewaard
 
 2. Configureer de volgende instellingen in de **algemene instellingen** die worden weergegeven:
 
-   - **Veilige documenten inschakelen voor Office-clients**: zet de wisselknop naar rechts om de functie in te schakelen: ![ wisselknop ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) .
+   - **Veilige documenten inschakelen voor Office-clients**: zet de wisselknop naar rechts om de functie in te schakelen: ![ wisselknop ](../../media/scc-toggle-on.png) .
 
    - **Toestaan dat personen kunnen klikken via de beveiligde weergave, zelfs als de veilige documenten het bestand als schadelijk identificeren**: u wordt aangeraden deze optie uit te schakelen (laat de schakeloptie links: ![ uit ](../../media/scc-toggle-off.png) ) staan.
 
-   Klik op **Opslaan** wanneer u gereed bent.
+   Wanneer u gereed bent, klikt u op **Opslaan**.
 
    ![Instellingen voor veilige documenten nadat u wereldwijde instellingen hebt geselecteerd op de pagina voor veilige bijlagen.](../../media/safe-docs.png)
 

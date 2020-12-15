@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie over het gebruik van quarantaine-Tags om te bepalen wat gebruikers kunnen doen met hun Quarantine-berichten.
-ms.openlocfilehash: 498a5f45fa62481f7f4f8dfe5ece8a51a038f99a
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 167f147d7c74b78b1a1661b5444625fbf1cf3d41
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616006"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683065"
 ---
 # <a name="quarantine-tags"></a>Quarantaine Tags
 
@@ -44,12 +44,12 @@ De beschikbare afzonderlijke machtigingen en de beschikbare afzonderlijke machti
 
 |Machtigingsset|Geen toegang|Beperkte toegang|Volledige toegang|
 |---|:---:|:---:|:---:|
-|**Afzender toestaan** (_PermissionToAllowSender_)|||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Afzender blokkeren** (_PermissionToBlockSender_)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Delete** (_PermissionToDelete_)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Voorbeeld** (_PermissionToPreview_)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Toestaan dat geadresseerden een bericht uit Quarantine vrijgeven** (_PermissionToRelease_)|||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Toestaan dat geadresseerden een bericht aanvragen om te worden vrijgegeven uit Quarantine** (_PermissionToRequestRelease_)||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|**Afzender toestaan** (_PermissionToAllowSender_)|||![Vinkje](../../media/checkmark.png)|
+|**Afzender blokkeren** (_PermissionToBlockSender_)||![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|**Delete** (_PermissionToDelete_)||![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|**Voorbeeld** (_PermissionToPreview_)||![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|**Toestaan dat geadresseerden een bericht uit Quarantine vrijgeven** (_PermissionToRelease_)|||![Vinkje](../../media/checkmark.png)|
+|**Toestaan dat geadresseerden een bericht aanvragen om te worden vrijgegeven uit Quarantine** (_PermissionToRequestRelease_)||![Vinkje](../../media/checkmark.png)||
 |
 
 Als u de standaardmachtigingen in de vooraf ingestelde machtigingsgroepen niet bevalt, kunt u aangepaste machtigingen gebruiken wanneer u aangepaste quarantaine Tags maakt of wijzigt. Zie voor meer informatie over wat u doet met de machtiging de sectie Machtigingen voor quarantaine voor de [quarantaine-label](#quarantine-tag-permission-details) verderop in dit artikel.
@@ -255,7 +255,7 @@ Volledige instructies voor het maken en wijzigen van anti-spam beleid vindt u in
 
    ![Selectie van quarantaine-Tags in een Antispambeleid](../../media/quarantine-tags-in-anti-spam-policies.png)
 
-5. Klik op **Opslaan** wanneer u gereed bent.
+5. Wanneer u gereed bent, klikt u op **Opslaan**.
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>Quarantaine tags toewijzen in Antispambeleid in PowerShell
 

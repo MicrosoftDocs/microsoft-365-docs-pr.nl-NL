@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
-ms.openlocfilehash: 34c66d8ab39af443462e8c5ac99009b4170be21e
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 43736fbd42949a084804825ec7f12d19b7fd1818
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659854"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683041"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -43,12 +43,12 @@ In de volgende tabel vindt u een beschrijving van de verschillen tussen anti-phi
 
 |Functie|Anti phishingfilter in EOP|Anti malafide beleid in Microsoft Defender voor Office 365|
 |---|:---:|:---:|
-|Standaardbeleid automatisch gemaakt|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Aangepaste beleidsregels maken|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Beleidsinstellingen<sup>\*</sup>|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Imitatie-instellingen||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Spoof-instellingen|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Geavanceerde phishingberichten||![Vinkje](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Standaardbeleid automatisch gemaakt|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|Aangepaste beleidsregels maken|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|Beleidsinstellingen<sup>\*</sup>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|Imitatie-instellingen||![Vinkje](../../media/checkmark.png)|
+|Spoof-instellingen|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|Geavanceerde phishingberichten||![Vinkje](../../media/checkmark.png)|
 |
 
 <sup>\*</sup> In het standaardbeleid zijn de Beleidsnaam en-beschrijving alleen-lezen (de beschrijving is leeg) en kunt u niet opgeven wie het beleid van toepassing is op het standaardbeleid voor alle geadresseerden.
