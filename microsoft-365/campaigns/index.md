@@ -74,18 +74,18 @@ Ga aan de hand van deze stappen aan de slag:
 
 Na het instellen van de veilige Microsoft 365-omgeving, kunt u de volgende oplossingen gebruiken om aan de slag te gaan:
 
-| Teams voor samenwerking maken | Onlinevergaderingen instellen |
+| Teams voor samenwerking aanmaken | Onlinevergaderingen instellen |
 | ------------- | ------------- |
 | ![een SharePoint-communicatiesite](../media/sm-m365-democracy-teams-collab.png) | ![een onlinevergadering](../media/m365-democracy-teams-meetings.png) |
-| Werk samen met teams voor belangrijke medewerkers, alle medewerkers en partners of leveranciers. [Uw team maken](create-teams-for-collaboration.md) | Plan een vergadering met audio, video en delen met Microsoft Teams. [Een vergadering organiseren](set-up-meetings.md) |
+| Werk samen met teams voor belangrijke medewerkers, alle medewerkers en partners of leveranciers. [Uw team maken](create-teams-for-collaboration.md) | Een vergadering plannen met audio, video en delen met Microsoft Teams. [Een vergadering organiseren](set-up-meetings.md) |
 
 | Uw gevoelige e-mailberichten versleutelen of labelen | Een communicatiesite maken |
 | ------------- | ------------- |
 | ![Versleutelde en gelabelde e-mails](../media/sm-m365-campaign-email-encrypt.png) | ![een SharePoint-communicatiesite](../media/sm-m365-democracy-comms-site.png) |
-| Gebruik labels voor versleuteling en gevoeligheid om e-mailberichten te beveiligen die vertrouwelijke of gevoelige informatie bevatten. [Versleutelde e-mail verzenden](send-encrypted-email.md) | Deel gebeurtenissen, berichten, afbeeldingen en meer met uw team op een interne communicatiesite die is gemaakt met SharePoint. [Een pagina aanmaken](create-communications-site.md) |
+| Gebruik labels voor versleuteling en gevoeligheid om e-mailberichten te beveiligen die vertrouwelijke of gevoelige informatie bevatten. [Versleutelde e-mail verzenden](send-encrypted-email.md) | Deel gebeurtenissen, berichten, afbeeldingen en meer met uw team op een interne communicatiepagina die is aangemaakt met SharePoint. [Een pagina aanmaken](create-communications-site.md) |
 
 | Bestanden en video's delen |
 | ------------- |
 | ![een bestand delen in Microsoft Teams](../media/m365-democracy-teams-sharefiles.png) |
-| Sla uw bestanden en video's op in de cloud, zodat deze beschikbaar zijn voor <br><br>alle aangewezen personen. [Delen starten](share-files-and-videos.md) |
+| Sla uw bestanden en video's op in de cloud, zodat deze beschikbaar zijn voor <br><br>alle aangewezen personen. [Begin met delen](share-files-and-videos.md) |
 
