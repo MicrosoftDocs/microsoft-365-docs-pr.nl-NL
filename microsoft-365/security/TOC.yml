@@ -119,7 +119,7 @@
                   href: mtp/mtp-autoir.md
                 - name: Functies voor geautomatiseerd onderzoek en reactie configureren
                   href: mtp/mtp-configure-auto-investigation-response.md
-                - name: Herstelacties na geautomatiseerd onderzoek
+                - name: Herstelacties
                   href: mtp/mtp-remediation-actions.md
                 - name: Naar het Actiecentrum
                   href: mtp/mtp-action-center.md

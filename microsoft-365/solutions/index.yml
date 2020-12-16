@@ -1,12 +1,11 @@
-### YamlMime:Hub
+### YamlMime:Landing
 title: Microsoft 365-oplossingen- en -architectuurcentrum
-summary: Inzicht in het ontwerpen van de oplossing en architectuur die geschikt zijn voor uw organisatie.
-brand: m365
+summary: Dit oplossing- en architectuurcentrum brengt de technische richtlijnen die je nodig hebt voor het begrijpen, plannen en uitvoeren van geïntegreerde Microsoft 365-oplossingen voor enterprise resource planning en een veilige, compatibele en moderne samenwerking.
 metadata:
   title: Microsoft 365-oplossingen- en -architectuurcentrum
   description: Via dit helpcentrum kunt u meer informatie krijgen over IT-trainingen en hoe u de oplossing en architectuur kunt ontwerpen die bij uw organisatie past.
   ms.service: o365-solutions
-  ms.topic: hub-page
+  ms.topic: landing-page
   ms.collection:
   - m365-security-compliance
   author: samanro
@@ -15,66 +14,96 @@ metadata:
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ROBOTS: NOINDEX
-  ms.openlocfilehash: 57180d6807ebbc129d68f91d178e9c31724a98a4
-  ms.sourcegitcommit: ca733da1ed919b286a93068b560608e82f8def05
+  ms.openlocfilehash: e77bf6ee7d28e8da4df471487f531b68cc27f5e0
+  ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 11/10/2020
-  ms.locfileid: "48990515"
-highlightedContent:
-  items:
-  - title: Externe werknemers mogelijkheden bieden met Microsoft 365
-    itemType: whats-new
-    url: empower-people-to-work-remotely.md
-  - title: Veilige samenwerking instellen met Microsoft 365
-    itemType: get-started
-    url: setup-secure-collaboration-with-teams.md
-  - title: Bedreigingsbeveiliging implementeren in Microsoft 365
-    itemType: get-started
-    url: deploy-threat-protection.md
-productDirectory:
-  items:
-  - title: Microsoft 365-basisoplossingen
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
-    summary: Volledige richtlijnen voor een specifiek zakelijk probleem of behoefte, van planning tot implementatie tot ingebruikname.
-    url: foundation-solutions-overview.md
-  - title: Oplossings- en scenariorichtlijnen voor werkbelasting
-    imageSrc: https://docs.microsoft.com/office/media/icons/objects-blue.svg
-    summary: Voeg deze scenario's toe aan de basisoplossingen om mogelijkheden toe te voegen aan uw omgeving.
-    url: workload-solutions-scenarios-overview.md
-  - title: Illustraties voor oplossingen en architectuur
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg
-    summary: Bekijk of download deze illustraties om inzicht te krijgen in de mogelijkheden en architectuur van de services van Microsoft 365.
-    url: productivity-illustrations.md
-  - title: Branchespecifieke richtlijnen
-    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-blue.svg
-    summary: Vind de richtlijnen die specifiek voor uw bedrijfstak zijn ontworpen.
-    url: industry-specific-guidance-overview.md
-  - title: Principes voor zakelijk ontwerp
-    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-blue.svg
-    summary: Informatie over de belangrijkste principes die u nodig hebt om inzicht te krijgen in netwerken, identiteit, beveiliging en multinationale architectuur.
-    url: design-principles.md
-  - title: Roadmap en informatiebronnen voor implementatie
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
-    summary: Informatiebronnen voor het instellen van samenwerking in combinatie met beveiliging en informatiebescherming.
-    url: https://docs.microsoft.com/microsoft-365/?view=o365-worldwide
-additionalContent:
-  sections:
-  - title: Meer informatiebronnen voor Microsoft 365
-    items:
-    - title: Helpcentrum voor beheerders en IT-professionals van Microsoft 365
-      summary: U kunt meer informatiebronnen voor IT-professionals op de pagina van Microsoft 365 vinden
-      url: https://docs.microsoft.com/microsoft-365
-    - title: Training voor beheerders en IT-professionals
-      summary: Zoek trainingsinformatie voor het beheren van Microsoft 365
-      url: https://docs.microsoft.com/learn/m365/
-    - title: Training voor eindgebruikers
-      summary: Help uw gebruikers omgaan met Microsoft 365
-      url: https://support.office.com/modernworkplace
-    - title: Microsoft 365 Tech Community
-      summary: Maak gebruik van de Tech Community
-      url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
-    - title: Hulpmiddelen voor ontwikkelaars
-      summary: Meer informatie over het ontwikkelen voor Microsoft 365
-      url: https://developer.microsoft.com/microsoft-365
+  ms.lasthandoff: 12/16/2020
+  ms.locfileid: "49688533"
+landingContent:
+- title: Structurele oplossingshandleidingen
+  linkLists:
+  - linkListType: quickstart
+    links:
+    - text: Externe werknemers mogelijkheden bieden met Microsoft 365
+      url: empower-people-to-work-remotely.md
+    - text: Veilige samenwerking instellen met Microsoft 365
+      url: setup-secure-collaboration-with-teams.md
+    - text: Bedreigingsbeveiliging implementeren in Microsoft 365
+      url: deploy-threat-protection.md
+    - text: Informatiebescherming implementeren voor gegevensprivacyregels
+      url: information-protection-deploy.md
+- title: Architectuurillustraties en design-principes
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Modellen voor Microsoft-cloudarchitectuur
+      url: cloud-architecture-models.md
+    - text: Illustraties van Microsoft 365-productiviteit
+      url: productivity-illustrations.md
+    - text: Posters van Teams-architectuur
+      url: https://docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: Principes van design
+      url: design-principles.md
+- title: Resources voor workload
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Contoso-casestudy's
+      url: contoso-case-study-solutions.md
+  - linkListType: tutorial
+    links:
+    - text: Testlabhandleiding
+      url: test-lab-guides-overview-solutions.md
+- title: Teamwerk- en samenwerkingshandleiding.
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Een Teams-spraakoplossing plannen en implementeren
+      url: deploy-voice.md
+  - linkListType: overview
+    links:
+    - text: Samenwerkingsbeheer
+      url: collaboration-governance-overview.md
+    - text: Samenwerking aan bestanden
+      url: https://docs.microsoft.com/en-us/sharepoint/deploy-file-collaboration?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: Intelligent intranet
+      url: https://docs.microsoft.com/en-us/sharepoint/intranet-overview?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: OneDrive-handleiding voor ondernemingen
+      url: https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+- title: Beveiligings- en compliancehandleidingen
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Belangrijkste taken voor beveiligingsteams om het thuiswerken te ondersteunen
+      url: https://docs.microsoft.com/en-us/microsoft-365/security/top-security-tasks-for-remote-work?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide.md
+    - text: Microsoft 365-beveiliging voor zakelijke beslissers (BDM's)
+      url: https://docs.microsoft.com/en-us/microsoft-365/security/microsoft-365-security-for-bdm?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: Microsoft Defender Advanced Threat Protection
+      url: https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+  - linkListType: reference
+    links:
+    - text: ISO - Aanbevolen actieplan
+      url: https://docs.microsoft.com/en-us/microsoft-365/compliance/iso-action-plan?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: NIST - Aanbevolen actieplan
+      url: https://docs.microsoft.com/en-us/microsoft-365/compliance/nist-action-plan?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: CCPA - Aanbevolen actieplan
+      url: https://docs.microsoft.com/en-us/microsoft-365/compliance/ccpa-faq?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: AVG - Aanbevolen actieplan
+      url: https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+- title: Branchespecifieke handleiding
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Beveiliging en compliance voor financiële dienstverlening
+      url: financial-services-secure-collaboration.md
+    - text: Beveiliging en compliance voor energie- en nutsbedrijven
+      url: energy-secure-collaboration.md
+    - text: Teams voor gezondheidszorg
+      url: https://docs.microsoft.com/en-us/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: Teams voor het onderwijs
+      url: https://docs.microsoft.com/en-us/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: Teams voor de overheid
+      url: https://docs.microsoft.com/en-us/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - text: Ondersteuning van overheidswerknemers die Teams gebruiken om op afstand te werken
+      url: https://docs.microsoft.com/en-us/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=%2Fmicrosoft-365%2Fsolutions%2Ftoc.json&bc=%2Fmicrosoft-365%2Fsolutions%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide

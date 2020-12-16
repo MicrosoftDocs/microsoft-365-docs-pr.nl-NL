@@ -1,5 +1,5 @@
 - name: Microsoft 365-oplossings- en architectuurcentrum
-  href: solution-architecture-center.md
+  href: index.yml
   displayName: Home
 - name: Illustraties voor oplossingen en architectuur
   items:
@@ -7,10 +7,10 @@
       href: productivity-illustrations.md
     - name: Modellen voor Microsoft-cloudarchitectuur
       href: cloud-architecture-models.md
-- name: Microsoft 365 Foundation-oplossingen
+    - name: Architectuurpictogrammen- en sjablonen
+      href: architecture-icons-templates.md
+- name: Microsoft 365-foundation oplossingen
   items:
-    - name: Overzicht
-      href: foundation-solutions-overview.md
     - name: Externe werknemers meer mogelijkheden bieden met Microsoft 365
       items:
         - name: Overzicht
@@ -93,8 +93,6 @@
           href: information-protection-deploy-monitor-respond.md
 - name: Oplossingen en scenario's voor werkbelastingen
   items:
-    - name: Overzicht
-      href: workload-solutions-scenarios-overview.md
     - name: Teamwerk en samenwerking.
       items:
         - name: Posters van Teams-architectuur
@@ -211,8 +209,6 @@
           href: team-security-isolation-dev-test.md
 - name: Branchespecifieke richtlijnen
   items:
-    - name: Overzicht
-      href: industry-specific-guidance-overview.md
     - name: Financiën
       items:
         - name: Beveiliging en compliance voor financiële dienstverlening
