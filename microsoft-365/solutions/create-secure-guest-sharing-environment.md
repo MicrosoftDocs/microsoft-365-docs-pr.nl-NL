@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Meer informatie over beschikbare opties in Microsoft 365 om een veilige omgeving voor delen met gasten te maken, waarin gasten toegang krijgen voor verbeterde samenwerking.
-ms.openlocfilehash: 4e2045113a6c98e2b3839a3a2cdd83105be94023
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: c52feeb8e5c85d38dfa1623ecdd7c2ee2a381fbd
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558186"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667703"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Een beveiligde omgeving voor het delen met gasten maken
 
@@ -160,12 +160,12 @@ Het is belangrijk op te merken dat gasten toegang kunnen krijgen tot teams of gr
 
 U kunt het risico op een aanval beperken en het beheer vereenvoudigen door gastgebruikers alleen toegang te verlenen tot uw teams, sites en bestanden via een webbrowser.
 
-Voor Microsoft 365 en Teams wordt dit gedaan met beleid voor voorwaardelijke toegang van Azure AD. Voor SharePoint is dit geconfigureerd in het SharePoint-beheercentrum. (U kunt ook [vertrouwelijkheidslabel gebruiken om de toegang van gasten te beperken tot alleen webtoegang ](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).)
+Voor Microsoft 365 en Teams wordt dit gedaan met beleid voor voorwaardelijke toegang van Azure AD. Voor SharePoint is dit geconfigureerd in het SharePoint-beheercentrum. (U kunt ook [vertrouwelijkheidslabels gebruiken om de toegang van gasten te beperken tot alleen webtoegang ](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).)
 
-De toegang van gasten beperken tot alleen webtoegang voor groepen en teams
+De toegang van gasten beperken tot alleen webtoegang voor Groepen en Teams:
 
 1. Ga naar [Beleid voor voorwaardelijke toegang in Azure](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade).
-2. Klik in de blade **Voorwaardelijke toegang - Beleid** op **Nieuw beleid**.
+2. Klik in de blade **voorwaardelijke toegang - beleid** op **nieuw beleid**.
 3. Typ een naam in het vak **Naam**.
 4. Klik onder **toewijzingen** op **gebruikers en groepen**.
 5. Selecteer op de blade **Gebruikers en groepen**, de optie **Gebruikers en groepen selecteren**. Schakel vervolgens het selectievakje **Alle gasten en externe gebruikers** in.
