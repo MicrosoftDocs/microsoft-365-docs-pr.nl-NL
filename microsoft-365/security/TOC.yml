@@ -366,7 +366,7 @@
           items:
             - name: Exchange Online Protection
               items:
-                - name: Het standaardbeleid tegen phishing configureren in EOP
+                - name: Antiphishingbeleid configureren in EOP
                   href: ./office-365-security/configure-anti-phishing-policies-eop.md
                 - name: Standalone EOP configureren om spam te bezorgen in de map Ongewenste e-mail
                   href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md

@@ -36,7 +36,7 @@ landingContent:
       url: mtp/mtp-evaluation.md
     - text: Proefversie van Microsoft 365 Defender pilootplaybook
       url: mtp/mtp-pilot.md
-- title: Uw extern personeel beveiligen
+- title: Uw externe werknemers beveiligen
   linkLists:
   - linkListType: get-started
     links:
