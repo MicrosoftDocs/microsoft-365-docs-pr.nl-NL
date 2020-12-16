@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Lees hoe u uw domein kunt toevoegen en instellen in Microsoft 365, zodat uw services zoals e-mail en Skype voor bedrijven online uw eigen domeinnaam kunnen gebruiken.
-ms.openlocfilehash: a4218b03e3f23ba8bc39c5eb84b42f87a71b9a65
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 492bc5d2a5f3fd9810f045e7effda1ea20fa15ed
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658597"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688247"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Microsoft 365 met een domeinregistratie
 
@@ -166,7 +166,7 @@ Hierna volgt een voorbeeld van extra stappen die mogelijk zijn vereist voor de h
 
 2. Selecteer het domein op de pagina **domeinen** en kies vervolgens **DNS-records**.
 
-3. Selecteer **aangepaste records** onder **DNS-instellingen** en kies vervolgens **nieuwe aangepaste record**.
+3. Selecteer onder **DNS beheren** de optie **aangepaste records** en kies vervolgens **nieuwe aangepaste record**.
 
 4. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
 

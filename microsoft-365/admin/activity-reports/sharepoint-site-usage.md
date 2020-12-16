@@ -21,12 +21,12 @@ search.appverid:
 - BSA160
 ms.assetid: 4ecfb843-e5d5-464d-8bf6-7ed512a9b213
 description: 'U kunt het rapport gebruik van SharePoint-sites gebruiken om te zien hoeveel bestanden gebruikers opslaan op SharePoint-sites, hoe vaak actief worden gebruikt en de totale gebruikte opslagruimte. '
-ms.openlocfilehash: 8c2428a49a42a1d259c69297feff13e5c00a9b8e
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 7da72dccb4a90ed204ffa785040b1968ac70feb3
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948854"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688203"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Microsoft 365-rapporten in het Beheercentrum-gebruik van SharePoint-sites
 
@@ -38,10 +38,13 @@ Microsoft 365-rapporten in het Beheercentrum wordt niet ondersteund voor GCC Hig
  
 ## <a name="how-to-get-to-the-sharepoint-site-usage-report"></a>Het gebruiksrapport voor SharePoint-sites verkrijgen
 
-1. Ga in het Beheercentrum naar het **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">gebruik</a>van rapporten.
-
+1. Ga in het Beheercentrum naar het  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">gebruik</a>van rapporten.
     
-2. Selecteer in de vervolgkeuzelijst **een rapport selecteren** de optie **SharePoint-** \> **site gebruik**.
+2. Klik onder **SharePoint-bestanden** op **meer weergeven**. 
+
+3. Klik naast **SharePoint-activiteit** op de pijl-omlaag om het menu te openen.
+
+4. Selecteer gebruik van **SharePoint-** \> **sites**.
   
 ## <a name="interpreting-the-sharepoint-site-usage-report"></a>Het gebruiksrapport voor SharePoint-sites interpreteren
 
@@ -55,7 +58,7 @@ Microsoft 365-rapporten in het Beheercentrum wordt niet ondersteund voor GCC Hig
 |4.  <br/> |De grafiek **Bestanden** toont het totale aantal bestanden in alle sites en het aantal actieve bestanden. Het totale aantal bestanden bestaat uit zowel de gebruikersbestanden als de systeembestanden. Een bestand wordt als actief beschouwd als het is opgeslagen, gesynchroniseerd, gewijzigd of gedeeld in de specifieke periode.  |
 |5.  <br/> |De grafiek **Opslag** toont de trend voor toegewezen en gebruikte opslagruimte tijdens de rapportageperiode.  <br/> |
 |zes.  <br/> |In de grafiek **Pagina's** ziet u het aantal bekeken pagina's voor alle sites.  <br/> |
-|7,5.  <br/> |U kunt grafieken die u ziet, filteren door een item te selecteren in de legenda. Selecteer in de grafiek **files** bijvoorbeeld **files** of **Active files**. In het diagram **sites** kunt u **totale sites** of **actieve sites**selecteren. In de grafiek **opslag** kunt u de **toegewezen opslagruimte** en gebruikte **opslagruimte selecteren.** Door deze selectie te wijzigen, verandert de informatie in de rastertabel niet.  <br/> |
+|7,5.  <br/> |U kunt grafieken die u ziet, filteren door een item te selecteren in de legenda. Selecteer in de grafiek **files** bijvoorbeeld **files** of **Active files**. In het diagram **sites** kunt u **totale sites** of **actieve sites** selecteren. In de grafiek **opslag** kunt u de **toegewezen opslagruimte** en gebruikte **opslagruimte selecteren.** Door deze selectie te wijzigen, verandert de informatie in de rastertabel niet.  <br/> |
 |8:00.  <br/> | De tabel toont een onderverdeling van de activiteiten per site.  <br/> ![Kolom opties voor gebruiksrapport](../../media/sharepointsite-usage.png)           <br/> **Site-URL** is de volledige URL van de site.  <br/> **Verwijderd** is de verwijderstatus van de site. Het duurt minimaal zeven dagen voordat sites kunnen worden gemarkeerd als verwijderd.  <br/> **Site-eigenaar** is de gebruikersnaam van de primaire eigenaar van de site.  <br/>**Principal-naam van site-eigenaar** is het e-mailadres van de eigenaar van de site.  <br/> **Datum van laatste activiteit (UTC)** verwijst naar de datum waarop de laatste bestandsactiviteit is gedetecteerd of waarop een pagina is bekeken op de site.  <br/> **Bestanden** is het aantal bestanden op de site.  <br/> **Actieve bestanden** is het aantal actieve bestanden op de site.<br/> Opmerking: als er tijdens de opgegeven periode voor het rapportbestanden zijn verwijderd, is het aantal actieve bestanden dat in het rapport wordt getoond groter dan het huidige aantal bestanden op de site.<br/>**Opslag gebruikt (MB)** is de hoeveelheid opslagruimte die op dat moment op de site wordt gebruikt.  <br/> **Opslag toegewezen (MB)** is de maximale hoeveelheid opslagruimte die voor de site is toegewezen.  <br/> **Paginaweergaven** is het aantal keer dat pagina's op de site zijn bekeken.  <br/> **Pagina's bezocht** is het aantal unieke pagina's dat op de site is bezocht.  <br/> **Basiswebsjabloon** is de sjabloon die wordt gebruikt voor het maken van de site.  <br/> Opmerking: als u de gegevens wilt filteren op verschillende site typen, exporteert u de gegevens en gebruikt u de kolom hoofd websjabloon. <br/>Als de beleidsregels van uw organisatie rapporten verhinderen waarin gebruikersgegevens kunnen worden weergegeven, kunt u de privacy-instelling voor al deze rapporten wijzigen. Kijk eens naar de sectie **Hoe kan ik Details van gebruikersniveau verbergen?** in de [activiteitsrapporten in het Microsoft 365-Beheercentrum](activity-reports.md).  <br/> |
 |aanhaling.  <br/> |Selecteer **kolommen beheren** ![ ](../../media/13d2e536-de88-4db3-80c7-7a3a57298eb4.png) Als u kolommen wilt toevoegen aan of verwijderen uit het rapport.    <br/> |
 |10.  <br/> |U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel **door de export koppeling exporteren te** selecteren ![ ](../../media/4dc548cc-8061-48d5-9240-6793affca43a.png) . Hiermee exporteert u de gegevens voor alle sites en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 sites hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 sites hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.  <br/> Opmerking: wanneer de gegevens worden geëxporteerd naar een Excel-bestand, wordt de datum waarop de Rapportinhoud is gegenereerd in het bestand in de kolom **gegevens vanaf** weergegeven.      <br/>   |

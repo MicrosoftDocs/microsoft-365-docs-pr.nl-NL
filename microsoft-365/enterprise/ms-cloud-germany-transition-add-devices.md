@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: aanvullende informatie over apparaten voor services wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 941b836871f4ffb7f39f6e144675e9ee15510270
-ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
+ms.openlocfilehash: 1bbb4bf39db61a93844c21cd6062a70699b5d6d7
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49560854"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688651"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende informatie over apparaten voor de migratie van Microsoft Cloud Deutschland
 
@@ -247,7 +247,7 @@ Als u het apparaat wilt registreren en opnieuw wilt registreren voor Android van
 3.  Selecteer in het menu weglatingstekens (drie puntjes) de optie **apparaat verwijderen** en voltooi de verwijdering door het dialoogvenster te bevestigen.
 4.  U dient nu af te melden bij de bedrijfs portal-app. Selecteer **Aanmelden** om het apparaat opnieuw te registreren.
 
-Zie de informatie over Azure Active Directory in [aanvullende algemene informatie over de migratie van Microsoft Cloud Deutschland](ms-cloud-germany-transition-add-general.md#azure-active-directory)voor meer informatie over de acties die moeten worden uitgevoerd tijdens de migratie fase van deze werkbelasting of van invloed zijn op beheer of gebruik.
+Zie de informatie over Azure Active Directory (Azure AD) in [extra Azure AD-informatie voor de migratie van Microsoft Cloud-Deutschland](ms-cloud-germany-transition-azure-ad.md)voor meer informatie over de acties die moeten worden uitgevoerd tijdens de migratie fase van deze werkbelasting of van invloed zijn op beheer of gebruik.
 
 ## <a name="ios"></a>Apparaten
 
@@ -281,9 +281,9 @@ Aan de slag:
 
 Door de overgang navigeren:
 
-- [Acties en effecten bij migratie fasen](ms-cloud-germany-transition-phases.md)
+- [Acties en effecten voor de migratiefasen](ms-cloud-germany-transition-phases.md)
 - [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
-- Aanvullende informatie over [Services](ms-cloud-germany-transition-add-general.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Aanvullende informatie over [Azure AD](ms-cloud-germany-transition-azure-ad.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Cloud-apps:
 

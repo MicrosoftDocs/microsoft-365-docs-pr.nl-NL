@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Overzicht: informatie over de migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 37bf052739bf15c1a0d3712539779e9dff31d9e8
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 16e57eff5556d31d2d13ab6ce0d284719d63c44c
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551532"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688639"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Migratie van Microsoft Cloud Deutschland naar Office 365-Services in de nieuwe Duitse datacenter gebieden
 
@@ -71,7 +71,7 @@ De migratie wordt uitgevoerd in fasen die allemaal beginnen wanneer u zich [aanm
 
 De migratie begint niet meteen wanneer u zich kunt aanmelden. Uw organisatie wordt toegevoegd aan de lijst met tenants die zijn gepland voor toekomstige migratie. U kunt nu beginnen met de voor-werk fasen als dit een belangrijke van de succesvolle migratie en het gebruik is na voltooiing:
 
-- [Acties en effecten bij migratie fasen](ms-cloud-germany-transition-phases.md)
+- [Acties en effecten voor de migratiefasen](ms-cloud-germany-transition-phases.md)
 - [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
 
 Een week vóór het begin van de Tenant migratie ontvangt u een melding in de berichtencentrum-service als laatste waarschuwing dat u alle vereisten moet voltooien.
@@ -139,7 +139,7 @@ De volgende 15 Services zijn beschikbaar in de cloudservice van Microsoft Cloud 
 4. Delve-profiel
 5. Exchange Online Protection
 6. Defender voor Office 365
-7. Gevorderde eDiscovery
+7. Advanced eDiscovery
 8. Voorschot gegevensbeheer
 9. SharePoint Online
 10. Klant-lockbox (SharePoint Online)
@@ -159,7 +159,7 @@ Er zijn momenteel 29 services beschikbaar als onderdeel van Office 365-Services 
 6. Workplace Analytics
 7. Exchange Online Protection
 8. Defender voor Office 365
-9. Gevorderde eDiscovery
+9. Advanced eDiscovery
 10. Geavanceerd beveiligingsbeheer
 11. Information Rights Management
 12. Voorschot gegevensbeheer
@@ -288,9 +288,9 @@ Aan de slag:
 
 Door de overgang navigeren:
 
-- [Acties en effecten bij migratie fasen](ms-cloud-germany-transition-phases.md)
+- [Acties en effecten voor de migratiefasen](ms-cloud-germany-transition-phases.md)
 - [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
-- Aanvullende informatie over [Services](ms-cloud-germany-transition-add-general.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Aanvullende informatie over [Azure AD](ms-cloud-germany-transition-azure-ad.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Cloud-apps:
 

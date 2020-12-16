@@ -1,9 +1,9 @@
 ---
-title: Aanvullende informatie over de ervaring voor de migratie van Microsoft Cloud Deutschland
+title: Acties en gevolgen voor migratie fasen voor de migratie van Microsoft Cloud Deutschland (Geavanceerd)
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/01/2020
+ms.date: 12/11/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: aanvullende informatie over de gebruikerservaring wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 1eef8be624a92bf2dcaba8f0df2147697202be3a
-ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
+ms.openlocfilehash: 3f22ca9c380b3271d0c186be1f50fae4a0ea5bb9
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49560836"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688191"
 ---
-# <a name="additional-experience-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende informatie over de ervaring voor de migratie van Microsoft Cloud Deutschland 
+# <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>Acties en gevolgen voor migratie fasen voor de migratie van Microsoft Cloud Deutschland (Geavanceerd) 
 
-In de volgende secties vindt u aanvullende informatie over de ervaringen van klanten.
+In de volgende secties vindt u aanvullende informatie over de ervaringen van klanten wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.
 
 ## <a name="services"></a>Services
 
@@ -40,18 +40,6 @@ In de volgende secties vindt u aanvullende informatie over de ervaringen van kla
 | Migratie van Azure-bronnen. | Voor klanten die gebruikmaken van Office 365 en Azure-bronnen (bijvoorbeeld netwerken, compute en opslag), wordt de migratie van bronnen naar het Office 365 Services-service-exemplaar uitgevoerd. Deze migratie is verantwoordelijk voor klanten. Berichten in het berichtencentrum signaleren het begin. De migratie moet worden voltooid vóór voltooiing van de Azure AD-organisatie in de Office 365-service omgeving. | Azure-klanten | Voor Azure-migraties raadpleegt u de Azure Migration Playbook, [overzicht van migratie richtlijnen voor Azure Duitsland](https://docs.microsoft.com/azure/germany/germany-migration-main). |
 |||||
 
-<!--
-[Reference: Experience][Data Protection] Experience][
-[Reference: Experience][Federation] 
-[Reference: Experience][MFA]  
-
-
-[Reference: Experience – Post Migration][Hybrid]    
-        
-
-[Reference: Experience – During Migration] [Azure] 
--->
-
 ### <a name="exchange-online"></a>Exchange Online
 
 Met **set-UserPhoto**:
@@ -61,21 +49,12 @@ Met **set-UserPhoto**:
 | De nieuwe Duitse regio wordt toegevoegd aan een bestaande organisatie-instelling, en postvakken worden verplaatst naar Office 365-Services. | Exchange Online-configuratie voegt de nieuwe Go-Local Duitse regio toe aan de overgangs organisatie. Deze regio van Office 365-Services wordt ingesteld als standaard, zodat de interne taakverdelingsservice postvakken opnieuw kan distribueren naar het juiste standaardgebied in Office 365-Services. In deze overgang bevinden gebruikers aan de kant (Duitsland of Office 365-Services) zich in dezelfde organisatie en kunnen beide URL-eindpunten gebruiken. |  Exchange Online | Als het postvak van een gebruiker is gemigreerd, maar het postvak van een beheerder niet is gemigreerd, of andersom, kunnen beheerders de PowerShell-cmdlet **UserPhoto** niet uitvoeren. In deze situatie moet een beheerder een extra tekenreeks `ConnectionUri` tijdens de verbinding opgeven met behulp van de volgende syntaxis: <br><br> `https://outlook.office.de/PowerShell-LiveID?email=<user_email>` <br><br> waar `<user_email>` is de tijdelijke aanduiding voor de e-mail-id van de gebruiker van wie de foto moet worden gewijzigd met behulp van **set-UserPhoto**. |
 |||||
 
-<!--
-[Reference: Experience][Exchange Online]  [if using Set-UserPhoto] 
--->  
-
 Als u een hybride, on-premises implementatie gebruikt:
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 |Onboarding of offboarding-verplaatsingen van postvakken stoppen of verwijderen.  | Hierdoor wordt voorkomen dat verplaatsings aanvragen een fout veroorzaakt. | Exchange Online-klanten met hybride implementaties (on-premises) | Vereiste actie. Dit kan wel, vanwege storing van de service of van software-clients. |
 |||||
-
-<!--
-[Reference: Experience][Hybrid] 
---> 
-
 
 ### <a name="dynamics"></a>Dynamiek
 
@@ -104,10 +83,6 @@ Als u een hybride, on-premises implementatie gebruikt:
 | Klanten, Office Online tijdens Office-client cutover, voltooit Azure AD het Tenant bereik zodat ze verwijzen naar de Office 365-Services. | Met deze configuratiewijziging kunt u Office-clients bijwerken en de eindpunten van Office 365 services aanwijzen. | Alle Office-klanten | -Verwijder MSOID CName uit de klant die de eigenaar is van de klant, indien aanwezig. <br><br> -Gebruikers informeren om _alle_ Office-apps te sluiten en vervolgens aan te melden (of clients geforceerd opnieuw te starten en gebruikers aan te melden) als u wilt dat Office-clients de wijziging kunnen overnemen. <br><br> -Waarschuw gebruikers en helpdesk-medewerkers die gebruikers *kunnen* zien dat ze vragen om Office-apps binnen 72 uur na de cutover te activeren. <br><br> -Alle Office-toepassingen op persoonlijke apparaten moeten worden gesloten en gebruikers moeten zich afmelden en vervolgens weer aanmelden. Meld u op de gele activeringsbalk aan om opnieuw te activeren voor Office 365-Services. <br><br> Voor gedeelde computers zijn acties vereist die lijken op pc's die vergelijkbaar zijn met persoonlijke machines en waarvoor geen speciale procedure is vereist. <br><br> -Op mobiele apparaten moeten gebruikers zich afmelden bij apps, ze sluiten en opnieuw aanmelden. |
 |||||
 
-<!--
-[Reference: Experience][Office Apps]
---> 
-
 ## <a name="during-migration"></a>Tijdens de migratie
 
 
@@ -120,10 +95,6 @@ Voor eDiscovery:
 | Tijdens het migratieproces worden eDiscovery-zoekopdrachten mislukt of worden deze geretourneerd door de SharePoint Online-, OneDrive voor bedrijven-en Exchange Online-locaties die zijn gemigreerd. | Tijdens de migratie kunnen klanten het [nalevings centrum](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)voor de beveiliging en de functies voor de & beveiliging van de [inhoud](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)van de gebruikers blijven maken.  Zoekopdrachten naar SharePoint Online, OneDrive voor bedrijven en Exchange Online-locaties die zijn gemigreerd, leveren echter 0 resultaten op of veroorzaken een fout. Zie de kolom _impact_ voor herstel. | Alle klanten die eDiscovery gebruiken |  Wanneer een zoekopdracht 0 resultaten of een fout tijdens de migratie oplevert, kunt u de volgende actie ondernemen voor SharePoint Online: <br><br>  Download sites rechtstreeks vanuit de SharePoint Online-OneDrive voor bedrijven-site door de instructies te volgen in [bestanden en mappen downloaden vanuit OneDrive of SharePoint](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05). Voor deze methode zijn beheerdersmachtigingen voor SharePoint Online of alleen-lezen machtigingen voor de site vereist. <br><br> Als de limieten worden overschreden, zoals wordt uitgelegd in [bestanden en mappen downloaden vanuit OneDrive of SharePoint](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05), kunnen klanten de Synchronisatieclient van OneDrive voor bedrijven gebruiken aan de hand van de richtlijnen in [SharePoint-en teams-bestanden synchroniseren met uw computer](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88). <br><br> -Exchange Online <br><br> - [In-place eDiscovery in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/ediscovery/ediscovery) |
 |||||
 
-<!--
-[Reference: Experience – During Migration][ [eDiscovery]
--->          
-
 
 ### <a name="sharepoint-online"></a>SharePoint Online
 
@@ -132,20 +103,12 @@ Voor eDiscovery:
 | SharePoint en OneDrive worden doorgeschakeld. | SharePoint en OneDrive worden gemigreerd van Microsoft Cloud Deutschland naar Office 365-Services in deze fase. Bestaande Url's voor Microsoft Cloud Deutschland blijven behouden ( `contoso.sharepoint.de` ). Tokens die worden uitgegeven door Microsoft Cloud Deutschland of Office 365-Services zijn geldig tijdens de overgang. | SharePoint-klanten | Inflight SharePoint 2013-werkstromen worden tijdens de migratie verbroken en moeten na de migratie opnieuw worden gepubliceerd. |
 |||||
 
-<!--
-[Reference: Experience – During Migration][ [SPO]
--->  
-
 ### <a name="skype-for-business-online"></a>Skype voor Bedrijven Online
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 | Migratie van Skype voor bedrijven naar teams. | Bestaande Skype voor bedrijven-klanten worden gemigreerd naar Office 365-Services in Europa en worden vervolgens overgezet naar Microsoft teams in de Duitse regio van Office 365-Services. | Skype voor bedrijven-klanten |  PowerShell zal gebruiken voor het beheren van de instellingen en het beleid voor uw Tenant en gebruikers. Wanneer u verbinding maakt met een PowerShell-sessie, voegt u het volgende toe: <br><br> `-OverridePowershellUri "https://admin4E.online.lync.com/OcsPowershellOAuth"` |
 |||||
-
-<!--
-[Reference: Experience – During Migration][ [SfBO]
--->  
 
 
 ## <a name="post-migration"></a>Na de migratie
@@ -159,20 +122,12 @@ Voor hybride:
 | Azure AD Connect bijwerken. | Nadat de cut naar Azure AD is voltooid, gebruikt de organisatie Office 365-Services en is niet langer verbonden met Microsoft Cloud Deutschland. Op dit moment moet de klant ervoor zorgen dat het deltasynchronisatie proces is voltooid en vervolgens de tekenreekswaarde van `AzureInstance` 3 (Microsoft Cloud Deutschland) in 0 in het pad voor het register wijzigen `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` . | Hybride Azure AD-verbonden organisaties | Wijzig de waarde van `AzureInstance` de registersleutel. Er kan niet worden gemigreerd naar objecten die niet worden gesynchroniseerd wanneer de Microsoft Cloud Deutschland-eindpunten niet langer beschikbaar zijn. |
 |||||
 
-<!--
-[Reference: Experience – Post Migration][Hybrid]
---> 
-
 Voor federatieve verificatie:
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 | Verwijder vertrouwensrelaties van de vertrouwens partij van Microsoft Cloud Deutschland AD FS. | Nadat de cut naar Azure AD is voltooid, gebruikt de organisatie Office 365-Services en is niet langer verbonden met Microsoft Cloud Deutschland. De klant moet nu een vertrouwensrelatie tussen de partijen met de Microsoft Cloud Deutschland-eindpunten verwijderen. Dit kan alleen worden gedaan wanneer een toepassing van de klant Point-eindpunten van Microsoft Cloud Deutschland als een identiteits provider (IdP) wordt benut. | Organisaties voor Federatie verificatie | Zonder. |
 |||||
-
-<!--
-[Reference: Experience – Post Migration][Federated]
--->             
 
 Voor Azure AD:
 
@@ -181,10 +136,6 @@ Voor Azure AD:
 | Aanvragen om deel te nemen aan een Azure AD-groep in de afgelopen 30 dagen voordat de migratie opnieuw moet worden aangevraagd als de oorspronkelijke aanvraag niet is goedgekeurd. | Gebruikers van eindgebruikers moeten het toegangsvenster gebruiken om aanvragen te doen om deel te nemen aan een Azure AD-groep, als die aanvragen niet in de afgelopen 30 dagen voor de migratie zijn goedgekeurd. | Eindgebruikers van wie de goedkeuringsaanvragen van Azure AD-groepen niet in de afgelopen 30 dagen voor de migratie zijn goedgekeurd |  Als eindgebruiker: <ol><li>Ga naar [het Access-venster](https://account.activedirectory.windowsazure.com/r#/joinGroups).</li><li>Zoek een Azure AD-groep waarvoor de goedkeuring van het lidmaatschap binnen 30 dagen vóór de migratie is voltooid.</li><li>Verzoek om deel te nemen aan de Azure AD-groep.</li></ol> Aanvragen om deel te nemen aan een groep die minder dan 30 dagen actief zijn voordat de migratie kan niet worden goedgekeurd, tenzij ze na de migratie opnieuw worden aangevraagd. |
 |||||
 
-<!--
-[Reference: Experience – Post Migration][Azure AD]
---> 
-
 Voor DNS:
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
@@ -192,20 +143,12 @@ Voor DNS:
 | On-premises DNS services bijwerken voor Office 365-service-eindpunten. | Door de klant beheerde DNS-vermeldingen die verwijzen naar Office 365 Duitsland, moeten verwijzen naar de eindpunten van Office 365-Services. | Alle Office-klanten | Vereiste actie. Dit kan wel, vanwege storing van de service of van software-clients. |
 |||||
 
-<!--
- [Reference: Experience – Post Migration][DNS]
--->
-
 Voor services van derden voor Office 365-Services:
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 | Update partners en services van derden voor Office 365-Services-eindpunten. | -Services van derden en partners die verwijzen naar Office 365 Duitsland moeten verwijzen naar de eindpunten van Office 365 Services. Voorbeeld: opnieuw registreren, in uitlijning met leveranciers en partners, de versie van de galerie-app van toepassingen, indien beschikbaar. <br><br> -Wijs alle aangepaste toepassingen af waarbij de grafiek-API wordt benut `graph.microsoft.de` `graph.microsoft.com` . Andere Api's met gewijzigde eindpunten moeten ook worden bijgewerkt, indien van gebruik. <br><br> -Alle niet-eerste bedrijfstoepassings toepassingen wijzigen om om te leiden naar de wereldwijde eindpunten.  | Alle Office-klanten | Vereiste actie. Dit kan wel, vanwege storing van de service of van software-clients. |
 |||||
-
-<!--
- [Reference: Experience – Post Migration][]
---> 
 
 ### <a name="exchange-online"></a>Exchange Online
 
@@ -215,11 +158,6 @@ Als u een hybride Exchange-configuratie gebruikt:
 |:-------|:-----|:-------|:-------|
 | Voer de wizard hybride configuratie (HCW) uit voor Office 365-Services. | De bestaande HCW configuratie is bedoeld voor de ondersteuning van Microsoft Cloud Deutschland. Bij de migratie van Exchange Services is de on-premises configuratie van Microsoft Cloud Deutschland. | Exchange Online-klanten die een hybride implementatie uitvoeren | -Vereiste actie. Dit kan wel, vanwege storing van de service of van software-clients. Voordat migratie van een Exchange-postvak begint (met 5 of meer dagen), informeren klanten clients dat ze onboarding-of offboarding-verplaatsingen van hun postvakken stoppen en verwijderen.  Als dat niet het geval is, zien ze de fouten in hun verplaatsings verzoeken. <br><br> -Nadat Exchange-postvak migratie is voltooid, moet u klanten informeren dat ze onboarding en offboarding-verplaatsings berichten kunnen hervatten. <br> Het uitvoeren van **test-MigrationServerAvailabiilty**, een PowerShell-cmdlet, tijdens het migreren van Exchange via Microsoft Cloud Deutschland naar Office 365-Services werkt mogelijk niet. Het werkt echter goed na voltooiing van de migratie. <br><br> Als clients problemen ondervinden met referenties of autorisatie nadat de postvakken zijn gemigreerd, kunnen gebruikers hun on-premises beheerdersreferenties in het migratie-eindpunt `Set-MigrationEndpoint endpointName -Credential $(Get-Credential)` opnieuw invoeren, of ze ook instellen via het Configuratiescherm van Exchange (ECP).  |
 
-<!--
-[Reference: Experience – Post Migration][Hybrid]  
-[Reference: Experience – Post Migration][Exchange Online]
---> 
-
 Voor eDiscovery:
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
@@ -228,22 +166,12 @@ Voor eDiscovery:
 | Beleidsregels voor bewaarbeleid voor de gehele organisatie verwijderen die zijn gemaakt tijdens de voorafgaande migratiestappen | Klanten kunnen het bewaarbeleid voor de organisatie verwijderen dat is gemaakt tijdens de voorafgaande migratie van de klanten. | Alle klanten die een bewaarbeleid hebben toegepast als onderdeel van de voorbereidende migratiestappen. | Zonder. |
 |||||
 
-<!--
- [Reference: Experience – Post Migration][ [eDiscovery]             
-
-[Reference: Experience – Post Migration][ [eDiscovery]
--->             
-
 ### <a name="sharepoint-online"></a>SharePoint Online
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 | Publiceer 2013-werkstromen in SharePoint opnieuw. | Voor de voorafgaande migratie hebben we het aantal werkstromen van SharePoint 2013 verlaagd. De klant kan nu de werkstromen opnieuw publiceren wanneer de migratie is voltooid. | Alle Office-klanten | Dit is een vereiste actie. Dit kan niet, maar kan leiden tot verwarring van de gebruiker en de helpdesk. |
 | Items delen via Outlook | Het delen van items via Outlook werkt niet meer na de Tenant cutover. | SharePoint Online en OneDrive voor Bedrijven | -In SharePoint Online en OneDrive voor bedrijven kunt u items delen via Outlook. Nadat u op de knop Outlook hebt geklikt, wordt een deelbare koppeling gemaakt en naar een nieuw bericht in de Outlook Web app geduwd. <br><br> -Na Tenant cutover werkt deze methode van delen niet. Dit kent een bekend probleem. Deze Outlook-functie is echter in het pad van de afschaffing, en het oplossen van het probleem niet is gepland totdat de afschaffing is uitgerold. |
-
-<!--
- [Reference: Experience – Post Migration][ [SPO]
--->
 
 ## <a name="next-step"></a>Volgende stap
 
@@ -260,9 +188,9 @@ Aan de slag:
 
 Door de overgang navigeren:
 
-- [Acties en effecten bij migratie fasen](ms-cloud-germany-transition-phases.md)
+- [Acties en effecten voor de migratiefasen](ms-cloud-germany-transition-phases.md)
 - [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
-- Aanvullende informatie over [Services](ms-cloud-germany-transition-add-general.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Aanvullende informatie over [Azure AD](ms-cloud-germany-transition-azure-ad.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Cloud-apps:
 

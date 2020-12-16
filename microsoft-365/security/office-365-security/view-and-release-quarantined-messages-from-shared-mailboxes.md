@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
 description: Gebruikers kunnen informatie lezen over het weergeven van en werken met geplaatste berichten die zijn verzonden naar gedeelde postvakken waarnaar ze zijn gemachtigd.
-ms.openlocfilehash: 0c165395edc3a3032ece603cb8d9aac875443d7d
-ms.sourcegitcommit: 26c2f01d6f88f6c288b04f9f08062d68dd1e67e1
+ms.openlocfilehash: 34a401d3bff66926acd3e04d7144ce465dfa3dbb
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570940"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688027"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>Geplaatste berichten van gedeelde postvakken weergeven en vrijgeven
 
@@ -47,16 +47,6 @@ Ongeacht de methode kunnen gebruikers verwarring voorkomen door de kolom **geadr
 ## <a name="things-to-keep-in-mind"></a>Zaken waaraan u moet denken
 
 - De eerste gebruiker die in het gequarantined bericht moet handelen, bepaalt het gedrag van het bericht voor iedereen die het gedeelde Postvak gebruikt. Als een gebruiker een gedeeld postvak bijvoorbeeld opent door 10 gebruikers en een gebruiker besluit om het quarantaine bericht te verwijderen, wordt het bericht verwijderd voor alle tien gebruikers. Ook als een gebruiker besluit het bericht vrij te geven, wordt het vrijgegeven voor het gedeelde Postvak en is dit toegankelijk voor alle andere gebruikers van het gedeelde Postvak.
-
-- Als een gebruiker op dit moment meerdere berichten in quarantaine selecteert die naar het gedeelde Postvak zijn verzonden, worden de volgende onjuiste fouten weergegeven wanneer de gebruiker klikt op **berichten vrijgeven** of **berichten verwijderen** in het vervolgmenu **bulk acties** :
-
-  > U bent niet gemachtigd om alle geselecteerde berichten in quarantaine te brengen.
-  >
-  > U bent niet gemachtigd om alle geselecteerde berichten in quarantaine te verwijderen.
-
-  Ongeacht de fout, wordt de actie uitgevoerd voor de berichten en kan de fout worden genegeerd.
-
-  ![Fout: fout bij het bulksgewijs uitbrengen of verwijderen van quarantaine berichten die zijn verzonden naar een gedeeld postvak.](../../media/quarantine-bulk-action-error.png)
 
 - De knop **afzender blokkeren** is op dit moment niet beschikbaar in de flyout **Details** voor berichten in quarantaine die naar het gedeelde Postvak zijn verzonden.
 

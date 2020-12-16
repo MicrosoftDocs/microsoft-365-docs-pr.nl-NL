@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Meer informatie over het verwijderen van een oud domein uit Microsoft 365 en het verplaatsen van gebruikers en groepen naar een ander domein.
-ms.openlocfilehash: cddbb0ef9cf48147e33b93a4a8def15576edfab5
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 02ec704e400af76c25c0eb54de10291e2ef3caa2
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655528"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688259"
 ---
 # <a name="remove-a-domain"></a>Een domein verwijderen
 
@@ -219,9 +219,9 @@ Als u honderden of duizenden gebruikers hebt, gebruikt u PowerShell om alle gebr
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> U kunt het ['.onmicrosoft.com'](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)-domein niet uit uw account verwijderen.
+> U kunt het ['.onmicrosoft.com'](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)-domein niet uit uw account verwijderen. Wanneer u een domein verwijdert, worden de gebruikersaccounts weer omgezet in het '. onmicrosoft.com-adres als de primaire SMTP/UserprincipalName.
   
-Werkt het nog steeds niet? Uw domein moet mogelijk handmatig worden verwijderd. [Bel ons gerust](../contact-support-for-business-products.md). We helpen u graag.
+Werkt het nog steeds niet? U moet uw domein mogelijk handmatig verwijderen. [Bel ons een gesprek](../contact-support-for-business-products.md) en wij helpen u onze aandacht te trekken.
   
 ::: moniker-end
 

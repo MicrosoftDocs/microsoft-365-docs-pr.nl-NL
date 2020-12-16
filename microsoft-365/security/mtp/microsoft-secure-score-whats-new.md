@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 4b25f701aca24563dc4f1a15f78a80e1e2064367
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: 253e85da7bb85a0722831851f00051a50a96153e
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604381"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688409"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
@@ -34,6 +34,17 @@ ms.locfileid: "49604381"
 Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Posture wilt maken, hebben we enkele wijzigingen aangebracht. Zie voor meer informatie over geplande wijzigingen wat er wordt weergegeven [in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md)
 
 Secure Score Microsoft is te vinden https://security.microsoft.com/securescore in het [microsoft 365-Beveiligingscentrum](overview-security-center.md).
+
+## <a name="december-2020"></a>December 2020
+
+### <a name="added-6-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Extra uitbreidingen voor kwaliteits verbeteringen toegevoegd voor Microsoft Defender voor eindpunten (voorheen Microsoft Defender ATP):
+
+- De minimum lengte van een wachtwoord instellen op veertien of meer tekens
+- ' Wachtwoordgeschiedenis afdwingen ' instellen op een of meer wachtwoorden
+- Stel ' Maximale wachtwoordduur ' in ' 60 of minder dagen, maar niet 0 '
+- Stel ' minimale wachtwoordduur ' in op ' 1 of meer dag (en) '
+- Het ingebouwde beheerdersaccount uitschakelen
+- Het ingebouwde gastaccount uitschakelen
 
 ## <a name="november-2020"></a>November 2020
 

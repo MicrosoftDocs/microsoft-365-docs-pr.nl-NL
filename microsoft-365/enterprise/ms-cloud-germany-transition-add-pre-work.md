@@ -1,9 +1,9 @@
 ---
-title: Aanvullende gegevens van vóór het werk voor de migratie van Microsoft Cloud Deutschland
+title: Voor de migratie van Microsoft Cloud Deutschland
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/01/2020
+ms.date: 12/11/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -17,15 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
-description: 'Overzicht: aanvullende informatie over voorwerkers wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 41953aa9d91faa91bd983fbbc8d93baf08c172ed
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+description: 'Overzicht: voor werk wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
+ms.openlocfilehash: 1bb6a1b80da462da2218f32fbbc2899ae651a3ec
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551706"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688453"
 ---
-# <a name="additional-pre-work-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende gegevens van vóór het werk voor de migratie van Microsoft Cloud Deutschland
+# <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Voor de migratie van Microsoft Cloud Deutschland
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
@@ -65,10 +65,6 @@ Als u SharePoint 2013 hebt:
 | U kunt SharePoint 2013-werkstromen beperken en gebruiken tijdens de migratie van SharePoint Online. | Maak werkstromen van SharePoint 2013 en voer binnen de vlucht-werkstromen vóór overgangen in. | SharePoint Online-klanten | Inactief kan leiden tot een andere gebruiker en een helpdesk. |
 |||||
 
-<!--
-[Reference:  If Pre-Work][ SharePoint 2013 ]
---> 
-
 ## <a name="mobile"></a>Mobile
 
 Als u gebruikmaakt van een MDM-oplossing (Mobile Device Management) van derden:
@@ -77,10 +73,6 @@ Als u gebruikmaakt van een MDM-oplossing (Mobile Device Management) van derden:
 |:-------|:-----|:-------|:-------|
 | Bepalen of een herconfiguratie vereist is na de migratie. | MDM-oplossingen kunnen `outlook.de` eindpunten bereiken. In deze overgang naar Office 365-services moeten Clientprofielen worden bijgewerkt naar de URL van Office 365-Services `outlook.office365.com` . | Gebruikers van Exchange Online en MDM | Clients kunnen blijven werken terwijl het `outlook.de` eindpunt toegankelijk is, maar het lukt niet als Microsoft Cloud Deutschland-eindpunten niet langer beschikbaar zijn. |
 |||||
-
-<!--
-[Reference:  If Pre-Work][ Mobile]
--->             
 
 ## <a name="line-of-business-apps"></a>Line-of-Business-Apps
 
@@ -91,20 +83,12 @@ Als u een service van derden of line-of-business-toepassingen (LOB) gebruikt die
 | Bepalen of een herconfiguratie vereist is na de migratie. | Services en toepassingen van derden die zijn geïntegreerd met Office 365, kunnen worden gecodeerd met de verwachte IP-adressen en Url's van Microsoft Cloud Deutschland. | Alle klanten | Vereiste actie. Inactief kan leiden tot storing van de service of clientsoftware. |
 |||||
 
-<!--
-[Reference:  If Pre-Work][ LOB]
---> 
-
 ## <a name="azure"></a>Azure 
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 | Bepaal welke Azure-Services worden gebruikt en voorbereiden voor toekomstige migratie van Duitsland naar de Office 365 service-Tenant door samen te werken met uw partners. Voer de stappen uit die worden beschreven in de [Azure Migration Playbook](https://docs.microsoft.com/azure/germany/germany-migration-main). | De migratie van Azure-resources is een verantwoordelijkheid voor de klant en vereist handmatige activiteiten na de vastgestelde stappen. In dit voorbeeld is de implementatie van Azure-Services op basis van een succesvolle migratie van Azure-Services. <br><br> Voor klanten van Office 365 Duitsland met een Azure-abonnement onder dezelfde identiteits partitie (organisatie) moet de door Microsoft vastgestelde volgorde volgen wanneer ze de migratie van abonnementen en services kunnen starten. | Azure-klanten | -Klanten kunnen meerdere Azure-abonnementen hebben, elk abonnement met infrastructuur, services en platform onderdelen. <br><br> -Beheerders moeten abonnementen en belanghebbenden identificeren om ervoor te zorgen dat de migratie en validatie van de gebruiker kunnen worden ingeschakeld als onderdeel van deze migratie gebeurtenis. <br><br> Het voltooien van de migratie van deze abonnementen en Azure-onderdelen binnen de vereiste tijdlijn is van invloed op het voltooien van de overgang van Office en Azure AD naar Office 365-Services en kan leiden tot verlies van gegevens.  <br><br> -Met een bericht in het berichtencentrum wordt het tijdstip aangegeven waarop een door de klant geactiveerde migratie kan beginnen. |
 |||||
-
-<!--
-[Reference:  If Azure Pre-Work][ Azure]
--->  
 
 ## <a name="dynamics-365"></a>Dynamics 365
 
@@ -113,20 +97,12 @@ Als u een service van derden of line-of-business-toepassingen (LOB) gebruikt die
 | Download de productieomgeving van de Dynamics SQL-instantie van uw Dynamics 365-abonnement in Microsoft Cloud Deutschland voor de sandbox-abonnementen voor Dynamics 365. De nieuwste productie back-up moet worden teruggezet in de sandbox vóór de sandbox-migratie. | Voor de migratie van Dynamics 365 moet klanten ervoor zorgen dat de sandbox-omgeving wordt vernieuwd met de nieuwste productiedatabase. | Microsoft Dynamics-klanten | Het FastTrack-team helpt klanten bij het uitvoeren van droge versies om de versie-upgrade van 8. x tot en met 9.1. x te valideren. |
 |||||
 
-<!--
-[Reference: Prework][Dynamics]
--->             
-
 ## <a name="power-bi"></a>Power BI
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 | Verwijderen van objecten uit Power BI-abonnementen die niet worden gemigreerd van Power BI Microsoft Cloud Deutschland naar Office 365-Services. | Voor de migratie van Power BI-Services moet de actie klant zijn gebruikt om bepaalde artefacten, zoals gegevenssets en dashboards, te verwijderen. | Power BI-klanten | Beheerders moeten mogelijk de volgende items van hun abonnement verwijderen: <br> -Real-Time datasets (bijvoorbeeld streaming of push datasets) <br> -Power BI on-premises configuratie van gegevens gateway en gegevensbron |
 |||||
-
-<!--
-[Reference: Prework][Power BI]
---> 
 
 ## <a name="dns"></a>Server
 
@@ -135,20 +111,12 @@ Als u een service van derden of line-of-business-toepassingen (LOB) gebruikt die
 | DNS-wijziging nakijken en voorbereiden als de huidige DNS een MSOID-CName-vermelding heeft. | Gewijzigde DNS-zone van klant | Klanten van Office-client services | Werk de TTL (time to Live) voor klant-DNS-records bij tot 5 minuten als er een MSOID CName bestaat. |
 |||||
 
-<!--
-[Reference: Prework][DNS]
--->             
-
 ## <a name="federated-identity"></a>Federatieve identiteit
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
 | Genereer een vertrouwensrelatie van een vertrouwensrelatie voor globale Azure AD-eindpunten. | Klanten moeten handmatig een RPT (RPT) voor een vertrouwensrelatie (RPT) maken voor [globale](https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml) eindpunten. U kunt dit doen door een nieuwe RPT via de GEBRUIKERSINTERFACE toe te voegen, door gebruik te maken van de URL van de Global Federatie metagegevens en vervolgens [Azure AD rap-claim regels](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator#:~:text=%20Azure%20AD%20RPT%20Claim%20Rules%20%201,Azure%20AD.%20This%20will%20be%20what...%20More%20) (in de Help van AD FS) te gebruiken om de claimregels te genereren en deze te importeren in de RPT. | Organisaties voor Federatie verificatie | Vereiste actie. Inactief maakt een service-impact tijdens de migratie. |
 |||||
-
-<!--
-[Reference: Prework][Federation]
--->  
 
 ## <a name="more-information"></a>Meer informatie
 
@@ -161,9 +129,9 @@ Aan de slag:
 
 Door de overgang navigeren:
 
-- [Acties en effecten bij migratie fasen](ms-cloud-germany-transition-phases.md)
+- [Acties en effecten voor de migratiefasen](ms-cloud-germany-transition-phases.md)
 - [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
-- Aanvullende informatie over [Services](ms-cloud-germany-transition-add-general.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Aanvullende informatie over [Azure AD](ms-cloud-germany-transition-azure-ad.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Cloud-apps:
 

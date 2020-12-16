@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Totaal '
-ms.openlocfilehash: 76cad72d742f6bf7ab6ddd1f90bfe0e5a2435df1
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 35d11825148af883299aed1bcb2346d26d52408c
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49552084"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688675"
 ---
 # <a name="how-to-opt-in-for-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Opt-in voor migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in de nieuwe Duitse datacenter regio's
 
@@ -77,9 +77,9 @@ Aan de slag:
 
 Door de overgang navigeren:
 
-- [Acties en effecten bij migratie fasen](ms-cloud-germany-transition-phases.md)
+- [Acties en effecten voor de migratiefasen](ms-cloud-germany-transition-phases.md)
 - [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
-- Aanvullende informatie over [Services](ms-cloud-germany-transition-add-general.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Aanvullende informatie over [Azure AD](ms-cloud-germany-transition-azure-ad.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Cloud-apps:
 

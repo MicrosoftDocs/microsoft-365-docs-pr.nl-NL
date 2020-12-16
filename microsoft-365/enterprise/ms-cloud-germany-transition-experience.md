@@ -1,9 +1,9 @@
 ---
-title: Gebruikerservaring tijdens de migratie naar Office 365-Services in de nieuwe Duitse datacenter gebieden
+title: Wat is er gewijzigd voor de migratie naar Office 365-Services in de nieuwe Duitse datacenter gebieden
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/01/2020
+ms.date: 12/11/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,15 +18,15 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: 'Overzicht: informatie over het overstappen van overstappen van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: a44fbe504a9a710856deeb3baf258feb124ce7ae
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+description: 'Overzicht: informatie over wat er is gewijzigd voor overstap van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter.'
+ms.openlocfilehash: 0415f7b95cb9a9f2625798311946dac0f1f7c2c0
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551693"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688610"
 ---
-# <a name="customer-experience-during-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Gebruikerservaring tijdens de migratie naar Office 365-Services in de nieuwe Duitse datacenter gebieden
+# <a name="what-has-changed-for-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Wat is er gewijzigd voor de migratie naar Office 365-Services in de nieuwe Duitse datacenter gebieden
 
 Tenant migraties zijn ontworpen om beheerders en gebruikers het minimum te bieden. Er zijn echter wel enkele aandachtspunten voor elke werkbelasting. Lees de volgende secties voor een beter begrip van de migratie ervaring voor de werkbelasting.
 
@@ -107,9 +107,9 @@ Aan de slag:
 
 Door de overgang navigeren:
 
-- [Acties en effecten bij migratie fasen](ms-cloud-germany-transition-phases.md)
+- [Acties en effecten voor de migratiefasen](ms-cloud-germany-transition-phases.md)
 - [Extra vooraf werken](ms-cloud-germany-transition-add-pre-work.md)
-- Aanvullende informatie over [Services](ms-cloud-germany-transition-add-general.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
+- Aanvullende informatie over [Azure AD](ms-cloud-germany-transition-azure-ad.md), [apparaten](ms-cloud-germany-transition-add-devices.md), [ervaringen](ms-cloud-germany-transition-add-experience.md)en [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
 Cloud-apps:
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Meer informatie over hoe u toegang krijgt tot on-premises bronnen, zoals line-of-Business-Apps, bestandsshares en printers van een Azure Active Directory-apparaat met Windows 10.
-ms.openlocfilehash: 2144268f5cbab67c39d5902622c61c0c35e6481c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 22edf0c23d6318e1f70bcb21b2cd697ea0a75da4
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295305"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688228"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>On-premises resources openen vanuit een Azure AD-domein dat is gekoppeld aan Microsoft 365 Business Premium
 
@@ -63,4 +63,4 @@ Als het Windows-apparaat waarvan u Azure-AD lid bent geworden, eerder domein of 
 
 - Gebruikers kunnen zich niet verifiëren met toepassingen die afhankelijk zijn van Active Directory-verificatie. Evalueer de oudere app en overweeg, indien mogelijk, bij te werken naar een app die gebruikmaakt van moderne auth.
 
-- Active Directory-Printer detectie werkt niet. U kunt voor alle gebruikers direct printer paden maken of [hybride Cloud afdrukken](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)gebruiken.
+- Active Directory-Printer detectie werkt niet. U kunt direct printer paden voor alle gebruikers geven of [universeel afdrukken](https://aka.ms/UPDocs).

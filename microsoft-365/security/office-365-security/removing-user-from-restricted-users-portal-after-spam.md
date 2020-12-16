@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer informatie krijgen over het verwijderen van gebruikers uit de portal voor gebruikers met beperkte rechten in Office 365. Gebruikers worden toegevoegd aan de portal gebruikers met beperkte rechten voor het verzenden van uitgaande spam, meestal vanwege een inbreuk op het account.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f464a2c02ae6b6290e79cc9aff7d3a37bc08a6ff
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: bca9366fdb8cacdc58c12757e870c8ead8f1fa7a
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572439"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683044"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365
 
@@ -86,7 +86,7 @@ In het standaard waarschuwingsbeleid genaamd **Gebruiker beperkt tot het verzend
 
 3. In de doorlopende informatie die wordt weergegeven, controleert of configureert u de volgende instellingen:
 
-   - **Status**: Controleer of de waarschuwing is ingesteld op ![Wisselknop aan](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+   - **Status**: Controleer of de waarschuwing is ingesteld op ![Wisselknop aan](../../media/scc-toggle-on.png).
 
    - **Geadresseerden**: Klik op **Bewerken** en controleer of configureer de volgende instellingen in het snelmenu **Geadresseerden bewerken**:
 
