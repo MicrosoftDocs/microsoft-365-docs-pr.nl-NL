@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het testen van e-mailfunctionaliteit vanaf mijn aangepast domein in een Microsoft 365-postvak met slechts twee testaccounts.
-ms.openlocfilehash: 8bb04edc9a7879edc2094f1fed667d5956174ea3
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 6cc5b1163f666af4bd13047ab3b1fda7fd747b5f
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295032"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688215"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>Testfase van Microsoft 365 uitvoeren vanaf mijn aangepaste domein
 
@@ -39,6 +39,8 @@ U kunt Microsoft 365 testen met de volgende vereisten en beperkingen:
 - Beheerders kunnen niet alle gebruikersaccounts vanaf één locatie beheren.
 
 - Gebruikers kunnen mogelijk geen gebruik maken van Microsoft 365-spamfilters.
+
+- Dit wordt aangeraden voor een heel klein aantal gebruikers en is enkel van toepassing op het gebruik van e-mail voor een testfase.
 
 ## <a name="set-up-a-microsoft-365-pilot"></a>Testfase van Microsoft 365 instellen
 
@@ -132,7 +134,7 @@ Controleer of u de volgende taken hebt uitgevoerd in Microsoft 365 of Office 365
 
 ### <a name="2-set-up-a-connector-from-microsoft-365-or-office-365-to-your-email-server"></a>2. Een connector van Microsoft 365 of Office 365 instellen op uw e-mailserver.
 
-Als u een connector wilt maken in Microsoft 365 of Office 365, klikt u op **Beheer**en klikt u vervolgens op **Exchange** om naar het Exchange-Beheercentrum te gaan. Klik vervolgens in het bij **e-mailstroom** op **connectors**.
+Als u een connector wilt maken in Microsoft 365 of Office 365, klikt u op **Beheer** en klikt u vervolgens op **Exchange** om naar het Exchange-Beheercentrum te gaan. Klik vervolgens in het bij **e-mailstroom** op **connectors**.
 
 Connectors instellen met de wizard.
 
@@ -189,4 +191,3 @@ Aangezien er slechts twee testgebruikers worden verplaatst en gebruiker A en geb
 
 Nadat de items naar de juiste locaties in het Microsoft 365-postvak zijn geïmporteerd, kunnen ze overal op elk apparaat worden geopend.
 
-Als er meer postvakken betrokken zijn of als Outlook niet wordt gebruikt, kunt u de migratiehulpprogramma's in het Exchange-beheercentrum gebruiken. Ga aan de slag door naar het Exchange-beheercentrum te gaan en de aanwijzingen te volgen in [E-mail migreren vanaf een IMAP-server naar Exchange Online-postvakken](https://docs.microsoft.com/exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes).

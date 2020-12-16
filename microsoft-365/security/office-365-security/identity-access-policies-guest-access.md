@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: c2c01278831433c02e5c869dba83f223eea57d27
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 376845d8e3657b91b9efe0357e94f4bec3a84078
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683233"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688276"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Beleid voor het toestaan van toegang via gast en externe B2B
 
@@ -44,7 +44,7 @@ In de volgende tabel vindt u een overzicht van de beleidsregels die u moet maken
 
 |Beveiligingsniveau|Lijnen|Meer informatie|
 |---|---|---|
-|**Basislijn**|[MFA vereisen altijd voor gast en externe gebruikers](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Maak dit nieuwe beleid en configureer de volgende opties: <ul><li> Voor **toewijzingen > gebruikers en groepen > toevoegen**, kiest **u gebruikers en groepen selecteren** en selecteert u vervolgens **alle gast en externe gebruikers**. </li><li> Voor **toewijzingen > voorwaarden > aanmelden**, schakelt u alle opties uit als u meervoudige verificatie (MFA) altijd wilt afdwingen.</li>|
+|**Basislijn**|[MFA vereisen altijd voor gast en externe gebruikers](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Maak dit nieuwe beleid en configureer de volgende opties: <ul><li>Voor **toewijzingen > gebruikers en groepen > toevoegen**, kiest **u gebruikers en groepen selecteren** en selecteert u vervolgens **alle gast en externe gebruikers**.</li><li>Voor **toewijzingen > voorwaarden > aanmelden**, schakelt u alle opties uit als u meervoudige verificatie (MFA) altijd wilt afdwingen.</li></ul>|
 ||[MFA vereisen wanneer het aanmeld risico *normaal* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Dit beleid wijzigen om gast en externe gebruikers uit te sluiten.|
 ||[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Dit beleid wijzigen om gast en externe gebruikers uit te sluiten.|
 
