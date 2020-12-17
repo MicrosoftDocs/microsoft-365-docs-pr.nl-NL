@@ -11,12 +11,12 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het plannen van onderwerpen over beveiliging en privacy in Microsoft 365
-ms.openlocfilehash: 7b88e5bbc8158ebd7dea65b2ecbf77085651b439
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: b3c33a49b8273c5f7830f08de17af9757a858413
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668164"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698495"
 ---
 # <a name="topic-experiences-security-and-privacy"></a>Onderwerp Ervaar beveiliging en privacy
 
@@ -26,7 +26,7 @@ Het instellen van het kennis netwerk heeft geen invloed op bestaande toegangsbeh
 
 In dit artikel wordt beschreven hoe u onderwerp kunt gebruiken in een beveiligings perspectief en de opties die de kennis beheerders en kennis beheerders hebben om de zichtbaarheid van het onderwerp te bepalen. Lees dit artikel als onderdeel van uw [planning voor topic Experience](plan-topic-experiences.md).
 
-U moet bekend zijn met de [functies](knowledge-management-overview.md)van het onderwerp, het [onderwerp centrum](topic-center-overview.md)en [werken met onderwerpen in het onderwerp centrum](work-with-topics.md) voordat u dit artikel leest.
+U moet bekend zijn met de [functies](topic-experiences-overview.md)van het onderwerp, het [onderwerp centrum](topic-center-overview.md)en [werken met onderwerpen in het onderwerp centrum](manage-topics.md) voordat u dit artikel leest.
 
 ## <a name="what-users-can-see-in-topics"></a>Wat gebruikers in de onderwerpen kunnen zien
 

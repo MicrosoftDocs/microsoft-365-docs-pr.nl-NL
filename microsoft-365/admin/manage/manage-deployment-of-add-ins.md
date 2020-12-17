@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Informatie over het implementeren van invoegtoepassingen voor gebruikers en groepen in uw organisatie met behulp van gecentraliseerde implementatie in het Beheercentrum.
-ms.openlocfilehash: 9708ec9877c4d07b0cf93ea9d6815303236eff4b
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+ms.openlocfilehash: 37fac34449ee39366778e29c0eeddf1fc7bfdd37
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830635"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698287"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Invoegtoepassingen implementeren in het beheercentrum
 
@@ -61,9 +61,9 @@ Afhankelijk van de grootte van de doelgroep, kunt u implementatie stappen toevoe
 
 Zie [bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie](centralized-deployment-of-add-ins.md)voordat u begint.
   
-1. Ga in het Beheercentrum naar de pagina **Settings** met \> **invoegtoepassingen** voorinstellingen. Als u de pagina met **invoeg** toepassingen niet ziet, gaat u naar de pagina met invoegtoepassingen voor de **instellingen** voor \> **geïntegreerde apps** \> **Add-ins** .
+1. Ga in het Beheercentrum naar de pagina  met \> **invoegtoepassingen** voorinstellingen. Als u de pagina met **invoeg** toepassingen niet ziet, gaat u naar de pagina met invoegtoepassingen voor de **instellingen** voor \> **geïntegreerde apps** \>  .
     
-2. Selecteer **invoegtoepassing implementeren** boven aan de pagina en selecteer **volgende** .
+2. Selecteer **invoegtoepassing implementeren** boven aan de pagina en selecteer **volgende**.
  
     > [!NOTE]
     > Het Beheercentrum wordt bijgewerkt naar de implementatie ervaring met geïntegreerde apps. Als u de bovenstaande stappen niet ziet, gaat u naar de sectie gecentraliseerde implementatie door naar de **instellingen** van de  >  **geïntegreerde apps** te gaan. Kies invoeg **toepassingen** op de bovenkant van de pagina **geïntegreerde apps** .
@@ -72,17 +72,17 @@ Zie [bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor
   
 4. Als u de optie voor het toevoegen van een invoegtoepassing uit de Office Store hebt geselecteerd, maakt u de selectie van de invoegtoepassing. </br>
 
-    U kunt beschikbare invoegtoepassingen op Categorieën weergeven: **voorgesteld voor u** , **beoordeling** of **naam** . Alleen gratis invoegtoepassingen zijn beschikbaar in de Office Store. Betaalde invoegtoepassingen worden momenteel niet ondersteund. Wanneer u een invoegtoepassing hebt geselecteerd, accepteert u de voorwaarden om door te gaan. <br/> 
+    U kunt beschikbare invoegtoepassingen op Categorieën weergeven: **voorgesteld voor u**, **beoordeling** of **naam**. Alleen gratis invoegtoepassingen zijn beschikbaar in de Office Store. Betaalde invoegtoepassingen worden momenteel niet ondersteund. Wanneer u een invoegtoepassing hebt geselecteerd, accepteert u de voorwaarden om door te gaan. <br/> 
 
     > [!NOTE] 
     > Met de optie Office Store worden updates en verbeteringen automatisch geïmplementeerd voor gebruikers.
 
-5. Selecteer op de volgende pagina **iedereen** , **specifieke gebruikers/groepen** , of **alleen ik** wil opgeven met wie de invoegtoepassing wordt geïmplementeerd. Gebruik het vak Zoeken om specifieke gebruikers of groepen te vinden. <br/>
+5. Selecteer op de volgende pagina **iedereen**, **specifieke gebruikers/groepen**, of **alleen ik** wil opgeven met wie de invoegtoepassing wordt geïmplementeerd. Gebruik het vak Zoeken om specifieke gebruikers of groepen te vinden. <br/>
 
     > [!NOTE] 
     > Zie [Staten van invoegtoepassingen](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center.md)voor meer informatie over andere statussen die van toepassing zijn op een invoegtoepassing.
   
-6. Selecteer **implementeren** .
+6. Selecteer **implementeren**.
   
 7. Wanneer de invoegtoepassing wordt geïmplementeerd, wordt een groen vinkje weergegeven. Volg de instructies op de pagina om de invoegtoepassing te testen.
 
@@ -138,7 +138,7 @@ Updates voor invoegtoepassingen worden als volgt uitgevoerd:
 
 [Invoegtoepassingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md)
 
-[Office-invoegtoepassingen maken](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins-fundamentals).
+[Maak uw eerste invoegtoepassing voor het taakvenster van Word](https://docs.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator).
 
 [Minderjarigen en het verkrijgen van invoegtoepassingen uit de Store](minors-and-acquiring-addins-from-the-store.md)
   

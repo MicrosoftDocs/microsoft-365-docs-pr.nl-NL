@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Licentie uit een gedeeld postvak verwijderen om het aan een andere gebruiker toe te wijzen. '
-ms.openlocfilehash: 43d32744afe42a8f244160ace20c1d989f501b28
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 11d5185cc3f79899a737ddccc0a93160acb380bc
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445493"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698301"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Een licentie uit een gedeeld postvak verwijderen
 
@@ -45,6 +45,7 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 > 1. Het gedeelde Postvak heeft meer dan 50 GB opslagruimte in gebruik.
 > 2. Het gedeelde Postvak gebruikt in-place archivering.
 > 3. Het gedeelde Postvak wordt in de wachtstand geplaatst.
+> 4. Voor het gedeelde Postvak is een Microsoft Defender-licentie toegewezen.
 
   
 ## <a name="remove-the-license"></a>De licentie verwijderen
@@ -62,7 +63,7 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 
 4. Selecteer **Wijzigingen opslaan**.
 
-5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie**gewijzigd.
+5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie** gewijzigd.
 
 6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md).
 
@@ -79,9 +80,9 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 
 3. Stel op de pagina **product licenties** de wisselknop op **uit** voor de licentie die u wilt verwijderen.
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
-5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie**gewijzigd.
+5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie** gewijzigd.
 
 6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md).
 
@@ -98,13 +99,15 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 
 3. Stel op de pagina **product licenties** de wisselknop op **uit** voor de licentie die u wilt verwijderen.
 
-4. Kies **Opslaan**.
+4. Selecteer **Opslaan**.
 
-5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie**gewijzigd.
+5. Wanneer u terugkeert naar de pagina **actieve gebruikers** , wordt de status van het gedeelde Postvak zonder **licentie** gewijzigd.
 
 6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement](../../commerce/licenses/remove-licenses-from-subscription.md).
 
 ::: moniker-end 
+
+ 
 
 ## <a name="related-articles"></a>Verwante artikelen
 

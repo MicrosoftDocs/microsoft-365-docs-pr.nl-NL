@@ -1,5 +1,6 @@
 ---
-title: Microsoft aanbevelingen voor EOP en Defender voor de beveiligingsinstellingen van Office 365, aanbevelingen, kader voor het beleid voor geadresseerden, berichten rapporteren en conformeert, DomainKeys geïdentificeerd, wat betekent dat u E-mail, stappen, hoe dit werkt, hoe u werkt met basislijnen, wat betekent dat het werkt, de basislijnen voor het werken met Office 365 365 365
+title: Microsoft aanbevelingen voor EOP en Defender voor de beveiligingsinstellingen van Office 365
+keywords: Aanbevelingen voor beveiliging van Office 365, beleidsregels voor het beleid van de organisatie, het rapporteren van berichten en conformiteit voor domein berichten, het werken met DomainKeys, stappen, procedures voor het werken met het werken met basislijnen van Office 365, het instellen van Defender voor Office 365 365, het instellen van EOP, beveiliging configureren
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Wat zijn de aanbevolen procedures voor de beveiligingsinstellingen van Exchange Online Protection (EOP) en Defender for Office 365? Wat is de huidige aanbevelingen voor standaardbeveiliging? Wat moet worden gebruikt als u striktere informatie wilt? En welke extra's ontvangt u als u ook Defender voor Office 365 gebruikt?
-ms.openlocfilehash: 192e37a1a9a373f7b6712600bc3c81189f7c51ad
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: d731b75e05dcecc513c72b390b106491f7601c71
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615958"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698685"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365-beveiliging
 
@@ -122,7 +123,7 @@ Zie [anti malware-beleidsregels in Office 365 configureren](configure-anti-malwa
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**Wilt u geadresseerden informeren wanneer hun berichten in quarantaine worden geplaatst?** <p> _Actierij_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Als er malware in een e-mailbijlage is gedetecteerd, wordt het bericht in quarantaine geplaatst en kan het alleen door een beheerder worden vrijgegeven.|
+|**Wilt u geadresseerden informeren wanneer hun berichten in quarantaine worden geplaatst?** <p> _Actie_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Als er malware in een e-mailbijlage is gedetecteerd, wordt het bericht in quarantaine geplaatst en kan het alleen door een beheerder worden vrijgegeven.|
 |**Algemene bijlage typen filter** <p> _EnableFileFilter_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van bestandstypen, ongeacht de inhoud van de bijlage.|
 |**Malware 0-uur automatisch wissen** <p> _ZapEnabled_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
 |**Interne afzenders** van het niet-bezorgde bericht informeren <p> _EnableInternalSenderNotifications_|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`||
@@ -280,7 +281,7 @@ In PowerShell gebruikt u de cmdlets [New-SafeAttachmentPolicy](https://docs.micr
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Klep|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**Veilige bijlagen onbekende schadelijk malware-antwoord** <p> _Actierij_|Blokkeren <p> `Block`|Blokkeren <p> `Block`|Blokkeren <p> `Block`||
+|**Veilige bijlagen onbekende schadelijk malware-antwoord** <p> _Actie_|Blokkeren <p> `Block`|Blokkeren <p> `Block`|Blokkeren <p> `Block`||
 |**Bijlage omleiden bij detectie** : **omleiden inschakelen** <p> _Omleiden_ <p> _RedirectAddress_|Off, en geen e-mailadres opgegeven. <p> `$true` <p> geen|En geef een e-mailadres op. <p> `$true` <p> een e-mailadres|En geef een e-mailadres op. <p> `$true` <p> een e-mailadres|Berichten doorsturen naar een beveiligingsbeheerder voor revisie.|
 |**De bovenstaande selectie toepassen als malware wordt gescand op bijlagen wanneer de fout optreedt.** <p> _ActionOnError_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
 |

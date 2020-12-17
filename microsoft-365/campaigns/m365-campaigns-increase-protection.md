@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Hulp bij het verhogen van het beschermingsniveau in Microsoft 365
-ms.openlocfilehash: 99b9bfac7867d6f6b29571940f717667fd05a697
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2078f9b40f6f556b2aacee28d6ff3c25be90fcc4
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843254"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698449"
 ---
 # <a name="increase-threat-protection-for-microsoft-365-subscription"></a>Bedreigingsbeveiliging voor Microsoft 365-abonnement verhogen
 
@@ -151,7 +151,7 @@ Als u een anti-phishingfilter wilt maken in Defender voor Office 365, bekijkt u 
 |Acties kiezen|Als e-mail wordt verzonden door een geïmiteerde gebruiker: Kies **Bericht omleiden naar een ander e-mailadres** en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld *Alice <span> <span> @contoso. com*. <br/> Als e-mail wordt verzonden door een geïmiteerd domein: Kies **quarantaine bericht**.|
 |Postvak intelligentie|Standaard is postvak intelligentie geselecteerd wanneer u een nieuw anti-phishings beleid maakt. Voor de beste resultaten hoeft u **deze instelling niet** te selecteren.|
 |Vertrouwde afzenders en domeinen toevoegen|U kunt hier uw eigen domein of een ander vertrouwd domein toevoegen.|
-|Toegepast op|Selecteer **het domein van de ontvanger**. Selecteer **kiezen** onder **een van deze** opties. Selecteer **+ toevoegen**. Schakel het selectievakje in naast de naam van het domein, bijvoorbeeld *contoso. <span> <span> com* , in de lijst en selecteer vervolgens **toevoegen**. Selecteer **Gereed**.|
+|Toegepast op|Selecteer **het domein van de ontvanger**. Selecteer **kiezen** onder **een van deze** opties. Selecteer **+ toevoegen**. Schakel het selectievakje in naast de naam van het domein, bijvoorbeeld *contoso. <span> <span> com*, in de lijst en selecteer vervolgens **toevoegen**. Selecteer **Gereed**.|
 
 Zie [anti phishingfilter instellen in de Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)voor meer informatie.
 
@@ -171,7 +171,7 @@ Als u de **instellings** pagina nog niet ziet met kaarten in uw Tenant, raadplee
    ![Kies weergeven bij een grotere bescherming tegen geavanceerde bedreigingen.](../media/startatp.png)
 
 3. Kies aan de **slag** op de pagina **meer bescherming tegen geavanceerde bedreigingen** .
-4. Selecteer in het deelvenster dat wordt geopend, de selectievakjes naast **koppelingen en bijlagen in e-mail** , **Scan bestanden in SharePoint, OneDrive en teams** , en **Scan koppelingen in Office-bureaublad en Office Online-apps** onder **items voor schadelijke inhoud scannen**.
+4. Selecteer in het deelvenster dat wordt geopend, de selectievakjes naast **koppelingen en bijlagen in e-mail**, **Scan bestanden in SharePoint, OneDrive en teams**, en **Scan koppelingen in Office-bureaublad en Office Online-apps** onder **items voor schadelijke inhoud scannen**.
 
    Typ onder **koppelingen en bijlagen bij e-mail** de tekst alle gebruikers of de specifieke gebruikers van wie u het e-mailbericht wilt scannen.
 
@@ -237,7 +237,7 @@ Het standaardbeleid wijzigen:
 
 Een nieuwe beleidsregel maken voor alle geadresseerden in uw domein:
 
-1. Klik op de pagina veilige koppelingen onder **beleidsregels die op de hele organisatie van toepassing zijn** , **+** om een nieuw beleid te maken.
+1. Klik op de pagina veilige koppelingen onder **beleidsregels die op de hele organisatie van toepassing zijn**, **+** om een nieuw beleid te maken.
 
 2. De instellingen in de volgende tabel toepassen.
 
@@ -258,8 +258,8 @@ Nadat u de zoekopdracht in het auditlogboek in de beveiligings & compliance hebt
 
 U moet de rol Auditlogboeken in Exchange Online hebben als u de zoekfunctie voor auditlogboeken wilt in-of uitschakelen in uw Microsoft 365-abonnement. Deze functie wordt standaard toegewezen aan de rollen groepen Compliance Management en Organisatiebeheer op de pagina machtigingen in het Exchange-Beheercentrum. Globale beheerders in Microsoft 365 zijn standaard lid van deze groep.
 
-1. Als u het zoeken in het auditlogboek wilt inschakelen, gaat u naar het Beheercentrum op <https://admin.microsoft.com> en kiest u vervolgens **naleving** onder **beheer centra** in het linkernavigatievenster.
-2. Kies op de pagina **Microsoft 365 compliance** de optie **meer resources** en **Open** vervolgens de kaart **Office 365-beveiliging & centrum** .
+1. Als u de zoekopdracht in het auditlogboek wilt inschakelen, gaat u naar het Beheercentrum op <https://admin.microsoft.com> en kiest u vervolgens **beveiliging** onder **beheer centra** in het navigatiemenu aan de linkerkant.
+2. Op de pagina **Microsoft 365-beveiliging** kiest u **meer bronnen** en **opent** u vervolgens de kaart **Office 365-beveiliging & compliance Center** .
 
     ![Kies openen in het & voor de naleving van de beschermings auto's.](../media/gotosecandcomp.png)
 3. Kies op de pagina beveiliging en compliance de optie **Search** en vervolgens **audit log Search**.
@@ -289,8 +289,8 @@ In de volgende afbeelding ziet u het standaardbeleid dat is opgenomen in Microso
 
 U kunt voorkomen dat personen in uw organisatie hun agenda delen of u kunt ook beheren wat ze kunnen delen. U kunt bijvoorbeeld instellen dat alleen beschikbaarheidsinfo mag worden gedeeld.
 
-1. Ga naar het Beheercentrum <https://admin.microsoft.com> en kies **instellingen** \> **Services & invoegtoepassingen**.
-2. Op de pagina **Services & invoegtoepassingen** kiest u **agenda** en kiest u of personen in uw organisatie hun agenda kunnen delen met personen buiten de organisatie van Office 365 of Exchange, of met iedereen.
+1. Ga naar het Beheercentrum op <https://admin.microsoft.com> en kies **instellingen** \> **organisatie-instellingen**.
+2. Op de pagina **Services** kiest u **agenda** en kiest u of personen in uw organisatie hun agenda kunnen delen met personen buiten de organisatie van Office 365 of Exchange, of met iedereen.
 
    Als u de optie delen met iedereen kiest, kunt u ook de beschikbaarheidsinfo delen.
 

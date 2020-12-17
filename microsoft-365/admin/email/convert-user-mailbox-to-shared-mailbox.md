@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Leer hoe u een privé postvak converteert naar een gedeeld postvak dat door meerdere gebruikers kan worden geopend. '
-ms.openlocfilehash: bc867c9b43656e40149eb7cd7a7e5ce186c10798
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: fa8e37b5e924f1b38755a953f40d8b70011213d0
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445685"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698277"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Het postvak van een gebruiker converteren naar een gedeeld postvak
 
@@ -47,7 +47,7 @@ Wanneer u het postvak van een gebruiker converteert naar een gedeeld postvak, bl
 
 2. Selecteer **ontvangers** \> **postvakken**.
 
-3. Selecteer het gebruikerspostvak. Selecteer **converteren**onder **converteren naar gedeeld postvak**.
+3. Selecteer het gebruikerspostvak. Selecteer **converteren** onder **converteren naar gedeeld postvak**.
 
 4. Als het postvak kleiner is dan 50 GB, kunt u de [licentie van de gebruiker](../manage/remove-licenses-from-users.md)intrekken en geen betaling meer betalen. Verwijder niet het account van de gebruiker. Het gedeelde postvak moet blijven bestaan als anker. Als u het postvak wilt converteren van een werknemer die uw organisatie verlaat, moet u extra stappen uitvoeren om ervoor te zorgen dat ze niet meer kunnen worden aangemeld. Zie [een voormalige werknemer verwijderen uit Microsoft 365](../add-users/remove-former-employee.md).
     
@@ -83,7 +83,7 @@ Stel dat u een gebruikersaccount hebt verwijderd en nu het oude postvak van dat 
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>.
    
-2. Selecteer **Recipients** \> **gedeelde**geadresseerden.
+2. Selecteer  \> **gedeelde** geadresseerden.
 
 3. Selecteer het gedeelde Postvak. Selecteer converteren **naar normaal postvak voor** **converteren**.
 
@@ -93,13 +93,17 @@ Stel dat u een gebruikersaccount hebt verwijderd en nu het oude postvak van dat 
 
 ## <a name="convert-a-users-mailbox-in-a-hybrid-environment"></a>Het postvak van een gebruiker converteren in een hybride omgeving
 
-Als dit gedeelde Postvak zich in een hybride omgeving bevindt, wordt u **ten zeerste aangeraden** (bijna verplicht!) u het gebruikerspostvak weer naar on-premises verplaatsen, het postvak van de gebruiker converteren naar een gedeeld postvak en het gedeelde Postvak vervolgens weer naar de Cloud verplaatsen. 
+> [!NOTE] 
+> Vanaf 11 oktober 2018 wordt voor hybride implementatie van Exchange ondersteuning voor het maken van externe gedeelde postvakken die beginnen met de cumulatieve update 21 voor Exchange Server 2013 en cumulatieve update 10 voor Exchange Server 2016 in een on-premises Exchange-Server omgeving. U kunt rechtstreeks een extern gedeeld postvak maken of wijzigen met behulp van de nieuwe _gedeelde_ parameter. Ga voor meer informatie naar [cmdlets voor het maken of wijzigen van een extern gedeeld postvak in een on-premises Exchange-omgeving](https://support.microsoft.com/help/4133605/cmdlets-to-create-modify-remote-shared-mailbox-in-on-premises-exchange).
+
+Als dit gedeelde Postvak zich in een hybride omgeving bevindt en zich niet onder het bovenstaande scenario bevindt, wordt **nadrukkelijk aangeraden** dat u het postvak van de gebruiker weer naar on-premises plaatst, het postvak van de gebruiker converteert naar een gedeeld postvak en het gedeelde Postvak vervolgens weer naar de Cloud verplaatsen. 
 
 Ga als volgt te werk: als u het postvak in de Cloud converteert, kan het worden geconverteerd, maar on-premises is het postvak van de gebruiker, omdat de nieuwe realiteit geen keer wordt gesynchroniseerd op on-premises.
 
 Dit is meestal niet het geval, maar er zijn een aantal scenario's waarin de on-premises kenmerken (waarmee het postvak van de gebruikerspostvak kan worden overschreven), de nieuwe Cloud versies van die kenmerken kunnen overzetten, en het postvak kan hierdoor worden geconverteerd. Dit is een probleem omdat gebruikerspostvakken licenties nodig hebben **of ze gedurende 30 dagen worden verwijderd**.
 
 We hebben de meeste redenen besproken waarom dit gebeurt, maar het is wel zo vaak. U kunt het beste veilig zijn en het postvak weer naar on-premises verplaatsen, dit converteren en het gedeelde Postvak vervolgens weer naar de Cloud verplaatsen. Deze aanbevolen oplossing is niet in strijd met de licentieovereenkomst voor hybride omgevingen omdat het gebruik van de on-premises postvak van de gebruiker slechts tijdelijk is. Als u het postvak van de gebruiker of het gedeelde Postvak in uw on-premises organisatie onderneemt, krijgt u overtreding van uw licentie.
+
 
 > [!NOTE]
 > Als u lid bent van de rollen groep beheer van organisatie of geadresseerden, kunt u de Exchange-beheer shell gebruiken om een gebruikerspostvak te wijzigen in een gedeelde Postvak on-premises. Bijvoorbeeld `Set-Mailbox -Identity mailbox1@contoso.onmicrosoft.com -Type Shared`.

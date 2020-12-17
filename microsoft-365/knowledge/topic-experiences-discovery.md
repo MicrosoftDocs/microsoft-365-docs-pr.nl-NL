@@ -11,12 +11,12 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het beheren van topic Discovery in Microsoft 365.
-ms.openlocfilehash: 035fb74f1989dc7ef5b7fcf8e9c6d59b63cf2b42
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: dec8aeef9dda390fb19f5067638c2ebea6b6a2fe
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667854"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698541"
 ---
 # <a name="manage-topic-discovery-in-microsoft-365"></a>Detectie van onderwerp beheren in Microsoft 365
 
@@ -94,4 +94,3 @@ Voer de volgende informatie over de onderwerpen die u wilt uitsluiten in het CSV
 [Machtigingen voor onderwerp beheren in Microsoft 365](topic-experiences-user-permissions.md)
 
 [De naam van het onderwerp centreren in Microsoft 365](topic-experiences-administration.md)
-

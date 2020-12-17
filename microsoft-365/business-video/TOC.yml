@@ -1,0 +1,159 @@
+- name: Training voor Microsoft 365 voor professionals en kleine bedrijven
+  href: index.yml
+  items:
+    - name: Aan de slag
+      items:
+        - name: Wat is Microsoft 365
+          href: what-is-microsoft-365.md
+        - name: Overzicht van instelling
+          href: setup-overview.md
+        - name: Een abonnement kiezen
+          href: Choose-subscription.md
+    - name: Cloud instelling
+      items:
+        - name: Registreren voor een abonnement
+          href: sign-up.md
+        - name: De service instellen
+          href: set-up.md
+        - name: Windows 10-Pc's beveiligen
+          href: secure-win10-pcs.md
+        - name: Een GoDaddy-website maken
+          href: create-web-site.md
+    - name: Apparaat instellen
+      items:
+        - name: Een upgrade uitvoeren naar Windows 10 Pro
+          href: upgrade.md
+        - name: Pc's verbinden met Microsoft 365
+          href: connect.md
+        - name: Microsoft Office-apps installeren
+          href: install-office.md
+        - name: Outlook voor e-mail instellen
+          href: setup-outlook.md
+        - name: E-mail importeren en omleiden
+          href: import-email.md
+        - name: Uw bestanden verplaatsen naar OneDrive
+          href: files-to-onedrive.md
+        - name: Bedrijfsbestanden verplaatsen naar SharePoint
+          href: files-to-sharepoint.md
+    - name: Mobile
+      items:
+        - name: Werken vanaf elke locatie
+          href: work-from-anywhere.md
+        - name: Office-apps installeren op Android
+          href: install-apps-android.md
+        - name: Office-apps installeren op iOS
+          href: install-apps-ios.md
+        - name: De mobiele app voor beheerders aanvragen
+          href: admin-mobile.md
+    - name: Samenwerken
+      items:
+        - name: Outlook en teams gebruiken
+          href: collab-outlook-teams.md
+        - name: Een groeps-e-mailadres maken
+          href: group-email.md
+        - name: Een gedeelde agenda maken
+          href: shared-calendar.md
+        - name: Een team voor de gehele organisatie maken
+          href: org-wide-team.md
+        - name: Een team met gasten maken
+          href: team-with-guests.md
+        - name: Deelnemen aan een team als gast
+          href: join-team-guest.md
+        - name: Chatten met werknemers en klanten
+          href: start-and-pin-chats.md
+        - name: Overzicht van online vergaderingen
+          href: overview-online-meetings.md
+        - name: Een vergadering plannen met gasten
+          href: schedule-guest-meeting.md
+        - name: Deelnemen aan een vergadering met gasten
+          href: join-guest-meeting.md
+    - name: Cloud opslag
+      items:
+        - name: Overzicht van delen
+          href: overview-file-sharing.md
+        - name: Waar bestanden opslaan
+          href: store-files.md
+        - name: Extern bestanden veilig delen
+          href: securely-share-files-externally.md
+        - name: Bestanden extern gemakkelijk delen
+          href: share-files-externally.md
+    - name: Zakelijke spraak
+      items:
+        - name: Overzicht van zakelijke spraak
+          href: business-voice.md
+        - name: Invoegtoepassing voor zakelijke spraak kopen
+          href: buy-business-voice.md
+    - name: Productiviteits-apps
+      items:
+        - name: Overzicht van reserveringen
+          href: overview-bookings.md
+        - name: Een gebeurtenis plannen
+          href: plan-event.md
+    - name: Services beheren
+      items:
+        - name: Wat is een beheerder?
+          href: what-is-admin.md
+        - name: Overzicht van het Beheercentrum
+          href: admin-center-overview.md
+        - name: 'Uw factuur weergeven, downloaden of afdrukken'
+          href: view-bill.md
+        - name: Uw betaalwijze bijwerken
+          href: update-payment.md
+        - name: Gebruikerswachtwoorden opnieuw instellen
+          href: reset-user-passwords.md
+        - name: Selfservice voor wachtwoordherstel instellen
+          href: set-up-self-serve-password-reset.md
+        - name: Een gebruiker toevoegen
+          href: add-user.md
+        - name: Een gebruiker verwijderen
+          href: delete-user.md
+        - name: Een andere beheerder toevoegen
+          href: add-admin.md
+        - name: Een gebruikersnaam of e-mailadres wijzigen
+          href: change-user-name-email.md
+        - name: Gebruikers naar een ander abonnement overzetten
+          href: change-subscription.md
+        - name: Een handtekening voor het hele bedrijf maken
+          href: company-wide-signature.md
+        - name: Formulier voor gebruik van actie ondernemen
+          href: act-on-report.md
+        - name: Een ander domein toevoegen
+          href: add-domain.md
+    - name: Apparaten beheren
+      items:
+        - name: Windows 10 Pro-apparaten beveiligen
+          href: secure-win-10-pro-devices.md
+        - name: Office-apps in iOS beveiligen
+          href: secure-office-on-ios.md
+    - name: Naleving van beveiligings &
+      items:
+        - name: Overzicht van de beveiliging van Microsoft 365 Business Premium
+          href: overview-m365-security.md
+        - name: Accounts van werknemers beveiligen met MFA
+          href: turn-on-mfa.md
+        - name: Tweeledige aanmelding instellen op uw telefoon
+          href: set-up-mfa.md
+        - name: Detectie van detectie van malware inschakelen
+          href: anti-malware.md
+        - name: E-mail regels voor Ransomware maken
+          href: prevent-ransom-in-email.md
+        - name: Automatisch doorsturen van e-mail stoppen
+          href: stop-email-auto-forward.md
+        - name: Anti phishing instellen
+          href: setup-anti-phishing.md
+        - name: Veilige bijlagen beheren
+          href: safe-attachments.md
+        - name: Veilige koppelingen beheren
+          href: safe-links.md
+        - name: Verlies van gegevens voorkomen
+          href: set-up-dlp.md
+        - name: Gevoeligheidslabels maken
+          href: create-sensitivity-labels.md
+    - name: Ondersteuning
+      items:
+        - name: Antwoorden en Help zoeken
+          href: find-help-answers.md
+        - name: Help of ondersteuning vragen
+          href: get-help-support.md
+        - name: Snelle instelling voor werknemers
+          href: employee-quick-setup.md

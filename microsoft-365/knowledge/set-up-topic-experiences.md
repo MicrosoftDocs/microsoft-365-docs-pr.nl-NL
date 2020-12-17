@@ -11,16 +11,16 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het instellen van onderwerps functies in Microsoft 365
-ms.openlocfilehash: cc157463c8c85f25ba232c344294ef3e0fabba23
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: e11f0b75556a4a8ac0ffa40269d7166258128daf
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667939"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698553"
 ---
 # <a name="set-up-topic-experiences-in-microsoft-365"></a>Onderwerpen over functies instellen in Microsoft 365
 
-Met het Microsoft 365-Beheercentrum kunt u [topic Experience](knowledge-management-overview.md)instellen en configureren. 
+Met het Microsoft 365-Beheercentrum kunt u [topic Experience](topic-experiences-overview.md)instellen en configureren. 
 
 Het is belangrijk dat u de beste manier voor het plannen en configureren van onderwerpen in uw omgeving van plan bent. Zorg ervoor dat u de ervaringen van het [plan](plan-topic-experiences.md) vindt voordat u de procedures in dit artikel start.
 
@@ -144,4 +144,4 @@ Wanneer u de ervaringen met het onderwerp hebt ingesteld, kunt u de instellingen
 
 ## <a name="see-also"></a>Zie ook
 
-[Overzicht van kennisbeheer](knowledge-management-overview.md)
+[Overzicht van onderwerpen](topic-experiences-overview.md)

@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 07/09/2020
+ms.date: 12/16/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het gebruik van de functie voor het onderzoek van bedreigingen en de antwoord mogelijkheden om kwaadaardige e-mail te vinden en te onderzoeken.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3fd2e5c0f75de9a1b942e8f0baa8e9d44843de4
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 8a068f4502a286b8782e03a9a6f61e61fa96ed72
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616522"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698577"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Schadelijke e-mailberichten onderzoeken die zijn uitgebracht in Office 365
 
@@ -58,18 +58,21 @@ Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of h
 |---|---|---|
 |Het gebruik van bedreigings Verkenner (en real-time detecties) om bedreigingen te analyseren |Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligings lezer|Nee|
 |De weergave van bedreigings Verkenner (en realtime-detectie) gebruiken om kopteksten voor e-mailberichten weer te geven en voorbeelden van e-mailberichten in quarantaine te downloaden|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligings lezer|Nee|
-|Met behulp van de bedreigings Verkenner kopteksten en e-mailberichten die zijn bezorgd bij postvakken weergeven|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligings lezer <p> Voorbeeld|Ja|
+|De bedreigings Verkenner gebruiken om kopteksten weer te geven, een voorbeeld van de e-mail weer te geven (alleen op de pagina e-mail entiteit)|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligings lezer <p> Voorbeeld|Ja|
 |
 
 > [!NOTE]
-> *Voorbeeld* is een rol en geen rollen groep. de rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365. De rol van de globale beheerder wordt het Microsoft 365-Beheercentrum toegewezen <https://admin.microsoft.com> , en de rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in het beveiligings & nalevings centrum ( <https://protection.office.com> ). Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
+> *Voorbeeld* is een rol en geen rollen groep. de rol van voorbeeld moet worden toegevoegd aan een bestaande rollen groep voor Office 365 (at [https://protection.office.com](https://protection.office.com) ). Ga naar **machtigingen** en bewerk vervolgens een bestaande rolgroep of Voeg een nieuwe rollen groep toe waaraan de rol **voor voorbeeld** is toegewezen.
+> De rol van de globale beheerder wordt het Microsoft 365-Beheercentrum toegewezen <https://admin.microsoft.com> , en de rollen Beveiligingsbeheerder en beveiligings lezer worden toegewezen in het beveiligings & nalevings centrum ( <https://protection.office.com> ). Als u meer wilt weten over rollen en machtigingen, raadpleegt u [machtigingen in de sectie beveiliging & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
+
+We begrijpen het voorbeeld van een e-mailbericht met gevoelige activiteiten, en daarom zijn de controle ingeschakeld. Nadat een beheerder deze activiteiten heeft uitgevoerd voor e-mailberichten, worden de controlelogboeken gegenereerd voor hetzelfde en kunnen ze worden bekeken in het beveiligings & van Office 365 [https://protection.office.com](https://protection.office.com) . Ga naar   >  **audit logboek zoeken** en filter op de beheerdersnaam in de sectie zoeken. De gefilterde resultaten worden activiteiten **AdminMailAccess** weergegeven. Selecteer een rij om de details weer te geven in de sectie **meer informatie** over voorbekijke of gedownloade e-mailberichten.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Verdachte e-mail vinden die is bezorgd
 
 Bedreigings Verkenner is een krachtig rapport waarmee u kunt zoeken naar meerdere doeleinden, zoals berichten zoeken en verwijderen, het IP-adres van een kwaadwillende e-mail verzender identificeren of een incident voor verder onderzoek starten. In de volgende procedure wordt beschreven hoe u met Verkenner schadelijke e-mail van de postvakken van de ontvanger kunt vinden en verwijderen.
 
 > [!NOTE]
-> Standaardzoekopdrachten in Explorer bevatten momenteel geen zapped-items.  Dit geldt voor alle weergaven, bijvoorbeeld malware of phishing. Als u zapped-items wilt opnemen, moet u een actie voor de leverings actie toevoegen zodat de waarde ' verwijderd door ZAP ' wordt vermeld. Als u alle opties opneemt, ziet u alle resultaten van de bezorgings actie, waaronder zapped-items.
+> Standaardzoekopdrachten in Explorer bevatten momenteel geen zapped-items.  Dit geldt voor alle weergaven, bijvoorbeeld malware of phishing. Als u zapped-items wilt opnemen, moet u een **bezorgings Actieset** toevoegen **, zoals verwijderd door ZAP**. Als u alle opties opneemt, ziet u alle resultaten van de bezorgings actie, waaronder zapped-items.
 
 1. **Ga naar Threat Explorer**: Ga naar <https://protection.office.com> en meld u aan met uw werk-of schoolaccount voor Office 365. U gaat nu naar de beveiligings & compliance Center.
 

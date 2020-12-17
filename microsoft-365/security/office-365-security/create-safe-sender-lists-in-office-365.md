@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 38f1ab2451191dd63d5738075dbf42f8201a34ca
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 6e33d2b75429453602615bf98b8269ab160c7749
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659902"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698697"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
@@ -97,6 +97,9 @@ In het volgende voorbeeld wordt ervan uitgegaan dat u e-mail hebt ontvangen van 
 
 ## <a name="use-outlook-safe-senders"></a>Veilige afzenders van Outlook gebruiken
 
+> [!CAUTION]
+> Met deze methode maakt u een groot risico van kwaadwillende gebruikers die via e-mail een e-mailbericht sturen naar het postvak in, anders gefilterd. de lijst veilige afzenders of veilige domeinnamen van gebruikers is echter niet voorkomen dat phishingberichten en ongewenste e-mail worden gefilterd.
+
 In plaats van een organisatie-instelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst met veilige afzenders in het postvak. Zie voor instructies voor het [instellen van instellingen voor ongewenste e-mail in Exchange Online-postvakken in Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Dit is in de meeste situaties wenselijk, omdat afzenders delen van de filter stapel negeren. Hoewel u de afzender vertrouwt, kan deze nog steeds worden aangetast en moet de afzender kwaadaardige inhoud verzenden. Het is raadzaam om de filters uit te voeren die nodig zijn om elk bericht te controleren en vervolgens [de foutwaarde positief/negatief aan Microsoft te melden als de](report-junk-email-messages-to-microsoft.md) filters het probleem hebben. Het omzeilen van de filterstack verstoort ook met [ZAP](zero-hour-auto-purge.md).
 
 Wanneer spam wordt gefilterd door de lijst met veilige afzenders van een gebruiker, bevat het veld **X-Forefront-spam-report** header de waarde `SFV:SFE` waarmee wordt aangegeven dat filteren op spam, spoofing en phishing is genegeerd.
@@ -114,7 +117,7 @@ Als u de e-mail stroom regels niet zoals hierboven beschreven kunt gebruiken, ku
 - Controleer regelmatig de vermeldingen in de lijst met toegestane IP-adressen en verwijder de vermeldingen die u niet meer nodig hebt.
 
 > [!CAUTION]
-> Zonder verdere verificatie zoals de regels voor de e-mail stroom, worden e-mailberichten van bronnen in de lijst met toegestane IP-berichten over spam gefilterd en worden de verificatie van e-mailberichten (SPF, DKIM, DMARC Dit maakt een hoog risico van kwaadwillende gebruikers die via e-mail een e-mailbericht sturen naar het postvak in, anders gefilterd.
+> Zonder verdere verificatie zoals de regels voor de e-mail stroom, worden e-mailberichten van bronnen in de lijst met toegestane IP-berichten over spam gefilterd en worden de verificatie van e-mailberichten (SPF, DKIM, DMARC Dit maakt een hoog risico van kwaadwillende gebruikers die via e-mail een e-mailbericht sturen naar het postvak in, anders gefilterd. met de lijst met toegestane IP-adressen kunnen geen malware of e-mail met hoge betrouwbaarheid worden gefilterd.
 
 ## <a name="use-allowed-sender-lists-or-allowed-domain-lists"></a>Lijsten met toegestane afzenders of toegestane domeinen gebruiken
 
@@ -124,7 +127,7 @@ De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen. u kunt echter 
 
 > [!CAUTION]
 >
-> - Met deze methode maakt u een groot risico van kwaadwillende gebruikers die via e-mail een e-mailbericht sturen naar het postvak in, anders gefilterd.
+> - Met deze methode maakt u een groot risico van kwaadwillende gebruikers die via e-mail een e-mailbericht sturen naar het postvak in, anders gefilterd. de lijst toegestane afzenders of toegestane domeinen van de lijst met toegestane afzenders of toegestane domeinen van het filter worden echter niet ondersteund door malware of messsages.
 >
 > - Gebruik geen domeinen die u hebt (ook wel geaccepteerde domeinen genoemd) of populaire domeinen (bijvoorbeeld microsoft.com) in toegestane domein lijsten.
 

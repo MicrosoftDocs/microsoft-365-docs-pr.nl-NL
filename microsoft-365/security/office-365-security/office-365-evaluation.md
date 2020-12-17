@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54acf9d21e3dd935f8b87c6ee4a13ab30e7bc59e
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: abb33b85717e63cb78a2b1edfd86584fd165a71f
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668071"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701013"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Evalueer Microsoft Defender for Office 365
 
@@ -43,11 +43,11 @@ Met de evaluatieversie van 365 kunt u in de evaluatiemodus voor Office 365 e-mai
 
 Met de evaluatiemodus, [veilige bijlagen](atp-safe-attachments.md), [veilige koppelingen](atp-safe-links.md)en [beleid voor anti-phishing](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) , wordt namens u ingesteld. Alle beleidsregels voor Defender voor Office 365 worden met de niet-afdwingbare modus gemaakt en zijn niet zichtbaar voor u.
 
-Als onderdeel van de instelling, configureert de evaluatiemodus ook [uitgebreid filteren op connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors). De nauwkeurigheid van het filteren van IP-adressen en gegevens over de afzender wordt op een andere manier verduurzaamd wanneer e-mail wordt doorgestuurd via een ESG (MailSecurity gateway) vóór de app voor Office 365. Hierdoor wordt het filteren van de filters nauwkeuriger voor uw EOP-antispam-en Antispambeleid voor Exchange Online Protection ook verbeterd.
+Als onderdeel van de instelling, configureert de evaluatiemodus ook [uitgebreid filteren op connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors). De nauwkeurigheid van het filteren van IP-adressen en gegevens over de afzender wordt op een andere manier verduurzaamd wanneer e-mail wordt doorgestuurd via een ESG (MailSecurity gateway) vóór de app voor Office 365. Met een verbeterde filter kwaliteit worden ook de filters nauwkeuriger gefilterd voor het antispam-en Antispambeleid van Exchange Online Protection (EOP).
 
 Als u de potentiële productie-impact op sommige niet-ondersteunde scenario's wilt beperken, kunt u alle filters filteren negeren door een transportregel te maken voor het instellen van het spam betrouwbaarheidsniveau (SCL) op-1. Zie voor meer informatie [een e-mail stroom regel maken waarmee de SCL van een bericht wordt ingesteld](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)   voor informatie.
 
-Wanneer de evaluatiemodus is geconfigureerd, hebt u dagelijks een rapport bijgewerkt met een maximum van 90 dagen van de gegevens die zijn geblokkeerd, omdat het beleid is gemaakt en geïmplementeerd (bijvoorbeeld verwijderen, verzenden naar ongewenste e-mail, Quarantine). Er worden rapporten gegenereerd voor alle EOP-en detectie punten van de Defender voor Office 365. De persoon wordt samengevoegd per detectietechnologie (bijvoorbeeld imitatie) en kan worden gefilterd op tijdsbereik. Daarnaast kunnen berichten rapporten op aanvraag worden gemaakt om aangepaste draaiingen te maken of berichten van een grondige uitduiking te maken met behulp van de bedreigings Verkenner.
+Wanneer de evaluatiemodus is geconfigureerd, hebt u dagelijks een rapport bijgewerkt met een waarde van maximaal 90 dagen van de gegevens die zijn geblokkeerd als de beleidsregels werden ingevoerd (bijvoorbeeld verwijderen, verzenden naar ongewenste e-mail, Quarantine). Er worden rapporten gegenereerd voor alle EOP-en detectie punten van de Defender voor Office 365. De persoon wordt samengevoegd per detectietechnologie (bijvoorbeeld imitatie) en kan worden gefilterd op tijdsbereik. Daarnaast kunnen berichten rapporten op aanvraag worden gemaakt om aangepaste draaiingen te maken of berichten van een grondige uitduiking te maken met behulp van de bedreigings Verkenner.
 
 Met een eenvoudige instelling kunt u zich richten op:
 
@@ -79,7 +79,12 @@ U hebt een venster van dertig dagen met de evaluatie voor het bewaken van en rap
 
 ### <a name="roles"></a>Vervullen
 
-Exchange Online-rollen zijn vereist voor het instellen van Defender voor Office 365 in de evaluatiemodus. U hebt de volgende rollen nodig:
+Exchange Online-rollen zijn vereist voor het instellen van Defender voor Office 365 in de evaluatiemodus.
+
+- [Meer informatie over machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+- [Meer informatie over het toewijzen van beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+
+U hebt de volgende rollen nodig:
 
 |Taak|Rol|
 |---|---|
@@ -89,6 +94,7 @@ Exchange Online-rollen zijn vereist voor het instellen van Defender voor Office 
 |Evaluatie beleid verwijderen|De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders |
 |Evaluatieverslag weergeven|Rol van beveiligingsbeheerder of beveiligings lezer|
 |
+
 
 ### <a name="enhanced-filtering"></a>Uitgebreid filteren
 
@@ -104,7 +110,7 @@ URL-koppelingen in de berichttekst van een e-mailbericht kunnen niet teruglopen 
 
 ### <a name="email-routing"></a>E-mail routering
 
-U moet de bijbehorende Details voorbereiden die u moet instellen voor de manier waarop uw e-mailberichten momenteel worden gerouteerd, waaronder de naam van de inkomende connector waarmee uw e-mail wordt rondgestuurd. Als u alleen Exchange Online Protection gebruikt, hebt u geen connector.  [Meer informatie over e-mail stroom en e-mail routering](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
+Maak de gegevens die u nodig hebt om te bepalen hoe uw e-mailberichten momenteel worden gerouteerd, waaronder de naam van de inkomende connector waarmee uw e-mail wordt rondgestuurd. Als u alleen Exchange Online Protection gebruikt, hebt u geen connector.  [Meer informatie over e-mail stroom en e-mail routering](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
 
 Ondersteunde e-mail routeringsscenario's zijn:
 
