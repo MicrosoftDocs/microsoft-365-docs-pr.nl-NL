@@ -1,32 +1,44 @@
-- name: Aan de slag met Knowledge Management
+- name: Aan de slag met onderwerpservaringen
   items:
-    - name: Overzicht van kennisbeheer
-      href: knowledge-management-overview.md
-    - name: Overzicht van topic Center
-      href: topic-center-overview.md
-    - name: Werken met onderwerpen in het onderwerp centrum
-      href: work-with-topics.md
-    - name: Gebruikersmachtigingen verlenen voor het onderwerp centrum
-      href: give-user-permissions-to-the-topic-center.md
+    - name: Inleiding tot onderwerpservaringen
+      href: index.md
+    - name: Overzicht van onderwerpservaringen
+      href: topic-experiences-overview.md
+    - name: Onderwerpservaringen ontdekken en cureren
+      href: topic-experiences-discovery-curation.md
+    - name: Rollen voor onderwerpservaringen
+      href: topic-experiences-roles.md
     - name: Uw omgeving voorbereiden
       href: topic-experiences-get-ready.md
-- name: Installeren en beheren
+- name: Installatie en beheer
   items:
-    - name: Onderwerp beveiliging
+    - name: Onderwerpbeveiliging
       href: topic-experiences-security-privacy.md
-    - name: Ervaring met onderwerpen plannen
+    - name: Onderwerpservaringen plannen
       href: plan-topic-experiences.md
-    - name: Ervaring met het onderwerp instellen
+    - name: Onderwerpservaringen instellen
       href: set-up-topic-experiences.md
-    - name: Detectie van onderwerp beheren
+    - name: Onderwerpdetectie beheren
       href: topic-experiences-discovery.md
-    - name: De zichtbaarheid van een onderwerp beheren
+    - name: Onderwerpzichtbaarheid beheren
       href: topic-experiences-knowledge-rules.md
-    - name: Machtigingen voor onderwerp beheren
+    - name: Onderwerpsmachtigingen beheren
       href: topic-experiences-user-permissions.md
-    - name: De naam van het topic Center wijzigen
+    - name: De naam van het onderwerpcentrum wijzigen
       href: topic-experiences-administration.md
+- name: Werken met onderwerpen
+  items:
+    - name: Overzicht van het onderwerpcentrum
+      href: topic-center-overview.md
+    - name: Onderwerpen beheren in het onderwerpcentrum
+      href: manage-topics.md
+    - name: Een nieuw onderwerp maken
+      href: create-a-topic.md
+    - name: Een onderwerp bewerken
+      href: edit-a-topic.md
+    - name: Beveiligingsbeperking
+      href: topic-experiences-security-trimming.md
 - name: Ingebruikname
   items:
-    - name: Aan de slag
+    - name: Aan de slag gaan met de acceptatie
       href: topics-adoption-getstarted.md

@@ -3,7 +3,7 @@
   items:
     - name: Configuratie
       items:
-        - name: Toegang krijgen tot Bookings
+        - name: Toegang tot Bookings
           href: get-access.md
         - name: Uw bedrijfsgegevens invoeren
           href: enter-business-information.md
@@ -11,19 +11,19 @@
           href: define-service-offerings.md
         - name: Medewerkers toevoegen aan Bookings
           href: add-staff.md
-        - name: Sluitings-en verlof activiteiten plannen
+        - name: 'Bedrijfssluiting, verlof en vakantiedagen plannen'
           href: schedule-closures-time-off-vacation.md
         - name: Uw planningsbeleidsregels instellen
           href: set-scheduling-policies.md
-        - name: Uw reserverings pagina aanpassen en publiceren
+        - name: Uw reserveringspagina aanpassen en publiceren
           href: customize-booking-page.md
-        - name: Handmatig reserveren maken
+        - name: Een handmatige reservering maken
           href: create-a-manual-booking.md
-        - name: Sluitings-en verlof activiteiten plannen
+        - name: 'Bedrijfssluiting, verlof en vakantiedagen plannen'
           href: schedule-closures-time-off-vacation.md
         - name: Werknemeruren
           href: employee-hours.md
-        - name: Aangepaste en vereiste vragen toevoegen aan de reserverings pagina
+        - name: Aangepaste en vereiste vragen toevoegen aan de reserveringspagina
           href: add-questions.md
         - name: Buffertijd instellen
           href: set-buffer-time.md
@@ -31,17 +31,17 @@
           href: metrics-and-activity-tracking.md
         - name: Taal en tijdzone instellen
           href: set-language-time-zones.md
-    - name: De app Bookings openen
+    - name: De app Bookings downloaden
       href: get-bookings-app.md
-    - name: Bookings-app en virtuele bezoeken in Microsoft teams
+    - name: Bookings-app en virtuele bezoeken in Microsoft Teams
       href: 'https://docs.microsoft.com/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
-    - name: Vergelijkings grafiek-Web-app versus teams-app
+    - name: Vergelijkingsgrafiek - web-app versus Teams-app
       href: comparison-chart.md
-    - name: Een boekings agenda verwijderen
+    - name: Een reserveringsagenda verwijderen
       href: delete-calendar.md
-    - name: Microsoft bookings in-of uitschakelen
+    - name: Microsoft Bookings in- of uitschakelen
       href: turn-bookings-on-or-off.md
-    - name: Rapport informatie voor Microsoft Bookings
+    - name: Rapportinformatie voor Microsoft Bookings
       href: reporting-info.md
     - name: Veelgestelde vragen over Microsoft Bookings
       href: bookings-faq.md
