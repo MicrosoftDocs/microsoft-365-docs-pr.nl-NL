@@ -1,4 +1,4 @@
-- name: Meer informatie over Microsoft SharePoint Syntex
+- name: Informatie over Microsoft SharePoint Syntex
   items:
     - name: Kennismaken met SharePoint Syntex
       href: index.md
@@ -10,7 +10,7 @@
       href: difference-between-document-understanding-and-form-processing-model.md
 - name: Aan de slag met modellen
   items:
-    - name: Meer informatie over modellen via het voorbeeldmodel
+    - name: Informatie over modellen met behulp van het voorbeeldmodel
       href: learn-about-document-understanding-models-through-the-sample-model.md
     - name: Een inhoudscentrum maken
       href: create-a-content-center.md
@@ -24,7 +24,7 @@
       href: apply-a-model.md
     - name: Een formulierverwerkingsmodel maken
       href: create-a-form-processing-model.md
-    - name: Een Bewaar label toepassen
+    - name: Een retentielabel toepassen
       href: apply-a-retention-label-to-a-model.md
     - name: Gebruiksanalyse van modellen
       href: model-usage-analytics.md
@@ -32,19 +32,19 @@
       href: leverage-term-store-taxonomy.md
 - name: Ingebruikname
   items:
-    - name: Aan de slag met aanneming
+    - name: Aan de slag met de acceptatie
       href: adoption-getstarted.md
-- name: Installeren en beheren
+- name: Installatie en beheer
   items:
-    - name: Instellen begrip van inhoud
+    - name: Inhoudsbegrip instellen
       href: set-up-content-understanding.md
-- name: Inhouds Services
+- name: Inhoudsservices
   items:
     - name: Importeren met SKOS
       href: import-term-set-skos.md
-    - name: SKOS-opmaak verwijzingen
+    - name: Informatie over SKOS-indeling
       href: skos-format-reference.md
-    - name: Type push-inhoudstype naar hub
+    - name: Inhoudstype naar een hub pushen
       href: push-content-type-to-hub.md
     - name: Rapportage over termenarchief
       href: term-store-analytics.md
