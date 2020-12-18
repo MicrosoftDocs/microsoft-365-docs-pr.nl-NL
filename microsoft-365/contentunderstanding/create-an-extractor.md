@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Lees hoe je een Extractor kunt maken in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 99d2a4602c03d8a7207736ea17ed500626ce43ac
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: b957d905f3807f6007ebeb742d9b56d81ea38ac2
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087461"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701127"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Maak een Extractor in Microsoft SharePoint Syntex.
 
@@ -37,7 +37,9 @@ Je moet een extractor maken voor elke entiteit in het document die je wilt ophal
 
 1. Klik op de startpagina van het model op **Train Extractor** in de tegel **Extractor maken en trainen**.
 2. Typ in het scherm **New entiteit Extractor** de naam van je extractor in het veld **Nieuwe extractorname**. Als je bijvoorbeeld de **begindatum van de service** wilt wijzigen als je de begindatum van de service wilt ophalen uit elk document voor het verlengen van een contract. Je kunt er ook voor kiezen om een eerder gemaakte kolom opnieuw te gebruiken (bijvoorbeeld een kolom met beheerde metagegevens).
-3. Klik op **Maken**.
+> [!NOTE]
+> Als je een nieuwe extractor maakt, selecteer dan **Nieuwe kolomtype** en kies **Enkele tekstregel**. Het maximumaantal tekens is 255. Alle tekens die de limiet overschrijden worden afgebroken. 
+3. Klik op **Maken** wanneer je klaar bent.
 
 ## <a name="add-a-label"></a>Een label toevoegen
 
