@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Overzicht: informatie over de migratie van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 16e57eff5556d31d2d13ab6ce0d284719d63c44c
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 3587979c61434b77c38758e70903ee7028d70b9e
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688639"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709690"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Migratie van Microsoft Cloud Deutschland naar Office 365-Services in de nieuwe Duitse datacenter gebieden
 
@@ -35,7 +35,7 @@ In augustus 2018 heeft Microsoft ons bedoeld voor de levering van de volledige M
 
 De nieuwe regio's zijn ontworpen om de geprojecteerde behoeften van Duitse klanten met meer flexibeler, de nieuwste intelligente cloudservices en volledige connectiviteit met ons Microsoft 365-Service Cloud netwerk en de klantgegevens woonplaats in Duitsland te beantwoorden.
 
-## <a name="how-to-migrate-to-the-new-german-regions"></a>Migreren naar de nieuwe Duitse regio's
+## <a name="how-to-migrate-to-the-new-german-datacenter-regions"></a>Migreren naar de nieuwe Duitse datacenter regio's
 
 Bestaande Microsoft Cloud Deutschland klanten kunnen nu beginnen met het migreren van hun Office 365-, Dynamics 365-klant afspraken en Power platform-klanten. De eerste stap is om u aan te [melden bij een Microsoft-led's-migratie naar de](https://aka.ms/office365germanymoveoptin) nieuwe Duitse datacenter regio's.
 
@@ -78,9 +78,9 @@ Een week vóór het begin van de Tenant migratie ontvangt u een melding in de be
 
 De migratie gaat naar het Office 365-service-exemplaar van Azure AD in de EU-regio van de soevereine Duitsland Azure AD-service.
 
-De volgende fase is de migratie van uw Tenant&#39;s-abonnementen en gebruikerslicenties van Duitsland-specifieke producten.
+De volgende fase is de migratie van uw Tenant&#39;s-abonnementen en gebruikerslicenties van Duitsland-specifieke producten voor internationale producten.
 
-Wanneer alle stappen zijn voltooid, waaronder de Azure-migratie van de klant, is de Tenant voltooid in de Office 365-service en wordt de migratie als voltooid gemarkeerd. Op dit moment wordt de laatste update naar het berichtencentrum geleverd. De Tenant is nu geen volledig algemene Office 365-organisatie.
+Wanneer alle stappen zijn voltooid, waaronder de Azure-migratie van de klant, is de Tenant voltooid in de Office 365-service en wordt de migratie als voltooid gemarkeerd. Op dit moment wordt de laatste update naar het berichtencentrum geleverd. De Tenant is nu een volledig algemene Office 365-organisatie.
 
 U wordt op de hoogte gesteld van de voortgang van de migratie met berichten in het berichtencentrum. De berichten treden op in bepaalde mijlpalen en bieden richtlijnen voor het uitvoeren van een stap en belangrijke informatie voor klanten die op basis van de proces vereisten handelen. Berichten in het berichtencentrum worden de volgende mijlpalen geboden:
 
@@ -94,11 +94,11 @@ U wordt op de hoogte gesteld van de voortgang van de migratie met berichten in h
 - Power BI voltooien
 - Laatste cutover van Services is voltooid
 
-## <a name="moving-to-the-new-german-regions"></a>Verplaatsen naar de nieuwe Duitse regio's
+## <a name="moving-to-the-new-german-datacenter-regions"></a>Verplaatsen naar de nieuwe Duitse datacenter regio's
 
-Bestaande klanten met Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) kunnen nu beginnen met het migreren van hun Office 365-, Dynamics 365-klant afspraken en Power platform-klanten. De eerste stap is om u aan te [melden bij een Microsoft-led's-migratie naar de](https://aka.ms/office365germanymoveoptin) nieuwe Duitse datacenter regio's. Wanneer u uw abonnement verlengt, wordt u automatisch aangemeld voor een Microsoft-assistieve migratie. Microsoft waarschuwt tenantbeheerders van klanten via e-mail en in het berichtencentrum van het Microsoft 365-Beheercentrum, wanneer dit is gebeurd. Als u het proces nu wilt starten [, kunt u zich op elk](https://aka.ms/office365germanymoveoptin) moment rechtstreeks aanmelden bij het Beheercentrum van microsoft 365. Migraties worden verwacht in eerste 2021 en worden voltooid vóór 29 oktober 2021. 
+Bestaande Microsoft Cloud Deutschland klanten kunnen nu beginnen met het migreren van hun Office 365-, Dynamics 365-klant afspraken en Power platform-Services. De eerste stap is om u aan te [melden bij een Microsoft-led's-migratie naar de](https://aka.ms/office365germanymoveoptin) nieuwe Duitse datacenter regio's. Wanneer u uw abonnement verlengt, wordt u automatisch aangemeld voor een Microsoft-assistieve migratie. Microsoft waarschuwt tenantbeheerders van klanten via e-mail en in het berichtencentrum van het Microsoft 365-Beheercentrum, wanneer dit is gebeurd. Als u het proces nu wilt starten [, kunt u zich op elk](https://aka.ms/office365germanymoveoptin) moment rechtstreeks aanmelden bij het Beheercentrum van microsoft 365. Migraties worden verwacht in eerste 2021 en worden voltooid vóór 29 oktober 2021. 
 
-Als gevolg van de migratie worden de kerngegevens en abonnementen van klanten naar de nieuwe Duitse regio's verplaatst.
+Als gevolg van de migratie worden de kerngegevens en abonnementen van de klant naar de nieuwe Duitse datacenter regio's verplaatst.
 
 ## <a name="how-to-prepare-for-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Voorbereidingen treffen voor de migratie naar Office 365-Services in de nieuwe Duitse datacenter gebieden
 
@@ -149,7 +149,7 @@ De volgende 15 Services zijn beschikbaar in de cloudservice van Microsoft Cloud 
 14. Office 365 Pro Plus
 15. Outlook Mobile
 
-Er zijn momenteel 29 services beschikbaar als onderdeel van Office 365-Services in de nieuwe Duitse datacenter regio's. Nieuwe functies en services zijn continu consistent met de wereldwijde Office 365-Services.
+Er zijn momenteel 39-services beschikbaar als onderdeel van Office 365-Services in de nieuwe Duitse datacenter regio's. Nieuwe functies en services zijn continu consistent met de wereldwijde Office 365-Services.
 
 1. Exchange Online
 2. Customer lockbox voor Exchange Online
@@ -161,7 +161,7 @@ Er zijn momenteel 29 services beschikbaar als onderdeel van Office 365-Services 
 8. Defender voor Office 365
 9. Advanced eDiscovery
 10. Geavanceerd beveiligingsbeheer
-11. Information Rights Management
+11. Information Protection voor Office 365 
 12. Voorschot gegevensbeheer
 13. SharePoint Online
 14. Klanten-lockbox voor SharePoint Online
@@ -173,13 +173,23 @@ Er zijn momenteel 29 services beschikbaar als onderdeel van Office 365-Services 
 20. Bellen via PSTN
 21. Microsoft Teams
 22. Beheerders rapporten/gebruiksrapporten
-23. Word online, Excel online, PowerPoint, OneNote en Visio online
+23. Webversie van Office
 24. Planner
 25. Sway
 26. Microsoft 365-apps
 27. Outlook Mobile
 28. Enterprise Mobility + Security (EMS) E3 (Azure AD Premium P1, intune en Rights Management service)
-29. Yammer online
+29. Yammer Enterprise
+30. Microsoft Forms
+31. Power Automatiseer voor Office 365
+32. Power virtuele agenten voor Office 365
+33. PowerApps voor Office 365
+34. Microsoft Bookings
+35. To-Do
+36. Whiteboard
+37. Microsoft StuffHub
+38. Microsoft Kaizala Pro
+39. Lijst
 
 ### <a name="when-will-migration-happen"></a>Wanneer gebeurt er een migratie?
 

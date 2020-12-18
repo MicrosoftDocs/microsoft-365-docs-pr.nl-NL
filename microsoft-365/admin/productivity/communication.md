@@ -19,16 +19,28 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de productiviteits score voor personen met de communicatie.
-ms.openlocfilehash: de73957ffad27ddac9b5e18cd6da7becd2239a59
-ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
+ms.openlocfilehash: b688063c10749d15fc5b00b629ee18afedba927e
+ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49585314"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712577"
 ---
 # <a name="communication--people-experiences"></a>Communicatie: mensen ervaring
 
 Productiviteits Score biedt ondersteuning voor de reis naar digitale transformatie met inzicht in hoe uw organisatie Microsoft 365 gebruikt en wat de technologie ervaring van de organisatie is. De score van je organisatie weerspiegelt metingen van mensen en technologie-ervaringen en kan vergelijkt worden met benchmarks van organisaties zoals die van jou. De categorie communicatie maakt deel uit van de mensen die een rol treffen. Ga voor meer informatie naar het overzicht van de [productiviteits Score](productivity-score.md) en lees de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
+
+## <a name="prerequisites"></a>Vereisten
+
+Als u aan de slag wilt gaan met communicatie inzichten, moet u een licentie voor personen in uw organisatie hebben voor:
+
+- Microsoft Teams
+- Yammer
+- Exchange Online
+
+Zie [licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md)voor meer informatie.
+
+Na de afgelopen 30 dagen in de bovenstaande producten, begint u met het bekijken van de inzichten.
 
 ## <a name="why-your-organizations-communication-score-matters"></a>Waarom betreffen de communicatie Score van uw organisatie 
 

@@ -19,16 +19,26 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de vergaderingen-de productiviteits Score van personen.
-ms.openlocfilehash: b9dfd59643d38531d1eb4ff9fdc24fdc2a54f382
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 09b0682593c0e5a623e9b17712754c4bea2a6672
+ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561645"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712541"
 ---
 # <a name="meetings--people-experiences"></a>Vergaderingen: mensen ervaring
 
 Productiviteits Score biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologie ervaring ter ondersteuning van uw organisatie. De Score van uw organisatie weerspiegelt de maten voor personen en technologieën, en kan worden vergeleken met de Bench maten van organisaties die vergelijkbaar zijn met uw organisatie. De categorie vergaderingen maakt deel uit van de werknemers met een rol. Ga voor meer informatie naar het overzicht van de [productiviteits Score](productivity-score.md) en lees de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
+
+## <a name="prerequisites"></a>Vereisten
+
+Om aan de slag te gaan met vergaderingen inzichten, moet u een licentie voor personen in uw organisatie in licentie geven voor:
+
+- Microsoft Teams
+
+Zie [licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md)voor meer informatie.
+
+Nadat personen minstens eenmaal in de afgelopen 30 dagen actief zijn geweest in teams, kunt u de inzichten zien.
 
 ## <a name="why-your-organizations-meetings-score-matters"></a>Waarom betreffen de Vergader punten van uw organisatie
 

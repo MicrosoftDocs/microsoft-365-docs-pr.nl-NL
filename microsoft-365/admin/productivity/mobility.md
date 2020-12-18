@@ -19,16 +19,31 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de productiviteits score voor personen in de mobiliteit.
-ms.openlocfilehash: 04651cfee4ac2e67c4099c47bfe6d8c07b41ba83
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: e632bb4960ef36acf2c81373f34947ababc8b903
+ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561575"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712565"
 ---
 # <a name="mobility--people-experiences"></a>Mobiliteit – personen met ervaring
 
 Productiviteits Score biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologie ervaring ter ondersteuning van uw organisatie. De Score van uw organisatie weerspiegelt de maten voor personen en technologieën, en kan worden vergeleken met de Bench maten van organisaties die vergelijkbaar zijn met uw organisatie. De categorie mobiliteit maakt deel uit van de mensen die een rol treffen. Ga voor meer informatie naar het overzicht van de [productiviteits Score](productivity-score.md) en lees de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
+
+## <a name="prerequisites"></a>Vereisten
+
+Als u aan de slag wilt met mobiliteits inzichten, moet u een licentie voor personen in uw organisatie in een licentie aanvragen voor:
+
+- Microsoft Teams
+- Exchange Online
+- Word
+- Excel
+- PowerPoint
+- OneNote
+
+Zie [licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md)voor meer informatie.
+
+Na de afgelopen 30 dagen in de bovenstaande producten, begint u met het bekijken van de inzichten.
 
 ## <a name="why-your-organization39s-mobility-score-matters"></a>Waarom uw organisatie&#39;s voor de mobiliteits Score
 

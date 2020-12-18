@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
-ms.openlocfilehash: 43736fbd42949a084804825ec7f12d19b7fd1818
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 7660516e60c77a7f31f711f78b6fd28d3ad179fd
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683041"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709702"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -55,7 +55,7 @@ In de volgende tabel vindt u een beschrijving van de verschillen tussen anti-phi
 
 Zie de volgende artikelen voor meer informatie over het configureren van een anti phishing-beleid:
 
-- [Anti-phishings beleid configureren in EOP](configure-anti-phishing-policies-eop.md)
+- [Antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)
 
 - [Anti phishingfilter configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)
 
@@ -99,6 +99,8 @@ De volgende spoof-instellingen zijn beschikbaar in anti-phishing-beleid in EOP e
   > - De bescherming tegen spoofing is standaard ingeschakeld in het standaard anti-phishingfilter en in elk nieuw aangepast anti-phishing-beleid dat u maakt.
   >
   > - U hoeft geen anti-spoofing-beveiliging uit te schakelen als uw MX-record niet verwijst naar Microsoft 365. u kunt in plaats hiervan uitgebreid filteren op connectors. Zie voor meer informatie het artikel [uitgebreid filteren op connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+  >
+  > - Als u de bescherming van een anti-spoofing uitschakelt, wordt alleen impliciete spoofing-beveiliging uitgeschakeld voor [verificatie van samengestelde verificatie](email-validation-and-authentication.md#composite-authentication) . Als de afzender expliciet [DMARC](use-dmarc-to-validate-email.md) controleert waar het beleid is ingesteld op Quarantine of verworpen, wordt het bericht nog steeds in quarantaine geplaatst of genegeerd.
 
   Voor berichten van geblokkeerde vervalste afzenders kunt u ook opgeven welke actie u wilt uitvoeren op de berichten:
 

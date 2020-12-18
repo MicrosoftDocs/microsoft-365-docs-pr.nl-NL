@@ -19,16 +19,28 @@ search.appverid:
 - MET150
 - MOE150
 description: Details van de samenwerking van inhoud-personen met productiviteits Score.
-ms.openlocfilehash: 2637debe41cd32093c378a4665af6dc5185b0e5e
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 62486511be7e085401e4a2934ce3742a15729e1f
+ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561657"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712589"
 ---
 # <a name="content-collaboration--people-experiences"></a>Samenwerken aan inhoud: mensen ervaring
 
 Productiviteits Score biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologie ervaring ter ondersteuning van uw organisatie. De Score van uw organisatie weerspiegelt de maten voor personen en technologieën, en kan worden vergeleken met de Bench maten van organisaties die vergelijkbaar zijn met uw organisatie. De categorie voor samenwerking van inhoud maakt deel uit van de personen die de functies hebben. Ga voor meer informatie naar het overzicht van de [productiviteits Score](productivity-score.md) en lees de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
+
+## <a name="prerequisites"></a>Vereisten
+
+Om aan de slag te kunnen gaan met inzicht in inhoud samenwerken, moeten personen in uw organisatie een licentie voor het volgende doen:
+
+- OneDrive voor Bedrijven
+- SharePoint
+- Exchange Online
+
+Zie [licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md)voor meer informatie.
+
+ Na de afgelopen 30 dagen in de bovenstaande producten, begint u met het bekijken van de inzichten.
 
 ## <a name="why-your-organization39s-content-collaboration-score-matters"></a>Waarom uw organisatie de samenwerking van de inhoud van de organisatie&#39;
 
