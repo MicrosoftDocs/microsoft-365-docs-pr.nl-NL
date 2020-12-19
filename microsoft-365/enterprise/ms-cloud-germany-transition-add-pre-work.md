@@ -3,7 +3,7 @@ title: Voor de migratie van Microsoft Cloud Deutschland
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/11/2020
+ms.date: 12/18/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: voor werk wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 1bb6a1b80da462da2218f32fbbc2899ae651a3ec
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 107447226b9b75f371e23f8dd06ec29860571c63
+ms.sourcegitcommit: 86f75cf77a7a446a79226ca530bd7b5eb39189cb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688453"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49717029"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Voor de migratie van Microsoft Cloud Deutschland
 
@@ -115,6 +115,7 @@ Als u een service van derden of line-of-business-toepassingen (LOB) gebruikt die
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
+| Een id voor eenmalige aanmelding (SSO) toevoegen aan een bestaande vertrouwensrelatie van een vertrouwende partij en AD FS-metagegevens automatische updates uitschakelen. | Voordat u de migratie start, moet er een ID worden toegevoegd aan de vertrouwensrelatie van de vertrouwende partij voor AD FS. Schakel automatisch bijwerken voor metagegevens updates uit om te voorkomen dat de id van de Relying Party wordt verwijderd. <br><br> Voer deze opdracht uit op de AD FS-server: <br> `Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:microsoftonline.de -Identifier @('urn:federation:microsoftonline.de','https://login.microsoftonline.de/extSTS.srf','https://login.microsoftonline.de') -AutoUpdate $False` | Organisaties voor Federatie verificatie | Vereiste actie. Inactief maakt een service-impact tijdens de migratie.  |
 | Genereer een vertrouwensrelatie van een vertrouwensrelatie voor globale Azure AD-eindpunten. | Klanten moeten handmatig een RPT (RPT) voor een vertrouwensrelatie (RPT) maken voor [globale](https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml) eindpunten. U kunt dit doen door een nieuwe RPT via de GEBRUIKERSINTERFACE toe te voegen, door gebruik te maken van de URL van de Global Federatie metagegevens en vervolgens [Azure AD rap-claim regels](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator#:~:text=%20Azure%20AD%20RPT%20Claim%20Rules%20%201,Azure%20AD.%20This%20will%20be%20what...%20More%20) (in de Help van AD FS) te gebruiken om de claimregels te genereren en deze te importeren in de RPT. | Organisaties voor Federatie verificatie | Vereiste actie. Inactief maakt een service-impact tijdens de migratie. |
 |||||
 

@@ -1,6 +1,6 @@
 ---
-title: Ondersteunde Microsoft 365 Defender-Api's
-description: Ondersteunde Microsoft 365 Defender-Api's
+title: Ondersteunde Microsoft 365 Defender-API's
+description: Ondersteunde Microsoft 365 Defender-API's
 keywords: MTP, API, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,41 +19,45 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b7c0accf2d649d4ad6177260294922ee17783f2c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: dbb7613dae3755b0fb794a3d68b5b424d765cc62
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844958"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719320"
 ---
-# <a name="supported-microsoft-365-defender-apis"></a>Ondersteunde Microsoft 365 Defender-Api's 
+# <a name="supported-microsoft-365-defender-apis"></a>Ondersteunde Microsoft 365 Defender-API's 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 - Microsoft 365 Defender
 
->[!IMPORTANT] 
->Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
+> [!IMPORTANT]
+> Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
+## <a name="list-of-available-apis"></a>Lijst met beschikbare Api's
 
-### <a name="end-point-uris"></a>Uri's van eindpunt:
+Artikel | Beschrijving
+-|-
+[Geavanceerde API voor opsporing](api-advanced-hunting.md) | Voer geavanceerde zoekopdrachten uit.
+[API's voor incidenten](api-incident.md) | U kunt lijsten met behulp van een lijst en update.
 
-- De basis-URI van de service is: https://api.security.microsoft.com <br>
+### <a name="endpoint-uris"></a>Url's van eindpunten
 
->[!NOTE]
->Voor betere prestaties kunt u Server dichter gebruiken voor uw geografische locatie:
-> - api-us.security.microsoft.com
-> - api-eu.security.microsoft.com
-> - api-uk.security.microsoft.com
+De basis-URI voor beide belangrijkste Api's is: https://api.security.microsoft.com . Voor betere prestaties gebruikt u een server dichter bij uw geolocatie:
 
- - De resource voor het verwerving van tokens moet zijn: https://api.security.microsoft.com
+- De Verenigde Staten: api-us.security.microsoft.com
+- Europa: api-eu.security.microsoft.com
+- Het Verenigd Koninkrijk: api-uk.security.microsoft.com
 
- - Alle Api's onder ```/api``` Path zijn OData-api's. namelijk. ```https://api.security.microsoft.com/api/incidents```
+Tokens kunnen worden verkregen door toegang te krijgen https://api.security.microsoft.com .
 
-## <a name="list-of-available-apis"></a>Lijst met beschikbare Api's:
+Alle Api's langs het `/api` pad gebruiken het [OData](https://docs.microsoft.com/odata/overview) -protocol, bijvoorbeeld https://api.security.microsoft.com/api/incidents .
 
-Rond | Beschrijving
-:---|:---
-[Geavanceerde API voor opsporing](api-advanced-hunting.md) | Voer geavanceerde jacht-query's uit via API.
-[API's voor incidenten](api-incident.md) | Incidentele API-oproepen uitvoeren, zoals: incidenten vermelden, incident bijwerken en meer.
+## <a name="related-articles"></a>Verwante artikelen
+
+- [Overzicht van Microsoft 365 Defender-Api's](api-overview.md)
+- [Toegang tot de Microsoft Threat Protection-Api's](api-access.md)
+- [Meer informatie over API-limieten en licenties](api-terms.md)
+- [Meer informatie over foutcodes](api-error-codes.md)

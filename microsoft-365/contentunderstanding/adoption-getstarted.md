@@ -12,12 +12,12 @@ ms.collection: enabler-strategic
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: db54ff053dcb1c9c1c608608ab1a37da8090cdb3
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 18bc5d8d0f80f7cee024f4d6358361509879bd11
+ms.sourcegitcommit: 86f75cf77a7a446a79226ca530bd7b5eb39189cb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087509"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49717017"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex-acceptatie: aan de slag
 
@@ -32,8 +32,8 @@ Met de nieuwe AI-Services en-functies kunt u de inhoud van de apps met behulp va
 |Handmatige invoer| Formulierverwerking | Documenten begrijpen |
 |:-------|:--------|:--------|
 | Gegevensinvoer en arbeidsintensief op inhoud | Digitale inhoud verwerken: Foto's, scans, bewijzen, visitekaartjes, Video's met OCR & tekst |  Inhoudstypen en metagegevens vastleggen voor contracten, cv's en andere gestructureerde documenten |
-| Activiteit   | Vooraf gebouwd, automatisch   | Aangepast, bijgestaan   | Aangepast, compatibel |
-| Personen die het werk doen | In het bezit zijn van de experts van de materie. Inhoudstypen en metagegevens te vastleggen voor contracten, cv's, andere niet-gestructureerde documenten. | Kmo's zijn minder gemoeid. van aankooporders, toepassingen, andere semi-gestructureerde en gestructureerde documenten |
+| Activiteit   | Vooraf gebouwd, automatisch   | Aangepast, bijgestaan  |
+| Personen die het werk doen | In het bezit zijn van de experts van de materie. Inhoudstypen en metagegevens te vastleggen voor contracten, cv's, andere gestructureerde documenten. | Kmo's zijn minder gemoeid. van aankooporders, toepassingen, andere semi-gestructureerde en gestructureerde documenten |
 
 In de volgende tabel wordt uitgelegd wat u kunt doen wanneer u SharePoint Syntex gebruikt:
 

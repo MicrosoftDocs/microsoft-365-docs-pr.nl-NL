@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 63eab8c44651bfc2865e9bf6c577c1ebe13381fc
-ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
+ms.openlocfilehash: f151f02af695eb54eaf8f4f97936f4985fc7f8c0
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49624764"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719200"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van cross-Tenant postvak (preview)
 
@@ -99,9 +99,9 @@ De bron Tenant voorbereiden:
 
     | Tabelwaardeparameter | Value | Vereist of optioneel
     |---------------------------------------------|-----------------|--------------|
-    | -ResourceTenantDomain                       | Bron Tenant domein, bijvoorbeeld fabrikam.onmicrosoft.com. | Vereist |
+    | -TargetTenantDomain                         | Het doel Tenant domein, bijvoorbeeld contoso \. onmicrosoft.com. | Vereist |
+    | -ResourceTenantDomain                       | Tenant domein voor bronnen, zoals fabrikam \. onmicrosoft.com. | Vereist |
     | -ResourceTenantAdminEmail                   | E-mailadres van de bron tenantbeheerder. Dit is de bron tenantbeheerder die wordt doorgestuurd naar het gebruik van de migratietoepassing voor postvakken die van de doel beheerder is verzonden. De beheerder die de e-mail uitnodiging voor de toepassing ontvangt. | Vereist |
-    | -TargetTenantDomain                         | Het doel Tenant domein, bijvoorbeeld contoso.onmicrosoft.com. | Vereist |
     | -ResourceTenantId                           | Bron Tenant-ID (GUID). | Vereist |
     | -SubscriptionId                             | Het Azure-abonnement dat moet worden gebruikt voor het maken van bronnen. | Vereist |
     | -ResourceGroup                              | Naam van Azure-resourcegroep die de sleutel kluis bevat of bevat. | Vereist |
@@ -187,10 +187,10 @@ De installatie van doel beheerders is nu voltooid.
     | Tabelwaardeparameter | Value |
     |-----|------|
     | -SourceMailboxMovePublishedScopes | Beveiligingsgroep met e-mail gemaakt door bron Tenant voor de identiteiten/postvakken die binnen het bereik van de migratie liggen. |
-    | -ResourceTenantDomain | Naam Tenant domeinnaam, bijvoorbeeld fabrikam.onmicrosoft.com. |
-    | -TargetTenantDomain | De naam van het doel Tenant domein, bijvoorbeeld contoso.onmicrosoft.com. |
+    | -ResourceTenantDomain | Naam van bron Tenant domein, bijvoorbeeld fabrikam \. onmicrosoft.com. |
     | -ApplicationId | De ID van de Azure-toepassing van de toepassing die wordt gebruikt voor de migratie. Toepassings-ID beschikbaar via uw Azure-Portal (Azure AD, Enterprise-toepassingen, app-naam, toepassings-ID) of die is opgenomen in de e-mail van de uitnodiging.  |
-    | -TargetTenantId | Tenant-ID van de doel Tenant. Bijvoorbeeld de naam van een Azure AD-Tenant van contoso.onmicrosoft.com Tenant. |
+    | -TargetTenantDomain | De naam van het doel Tenant domein, bijvoorbeeld contoso \. onmicrosoft.com. |
+    | -TargetTenantId | Tenant-ID van de doel Tenant. Bijvoorbeeld de naam van een Azure AD-Tenant van Contoso \. onmicrosoft.com Tenant. |
     |||
 
     Hier volgt een voorbeeld.
@@ -284,6 +284,7 @@ Gebruikers die worden gemigreerd, moeten presenteren in de doel Tenant en het Ex
 U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de doelorganisatie.  
 
 1. Als u een postvak van een bronorganisatie verplaatst, moet u een e-mail gebruikersobject in de doelorganisatie inrichten: 
+
    - De doelgebruiker moet deze kenmerken hebben van het bronpostvak of toegewezen aan het nieuwe gebruikersobject:
       - ExchangeGUID (directe stroom van bron naar doel): de GUID van het postvak moet overeenkomen. Het verplaatsings proces wordt niet voortgezet als dit niet aanwezig is op het doelobject. 
       - ArchiveGUID (directe stroom van bron naar doel): de archief-GUID moet overeenkomen. Het verplaatsings proces wordt niet voortgezet als dit niet aanwezig is in het doelobject. (Dit is alleen vereist als het bronpostvak archief is ingeschakeld). 
@@ -293,40 +294,40 @@ U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de 
       - TargetAddress/ExternalEmailAddress: e-gebruikers verwijzen naar het huidige postvak van de gebruiker dat wordt gehost in de bron Tenant (bijvoorbeeld user@contoso.onmicrosoft.com). Wanneer u deze waarde toewijst, controleert u of u ook aan de PrimarySMTPAddress of met deze waarde wordt het PrimarySMTPAddress ingesteld waarmee verplaatsings fouten worden veroorzaakt. 
       - U kunt geen oudere SMTP-proxyadressen van het bronpostvak toevoegen aan de gebruiker. U kunt contoso.com bijvoorbeeld niet bijhouden voor de gebruiker E-mail in fabrikam.onmicrosoft.com-Tenant objecten). Domeinen zijn gekoppeld aan één Azure AD-of Exchange Online-Tenant.
  
-    Voorbeeld van een **doel** -MailUser-object:
+     Voorbeeld van een **doel** -MailUser-object:
  
-    | Attribuut             | Value                                                                                                                    |
-    |-----------------------|--------------------------------------------------------------------------------------------------------------------------|
-    | Alias                 | LaraN                                                                                                                    |
-    | RecipientType         | Sharedmailbox                                                                                                                 |
-    | RecipientTypeDetails  | Sharedmailbox                                                                                                                 |
-    | UserPrincipalName     | LaraN@northwintraders.onmicrosoft.com                                                                                    |
-    | PrimarySmtpAddress    | Lara.Newton@northwind.com                                                                                                |
-    | ExternalEmailAddress  | SMTP:LaraN@contoso.onmicrosoft.com                                                                                       |
-    | ExchangeGuid          | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                     |
-    | LegacyExchangeDN      | /o = eerste organisatie/OE = Exchange-beheergroep                                                                   |
-    |                       | (FYDIBOHF23SPDLT)/cn = Geadresseerden/cn = 74e5385fce4b46d19006876949855035Lara                                                  |
-    | EmailAddresses        | x500:/o = First organisatie/ou = Exchange-beheergroep (FYDIBOHF23SPDLT)/cn = Geadresseerden/cn = d11ec1a2cacd4f81858c8190  |
-    |                       | 7273f1f9-Lara                                                                                                            |
-    |                       | smtp:LaraN@northwindtraders.onmicrosoft.com                                                                              |
-    |                       | SMTP:Lara.Newton@northwind.com                                                                                           |
-    |||
+     | Attribuut             | Value                                                                                                                    |
+     |-----------------------|--------------------------------------------------------------------------------------------------------------------------|
+     | Alias                 | LaraN                                                                                                                    |
+     | RecipientType         | Sharedmailbox                                                                                                                 |
+     | RecipientTypeDetails  | Sharedmailbox                                                                                                                 |
+     | UserPrincipalName     | LaraN@northwintraders.onmicrosoft.com                                                                                    |
+     | PrimarySmtpAddress    | Lara.Newton@northwind.com                                                                                                |
+     | ExternalEmailAddress  | SMTP:LaraN@contoso.onmicrosoft.com                                                                                       |
+     | ExchangeGuid          | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                                                                     |
+     | LegacyExchangeDN      | /o = eerste organisatie/OE = Exchange-beheergroep                                                                   |
+     |                       | (FYDIBOHF23SPDLT)/cn = Geadresseerden/cn = 74e5385fce4b46d19006876949855035Lara                                                  |
+     | EmailAddresses        | x500:/o = First organisatie/ou = Exchange-beheergroep (FYDIBOHF23SPDLT)/cn = Geadresseerden/cn = d11ec1a2cacd4f81858c8190  |
+     |                       | 7273f1f9-Lara                                                                                                            |
+     |                       | smtp:LaraN@northwindtraders.onmicrosoft.com                                                                              |
+     |                       | SMTP:Lara.Newton@northwind.com                                                                                           |
+     |||
 
-   Voorbeeld van een **bron** postvak:
+     Voorbeeld van een **bron** postvak:
 
-   | Attribuut             | Value                                                                    |
-   |-----------------------|--------------------------------------------------------------------------|
-   | Alias                 | LaraN                                                                    |
-   | RecipientType         | User Mailbox                                                              |
-   | RecipientTypeDetails  | User Mailbox                                                              |
-   | UserPrincipalName     | LaraN@contoso.onmicrosoft.com                                            |
-   | PrimarySmtpAddress    | Lara.Newton@contoso.com                                                  |
-   | ExchangeGuid          | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                     |
-   | LegacyExchangeDN      | /o = eerste organisatie/OE = Exchange-beheergroep                   |
-   |                       | (FYDIBOHF23SPDLT)/cn = Geadresseerden/cn = d11ec1a2cacd4f81858c81907273f1f9Lara  |
-   | EmailAddresses        | smtp:LaraN@contoso.onmicrosoft.com 
-   |                       | SMTP:Lara.Newton@contoso.com          |
-   |||
+     | Attribuut             | Value                                                                    |
+     |-----------------------|--------------------------------------------------------------------------|
+     | Alias                 | LaraN                                                                    |
+     | RecipientType         | User Mailbox                                                              |
+     | RecipientTypeDetails  | User Mailbox                                                              |
+     | UserPrincipalName     | LaraN@contoso.onmicrosoft.com                                            |
+     | PrimarySmtpAddress    | Lara.Newton@contoso.com                                                  |
+     | ExchangeGuid          | 1ec059c7-8396-4d0b-af4e-d6bd4c12a8d8                                     |
+     | LegacyExchangeDN      | /o = eerste organisatie/OE = Exchange-beheergroep                   |
+     |                       | (FYDIBOHF23SPDLT)/cn = Geadresseerden/cn = d11ec1a2cacd4f81858c81907273f1f9Lara  |
+     | EmailAddresses        | smtp:LaraN@contoso.onmicrosoft.com 
+     |                       | SMTP:Lara.Newton@contoso.com          |
+     |||
 
    - Er kunnen nog geen extra kenmerken worden opgenomen in een hybride Exchange-weergegeven. Als dat niet zo is, moeten ze ook worden opgenomen. 
    - msExchBlockedSendersHash: schrijft online veilig en geblokkeerde gegevens van afzenders van klanten naar on-premises Active Directory.
@@ -350,7 +351,7 @@ U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de 
     > [!Note]
     > Wanneer u een licentie toepast op een postvak of e-mail-object, worden alle SMTP-proxyAddresses gemigreerd, zodat alleen geverifieerde domeinen worden opgenomen in de van de Exchange-records. 
 
-5. U moet ervoor zorgen dat de doelgebruiker geen eerdere ExchangeGuid heeft die niet overeenkomen met de bron ExchangeGuid. Dit kan gebeuren als de doelgebruiker e-mail eerder een licentie voor Exchange Online is en een postvak is ingericht. Als de doel-mailgebruiker eerder een licentie voor of een ExchangeGuid heeft die niet overeenkomt met de bron ExchangeGuid, moet u een opschooning van de Cloud gebruiker E-mail uitvoeren. Voor deze Cloud converteren e kunt u de opdracht uitvoeren `Set-User <identity> -PermanentlyClearPreviousMailboxInfo` .  
+5. U moet ervoor zorgen dat de doelgebruiker geen eerdere ExchangeGuid heeft die niet overeenkomen met de bron ExchangeGuid. Dit kan gebeuren als de doelgebruiker e-mail eerder een licentie voor Exchange Online is en een postvak is ingericht. Als de doel-mailgebruiker eerder een licentie voor of een ExchangeGuid heeft die niet overeenkomt met de bron ExchangeGuid, moet u een opschooning van de Cloud gebruiker E-mail uitvoeren. Voor deze Cloud converteren e kunt u het programma uitvoeren `Set-User <identity> -PermanentlyClearPreviousMailboxInfo` .  
 
     > [!Caution]
     > Dit proces is onomkeerbaar. Als het object een softDeleted-postvak heeft, kunt u dit na dit punt niet meer herstellen. Als dit is uitgeschakeld, kunt u echter het juiste ExchangeGuid synchroniseren met het doelobject en moet u het bronpostvak verbinden met het nieuw gemaakte doel postvak. (Naslaggids voor naslaginformatie over de nieuwe parameter.)  
@@ -508,7 +509,7 @@ Het Exchange-postvak wordt verplaatst met MEVR. het oorspronkelijke bronpostvak 
 
 Postvak machtigingen omvatten verzenden namens en Postvak toegang: 
 
-- Verzenden namens (AD: publicDelegates) Hiermee wordt de DN van geadresseerden opgeslagen die toegang hebben tot het postvak van een gebruiker als gemachtigde. Deze waarde wordt opgeslagen in Active Directory en wordt momenteel niet verplaatst als onderdeel van de overgang van het postvak. Als het bronpostvak is ingesteld op publicDelegates, moet u het publicDelegates op het doel postvak opnieuw instellen nadat de gebruiker E-mail voor de conversie van een postvak in de doelomgeving is voltooid met behulp van de `Set-Mailbox <principle> -GrantSendOnBehalfTo <delegate>` opdracht. 
+- Verzenden namens (AD: publicDelegates) Hiermee wordt de DN van geadresseerden opgeslagen die toegang hebben tot het postvak van een gebruiker als gemachtigde. Deze waarde wordt opgeslagen in Active Directory en wordt momenteel niet verplaatst als onderdeel van de overgang van het postvak. Als het bronpostvak is ingesteld op publicDelegates, moet u het publicDelegates op het doel postvak opnieuw afstempelen nadat de gebruiker E-mail voor de conversie van een postvak in de doelomgeving is uitgevoerd `Set-Mailbox <principle> -GrantSendOnBehalfTo <delegate>` . 
  
 - Postvak machtigingen die zijn opgeslagen in het postvak, worden verplaatst met het postvak wanneer zowel de primaire als de gemachtigde worden verplaatst naar het doelsysteem. De gebruiker TestUser_7 heeft bijvoorbeeld machtiging fullaccess, TestUser_8 in de Tenant SourceCompany.onmicrosoft.com. Wanneer het postvak is verplaatst naar TargetCompany.onmicrosoft.com, worden dezelfde machtigingen ingesteld in de doeldirectory. Voorbeelden van het gebruik van *Get-mailboxpermission kunt* voor TestUser_7 in de bron-en doel tenants worden hieronder weergegeven. Exchange-cmdlets worden volgens de bron en het doel met bovenstaande stappen opgelost. 
  

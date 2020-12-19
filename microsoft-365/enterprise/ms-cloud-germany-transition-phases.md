@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: algemene informatie over de migratie fasen en effecten van overstappen van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 4a032ab88704cfb46b3f451d939a784d222cbb40
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 4a54fed8a109c3d03b735a5db3cb48060f5c438f
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688615"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719390"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>Acties voor migratie fasen en effecten voor de migratie van Microsoft Cloud Deutschland (algemeen)
 
@@ -83,7 +83,7 @@ Aanvullende overwegingen:
 
 | Stap (s) | Beschrijving | Van toepassing op | Gevolg |
 |:-------|:-----|:-------|:-------|
-| Migratie van Skype voor bedrijven naar teams. | Bestaande Skype voor bedrijven-klanten worden gemigreerd naar Office 365-Services in Europa en worden vervolgens overgezet naar Microsoft teams in de Duitse regio van Office 365-Services. | Skype voor bedrijven-klanten | -Gebruikers kunnen zich niet aanmelden bij Skype voor bedrijven op de migratiedatum. Tien dagen voor de migratie melden we eindgebruikers via de band van de Skype voor bedrijven-client waarop ze worden geüpgraded naar teams. In het Beheercentrum wordt ook deze wijzigingen weergegeven na de tien dagen. <br><br> -Beleidsconfiguratie wordt gemigreerd. <br><br> -Gebruikers worden gemigreerd naar teams en zullen na de migratie niet langer Skype voor bedrijven. <br><br> -Voor gebruikers moet de bureaubladtoepassing teams zijn geïnstalleerd. De installatie zal plaatsvinden gedurende de tien dagen via het beleid voor de Skype voor bedrijven-infrastructuur, maar als dit mislukt, moeten gebruikers de client downloaden of verbinding maken met een ondersteunde browser. <br><br> -Contactpersonen en vergaderingen worden gemigreerd naar teams. <br><br> -Gebruikers kunnen zich niet aanmelden bij Skype voor bedrijven tussen tijdsservice overgangen naar Office 365-Services en niet totdat de DNS-gegevens van de klant zijn voltooid. <br><br> -Contactpersonen en bestaande vergaderingen blijven werken als vergaderingen in Skype voor bedrijven. |
+| Migratie van Skype voor bedrijven naar teams. | Bestaande Skype voor bedrijven-klanten worden gemigreerd naar Office 365-Services in Europa en worden vervolgens overgezet naar Microsoft teams in de Duitse regio van Office 365-Services. | Skype voor bedrijven-klanten | -Gebruikers kunnen zich niet aanmelden bij Skype voor bedrijven op de migratiedatum. Tien dagen voorafgaand aan de migratie plaatsen we een bericht naar het Beheercentrum om u te laten weten wanneer de migratie plaatsvindt en opnieuw wanneer de migratie wordt gestart. <br><br> -Beleidsconfiguratie wordt gemigreerd. <br><br> -Gebruikers worden gemigreerd naar teams en zullen na de migratie niet langer Skype voor bedrijven. <br><br> -Voor gebruikers moet de bureaubladtoepassing teams zijn geïnstalleerd. De installatie zal plaatsvinden gedurende de tien dagen via het beleid voor de Skype voor bedrijven-infrastructuur, maar als dit mislukt, moeten gebruikers de client downloaden of verbinding maken met een ondersteunde browser. <br><br> -Contactpersonen en vergaderingen worden gemigreerd naar teams. <br><br> -Gebruikers kunnen zich niet aanmelden bij Skype voor bedrijven tussen tijdsservice overgangen naar Office 365-Services en niet totdat de DNS-gegevens van de klant zijn voltooid. <br><br> -Contactpersonen en bestaande vergaderingen blijven werken als vergaderingen in Skype voor bedrijven. |
 |||||
 
 ## <a name="office-services"></a>Office-services

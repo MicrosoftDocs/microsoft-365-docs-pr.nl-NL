@@ -19,40 +19,60 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e88b59ea28f9e71c677c25d95edc2f91cc2e56d4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: d9b3c48e4b9e89ef7648086b05c9fdd9f078f51e
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844894"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719296"
 ---
-#  <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Licentie en Gebruiksvoorwaarden Microsoft 365 Defender API
+# <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Licentie en Gebruiksvoorwaarden Microsoft 365 Defender API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
+
 - Microsoft 365 Defender
 
->[!IMPORTANT] 
->Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
+> [!IMPORTANT]
+> Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
+## <a name="official-terms"></a>Officiële voorwaarden
 
-## <a name="apis"></a>API‘s
-
- Microsoft 365 Defender-Api's zijn onderworpen aan de [Microsoft API-licentie en de gebruiksvoorwaarden](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
-
-### <a name="throttling-limits"></a>Limieten
-
-Elke API heeft eigen beperkingen voor de beperking.<br>
-Er worden beperkingen per uur en per minuut beperkt.<br>
-Met het oog op de beperking voor de beperking van de API zijn de beperkingen: 50-oproepen per minuut en 1500 per uur.<br>
-De statuscode van het HTTP-antwoord in het geval van beperking is 429.
-
+Microsoft 365 Defender-Api's zijn onderworpen aan de [Microsoft api's-licentie en de gebruiksvoorwaarden](https://docs.microsoft.com/legal/microsoft-apis/terms-of-use).
 
 ## <a name="legal-notices"></a>Juridische kennisgevingen
 
-Microsoft en elke medewerker verlenen u een licentie aan de Microsoft-documentatie en andere inhoud in deze bibliotheek onder de openbare licentie voor 4,0 internationale internationale licentie, zie het licentiebestand.
+Microsoft en elke medewerker verlenen u een licentie aan de Microsoft-documentatie en andere inhoud in [deze bibliotheek](https://github.com/MicrosoftDocs/microsoft-365-docs), onder de openbare licentie van 4,0 internationale internationale licentie. Voor meer informatie raadpleegt u het [licentie](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/LICENSE) bestand.
 
-Microsoft, Windows, Microsoft Azure en/of andere Microsoft-producten en-services waarnaar wordt verwezen in de documentatie, kunnen handelsmerken of geregistreerde handelsmerken zijn van Microsoft in de Verenigde Staten en/of in andere landen. Voor de licenties voor dit project wordt u niet gemachtigd om Microsoft-namen,-logo's of handelsmerken te gebruiken. Microsofts richtlijnen voor algemeen handelsmerken vindt u op https://go.microsoft.com/fwlink/?LinkID=254653 .
+Microsoft, Windows, Microsoft Azure en/of andere Microsoft-producten en-services waarnaar wordt verwezen in de documentatie, kunnen handelsmerken of geregistreerde handelsmerken zijn van Microsoft in de Verenigde Staten en/of in andere landen.
 
-U vindt informatie over privacy op https://privacy.microsoft.com/en-us/ Microsoft en elke medewerker behoudt alle rechten van de rechten, ongeacht of deze onder hun respectieve auteursrecht, octrooien of handelsmerken onder hun eigen auteursrecht, estoppel of anderszins.
+De licenties voor dit project geven u geen rechten voor het gebruik van Microsoft-namen,-logo's of-handelsmerken. Microsofts richtlijnen voor algemeen handelsmerken vindt u op [Microsoft-handelsmerken](https://go.microsoft.com/fwlink/?LinkID=254653).
+
+U vindt informatie over privacy [voor de privacyverklaring bij Microsoft](https://privacy.microsoft.com).
+
+Microsoft en elke medewerker behoudt zich alle andere rechten voor, ongeacht of deze onder hun eigen auteursrecht, octrooien of handelsmerken onder hun eigen auteursrecht, estoppel of anderszins.
+
+## <a name="other-restrictions"></a>Andere beperkingen
+
+De Advanced jacht-API bevat enkele [beperkingen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api#limitations) voor het aantal geretourneerde resultaten en de gegevens waarop u kunt worden opgezocht.
+
+1. U kunt alleen de gegevens van de afgelopen 30 dagen opvragen.
+1. De resultaten hebben een maximum van 100.000 rijen.
+
+### <a name="quotas-and-resource-allocation"></a>Quota's en resources toewijzen
+
+De Microsoft 365-Api's voor het beperken van drempelwaarden.
+
+- **API voor incidenten**: tot 50-oproepen per minuut of 1500 bellen per uur.
+- **Geavanceerde jacht-API**: tot 15 oproepen per minuut, 10 minuten van uitvoering per uur en 4 uur tijd per dag.
+
+De statuscode van het HTTP-antwoord aangeeft vertraging is `429` .
+
+Als uw aanvraag is vertraagd, zal de tekst van het antwoord de tijd aangeven waarop u kunt beginnen met het maken van aanvragen.
+
+## <a name="related-articles"></a>Verwante artikelen
+
+- [Overzicht van Microsoft 365 Defender-Api's](api-overview.md)
+- [Ondersteunde Microsoft 365 Defender-API's](api-supported.md)
+- [Toegang tot de Microsoft 365 Defender-Api's](api-access.md)
