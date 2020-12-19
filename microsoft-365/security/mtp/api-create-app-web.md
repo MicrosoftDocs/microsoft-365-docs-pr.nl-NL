@@ -1,6 +1,6 @@
 ---
 title: Een app maken om toegang te krijgen tot Microsoft 365 Defender zonder een gebruiker
-description: Meer informatie over het maken van een app voor toegang tot Microsoft 365 Defender zonder een gebruiker
+description: Meer informatie over het maken van een app voor toegang tot Microsoft 365 Defender zonder een gebruiker.
 keywords: app, Access, API, Create
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,165 +19,178 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 446db803cc47bfd519642928a4a0257c4b3d57c8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: de925fa52056a051592fe5024c0abd40b51ad57b
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846066"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719354"
 ---
-# <a name="create-an-app-to-access-microsoft-365-defender-without-a-user"></a><span data-ttu-id="c3ef5-104">Een app maken om toegang te krijgen tot Microsoft 365 Defender zonder een gebruiker</span><span class="sxs-lookup"><span data-stu-id="c3ef5-104">Create an app to access Microsoft 365 Defender without a user</span></span>
+# <a name="create-an-app-to-access-microsoft-365-defender-without-a-user"></a><span data-ttu-id="d8a0d-104">Een app maken om toegang te krijgen tot Microsoft 365 Defender zonder een gebruiker</span><span class="sxs-lookup"><span data-stu-id="d8a0d-104">Create an app to access Microsoft 365 Defender without a user</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+<span data-ttu-id="d8a0d-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="d8a0d-105">**Applies to:**</span></span>
 
-<span data-ttu-id="c3ef5-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="c3ef5-105">**Applies to:**</span></span>
-- <span data-ttu-id="c3ef5-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="c3ef5-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="d8a0d-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d8a0d-106">Microsoft 365 Defender</span></span>
 
->[!IMPORTANT] 
-><span data-ttu-id="c3ef5-107">Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="c3ef5-108">Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="d8a0d-107">Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="d8a0d-108">Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
 
-<span data-ttu-id="c3ef5-109">Op deze pagina wordt beschreven hoe u een toepassing maakt om via een programma toegang te krijgen tot Microsoft 365 Defender zonder een gebruiker.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-109">This page describes how to create an application to get programmatic access to Microsoft 365 Defender without a user.</span></span> <span data-ttu-id="c3ef5-110">Als u namens een gebruiker via een programma toegang wilt hebben tot Microsoft 365 Defender, raadpleegt u [toegang krijgen met gebruikerscontext](api-create-app-user-context.md).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-110">If you need programmatic access to Microsoft 365 Defender on behalf of a user, see [Get access with user context](api-create-app-user-context.md).</span></span> <span data-ttu-id="c3ef5-111">Als u niet zeker weet welke toegang u nodig hebt, raadpleegt u [aan de slag](api-access.md).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-111">If you are not sure which access you need, see [Get started](api-access.md).</span></span>
+<span data-ttu-id="d8a0d-109">Op deze pagina wordt beschreven hoe u een toepassing maakt om via een programma toegang te krijgen tot Microsoft 365 Defender zonder een gedefinieerde gebruiker, bijvoorbeeld als u een demon of een achtergrondservice maakt.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-109">This page describes how to create an application to get programmatic access to Microsoft 365 Defender without a defined user—for example, if you're creating a daemon or background service.</span></span>
 
-<span data-ttu-id="c3ef5-112">Microsoft 365 Defender geeft veel van zijn gegevens en acties getoond via een set programmeer Api's.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-112">Microsoft 365 Defender exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="c3ef5-113">Met deze Api's wordt u geholpen bij het automatiseren van werkstromen en innoveren op basis van de mogelijkheden van Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-113">Those APIs will help you automate work flows and innovate based on Microsoft 365 Defender capabilities.</span></span> <span data-ttu-id="c3ef5-114">Voor API-toegang is OAuth 2.0-authenticatie vereist.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-114">The API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="c3ef5-115">Voor meer informatie raadpleegt u [OAuth 2,0 Authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-115">For more information, see [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
+<span data-ttu-id="d8a0d-110">Als u voor een of meer gebruikers via een programma toegang wilt hebben tot Microsoft 365 Defender, raadpleegt u [een app maken om toegang te krijgen tot Microsoft 365-api's namens een gebruiker](api-create-app-user-context.md) en [een app te maken met partner toegang tot Microsoft 365](api-partner-access.md)</span><span class="sxs-lookup"><span data-stu-id="d8a0d-110">If you need programmatic access to Microsoft 365 Defender on behalf of one or more users, see [Create an app to access Microsoft 365 Defender APIs on behalf of a user](api-create-app-user-context.md) and [Create an app with partner access to Microsoft 365 Defender APIs](api-partner-access.md).</span></span> <span data-ttu-id="d8a0d-111">Als u niet zeker weet welk type toegang u nodig hebt, raadpleegt u [aan de slag](api-access.md).</span><span class="sxs-lookup"><span data-stu-id="d8a0d-111">If you're not sure which kind of access you need, see [Get started](api-access.md).</span></span>
 
-<span data-ttu-id="c3ef5-116">In het algemeen dient u de volgende stappen uit te voeren om de Api's te gebruiken:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-116">In general, you'll need to take the following steps to use the APIs:</span></span>
-- <span data-ttu-id="c3ef5-117">Maak een Azure AD-toepassing (Azure Active Directory).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-117">Create an Azure Active Directory (Azure AD) application.</span></span>
-- <span data-ttu-id="c3ef5-118">U krijgt een toegangstoken met deze toepassing.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-118">Get an access token using this application.</span></span>
-- <span data-ttu-id="c3ef5-119">Gebruik het token om toegang te krijgen tot de Microsoft 365 Defender API.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-119">Use the token to access Microsoft 365 Defender API.</span></span>
+<span data-ttu-id="d8a0d-112">Microsoft 365 Defender geeft veel van zijn gegevens en acties getoond via een set programmeer Api's.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-112">Microsoft 365 Defender exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="d8a0d-113">Met deze Api's kunt u werkstromen automatiseren en gebruikmaken van de mogelijkheden van Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-113">Those APIs help you automate workflows and make use of Microsoft 365 Defender's capabilities.</span></span> <span data-ttu-id="d8a0d-114">Voor deze API-toegang is OAuth 2.0 Authentication vereist.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-114">This API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="d8a0d-115">Voor meer informatie raadpleegt u [OAuth 2,0 Authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span><span class="sxs-lookup"><span data-stu-id="d8a0d-115">For more information, see [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
 
-<span data-ttu-id="c3ef5-120">In dit artikel wordt uitgelegd hoe u een Azure AD-toepassing maakt, een toegangstoken krijgt voor Microsoft 365 Defender en het token valideert.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-120">This article explains how to create an Azure AD application, get an access token to Microsoft 365 Defender, and validate the token.</span></span>
+<span data-ttu-id="d8a0d-116">In het algemeen dient u de volgende stappen uit te voeren om deze Api's te gebruiken:</span><span class="sxs-lookup"><span data-stu-id="d8a0d-116">In general, you'll need to take the following steps to use these APIs:</span></span>
 
-## <a name="create-an-app"></a><span data-ttu-id="c3ef5-121">Een app maken</span><span class="sxs-lookup"><span data-stu-id="c3ef5-121">Create an app</span></span>
+- <span data-ttu-id="d8a0d-117">Maak een Azure AD-toepassing (Azure Active Directory).</span><span class="sxs-lookup"><span data-stu-id="d8a0d-117">Create an Azure Active Directory (Azure AD) application.</span></span>
+- <span data-ttu-id="d8a0d-118">U krijgt een toegangstoken met deze toepassing.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-118">Get an access token using this application.</span></span>
+- <span data-ttu-id="d8a0d-119">Gebruik het token om toegang te krijgen tot de Microsoft 365 Defender API.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-119">Use the token to access Microsoft 365 Defender API.</span></span>
 
-1. <span data-ttu-id="c3ef5-122">Meld u aan bij [Azure](https://portal.azure.com) met een gebruiker die de rol **globale beheerder** heeft.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-122">Log on to [Azure](https://portal.azure.com) with a user that has the **Global Administrator** role.</span></span>
+<span data-ttu-id="d8a0d-120">In dit artikel wordt uitgelegd hoe u dit kunt doen:</span><span class="sxs-lookup"><span data-stu-id="d8a0d-120">This article explains how to:</span></span>
 
-2. <span data-ttu-id="c3ef5-123">Ga naar de **Azure Active Directory** -  >  **app registraties**  >  **nieuwe registratie**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-123">Navigate to **Azure Active Directory** > **App registrations** > **New registration**.</span></span> 
+- <span data-ttu-id="d8a0d-121">Een Azure AD-toepassing maken</span><span class="sxs-lookup"><span data-stu-id="d8a0d-121">Create an Azure AD application</span></span>
+- <span data-ttu-id="d8a0d-122">Een toegangstoken verkrijgen bij Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d8a0d-122">Get an access token to Microsoft 365 Defender</span></span>
+- <span data-ttu-id="d8a0d-123">Valideer het token.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-123">Validate the token.</span></span>
+
+## <a name="create-an-app"></a><span data-ttu-id="d8a0d-124">Een app maken</span><span class="sxs-lookup"><span data-stu-id="d8a0d-124">Create an app</span></span>
+
+1. <span data-ttu-id="d8a0d-125">Meld u aan bij [Azure](https://portal.azure.com) als een gebruiker met de rol van **globale beheerder** .</span><span class="sxs-lookup"><span data-stu-id="d8a0d-125">Sign in to [Azure](https://portal.azure.com) as a user with the **Global Administrator** role.</span></span>
+
+2. <span data-ttu-id="d8a0d-126">Ga naar de **Azure Active Directory**-  >  **app registraties**  >  **nieuwe registratie**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-126">Navigate to **Azure Active Directory** > **App registrations** > **New registration**.</span></span>
 
    ![Afbeelding van Microsoft Azure en navigatie naar toepassing registreren](../../media/atp-azure-new-app2.png)
 
-3. <span data-ttu-id="c3ef5-125">Kies in het registratieformulier een naam voor de toepassing en selecteer vervolgens **registreren**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-125">In the registration form, choose a name for your application, and then select **Register**.</span></span>
+3. <span data-ttu-id="d8a0d-128">Kies in het formulier een naam voor de toepassing en selecteer vervolgens **registreren**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-128">In the form, choose a name for your application, then select **Register**.</span></span>
 
-4. <span data-ttu-id="c3ef5-126">Als u wilt dat de app toegang kan krijgen tot Microsoft 365 Defender en machtigingen toewijzen, selecteert u op de pagina toepassing de optie **API-machtigingen**  >  **toevoegen** aan  >  **Mijn organisatie** de optie >, typt u **Microsoft 365 Defender** en selecteert u vervolgens **Microsoft 365 Defender**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-126">To enable your app to access Microsoft 365 Defender and assign it permissions, on your application page, select **API Permissions** > **Add permission** > **APIs my organization uses** >, type **Microsoft 365 Defender** , and then select **Microsoft 365 Defender**.</span></span>
+4. <span data-ttu-id="d8a0d-129">Selecteer op de pagina toepassingen de optie **API-machtigingen**  >  **toevoegen**  >  **Mijn organisatie gebruikt** >, typ **Microsoft Threat Protection** en selecteer **Microsoft Threat Protection**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-129">On your application page, select **API Permissions** > **Add permission** > **APIs my organization uses** >, type **Microsoft Threat Protection**, and select **Microsoft Threat Protection**.</span></span> <span data-ttu-id="d8a0d-130">Uw app heeft nu toegang tot Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-130">Your app can now access Microsoft 365 Defender.</span></span>
 
-   > [!NOTE]
-   > <span data-ttu-id="c3ef5-127">Microsoft 365 Defender wordt niet weergegeven in de oorspronkelijke lijst.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-127">Microsoft 365 Defender does not appear in the original list.</span></span> <span data-ttu-id="c3ef5-128">U moet de naam ervan beginnen te schrijven in het tekstvak om de naam weer te geven.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-128">You need to start writing its name in the text box to see it appear.</span></span>
+   > [!TIP]
+   > <span data-ttu-id="d8a0d-131">*Microsoft Threat Protection* is een voormalig naam voor microsoft 365 Defender en wordt niet weergegeven in de oorspronkelijke lijst.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-131">*Microsoft Threat Protection* is a former name for Microsoft 365 Defender, and will not appear in the original list.</span></span> <span data-ttu-id="d8a0d-132">U moet de naam ervan beginnen te schrijven in het tekstvak om de naam weer te geven.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-132">You need to start writing its name in the text box to see it appear.</span></span>
 
-   ![Afbeelding van API-toegang en API-selectie](../../media/apis-in-my-org-tab.PNG)
+   ![Afbeelding van selectie van API-machtigingen](../../media/apis-in-my-org-tab.PNG)
 
-   - <span data-ttu-id="c3ef5-130">Selecteer **Toepassingsmachtigingen** > Kies de relevante machtigingen voor uw scenario, bijvoorbeeld **incident. Read. all** , en selecteer vervolgens **add machtigingen**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-130">Select **Application permissions** > Choose the relevant permissions for your scenario, e.g. **Incident.Read.All** , and then select **Add permissions**.</span></span>
+5. <span data-ttu-id="d8a0d-134">Selecteer **Toepassingsmachtigingen**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-134">Select **Application permissions**.</span></span> <span data-ttu-id="d8a0d-135">Kies de relevante machtigingen voor uw scenario (bijvoorbeeld **incident. Read. all**) en selecteer vervolgens **machtigingen toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-135">Choose the relevant permissions for your scenario (for example, **Incident.Read.All**), and then select **Add permissions**.</span></span>
 
    ![Afbeelding van API-toegang en API-selectie](../../media/request-api-permissions.PNG)
 
-    >[!NOTE]
-    ><span data-ttu-id="c3ef5-132">U moet de relevante machtigingen voor uw scenario selecteren, **' alle incidenten lezen '** is slechts een voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-132">You need to select the relevant permissions for your scenario, **'Read all incidents'** is just an example.</span></span> <span data-ttu-id="c3ef5-133">Om te bepalen welke machtigingen u nodig hebt, raadpleegt u de sectie **machtigingen** in de API die u wilt bellen.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-133">To determine which permission you need, please look at the **Permissions** section in the API you are interested to call.</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="d8a0d-137">U moet de relevante machtigingen voor uw scenario selecteren.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-137">You need to select the relevant permissions for your scenario.</span></span> <span data-ttu-id="d8a0d-138">*Alle incidenten lezen* is slechts een voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-138">*Read all incidents* is just an example.</span></span> <span data-ttu-id="d8a0d-139">Om te bepalen welke machtigingen u nodig hebt, raadpleegt u de sectie **machtigingen** in de API die u wilt bellen.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-139">To determine which permission you need, please look at the **Permissions** section in the API you want to call.</span></span>
+    >
+    > <span data-ttu-id="d8a0d-140">Als u een [geavanceerde zoek](api-advanced-hunting.md)opdracht wilt uitvoeren, selecteert u de machtiging Geavanceerd query's uitvoeren. Als u [een apparaat wilt isoleren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/isolate-machine), selecteert u de machtiging computer isoleren.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-140">For instance, to [run advanced queries](api-advanced-hunting.md), select the 'Run advanced queries' permission; to [isolate a device](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/isolate-machine), select the 'Isolate machine' permission.</span></span>
 
-5. <span data-ttu-id="c3ef5-134">Selecteer **toestemming verlenen**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-134">Select **Grant consent**.</span></span>
-
-     > [!NOTE]
-     > <span data-ttu-id="c3ef5-135">Telkens wanneer u een machtiging toevoegt, moet u **toestemming verlenen** om de nieuwe machtiging te activeren.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-135">Every time you add a permission, you must select **Grant consent** for the new permission to take effect.</span></span>
+6. <span data-ttu-id="d8a0d-141">Selecteer **beheerder toestemming verlenen**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-141">Select **Grant admin consent**.</span></span> <span data-ttu-id="d8a0d-142">Telkens wanneer u een machtiging toevoegt, moet u de machtiging **beheerder toestemming verlenen** selecteren om de machtiging van kracht te laten worden.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-142">Every time you add a permission, you must select **Grant admin consent** for it to take effect.</span></span>
 
     ![Afbeelding van machtiging verlenen](../../media/grant-consent.PNG)
 
-6. <span data-ttu-id="c3ef5-137">Als u een geheim wilt toevoegen aan de toepassing, selecteert u **certificaten & geheimen** , voegt u een beschrijving toe aan het geheim en selecteert u vervolgens **toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-137">To add a secret to the application, select **Certificates & secrets** , add a description to the secret, and then select **Add**.</span></span>
+7. <span data-ttu-id="d8a0d-144">Als u een geheim wilt toevoegen aan de toepassing, selecteert u **certificaten & geheimen**, voegt u een beschrijving toe aan het geheim en selecteert u vervolgens **toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-144">To add a secret to the application, select **Certificates & secrets**, add a description to the secret, then select **Add**.</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="c3ef5-138">Wanneer u **toevoegen** hebt geselecteerd, selecteert u **de gegenereerde geheime waarde kopiëren**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-138">After you select **Add** , select **copy the generated secret value**.</span></span> <span data-ttu-id="c3ef5-139">U kunt deze waarde niet meer ophalen wanneer u niets hebt.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-139">You won't be able to retrieve this value after you leave.</span></span>
+    > [!TIP]
+    > <span data-ttu-id="d8a0d-145">Wanneer u **toevoegen** hebt geselecteerd, selecteert u **de gegenereerde geheime waarde kopiëren**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-145">After you select **Add**, select **copy the generated secret value**.</span></span> <span data-ttu-id="d8a0d-146">U kunt de geheime waarde niet meer ophalen wanneer u niets hebt.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-146">You won't be able to retrieve the secret value after you leave.</span></span>
 
     ![Afbeelding van de sleutel app maken](../../media/webapp-create-key2.png)
 
-7. <span data-ttu-id="c3ef5-141">Noteer de toepassings-ID en uw Tenant-ID.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-141">Write down your application ID and your tenant ID.</span></span> <span data-ttu-id="c3ef5-142">Ga op de pagina toepassing naar **overzicht** en kopieer de volgende stappen.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-142">On your application page, go to **Overview** and copy the following.</span></span>
+8. <span data-ttu-id="d8a0d-148">Registreer uw toepassings-ID en uw Tenant-ID ergens veilig.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-148">Record your application ID and your tenant ID somewhere safe.</span></span> <span data-ttu-id="d8a0d-149">Ze worden weergegeven onder **overzicht** op de pagina toepassing.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-149">They're listed under **Overview** on your application page.</span></span>
 
    ![Afbeelding van gemaakte app-id](../../media/app-and-tenant-ids.png)
 
-8. <span data-ttu-id="c3ef5-144">**Alleen voor Microsoft 365 Defender-partners**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-144">**For Microsoft 365 Defender Partners only**.</span></span> <span data-ttu-id="c3ef5-145">[Volg de instructies hier](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-145">[Follow the instructions here](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access).</span></span> <span data-ttu-id="c3ef5-146">U kunt instellen dat uw app meerdere tenants (beschikbaar na instemming) moet zijn.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-146">Set your app to be multi-tenanted (available in all tenants after consent).</span></span> <span data-ttu-id="c3ef5-147">Dit is **vereist** voor apps van derden (bijvoorbeeld als u een app maakt die bedoeld is om te worden uitgevoerd in de Tenant van meerdere klanten).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-147">This is **required** for third-party apps (for example, if you create an app that is intended to run in multiple customers' tenant).</span></span> <span data-ttu-id="c3ef5-148">U **hoeft dit niet te doen** als u een service maakt die u alleen in uw Tenant wilt uitvoeren (als u bijvoorbeeld een toepassing maakt voor uw eigen gebruik, zodat u alleen uw eigen gegevens kunt gebruiken).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-148">This is **not required** if you create a service that you want to run in your tenant only (for example, if you create an application for your own usage that will only interact with your own data).</span></span> <span data-ttu-id="c3ef5-149">Uw app instellen voor meerdere tenants:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-149">To set your app to be multi-tenanted:</span></span>
+9. <span data-ttu-id="d8a0d-151">**Voor alleen Microsoft 365, alleen voor Microsoft-partners**: [Volg deze instructies](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access) voor het openen van partners via de Microsoft 365 Defender-api's, stel uw app in op multi-tenant, zodat deze beschikbaar is in alle tenants wanneer u beheerders toestemming ontvangt.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-151">**For Microsoft 365 Defender Partners only**: [Follow these instructions](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access) for partner access through the Microsoft 365 Defender APIs, set your app to be multi-tenant, so it can be available in all tenants once you receive admin consent.</span></span> <span data-ttu-id="d8a0d-152">Partner toegang is **vereist** voor apps van derden, bijvoorbeeld als u een app maakt die bedoeld is om te worden uitgevoerd in de tenants van meerdere klanten.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-152">Partner access is **required** for third-party apps—for example, if you create an app that is intended to run in multiple customers' tenants.</span></span> <span data-ttu-id="d8a0d-153">U hoeft **niet te doen** als u een service maakt die u alleen in uw Tenant wilt uitvoeren, zoals een toepassing voor uw eigen gebruik dat alleen werkt met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-153">It is **not required** if you create a service that you want to run in your tenant only, such as an application for your own usage that will only interact with your own data.</span></span> <span data-ttu-id="d8a0d-154">Uw app instellen voor meervoudige Tenant:</span><span class="sxs-lookup"><span data-stu-id="d8a0d-154">To set your app to be multi-tenant:</span></span>
 
-    - <span data-ttu-id="c3ef5-150">Ga naar **verificatie** en voeg toe https://portal.azure.com als de **omleidings-URL**.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-150">Go to **Authentication** , and add https://portal.azure.com as the **Redirect URI**.</span></span>
+    - <span data-ttu-id="d8a0d-155">Ga naar **verificatie** en voeg toe https://portal.azure.com als de **omleidings-URL**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-155">Go to **Authentication**, and add https://portal.azure.com as the **Redirect URI**.</span></span>
 
-    - <span data-ttu-id="c3ef5-151">Onder aan de pagina, onder **ondersteunde accounttypen** , selecteert u de **accounts in een** toepassing voor de organisatie van de toepassing voor uw app met meerdere tenants.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-151">On the bottom of the page, under **Supported account types** , select the **Accounts in any organizational directory** application consent for your multi-tenant app.</span></span>
+    - <span data-ttu-id="d8a0d-156">Onder aan de pagina, onder **ondersteunde accounttypen**, selecteert u de **accounts in een** toepassing voor de organisatie van de toepassing voor uw app met meerdere tenants.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-156">On the bottom of the page, under **Supported account types**, select the **Accounts in any organizational directory** application consent for your multi-tenant app.</span></span>
 
-    <span data-ttu-id="c3ef5-152">U moet uw toepassing in elke Tenant goedgekeurd hebben, waar u deze wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-152">You need your application to be approved in each tenant where you intend to use it.</span></span> <span data-ttu-id="c3ef5-153">Dit komt doordat de toepassing Microsoft 365 Defender bijdraagt namens de klant.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-153">This is because your application interacts Microsoft 365 Defender on behalf of your customer.</span></span>
+    <span data-ttu-id="d8a0d-157">Aangezien de toepassing interactie maakt met Microsoft 365 Defender in naam van uw gebruikers, moet deze zijn goedgekeurd voor elke Tenant waarop u de toepassing wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-157">Since your application interacts with Microsoft 365 Defender on behalf of your users, it needs be approved for every tenant on which you intend to use it.</span></span>
 
-    <span data-ttu-id="c3ef5-154">U (of de klant als u een app van derden schrijft), moet u de instemming koppeling selecteren en uw app goedkeuren.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-154">You (or your customer if you are writing a third-party app) need to select the consent link and approve your app.</span></span> <span data-ttu-id="c3ef5-155">De toestemming moet worden uitgevoerd met een gebruiker die beheerdersrechten heeft in Active Directory.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-155">The consent should be done with a user who has administrative privileges in Active Directory.</span></span>
+    <span data-ttu-id="d8a0d-158">De globale beheerder van Active Directory voor elke Tenant moet de instemming-koppeling selecteren en de app goedkeuren.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-158">The Active Directory global admin for each tenant needs to select the consent link and approve your app.</span></span>
 
-    <span data-ttu-id="c3ef5-156">De koppeling toestemming wordt als volgt gevormd:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-156">The consent link is formed as follows:</span></span> 
+    <span data-ttu-id="d8a0d-159">De koppeling toestemming heeft de volgende structuur:</span><span class="sxs-lookup"><span data-stu-id="d8a0d-159">The consent link has the following structure:</span></span>
 
+    ```http
+    https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=<00000000-0000-0000-0000-000000000000>&response_type=code&sso_reload=true
     ```
-    https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=00000000-0000-0000-0000-000000000000&response_type=code&sso_reload=true
-    ```
 
-    <span data-ttu-id="c3ef5-157">Waarbij 00000000-0000-0000-0000-000000000000 wordt vervangen door uw toepassings-ID.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-157">Where 00000000-0000-0000-0000-000000000000 is replaced with your application ID.</span></span>
+    <span data-ttu-id="d8a0d-160">De cijfers `00000000-0000-0000-0000-000000000000` worden vervangen door uw toepassings-id.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-160">The digits `00000000-0000-0000-0000-000000000000` should be replaced with your Application ID.</span></span>  
 
+<span data-ttu-id="d8a0d-161">**Klaar!**</span><span class="sxs-lookup"><span data-stu-id="d8a0d-161">**Done!**</span></span> <span data-ttu-id="d8a0d-162">U hebt een toepassing geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-162">You've successfully registered an application!</span></span> <span data-ttu-id="d8a0d-163">Zie voorbeelden hieronder voor het verwerving van tokens en validatie.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-163">See examples below for token acquisition and validation.</span></span>
 
-<span data-ttu-id="c3ef5-158">**Klaar!**</span><span class="sxs-lookup"><span data-stu-id="c3ef5-158">**Done!**</span></span> <span data-ttu-id="c3ef5-159">U hebt een toepassing geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-159">You have successfully registered an application!</span></span> <span data-ttu-id="c3ef5-160">Zie voorbeelden hieronder voor het verwerving van tokens en validatie.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-160">See examples below for token acquisition and validation.</span></span>
+## <a name="get-an-access-token"></a><span data-ttu-id="d8a0d-164">Een toegangstoken verkrijgen</span><span class="sxs-lookup"><span data-stu-id="d8a0d-164">Get an access token</span></span>
 
-## <a name="get-an-access-token"></a><span data-ttu-id="c3ef5-161">Een toegangstoken verkrijgen</span><span class="sxs-lookup"><span data-stu-id="c3ef5-161">Get an access token</span></span>
+<span data-ttu-id="d8a0d-165">Zie voor meer informatie over Azure Active Directory-tokens de [zelfstudie voor Azure AD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).</span><span class="sxs-lookup"><span data-stu-id="d8a0d-165">For more information on Azure Active Directory tokens, see the [Azure AD tutorial](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).</span></span>
 
-<span data-ttu-id="c3ef5-162">Zie voor meer informatie over Azure AD-tokens de [zelfstudie voor Azure AD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-162">For more details on Azure AD tokens, see the [Azure AD tutorial](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds).</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="d8a0d-166">Hoewel in de voorbeelden in deze sectie wordt voor testdoeleinden geen geheime waarden kunnen worden geplakt, moet u **nooit hardcodee geheimen** verleggen in een toepassing die wordt uitgevoerd in de productie.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-166">Although the examples in this section encourage you to paste in secret values for testing purposes, you should **never hardcode secrets** into an application running in production.</span></span> <span data-ttu-id="d8a0d-167">Een derde partij kon uw geheim gebruiken om toegang te krijgen tot bronnen.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-167">A third party could use your secret to access resources.</span></span> <span data-ttu-id="d8a0d-168">U kunt de geheimen van uw apps veilig houden met behulp van [Azure Key-kluis](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates).</span><span class="sxs-lookup"><span data-stu-id="d8a0d-168">You can help keep your app's secrets secure by using [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates).</span></span> <span data-ttu-id="d8a0d-169">Zie [geheimen in uw server-apps beheren met Azure-sleutel](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)beveiliging voor een praktisch voorbeeld van de manier waarop u uw app kunt beschermen.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-169">For a practical example of how you can protect your app, see [Manage secrets in your server apps with Azure Key Vault](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/).</span></span>
 
-### <a name="use-powershell"></a><span data-ttu-id="c3ef5-163">PowerShell gebruiken</span><span class="sxs-lookup"><span data-stu-id="c3ef5-163">Use PowerShell</span></span>
+### <a name="get-an-access-token-using-powershell"></a><span data-ttu-id="d8a0d-170">Een toegangstoken verkrijgen met PowerShell</span><span class="sxs-lookup"><span data-stu-id="d8a0d-170">Get an access token using PowerShell</span></span>
 
-```
-# That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
-# Paste below your Tenant ID, App ID and App Secret (App key).
+```PowerShell
+# This code gets the application context token and saves it to a file named "Latest-token.txt" under the current directory.
 
-$tenantId = '' ### Paste your tenant ID here
-$appId = '' ### Paste your Application ID here
-$appSecret = '' ### Paste your Application key here
+$tenantId = '' # Paste your directory (tenant) ID here
+$clientId = '' # Paste your application (client) ID here
+$appSecret = '' # Paste your own app secret here to test, then store it in a safe place, such as the Azure Key Vault!
 
 $resourceAppIdUri = 'https://api.security.microsoft.com'
-$oAuthUri = "https://login.windows.net/$TenantId/oauth2/token"
+$oAuthUri = "https://login.windows.net/$tenantId/oauth2/token"
+
 $authBody = [Ordered] @{
-    resource = "$resourceAppIdUri"
-    client_id = "$appId"
-    client_secret = "$appSecret"
+    resource = $resourceAppIdUri
+    client_id = $clientId
+    client_secret = $appSecret
     grant_type = 'client_credentials'
 }
+
 $authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
 $token = $authResponse.access_token
+
 Out-File -FilePath "./Latest-token.txt" -InputObject $token
+
 return $token
 ```
 
-### <a name="use-c"></a><span data-ttu-id="c3ef5-164">Gebruik C#:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-164">Use C#:</span></span>
+### <a name="get-an-access-token-using-c"></a><span data-ttu-id="d8a0d-171">Een toegangstoken verkrijgen met C\#</span><span class="sxs-lookup"><span data-stu-id="d8a0d-171">Get an access token using C\#</span></span>
 
-<span data-ttu-id="c3ef5-165">De volgende code is getest met Nuget Microsoft. Identity model. clients. ActiveDirectory 3.19.8.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-165">The following code was tested with Nuget Microsoft.IdentityModel.Clients.ActiveDirectory 3.19.8.</span></span>
+> [!NOTE]
+> <span data-ttu-id="d8a0d-172">De volgende code is getest met Nuget Microsoft. Identity model. clients. ActiveDirectory 3.19.8.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-172">The following code was tested with Nuget Microsoft.IdentityModel.Clients.ActiveDirectory 3.19.8.</span></span>
 
-1. <span data-ttu-id="c3ef5-166">Maak een nieuwe consoletoepassing.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-166">Create a new console application.</span></span>
-1. <span data-ttu-id="c3ef5-167">Installeer Nuget [Microsoft. Identity model. clients. ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-167">Install Nuget [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).</span></span>
-1. <span data-ttu-id="c3ef5-168">Voegt u het volgende toe:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-168">Add the following:</span></span>
+1. <span data-ttu-id="d8a0d-173">Maak een nieuwe consoletoepassing.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-173">Create a new console application.</span></span>
 
-    ```
+1. <span data-ttu-id="d8a0d-174">Installeer NuGet [Microsoft. Identity model. clients. ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).</span><span class="sxs-lookup"><span data-stu-id="d8a0d-174">Install NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).</span></span>
+
+1. <span data-ttu-id="d8a0d-175">Voeg de volgende regel toe:</span><span class="sxs-lookup"><span data-stu-id="d8a0d-175">Add the following line:</span></span>
+
+    ```C#
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     ```
 
-1. <span data-ttu-id="c3ef5-169">Kopieer en plak de volgende code in uw app (Vergeet niet de drie variabelen bij te werken: ```tenantId, appId, appSecret``` ):</span><span class="sxs-lookup"><span data-stu-id="c3ef5-169">Copy and paste the following code in your app (don't forget to update the three variables: ```tenantId, appId, appSecret```):</span></span>
+1. <span data-ttu-id="d8a0d-176">Kopieer en plak de volgende code in uw app (Vergeet niet de drie variabelen bij te werken: `tenantId` , `clientId` , `appSecret` ):</span><span class="sxs-lookup"><span data-stu-id="d8a0d-176">Copy and paste the following code into your app (don't forget to update the three variables: `tenantId`, `clientId`, `appSecret`):</span></span>
 
-    ```
-    string tenantId = "00000000-0000-0000-0000-000000000000"; // Paste your own tenant ID here
-    string appId = "11111111-1111-1111-1111-111111111111"; // Paste your own app ID here
-    string appSecret = "22222222-2222-2222-2222-222222222222"; // Paste your own app secret here for a test, and then store it in a safe place! 
+    ```C#
+    string tenantId = ""; // Paste your directory (tenant) ID here
+    string clientId = ""; // Paste your application (client) ID here
+    string appSecret = ""; // Paste your own app secret here to test, then store it in a safe place, such as the Azure Key Vault!
 
     const string authority = "https://login.windows.net";
     const string wdatpResourceId = "https://api.security.microsoft.com";
 
     AuthenticationContext auth = new AuthenticationContext($"{authority}/{tenantId}/");
-    ClientCredential clientCredential = new ClientCredential(appId, appSecret);
+    ClientCredential clientCredential = new ClientCredential(clientId, appSecret);
     AuthenticationResult authenticationResult = auth.AcquireTokenAsync(wdatpResourceId, clientCredential).GetAwaiter().GetResult();
     string token = authenticationResult.AccessToken;
     ```
 
+### <a name="get-an-access-token-using-python"></a><span data-ttu-id="d8a0d-177">Een toegangstoken verkrijgen met python</span><span class="sxs-lookup"><span data-stu-id="d8a0d-177">Get an access token using Python</span></span>
 
-### <a name="use-python"></a><span data-ttu-id="c3ef5-170">Python gebruiken</span><span class="sxs-lookup"><span data-stu-id="c3ef5-170">Use Python</span></span> 
-
-```
+```Python
 import json
 import urllib.request
 import urllib.parse
 
-tenantId = '00000000-0000-0000-0000-000000000000' # Paste your own tenant ID here
-appId = '11111111-1111-1111-1111-111111111111' # Paste your own app ID here
-appSecret = '22222222-2222-2222-2222-222222222222' # Paste your own app secret here
+tenantId = '' # Paste your directory (tenant) ID here
+clientId = '' # Paste your application (client) ID here
+appSecret = '' # Paste your own app secret here to test, then store it in a safe place, such as the Azure Key Vault!
 
 url = "https://login.windows.net/%s/oauth2/token" % (tenantId)
 
@@ -185,7 +198,7 @@ resourceAppIdUri = 'https://api.securitycenter.windows.com'
 
 body = {
     'resource' : resourceAppIdUri,
-    'client_id' : appId,
+    'client_id' : clientId,
     'client_secret' : appSecret,
     'grant_type' : 'client_credentials'
 }
@@ -197,59 +210,67 @@ response = urllib.request.urlopen(req)
 jsonResponse = json.loads(response.read())
 aadToken = jsonResponse["access_token"]
 ```
-### <a name="use-curl"></a><span data-ttu-id="c3ef5-171">Krul gebruiken</span><span class="sxs-lookup"><span data-stu-id="c3ef5-171">Use Curl</span></span>
+
+### <a name="get-an-access-token-using-curl"></a><span data-ttu-id="d8a0d-178">Een toegangstoken verkrijgen met krul</span><span class="sxs-lookup"><span data-stu-id="d8a0d-178">Get an access token using curl</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c3ef5-172">In de volgende procedure wordt ervan uitgegaan dat krul voor Windows al op uw computer is geïnstalleerd.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-172">The following procedure assumes that Curl for Windows is already installed on your computer.</span></span>
+> <span data-ttu-id="d8a0d-179">Krul is vooraf geïnstalleerd op Windows 10, versies 1803 en hoger.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-179">Curl is pre-installed on Windows 10, versions 1803 and later.</span></span> <span data-ttu-id="d8a0d-180">Download en installeer het hulpprogramma rechtstreeks vanaf de website van de [officiële krul](https://curl.haxx.se/windows/)voor andere versies van Windows.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-180">For other versions of Windows, download and install the tool directly from the [official curl website](https://curl.haxx.se/windows/).</span></span>
 
-1. <span data-ttu-id="c3ef5-173">Open een opdrachtprompt en stel CLIENT_ID in op de ID van uw Azure-toepassing.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-173">Open a command prompt, and set CLIENT_ID to your Azure application ID.</span></span>
-1. <span data-ttu-id="c3ef5-174">Stel CLIENT_SECRET in op uw Azure-toepassing Secret.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-174">Set CLIENT_SECRET to your Azure application secret.</span></span>
-1. <span data-ttu-id="c3ef5-175">Stel TENANT_ID in op de Azure-TENANT-ID van de klant die de app wil gebruiken voor toegang tot Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-175">Set TENANT_ID to the Azure tenant ID of the customer that wants to use your app to access Microsoft 365 Defender.</span></span>
-1. <span data-ttu-id="c3ef5-176">Voer de volgende opdracht uit:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-176">Run the following command:</span></span>
+1. <span data-ttu-id="d8a0d-181">Open een opdrachtprompt en stel CLIENT_ID in op de ID van uw Azure-toepassing.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-181">Open a command prompt, and set CLIENT_ID to your Azure application ID.</span></span>
 
-```
-curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
-```
+1. <span data-ttu-id="d8a0d-182">Stel CLIENT_SECRET in op uw Azure-toepassing Secret.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-182">Set CLIENT_SECRET to your Azure application secret.</span></span>
 
-<span data-ttu-id="c3ef5-177">U krijgt een antwoord in de volgende vorm:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-177">You will get an answer in the following form:</span></span>
+1. <span data-ttu-id="d8a0d-183">Stel TENANT_ID in op de Azure-TENANT-ID van de klant die de app wil gebruiken voor toegang tot Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-183">Set TENANT_ID to the Azure tenant ID of the customer that wants to use your app to access Microsoft 365 Defender.</span></span>
 
-```
-{"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}
-```
+1. <span data-ttu-id="d8a0d-184">Voer de volgende opdracht uit:</span><span class="sxs-lookup"><span data-stu-id="d8a0d-184">Run the following command:</span></span>
 
-## <a name="validate-the-token"></a><span data-ttu-id="c3ef5-178">Het token valideren</span><span class="sxs-lookup"><span data-stu-id="c3ef5-178">Validate the token</span></span>
+   ```bash
+   curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
+   ```
 
-<span data-ttu-id="c3ef5-179">Zorg ervoor dat u het juiste token hebt:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-179">Ensure that you got the correct token:</span></span>
+   <span data-ttu-id="d8a0d-185">Een succesvolle reactie ziet er als volgt uit:</span><span class="sxs-lookup"><span data-stu-id="d8a0d-185">A successful response will look like this:</span></span>
 
-1. <span data-ttu-id="c3ef5-180">Kopieer en plak het token dat u in de vorige stap hebt [JWT](https://jwt.ms) ontvangen, om dit te decoderen.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-180">Copy and paste the token you got in the previous step into [JWT](https://jwt.ms) in order to decode it.</span></span>
-1. <span data-ttu-id="c3ef5-181">Controleren of u een claim ontvangt met de gewenste machtigingen</span><span class="sxs-lookup"><span data-stu-id="c3ef5-181">Validate that you get a 'roles' claim with the desired permissions</span></span>
-1. <span data-ttu-id="c3ef5-182">In de volgende afbeelding ziet u een versleuteld token dat u hebt verkregen uit een app met ```Incidents.Read.All``` , ```Incidents.ReadWrite.All``` en ```AdvancedHunting.Read.All``` machtigingen:</span><span class="sxs-lookup"><span data-stu-id="c3ef5-182">In the following image, you can see a decoded token acquired from an app with ```Incidents.Read.All```, ```Incidents.ReadWrite.All``` and ```AdvancedHunting.Read.All``` permissions:</span></span>
+   ```bash
+   {"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}
+   ```
 
-![Afbeelding van validatie van tokens](../../media/webapp-decoded-token.png)
+## <a name="validate-the-token"></a><span data-ttu-id="d8a0d-186">Het token valideren</span><span class="sxs-lookup"><span data-stu-id="d8a0d-186">Validate the token</span></span>
 
-## <a name="use-the-token-to-access-microsoft-365-defender-api"></a><span data-ttu-id="c3ef5-184">Het token gebruiken om toegang te krijgen tot de Microsoft 365 Defender API</span><span class="sxs-lookup"><span data-stu-id="c3ef5-184">Use the token to access Microsoft 365 Defender API</span></span>
+1. <span data-ttu-id="d8a0d-187">Kopieer de token en plak deze in de [JSON Web token validator-website,](https://jwt.ms) om deze te decoderen.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-187">Copy and paste the token into the [JSON web token validator website, JWT,](https://jwt.ms) to decode it.</span></span>
 
-1. <span data-ttu-id="c3ef5-185">Kies de API die u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-185">Choose the API you want to use.</span></span> <span data-ttu-id="c3ef5-186">Zie [ondersteunde Microsoft 365 Defender-api's](api-supported.md)voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-186">For more information, see [Supported Microsoft 365 Defender APIs](api-supported.md).</span></span>
+1. <span data-ttu-id="d8a0d-188">Zorg ervoor dat de *claim claim* binnen het genummerde token de gewenste machtigingen bevat.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-188">Make sure that the *roles* claim within the decoded token contains the desired permissions.</span></span>
 
-2. <span data-ttu-id="c3ef5-187">Stel de autorisatie header in voor de HTTP-aanvraag die u verstuurt naar ' Bearer {token} ' (Bearer is het autorisatieschema).</span><span class="sxs-lookup"><span data-stu-id="c3ef5-187">Set the authorization header in the http request you send to "Bearer {token}" (Bearer is the authorization scheme).</span></span>
+   <span data-ttu-id="d8a0d-189">In de volgende afbeelding ziet u een versleuteld token dat u hebt verkregen uit een app, met `Incidents.Read.All` , `Incidents.ReadWrite.All` en `AdvancedHunting.Read.All` machtigingen:</span><span class="sxs-lookup"><span data-stu-id="d8a0d-189">In the following image, you can see a decoded token acquired from an app, with `Incidents.Read.All`, `Incidents.ReadWrite.All`, and `AdvancedHunting.Read.All` permissions:</span></span>
 
-3. <span data-ttu-id="c3ef5-188">De verlooptijd van het token is één uur.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-188">The expiration time of the token is one hour.</span></span> <span data-ttu-id="c3ef5-189">U kunt meer dan één aanvraag met hetzelfde token verzenden.</span><span class="sxs-lookup"><span data-stu-id="c3ef5-189">You can send more then one request with the same token.</span></span>
+   ![Afbeelding van validatie van tokens](../../media/webapp-decoded-token.png)
 
-<span data-ttu-id="c3ef5-190">Hieronder ziet u een voorbeeld van het verzenden van een aanvraag voor het aanvragen van een lijst met incidenten **met C#** :</span><span class="sxs-lookup"><span data-stu-id="c3ef5-190">The following is an example of sending a request to get a list of incidents **using C#** :</span></span> 
+## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a><span data-ttu-id="d8a0d-191">Het token gebruiken voor toegang tot de Microsoft 365 Defender API</span><span class="sxs-lookup"><span data-stu-id="d8a0d-191">Use the token to access the Microsoft 365 Defender API</span></span>
 
-```
+1. <span data-ttu-id="d8a0d-192">Kies de API die u wilt gebruiken (incidenten of geavanceerde jacht).</span><span class="sxs-lookup"><span data-stu-id="d8a0d-192">Choose the API you want to use (incidents, or advanced hunting).</span></span> <span data-ttu-id="d8a0d-193">Zie [ondersteunde Microsoft 365 Defender-api's](api-supported.md)voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-193">For more information, see [Supported Microsoft 365 Defender APIs](api-supported.md).</span></span>
+
+2. <span data-ttu-id="d8a0d-194">In het HTTP-verzoek dat u gaat verzenden, stelt u de autorisatie header in op `"Bearer" <token>` het autorisatieschema en *token* dat uw gevalideerde token is. </span><span class="sxs-lookup"><span data-stu-id="d8a0d-194">In the http request you are about to send, set the authorization header to `"Bearer" <token>`, *Bearer* being the authorization scheme, and *token* being your validated token.</span></span>
+
+3. <span data-ttu-id="d8a0d-195">Het token vervalt binnen één uur.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-195">The token will expire within one hour.</span></span> <span data-ttu-id="d8a0d-196">U kunt meer dan één verzoek verzenden vanaf dit tijdstip met hetzelfde token.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-196">You can send more than one request during this time with the same token.</span></span>
+
+<span data-ttu-id="d8a0d-197">In het volgende voorbeeld ziet u hoe u een aanvraag verzendt voor het aanvragen van een lijst met incidenten **met C#**.</span><span class="sxs-lookup"><span data-stu-id="d8a0d-197">The following example shows how to send a request to get a list of incidents **using C#**.</span></span>
+
+```C#
     var httpClient = new HttpClient();
-
     var request = new HttpRequestMessage(HttpMethod.Get, "https://api.security.microsoft.com/api/incidents");
 
     request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
     var response = httpClient.SendAsync(request).GetAwaiter().GetResult();
-
-    // Do something useful with the response
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="c3ef5-191">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="c3ef5-191">Related topics</span></span>
-- [<span data-ttu-id="c3ef5-192">Toegang tot de Microsoft 365 Defender-Api's</span><span class="sxs-lookup"><span data-stu-id="c3ef5-192">Access the Microsoft 365 Defender APIs</span></span>](api-access.md)
-- [<span data-ttu-id="c3ef5-193">Toegang tot Microsoft 365 Defender met toepassingscontext</span><span class="sxs-lookup"><span data-stu-id="c3ef5-193">Access  Microsoft 365 Defender with application context</span></span>](api-create-app-web.md)
-- [<span data-ttu-id="c3ef5-194">Toegang tot Microsoft 365 Defender met gebruikerscontext</span><span class="sxs-lookup"><span data-stu-id="c3ef5-194">Access  Microsoft 365 Defender with user context</span></span>](api-create-app-user-context.md)
+## <a name="related-articles"></a><span data-ttu-id="d8a0d-198">Verwante artikelen</span><span class="sxs-lookup"><span data-stu-id="d8a0d-198">Related articles</span></span>
+
+- [<span data-ttu-id="d8a0d-199">Overzicht van Microsoft 365 Defender-Api's</span><span class="sxs-lookup"><span data-stu-id="d8a0d-199">Microsoft 365 Defender APIs overview</span></span>](api-overview.md)
+- [<span data-ttu-id="d8a0d-200">Toegang tot de Microsoft 365 Defender-Api's</span><span class="sxs-lookup"><span data-stu-id="d8a0d-200">Access the Microsoft 365 Defender APIs</span></span>](api-access.md)
+- [<span data-ttu-id="d8a0d-201">Een ' Hallo wereld '-toepassing maken</span><span class="sxs-lookup"><span data-stu-id="d8a0d-201">Create a 'Hello world' application</span></span>](api-hello-world.md)
+- [<span data-ttu-id="d8a0d-202">Een app maken om toegang te krijgen tot Microsoft 365 Defender-Api's namens een gebruiker</span><span class="sxs-lookup"><span data-stu-id="d8a0d-202">Create an app to access Microsoft 365 Defender APIs on behalf of a user</span></span>](api-create-app-user-context.md)
+- [<span data-ttu-id="d8a0d-203">Een app maken met toegang met meerdere tenants voor partners van Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d8a0d-203">Create an app with multi-tenant partner access to Microsoft 365 Defender APIs</span></span>](api-partner-access.md)
+- [<span data-ttu-id="d8a0d-204">Meer informatie over API-limieten en licenties</span><span class="sxs-lookup"><span data-stu-id="d8a0d-204">Learn about API limits and licensing</span></span>](api-terms.md)
+- [<span data-ttu-id="d8a0d-205">Meer informatie over foutcodes</span><span class="sxs-lookup"><span data-stu-id="d8a0d-205">Understand error codes</span></span>](api-error-codes.md)
+- [<span data-ttu-id="d8a0d-206">Geheimen in uw server-apps beheren met Azure-sleutel kluis</span><span class="sxs-lookup"><span data-stu-id="d8a0d-206">Manage secrets in your server apps with Azure Key Vault</span></span>](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+- [<span data-ttu-id="d8a0d-207">OAuth 2,0-autorisatie voor gebruikersaanmelding en API-toegang</span><span class="sxs-lookup"><span data-stu-id="d8a0d-207">OAuth 2.0 authorization for user sign in and API access</span></span>](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
