@@ -12,12 +12,12 @@ ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
 ROBOTS: NOINDEX
-ms.openlocfilehash: 9709bec9b6e59ef05903f9c04909c796eb4127f4
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 45469e17870a58966a42a13116b6ba645071722c
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683409"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698529"
 ---
 # <a name="get-started-driving-adoption-of-topic-experiences-preview"></a>Aan de slag met het aangaan van de Onderwerps ervaring (preview)
 
@@ -33,7 +33,7 @@ Voordat u aan de slag kunt gaan met de vaststelling, moet u inzicht krijgen in d
 - **Identificatie**: met Microsoft Graph en de informatie over de kunstmatige informatie (AI) en personen (onderwerpen, vaardigheden, enzovoort) worden geïdentificeerd en automatisch ingedeeld in Verwante onderwerpen. SharePoint-inhoud wordt geïndexeerd met beveiligingsinhoud.
 - **Uitbreiding**: met inhouds connectors van Microsoft Graph (binnenkort beschikbaar), kunt u op de hoogte zijn van gegevens van externe services en gegevensopslag.
 
-Voor meer informatie kunt u het [overzicht](knowledge-management-overview.md) van een inleiding bekijken.
+Voor meer informatie kunt u het [overzicht](topic-experiences-overview.md) van een inleiding bekijken.
 
 Houd er rekening mee dat:
 
