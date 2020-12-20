@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: De taxonomie van een termenarchief gebruiken bij het maken van een extractor in uw documentbegripmodel in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 0008dd02ef46401e9f0c9414b8363cff034c18eb
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: cf396d14a497981389cc336c5efd121f36392181
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087319"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709546"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>De taxonomie van een termenarchief gebruiken bij het maken van een extractor
 
@@ -25,17 +25,15 @@ ms.locfileid: "49087319"
 
 </br>
 
-
-Wanneer u een extractor maakt in uw documentbegripmodel in SharePoint Syntex, kunt u gebruikmaken van de termenarchieftaxonomie [Beheerde metagegevensservices](https://docs.microsoft.com/sharepoint/managed-metadata#terms) om voorkeurstermen te bekijken voor de gegevens die u extraheert.  
+Wanneer je een extractor maakt in je documentbegrippenmodel met SharePoint Syntex, kan je gebruikmaken van de globale termensets in[termenarchief](https://docs.microsoft.com/sharepoint/managed-metadata) en voorkeurstermen te bekijken voor de gegevens die je extraheert.  
 
 Bijvoorbeeld: uw model identificeert en classificeert alle **contract** documenten die worden geüpload naar de documentbibliotheek.  Daarnaast extraheert het model ook een waarde **contractservice** uit elk contract, die wordt weergegeven in een kolom in uw bibliotheekweergave. Tussen de verschillende waarden contractservices in de contracten staan verschillende oudere waarden, die niet langer worden gebruikt in het bedrijf en die een andere naam hebben gekregen. Zo moeten alle verwijzingen naar de contractservices *Ontwerp*, *Afbeeldingen* en *Topografie* nu *Creatief* worden genoemd. Wanneer uw model een van de verouderde termen uit een contractdocument ophaalt, wilt u dat de huidige term (Creatief) in de bibliotheekweergave wordt weergegeven. In het onderstaande voorbeeld ziet u dat tijdens het trainen van het model een voorbeelddocument de verouderde term *Ontwerp* bevat.
 
    ![Termenarchief](../media/content-understanding/design.png)</br>
 
-
 ## <a name="use-a-managed-metadata-column-in-your-extractor"></a>Een kolom Beheerde metagegevens in uw extractor gebruiken
 
-Termensets zijn geconfigureerd in het termenarchief Beheerde metagegevensservices in het SharePoint-beheercentrum. In het onderstaande voorbeeld is de [termenset](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) *contractservices* geconfigureerd om een aantal termen te bevatten, waaronder *Creatief*.  De informatie ervoor laat zien dat de term drie synoniemen heeft (*Ontwerp*, *Afbeelding* en *Topografie*) en dat de synoniemen moeten worden omgezet naar *Creatief*. 
+Termensets worden geconfigureerd in het termenarchief Beheerde metagegevensservices (MMS) in het SharePoint-beheercentrum. In het onderstaande voorbeeld is de [termenset](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) *contractservices* geconfigureerd om een aantal termen te bevatten, waaronder *Creatief*.  De informatie ervoor laat zien dat de term drie synoniemen heeft (*Ontwerp*, *Afbeelding* en *Topografie*) en dat de synoniemen moeten worden omgezet naar *Creatief*. 
 
    ![Termenset](../media/content-understanding/term-store.png)</br>
 
