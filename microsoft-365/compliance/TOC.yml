@@ -172,6 +172,8 @@
           href: office-365-service-encryption.md
         - name: Klantsleutel
           items:
+            - name: Klantsleutel voor Microsoft 365 op tenantniveau (openbare preview)
+              href: customer-key-tenant-level.md
             - name: Serviceversleuteling met klantsleutel in Office 365
               href: customer-key-overview.md
             - name: Klantsleutel instellen voor Office 365
@@ -369,12 +371,18 @@
               href: archive-mssqldatabaseimporter-data.md
             - name: Pivot
               href: archive-pivot-data.md
+            - name: Redtail Speak
+              href: archive-redtailspeak-data.md
             - name: Reuters Dealing
               href: archive-reutersdealing-data.md
             - name: Reuters Eikon
               href: archive-reuterseikon-data.md
             - name: Reuters FX
               href: archive-reutersfx-data.md
+            - name: Salesforce Chatter
+              href: archive-salesforcechatter-data.md
+            - name: ServiceNow
+              href: archive-servicenow-data.md
             - name: Slack eDiscovery
               href: archive-slack-data.md
             - name: Symphony
@@ -391,6 +399,8 @@
               href: archive-xip-data.md
             - name: XSLT/XML
               href: archive-xslt-xml-data.md
+            - name: Yieldbroker
+              href: archive-yieldbroker-data.md
             - name: Zoom Meetings
               href: archive-zoommeetings-data.md
         - name: TeleMessage-gegevensconnectors
