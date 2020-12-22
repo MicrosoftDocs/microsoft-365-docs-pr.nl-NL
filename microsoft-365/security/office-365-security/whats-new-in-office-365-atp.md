@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: d219895767919c2a0658f8b83150fe6edde01b5b
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: fb588320461ab44d1ce0f10c0776bcc9ee61b551
+ms.sourcegitcommit: 0ecac0387be6b49025b79ce8eb949a8cf62481e2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615550"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "49724400"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuw in Microsoft Defender voor Office 365
 
@@ -51,11 +51,11 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 - [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
 - [Uitgebreide functies in de bedreigings Verkenner, waaronder beste gerichte gebruikers, transportregels en connectors](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Defender for Office 365, informatie in de [Threat Explorer](threat-explorer.md) (e-mail is toegestaan/geblokkeerd door Tenant/gebruikersbeleid) (Defender for Office 365-abonnement 2)
 - Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md#threats-in-urls) (malware, phishing, spam of geen) (Defender for Office 365-abonnement 2)
-- [Verbeteringen in](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) de weergave van de versie van de Office-ervaring met updates rond bedreigingen, extra acties, lever locaties en bijgewerkte tijdlijnweergave (Defender voor Office 365, abonnement 2)
+- [Verbeteringen in](threat-explorer.md#improvements-to-the-threat-hunting-experience-upcoming) de weergave van de versie van de Office-ervaring met updates rond bedreigingen, extra acties, lever locaties en bijgewerkte tijdlijnweergave (Defender voor Office 365, abonnement 2)
 
 ## <a name="julyaugust-2020"></a>Juli 2020
 
-- [Ervaring met de ervaring voor de jacht](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365 abonnement 1 of abonnement 2)
+- [Ervaring met de ervaring voor de jacht](threat-explorer.md#improvements-to-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365 abonnement 1 of abonnement 2)
 - [Eenvoudig aanbevolen instellingen toepassen via vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md)
 
 ## <a name="marchapril-2020"></a>Maart 2020
@@ -103,9 +103,9 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 
 ## <a name="june-2019"></a>Juni 2019
 
-- [Bekijk gegevens over phishingwebsites en klik op Verdict](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Microsoft Defender for Office 365 abonnement 1 of abonnement 2)
+- [Bekijk de Url's voor phishing en klik op Verdict data](threat-explorer.md#view-phishing-url-and-click-verdict-data) (Microsoft Defender for Office 365, abonnement 1 of abonnement 2)
 
-## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender voor Office 365, abonnement 1 en abonnement 2
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365
 
 Wist u dat Microsoft Defender voor Office 365 beschikbaar is in twee abonnementen? Meer [informatie over wat elk abonnement omvat](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
 
