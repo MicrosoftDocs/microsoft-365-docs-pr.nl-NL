@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 76cd560c3b97bb67d25d2e4ff2c219669c3d4f0d
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: f75504941e8481d35458ad2ae6b5e8a72c5e8c8c
+ms.sourcegitcommit: a49338bde6923b13132c7b9e4c6bb75c14163c72
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658879"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728186"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Automatische doorsturen van e-mail instellen in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Als beheerder hebt u mogelijk een bedrijf nodig om automatisch doorgestuurde berichten te beperken of te beheren voor externe geadresseerden (geadresseerden buiten uw organisatie). Het doorsturen van e-mail kan handig zijn, maar kan ook een beveiligingsrisico vormen door de potentiële informatie. Kwaadwillenden kunnen deze gegevens gebruiken om uw organisatie of partners te vermoeden.
+Als beheerder hebt u mogelijk een bedrijf nodig om automatisch doorgestuurde berichten te beperken of te beheren voor externe geadresseerden (geadresseerden buiten uw organisatie). Het doorsturen van e-mail kan een handige functie zijn, maar kan ook een beveiligingsrisico vormen als gevolg van potentiële informatie over de potentiële informatie. Kwaadwillenden kunnen deze gegevens gebruiken om uw organisatie of partners te vermoeden.
 
 De volgende typen automatisch doorsturen zijn beschikbaar in Microsoft 365:
 
