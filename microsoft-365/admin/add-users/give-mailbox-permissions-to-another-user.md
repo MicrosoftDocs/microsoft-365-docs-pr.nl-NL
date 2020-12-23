@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Lees hoe u een gebruiker toegang geeft tot het postvak van een andere gebruiker. Dat geeft de gebruiker het recht om e-mail te lezen en e-mails te verzenden vanuit het postvak van de andere gebruiker. '
-ms.openlocfilehash: 0b6977efbd6041a11c67ed66c9b7ecc72a38bde4
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: af12cfe3acad9e12ca3983c9fa13f52b72f0a467
+ms.sourcegitcommit: 16e018f8b6eef5dad48eabf179691ead3cebe533
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560373"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49725151"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Postvakmachtigingen toewijzen aan een andere gebruiker - Help voor beheerders
 
@@ -72,7 +72,7 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 4. Selecteer naast **Verzenden als**, de optie **Bewerken**. 
 
-5. Selecteer **Machtigingen toevoegen**en kies vervolgens de naam van de persoon vanuit waar deze gebruiker kan verzenden. 
+5. Selecteer **Machtigingen toevoegen** en kies vervolgens de naam van de persoon vanuit waar deze gebruiker kan verzenden. 
     
 6. Kies **Opslaan**.
  
@@ -82,11 +82,11 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
 
-2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen**uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
+2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen** uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
 
 3. Selecteer naast **Verzenden als**, de optie **Bewerken**. 
 
-4. Selecteer **Machtigingen toevoegen**en kies vervolgens de naam van de persoon vanuit waar deze gebruiker kan verzenden. 
+4. Selecteer **Machtigingen toevoegen** en kies vervolgens de naam van de persoon vanuit waar deze gebruiker kan verzenden. 
     
 5. Kies **Opslaan**.
 
@@ -96,11 +96,11 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
 
-2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen**uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
+2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen** uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
 
 3. Selecteer naast **Verzenden als**, de optie **Bewerken**. 
 
-4. Selecteer **Machtigingen toevoegen**en kies vervolgens de naam van de persoon vanuit waar deze gebruiker kan verzenden. 
+4. Selecteer **Machtigingen toevoegen** en kies vervolgens de naam van de persoon vanuit waar deze gebruiker kan verzenden. 
     
 5. Kies **Opslaan**.
 
@@ -122,13 +122,17 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 6. Kies **Opslaan**.
 
+
+> [!NOTE]
+> **Lees-** en **Beheer-** machtigingen worden **Volledige toegangsmachtigingen** genoemd wanneer ze worden toegewezen in het Exchange-beheercentrum. Volledige toegangsmachtiging staat niet gelijk aan **Versturen als-** of **Versturen namens-** machtigingen.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
   
-2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen**uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
+2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen** uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
     
 3. Selecteer naast **Lezen en beheren**, de optie **Bewerken**. 
     
@@ -142,7 +146,7 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
   
-2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen**uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
+2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen** uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
     
 3. Selecteer naast **Lezen en beheren**, de optie **Bewerken**. 
     
@@ -159,7 +163,7 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.  
 
-2. Selecteer de naam van de gebruiker (van wie u**Verzenden namens**-machtiging wilt geven) om hun eigenschappenvenster te openen.
+2. Selecteer de naam van de gebruiker (van wie u **Verzenden namens**-machtiging wilt geven) om hun eigenschappenvenster te openen.
     
 3. Selecteer op het tabblad **E-mail** **Postvakmachtigingen beheren**.
     
@@ -175,7 +179,7 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
 
-2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen**uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
+2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen** uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
 
 3. Selecteer naast **Verzenden namens**, de optie **Bewerken**.
     
@@ -189,7 +193,7 @@ Een postvak kan op verschillende manieren worden geopend zodra u toegang hebt ge
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
 
-2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen**uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
+2. Selecteer de gebruiker die u wilt, vouw **E-mail instellingen** uit en selecteer vervolgens **Bewerken** naast **Postvakmachtigingen**.
 
 3. Selecteer naast **Verzenden namens**, de optie **Bewerken**.
     
