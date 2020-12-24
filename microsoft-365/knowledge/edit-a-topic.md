@@ -11,17 +11,23 @@ ms.collection: enabler-strategic
 ms.service: ''
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9bce380e9e1380f2b2560762d2df37352251bf2b
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 809d3936ed27275873f63526e7dfc8f91a15a0cc
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698828"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731353"
 ---
 # <a name="edit-an-existing-topic-preview"></a>Een bestaand onderwerp bewerken (preview)
 
 > [!Note] 
 > De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LA4n]  
+
+</br>
 
 In het onderwerp kunt u een bestaand onderwerp bewerken. U moet dit mogelijk doen als u aanvullende informatie wilt corrigeren of toevoegen aan een bestaande topic. 
 

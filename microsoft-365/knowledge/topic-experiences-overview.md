@@ -12,12 +12,12 @@ ms.collection: enabler-strategic
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van topic Experience.
-ms.openlocfilehash: 9321f349056c1c4df36b6bd725214f3c6758cf6a
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 8b06dd016295c8b0712a7c18c2296a318cd826ba
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698846"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731319"
 ---
 # <a name="topic-experiences-overview-preview"></a>Overzicht van topics (preview)
 
@@ -26,7 +26,11 @@ ms.locfileid: "49698846"
 
 In dit onderwerp wordt Microsoft AI Technology, Microsoft 365, Delve, Microsoft Graph, Search en andere onderdelen en services gebruikt voor het maken van een kennis netwerk in uw Microsoft 365-omgeving. 
 
-   ![Kennisbeheer stroom](../media/knowledge-management/knowledge-management-flowchart.png) </br> 
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LhZP]  
+
+</br>
 
 Het doel is om gegevens te converteren naar kennis en deze te leveren aan uw gebruikers in apps die ze dagelijks gebruiken, zoals moderne pagina's van SharePoint en Microsoft Search.
 

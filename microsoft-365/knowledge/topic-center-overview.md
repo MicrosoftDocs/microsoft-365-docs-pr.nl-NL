@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: ea0e3ba186956e35a7c7b619b1cd032726f7952f
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 3e6a0e8e6917b62c1789ebcd689ba7dc1e64e9e0
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698619"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731377"
 ---
 # <a name="topic-center-overview-preview"></a>Overzicht van topic Center (preview)
 
@@ -46,6 +46,13 @@ Het onderwerp centrum wordt gemaakt tijdens de installatie van een onderwerp. Wa
 
 
 ## <a name="home-page"></a>Startpagina
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LAhZ]  
+
+</br>
+
 
 Op de startpagina van het topic Center ziet u de onderwerpen in uw organisatie waartoe u een verbinding hebt.
 

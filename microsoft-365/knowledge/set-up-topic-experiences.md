@@ -11,14 +11,20 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het instellen van onderwerps functies in Microsoft 365
-ms.openlocfilehash: e11f0b75556a4a8ac0ffa40269d7166258128daf
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: df4dccead4b627a215ec7ebd11932aa0f2b6ac08
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698553"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731365"
 ---
 # <a name="set-up-topic-experiences-in-microsoft-365"></a>Onderwerpen over functies instellen in Microsoft 365
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LBp7]  
+
+</br>
 
 Met het Microsoft 365-Beheercentrum kunt u [topic Experience](topic-experiences-overview.md)instellen en configureren. 
 
@@ -26,7 +32,7 @@ Het is belangrijk dat u de beste manier voor het plannen en configureren van ond
 
 U moet een globale beheerder of SharePoint-beheerder zijn om toegang te krijgen tot het Microsoft 365-Beheercentrum en de functies voor het onderwerp in te stellen.
 
-## <a name="set-up-topic-experiences"></a>Ervaring met het onderwerp instellen
+## <a name="set-up-topic-experiences"></a>Onderwerpservaringen instellen
 
 Topic Experience instellen in Microsoft 365
 

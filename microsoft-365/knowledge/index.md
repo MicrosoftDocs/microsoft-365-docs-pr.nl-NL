@@ -12,17 +12,24 @@ ms.collection: enabler-strategic
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
 description: Meer informatie over het vinden van bronnen voor de ervaringen van een onderwerp.
-ms.openlocfilehash: bc38e0a7310dd9c1d3787dbe6cabe646009d2bff
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 9141f6b445932234ebfa5a3d77833f64110ceeb4
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698867"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731341"
 ---
 # <a name="introduction-to-topic-experiences-preview"></a>Inleiding tot de ervaringen van het onderwerp (preview)
 
 > [!Note] 
 > De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LhZP]  
+
+</br>
+
 
 Onderwerp experiences is een Office 365-service die organisaties helpt bij het transformeren van informatie naar kennis.
 
@@ -54,9 +61,9 @@ De informatiebronnen in dit gedeelte helpen de beheerder in je organisatie Micro
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
 |Meer informatie over het instellen en configureren van topic Experience|[Ervaring met het onderwerp instellen](set-up-topic-experiences.md)|
-|Meer informatie over het configureren van gebruikersmachtigingen|[Machtigingen voor onderwerp beheren](topic-experiences-user-permissions.md)|
-|Meer informatie over hoe u beheert wie onderwerpen kan weergeven|[De zichtbaarheid van een onderwerp beheren](topic-experiences-knowledge-rules.md)|
-|Meer informatie over het beheren van de instellingen voor detectie van het onderwerp|[Detectie van onderwerp beheren](topic-experiences-discovery.md)|
+|Meer informatie over het configureren van gebruikersmachtigingen|[Onderwerpsmachtigingen beheren](topic-experiences-user-permissions.md)|
+|Meer informatie over hoe u beheert wie onderwerpen kan weergeven|[Onderwerpzichtbaarheid beheren](topic-experiences-knowledge-rules.md)|
+|Meer informatie over het beheren van de instellingen voor detectie van het onderwerp|[Onderwerpdetectie beheren](topic-experiences-discovery.md)|
 
 ## <a name="work-with-topics"></a>Werken met onderwerpen
 
@@ -64,7 +71,7 @@ Met behulp van de informatiebronnen in deze sectie kunnen gebruikers leren hoe u
 
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
-|Meer informatie over het werken met onderwerpen|[Overzicht van topic Center](topic-center-overview.md)<br><br>[Onderwerpen beheren](manage-topics.md)<br><br>[Een nieuw onderwerp maken](create-a-topic.md)<br><br>[Een bestaand onderwerp bewerken](edit-a-topic.md)<br><br>|
+|Meer informatie over het werken met onderwerpen|[Overzicht van het onderwerpcentrum](topic-center-overview.md)<br><br>[Onderwerpen beheren](manage-topics.md)<br><br>[Een nieuw onderwerp maken](create-a-topic.md)<br><br>[Een bestaand onderwerp bewerken](edit-a-topic.md)<br><br>|
 |Meer informatie over gebruikersrollen|[Rollen van onderwerp ervaring](topic-experiences-roles.md)|
 |Meer informatie over waarom verschillende gebruikers verschillend kunnen zijn|[Onderwerp Ervaar beveiligingsbeperkingen](topic-experiences-security-trimming.md)|
 |Meer informatie over hoe u ervoor kunt zorgen dat bepaalde onderwerpen niet worden geïdentificeerd en weergegeven|[Toegang tot onderwerpen beperken](restrict-access-to-topics.md)|

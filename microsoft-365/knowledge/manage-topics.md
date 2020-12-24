@@ -11,17 +11,24 @@ search.appverid: ''
 ms.collection: enabler-strategic
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 832067d157ed9ffcba1ed9ad514c375cbbdd752b
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 92cf9c860ddbf199c70a7c2d89a7daba3dfe0fe7
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698836"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731323"
 ---
 # <a name="manage-topics-in-the-topic-center-preview"></a>Onderwerpen beheren in het onderwerp centrum (preview)
 
 > [!Note] 
 > De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LxDx]  
+
+</br>
+
 
 In het onderwerp centrum kan een kennis Manager de pagina **onderwerpen beheren** raadplegen om onderwerpen te zien die zijn gevonden in SharePoint-bronlocaties, zoals opgegeven door uw kennis beheerder.  
 
