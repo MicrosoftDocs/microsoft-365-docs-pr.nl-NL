@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 253e85da7bb85a0722831851f00051a50a96153e
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 61ac8c627dd701ac354a5d60d4774a6443b4d41e
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688409"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737985"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
@@ -37,7 +37,7 @@ Secure Score Microsoft is te vinden https://security.microsoft.com/securescore i
 
 ## <a name="december-2020"></a>December 2020
 
-### <a name="added-6-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Extra uitbreidingen voor kwaliteits verbeteringen toegevoegd voor Microsoft Defender voor eindpunten (voorheen Microsoft Defender ATP):
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>U hebt zes extra uitbreidingen voor kwaliteits verbeteringen toegevoegd voor Microsoft Defender voor eindpunten (voorheen Microsoft Defender ATP):
 
 - De minimum lengte van een wachtwoord instellen op veertien of meer tekens
 - ' Wachtwoordgeschiedenis afdwingen ' instellen op een of meer wachtwoorden
@@ -52,7 +52,7 @@ Secure Score Microsoft is te vinden https://security.microsoft.com/securescore i
 
 De mogelijkheid om ServiceNow-tickets te creëren via een veilige Score via **delen > ServiceNow** is niet langer beschikbaar. Bedankt voor uw feedback en voortdurende ondersteuning terwijl we volgende stappen bepalen.
 
-### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Voor Microsoft Defender voor eindpunt zijn 3 extra uitbreidingen voor kwaliteitsverbetering toegevoegd (voorheen Microsoft Defender ATP):
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Er zijn drie extra uitbreidingen voor kwaliteitsverbetering voor Microsoft Defender voor eindpunten (voorheen Microsoft Defender ATP):
 
 - Het service traject voor niet-geciteerde Windows-Services oplossen
 - Het uitvoerbare pad van de service wijzigen in een bekende beveiligde locatie

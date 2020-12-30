@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 7fe5be065ee45700a1f08a39c8050757c3843f7b
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 6e9dd214e53e3fdd601fe51e5522a3a24a7fd3d0
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682569"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737997"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -65,7 +65,6 @@ Uw score wordt in realtime bijgewerkt om de informatie weer te geven die wordt w
 - [Uw score vergelijken met organisaties zoals u](microsoft-secure-score-history-metrics-trends.md#compare-your-score-to-organizations-like-yours)
 - [Verbeterings acties weergeven en een actieplan kiezen](microsoft-secure-score-improvement-actions.md#take-action-to-improve-your-score)
 - [Een werkstroom initiëren om te onderzoeken of te implementeren](microsoft-secure-score-improvement-actions.md#view-improvement-action-details)
-    - [Microsoft 365 Beveiligingscentrum en ServiceNow-integratie](tickets-security-center.md)
 
 ### <a name="how-improvement-actions-are-scored"></a>Hoe verbeterings acties worden beoordeeld
 
@@ -75,11 +74,19 @@ Met een verbeterings actie wordt u bijvoorbeeld 10 punten vrijmaken door al uw g
 
 ### <a name="products-included-in-secure-score"></a>Producten die deel uitmaken van Secure Score
 
-Er zijn momenteel aanbevelingen voor Microsoft 365 (waaronder Exchange Online), Azure Active Directory, Microsoft Defender voor eindpunten, Microsoft Defender voor identiteit en beveiliging van Cloud apps. Aanbevelingen voor andere beveiligingsproducten zijn binnenkort beschikbaar. De aanbevelingen bedekken geen enkele aanvals vlakken die zijn gekoppeld aan elk product, maar ze zijn een goede basislijn. U kunt ook de verduidelijkings acties markeren als bedoeld bij een derde persoon of een andere beperking.
+Er gelden momenteel aanbevelingen voor de volgende producten:
+
+- Microsoft 365 (inclusief Exchange Online)
+- Microsoft Azure Active Directory
+- Microsoft Defender for Endpoint
+- Microsoft Defender for Identity
+- Cloud App Security
+
+Aanbevelingen voor andere beveiligingsproducten zijn binnenkort beschikbaar. De aanbevelingen bedekken geen enkele aanvals vlakken die zijn gekoppeld aan elk product, maar ze zijn een goede basislijn. U kunt ook de verduidelijkings acties markeren als bedoeld bij een derde persoon of een andere beperking.
 
 ### <a name="security-defaults"></a>Standaardinstellingen voor beveiliging
 
-Secure Score van Microsoft heeft bijgewerkte stappen voor het oplossen van [beveiligingsstandaarden in azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), zodat u uw organisatie eenvoudiger kunt beschermen met vooraf geconfigureerde beveiligingsinstellingen voor algemene aanvallen.
+Secure Score van Microsoft heeft bijgewerkte vernieuwings acties voor de ondersteuning [van beveiligingsstandaarden in azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), zodat u uw organisatie eenvoudiger kunt beschermen met vooraf geconfigureerde beveiligingsinstellingen voor veelvoorkomende aanvallen.
 
 Als u de standaardwaarden voor beveiliging uitschakelt, ontvangt u volledige punten voor de volgende verbeterings acties:
 
@@ -117,7 +124,7 @@ Met alleen-lezen toegang kunt u niet de status of notities voor een actie voor v
 
 ## <a name="risk-awareness"></a>Risico detectie
 
-Secure Score van Microsoft is een numerieke samenvatting van uw beveiligings Posture op basis van systeemconfiguraties, gebruikersgedrag en andere beveiligings maten. Het maakt niet uit hoe waarschijnlijk uw systeem of gegevens worden geschonden. In plaats daarvan wordt aangegeven in welke mate u beveiligings besturing in uw Microsoft-omgeving hebt aangenomen waarmee u het risico van schending kunt compenseren. Geen enkele online dienst is volledig gekraakt tegen beveiligingsproblemen en de Secure Score mag niet worden geïnterpreteerd als garantie tegen schending van de beveiliging.
+Secure Score van Microsoft is een numerieke samenvatting van uw beveiligings Posture op basis van systeemconfiguraties, gebruikersgedrag en andere beveiligings maten. Het maakt niet uit hoe waarschijnlijk uw systeem of gegevens worden geschonden. In plaats daarvan wordt aangegeven in welke mate u beveiligings besturing in uw Microsoft-omgeving hebt aangenomen waarmee u het risico van schending kunt compenseren. Geen enkele online service is gekraakt tegen beveiligingsproblemen en de Secure Score mag niet worden geïnterpreteerd als garantie tegen beveiligingsproblemen.
 
 ## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
@@ -128,4 +135,4 @@ Als u problemen ondervindt, kunt u het ons laten weten dat u de community [bevei
 - [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
 - [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
-- [Nieuwe functies](microsoft-secure-score-whats-new.md)
+- [Wat is er nieuw](microsoft-secure-score-whats-new.md)

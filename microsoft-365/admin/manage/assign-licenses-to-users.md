@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 description: Handleiding over het toewijzen van licenties aan gebruikers.
 ms.date: 08/14/2020
-ms.openlocfilehash: ec2f9ae2e580987266c636343a66d7c21138e4c3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: fc5f9112a22d56abb9c11d61f4108586487b4986
+ms.sourcegitcommit: 806536f859ac864228797f1f2f23b8f41040a6b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645129"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49735796"
 ---
 # <a name="assign-licenses-to-users"></a>Licenties aan gebruikers toewijzen
 
@@ -103,7 +103,7 @@ Wanneer u de pagina **Actieve gebruikers** gebruikt om licenties toe te wijzen, 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 2. Vink de selectievakjes aan naast de namen van de gebruikers aan wie u licenties wilt toewijzen.
 3. Selecteer in het deelvenster **Bulkacties** de optie **Productlicenties bewerken**.
-4. Selecteer in het deelvenster **Producten toewijzen** **Toevoegen aan bestaande productlicentietoewijzingen** \> ** Volgende**.
+4. Selecteer in het deelvenster **Producten toewijzen** **Toevoegen aan bestaande productlicentietoewijzingen** \> **Volgende**.
 5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan de geselecteerde gebruikers.\
     De standaardinstelling is dat alle services die zijn gekoppeld aan die licenties, automatisch worden toegewezen aan de gebruikers. U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan de gebruikers geen gebruik mogen maken.
 6. Selecteer onderaan in het deelvenster **Toevoegen aan bestaande producten** **Toevoegen** \> **Sluiten** \> **Sluiten**.
@@ -117,7 +117,7 @@ Wanneer u de pagina **Actieve gebruikers** gebruikt om licenties toe te wijzen, 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 2. Vink de selectievakjes aan naast de namen van de gebruikers aan wie u licenties wilt toewijzen.
 3. Selecteer in het deelvenster **Bulkacties** de optie **Productlicenties bewerken**.
-4. Selecteer in het deelvenster **Producten toewijzen** **Toevoegen aan bestaande productlicentietoewijzingen** \> ** Volgende**.
+4. Selecteer in het deelvenster **Producten toewijzen** **Toevoegen aan bestaande productlicentietoewijzingen** \> **Volgende**.
 5. Zet de wisselknop op **Aan** voor de licenties die u wilt toewijzen aan de geselecteerde gebruikers.\
     De standaardinstelling is dat alle services die zijn gekoppeld aan die licenties, automatisch worden toegewezen aan de gebruikers. U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan de gebruikers geen gebruik mogen maken.
 6. Selecteer onderaan in het deelvenster **Toevoegen aan bestaande producten** **Toevoegen** \> **Sluiten** \> **Sluiten**.
@@ -163,7 +163,7 @@ Wanneer u de pagina **Actieve gebruikers** gebruikt om licenties toe te wijzen, 
 
 ## <a name="assign-a-license-to-a-guest-user"></a>Een licentie toewijzen aan een gastgebruiker
 
-U kunt gastgebruikers uitnodigen om samen te werken met uw organisatie in Azure Active Directory-Beheercentrum. Raadpleeg [Wat is gastgebruikerstoegang in Azure Active Directory B2B?](https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b) voor meer informatie over gastgebruikers. Raadpleeg [Snelstart: Gastgebruikers toevoegen aan uw adreslijst in de Azure-portal](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal) als u geen gastgebruikers hebt.
+U kunt gastgebruikers uitnodigen om samen te werken met uw organisatie in het Azure Active Directory-beheercentrum. Raadpleeg [Wat is gastgebruikerstoegang in Azure Active Directory B2B?](https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b) voor meer informatie over gastgebruikers. Raadpleeg [Snelstart: Gastgebruikers toevoegen aan uw adreslijst in de Azure-portal](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal) als u geen gastgebruikers hebt.
 
 > [!IMPORTANT]
 > U moet een globale beheerder zijn om deze stappen uit te voeren.

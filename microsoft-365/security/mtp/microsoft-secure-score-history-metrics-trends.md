@@ -20,17 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 4dfe1c9595db869a59474a030a5dd8673cf7db24
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+ms.openlocfilehash: ed937c90bbc6875ee3d72f710d5ac11d4069cbb6
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769242"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49738041"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
 
 [Secure Score van Microsoft](microsoft-secure-score.md) is een afmeting van de beveiligings Posture van een organisatie, met een hoger nummer voor het uitvoeren van extra verbeterings acties. U vindt het https://security.microsoft.com/securescore in [microsoft 365 Beveiligingscentrum](overview-security-center.md).
 
@@ -56,7 +55,7 @@ In het tabblad **statistieken & trends** zijn er verschillende grafieken en graf
 * **Regressie trend** : een tijdlijn van punten met regressed vanwege configuratie-, gebruikers-of apparaat-wijzigingen.  
 * **Vergelijkings trend** -hoe de Secure Score van uw organisatie vergelijkt met de verschillende tijd. In deze weergave kunt u lijnen opnemen die het gemiddelde van de score voor bedrijven met een vergelijkbaar aantal gelijke stoelen en een aangepaste vergelijkings weergave kunnen instellen.
 * **Trend van risico acceptatie** -tijdlijn met verbeterings acties gemarkeerd als risico geaccepteerd.
-* **Wijzigingen van scores** : het aantal bereikte punten, punten regressed, samen met de wijziging van de eerstvolgende Score in het opgegeven datumbereik.
+* **Wijzigingen van scores** : het aantal bereikte punten, punten regressed en wijzigingen in uw score in het opgegeven datumbereik.
 
 ### <a name="compare-your-score-to-organizations-like-yours"></a>Uw score vergelijken met organisaties zoals u
 
@@ -64,18 +63,18 @@ Er zijn twee locaties om te zien hoe uw score wordt vergeleken met organisaties 
 
 #### <a name="comparison-bar-chart"></a>Vergelijkings balk diagram
 
-De vergelijkings balk grafiek is het tabblad **overzicht** . Plaats de muisaanwijzer op de grafiek om de score en de verkoopkans weer te geven. De vergelijkingsgegevens zijn geanonimiseerde, zodat we niet precies weten welke andere tenants deelnemen aan het mix.
+De vergelijkings balk grafiek is het tabblad **overzicht** . Plaats de muisaanwijzer op de grafiek om de score en de verkoopkans weer te geven. De vergelijkingsgegevens zijn geanonimiseerde, zodat we niet precies weten welke andere tenants deelnemen aan de mix.
 
 ![Staafdiagram met de scores van vergelijkbare organisatie](../../media/secure-score/secure-score-comparison-bar.png)
 
-- **Organisaties zoals** u dit doet: we geven u een gemiddelde score van andere tenants (mits er minimaal 5 of meer tenants zijn om te vergelijken) die voldoen aan de volgende criteria:
+- **Organisaties zoals uw** eigen: een gemiddelde score van andere tenants (mits er minstens vijf of meer tenants zijn om te vergelijken) die voldoen aan de volgende criteria:
     1. Dezelfde bedrijfstak
     2. Hetzelfde formaat van organisatie
     3. Alle regio's
     4. Gebruikte Microsoft-producten zijn 80% vergelijkbaar
     5. Verkoopkans (maximale score die kan worden behaald door de huidige licentie) binnen een 20% van de Tenant
 
-- **Aangepaste vergelijking** : eerst moet u eerst de instellingen selecteren door **vergelijking beheren** te selecteren, op basis van de volgende criteria:
+- **Aangepaste vergelijking**: u moet deze optie instellen door **vergelijking beheren** op basis van de volgende criteria te selecteren:
     1. Geselecteerde bedrijfstak ('s)
     2. Geselecteerd formaat (en) van de organisatie
     3. Geselecteerde regio ('s)
@@ -83,7 +82,7 @@ De vergelijkings balk grafiek is het tabblad **overzicht** . Plaats de muisaanwi
     5. Gebruikte Microsoft-producten zijn 80% vergelijkbaar
     6. Verkoopkans (maximale score die kan worden behaald door de huidige licentie) binnen een 20% van de Tenant
 
-Als u geen selectie hebt gemaakt voor de aangepaste selectie van een selectie resultaat bij het ophalen van minder dan 5 andere tenants waarmee we kunnen vergelijken, ziet u ' niet beschikbaar vanwege beperkte gegevens '.
+Als u een aangepaste selectie hebt gemaakt, maar de resultaten kleiner zijn dan vijf andere tenants waarmee we kunnen vergelijken, ziet u ' niet beschikbaar vanwege beperkte gegevens '.
 
 #### <a name="comparison-trend"></a>Vergelijkings trend
 
@@ -91,7 +90,7 @@ Bekijk op het tabblad **gegevens & trends** de manier waarop de Secure Score van
 
 ![Lijngrafiek van vergelijkbare organisatie scores gedurende een bepaalde periode](../../media/secure-score/secure-score-comparison-trend.png)
 
-## <a name="we-want-to-hear-from-you"></a>We horen graag van u
+## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
 Als u problemen ondervindt, kunt u het ons laten weten dat u de community [beveiliging, Privacy & naleving](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . We volgen de community en bieden hulp.
 

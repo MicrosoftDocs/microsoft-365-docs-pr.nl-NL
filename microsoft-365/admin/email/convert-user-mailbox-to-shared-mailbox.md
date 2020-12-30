@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Leer hoe u een privé postvak converteert naar een gedeeld postvak dat door meerdere gebruikers kan worden geopend. '
-ms.openlocfilehash: fa8e37b5e924f1b38755a953f40d8b70011213d0
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: f716bbd16be9f67189b19358ddf16a289f57f8e7
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698277"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737963"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Het postvak van een gebruiker converteren naar een gedeeld postvak
 
@@ -93,24 +93,15 @@ Stel dat u een gebruikersaccount hebt verwijderd en nu het oude postvak van dat 
 
 ## <a name="convert-a-users-mailbox-in-a-hybrid-environment"></a>Het postvak van een gebruiker converteren in een hybride omgeving
 
-> [!NOTE] 
-> Vanaf 11 oktober 2018 wordt voor hybride implementatie van Exchange ondersteuning voor het maken van externe gedeelde postvakken die beginnen met de cumulatieve update 21 voor Exchange Server 2013 en cumulatieve update 10 voor Exchange Server 2016 in een on-premises Exchange-Server omgeving. U kunt rechtstreeks een extern gedeeld postvak maken of wijzigen met behulp van de nieuwe _gedeelde_ parameter. Ga voor meer informatie naar [cmdlets voor het maken of wijzigen van een extern gedeeld postvak in een on-premises Exchange-omgeving](https://support.microsoft.com/help/4133605/cmdlets-to-create-modify-remote-shared-mailbox-in-on-premises-exchange).
+Zie voor meer informatie over het converteren van een gebruikerspostvak naar een gedeeld postvak in een hybride omgeving van Exchange:
 
-Als dit gedeelde Postvak zich in een hybride omgeving bevindt en zich niet onder het bovenstaande scenario bevindt, wordt **nadrukkelijk aangeraden** dat u het postvak van de gebruiker weer naar on-premises plaatst, het postvak van de gebruiker converteert naar een gedeeld postvak en het gedeelde Postvak vervolgens weer naar de Cloud verplaatsen. 
-
-Ga als volgt te werk: als u het postvak in de Cloud converteert, kan het worden geconverteerd, maar on-premises is het postvak van de gebruiker, omdat de nieuwe realiteit geen keer wordt gesynchroniseerd op on-premises.
-
-Dit is meestal niet het geval, maar er zijn een aantal scenario's waarin de on-premises kenmerken (waarmee het postvak van de gebruikerspostvak kan worden overschreven), de nieuwe Cloud versies van die kenmerken kunnen overzetten, en het postvak kan hierdoor worden geconverteerd. Dit is een probleem omdat gebruikerspostvakken licenties nodig hebben **of ze gedurende 30 dagen worden verwijderd**.
-
-We hebben de meeste redenen besproken waarom dit gebeurt, maar het is wel zo vaak. U kunt het beste veilig zijn en het postvak weer naar on-premises verplaatsen, dit converteren en het gedeelde Postvak vervolgens weer naar de Cloud verplaatsen. Deze aanbevolen oplossing is niet in strijd met de licentieovereenkomst voor hybride omgevingen omdat het gebruik van de on-premises postvak van de gebruiker slechts tijdelijk is. Als u het postvak van de gebruiker of het gedeelde Postvak in uw on-premises organisatie onderneemt, krijgt u overtreding van uw licentie.
-
+ - [Cmdlets voor het maken of wijzigen van een extern gedeeld postvak in een on-premises Exchange-omgeving](https://support.microsoft.com/office/cmdlets-to-create-or-modify-a-remote-shared-mailbox-in-an-on-premises-exchange-environment-9e83fb59-c001-729c-a4c0-b2964c154b49)
+ - [Gedeelde postvakken worden onverwacht geconverteerd naar postvakken van gebruikers nadat adreslijstsynchronisatie is uitgevoerd in een hybride implementatie van Exchange](https://docs.microsoft.com/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes)
+ 
 
 > [!NOTE]
-> Als u lid bent van de rollen groep beheer van organisatie of geadresseerden, kunt u de Exchange-beheer shell gebruiken om een gebruikerspostvak te wijzigen in een gedeelde Postvak on-premises. Bijvoorbeeld `Set-Mailbox -Identity mailbox1@contoso.onmicrosoft.com -Type Shared`.
+> Als u lid bent van de rollen groep beheer van organisatie of geadresseerden, kunt u de Exchange-beheer shell gebruiken om een gebruikerspostvak te wijzigen in een gedeelde Postvak on-premises. Bijvoorbeeld `Set-Mailbox -Identity mailbox1@contoso.com -Type Shared`.
 
-> [!TIP]
-> Zie de tijdelijke oplossing in deze ondersteunings oplossing voor gevallen waarin [gedeelde postvakken onverwacht worden geconverteerd naar postvakken van gebruikers](https://support.microsoft.com/help/2710029/shared-mailboxes-are-unexpectedly-converted-to-user-mailboxes-after-di).
-  
 ## <a name="related-articles"></a>Verwante artikelen
 
 [Meer over gedeelde postvakken](about-shared-mailboxes.md)

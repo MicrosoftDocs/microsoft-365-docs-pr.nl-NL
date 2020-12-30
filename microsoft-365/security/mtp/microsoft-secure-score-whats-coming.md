@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d668aa8f0588ecc5ca24086d060cda32cdf1dbc6
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 0693e70cdd5636ce655a400a48aac65197327291
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688039"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737951"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
 
@@ -35,6 +35,8 @@ Secure Score Microsoft is te vinden https://security.microsoft.com/securescore i
 We maken de nabije toekomst enkele wijzigingen in de nabije toekomst, zodat [Microsoft Secure Score](microsoft-secure-score.md) een betere medewerker is van uw beveiligings Posture en de bruikbaarheid verbeteren. Uw score en de maximaal mogelijke score kunnen wijzigen.
 
 ### <a name="no-planned-changes"></a>Geen geplande wijzigingen
+
+Er zijn op dit moment geen geplande wijzigingen.
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 
