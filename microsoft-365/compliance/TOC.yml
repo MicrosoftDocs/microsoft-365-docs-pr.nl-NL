@@ -589,7 +589,7 @@
           items:
             - name: Beheerders toevoegen aan een case
               href: add-custodians-to-case.md
-            - name: Beheerders bulktoevoegen aan een case
+            - name: Meerdere beheerders importeren in een case
               href: bulk-add-custodians.md
             - name: Beheerders beheren
               href: manage-new-custodians.md
