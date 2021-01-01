@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4c731869d1ec1740f8c9173705f9af72b0e2fe53
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 15f599f425e20540f5f7889efa632f5a9f11a4e8
+ms.sourcegitcommit: 25ac2736a66bb72c0d574c3fbde7472ac98d5321
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844750"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "49741055"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Functies in de preview-versie van Microsoft 365 Defender
 
@@ -63,5 +63,7 @@ De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-v
 
 - **[Microsoft 365 Defender-api's](api-overview.md)** : met de microsoft 365 lop-Api's van microsoft kunt u werkstromen automatiseren op basis van de gedeelde incident en de geavanceerde jacht tabellen. 
 - **[Onderneem actie in de geavanceerde jacht](advanced-hunting-take-action.md)** en bevat snel bedreigingen of compromisloze activa die u vindt in de [geavanceerde jacht](advanced-hunting-overview.md).
-- Naslaginformatie over de **[Portal van het portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** : informatie over geavanceerde jacht schema tabellen rechtstreeks in het Beveiligingscentrum. Naast de beschrijvingen van tabellen en kolommen bevat deze verwijzing ondersteunde gebeurtenistypen ( `ActionType` waarden) en voorbeeldquery's.
+- Naslaginformatie over de **[Portal van het portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**: informatie over geavanceerde jacht schema tabellen rechtstreeks in het Beveiligingscentrum. Naast de beschrijvingen van tabellen en kolommen bevat deze verwijzing ondersteunde gebeurtenistypen ( `ActionType` waarden) en voorbeeldquery's.
+- **[DeviceFromIP (), functie](advanced-hunting-devicefromip-function.md)**: Hier vindt u informatie over welke apparaten aan een bepaald tijdsbereik zijn toegewezen.
+
 
