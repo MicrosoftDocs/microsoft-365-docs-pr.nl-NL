@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het implementeren van teams met bescherming voor vertrouwelijke gegevens.
-ms.openlocfilehash: ad1cf437bdbe3bd7b25347bb49698314097462ab
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 16c4ceedcafee02ca5d168cc70fc61bb8d01fc72
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49612950"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750785"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Teams met bescherming voor vertrouwelijke gegevens configureren
 
@@ -58,17 +58,21 @@ Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
 2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **Een label maken**.
-4. Geef een naam op voor het label. We suggereren **gevoelig**, maar u kunt een andere naam kiezen als die al in gebruik is.
-5. Voeg een knopinfo toe en klik vervolgens op **volgende**.
-6. Klik op de pagina **versleuteling** op **volgende**.
-7. Schakel op de pagina **inhoudsmarkering** de optie inhoudsmarkering in als u automatisch een koptekst, voettekst of watermerk wilt toevoegen aan bestanden die met dit label worden geclassificeerd.
-8. Stel op de pagina **Site- en groepsinstellingen** de **Site- en groepsinstellingen** in op **Aan**.
-9. Klik in de vervolgkeuzelijst **Privacy van Office 365 met de groep verbonden teamsites** op **Privé - alleen leden hebben toegang tot de site**.
-10. Als u gasttoegang wilt toestaan, selecteert u het selectievakje **laat groepseigenaren van Office 365 gebruikers buiten de organisatie toevoegen aan de groep**. 
-11. Kies onder **niet-beheerde apparaten** de optie **beperkte toegang tot het Internet toestaan**.
+4. Geef een naam op voor het label. We stellen **Gevoelig** voor, maar u kunt een andere naam kiezen als die al in gebruik is.
+5. Voeg een weergavenaam en een beschrijving toe en klik vervolgens op **Volgende**.
+6. Selecteer op de **pagina Het bereik voor dit label definiëren** de opties **Bestanden en e-mailberichten** en **Groepen en sites** en klik op **Volgende**.
+7. Klik op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichten kiezen** op **Volgende**.
+8. Klik op de pagina *Automatische labeling voor bestanden en e-mailberichten* op **Volgende**.
+9. Selecteer op de pagina **Beveiligingsinstellingen voor groepen en sites definiëren** de opties **Instellingen voor privacy en toegang voor externe gebruikers** en **Instellingen voor toegang tot apparaten en instellingen voor extern delen** en klik op **Volgende**.
+10. Selecteer op de pagina **Instellingen voor privacy en toegang voor externe gebruikers definiëren** onder **Privacy** de optie **Privé**.
+11. Als u gasttoegang wilt toestaan, selecteert u onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-Groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
 12. Klik op **Volgende**.
-13. Klik op de pagina **Automatische labeling voor Office-apps** op **Volgende**.
-14. Klik op **Verzenden** en klik vervolgens op **Gereed**.
+13. Selecteer op de pagina **Instellingen voor extern delen en instellingen voor toegang tot het apparaat definiëren** de optie **Extern delen beheren via gelabelde SharePoint-sites**.
+14. Onder **Inhoud kan worden gedeeld met** kiest u **Nieuwe en bestaande gasten** als u gasttoegang wilt toestaan of **Alleen personen van de organisatie** als u dat niet wilt.
+15. Kies onder **Toegang tot niet-beheerde apparaten** de optie **Beperkte toegang tot alleen internet toestaan**.
+16. Klik op **Volgende**.
+17. Klik op de pagina **Automatische labeling voor databasekolommen** op **Volgende**.
+18. Klik op **Label maken** en klik vervolgens op **Gereed**.
 
 Nadat u het label heeft gemaakt, moet u het publiceren voor de gebruikers die het zullen gebruiken. Voor gevoelige bescherming maken we het label beschikbaar voor alle gebruikers. U kunt het label publiceren in het Microsoft 365-compliancecentrum, op het tabblad **Labelbeleid** op de pagina **Informatiebeveiliging**. Als u een bestaand beleid hebt dat van toepassing is op alle gebruikers, kunt u dit label toevoegen aan dat beleid. Als u een nieuw beleid wilt maken, raadpleegt u [Gevoeligheidslabels publiceren door een labelbeleid te maken](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
 
@@ -83,18 +87,18 @@ Een team maken voor vertrouwelijke informatie
 4. Kies in de lijst **gevoeligheid** het label **gevoelig** dat u zojuist hebt gemaakt.
 5. Klik onder **privacy** op **persoonlijk**.
 6. Typ een naam voor het team en klik vervolgens op **Maken**.
-7. Voeg gebruikers toe aan het team en klik vervolgens op **Sluiten**.
+7. Voeg gebruikers toe aan het team en klik vervolgens op **sluiten**.
 
 ## <a name="private-channel-settings"></a>Instellingen voor privékanaal
 
 In deze fase wordt u aangeraden het maken van privé-kanalen tot teameigenaren te beperken.
 
-Het maken van een privé-kanaal beperken
+Het maken van een persoonlijk kanaal beperken
 1. In het team klikt u op **Meer opties** en klikt u vervolgens op **Team beheren**.
 2. Vouw op het tabblad **Instellingen** de optie **Machtigingen voor leden** uit.
 3. Schakel het selectievakje **Leden toestaan privékanalen te maken** uit.
 
-U kunt ook [Teambeleid](https://docs.microsoft.com/MicrosoftTeams/teams-policies) gebruiken om te bepalen wie privé-kanalen kan maken.
+U kunt ook [teambeleid](https://docs.microsoft.com/MicrosoftTeams/teams-policies) gebruiken om te bepalen wie persoonlijke kanalen kan maken.
 
 ## <a name="sharepoint-settings"></a>SharePoint-instellingen
 
@@ -124,7 +128,7 @@ Site-instellingen bijwerken
 Als u dit wilt scripten als onderdeel van het proces voor het maken van een team, kunt u [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) gebruiken met de volgende parameters:
 
 - `-SharingCapability Disabled` om delen met gasten uit te schakelen (deze is standaard ingeschakeld)
-- `-DefaultSharingLinkType Internal` om de standaard koppeling voor delen te wijzigen naar *Specifieke personen*
+- `-DefaultSharingLinkType Internal` om de standaard koppeling voor delen te wijzigen in *specifieke personen*
 
 #### <a name="private-channels"></a>Privékanalen
 

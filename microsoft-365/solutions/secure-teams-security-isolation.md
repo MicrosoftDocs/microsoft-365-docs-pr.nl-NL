@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: c7230f23a21804530863f125003e4db0eaeeeb60
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 03252cad8449ee83cd757fac3ae74db6df68bcfe
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616294"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751141"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -101,33 +101,36 @@ Voor het configureren van een team voor beveiligingsisolatie wordt een gevoeligh
 
 Als u een interne partner- of stakeholdergroep heeft die versleutelde documenten wel moet kunnen bekijken, maar niet bewerken, kunt u hen met machtigingen voor alleen-lezen aan het label toevoegen. Vervolgens kunt u deze personen met lezer-machtigingen aan de SharePoint-site van het team toevoegen en hebben ze alleen-lezen toegang tot de site waar de documenten worden bewaard, maar niet tot het team zelf.
 
+
 Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
 2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **een label maken**.
-4. Typ een naam voor het label dat vergelijkbaar is met de naam van uw team. Bijvoorbeeld **zeer gevoelig - Project Saturnus**.
-5. Voeg een knopinfo toe en klik vervolgens op **volgende**.
-6. Kies op de pagina **versleuteling** in de vervolgkeuzelijst **versleuteling** de optie **toepassen**.
-7. Teammachtigingen toevoegen:<br>
-  a. Klik op **Machtigingen toewijzen**.<br>
-  b. Klik op **gebruikers of groepen toevoegen** Selecteer het team dat u hebt gemaakt en klik vervolgens op **toevoegen.**<br>
-  c. Klik op **Machtigingen kiezen**.<br>
-  d. Kies **co-auteurs** in de vervolgkeuzelijst en klik vervolgens op **opslaan**.<br>
-8. Als u gebruikers of groepen wilt opnemen met alleen-lezen toegang tot bestanden met het label:<br>
-  a. Klik op **Machtigingen toewijzen**.<br>
-  b. Klik op **gebruikers of groepen toevoegen**, selecteer het team dat u hebt gemaakt en klik vervolgens op **toevoegen**.<br>
-  c. Klik op **Machtigingen kiezen**.<br>
-  d. Kies **Viewer** in de vervolgkeuzelijst en klik vervolgens op **opslaan**.<br>
-  e. Klik op **Opslaan**.
-9. Klik op **Volgende**.
-10. Schakel op de pagina **inhoudsmarkering** de optie inhoudsmarkering in als u automatisch een koptekst, voettekst of watermerk wilt toevoegen aan bestanden die met dit label worden geclassificeerd.
-11. Stel op de pagina **Site- en groepsinstellingen** de **Site- en groepsinstellingen** in op **Aan**.
-12. Klik in de vervolgkeuzelijst **Privacy van Office 365 met de groep verbonden teamsites** op **Privé - alleen leden hebben toegang tot de site**.
-13. Als u gasttoegang wilt toestaan, selecteert u het selectievakje **Laat groepseigenaren van Office 365 gebruikers buiten de organisatie toevoegen aan de groep**. 
-14. Kies onder **Niet-beheerde apparaten** de optie **Toegang blokkeren**.
-15. Klik op **Volgende**.
-16. Klik op de pagina **Automatische labeling voor Office-apps** op **Volgende**.
-17. Klik op **Verzenden** en klik vervolgens op **Gereed**.
+4. Geef een naam op voor het label. We stellen **Gevoelig** voor, maar u kunt een andere naam kiezen als die al in gebruik is.
+5. Voeg een weergavenaam en een beschrijving toe en klik vervolgens op **Volgende**.
+6. Selecteer op de **pagina Het bereik voor dit label definiëren** de opties **Bestanden en e-mailberichten** en **Groepen en sites** en klik op **Volgende**.
+7. Selecteer op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichtenkiezen** de optie **Bestanden en e-mailberichten versleutelen** en klik vervolgens op **Volgende**.
+8. Kies op de pagina **Versleuteling** de optie **Versleutelingsinstellingen configureren**.
+9. Klik op **Gebruikers of groepen toevoegen**, selecteer het team dat u hebt gemaakt en klik vervolgens op **Toevoegen.**
+10. Klik op **Machtigingen kiezen**.
+11. Kies **co-auteurs** in de vervolgkeuzelijst en klik vervolgens op **opslaan**.
+12. Als u gebruikers of groepen wilt opnemen met alleen-lezen toegang tot bestanden met het label:
+    1. Klik op **Machtigingen toewijzen**.
+    1. Klik op **Gebruikers of groepen toevoegen**, selecteer het team dat u hebt gemaakt en klik vervolgens op **Toevoegen**.
+    1. Klik op **Machtigingen kiezen**.
+    1. Kies **Viewer** in de vervolgkeuzelijst en klik vervolgens op **Opslaan**.
+13.  Klik op **Opslaan** en klik vervolgens op **Volgende**.
+14. Klik op de pagina *Automatische labeling voor bestanden en e-mailberichten* op **Volgende**.
+15. Selecteer op de pagina **Beveiligingsinstellingen voor groepen en sites definiëren** de opties **Instellingen voor privacy en toegang voor externe gebruikers** en **Instellingen voor toegang tot apparaten en instellingen voor extern delen** en klik op **Volgende**.
+16. Selecteer op de pagina **Instellingen voor privacy en toegang voor externe gebruikers definiëren** onder **Privacy** de optie **Privé**.
+17. Als u gasttoegang wilt toestaan, selecteert u onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-Groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
+18. Klik op **Volgende**.
+19. Selecteer op de pagina **Instellingen voor extern delen en instellingen voor toegang tot het apparaat definiëren** de optie **Extern delen beheren via gelabelde SharePoint-sites**.
+20. Onder **Inhoud kan worden gedeeld met** kiest u **Nieuwe en bestaande gasten** als u gasttoegang wilt toestaan of **Alleen personen van de organisatie** als u dat niet wilt.
+21. Kies onder **Toegang tot niet-beheerde apparaten** de optie **Toegang blokkeren**.
+22. Klik op **Volgende**.
+23. Klik op de pagina **Automatische labeling voor databasekolommen** op **Volgende**.
+24. Klik op **Label maken** en klik vervolgens op **Gereed**.
 
 Nadat u het label heeft gemaakt, moet u het publiceren voor de gebruikers die het zullen gebruiken. In dit geval maken we het label alleen beschikbaar voor personen in het team.
 
