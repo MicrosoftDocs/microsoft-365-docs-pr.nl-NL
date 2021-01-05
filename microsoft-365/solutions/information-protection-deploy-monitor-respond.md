@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 01/04/2021
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik controle-en waarschuwings beleid en verzoeken om gegevens te controleren en te reageren op persoonlijke gegevens.
-ms.openlocfilehash: 296220ac8b34d9ce10c783194b78ca344e746b84
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 3ae0f2a6528f6188500c7cee7732c6447013eaa6
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377197"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749585"
 ---
 # <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>Toezicht houden op het privacy van gebeurtenissen in uw organisatie en deze beantwoorden
 
@@ -78,9 +78,6 @@ Zie [aanvragen van AVG en CCPA](../compliance/gdpr-dsr-office365.md) voor meer i
 
 Voor Microsoft stream, wanneer een gebruiker wordt verwijderd uit Azure Active Directory (Azure AD), en het e-mailadres van de gebruiker vóór dat punt is gekoppeld aan de video, blijft het bijbehorende e-mailadres aan de video gekoppeld. Zie [Verwijderde gebruikers beheren vanuit Microsoft stream](https://docs.microsoft.com/stream/managing-deleted-users) om dit te verwijderen.
 
-## <a name="additional-investigative-tools"></a>Aanvullende hulpmiddelen voor onderzoek
+## <a name="insider-risk-management-as-an-investigative-tool"></a>Insider Risk Management als een onderzoekprogramma
 
-Hier volgen nog twee extra hulpmiddelen waarmee u nuttige gebeurtenissen in verband met privacy in uw organisatie kunt volgen, onderzoeken en herstellen:
-
-- [Insider Risk Management in Microsoft 365](../compliance/insider-risk-management.md), een functie van het Microsoft compliance-Beheercentrum om intern risico te minimaliseren, zodat u risico activiteiten in uw organisatie kunt detecteren, onderzoeken en ondernemen.
-- [Gegevens onderzoek in Microsoft 365](../compliance/overview-data-investigations.md), een functie van het Microsoft compliance-Beheercentrum om te zoeken naar gevoelige, kwaadaardige of verkeerd geplaatste gegevens in microsoft 365 en onderzoek wat er is gebeurd om het incident te herstellen.
+[Insider Risk Management in Microsoft 365](../compliance/insider-risk-management.md) is een functie van het Microsoft compliance-Beheercentrum waarmee u intern risico kunt beperken, zodat u risico activiteiten in uw organisatie kunt detecteren, onderzoeken en ondernemen.

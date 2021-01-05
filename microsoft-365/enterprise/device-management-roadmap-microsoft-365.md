@@ -15,12 +15,12 @@ ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
 description: De routekaart voor het instellen van Apparaatbeheer voor Microsoft 365.
-ms.openlocfilehash: d359cae62fbd1bf2468ad753670ff8e385d6f25b
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 79be47d6bc83c124f2203866986e06181a1f7f3d
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398959"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749537"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Wegwijzer voor Apparaatbeheer voor Microsoft 365
 
@@ -29,7 +29,7 @@ Microsoft 365 voor Enterprise bevat functies waarmee u apparaten en hun apps bin
 Er zijn twee opties voor Apparaatbeheer:
 
 - [Microsoft Intune](#microsoft-intune)
-- [Basis mobiliteit en beveiliging](#basic-mobility-and-security)
+- [Basic Mobility en Security](#basic-mobility-and-security)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
@@ -39,7 +39,7 @@ Gebruikers met hun eigen persoonlijke apparaten willen hun apparaten mogelijk ni
 
 U kunt ook bepalen hoe u persoonlijke apparaten en apparaten met de eigen organisatie gaat beheren. U kunt apparaten anders behandelen, afhankelijk van hun gebruik.
 
-## <a name="basic-mobility-and-security"></a>Basis mobiliteit en beveiliging
+## <a name="basic-mobility-and-security"></a>Basic Mobility en Security
 
 Dit is ingebouwd in Microsoft 365 en helpt u bij het beveiligen en beheren van mobiele apparaten van gebruikers, zoals iPhones, iPads, Android-en Windows phones. U kunt beveiligingsbeleid voor apparaten maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatprofielen weergeven.
 
@@ -49,8 +49,8 @@ Voor een betere beoordeling van de optie Apparaatbeheer raadpleegt u [kiezen tus
 
 Op basis van uw beoordeling gaat u aan de slag met het beheren van uw apparaten met:
 
-- [Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide).
-- [Basis mobiliteit en beveiliging](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd).
+- [Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide)
+- [Basic Mobility en Security](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd)
  
 ## <a name="identity-and-device-access-recommendations"></a>Aanbevelingen voor identiteiten en apparaattoegang
 

@@ -21,21 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over hoe de lijst gastgebruikers wordt ingevuld in het Microsoft 365-Beheercentrum.
-ms.openlocfilehash: c698332351d525c12659849826d9e822351a347d
-ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
+ms.openlocfilehash: 338b86d7f32eb2a2ecbacc3d7d1e00124c3804e4
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48463976"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751434"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Gastgebruikers in het Beheercentrum van Microsoft 365
 
-Wanneer u gasten toevoegt aan een Microsoft teams-of SharePoint-groep, worden deze gebruikers toegevoegd aan de lijst gastgebruikers in het Beheercentrum. U kunt ook gastgebruikers toevoegen in azure Active Directory, zodat ze kunnen samenwerken met de gebruikers van uw organisatie. Gastgebruikers kunnen vergaderingen bijwonen, documenten en chats bekijken in teams met wie ze worden uitgenodigd.
-Wanneer een gebruiker is toegevoegd aan de lijst gastgebruikers, kunt u hier hun toegang verwijderen.
+Gasten die u toevoegt aan Microsoft teams, SharePoint of Azure Active Directory, worden ook toegevoegd aan de lijst **gastgebruikers** in het Microsoft-Beheercentrum. Gasten kunnen vergaderingen bijwonen, documenten en chats bekijken in teams met wie u bent uitgenodigd.
+Wanneer een gebruiker in de lijst **gastgebruikers** is vermeld, kunt u deze openen.
 
-Als u gastgebruikers wilt weergeven, vouwt u in het Microsoft 365-Beheercentrum, in het linkernavigatievenster, **gebruikers**uit en kiest u **gastgebruikers**.
+Als u gastgebruikers wilt weergeven, vouwt u in het Microsoft 365-Beheercentrum, in het linkernavigatievenster, **gebruikers** uit en kiest u **gastgebruikers**.
 
-## <a name="add-guest-users-to-teams"></a>Gastgebruikers toevoegen aan teams
+## <a name="add-guests-to-teams"></a>Gasten aan teams toevoegen
 
 Zie de volgende video voor meer informatie over het toevoegen van een gast aan teams: <br><br>
 
@@ -47,19 +47,17 @@ Zie de volgende video als u wilt deelnemen aan een team als gast:<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4tyys]
 
-## <a name="add-guest-users-in-azure-active-directory"></a>Gastgebruikers toevoegen in azure Active Directory
+## <a name="add-guests-in-azure-active-directory"></a>Gasten toevoegen in azure Active Directory
 
-Zie [gastgebruikers toevoegen](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)voor meer informatie over het toevoegen van gastgebruikers in azure Active Directory.
+Zie [gastgebruikers toevoegen](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)voor meer informatie over het toevoegen van gasten aan Azure Active Directory.
 
-Wanneer u een gebruiker toevoegt, kunt u ze ook aan een groep toewijzen of ze toegang geven tot een app in uw organisatie. Wanneer u een gebruiker hebt toegevoegd in de Azure AD-Portal, wordt die gebruiker ook weergegeven op de pagina gastgebruikers in het Microsoft 365-Beheercentrum.
-Nadat een gebruiker is toegevoegd aan de lijst gastgebruikers, kunt u deze [toevoegen aan groepen](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) in het microsoft 365-Beheercentrum.
+Nadat u een gebruiker hebt toegevoegd, kunt u ze ook aan een groep toewijzen of ze toegang geven tot een app in uw organisatie. Wanneer u een gebruiker hebt toegevoegd in de Azure AD-Portal, wordt die gebruiker ook weergegeven op de pagina **gastgebruikers** in het microsoft 365-Beheercentrum.
+Nadat een gebruiker is toegevoegd aan de lijst **gastgebruikers** , kunt u deze [toevoegen aan groepen](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) in het Microsoft 365-Beheercentrum.
 
-Zie [gebruikers van gebruikers bulksgewijs toevoegen](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) om meerdere gasten uit te nodigen om samen te werken met uw organisatie.
+Zie [gasten bulksgewijs toevoegen](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) om meerdere gasten uit te nodigen om samen te werken met uw organisatie.
 
 
-## <a name="remove-a-guest-user"></a>Een gastgebruiker verwijderen
-
-Een gastgebruiker verwijderen:
+## <a name="remove-a-guest"></a>Een gast verwijderen
 
 1. In het Microsoft 365-Beheercentrum, vouwt u **gebruikers** uit en kiest u **gastgebruikers**.
 1. Kies op de pagina **gastgebruikers** de gebruiker die u wilt verwijderen en kies vervolgens **een gebruiker verwijderen**. 

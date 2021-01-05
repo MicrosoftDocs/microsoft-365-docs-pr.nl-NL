@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders en eindgebruikers kunnen zien hoe u e-mailberichten (goede e-mailberichten die zijn gemarkeerd als beschadigd of niet toegestaan) in Microsoft voor analyse.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68a0921f85e5b916cd53ebe84e4ea7d35e39967e
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: fe8e3c5ed44c7578764ed0bf19408f4db16e3740
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877703"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751557"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Berichten handmatig bij Microsoft indienen voor analyse
 
@@ -48,9 +48,9 @@ Als u een bericht ontvangt dat via spam filtert dat als spam of phishing werd he
 
 1. Maak een nieuw, leeg e-mailbericht met een van de volgende geadresseerden:
 
-   - **Ongewenste e-mail** : `junk@office365.microsoft.com`
+   - **Ongewenste e-mail**: `junk@office365.microsoft.com`
 
-   - **Phishing** : `phish@office365.microsoft.com`
+   - **Phishing**: `phish@office365.microsoft.com`
 
 2. Sleep de ongewenste e-mail of het bericht naar het nieuwe bericht. Hierdoor wordt het ongewenste e-mailbericht of het bericht opgeslagen als een bijlage in het nieuwe bericht. Kopieer en plak de inhoud van het bericht niet of stuur het bericht door (we hebben het oorspronkelijke bericht nodig, zodat we de berichtkoppen kunnen controleren).
 
@@ -90,6 +90,10 @@ Als een bericht onjuist is aangemerkt als ongewenste e-mail, kunt u het bericht 
 
 > [!TIP]
 > Beheerders hebben verschillende manieren om te voorkomen dat specifieke berichten worden gefilterd door het filteren van spam. Zie voor meer informatie [lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md).
+
+## <a name="where-is-the-data-from-submissions-to-microsoft-stored"></a>Waar worden de gegevens van inzendingen bij Microsoft opgeslagen?
+
+De gegevens bevinden zich in de compliance boundary van Office 365 in North American datacenters. De gegevens worden gecontroleerd door analisten op het engineering-team om de effectiviteit van de filters te helpen verbeteren.
 
 ## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Een e-mail stroom regel maken om kopieën te ontvangen van berichten die bij Microsoft worden gerapporteerd
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings Veelgestelde vragen.
-ms.openlocfilehash: 47bb71476c3fd0b32f9be3e71b188bef6efe2498
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 35e1b71fb7d87d40aa9a3a60d2e3cf108f36c2bf
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561553"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751379"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Veelgestelde vragen over Microsoft Bookings
 
@@ -34,6 +34,10 @@ Bookings is standaard beschikbaar en actief voor Microsoft 365 Business Premium,
 ### <a name="will-my-customers-see-my-personal-or-business-calendar"></a>Zien mijn klanten mijn persoonlijke of zakelijke agenda?
 
 Uw klanten zien alleen de boekings agenda die u online publiceert voor de services, tijden en personeel die u wilt registreren.
+
+### <a name="how-do-i-change-a-bookable-attribute-under-manage-staff"></a>Hoe kan ik een bookable-kenmerk wijzigen onder personeel beheren?
+
+Wanneer personeelsleden zijn toegevoegd, ontvangen ze een e-mail om het verzoek te accepteren of te weigeren. Ze kunnen hetzelfde e-mailbericht openen en ' negeren ' selecteren om ze niet-bookable te maken. U kunt dit op dit moment niet in de app wisselen.
 
 ### <a name="how-do-end-users-access-the-bookings-app"></a>Hoe opent eindgebruikers de app Bookings?
 
@@ -306,7 +310,7 @@ Als u wilt dat de boekingen correct worden gesynchroniseerd met de agenda's van 
    > [!div class="mx-imgBorder"]
    > ![Afbeelding van Outlook in startprogramma voor apps](../media/bookings-applauncher-outlook.png)
 
-1. Selecteer agenda **delen** boven aan de pagina \> **Calendar**.
+1. Selecteer agenda **delen** boven aan de pagina \> .
 
    ![Afbeelding van het menu agenda delen](../media/bookings-share-calendar.png)
 
@@ -354,7 +358,7 @@ Neem contact op met de ondersteuning als na een langere periode deze fout wordt 
 
   - [Aan de slag met Microsoft Bookings](get-access.md)
 
-  - [Microsoft bookings in-of uitschakelen](turn-bookings-on-or-off.md)
+  - [Microsoft Bookings in- of uitschakelen](turn-bookings-on-or-off.md)
 
   - [Gebruikers afzonderlijk of bulksgewijs toevoegen](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide.)
 
@@ -366,7 +370,7 @@ Neem contact op met de ondersteuning als na een langere periode deze fout wordt 
 
   - [Nalevingsbeleid voor bookings](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365?view=o365-worldwide#bookings)
 
-  - [Uw reserverings pagina aanpassen en publiceren](customize-booking-page.md)
+  - [Uw reserveringspagina aanpassen en publiceren](customize-booking-page.md)
 
   - [Configuratie van Tenant Postvak](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
 

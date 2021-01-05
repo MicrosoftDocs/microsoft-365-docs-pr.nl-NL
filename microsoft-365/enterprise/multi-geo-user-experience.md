@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Meer informatie over de gebruikerservaring voor SharePoint, OneDrive en Exchange in een omgeving met meerdere geografische gebruikers voor Microsoft 365.
-ms.openlocfilehash: c94fc5569a5444ca6361712f57460cf0c977b18e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 558e5a1f7ff2f6f5485a9f32d6e2b43b552b7f17
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689109"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749572"
 ---
 # <a name="user-experience-in-a-multi-geo-environment"></a>Gebruikerservaring in een omgeving met meerdere geografische omgevingen
 
@@ -44,7 +44,7 @@ Office-toepassingen zoals Word, Excel en PowerPoint detecteren automatisch de ju
 
 ## <a name="onedrive-for-business-sync-client"></a>Synchronisatie-synchronisatieclient van OneDrive voor bedrijven
 
-Met de Synchronisatieclient van OneDrive voor bedrijven (versie 17.3.6943.0625 en hoger) wordt automatisch de juiste geografische OneDrive voor bedrijven-geografische locatie voor de gebruiker gedetecteerd. De ondersteuning voor synchronisatieclient bevat de mogelijkheid om op groepen gebaseerde sites te synchroniseren, ongeacht de geografische locatie. Houd er rekening mee dat de synchronisatieclient van Groove niet wordt ondersteund voor meervoudige geo. 
+Met de Synchronisatieclient van OneDrive voor bedrijven (versie 17.3.6943.0625 en hoger) wordt automatisch de juiste geografische OneDrive voor bedrijven-geografische locatie voor de gebruiker gedetecteerd. Ondersteuning voor synchronisatieclient bevat de mogelijkheid om op groepen gebaseerde sites te synchroniseren, ongeacht de geografische locatie. Houd er rekening mee dat de synchronisatieclient van Groove niet wordt ondersteund voor meervoudige geo. 
 
 ## <a name="onedrive-for-business-location"></a>Locatie van OneDrive voor bedrijven
 
@@ -94,7 +94,7 @@ De mobiele SharePoint-client is multigeo-bekend en geeft relevante inhoud en res
 
 ## <a name="sharing"></a>Delen
 
-Met de ervaring voor het kiezen van personen ziet u alle gebruikers, ongeacht hun geografische locatie. Hiermee kan een gebruiker de geografische locaties van de Tenant delen met een andere gebruiker of op een andere locatie. Inhoud van verschillende geografische locaties wordt weergegeven in de weergave **gedeeld met mij** in de OneDrive voor bedrijven van de gebruiker en kan worden geopend met de functie voor eenmalige aanmelding, ongeacht van de geografische locatie waarop de app wordt gehost.
+Met de ervaring voor het kiezen van personen ziet u alle gebruikers, ongeacht hun geografische locatie. Hiermee kan een gebruiker de geografische locaties van de Tenant delen met een andere gebruiker of op een andere locatie. Inhoud van verschillende geografische locaties wordt weergegeven in de weergave **gedeeld met mij** in de OneDrive voor bedrijven van de gebruiker en kan worden geopend met de functie voor eenmalige Sign-On, ongeacht de geografische locatie waarop de app wordt gehost.
 
 ## <a name="teams-experience"></a>Ervaring met teams
 

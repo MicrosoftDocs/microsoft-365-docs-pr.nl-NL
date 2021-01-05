@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Als u zich hebt aangemeld met geldige werk-of school accounts, kunnen gebruikers ondersteuningsservices op de Cloud krijgen met Cortana in Microsoft 365-ervaringen die voldoen aan de privacy, beveiliging en nalevingsvereisten voor Office 365.
-ms.openlocfilehash: aaef43f33bb06bf43d5e68fbc2509686fc8dd371
-ms.sourcegitcommit: 16cbac5eacadd7b30cbca1fd2435ba9098de5e1c
+ms.openlocfilehash: bd296b19d0e21abb39fe39e2a0bb92d0d84d9034
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48785536"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751333"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -37,7 +37,7 @@ Doorsturen, richten we Cortana op de productiviteit van uw bedrijf.
 
 - In overeenstemming met andere services van Office 365, voldoen Cortana Enterprise-Services op dezelfde privacy, beveiliging en compliance van het bedrijf, zoals wordt weergegeven in de [Online Services-voorwaarden](https://www.microsoft.com/licensing/product-licensing/products).
 
-- Nieuwe Microsoft 365-ervaringen, zoals de beknopte e-mail en het afspelen van mijn e-mailberichten, worden ingeschakeld voor het gebruik van Cortana Enterprise-Services en voldoen aan deze belofte. Deze functies zijn momenteel beschikbaar in de Engelstalige marketing versie (Verenigde Staten) voor gebruikers met postvakken in de Verenigde Staten, en voor medewerkers van de multicore-postvakken van de VS. Ga voor meer informatie over het zoeken naar de gebruikslocatie naar [extra eigenschapswaarden voor accounts weergeven](https://docs.microsoft.com/microsoft-365/enterprise/view-user-accounts-with-microsoft-365-powershell?view=o365-worldwide#view-additional-property-values-for-accounts).
+- Nieuwe Microsoft 365-ervaringen, zoals de beknopte e-mail en het afspelen van mijn e-mailberichten, worden ingeschakeld voor het gebruik van Cortana Enterprise-Services en voldoen aan deze belofte. Deze functies zijn momenteel wereldwijd beschikbaar (standaard multi-tenant). Ga voor meer informatie over het zoeken naar de gebruikslocatie naar [extra eigenschapswaarden voor accounts weergeven](https://docs.microsoft.com/microsoft-365/enterprise/view-user-accounts-with-microsoft-365-powershell?view=o365-worldwide#view-additional-property-values-for-accounts).
 
 - Gebruikers kunnen verbinding maken met Cortana Enterprise-Services die hier worden beschreven via Cortana in Windows 10 (versie 2004 en hoger), en clienttoepassingen, zoals Outlook voor iOS en Android, onderhevig aan licentievoorwaarden. 
 
@@ -95,11 +95,11 @@ Individuele gebruikers kunnen de Cortana-spraakondersteuning uitproberen in de m
 
 1. Open de app teams of ga naar het scherm omgeving (startscherm) van de weergave Microsoft teams.
 
-2. Ga in de app teams voor mobiel naar **instellingen** . Selecteer in de weergave Microsoft teams de avatar van de gebruiker en selecteer vervolgens instellingen. Als Cortana is ingeschakeld, zegt u &#8220;Cortana, gaat u naar instellingen. &#8221;
+2. Ga in de app teams voor mobiel naar **instellingen**. Selecteer in de weergave Microsoft teams de avatar van de gebruiker en selecteer vervolgens instellingen. Als Cortana is ingeschakeld, zegt u &#8220;Cortana, gaat u naar instellingen. &#8221;
 
-3. Selecteer **Cortana** .
+3. Selecteer **Cortana**.
 
-4. Zet de wisselknop op **aan** of **uit** , afhankelijk van de vraag of u Cortana-spraakondersteuning op het apparaat wilt.
+4. Zet de wisselknop op **aan** of **uit**, afhankelijk van de vraag of u Cortana-spraakondersteuning op het apparaat wilt.
 
 [Meer informatie over Cortana-spraakondersteuning in teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
@@ -115,9 +115,9 @@ Gebruikers kunnen zich afmelden voor het afspelen van mijn e-mailberichten door 
 
 1. Open Outlook Mobile.
 
-2. Ga naar **instellingen** .
+2. Ga naar **instellingen**.
   
-3. Selecteer **mijn e-mailberichten afspelen** .
+3. Selecteer **mijn e-mailberichten afspelen**.
 
 4. Zet de wisselknop op uit voor de accounts die u wilt uitschakelen.
 
@@ -141,7 +141,7 @@ We gaan verder met het introduceren van de productiviteit van uw organisatie om 
 
 U kunt op de volgende twee manieren te werk gaan: van Cortana in uw onderneming:
 
-**Nieuwe functies voor organisaties met Cortana Enterprise-Services** : Cortana Enterprise-Services zijn ontworpen om te voldoen aan de vereisten voor beveiliging en naleving van organisaties: 
+**Nieuwe functies voor organisaties met Cortana Enterprise-Services**: Cortana Enterprise-Services zijn ontworpen om te voldoen aan de vereisten voor beveiliging en naleving van organisaties: 
 
 1. Dit is een nieuwe service en wordt hier besproken in dit document.
 
@@ -151,7 +151,7 @@ U kunt op de volgende twee manieren te werk gaan: van Cortana in uw onderneming:
 
 4. IT-beheerders beschikken altijd over besturingselementen voor optionele, verbonden functies voor Cortana, vergelijkbaar met de optionele verbonden ervaring wanneer ze Office ProPlus-toepassingen gebruiken.  
 
-**Bestaande services voor consumenten** : de optionele verbonden services van Cortana zijn hoofdzakelijk ontwikkeld voor consumenten ervaringen en worden momenteel geleverd in Windows 10 (versie 1909 en eerder) en de Cortana-app voor IOS en Android.
+**Bestaande services voor consumenten**: de optionele verbonden services van Cortana zijn hoofdzakelijk ontwikkeld voor consumenten ervaringen en worden momenteel geleverd in Windows 10 (versie 1909 en eerder) en de Cortana-app voor IOS en Android.
 
 1. Met deze ervaring worden functies, zoals weer, nieuws en verkeer, ingeschakeld.
 
@@ -159,10 +159,10 @@ U kunt op de volgende twee manieren te werk gaan: van Cortana in uw onderneming:
 
 Cortana-toegang tot de door Microsoft gehoste gegevens van uw organisatie uitschakelen
 
-1. Selecteer in het Microsoft 365-Beheercentrum de optie **instellingen** voor  >  **organisatie** en selecteer **Cortana** .
+1. Selecteer in het Microsoft 365-Beheercentrum de optie **instellingen** voor  >  **organisatie** en selecteer **Cortana**.
 
 2. Schakel het selectievakje voor het **toestaan van Cortana in Windows 10 (versie 1909 en eerder) en de Cortana-app in Ios en Android uit om toegang te krijgen tot door Microsoft gehoste gegevens in naam van medewerkers in uw organisatie** om Cortana-verbonden functies uit te schakelen.
 
-3. Selecteer **Wijzigingen opslaan** .
+3. Selecteer **Wijzigingen opslaan**.
 
 Voor services waarvoor de [Microsoft-serviceovereenkomst](https://go.microsoft.com/fwlink/p/?LinkId=2109174) en [Microsoft-privacyverklaring](https://privacy.microsoft.com/privacystatement)gelden, is Microsoft de gegevenscontroller. Als gegevenscontroller gebruikt Microsoft gegevens om producten en services te verbeteren overeenkomstig de privacyverklaring van [Microsoft](https://privacy.microsoft.com/privacystatement).
