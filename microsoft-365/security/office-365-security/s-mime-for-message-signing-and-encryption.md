@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Beheerders kunnen e-mail uitbreidingen (Secure/Multipurpose Internet Mail Extensions) in Exchange Online leren gebruiken voor het versleutelen van e-mailberichten en deze digitaal ondertekenen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8dce3e3fa3d24e1773f51f96e19a58d8a3b2efce
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 01de52bb1d8e946ead0d8b39e34b13e34741259e
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200605"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760552"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME voor de ondertekening van berichten en versleuteling in Exchange Online
 
@@ -60,7 +60,7 @@ De stappen die u volgt om S/MIME in te stellen met elk van deze eindpunten, wijk
 > [!NOTE]
 > U kunt S/MIME-besturing niet installeren in de webversie van Outlook op een Mac-, iOS-, Android-of ander niet-Windows-apparaat. Zie [berichten versleutelen met S/MIME in de webversie van Outlook](https://support.microsoft.com/office/878c79fc-7088-4b39-966f-14512658f480)voor meer informatie.
 
-## <a name="setup-smime-with-outlook-on-the-web"></a>S/MIME instellen met de webversie van Outlook
+## <a name="set-up-smime-with-outlook-on-the-web"></a>S/MIME instellen met de webversie van Outlook
 
 Het instellen van S/MIME voor Exchange Online met de webversie van Outlook omvat de volgende belangrijke stappen:
 
@@ -84,6 +84,6 @@ S/MIME vereist een certificaat-en publicatie-infrastructuur die vaak wordt gebru
 
 ## <a name="more-information"></a>Meer informatie
 
-[De webversie van Outlook](https://docs.microsoft.com/exchange/exchange-admin-center)
+[Webversie van Outlook](https://docs.microsoft.com/exchange/exchange-admin-center)
 
 [E-mail beveiligen (2000)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc962043(v=technet.10))

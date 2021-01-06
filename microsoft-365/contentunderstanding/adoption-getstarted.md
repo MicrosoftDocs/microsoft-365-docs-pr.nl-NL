@@ -12,12 +12,12 @@ ms.collection: enabler-strategic
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 18bc5d8d0f80f7cee024f4d6358361509879bd11
-ms.sourcegitcommit: 86f75cf77a7a446a79226ca530bd7b5eb39189cb
+ms.openlocfilehash: 95e1ad15a62762c8b28203e178d4d4ae7906e38a
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49717017"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760240"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex-acceptatie: aan de slag
 
@@ -31,28 +31,30 @@ Met de nieuwe AI-Services en-functies kunt u de inhoud van de apps met behulp va
 
 |Handmatige invoer| Formulierverwerking | Documenten begrijpen |
 |:-------|:--------|:--------|
-| Gegevensinvoer en arbeidsintensief op inhoud | Digitale inhoud verwerken: Foto's, scans, bewijzen, visitekaartjes, Video's met OCR & tekst |  Inhoudstypen en metagegevens vastleggen voor contracten, cv's en andere gestructureerde documenten |
-| Activiteit   | Vooraf gebouwd, automatisch   | Aangepast, bijgestaan  |
-| Personen die het werk doen | In het bezit zijn van de experts van de materie. Inhoudstypen en metagegevens te vastleggen voor contracten, cv's, andere gestructureerde documenten. | Kmo's zijn minder gemoeid. van aankooporders, toepassingen, andere semi-gestructureerde en gestructureerde documenten |
+| Gegevensinvoer en arbeidsintensief op inhoud. | U kunt bestanden identificeren en gegevens extraheren uit gestructureerde of gedeeltelijk gestructureerde documenten, zoals formulieren of facturen. |  Identificeer en extraheer gegevens uit niet-gestructureerde documenten, zoals letters of contracten, waarbij de tekst entiteiten die u wilt extraheren, zich bevinden in zinnen of bepaalde gebieden van het document. |
+| Activiteit.   |  Aangepast, bijgestaan.  | Kant-en-klare, automatisch. |
+| Personen die het werk doen. | In het bezit zijn van de experts van de materie. | Kmo's zijn minder gemoeid. |
 
-In de volgende tabel wordt uitgelegd wat u kunt doen wanneer u SharePoint Syntex gebruikt:
+De volgende tabel bevat informatie over de beschikbaarheid en licenties voor SharePoint Syntex:
 
 | Formulierverwerking | Documenten begrijpen |
 |:-------|:-------|
-| Beschikbaar in APAC, Australië, Canada, EU, JP, Latijns Amerika, UK, VS | Beschikbaar in alle regio's |
-| Maakt gebruik van AI Builder-tegoeden-meer dan 2000 pagina's; Verbruik is 2000 facturen = 2 stuks. Automatisch automatiseren is vereist – als u meer nodig hebt, kunt u dit toevoegen. 1 gereserveerde kredieten voor 300 + aangeschafte licenties. U kunt ook apart tegoed kopen. | Modellen werken op alle Latijnse alfabetische talen. Naast Engels: Duits, Zweeds, Frans, Spaans, Italiaans en Portugees. |
-| Ingericht voor de standaardgegevens service omgeving van common data| Heeft geen beperkingen voor de capaciteit. |
+| Het verwerken van formulieren is afhankelijk van het Power platform. <br>Zie [beschikbaarheid van Power platform](https://dynamics.microsoft.com/geographic-availability/)voor informatie over wereldwijde beschikbaarheid voor Power platform en AI Builder. | Beschikbaar in alle regio's. |
+| Maakt gebruik van AI Builder-tegoeden.<br>U kunt een tegoed kopen in batches van 1M.<br>Als er 300 + SharePoint Syntex-licenties zijn aangeschaft, worden de tegoeden van 1 m inbegrepen.<br>met beantwoord van 1-en-tegoed kan de verwerking van 2000 bestands pagina's worden verwerkt. | Modellen werken op alle Latijnse alfabetische talen. Naast Engels: Duits, Zweeds, Frans, Spaans, Italiaans en Portugees. |
+| Ingericht met de standaardgegevens service omgeving van common data. | Heeft geen beperkingen voor de capaciteit. |
+
+Zie licenties voor de [AI Builder-licentie](https://docs.microsoft.com/ai-builder/administer-licensing)voor meer informatie over de krediet en eenheden van AI Builder.
 
 Er zijn twee verschillende manieren om uw inhoud te begrijpen. Het modeltype dat u gebruikt, is gebaseerd op de bestandsindeling en de use-case:
 
 | Formulierverwerking | Documenten begrijpen |
 |:-------|:-------|
-| Gemaakt op basis van documentbibliotheek | Aangemaakt in het inhouds centrum, onderdeel van SharePoint Syntex |
-| Model gemaakt met AI Builder | Model gemaakt in de eigen interface |
-| Gebruikt voor semi-gestructureerde bestandsindelingen | Wordt gebruikt voor niet-gestructureerde bestandsindelingen |
-| Instelbare Classifier | Train bare Classifier met optionele extracten |
-| Toegestaan voor één bibliotheek | Kan worden toegepast op meerdere bibliotheken |
-| Training voor PDF, JPG, PNG-indeling, totale hoeveelheid 50 MB/500 p | Training voor 5-10 PDF-, Office-of e-mail bestanden, met inbegrip van negatieve voorbeelden |
+| Gemaakt op basis van documentbibliotheek. | Aangemaakt in het inhouds centrum, onderdeel van SharePoint Syntex. |
+| Model gemaakt met AI Builder. | Model gemaakt in de eigen interface. |
+| Wordt gebruikt voor semi-gestructureerde bestandsindelingen. | Wordt gebruikt voor niet-gestructureerde bestandsindelingen. |
+| Instelbare Classifier. | Train bare Classifier met optionele extracten. |
+| Niet toegestaan voor één bibliotheek. | Kan worden toegepast op meerdere bibliotheken. |
+| Training voor PDF, JPG, PNG-indeling, totale 50 MB/500 pag. | Training voor 5-10 PDF-, Office-of e-mail bestanden, met inbegrip van negatieve voorbeelden. |
 
 SharePoint Syntex is geïntegreerd met compliance-functies van Microsoft 365, zoals:
 

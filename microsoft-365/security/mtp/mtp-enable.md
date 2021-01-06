@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fbe98b814b253551432ea35102f2bd6eeba921f8
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: b052f70c1b618adef12c4f70c2b3fe55741697d5
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602084"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760504"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender inschakelen
 
@@ -39,39 +39,46 @@ ms.locfileid: "49602084"
 Microsoft 365 Defender wordt automatisch ingeschakeld wanneer klanten in aanmerking komen met de vereiste machtigingen naar Microsoft 365 Beveiligingscentrum. In dit artikel vindt u meer informatie over diverse vereisten en hoe Microsoft 365 Defender wordt ingericht.
 
 ## <a name="check-license-eligibility-and-required-permissions"></a>Geschiktheid voor de licentie en de vereiste machtigingen controleren
+
 Met een licentie voor een Microsoft 365-beveiligings product hebt u algemene informatie over het gebruik van Microsoft 365 Defender in Microsoft 365 Beveiligingscentrum zonder extra licentiekosten. U wordt aangeraden een Microsoft 365 E5-, E5-beveiligings licentie, A5, of A5-beveiligings licentie of een geldige combinatie van licenties te verkrijgen die toegang biedt tot alle ondersteunde services.
 
 [Lees de licentievereisten](prerequisites.md#licensing-requirements)voor uitgebreide licentiegegevens.
 
 ### <a name="check-your-role"></a>Uw rol controleren
-U moet een **globale beheerder** of een **beveiligingsbeheerder** in azure Active Directory zijn om Microsoft 365 Defender in te schakelen. [Uw rollen weergeven in azure AD](https://docs.microsoft.com//azure/active-directory/users-groups-roles/directory-manage-roles-portal)
+
+U moet een **globale beheerder** of een **beveiligingsbeheerder** in azure Active Directory zijn om Microsoft 365 Defender in te schakelen. [Uw rollen weergeven in azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)
 
 ## <a name="supported-services"></a>Ondersteunde services
+
 Microsoft 365 Defender voegt gegevens samen van de verschillende ondersteunde services die u al hebt geïmplementeerd. De gegevens worden centraal verwerkt en opgeslagen om nieuwe inzichten te identificeren en mogelijk gecentraliseerde antwoord werkstromen te maken. Dit gebeurt zonder dat dit invloed heeft op bestaande installaties, instellingen of gegevens die zijn gekoppeld aan de geïntegreerde services.
 
 Om de beste beveiliging te bieden en Microsoft 365 Defender te optimaliseren, wordt u aangeraden alle toepasselijke ondersteunde services op uw netwerk te implementeren. Lees voor meer informatie [over het implementeren van ondersteunde services](deploy-supported-services.md).
 
 ## <a name="before-starting-the-service"></a>Voordat u de service start
+
 Voordat u de service inschakelt, ziet u in het micro [soft 365-beveiligings](https://security.microsoft.com)centrum de pagina met instellingen voor microsoft 365 Defender wanneer u **incidenten**, **Onderhoudscentrum** of **jacht** selecteert in het navigatiedeelvenster. Deze navigatie-items worden niet weergegeven als u niet in aanmerking komt voor het gebruik van Microsoft 365 Defender.
 
 ![Afbeelding van de pagina met instellingen voor Microsoft 365 Defender, die wordt weergegeven als Microsoft 365 Defender niet is ingeschakeld voor de ](../../media/mtp-enable/mtp-settings.png)
  *instellingen van microsoft 365 Defender in microsoft 365 Beveiligingscentrum*
 
 ## <a name="starting-the-service"></a>De service starten
+
 Als u Microsoft 365 Defender wilt inschakelen, selecteert u **Microsoft 365 Defender inschakelen** en voegt u de wijziging toe. U kunt deze optie ook openen door **instellingen** ([Security.Microsoft.com/Settings](https://security.microsoft.com/settings)) te selecteren in het navigatiedeelvenster en vervolgens **Microsoft 365 Defender** te selecteren.
 
->[!NOTE]
->Als u **instellingen** niet ziet in het navigatiedeelvenster of de pagina niet kunt openen, controleert u de machtigingen en licenties.
+> [!NOTE]
+> Als u **instellingen** niet ziet in het navigatiedeelvenster of de pagina niet kunt openen, controleert u de machtigingen en licenties.
 
 ### <a name="data-center-location"></a>Locatie van het Data Center
-In Microsoft 365 Defender worden gegevens opgeslagen en verwerkt op [dezelfde locatie die wordt gebruikt door Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy). Als u Microsoft Defender voor eindpunten niet hebt, wordt een nieuwe locatie voor het datacenter automatisch geselecteerd op basis van de locatie van de actieve Microsoft 365-beveiligingsservices. De geselecteerde locatie van het datacenter wordt in het scherm weergegeven. 
 
-Selecteer **hulp nodig?** in het microsoft 365-Beveiligingscentrum kunt u contact opnemen met Microsoft ondersteuning voor het inrichten van microsoft 365 Defender op een andere locatie van het datacenter. 
+In Microsoft 365 Defender worden gegevens opgeslagen en verwerkt op [dezelfde locatie die wordt gebruikt door Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy). Als u Microsoft Defender voor eindpunten niet hebt, wordt een nieuwe locatie voor het datacenter automatisch geselecteerd op basis van de locatie van de actieve Microsoft 365-beveiligingsservices. De geselecteerde locatie van het datacenter wordt in het scherm weergegeven.
 
->[!NOTE]
->Microsoft Defender voor eindpunten in de Europese Unie (EU)-datacenters worden automatisch aangerekend wanneer Azure Defender wordt ingeschakeld. Microsoft 365 Defender voorziet automatisch in hetzelfde EU-datacenter voor klanten die de einddatum van de einddatum van eindpunten op deze manier hebben ingericht. 
+Selecteer **hulp nodig?** in het microsoft 365-Beveiligingscentrum kunt u contact opnemen met Microsoft ondersteuning voor het inrichten van microsoft 365 Defender op een andere locatie van het datacenter.
+
+> [!NOTE]
+> Microsoft Defender voor eindpunten in de Europese Unie (EU)-datacenters worden automatisch aangerekend wanneer Azure Defender wordt ingeschakeld. Microsoft 365 Defender voorziet automatisch in hetzelfde EU-datacenter voor klanten die de einddatum van de einddatum van eindpunten op deze manier hebben ingericht.
 
 ### <a name="confirm-that-the-service-is-on"></a>Ga na of de service is ingeschakeld
+
 Wanneer de service is ingericht, wordt het volgende toegevoegd:
 
 - [Beheer van incidenten](incidents-overview.md)
@@ -82,8 +89,8 @@ Wanneer de service is ingericht, wordt het volgende toegevoegd:
  *microsoft 365 Beveiligingscentrum met incidentenbeheer en andere microsoft 365-mogelijkheden*
 
 ### <a name="getting-microsoft-defender-for-identity-data"></a>Microsoft Defender voor identiteitsgegevens verkrijgen
-Als u Microsoft Defender wilt delen voor identiteitsgegevens met Microsoft 365 Defender, moet u ervoor zorgen dat Microsoft Cloud app Security en Microsoft Defender voor identiteits integratie is ingeschakeld. [Meer informatie over deze integratie](https://docs.microsoft.com/cloud-app-security/aatp-integration)
 
+Als u Microsoft Defender wilt delen voor identiteitsgegevens met Microsoft 365 Defender, moet u ervoor zorgen dat Microsoft Cloud app Security en Microsoft Defender voor identiteits integratie is ingeschakeld. Meer [informatie over deze integratie](https://docs.microsoft.com/cloud-app-security/mdi-integration).
 
 ## <a name="get-assistance"></a>Ondersteuning vragen
 

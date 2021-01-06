@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Dit artikel bevat informatie over het oplossen van problemen met het verzenden van e-mail naar postvakken in Microsoft 365 & best practices voor bulk mailing naar klanten met Microsoft 365.
-ms.openlocfilehash: 8b7c008f827a579e234d8a8feab008d36ecfe064
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 3504d7518073826f3979c3c837c58d4406886b41
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615406"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760480"
 ---
 # <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Problemen met e-mailberichten die worden verzonden naar Microsoft 365 oplossen
 
@@ -128,7 +128,7 @@ Net zo belangrijk als de manier waarop e-mailberichten worden verzonden, is de i
 
 - Omleidingen die in de hoofdtekst van het bericht zijn opgenomen, moeten vergelijkbaar en consistent zijn, en niet meerdere en geen variabele. Een omleiding in deze context is iets dat verwijst naar het bericht, bijvoorbeeld koppelingen en documenten. Als u veel reclame of de koppeling naar het profiel wilt bijwerken of de profielkoppelingen wilt bijwerken, moeten deze allemaal naar hetzelfde domein verwijzen. Bijvoorbeeld:
 
-  Juist:
+  Correct (alle domeinen zijn hetzelfde):
 
   `unsubscribe.bulkmailer.com`
 
@@ -136,7 +136,7 @@ Net zo belangrijk als de manier waarop e-mailberichten worden verzonden, is de i
 
   `options.bulkmailer.com`
 
-  Onjuist:
+  Onjuist (alle domeinen verschillen):
 
   `unsubscribe.bulkmailer.com`
 

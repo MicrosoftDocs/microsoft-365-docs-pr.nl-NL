@@ -9,16 +9,20 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 76a73372cc7517c3241390e58c28b0b02bffd664
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: d7fe410f114d43d4f6c983aaf23d949298635318
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527695"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760101"
 ---
 # <a name="adjust-settings-after-enrollment"></a>Instellingen aanpassen na inschrijving
 
 Nadat u de registratie hebt voltooid van Microsoft Managed Desktop, moet u bepaalde instellingen voor Microsoft intune en Azure Active Directory (Azure AD) aanpassen zodat u deze kunt beheren en beveiligen. Stel de volgende instellingen in om Azure AD-groepen uit te sluiten die beheerde bureaublad apparaten en gebruikers van Microsoft bevatten. Zie [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users)voor de stappen om groepen uit te sluiten.
+
+> [!NOTE]
+> Als u wijzigingen aanbrengt na de inschrijving op beleidsregels in Microsoft intune, Azure Active Directory of Microsoft 365, is het mogelijk dat Microsoft de beheerde bureaubladversie van Microsoft niet goed werkt. Als u problemen met door Microsoft beheerde bureaublad bewerkingen wilt voorkomen, schakelt u de selectievakjes in voor het oplossen van problemen die zijn [gevonden in het hulpprogramma voor de gereedheids beoordeling](../get-ready/readiness-assessment-fix.md) voordat u beleidsregels wijzigt.
+
 
 ## <a name="microsoft-intune-settings"></a>Microsoft intune-instellingen
 

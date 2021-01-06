@@ -27,9 +27,9 @@ ms.locfileid: "49750807"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 
-In dit artikel kijken we naar het opzetten van een team met een zeer gevoelig beschermingsniveau. Zorg ervoor dat u de stappen hebt voltooid in [Teams implementeren met basisbeveiliging](configure-teams-baseline-protection.md) voordat u de stappen in dit artikel uitvoert.
+In dit artikel kijken we naar het opzetten van een team met een zeer gevoelig beschermingsniveau. Zorg ervoor dat je de stappen hebt voltooid in [Teams implementeren met basisbeveiliging](configure-teams-baseline-protection.md) voordat je de stappen in dit artikel uitvoert.
 
-Voor deze beveiligingslaag kunt u een gevoeligheidslabel maken dat door uw hele organisatie kan worden gebruikt voor zeer gevoelige teams en bestanden. Alleen leden van uw organisatie en gasten die u hebt gespecificeerd, kunnen bestanden met dit label ontsleutelen. Als u de machtigingen verder wilt isoleren zodat alleen leden van een specifiek team bestanden kunnen ontsleutelen, raadpleegt u [Een team implementeren met beveiligingsisolatie](secure-teams-security-isolation.md).
+Voor deze beveiligingslaag kunt je een vertrouwelijkheidslabel maken dat door uw hele organisatie kan worden gebruikt voor zeer gevoelige teams en bestanden. Alleen leden van jouw organisatie en gasten die je hebt gespecificeerd, kunnen bestanden met dit label ontsleutelen. Als je de machtigingen verder wilt isoleren zodat alleen leden van een specifiek team bestanden kunnen ontsleutelen, raadpleegt je [Een team implementeren met beveiligingsisolatie](secure-teams-security-isolation.md).
 
 De zeer gevoelige laag biedt de volgende extra bescherming bovenop de basislaag:
 
@@ -63,10 +63,10 @@ Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
 2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **Een label maken**.
-4. Geef een naam op voor het label. We stellen **Gevoelig** voor, maar u kunt een andere naam kiezen als die al in gebruik is.
+4. Geef een naam op voor het label. We stellen **Gevoelig** voor, maar je kunt een andere naam kiezen als die al in gebruik is.
 5. Voeg een weergavenaam en een beschrijving toe en klik vervolgens op **Volgende**.
 6. Selecteer op de **pagina Het bereik voor dit label definiëren** de opties **Bestanden en e-mailberichten** en **Groepen en sites** en klik op **Volgende**.
-7. Selecteer op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichtenkiezen** de optie **Bestanden en e-mailberichten versleutelen** en klik vervolgens op **Volgende**.
+7. Selecteer op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichten kiezen** de optie **Bestanden en e-mailberichten versleutelen** en klik vervolgens op **Volgende**.
 8. Kies op de pagina **Versleuteling** de optie **Versleutelingsinstellingen configureren**.
 9. Klik onder **Machtigingen toewijzen aan specifieke gebruikers en groepen** op **Machtigingen toewijzen**.
 10. Klik op **Alle gebruikers en groepen in uw organisatie toevoegen**.
@@ -75,10 +75,10 @@ Een gevoeligheidslabel maken
 13. Klik op de pagina *Automatische labeling voor bestanden en e-mailberichten* op **Volgende**.
 14. Selecteer op de pagina **Beveiligingsinstellingen voor groepen en sites definiëren** de opties **Instellingen voor privacy en toegang voor externe gebruikers** en **Instellingen voor toegang tot apparaten en instellingen voor extern delen** en klik op **Volgende**.
 15. Selecteer op de pagina **Instellingen voor privacy en toegang voor externe gebruikers definiëren** onder **Privacy** de optie **Privé**.
-16. Als u gasttoegang wilt toestaan, selecteert u onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-Groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
+16. Als je gasttoegang wilt toestaan, selecteer je onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
 17. Klik op **Volgende**.
 18. Selecteer op de pagina **Instellingen voor extern delen en instellingen voor toegang tot het apparaat definiëren** de optie **Extern delen beheren via gelabelde SharePoint-sites**.
-19. Onder **Inhoud kan worden gedeeld met** kiest u **Nieuwe en bestaande gasten** als u gasttoegang wilt toestaan of **Alleen personen van de organisatie** als u dat niet wilt.
+19. Onder **Inhoud kan worden gedeeld met** kies je **Nieuwe en bestaande gasten** als je gasttoegang wilt toestaan of **Alleen personen binnen uw organisatie** als je dat niet wilt.
 20. Kies onder **Toegang tot niet-beheerde apparaten** de optie **Toegang blokkeren**.
 21. Klik op **Volgende**.
 22. Klik op de pagina **Automatische labeling voor databasekolommen** op **Volgende**.

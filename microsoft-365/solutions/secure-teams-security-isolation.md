@@ -99,34 +99,34 @@ U kunt ook [teambeleid](https://docs.microsoft.com/MicrosoftTeams/teams-policies
 
 Voor het configureren van een team voor beveiligingsisolatie wordt een gevoeligheidslabel gebruikt dat specifiek is gemaakt voor dit team. Dit label wordt op teamniveau gebruikt om het delen van gasten te controleren en de toegang vanaf onbeheerde apparaten te blokkeren. Het kan ook worden gebruikt om individuele bestanden in het team te classificeren en te versleutelen, zodat alleen teameigenaren en leden ze kunnen openen.
 
-Als u een interne partner- of stakeholdergroep heeft die versleutelde documenten wel moet kunnen bekijken, maar niet bewerken, kunt u hen met machtigingen voor alleen-lezen aan het label toevoegen. Vervolgens kunt u deze personen met lezer-machtigingen aan de SharePoint-site van het team toevoegen en hebben ze alleen-lezen toegang tot de site waar de documenten worden bewaard, maar niet tot het team zelf.
+Als u een interne partner- of stakeholdergroep heeft die versleutelde documenten wel moet kunnen bekijken, maar niet bewerken, kunt u hen met machtigingen voor alleen-lezen aan het label toevoegen. Vervolgens kun je deze personen met lezer-machtigingen aan de SharePoint-site van het team toevoegen en hebben ze alleen-lezen toegang tot de site waar de documenten worden bewaard, maar niet tot het team zelf.
 
 
 Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
 2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **een label maken**.
-4. Geef een naam op voor het label. We stellen **Gevoelig** voor, maar u kunt een andere naam kiezen als die al in gebruik is.
+4. Geef een naam op voor het label. We stellen **Gevoelig** voor, maar je kunt een andere naam kiezen als die al in gebruik is.
 5. Voeg een weergavenaam en een beschrijving toe en klik vervolgens op **Volgende**.
 6. Selecteer op de **pagina Het bereik voor dit label definiëren** de opties **Bestanden en e-mailberichten** en **Groepen en sites** en klik op **Volgende**.
-7. Selecteer op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichtenkiezen** de optie **Bestanden en e-mailberichten versleutelen** en klik vervolgens op **Volgende**.
+7. Selecteer op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichten kiezen** de optie **Bestanden en e-mailberichten versleutelen** en klik vervolgens op **Volgende**.
 8. Kies op de pagina **Versleuteling** de optie **Versleutelingsinstellingen configureren**.
-9. Klik op **Gebruikers of groepen toevoegen**, selecteer het team dat u hebt gemaakt en klik vervolgens op **Toevoegen.**
+9. Klik op **Gebruikers of groepen toevoegen**, selecteer het team dat je hebt gemaakt en klik vervolgens op **Toevoegen.**
 10. Klik op **Machtigingen kiezen**.
 11. Kies **co-auteurs** in de vervolgkeuzelijst en klik vervolgens op **opslaan**.
 12. Als u gebruikers of groepen wilt opnemen met alleen-lezen toegang tot bestanden met het label:
     1. Klik op **Machtigingen toewijzen**.
-    1. Klik op **Gebruikers of groepen toevoegen**, selecteer het team dat u hebt gemaakt en klik vervolgens op **Toevoegen**.
+    1. Klik op **Gebruikers of groepen toevoegen**, selecteer de gebruikers of groepen die je hebt gemaakt en klik vervolgens op **Toevoegen**.
     1. Klik op **Machtigingen kiezen**.
     1. Kies **Viewer** in de vervolgkeuzelijst en klik vervolgens op **Opslaan**.
 13.  Klik op **Opslaan** en klik vervolgens op **Volgende**.
 14. Klik op de pagina *Automatische labeling voor bestanden en e-mailberichten* op **Volgende**.
 15. Selecteer op de pagina **Beveiligingsinstellingen voor groepen en sites definiëren** de opties **Instellingen voor privacy en toegang voor externe gebruikers** en **Instellingen voor toegang tot apparaten en instellingen voor extern delen** en klik op **Volgende**.
 16. Selecteer op de pagina **Instellingen voor privacy en toegang voor externe gebruikers definiëren** onder **Privacy** de optie **Privé**.
-17. Als u gasttoegang wilt toestaan, selecteert u onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-Groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
+17. Als je gasttoegang wilt toestaan, selecteer je onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
 18. Klik op **Volgende**.
 19. Selecteer op de pagina **Instellingen voor extern delen en instellingen voor toegang tot het apparaat definiëren** de optie **Extern delen beheren via gelabelde SharePoint-sites**.
-20. Onder **Inhoud kan worden gedeeld met** kiest u **Nieuwe en bestaande gasten** als u gasttoegang wilt toestaan of **Alleen personen van de organisatie** als u dat niet wilt.
+20. Onder **Inhoud kan worden gedeeld met** kies je **Nieuwe en bestaande gasten** als je gasttoegang wilt toestaan of **Alleen personen binnen uw organisatie** als je dat niet wilt.
 21. Kies onder **Toegang tot niet-beheerde apparaten** de optie **Toegang blokkeren**.
 22. Klik op **Volgende**.
 23. Klik op de pagina **Automatische labeling voor databasekolommen** op **Volgende**.

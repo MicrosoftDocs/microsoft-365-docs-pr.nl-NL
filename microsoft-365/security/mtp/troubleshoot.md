@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 16cb1116f400c8d0a83ccc4cac23da06cd1be2a4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b7b6ea55d084c114b79dfee0e061b09c8ede8632
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844666"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760456"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Problemen met Microsoft 365 Defender-service oplossen
 
@@ -36,18 +36,18 @@ ms.locfileid: "48844666"
 
 In deze sectie worden problemen beschreven die kunnen optreden wanneer u de Microsoft 365 Defender-service gebruikt.
 
-
 ## <a name="i-dont-see-microsoft-365-defender-content"></a>Ik zie de inhoud van Microsoft 365 Defender niet
-Als u de mogelijkheden van het navigatiedeelvenster, zoals het geval, het Onderhoudscentrum of de jacht niet ziet in de portal, moet u controleren of de Tenant de juiste licenties heeft. 
+
+Als u de mogelijkheden van het navigatiedeelvenster, zoals het geval, het Onderhoudscentrum of de jacht niet ziet in de portal, moet u controleren of de Tenant de juiste licenties heeft.
 
 Zie [vereisten](prerequisites.md)voor meer informatie.
 
 ## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Microsoft Defender voor identiteits waarschuwingen worden niet weergegeven in de Microsoft 365 Defender-incidenten
-Als Microsoft Defender voor de identiteit is geïmplementeerd in uw omgeving, maar als u in de Microsoft 365-versie van Microsoft 2010 niet werkt met de identiteits waarschuwingen, moet u ervoor zorgen dat de beveiligings-app voor Microsoft Cloud app en Defender voor identiteits integratie is ingeschakeld. 
 
-Zie [Microsoft Defender for Identity Integration](https://docs.microsoft.com/cloud-app-security/aatp-integration)voor meer informatie.
+Als Microsoft Defender voor de identiteit is geïmplementeerd in uw omgeving, maar als u in de Microsoft 365-versie van Microsoft 2010 niet werkt met de identiteits waarschuwingen, moet u ervoor zorgen dat de beveiligings-app voor Microsoft Cloud app en Defender voor identiteits integratie is ingeschakeld.
+
+Zie [Microsoft Defender for Identity Integration](https://docs.microsoft.com/cloud-app-security/mdi-integration)voor meer informatie.
 
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de pagina instellingen voor het inschakelen van de service?
-Als u Microsoft 365 Defender wilt inschakelen, opent u de **instellingen** van het navigatiedeelvenster in het microsoft 365 Beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u beschikt over de [vereiste machtigingen en licenties](mtp-enable.md#check-license-eligibility-and-required-permissions).
- 
 
+Als u Microsoft 365 Defender wilt inschakelen, opent u de **instellingen** van het navigatiedeelvenster in het microsoft 365 Beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u beschikt over de [vereiste machtigingen en licenties](mtp-enable.md#check-license-eligibility-and-required-permissions).

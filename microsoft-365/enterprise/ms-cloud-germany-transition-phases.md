@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: algemene informatie over de migratie fasen en effecten van overstappen van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 4a54fed8a109c3d03b735a5db3cb48060f5c438f
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.openlocfilehash: 940ad0799aca7ead20d226cfcf3cc4b7b21c6cdb
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719390"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760196"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>Acties voor migratie fasen en effecten voor de migratie van Microsoft Cloud Deutschland (algemeen)
 
@@ -77,6 +77,10 @@ Aanvullende overwegingen:
 - Als in uw organisatie nog steeds SharePoint 2010-werkstromen worden gebruikt, werken ze niet meer na 31 december 2021. SharePoint 2013-werkstromen blijven ondersteund, alhoewel dit standaard is uitgeschakeld voor nieuwe tenants vanaf 1 november 2020. Na de migratie naar de SharePoint Online-service is het raadzaam om over te stappen op geautomatiseerde of andere ondersteunde oplossingen.
 
 - Na voltooiing van de OneDrive-migratie naar de Duitse regio, worden gegevens indexen opnieuw opgebouwd. Functies die afhankelijk zijn van zoekindexen, kunnen worden beïnvloed wanneer opnieuw indexeren wordt uitgevoerd.
+
+- Klanten van Microsoft Cloud Deutschland wiens SharePoint Online-exemplaar nog niet is gemigreerd, hoeven niet te worden gemigreerd naar SharePoint Online PowerShell-module/Microsoft. SharePoint Online. CSOM versie 16.0.20616.12000 of lager. Anders kunnen verbindingen met SharePoint Online via PowerShell of het object model aan de clientzijde niet worden uitgevoerd.
+
+- Klanten van Microsoft Cloud Deutschland wiens SharePoint Online-exemplaar is gemigreerd, moeten SharePoint Online PowerShell-module/Microsoft. SharePoint Online. CSOM bijwerken naar versie 16.0.20717.12000 of hoger. Anders kunnen verbindingen met SharePoint Online via PowerShell of het object model aan de clientzijde niet worden uitgevoerd.
 
 
 ## <a name="skype-for-business-online"></a>Skype voor Bedrijven Online

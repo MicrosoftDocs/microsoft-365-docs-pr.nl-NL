@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie vinden over de toepassings volgorde van beveiligingsregels in Exchange Online Protection (EOP) en de manier waarop de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
-ms.openlocfilehash: c6a89e35f1cce0532f206b5ac5dbfd4a1aedda9d
-ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
+ms.openlocfilehash: a18234344e1100f3b6a03c10e970c8195e53e7df
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349266"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760564"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mail beveiliging
 
@@ -66,7 +66,7 @@ Kijk bijvoorbeeld naar het volgende anti-phishings beleid in Microsoft Defender 
   |Beleid B|3|Uit|Aan|
   |
 
-1. Het bericht is gemarkeerd en wordt behandeld als spoof omdat het gebruik van spoofing een hogere prioriteit heeft dan de gebruikers imitatie (8).
+1. Het bericht is gemarkeerd en wordt behandeld als spoof omdat het gebruik van spoofing een hogere prioriteit heeft dan de gebruikers imitatie (5).
 2. Beleid A wordt toegepast op de gebruikers omdat dit een hogere prioriteit heeft dan de beleidsregels B.
 3. Afhankelijk van de instellingen in beleid A, wordt er geen actie ondernomen voor het bericht, omdat anti-spoofing voor het beleid is uitgeschakeld.
 4. Beleidsverwerking stopt, zodat de beleidsregels nooit op de gebruikers worden toegepast.

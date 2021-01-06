@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie vinden over spoof Intelligence in Exchange Online Protection (EOP), waar u specifieke afzenders kunt toestaan of blokkeren.
-ms.openlocfilehash: bc8ae2664acf96ea6cd4c20c2f9195db9b75b3da
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 603aeb35241f9808561593afa69b3b9ce7193fb0
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602119"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760528"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Spoof informatie configureren in EOP
 
@@ -65,7 +65,7 @@ U kunt spoof Intelligence beheren in het beveiligings & nalevings centrum of in 
 
   **Opmerkingen**:
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Voor de aanbevolen instellingen voor spoof Intelligence raadpleegt u [EOP standaard anti phishingfilter-beleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
@@ -182,7 +182,7 @@ U kunt instellingen voor spoof Intelligence configureren in het standaard anti-p
 
 Voer een van de volgende stappen uit om te controleren of u de gebruikers van de spoof-informatie hebt geconfigureerd met afzenders die zijn toegestaan en die niet zijn toegestaan voor spoofing en dat u de instellingen voor de spoof Intelligence hebt geconfigureerd:
 
-- Ga in het beveiligings & compliance naar het **beleid voor** het oplossen van beveiligingsfuncties het \> **Policy** \> beleid voor het beleid voor spoofing **-** ondersteuning en selecteer de optie Ik wil \> **Spoof intelligence policy** \> **al gecontroleerde afzenders** \> **Your Domains** **External Domains** **Allowed to spoof?**
+- Ga in het beveiligings & compliance naar het **beleid voor** het oplossen van beveiligingsfuncties het \>  \> beleid voor het beleid voor spoofing **-** ondersteuning en selecteer de optie Ik wil \>  \> **al gecontroleerde afzenders** \>   
 
 - Voer in PowerShell de volgende opdrachten uit om de afzenders weer te geven die zijn toegestaan en die niet zijn toegestaan voor spoofing:
 
@@ -199,7 +199,7 @@ Voer een van de volgende stappen uit om te controleren of u de gebruikers van de
    Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
    ```
 
-- Ga op een van de volgende **manieren te werk** in het beveiligings & nalevings centrum \> **Policy** \> : **anti phishing** of **ATP anti phishing** en voer een van de volgende stappen uit:  
+- Ga op een van de volgende **manieren te werk** in het beveiligings & nalevings centrum \>  \> : **anti phishing** of **ATP anti phishing** en voer een van de volgende stappen uit:  
 
   - Selecteer een beleid in de lijst. Controleer in het vervolgmenu dat wordt weergegeven, de waarden in de sectie **spoof** .
   - Klik op **standaardbeleid**. Controleer in het vervolgmenu dat wordt weergegeven, de waarden in de sectie **spoof** .
@@ -207,7 +207,7 @@ Voer een van de volgende stappen uit om te controleren of u de gebruikers van de
 - Vervang in Exchange Online PowerShell de \<Name\> optie door Office365 AntiPhish standaard of de naam van een aangepast beleid, en voer de volgende opdracht uit om de instellingen te controleren:
 
   ```PowerShell
-  Get-AntiPhishPolicy -Identity "<Name>" | Format-List EnableAntiSpoofEnforcement,EnableUnauthenticatedSender,AuthenticationFailAction
+  Get-AntiPhishPolicy -Identity "<Name>" | Format-List EnableSpoofIntelligence,EnableUnauthenticatedSender,AuthenticationFailAction
   ```
 
 ## <a name="other-ways-to-manage-spoofing-and-phishing"></a>Andere manieren om spoofing en phishing te beheren

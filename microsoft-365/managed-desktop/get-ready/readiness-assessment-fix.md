@@ -1,5 +1,5 @@
 ---
-title: Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
+title: Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 description: Gedetailleerde stappen voor elk probleem dat met het hulpprogramma wordt gevonden
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -9,14 +9,14 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f23209568fcfc2db4a22dbb034890c5a25e21bf7
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 3c3c0d21ca93c0d93d17cefbc6ce630d00a16d09
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527731"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760122"
 ---
-# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Problemen gevonden met het hulpprogramma voor gereedheids beoordeling
+# <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
 Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten weergegeven:
 
@@ -27,6 +27,9 @@ Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten 
 |Adviser    | Voer de stappen in het hulpprogramma of dit artikel uit voor de beste ervaring met inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
 |Niet gereed | *De registratie mislukt als u deze problemen niet oplost.* Voer de stappen in het hulpprogramma of dit artikel uit om ze op te lossen.        |
 |Error | De rol van Azure Active Director (AD) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
+
+> [!NOTE]
+> De resultaten van dit hulpmiddel worden weergegeven op de status van uw instellingen op een bepaald moment dat u de bewerking hebt uitgevoerd. Als u later wijzigingen aanbrengt in een beleid in Microsoft intune, Azure Active Directory of Microsoft 365, kunnen items die ' klaar ' zijn, ' niet gereed ' worden gewijzigd. Als u problemen met Microsoft beheerde bureaublad bewerkingen wilt voorkomen, controleert u de specifieke instellingen die in dit artikel worden beschreven voordat u beleidsregels wijzigt.
 
 ## <a name="microsoft-intune-settings"></a>Microsoft intune-instellingen
 
