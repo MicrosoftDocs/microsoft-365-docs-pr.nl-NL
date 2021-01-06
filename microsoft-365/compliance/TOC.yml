@@ -122,13 +122,13 @@
           href: what-the-dlp-functions-look-for.md
     - name: Trainbare classificaties
       items:
-        - name: Meer informatie over trainbare classificaties (preview)
+        - name: Meer informatie over trainbare classificaties
           href: classifier-learn-about.md
-        - name: Aan de slag met trainbare classificaties (preview)
+        - name: Aan de slag met trainbare classificaties
           href: classifier-get-started-with.md
-        - name: Een classificatie opnieuw trainen voor communicatiecompliance (preview)
+        - name: Een classificatie opnieuw trainen voor communicatiecompliance
           href: classifier-how-to-retrain-comms-compliance.md
-        - name: Een classificatie opnieuw trainen voor de inhoudsverkenner (preview)
+        - name: Een classificatie opnieuw trainen voor de inhoudsverkenner
           href: classifier-how-to-retrain-content-explorer.md
     - name: Gegevensclassificatie
       items:
@@ -629,7 +629,7 @@
             - name: Trefwoordquery's en zoekvoorwaarden
               href: keyword-queries-and-search-conditions.md
             - name: Zoekstatistieken
-              href: search-statistics.md
+              href: search-statistics-in-advanced-ediscovery.md
             - name: Zoekresultaten toevoegen aan een controleset
               href: add-data-to-review-set.md
         - name: Controlesets beheren
@@ -792,83 +792,6 @@
               href: run-reports-in-advanced-ediscovery.md
     - name: Buitengebruikstelling van verouderde eDiscovery-hulpprogramma's
       href: legacy-ediscovery-retirement.md
-- name: Gegevensonderzoeken beheren
-  items:
-    - name: Overzicht van gegevensonderzoeken
-      href: overview-data-investigations.md
-    - name: Een gegevenslekincident beheren
-      href: manage-data-spillage-incidents.md
-    - name: Machtigingen toewijzen voor gegevensonderzoeken
-      href: data-investigations-permissions.md
-    - name: Een nieuw onderzoek maken
-      href: create-new-investigation.md
-    - name: Gegevens zoeken in een onderzoek
-      href: search-for-data.md
-      items:
-        - name: Zoekacties
-          href: build-search-queries.md
-        - name: Zoekstatistieken
-          href: search-statistics.md
-    - name: Gegevens in bewijsmateriaal controleren
-      href: review-data-in-evidence.md
-      items:
-        - name: Query's uitvoeren op de gegevens
-          href: evidence-query.md
-        - name: Documenten taggen
-          href: tag-documents.md
-        - name: Documenten annoteren en redigeren
-          href: annotate-and-redact-documents.md
-        - name: Niet-Office 365-gegevens laden
-          href: load-non-office365-data.md
-        - name: Foutherstel bij het verwerken van gegevens
-          href: error-remediation.md
-        - name: Items verwijderen uit de oorspronkelijke locatie
-          href: delete-items-from-original-locations.md
-    - name: Analyse uitvoeren voor sneller onderzoek
-      href: run-analytics-to-investigate-faster.md
-      items:
-        - name: E-mailthreads
-          href: email-threading.md
-        - name: Detectie van bijna-duplicaten
-          href: near-duplicates.md
-        - name: Thema's
-          href: themes.md
-        - name: De relevantiemodule gebruiken
-          href: use-relevance-module.md
-    - name: Interessante personen beheren in een onderzoek
-      href: manage-people-of-interest.md
-      items:
-        - name: De gegevens van personen in een onderzoek indexeren
-          href: index-data-people-of-interest.md
-        - name: De controleactiviteit van personen in een onderzoek weergeven
-          href: view-people-of-interest-activity.md
-    - name: Gegevens exporteren uit een onderzoek
-      href: export-data.md
-      items:
-        - name: Documenten exporteren uit bewijsmateriaal
-          href: export-documents-from-incident.md
-        - name: Exporttaken downloaden
-          href: download-export-jobs-from-a-data-investigation.md
-    - name: Onderzoeksinstellingen configureren
-      items:
-        - name: Leden toevoegen aan of verwijderen uit een onderzoek
-          href: add-remove-members.md
-        - name: Instellingen voor zoeken en analyseren configureren
-          href: configure-search-analytics-settings.md
-        - name: Een onderzoek sluiten of verwijderen
-          href: close-or-delete-investigation.md
-    - name: Gegevensonderzoekverwijzing
-      items:
-        - name: Opmerkingen bij de release
-          href: data-investigations-release-notes.md
-        - name: Limieten in gegevensonderzoeken
-          href: limits-datainvestigations.md
-        - name: Ondersteunde bestandstypen
-          href: supported-filetypes-datainvestigations.md
-        - name: Velden voor metagegevens van documenten
-          href: document-metadata-fields.md
-        - name: Taken beheren
-          href: manage-jobs.md
 - name: Bewaringen beheren
   items:
     - name: Het type bewaring voor een postvak identificeren

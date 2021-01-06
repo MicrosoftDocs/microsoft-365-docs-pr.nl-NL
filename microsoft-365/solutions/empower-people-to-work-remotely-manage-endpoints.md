@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik Microsoft Endpoint Manager om uw apparaten, pc's en andere eindpunten te beheren.
-ms.openlocfilehash: 291c1111bbfaf9a549c0d2ac22dab450a32a6a96
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: bca3e8e79264a2218dd1036e50be1c9ab29d2b8a
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845262"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749597"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Stap 4. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
 
@@ -87,7 +87,7 @@ Voor meer informatie raadpleegt u dit [overzicht van Windows Autopilot](https://
 - [Verschillende typen apparaten inschrijven voor het beheer van mobiele apparaten](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Uw eindgebruikers informeren over Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  
-## <a name="results-of-step-3"></a>Resultaten van stap 3
+## <a name="results-of-step-4"></a>Resultaten van stap 4
 
 U gebruikt de reeks functies en mogelijkheden van Endpoint Manager om mobiele apparaten, desktopcomputers, virtuele machines, embedded apparaten en servers te beheren.
 
