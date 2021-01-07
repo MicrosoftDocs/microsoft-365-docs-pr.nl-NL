@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Microsoft 365 Foundation-oplossingen
-description: Beschrijving.
+description: Lees deze Foundation Solution gidsen om inzicht te krijgen in concepten en functies en om te zorgen dat u de keuzes maakt die tot een functionerend eindresultaat leiden, van het implementeren van de implementatie tot de aanneming.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 f1.keywords: NOCSH
 ROBOTS: NOINDEX
-ms.openlocfilehash: 666ff0b9a3abb82af1eba12d5d17d025cfc9bff5
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 28e68d7fe1a814ec82aba95aae59e5ae85244fe6
+ms.sourcegitcommit: ddfb4f3e34deb733e8625e845e4dfd1fcc066ceb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613606"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49771917"
 ---
 # <a name="microsoft-365-foundation-solutions-overview"></a>Overzicht van Microsoft 365 Foundation-oplossingen
 

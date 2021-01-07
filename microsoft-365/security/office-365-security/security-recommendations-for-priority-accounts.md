@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie lezen over de verhoging van de beveiligingsinstellingen en rapporten, waarschuwingen en onderzoek voor prioriteits accounts in hun Microsoft 365-organisaties.
-ms.openlocfilehash: aee238d2fb58d2772881d8d77f98959906943290
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 9788131ea881a1cb3c36a60dfaac01ed5daf0901
+ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668153"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49769243"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Beveiligingsaanbevelingen voor prioriteits accounts in Microsoft 365
 
@@ -31,6 +31,8 @@ Wat moet u doen als u een urgent bericht ontvangt van een directeur in uw organi
 Voor hackers kunnen een reguliere phishing-aanval die een willekeurig net afneemt, de gegevens van willekeurige of onbekende gebruikers inefficiënten. Met een _spear phishing_ -of _Whaling_ -aanval kunnen ook gebruikers die op hun doelgericht zijn op de kracht van de macht of de overheid, veel meer doen. Als deze prioriteits accounts worden aangetast, kan de aanvaller toegang krijgen tot accounts met beheerders, financiële producten, producten of zelfs de fysieke toegangsmogelijkheden binnen de organisatie.
 
 Microsoft 365 en Microsoft Defender voor Office 365 bevatten veel verschillende functies waarmee u extra beveiligingslagen voor uw prioriteits accounts kunt bieden. De beschikbare functies en de manier waarop ze worden gebruikt, worden beschreven in dit artikel.
+
+![Overzicht van beveiligingsaanbevelingen in pictogram formulier](../../media/security-recommendations-for-priority-users.png)
 
 ## <a name="increase-sign-in-security-for-priority-accounts"></a>Aanmeld beveiliging voor prioriteits accounts vergroten
 
@@ -60,7 +62,7 @@ Vooraf ingestelde beveiligingsbeleidsregels vormen een gemakkelijke en centrale 
 
 Zie [Aanbevolen instellingen voor EOP en Microsoft Defender for Office 365-beveiliging](recommended-settings-for-eop-and-office365-atp.md)voor informatie over de manier waarop de strikte beleidsinstellingen afwijken van de standaardinstellingen en de standaardbeleidsinstellingen.
 
-## <a name="user-tags"></a>Gebruikers Tags
+## <a name="apply-user-tags-to-priority-accounts"></a>Gebruikers Tags toepassen op prioriteits accounts
 
 Gebruikers Tags in Microsoft Defender for Office 365 plan 2 (als onderdeel van Microsoft 365 E5 of een aanvullend abonnement) is een manier om bepaalde gebruikers of groepen gebruikers snel op te sporen en in te delen in rapporten en incidenten onderzoek.
 
@@ -68,7 +70,11 @@ Gebruikers Tags in Microsoft Defender for Office 365 plan 2 (als onderdeel van M
 
 U kunt ook aangepaste tags maken waarmee u uw prioriteits accounts kunt identificeren en classificeren. Zie voor meer informatie [gebruikers Tags](user-tags.md). Houd er rekening mee dat u **prioriteit accounts** (systeem Tags) in dezelfde interface kunt beheren als aangepaste gebruikers Tags.
 
-## <a name="priority-accounts-in-reports-and-investigations-in-microsoft-365"></a>Prioriteits accounts in rapporten en onderzoeken in Microsoft 365
+## <a name="monitor-priority-accounts-in-alerts-reports-and-detections"></a>De prioriteit van accounts in waarschuwingen, rapporten en detectie bijhouden
+
+Nadat u de gebruikers van uw voorrang hebt beveiligd en labels hebt, kunt u de beschikbare rapporten, waarschuwingen en onderzoeken in EOP en Defender voor Office 365 gebruiken om snel incidenten of detecties met prioriteits accounts aan te geven. In de volgende tabel vindt u een beschrijving van de functies die gebruikers Tags ondersteunen.
+
+<br>
 
 ****
 

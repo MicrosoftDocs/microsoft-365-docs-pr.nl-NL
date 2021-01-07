@@ -12,12 +12,12 @@ ms.collection: enabler-strategic
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 95e1ad15a62762c8b28203e178d4d4ae7906e38a
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: 441f28e36ced25b2e5af3f71235995c8b021f779
+ms.sourcegitcommit: ddfb4f3e34deb733e8625e845e4dfd1fcc066ceb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760240"
+ms.locfileid: "49771869"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex-acceptatie: aan de slag
 
@@ -27,13 +27,16 @@ U vindt meer informatie over de intelligente inhouds Services in SharePoint Synt
 - **Inhoudsverwerking:** Automatiseren van de vastlegging, ingestie en categorisatie van inhoud en gestroomlijnd processen met behulp van energie automatisering. Meer informatie over [inhoudsverwerking](form-processing-overview.md).
 - **Inhouds naleving:** Beheer de inhoud en beheer deze om de beveiliging en governance te verbeteren met de integratie met Microsoft-gegevensbescherming.
 
-Met de nieuwe AI-Services en-functies kunt u de inhoud van de apps met behulp van SharePoint Syntex samenstellen en classificeren.
+Met de nieuwe AI-Services en-functies kunt u de inhoud van de apps met behulp van SharePoint Syntex samenstellen en classificeren. Er zijn twee verschillende manieren om uw inhoud te begrijpen. Het modeltype dat u gebruikt, is gebaseerd op de bestandsindeling en de use-case:
 
-|Handmatige invoer| Formulierverwerking | Documenten begrijpen |
-|:-------|:--------|:--------|
-| Gegevensinvoer en arbeidsintensief op inhoud. | U kunt bestanden identificeren en gegevens extraheren uit gestructureerde of gedeeltelijk gestructureerde documenten, zoals formulieren of facturen. |  Identificeer en extraheer gegevens uit niet-gestructureerde documenten, zoals letters of contracten, waarbij de tekst entiteiten die u wilt extraheren, zich bevinden in zinnen of bepaalde gebieden van het document. |
-| Activiteit.   |  Aangepast, bijgestaan.  | Kant-en-klare, automatisch. |
-| Personen die het werk doen. | In het bezit zijn van de experts van de materie. | Kmo's zijn minder gemoeid. |
+| Formulierverwerking | Documenten begrijpen |
+|:-------|:-------|
+| Gemaakt op basis van documentbibliotheek. | Aangemaakt in het inhouds centrum, onderdeel van SharePoint Syntex. |
+| Model gemaakt met AI Builder. | Model gemaakt in de eigen interface. |
+| Wordt gebruikt voor semi-gestructureerde bestandsindelingen. | Wordt gebruikt voor niet-gestructureerde bestandsindelingen. |
+| Instelbare Classifier. | Train bare Classifier met optionele extracten. |
+| Niet toegestaan voor één bibliotheek. | Kan worden toegepast op meerdere bibliotheken. |
+| Training voor PDF, JPG, PNG-indeling, totale 50 MB/500 pag. | Training voor 5-10 PDF-, Office-of e-mail bestanden, met inbegrip van negatieve voorbeelden. |
 
 De volgende tabel bevat informatie over de beschikbaarheid en licenties voor SharePoint Syntex:
 
@@ -44,17 +47,6 @@ De volgende tabel bevat informatie over de beschikbaarheid en licenties voor Sha
 | Ingericht met de standaardgegevens service omgeving van common data. | Heeft geen beperkingen voor de capaciteit. |
 
 Zie licenties voor de [AI Builder-licentie](https://docs.microsoft.com/ai-builder/administer-licensing)voor meer informatie over de krediet en eenheden van AI Builder.
-
-Er zijn twee verschillende manieren om uw inhoud te begrijpen. Het modeltype dat u gebruikt, is gebaseerd op de bestandsindeling en de use-case:
-
-| Formulierverwerking | Documenten begrijpen |
-|:-------|:-------|
-| Gemaakt op basis van documentbibliotheek. | Aangemaakt in het inhouds centrum, onderdeel van SharePoint Syntex. |
-| Model gemaakt met AI Builder. | Model gemaakt in de eigen interface. |
-| Wordt gebruikt voor semi-gestructureerde bestandsindelingen. | Wordt gebruikt voor niet-gestructureerde bestandsindelingen. |
-| Instelbare Classifier. | Train bare Classifier met optionele extracten. |
-| Niet toegestaan voor één bibliotheek. | Kan worden toegepast op meerdere bibliotheken. |
-| Training voor PDF, JPG, PNG-indeling, totale 50 MB/500 pag. | Training voor 5-10 PDF-, Office-of e-mail bestanden, met inbegrip van negatieve voorbeelden. |
 
 SharePoint Syntex is geïntegreerd met compliance-functies van Microsoft 365, zoals:
 

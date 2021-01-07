@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f63328992af95562688e644f68b8151eb09b9e0f
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9b48321693f883e40a100e29e5e1ec3c5203caa2
+ms.sourcegitcommit: ddfb4f3e34deb733e8625e845e4dfd1fcc066ceb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846146"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49771857"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -83,6 +83,9 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `SensitivityLabel` | tekenreeks | Label toegepast op een e-mailbericht, bestand of andere inhoud om deze te classificeren ter informatiebescherming |
 | `SensitivitySubLabel` | tekenreeks | Sublabel voor een e-mailbericht, bestand of andere inhoud om dit te classificeren ter informatiebescherming; sublabels voor de gevoeligheid zijn gegroepeerd onder tekstlabels, maar worden afzonderlijk verwerkt |
 | `IsAzureInfoProtectionApplied` | Boolean | Geeft aan of het bestand is versleuteld door Azure Information Protection |
+
+>[!NOTE]
+> Informatie over bestands hash wordt altijd weergegeven wanneer deze beschikbaar is. Er zijn echter verschillende mogelijke redenen waarom een SHA1, SHA256 of MD5 niet kan worden berekend. Het kan ook zijn dat het bestand zich bevindt in externe opslag, vergrendeld door een ander proces, gecomprimeerd of als virtueel is gemarkeerd. In deze scenario's wordt de informatie over de bestands hash leeg weergegeven.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

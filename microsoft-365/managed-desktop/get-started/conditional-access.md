@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d7fe410f114d43d4f6c983aaf23d949298635318
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: e78f0123c909c90ff90be913e8775cc1e5b30313
+ms.sourcegitcommit: 3bf4f1c0d3a8515cca651b2a520217195f89457f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760101"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49777097"
 ---
 # <a name="adjust-settings-after-enrollment"></a>Instellingen aanpassen na inschrijving
 
-Nadat u de registratie hebt voltooid van Microsoft Managed Desktop, moet u bepaalde instellingen voor Microsoft intune en Azure Active Directory (Azure AD) aanpassen zodat u deze kunt beheren en beveiligen. Stel de volgende instellingen in om Azure AD-groepen uit te sluiten die beheerde bureaublad apparaten en gebruikers van Microsoft bevatten. Zie [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users)voor de stappen om groepen uit te sluiten.
+Nadat u de registratie hebt voltooid van Microsoft Managed Desktop, moet u de instellingen voor Microsoft intune en Azure Active Directory (Azure AD) die in dit artikel worden beschreven, aanpassen om beheer te kunnen bieden en beveiliging te waarborgen. Stel de volgende instellingen in om specifieke Azure AD-groepen uit te sluiten die Microsoft beheerde bureaublad apparaten en-gebruikers bevatten. Zie [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users)voor de stappen om groepen uit te sluiten.
 
 > [!NOTE]
 > Als u wijzigingen aanbrengt na de inschrijving op beleidsregels in Microsoft intune, Azure Active Directory of Microsoft 365, is het mogelijk dat Microsoft de beheerde bureaubladversie van Microsoft niet goed werkt. Als u problemen met door Microsoft beheerde bureaublad bewerkingen wilt voorkomen, schakelt u de selectievakjes in voor het oplossen van problemen die zijn [gevonden in het hulpprogramma voor de gereedheids beoordeling](../get-ready/readiness-assessment-fix.md) voordat u beleidsregels wijzigt.
@@ -26,11 +26,11 @@ Nadat u de registratie hebt voltooid van Microsoft Managed Desktop, moet u bepaa
 
 ## <a name="microsoft-intune-settings"></a>Microsoft intune-instellingen
 
-- Auto Pilot-implementatie profiel: Sluit de **moderne werkplekken**  voor de groep Azure AD. Zie [Windows-apparaten in intune registreren met behulp van Windows auto pilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)voor stapsgewijze instructies.
-- Beleidsregels voor voorwaardelijke toegang: Sluit de **moderne service accounts van de moderne werk** stroom uit. Zie voor de stappen [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups).
-- Meervoudige verificatie: Zorg ervoor dat u een beleid voor voorwaardelijke toegang waarvoor meervoudige verificatie is vereist, geen **service accounts van de moderne werkruimte** moet bieden. Zie voor meer informatie [beleidsregels voor voorwaardelijke toegang](../get-ready/readiness-assessment-fix.md#conditional-access-policies) en [voorwaardelijke toegang: MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
-- Beveiligings basislijn: Sluit de **moderne werkplekken en**  de groep Azure AD uit. Zie [beveiligings basislijnen gebruiken om Windows 10-apparaten te configureren in intune](https://docs.microsoft.com/mem/intune/protect/security-baselines)voor instructies.
-- Windows 10 update-ring: Sluit de **moderne Werkplaatsings apparaten-alle**  Azure AD-groep uit. Zie [updates voor Windows 10-software beheren in intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor instructies.
+- Auto Pilot-implementatie profiel: voor auto pilot-profielen die zijn gemaakt door beheerders in uw bedrijf, sluit u de **moderne Werkplaatsings apparaten-alle** Azure AD-groep uit. Zie [Windows-apparaten in intune registreren met behulp van Windows auto pilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)voor stapsgewijze instructies. Sluit niet de **moderne Werkplaatsings apparaten-alle** Azure AD-groep uit op basis van een implementatie beleid dat is gemaakt door het Microsoft-beheer bureaublad met de naam **modern Workplace.** 
+- Beleid voor voorwaardelijke toegang: voor regels voor voorwaardelijke toegang die door beheerders in uw bedrijf zijn gemaakt, sluit u de **service accounts voor de modern Workplace service accounts** uit. Zie voor de stappen [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups). Sluit niet de **moderne Werkplaatsings apparaten-alle** Azure AD-groep uit op basis van beleidsregels die door Microsoft worden beheerd bureaublad met ' moderne werkplek ' in de naam (bijvoorbeeld **modern Workstation**).
+- Meervoudige verificatie: Zorg ervoor dat u beleidsregels voor voorwaardelijke toegang die zijn gemaakt door beheerders in uw bedrijf waarvoor meervoudige verificatie is vereist, geen **service accounts van de moderne werkplek** moeten opnemen. Zie voor meer informatie [beleidsregels voor voorwaardelijke toegang](../get-ready/readiness-assessment-fix.md#conditional-access-policies) en [voorwaardelijke toegang: MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
+- Beveiligings basis: voor beleidsregels voor beveiliging op basis van basisregels van beheerders in uw bedrijf, sluit u de **moderne werkplekken uit: alle**  Azure AD-groep. Zie [beveiligings basislijnen gebruiken om Windows 10-apparaten te configureren in intune](https://docs.microsoft.com/mem/intune/protect/security-baselines)voor instructies. Sluit niet de **moderne werkplekken** af van de beleidsregels die door Microsoft worden beheerd, met de naam modern Workplace in de naam (bijvoorbeeld de **basis beveiligings basislijn**.
+- Windows 10 update ring: voor Windows 10-update ring beleid dat is gemaakt door beheerders in uw bedrijf, sluit u de **moderne werkplekken uit: alle**  Azure AD-groep. Zie [updates voor Windows 10-software beheren in intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor instructies. Sluit niet de **moderne Werkplaatsings apparaten-alle** Azure AD-groep uit op beleidsregels die door Microsoft worden beheerd bureaublad met ' moderne werkplek ' in de naam (bijvoorbeeld het update beleid voor de **modern Workplace update** ).
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory-instellingen
