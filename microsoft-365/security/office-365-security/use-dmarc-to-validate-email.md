@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
-ms.openlocfilehash: 9dd97b1fc60f0b6198bb6c55af291c7dd103ac5d
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: bcf1c0b3dc0a1a8dd8a679af815fbdc2173cabb7
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615334"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759854"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
@@ -194,13 +194,13 @@ U kunt DMARC geleidelijk implementeren zonder gevolgen voor de rest van uw e-mai
 
 4. DMARC instellen voor subdomein
 
-DMARC wordt geïmplementeerd door beleid te publiceren als TXT-record in DNS en is hiërarchisch (beleid dat is gepubliceerd voor contoso.com is bijvoorbeeld van toepassing op sub.domain.contoso.com, tenzij voor het subdomein expliciet ander beleid is bepaald). Dit is handig, want organisaties kunnen zo een kleiner aantal DMARC-records op hoog niveau afgeven voor een bredere dekking. Het is belangrijk expliciete DMARC-records voor subdomeinen te configureren wanneer u niet wilt dat de subdomeinen de DMARC-record van het hoogste niveau overnemen.
+   DMARC wordt geïmplementeerd door beleid te publiceren als TXT-record in DNS en is hiërarchisch (beleid dat is gepubliceerd voor contoso.com is bijvoorbeeld van toepassing op sub.domain.contoso.com, tenzij voor het subdomein expliciet ander beleid is bepaald). Dit is handig, want organisaties kunnen zo een kleiner aantal DMARC-records op hoog niveau afgeven voor een bredere dekking. Het is belangrijk expliciete DMARC-records voor subdomeinen te configureren wanneer u niet wilt dat de subdomeinen de DMARC-record van het hoogste niveau overnemen.
 
-U kunt ook beleid met een jokerteken toevoegen voor DMARC wanneer subdomeinen geen e-mail mogen verzenden door de waarde `sp=reject` toe te voegen. Bijvoorbeeld:
+   U kunt ook beleid met een jokerteken toevoegen voor DMARC wanneer subdomeinen geen e-mail mogen verzenden door de waarde `sp=reject` toe te voegen. Bijvoorbeeld:
 
-```console
-_dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
-```
+   ```text
+   _dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
+   ```
 
 ## <a name="how-microsoft-365-handles-outbound-email-that-fails-dmarc"></a>Hoe Microsoft 365 omgaat met uitgaande e-mail waarvan de DMARC-controle is mislukt
 

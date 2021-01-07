@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Meer informatie over drie hulpprogramma's die u kunt gebruiken om te controleren op lekkage van persoonlijke gegevens.
-ms.openlocfilehash: a212067d75ab3d9e195e3d869e0a6ae7d1ed4d01
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 2a00d639be3b43fb56e26dca2725f2c3dac54b39
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616378"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760540"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Controleer op lekken van persoonlijke gegevens
 
@@ -36,15 +36,15 @@ Er zijn veel hulpmiddelen die kunnen worden gebruikt om het gebruik en het trans
 
 In de afbeelding:
 
-- Begin met Microsoft 365-rapporten voor preventie van gegevensverlies voor het bewaken van persoonlijke gegevens in SharePoint Online, OneDrive voor Bedrijven en e-mail in transit. Dit geeft het grootste detailniveau voor het bewaken van persoonlijke gegevens. Deze rapporten bevatten echter niet alle services in Office 365.
+- Begin met Microsoft 365-rapporten voor preventie van gegevensverlies voor het bewaken van persoonlijke gegevens in SharePoint Online, OneDrive voor Bedrijven en e-mail in transit. Deze rapporten geven het grootste detailniveau voor het bewaken van persoonlijke gegevens. Deze rapporten bevatten echter niet alle services in Office 365.
 
-- Gebruik vervolgens waarschuwingsbeleid en het controlelogboek om de activiteit in alle services te controleren. Stel doorlopende bewaking in of doorzoek het auditlogboek om een incident te onderzoeken. Het auditlogboek werkt in alle services: Sway, PowerBI, eDiscovery, Dynamics 365, Microsoft Flow, Microsoft Teams, Beheerdersactiviteit, OneDrive voor Bedrijven, SharePoint Online, mail in transit en postvakken in rust. Skype-gesprekken worden in de mailboxen in rust opgenomen.
+- Gebruik vervolgens waarschuwingsbeleid en het controlelogboek om de activiteit in alle services te controleren. Stel doorlopende bewaking in of doorzoek het auditlogboek om een incident te onderzoeken. Het auditlogboek werkt in alle services - Sway, Power BI, eDiscovery, Dynamics 365, Microsoft Flow, Microsoft Teams, Beheerdersactiviteit, OneDrive voor Bedrijven, SharePoint Online, mail in transit en postvakken in rust. Skype-gesprekken worden in de mailboxen in rust opgenomen.
 
 - Ten slotte kunt u Microsoft Cloud App Security gebruiken om bestanden met gevoelige gegevens in andere SaaS-providers te bewaken. Binnenkort is het mogelijk om gevoelige informatietypen en geïntegreerde labels te gebruiken voor Azure Information Protection en Office met Cloud app Security. U kunt beleid instellen dat van toepassing is op al uw SaaS-apps of specifieke apps (zoals Box). Cloud App Security vindt geen bestanden in Exchange Online, inclusief bestanden die zijn bijgevoegd bij e-mail.
 
 ## <a name="data-loss-prevention-reports"></a>Rapporten voor preventie van gegevensverlies
 
-Nadat u uw DLP-beleid (Data Loss Prevention) heeft gemaakt, moet u controleren of het werkt zoals u het bedoeld heeft en of het u helpt om aan de regels te blijven voldoen. Met de DLP-rapporten in Office 365 kunt u snel het aantal DLP-beleidsovereenkomsten, onderdrukkingen of foutieve positieven bekijken. Zie of ze in de loop van de tijd omhoog of omlaag gaan, filter het rapport op verschillende manieren en bekijk aanvullende details door een punt op een lijn in de grafiek te selecteren.
+Nadat u uw DLP-beleid (Data Loss Prevention) heeft gemaakt, moet u controleren of het werkt zoals u het bedoeld heeft en of het u helpt om aan de regels te blijven voldoen. Met de DLP-rapporten in Office 365 kunt u snel het aantal DLP-beleidsovereenkomsten, onderdrukkingen of foutieve positieven bekijken. Zie of ze in de loop van de tijd omhoog of omlaag gaan, filter het rapport op verschillende manieren en bekijk meer details door een punt op een lijn in de grafiek te selecteren.
 
 Met de DLP-rapporten kunt u het volgende doen:
 
@@ -74,9 +74,9 @@ Het auditlogboek bevat gebeurtenissen van Exchange Online, SharePoint Online, On
 
 Het beveiligingscentrum en het compliancecentrum bieden twee manieren om het auditlogboek te controleren en erover te rapporteren:
 
-- Waarschuwingsbeleid instellen, waarschuwingen bekijken en trends volgen. Gebruik het waarschuwingsbeleid en de dashboardinstrumenten in het beveiligingscentrum of het compliancecentrum.
+- Waarschuwingsbeleid instellen, waarschuwingen bekijken en trends volgen - Gebruik het waarschuwingsbeleid en de dashboardinstrumenten in het beveiligingscentrum of het compliancecentrum.
 
-- Direct in het auditlogboek zoeken. Zoek naar alle gebeurtenissen in een gespecificeerd datumbereik. U kunt de resultaten ook filteren op basis van specifieke criteria, zoals de gebruiker die de actie heeft uitgevoerd, de actie of het doelobject.
+- Direct in het auditlogboek zoeken: Zoek naar alle gebeurtenissen in een gespecificeerd datumbereik. U kunt de resultaten ook filteren op basis van specifieke criteria, zoals de gebruiker die de actie heeft uitgevoerd, de actie of het doelobject.
 
 Teams voor informatiebeveiliging en compliance kunnen deze hulpmiddelen gebruiken om proactief activiteiten te bekijken die worden uitgevoerd door zowel eindgebruikers als beheerders in services. Automatische waarschuwingen kunnen worden geconfigureerd om e-mailmeldingen te verzenden wanneer bepaalde activiteiten plaatsvinden op specifieke siteverzamelingen. Bijvoorbeeld wanneer inhoud wordt gedeeld van sites waarvan bekend is dat ze AVG-gerelateerde informatie bevatten. Hierdoor kunnen deze teams gebruikers opvolgen om ervoor te zorgen dat het beveiligingsbeleid van het bedrijf wordt gevolgd of om aanvullende training te geven.
 
@@ -151,7 +151,7 @@ Waarschuwen wanneer een bestand met een creditcardnummer wordt gedeeld vanuit ee
 |Categorie|DLP|
 |Filterinstellingen|Toegangsniveau = openbaar (internet), openbaar, extern <p> App = \<select apps\> (gebruik deze instelling als je de bewaking wilt beperken tot specifieke SaaS-apps)|
 |Toepassen op|Alle bestanden, alle eigenaren|
-|Inhoudsinspectie|Bevat bestanden die voldoen aan een huidige expressie: alle landen: financiën: creditcardnummer <p> Vereis geen relevante context: niet aangevinkt (dit komt zowel overeen met trefwoorden als met regex) <p> Bevat bestanden met ten minste 1 overeenkomst <p> De laatste vier tekens van de fout opsporen: ingeschakeld|
+|Inhoudsinspectie|Bevat bestanden die voldoen aan een huidige expressie: alle landen: financiën: creditcardnummer <p> Vereis geen relevante context: niet aangevinkt (deze instelling komt zowel overeen met trefwoorden als met regex) <p> Bevat bestanden met ten minste 1 overeenkomst <p> De laatste vier tekens van de fout opsporen: ingeschakeld|
 |Waarschuwingen|Een waarschuwing maken voor elk overeenkomend bestand: ingeschakeld <p> Dagelijkse waarschuwingslimiet: 1000 <p> Een waarschuwing als e-mail selecteren: ingeschakeld <p> Aan: infosec@contoso.com|
 |Beheermodel|Microsoft OneDrive voor Bedrijven <p> Privé maken: vink Externe gebruikers verwijderen aan. <p> Alle andere instellingen: uitgeschakeld <p> Microsoft SharePoint Online <p> Privé maken: vink Externe gebruikers verwijderen aan. <p> Alle andere instellingen: uitgeschakeld|
 |
@@ -186,5 +186,5 @@ Opmerkingen:
 
 Vergelijkbare beleidsregels:
 
-- Detecteer grote downloads van klantgegevens of HR-gegevens. Waarschuw wanneer een groot aantal bestanden met klantgegevens of HR-gegevens in een korte periode wordt gedownload door een enkele gebruiker.
-- Detecteer het delen van klant- en HR-gegevens. Waarschuw wanneer bestanden met klant- of HR-gegevens worden gedeeld.
+- Detecteer grote downloads van klantgegevens of HR-gegevens - Waarschuw wanneer een groot aantal bestanden met klantgegevens of HR-gegevens in een korte periode wordt gedownload door een enkele gebruiker.
+- Detecteer het delen van klant- en HR-gegevens - Waarschuw wanneer bestanden met klant- of HR-gegevens worden gedeeld.

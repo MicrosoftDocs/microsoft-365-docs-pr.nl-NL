@@ -1,27 +1,27 @@
-- name: Training voor Microsoft 365 voor professionals en kleine bedrijven
+- name: Microsoft 365-training voor kleine bedrijven
   href: index.yml
   items:
     - name: Aan de slag
       items:
-        - name: Wat is Microsoft 365
+        - name: Wat is Microsoft 365?
           href: what-is-microsoft-365.md
         - name: Overzicht van instelling
           href: setup-overview.md
-        - name: Een abonnement kiezen
+        - name: Kies een abonnement
           href: Choose-subscription.md
-    - name: Cloud instelling
+    - name: Cloud-instelling
       items:
-        - name: Registreren voor een abonnement
+        - name: Aanmelden voor een abonnement
           href: sign-up.md
         - name: De service instellen
           href: set-up.md
-        - name: Windows 10-Pc's beveiligen
+        - name: Windows 10-pc's beveiligen
           href: secure-win10-pcs.md
         - name: Een GoDaddy-website maken
           href: create-web-site.md
-    - name: Apparaat instellen
+    - name: Apparaatinstelling
       items:
-        - name: Een upgrade uitvoeren naar Windows 10 Pro
+        - name: Upgraden naar Windows 10 Pro
           href: upgrade.md
         - name: Pc's verbinden met Microsoft 365
           href: connect.md
@@ -35,7 +35,7 @@
           href: files-to-onedrive.md
         - name: Bedrijfsbestanden verplaatsen naar SharePoint
           href: files-to-sharepoint.md
-    - name: Mobile
+    - name: Mobiel
       items:
         - name: Werken vanaf elke locatie
           href: work-from-anywhere.md
@@ -43,17 +43,17 @@
           href: install-apps-android.md
         - name: Office-apps installeren op iOS
           href: install-apps-ios.md
-        - name: De mobiele app voor beheerders aanvragen
+        - name: De mobiele app voor beheerders downloaden
           href: admin-mobile.md
     - name: Samenwerken
       items:
-        - name: Outlook en teams gebruiken
+        - name: Outlook en Teams gebruiken
           href: collab-outlook-teams.md
-        - name: Een groeps-e-mailadres maken
+        - name: Een groepsmailadres maken
           href: group-email.md
         - name: Een gedeelde agenda maken
           href: shared-calendar.md
-        - name: Een team voor de gehele organisatie maken
+        - name: Een team voor uw hele organisatie maken
           href: org-wide-team.md
         - name: Een team met gasten maken
           href: team-with-guests.md
@@ -61,43 +61,45 @@
           href: join-team-guest.md
         - name: Chatten met werknemers en klanten
           href: start-and-pin-chats.md
-        - name: Overzicht van online vergaderingen
+        - name: Overzicht van onlinevergaderingen
           href: overview-online-meetings.md
-        - name: Een vergadering plannen met gasten
+        - name: Een vergadering met gasten plannen
           href: schedule-guest-meeting.md
         - name: Deelnemen aan een vergadering met gasten
           href: join-guest-meeting.md
-    - name: Cloud opslag
+    - name: Cloudopslag
       items:
-        - name: Overzicht van delen
+        - name: Overzicht delen
           href: overview-file-sharing.md
         - name: Waar bestanden opslaan
           href: store-files.md
-        - name: Extern bestanden veilig delen
+        - name: Bestanden veilig extern delen
           href: securely-share-files-externally.md
-        - name: Bestanden extern gemakkelijk delen
+        - name: Bestanden gemakkelijk extern delen
           href: share-files-externally.md
-    - name: Zakelijke spraak
+    - name: Business Voice
       items:
-        - name: Overzicht van zakelijke spraak
+        - name: Overzicht van Business Voice
           href: business-voice.md
-        - name: Invoegtoepassing voor zakelijke spraak kopen
+        - name: De Business Voice-invoegtoepassing kopen
           href: buy-business-voice.md
     - name: Productiviteits-apps
       items:
-        - name: Overzicht van reserveringen
+        - name: Overzicht van Bookings
           href: overview-bookings.md
-        - name: Een gebeurtenis plannen
+        - name: Een evenement plannen
           href: plan-event.md
     - name: Services beheren
       items:
         - name: Wat is een beheerder?
           href: what-is-admin.md
-        - name: Overzicht van het Beheercentrum
+        - name: Overzicht van het beheercentrum
           href: admin-center-overview.md
-        - name: 'Uw factuur weergeven, downloaden of afdrukken'
+        - name: 'Je factuur weergeven, downloaden of afdrukken'
           href: view-bill.md
-        - name: Uw betaalwijze bijwerken
+        - name: Nieuwe licenties kopen
+          href: buy-licenses.md
+        - name: Je betalingsmethode bijwerken
           href: update-payment.md
         - name: Gebruikerswachtwoorden opnieuw instellen
           href: reset-user-passwords.md
@@ -107,7 +109,7 @@
           href: add-user.md
         - name: Een gebruiker verwijderen
           href: delete-user.md
-        - name: Een andere beheerder toevoegen
+        - name: Nog een beheerder toevoegen
           href: add-admin.md
         - name: Een gebruikersnaam of e-mailadres wijzigen
           href: change-user-name-email.md
@@ -115,31 +117,31 @@
           href: change-subscription.md
         - name: Een handtekening voor het hele bedrijf maken
           href: company-wide-signature.md
-        - name: Formulier voor gebruik van actie ondernemen
+        - name: Actie ondernemen op gebruiksrapporten
           href: act-on-report.md
-        - name: Een ander domein toevoegen
+        - name: Ander domein toevoegen
           href: add-domain.md
     - name: Apparaten beheren
       items:
         - name: Windows 10 Pro-apparaten beveiligen
           href: secure-win-10-pro-devices.md
-        - name: Office-apps in iOS beveiligen
+        - name: Office-apps voor iOS beveiligen
           href: secure-office-on-ios.md
-    - name: Naleving van beveiligings &
+    - name: Beveiliging en compliance
       items:
-        - name: Overzicht van de beveiliging van Microsoft 365 Business Premium
+        - name: Overzicht van beveiliging Microsoft 365 Business Premium
           href: overview-m365-security.md
-        - name: Accounts van werknemers beveiligen met MFA
+        - name: Werknemersaccounts beveiligen met MFA
           href: turn-on-mfa.md
-        - name: Tweeledige aanmelding instellen op uw telefoon
+        - name: Tweevoudige aanmelding instellen op je telefoon
           href: set-up-mfa.md
-        - name: Detectie van detectie van malware inschakelen
+        - name: Malwaredetectie inschakelen
           href: anti-malware.md
-        - name: E-mail regels voor Ransomware maken
+        - name: E-mailregels maken om ransomware te voorkomen
           href: prevent-ransom-in-email.md
-        - name: Automatisch doorsturen van e-mail stoppen
+        - name: Automatisch doorsturen van e-mailberichten stoppen
           href: stop-email-auto-forward.md
-        - name: Anti phishing instellen
+        - name: Beleid tegen phishing instellen
           href: setup-anti-phishing.md
         - name: Veilige bijlagen beheren
           href: safe-attachments.md
@@ -151,9 +153,9 @@
           href: create-sensitivity-labels.md
     - name: Ondersteuning
       items:
-        - name: Antwoorden en Help zoeken
+        - name: Antwoorden en hulp zoeken
           href: find-help-answers.md
-        - name: Help of ondersteuning vragen
+        - name: Help of ondersteuning krijgen
           href: get-help-support.md
-        - name: Snelle instelling voor werknemers
+        - name: Snelle installatie voor werknemers
           href: employee-quick-setup.md
