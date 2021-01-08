@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 00fcc6514679868066ef88b0c9bc4a485d032528
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 6dbd7473074212c6bc257e683288040056426048
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667635"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780270"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -65,9 +65,9 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 | `PhishDetectionMethod` | tekenreeks | Methode die wordt gebruikt om het e-mailbericht als een phishing te detecteren: kwaadaardige URL-reputatie, veilige koppelings-URL-detonatie, algemeen phishing-filter, anti-spoof: intra organisatie, anti-spoof: extern domein, domein imitatie, gebruikers imitatie, merk persoon |
 | `MalwareFilterVerdict` | tekenreeks | Verdict van de filters stapel voor e-mail om te bepalen of het e-mailbericht malware bevat: malware, geen malware |
 | `MalwareDetectionMethod` | tekenreeks | Methode voor het detecteren van malware in de e-mail: antimalware-engine, reputatie van bestanden, veilige bijlagen |
-| `FinalEmailAction` | tekenreeks | Laatste actie van de e-mail op basis van filter Verdict, beleidsregels en gebruikersacties: bericht verplaatsen naar map Ongewenste e-mail, X-header toevoegen, onderwerp wijzigen, bericht omleiden, geen actie ondernomen, berichten verzenden naar Quarantine |
-| `FinalEmailActionPolicy` | tekenreeks | Actiebeleid dat heeft geduurd: spam hoge betrouwbaarheid, spam, spam bulkmail, spam phishing, anti phishing Domain disuserion, anti phishing, anti phishing Graph, anti phishing Graph, anti malafide Graph, anti malafide Graph, anti malafide Graph (ETR toe) |
-| `FinalEmailActionPolicyGuid` | tekenreeks | Unieke id voor het beleid dat de definitieve actie heeft bepaald |
+| `EmailAction` | tekenreeks | Laatste actie van de e-mail op basis van filter Verdict, beleidsregels en gebruikersacties: bericht verplaatsen naar map Ongewenste e-mail, X-header toevoegen, onderwerp wijzigen, bericht omleiden, geen actie ondernomen, berichten verzenden naar Quarantine |
+| `EmailActionPolicy` | tekenreeks | Actiebeleid dat heeft geduurd: spam hoge betrouwbaarheid, spam, spam bulkmail, spam phishing, anti phishing Domain disuserion, anti phishing, anti phishing Graph, anti phishing Graph, anti malafide Graph, anti malafide Graph, anti malafide Graph (ETR toe) |
+| `EmailActionPolicyGuid` | tekenreeks | Unieke id voor het beleid dat de definitieve actie heeft bepaald |
 | `AttachmentCount` | int | Aantal bijlagen in het e-mailbericht |
 | `UrlCount` | int | Aantal ingesloten Url's in het e-mailbericht |
 | `EmailLanguage` | tekenreeks | Gedetecteerde taal van de e-mail inhoud |

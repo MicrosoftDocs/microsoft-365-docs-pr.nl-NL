@@ -21,36 +21,37 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
-description: Meer informatie over wat u moet doen als u een niet-routeerbaar domein hebt dat is gekoppeld aan uw on-premises gebruikers voordat u synchroniseert met Microsoft 365.
-ms.openlocfilehash: f38f6143b6e26b2849c174f74c94d009ddea73cd
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+description: Meer informatie over wat u moet doen als u een niet-routeerbaar domein hebt dat is gekoppeld aan uw on-premises gebruikersaccounts voordat u ze synchroniseert met uw Microsoft 365-Tenant.
+ms.openlocfilehash: dcd941bbae159afeb0cf6ef4f5acbaf409966295
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527719"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780330"
 ---
 # <a name="prepare-a-non-routable-domain-for-directory-synchronization"></a>Het voorbereiden van een niet-routeerbaar domein voor adreslijstsynchronisatie
-Wanneer u uw on-premises adreslijst synchroniseert met Microsoft 365, hebt u een geverifieerd domein in azure Active Directory (Azure AD). Alleen de UPN (User Principal Names) die zijn gekoppeld aan het on-premises domein, worden gesynchroniseerd. Elke UPN die een niet-routeerbaar domein bevat, bijvoorbeeld. lokaal (zoals billa@contoso. lokaal), wordt wel gesynchroniseerd met een. onmicrosoft.com-domein (zoals billa@contoso.onmicrosoft.com). 
 
-Als u momenteel een. local-domein gebruikt voor uw gebruikersaccounts in Active Directory Domain Services (AD DS), wordt u aangeraden ze te wijzigen voor gebruik van een geverifieerd domein (bijvoorbeeld billa@contoso.com) om correct te kunnen synchroniseren met uw Microsoft 365-domein.
-  
-## <a name="what-if-i-only-have-a-local-on-premises-domain"></a>Wat moet ik doen als ik alleen het on-premises domein. lokaal heb?
+Wanneer u uw on-premises adreslijst synchroniseert met Microsoft 365, moet u een geverifieerd domein hebben in azure Active Directory (Azure AD). Alleen de UPN (User Principal Names) die zijn gekoppeld aan het on-premises AD DS-domein (Active Directory Domain Services) worden gesynchroniseerd. Elke UPN met een niet-routeerbaar domein (billa@contoso bijvoorbeeld '. lokaal ') wordt echter gesynchroniseerd met een. onmicrosoft.com-domein (voorbeeld: billa@contoso.onmicrosoft.com). 
 
-De naam van de meest recente tool die u kunt gebruiken voor het synchroniseren van uw Active Directory naar Azure AD heet Azure AD Connect. Zie voor meer informatie [uw on-premises Id's integreren met Azure AD](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/azure-ad).
+Als u momenteel een '. lokaal '-domein gebruikt voor uw gebruikersaccounts in AD DS, wordt u aangeraden ze te wijzigen voor gebruik van een geverifieerd domein, zoals billa@contoso.com, zodat u correct kunt synchroniseren met uw Microsoft 365-domein.
   
-Azure AD Connect synchroniseert de UPN en het wachtwoord van uw gebruikers, zodat gebruikers zich kunnen aanmelden met dezelfde referenties als ze on-premises worden gebruikt. Met Azure AD Connect worden echter alleen gebruikers gesynchroniseerd met domeinen die zijn geverifieerd door Microsoft 365. Dit betekent dat het domein ook is geverifieerd door Azure AD omdat Microsoft 365-identiteiten worden beheerd door Azure AD. Het domein moet dus een geldig Internet domein zijn (bijvoorbeeld. com,. org, .net,. us, enzovoort). Als uw interne AD DS alleen gebruikmaakt van een niet-routeerbaar domein (bijvoorbeeld. lokaal), kan dit niet overeenkomen met het geverifieerde domein dat u hebt op Microsoft 365. U kunt dit probleem oplossen door het primaire domein te wijzigen in uw on-premises AD DS, of door een of meer UPN-achtervoegsels toe te voegen.
+## <a name="what-if-i-only-have-a-local-on-premises-domain"></a>Wat moet ik doen als ik alleen het on-premises domein '. lokaal ' heb?
+
+U gebruikt Azure AD Connect voor het synchroniseren van uw AD DS met de Azure AD-Tenant van uw Microsoft 365-Tenant. Zie voor meer informatie [uw on-premises Id's integreren met Azure AD](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/azure-ad).
   
-### <a name="change-your-primary-domain"></a>**Uw primaire domein wijzigen**
+Azure AD Connect synchroniseert de UPN en het wachtwoord van uw gebruikers, zodat gebruikers zich kunnen aanmelden met dezelfde referenties als ze on-premises worden gebruikt. Met Azure AD Connect worden echter alleen gebruikers gesynchroniseerd met domeinen die zijn geverifieerd door Microsoft 365. Dit betekent dat het domein ook is geverifieerd door Azure AD omdat Microsoft 365-identiteiten worden beheerd door Azure AD. Het domein moet dus een geldig Internet domein zijn (bijvoorbeeld. com,. org, .net,. us). Als alleen een niet-routeerbaar domein (een niet-routeerbaar domein) wordt gebruikt in uw interne AD DS, kan dit niet overeenkomen met het geverifieerde domein dat u hebt voor uw Microsoft 365-Tenant. U kunt dit probleem oplossen door uw primaire domein te wijzigen in uw on-premises AD DS, of door een of meer UPN-achtervoegsels toe te voegen.
+  
+### <a name="change-your-primary-domain"></a>Uw primaire domein wijzigen
 
 Uw primaire domein wijzigen in een domein dat u hebt geverifieerd in Microsoft 365, bijvoorbeeld contoso.com. Elke gebruiker met het domein contoso. local wordt vervolgens bijgewerkt naar contoso.com. Dit is een zeer dicht proces en een eenvoudiger oplossing wordt beschreven in de volgende sectie.
   
-### <a name="add-upn-suffixes-and-update-your-users-to-them"></a>**UPN-achtervoegsels toevoegen en de gebruikers hieraan bijwerken**
+### <a name="add-upn-suffixes-and-update-your-users-to-them"></a>UPN-achtervoegsels toevoegen en de gebruikers hieraan bijwerken
 
-U kunt het probleem oplossen door het nieuwe UPN-achtervoegsel of achtervoegsels in AD DS te registreren, zodat het overeenkomt met het domein of de domeinen die u hebt geverifieerd in Microsoft 365. Nadat u het nieuwe achtervoegsel hebt geregistreerd, moet u de gebruikers-Upn's bijwerken om de naam van de gebruiker door te vervangen door de nieuwe domeinnaam, bijvoorbeeld zodat een gebruikersaccount eruit ziet zoals billa@contoso.com.
+U kunt het probleem '. lokaal ' oplossen door nieuwe UPN-achtervoegsels of achtervoegsels in AD DS te registreren, zodat deze overeenkomen met de domeinen die u hebt geverifieerd in Microsoft 365. Nadat u het nieuwe achtervoegsel hebt geregistreerd, moet u de gebruikers-Upn's bijwerken om de ". local" te vervangen door de nieuwe domeinnaam, bijvoorbeeld zodat een gebruikersaccount eruit ziet zoals billa@contoso.com.
   
 Nadat u de Upn's hebt bijgewerkt voor gebruik met het geverifieerde domein, kunt u uw on-premises AD DS synchroniseren met Microsoft 365.
   
- **Stap 1: het nieuwe UPN-achtervoegsel toevoegen**
+#### <a name="step-1-add-the-new-upn-suffix"></a>Stap 1: het nieuwe UPN-achtervoegsel toevoegen * *
   
 1. Kies op de AD DS-domeincontroller in Server beheer de optie **hulpmiddelen** voor \> **Active Directory-domeinen en vertrouwensrelaties**.
     
@@ -70,7 +71,7 @@ Nadat u de Upn's hebt bijgewerkt voor gebruik met het geverifieerde domein, kunt
   
     Kies **OK** wanneer u klaar bent met het toevoegen van achtervoegsels. 
     
- **Stap 2: het UPN-achtervoegsel voor bestaande gebruikers wijzigen**
+ #### <a name="step-2-change-the-upn-suffix-for-existing-users"></a>Stap 2: het UPN-achtervoegsel voor bestaande gebruikers wijzigen
   
 1. Kies op de AD DS-domeincontroller in Server beheer de optie **hulpprogramma's** \> **Active Directory: gebruikers en computers**.
     
@@ -87,11 +88,11 @@ Nadat u de Upn's hebt bijgewerkt voor gebruik met het geverifieerde domein, kunt
 4. Voer deze stappen voor elke gebruiker uit.
     
    
-### <a name="you-can-also-use-windows-powershell-to-change-the-upn-suffix-for-all-users"></a>**U kunt ook Windows PowerShell gebruiken om het UPN-achtervoegsel voor alle gebruikers te wijzigen**
+### <a name="use-powershell-to-change-the-upn-suffix-for-all-of-your-users"></a>PowerShell gebruiken om het UPN-achtervoegsel voor alle gebruikers te wijzigen
 
-Als u veel gebruikers hebt om bij te werken, is het eenvoudiger om Windows PowerShell te gebruiken. In het volgende voorbeeld worden de cmdlets [Get-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624312) en [set-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624313) gebruikt om alle contoso. lokaal achtervoegsels te wijzigen in contoso.com. 
+Als u veel gebruikersaccounts hebt om bij te werken, is het eenvoudiger PowerShell te gebruiken. In het volgende voorbeeld worden de cmdlets [Get-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624312) en [set-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624313) gebruikt om alle contoso. lokaal achtervoegsels te wijzigen in contoso.com in AD DS. 
 
-U kunt bijvoorbeeld de volgende Windows PowerShell-opdrachten uitvoeren om alle contoso. lokaal achtervoegsels bij te werken in contoso.com:
+U kunt bijvoorbeeld de volgende PowerShell-opdrachten uitvoeren om alle contoso. lokaal achtervoegsels bij te werken in contoso.com:
     
   ```powershell
   $LocalUsers = Get-ADUser -Filter "UserPrincipalName -like '*contoso.local'" -Properties userPrincipalName -ResultSetSize $null

@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Meer informatie over de Microsoft 365-configuratiestappen die nodig zijn voor het instellen van een team voor taak, discussie en de samenwerking van documenten met gasten in teams.
-ms.openlocfilehash: cc962e22bde70220e07f805b0a7a83c111886369
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 34b7d5d47d7fb0c9196beda70184fa6510b6cc33
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659604"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780542"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Met gasten samenwerken in een team
 
@@ -74,7 +74,7 @@ Instellingen voor gasttoegang in Teams instellen
 5. Zorg ervoor dat **Gasttoegang in Teams toestaan** is ingesteld op **Aan**.
 6. Breng de gewenste wijzigingen aan in de extra gastinstellingen en klik vervolgens op **Opslaan**.
 
-Wanneer teams gasttoegang is ingeschakeld, kunt u optioneel gasttoegang tot afzonderlijke teams en de bijbehorende SharePoint-sites met behulp van behulp van vertrouwelijkheids labels beheren. Zie voor meer informatie de beschikbare [Tekstlabels gebruiken om inhoud te beschermen in Microsoft teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Wanneer teams gasttoegang is ingeschakeld, kunt u optioneel gasttoegang tot afzonderlijke teams en de bijbehorende SharePoint-sites met behulp van behulp van vertrouwelijkheids labels beheren. Zie [Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365-groepen en SharePoint-sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) voor meer informatie.
 
 > [!NOTE]
 > Het kan tot 24 uur duren voordat de instellingen van de team gast actief raken nadat u deze hebt ingeschakeld.
@@ -188,3 +188,5 @@ Gasten uitnodigen voor een team
 [Een B2B-extranet maken met beheerde gasten](b2b-extranet.md)
 
 [Integratie van SharePoint en OneDrive met Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+
+[Opties voordelen zijn niet beschikbaar wanneer u deelt via SharePoint of OneDrive](https://docs.microsoft.com/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)

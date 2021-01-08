@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Beheerders kunnen aangepaste ladingen maken voor simulatie van aanvals vaardigheden in Microsoft Defender voor Office 365.
-ms.openlocfilehash: c42090634f6fa9500ae4c3e781b49b607ee928f5
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: c48e6001e6d51c5621d54b3d4149d90b71724fad
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667502"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780246"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor aanvalssimulatietraining
 
@@ -34,7 +34,7 @@ Geef in de volgende stap de naam uw nettolading. U kunt ook een beschrijving opg
 
 ## <a name="configure-payload"></a>Nettolading configureren
 
-Nu is het tijd om uw nettolading aan te maken. Voer de naam en het e-mailadres van de afzender en het onderwerp van de e-mail in het gedeelte **Details van afzender** in. Selecteer een phishingwebsite in de lijst met opgegeven URL'S. Deze URL wordt later ingesloten in de hoofdtekst van het bericht.
+Nu is het tijd om uw nettolading aan te maken. Voer de naam en het e-mailadres van de afzender en het onderwerp van de e-mail in het gedeelte **Details van afzender** in. Selecteer een phishingwebsite in de opgegeven lijst. Deze URL wordt later ingesloten in de hoofdtekst van het bericht.
 
 > [!TIP]
 > U kunt een interne e-mail voor de afzender van uw nettolading kiezen, zodat de nettolading wordt weergegeven als de naam van een andere werknemer van het bedrijf. Hierdoor wordt de kans groter voor de nettolading en kunnen werknemers aan het risico van interne bedreigingen zorgen.
@@ -50,7 +50,7 @@ Wanneer u klaar bent met het maken van de nettolading, klikt u op **volgende**.
 
 ## <a name="adding-indicators"></a>Indicatoren toevoegen
 
-Indicatoren stellen medewerkers in staat inzicht te krijgen in de simulatie van een aanval in toekomstige aanvallen. Als u wilt beginnen, klikt u op **indicator toevoegen**.
+Indicatoren stellen medewerkers in staat inzicht te krijgen in de aantasting van de aanval in toekomstige aanvallen. Als u wilt beginnen, klikt u op **indicator toevoegen**.
 
 Selecteer een indicator die u wilt gebruiken in de vervolgkeuzelijst. Deze lijst is bedoeld voor de meest voorkomende aanwijzingen die worden weergegeven in malafide e-mailberichten. Als dit is geselecteerd, controleert u of de positie van de indicator is ingesteld op **in de hoofdtekst van het e-mailbericht** en klikt u op **tekst selecteren**. Markeer het gedeelte van uw nettolading waarbij deze indicator wordt weergegeven en klik op **selecteren**.
 

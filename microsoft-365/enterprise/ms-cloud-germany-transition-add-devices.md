@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: aanvullende informatie over apparaten voor services wanneer u overstapt van Microsoft Cloud Duitsland (Microsoft Cloud Deutschland) naar Office 365-Services in het nieuwe Duitse datacenter-gebied.'
-ms.openlocfilehash: 1bbb4bf39db61a93844c21cd6062a70699b5d6d7
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 151fcac882dc91d96df3ece000c28d1a7abe1d1f
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688651"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780294"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende informatie over apparaten voor de migratie van Microsoft Cloud Deutschland
 
@@ -61,7 +61,7 @@ Apparaatregistratie wordt gedeactiveerd na migratie van de Tenant en kan niet wo
 Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
 ```
 
-## <a name="windows-hybrid-azure-ad-join"></a>Windows Hybrid Azure AD join
+## <a name="hybrid-azure-ad-join"></a>Hybride Azure AD-join
 
 ### <a name="windows-down-level"></a>Windows-downlevel
 
@@ -135,7 +135,7 @@ De bovenstaande opdracht hoeft slechts eenmaal te worden uitgevoerd in een behee
 Het apparaat maakt automatisch deel uit van Azure AD zonder dat de gebruiker of de beheerder van de beheerder zijn, zolang het apparaat netwerkverbinding heeft met globale Azure AD-eindpunten. 
 
 
-## <a name="windows-azure-ad-join"></a>Deelnemen aan Windows Azure AD
+## <a name="azure-ad-join"></a>Azure AD-join
 
 **Belangrijk:** De intune service-principal wordt ingeschakeld na commerce Migration, wat impliceert het activeren van Azure AD-apparaatregistratie. Als u ervoor hebt gezorgd dat u de registratie van Azure AD-apparaat voorafgaand aan de migratie hebt geblokkeerd, moet u de intune-Service-Principal uitschakelen met PowerShell om Azure AD-apparaatregistratie opnieuw te uitschakelen met de Azure AD-Portal U kunt tijdens de module Azure Active Directory PowerShell voor Graph de intune-Service-Principal uitschakelen met deze opdracht.
 
@@ -180,7 +180,7 @@ De bovenstaande opdracht hoeft slechts eenmaal te worden uitgevoerd in een behee
 De gebruiker kan deelnemen aan Azure AD via Windows-instellingen: **instellingen > Accounts > toegang tot werk of School > verbinding maken**.
  
 
-## <a name="windows-azure-ad-registered-company-owned"></a>Geregistreerde Windows Azure AD (bedrijfseigenaar)
+## <a name="azure-ad-registered-company-owned"></a>Azure AD geregistreerd (eigendom van het bedrijf)
 
 Voer de volgende opdracht uit op het apparaat om te controleren of het apparaat met Windows 10 Azure AD is geregistreerd:
 

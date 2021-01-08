@@ -3,7 +3,6 @@ title: Algemene veelgestelde vragen over het verplaatsen van gegevens
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -15,12 +14,12 @@ f1.keywords:
 - NOCSH
 description: Hier vindt u antwoorden op veelgestelde vragen over het verplaatsen van kerngegevens naar een nieuw Office 365 datacenter-geografische.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3eb3b7ec99da2cdca357f45eb4e71500a235fc61
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 49ddcbf3a1aa8d91bd8202894e114fe50624720a
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877823"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780258"
 ---
 # <a name="data-move-general-faq"></a>Algemene veelgestelde vragen over het verplaatsen van gegevens
 
@@ -28,7 +27,7 @@ Hier vindt u antwoorden op algemene vragen over het verplaatsen van kern klantge
   
 ## <a name="what-customers-are-eligible-to-request-a-move"></a>Welke klanten komen in aanmerking om een verplaatsing te aanvragen?
   
-Bestaande commerciële Microsoft 365-klanten die in aanmerking komen voor het nieuwe datacenter centrum, kunnen een verhuizing indienen.  Het programma bestaat alleen voor tenants met een in aanmerking komend landcode die is toegewezen aan de Microsoft 365-Tenant om kern klantgegevens te migreren naar het overeenkomstige Microsoft 365 datacenter.  Kijk op de pagina [hoe u uw gegevens verhuizing vraagt](request-your-data-move.md) om te bevestigen dat de landen in aanmerking komen.   
+Bestaande commerciële Microsoft 365-klanten die in aanmerking komen voor het nieuwe datacenter centrum, kunnen een verhuizing indienen. Het programma bestaat alleen voor tenants met een in aanmerking komend landcode die is toegewezen aan de Microsoft 365-Tenant om kern klantgegevens te migreren naar het overeenkomstige Microsoft 365 datacenter. Kijk op de pagina [hoe u uw gegevens verhuizing vraagt](request-your-data-move.md) om te bevestigen dat de landen in aanmerking komen.   
 
 ## <a name="how-do-we-define-core-customer-data"></a>Hoe definiëren we kerngegevens van klanten?
  
@@ -39,15 +38,15 @@ De belangrijkste klantgegevens zijn een term die verwijst naar een subset van kl
 
 ## <a name="what-is-in-scope-for-teams-migration"></a>Wat is de omvang van het migreren van teams?
 
-Naast Exchange Online, SharePoint Online en OneDrive voor bedrijven; Microsoft migreert teams-gegevens naar het lokale datacenter.  
+Naast Exchange Online, SharePoint Online en OneDrive voor bedrijven; Microsoft migreert teams-gegevens naar het lokale datacenter. 
 - Chatberichten van teams, inclusief persoonlijke berichten en kanaalberichten. 
 - Afbeeldingen van teams die in chats worden gebruikt. 
 
-Teams-bestanden worden opgeslagen in OneDrive voor bedrijven-en teams-Chat bestanden zijn opgeslagen in OneDrive voor bedrijven.  Voicemail, agenda en contactpersonen worden opgeslagen in Exchange Online.  In veel gevallen worden Exchange Online, SharePoint Online en OneDrive voor bedrijven al gebruikt door de klant in het lokale datacenter, en maakt ook deel uit van het Microsoft 365-migratieprogramma voor in aanmerking komende klant landen.
+Teams-bestanden worden opgeslagen in OneDrive voor bedrijven-en teams-Chat bestanden zijn opgeslagen in OneDrive voor bedrijven. Voicemail, agenda en contactpersonen worden opgeslagen in Exchange Online. In veel gevallen worden Exchange Online, SharePoint Online en OneDrive voor bedrijven al gebruikt door de klant in het lokale datacenter, en maakt ook deel uit van het Microsoft 365-migratieprogramma voor in aanmerking komende klant landen.
 
 ## <a name="at-what-point-is-my-migration-complete-so-that-my-tenants-core-customer-data-is-being-stored-at-rest-in-my-new-geo"></a>Op welk moment is mijn migratie voltooid, zodat de primaire klantgegevens van mijn Tenant worden opgeslagen op een plaats in de nieuwe geo?
 
-Vanwege gedeelde afhankelijkheden tussen Exchange Online en SharePoint Online/OneDrive voor bedrijven, kan alle migratie niet worden voltooid wanneer beide services worden gemigreerd.  Exchange Online en SharePoint Online/OneDrive voor bedrijven worden vaak overal van elkaar gemigreerd en apart.  Tenantbeheerders van klanten ontvangen een bevestiging in het berichtencentrum wanneer elke Service migratie is voltooid en de kaart voor gegevenslocaties op elk moment kan weergeven in het Beheercentrum om de belangrijkste klantgegevens op plaats te bevestigen voor elke service.
+Vanwege gedeelde afhankelijkheden tussen Exchange Online en SharePoint Online/OneDrive voor bedrijven, kan alle migratie niet worden voltooid wanneer beide services worden gemigreerd. Exchange Online en SharePoint Online/OneDrive voor bedrijven worden vaak overal van elkaar gemigreerd en apart. Tenantbeheerders van klanten ontvangen een bevestiging in het berichtencentrum wanneer elke Service migratie is voltooid en de kaart voor gegevenslocaties op elk moment kan weergeven in het Beheercentrum om de belangrijkste klantgegevens op plaats te bevestigen voor elke service.
 
 ## <a name="how-do-you-make-sure-my-customer-data-is-safe-during-the-move-and-that-i-wont-experience-downtime"></a>Hoe zorgt u ervoor dat de gegevens van mijn klant veilig zijn tijdens de verhuizing en dat ik geen tijd meer heb?
   
@@ -61,7 +60,7 @@ Sommige van de services van Microsoft 365 bevinden zich mogelijk in verschillend
 
  ## <a name="where-is-my-core-customer-data-located"></a>Waar bevinden zich mijn kerngegevens van klanten?
 
-Tenantbeheerders van klanten kunnen op elk gewenst moment de kaart voor gegevenslocaties weergeven in het Beheercentrum om de belangrijkste klantgegevens op plaats te bevestigen voor elke service, specifiek voor hun Tenant.  We publiceren ook de locatie van datacenter GEOS, datacenters en locatie van Office 365 CustomerData op het [Microsoft 365 Interactive datacenter ](https://office.com/datamaps) , als referentie voor de huidige standaard basisgegevens voor de primaire klant op rest locaties voor nieuwe tenants.  U kunt de locatie van uw klantgegevens op hun plaats controleren via de sectie gegevenslocatie onder uw organisatieprofiel in het Microsoft 365-Beheercentrum.  
+Tenantbeheerders van klanten kunnen op elk gewenst moment de kaart voor gegevenslocaties weergeven in het Beheercentrum om de belangrijkste klantgegevens op plaats te bevestigen voor elke service, specifiek voor hun Tenant.  We publiceren ook de locatie van datacenter GEOS, datacenters en locatie van Office 365 CustomerData op het [Microsoft 365 Interactive datacenter ](https://office.com/datamaps) , als referentie voor de huidige standaard basisgegevens voor de primaire klant op rest locaties voor nieuwe tenants. U kunt de locatie van uw klantgegevens op hun plaats controleren via de sectie gegevenslocatie onder uw organisatieprofiel in het Microsoft 365-Beheercentrum.  
  
 ## <a name="when-will-i-be-able-to-request-a-move"></a>Wanneer kan ik een verhuizing aanvragen?
   
@@ -91,9 +90,9 @@ Elke service verplaatst afzonderlijke en verplaatste de gegevens waarschijnlijk 
  
 Klanten kunnen geen specifieke datum selecteren, ze kunnen hun verhuizing niet vertragen en kunnen geen specifieke datum of periode voor de verhuizing delen.
   
- ## <a name="can-you-share-when-my-data-will-be-be-moved"></a>Kunt u delen wanneer mijn gegevens worden verplaatst?
+ ## <a name="can-you-share-when-my-data-will-be-moved"></a>Kunt u delen wanneer mijn gegevens worden verplaatst?
   
-Gegevens worden verplaatst met een back-end-bewerking met minimale gevolgen voor eindgebruikers. De complexiteit, nauwkeurigheid en schaal waarop gegevens in een wereldwijde en geautomatiseerde omgeving moeten worden verplaatst, kunnen niet delen wanneer een Data verplaatsing naar verwachting wordt voltooid voor de Tenant of een andere afzonderlijke Tenant. Klanten ontvangen één bevestiging in berichtencentrum per deelnemende dienst, wanneer het verplaatsen van gegevens is voltooid. 
+Gegevens worden verplaatst met een back-end-bewerking met minimale impact voor eindgebruikers. De complexiteit, nauwkeurigheid en schaal waarop gegevens in een wereldwijde en geautomatiseerde omgeving moeten worden verplaatst, kunnen niet delen wanneer een Data verplaatsing naar verwachting wordt voltooid voor de Tenant of een andere afzonderlijke Tenant. Klanten ontvangen één bevestiging in berichtencentrum per deelnemende dienst, wanneer het verplaatsen van gegevens is voltooid. 
   
  ## <a name="what-happens-if-users-access-services-while-the-data-is-being-moved"></a>Wat gebeurt er als gebruikers toegang krijgen tot services terwijl de gegevens worden verplaatst?
 
@@ -101,7 +100,7 @@ Bekijk [tijdens en nadat de gegevens zijn verplaatst](during-and-after-your-data
   
  ## <a name="how-do-i-know-the-move-is-complete"></a>Hoe weet ik dat de overstap is voltooid?
   
-Bekijk het berichtencentrum van Microsoft 365 om te bevestigen dat de verhuizing van de gegevens van elke service is voltooid. Wanneer de gegevens van alle services worden verplaatst, plaatsen we een melding voor de voltooiing, zodat u drie meldingen krijgt: één voor Exchange Online, SharePoint Online en Skype voor bedrijven online.  U kunt ook de locatie van uw klantgegevens op een plaats controleren via de sectie gegevenslocatie onder uw organisatieprofiel in het Microsoft 365-Beheercentrum.  
+Bekijk het berichtencentrum van Microsoft 365 om te bevestigen dat de verhuizing van de gegevens van elke service is voltooid. Wanneer de gegevens van alle services worden verplaatst, plaatsen we een melding voor de voltooiing, zodat u drie meldingen krijgt: één voor Exchange Online, SharePoint Online en Skype voor bedrijven online. U kunt ook de locatie van uw klantgegevens op een plaats controleren via de sectie gegevenslocatie onder uw organisatieprofiel in het Microsoft 365-Beheercentrum.  
   
 ## <a name="i-am-a-microsoft-365-customer-in-one-of-the-new-datacenter-geos-but-when-i-signed-up-i-selected-a-different-country-how-can-i-be-moved-to-the-new-datacenter-geo"></a>Ik ben een Microsoft 365-klant in een van de nieuwe datacenter GEOS, maar wanneer ik me heb geregistreerd, heb ik een ander land geselecteerd. Hoe kan ik naar de nieuwe datacenter-geografische verplaatsen?
 
@@ -109,7 +108,7 @@ Het is niet mogelijk om het land te wijzigen dat aan uw Tenant is gekoppeld. In 
   
 ## <a name="what-happens-if-we-are-in-process-of-email-data-migration-to-microsoft-365-during-the-exchange-online-move"></a>Wat gebeurt er als er een e-mail gegevensmigratie naar Microsoft 365 wordt uitgevoerd tijdens de verhuizing van Exchange Online?
 
-Dit is een zeer veelvoorkomend scenario en wordt volledig ondersteund.  Cloud migratie tussen datacenter GEOS veroorzaakt geen lokale migraties van Cloud postvakken.
+Dit is een zeer veelvoorkomend scenario en wordt volledig ondersteund. Cloud migratie tussen datacenter GEOS veroorzaakt geen lokale migraties van Cloud postvakken.
   
  ## <a name="can-i-pilot-some-users"></a>Kan ik sommige gebruikers prototypen?
   
@@ -123,7 +122,7 @@ Als u een nieuwe Tenant maakt nadat de nieuwe datacenter geo beschikbaar is, wor
   
 ## <a name="my-customer-data-has-already-been-moved-to-a-new-datacenter-geo-can-i-move-back"></a>Mijn klantgegevens zijn al verplaatst naar een nieuw datacenter-geo. Kan ik teruggaan?
  
-Nee, dit is niet mogelijk. Gebruikers die zijn verplaatst naar nieuwe geo-datacenters, kunnen niet meer worden teruggezet. Als klant van enige geo hebt u dezelfde kwaliteit van service, prestatie en beveiligingsfuncties zoals u eerder hebt gebruikt.  [Microsoft 365 multi geo](https://aka.ms/multi-geo) is voor sommige klanten beschikbaar als een invoegtoepassing en biedt een enkele Tenant voor het maken van meerdere Satellite GEOS en het verplaatsen van gebruikersgegevens naar die GEOS met data woonplaats toezeggingen.
+Nee, dit is niet mogelijk. Gebruikers die zijn verplaatst naar nieuwe geo-datacenters, kunnen niet meer worden teruggezet. Als klant van enige geo hebt u dezelfde kwaliteit van service, prestatie en beveiligingsfuncties zoals u eerder hebt gebruikt. [Microsoft 365 multi geo](https://aka.ms/multi-geo) is voor sommige klanten beschikbaar als een invoegtoepassing en biedt een enkele Tenant voor het maken van meerdere Satellite GEOS en het verplaatsen van gebruikersgegevens naar die GEOS met data woonplaats toezeggingen.
   
 ## <a name="will-microsoft-365-tenants-hosted-in-the-new-datacenters-be-available-to-users-outside-of-the-country"></a>Worden Microsoft 365-tenants in de nieuwe datacenters beschikbaar voor gebruikers buiten het land?
   
@@ -133,9 +132,9 @@ Ja. Microsoft houdt een groot mondiaal netwerk bij met openbare internetverbindi
 
 Ja, uw Tenant komt in aanmerking om u aan te melden, maar er zijn belangrijke aandachtspunten voor de verhuizing van tenantniveau wordt niet volledig ondersteund voor klanten die meerdere geografische niveaus hebben geconfigureerd.
 
-SharePoint Online en OneDrive voor bedrijven kunnen niet worden gemigreerd naar de nieuwe datacenter-geografische versie op tenantniveau via dit programma.  De klant beheerder kan delen van OneDrive voor bedrijven configureren om naar elk gewenst gebied te gaan met behulp van multi-geografische gebieden, maar de standaardlocatie voor de Tenant kan niet worden gewijzigd nadat meerdere geografische gebruikers voor een Tenant zijn geconfigureerd.
+SharePoint Online en OneDrive voor bedrijven kunnen niet worden gemigreerd naar de nieuwe datacenter-geografische versie op tenantniveau via dit programma. De klant beheerder kan delen van OneDrive voor bedrijven configureren om naar elk gewenst gebied te gaan met behulp van multi-geografische gebieden, maar de standaardlocatie voor de Tenant kan niet worden gewijzigd nadat meerdere geografische gebruikers voor een Tenant zijn geconfigureerd.
 
-Voor klanten die inbellen bij een migratie, verplaatsen we alle Exchange Online-postvakken van uw huidige standaard geografische geo naar uw nieuwe lokale datacenter, en werken de standaard Exchange Online regio bij.  We verplaatsen geen EXO-postvakken die zijn geconfigureerd in gebieden met een meervoudige geo-satelliet om rekening te houden met de satelliet regiogegevens woonplaats zoals u dat wilt.  
+Voor klanten die inbellen bij een migratie, verplaatsen we alle Exchange Online-postvakken van uw huidige standaard geografische geo naar uw nieuwe lokale datacenter, en werken de standaard Exchange Online regio bij. We verplaatsen geen EXO-postvakken die zijn geconfigureerd in gebieden met een meervoudige geo-satelliet om rekening te houden met de satelliet regiogegevens woonplaats zoals u dat wilt. 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

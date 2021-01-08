@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Beheerders krijgen de machtigingen die beschikbaar zijn in het beveiligings & nalevings centrum in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 27e1a9451f4a51872599f18e65c29a2ec15c539d
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: 28f3ca7fb1efa7924cc69c9ecf1deb2123282dfa
+ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769229"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49784319"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>Machtigingen in het beveiligings- en compliancecentrum
 
@@ -53,6 +53,11 @@ In de volgende tabel vindt u de standaardrol groepen die beschikbaar zijn in het
 Door machtigingen te beheren in het nalevings centrum voor de & beveiliging, kunnen gebruikers alleen toegang krijgen tot de nalevings functies die beschikbaar zijn in het beveiligings & nalevings centrum zelf. Als u machtigingen wilt verlenen aan andere compliance-functies die niet beschikbaar zijn in het nalevings centrum voor & beveiliging, zoals Exchange-e-mail stroom regels (ook wel wel transport-regels genoemd), moet u het Exchange-Beheercentrum gebruiken.
 
 Als u wilt weten hoe u toegang verleent tot de beveiligings & nalevings centrum, raadpleegt [u gebruikers toegang geven tot het Beheercentrum van Microsoft 365](grant-access-to-the-security-and-compliance-center.md).
+
+> [!NOTE]
+> Als u het tabblad **machtigingen** wilt weergeven in het beveiligings & nalevings centrum, moet u een beheerder zijn. Specifiek moet u de rol **rollenbeheer** toewijzen en moet deze rol alleen worden toegewezen aan de rol van **Organisatiebeheer** in het beveiligings & nalevings centrum. Daarnaast kunnen gebruikersrollen **beheren** , rollen groepen weergeven, maken en wijzigen.
+
+<br><br>
 
 ****
 
@@ -141,6 +146,8 @@ Houd er rekening mee dat de volgende rollen niet standaard zijn toegewezen aan d
 - Gereviseerd
 - RMS ontsleutelen
 - Toezicht beheerder van de beoordeling
+
+<br><br>
 
 ****
 

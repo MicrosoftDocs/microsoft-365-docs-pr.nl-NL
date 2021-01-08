@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het definiëren van beleidsregels voor veilige bijlagen om uw organisatie tegen kwaadwillende bestanden in een e-mail te beschermen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9105e7ed9e9bc376b3d86cd846d8c1d6eae8deea
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 8dfdcc0779fb8b8438ee7a63d2f0e180cbb12ac9
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682902"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780506"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels voor veilige bijlagen instellen in Microsoft Defender voor Office 365
 
@@ -55,15 +55,15 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **veilige bijlagen** wilt gaan, gebruikt u <https://protection.office.com/safeattachmentv2> .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **veilige bijlagen** wilt gaan, gebruikt u <https://protection.office.com/safeattachmentv2> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
-  - Als u beleidsregels voor veilige bijlagen wilt maken, wijzigen en verwijderen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
-  - Voor alleen-lezen toegang tot beveiligingsbeleid voor veilige bijlagen moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
+- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
+  - Als u beleidsregels voor veilige koppelingen wilt maken, wijzigen en verwijderen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** in het beveiligings & nalevings centrum **en** een lid van de rollen groep **Organisatiebeheer** in Exchange Online.
+  - Voor alleen-lezen toegang tot beleidsregels voor veilige koppelingen moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** in het beveiligings & nalevings centrum.
 
-  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+  Zie [machtigingen in de beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md) en [machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)voor meer informatie.
 
   **Opmerkingen**:
 

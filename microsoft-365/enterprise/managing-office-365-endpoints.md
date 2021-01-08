@@ -3,7 +3,6 @@ title: Office 365-eindpunten beheren
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 1/24/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -19,28 +18,28 @@ ms.custom:
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
 description: Meer informatie over het beheren van Office 365-eindpunten, zodat deze werken met de netwerkarchitectuur van uw organisatie.
-ms.openlocfilehash: 1c1e76ae6f6ca2c034258c5ba06e3efefd51d04c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: dcacb10492f4377dbcdf6e74c848a404f1b64c6f
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689088"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780482"
 ---
 # <a name="managing-office-365-endpoints"></a>Office 365-eindpunten beheren
 
-Voor de meeste ondernemingen met meerdere Office-locaties en een verbinding met een WAN-verbinding is de configuratie voor Office 365-netwerkconnectiviteit nodig. U kunt uw netwerk optimaliseren door alle vertrouwde Office 365-netwerkaanvragen rechtstreeks via uw firewall te verzenden, zodat alle extra inspectie of verwerking van pakketniveau wordt genegeerd. Dit vermindert de latentie en de vereisten voor de capaciteit van de verbinding. Het identificeren van het netwerkverkeer van Office 365 is de eerste stap bij het leveren van optimale prestaties voor uw gebruikers. Zie voor meer informatie over de netwerkverbinding van Office 365 de beginselen van de [Netwerkverbindingen van office 365](microsoft-365-network-connectivity-principles.md).
+Voor de meeste ondernemingen met meerdere Office-locaties en een verbinding met een WAN-verbinding is de configuratie voor Office 365-netwerkconnectiviteit nodig. U kunt uw netwerk optimaliseren door alle vertrouwde Office 365-netwerkaanvragen rechtstreeks via uw firewall te verzenden, zodat alle extra inspectie of verwerking van pakketniveau wordt genegeerd. Dit vermindert de latentie en de vereisten voor de capaciteit van de verbinding. Het identificeren van het netwerkverkeer van Office 365 is de eerste stap bij het leveren van optimale prestaties voor uw gebruikers. Zie voor meer informatie de [beginselen voor de netwerkverbindingen van Office 365](microsoft-365-network-connectivity-principles.md).
 
-Microsoft raadt u aan toegang te krijgen tot de netwerkeindpunten van Office 365 en deze wijzigingen door te voeren met behulp van de [IP-adressen en URL-service van office 365](microsoft-365-ip-web-service.md).
+Microsoft raadt u aan toegang te krijgen tot de netwerkeindpunten van Office 365 en de voortdurende wijzigingen door te voeren met behulp van de [IP-adressen en URL-webservice van office 365](microsoft-365-ip-web-service.md).
 
 Ongeacht de manier waarop u belangrijk netwerkverkeer van Office 365 beheert, is voor Office 365 een Internet verbinding vereist. Andere netwerkeindpunten waarbij de verbinding is vereist, worden weergegeven op [extra eindpunten die niet zijn opgenomen in het Office 365 IP Address en URL web service](additional-office365-ip-addresses-and-urls.md).
 
-Hoe u de netwerkeindpunten van Office 365 gebruikt, is afhankelijk van de netwerkarchitectuur van uw organisatie. Dit artikel bevat een overzicht van de manieren waarop netwerk architecturen van het bedrijf kunnen worden geïntegreerd met Office 365 IP-adressen en Url's. De eenvoudigste manier om te bepalen welke netwerkverzoeken u wilt vertrouwen, is door SDWAN-apparaten te gebruiken die automatisch de configuratie van Office 365 op elk van uw Office-locaties ondersteunen.
+Hoe u de netwerkeindpunten van Office 365 gebruikt, is afhankelijk van de netwerkarchitectuur van uw organisatie. Dit artikel bevat een overzicht van de manieren waarop netwerk architecturen van het bedrijf kunnen worden geïntegreerd met Office 365 IP-adressen en Url's. De eenvoudigste manier om te bepalen welke netwerkaanvragen u wilt vertrouwen, is door gebruik te kunnen maakt van een SD-WAN-apparaat dat op elk van uw Office-locaties ondersteuning biedt voor automatische configuratie van Office 365.
 
-## <a name="sdwan-for-local-branch-egress-of-vital-office-365-network-traffic"></a>SDWAN voor lokale branch-uitgebrachte cruciale Office 365-netwerkverkeer
+## <a name="sd-wan-for-local-branch-egress-of-vital-office-365-network-traffic"></a>SD-WAN voor lokale branch-uitgebrachte cruciale Office 365-netwerkverkeer
 
-U kunt op elke filiaallocatie een SDWAN-apparaat maken dat is geconfigureerd voor het routeren van de categorie eindpunten van Office 365, of het optimaliseren en toestaan van categorieën rechtstreeks naar het netwerk van Microsoft. Het andere netwerkverkeer, waaronder on-premises datacenter verkeer, algemeen verkeer van Internet sites en verkeer naar Office 365 Standaardeindpunten voor de eindpunten van de netwerkverbinding.
+U kunt op elke filiaallocatie een SD-WAN-apparaat maken dat is geconfigureerd voor het routeren van gegevens van Office 365, de categorie eindpunten optimaliseren of categorieën optimaliseren en toestaan rechtstreeks naar het netwerk van Microsoft. Het andere netwerkverkeer, waaronder on-premises datacenter verkeer, algemeen verkeer van Internet sites en verkeer naar Office 365 Standaardeindpunten voor de eindpunten van de netwerkverbinding.
 
-Microsoft werkt samen met SDWAN-providers om geautomatiseerde configuratie in te schakelen. Zie voor meer informatie [Office 365 Networking partner programma](microsoft-365-networking-partner-program.md).
+Microsoft werkt met SD-WAN-providers om geautomatiseerde configuratie mogelijk te maken. Zie voor meer informatie [Office 365 Networking partner programma](microsoft-365-networking-partner-program.md).
 
 <a name="pacfiles"> </a>
 ## <a name="use-a-pac-file-for-direct-routing-of-vital-office-365-traffic"></a>Een PAC-bestand gebruiken voor de directe routering van cruciale Office 365-verkeer
@@ -59,7 +58,7 @@ Als u ervoor kiest om directe routering voor de eindpunten van de categorie te o
 
 De gemeenschappelijke configuratie is toegestaan zonder te verwerken al het uitgaande verkeer van de proxyserver voor de IP-adressen van Office 365 die de proxyserver betrefferen. Zie [netwerkapparaten of oplossingen van derden gebruiken voor Office 365-verkeer](https://support.microsoft.com/help/2690045/using-third-party-network-devices-or-solutions-with-office-365)voor informatie over problemen met de SSL-onderbreking en de inspectie.
 
-Er zijn twee typen PAC-bestanden die met het PacFile-script worden gegenereerd.
+Er zijn twee typen PAC-bestanden die door het Get-PacFile script worden gegenereerd.
 
 | Type | Beschrijving |
 |:-----|:-----|
@@ -72,12 +71,12 @@ Hier volgt een eenvoudig voorbeeld van het bellen van het PowerShell-script:
 Get-PacFile -ClientRequestId b10c5ed1-bad1-445f-b386-b919946339a7
 ```
 
-U kunt een aantal parameters aan het script doorgeven:
+U kunt een groot aantal parameters aan het script doorgeven:
 
 | Tabelwaardeparameter | Beschrijving |
 |:-----|:-----|
 |**ClientRequestId** <br/> |Dit is vereist en is een GUID die wordt doorgegeven aan de webservice waarmee de clientcomputer wordt gebeld. <br/> |
-|**Versie** <br/> |Het Office 365-service-exemplaar waarvan de standaardinstelling voor wereldwijd. Ook doorgegeven aan de webservice. <br/> |
+|**Versie** <br/> |Het service-exemplaar van Office 365, dat standaard wordt gebruikt voor wereldwijd. Dit wordt ook doorgegeven aan de webservice. <br/> |
 |**Tenantname vervangt** <br/> |De naam van de Tenant van Office 365. Wordt doorgegeven aan de webservice en gebruikt als een vervangbare parameter in sommige Office 365-Url's. <br/> |
 |**Type** <br/> |Het type proxy PAC-bestand dat u wilt genereren. <br/> |
 
@@ -91,7 +90,7 @@ Get-PacFile -Type 2 -Instance Worldwide -TenantName Contoso -ClientRequestId b10
 
 Wanneer PAC-bestanden niet worden gebruikt voor direct uitgaand verkeer, moet u de verwerking van uw netwerk netwerk omzeilen door de proxyserver te configureren. Sommige proxyserver leveranciers hebben een geautomatiseerde configuratie ingeschakeld, zoals beschreven in het [Office 365-programma voor de netwerk partner](microsoft-365-networking-partner-program.md).
 
-Als u dit handmatig doet, moet u de gegevens van de einddatum van de einddatum en de gegevens uit het Office 365 IP-adres en de URL-webservice configureren Het is belangrijk dat u de SSL-onderbreking vermijdt en inspecteert en proxy verificatie voor de eindpunten van de categorie optimaliseert en toestaat.
+Als u dit handmatig doet, moet u de gegevens van de eindpunten voor de einddatum en-URL van het Office 365 IP-adres en de webservice van de client configureren en de proxyserver configureren om de verwerking voor deze services te omzeilen. Het is belangrijk dat u de SSL-onderbreking vermijdt en inspecteert en proxy verificatie voor de eindpunten van de categorie optimaliseert en toestaat.
   
 <a name="bkmk_changes"> </a>
 ## <a name="change-management-for-office-365-ip-addresses-and-urls"></a>Wijzigingsbeheer voor Office 365 IP-adressen en Url's
@@ -121,7 +120,7 @@ Zie [Microsoft flow gebruiken voor het ontvangen van een e-mailbericht voor wijz
 <a name="FAQ"> </a>
 ## <a name="office-365-network-endpoints-faq"></a>Office 365 netwerkeindpunten Veelgestelde vragen
 
-Veelgestelde vragen voor beheerders over Office 365-connectiviteit:
+Zie de volgende veelgestelde vragen over de netwerkverbinding van Office 365.
   
 ### <a name="how-do-i-submit-a-question"></a>Hoe kan ik een vraag stellen?
 
@@ -147,12 +146,12 @@ Zie een IP-adres dat is gekoppeld aan Office 365 waarover u meer informatie wilt
 1. Controleer of het IP-adres deel uitmaakt van een groter gepubliceerd bereik met behulp van een CIDR-rekenmachine, zoals deze voor [IPv4](https://www.ipaddressguide.com/cidr) of [IPv6](https://www.ipaddressguide.com/ipv6-cidr). 40.96.0.0/13 bevat bijvoorbeeld het IP-adres 40.103.0.1, ondanks 40,96 niet-overeenkomend 40,103.
 2. Kijk of een partner de eigenaar is van het IP-adres met een [WHOIS-query](https://dnsquery.org/). Als dit Microsoft de eigenaar is, is dit een interne partner. Veel netwerkeindpunten voor partners worden weergegeven als de _standaard_ categorie, waarvan de IP-adressen niet worden gepubliceerd.
 3. Het IP-adres mag geen deel uitmaken van Office 365 of een afhankelijkheid. De publicatie van Office 365 Network endpoint biedt geen gehele Microsoft-netwerkeindpunten.
-4. Controleer het certificaat in een browser Maak verbinding met het IP-adres met behulp van *https:// \<IP_ADDRESS\> * en controleer de domeinen die worden weergegeven op het certificaat om te begrijpen welke domeinen aan het IP-adres zijn gekoppeld. Als dit een Microsoft-eigen IP-adres is en niet is opgenomen in de lijst met IP-adressen van Office 365, is dit waarschijnlijk het IP-adres dat is gekoppeld aan een Microsoft CDN, zoals  *MSOCDN.net*  of een ander Microsoft-domein zonder IP-informatie. Als u het domein voor het certificaat vindt, kunt u het op de hoogte stellen van de naam van het IP-adres.
+4. Controleer het certificaat. Met een browser maakt u verbinding met het IP-adres met behulp van *https:// \<IP_ADDRESS\>* en schakelt u het selectievakje in van de domeinen die zijn gekoppeld aan het IP-adres. Als dit een Microsoft-to-IP-adres is en niet in de lijst met IP-adressen van Office 365, is het waarschijnlijk dat het IP-adres is gekoppeld aan een Microsoft CDN, zoals  *MSOCDN.net*  of een ander Microsoft-domein zonder dat er een IP-informatie is gepubliceerd. Als u het domein voor het certificaat vindt, kunt u het op de hoogte stellen van de naam van het IP-adres.
 
 <a name="bkmk_cname"> </a>
 ### <a name="some-office-365-urls-point-to-cname-records-instead-of-a-records-in-the-dns-what-do-i-have-to-do-with-the-cname-records"></a>Sommige Office 365-Url's verwijzen naar CNAME-records in plaats van in een record in de DNS. Wat moet ik doen met de CNAME-records?
 
-Client computers hebben een DNS A-of AAAA-record nodig die een of meer IP-adressen bevat om verbinding te maken met een cloudservice. Voor sommige Url's in Office 365 worden CNAME-records weergegeven in plaats van een of AAAA-record. Deze CNAME-records zijn in tussen beide gevallen en er kunnen meerdere in een keten staan. Ze worden altijd omgezet in een A-of AAAA-record voor een IP-adres. Kijk bijvoorbeeld naar de volgende reeks DNS-records die uiteindelijk worden omgezet in het IP-adres _IP_1_:
+Client computers moeten een of meer IP-adressen hebben om verbinding te kunnen maken met een cloudservice. Voor sommige Url's in Office 365 worden CNAME-records weergegeven in plaats van een of AAAA-record. Deze CNAME-records zijn in tussen beide gevallen en er kunnen meerdere in een keten staan. Ze worden altijd omgezet in een A-of AAAA-record voor een IP-adres. Kijk bijvoorbeeld naar de volgende reeks DNS-records die uiteindelijk worden omgezet in het IP-adres _IP_1_:
 
 ```console
 serviceA.office.com -> CNAME: serviceA.domainA.com -> CNAME: serviceA.domainB.com -> A: IP_1
@@ -160,18 +159,18 @@ serviceA.office.com -> CNAME: serviceA.domainA.com -> CNAME: serviceA.domainB.co
 
 Deze CNAME-omleiding is een normaal onderdeel van de DNS en transparant voor de clientcomputer en transparant voor proxyservers. Ze worden gebruikt voor werklast distributie, netwerken voor content levering, hoge beschikbaarheid en risicobeperking voor een service-incident. De intermediaire CNAME-records worden niet gepubliceerd, ze kunnen op elk moment worden gewijzigd en u hoeft ze niet te configureren zoals toegestaan in uw proxyserver.
 
-Een proxyserver valideert de aanvankelijke URL die in het bovenstaande voorbeeld is serviceA.office.com en deze URL werd opgenomen in de publicatie van Office 365. De proxyserver vraagt een DNS-omzetting van die URL naar een IP-adres en ontvangt weer IP_1. De tussenliggende CNAME-omleidings records worden niet gevalideerd.
+Een proxyserver valideert de oorspronkelijke URL, die in het bovenstaande voorbeeld is serviceA.office.com, en deze URL werd opgenomen in de publicatie van Office 365. De proxyserver vraagt een DNS-omzetting van die URL naar een IP-adres en ontvangt weer IP_1. De tussenliggende CNAME-omleidings records worden niet gevalideerd.
 
-Hardcoded configuraties of Whitelisting op basis van indirecte Office 365 FQDN wordt niet aanbevolen, worden niet ondersteund door Microsoft en bekende problemen met de verbinding tussen klanten. DNS-oplossingen die op CNAME-omleiding of op andere wijze de DNS-vermeldingen van Office 365 op een andere manier op te lossen, kunnen worden verholpen via DNS Conditional forwarding (scoped to direct used Office 365 FQDN) met DNS-herhalingen ingeschakeld. In de configuratie van de [IP-adressen en url's van office 365](microsoft-365-ip-web-service.md)wordt in de configuratie van de netwerkverbindingen van derden het aanbevolen Office 365-eindpunt Whitelisting.
+Configuraties met vaste code of het verkeer op basis van indirecte Office 365 FQDN wordt niet aanbevolen, niet ondersteund door Microsoft, en bekend is dat er problemen met de verbinding met de klant zijn. DNS-oplossingen die op CNAME-omleiding of op andere wijze de DNS-vermeldingen van Office 365 op een andere manier op te lossen, kunnen worden verholpen via DNS Conditional forwarding (scoped to direct used Office 365 FQDN) met DNS-herhalingen ingeschakeld. Tal van producten van derden die door Microsoft worden gebruikt, worden door de configuratie van de [IP-adressen en URL van office 365](microsoft-365-ip-web-service.md)365 aanbevolen.
 
 <a name="bkmk_akamai"> </a>
 ### <a name="why-do-i-see-names-such-as-nsatcnet-or-akadnsnet-in-the-microsoft-domain-names"></a>Waarom zie ik namen zoals nsatc.net of akadns.net in de Microsoft-domeinnamen?
 
-Office 365 en andere Microsoft-services gebruikmaken van diverse services van derden, zoals Akamai en MarkMonitor, om uw Office 365-ervaring te verbeteren. Om de beste ervaring mogelijk te houden, kunnen we deze services in de toekomst wijzigen. Domeinen van derden kunnen inhoud, zoals een CDN, hosten of kunnen ze een service hosten, zoals een service voor het beheer van de geografische gegevens. Enkele van de services die momenteel worden gebruikt, zijn:
+Office 365 en andere Microsoft-services gebruikmaken van diverse services van derden, zoals Akamai en MarkMonitor, om uw Office 365-ervaring te verbeteren. Om de beste ervaring mogelijk te houden, kunnen we deze services in de toekomst wijzigen. Domeinen van derden kunnen host zijn voor inhoud, zoals een CDN, of ze kunnen host zijn voor een service, zoals een service voor het beheer van de geografische gegevens. Enkele van de services die momenteel worden gebruikt, zijn:
   
-[MarkMonitor](https://www.markmonitor.com/) wordt gebruikt wanneer u aanvragen met de operator * \* . nsatc.net* ziet. Deze service biedt bescherming van domeinnamen en beveiliging tegen schadelijk gedrag.
+[MarkMonitor](https://www.markmonitor.com/) wordt gebruikt wanneer u aanvragen met de operator *\* . nsatc.net* ziet. Deze service biedt bescherming van domeinnamen en beveiliging tegen schadelijk gedrag.
   
-[ExactTarget](https://www.marketingcloud.com/) wordt gebruikt wanneer u verzoeken om * \* . ExactTarget.com* ziet. Met deze service kunt u het beheer van e-mail koppelingen tegen kwaadaardige gedrag controleren.
+[ExactTarget](https://www.marketingcloud.com/) wordt gebruikt wanneer u verzoeken om *\* . ExactTarget.com* ziet. Met deze service kunt u het beheer van e-mail koppelingen tegen kwaadaardige gedrag controleren.
   
 [Akamai](https://www.akamai.com/) wordt gebruikt wanneer u aanvragen met een of meer van de volgende FQDN-namen ziet. Deze service biedt geo-DNS en netwerkservices voor content levering.
   
@@ -192,18 +191,18 @@ Office 365 en andere Microsoft-services gebruikmaken van diverse services van de
 
 Aangezien Office 365 een groep services is die op hun computer is gebouwd via internet, zijn de belofte betrouwbaarheid en beschikbaarheid gebaseerd op een groot aantal standaard Internet Services. Voorbeeld van een standaard Internet service zoals DNS, CRL en Cdn's moet bereikbaar zijn voor het gebruik van Office 365, net zoals ze moet bereikbaar zijn voor het gebruik van de moderne Internet Services.
 
-De Office 365-Suite is opgesplitst in grote serviceregio's. Dit kan selectief voor de verbinding zijn en er wordt altijd een gemeenschappelijk gebied met een afhankelijkheid voor iedereen vereist.
+De Office 365-Suite is opgesplitst in grote serviceregio's. Dit kan selectief worden ingeschakeld voor verbindingen en er is een gemeenschappelijk gebied, wat een afhankelijkheid is en altijd vereist.
 
 | Service gebied | Beschrijving |
 |:-----|:-----|
 |**Exchange** <br/> |Exchange Online en Exchange Online Protection <br/> |
-|**SharePoint** <br/> |SharePoint Online en OneDrive voor bedrijven <br/> |
-|**Skype voor bedrijven online en Microsoft teams** <br/> |Skype voor bedrijven en Microsoft teams <br/> |
+|**SharePoint** <br/> |SharePoint Online en OneDrive voor Bedrijven <br/> |
+|**Skype voor Bedrijven Online en Microsoft Teams** <br/> |Skype voor bedrijven en Microsoft teams <br/> |
 |**Eigenschapnamen** <br/> |Office 365 Pro Plus, Office in een browser, Azure AD en andere veelgebruikte netwerkeindpunten <br/> |
 
-Naast basis Internet Services zijn er ook andere services van derden die uitsluitend voor de integratie van functies gelden. Hoewel deze gegevens nodig zijn voor integratie, worden deze als optioneel gemarkeerd in het artikel Office 365-eindpunten, wat betekent dat de kernfunctionaliteit van de service blijft werken als het eindpunt niet toegankelijk is. Voor elk opgegeven netwerkeindpunt moet het vereiste kenmerk zijn ingesteld op waar. Voor elk netwerkeindpunt dat optioneel is, is het vereiste kenmerk ingesteld op ONWAAR en wordt in het Notes-kenmerk de ontbrekende functionaliteit weergegeven, zodat u kunt verwachten dat de verbinding wordt geblokkeerd.
+Naast basis Internet Services zijn er ook andere services van derden die uitsluitend voor de integratie van functies gelden. Hoewel deze gegevens nodig zijn voor integratie, worden deze als optioneel gemarkeerd in het artikel Office 365-eindpunten, wat betekent dat de kernfunctionaliteit van de service blijft werken als het eindpunt niet toegankelijk is. Het vereiste kenmerk van een eindpunt voor een netwerk moet zijn ingesteld op waar. Voor elk netwerkeindpunt dat optioneel is, moet het vereiste kenmerk zijn ingesteld op ONWAAR en wordt in het notitie kenmerk de ontbrekende functionaliteit weergegeven, zodat u kunt verwachten dat de verbinding wordt geblokkeerd.
   
-Als u Office 365 probeert te gebruiken en u geen toegang hebt tot services van derden, moet u [ervoor zorgen dat alle FQDN-records die zijn gemarkeerd met vereist of optioneel in dit artikel, worden toegestaan via de proxy en firewall](urls-and-ip-address-ranges.md).
+Als u Office 365 probeert te gebruiken en de services van derden niet toegankelijk zijn, moet u [ervoor zorgen dat alle FQDN-records die zijn gemarkeerd met vereist of optioneel in dit artikel, worden toegestaan via de proxy en firewall](urls-and-ip-address-ranges.md).
   
 <a name="bkmk_consumer"> </a>
 ### <a name="how-do-i-block-access-to-microsofts-consumer-services"></a>Hoe blokkeer ik de toegang tot consumenten services van Microsoft?
@@ -215,15 +214,15 @@ Houd er rekening mee dat het blokkeren van toegang tot de Microsoft consumenten 
 <a name="bkmk_IPOnlyFirewall"> </a>
 ### <a name="my-firewall-requires-ip-addresses-and-cannot-process-urls-how-do-i-configure-it-for-office-365"></a>Voor de firewall is een IP-adres vereist en de Url's kunnen niet worden verwerkt. Hoe configureer ik Office voor Office 365?
 
-Office 365 biedt geen IP-adressen van alle vereiste netwerkeindpunten. Sommige worden alleen verstrekt als Url's en zijn gecategoriseerd als standaard. Url's in de standaardcategorie die nodig zijn, moeten worden toegestaan via een proxyserver. Als u geen proxyserver hebt, bekijkt u hoe u web-aanvragen voor Url's hebt geconfigureerd die gebruikerstypen in de adresbalk van een webbrowser. de gebruiker biedt geen IP-adres. De standaard Url's van de categorie Office 365 waarbij geen IP-adressen worden opgegeven, worden op dezelfde manier geconfigureerd.
+Office 365 biedt geen IP-adressen van alle vereiste netwerkeindpunten. Sommige worden alleen verstrekt als Url's en zijn gecategoriseerd als standaard. Url's in de standaardcategorie die nodig zijn, moeten worden toegestaan via een proxyserver. Als u geen proxyserver hebt, bekijkt u hoe u webaanvragen hebt geconfigureerd voor Url's die gebruikerstypen in de adresbalk van een webbrowser. de gebruiker biedt geen IP-adres. De standaard Url's van de categorie Office 365 waarbij geen IP-adressen worden opgegeven, worden op dezelfde manier geconfigureerd.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Office 365 IP Address en URL web service](microsoft-365-ip-web-service.md)
+[IP-adres en URL-webservice van Office 365](microsoft-365-ip-web-service.md)
 
-[IP-bereiken voor Microsoft Azure datacenter](https://www.microsoft.com/download/details.aspx?id=41653)
+[IP-bereiken van Microsoft Azure Datacenter](https://www.microsoft.com/download/details.aspx?id=41653)
   
-[Openbare IP-ruimte van Microsoft](https://www.microsoft.com/download/details.aspx?id=53602)
+[Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)
   
 [Vereisten voor de netwerkinfrastructuur voor Microsoft intune](https://docs.microsoft.com/intune/get-started/network-infrastructure-requirements-for-microsoft-intune)
   
@@ -233,4 +232,4 @@ Office 365 biedt geen IP-adressen van alle vereiste netwerkeindpunten. Sommige w
   
 [ExpressRoute voor Office 365-connectiviteit beheren](managing-expressroute-for-connectivity.md)
   
-[Methoden voor netwerkverbindingen in Office 365](microsoft-365-network-connectivity-principles.md)
+[Beginselen voor Office 365-netwerkverbinding](microsoft-365-network-connectivity-principles.md)

@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie lezen over het weergeven, maken, wijzigen en verwijderen van beleidsregels voor veilige koppelingen en algemene instellingen voor veilige koppelingen in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 7a00b73855302f5046afa0605fd7188007394ed7
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: ef83d0dba1de03aa2b36384474791783e926059f
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683161"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780530"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels voor veilige koppelingen instellen in Microsoft Defender voor Office 365
 
@@ -55,15 +55,15 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **veilige koppelingen** wilt gaan, gebruikt u <https://protection.office.com/safelinksv2> .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina met **veilige koppelingen** wilt gaan, gebruikt u <https://protection.office.com/safelinksv2> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
-  - Als u beleidsregels voor veilige koppelingen wilt maken, wijzigen en verwijderen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
+- U moet machtigingen zijn toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
+  - Als u beleidsregels voor veilige koppelingen wilt maken, wijzigen en verwijderen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** in het beveiligings & nalevings centrum **en** een lid van de rollen groep **Organisatiebeheer** in Exchange Online.
   - Voor alleen-lezen toegang tot beleid voor veilige koppelingen moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
 
-  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+  Zie [machtigingen in de beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md) en [machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)voor meer informatie.
 
   **Opmerkingen**:
 

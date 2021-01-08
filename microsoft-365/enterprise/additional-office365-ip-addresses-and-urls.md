@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: "Overzicht: de nieuwe webservice van het eindpunt biedt geen klein aantal eindpunten voor specifieke scenario's."
 hideEdit: true
-ms.openlocfilehash: 8e1d464a4bb24594ae783a8e1e272050b6c038bb
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: d5c97fa2399392b03e00644f270e8726570aefb5
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682851"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780578"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Extra eindpunten die niet zijn opgenomen in het Office 365 IP Address en de webservice URL-webservice
 
@@ -74,12 +74,18 @@ Naast de DNS zijn deze allemaal optioneel voor de meeste klanten, tenzij u een s
 
 [Office 365-eindpunten beheren](managing-office-365-endpoints.md)
   
-[Microsoft 365-connectiviteit bewaken](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
+[Microsoft 365-connectiviteit controleren](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
   
 [Clientconnectiviteit](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   
 [Netwerken voor contentlevering](https://support.office.com/article/content-delivery-networks-0140f704-6614-49bb-aa6c-89b75dcd7f1f)
   
-[IP-bereiken van Microsoft Azure Datacenter](https://www.microsoft.com/download/details.aspx?id=41653)
+[IP-bereiken en service tags van Azure – openbare Cloud](https://www.microsoft.com/download/details.aspx?id=56519)
+
+[IP-bereiken en service tags van Azure: US Government Cloud](https://www.microsoft.com/download/details.aspx?id=57063)
+
+[IP-bereiken en service tags van Azure – Duitsland Cloud](https://www.microsoft.com/download/details.aspx?id=57064)
+
+[IP-bereiken en service tags van Azure: China-wolk](https://www.microsoft.com/download/details.aspx?id=57062)
   
 [Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)

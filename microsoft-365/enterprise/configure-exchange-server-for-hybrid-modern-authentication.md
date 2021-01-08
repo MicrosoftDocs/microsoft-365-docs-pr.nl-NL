@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Lees meer over het configureren van een on-premises Exchange-Server voor hybride implementatie van gebruikers, met een uitgebreide verificatie van gebruikers en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8db74c04335e0846666991d74980648cedb4d9d7
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 3841f429399500cfc24ebadc89c74d478d2290d9
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547128"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780282"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>De on-premises implementatie van Exchange server configureren voor gebruik van hybride moderne verificatie
 
@@ -40,11 +40,11 @@ Voordat we beginnen, bel ik het volgende:
 
 - Exchange Online \> Exo
 
-Ook *als een afbeelding in dit artikel een object heeft dat niet beschikbaar is (grijs) of lichter gekleurd, betekent dit dat het element dat grijs wordt weergegeven, niet is opgenomen in de HMA-specifieke configuratie* .
+Ook *als een afbeelding in dit artikel een object heeft dat niet beschikbaar is (grijs) of lichter gekleurd, betekent dit dat het element dat grijs wordt weergegeven, niet is opgenomen in de HMA-specifieke configuratie*.
 
 ## <a name="enabling-hybrid-modern-authentication"></a>Hybride authenticatie inschakelen
 
-Als u het HMA wilt uitschakelen, doet u dit:
+Het inschakelen van HMA betekent:
 
 1. Zorg ervoor dat u voldoet aan de prereqs voordat u begint.
 
@@ -85,15 +85,15 @@ Zorg ervoor dat de Url's clients kunnen verbinding maken met behulp van HTTPS-se
 
    **Opmerking** U moet de optie _verbinding-MsolService_ van deze pagina gebruiken om de onderstaande opdracht te kunnen gebruiken.
 
-2. Voor de verwante Url's voor Exchange typt u de volgende opdracht:
+2. Voor de Exchange-gerelateerde Url's typt u de volgende opdracht:
 
    ```powershell
    Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 | select -ExpandProperty ServicePrincipalNames
    ```
 
-   Let op (en schermafbeelding voor een latere vergelijking) de uitvoer van deze opdracht, die een https://  *Autodiscover.yourdomain.com*  en https://  *mail.yourdomain.com* -URL moet bevatten, maar meestal bestaat uit spn's die beginnen met 00000002-0000-0ff1-CE00-000000000000/. Als er https://-Url's zijn van uw on-premises die ontbreken, moeten ze deze specifieke records toevoegen aan deze lijst.
+   Let op (en schermafbeelding voor een latere vergelijking) de uitvoer van deze opdracht, die een https://  *Autodiscover.yourdomain.com*  en https://  *mail.yourdomain.com* -URL moet bevatten, maar meestal bestaat uit spn's die beginnen met 00000002-0000-0ff1-CE00-000000000000/. Als er https://-Url's van uw on-premises zijn, moeten deze specifieke records aan deze lijst worden toegevoegd.
 
-3. Als u uw interne en externe MAPI-, EWS-, ActiveSync-, OAB-en Autodiscover-records niet in deze lijst ziet, moet u deze toevoegen met behulp van de volgende opdracht (de voorbeeld Url's zijn ' `mail.corp.contoso.com` ' en ' `owa.contoso.com` ', maar **vervangt u de url's met uw eigen** url's wel.
+3. Als u uw interne en externe MAPI-, EWS-, ActiveSync-, OAB-en Autodiscover-records niet ziet in deze lijst, moet u deze toevoegen met behulp van de volgende opdracht (de voorbeeld Url's zijn ' `mail.corp.contoso.com` ' en ' `owa.contoso.com` ', maar **vervangt u de url's met uw eigen url's** wel.
 
    ```powershell
    $x= Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000
@@ -102,7 +102,7 @@ Zorg ervoor dat de Url's clients kunnen verbinding maken met behulp van HTTPS-se
    Set-MSOLServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $x.ServicePrincipalNames
    ```
 
-4. Controleer of de nieuwe records zijn toegevoegd door de opdracht Get-MsolServicePrincipal uit stap 2 opnieuw uit te voeren en de uitvoer te bekijken. Vergelijk de lijst/schermafbeelding van vóór de nieuwe lijst met Spn's (u kunt ook een schermafbeelding van de nieuwe lijst voor uw records weergeven). Als u slaagt, worden de twee nieuwe Url's in de lijst weergegeven. In ons voorbeeld, de lijst met Spn's bevat nu de specifieke Url's  `https://mail.corp.contoso.com`  en  `https://owa.contoso.com` .
+4. Controleer of de nieuwe records zijn toegevoegd door de opdracht Get-MsolServicePrincipal uit stap 2 opnieuw uit te voeren en de uitvoer te bekijken. Vergelijk de lijst/schermafbeelding van vóór de nieuwe lijst met Spn's. U kunt ook een schermafbeelding van de nieuwe lijst voor uw records opnemen. Als u slaagt, worden de twee nieuwe Url's in de lijst weergegeven. In ons voorbeeld, de lijst met Spn's bevat nu de specifieke Url's  `https://mail.corp.contoso.com`  en  `https://owa.contoso.com` .
 
 ## <a name="verify-virtual-directories-are-properly-configured"></a>Controleren of virtuele mappen correct zijn geconfigureerd
 
@@ -128,7 +128,7 @@ InternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
 ExternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
 ```
 
-Als er geen OAuth-server en een van de vier virtuele mappen ontbreken, moet u deze toevoegen aan de hand van de betreffende opdrachten voordat u verdergaat ([set-MapiVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-mapivirtualdirectory), [set-WebServicesVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-webservicesvirtualdirectory), [set-OABVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-oabvirtualdirectory)en [set-AutodiscoverVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-autodiscovervirtualdirectory)).
+Als OAuth niet op een server en in een van de vier virtuele mappen ontbreekt, moet u deze toevoegen aan de hand van de betreffende opdrachten voordat u verdergaat ([set-MapiVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-mapivirtualdirectory), [set-WebServicesVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-webservicesvirtualdirectory), [set-OABVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-oabvirtualdirectory)en [set-AutodiscoverVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/set-autodiscovervirtualdirectory)).
 
 ## <a name="confirm-the-evosts-auth-server-object-is-present"></a>Bevestig dat het object van de EvoSTS Authentication server aanwezig is
 
@@ -153,7 +153,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 
 ## <a name="verify"></a>Verifiëren
 
-Wanneer u HMA hebt ingeschakeld, wordt de nieuwe verificatie stroom gebruikt door de volgende aanmelding van een client. Als u geen gebruik maakt van HMA, wordt een nieuwe verificatie niet geactiveerd voor elke client. De client verifieert opnieuw op basis van de levensduur van de auth-tokens en/of-certificaten.
+Wanneer u HMA hebt ingeschakeld, wordt de nieuwe verificatie stroom gebruikt door de volgende aanmelding van een client. Wanneer u een HMA inschakelt, wordt de herauthenticatie voor geen enkele client geactiveerd. De client verifieert op basis van de levensduur van de auth-tokens en/of certificeringen.
 
 Houd de CTRL-toets ook ingedrukt terwijl u met de rechtermuisknop op het pictogram van de Outlook-client klikt (ook in het systeemvak van Windows) en klik op verbindings status. Let op het SMTP-adres van de client tegen een ' auth '-type ' Bearer \* ', dat staat voor het dragertoken dat in OAuth wordt gebruikt.
 
@@ -161,7 +161,7 @@ Houd de CTRL-toets ook ingedrukt terwijl u met de rechtermuisknop op het pictogr
 
 ## <a name="using-hybrid-modern-authentication-with-outlook-for-ios-and-android"></a>Hybride moderne verificatie gebruiken met Outlook voor iOS en Android
 
-Als u een on-premises klant bent met Exchange Server op TCP 443, moet u de volgende IP-bereiken whitelist:
+Als u een on-premises klant bent met behulp van Exchange Server op TCP 443, slaat u de verwerking van verkeer voor de volgende IP-bereiken over.
 
 ```text
 52.125.128.0/20

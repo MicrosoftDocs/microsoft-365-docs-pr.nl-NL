@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: 573f30dc3d8a43a337a4333dbaf05baf916857fa
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 1884f0dae87bf068d134430ada78e44d713fd4d9
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357897"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780514"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -51,9 +51,12 @@ Met de geïntegreerde Microsoft 365 Defender-oplossing kunnen beveiligings medew
 </table>
 <br>
 
+## <a name="microsoft-365-defender-interactive-guide"></a>Interactieve handleiding voor Microsoft 365 Defender
 
->[!TIP]
->Bekijk deze [Microsoft 365-interactieve handleiding](https://aka.ms/MTP-Interactive-Guide).
+In deze interactieve handleiding leert u hoe u uw organisatie kunt beschermen met Microsoft 365 Defender. U ziet hoe Microsoft 365 Defender u kan helpen beveiligingsrisico's te detecteren, aanvallen met uw organisatie te onderzoeken en schadelijke activiteiten automatisch te voorkomen.
+
+> [!VIDEO https://aka.ms/M365Defender-InteractiveGuide]
+
 
 
 Microsoft 365 Defender Suite beschermt: 
