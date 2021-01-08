@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: 86e738fa9390cc40b06c10a27f3198715bb991fd
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 34011780241ae3a669fe32aa5fad00f9836d5570
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614808"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780306"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -44,6 +44,11 @@ Microsoft Defender voor Office 365 beschermt je organisatie tegen kwaadwillende 
 - **[Functies voor bedreigingsonderzoek en reacties](#use-threat-investigation-and-response-capabilities)**: gebruik toonaangevende hulpmiddelen om bedreigingen te onderzoeken, te doorgronden, te simuleren en te voorkomen.
 
 - **[Mogelijkheden voor geautomatiseerd onderzoek en acties](office-365-air.md)**: bespaar tijd en moeite bij het onderzoeken en beperken van bedreigingen.
+
+## <a name="interactive-guide-to-microsoft-defender-for-office-365"></a>Interactieve handleiding voor Microsoft Defender voor Office 365
+In deze interactieve handleiding leer je hoe je je organisatie kunt beschermen met Microsoft Defender voor Office 365. Je ziet hoe je met behulp van Defender voor Office 365 je beveiligingsbeleid kunt definiëren, bedreigingen kunt analyseren voor je organisatie en kunt reageren op aanvallen.
+
+> [!VIDEO https://aka.ms/MSDO-IG]
 
 ## <a name="getting-started"></a>Aan de slag
 
