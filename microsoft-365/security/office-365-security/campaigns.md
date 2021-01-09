@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Meer informatie over campagne weergaven in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 82dbccabe4917b8b90f67456fbac1c673bad3286
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 8e5c49c9a45d1578da1eea33a560da611fb74155
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357657"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49788013"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Campagne weergaven in Microsoft Defender voor Office 365
 
@@ -53,7 +53,7 @@ Een campagne kan korte tijd in beslag nemen of meerdere dagen, weken of maanden 
 
 ## <a name="campaign-views-in-the-security--compliance-center"></a>Campagne weergaven in het nalevings centrum voor beveiligings &
 
-De weergave campagne is beschikbaar in het [beveiligings & compliance](https://protection.office.com) van een **Threat Management** \> **Campaigns**-campagne, of direct op <https://protection.office.com/campaigns> .
+De weergave campagne is beschikbaar in het [beveiligings & compliance](https://protection.office.com) van een **Threat Management** \> -campagne, of direct op <https://protection.office.com/campaigns> .
 
 ![Overzicht van campagnes in het nalevings centrum voor beveiligings &](../../media/campaigns-overview.png)
 
@@ -165,7 +165,7 @@ Nadat u een basis-of Geavanceerd filter hebt gemaakt, kunt u dit opslaan met beh
 
 Als u de grafiek of de lijst met campagnes wilt exporteren, klikt u op **exporteren** en selecteert u **grafiekgegevens exporteren** of **campagnelijst exporteren**.
 
-Als u een abonnement voor Microsoft Defender voor eindpunten hebt, kunt u op **WDATP** klikken om verbinding te maken met de gegevens van de campagnes of de gegevens ervan te verbreken met Microsoft Defender for endpoints Zie [Microsoft Defender for Office 365 integreren met Microsoft Defender voor eindpunten](integrate-office-365-ti-with-wdatp.md)voor meer informatie.
+Als u een abonnement voor Microsoft Defender voor eindpunten hebt, kunt u op de **MDE-instellingen** klikken om verbinding te maken met de gegevens van de campagnes of de verbinding te verbreken met Microsoft Defender voor Zie [Microsoft Defender for Office 365 integreren met Microsoft Defender voor eindpunten](integrate-office-365-ti-with-wdatp.md)voor meer informatie.
 
 ## <a name="campaign-details"></a>Campagne Details
 
@@ -212,7 +212,7 @@ Het diagram bevat de volgende informatie:
 
   ****
 
-  |Waarde|Spam filter verdict|Beschrijving|
+  |Value|Spam filter verdict|Beschrijving|
   |---|---|---|
   |**Ingesteld**|`SFV:SKN` <p> `SFV:SKI`|Het bericht is gemarkeerd als niet-spam en/of overgeslagen filters voordat ze worden geëvalueerd via spamfilters. Het bericht is bijvoorbeeld als geen spam gemarkeerd met een e-mail stroom regel (ook wel een transportregel genoemd). <p> Het bericht heeft geen spamfilters overgeslagen om andere redenen. De afzender en de geadresseerde lijken bijvoorbeeld in dezelfde organisatie.|
   |**Blokkeert**|`SFV:SKS`|Het bericht is gemarkeerd als spam voordat het werd geëvalueerd via spamfilters. Bijvoorbeeld met een e-mail stroom regel.|

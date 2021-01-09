@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-Beheercentrum: Hier vindt u meer informatie over
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 90805568d77cf55cbd0e77fb3085435df09824ab
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 12b7dfd39a9cf8ac73e8f1c7f2297721c2d629bf
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668047"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787877"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuw in het Microsoft 365-Beheercentrum
 
@@ -45,7 +45,7 @@ En als u meer wilt weten over de nieuwe functies in Microsoft-cloudservices, gaa
 - [Nieuwe functies in het Exchange-Beheercentrum](https://docs.microsoft.com/Exchange/whats-new)
 - [Nieuw in Microsoft intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [Nieuw in het Microsoft 365 compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
-- [Nieuw in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
+- [Wat is er nieuw in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
 - [Nieuwe functies in het SharePoint-Beheercentrum](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Office-updates](https://docs.microsoft.com/OfficeUpdates/)
 
@@ -57,7 +57,7 @@ Welkom bij Microsoft Ignite-onze eerste online-Ignite. We hopen dat we u kunnen 
 
 ### <a name="multi-tenant-management"></a>Beheer van meerdere tenants
 
-We hebben een reeks functies ontwikkeld voor beheerders van meerdere tenants, zoals u nodig hebt om uw werk sneller en efficiënter te doen.
+We hebben een reeks functies ontwikkeld voor beheerders van meerdere tenants, zoals u nodig hebt om uw werk sneller en efficiënter te doen. Zie [meerdere tenants beheren](multi-tenant/manage.md)voor meer informatie.
 
 - **Uw tenants**: snel schakelen tussen de tenants die u beheert.
 - **Alle tenants**: een nieuwe pagina waar u snel de status van de services van uw tenants, alle OpenService aanvragen, uw producten en facturering, aanbevolen configuratietaken en het aantal gebruikers in die Tenant kunt zien.
@@ -217,7 +217,7 @@ Zie voor meer informatie over deze rollen [beheerdersrollen](https://docs.micros
 
 We horen van een heleboel beheerders die ze nodig hebben om informatie over groepen en hun gebruik te delen met personen die geen toegang hebben tot de beheer centra. U kunt de lijst met groepen nu exporteren naar een CSV-bestand om controledoeleinden te doen, wat betekent dat u dit oude PowerShell-script kunt weggooien. Als u dit wilt doen, gaat u naar **groepen**  >  **groepen** en selecteert u **groepen exporteren** op de opdrachtbalk.
 
-### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossings- en architectuurcentrum
+### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossingen- en -architectuurcentrum
 
 Alleen deze maand hebben we een nieuwe site gepubliceerd op [https://docs.microsoft.com](https://docs.microsoft.com) de zogeheten [microsoft 365-oplossing en architectuur centrum](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center), waaronder de technische richtlijnen die u moet volgen, plannen en implementeren van geïntegreerde Microsoft 365-oplossingen voor veilig en compatibel samenwerken. In dit centrum vindt u:
 
@@ -293,10 +293,10 @@ U hebt deze maand twee updates voor groepen:
 
 - [Een vergadering plannen](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
 - [Deelnemen aan een teamvergadering](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Een team voor de gehele organisatie maken](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+- [Een team voor uw hele organisatie maken](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
 - [Een team met gasten maken](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
 - [Als gast lid worden van een team](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Een groeps-e-mailadres maken](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
+- [Een groepsmailadres maken](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
 
 #### <a name="for-admins-and-business-owners"></a>Voor beheerders en bedrijfseigenaren
 
@@ -415,8 +415,8 @@ De lijst resource postvakken is bijgewerkt naar de nieuwe stijl. Ga in het Micro
 Bekijk de training voor Office voor professionals en kleine bedrijven, uitgebracht in januari:
 
 - [Uw zakelijke website maken](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
-- [Antwoorden en Help zoeken](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
-- [Help of ondersteuning vragen](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
+- [Antwoorden en hulp zoeken](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
+- [Help of ondersteuning krijgen](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
 - [Een gebruiker verwijderen](https://support.microsoft.com/office/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
 - [Kies een Microsoft-abonnement](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
 - [Overzicht van de beveiliging van Microsoft 365 voor bedrijven](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)

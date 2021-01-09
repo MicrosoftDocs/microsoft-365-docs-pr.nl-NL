@@ -11,20 +11,20 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 description: Beheerders kunnen een malafide aanval simuleren en hun gebruikers trainen via phishing met behulp van simulatie gerichte training in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 3707041067fd76ee9535d0dccf5cdfcb9d74fbd7
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 41a5a503fbc8aa5e41760c1cf420d5e3c6047d86
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667553"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49788049"
 ---
 # <a name="simulate-a-phishing-attack"></a>Een malafide aanval simuleren
 
-Met aanval van een aanval met Office 365 kunt u in Microsoft Defender voor Office uw eigen beveiligingsbeleid en-procedures testen en de aandacht vestigen op uw medewerkers en de betasting ervan verlagen voor aanvallen. In dit artikel wordt u stapsgewijs begeleid bij het maken van een simulatie aanval via een aanval via een aanval.
+Simulatie van simulatie aanval in Microsoft Defender voor Office 365 biedt u de mogelijkheid kwaadaardige cyberattack simulaties te doen in uw organisatie om uw beveiligingsbeleid en-procedures te testen en uw werknemers uit te breiden zodat ze zich kunnen beschermen. In dit artikel wordt u stapsgewijs begeleid bij het maken van een simulatie aanval met simulatie van aanval.
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Als u een gesimuleerde malafide aanval wilt starten, opent u het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/), gaat u naar **e-mail & Collaboration** \> **Simulator** en gaat u naar het tabblad [**simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations) .
+Als u een gesimuleerde malafide aanval wilt starten, opent u het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/), gaat u naar de training voor **e-mail & samenwerking** van een \> **aanval** en gaat u naar het tabblad [**simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations) .
 
 Selecteer onder **simulaties** **de optie + een simulatie starten**.
 

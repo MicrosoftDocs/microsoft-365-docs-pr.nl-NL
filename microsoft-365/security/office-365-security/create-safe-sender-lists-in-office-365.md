@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 6e33d2b75429453602615bf98b8269ab160c7749
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 48f08e5b0d94a0e1eb65b78ba56639d8457f90aa
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698697"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49788097"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
@@ -41,9 +41,9 @@ Regels voor e-mail stroom bieden de meeste flexibiliteit om ervoor te zorgen dat
 
 > [!IMPORTANT]
 >
-> - Let erop dat u uitzonderingen die u met lijsten met veilige afzenders verspamt, *nauwkeurig controleert* .
+> - Let erop dat u uitzonderingen die u aan spam filtert, nauw *keurig controleert via* lijsten met veilige afzenders.
 >
-> - U kunt lijsten met veilige afzenders gebruiken om foutberichten te ontvangen (goede e-mailberichten die als spam zijn gemarkeerd), maar u kunt het beste afzenders gebruiken als een tijdelijke oplossing, indien mogelijk. We raden u niet aan dat er geen ongeluk is met behulp van lijsten met veilige afzenders, aangezien uitzonderingen op spam filteren uw organisatie kan openen voor spoofing en andere aanvallen. Als u de lijsten met veilige afzenders wilt gebruiken voor het beheren van foutberichten, moet u Vigilant zijn en het onderwerp in het [rapportberichten en bestanden naar Microsoft](report-junk-email-messages-to-microsoft.md) laten staan.
+> - Wanneer u lijsten met veilige afzenders kunt gebruiken om foutberichten te ontvangen (goede e-mailberichten die zijn gemarkeerd als beschadigd), moet u het gebruik van lijsten met veilige afzenders als tijdelijke oplossing overwegen, indien mogelijk. We raden u niet aan dat er geen ongeluk is met behulp van lijsten met veilige afzenders, aangezien uitzonderingen op spam filteren uw organisatie kan openen voor spoofing en andere aanvallen. Als u de lijsten met veilige afzenders wilt gebruiken voor het beheren van foutberichten, moet u Vigilant zijn en het onderwerp in het [rapportberichten en bestanden naar Microsoft](report-junk-email-messages-to-microsoft.md) laten staan.
 >
 > - Als u wilt dat een domein niet-geverifieerde e-mail kan verzenden (anti-spoofing beveiliging), maar niet antispam en anti-malware controleert, kunt u deze toevoegen aan de [lijst met veilige afzenders van AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)
 >

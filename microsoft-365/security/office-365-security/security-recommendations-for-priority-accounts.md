@@ -16,23 +16,35 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
+- m365solution-overview
+- m365solution-protecthve
 description: Beheerders kunnen informatie lezen over de verhoging van de beveiligingsinstellingen en rapporten, waarschuwingen en onderzoek voor prioriteits accounts in hun Microsoft 365-organisaties.
-ms.openlocfilehash: 9788131ea881a1cb3c36a60dfaac01ed5daf0901
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: acd2eba0acd533d0cd8223f2c433cc023fc23287
+ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769243"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790124"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Beveiligingsaanbevelingen voor prioriteits accounts in Microsoft 365
 
-Wat moet u doen als u een urgent bericht ontvangt van een directeur in uw organisatie waarmee u iets hoeft te doen? Wilt u doen? De meeste personen zouden aan de aanvraag voldoen.
+Niet alle gebruikersaccounts hebben toegang tot dezelfde bedrijfsgegevens. Sommige accounts hebben toegang tot gevoelige informatie, zoals financiële gegevens, product ontwikkelings informatie, partner toegang tot cruciale buildsystemen en nog veel meer. Accounts die toegang hebben tot zeer vertrouwelijke informatie, bieden een ernstige bedreiging als ze worden aangetast. We noemen dit soort accounts- _prioriteits accounts_. Prioriteits accounts bestaan uit CEOs, CISOs, CFOs, infrastructuurbeheerders accounts, systeemaccounts maken en meer.
 
-Voor hackers kunnen een reguliere phishing-aanval die een willekeurig net afneemt, de gegevens van willekeurige of onbekende gebruikers inefficiënten. Met een _spear phishing_ -of _Whaling_ -aanval kunnen ook gebruikers die op hun doelgericht zijn op de kracht van de macht of de overheid, veel meer doen. Als deze prioriteits accounts worden aangetast, kan de aanvaller toegang krijgen tot accounts met beheerders, financiële producten, producten of zelfs de fysieke toegangsmogelijkheden binnen de organisatie.
+Voor kwaadwillende phishing-aanvallen die een willekeurig netwerk voor gewone of onbekende gebruikers uitzenden, zijn ze niet efficiënt. Voor de andere kant vermoeden met _spear phishing_ of _Whaling_ -aanvallen die doel prioriteits accounts zijn, is een zeer goede vergoeding voor aanvallers. Daarom zijn voor prioriteits accounts een sterkere beveiliging vereist dan gewone bescherming om accountbeveiliging te helpen voorkomen.
 
-Microsoft 365 en Microsoft Defender voor Office 365 bevatten veel verschillende functies waarmee u extra beveiligingslagen voor uw prioriteits accounts kunt bieden. De beschikbare functies en de manier waarop ze worden gebruikt, worden beschreven in dit artikel.
+Microsoft 365 en Microsoft Defender voor Office 365 bevatten diverse belangrijke functies waarmee extra beveiligingslagen voor uw prioriteits accounts worden geboden. In dit artikel worden deze mogelijkheden beschreven en wordt uitgelegd hoe u deze kunt gebruiken.
 
 ![Overzicht van beveiligingsaanbevelingen in pictogram formulier](../../media/security-recommendations-for-priority-users.png)
+
+****
+
+|Taak|Alle Office 365 Enterprise-abonnementen|Microsoft 365 E3|Microsoft 365 E5|
+|---|:---:|:---:|:---:|
+|[Aanmeld beveiliging voor prioriteits accounts vergroten](#increase-sign-in-security-for-priority-accounts)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[Strikte vooraf ingestelde beveiligingsbeleidsregels gebruiken voor prioriteits accounts](#use-strict-preset-security-policies-for-priority-accounts)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[Gebruikers Tags toepassen op prioriteits accounts](#apply-user-tags-to-priority-accounts)|||![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[De prioriteit van accounts in waarschuwingen, rapporten en detectie bijhouden](#monitor-priority-accounts-in-alerts-reports-and-detections)|||![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|
 
 ## <a name="increase-sign-in-security-for-priority-accounts"></a>Aanmeld beveiliging voor prioriteits accounts vergroten
 
@@ -40,15 +52,15 @@ Voor prioriteits accounts is een betere aanmeld beveiliging vereist. U kunt de a
 
 Zie [stap 1 voor instructies. De aanmeldingsbeveiliging voor externe werknemers vergroten met MFA](https://docs.microsoft.com/microsoft-365/solutions/empower-people-to-work-remotely-secure-sign-in). Dit artikel bevat informatie over externe werknemers, en ook van toepassing op prioritaire gebruikers.
 
-**Opmerkingen**:
+**Opmerking**: het wordt ten zeerste aanbevolen dat u legacy-verificatieprotocollen voor alle gebruikers met prioriteit globaal uitschakelt, zoals beschreven in het vorige artikel. Als u dit niet kunt doen met uw bedrijfsvereisten, biedt Exchange Online de volgende besturingselementen om het bereik van oudere verificatieprotocollen te beperken:
 
-- Basisverificatie wordt afgeschaft in Exchange Online voor Exchange Web Services (EWS), Exchange ActiveSync, POP3, IMAP4 en Remote PowerShell. Zie dit [blogbericht](https://developer.microsoft.com/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/)voor meer informatie.
-
-- U kunt [authenticatiebeleid](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) en [regels voor client toegang](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) in Exchange Online gebruiken om basisverificatie en verouderings protocollen zoals POP3, IMAP4 en geverifieerde SMTP te blokkeren.
+- U kunt met behulp van [authenticatiebeleid](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) en [regels voor client toegang](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) in Exchange Online basisverificatie en verouderde verificatieprotocollen zoals POP3, IMAP4 en geverifieerde SMTP voor specifieke gebruikers blokkeren of toestaan.
 
 - U kunt POP3-en IMAP4-toegang uitschakelen voor afzonderlijke postvakken. U kunt geverifieerde SMTP uitschakelen op organisatieniveau en de optie inschakelen voor bepaalde postvakken waarvoor deze nog niet is vereist. Zie de volgende onderwerpen voor instructies:
   - [POP3-of IMAP4-toegang voor een gebruiker in-of uitschakelen](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
   - [Geverifieerde clientverificatie in-of uitschakelen (SMTP AUTH)](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
+
+Het is ook een goed idee dat basisverificatie wordt afgeschaft in Exchange Online voor Exchange Web Services (EWS), Exchange ActiveSync, POP3, IMAP4 en externe PowerShell. Zie dit [blogbericht](https://developer.microsoft.com/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/)voor meer informatie.
 
 ## <a name="use-strict-preset-security-policies-for-priority-accounts"></a>Strikte vooraf ingestelde beveiligingsbeleidsregels gebruiken voor prioriteits accounts
 

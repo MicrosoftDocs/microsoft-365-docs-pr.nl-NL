@@ -19,17 +19,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met behulp van Hack Simulator een aanval en wachtwoord aanval uitvoert in hun Microsoft 365 E5 of Microsoft Defender for Office 365-abonnement 2-organisaties.
-ms.openlocfilehash: b1c2ad265c4812f67aee66f0f59664480b4db229
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: a53ffee29ce928910b8c4add245c002ae6eb03da
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615202"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49788109"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Aanvals Simulator in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
 
 Als uw organisatie Microsoft Defender voor Office 365, abonnement 2 bevat, inclusief het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van de organisatie, kunt u met behulp van aanvals functie in het beveiligings & nalevings centrum realistische aanvalsscenario's in uw organisatie uitvoeren. Met de gesimuleerde aanvallen kunt u gebruikers kwetsbaar maken en kwetsbaar maken voor een echte aanval met uw onderste regel. Lees dit artikel voor meer informatie.
 
@@ -119,9 +118,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
      > [!NOTE]
      >
-     > - Alle Url's zijn per ongeluk http, niet HTTPS.
-     >
-     > - Een URL-reputatie service kan een of meer van deze Url's als onveilig identificeren. Controleer de beschikbaarheid van de URL in de ondersteunde webbrowsers voordat u de URL in een malafide campagne gebruikt.
+     > Een URL-reputatie service kan een of meer van deze Url's als onveilig identificeren. Controleer de beschikbaarheid van de URL in de ondersteunde webbrowsers voordat u de URL in een malafide campagne gebruikt.
 
    - **URL voor aangepaste landingspagina**: Voer een optionele openingspagina in, waar gebruikers worden gehouden als ze op de phishing-koppeling klikken en hun referenties invoeren. Met deze koppeling vervangt u de standaard landingspagina. Als u bijvoorbeeld een interne bewustmakings training hebt, kunt u die URL hier opgeven.
 

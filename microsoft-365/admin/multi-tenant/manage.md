@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het gebruik van de Tenant omschakeling en over de weergaven voor meerdere tenants.
-ms.openlocfilehash: 2c96a80a0095e909eff19c9172eb0709ecece942
-ms.sourcegitcommit: 705915f8bf9b7c082d12a009523d8aa0670a74a1
+ms.openlocfilehash: 0b73665159fbc6ce2d1aa99ba1518dc257d88ec8
+ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48495858"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790136"
 ---
 # <a name="multi-tenant-management"></a>Beheer van meerdere tenants
 
@@ -43,7 +43,7 @@ Beheer van meerdere tenants biedt een eenvormige vorm van een beheerder waarmee 
 
 - U kunt snel schakelen **tussen tenants** die u beheert.
 
-    :::image type="content" source="../../media/yourtenantslist.png" alt-text="Meervoudige Tenant wisselaar.":::
+    :::image type="content" source="../../media/yourtenantslist.png" alt-text="De lijst met tenants met zoekfunctionaliteit.":::
 
 ## <a name="view-all-tenants-page"></a>Pagina alle tenants weergeven
 
@@ -62,14 +62,22 @@ Als u een Tenant als favoriet hebt gemarkeerd, wordt deze automatisch uitgebreid
 In de weergave servicestatus ziet u of de tenants van invloed zijn op incidenten of adviseurs. U kunt zelfs aangeven hoeveel van uw beheerde tenants van invloed zijn.
 
 1. Selecteer in het Microsoft 365-Beheercentrum in de weergave voor meerdere tenants de optie **service status**.
-2. Op de pagina **service status** kunt u op de pagina service status de gewenste problemen bekijken onder **alle services** of **alle problemen** tabbladen.
-3. Selecteer een incident op het tabblad **alle services** of **alle problemen** om meer informatie te krijgen over een incident op het tabblad **overzicht** . Selecteer het **desbetreffende tabblad tenants** om een lijst met de desbetreffende tenants te vinden.
+2. Op de geaggregeerde weergave van de **service status** pagina ziet u ook het totaal aantal incidenten, het totale aantal adviseurs waarmee een van de beheerde tenants en het aantal services met actieve incidenten wordt beïnvloed. U kunt ook zien hoeveel van uw tenants van invloed zijn op incidenten en adviseurs.
+    
+    - U kunt de filteroptie gebruiken om problemen te bekijken op type of op een service
 
-    :::image type="content" source="../../media/tenantsaffected.png" alt-text="Meervoudige Tenant wisselaar.":::
+    - U kunt op de tabbladen **alle services** of **alle problemen** met kwesties kijken.
+
+    :::image type="content" source="../../media/multitenant-servicehealth.png" alt-text="Service statuspagina voor meerdere tenants":::
+1. Selecteer een incident op het tabblad **alle services** of **alle problemen** om meer informatie te krijgen over een incident op het tabblad **overzicht** . Selecteer het **desbetreffende tabblad tenants** om een lijst met de desbetreffende tenants te vinden.
+
+    :::image type="content" source="../../media/tenantsaffected.png" alt-text="Lijst met tenants die worden beïnvloed door een probleem met de servicestatus.":::
+
+U kunt de lijst met beïnvloede tenants exporteren naar een CSV-indeling, zodat beheerders deze kunnen delen met ondersteuningsteams.
 
 ## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Eén Tenant weergeven in het Microsoft 365-Beheercentrum
 
 U kunt teruggaan naar het Microsoft 365-Beheercentrum voor een van de tenants van de pagina **alle tenants** .
 
-1. Klik op de pagina **alle tenants** op de naam van de Tenant waarvoor u het Beheercentrum wilt weergeven.
+1. Selecteer op de pagina **alle tenants** de naam van de Tenant waarvoor u het Beheercentrum wilt weergeven.
 2. U wordt doorgestuurd naar het Beheercentrum voor de Tenant.

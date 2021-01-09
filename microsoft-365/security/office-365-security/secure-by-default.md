@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over de standaardinstelling veilig in Exchange Online Protection (EOP)
-ms.openlocfilehash: 758d2169d80630a38c0b498e8c1848568e5ec941
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 8db8e7af569114e5829d24d65b8eee89c9dce8c3
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602029"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787971"
 ---
 # <a name="secure-by-default-in-office-365"></a>Standaard veilig in Office 365
 
@@ -67,5 +67,5 @@ U kunt alleen overschrijvingen gebruiken in de volgende scenario's:
 
 - Malafide simulaties: gesimuleerde aanvallen kunnen u helpen gevoelige gebruikers te identificeren voordat een echte aanval uw organisatie beïnvloedt.
 - Beveiligings-SecOps-postvakken: speciale postvakken die door beveiligings teams worden gebruikt om ongefilterde berichten te ontvangen (zowel goed als slecht). Teams kan vervolgens controleren of ze schadelijke inhoud bevatten.
-- Filters van derden: bepaalde leveranciers van derden raden u aan om EOP (SCL =-1) uit te schakelen als het filter van een derde partij de filtering voor e-mail beheert. Microsoft adviseert om EOP uit te schakelen als EOP is vereist voor [Microsoft Defender voor Office 365](office-365-atp.md). In plaats daarvan kunt u de aanbeveling [uitgebreid filteren van connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)inschakelen.
+- Filters van derden: veilig standaard is niet van toepassing als de MX-record van het domein niet verwijst naar Office 365.
 - Onjuiste positieve stappen: u kunt bepaalde berichten die nog door Microsoft worden geanalyseerd, tijdelijk toestaan [via admin-inzendingen](admin-submission.md). Net als met alle overschrijvingen, is het raadzaam dat ze tijdelijk zijn.
