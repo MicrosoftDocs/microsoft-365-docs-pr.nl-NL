@@ -16,17 +16,17 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Ga aan de slag met het gebruik van geautomatiseerde onderzoek-en antwoord mogelijkheden in Microsoft Defender voor Office 365.
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 8b6ef712e2e90e6798f16c54bc82f99590dbea42
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 6ccefb5c435f08fcef4dcc872af676fba70668ee
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614832"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794542"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Geautomatiseerd onderzoek en antwoord (lucht) in Microsoft Defender voor Office 365
 

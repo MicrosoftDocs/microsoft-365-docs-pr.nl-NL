@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Geniet van de nieuwste isolatie op basis van hardware. Voorkomen dat huidige en opkomende aanvallen, zoals misbruik of kwaadaardige koppelingen, geen productiviteit voor werknemers en beveiliging van de werknemers kunnen storen.
-ms.openlocfilehash: a1d0fb857a80d5500036f6d9a95f930ec4df38a0
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: f5a5feb14db75c5baccecf0c6afafe0c42517224
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616786"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794506"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard voor Office (openbare preview) voor beheerders
 
@@ -150,7 +150,7 @@ Als u problemen ondervindt bij het starten van Application Guard voor Office, wo
 
 1. Open de **feedback-hub-app** en meld u aan.
 
-2. Als er een dialoogvenster wordt weergegeven bij het starten van Application Guard, selecteert u **naar Microsoft melden** in het dialoogvenster fout om een nieuwe feedback verzending te starten. Anders gaat u naar <https://aka.ms/wdagoffice-fb> de juiste categorie voor Application Guard en selecteert u vervolgens **+ nieuwe feedback toevoegen** in de rechterbovenhoek.
+2. Als er een dialoogvenster wordt weergegeven bij het starten van Application Guard, selecteert u **naar Microsoft melden** in het dialoogvenster fout om een nieuwe feedback verzending te starten. Anders gaat u naar <https://aka.ms/mdagoffice-fb> de juiste categorie voor Application Guard en selecteert u vervolgens **+ nieuwe feedback toevoegen** in de rechterbovenhoek.
 
 3. Vul het vak **uw feedback samenvatten** in als dit nog niet is ingevuld.
 

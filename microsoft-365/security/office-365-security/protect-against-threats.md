@@ -16,15 +16,15 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Beheerders kunnen informatie lezen over bedreigingsbeveiliging in Microsoft 365 en configureren hoe u deze voor uw organisatie gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3eec37f01bb39dda9f767ad32be96bbff43a2ee0
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 2951d5725237d572d357ac3fc6cff0ac4df7e8f0
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683245"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794434"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -183,7 +183,7 @@ Voor het instellen van [veilige koppelingen](atp-safe-links.md), controleert u d
    - **Niet bijhouden wanneer gebruikers op veilige koppelingen klikken**: Schakel deze instelling uit om de gebruikers klikken te volgen: ![ uit-/uitschakelen ](../../media/scc-toggle-off.png) .
    - **Gebruikers niet laten klikken via veilige koppelingen naar de oorspronkelijke URL**: Controleer of de optie is ingeschakeld: ingeschakeld ![ ](../../media/scc-toggle-on.png) .
 
-   Wanneer u gereed bent, klikt u op **Opslaan**.
+   Klik op **Opslaan** wanneer u gereed bent.
 
 2. Terug naar de hoofdpagina voor veilige koppelingen: Klik op **maken**.
 

@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Microsoft 365-beheerders kunnen leren hoe ze kunnen worden hersteld via een Ransomware-aanval.
-ms.openlocfilehash: ad3f044e338abeb56046538bdda8df7b8510be0e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 753171578dc7b76aefadf4b8587e84320d98b912
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615898"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794446"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Herstel van een Ransomware aanval in Microsoft 365
 

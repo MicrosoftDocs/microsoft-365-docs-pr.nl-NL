@@ -13,14 +13,14 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, Standard versus strikte beveiligingsconfiguraties en meer. Begrijpt wat u hebt en hoe u uw eigenschappen kunt beveiligen.
-ms.openlocfilehash: 84d7dcfc68ce78bfde92f3d7096cd4104355ce94
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: a24f71286a524c4057fd1354804b067497479493
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616246"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794518"
 ---
 # <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
 
@@ -129,11 +129,11 @@ Deze naslaggids helpt u inzicht te krijgen in de mogelijkheden van elk Microsoft
 
 - Microsoft Defender voor Office 365 abonnement 2 is opgenomen in Office 365 E5, Office 365 A5 en Microsoft 365 E5.
 
-- Microsoft Defender voor Office 365 abonnement 1 is inbegrepen in Microsoft 365 Business Premium.
+- Abonnement 1 voor Microsoft Defender voor Office 365 is inbegrepen in Microsoft 365 Business Premium.
 
 - Microsoft Defender voor Office 365 plan 1 en Defender for Office 365-abonnement 2 zijn elk beschikbaar als invoegtoepassing voor bepaalde abonnementen. Voor meer informatie gaat u verder met de [beschikbaarheid van een koppelings functie in Microsoft Defender for Office 365-abonnementen](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
-- De functie [veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met de beveiligings licenties voor microsoft 365 E5 of microsoft 365 E5 (niet opgenomen in Microsoft Defender voor Office 365-abonnementen).
+- De functie [Veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met een Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in abonnementen voor Microsoft Defender voor Office 365).
 
 - Als uw huidige abonnement geen Microsoft Defender voor Office 365 bevat en u dit wilt, kunt u [contact opnemen met de verkoop als u een proefabonnement wilt starten](https://go.microsoft.com/fwlink/p/?LinkId=518644)en wilt weten hoe Microsoft voor Office 365 in uw organisatie kan werken.
 

@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: U hebt een snellere planning en configuratie van Microsoft 365 of Office 365 met instel hulpmiddelen.
-ms.openlocfilehash: 7024494de231e5adcce4bb91414b5f7bb3349f88
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 9bddf24e4133dfac32a0175b754709ba0c840760
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844090"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794422"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Installatie handleidingen voor Microsoft 365 en Office 365-Services
 
@@ -67,7 +67,7 @@ De handleiding de [omgeving voorbereiden](https://aka.ms/prepareyourenvironment)
 
 De [e-mailinstellingen adviseur](https://aka.ms/office365setup) biedt u de stapsgewijze instructies voor het configureren van Exchange Online voor uw organisatie. Dit omvat het instellen van nieuwe e-mailaccounts, het migreren van e-mailberichten en het configureren van e-mail beveiliging. Voor een geslaagde e-mail configuratie gebruikt u deze adviseur en ontvangt u de aanbevolen migratiemethode op basis van het huidige e-mailsysteem van uw organisatie, het aantal te migreren postvakken en de manier waarop u gebruikers en hun toegang wilt beheren.
 
-### <a name="gmail-contacts-and-calendar-advisor"></a>Gmail-contactpersonen en agenda adviseur
+### <a name="migrate-gmail-contacts-and-calendar-items"></a>Gmail-contactpersonen en agenda-items migreren
 
 Wanneer u het postvak van een Gmail-gebruiker migreert naar Microsoft 365, worden e-mailberichten gemigreerd, maar niet de contacten en agenda-items. De [Gmail-contactpersonen en de agenda adviseur](https://aka.ms/gmailcontactscalendar) bevat stappen voor het importeren van Google-contactpersonen en Google agenda-items in microsoft 365 met behulp van de import-en exportmethoden van Outlook.com, de Outlook-client of PowerShell.
 
@@ -90,12 +90,17 @@ Windows virtueel bureaublad is een uitgebreide bureaublad-en app-virtualisatieso
 
 De [Installatiehandleiding voor het Windows-bureaublad](https://aka.ms/wvdsetupguide) biedt beheerders ondersteuning voor het plannen van bronnen en de vereisten voor implementatie, installatie-instructies en aanvullende bronnen. 
 
-### <a name="microsoft-edge-deployment-advisor"></a>Microsoft Edge Deployment adviseur
+### <a name="microsoft-edge-setup-guide"></a>Installatiehandleiding voor Microsoft Edge
 
 Microsoft Edge is opnieuw samengesteld op basis van de bodem, zodat u de compatibiliteit en prestaties van de wereld en de ervaring, de veilig en privacy en de beste functies waarmee u het beste van Internet kunt meenemen, kunt overgaan.
 
-De [Microsoft Edge-implementatie adviseur](https://aka.ms/edgeadvisor) helpt u bij het configureren van site detectie voor Enterprise, zodat u kunt zien welke sites in uw organisatie de IE-modus moeten gebruiken, belangrijke beveiligingsfuncties moeten configureren en extra beleidsregels kunnen gebruiken om te voldoen aan de vereisten van uw organisatie en om Web Access te beheren op uw apparaten. U kunt Microsoft Edge downloaden naar afzonderlijke apparaten, of we laten u zien hoe u een implementatie uitvoert naar meerdere gebruikers in uw organisatie met behulp van Configuration Manager of Microsoft intune.
-Windows virtueel bureaublad is een uitgebreide bureaublad-en app-virtualisatiesoftware die wordt uitgevoerd in de Cloud. Het is de enige VDI (Virtual Desktop Infrastructure) voor eenvoudiger beheer, meervoudige Windows 10, optimalisering voor Microsoft 365-apps en ondersteuning voor RDS-omgevingen (Remote Desktop Services). Implementeer en schaal uw Windows-bureaubladen en-apps in een paar minuten en profiteer van de ingebouwde functies voor beveiliging en naleving. 
+De [Installatiehandleiding voor Microsoft Edge](https://aka.ms/edgeadvisor) helpt u bij het configureren van de zoekfunctie voor Enterprise site, zodat u kunt zien welke sites in uw organisatie de IE-modus gebruiken, belangrijke beveiligingsfuncties moeten configureren en extra beleidsregels willen gebruiken om te voldoen aan de vereisten van uw organisatie en om Web Access te beheren op uw apparaten. U kunt Microsoft Edge downloaden naar afzonderlijke apparaten, of we laten u zien hoe u een implementatie uitvoert naar meerdere gebruikers in uw organisatie met behulp van Configuration Manager of Microsoft intune. 
+
+### <a name="microsoft-search-setup-guide"></a>Installatiehandleiding voor Microsoft Search
+
+Met Microsoft Search helpt uw organisatie wat ze nodig hebben om te bepalen waar ze aan werken. Of het zoeken naar personen, bestanden, organigrammen, sites of antwoorden op veelgestelde vragen is, u kunt in uw organisatie Microsoft Search gebruiken om antwoorden te krijgen.
+
+Met de [Installatiehandleiding voor micro](https://aka.ms/MicrosoftSearchSetup) Soft kunt u Microsoft Search configureren, of u deze naar een groep gebruikers wilt piloten of deze wilt samenstellen aan iedereen in uw organisatie. U wijst Zoek beheerders en zoek editors toe en past vervolgens de zoekervaring voor uw gebruikers aan met antwoorden en aanvullende opties, zoals het toevoegen van de Bing-uitbreiding voor Chrome of het instellen van Bing als standaardzoekmachine.
 
 ### <a name="intune-configuration-manager-co-management-setup-guide"></a>Installatiehandleiding voor cotune Configuration Manager
 
@@ -135,6 +140,12 @@ De [AD FS-implementatie adviseur](https://aka.ms/adfsguidance) biedt u stapsgewi
 
 ## <a name="guides-for-security-and-compliance"></a>Handleidingen voor beveiliging en compliance
 
+### <a name="microsoft-intune-setup-guide"></a>Installatiehandleiding voor Microsoft intune 
+
+Configureer Microsoft intune om apparaten in uw organisatie te beheren. Voor volledig beheer van bedrijfsapparaten gebruikt u de MDM-functies (Mobile Device Management) van de intune. Als u de gegevens van uw organisatie op gedeelde en persoonlijke apparaten wilt beheren, kunt u de functies van de Mobile Application Management (MAM) van intune gebruiken. 
+
+Met de [Microsoft intune-installatiehandleiding](https://aka.ms/intunesetupguide), stelt u het nalevingsbeleid voor apparaten en apps in, wijst u beleid voor app-beveiliging toe en controleert u de status van het apparaat en de app-beveiliging. 
+
 ### <a name="microsoft-defender-for-endpoint-advisor"></a>Microsoft Defender voor eindpunten adviseur
 
 De [Microsoft Defender voor eindpunten adviseur](https://aka.ms/mdatpsetup) biedt instructies waarmee uw Enterprise-netwerk een oplossing biedt voor geavanceerde bedreigingen en deze kan detecteren, onderzoeken en beantwoorden. Maak een weloverwogen beoordeling van het beveiligingslek van uw organisatie en bepaal welke implementatiepakket-en configuratiemethoden het best zijn. 
@@ -166,9 +177,9 @@ De [Installatiehandleiding voor Microsoft Information governance](https://aka.ms
 
 Met de [Microsoft 365 apps Deployment adviseur](https://aka.ms/OPPquickstartguide) kunt u de apparaten van uw gebruikers de nieuwste versie van Office-producten zoals Word, Excel, PowerPoint en OneNote laten uitvoeren. U krijgt richtlijnen voor de verschillende implementatiemethoden, waaronder eenvoudig te installeren opties voor Enterprise-implementaties met beheerprogramma's. De instructies helpen u uw omgeving te beoordelen, uw specifieke implementatievereisten te achterhalen en de benodigde ondersteuningsprogramma's te implementeren om te zorgen voor een succesvolle installatie. 
 
-### <a name="office-mobile-apps-setup-assistant"></a>Configuratie-assistent van Office Mobile-apps
+### <a name="mobile-apps-setup-guide"></a>Installatiehandleiding voor mobiele apps
 
-De [installatie-assistent van Office Mobile apps](https://aka.ms/officeappguidance) biedt instructies voor het downloaden en installeren van Office-apps op mobiele apparaten met Windows, Ios en Android. Deze handleiding bevat stapsgewijze informatie over het downloaden en installeren van Microsoft 365 en Office 365-apps op uw telefoon en Tablet apparaten.
+De [Installatiehandleiding voor mobiele apps](https://aka.ms/officeappguidance) biedt instructies voor het downloaden en installeren van Office-apps op mobiele apparaten met Windows, Ios en Android. Deze handleiding bevat stapsgewijze informatie over het downloaden en installeren van Microsoft 365 en Office 365-apps op uw telefoon en Tablet apparaten.
 
 ### <a name="microsoft-teams-setup-guide"></a>Installatiehandleiding voor Microsoft teams
 
