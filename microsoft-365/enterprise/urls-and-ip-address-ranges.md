@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: 'Overzicht: Office 365 vereist verbinding met internet. De volgende eindpunten moeten bereikbaar zijn voor klanten die gebruikmaken van Office 365-abonnementen, waaronder Government Community Cloud (GCC).'
 hideEdit: true
-ms.openlocfilehash: 88837f495caac13db5bf029354d3a27ffa21dba6
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.openlocfilehash: 9b705c6cad0387efb16f3fc5494b1ba2fe337732
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787689"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794398"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365-URL's en IP-adresbereiken
 
@@ -79,6 +79,12 @@ De getoonde gegevenskolommen zijn:
   
 [Netwerken voor contentlevering](https://support.office.com/article/content-delivery-networks-0140f704-6614-49bb-aa6c-89b75dcd7f1f)
   
-[IP-bereiken van Microsoft Azure Datacenter](https://www.microsoft.com/download/details.aspx?id=41653)
+[IP-bereiken en servicetags Microsoft Azure – Openbare cloud](https://www.microsoft.com/download/details.aspx?id=56519)
+
+[IP-bereiken en servicetags Microsoft Azure – Cloud overheid VS](https://www.microsoft.com/download/details.aspx?id=57063)
+
+[IP-bereiken en servicetags Microsoft Azure – Cloud Duitsland](https://www.microsoft.com/download/details.aspx?id=57064)
+
+[IP-bereiken en servicetags Microsoft Azure – Cloud China](https://www.microsoft.com/download/details.aspx?id=57062)
   
 [Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)
