@@ -1,0 +1,22 @@
+- name: Overstappen van Google Workspace naar Microsoft 365
+  items:
+    - name: Overzicht
+      href: move-from-google-workspace-overview.md
+    - name: Meld u aan bij Microsoft 365
+      href: ../sign-up.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: Microsoft 365 instellen voor Google Migration
+      href: set-up-microsoft-365-forgoogle.md
+    - name: Beveiligingsbeleid instellen voor Windows-apparaten
+      href: ../secure-win10-pcs.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: Domein van Google Workspace toevoegen
+      href: add-google-domain.md
+    - name: Office-apps en Microsoft teams installeren
+      href: ../install-office.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: 'E-mail, agenda en contactpersonen migreren naar Microsoft 365'
+      href: migrate-email.md
+    - name: Verbind uw domein met Microsoft 365
+      href: connect-domain-tom365.md
+    - name: De gegevens van iedereen verplaatsen met behulp van de Verhuizer
+      href: mover-migrate-files.md
+    - name: Google Workspace annuleren
+      href: cancel-google.md

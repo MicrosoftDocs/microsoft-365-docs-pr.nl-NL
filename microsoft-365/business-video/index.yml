@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Training voor Microsoft 365 voor professionals en kleine bedrijven
+title: Microsoft 365-training voor kleine bedrijven
 summary: Meer informatie over het instellen en beheren van Microsoft 365 voor uw bedrijf.
 brand: m365
 metadata:
-  title: Training voor Microsoft 365 voor professionals en kleine bedrijven
+  title: Microsoft 365-training voor kleine bedrijven
   description: Microsoft 365 instellen en beheren in het Microsoft 365-Beheercentrum.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
@@ -13,12 +13,12 @@ metadata:
   ms.date: 12/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: d66e3a5c56fbc6676a21ec9729d44fac64e3abe3
-  ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+  ms.openlocfilehash: 2a874179c9a3da778ff0757d9a883af44a462141
+  ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 12/17/2020
-  ms.locfileid: "49701694"
+  ms.lasthandoff: 01/11/2021
+  ms.locfileid: "49794158"
 productDirectory:
   items:
   - title: Aan de slag
@@ -78,7 +78,7 @@ additionalContent:
       url: https://support.microsoft.com/training
     - title: Overstappen van Google Workspace
       summary: Ontdek hoe u overstapt op Microsoft 365 voor bedrijven.
-      url: https://support.microsoft.com/office/cff9f9fb-956e-4cb9-8b64-d7ebc1911123
+      url: moveto-microsoft-365/move-from-google-workspace-overview.md
     - title: Meer beheerders bronnen zoeken
       summary: Ga naar de Help site van het Microsoft 365-Beheercentrum.
       url: ../admin/index.yml
