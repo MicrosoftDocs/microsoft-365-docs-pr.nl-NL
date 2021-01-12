@@ -159,3 +159,5 @@
           href: get-help-support.md
         - name: Snelle installatie voor werknemers
           href: employee-quick-setup.md
+    - name: Overstappen van Google Workspace
+      href: moveto-microsoft-365/move-from-google-workspace-overview.md
