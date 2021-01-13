@@ -1,6 +1,6 @@
 ---
 title: App-bediening
-description: ''
+description: Het besturingselement voor apps en vertrouwen met toepassingen gebruiken
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -10,21 +10,21 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 32ed3f95ebb4299796c5ad3eb71802c949701b65
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 6f5cc923b5a18b1f45dd186e88228db8c3a891cc
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289125"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841301"
 ---
 # <a name="app-control"></a>App-bediening
 
 App-besturingselement is een optionele beveiligingsprocedure in Microsoft Managed Desktop waarmee de uitvoering van code op clientapparaten wordt beperkt. Dit besturingselement verkleint het risico van malware of kwaadaardige scripts door aan te geven dat alleen code die is ondertekend door een door de klant goedgekeurde lijst met uitgevers, kan worden uitgevoerd. Dit besturingselement biedt veel beveiligingsvoordelen, maar dit is vooral bedoeld om gegevens en identiteit te beschermen tegen exploits op basis van client.
 
-Microsoft Managed Desktop vergemakkelijkt het beheer van app-beheerbeleidsregels door een basisbeleid te maken dat scenario's voor kern productiviteit mogelijk maakt. U kunt vertrouwen op extra ondertekeners uitbreiden die specifiek zijn voor de apps en scripts in uw omgeving. 
+Microsoft Managed Desktop vergemakkelijkt het beheer van app-beheerbeleidsregels door een basisbeleid te maken dat scenario's voor kern productiviteit mogelijk maakt. U kunt een vertrouwensrelatie uitbreiden naar andere ondertekeners die specifiek zijn voor de apps en scripts in uw omgeving. 
 
 
-Voor elke beveiligingstechnologie is een evenwicht tussen de gebruikerservaring, beveiliging en kosten vereist. Met app-beheer wordt de bedreiging van schadelijke software in uw omgeving beperkt, maar er zijn gevolgen voor de gebruiker en aanvullende acties voor uw IT-beheerder.
+Voor elke beveiligingstechnologie is een evenwicht tussen de gebruikerservaring, beveiliging en kosten vereist. Met app-beheer wordt de bedreiging van schadelijke software in uw omgeving beperkt, maar er zijn gevolgen voor de gebruiker en verdere acties voor uw IT-beheerder.
 
 **Extra beveiliging:**
 
@@ -47,7 +47,7 @@ Microsoft Managed Desktop met een Basisbeleid dat de kernonderdelen van Microsof
 
 ### <a name="base-policy"></a>Basisbeleid
 
-Microsoft Managed Desktop, in samenwerking met Microsoft Cyber Security experts, maakt en onderhoudt een standaardbeleid waarmee de meeste apps die via Microsoft intune worden geïmplementeerd, worden ingeschakeld tijdens het blokkeren van schadelijke activiteiten, zoals de compilatie van schadelijke activiteiten of het uitvoeren van niet-vertrouwde bestanden
+Microsoft Managed Desktop, samen met Microsoft Cyber Security experts, maakt en onderhoudt een standaardbeleid waarmee de meeste apps die worden geïmplementeerd via Microsoft intune, worden ingeschakeld tijdens het blokkeren van gevaarlijke activiteiten, zoals het maken van schadelijke activiteiten of het uitvoeren van niet-vertrouwde bestanden.
 
 Het Basisbeleid heeft de volgende aanpak voor het beperken van software-uitvoering:
 
@@ -61,7 +61,7 @@ Als een andere gebruiker dan een beheerder een app of een script kon toevoegen a
 
 ### <a name="signer-requests"></a>Verzender aanvragen
 
-U verwittigt welke apps door leveranciers van software worden geleverd door een *Onderteken aanvraag*te archiveren. Door dit te doen, voegen we die vertrouwensgegevens toe aan het beleid voor basislijn toepassingen en toestaan dat alle software die met het certificaat van de uitgever is ondertekend, wordt uitgevoerd op uw apparaten.
+U verwittigt welke apps door software-uitgevers worden geleverd door een *Onderteken aanvraag* te archiveren. Door dit te doen, voegen we die vertrouwensgegevens toe aan het beleid voor basislijn toepassingen en toestaan dat alle software die met het certificaat van de uitgever is ondertekend, wordt uitgevoerd op uw apparaten.
 
 ## <a name="audit-and-enforced-policies"></a>Beleidsregels controleren en afdwingen
 

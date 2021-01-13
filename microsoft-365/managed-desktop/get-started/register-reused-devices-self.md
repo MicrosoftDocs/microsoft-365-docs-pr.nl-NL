@@ -1,27 +1,27 @@
 ---
 title: Bestaande apparaten zelf registreren
-description: Hergebruikte apparaten registreren u hebt mogelijk al een nieuwe versie van Microsoft die door Microsoft worden beheerd
+description: Hergebruikte apparaten registreren u hebt mogelijk al uzelf, zodat ze kunnen worden beheerd door het Microsoft beheerde bureaublad
 ms.prod: w10
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 1ad83dbf323e431e1694b408e09e581ff5b76348
-ms.sourcegitcommit: e9f32675061cd1cf4a3e2dada393e10d7c552efe
+ms.openlocfilehash: c2ba687b38f1de4d2ed09b0bd690e02b43f15f8d
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48279551"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840513"
 ---
 # <a name="register-existing-devices-yourself"></a>Bestaande apparaten zelf registreren
 
 >[!NOTE]
->In dit onderwerp worden de stappen beschreven die u moet uitvoeren om apparaten die u al hebt, opnieuw te gebruiken en deze te registreren in Microsoft Managed Desktop. Als u werkt met merk-nieuwe apparaten, volgt u de stappen in [nieuwe apparaten registreren in Microsoft Managed Desktop](register-devices-self.md) .
+>In dit onderwerp worden de stappen beschreven die u kunt gebruiken om apparaten die u al hebt gebruikt, opnieuw te gebruiken en deze te registreren in Microsoft Managed Desktop. Als u werkt met merk-nieuwe apparaten, volgt u de stappen in [nieuwe apparaten registreren in Microsoft Managed Desktop](register-devices-self.md) .
 
 Het proces voor partners wordt gedocumenteerd in [stappen voor partners om apparaten te registreren](register-devices-partner.md).
 
-Microsoft Managed Desktop kan met gloednieuwe apparaten werken, maar u kunt ook apparaten die u al hebt, opnieuw gebruiken (welke u de afbeelding opnieuw moet maken. U kunt apparaten registreren met Microsoft Managed desktop in de portal van Microsoft Endpoint Manager.
+Microsoft Managed Desktop kan met gloednieuwe apparaten werken, maar u kunt ook apparaten opnieuw gebruiken die u al hebt (die u opnieuw wilt instellen. U kunt apparaten registreren met Microsoft Managed desktop in de portal van Microsoft Endpoint Manager.
 
 ## <a name="prepare-to-register-existing-devices"></a>Voorbereidingen treffen om bestaande apparaten te registreren
 
@@ -53,10 +53,10 @@ U kunt Microsoft endpoint Configuration Manager gebruiken om de hardware-hashes 
 Als u al deze voorwaarden hebt voldaan, kunt u de gegevens op de volgende manier verzamelen:
 
 1. Selecteer op de console van Configuration Manager de optie **monitoring**. 
-2. Vouw in de werkruimte **bewaking het knooppunt rapporten uit** , vouw **rapporten**uit en selecteer het knooppunt **Hardware-algemeen** . 
-3. Voer het rapport uit, de gegevens van de **Windows auto pilot-apparaten**en Bekijk de resultaten.
+2. Vouw in de werkruimte **bewaking het knooppunt rapporten uit** , vouw **rapporten** uit en selecteer het knooppunt **Hardware-algemeen** . 
+3. Voer het rapport uit, de gegevens van de **Windows auto pilot-apparaten** en Bekijk de resultaten.
 4. Selecteer het pictogram **exporteren** in de rapportweergave en kies de optie **CSV (door komma's gescheiden)** .
-5. Nadat u het bestand hebt opgeslagen, moet u de resultaten filteren op alleen de apparaten die u wilt registreren met Microsoft Managed Desktop en de gegevens naar Microsoft beheerde bureaublad uploaden. Open Microsoft Endpoint Manager, ga naar het menu **apparaten** en ga naar de sectie Microsoft Managed Desktop en selecteer **apparaten**. Selecteer **+ register apparaten** om een invliegen te openen om nieuwe apparaten te registreren.
+5. Nadat u het bestand hebt opgeslagen, moet u de resultaten filteren op alleen de apparaten die u wilt registreren met Microsoft Managed Desktop en de gegevens naar Microsoft beheerde bureaublad uploaden. Open Microsoft Endpoint Manager, ga naar het menu **apparaten** en ga naar de sectie Microsoft Managed Desktop en selecteer **apparaten**. Selecteer **+ register apparaten**, dat een invlucht opent om nieuwe apparaten te registreren.
 
 
 Zie [apparaten registreren met behulp van de beheer Portal](#register-devices-by-using-the-admin-portal) voor meer informatie.
@@ -64,7 +64,7 @@ Zie [apparaten registreren met behulp van de beheer Portal](#register-devices-by
 
 #### <a name="active-directory-powershell-script-method"></a>Scriptmethode voor Active Directory PowerShell
 
-In een Active Directory-omgeving kunt u de `Get-WindowsAutoPilotInfo` PowerShell-cmdlet gebruiken om de gegevens op afstand te verzamelen van apparaten in Active Directory-groepen met behulp van WinRM. U kunt ook de `Get-AD Computer` cmdlet gebruiken en gefilterde resultaten weergeven voor een specifieke naam van een hardware model in de catalogus. Voordat u dit doet, moet u eerst deze voorwaarden bevestigen en vervolgens de stappen uitvoeren:
+In een Active Directory-omgeving kunt u de `Get-WindowsAutoPilotInfo` PowerShell-cmdlet gebruiken om de gegevens op afstand te verzamelen van apparaten in Active Directory-groepen met behulp van WinRM. U kunt ook de `Get-AD Computer` cmdlet gebruiken en gefilterde resultaten weergeven voor de naam van een specifieke hardware-model in de catalogus. Voordat u verder gaat, bevestigt u eerst deze voorwaarden en gaat u verder met de volgende stappen:
 
 - WinRM is ingeschakeld.
 - De apparaten die u registreert, zijn actief op het netwerk (dat wil zeggen dat ze niet zijn verbonden of uitgeschakeld).
@@ -123,7 +123,7 @@ U kunt nu doorgaan met het [registreren van apparaten](#register-devices-by-usin
 
 ### <a name="merge-hash-data"></a>Hash-gegevens samenvoegen
 
-Als u de hardware-hashgegevens hebt verzameld via de handmatige methoden voor PowerShell of Flash Drive, moet u de gegevens in de CSV-bestanden samenvatten in één bestand om de registratie te voltooien. Hier ziet u een voorbeeld van een PowerShell-script om dit eenvoudig te maken:
+Als u de hardware-hashgegevens hebt verzameld via de handmatige methoden voor PowerShell of Flash Drive, moet u de gegevens in de CSV-bestanden samenvatten in één bestand om de registratie te voltooien. Hieronder ziet u een voorbeeld van een PowerShell-script, zodat u dit eenvoudiger kunt maken:
 
 ```powershell
 Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv
@@ -134,7 +134,7 @@ Met de hash-gegevens die zijn samengevoegd met een CSV-bestand, kunt u nu verder
 
 #### <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheer Portal
 
-Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **apparaten** in het linker navigatiedeelvenster. Zoek de sectie Microsoft Managed Desktop van het menu en selecteer **apparaten**. Selecteer op de werkruimte Microsoft Managed Desktop apparaten de optie **+ register apparaten** om nieuwe apparaten te registreren.
+Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **apparaten** in het linker navigatiedeelvenster. Zoek de sectie Microsoft Managed Desktop van het menu en selecteer **apparaten**. Selecteer op de werkruimte Microsoft Managed Desktop apparaten de optie **+ register apparaten**, waarmee een invlucht wordt geopend om nieuwe apparaten te registreren.
 
 <!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
@@ -142,9 +142,9 @@ Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de opt
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-Volg deze stappen:
+Ga als volgt te werk:
 
-1. In **bestand uploaden**geeft u het pad op naar het CSV-bestand dat u eerder hebt gemaakt.
+1. In **bestand uploaden** geeft u het pad op naar het CSV-bestand dat u eerder hebt gemaakt.
 
 1. Selecteer **apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op de **Blade van apparaten**, dat is gemarkeerd als **registratie in behandeling**. Registratie duurt meestal minder dan 10 minuten en wanneer het apparaat succesvol wordt weergegeven als u **klaar bent** , wordt de gebruiker gevraagd het programma te gebruiken.
 
@@ -155,7 +155,7 @@ U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina. Mogel
 |---------------|-------------|
 | Registratie in behandeling | De registratie is nog niet voltooid. Ga later terug. |
 | Registratie mislukt | Registreren kon niet worden voltooid. Zie [problemen met apparaatregistratie oplossen](#troubleshooting-device-registration) voor meer informatie. |
-| Klaar voor gebruiker | De registratie is gelukt en het apparaat is nu gereed voor levering aan de gebruiker. Microsoft Managed Desktop verstuurt deze door de eerste keer instellen, dus u hoeft verder geen voorbereidingen te treffen. |
+| Klaar voor gebruiker | De registratie is gelukt en het apparaat is nu gereed voor levering aan de gebruiker. Microsoft Managed Desktop richt ze voor de eerste keer instellen, dus u hoeft geen verdere voorbereidingen te treffen. |
 | Actief | Het apparaat is doorgegeven aan de gebruiker en is geregistreerd bij uw Tenant. Dit geeft ook aan dat ze regelmatig gebruikmaken van het apparaat. |
 | Inactief | Het apparaat is doorgegeven aan de gebruiker en is geregistreerd bij uw Tenant. Ze hebben dit echter niet onlangs gebruikt (in de afgelopen 7 dagen).  | 
 

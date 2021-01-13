@@ -1,5 +1,5 @@
 ---
-title: Toegestane en geblokkeerde Url's beheren in de lijst Tenant toestaan/blokkeren
+title: Uw voorkeuren en blokken beheren in de lijst Tenant toestaan/blokkeren
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,15 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen informatie over de configuratie van URL-items in de lijst Tenant toestaan/blokkeren in het beveiligings & nalevings centrum.
-ms.openlocfilehash: f60e2f29bf9b880e9d2247fa59554300ae348a03
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+description: Beheerders kunnen leren hoe u toestaat en blokkeert in de lijst Tenant toestaan/blokkeren in de beveiligings Portal.
+ms.openlocfilehash: c789b09224d00f5bb41ae29d6d2a6efa64d23a8d
+ms.sourcegitcommit: 495b66b77d6dbe6d69e5b06b304089e4e476e568
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683209"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799711"
 ---
-# <a name="manage-urls-in-the-tenant-allowblock-list"></a>URL's beheren in de lijst met toegestane/geblokkeerde tenants
+# <a name="managing-allows-and-blocks-in-the-tenant-allowblock-list"></a>Het beheren van toestaat en blokken in de lijst Tenant toestaan/blokkeren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -38,7 +38,7 @@ In dit onderwerp wordt beschreven hoe u items in de lijst met toegestane/geblokk
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u direct naar de pagina met de **lijst met toegestane/geblokkeerde tenants** wilt gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u direct naar de pagina met de **lijst met toegestane/geblokkeerde tenants** wilt gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
 
 - De beschikbare URL-waarden worden beschreven in de [URL-syntaxis voor de sectie lijst met toegestane/geblokkeerde tenants](#url-syntax-for-the-tenant-allowblock-list) in dit artikel.
 
@@ -145,7 +145,7 @@ U kunt de URL-waarde zelf niet wijzigen. In plaats daarvan moet u de vermelding 
 
    - **Optionele opmerking**: Typ een beschrijvende tekst voor de vermelding.
 
-5. Wanneer u gereed bent, klikt u op **Opslaan**.
+5. Klik op **Opslaan** wanneer u gereed bent.
 
 ## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Met behulp van het compliance-beveiligings & voor het verwijderen van vermeldingen uit de lijst Tenant toestaan/blokkeren
 

@@ -7,16 +7,16 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 48c69a71a98e381123a8f87acc20a34eb6e99806
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+ms.openlocfilehash: df6013f2f7fec32e79557a82f9b56fe4ad487786
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071487"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840679"
 ---
 # <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
-Microsoft Managed Desktop kan met gloednieuwe apparaten werken, maar u kunt ook apparaten die u al hebt, opnieuw gebruiken (welke u de afbeelding opnieuw moet maken. U kunt apparaten registreren met Microsoft Managed desktop in de portal van Microsoft Endpoint Manager.
+Microsoft Managed Desktop kan met gloednieuwe apparaten werken, maar u kunt ook apparaten opnieuw gebruiken die u al hebt (die u opnieuw wilt instellen. U kunt apparaten registreren met Microsoft Managed desktop in de portal van Microsoft Endpoint Manager.
 
 > [!NOTE]
 > Werkt u met een partner om apparaten te verkrijgen? Als dat zo is, hoeft u zich geen zorgen te maken over het verkrijgen van de hardware-hashes. ze zorgen voor u. Zorg ervoor dat uw partner een relatie met u tot stand brengt via het [partner centrum](https://partner.microsoft.com/dashboard). Uw partner kan meer te weten komen in de [Help van partner Center](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer). Wanneer deze relatie tot stand is gebracht, registreert uw partner zichzelf ook voor uw eigen actie – geen verdere actie vereist. Zie [stappen voor partners om apparaten te registreren](register-devices-partner.md)als u de gegevens wilt zien of uw partner vragen heeft. Wanneer de apparaten geregistreerd zijn, kunt u doorgaan met het [controleren van de afbeelding](#check-the-image) en [het leveren van de apparaten](#deliver-the-device) voor uw gebruikers.
@@ -68,14 +68,14 @@ U kunt het [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/pack
 
 ### <a name="merge-hash-data"></a>Hash-gegevens samenvoegen
 
-U moet de gegevens in de CSV-bestanden gecombineerd tot één bestand om de registratie te voltooien. Hier ziet u een voorbeeld van een PowerShell-script om dit eenvoudig te maken:
+U moet de gegevens in de CSV-bestanden gecombineerd tot één bestand om de registratie te voltooien. Hieronder ziet u een voorbeeld van een PowerShell-script, zodat u dit eenvoudiger kunt maken:
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
 
 #### <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheer Portal
 
-Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **apparaten** in het linker navigatiedeelvenster. Zoek de sectie Microsoft Managed Desktop van het menu en selecteer **apparaten**. Selecteer op de werkruimte Microsoft Managed Desktop apparaten de optie **+ register apparaten** om nieuwe apparaten te registreren.
+Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **apparaten** in het linker navigatiedeelvenster. Zoek de sectie Microsoft Managed Desktop van het menu en selecteer **apparaten**. Selecteer op de werkruimte Microsoft Managed Desktop apparaten de optie **+ register apparaten**, waarmee een invlucht wordt geopend om nieuwe apparaten te registreren.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
@@ -86,7 +86,7 @@ Selecteer in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de opt
 Ga als volgt te werk:
 
 1. In **bestand uploaden** geeft u het pad op naar het CSV-bestand dat u eerder hebt gemaakt.
-3. Selecteer **apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op de **Blade van apparaten** , dat is gemarkeerd als **registratie in behandeling**. Registratie duurt meestal minder dan 10 minuten en wanneer het apparaat succesvol wordt weergegeven als u **klaar bent** , wordt de gebruiker gevraagd het programma te gebruiken.
+3. Selecteer **apparaten registreren**. Het systeem voegt de apparaten toe aan uw lijst met apparaten op **apparaten** **die zijn** gemarkeerd als geregistreerd. Registratie duurt meestal minder dan 10 minuten en wanneer het apparaat succesvol wordt weergegeven als u **klaar bent** , wordt de gebruiker gevraagd het programma te gebruiken.
 
 
 U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina. Mogelijke Staten hebben aangegeven:
@@ -95,8 +95,8 @@ U kunt de voortgang van apparaatregistratie controleren op de hoofdpagina. Mogel
 |---------------|-------------|
 | Registratie in behandeling | De registratie is nog niet voltooid. Ga later terug. |
 | Registratie mislukt | Registreren kon niet worden voltooid. Zie [problemen met apparaatregistratie oplossen](#troubleshooting-device-registration) voor meer informatie. |
-| Klaar voor gebruiker | De registratie is gelukt en het apparaat is nu gereed voor levering aan de gebruiker. Microsoft Managed Desktop verstuurt deze door de eerste keer instellen, dus u hoeft verder geen voorbereidingen te treffen. |
-| Actief | Het apparaat is doorgegeven aan de gebruiker en is geregistreerd bij uw Tenant. Dit geeft ook aan dat ze regelmatig gebruikmaken van het apparaat. |
+| Klaar voor gebruiker | De registratie is gelukt en het apparaat is nu gereed voor levering aan de gebruiker. Microsoft Managed Desktop richt ze voor de eerste keer instellen, dus u hoeft geen verdere voorbereidingen te treffen. |
+| Actief | Het apparaat is doorgegeven aan de gebruiker en is geregistreerd bij uw Tenant. Met deze status wordt ook aangegeven dat ze regelmatig gebruikmaken van het apparaat. |
 | Inactief | Het apparaat is doorgegeven aan de gebruiker en is geregistreerd bij uw Tenant. Ze hebben dit echter niet onlangs gebruikt (in de afgelopen 7 dagen).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Problemen met apparaatregistratie oplossen

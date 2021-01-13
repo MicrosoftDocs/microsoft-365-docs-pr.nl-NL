@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 60ffdcddcd069330d3cde2f9cc6b2635cf205a90
-ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
+ms.openlocfilehash: 42ff665e8ba9c369e29eeeafd27affff04b40966
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47294672"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841337"
 ---
 # <a name="new-microsoft-edge-app"></a>Nieuwe Microsoft Edge-app
 
@@ -25,11 +25,11 @@ De nieuwe [browser Microsoft Edge](https://www.microsoft.com/edge) biedt wereldw
 
 Als u uw Microsoft Managed Desktop-apparaten wilt migreren naar de nieuwe Microsoft Edge-browser, kunt u een IT-ondersteunings ticket via de beheerde bureaublad portal van Microsoft opslaan. We implementeren de Edge stabiel kanaal naar de test groep wanneer u het ticket bijwerkt en het vervolgens in elke volgende implementatiegroep elke 24 uur implementeren. Als u de implementatie wilt onderbreken, moet u een ander ticket vragen om te worden bewaard.
 
-Het [bèta kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) is ook beschikbaar wanneer u daarom aanvraag onderneemt voor een representatieve validering binnen uw organisatie. Microsoft Managed Desktop implementeert de toepassing als vereist voor de test en de eerste groepen, zodat al deze gebruikers het bèta-kanaal hebben, naast het stabiele kanaal. Voor alle extra gebruikers die toegang hebben tot het bèta kanaal, voegt u ze toe aan de groep van de **moderne gebruikers van de werkplek** en kunnen ze deze installeren via de bedrijfs portal.
+Het [bèta kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) is ook beschikbaar wanneer u daarom aanvraag onderneemt voor een representatieve validering binnen uw organisatie. Microsoft Managed Desktop implementeert de toepassing als vereist voor de test en de eerste groepen, zodat al deze gebruikers het bèta-kanaal hebben, naast het stabiele kanaal. Voor andere gebruikers die toegang hebben tot het Beta-kanaal, voegt u deze toe aan de groep nieuwe gebruikers van de **moderne werkplek** en de gebruikers die deze installeren via de bedrijfs portal.
 
 ## <a name="updates-to-microsoft-edge"></a>Updates voor Microsoft Edge
 
-Microsoft Managed Desktop implementeert het [stabiele kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) van Microsoft Edge die elke zes weken automatisch wordt bijgewerkt. Updates op het stabiele kanaal worden [progressief](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) uitgeworpen door de productgroep Microsoft Edge om ervoor te zorgen dat ze de beste ervaring voor klanten zijn. 
+Microsoft Managed Desktop implementeert het [stabiele kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) van Microsoft Edge, dat automatisch wordt bijgewerkt, telkens zes weken. Updates op het stabiele kanaal worden [progressief](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) uitgeworpen door de productgroep Microsoft Edge om ervoor te zorgen dat ze de beste ervaring voor klanten zijn. 
 
 Het [bèta kanaal](https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) wordt geïmplementeerd op apparaten in zowel de test als de eerste groepen voor de representatieve validatie binnen de organisatie. Dit kanaal wordt volledig ondersteund en wordt telkens zes weken automatisch bijgewerkt met nieuwe functies.
 
@@ -54,21 +54,21 @@ Microsoft Managed Desktop stelt dit beleid in om te voorkomen dat chroom extensi
 
 **Standaardwaarde:** Uitgeschakeld
 
-Door dit beleid uit te schakelen, wordt Microsoft Edge alleen gebruikt voor de native Messaging-hosts die op systeemniveau zijn geïnstalleerd. Hosts voor systeemeigen berichten maken deel uit van chroom extensies waarmee de browser kan communiceren met andere onderdelen van het eindpunt van gebruikers, en maakt diverse beveiligingskwesties.  
+Door dit beleid uit te schakelen, wordt Microsoft Edge alleen gebruikt voor de native Messaging-hosts die op systeemniveau zijn geïnstalleerd. Hosts voor systeemeigen berichten maken deel uit van chroom extensies, zodat de browser kan communiceren met andere onderdelen van het eindpunt van gebruikers, waardoor diverse beveiligingskwesties worden gemaakt.  
 
-### <a name="secure-sockets-layer-ssl"></a>Secure Sockets Layer (SSL)
+### <a name="secure-sockets-layer-tlsssl"></a>Secure Sockets Layer (TLS/SSL)
 
-#### <a name="minimum-ssl-version"></a>Minimale SSL-versie
+#### <a name="minimum-tls-version"></a>Minimale TLS-versie
 
 **Standaardwaarde:** Minimale TLS-1,2 ondersteund
 
-Als u het minder veilige TLS 1,1 wilt gebruiken, kunt u dit aanvragen.
+Als u het minder veilige TLS 1,1 wilt gebruiken, kunt u een verzoek indienen.
 
 #### <a name="allows-users-to-proceed-from-the-ssl-warning-page"></a>Gebruikers kunnen doorgaan op de pagina SSL-waarschuwing
 
 **Standaardwaarde:** Uitgeschakeld
 
-We raden u aan deze instelling niet in te schakelen omdat gebruikers sites kunnen bezoeken met een SSL-fout.
+We raden u aan deze instelling niet in te schakelen omdat gebruikers sites kunnen bezoeken met een TSL-fout.
 
 ### <a name="microsoft-defender-smartscreen"></a>Microsoft Defender SmartScreen
 
@@ -96,7 +96,7 @@ U wordt aangeraden deze instelling uit te schakelen omdat gebruikers waarschuwin
 
 **Standaardwaarde:** Uitgeschakeld
 
-We raden u niet aan gebruik te maken van Flash vanwege bijbehorende beveiligingsrisico's. Als u nog steeds processen hebt die van Flash variëren, stelt u het **[PluginsAllowedForUrls](https://docs.microsoft.com/deployedge/microsoft-edge-policies#pluginsallowedforurls)** -beleid in om Flash voor sites in te schakelen. Als u een toegestane lijst met sites niet kunt bewaren voor gebruik van Flash, moet u een wijzigingsaanvraag indienen om de waarde te wijzigen om **te worden afgespeeld**, zodat gebruikers kunnen kiezen wanneer deze nodig zijn om Flash uit te voeren.
+We raden u niet aan gebruik te maken van Flash vanwege bijbehorende beveiligingsrisico's. Als u nog steeds processen hebt die van Flash werken, stelt u het **[PluginsAllowedForUrls](https://docs.microsoft.com/deployedge/microsoft-edge-policies#pluginsallowedforurls)** -beleid in om Flash voor sites die nodig zijn, in te schakelen. Als u een toegestane lijst met sites niet kunt bewaren voor gebruik van Flash, moet u een wijzigingsaanvraag indienen om de waarde te wijzigen om **te worden afgespeeld**, zodat gebruikers kunnen kiezen wanneer deze nodig zijn om Flash uit te voeren.
 
 ### <a name="password-manager"></a>Wachtwoordbeheer
 
@@ -114,7 +114,7 @@ Microsoft Managed Desktop schakelt standaard de Internet Explorer-modus voor uw 
 #### <a name="internet-explorer-mode-integration"></a>Integratie van de Internet Explorer-modus
 **Standaardwaarde:** De modus Internet Explorer
 
-Apparaten zijn standaard ingesteld op de modus Internet Explorer, maar u kunt ze instellen voor het openen van sites in een zelfstandig, Internet Explorer 11-venster. Als u dit wilt wijzigen, moet u een ondersteuningsaanvraag indienen.
+Apparaten zijn standaard ingesteld op de modus Internet Explorer, maar u kunt ze instellen voor het openen van sites in een zelfstandig, Internet Explorer 11-venster. Als u dit gedrag wilt wijzigen, moet u een ondersteuningsaanvraag indienen.
 
 #### <a name="add-sites-to-the-enterprise-mode-site-list"></a>Sites toevoegen aan de site lijst van de ondernemingsmodus
 Voor sites die u wilt openen in de Internet Explorer-modus, moet u deze opnemen in de [lijst met bedrijfssites](https://docs.microsoft.com/DeployEdge/edge-ie-mode-sitelist). Het onderhoud en de implementatie van de ondernemings site lijst is uw eigen verantwoordelijkheid. Voor meer informatie raadpleegt u [configureren met behulp van het site lijstbeleid Enterprise mode configureren](https://docs.microsoft.com/DeployEdge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy)
@@ -157,7 +157,7 @@ U kunt ervoor zorgen dat Microsoft Edge correct wordt bijgewerkt door de [Update
 
 ### <a name="other-common-enterprise-policies"></a>Overig algemeen ondernemingsbeleid
 
-Microsoft Edge biedt een groot aantal extra beleidsregels. Dit zijn enkele van de meest voorkomende versies:
+Microsoft Edge biedt een groot aantal andere beleidsregels. Dit zijn enkele van de meest voorkomende versies:
  
 - [Sites configureren in de lijst met ondernemings sites en de IE-modus](https://docs.microsoft.com/deployedge/edge-ie-mode-sitelist)
 - [Instellingen voor opstarten, startpagina en nieuw tabblad configureren](https://docs.microsoft.com/deployedge/microsoft-edge-policies#startup-home-page-and-new-tab-page)

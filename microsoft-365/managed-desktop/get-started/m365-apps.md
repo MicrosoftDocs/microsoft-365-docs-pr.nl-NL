@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 767489ba9f9ac63bc1a2d8b4999b6634335b1aef
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 98995084fb7de9ecb434b70b5d38793a20675f19
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547744"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840340"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen
 
@@ -28,11 +28,11 @@ Microsoft Managed Desktop zorgt ervoor dat Microsoft 365-apps voor Enterprise (6
 - PowerPoint
 - Outlook
 - Publisher
-- Access
+- Toegang
 - Skype voor Bedrijven
 - OneNote
 
-Met deze aanpak wordt de invloed van het netwerk geminimaliseerd en wordt gegarandeerd dat gebruikers productief kunnen zijn zodra ze hun apparaat ontvangen. We implementeren vervolgens extra beleidsregels voor beheerde apparaten om de toepassingen te configureren voor gebruik.
+Met deze aanpak wordt de invloed van het netwerk geminimaliseerd en wordt gegarandeerd dat gebruikers productief kunnen zijn zodra ze hun apparaat ontvangen. We implementeren vervolgens meer beleidsregels op beheerde apparaten om de toepassingen te configureren voor gebruik.
 
 > [!NOTE]
 > Microsoft teams is apart geïmplementeerd via Microsoft 365-apps voor Enterprise en is niet opgenomen in de basisafbeelding. 
@@ -66,7 +66,7 @@ In een uitgebrachte Microsoft-Desktop wordt de fout tarieven van alle Microsoft 
 
 ### <a name="delivery-optimization"></a>Delivery Optimization
 
-Delivery Optimization is een peer-to-peer-distributie technologie beschikbaar in Windows 10. Apparaten kunnen inhoud, zoals updates, delen die de apparaten van Microsoft via internet hebben gedownload. Dit kan de bandbreedte van het netwerk beperken omdat een apparaat gedeelten van de update kan downloaden van een ander apparaat in het lokale netwerk, zodat u de update niet volledig van Microsoft hoeft te downloaden.
+Delivery Optimization is een peer-to-peer-distributie technologie beschikbaar in Windows 10. Apparaten kunnen inhoud, zoals updates, delen die de apparaten van Microsoft via internet hebben gedownload. Met behulp van deze functie kunt u de netwerkbandbreedte verlagen omdat een apparaat gedeelten van de update kan downloaden van een ander apparaat in het lokale netwerk, zodat u de update niet volledig van Microsoft hoeft te downloaden.
 
 [Delivery Optimization](https://docs.microsoft.com/deployoffice/delivery-optimization) is standaard ingeschakeld op apparaten met de edities Windows 10 Enterprise of Windows 10 education. 
 
@@ -150,14 +150,14 @@ Sommige organisaties zorgen voor gebruikers die toegang hebben tot zowel zakelij
 
 ## <a name="settings-you-manage"></a>Instellingen die u beheert
 
-Er zijn veel andere beleidsregels die door Microsoft worden beheerd de bureaubladversie nog niet is ingesteld als onderdeel van onze service. U kunt deze configureren met behulp van Microsoft intune, dat gebruikmaakt van de service [Cloud beleid van Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) . Ga hiervoor als volgt te werk:
+Er zijn veel andere beleidsregels die door Microsoft worden beheerd de bureaubladversie nog niet is ingesteld als onderdeel van onze service. U kunt deze beleidsregels configureren met behulp van Microsoft intune, dat gebruikmaakt van de service [Cloud beleid van Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) . Voer de volgende stappen uit om deze beleidsregels in te stellen:
 
 1.  Meld u aan bij het Beheercentrum van Microsoft Endpoint Manager.
 2.  Selecteer **Apps > beleid voor Office-Apps > maken**
 3.  Voer de volgende handelingen uit op de pagina **beleidsconfiguratie maken** :
     - Voer een naam in.
     - Voer een beschrijving in (optioneel).
-    - Kies in **toewijzingen**of dit beleid van toepassing is op alle gebruikers van microsoft 365-apps voor ondernemingen of alleen voor gebruikers die anoniem toegang hebben tot documenten via Office voor het web.
+    - Kies in **toewijzingen** of dit beleid van toepassing is op alle gebruikers van microsoft 365-apps voor ondernemingen of alleen voor gebruikers die anoniem toegang hebben tot documenten via Office voor het web.
     - Selecteer de beveiligingsgroep op basis van AAD die is toegewezen aan de beleidsconfiguratie. U kunt alle beleidsconfiguraties slechts toewijzen aan één groep, en elke groep kan slechts één beleidsconfiguratie worden toegewezen.
     - Configureer de beleidsinstellingen die moeten worden opgenomen in de beleidsconfiguratie. U kunt op de naam van de beleidsinstelling zoeken naar de beleidsinstelling die u wilt configureren. U kunt ook filteren op de toepassing, of het beleid een aanbevolen beveiligings basislijn is en of het beleid is geconfigureerd. De kolom platform geeft aan of het beleid wordt toegepast op Microsoft 365-apps voor Enterprise voor Windows-apparaten, Office voor het web of alle.
 4.  Nadat u uw selecties hebt gemaakt, kiest u **maken**.

@@ -1,6 +1,6 @@
 ---
 title: Beheerde bureaublad apparaten van Microsoft
-description: Dit onderwerp bevat een overzicht van de specificaties voor apparaten die zijn goedgekeurd voor Microsoft Managed Desktop.
+description: Dit artikel bevat de specificaties voor apparaten die zijn goedgekeurd voor Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e858ae1fc564fdcacbe181930ae1489d131965e7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: fff44098e3da17c68e4347fb14690945154edfdb
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659676"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841185"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Beheerde bureaublad apparaten van Microsoft 
 
@@ -23,7 +23,7 @@ Zie [documentatie en bronnen voor Microsoft-bureaublad documenten](https://docs.
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Als u zich wilt aanmelden bij Microsoft Managed Desktop, moet een apparaat een van de volgende modellen hebben en voldoen of de vermelde specificaties voor RAM, processorfamilie en schijfruimte vergaderen. 
+Als u zich wilt aanmelden bij Microsoft Managed Desktop, moet een apparaat een van de volgende modellen hebben en voldoen aan de vermelde specificaties voor RAM, processorfamilie en schijfruimte. 
 
 De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt ordenen, moet u werken met uw commerciële kanaal contactpersonen om ervoor te zorgen dat u de juiste configuraties kiest. In deze tabel is de *Archiefdatum* de datum waarop deze modellen van toepassing zijn op een kortere Microsoft beheerde bureaublad service. op alle apparaten die na deze datum zijn ondergebracht, ontvangt u geen volledige ondersteuning voor driejarige waarden van Microsoft Managed Desktop. Gearchiveerde apparaten worden ook weergegeven in [Microsoft beheerde bureaublad gearchiveerde apparaten](archived-device-list.md). *Pensioneringsdatum* is de datum waarop dit model helemaal niet meer wordt ondersteund door Microsoft beheerde desktop. Op deze datum worden alle geregistreerde apparaten van dit model verwijderd van Microsoft Managed Desktop, ongeacht wanneer ze zijn ingeschreven.
 
@@ -84,7 +84,7 @@ Daarnaast moet het apparaat ook voldoen aan de volgende criteria:
 >-  Eén apparaat gebruiken voor verschillende werkbelastingen.
 >- Meerdere beeldschermen gebruiken.
 
-**Aanvullende Help**
+**Meer informatie**
 
 Deze informatiebronnen kunnen u helpen bij het beantwoorden van vragen die u bij bepaalde apparaten moet voordoen:
 

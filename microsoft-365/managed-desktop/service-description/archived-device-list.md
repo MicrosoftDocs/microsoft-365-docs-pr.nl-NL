@@ -11,23 +11,23 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 57b49e49a20ee9e088301e90590c19cfabf89a2b
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 5d386000fab8894dd60790d3514ae93feaa03a22
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658939"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841277"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Gearchiveerde apparaten in Microsoft beheerd bureaublad
 
-Om ervoor te zorgen dat de beste gebruikerservaring ondersteuning biedt, wordt de ondersteuning voor apparaten op een bepaald moment door Microsoft beheerde desktop buiten gebruik gesteld. In dit onderwerp vindt u een overzicht van apparaten die in de komende paar jaren in de buurt worden weergegeven. Als u aan de slag wilt met Microsoft Managed Desktop met behulp van apparaten die u al hebt, moet u deze lijst zorgvuldig controleren.
+Om ervoor te zorgen dat de beste gebruikerservaring ondersteuning biedt, wordt de ondersteuning voor apparaten op een bepaald moment door Microsoft beheerde desktop buiten gebruik gesteld. Dit artikel bevat een overzicht van de apparaten die in de komende paar jaren in de buurt worden weergegeven. Als u aan de slag wilt met Microsoft Managed Desktop met behulp van apparaten die u al hebt, moet u deze lijst zorgvuldig controleren.
 
 >[!IMPORTANT]
 >U kunt deze apparaten nog steeds registreren, maar ze hebben wel een kortere levensduur met Microsoft Managed Desktop. Als u nieuwe apparaten koopt, moet u modellen gebruiken in de [lijst met actieve apparaten](./device-list.md).
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Als u zich wilt aanmelden bij Microsoft Managed Desktop, moet een apparaat een van de volgende modellen hebben en voldoen of de vermelde specificaties voor RAM, processorfamilie en schijfruimte vergaderen. Er wordt geen andere aanpassing ondersteund.
+Als u zich wilt aanmelden bij Microsoft Managed Desktop, moet een apparaat een van de volgende modellen hebben en voldoen aan de vermelde specificaties voor RAM, processorfamilie en schijfruimte. Er wordt geen andere aanpassing ondersteund.
 
 
 
@@ -70,7 +70,7 @@ Daarnaast moet het apparaat ook:
 - De Windows-versie voor de eerste keer starten niet voltooien.
 - Registreren bij Microsoft Managed Desktop met de [apparaat registratie](https://aka.ms/mmddrhelp) functie
 
-#### <a name="additional-help"></a>Aanvullende Help
+#### <a name="more-help"></a>Meer informatie
 
 Deze informatiebronnen kunnen u helpen bij het beantwoorden van vragen die u bij bepaalde apparaten moet voordoen:
 

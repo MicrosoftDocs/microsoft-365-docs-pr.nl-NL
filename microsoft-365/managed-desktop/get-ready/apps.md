@@ -1,6 +1,6 @@
 ---
 title: Apps in Microsoft Managed Desktop
-description: ''
+description: In dit artikel wordt uitgelegd hoe apps worden afgehandeld, waaronder de manier waarop u ze kunt inpakken, implementeren en ondersteunen.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: da5798b3412cb69580e5d9adc582f0ca4add1e3e
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 20d68ec007ccda82816ad2288428016019f6d4b2
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289589"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840691"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Apps in Microsoft Managed Desktop
 
@@ -47,7 +47,7 @@ U moet nog bepaalde dingen doen met deze apps:
 
 ## <a name="apps-you-provide"></a>Apps die u verstrekt
 
-Natuurlijk hebt u waarschijnlijk een aantal andere apps nodig voor uw bedrijfsactiviteiten. U kunt deze alleen gebruiken voor Microsoft beheerde bureaublad apparaten met behulp van de distributie pijplijn van Microsoft intune. Als de app dit nodig heeft, kunt u deze door een leverancier laten inpakken (een niet-Microsoft-leverancier of Microsoft Consulting Services (MCS)) of kunt u de middelen zelf inpakken. Vervolgens voegt u deze pakketten toe aan de Microsoft beheerde bureaublad Portal en wijst u ze toe aan Azure Active Directory-groepen om de implementatie te activeren. 
+U hebt waarschijnlijk andere apps nodig voor uw bedrijfsactiviteiten. Met de implementatie pijplijn van Microsoft intune kunt u alleen deze apps implementeren voor Microsoft Managed Desktop devices. Als de app dit nodig heeft, kunt u deze door een leverancier laten inpakken (een niet-Microsoft-leverancier of Microsoft Consulting Services (MCS)) of kunt u de middelen zelf inpakken. Vervolgens voegt u deze pakketten toe aan de Microsoft beheerde bureaublad Portal en wijst u ze toe aan Azure Active Directory-groepen om de implementatie te activeren. 
 
 Als u momenteel uw apps implementeert met behulp van Microsoft endpoint Configuration Manager, kan Microsoft Managed Desktop u een query leveren om uw apps te beoordelen en erachter te komen welke de apps gereed zijn om te worden gemigreerd naar Microsoft intune en welke aanpassingen mogelijk zijn vereist.
 
@@ -56,12 +56,12 @@ Als u momenteel uw apps implementeert met behulp van Microsoft endpoint Configur
 Controleer uw apps, Controleer het volgende:
 
 - Geen van de apps is toegestaan of heeft beperkte werking, zoals wordt beschreven in de [vereisten voor Microsoft beheerde bureaubladtoepassing](https://aka.ms/app-req).
-- Apps moeten worden beheerd door Microsoft intune. Zie voor meer informatie hierover [Windows 10-implementatie met Microsoft intune](https://docs.microsoft.com/intune/apps-windows-10-app-deploy) en [apps toevoegen aan Microsoft intune](https://docs.microsoft.com/intune/apps-add).
+- Apps moeten worden beheerd door Microsoft intune. Zie [Windows 10 app Deployment met Microsoft intune](https://docs.microsoft.com/intune/apps-windows-10-app-deploy) en [apps toevoegen aan Microsoft intune](https://docs.microsoft.com/intune/apps-add)voor meer informatie over dit onderwerp.
 - Andere vereisten voor de verpakking, zoals het verschaffen van licentiecodes, overeenkomst met licentievoorwaarden en vooraf ingestelde serververbindingen.
 
 ### <a name="decide-how-to-package-apps"></a>Bepalen hoe apps moeten worden verpakt
 
-Voor sommige onafhankelijke softwareleveranciers moet u mogelijk uw apps bundelen voordat ze centraal worden geïmplementeerd. "Verpakking" betekent dat het installatieprogramma van de app is geconfigureerd met instellingen zoals licentiecodes, externe serverlocaties of bureaublad snel toetsen, zodat de app kan worden geïnstalleerd op de achtergrond.
+Voor sommige onafhankelijke software-uitgevers moet de app zijn verpakt voordat ze centraal worden geïmplementeerd. "Verpakking" betekent dat het installatieprogramma van de app is geconfigureerd met instellingen zoals licentiecodes, externe serverlocaties of bureaublad snel toetsen, zodat de app kan worden geïnstalleerd op de achtergrond.
 
 U kunt op drie manieren uw apps bundelen: 
 
@@ -69,10 +69,6 @@ U kunt op drie manieren uw apps bundelen:
 - U kunt zelf apps inpakken
 - U kunt werken met een leverancier van niet Microsoft
 - U kunt met MCS deelnemen aan uw apps. Werk samen met uw Microsoft-accountvertegenwoordiger. Zie [werken met Microsoft Consulting Services](apps-MCS.md)voor meer informatie.
-
-
-
-
 
 
 

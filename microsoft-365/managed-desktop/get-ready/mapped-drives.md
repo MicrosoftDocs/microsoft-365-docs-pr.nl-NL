@@ -9,12 +9,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fc216adadea8dd774901d42a754fb288412318a1
-ms.sourcegitcommit: adaedd1418a3bd6e4875b77fd9e008b47e0b2a51
+ms.openlocfilehash: 34b2186ea3f9129ae7bb602aee879d7d23424136
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48104592"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841057"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Toegewezen stations voorbereiden voor Microsoft Managed Desktop
 
@@ -48,7 +48,7 @@ Het is uw verantwoordelijkheid om ervoor te zorgen dat gebruikers en groepen de 
  
 Zorg ervoor dat de stationstoewijzingen niet worden vermeden en dat u de vereisten zorgvuldig door hebt bekeken voordat u een serviceaanvraag verzendt. Voer daarna de volgende stappen uit:
 
-1. Ga naar [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en selecteer ' probleemoplossing + ondersteuning ' en zoek vervolgens naar ' service aanvragen ' onder de sectie Microsoft Managed Deskop.  
+1. Ga naar [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en selecteer ' probleemoplossing + ondersteuning ' en zoek vervolgens naar ' service aanvragen ' onder de sectie beheerde bureaubladversie van Microsoft.  
 2. Verzend een ondersteuningsaanvraag met de naam ' toegewezen schijven implementeren ' en geef alle vereiste gegevens voor de bestandsdeling op.  
 3. Microsoft Managed Desktop IT IT zal u adviseren met updates van ondersteuningsaanvragen wanneer de aanvraag is voltooid. Deze configuratie wordt in eerste instantie alleen geïmplementeerd op apparaten in de groep test implementatie.  
 4. U moet testen en controleren of de configuratie die is geïmplementeerd door het Microsoft beheerde bureaublad IT, werkt zoals u verwacht. Antwoord met het tabblad discussie in de details van hetzelfde ondersteuningsverzoek voor het melden van de bewerkingen van het Microsoft-beheer bureaublad wanneer u klaar bent met het testen.  

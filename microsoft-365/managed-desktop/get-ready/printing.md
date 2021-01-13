@@ -9,19 +9,19 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5198691a38b179a5491a36de95531edb9f32d691
-ms.sourcegitcommit: f7ca339bdcad38796c550064fb152ea09687d0f3
+ms.openlocfilehash: b6e809505fed8b1f84eb502dc08751ad1f0b587c
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322221"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841397"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Printbronnen voorbereiden voor Microsoft Managed Desktop
 
 Als u klaar bent om u aan te melden bij Microsoft Managed Desktop, evalueert u de afdrukvereisten en bepaalt u de juiste aanpak voor de omgeving. U hebt drie opties:
  
 - Implementeer de Microsoft Universal Print-oplossing zodat Microsoft de beheerde bureaublad apparaten gemakkelijk kunnen detecteren. Zie [Wat is universeel afdrukken](https://docs.microsoft.com/universal-print/fundamentals/universal-print-whatis)voor meer informatie.
-- Gebruik rechtstreeks een aangepaste PowerShell-script om printers te implementeren. Voer de stappen uit in de sectie [lokale printers instellen](#set-up-local-printers) om dit te doen.
+- Gebruik rechtstreeks een aangepaste PowerShell-script om printers te implementeren. Voer de stappen uit in de sectie [lokale printers instellen](#set-up-local-printers) .
 - Gebruik een niet-Microsoft Cloud printing-oplossing die compatibel is met Windows 10-apparaten die lid zijn van een Azure Active Directory-domein. De oplossing moet voldoen aan de softwarevereisten voor Microsoft Managed Desktop. Zie vereisten voor de [beheerde bureaubladtoepassing van Microsoft](../service-description/mmd-app-requirements.md)voor meer informatie.
  
 Als de printerstuurprogramma's niet beschikbaar zijn in Microsoft Update of in de Microsoft Store, kunt u deze in alle gevallen zelf verkrijgen en ze laten inpakken voor implementatie met Microsoft intune voor Microsoft Managed Desktop-apparaten. Zie voor meer informatie [intune standalone-Win32®-app beheren](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management)

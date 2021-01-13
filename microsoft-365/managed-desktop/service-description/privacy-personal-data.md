@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 8412c10416a4a131129eebd20d1b4f01228afaf3
-ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
+ms.openlocfilehash: 7005e09d5a3df158569e132d2954f3b9a0ebf371
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49586683"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840479"
 ---
 # <a name="privacy-and-personal-data"></a>Privacy en persoonlijke gegevens
 
@@ -30,7 +30,7 @@ Wanneer gebruikers de bedrijfsapparatuur registreren in Microsoft Managed Deskto
 Microsoft Managed Desktop verzamelt geen gegevens met zichzelf om de service ervan te geven (met uitzondering van [contactgegevens voor IT-beheerders](#it-admin-contact-information). In plaats hiervan worden gegevens die door Microsoft worden beheerd, opnieuw gebruikt met andere bronnen, zoals Vensters en Microsoft intune, al verzameld. Microsoft Managed Desktop gebruikt gegevens die worden verzameld via ingeschreven apparaten:
 
 - Diagnostische gegevens van Windows die worden beheerd door Microsoft Managed Desktop, worden verzonden naar de diagnostische gegevens van Microsoft Windows.
-- Microsoft Managed Desktop gebruikt [modern management](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/) voor het beheren van de ingeschreven apparaten. U moet de apparaten als onderdeel registreren in azure Active Directory van de Tenant.
+- Microsoft Managed Desktop gebruikt [modern management](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/) voor het beheren van de ingeschreven apparaten. Als onderdeel van ' modern management ' moeten de apparaten worden geregistreerd in de Azure Active Directory van de Tenant.
 - Microsoft Managed Desktop gebruikt Microsoft intune voor het distribueren van de hoogst geoptimaliseerde en veilige configuratie van geregistreerde apparaten.
 - Microsoft Managed Desktop gebruikt beveiligings Intelligence gegevens van Microsoft Defender Advanced thread Protection voor klanten die deze service gebruiken.
 
@@ -60,8 +60,8 @@ Microsoft Managed Desktop gebruikt deze gegevens:
 |---------|---------|
 |Azure Active Directory-gegevens     | Wordt gebruikt in rapporten die zijn gemaakt voor tenantbeheerders, die beschikbaar zijn in de portal van Microsoft Managed Desktop-beheerder.        |
 |InTune-gegevens     | Wordt gebruikt in rapporten die zijn gemaakt voor tenantbeheerders, die beschikbaar zijn in de portal van Microsoft Managed Desktop-beheerder.        |
-|Microsoft Defender voor eindpunt     |  Wordt gebruikt voor het adresseren van beveiligingsbedreigingen op geregistreerde apparaten door Microsoft beheerde bureaublad beveiliging voor processen.  |
-|Diagnostische gegevens voor Windows     |Wordt gebruikt om de status van de update van beheerde apparaten te bepalen en de IT-service voor het beheer van de IT-Service (ITaaS) van Microsoft te verbeteren.         |
+|Microsoft Defender for Endpoint     |  Wordt gebruikt voor het adresseren van beveiligingsbedreigingen op geregistreerde apparaten door Microsoft beheerde bureaublad beveiliging voor processen.  |
+|Diagnostische gegevens voor Windows     |Wordt gebruikt om de bijwerkstatus van beheerde apparaten te bepalen en de IT-service voor IT-ITaaS van Microsoft te verbeteren.         |
 |Contactgegevens beheerder     | Wordt door Microsoft Managed Desktop gebruikt om te communiceren met tenantbeheerders.        |
 
 
@@ -91,7 +91,7 @@ Zie [Azure Active Directory – waar bevindt zich uw gegevens](https://msit.powe
 
 InTune-gegevens kunnen worden opgeslagen in een paar verschillende regio's, zoals Europa Noord (Ierland) en Europe West (Nederland). Uw IT-beheerder maakt een Tenant account en kiest het land waar gegevens worden opgeslagen wanneer ze zich aanvankelijk registreren in de intune-Services. Zie [Microsoft intune-waar zijn mijn klantgegevens?](http://intunedatacentermap.azurewebsites.net/)voor een lijst met de datacenter-locaties die worden gebruikt door intune. Zie [gegevens verzamelen in intune](https://docs.microsoft.com/intune/privacy-data-collect)voor meer informatie over het opslaan en gebruiken van gegevens in intune.
 
-### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor eindpunt
+### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender for Endpoint
 
 Microsoft Defender voor eindpuntgegevens kan worden opgeslagen in een paar verschillende regio's. Om die reden werkt Defender voor eindpunten in de Microsoft Azure-datacenters in de Europese Unie, het Verenigd Koninkrijk, het Verenigd Koninkrijk en in de Verenigde Staten, zoals vermeld op [Microsoft Defender for Endpoint: gegevensopslaglocaties](http://intunedatacentermap.azurewebsites.net/). Zie voor meer informatie over het opslaan en gebruiken van een eindpunt voor het eindpunt [welke gegevens Microsoft Defender voor eindpunten verzamelen?](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect)
 

@@ -1,6 +1,7 @@
 ---
 title: Ga naar de beheerdersportal
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
+description: De beheerportal zoeken en gebruiken, waaronder het beheren van de toegang.
 ms.service: m365-md
 ms.author: jaimeo
 author: jaimeo
@@ -9,19 +10,19 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: deeced350ad867a374a486967c2cbd278ba91710
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 09427d163b8b5e47911b6df26e5acf0fcd1f3524
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519327"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841349"
 ---
 # <a name="access-the-admin-portal"></a>Toegang tot de beheerportal
 
-De gateway naar de Microsoft beheerde bureaublad service is de Microsoft [Azure-Portal](https://portal.azure.com). Zie de [documentatie van Azure Portal](https://docs.microsoft.com/azure/azure-portal/)voor meer informatie over het gebruiken en aanpassen van uw Azure Portal-ervaring. Nu beschikbaar in het voorbeeld kunt u Microsoft Managed Desktop ook vinden in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/). Als u niet bekend bent met de mogelijkheden van deze portal voor Apparaatbeheer, raadpleegt u de [documentatie Microsoft Endpoint Manager](https://docs.microsoft.com/mem/).
+De gateway naar de Microsoft beheerde bureaublad service is de Microsoft [Azure-Portal](https://portal.azure.com). Zie de [documentatie van Azure Portal](https://docs.microsoft.com/azure/azure-portal/)voor meer informatie over het gebruiken en aanpassen van uw Azure Portal-ervaring. Nu beschikbaar in het voorbeeld kunt u Microsoft Managed Desktop ook vinden in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/). Als u niet bekend bent met de mogelijkheden van deze portal voor Apparaatbeheer, raadpleegt u de [documentatie van Microsoft Endpoint Manager](https://docs.microsoft.com/mem/).
 
 > [!NOTE]
-> Als u echter kiest voor het openen van Microsoft Managed Desktop, in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) of de [Azure-Portal](https://portal.azure.com), worden de volgende browsers ondersteund:
+> U kunt echter de volgende browsers gebruiken om toegang te krijgen tot het Microsoft-beheer bureaublad, in [Microsoft-eindpunten](https://endpoint.microsoft.com/) of in de [Azure-Portal](https://portal.azure.com):
 > - Microsoft Edge (nieuwste versie)
 > - Microsoft Internet Explorer 11
 > - Safari (nieuwste versie, alleen Mac)
@@ -58,13 +59,13 @@ Met de onderstaande rollen kunnen verschillende toegangsniveaus worden toegeweze
 
 Als u hulp nodig hebt bij het toewijzen van Azure Active Directory-rollen, raadpleegt u [machtigingen voor beheerdersrollen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
 
-Voor een eenvoudig beheer van de ingebouwde rollen is een beveiligingsgroep gemaakt voor elke aangepaste rol (bijvoorbeeld ' rollen van modern Workplace-Security Manager '). Voer de volgende stappen uit als u gebruikers wilt toewijzen aan een van de beveiligingsgroepen:
-1.  De portal van Microsoft Endpoint Manager bezoeken
-2.  Selecteer groepen aan de linkerkant.
-3.  Zoek naar rollen voor moderne werkplekken en selecteer de groep die is gekoppeld aan de rol die u wilt toewijzen. 
-4.  Selecteer leden aan de linkerkant en selecteer vervolgens + leden toevoegen op de opdrachtbalk.
-5.  Voer het e-mailadres in van de persoon die wordt toegevoegd. Als ze een externe gebruiker zijn, moet u deze uitnodigen voordat u de groep kunt toewijzen.
-6.  Selecteer onderaan selecteren.
+U maakt het eenvoudig om ingebouwde rollen te beheren, maar u kunt ook een beveiligingsgroep voor elke aangepaste rol maken (bijvoorbeeld ' rollen van modern Workplace-Security Manager '). Voer de volgende stappen uit als u gebruikers wilt toewijzen aan een van de beveiligingsgroepen:
+1.  Ga naar de portal van Microsoft Endpoint Manager.
+2.  Selecteer **groepen** aan de linkerkant.
+3.  Zoek naar **rollen voor moderne werkplekken** en selecteer de groep die is gekoppeld aan de rol die u wilt toewijzen. 
+4.  Selecteer **leden** aan de linkerkant en selecteer vervolgens **+ leden toevoegen** op de opdrachtbalk.
+5.  Voer het e-mailadres in van de persoon die wordt toegevoegd. Als iemand een gast is, moet u deze uitnodigen voordat u de groep kunt toewijzen.
+6.  Selecteer onderaan **selecteren** .
 
 > [!NOTE]
 > Het nesten van beveiligingsgroepen voor roltoewijzing wordt momenteel niet ondersteund. 

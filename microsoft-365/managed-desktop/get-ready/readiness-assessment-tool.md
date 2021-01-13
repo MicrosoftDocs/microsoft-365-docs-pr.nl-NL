@@ -9,20 +9,20 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 491422126f7d159689e7995b69bef0f395491dcb
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 9c19a037ec280320d0800fe2c65f595e4b1010dd
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527707"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840359"
 ---
 # <a name="readiness-assessment-tool"></a>Hulpmiddel voor gereedheids beoordeling
 
-Voor de soepelste ervaring wanneer u zich registreert bij Microsoft Managed Desktop, zijn er een aantal instellingen en andere parameters die u moet instellen voor de periode. Met dit hulpprogramma kunt u deze instellingen controleren en gedetailleerde stappen ontvangen voor het oplossen van de juiste instellingen.
+Voor de soepelste ervaring wanneer u zich registreert bij Microsoft Managed Desktop, zijn er belangrijke instellingen en andere parameters die u moet instellen voor de periode. Met dit hulpprogramma kunt u deze instellingen controleren en gedetailleerde stappen ontvangen voor het oplossen van de juiste instellingen.
 
 Met de Tool controleert u de instellingen in Microsoft Endpoint Manager (specifiek, Microsoft intune), Azure Active Directory (Azure AD) en Microsoft 365 om te controleren of deze geschikt zijn voor Microsoft beheerde bureaublad. Microsoft Managed Desktop houdt de gegevens van deze controles gedurende 12 maanden na de laatste keer dat u een cheque uitvoert in uw Azure AD-organisatie (Tenant). Na 12 maanden behoudt Skype het in de aangegeven vorm.  U kunt ervoor kiezen de gegevens te verwijderen die we verzamelen.
 
-Iedereen met een minimaal de beheerder van intune heeft de mogelijkheid dit hulpprogramma uit te voeren, maar twee van de controles ([voorwaardelijke toegangsbeleidsregels](readiness-assessment-fix.md#conditional-access-policies) en meervoudige [verificatie](readiness-assessment-fix.md#multifactor-authentication) vereisen extra machtigingen.
+Iedereen met een minimaal de beheerder van intune heeft de mogelijkheid dit hulpprogramma uit te voeren, maar twee van de controles ([voorwaardelijke toegangsbeleidsregels](readiness-assessment-fix.md#conditional-access-policies) en meervoudige [verificatie](readiness-assessment-fix.md#multifactor-authentication) vereisen meer machtigingen.
  
 Het beoordelingsprogramma controleert de volgende items:
 

@@ -1,6 +1,6 @@
 ---
 title: Microsoft beheerde bureaublad bewerkingen en bewaking
-description: ''
+description: Wie doet wat ook voor verschillende wijzigings processen?
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1ddac923849abfa2c912244c5ff987ec885f3d45
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 5d7c6a7b836d0044ba9cde188170dd51f117dd2b
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527591"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840371"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Microsoft beheerde bureaublad bewerkingen en bewaking
 
@@ -25,13 +25,13 @@ ms.locfileid: "49527591"
 
 ## <a name="change-management"></a>Wijzigingsbeheer
 
-In een serviceaanbieding is het aandachtspunt voor zaken als hardware-onderhoud en beveiligingsupdates dienst verdienstt naar de service provider (Microsoft) in plaats van de klant. U dient echter nog steeds te zorgen dat de werking van een derde partij en aangepaste software blijft werken zoals verwacht wanneer updates worden uitgerold.
+In een serviceaanbieding is het aandachtspunt voor zaken als hardware-onderhoud en beveiligingsupdates dienst verdienstt naar de service provider (Microsoft) in plaats van de klant. U dient echter nog steeds te zorgen dat niet-Microsoft-en aangepaste software werken zoals verwacht wanneer updates worden uitgerold.
 
 Voor on-premises producten is uw organisatie verantwoordelijk voor de verantwoordelijkheid voor het beheren van wijzigingen.
 
 ### <a name="balance-of-responsibility"></a>Verantwoordelijkheids bedrag
 
-Verantwoordelijkheid | Microsoft beheerde bureaublad service | Microsoft 365-clientsoftware | On-premises clients en servers | derden en aangepaste software
+Verantwoordelijkheid | Microsoft beheerde bureaublad service | Microsoft 365-clientsoftware | On-premises clients en servers | niet-Microsoft-en aangepaste software
 ----- | ----- | ----- | ----- | -----
 Nieuwe functionaliteit maken | Microsoft | Microsoft | / | Klant
 Nieuwe functies testen voor kwaliteitsbewaking |  Microsoft | Microsoft | / | Klant
@@ -44,7 +44,7 @@ Pakket voor implementatie | Microsoft | Microsoft | Klant | Klant
 
 ### <a name="change-process-overview"></a>Overzicht van processen wijzigen
 
-Hier ziet u een overzicht van hoe het wijzigingsproces wordt gedeeld tussen Microsoft en klanten. 
+Hieronder ziet u een overzicht van de manier waarop het wijzigingsproces tussen Microsoft en klanten wordt gedeeld: 
 
 
 
@@ -60,14 +60,14 @@ Hier ziet u een overzicht van hoe het wijzigingsproces wordt gedeeld tussen Micr
 
 ### <a name="change-types"></a>Typen wijzigen
 
-Er zijn verschillende typen wijzigingen die regelmatig worden gemaakt in de service. Het communicatiekanaal voor deze wijzigingen en de acties waarvan klanten verantwoordelijk zijn.
+Er zijn verschillende typen wijzigingen die we regelmatig aanbrengen aan de service. Het communicatiekanaal voor deze wijzigingen en de acties waarvan u verantwoordelijk bent.
 
 Niet alle wijzigingen zijn van invloed op uw gebruikers of vereisen actie. Sommige worden gepland en sommige niet-gepland door hun aard (niet-beveiligingsupdates en beveiligingsupdates worden gewoonlijk niet gepland). Afhankelijk van het type wijziging kan het communicatiekanaal variëren. In de volgende tabel vindt u een overzicht van de typen wijzigingen die u kunt verwachten voor de Microsoft beheerde bureaublad service.
 
 |   | Mogelijk |   Niet-beveiligingsupdates |  Beveiliging
 --- | --- | --- | ---
-**Type wijziging** | Onderdeel updates<br>Nieuwe functies of toepassingen<br>Afgeschafte functies | Client-hotfixes voor problemen | Beveiligingspatches
-**Kennisgeving vooraf** | 5 dagen kennisgeving voor wijzigingen waarvoor actie moet worden ondernomen |    Nee, deze zijn opgenomen in de maandelijkse versie   | Nee, deze zijn opgenomen in de maandelijkse versie 
+**Type wijziging** | Onderdeel updates<br>Nieuwe functies of toepassingen<br>Afgeschafte functies | Client-hotfixes voor problemen | Beveiligingsupdates
+**Kennisgeving vooraf** | Vijf dagen kennisgeving voor wijzigingen waarvoor actie moet worden ondernomen | Nee, deze wijzigingen worden opgenomen in de maandelijkse versie    | Nee, wijzigingen worden opgenomen in de maandelijkse versie 
 **Communicatiekanaal** | -Berichtencentrum<br>-E-mail waarschuwing | -Berichtencentrum<br>-E-mail waarschuwing | -Berichtencentrum<br>-E-mail waarschuwing
 **Actie van globale beheerder vereist** | Altijd |  Krijgen |    Krijgen 
 **Type actie** | Instellingen wijzigen | Wijzigingen doorgeven aan gebruikers | Beheerdersinstellingen wijzigen     
@@ -77,26 +77,26 @@ Niet alle wijzigingen zijn van invloed op uw gebruikers of vereisen actie. Sommi
 
 ## <a name="standard-operating-procedures"></a>Standaard exploitatiemethoden
 
-De Microsoft-beheerbare bureaublad service wordt geïmplementeerd en beheerd door Microsoft in uw Microsoft-Cloud exemplaar, waar u andere beheeractiviteiten kunt verrichten. Microsoft is uitsluitend verantwoordelijk voor Microsoft Managed Desktop-specific setup, Configuration en Operation. 
+De Microsoft-beheerbare bureaublad service wordt geïmplementeerd en beheerd door Microsoft in uw Microsoft-Cloud exemplaar, waar u andere beheeractiviteiten kunt uitvoeren. Microsoft is uitsluitend verantwoordelijk voor Microsoft Managed Desktop-specific setup, Configuration en Operation. 
 
 Voor on-premises producten heeft uw organisatie de verantwoordelijkheid voor het beheren van de installatie, en het configureren van de configuratie en de operationele activiteiten.
 
 Categorieën |    Microsoft zal u | Klant zal
 --- | --- | ---
-Netwerk (proxy, pakket inspectie, VPN)  | Adviseer en plan met klanten om Risico's te minimaliseren voor zakelijke gebruikers. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.
-Service accounts |-De referenties implementeren, veilig opslaan en beheren.<br> -Geautoriseerde toegang of het gebruik van deze referenties communiceren met uw team van beveiligingsactiviteiten. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-Niet toewijzen van beleid, meervoudige verificatie, voorwaardelijke toegang of Toepassingsimplementatie aan de service accounts van Microsoft Managed Desktop.<br>-Het wachtwoord niet opnieuw instellen of de inloggegevens gebruiken.<br>-Open een ondersteuningsaanvraag voor SEV C voor Microsoft Managed Desktop Operations als verdachte activiteiten worden waargenomen in intune-of Azure-auditlogboeken, met betrekking tot deze serviceaccounts.
-Apparaatgroepen | -Het lidmaatschap van apparaten in Microsoft Managed-bureaublad groepen implementeren en beheren.<br>-De door Microsoft beheerde bureaublad groepen gebruiken voor het beheren van de toewijzing en het vrijgeven van de configuratie en updates van apparaten. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-Wijzig het lidmaatschap van een door Microsoft beheerde bureaublad groep niet.<br>-Alleen de groepen gebruiken voor het toewijzen van bedrijfs certificaten voor services zoals VPN, Windows hello voor bedrijven of e-mail versleuteling, of de configuratie van het zakelijk Wi-Fi-profiel.<br>-Waar met comanagement is sprake van het expliciet uitsluiten van alle door Microsoft beheerde bureaublad groepen wanneer u de Configuration Manager-client implementeert.
-Lijnen |  -Beleidsregels voor het Microsoft-beleid dat de configuratiestatus van apparatuur binnen de service beheerst implementeren en beheren.<br>-Met behulp van apparaatgroepen kunt u op basis van de groepen groepen een update implementeren, beleidsregels en Windows.<br> -U hoeft het doel van niet-door Microsoft beheerde bureaublad groepen expliciet uit te sluiten. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-Beleidsregels voor het Microsoft-beleid dat niet door Microsoft beheerde bureaubladservices worden beheerd, niet bewerken of toewijzen
-Microsoft Defender voor eindpunt | Controleer en onderzoek apparatuur binnen het bereik van de Microsoft beheerde bureaublad service. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen wanneer door Microsoft beheerde bureaublad bewerkingen een beoordeling is uitgevoerd en is geadviseerd
-Microsoft Store voor Bedrijven |  Configureer en onderhoud het Windows auto pilot-profiel voor de Microsoft beheerde bureaublad service. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-De configuratie van het Microsoft-Auto Pilot-Profiel van Microsoft beheerde bureaubladtoepassing niet wijzigen of toegewezen apparaten toevoegen/verwijderen.
-Certificaat | | -Maak een ondersteuningsverzoek 60 dagen voordat een certificaat verloopt, zodat informatie wordt opgevraagd voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-Alle certificaten bijwerken die nodig zijn voor het configureren van certificaatprofielen, VPN-profielen en Wi-Fi profielen.
+Netwerk (proxy, pakket inspectie, VPN)  | Adviseer en plan met klanten om Risico's te minimaliseren voor zakelijke gebruikers. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn, en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.
+Service accounts |-De referenties implementeren, veilig opslaan en beheren.<br> -Geautoriseerde toegang of het gebruik van deze referenties communiceren met uw team van beveiligingsactiviteiten. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn, en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-Niet toewijzen van beleid, meervoudige verificatie, voorwaardelijke toegang of Toepassingsimplementatie aan de service accounts van Microsoft Managed Desktop.<br>-Het wachtwoord niet opnieuw instellen of de inloggegevens gebruiken.<br>-Open een ondersteuningsaanvraag voor SEV C voor Microsoft Managed Desktop Operations als verdachte activiteiten worden waargenomen in intune-of Azure-auditlogboeken, met betrekking tot deze serviceaccounts.
+Apparaatgroepen | -Het lidmaatschap van apparaten in Microsoft Managed-bureaublad groepen implementeren en beheren.<br>-De door Microsoft beheerde bureaublad groepen gebruiken voor het beheren van de toewijzing en het vrijgeven van de configuratie en updates van apparaten. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn, en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-Wijzig het lidmaatschap van een door Microsoft beheerde bureaublad groep niet.<br>-Alleen de groepen gebruiken voor het toewijzen van bedrijfs certificaten voor services zoals VPN, Windows hello voor bedrijven of e-mail versleuteling, of de configuratie van het zakelijk Wi-Fi-profiel.<br>-Waar met comanagement is sprake van het expliciet uitsluiten van alle door Microsoft beheerde bureaublad groepen wanneer u de Configuration Manager-client implementeert.
+Lijnen |  -Beleidsregels voor het Microsoft-beleid dat de configuratiestatus van apparatuur binnen de service beheerst implementeren en beheren.<br>-Met behulp van apparaatgroepen kunt u op basis van de groepen groepen een update implementeren, beleidsregels en Windows.<br> -U hoeft het doel van niet-door Microsoft beheerde bureaublad groepen expliciet uit te sluiten. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn, en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-Beleidsregels voor het Microsoft-beleid dat niet door Microsoft beheerde bureaubladservices worden beheerd, niet bewerken of toewijzen
+Microsoft Defender for Endpoint | Controleer en onderzoek apparatuur binnen het bereik van de Microsoft beheerde bureaublad service. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn, en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen wanneer door Microsoft beheerde bureaublad bewerkingen een beoordeling is uitgevoerd en is geadviseerd
+Microsoft Store voor Bedrijven |  Configureer en onderhoud het Windows auto pilot-profiel voor de Microsoft beheerde bureaublad service. | -Maak een ondersteuningsverzoek voor het aanvragen van informatie voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn, en andere relevante informatie die Microsoft ter beoordeling moet nakijken.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-De configuratie van het Microsoft-Auto Pilot-Profiel van Microsoft beheerde bureaubladtoepassing niet wijzigen of toegewezen apparaten toevoegen/verwijderen.
+Certificaat | | -Maak een ondersteuningsverzoek 60 dagen voordat een certificaat verloopt, zodat u informatie vraagt voor een geplande configuratiewijziging, waaronder configuratiedetails, Scope, tijdlijn en andere belangrijke informatie die Microsoft ter revisie biedt.<br>-Alleen een wijziging toepassen als Microsoft de beheerde bureaublad voering heeft beoordeeld en is geadviseerd.<br>-Alle certificaten bijwerken die nodig zijn voor het configureren van certificaatprofielen, VPN-profielen en Wi-Fi profielen.
 
 
 
 
 ## <a name="device-wipe-with-factory-reset"></a>Apparaat wissen met fabrieksinstellingen
 
-Het team van Microsoft beheerde bureaublad activiteiten kan het opnieuw instellen van apparaten die in de service zijn geregistreerd, indien nodig. Dit is handig als u een apparaat aan een andere werknemer wilt geven of als een werknemer uw bedrijf verlaat. 
+Het team van Microsoft beheerde bureaublad activiteiten kan het opnieuw instellen van apparaten die in de service zijn geregistreerd, indien nodig. Herinstelling is handig als u een apparaat aan een andere werknemer wilt geven of als een werknemer uw bedrijf verlaat. 
 
 Er zijn een paar vereisten:
 

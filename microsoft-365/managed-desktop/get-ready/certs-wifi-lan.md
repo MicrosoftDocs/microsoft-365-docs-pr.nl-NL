@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bccfe9a6a6a0550f96ab33d5fd5142e4eaae7b51
-ms.sourcegitcommit: b06a4f21da247edb03fdf6a01eafb7d4fb387b33
+ms.openlocfilehash: cf31778d773a271ead6a1745197f04eca127ab5d
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333522"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841093"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop  
  
@@ -28,36 +28,36 @@ Aangezien beheerde bureaublad apparaten van Microsoft lid zijn van Azure Active 
  
 Basiscertificaten zijn vereist voor de implementatie van certificaten via een SCEP-of PKCS-infrastructuur. Voor andere toepassingen en services in uw organisatie gelden mogelijk basiscertificaten voor de implementatie van de beheerde bureaublad apparaten van Microsoft.    
  
-Voordat u SCEP-of PKCS-certificaten implementeert op Microsoft Managed Desktop, moet u vereisten verzamelen voor elke service waarvoor een certificaat voor een gebruiker of apparaat in uw organisatie is vereist. U kunt dit eenvoudiger maken door een van de volgende plannings sjablonen te gebruiken:  
+Voordat u SCEP-of PKCS-certificaten implementeert op Microsoft Managed Desktop, moet u vereisten verzamelen voor elke service waarvoor een certificaat voor een gebruiker of apparaat in uw organisatie is vereist. U kunt deze activiteit eenvoudiger maken door een van de volgende plannings sjablonen te gebruiken:  
  
 - [PKCS certificaatsjabloon](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/PKCS-certificate-template.xlsx) 
 - [SCEP-certificaatsjabloon](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/SCEP-certificate-template.xlsx)
 
   
-## <a name="wi-fi-connectivity-requirements"></a>Vereisten voor Wi-Fi-connectiviteit
+## <a name="wi-fi-connectivity-requirements"></a>Wi-Fi vereisten voor verbindingen
 
-Als u wilt dat een apparaat automatisch wordt geleverd met de vereiste Wi-Fi-configuratie voor uw Enterprise-netwerk, hebt u mogelijk een Wi-Fi-configuratieprofiel nodig. U kunt Microsoft Managed Desktop configureren om deze profielen op uw apparaten te implementeren. Als u het lokale domein nodig hebt voor uw netwerkbeveiliging, moet u mogelijk eerst uw Wi-Fi-netwerkinfrastructuur evalueren zodat u zeker weet dat het compatibel is met Microsoft Managed Desktop-apparaten (door Microsoft beheerde bureaublad apparaten zijn alleen Azure AD-joins). 
+Als u wilt dat een apparaat automatisch wordt geleverd met de vereiste Wi-Fi configuratie voor uw bedrijfsnetwerk, hebt u mogelijk een Wi-Fi configuratieprofiel nodig. U kunt Microsoft Managed Desktop configureren om deze profielen op uw apparaten te implementeren. Als u het lokale domein nodig hebt voor uw netwerkbeveiliging, moet u mogelijk uw Wi-Fi netwerkinfrastructuur evalueren, zodat u zeker weet dat het compatibel is met Microsoft beheerde bureaublad apparaten (door Microsoft beheerde bureaublad apparaten zijn alleen Azure AD-joind). 
  
-Voordat u een WiFi-configuratie implementeert voor Microsoft Managed Desktop-apparaten, moet u de vereisten van uw organisatie voor elk Wi-Fi-netwerk verzamelen. U kunt dit eenvoudiger maken door deze WiFi- [profielsjabloon](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/WiFi-profile-template.xlsx)te gebruiken.
+Voordat u een Wi-Fi configuratie voor Microsoft beheerde bureaublad apparaten implementeert, moet u de vereisten van uw organisatie voor elk Wi-Fi netwerk verzamelen. U kunt deze activiteit eenvoudiger maken door deze WiFi- [profielsjabloon](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/WiFi-profile-template.xlsx)te gebruiken.
  
  
 ## <a name="wired-connectivity-requirements-and-8021x-authentication"></a>Vereisten voor kabelverbindingen en 802.1 x-verificatie 
  
-Als u 802.1 x-verificatie gebruikt om de toegang vanaf apparaten te beveiligen met een LAN, moet u de vereiste configuratiegegevens voor de Microsoft beheerde bureaublad apparaten opgeven. Microsoft-bureaublad apparaten met Windows 10, versie 1809 of hoger worden ondersteund voor de implementatie van een 802.1 x-configuratie via de provider van WiredNetwork Configuration service provider. Zie [WIREDNETWORK CSP](https://docs.microsoft.com/windows/client-management/mdm/wirednetwork-csp) -documentatie voor meer informatie. 
+Als u 802.1 x-verificatie gebruikt om de toegang tegen apparaten te beveiligen met een LAN, moet u de vereiste configuratiegegevens voor uw door Microsoft beheerde bureaublad apparaten pushen. Microsoft-bureaublad apparaten met Windows 10, versie 1809 of hoger worden ondersteund voor de implementatie van een 802.1 x-configuratie via de provider van WiredNetwork Configuration service provider. Zie [WIREDNETWORK CSP](https://docs.microsoft.com/windows/client-management/mdm/wirednetwork-csp) -documentatie voor meer informatie. 
  
 Voordat u een bekabeld netwerkconfiguratie profiel implementeert op Microsoft beheerde bureaublad apparaten, verzamelt u de vereisten van uw organisatie voor uw bekabeld bedrijfsnetwerk. Ga hiervoor als volgt te werk: 
  
  
 1. Meld u aan bij een apparaat waarop uw bestaande 802.1 x-profiel is geconfigureerd en verbonden is met het LAN-netwerk.  
 2. Open een opdrachtprompt met beheerdersreferenties. 
-3. Zoek de interfacenaam van de LAN door de **interface interface voor netsh interface weergeven**uit te voeren. 
+3. Zoek de interfacenaam van de LAN door de **interface interface voor netsh interface weergeven** uit te voeren. 
 4. Exporteer de XML-profiel-XML door de **map Netsh Local exportmap-profielmap uit te voeren.  Interface = "interface_name"**. 
 5. Als u uw geëxporteerde profiel op Microsoft Managed desktop device moet testen, voert u **Netsh LAN add profile filename = "PATH_AND_FILENAME.xml" interface = "INTERFACE_NAME"** uit. 
  
  
 ## <a name="deploy-certificate-infrastructure"></a>De certificaatinfrastructuur implementeren  
  
-Als u al een bestaande SCEP of PKCS-infrastructuur met intune hebt en deze aan uw eisen voldoet, kunt u deze ook gebruiken voor Microsoft Managed Desktop. Als er nog geen SCEP-of PKCS-infrastructuur bestaat, moet u er een voorbereiden.  
+Als u al een bestaande SCEP-of PKCS-infrastructuur met intune hebt en deze aanpak aan uw eisen voldoet, kunt u deze ook gebruiken voor Microsoft beheerde bureaublad. Als er nog geen SCEP-of PKCS-infrastructuur bestaat, moet u er een voorbereiden.  
  
 Zie voor meer informatie [een certificaatprofiel configureren voor uw apparaten in Microsoft intune](https://docs.microsoft.com/intune/certificates-configure). 
  
@@ -67,8 +67,8 @@ Zie voor meer informatie [een certificaatprofiel configureren voor uw apparaten 
  
 Nadat het LAN-profiel is geëxporteerd, kunt u het beleid voor het Microsoft-beheerpakket voorbereiden aan de hand van de volgende stappen:   
  
-1. Maak een aangepast profiel in Microsoft intune voor het LAN-profiel met behulp van de volgende instellingen (Zie [aangepaste instellingen voor Windows 10-apparaten gebruiken in intune](https://docs.microsoft.com/intune/custom-settings-windows-10)). Selecteer in **aangepaste instellingen voor oma-URI**de optie **toevoegen**en voer de volgende waarden in: 
-    - Naam: *modern Workplace-Windows 10 LAN-profiel* 
+1. Maak een aangepast profiel in Microsoft intune voor het LAN-profiel met behulp van de volgende instellingen (Zie [aangepaste instellingen voor Windows 10-apparaten gebruiken in intune](https://docs.microsoft.com/intune/custom-settings-windows-10)). Selecteer in **aangepaste instellingen voor oma-URI** de optie **toevoegen** en voer de volgende waarden in: 
+    - Naam: *Modern Workplace-Windows 10 LAN-profiel* 
     - Beschrijving: Geef een beschrijving op voor een overzicht van de instelling en andere belangrijke informatie. 
     - OMA-URI (hoofdlettergevoelig): Enter *./device/Vendor/MSFT/WiredNetwork/LanXML*
     - Gegevenstype: Selecteer **reeks (XML-bestand)**. 

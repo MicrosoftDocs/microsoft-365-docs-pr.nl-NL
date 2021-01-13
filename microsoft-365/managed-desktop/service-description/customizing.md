@@ -1,6 +1,6 @@
 ---
 title: Uitzonderingen op het serviceplan
-description: ''
+description: Uitzonderingen aanvragen voor het standaardserviceplan
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0785d7ac12c7b027322338d9949a10ea30168b3b
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 97fe3fe1734908c46dcfff4acd76ce9ae5b8b1a5
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289059"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841265"
 ---
 # <a name="exceptions-to-the-service-plan"></a>Uitzonderingen op het serviceplan
 
@@ -31,7 +31,7 @@ Een uitzondering is een uitzondering op de basisconfiguratie van Microsoft behee
 |Controle van digitale ervaring     |  Software waarmee gegevens op het apparaat van een gebruiker worden bijgehouden om hieraan te rapporteren       |
 |Hardware-of softwarestuurprogramma's     |   Stuurprogramma's, beperkingen voor de [toepassingsvereisten](mmd-app-requirements.md)      |
 |Lijnen     | Windows 10-of Microsoft 365-apps voor de Enterprise-instellingen op een beheerd apparaat        |
-|Apparaten     | Apparaten die niet voorkomen in de [lijst met](device-list.md) apparaten die door Microsoft worden beheerd        |
+|Apparaten     | Apparaten die niet voorkomen in de [lijst](device-list.md) met apparaten die door Microsoft worden beheerd        |
 |Overige     |  Helemaal niet bedekt met de andere gebieden       |
  
 ## <a name="request-an-exception"></a>Een uitzondering aanvragen
@@ -49,7 +49,7 @@ Wanneer we aanvraag voor uitzonderingen bekijken, beoordelen we deze factoren in
  
 1.  Sommige toepassingen en beleidsregels die door Microsoft worden beheerd op alle apparaten, zijn niet verhandeld, dus uw aanvraag mag geen gevolgen hebben. Zie de [apparaatconfiguratie](device-policies.md) voor meer informatie.
 2.  Beperkte productiviteitssoftware die nodig is om een gebruiker de taak uit te voeren, wordt waarschijnlijk goedgekeurd. 
-3.  Als we aan uw behoeften voldoen via Microsoft-technologie, wordt u waarschijnlijk geadviseerd om een uitzondering te gebruiken voor een uitzondering met een uitzondering van drie tot twaalf maanden (afhankelijk van het bereik van het project).
+3.  Als we aan uw behoeften voldoen via Microsoft-technologie, wordt u waarschijnlijk geadviseerd om een uitzondering te gebruiken voor een uitzondering met een uitzondering van drie tot 12 maanden, afhankelijk van het bereik van het project.
 4.  Als we uw vereiste niet kunnen beantwoorden met behulp van Microsoft-technologie, wordt u waarschijnlijk geadviseerd om uw verzoek goed te keuren, tenzij het een van de onderstaande voorwaarden schendt.  
 
 Met deze principes zorgt u ervoor dat de beheerde bureaubladversie van Microsoft altijd aan uw behoeften voldoet terwijl u afwijkingen van onze standaardsjabloon bijhoudt. 
@@ -71,10 +71,10 @@ Nadat een gevraagde uitzondering is goedgekeurd en geïmplementeerd, is het moge
  
 Als dit gebeurt, wordt u gewaarschuwd via de Microsoft Managed Desktop-beheerportal. Wanneer u de eerste keer een melding ontvangt, hebt u 90 dagen nodig voor het verwijderen van de uitzondering voordat de apparaten met uitzonderingen niet meer zijn gebonden aan de serviceovereenkomst van Microsoft beheerde bureaublad overeenkomsten. We sturen u diverse meldingen op basis van een strikte tijdlijn, maar het is mogelijk dat de tijdlijn of onze beslissingen van een uitzondering te wijzigen. Een uitzondering wordt niet *verwijderd* zonder uw toestemming, maar elk apparaat met een ingetrokken uitzondering wordt niet meer begrensd door onze serviceovereenkomst. Dit is de tijdlijn van meldingen die we u sturen.
 
-- **Eerste kennisgeving:** We bieden de eerste kennisgeving van onze beslissing voor het intrekken van de goedkeuring, waaronder informatie over waarom we het intrekken, de acties die u adviseert, de deadline voor deze acties en de stappen die u moet volgen als u de beslissing wilt nemen. Dit duurt 90 dagen tevoren voordat de uitzondering op alle apparaten moet worden verwijderd. 
+- **Eerste kennisgeving:** We bieden de eerste kennisgeving van onze beslissing voor het intrekken van de goedkeuring, waaronder informatie over waarom we het intrekken, de acties die u adviseert, de deadline voor deze acties en de stappen die u moet volgen als u de beslissing wilt nemen. Deze melding doet 90 dagen vooraf voordat de uitzondering moet worden verwijderd van alle apparaten. 
 - **Tweede bericht (30 dagen later):** We geven u een tweede kennisgeving, met inbegrip van de informatie in de eerste kennisgeving. 
 - **Derde kennisgeving (60 dagen na de eerste kennisgeving):** We bieden een derde kennisgeving, met inbegrip van de informatie in de eerste kennisgeving. 
-- **Laatste kennisgeving (1 week vóór de deadline 90-dag):** We bieden een vierde kennisgeving, met inbegrip van de informatie in de eerste kennisgeving.
+- **Laatste kennisgeving (één week vóór de deadline 90-dag):** We bieden een vierde kennisgeving, met inbegrip van de informatie in de eerste kennisgeving.
 - **90 dagen na de eerste kennisgeving:** Serviceovereenkomst voor Microsoft beheerde bureaubladservices zijn niet meer van toepassing op apparaten met een ingetrokken uitzondering. U kunt op elk gewenst moment een beslissing stellen en aanvullende informatie geven over overweging, waaronder upgrades, configuratiewijzigingen of wijziging van software. 
 
 

@@ -1,25 +1,25 @@
 ---
 title: Microsoft Managed Desktop en ITIL
-description: ''
+description: Hiermee wordt de beheerder van de Microsoft-bureaublad informatie en-artikelen gecorreleerd aan de beheerder.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, Documentatie, ITISM
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 4b735ec28b655dfc01c874bc4865388d11247b67
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: e545b64670bb92c40465f1c50b2cb46b9fd7a8d8
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47947958"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841433"
 ---
 # <a name="microsoft-managed-desktop-and-itil"></a>Microsoft Managed Desktop en ITIL
 
 Veel organisaties vinden IT waardevol voor het organiseren van IT-Services op de regels van een formeel IT-service model (ITSM), zoals [ITIL](https://www.axelos.com/best-practice-solutions/itil). 
 
-Microsoft Managed Desktop biedt uw organisatie de mogelijkheid om te voldoen aan veel belangrijke aspecten van deze geformaliseerde ITSM modellen. Met behulp van ITIL als voorbeeld kunt u in dit onderwerp de verbindingen tussen gemeenschappelijke en vergelijkings processen en overeenkomstige Microsoft beheerde bureaubladfuncties zien, indien van toepassing. Dit is alleen van toepassing op het Microsoft beheerde bureaublad onderdeel van uw organisatie.
+Microsoft Managed Desktop biedt uw organisatie de mogelijkheid om te voldoen aan veel belangrijke aspecten van deze geformaliseerde ITSM modellen. Met behulp van ITIL als voorbeeld kunt u in dit artikel de verbindingen tussen gemeenschappelijke en processen en vergelijkbare Microsoft-bureaubladfuncties zien, indien van toepassing. Deze informatie is alleen van toepassing op het Microsoft beheerde bureaublad onderdeel van uw organisatie.
 
-Voor uitgebreidere informatie over ITIL en de fasen en processen raadpleegt u hun [documentatie](https://www.axelos.com/best-practice-solutions/itil).
+Raadpleeg hun [documentatie](https://www.axelos.com/best-practice-solutions/itil)voor meer uitgebreide informatie over ITIL en de fasen en processen.
 
 
 ## <a name="service-design"></a>Service-ontwerp
@@ -33,7 +33,7 @@ Deze tabel koppelt belangrijke en actuele processen van Microsoft beheerde burea
 |Beheer op service niveau     | Antwoordtijden worden gedefinieerd voor aanvragen van beheerders ondersteuning en incidenten.  |  [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md)  |
 |Beheer van Service catalogus     | De details van de servicebeschrijving die onderdelen van de service benadert, worden waar voor de service voorgevoerd, beschikbaar voor alle huidige en belangstellende klanten.<br><br>Vereisten voor inzicht in de werking van de dienst.  | - [Beschrijving van Microsoft beheerde bureaublad service](service-description/index.md)<br><br>- [Voorbereidingen treffen voor inschrijving in Microsoft Managed Desktop](get-ready/index.md)  |
 |Gegevens beveiligingsbeheer     | Beveiligingsinformatie, waaronder informatiebeveiliging voor de service.<br><br> Beleidsregels voor beveiliging en andere informatie over de configuratie van apparaten.   | - [Beveiliging in Microsoft beheerde desktop](service-description/security.md)<br><br>- [Apparaatconfiguratie](service-description/device-policies.md)  |
-|Beschikbaarheids beheer     |  Microsoft beheert bureaublad saldi met uw organisatie om de beschikbaarheid van de service te verzekeren.<br><br>Beheerders en gebruikers hebben routes voor de eigen ondersteuning in geval van service-en beschikbaarheids kwesties. | - [Microsoft beheerde bureaublad bewerkingen en bewaking](service-description/operations-and-monitoring.md)<br><br>- [Beheerders ondersteuning voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md)<br>- [Help-informatie opvragen voor gebruikers](working-with-managed-desktop/end-user-support.md)  |
+|Beschikbaarheids beheer     |  Microsoft beheert bureaublad saldi met uw organisatie om de beschikbaarheid van de service te verzekeren.<br><br>Beheerders en gebruikers hebben routes voor de desbetreffende ondersteuning als er service-of beschikbaarheidsproblemen zijn. | - [Microsoft beheerde bureaublad bewerkingen en bewaking](service-description/operations-and-monitoring.md)<br><br>- [Beheerders ondersteuning voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md)<br>- [Help-informatie opvragen voor gebruikers](working-with-managed-desktop/end-user-support.md)  |
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Licenties toewijzen
-description: Als onderdeel van de inschrijving moet u licenties toewijzen die u al hebt verkregen aan uw gebruikers
+description: Als onderdeel van de registratie moet u licenties toewijzen die u al hebt verkregen voor uw gebruikers.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,27 +9,27 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4bd4dcd522848c91c4c8494504dd4c917a7eb776
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: c370b37b805544c49e4e9e951d0b8de9c6af1589
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529741"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841035"
 ---
 # <a name="assign-licenses"></a>Licenties toewijzen
 
-Als onderdeel van de voorbereiding om u in te schrijven voor Microsoft Managed Desktop, moet u er zeker van zijn dat u de benodigde licenties hebt verkregen. Als u dit nog niet hebt gedaan, raadpleegt u [Meer informatie over licenties](../get-ready/prerequisites.md#more-about-licenses) voor meer informatie over welke licenties u precies nodig hebt.
+Om u aan te melden bij Microsoft Managed Desktop, moet u er zeker van zijn dat u de benodigde licenties hebt verkregen. Zie [meer informatie over licenties](../get-ready/prerequisites.md#more-about-licenses) voor informatie over de licenties die u nodig hebt als u dit nog niet hebt gedaan.
 
 
-Als uw licentie allemaal in de rij staat, is het nu tijd om deze aan uw gebruikers toe te wijzen. Hiervoor raden we u aan gebruik te maken van de [licentiefunctie voor groepsverlicenties](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) van Azure Active Directory.
+Als uw licenties allemaal regeld zijn, is het tijd om ze nu toe te wijzen aan uw gebruikers. Als u licenties wilt toewijzen, raden we u aan gebruik te maken van de [op groepen gebaseerde licentiefunctie](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) van Azure Active Directory.
 
-Als u problemen hebt met licentietoewijzing, neemt u contact op met de [ondersteuning](../working-with-managed-desktop/admin-support.md)van de beheerder.
+Neem contact op met de beheerder [ondersteuning](../working-with-managed-desktop/admin-support.md)als u moeilijkheden hebt met een licentietoewijzing.
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Stappen om aan de slag te gaan met Microsoft Managed Desktop
 
 1. [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](add-admin-contacts.md)
 2. [Voorwaardelijke toegang aanpassen](conditional-access.md)
-3. Licenties toewijzen (dit onderwerp)
+3. Licenties toewijzen (dit artikel)
 4. [Intune Company Portal implementeren](company-portal.md)
 5. [Enterprise State Roaming inschakelen](enterprise-state-roaming.md)
 6. [Apparaten instellen](set-up-devices.md)

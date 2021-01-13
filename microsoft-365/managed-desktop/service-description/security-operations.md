@@ -1,6 +1,6 @@
 ---
 title: Beveiligingsbewerkingen in Microsoft beheerde desktop
-description: ''
+description: Services en processen van het Beveiligingscentrum
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5698e2a88adf3d2bae84a82e0e001132293e36be
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4464c9c491af11831a3511dab60a472f1584d7f6
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847714"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840328"
 ---
 # <a name="security-operations-in-microsoft-managed-desktop"></a>Beveiligingsbewerkingen in Microsoft beheerde desktop
 
@@ -40,5 +40,5 @@ De SOC biedt deze diensten:
     - Uitroeiing
     - Herstelassistent
     - Activiteiten na incidenten
-- Microsoft-beheerde bureaublad klanten komen in aanmerking voor de registratie van de Microsoft Threat experts-service. Met deze service kunnen medewerkers van liaises de complexe bedreigingen voor uw organisatie beter begrijpen, waaronder meldingen van waarschuwingen, mogelijk gemanipuleerde apparatuur, hoofdoorzaak van een verdachte netwerkverbinding en extra bedreigings informatie over voortdurende, geavanceerde permanente Threats campagnes. Zie [Microsoft Threat experts](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)voor meer informatie.
+- Microsoft-beheerde bureaublad klanten komen in aanmerking voor de registratie van de Microsoft Threat experts-service. De SOC liaises met deze service om de complexe bedreigingen te leren die van invloed zijn op uw organisatie, waaronder meldingen van waarschuwingen, mogelijk verdachte apparatuur, hoofdoorzaak van een verdachte netwerkverbinding en andere bedreigings informatie over voortdurende, geavanceerde permanente Threats campagnes. Zie [Microsoft Threat experts](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)voor meer informatie.
 - Het beleid van de bedreiging van de bedreiging en het beveiligingslek maakt deel uit van de services van Microsoft om aanbevelingen te informeren over uw organisatie om zich te beschermen tegen bedreigingen. De SOC verbruikt gegevens van uw Microsoft Defender voor eindpunten van het Beveiligingscentrum en van relevante beveiligingsgegevens bronnen binnen en buiten Microsoft om zwakke plekken en onjuiste configuraties te ontdekken en rapportage te ondernemen.

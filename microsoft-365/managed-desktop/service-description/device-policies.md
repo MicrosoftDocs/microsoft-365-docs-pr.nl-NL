@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5533284d4a3f55a51b3017a64e4c353b4ec71352
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 7086774c046ac28ffa467168e3b5b1affb508ec8
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846226"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840323"
 ---
 # <a name="device-configuration"></a>Apparaatconfiguratie
 
@@ -23,7 +23,7 @@ ms.locfileid: "48846226"
 
 <!-- Device configuration and Security Addendum-->
 
-Wanneer u een nieuw Microsoft-beheerd bureaublad instelt, garanderen we dat het de juiste configuratie heeft voor Microsoft Managed Desktop. Dit omvat een set standaard beleidsregels die zijn ingesteld als onderdeel van het onboarding-proces. U kunt deze beleidsregels zo nodig afleveren met behulp van MDM (Mobile Device Management). Voor meer informatie raadpleegt u [Mobile Device Management](https://docs.microsoft.com/windows/client-management/mdm/). 
+Wanneer u een nieuw Microsoft-beheerd bureaublad instelt, garanderen we dat het de juiste configuratie heeft voor Microsoft Managed Desktop. Deze configuratie bevat een set standaard beleidsregels die zijn ingesteld als onderdeel van het onboarding-proces. U kunt deze beleidsregels zo nodig afleveren met behulp van MDM (Mobile Device Management). Voor meer informatie raadpleegt u [Mobile Device Management](https://docs.microsoft.com/windows/client-management/mdm/). 
 
 >[!NOTE]
 >Om conflicten te voorkomen, moet u deze beleidsregels niet aanpassen.
@@ -53,5 +53,5 @@ Verbindingen met datalimiet | Standaard worden updates via verbindingen met een 
  ### <a name="additional-security-policies"></a>Extra beveiligingsbeleid
 
  Deze beleidsregels worden toegevoegd om de beveiliging voor zeer gereguleerde industrieën te bevorderen. 
- - **Beveiligings monitoring** : Microsoft controleert apparaten met behulp [van Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Als een bedreiging wordt gedetecteerd, waarschuwt Microsoft de klant, isoleert het apparaat en corrigeert het probleem extern. 
- - **PowerShell V2 uitschakelen** : Microsoft verwijdert PowerShell v2 in augustus 2017. Deze functie is uitgeschakeld op alle Microsoft beheerde bureaublad apparaten. Zie voor meer informatie over deze wijziging [Windows PowerShell 2,0 afschaffing](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).
+ - **Beveiligings monitoring**: Microsoft controleert apparaten met behulp [van Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection). Als een bedreiging wordt gedetecteerd, waarschuwt Microsoft de klant, isoleert het apparaat en corrigeert het probleem extern. 
+ - **PowerShell V2 uitschakelen**: Microsoft verwijdert PowerShell v2 in augustus 2017. Deze functie is uitgeschakeld op alle Microsoft beheerde bureaublad apparaten. Zie voor meer informatie over deze wijziging [Windows PowerShell 2,0 afschaffing](https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/).

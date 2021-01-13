@@ -1,6 +1,6 @@
 ---
 title: Beveiligingstechnologieën in Microsoft Managed Desktop
-description: ''
+description: Technologieën die worden gebruikt voor beveiliging van apparaten, identiteit en toegangsbeheer, netwerkbeveiliging en informatiebeveiliging
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -8,18 +8,18 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e69656e13cd9a300cd56bdd5db7703f2387d23d4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5076ddca6053adc7cebb9599c8d82a42c7ab5a63
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846202"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840911"
 ---
 # <a name="security-technologies-in-microsoft-managed-desktop"></a>Beveiligingstechnologieën in Microsoft Managed Desktop
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
-Microsoft Managed Desktop gebruikt diverse Microsoft-technologieën om beheerde apparaten en gegevens te helpen beveiligen. Daarnaast gebruikt het Microsoft beheerde bureaublad beveiliging diverse [processen](security-operations.md) die samen met deze technologieën kunnen worden gebruikt.
+Microsoft Managed Desktop gebruikt diverse Microsoft-technologieën om beheerde apparaten en gegevens te helpen beveiligen. Daarnaast gebruikt het Microsoft beheerde bureaublad beveiliging diverse [processen](security-operations.md) van deze technologieën.
 
 Precies 
 
@@ -28,7 +28,7 @@ Precies
 - [Netwerkbeveiliging](#network-security) – VPN-informatie en door Microsoft beheerde bureaublad aanbevolen oplossing en instellingen
 - [Gegevensbeveiliging](#information-security) -optionele beschikbare services om gevoelige informatie verder te beschermen 
 
-Zie voor meer informatie over het opslaan, gebruiken en beveiligingsprocedures voor gegevens die worden gebruikt door Microsoft Managed Desktop ons White Paper op [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
+Zie voor meer informatie over het opslaan, gebruiken en beveiligingsprocedures voor gegevens die worden gebruikt door Microsoft Managed Desktop onze White papers op [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
 
 ## <a name="device-security"></a>Beveiliging van apparaten
@@ -52,7 +52,7 @@ Identiteits-en toegangsbeheer beschermt bedrijfsmiddelen en bedrijfskritieke geg
 Service | Beschrijving
 --- | ---
 Biometrische verificatie |  Windows hello biedt gebruikers de mogelijkheid zich aan te melden met behulp van een gezicht of een pincode, zodat wachtwoorden moeilijker te onthouden of te stelen zijn. Klanten zijn verantwoordelijk voor de implementatie van de vereiste vereisten voor hun on-premises Active Directory voor gebruik van deze service in een hybride configuratie. Zie [Windows hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) voor meer informatie. 
-Standaardgebruikersmachtigingen |  Om het systeem te beschermen en de beveiliging te verbeteren, worden aan de gebruiker standaardgebruikersmachtigingen toegewezen. Dit wordt toegewezen als onderdeel van de out-of-Box-ervaring van Windows auto pilot.
+Standaardgebruikersmachtigingen |  Om het systeem te beschermen en de beveiliging te verbeteren, worden aan de gebruiker standaardgebruikersmachtigingen toegewezen. Deze machtiging wordt ingesteld als onderdeel van de out-of-Box ervaring van Windows auto pilot.
 
 
 
@@ -62,7 +62,7 @@ Klanten zijn verantwoordelijk voor netwerkbeveiliging.
 
 Service | Beschrijving
 --- | ---
-NETWERK | Klanten hebben hun eigen VPN-infrastructuur, om ervoor te zorgen dat ze niet meer kunnen worden weergegeven op het intranet.<br><br>Minimum vereiste: door Microsoft beheerde bureaubladtoepassing is een met Windows 10 compatibele en ondersteunde VPN-oplossing vereist. Als binnen uw organisatie een VPN-oplossing nodig is, moet deze Windows 10 ondersteunen en worden verpakt en geïmplementeerd via intune. Neem contact op met uw software uitgever voor meer informatie.<br><br>Raden<br>-Microsoft raadt een moderne VPN-oplossing aan die gemakkelijk kan worden geïmplementeerd via intune voor push VPN-profielen. Dit biedt een altijd, naadloos, betrouwbaar en veiligere manier om toegang te krijgen tot het bedrijfsnetwerk. Zie [[VPN-instellingen in intune]](https://docs.microsoft.com/intune/vpn-settings-configure)voor meer informatie.<br>-Dikke VPN-clients of oudere VPN-clients worden niet aanbevolen door Microsoft wanneer ze door Microsoft worden beheerd op de gebruikersomgeving.<br>-Microsoft raadt aan dat het uitgaande webverkeer rechtstreeks naar Internet gaat zonder het VPN te passeren om prestatieproblemen te voorkomen.<br>In het ideale geval raden Microsoft aan het gebruik van de app Azure Active Directory te gebruiken in plaats van een VPN.
+NETWERK | Klanten hebben hun eigen VPN-infrastructuur, om ervoor te zorgen dat ze niet meer kunnen worden weergegeven op het intranet.<br><br>Minimum vereiste: door Microsoft beheerde bureaubladtoepassing is een met Windows 10 compatibele en ondersteunde VPN-oplossing vereist. Als binnen uw organisatie een VPN-oplossing nodig is, moet deze Windows 10 ondersteunen en worden verpakt en geïmplementeerd via intune. Neem contact op met uw software uitgever voor meer informatie.<br><br>Raden<br>-Microsoft raadt een moderne VPN-oplossing aan die gemakkelijk kan worden geïmplementeerd via intune voor push VPN-profielen. Deze aanpak biedt een altijd, naadloos, betrouwbaar en veiligere manier om toegang te krijgen tot het bedrijfsnetwerk. Zie [[VPN-instellingen in intune]](https://docs.microsoft.com/intune/vpn-settings-configure)voor meer informatie.<br>-Dikke VPN-clients of oudere VPN-clients worden niet aanbevolen door Microsoft wanneer ze door Microsoft worden beheerd op de gebruikersomgeving.<br>-Microsoft raadt aan dat het uitgaande webverkeer rechtstreeks naar Internet gaat zonder het VPN te passeren om prestatieproblemen te voorkomen.<br>In het ideale geval raden Microsoft aan het gebruik van de app Azure Active Directory te gebruiken in plaats van een VPN.
 
 
 ## <a name="information-security"></a>Gegevensbeveiliging

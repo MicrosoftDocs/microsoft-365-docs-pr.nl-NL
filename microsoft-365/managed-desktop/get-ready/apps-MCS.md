@@ -1,7 +1,7 @@
 ---
 title: Werken met Microsoft Consulting Services
-description: voorbereiding en stappen om te volgen om met MCS te werken om uw apps te verpakken
-keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie, apps, MCS, verpakking
+description: voorbereiding en stappen die u moet volgen om te werken met MCS om uw apps te pakken
+keywords: Microsoft Managed Desktop, Microsoft 365, service, Documentatie, apps, MCS, verpakking
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
@@ -9,51 +9,51 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d2a6c09e1bcb84885e607d133c14e26e08e3c621
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: f8c4e427c536577ea2fc768d4930b9d4db6ac697
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530161"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841421"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Werken met Microsoft Consulting Services
 
-U contact opnemen met Microsoft Consulting Services (MCS) om uw apps te laten verpakken voor gebruik met Microsoft Managed Desktop. Voor exacte details u contact opnemen met uw accountvertegenwoordiger om contact op te nemen met MCS en uw specifieke app-verpakkingsproject te bekijken.
+U kunt deelnemen aan Microsoft Consulting Services (MCS) om uw apps te laten inpakken voor gebruik met Microsoft Managed Desktop. Neem voor exacte informatie contact op met uw accountvertegenwoordiger om contact op te nemen met MCS en uw specifieke app-verpakkings project te bereiken.
 
 ## <a name="roles-and-responsibilities"></a>Rollen en verantwoordelijkheden
 
-Om te werken met MCS app verpakking, **moet u deze elementen:**
+Als u wilt werken met een pakket met de MCS-app, **moet u deze elementen geven**:
 
-- De broninstallateurbestanden (bijvoorbeeld setup.exe of .msi).
-- De installatie-instructies, met vermelding van details over hoe de uiteindelijke installatie eruit moet zien. Moet er bijvoorbeeld een snelkoppeling op het bureaublad naar de app zijn? Wat moet de zichtbaarheid van de app zijn? Moet de app verbinding maken met een server en zo ja, welke? Zie de [sjabloon aanvraagaanvraag voor toepassingen](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx)voor meer informatie.
-- U moet uw eigen acceptatietests uitvoeren om te controleren of de app werkt zoals u deze nodig hebt in uw omgeving.
+- De bronprogramma bestanden (bijvoorbeeld setup.exe of. msi).
+- De installatie-instructies, waarop u informatie kunt opgeven over de manier waarop de definitieve installatie moet opletten. Moet u bijvoorbeeld een snelkoppeling op het bureaublad van de app vinden? Wat moet de zichtbaarheid van de app? Moet de app verbinding maken met een server en zo ja, welke? Voor meer informatie raadpleegt u de [aanvraag sjabloon toepassings verpakking](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx).
+- U moet uw eigen Acceptatietest uitvoeren om te controleren of de app werkt zoals u deze nodig hebt in uw omgeving.
 
-**MCS zal deze acties azen:**
+**MCS voert de volgende handelingen uit:**
 
-- Controleren of de app verboden of beperkt is in de Microsoft Managed Desktop-omgeving.
-- Het testen van de installatie, het starten en verwijderen van de app om compatibiliteit met Windows 10 te garanderen. Als MCS een compatibiliteitsprobleem ontdekt, geven ze de app af aan het [Desktop App Assure-programma](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure) voor herstel.
-- De app naar uw specificaties verpakken en vervolgens de implementatie van de app testen met Microsoft Intune.
+- Controleren of de app is verboden of niet wordt toegestaan in de Microsoft beheerde bureaubladomgeving.
+- Tests voor installatie, opstarten en verwijdering van de app voor compatibiliteit met Windows 10. Als met MCS een compatibiliteitsprobleem wordt gedetecteerd, wordt de app in de app voor de [bureaublad-app](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure) voor herstel uitgeschakeld.
+- Verpakt de app met uw specificatie en test app-implementatie met Microsoft intune.
 
-## <a name="app-delivery-schedule"></a>App-leveringsschema
+## <a name="app-delivery-schedule"></a>Leveringsschema voor apps
 
-Start het verpakkingsproces door de app-informatie te uploaden naar de Microsoft Managed Desktop-portal. Het verpakkingsteam beoordeelt elke donderdag nieuwe inzendingen. Na beoordeling en verpakking worden de verpakte apps de volgende vrijdag geleverd. Maximaal vijf apps per week kunnen worden verpakt om te starten, maar de service kan worden geschaald om aan uw behoeften te voldoen.
+Start het pakket met de app-gegevens naar de Microsoft beheerde bureaublad Portal. Het verpakkings team beoordeelt telkens elke donderdag nieuwe inzendingen. Na onderzoek en verpakking worden de ingepakte apps na vrijdag afgeleverd. Er kunnen maximaal vijf apps per week worden ingepakt en u kunt aan de slag met de service, zodat de service aan uw wensen voldoet.
 
-![kalender met app-instroom op een donderdag (de 21e in dit voorbeeld), mediavalidatie de volgende dag, verpakking op de volgende maandag (de 25e) en app-levering op de daaropvolgende vrijdag (de 29e)](../../media/MCS-cal.png)
+![agenda met de app-instroom in een donderdag (de 21 in dit voorbeeld), media validatie de volgende dag, verpakking op de volgende maandag (de 25e) en de bezorging van de app op de volgende vrijdag (de 29)](../../media/MCS-cal.png)
 
-U ontvangt een melding zodra de app is geleverd. Op dat moment hebt u 21 dagen om acceptatietests uit te voeren en u af te melden voor het werk in de Microsoft Managed Desktop-portal. Als u tijdens uw acceptatietests een probleem met de app ontdekt, weigert u de app in de Microsoft Managed Desktop-portal en wordt u via e-mail verbonden met een MCS-verpakker om het probleem te begrijpen en op te lossen.
+U ontvangt een melding wanneer de app is geleverd. Op dit moment hebt u 21 dagen voor het uitvoeren van acceptatie testen en het goedkeuren van het werk in de Microsoft beheerde bureaublad Portal. Als u een probleem met de app ontdekt tijdens het testen van uw acceptatie, moet u de app in de Microsoft Managed Desktop Portal afwijzen en wordt u via e-mail verbonden met een MCS-pakket om het probleem te begrijpen en op te lossen.
 
-## <a name="testing-accounts-and-environment"></a>Accounts en omgeving testen
+## <a name="testing-accounts-and-environment"></a>Accounts en omgevingen testen
 
-Als het verpakkingsteam de migratie naar Microsoft Intune wilt voltooien, raden we u aan bepaalde machtigingen op te geven:
+Als u wilt dat het team de migratie naar Microsoft intune uitvoert, is het raadzaam bepaalde machtigingen te verlenen:
  
--   Toegang tot de app-implementatiemogelijkheden van Microsoft Intune voor de verpakker om de app toe te voegen en toe te wijzen 
--   Testgroepen, gebruikersaccounts en licenties voor de verpakkers om de apps te kunnen testen
+-   Toegang tot implementatie functies voor app Microsoft intune voor de pakket functie voor het toevoegen en toewijzen van de app 
+-   Testgroepen, gebruikersaccounts en licenties voor de packages om de apps te kunnen testen
 
-MCS gebruikt deze machtigingen om de volgende acties uit te voeren:
+MCS maakt gebruik van deze machtigingen om de volgende acties uit te voeren:
  
--   Ervoor zorgen dat de app werkt op virtuele machine die is geconfigureerd voor Microsoft Managed Desktop
--   De app uploaden naar Microsoft Intune voor implementatie naar uw gebruikers
+-   Ervoor zorgen dat de app werkt op de virtuele machine die is geconfigureerd voor Microsoft Managed Desktop
+-   De app uploaden naar Microsoft intune for Deployment voor uw gebruikers
 
-Zonder deze machtigingen is het mogelijk voor MCS om verder te gaan, maar ze kunnen de toepassingen niet uploaden naar uw omgeving.
+Zonder deze machtigingen is het mogelijk dat de MCS doorschakelt, maar de toepassingen kan niet worden geüpload naar uw omgeving.
 
 

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Meer informatie over de beveiligingsfuncties die worden geleverd bij Microsoft 365 Business Premium om uw gegevens op Pc's, telefoons en tablets te beschermen.
-ms.openlocfilehash: 587d80c27f867a387c901d23f4ec05f3c5905bf6
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b7fdd3d7fa25c23ee49ae82aa037588d8fba61a1
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843483"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840384"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Functies voor beveiliging en compliance van Microsoft 365 Business Premium
 
@@ -59,9 +59,9 @@ U kunt een groot aantal beveiligingsfuncties in Microsoft 365 Business Premium b
     
     U kunt alle Windows 10-apparaten herstellen waarop de instellingen voor apparaat-beveiliging zijn toegepast.
     
-## <a name="additional-security-features"></a>Aanvullende beveiligings functies 
+## <a name="additional-security-features"></a>Aanvullende beveiligingsfuncties 
 
-Geavanceerde functies in Microsoft 365 Business Premium zijn beschikbaar om u te helpen uw bedrijf te beschermen tegen een Cyber-Threat en gevoelige informatie te beschermen.
+De geavanceerde functies zijn beschikbaar in Microsoft 365 Business Premium voor de beveiliging van je business tegen cyber-dreigingen en de bescherming van gevoelige informatie.
   
 - **[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
@@ -86,7 +86,7 @@ Geavanceerde functies in Microsoft 365 Business Premium zijn beschikbaar om u te
     - [Toegang op basis van locatie](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined#conditional-access-policies-for-combined-registration);  alleen toegang toestaan vanuit vertrouwde IP-bereiken of bepaalde landen 
     - MFA vereisen voor toegang
     - Toegang tot apps via [oudere verificatie](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication) blokkeren
-    - Apps moeten worden gebruikt in de bescherming van de [intune-app](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
+    - Apps moeten gebruikmaken van de bescherming van de [intune-app](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
     - Aangepaste verificatie, zoals MFA met leveranciers van derden, bijvoorbeeld DUO.
    
     Andere functies:
