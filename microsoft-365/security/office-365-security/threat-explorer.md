@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Gebruik Verkenner en real-time detectie van het beveiligings &amp; conformiteitscentrum om bedreigingen efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8bca8e39029fe041c0bab59e92d8a653647746ef
-ms.sourcegitcommit: 0ecac0387be6b49025b79ce8eb949a8cf62481e2
+ms.openlocfilehash: 5ecc90602573de0de08336c3bca41aed701d8329
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724412"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865030"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigings Verkenner en real-time ontdekken
 
@@ -422,7 +422,7 @@ In de vervolgmenuanker voor E-mail of URL, met de bovenste klikken en in de filt
 
 ## <a name="review-email-messages-reported-by-users"></a>Door gebruikers verzonden e-mailberichten bekijken
 
-Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie als *ongewenste e-mail* hebben gerapporteerd, *geen ongewenste e-mail* of *phishing* via de [invoegtoepassing bericht rapporteren voor Outlook en de webversie van Outlook](enable-the-report-message-add-in.md). U kunt ze weergeven via de weergave voor het [ **Ontvangen van e-mail**  > ](threat-explorer-views.md#email--submissions) van Explorer (of realtime detectie).
+Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie als *ongewenste e-mail* hebben gerapporteerd, *geen ongewenste e-mail* of *phishing* via de [invoegtoepassing bericht rapporteren](enable-the-report-message-add-in.md) of de [phishingwebsite](enable-the-report-phish-add-in.md). U kunt ze weergeven via de weergave voor het [ **Ontvangen van e-mail**  > ](threat-explorer-views.md#email--submissions) van Explorer (of realtime detectie).
 
 1. Kies in het beveiligings & conformiteitscentrum ( <https://protection.office.com> ) de optie **Threat Management** \> **Explorer** (of **realtime-detectie**). (In dit voorbeeld wordt Explorer gebruikt.)
 

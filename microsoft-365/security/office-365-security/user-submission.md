@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen leren hoe u een postvak configureert om spam en phishing-e-mail te verzamelen die door gebruikers worden gerapporteerd.
-ms.openlocfilehash: 7064e2d26722c433d33fe2f983484a40fa33c1e6
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 8f9da620643d46bf21a18eccc2047ad4361832cc
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615622"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865058"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor het aanmissionen van gebruikers
 
@@ -31,6 +31,8 @@ ms.locfileid: "49615622"
 In Microsoft 365-organisaties met postvakken van Exchange Online kunt u een postvak opgeven voor het ontvangen van berichten die gebruikers als schadelijk of niet schadelijk melden. Wanneer gebruikers berichten verzenden met behulp van de verschillende rapportopties, kunt u dit postvak gebruiken om berichten te onderscheppen (alleen verzenden naar het aangepaste postvak) of kopieën van berichten ontvangen (verzenden naar het aangepaste postvak en Microsoft). Deze functie werkt met de volgende opties voor het rapporteren van berichten:
 
 - [De invoegtoepassing bericht melden](enable-the-report-message-add-in.md)
+
+- [De invoegtoepassing voor Phishingfilter melden](enable-the-report-phish-add-in.md)
 
 - [Ingebouwde rapporten in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (voorheen Outlook Web app)
 
@@ -63,7 +65,7 @@ Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden vold
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u direct naar de pagina voor het aanvragen van **gebruikers** wilt gaan, gebruikt u <https://protection.office.com/userSubmissionsReportMessage> .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u direct naar de pagina voor het aanvragen van **gebruikers** wilt gaan, gebruikt u <https://protection.office.com/userSubmissionsReportMessage> .
 
 - Als u de configuratie van gebruikers inzendingen wilt wijzigen, moet u lid zijn van een van de volgende rollen groepen:
 
@@ -76,17 +78,17 @@ Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden vold
 
 2. Selecteer een van de volgende opties op de pagina **gebruikers items** die wordt weergegeven:
 
-   1. **De functie bericht rapporteren voor Outlook inschakelen (aanbevolen)**: Selecteer deze optie als u de invoegtoepassing bericht rapporteren of de ingebouwde rapporten in de webversie van Outlook gebruikt en de volgende instellingen configureert:
+   1. **De functie voor het melden van berichten voor Outlook inschakelen (aanbevolen)**: Selecteer deze optie als u de invoegtoepassing berichten rapporteren of de ingebouwde rapporten in de webversie van Outlook gebruikt en configureer de volgende instellingen:
 
       - **Het bevestigingsbericht voor eindgebruikers aanpassen**: Klik op deze link. Configureer de volgende instellingen in het vervolgmenu met **bevestigingsberichten aanpassen** dat wordt weergegeven:
 
-      - **Voordat u gaat verzenden**: Typ in de vakken **titel** en **bevestiging** de beschrijvende tekst die gebruikers zien voordat ze een bericht rapporteren met behulp van de invoegtoepassing bericht melden. U kunt de variabele% type% gebruiken voor het inzendings type (ongewenst, geen ongewenste e-mail, phishing, enzovoort).
+      - **Voordat u gaat verzenden**, voert u in de vakken **titel** en **bevestigingsbericht** de beschrijvende tekst in die gebruikers te zien krijgen voordat ze een bericht melden met behulp van de invoegtoepassing bericht rapporteren of de phishing-invoegtoepassing voor het rapport. U kunt de variabele% type% gebruiken voor het inzendings type (ongewenst, geen ongewenste e-mail, phishing, enzovoort).
 
         Zoals u ziet, wordt de volgende tekst ook toegevoegd aan de melding wanneer u een optie selecteert waarmee de gerapporteerde berichten naar Microsoft worden verzonden:
 
         > Uw e-mailbericht wordt verzonden naar Microsoft voor analyse. Sommige e-mailberichten kunnen persoonlijke of gevoelige informatie bevatten.
 
-      - **Na verzending**: Klik op ![ pictogram uitvouwen ](../../media/scc-expand-icon.png) . Voer in de vakken **titel** en **bevestigingsbericht** de beschrijvende tekst in die gebruikers zien nadat ze een bericht hebben gerapporteerd via de invoegtoepassing bericht rapporteren. U kunt de variabele% type% gebruiken om het type levering op te nemen.
+      - **Na verzending**: Klik op ![ pictogram uitvouwen ](../../media/scc-expand-icon.png) . Voer in de vakken **titel** en **bevestigingsbericht** de beschrijvende tekst in die gebruikers te zien krijgen na het melden van een bericht via de invoegtoepassing bericht rapporteren of de phishing-invoegtoepassing voor rapporten. U kunt de variabele% type% gebruiken om het type levering op te nemen.
 
       Klik op **Opslaan** wanneer u gereed bent. Als u deze waarden wilt wissen, klikt u op de pagina voor het **aanbrengen** van **gebruikers** op terug herstellen.
 
@@ -104,9 +106,9 @@ Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden vold
       Wanneer u klaar bent, klikt u op **bevestigen**.
 
       > [!CAUTION]
-      > Als u de [rapportage van ongewenste e-mail in de webversie van Outlook hebt uitgeschakeld](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) met behulp van de beleidsregels voor het postvak in de webversie van Outlook, maar u de volgende instellingen voor het melden van berichten naar Microsoft hebt uitgeschakeld, kunnen gebruikers berichten rapporteren aan Microsoft in de webversie van Outlook met behulp van de invoegtoepassing berichten rapporteren.
+      > Als u de [rapportage van ongewenste e-mail in de webversie van Outlook hebt uitgeschakeld](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) met behulp van de beleidsregels voor het postvak van Outlook, maar u de vorige instellingen voor het melden van berichten naar Microsoft hebt uitgeschakeld, kunnen gebruikers berichten rapporteren naar Microsoft in de webversie van Outlook met behulp van de invoegtoepassing voor het melden van berichten of de phishingwebsite.
 
-   - **De functie voor het melden van berichten voor Outlook uitschakelen**: Selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoegtoepassing berichten rapporteren of de ingebouwde rapporten in de webversie van Outlook en configureer de volgende instellingen:
+   - **De functie voor het melden van berichten voor Outlook uitschakelen**: Selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoegtoepassing voor het rapporteren van rapporten of de ingebouwde rapportage van de webversie van Outlook, en configureer de volgende instellingen:
 
       Selecteer **dit aangepaste postvak gebruiken om door de gebruiker gerapporteerde inzendingen te ontvangen**. In het vak dat wordt weergegeven, voert u het e-mailadres in van een bestaand postvak dat zich al in Office 365 bevindt. Dit moet een bestaand postvak zijn in Exchange Online, dat e-mailberichten kan ontvangen.
 

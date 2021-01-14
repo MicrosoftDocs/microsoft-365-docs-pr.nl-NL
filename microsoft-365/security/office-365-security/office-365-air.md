@@ -21,12 +21,12 @@ description: Ga aan de slag met het gebruik van geautomatiseerde onderzoek-en an
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 6ccefb5c435f08fcef4dcc872af676fba70668ee
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 570fb3c9d180d3167cfc5a4e3c3825102875b74f
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794542"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865006"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Geautomatiseerd onderzoek en antwoord (lucht) in Microsoft Defender voor Office 365
 
@@ -107,7 +107,7 @@ Microsoft 365 biedt een groot aantal ingebouwde waarschuwingen waarmee beheerder
 |Bericht|Ernst|Hoe de waarschuwing wordt gegenereerd|
 |---|---|---|
 |Er is een mogelijk schadelijke URL gevonden|**Hoog**|U ontvangt deze waarschuwing als u een van de volgende handelingen doet: <ul><li>Een gebruiker die is beveiligd door [veilige koppelingen](atp-safe-links.md) in uw organisatie op een schadelijke koppeling</li><li>Verdict wijzigingen voor Url's worden geïdentificeerd door Microsoft Defender voor Office 365</li><li>Gebruikers negeren waarschuwings pagina's voor veilige koppelingen (op basis van het [beleid voor veilige koppelingen](set-up-atp-safe-links-policies.md)van uw organisatie).</li></ul> <p> Zie [beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.md)voor meer informatie over gebeurtenissen waarmee deze melding wordt geactiveerd.|
-|Een e-mailbericht wordt door een gebruiker gemeld als malware of phishing|**Informatieve**|Deze melding wordt gegenereerd wanneer gebruikers in uw organisatie berichten als malafide rapporteren via de [invoegtoepassing berichten rapporteren](enable-the-report-message-add-in.md).|
+|Een e-mailbericht wordt door een gebruiker gemeld als malware of phishing|**Informatieve**|Deze melding wordt gegenereerd wanneer gebruikers in uw organisatie berichten als phishing melden met behulp van de [invoegtoepassing berichten rapporteren](enable-the-report-message-add-in.md) of de [phishing-invoegtoepassing](enable-the-report-phish-add-in.md)voor het rapport.|
 |E-mailberichten met malware worden verwijderd na levering|**Informatieve**|Deze waarschuwing wordt gegenereerd wanneer u e-mailberichten met malware bezorgt voor postvakken in uw organisatie. Als deze gebeurtenis zich voordoet, verwijdert Microsoft de geïnfecteerde berichten uit postvakken van Exchange Online met [automatisch wissen van uur uur](zero-hour-auto-purge.md).|
 |E-mailberichten met phishing-Url's worden verwijderd na levering|**Informatieve**|Deze waarschuwing wordt gegenereerd wanneer berichten met phishing worden afgeleverd bij postvakken in uw organisatie. Als deze gebeurtenis zich voordoet, verwijdert Microsoft de geïnfecteerde berichten uit postvakken van Exchange Online met [automatisch wissen van uur uur](zero-hour-auto-purge.md).|
 |Verdachte patronen voor het verzenden van e-mail worden gedetecteerd|**Medium**|Deze melding wordt gegenereerd wanneer iemand in uw organisatie verdacht e-mailbericht heeft gestuurd en risico loopt dat e-mail wordt verzonden. Dit is een vroegtijdige waarschuwing voor gedrag dat kan betekenen dat de account is aangetast, maar niet zo sterk genoeg om de gebruiker te beperken. <p> Hoewel dit niet het geval is, kan een waarschuwing die door dit beleid is gegenereerd, een afwijkend zijn. Het is echter wel een goed idee om te [controleren of het gebruikersaccount is aangetast](responding-to-a-compromised-email-account.md).|

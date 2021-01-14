@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het inschakelen van de invoegtoepassing bericht rapporteren voor Outlook en de webversie van Outlook voor afzonderlijke gebruikers of voor de hele organisatie.
-ms.openlocfilehash: baed46e500e58702b7031db5aa5ff376a4eafcb5
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.openlocfilehash: 13721317c33cf207f27cd8b98fb6d32864651847
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877751"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49864994"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
@@ -31,19 +31,19 @@ ms.locfileid: "48877751"
 > [!NOTE]
 > Als u een beheerder bent van een Microsoft 365-organisatie met postvakken van Exchange Online, raden we u aan om de portal voor ingediende vragen te gebruiken in het beveiligings & nalevings centrum. Zie voor meer informatie [beheer van beheerders gebruiken om verdachte spam, phishing, url's en bestanden naar Microsoft te verzenden](admin-submission.md).
 
-Met de invoegtoepassing bericht rapporteren voor Outlook en de webversie van Outlook (voorheen Outlook Web app) kunnen gebruikers eenvoudig onjuiste positieven melden (goede e-mailberichten die als beschadigd zijn gemarkeerd) of fout-negatieven (onjuiste e-mail toegestaan) aan Microsoft en zijn gelieerde ondernemingen voor analyse. Microsoft gebruikt deze inzendingen om de effectiviteit van de technologieën voor e-mail beveiliging te verbeteren.
+Met de functie voor het melden van e-mailberichten en het rapporteren van phishing-invoegtoepassingen voor Outlook en de webversie van Outlook (voorheen Outlook Web app) kunnen gebruikers eenvoudig onjuiste positieven melden (goede e-mailberichten die als beschadigd zijn gemarkeerd) of fout-negatieven (onjuiste e-mail toegestaan) aan Microsoft en de gelieerde ondernemingen voor analyse.
 
-Stel dat personen een heleboel berichten als phishing rapporteren. Deze informatie vlakken zijn te zien in het [beveiligings dashboard](security-dashboard.md) en andere rapporten. Het beveiligingsteam van uw organisatie kan deze gegevens gebruiken, omdat er mogelijk een anti-phishing beleid moet worden bijgewerkt. Of als personen een heleboel berichten rapporteren die als ongewenste e-mail zijn gemarkeerd als niet-ongewenste e-mail met behulp van de invoegtoepassing berichten rapporteren, moet het beveiligingsteam van uw organisatie het [Antispambeleid](configure-your-spam-filter-policies.md)wellicht aanpassen.
+Microsoft gebruikt deze inzendingen om de effectiviteit van de technologieën voor e-mail beveiliging te verbeteren. Als personen bijvoorbeeld een groot aantal berichten willen weergeven die als ongewenste e-mail zijn gemarkeerd als niet-ongewenste e-mail via de invoegtoepassing berichten rapporteren, moet het beveiligingsteam van uw organisatie het [Antispambeleid](configure-your-spam-filter-policies.md)wellicht aanpassen.
 
-Als uw organisatie gebruikmaakt van [Microsoft Defender voor Office 365 (abonnement 1](office-365-atp.md) of [abonnement 2](office-365-ti.md)), biedt de invoegtoepassing bericht melden het beveiligingsteam van uw organisatie nuttige informatie die kan worden gebruikt om beveiligingsbeleid te controleren en bij te werken.
+U kunt de invoegtoepassing voor het melden van een bericht of rapport installeren. Als u wilt dat gebruikers alleen phishingberichten kunnen rapporteren, moet u de invoegtoepassing voor het melden van rapporten in uw organisatie implementeren. Zie [de invoegtoepassing voor phishing-rapporten inschakelen](enable-the-report-phish-add-in.md)voor meer informatie.
 
-Beheerders kunnen de invoegtoepassing bericht rapporteren voor de organisatie inschakelen en afzonderlijke gebruikers kunnen de invoegtoepassing voor zichzelf installeren.
+De invoegtoepassing bericht melden biedt de mogelijkheid om spam en phishingberichten te rapporteren. Beheerders kunnen de invoegtoepassing bericht rapporteren voor de organisatie inschakelen en afzonderlijke gebruikers kunnen de invoegtoepassing voor zichzelf installeren.
 
 Als u een individuele gebruiker bent, kunt u [de invoegtoepassing bericht rapporteren voor uzelf inschakelen](#get-the-report-message-add-in-for-yourself).
 
 Als u een globale beheerder of een beheerder van Exchange Online bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u [de invoegtoepassing bericht rapporteren voor uw organisatie inschakelen](#get-and-enable-the-report-message-add-in-for-your-organization). De Add-In rapportberichten is nu beschikbaar via [gecentraliseerde implementatie](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - De invoegtoepassing bericht rapporteren werkt met de meeste Microsoft 365-abonnementen en de volgende producten:
 
@@ -109,17 +109,17 @@ Zie [de invoegtoepassing bericht rapporteren gebruiken](https://support.microsof
 
 6. Configureer de volgende instellingen op de pagina **invoegtoepassing configureren** die wordt weergegeven:
 
-   - **Toegewezen gebruikers** : Selecteer een van de volgende waarden:
+   - **Toegewezen gebruikers**: Selecteer een van de volgende waarden:
 
      - **Iedereen** (standaard)
      - **Specifieke gebruikers/groepen**
      - **Alleen ik**
 
-   - **Implementatiemethode** : Selecteer een van de volgende waarden:
+   - **Implementatiemethode**: Selecteer een van de volgende waarden:
 
-     - **Fixed (standaardinstelling)** : de invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers en kan de invoegtoepassing niet verwijderen.
-     - **Beschikbaar** : gebruikers kunnen de invoegtoepassing installeren bij de beheerder van de **Startpagina** \> **invoegtoepassingen** \> **beheren**.
-     - **Optioneel** : de invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen de optie wel verwijderen.
+     - **Fixed (standaardinstelling)**: de invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers en kan de invoegtoepassing niet verwijderen.
+     - **Beschikbaar**: gebruikers kunnen de invoegtoepassing installeren bij de beheerder van de **Startpagina** \> **invoegtoepassingen** \> **beheren**.
+     - **Optioneel**: de invoegtoepassing wordt automatisch geïmplementeerd voor de opgegeven gebruikers, maar ze kunnen de optie wel verwijderen.
 
    ![Pagina invoegtoepassing configureren](../../media/configure-add-in.png)
 

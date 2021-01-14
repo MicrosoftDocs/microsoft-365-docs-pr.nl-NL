@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e98e59d39744d67427a272f456a03fc123034aa7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 568144c449d2f1a70082130cc847d48c3486d9da
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659475"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865102"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
@@ -479,7 +479,7 @@ Het **rapport URL Threat Protection** is beschikbaar in Microsoft Defender voor 
 
 ## <a name="user-reported-messages-report"></a>Rapport door gebruiker gerapporteerde berichten
 
-In het rapport door de gebruiker gerapporteerde **berichten** ziet u informatie over e-mailberichten die gebruikers als ongewenste e-mail, phishing of goede e-mail hebben gerapporteerd met behulp van de [invoegtoepassing berichten rapporteren](enable-the-report-message-add-in.md).
+In het rapport door de gebruiker gerapporteerde **berichten** ziet u informatie over e-mailberichten die gebruikers als ongewenste e-mail, phishing of goede e-mail hebben gerapporteerd met behulp van de [invoegtoepassing berichten rapporteren](enable-the-report-message-add-in.md) of [de phishingwebsite voor phishing](enable-the-report-phish-add-in.md).
 
 Details zijn beschikbaar voor elk bericht, waaronder de bezorgings reden, een uitzondering voor spam beleid of een e-mail stroom regel die is geconfigureerd voor uw organisatie. Als u de details wilt bekijken, selecteert u een item in de lijst gebruikers rapporten en bekijkt u de gegevens op de tabbladen **overzicht** en **Details** .
 

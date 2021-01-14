@@ -21,12 +21,12 @@ description: Nagaan hoe automatisch onderzoek en antwoord mogelijkheden werken i
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: bbc51201f9d96744ed5bc236516158a75f7af272
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 5ca9ea941d073c7b199678631a9063cfbeae8907
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615226"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49864898"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Automatisch onderzoek en antwoord werken in Microsoft Defender voor Office 365
 
@@ -44,7 +44,7 @@ In dit artikel wordt beschreven hoe lucht met een aantal voorbeelden werkt. Wann
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: een door een gebruiker gemelde phishing-bericht opent een onderzoek Playbook
 
-Stel dat een gebruiker in uw organisatie een e-mailbericht ontvangt waarvan de persoon een malafide e-mailbericht is. De gebruiker die is getraind voor het melden van dergelijke berichten, gebruikt de [invoegtoepassing bericht melden](enable-the-report-message-add-in.md) om deze naar Microsoft te verzenden voor analyse. De opdracht verzenden wordt ook naar uw systeem verzonden en wordt weergegeven in Explorer in de weergave ingediende **items** (voorheen de door de **gebruiker gerapporteerde** weergave genoemd). Daarnaast wordt in het door de gebruiker gerapporteerde bericht nu een informatiesysteem geactiveerd waarmee onderzoek automatisch wordt gestart.
+Stel dat een gebruiker in uw organisatie een e-mailbericht ontvangt waarvan de persoon een malafide e-mailbericht is. De gebruiker die is getraind voor het melden van dergelijke berichten, gebruikt de [invoegtoepassing bericht melden](enable-the-report-message-add-in.md) of de [invoegtoepassing](enable-the-report-phish-add-in.md) voor het melden van een e-mail naar Microsoft voor analyse. De opdracht verzenden wordt ook naar uw systeem verzonden en wordt weergegeven in Explorer in de weergave ingediende **items** (voorheen de door de **gebruiker gerapporteerde** weergave genoemd). Daarnaast wordt in het door de gebruiker gerapporteerde bericht nu een informatiesysteem geactiveerd waarmee onderzoek automatisch wordt gestart.
 
 Tijdens de fase onderzoek worden verschillende aspecten van het e-mailbericht geëvalueerd. Dit zijn onder meer:
 

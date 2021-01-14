@@ -1,6 +1,6 @@
 ---
-title: Beleid voor identiteits-en toegangsbeleid voor het verlenen van toegang via gast en externe B2B-Microsoft 365 voor Enterprise | Microsoft docs
-description: Een beschrijving van de aanbevolen voorwaardelijke toegang en gerelateerde beleidsregels voor de bescherming van de toegang van gasten en externe gebruikers.
+title: Beleid voor identiteits-en toegangsbeleid voor het toestaan van gastgebruikers en externe gebruikers B2B Access-Microsoft 365 voor ondernemingen | Microsoft docs
+description: Een beschrijving van de aanbevolen voorwaardelijke toegang en gerelateerde beleidsregels voor het beschermen van de toegang van gasten en externe gebruikers.
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.author: josephd
@@ -17,24 +17,24 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 376845d8e3657b91b9efe0357e94f4bec3a84078
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 4ee6cb93e5c943d704950e28ba4dc70a246429a6
+ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688276"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49845074"
 ---
-# <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Beleid voor het toestaan van toegang via gast en externe B2B
+# <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>Beleid voor het verlenen van toegang tot gasttoegang en B2B-toegang tot externe gebruikers
 
-In dit artikel wordt uitgelegd hoe u de aanbevolen beleidsregels voor identiteit en Apparaattoegang aanpast om toegang te krijgen tot gast en externe gebruikers die een Azure Active Directory-Business-to-Business-account (B2B) bieden. Deze richtlijnen zijn van toepassing op de [veelgebruikte beleidsregels voor identiteit en toegang tot apparaten](identity-access-policies.md).
+Dit artikel bevat informatie over het aanpassen van het aanbevolen beleid voor het aanwijzen van gebruikers en het instellen van toegangsbeleid voor gasten en externe gebruikers die een Azure Active Directory-account (Azure AD) voor Business-to-Business (B2B) hebben. Deze richtlijnen zijn van toepassing op de [veelgebruikte beleidsregels voor identiteit en toegang tot apparaten](identity-access-policies.md).
 
-Deze aanbevelingen zijn bedoeld om toe te passen op de **basis** niveau beveiliging. U kunt echter ook de aanbevelingen aanpassen op basis van de granulatie van uw behoeften voor **gevoelige** en **sterk gereguleerde** bescherming.
+Deze aanbevelingen zijn bedoeld om toe te passen op de **basis** niveau beveiliging. U kunt ook de aanbevelingen aanpassen op basis van uw specifieke behoeften voor **gevoelige** en **sterk begereglementeerde** bescherming.
 
-Als u een pad opgeeft voor B2B-accounts voor verificatie met de Azure AD-Tenant, bieden deze accounts geen toegang tot uw gehele omgeving. B2B-gebruikers en hun accounts hebben alleen toegang tot de bronnen die met hen zijn gedeeld (zoals bestanden) binnen de services die zijn toegewezen aan voorwaardelijke toegangsbeleid.
+Als u een pad opgeeft voor B2B-accounts voor verificatie met de Azure AD-Tenant, bieden deze accounts geen toegang tot uw gehele omgeving. B2B-gebruikers en hun accounts hebben toegang tot services en bronnen, zoals bestanden, gedeeld door het beleid voor voorwaardelijke toegang.
 
-## <a name="updating-the-common-policies-to-allow-and-protect-guest-and-external-access"></a>Veelgebruikte beleidsregels bijwerken om gast en externe toegang toe te staan en te beschermen
+## <a name="updating-the-common-policies-to-allow-and-protect-guests-and-external-user-access"></a>Veelgebruikte beleidsregels bijwerken om gasten en externe gebruikers toegang toe te staan en te beschermen
 
-In het volgende diagram ziet u welke beleidsregels u toevoegt of bijwerkt in de algemene beleidsregels voor identiteit en Apparaattoegang om gast en externe toegang te beschermen met Azure AD B2B-accounts.
+In dit diagram ziet u welke beleidsregels u kunt toevoegen of bijwerken tussen de veelgebruikte beleidsregels voor identiteits-en Apparaattoegang, voor B2B-gasten en externe gebruikers toegang.
 
 [![Overzicht van beleidsupdates voor de bescherming van gasttoegang](../../media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)
 
@@ -44,41 +44,41 @@ In de volgende tabel vindt u een overzicht van de beleidsregels die u moet maken
 
 |Beveiligingsniveau|Lijnen|Meer informatie|
 |---|---|---|
-|**Basislijn**|[MFA vereisen altijd voor gast en externe gebruikers](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Maak dit nieuwe beleid en configureer de volgende opties: <ul><li>Voor **toewijzingen > gebruikers en groepen > toevoegen**, kiest **u gebruikers en groepen selecteren** en selecteert u vervolgens **alle gast en externe gebruikers**.</li><li>Voor **toewijzingen > voorwaarden > aanmelden**, schakelt u alle opties uit als u meervoudige verificatie (MFA) altijd wilt afdwingen.</li></ul>|
-||[MFA vereisen wanneer het aanmeld risico *normaal* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Dit beleid wijzigen om gast en externe gebruikers uit te sluiten.|
-||[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Dit beleid wijzigen om gast en externe gebruikers uit te sluiten.|
+|**Basislijn**|[MFA vereist altijd voor gasten en externe gebruikers](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Maak dit nieuwe beleid en configureer de volgende opties: <ul><li>Voor **toewijzingen > gebruikers en groepen > toevoegen**, kiest **u gebruikers en groepen selecteren** en selecteert u vervolgens **alle gast en externe gebruikers**.</li><li>Voor **toewijzingen > voorwaarden > aanmelden**, schakelt u alle opties uit als u meervoudige verificatie (MFA) altijd wilt afdwingen.</li></ul>|
+||[MFA vereisen wanneer het aanmeld risico *normaal* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Dit beleid wijzigen om gasten en externe gebruikers uit te sluiten.|
+||[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Dit beleid wijzigen om gasten en externe gebruikers uit te sluiten.|
 
-Als u gast en externe gebruikers wilt opnemen in en uitsluiten van beleidsregels voor voorwaardelijke toegang voor **toewijzingen > gebruikers en groepen > toevoegen** of **uitsluiten**, controleert u **alle gast en externe gebruikers**.
+Als u gasten en externe gebruikers in beleidsregels voor voorwaardelijke toegang wilt opnemen of uitsluiten, schakelt u de selectievakjes voor **toewijzingen > gebruikers en groepen > toevoegen** of **uitsluiten** in en schakelt u **alle gast en externe gebruikers** in.
 
-![schermopname van besturingselementen voor exclusief gast en externe gebruikers](../../media/microsoft-365-policies-configurations/identity-access-exclude-guests-ui.png)
+![schermopname van besturingselementen voor exclusief gasten en externe gebruikers](../../media/microsoft-365-policies-configurations/identity-access-exclude-guests-ui.png)
 
 ## <a name="more-information"></a>Meer informatie
 
-### <a name="guest-and-external-access-with-microsoft-teams"></a>Gast en externe toegang met Microsoft teams
+### <a name="guests-and-external-user-access-with-microsoft-teams"></a>Gasten en externe gebruikers toegang met Microsoft teams
 
-In Microsoft teams wordt het volgende gedefinieerd:
+In Microsoft teams worden de volgende gebruikers gedefinieerd:
 
-- **Gasttoegang** maakt gebruik van een Azure AD B2B-account dat kan worden toegevoegd als lid van een team en gemachtigd zijn om toegang te krijgen tot de communicatie en de bronnen van het team.
+- **Gasttoegang** maakt gebruik van een Azure AD B2B-account dat kan worden toegevoegd als lid van een team en toegang hebben tot de communicatie en de bronnen van het team.
 
-- **Externe toegang** is bedoeld voor externe gebruikers die geen B2B-account hebben. Externe toegang omvat uitnodigingen en deelnemen aan gesprekken, chats en vergaderingen, maar omvat geen team lidmaatschap en toegang tot de bronnen van het team.
+- **Externe toegang** is bedoeld voor externe gebruikers die geen B2B-account hebben. Toegang tot externe gebruikers omvat uitnodigingen, gesprekken, chats en vergaderingen, maar omvat geen team lidmaatschap en toegang tot de bronnen van het team.
 
-Zie de [vergelijking tussen gast en externe toegang voor teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)voor meer informatie.
+Zie de [vergelijking tussen gasten en externe gebruikers toegang voor teams](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)voor meer informatie.
 
-Raadpleeg [beleids aanbevelingen voor het beveiligen van teams-chats,-groepen en-bestanden](teams-access-policies.md) voor meer informatie over het beveiligen van identiteits-en Apparaattoegang voor teams.
+Zie [aanbevelingen voor het beveiligen van teams-chats,-groepen en-bestanden](teams-access-policies.md)voor meer informatie over het beveiligen van beleidsregels voor identiteit en Apparaattoegang voor teams.
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>MFA vereisen altijd voor gast en externe gebruikers
 
-Dit beleid vraagt bezoekers zich voor MFA aan te melden bij uw Tenant, ongeacht of ze zich voor MFA registreren in hun thuis Tenant. Bij het openen van bronnen in de Tenant zijn gast en externe gebruikers verplicht MFA te gebruiken voor elke aanvraag.
+Dit beleid vraagt bezoekers zich voor MFA aan te melden bij uw Tenant, ongeacht of ze zich voor MFA registreren in hun thuis Tenant. Bij het openen van bronnen in de Tenant zijn gasten en externe gebruikers verplicht MFA te gebruiken voor elke aanvraag.
 
-### <a name="excluding-guest-and-external-users-from-risk-based-mfa"></a>Gast en externe gebruikers uitsluiten van MFA op basis van risico
+### <a name="excluding-guests-and-external-users-from-risk-based-mfa"></a>Gasten en externe gebruikers uitsluiten van MFA op basis van risico
 
-Organisaties kunnen op basis van risico beleid voor B2B-gebruikers die gebruikmaken van Azure Active Directory-identiteitsbeveiliging, beperkingen instellen voor de implementatie van Azure AD-identiteitsbeveiliging voor B2B-samenwerkings gebruikers in een resource directory, omdat hun identiteit in hun basismap zich bevindt. Vanwege deze beperkingen adviseert Microsoft gastgebruikers uit te sluiten van op riskniveau MFA-beleidsregels en vragen deze gebruikers altijd MFA te gebruiken.
+Organisaties kunnen op basis van risico beleid voor B2B-gebruikers die gebruikmaken van Azure Active Directory-identiteitsbeveiliging, beperkingen instellen voor de implementatie van Azure AD-identiteitsbeveiliging voor B2B-samenwerkings gebruikers in een resource directory, omdat hun identiteit in hun basismap zich bevindt. Als gevolg van deze beperkingen adviseert Microsoft gasten niet uit te sluiten op basis van Risk MFA-beleidsregels en vragen deze gebruikers altijd MFA te gebruiken.
 
 Zie [beperkingen van identiteits bescherming voor B2B-samenwerkings gebruikers](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users)voor meer informatie.
 
-### <a name="excluding-guest-and-external-users-from-device-management"></a>Gebruikers van het beheer van apparaten zonder gast en externe gebruikers uitsluiten
+### <a name="excluding-guests-and-external-users-from-device-management"></a>Gasten en externe gebruikers uitsluiten van Apparaatbeheer
 
-Er kan slechts één organisatie een apparaat beheren. Als u gast en externe gebruikers niet uitsluiten van beleidsregels waarvoor de naleving van een apparaat is vereist, blok keert dit beleid deze gebruikers.
+Er kan slechts één organisatie een apparaat beheren. Als u gasten en externe gebruikers niet uitsluiten van beleidsregels waarvoor de naleving van een apparaat is vereist, blok keert dit beleid deze gebruikers.
 
 ## <a name="next-step"></a>Volgende stap
 

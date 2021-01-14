@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van de portal voor uitnodigingen van de beveiligings & nalevings centrum voor het verzenden van verdachte e-mailberichten, verdachte e-mailberichten, spam en andere mogelijk schadelijke berichten, Url's en bestanden aan Microsoft voor het scannen.
-ms.openlocfilehash: 7327768780e5db16e09e2b709c9c11344573c404
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 432a245530d7906ae8babbc54176480d36315351
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659823"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49864946"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.
 
@@ -38,7 +38,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **Verzend** pagina wilt gaan, gebruikt u <https://protection.office.com/reportsubmission> .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **Verzend** pagina wilt gaan, gebruikt u <https://protection.office.com/reportsubmission> .
 
 - Als u berichten en bestanden bij Microsoft wilt verzenden, moet u lid zijn van een van de volgende rollen groepen:
 
@@ -190,7 +190,7 @@ U kunt op de knop **kolom opties** onder aan de pagina klikken om kolommen toe t
 
 ## <a name="view-user-submissions-to-microsoft"></a>Naar Microsoft verzonden gebruikers inzendingen weergeven
 
-Als u de [invoegtoepassing bericht rapporteren](enable-the-report-message-add-in.md)hebt geïmplementeerd of personen de [ingebouwde rapporten gebruiken in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), kunt u zien wat gebruikers rapporteren op het tabblad **gebruikers** namen.
+Als u de invoegtoepassing [voor het rapporteren van berichten](enable-the-report-message-add-in.md)hebt geïmplementeerd, de [phishing-](enable-the-report-phish-add-in.md)uitbreiding voor het rapport of gebruikers de [ingebouwde rapporten in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)gebruiken, kunt u zien welke gebruikers rapporteren op het tabblad **gebruikers submissies** .
 
 1. Ga in het beveiligings & compliance naar inzendingen van **risicobeheer** \> .
 

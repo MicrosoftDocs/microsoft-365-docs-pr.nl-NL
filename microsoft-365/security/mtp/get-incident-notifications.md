@@ -21,19 +21,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3af1dcfec165c88a18cbc0d8cbf6866bb6398adc
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: f25be4de3f25db869957474c3cb32b20e9f7aa53
+ms.sourcegitcommit: 88d358d778804b26d5e41c53b4f725d01a78112b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668199"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49848889"
 ---
 # <a name="get-incident-notifications-by-email"></a>Incident meldingen ontvangen via e-mail
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
->[!IMPORTANT]
-> De functie e-mail meldingen voor incidenten bevindt zich momenteel in een openbare preview. Bepaalde informatie over deze functie kan worden gewijzigd vóór de commerciële beschikbaarheid. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
 
 **Van toepassing op:**
 - Microsoft 365 Defender

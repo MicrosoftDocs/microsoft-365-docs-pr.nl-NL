@@ -1,6 +1,6 @@
 ---
 title: Vereisten voor het implementeren van identiteits-en Apparaattoegang-beleid-Microsoft 365 for Enterprise | Microsoft docs
-description: Beschrijft de vereisten voor het implementeren van beleidsregels en configuraties voor identiteiten en apparaten.
+description: In dit artikel worden de vereisten beschreven die u moet nemen om te voldoen aan het gebruik van beleidsregels en configuraties voor identiteiten en apparaten.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
@@ -18,20 +18,20 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: bd0b4efb1281d467a61e4aee792b507f0ca44181
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: eb07fe45c169d81559e4676f86abde5c6600a185
+ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616558"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49845082"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Vereisten voor het implementeren van identiteits-en Apparaattoegang
 
-In dit artikel worden de vereisten beschreven die moeten worden geïmplementeerd voordat u de aanbevolen identiteit en het toegangsbeleid voor apparaten kunt implementeren. In dit artikel worden ook de aanbevolen standaardplatform configuraties besproken waarmee u uw gebruikers de beste functionaliteit voor eenmalige aanmelding (SSO) kunt bieden en ook de technische vereisten voor voorwaardelijke toegang.
+In dit artikel wordt beschreven welke beheerders moeten voldoen aan de aanbevolen identiteits-en toegangsbeleidsregels en om voorwaardelijke toegang te kunnen gebruiken. Ook worden de aanbevolen standaardwaarden besproken voor het configureren van clientplatforms voor de beste ervaring voor eenmalige aanmelding.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de aanbevolen beleidsregels implementeert en een beleid voor het openen van een apparaat implementeert, gelden er enkele vereisten die uw organisatie moet voldoen aan deze identiteit en verificatie modellen voor Microsoft 365 en Office 365:
+Voordat u de beleidsregels voor identiteit en toegang tot apparaten gebruikt, moet uw organisatie voldoen aan vereisten. De vereisten verschillen voor de verschillende identiteits-en verificatie modellen die worden weergegeven:
 
 - Alleen in de cloud
 - Hybride met wachtwoord hash synchronisatie (PHS)-authenticatie

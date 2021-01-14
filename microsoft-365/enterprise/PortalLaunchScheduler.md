@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: In dit artikel wordt uitgelegd hoe u uw portal kunt starten met behulp van de lanceer planner voor portals
-ms.openlocfilehash: 7e488caba5e4df47bb3f51f195e093891565d95c
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 66912f5730c580bd75282a64124fefcdf262d738
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367199"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49864874"
 ---
 # <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>De portal starten met behulp van de lanceer planner voor portal
 
@@ -34,7 +34,7 @@ Er zijn twee typen omleiding:
 - bidirectioneel: een nieuwe moderne SharePoint Online-Portal starten om een bestaande SharePoint-klassieke of moderne portal te vervangen 
 - tijdelijke omleiding van pagina: een nieuwe moderne SharePoint Online-Portal starten zonder bestaande SharePoint-Portal
 
-De lancerings planner voor de portal is alleen beschikbaar voor het openen van moderne SharePoint Online-portals, zoals Communicatiesites en moderne team sites. Start moet ten minste 7 dagen vooraf worden gepland. Het aantal vereiste golven wordt bepaald door het verwachte aantal gebruikers. Voordat u begint met het plannen van een portal, moet u eerst het [hulpprogramma pagina diagnose voor SharePoint](https://aka.ms/perftool) uitvoeren om te controleren of de startpagina op de portal in orde is. Aan het einde van de start van de portal hebben alle gebruikers met machtigingen voor de site toegang tot de nieuwe site. 
+De lancerings planner voor de portal is alleen beschikbaar voor het openen van moderne SharePoint Online-portals (bijv. Communicatiesites). Start moet ten minste 7 dagen vooraf worden gepland. Het aantal vereiste golven wordt bepaald door het verwachte aantal gebruikers. Voordat u begint met het plannen van een portal, moet u eerst het [hulpprogramma pagina diagnose voor SharePoint](https://aka.ms/perftool) uitvoeren om te controleren of de startpagina op de portal in orde is. Aan het einde van de start van de portal hebben alle gebruikers met machtigingen voor de site toegang tot de nieuwe site. 
 
 Als u meer wilt weten over het starten van een succesvolle Portal, volgt u de basisprincipes, procedures en aanbevelingen voor informatie over het [maken, starten en onderhouden van een gezonde Portal](https://docs.microsoft.com/sharepoint/portal-health). 
 
@@ -70,7 +70,7 @@ Het aantal vereiste Golf punten is afhankelijk van de verwachte start grootte.
 
 Bidirectionele omleiding houdt in dat u een nieuwe moderne SharePoint Online-Portal moet starten om een bestaande SharePoint-klassieke of moderne portal te vervangen. Gebruikers in actieve golven worden omgeleid naar de nieuwe site, ongeacht of ze naar de oude of nieuwe site navigeren. Gebruikers in een niet-geactiveerde golf die toegang proberen te krijgen tot de nieuwe site, worden weer naar de oude site omgeleid totdat hun Wave wordt gestart. 
 
-We ondersteunen alleen omleiding tussen de standaardstartpagina van de oude site en de standaardstartpagina van de nieuwe site. Als u beheerders of eigenaren hebt die toegang moeten hebben tot de oude en nieuwe sites zonder te worden doorgestuurd, moet u ervoor zorgen dat ze worden weergegeven met behulp van de `WaveOverrideUsers` parameter. Als u beheerders of eigenaren hebt die toegang moeten hebben tot de oude en nieuwe sites zonder te worden doorgestuurd, moet u ervoor zorgen dat ze worden weergegeven met behulp van de `WaveOverrideUsers` parameter. We ondersteunen alleen omleiding tussen de standaardstartpagina van de oude site en de standaardstartpagina van de nieuwe site.
+We ondersteunen alleen omleiding tussen de standaardstartpagina van de oude site en de standaardstartpagina van de nieuwe site. Als u beheerders of eigenaren hebt die toegang moeten hebben tot de oude en nieuwe sites zonder te worden doorgestuurd, moet u ervoor zorgen dat ze worden weergegeven met behulp van de `WaveOverrideUsers` parameter.
 
 Gebruikers migreren van een bestaande SharePoint-site naar een nieuwe SharePoint-site op een gefaseerde manier:
 
@@ -109,7 +109,6 @@ Voorbeeld:
    ```
 
 2. Validatie voltooien. Het duurt 5-10 minuten voordat de omleiding is geconfigureerd via de service. 
-   - `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/newsite" -RedirectionType Bidirectional -RedirectUrl "https://*.sharepoint.com/sites/oldsite" -ExpectedNumberOfUsers LessThan10kUsers -WaveOverrideUsers "*@microsoft.com" -Waves ' [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
 
 ## <a name="pause-or-restart-a-portal-launch-on-the-site"></a>De start van een portal op de site onderbreken of opnieuw starten
 
@@ -129,16 +128,14 @@ Voorbeeld:
 4. Valideren dat de omleiding nu wordt hersteld. 
 
 ## <a name="delete-a-portal-launch-on-the-site"></a>De start van een portal op de site verwijderen
-1. Maak een lanceer Golf voor de portal.
-  - `New-SPOPortalLaunchWaves  -LaunchSiteUrl "https://*.sharepoint.com/sites/NewSite" -RedirectionType ToTemporaryPage -RedirectUrl "https://*.sharepoint.com/sites/OldSite" -ExpectedNumberOfUsers From10kTo30kUsers -WaveOverrideUsers *@microsoft.com -Waves [{Name:"Wave 1", Groups:["Viewers SG1"], LaunchDateUtc:"2020/10/14"}, {Name:"Wave 2", Groups:["Viewers SG2"], LaunchDateUtc:"2020/10/15"}]' -IsTesting $true`
 
-2. Voer de volgende opdracht uit als u een geplande Portal start of een uitvoering van een site wilt verwijderen.
+1. Voer de volgende opdracht uit als u een geplande Portal start of een uitvoering van een site wilt verwijderen.
 
    ```PowerShell
    Remove-SPOPortalLaunchWaves -LaunchSiteUrl <object>
    ```
 
-3. Controleer of er geen omleiding voor alle gebruikers gebeurt.
+2. Controleer of er geen omleiding voor alle gebruikers gebeurt.
 
 ## <a name="learn-more"></a>Meer informatie
 [Rollen plan voor het lanceren van uw portal in SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out)

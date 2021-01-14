@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor standalone Exchange Online Protection (EOP) om ervoor te zorgen dat er geen veelvoorkomende configuratiefouten zijn opgetreden.
-ms.openlocfilehash: abf68e361293b2a55cd0a382cc376cbfe21236e7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: a229f8a269037296fa2b97ff7211343549b33685
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845946"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49864886"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Aanbevolen procedures voor het configureren van zelfstandige EOP
 
@@ -48,7 +48,7 @@ Met deze instellingen wordt een reeks functies besproken die buiten het beveilig
 |[SPF instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Ja|Ja||
 |[DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)|Ja|Ja||
 |[DMARC gebruiken om e-mail in Office 365 te valideren](use-dmarc-to-validate-email.md)|Ja|Ja|Gebruik `action=quarantine` voor standaard en `action=reject` voor strikte uitvoering.|
-|De [invoegtoepassing bericht rapporteren](enable-the-report-message-add-in.md) implementeren om het rapporteren van verdachte e-mail van eindgebruikers te verbeteren|Ja|Ja||
+|De [invoegtoepassing bericht melden](enable-the-report-message-add-in.md) of de [invoegtoepassing](enable-the-report-phish-add-in.md) voor het melden van de eindgebruikers van verdachte e-mailberichten verbeteren|Ja|Ja||
 |Rapporten van malware en spam plannen|Ja|Ja||
 |Automatisch doorsturen naar externe domeinen moet zijn toegestaan of gecontroleerd|Ja|Ja||
 |Unified audit moet worden ingeschakeld|Ja|Ja||

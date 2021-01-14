@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: Beheerders kunnen leren welke redenen en hoe een malafide bericht krijg in Microsoft 365 en wat u moet doen om te voorkomen dat er meer phishingberichten in de toekomst worden verstaan.
-ms.openlocfilehash: 8a2c63d499317427b921d7786dd60b3ad4f18c42
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 758945c64966763991bfdfba0d70a60ca1c2ddca
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615382"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865042"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
 
@@ -83,7 +83,7 @@ Daarom moet u het koptekstveld **X-Forefront-spam-report** in de berichtkoppen c
 
 - U wordt aangeraden e-mail voor uw domein rechtstreeks te bezorgen bij Microsoft 365. Met andere woorden: wijs de MX-record van uw Microsoft 365-domein naar Microsoft 365. Exchange Online Protection (EOP) kan de beste bescherming bieden voor uw Cloud gebruikers wanneer hun e-mail rechtstreeks wordt bezorgd bij Microsoft 365. Als u een e-mailsysteem van derden voor EOP moet gebruiken, kunt u beter filteren op connectors. Zie voor meer informatie het artikel [uitgebreid filteren op connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-- Gebruikers moeten [berichten](enable-the-report-message-add-in.md) voor Microsoft melden, zodat we ons systeem kunnen trainen. Beheerders kunnen ook gebruikmaken van functies voor het [indienen van beheerders](admin-submission.md) .
+- Gebruikers kunnen de invoegtoepassing voor het melden [van](enable-the-report-message-add-in.md) berichten of de [invoegtoepassing voor het melden van rapporten](enable-the-report-phish-add-in.md) gebruiken om berichten naar Microsoft te melden, zodat we ons systeem kunnen trainen. Beheerders kunnen ook gebruikmaken van functies voor het [indienen van beheerders](admin-submission.md) .
 
 - MFA (multi factor Authentication) is een goede manier om te voorkomen dat accounts met een account worden vertrouwd. Het is raadzaam MFA in te schakelen voor al uw gebruikers. Voor een gefaseerde aanpak moet u eerst MFA inschakelen voor uw meeste gevoelige gebruikers (beheerders, leidinggevenden, etc.) voordat u MFA voor iedereen inschakelt. Zie [multi-factor Authentication instellen](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)voor instructies.
 

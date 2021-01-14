@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders en eindgebruikers kunnen zien hoe u e-mailberichten (goede e-mailberichten die zijn gemarkeerd als beschadigd of niet toegestaan) in Microsoft voor analyse.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fe8e3c5ed44c7578764ed0bf19408f4db16e3740
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 94747b1d0a1aef746a63abada977aa47270ae4e2
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751557"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865078"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Berichten handmatig bij Microsoft indienen voor analyse
 
@@ -42,7 +42,7 @@ U en uw gebruikers kunnen dit proces helpen met het indienen van foutberichten (
 ## <a name="submit-false-negatives-to-microsoft"></a>Onjuiste negatieven bij Microsoft indienen
 
 > [!TIP]
-> In plaats van de volgende procedures te gebruiken voor het melden van onjuiste negatieven, gebruikers in Outlook en de webversie van Outlook (voorheen Outlook Web app) kunnen de invoegtoepassing bericht rapporteren voor Microsoft Outlook gebruiken. Zie [de invoegtoepassing bericht rapporteren inschakelen](enable-the-report-message-add-in.md)voor informatie over het installeren en gebruiken van dit hulpprogramma.
+> In plaats van de volgende procedures te gebruiken voor het melden van onjuiste negatieven, gebruikers in Outlook en de webversie van Outlook (voorheen Outlook Web app) kunnen de invoegtoepassing bericht rapporteren of de phishing-invoegtoepassing melden gebruiken. Zie voor meer informatie over het installeren en gebruiken van deze hulpmiddelen [de invoegtoepassing bericht rapporteren inschakelen](enable-the-report-message-add-in.md) en [de invoegtoepassing voor het melden van rapporten inschakelen](enable-the-report-phish-add-in.md).
 
 Als u een bericht ontvangt dat via spam filtert dat als spam of phishing werd herkend, kunt u het bericht naar de Microsoft spam analyse en Microsoft phishing-teams verzenden. De analisten beoordelen het bericht en voeg dit toe aan de service filters, als dit voldoet aan de classificatiecriteria.
 
@@ -70,7 +70,8 @@ Als u een bericht ontvangt dat via spam filtert dat als spam of phishing werd he
 ## <a name="submit-false-positives-to-microsoft"></a>Vervalste naar Microsoft verzenden
 
 > [!TIP]
-> In plaats van de volgende procedures voor het melden van foutberichten, gebruikers in Outlook en de webversie van Outlook kunnen de invoegtoepassing bericht rapporteren voor Microsoft Outlook gebruiken. Zie [de invoegtoepassing bericht rapporteren inschakelen](enable-the-report-message-add-in.md)voor informatie over het installeren en gebruiken van dit hulpprogramma.
+> In plaats van de volgende procedures voor het melden van foutberichten, gebruikers in Outlook en de webversie van Outlook (voorheen Outlook Web app) kunnen de invoegtoepassing bericht rapporteren of de phishing-invoegtoepassing voor rapporten gebruiken. Zie voor meer informatie over het installeren en gebruiken van deze hulpmiddelen [de invoegtoepassing bericht rapporteren inschakelen](enable-the-report-message-add-in.md) en [de invoegtoepassing voor het melden van rapporten inschakelen](enable-the-report-phish-add-in.md).
+
 
 Als een bericht onjuist is aangemerkt als ongewenste e-mail, kunt u het bericht indienen bij het team van Microsoft spam analyses. Op de analisten wordt het bericht geëvalueerd en (afhankelijk van de resultaten van de analyse) kunnen de service-Wide filters worden aangepast om het bericht toe te staan.
 
