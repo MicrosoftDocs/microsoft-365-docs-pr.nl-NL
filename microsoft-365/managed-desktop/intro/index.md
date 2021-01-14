@@ -1,6 +1,6 @@
 ---
-title: Is Microsoft Managed Desktop voor u geschikt
-description: ''
+title: Is Microsoft Managed Desktop geschikt voor jou?
+description: Oriëntatie over wat de service is en snelkoppelingen naar artikelen voor verschillende doelgroepen
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b877a35133be13cd6783659f1e5d981633338be8
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: 8e95eb0fd0e03dc718affa7e7cf044beb654bb56
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269371"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840933"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -37,7 +37,7 @@ Uw gebruikers kunnen profiteren van de nieuwste versies van Windows 10 en Micros
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Uniek voor Microsoft Managed Desktop
 
-Natuurlijk weerhoudt niets u ervan om uw eigen apparaten en Microsoft 365-implementaties zelf te verkrijgen en te beheren. Dus wat biedt Microsoft Managed Desktop nog meer?
+Natuurlijk weerhoudt niets je ervan zelf je eigen apparaten en Microsoft 365-implementaties te verkrijgen en te beheren. Dus wat biedt Microsoft Managed Desktop nog meer?
 
 Ons beleid en onze beveiligingsbasislijn bieden uw gebruikers deze voordelen:
 
@@ -71,9 +71,9 @@ We controleren ook de status van apparaten en geven inzicht in de prestaties van
 ## <a name="need-more-details"></a>Meer informatie nodig?
 Zie [Microsoft Managed Desktop](https://aka.ms/mmd) voor meer informatie over de waarde van Microsoft Managed Desktop, inclusief verhalen van klanten. Handige plaatsen om aan de slag te gaan zijn de [Wegwijzer](https://aka.ms/AA6jiam), een [Forrester Total Economic Impact-casestudy](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf) en een downloadbare [samenvatting van één pagina](https://aka.ms/AA6ob3h). U vindt het laatste nieuws op de Microsoft Managed Desktop-[blog](https://aka.ms/AA6l2dd).
 
-Als Microsoft Managed Desktop geschikt lijkt voor uw organisatie, kunt u zich verdiepen in aanvullende documentatie die meer uitleg geeft over de service, hoe u uw organisatie kunt voorbereiden op de registratie, hoe u aan de slag kunt met de service en de doorlopende activiteiten erna, inclusief hoe u en uw gebruikers eventueel gemakkelijk hulp kunnen krijgen. Als u klaar bent om aan boord te komen, neemt u contact op met uw [lokale accountteam](https://pages.email.office.com/contactmmd/).
+Als Microsoft Managed Desktop geschikt lijkt voor jouw organisatie, kan je jezelf verdiepen in aanvullende documentatie die meer uitleg geeft over de service, hoe je jouw organisatie kunt voorbereiden op de registratie, hoe je aan de slag kunt met de service en de doorlopende activiteiten erna, inclusief hoe jij en jouw gebruikers gemakkelijk hulp kunnen krijgen indien nodig. Als u klaar bent om aan boord te komen, neem dan contact op met je [lokale accountteam](https://pages.email.office.com/contactmmd/).
 
-**Meer informatie en achtergrond** Deze onderwerpen zijn voornamelijk bedoeld voor technische en zakelijke besluitvormers en beschrijven de rolverdeling en verantwoordelijkheden tussen uw organisatie en Microsoft. Ze omvatten meer informatie over de technologieën die worden gebruikt in Microsoft Managed Desktop en hoe de service past in een bredere strategie als onderdeel van het ITIL-raamwerk.
+**Meer informatie en achtergrond** Deze artikelen zijn voornamelijk bedoeld voor technische en zakelijke besluitvormers en beschrijven de rolverdeling en verantwoordelijkheden tussen jouw organisatie en Microsoft. Ze omvatten ook meer informatie over de technologieën die worden gebruikt in Microsoft Managed Desktop en hoe de service past in een bredere strategie als onderdeel van het ITIL-raamwerk.
 
 - [Rollen en verantwoordelijkheden voor Microsoft Managed Desktop](roles-and-responsibilities.md)
 - [Technologieën in Microsoft Managed Desktop](technologies.md)
