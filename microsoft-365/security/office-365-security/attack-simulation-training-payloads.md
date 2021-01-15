@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen aangepaste ladingen maken voor simulatie van aanvals vaardigheden in Microsoft Defender voor Office 365.
-ms.openlocfilehash: fbab4825625c33d027ceaa9aa9272c06e286ed61
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: e3285b99d5b64255b9fdbda8c76b6f133aa013b2
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794218"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870861"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor aanvalssimulatietraining
 
@@ -64,3 +64,11 @@ U bent klaar met het maken van uw nettolading. Nu is het tijd om de details te b
 
 > [!IMPORTANT]
 > Nettoladingen die u hebt gemaakt, hebben de **Tenant** als de bron. Zorg er bij het selecteren van nettolading voor dat u de **Tenant** niet hoeft te filteren.
+
+## <a name="related-links"></a>Verwante koppelingen
+
+[Aan de slag met simulatie van aanvals oefeningen](attack-simulation-training-get-started.md)
+
+[Een simulatie van een malafide aanval maken](attack-simulation-training.md)
+
+[Meer inzicht krijgen middels aanvalssimulatietraining](attack-simulation-training-insights.md)

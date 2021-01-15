@@ -11,18 +11,20 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen een malafide aanval simuleren en hun gebruikers trainen via phishing met behulp van simulatie gerichte training in Microsoft Defender voor Office 365.
-ms.openlocfilehash: e7582b1f74266d988ecdf8f6dac49019699e2bc1
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: dfdd3c93afb1b0fb30cc5b5affc040a369c29447
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794254"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870965"
 ---
 # <a name="simulate-a-phishing-attack"></a>Een malafide aanval simuleren
 
 Simulatie van simulatie aanval in Microsoft Defender voor Office 365 biedt u de mogelijkheid kwaadaardige cyberattack simulaties te doen in uw organisatie om uw beveiligingsbeleid en-procedures te testen en uw werknemers uit te breiden zodat ze zich kunnen beschermen. In dit artikel wordt u stapsgewijs begeleid bij het maken van een simulatie aanval met simulatie van aanval.
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
+Zie [aan de slag met het gebruik van aanvals training](attack-simulation-training-get-started.md)voor informatie over het aan de slag gaan.
 
 Als u een gesimuleerde malafide aanval wilt starten, opent u het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/), gaat u naar de training voor **e-mail & samenwerking** van een \> **aanval** en gaat u naar het tabblad [**simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations) .
 

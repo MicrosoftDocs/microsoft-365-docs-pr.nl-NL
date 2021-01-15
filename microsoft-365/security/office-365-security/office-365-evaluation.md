@@ -17,19 +17,19 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: abb33b85717e63cb78a2b1edfd86584fd165a71f
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: f8f105215b23ec49318c133714e758e2a2a9c1df
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701013"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870919"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Evalueer Microsoft Defender for Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Evalueer Microsoft Defender for Office 365 binnenkort in de openbare preview-versie. Deze preview-versie is beschikbaar zonder serviceovereenkomst. Het is mogelijk dat bepaalde functies niet worden ondersteund of mogelijk een beperkte functionaliteit hebben.
+> Evaluatie van Microsoft Defender voor Office 365 is in openbare preview. Deze preview-versie is beschikbaar zonder serviceovereenkomst. Het is mogelijk dat bepaalde functies niet worden ondersteund of mogelijk een beperkte functionaliteit hebben.
 
 U kunt een uitgebreide beoordeling van de veiligheid van het product bieden om u op de hoogte te stellen van upgrades en aankopen. Het is handig om de mogelijkheden van het beveiligings product uit te proberen om te beoordelen hoe dit uw team van beveiligingsactiviteiten kan helpen bij hun dagelijkse taken.
 

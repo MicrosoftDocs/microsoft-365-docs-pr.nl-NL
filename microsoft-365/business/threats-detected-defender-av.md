@@ -1,5 +1,5 @@
 ---
-title: Bedreigingen gedetecteerd door Microsoft Defender antivirus
+title: Bedreigingen gedetecteerd door Microsoft Defender Antivirus
 f1.keywords: CSH
 ms.author: sharik
 author: SKjerland
@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Ontdek hoe Microsoft Defender antivirus uw Windows-apparaten beschermt tegen software bedreigingen, zoals virussen, malware en spyware.
-ms.openlocfilehash: e3c8a1071625bba41af5f3cccd50f8484acac18d
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 1653aef6967cdf76e6e19acda158fb29758280a8
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376689"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870897"
 ---
-# <a name="threats-detected-by-microsoft-defender-antivirus"></a>Bedreigingen gedetecteerd door Microsoft Defender antivirus
+# <a name="threats-detected-by-microsoft-defender-antivirus"></a>Bedreigingen gedetecteerd door Microsoft Defender Antivirus
 
 Microsoft Defender antivirus beschermt uw Windows-apparaten tegen software bedreigingen, zoals virussen, malware en spyware.
 
@@ -64,9 +64,12 @@ Wanneer bedreigingen worden gedetecteerd met Microsoft Defender antivirus, gebeu
 
 - Gebruikers ontvangen [meldingen in Windows](https://support.microsoft.com/windows/8942c744-6198-fe56-4639-34320cf9444e). 
 - Detecties worden vermeld in de [Windows-beveiligingstoepassing](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) op de pagina **beveiligings geschiedenis** .  
-- Als u [uw Windows 10-apparaten hebt beveiligd](secure-win-10-pcs.md) en ze zijn [ingeschreven in intune](/mem/intune/enrollment/windows-enrollment-methods), ziet u de bedreigings detectie en inzichten in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a> op de pagina **actieve bedreigingen** , die u kunt openen vanaf de pagina met **Microsoft Defender antivirus** op de **Start** pagina (of in het navigatiedeelvenster door **gezondheids** bedreigingen te selecteren  >  **& antivirus Programma's**).
+- Als u [uw Windows 10-apparaten hebt beveiligd](secure-win-10-pcs.md) en ze hebt [ingeschreven in intune](/mem/intune/enrollment/windows-enrollment-methods)en uw organisatie 800 of minder apparaten heeft geregistreerd, ziet u de bedreiging voor detectie en inzichten in het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-Beheercentrum</a> op de pagina **bedreigingen en antivirus** software, dat u kunt openen via de **Microsoft Defender** -kaart op de **Start** pagina (of in het navigatiedeelvenster door **gezondheids**  >  **bedreigingen** te selecteren &
+
+    Als uw organisatie meer dan 800 apparaten heeft geregistreerd voor intune, wordt u gevraagd of u de detectie van bedreigingen en inzichten van [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) wilt weergeven in plaats van de **bedreigingen en de antivirus** pagina.
+ 
     > [!NOTE]
-    > De pagina's **Microsoft Defender antivirus** en **Active Threat** worden in fasen uitgerold, zodat u deze mogelijk niet direct kunt openen.
+    > De pagina's **Microsoft Defender antivirus** en **Threats and antivirus** worden in fasen uitgerold, zodat u deze mogelijk niet direct kunt openen.
 
 In de meeste gevallen hoeven gebruikers geen verdere actie te ondernemen. Zodra een schadelijk bestand of programma op een apparaat wordt gedetecteerd, blokkeert Microsoft Defender antivirus het zodat het niet kan worden uitgevoerd. Daarnaast worden nieuwe bedreigingen toegevoegd aan de antivirus-en antimalware-engine, zodat andere apparaten en gebruikers ook worden beveiligd.  
 

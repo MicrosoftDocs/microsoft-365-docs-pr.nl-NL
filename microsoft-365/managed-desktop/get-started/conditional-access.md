@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 88a832f6c4e17756bfb25ef5cb7c4c5ecedaf2c0
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: ca919798480698f92bba094c3755b3eccce30888
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794386"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49867968"
 ---
 # <a name="adjust-settings-after-enrollment"></a>Instellingen aanpassen na inschrijving
 
@@ -32,9 +32,9 @@ Wanneer u klaar bent met de inschrijving in Microsoft Managed Desktop, moeten so
 
 - Auto Pilot-implementatie profiel: als u auto pilot-beleidsregels gebruikt, moet u deze bijwerken om de **moderne werkplekken te uitsluiten: alle** Azure AD-groep. Als u deze wilt bijwerken, klikt u in de sectie **uitzonderingen** onder **toewijzingen** op de **moderne werkplaatsings apparaten – alle** Azure AD-groep die is gemaakt tijdens de registratie van Microsoft Managed Desktop. Microsoft Managed Desktop heeft ook een auto pilot-profiel gemaakt, dat de ' moderne werkplek ' bevat, in de naam (het auto pilot-Profiel van de **modern Workplace**). Als u uw eigen auto pilot-profielen bijwerkt, moet u ervoor zorgen dat u de **moderne Werkplaatsings apparaten** *niet* uitschakelt: alle Azure AD-groep uit het **modern Workplace auto pilot-profiel** dat is gemaakt door Microsoft Managed Desktop.
 
-- Beleid voor voorwaardelijke toegang: voor regels voor voorwaardelijke toegang die u hebt gemaakt, sluit u de **service accounts voor het moderne netwerk** van Azure AD uit. Zie voor de stappen [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups). Microsoft Managed Desktop heeft ook een aantal regels voor voorwaardelijke toegang gemaakt, waarvan de naam ' moderne werkplek ' in de naam wordt weergegeven (bijvoorbeeld een **veilig workstation van modern**). Als u uw eigen beleidsregels voor voorwaardelijke toegang bijwerkt, moet u ervoor zorgen dat u de **moderne Werkplaatsings apparaten** *niet* uitsluiten, geen enkele beleidsregels die door Microsoft worden beheerd.
+- Beleidsregels voor voorwaardelijke toegang: als u een nieuw beleid voor voorwaardelijke toegang in verband met Azure AD, Microsoft intune of Microsoft Defender voor eindpunten maakt na de Microsoft-bureaublad registratie, moet u de Azure AD-groep **service accounts van de moderne werk** stroom uitsluiten Zie voor de stappen [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups). Microsoft Managed Desktop onderhoudt afzonderlijke beleidsregels voor voorwaardelijke toegang voor het beperken van de toegang tot deze accounts. Als u het Microsoft-beheerbeleid voor voorwaardelijke toegang (**modern werkstation**) wilt controleren, gaat u naar Microsoft-eindpunttoewijzer en gaat u naar **voorwaardelijke toegang** in de **Endpoint-beveiliging**. Wijzig geen beleid voor voorwaardelijke toegang van Azure AD dat is gemaakt door Microsoft Managed Desktop met de naam modern Workplace.
 
-- Meervoudige verificatie: Zorg ervoor dat u een van de beleidsregels voor voorwaardelijke toegang waarvoor de authenticatie van meervoudige authenticatie is vereist, geen **service accounts van de moderne werk** stroom vereisen. Zie voor meer informatie [beleidsregels voor voorwaardelijke toegang](../get-ready/readiness-assessment-fix.md#conditional-access-policies) en [voorwaardelijke toegang: MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
+- Meervoudige verificatie: als u nieuwe meervoudige authenticatie vereisten maakt in beleidsregels voor voorwaardelijke toegang in verband met Azure AD, intune of Microsoft Defender voor eindpunten na de registratie van Microsoft-Bureaubladverificatie, moet u de Azure AD-groep **service accounts voor de moderne werkplek** uitsluiten. Zie voor de stappen [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups). Microsoft Managed Desktop onderhoudt afzonderlijke beleidsregels voor voorwaardelijke toegang voor het beperken van de toegang tot leden van deze groep. Als u het Microsoft beheerde bureaublad met voorwaardelijke toegang (**modern Workplace-**) wilt controleren, gaat u naar Microsoft-eindpunt Manager en gaat u naar **voorwaardelijke toegang** in **Endpoint-beveiliging**. 
 
 - Update van Windows 10-update: voor een Windows 10-update ring beleid dat u hebt gemaakt, sluit u de **moderne werkplekken-alle** Azure AD-groep uit van elk beleid. Zie [belsignalen voor updates maken en toewijzen](https://docs.microsoft.com/mem/intune/protect/windows-10-update-rings#create-and-assign-update-rings)voor instructies. Microsoft Managed Desktop heeft ook een update ring beleid gemaakt, alles met de naam modern Workplace in de naam (bijvoorbeeld modern werkings **beleid voor updates [algemeen]**, updatebeleid voor de moderne werkplek [ **Fast**], updatebeleid voor de modern Workplace update [ **First**] en modern Workplace **updatebeleid [Test]**). Wanneer u uw eigen beleidsregels bijwerkt, moet u ervoor zorgen dat u de **moderne Werkplaatsings apparaten** niet uitsluiten, *namelijk* alle Azure AD-groep, van degenen die door Microsoft beheerde bureaublad zijn gemaakt.
 

@@ -19,21 +19,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met behulp van Hack Simulator een aanval en wachtwoord aanval uitvoert in hun Microsoft 365 E5 of Microsoft Defender for Office 365-abonnement 2-organisaties.
-ms.openlocfilehash: 2ffec891f7b1021f3c6c51b003c78aacb0ec0d6a
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: f07cbbdac5d9b988301e9dfc3cb4446f7b44fca6
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794530"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871095"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Aanvals Simulator in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 Als uw organisatie Microsoft Defender voor Office 365, abonnement 2 bevat, inclusief het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van de organisatie, kunt u met behulp van aanvals functie in het beveiligings & nalevings centrum realistische aanvalsscenario's in uw organisatie uitvoeren. Met de gesimuleerde aanvallen kunt u gebruikers kwetsbaar maken en kwetsbaar maken voor een echte aanval met uw onderste regel. Lees dit artikel voor meer informatie.
-
-> [!NOTE]
-> Simulatie van aanval en opleidingen met betrekking tot de training voor Microsoft 365-Services met andere klantgegevens. Zie [Microsoft 365-gegevenslocaties](/microsoft-365/enterprise/o365-data-locations)voor meer informatie.
 
 > [!TIP]
 > Simulatie van aanval is beschikbaar in de openbare preview-versie van het Microsoft 365-Beveiligingscentrum. Zie [een phishing-aanval simuleren met Microsoft Defender voor Office 365](attack-simulation-training.md) voor meer informatie.
@@ -49,6 +46,8 @@ Als uw organisatie Microsoft Defender voor Office 365, abonnement 2 bevat, inclu
 - Uw account moet worden geconfigureerd voor multi-factor Authentication (MFA) voor het maken en beheren van campagnes in aanvals Simulator. Zie [multi-factor Authentication instellen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)voor instructies.
 
 - Phishingberichten verzamelen en verwerken activiteiten gedurende 30 dagen. Actuele campagnegegevens zijn beschikbaar voor 90 dagen nadat u de campagne hebt gestart.
+
+- Simulatie van aanval en opleidingen met betrekking tot de training voor Microsoft 365-Services met andere klantgegevens. Zie [Microsoft 365-gegevenslocaties](/microsoft-365/enterprise/o365-data-locations)voor meer informatie.
 
 - Er zijn geen bijbehorende PowerShell-cmdlets voor Attack Simulator.
 
