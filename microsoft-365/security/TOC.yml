@@ -521,6 +521,8 @@
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: De invoegtoepassing Bericht rapporteren inschakelen
               href: ./office-365-security/enable-the-report-message-add-in.md
+            - name: De invoegtoepassing Phishing rapporteren inschakelen
+              href: ./office-365-security/enable-the-report-phish-add-in.md
             - name: De invoegtoepassing Rapportage van ongewenste e-mail installeren en gebruiken
               href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
             - name: E-mailstroomregels (transportregels) in standalone EOP

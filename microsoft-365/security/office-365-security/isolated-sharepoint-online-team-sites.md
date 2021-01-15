@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
 description: Meer informatie over geïsoleerde SharePoint Online-teamsites, zoals gebruik, vereisten en functies waarmee ze kunnen worden gebruikt.
-ms.openlocfilehash: e4e45c8adffcf86d56a71e5b9935e634f2de9254
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 55bdf2999610310babb60b6938afb97732e5a7a0
+ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616450"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49845069"
 ---
 # <a name="isolated-sharepoint-online-team-sites"></a>Geïsoleerde SharePoint Online-teamsites
 
@@ -32,9 +32,9 @@ ms.locfileid: "49616450"
 
  **Overzicht**: meer informatie over de toepassingen voor geïsoleerde SharePoint Online-teamsites.
 
-Met SharePoint Online-teamsites kunt u snel een ruimte maken om samen te werken aan notities, documenten, artikelen, een agenda en andere bronnen in Microsoft Office 365. SharePoint Online-teamsites zijn gebaseerd op een Microsoft 365-groep en beschikken over een vereenvoudigd beheermodel om een open samenwerking met een privéset groepsleden of de hele organisatie mogelijk te maken. Met een standaard SharePoint Online-teamsite kunnen leden van de Microsoft 365-groep andere gebruikers uitnodigen en instellingen voor machtigingen beheren.
+Met SharePoint Online-teamsites kunt u snel en gemakkelijk een ruimte creëren om samen te werken. Gebruikers kunnen samenwerken aan notities, documenten, artikelen, een agenda en andere informatiebronnen in Microsoft Office 365. SharePoint Online-teamsites zijn gebaseerd op een Microsoft 365-groep en beschikken over een vereenvoudigd beheermodel om een open samenwerking met een privéset groepsleden of de hele organisatie mogelijk te maken. Met een standaard SharePoint Online-teamsite kunnen leden van de Microsoft 365-groep andere gebruikers uitnodigen en instellingen voor machtigingen beheren.
 
-In sommige gevallen wilt u echter voor samenwerking een SharePoint Online-teamsite maken waarbij de machtigingen van die site strak worden beheerd via het groepslidmaatschap en SharePoint Online-machtigingsniveaus die alleen worden beheerd door SharePoint-beheerders. Dit wordt een geïsoleerde site genoemd. De site is alleen beschikbaar voor de groep gebruikers die samenwerken, de inhoud van de site bekijken of de site beheren. Mogelijk hebt u een geïsoleerde site nodig voor het volgende:
+Soms hebt u echter toegang tot een site nodig waarvoor groepslidmaatschap en SharePoint Online-machtigingsniveaus die worden beheerd door SharePoint-beheerders, nodig zijn. Dit wordt een geïsoleerde site genoemd. De site is alleen beschikbaar voor de groep gebruikers die samenwerken, de inhoud van de site bekijken of de site beheren. Mogelijk hebt u een geïsoleerde site nodig voor het volgende:
 
 - Een geheim project binnen uw organisatie.
 
