@@ -334,6 +334,8 @@
                   href: ./office-365-security/auditing-reports-in-eop.md
             - name: Defender voor Office 365
               href: ./office-365-security/office-365-atp.md
+            - name: Defender voor Office 365 evalueren
+              href: ./office-365-security/office-365-evaluation.md
             - name: Nieuw in Defender voor Office 365
               href: office-365-security/whats-new-in-office-365-atp.md
             - name: 'Defender voor Office 365 voor SharePoint, OneDrive en Microsoft Teams'
@@ -481,6 +483,8 @@
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
             - name: Aanvalssimulatie in Defender voor Office 365
               href: ./office-365-security/attack-simulator.md
+            - name: Aan de slag met aanvalssimulatietraining
+              href: ./office-365-security/attack-simulation-training-get-started.md
             - name: Een phishing-aanval simuleren met een aanvalssimulatietraining
               href: ./office-365-security/attack-simulation-training.md
             - name: Een aangepaste nettolading maken voor aanvalssimulatietraining
