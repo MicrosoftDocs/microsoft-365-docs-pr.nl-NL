@@ -19,16 +19,16 @@ ms.collection:
 - m365solution-overview
 - m365solution-protecthve
 description: Beheerders kunnen informatie lezen over de verhoging van de beveiligingsinstellingen en rapporten, waarschuwingen en onderzoek voor prioriteits accounts in hun Microsoft 365-organisaties.
-ms.openlocfilehash: acd2eba0acd533d0cd8223f2c433cc023fc23287
-ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
+ms.openlocfilehash: 8a1d92ef12070a722a1b618bf51ab6d8130f49c0
+ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "49790124"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49881796"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Beveiligingsaanbevelingen voor prioriteits accounts in Microsoft 365
 
-Niet alle gebruikersaccounts hebben toegang tot dezelfde bedrijfsgegevens. Sommige accounts hebben toegang tot gevoelige informatie, zoals financiële gegevens, product ontwikkelings informatie, partner toegang tot cruciale buildsystemen en nog veel meer. Accounts die toegang hebben tot zeer vertrouwelijke informatie, bieden een ernstige bedreiging als ze worden aangetast. We noemen dit soort accounts- _prioriteits accounts_. Prioriteits accounts bestaan uit CEOs, CISOs, CFOs, infrastructuurbeheerders accounts, systeemaccounts maken en meer.
+Niet alle gebruikersaccounts hebben toegang tot dezelfde bedrijfsgegevens. Sommige accounts hebben toegang tot gevoelige informatie, zoals financiële gegevens, product ontwikkelings informatie, partner toegang tot cruciale buildsystemen en nog veel meer. Als er sprake is van compromissen, vormt dit een ernstige bedreiging voor accounts die toegang hebben tot zeer vertrouwelijke informatie. We noemen dit soort accounts- _prioriteits accounts_. Prioriteits accounts zijn inclusief (maar niet beperkt tot) CEOs, CISOs, CFOs, infrastructuurbeheerders accounts, systeemaccounts maken en meer.
 
 Voor kwaadwillende phishing-aanvallen die een willekeurig netwerk voor gewone of onbekende gebruikers uitzenden, zijn ze niet efficiënt. Voor de andere kant vermoeden met _spear phishing_ of _Whaling_ -aanvallen die doel prioriteits accounts zijn, is een zeer goede vergoeding voor aanvallers. Daarom zijn voor prioriteits accounts een sterkere beveiliging vereist dan gewone bescherming om accountbeveiliging te helpen voorkomen.
 
@@ -44,6 +44,7 @@ Microsoft 365 en Microsoft Defender voor Office 365 bevatten diverse belangrijke
 |[Strikte vooraf ingestelde beveiligingsbeleidsregels gebruiken voor prioriteits accounts](#use-strict-preset-security-policies-for-priority-accounts)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[Gebruikers Tags toepassen op prioriteits accounts](#apply-user-tags-to-priority-accounts)|||![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[De prioriteit van accounts in waarschuwingen, rapporten en detectie bijhouden](#monitor-priority-accounts-in-alerts-reports-and-detections)|||![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[Gebruikers wegwijs maken](#train-users)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Toegevoegd](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
 
 ## <a name="increase-sign-in-security-for-priority-accounts"></a>Aanmeld beveiliging voor prioriteits accounts vergroten
@@ -98,6 +99,31 @@ Nadat u de gebruikers van uw voorrang hebt beveiligd en labels hebt, kunt u de b
 |Statusrapport bedreigingsbeveiliging|In vrijwel alle weergaven en detail tabellen in het **rapport status van bedreigingsbeveiliging** kunt u de resultaten filteren op **prioriteits accounts**. Zie [statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)voor meer informatie.|
 |E-mail problemen voor het rapport met prioriteit accounts|In het rapport **e-mail problemen met prioriteit-accounts** in het Exchange-Beheercentrum vindt u informatie over niet-bezorgde en vertraagde berichten voor **prioritaire accounts**. Zie [e-mail problemen voor het rapport met prioriteits accounts](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report)voor meer informatie.|
 |
+
+## <a name="train-users"></a>Gebruikers wegwijs maken
+
+Gebruikers van trainingen met prioriteits accounts kunnen de gebruikers en uw beveiligingsactiviteiten team veel tijd en frustraties opslaan. Gebruikers met een betrouwbare gebruikers hebben minder waarschijnlijk bijlagen te openen, of klik op koppelingen in dubieuze e-mailberichten, en het is waarschijnlijk dat ze verdachte websites vermijden.
+
+The Harvard Kennedy School [Cyber Security Campaign Handbook](https://www.belfercenter.org/CyberPlaybook) biedt uitstekende richtlijnen voor het maken van een sterke cultuur van beveiligingsinformatie binnen uw organisatie, waaronder gebruikers van de opleiding waarmee u phishing-aanvallen kunt identificeren.
+
+Microsoft 365 biedt de volgende bronnen om gebruikers in uw organisatie op de hoogte te stellen:
+
+<br>
+
+****
+
+|Definitie|Resources|Beschrijving|
+|---|---|---|
+|Microsoft 365|[Aanpasbare leer paden](https://docs.microsoft.com/office365/customlearning/)|Deze informatiebronnen kunnen u helpen bij het samenvoegen van trainingen voor gebruikers in uw organisatie.|
+|Microsoft 365-beveiliging|[Leermodule: Beveilig uw organisatie met ingebouwde, intelligente beveiliging van Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365)|In deze module kunt u beschrijven hoe Microsoft 365 beveiligingsfuncties samenwerken en de voordelen van deze beveiligingsfuncties gelen.|
+|Meervoudige verificatie|[Verificatie in twee stappen: wat is de pagina extra verificatie?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time)|Dit artikel helpt eindgebruikers inzicht te krijgen in een meervoudige verificatie en hoe deze worden gebruikt in uw organisatie.|
+|Simulatie van aanvals training|[Aan de slag met aanvalssimulatietraining](attack-simulation-training-get-started.md)|Simulatie van aanvals training in Microsoft Defender voor Office 365 met abonnement 2 kan beheerders gesimuleerde phishing-aanvallen voor specifieke groepen gebruikers configureren, starten en bijhouden.|
+
+Daarnaast adviseert Microsoft gebruikers de in dit artikel beschreven acties te ondernemen: [Beveilig uw account en apparaten tegen hackers en malware](https://support.microsoft.com/office/066d6216-a56b-4f90-9af3-b3a1e9a327d6). Dit zijn de volgende acties:
+
+- Sterke wachtwoorden gebruiken
+- Apparaten beschermen
+- Beveiligingsfuncties inschakelen op computers met Windows 10 en Mac (voor niet-beheerde apparaten)
 
 ## <a name="see-also"></a>Zie ook
 

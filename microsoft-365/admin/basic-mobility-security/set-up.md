@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Configureer basis mobiliteit en beveiliging om de mobiele apparaten van uw gebruikers te beschermen en beheren.
-ms.openlocfilehash: 079593381d6395c18cd80f3eeab2e16837a2d27a
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 38f122141b370468bc591df49b3e1891a8a66a43
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545806"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876862"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>Eenvoudige mobiliteit en beveiliging instellen
 
@@ -31,7 +31,7 @@ Met de ingebouwde basis mobiliteit en beveiliging voor Microsoft 365 kunt u mobi
 
 Hebt u vragen? Zie [Veelgestelde vragen over mobiliteit en beveiliging](frequently-asked-questions.md)voor informatie over veelgestelde vragen over het oplossen van veelvoorkomende vragen. U kunt geen gedelegeerde beheerdersaccount gebruiken om eenvoudige mobiliteit en beveiliging te beheren. Zie voor meer informatie [partners: gedelegeerd beheer bieden](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e). 
 
-Apparaatbeheer maakt deel uit van de beveiligings & nalevings centrum, zodat u dit moet doen om MDM-configuratie te starten.
+Apparaatbeheer maakt deel uit van de beveiligings & nalevings centrum, zodat u dit moet doen om de configuratie van eenvoudige mobiliteit en beveiliging te starten.
 
 ## <a name="activate-the-basic-mobility-and-security-service"></a>De basis-service voor mobiliteit en beveiliging activeren
 
@@ -45,13 +45,13 @@ Apparaatbeheer maakt deel uit van de beveiligings & nalevings centrum, zodat u d
 
 Wanneer de service klaar is, voert u de volgende stappen uit om de installatie te voltooien.
 
-### <a name="step-1-required-configure-domains-for-mdm"></a>Stap 1: (vereist) domeinen voor MDM configureren
+### <a name="step-1-required-configure-domains-for-basic-mobility-and-security"></a>Stap 1: (vereist) domeinen configureren voor basis mobiliteit en beveiliging
 
 Als u geen aangepast domein hebt dat is gekoppeld aan Microsoft 365 of als u geen Windows-apparaten beheert, kunt u dit gedeelte overslaan. Anders moet u DNS-records voor het domein toevoegen aan uw DNS-host. Als u de records al hebt toegevoegd en u uw domein hebt ingesteld met Microsoft 365, bent u er helemaal klaar voor. Wanneer u de records hebt toegevoegd, worden Microsoft 365-gebruikers in uw organisatie die zich aanmelden op hun Windows-apparaat, met een e-mailadres dat gebruikmaakt van uw aangepaste domein, omgeleid om de schrijffunctie te registreren voor eenvoudige mobiliteit en beveiliging.
 
 Hulp nodig bij het instellen van de records? Zoek uw domeinregistratie functie en selecteer de naam van de bewaarder voor stapsgewijze instructies voor het maken van een DNS-record in de lijst die wordt weergegeven in [DNS-records toevoegen om uw domein te verbinden](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider). Gebruik deze instructies voor het maken van CNAME-records die worden beschreven in de [Windows-registratie vereenvoudigen zonder Azure AD Premium](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#simplify-windows-enrollment-without-azure-ad-premium).
 
-Nadat u de twee CNAME-records hebt toegevoegd, gaat u terug naar de beveiligings & nalevings **Data loss prevention**centrum en gaat u verder met  >  **Apparaatbeheer**   voorkomen dat u de volgende stap uitvoert.
+Nadat u de twee CNAME-records hebt toegevoegd, gaat u terug naar de beveiligings & nalevings centrum en gaat u verder met  >  **Apparaatbeheer**   voorkomen dat u de volgende stap uitvoert.
 
 ### <a name="step-2-required-configure-an-apns-certificate-for-ios-devices"></a>Stap 2: (vereist) een APNs-certificaat voor iOS-apparaten configureren
 
@@ -61,9 +61,9 @@ Als u iOS-apparaten zoals iPad en iPhones wilt beheren, moet u een APNs-certific
 
 2. In uw browsertype:  [https://protection.office.com](https://protection.office.com/) .
 
-3. Selecteer **preventie van gegevensverlies**   > in **Apparaatbeheer**en kies **APNs-certificaat voor IOS-apparaten**.
+3. Selecteer  **preventie van gegevensverlies**   > in  **Apparaatbeheer** en kies **APNs-certificaat voor IOS-apparaten**.
 
-4. Kies **volgende**op de pagina Apple Push Notification Certificate Settings.
+4. Kies **volgende** op de pagina Apple Push Notification Certificate Settings.
 
 5. Selecteer **Download Your CSR file**   en sla de aanvraag voor certificaatondertekening op uw computer op een locatie op die u kunt onthouden. Selecteer **volgende**.
 
@@ -94,7 +94,7 @@ MFA helpt de aanmelding bij Microsoft 365 te beschermen voor de registratie van 
 
 Zie [Meervoudige verificatie instellen](https://go.microsoft.com/fwlink/p/?LinkId=519255)voor meer informatie over het inschakelen van MFA in de Azure AD-Portal.
 
-Nadat u MFA hebt ingesteld, gaat u terug naar het compliance-& Beveiligingscentrum en **gaat u naar**het hulpmiddel voor   >  het beheer van**Apparaatbeheer**,   >  **Device policies**   zodat u de volgende stap kunt voltooien.
+Nadat u MFA hebt ingesteld, gaat u terug naar het compliance-& Beveiligingscentrum en  **gaat u naar** het hulpmiddel voor   >  het beheer van **Apparaatbeheer**,   >  ****   zodat u de volgende stap kunt voltooien.
 
 ### <a name="step-4-recommended-manage-device-security-policies"></a>Stap 4: (aanbevolen) beveiligingsbeleid voor apparaten beheren
 
@@ -129,5 +129,5 @@ Gebruikers met Android-of iOS-apparaten moeten als onderdeel van het registratie
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Mogelijkheden van eenvoudige mobiliteit en beveiliging](capabilities.md)<br/>
+[Capaciteiten Basic Mobility en Security](capabilities.md)<br/>
 [Beveiligingsbeleid voor apparaten maken in eenvoudige mobiliteit en beveiliging](create-device-security-policies.md)

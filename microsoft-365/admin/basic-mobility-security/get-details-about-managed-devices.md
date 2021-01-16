@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik Windows PowerShell voor informatie over de basis-en beveiligingsapparaten van uw organisatie.
-ms.openlocfilehash: d34263ee215c568834034f2735bb69d9cef9ac6d
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: 7c6a0365dfd573377c3675bbcee8ee8280e33816
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430139"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876886"
 ---
 # <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Meer informatie over basis apparatuur voor de mobiliteit en beveiliging
 
@@ -33,8 +33,8 @@ Dit is een uitsplitsing van de details van het apparaat.
 
 |**Details**|**Waarnaar moet worden gezocht in PowerShell**|
 |:----------------|:------------------------------------------------------------------------------|
-|Apparaat is ingeschreven voor eenvoudige mobiliteit en beveiliging. Zie voor meer informatie [uw mobiele apparaat registreren met behulp van eenvoudige mobiliteit en beveiliging](enroll-your-mobile-device.md)|De waarde van de *isManaged*   parameter isManaged is:<br/>**Waar**= apparaat is ingeschreven.<br/>**Onwaar**= apparaat is niet geregistreerd. |
-|Apparaat is compatibel met uw beveiligingsbeleid voor apparaten. Zie [beveiligingsbeleid voor apparaten maken](create-device-security-policies.md) voor meer informatie.|De waarde van de *isCompliant*   parameter isCompliant is:<br/>**Waar**   = apparaat is compatibel met beleidsregels.<br/>**Onwaar**   = apparaat is niet compatibel met beleidsregels.|
+|Apparaat is ingeschreven voor eenvoudige mobiliteit en beveiliging. Zie voor meer informatie [uw mobiele apparaat registreren met behulp van eenvoudige mobiliteit en beveiliging](enroll-your-mobile-device.md)|De waarde van de **   parameter isManaged is:<br/>**Waar**= apparaat is ingeschreven.<br/>**Onwaar**= apparaat is niet geregistreerd. |
+|Apparaat is compatibel met uw beveiligingsbeleid voor apparaten. Zie [beveiligingsbeleid voor apparaten maken](create-device-security-policies.md) voor meer informatie.|De waarde van de **   parameter isCompliant is:<br/>**Waar**   = apparaat is compatibel met beleidsregels.<br/>**Onwaar**   = apparaat is niet compatibel met beleidsregels.|
 
 :::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="Basisparameters voor mobiliteit en beveiliging PowerShell":::
 
@@ -49,20 +49,20 @@ Er zijn een paar dingen die u moet instellen om de opdrachten en scripts uit te 
 
 Zie [verbinding maken met Microsoft 365 met PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell)voor meer informatie over deze stappen.
 
-1. Ga naar de [Microsoft Online Services-aanmeldhulp voor IT-professionals RTWl](https://www.microsoft.com/download/details.aspx?id=41950)   en selecteer  **downloaden voor Microsoft Online Services-aanmeldhulp**.   
+1. Ga naar [Microsoft Online Services Sign-In assistent voor IT-professionals RTWl](https://www.microsoft.com/download/details.aspx?id=41950)   en selecteer  **downloaden voor Microsoft Online Services-aanmeldhulp**.   
 
-2. Installeer de module Microsoft Azure Active Directory voor Windows PowerShell met deze stappen:   
+2. Installeer de module Microsoft Azure Active Directory voor Windows PowerShell met deze stappen:
 
     1. Open een opdrachtprompt voor de PowerShell-beheerniveau.  
 
     2. Voer de installatie-module MSOnline uit.
-    
-    3. Als u wordt gevraagd om de NuGet provider te installeren, typt u Y en drukt u op ENTER.   
 
-    4. Als u wordt gevraagd om de module van PSGallery te installeren, typt u Y en drukt u op ENTER.   
+    3. Als u wordt gevraagd om de NuGet provider te installeren, typt u Y en drukt u op ENTER.
+
+    4. Als u wordt gevraagd om de module van PSGallery te installeren, typt u Y en drukt u op ENTER.
 
     5. Na de installatie sluit u het PowerShell-opdrachtvenster.
-    
+
 ### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Stap 2: verbinding maken met uw Microsoft 365-abonnement
 
 1. Voer de volgende opdracht uit in de Windows Azure Active Directory-module voor Windows PowerShell.  
@@ -70,10 +70,10 @@ Zie [verbinding maken met Microsoft 365 met PowerShell](https://docs.microsoft
     $UserCredential = Get-Credential
 
 2. Typ in het dialoogvenster referentie aanvraag voor Windows PowerShell de gebruikersnaam en het wachtwoord voor uw globale beheerdersaccount van Microsoft 365 en selecteer **OK**.
-    
+
 3. Voer de volgende opdracht uit.
-    
-    Connect-MsolService-Credential $UserCredential
+
+    Connect-MsolService-referentie $UserCredential
 
 ### <a name="step-3-make-sure-youre-able-to-run-powershell-scripts"></a>Stap 3: controleren of u PowerShell-scripts kunt uitvoeren
 
@@ -82,21 +82,21 @@ Zie [verbinding maken met Microsoft 365 met PowerShell](https://docs.microsoft
 
 Als u het Get-MsolUserDeviceComplianceStatus.ps1 script wilt uitvoeren, moet u de uitvoering van PowerShell-scripts inschakelen.
 
-1. Selecteer op het Windows-bureaublad de optie **Start**en typ Windows PowerShell. Klik met de rechtermuisknop op Windows PowerShell en selecteer **als administrator uitvoeren**.
+1. Selecteer op het Windows-bureaublad de optie **Start** en typ Windows PowerShell. Klik met de rechtermuisknop op Windows PowerShell en selecteer **als administrator uitvoeren**.
 
 2. Voer de volgende opdracht uit.
-    
+
     Set-ExecutionPolicy RemoteSigned
 
 3. Wanneer u hierom wordt gevraagd, typt u Y en drukt u op ENTER.
-    
-**De cmdlet Get-MsolDevice uitvoeren om de details weer te geven van alle apparaten in uw organisatie**
+
+**Voer de Get-MsolDevice cmdlet uit om details weer te geven van alle apparaten in uw organisatie**
 
 1. Open de Microsoft Azure Active Directory-module voor Windows PowerShell.  
 
 2. Voer de volgende opdracht uit.
-    
-    Get-MsolDevice-all-ReturnRegisteredOwners | Where-object {$ _. RegisteredOwners. Count-gt 0}
+
+    Get-MsolDevice-all-ReturnRegisteredOwners | Where-Object {$ _. RegisteredOwners. Count-gt 0}
 
 Zie  [Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=841721)voor meer voorbeelden.
 
@@ -107,55 +107,38 @@ Sla eerst het script op uw computer op.
 1. Kopieer en plak de volgende tekst in Kladblok.  
 
 2.  wil zeggen param
-    
 
 3.  [PSObject []] $users = @ (),
-    
 
 4.  [Schakeloptie] $export
-    
 
 5.  [Tekenreeks] $exportFileName = "UserDeviceComplianceStatus_" + (Get-date-indeling "yyMMdd_HHMMss") + ". csv",
-    
 
 6.  [Tekenreeks] $exportPath = [Environment]:: GetFolderPath ("bureaublad")
-    
 
 7.  )
-    
 
 9.  [System. Collection. IDictionary] $script: schema = @ {
-    
 
 11.  DeviceId = ' '
-    
 
 12.  DeviceOSType = ' '
-    
 
 13.  DeviceOSVersion = ' '
-    
 
 14.  DeviceTrustLevel = ' '
-    
 
 15.  DisplayName = ' '
-    
 
 16.  IsCompliant = ' '
-    
 
 17.  IsManaged = ' '
-    
 
 18.  ApproximateLastLogonTimestamp = ' '
-    
 
 19.  DeviceObjectId = ' '
-    
 
 20.  RegisteredOwnerUpn = ' '
-    
 
 21.  RegisteredOwnerObjectId = ' '
     
@@ -172,7 +155,7 @@ Sla eerst het script op uw computer op.
 26.  {
     
 
-28.  [PSObject] $resultObject = New-object-TypeName PSObject-eigenschap $script: schema
+28.  [PSObject] $resultObject = New-Object-TypeName PSObject-eigenschap $script: schema
     
 
 30.  retour $resultObject
@@ -187,7 +170,7 @@ Sla eerst het script op uw computer op.
 34.  {
     
 
-35.  $users = get-MsolUser
+35.  $users = Get-MsolUser
     
 
 36.  }
@@ -262,7 +245,7 @@ Sla eerst het script op uw computer op.
 64.  {
     
 
-65.  $result | Export-csv-pad ($exportPath + " \" + $exportFileName)-NoTypeInformation
+65.  $result | Export-Csv pad ($exportPath + " \" + $exportFileName)-NoTypeInformation
     
 
 66.  }
@@ -322,6 +305,6 @@ De gegevens worden geëxporteerd naar het Windows-bureaublad als een CSV-bestand
 
 [Microsoft Connect is buiten gebruik gesteld](https://docs.microsoft.com/collaborate/connect-redirect)
 
-[Overzicht van eenvoudige mobiliteit en beveiliging](overview.md)
+[Overzicht van de Basic Mobility en Security](overview.md)
 
 [Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=841721)

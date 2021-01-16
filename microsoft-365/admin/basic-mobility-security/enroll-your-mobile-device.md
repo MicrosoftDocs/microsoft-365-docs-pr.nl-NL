@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Voordat u Microsoft 365-Services met uw apparaat kunt gebruiken, moet u zich mogelijk eerst registreren in de basis mobiliteit en beveiliging voor Microsoft 365.
-ms.openlocfilehash: e31054621ba44a4d5f08de9b366fa0978b738cd9
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: dc5a43b12fce50c9146200a4559fe9b7e6824b18
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430141"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49877054"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>Uw mobiele apparaat registreren met basis mobiliteit en beveiliging
 
@@ -39,15 +39,15 @@ Organisaties kiezen eenvoudige mobiliteit en beveiliging, zodat werknemers hun m
 Basis mobiliteit en beveiliging voor Microsoft 365 die worden gehost door de intune-service werkt met de meeste, maar niet alle mobiele apparaten. Het volgende wordt ondersteund met eenvoudige mobiliteit en beveiliging:
 
 - iOS 10,0 of later
-    
+
 - Android 4,4 of hoger
-    
+
 - Windows 8,1 en Windows 10 (telefoon en PC)
-    
+
 Neem contact op met de beheerder van uw werk of school als uw apparaat hierboven niet wordt genoemd en u het wilt gebruiken met eenvoudige mobiliteit en beveiliging.
 
->[!TIP] 
->Als u problemen ondervindt bij het registreren van uw apparaat, raadpleegt u [problemen met eenvoudige mobiliteit en beveiliging oplossen](troubleshoot.md).
+>[!TIP]
+>Als u problemen ondervindt bij het registreren van uw apparaat, raadpleegt u [problemen met eenvoudige mobiliteit en beveiliging oplossen](/basic-mobility-security/troubleshoot.md).
 
 ## <a name="set-up-your-mobile-device-with-intune-and-basic-mobility-and-security"></a>Uw mobiele apparaat instellen met intune en Basic, mobiliteit en beveiliging
 

@@ -11,18 +11,16 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen zien hoe aanvals training in het Microsoft 365-Beveiligingscentrum van invloed is op werknemers en inzicht krijgen in de resultaten van simulatie en training.
-ms.openlocfilehash: c283819550872691d8dd23d3921c22cb23637633
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: baff6032f295b2b49b4f2ec9280fb465d47b8dc3
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870953"
+ms.locfileid: "49877138"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Meer inzicht krijgen middels aanvalssimulatietraining
 
 In simulatie training voor een aanval biedt Microsoft u inzichten op basis van de resultaten van simulaties en opleidingen waarvan de werknemers zijn gekomen. Met deze inzichten wordt u op de hoogte gehouden van de voortgang van uw werknemers, en adviseert u de volgende stappen om uw werknemers en uw omgeving beter voor te bereiden op aanvallen.
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 We werken voortdurend aan de uitbreiding van de inzichten die voor u beschikbaar is. De werking van gedrag en aanbevolen acties zijn momenteel beschikbaar. Als u wilt beginnen, gaat u naar [training voor simulatie van aanval in het Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/attacksimulator?viewid=overview).
 
@@ -53,7 +51,7 @@ De sectie aanbevolen acties bevat een beschrijving van de aanbevelingen die besc
 
 ## <a name="related-links"></a>Verwante koppelingen
 
-[Aan de slag met simulatie van aanvals oefeningen](attack-simulation-training-get-started.md)
+[Aan de slag met aanvalssimulatietraining](attack-simulation-training-get-started.md)
 
 [Een simulatie van een malafide aanval maken](attack-simulation-training.md)
 

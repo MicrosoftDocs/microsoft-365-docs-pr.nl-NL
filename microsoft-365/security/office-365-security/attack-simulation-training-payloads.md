@@ -11,18 +11,16 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen aangepaste ladingen maken voor simulatie van aanvals vaardigheden in Microsoft Defender voor Office 365.
-ms.openlocfilehash: e3285b99d5b64255b9fdbda8c76b6f133aa013b2
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 45311ad4c4eb09c8238d278475248680fbc66287
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870861"
+ms.locfileid: "49877126"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor aanvalssimulatietraining
 
 Microsoft biedt een robuuste nettolading-catalogus voor diverse social engineering-technieken voor het koppelen van uw aanvals training. U kunt echter wel aangepaste ladingen maken die beter voor uw organisatie kunnen worden gebruikt. In dit artikel wordt uitgelegd hoe u een nettolading maakt voor de training voor simulatie aanval in Microsoft Defender voor Office 365.
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 U kunt een nettolading maken door te klikken op **een nettolading maken** op het [tabblad specifieke **nettoladingen**](https://security.microsoft.com/attacksimulator?viewid=payload) of in de [wizard simulatie maken](attack-simulation-training.md#selecting-a-payload).
 
@@ -67,7 +65,7 @@ U bent klaar met het maken van uw nettolading. Nu is het tijd om de details te b
 
 ## <a name="related-links"></a>Verwante koppelingen
 
-[Aan de slag met simulatie van aanvals oefeningen](attack-simulation-training-get-started.md)
+[Aan de slag met aanvalssimulatietraining](attack-simulation-training-get-started.md)
 
 [Een simulatie van een malafide aanval maken](attack-simulation-training.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Mogelijkheden van eenvoudige mobiliteit en beveiliging
+title: Capaciteiten Basic Mobility en Security
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,14 +18,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Met basis mobiliteit en beveiliging kunt u mobiele apparaten beschermen en beheren.
-ms.openlocfilehash: aed4f4c2d252e487d24496ac00f3de24bc57ab55
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 746131e90e207d7b888a3ddcaf4ff0656606a2c7
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545894"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49877114"
 ---
-# <a name="capabilities-of-basic-mobility-and-security"></a>Mogelijkheden van eenvoudige mobiliteit en beveiliging
+# <a name="capabilities-of-basic-mobility-and-security"></a>Capaciteiten Basic Mobility en Security
 
 Met basis mobiliteit en beveiliging kunt u mobiele apparaten zoals iPhones, iPads, Android-telefoons en Windows Phones gebruiken die door een licentie van Microsoft 365-gebruikers in uw organisatie worden gebruikt. U kunt beleidsregels voor mobiel Apparaatbeheer maken met instellingen waarmee u de toegang kunt beheren tot het Microsoft 365-e-mailadres en documenten van uw organisatie voor ondersteunde mobiele apparaten en apps. Als een apparaat gaat verloren of gestolen, kunt u het apparaat extern wissen om gevoelige organisatiegegevens te verwijderen.
 
@@ -34,16 +34,16 @@ Met basis mobiliteit en beveiliging kunt u mobiele apparaten zoals iPhones, iPad
 U kunt basis mobiliteit en beveiliging gebruiken om de volgende apparaten te beveiligen en beheren.
 
 - iOS 11,0 of hogere versies
-    
+
 - Android 5,0 of hogere versies<sup>3</sup>
-    
+
 - Windows 8,1<sup>1</sup>
-    
+
 - Windows 8,1 RT<sup>1</sup>
-    
+
 - Windows 10<sup>2</sup>
-    
-- Windows 10 Mobile<sup>2</sup>   
+
+- Windows 10 Mobile<sup>2</sup>
 
 <sup>1</sup> Toegangsbeheer voor Windows 8,1 RT-apparaten is beperkt tot Exchange ActiveSync.
 
@@ -65,18 +65,19 @@ Met de ondersteunde apps voor de verschillende typen mobiele apparaten in de vol
 |**Product**|**iOS 10,0 of later**|**Android 5,0 of hoger**|
 |:-----|:-----|:-----|
 |**Exchange** Exchange ActiveSync bevat ingebouwde e-mail en apps van derden, zoals TouchDown, die gebruikmaken van Exchange ActiveSync versie 14,1 of hoger. |Adressen |E-mail |
-|**Office**   en **OneDrive voor bedrijven** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**Op telefoons en tablets**:<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **Op alleen telefoons:** <br/> Office Mobile |
+|**Office**   en  **OneDrive voor bedrijven** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**Op telefoons en tablets**:<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **Op alleen telefoons:** <br/> Office Mobile |
 
 >[!NOTE]
 - >Ondersteuning voor iOS 10,0 en hogere versies omvat iPhone-en iPad-apparaten.
-- >Het beheer van BlackBerry-besturingssysteem apparaten wordt niet ondersteund door het hulpmiddel voor het beheer van mobiele apparaten voor Microsoft 365. Gebruik BlackBerry Business Cloud Services (BBCS) van BlackBerry om BlackBerry OS-apparaten te beheren. BlackBerry-apparaten met Android-besturingssysteem worden ondersteund als standaard Android-apparaten
+- >Het beheer van BlackBerry-besturingssysteem apparaten wordt niet ondersteund door basisbeveiliging en mobiliteit. Gebruik BlackBerry Business Cloud Services (BBCS) van BlackBerry om BlackBerry OS-apparaten te beheren. BlackBerry-apparaten met Android-besturingssysteem worden ondersteund als standaard Android-apparaten
 - >Gebruikers hoeven niet te worden ingeschreven en worden niet geblokkeerd of gerapporteerd voor beleidsovertreding als ze gebruikmaken van de mobiele browser voor het openen van Microsoft 365 SharePoint-sites, documenten in Office Online of e-mail in Outlook Web app.
-    
+
 In het volgende diagram ziet u wat er gebeurt wanneer een gebruiker met een nieuw apparaat zich aanmeldt bij een app die toegangsbeheer ondersteunt voor basis mobiliteit en beveiliging. De gebruiker is geblokkeerd voor het openen van Microsoft 365-bronnen in de app totdat ze hun apparaat registreren.
 
 :::image type="content" source="../../media/basic-mobility-security/bms-1-access-control.png" alt-text="Basisopties voor mobiliteit en beveiligingstoegang":::
 
-Opmerking: beleidsregels en toegangsregels die zijn gemaakt in MDM voor Microsoft 365 Business Standard, negeren postvak beleid van het mobiele apparaat van Exchange ActiveSync en de regels voor Apparaattoegang die zijn gemaakt in het Exchange-Beheercentrum. Als een apparaat is ingeschreven in MDM voor Microsoft 365 Business Standard, wordt het postvak beleid mobiele apparaten van Exchange ActiveSync of de regel voor het openen van apparaten die op het apparaat zijn toegepast, genegeerd. Zie [Exchange ActiveSync in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=524380)voor meer informatie over Exchange ActiveSync.
+> [!NOTE]
+> Beleidsregels en toegangsregels die zijn gemaakt in basis mobiliteit en beveiliging voor Microsoft 365 Business Standard, vervangen beleidsregels voor mobiel apparaat van Exchange ActiveSync en regels voor Apparaattoegang die zijn gemaakt in het Exchange-Beheercentrum. Als een apparaat is ingeschreven voor basis mobiliteit en beveiliging voor Microsoft 365 Business Standard, worden het postvak beleid voor mobiele apparaten van Exchange ActiveSync of de regel voor Apparaattoegang die op het apparaat is toegepast, genegeerd. Zie [Exchange ActiveSync in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=524380)voor meer informatie over Exchange ActiveSync.
 
 ## <a name="policy-settings-for-mobile-devices"></a>Beleidsinstellingen voor mobiele apparaten
 
@@ -85,11 +86,11 @@ Als u een beleid maakt om toegang te blokkeren met bepaalde instellingen, zijn g
 U kunt de volgende secties gebruiken om te voorkomen dat gebruikers toegang hebben tot Microsoft 365-bronnen:
 
 - Beveiliging
-    
+
 - Versleuteling
-    
+
 - Jail verbroken
-    
+
 - Beheerd e-mail profiel  
 
 In het volgende diagram ziet u bijvoorbeeld wat er gebeurt wanneer een gebruiker met een geregistreerd apparaat niet compatibel is met een beveiligingsinstelling in een beleid voor het beheer van mobiele apparaten dat van toepassing is op het apparaat. De gebruiker meldt zich aan bij een app die toegangsbeheer ondersteunt met basis mobiliteit en beveiliging. Het openen van Microsoft 365-bronnen in de app wordt geblokkeerd totdat het apparaat voldoet aan de beveiligingsinstelling.
@@ -111,7 +112,7 @@ In de volgende secties vindt u een overzicht van de beleidsinstellingen die u ku
 |Wachtwoord verloopt (dagen) |Ja|Ja|Ja|
 |Wachtwoordgeschiedenis onthouden en hergebruik verhinderen |Ja|Ja|Ja|
 
-## <a name="encryption-settings"></a>Versleutelingsinstellingen 
+## <a name="encryption-settings"></a>Versleutelingsinstellingen
 
 |**Naam instellen**|**iOS 7,1 en hoger**|**Android 5 en hoger**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
@@ -133,7 +134,7 @@ Met de volgende optie kunnen gebruikers verhinderen dat ze toegang hebben tot hu
 |:-----|:-----|:-----|:-----|
 |E-mail profiel wordt beheerd |Ja|Nee|Nee|
 
-## <a name="cloud-settings"></a>Cloud instellingen 
+## <a name="cloud-settings"></a>Cloud instellingen
 
 |**Naam instellen**|**iOS 7,1 en hoger**|**Android 5 en hoger**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
@@ -144,14 +145,14 @@ Met de volgende optie kunnen gebruikers verhinderen dat ze toegang hebben tot hu
 |Google back-up toestaan  |N.v.t.|Nee|Ja|
 |Automatisch synchroniseren van Google-accounts toestaan  |N.v.t.|Nee|Ja|
 
-## <a name="system-settings"></a>Systeeminstellingen 
+## <a name="system-settings"></a>Systeeminstellingen
 
 |**Naam instellen**|**iOS 7,1 en hoger**|**Android 5 en hoger**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
 |Schermopname blokkeren |Ja|Nee|Ja|
 |De verzending van diagnostische gegevens van een apparaat blokkeren |Ja|Nee|Ja|
 
-## <a name="application-settings"></a>Toepassingsinstellingen 
+## <a name="application-settings"></a>Toepassingsinstellingen
 
 |**Naam instellen**|**iOS 7,1 en hoger**|**Android 5 en hoger**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
@@ -159,7 +160,7 @@ Met de volgende optie kunnen gebruikers verhinderen dat ze toegang hebben tot hu
 |Toegang tot de toepassing Store blokkeren |Ja|Nee|Ja|
 |Wachtwoord vereist wanneer u toegang hebt tot toepassingen archief |Nee|Ja|Ja|
 
-## <a name="device-capabilities-settings"></a>Instellingen voor de apparaatfuncties 
+## <a name="device-capabilities-settings"></a>Instellingen voor de apparaatfuncties
 
 |**Naam instellen**|**iOS 7,1 en hoger**|**Android 5 en hoger**|**Samsung Knox**|
 |:-----|:-----|:-----|:-----|
@@ -186,7 +187,7 @@ U kunt de volgende aanvullende beleidsinstellingen instellen met behulp van de P
 |SystemSecurityTLS  |Ja|Nee|
 |WLANEnabled  |Nee|Nee|
 
-## <a name="settings-supported-by-windows"></a>Door Windows ondersteunde instellingen 
+## <a name="settings-supported-by-windows"></a>Door Windows ondersteunde instellingen
 
 U kunt Windows 10-apparaten beheren door deze als mobiele apparaten in te schrijven. Als een van toepassing zijnde beleid is geïmplementeerd, moeten gebruikers met Windows 10-apparaten zich voor de eerste keer registreren voor eenvoudige mobiliteit en beveiliging, zodat ze de e-mail van Microsoft 365 kunnen openen (hiervoor is een Azure AD Premium-abonnement vereist).
 
@@ -197,14 +198,14 @@ De volgende instellingen worden ondersteund voor Windows 10-apparaten die worden
 - Een alfanumeriek wachtwoord vereisen
 
 - Minimale wachtwoordlengte
-    
+
 - Het aantal aanmeldingsfouten voordat het apparaat wordt gewist
-    
+
 - Minuten van inactiviteit voordat het apparaat is vergrendeld
-    
+
 - Wachtwoord verloopt (dagen)
-    
-- Wachtwoordgeschiedenis onthouden en hergebruik verhinderen   
+
+- Wachtwoordgeschiedenis onthouden en hergebruik verhinderen
 
 >[!NOTE]
 >Met de volgende instellingen worden alleen wachtwoorden bestuurd voor lokale Windows-accounts. Windows-accounts die worden geleverd via lidmaatschap van een domein of Azure Active Directory, worden niet beïnvloed door deze instellingen.
@@ -218,25 +219,24 @@ De verzending van diagnostische gegevens van een apparaat blokkeren.
 U kunt deze extra beleidsinstellingen instellen met behulp van PowerShell-cmdlets:
 
 - AllowConvenienceLogon
-    
+
 - UserAccountControlStatus
-    
+
 - FirewallStatus
-    
+
 - AutoUpdateStatus
-    
-- AntiVirusStatus   
+
+- AntiVirusStatus
 
 - AntiVirusSignatureStatus
-    
+
 - SmartScreenEnabled
-    
+
 - WorkFoldersSyncUrl
-    
 
 ## <a name="remotely-wipe-a-mobile-device"></a>Extern wissen van een mobiel apparaat
 
-Als een apparaat gaat verloren of gestolen, kunt u gevoelige organisatiegegevens verwijderen en de toegang tot uw Microsoft 365-organisatiebronnen helpen voorkomen door te wissen tegen beveiliging & compliance > **preventie van gegevensverlies**  >  **Device management**. U kunt selectief wissen om alleen bedrijfsgegevens te verwijderen of u kunt volledig wissen om alle gegevens van een apparaat te verwijderen en de fabrieksinstellingen van het apparaat te herstellen.
+Als een apparaat gaat verloren of gestolen, kunt u gevoelige organisatiegegevens verwijderen en de toegang tot uw Microsoft 365-organisatiebronnen helpen voorkomen door te wissen tegen beveiliging & compliance > **preventie van gegevensverlies**  >  . U kunt selectief wissen om alleen bedrijfsgegevens te verwijderen of u kunt volledig wissen om alle gegevens van een apparaat te verwijderen en de fabrieksinstellingen van het apparaat te herstellen.
 
 Zie [een mobiel apparaat wissen voor eenvoudige mobiliteit en beveiliging](wipe-mobile-device.md)voor meer informatie.
 

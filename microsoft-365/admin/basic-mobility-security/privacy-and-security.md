@@ -14,12 +14,12 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 description: Nadat u eenvoudige mobiliteit en beveiliging hebt geactiveerd, kunt u beleidsregels voor het beheren van mobiele apparaten maken.
-ms.openlocfilehash: 31966f81833d6c90c48cdc4c40eee2f94d785fd8
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: a5e813219407b105f9196a4532914326a94f429a
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430127"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876910"
 ---
 # <a name="privacy-and-security-in-basic-mobility-and-security"></a>Privacy en beveiliging in eenvoudige mobiliteit en beveiliging
 

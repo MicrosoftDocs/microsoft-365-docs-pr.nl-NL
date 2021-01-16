@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met simulatie van aanvals oefeningen
+title: Aan de slag met aanvalssimulatietraining
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -19,18 +19,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u simulatie training kunt gebruiken voor het uitvoeren van simulaties voor phishing en wachtwoorden in hun Microsoft 365 E5 of Microsoft Defender for Office 365-abonnement 2-organisaties.
-ms.openlocfilehash: 9d97816edf7d59c002658fc8bb3f39e72dbc2430
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 2c00fb27748887c6b8e2fa1458b10f0c3405eef7
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871242"
+ms.locfileid: "49877162"
 ---
-# <a name="get-started-using-attack-simulation-training"></a>Aan de slag met simulatie van aanvals oefeningen
+# <a name="get-started-using-attack-simulation-training"></a>Aan de slag met aanvalssimulatietraining
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Als uw organisatie gebruikmaakt van Microsoft 365 E5 of Microsoft Defender for Office 365 (abonnement 2), waaronder het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van de organisatie, kunt u simulatie training voor hacken gebruiken in het Microsoft-Beveiligingscentrum voor het uitvoeren van realistische aanvalsscenario's in uw organisatie. Met de gesimuleerde aanvallen kunt u gebruikers kwetsbaar maken en kwetsbaar maken voor een echte aanval met uw onderste regel. Lees dit artikel voor meer informatie.
 

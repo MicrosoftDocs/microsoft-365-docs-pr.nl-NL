@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Veelgestelde vragen over basis mobiliteit en beveiliging.
-ms.openlocfilehash: e05815392510ad54bb530457d7f0f6490ece4a95
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: 5651b9f9742c45f1229e55b298cf78532c835c9a
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430140"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876874"
 ---
 # <a name="basic-mobility-and-security-frequently-asked-questions-faq"></a>Basis Veelgestelde vragen over de mobiliteit en beveiliging
 
@@ -31,19 +31,19 @@ Dit artikel bevat veelgestelde vragen over basis mobiliteit en beveiliging, een 
 
 ## <a name="how-can-i-get-basic-mobility-and-security-i-dont-see-it-in-the-microsoft-365-admin-center"></a>Hoe kan ik eenvoudige mobiliteit en beveiliging weergeven? Ik zie het niet in het Microsoft 365-Beheercentrum
 
-1.  Activeer basis mobiliteit en beveiliging door naar de pagina [Office 365 Security & compliance](https://protection.office.com/) te gaan.   
+1.  Activeer basis mobiliteit en beveiliging door naar de pagina [Office 365 Security & compliance](https://protection.office.com/) te gaan.
 
-2.  Ga naar preventie van gegevensverlies > Apparaatbeheer.   
+2.  Ga naar preventie van gegevensverlies > Apparaatbeheer.
 
 ## <a name="how-can-i-get-started-with-device-management-in-basic-mobility-and-security"></a>Hoe kan ik aan de slag met Apparaatbeheer in eenvoudige mobiliteit en beveiliging?
 
 U moet vier stappen uitvoeren om aan de slag te gaan met eenvoudige mobiliteit en beveiliging: 
 
 1. Activeer basis mobiliteit en beveiliging door naar het [Office 365-beveiligings & naleving](https://protection.office.com/)te gaan.
-    
+
 2. Ga naar preventie van gegevensverlies > Apparaatbeheer > apparaatbeleid.
     
-3. Maak beleidsregels voor Apparaatbeheer en pas deze toe voor groepen gebruikers die zijn ingesteld in beveiligingsgroepen. We raden u aan eerst het beleid te implementeren in een kleine testgroep. Zie voor meer informatie het artikel [beveiligingsbeleid voor apparaten maken voor eenvoudige mobiliteit en beveiliging](create-device-security-policies.md).      
+3. Maak beleidsregels voor Apparaatbeheer en pas deze toe voor groepen gebruikers die zijn ingesteld in beveiligingsgroepen. We raden u aan eerst het beleid te implementeren in een kleine testgroep. Zie voor meer informatie het artikel [beveiligingsbeleid voor apparaten maken voor eenvoudige mobiliteit en beveiliging](create-device-security-policies.md).
 
 4. Gebruikers voor wie een beleidsregel is toegepast, wordt gevraagd hun apparaat te registreren wanneer ze toegang proberen te krijgen tot gegevens van Microsoft 365. Zie voor meer informatie [uw mobiele apparaat registreren met behulp van eenvoudige mobiliteit en beveiliging](enroll-your-mobile-device.md).
 
@@ -51,18 +51,18 @@ Zie [eenvoudige mobiliteit en beveiliging instellen](set-up.md)voor meer informa
 
 ## <a name="im-trying-to-set-up-basic-mobility-and-security-but-it-seems-stuck-the-microsoft-365-service-health-has-been-showing-provisioning-for-a-while-what-can-i-do"></a>Ik probeer een eenvoudige mobiliteit en beveiliging in te stellen, maar het lijkt erop te zitten. Voor de Microsoft 365-service status is een tijdje ' inrichten ' weergegeven. Wat kan ik doen?
 
-Het kan enige tijd duren voordat de dienst klaar is voor gebruik. Wanneer de inrichting is voltooid, ziet u de pagina Mobile Device Management for Microsoft 365. Neem contact op met de ondersteuning als u 24 uur hebt gewacht en de status nog steeds wordt ingericht. Zie [nog steeds hulp nodig?](https://support.microsoft.com/office/frequently-asked-questions-about-basic-mobility-and-security-3871f99c-c9db-4a23-86f9-902c1b02f58d#bkmk_needhelp) voor ondersteuningsopties. 
+Het kan enige tijd duren voordat de dienst klaar is voor gebruik. Wanneer het inrichten is voltooid, ziet u de pagina basis mobiliteit en beveiliging. Neem contact op met de ondersteuning als u 24 uur hebt gewacht en de status nog steeds wordt ingericht. Zie [nog steeds hulp nodig?](https://support.microsoft.com/office/frequently-asked-questions-about-basic-mobility-and-security-3871f99c-c9db-4a23-86f9-902c1b02f58d#bkmk_needhelp)voor ondersteuningsopties.
 
 ## <a name="what-can-i-do-if-device-enrollment-fails"></a>Wat kan ik doen als apparaatregistratie mislukt?
 
 Als u problemen ondervindt bij het registreren van een apparaat dat is geregistreerd, controleert u eerst het volgende:
 
 - Controleer of het apparaat niet al is geregistreerd bij een andere provider voor mobiel Apparaatbeheer, zoals intune.
-    
+
 - Controleer of het apparaat is ingesteld op de juiste datum en tijd.
-    
+
 - Overschakelen naar een ander WIFI-of mobiel netwerk op het apparaat.
-    
+
 - Voor Android-of iOS-apparaten verwijdert u de app intune Company portal van het apparaat en installeert u deze opnieuw.
     
 Als de registratie nog steeds niet werkt, raadpleegt u [problemen met eenvoudige mobiliteit en beveiliging oplossen](troubleshoot.md).
@@ -90,4 +90,3 @@ Als een apparaat is ingeschreven voor basis mobiliteit en beveiliging, wordt het
 ## <a name="i--set-up-basic-mobility-and-security-but-now-i-want-to-remove-it-what-are-the-steps"></a>Ik heb basis mobiliteit en beveiliging ingesteld, maar nu wil ik deze verwijderen. Wat zijn de stappen?
 
 Helaas kunt u de basis mobiliteit en beveiliging van basis van de burger en beveiliging van uw site helaas niet eenvoudig opzeggen. U kunt de groep gebruikers ook verwijderen door gebruikersbeveiligingsgroepen te verwijderen uit het apparaatbeleid dat u hebt gemaakt. U kunt ook de optie voor iedereen uitschakelen door het apparaatbeleid te verwijderen, zodat ze niet worden ingesteld. Zie [eenvoudige mobiliteit en beveiliging](turn-off.md)uitschakelen voor meer informatie.
-

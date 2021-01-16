@@ -13,16 +13,50 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 9dec293a26cbc3d239a597e46815d60d79b9ac20
-ms.sourcegitcommit: 33afa334328cc4e3f2474abd611c1411adabd39f
+ms.openlocfilehash: 8f6826865f38dad6040f65ac083be76450127299
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48370410"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49877198"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Geschiedenis voor Microsoft Managed Desktop-documentatie wijzigen
 
-In dit artikel vindt u nieuwe en bijgewerkte artikelen in de [documentatie Microsoft Managed Desktop](index.yml). De artikelen ' updated ' zijn de artikelen die materieel zijn toegevoegd of correcties: tijdelijke oplossingen zoals correctie van typefouten, stijl of opmaakproblemen worden niet vermeld. U kunt altijd de geschiedenis van specifieke doorvoeren (inclusief details van eventuele wijzigingen) weergeven door te kijken [naar het repo op github](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+In dit artikel vindt u nieuwe en bijgewerkte artikelen in de [documentatie Microsoft Managed Desktop](index.yml). De artikelen ' updated ' hebben materialen toegevoegd of correcties: tijdelijke oplossingen zoals correctie van typefouten, stijl of opmaakproblemen worden niet vermeld. U kunt altijd de geschiedenis van specifieke doorvoeren (inclusief details van eventuele wijzigingen) weergeven door te kijken [naar het repo op github](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+
+## <a name="december-2020"></a>December 2020
+Nieuw of gewijzigd artikel | Beschrijving
+--- | ---
+[Wat is Microsoft Managed Desktop?](https://docs.microsoft.com/microsoft-365/managed-desktop/intro/index) | Bijgewerkt artikel
+[Werken met rapporten](working-with-managed-desktop/reports.md) | Bijgewerkt artikel
+[Privacy en persoonlijke gegevens](service-description/privacy-personal-data.md) | Bijgewerkt artikel
+[Compliance](intro/compliance.md) | Bijgewerkt artikel
+[Vereisten](get-ready/prerequisites.md) | Bijgewerkt artikel
+[Netwerkconfiguratie](get-ready/network.md) | Bijgewerkt artikel
+
+
+## <a name="november-2020"></a>November 2020
+Nieuw of gewijzigd artikel | Beschrijving
+--- | ---
+[Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden](get-ready/readiness-assessment-fix.md) | Bijgewerkt artikel
+[Hulpmiddel voor gereedheids beoordeling](get-ready/readiness-assessment-tool.md) | Nieuw artikel
+[Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden](get-ready/readiness-assessment-fix.md) | Nieuw artikel
+[Nieuwe apparaten zelf registreren](get-started/register-devices-self.md) | Bijgewerkt artikel
+[Stappen voor partners om apparaten te registreren](get-started/register-devices-partner.md) | Bijgewerkt artikel
+[Vereisten voor gast-accounts](get-ready/guest-accounts.md) | Nieuw artikel
+[Toegang tot de beheerportal](get-started/access-admin-portal.md) | Bijgewerkt artikel
+
+
+## <a name="october-2020"></a>Oktober 2020
+Nieuw of gewijzigd artikel | Beschrijving
+--- | ---
+[Vereisten](get-ready/prerequisites.md) | Bijgewerkt artikel
+[Werken met inzichten](working-with-managed-desktop/insights.md) | Bijgewerkt artikel
+[Stappen voor partners om apparaten te registreren](get-started/register-devices-partner.md) | Bijgewerkt artikel
+[Toegang tot de beheerportal](get-started/access-admin-portal.md) | Bijgewerkt artikel
+[Apps implementeren op apparaten](get-started/deploy-apps.md) | Bijgewerkt artikel
+[Hulp aanvragen voor gebruikers](working-with-managed-desktop/end-user-support.md) | Bijgewerkt artikel
 
 
 ## <a name="september-2020"></a>September 2020
@@ -46,7 +80,7 @@ Nieuw of gewijzigd artikel | Beschrijving
 ## <a name="august-2020"></a>Augustus 2020
 Nieuw of gewijzigd artikel | Beschrijving
 --- | ---
-[Inventarisrapport voor apparaat](working-with-managed-desktop/device-inventory-report.md) | Nieuw artikel
+[Inventarisrapport voor apparaten](working-with-managed-desktop/device-inventory-report.md) | Nieuw artikel
 [Nieuwe Microsoft Edge-app](get-started/edge-browser-app.md) | Bijgewerkt artikel
 [Nieuwe apparaten zelf registreren](get-started/register-devices-self.md) | Bijgewerkt artikel
 [Bestaande apparaten zelf registreren](get-started/register-reused-devices-self.md) | Bijgewerkt artikel

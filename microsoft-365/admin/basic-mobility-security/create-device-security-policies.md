@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik basis mobiliteit en beveiliging voor het maken van beleidsregels voor het beschermen van uw organisatie.
-ms.openlocfilehash: 322bca862c852f83406ca4622a63384b2e2275e5
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 077f1e7e0d763aaecfc38fd4b57d9e8912900a3c
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545882"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49877066"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>Beveiligingsbeleid voor apparaten maken in eenvoudige mobiliteit en beveiliging
 
@@ -39,8 +39,8 @@ Met basis mobiliteit en beveiliging kunt u beleidsregels voor apparaten maken wa
 - Als u basis-en beveiligingsbeleid wilt maken en implementeren in Microsoft 365, moet u een globale beheerder van Microsoft 365 zijn. Voor meer informatie raadpleegt u [machtigingen in de beveiligings & nalevings centrum](https://support.microsoft.com/office/d10608af-7934-490a-818e-e68f17d0e9c1).
 - Voordat u beleidsregels implementeert, kunt u de potentiële gevolgen van het registreren van een apparaat op basis van mobiliteit en beveiliging achterhalen. Afhankelijk van de manier waarop u het beleid instelt, kunnen niet-compatibele apparaten toegang krijgen tot Microsoft 365 en gegevens, waaronder geïnstalleerde toepassingen, Foto's en persoonlijke gegevens op een geregistreerd apparaat en kunnen gegevens worden verwijderd.
 
-> [!NOTE]
-> Beleidsregels en toegangsregels die zijn gemaakt in MDM voor Microsoft 365 Business Standard overschrijving voor e-mail regels van het mobiele apparaat van Exchange ActiveSync en de regels voor Apparaattoegang die zijn gemaakt in het Exchange-Beheercentrum. Als een apparaat is ingeschreven in MDM voor Microsoft 365 Business Standard, wordt het postvak beleid mobiele apparaten van Exchange ActiveSync of de regel voor het openen van apparaten op het apparaat genegeerd. Zie [Exchange ActiveSync in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=524380)voor meer informatie over Exchange ActiveSync.
+>[!NOTE]
+>Beleidsregels en toegangsregels die zijn gemaakt in basis mobiliteit en beveiliging voor Microsoft 365 Business Standard negeren postvak beleid voor mobiele apparaten van Exchange ActiveSync en regels voor Apparaattoegang die zijn gemaakt in het Exchange-Beheercentrum. Als een apparaat is ingeschreven voor basis mobiliteit en beveiliging voor Microsoft 365 Business Standard, wordt het postvak beleid mobiele apparaten van Exchange ActiveSync of de regel voor het openen van apparaten die op het apparaat zijn toegepast, genegeerd. Zie [Exchange ActiveSync in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=524380)voor meer informatie over Exchange ActiveSync.
 
 ## <a name="step-1-create-a-device-policy-and-deploy-to-a-test-group"></a>Stap 1: een apparaatbeleid maken en implementeren in een testgroep
 
@@ -91,7 +91,7 @@ Voor de bescherming van uw gegevens van uw organisatie dient u de toegang tot Mi
 
 1. Typ in uw browser [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
 2. Selecteer **instellingen voor Apparaattoegang voor de hele organisatie beheren**.
-3. Als u niet-ondersteunde apparaten wilt blokkeren, kiest u **blok** onder **als een apparaat niet wordt ondersteund door MDM voor Microsoft 365**en selecteert u vervolgens **Opslaan**.
+3. Als u niet-ondersteunde apparaten wilt blokkeren, kiest u **blok** onder **als een apparaat niet wordt ondersteund door basis mobiliteit en beveiliging voor Microsoft 365** en selecteert u vervolgens **Opslaan**.
 
    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="De optie eenvoudige toegang voor mobiliteit en beveiligings blokkering":::
 
@@ -109,7 +109,7 @@ Als u bepaalde personen wilt uitsluiten van controles voor voorwaardelijke toega
 
 4. Selecteer de beveiligingsgroep die u wilt gebruiken in het deelvenster **groep selecteren** .
 
-5. Selecteer de naam en voeg vervolgens **Add**  >  **Opslaan**toe.
+5. Selecteer de naam en voeg vervolgens   >  **Opslaan** toe.
 
 6. Kies in het deelvenster **Apparaattoegang-instellingen voor de gehele organisatie** de optie **Opslaan**.
 
@@ -150,6 +150,6 @@ U kunt een apparaat ook geheel wissen, of de bedrijfsgegevens van het apparaat s
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Overzicht van eenvoudige mobiliteit en beveiliging](overview.md)
+[Overzicht van de Basic Mobility en Security](overview.md)
 
-[Mogelijkheden van eenvoudige mobiliteit en beveiliging](capabilities.md)
+[Capaciteiten Basic Mobility en Security](capabilities.md)

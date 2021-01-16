@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fff44098e3da17c68e4347fb14690945154edfdb
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 6e904eee5a132d271ec32ee99a19380463e53193
+ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841185"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49881771"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Beheerde bureaublad apparaten van Microsoft 
 
@@ -71,6 +71,7 @@ De koppelingen naar apparaten hier voor naslaginformatie. Als u apparaten wilt o
 | [Surface laptop voor onderweg](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 GB/Intel i5/8 GB RAM | Geen | 12 oktober 2022 | 12 oktober 2025 |
 | [Surface laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 GB/Intel i5/8 GB RAM | Geen | 22 oktober 2021 | 22 oktober 2024 |
 | [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 GB/Intel i5/8 GB RAM | Geen | 22 oktober 2021 | 22 oktober 2024 |
+| **\*[Surface Pro 7 +](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | 128 GB/Intel i5/8 GB RAM | Geen | 15 januari 2022 | 15 januari 2025 |
 
 Daarnaast moet het apparaat ook voldoen aan de volgende criteria:     
 
