@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
-ms.openlocfilehash: f8ae6334a078d635de069d2fe7af351ad42d8df3
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 0c77798f0bf4b5dedfa5023eaa0b4de4ab8c5b64
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615358"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870991"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -209,6 +209,10 @@ Als u de CNAME-records in DNS hebt gepubliceerd, kunt u DKIM-ondertekening insch
 5. Selecteer het domein waarvoor u DKIM wilt inschakelen en kies vervolgens **Inschakelen** voor **Berichten voor dit domein ondertekenen met DKIM-handtekeningen**. Herhaal deze stap voor elk aangepast domein.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>DKIM-ondertekening voor uw aangepaste domein inschakelen met behulp van Windows PowerShell
+
+> [!IMPORTANT]
+>:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="De 'geen DKIM-sleutels opgeslagen voor dit domein'-fout.":::
+> Als je DKIM voor de eerste keer configureert en de fout 'Geen DKIM-sleutels opgeslagen voor dit domein.' ziet voltooi de opdracht in stap 2, zie hieronder (bijvoorbeeld, *Set-DkimSigningConfig -Identiteit contoso.com -Enabled $true*) voor de sleutel.
 
 1. [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 

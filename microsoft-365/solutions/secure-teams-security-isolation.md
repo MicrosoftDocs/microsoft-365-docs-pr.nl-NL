@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het maken van een team met een uniek gevoeligheidslabel voor beveiliging.
-ms.openlocfilehash: 03252cad8449ee83cd757fac3ae74db6df68bcfe
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: d5cfe33d4f254832ccf26552d8ca392cf1dc440c
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751141"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870977"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Een team configureren met beveiligingsisolatie
 
@@ -106,7 +106,7 @@ Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
 2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **een label maken**.
-4. Geef een naam op voor het label. We stellen **Gevoelig** voor, maar je kunt een andere naam kiezen als die al in gebruik is.
+4. Geef een naam op voor het label. We suggereren het te vernoemen naar het team waarmee je het zal gebruiken.
 5. Voeg een weergavenaam en een beschrijving toe en klik vervolgens op **Volgende**.
 6. Selecteer op de **pagina Het bereik voor dit label definiëren** de opties **Bestanden en e-mailberichten** en **Groepen en sites** en klik op **Volgende**.
 7. Selecteer op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichten kiezen** de optie **Bestanden en e-mailberichten versleutelen** en klik vervolgens op **Volgende**.

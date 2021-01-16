@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het implementeren van teams met bescherming voor zeer vertrouwelijke gegevens.
-ms.openlocfilehash: 6354de5a37547d14b16a4d6a0857ddc390d531e6
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 045f1b1d1ebf03eb70554dc5964acb0a12e0060f
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49750807"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870849"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 
@@ -33,7 +33,7 @@ Voor deze beveiligingslaag kunt je een vertrouwelijkheidslabel maken dat door uw
 
 De zeer gevoelige laag biedt de volgende extra bescherming bovenop de basislaag:
 
-- Een gevoeligheidslabel voor het team waarmee u het delen van gasten kunt in- of uitschakelen en de toegang tot SharePoint-inhoud beperkt tot alleen-internet voor onbeheerde apparaten. Dit label kan ook worden gebruikt om bestanden te classificeren en te versleutelen.
+- Een gevoeligheidslabel voor het team waarmee je het delen van gasten kunt in- of uitschakelen en de toegang tot SharePoint-inhoud beperkt voor onbeheerde apparaten. Dit label kan ook worden gebruikt om bestanden te classificeren en te versleutelen.
 - Een meer beperkend standaardkoppelingstype voor delen
 - Alleen teameigenaren kunnen privé-kanalen maken.
 - Toegangsaanvragen voor de gekoppelde SharePoint-site zijn uitgeschakeld.
@@ -63,7 +63,7 @@ Een gevoeligheidslabel maken
 1. Open het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com).
 2. Klik onder **Oplossingen** op **Informatiebeveiliging**.
 3. Klik op **Een label maken**.
-4. Geef een naam op voor het label. We stellen **Gevoelig** voor, maar je kunt een andere naam kiezen als die al in gebruik is.
+4. Geef een naam op voor het label. We suggereren **Zeer gevoelig**, maar u kunt een andere naam kiezen als die al in gebruik is.
 5. Voeg een weergavenaam en een beschrijving toe en klik vervolgens op **Volgende**.
 6. Selecteer op de **pagina Het bereik voor dit label definiëren** de opties **Bestanden en e-mailberichten** en **Groepen en sites** en klik op **Volgende**.
 7. Selecteer op de pagina **Beveiligingsinstellingen voor bestanden en e-mailberichten kiezen** de optie **Bestanden en e-mailberichten versleutelen** en klik vervolgens op **Volgende**.
