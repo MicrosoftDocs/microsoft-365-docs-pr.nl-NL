@@ -24,6 +24,8 @@
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: Windows 10-computers beveiligen
           href: ../business/secure-win-10-pcs.md
+        - name: Software en productcodes downloaden
+          href: setup/download-software-licenses-csp.md
         - name: Office-apps installeren
           href: setup/install-applications.md
         - name: Windows-apparaten instellen
@@ -360,12 +362,32 @@
               href: basic-mobility-security/overview.md
             - name: Basic Mobility Security en Intune vergelijken
               href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
-            - name: Veelgestelde vragen voor Basic Mobility en Security
-              href: basic-mobility-security/frequently-asked-questions.md
             - name: Capaciteiten Basic Mobility en Security
               href: basic-mobility-security/capabilities.md
-            - name: Basic Mobility Security en Intune vergelijken
-              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
+            - name: Basic Mobility en Security instellen
+              href: basic-mobility-security/set-up.md
+            - name: Beveiligingsbeleid voor apparaten maken
+              href: basic-mobility-security/create-device-security-policies.md
+            - name: Een APNs-certificaat voor iOS-apparaten maken
+              href: basic-mobility-security/create-an-apns-certificate-for-ios-devices.md
+            - name: Instellingen voor apparaattoegang beheren
+              href: basic-mobility-security/manage-device-access-settings.md
+            - name: Meer informatie over beheerde apparaten
+              href: basic-mobility-security/get-details-about-managed-devices.md
+            - name: Geregistreerde apparaten beheren
+              href: basic-mobility-security/manage-enrolled-devices.md
+            - name: Uw mobiele apparaat registreren
+              href: basic-mobility-security/enroll-your-mobile-device.md
+            - name: Privacy en beveiliging
+              href: basic-mobility-security/privacy-and-security.md
+            - name: Veelgestelde vragen
+              href: basic-mobility-security/frequently-asked-questions.md
+            - name: Mobiele apparaten wissen
+              href: basic-mobility-security/wipe-mobile-device.md
+            - name: Basic Mobility en Security uitschakelen
+              href: basic-mobility-security/turn-off.md
+            - name: Problemen oplossen
+              href: basic-mobility-security/troubleshoot.md
     - name: Werken met klanten
       href: work-with-customers/index.yml
       items:
