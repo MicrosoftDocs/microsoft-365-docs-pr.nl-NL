@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: 'Overzicht: Office 365 vereist verbinding met internet. De volgende eindpunten moeten bereikbaar zijn voor klanten die gebruikmaken van Office 365-abonnementen, waaronder Government Community Cloud (GCC).'
 hideEdit: true
-ms.openlocfilehash: 9b705c6cad0387efb16f3fc5494b1ba2fe337732
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 386c92d0856b3faa88fb8a05f8ddff58a81e3c4f
+ms.sourcegitcommit: a92b150da1e11d4a204c556ab98a4776727dbc22
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794398"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49883334"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365-URL's en IP-adresbereiken
 
@@ -62,7 +62,7 @@ De getoonde gegevenskolommen zijn:
 [!INCLUDE [Office 365 worldwide endpoints](../includes/office-365-worldwide-endpoints.md)]
 
 >[!Note]
->Zie [dit blogbericht](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592) voor aanbevelingen voor IP-adressen en URL's van Yammer.
+>Zie [Het gebruik van harde IP-adressen voor Yammer wordt niet aanbevolen](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592) op de Yammer-blog voor aanbevelingen over IP-adressen en URL's voor Yammer.
 >
 
 ## <a name="related-topics"></a>Verwante onderwerpen
@@ -71,7 +71,7 @@ De getoonde gegevenskolommen zijn:
 
 [Algemene Microsoft Stream-eindpunten](https://docs.microsoft.com/stream/network-overview#general-microsoft-stream-endpoints)
   
-[Microsoft 365-connectiviteit controleren](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
+[Microsoft 365-connectiviteit controleren](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity)
 
 [De basis- en gemiddelde CA-bundel op het toepassingssysteem van derden](../compliance/encryption-office-365-certificate-chains.md)
   
@@ -88,3 +88,5 @@ De getoonde gegevenskolommen zijn:
 [IP-bereiken en servicetags Microsoft Azure – Cloud China](https://www.microsoft.com/download/details.aspx?id=57062)
   
 [Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)
+
+[Register met servicenaam en poortnummer van transportprotocol](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
