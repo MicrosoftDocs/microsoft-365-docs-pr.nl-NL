@@ -18,12 +18,12 @@ ms.custom:
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
 description: Meer informatie over het beheren van Office 365-eindpunten, zodat deze werken met de netwerkarchitectuur van uw organisatie.
-ms.openlocfilehash: a616e5f45fee77a02e7b4df7e19ed9e1b0d31d22
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.openlocfilehash: 41dceae78d80a78b023517e8b6c5c5c0d73da2ef
+ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787949"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905283"
 ---
 # <a name="managing-office-365-endpoints"></a>Office 365-eindpunten beheren
 
@@ -161,7 +161,7 @@ Deze CNAME-omleiding is een normaal onderdeel van de DNS en transparant voor de 
 
 Een proxyserver valideert de oorspronkelijke URL, die in het bovenstaande voorbeeld is serviceA.office.com, en deze URL werd opgenomen in de publicatie van Office 365. De proxyserver vraagt een DNS-omzetting van die URL naar een IP-adres en ontvangt weer IP_1. De tussenliggende CNAME-omleidings records worden niet gevalideerd.
 
-Configuraties met vaste code of het verkeer op basis van indirecte Office 365 FQDN wordt niet aanbevolen, niet ondersteund door Microsoft, en bekend is dat er problemen met de verbinding met de klant zijn. DNS-oplossingen die op CNAME-omleiding of op andere wijze de DNS-vermeldingen van Office 365 op een andere manier op te lossen, kunnen worden verholpen via DNS Conditional forwarding (scoped to direct used Office 365 FQDN) met DNS-herhalingen ingeschakeld. Tal van producten van derden die door Microsoft worden gebruikt, worden door de configuratie van de [IP-adressen en URL van office 365](microsoft-365-ip-web-service.md)365 aanbevolen.
+Hardcoded configuraties of Whitelisting op basis van indirecte Office 365-FQDN-namen worden niet aanbevolen, worden niet ondersteund door Microsoft en zijn bekend als ondersteuning van klant verbindingen. DNS-oplossingen waarbij CNAME-omleidings functie wordt geblokkeerd, of die op een andere manier de DNS-vermeldingen van Office 365 op een andere manier op te lossen, kunnen worden opgelost via DNS-doorstuurservers met DNS herhaling ingeschakeld of via DNS-basis hints. Vele producten van derden worden in de configuratie met de [IP-adressen en URL-services van office 365](microsoft-365-ip-web-service.md)365 aanbevolen.
 
 <a name="bkmk_akamai"> </a>
 ### <a name="why-do-i-see-names-such-as-nsatcnet-or-akadnsnet-in-the-microsoft-domain-names"></a>Waarom zie ik namen zoals nsatc.net of akadns.net in de Microsoft-domeinnamen?

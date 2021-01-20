@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen aangepaste ladingen maken voor simulatie van aanvals vaardigheden in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 45311ad4c4eb09c8238d278475248680fbc66287
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 86a962dc3117708ac71195b9efc336fa30c573dd
+ms.sourcegitcommit: 99a7354e6a6b4d9d5202674ef57852d52a43fef6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877126"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908339"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor aanvalssimulatietraining
 
@@ -58,7 +58,7 @@ Voeg een aangepaste beschrijving toe om de indicator te beschrijven en klik in h
 
 ## <a name="review-payload"></a>Nettolading controleren
 
-U bent klaar met het maken van uw nettolading. Nu is het tijd om de details te bekijken en een voorbeeld van uw nettolading te bekijken. Het voorbeeld bevat alle indicatoren die u hebt gemaakt. U kunt in deze stap elk deel van de nettolading bewerken. Als dit is voldaan, **verzendt** u uw nettolading.
+U bent klaar met het maken van uw nettolading. Nu is het tijd om de details te bekijken en een voorbeeld van uw nettolading te bekijken. Het voorbeeld bevat alle indicatoren die u hebt gemaakt. U kunt in deze stap elk deel van de nettolading bewerken. Als dit is voldaan, kunt u uw nettolading **verzenden** .
 
 > [!IMPORTANT]
 > Nettoladingen die u hebt gemaakt, hebben de **Tenant** als de bron. Zorg er bij het selecteren van nettolading voor dat u de **Tenant** niet hoeft te filteren.

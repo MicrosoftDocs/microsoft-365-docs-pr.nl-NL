@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie krijgen over het anti-phishings beleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
-ms.openlocfilehash: dadb41e1f0ff9e18681b13ad3d265f3f436c2052
-ms.sourcegitcommit: f40378013757d560d5566a11ad4e6f527c018cc4
+ms.openlocfilehash: f1ffebbca2d3a77d1a0c10d14205e52108614043
+ms.sourcegitcommit: 99a7354e6a6b4d9d5202674ef57852d52a43fef6
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49796192"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908351"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti malafide beleid in Microsoft 365
 
@@ -160,7 +160,7 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingfilter
 
   > [!NOTE]
   >
-  > - In elk anti-phishingfilter kunt u maximaal 60 beveiligde gebruikers opgeven (e-mailadressen van afzender). U kunt niet dezelfde beveiligde gebruiker opgeven in meerdere beleidsregels.
+  > - In elk anti-phishingfilter kunt u maximaal 60 beveiligde gebruikers opgeven (e-mailadressen van afzender). U kunt niet dezelfde beveiligde gebruiker opgeven in meerdere beleidsregels. Ongeacht het aantal beleidsregels van toepassing op een geadresseerde is het maximale aantal beveiligde gebruikers (e-mailadressen van afzender) voor elke afzonderlijke geadresseerde 60. Zie de [volgorde en prioriteit van e-mail beveiliging](how-policies-and-protections-are-combined.md)voor meer informatie over de beleids prioriteit en hoe de verwerking van beleid stopt na de toepassing van het eerste beleid.
   >
   > - Gebruikers imitatie bescherming werkt niet als de afzender en de geadresseerde eerder via e-mail zijn gecommuniceerd. Als de afzender en de ontvanger niet via e-mail zijn gecommuniceerd, wordt het bericht herkend als een imitatie poging.
 
