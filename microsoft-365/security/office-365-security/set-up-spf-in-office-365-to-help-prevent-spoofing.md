@@ -18,33 +18,34 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
-ms.openlocfilehash: a6cd2a0cf60812bb874c1be63fb2d294cda6d6aa
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.openlocfilehash: 536f727ee71db70490259179ff8e47009c547f89
+ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881715"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905221"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-- [Vereisten<a name="UpdateSPFTXT"></a>](#updating-your-spf-txt-record-for-office-365-a-nameUpdateSPFTXT)
-- [Het SPF TXT-record voor Office 365 maken / bijwerken<a name="CreateUpdateSPFTXT"></a>](#to-create-or-update-your-spf-txt-record-a-namecreateupdatespftxta)
-    - [Subdomeinen verwerken<a name="SPFandSubdomains"></a>](#how-to-handle-subdomains-a-namespfandsubdomainsa)
-- [SPF-probleemoplossing en aanbevolen procedures <a name="TshootingSPF"></a>](#next-steps-after-you-set-up-spf-for-office-365-a-nametshootingspfa)
-- [Voorbeelden van geavanceerde SPF <a name="AdvancedSPFexs"></a>](#more-information-about-spf-a-nameadvancedspfexsa)
+- [Vereisten](#prerequisites)
+- [Het SPF TXT-record maken of bijwerken](#create-or-update-your-spf-txt-record)   
+  - [Subdomeinen verwerken](#how-to-handle-subdomains)
+- [Wat doet SPF-e-mailverificatie eigenlijk?](#what-does-spf-email-authentication-actually-do)   
+   - [Problemen met SPF oplossen](#troubleshooting-spf)
+- [Meer informatie over SPF](#more-information-about-spf)
 
 In dit artikel wordt beschreven hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF-e-mailverificatie (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
 
 Het gebruik van SPF helpt bij het valideren van uitgaande e-mail die is verzonden vanuit uw aangepaste domein. Het is een eerste stap bij het instellen van andere aanbevolen methoden voor e-mailverificatie, DMARC en DKIM (twee andere methoden voor e-mailverificatie die in Office 365 worden ondersteund).
 
-## <a name="updating-your-spf-txt-record-for-office-365"></a>Het SPF TXT-record voor Office 365 bijwerken<a name="UpdateSPFTXT"></a>
+## <a name="prerequisites"></a>Vereisten
 
 > [!IMPORTANT]
 > Als u een **klein bedrijf** hebt of niet bekend bent met IP-adressen of DNS-configuratie, belt u uw internetdomeinregistrar (bijvoorbeeld GoDaddy, Bluehost, web.com) om hulp te vragen bij de DNS-configuratie van SPF (en andere methoden voor e-mailverificatie). *Ook* als u geen aangepaste URL hebt gekocht of niet gebruikt (met andere woorden: de URL die u en uw klanten zoeken om bij Office 365 te komen eindigt op **onmicrosoft.com**), is SPF voor u ingesteld in de Office 365-service. In dat geval hoeft u geen verdere stappen uit te voeren. Bedankt voor het lezen.
 
-Voordat u het TXT-record in DNS bijwerkt, moet u enkele gegevens verzamelen die nodig zijn om de record maken. Zie [Hoe SPF werkt om spoofing en phishing in Office 365 te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks) voor geavanceerde voorbeelden, en een meer gedetailleerde discussie over ondersteunde SPF-syntaxis.
+Voordat u het SPF TXT-record voor Office 365 in extern DNS bijwerkt, moet u enkele gegevens verzamelen die nodig zijn om het record maken. Zie [Hoe SPF werkt om spoofing en phishing in Office 365 te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks) voor geavanceerde voorbeelden, en een meer gedetailleerde discussie over ondersteunde SPF-syntaxis.
 
 Verzamel de volgende informatie:
 
@@ -59,7 +60,7 @@ Verzamel de volgende informatie:
 > [!IMPORTANT]
 > Om een aangepast domein te gebruiken, vereist Office 365 dat u een Sender Policy Framework (SPF) TXT-record toevoegt aan uw DNS-record om spoofing te helpen voorkomen.
 
-## <a name="create-or-update-your-spf-txt-record"></a>Het SPF TXT-record maken of bijwerken<a name="CreateUpdateSPFTXT"></a>
+## <a name="create-or-update-your-spf-txt-record"></a>Het SPF TXT-record maken of bijwerken
 
 1. Ga na of u bekend bent met de SPF-syntaxis in de volgende tabel.
 
@@ -98,7 +99,7 @@ Verzamel de volgende informatie:
 
 4. De SPF TXT-record testen.
 
-## <a name="how-to-handle-subdomains"></a>Subdomeinen verwerken <a name="SPFandSubdomains"></a>
+## <a name="how-to-handle-subdomains"></a>Subdomeinen verwerken
 
 Het is belangrijk om te weten dat *u een apart record moet maken voor elk subdomein, omdat subdomeinen niet het SPF-record van het hoogste niveau overnemen*.
 
@@ -108,7 +109,7 @@ Voor elk domein en subdomein is een extra SPF-record met jokerteken (`*.`) nodig
 *.subdomain.contoso.com. IN TXT "v=spf1 -all"
 ```
 
-## <a name="next-steps"></a>Volgende stappen<a name="TshootingSPF"></a>
+## <a name="troubleshooting-spf"></a>Problemen met SPF oplossen
 
 Hebt u problemen met de SPF TXT-record? Lees [Probleemoplossing: aanbevolen procedures voor SPF in Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot).
 
@@ -129,7 +130,7 @@ Als u al e-mail hebt ingesteld voor Office 365, hebt u de berichtenservers van M
 
 - U wilt DKIM en DMARC instellen (aanbevolen).
 
-## <a name="more-information-about-spf"></a>Meer informatie over SPF<a name="AdvancedSPFexs"></a>
+## <a name="more-information-about-spf"></a>Meer informatie over SPF
 
 Zie [Hoe SPF werkt om spoofing en phishing in Office 365 te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks) voor geavanceerde voorbeelden, een meer gedetailleerde discussie over ondersteunde SPF-syntaxis, spoofing, probleemoplossing en hoe Office 365 SPF ondersteunt.
 
