@@ -93,6 +93,22 @@
           href: information-protection-deploy-monitor-respond.md
 - name: Oplossingen en scenario's voor werkbelastingen
   items:
+    - name: Overzicht
+      href: workload-solutions-scenarios-overview.md
+    - name: Tenantbeheer
+      items:
+        - name: Overzicht
+          href: tenant-management-overview.md
+        - name: Stap 1. Uw tenants
+          href: tenant-management-tenants.md
+        - name: Stap 2. Optimale netwerken
+          href: tenant-management-networking.md
+        - name: Stap 3. Identiteit
+          href: tenant-management-identity.md
+        - name: Stap 4. Migratie
+          href: tenant-management-migration.md
+        - name: Stap 5. Apparaat- en app-beheer
+          href: tenant-management-device-management.md
     - name: Teamwerk en samenwerking.
       items:
         - name: Posters van Teams-architectuur
