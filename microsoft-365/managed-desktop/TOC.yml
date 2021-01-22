@@ -70,11 +70,13 @@
           items:
             - name: Werken met Microsoft Consulting Services
               href: get-ready/apps-MCS.md
-        - name: Het hulpprogramma voor gereedheidsevaluatie gebruiken
+        - name: Hulpprogramma's voor gereedheidsevaluatie gebruiken
           href: get-ready/readiness-assessment-tool.md
           items:
-            - name: Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
+            - name: Problemen oplossen die door het hulpprogramma voor gereedheidsevaluatie werden gevonden
               href: get-ready/readiness-assessment-fix.md
+            - name: Downloadbare gereedheidsevaluatie-controle
+              href: get-ready/readiness-assessment-downloadable.md
     - name: Aan de slag met Microsoft Managed Desktop
       href: get-started/index.md
       items:
