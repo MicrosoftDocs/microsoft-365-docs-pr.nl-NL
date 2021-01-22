@@ -16,32 +16,33 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het gebruik van de informatie van gebruiksrapporten.
-ms.openlocfilehash: 898f72f3c89981cc7ea8112cd157239d42b08d20
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het gebruik van de informatie uit gebruiksrapporten.
+ms.openlocfilehash: e69362a9190eda71cd7ab42fb404b6e715a5c48e
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702175"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927680"
 ---
 # <a name="review-usage-reports-in-microsoft-365"></a>Gebruiksrapporten bekijken in Microsoft 365
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SOFC?autoplay=false]
 
-Ontdek hoe werknemers Microsoft 365-services zoals e-mail en OneDrive gebruiken en Onderneem actie.
+Ontdek hoe werknemers Microsoft 365-services gebruiken, zoals e-mail of OneDrive, en onderneemt actie.
 
-In het [Beheercentrum](https://admin.microsoft.com)ziet u alle beschikbare rapporten.
+In het [beheercentrum](https://admin.microsoft.com)ziet u alle beschikbare rapporten.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Ga naar **rapporten** en vervolgens op **gebruik**. U kunt gegevens van een rapport vinden door er een te selecteren. In het rapport actieve gebruikers ziet u welke services het meest worden gebruikt door de personen in uw bedrijf.
-1. Laten we eerst eens kijken naar de OneDrive-lijst. Hier ziet u hoeveel personen een account hebben, kunt u ook het totale aantal en het aantal actieve bestanden bekijken, evenals de gebruikte opslagruimte. Als u alle andere rapporten wilt weergeven, gaat u naar de vervolgkeuzelijst.
-1. Hier kunnen we het gebruiksrapport voor de e-mail-app bekijken en zien welke methoden de werknemers gebruiken om toegang te krijgen tot hun e-mail. U kunt ook informatie weergeven die specifiek is voor een individu, maar de gegevens zijn standaard verborgen. Als u de gegevens van de afzonderlijke gebruikers wilt weergeven, gaat u naar **instellingen** en vervolgens naar **Services & invoegtoepassingen**.
-1. In het deelvenster rapport kunnen we de anonieme id inschakelen. Nu sluit u het deelvenster en keert u terug naar **rapporten**, **gebruik** en **e-mail activiteit**. Hier ziet u de informatie die specifiek voor een persoon wordt weergegeven.
+1. Ga naar **Rapporten** en vervolgens naar **Gebruik.** Zoek de details van een rapport door er een te selecteren. In het rapport Actieve gebruikers ziet u welke services het meest worden gebruikt door de personen in uw bedrijf.
+1. Laten we als voorbeeld het OneDrive-rapport eens bekijken. Hier kunnen we zien hoeveel personen een account hebben, u kunt ook het totale aantal en het aantal actieve bestanden bekijken, evenals de gebruikte opslagruimte. Als u alle andere rapporten wilt zien, gaat u naar de vervolgkeuzelijst.
+1. Hier kunnen we het gebruiksrapport voor e-mail-apps bekijken en zien welke methoden uw werknemers het meest gebruiken voor toegang tot hun e-mail. U kunt ook informatie bekijken die specifiek is voor een bepaalde persoon, maar de details zijn standaard verborgen. Als u de details van de afzonderlijke gebruikers wilt bekijken, gaat u **naar** Instellingen en vervolgens naar **Services &-invoegingen.**
+1. In het rapportvenster kunnen we de anonieme id in- of in turnen. Laten we nu het deelvenster sluiten en teruggaan naar **Rapporten,** **Gebruik** en **E-mailactiviteit.** Hier kunnen we informatie zien die specifiek is voor een persoon.
 
-    Houd er rekening mee dat u altijd weer verder gaat, maar u kunt altijd teruggaan naar de Help die u informatie geeft over het specifieke rapport dat u bekijkt.
+    Vergeet niet dat als u ooit vastloopt, u altijd weer naar De Help kunt gaan, met informatie over het specifieke rapport dat u bekijkt.

@@ -96,16 +96,17 @@
       href: information-protection.md
     - name: Typen gevoelige informatie
       items:
+        - name: Meer informatie over typen gevoelige informatie
+          href: sensitive-information-type-learn-about.md
         - name: Definities van entiteiten van het type Gevoelige informatie
           href: sensitive-information-type-entity-definitions.md
         - name: Doel van de DLP-functies
           href: what-the-dlp-functions-look-for.md
         - name: Een ingebouwd type gevoelige informatie aanpassen
           href: customize-a-built-in-sensitive-information-type.md
-        - name: Aangepaste typen gevoelige informatie
-          href: custom-sensitive-info-types.md
         - name: Aangepaste typen gevoelige informatie maken met exacte gegevensovereenkomsten
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Aan de slag met aangepaste typen gevoelige informatie
         - name: De wizard voor het exacte schema voor gegevensovereenkomst en het type gevoelige informatie gebruiken
           href: sit-edm-wizard.md
         - name: Wijzig het exacte schema voor gegevensovereenkomst om een configureerbare overeenkomst te gebruiken

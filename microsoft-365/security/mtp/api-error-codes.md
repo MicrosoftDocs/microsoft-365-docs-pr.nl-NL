@@ -1,9 +1,9 @@
 ---
-title: Veelgebruikte foutcodes voor Microsoft 365 Defender REST API
-description: Meer informatie over de veelvoorkomende foutcodes voor Microsoft 365 Defender REST API
-keywords: API, fout, code, veelvoorkomende fouten, MTP, API-foutcodes
+title: Veelvoorkomende foutcodes voor Microsoft 365 Defender REST API
+description: Meer informatie over de veelgebruikte foutcodes voor Microsoft 365 Defender REST API
+keywords: api, fout, codes, veelvoorkomende fouten, mtp, api-foutcodes
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0df741efb7555d587a6033acc23716e93f542d5e
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 15eabc8ff28e7cc0313e2a1cb701403de0eab120
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719212"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928388"
 ---
-# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Veelgebruikte foutcodes voor Microsoft 365 Defender REST API
+# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Veelvoorkomende foutcodes voor Microsoft 365 Defender REST API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,33 +36,33 @@ ms.locfileid: "49719212"
 - Microsoft Threat Protection
 
 > [!IMPORTANT]
-> Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
+> Sommige informatie heeft betrekking op vooraf uitgebracht product dat aanzienlijk kan worden gewijzigd voordat het in de handel wordt gebracht. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt be gegeven.
 
-Foutcodes kunnen als resultaat worden gegeven door een bewerking op een van de Microsoft 365 Defender-Api's. Telkens wanneer een foutbericht wordt weergegeven, wordt een foutbericht weergegeven dat u kunt helpen dit probleem op te lossen. De kolom foutbericht in de tabel sectie bevat enkele voorbeeldberichten. De inhoud van werkelijke berichten kan variëren, afhankelijk van de factoren die het antwoord hebben veroorzaakt. Variabele-inhoud wordt in de tabel aangegeven met punthaken.
+Foutcodes kunnen worden geretourneerd door een bewerking op een van de Microsoft 365 Defender-API's. Elk foutbericht bevat een foutbericht waarmee het probleem kan worden opgelost. De kolom foutbericht in de tabelsectie bevat enkele voorbeeldberichten. De inhoud van feitelijke berichten is afhankelijk van de factoren die de reactie hebben veroorzaakt. Variabele inhoud wordt in de tabel aangegeven met haakjes.
 
 ## <a name="error-codes"></a>Foutcodes
 
 Foutcode | HTTP-statuscode | Bericht
 -|-|-
-BadRequest | BadRequest (400) | Foutbericht over algemene onjuiste aanvraag.
-ODataError | BadRequest (400) | Ongeldige OData URI-query \<the specific error is specified\> .
-InvalidInput | BadRequest (400) | Ongeldige invoer \<the invalid input\> .
-InvalidRequestBody | BadRequest (400) | Ongeldige hoofdtekst van aanvraag.
-InvalidHashValue | BadRequest (400) | Ongeldige hash-waarde \<the invalid hash\> .
+BadRequest | BadRequest (400) | Foutbericht over algemene bad request.
+ODataError | BadRequest (400) | Ongeldige OData \<the specific error is specified\> URI-query.
+InvalidInput | BadRequest (400) | Ongeldige \<the invalid input\> invoer.
+InvalidRequest Heely | BadRequest (400) | Ongeldige aanvraag body.
+InvalidHashValue | BadRequest (400) | De hashwaarde \<the invalid hash\> is ongeldig.
 InvalidDomainName | BadRequest (400) | Domeinnaam \<the invalid domain\> is ongeldig.
-InvalidIpAddress | BadRequest (400) | Het IP-adres \<the invalid IP\> is ongeldig.
-InvalidUrl | BadRequest (400) | URL \<the invalid URL\> ongeldig is.
-MaximumBatchSizeExceeded | BadRequest (400) | Maximale grootte van de batch overschreden. Ontvangen: \<batch size received\> , toegestaan: {batchgrootte toegestaan}.
-MissingRequiredParameter | BadRequest (400) | Parameter \<the missing parameter\> ontbreekt.
-OsPlatformNotSupported | BadRequest (400) | Het besturingssysteem platform \<the client OS Platform\> wordt niet ondersteund voor deze actie.
-ClientVersionNotSupported | BadRequest (400) | \<The requested action\> wordt ondersteund op clientversie \<supported client version\> en hoger.
-Onbevoegde | Onbevoegd (401) | Onbevoegde <br /><br />*Opmerking: doorgaans veroorzaakt een ongeldige of verlopen autorisatie header.*
-Slag | Niet toegestaan (403) | Slag <br /><br />*Opmerking: geldig token maar onvoldoende machtigingen voor de actie*.
-DisabledFeature | Niet toegestaan (403) | De Tenant functie is niet ingeschakeld.
-DisallowedOperation | Niet toegestaan (403) | \<the disallowed operation and the reason\>.
-NotFound | Niet gevonden (404) | Foutbericht algemeen niet gevonden.
-ResourceNotFound | Niet gevonden (404) | De resource \<the requested resource\> is niet gevonden.
-InternalServerError | Interne server fout (500) | *Opmerking: geen foutbericht, probeer de bewerking of neem contact op met Microsoft als deze niet wordt weergegeven.*
+InvalidIpAddress | BadRequest (400) | HET \<the invalid IP\> IP-adres is ongeldig.
+InvalidUrl | BadRequest (400) | URL \<the invalid URL\> is ongeldig.
+MaximumBatchSizeExceeded | BadRequest (400) | De maximale batchgrootte is overschreden. Ontvangen: \<batch size received\> , toegestaan: {batch size allowed}.
+MissingRequiredParameter | BadRequest (400) | De parameter \<the missing parameter\> ontbreekt.
+OsPlatformNotSupported | BadRequest (400) | Het \<the client OS Platform\> besturingssysteemplatform wordt niet ondersteund voor deze actie.
+ClientVersionNotSupported | BadRequest (400) | \<The requested action\> wordt ondersteund in de clientversie \<supported client version\> en hoger.
+Niet geautoriseerd | Niet geautoriseerd (401) | Niet geautoriseerd <br /><br />*Opmerking: Meestal veroorzaakt door een ongeldige of verlopen autorisatiekop.*
+Verboden | Verboden (403) | Verboden <br /><br />*Opmerking: Geldig token, maar onvoldoende machtigingen voor de actie.*
+DisabledFeature | Verboden (403) | Tenantfunctie is niet ingeschakeld.
+DisallowedOperation | Verboden (403) | \<the disallowed operation and the reason\>.
+NotFound | Niet gevonden (404) | Foutbericht Algemeen niet gevonden.
+ResourceNotFound | Niet gevonden (404) | Resource \<the requested resource\> is niet gevonden.
+InternalServerError | Interne serverfout (500) | *Opmerking: Geen foutbericht, de bewerking opnieuw uitvoeren of contact opnemen met Microsoft als dit niet wordt opgelost*
 
 ## <a name="examples"></a>Voorbeelden
 
@@ -85,20 +86,20 @@ InternalServerError | Interne server fout (500) | *Opmerking: geen foutbericht, 
 }
 ```
 
-## <a name="body-parameters"></a>Hoofd parameters
+## <a name="body-parameters"></a>Parameters voor de body
 
 > [!IMPORTANT]
-> Hoofd parameters zijn hoofdlettergevoelig.
+> Bodyparameters zijn case-sensitive.
 
-Als u een *InvalidRequestBody* -of *MissingRequiredParameter* -fout ondervindt, wordt dit mogelijk veroorzaakt door een type fout. Bekijk de API-documentatie en controleer of de verzonden parameters overeenkomen met het relevante voorbeeld.
+Als er een invalidRequest Wordt weergegeven in de fout *InvalidRequestAntwoordy* of *MissingRequiredParameter,* wordt deze mogelijk veroorzaakt door een typfout. Raadpleeg de DOCUMENTATIE van de API en controleer of de ingediende parameters overeenkomen met het desbetreffende voorbeeld.
 
-## <a name="tracking-id"></a>Tracking-ID
+## <a name="tracking-id"></a>Tracerings-id
 
-Elke foutmelding bevat een unieke ID-parameter voor bijhouden. De naam van de eigenschap van deze parameter is *doel*. Als u bij ons contact met ons opneemt, kunt u met deze ID de hoofdoorzaak van het probleem achterhalen.
+Elke foutreactie bevat een unieke id-parameter om bij te houden. De eigenschapsnaam van deze parameter is *doel.* Wanneer u contact met ons op neemt over een fout, helpt het koppelen van deze id ons om de oorzaak van het probleem te vinden.
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Overzicht van Microsoft 365 Defender-Api's](api-overview.md)
+- [Overzicht van Microsoft 365 Defender API's](api-overview.md)
 - [Ondersteunde Microsoft 365 Defender-API's](api-supported.md)
-- [Toegang tot de Microsoft 365 Defender-Api's](api-access.md)
+- [Toegang tot de Microsoft 365 Defender-API's](api-access.md)
 - [Meer informatie over API-limieten en licenties](api-terms.md)

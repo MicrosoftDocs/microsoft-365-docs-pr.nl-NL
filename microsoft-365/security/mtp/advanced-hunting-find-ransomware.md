@@ -1,10 +1,10 @@
 ---
-title: Ransomware zoeken met een geavanceerde jacht
-description: Gebruik geavanceerde jacht om apparaten te vinden die mogelijk kwetsbaar zijn voor Ransomware.
-keywords: geavanceerde jacht, Ransomware, bedreigings jacht, Cyber Threat jacht, zoeken, query, telemetrie, Microsoft 365, Microsoft Threat Protection, Microsoft 365 Defender
+title: Ransomware zoeken met geavanceerd zoeken
+description: Gebruik geavanceerd zoeken om apparaten te vinden die mogelijk door ransomware worden beïnvloed.
+keywords: advanced hunting, ransomware, threat hunting, cyber threat hunting, search, query, telemetry, Microsoft 365, Microsoft Threat Protection, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,44 +19,45 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: aaee2af4b3df849b57b8e1c18ab330603042fe96
-ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
+ms.technology: m365d
+ms.openlocfilehash: f44a649035ef7f5993015142fb65fa29aaf5099f
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "49422897"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929509"
 ---
-# <a name="hunt-for-ransomware"></a>Zoeken voor Ransomware
+# <a name="hunt-for-ransomware"></a>Ransomware opsporen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Ransomware heeft snel te ontwikkelen tegen eenvoudige producties van malware die van invloed zijn op afzonderlijke computergebruikers, wat van invloed is op de bedreiging van branches en regerings instituten. Hoewel [Microsoft 365 Defender](microsoft-threat-protection.md) veel mogelijkheden biedt voor het detecteren en blokkeren van Ransomware-en bijbehorende indringing-activiteiten, kunt u het netwerk beveiligen met behulp van proactieve controles.
+Ransomware is snel veranderd in eenvoudige malware op basis van malware die individuele computergebruikers beïnvloedt tot een ondernemings bedreiging die bedrijfstakken en overheidsinstellingen ernstig beïnvloedt. [Hoewel Microsoft 365 Defender](microsoft-threat-protection.md) veel mogelijkheden biedt om ransomware en bijbehorende inbreuken op te sporen en te blokkeren, kan het uitvoeren van proactieve controles op risico's uw netwerk helpen beschermen.
 
-> [Meer informatie over menselijk gegeëxploiteerde Ransomware](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
+> [Meer informatie over door mensen beheerde ransomware](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
 
-Met de [geavanceerde jacht](advanced-hunting-overview.md) in microsoft 365 Defender kunt u query's maken waarmee afzonderlijke artefacten worden gezocht die zijn gekoppeld aan activiteiten van Ransomware. U kunt ook geavanceerde zoekopdrachten uitvoeren waarmee u kunt zoeken naar tekenen van activiteiten en deze ondertekenen om apparaten te vinden die onmiddellijk aandacht vragen.
+Met [geavanceerd zoeken](advanced-hunting-overview.md) in Microsoft 365 Defender kunt u query's maken om afzonderlijke artefacten te vinden die zijn gekoppeld aan ransomware-activiteit. U kunt ook geavanceerdere query's uitvoeren die kunnen zoeken naar activiteitstekens en deze borden kunnen vinden om apparaten te vinden die direct aandacht nodig hebben.
 
-## <a name="signs-of-ransomware-activity"></a>Tekenen van Ransomware activity
-Microsoft-beveiligingsonderzoekers hebben verschillende veelvoorkomende, nog subtiele artefacten geconstateerd in veel gangbare indringers. Voor het voorbereiden van versleuteling, het detecteren van detectie en het wissen van Forensic bewijzen dient u vooral gebruik te maken van systeemhulpprogramma's.
+## <a name="signs-of-ransomware-activity"></a>Tekenen van ransomware-activiteit
+Beveiligingsonderzoek van Microsoft heeft verschillende veelvoorkomende maar subtiele artefacten waargenomen in veel ransomware-campagnes die zijn gestart door geavanceerde virussen. Deze borden bestaan voornamelijk uit het gebruik van systeemhulpmiddelen om zich voor te bereiden op versleuteling, om detectie te voorkomen en duidelijke bewijsstukken.
 
-| Ransomware-activiteit | Veelgebruikte hulpprogramma's | Stelling |
+| Ransomware-activiteit | Algemene hulpmiddelen | Bedoeling |
 |--|--|--|
-| Processen stoppen | _taskkill.exe_, _net stop_ | Zorg ervoor dat bestanden die zijn gericht op versleuteling, niet door verschillende toepassingen zijn vergrendeld. |
-| Services uitschakelen | _sc.exe_ | -Zorg ervoor dat bestanden die zijn gericht op versleuteling, niet door verschillende toepassingen zijn vergrendeld.<br>-Zorgen voor een onderbreking van de versleuteling en andere activiteiten van Ransomware.<br>-Stop de back-up-software om herstelbare kopieën te maken.  |
-| Logboeken en bestanden verwijderen | _cipher.exe_, _wevtutil_, _fsutil.exe_ | Forensic bewijzen te verwijderen. |
-| Schaduwkopieën verwijderen  | _vsadmin.exe_ _wmic.exe_ | Schaduwkopieën van schijven verwijderen die kunnen worden gebruikt om versleutelde bestanden te herstellen. |
-| Back-ups verwijderen en stoppen | _wbadmin.exe_ | Bestaande back-ups verwijderen en geplande back-ups stoppen, zodat herstel na de versleuteling wordt voorkomen. |
-| Opstartinstellingen wijzigen | _bcdedit.exe_ | Schakel waarschuwingen en automatisch herstellen uit na opstartfouten die kunnen worden veroorzaakt door het versleutelingsproces. |
-| Herstelprogramma's uitschakelen | _schtasks.exe_, _regedit.exe_, | Schakel Systeemherstel en andere opties voor Systeemherstel uit. |
+| Processen stoppen | _taskkill.exe_, _net stop_ | Zorg ervoor dat bestanden die zijn gericht op versleuteling, niet door verschillende toepassingen worden vergrendeld. |
+| Services uitschakelen | _sc.exe_ | - Zorg ervoor dat bestanden die zijn bedoeld voor versleuteling, niet door verschillende toepassingen worden vergrendeld.<br>- Voorkomen dat beveiligingssoftware versleuteling en andere ransomware-activiteiten onderberegelt.<br>- Voorkomen dat herstelbare kopieën worden gemaakt van back-upsoftware.  |
+| Logboeken en bestanden verwijderen | _cipher.exe,_ _wevtutil,_ _fsutil.exe_ | Verwijder duidelijk bewijs. |
+| Kopieën van schaduw verwijderen  | _vsadmin.exe,_ _wmic.exe_ | Verwijder kopieën van schijfschaduw die kunnen worden gebruikt om versleutelde bestanden te herstellen. |
+| Back-ups verwijderen en stoppen | _wbadmin.exe_ | Verwijder bestaande back-ups en stop geplande back-uptaken, waardoor herstel na versleuteling wordt voorkomen. |
+| Opstartinstellingen wijzigen | _bcdedit.exe_ | Schakel waarschuwingen en automatische reparaties uit na storingen van het opstarten die kunnen worden veroorzaakt door het versleutelingsproces. |
+| Herstelprogramma's uitschakelen | _schtasks.exe,_ _regedit.exe_, | Schakel Systeemherstel en andere systeemherstelopties uit. |
 
-## <a name="check-for-individual-signs-of-ransomware-activity"></a>Controleren op afzonderlijke signalen van Ransomware-activiteit
-Veel activiteiten die de werking van Ransomware vormen, waaronder de activiteiten die in het voorgaande gedeelte worden beschreven, kunnen worden afgestemd. Wanneer u met behulp van de volgende query's de zoekactie opspoort, kunt u meer dan één query uitvoeren om te controleren of dezelfde apparaten verschillende tekenen van mogelijke Ransomware-activiteit vertonen.
+## <a name="check-for-individual-signs-of-ransomware-activity"></a>Controleren op individuele tekenen van ransomware-activiteit
+Veel activiteiten die ransomware-gedrag vormen, met inbegrip van de activiteiten die in de vorige sectie zijn beschreven, kunnen worden omschreven. Wanneer u de volgende query's gebruikt om ransomware te zoeken, kunt u meer dan één query uitvoeren om te controleren of dezelfde apparaten verschillende tekens van mogelijke ransomware-activiteit vertonen.
 
-### <a name="stopping-multiple-processes-using-_taskkillexe_"></a>Meerdere processen stoppen met behulp van _taskkill.exe_
-Met deze query wordt gecontroleerd of er minstens tien afzonderlijke processen met behulp van het hulpprogramma _taskkill.exe_ . [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI2RS2vCUBCFz7rgfwiuIkit3eumVSgtpYvuS9SLDTY2eLUvxN_eb8YHKlFkyNzJzDkn505aailRX7mmGlFlmhNBhUrOSGeuT3L0s6QqNaMagolEcMyCbApjx2e8TYhcH8Q1mB-emq50z_lF39gvBzo9-gEF-6Yhlyh9653ejCfRK6zCsaZfuJOu-x2jkqqN-0Yls-8-gp6dZ52OVuT6Sad1plulyN0KIkMt15_zt7zHDe8OBwv3btoJToa7Tnp0T8Ou9WzfT761gPOm3_FQ16Zxp2qcCdg33_rlyokG-iXv7_4BRNMnhkortmvTW6rqnZ7bgP2Vtm70D3d9wcFaAgAA&runQuery=true&timeRangeId=week)
+### <a name="stopping-multiple-processes-using-_taskkillexe_"></a>Meerdere processen stoppen _met_ taskkill.exe
+Deze query controleert op pogingen om ten minste tien afzonderlijke processen te stoppen met _taskkill.exe_ hulpprogramma. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI2RS2vCUBCFz7rgfwiuIkit3eumVSgtpYvuS9SLDTY2eLUvxN_eb8YHKlFkyNzJzDkn505aailRX7mmGlFlmhNBhUrOSGeuT3L0s6QqNaMagolEcMyCbApjx2e8TYhcH8Q1mB-emq50z_lF39gvBzo9-gEF-6Yhlyh9653ejCfRK6zCsaZfuJOu-x2jkqqN-0Yls-8-gp6dZ52OVuT6Sad1plulyN0KIkMt15_zt7zHDe8OBwv3btoJToa7Tnp0T8Ou9WzfT761gPOm3_FQ16Zxp2qcCdg33_rlyokG-iXv7_4BRNMnhkortmvTW6rqnZ7bgP2Vtm70D3d9wcFaAgAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 // Find attempts to stop processes using taskkill.exe
@@ -67,8 +68,8 @@ DeviceProcessEvents
 | where taskKillCount > 10
 ```
   
-### <a name="stopping-processes-using-_net-stop_"></a>Processen stoppen met _net stop_
-Met deze query wordt gecontroleerd of er minstens tien afzonderlijke processen worden beëindigd met de opdracht _net stop_ . [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI2RQUvDUBCE5yz0P4ScUijWereXVkGQIti7aA1pqakhL7VVxN_ebzc1NBChPLJv2Z2ZN5sdaqhId1ppozeyF1WcVLkK7kCl0gcx-F2QFSrJFmACJ3XMlmgKGfmGWnXC6OlCU2qfIIz12OLfUk_h2FuG_IG505JayRdpDit3bIW33B2M3WeGSqIRrvudTJvpnWzmPKvc6JcYHx1eEvd8savV07e9TchzTt198AlNZ0kluNLfjHHjIPAvak4J_tvx9XtPR6ypbn1icxShvGgqyVkO-hrAm7VUrRcaTWOs6T_7hs7XjfSqL-Lpvu5BDLxjqKRjI9a9Juvew__T2x5HutIB3T1qt4QCAAA&runQuery=true&timeRangeId=week)
+### <a name="stopping-processes-using-_net-stop_"></a>Processen stoppen met _behulp van netstop_
+Deze query controleert op pogingen om ten minste tien afzonderlijke processen te stoppen met de _netstopopdracht._ [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI2RQUvDUBCE5yz0P4ScUijWereXVkGQIti7aA1pqakhL7VVxN_ebzc1NBChPLJv2Z2ZN5sdaqhId1ppozeyF1WcVLkK7kCl0gcx-F2QFSrJFmACJ3XMlmgKGfmGWnXC6OlCU2qfIIz12OLfUk_h2FuG_IG505JayRdpDit3bIW33B2M3WeGSqIRrvudTJvpnWzmPKvc6JcYHx1eEvd8savV07e9TchzTt198AlNZ0kluNLfjHHjIPAvak4J_tvx9XtPR6ypbn1icxShvGgqyVkO-hrAm7VUrRcaTWOs6T_7hs7XjfSqL-Lpvu5BDLxjqKRjI9a9Juvew__T2x5HutIB3T1qt4QCAAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 // Find attempts to stop processes using net stop
@@ -78,8 +79,8 @@ DeviceProcessEvents
 | summarize netStopCount = dcount(ProcessCommandLine), NetStopList = make_set(ProcessCommandLine) by DeviceId, bin(Timestamp, 2m)
 | where netStopCount > 10
 ```
-### <a name="deletion-of-data-on-multiple-drives-using-_cipherexe_"></a>Verwijderen van gegevens op meerdere stations met behulp van _cipher.exe_
-Met deze query wordt gecontroleerd of er probeert om gegevens op meerdere stations te verwijderen met behulp van _cipher.exe_. Deze activiteit wordt meestal uitgevoerd door Ransomware om te voorkomen dat gegevens na versleuteling worden hersteld. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI1SXUvDQBCcZ8H_cOQpgWLoD7AvVUEo4oPvElO1pblUcmn9QPztzk6TEuEsIdzdZndndm73cuRwWGDLb0PrhWfDs8Qab1jhmX8X3D-4HJbcK66W0Rqv8hT8K4RsiPW0PHbMasVQdbiGf3vaAec4wxWtPT0lz3vhSsUCrpVVE33I_Cb6vdNhTA9EeeVaVc8KDjOugmq2SDFlrSyKvCHS1NwJZ55L_HBPondNGDGWXP2JdyMnv927UnXHWwf6l4MunupXTOPfXszVT8_smriFOCxrRU-QclOQDLgCNRwQ1u8vZc8H2o1xp-7a7U1NefSko6pnmKjakNVi4chpiA39j-rGeF6HJ3xyH76NW2ZMFLGsNDJ9i05pZSPmVdDfq-jncfqtOuU5zSuQz6Zq92w7Hfbm-9cUm-d_vZ9J9S81O2KIfAMAAA&runQuery=true&timeRangeId=week)
+### <a name="deletion-of-data-on-multiple-drives-using-_cipherexe_"></a>Verwijdering van gegevens op meerdere stations _met_ cipher.exe
+Deze query controleert op pogingen om gegevens te verwijderen op meerdere stations met _cipher.exe._ Deze activiteit wordt meestal uitgevoerd door ransomware om herstel van gegevens na versleuteling te voorkomen. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI1SXUvDQBCcZ8H_cOQpgWLoD7AvVUEo4oPvElO1pblUcmn9QPztzk6TEuEsIdzdZndndm73cuRwWGDLb0PrhWfDs8Qab1jhmX8X3D-4HJbcK66W0Rqv8hT8K4RsiPW0PHbMasVQdbiGf3vaAec4wxWtPT0lz3vhSsUCrpVVE33I_Cb6vdNhTA9EeeVaVc8KDjOugmq2SDFlrSyKvCHS1NwJZ55L_HBPondNGDGWXP2JdyMnv927UnXHWwf6l4MunupXTOPfXszVT8_smriFOCxrRU-QclOQDLgCNRwQ1u8vZc8H2o1xp-7a7U1NefSko6pnmKjakNVi4chpiA39j-rGeF6HJ3xyH76NW2ZMFLGsNDJ9i05pZSPmVdDfq-jncfqtOuU5zSuQz6Zq92w7Hfbm-9cUm-d_vZ9J9S81O2KIfAMAAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 // Look for cipher.exe deleting data from multiple drives
@@ -94,8 +95,8 @@ CipherList = make_set(ProcessCommandLine) by DeviceId, bin(Timestamp, 1m)
 | where CipherCount > 1
 ```
 
-### <a name="clearing-of-forensic-evidence-from-event-logs-using-_wevtutil_"></a>Wissen van forensice bewijzen uit gebeurtenislogboeken met _wevtutil_
-Met deze query wordt gecontroleerd of er minstens 10 logboekvermeldingen van de gebeurtenislogboeken van het gebeurtenislogboek met _wevtutil_ worden gewist. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAJWRTU_CQBCG37OJ_2HDqSQkwMGjXgoHEg4cUI-m2hUaqGu6BaPxx_vsEFCTxmA225nOvB_tzFBDOc0VOBuyZ2JD3CnKEwMVpzfyPbVWlba8t9Sdnsi9CsPXdLfWf7Wq4xm0QuVSF5oYv4LhtQAfLIucKXWvF5gH5Ke5rak1prKEVRu2xalG3emGW6AdlGmsUv1O5m-fnLzmFHiV_G9FTKg1lUjs6Z5vucPvljsD0TOXhP6_Vm7841dFZnPAN2A_DDu36eSnCSbNnc3B6Zpb4nasZGf59zWA963orZdcEiKelBNvQ_fBNny-utOj3nn-3OUMxMA6CZV1bCt1r8i6d_TXFNKWxxrpC48hm8miAgAA&runQuery=true&timeRangeId=week)
+### <a name="clearing-of-forensic-evidence-from-event-logs-using-_wevtutil_"></a>Het wissen van technische bewijsstukken uit gebeurtenislogboeken met _behulp van wevtutil_
+Deze query controleert op pogingen om ten minste 10 logboekgegevens uit gebeurtenislogboeken te verwijderen met _behulp van wevtutil._ [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAJWRTU_CQBCG37OJ_2HDqSQkwMGjXgoHEg4cUI-m2hUaqGu6BaPxx_vsEFCTxmA225nOvB_tzFBDOc0VOBuyZ2JD3CnKEwMVpzfyPbVWlba8t9Sdnsi9CsPXdLfWf7Wq4xm0QuVSF5oYv4LhtQAfLIucKXWvF5gH5Ke5rak1prKEVRu2xalG3emGW6AdlGmsUv1O5m-fnLzmFHiV_G9FTKg1lUjs6Z5vucPvljsD0TOXhP6_Vm7841dFZnPAN2A_DDu36eSnCSbNnc3B6Zpb4nasZGf59zWA963orZdcEiKelBNvQ_fBNny-utOj3nn-3OUMxMA6CZV1bCt1r8i6d_TXFNKWxxrpC48hm8miAgAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 // Look for use of wevtutil to clear multiple logs
@@ -106,8 +107,8 @@ DeviceProcessEvents
 | where LogClearCount > 10
 ```
 
-### <a name="turning-off-services-using-_scexe_"></a>Services uitschakelen met behulp van _sc.exe_
-Met deze query wordt gecontroleerd of er ten minste 10 bestaande services met behulp van _sc.exe_ worden uitgeschakeld. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAKWST2vCQBDF31nodwg5RZCqhx7bi3ooeCjovaQxraIxxfU_fvj-ZoiiEIqlhM3Ozrz3ZnZm22or0lAl3xzrk33FHpTpUbn2rEgTzfCk-tACa6kvR-Qgt5wzrKAHNdTHOnveiJZVLGiAP4e5rpAnFHaauoZlGMMqHLsmT6FvfC-slFylEnWpoVnLvM3Twy74UnJNuJdVa6gpnsAe-81iVzbE3_kZiCV9mlHZf3Sue5pzii-3C9pU3BWYo_NGKPdvGJZh4x2N9Owzyi6e5K5qmmrVKg_9dNY11hzvu0_8fu0ItQP_6zfxCqLlEUMlNVO36BNW_ax_74K9l646-gFts39I1AIAAA&runQuery=true&timeRangeId=week)
+### <a name="turning-off-services-using-_scexe_"></a>Services uitschakelen _via_ sc.exe
+Deze query controleert op pogingen om minimaal 10 bestaande services uit te _schakelen_ metsc.exe. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAKWST2vCQBDF31nodwg5RZCqhx7bi3ooeCjovaQxraIxxfU_fvj-ZoiiEIqlhM3Ozrz3ZnZm22or0lAl3xzrk33FHpTpUbn2rEgTzfCk-tACa6kvR-Qgt5wzrKAHNdTHOnveiJZVLGiAP4e5rpAnFHaauoZlGMMqHLsmT6FvfC-slFylEnWpoVnLvM3Twy74UnJNuJdVa6gpnsAe-81iVzbE3_kZiCV9mlHZf3Sue5pzii-3C9pU3BWYo_NGKPdvGJZh4x2N9Owzyi6e5K5qmmrVKg_9dNY11hzvu0_8fu0ItQP_6zfxCqLlEUMlNVO36BNW_ax_74K9l646-gFts39I1AIAAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 // Look for sc.exe disabling services
@@ -119,7 +120,7 @@ DeviceProcessEvents
 ```
 
 ### <a name="turning-off-system-restore"></a>Systeemherstel uitschakelen
-Met deze query wordt geprobeerd om Systeemherstel te stoppen en te voorkomen dat het systeemherstelpunten maakt, wat kan worden gebruikt om gegevens te herstellen die zijn versleuteld met Ransomware. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAK2S3UrDQBCFz7XgO6y9id4o6HWvrIVCkaJPENOYFNumZGO1ID673w4xJA1isbJMZnZ-zpzM7EiptlooQc9UqjDLc-7wp1qrwj7Via44MzK35FTotTI5PXMr0aVe8cy15NzoGo-zqg_0m3KQSsRpQtbC6uMGpdt3jHeJfU_GymqG-uQb9XpcEn1HIuvmGpZT0Aq99Dim4G3ousNO8K04sSE6EEN22kL6jvzO-LaDNW2QzqxLmGBsPo9vUMt_oA8Na3DQv3vwcmPiifpmds48jkhut8T2FLikxm_T4bI_m_6uQt-wrXO28lPPSBcdziOqPFlP9RYy47tDKtuZM07hVtSvaJ_HYRPL63-NyMgtmtWv5684jy2WDx2O0ZEM562ZBLQvURxur6gDAAA&runQuery=true&timeRangeId=week)
+Deze query identificeert pogingen systeemherstel te stoppen en te voorkomen dat het systeem herstelpunten maakt, die kunnen worden gebruikt om gegevens te herstellen die door ransomware zijn versleuteld. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAK2S3UrDQBCFz7XgO6y9id4o6HWvrIVCkaJPENOYFNumZGO1ID673w4xJA1isbJMZnZ-zpzM7EiptlooQc9UqjDLc-7wp1qrwj7Via44MzK35FTotTI5PXMr0aVe8cy15NzoGo-zqg_0m3KQSsRpQtbC6uMGpdt3jHeJfU_GymqG-uQb9XpcEn1HIuvmGpZT0Aq99Dim4G3ousNO8K04sSE6EEN22kL6jvzO-LaDNW2QzqxLmGBsPo9vUMt_oA8Na3DQv3vwcmPiifpmds48jkhut8T2FLikxm_T4bI_m_6uQt-wrXO28lPPSBcdziOqPFlP9RYy47tDKtuZM07hVtSvaJ_HYRPL63-NyMgtmtWv5684jy2WDx2O0ZEM562ZBLQvURxur6gDAAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 DeviceProcessEvents
@@ -135,7 +136,7 @@ and ProcessCommandLine has 'disable'
 ```
 
 ### <a name="backup-deletion"></a>Back-up verwijderen
-Met deze query wordt het gebruik van _wmic.exe_ aangegeven voor het verwijderen van momentopnamen van schaduwkopieën vóór versleuteling. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAJWS2wqCQBCG_-ugd5CupTfoqgMIEV70AqFLGp5QyYLo2fsavEjxwlhWZ7-df2Z2dndyuitVxD9UrdKshrGHOxVqsZda6CVPnRJYzfR0QJVhnXRRbmSjN98VXrlFXEMfzNWkfphti50zLmSMdURfmFcCaSxqY3aMX4eqVKUn1OsV_8eLWX_rbwcVVhblBovY8bT76U-AxoedWeeWp7WzV0YDMqSQFNZavuuopnHH_Iku-lbJnLPMyxnYDTp4bZ5P9M5uNpsZIWSn7l_CuNoPSggb4z4CAAA&runQuery=true&timeRangeId=week)
+Deze query identificeert _het_ gebruikwmic.exemomentopnamen van schaduwkopieken te verwijderen vóór versleuteling. [Query uitvoeren](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAJWS2wqCQBCG_-ugd5CupTfoqgMIEV70AqFLGp5QyYLo2fsavEjxwlhWZ7-df2Z2dndyuitVxD9UrdKshrGHOxVqsZda6CVPnRJYzfR0QJVhnXRRbmSjN98VXrlFXEMfzNWkfphti50zLmSMdURfmFcCaSxqY3aMX4eqVKUn1OsV_8eLWX_rbwcVVhblBovY8bT76U-AxoedWeeWp7WzV0YDMqSQFNZavuuopnHH_Iku-lbJnLPMyxnYDTp4bZ5P9M5uNpsZIWSn7l_CuNoPSggb4z4CAAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 DeviceProcessEvents
@@ -145,13 +146,13 @@ DeviceProcessEvents
 ProcessCommandLine, InitiatingProcessIntegrityLevel, InitiatingProcessParentFileName
 ```
 
-## <a name="check-for-multiple-signs-of-ransomware-activity"></a>Controleren op meerdere tekenen van Ransomware activiteit
-In plaats van meerdere query's afzonderlijk uit te voeren, kunt u ook een uitgebreide query gebruiken waarmee wordt gecontroleerd of er meerdere tekenen van activiteiten op het desbetreffende apparaat zijn. De volgende samenvoegquery:
-- Hiermee wordt gezocht naar de tamelijk concrete en subtiele tekenen van Ransomware-activiteit
-- De aanwezigheid van deze verschijnselen wordt gewogen
-- Identificeer apparaten met een betere uitschieting van Ransomware 
+## <a name="check-for-multiple-signs-of-ransomware-activity"></a>Controleren op meerdere tekenen van ransomware-activiteit
+In plaats van verschillende query's afzonderlijk uit te voeren, kunt u ook een uitgebreide query gebruiken die controleert op meerdere tekens van ransomware-activiteit om betrokken apparaten te identificeren. De volgende samengevoegde query:
+- Zoekt naar zowel relatief concrete als subtiele tekens van ransomware-activiteit
+- Dit is de aanwezigheid van deze borden
+- Identificeert apparaten met een hogere kans op het gebruik van ransomware 
 
-Wanneer de query wordt uitgevoerd, wordt een lijst met vertraagde vertraagde zoekresultaten geretourneerd met meerdere aanvals verschijnselen. U kunt ook het aantal activiteiten van elk type Ransomware weergeven. Als u deze samengevoegde query wilt uitvoeren, kopieert u deze rechtstreeks naar de [query editor voor geavanceerde jacht](https://security.microsoft.com/advanced-hunting). 
+Wanneer deze samengevoegde query wordt uitgevoerd, wordt een lijst weergegeven met apparaten die meerdere tekens van een aanval hebben vertonen. Het aantal van elk type ransomware-activiteit wordt ook weergegeven. Als u deze samengevoegde query wilt uitvoeren, kopieert u deze rechtstreeks naar de geavanceerde [queryeditor.](https://security.microsoft.com/advanced-hunting) 
 
 ```kusto
 // Find attempts to stop processes using taskkill.exe
@@ -225,20 +226,20 @@ ScDisable = iff(make_set(ScDisableUse) contains "1", 1, 0), TotalEvidenceCount =
 | extend UniqueEvidenceCount = BcdEdit + NetStop10PlusCommands + Wevtutil10PlusLogsCleared + CipherMultipleDrives + Wbadmin + Fsutil + TaskKill10PlusCommand + VssAdminShadow + ScDisable + ShadowCopyDelete
 | where UniqueEvidenceCount > 2
 ```
-### <a name="understand-and-tweak-the-query-results"></a>De queryresultaten begrijpen en Tweak
-Met de geconsolideerde query worden de volgende resultaten geretourneerd:
+### <a name="understand-and-tweak-the-query-results"></a>De queryresultaten begrijpen en aanpassen
+De samengevoegde query retourneert de volgende resultaten:
 
-- **DeviceID**— identificeert het desbetreffende apparaat. 
-- **Tijdstempel**: de eerste keer dat een onderteken van de activiteit Ransomware op het apparaat is waargenomen
-- **Specifieke activiteiten tekenen**: het aantal voor elk teken dat wordt weergegeven in meerdere kolommen, zoals _BcdEdit_ of _FsUtil_ .
-- **TotalEvidenceCount**, aantal waargenomen tekens
-- **UniqueEvidenceCount**, het aantal typen waargenomen vier tekens
+- **DeviceId**: identificeert het betreffende apparaat 
+- **TimeStamp:** de eerste keer dat een teken van ransomware-activiteit op het apparaat is waargenomen
+- **Specifieke activiteitstekens:** het aantal van elk teken dat wordt weergegeven in meerdere kolommen, zoals _BcdEdit_ of _FsUtil_
+- **TotalEvidenceCount**: aantal waargenomen tekens
+- **UniqueEvidenceCount**: aantal typen waargenomen tekens
 
-![Afbeelding van de resultaten van de query voor activiteiten van Ransomware](../../media/advanced-hunting-ransomware-query.png)
+![Afbeelding van de queryresultaten voor ransomware-activiteit](../../media/advanced-hunting-ransomware-query.png)
 
-*Query resultaten met beïnvloede apparaten en aantallen verschillende tekenen van Ransomware-activiteit*
+*Queryresultaten met betrokken apparaten en het aantal verschillende tekenen van ransomware-activiteit*
 
-Standaard worden in het queryresultaat alleen apparaten weergegeven met meer dan twee soorten activiteiten van Ransomware. Als u alle apparaten met een willekeurig gedrag van Ransomware activiteiten wilt weergeven, wijzigt u de volgende `where` operator en stelt u het getal in op nul (0). Stel een hoger nummer in om minder apparaten te zien. 
+Standaard worden in het queryresultaat alleen apparaten weergegeven die meer dan twee typen ransomware-activiteit hebben. Als u alle apparaten met een teken van ransomware-activiteit wilt zien, wijzigt u de volgende operator en stelt u het getal in `where` op nul (0). Als u minder apparaten wilt zien, stelt u een hoger getal in. 
 
 ```kusto
 | where UniqueEvidenceCount > 2

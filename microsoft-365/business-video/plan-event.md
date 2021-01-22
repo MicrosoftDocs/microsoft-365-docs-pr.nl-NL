@@ -1,5 +1,5 @@
 ---
-title: Een gebeurtenis plannen met Microsoft planner
+title: Een gebeurtenis plannen met Microsoft Planner
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,19 +16,20 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het plannen van een gebeurtenis met Microsoft planner.
-ms.openlocfilehash: f5ee4e63579c2c5f6493e16d27b7102d3b99b6d1
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Meer informatie over het plannen van een gebeurtenis met Microsoft Planner.
+ms.openlocfilehash: d978232dffaede882e81a491b4d927183781aa0f
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702079"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928091"
 ---
-# <a name="use-microsoft-planner-to-plan-an-event"></a>Gebruik Microsoft Planner om een gebeurtenis te plannen
+# <a name="use-microsoft-planner-to-plan-an-event"></a>Microsoft Planner gebruiken om een gebeurtenis te plannen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c8a41e1a-c30d-4adb-ab32-6eac922d0ec0?autoplay=false]
 
@@ -38,31 +39,31 @@ Gebruik Microsoft Planner om een gebeurtenis te plannen, zoals het bijhouden van
 
 ### <a name="work-with-buckets"></a>Werken met buckets
 
-Gebruik buckets om taken te sorteren op type, zoals evenementen organiseren, marketing-en reclamemateriaal, en PR.
+Gebruik buckets om taken te sorteren op type, zoals gebeurtenisplanning, marketing- en reclamemateriaal, en PR.
 
-1. Selecteer  **nieuwe Bucket toevoegen**  en typ een nieuwe taakcategorie.
-2. Selecteer  **+**  om taken aan een Bucket toe te voegen en typ een naam.
-3. Selecteer  **taak toevoegen**.
+1. Selecteer  **Nieuwe bucket toevoegen**  en typ een nieuwe taakcategorie.
+2. Selecteer  **+**  deze optie om taken toe te voegen aan een bucket en typ een naam.
+3. Selecteer **Taak toevoegen.**
 
-### <a name="work-with-labels"></a>Werken met etiketten
+### <a name="work-with-labels"></a>Werken met labels
 
-Gebruik labels om te zien welke taken uw aandacht vereisen.
+Gebruik labels om te zien welke taken uw aandacht nodig hebben.
 
-1. Typ namen voor de etiketten.
-2. Selecteer een gekleurd vak om een label te verwijderen uit of toe te voegen aan een taak.
+1. Typ de namen voor uw etiketten.
+2. Selecteer een gekleurd vak om een label te verwijderen of toe te voegen aan een taak.
 
 ## <a name="add-a-comment"></a>Een opmerking toevoegen
 
-Plaats een opmerking om een taak te bespreken met degenen aan wie de taak is toegewezen.
+Plaats een opmerking om een taak te bespreken met de personen aan wie deze is toegewezen.
 
-1. Typ een bericht in het vak  **opmerkingen**  .
-2. Selecteer  **verzenden**.
+1. Typ een bericht in het  **vak**  Opmerkingen.
+2. Selecteer **Verzenden.**
 
 ### <a name="keep-track-of-tasks"></a>Taken bijhouden
 
-Gebruik de weergave  **grafieken**  en  **bord**  om de voortgang voor elk teamlid en het hele project te bewaken, of om taken te sorteren en te organiseren.
+Gebruik  **grafieken**  en  **bordweergave**  om de voortgang voor elk teamlid en het totale project te controleren of om taken te sorteren en organiseren.
 
-- Selecteer  **grafieken**, vervolgens **groeperen op**, en ten slotte **einddatum**  om te zien welke taak volgende vervalt.
-- Selecteer  **bord**, vervolgens **groeperen op** en ten slotte **voortgang**  om taken te sorteren op voortgang.
+- Selecteer  **Grafieken** en vervolgens **Groeperen op** en **ten**  slotte Einddatum om te zien welke taak als volgende moet worden klaar.
+- Selecteer  **Bord** en vervolgens **Groep op** en ten slotte Voortgang **om**  taken te sorteren op voortgang.
 
-**Opmerking:**  Taken worden ingedeeld op  **niet gestart**, wordt  **uitgevoerd** en  **voltooid**  zodat u weet wanneer u klaar bent om uw product te lanceren.
+**Opmerking:**  Taken worden ingedeeld op  **Niet gestart,**  **Wordt** uitgevoerd en  **Voltooid,**  zodat u weet wanneer u klaar bent om uw product te starten.

@@ -1,10 +1,10 @@
 ---
-title: EmailUrlInfo-tabel in het geavanceerde jacht schema
-description: Meer informatie over URL'S of koppelingsgegevens in de tabel EmailUrlInfo van het schema geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, kolom, gegevenstype, beschrijving, EmailUrlInfo, netwerkbericht-id, URL, link
+title: De tabel EmailUrlInfo in het geavanceerde schema voor zoeken
+description: Meer informatie over URL-gegevens of koppelingsgegevens in de tabel EmailUrlInfo van het geavanceerde schema voor zoeken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailUrlInfo, network message id, url, link
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6684f2d56cb30c909cae57e7b3e6593377449f6b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 56d35e2812d895215cbe76deb6791695380abc50
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842558"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929716"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -34,16 +35,16 @@ ms.locfileid: "48842558"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De `EmailUrlInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over url's van e-mailberichten en bijlagen die door Microsoft Defender voor Office 365 zijn verwerkt. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De tabel in het geavanceerde schema voor zoeken bevat informatie over URL's in e-mailberichten en bijlagen die worden `EmailUrlInfo` verwerkt door Microsoft Defender voor Office 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
-| `UrlId` | tekenreeks | Unieke id voor de URL in het onderwerp, de hoofdtekst of de bijlage van het e-mailbericht |
-| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
-| `Url` | tekenreeks | Volledige URL in het onderwerp van de e-mail, de hoofdtekst of de bijlage |
+| `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
+| `UrlId` | tekenreeks | Unieke id voor de URL in het onderwerp, de berichtwaarde of de bijlage van het e-mailbericht |
+| `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Microsoft 365 |
+| `Url` | tekenreeks | Volledige URL in het onderwerp, de berichtbijlage of de bijlage van het e-mailbericht |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

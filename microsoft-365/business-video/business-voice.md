@@ -16,49 +16,50 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over Microsoft 365 Business Voice.
-ms.openlocfilehash: 18da2ce7b3e794a67e7352a6f601e18cb351de4d
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 270ca1f59b866274eb9d51c12c9934c59d8c1836
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702404"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927512"
 ---
-# <a name="overview-of-business-voice"></a>Overzicht van zakelijke spraak
+# <a name="overview-of-business-voice"></a>Overzicht van Business Voice
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M?autoplay=false]
 
-Microsoft 365 Business Voice biedt en end-to-end Cloud telefoonsysteem voor uw bedrijf en de werknemers.
+Microsoft 365 Business Voice biedt end-to-end cloudtelefoonsysteem voor uw bedrijf en haar werknemers.
 
-## <a name="what-is-business-voice"></a>Wat is zakelijk spraak
+## <a name="what-is-business-voice"></a>Wat is Business Voice
 
-:::image type="content" source="../media/rework_m365-businessvoice-overview.png" alt-text="Overzichtsafbeelding voor zakelijke spraak van Microsoft 365.":::
+:::image type="content" source="../media/rework_m365-businessvoice-overview.png" alt-text="Overzichts afbeelding voor Microsoft 365 Business Voice.":::
 
-Met Microsoft 365 Business Voice kunt u eenvoudig met kleine en middelgrote ondernemingen Microsoft teams omzetten in een krachtig en flexibel telefoonsysteem. Dit is een vervanging van traditionele telefoon telefoons en bedrijfstelefoon systemen die moeilijk en rendabel kunnen worden beheerd. U kunt zowel betaalde als gratis nummers, oproep menu's, bellen naar de juiste afdeling, audiovergaderingen, zodat u vergaderingen met iedereen kunt hosten, en meer. U kunt zelfs mensen hun eigen telefoonnummers geven zodat ze rechtstreeks kunnen bellen.
+Met Microsoft 365 Business Voice kunnen kleine en middelgrote organisaties Microsoft Teams eenvoudig veranderen in een krachtig en flexibel telefoonsysteem. Het is een vervanging voor traditionele telefonieproviders en in-house telefoonsystemen die moeilijk en dure beheersbaar kunnen zijn. U kunt zowel niet-gratis als gratis nummers, belmenu's instellen om mensen te helpen bij de juiste afdeling, audiovergaderingen zodat u met iedereen en meer vergaderingen kunt houden. U kunt mensen zelfs hun eigen telefoonnummers geven, zodat ze rechtstreeks kunnen worden gebeld.
 
-Voor zakelijke spraak doet u dit allemaal om de functies van het Microsoft 365-telefoonsysteem bij te houden in een eenvoudig te beheren pakket. U hoeft zich geen zorgen te maken over het kiezen van de juiste abonnement of functie. ze zijn allemaal helemaal en voor u ingesteld. Aangezien telefoonsysteem onderdeel is van teams, kunt u elke PC, Mac of mobiel apparaat omzetten in een telefoon waarop u het telefoonnummer van uw bedrijf kunt gebruiken.
+Business Voice doet dit allemaal door de functies van Het Microsoft 365-telefoonsysteem om te zetten in een eenvoudig te beheren bundel. U hoeft u geen zorgen te maken over het kiezen van het juiste abonnement of de juiste functie. deze zijn er allemaal en staan ze voor u in. Aangezien Telefoonsysteem deel uitmaakt van Teams, kunt u elke pc, Mac of mobiel apparaat veranderen in een telefoon die uw zakelijke spraaktelefoonnummer kan gebruiken.
 
-Uw zakelijke stem komt overal ter wereld, omdat deze deel uitmaakt van Microsoft teams. Dus als u de teams-app op uw telefoon, tablet of computer hebt, kunt u met die apparaat bellen en gebeld worden, alsof het een fysieke telefoon op het kantoor was.
+Business Voice komt overal waar u naartoe gaat, omdat het deel uitmaakt van Microsoft Teams. Dus als u de Teams-app op uw telefoon, tablet of computer hebt, kunt u met dat apparaat bellen en gebeld worden alsof het een fysieke telefoon op kantoor is.
 
 ## <a name="how-to-set-up"></a>Instellen
 
-:::image type="content" source="../media/rework_M365_BusinessVoice_Setup1.png" alt-text="Overzicht van instellingen voor zakelijke spraak.":::
+:::image type="content" source="../media/rework_M365_BusinessVoice_Setup1.png" alt-text="Overzicht van het instellen van spraak voor bedrijven.":::
 
-1. Schaf de invoegtoepassing Microsoft 365 Business Voice aan een bestaand Microsoft 365-abonnement aan.
-1. Zorg ervoor dat u een licentie krijgt voor elke werknemer die een zakelijk telefoonnummer nodig heeft om oproepen te plaatsen en te ontvangen met personen buiten uw bedrijf.
-1. Wanneer u zakelijke spraak instelt, ontvangt u nieuwe telefoonnummers voor uw bedrijf en medewerkers. U moet dit ook doen als u van plan bent uw bestaande bedrijfsnummers later te importeren.
-1. Als u gratis nummers of de mogelijkheid om van telefoonnummers te voorzien, kunt u een telefoonnummer kopen voor uw bedrijf, zodat u minuten hoeft te bellen dan wat is inbegrepen in de zakelijke spraak.
-1. Maak een begroeting voor uw klanten door een opname te uploaden of door een bericht te typen en de tekst wordt geconverteerd naar spraak.
-1. Vervolgens maakt u een oproep routerings menu van uw hoofd bedrijfsnummer waarmee klanten naar de juiste persoon of afdeling langs de juiste spraak service worden geleid. U kunt een verschillend welkomstbericht en menu voor de feestdagen of na uur plannen.
-1. Ten slotte kunt u bestaande telefoonnummers overzetten naar Microsoft teams.
-1. Wanneer de nummers beschikbaar zijn in teams, wijst u ze toe aan uw werknemers en uw belangrijkste bedrijfsnummer. U bent nu klaar om uw nieuwe zakelijke telefoon te gebruiken met de teams-app op elke computer, telefoon of Tablet.
+1. Koop de Microsoft 365 Business Voice-invoegabonnement op een bestaand Microsoft 365-abonnement.
+1. Zorg ervoor dat u een licentie krijgt voor elke werknemer die een zakelijk telefoonnummer nodig heeft om te bellen en gebeld te worden met personen buiten uw bedrijf.
+1. Wanneer u Business Voice in stelt, ontvangt u nieuwe telefoonnummers voor uw bedrijf en werknemers. Dit moet u ook doen als u van plan bent om uw bestaande zakelijke nummers later te importeren.
+1. Als u gratis nummers wilt of een nummer internationaal wilt kunnen bellen, koopt u communicatietegoed voor uw bedrijf, waarmee u meer belminuten krijgt dan is inbegrepen in Business Voice.
+1. Maak een begroeting voor uw klanten door een opname te uploaden of door een bericht te typen. De tekst wordt dan voor u omgezet in spraak.
+1. Maak vervolgens een oproeprouteringsmenu op uw hoofdtelefoonnummer, dat klanten met spraak of de toetsen op hun telefoon doorver leiden naar de juiste persoon of afdeling. U kunt voor feestdagen of nauren een andere begroeting en een ander menu plannen.
+1. Ten slotte: breng uw bestaande telefoonnummers over naar Microsoft Teams.
+1. Wanneer de nummers beschikbaar komen in Teams, kunt u ze toewijzen aan uw werknemers en uw hoofdbedrijfsnummer. U bent nu klaar om uw nieuwe zakelijke telefoon te gebruiken met de Teams-app op alle computers, telefoons en tablets.
 
 ## <a name="how-to-use"></a>Procedure
 
-Als u een telefonische oproep wilt starten, opent u de teams-app op uw computer, tablet of telefoon en kiest u bellen. U ziet het toegewezen telefoonnummer en het toetsenblok waarmee u nummers kunt bellen. Of selecteer een van uw contactpersonen in Outlook of uw telefoon en bel ze rechtstreeks.
+Als u een telefoongesprek wilt voeren, opent u de Teams-app op uw computer, tablet of telefoon en kiest u Oproepen. U ziet het toegewezen telefoonnummer en het toetsenblok dat u kunt gebruiken om elk nummer te bellen. Of selecteer een van uw contactpersonen in Outlook of uw telefoon en bel ze rechtstreeks.
 
-Wanneer u een oproep ontvangt, wordt u gevraagd om de oproep te accepteren of te negeren, vergelijkbaar met de ervaring op elk normaal toestel. U kunt zo nodig oproepen doorschakelen of meerdere apparaten bellen, zodat u zeker weet dat u geen belangrijke oproepen van uw klanten hoeft te missen.
+Als er een oproep binnenkomt, wordt u gevraagd het gesprek te accepteren of te negeren, vergelijkbaar met de ervaring op een gewone telefoon. Zo nodig kunt u oproepen doorsturen of meerdere apparaten laten overgaan om ervoor te zorgen dat u geen belangrijke oproepen van uw klanten mist.

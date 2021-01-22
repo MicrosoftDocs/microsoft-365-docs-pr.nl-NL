@@ -1,10 +1,10 @@
 ---
-title: AADSpnSignInEventsBeta-tabel in het geavanceerde jacht schema
-description: Meer informatie over informatie die is gekoppeld aan de Azure Active Directory-Service Principal en de lijst met aanmeld gebeurtenissen van de beheerde identiteit van het schema geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, Column, datatype, beschrijving, AlertInfo, waarschuwing, entiteit, bewijs, bestand, IP-adres, apparaat, computer, gebruiker, account, identiteit, AAD
+title: AADSpnSignInEventsBeta-tabel in het geavanceerde schema voor zoeken
+description: Meer informatie over informatie die is gekoppeld aan Azure Active Directory service principal en de tabel met beheerde identiteitsgegevens van het geavanceerde schema voor zoeken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, machine, user, account, identity, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 42acf24ce9b941fffb1ce0ed4b67216bd8c1de47
-ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
+ms.technology: m365d
+ms.openlocfilehash: 172c400df3adea70a2e2d2e37547fa39e0d3b9cf
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784297"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928616"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -33,16 +34,16 @@ ms.locfileid: "49784297"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> De `AADSpnSignInEventsBeta` tabel bevindt zich momenteel in de bètaversie en wordt kort weer geboden, zodat u de service-principal van Azure Active Directory (Aad) en de aanmeldingsgebeurtenissen van de beheerde identiteit kunt zoeken. We zullen uiteindelijk alle gegevens van het aanmeldings schema naar de `IdentityLogonEvents` tabel verplaatsen.<br><br>
-> Klanten die de Microsoft 365-app hebben geopend via de geïntegreerde Microsoft-app voor eindpunten van het Azure-Beveiligingscentrum, maar geen licenties voor Microsoft Defender for Office, Microsoft Defender for Identity, of Microsoft Cloud app Security, kunnen dit schema niet weergeven. 
+> De tabel is momenteel beschikbaar in de bètaversie en wordt op korte termijn aangeboden zodat u kunt zoeken in `AADSpnSignInEventsBeta` azure Active Directory (AAD)-service-principal en beheerde aanmeldingsgebeurtenissen voor identiteiten. Uiteindelijk worden alle gegevens van het aanmeldingsschema naar de tabel `IdentityLogonEvents` verplaatst.<br><br>
+> Klanten die toegang hebben tot Microsoft 365 Defender via de geïntegreerde oplossing microsoft Defender for Endpoint van het Azure-beveiligingscentrum, maar geen licenties hebben voor Microsoft Defender voor Office, Microsoft Defender voor identiteit of Microsoft Cloud App-beveiliging, kunnen dit schema niet bekijken. 
 
 
 
-De `AADSpnSignInEventsBeta` tabel in het geavanceerde begeleidende schema bevat informatie over het aanmelden van Azure Active Directory-service en invoegtoepassingen voor beheerde id's. U vindt meer informatie over de verschillende soorten aanmeldinformatie in [Azure Active Directory-aanmeldings activiteitenrapporten-preview](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins).
+De `AADSpnSignInEventsBeta` tabel in het geavanceerde schema voor zoeken bevat informatie over Azure Active Directory-service-principal en beheerde identiteitsgegevens. U kunt meer informatie krijgen over de verschillende soorten aanmeldingsrapporten in [Azure Active Directory-activiteitsrapporten - preview.](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins)
 
 Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)
 
 
 
@@ -50,23 +51,23 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 
 | Kolomnaam     | Gegevenstype | Beschrijving   |
 | ----- | ----- | ---- |
-| `Timestamp` | tijd      | De datum en tijd waarop de record is gegenereerd                                                                                                     |
-| `Application`          | tekenreeks        | De toepassing die de opgenomen actie heeft uitgevoerd                                                                                                   |
+| `Timestamp` | datetime      | Datum en tijd waarop de record is gegenereerd                                                                                                     |
+| `Application`          | tekenreeks        | Toepassing die de opgenomen actie heeft uitgevoerd                                                                                                   |
 | `ApplicationId`        | tekenreeks        | Unieke id voor de toepassing                                                                                                           |
-| `IsManagedIdentity`    | Boolean       | Geeft aan of de aanmelding is gestart door een beheerde identiteit                                                                               |
-| `ErrorCode`            | int        | Bevat de foutcode als een aanmeldingsfout optreedt. Ga naar voor een beschrijving van een bepaalde foutcode <https://aka.ms/AADsigninsErrorCodes> . |
-| `CorrelationId`        | tekenreeks        | Unieke id van de aanmeld gebeurtenis                                                                                                          |
-| `ServicePrincipalName` | tekenreeks        | Naam van de service-principal waarmee de aanmelding is gestart                                                                                        |
-| `ServicePrincipalId`   | tekenreeks        | Unieke id van de service-principal waarmee de aanmelding werd geïnitieerd                                                                           |
-| `ResourceDisplayName`  | tekenreeks        | De weergavenaam van de resource die wordt geopend                                                                                                           |
-| `ResourceId`           | tekenreeks        | Unieke id van de geopente resource                                                                                                      |
-| `ResourceTenantId`     | tekenreeks        | Unieke id van de Tenant van de geopente bron                                                                                        |
-| `IPAddress`            | tekenreeks        | Het IP-adres dat is toegewezen aan het eindpunt en die wordt gebruikt tijdens gerelateerde netwerkcommunicatie                                                              |
-| `CountryCode`          | tekenreeks        | Tweeletterige code die het land aangeeft waarin het IP-adres van de client geolocatie is                                                                |
-| `State`                | tekenreeks        | De status van de aanmelding, indien beschikbaar                                                                                                  |
-| `City`                 | tekenreeks        | Plaats waar de account gebruiker zich bevindt                                                                                                          |
-| `Latitude`             | tekenreeks        | De Noord-to-Zuid-coördinaten van de aanmeldingslocatie                                                                                          |
-| `Longitude`            | tekenreeks        | De Oost-en West-coördinaten van de aanmeldingslocatie                                                                                            |
+| `IsManagedIdentity`    | boolean       | Geeft aan of de aanmelding is gestart met een beheerde identiteit                                                                               |
+| `ErrorCode`            | int        | Bevat de foutcode als er een aanmeldingsfout optreedt. Als u een beschrijving van een specifieke foutcode wilt vinden, gaat u naar <https://aka.ms/AADsigninsErrorCodes> . |
+| `CorrelationId`        | tekenreeks        | Unieke id van de aanmeldingsgebeurtenis                                                                                                          |
+| `ServicePrincipalName` | tekenreeks        | Naam van de service-principal die de aanmelding heeft geïnitieerd                                                                                        |
+| `ServicePrincipalId`   | tekenreeks        | Unieke id van de service-principal die de aanmelding heeft geïnitieerd                                                                           |
+| `ResourceDisplayName`  | tekenreeks        | Weergavenaam van de bron die is gebruikt                                                                                                           |
+| `ResourceId`           | tekenreeks        | Unieke id van de bron die wordt gebruikt                                                                                                      |
+| `ResourceTenantId`     | tekenreeks        | Unieke id van de tenant van de bron die is gebruikt                                                                                        |
+| `IPAddress`            | tekenreeks        | IP-adres dat aan het eindpunt is toegewezen en dat is gebruikt tijdens gerelateerde netwerkcommunicatie                                                              |
+| `CountryCode`          | tekenreeks        | Tweeletterige code die het land aangeeft waar het IP-adres van de client geo-toegewezen is                                                                |
+| `State`                | tekenreeks        | Provincie waar de aanmelding heeft plaatsgevonden, indien beschikbaar                                                                                                  |
+| `City`                 | tekenreeks        | Plaats waar de accountgebruiker zich bevindt                                                                                                          |
+| `Latitude`             | tekenreeks        | De coördinaten van de aanmeldingslocatie van Noord naar Zuid                                                                                          |
+| `Longitude`            | tekenreeks        | De coördinaten van Oost naar West van de aanmeldingslocatie                                                                                            |
 | `RequestId`            | tekenreeks        | Unieke id van de aanvraag                                                                                                                |
 |`ReportId` | tekenreeks | Unieke id voor de gebeurtenis | 
 

@@ -1,10 +1,10 @@
 ---
-title: IdentityQueryEvents-tabel in het geavanceerde jacht schema
-description: Meer informatie over Active Directory-querygebeurtenissen in de tabel IdentityQueryEvents van het schema geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, kolom, gegevenstype, beschrijving, IdentityQueryEvents, Azure AD, Active Directory, Azure ATP, Identities, LDAP-query's
+title: IdentityQueryEvents-tabel in het geavanceerde schema voor zoeken
+description: Meer informatie over Active Directory-querygebeurtenissen in de tabel IdentityQueryEvents van het geavanceerde schema voor zoeken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, IdentityQueryEvents, Azure AD, Active Directory, Azure ATP, identities, LDAP queries
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 2b163dc39e56c82ef177b71d197c431c744b12d7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 7016127a75bca48103f5325ce169faa3d7c31c85
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847402"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929812"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -34,35 +35,35 @@ ms.locfileid: "48847402"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De `IdentityQueryEvents` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over query's die zijn uitgevoerd voor Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De tabel in het geavanceerde zoekschema bevat informatie over query's die worden uitgevoerd op `IdentityQueryEvents` Active Directory-objecten, zoals gebruikers, groepen, apparaten [](advanced-hunting-overview.md) en domeinen. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de typen gebeurtenissen ( `ActionType` waarden) die door een tabel worden ondersteund, gebruikt u de [ingebouwde schema verwijzing](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) die beschikbaar is in het Beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
-| `ActionType` | tekenreeks | Type activiteit waarmee de gebeurtenis wordt geactiveerd. Zie de [verwijzingen naar het portal schema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor Details |
-| `Application` | tekenreeks | De toepassing die de opgenomen actie heeft uitgevoerd |
+| `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
+| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal voor](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) meer informatie |
+| `Application` | tekenreeks | Toepassing die de opgenomen actie heeft uitgevoerd |
 | `QueryType` | tekenreeks | Type query, zoals QueryGroup, QueryUser of EnumerateUsers |
-| `QueryTarget` | tekenreeks | De naam van de gebruiker, groep, het apparaat, het domein of een ander entiteitstype dat wordt opgevraagd |
+| `QueryTarget` | tekenreeks | Naam van gebruiker, groep, apparaat, domein of ander entiteitstype dat wordt opgevraagd |
 | `Query` | tekenreeks | Tekenreeks die wordt gebruikt om de query uit te voeren |
-| `Protocol` | tekenreeks | Gebruikte protocol tijdens de communicatie |
+| `Protocol` | tekenreeks | Protocol dat is gebruikt tijdens de communicatie |
 | `AccountName` | tekenreeks | Gebruikersnaam van het account |
 | `AccountDomain` | tekenreeks | Domein van het account |
 | `AccountUpn` | tekenreeks | UPN (User Principal Name) van het account |
-| `AccountSid` | tekenreeks | SID (Security Identifier) van het account |
-| `AccountObjectId` | tekenreeks | Unieke id voor het account in azure AD |
-| `AccountDisplayName` | tekenreeks | Naam van de account gebruiker die in het adresboek wordt weergegeven. Meestal een combinatie van een bepaalde of voornaam, een tweede opening en een achternaam of achternaam. |
-| `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van het eindpunt |
-| `IPAddress` | tekenreeks | Het IP-adres dat is toegewezen aan het eindpunt en die wordt gebruikt tijdens gerelateerde netwerkcommunicatie |
-| `DestinationDeviceName` | tekenreeks | Naam van het apparaat waarop de servertoepassing wordt uitgevoerd die de opgenomen actie heeft verwerkt |
-| `DestinationIPAddress` | tekenreeks | IP-adres van het apparaat waarop de servertoepassing wordt uitgevoerd die de opgenomen actie heeft verwerkt |
-| `TargetDeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van het apparaat waarop de opgenomen actie is toegepast |
-| `TargetAccountUpn` | tekenreeks | De UPN (User Principal Name) van het account waarop de opgenomen actie is toegepast |
-| `TargetAccountDisplayName` | tekenreeks | Weergavenaam van het account waarop de opgenomen actie is toegepast |
+| `AccountSid` | tekenreeks | Security Identifier (SID) van het account |
+| `AccountObjectId` | tekenreeks | Unieke id voor het account in Azure AD |
+| `AccountDisplayName` | tekenreeks | De naam van de accountgebruiker die wordt weergegeven in het adresboek. Meestal een combinatie van een bepaalde of voornaam, een middelste start en een achternaam of achternaam. |
+| `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van het eindpunt |
+| `IPAddress` | tekenreeks | IP-adres dat aan het eindpunt is toegewezen en dat is gebruikt tijdens gerelateerde netwerkcommunicatie |
+| `DestinationDeviceName` | tekenreeks | Naam van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
+| `DestinationIPAddress` | tekenreeks | Het IP-adres van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
+| `TargetDeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van het apparaat waar de opgenomen actie op is toegepast |
+| `TargetAccountUpn` | tekenreeks | UPN (User Principal Name) van het account waar de opgenomen actie op is toegepast |
+| `TargetAccountDisplayName` | tekenreeks | Weergavenaam van het account waar de opgenomen actie op is toegepast |
 | `Location` | tekenreeks | Plaats, land of andere geografische locatie die is gekoppeld aan de gebeurtenis |
 | `ReportId` | lang | Unieke id voor de gebeurtenis |
 | `AdditionalFields` | tekenreeks | Aanvullende informatie over de entiteit of gebeurtenis |

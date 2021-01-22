@@ -1,9 +1,9 @@
 ---
 title: Overzicht van incidenten in Microsoft 365 Defender
-description: Onderzoek gebeurtenissen die worden weergegeven op een apparaat, gebruikers en postvakken.
-keywords: incidenten, waarschuwingen, onderzoek, correlatie, aanval, computers, apparaten, gebruikers, identiteiten, identiteit, postvak, e-mail, 365, Microsoft, m365
+description: Onderzoek incidenten die zijn gezien voor apparaten, gebruikers en postvakken.
+keywords: incidenten, waarschuwingen, onderzoeken, correlatie, aanval, machines, apparaten, gebruikers, identiteiten, identiteit, postvak, e-mail, 365, microsoft, m365
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 6149b6f128b3c96d2338e325caa8df835c292b13
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.technology: m365d
+ms.openlocfilehash: 7fcbecddd5e8f83e9c78d6db90939fbfc2f2df07
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357609"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929280"
 ---
 # <a name="incidents-overview-in-microsoft-365-defender"></a>Overzicht van incidenten in Microsoft 365 Defender
 
@@ -36,26 +37,26 @@ ms.locfileid: "49357609"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+> Wilt u ervaring met Microsoft 365 Defender? U kunt [dit evalueren in een testomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject in productie nemen.](https://aka.ms/m365d-pilotplaybook)
 >
 
 
-Incidenten zijn gebaseerd op verwante meldingen. Er worden waarschuwingen gemaakt wanneer een schadelijke gebeurtenis of activiteit op uw netwerk wordt weergegeven. Afzonderlijke waarschuwingen zorgen voor nuttige aanwijzingen over een voortdurende aanval. Een aanval maakt echter meestal uiteenlopende vectoren en technieken om een schending te voeren. Piecing afzonderlijk aanvullen van een ogenblik kan lastig en tijdrovend zijn.
+Incidenten zijn gebaseerd op gerelateerde waarschuwingen. Er worden waarschuwingen gemaakt wanneer er een schadelijke gebeurtenis of activiteit wordt gezien op uw netwerk. Afzonderlijke waarschuwingen geven waardevolle aanwijzingen over een on-going aanval. Aanvallen gebruiken echter meestal verschillende vectoren en technieken om een inbreuk uit te voeren. Het kan lastig en tijdrovend zijn om afzonderlijke aanwijzingen bij elkaar te zetten.
 
-Met deze korte video krijgt u een overzicht van incidenten in Microsoft 365 Defender.
+Deze korte video geeft een overzicht van incidenten met Microsoft 365 Defender.
 <br>
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-Een incident is een verzameling gerelateerde waarschuwingen die het verhaal van een aanval vormen. Schadelijke en verdachte gebeurtenissen die zich in verschillende apparaten, gebruikers en Postvak eenheden in het netwerk bevinden, worden automatisch samengevoegd met Microsoft 365 Defender. Het groeperen van waarschuwingen in een incident biedt beveiligings bescherming tegen een uitgebreide weergave van een aanval. 
+Een incident is een verzameling correleren waarschuwingen die het verhaal van een aanval be benden. Kwaadaardige en verdachte gebeurtenissen die worden aangetroffen in verschillende entiteiten van apparaten, gebruikers en postvakken in het netwerk, worden automatisch samengevoegd door Microsoft 365 Defender. Door verwante waarschuwingen in een incident te groeperen, krijgen beveiligingsverdedigers een uitgebreide weergave van een aanval. 
 
-Beveiligings bescherming van een aanval kan bijvoorbeeld zien waar de aanval is gestart, welke tactieken werden gebruikt en hoe ver de aanval in het netwerk is verdwenen. Ze kunnen ook het reikwijdte van de aanval zien, zoals het aantal apparaten, gebruikers en postvakken, wat van invloed is op de impact van de impact, en andere informatie over de beïnvloede entiteiten.
+Zo kunnen beveiligingsverdedigers zien waar de aanval is begonnen, welke tactieken zijn gebruikt en hoe ver de aanval in het netwerk is gegaan. Ze kunnen ook het bereik van de aanval zien, zoals het aantal apparaten, gebruikers en postvakken dat is beïnvloed, hoe ernstig de impact was en andere details over betrokken entiteiten.
 
-Als deze functie is ingeschakeld, kan Microsoft 365 Defender automatisch de afzonderlijke waarschuwingen via automatisering en de ondersteuning van kunstmatige informatie achterhalen. Beveiligings beschermters kunnen ook extra herstel stappen uitvoeren om de aanval direct in de weergave incidenten op te lossen. 
+Indien ingeschakeld, kan Microsoft 365 Defender de afzonderlijke waarschuwingen automatisch onderzoeken en oplossen via automatisering en kunstmatige intelligentie. Beveiligingsverdedigers kunnen ook aanvullende herstelstappen uitvoeren om de aanval rechtstreeks vanuit de weergave incidenten op te lossen. 
 
-Incidenten in de afgelopen 30 dagen worden weergegeven in de incident wachtrij. Van hieruit kan beveiligings bescherming zien welke incidenten op basis van risiconiveau en andere factoren op basis van risiconiveau gelden. 
+Incidenten van de afgelopen 30 dagen worden weergegeven in de wachtrij voor incidenten. Van hieruit kunnen beveiligingsverdedigers zien welke incidenten prioriteit moeten krijgen op basis van risiconiveau en andere factoren. 
 
-Beveiligings beschermings problemen kunnen ook de naam van een voorval wijzigen, ze toewijzen aan afzonderlijke analisten, classificeren en labels aan incidenten toevoegen voor een betere en meer aangepaste ervaring voor het beheren van incidenten.
+Beveiligingsverdedigers kunnen ook incidenten hernoemen, deze toewijzen aan afzonderlijke analisten, classificeren en labels toevoegen aan incidenten voor een betere en meer aangepaste ervaring met het beheer van incidenten.
 
 
 

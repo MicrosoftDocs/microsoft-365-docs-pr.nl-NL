@@ -15,36 +15,37 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het instellen van Microsoft 365 zodat het gereed is voor migratie van Google Workspace.
-ms.openlocfilehash: ec8813f62febbd1c4ee2afa6877e4be505a75a81
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Meer informatie over het instellen van Microsoft 365 zodat het klaar is voor de migratie van Google Workspace.
+ms.openlocfilehash: 42b8cd86ec03c4d4b43a4d32a1cee56e94bb7147
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794598"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928184"
 ---
 # <a name="set-up-microsoft-365-for-google-workspace-migration"></a>Migratie van Microsoft 365 voor Google Workspace instellen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4JD2Y?autoplay=false]
 
-Als u e-mail, agenda en contactpersonen wilt migreren van Google Workspace, moet u Microsoft 365 Business Premium instellen met een tijdelijk domein totdat uw bedrijfsdomein klaar is voor gebruik met uw abonnement.
+Als u e-mail, agenda en contactpersonen wilt migreren vanuit Google Workspace, moet u Microsoft 365 Business Premium instellen met een tijdelijk domein totdat uw bedrijfsdomein klaar is voor gebruik met uw abonnement.
 
 ## <a name="try-it"></a>Probeer het zelf! 
 
-1. Meld u aan bij [Office.com](https://office.com)en kies **beheerder**.
-1. Kies in het Microsoft 365-Beheercentrum de optie **Ga naar begeleide installatie**. 
-1. Installeer eventueel Office-apps en selecteer vervolgens **Doorgaan**. 
-1. Aangezien u migreert van Google Workspace, kiest u het standaarddomein en selecteert **u dit domein gebruiken**. 
-1. Voer de namen van de gebruikers en de gewenste gebruikersnamen in, Controleer uw e-mailadres zodat u het wachtwoord van de gebruiker kunt ontvangen, en selecteer vervolgens **gebruikers toevoegen en licenties toewijzen**. 
-1. Voer de e-mailadressen in van de personen naar wie u de nieuwe referenties wilt verzenden, selecteer **E-mail verzenden en doorgaan**.
-1. Ga vervolgens weer **door** met het maken van verbinding met het tijdelijke domein. 
-1. U kunt ook uw gebruikers in uw organisatie informeren over teams en vervolgens op **Doorgaan** klikken.
-1. Vouw uw Android- **en IOS-instellingen** uit en selecteer vervolgens **beleid voor mobiele app-beheer maken**.
-1. Geef desgewenst feedback, en kies **Ga naar Beheercentrum**.
+1. Meld u aan [bij office.com](https://office.com)en kies **Beheerder.**
+1. Kies In het Microsoft 365-beheercentrum de optie Ga **naar begeleide installatie.** 
+1. U kunt desgewenst Office-apps installeren en vervolgens **Doorgaan selecteren.** 
+1. Aangezien u migreert vanuit Google Workspace, kiest u het standaarddomein en **selecteert u Dit domein gebruiken.** 
+1. Voer de namen van de gebruikers en de gewenste gebruikersnamen in, controleer uw e-mailadres zodat u de wachtwoorden van gebruikers kunt ontvangen, selecteer vervolgens Gebruikers toevoegen en licenties **toewijzen.** 
+1. Voer de e-mailadressen in waar uw gebruikers hun nieuwe referenties ontvangen, selecteer **E-mail verzenden en ga door.**
+1. Ga **vervolgens opnieuw door** om uw tijdelijke domein te verbinden. 
+1. U kunt er ook voor kiezen om gebruikers in uw organisatie te informeren over Teams en selecteer vervolgens **Doorgaan.**
+1. Vouw uw Android- en **iOS-instellingen uit** en controleer deze en selecteer **beleid voor het beheer van mobiele apps maken.**
+1. Geef desgewenst feedback en kies **Ga naar het beheercentrum.**
 
-De volgende stap in het proces is om beveiliging voor uw organisatie in te stellen.
+De volgende stap in dit proces is het instellen van beveiliging voor uw organisatie.

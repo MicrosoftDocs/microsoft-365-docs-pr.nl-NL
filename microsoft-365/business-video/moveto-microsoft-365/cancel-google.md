@@ -15,27 +15,28 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het annuleren van een abonnement op Google Workspace, maar het bewaren van uw domein.
-ms.openlocfilehash: f4cbb09907da399ab3fed07e7826c0a217b494f0
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Informatie over het annuleren van een Google Workspace-abonnement, maar het behouden van uw domein.
+ms.openlocfilehash: 1ad7e4ae3583063281ac5b5e9510be539b1378dd
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794594"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928256"
 ---
-# <a name="cancel-google-workspace-subscription"></a>Abonnement op Google Workspace annuleren
+# <a name="cancel-google-workspace-subscription"></a>Google Workspace-abonnement opzeggen
 
-1. Meld u aan bij [Google-beheerder](https://admin.google.com/) en ga naar **facturering**.
-1. Kies in de lijst **abonnementen** uw G suite-abonnement, **Annuleer het abonnement** en kies vervolgens **Doorgaan**.
+1. Meld u aan [bij Google Admin](https://admin.google.com/) en ga naar **Facturering.**
+1. Kies in **de lijst Abonnementen** uw G Suite-abonnement, **Annuleer** het abonnement en kies vervolgens **Doorgaan.**
 
     > [!IMPORTANT]
-    > uw abonnement wordt onmiddellijk opgezegd en u kunt deze actie niet ongedaan maken.
+    > uw abonnement wordt onmiddellijk geannuleerd en u kunt deze actie niet ongedaan maken.
 
-    :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Schermafbeelding van de facturerings pagina van Google admin.":::
+    :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Schermafbeelding van de factureringspagina van Google Admin.":::
 
-Als uw DNS-host provider niet Google-domeinen is, ziet u mogelijk niet de domeinregistratie in uw lijst met abonnementen.
+Als uw DNS-hostprovider geen Google-domeinen is, ziet u de domeinregistratie mogelijk niet in uw lijst met abonnementen.

@@ -16,46 +16,47 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over het toevoegen van een andere beheerder.
-ms.openlocfilehash: 07a95b6328f82f59daef5bc443213834221089ae
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: edeaf39c83271d1ba5be1af175a48fba94e7e2af
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702172"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927644"
 ---
 # <a name="add-an-admin"></a>Een beheerder toevoegen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO?autoplay=false]
 
-Wanneer u zich aanmeldt voor Microsoft 365 Business, wordt u automatisch een globale beheerder geworden. Voor hulp bij het beheer van het bedrijf kunt u ook andere personen beheerder maken. 
+Wanneer u zich registreert voor Microsoft 365 Business, wordt u automatisch een globale beheerder. Om het bedrijf te helpen beheren, kunt u ook andere personen beheerders maken. 
 
 ## <a name="try-it"></a>Probeer het zelf!
 
 ### <a name="add-an-existing-employee-as-an-admin"></a>Een bestaande werknemer toevoegen als beheerder
 
-1. Wanneer u zich aanmeldt voor Microsoft 365 Business, wordt u automatisch een globale beheerder geworden. Voor hulp bij het beheer van het bedrijf kunt u ook andere personen beheerder maken. 
-1. Selecteer **gebruikers** en vervolgens **actieve gebruikers** In het Microsoft 365-Beheercentrum.
-1. Kies de gebruiker van wie u een beheerder wilt maken en selecteer vervolgens **rollen beheren**.
-1. Ga naar het deelvenster **rollen beheren** , schakel het selectievakje huidige rol van gebruiker in en selecteer de nieuwe rol die u aan de gebruiker wilt toewijzen.
-1. Selecteer **Save Changes** en sluit het deelvenster **beheerdersrollen bijgewerkt** bevestigingsvenster.
+1. Wanneer u zich registreert voor Microsoft 365 Business, wordt u automatisch een globale beheerder. Om het bedrijf te helpen beheren, kunt u ook andere personen beheerders maken. 
+1. Selecteer gebruikers in het Microsoft 365-beheercentrum en vervolgens **Actieve gebruikers.** 
+1. Kies de gebruiker die u beheerder wilt maken en selecteer **rollen beheren.**
+1. Schakel in **het deelvenster Rollen** beheren het selectievakje van de huidige rol van de gebruiker uit en selecteer de nieuwe rol die u wilt toewijzen aan de gebruiker.
+1. Selecteer **Wijzigingen opslaan** en sluit het bijgewerkte **bevestigingsvenster beheerdersrollen.**
 
 ### <a name="add-someone-outside-the-company-as-an-admin"></a>Iemand van buiten het bedrijf toevoegen als beheerder
 
-Als u een externe IT-medewerker bent die uw bedrijf helpt bij het beheren van uw bedrijf, kunt u deze toevoegen als globale beheerder.
+Als er een externe IT-persoon is die u helpt bij het beheren van uw bedrijf, kunt u deze toevoegen als globale beheerder.
 
-1. Selecteer in het Microsoft 365-Beheercentrum de optie **gebruikers**, **actieve gebruikers** en **Voeg vervolgens een gebruiker toe**.
-1. Voer op de pagina **basisbeginselen instellen** de naam van de gebruiker, de weergavenaam en de gebruikersnaam in.
-1. Schakel het selectievakje **wachtwoord verzenden in e-mail na voltooiing** in als u wilt dat het wachtwoord van de gebruiker naar de gebruiker wordt verzonden. Typ hun e-mailadres. Scheid meerdere adressen met een puntkomma. Selecteer **Volgende**.
-1. Kies de locatie van de gebruiker in de vervolgkeuzelijst **locatie selecteren** .
-1. Schakel het selectievakje **gebruiker maken zonder productlicentie** in. U hoeft niet een licentie toe te wijzen aan deze gebruiker omdat deze alleen de Microsoft 365-Services beheert en ze niet gebruiken. Selecteer **Volgende**.
-1. Vouw de sectie **rollen** uit. Schakel het selectievakje naast de huidige rol van de gebruiker uit en kies **globale beheerder**. Selecteer **Volgende**.
-1. Controleer de instellingen en selecteer **toevoegen voltooien**.
+1. Selecteer in het Microsoft 365-beheercentrum **Gebruikers,** **Actieve gebruikers** en vervolgens **Een gebruiker toevoegen.**
+1. Voer op **de pagina Basisprincipes** instellen de naam, weergavenaam en gebruikersnaam van de gebruiker in.
+1. Schakel het **selectievakje Wachtwoord per e-mail verzenden na voltooiing** in als u wilt dat het wachtwoord van de gebruiker per e-mail naar de gebruiker wordt verzonden. Typ het e-mailadres. Scheid meerdere adressen met puntkomma's. Selecteer **Volgende**.
+1. Kies de **locatie van** de gebruiker in de vervolgkeuzelijst Locatie selecteren.
+1. Schakel het **selectievakje Gebruiker maken zonder productlicentie** in. U hoeft deze gebruiker geen licentie toe te wijzen, omdat deze alleen de Microsoft 365-services beheert en niet gebruikt. Selecteer **Volgende**.
+1. Vouw de **sectie Rollen** uit. Vink het selectievakje naast de huidige rol van de gebruiker uit en kies **globale beheerder.** Selecteer **Volgende**.
+1. Controleer de instellingen en selecteer Toevoegen **voltooien.**
 1. Selecteer **Sluiten**.
 
-Uw nieuwe globale beheerder kan nu helpen bij het beheren van uw Microsoft 365-Services.
+De nieuwe globale beheerder kan nu helpen met het beheren van uw Microsoft 365-services.

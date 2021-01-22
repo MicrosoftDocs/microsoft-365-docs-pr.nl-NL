@@ -16,63 +16,64 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Leer welk Microsoft 365-abonnement geschikt is voor uw organisatie.
-ms.openlocfilehash: 34a7da132004cc73b66d9244f143dfc80a0e5f86
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Lees welk Microsoft 365-abonnement het juiste is voor uw organisatie.
+ms.openlocfilehash: 81ec93f5295fe9eb39538e74fc82b41b26641302
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702315"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927368"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>Een Microsoft 365-abonnement kiezen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfzL9?autoplay=false]
 
-Als u het juiste Microsoft 365-abonnement kiest, kunt u het beste gebruikmaken van de service. Hier&#39;s voor de vergelijking van de opties en kies een abonnement dat&#39;s voor uw bedrijf.
+Het kiezen van het juiste Microsoft 365-abonnement is belangrijk om het meeste uit de service te halen. Hier&#39;hoe u de opties kunt vergelijken en een abonnement kunt&#39;dat&#39;voor uw bedrijf.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Zoek in een browser naar  **Microsoft 365 Business Premium**.
-2. Ga naar de pagina  **Microsoft 365 Business Premium**  en kies vervolgens  **Abonnementen en prijzen weergeven**. Hier kunt u zien welke abonnementen zijn afgestemd op kleinere bedrijven.
-3. Schuif omlaag naar de beschikbare functies voor elke optie weergeven.
-4. Als u een groter bedrijf hebt of een complexere behoeften hebt, schuift u omlaag en selecteert u  **Microsoft 365 Enterprise**.
-5. Selecteer  **producten en abonnementen weergeven** en Bekijk de abonnementen voor ondernemingen en hun functies.
-6. Wanneer u hebt vastgesteld dat u een abonnement hebt&#39;, kiest u  **Nu kopen** en gaat u door met de registratieprocedure.
+1. Zoek in een browser naar **Microsoft 365 Business Premium.**
+2. Open de **pagina Microsoft 365 Business Premium** en kies vervolgens Abonnementen en prijzen **bekijken.** Hier kunt u zien welke abonnementen zijn afgestemd op kleinere bedrijven.
+3. Schuif omlaag om de functies te zien die beschikbaar zijn voor elke optie.
+4. Als u een groter bedrijf hebt of complexe IT-behoeften hebt, schuift u omlaag en selecteert **u Microsoft 365 Enterprise.**
+5. Selecteer  **Producten en abonnementen bekijken** en bekijk de Enterprise-abonnementen en hun functies.
+6. Nadat u&#39;een abonnement hebt gekozen, kiest u Nu kopen en doormaakt u het aanmeldingsproces. 
 
 ## <a name="compare-plans"></a>Abonnementen vergelijken
 
-| **Service gebied** | **Functie** | **Microsoft 365 Business Standard** | **Microsoft 365 Business Premium** | **Office 365 Enterprise E3** |
+| **Servicegebied** | **Functie** | **Microsoft 365 Business Standard** | **Microsoft 365 Business Premium** | **Office 365 Enterprise E3** |
 | --- | --- | --- | --- | --- |
-| **Beschikbare licenties** | Maximaal aantal gebruikers | 300 | 300 | Begrensd |
-| **Office-apps** | Office installeren op maximaal 5 Pc's/Macs + 5 smartphones per gebruiker (Word, Excel, PowerPoint, OneNote, Access), Office Online | Business | Business | ProPlus |
-| **Agenda via e-mail verzenden &amp;** | Outlook, Exchange Online | 50 GB | 50 GB | 100 GB |
-| **Hub voor teamwerk** | Een werkruimte op basis van chat berichten, onlinevergaderingen en meer in Microsoft teams | Ja | Ja | Ja |
-| **Bestandsopslag** | OneDrive voor Bedrijven | 1 TB per gebruiker | 1 TB per gebruiker | Begrensd |
-| **Sociale, video, sites** | Stream, Yammer, planner, SharePoint Online \* , PowerApps \* , Microsoft flow\* | Ja | Ja | Ja |
-| **Zakelijke apps** | Apps-Bookings plannen\*\* | Ja | Ja | Ja |
+| **Beschikbare licenties** | Maximum aantal gebruikers | 300 | 300 | Onbeperkt |
+| **Office-apps** | Office installeren op maximaal 5 pc's/Macs + 5 smartphones per gebruiker (Word, Excel, PowerPoint, OneNote, Access), Office Online | Business | Business | ProPlus |
+| **Agenda via &amp; e-mail verzenden** | Outlook, Exchange Online | 50 GB | 50 GB | 100 GB |
+| **Hub voor teamwerk** | Werkruimte voor chatten, onlinevergaderingen en meer in Microsoft Teams | Ja | Ja | Ja |
+| **Bestandsopslag** | OneDrive voor Bedrijven | 1 TB per gebruiker | 1 TB per gebruiker | Onbeperkt |
+| **Sociale, video, sites** | Stream, Yammer, Planner, SharePoint \* Online, PowerApps, \* Microsoft Flow\* | Ja | Ja | Ja |
+| **Zakelijke apps** | Apps plannen - Bookings\*\* | Ja | Ja | Ja |
 |
- | Zakelijke apps-MileIQ\*\* | Ja | Ja | Nee |
+ | Zakelijke apps - MileIQ\*\* | Ja | Ja | Nee |
 | **Bedreigingsbeveiliging** | Office 365 Advanced Threat Protection | Nee | Ja | Nee |
- | Uitvoering van Windows exploit Guard | Nee | Ja | Nee |
-| **Identiteitsbeheer** | Selfservice voor wachtwoordherstel voor hybride Azure Active Directory-accounts | Nee | Ja | Nee |
- | Azure multi-factor Authentication, voorwaardelijke toegangsbeleidsregels | Nee | Ja | Nee |
-| **Apparaat- &amp; app beheren** | Microsoft intune, Windows auto pilot, Windows Pro Management | Nee | Ja | Nee |
+ | Windows Exploit Guard afdwingen | Nee | Ja | Nee |
+| **Identiteitsbeheer** | Selfservice voor wachtwoord opnieuw instellen voor hybride Azure Active Directory-accounts | Nee | Ja | Nee |
+ | Azure Multi-Factor Authentication, beleid voor voorwaardelijke toegang | Nee | Ja | Nee |
+| **&amp;Apparaat-app-beheer** | Microsoft Intune, Windows AutoPilot, Windows Pro Management | Nee | Ja | Nee |
  | Gedeelde computeractivering | Nee | Ja | Ja |
- | Upgrade rechten voor Windows 10 Pro voor Win 7/8.1 Pro-licenties | Nee | Ja | Nee |
+ | Upgraderechten voor Windows 10 Pro voor Win 7/8.1 Pro-licenties | Nee | Ja | Nee |
  | Windows Virtual Desktop | Nee | Ja | Nee |
-| **Gegevensbeveiliging** | Office 365 preventie van gegevensverlies | Nee | Ja | Ja |
- | Azure-informatie beschermings abonnement 1, BitLocker Enforcement | Nee | Ja | Nee |
-| **On-premises CAL rechten** | ECAL suite (Exchange, SharePoint, Skype) | Nee | Nee | Ja |
-| **Compliance** | Onbeperkt e-mail archivering\*\*\* | Nee | Ja | Ja |
+| **Gegevensbeveiliging** | Preventie van gegevensverlies in Office 365 | Nee | Ja | Ja |
+ | Azure Information Protection Plan 1, BitLocker-afdwinging | Nee | Ja | Nee |
+| **On-premises CAL-rechten** | ECAL-suite (Exchange, SharePoint, Skype) | Nee | Nee | Ja |
+| **Compliance** | Onbeperkt archiveren van e-mail\*\*\* | Nee | Ja | Ja |
 
-\* Geeft aan dat Microsoft 365 Business Standard is gepland met abonnement 1 van de functionaliteit en Office 365 Enterprise E3 heeft abonnement 2.
+\* Geeft aan dat Microsoft 365 Business Standard abonnement 1 van de functionaliteit heeft en dat Office 365 Enterprise E3 abonnement 2 heeft.
 
-\*\* Beschikbaar in ons, VK, VK en Canada.
+\*\* Beschikbaar in de VS, het VK, Canada.
 
-\*\*\* Onbeperkt archivering als automatisch uitbreiden is ingeschakeld.
+\*\*\* Onbeperkt archiveren wanneer automatisch uitbreiden is ingeschakeld.
 
-Zie [licentieverlening Microsoft 365 voor kleine en middelgrote bedrijven](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb)als u microsoft 365 Business Premium wilt vergelijken met andere producten, waaronder andere microsoft 365-abonnementen.
+Als u Microsoft 365 Business Premium wilt vergelijken met andere producten, waaronder andere Microsoft 365-abonnementen, bekijkt u de licentieverlening [voor Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb)voor kleine en middelgrote bedrijven.

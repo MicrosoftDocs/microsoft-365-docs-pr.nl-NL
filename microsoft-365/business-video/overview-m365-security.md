@@ -1,5 +1,5 @@
 ---
-title: Overzicht van de beveiliging van Microsoft 365 Business Premium
+title: Overzicht van Microsoft 365 Business Premium-beveiliging
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,54 +16,55 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over de beveiligingsfuncties die in Microsoft 365 voor bedrijven zijn opgenomen.
-ms.openlocfilehash: b32c99946db0257490283b493d104d0d11c9ec8e
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Meer informatie over de beveiligingsfuncties van Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: 72ed57d0f6392d7475f11aebb9da700e6aef78ae
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702095"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928136"
 ---
 # <a name="overview-of-security"></a>Overzicht van beveiliging
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mzxI?autoplay=false]
 
-Microsoft 365 Business Premium biedt bescherming tegen bedreiging, bescherming en Apparaatbeheer waarmee u uw bedrijf kunt beschermen tegen online bedreigingen en toegang door onbevoegden, en om bedrijfsgegevens te beschermen en beheren op uw telefoons, Tablets en computers.
+Microsoft 365 Business Premium biedt bedreigingsbeveiliging, gegevensbescherming en apparaatbeheerfuncties om u te helpen uw bedrijf te beschermen tegen onlinebedreigingen en ongeautoriseerde toegang, en om bedrijfsgegevens op uw telefoons, tablets en computers te beschermen en te beheren.
 
 |![Bedreigingsbeveiliging](../media/m365-business-security-threat-protection.png)<br/>[Bedreigingsbeveiliging](#threat-protection)|![Samenwerken met een klant](../media/m365-business-security-data-protection.png) <br/>[Gegevensbescherming](#data-protection) | ![Apparaatbeheer](../media/m365-business-security-device-management.png) <br/>[Apparaatbeheer](#device-management) |
 |--|--|--|
 
 ## <a name="threat-protection"></a>Bedreigingsbeveiliging
 
-Microsoft 365 Business Premium bevat Office 365 Advanced Threat Protection (ATP), een op cloud gebaseerde e-mail filtering waarmee u bescherming tegen malware, Ransomware, schadelijke koppelingen en meer. Met beknopte vrije links kunt u met schadelijke Url's een e-mailbericht of een Office-document beveiligen. Met veilige ATP-bijlagen beschermt u tegen malware en virussen die zijn gekoppeld aan berichten of documenten.
+Microsoft 365 Business Premium omvat Office 365 Advanced Threat Protection (ATP), een cloud-e-mailfilterservice die u beschermt tegen malware, ransomware, schadelijke koppelingen en meer. Met veilige koppelingen met ATP wordt u beschermd tegen schadelijke URL's in e-mail- of Office-documenten. Met veilige bijlagen met ATP wordt u beschermd tegen malware en virussen die zijn gekoppeld aan berichten of documenten.
 
-Voor meervoudige verificatie (MFA), of verificatie in twee stappen, moet u een tweede vorm van verificatie presenteren, zoals een verificatiecode, om uw identiteit te verifiëren voordat u toegang krijgt tot bronnen.  
+Voor meervoudige verificatie (Multi-Factor Authentication, MFA) of verificatie in twee stappen moet u een tweede vorm van verificatie, zoals een verificatiecode, presenteren om uw identiteit te bevestigen voordat u toegang hebt tot bronnen.  
 
-Windows Defender biedt uitgebreide bescherming voor uw systeem, bestanden en online activiteiten van virussen, malware, spyware en andere bedreigingen.
+Windows Defender biedt uitgebreide bescherming tegen virussen, malware, spyware en andere bedreigingen voor uw systeem, bestanden en onlineactiviteiten.
 
 ## <a name="data-protection"></a>Gegevensbescherming
 
-De functies voor gegevensbeveiliging in Microsoft 365 Business Premium helpen ervoor te zorgen dat belangrijke gegevens veilig blijven en dat alleen geautoriseerde gebruikers er toegang toe hebben.
+Met de functies voor gegevensbeveiliging in Microsoft 365 Business Premium blijven belangrijke gegevens veilig en hebben alleen geautoriseerde personen toegang tot de gegevens.
 
-U kunt DLP-beleidsregels (preventie van gegevensverlies) gebruiken om gevoelige informatie, zoals sociale beveiliging of creditcardnummers, te identificeren en te beheren, zodat deze niet per ongeluk wordt gedeeld. 
+U kunt beleid voor preventie van gegevensverlies (Data Loss Prevention, DLP)-beleid gebruiken om gevoelige informatie, zoals BSN of creditcardnummers, te identificeren en te beheren, zodat deze niet per ongeluk wordt gedeeld. 
 
-Office 365-bericht versleuteling combineert versleutelings-en toegangsrechten om ervoor te zorgen dat alleen bedoelde geadresseerden de inhoud van een bericht kunnen bekijken. Office 365-bericht versleuteling werkt met Outlook.com, Yahoo! en Gmail, en andere e-mailservices.
+In Office 365-berichtversleuteling worden versleuteling en toegangsrechten gecombineerd om ervoor te zorgen dat alleen beoogde ontvangers berichtinhoud kunnen bekijken. Office 365-berichtversleuteling werkt met Outlook.com, Yahoo! en Gmail en andere e-mailservices.
 
-Exchange Online Archiving is een op de cloud gebaseerde archiverings oplossing die geschikt is voor Microsoft Exchange of Exchange Online voor geavanceerde archiveringsfuncties, waaronder wachtruimten en gegevensredundantie. U kunt bewaarbeleid gebruiken om uw organisatie de aansprakelijkheid te verminderen die is gekoppeld aan e-mail en andere communicatie. Als uw bedrijf de communicatie met een rechtszaak moet behouden, kunt u met behulp van In-Place Holders en de bezorgings blokkering de bijbehorende e-mail bewaren.
+Exchange Online Archiving is een archiveringsoplossing in de cloud die samen met Microsoft Exchange of Exchange Online werkt voor geavanceerde archiveringsmogelijkheden, waaronder archiveringsfuncties en redundantie van gegevens. U kunt bewaarbeleid gebruiken om uw organisatie te helpen de verplichtingen met betrekking tot e-mail en andere communicatie te beperken. Als uw bedrijf de communicatie met betrekking tot juridische procedures moet bewaren, kunt u In-Place Bewaren en bewaren van juridische procedures gebruiken om gerelateerde e-mail te behouden.
 
 ## <a name="device-management"></a>Apparaatbeheer
 
-Met de geavanceerde functies voor Apparaatbeheer van Microsoft 365 Business Premium kunt u bijhouden welke gebruikers met ingeschreven apparaten kunnen doen. Deze functies zijn onder andere voorwaardelijke toegang, Mobile Device Management (MDM), BitLocker en automatische updates.
+Met geavanceerde apparaatbeheerfuncties van Microsoft 365 Business Premium kunt u controleren en beheren wat gebruikers kunnen doen met geregistreerde apparaten. Deze functies zijn onder andere voorwaardelijke toegang, MDM (Mobile Device Management), BitLocker en automatische updates.
 
-U kunt beleidsregels voor voorwaardelijke toegang gebruiken om extra beveiligingsmaatregelen te vereisen voor bepaalde gebruikers en taken. U kunt bijvoorbeeld multi-factor Authentication (MFA) of clients blokkeren waarvoor voorwaardelijke toegang niet wordt ondersteund.
+U kunt beleid voor voorwaardelijke toegang gebruiken om extra beveiligingsmaatregelen voor bepaalde gebruikers en taken te vereisen. U kunt bijvoorbeeld meervoudige verificatie (MFA) vereisen of clients blokkeren die geen voorwaardelijke toegang ondersteunen.
 
-Met MDM kunt u mobiele apparaten van gebruikers zoals iPhones, iPads, Android-telefoons en Windows Phones beschermen en beheren. U kunt beveiligingsbeleid voor apparaten maken en beheren, om een apparaat op afstand te wissen om alle bedrijfsgegevens te verwijderen, een apparaat opnieuw in te stellen op de fabrieksinstellingen en gedetailleerde apparaten weer te geven. 
+Met MDM kunt u helpen bij het beveiligen en beheren van de mobiele apparaten van uw gebruikers, zoals iPhones, iPads, Android-telefoons en Windows Phones. U kunt beveiligingsbeleid voor apparaten maken en beheren, op afstand een apparaat wissen om alle bedrijfsgegevens te verwijderen, de fabrieksinstellingen van een apparaat herstellen en gedetailleerde apparaatrapporten bekijken. 
 
-U kunt BitLocker-versleuteling inschakelen om gegevens te beschermen voor het geval een apparaat gaat verloren of gestolen, en Windows exploit Guard inschakelen voor een geavanceerde beveiliging voor Ransomware.
+U kunt BitLocker-versleuteling inschakelen om gegevens te beveiligen bij verlies of diefstal van een apparaat, en Windows Exploit Guard in staat stellen om geavanceerde beveiliging te bieden tegen ransomware.
 
-U kunt automatische updates configureren, zodat de nieuwste beveiligingsfuncties en-updates op alle gebruikers apparaten worden toegepast. 
+U kunt automatische updates zo configureren dat de nieuwste beveiligingsfuncties en -updates worden toegepast op alle gebruikersapparaten. 

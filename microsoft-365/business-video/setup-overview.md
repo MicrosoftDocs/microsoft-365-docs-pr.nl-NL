@@ -1,5 +1,5 @@
 ---
-title: Overzicht van de configuratie van Microsoft 365 Business Premium
+title: Overzicht van het instellen van Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,98 +16,99 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lees wat u nodig hebt om Microsoft 365 Business Premium in te stellen.
-ms.openlocfilehash: e1f4e736cfc8aa1a89e461662cf80907fd640cec
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over wat u nodig hebt om Microsoft 365 Business Premium in te stellen.
+ms.openlocfilehash: 23524c96e994aa9df9a2799c81a6bbd5861ce5e4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701739"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927908"
 ---
-# <a name="overview-of-microsoft-365-business-premium-setup"></a>Overzicht van de configuratie van Microsoft 365 Business Premium
+# <a name="overview-of-microsoft-365-business-premium-setup"></a>Overzicht van het instellen van Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg?autoplay=false]
 
-Gefeliciteerd met uw beslissing om uw bedrijf over te zetten naar de Cloud met Microsoft 365! Of u nu één persoon in uw bedrijf of 20 hebt, u kunt met een beetje met de planning profiteren van Microsoft 365 Business Premium.
+Gefeliciteerd met uw beslissing om uw bedrijf over te brengen naar de cloud met Microsoft 365! Of u nu één persoon hebt in uw bedrijf of 20, een beetje planning helpt u om het beste uit Microsoft 365 Business Premium te halen.
 
-Laat&#39;s kijken wat u&#39;wanneer u gaat opzeggen:
+Laten we eerst&#39;bekijken wat u&#39;krijgt:
 
 - Office-toepassingen zoals Word, Excel, PowerPoint en Outlook.
 - Een persoonlijk e-mailadres voor u en uw werknemers, zoals rob@contoso.com.
-- Document opslag in de Cloud (OneDrive en Microsoft teams) en meer.
-- Upgraden naar Windows 10 Pro via Windows 7 Professional, Windows 8 Pro of Windows 8,1 Pro.
-- Beveiliging voor uw werkbestanden op al uw iOS-, Android-en Windows 10-apparaten met beveiliging op basis van ondernemingen.
+- Documentopslag in de cloud (OneDrive en Microsoft Teams) en meer.
+- Upgrades naar Windows 10 Pro vanaf Windows 7 Professional, Windows 8 Pro of Windows 8.1 Pro.
+- Beveiliging voor uw werkbestanden op al uw iOS-, Android- en Windows 10-apparaten met beveiliging op bedrijfsniveau.
 
-U&#39;geen apps verkrijgen voor boekhouding, salarisadministratie of CRM of een openbare website.
+U&#39;geen apps voor boekhouding, salarisadministratie, CRM of een openbare website.
 
 > [!NOTE]
-> Als u Windows 10 voor thuisgebruik hebt, moet u Windows 10 Pro kopen.  
+> Als u Windows 10 Home hebt, moet u Windows 10 Pro kopen.  
 
 
-:::image type="content" source="../media/m365-steps-to-set-up.png" alt-text="Afbeelding van een overzicht van de instellingsstappen.":::
+:::image type="content" source="../media/m365-steps-to-set-up.png" alt-text="Afbeelding met een overzicht van de instellingsstappen.":::
 
-## <a name="1-sign-up-for-the-cloud"></a>1. registreren voor de Cloud
+## <a name="1-sign-up-for-the-cloud"></a>1. Registreren voor de cloud
 
-Bij het kiezen van een Cloud abonnement voor uw bedrijf hebt u de keuze uit de functies die u wilt toepassen op uw abonnement. Meer informatie over [Microsoft Small Business-abonnementen](https://www.microsoft.com/microsoft-365/business?rtc=1).
+Wanneer u een cloudabonnement voor uw bedrijf kiest, kunt u kiezen welke functies u in uw abonnement wilt gebruiken. Meer informatie over onze [microsoft-abonnementen voor kleine bedrijven.](https://www.microsoft.com/microsoft-365/business?rtc=1)
 
-- Kies [Office 365 Business Essentials](https://www.microsoft.com/en-us/p/office-365-business-essentials/cfq7ttc0k59v?rtc=1&amp;activetab=pivot:overviewtab) als u alleen online apps (apps die u kunt gebruiken in een webbrowser) voor e-mail, het maken van documenten, samenwerken en cloudopslag. Dit omvat Word online, Excel online, PowerPoint online en SharePoint Online.
-- Kies [Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium) als u de functie uitgebreide versie van Office-apps zoals Word, Excel en teams rechtstreeks op uw Pc's en Macs wilt uitvoeren. Dit is een aanvulling op de online-apps.
-- Kies [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business?rtc=1) als u alle Office-apps plus cloudbeveiliging en Apparaatbeheer wilt. Dit omvat beveiliging tegen virussen, malware, Ransomware en meer, evenals Apparaatbeheer en versleuteling. U ontvangt ook een gratis upgrade naar Windows 10 Pro vanuit eerdere Windows Professional-versies.
-- Als u een groter bedrijf hebt of meer complexe IT-apps en-services nodig hebt, kunt u meer lezen over onze [Microsoft 365 Enterprise-abonnementen](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
-
-
-## <a name="2-add-a-domain-name"></a>2. een domeinnaam toevoegen
-
-- Met een domeinnaam beschikt uw organisatie over een professionele en makkelijke online identiteit, zoals _Rob@contoso.com_. Als u al een abonnement hebt, kunt u dit met u meenemen naar Microsoft 365 of Microsoft 365 – we&#39;de hulp bij de overgang.
-- Daan&#39;t hebt u een domein? U kunt de&#39;s eenvoudig vinden wanneer u zich aanmeldt voor Microsoft 365 of Microsoft 365.
-
-**Opmerking:**  U kunt niet alleen uw e-mailadres gebruiken, maar u kunt het domein gebruiken met een website op diverse hosts, zoals WordPress, GoDaddy of Wix.
-
-## <a name="3-add-users-with-licenses"></a>3. gebruikers met licenties toevoegen
-
-- Voor elke werknemer of persoon in uw bedrijf die bedrijfssoftware en-services moet gebruiken, moet u deze als een gebruiker toevoegen in Microsoft 365. U kunt ze toewijzen aan dezelfde licentie die u toewijst (bijvoorbeeld Microsoft 365 Business Premium), of u kunt ze ook toewijzen met meer of minder functies, zoals Microsoft 365 Business Basic.
-- Wanneer u een gebruiker maakt,&#39;u ll de naam, de e-mailadressen, het wachtwoord en andere gegevens van het werk toevoegen. Ze&#39;ll gebruiken deze gegevens om u aan te melden bij de service en om e-mail te ontvangen. U kunt op elk gewenst moment hun wachtwoord, machtigingen of andere instellingen wijzigen.
+- Kies [Office 365 Business Essentials](https://www.microsoft.com/en-us/p/office-365-business-essentials/cfq7ttc0k59v?rtc=1&amp;activetab=pivot:overviewtab) als u alleen online-apps (apps die u in een webbrowser kunt openen) wilt voor e-mail, het maken van documenten, samenwerking en cloudopslag. Dit geldt voor Word Online, Excel Online, PowerPoint Online en SharePoint Online.
+- Kies [Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium) als u de uitgebreide versie van Office-apps zoals Word, Excel en Teams wilt die rechtstreeks op uw pc's en Macs worden uitgevoerd. Dit is een aanvulling op de online-apps.
+- Kies [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business?rtc=1) als u alle Office-apps wilt, plus cloudbeveiliging en apparaatbeheer. Dit omvat bescherming tegen virussen, malware, ransomware en meer, evenals apparaatbeheer en versleuteling. U kunt ook een gratis upgrade naar Windows 10 Pro uitvoeren van eerdere versies van Windows Professional.
+- Als u een groter bedrijf hebt of complexere IT-apps en -services nodig hebt, lees dan meer over onze [Microsoft 365 Enterprise-abonnementen.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
 
 
-## <a name="4-enable-threat-protection"></a>4. bedreigingsbeveiliging inschakelen
+## <a name="2-add-a-domain-name"></a>2. Een domeinnaam toevoegen
 
-- U&#39;ll wilt de geavanceerde beveiliging van bedreigingen inschakelen tijdens het instellen van de service. Microsoft 365 Advanced Threat Protection omvat configuratie-, beschermings-en detectie functies, waaronder veilige bijlagen, veilige koppelingen, SharePoint-, OneDrive-en Microsoft teams-bescherming, bescherming tegen phishing en het detecteren van realtime bedreigingen.
-- Standaard biedt u&#39;ll hulp bij de basisbescherming tegen veelvoorkomende online bedreigingen, maar u kunt deze instellingen later aanpassen aan uw bedrijfsbehoeften.
+- Een domeinnaam biedt uw organisatie een professionele en gemakkelijk te onthouden online-identiteit, _zoals_ rob@contoso.com. Als u er al een hebt, kunt u deze meenemen naar Microsoft 365 of Microsoft 365. We&#39;hulp bij de overgang.
+- Hebt&#39;geen domein? Het&#39;om er tegelijkertijd met uw aanmelding voor Microsoft 365 of Microsoft 365 een te krijgen.
 
-## <a name="5-manage-and-secure-your-devices"></a>5. uw apparaten beheren en beveiligen
+**Opmerking:**  Naast uw e-mail kunt u het domein gebruiken met een website op verschillende hosts, zoals WordPress, GoDaddy of Wix.
 
-- Met Microsoft 365 Business Premium ontvangt u beveiliging op uw apparaten, bescherming tegen online bedreigingen en bescherming tegen onbedoeld verlies van gegevens. U ontvangt ook Windows Defender, BitLocker en automatische updates voor Windows 10 Pro en Office-apps.
-- U kunt multi-factor Authentication (MFA), e-mail versleuteling, beveiliging tegen malware en Ransomware-beveiliging instellen om onbevoegde toegang tot apparaten en gegevens te voorkomen.
-- U kunt uw waardevolle werkgegevens die lokaal zijn opgeslagen op uw PC, in SharePoint of OneDrive voor bedrijven of op uw mobiele apparaat, beschermen. Met behulp van de ingebouwde MDM (Mobile Device Management) voor Microsoft 365 kunt u uw gebruikers beschermen en beheren&#39; mobiele apparaten zoals iPhones, iPads, Android-telefoons en Windows phones. Met MDM kunt u beveiligingsbeleid voor apparaten maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaten weergeven.
+## <a name="3-add-users-with-licenses"></a>3. Gebruikers met licenties toevoegen
 
-## <a name="6-upgrade-your-pcs-to-windows-10-pro"></a>6. uw Pc's upgraden naar Windows 10 Pro
+- Voor elke werknemer of persoon in uw bedrijf die zakelijke software en services moet gebruiken, voegt u deze toe als gebruiker in Microsoft 365. U kunt aan hen dezelfde licentie toewijzen die u aan uzelf toewijst (bijvoorbeeld Microsoft 365 Business Premium), of u kunt ze verschillende abonnementen met meer of minder functies toewijzen (bijvoorbeeld Microsoft 365 Business Basic).
+- Wanneer u een gebruiker maakt, kunt&#39;naam, werk-e-mailadres, wachtwoord en andere gegevens toevoegen. Ze&#39;deze gegevens gebruiken om zich aan te melden bij de service en e-mail te ontvangen. U kunt hun wachtwoord, machtigingen of andere instellingen op elk moment wijzigen.
 
-- Voer een upgrade van uw Pc's uit naar Windows 10 Professional (gratis met Microsoft 365 Business Premium als&#39;u Windows 7 Pro, Windows 8 Pro of Windows 8,1 Pro opnieuw gebruikt) zodat u kunt profiteren van alle functies van Microsoft 365 Business Premium, zoals geavanceerde beveiliging en Apparaatbeheer.
-- U kunt ook een upgrade uitvoeren naar Windows 10 Pro via een consumentenversie of als u&#39;Microsoft 365 Business Standard opnieuw uitvoert, maar een eenmalige aankoop is vereist.
 
-## <a name="7-connect-your-pcs-to-microsoft-365"></a>7. Koppel uw Pc's aan Microsoft 365
+## <a name="4-enable-threat-protection"></a>4. Bedreigingsbeveiliging inschakelen
 
-- Om optimaal gebruik te maken van Microsoft 365,&#39;u de Windows 10-Pc's verbinden met Microsoft 365 Business Premium en Azure Active Directory achter het programma. Hiermee kan uw PC worden beheerd door Microsoft 365 Business Premium, zodat software updates en beveiliging tegen gegevensverlies en andere cyber threats kunnen worden verkregen.
-- Wanneer u verbinding maakt met uw PC, registreert Windows 10 uw apparaat met uw organisatie&#39;s Network en voegt dit vervolgens samen met het netwerk, zodat u uw organisatie&#39;s gebruikersnaam en wachtwoord kunt gebruiken om u aan te melden en toegang te krijgen tot bronnen.
-- Op basis van de vereisten van uw organisatie&#39;s, wordt u mogelijk gevraagd verificatie, codering en mobiel apparaat in te stellen, zoals Microsoft intune.
+- U&#39;Advanced Threat Protection in te stellen tijdens het instellen van de service. Microsoft 365 Advanced Threat Protection omvat configuratie-, beveiliging- en detectiemogelijkheden, waaronder veilige bijlagen, veilige koppelingen, SharePoint, OneDrive en Microsoft Teams-beveiliging, beveiliging tegen phishing en detectie van realtime bedreigingen.
+- Standaard ontvangt u&#39;basisbeveiliging tegen algemene onlinebedreigingen, maar u kunt deze instellingen later aanpassen aan uw bedrijfsbehoeften.
+
+## <a name="5-manage-and-secure-your-devices"></a>5. Uw apparaten beheren en beveiligen
+
+- Met Microsoft 365 Business Premium krijgt u beveiliging op uw apparaten, beveiliging tegen onlinerisico's en beveiliging tegen onbedoeld gegevensverlies. U ontvangt ook Windows Defender, BitLocker en automatische updates voor Windows 10 Pro- en Office-apps.
+- U kunt Meervoudige verificatie (MFA), e-mailversleuteling, malwarebeveiliging en ransomware-beveiliging instellen om onbevoegde toegang tot apparaten en gegevens te voorkomen.
+- U kunt uw waardevolle werkgegevens beschermen die lokaal zijn opgeslagen op uw pc, in SharePoint of OneDrive voor Bedrijven, of op uw mobiele apparaat. MDM (Mobile Device Management) voor Microsoft 365 helpt u bij het beveiligen en beheren van uw gebruikers&#39; mobiele apparaten zoals iPhones, iPads, Android-telefoons en Windows-telefoons. Met MDM kunt u beveiligingsbeleid voor apparaten maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatrapporten weergeven.
+
+## <a name="6-upgrade-your-pcs-to-windows-10-pro"></a>6. Uw pc's upgraden naar Windows 10 Pro
+
+- Start een upgrade van uw pc's naar Windows 10 Professional (gratis met Microsoft 365 Business&#39;Premium als u Windows 7 Pro, Windows 8 Pro of Windows 8.1 Pro gebruikt), zodat u kunt profiteren van alle functies van Microsoft 365 Business Premium, zoals geavanceerd beveiligings- en apparaatbeheer.
+- U kunt ook een upgrade uitvoeren naar Windows 10 Pro vanuit een consumentenversie of als u&#39;Microsoft 365 Business Standard gebruikt, maar een eenjarige aankoop is vereist.
+
+## <a name="7-connect-your-pcs-to-microsoft-365"></a>7. Uw pc's verbinden met Microsoft 365
+
+- Als u microsoft 365 wilt gebruiken,&#39;u uw Windows 10-pc's verbinden met Microsoft 365 Business Premium en Azure Active Directory dat erachter wordt uitgevoerd. Hierdoor kan uw pc worden beheerd door Microsoft 365 Business Premium om software-updates en beveiliging te krijgen tegen gegevensverlies en andere cyberaanvallen.
+- Wanneer u uw pc verbindt, registreert Windows 10 uw apparaat met het netwerk van uw organisatie&#39;en wordt uw apparaat aan het netwerk verbonden, zodat u de gebruikersnaam en het wachtwoord van uw organisatie&#39;kunt gebruiken om u aan te melden en toegang te krijgen tot bronnen.
+- Op basis van de vereisten&#39;uw organisatie, wordt u mogelijk gevraagd verificatie, versleuteling en beheer van mobiele apparaten in te stellen in twee stappen, zoals Microsoft Intune.
 
 ## <a name="8-set-up-and-use-office-apps"></a>8. Office-apps instellen en gebruiken
 
-- Begin met het gebruiken van alle Office-apps die voor u beschikbaar zijn, zoals Word, Excel en PowerPoint. Als het&#39;s nog niet is geïnstalleerd, kunt u het gemakkelijk installeren vanaf de [website van Microsoft Office](https://www.office.com/).
-- Een van de eerste dingen die u&#39;ll doen, is de eerste keer dat u Outlook opent. U&#39;ll Voer uw e-mailadres en wachtwoord voor Microsoft 365 in en heb direct toegang tot uw e-mail, agenda en contactpersonen.
-- Daarnaast kunt u Microsoft teams, Word, Excel, PowerPoint en de rest van de Office-apps openen. U wordt mogelijk gevraagd om uw e-mailadres en wachtwoord de eerste keer dat u de app opent.
+- Gebruik alle Office-apps die voor u beschikbaar zijn, zoals Word, Excel en PowerPoint. Als de&#39;nog niet is geïnstalleerd, kunt u het eenvoudig installeren vanaf de [website van Microsoft Office.](https://www.office.com/)
+- Een van de eerste dingen die&#39;doen, is Outlook de eerste keer openen. U&#39;e-mailadres en wachtwoord voor Microsoft 365 invoeren en direct toegang hebben tot uw e-mail, agenda en contactpersonen.
+- Daarnaast kunt u Microsoft Teams, Word, Excel, PowerPoint en de rest van de Office-apps openen. De eerste keer dat u elke app opent, wordt u mogelijk gevraagd om uw e-mailadres en wachtwoord.
 
-## <a name="9-migrate-old-email-and-files"></a>9. Migreer oude e-mail en bestanden
+## <a name="9-migrate-old-email-and-files"></a>9. Oude e-mail en bestanden migreren
 
-- U wilt op een bepaald moment&#39;ll de oude e-mail, agenda en contactpersonen, evenals bedrijfsdocumenten en andere bestanden, importeren in Microsoft 365 Business Premium.
-- Voor e-mail kunt u dit doen in Outlook door het oude e-mailbericht te exporteren als een PST-bestand en dit vervolgens in het nieuwe e-mailaccount te importeren. Herhaal dit vervolgens op andere computers. U kunt ook een partner gebruiken voor hulp bij deze stap.
-- Voor zakelijke documenten kunt u uw bestanden slepen en neerzetten in OneDrive voor bedrijven en in het geval van gemeenschappelijke of gedeelde zakelijke bestanden naar SharePoint kopiëren.
+- Op een bepaald moment&#39;u niet alleen uw oude e-mail, agenda en contactpersonen, maar ook zakelijke documenten en andere bestanden importeren in Microsoft 365 Business Premium.
+- Voor e-mail kunt u dit in Outlook doen door de oude e-mail te exporteren als een PST-bericht en vervolgens dat PST-bericht te importeren in het nieuwe e-mailaccount. Herhaal dit vervolgens op andere computers. U kunt ook een partner gebruiken om te helpen bij deze stap.
+- Voor zakelijke documenten kunt u uw bestanden slepen en neerzetten in OneDrive voor Bedrijven. In het geval van veelgebruikte of gedeelde zakelijke bestanden kopieert u deze naar SharePoint.
 
-## <a name="10-set-up-your-phones"></a>10. uw telefoons instellen
+## <a name="10-set-up-your-phones"></a>10. Uw telefoons instellen
 
-- Als u van plan bent om uw telefoons productief te houden,&#39;u Office-apps zoals Outlook, teams en Excel op uw mobiele apparaat, zoals Android en iOS, willen gebruiken.
-- Met Microsoft 365 Business Premium wordt beveiliging op elk apparaat afgedwongen, dus wanneer u apps installeert en opent,&#39;u ll wordt gevraagd een pincode te maken, een tweede vorm van verificatie (MFA) te maken en andere instellingen voor het beschermen van bedrijfsgegevens op de telefoon.
+- Als u uw telefoons wilt gebruiken om onderweg productief te blijven,&#39;wilt u Office-apps zoals Outlook, Teams en Excel toevoegen aan uw mobiele apparaten, zoals Android en iOS.
+- Met Microsoft 365 Business Premium wordt beveiliging op elk apparaat afgedwongen, dus bij het installeren en openen van apps wordt u&#39;gevraagd om een pincode te maken, een tweede vorm van verificatie (MFA) te maken en andere instellingen om zakelijke gegevens op de telefoon te beschermen.

@@ -1,5 +1,5 @@
 ---
-title: Bescherming tegen phishing instellen
+title: Anti-phishingbeveiliging instellen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,37 +16,38 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het instellen van bescherming tegen phishing.
-ms.openlocfilehash: f3a1399c8a6a51c7b14af7ffea8fbaea39cd1541
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het instellen van beveiliging tegen phishing.
+ms.openlocfilehash: bcb6b8bac316b4b74c505656cb9a93e7a87e0830
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702236"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927872"
 ---
-# <a name="set-up-anti-phishing"></a>Anti phishing instellen
+# <a name="set-up-anti-phishing"></a>Beleid tegen phishing instellen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWvt9r?autoplay=false]
 
-Phishing is een kwaadaardige aanval waarbij een e-mailbericht eruit ziet alsof het afkomstig is van een vertrouwde bron, maar de persoon probeert uw persoonlijke gegevens te verzamelen. Standaard bevat Microsoft 365 enige bescherming tegen phishing, maar u kunt deze bescherming verhogen door de instellingen te verfijnen. Laten we even kijken.
+Phishing is een kwaadaardige aanval waarbij het lijkt alsof een e-mailbericht afkomstig is van een bekende bron, maar waarin wordt geprobeerd uw persoonlijke gegevens te verzamelen. Microsoft 365 bevat standaard enige beveiliging tegen phishing, maar u kunt deze beveiliging verhogen door de instellingen te verfijnen. Laten we eens kijken.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Selecteer in het Beheercentrum op [https://admin.microsoft.com](https://admin.microsoft.com) **beveiliging**, **risicobeheer**, **beleid** en vervolgens **ATP anti-phishing**.
-1. Selecteer het **standaardbeleid** om dit te verfijnen.
-1. Selecteer **bewerken** in het gedeelte **imitatie** .
-1. Ga naar **domeinen toevoegen om te beschermen** en selecteer de wisselknop om automatisch de domeinnamen toe te voegen.
-1. Ga naar **acties**, open de vervolgkeuzelijst **Als u e-mail verzendt door een geïmiteerde gebruiker** en kies de gewenste actie.
+1. Selecteer in het [https://admin.microsoft.com](https://admin.microsoft.com) beheercentrum Beveiliging, **Bedreigingsbeheer,** **Beleid** en vervolgens **ATP Anti-phishing.** 
+1. Selecteer **Standaardbeleid om** dit te verfijnen.
+1. Selecteer Bewerken **in de** sectie **Imitatie.**
+1. Ga naar **Domeinen toevoegen om te beveiligen en** selecteer de schakelknop om automatisch de domeinen op te nemen die u bezit.
+1. Ga naar **Acties,** open de vervolgkeuzekeuzen Als e-mail wordt verzonden door een **gemitmiteerde** gebruiker en kies de 3D-actie.
 
-    Open de vervolgkeuzelijst **Als u e-mail verzendt door een geïmiteerd domein** en kies de gewenste actie.
-1. Selecteer **voor het inschakelen van imitatie beveiligingstips**. Geef aan of de gebruikers moeten worden aangeleverd wanneer het systeem geïmiteerde gebruikers, domeinen of ongebruikelijke tekens aantreft. Selecteer **Opslaan**.
-1. Selecteer **Mailbox Intelligence** en controleer of dit is ingeschakeld. Zo kunt u uw e-mail efficiënter maken door patronen te leren gebruiken.
-1. Kies **vertrouwde afzenders en domeinen toevoegen**. Hier kunt u e-mailadressen of domeinen toevoegen die u niet als een imitatie mag worden geclassificeerd.
-1. Kies **instellingen controleren**, Controleer of alles klopt, selecteer **Opslaan** en vervolgens **sluiten**.
+    Open de vervolgkeuzekeuzen **Als e-mail wordt verzonden door een gemitmiteerd** domein en kies de 3D-actie die u wilt gebruiken.
+1. Selecteer **Veiligheidstips voor imitatie in turn on.** Kies of tips aan gebruikers moeten worden gegeven wanneer het systeem imitatie gebruikers, domeinen of ongebruikelijke tekens detecteert. Klik op **Opslaan**.
+1. Selecteer **Postvakintelligentie** en controleer of deze is ingeschakeld. Hierdoor wordt uw e-mail efficiënter door gebruikspatronen te leren.
+1. Kies **Vertrouwde afzenders en domeinen toevoegen.** Hier kunt u e-mailadressen of domeinen toevoegen die niet moeten worden geclassificeerd als een imitatie.
+1. Kies **Uw instellingen controleren,** controleer of alles juist is, selecteer **Opslaan** en vervolgens **Sluiten.**
 
-    Uw organisatie heeft nu betere beveiliging tegen phishing-bedreigingen.
+    Uw organisatie is nu beter beschermd tegen phishing-bedreigingen.

@@ -1,5 +1,5 @@
 ---
-title: Meer informatie over abonnementen en licenties in Microsoft 365 voor bedrijven
+title: Informatie over abonnementen en licenties in Microsoft 365 voor Bedrijven
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,38 +14,38 @@ ms.collection:
 - Adm_TOC
 - commerce
 ms.custom:
-- okr_SMB
+- okr_smb
 - AdminSurgePortfolio
 - manage_licenses
 search.appverid:
 - MET150
-description: Meer informatie over abonnementen en licenties vindt u in Microsoft 365 voor bedrijven.
+description: Meer informatie over abonnementen en licenties in Microsoft 365 voor Bedrijven.
 ms.date: 07/01/2020
-ms.openlocfilehash: 51d07e777fd5a9e44c864ea11bb00ddc8c1c70d1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: ccfcb52548fb79267c550afba63c2f5a96b99ed1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638193"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928508"
 ---
-# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Meer informatie over abonnementen en licenties in Microsoft 365 voor bedrijven
+# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Informatie over abonnementen en licenties in Microsoft 365 voor Bedrijven
 
-Wanneer u een abonnement op Microsoft 365 voor bedrijven koopt, meldt u zich aan voor een reeks apps en services waarop u betaalt op maand-of jaarbasis. De toepassingen en services die u als onderdeel van uw abonnement ontvangt, zijn afhankelijk van het product dat u hebt gekocht, zoals Microsoft 365-apps voor bedrijven of Microsoft 365 Business Standard. U kunt zien wat er bij elk product hoort op de pagina [Microsoft 365 voor kleine en middelgrote bedrijven](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) .
+Wanneer u een abonnement op Microsoft 365 voor Bedrijven koopt, kunt u zich registreren voor een set apps en services waar u maandelijks of jaarlijks voor betaalt. Welke toepassingen en services u ontvangt als onderdeel van uw abonnement, is afhankelijk van welk product u hebt gekocht, zoals Microsoft 365 Apps voor Bedrijven of Microsoft 365 Business Standard. U kunt zien wat elk product te bieden heeft op de [pagina Microsoft 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) voor kleine en middelgrote bedrijven.
 
-Wanneer u een abonnement koopt, geeft u het aantal licenties op dat u nodig hebt, op basis van het aantal personen in uw organisatie. Wanneer u een abonnement hebt gekocht, maakt u accounts voor de personen in uw organisatie en wijst u een licentie toe aan elke persoon. Als u de behoeften van uw organisatie wilt wijzigen, kunt u meer licenties kopen voor nieuwe mensen of licenties opnieuw toewijzen aan andere gebruikers wanneer iemand uw organisatie verlaat.
+Wanneer u een abonnement koopt, geeft u het aantal licenties op dat u nodig hebt, op basis van het aantal personen in uw organisatie. Nadat u een abonnement hebt gekocht, maakt u accounts voor personen in uw organisatie en wijst u vervolgens een licentie aan elke persoon toe. Als de behoeften van uw organisatie veranderen, kunt u meer licenties kopen voor nieuwe personen of licenties opnieuw toewijzen aan andere gebruikers wanneer iemand uw organisatie verlaat.
 
-Als u meer dan één abonnement hebt, kunt u voor elk abonnement licenties toewijzen aan verschillende personen. U kunt bijvoorbeeld al uw gebruikers aan alle Microsoft 365-toepassingen en-services toewijzen als onderdeel van een abonnement op Microsoft 365 Business Standard. U kunt een subset van gebruikers ook aan Visio online toewijzen via een apart Visio-abonnement.
+Als u meerdere abonnementen hebt, kunt u voor elk abonnement licenties toewijzen aan verschillende personen. U kunt bijvoorbeeld al uw gebruikers toewijzen aan alle Microsoft 365-toepassingen en -services als onderdeel van een Microsoft 365 Business Standard-abonnement. U kunt ook een subset gebruikers via een afzonderlijk Visio-abonnement toewijzen aan Visio Online.
 
 ## <a name="how-many-devices-can-people-install-office-on"></a>Op hoeveel apparaten kan iemand Office installeren?
 
-Als uw abonnement een van de volgende producten bevat, kan elke medewerker Office installeren op maximaal vijf Pc's of Mac, vijf Tablets en vijf telefoons.
+Als uw abonnement een van de volgende producten bevat, kan elke persoon Office installeren op maximaal vijf pc's of Macs, vijf tablets en vijf telefoons.
 
 :::row:::
    :::column span="":::
-        -Microsoft 365-apps voor bedrijven-Microsoft 365-apps voor Enterprise-Microsoft 365 Business Standard-Microsoft 365 Business Premium-Microsoft 365 a3-Microsoft 365 A5
+        - Microsoft 365-apps voor bedrijven - Microsoft 365-apps voor ondernemingen - Microsoft 365 Business Standard - Microsoft 365 Business Premium - Microsoft 365 A3 - Microsoft 365 A5
    :::column-end:::
    :::column span="":::
-        -Microsoft 365 E3-Microsoft 365 E5-Office 365 a1 plus-Office 365 a3-Office 365 A5-Office 365 E3-Office 365 E5
+        - Microsoft 365 E3 - Microsoft 365 E5 - Office 365 A1 Plus - Office 365 A3 - Office 365 A5 - Office 365 E3 - Office 365 E5
    :::column-end:::
 :::row-end:::
 
@@ -55,10 +55,10 @@ In de volgende tabel ziet u wat er automatisch gebeurt als u iemand een licentie
   
 |**Als deze service is opgenomen in het abonnement**|**Gebeurt dit automatisch**|
 |:-----|:-----|
-|Exchange Online  <br/> |Er wordt een postvak voor die medewerker gemaakt. <br/> Zie [' instellen... ' voor meer informatie over de sla van de taak die u wilt uitvoeren. berichten in het Microsoft 365-Beheercentrum](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center). |
+|Exchange Online  <br/> |Er wordt een postvak voor die medewerker gemaakt. <br/> Zie 'Instellen...' voor meer informatie over de SLA voor het voltooien [van deze taak. in het Microsoft 365-beheercentrum.](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center) |
 |SharePoint Online  <br/> |De medewerker krijgt machtigingen voor bewerken voor de standaardteamsite van SharePoint Online.  <br/> |
-|Skype voor Bedrijven Online  <br/> |De persoon heeft toegang tot de functies die bij de licentie horen.  <br/> |
-|Microsoft 365-apps voor ondernemingen  <br/> |De persoon kan Office-apps downloaden op maximaal vijf Macs of Pc's, vijf Tablets en vijf smartphones.  <br/> |
+|Skype voor Bedrijven Online  <br/> |De persoon heeft toegang tot de functies die aan de licentie zijn gekoppeld.  <br/> |
+|Microsoft 365-apps voor ondernemingen  <br/> |De persoon kan Office-apps downloaden op maximaal vijf Macs of pc's, vijf tablets en vijf smartphones.  <br/> |
 
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>Licenties voor postvakken van niet-gebruikers
 
@@ -66,7 +66,7 @@ U hoeft geen licenties toe te wijzen aan resourcepostvakken, postvakken voor ver
   
 - [Een gedeeld postvak maken](../../admin/email/create-a-shared-mailbox.md)
 - [Een licentie uit een gedeeld postvak verwijderen](../../admin/email/remove-license-from-shared-mailbox.md)
-- [Gedeelde postvakken in Exchange Online](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes) voor alle andere microsoft 365-abonnementen.
+- [Gedeelde postvakken in Exchange Online](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes) voor alle andere Microsoft 365-abonnementen.
 - [Postvakken voor vergaderruimten maken en beheren](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-room-mailboxes)
 - [Postvakken van apparatuur beheren](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-equipment-mailboxes)
 
@@ -74,7 +74,7 @@ U hoeft geen licenties toe te wijzen aan resourcepostvakken, postvakken voor ver
 
 Verschillende typen beheerders kunnen op verschillende manieren met licenties werken, afhankelijk van hun rol. In de volgende tabel ziet u de meest voorkomende opties. Zie [Informatie over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor een volledige lijst met rollen en bevoegdheden van beheerders.
   
-|**Beheerdersrol**|**Een licentie toewijzen**|**Een licentie intrekken**|**Meer licenties kopen**|**Een account verwijderen**|
+|**Beheerdersrol**|**Een licentie toewijzen**|**Een licentie inleveren**|**Meer licenties kopen**|**Een account verwijderen**|
 |:-----|:-----|:-----|:-----|:-----|
 |Factureringsbeheerder  <br/> |Nee  <br/> |Nee  <br/> |Ja  <br/> |Nee  <br/> |
 |Algemene beheerder  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
@@ -84,7 +84,7 @@ Verschillende typen beheerders kunnen op verschillende manieren met licenties we
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Licenties kopen of verwijderen voor uw zakelijke abonnement](buy-licenses.md) (artikel) \
-[Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel) \
+[Licenties kopen of in verwijderen voor uw zakelijke abonnement](buy-licenses.md) (artikel)\
+[Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Licenties van gebruikers intrekken](../../admin/manage/remove-licenses-from-users.md) (artikel)\
-[Een licentie van een gedeeld postvak verwijderen](../../admin/email/remove-license-from-shared-mailbox.md) (artikel)
+[Een licentie verwijderen uit een gedeeld postvak](../../admin/email/remove-license-from-shared-mailbox.md) (artikel)

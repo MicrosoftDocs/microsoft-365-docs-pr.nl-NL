@@ -1,9 +1,9 @@
 ---
 title: Vereisten voor Microsoft 365 Defender
-description: Meer informatie over de licenties, hardware-en softwarevereisten en andere configuratie-instellingen voor Microsoft 365 Defender
+description: Meer informatie over de licentie-, hardware- en softwarevereisten en andere configuratie-instellingen voor Microsoft 365 Defender
 keywords: vereisten, vereisten, hardware, software, browser, MTP, M365, licentie, E5, A5, EMS, aankoop
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 415cdb79a6aa9371ee2f07de579cfb2f873f1acb
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: ee1777debdb91a6ac73737db2db48e434ed3e2e2
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844774"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930088"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Vereisten voor Microsoft 365 Defender
 
@@ -34,48 +35,48 @@ ms.locfileid: "48844774"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Meer informatie over licenties en andere vereisten voor het inrichten en het gebruik van [Microsoft 365 Defender](microsoft-threat-protection.md).
+Meer informatie over licenties en andere vereisten voor het inrichten en gebruiken [van Microsoft 365 Defender.](microsoft-threat-protection.md)
 
 ## <a name="licensing-requirements"></a>Licentievereisten
-Met beschikbare licenties kunt u Microsoft 365 Defender-functies in Microsoft 365 Beveiligingscentrum zonder extra kosten raadplegen:
+Met elk van deze licenties hebt u zonder extra kosten toegang tot microsoft 365 Defender-functies in het Microsoft 365-beveiligingscentrum:
 
 - Microsoft 365 E5 of A5
-- Microsoft 365 E5 beveiliging of A5-beveiliging
+- Microsoft 365 E5-beveiliging of A5-beveiliging
 - Windows 10 Enterprise E5 of A5
 - Enterprise Mobility + Security (EMS) E5 of A5 
 - Office 365 E5 of A5
-- Microsoft Defender voor eindpunt
-- Microsoft Defender voor identiteit 
+- Microsoft Defender for Endpoint
+- Microsoft Defender for Identity 
 - Microsoft Cloud App Security
 - Defender voor Office 365 (abonnement 2)
 
 > [!NOTE]
-> Proeflicenties voor Office 365 bieden momenteel geen toegang tot Microsoft 365 Defender.
+> Proeflicenties voor Office 365 bieden op dit moment geen toegang tot Microsoft 365 Defender.
 
-Voor meer informatie [raadpleegt u de Microsoft 365 Enterprise service-abonnementen](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise).
+Bekijk de Serviceplannen [voor Microsoft 365 Enterprise voor meer informatie.](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)
 
 > Hebt u nog geen licentie? [Koop een Microsoft 365-abonnement of probeer er een uit](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
 
-### <a name="check-your-existing--licenses"></a>Controleer uw bestaande licenties
-Ga naar het Microsoft 365-Beheercentrum ([admin.Microsoft.com](https://admin.microsoft.com/)) om uw bestaande licenties weer te geven. Ga in het Beheercentrum naar **facturerings**  >  **licenties**.
+### <a name="check-your-existing--licenses"></a>Uw bestaande licenties controleren
+Ga naar het Microsoft 365-beheercentrum[(admin.microsoft.com)](https://admin.microsoft.com/)om uw bestaande licenties te bekijken. Ga in het beheercentrum naar   >  **Factureringslicenties.**
 
 >[!NOTE]
-> U moet de rol **factureringsbeheerder** of **algemene lezer** [in azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) toewijzen om licentiegegevens te kunnen zien. Neem contact op met een globale beheerder als u toegangsproblemen ondervindt.
+> U moet de rol Factureringsbeheerder  **of** Globale lezer [hebben toegewezen in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) om licentiegegevens te kunnen zien. Als u toegangsproblemen ondervindt, neem dan contact op met een globale beheerder.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
-U moet een **globale beheerder** of een **beveiligingsbeheerder** in azure Active Directory zijn om Microsoft 365 Defender in te schakelen. Lees over het beheren van de [toegang tot Microsoft 365 Defender](mtp-permissions.md)voor een lijst met rollen die vereist zijn voor het gebruik van microsoft 365 Defender en informatie over de manier waarop gegevens worden gereguleerd.
+U moet een globale beheerder **of** beveiligingsbeheerder **in** Azure Active Directory zijn om Microsoft 365 Defender in te zetten. Lees de toegang tot Microsoft 365 Defender voor een lijst met de vereiste rollen voor het gebruik van [Microsoft 365 Defender](mtp-permissions.md)en informatie over hoe toegang tot gegevens is geregeld.
 
-## <a name="browser-requirements"></a>Browser vereisten
-Gebruik Microsoft 365 Defender in het Microsoft 365-Beveiligingscentrum met behulp van Microsoft Edge, Internet Explorer 11 of een HTML 5-compatibele webbrowser.
+## <a name="browser-requirements"></a>Browservereisten
+Gebruik Microsoft 365 Defender in het Microsoft 365-beveiligingscentrum met Microsoft Edge, Internet Explorer 11 of een webbrowser die compatibel is met HTML 5.
 
-## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>Beschikbaarheid voor US GCC, GCC High en andere Amerikaanse overheidsinstellingen
-Microsoft 365 Defender is op dit moment *niet* beschikbaar voor:
-- Community Cloud (GCC) voor de Amerikaanse overheid
-- Community voor de Amerikaanse overheid (GCC High)
-- Amerikaans Ministerie van verdediging
-- Alle Amerikaanse Government instituten met commerciële licenties
+## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>Beschikbaarheid voor amerikaanse GCC-, GCC High- en andere Amerikaanse overheidsinstellingen
+Op dit moment is Microsoft 365 Defender *niet* beschikbaar voor:
+- Amerikaanse Government Community Cloud (GCC)
+- US Government Community Cloud High (GCC High)
+- Amerikaanse afdeling van verdediging
+- Alle Amerikaanse overheidsinstellingen met commerciële licenties
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van Microsoft 365 Defender](microsoft-threat-protection.md)
-- [Microsoft 365 Defender inschakelen](mtp-enable.md)
+- [Microsoft 365 Defender in te zetten](mtp-enable.md)
 - [Toegang en machtigingen beheren](mtp-permissions.md)

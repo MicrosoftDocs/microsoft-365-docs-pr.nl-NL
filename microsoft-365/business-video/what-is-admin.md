@@ -1,5 +1,5 @@
 ---
-title: Wat is een beheerder in Microsoft 365 voor bedrijven
+title: Wat is een beheerder in Microsoft 365 voor Bedrijven
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,51 +16,52 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over de beheerdersrollen in Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 417a8af4c367e8abbef2c15da86fd07e0d8fd72c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Meer informatie over de beheerdersrollen in Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: 3f532080dfa8b492700e258ab109a04962820557
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702207"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927740"
 ---
 # <a name="what-is-a-microsoft-365-admin"></a>Wat is een Microsoft 365-beheerder?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0?autoplay=false]
 
-In elk Microsoft 365-Business-abonnement moet u minimaal één beheerdersaccount hebben. De beheerder beheert de service, gebruikersaccounts en apparaten. Als u degene bent die zich heeft geregistreerd voor het abonnement, bent u de globale beheerder van uw abonnement. U kunt ook een beheerder worden als een andere beheerder u doet.
+In elk Abonnement op Microsoft 365 Business moet er ten minste één beheerdersaccount zijn. De beheerder beheert de service, gebruikersaccounts en apparaten. Als u de persoon bent die zich heeft aangemeld voor het abonnement, bent u de globale beheerder van uw abonnement. U kunt ook een beheerder worden als u een andere beheerder bent.
 
-Hoewel u altijd minimaal één beheerdersrol nodig hebt voor uw abonnement, kan dit een beveiligingsrisico zijn als het beheerdersaccount wordt aangetast door een externe partij. U wordt aangeraden alleen de beheerdersrol toe te wijzen aan de personen die u nodig hebt en de rol van de gebruiker aan de meeste personen toe te wijzen.
+Hoewel u altijd ten minste één beheerdersrol voor uw abonnement nodig hebt, kan dit een beveiligingsrisico zijn als het beheerdersaccount wordt gehackt door een externe partij. U wordt aangeraden de beheerdersrol alleen toe te wijzen aan degenen die deze echt nodig hebben en de gebruikersrol toe te wijzen aan de meeste personen.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
 ### <a name="change-a-user-role-to-an-admin-role"></a>Een gebruikersrol wijzigen in een beheerdersrol
 
-U kunt als volgt een gebruikersrol wijzigen in een beheerdersrol:
+U kunt als volgende manier een gebruikersrol wijzigen in een beheerdersrol:
 
-1. Meld u aan bij Microsoft 365 en selecteer het startprogramma voor apps. Als u de knop beheerder ziet, bent u een beheerder.
-1. Selecteer **beheerder** om naar het microsoft 365-Beheercentrum te gaan.
-1. Selecteer **gebruikers** en vervolgens **actieve gebruikers** in het linker navigatiedeelvenster.
-1. Selecteer de persoon die een beheerder wilt maken. De gegevens van de gebruiker worden in het rechterdeelvenster weergegeven.
-1. Kies **rollen beheren**.
-1. Wis het selectievakje **gebruiker (geen beheerderstoegang)** en selecteer een van de beheerdersrollen. Als u meer wilt weten over een functie, plaatst u de muisaanwijzer op het uitroepteken (!) en leest u de tooltip. Selecteer **globale beheerder** als u de gebruiker dezelfde rol wilt geven als u wilt.
+1. Terwijl u bent aangemeld bij Microsoft 365, selecteert u het start-programma voor apps. Als u de knop Beheerder ziet, bent u een beheerder.
+1. Selecteer **Beheerder** om naar het Microsoft 365-beheercentrum te gaan.
+1. Selecteer in het linkernavigatiedeelvenster **Gebruikers** en vervolgens **Actieve gebruikers.**
+1. Selecteer de persoon die u beheerder wilt maken. De gegevens van de gebruiker worden weergegeven in het rechterdialoogvenster.
+1. Kies **Rollen beheren.**
+1. Schakel het **selectievakje Gebruiker (geen beheerderstoegang)** uit en selecteer vervolgens een van de beheerdersrollen. Als u meer wilt weten over een rol, beweegt u de muisaanwijzer over het uitroepteken (!) en leest u de knoptip. Als u de gebruiker dezelfde rol wilt geven als die van u, selecteert u **Globale beheerder.**
 1. Selecteer **Wijzigingen opslaan**.
 
 ### <a name="create-an-admin-account"></a>Een beheerdersaccount maken 
 
-U kunt ook een toegewijd beheerdersaccount voor een IT-persoon of service maken:
+U kunt ook een toegewezen beheerdersaccount maken voor een IT-persoon of service:
 
-1. Meld u aan bij Microsoft 365 en selecteer het startprogramma voor apps.
-1. Selecteer **beheerder** om naar het microsoft 365-Beheercentrum te gaan.
-1. Selecteer **gebruikers** en vervolgens **actieve gebruikers** in het linker navigatiedeelvenster.
-1. Selecteer **een gebruiker toevoegen**.
-1. Voer de **voornaam** en de **Achternaam** van de gebruiker, **weergavenaam** en **gebruikersnaam** in en selecteer **volgende**.
-1. Kies **gebruiker maken zonder productlicentie**. Hiermee voegt u een nieuwe gebruiker toe, maar hoeft u geen maandabonnement te betalen. Selecteer **Volgende**.
-1. Open **rollen**.
-1. Schakel het selectievakje uit en selecteer een van de beheerdersrollen. Selecteer **Volgende**.
-1. Controleer de gegevens en selecteer **toevoegen voltooien**.
+1. Terwijl u bent aangemeld bij Microsoft 365, selecteert u het start-programma voor apps.
+1. Selecteer **Beheerder** om naar het Microsoft 365-beheercentrum te gaan.
+1. Selecteer in het linkernavigatiedeelvenster **Gebruikers** en vervolgens **Actieve gebruikers.**
+1. Selecteer **Een gebruiker toevoegen.**
+1. Voer de voor- en **achternaam** **van** de gebruiker, **Weergavenaam** en Gebruikersnaam in **en** selecteer **Volgende.**
+1. Kies **Gebruiker maken zonder productlicentie.** Hiermee wordt een nieuwe gebruiker toegevoegd, maar u hoeft niet te betalen voor een maandabonnement. Selecteer **Volgende**.
+1. Rollen **openen.**
+1. Schakel het selectievakje uit en selecteer vervolgens een van de beheerdersrollen. Selecteer **Volgende**.
+1. Controleer de gegevens en selecteer vervolgens Toevoegen **voltooien.**
 1. Selecteer **Sluiten**.

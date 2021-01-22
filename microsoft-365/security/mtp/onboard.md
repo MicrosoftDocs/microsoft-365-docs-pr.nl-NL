@@ -1,11 +1,11 @@
 ---
-title: De mogelijkheden van Microsoft Defender voor eindpunten configureren en beheren
+title: Mogelijkheden van Microsoft Defender voor eindpunt configureren en beheren
 ms.reviewer: ''
-description: Microsoft Defender configureren en beheren voor eindpunt mogelijkheden zoals aanvals vermindering en de volgende generatie beveiliging
-keywords: configureren, beheren, functies, oppervlakte van aanval, volgende generatie beveiliging, beveiligings besturing, detectie van het eindpunt en antwoord, automatisch onderzoek en herstel, beveiliging besturingselement
+description: Mogelijkheden van Microsoft Defender voor eindpunten configureren en beheren, zoals het verminderen van het aanvallenoppervlak en beveiliging van de volgende generatie
+keywords: configure, manage, capabilities, attack surface reduction, next generation protection, security controls, endpoint detection and response, auto investigation and remediation, security controls, controls
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: w10
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -18,33 +18,34 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: b202b30e218448794eac7588078ff3ac9cfe9ee3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d04177ef38c1bd04b0b73e29de9d8ab6fc0893ce
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844810"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930124"
 ---
-# <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>De mogelijkheden van Microsoft Defender voor eindpunten configureren en beheren
+# <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>Mogelijkheden van Microsoft Defender voor eindpunt configureren en beheren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
-- [Microsoft Defender voor eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2069559)
+- [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 
-U kunt alle functies van Microsoft Defender voor eindpunten configureren en beheren om de beste beveiligings beveiliging voor uw organisatie te krijgen. 
+Configureer en beheer alle mogelijkheden van Microsoft Defender for Endpoint om de beste beveiligingsbescherming voor uw organisatie te krijgen. 
 
 
 ## <a name="in-this-section"></a>In deze sectie 
-Rond | Beschrijving 
+Onderwerp | Beschrijving 
 :---|:---
-[Mogelijkheden voor oppervlakte vermindering van aanval configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Als u zeker weet dat de configuratie-instellingen op de juiste manier zijn ingesteld en van toepassing zijn, worden deze mogelijkheden weergegeven voor aanvallen en exploitatie. 
-[Volgende generatie beveiliging configureren](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | Configureer de volgende generatie beveiliging om alle soorten opkomende bedreigingen te vangen.
-[De mogelijkheden van Microsoft Threat experts configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Configureer en beheer hoe u Cyber Security bedreigings informatie van Microsoft Threat experts wilt verzamelen.
-[Integratie van Microsoft 365 Defender configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Andere oplossingen configureren die worden geïntegreerd met Microsoft Defender voor eindpunt.
-[Ondersteuning voor het beheer en de API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| U ontvangt waarschuwingen aan uw SIEM of gebruik Api's om aangepaste waarschuwingen te maken. Power BI-rapporten maken en maken. 
-[Instellingen voor Microsoft Defender-Beveiligingscentrum configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  Instellingen voor de portal configureren, zoals algemene instellingen, geavanceerde functies, de voorbeeld ervaring en andere functies inschakelen.
+[Mogelijkheden voor het verminderen van het aanvallenoppervlak configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  Door ervoor te zorgen dat de configuratie-instellingen correct zijn ingesteld en technieken voor risicobeperking te misbruiken worden toegepast, kunnen deze mogelijkheden aanvallen en misbruik tegengaan. 
+[Volgende generatie-beveiliging configureren](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | Configureer beveiliging van de volgende generatie om alle typen nieuwe bedreigingen te zien.
+[Mogelijkheden van Microsoft Threat Experts configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Configureer en beheer hoe u bedreigingsinformatie wilt krijgen van Microsoft Threat Experts.
+[Integratie met Microsoft 365 Defender configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| Configureer andere oplossingen die kunnen worden geïntegreerd met Microsoft Defender voor eindpunt.
+[Ondersteuning voor management en API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| Haal waarschuwingen op voor uw SIEM of gebruik API's om aangepaste waarschuwingen te maken. Power BI-rapporten maken en maken. 
+[De instellingen van het Microsoft Defender-beveiligingscentrum configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  Configureer portal-gerelateerde instellingen, zoals algemene instellingen, geavanceerde functies, schakel de preview-ervaring in en andere.
 
 
 

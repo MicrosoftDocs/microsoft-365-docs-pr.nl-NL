@@ -1,5 +1,5 @@
 ---
-title: 'Google-bestanden migreren naar Microsoft 365 voor bedrijven '
+title: 'Google-bestanden migreren naar Microsoft 365 voor Bedrijven '
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -15,83 +15,84 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Informatie over het migreren van Google-bestanden naar Microsoft 365 voor bedrijven met behulp van de overzetten.
-ms.openlocfilehash: a6f9dbf7803cb552c23b6c6abb13d13d6f3eda5d
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Lees hoe u Google-bestanden migreert naar Microsoft 365 voor Bedrijven met behulp van Mover.
+ms.openlocfilehash: 99040e4846aba084f40536e88f0aed70998f48be
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794599"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928196"
 ---
-# <a name="migrate-google-files-to-microsoft-365-for-business"></a>Google-bestanden migreren naar Microsoft 365 voor bedrijven 
+# <a name="migrate-google-files-to-microsoft-365-for-business"></a>Google-bestanden migreren naar Microsoft 365 voor Bedrijven 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MhaD?autoplay=false]
 
-Wanneer u overstapt op Microsoft 365 voor bedrijven, wilt u uw bestanden migreren van Google Drive. U kunt de app voor de verhuizer gebruiken om bestanden te verplaatsen van persoonlijke en gedeelde stations. Zie [migratie van cloud clouds](https://docs.microsoft.com/sharepointmigration/mover-plan-migration) voor meer informatie
+Wanneer u overstapt op Microsoft 365 voor Bedrijven, wilt u uw bestanden migreren vanuit Google Drive. U kunt de app Mover gebruiken om bestanden te verplaatsen van persoonlijke en gedeelde stations. Zie Migratie [in de Cloud Mover voor meer informatie](https://docs.microsoft.com/sharepointmigration/mover-plan-migration)
 
 > [!NOTE]
-> Met de overzetten maakt u een kopie van de bestanden en verplaatst u de kopieën naar Microsoft 365 voor bedrijven. De oorspronkelijke bestanden blijven ook in Google Drive.
+> Mover maakt een kopie van de bestanden en verplaatst de kopieën naar Microsoft 365 voor Bedrijven. De oorspronkelijke bestanden blijven ook in Google Drives behouden.
 
 ## <a name="before-you-start"></a>Voordat u van start gaat
 
-Alle gebruikers moeten zijn aangemeld bij Microsoft 365 voor bedrijven en hun OneDrive voor bedrijven instellen. Hiervoor gaat u naar [Office.com](https://office.com), meldt u zich aan met Microsft 365 for Business credentials en kies vervolgens OneDrive.
+Alle gebruikers moeten zich hebben aangemeld bij Microsoft 365 voor Bedrijven en hun OneDrive voor Bedrijven hebben ingesteld. Hiervoor gaat u naar [office.com,](https://office.com)meld u aan met uw Microsft 365 voor Bedrijven-referenties en kiest u vervolgens OneDrive.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-### <a name="install-mover"></a>Installatie overdrijf
+### <a name="install-mover"></a>Mover installeren
 
-1. Meld u aan bij uw Google Workspace-beheerconsole op [admin.Google.com](https://admin.google.com).
+1. Meld u aan bij uw Google Workspace-beheerconsole [admin.google.com.](https://admin.google.com)
 
-1. Kies **apps**, **apps voor Google Workspace** en vervolgens **app toevoegen aan de lijst voor installeren** van de domein.
+1. Kies **Apps,** **Google Workspace Marketplace-apps** en vervolgens app toevoegen aan de lijst voor het installeren van **domeinen.**
 
-1. Zoek de Verhuizer en selecteer deze.
+1. Zoek naar Mover en selecteer deze.
 
-1. Kies **domein installeren** en vervolgens **Doorgaan**.
+1. Kies **Domein installeren** en vervolgens **Doorgaan.**
 
-1. Controleer de machtigingen, schakel het selectievakje in om de voorwaarden te accepteren en selecteer vervolgens **toestaan**, kies **volgende** en vervolgens **gereed**.
+1. Controleer de machtigingen, schakel het selectievakje in om akkoord te gaan met de voorwaarden, selecteer Vervolgens **Toestaan,** **kies Volgende** en vervolgens **Klaar.**
 
 ### <a name="create-connectors-and-run-the-migration"></a>Connectors maken en de migratie uitvoeren
 
-1. Ga terug naar **apps voor Google Workspace Marketplace**.
-1. Vernieuw de browser en selecteer de app over de **verhuizer** .
-1. Schuif omlaag en klik op de koppeling voor universeel navigatie.
-1. Selecteer **nieuwe connector machtigen**, ga naar **G suite (beheerder)** en kies **autoriseren**.
-1. Wijzig desgewenst de **weergavenaam** en selecteer vervolgens **machtigen**.
-1. Kies een Google-beheerdersaccount, Controleer de machtigingen en selecteer **toestaan**.
+1. Ga terug **naar De Marketplace-apps van Google Workspace.**
+1. Vernieuw uw browser en selecteer de **Mover-app.**
+1. Schuif omlaag en kies de universele navigatiekoppeling.
+1. Selecteer **Nieuwe connector autor toestemming geven,** zoek **G Suite (beheer)** en kies **Autorbeheerder.**
+1. Wijzig indien **nodig de weergavenaam** en selecteer **Autor.**
+1. Kies een Google-beheerdersaccount, controleer de machtigingen en selecteer **Toestaan.**
 
-    Met de functie aandrijfman wordt het aantal team stations en gebruikersstations weergegeven dat is gedetecteerd. 
+    Mover geeft het aantal team drives en gebruikers stations weer dat is gevonden. 
 
-1. Kies onder **bestemming selecteren** de optie **nieuwe connector machtigen**, zoek **Office 365** en selecteer **autoriseren**.
-1. Als u machtigingen wilt verlenen aan de app-app in uw Azure Active Directory, gaat u naar [aka.MS/Office365MoverAuth](https://aka.ms/Office365MoverAuth).
-1. Selecteer **Office 365-Aandrijfing**, **machtigingen**, **verlenen beheerder akkoord voor uw bedrijf**.
-1. Kies uw account, Controleer de machtigingen en selecteer **accepteren**.
-1. Kies **Eigenschappen** en controleer of **gebruikerstoewijzing vereist is?** is ingeschakeld.
-1. Ga terug naar de verplaatsings-app, Wijzig desgewenst de **weergavenaam**, kies **machtigen** en selecteer vervolgens een Microsoft-beheerdersaccount.
+1. Kies **onder Bestemming selecteren** Nieuwe connector **autor elke** keer, zoek Office **365** en selecteer **Autor.**
+1. Als u machtigingen wilt verlenen aan de Mover-app in uw Azure Active Directory, gaat u [naar aka.ms/Office365MoverAuth.](https://aka.ms/Office365MoverAuth)
+1. Selecteer **Office 365 Mover,** **Machtigingen,** **beheermachtiging verlenen voor uw bedrijf.**
+1. Kies uw account, controleer de machtigingen en selecteer **Accepteren.**
+1. Kies **Eigenschappen en** controleer of **gebruikerstoewijzing** vereist is? is ingeschakeld.
+1. Ga terug naar de Mover-app, wijzig indien nodig de weergavenaam en selecteer een Microsoft-beheerdersaccount. 
 
-    Met de aandrijf functie wordt u geïnformeerd over het aantal sites en gebruikers van SharePoint Online (of SPO).
-1. Kies **Doorgaan met migratie instellen**, selecteer **gebruikers toevoegen** en vervolgens **automatisch gebruikers ontdekken en toevoegen**.
+    Mover informeert u over het aantal SharePoint Online-sites (of SPO-sites) en gebruikers dat is gevonden.
+1. Kies **Doorgaan met migratie instellen,** selecteer Gebruikers **toevoegen** en vervolgens Gebruikers automatisch ontdekken **en toevoegen.**
 
-    Met de app voor het verplaatsen van een map wordt geprobeerd om stations van het bronpad in Google toe te wijzen aan het doelpad in Microsoft 365. 
+    De Mover-app zal proberen stations uit het bronpad in Google toe te staan aan het doelpad in Microsoft 365. 
 
-    Als een station niet automatisch wordt toegewezen, voegt u het doelpad toe aan een CSV-bestand, dat we later gebruiken om het gedeelde station te migreren naar een SharePoint-documentbibliotheek. 
+    Als een station niet automatisch wordt weergegeven, voegt u het doelpad toe aan een CSV-bestand, dat we later gebruiken om het gedeelde station te migreren naar een SharePoint-documentbibliotheek. 
 
-1. In dit geval hebben we een SharePoint-site met de naam gemigreerde bestanden toegevoegd en noteert u de URL voor de pagina documenten. 
-1. Vervolgens maakt u een CSV-bestand met de indeling van bronpad, doelpad en labels. 
+1. In dit geval hebben we een SharePoint-site met de naam Gemigreerde bestanden toegevoegd en een notitie gemaakt van de URL voor de pagina documenten. 
+1. Vervolgens hebben we een CSV-bestand gemaakt met de indeling bronpad, doelpad en tags. 
 
-    Zie [aka.MS/movercsv](https://docs.microsoft.com/sharepointmigration/mover-create-migration-csv)voor meer informatie.
+    Zie de aka.ms/movercsv voor [meer](https://docs.microsoft.com/sharepointmigration/mover-create-migration-csv)informatie.
 
-    Wanneer u de URL van het doelpad toevoegt, moet u alles verwijderen na gedeelde documenten, bijvoorbeeld omdat deze volledige URL niet werkt: `https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents/Forms/AllItems.aspx`
+    Wanneer u bijvoorbeeld de URL naar het doelpad toevoegt, verwijdert u alles na Gedeelde documenten. Deze volledige URL werkt bijvoorbeeld niet: `https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents/Forms/AllItems.aspx`
 
-    Wijzigen in: `https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents`
+    Wijzig deze in: `https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents`
 
-1. Als het CSV-bestand klaar is, selecteert u **migratie acties**, **toevoegen aan migratie**, en **kiest u een bestand om te uploaden**.
-1. Ga naar het CSV-bestand, selecteer het en kies vervolgens **openen**.
-1. Selecteer de stations van de gebruiker van wie u de bestanden wilt migreren en kies vervolgens **migratie gebruikers starten**.
-1. Controleer de migratiegegevens, Kies wanneer u de migratie wilt starten, ga akkoord met de **voorwaarden en** Selecteer vervolgens **Doorgaan**.
+1. Wanneer het CSV-bestand klaar is, selecteert u **Migratieacties,** Toevoegen **aan migratie,** **Kies een bestand om te uploaden.**
+1. Ga naar het CSV-bestand, selecteer dit en kies **Openen.**
+1. Selecteer de stations van de gebruiker van wie u de bestanden wilt migreren en **kies Migratie van gebruikers starten.**
+1. Controleer de migratiegegevens, kies wanneer u de migratie wilt starten, ga akkoord met de **algemene** voorwaarden en selecteer **Doorgaan.**
 
-Met de app over de Verhuizer wordt u gewaarschuwd wanneer het migratieproces is voltooid.
+De Mover-app laat u weten wanneer het migratieproces is voltooid.

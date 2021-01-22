@@ -1,10 +1,10 @@
 ---
-title: EmailPostDeliveryEvents-tabel in het geavanceerde jacht schema
-description: Meer informatie over de acties voor de bezorging van de bezorging van Microsoft 365-e-mails in de tabel EmailPostDeliveryEvents van het schema geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat-jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema Reference, kusto, tabel, Column, datatype, een beschrijving, EmailPostDeliveryEvents, de naam van de bijlage, de afzender, de naam van de e-mail, het aantal koppelingen, het aantal url's
+title: Tabel EmailPostDeliveryEvents in het geavanceerde schema voor zoeken
+description: Meer informatie over acties na de bezorging van Microsoft 365-e-mailberichten in de tabel EmailPostDeliveryEvents van het geavanceerde schema voor zoeken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware phishing op basis van phishing, attachment attachment count, link count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 59e5d0d51997812689c7382d6a27af6f66a27d25
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d7920be05156320411f3907cbcdae88d315b5136
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842606"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929704"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -34,32 +35,32 @@ ms.locfileid: "48842606"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De `EmailPostDeliveryEvents` tabel in het [Geavanceerde](advanced-hunting-overview.md) bezorgings schema bevat informatie over acties voor de bezorging van de bezorging van e-mailberichten die worden verwerkt door Microsoft 365. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De tabel in het geavanceerde schema voor zoeken bevat informatie over acties na bezorging die zijn uitgevoerd op e-mailberichten die worden `EmailPostDeliveryEvents` verwerkt door Microsoft 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de typen gebeurtenissen ( `ActionType` waarden) die door een tabel worden ondersteund, gebruikt u de [ingebouwde schema verwijzing](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) die beschikbaar is in het Beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
 
-Als u meer informatie wilt over afzonderlijke e-mailberichten, kunt u ook de [`EmailEvents`](advanced-hunting-emailevents-table.md) [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md) tabellen, en de [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) tabellen gebruiken. Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Voor meer informatie over afzonderlijke e-mailberichten kunt u ook de [`EmailEvents`](advanced-hunting-emailevents-table.md) tabellen en de tabellen [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md) [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) gebruiken. Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
 | `EventId` | tekenreeks | Unieke id voor de gebeurtenis |
-| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
-| `InternetMessageId` | tekenreeks | Openbare id voor het e-mailbericht dat wordt ingesteld door het verzendende e-mailsysteem |
-| `Action` | tekenreeks | Actie die is uitgevoerd voor de entiteit |
-| `ActionType` | tekenreeks | Type activiteit dat de gebeurtenis heeft veroorzaakt: handmatig herbemiddeling, Phishman, malware ZAP |
-| `ActionTrigger` | tekenreeks | Geeft aan of een actie is geactiveerd door een beheerder (handmatig of via goedkeuring van een geautomatiseerde actie in behandeling), of met een speciaal mechanisme, zoals een ZAP-of dynamische bezorging |
+| `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Microsoft 365 |
+| `InternetMessageId` | tekenreeks | Openbare id voor de e-mail die wordt ingesteld door het verzendende e-mailsysteem |
+| `Action` | tekenreeks | Actie ondernomen op de entiteit |
+| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd: Handmatige oplossing, Phish ZAP, Malware ZAP |
+| `ActionTrigger` | tekenreeks | Geeft aan of een actie is geactiveerd door een beheerder (handmatig of via goedkeuring van een geautomatiseerde actie in behandeling) of door een speciaal mechanisme, zoals ZAP of Dynamische levering |
 | `ActionResult` | tekenreeks | Resultaat van de actie |
-| `RecipientEmailAddress` | tekenreeks | Het e-mailadres van de geadresseerde of het e-mailadres van de geadresseerde na expansie van distributielijst |
-| `DeliveryLocation` | tekenreeks | De locatie waar het e-mailbericht is bezorgd: Postvak in/map, on-premises/extern, ongewenste E-mail, Quarantine, mislukt, neergezette, verwijderde items |
+| `RecipientEmailAddress` | tekenreeks | Het e-mailadres van de geadresseerde of het e-mailadres van de ontvanger na uitbreiding van de distributielijst |
+| `DeliveryLocation` | tekenreeks | Locatie waar de e-mail is bezorgd: Postvak IN/map, On-premises/Extern, Ongewenste e-mail, Quarantaine, Mislukt, Geplaatst, Verwijderde items |
 
 ## <a name="supported-event-types"></a>Ondersteunde gebeurtenistypen
-In deze tabel worden gebeurtenissen vastgelegd met de volgende `ActionType` waarden:
+In deze tabel worden gebeurtenissen met de volgende waarden `ActionType` vastleggen:
 
-- **Handmatig herstel** : een beheerder heeft handmatig een actie uitgevoerd voor een e-mailbericht nadat het is afgeleverd bij het gebruikerspostvak. Dit omvat ook acties die u handmatig hebt uitgevoerd via de [bedreigings Verkenner](../office-365-security/threat-explorer.md) of de goedkeuring van [automatisch onderzoek en antwoord acties (lucht)](mtp-autoir-actions.md).
-- **Phishing ZAP** - [Zero-Hour auto leegmaak (ZAP)](../office-365-security/zero-hour-auto-purge.md) nam na ontvangst actie een malafide e-mailbericht.
-- **Malware ZAP** -voor een e-mailbericht met malware na de levering de actie ' ZAP '.
+- **Handmatig herstel: een** beheerder heeft handmatig actie ondernomen op een e-mailbericht nadat het is bezorgd in het postvak van de gebruiker. Dit geldt ook voor acties die handmatig worden [ondernomen](../office-365-security/threat-explorer.md) via Bedreigingsverkenner of goedkeuringen van acties voor geautomatiseerd onderzoek en antwoorden [(AIR).](mtp-autoir-actions.md)
+- **Phish ZAP** – [Zero-hour Auto Purge (ZAP)](../office-365-security/zero-hour-auto-purge.md) heeft actie ondernomen op een phishing-e-mail na bezorging.
+- **Malware ZAP** – Zero-hour Auto Purge (ZAP) heeft actie ondernomen op een e-mailbericht dat malware bevat na bezorging.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

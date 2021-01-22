@@ -16,38 +16,39 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het maken van een e-mail handtekening in het hele bedrijf.
-ms.openlocfilehash: 64c269abd25cab74ec5b0836975902e46a611c8c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Lees hoe u een e-mailhandtekening voor het hele bedrijf maakt.
+ms.openlocfilehash: 3a9623837b3a68fa8cc0fb378293ec463d9bb789
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702303"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928299"
 ---
-# <a name="create-a-company-wide-email-signature"></a>Een e-mail handtekening voor het hele bedrijf maken
+# <a name="create-a-company-wide-email-signature"></a>Een e-mailhandtekening voor het hele bedrijf maken
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf?autoplay=false]
 
-Voor elk e-mailbericht dat door mensen in uw organisatie wordt verzonden, wordt een e-mail handtekening voor het hele bedrijf weergegeven. U kunt deze gebruiken om belangrijke informatie weer te geven, zoals uw contactgegevens van uw bedrijf of een juridische vrijwaring. 
+Er wordt een e-mailhandtekening voor het hele bedrijf weergegeven in elke e-mail die wordt verzonden door personen in uw organisatie. U kunt dit gebruiken om belangrijke details weer te geven, zoals de contactgegevens van uw bedrijf of een juridische vrijwaring. 
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Selecteer in het Microsoft 365-Beheercentrum de optie **Exchange**.
-1. Selecteer **e-mail stroom**.
-1. Selecteer **add +** en selecteer vervolgens **vrijwaring toepassen**.
-1. Op de pagina **nieuwe regel** :
+1. Selecteer **Exchange** in het Microsoft 365-beheercentrum.
+1. Selecteer **E-mailstroom.**
+1. Selecteer **Toevoegen +** en selecteer **vrijwaringen toepassen.**
+1. Op de **pagina Nieuwe regel:**
     1. Voer een naam in voor de regel.
-    1. Selecteer in de vervolgkeuzelijst **deze regel toepassen als** de optie **toepassen op alle berichten**.
-    1. Controleer in de vervolgkeuzelijst **Ga als volgt** te werk om **toe te voegen dat de disclaimer** wordt weergegeven.
-    1. Selecteer aan de rechterkant van de pagina de optie **tekst invoeren** en voer vervolgens de tekst voor uw e-mail handtekening in in het tekstvak **vrijwaring opgeven** . U kunt het uiterlijk van uw handtekening verbeteren door de tekst op te maken met HTML.
-    1. Als u een afbeelding wilt weergeven in uw handtekening, moet u een openbaar beschikbare URL voor die afbeelding gebruiken. Blader naar de afbeelding op internet, klik hierop met de rechtermuisknop en selecteer **afbeeldings adres kopiëren**. Plak het adres in het tekstvak **vrijwaring opgeven** . Selecteer **OK** en schuif omlaag.
-    1. Voeg een terugval optie toe om ervoor te zorgen dat de handtekening werkt met versleutelde e-mailberichten. Kies aan de rechterkant van de pagina de optie **Selecteer een**, kies **Terugloop** en selecteer vervolgens **OK**.
-    1. Schuif omlaag en zorg dat de modus is ingesteld op **afdwingen**, en selecteer vervolgens **Opslaan**.
-1. Er verschijnt een waarschuwingsbericht. Selecteer **Ja** als u de regel wilt toepassen op alle toekomstige berichten.
+    1. Selecteer In **de vervolgkeuzelijst Deze** regel toepassen als, selecteert u **Toepassen op alle berichten.**
+    1. Controleer in **de vervolgkeuzelijst** Doe het volgende of Toevoegen **van de vrijwaring** wordt weergegeven.
+    1. Selecteer aan de rechterkant van de pagina **Tekst** invoeren en typ de tekst voor uw e-mailhandtekening in het tekstvak **Disclaimer** opgeven. U kunt het uiterlijk van uw handtekening verbeteren door de tekst op te maken met HTML.
+    1. Als u wilt dat een afbeelding in uw handtekening wordt weergegeven, moet u een openbaar beschikbare URL voor die afbeelding gebruiken. Blader naar de afbeelding op het web, klik erop met de rechtermuisknop en selecteer **Adres van afbeelding kopiëren.** Plak het adres in het **tekstvak Disclaimer** opgeven. Selecteer **OK** en schuif omlaag.
+    1. Als u wilt controleren of de handtekening werkt met versleutelde e-mailberichten, voegt u een terugvaloptie toe. Kies rechts op de pagina Een optie **selecteren,** kies **Terugloop** en selecteer **vervolgens OK.**
+    1. Schuif omlaag en laat de modus ingesteld staan op **Afdwingen** en selecteer **opslaan.**
+1. Er wordt een waarschuwingsbericht weergegeven. Selecteer **Ja om** de regel toe te passen op alle toekomstige berichten.
 
-    Uw handtekening is gemaakt. Wanneer u uw volgende e-mail verstuurt, ziet u de handtekening die u zojuist hebt gemaakt, niet, maar worden deze in de geadresseerden van de e-mail weergegeven.
+    Uw handtekening is gemaakt. Wanneer u de volgende e-mail verzendt, ziet u de handtekening die u zojuist hebt gemaakt niet, maar de geadresseerden van het e-mailbericht zien deze wel.

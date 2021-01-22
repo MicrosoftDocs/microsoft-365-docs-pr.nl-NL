@@ -1,9 +1,9 @@
 ---
-title: De Api's van Microsoft 365 Defender en het brontype incident
-description: Meer informatie over de methoden en eigenschappen van het type incident bron in Microsoft 365 Defender
-keywords: incident, incidenten, API
+title: Microsoft 365 Defender-incidenten API's en het type incidentresource
+description: Meer informatie over de methoden en eigenschappen van het resourcetype Incident in Microsoft 365 Defender
+keywords: incident, incidenten, api
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 372c939f5eed29832725e6b048735040ca7391d6
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 37413c3c7458527e90d4657ddfb3afb058e1dfaa
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719332"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928352"
 ---
-# <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>De API van Microsoft 365 Defender-incidenten en het brontype incident
+# <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>Api voor Microsoft 365 Defender-incidenten en het type incidentresource
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,51 +36,51 @@ ms.locfileid: "49719332"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
+> Sommige informatie heeft betrekking op vooraf uitgebracht product dat aanzienlijk kan worden gewijzigd voordat het in de handel wordt gebracht. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt be gegeven.
 
-Een [incident](incidents-overview.md) is een verzameling verwante waarschuwingen die een aanval kunnen beschrijven. Gebeurtenissen van verschillende entiteiten in uw organisatie worden automatisch samengevoegd met Microsoft 365 Defender. U kunt de API incidenties gebruiken voor de programmatische toegang tot incidenten en verwante meldingen van uw organisatie.
+Een [incident](incidents-overview.md) is een verzameling gerelateerde waarschuwingen die een aanval helpen beschrijven. Gebeurtenissen van verschillende entiteiten in uw organisatie worden automatisch samengevoegd door Microsoft 365 Defender. U kunt de INCIDENTEN-API gebruiken om programmatisch toegang te krijgen tot de incidenten en gerelateerde waarschuwingen van uw organisatie.
 
-## <a name="quotas-and-resource-allocation"></a>Quota's en resources toewijzen
+## <a name="quotas-and-resource-allocation"></a>Quota en resourcetoewijzing
 
-U kunt maximaal 50 oproepen per minuut en 1500 bellen per uur aanvragen. Elke methode heeft ook eigen quota's. Zie voor meer informatie over bepaalde quota's de artikelen voor de methode die u wilt gebruiken.
+U kunt maximaal 50 oproepen per minuut of 1500 oproepen per uur aanvragen. Elke methode heeft ook een eigen quota. Zie het desbetreffende artikel over de methode die u wilt gebruiken voor meer informatie over methodespecifieke quota's.
 
-Met een `429` HTTP-antwoordcode wordt aangegeven dat u een quotum hebt bereikt, hetzij op basis van het aantal ingediende aanvragen of over de beschikde periode. De antwoordtekst omvat de tijd totdat het door u bereikte quotum opnieuw wordt ingesteld.
+Een HTTP-antwoordcode geeft aan dat u een quotum hebt bereikt, hetzij door het aantal verzonden aanvragen of door de toegewezen `429` lopende tijd. De reactie zelf bevat de tijd tot het quotum dat u hebt bereikt, wordt opnieuw ingesteld.
 
 ## <a name="permissions"></a>Machtigingen
 
-Voor de incidenten-API is verschillende soorten machtigingen vereist voor de verschillende methoden. Zie het artikel van de desbetreffende methode voor meer informatie over de vereiste machtigingen.
+De API voor incidenten vereist verschillende soorten machtigingen voor elk van de methoden. Zie het artikel van de desbetreffende methode voor meer informatie over vereiste machtigingen.
 
-## <a name="methods"></a>Methode
+## <a name="methods"></a>Methoden
 
-Methode | Type resultaat | Beschrijving
+Methode | Type retournering | Beschrijving
 -|-|-
-[Lijst met incidenten](api-list-incidents.md) | Lijst met [incidenten](api-incident.md) | Een lijst met incidenten weergeven.
-[Incident bijwerken](api-update-incidents.md) | [Voorval](api-incident.md) | Een specifiek incident bijwerken.
+[Lijst met incidenten](api-list-incidents.md) | [Lijst met incidenten](api-incident.md) | Hier wordt een lijst met incidenten weergegeven.
+[Incident bijwerken](api-update-incidents.md) | [Incident](api-incident.md) | Een specifiek incident bijwerken.
 
-## <a name="request-body-response-and-examples"></a>Hoofdtekst, antwoord en voorbeelden aanvragen
+## <a name="request-body-response-and-examples"></a>De body, het antwoord en voorbeelden aanvragen
 
-Raadpleeg de desbetreffende procedure artikelen voor meer informatie over het maken van een aanvraag of het parseren van een aanvraag, en voor praktische voorbeelden.
+Raadpleeg de artikelen met de desbetreffende methode voor meer informatie over het maken van een aanvraag of het parseren van een antwoord en voor praktische voorbeelden.
 
-## <a name="common-properties"></a>Gemeenschappelijke eigenschappen
+## <a name="common-properties"></a>Algemene eigenschappen
 
 Eigenschap | Type | Beschrijving
 -|-|-
-incidentId | lang | Unieke ID van incident.
-redirectIncidentId | met nullen lang | De incident-ID waarmee het huidige incident is samengevoegd.
-voorval | tekenreeks | De naam van het incident.
-createdTime | Offset | De datum en tijd (in UTC) waarop het incident is gemaakt.
-lastUpdateTime | Offset | De datum en tijd (in UTC) waarop het incident voor het laatst is bijgewerkt.
-ToegewezenAan | tekenreeks | Eigenaar van het incident.
-Ernst | Opsommings | Ernst van het incident. Mogelijke waarden zijn: ```UnSpecified``` , ```Informational``` , ```Low``` , ```Medium``` en ```High``` .
-status | Opsommings | Geeft de huidige status van het incident aan. Mogelijke waarden zijn: ```Active``` , ```Resolved``` , en ```Redirected``` .
-Contactpersoonclassificatie | Opsommings | Specificatie van het incident. Mogelijke waarden zijn: ```Unknown``` , ```FalsePositive``` , ```TruePositive``` .
-relevant | Opsommings | Hiermee wordt het bepalen van het incident aangegeven. Mogelijke waarden zijn: ```NotAvailable``` , ```Apt``` ,,, ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` , ```UnwantedSoftware``` , ```Other``` .
-Tags | Lijst met tekenreeksen | Lijst met incident Tags.
-kennisgeving | Lijst met waarschuwingen | Lijst met verwante meldingen. Zie voorbeelden in API-documentatie voor [lijst incidenten](api-list-incidents.md) .
+incidentId | lang | Unieke id voor incident.
+redirectIncidentId | nullable long | De incident-id die het huidige incident is samengevoegd.
+incidentName | tekenreeks | De naam van het incident.
+createdTime | DateTimeOffset | De datum en tijd (in UTC) het incident is gemaakt.
+lastUpdateTime | DateTimeOffset | De datum en tijd (in UTC) het incident is voor het laatst bijgewerkt.
+toegewezen Aan | tekenreeks | Eigenaar van het incident.
+ernst | Enum | Ernst van het incident. Mogelijke waarden zijn: ```UnSpecified``` ```Informational``` , , en ```Low``` ```Medium``` ```High``` .
+status | Enum | Hiermee geeft u de huidige status van het incident op. Mogelijke waarden zijn: ```Active``` ```Resolved``` en ```Redirected``` .
+classificatie | Enum | Specificatie van het incident. Mogelijke waarden zijn: ```Unknown``` ```FalsePositive``` , ```TruePositive``` .
+besluit | Enum | Bepaalt de vaststelling van het incident. Mogelijke waarden zijn: ```NotAvailable``` ```Apt``` , , , ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` . ```Other```
+tags | lijst met tekenreeksen | Lijst met incidentlabels.
+waarschuwingen | Lijst met waarschuwingen | Lijst met gerelateerde waarschuwingen. Bekijk voorbeelden van [API-documentatie voor lijstincidenten.](api-list-incidents.md)
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Overzicht van Microsoft 365 Defender-Api's](api-overview.md)
+- [Overzicht van Microsoft 365 Defender API's](api-overview.md)
 - [Overzicht van incidenten](incidents-overview.md)
-- [API voor lijst incidenten](api-list-incidents.md)
-- [Update incident-API](api-update-incidents.md)
+- [Api voor lijstincidenten](api-list-incidents.md)
+- [Update-incident-API](api-update-incidents.md)

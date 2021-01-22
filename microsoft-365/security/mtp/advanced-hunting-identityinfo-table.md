@@ -1,10 +1,10 @@
 ---
-title: IdentityInfo-tabel in het geavanceerde jacht schema
-description: Meer informatie over gegevens van gebruikersaccounts in de tabel IdentityInfo van het schema geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, kolom, gegevenstype, beschrijving, AccountInfo, IdentityInfo, account
+title: Tabel IdentityInfo in het geavanceerde schema voor zoeken
+description: Meer informatie over gebruikersaccountgegevens in de tabel IdentityInfo van het geavanceerde schema voor zoeken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AccountInfo, IdentityInfo, account
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 0b21d23cfc97576304e949c597301716c72e6871
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 6604e6d48e277e840b87ddc461580bcb69dd1bc7
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847438"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929908"
 ---
 # <a name="identityinfo"></a>IdentityInfo
 
@@ -34,31 +35,31 @@ ms.locfileid: "48847438"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De `IdentityInfo` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over gebruikersaccounts die zijn verkregen van diverse services, waaronder Azure Active Directory. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De `IdentityInfo` tabel in het geavanceerde [zoekschema](advanced-hunting-overview.md) bevat informatie over gebruikersaccounts die zijn verkregen uit diverse services, waaronder Azure Active Directory. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!NOTE]
->Naam van de tabel werd gewijzigd `AccountInfo` . Bij hernoemen worden alle query's die zijn opgeslagen in de portal automatisch bijgewerkt. Controleer de query's die u elders hebt opgeslagen.
+>De naam van deze tabel is `AccountInfo` gewijzigd in . Tijdens het wijzigen van namen worden alle query's die zijn opgeslagen in de portal, automatisch bijgewerkt. Controleer de query's die u ergens anders hebt opgeslagen.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `AccountObjectId` | tekenreeks | Unieke id voor het account in azure AD |
+| `AccountObjectId` | tekenreeks | Unieke id voor het account in Azure AD |
 | `AccountUpn` | tekenreeks | UPN (User Principal Name) van het account |
-| `OnPremSid` | tekenreeks | SID (on-premises Security Identifier) van het account |
-| `CloudSid` | tekenreeks | Cloud beveiligings-id van het account |
-| `GivenName` | tekenreeks | Opgegeven naam of voornaam van de account gebruiker |
-| `Surname` | tekenreeks | Naam, familienaam of achternaam van de gebruiker van het account |
-| `AccountDisplayName` | tekenreeks | Naam van de account gebruiker die in het adresboek wordt weergegeven. Meestal een combinatie van een bepaalde of voornaam, een tweede opening en een achternaam of achternaam. |
-| `Department` | tekenreeks | Naam van de afdeling waartoe de account gebruiker behoort |
-| `JobTitle` | tekenreeks | Functienaam van de account gebruiker |
+| `OnPremSid` | tekenreeks | On-premises beveiligings-id (SID) van het account |
+| `CloudSid` | tekenreeks | Cloudbeveiligings-id van het account |
+| `GivenName` | tekenreeks | Gegeven naam of voornaam van de accountgebruiker |
+| `Surname` | tekenreeks | Achternaam, familienaam of achternaam van de accountgebruiker |
+| `AccountDisplayName` | tekenreeks | De naam van de accountgebruiker die wordt weergegeven in het adresboek. Meestal een combinatie van een bepaalde of voornaam, een middelste start en een achternaam of achternaam. |
+| `Department` | tekenreeks | Naam van de afdeling van de accountgebruiker |
+| `JobTitle` | tekenreeks | Functie van de accountgebruiker |
 | `AccountName` | tekenreeks | Gebruikersnaam van het account |
 | `AccountDomain` | tekenreeks | Domein van het account |
 | `EmailAddress` | tekenreeks | SMTP-adres van het account |
-| `SipProxyAddress` | tekenreeks | Voice over IP (VOIP)-adres van het Start Protocol (SIP) van de rekening |
-| `City` | tekenreeks | Plaats waar de account gebruiker zich bevindt |
-| `Country` | tekenreeks | Het land of de regio waar het account van de gebruiker zich bevindt |
-| `IsAccountEnabled` | Boolean | Geeft aan of het account is ingeschakeld of niet |
+| `SipProxyAddress` | tekenreeks | VOIP-adres (Voice over IP) voor DE SIP-sessie (Session Initiation Protocol) van het account |
+| `City` | tekenreeks | Plaats waar de accountgebruiker zich bevindt |
+| `Country` | tekenreeks | Land/regio waar de accountgebruiker zich bevindt |
+| `IsAccountEnabled` | boolean | Geeft aan of het account is ingeschakeld of niet |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

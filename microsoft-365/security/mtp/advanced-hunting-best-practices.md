@@ -1,10 +1,10 @@
 ---
-title: Best practices voor geavanceerde jacht-query's in Microsoft 365 Defender
-description: Ontdek hoe u Fast, efficient en error-free Threat queries kunt maken met geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema, kusto, timeout, opdrachtregels, proces-id, optimaliseren, aanbevolen oefenen, parseren, samenvatting
+title: Geavanceerde zoekquery's in Microsoft 365 Defender
+description: Meer informatie over het bouwen van snelle, efficiënte en foutloze zoekquery's voor bedreigingen met geavanceerde zoekopdrachten
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema, kusto, avoid timeout, command lines, process id, optimize, best practice, parse, join, summarize
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 2b2ac519e63e5a7cba648dba67d2780bb7600e14
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: cc6110cdd7dd71f80f6897cfbb0026ccce301cf7
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843070"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928472"
 ---
-# <a name="advanced-hunting-query-best-practices"></a>Best practices voor geavanceerde zoekactie
+# <a name="advanced-hunting-query-best-practices"></a>Geavanceerde best practices voor zoekquery's
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,17 +35,17 @@ ms.locfileid: "48843070"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Pas deze aanbevelingen toe om resultaten sneller te vinden en time-outs te voorkomen tijdens het uitvoeren van complexe query's. Lees voor meer informatie over het verbeteren van de prestaties van query's het artikel [Best practices voor Kusto query](https://docs.microsoft.com/azure/kusto/query/best-practices).
+Pas deze aanbevelingen toe om sneller resultaten te krijgen en time-outs te vermijden bij het uitvoeren van complexe query's. Lees de best practices voor [kusto-query's](https://docs.microsoft.com/azure/kusto/query/best-practices)voor meer informatie over het verbeteren van de queryprestaties.
 
-## <a name="understand-cpu-resource-quotas"></a>Meer informatie over CPU-bron quota's
-Afhankelijk van de grootte, heeft elke Tenant toegang tot een ingestelde hoeveelheid processorbronnen die zijn toegewezen voor het uitvoeren van geavanceerde jacht-query's. Meer informatie over de verschillende service limieten vindt u in [geavanceerde jacht-quota's en gebruiks parameters](advanced-hunting-limits.md).
+## <a name="understand-cpu-resource-quotas"></a>Informatie over quota voor CPU-bronnen
+Afhankelijk van de grootte heeft elke tenant toegang tot een bepaalde hoeveelheid CPU-bronnen die zijn toegewezen voor het uitvoeren van geavanceerde zoekquery's. Lees meer over geavanceerde zoekquota's [en gebruiksparameters voor meer informatie](advanced-hunting-limits.md)over verschillende servicelimieten.
 
-Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden en de optimaliserings richtlijnen toepassen in dit artikel om onderbrekingen te beperken die het resultaat zijn van meer quota of gebruiks parameters.
+Klanten die regelmatig meerdere query's uitvoeren, moeten het gebruik bijhouden en de optimalisatie-richtlijnen in dit artikel toepassen om verstoringen die het gevolg zijn van overschrijding van quota of gebruiksparameters tot een minimum te beperken.
 
-## <a name="general-optimization-tips"></a>Algemene optimaliserings tips
+## <a name="general-optimization-tips"></a>Algemene tips voor optimalisatie
 
-- **Grootte van nieuwe query's** : als u vermoedt dat een query een grote resultatenset oplevert, moet u deze eerst beoordelen met de [operator Count](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator). Gebruik [Limit](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) of het synoniem `take` om grote resultaatsets te voorkomen.
-- **Filters eerst toepassen** : tijdfilters en andere filters toepassen om de gegevensverzameling te beperken, vooral voordat u functies voor transformeren en parseren gebruikt, zoals de [subtekenreeks ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [vervangen (](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction)), [Trim (](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction)), [ToUpper (](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)) of [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). In het onderstaande voorbeeld wordt de functie voor parseren [(extractjson)](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) gebruikt nadat gefilterde operatoren het aantal records hebben verminderd.
+- **Grootte van nieuwe query's:** als u vermoedt dat een query een grote resultatenset retourneert, moet u deze eerst beoordelen met behulp van de [operator Count.](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator) Gebruik [de limiet](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) of het synoniem ervan om grote `take` resultatensets te voorkomen.
+- Pas **filters** vroeg toe: pas tijdfilters en andere filters toe om de gegevensset te beperken, met name voordat u transformatie- en parseerfuncties gebruikt, zoals [subtekenreeks()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [trim()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [toupper()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)of [parse_json().](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction) In het onderstaande voorbeeld wordt de parsingsfunctie [extractjson()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) gebruikt nadat de filteroperatoren het aantal records hebben beperkt.
 
     ```kusto
     DeviceEvents
@@ -54,20 +55,20 @@ Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden
     | extend DriveLetter = extractjson("$.DriveLetter", AdditionalFields)
      ```
 
-- **Heeft maten bevat** : als u wilt voorkomen dat er in woorden in subtekenreeksen wordt gezocht, gebruikt u de `has` operator in plaats van `contains` . [Meer informatie over tekenreeks operators](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
-- **Zoeken in specifieke kolommen** : Bekijk in een specifieke kolom of de zoekfunctie voor volledige tekst in alle kolommen niet wordt uitgevoerd. Niet gebruiken `*` voor het controleren van alle kolommen.
-- **Onderscheid tussen hoofdletters** en kleine letters: Hoofdlettergevoelige zoekopdrachten zijn specifieker en algemeenere prestaties. Namen van hoofdlettergevoelige [tekenreeks operatoren](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators), zoals `has_cs` en `contains_cs` , meestal eindigt op `_cs` . U kunt ook de operator voor hoofdlettergevoelige gelijktekens gebruiken `==` in plaats van `=~` .
-- **Parseren** : gebruik indien mogelijk de [operator voor parseren](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) of een functie voor parseren, zoals [parse_json ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). Vermijd de `matches regex` tekenreeks operator of de [functie extraheren ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction), waarvan beide de reguliere expressie gebruiken. Het gebruik van een reguliere expressie reserveren voor complexere scenario's. [Lees meer over het verdelen van functies](#parse-strings)
-- **Tabellen niet op expressies** filteren: u hoeft niet op een berekende kolom te filteren als u een tabelkolom kunt filteren.
-- **Geen voorwaarden van drie** tekens: vergelijkt of filteren met termen met drie tekens of minder. Deze voorwaarden worden niet geïndexeerd en hieraan voldoen meer resources nodig.
-- **Project selectief** Maak uw resultaten eenvoudiger te begrijpen door alleen de gewenste kolommen te delen. Wanneer u specifieke kolommen vergelijkt voordat u [deelneemt](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) of vergelijkbare bewerkingen uitvoert, kunt u ook de prestaties verbeteren.
+- **Bevat bevat het aantal** herhalingen. Gebruik de operator in plaats van de operator in plaats van de woorden om te voorkomen dat u onnodig naar subtekenreeksen in `has` woorden `contains` zoekt. [Meer informatie over tekenreeksoperatoren](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
+- **Kijk in specifieke kolommen:** kijk in een specifieke kolom in plaats van volledige tekst te zoeken in alle kolommen. Gebruik niet om `*` alle kolommen te controleren.
+- **Case-sensitive for speed—** Case-sensitive searches are more specific and generally more performant. Namen van casegevoelige [tekenreeksoperatoren,](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)zoals `has_cs` `contains_cs` en, die over het algemeen eindigen op `_cs` . U kunt ook de operator voor issys-gevoelige is gelijk aan gebruiken `==` in plaats van `=~` .
+- **Parseren, niet extraheren**— gebruik waar mogelijk de [parseroperator](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) of een parserende functie zoals [parse_json().](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction) Vermijd de `matches regex` tekenreeksoperator of [de extractiefunctie(),](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)die beide een reguliere expressie gebruiken. Reserveer het gebruik van reguliere expressies voor complexere scenario's. [Meer informatie over parseringsfuncties](#parse-strings)
+- **Filter tabellen niet op expressies.** Filter niet op een berekende kolom als u op een tabelkolom kunt filteren.
+- **Geen termen met drie tekens.** Vermijd het vergelijken of filteren van termen met drie tekens of minder. Deze voorwaarden worden niet geïndexeerd en voor een aanpassing aan deze voorwaarden zijn meer resources nodig.
+- **Projecteren selectief**: maak uw resultaten begrijpelijker door alleen de kolommen te projecteren die u nodig hebt. Door specifieke kolommen te projecteren vóór het uitvoeren [van joins](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) of vergelijkbare bewerkingen, worden ook de prestaties verbeterd.
 
 ## <a name="optimize-the-join-operator"></a>De `join` operator optimaliseren
-Met de [operator JOIN worden](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) rijen uit twee tabellen samengevoegd met de waarden in de opgegeven kolommen. Deze tips toepassen om query's met deze operator te optimaliseren.
+De [join-operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) voegt rijen uit twee tabellen samen door overeenkomende waarden in opgegeven kolommen. Pas deze tips toe om query's te optimaliseren die deze operator gebruiken.
 
-- **Kleinere tabel aan de linkerkant** : de `join` operator komt overeen met records in de tabel aan de linkerkant van de JOIN-instructie, zodat ze aan de rechterkant van de join worden vastgelegd. Als u de kleinere tabel aan de linkerkant wilt hebben, moeten minder records worden vergeleken, zodat de query sneller wordt. 
+- **Kleinere tabel aan de linkerkant:** de operator matcht records in de tabel aan de linkerkant van uw join-instructie met `join` records aan de rechterkant. Als u de kleinere tabel aan de linkerkant hebt, hoeven er minder records aan te worden gematcht, waardoor de query sneller wordt. 
 
-    In de onderstaande tabel verkleint u de linkertabel, `DeviceLogonEvents` zodat er slechts drie specifieke apparaten worden ondergebracht voordat ze worden toegevoegd aan de `IdentityLogonEvents` sid's van uw account.
+    In de onderstaande tabel wordt de linkertabel verkleind tot slechts drie specifieke apparaten voordat we deze via `DeviceLogonEvents` `IdentityLogonEvents` account-SID's gebruiken.
  
     ```kusto
     DeviceLogonEvents 
@@ -80,9 +81,9 @@ Met de [operator JOIN worden](https://docs.microsoft.com/azure/data-explorer/kus
     on AccountSid
     ```
 
-- **Gebruik de inwendige koppeling** -reeks, de standaard [koppelings](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) -of innerunique, en de join [-join-](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) rijen in de linkertabel dedupliceert. Als de linkertabel meerdere rijen met dezelfde waarde voor de `join` sleutel bevat, worden deze rijen ontdubbeld om één willekeurige rij voor elke unieke waarde te verlaten.
+- Gebruik de **inner-join-smaak**: de standaard join-smaak of de [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) [innerunique-join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) deduplicates rijen in de linkertabel door de join-toets voordat u een rij voor elke overeenkomst in de rechtertabel retourneert. Als de linkertabel meerdere rijen heeft met dezelfde waarde voor de sleutel, worden deze rijen gededuplicaeerd om één willekeurige rij achter te laten `join` voor elke unieke waarde.
 
-    Dit standaardgedrag kan belangrijke informatie uit de linkertabel verlaten die nuttige inzichten kan geven. Met de query hieronder wordt bijvoorbeeld slechts één e-mailbericht weergegeven met een bepaalde bijlage, zelfs als de bijlage meerdere e-mailberichten heeft verzonden:
+    Bij dit standaardgedrag kan belangrijke informatie uit de linkertabel weggelaten worden die een nuttig inzicht kan geven. In de onderstaande query wordt bijvoorbeeld slechts één e-mailbericht met een bepaalde bijlage weergegeven, zelfs als dezelfde bijlage is verzonden via meerdere e-mailberichten:
 
     ```kusto
     EmailAttachmentInfo
@@ -91,7 +92,7 @@ Met de [operator JOIN worden](https://docs.microsoft.com/azure/data-explorer/kus
     | join (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```
 
-    Als u deze beperking wilt gebruiken, past u de [binnenste deel-deel-de-deel-](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) de waarde toe door het `kind=inner` volgende op te geven om alle rijen in de linkertabel weer te geven met overeenkomende waarden in de rechter
+    Om deze beperking aan te pakken, passen we de [inner-join-smaak](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) toe door op te geven dat alle rijen in de linkertabel moeten worden weergeven met overeenkomende `kind=inner` waarden in de rechtertabel:
     
     ```kusto
     EmailAttachmentInfo
@@ -99,9 +100,9 @@ Met de [operator JOIN worden](https://docs.microsoft.com/azure/data-explorer/kus
     | where Subject == "Document Attachment" and FileName == "Document.pdf"
     | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```
-- **Records van een tijdvenster samenvoegen in** de analisten van beveiligingsgebeurtenissen wordt gezocht naar gerelateerde gebeurtenissen die zich in dezelfde tijdsperiode voordoen. Het toepassen van dezelfde aanpak wanneer u de `join` prestaties van de voordelen ervan beperkt, door het aantal te controleren records te verminderen.
+- **Neem deel aan records vanuit een tijdvenster.** Bij het onderzoeken van beveiligingsgebeurtenissen zoeken analisten naar gerelateerde gebeurtenissen die zich rond dezelfde periode voordoen. Door dezelfde benadering toe te passen bij het gebruik van voordelen, vermindert u `join` het aantal te controleren records.
     
-    Met de query onder wordt gecontroleerd op Aanmeldingsgebeurtenissen binnen 30 minuten na ontvangst van een schadelijk bestand:
+    Met de onderstaande query wordt gecontroleerd op aanmeldingsgebeurtenissen binnen 30 minuten na ontvangst van een schadelijk bestand:
 
     ```kusto
     EmailEvents
@@ -115,7 +116,7 @@ Met de [operator JOIN worden](https://docs.microsoft.com/azure/data-explorer/kus
     ) on AccountName 
     | where (LogonTime - EmailReceivedTime) between (0min .. 30min)
     ```
-- **Filter tijdfilters toepassen** , ook als u geen specifiek tijdsvenster beonderzoekt en u geen specifiek tijdsvenster beoordeelt, kunt u het aantal records in de linker-en rechtertabel verkleinen om de prestaties te controleren en de prestaties te verbeteren `join` . De query hieronder geldt `Timestamp > ago(1h)` voor beide tabellen, zodat alleen records van het afgelopen uur worden samengevoegd:
+- **U kunt tijdfilters** aan beide zijden toepassen, zelfs als u niet bezig bent met het onderzoeken van een bepaald tijdvenster, kunt u het aantal records verminderen dat kan worden gebruikt om de prestaties te controleren en te verbeteren door tijdfilters toe te passen op zowel de linker- als de rechtertabellen. `join` De onderstaande query is van toepassing op beide tabellen, zodat `Timestamp > ago(1h)` alleen records van het afgelopen uur worden joins:
 
     ```kusto
     EmailAttachmentInfo
@@ -124,9 +125,9 @@ Met de [operator JOIN worden](https://docs.microsoft.com/azure/data-explorer/kus
     | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```  
 
-- **Gebruik hints voor prestaties** — gebruik hints met de `join` operator om de backend te laten verdelen bij het uitvoeren van bronnen die intensief gebruikmaken van bronnen. [Meer informatie over join-hints](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
+- **Gebruik hints voor de prestaties**. Gebruik hints met de operator om de back-end zo in te delen dat belasting wordt verdeeld tijdens het uitvoeren van `join` resource-intensieve bewerkingen. [Meer informatie over tips voor deelnemen](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
 
-    Met de hint voor een **[willekeurige volgorde](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** kunt u de queryprestaties voor de samenvoeging van tabellen met een hoge kardinaliteit verbeteren, een sleutel met veel unieke waarden, zoals de `AccountObjectId` query hieronder:
+    De willekeurige **[](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** hint helpt bijvoorbeeld bij het samenvoegen van queryprestaties bij het samenvoegen van tabellen met een sleutel met hoge kardinaliteit (een sleutel met veel unieke waarden) zoals in de onderstaande `AccountObjectId` query:
 
     ```kusto
     IdentityInfo
@@ -138,7 +139,7 @@ Met de [operator JOIN worden](https://docs.microsoft.com/azure/data-explorer/kus
     on AccountObjectId 
     ```
     
-    De **[Hint voor uitzending](https://docs.microsoft.com/azure/data-explorer/kusto/query/broadcastjoin)** helpt wanneer de linkertabel klein (maximaal 100.000 records) is en de juiste tabel zeer groot is. Met de onderstaande query probeert u bijvoorbeeld deel te nemen aan een paar e-mailberichten met specifieke onderwerpen met _alle_ berichten in de `EmailUrlInfo` tabel:
+    De **[hint voor uitzending](https://docs.microsoft.com/azure/data-explorer/kusto/query/broadcastjoin)** is nuttig wanneer de linkertabel klein is (maximaal 100.000 records) en de rechtertabel zeer groot is. Met de onderstaande query probeert u bijvoorbeeld een paar  e-mailberichten met specifieke onderwerpen samen te stellen, met alle berichten met koppelingen in de `EmailUrlInfo` tabel:
 
     ```kusto
     EmailEvents 
@@ -147,25 +148,25 @@ Met de [operator JOIN worden](https://docs.microsoft.com/azure/data-explorer/kus
     ```
 
 ## <a name="optimize-the-summarize-operator"></a>De `summarize` operator optimaliseren
-Met de [operator samenvatten](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator) wordt de inhoud van een tabel geaggregeerd. Deze tips toepassen om query's met deze operator te optimaliseren.
+Met [de samenvattende operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator) wordt de inhoud van een tabel samengevoegd. Pas deze tips toe om query's te optimaliseren die deze operator gebruiken.
 
-- **Distinct values zoeken** : in het algemeen `summarize` kunt u zoeken naar unieke waarden die herhaald kunnen zijn. Het is niet mogelijk om kolommen te gebruiken die geen herhalings waarden bevatten.
+- **Unieke waarden zoeken.** Over het algemeen kunt u dit gebruiken `summarize` om unieke waarden te vinden die vaak worden herhaald. Het kan onnodig zijn om dit te gebruiken voor het aggregeren van kolommen die geen terugkerende waarden hebben.
 
-    Hoewel één e-mailbericht deel kan uitmaken van meerdere gebeurtenissen, vormt het voorbeeld hieronder _geen_ efficiënt gebruik `summarize` omdat een netwerkbericht-id voor een apart e-mailbericht altijd een uniek adres van de afzender bevat.
+    Hoewel één e-mailbericht deel kan uitmaken van meerdere gebeurtenissen, _is_ het onderstaande voorbeeld niet efficiënt omdat een netwerkbericht-id voor een afzonderlijke e-mail altijd wordt geleverd met een uniek `summarize` afzenderadres.
  
     ```kusto
     EmailEvents  
     | where Timestamp > ago(1h)
     | summarize by NetworkMessageId, SenderFromAddress   
     ```
-    U `summarize` kunt eenvoudig de operator vervangen door `project` de resultaten van het gebruik van minder bronnen te brengen:
+    De operator kan eenvoudig worden vervangen door, wat in potentieel dezelfde resultaten resulteert `summarize` terwijl er minder resources worden `project` verbruikt:
 
     ```kusto
     EmailEvents  
     | where Timestamp > ago(1h)
     | project NetworkMessageId, SenderFromAddress   
     ```
-    Het volgende voorbeeld is een efficiëntere manier van `summarize` omdat er meerdere verschillende exemplaren van een afzender e-mailadres aan hetzelfde adres van de geadresseerde kunnen worden verzonden. Deze combinaties zijn minder verschillend en zijn waarschijnlijk dubbele waarden.
+    Het volgende voorbeeld is efficiënter te gebruiken omdat er meerdere afzonderlijke exemplaren kunnen zijn van een afzenderadres dat e-mail naar hetzelfde `summarize` adres van de geadresseerde verstuurt. Dergelijke combinaties zijn minder uniek en hebben waarschijnlijk dubbele waarden.
 
     ```kusto
     EmailEvents  
@@ -173,9 +174,9 @@ Met de [operator samenvatten](https://docs.microsoft.com/azure/data-explorer/kus
     | summarize by SenderFromAddress, RecipientEmailAddress   
     ```
 
-- U kunt **de query in een willekeurige volgorde** plaatsen, terwijl u `summarize` het beste kunt gebruiken in kolommen met herhalende waarden, kan dezelfde kolom ook _hoge kardinaliteit_ of grote getallen met unieke waarden bevatten. Net als `join` bij de operator kunt u ook de [Hint van een willekeurige volgorde](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) toepassen `summarize` om de verwerkingsbelasting te verdelen en de prestaties te verbeteren wanneer u op kolommen met een hoge kardinaliteit werkt.
+- **Verschuif de query** opnieuw. Deze kan het beste worden gebruikt in kolommen met terugkerende waarden, maar dezelfde kolommen kunnen ook een hoge kardinaliteit hebben of grote `summarize` aantallen unieke waarden  hebben. Net als de operator kunt u ook de willekeurige hint toepassen om de verwerkingsbelasting te verdelen en de prestaties te verbeteren wanneer u kolommen met hoge kardinaliteit `join` [](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) `summarize` gebruikt.
 
-    Met de onderstaande query `summarize` kunt u het e-mailadres van een verschillend e-mailadres tellen, dat kan worden uitgevoerd in de honderden duizenden in grote organisaties. Ter verbetering van de prestaties `hint.shufflekey` :
+    De onderstaande query wordt gebruikt om het unieke e-mailadres van geadresseerden te tellen, dat kan worden uitgevoerd in de honderden `summarize` duizenden grote organisaties. In dit onderdeel zijn de volgende elementen opgenomen om de prestaties te `hint.shufflekey` verbeteren:
 
     ```kusto
     EmailEvents  
@@ -183,14 +184,14 @@ Met de [operator samenvatten](https://docs.microsoft.com/azure/data-explorer/kus
     | summarize hint.shufflekey = RecipientEmailAddress count() by Subject, RecipientEmailAddress
     ```
 
-## <a name="query-scenarios"></a>Query scenario's
+## <a name="query-scenarios"></a>Queryscenario's
 
-### <a name="identify-unique-processes-with-process-ids"></a>Unieke processen identificeren met proces-Id's
-Proces-Id's in Windows worden gerecycled en opnieuw gebruikt voor nieuwe processen. Ze kunnen op hun eigen manier geen unieke id's voor specifieke processen gebruiken.
+### <a name="identify-unique-processes-with-process-ids"></a>Unieke processen identificeren met proces-ids
+Proces-inds (PID's) worden in Windows vernietigd en hergebruikt voor nieuwe processen. Ze kunnen niet als unieke id's fungeren voor specifieke processen.
 
-Als u een unieke aanduiding wilt krijgen voor een proces op een specifieke computer, gebruikt u de proces-ID samen met de Aanmaaktijd van het proces. Wanneer u gegevens rond processen samenvoegt of samenvoegt, neemt u kolommen op voor de machine-id (of `DeviceId` `DeviceName` ), de proces-id ( `ProcessId` of `InitiatingProcessId` ) en de tijd waarop het proces is gemaakt ( `ProcessCreationTime` of `InitiatingProcessCreationTime` ).
+Als u een unieke id wilt krijgen voor een proces op een specifieke computer, gebruikt u de proces-id samen met de aanmaaktijd van het proces. Wanneer u gegevens rond processen joint of samenvatten, voegt u kolommen toe voor de computer-id (of), de proces-id (of), en de aanmaaktijd van het proces `DeviceId` `DeviceName` `ProcessId` `InitiatingProcessId` `ProcessCreationTime` `InitiatingProcessCreationTime` (of)
 
-Met de volgende voorbeeldquery vindt u processen die toegang hebben tot meer dan 10 IP-adressen via poort 445 (SMB), mogelijk met de scanfunctie voor bestandsshares.
+Met de volgende voorbeeldquery worden processen gevonden die toegang krijgen tot meer dan tien IP-adressen via poort 445 (SMB), mogelijk zoeken naar bestands shares.
 
 Voorbeeldquery:
 ```kusto
@@ -201,20 +202,20 @@ InitiatingProcessCreationTime, InitiatingProcessFileName
 | where RemoteIPCount > 10
 ```
 
-De query geeft een samenvatting van beide `InitiatingProcessId` `InitiatingProcessCreationTime` processen weer, zodat de query één proces uitziet, zonder meerdere processen met hetzelfde proces-id te kunnen combineren.
+De query is een samenvatting van beide processen, waarbij wordt uitgemaakt van één proces, zonder dat meerdere processen met dezelfde `InitiatingProcessId` proces-id worden door elkaar `InitiatingProcessCreationTime` gebruikt.
 
-### <a name="query-command-lines"></a>Opdrachtregels van query
-U kunt op verschillende manieren een opdrachtregel maken om een taak uit te voeren. Een aanvaller kan bijvoorbeeld verwijzen naar een afbeeldingsbestand zonder een pad zonder bestandsextensie, omgevingsvariabelen of met aanhalingstekens gebruiken. De aanvaller kan ook de volgorde van parameters wijzigen of meerdere aanhalingstekens en spaties toevoegen.
+### <a name="query-command-lines"></a>Opdrachtlijnen voor query's
+Er zijn talloze manieren om een opdrachtregel te maken om een taak uit te voeren. Een aanvaller kan bijvoorbeeld verwijzen naar een afbeeldingsbestand zonder pad, zonder bestandsextensie, met behulp van omgevingsvariabelen of met aanhalingstekens. De aanvaller kan ook de volgorde van parameters wijzigen of meerdere aanhalingstekens en spaties toevoegen.
 
-U kunt de volgende procedures toepassen als u meer duurzame query's wilt maken rond opdrachtregels:
+Als u meer query's met een strakker beleid rond opdrachtlijnen wilt maken, moet u de volgende procedures toepassen:
 
-- Identificeer de bekende processen (zoals *net.exe* of *psexec.exe* ) door te zoeken in de velden voor de bestandsnaam, in plaats van te filteren op de opdrachtregel zelf.
-- Opdrachtregel secties parseren met behulp van de [functie parse_command_line ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) 
-- Wanneer u een query uitvoert voor opdrachtregelargumenten, zoekt u niet naar een exacte overeenkomst voor meerdere niet-gerelateerde argumenten in een bepaalde volgorde. Gebruik in plaats daarvan reguliere expressies of gebruik van meerdere aparte operatoren.
-- Gebruik hoofdlettergevoelige overeenkomsten. Gebruik bijvoorbeeld, `=~` `in~` en `contains` in plaats van `==` , `in` en `contains_cs` .
-- Als u de opdrachtregel wilt beperken, kunt u aanhalingstekens verwijderen, komma's vervangen door spaties en meerdere opeenvolgende spaties vervangen door één spatie. U kunt meer complexe methoden voor het maken van donkere en donkere kolommen waarvoor u andere benaderingen nodig hebt, maar deze kunnen door u gemeenschappelijke oplossingen worden gebruikt.
+- Identificeer de bekende processen  (zoalsnet.exeof *psexec.exe)* door op de bestandsnaamvelden te matchen in plaats van op de opdrachtregel zelf te filteren.
+- Opdrachtregelsecties parseren met de functie [parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) 
+- Zoek bij het opvragen van opdrachtregelargumenten niet naar een exacte overeenkomst voor meerdere niet-gerelateerde argumenten in een bepaalde volgorde. Gebruik in plaats daarvan reguliere expressies of gebruik meerdere afzonderlijke expressies met operatoren.
+- Niet-opsitieve overeenkomsten voor case's gebruiken. Gebruik bijvoorbeeld `=~` , `in~` en in plaats van , en `contains` `==` `in` `contains_cs` .
+- U kunt technieken voor het obliceren van opdrachten voorkomen door aanhalingstekens te verwijderen, komma's te vervangen door spaties en meerdere opeenvolgende spaties te vervangen door één spatie. Er zijn complexere obfusatietechnieken die andere benaderingen vereisen, maar deze aanpassingen kunnen u helpen algemene technieken aan te pakken.
 
-In de volgende voorbeelden ziet u verschillende manieren om een query te maken waarmee wordt gezocht naar het bestand dat *net.exe* de firewall service ' MpsSvc ' niet meer nodig hebt:
+In de volgende voorbeelden ziet u verschillende manieren  om een query te maken die zoekt naar het bestandnet.exeom de firewallservice MpsSvc te stoppen:
 
 ```kusto
 // Non-durable query - do not use
@@ -233,8 +234,8 @@ DeviceProcessEvents
 | where CanonicalCommandLine contains "stop" and CanonicalCommandLine contains "MpsSvc" 
 ```
 
-### <a name="ingest-data-from-external-sources"></a>Ingestie gegevens uit externe bronnen
-Als u in uw query lange lijsten of grote tabellen wilt opnemen, gebruikt u de [externaldata-operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) om gegevens op te nemen uit een bepaalde URI. U kunt gegevens uit bestanden vinden in TXT-, CSV-, JSON-of [andere indelingen](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats). In het onderstaande voorbeeld ziet u hoe u de uitgebreide lijst met malware-256-hashwaarden van MalwareBazaar (abuse.ch) kunt gebruiken voor het controleren van bijlagen op e-mailberichten:
+### <a name="ingest-data-from-external-sources"></a>Gegevens uit externe bronnen insgest maken
+Als u lange lijsten of grote tabellen wilt opnemen in uw query, gebruikt u de [externaldata-operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) om gegevens uit een opgegeven URI over te nemen. U kunt gegevens op halen uit bestanden in TXT, CSV, JSON of [andere indelingen.](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats) In het onderstaande voorbeeld ziet u hoe u de uitgebreide lijst met malware SHA-256-hashes van MalwareBazaar (abuse.ch) kunt gebruiken om bijlagen bij e-mailberichten te controleren:
 
 ```kusto
 let abuse_sha256 = (externaldata(sha256_hash: string )
@@ -250,22 +251,22 @@ abuse_sha256
 SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 ```
 
-### <a name="parse-strings"></a>Parserings tekenreeksen
-Er zijn verschillende functies die u kunt gebruiken om de tekenreeksen die moeten worden geparseerd of geconverteerd, op efficiënte wijze af te handelen. 
+### <a name="parse-strings"></a>Parseren-tekenreeksen
+Er zijn verschillende functies die u kunt gebruiken om efficiënt om te gaan met tekenreeksen die moeten worden geparseren of geconveriseerd. 
 
-| Tekenreeks | Optie | Voorbeeld van gebruik |
+| Tekenreeks | Functie | Gebruiksvoorbeeld |
 |--|--|--|
-| Opdrachtregel | [parse_command_line ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | De opdracht en alle argumenten extraheren. | 
-| Routes | [parse_path ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | De secties van een pad naar een bestand of map extraheren. |
-| Versienummers | [parse_version ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-versionfunction) | Ontconstrueren van een versienummer met maximaal vier secties en maximaal acht tekens per sectie. Gebruik de geparseerde gegevens om de versie ouderdom te vergelijken. |
-| IPv4-adressen | [parse_ipv4 ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv4function) | Converteer een IPv4-adres naar een lang geheel getal. Als u IPv4-adressen wilt vergelijken zonder ze te converteren, gebruikt u [ipv4_compare ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv4-comparefunction). |
-| IPv6-adressen | [parse_ipv6 ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv6function)  | Converteer een IPv4-of IPv6-adres naar de canonieke IPv6-notatie. Gebruik [ipv6_compare ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv6-comparefunction)om IPv6-adressen te vergelijken. |
+| Opdrachtregels | [parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | De opdracht en alle argumenten extraheren. | 
+| Paden | [parse_path()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | Extraheren de secties van een bestand of mappad. |
+| Versienummers | [parse_version()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-versionfunction) | Deconstructer een versienummer met maximaal vier secties en maximaal acht tekens per sectie. Gebruik de geparseerde gegevens om de leeftijd van de versie te vergelijken. |
+| IPv4-adressen | [parse_ipv4()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv4function) | Converteert een IPv4-adres naar een lang geheel getal. Als u IPv4-adressen wilt vergelijken zonder deze te converteren, gebruikt [u ipv4_compare().](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv4-comparefunction) |
+| IPv6-adressen | [parse_ipv6()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv6function)  | Converteert een IPv4- of IPv6-adres naar de canonieke IPv6-notatie. Als u IPv6-adressen wilt vergelijken, gebruikt [ipv6_compare().](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv6-comparefunction) |
 
-Meer informatie over alle ondersteunde functies voor het parseren van functies vindt u in [Kusto tekenreeksfuncties](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions). 
+Voor meer informatie over alle ondersteunde parseringsfuncties leest [u meer over Kusto-tekenreeksfuncties.](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Kusto querytaal documentatie](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
+- [Taaldocumentatie voor kusto-query's](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
 - [Quota en gebruiksparameters](advanced-hunting-limits.md)
-- [Geavanceerde jacht-fouten verwerken](advanced-hunting-errors.md)
+- [Geavanceerde zoekfouten verwerken](advanced-hunting-errors.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)

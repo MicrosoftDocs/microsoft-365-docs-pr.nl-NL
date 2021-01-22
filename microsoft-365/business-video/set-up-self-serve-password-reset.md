@@ -1,5 +1,5 @@
 ---
-title: Gebruikers hun wachtwoord opnieuw laten instellen
+title: Gebruikers hun wachtwoorden opnieuw laten instellen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,30 +16,31 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over hoe u gebruikers in staat stelt hun eigen wachtwoorden opnieuw in te stellen in Microsoft 365 Business Premium.
-ms.openlocfilehash: 724658e48d532b6b7b9c14244fec93eeb17a62e5
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Lees hoe u gebruikers hun eigen wachtwoorden opnieuw kunt laten instellen in Microsoft 365 Business Premium.
+ms.openlocfilehash: a1078f13bb4031427c5bdd655b095dbf8ed29bcb
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702237"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927920"
 ---
 # <a name="set-up-self-service-password-reset"></a>Selfservice voor wachtwoordherstel instellen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S?autoplay=false]
 
-Als u wilt dat uw gebruikers hun eigen wachtwoord opnieuw kunnen instellen zonder dat ze elk hoeft te hoeven contact met u op te nemen, kunt u selfservice voor wachtwoordherstel instellen in Microsoft 365 Business Premium.
+Als u wilt dat uw gebruikers hun eigen wachtwoorden opnieuw instellen zonder dat ze elke keer contact met u moeten opnemen, kunt u de selfservice voor wachtwoord opnieuw instellen in Microsoft 365 Business Premium.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Selecteer in het Microsoft 365-Beheercentrum in het linker navigatiedeelvenster **instellingen** en vervolgens **beveiliging & privacy**.
-1. Selecteer in het **Azure AD-Beheercentrum** onder **uw personen hun eigen wachtwoorden opnieuw laten instellen**.
-1. Selecteer **gebruikers** in het linker navigatiedeelvenster en selecteer op de pagina **gebruikers-alle gebruikers** de optie **wachtwoord opnieuw instellen**.
-1. Selecteer **Alles** om het zelf opnieuw instellen van het wachtwoord in te schakelen en selecteer vervolgens **Opslaan**.
+1. Selecteer in het Microsoft 365-beheercentrum in het linkernavigatiedeelvenster **Instellingen** en selecteer vervolgens & **privacy.**
+1. Selecteer **azure AD-beheercentrum onder** Laat uw personen hun eigen wachtwoorden opnieuw **instellen.**
+1. Selecteer gebruikers in het linkernavigatiedeelvenster **en** selecteer vervolgens op de pagina **Gebruikers -** alle gebruikers de optie Wachtwoord opnieuw **instellen.**
+1. Selecteer **Alles om** selfservice voor wachtwoordreset in te stellen en selecteer Opslaan. 
 
-De eerstvolgende keer dat een gebruiker zich aanmeldt bij hun account, wordt de gebruiker gevraagd om hun gebruikers-ID en wachtwoord. De persoon selecteert vervolgens **volgende** en geef aan of verificatie met hun telefoon, e-mailadres of beide. De persoon voert de code in die ze ontvangen, selecteer **verifiëren** en selecteer vervolgens **Voltooien**. Wanneer u klaar bent, kunnen ze hun eigen wachtwoord opnieuw instellen.
+De volgende keer dat een gebruiker zich bij zijn of haar account meldt, wordt hem of haar gevraagd om zijn of haar gebruikers-id en wachtwoord. Ze selecteren **Volgende** en kiezen vervolgens of ze zich willen verifiëren met hun telefoon, e-mailadres of beide. Ze voeren de code in die ze ontvangen, selecteren **Verifiëren** en vervolgens **Voltooien.** Wanneer ze klaar zijn, kunnen ze hun eigen wachtwoord opnieuw instellen.

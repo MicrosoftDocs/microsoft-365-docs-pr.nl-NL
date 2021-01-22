@@ -5,97 +5,98 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Beheerders kunnen een malafide aanval simuleren en hun gebruikers trainen via phishing met behulp van simulatie gerichte training in Microsoft Defender voor Office 365.
-ms.openlocfilehash: 56ee8b7c11187ee6883bffc9b41961d2783e1ff4
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: Beheerders kunnen informatie krijgen over het nabootsen van phishing-aanvallen en het trainen van hun gebruikers op phishingpreventie met de training voor de aanvalstraining in Microsoft Defender voor Office 365.
+ms.technology: mdo
+ms.openlocfilehash: f22fe8633d8ffa8856f851369739a0f12364342b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877150"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929200"
 ---
-# <a name="simulate-a-phishing-attack"></a>Een malafide aanval simuleren
+# <a name="simulate-a-phishing-attack"></a>Een phishing-aanval simuleren
 
-Simulatie van simulatie aanval in Microsoft Defender voor Office 365 biedt u de mogelijkheid kwaadaardige cyberattack simulaties te doen in uw organisatie om uw beveiligingsbeleid en-procedures te testen en uw werknemers uit te breiden zodat ze zich kunnen beschermen. In dit artikel wordt u stapsgewijs begeleid bij het maken van een simulatie aanval met simulatie van aanval.
+Met de trainingstraining voor de aanval van aanvallen in Microsoft Defender voor Office 365 kunt u benign cyberattacks op uw organisatie uitvoeren om uw beveiligingsbeleid en -procedures te testen en uw werknemers trainen om hen bewuster te maken en hun susceptibility voor aanvallen te verlagen. In dit artikel wordt u beschreven hoe u een gesimuleerde phishing-aanval kunt maken met behulp van de trainingstraining voor de aanvalstraining.
 
-Zie [aan de slag met het gebruik van aanvals training](attack-simulation-training-get-started.md)voor informatie over het aan de slag gaan.
+Zie Aan de slag met de trainingstraining voor de aanvalssyrulatie voor meer [informatie](attack-simulation-training-get-started.md)over de training voor de aanvalstraining.
 
-Als u een gesimuleerde malafide aanval wilt starten, opent u het [Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/), gaat u naar de training voor **e-mail & samenwerking** van een \> **aanval** en gaat u naar het tabblad [**simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations) .
+Als u een gesimuleerde phishing-aanval wilt starten, opent u het [Microsoft 365-beveiligingscentrum,](https://security.microsoft.com/)gaat u naar E-mail **& samenwerkingstraining** voor de aanval- of beveiligingstraining voor aanvallen en gaat u naar het tabblad \>  [**Animaties.**](https://security.microsoft.com/attacksimulator?viewid=simulations)
 
-Selecteer onder **simulaties** **de optie + een simulatie starten**.
+Selecteer **onder Lanceringen** de **optie + Start een lancering.**
 
-![Een simulatie knop starten in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-launch.png)
+![Een knop voor deulatie starten in het Microsoft 365-beveiligingscentrum](../../media/attack-sim-preview-launch.png)
 
 > [!NOTE]
-> U kunt op elk gewenst moment tijdens het maken van een simulatie de werktijd opslaan en sluiten om de simulatie later verder te configureren.
+> U kunt op elk moment tijdens het maken van de creatie van de creatie opslaan en sluiten om de andersing op een later tijdstip te configureren.
 
-## <a name="selecting-a-social-engineering-technique"></a>Een maatschappelijke techniek selecteren
+## <a name="selecting-a-social-engineering-technique"></a>Een techniek voor sociaal netwerken selecteren
 
-Selecteer een van de vier verschillende technieken, met een curator van de [Mitre ATT&a® Framework](https://attack.mitre.org/techniques/enterprise/). Verschillende nettoladingen zijn beschikbaar voor verschillende technieken:
+Selecteer uit 4 verschillende technieken, geselecteerd op basis van de [MITRE ATT&CK® framework.](https://attack.mitre.org/techniques/enterprise/) Er zijn verschillende nettoladingen beschikbaar voor verschillende technieken:
 
-- **Credential oogst** probeert referenties te verzamelen door gebruikers te laten weten dat ze een bekende, op een bekende, juiste website met invoervakken voor het verzenden van een gebruikersnaam en wachtwoord in te voeren.
-- **Bijlage met schadelijke software** voegt een kwaadaardige bijlage toe aan een bericht. Wanneer de gebruiker de bijlage opent, wordt willekeurige code uitgevoerd die de aanvaller helpt het apparaat van de doel te manipuleren.
-- **Koppeling in bijlage** is een type referentie oogst waartoe hybride. Een aanvaller voegt een URL in een e-mailbijlage in. De URL in de bijlage volgt dezelfde methode als de oogst van de Credential.
-- **Koppeling naar malware** voert sommige willekeurige code uit vanuit een bestand dat wordt gehost op een bekende bestands Sharing-service. Het bericht dat naar de gebruiker is verzonden, bevat een koppeling naar dit schadelijke bestand. Het bestand wordt geopend en Help de kwaadwillende persoon kan zich betrekken bij het doelapparaat.
+- **Het ophalen van** referenties is een poging om referenties te verzamelen door gebruikers naar een bekende website met invoervakken te halen om een gebruikersnaam en wachtwoord in te dienen.
+- **Malwarebijlage** voegt een schadelijke bijlage toe aan een bericht. Wanneer de gebruiker de bijlage opent, wordt er willekeurige code uitgevoerd die de aanvaller kan helpen het apparaat van de doel binnen te halen.
+- **Koppeling in bijlage** is een hybride type referentie voor hybride referenties. Een aanvaller voegt een URL toe aan een e-mailbijlage. De URL in de bijlage volgt dezelfde methode als referentiebouw.
+- **Door een koppeling naar malware** wordt willekeurige code uitgevoerd van een bestand dat wordt gehost op een bekende service voor het delen van bestanden. Het bericht dat naar de gebruiker wordt verzonden, bevat een koppeling naar dit schadelijke bestand. Open het bestand en help de aanvaller het apparaat van het doel te ontgrendelen.
 
 > [!TIP]
-> Door te klikken op **Details weergeven** in de beschrijving van de verschillende technieken, worden aanvullende informatie en de simulatie stappen voor de techniek weergegeven.
+> Als u op **Details weergeven in** de beschrijving van elke techniek klikt, worden meer informatie en de stappen voor de onderering van de techniek weergegeven.
 >
-> ![Simulatie stappen voor het verzamelen van referenties binnen een aanvals training in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-sim-steps.png)
+> ![Referentiestappen voor referentievernooiing in de training voor de aanvalsuiterheid in het Microsoft 365-beveiligingscentrum](../../media/attack-sim-preview-sim-steps.png)
 
-Wanneer u de techniek hebt geselecteerd en op **volgende** hebt geklikt, geeft u een simulatie een naam en eventueel een beschrijving.
+Nadat u de techniek hebt geselecteerd en op Volgende hebt **geklikt,** geeft u de vereenspeling een naam en desgewenst een beschrijving.
 
 ## <a name="selecting-a-payload"></a>Een nettolading selecteren
 
-Vervolgens moet u een nettolading selecteren in de reeds bestaande nettolading.
+Vervolgens moet u een nettolading selecteren uit de bestaande nettoladingscatalogus.
 
-Nettoladingen bevatten een aantal gegevenspunten waarmee u kunt kiezen:
+Nettoladingen hebben een aantal gegevenspunten om u te helpen bij het kiezen:
 
-- **Klik op rente** telt het aantal personen dat op deze nettolading heeft geklikt.
-- Voor **speld** percentage voor speling voorspelt, voorspelt het percentage personen dat met deze nettolading wordt geknoeid op basis van historische gegevens voor de nettolading van Microsoft Defender voor Office 365-klanten.
-- **Gestarte simulaties** Hiermee wordt het aantal keren geteld dat deze nettolading in andere simulaties werd gebruikt.
-- De **complexiteit**, die beschikbaar is via **filters**, wordt berekend op basis van het aantal indicatoren binnen de nettolading, wat er op de computer een aanval van maakt. Meer indicatoren leiden tot een lagere complexiteit.
-- **Bron**, beschikbaar via **filters**, geeft aan of de nettolading is gemaakt met de Tenant of dat deze deel uitmaakt van de reeds bestaande nettoladingen catalogus van Microsoft (globaal).
+- **Met de klikfrequentie** wordt geteld hoeveel personen op deze nettolading hebben geklikt.
+- **Voorspelde compromissen** voorspellen het percentage mensen dat wordt gehackt door deze nettolading op basis van historische gegevens voor de nettolading van Microsoft Defender voor Office 365-klanten.
+- **Met de bijen** die zijn gestart, wordt geteld hoe vaak deze nettolading is gebruikt in andere keer.
+- **De complexiteit,** die beschikbaar is via **filters,** wordt berekend op basis van het aantal indicatoren in de nettolading die hints richt op het feit dat het een aanval wordt. Meer indicatoren leiden tot een lagere complexiteit.
+- **Bron,** beschikbaar via **filters,** geeft aan of de nettolading is gemaakt in uw tenant of dat deze deel uitmaakt van de bestaande nettoladingscatalogus van Microsoft (global).
 
-![Geselecteerde nettolading binnen aanval simulatie training in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-select-payload.png)
+![Geselecteerde nettolading binnen de training voor de aanvalsverplaatsing in het Microsoft 365-beveiligingscentrum](../../media/attack-sim-preview-select-payload.png)
 
-Selecteer een nettolading in de lijst als u een voorbeeld van de nettolading met aanvullende informatie hierover wilt weergeven.
+Selecteer een nettolading in de lijst om een voorbeeld van de nettolading te zien met aanvullende informatie.
 
-Als u uw eigen nettolading wilt maken, raadpleegt u [een nettolading maken voor de training voor simulatie van aanval](attack-simulation-training-payloads.md).
+Als u uw eigen nettolading wilt maken, lees dan een nettolading maken voor de [training voor de aanvalstraining.](attack-simulation-training-payloads.md)
 
 ## <a name="audience-targeting"></a>Doelgroepen
 
-Nu is het tijd om het publiek van deze simulatie te selecteren. U kunt ervoor kiezen om **alle gebruikers in uw organisatie** op te nemen of **alleen bepaalde gebruikers en groepen toe te voegen**.
+Nu is het tijd om het publiek van deze groep te selecteren. U kunt ervoor kiezen **om alle gebruikers in uw organisatie** op te nemen of alleen specifieke gebruikers en groepen op te **nemen.**
 
-Wanneer u ervoor kiest om **alleen bepaalde gebruikers en groepen toe te voegen,** hebt u de volgende mogelijkheden:
+Wanneer u ervoor kiest om **alleen specifieke gebruikers en groepen op te** nemen, kunt u:
 
-- **Voeg gebruikers toe**, zodat u kunt zoeken naar uw Tenant en de functies voor Geavanceerd zoeken en filteren, zoals het doel van gebruikers die niet zijn gericht op een simulatie in de afgelopen drie maanden.
-  ![Gebruiker filteren bij simulatie van aanval in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-user-targeting.png)
-- **Met importeren vanuit CSV** kunt u een vooraf gedefinieerde set gebruikers voor deze simulatie importeren.
+- Voeg gebruikers **toe,** waarmee u zoekopdrachten voor uw tenant kunt gebruiken, evenals geavanceerde zoek- en filtermogelijkheden, zoals gebruikers die in de afgelopen 3 maanden niet zijn gericht door eenulatie.
+  ![Filteren van gebruikers in de training voor de aanval van de aanval in het Microsoft 365-beveiligingscentrum](../../media/attack-sim-preview-user-targeting.png)
+- **Door gegevens uit CSV-gegevens** te importeren, kunt u een vooraf gedefinieerde set gebruikers importeren voor deze vereenspeling.
 
 ## <a name="assigning-training"></a>Training toewijzen
 
-U wordt geadviseerd training voor elke simulatie toe te wijzen, aangezien de werknemers die training volgen minder gevoelig zijn voor soortgelijke aanvallen.
+Het is raadzaam om training toe te wijzen voor elkeulatie, aangezien werknemers die de training volgen, minder gevoelig zijn voor soortgelijke aanvallen.
 
-U kunt ervoor kiezen om training voor u te laten voor u of voor de cursus zelf trainingen en modules te selecteren.
+U kunt zelf trainingen aan u toegewezen krijgen of zelf cursussen en modules selecteren.
 
-Selecteer de **einddatum** van de opleiding om ervoor te zorgen dat werknemers op een redelijke manier hun training kunnen voltooien.
+Selecteer de **einddatum van de** training om ervoor te zorgen dat werknemers hun training tijdig voltooien.
 
 > [!NOTE]
-> Als u ervoor kiest cursussen en modules zelf te selecteren, kunt u de aanbevolen inhoud wel en alle beschikbare cursussen en modules weergeven.
+> Als u zelf cursussen en modules selecteert, kunt u nog steeds de aanbevolen inhoud en alle beschikbare cursussen en modules zien.
 >
-> ![Aanbevolen training toevoegen in simulatie simulatie van aanval in Microsoft 365 Beveiligingscentrum](../../media/attack-sim-preview-add-training.png)
+> ![Aanbevolen training toevoegen binnen de training voor de aanvallen van de aanval in het Microsoft 365-beveiligingscentrum](../../media/attack-sim-preview-add-training.png)
 
-In de volgende stappen dient u **trainingen toe te voegen** als u ervoor hebt gekozen om zelf een training te selecteren en de landingspagina aan te passen. U kunt een voorbeeld bekijken van de pagina voor het aanbrengen van een opleiding en ook de koptekst en de tekst ervan wijzigen.
+In de volgende stappen moet u **trainingen** toevoegen als u ervoor hebt gekozen om deze zelf te selecteren en uw trainingslandingspagina aan te passen. U kunt een voorbeeld van de landingspagina van de training bekijken en de kop- en hoofdtekst ervan wijzigen.
 
 ## <a name="launch-details-and-review"></a>Details starten en controleren
 
-Nu alles is geconfigureerd, kunt u deze simulatie direct starten of plannen voor een latere datum. U moet ook kiezen wanneer u deze simulatie wilt beëindigen. We zullen niet langer de interactie met deze simulatie na de geselecteerde tijd beëindigen.
+Nu alles is geconfigureerd, kunt u deze automatisch starten of deze voor een latere datum plannen. U moet ook kiezen wanneer u deze vereenspeling wilt beëindigen. We stoppen met het vastleggen van de interactie met dezeulatie na de geselecteerde tijd.
 
-**Ondersteuning voor regio detectie van tijdzones** voor de levering van de gesimuleerde aanvals berichten voor uw werknemers gedurende hun werktijden op basis van hun regio.
+**Schakel tijdzonebezorging van regio** aware in om gesimuleerde aanvallen aan uw werknemers te verzenden tijdens hun werkuren op basis van hun regio.
 
-Wanneer u klaar bent, klikt u op **volgende** en controleert u de details van uw simulatie. Klik op **bewerken** bij een van de onderdelen om terug te gaan en de gegevens te wijzigen die moeten worden gewijzigd. Klik vervolgens op **verzenden**.
+Wanneer u klaar bent, klikt u op **Volgende en** bekijkt u de details van de zelfedulatie. Klik op **Bewerken** op een van de onderdelen om terug te gaan en alle details te wijzigen die moeten worden gewijzigd. Klik op Verzenden als u klaar **bent.**

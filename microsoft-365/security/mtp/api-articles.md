@@ -1,9 +1,9 @@
 ---
-title: Andere Api's voor beveiliging en Threat Protection
-description: Een lijst met Api's weergeven die zijn gerelateerd aan Microsoft-producten voor beveiliging en risico beveiliging.
-keywords: API, beveiliging, bedreigingsbeveiliging, MDE, Microsoft Defender voor eindpunten, Microsoft Defender ATP, Office 365 Advanced Threat Protection, Microsoft voor geavanceerde bedreigingsbeveiliging, Cloud-app-beveiliging
+title: Andere API's voor beveiliging en risicobeveiliging
+description: Bekijk een lijst met API's die betrekking hebben op microsoft-producten voor beveiliging en risicobeveiliging.
+keywords: api, security, bedreigingsbeveiliging, mde, microsoft defender voor eindpunt, microsoft defender atp, office 365 Advanced Threat Protection, Microsoft Defender Advanced Threat Protection, beveiliging van cloud-apps
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e0b1301341538110d563f446c4a2d603f41078c4
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 3d9eb6b255aefa55da811e779503242c240baf58
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719366"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929764"
 ---
-# <a name="other-security-and-threat-protection-apis"></a>Andere Api's voor beveiliging en Threat Protection
+# <a name="other-security-and-threat-protection-apis"></a>Andere API's voor beveiliging en risicobeveiliging
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,9 +36,9 @@ ms.locfileid: "49719366"
 - Microsoft 365 Defender API
 
 > [!IMPORTANT]
-> Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
+> Sommige informatie heeft betrekking op vooraf uitgebracht product dat aanzienlijk kan worden gewijzigd voordat het in de handel wordt gebracht. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt be gegeven.
 
-In de volgende bronnen vindt u meer informatie over Api's die beschikbaar zijn voor andere Microsoft-beveiligingsoplossingen, verder dan de API van Microsoft 365.
+De volgende bronnen bevatten meer informatie over API's die beschikbaar zijn voor andere beveiligingsoplossingen van Microsoft, naast de Microsoft 365 Defender-API.
 
 - [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
 - [Microsoft Defender voor Office 365](https://docs.microsoft.com/office/office-365-management-api/)

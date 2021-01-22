@@ -16,33 +16,34 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het opnieuw instellen van wachtwoorden voor gebruikers in Microsoft 365 voor bedrijven.
-ms.openlocfilehash: ea6ff03a75c68c13ae27befd0f4eb2ac6c4e4a3e
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het opnieuw instellen van gebruikerswachtwoorden in Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: 07752229e30c2a15ad1ece120a07b947bbe9c895
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702076"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928092"
 ---
-# <a name="reset-passwords-for-your-users"></a>Wachtwoorden opnieuw instellen voor uw gebruikers
+# <a name="reset-passwords-for-your-users"></a>Wachtwoorden voor uw gebruikers opnieuw instellen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP?autoplay=false]
 
-In Microsoft 365 voor bedrijven kunt u wachtwoorden voor gebruikers opnieuw instellen. U kunt medewerkers ook hun eigen wachtwoorden opnieuw laten instellen. Zie [selfservice voor wachtwoordherstel instellen](set-up-self-serve-password-reset.md) voor meer informatie.
+In Microsoft 365 voor Bedrijven kunt u wachtwoorden voor gebruikers opnieuw instellen. U kunt werknemers hun eigen wachtwoorden opnieuw laten instellen. Zie [Selfservice voor wachtwoord opnieuw instellen](set-up-self-serve-password-reset.md) voor meer informatie.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Wanneer een gebruiker een nieuw wachtwoord aanvraagt, ontvangt u een aanvraag voor het opnieuw instellen van een wachtwoord in een e-mail. Als u het wachtwoord opnieuw wilt instellen, opent u het startprogramma voor apps en selecteert u **beheerder**.
-1. Selecteer in het Microsoft 365-Beheercentrum de optie **gebruikers**,  **actieve gebruikers** en selecteer het sleutelpictogram naast de gebruiker die de reset wil herstellen.
-1. Selecteer **wachtwoord automatisch genereren** om automatisch een willekeurig wachtwoord te laten maken.
-1. Selecteer **opnieuw instellen**.
-1. Selecteer het selectievakje **wachtwoord verzenden in e-mail** .
-1. U ziet uw e-mailadres in het vak **Nieuw wachtwoord e-mailen naar de volgende geadresseerden** . Voeg het alternatieve e-mailadres of adres van de gebruiker toe die u kiest.
-1. Kies **E-mail verzenden en sluiten**.
+1. Wanneer een gebruiker een nieuw wachtwoord aanvraagt, ontvangt u per e-mail een aanvraag om het wachtwoord opnieuw in te stellen. Als u het wachtwoord opnieuw wilt instellen, opent u het startcentrum voor apps en **selecteert u Beheerder.**
+1. Selecteer gebruikers , actieve gebruikers in het Microsoft 365-beheercentrum en selecteer vervolgens het sleutelpictogram naast de gebruiker die het opnieuw instellen heeft aangevraagd.
+1. Selecteer **Wachtwoord automatisch genereren om** automatisch een willekeurig wachtwoord te laten maken.
+1. Selecteer **Opnieuw instellen.**
+1. Schakel het selectievakje **Wachtwoord per e-mail** verzenden in.
+1. U ziet uw e-mailadres in het vak Het nieuwe wachtwoord per e-mail **verzenden naar de volgende geadresseerden.** Voeg het alternatieve e-mailadres van de gebruiker of een door u gekozen adres toe.
+1. Kies **E-mail verzenden en sluit.**
 
-    De gebruiker ontvangt een e-mail met de instructies voor het opnieuw instellen van wachtwoorden.
+    De gebruiker ontvangt een e-mail met de instructies voor het opnieuw instellen van het wachtwoord.

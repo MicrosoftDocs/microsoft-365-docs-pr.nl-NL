@@ -16,44 +16,45 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het verplaatsen van gebruikers naar een ander abonnement.
-ms.openlocfilehash: 7da8db17e0cb29f50cd2320293d8b0f1c7f22d5a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het verplaatsen van gebruikers naar een ander abonnement.
+ms.openlocfilehash: b3b82dcf029395dbbe49d0e0ea87f87f4494b4f0
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702321"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927416"
 ---
 # <a name="move-users-to-different-subscriptions"></a>Gebruikers verplaatsen naar verschillende abonnementen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SBE2?autoplay=false]
 
-Aangezien gebruikers hun rollen wijzigen, hebben ze mogelijk functies nodig die niet beschikbaar zijn in het huidige Microsoft 365 Business Premium-abonnement. Wanneer dit gebeurt, kunt u een nieuw abonnement toevoegen dat deze functies bevat, en licenties toewijzen aan de personen die ze nodig hebben.
+Wanneer uw gebruikers van rol veranderen, hebben ze mogelijk functies nodig die niet beschikbaar zijn in hun huidige Abonnement op Microsoft 365 Business Premium. Wanneer dit gebeurt, kunt u een nieuw abonnement toevoegen dat deze functies bevat en licenties toewijzen aan de personen die ze nodig hebben.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
 ### <a name="add-a-new-subscription"></a>Een nieuw abonnement toevoegen
 
-1. Selecteer in het Microsoft 365-Beheercentrum in het linker navigatiedeelvenster **facturering** en vervolgens **Services aanschaffen**.
-1. Kies het abonnement dat u wilt toevoegen en selecteer vervolgens **kopen**.
-1. Kies hoe u wilt betalen en het aantal licenties dat u nodig hebt, en selecteer vervolgens **Nu betalen**.
-1. Controleer uw bestelling en kies **volgende**.
-1. Bevestig het totaal en selecteer **bestelling plaatsen**.
+1. Selecteer in het Microsoft 365-beheercentrum in het linkernavigatiedeelvenster **Facturering** en vervolgens **Services aanschaffen.**
+1. Kies het abonnement dat u wilt toevoegen en selecteer Vervolgens **Kopen.**
+1. Kies hoe u wilt betalen en het aantal licenties dat u nodig hebt. Selecteer **vervolgens Nu betalen.**
+1. Controleer uw bestelling en kies vervolgens **Volgende.**
+1. Bevestig uw totaal en selecteer **Bestelling plaatsen.**
 
-### <a name="change-the-license-assigned-to-a-user"></a>De licentie wijzigen die aan een gebruiker is toegewezen
+### <a name="change-the-license-assigned-to-a-user"></a>De aan een gebruiker toegewezen licentie wijzigen
 
-1. Selecteer **gebruikers** en vervolgens **actieve gebruikers** in het linker navigatiedeelvenster in het Microsoft 365-Beheercentrum.
-1. Selecteer de naam van de gebruiker en selecteer vervolgens **licenties en apps** s.
-1. Onder **licenties** ziet u uw nieuwe abonnement. Schakel het selectievakje naast het nieuwe abonnement in en schakel het selectievakje naast het oude abonnement uit.
-1. Selecteer **Wijzigingen opslaan**. De licentie voor het nieuwe abonnement wordt nu toegewezen aan deze gebruiker.
+1. Selecteer in het Microsoft 365-beheercentrum in het linkernavigatiedeelvenster **Gebruikers** en vervolgens **Actieve gebruikers.**
+1. Selecteer de naam van de gebruiker en selecteer vervolgens **Licenties en app-s.**
+1. Onder **Licenties** ziet u uw nieuwe abonnement. Schakel het selectievakje naast het nieuwe abonnement in en schakel het selectievakje naast het oude abonnement uit.
+1. Selecteer **Wijzigingen opslaan**. De licentie voor het nieuwe abonnement is nu toegewezen aan deze gebruiker.
 
 ### <a name="remove-an-unused-license"></a>Een ongebruikte licentie verwijderen
 
-1. Selecteer in het Microsoft 365-Beheercentrum de optie **facturering** en vervolgens **producten & Services**.
-1. Selecteer het abonnement dat u wilt wijzigen en selecteer vervolgens **licenties toevoegen/verwijderen**.
-1. Druk op de toets pijl-omlaag om het aantal licenties voor dit abonnement te verminderen en selecteer vervolgens **wijziging verzenden**. U hebt nu het juiste aantal licenties voor uw gebruikers.
+1. Selecteer in het Microsoft 365-beheercentrum **Facturering** en vervolgens **Producten & services.**
+1. Selecteer het abonnement dat u wilt wijzigen en selecteer vervolgens **Licenties toevoegen/verwijderen.**
+1. Gebruik de pijl-omlaag om het aantal licenties voor dit abonnement te verminderen en selecteer **vervolgens Wijziging verzenden.** U hebt nu het juiste aantal licenties voor uw gebruikers.
