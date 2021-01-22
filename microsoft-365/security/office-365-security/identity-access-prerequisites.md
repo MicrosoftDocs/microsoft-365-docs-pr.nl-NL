@@ -1,10 +1,10 @@
 ---
-title: Vereisten voor het implementeren van identiteits-en Apparaattoegang-beleid-Microsoft 365 for Enterprise | Microsoft docs
-description: In dit artikel worden de vereisten beschreven die u moet nemen om te voldoen aan het gebruik van beleidsregels en configuraties voor identiteiten en apparaten.
+title: Vereiste werkzaamheden voor het implementeren van identiteits- en apparaattoegangsbeleid - Microsoft 365 voor | Microsoft Docs
+description: In dit artikel wordt beschreven aan welke vereisten u moet voldoen voor het gebruik van identiteits- en apparaattoegangsbeleid en -configuraties.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.topic: article
 ms.date: 09/01/2020
 f1.keywords:
@@ -18,111 +18,112 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: eb07fe45c169d81559e4676f86abde5c6600a185
-ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
+ms.technology: mdo
+ms.openlocfilehash: a479d1bf7fee95a7d8ba862674cd75bfd3c699c7
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49845082"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932560"
 ---
-# <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Vereisten voor het implementeren van identiteits-en Apparaattoegang
+# <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Vereiste werkzaamheden voor het implementeren van identiteits- en apparaattoegangsbeleid
 
-In dit artikel wordt beschreven welke beheerders moeten voldoen aan de aanbevolen identiteits-en toegangsbeleidsregels en om voorwaardelijke toegang te kunnen gebruiken. Ook worden de aanbevolen standaardwaarden besproken voor het configureren van clientplatforms voor de beste ervaring voor eenmalige aanmelding.
+In dit artikel worden de vereisten beschreven waar beheerders aan moeten voldoen om aanbevolen identiteits- en apparaattoegangsbeleid te gebruiken en om voorwaardelijke toegang te gebruiken. Daarnaast worden de aanbevolen standaardwaarden besproken voor het configureren van clientplatforms voor de beste ervaring met eenmalige aanmelding .SSO.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de beleidsregels voor identiteit en toegang tot apparaten gebruikt, moet uw organisatie voldoen aan vereisten. De vereisten verschillen voor de verschillende identiteits-en verificatie modellen die worden weergegeven:
+Voordat u het aanbevolen identiteits- en apparaattoegangsbeleid gebruikt, moet uw organisatie aan de vereisten voldoen. De vereisten verschillen voor de verschillende identiteits- en verificatiemodellen die worden vermeld:
 
 - Alleen in de cloud
-- Hybride met wachtwoord hash synchronisatie (PHS)-authenticatie
-- Hybride met Pass-Through-verificatie (PTA)
-- Verbonden
+- Hybride met wachtwoord-hashsynchronisatie (PHS)-verificatie
+- Hybride met Pass Through-verificatie (PTA)
+- Federatief
 
-In de volgende tabel vindt u een overzicht van de vereisten en de configuratie van de functies die van toepassing zijn op alle identiteits modellen, tenzij anders vermeld.
+De volgende tabel bevat informatie over de vereiste functies en de configuratie die van toepassing zijn op alle identiteitsmodellen, behalve waar vermeld.
 
-|Configuratie|Ring|
+|Configuratie|Uitzonderingen|
 |---|:---:|
-|[CONFIGUREER PHS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).  Dit moet worden ingeschakeld voor het detecteren van gelekte referenties en om hierop te reageren voor voorwaardelijke toegang op basis van risico. **Opmerking:** Dit is vereist, ongeacht of uw organisatie gebruikmaakt van federatieve verificatie.|Alleen in de cloud|
-|[Naadloze eenmalige aanmelding inschakelen](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso) om gebruikers automatisch aan te melden wanneer ze zich bevinden op hun organisatie-apparaten die zijn verbonden met het netwerk van uw organisatie.|Alleen Cloud en federatief|
-|[Netwerken met een naam configureren](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). Azure AD-identiteitsbeveiliging verzamelt en veranalyseert alle beschikbare sessiegegevens voor het genereren van een risicoscore. U wordt aangeraden de openbare IP-bereiken van uw organisatie voor uw netwerk op te geven in de configuratie van Azure AD named Network. Verkeer van deze bereiken krijgt een beperkte risicoscore, en verkeer van buiten de organisatie omgeving krijgt een hogere risicoscore.||
-|[Registreer alle gebruikers voor selfservice voor wachtwoordherstel (SSPR) en multi-factor Authentication (MFA)](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged). U wordt aangeraden gebruikers voor Azure AD meervoudige verificatie te registreren. Azure AD-identiteitsbeveiliging biedt ondersteuning voor het uitvoeren van extra beveiligingsverificatie via Azure AD multi-factor Authentication. Voor de beste aanmeld ervaring raden wij u aan gebruikers de [Microsoft Authenticator-app](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) en de Microsoft Company Portal-app op hun apparaten te installeren. Deze kunnen worden geïnstalleerd vanuit de App Store voor elk platform.||
-|[Automatische apparaatregistratie inschakelen voor Windows-computers die lid zijn van een domein](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). Met voorwaardelijke toegang zorgt u ervoor dat apparaten die verbinding maken met apps, aan een domein zijn toegevoegd of compatibel zijn. Als u dit op Windows-computers wilt ondersteunen, moet het apparaat zijn geregistreerd bij Azure AD.  In dit artikel wordt beschreven hoe u automatische apparaatregistratie configureert.|Alleen in de cloud|
-|**Uw ondersteuningsteam voorbereiden**. Een plan hebben voor gebruikers die MFA niet kunnen voltooien. U kunt deze toevoegen aan een groep beleidsuitsluiting of nieuwe MFA-gegevens voor de groep registreren. Voordat u een van deze beveiligingsgevoelige wijzigingen aanbrengt, moet u ervoor zorgen dat de daadwerkelijke gebruikers de aanvraag doen. Wanneer de managers van de gebruikers u kunnen helpen bij de goedkeuring, vormt dit een effectieve stap.||
-|[Configureer het terugschrijven van wachtwoorden naar on-premises advertenties](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). Voor wachtwoord terugschrijfing is Azure AD vereist dat gebruikers hun on-premises wachtwoorden kunnen wijzigen wanneer er een account voor hoog risico wordt gedetecteerd. U kunt deze functie inschakelen met behulp van Azure AD Connect via een van de volgende twee manieren: Schakel het selectievakje **wachtwoord terugschrijven** in het scherm optionele functies van de wizard Azure AD Connect installeren in of schakel het in via Windows PowerShell.|Alleen in de cloud|
-|[Azure AD-wachtwoordbeveiliging configureren](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad). Azure AD-wachtwoordbeveiliging detecteert en blokkeert bekende zwakke wachtwoorden en hun varianten, en kan ook aanvullende zwakke termen blokkeren die specifiek zijn voor uw organisatie. Standaardlijsten met verboden wachtwoorden worden automatisch toegepast op alle gebruikers in een Azure AD-tenant. U kunt aanvullende vermeldingen definiëren in een aangepaste lijst met geblokkeerde wachtwoorden. Als gebruikers hun wachtwoord wijzigen of opnieuw instellen, worden deze verboden wachtwoordlijsten ingeschakeld om het gebruik van sterke wachtwoorden af te dwingen.||
-|[Azure Active Directory-identiteits bescherming inschakelen](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection). Met Azure AD-identiteitsbeveiliging kunt u potentiële beveiligingsproblemen detecteren die van invloed zijn op de identiteiten van uw organisatie en een automatisch herstelbeleid configureren voor slecht, gemiddeld en sterk aanmelding Risico's en gebruikers risico.||
-|**Schakel moderne verificatie in** voor [Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) en voor [Skype voor bedrijven online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). Moderne verificatie is een vereiste voor het gebruik van MFA. Moderne verificatie is standaard ingeschakeld voor Office 2016-en 2019-clients, SharePoint en OneDrive voor bedrijven.||
+|[PHS configureren.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)  Dit moet zijn ingeschakeld voor het detecteren van gelekte referenties en om voorwaardelijke toegang op basis van risico te kunnen gebruiken. **Opmerking:** Dit is vereist, ongeacht of uw organisatie federatieverificatie gebruikt.|Alleen in de cloud|
+|[Schakel naadloze eenpersoons aanmelden in om](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso) gebruikers automatisch aan te melden wanneer ze zich op hun organisatieapparaten aanmelden die met het netwerk van uw organisatie zijn verbonden.|Alleen in de cloud en federatief|
+|[Benoemde netwerken configureren.](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal) Azure AD Identity Protection verzamelt en analyseert alle beschikbare sessiegegevens om een risicoscore te genereren. U wordt aangeraden de openbare IP-adresbereiken van uw organisatie voor uw netwerk op te geven in de configuratie van netwerken met de naam Azure AD. Het verkeer dat vanuit deze bereiken komt, krijgt een lagere risicoscore en verkeer van buiten de organisatieomgeving krijgt een hogere risicoscore.||
+|[Alle gebruikers registreren voor selfservice voor wachtwoordreset (SSPR) en meervoudige verificatie (MFA).](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged) Het is raadzaam gebruikers van tevoren te registreren voor meervoudige azure AD-verificatie. Azure AD Identity Protection maakt gebruik van Azure AD Multi-Factor Authentication om aanvullende beveiligingsverificatie uit te voeren. Daarnaast raden we gebruikers aan om de Microsoft [Authenticator-app](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) en de Microsoft Company Portal-app op hun apparaten te installeren voor de beste aanmeldingservaring. Deze kunnen voor elk platform worden geïnstalleerd vanuit de App Store.||
+|[Schakel automatische apparaatregistratie in voor Windows-computers die lid](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup)zijn van een domein. Met voorwaardelijke toegang zorgt u ervoor dat apparaten die verbinding maken met apps, lid zijn van een domein of compatibel zijn. Dit apparaat kan alleen worden ondersteund op Windows-computers als het apparaat is geregistreerd bij Azure AD.  In dit artikel wordt besproken hoe u automatische apparaatregistratie configureert.|Alleen in de cloud|
+|**Bereid uw ondersteuningsteam voor.** Een abonnement hebben voor gebruikers die MFA niet kunnen voltooien. Dit kan door ze toe te voegen aan een groep voor beleidsuitsluiting of nieuwe MFA-gegevens voor hen te registreren. Voordat u een van deze beveiligingsgevoelige wijzigingen aan kunt brengen, moet u ervoor zorgen dat de werkelijke gebruiker de aanvraag doet. Het is een effectieve stap om te vereisen dat de beheerders van de gebruikers helpen met de goedkeuring.||
+|[Wachtwoordin writeback configureren naar on-premises AD.](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) Dankzij wachtwoordschrijven kan Azure AD vereisen dat gebruikers hun on-premises wachtwoorden wijzigen wanneer een risicovolle accountcompromitteerd wordt gedetecteerd. U kunt deze functie op twee manieren inschakelen met behulp van Azure AD Connect: schakel Wachtwoordopschrijven **in** het scherm met optionele functies van de installatiewizard van Azure AD Connect in of schakel deze in via Windows PowerShell.|Alleen in de cloud|
+|[Configureer wachtwoordbeveiliging voor Azure AD.](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) Azure AD-wachtwoordbeveiliging detecteert en blokkeert bekende zwakke wachtwoorden en hun varianten, en kan ook aanvullende zwakke termen blokkeren die specifiek zijn voor uw organisatie. Standaardlijsten met verboden wachtwoorden worden automatisch toegepast op alle gebruikers in een Azure AD-tenant. U kunt aanvullende vermeldingen definiëren in een aangepaste lijst met geblokkeerde wachtwoorden. Als gebruikers hun wachtwoord wijzigen of opnieuw instellen, worden deze verboden wachtwoordlijsten ingeschakeld om het gebruik van sterke wachtwoorden af te dwingen.||
+|[Schakel Azure Active Directory Identity Protection in.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection) Met Azure AD Identity Protection kunt u potentiële beveiligingsproblemen opsporen die de identiteiten van uw organisatie beïnvloeden en een geautomatiseerd herstelbeleid configureren voor lage, gemiddelde en hoge aanmeldings- en gebruikersrisico's.||
+|**Schakel moderne verificatie in** [voor Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) en voor Skype voor [Bedrijven Online.](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) Moderne verificatie is een vereiste voor het gebruik van MFA. Moderne verificatie is standaard ingeschakeld voor Office 2016- en 2019-clients, SharePoint en OneDrive voor Bedrijven.||
 |
 
 ## <a name="recommended-client-configurations"></a>Aanbevolen clientconfiguraties
 
-In deze sectie vindt u een beschrijving van de standaardplatform-clientconfiguraties die u kunt gebruiken om de beste SSO-ervaring te bieden aan uw gebruikers en de technische vereisten voor voorwaardelijke toegang.
+In dit gedeelte worden de standaardconfiguraties van platformclients beschreven die u wordt aangeraden uw gebruikers de beste SSO-ervaring te bieden, evenals de technische vereisten voor voorwaardelijke toegang.
 
 ### <a name="windows-devices"></a>Windows-apparaten
 
-U wordt aangeraden Windows 10 (versie 2004 of hoger) te installeren, omdat Azure is ontworpen om de soepele SSO-ervaring te bieden voor zowel on-premises als Azure AD. Apparaten op basis van werk of school moeten worden geconfigureerd om rechtstreeks lid te worden van Azure AD of als de organisatie on-premises AD-Domeindeelname gebruikt, worden deze apparaten [zodanig geconfigureerd dat ze automatisch en zonder meldingen worden geregistreerd met Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup).
+We raden Windows 10 (versie 2004 of hoger) aan, omdat Azure zo is ontworpen dat zowel on-premises als Azure AD soepel verloopt. Door de school uitgegeven apparaten moeten worden geconfigureerd om rechtstreeks deel te nemen aan Azure AD. Als de organisatie on-premises AD-domein joins gebruikt, moeten deze apparaten zo worden geconfigureerd dat ze automatisch en op de silent worden geregistreerd bij [Azure AD.](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup)
 
-Voor BYOD Windows-apparaten kunnen gebruikers **werk-of schoolaccount toevoegen** gebruiken. Houd er rekening mee dat gebruikers van de Google Chrome-browser op Windows 10-apparaten [een uitbreiding moeten installeren om een](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) goede aanmeld ervaring op te doen als gebruikers van Microsoft Edge. Daarnaast kunt u Microsoft Workplace join installeren voor niet-Windows 10-computers als uw organisatie Windows 8 of 8,1-apparaten heeft die lid zijn van een domein. [Download het pakket om apparaten te registreren](https://www.microsoft.com/download/details.aspx?id=53554) met Azure AD.
+Voor BYOD Windows-apparaten kunnen gebruikers werk- of **schoolaccount toevoegen.** Gebruikers van de browser Google Chrome op Windows [](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) 10-apparaten moeten een uitbreiding installeren om dezelfde probleemloos aanmelden als gebruikers van Microsoft Edge te krijgen. Als uw organisatie meerdere domeinen aan een Windows 8 of 8.1-apparaten heeft, kunt u Microsoft Workplace Join installeren voor niet-Windows 10-computers. [Download het pakket om de apparaten te](https://www.microsoft.com/download/details.aspx?id=53554) registreren bij Azure AD.
 
 ### <a name="ios-devices"></a>iOS-apparaten
 
-U wordt aangeraden om de [Microsoft Authenticator-app](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) te installeren op gebruikers apparaten voordat u beleidsregels voor voorwaardelijke toegang of MFA implementeert. De app moet minimaal worden geïnstalleerd wanneer gebruikers wordt gevraagd hun apparaat te registreren met Azure AD door een werk-of schoolaccount toe te voegen of wanneer ze de app intune Company Portal installeren om hun apparaat in te delen in Management. Dit is afhankelijk van het geconfigureerde voorwaardelijke toegangsbeleid.
+Het is raadzaam de [Microsoft Authenticator-app](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) te installeren op gebruikersapparaten voordat u beleidsregels voor voorwaardelijke toegang of MFA implementeert. De app moet ten minste worden geïnstalleerd wanneer gebruikers wordt gevraagd hun apparaat te registreren bij Azure AD door een werk- of schoolaccount toe te voegen, of wanneer ze de Intune-bedrijfsportal-app installeren om hun apparaat in te schrijven voor beheer. Dit is afhankelijk van het geconfigureerde beleid voor voorwaardelijke toegang.
 
 ### <a name="android-devices"></a>Android-apparaten
 
-U wordt aangeraden gebruikers de [app intune Company Portal](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal&hl=en) en [Microsoft Authenticator](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) te installeren voordat beleidsregels voor voorwaardelijke toegang worden geïmplementeerd of wanneer u tijdens een bepaalde verificatie wordt gevraagd. Na de installatie van de app wordt u mogelijk gevraagd om u aan te melden bij Azure AD of hun apparaat te registreren met intune. Dit is afhankelijk van het geconfigureerde voorwaardelijke toegangsbeleid.
+Het is raadzaam dat gebruikers de [Intune-bedrijfsportal-app](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal&hl=en) en de [Microsoft Authenticator-app](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) installeren voordat beleid voor voorwaardelijke toegang wordt geïmplementeerd of wanneer dit vereist is tijdens bepaalde verificatiepogingen. Na de installatie van de app kunnen gebruikers worden gevraagd zich te registreren bij Azure AD of hun apparaat te registreren bij Intune. Dit is afhankelijk van het geconfigureerde beleid voor voorwaardelijke toegang.
 
-We raden u ook aan de eigen apparatuur van de organisatie te gebruiken voor Oem's en versies die Android voor werk of Samsung Knox ondersteunen, zodat e-mailaccounts kunnen worden beheerd en beschermd door intune MDM-beleid.
+We raden ook aan apparaten die eigendom zijn van organisaties, te gestandaardiseerd zijn voor OEM's en versies die Android voor Werk of Samsung Knox ondersteunen om e-mailaccounts toe te staan, te beheren en te beschermen door het Intune MDM-beleid.
 
-### <a name="recommended-email-clients"></a>Aanbevolen e-mailclients
+### <a name="recommended-email-clients"></a>Aanbevolen e-mail clients
 
-De volgende e-mailclients ondersteunen moderne verificatie en voorwaardelijke toegang.
+De volgende e-mail clients ondersteunen moderne verificatie en voorwaardelijke toegang.
 
 |Platform|Client|Versie/notities|
 |---|---|---|
 |**Windows**|Outlook|2019, 2016, 2013 <p> [Moderne verificatie inschakelen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication) <p> [Vereiste updates](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
-|**Apparaten**|Outlook voor iOS|[Snufje](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|
-|**Android**|Outlook voor Android|[Snufje](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|
+|**iOS**|Outlook voor iOS|[Nieuwste](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|
+|**Android**|Outlook voor Android|[Nieuwste](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|
 |**macOS**|Outlook|2019 en 2016|
-|**Spreek**|Niet ondersteund||
+|**Linux**|Niet ondersteund||
 |
 
 ### <a name="recommended-client-platforms-when-securing-documents"></a>Aanbevolen clientplatforms bij het beveiligen van documenten
 
-U wordt aangeraden de volgende clients te bezorgen wanneer een beleid voor beveiligd document is toegepast.
+De volgende clients worden aanbevolen wanneer een beleid voor veilige documenten is toegepast.
 
 |Platform|Word/Excel/PowerPoint|OneNote|OneDrive-app|SharePoint-app|[OneDrive-synchronisatieclient](https://docs.microsoft.com/onedrive/enable-conditional-access)|
 |---|---|---|---|---|---|
 |Windows 8.1|Ondersteund|Ondersteund|N.v.t.|N.v.t.|Ondersteund|
 |Windows 10|Ondersteund|Ondersteund|N.v.t.|N.v.t.|Ondersteund|
 |Android|Ondersteund|Ondersteund|Ondersteund|Ondersteund|N.v.t.|
-|Apparaten|Ondersteund|Ondersteund|Ondersteund|Ondersteund|N.v.t.|
+|iOS|Ondersteund|Ondersteund|Ondersteund|Ondersteund|N.v.t.|
 |macOS|Ondersteund|Ondersteund|N.v.t.|N.v.t.|Niet ondersteund|
-|Spreek|Niet ondersteund|Niet ondersteund|Niet ondersteund|Niet ondersteund|Niet ondersteund|
+|Linux|Niet ondersteund|Niet ondersteund|Niet ondersteund|Niet ondersteund|Niet ondersteund|
 |
 
-### <a name="microsoft-365-client-support"></a>Ondersteuning voor Microsoft 365-clients
+### <a name="microsoft-365-client-support"></a>Microsoft 365-clientondersteuning
 
 Zie de volgende artikelen voor meer informatie over clientondersteuning in Microsoft 365:
 
-- [Ondersteuning voor Microsoft 365 client app-voorwaardelijke toegang](../../enterprise/microsoft-365-client-support-conditional-access.md)
-- [Ondersteuning voor Microsoft 365 client app-moderne verificatie](../../enterprise/microsoft-365-client-support-modern-authentication.md)
+- [Ondersteuning voor Microsoft 365-client-apps - Voorwaardelijke toegang](../../enterprise/microsoft-365-client-support-conditional-access.md)
+- [Ondersteuning voor Microsoft 365-client-app - Moderne verificatie](../../enterprise/microsoft-365-client-support-modern-authentication.md)
 
 ## <a name="protecting-administrator-accounts"></a>Beheerdersaccounts beveiligen
 
-Voor Microsoft 365 E3 of E5 of met een aparte licentie voor Azure AD Premium P1 of P2, kunt u MFA vereisen voor beheerdersaccounts met een handmatig aangemaakt beleid voor voorwaardelijke toegang. Zie [voorwaardelijke toegang: MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) voor de details.
+Voor Microsoft 365 E3 of E5 of met afzonderlijke Azure AD Premium P1- of P2-licenties kunt u MFA vereisen voor beheerdersaccounts met een handmatig gemaakt beleid voor voorwaardelijke toegang. Zie [Voorwaardelijke toegang: MFA vereisen voor beheerders](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) voor meer informatie.
 
-Voor edities van Microsoft 365 of Office 365 waarvoor geen ondersteuning wordt geboden voor voorwaardelijke toegang, kunt u [instellen dat beveiligingsinstellingen](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) voor alle accounts MFA vereisen.
+Voor edities van Microsoft 365 of Office 365 die [](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) geen ondersteuning bieden voor voorwaardelijke toegang, kunt u voor alle accounts MFA vereisen voor beveiligingsinstellingen.
 
 Hier volgen enkele aanvullende aanbevelingen:
 
-- U kunt het aantal permanente beheeraccounts beperken met behulp van [Azure AD geprivilegieerde Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) .
-- [Gebruik geprivilegieerd toegangsbeheer](../../compliance/privileged-access-management-overview.md) om uw organisatie te beschermen tegenstrijdige beheerdersaccounts die bestaande beheerdersaccounts met toegang hebben tot gevoelige gegevens of toegang tot belangrijke configuratie-instellingen.
-- Afzonderlijke accounts maken en gebruiken die uitsluitend aan [Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) zijn toegewezen *voor beheer*. Beheerders moeten hun eigen gebruikersaccount hebben voor regelmatig niet-beheerders gebruik en alleen een beheeraccount gebruiken om een taak te voltooien die is gekoppeld aan een functie of functie.
-- Volg [Aanbevolen procedures](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices) voor het beveiligen van geprivilegieerde accounts in azure AD.
+- Gebruik [Azure AD Privileged Identity Management om](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) het aantal permanente beheeraccounts te verminderen.
+- [Gebruik bevoorrechte toegangsbeheer](../../compliance/privileged-access-management-overview.md) om uw organisatie te beschermen tegen inbreuken die mogelijk gebruikmaken van bestaande bevoegde beheerdersaccounts met staande toegang tot gevoelige gegevens of toegang tot essentiële configuratie-instellingen.
+- Maak en gebruik afzonderlijke accounts aan en toegewezen [Microsoft 365-beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) *alleen voor beheer.* Beheerders moeten hun eigen gebruikersaccount hebben voor normaal, niet-administratief gebruik en gebruiken zo nodig alleen een beheeraccount om een taak te voltooien die is gekoppeld aan hun functie of functie.
+- Volg [de beste procedures voor](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices) het beveiligen van accounts met bevoegdheden in Azure AD.
 
 ## <a name="next-step"></a>Volgende stap
 
-[![Stap 2: de gangbare identiteit configureren en toegang tot regels voor voorwaardelijke toegang beheren](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
+[![Stap 2: Het algemene beleid voor identiteit en toegang tot voorwaardelijke toegang configureren](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
-[De veelgebruikte beleidsregels voor identiteit en toegang tot apparaten configureren](identity-access-policies.md)
+[Het algemene beleid voor identiteits- en apparaattoegang configureren](identity-access-policies.md)

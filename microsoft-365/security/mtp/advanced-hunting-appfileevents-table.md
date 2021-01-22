@@ -1,10 +1,10 @@
 ---
-title: AppFileEvents-tabel in het geavanceerde jacht schema
-description: Meer informatie over bestanden die zijn gekoppeld aan Cloud-apps en-services in de tabel AppFileEvents van het schema geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, kolom, gegevenstype, beschrijving, AppFileEvents, Cloud app Security, MCAS
+title: Tabel AppFileEvents in het geavanceerde schema voor zoeken
+description: Meer informatie over bestandsgerelateerde gebeurtenissen die zijn gekoppeld aan cloud-apps en -services in de tabel AppFileEvents van het geavanceerde schema voor zoeken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AppFileEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 1a7f523e96c0a46c29098f7e5bb2fbb83a4db4bb
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 59e9affc53398f2a1b06fbab9774e4b53e146425
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847654"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932872"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -34,34 +35,34 @@ ms.locfileid: "48847654"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De `AppFileEvents` tabel in het [Geavanceerde bejachts](advanced-hunting-overview.md) schema bevat informatie over Bestandsactiviteiten in Cloud-apps en services die worden gecontroleerd in de beveiliging van de Microsoft Cloud-app. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De tabel in het geavanceerde zoekschema bevat informatie over activiteiten in verband met bestanden in cloud-apps en services die worden gecontroleerd `AppFileEvents` door Microsoft Cloud App Security. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de typen gebeurtenissen ( `ActionType` waarden) die door een tabel worden ondersteund, gebruikt u de [ingebouwde schema verwijzing](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) die beschikbaar is in het Beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
-| `ActionType` | tekenreeks | Type activiteit waarmee de gebeurtenis wordt geactiveerd. Zie de [verwijzingen naar het portal schema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor Details |
-| `Application` | tekenreeks | De toepassing die de opgenomen actie heeft uitgevoerd |
-| `FileName` | tekenreeks | De naam van het bestand waarop de opgenomen actie is toegepast |
-| `FolderPath` | tekenreeks | Map met het bestand waarop de opgenomen actie is toegepast |
-| `PreviousFileName` | tekenreeks | De oorspronkelijke naam van het bestand dat de naam van het bestand heeft gewijzigd en waarvan de naam is gewijzigd. |
-| `PreviousFolderPath` | tekenreeks | De oorspronkelijke map met het bestand voordat de opgenomen actie is toegepast |
-| `Protocol` | tekenreeks | Gebruikte netwerkprotocollen |
+| `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
+| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal voor](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) meer informatie |
+| `Application` | tekenreeks | Toepassing die de opgenomen actie heeft uitgevoerd |
+| `FileName` | tekenreeks | Naam van het bestand waar de opgenomen actie op is toegepast |
+| `FolderPath` | tekenreeks | Map met het bestand waar de opgenomen actie op is toegepast |
+| `PreviousFileName` | tekenreeks | Oorspronkelijke naam van het bestand dat door de actie een andere naam heeft gegeven |
+| `PreviousFolderPath` | tekenreeks | Oorspronkelijke map met het bestand voordat de opgenomen actie werd toegepast |
+| `Protocol` | tekenreeks | Netwerkprotocol gebruikt |
 | `AccountName` | tekenreeks | Gebruikersnaam van het account |
 | `AccountDomain` | tekenreeks | Domein van het account |
 | `AccountUpn` | tekenreeks | UPN (User Principal Name) van het account |
-| `AccountObjectId` | tekenreeks | Unieke id voor het account in azure AD |
-| `AccountDisplayName` | tekenreeks | Naam van de account gebruiker die in het adresboek wordt weergegeven. Meestal een combinatie van een bepaalde of voornaam, een tweede opening en een achternaam of achternaam. |
+| `AccountObjectId` | tekenreeks | Unieke id voor het account in Azure AD |
+| `AccountDisplayName` | tekenreeks | De naam van de accountgebruiker die wordt weergegeven in het adresboek. Meestal een combinatie van een bepaalde of voornaam, een middelste start en een achternaam of achternaam. |
 | `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van het apparaat |
 | `DeviceType` | tekenreeks | Type apparaat | 
-| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, met inbegrip van variaties in dezelfde familie, zoals Windows 10 en Windows 7. |
-| `IPAddress` | tekenreeks | Het IP-adres dat is toegewezen aan het eindpunt en die wordt gebruikt tijdens gerelateerde netwerkcommunicatie |
-| `DestinationDeviceName` | tekenreeks | Naam van het apparaat waarop de servertoepassing wordt uitgevoerd die de opgenomen actie heeft verwerkt |
-| `DestinationIPAddress` | tekenreeks | IP-adres van het apparaat waarop de servertoepassing wordt uitgevoerd die de opgenomen actie heeft verwerkt |
+| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat wordt uitgevoerd op het apparaat. Dit geeft specifieke besturingssystemen aan, inclusief variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
+| `IPAddress` | tekenreeks | IP-adres dat aan het eindpunt is toegewezen en dat is gebruikt tijdens gerelateerde netwerkcommunicatie |
+| `DestinationDeviceName` | tekenreeks | Naam van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
+| `DestinationIPAddress` | tekenreeks | Het IP-adres van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
 | `Location` | tekenreeks | Plaats, land of andere geografische locatie die is gekoppeld aan de gebeurtenis |
 | `Isp` | tekenreeks | Internetprovider (ISP) die is gekoppeld aan het IP-adres van het eindpunt |
 | `ReportId` | lang | Unieke id voor de gebeurtenis |

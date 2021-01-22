@@ -1,10 +1,10 @@
 ---
-title: AssignedIPAddresses (), functie in geavanceerde jacht voor Microsoft 365 Defender
-description: Meer informatie over het gebruik van de functie AssignedIPAddresses () om de meest recente IP-adressen aan een apparaat te krijgen
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, FileProfile, bestands profiel, functie, verrijking
+title: AssignedIPAddresses() functie in geavanceerd zoeken naar Microsoft 365 Defender
+description: Informatie over het gebruik van de functieAssignedIPAddresses() om de meest recente IP-adressen aan een apparaat toe te werken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, FileProfile, file profile, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: cb9dffca148c95f284a6a7e920f3a08a839b748d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d16cd7efc49cc2498eff3f705bb43fa62f37d975
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847642"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933016"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -34,17 +35,17 @@ ms.locfileid: "48847642"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Gebruik de `AssignedIPAddresses()` functie in uw [geavanceerde jacht](advanced-hunting-overview.md) -query's om snel de nieuwste IP-adressen te verkrijgen die aan een apparaat zijn toegewezen. Als u een argument voor een tijdstempel opgeeft, worden voor deze functie de meest recente IP-adressen op de opgegeven tijd opgehaald. 
+Gebruik de `AssignedIPAddresses()` functie in uw geavanceerde [zoekquery's](advanced-hunting-overview.md) om snel de meest recente IP-adressen te verkrijgen die aan een apparaat zijn toegewezen. Als u een tijdstempelargument opgeeft, worden met deze functie de meest recente IP-adressen op de opgegeven tijd bepaald. 
 
 Deze functie retourneert een tabel met de volgende kolommen:
 
 | Kolom | Gegevenstype | Beschrijving |
 |------------|-------------|-------------|
-| `Timestamp` | tijd | Laatste keer dat het apparaat is waargenomen met behulp van het IP-adres |
-| `IPAddress` | tekenreeks | IP-adres dat door het apparaat wordt gebruikt |
-| `IPType` | tekenreeks | Geeft aan of het IP-adres een openbaar of privéadres is |
-| `NetworkAdapterType` | int | Type netwerkadapter dat wordt gebruikt door het apparaat waaraan het IP-adres is toegewezen. Voor de mogelijke waarden raadpleegt u [deze inventarisatie](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
-| `ConnectedNetworks` | int | Netwerken waarmee de adapter met het toegewezen IP-adres is verbonden. Elke JSON-matrix bevat de naam van een netwerk, categorie (openbaar, privé of domein), een beschrijving en een vlag die aangeven of de verbinding openbaar met internet is. |
+| `Timestamp` | datetime | De laatste keer dat het apparaat werd waargenomen met behulp van het IP-adres |
+| `IPAddress` | tekenreeks | IP-adres dat door het apparaat is gebruikt |
+| `IPType` | tekenreeks | Geeft aan of het IP-adres een openbaar of persoonlijk adres is |
+| `NetworkAdapterType` | int | Het type netwerkadapter dat wordt gebruikt door het apparaat dat aan het IP-adres is toegewezen. Voor de mogelijke waarden raadpleegt u [deze enumeratie](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `ConnectedNetworks` | int | Netwerken waar de adapter met het toegewezen IP-adres mee is verbonden. Elke JSON-matrix bevat de netwerknaam, -categorie (openbaar, privé of domein), een beschrijving en een vlag die aangeeft of deze openbaar is verbonden met internet |
 
 ## <a name="syntax"></a>Syntaxis
 
@@ -54,19 +55,19 @@ AssignedIPAddresses(x, y)
 
 ## <a name="arguments"></a>Argumenten
 
-- **x** — `DeviceId` of `DeviceName` waarde die het apparaat identificeert
-- **y** `Timestamp` de waarde y (datetime) die de functie vraagt om de meest recente IP-adressen van een specifieke tijd te verkrijgen. Als dat niet is opgegeven, retourneert de functie de nieuwste IP-adressen.
+- **x** of `DeviceId` een waarde die het apparaat `DeviceName` identificeert
+- **y**— (datetime) met de instructie van de functie om de meest recent toegewezen IP-adressen van `Timestamp` een bepaalde tijd te verkrijgen. Als deze niet is opgegeven, retourneert de functie de meest recente IP-adressen.
 
 ## <a name="examples"></a>Voorbeelden
 
-### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>De lijst met IP-adressen die worden gebruikt door een apparaat, 24 uur geleden weergeven
+### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>De lijst met IP-adressen vinden die 24 uur geleden door een apparaat zijn gebruikt
 
 ```kusto
 AssignedIPAddresses('example-device-name', ago(1d))
 ```
 
-### <a name="get-ip-addresses-used-by-a-device-and-find-devices-communicating-with-it"></a>IP-adressen van een apparaat achterhalen en apparaten communiceren
-Deze query maakt gebruik `AssignedIPAddresses()` van de functie om toegewezen IP-adressen voor het apparaat ( `example-device-name` ) op of vóór een bepaalde datum () te krijgen `example-date` . Vervolgens gebruikt u de IP-adressen om verbindingen te vinden met het apparaat dat door andere apparaten wordt gestart. 
+### <a name="get-ip-addresses-used-by-a-device-and-find-devices-communicating-with-it"></a>IP-adressen krijgen die door een apparaat worden gebruikt en zoek naar apparaten die met het apparaat communiceren
+Deze query gebruikt de functie om ip-adressen voor het apparaat () op of vóór een bepaalde datum `AssignedIPAddresses()` `example-device-name` () te `example-date` krijgen. Vervolgens worden de IP-adressen gebruikt om verbindingen te zoeken met het apparaat dat door andere apparaten is gestart. 
 
 ```kusto
 let Date = datetime(example-date);

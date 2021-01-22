@@ -1,9 +1,9 @@
 ---
 title: Herstelacties in Microsoft 365 Defender
-description: Een overzicht van herstelacties volgen voor geautomatiseerde onderzoek in Microsoft 365 Defender
-keywords: automatisch, onderzoek, waarschuwing, trigger, actie, herstel
+description: Een overzicht van herstelacties die volgen op geautomatiseerde onderzoeken in Microsoft 365 Defender
+keywords: geautomatiseerd, onderzoek, waarschuwing, trigger, actie, herstel
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 12/09/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 9e489e3b0100aa138b11d4bfb4ccc8048a2113f4
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: m365d
+ms.openlocfilehash: c6b0275335f32419b470c789d83b069be7839c36
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683293"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932848"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Herstelacties in Microsoft 365 Defender
 
@@ -38,49 +39,49 @@ ms.locfileid: "49683293"
 
 ## <a name="remediation-actions"></a>Herstelacties
 
-Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 Defender, worden herstelacties herkend voor schadelijke of verdachte items. Sommige soorten herstelbewerkingen worden uitgevoerd op apparaten, ook wel eindpunten genoemd. Voor e-mail inhoud worden andere herstelacties gebruikt. Geautomatiseerd onderzoek na voltooiing van herstelacties worden uitgevoerd, goedgekeurd of afgekeurd.
+Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 Defender worden herstelacties geïdentificeerd voor schadelijke of verdachte items. Sommige soorten herstelacties worden ondernomen op apparaten, ook wel eindpunten genoemd. Andere herstelacties worden ondernomen op e-mailinhoud. Automatische onderzoeken worden voltooid nadat herstelacties zijn ondernomen, goedgekeurd of geweigerd.
 
 > [!IMPORTANT]
-> Of herstelacties automatisch of alleen na de goedkeuring worden uitgevoerd, zijn afhankelijk van bepaalde instellingen, zoals de werking van automatiserings niveaus. Zie de volgende artikelen voor meer informatie:
-> - [De mogelijkheden voor automatisch onderzoek en antwoorden configureren in Microsoft 365 Defender](mtp-configure-auto-investigation-response.md)
-> - [Hoe bedreigingen op apparaten worden hersteld](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
-> - [Bedreigingen en herstelacties op e-mail & samenwerkingsinhoud](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions#threats-and-remediation-actions)
+> Of herstelacties automatisch of alleen bij goedkeuring worden ondernomen, hangt af van bepaalde instellingen, zoals de manier waarop automatiseringsniveaus worden gebruikt. Zie de volgende artikelen voor meer informatie:
+> - [Geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren in Microsoft 365 Defender](mtp-configure-auto-investigation-response.md)
+> - [Hoe bedreigingen worden verteerd op apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+> - [Bedreigingen en herstelacties voor e-mail & samenwerkingsinhoud](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions#threats-and-remediation-actions)
 
 De volgende tabel bevat een overzicht van herstelacties die momenteel worden ondersteund in Microsoft 365 Defender: 
 
-|Acties voor herstel van apparaten (eindpunten)  |Acties voor het herstel van e-mailberichten  |
+|Herstelacties voor apparaten (eindpunt)  |Herstelacties voor e-mail  |
 |---------|---------|
-|-Onderzoek pakket verzamelen <br/>-Isoleer apparaat (deze actie kan ongedaan worden gemaakt)<br/>-Verwijderen-computer <br/>Uitvoering van uitvoering van programmacode <br/>-Na quarantaine publicatie <br/>-Voorbeeld van aanvraag <br/>-Uitvoering van code beperken (deze actie kan ongedaan worden gemaakt) <br/>-Virusscan uitvoeren <br/>-Stop en Quarantine      |-Blok URL (time-of-klik)<br/>-Tijdelijke e-mail-en cluster berichten verwijderen<br/>-E-mail in quarantaine<br/>-Een e-mailbijlage in quarantaine plaatsen<br/>-Externe e-mail doorsturen uitschakelen          |
+|- Pakket voor onderzoek verzamelen <br/>- Isoleert apparaat (deze actie kan ongedaan worden gemaakt)<br/>- Offboard machine <br/>- Uitvoering van releasecode <br/>- In quarantaine worden vrijgegeven <br/>- Voorbeeld aanvragen <br/>- De uitvoering van code beperken (deze actie kan ongedaan worden gemaakt) <br/>- Antivirusscan uitvoeren <br/>- Stoppen en quarantaine      |- URL blokkeren (time-of-click)<br/>- E-mailberichten of clusters zacht verwijderen<br/>- E-mail in quarantaine<br/>- Een e-mailbijlage in quarantaine plaatsen<br/>- Externe doorsturen uitschakelen          |
 
-Herstelacties, ongeacht of ze goedkeuring of al zijn voltooid, kunnen worden weergegeven in het [Actiecentrum](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
+Herstelacties, in behandeling of al voltooid, kunnen worden bekeken in het [Actiecentrum.](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
 
-## <a name="remediation-actions-that-follow-automated-investigations"></a>Herstelacties die volgen op geautomatiseerde onderzoeken
+## <a name="remediation-actions-that-follow-automated-investigations"></a>Herstelacties die geautomatiseerde onderzoeken volgen
 
-Wanneer een geautomatiseerd onderzoek wordt voltooid, wordt een verdict voor elk bewijs van het bewijs bereikt. Afhankelijk van het verdict worden herstelacties aangegeven. In sommige gevallen worden herstelacties automatisch uitgevoerd. in andere gevallen zijn herstelacties in afwachting van goedkeuring. Het is alles afhankelijk van de manier waarop [automatisch onderzoek en beantwoorden zijn geconfigureerd](mtp-configure-auto-investigation-response.md).
+Wanneer een geautomatiseerd onderzoek is voltooid, wordt er een overeenkomst bereikt voor elk stukje bewijs dat daarbij betrokken is. Afhankelijk van de situatie worden herstelacties vastgesteld. In sommige gevallen worden er automatisch herstelacties ondernomen. In andere gevallen wachten herstelacties op goedkeuring. Het hangt allemaal af van hoe [automatisch onderzoek en antwoorden zijn geconfigureerd.](mtp-configure-auto-investigation-response.md)
 
-De volgende tabel bevat mogelijke Verdicts en resultaten:
+In de volgende tabel worden mogelijke voor- en resultaatresultaten vermeld:
 
-| Verdict    | Ziet    | Resultaten|
+| 16:    | Gebied    | Resultaten|
 |------|------|------|
-| Schadelijke    | Apparaten (eindpunten)    | Herstel stappen worden automatisch uitgevoerd (als u ervan uitgaat dat de [Apparaatgroepen](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) van uw organisatie **automatisch** worden ingesteld op volledig herstelde bedreigingen)|
-| Schadelijke    | E-mail inhoud (Url's of bijlagen) | Aanbevolen herstelacties wachten op goedkeuring|
-| Melden    | Apparaten of e-mail inhoud | Aanbevolen herstelacties wachten op goedkeuring|
-| Geen bedreigingen gevonden    | Apparaten of e-mail inhoud    | Er zijn geen herstelacties nodig|
+| Schadelijk    | Apparaten (eindpunten)    | Herstelacties worden automatisch ondernomen (ervan uitgaande [](mtp-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) dat de apparaatgroepen van uw organisatie zijn ingesteld op Volledig- automatisch herstellen van **bedreigingen)**|
+| Schadelijk    | E-mailinhoud (URL's of bijlagen) | Aanbevolen herstelacties wachten op goedkeuring|
+| Verdacht    | Apparaten of e-mailinhoud | Aanbevolen herstelacties wachten op goedkeuring|
+| Geen bedreigingen gevonden    | Apparaten of e-mailinhoud    | Er zijn geen herstelacties nodig|
 
 
-## <a name="remediation-actions-that-are-taken-manually"></a>Herstelacties die handmatig worden uitgevoerd
+## <a name="remediation-actions-that-are-taken-manually"></a>Herstelacties die handmatig worden ondernomen
 
-Naast de acties voor herstel die na geautomatiseerde tests volgen, kunnen uw beveiligingsteam bepaalde herstelacties handmatig uitvoeren. Dit zijn de volgende acties:
+Naast herstelacties die volgen op geautomatiseerde onderzoeken, kan het team voor beveiligingsbewerkingen bepaalde herstelacties handmatig uitvoeren. Dit zijn onder andere de volgende acties:
 
-- Handmatige actie van het apparaat, zoals isolatie van apparaten of bestands quarantaine.
-- Handmatige e-mail actie, zoals een tijdelijke verwijdering van e-mailberichten. 
-- [Geavanceerde jacht](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) actie op apparaten of e-mail.
-- [Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) -actie voor e-mail inhoud, zoals het verplaatsen van e-mail naar ongewenste e-mail, het verwijderen van e-mail of het permanent verwijderen van e-mail.
-- Handmatige actie van [Live antwoord](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) , zoals het verwijderen van een bestand, het stoppen van een proces en het verwijderen van een geplande taak.
-- Actie met Live antwoord met [Microsoft Defender voor eindpunten api's](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis), zoals het isoleren van een apparaat, het uitvoeren van antivirus scans en het verkrijgen van informatie over een bestand. 
+- Handmatige apparaatactie, zoals apparaatisolatie of bestands quarantaine.
+- Handmatige e-mailactie, zoals het verwijderen van e-mailberichten. 
+- [Geavanceerde zoekactie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) op apparaten of e-mail.
+- [Verkenner-actie](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) voor e-mailinhoud, zoals het verplaatsen van e-mail naar ongewenste e-mail, het verwijderen van e-mail of het moeilijk verwijderen van e-mail.
+- Handmatige [live antwoordactie,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) zoals een bestand verwijderen, een proces stoppen en een geplande taak verwijderen.
+- Live-actie met [Microsoft Defender voor eindpunt-API's,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis)zoals het isoleren van een apparaat, het uitvoeren van een antivirusscan en het verkrijgen van informatie over een bestand. 
 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Naar het Actiecentrum](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
 - [Acties in behandeling goedkeuren of afwijzen](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir-actions)
-- [In-en uitzoomen op onjuiste positief en negatief onderzoek en antwoord mogelijkheden](mtp-autoir-report-false-positives-negatives.md)
+- [Fout-positieven/negatieven in geautomatiseerde onderzoeks- en antwoordmogelijkheden verwerken](mtp-autoir-report-false-positives-negatives.md)

@@ -1,10 +1,10 @@
 ---
-title: Werken met geavanceerde zoekopdrachten voor de jacht in Microsoft 365 Defender
-description: Maak optimaal resultaten van de queryresultaten die worden geretourneerd door de geavanceerde jacht in Microsoft 365 Defender
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, telemetrie, aangepaste detectie, schema, kusto, Microsoft 365, Microsoft Threat Protection, visualisatie, grafiek, filters en inzoomen
+title: Werken met geavanceerde queryresultaten in Microsoft 365 Defender
+description: Maak zo veel mogelijk gebruik van de queryresultaten die het resultaat zijn van geavanceerd zoeken in Microsoft 365 Defender
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, custom detections, schema, kusto, microsoft 365, Microsoft Threat Protection, visualization, chart, filters, drill-down
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: de26989b9092b783a45d27ad2a529720d21169f8
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 462ba35f584b45bbfeb0d8a3de3b118ba1c9e17c
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844126"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932320"
 ---
-# <a name="work-with-advanced-hunting-query-results"></a>Werken met geavanceerde zoekresultaten van de jacht
+# <a name="work-with-advanced-hunting-query-results"></a>Werken met geavanceerde queryresultaten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,46 +37,46 @@ ms.locfileid: "48844126"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Hoewel u uw [Geavanceerde](advanced-hunting-overview.md) zoekopdrachten kunt maken om zeer nauwkeurige informatie te retourneren, kunt u ook werken met de queryresultaten om meer inzicht te krijgen en specifieke activiteiten en indicatoren te onderzoeken. U kunt de volgende acties uitvoeren op uw queryresultaten:
+Hoewel u geavanceerde [](advanced-hunting-overview.md) zoekquery's kunt maken om zeer nauwkeurige gegevens te retourneren, kunt u ook met de queryresultaten werken om meer inzicht te krijgen en specifieke activiteiten en indicatoren te onderzoeken. U kunt de volgende acties uitvoeren op uw queryresultaten:
 
-- Resultaten als een tabel of grafiek weergeven
+- Resultaten weergeven als een tabel of grafiek
 - Tabellen en grafieken exporteren
-- Inzoomen op gedetailleerde entiteits informatie
-- Uw zoekopdrachten direct toepassen op de resultaten of filters toepassen
+- Inzoomen op gedetailleerde informatie over de entiteit
+- Uw query's rechtstreeks aanpassen aan de hand van de resultaten of filters toepassen
 
-## <a name="view-query-results-as-a-table-or-chart"></a>Queryresultaten als tabel of in een grafiek weergeven
-Standaard worden in geavanceerde jacht queryresultaten weergegeven als tabelgegevens. U kunt ook dezelfde gegevens weergeven als een grafiek. Geavanceerde jacht ondersteuning voor de volgende weergaven:
+## <a name="view-query-results-as-a-table-or-chart"></a>Queryresultaten weergeven als een tabel of grafiek
+Bij geavanceerd zoeken worden queryresultaten standaard weergegeven als tabelgegevens. U kunt dezelfde gegevens ook als een grafiek weergeven. Geavanceerd zoeken ondersteunt de volgende weergaven:
 
 | Weergavetype | Beschrijving |
 | -- | -- |
-| **Tabel** | De queryresultaten worden in tabelvorm weergegeven |
-| **Kolomdiagram** | Geeft een reeks unieke items weer op de x-as met verticale balken waarvan de numerieke waarden uit een ander veld aangeven |
-| **Gestapeld kolomdiagram** | Geeft een reeks unieke items op de x-as weer als gestapelde verticale balken waarvan de numerieke waarden in een of meer andere velden aangeven |
-| **Cirkeldiagram** | Geeft een Pies weer en vertegenwoordigen unieke items. De grootte van elk cirkeldiagram bevat numerieke waarden uit een ander veld. |
-| **Ringdiagram** | Rendert sectietab van de secties die unieke items vertegenwoordigen. Elke boog bevat numerieke waarden uit een ander veld. |
-| **Lijndiagram** | De numerieke waarden voor een reeks unieke items tekenen en de geplotte waarden verbinden |
-| **Spreidingsdiagram** | Numerieke waarden voor een reeks unieke items tekenen |
-| **Vlakdiagram** | Hiermee tekent u numerieke waarden voor een reeks unieke items en vult u de secties onder de gevolgde waarden door |
+| **Tabel** | Geeft de queryresultaten weer in tabelindeling |
+| **Kolomdiagram** | Geeft een reeks unieke items op de x-as weer als verticale balken waarvan de hoogte numerieke waarden uit een ander veld vertegenwoordigt |
+| **Gestapeld kolomdiagram** | Geeft een reeks unieke items op de x-as weer als gestapelde verticale balken waarvan de hoogte numerieke waarden uit een of meer andere velden vertegenwoordigt |
+| **Cirkeldiagram** | Hiermee worden sectie cirkels weergegeven die unieke items vertegenwoordigen. De grootte van elke cirkel vertegenwoordigt numerieke waarden uit een ander veld. |
+| **Donut chart** | Hiermee worden sectiebogen weergegeven die unieke items vertegenwoordigen. De lengte van elke boog vertegenwoordigt numerieke waarden uit een ander veld. |
+| **Lijndiagram** | Zet numerieke waarden uit voor een reeks unieke items en verbindt de uitgezet waarden |
+| **Spreidingsdiagram** | Numerieke waarden uitlijnen voor een reeks unieke items |
+| **Vlakdiagram** | Zet numerieke waarden uit voor een reeks unieke items en vult de secties onder de uitgezete waarden |
 
-### <a name="construct-queries-for-effective-charts"></a>Query's opstellen voor effectieve grafieken
-Bij het weergeven van grafieken worden in geavanceerde jacht automatisch de kolommen rente en de numerieke waarden aangegeven voor statistische functies. Als u zinvolle grafieken wilt weergeven, maakt u de query's om de specifieke waarden te retourneren die u wilt weergeven. Hier volgen enkele voorbeelden van query's en de gemaakte grafieken.
+### <a name="construct-queries-for-effective-charts"></a>Query's maken voor effectieve grafieken
+Bij het weergeven van grafieken herkent geavanceerd zoeken automatisch de aandachtskolommen en de numerieke waarden die moeten worden samengevoegd. Voor een zinvolle grafiek kunt u query's maken om de specifieke waarden te retourneren die u wilt visualiseren. Hier zijn enkele voorbeeldquery's en de resulterende grafieken.
 
-#### <a name="alerts-by-severity"></a>Waarschuwingen per Ernst
-Gebruik de `summarize` operator om een numeriek aantal te verkrijgen voor de waarden die u in een grafiek wilt opnemen. Voor de onderstaande query wordt de `summarize` operator gebruikt om het aantal waarschuwingen per ernst te ontvangen.
+#### <a name="alerts-by-severity"></a>Waarschuwingen op ernst
+Gebruik de `summarize` operator om een numerieke telling te verkrijgen van de waarden die u in een grafiek wilt onder brengen. In de onderstaande query wordt `summarize` de operator gebruikt om het aantal waarschuwingen op ernst op te vragen.
 
 ```kusto
 AlertInfo
 | summarize Total = count() by Severity
 ```
-Bij het weergeven van de resultaten ziet u in een kolomdiagram elke waarde voor de ernst als een afzonderlijke kolom:
+Bij het weergeven van de resultaten wordt in een kolomdiagram elke ernstwaarde als een aparte kolom weergegeven:
 
-![Afbeelding van geavanceerde zoekresultaten die worden weergegeven als kolomdiagram ](../../media/advanced-hunting-column-chart.jpg)
- *queryresultaten voor waarschuwingen per Ernst weergegeven als kolomdiagram*
+![Afbeelding van geavanceerde queryresultaten in de query als kolomdiagram Queryresultaten voor waarschuwingen op ernst ](../../media/advanced-hunting-column-chart.jpg)
+ *die als kolomdiagram worden weergegeven*
 
-#### <a name="alert-severity-by-operating-system"></a>Ernst van waarschuwingen via besturingssysteem
-U kunt ook de `summarize` operator gebruiken om resultaten voor de grafiekwaarden uit meerdere velden voor te bereiden. U kunt bijvoorbeeld inzicht krijgen in de beschikbaarheid van waarschuwings punten voor het besturingssysteem (OS). 
+#### <a name="alert-severity-by-operating-system"></a>Ernst van waarschuwingen per besturingssysteem
+U kunt de operator ook gebruiken om de resultaten voor te bereiden voor het in kaart brengen `summarize` van waarden uit meerdere velden. U wilt bijvoorbeeld weten hoe ernst van waarschuwingen is verdeeld over het besturingssysteem. 
 
-In de onderstaande query wordt een `join` operator gebruikt om besturingssysteemgegevens uit de tabel op te halen `DeviceInfo` en wordt gebruikt `summarize` om waarden te tellen in zowel de `OSPlatform` kolommen als `Severity` :
+De onderstaande query gebruikt een operator om OS-gegevens op te halen uit de tabel en wordt vervolgens gebruikt om waarden in zowel de tabel als de kolommen `join` `DeviceInfo` te `summarize` `OSPlatform` `Severity` tellen:
 
 ```kusto
 AlertInfo
@@ -83,13 +84,13 @@ AlertInfo
 | join DeviceInfo on DeviceId
 | summarize Count = count() by OSPlatform, Severity 
 ```
-Dit zijn de beste visuele resultaten met behulp van een gestapeld kolomdiagram:
+Deze resultaten worden het best gevisualiseerd met behulp van een gestapeld kolomdiagram:
 
-![Afbeelding van geavanceerde zoekresultaten die worden weergegeven als een gestapeld diagram ](../../media/advanced-hunting-stacked-chart.jpg)
- *queryresultaten voor waarschuwingen per OS en ernst weergegeven als gestapelde grafiek*
+![Afbeelding van geavanceerde queryresultaten in een gestapelde grafiek voor waarschuwingen per besturingssysteem en ernst die worden weergegeven ](../../media/advanced-hunting-stacked-chart.jpg)
+ *als een gestapelde grafiek*
 
-#### <a name="phishing-emails-across-top-ten-sender-domains"></a>Phishing-e-mails in de bovenste tien verzender domeinen
-Als u wilt werken met een lijst met waarden die niet beperkt zijn, kunt u de `Top` operator gebruiken om alleen de waarden in een grafiek te plaatsen. Als u bijvoorbeeld de meeste tien verzender domeinen met de meest verduidelijkende e-mail wilt ophalen, gebruikt u de onderstaande query:
+#### <a name="phishing-emails-across-top-ten-sender-domains"></a>Phishing-e-mailberichten in de tien belangrijkste afzenderdomeinen
+Als u te maken hebt met een lijst met waarden die niet is eindig, kunt u de operator gebruiken om alleen de waarden in een grafiek met `Top` de meeste gevallen weer te geven. Gebruik de onderstaande query om de tien topdomeinen met de meeste phishing-e-mailberichten op te halen:
 
 ```kusto
 EmailEvents
@@ -97,13 +98,13 @@ EmailEvents
 | summarize Count = count() by SenderFromDomain
 | top 10 by Count
 ```
-In de weergave cirkeldiagram kunt u de verdeling effectief weergeven op de meest voorkomende domeinen:
+Gebruik de weergave cirkeldiagram om effectief de verdeling over de belangrijkste domeinen weer te geven:
 
-![Afbeelding van geavanceerde zoekresultaten die worden weergegeven als een cirkeldiagram met een cirkeldiagram ](../../media/advanced-hunting-pie-chart.jpg)
- *waarin de distributie van malafide e-mailberichten in domeinen van de belangrijkste afzender wordt getoond*
+![Afbeelding van geavanceerde queryresultaten in een cirkeldiagram waarin de distributie van phishing-e-mailberichten over de domeinen van de ](../../media/advanced-hunting-pie-chart.jpg)
+ *belangrijkste afzender wordt weergegeven*
 
-#### <a name="file-activities-over-time"></a>Bestandsactiviteiten gedurende een bepaalde periode
-Met de `summarize` operator met de `bin()` functie, kunt u controleren op gebeurtenissen met een bepaalde indicator gedurende een bepaalde periode. Met de query eronder worden de gebeurtenissen met het bestand `invoice.doc` bij 30 minuten geteld om uitschieters weer te geven in activiteiten met betrekking tot dat bestand:
+#### <a name="file-activities-over-time"></a>Bestandsactiviteiten in de tijd
+Met de operator voor de functie kunt u controleren op gebeurtenissen met `summarize` een bepaalde indicator in de `bin()` tijd. Met de onderstaande query worden gebeurtenissen met betrekking tot het bestand geteld met intervallen van 30 minuten om pieken weer te geven in activiteit die `invoice.doc` betrekking heeft op dat bestand:
 
 ```kusto
 AppFileEvents
@@ -111,46 +112,46 @@ AppFileEvents
 | where FileName == "invoice.doc"
 | summarize FileCount = count() by bin(Timestamp, 30m)
 ```
-In het lijndiagram onder duidelijk worden tijdsperioden gemarkeerd met meer activiteiten `invoice.doc` : 
+In het onderstaande lijndiagram worden perioden duidelijk aangegeven met meer activiteiten met betrekking `invoice.doc` tot: 
 
-![Afbeelding van geavanceerde zoekresultaten van de zoekactie die worden weergegeven als lijndiagram ](../../media/advanced-hunting-line-chart.jpg)
- *met meerdere gebeurtenissen*
+![Afbeelding van geavanceerde queryresultaten in een lijndiagram met het aantal gebeurtenissen voor een bestand ](../../media/advanced-hunting-line-chart.jpg)
+ *in de tijd*
 
 
 ## <a name="export-tables-and-charts"></a>Tabellen en grafieken exporteren
-Na het uitvoeren van een query, selecteert u **exporteren** om de resultaten in het lokale bestand op te slaan. Met de gekozen weergave wordt bepaald hoe de resultaten worden geëxporteerd:
+Nadat u een query hebt uitgevoerd, **selecteert u Exporteren om** de resultaten op te slaan in een lokaal bestand. De gekozen weergave bepaalt hoe de resultaten worden geëxporteerd:
 
-- **Tabel weergave** : de queryresultaten worden in tabelvorm geëxporteerd als een Microsoft Excel-werkmap
-- **Een grafiek** : de queryresultaten worden geëxporteerd als een JPEG-afbeelding van de weergegeven grafiek
+- **Tabelweergave:** de queryresultaten worden in tabelvorm geëxporteerd als een Microsoft Excel-werkmap
+- **Een grafiek:** de queryresultaten worden geëxporteerd als JPEG-afbeelding van de weergegeven grafiek
 
 ## <a name="drill-down-from-query-results"></a>Inzoomen op queryresultaten
-Als u in uw queryresultaten snel een record wilt controleren, selecteert u de bijbehorende rij om het deelvenster **record controleren** te openen. Het deelvenster bevat de volgende informatie op basis van de geselecteerde record:
+Als u snel een record in de queryresultaten wilt controleren, selecteert u de bijbehorende rij om het **deelvenster Record controleren te** openen. In het deelvenster wordt de volgende informatie weergegeven op basis van de geselecteerde record:
 
-- **Activa** : een overzichtsweergave van de belangrijkste activa (postvakken, apparaten en gebruikers) die zijn gevonden in de record, verrijkd met de beschikbare informatie, zoals risico en belichtings niveau
-- **Processtructuur** : gegenereerd voor records met procesinformatie en verrijking met behulp van beschikbare contextuele informatie. in het algemeen kunnen query's die meer kolommen retourneren, resulteren in uitgebreide processen.
-- **Alle details** : alle waarden uit de kolommen in de record  
+- **Activa:** samengevatte weergave van de belangrijkste activa (postvakken, apparaten en gebruikers) die in de record zijn gevonden, die worden uitgebreid met beschikbare informatie, zoals risico- en blootstellingsniveaus
+- **Processtructuur:** gegenereerd voor records met procesinformatie en wordt gebruikt met behulp van beschikbare contextuele informatie; In het algemeen kunnen query's die meer kolommen retourneren resulteren in uitgebreidere procesbomen.
+- **Alle details:** alle waarden uit de kolommen in de record  
 
-![Afbeelding van geselecteerde record met deelvenster voor inspectie van de record](../../media/mtp-ah/inspect-record.png)
+![Afbeelding van de geselecteerde record met deelvenster voor het controleren van de record](../../media/mtp-ah/inspect-record.png)
 
-Als u meer informatie wilt bekijken over een bepaalde entiteit in uw queryresultaten, zoals een computer, bestand, gebruiker, IP-adres of URL, selecteert u de entiteits-id om een gedetailleerde profielpagina voor die entiteit te openen.
+Als u meer informatie wilt weergeven over een specifieke entiteit in uw queryresultaten, zoals een computer, bestand, gebruiker, IP-adres of URL, selecteert u de entiteits-id om een gedetailleerde profielpagina voor die entiteit te openen.
 
-## <a name="tweak-your-queries-from-the-results"></a>De query's van de zoekresultaten verfijnen
-Klik met de rechtermuisknop op een waarde in de resultatenset om uw query snel te verbeteren. Met de opties kunt u:
+## <a name="tweak-your-queries-from-the-results"></a>Uw query's aanpassen aan de hand van de resultaten
+Klik met de rechtermuisknop op een waarde in de resultatenset om uw query snel te verbeteren. U kunt de volgende opties gebruiken:
 
-- Zoek expliciet naar de geselecteerde waarde ( `==` ).
-- De geselecteerde waarde van de query uitsluiten `!=`
-- Meer geavanceerde operatoren voor het toevoegen van een waarde aan uw query, zoals `contains` , `starts with` en `ends with` 
+- De geselecteerde waarde expliciet zoeken `==` ()
+- De geselecteerde waarde uitsluiten van de query ( `!=` )
+- Geavanceerdere operatoren voor het toevoegen van de waarde aan uw query, `contains` zoals `starts with``ends with` 
 
-![Afbeelding van geavanceerde resultatenset van jacht](../../media/advanced-hunting-results-filter.png)
+![Afbeelding van geavanceerde resultatenset voor zoeken](../../media/advanced-hunting-results-filter.png)
 
 ## <a name="filter-the-query-results"></a>De queryresultaten filteren
-De filters rechts geven een overzicht van de resultatenset. Elke kolom heeft een eigen sectie met daarin de unieke waarden die zijn gevonden voor de kolom en het aantal exemplaren.
+De rechts weergegeven filters geven een overzicht van de resultatenset. Elke kolom heeft een eigen sectie met de unieke waarden die voor die kolom zijn gevonden en het aantal exemplaren.
 
-Verfijn uw zoekopdracht door de `+` knoppen of de knoppen te selecteren `-` voor de waarden die u wilt opnemen of uitsluiten en vervolgens **query uitvoeren** te selecteren.
+Verfijn uw query door de (knoppen) te selecteren op de waarden die u wilt opnemen of uitsluiten en selecteer `+` `-` vervolgens Query **uitvoeren.**
 
-![Afbeelding van een geavanceerd jacht filter](../../media/advanced-hunting-filter.png)
+![Afbeelding van geavanceerd zoekfilter](../../media/advanced-hunting-filter.png)
 
-Wanneer u het filter hebt toegepast om de query te wijzigen en vervolgens de query uit te voeren, worden de resultaten dienovereenkomstig bijgewerkt.
+Nadat u het filter hebt toegepast om de query te wijzigen en de query vervolgens uit te voeren, worden de resultaten dienovereenkomstig bijgewerkt.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

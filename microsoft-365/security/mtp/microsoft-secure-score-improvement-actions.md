@@ -1,8 +1,8 @@
 ---
-title: Uw beveiligings Posture beoordelen via Microsoft Secure Score
-description: Hierin wordt beschreven hoe u actie onderneemt om uw Microsoft Secure score te verbeteren in het Microsoft 365-Beveiligingscentrum.
-keywords: Microsoft Secure Score, Secure Score, Office 365 Secure Score, Microsoft Security Score, Microsoft 365 Beveiligingscentrum, verbeteringen van verbetering
-ms.prod: microsoft-365-enterprise
+title: Beoordeel uw beveiligingsrisico's via Microsoft Secure Score
+description: Hier wordt beschreven hoe u actie onderneemt om uw Microsoft Secure Score te verbeteren in het Microsoft 365-beveiligingscentrum.
+keywords: microsoft secure score, secure score, office 365 secure score, microsoft-beveiligingsscore, Microsoft 365-beveiligingscentrum, acties voor verbetering
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -20,106 +20,107 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: c463e375594b3581486cb8d4bdd380412e195b2e
-ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
+ms.technology: m365d
+ms.openlocfilehash: 8cf416e773abc6cbe1fd891fcec9f02a5011c413
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "49738009"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930640"
 ---
-# <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Evalueer uw beveiligings Posture met Microsoft Secure Score
+# <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Beoordeel uw beveiligingsrisico met Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Secure Score van Microsoft is een afmeting van de beveiligings Posture van een organisatie, met een hoger nummer voor het uitvoeren van extra verbeterings acties. U vindt het https://security.microsoft.com/securescore in [microsoft 365 Beveiligingscentrum](overview-security-center.md).
+Microsoft Secure Score is een meting van de beveiligingsrisico's van een organisatie, met een hoger getal dat aangeeft dat er meer acties zijn ondernomen. U vindt deze in https://security.microsoft.com/securescore het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)
 
-Voor de gegevens die u nodig hebt om sneller te kunnen werken, zijn Microsoft-verduidelijkings acties ingedeeld in de volgende groepen:
+Microsoft-acties voor kwaliteitsverbetering zijn in groepen ingedeeld, om u te helpen sneller de informatie te krijgen die u nodig hebt:
 
 * Identiteit (Azure Active Directory-accounts & rollen)
-* Apparaat (Microsoft Defender for Endpoint, genaamd [Microsoft Secure score voor apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
-* App (e-mail en Cloud-apps, waaronder Office 365 en de beveiligingsupdates van Microsoft Cloud apps)
+* Apparaat (Microsoft Defender voor eindpunt, ook wel [Microsoft Secure Score voor apparaten genoemd)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)
+* App (e-mail- en cloud-apps, inclusief Office 365 en Microsoft Cloud App-beveiliging)
 
 >[!NOTE]
->In de recente release van Microsoft Secure Score is een verbeterd score model vrijgegeven waarmee Microsoft Secure Score tijdelijk niet compatibel is met identiteitsbeveiliging en de Graph API. [Details weergeven](microsoft-secure-score-whats-new.md)
+>In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht, waardoor Microsoft Secure Score tijdelijk niet compatibel is met Identity Secure Score en de Graph API. [Details weergeven](microsoft-secure-score-whats-new.md)
 
-Op de pagina met de overzichtspagina van Microsoft Secure Score bekijkt u hoe de punten worden verdeeld tussen deze groepen en welke punten beschikbaar zijn. U kunt ook een overzicht van de totale score weergeven, de historische trend van uw veilige Score met benchmark-vergelijkingen en de prioriteit van verbeterings acties voor de verhoging van de score.
+Bekijk op de overzichtspagina van Microsoft Secure Score hoe punten zijn gesplitst tussen deze groepen en welke punten beschikbaar zijn. U kunt ook een volledig overzicht krijgen van de totale score, de historische trend van uw veilige score met vergelijkingen in vergelijkingen en acties ter verbetering die kunnen worden ondernomen om uw score te verbeteren.
 
-![Startpagina beveiligde Score](../../media/secure-score/secure-score-homepage-new.png)
+![Secure Score-startpagina](../../media/secure-score/secure-score-homepage-new.png)
 
-## <a name="check-your-current-score"></a>De huidige Score controleren
+## <a name="check-your-current-score"></a>Uw huidige score controleren
 
-Als u op uw huidige score wilt controleren, gaat u naar de pagina Microsoft Secure Score Overview en zoekt u de tegel waarmee **u uw beveiligde Score** kunt uitchecken. Uw score wordt weergegeven als een percentage, samen met het aantal punten dat u hebt behaald van het totale aantal mogelijke punten.
+Als u uw huidige score wilt bekijken, gaat u naar de overzichtspagina van Microsoft Secure Score en kijkt u naar de tegel met de naam **Uw veilige score.** Uw score wordt weergegeven als een percentage, samen met het aantal punten dat u hebt bereikt van het totaal aantal mogelijke punten.
 
-Als u de knop **opnemen** naast de Score selecteert, kunt u ook verschillende weergaven van uw Score kiezen. De verschillende Score weergaven worden weergegeven in de grafiek op de Score tegel en het diagram uitsplitsing.
+Als u bovendien de knop Opnemen **naast** uw score selecteert, kunt u verschillende weergaven van uw score kiezen. Deze verschillende scoreweergaven worden weergegeven in de grafiek op de scoretegel en in het uitsplitsingsdiagram.
 
-Hier volgen een aantal scores die u aan uw weergave van uw algemene score kunt toevoegen, zodat u een beeld krijgt van uw algemene score:
+Hieronder vindt u de scores die u kunt toevoegen aan uw weergave van uw algehele score, zodat u een vollediger beeld krijgt van uw algehele score:
 
-- **Geplande Score**: geschatte Score weergeven wanneer geplande acties zijn voltooid
-- **Huidige licentie**: Score weergeven die kan worden behaald met uw huidige Microsoft-licentie
-- **Behaald bare Score**: Toon Score die kan worden behaald met uw Microsoft-licenties en huidige risico acceptatie
+- **Geplande score:** de geplande score tonen wanneer geplande acties zijn voltooid
+- **Huidige licentiescore:** score tonen die kan worden bereikt met uw huidige Microsoft-licentie
+- **Haalbare score:** toon een score die kan worden bereikt met uw Microsoft-licenties en huidige acceptatie van risico's
 
-In deze weergave ziet u hoe deze eruitziet als u alle mogelijke score weergaven hebt opgenomen:
+Deze weergave ziet er zo uit als u alle mogelijke scoreweergaven hebt opgenomen:
 
-![Uw veilige Score met inbegrip van de geplande Score, huidige licentie en behaalde score](../../media/secure-score/your-secure-score.png)
+![Uw veilige score inclusief de geplande score, de huidige licentiescore en de haalbare score](../../media/secure-score/your-secure-score.png)
 
-## <a name="take-action-to-improve-your-score"></a>Onderneem actie om de score te verbeteren
+## <a name="take-action-to-improve-your-score"></a>Actie ondernemen om uw score te verbeteren
 
-Het **tabblad uitnodigingen bevat een lijst** met mogelijke beveiligingsaanbevelingen waarmee mogelijke aanvals vlakken worden aangegeven. Dit omvat ook hun status (voor adres, gepland, risico geaccepteerd, opgelost via een afwijkende beperking en voltooid). U kunt alle actie-verbeterings acties doorzoeken, filteren en groeperen.  
+Op **het tabblad Acties voor** verbetering worden de beveiligingsaanbevelingen vermeld die mogelijke aanvallen aanpakken. Het omvat ook hun status (te adressering, gepland, geaccepteerd risico, opgelost via derden, opgelost via alternatieve risicobeperking en voltooid). U kunt alle acties ter verbetering zoeken, filteren en groeperen.  
 
-### <a name="ranking"></a>Waardering
+### <a name="ranking"></a>Classificatie
 
-Rangschikking is afhankelijk van het aantal Points-to-to-Points, problemen met de implementatie, de invloed van gebruikers en de complexiteit. De beste rangschikking verbeterings acties bestaan uit een groot aantal punten met minder moeilijkheidsgraad, gebruikers impact en complexiteit.
+De classificatie is gebaseerd op het aantal punten dat nog moet worden bereikt, problemen met de implementatie, de gevolgen en complexiteit van de gebruiker. Bij de acties voor kwaliteitsverbetering blijft een groot aantal punten over met lage problemen, gevolgen en complexiteit van de gebruiker.
 
-### <a name="view-improvement-action-details"></a>Details van verbeterings actie weergeven
+### <a name="view-improvement-action-details"></a>Details van actie voor kwaliteitsverbetering weergeven
 
-Wanneer u een bepaalde verbeterings actie selecteert, wordt er een flyout van een volledige pagina weergegeven.  
+Wanneer u een specifieke actie voor verbetering selecteert, wordt een flyout voor een volledige pagina weergegeven.  
 
-![Voorbeeld van flyout voor verbeterings actie](../../media/secure-score/secure-score-improvement-action-details.png)
+![Voorbeeld van flyout actie voor verbetering](../../media/secure-score/secure-score-improvement-action-details.png)
 
-Om de actie te voltooien, hebt u een paar opties:
+Als u de actie wilt voltooien, hebt u een aantal opties:
 
-- Selecteer **beheren** om het Configuratiescherm te openen en breng de wijziging aan. U krijgt dan de punten waarmee de actie te maken heeft, zichtbaar in de vlucht. De punten duren doorgaans 24 uur voor de update.
+- Selecteer **Beheren om** naar het configuratiescherm te gaan en de wijziging aan te brengen. Vervolgens krijgt u de punten die de actie waard is, zichtbaar in de fly-out. Over het algemeen duurt het ongeveer 24 uur voordat de punten zijn bijgewerkt.
 
-- Selecteer **delen** om de directe koppeling naar de actie voor verbetering te kopiëren. U kunt ook het platform kiezen om de koppeling te delen, zoals e-mail, Microsoft teams, Microsoft planner of ServiceNow. Als u ServiceNow selecteert, kunt u een wijzigings ticket maken dat zichtbaar is in ServiceNow en de Microsoft 365 Beveiligingscentrum start. Zie [Microsoft 365 Beveiligingscentrum en ServiceNow-integratie](tickets-security-center.md)voor meer informatie.
+- Selecteer **Delen** om de directe koppeling naar de actie voor kwaliteitsverbetering te kopiëren. U kunt ook het platform kiezen waarop u de koppeling wilt delen, zoals e-mail, Microsoft Teams, Microsoft Planner of ServiceNow. Als u Nu kiezen voor ServiceNow, kunt u een wijzigingsticket maken dat zichtbaar is in ServiceNow en in het Microsoft 365-beveiligingscentrum. Zie het [Microsoft 365-beveiligingscentrum en de servicenow-integratie](tickets-security-center.md)voor meer informatie.
 
-**Notities** toevoegen om de voortgang bij te houden of iets anders waarop u een opmerking wilt achterlaten. Als u uw eigen **Tags** toevoegt aan de actie voor verbetering, kunt u filteren op deze tags.
+Voeg **notities** toe om de voortgang bij te houden of iets anders waar u opmerkingen bij wilt plaatsen. Als u uw eigen **tags aan de** actie voor kwaliteitsverbetering toevoegt, kunt u op deze tags filteren.
 
-### <a name="choose-an-improvement-action-status"></a>De status van een verbeterings actie kiezen
+### <a name="choose-an-improvement-action-status"></a>Een status voor een actie voor kwaliteitsverbetering kiezen
 
-Kies de gewenste statussen en leg aantekeningen voor de actie voor verbetering in.
+Kies eventuele statussen en noteert notities die specifiek zijn voor de verbeteringsactie.
 
-- **Als u wilt** weten of de verbeterings actie noodzakelijk is en de planning op een bepaald moment in de toekomst op te lossen. Deze status geldt ook voor acties die als gedeeltelijk zijn gedetecteerd, maar nog niet volledig zijn voltooid.
-- **Gepland** -er zijn beton plannen om de actie te voltooien.
-- **Risico geaccepteerd** : beveiliging moet altijd met behulp van bruikbaarheid worden evenwichtig, en niet alle aanbevelingen werken voor uw omgeving. Als dat het geval is, kunt u ervoor kiezen om het risico of het resterende risico te accepteren en niet de actie te ondernemen. U ontvangt geen punten, maar de actie is niet meer zichtbaar in de lijst met verbeterings acties. U kunt deze actie in geschiedenis weergeven of op elk moment ongedaan maken.
-- **Opgelost via** een afwijkende **beperking** -de actie voor verbetering is al geadresseerd door een toepassing of software van derden, of een intern hulpprogramma. U krijgt de punten waarmee de actie waard is, zodat uw score beter aansluit op uw totale beveiligings posture. Als het besturingselement van een derde of een interne tool niet meer wordt bedekt, kunt u een andere status kiezen. Houd er rekening mee dat Microsoft niet meer inzicht heeft in de implementatie van de implementatie als de actie voor verbetering is gemarkeerd als een van deze statussen.
+- **Ter geadresseerde:** u erkent dat de actie voor verbetering noodzakelijk is en bent van plan deze op een bepaald moment in de toekomst te gaan aanpakken. Deze status geldt ook voor acties die worden gedetecteerd als gedeeltelijk, maar niet volledig voltooid.
+- **Gepland:** er zijn concrete plannen om de actie voor kwaliteitsverbetering uit te voeren.
+- **Risico geaccepteerd:** beveiliging moet altijd in balans zijn met bruikbaarheid en niet elke aanbeveling werkt voor uw omgeving. Wanneer dit het geval is, kunt u ervoor kiezen om het risico of het resterende risico te accepteren en de actie voor verbetering niet uit te voeren. U krijgt geen punten, maar de actie is niet meer zichtbaar in de lijst met acties voor kwaliteitsverbetering. U kunt deze actie op elk moment in de geschiedenis bekijken of ongedaan maken.
+- **Opgelost via derden en** opgelost via alternatieve risicobeperking-  De actie voor verbetering is al opgelost door een toepassing of software van derden, of een intern hulpprogramma. U krijgt de punten die de actie waard is, zodat uw score beter uw algehele beveiligingsovername weerspiegelt. Als een derde partij of intern hulpprogramma het beheer niet meer dekt, kunt u een andere status kiezen. Houd er rekening mee dat Microsoft geen inzicht heeft in de volledigheid van de implementatie als de actie voor verbetering is gemarkeerd als een van deze statussen.
 
-#### <a name="threat--vulnerability-management-improvement-actions"></a>Bedreiging & acties voor kwaliteitsbeheer
+#### <a name="threat--vulnerability-management-improvement-actions"></a>Acties & beveiligingsprobleembeheer te verbeteren
 
-Voor verbeterings acties in de categorie apparaat, kunt u geen statussen kiezen. In plaats daarvan gaat u naar de bijbehorende [beveiligingsaanbevelingen voor bedreigingen en beveiligingsbeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) in het [Microsoft Defender-Beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use) om actie te ondernemen. De uitzondering die u hebt gekozen en rechtvaardigt, is specifiek voor die portal. Dit is niet aanwezig in de Microsoft Secure Score Portal.
+Voor acties ter verbetering in de categorie 'Apparaat' kunt u geen statussen kiezen. In plaats daarvan wordt u doorgestuurd naar de beveiligingsaanbeveling voor risico- en beveiligingsrisicobeheer [in](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) het [Microsoft Defender-beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use) om actie te ondernemen. De uitzondering die u kiest en uitvulling die u schrijft, is specifiek voor die portal. Deze is niet aanwezig in de Microsoft Secure Score-portal.
 
-#### <a name="completed-improvement-actions"></a>Voltooide stappen voor verbetering
+#### <a name="completed-improvement-actions"></a>Voltooide acties voor verbetering
 
-Verbeterings acties hebben een ' voltooide ' status wanneer alle mogelijke punten voor de actie voor verbetering zijn behaald. Met voltooide verbeterings acties worden Microsoft Data bevestigd, maar u kunt de status niet wijzigen.
+Acties ter verbetering hebben een 'voltooide' status zodra alle mogelijke punten voor de actie voor verbetering zijn bereikt. Voltooide acties ter verbetering worden bevestigd hoewel Microsoft-gegevens en u kunt de status niet wijzigen.
 
-### <a name="assess-information-and-review-user-impact"></a>Informatie beoordelen en gevolgen van de gebruiker controleren
+### <a name="assess-information-and-review-user-impact"></a>Informatie beoordelen en de gevolgen van gebruikers bekijken
 
-In de sectie **in een oogopslag** ziet u de categorie, een aanval waarmee de categorie kan worden beschermd, en het product.
+De sectie met **de naam In één oogopslag** geeft de categorie aan, aanvallen die het kan beschermen tegen en het product.
 
-**Gebruikers impact** is wat de gebruikers ondervinden als de actie voor verbetering wordt uitgevaardigd en de **gebruikers** van invloed zijn op de personen die de invloed hebben.
+**Gebruikersim** impact is wat de gebruikers zullen ervaren als de actie voor verbetering wordt van invloed is en **Gebruikers** zijn de personen die worden beïnvloed.
 
 ### <a name="implement-the-improvement-action"></a>De actie voor verbetering implementeren
 
-In de sectie **implementatie** worden alle vereisten weergegeven, stapsgewijs de volgende stappen om de actie uit te voeren, de huidige implementatiestatus van de actie voor verbetering en de koppelingen meer informatie.
+In **de** sectie Implementatie worden alle vereisten bewaarde, stapsgewijs volgende stappen om de actie voor verbetering uit te voeren, de huidige implementatiestatus van de actie voor verbetering en koppelingen voor meer informatie.
 
-Voorwaarden zijn alle licenties die nodig zijn of acties die moeten worden voltooid voordat de actie bij verbetering is verholpen. Zorg ervoor dat uw licentie voldoende stoelen bevat voor het voltooien van de verbeterings actie en dat deze licenties gelden voor de noodzakelijke gebruikers.  
+Vereisten zijn onder andere licenties die nodig zijn of acties die moeten worden voltooid voordat de actie voor verbetering wordt aangepakt. Zorg ervoor dat uw licentie voldoende seats heeft om de actie voor kwaliteitsverbetering uit te voeren en dat deze licenties worden toegepast op de benodigde gebruikers.  
 
 ## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
-Als u problemen ondervindt, kunt u het ons laten weten dat u de community [beveiliging, Privacy & naleving](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . We volgen de community en bieden hulp.
+Als u problemen hebt, laat het ons dan weten door berichten te plaatsen in de community [over beveiliging, & compliance.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) We houden de community in de gaten en bieden hulp.
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 
 - [Overzicht van Microsoft Secure Score](microsoft-secure-score.md)
-- [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
+- [Uw geschiedenis van Microsoft Secure Score bijhouden en doelstellingen behalen](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
 - [Wat is er nieuw](microsoft-secure-score-whats-new.md)

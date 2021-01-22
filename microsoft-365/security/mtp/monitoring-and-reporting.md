@@ -1,8 +1,8 @@
 ---
-title: 'Rapporten bijhouden en weergeven: Beveiligingscentrum'
-description: In dit artikel wordt beschreven hoe u in een oogopslag kunt zien wat de bescherming en de beveiligingsstatus zijn van Microsoft 365 Beveiligingscentrum.
-keywords: beveiliging, malware, Microsoft 365, M365, Beveiligingscentrum, monitor, rapport, status
-ms.prod: microsoft-365-enterprise
+title: Rapporten bewaken en weergeven - Beveiligingscentrum
+description: In dit artikel wordt beschreven hoe het Microsoft 365-beveiligingscentrum in één oogopslag een overzicht biedt van de beveiligings- en beveiligingsstatus.
+keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, monitor, rapport, status
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -17,36 +17,37 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d52c401c4b2e995e5ec18895c158f77ce0fce746
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.technology: m365d
+ms.openlocfilehash: 4667c39a8d416d7e186d41063d7057109758cd33
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356881"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930400"
 ---
-# <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Rapporten in het Microsoft 365-Beveiligingscentrum bewaken en weergeven
+# <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Rapporten bewaken en weergeven in het Microsoft 365-beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+> Wilt u ervaring met Microsoft 365 Defender? U kunt [dit evalueren in een testomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject in productie nemen.](https://aka.ms/m365d-pilotplaybook)
 >
 
-Het Microsoft 365 Beveiligingscentrum biedt een overzicht van de beschermings-en beveiligingsstatus in uw Microsoft 365-omgeving.
+Het Microsoft 365-beveiligingscentrum biedt een overzicht van de beveiligingsstatus in uw Microsoft 365-omgeving.
 
-Het Beveiligingscentrum bevat een sectie **rapporten** die een host van kaarten bestrijkt die verschillende gebieden bestrijken. Beveiligings analisten en beheerders kunnen de kaarten bijhouden als onderdeel van de dagelijkse activiteiten. Bij inzoomen biedt kaarten uitgebreide rapporten en in sommige gevallen beheeropties.
+Het beveiligingscentrum bevat een **sectie Rapporten** met een groot aantal kaarten voor verschillende gebieden. Beveiligingsanalisten en beheerders kunnen de kaarten bijhouden als onderdeel van hun dagelijkse werkzaamheden. Bij inzoomen bieden kaarten gedetailleerde rapporten en, in sommige gevallen, beheeropties.
 
 ## <a name="customize-views"></a>Weergaven aanpassen
 
-Kaarten zijn standaard gegroepeerd in de volgende categorieën:
+Kaarten zijn standaard gegroepeerd in deze categorieën:
   
-* [Identiteiten](monitor-and-report-identities.md) -gebruikersaccounts en referenties
-* [Gegevens](monitor-data.md) -e-mail en documentinhoud
-* [Apparaten](monitor-devices.md) : computers, mobiele telefoons en andere apparaten
-* [Apps](monitor-apps.md) -Programma's en bijgevoegde Online Services
+* [Identiteiten](monitor-and-report-identities.md) - gebruikersaccounts en referenties
+* [Gegevens](monitor-data.md) - e-mail en documentinhoud
+* [Apparaten](monitor-devices.md) - computers, mobiele telefoons en andere apparaten
+* [Apps](monitor-apps.md) - programma's en bijgevoegde onlineservices
 
-Ga naar **groeperen op onderwerp** als u de kaarten wilt herschikken en ze wilt groeperen in de volgende onderwerpen:
+Schakel over **naar Groeperen op onderwerp** om de kaarten te herschikken en te groeperen in de volgende onderwerpen:
 
-* **Risico** kaarten die entiteiten markeren, zoals accounts en apparaten, zijn mogelijk risico. Deze kaarten markeren ook mogelijke risico bronnen, zoals nieuwe Threat campagnes en geautoriseerde Cloud-apps  
-* **Detectie trends** : kaarten die de nieuwe bedreigings detectie, afwijkingen en beleidsschendingen markeren
-* **Configuraties en Health** -kaarten voor de configuratie en implementatie van beveiligings besturing, waaronder de statussen voor het apparaat voor beheerservices
-* **Overige** : alle andere kaarten die niet zijn gecategoriseerd onder andere onderwerpen
+* **Risico's:** kaarten die entiteiten markeren, zoals accounts en apparaten, die mogelijk in gevaar zijn. Deze kaarten markeren ook mogelijke risicobronnen, zoals nieuwe bedreigingscampagnes en bevoorrechte cloud-apps  
+* **Detectietrends:** kaarten voor het markeren van nieuwe bedreigingsdetectie, bijzonder gedragingen en beleidsovertredingen
+* **Configuratie en statuskaarten** die betrekking hebben op de configuratie en implementatie van beveiligingscontroles, met inbegrip van de onboarding-statussen van apparaten voor beheerservices
+* **Over** het overige: alle andere kaarten die niet zijn gecategoriseerd onder andere onderwerpen

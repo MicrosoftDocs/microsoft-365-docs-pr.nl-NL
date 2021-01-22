@@ -1,10 +1,10 @@
 ---
-title: AlertEvidence-tabel in het geavanceerde jacht schema
-description: Meer informatie over informatie die is gekoppeld aan waarschuwingen in de tabel AlertEvidence van het schema geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, kolom, gegevenstype, beschrijving, AlertInfo, waarschuwing, entiteit, bewijs, bestand, IP-adres, apparaat, computer, gebruiker
+title: De tabel AlertEvidence in het geavanceerde schema voor zoeken
+description: Meer informatie over de informatie die is gekoppeld aan waarschuwingen in de tabel AlertEvidence van het geavanceerde schema voor zoeken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, machine, user, account
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 549eed005e06a7d52ce2f881820ae9fdeffdfea7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: c01b0aae1eff3d9b4add632aff0f13cb56941a30
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847678"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932302"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -34,39 +35,39 @@ ms.locfileid: "48847678"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De `AlertEvidence` tabel in het [geavanceerde jacht](advanced-hunting-overview.md) -schema bevat informatie over diverse entiteiten, zoals bestanden, IP-adressen, url's, gebruikers of apparaten, gekoppeld aan waarschuwingen van Microsoft Defender for Endpoint, Microsoft Defender voor Office 365, Microsoft Cloud app Security en Microsoft Defender for Identity. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De tabel in het geavanceerde zoekschema bevat informatie over verschillende entiteiten `AlertEvidence` (bestanden, [](advanced-hunting-overview.md) IP-adressen, URL's, gebruikers of apparaten) die zijn gekoppeld aan waarschuwingen van Microsoft Defender voor eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender for Identity. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
 | `AlertId` | tekenreeks | Unieke id voor de waarschuwing |
-| `ServiceSource` | tekenreeks | Het product of de service die de waarschuwingsinformatie heeft verstrekt |
+| `ServiceSource` | tekenreeks | Product of service dat de waarschuwingsgegevens heeft verstrekt |
 | `EntityType` | tekenreeks | Type object, zoals een bestand, een proces, een apparaat of een gebruiker |
-| `EvidenceRole` | tekenreeks | Hoe de entiteit deel uitmaakt van een melding, geeft aan of het niet wordt beïnvloed |
-| `EvidenceDirection` | tekenreeks | Geeft aan of de entiteit de bron is of de bestemming van een netwerkverbinding |
-| `FileName` | tekenreeks | De naam van het bestand waarop de opgenomen actie is toegepast |
-| `FolderPath` | tekenreeks | Map met het bestand waarop de opgenomen actie is toegepast |
-| `SHA1` | tekenreeks | SHA-1 van het bestand waarop de opgenomen actie is toegepast |
-| `SHA256` | tekenreeks | SHA-256 van het bestand waarop de opgenomen actie is toegepast. Dit veld wordt meestal niet ingevuld, met behulp van de SHA1-kolom. |
-| `FileSize` | int | Bestandsgrootte in bytes |
-| `ThreatFamily` | tekenreeks | De familie van de malware waarmee het verdachte of schadelijke bestand of proces is geclassificeerd. |
-| `RemoteIP` | tekenreeks | IP-adres waarop verbinding is gemaakt |
-| `RemoteUrl` | tekenreeks | URL of FQDN (Fully Qualified Domain Name) waarmee verbinding is gemaakt |
+| `EvidenceRole` | tekenreeks | Hoe de entiteit is betrokken bij een waarschuwing, om aan te geven of deze van invloed is of alleen is gerelateerd |
+| `EvidenceDirection` | tekenreeks | Geeft aan of de entiteit de bron of het doel van een netwerkverbinding is |
+| `FileName` | tekenreeks | Naam van het bestand waar de opgenomen actie op is toegepast |
+| `FolderPath` | tekenreeks | Map met het bestand waar de opgenomen actie op is toegepast |
+| `SHA1` | tekenreeks | SHA-1 van het bestand waar de opgenomen actie op is toegepast |
+| `SHA256` | tekenreeks | SHA-256 van het bestand waar de opgenomen actie op is toegepast. Dit veld wordt meestal niet ingevuld. Gebruik de kolom SHA1 indien beschikbaar. |
+| `FileSize` | int | Grootte van het bestand in bytes |
+| `ThreatFamily` | tekenreeks | Malwarefamilie waarbij het verdachte of schadelijke bestand of proces is geclassificeerd onder |
+| `RemoteIP` | tekenreeks | IP-adres dat werd gekoppeld aan |
+| `RemoteUrl` | tekenreeks | URL of FQDN (Fully Qualified Domain Name) die werd verbonden met |
 | `AccountName` | tekenreeks | Gebruikersnaam van het account |
 | `AccountDomain` | tekenreeks | Domein van het account |
-| `AccountSid` | tekenreeks | SID (Security Identifier) van het account |
-| `AccountObjectId` | tekenreeks | Unieke id voor het account in azure Active Directory |
-| `DeviceId` | tekenreeks | Unieke id van het apparaat in de service |
-| `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
-| `LocalIP` | tekenreeks | Het IP-adres dat is toegewezen aan het lokale apparaat dat wordt gebruikt tijdens de communicatie |
-| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Office 365 |
+| `AccountSid` | tekenreeks | Security Identifier (SID) van het account |
+| `AccountObjectId` | tekenreeks | Unieke id voor het account in Azure Active Directory |
+| `DeviceId` | tekenreeks | Unieke id voor het apparaat in de service |
+| `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van de computer |
+| `LocalIP` | tekenreeks | IP-adres dat is toegewezen aan het lokale apparaat dat tijdens communicatie wordt gebruikt |
+| `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Office 365 |
 | `EmailSubject` | tekenreeks | Onderwerp van de e-mail |
 | `ApplicationId` | tekenreeks | Unieke id voor de toepassing |
-| `Application` | tekenreeks | De toepassing die de opgenomen actie heeft uitgevoerd |
-| `ProcessCommandLine` | tekenreeks | Opdrachtregel voor het maken van het nieuwe proces |
-| `AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrix indeling |
+| `Application` | tekenreeks | Toepassing die de opgenomen actie heeft uitgevoerd |
+| `ProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt om het nieuwe proces te maken |
+| `AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

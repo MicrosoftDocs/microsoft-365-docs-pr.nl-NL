@@ -1,10 +1,10 @@
 ---
-title: Voer uw proef Microsoft 365 Defender-project uit.
-description: Voer uw pilot Microsoft 365 Defender-project in de productie om de voordelen en aanneming van Microsoft 365 te effectief te bepalen.
-keywords: Microsoft Threat Protection pilot, een prototype Microsoft Threat Protection-project, Microsoft Threat Protection evalueren in productie, Microsoft Threat Protection pilotproject, Cyber beveiliging, geavanceerde permanente bedreiging, beveiliging van uw organisatie, apparaten, apparaat, identiteit, gebruikers, gegevens, toepassingen, incidenten, geautomatiseerd onderzoek en herstel, geavanceerde jacht
+title: Uw testfase microsoft 365 Defender-project uitvoeren
+description: Voer uw testfase microsoft 365 Defender-project uit in productie om zo effectief de voordelen en acceptatie van Microsoft 365 Defender te bepalen.
+keywords: Microsoft Threat Protection-pilot, voer pilot Microsoft Threat Protection-project uit, evalueer Microsoft Threat Protection in productie, Microsoft Threat Protection-pilotproject, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, apparaten, apparaat, identiteit, gebruikers, gegevens, toepassingen, incidenten, geautomatiseerd onderzoek en herstel, geavanceerd zoeken
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -20,14 +20,15 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: f01e918d35ce77d9239c200355c7b4c48c9e2b84
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: m365d
+ms.openlocfilehash: 9c0635058539e464a76f1720f041c205a05fa9b2
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659314"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933028"
 ---
-# <a name="run-your-pilot-microsoft-365-defender-project"></a>Voer uw proef Microsoft 365 Defender-project uit. 
+# <a name="run-your-pilot-microsoft-365-defender-project"></a>Uw testfase microsoft 365 Defender-project uitvoeren 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,49 +37,49 @@ ms.locfileid: "49659314"
 - Microsoft 365 Defender
 
 
-Deze handleiding helpt u bij het uitvoeren van een pilotproject met behulp van pointers, zodat u zeker weet dat u een goed gestructureerd abonnement hebt, u kunt met de functie voor simulatie van een aanval de functie voor simulatie van aanval en de proefversie sluiten.
+Deze handleiding helpt u bij het uitvoeren van een pilotproject door pointers te bieden om ervoor te zorgen dat u over een goed gestructureerd plan kunt beschikken, om u te begeleiden door de functie voor de aanvalsversleuteling te gebruiken en ten slotte de test af te sluiten met belangrijke take-aways om de resultaten te bekijken en vast te stellen.
 
-![Fasen in een proef met Microsoft 365 Defender](../../media/pilotphases.png)
-
-
-Door een pilot uit te voeren, kunt u de voordelen van adoptiing Microsoft 365 Defender optimaal bepalen. Voordat u Microsoft 365 Defender in uw productieomgeving inschakelt en beproefde zaken begint, is het raadzaam om te bepalen welke taken u uitvoert voor uw pilotproject en stelt u de criteria voor slagen in. 
+![Fasen in een Microsoft 365 Defender-testfase](../../media/pilotphases.png)
 
 
-## <a name="how-to-use-this-pilot-playbook"></a>Het gebruik van deze pilot-Playbook
+Het uitvoeren van een testfase helpt u om effectief vast te stellen wat de voordelen zijn van het gebruik van Microsoft 365 Defender. Voordat u Microsoft 365 Defender inschakelen in uw productieomgeving en uw use cases start, kunt u het beste plannen welke taken u moet uitvoeren voor uw pilotproject en de criteria voor succes instellen. 
 
-Deze handleiding biedt een overzicht van Microsoft 365 Defender en stapsgewijze instructies voor het instellen van uw proefproject. 
 
-Microsoft 365 Defender is een in-en uitbraak centrale Enterprise-verdedigings suite die de bescherming, detectie, preventie, onderzoek en respons van eindpunten, identiteiten, e-mailberichten en toepassingen biedt voor geïntegreerde beveiliging tegen geavanceerde aanvallen. Dit houdt in dat u de volgende mogelijkheden combineert en vasthoudt in één beveiligingsoplossing:
-  - Microsoft Defender for Endpoint, de nieuwe naam voor Microsoft Defender Advanced Threat Protection (eindpunten)
+## <a name="how-to-use-this-pilot-playbook"></a>Dit playbook gebruiken in de testfase
+
+Deze handleiding bevat een overzicht van Microsoft 365 Defender en stapsgewijste instructies voor het instellen van uw pilotproject. 
+
+Microsoft 365 Defender is een geïntegreerde pre- en post-breach Enterprise Defense Suite die ingebouwde beveiliging, detectie, preventie, onderzoek en antwoorden voor eindpunten, identiteiten, e-mail en toepassingen coördineren om geïntegreerde beveiliging tegen geavanceerde aanvallen te bieden. Dit doet u door de volgende mogelijkheden te combineren en te verbeteren in één beveiligingsoplossing:
+  - Microsoft Defender voor eindpunt, de nieuwe naam voor Microsoft Defender Advanced Threat Protection (eindpunten)
   - Microsoft Defender voor Office 365, de nieuwe naam voor Office 365 ATP (e-mail) 
-  - Microsoft Defender for Identity, de nieuwe naam voor Azure ATP (identiteit) 
-  - Beveiligingsupdates voor Microsoft Cloud-app (apps)
+  - Microsoft Defender for Identity, de nieuwe naam voor Azure ATP (identity) 
+  - Beveiliging van Microsoft Cloud-apps (apps)
 
-![Afbeelding of_Microsoft 365, oplossing voor gebruikers, Microsoft Defender for-eindpunten, Microsoft Defender for endpoints, voor Cloud-apps, Microsoft Cloud app Security en voor gegevens, Microsoft Defender voor Office 365](../../media/mtp/m365pillars.png)
+![Afbeelding of_Microsoft 365 Defender-oplossing voor gebruikers, Microsoft Defender for Identity, voor eindpunten Microsoft Defender voor eindpunt, voor cloud-apps, Microsoft Cloud App-beveiliging en voor gegevens, Microsoft Defender voor Office 365](../../media/mtp/m365pillars.png)
 
-Met de geïntegreerde Microsoft 365 Defender-oplossing kunnen beveiligings technici de bedreigings signalen voor Microsoft Defender voor eindpunten, Microsoft Defender for Office 365, Microsoft Defender for Identity en de beveiliging van de Microsoft Cloud-app, bepalen, en de volledige omvang en impact van de bedreiging, hoe die de omgeving heeft ingevoerd, wat van invloed is op de organisatie. Microsoft 365 Defender doet automatische actie om de aanval te voorkomen of te stoppen, en de desbetreffende postvakken, eindpunten en gebruikersidentiteiten te voorkomen. Zie het [overzicht van Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) voor meer informatie.
+Met de geïntegreerde Microsoft 365 Defender-oplossing kunnen beveiligingsprofessionals samenwerken aan de bedreigingssignalen die Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit en Microsoft Cloud App Security ontvangen, en bepalen wat het volledige bereik en de invloed van de bedreiging zijn, hoe de bedreiging is ingevoerd in de omgeving, wat de gevolgen zijn en hoe deze op dit moment van invloed is op de organisatie. Microsoft 365 Defender onderneemt automatische acties om de aanval en postvakken, eindpunten en gebruikersidentiteiten te voorkomen of te stoppen. Zie het [overzicht van Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) voor meer informatie.
 
 
 
-Het volgende voorbeeld van een tijdlijn is afhankelijk van de juiste bronnen in uw omgeving. Voor sommige detecties en werkstromen is mogelijk meer leer tijd nodig dan voor de andere.
+De volgende voorbeeldtijdlijn varieert afhankelijk van de juiste resources in uw omgeving. Sommige detecties en werkstromen hebben mogelijk meer leertijd nodig dan de andere.
 
-![Voorbeeld van een tijdlijn in een Microsoft 365 Defender-pilot](../../media/phase-diagrams/pilot-phases.png)
+![Voorbeeldtijdlijn in een Microsoft 365 Defender-testfase](../../media/phase-diagrams/pilot-phases.png)
 
 >[!IMPORTANT]
->Volg voor optimale resultaten de instructies voor het testen.
+>Voor optimale resultaten volgt u de instructies van de testfase zo goed mogelijk.
 
 
-### <a name="pilot-playbook-phases"></a>Playbook fasen voor prototype 
+### <a name="pilot-playbook-phases"></a>Fases van playbook pilot 
 
-Er zijn vier fasen met een Microsoft 365:
+Een Microsoft 365 Defender-testfase bestaat uit vier fasen:
 
 |Fase | Beschrijving | 
 |:-------|:-----|
-| [Planning](mtp-pilot-plan.md)<br> ~ 1 dag| Meer informatie over wat u moet doen voordat u uw Microsoft 365-proefproject voor Microsoft-Defender uitvoert: <br><br>-Bereik <br> -Use cases <br>-Vereisten <br>Test plan <br> -Succescriteria <br> -Scorecard 
-| [Uitwerking](mtp-evaluation.md) <br>~ 2 dagen|  Open Microsoft 365-Beveiligingscentrum voor het instellen van uw proef omgeving voor Microsoft 365 Defender. U wordt begeleid bij:<br><br>-Belanghebbenden identificeren en zich afmelden voor uw pilot <br> -Aandachtspunten voor de omgeving <br>-Access <br>-Configuratie van Azure Active Directory <br> -De configuratie volgorde <br> -Registreren voor Microsoft 365 E5-proefabonnement <br> Domein configureren <br>-Microsoft 365 E5-licenties toewijzen <br> -De wizard Setup voltooien in de portal|
-| [Simulatie van aanval](mtp-pilot-simulate.md) <br>~ 2 dagen| U wordt begeleid bij het maken van een aanval:<br><br>-Controleer de vereisten voor de testomgeving <br>-De simulatie uitvoeren <br>-Onderzoek een incident <br>-het incident oplossen 
-| [Sluiten en samenvatting](mtp-pilot-close.md) <br>~ 1 dag| Wanneer u het einde van het proces hebt bereikt, gaat u verder met:<br><br>-Doorgaan met de laatste uitvoer<br>-De uitvoer presenteren aan de belanghebbenden <br>-Feedback geven <br>-Voer de volgende stappen uit 
+| [Planning](mtp-pilot-plan.md)<br> ~ 1 dag| Lees waar u aan moet denken voordat u een Microsoft 365 Defender-testproject gaat uitvoeren: <br><br>- Bereik <br> - Use cases <br>- Vereisten <br>- Testplan <br> - Criteria voor succes <br> - Scorecard 
+| [Voorbereiding](mtp-evaluation.md) <br>~2 dagen|  Krijg toegang tot het Microsoft 365-beveiligingscentrum om uw Microsoft 365 Defender-testomgeving in te stellen. U wordt begeleid bij het volgende:<br><br>- Identificeer belanghebbenden en zoek het aanmelden voor uw testfase <br> - Aandachtspunten voor de omgeving <br>- Access <br>- Azure Active Directory instellen <br> - Configuratieorder <br> - Aanmelden voor de proefversie van Microsoft 365 E5 <br> - Domein configureren <br>- Microsoft 365 E5-licenties toewijzen <br> - Voltooi de installatiewizard in de portal|
+| [Aanvalssyrulatie](mtp-pilot-simulate.md) <br>~2 dagen| Als u een aanval wilt simuleren, kunt u het volgende doen:<br><br>- De vereisten voor de testomgeving controleren <br>- Deulatie uitvoeren <br>- Een incident onderzoeken <br>- het incident oplossen 
+| [Afsluiting en samenvatting](mtp-pilot-close.md) <br>~ 1 dag| Wanneer u het einde van het proces hebt bereikt, kunt u het volgende doen:<br><br>- De uiteindelijke uitvoer door<br>- Presenteert uw uitvoer aan uw belanghebbenden <br>- Feedback geven <br>- Neem de volgende stappen 
 
 ## <a name="next-step"></a>Volgende stap
-|[Planningfase](mtp-pilot-plan.md) | Een proefproject voor Microsoft 365 Defender plannen 
+|[Planningsfase](mtp-pilot-plan.md) | Uw Microsoft 365 Defender-pilotproject plannen 
 |:-------|:-----|

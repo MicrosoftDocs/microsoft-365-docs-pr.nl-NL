@@ -1,10 +1,10 @@
 ---
-title: Zoeken naar bedreigingen op apparaten, e-mailberichten, apps en identiteiten met een geavanceerde jacht
-description: Onderzoek veelvoorkomende jacht-scenario's en voorbeelden van zoekopdrachten die betrekking hebben op apparaten, e-mailberichten, apps en identiteiten.
-keywords: geavanceerde jacht, Office365 gegevens, Windows-apparaten, Office365 e-mailberichten normaliseren, e-mails, apps, identiteiten, bedreigings jacht, Cyber Threat jacht, zoeken, query, telemetrie, Microsoft 365, Microsoft Threat Protection
+title: Op bedreigingen zoeken op apparaten, e-mails, apps en identiteiten met geavanceerd zoeken
+description: Veelvoorkomende zoekscenario's en voorbeeldquery's gebruiken voor apparaten, e-mailberichten, apps en identiteiten.
+keywords: geavanceerd zoeken, Office365-gegevens, Windows-apparaten, Office365-e-mails normaliseren, e-mails, apps, identiteiten, bedreigingszoekactie, cyberaanvallen zoeken, zoeken, query, telemetrie, Microsoft 365, Microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 97640c318908b87c211caed780624080508a255f
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: b408f574ab4b89806be9154394f49c00a7fd1e99
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847342"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932248"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Zoeken naar bedreigingen op apparaten, e-mailberichten, apps en identiteiten
 
@@ -34,28 +35,28 @@ ms.locfileid: "48847342"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Met de [geavanceerde jacht](advanced-hunting-overview.md) in microsoft 365 Defender kunt u op verschillende manieren te zoeken naar bedreigingen voor:
+[Geavanceerd zoeken](advanced-hunting-overview.md) in Microsoft 365 Defender stelt u in staat proactief te zoeken naar bedreigingen:
 - Apparaten die worden beheerd door Microsoft Defender voor eindpunt
-- E-mailberichten die worden verwerkt door Microsoft 365
-- Activiteiten van de Cloud-app, verificatiegebeurtenissen en de domeincontroller activiteiten die worden bijgehouden via de Microsoft Cloud app Security en Microsoft Defender for Identity
+- E-mailberichten verwerkt door Microsoft 365
+- Activiteiten in de cloud-app, verificatiegebeurtenissen en activiteiten van de domeincontroller die worden bijgeslagen door Microsoft Cloud App Security en Microsoft Defender for Identity
 
-Met dit niveau van de zichtbaarheid kunt u snel zoeken naar bedreigingen die door secties van uw netwerk bladeren, waaronder verfijnde indringers die aankomen via e-mail of het web, lokale bevoegdheden toevoegen, machtigingen voor domeinnamen 
+Met dit zichtbaarheidsniveau kunt u snel zoeken naar bedreigingen die secties in uw netwerk doorkruisen, waaronder geavanceerde toegangsgegevens die via e-mail of internet binnenkomen, lokale bevoegdheden verhogen, referenties voor bevoorrecht domein verkrijgen en laterally verplaatsen naar al uw apparaten. 
 
-Hier volgen algemene technieken en voorbeelden van query's op basis van diverse jacht scenario's die u kunnen helpen om te ontdekken hoe u query's kunt maken wanneer u een nieuwe oplossing uitvoert voor dergelijke geavanceerde bedreigingen.
+Hier vindt u algemene technieken en voorbeeldquery's op basis van verschillende scenario's voor het zoeken naar query's die u kunt gebruiken om query's te maken wanneer u op dergelijke geavanceerde bedreigingen kunt zoeken.
 
-## <a name="get-entity-info"></a>Gegevens voor entiteit weergeven
-Gebruik deze query's om te leren hoe u snel informatie kunt vinden over gebruikersaccounts, apparaten en bestanden. 
+## <a name="get-entity-info"></a>Informatie over de entiteit op halen
+Gebruik deze query's als u wilt weten hoe u snel informatie kunt krijgen over gebruikersaccounts, apparaten en bestanden. 
 
-### <a name="obtain-user-accounts-from-email-addresses"></a>Gebruikersaccounts van e-mailadressen verkrijgen
-Wanneer u query's maakt [voor de tabellen die betrekking hebben op apparaten en e-mailberichten](advanced-hunting-schema-tables.md), moet u waarschijnlijk de naam van gebruikersaccounts verkrijgen via e-mailadressen van afzender of geadresseerde. U kunt dit algemeen doen voor geadresseerden of adressen van geadresseerden met behulp van de *lokale host* uit het e-mailadres.
+### <a name="obtain-user-accounts-from-email-addresses"></a>Gebruikersaccounts verkrijgen van e-mailadressen
+Wanneer u query's maakt [in](advanced-hunting-schema-tables.md)tabellen die betrekking hebben op apparaten en e-mailberichten, moet u waarschijnlijk de namen van gebruikersaccounts verkrijgen bij de e-mailadressen van afzenders of geadresseerden. In het algemeen kunt u dit doen voor het adres van de geadresseerde of de afzender met behulp van de lokale host via het *e-mailadres.*
 
-In het onderstaande fragment wordt de functie [toString ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) Kusto gebruikt om de lokale host te extraheren voordat de `@` e-mailadressen van de geadresseerden in de kolom worden weergegeven `RecipientEmailAddress` .
+In het onderstaande fragment gebruiken we de [functie tostring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) Kusto om de local-host direct voor de e-mailadressen van geadresseerden in de kolom `@` uit te `RecipientEmailAddress` halen.
 
 ```kusto
 //Query snippet showing how to extract the account name from an email address
 AccountName = tostring(split(RecipientEmailAddress, "@")[0])
 ```
-In de volgende query ziet u hoe dit fragment kan worden gebruikt:
+De onderstaande query laat zien hoe dit fragment kan worden gebruikt:
 
 ```kusto
 EmailEvents
@@ -65,7 +66,7 @@ EmailEvents
 
 ### <a name="merge-the-identityinfo-table"></a>De tabel IdentityInfo samenvoegen
 
-U kunt rekening namen en andere accountgegevens aanvragen door de [tabel IdentityInfo](advanced-hunting-identityinfo-table.md)samen te voegen of eraan deel te nemen. De onderstaande query biedt de lijst met opsporings-en malware-detecties van de [tabel EmailEvents](advanced-hunting-emailevents-table.md) en voegt vervolgens deze informatie toe aan de `IdentityInfo` tabel voor gedetailleerde informatie over de geadresseerden. 
+U kunt accountnamen en andere accountgegevens verkrijgen door de [tabel IdentityInfo samen te](advanced-hunting-identityinfo-table.md)voegen of samen te voegen. Met de onderstaande query wordt de lijst met phishing- en malwaredetecties uit de tabel [EmailEvents](advanced-hunting-emailevents-table.md) weergegeven en wordt die informatie vervolgens aan de tabel toegevoegd voor gedetailleerde informatie over `IdentityInfo` elke geadresseerde. 
 
 ```kusto
 EmailEvents
@@ -81,11 +82,11 @@ SenderFromAddress, RecipientEmailAddress, AccountDisplayName, JobTitle,
 Department, City, Country
 ```
 
-### <a name="get-device-information"></a>Apparaatgegevens achterhalen
-Het [geavanceerde jacht-schema](advanced-hunting-schema-tables.md) biedt uitgebreide informatie over apparaten in diverse tabellen. De [tabel DeviceInfo](advanced-hunting-deviceinfo-table.md) bevat bijvoorbeeld uitgebreide informatie over apparaten op basis van de gebeurtenisgegevens die regelmatig zijn samengeteld. Met deze query wordt de `DeviceInfo` tabel gebruikt om te controleren of een gebruiker met een risico gemanipuleerd ( `<account-name>` ) is aangemeld bij een willekeurige computer en welke waarschuwingen op die apparaten zijn geactiveerd.
+### <a name="get-device-information"></a>Apparaatgegevens verkrijgen
+Het [geavanceerde schema voor zoeken](advanced-hunting-schema-tables.md) biedt uitgebreide informatie over het apparaat in verschillende tabellen. De tabel [DeviceInfo](advanced-hunting-deviceinfo-table.md) bevat bijvoorbeeld uitgebreide apparaatgegevens op basis van gebeurtenisgegevens die regelmatig worden samengevoegd. Deze query gebruikt de tabel om te controleren of een mogelijk gecompromitteerd gebruiker () zich heeft aangemeld op een apparaat en geeft vervolgens de waarschuwingen weer die op die apparaten `DeviceInfo` `<account-name>` zijn geactiveerd.
 
 >[!Tip]
-> Met deze query wordt `kind=inner` een [inner join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)opgegeven waarmee ontdubbeling van de linkerkant van waarden wordt voorkomen `DeviceId` .
+> Deze query wordt `kind=inner` gebruikt om een [inner-join op](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)te geven, waarmee deduplicatie van linkerwaarden voor `DeviceId` .
 
 ```kusto
 DeviceInfo
@@ -100,10 +101,10 @@ DeviceInfo
 | project AlertId, Timestamp, Title, Severity, Category 
 ```
 
-## <a name="hunting-scenarios"></a>Jacht scenario's
+## <a name="hunting-scenarios"></a>Scenario's zoeken
 
-### <a name="list-logon-activities-of-users-that-received-emails-that-were-not-zapped-successfully"></a>Aanmeldings activiteiten vermelden van gebruikers die e-mails ontvangen die niet zijn zapped
-[Zero-Hour auto leegmaak (ZAP)](../office-365-security/zero-hour-auto-purge.md) verstuurt kwaadwillende e-mailberichten nadat deze zijn ontvangen. Als ZAP mislukt, kan kwaadaardige code uiteindelijk op het apparaat worden uitgevoerd en kan de accounts worden beschadigd. Met deze query wordt gecontroleerd of er een aanmeldingsactiviteit is uitgevoerd door de geadresseerden van e-mailberichten die niet zijn geadresseerd door ZAP.
+### <a name="list-logon-activities-of-users-that-received-emails-that-were-not-zapped-successfully"></a>Aanmeldingsactiviteiten van gebruikers die e-mailberichten hebben ontvangen die niet zijn gezaped
+[Met Zero-hour Auto Purge (ZAP)](../office-365-security/zero-hour-auto-purge.md) worden schadelijke e-mailberichten na ontvangst geadresseerden. Als ZAP mislukt, kan schadelijke code uiteindelijk worden uitgevoerd op het apparaat en accounts gehackt laten. Deze query controleert op aanmeldingsactiviteiten die zijn uitgevoerd door de geadresseerden van e-mailberichten die niet konden worden verwerkt door ZAP.
 
 ```kusto
 EmailPostDeliveryEvents 
@@ -119,8 +120,8 @@ EmailPostDeliveryEvents
 LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, LogonType
 ```
 
-### <a name="get-logon-attempts-by-domain-accounts-targeted-by-credential-theft"></a>Aanmeldingspogingen voor domeinaccounts met een referentie diefstal aanvragen
-Met deze query worden eerst alle waarschuwingen voor toegangsrechten voor referenties in de `AlertInfo` tabel aangeduid. De tabel wordt vervolgens samengevoegd of samengevoegd `AlertEvidence` , die wordt geparseerd voor de namen van de gerichte accounts en filters voor accounts die lid zijn van een domein. Ten slotte wordt de `IdentityLogonEvents` tabel gecontroleerd op alle aanmeldings activiteiten van de domeinnaam gerichte accounts.
+### <a name="get-logon-attempts-by-domain-accounts-targeted-by-credential-theft"></a>Aanmeldingspogingen krijgen van domeinaccounts die zijn gericht op diefstal van referenties
+Met deze query worden eerst alle waarschuwingen voor toegang tot referenties in de tabel `AlertInfo` geïdentificeerd. Vervolgens wordt de tabel samengevoegd of samengevoegd, die wordt geparseert voor de namen van de gerichte accounts en filters voor accounts die aan een domein zijn `AlertEvidence` verbonden. Ten slotte wordt de tabel gecontroleerd op alle aanmeldingsactiviteiten van `IdentityLogonEvents` de targeted-accounts die lid zijn van een domein.
 
 ```kusto
 AlertInfo
@@ -139,8 +140,8 @@ AlertInfo
 | project AccountDisplayName, TargetAccountSid, Application, Protocol, DeviceName, LogonType
 ```
 
-### <a name="check-if-files-from-a-known-malicious-sender-are-on-your-devices"></a>Controleren of bestanden van een bekende, schadelijke afzender op uw apparaten staan
-Ervan uitgaand dat u bekend bent met een e-mailadres dat u schadelijke bestanden verzendt ( `MaliciousSender@example.com` ), kunt u deze query uitvoeren om te bepalen of bestanden van deze afzender bestaan op uw apparaten. U kunt deze query bijvoorbeeld gebruiken om apparaten aan te geven die worden beïnvloed door een malware-distributie campagne.
+### <a name="check-if-files-from-a-known-malicious-sender-are-on-your-devices"></a>Controleren of bestanden van een bekende kwaadwillende afzender op uw apparaten staan
+Als u zeker weet dat er een e-mailadres is voor het verzenden van schadelijke bestanden ( ), kunt u deze query uitvoeren om te bepalen of de bestanden van deze afzender `MaliciousSender@example.com` op uw apparaten aanwezig zijn. U kunt deze query bijvoorbeeld gebruiken om apparaten te identificeren die worden beïnvloed door een malwaredistributiecampagne.
 
 ```kusto
 EmailAttachmentInfo
@@ -155,8 +156,8 @@ DeviceFileEvents
 | project Timestamp, FileName , SHA256, DeviceName, DeviceId,  NetworkMessageId, SenderFromAddress, RecipientEmailAddress
 ```
 
-### <a name="review-logon-attempts-after-receipt-of-malicious-emails"></a>Aanmeldingspogingen nakijken na ontvangst van kwaadaardige e-mailberichten
-Met deze query vindt u de tien meest recente aanmeldingen van e-mail geadresseerden binnen 30 minuten nadat ze bekende, schadelijke e-mails hebben ontvangen. U kunt deze query gebruiken om te controleren of de accounts van de geadresseerden van het e-mailbericht zijn aangetast.
+### <a name="review-logon-attempts-after-receipt-of-malicious-emails"></a>Aanmeldingspogingen na ontvangst van schadelijke e-mailberichten controleren
+Deze query vindt de tien meest recente aanmeldingen die zijn uitgevoerd door e-mailontvangers binnen 30 minuten nadat ze bekende schadelijke e-mailberichten hebben ontvangen. U kunt deze query gebruiken om te controleren of de accounts van de geadresseerden van de e-mail zijn gehackt.
 
 ```kusto
 //Define new table for malicious emails
@@ -175,8 +176,8 @@ IdentityLogonEvents
 | take 10
 ```
 
-### <a name="review-powershell-activities-after-receipt-of-emails-from-known-malicious-sender"></a>PowerShell-activiteiten nakijken na ontvangst van e-mailberichten van bekende schadelijke afzender
-Kwaadwillende e-mailberichten bevatten vaak documenten en andere speciaal vervaardigde bijlagen die PowerShell-opdrachten uitvoeren voor het leveren van extra nettoladingen. Als u op de hoogte bent van e-mailberichten die afkomstig zijn van een bekende, schadelijke afzender ( `MaliciousSender@example.com` ), kunt u deze query gebruiken om PowerShell-activiteiten weer te geven en te controleren die binnen 30 minuten zijn opgetreden nadat een e-mailbericht van de afzender is ontvangen.  
+### <a name="review-powershell-activities-after-receipt-of-emails-from-known-malicious-sender"></a>PowerShell-activiteiten controleren na ontvangst van e-mailberichten van bekende kwaadwillende afzenders
+Schadelijke e-mailberichten bevatten vaak documenten en andere speciaal opgebouwde bijlagen die PowerShell-opdrachten uitvoeren om extra nettolading aan te leveren. Als u op de hoogte bent van e-mailberichten afkomstig van een bekende kwaadwillende afzender (), kunt u deze query gebruiken om PowerShell-activiteiten te bekijken die zijn opgetreden binnen 30 minuten nadat een e-mailbericht van de afzender is `MaliciousSender@example.com` ontvangen.  
 
 ```kusto
 //Define new table for emails from specific sender

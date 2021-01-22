@@ -1,13 +1,13 @@
 ---
-title: Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft 365 Defender configureren
-description: Automatisch onderzoek en antwoord met zelfherstel configureren in Microsoft 365 Defender
+title: Geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren in Microsoft 365 Defender
+description: Geautomatiseerd onderzoek en automatisch onderzoek configureren met self-of-spam in Microsoft 365 Defender
 search.appverid: MET150
 author: denisebmsft
 ms.author: deniseb
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
@@ -15,94 +15,95 @@ ms.collection:
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
-ms.openlocfilehash: b83bbf560e39fd268dd6be361c9928242357815f
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: m365d
+ms.openlocfilehash: 123b3b5f8514e9b3914b98178191d60e78280991
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49759908"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930316"
 ---
-# <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Geautomatiseerd onderzoek-en antwoord mogelijkheden in Microsoft 365 Defender configureren
+# <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-Microsoft 365 Defender bevat krachtige [functies voor automatisch onderzoek en antwoorden](mtp-autoir.md) waarmee u uw beveiligingsactiviteiten team veel tijd en inspanning kunt besparen. Met dit soort functies worden de stappen van een beveiligings analist afgehandeld, maar sneller en met meer mogelijkheid om te schalen. In dit artikel wordt uitgelegd hoe u een geautomatiseerd onderzoek en antwoord kunt configureren in Microsoft 365 Defender.
+Microsoft 365 Defender bevat krachtige [geautomatiseerde](mtp-autoir.md) onderzoeks- en antwoordmogelijkheden die uw team voor beveiligingsbewerkingen veel tijd en moeite kunnen besparen. Met zelfkritisch werken deze mogelijkheden de stappen na die een beveiligingsanalist zou ondernemen om bedreigingen te onderzoeken en te beantwoorden, alleen sneller en met meer mogelijkheden om de schaal te verbeteren. In dit artikel wordt beschreven hoe u geautomatiseerd onderzoek en antwoorden in Microsoft 365 Defender kunt configureren.
 
-Voer de volgende stappen uit om geautomatiseerde onderzoek-en antwoord mogelijkheden te configureren:
+Als u geautomatiseerde onderzoeks- en antwoordmogelijkheden wilt configureren, gaat u als volgt te werk:
 
-1. [Controleer de vereisten](#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender).
-2. [Het automatiserings niveau voor apparaatgroepen controleren of wijzigen](#review-or-change-the-automation-level-for-device-groups).
-3. [Controleer uw beveiligings-en waarschuwings beleid in Office 365](#review-your-security-and-alert-policies-in-office-365).
-4. [Zorg ervoor dat Microsoft 365 Defender is ingeschakeld](#make-sure-microsoft-365-defender-is-turned-on).
+1. [Controleer de vereisten.](#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
+2. [Controleer of wijzig het automatiseringsniveau voor apparaatgroepen.](#review-or-change-the-automation-level-for-device-groups)
+3. [Controleer het beveiligings- en waarschuwingsbeleid in Office 365.](#review-your-security-and-alert-policies-in-office-365)
+4. [Zorg ervoor dat Microsoft 365 Defender is ingeschakeld.](#make-sure-microsoft-365-defender-is-turned-on)
 
-Wanneer u klaar bent [met de configuratie, bekijkt u de acties in behandeling en voltooid in het Actiecentrum](#review-pending-and-completed-actions-in-the-action-center).
+Controleer vervolgens, nadat u alles hebt ingesteld, de acties die in behandeling en voltooid zijn [in het Actiecentrum.](#review-pending-and-completed-actions-in-the-action-center)
 
-## <a name="prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender"></a>Vereisten voor automatisch onderzoek en antwoord in Microsoft 365 Defender
+## <a name="prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender"></a>Vereisten voor geautomatiseerd onderzoek en antwoorden in Microsoft 365 Defender
 
 |Vereiste |Details |
 |--|--|
-|Vereisten voor het abonnement |Een van de abonnementen: <ul><li>Microsoft 365 E5</li><li>Microsoft 365 A5</li><li>Microsoft 365 E5-beveiliging</li><li>Microsoft 365 A5-beveiliging</li><li>Office 365 E5 Plus Enterprise Mobility + Security E5 Plus Windows E5</li></ul><p> Zie [licentievereisten voor Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?#licensing-requirements).|
-|Netwerkvereisten |<ul><li>[Microsoft Defender voor identiteit](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) ingeschakeld</li><li>[Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) geconfigureerd</li><li>[Microsoft Defender voor identiteits integratie](https://docs.microsoft.com/cloud-app-security/mdi-integration)</li></ul>|
-|Systeemvereisten voor Windows |Windows 10, versie 1709 of hoger is geïnstalleerd (Zie [informatie over Windows 10 release](https://docs.microsoft.com/windows/release-information/)) met de volgende beveiligingsservices die zijn geconfigureerd:<ul><li>[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)</li><li>[Microsoft Defender antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)</li></ul>|
-|Bescherming voor e-mail inhoud en Office-bestanden |[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) geconfigureerd |
-|Machtigingen |<ul><li>Als u de functie voor geautomatiseerde onderzoek-en antwoord functies wilt configureren, moet u beschikken over de rol van globale beheerder of beveiligingsbeheerder in azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) of in het Microsoft 365-Beheercentrum [https://admin.microsoft.com](https://admin.microsoft.com) .</li><p><li>Als u wilt dat u de benodigde machtigingen hebt voor het werken met geautomatiseerde onderzoek-en antwoord functies, zoals het controleren, goedkeuren of weigeren van activiteiten, raadpleegt u de [vereiste machtigingen voor taken in het Actiecentrum](mtp-action-center.md#required-permissions-for-action-center-tasks).</li></ul>|
+|Abonnementsvereisten |Een van de abonnementen: <ul><li>Microsoft 365 E5</li><li>Microsoft 365 A5</li><li>Microsoft 365 E5-beveiliging</li><li>Microsoft 365 A5-beveiliging</li><li>Office 365 E5 plus Enterprise Mobility + Security E5 plus Windows E5</li></ul><p> Zie [de licentievereisten voor Microsoft 365 Defender.](https://docs.microsoft.com/microsoft-365/security/mtp/prerequisites?#licensing-requirements)|
+|Netwerkvereisten |<ul><li>[Microsoft Defender voor identiteit](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) ingeschakeld</li><li>[Microsoft Cloud-app-beveiliging](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) geconfigureerd</li><li>[Integratie van Microsoft Defender voor identiteit](https://docs.microsoft.com/cloud-app-security/mdi-integration)</li></ul>|
+|Vereisten voor Windows-machine |Windows 10, versie 1709 of hoger geïnstalleerd (zie release-informatie over [Windows 10)](https://docs.microsoft.com/windows/release-information/)met de volgende services voor bedreigingsbeveiliging geconfigureerd:<ul><li>[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)</li><li>[Microsoft Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)</li></ul>|
+|Beveiliging voor e-mailinhoud en Office-bestanden |[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) geconfigureerd |
+|Machtigingen |<ul><li>Als u geautomatiseerde onderzoeks- en antwoordmogelijkheden wilt configureren, moet de rol Globale beheerder of Beveiligingsbeheerder zijn toegewezen in Azure Active Directory ( ) of in het [https://portal.azure.com](https://portal.azure.com) Microsoft 365-beheercentrum ( [https://admin.microsoft.com](https://admin.microsoft.com) ).</li><p><li>Zie Vereiste machtigingen voor taken in het Actiecentrum als u de benodigde machtigingen wilt krijgen om te werken met geautomatiseerde onderzoeks- en antwoordmogelijkheden, zoals het controleren, goedkeuren of weigeren van acties die in behandeling [zijn.](mtp-action-center.md#required-permissions-for-action-center-tasks)</li></ul>|
 
-## <a name="review-or-change-the-automation-level-for-device-groups"></a>Het automatiserings niveau voor apparaatgroepen controleren of wijzigen
+## <a name="review-or-change-the-automation-level-for-device-groups"></a>Het automatiseringsniveau voor apparaatgroepen controleren of wijzigen
 
-Of geautomatiseerd onderzoek wordt uitgevoerd en of herstelacties automatisch of alleen na goedkeuring van uw apparaten worden uitgevoerd, hangt af van bepaalde instellingen, zoals het beleid van de groeps beleidsregels van uw organisatie. Bekijk het niveau van automatiserings niveau voor uw apparaat in de groepsbeleidsregels.
+Of automatisch onderzoek wordt uitgevoerd en of herstelacties automatisch of alleen bij goedkeuring voor uw apparaten worden uitgevoerd, hangt af van bepaalde instellingen, zoals het beleid van de apparaatgroep van uw organisatie. Bekijk het automatiseringsniveau dat is ingesteld voor het groepsbeleid voor apparaten.
 
-1. Ga naar het Microsoft Defender-Beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ) en meld u aan.
+1. Ga naar het Microsoft Defender-beveiligingscentrum [https://securitycenter.windows.com](https://securitycenter.windows.com) () en meld u aan.
 
-2. Ga naar **instellingen** van het  >    >  **apparaat** machtigingen.
+2. Ga naar  >  **Apparaatgroepen met instellingenmachtigingen.**  >  
 
-3. Controleer het beleid voor Groepsbeleid. Kijk vooral naar de kolom **herstelniveau** . We raden u aan dat u de functie voor **volledig herstel van bedreigingen automatisch** gebruikt.  Mogelijk moet u de Apparaatgroepen maken of bewerken om het gewenste automatiserings niveau te kunnen bereiken. Zie de volgende artikelen voor meer informatie over deze taak:
+3. Controleer het beleid van uw apparaatgroep. Bekijk met name de kolom **op herstelniveau.** We raden u aan **om volledige bedreigingen automatisch te herstellen.**  Mogelijk moet u uw apparaatgroepen maken of bewerken om het bepaalde automatiseringsniveau te krijgen. Zie de volgende artikelen voor hulp bij deze taak:
 
-   - [Hoe bedreigingen worden hersteld](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations#how-threats-are-remediated)
+   - [Hoe bedreigingen worden verteerd](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations#how-threats-are-remediated)
    - [Apparaatgroepen maken en beheren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/machine-groups)
 
-## <a name="review-your-security-and-alert-policies-in-office-365"></a>Controleer uw beveiligings-en waarschuwings beleid in Office 365
+## <a name="review-your-security-and-alert-policies-in-office-365"></a>Uw beveiligings- en waarschuwingsbeleid in Office 365 controleren
 
-Microsoft beschikt over ingebouwde [waarschuwings beleidsregels](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) die bijdragen aan het identificeren van bepaalde Risico's. Dit zijn de Risico's voor Exchange-beheerders, misbruik van schadelijke activiteiten, potentiële externe en interne bedreigingen en informatiebeheer Risico's. Sommige waarschuwingen kunnen [automatisch onderzoek en antwoord activeren in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air). Zorg ervoor dat de functies voor [Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) juist zijn geconfigureerd.
+Microsoft biedt ingebouwde [beleidsregels voor waarschuwingen die](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) u kunt gebruiken om bepaalde risico's vast te stellen. Deze risico's zijn onder andere misbruik van Exchange-beheerdersmachtigingen, malwareactiviteit, potentiële externe en interne bedreigingen en risico's voor informatiebeheer. Sommige waarschuwingen kunnen automatische onderzoeken [en antwoorden activeren in Office 365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) Zorg ervoor dat [de functies van Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) correct zijn geconfigureerd.
 
-Hoewel bepaalde waarschuwingen en beveiligingsbeleid het automatiseren van een geautomatiseerd onderzoek mogelijk maken, worden er automatisch geen herstelacties uitgevoerd voor e-mail en inhoud. In plaats daarvan worden alle herstelacties voor e-mailberichten en e-mail inhoud met de goedkeuring in het [Actiecentrum](mtp-action-center.md)wel goedgekeurd door het team van uw beveiligingsactiviteiten.
+Hoewel bepaalde waarschuwingen en beveiligingsbeleid geautomatiseerde onderzoeken kunnen activeren, worden er niet automatisch herstelacties ondernomen voor e-mail en inhoud. In plaats daarvan wachten alle herstelacties voor e-mail en e-mailinhoud op goedkeuring door het team voor beveiligingsbewerkingen in [het actiecentrum.](mtp-action-center.md)
 
-Met behulp van beveiligingsinstellingen in Office 365 kunt u e-mail en inhoud beveiligen. Als u deze instellingen wilt bekijken of wijzigen, volgt u de richtlijnen in [beveiliging tegen bedreigingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
+Beveiligingsinstellingen in Office 365 helpen e-mail en inhoud te beschermen. Als u deze instellingen wilt weergeven of wijzigen, volgt u de richtlijnen in [Beveiligen tegen bedreigingen.](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)
 
-1. Ga in het Microsoft 365 Security Center ( [https://security.microsoft.com/](https://security.microsoft.com/) ) naar **beleids**  >  **beveiliging tegen** beleid.
+1. Ga in het Microsoft 365-beveiligingscentrum ( [https://security.microsoft.com/](https://security.microsoft.com/) ) naar **Policies**  >  **Threat Protection.**
 
-2. Zorg ervoor dat alle volgende beleidsregels zijn geconfigureerd. Voor hulp en aanbevelingen raadpleegt u [bescherming tegen bedreigingen](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
+2. Zorg ervoor dat alle volgende beleidsregels zijn geconfigureerd. Zie Beveiligen tegen bedreigingen voor hulp [en aanbevelingen.](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)
 
-   - [Anti malware (Office 365)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-1---anti-malware-protection)
-   - [Anti phishing in Defender voor Office 365)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-2---anti-phishing-protection)
+   - [Anti-malware (Office 365)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-1---anti-malware-protection)
+   - [Anti-phishing in Defender voor Office 365)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-2---anti-phishing-protection)
    - [Veilige bijlagen (Office 365)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#atp-safe-attachments-policies)
    - [Veilige koppelingen (Office 365)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#atp-safe-links-policies)
-   - [Anti spam (Office 365)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-3---anti-spam-protection)
+   - [Antispam (Office 365)](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-3---anti-spam-protection)
 
-3. Zorg ervoor dat [Microsoft Defender voor Office 365 voor SharePoint, OneDrive en Microsoft teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-5---turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams-workloads) is ingeschakeld.
+3. Zorg ervoor [dat Microsoft Defender voor Office 365 voor SharePoint, OneDrive en Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-5---turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams-workloads) is ingeschakeld.
 
-4. Zorg ervoor dat de [automatische opschoning van Zero uur voor e-mail](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop) beveiliging is ingeschakeld.
+4. Zorg ervoor [dat automatisch nul-uurs purge voor](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop) e-mailbeveiliging van kracht is.
 
-5. (Dit is optioneel.) Controleer uw [waarschuwings beleid voor Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) in het nalevings centrum van microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Een aantal standaard waarschuwings beleidsregels bevindt zich in de categorie Threat Management. Sommige van deze meldingen kunnen automatisch onderzoek en antwoord activeren. Voor meer informatie raadpleegt u [standaard waarschuwings beleid](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?#default-alert-policies).
+5. (Dit is optioneel.) Controleer uw [Office 365-waarschuwingsbeleid](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) in het Microsoft 365-compliancecentrum ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Verschillende standaardbeleidsregels voor waarschuwingen zijn in de categorie Bedreigingsbeheer. Sommige van deze waarschuwingen kunnen automatische onderzoeken en antwoorden activeren. Zie Beleidsregels voor [standaardwaarschuwingen voor meer informatie.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?#default-alert-policies)
 
-## <a name="make-sure-microsoft-365-defender-is-turned-on"></a>Ervoor zorgen dat Microsoft 365 Defender is ingeschakeld
+## <a name="make-sure-microsoft-365-defender-is-turned-on"></a>Zorg ervoor dat Microsoft 365 Defender is ingeschakeld
 
-1. Ga naar het Microsoft 365-Beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
+1. Ga naar het Microsoft 365-beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
 
-2. Zoek in het navigatiedeelvenster naar **incidenten**, **Onderhoudscentrum** en **jacht**, zoals wordt weergegeven in de volgende afbeelding:
+2. Zoek in het navigatiedeelvenster naar **Incidenten,** **Actiecentrum** en **Zoeken,** zoals in de volgende afbeelding:
 
-   :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP ingeschakeld":::
+   :::image type="content" source="../../media/mtp-enable/mtp-on.png" alt-text="MTP aan":::
 
-   - Als u **incidenten**, **Actiecentrum** en **jacht** ziet, is Microsoft 365 Defender ingeschakeld. Zie de procedure [het automatiserings niveau voor apparaatgroepen controleren of wijzigen](#review-or-change-the-automation-level-for-device-groups) (in dit artikel).
+   - Als u **Incidenten,** **Actiecentrum** en **Zoeken** ziet, is Microsoft 365 Defender ingeschakeld. Zie de procedure, [Het automatiseringsniveau voor](#review-or-change-the-automation-level-for-device-groups) apparaatgroepen bekijken of wijzigen (in dit artikel).
 
-   - Als u *geen* **incidenten**, **Onderhoudscentrum** of **jacht** ziet, is Microsoft 365 Defender mogelijk niet ingeschakeld. Ga in dat geval verder met de volgende stap ([acties in behandeling en voltooid](#review-pending-and-completed-actions-in-the-action-center), in dit artikel).
+   - Als U *Incidenten,* **Actiecentrum** of **Zoeken** niet ziet, is Microsoft 365 Defender mogelijk niet ingeschakeld.  In dit geval gaat u verder met de volgende stap[(acties in](#review-pending-and-completed-actions-in-the-action-center)behandeling en voltooide acties controleren, in dit artikel).
 
-3. Kies in het navigatiedeelvenster **instellingen**  >  **Microsoft 365 Defender**. Ga na of Microsoft 365 Defender is ingeschakeld.
+3. Kies Instellingen Microsoft   >  **365 Defender** in het navigatiedeelvenster. Controleer of Microsoft 365 Defender is ingeschakeld.
 
-   Hulp nodig? Zie [Microsoft 365 Defender inschakelen](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable).
+   Hulp nodig? Zie [Microsoft 365 Defender in turn on.](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable)
 
-## <a name="review-pending-and-completed-actions-in-the-action-center"></a>Acties in behandeling en voltooid bekijken in het Actiecentrum
+## <a name="review-pending-and-completed-actions-in-the-action-center"></a>Acties in behandeling en voltooid controleren in het Actiecentrum
 
-Nadat u automatisch onderzoek en antwoord in Microsoft 365 Defender hebt geconfigureerd, kunt u de volgende stap bezoeken om het Actiecentrum te openen [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) . Daar kunt u de acties die in behandeling zijn, controleren en goedkeuren, en de acties voor herbemiddeling weergeven die automatisch of handmatig zijn uitgevoerd.
+Nadat u automatisch onderzoek en antwoorden in Microsoft 365 Defender hebt geconfigureerd, gaat u naar het Actiecentrum ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ). Daar kunt u acties in behandeling beoordelen en goedkeuren en herstelacties zien die automatisch of handmatig zijn gemaakt.
 
-[Bezoek het Actiecentrum](mtp-action-center.md).
+[Ga naar het actiecentrum.](mtp-action-center.md)

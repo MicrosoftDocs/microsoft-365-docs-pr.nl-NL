@@ -1,9 +1,9 @@
 ---
-title: Incident meldingen ontvangen in Microsoft 365 Defender
-description: Leer hoe u regels maakt voor het ontvangen van e-mail meldingen voor incidenten in Microsoft 365 Defender
-keywords: incident, e-mail, e-notfications, configureren, gebruikers, postvak, e-mail, incidenten
+title: Meldingen over incidenten ontvangen in Microsoft 365 Defender
+description: Informatie over het maken van regels om e-mailmeldingen te ontvangen voor incidenten in Microsoft 365 Defender
+keywords: incident, e-mail, e-mailbevestigingen, configureren, gebruikers, postvak, e-mail, incidenten
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,14 +21,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f25be4de3f25db869957474c3cb32b20e9f7aa53
-ms.sourcegitcommit: 88d358d778804b26d5e41c53b4f725d01a78112b
+ms.technology: m365d
+ms.openlocfilehash: 9db025818fdd5eb2635a9a676e4a10e20f3036b6
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49848889"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930976"
 ---
-# <a name="get-incident-notifications-by-email"></a>Incident meldingen ontvangen via e-mail
+# <a name="get-incident-notifications-by-email"></a>Ontvang incidentenmeldingen per e-mail
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,43 +37,43 @@ ms.locfileid: "49848889"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-U kunt Microsoft 365 Defender zo instellen dat u per e-mail op de hoogte wordt gesteld wanneer er nieuwe incidenten of nieuwe updates zijn voor bestaande incidenten. 
+U kunt Microsoft 365 Defender zo instellen dat u per e-mail op de hoogte wordt gehouden wanneer er nieuwe incidenten of nieuwe updates van bestaande incidenten zijn. 
 
-U kunt ervoor kiezen om meldingen te ontvangen op basis van de ernst van het incident of de groep apparaten. U kunt er ook voor kiezen om een melding te ontvangen bij de eerste update per incident.
+U kunt ervoor kiezen om meldingen te ontvangen op basis van de ernst van het incident of per apparaatgroep. U kunt er ook voor kiezen om alleen bij de eerste update per incident een melding te ontvangen.
 
-U kunt geadresseerden toevoegen aan of verwijderen uit de e-mail meldingen. Toegevoegde geadresseerden ontvangen een melding over incidenten nadat ze zijn toegevoegd. 
+U kunt geadresseerden toevoegen aan of verwijderen uit de e-mailmeldingen. Pas toegevoegde geadresseerden ontvangen een melding over incidenten nadat ze zijn toegevoegd. 
 
-De e-mail melding bevat belangrijke informatie over het incident, zoals de naam van het incident, de ernst en de categorieën. U kunt ook rechtstreeks naar incidenten gaan, zodat u direct aan de slag kunt met uw onderzoek. Zie [incidenten onderzoeken in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/investigate-incidents)voor meer informatie over het onderzoeken van incidenten.
+De e-mailmelding bevat belangrijke details over het incident, zoals de naam van het incident, de ernst en categorieën. U kunt ook rechtstreeks naar incidenten gaan, zodat u meteen een onderzoek kunt starten. Zie Incidenten in [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/investigate-incidents)onderzoeken voor meer informatie over het onderzoeken van incidenten.
 
 >[!NOTE]
->U wilt de machtigingen van de beveiligingsinstellingen beheren om instellingen voor e-mail meldingen te configureren. Als u hebt gekozen voor het gebruik van basismachtigingen beheer, kunnen gebruikers met beveiligingsbeheerders of globale beheerdersrollen e-mail meldingen voor u configureren. <br> <br>
-Ook als uw organisatie gebruikmaakt van een toegangsbeheer op basis van rollen, kunt u alleen een bericht maken, bewerken, verwijderen en ontvangen op basis van apparaatgroepen die u mag beheren.
+>U hebt machtigingen voor het beheren van beveiligingsinstellingen nodig om instellingen voor e-mailmeldingen te configureren. Als u ervoor hebt gekozen om basismachtigingenbeheer te gebruiken, kunnen gebruikers met de rollen Beveiligingsbeheerder of Globale beheerder e-mailmeldingen voor u configureren. <br> <br>
+En als uw organisatie toegangsbeheer op basis van rollen gebruikt, kunt u alleen meldingen maken, bewerken, verwijderen en ontvangen op basis van apparaatgroepen die u mag beheren.
 
-## <a name="create-rules-for-incident-notifications"></a>Regels voor incident meldingen maken
+## <a name="create-rules-for-incident-notifications"></a>Regels maken voor incidentenmeldingen
 
-Als u uw eerste e-mail melding voor incidenten wilt instellen, maakt u een nieuwe regel en wijzigt u de instellingen voor e-mail meldingen.
+Als u uw eerste e-mailmelding voor incidenten wilt instellen, maakt u een nieuwe regel en past u instellingen voor e-mailmeldingen aan.
 
-1. Selecteer in het navigatiedeelvenster **instellingen** voor  >  **e-mail meldingen van incidenten**.
-2. Selecteer **item toevoegen**.
-3. Geef een **naam op voor** de regel en typ een **Beschrijving**.
+1. Selecteer in het navigatiedeelvenster **E-mailmeldingen**  >  **instellingen-incident.**
+2. Selecteer **Item toevoegen.**
+3. Geef de regel een naam in **Naam** en geef een **beschrijving op.**
 
-    ![Het venster regel maken voor e-mail notifs voor incidenten](../../media/incidentemailnotif1.png) 
-4. Selecteer **volgende** om naar de **instellingen voor meldingen** te gaan. Hier kunt u het volgende opgeven:
-    - **Ernst van waarschuwing** : Kies de ernst van de waarschuwing waarmee de melding van een incident wordt geactiveerd. Als u bijvoorbeeld alleen op de hoogte wilt blijven van hoge urgentie, selecteert u hoog.
-    - **Bereik van apparaat** : in deze vervolgkeuzelijst worden alle apparaatgroepen weergegeven waartoe de gebruiker toegang kan krijgen. Selecteer voor welke apparaatgroepen u de regels voor incident meldingen wilt maken.
-    - **Alleen op de hoogte van het eerste exemplaar per voorval melden** : als u deze optie selecteert, wordt een e-mail melding alleen verzonden bij de eerste waarschuwing die overeenkomt met uw andere keuzes. Later updates of waarschuwingen met betrekking tot het incident veroorzaken geen meldingen.
-    - **Naam van organisatie opnemen** : geeft aan of de naam van de klant wordt weergegeven in de e-mail melding of niet.
-    - **Tenant-specifieke Portal koppeling toevoegen** : Hiermee wordt een koppeling met de Tenant-id toegevoegd om toegang tot een specifieke Tenant mogelijk te maken.
+    ![Venster Regel maken voor e-mailincidenten](../../media/incidentemailnotif1.png) 
+4. Selecteer **Volgende om** naar Instellingen voor meldingen te **gaan.** Hier kunt u het volgende opgeven:
+    - **Ernst van de waarschuwing:** kies de ernst van de waarschuwing die een incidentmelding activeert. Als u bijvoorbeeld alleen op de hoogte wilt zijn van incidenten met hoge ernst, selecteert u Hoog.
+    - **Bereik van apparaatgroep:** in deze vervolgkeuzen ziet u alle apparaatgroepen waar de gebruiker toegang toe heeft. Selecteer voor welke apparaatgroepen u de meldingsregels voor incidenten maakt.
+    - **Alleen melden bij eerste exemplaar per incident.** Als u deze optie selecteert, wordt alleen een e-mailmelding verzonden die overeenkomt met uw andere selecties. Latere updates of waarschuwingen met betrekking tot het incident activeren geen melding.
+    - **De naam van de organisatie** opnemen: hiermee wordt aangegeven of de naam van de klant al dan niet in de e-mailmelding wordt weergegeven.
+    - **Inclusief tenantspecifieke portalkoppeling:** hiermee voegt u een koppeling met de tenant-id toe voor toegang tot een specifieke tenant.
     
-    ![Venster met instellingen voor e-mailbericht voor e-mail notifs](../../media/incidentemailnotif2.png)
-5. Selecteer **volgende** om naar de sectie **geadresseerden** te gaan. Hier kunt u e-mailadressen opgeven waarop e-mail meldingen van incidenten worden ontvangen. Selecteer **een geadresseerde toevoegen na het** typen van elk e-mailadres.
+    ![Venster Notif-instellingen voor notif-instellingen voor e-mailincidenten](../../media/incidentemailnotif2.png)
+5. Selecteer **Volgende** om naar de sectie **Geadresseerden te** gaan. Hier kunt u e-mailadressen opgeven die de e-mailmeldingen voor het incident ontvangen. Selecteer **Een geadresseerde toevoegen nadat** u elk e-mailadres hebt typen.
 
-    ![Venster geadresseerden toevoegen voor e-mail notifs](../../media/incidentemailnotif3.png) 
+    ![Venster Geadresseerden toevoegen voor notifs voor incidentele e-mail](../../media/incidentemailnotif3.png) 
 
-6. Selecteer ten slotte **volgende** om naar de **regel controleren** te gaan zodat u alle instellingen kunt zien van de nieuwe regel. Geadresseerden ontvangen via e-mail incident meldingen via e-mail, op basis van de instellingen.
+6. Selecteer ten slotte **Volgende om** naar de regel Controleren **te gaan,** zodat u alle instellingen ziet die aan de nieuwe regel zijn gekoppeld. Geadresseerden ontvangen incidentmeldingen via e-mail op basis van de instellingen.
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van incidenten in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/incidents-overview)
-- [Incidenten prioriteren in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue)
-- [Gebeurtenissen onderzoeken in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/investigate-incidents)
+- [Prioriteit geven aan incidenten in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue)
+- [Incidenten in Microsoft 365 Defender onderzoeken](https://docs.microsoft.com/microsoft-365/security/mtp/investigate-incidents)
 

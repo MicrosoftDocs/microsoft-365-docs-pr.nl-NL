@@ -1,10 +1,10 @@
 ---
-title: Gedeelde query's gebruiken in Microsoft 365 Defender Advanced jacht
-description: Start de bedreigings jacht direct met vooraf gedefinieerde en gedeelde query's. Uw query's delen met het publiek of uw organisatie.
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, telemetrie, aangepaste detectie, schema, kusto, github repo, mijn query's, gedeelde query's
+title: Gedeelde query's gebruiken in de geavanceerde zoekopdracht van Microsoft 365 Defender
+description: Start onmiddellijk risicozoeken met vooraf gedefinieerde en gedeelde query's. Deel uw query's met het publiek of met uw organisatie.
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, custom detections, schema, kusto, github repo, my queries, shared queries
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 48da1a3a64926f44582e7872f0b0ee03240409ca
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 7dcf446b5e1014d411fc8af08dd15506a2b04e49
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844078"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932188"
 ---
-# <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken in geavanceerde jacht
+# <a name="use-shared-queries-in-advanced-hunting"></a>Gedeelde query's gebruiken bij geavanceerd zoeken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,42 +37,42 @@ ms.locfileid: "48844078"
 
 
 
-U kunt [Geavanceerde](advanced-hunting-overview.md) zoekopdrachten delen tussen gebruikers in dezelfde organisatie. U kunt ook zoeken naar query's die openbaar zijn gemaakt op GitHub. Met deze query's kunt u snel specifieke scenario's van de Threat-jacht maken zonder dat u query's helemaal hoeft te schrijven.
+[Geavanceerde](advanced-hunting-overview.md) zoekquery's kunnen worden gedeeld tussen gebruikers in dezelfde organisatie. U kunt query's die openbaar zijn gedeeld ook vinden in GitHub. Met deze query's kunt u snel specifieke scenario's voor het zoeken naar bedreigingen uitvoeren zonder dat u zelf query's moet schrijven.
 
 ![Afbeelding van gedeelde query's](../../media/advanced-hunting-shared-queries.png)
 
 ## <a name="save-modify-and-share-a-query"></a>Een query opslaan, wijzigen en delen
 U kunt een nieuwe of bestaande query opslaan, zodat deze alleen toegankelijk is voor u of wordt gedeeld met andere gebruikers in uw organisatie. 
 
-1. Maak of wijzig een query. 
+1. Een query maken of wijzigen. 
 
-2. Klik op de vervolgkeuzeknop **query opslaan** en selecteer **Opslaan als**.
+2. Klik op **de vervolgkeuzeknop Query** opslaan en selecteer Opslaan **als.**
     
 3. Voer een naam in voor de query. 
 
    ![Afbeelding van het opslaan van een query](../../media/advanced-hunting-save-query.png)
 
 4. Selecteer de map waarin u de query wilt opslaan.
-    - **Gedeelde query's** , gedeeld met alle gebruikers van uw organisatie
-    - **Mijn query's** : alleen toegankelijk voor u
+    - **Gedeelde query's:** gedeeld met alle gebruikers in uw organisatie
+    - **Mijn query's,** die alleen voor u toegankelijk zijn
     
 5. Klik op **Opslaan**. 
 
-## <a name="delete-or-rename-a-query"></a>Een query verwijderen of de naam ervan wijzigen
-1. Klik met de rechtermuisknop op de query waarvan u de naam wilt wijzigen of die u wilt verwijderen.
+## <a name="delete-or-rename-a-query"></a>Een query verwijderen of de naam van een query wijzigen
+1. Klik met de rechtermuisknop op een query die u een andere naam wilt geven of die u wilt verwijderen.
 
     ![Afbeelding van verwijderquery](../../media/advanced_hunting_delete_rename.png)
 
-2. Selecteer **verwijderen** en bevestig de verwijdering. Of selecteer **naam wijzigen** en geef een nieuwe naam voor de query op.
+2. Selecteer **Verwijderen en** bevestig het verwijderen. Of selecteer **Naam wijzigen** en geef een nieuwe naam op voor de query.
 
-## <a name="create-a-direct-link-to-a-query"></a>Een directe koppeling maken naar een query
-Als u een koppeling wilt maken waarmee de query rechtstreeks wordt geopend in de geavanceerde jacht query editor, maakt u de query af en selecteert u **koppeling delen**.
+## <a name="create-a-direct-link-to-a-query"></a>Een directe koppeling naar een query maken
+Als u een koppeling wilt genereren om uw query rechtstreeks in de geavanceerde queryeditor te openen, rondt u de query af en selecteert u **Koppeling delen.**
 
-## <a name="access-queries-in-the-github-repository"></a>Access-query's in de GitHub-bibliotheek  
-Microsoft-beveiligingsonderzoekers delen regelmatig geavanceerde jacht-query's in een [aangewezen openbare opslagplaats op github](https://aka.ms/hunting-queries). Deze bibliotheek is geopend met bijdragen. Als u een bijdrage wilt leveren, kunt u [gratis deelnemen aan github](https://github.com/).
+## <a name="access-queries-in-the-github-repository"></a>Access-query's in de GitHub-opslagplaats  
+Beveiligingsonderzoek van Microsoft deelt regelmatig geavanceerde zoekquery's in een aangewezen [openbare opslagplaats op GitHub.](https://aka.ms/hunting-queries) Deze opslagplaats is toegankelijk voor bijdragen. Als u wilt bijdragen, [kunt u gratis deelnemen aan GitHub.](https://github.com/)
 
 >[!tip]
->Microsoft-beveiligingsonderzoekers leveren ook geavanceerde jacht-query's die u kunt gebruiken om te zoeken naar activiteiten en indicatoren die zijn gekoppeld aan de opkomende bedreigingen. Deze query's worden opgenomen als onderdeel van de [Threat Analytics](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) -rapporten in het Microsoft Defender-Beveiligingscentrum.
+>Microsoft-beveiligingsonderzoek biedt ook geavanceerde zoekquery's die u kunt gebruiken om activiteiten en indicatoren te vinden die zijn gekoppeld aan nieuwe bedreigingen. Deze query's worden geleverd als onderdeel van de [bedreigingsanalyserapporten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) in het Microsoft Defender-beveiligingscentrum.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

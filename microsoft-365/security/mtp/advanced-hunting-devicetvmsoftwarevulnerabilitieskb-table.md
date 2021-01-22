@@ -1,10 +1,10 @@
 ---
-title: DeviceTvmSoftwareVulnerabilitiesKB-tabel in het geavanceerde jacht schema
-description: Meer informatie over de beveiligingsproblemen die worden bijgehouden door risico & het beveiligingsbeheer in de tabel DeviceTvmSoftwareVulnerabilitiesKB van het schema Advanced jacht.
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat-jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema, Reference, kusto, Table, Column, Reference,, Table, Column, datatype, Description, Threat &, software
+title: DeviceTvmSoftwareVulnerabilitiesKB table in the advanced hunting schema
+description: Meer informatie over de door Threat & Vulnerability Management bij te houden beveiligingsproblemen in de tabel DeviceTvmSoftwareVulnerabilitiesKB van het geavanceerde schema voor zoeken.
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema, reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, software, inventory, vulnerabilities, CVE ID, CVSS, DeviceTvmSoftwareVulnerabilitiesKBB
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: f5cbc037dce72979874be6246a24ea3491a90df1
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 00474ac13f88cd9a00ea2ba4a53a6e30ddd664c4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847486"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931048"
 ---
 # <a name="devicetvmsoftwarevulnerabilitieskb"></a>DeviceTvmSoftwareVulnerabilitiesKB
 
@@ -36,20 +37,20 @@ ms.locfileid: "48847486"
 
 
 
-De `DeviceTvmSoftwareVulnerabilitiesKB` tabel in het geavanceerde jacht-schema bevat de lijst met problemen die zich voordoen [& risicobeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) apparatuur beoordeelt. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
+De tabel in het geavanceerde schema voor zoeken bevat de lijst met `DeviceTvmSoftwareVulnerabilitiesKB` [beveiligingsproblemen Bedreiging & Beveiligingsprobleembeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) evalueert apparaten voor. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `CveId` | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het systeem veelvoorkomende problemen en blootstellingen (CVE) |
-| `CvssScore` | tekenreeks | Prioriteitsscore die is toegewezen aan het beveiligingsprobleem onder de informatie over het algemene beveiligingslek (CVSS) |
-| `IsExploitAvailable` | Boolean | Geeft aan of de beschikbare code voor het beveiligingslek openbaar verkrijgbaar is |
-| `VulnerabilitySeverityLevel` | tekenreeks | Prioriteitsniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-Score en dynamische factoren die worden beïnvloed door de bedreigings niveau liggend |
-| `LastModifiedTime` | tijd | De datum en tijd waarop het item of de bijbehorende metagegevens voor het laatst zijn gewijzigd |
-| `PublishedDate` | tijd | De datum waarop het beveiligingslek openbaar is gemaakt |
-| `VulnerabilityDescription` | tekenreeks | Beschrijving van het risico en de gekoppelde Risico's |
-| `AffectedSoftware` | tekenreeks | Lijst van alle softwareproducten die worden beïnvloed door het beveiligingslek |
+| `CveId` | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het cve-systeem (Common Vulnerabilities and Exposures) |
+| `CvssScore` | tekenreeks | De ernstscore die is toegewezen aan het beveiligingsprobleem onder het Common Vulnerability Scoring System (CVSS) |
+| `IsExploitAvailable` | boolean | Hiermee wordt aangegeven of misbruik van code voor het beveiligingsprobleem openbaar beschikbaar is |
+| `VulnerabilitySeverityLevel` | tekenreeks | Niveau van ernst dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingsland |
+| `LastModifiedTime` | datetime | Datum en tijd waarop het item of de gerelateerde metagegevens het laatst zijn gewijzigd |
+| `PublishedDate` | datetime | Datumprobleem is openbaar gemaakt |
+| `VulnerabilityDescription` | tekenreeks | Beschrijving van beveiligingsrisico's en bijbehorende risico's |
+| `AffectedSoftware` | tekenreeks | Lijst met alle softwareproducten die door dit beveiligingsprobleem worden beïnvloed |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -59,4 +60,4 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 - [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
-- [Overzicht van Threat & beveiligingslek](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [Overzicht van risicobeheer & beveiligingsprobleem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

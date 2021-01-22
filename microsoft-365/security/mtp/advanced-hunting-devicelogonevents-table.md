@@ -1,10 +1,10 @@
 ---
-title: DeviceLogonEvents-tabel in het geavanceerde jacht schema
-description: Meer informatie over verificatie-of aanmeld gebeurtenissen in de tabel DeviceLogonEvents van het schema geavanceerde jacht
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, kolom, gegevenstype, beschrijving, logonevents, DeviceLogonEvents, verificatie, aanmelden, aanmelden
+title: Tabel DeviceLogonEvents in het geavanceerde schema voor zoeken
+description: Meer informatie over verificatie of aanmeldingsgebeurtenissen in de tabel DeviceLogonEvents van het geavanceerde schema voor zoeken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, logonevents, DeviceLogonEvents, authentication, signn, sign in
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: acdc9f1e17e163f075616e74fdc4f94865c2f38d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 3a5666cc106365876956c8e313f9cd2f5a996e6f
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842700"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931228"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
@@ -36,48 +37,48 @@ ms.locfileid: "48842700"
 
 
 
-De `DeviceLogonEvents` tabel in het [Geavanceerde bejachts](advanced-hunting-overview.md) schema bevat informatie over gebruikersaanmeldingen en andere verificatiegebeurtenissen op apparaten. Gebruik deze verwijzing voor het maken van query's waarmee informatie uit deze tabel wordt geretourneerd.
+De `DeviceLogonEvents` tabel in het geavanceerde [zoekschema](advanced-hunting-overview.md) bevat informatie over gebruikerslogo's en andere verificatiegebeurtenissen op apparaten. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
-> Voor gedetailleerde informatie over de typen gebeurtenissen ( `ActionType` waarden) die door een tabel worden ondersteund, gebruikt u de [ingebouwde schema verwijzing](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) die beschikbaar is in het Beveiligingscentrum.
+> Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `Timestamp` | tijd | De datum en tijd waarop de gebeurtenis is vastgelegd |
+| `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
 | `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
-| `DeviceName` | tekenreeks | FQDN-naam (Fully Qualified Domain Name) van de computer |
-| `ActionType` | tekenreeks |Type activiteit waarmee de gebeurtenis wordt geactiveerd |
+| `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van de computer |
+| `ActionType` | tekenreeks |Het type activiteit dat de gebeurtenis heeft geactiveerd |
 | `AccountDomain` | tekenreeks | Domein van het account |
 | `AccountName` | tekenreeks | Gebruikersnaam van het account |
-| `AccountSid` | tekenreeks | SID (Security Identifier) van het account |
-| `LogonType` | tekenreeks | Type aanmeldingssessie, met name:<br><br> - **Interactieve** gebruiker werkt fysiek samen met de computer met het lokale toetsenbord en scherm<br><br> - **Externe interactieve (RDP) aanmeldinging** -gebruikers onderlinge interactie met de computer met behulp van extern bureaublad, Terminal Services, hulp op afstand of andere RDP-clients<br><br> - **Netwerk** -sessie gestart wanneer de computer wordt geopend met behulp van PsExec of wanneer gedeelde bronnen op de computer, zoals printers en gedeelde mappen, worden geopend<br><br> - **Batch** -sessie geïnitieerd door geplande taken<br><br> - **Service** -sessie gestart door een service als deze wordt gestart<br> |
-| `LogonId` | tekenreeks | Id van een aanmeldingssessie. Deze id is alleen uniek op dezelfde computer als de computer opnieuw is opgestart |
-| `RemoteDeviceName` | tekenreeks | De naam van de computer die een externe bewerking heeft uitgevoerd op de betreffende computer. Afhankelijk van het item dat u meldt, kan deze naam bestaan uit een FQDN (Fully Qualified Domain Name), een NetBIOS-naam of een host name zonder domeininformatie. |
-| `RemoteIP` | tekenreeks | IP-adres waarop verbinding is gemaakt |
-| `RemoteIPType` | tekenreeks | Type IP-adres, bijvoorbeeld openbaar, privé, gereserveerd, loopback, Teredo, FourToSixMapping en broadcast |
-| `RemotePort` | int | TCP-poort op het externe apparaat waarmee verbinding is gemaakt |
-| `AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrix indeling |
-| `InitiatingProcessAccountDomain` | tekenreeks | Domein van het account dat de verantwoordelijke procedure voor de gebeurtenis heeft uitgevoerd |
-| `InitiatingProcessAccountName` | tekenreeks | Gebruikersnaam van het account dat de door u verantwoordelijke procedure voor de gebeurtenis heeft uitgevoerd |
-| `InitiatingProcessAccountSid` | tekenreeks | SID (Security Identifier) van het account dat het proces dat verantwoordelijk is voor de gebeurtenis heeft uitgevoerd |
-| `InitiatingProcessIntegrityLevel` | tekenreeks | Integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst Integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, zoals wanneer ze zijn gestart vanaf een Internet Download. Voor de Integriteitsniveaus zijn machtigingen voor resources van invloed. |
-| `InitiatingProcessTokenElevation` | tekenreeks | Token type waarmee de aanwezigheids-of afwezigheids verhoging van de bevoegdheden voor gebruikers toegang wordt aangegeven die is uitgevoerd voor het proces waarmee de gebeurtenis wordt gestart |
-| `InitiatingProcessSHA1` | tekenreeks | SHA-1 van het proces (afbeeldingsbestand) waarmee de gebeurtenis wordt gestart |
-| `InitiatingProcessSHA256` | tekenreeks | SHA-256 van het proces (afbeeldingsbestand) waarmee de gebeurtenis wordt gestart. Dit veld wordt meestal niet ingevuld, met de kolom SHA1, indien beschikbaar |
-| `InitiatingProcessMD5` | tekenreeks | MD5-hash van het proces (afbeeldingsbestand) waarmee de gebeurtenis wordt gestart |
+| `AccountSid` | tekenreeks | Security Identifier (SID) van het account |
+| `LogonType` | tekenreeks | Het type aanmeldingssessie, met name:<br><br> - **Interactief:** de gebruiker werkt fysiek met de computer via het lokale toetsenbord en scherm<br><br> - **Externe interactieve aanmeldingsservices (RDP).** Gebruiker werkt op afstand met de computer via Extern bureaublad, Terminalservices, Hulp op afstand of andere RDP-clients<br><br> - **Netwerk:** de sessie wordt gestart wanneer de computer wordt gebruikt met PsExec of wanneer gedeelde bronnen op de computer, zoals printers en gedeelde mappen, worden gebruikt<br><br> - **Batch:** sessie gestart door geplande taken<br><br> - **Service:** een sessie gestart door services terwijl ze beginnen<br> |
+| `LogonId` | tekenreeks | Id voor een aanmeldingssessie. Deze id is alleen uniek op dezelfde computer tussen opnieuw opstarten |
+| `RemoteDeviceName` | tekenreeks | De naam van de computer die een externe bewerking heeft uitgevoerd op de betreffende computer. Afhankelijk van de gebeurtenis die wordt gerapporteerd, kan deze naam een FQDN (Fully Qualified Domain Name), een NetTICAS-naam of een hostnaam zonder domeingegevens zijn. |
+| `RemoteIP` | tekenreeks | IP-adres dat werd gekoppeld aan |
+| `RemoteIPType` | tekenreeks | Type IP-adres, bijvoorbeeld Openbaar, Privé, Gereserveerd, Loopback, Teredo, FourToSixMapping en Broadcast |
+| `RemotePort` | int | TCP-poort op het externe apparaat dat werd verbonden met |
+| `AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
+| `InitiatingProcessAccountDomain` | tekenreeks | Het domein van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `InitiatingProcessAccountName` | tekenreeks | Gebruikersnaam van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `InitiatingProcessAccountSid` | tekenreeks | Security Identifier (SID) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `InitiatingProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus hebben invloed op machtigingen voor resources |
+| `InitiatingProcessTokenElevation` | tekenreeks | Tokentype dat de aanwezigheid of afwezigheid aangeeft van UAC-bevoegdheden (User Access Control) die zijn toegepast op het proces waarmee de gebeurtenis is gestart |
+| `InitiatingProcessSHA1` | tekenreeks | SHA-1 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
+| `InitiatingProcessSHA256` | tekenreeks | SHA-256 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart. Dit veld wordt meestal niet ingevuld. Gebruik de kolom SHA1 indien beschikbaar |
+| `InitiatingProcessMD5` | tekenreeks | MD5-hash van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessFileName` | tekenreeks | Naam van het proces dat de gebeurtenis heeft gestart |
-| `InitiatingProcessId` | int | De proces-ID (PID) van het proces dat de gebeurtenis heeft gestart |
-| `InitiatingProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt om het proces te starten waarmee de gebeurtenis wordt gestart |
-| `InitiatingProcessCreationTime` | tijd | De datum en tijd waarop het proces dat de gebeurtenis heeft gestart, is gestart |
-| `InitiatingProcessFolderPath` | tekenreeks | Map met het proces (afbeeldingsbestand) waarmee de gebeurtenis is gestart |
-| `InitiatingProcessParentId` | int | De proces-ID (PID) van het bovenliggende proces dat de proces verantwoordelijke voor de gebeurtenis heeft veroorzaakt. |
-| `InitiatingProcessParentFileName` | tekenreeks | Naam van het bovenliggende proces dat de proces verantwoordelijke voor de gebeurtenis heeft uitgevoerd |
-| `InitiatingProcessParentCreationTime` | tijd | De datum en tijd waarop de bovenliggende site van het proces dat verantwoordelijk is voor de gebeurtenis, is gestart. |
-| `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de naam van het apparaat en de timestamp-kolommen. |
-| `AppGuardContainerId` | tekenreeks | Id van de gevirtualiseerde container die wordt gebruikt door Application Guard om browser activiteiten te isoleren |
-| `IsLocalAdmin` | Boolean | Booleaanse indicator van het feit of de gebruiker een lokale beheerder is op de computer |
+| `InitiatingProcessId` | int | Proces-id (PID) van het proces dat de gebeurtenis heeft gestart |
+| `InitiatingProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt voor het uitvoeren van het proces waarmee de gebeurtenis is gestart |
+| `InitiatingProcessCreationTime` | datetime | Datum en tijd waarop het proces voor het starten van de gebeurtenis is gestart |
+| `InitiatingProcessFolderPath` | tekenreeks | Map met het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
+| `InitiatingProcessParentId` | int | Proces-id (PID) van het bovenliggende proces dat het proces heeft geleid dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessParentFileName` | tekenreeks | Naam van het bovenliggende proces dat het proces heeft geleid dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessParentCreationTime` | datetime | Datum en tijd waarop de bovenliggende groep die verantwoordelijk is voor de gebeurtenis is gestart |
+| `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen Apparaatnaam en Tijdstempel |
+| `AppGuardContainerId` | tekenreeks | Id voor de gevirtualiseerde container die door Application Guard wordt gebruikt om browseractiviteit te isoleren |
+| `IsLocalAdmin` | boolean | Booleaanse indicator of de gebruiker een lokale beheerder op de computer is |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

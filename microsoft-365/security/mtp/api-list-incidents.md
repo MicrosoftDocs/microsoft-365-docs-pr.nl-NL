@@ -1,9 +1,9 @@
 ---
-title: API voor lijst incidenten in Microsoft 365 Defender
-description: Meer informatie over het opnemen van de API voor incidenten in Microsoft 365 Defender
-keywords: lijst, incident, incidenten, API
+title: Api voor lijstincidenten in Microsoft 365 Defender
+description: Informatie over het op een lijst zetten van incidenten API in Microsoft 365 Defender
+keywords: list, incident, incidents, api
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 13508d3ad9d61797517ccb55a27152883947843a
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 39a170a1845ab33f67d77b2de3d5f298f67fdc99
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719426"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932068"
 ---
-# <a name="list-incidents-api-in-microsoft-365-defender"></a>API voor lijst incidenten in Microsoft 365 Defender
+# <a name="list-incidents-api-in-microsoft-365-defender"></a>Api voor lijstincidenten in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,40 +37,40 @@ ms.locfileid: "49719426"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
+> Sommige informatie heeft betrekking op vooraf uitgebracht product dat aanzienlijk kan worden gewijzigd voordat het in de handel wordt gebracht. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt be gegeven.
 
 
 ## <a name="api-description"></a>API-beschrijving
 
-Met de API List incidents kunt u sorteren op incidenten om een weloverwogen Cyber Security-antwoord te maken. Met deze functie wordt een verzameling incidenten getoond die zijn gemarkeerd in uw netwerk, binnen het opgegeven tijdsbereik in het bewaarbeleid voor de omgeving. De meest recente incidenten worden bovenaan de lijst weergegeven. Elk incident bevat een matrix met gerelateerde waarschuwingen en de gerelateerde entiteiten.
+Met de API voor lijstincidenten kunt u incidenten sorteren om een weloverwogen reactie te krijgen. Er wordt een verzameling incidenten beschreven die in uw netwerk zijn gemarkeerd binnen het tijdsbereik dat u hebt opgegeven in het bewaarbeleid voor omgevingen. De meest recente incidenten worden boven aan de lijst weergegeven. Elk incident bevat een matrix met gerelateerde waarschuwingen en de bijbehorende entiteiten.
 
-De API biedt ondersteuning voor de volgende **OData** -operatoren:
+De API ondersteunt de volgende **OData-operators:**
 
-- `$filter` in het `lastUpdateTime` `createdTime` `status` `assignedTo` dialoogvenster Eigenschappen
-- `$top`met een maximumwaarde van **100**
+- `$filter`in de `lastUpdateTime` `createdTime` eigenschappen , `status` en `assignedTo`
+- `$top`, met een maximumwaarde van **100**
 - `$skip`
 
 ## <a name="limitations"></a>Beperkingen
 
-1. Het maximale paginaformaat is **100 incidenten**.
-2. Het maximale aantal aanvragen is **50 oproepen per minuut** en **1500-oproepen per uur**.
+1. Het maximale paginaformaat is **100 incidenten.**
+2. Het maximale aantal aanvragen is **50 oproepen per minuut** en **1500 oproepen per uur.**
 
 ## <a name="permissions"></a>Machtigingen
 
-U moet een van de volgende machtigingen hebben om deze API te kunnen bellen. Zie voor meer informatie, waaronder de manier waarop u machtigingen kiest, [toegang tot Microsoft 365 Defender-api's](api-access.md)
+Een van de volgende machtigingen is vereist om deze API aan te roepen. Zie [Access Microsoft 365 Defender API's (Access Microsoft 365 Defender-API's)](api-access.md) voor meer informatie, waaronder het kiezen van machtigingen.
 
-Type machtiging | Machtigingsset | Weergavenaam van de machtiging
+Machtigingstype | Machtiging | Weergavenaam van machtiging
 -|-|-
-Toepassing | Incident. Read. all | Alle incidenten lezen
-Toepassing | Incident. ReadWrite. all | Alle incidenten lezen en schrijven
-Gedelegeerd (werk-of schoolaccount) | Incident. Read | Lees incidenten
-Gedelegeerd (werk-of schoolaccount) | Incident. ReadWrite | Lees-en schrijf incidenten
+Toepassing | Incident.Read.All | Alle incidenten lezen
+Toepassing | Incident.ReadWrite.All | Alle incidenten lezen en schrijven
+Gedelegeerd (werk- of schoolaccount) | Incident.Read | Incidenten lezen
+Gedelegeerd (werk- of schoolaccount) | Incident.ReadWrite | Incidenten lezen en schrijven
 
 > [!Note]
-> Bij het verkrijgen van een token met behulp van gebruikersreferenties:
+> Wanneer u een token verkrijgt met behulp van gebruikersreferenties:
 >
-> - De gebruiker moet de machtiging voor weergeven voor incidenten in de portal hebben.
-> - Het antwoord bevat alleen incidenten waaraan de gebruiker is blootgesteld.
+> - De gebruiker moet weergavemachtigingen hebben voor incidenten in de portal.
+> - De reactie omvat alleen incidenten die de gebruiker te zien krijgt.
 
 ## <a name="http-request"></a>HTTP-aanvraag
 
@@ -77,126 +78,126 @@ Gedelegeerd (werk-of schoolaccount) | Incident. ReadWrite | Lees-en schrijf inci
 GET /api/incidents
 ```
 
-## <a name="request-headers"></a>Kopteksten aanvragen
+## <a name="request-headers"></a>Berichtkoppen aanvragen
 
 Naam | Type | Beschrijving
 -|-|-
-Bevoegdheid | Tekenreeks | Bearer {token}. **Vereist**
+Autorisatie | Tekenreeks | Beller {token}. **Vereist**
 
 
-## <a name="request-body"></a>Aanvraagtekst
+## <a name="request-body"></a>Aanvraag in de eerste instantie
 
-Zonder.
+Geen.
 
-## <a name="response"></a>Na
+## <a name="response"></a>Antwoord
 
-Als dit slaagt, retourneert deze methode `200 OK` en een lijst met [incidenten](api-incident.md) in de tekst van het antwoord.
+Als dit is gelukt, worden met deze methode de incidenten in de antwoord zelf `200 OK` weergegeven. [](api-incident.md)
 
-## <a name="schema-mapping"></a>Schema toewijzingen
+## <a name="schema-mapping"></a>Schematoewijzing
 
-### <a name="incident-metadata"></a>Metagegevens van incident
+### <a name="incident-metadata"></a>Metagegevens voor incidenten
 
-Veld naam | Beschrijving | Voorbeeldwaarde
+Veldnaam | Beschrijving | Voorbeeldwaarde
 -|-|-
-incidentId | Unieke id die het incident voorstelt | 924565
-redirectIncidentId | Wordt alleen ingevuld wanneer een incident wordt gegroepeerd met een ander incident, als onderdeel van de logica voor het verwerken van incidenten. | 924569
-voorval | De tekenreekswaarde voor elk incident. | Ransomware-activiteit
-createdTime | Tijdstip waarop het incident voor het eerst is gemaakt. | 2020-09-06T14:46:57.0733333 Z
-lastUpdateTime | De tijd waarop het incident voor het laatst is bijgewerkt op de backend.<br /><br /> Dit veld kan worden gebruikt wanneer u de parameter Request instelt voor het bereik van de tijd waarop incidenten worden opgehaald. | 2020-09-06T14:46:57.29 Z
-ToegewezenAan | Eigenaar van het incident, of *Null* als er geen eigenaar wordt toegewezen. | secop2@contoso.com
-Contactpersoonclassificatie | De specificatie van het incident. De eigenschapwaarden zijn: *onbekend*, *FalsePositive*, *TruePositive* | Unknown
-relevant | Hiermee wordt het bepalen van het incident aangegeven. De eigenschapwaarden zijn: *NotAvailable*, *apt*, *malware*, *SecurityPersonnel*, *SecurityTesting*, *UnwantedSoftware*, *Overig* | NotAvailable
-status | Incidenten categoriseren (als *actief* of *opgelost*). Met deze functie kunt u uw antwoord op incidenten organiseren en beheren. | Actief
-Ernst | Geeft de mogelijke gevolgen voor activa aan. Hoe hoger de ernst, hoe groter de impact. Meestal hebt u de meest directe aandacht nodig voor hogere prioriteits items.<br /><br />Een van de volgende waarden: *informatie*, *laag*, * medium en *hoog*. | Medium
-Tags | Matrix van aangepaste labels die zijn gekoppeld aan een incident, bijvoorbeeld om een groep incidenten met een gemeenschappelijk kenmerk te markeren. | \[\]
-kennisgeving | Matrix met alle waarschuwingen die betrekking hebben op het incident, plus andere informatie, zoals Ernst, entiteiten die betrokken zijn bij de waarschuwing en de bron van de waarschuwingen. | \[\] (Zie Details over waarschuwingsvelden hieronder)
+incidentId | Unieke id die het incident vertegenwoordigt | 924565
+redirectIncidentId | Alleen ingevuld voor het geval een incident wordt gegroepeerd met een ander incident, als onderdeel van de incidentverwerkingslogica. | 924569
+incidentName | De waarde van de tekenreeks die beschikbaar is voor elk incident. | Ransomware-activiteit
+createdTime | Tijdstip waarop het incident voor het eerst is gemaakt. | 2020-09-06T14:46:57.0733333Z
+lastUpdateTime | Het tijdstip waarop het incident voor het laatst is bijgewerkt op de back-back<br /><br /> Dit veld kan worden gebruikt wanneer u de parameter Aanvraag instelt voor het tijdsbereik waarin incidenten worden opgehaald. | 2020-09-06T14:46:57.29Z
+toegewezen Aan | Eigenaar van het incident of *null* als er geen eigenaar is toegewezen. | secop2@contoso.com
+classificatie | De specificatie voor het incident. De eigenschapswaarden *zijn: Onbekend,* *FalsePositive,* *TruePositive* | Unknown
+besluit | Bepaalt de vaststelling van het incident. De eigenschapswaarden zijn: *NotAvailable,* *Apt,* *Malware,* *SecurityPersonnel,* *SecurityTesting,* *UnwantedSoftware,* *Other* | Niet beschikbaar
+status | Incidenten categoriseren (als *Actief* of *Opgelost).* Het kan u helpen uw reacties op incidenten te ordenen en te beheren. | Actief
+ernst | Geeft de mogelijke invloed op activa aan. Hoe hoger de ernst, hoe groter de impact. Items met een hogere ernst vereisen meestal de meest directe aandacht.<br /><br />Een van de volgende waarden: *Informatief,* *Laag,**Normaal en *Hoog.* | Gemiddeld
+tags | Matrix van aangepaste tags die betrekking hebben op een incident, bijvoorbeeld om een groep incidenten met een gemeenschappelijke kenmerken te markeren. | \[\]
+waarschuwingen | Matrix met alle waarschuwingen die betrekking hebben op het incident, plus andere informatie, zoals ernst, entiteiten die zijn betrokken bij de waarschuwing en de bron van de waarschuwingen. | \[\] (zie de details van waarschuwingsvelden hieronder)
 
-### <a name="alerts-metadata"></a>Metagegevens van waarschuwingen
+### <a name="alerts-metadata"></a>Metagegevens waarschuwingen
 
-Veld naam | Beschrijving | Voorbeeldwaarde
+Veldnaam | Beschrijving | Voorbeeldwaarde
 -|-|-
-alertId | Unieke id die de waarschuwing voorstelt | caD70CFEE2-1F54-32DB-9988-3A868A1EBFAC
-incidentId | Unieke id waarmee het incident wordt aangegeven waaraan deze waarschuwing is gekoppeld | 924565
-serviceSource | De service waaruit de melding afkomstig is, zoals Microsoft Defender for Endpoint, Microsoft Cloud app Security, Microsoft Defender for Identity of Microsoft Defender voor Office 365. | MicrosoftCloudAppSecurity
-creationTime | Tijdstip waarop de waarschuwing voor het eerst is gemaakt. | 2020-09-06T14:46:55.7182276 Z
-lastUpdatedTime | Tijdstip waarop de waarschuwing voor het laatst is bijgewerkt op de backend. | 2020-09-06T14:46:57.2433333 Z
-resolvedTime | Tijdstip waarop de waarschuwing is opgelost. | 2020-09-10T05:22:59Z
-firstActivity | Tijd waarop de waarschuwing voor het eerst werd gerapporteerd dat de activiteit op de backend werd bijgewerkt.| 2020-09-04T05:22:59Z
-begin | Kort herkenbare identificatiewaarde voor elke waarschuwing. | Ransomware-activiteit
-beschrijving | De tekenreekswaarde waarmee wordt gewaarschuwd. | De testUser2@contoso.com-bestanden () die zijn 99 bewerkt met een niet-gemeenschappelijke uitbreiding *herunterladen* Dit is een ongebruikelijk aantal bestandsbewerkingen en is een aanwijzing voor een potentiële aanval van Ransomware.
-Categorie | Visuele en numerieke weergave van de hoeveelheid aanval op de Kill-ketting. Uitgelijnd op de [Mitre ATT&a™ Framework](https://attack.mitre.org/). | Gevolg
-status | Waarschuwingen categoriseren (als *Nieuw*, *actief* of *opgelost*) Met deze functie kunt u uw antwoord op waarschuwingen organiseren en beheren. | Nieuw
-Ernst | Geeft de mogelijke gevolgen voor activa aan. Hoe hoger de ernst, hoe groter de impact. Meestal hebt u de meest directe aandacht nodig voor hogere prioriteits items.<br>Een van de volgende waarden: *informatie*, *laag*, * medium en *hoog*. | Medium
-investigationId | De geautomatiseerde onderzoek-ID die door deze melding wordt geactiveerd. | 1234
-investigationState | Informatie over de huidige status van het onderzoek. Een van de volgende waarden: *onbekend*, *beëindigd*, *SuccessfullyRemediated*, *aardige*, *mislukt*, *PartiallyRemediated*, *Running*, *PendingApproval*, *PendingResource*, *PartiallyInvestigated*, *TerminatedByUser*, *TerminatedBySystem*, *Queued*, *InnerFailure*, *PreexistingAlert*, *UnsupportedOs*, *UnsupportedAlertType*, SuppressedAlert *.* | UnsupportedAlertType
-Contactpersoonclassificatie | De specificatie van het incident. De eigenschapwaarden zijn: *onbekend*, *FalsePositive*, *TruePositive* of *Null* | Unknown
-relevant | Hiermee wordt het bepalen van het incident aangegeven. De eigenschapwaarden zijn: *NotAvailable*, *apt*, *malware*, *SecurityPersonnel*, *SecurityTesting*, *UnwantedSoftware*, *other* of  *Null* | Apt
-ToegewezenAan | Eigenaar van het incident, of *Null* als er geen eigenaar wordt toegewezen. | secop2@contoso.com
-actor | De groep activiteit, indien van toepassing, de koppeling met deze waarschuwing. | EQUIVALENT
-threatFamilyName | Bedreigings familie van deze melding. | waarden
-mitreTechniques | De aantastings methoden, zoals afgestemd op de [Mitre ATT&a](https://attack.mitre.org/)™ Framework. | \[\]
-apparaten | Alle apparaten waarop meldingen met betrekking tot het incident zijn verzonden. | \[\] (Zie Details van de onderstaande entiteits velden)
+alertId | Unieke id die de waarschuwing vertegenwoordigt | caD70CFEE2-1F54-32DB-9988-3A868A1EBFAC
+incidentId | Unieke id die het incident vertegenwoordigt dat aan deze waarschuwing is gekoppeld | 924565
+serviceSource | Service waar de waarschuwing van afkomstig is, zoals Microsoft Defender voor eindpunt, Microsoft Cloud App-beveiliging, Microsoft Defender voor identiteit of Microsoft Defender voor Office 365. | MicrosoftCloudAppSecurity
+creationTime | Het tijdstip waarop de waarschuwing voor het eerst is gemaakt. | 2020-09-06T14:46:55.7182276Z
+lastUpdatedTime | Het tijdstip waarop de waarschuwing voor het laatst is bijgewerkt bij de back-back | 2020-09-06T14:46:57.2433333Z
+resolvedTime | Het tijdstip waarop de waarschuwing is opgelost. | 2020-09-10T05:22:59Z
+firstActivity | Het tijdstip waarop de waarschuwing de eerste keer heeft gerapporteerd dat de activiteit is bijgewerkt op de back-back-backend.| 2020-09-04T05:22:59Z
+titel | Kort de waarde die beschikbaar is voor elke waarschuwing. | Ransomware-activiteit
+beschrijving | De waarde van de tekenreeks die elke waarschuwing beschrijft. | De gebruiker test gebruiker2 (testUser2@contoso.com) manipuleerde 99 bestanden met meerdere extensies die eindigt op de ongebruikelijke extensie *herunter laden.* Dit is een ongebruikelijk aantal bestandsmanipulaties en wordt beïnvloed door een mogelijke aanval van ransomware.
+categorie | Visuele en numerieke weergave van hoe ver de aanval is gegaan langs de kill chain. Afgestemd op de [MITRE ATT&CK™ framework.](https://attack.mitre.org/) | Gevolg
+status | Waarschuwingen categoriseren *(als Nieuw,* *Actief* *of Opgelost).* Het kan u helpen bij het organiseren en beheren van uw reactie op waarschuwingen. | Nieuw
+ernst | Geeft de mogelijke invloed op activa aan. Hoe hoger de ernst, hoe groter de impact. Items met een hogere ernst vereisen meestal de meest directe aandacht.<br>Een van de volgende waarden: *Informatief,* *Laag,**Normaal en *Hoog.* | Gemiddeld
+investigationId | De automatische onderzoeks-id die is geactiveerd door deze waarschuwing. | 1234
+investigationState | Informatie over de huidige status van het onderzoek. Een van de volgende waarden: *Unknown,* *Terminated*, *SuccessfullyRemediated,* *Benign,* *Failed,* *PartiallyRemediated,* *Running*, *PendingApproval,* *PendingResource,* *PartiallyInvestigated*, *TerminatedByUser*, *TerminatedBySystem*, *Queued*, *InnerFailure*, *PreexistingAlert*, *UnsupportedOs*, *UnsupportedAlertType*, *SuppressedAlert*. | UnsupportedAlertType
+classificatie | De specificatie voor het incident. De eigenschapswaarden *zijn: Onbekend,* *FalsePositive,* *TruePositive* of *null* | Unknown
+besluit | Bepaalt de vaststelling van het incident. De eigenschapswaarden zijn: *NotAvailable,* *Apt,* *Malware,* *SecurityPersonnel,* *SecurityTesting,* *UnwantedSoftware,* *Other* of  *null* | Pt
+toegewezen Aan | Eigenaar van het incident of *null* als er geen eigenaar is toegewezen. | secop2@contoso.com
+actorName | De activiteitengroep, indien van gebruik, die is gekoppeld aan deze waarschuwing. | BORON
+threatFamilyName | Bedreigingsfamilie gekoppeld aan deze waarschuwing. | null
+mitreTechniques | De technieken voor aanvallen, die zijn uitgelijnd met de [MITRE ATT&CK](https://attack.mitre.org/)™ framework. | \[\]
+apparaten | Alle apparaten waarop waarschuwingen met betrekking tot het incident zijn verzonden. | \[\] (zie de details van entiteitsvelden hieronder)
 
-### <a name="device-format"></a>Indeling van apparaat
+### <a name="device-format"></a>Apparaatindeling
 
-Veld naam | Beschrijving | Voorbeeldwaarde
+Veldnaam | Beschrijving | Voorbeeldwaarde
 -|-|-
-DeviceId | De apparaat-ID zoals aangegeven in Microsoft Defender ATP. | 24c222b0b60fe148eeece49ac83910cc6a7ef491
-aadDeviceId |  De apparaat-ID zoals aangegeven in [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis). Alleen beschikbaar voor apparaten die lid zijn van een domein. | waarden
-deviceDnsName | De FQDN-naam (Fully Qualified Domain Name) voor het apparaat. | user5cx.middleeast.corp.contoso.com
-osPlatform | Het OS-platform waarop het apparaat wordt uitgevoerd.| WindowsServer2016
-osBuild | De build-versie van het besturingssysteem dat het apparaat uitvoert. | 14393
-rbacGroupName | De groep [toegangsbeheer op basis van rollen](https://docs.microsoft.com/azure/role-based-access-control/overview) die is gekoppeld aan het apparaat. | WDATP-Ring0
-firstSeen | Tijdstip waarop apparaat voor het eerst werd gezien. | 2020-02-06T14:16:01.9330135 Z
-healthStatus | De status van het apparaat. | Actief
+DeviceId | De apparaat-id zoals aangegeven in Microsoft Defender ATP. | 24c222b0b60fe148eeece49ac83910cc6a7ef491
+aadDeviceId |  De apparaat-id zoals aangegeven in [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) Alleen beschikbaar voor apparaten die lid zijn van een domein. | null
+deviceDnsName | De volledig gekwalificeerde domeinnaam voor het apparaat. | user5cx.middleeast.corp.contoso.com
+osPlatform | Het besturingssysteemplatform waarop het apparaat wordt uitgevoerd.| WindowsServer2016
+osBuild | De buildversie van het besturingssysteem dat op het apparaat wordt uitgevoerd. | 14393
+rbacGroupName | De [groep toegangsbeheer](https://docs.microsoft.com/azure/role-based-access-control/overview) op basis van rollen die aan het apparaat is gekoppeld. | WDATP-Ring0
+firstSeen | Het tijdstip waarop het apparaat voor het eerst werd gezien. | 2020-02-06T14:16:01.9330135Z
+statusstatus | De status van het apparaat. | Actief
 riskScore | De risicoscore voor het apparaat. | Hoog
-onderzoeksinstellingen | Alle entiteiten die zijn geïdentificeerd om deel te nemen aan, of gerelateerd zijn aan een bepaalde melding. | \[\] (Zie Details van de onderstaande entiteits velden)
+entiteiten | Alle entiteiten die zijn geïdentificeerd als onderdeel van, of gerelateerd aan, een bepaalde waarschuwing. | \[\] (zie de details van entiteitsvelden hieronder)
 
-### <a name="entity-format"></a>Entiteits indeling
+### <a name="entity-format"></a>Entiteitsindeling
 
-Veld naam | Beschrijving | Voorbeeldwaarde
+Veldnaam | Beschrijving | Voorbeeldwaarde
 -|-|-
-entityType | Entiteiten die zijn geïdentificeerd om deel te nemen aan een bepaalde melding, of betrekking hebben op een bepaalde melding.<br>De eigenschappen waarden zijn: *gebruiker*, *IP*, *URL*, *bestand*, *proces*, *Postvak*, *e-mailbericht, e-mail* *cluster*, *register* | Gebruiker
-SHA1 | Beschikbaar als entityType een *bestand* is.<br>De bestands-hash voor waarschuwingen die zijn gekoppeld aan een bestand of proces. | 5de839186691aa96ee2ca6d74f0a38fb8d1bd6dd
-sha256 | Beschikbaar als entityType een *bestand* is.<br>De bestands-hash voor waarschuwingen die zijn gekoppeld aan een bestand of proces. | 28cb017dfc99073aa1b47c1b30f413e3ce774c4991eb4158de50f9dbb36d8043
-Namen | Beschikbaar als entityType een *bestand* is.<br>De bestandsnaam van waarschuwingen die zijn gekoppeld aan een bestand of proces | Detector.UnitTests.dll
-Bestandspad | Beschikbaar als entityType een *bestand* is.<br>Het bestandspad voor waarschuwingen die zijn gekoppeld aan een bestand of proces | C: \\ \ agent_work_temp \deploy\system\2020-09-06 12_14_54 \ out
-Proces | Beschikbaar als entityType *proces* is. | 24348
-processCommandLine | Beschikbaar als entityType *proces* is. | ' Het bestand kan worden gedownload \_1911150169.exe '
-processCreationTime | Beschikbaar als entityType *proces* is. | 2020-7-18T03:25:38.5269993 Z
-parentProcessId | Beschikbaar als entityType *proces* is. | 16840
-parentProcessCreationTime | Beschikbaar als entityType *proces* is. | 2020-7-18T02:12:32.8616797 Z
-Adressen | Beschikbaar als entityType een *IP-adres* is. <br>IP-adres voor waarschuwingen die zijn gekoppeld aan netwerkgebeurtenissen, zoals *communicatie met een kwaadaardige bestemming*. | 62.216.203.204
-URL | Beschikbaar als entityType de *URL* is. <br>URL voor meldingen die zijn gekoppeld aan netwerkgebeurtenissen, zoals *communicatie met een kwaadaardige bestemming*. | down.esales360.cn
-accountName | Beschikbaar als entityType een *gebruiker* is. | testUser2
-Domeinnaam | Beschikbaar als entityType een *gebruiker* is. | Europe. Corp. contoso
-userSid | Beschikbaar als entityType een *gebruiker* is. | S-1-5-21-1721254763-462695806-1538882281-4156657
-aadUserId | Beschikbaar als entityType een *gebruiker* is. | fc8f7484-f813-4db2-afab-bc1507913fb6
-userPrincipalName | Beschikbaar als entityType de e-mail van het postvak van een *gebruiker* is /  / . | testUser2@contoso.com
-mailboxDisplayName | Beschikbaar als entityType het *Postvak* is. | opmonsterset
-mailboxAddress | Beschikbaar als entityType de e-mail van het postvak van een *gebruiker* is /  / . | testUser2@contoso.com
-clusterBy | Beschikbaar als entityType een  *mailcluster* is. | Onderwerp P2SenderDomain; Invoer
-weet | Beschikbaar als entityType de e-mail van het postvak van een *gebruiker* is /  / . | user.abc@mail.contoso.co.in
-faxontvanger | Beschikbaar als entityType een *e-mailbericht* is. | testUser2@contoso.com
-Onderwerp | Beschikbaar als entityType een *e-mailbericht* is. | \[EXTERNE \] aandacht
-deliveryAction | Beschikbaar als entityType een *e-mailbericht* is. | Aflevering
-securityGroupId | Beschikbaar als entityType  *SecurityGroup* is. | 301c47c8-e15f-4059-AB09-e2ba9ffd372b
-securityGroupName | Beschikbaar als entityType  *SecurityGroup* is. | Netwerkconfiguratieoperators
-registryHive | Beschikbaar als entityType de  *registersleutel* is. | \_lokale \_ machine van HKEY |
-registryKey | Beschikbaar als entityType de  *registersleutel* is. | SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-registryValueType | Beschikbaar als entityType de  *registersleutel* is. | Tekenreeks
-registryValue | Beschikbaar als entityType de  *registersleutel* is. | 31-00-00-00
-deviceId | De ID, indien van toepassing, van het apparaat dat is gekoppeld aan de entiteit. | 986e5df8b73dacd43c8917d17e523e76b13c75cd
+entityType | Entiteiten die zijn geïdentificeerd als onderdeel van of gerelateerd aan een bepaalde waarschuwing.<br>De eigenschappenwaarden zijn: *Gebruiker*, *IP*, *URL*, *Bestand*, *Proces*, *MailBox*, *MailMessage*, *MailCluster*, *Registry* | Gebruiker
+sha1 | Beschikbaar als entityType *Bestand* is.<br>De bestandshash voor waarschuwingen die zijn gekoppeld aan een bestand of proces. | 5de839186691aa96ee2ca6d74f0a38fb8d1bd6dd
+sha256 | Beschikbaar als entityType *Bestand* is.<br>De bestandshash voor waarschuwingen die zijn gekoppeld aan een bestand of proces. | 28cb017dfc99073aa1b47c1b30f413e3ce774c4991eb4158de50f9dbb36d8043
+fileName | Beschikbaar als entityType *Bestand* is.<br>De bestandsnaam voor waarschuwingen die zijn gekoppeld aan een bestand of proces | Detector.UnitTests.dll
+filePath | Beschikbaar als entityType *Bestand* is.<br>Het bestandspad voor waarschuwingen die aan een bestand of proces zijn gekoppeld | C: \\ \agent_work_temp\Deploy\SYSTEM\2020-09-06 12_14_54\Out
+processId | Beschikbaar als entityType *Process* is. | 24348
+processCommandLine | Beschikbaar als entityType *Process* is. | "Your File is ready to Download \_1911150169.exe"
+processCreationTime | Beschikbaar als entityType *Process* is. | 2020-07-18T03:25:38.5269993Z
+parentProcessId | Beschikbaar als entityType *Process* is. | 16840
+parentProcessCreationTime | Beschikbaar als entityType *Process* is. | 2020-07-18T02:12:32.8616797Z
+ipAddress | Beschikbaar als entityType *Ip* is. <br>HET IP-adres voor waarschuwingen die zijn gekoppeld aan netwerkgebeurtenissen, zoals Communicatie *met een schadelijk netwerkdoel.* | 62.216.203.204
+url | Beschikbaar als entityType *URL* is. <br>Url voor waarschuwingen die zijn gekoppeld aan netwerkgebeurtenissen, zoals Communicatie *met een schadelijk netwerkdoel.* | down.esales360.cn
+accountName | Beschikbaar als entityType *Gebruiker* is. | testUser2
+domainName | Beschikbaar als entityType *Gebruiker* is. | europe.corp.contoso
+userSid | Beschikbaar als entityType *Gebruiker* is. | S-1-5-21-1721254763-462695806-1538882281-4156657
+aadUserId | Beschikbaar als entityType *Gebruiker* is. | fc8f7484-f813-4db2-afab-bc1507913fb6
+userPrincipalName | Beschikbaar als entityType *User* / *MailBox* / *MailMessage is.* | testUser2@contoso.com
+mailboxDisplayName | Beschikbaar als entityType *MailBox* is. | gebruiker2 testen
+mailboxAddress | Beschikbaar als entityType *User* / *MailBox* / *MailMessage is.* | testUser2@contoso.com
+clusterBy | Beschikbaar als entityType  *MailCluster* is. | Onderwerp; P2SenderDomain; ContentType
+afzender | Beschikbaar als entityType *User* / *MailBox* / *MailMessage is.* | user.abc@mail.contoso.co.in
+geadresseerde | Beschikbaar als entityType *MailMessage* is. | testUser2@contoso.com
+Onderwerp | Beschikbaar als entityType *MailMessage* is. | \[EXTERNE \] aandacht
+deliveryAction | Beschikbaar als entityType *MailMessage* is. | Geleverd
+securityGroupId | Beschikbaar als entityType  *SecurityGroup* is. | 301c47c8-e15f-4059-ab09-e2ba9ffd372b
+securityGroupName | Beschikbaar als entityType  *SecurityGroup* is. | Netwerkconfiguratieoperatoren
+registryHive | Beschikbaar als entityType het  *register* is. | LOKALE \_ \_ HKEY-COMPUTER |
+registryKey | Beschikbaar als entityType het  *register* is. | SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+registryValueType | Beschikbaar als entityType het  *register* is. | Tekenreeks
+registryValue | Beschikbaar als entityType het  *register* is. | 31-00-00-00
+deviceId | De id van het apparaat dat is gerelateerd aan de entiteit. | 986e5df8b73dacd43c8917d17e523e76b13c75cd
 
 ## <a name="example"></a>Voorbeeld
 
-**Webonderdeelverzoek**
+**Aanvraag**
 
 ```HTTP
 GET https://api.security.microsoft.com/api/incidents
 ```
 
-**Na**
+**Antwoord**
 
 ```json
 {
@@ -713,9 +714,9 @@ GET https://api.security.microsoft.com/api/incidents
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Toegang tot de Microsoft 365 Defender-Api's](api-access.md)
+- [Toegang tot de Microsoft 365 Defender-API's](api-access.md)
 - [Meer informatie over API-limieten en licenties](api-terms.md)
-- [Meer informatie over foutcodes](api-error-codes.md)
+- [Meer te weten komen over foutcodes](api-error-codes.md)
 - [Overzicht van incidenten](incidents-overview.md)
 - [API's voor incidenten](api-incident.md)
-- [Update incident-API](api-update-incidents.md)
+- [Update-incident-API](api-update-incidents.md)

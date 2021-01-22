@@ -1,10 +1,10 @@
 ---
-title: DeviceTvmSecureConfigurationAssessmentKB-tabel in het geavanceerde jacht schema
-description: Meer informatie over de diverse beveiligde configuraties die zijn goedgekeurd door risico & in de tabel DeviceTvmSecureConfigurationAssessmentKB van het schema geavanceerde jacht.
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema verwijzing, kusto, Table, Column, datatype, Description &, beveiliging, beveiliging, MITRE ATT&verzwakken, Knowledge Base, KB, DeviceTvmSecureConfigurationAssessmentKB
+title: DeviceTvmSecureConfigurationAssessmentKB in het geavanceerde schema voor zoeken
+description: Meer informatie over de verschillende veilige configuraties die zijn geëvalueerd op basis van Bedreiging & Beveiligingsprobleembeheer in de tabel DeviceTvmSecureConfigurationAssessmentKB van het geavanceerde zoekschema.
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, security configuration, MITRE ATT&CK framework, Knowledge Base, KB, DeviceTvmSecureConfigurationAssessmentKB
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6186bd37735b5225fd33905395055228972fc27c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 4cd23b8f3ba99b38264b9bf1ba18e8ec2574bab6
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847582"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931060"
 ---
 # <a name="devicetvmsecureconfigurationassessmentkb"></a>DeviceTvmSecureConfigurationAssessmentKB
 
@@ -36,22 +37,22 @@ ms.locfileid: "48847582"
 
 
 
-De `DeviceTvmSecureConfigurationAssessmentKB` tabel in het geavanceerde jacht-schema bevat informatie over de verschillende veilige configuraties, zoals het feit of een apparaat automatische updates bevat, gecontroleerd op [bedreiging & beveiligingsbeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt). Dit omvat ook risico informatie, verwante branche benchmarks en toepasselijke MITRE ATT&e technieken en tactieken. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
+De tabel in het geavanceerde schema voor zoeken bevat informatie over de verschillende veilige configuraties (zoals of op een apparaat automatische updates zijn ingeschakeld) die zijn ingeschakeld door `DeviceTvmSecureConfigurationAssessmentKB` [Threat & Vulnerability Management.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Het omvat ook risicogegevens, gerelateerde industriebe benchmarks en toepasselijke MITRE ATT&CK-technieken en -technieken. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `ConfigurationId` | tekenreeks | Unieke id voor een specifieke configuratie |
-| `ConfigurationImpact` | tekenreeks | Geclassificeerde impact van de configuratie voor de totale configuratie Score (1-10) |
-| `ConfigurationName` | tekenreeks | Naam van de configuratie weergeven |
+| `ConfigurationImpact` | tekenreeks | Beoordeelde invloed van de configuratie op de totale configuratiescore (1-10) |
+| `ConfigurationName` | tekenreeks | Weergavenaam van de configuratie |
 | `ConfigurationDescription` | tekenreeks | Beschrijving van de configuratie |
 | `RiskDescription` | tekenreeks | Beschrijving van het bijbehorende risico |
-| `ConfigurationCategory` | tekenreeks | Categorie of groepering waartoe de configuratie behoort: toepassing, besturingssysteem, netwerk, accounts, beveiliging besturingselement|
-| `ConfigurationSubcategory` | tekenreeks |Subcategorie of subgroep waartoe de configuratie behoort. In veel gevallen bevat dit een beschrijving van specifieke functies of functies. |
-| `ConfigurationBenchmarks` | tekenreeks | Lijst met onderliggend verzekeringen met dezelfde of dezelfde configuratie |
-| `RelatedMitreTechniques` | tekenreeks | Lijst met Mitre ATT&e Framework-technieken met betrekking tot de configuratie |
-| `RelatedMitreTactics ` | tekenreeks | Lijst met Mitre ATT&e Framework tactiek met betrekking tot de configuratie |
+| `ConfigurationCategory` | tekenreeks | Tot welke categorie of groepering de configuratie behoort: Toepassing, besturingssysteem, netwerk, accounts, beveiligingsbesturingselementen|
+| `ConfigurationSubcategory` | tekenreeks |Subcategorie of subgroepering tot welke de configuratie behoort. In veel gevallen wordt hier specifieke functionaliteit of functies beschreven. |
+| `ConfigurationBenchmarks` | tekenreeks | Lijst met industriebe benchmarks die dezelfde of vergelijkbare configuratie aanbevelen |
+| `RelatedMitreTechniques` | tekenreeks | Lijst met mitre ATT-&CK-frameworktechnieken met betrekking tot de configuratie |
+| `RelatedMitreTactics ` | tekenreeks | Lijst met mitre ATT-&CK-frameworktactiek met betrekking tot de configuratie |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -61,4 +62,4 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 - [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
-- [Overzicht van Threat & beveiligingslek](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [Overzicht van risicobeheer & beveiligingsprobleem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

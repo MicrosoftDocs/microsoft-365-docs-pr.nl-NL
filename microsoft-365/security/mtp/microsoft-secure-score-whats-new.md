@@ -1,8 +1,8 @@
 ---
 title: Nieuw in Microsoft Secure Score
-description: Beschrijft welke nieuwe wijzigingen zijn doorgevoerd in Microsoft Secure Score in het Microsoft 365-Beveiligingscentrum.
-keywords: Microsoft Secure Score, Secure Score, Office 365 Secure Score, Microsoft Security Score, Microsoft 365 Security Center
-ms.prod: microsoft-365-enterprise
+description: Hier wordt beschreven welke nieuwe wijzigingen zijn aangebracht in Microsoft Secure Score in het Microsoft 365-beveiligingscentrum.
+keywords: microsoft secure score, secure score, office 365 secure score, microsoft-beveiligingsscore, microsoft 365-beveiligingscentrum
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -20,84 +20,91 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 61ac8c627dd701ac354a5d60d4774a6443b4d41e
-ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
+ms.technology: m365d
+ms.openlocfilehash: 039ec1c3f9b0ba233f950d11b9d58be341b28121
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "49737985"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930592"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Als u Microsoft Secure Score een betere vertegenwoordiger van uw beveiligings Posture wilt maken, hebben we enkele wijzigingen aangebracht. Zie voor meer informatie over geplande wijzigingen wat er wordt weergegeven [in Microsoft Secure Score?](microsoft-secure-score-whats-coming.md)
+Om Microsoft Secure Score een beter beeld te geven van uw beveiligingsrisico, hebben we enkele wijzigingen aangebracht. Als u meer wilt weten over geplande wijzigingen, bekijkt u de nieuwe [Microsoft Secure Score.](microsoft-secure-score-whats-coming.md)
 
-Secure Score Microsoft is te vinden https://security.microsoft.com/securescore in het [microsoft 365-Beveiligingscentrum](overview-security-center.md).
+U vindt Microsoft Secure Score https://security.microsoft.com/securescore in het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)
+
+## <a name="january-2021"></a>Januari 2021
+
+### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>We hebben onze eerste beveiligingsaanbeveling voor Microsoft Teams toegevoegd
+
+Klanten van Microsoft Teams zien 'Anonieme gebruikers beperken voor deelname aan vergaderingen' als een nieuwe actie voor verbetering in Secure Score.
 
 ## <a name="december-2020"></a>December 2020
 
-### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>U hebt zes extra uitbreidingen voor kwaliteits verbeteringen toegevoegd voor Microsoft Defender voor eindpunten (voorheen Microsoft Defender ATP):
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Er zijn zes acties toegevoegd voor het verbeteren van accounts voor Microsoft Defender voor eindpunt (voorheen Microsoft Defender ATP):
 
-- De minimum lengte van een wachtwoord instellen op veertien of meer tekens
-- ' Wachtwoordgeschiedenis afdwingen ' instellen op een of meer wachtwoorden
-- Stel ' Maximale wachtwoordduur ' in ' 60 of minder dagen, maar niet 0 '
-- Stel ' minimale wachtwoordduur ' in op ' 1 of meer dag (en) '
-- Het ingebouwde beheerdersaccount uitschakelen
-- Het ingebouwde gastaccount uitschakelen
+- Stel 'Minimale wachtwoordlengte' in op '14 of meer tekens'
+- Wachtwoordgeschiedenis afdwingen instellen op 24 of meer wachtwoorden
+- Stel 'Maximale wachtwoordleeftijd' in op '60 of minder dagen, maar niet 0'
+- Stel Minimale wachtwoordleeftijd in op '1 of meer dag(en)'
+- Het ingebouwde Administrator-account uitschakelen
+- Het ingebouwde Gastaccount uitschakelen
 
 ## <a name="november-2020"></a>November 2020
 
-### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>De mogelijkheid om ServiceNow tickets te maken is verwijderd via een beveiligde Score 
+### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>De mogelijkheid verwijderd om ServiceNow-tickets te maken via Secure Score 
 
-De mogelijkheid om ServiceNow-tickets te creëren via een veilige Score via **delen > ServiceNow** is niet langer beschikbaar. Bedankt voor uw feedback en voortdurende ondersteuning terwijl we volgende stappen bepalen.
+De mogelijkheid om ServiceNow-tickets te maken via Secure Score door naar **Delen > ServiceNow** is niet meer beschikbaar. Bedankt voor uw feedback en verdere ondersteuning bij het bepalen van de volgende stappen.
 
-### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Er zijn drie extra uitbreidingen voor kwaliteitsverbetering voor Microsoft Defender voor eindpunten (voorheen Microsoft Defender ATP):
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Er zijn drie acties voor kwaliteitsverbetering voor Microsoft Defender voor eindpunt toegevoegd (voorheen Microsoft Defender ATP):
 
-- Het service traject voor niet-geciteerde Windows-Services oplossen
-- Het uitvoerbare pad van de service wijzigen in een bekende beveiligde locatie
-- Serviceaccount wijzigen om het wachtwoord in de cache te vermijden in het Windows-register
+- Niet-aaneengeageerd servicepad voor Windows-services herstellen
+- Uitvoerbaar pad van de service wijzigen naar een gemeenschappelijke beveiligde locatie
+- Serviceaccount wijzigen om te voorkomen dat het wachtwoord in de cache wordt opgeslagen in het Windows-register
 
 ## <a name="october-2020"></a>Oktober 2020
 
 ### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Actie voor verbetering van Microsoft Defender voor eindpunt verwijderen
 
-- Microsoft Windows Store voor de Windows Store-app voor Windows Store voor de spellingcontrole instellen op waarschuwen
+- Webinhoud controleren op Microsoft Defender SmartScreen-app instellen om te waarschuwen
 
 ## <a name="august-2020"></a>Augustus 2020
 
-### <a name="updated-improvement-action-for-azure-active-directory"></a>Actie voor verbetering van Azure Active Directory
+### <a name="updated-improvement-action-for-azure-active-directory"></a>Actie voor verbetering van Azure Active Directory bijgewerkt
 
-- Beleid inschakelen voor het blokkeren van oudere verificatie
+- Beleid inschakelen om verouderde verificatie te blokkeren
 
-## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Incompatibiliteit met identificatie beveiligings Score en Graph-API
+## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Incompatibiliteit met Identity Secure Score en Graph API
 
-In de recente versie van Microsoft Secure Score is een verbeterd score model uitgebracht. Met deze wijzigingen kunt u een flexibele en nauwkeurige weergave van uw beveiligings posture. Deze updates hebben echter de Microsoft Secure Score tijdelijk niet compatibel gemaakt met identiteitsbeveiliging en de Graph API.
+In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht. Deze wijzigingen zorgen voor een flexibelere en nauwkeurige weergave van uw beveiligingsrisico. Dankzij deze updates is Microsoft Secure Score echter tijdelijk niet compatibel met Identity Secure Score en de Graph API.
 
-In tijd wordt de identiteitsbeveiliging Score en de Graph API het nieuwe score model. Vervolgens zien klanten verschillen in de scores die zijn gerapporteerd door Microsoft Secure Score, Identity Secure Score en Graph API. Onze excuses voor het ongemak, en werken om ervoor te zorgen dat deze functies in de toekomst verder compatibel zijn.
+Na een tijd nemen Identity Secure Score en de Graph API het nieuwe scoremodel over. Tot die tijd zien klanten verschillen in de scores die zijn gerapporteerd door Microsoft Secure Score, Identity Secure Score en de Graph API. Onze excuses voor het ongemak, en we zorgen ervoor dat deze ervaringen in de toekomst compatibeler zijn.
 
-## <a name="updated-improvement-actions"></a>Gewijzigde acties voor verbetering
+## <a name="updated-improvement-actions"></a>Bijgewerkte acties voor kwaliteitsverbetering
 
-- Azure Active Directory-verbeterings acties toegevoegd
-- Microsoft Defender heeft toegevoegd voor Identity-verbeterings acties
-- Ondersteuning voor Microsoft Defender voor de [bedreiging &](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) beveiligingsaanbevelingen
-    - Alle vrijgegeven beveiligingsaanbevelingen van TVM zijn nu beschikbaar
+- Acties voor verbetering van Azure Active Directory toegevoegd
+- Acties voor verbetering van de identiteit van Microsoft Defender toegevoegd
+- Ondersteuning voor Microsoft Defender for Endpoint [Threat & beveiligingsaanbevelingen voor](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) beveiligingsrisicobeheer
+    - Alle uitgebrachte beveiligingsaanbevelingen die door TVM worden geleverd, zijn nu beschikbaar
 
 ## <a name="updated-interface-and-functionality"></a>Bijgewerkte interface en functionaliteit
 
-* Alle nieuwe metrische en trends weergaven voor discussies voor CISO en potentiële klanten
-* Nieuwe manieren om uw score bij te houden en te verenigen
-* Betere tracking en uitleg voor Score regressies
-* De acties voor verbetering filteren, markeren, zoeken en groeperen
-* Uw toekomstige doelen beheren met behulp van Score projecties en geplande acties
-* En nog veel meer.
+* Alle nieuwe meetwaarden en trendsweergaven voor discussies op het SO en het niveau van het leiden
+* Nieuwe manieren om uw score bij te houden en te vergelijken
+* Beter bijhouden en begrijpen van score regressies
+* Acties voor kwaliteitsverbetering filteren, taggen, zoeken en groeperen
+* Beheer uw toekomstige doelstellingen met behulp van scoreprojecties en geplande acties
+* En meer!
 
 ## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
-Als u problemen ondervindt, kunt u het ons laten weten dat u de community [beveiliging, Privacy & naleving](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . We volgen de community en bieden hulp.
+Als u problemen hebt, laat het ons dan weten door berichten te plaatsen in de community [over beveiliging, & compliance.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) We houden de community in de gaten en bieden hulp.
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 
 - [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
-- [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
+- [Uw geschiedenis van Microsoft Secure Score bijhouden en doelstellingen behalen](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)

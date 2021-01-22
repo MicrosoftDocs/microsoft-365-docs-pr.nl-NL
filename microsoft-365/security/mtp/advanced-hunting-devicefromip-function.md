@@ -1,10 +1,10 @@
 ---
-title: DeviceFromIP (), functie in geavanceerde jacht voor Microsoft 365 Defender
-description: Meer informatie over het gebruik van de functie DeviceFromIP () om de apparaten te krijgen aan wie een specifiek IP-adres is toegewezen
-keywords: geavanceerde jacht, Threat jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, devicefromIP,, functie, verrijking
+title: DeviceFromIP() functie in geavanceerd zoeken naar Microsoft 365 Defender
+description: Informatie over het gebruik van de functie DeviceFromIP() om de apparaten te krijgen aan welke een specifiek IP-adres is toegewezen
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, device, devicefromIP, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 65409dd93f3703f1af115178c4cd9fa470fb7497
-ms.sourcegitcommit: 25ac2736a66bb72c0d574c3fbde7472ac98d5321
+ms.technology: m365d
+ms.openlocfilehash: 86373c903252fde4ab71c80a81404428a7366da7
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "49741106"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931300"
 ---
 # <a name="devicefromip"></a>DeviceFromIP()
 
@@ -38,14 +39,14 @@ ms.locfileid: "49741106"
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 
-Gebruik de `DeviceFromIP()` functie in uw [geavanceerde jacht](advanced-hunting-overview.md) -query's om snel de lijst te verkrijgen met apparaten die op een bepaald moment aan een bepaald IP-adres zijn toegewezen. 
+Gebruik de functie in uw geavanceerde zoekquery's om snel een lijst te verkrijgen met apparaten die op een bepaald moment aan een bepaald `DeviceFromIP()` IP-adres [](advanced-hunting-overview.md) zijn toegewezen. 
 
 Deze functie retourneert een tabel met de volgende kolommen:
 
 | Kolom | Gegevenstype | Beschrijving |
 |------------|-------------|-------------|
 | `IP` | tekenreeks | IP-adres  |
-| `DeviceId` | tekenreeks | Unieke id van het apparaat in de service |
+| `DeviceId` | tekenreeks | Unieke id voor het apparaat in de service |
 
 
 ## <a name="syntax"></a>Syntaxis
@@ -56,15 +57,15 @@ invoke DeviceFromIP()
 
 ## <a name="arguments"></a>Argumenten
 
-Deze functie wordt geactiveerd als onderdeel van een query.
+Deze functie wordt aangeroepen als onderdeel van een query.
 
-- **x**— de eerste parameter is meestal al een kolom in de query. Dit is de kolom genaamd `IP` , het IP-adres waarvan u een lijst wilt weergeven met apparaten die aan de lijst zijn toegewezen. Dit moet een lokaal IP-adres zijn. Externe IP-adressen worden niet ondersteund.
-- **y**: een tweede optionele parameter is de `Timestamp` functie, die de functie vraagt om de nieuwste, toegewezen apparaten uit een bepaalde tijd te verkrijgen. Als dit niet wordt opgegeven, geeft de functie de laatste beschikbare records als resultaat.
+- **x:** de eerste parameter is meestal al een kolom in de query. In dit geval is het de kolom met de naam , het IP-adres waarvoor u een lijst wilt zien met apparaten `IP` die aan het adres zijn toegewezen. Het moet een lokaal IP-adres zijn. Externe IP-adressen worden niet ondersteund.
+- **y:** een tweede optionele parameter is de , die de functie opdracht geeft om de meest recente toegewezen apparaten op `Timestamp` een bepaald moment op te halen. Als deze niet is opgegeven, worden met de functie de laatst beschikbare records als retourneert.
 
 ## <a name="example"></a>Voorbeeld
 
 
-### <a name="get-the-latest-devices-that-have-been-assigned-specific-ip-addresses"></a>Schaf de nieuwste apparaten aan waaraan specifiek IP-adressen zijn toegewezen.
+### <a name="get-the-latest-devices-that-have-been-assigned-specific-ip-addresses"></a>Haal de meest recente apparaten op die specifieke IP-adressen hebben gekregen
 
 ```kusto
 DeviceNetworkEvents 

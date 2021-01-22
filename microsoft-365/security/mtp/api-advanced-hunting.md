@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365 Defender Advanced jacht API
-description: Meer informatie over het uitvoeren van geavanceerde jacht-query's met behulp van de geavanceerde Microsoft 365-API
-keywords: Geavanceerde jacht, Api's, API, MTP, M365 Defender, Microsoft 365 Defender
+title: Microsoft 365 Defender advanced hunting API
+description: Meer informatie over het uitvoeren van geavanceerde zoekquery's met de geavanceerde api van Microsoft 365 Defender voor zoeken
+keywords: Advanced Hunting, API's, api, MTP, M365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e7cd9192ec25e01ed06b77cb2b39357cb9df79bd
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 4213773c3305c28f0913013d8f7634c083811f52
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719378"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932080"
 ---
-# <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender Advanced jacht API
+# <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender Advanced hunting API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,36 +36,36 @@ ms.locfileid: "49719378"
 - Microsoft Threat Protection
 
 > [!IMPORTANT]
-> Sommige informatie verhoudt zich tot een voorvrijgegeven product dat bij de commerciële versie van de commerciële versie mogelijk ingrijpend werd gewijzigd. Microsoft biedt geen garanties, expliciete of impliciete informatie met betrekking tot de informatie die u hier opgeeft.
+> Sommige informatie heeft betrekking op vooraf uitgebracht product dat aanzienlijk kan worden gewijzigd voordat het in de handel wordt gebracht. Microsoft biedt geen garanties, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt be gegeven.
 
-[Geavanceerde jacht](advanced-hunting-overview.md) is een hulpprogramma voor een Threat-jacht waarbij [speciaal samengestelde query's](advanced-hunting-query-language.md) worden gebruikt om de afgelopen 30 dagen van gebeurtenisgegevens te bekijken in Microsoft 365 Defender. U kunt geavanceerde jacht-query's gebruiken om ongebruikelijke activiteiten te controleren, mogelijke bedreigingen te detecteren en zelfs tegen aanvallen te reageren. Met de Advanced jacht-API kunt u programmatische gegevens van querygebeurtenissen uitvoeren.
+[Geavanceerd zoeken](advanced-hunting-overview.md) is een hulpprogramma [](advanced-hunting-query-language.md) voor het op zoek naar risico' en maakt gebruik van speciaal gebouwde query's om de gebeurtenisgegevens van de afgelopen 30 dagen in Microsoft 365 Defender te analyseren. U kunt geavanceerde zoekquery's gebruiken om ongebruikelijke activiteiten te controleren, mogelijke bedreigingen te detecteren en zelfs om te reageren op aanvallen. Met de geavanceerde api voor zoeken kunt u gebeurtenisgegevens programmatisch opvragen.
 
-## <a name="quotas-and-resource-allocation"></a>Quota's en resources toewijzen
+## <a name="quotas-and-resource-allocation"></a>Quota en resourcetoewijzing
 
 De volgende voorwaarden hebben betrekking op alle query's.
 
-1. Met query's worden gegevens uit de afgelopen 30 dagen verkend en geretourneerd.
-2. Resultaten kunnen resulteren in 100.000 rijen.
-3. U kunt maximaal 10 oproepen per Tenant tot 10 oproepen doen.
-4. U hebt 10 minuten per uur tijdsperiode per Tenant.
-5. U hebt vier totale uren per Tenant.
-6. Als één verzoek langer dan 10 minuten wordt uitgevoerd, wordt de time-out weergegeven en wordt een fout geretourneerd.
-7. Met een `429` HTTP-antwoordcode wordt aangegeven dat u een quotum hebt bereikt, hetzij op basis van het aantal ingediende aanvragen of over de beschikde periode. De antwoordtekst omvat de tijd totdat het door u bereikte quotum opnieuw wordt ingesteld.
+1. Query's verkennen en retourneren gegevens van de afgelopen 30 dagen.
+2. Resultaten kunnen maximaal 100.000 rijen retourneren.
+3. U kunt maximaal 10 oproepen per minuut per tenant voeren.
+4. U hebt 10 minuten aan gebruikstijd per uur per tenant.
+5. U hebt in totaal vier werkdagen per tenant.
+6. Als één aanvraag langer dan tien minuten wordt uitgevoerd, wordt er een time-out gemaakt en wordt een foutmelding weergegeven.
+7. Een HTTP-antwoordcode geeft aan dat u een quotum hebt bereikt, hetzij door het aantal verzonden aanvragen of door de toegewezen `429` lopende tijd. De reactie zelf bevat de tijd tot het quotum dat u hebt bereikt, wordt opnieuw ingesteld.
 
 ## <a name="permissions"></a>Machtigingen
 
-U hebt een van de volgende machtigingen nodig om de API Advanced jacht te bellen. Voor meer informatie, waaronder de manier waarop u machtigingen kiest, raadpleegt u [de Microsoft 365 Defender-beveiligings-Api's openen](api-access.md)
+Een van de volgende machtigingen is vereist om de geavanceerde api voor zoeken aan te roepen. Zie Access voor meer informatie, waaronder het kiezen van machtigingen, [de Microsoft 365 Defender Protection-API's](api-access.md)
 
-Type machtiging | Machtigingsset | Weergavenaam van de machtiging
+Machtigingstype | Machtiging | Weergavenaam van machtiging
 -|-|-
-Toepassing | AdvancedHunting. Read. all | Geavanceerde query's uitvoeren
-Gedelegeerd (werk-of schoolaccount) | AdvancedHunting. Read | Geavanceerde query's uitvoeren
+Toepassing | AdvancedHunting.Read.All | Geavanceerde query's uitvoeren
+Gedelegeerd (werk- of schoolaccount) | AdvancedHunting.Read | Geavanceerde query's uitvoeren
 
 >[!Note]
-> Bij het verkrijgen van een token met behulp van gebruikersreferenties:
+> Wanneer u een token verkrijgt met behulp van gebruikersreferenties:
 >
->- De gebruiker moet de rol gegevens weergeven hebben
->- De gebruiker moet toegang hebben tot het apparaat, op basis van de instellingen van de apparaatgroepen.
+>- De gebruiker moet de AD-rol Gegevens weergeven hebben
+>- De gebruiker moet toegang hebben tot het apparaat op basis van de instellingen van de apparaatgroep.
 
 ## <a name="http-request"></a>HTTP-aanvraag
 
@@ -72,34 +73,34 @@ Gedelegeerd (werk-of schoolaccount) | AdvancedHunting. Read | Geavanceerde query
 POST https://api.security.microsoft.com/api/advancedhunting/run
 ```
 
-## <a name="request-headers"></a>Kopteksten aanvragen
+## <a name="request-headers"></a>Berichtkoppen aanvragen
 
-Factuurkop | Value
+Koptekst | Value
 -|-
-Bevoegdheid | Bearer {token} **Opmerking: vereist**
-Inhouds type | toepassing/JSON
+Autorisatie | Opmerking voor gewenste {token}: **vereist**
+Inhoudstype | toepassing/json
 
-## <a name="request-body"></a>Aanvraagtekst
+## <a name="request-body"></a>Aanvraag in de eerste instantie
 
-Geef in de hoofdtekst van de aanvraag een JSON-object op met de volgende parameters:
+In de aanvraag zelf een JSON-object opgeven met de volgende parameters:
 
-Tabelwaardeparameter | Type | Beschrijving
+Parameter | Type | Beschrijving
 -|-|-
-Query | Tekst | De query wordt uitgevoerd. **Opmerking: vereist**
+Query | Tekst | De query die moet worden uitgevoerd. **Opmerking: vereist**
 
-## <a name="response"></a>Na
+## <a name="response"></a>Antwoord
 
-Als dit is gelukt, wordt deze methode geretourneerd `200 OK` en wordt een _QueryResponse_ -object in de tekst van het antwoord weergegeven.
+Als dit lukt, wordt met deze methode `200 OK` een _object QueryResponse_ in de antwoord zelf gegeven.
 
 Het antwoordobject bevat drie eigenschappen op het hoogste niveau:
 
-1. Stats: een dictionary met statistieken voor queryprestaties.
-2. Schema: het schema van het antwoord, een lijst met Name-Type paren voor elke kolom.
-3. Resultaten: een lijst met geavanceerde jacht gebeurtenissen.
+1. Stats: een woordenlijst met prestatiestatistieken voor query's.
+2. Schema: het schema van het antwoord, een lijst Name-Type paren voor elke kolom.
+3. Results: een lijst met geavanceerde zoekgebeurtenissen.
 
 ## <a name="example"></a>Voorbeeld
 
-In het volgende voorbeeld worden de onderstaande query verzonden en ontvangt hij of zij een API-antwoordobject met de naam `Stats` , `Schema` en `Results` .
+In het volgende voorbeeld verzendt een gebruiker de onderstaande query en ontvangt deze een API-antwoordobject met `Stats` `Schema` de volgende . `Results`
 
 ### <a name="query"></a>Query
 
@@ -176,7 +177,7 @@ In het volgende voorbeeld worden de onderstaande query verzonden en ontvangt hij
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-- [Toegang tot de Microsoft 365 Defender-Api's](api-access.md)
+- [Toegang tot de Microsoft 365 Defender-API's](api-access.md)
 - [Meer informatie over API-limieten en licenties](api-terms.md)
-- [Meer informatie over foutcodes](api-error-codes.md)
+- [Meer te weten komen over foutcodes](api-error-codes.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

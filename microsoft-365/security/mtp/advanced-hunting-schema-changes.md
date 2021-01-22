@@ -1,10 +1,10 @@
 ---
-title: Wijzigingen aanbrengen in het Microsoft 365 Defender Advanced jacht schema
-description: Naam wijzigen en tabellen en kolommen wijzigen in het geavanceerde jacht schema
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema naslag, kusto, tabel, gegevens, naam wijzigen, naam wijzigen, Microsoft Threat Protection
+title: Naamgevingswijzigingen in het Geavanceerde schema voor zoeken van Microsoft 365 Defender
+description: Wijzigingen in tabellen en kolommen in het geavanceerde schema voor zoeken bijhouden en bekijken
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, data, naming changes, rename, Microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 0bef5f4abcaf0d57af9c160ff31f859c2536ccd2
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.technology: m365d
+ms.openlocfilehash: 483fedd1fb152e3df5311c981b305e621ec2aec3
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780783"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932200"
 ---
-# <a name="advanced-hunting-schema---naming-changes"></a>Naamwijzigingen in het schema voor geavanceerde jacht
+# <a name="advanced-hunting-schema---naming-changes"></a>Geavanceerd schema voor zoeken : naamgevingswijzigingen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,15 +37,15 @@ ms.locfileid: "49780783"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Het [schema geavanceerde jacht](advanced-hunting-schema-tables.md) wordt regelmatig bijgewerkt om nieuwe tabellen en kolommen toe te voegen. In sommige gevallen worden namen van bestaande kolommen gewijzigd of vervangen ter verbetering van de gebruikerservaring. Raadpleeg dit artikel om de naamwijzigingen te bekijken die van invloed kunnen zijn op uw query's.
+Het [geavanceerde schema voor zoeken](advanced-hunting-schema-tables.md) wordt regelmatig bijgewerkt om nieuwe tabellen en kolommen toe te voegen. In sommige gevallen worden bestaande kolomnamen gewijzigd of vervangen om de gebruikerservaring te verbeteren. Raadpleeg dit artikel voor meer informatie over naamgevingswijzigingen die van invloed kunnen zijn op uw query's.
 
-Gewijzigde namen worden automatisch toegepast op query's die zijn opgeslagen in het Beveiligingscentrum, waaronder query's die worden gebruikt door aangepaste detectieregels. U hoeft deze query's niet handmatig bij te werken. U moet echter de volgende query's bijwerken:
+Naamwijzigingen worden automatisch toegepast op query's die worden opgeslagen in het beveiligingscentrum, inclusief query's die worden gebruikt door aangepaste detectieregels. U hoeft deze query's niet handmatig bij te werken. U moet echter de volgende query's bijwerken:
 - Query's die worden uitgevoerd met de API
-- Query's die elders buiten het Beveiligingscentrum worden opgeslagen
+- Query's die ergens anders buiten het beveiligingscentrum worden opgeslagen
 
 ## <a name="december-2020"></a>December 2020
 
-| Tabelnaam | Naam van oorspronkelijke kolom | Naam van nieuwe kolom | Reden voor wijziging
+| Tabelnaam | Oorspronkelijke kolomnaam | Nieuwe kolomnaam | Reden voor wijziging
 |--|--|--|--|
 | [EmailEvents](advanced-hunting-emailevents-table.md) | FinalEmailAction | EmailAction | Feedback van klanten |
 | [EmailEvents](advanced-hunting-emailevents-table.md) | FinalEmailActionPolicy | EmailActionPolicy | Feedback van klanten |

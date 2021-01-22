@@ -1,10 +1,10 @@
 ---
-title: DeviceTvmSecureConfigurationAssessment-tabel in het geavanceerde jacht schema
-description: Meer informatie over beveiligings evaluatie gebeurtenissen in de tabel DeviceTvmSecureConfigurationAssessment van het schema geavanceerde jacht. Deze bedreiging & gebeurtenissen voor het beheer van het beveiligingslek biedt informatie over de beveiliging van apparaten, evenals informatie over de beveiligingsconfiguratie, informatie over de impact en de naleving.
-keywords: geavanceerde jacht, bedreigings jacht, Cyber Threat-jacht, Microsoft Threat Protection, Microsoft 365, MTP, m365, Search, query, Telemetry, schema Reference, kusto, Table, Column, datatype, een beschrijving, bedreiging & beveiligingsconfiguratie, DeviceTvmSecureConfigurationAssessment
+title: DeviceTvmSecureConfigurationAssessment table in the advanced hunting schema
+description: Meer informatie over beveiligingsbeoordelingen in de tabel DeviceTvmSecureConfigurationAssessment van het geavanceerde zoekschema. Deze bedreigingen & beveiligingsrisico's zorgen voor informatie over apparaten en informatie over beveiligingsconfiguraties, impact en naleving.
+keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, security configuration, DeviceTvmSecureConfigurationAssessment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: bfe63397d194567a7d71de703363083d2fd4fe75
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 6924bbc7a88a4f32d97534c72a180a1f1c4f7db6
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847606"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931096"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -36,24 +37,24 @@ ms.locfileid: "48847606"
 
 
 
-Elke rij in de `DeviceTvmSecureConfigurationAssessment` tabel bevat een beoordelings gebeurtenis voor een bepaalde beveiligingsconfiguratie, van [bedreiging & beveiligingsbeheer](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt). Gebruik deze naslag voor de laatste beoordelings resultaten en bepaal of apparaten compatibel zijn.
+Elke rij in de `DeviceTvmSecureConfigurationAssessment` tabel bevat een beoordelingsgebeurtenis voor een specifieke beveiligingsconfiguratie van [Threat & Vulnerability Management.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Gebruik deze verwijzing om de meest recente evaluatieresultaten te controleren en te bepalen of apparaten compatibel zijn.
 
-Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [de Naslaggids voor Geavanceerd](advanced-hunting-schema-tables.md)zoeken.
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
-| `DeviceId` | tekenreeks | Unieke id van het apparaat in de service |
+| `DeviceId` | tekenreeks | Unieke id voor het apparaat in de service |
 | `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van het apparaat |
-| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, met inbegrip van variaties in dezelfde familie, zoals Windows 10 en Windows 7.|
-| `Timestamp` | tijd | De datum en tijd waarop de record is gegenereerd |
+| `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat wordt uitgevoerd op het apparaat. Dit geeft specifieke besturingssystemen aan, inclusief variaties binnen dezelfde familie, zoals Windows 10 en Windows 7.|
+| `Timestamp` | datetime | Datum en tijd waarop de record is gegenereerd |
 | `ConfigurationId` | tekenreeks | Unieke id voor een specifieke configuratie |
-| `ConfigurationCategory` | tekenreeks | Categorie of groepering waartoe de configuratie behoort: toepassing, besturingssysteem, netwerk, accounts, beveiliging besturingselement |
-| `ConfigurationSubcategory` | tekenreeks | Subcategorie of subgroep waartoe de configuratie behoort. In veel gevallen bevat dit een beschrijving van specifieke functies of functies. |
-| `ConfigurationImpact` | tekenreeks | Geclassificeerde impact van de configuratie voor de totale configuratie Score (1-10) |
-| `IsCompliant` | Boolean | Geeft aan of de configuratie of het beleid correct is geconfigureerd |
-| `IsApplicable` | Boolean | Geeft aan of de configuratie of het beleid van toepassing is op het apparaat |
+| `ConfigurationCategory` | tekenreeks | Tot welke categorie of groepering de configuratie behoort: Toepassing, besturingssysteem, netwerk, accounts, beveiligingsbesturingselementen |
+| `ConfigurationSubcategory` | tekenreeks | Subcategorie of subgroepering tot welke de configuratie behoort. In veel gevallen wordt hier specifieke functionaliteit of functies beschreven. |
+| `ConfigurationImpact` | tekenreeks | Beoordeelde invloed van de configuratie op de totale configuratiescore (1-10) |
+| `IsCompliant` | boolean | Geeft aan of de configuratie of het beleid correct is geconfigureerd |
+| `IsApplicable` | boolean | Geeft aan of de configuratie of het beleid van toepassing is op het apparaat |
 | `Context` | tekenreeks | Aanvullende contextuele informatie over de configuratie of het beleid |
-| `IsExpectedUserImpactCompliant` | Boolean | Geeft aan of de gebruiker van invloed is op de toepassing als de configuratie of het beleid wordt toegepast. |
+| `IsExpectedUserImpactCompliant` | boolean | Hiermee wordt aangegeven of er gevolgen voor de gebruiker zijn als de configuratie of het beleid wordt toegepast |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -63,4 +64,4 @@ Zie voor meer informatie over andere tabellen in het geavanceerde jacht-schema [
 - [Opsporen op apparaten en in e-mailberichten, apps en identiteiten](advanced-hunting-query-emails-devices.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)
 - [Aanbevolen procedures voor query's toepassen](advanced-hunting-best-practices.md)
-- [Overzicht van Threat & beveiligingslek](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [Overzicht van risicobeheer & beveiligingsprobleem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

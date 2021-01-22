@@ -1,8 +1,8 @@
 ---
-title: Wat is er beschikbaar voor de beveiligde Score van Microsoft
-description: Beschrijft welke nieuwe wijzigingen beschikbaar zijn in Microsoft 365 Beveiligingscentrum.
-keywords: Microsoft Secure Score, Secure Score, Office 365 Secure Score, Microsoft Security Score, Microsoft 365 Beveiligingscentrum, verbeteringen van verbetering
-ms.prod: microsoft-365-enterprise
+title: Wat komt er met Microsoft Secure Score
+description: In dit artikel wordt beschreven welke nieuwe wijzigingen aan Microsoft Secure Score worden aangebracht in het Microsoft 365-beveiligingscentrum.
+keywords: microsoft secure score, secure score, office 365 secure score, microsoft-beveiligingsscore, Microsoft 365-beveiligingscentrum, acties voor verbetering
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -17,22 +17,23 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0693e70cdd5636ce655a400a48aac65197327291
-ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
+ms.technology: m365d
+ms.openlocfilehash: f7a0dfa3e95321ddd85a56fc32f2d36e72c6b80b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "49737951"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930604"
 ---
-# <a name="whats-coming-to-microsoft-secure-score"></a>Wat is er beschikbaar voor de beveiligde Score van Microsoft
+# <a name="whats-coming-to-microsoft-secure-score"></a>Wat komt er met Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Secure Score Microsoft is te vinden https://security.microsoft.com/securescore in het [microsoft 365-Beveiligingscentrum](overview-security-center.md).
+U vindt Microsoft Secure Score https://security.microsoft.com/securescore in het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)
 
 ## <a name="proposed-changes"></a>Voorgestelde wijzigingen
 
-We maken de nabije toekomst enkele wijzigingen in de nabije toekomst, zodat [Microsoft Secure Score](microsoft-secure-score.md) een betere medewerker is van uw beveiligings Posture en de bruikbaarheid verbeteren. Uw score en de maximaal mogelijke score kunnen wijzigen.
+We brengen in de nabije toekomst wijzigingen aan om [Microsoft Secure Score](microsoft-secure-score.md) een betere vertegenwoordiger te maken voor uw beveiligingsonderzoek en om de bruikbaarheid te verbeteren. Uw score en de maximaal mogelijke score kunnen veranderen.
 
 ### <a name="no-planned-changes"></a>Geen geplande wijzigingen
 
@@ -42,5 +43,5 @@ Er zijn op dit moment geen geplande wijzigingen.
 
 - [Overzicht van Microsoft Secure Score](microsoft-secure-score.md)
 - [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
-- [De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken](microsoft-secure-score-history-metrics-trends.md)
+- [Uw geschiedenis van Microsoft Secure Score bijhouden en doelstellingen behalen](microsoft-secure-score-history-metrics-trends.md)
 - [Wat is er nieuw](microsoft-secure-score-whats-new.md)

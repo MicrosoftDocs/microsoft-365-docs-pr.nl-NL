@@ -5,54 +5,55 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Beheerders kunnen zien hoe aanvals training in het Microsoft 365-Beveiligingscentrum van invloed is op werknemers en inzicht krijgen in de resultaten van simulatie en training.
-ms.openlocfilehash: baff6032f295b2b49b4f2ec9280fb465d47b8dc3
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: Beheerders kunnen meer te weten komen over de manier waarop training voor de aanval van de aanval in het Microsoft 365-beveiligingscentrum werknemers beïnvloedt en inzichten kan krijgen uit de resultaten van de controle en training.
+ms.technology: mdo
+ms.openlocfilehash: b7fd414cc355e768077198eb5215720c4d4a9444
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877138"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933064"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Meer inzicht krijgen middels aanvalssimulatietraining
 
-In simulatie training voor een aanval biedt Microsoft u inzichten op basis van de resultaten van simulaties en opleidingen waarvan de werknemers zijn gekomen. Met deze inzichten wordt u op de hoogte gehouden van de voortgang van uw werknemers, en adviseert u de volgende stappen om uw werknemers en uw omgeving beter voor te bereiden op aanvallen.
+Binnen de training voor de aanval van de training voor de overdenk van een aanval biedt Microsoft u inzichten op basis van resultaten van de resultaten van de trainingsresultaten en trainingen die werknemers hebben door onderuit gehad. Deze inzichten helpen u op de hoogte te blijven van de voortgang van risico's van uw werknemers en raden u aan om volgende stappen te ondernemen om uw werknemers en uw omgeving beter voor te bereiden op aanvallen.
 
-We werken voortdurend aan de uitbreiding van de inzichten die voor u beschikbaar is. De werking van gedrag en aanbevolen acties zijn momenteel beschikbaar. Als u wilt beginnen, gaat u naar [training voor simulatie van aanval in het Microsoft 365-Beveiligingscentrum](https://security.microsoft.com/attacksimulator?viewid=overview).
+We werken voortdurend aan het uitbreiden van de inzichten die voor u beschikbaar zijn. De invloed van het gedrag en aanbevolen acties zijn momenteel beschikbaar. Om te beginnen gaat u naar [de training voor de aanvalstraining in het Microsoft 365-beveiligingscentrum.](https://security.microsoft.com/attacksimulator?viewid=overview)
 
-## <a name="behavior-impact-on-compromise-rate"></a>Werking van invloed op compromissen
+## <a name="behavior-impact-on-compromise-rate"></a>Gedrag van invloed op de snelheid van compromises
 
-Op het tabblad **overzicht** van simulatie van aanval aanval ziet u de **gevolgen voor compromissen voor de beoordeling van de compromissen** . Op deze kaart ziet u hoe werknemers omgaan met de simulaties die u hebt gemaakt, contrast voor de **voorspelde compromis graad**. U kunt deze inzichten gebruiken om de voortgang van de werknemers gereed te houden door meerdere simulaties uit te voeren voor dezelfde groepen werknemers.
+Op het **tabblad Overzicht** van de training voor de overbelasting van aanvallen vindt u de invloed van het gedrag op de kaart voor de snelheid **van aanvallen.** Op deze kaart ziet u hoe werknemers de voorspellingen afwerkten die u hebt uitgevoerd in tegenstelling tot de **voorspelde snelheid van compromissen.** U kunt deze inzichten gebruiken om de voortgang bij te houden in de gereedheid van werknemers door meerdere resultaten bij te houden ten opzichte van dezelfde groepen werknemers.
 
 In de grafiek ziet u:
 
-- **Voorspelbare compromis graad** waarbij de gemiddelde compromis graad voor simulaties wordt gebruikt met hetzelfde type nettolading in andere microsoft 365-tenants die gebruikmaken van simulatie training.
-- De **effectieve baudrate** weerspiegelt het percentage van de werknemers dat is gezakt voor de simulatie.
+- **Een voorspelde compromissnelheid** die de gemiddelde compromise rate voor voorspellingen weerspiegelt door hetzelfde type nettolading te gebruiken in andere Microsoft 365-tenants die gebruikmaken van training voor de aanvalstraining.
+- **De werkelijke compromise rate** weerspiegelt het percentage werknemers dat voor de weerspiegeling is.
 
-Daarnaast `<number> less susceptible to phishing` weerspiegelt het verschil tussen het werkelijke aantal werknemers dat is aangetast door de aanval en de voorspelde compromissen. Dit aantal werknemers is minder waarschijnlijk met soortgelijke aanvallen in de toekomst, terwijl ook `<percent%> better than predicted rate` wordt aangegeven hoe werknemers in het geheel hebben gereageerd op het voor spelde compromis.
+Weerspiegelt bovendien het verschil tussen het werkelijke aantal werknemers dat is gecompromitteerd door de `<number> less susceptible to phishing` aanval en de voorspelde compromise rate. Dit aantal werknemers zal in de toekomst minder snel worden gehackt door soortgelijke aanvallen, terwijl dit geeft aan hoe werknemers over het algemeen deed `<percent%> better than predicted rate` in tegenstelling tot het voorspelde gekromde percentage.
 
 > [!div class="mx-imgBorder"]
-> ![Kaart voor gedrag van gedrag bij simulatie van aanvals overzicht](../../media/attack-sim-preview-behavior-impact-card.png)
+> ![Overzicht van de behavior impact card op attack-training](../../media/attack-sim-preview-behavior-impact-card.png)
 
-Als u een gedetailleerdere rapporten wilt weergeven, klikt u op **simulaties weergeven en rapport over trainings effectiviteit**. Dit rapport bevat dezelfde informatie met aanvullende context uit de simulatie zelf (bijvoorbeeld simulatie techniek en totaal aantal gebruikers die zijn gericht).
+Als u een gedetailleerder rapport wilt bekijken, klikt u op **Resultaten van het trainingsrapport.** Dit rapport biedt dezelfde informatie met aanvullende context van de zelfreulatie (bijvoorbeeld een methode voor de techniek van de techniek voor de techniek van de techniek en het totale aantal gebruikers dat is gericht).
 
 ## <a name="recommended-actions"></a>Aanbevolen acties
 
-Wanneer u op het [tabblad **simulaties**](https://security.microsoft.com/attacksimulator?viewid=simulations)een simulatie selecteert, krijgt u de gewenste details van de simulatie, waar u de sectie **aanbevolen acties** vindt.
+Als u [ **op het tabblad Animaties**](https://security.microsoft.com/attacksimulator?viewid=simulations)een weergave selecteert, gaat u naar de details van de animatie, waar u de sectie **Aanbevolen acties vindt.**
 
-De sectie aanbevolen acties bevat een beschrijving van de aanbevelingen die beschikbaar zijn in [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score). Deze aanbevelingen zijn gebaseerd op de nettolading die wordt gebruikt in de simulatie en helpt u bij het beschermen van uw werknemers en uw omgeving. Door te klikken op elke actie bij verbetering gaat u naar de details.
+In de sectie Aanbevolen acties worden aanbevelingen be gegeven die beschikbaar zijn in [Microsoft Secure Score.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) Deze aanbevelingen zijn gebaseerd op de nettolading die wordt gebruikt in deulatie en helpt u uw werknemers en uw omgeving te beschermen. Als u op elke actie voor kwaliteitsverbetering klikt, gaat u naar de details.
 
 > [!div class="mx-imgBorder"]
-> ![Sectie aanbevelings acties voor simulatie van aanval](../../media/attack-sim-preview-recommended-actions.png)
+> ![Sectie Met aanbevelingen van de training voor de aanvalstraining](../../media/attack-sim-preview-recommended-actions.png)
 
 ## <a name="related-links"></a>Verwante koppelingen
 
 [Aan de slag met aanvalssimulatietraining](attack-simulation-training-get-started.md)
 
-[Een simulatie van een malafide aanval maken](attack-simulation-training.md)
+[Een phishing-aanval maken](attack-simulation-training.md)
 
-[een nettolading maken voor de training van personen](attack-simulation-training-payloads.md)
+[een nettolading maken om uw mensen te trainen](attack-simulation-training-payloads.md)

@@ -1,8 +1,8 @@
 ---
-title: Device monitoring & Reporting-Beveiligingscentrum
-description: Hier wordt beschreven hoe u uw apparaten veilig, up-to-date en mogelijke bedreigingen in uw organisatie kunt beschermen
-keywords: beveiliging, malware, Microsoft 365, M365, beveiliging centrum, monitor, rapport, apparatuur
-ms.prod: microsoft-365-enterprise
+title: Apparaatcontrole & rapportage - Beveiligingscentrum
+description: Hier wordt beschreven hoe u uw apparaten veilig en up-to-date kunt houden en potentiële bedreigingen in uw organisatie kunt herkennen
+keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, monitor, rapport, apparaten
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -17,199 +17,200 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 92760ef14fb1192e4462bab656e22f3595f9b449
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: b9580f904f9cc5043fa3e825007339ce66daaa72
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843862"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930496"
 ---
-# <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Apparaten volgen en rapporteren in het Microsoft 365-Beveiligingscentrum
+# <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Apparaatcontrole en rapportage in het Microsoft 365-beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-Zorg dat uw apparaten veilig, up-to-date en potentiële bedreigingen in het Microsoft 365-Beveiligingscentrum.
+Houd uw apparaten veilig, up-to-date en spot potentiële bedreigingen in het Microsoft 365-beveiligingscentrum.
 
-## <a name="view-device-alerts"></a>Waarschuwingen voor apparaten weergeven
+## <a name="view-device-alerts"></a>Apparaatwaarschuwingen weergeven
 
-U ontvangt up-to-date meldingen over de overtredings activiteit en andere bedreigingen op uw apparaten, van Microsoft Defender voor eindpunt (beschikbaar bij een E5-licentie). Microsoft 365-Beveiligingscentrum controleert deze meldingen op een hoog niveau met behulp van de door u gewenste werkstroom.
+Ontvang up-to-date waarschuwingen over inbreukactiviteit en andere bedreigingen op uw apparaten van Microsoft Defender for Endpoint (beschikbaar met een E5-licentie). Het Microsoft 365-beveiligingscentrum bewaakt deze waarschuwingen effectief op een hoog niveau met behulp van de werkstroom van uw voorkeur.
 
-### <a name="monitor-high-impact-alerts"></a>Waarschuwingen voor hoge impact volgen
+### <a name="monitor-high-impact-alerts"></a>Impactwaarschuwingen bewaken
 
-Elke Microsoft Defender for Endpoint-waarschuwing heeft een corresponderende Ernst (hoog, normaal, laag of informatie). Dit geeft de potentiële impact op uw netwerk aan als ze niet aanwezig zijn.  
+Elke waarschuwing van Microsoft Defender voor eindpunt heeft een bijbehorende ernst (hoog, gemiddeld, laag of informatief). Hiermee wordt de potentiële impact op uw netwerk aangegeven als deze onbeheerd blijft.  
 
-U kunt de kaart voor de **geluidssignaal** van uw apparaat gebruiken om specifiekere meldingen te benadrukken en mogelijk direct antwoord te vragen. Op deze kaart kunt u meer informatie weergeven op de portal Microsoft Defender-Beveiligingscentrum.
+Gebruik de **kaart ernst van de apparaatwaarschuwing** om u specifiek te richten op waarschuwingen die ernstiger zijn en mogelijk onmiddellijke reactie vereisen. Via deze kaart kunt u meer informatie bekijken in de portal van het Microsoft Defender-beveiligingscentrum.
 
-![Kaart met ernst van apparaat-waarschuwingen](../../media/device-alerts-severity.png)
+![Kaart met ernst van apparaatwaarschuwingen](../../media/device-alerts-severity.png)
 
-### <a name="understand-sources-of-alerts"></a>Meer informatie over de bronnen van waarschuwingen
+### <a name="understand-sources-of-alerts"></a>Informatiebronnen voor waarschuwingen
 
-Microsoft Defender voor eindpunten profiteert van gegevens uit tal van beveiligings sensies en intelligence-bronnen om waarschuwingen te genereren. Dit kan bijvoorbeeld de detectie informatie van Microsoft Defender antivirus en van malware van derden gebruiken. U kunt ook uw eigen aangepaste bedreigings informatie gebruiken die beschikbaar is via de API van de webservice.
+Microsoft Defender for Endpoint maakt gebruik van gegevens van een groot aantal beveiligingsonderzoekers en -informatiebronnen om waarschuwingen te genereren. U kunt bijvoorbeeld detectiegegevens van Microsoft Defender Antivirus en antimalware van derden gebruiken. Het kan ook uw eigen aangepaste bedreigingsinformatie gebruiken die via de webservice-API wordt aangeboden.
 
-Op de kaart met de detectie bronnen voor **device-meldingen** ziet u de distributie van waarschuwingen per bron. Activiteiten bijhouden met betrekking tot bepaalde bronnen, met name de aangepaste bronnen. U kunt ook de kaart gebruiken om te focussen op meldingen die afkomstig zijn van sensoren die niet zijn geconfigureerd om schadelijke activiteiten of onderdelen automatisch te blokkeren.
+Op **de kaart apparaat met detectiebronnen** voor waarschuwingen ziet u de verdeling van waarschuwingen per bron. Houd activiteiten bij met betrekking tot bepaalde bronnen, met name uw aangepaste bronnen. U kunt de kaart ook gebruiken om te focussen op waarschuwingen van sensoren die niet zijn geconfigureerd om schadelijke activiteiten of onderdelen automatisch te blokkeren.
 
-![Kaart voor detectie bronnen voor apparaat voor meldingen](../../media/device-alert-detection-sources.png)
+![Kaart voor detectiebronnen van apparaatwaarschuwingen](../../media/device-alert-detection-sources.png)
 
-Op deze kaart kunt u meer informatie weergeven op de portal Microsoft Defender-Beveiligingscentrum.
+Via deze kaart kunt u meer informatie bekijken in de portal van het Microsoft Defender-beveiligingscentrum.
 
-### <a name="understand-the-types-of-threats-that-trigger-alerts"></a>Meer informatie over de typen bedreigingen die waarschuwingen activeren
+### <a name="understand-the-types-of-threats-that-trigger-alerts"></a>Informatie over de typen bedreigingen die waarschuwingen activeren
 
-Microsoft Defender voor eindpunt Hiermee wordt elke waarschuwing in een categorie gesorteerd voor een bepaalde fase van de hack-ketting of het type risico onderdeel. Een gedetecteerde bedreiging is bijvoorbeeld mogelijk gecategoriseerd als ' zijdelings verplaatsings actie ' om aan te geven dat er andere apparaten in het netwerk konden worden bereikt. De activiteit is waarschijnlijk opgetreden nadat een hacker een initiële foothold heeft verkregen. Wanneer deze worden gedetecteerd, kan een onderdeel van de bedreiging algemeen als malware of specifiek risico type worden geclassificeerd. Specifieke voorbeelden van Ransomware, referentie diefstal of andere typen kwaadaardige en ongewenste software.
+Microsoft Defender for Endpoint sorteert elke waarschuwing in een categorie die een bepaalde fase in de aanvalsketen of het type bedreigingsonderdeel vertegenwoordigt. Een gedetecteerde bedreigingsactiviteit kan bijvoorbeeld worden gecategoriseerd als 'laterale beweging' om aan te geven dat er een poging is gedaan om andere apparaten op het netwerk te bereiken. De activiteit heeft waarschijnlijk plaatsgevonden nadat aanvallers een eerste voettekst hebben gekregen. Wanneer dit wordt gedetecteerd, kan een bedreigingsonderdeel algemeen worden geclassificeerd als malware of specifiek als een specifiek bedreigingstype. Specifiek zijn ransomware, het stelen van referenties of andere typen schadelijke of ongewenste software.
 
-De kaart **bedreigings categorieën voor apparaten** toont de distributie van waarschuwingen in deze categorieën. Met deze informatie kunt u bedreigings activiteiten identificeren, zoals diefstal van referenties, die meestal hoger zijn dan de pogingen van sociale engineering. U kunt ook controleren op mogelijk destructieve bedreigingen, zoals Ransomware.
+De **kaart Apparaat bedreigingscategorieën** toont de verdeling van waarschuwingen in deze categorieën. Gebruik deze gegevens om risicoactiviteit te identificeren, zoals pogingen tot diefstal van referenties, die meestal meer impact hebben dan pogingen van sociale netwerken. U kunt ook controleren op potentiële schadelijke bedreigingen, zoals ransomware.
 
-![Kaart bedreiging categorieën voor apparatuur](../../media/device-threat-categories.png)
+![Kaart apparaat bedreigingscategorieën](../../media/device-threat-categories.png)
 
-### <a name="monitor-active-alerts"></a>Actieve waarschuwingen controleren
+### <a name="monitor-active-alerts"></a>Actieve waarschuwingen bewaken
 
-De **melding status** kaart van het apparaat geeft het aantal waarschuwingen aan dat nog niet is opgelost en waarvan de aandacht moet worden besteed. Op deze kaart kunt u meer informatie weergeven op de portal Microsoft Defender-Beveiligingscentrum.
+De **statuskaart voor apparaatwaarschuwingen** geeft het aantal waarschuwingen aan dat niet is opgelost en vereist mogelijk aandacht. Via deze kaart kunt u meer informatie bekijken in de portal van het Microsoft Defender-beveiligingscentrum.
 
-![Meldings status kaart van apparaat](../../media/device-alert-status.png)
+![Statuskaart van apparaatwaarschuwing](../../media/device-alert-status.png)
 
-### <a name="monitor-classification-of-resolved-alerts"></a>De classificatie van opgeloste waarschuwingen controleren
+### <a name="monitor-classification-of-resolved-alerts"></a>Classificatie van opgeloste waarschuwingen controleren
 
-Wanneer u een Microsoft Defender voor eindpunt-waarschuwing verhelpt, kunnen uw beveiligingspersoneel opgeven of een waarschuwing is geverifieerd als:
+Bij het oplossen van een waarschuwing van Microsoft Defender voor eindpunt, kan uw beveiligingspersoneel opgeven of een waarschuwing is geverifieerd als:
 
-* Een echte waarschuwing waarin de feitelijke activiteiten van de overtreding of de bedreigings onderdelen worden aangegeven
-* Een onjuiste waarschuwing met een onjuiste detectie van normaal activiteiten
+* Een echte waarschuwing die werkelijke inbreukactiviteit of bedreigingsonderdelen identificeert
+* Een foutmelding die ten onrechte normale activiteit heeft gedetecteerd
 
-De **classificatie** kaart voor melding van apparaat geeft aan of de opgeloste waarschuwingen zijn geclassificeerd als waar of onwaar. Op deze kaart kunt u meer informatie weergeven op de portal Microsoft Defender-Beveiligingscentrum.
+Op **de kaart met de classificatie** van apparaatwaarschuwingen kunt u zien of uw opgeloste waarschuwingen zijn geclassificeerd als waar of onwaar. Via deze kaart kunt u meer informatie bekijken in de portal van het Microsoft Defender-beveiligingscentrum.
 
-Opmerking: in sommige gevallen is classificatie informatie niet beschikbaar voor bepaalde meldingen.
+Opmerking: In sommige gevallen zijn classificatiegegevens niet beschikbaar voor bepaalde waarschuwingen.
 
-![Classificatie kaart voor het ontvangen van hardware](../../media/device-alert-classification.png)
+![Classificatiekaart voor apparaatwaarschuwingen](../../media/device-alert-classification.png)
 
-### <a name="monitor-determination-of-resolved-alerts"></a>Controle bepaling van opgeloste waarschuwingen
+### <a name="monitor-determination-of-resolved-alerts"></a>Controle van het aantal opgeloste waarschuwingen
 
-Als u een melding wilt ontvangen, ongeacht of een waarschuwing waar of onwaar is tijdens de oplossing, kunnen uw beveiligingspersoneel een bepaling leveren. Een bepaling geeft het type normale of schadelijke activiteit aan dat is gevonden bij het valideren van de waarschuwing.
+Naast het classificeren of een waarschuwing waar of onwaar is tijdens de oplossing, kan uw beveiligingspersoneel een beslissing nemen. Een bericht geeft het type normale of schadelijke activiteit aan dat is aangetroffen tijdens het valideren van de waarschuwing.
 
-De kaart voor de **waarschuwings analyse** van uw apparaat toont de bepaling die voor elke melding wordt weergegeven.
+Op **de kaart voor het bericht van** de apparaatmelding ziet u de bepalingen die voor elke waarschuwing zijn verstrekt.
 
-* **Apt** : geavanceerde permanente bedreiging, waarmee wordt aangegeven dat de gedetecteerde activiteit of de bedreiging onderdeel is onderdeel van een verfijnde geschaade schending, ontwikkeld voor het verkrijgen van een foothold in de betreffende netwerk  
-* **Malware** : schadelijk bestand of programmacode
-* **Beveiligingspersoneel** : normale activiteit uitgevoerd door beveiligingspersoneel
-* **Beveiliging testen** : activiteit of onderdelen die zijn ontworpen om feitelijke bedreigingen te simuleren en om meldingen te activeren en waarschuwingen te genereren
-* **Ongewenste software** : apps en andere software die niet als schadelijk worden beschouwd, maar op een andere wijze beleidsregels of acceptabele gebruiks normen schenden
-* **Andere** bepalingen die niet onder de geleverde soorten vallen.
+* **APT:** geavanceerde permanente bedreiging, waarmee wordt aangegeven dat de gedetecteerde activiteit of het bedreigingsonderdeel deel uitmaakt van een geavanceerde inbreuk die is ontworpen om voetteksten te krijgen in het betreffende netwerk  
+* **Malware:** schadelijk bestand of schadelijke code
+* **Beveiligingsmedewerkers:** normale activiteiten uitgevoerd door beveiligingsmedewerkers
+* **Beveiligingstests:** activiteiten of onderdelen die zijn ontworpen om werkelijke bedreigingen na te bootsen en die naar verwachting beveiligingscamera's activeren en waarschuwingen genereren
+* **Ongewenste software:** apps en andere software die niet als schadelijk worden beschouwd, maar die anders in strijd zijn met het beleid of acceptabele gebruiksstandaarden
+* **Overige:** alle andere bepalingen die niet onder de opgegeven typen vallen
 
-Vanaf dit kaartje kunt u meer informatie weergeven in Microsoft Defender-Beveiligingscentrum.
+Via deze kaart kunt u meer informatie bekijken in het Microsoft Defender-beveiligingscentrum.
 
-![Waarschuwings kaart voor apparaat](../../media/device-alert-determination.png)
+![Kaart voor berichtmelding op apparaat](../../media/device-alert-determination.png)
 
 ### <a name="understand-which-devices-are-at-risk"></a>Begrijpen welke apparaten risico lopen
 
-**Apparaat-bescherming** toont het risiconiveau voor apparaten. Het risiconiveau is gebaseerd op factoren zoals het type en de ernst van waarschuwingen op het apparaat.
+**Apparaatbeveiliging** toont het risiconiveau voor apparaten. Het risiconiveau is gebaseerd op factoren zoals het type en de ernst van waarschuwingen op het apparaat.
 
-![Hardware-beschermings kaart](../../media/device-protection.png)
+![Apparaatbeveiligingskaart](../../media/device-protection.png)
 
-## <a name="monitor-and-report-status-of-intune-managed-devices"></a>De status van intune-beheerde apparaten controleren en rapporteren
+## <a name="monitor-and-report-status-of-intune-managed-devices"></a>De status van Intune-beheerde apparaten controleren en rapporteren
 
-De volgende rapporten bevatten gegevens van apparaten die zijn geregistreerd voor intune. Gegevens van niet-geregistreerde apparaten zijn niet inbegrepen. Alleen globale beheerders kunnen deze kaarten weergeven.
+De volgende rapporten bevatten gegevens van apparaten die zijn geregistreerd in Intune. Gegevens van niet-geregistreerde apparaten zijn niet opgenomen. Alleen globale beheerders kunnen deze kaarten bekijken.
 
-InTune geregistreerde apparaatgegevens zijn onder meer:
+Intune geregistreerde apparaatgegevens omvatten:
 
-* Apparaatcompatibiliteit
+* Apparaat compliance
 * Apparaten met actieve malware
 * Typen malware op apparaten
 * Malware op apparaten
-* Apparaten met detectie van malware
-* Gebruikers met detectie van malware
+* Apparaten met malwaredetectie
+* Gebruikers met malwaredetectie
 
-### <a name="monitor-device-compliance"></a>Naleving van apparaat controleren
+### <a name="monitor-device-compliance"></a>Apparaat compliance bewaken
 
-**Naleving van apparaat** laat zien hoeveel apparaten zijn geregistreerd voor intune-afnaleving met het configuratiebeleid.
+**Apparaat compliance** laat zien hoeveel apparaten die zijn ingeschreven in Intune voldoen aan configuratiebeleidsregels.
 
-![Hardware compliantie kaart](../../media/device-compliance.png)
+![Kaart voor apparaat compliance](../../media/device-compliance.png)
 
-### <a name="discover-devices-with-malware-detections"></a>Apparaten detecteren met detectie van malware
+### <a name="discover-devices-with-malware-detections"></a>Apparaten ontdekken met malwaredetectie
 
-**Detectie van detectie van apparaat** geeft het aantal niet-geregistreerde apparaten met malware aan dat niet volledig is opgelost. Het gebrek aan de oplossing kan zijn vanwege acties die in behandeling zijn, een herstart, een volledige scan, handmatige actie van gebruikers of als de herstelbewerking is voltooid.
+**Detectie van malware op** apparaten biedt het aantal intune geregistreerde apparaten met malware die nog niet volledig is opgelost. Een gebrek aan oplossing kan te maken hebben met acties die in behandeling zijn, een opnieuw opstarten, een volledige scan, handmatige gebruikersacties of als de herstelactie niet is voltooid.
 
-![Kaart detectie van apparaat voor malware](../../media/device-malware-detections.png)
+![Kaart voor detectie van malware op apparaten](../../media/device-malware-detections.png)
 
-### <a name="understand-the-types-of-malware-detected"></a>Meer informatie over de verschillende typen malware
+### <a name="understand-the-types-of-malware-detected"></a>Meer informatie over de gevonden typen malware
 
-Met de **typen malware op apparaten** worden verschillende soorten malware weergegeven die zijn gedetecteerd op apparaten die zijn ingeschreven in intune. U kunt elk type onderzoeken in het Microsoft 365-Beveiligingscentrum.
+**Typen malware op apparaten** bevatten verschillende soorten malware die zijn gedetecteerd op apparaten die zijn geregistreerd in Intune. U kunt elk type onderzoeken in het Microsoft 365-beveiligingscentrum.
 
-![Type malware op de kaart apparaten](../../media/types-of-malware-on-devices.png)
+![Typen malware op apparaatkaart](../../media/types-of-malware-on-devices.png)
 
 ### <a name="understand-the-specific-malware-detected-on-your-devices"></a>Meer informatie over de specifieke malware die op uw apparaten is gedetecteerd
 
-**Malware op apparaten** biedt een lijst met de specifieke malware die op uw apparaten is gedetecteerd.
+**Malware op apparaten bevat** een lijst met specifieke malware die op uw apparaten is gedetecteerd.
 
-![Malware op apparaten kaart](../../media/malware-on-devices.png)
+![Kaart met malware op apparaten](../../media/malware-on-devices.png)
 
-### <a name="understand-which-devices-have-the-most-malware"></a>Begrijpen welke apparaten de beste malware hebben
+### <a name="understand-which-devices-have-the-most-malware"></a>Begrijpen welke apparaten de meeste malware bevatten
 
-**Apparaten met detectie van malware** tonen welke apparaten de meeste detectie van malware hebben. in het Microsoft 365-Beveiligingscentrum kunt u nagaan of er malware actief is die het apparaat gebruikt en de Beheerstatus in intune.
+**Apparaten met malwaredetectie geven** aan op welke apparaten de meeste malwaredetecties zijn geïnstalleerd. in het Microsoft 365-beveiligingscentrum kunt u onderzoeken of malware actief is, wie het apparaat gebruikt en wat de beheerstatus is in Intune.
 
-![Apparaten met detectie van detectie van malware](../../media/devices-with-malware-detections.png)
+![Apparaten met kaart voor malwaredetectie](../../media/devices-with-malware-detections.png)
 
-### <a name="understand-which-users-have-devices-with-the-most-malware"></a>Begrijpen welke gebruikers apparaten met de meeste malware hebben
+### <a name="understand-which-users-have-devices-with-the-most-malware"></a>Begrijpen welke gebruikers apparaten hebben met de meeste malware
 
-**Gebruikers met malware-detectie** geven gebruikers weer met apparaten die de meeste detectie van malware hebben. In het Microsoft 365-Beveiligingscentrum kunt u zien hoeveel apparaten aan elke gebruiker zijn toegewezen en meer informatie over elk apparaat en het type malware.
+**Gebruikers met malwaredetectie tonen** gebruikers met apparaten met de meeste malwaredetecties. In het Microsoft 365-beveiligingscentrum kunt u zien hoeveel apparaten aan elke gebruiker zijn toegewezen, en meer informatie over elk apparaat en het type malware.
 
-![Gebruikers met detectie Card voor malware](../../media/users-with-malware-detections.png)
+![Gebruikers met een kaart voor malwaredetectie](../../media/users-with-malware-detections.png)
 
-## <a name="monitor-and-manage-attack-surface-reduction-rule-deployment-and-detections"></a>Implementatie en detectie van aanvals regels controleren en beheren
+## <a name="monitor-and-manage-attack-surface-reduction-rule-deployment-and-detections"></a>Controle en beheer van regelimplementatie en detecties voor het aanvallen van surfaces
 
-Regels voor het beperken van een [aanval (ASR)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction) helpen voorkomen dat acties en apps die meestal door misbruik worden gebruikt, malware willen infecteren. Met deze regels wordt bepaald wanneer en hoe de uitvoerbare bestanden kunnen worden uitgevoerd. U kunt voorkomen dat u een gedownload uitvoerbare uitvoerbare uitvoerbare uitvoerbare uitvoerbare uitvoerbare bestanden uitvoert, Win32 API-oproepen van Office-macro's blokkeert of processen die worden uitgevoerd vanaf USB-stations blokkeren.
+[Asr-regels (Attack Surface Reduction)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction) helpen acties en apps te voorkomen die doorgaans worden gebruikt door misbruik van malware om apparaten te infecteren. Deze regels bepalen wanneer en hoe uitvoerbare bestanden kunnen worden uitgevoerd. U kunt bijvoorbeeld voorkomen dat JavaScript of VBScript een gedownload uitvoerbaar uitvoerbaar bestand start, Win32 API-aanroepen vanuit Office-macro's blokkeert of processen blokkeert die worden uitgevoerd vanaf USB-stations.
 
-![Beperking voor oppervlakte van aanval](../../media/attack-surface-reduction-rules.png)
+![Aanvalsoppervlak-card](../../media/attack-surface-reduction-rules.png)
 
-De kaart **reductie regels** van een aanval biedt een overzicht van de implementatie van regels op uw apparaten.
+De **kaart voor het verminderen van regels** voor aanvallen biedt een overzicht van de implementatie van regels op uw apparaten.
 
-De bovenste balk van de kaart toont het totale aantal apparaten dat zich in de volgende implementatie modi bevindt:
+Op de bovenste balk van de kaart ziet u het totale aantal apparaten in de volgende implementatiemodi:
 
-* **Blokmodus** : apparaten met minimaal één regel geconfigureerd om gedetecteerde activiteiten blokkeren
-* **Controlemodus** : apparaten zonder regels die zijn ingesteld voor het blokkeren van gedetecteerde activiteiten, maar er is minimaal één regel ingesteld om controle gedetecteerde activiteiten te controleren  
-* **Uitgeschakeld** : apparaten met alle ASR-regels uitgeschakeld
+* **Blokkeringsmodus:** apparaten met ten minste één regel geconfigureerd om gedetecteerde activiteit te blokkeren
+* **Controlemodus:** apparaten zonder regels die zijn ingesteld om gedetecteerde activiteit te blokkeren, maar minimaal één regel ingesteld om gedetecteerde activiteit te controleren  
+* **Uitgeschakeld:** apparaten met alle ASR-regels uitgeschakeld
 
-In het onderste gedeelte van dit kaartje worden instellingen weergegeven op regel op uw apparaten. Met elke balk wordt het aantal apparaten aangegeven dat is ingesteld op blokkeren, controleren en controleren of de regel volledig is uitgeschakeld.
+In het onderste deel van deze kaart ziet u instellingen per regel op uw apparaten. Elke balk geeft het aantal apparaten aan dat is ingesteld voor blokkering, controle of dat de regel volledig is uitgeschakeld.
 
-### <a name="view-asr-detections"></a>Detectie van ASR weergeven
+### <a name="view-asr-detections"></a>ASR-detecties weergeven
 
-Als u gedetailleerde informatie over de detectie van de ASR-regel wilt weergeven in uw netwerk, selecteert u **detectie van detectie weergeven** op de kaart voor het risico voor **oppervlakte-aanval** . Het tabblad **detectie** op de pagina gedetailleerd rapport wordt geopend.
+Als u gedetailleerde informatie over ASR-regeldetectie in uw  netwerk wilt bekijken, selecteert u **Detecties** weergeven op de kaart Regels voor het verminderen van het aanvallenoppervlak. Het **tabblad Detecties** op de gedetailleerde rapportpagina wordt geopend.
 
-![Tabblad detectie](../../media/detections-tab.png)
+![Tabblad Detecties](../../media/detections-tab.png)
 
-De grafiek boven aan de pagina toont detecties van detectie van tijds stapels die zijn geblokkeerd of gecontroleerd. De tabel onderaan bevat de meest recente detecties. Gebruik de volgende informatie op de tabel om inzicht te krijgen in de aard van de detecties:
+In het diagram boven aan de pagina ziet u detecties tijdens het stapelen van detecties die zijn geblokkeerd of gecontroleerd. De tabel onderaan bevat de meest recente detecties. Gebruik de volgende informatie in de tabel om de aard van de detecties te begrijpen:
 
-* **Vastgesteld bestand** : het bestand, meestal een script of een document, waarvan de inhoud de inhoud van de verdachte aanval heeft geactiveerd.
-* **Regel** : naam waarmee de aanvals activiteiten worden beschreven die de regel is bedoeld om te worden onderschept. Meer informatie over bestaande ASR-regels
-* **Bron-app** : de toepassing die inhoud heeft geladen of uitgevoerd met de activering van de verdachte aanvals activiteit. Het kan een legitieme toepassing zijn, zoals een webbrowser, een Office-toepassing of een systeem hulpmiddel zoals PowerShell
-* **Uitgever** : de leverancier die de bron-app heeft vrijgegeven
+* **Bestand gedetecteerd:** het bestand, meestal een script of document, waarvan de inhoud de verdachte aanvalsactiviteit heeft geactiveerd
+* **Regel:** de naam die de aanvalsactiviteiten beschrijft die door de regel worden beschreven. Meer informatie over bestaande ASR-regels
+* **Bron-app:** de toepassing waarmee inhoud wordt geladen of uitgevoerd die de verdachte aanvalsactiviteit activeert. Dit kan een legitieme toepassing zijn, zoals een webbrowser, een Office-toepassing of een systeemprogramma zoals PowerShell.
+* **Publisher:** de leverancier die de bron-app heeft uitgebracht
 
-### <a name="review-device-asr-rule-settings"></a>Instellingen voor ASR-regel voor apparaat controleren
+### <a name="review-device-asr-rule-settings"></a>Instellingen voor ASR-regels op apparaat controleren
 
-Ga op de pagina het rapport **regels voor risicobeperking** voor een aanval naar het tabblad **configuratie** om regelinstellingen voor afzonderlijke apparaten te bekijken. Selecteer een apparaat voor gedetailleerde informatie over het feit of elke regel in de blokmodus, de controlemodus of helemaal is uitgeschakeld.
+Ga op **de rapportpagina Regels** voor  het verminderen van aanvallen naar het tabblad Configuratie om de regelinstellingen voor afzonderlijke apparaten te bekijken. Selecteer een apparaat voor gedetailleerde informatie over of elke regel de blokkeringsmodus, de auditmodus of helemaal is uitgeschakeld.
 
-![Het tabblad Configuratie](../../media/configuration-tab.png)
+![Tabblad Configuratie](../../media/configuration-tab.png)
 
-Microsoft intune biedt beheerfuncties voor de ASR-regels. Als u uw instellingen wilt bijwerken, selecteert u **aan de slag** onder **apparaten configureren** op het tabblad om Apparaatbeheer te openen op intune.
+Microsoft Intune biedt beheerfunctionaliteit voor uw ASR-regels. Als u uw instellingen wilt bijwerken, selecteert u **Aan** de slag onder Apparaten configureren **op** het tabblad om apparaatbeheer te openen in Intune.
 
 ### <a name="exclude-files-from-asr-rules"></a>Bestanden uitsluiten van ASR-regels
 
-Microsoft 365-Beveiligingscentrum verzamelt de namen van de [bestanden die u mogelijk niet wilt uitsluiten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-attack-surface-reduction#exclude-files-and-folders-from-asr-rules) van detecties voor de risico regels. Door bestanden uit te sluiten, kunt u ongunstige detecties beperken en de beperking voor risico oppervlakte beperking in de blokmodus vertrouwen.
+Het Microsoft 365-beveiligingscentrum verzamelt [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-attack-surface-reduction#exclude-files-and-folders-from-asr-rules) de namen van de bestanden die u mogelijk wilt uitsluiten van detecties door regels voor het verminderen van het aanvallen van het oppervlak. Door bestanden uit te sluiten, kunt u fout-positieve detecties verminderen en met meer vertrouwen de regels voor het beperken van het aanvalsoppervlak implementeren in de blokkeringsmodus.
 
-De uitsluitingen worden beheerd op Microsoft intune, maar Microsoft 365 Beveiligingscentrum biedt een hulpmiddel waarmee u de bestanden kunt begrijpen. Als u wilt beginnen met het verzamelen van bestanden voor uitsluiting, gaat u naar het tabblad **Uitsluitingen toevoegen** op de rapportpagina regels voor risicobeperking van de **aanval** .
+De uitsluitingen worden beheerd op Microsoft Intune, maar het Microsoft 365-beveiligingscentrum biedt een analysehulpmiddel om de bestanden beter te begrijpen. Om te beginnen met het  verzamelen van bestanden voor uitsluitingen, gaat u naar het tabblad Uitsluitingen toevoegen op de rapportpagina Regels voor het verminderen van **aanvallen.**
 
 >[!NOTE]  
->Met het hulpprogramma worden detecties van alle aanvals regels geanalyseerd, maar [slechts enkele regels ondersteunen uitgesloten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-asr)verbindingen.
+>Het hulpprogramma analyseert detecties door alle regels voor het verminderen van aanvallen, maar slechts enkele [regels ondersteunen uitsluitingen.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-asr)
 
-![Tabblad uitzonderingen toevoegen](../../media/add-exclusions-tab.png)
+![Tabblad Uitsluitingen toevoegen](../../media/add-exclusions-tab.png)
 
-De tabel bevat een overzicht van alle bestandsnamen die door uw aanvals regels voor oppervlakte worden gedetecteerd. U kunt bestanden selecteren om de gevolgen van de uitsluiting ervan te controleren:
+De tabel bevat alle bestandsnamen die zijn gedetecteerd door uw regels voor het verminderen van aanvallen. U kunt bestanden selecteren om de gevolgen van het uitsluiten ervan te bekijken:
 
-* Hoeveel minder detecteren
-* Hoeveel minder apparaten de detecties rapporteren
+* Het aantal minder detecties
+* Het aantal apparaten dat de detecties meldt
 
-Als u een lijst met de geselecteerde bestanden met hun volledige paden voor uitsluiting wilt weergeven, selecteert u **uitsluitings paden aanvragen**.
+Als u een lijst wilt zien van de geselecteerde bestanden met hun volledige paden voor uitsluiting, selecteert u **Uitsluitingspaden downloaden.**
 
-Logboeken voor de inlog regels voor ASR-regels die **van het Windows Local Security Authority Subsystem (lsass.exe) worden gestolen** de bron-app **lsass.exe** vastleggen. Het is een normaal systeembestand, maar vastgelegd als het gevonden bestand. De gegenereerde lijst met uitgesloten paden bevat daarom het bestand. Als u het bestand wilt uitsluiten dat deze regel heeft geactiveerd in plaats van **lsass.exe** , gebruikt u het pad naar de bron-app in plaats van het gevonden bestand.
+Logboeken voor het blokkeren van referenties voor asr-regels die het subsysteem van de lokale beveiligingsinstantie **van Windows (lsass.exe)** stelen, vastleggen de bron-app **** lsass.exe. Het is een normaal systeembestand, maar geregistreerd als het gedetecteerde bestand. Hierdoor wordt dit bestand opgenomen in de gegenereerde lijst met uitsluitingspaden. Als u het bestand dat deze regel heeft veroorzaakt wilt uitsluiten **lsass.exe,** gebruikt u het pad naar de bron-app in plaats van het gedetecteerde bestand.
 
-U kunt de bron-app vinden door de volgende [geavanceerde zoekopdracht](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) uit te voeren voor deze specifieke regel (aangeduid met regel-id 9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2):
+Voer de volgende geavanceerde zoekquery uit voor deze specifieke regel (geïdentificeerd met regel-id 9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2): [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)
 
 ```kusto
 DeviceEvents
@@ -221,11 +222,11 @@ DeviceEvents
 
 #### <a name="check-files-for-exclusion"></a>Bestanden controleren op uitsluiting
 
-Voordat u een bestand uit ASR uitsluit, is het raadzaam om het bestand te controleren om te bepalen of het bestand daadwerkelijk niet schadelijk is.
+Voordat u een bestand uit uitsluiten van ASR, raden we u aan het bestand te controleren om na te gaan of het inderdaad niet schadelijk is.
 
-Als u een bestand wilt controleren, gebruikt u de [pagina met bestandsinformatie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-files) in Microsoft Defender-Beveiligingscentrum. Op de pagina vindt u informatie over de prevalentie en de bezorgings verhouding VirusTotal antivirus. U kunt de pagina ook gebruiken om het bestand in te dienen voor uitgebreide analyse.
+Als u een bestand wilt controleren, gebruikt [u de pagina met bestandsgegevens](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-files) in het Microsoft Defender-beveiligingscentrum. De pagina bevat informatie over het virus en de antivirusdetectieverhouding van VirusTotal. U kunt het bestand ook verzenden via de pagina voor uitgebreide analyse.
 
-Als u een gevonden bestand wilt zoeken in Microsoft Defender-Beveiligingscentrum, zoekt u alle ASR-detecties met behulp van de volgende geavanceerde zoekopdracht:
+Als u een gevonden bestand wilt vinden in het Microsoft Defender-beveiligingscentrum, zoekt u naar alle ASR-detecties met behulp van de volgende geavanceerde zoekquery:
 
 ```kusto
 MiscEvents
@@ -234,4 +235,4 @@ MiscEvents
 | project FolderPath, FileName, SHA1, InitiatingProcessFolderPath, InitiatingProcessFileName, InitiatingProcessSHA1
 ```
 
-Gebruik de **UDDI-of de** **InitiatingProcessSHA1** in de zoekresultaten om het bestand te zoeken met behulp van de universele zoekbalk in Microsoft Defender-Beveiligingscentrum.
+Gebruik de **SHA1** of **de InitiatingProcessSHA1** in de resultaten om naar het bestand te zoeken met behulp van de universele zoekbalk in het Microsoft Defender-beveiligingscentrum.

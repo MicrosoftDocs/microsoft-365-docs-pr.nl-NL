@@ -1,9 +1,9 @@
 ---
-title: Automatisch onderzoek en antwoord in Microsoft 365 Defender
-description: Een overzicht van geautomatiseerde functies voor onderzoek en antwoord, ook wel zelfherstel genoemd, in Microsoft 365 Defender
-keywords: automatisch, onderzoek, waarschuwing, trigger, actie, herstel, zelfherstel
+title: Automatisch onderzoek en antwoorden in Microsoft 365 Defender
+description: Krijg een overzicht van geautomatiseerde onderzoeks- en antwoordmogelijkheden, ook wel zelf-moeten worden genoemd, in Microsoft 365 Defender
+keywords: automated, investigation, alert, trigger, action, remediation, self-in
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,14 +21,15 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 12/09/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 7c28b7f3ac797f7402cfdb1f604fcef1e142a31b
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: m365d
+ms.openlocfilehash: 905455e4cd70485e099f8005b5f8876b1a5d9caf
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683305"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930328"
 ---
-# <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Automatisch onderzoek en antwoord in Microsoft 365 Defender
+# <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Automatisch onderzoek en antwoorden in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,54 +37,54 @@ ms.locfileid: "49683305"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-> Wilt u Microsoft 365 Defender ervaren? U kunt [deze beoordelen in een testomgeving](https://aka.ms/mtp-trial-lab) of een [proefproject uitvoeren op de productie](https://aka.ms/m365d-pilotplaybook).
+> Wilt u ervaring met Microsoft 365 Defender? U kunt [dit evalueren in een testomgeving](https://aka.ms/mtp-trial-lab) of uw [pilotproject in productie nemen.](https://aka.ms/m365d-pilotplaybook)
 >
 
-## <a name="how-automated-investigation-and-self-healing-works"></a>Hoe automatisch onderzoek en automatische herherstel werken
+## <a name="how-automated-investigation-and-self-healing-works"></a>Hoe automatisch onderzoek en zelf-herstel werken
 
-Wanneer beveiligingswaarschuwingen worden geactiveerd, kunt u het beste uw beveiligingsteam raadplegen met deze waarschuwingen en de stappen ondernemen om uw organisatie te beveiligen. Het kan zeer lang voor het maken van waarschuwingen, met name wanneer nieuwe waarschuwingen worden gehouden wanneer een onderzoek wordt gehouden, zeer veel tijd in beslag nemen en onderzoeken. Beveiligingsactiviteiten teams kunnen overspoeld worden door het doorschijnende volume van de bedreigingen die ze moeten controleren en beschermen. Geautomatiseerd onderzoek en antwoord functies met zelfherstel in Microsoft 365 Defender kan u helpen.
+Wanneer beveiligingswaarschuwingen worden geactiveerd, is het aan uw team voor beveiligingsactiviteiten om naar deze waarschuwingen te kijken en stappen te ondernemen om uw organisatie te beschermen. Het geven van prioriteit aan waarschuwingen en het onderzoeken van waarschuwingen kan erg veel tijd in beslag nemen, vooral wanneer er steeds nieuwe waarschuwingen binnen komen terwijl er een onderzoek bezig is. Teams met beveiligingsbewerkingen kunnen overstelpt worden door het grote aantal bedreigingen die ze moeten controleren en beveiligen tegen. Automatische onderzoeks- en antwoordmogelijkheden, met self-moeten, in Microsoft 365 Defender kunnen helpen.
 
-Bekijk de volgende video om te zien hoe u dit doet:
+Bekijk de volgende video om te zien hoe uw werk werkt:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4BzwB]
 
-In Microsoft 365 Defender werken geautomatiseerde onderzoek en antwoord met mogelijkheden voor automatisch herstel op uw apparaten, e-mail & inhoud en identiteiten.
+In Microsoft 365 Defender werken geautomatiseerde onderzoeken en antwoorden met self-functionaliteit op uw apparaten, e-mailen & inhoud en identiteiten.
  
 > [!TIP]
-> In dit artikel wordt beschreven hoe automatisch onderzoek en reacties werken. Zie [geautomatiseerde onderzoek-en antwoord mogelijkheden in Microsoft 365 Defender configureren](mtp-configure-auto-investigation-response.md)voor het configureren van deze functies.
+> In dit artikel wordt beschreven hoe automatisch onderzoek en antwoorden werken. Zie Geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren [in Microsoft 365 Defender](mtp-configure-auto-investigation-response.md)om deze mogelijkheden te configureren.
 
 ## <a name="your-own-virtual-analyst"></a>Uw eigen virtuele analist
 
-Voorbeeld van een virtuele analist in uw team van 1/laag 2-beveiligingsactiviteiten. De virtuele analist imiteert de ideale stappen die beveiligingsactiviteiten ondernemen om bedreigingen te onderzoeken en te herstellen. De virtuele assistent kan 24x7 werken, met onbeperkte capaciteit, en kan een aanzienlijke belasting van onderzoek en bedreiging doen. Een dergelijke virtuele assistent kon de tijd in beslag nemen om te reageren, het team van uw beveiligingsactiviteiten vrijmaken voor andere belangrijke strategische projecten. Als dit scenario klinkt als Science fictief, dan is het niet! Zo'n virtuele analist maakt deel uit van uw Microsoft 365-Suite en de naam is *geautomatiseerd onderzoek en antwoord*.
+Stel dat u een virtuele analist hebt in uw beveiligingsteam voor Laag 1/Laag 2. De virtuele analist nabootst de ideale stappen die beveiligingsbewerkingen moeten uitvoeren om bedreigingen te onderzoeken en te herstellen. De virtuele assistent zou 24x7 kunnen werken, met onbeperkte capaciteit, en een aanzienlijke belasting van onderzoeken en bedreigingen herstellen. Een dergelijke virtuele assistent kan de tijd om te reageren aanzienlijk verminderen, waardoor het team voor beveiligingsactiviteiten vrij komt voor andere belangrijke strategische projecten. Als dit scenario klinkt als sciencefiction, is dat niet het geval. Een dergelijke virtuele analist maakt deel uit van uw Microsoft 365 Defender-suite en de naam is *geautomatiseerd onderzoek en reactie.*
 
-Met geautomatiseerd onderzoek en antwoord kan uw bedrijfsvoering de capaciteit van uw organisatie ingrijpend verhogen om te zorgen voor beveiligingsmeldingen en incidenten. Met automatisch onderzoek en antwoord kunt u de kosten van transacties met onderzoek-en herstel activiteiten reduceren en optimaal gebruikmaken van uw Threat Protection-Suite. met geautomatiseerd onderzoek en antwoord zorgt u ervoor dat uw beveiligingsactiviteiten team:
+Dankzij automatisch onderzoek en automatisch antwoord kan het team voor beveiligingsactiviteiten de capaciteit van uw organisatie om te gaan met beveiligingswaarschuwingen en -incidenten aanzienlijk verhogen. Met geautomatiseerd onderzoek en automatisch onderzoek kunt u de kosten van onderzoeken en herstelactiviteiten verminderen en het beste uit uw suite voor bedreigingsbeveiliging halen. Geautomatiseerde onderzoeken en antwoorden helpt uw team voor beveiligingsbewerkingen door:
 
-1. Bepalen of een Threat een actie vereist;
-2. Het uitvoeren (of aanbevelen) van alle benodigde herstelacties;
-3. Bepalen welke aanvullende onderzoeken moeten worden gedaan; en
-4. Herhaal het proces zo nodig voor andere meldingen.
+1. Bepalen of actie moet worden ondernomen voor een bedreiging;
+2. Eventuele benodigde herstelacties uitvoeren (of aanbevelen);
+3. Bepalen welke aanvullende onderzoeken moeten worden uitgevoerd; en
+4. Herhaal dit proces indien nodig voor andere waarschuwingen.
 
-## <a name="the-automated-investigation-process"></a>Het proces voor automatisch onderzoek
+## <a name="the-automated-investigation-process"></a>Het proces van automatisch onderzoek
 
-**Waarschuwing**  >  **incident**  >  **automatisch onderzoek**  >  **verdict**  >  **herstelactie**
+**Waarschuwing**  >  **incident**  >  **geautomatiseerd onderzoek**  >  **één**  >  **herstelactie**
 
-Een waarschuwing met een trigger maakt een incident, dat een geautomatiseerd onderzoek kan starten. Dat onderzoek kan resulteren in een of meer herstelacties. In Microsoft 365 Defender verbindt elk automatisch onderzoek alle signalen in Microsoft Defender voor de identiteit, Microsoft Defender voor eindpunt en Defender voor Office 365, zoals in de volgende tabel wordt samengevat: 
+Een geactiveerde waarschuwing maakt een incident, dat een geautomatiseerd onderzoek kan starten. Dit onderzoek kan leiden tot een of meer herstelacties. In Microsoft 365 Defender correleren elk geautomatiseerd onderzoek signalen tussen Microsoft Defender for Identity, Microsoft Defender voor Eindpunt en Defender voor Office 365, zoals samengevat in de volgende tabel: 
 
-|Onderzoeksinstellingen |Service voor Threat Protection  |
+|Entiteiten |Bedreigingsbeveiligingsservices  |
 |---------|---------|
 |Apparaten (ook wel eindpunten genoemd)     |[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
-|E-mail inhoud (bestanden en berichten in postvakken)     |[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
+|E-mailinhoud (bestanden en berichten in postvakken)     |[Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
 
-Bij elk onderzoek wordt Verdicts (*kwaadaardige*, *verdachte* of *geen bedreigingen gevonden*) voor elk onderzocht onderzoek. Afhankelijk van het type bedreiging en het resultaat Verdict, worden herstelacties automatisch of na goedkeuring uitgevoerd door het team van uw organisatie. Acties in behandeling en voltooid worden weergegeven in het [Actiecentrum](mtp-action-center.md).
+Elk onderzoek genereert onderzoek (*Kwaadaardige,* *Verdachte* of Geen bedreigingen *gevonden)* voor elk stukje onderzoek dat wordt onderzocht. Afhankelijk van het type bedreiging en het resulterende resultaat, vinden herstelacties automatisch of na goedkeuring door het beveiligingsteam van uw organisatie plaats. Acties in behandeling en voltooid worden weergegeven in het [Actiecentrum.](mtp-action-center.md)
 
-Wanneer een onderzoek wordt uitgevoerd, worden eventuele andere bijbehorende waarschuwingen toegevoegd aan het onderzoek totdat het onderzoek wordt voltooid. Als een incriminated-entiteit elders wordt weergegeven, wordt het bereik van de geautomatiseerd onderzoek uitgebreid met die entiteit, en moet een algemeen beveiligings Playbook worden uitgevoerd. 
+Wanneer een onderzoek wordt uitgevoerd, worden alle andere gerelateerde waarschuwingen die zich voordoen, toegevoegd aan het onderzoek totdat het is voltooid. Als een belaste entiteit ergens anders wordt gezien, wordt het bereik van het geautomatiseerde onderzoek uitgebreid met die entiteit en wordt er een algemene beveiligings playbook uitgevoerd. 
 
 > [!NOTE]
-> Niet elke melding veroorzaakt een geautomatiseerd onderzoek en niet alle onderzoekresultaten met geautomatiseerde herstelacties; Dit is alles, afhankelijk van de manier waarop automatisch onderzoek en beantwoorden zijn geconfigureerd voor uw organisatie. Zie [geautomatiseerde onderzoek-en antwoord mogelijkheden in Microsoft 365 Defender configureren](mtp-configure-auto-investigation-response.md).
+> Niet elke waarschuwing activeert een geautomatiseerd onderzoek en niet elk onderzoek resulteert in automatische herstelacties. Dit is allemaal afhankelijk van hoe automatisch onderzoek en antwoorden voor uw organisatie zijn geconfigureerd. Zie [Mogelijkheden voor geautomatiseerd onderzoek en antwoorden configureren in Microsoft 365 Defender.](mtp-configure-auto-investigation-response.md)
 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Zie de vereisten voor automatisch onderzoek en antwoord in Microsoft 365 Defender](mtp-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
-- [Automatisch onderzoek en antwoord configureren voor uw organisatie](mtp-configure-auto-investigation-response.md)
+- [Bekijk de vereisten voor geautomatiseerd onderzoek en antwoorden in Microsoft 365 Defender](mtp-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
+- [Geautomatiseerd onderzoek en automatisch onderzoek voor uw organisatie configureren](mtp-configure-auto-investigation-response.md)
 - [Meer informatie over het Actiecentrum](mtp-action-center.md)
