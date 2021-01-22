@@ -16,32 +16,33 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het installeren van Outlook en andere Office-apps op Android-apparaten.
-ms.openlocfilehash: ba9e37a3012dd8d9e7000bf2af61c014df58023a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het installeren van Outlook en andere Office-apps op Android-apparaten.
+ms.openlocfilehash: 3b449d98a9e19e8f4ce8a3cc84dbbdce058dc310
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702119"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925120"
 ---
-# <a name="install-outlook-and-office-apps-on-android-devices"></a><span data-ttu-id="61bb6-103">Outlook en Office-apps installeren op Android-apparaten</span><span class="sxs-lookup"><span data-stu-id="61bb6-103">Install Outlook and Office apps on Android devices</span></span>
+# <a name="install-outlook-and-office-apps-on-android-devices"></a><span data-ttu-id="4dbb3-103">Outlook- en Office-apps installeren op Android-apparaten</span><span class="sxs-lookup"><span data-stu-id="4dbb3-103">Install Outlook and Office apps on Android devices</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfquk?autoplay=false]
 
-<span data-ttu-id="61bb6-104">Als uw Android-apparaat wordt beheerd door Microsoft 365 Business Premium, wordt u mogelijk gevraagd extra veiligheid in te stellen wanneer u een Office-app voor de eerste keer installeert.</span><span class="sxs-lookup"><span data-stu-id="61bb6-104">If your Android device is managed by Microsoft 365 Business Premium, you may be prompted to set up extra security the first time you install an Office app.</span></span> 
+<span data-ttu-id="4dbb3-104">Als uw Android-apparaat wordt beheerd door Microsoft 365 Business Premium, wordt u mogelijk gevraagd extra beveiliging in te stellen wanneer u de eerste keer een Office-app installeert.</span><span class="sxs-lookup"><span data-stu-id="4dbb3-104">If your Android device is managed by Microsoft 365 Business Premium, you may be prompted to set up extra security the first time you install an Office app.</span></span> 
 
-## <a name="try-it"></a><span data-ttu-id="61bb6-105">Probeer het zelf!</span><span class="sxs-lookup"><span data-stu-id="61bb6-105">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="4dbb3-105">Probeer het zelf!</span><span class="sxs-lookup"><span data-stu-id="4dbb3-105">Try it!</span></span>
 
-1. <span data-ttu-id="61bb6-106">Kies de Google Play Store op uw apparaat.</span><span class="sxs-lookup"><span data-stu-id="61bb6-106">On your device, choose the Google Play Store.</span></span>
-2. <span data-ttu-id="61bb6-107">Zoek de Office-app die u wilt installeren.</span><span class="sxs-lookup"><span data-stu-id="61bb6-107">Search for the Office app you want to install.</span></span> <span data-ttu-id="61bb6-108">Voor dit voorbeeld is&#39;alles te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="61bb6-108">We&#39;ll use Outlook for this example.</span></span>
-3. <span data-ttu-id="61bb6-109">Kies in het welkomstscherm van Outlook de optie  **aan de slag**.</span><span class="sxs-lookup"><span data-stu-id="61bb6-109">On the Outlook welcome screen, choose  **Get started**.</span></span>
-4. <span data-ttu-id="61bb6-110">Voer op de pagina  **account toevoegen**  uw microsoft 365-e-mailadres in en kies vervolgens  **Doorgaan**.</span><span class="sxs-lookup"><span data-stu-id="61bb6-110">On the  **Add Account**  page, enter your Microsoft 365 email address, and then choose  **Continue**.</span></span>
-5. <span data-ttu-id="61bb6-111">Typ onder  **Voer uw** wachtwoord uw wachtwoord in en kies vervolgens  **Aanmelden**.</span><span class="sxs-lookup"><span data-stu-id="61bb6-111">Under  **Enter your password** , type your password, and then choose  **Sign in**.</span></span>
-6. <span data-ttu-id="61bb6-112">Kies op de volgende pagina  **Doorgaan**  als u nog een account wilt toevoegen.</span><span class="sxs-lookup"><span data-stu-id="61bb6-112">On the next page, choose  **Continue**  if you want to add another account.</span></span> <span data-ttu-id="61bb6-113">Anders kiest u  **overslaan**.</span><span class="sxs-lookup"><span data-stu-id="61bb6-113">Otherwise, choose  **Skip**.</span></span>
-7. <span data-ttu-id="61bb6-114">Wanneer u wordt gevraagd om de app intune Company portal toe te voegen, kiest  **u Ga naar Store**.</span><span class="sxs-lookup"><span data-stu-id="61bb6-114">When prompted to add the Intune Company Portal app, choose  **Go to store**.</span></span>
-8. <span data-ttu-id="61bb6-115">Installeer en open de app intune Company Portal en kies  **OK**  wanneer u het bericht ziet dat uw organisatie de gegevens in deze app beschermt.</span><span class="sxs-lookup"><span data-stu-id="61bb6-115">Install and open the Intune Company portal app, and then choose  **OK**  when you see the message that your organization protects data in this app.</span></span>
-9. <span data-ttu-id="61bb6-116">Als u wordt gevraagd om een pincode in te voeren, voert u een pincode van 4 cijfers in die u&#39;ll gebruikt om de telefoon te ontgrendelen, kiest u  **verzenden** , bevestigt u uw pincode en kiest u vervolgens opnieuw  **verzenden**  .</span><span class="sxs-lookup"><span data-stu-id="61bb6-116">If asked for a PIN, enter a 4-digit PIN that you&#39;ll use to unlock your phone, choose  **Send** , confirm your PIN, and then choose  **Send**  again.</span></span>
+1. <span data-ttu-id="4dbb3-106">Kies op uw apparaat de Google Play Store.</span><span class="sxs-lookup"><span data-stu-id="4dbb3-106">On your device, choose the Google Play Store.</span></span>
+2. <span data-ttu-id="4dbb3-107">Zoek de Office-app die u wilt installeren.</span><span class="sxs-lookup"><span data-stu-id="4dbb3-107">Search for the Office app you want to install.</span></span> <span data-ttu-id="4dbb3-108">We&#39;outlook gebruiken voor dit voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="4dbb3-108">We&#39;ll use Outlook for this example.</span></span>
+3. <span data-ttu-id="4dbb3-109">Kies Aan de slag in het welkomstscherm  **van** Outlook.</span><span class="sxs-lookup"><span data-stu-id="4dbb3-109">On the Outlook welcome screen, choose  **Get started**.</span></span>
+4. <span data-ttu-id="4dbb3-110">Voer op **de pagina Account** toevoegen uw e-mailadres voor Microsoft 365 in en kies **Doorgaan.**</span><span class="sxs-lookup"><span data-stu-id="4dbb3-110">On the  **Add Account**  page, enter your Microsoft 365 email address, and then choose  **Continue**.</span></span>
+5. <span data-ttu-id="4dbb3-111">Typ **uw wachtwoord onder** Geef uw wachtwoord op en kies **Aanmelden.**</span><span class="sxs-lookup"><span data-stu-id="4dbb3-111">Under  **Enter your password** , type your password, and then choose  **Sign in**.</span></span>
+6. <span data-ttu-id="4dbb3-112">Kies Op de volgende pagina de  **optie Doorgaan**  als u nog een account wilt toevoegen.</span><span class="sxs-lookup"><span data-stu-id="4dbb3-112">On the next page, choose  **Continue**  if you want to add another account.</span></span> <span data-ttu-id="4dbb3-113">Kies anders **Overslaan.**</span><span class="sxs-lookup"><span data-stu-id="4dbb3-113">Otherwise, choose  **Skip**.</span></span>
+7. <span data-ttu-id="4dbb3-114">Wanneer u wordt gevraagd om de app Bedrijfsportal Intune toe te voegen, kiest **u Ga naar store.**</span><span class="sxs-lookup"><span data-stu-id="4dbb3-114">When prompted to add the Intune Company Portal app, choose  **Go to store**.</span></span>
+8. <span data-ttu-id="4dbb3-115">Installeer en open de intune Company portal-app en kies  **VERVOLGENS OK**  wanneer u het bericht ziet dat uw organisatie gegevens in deze app beschermt.</span><span class="sxs-lookup"><span data-stu-id="4dbb3-115">Install and open the Intune Company portal app, and then choose  **OK**  when you see the message that your organization protects data in this app.</span></span>
+9. <span data-ttu-id="4dbb3-116">Als u om een pincode wordt gevraagd, voert u een pincode van 4 cijfers in die u&#39;gebruikt om uw telefoon te ontgrendelen, kiest u **Verzenden,** bevestigt u uw pincode en kiest u opnieuw **verzenden.**</span><span class="sxs-lookup"><span data-stu-id="4dbb3-116">If asked for a PIN, enter a 4-digit PIN that you&#39;ll use to unlock your phone, choose  **Send** , confirm your PIN, and then choose  **Send**  again.</span></span>
