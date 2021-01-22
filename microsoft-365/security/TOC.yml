@@ -338,7 +338,7 @@
               href: ./office-365-security/office-365-evaluation.md
             - name: Nieuw in Defender voor Office 365
               href: office-365-security/whats-new-in-office-365-atp.md
-            - name: 'Defender voor Office 365 voor SharePoint, OneDrive en Microsoft Teams'
+            - name: 'Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams'
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: Nieuw Microsoft 365-beveiligingscentrum
               href: ./mtp/overview-security-center.md
@@ -400,7 +400,7 @@
               href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Standaard beveiligen
               href: ./office-365-security/secure-by-default.md
-            - name: ATP-beleid tegen phishing configureren
+            - name: Anti-phishingbeleid configureren in Defender voor Office 365
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: Beleid tegen malware configureren
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -436,7 +436,7 @@
               href: ./office-365-security/user-submission.md
             - name: Gebruikerstags in Defender voor Office 365
               href: ./office-365-security/user-tags.md
-            - name: 'Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams'
+            - name: 'Veilige bijlagen uitschakelen voor SharePoint, OneDrive en Microsoft Teams'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: DKIM gebruiken om uitgaande e-mail te valideren
               href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -457,7 +457,7 @@
                   href: ./office-365-security/configure-s-mime-settings-for-outlook-web-app.md
                 - name: Met S/MIME ondertekende en versleutelde e-mail verzenden en ontvangen
                   href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
-                - name: Gebruikerscertificaten synchroniseren met Office 365 voor S/MIME
+                - name: Gebruikerscertificaten synchroniseren met Microsoft 365 voor S/MIME
                   href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
                 - name: Verzameling van virtuele certificaten instellen om S/MIME te valideren
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
@@ -501,7 +501,7 @@
               href: ./office-365-security/air-custom-reporting.md
             - name: 'Geavanceerde spamfilterinstellingen (Advanced Spam Filter, ASF)'
               href: ./office-365-security/advanced-spam-filtering-asf-options.md
-            - name: URL's beheren in de lijst met toegestane/geblokkeerde tenants
+            - name: Tenant Toestaan/Blokkeren-lijst beheren
               href: ./office-365-security/tenant-allow-block-list.md
             - name: Berichttracering in het Beveiligings- en compliancecentrum
               href: ./office-365-security/message-trace-scc.md
