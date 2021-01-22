@@ -1,5 +1,5 @@
 ---
-title: Deelnemen aan een Microsoft teams-vergadering met gasten
+title: Deelnemen aan een Microsoft Teams-vergadering met gasten
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,31 +16,32 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Leer hoe u kunt deelnemen aan vergaderingen in teams met gasten.
-ms.openlocfilehash: bb13396f13062e65700a535315ef41292210b3a8
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Lees hoe u met gasten kunt deelnemen aan een Teams-vergadering.
+ms.openlocfilehash: a5f19aab079685a76f31bf67c1c79bd7312d00a4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701682"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927140"
 ---
 # <a name="join-a-teams-meeting-with-guests"></a>Deelnemen aan een Teams-vergadering met gasten
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYWn?autoplay=false]
 
-Met Microsoft teams kunt u eenvoudig deelnemen aan en deelnemen aan een vergadering met interne en externe gebruikers.
+Met Microsoft Teams kunt u eenvoudig deelnemen aan en deelnemen aan vergaderingen met zowel interne als externe gebruikers.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Kies **agenda** in Microsoft teams en zoek de vergadering.
-1. Selecteer **deelnemen**, Bepaal of u de camera en microfoon wilt in-of uitschakelen en selecteer **nu lid worden**.
-1. Als u een externe gast bent, opent u de e-mail die u hebt ontvangen over de vergadering en selecteert u **deelnemen aan Microsoft teams-vergadering**.
+1. Kies Agenda in Microsoft Teams **en** zoek uw vergadering.
+1. Selecteer **Deelnemen,** bepaal of u uw camera en microfoon wilt in- of uitschakelen en selecteer **Nu deelnemen.**
+1. Als u een externe gast bent, opent u het e-mailbericht dat u hebt ontvangen over de vergadering en selecteert u **Deelnemen aan Microsoft Teams-vergadering.**
 
-    Als u de app niet wilt downloaden, kiest u in plaats daarvan **deelnemen aan het web** .
-1. Voer uw naam in en selecteer **nu lid worden**.
-1. Als iedereen is aangekomen, kunt u de vergadering starten door uw bureaublad, een monitor of een app zoals PowerPoint te delen.
-1. Wanneer de vergadering is afgelopen, selecteert u **ophangen**.
+    Als u de app niet wilt downloaden, kiest u in plaats **daarvan Deelnemen op internet.**
+1. Voer uw naam in en selecteer **Nu deelnemen.**
+1. Zodra iedereen er is, kunt u de vergadering starten door uw bureaublad, een monitor of een app zoals PowerPoint te delen.
+1. Wanneer de vergadering afgelopen is, selecteert u **Ophangen.**

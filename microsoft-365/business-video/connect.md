@@ -16,47 +16,48 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Leer hoe u een PC verbindt met Microsoft 365 Business.
-ms.openlocfilehash: 715f20ecd8f10d3d21fbdfac2953369504f02dec
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Meer informatie over het verbinden van uw pc met Microsoft 365 Business.
+ms.openlocfilehash: 61adae68541233ffb7b7087174c4633995b28fdd
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702302"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927308"
 ---
-# <a name="connect-your-pc-to-microsoft-365-business-premium"></a>Uw PC aansluiten op Microsoft 365 Business Premium
+# <a name="connect-your-pc-to-microsoft-365-business-premium"></a>Uw pc verbinden met Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3?autoplay=false]
 
 ## <a name="try-it"></a>Probeer het zelf!
-Nadat u Microsoft 365 Business Premium (voorheen Microsoft 365 Business) hebt ingesteld, moeten u en uw werknemers een paar stappen uitvoeren om optimaal gebruik te kunnen maken van de functies voor beveiliging en beheer. Hier&#39;s.
+Nadat u Microsoft 365 Business Premium (voorheen Microsoft 365 Business) hebt ingesteld, moeten u en uw werknemers enkele stappen doorlopen om optimaal gebruik te kunnen maken van de beveiligings- en beheerfuncties. Hier&#39;u hoe u dit doet.
 
 Controleer eerst of Windows 10 Pro is geïnstalleerd:
 
-1. Kies  **Start** , zoek  **het Configuratiescherm** en selecteer het.
-2. Kies **systeem-en beveiligings**   >   **systeem** en bevestig uw Windows-versie.
+1. Kies  **Start,** zoek naar  **Configuratiescherm** en selecteer het.
+2. Kies **Systeem- en**   >   **beveiligingssysteem** en bevestig uw Windows-versie.
 
-Vervolgens maakt u verbinding met Microsoft 365 Business:
+Maak vervolgens verbinding met Microsoft 365 Business:
 
-1. Selecteer  **Start** en selecteer vervolgens het pictogram  **instellingen** .
-2. Selecteer **accounts**  >   **Access of school**   >   **Connect**.
-3. Selecteer  **lidmaatschap van dit apparaat toevoegen aan Azure Active Directory**.
-4. Voer het e-mailadres voor uw Microsoft 365-account in en selecteer  **volgende**.
-5. Voer uw wachtwoord in, selecteer Aanmelden en controleer of u lid bent  **van** de juiste organisatie.
-6. Selecteer  **deelnemen** en selecteer  **gereed**.
+1. Selecteer  **Start** en selecteer vervolgens het  **pictogram** Instellingen.
+2. Selecteer **Accounts**  >   **Toegang tot werk of School**   >   **Connect.**
+3. Selecteer **Dit apparaat toevoegen aan Azure Active Directory.**
+4. Voer het e-mailadres voor uw Microsoft 365-account in en selecteer **Volgende.**
+5. Voer uw wachtwoord in, selecteer  **Aanmelden** en controleer vervolgens of u lid wordt van de juiste organisatie.
+6. Selecteer **Deelnemen** en selecteer vervolgens **Klaar.**
 
-Afhankelijk van hoe uw bedrijf Microsoft 365 Business voorstelt, ziet u mogelijk een melding voor het versleutelen van uw PC. Uw PC versleutelen:
+Afhankelijk van hoe uw bedrijf Microsoft 365 Business heeft ingesteld, ziet u mogelijk een melding om uw pc te versleutelen. Uw pc versleutelen:
 
-1. Selecteer het bericht dat u wilt  **versleutelen**  .
-2. Selecteer  **me&#39;t een andere schijf versleutelings software installeren, Versleutel al mijn schijven** en selecteer vervolgens  **Ja**. U ziet een startscherm van  **BitLocker**  met een voortgangsbalk.
-3. Selecteer **een pincode invoeren (aanbevolen)** in het venster **Kies hoe u uw station ontgrendelt bij het opstart** venster.
-4. Voer uw pincode in en voer deze vervolgens opnieuw in om te verifiëren. Selecteer  **pincode instellen**.
-5. Kies een methode voor het opslaan van een sleutel voor het herstellen van versleuteling en selecteer  **volgende**.
-6. Kies de hoeveelheid station die u wilt versleutelen en selecteer  **volgende**.
-7. Kies een versleutelingsmodus, selecteer  **volgende** en selecteer vervolgens  **Doorgaan**. Uw station wordt nu versleuteld. U kunt blijven werken tijdens het versleutelingsproces.
+1. Selecteer het **bericht dat u nodig hebt voor versleuteling.**
+2. Selecteer ik&#39;andere software voor schijfversleuteling niet is **geïnstalleerd, versleutel** al mijn schijven en selecteer **ja.** U ziet een  **BitLocker-venster starten**  met een voortgangsbalk.
+3. Selecteer in **het venster Kiezen hoe u het station ontgrendelt** bij het opstarten een pincode invoeren **(aanbevolen).**
+4. Voer uw pincode in en voer deze opnieuw in om deze te verifiëren. Selecteer **Pincode instellen.**
+5. Kies een methode om een versleutelingsherstelsleutel op te slaan en selecteer vervolgens **Volgende.**
+6. Kies hoeveel van het station u wilt versleutelen en selecteer vervolgens **Volgende.**
+7. Kies een versleutelingsmodus, **selecteer Volgende** en selecteer vervolgens **Doorgaan.** Het station wordt nu versleuteld. U kunt blijven werken tijdens het versleutelingsproces.
 
-Uw PC is nu beveiligd en wordt beheerd door Microsoft 365 Business.
+Uw pc is nu beveiligd en wordt beheerd door Microsoft 365 Business.

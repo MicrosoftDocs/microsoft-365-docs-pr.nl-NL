@@ -1,10 +1,10 @@
 ---
-title: 'Aanbevolen beleidsregels voor beveiliging van e-mail: Microsoft 365 for Enterprise | Microsoft docs'
-description: Een beschrijving van de beleidsregels voor Microsoft-aanbevelingen over het toepassen van e-mail beleidsregels en configuraties.
+title: Aanbevolen e-mailbeleid beveiligen - Microsoft 365 voor ondernemingen | Microsoft Docs
+description: Hier worden de beleidsregels voor Microsoft-aanbevelingen beschreven voor het toepassen van e-mailbeleid en -configuraties.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.topic: article
 f1.keywords:
 - NOCSH
@@ -18,63 +18,64 @@ ms.collection:
 - remotework
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: f2d3b9180ad5ab58e92812ed7b2d4f7ba07e2971
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.technology: mdo
+ms.openlocfilehash: f3654762bf4d4c28a82b1e93829094b9e0386a60
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357107"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926520"
 ---
-# <a name="policy-recommendations-for-securing-email"></a>Beleids aanbevelingen voor beveiliging van e-mail
+# <a name="policy-recommendations-for-securing-email"></a>Beleidsaanbevelingen voor het beveiligen van e-mail
 
-In dit artikel wordt uitgelegd hoe u de aanbevolen identiteit en het beleid voor het openen van e-mailberichten en e-mail cliënten voor e-mail en e-mail clients beschermt die ondersteuning bieden voor moderne verificatie en voorwaardelijke toegang. Deze richtlijnen zijn van toepassing op de [gangbare beleidsregels voor identiteits-en Apparaattoegang](identity-access-policies.md) en bevat ook een paar extra aanbevelingen.
+In dit artikel wordt beschreven hoe u het aanbevolen beleid voor identiteits- en apparaattoegang implementeert ter bescherming van e-mail- en e-mail clients van de organisatie die ondersteuning bieden voor moderne verificatie en voorwaardelijke toegang. Deze richtlijnen zijn gebaseerd op het algemene beleid voor identiteits- en [apparaattoegang](identity-access-policies.md) en bevat ook een paar extra aanbevelingen.
 
-Deze aanbevelingen maken deel uit van drie verschillende niveaus voor beveiliging en bescherming die op basis van de granulatie van uw behoeften kunnen worden toegepast: **basislijn**, **gevoelige** en **nadrukkelijk gereglementeerde**. U vindt meer informatie over deze beveiligingslagen en de aanbevolen besturingssystemen van de client, waarnaar wordt verwezen door deze aanbevelingen in het [Aanbevolen beveiligingsbeleid en de introductie van configuraties](microsoft-365-policies-configurations.md).
+Deze aanbevelingen zijn gebaseerd op drie verschillende beveiligingslagen en -beveiliging die kunnen worden toegepast op basis van de granulatie van uw behoeften: **baseline,** **sensitive** en **sterk reguleerd.** Meer informatie over deze beveiligingslagen en de aanbevolen clientbesturingssystemen waarnaar wordt verwezen door deze aanbevelingen in de aanbevolen inleiding tot beveiligingsbeleid [en configuraties.](microsoft-365-policies-configurations.md)
 
-Voor deze aanbevelingen moeten uw gebruikers moderne e-mailclients gebruiken, waaronder Outlook voor iOS en Android op een mobiel apparaat. Outlook voor iOS en Android bieden ondersteuning voor de beste functies van Office 365. Deze mobiele Outlook-apps zijn ook samengesteld met beveiligingsfuncties die ondersteuning bieden voor mobiele gebruikers en werken samen met andere mogelijkheden van Microsoft Cloud-beveiliging. Voor meer informatie raadpleegt u [Veelgestelde vragen over Outlook voor IOS en Android](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq).
+Deze aanbevelingen vereisen dat uw gebruikers moderne e-mailcl clients gebruiken, waaronder Outlook voor iOS en Android op mobiele apparaten. Outlook voor iOS en Android biedt ondersteuning voor de beste functies van Office 365. Deze mobiele Outlook-apps zijn ook ontworpen met beveiligingsmogelijkheden die ondersteuning bieden voor mobiel gebruik en die samenwerken met andere cloudbeveiligingsfuncties van Microsoft. Zie de veelgestelde [vragen over Outlook voor iOS en Android voor meer informatie.](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq)
 
-## <a name="update-common-policies-to-include-email"></a>Veelgebruikte beleidsregels bijwerken voor het opnemen van e-mail
+## <a name="update-common-policies-to-include-email"></a>Algemene beleidsregels bijwerken voor het opnemen van e-mail
 
-In het volgende diagram ziet u welke beleidsregels u moet bijwerken vanuit de veelgebruikte beleidsregels voor identiteit en Apparaattoegang.
+Ter bescherming van e-mail ziet u in het volgende diagram welk beleid moet worden bijgewerkt op basis van het algemene identiteits- en apparaattoegangsbeleid.
 
-[![Overzicht van beleidsupdates voor de bescherming van de toegang tot teams en de afhankelijke services](../../media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
+[![Overzicht van beleidsupdates voor het beschermen van de toegang tot Teams en de afhankelijke services ervan](../../media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
-[Een grotere versie van deze afbeelding weergeven](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
+[Een grotere versie van deze afbeelding bekijken](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-mail.png)
 
-Let op het toevoegen van een nieuw beleid voor Exchange Online om ActiveSync-clients te blokkeren. Hiermee wordt het gebruik van Outlook Mobile geforceerd.
+Houd rekening met de toevoeging van een nieuw beleid voor Exchange Online om ActiveSync-clients te blokkeren. Dit dwingt het gebruik van Outlook Mobile af.
 
-Als u Exchange Online en Outlook hebt opgenomen in het bereik van de beleidsregels wanneer u deze instelt, hoeft u alleen het nieuwe beleid te maken om ActiveSync-clients te blokkeren. Bekijk de beleidsregels die in de volgende tabel worden vermeld en maak de aanbevolen toevoegingen, of Controleer of deze al zijn opgenomen. Elk beleid koppelt aan de gekoppelde configuratie-instructies in een [gemeenschappelijk identiteits-en toegangsbeleid voor apparaten](identity-access-policies.md).
+Als u Exchange Online en Outlook hebt opgenomen in het bereik van het beleid tijdens het instellen, hoeft u alleen het nieuwe beleid te maken om ActiveSync-clients te blokkeren. Bekijk de beleidsregels in de volgende tabel en gebruik de aanbevolen toevoegingen of bevestig dat deze al zijn opgenomen. Elk beleid is gekoppeld aan de bijbehorende configuratie-instructies in [common identity- en apparaattoegangsbeleid.](identity-access-policies.md)
 
-|Beveiligingsniveau|Lijnen|Meer informatie|
+|Beveiligingsniveau|Beleidsregels|Meer informatie|
 |---|---|---|
-|**Basislijn**|[MFA vereisen wanneer het aanmeld risico *normaal* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van Cloud-apps|
-||[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Exchange Online opnemen in de toewijzing van Cloud-apps|
-||[Beleid voor APP-gegevensbeveiliging toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat Outlook is opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform (iOS, Android, Windows) bijwerkt.|
-||[Goedgekeurde apps en APP-beveiliging vereisen](identity-access-policies.md#require-approved-apps-and-app-protection)|Exchange Online opnemen in de lijst met Cloud-apps|
-||[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Exchange Online opnemen in de lijst met Cloud-apps|
+|**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* *of* hoog is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
+||[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Exchange Online opnemen in de toewijzing van cloud-apps|
+||[Beleid voor app-gegevensbescherming toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat Outlook is opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform bijwerkt (iOS, Android, Windows)|
+||[Goedgekeurde apps en APP-beveiliging vereisen](identity-access-policies.md#require-approved-apps-and-app-protection)|Exchange Online opnemen in de lijst met cloud-apps|
+||[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Exchange Online opnemen in de lijst met cloud-apps|
 ||[ActiveSync-clients blokkeren](#block-activesync-clients)|Dit nieuwe beleid toevoegen|
-|**Gevoelig**|[MFA vereisen wanneer het aanmeld risico *slecht*, *gemiddeld* of *hoog* is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van Cloud-apps|
-||[Compatibele Pc's *en* mobiele apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Exchange Online opnemen in de lijst met Cloud-apps|
-|**Sterk gereglementeerd**|[*Altijd* MFA vereisen](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van Cloud-apps|
+|**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog is*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
+||[Compatibele pc's *en mobiele* apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Exchange Online opnemen in de lijst met cloud-apps|
+|**Sterk gereglementeerd**|[*Altijd* MFA vereisen](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
 |
 
 ## <a name="block-activesync-clients"></a>ActiveSync-clients blokkeren
 
-Dit beleid voorkomt dat ActiveSync-clients andere beleidsregels voor voorwaardelijke toegang negeren. De beleidsconfiguratie geldt alleen voor ActiveSync-clients. Met dit beleid moet u ActiveSync-clients blokkeren om het **[beveiligingsbeleid voor apps vereisen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)**. Meer informatie over het maken van dit beleid vindt u in het [beleid voor app-beveiliging vereisen voor toegang tot de Cloud-app met voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
+Met dit beleid wordt voorkomen dat met ActiveSync-clients andere beleidsregels voor voorwaardelijke toegang worden overgeslagen. De beleidsconfiguratie geldt alleen voor ActiveSync-clients. Als u **[het beveiligingsbeleid voor apps vereist](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** selecteert, wordt ActiveSync-clients met dit beleid niet meer geselecteerd. Meer informatie over het maken van dit beleid vindt u in het beveiligingsbeleid voor apps vereisen voor toegang tot [cloud-apps met voorwaardelijke toegang.](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
 
-- Ga als volgt te werk: ' stap 2: Configureer een Azure AD-beleid voor voorwaardelijke toegang voor Exchange Online met ActiveSync (EAS) ' in [scenario 1: voor Office 365-apps zijn goedgekeurde apps vereist met een app-beveiligingsbeleid](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), waardoor Exchange ActiveSync-clients niet via basisverificatie verbinding maken met Exchange Online.
+- Volg 'Stap 2: Configureer een beleid voor voorwaardelijke toegang van Azure AD voor Exchange Online met ActiveSync (EAS)' in [scenario 1: Voor Office 365-apps](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)zijn goedgekeurde apps met app-beveiligingsbeleid vereist, waardoor Exchange ActiveSync-clients geen verbinding kunnen maken met Exchange Online via basisverificatie.
 
-U kunt ook authenticatiebeleid gebruiken om [Basisverificatie uit te schakelen](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online), waardoor alle aanvragen voor clienttoegang worden gebruikt voor moderne verificatie.
+U kunt ook verificatiebeleid gebruiken om [basisverificatie](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)uit te schakelen, waardoor alle aanvragen voor clienttoegang moeten worden gebruikt van moderne verificatie.
 
-## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>Toegang tot Exchange Online vanuit de webversie van Outlook beperken
+## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>Toegang tot Exchange Online beperken vanuit de webversie van Outlook
 
-U kunt beperkingen instellen voor de mogelijkheid dat gebruikers bijlagen downloaden van de webversie van Outlook op umnanaged-apparaten. Gebruikers op deze apparaten kunnen deze bestanden weergeven en bewerken met behulp van Office Online zonder de bestanden op het apparaat te lekt en op te slaan. U kunt ervoor zorgen dat gebruikers ook bijlagen kunnen zien op een niet-beheerd apparaat.
+U kunt de mogelijkheid voor gebruikers beperken om bijlagen te downloaden van de webversie van Outlook op umnanaged-apparaten. Gebruikers op deze apparaten kunnen deze bestanden weergeven en bewerken met Office Online zonder dat ze de bestanden op het apparaat kunnen lekken en opslaan. U kunt ook blokkeren dat gebruikers bijlagen kunnen zien op een onmanaged apparaat.
 
 Dit doet u als volgt:
 
-1. [Maak verbinding met een externe PowerShell-sessie van Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
-2. Als u nog geen OWA-postvak beleid hebt, kunt u er een maken met de [nieuwe OwaMailboxPolicy-](https://docs.microsoft.com/powershell/module/exchange/new-owamailboxpolicy) cmdlet.
-3. Gebruik de volgende opdracht als u het weergeven van bijlagen wilt toestaan, maar niet wilt downloaden:
+1. [Maak verbinding met een externe PowerShell-sessie van Exchange Online.](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
+2. Als u nog geen OWA-postvakbeleid hebt, maakt u er een met de cmdlet [New-OwaMailboxPolicy.](https://docs.microsoft.com/powershell/module/exchange/new-owamailboxpolicy)
+3. Als u wilt toestaan dat bijlagen worden bekeken, maar niet worden gedownload, gebruikt u deze opdracht:
 
    ```powershell
    Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnly
@@ -86,29 +87,29 @@ Dit doet u als volgt:
    Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnlyPlusAttachmentsBlocked
    ```
 
-5. Maak in de Azure-Portal een nieuw beleid voor voorwaardelijke toegang met de volgende instellingen:
+5. Maak in de Azure Portal een nieuw beleid voor voorwaardelijke toegang met de volgende instellingen:
 
-   **Opdrachten** \> **Gebruikers en groepen**: Selecteer de gewenste gebruikers en groepen om deze op te nemen en uit te sluiten.
+   **Opdrachten** \> **Gebruikers en groepen:** selecteer de juiste gebruikers en groepen die u wilt opnemen en uitsluiten.
 
-   **Opdrachten** \> **Cloud-apps of-acties** \> **Cloud-apps** \> **Neem ook** \> **Selecteer apps**: **Office 365 Exchange Online** selecteren
+   **Opdrachten** \> **Cloud-apps of -acties** \> **Cloud-apps** \> **Opnemen** \> **Apps selecteren:** **Office 365 Exchange Online selecteren**
 
-   **Besturingselementen** \> voor Access **Sessie**: Selecteer door **apps gehandhaafde beperkingen gebruiken**
+   **Access-besturingselementen** \> **Sessie:** **Door app afgedwongen beperkingen gebruiken selecteren**
 
-## <a name="require-that-ios-and-android-devices-must-use-outlook"></a>Vereisen dat iOS-en Android-apparaten Outlook gebruiken
+## <a name="require-that-ios-and-android-devices-must-use-outlook"></a>Vereisen dat iOS- en Android-apparaten Outlook gebruiken
 
-Om ervoor te zorgen dat de gebruikers van iOS-en Android-apparaten alleen toegang hebben tot uw werk-of school inhoud met behulp van Outlook voor iOS en Android, moet u beschikken over een voorwaardelijk toegangsbeleid dat de potentiële gebruikers bedoelt.
+Om ervoor te zorgen dat gebruikers van iOS- en Android-apparaten alleen toegang hebben tot werk- of schoolinhoud met Outlook voor iOS en Android, hebt u een beleid voor voorwaardelijke toegang nodig dat is gericht op deze potentiële gebruikers.
 
-Zie de stappen voor het configureren van dit beleid in [Access voor samenwerking via E-mail beheren met Outlook voor IOS en Android]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access).
+Zie de stappen voor het configureren van dit beleid in Toegang voor samenwerking via berichten beheren met [Outlook voor iOS en Android.]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
 
-## <a name="set-up-message-encryption"></a>Bericht versleuteling instellen
+## <a name="set-up-message-encryption"></a>Berichtversleuteling instellen
 
-Met de nieuwe functies voor het versleutelen van Office 365-berichten versleutelen (OME) die gebruikmaken van de beveiligingsfuncties in azure Information Protection kunt u in uw organisatie eenvoudig beveiligde e-mail delen met iedereen op elk apparaat. Gebruikers kunnen beveiligde berichten verzenden en ontvangen met andere Microsoft 365-organisaties, evenals niet-klanten die gebruikmaken van Outlook.com, Gmail en andere e-mailservices.
+Met de nieuwe office 365-berichtversleutelingsfuncties (OME), die gebruikmaken van de beveiligingsfuncties in Azure Information Protection, kan uw organisatie beveiligde e-mail gemakkelijk delen met iedereen op elk apparaat. Gebruikers kunnen beveiligde berichten verzenden en ontvangen in andere Microsoft 365-organisaties en niet-klanten die Outlook.com, Gmail en andere e-mailservices gebruiken.
 
-Voor meer informatie raadpleegt [u nieuwe functies in Office 365-berichten versleutelen instellen](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities).
+Zie Nieuwe office [365-berichtversleutelingsfuncties instellen voor meer informatie.](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities)
 
 ## <a name="next-steps"></a>Volgende stappen
 
-![Stap 4: beleidsregels voor Microsoft 365 Cloud-apps](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![Stap 4: Beleid voor Microsoft 365-cloud-apps](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 Beleidsregels voor voorwaardelijke toegang configureren voor:
 

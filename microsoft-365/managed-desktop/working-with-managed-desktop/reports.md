@@ -9,41 +9,45 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bfd8305d23e0e6d761c629ee3048c6204f702d37
-ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
+ms.openlocfilehash: a80616b58298ba544b9eab1d19ffb77f0e6825d4
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49585326"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921348"
 ---
 # <a name="work-with-reports"></a>Werken met rapporten
 
-Microsoft Managed Desktop biedt diverse rapporten en dashboards die IT-beheerders in uw organisatie kunnen gebruiken om verschillende aspecten van de bevolking van apparaten te begrijpen.U vindt rapporten op twee locaties: in [Microsoft Endpoint Manager](https://endpoint.microsoft.com) en in het [Microsoft 365-Beheercentrum](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop). 
+Microsoft Managed Desktop biedt verschillende rapporten en dashboards die IT-beheerders in uw organisatie kunnen gebruiken om inzicht te krijgen in de verschillende aspecten van de populatie van apparaten.U vindt rapporten op twee locaties: in [Microsoft Endpoint Manager](https://endpoint.microsoft.com) en in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop) 
 
 ## <a name="reports-in-microsoft-endpoint-manager"></a>Rapporten in Microsoft Endpoint Manager
 
-Met de Microsoft Endpoint Manager-console deelt u rapporten van diverse producten naar één locatie, zodat u problemen kunt controleren en onderzoeken met de configuratie en apparaten van Azure AD organisatie (Tenant). Het Microsoft-beheer bureaublad heeft een sectie onder **rapporten** in het hoofdmenu, waar u rapporten kunt vinden voor het beheer van het Microsoft-beheerapparaat van de apparaten die u hebt geregistreerd.
+De Microsoft Endpoint Manager-console brengt rapportages van verschillende producten samen op één locatie om problemen met de configuratie en apparaten van uw Azure AD-organisatie ('tenant') te controleren en te onderzoeken. Het beheerde bureaublad van Microsoft bevat een sectie onder Rapporten **in** het hoofdmenu waar u rapporten kunt vinden die specifiek zijn voor het beheer van microsoft Beheerd bureaublad van de apparaten die u hebt geregistreerd.
 
-Daarnaast kunt u op verschillende locaties in Microsoft-eindpunten rapporten filteren op basis van andere productgroepen, zodat u alleen uw apparaten kunt opnemen of uitsluiten die door Microsoft worden beheerd. Voor deze rapporten is de volgende filterfunctie geïntegreerd:
+Deze rapporten omvatten:
+- **Beheerde apparaten**  >  **Functie-updates:** in deze weergave ziet u de algehele status van functie-updates op uw microsoft Beheerde bureaublad-apparaten.
+- **Beheerde apparaten**  >  **Office-updates:** in deze weergave ziet u de algehele status van Office-updates op uw Microsoft Managed Desktop-apparaten.
 
-- **Alle apparaten**
-- **Apparaatcompatibiliteit**
-- **Niet-compatibele apparaten**
+Bovendien kunt u op verschillende locaties in Microsoft Endpoint Manager rapporten uit andere productgroepen filteren om uw apparaten die worden beheerd door het beheerde bureaublad van Microsoft, specifiek op te nemen of uit te sluiten. Deze rapporten hebben deze filtermogelijkheden geïntegreerd:
+
+- [Alle apparaten](https://docs.microsoft.com/mem/intune/remote-actions/device-management#get-to-your-devices)
+- [Apparaat compliance](https://docs.microsoft.com/mem/intune/fundamentals/reports#device-compliance-report-organizational)
+- [Niet-compatibele apparaten](https://docs.microsoft.com/mem/intune/fundamentals/reports#noncompliant-devices-report-operational)
 
 > [!NOTE]
-> Aangepaste Microsoft beheerde bureaublad rollen garanderen alleen toegang tot de Microsoft beheerde bureaublad rapporten. Zie [toegangsbeheer op basis van rollen met Microsoft intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control)voor informatie over toegang tot andere onderdelen van Microsoft Endpoint Manager, zoals **alle apparaten**. 
+> Aangepaste rollen in het beheerde bureaublad van Microsoft garanderen alleen toegang tot de rapporten van Microsoft Beheerd bureaublad. Zie Toegangsbeheer op basis van rollen met Microsoft Intune voor toegang tot andere onderdelen [van Microsoft Eindpuntbeheer, zoals Alle apparaten.](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control) 
 
-## <a name="reports-in-microsoft-365-admin-center"></a>Rapporten in het Beheercentrum van Microsoft 365
+## <a name="reports-in-microsoft-365-admin-center"></a>Rapporten in het Microsoft 365-beheercentrum
 
-U vindt Microsoft Managed Desktop inzichten-rapporten door het [Microsoft 365-Beheercentrum](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop)te openen en vervolgens te navigeren naar **rapporten** en door **Microsoft beheerde bureaublad** te selecteren. U kunt ook de directe koppeling naar deze rapporten volgen via het tabblad **Microsoft Managed Desktop** op de startpagina van [Microsoft Endpoint Manager](https://endpoint.microsoft.com). 
+U kunt inzichten in Microsoft Managed Desktop insights vinden door het Microsoft  [365-beheercentrum](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop)te openen, naar Rapporten te gaan en **Microsoft Managed Desktop te selecteren.** U kunt ook de directe koppeling naar deze rapporten volgen op het tabblad **Microsoft Beheerd bureaublad** op de startpagina van Microsoft [Endpoint Manager.](https://endpoint.microsoft.com) 
 
-Dit rapport bevat de volgende informatie: 
+Deze rapporten omvatten: 
 
-- [Gebruiks inzichten](usage-insights.md) : in deze weergave worden gebruiksgegevens weergegeven voor uw door Microsoft beheerde bureaublad apparaten.
-- [Betrouwbaarheid-inzichten](reliability-insights.md) : in deze weergave ziet u een overzicht van de status van uw beheerde apparatuur.
-- [Batterij inzichten](battery-insights.md) : in deze weergave ziet u informatie over het energieverbruik van apps en de geprojecteerde acculevensduur voor apparaten in uw omgeving.
-- [Windows beveiligingsupdate inzichten](security-update-insights.md) : in deze weergave ziet u informatie over de status van beveiligingsupdates voor uw door Microsoft beheerde bureaublad apparaten.
+- [Gebruiksinzichten:](usage-insights.md) deze weergave bevat gebruiksgegevens voor uw door Microsoft beheerde bureaubladapparaten.
+- [Betrouwbaarheidsinzichten:](reliability-insights.md) deze weergave bevat een overzicht van de status van uw beheerde apparaten.
+- [Batterijinzichten:](battery-insights.md) in deze weergave ziet u informatie over het energieverbruik van apps en de verwachte levensduur van de batterij voor apparaten in uw omgeving.
+- [Inzichten in Windows-beveiligingsupdates:](security-update-insights.md) deze weergave toont informatie over de status van beveiligingsupdates voor uw beheerde bureaubladapparaten van Microsoft.
 
- ## <a name="inventory-data"></a>Inventarisatiegegevens
+ ## <a name="inventory-data"></a>Voorraadgegevens
 
-Naast de andere rapporten kunt u informatie exporteren over de apparaten die door Microsoft worden beheerd. In de weergave **apparaten** van het gebied **apparaten** van Microsoft Endpoint Manager gebruikt u het tabblad **Alles exporteren** om [een gedetailleerd inventarisatie rapport te downloaden](device-inventory-report.md).
+Naast de andere rapporten kunt u ook informatie exporteren over de apparaten die worden beheerd met het beheerde bureaublad van Microsoft. In de **weergave Apparaten** van het **gebied Apparaten** van Microsoft Endpoint Manager gebruikt u het tabblad Alles exporteren om een gedetailleerd  [voorraadrapport te downloaden.](device-inventory-report.md)

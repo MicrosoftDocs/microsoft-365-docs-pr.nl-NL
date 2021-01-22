@@ -13,7 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over meervoudige verificatie in Microsoft 365.
-ms.openlocfilehash: cb425f3fd3d97dc0cd8815699bd22cb2540aed46
-ms.sourcegitcommit: 09518b7c9146cda7fd42839ee644ad418d48491a
+ms.openlocfilehash: 7d62d88acb5137bd0674de7a42b44103bc9fc5f0
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49001511"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926544"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Meervoudige verificatie instellen voor Microsoft 365
 
@@ -37,7 +39,7 @@ Om een extra beveiligingsniveau voor aanmeldingen te bieden, moet u meervoudige 
 - Iets wat men bij zich heeft dat niet makkelijk te dupliceren is, zoals een smartphone.
 - Iets wat u uniek en biologisch heeft, zoals uw vingerafdrukken, gezicht of ander biometrisch kenmerk.
 
-De extra verificatiemethode wordt pas gebruikt wanneer het wachtwoord van de gebruiker is geverifieerd. Met MFA, zelfs als een sterk gebruikerswachtwoord wordt gestolen, heeft de aanvaller niet de beschikking over uw smartphone of vingerafdruk om de aanmelding te voltooien.
+De aanvullende verificatiemethode wordt pas in dienst genomen nadat het wachtwoord van de gebruiker is gecontroleerd. Met MFA, zelfs als een sterk gebruikerswachtwoord wordt gestolen, heeft de aanvaller niet de beschikking over uw smartphone of vingerafdruk om de aanmelding te voltooien.
 
 ## <a name="mfa-support-in-microsoft-365"></a>MFA-ondersteuning in Microsoft 365
 
@@ -47,7 +49,7 @@ Standaard wordt MFA ondersteund door Microsoft 365 en Office 365 voor gebruikers
 - Een telefonische oproep.
 - De Smart Phone-app van Microsoft Authenticator.
 
-In beide gevallen wordt met de SSO-aanmelding de methode ' wat u met u hebt met u hebt die u niet eenvoudig gedupliceerd ' gebruikt voor de aanvullende verificatie. Er zijn verschillende manieren waarop u MFA voor Microsoft 365 en Office 365 kunt inschakelen:
+In beide gevallen gebruikt de MFA-aanmelding de methode 'iets wat u bij u hebt dat niet eenvoudig kan worden gedupliceerd'. Er zijn verschillende manieren waarop u MFA voor Microsoft 365 en Office 365 kunt inschakelen:
 
 - Met standaardinstellingen voor beveiliging
 - Met beleidsregels voor voorwaardelijke toegang
@@ -57,7 +59,7 @@ Deze manieren zijn gebaseerd op uw abonnement op Microsoft 365.
 
 |Abonnement|Aanbeveling|Type klant|
 |---|---|---|
-|Alle Microsoft 365-abonnementen|Gebruik standaardinstellingen voor beveiliging, die MFA vereisen voor alle gebruikersaccounts. <p> U kunt ook per gebruiker MFA configureren voor afzonderlijke gebruikersaccounts, maar dit wordt niet aanbevolen.|Kleine bedrijven|
+|Alle Microsoft 365-abonnementen|Gebruik standaardinstellingen voor beveiliging, die MFA vereisen voor alle gebruikersaccounts. <p> U kunt MFA per gebruiker ook configureren voor afzonderlijke gebruikersaccounts, maar dit wordt niet aanbevolen.|Kleine bedrijven|
 |Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Licenties voor Azure Active Directory (Azure AD) Premium P1|Gebruik beleid voor voorwaardelijke toegang om MFA in te stellen voor gebruikersaccounts op basis van groepslidmaatschap, apps of andere criteria.|Klein bedrijf tot ondernemingen|
 |Microsoft 365 E5 <p> Licenties voor Azure AD Premium P2|De Azure AD-identiteitsbeveiliging gebruiken om MFA te vereisen op basis van het aanmeldingsrisicocriterium.|Enterprise|
 ||||
@@ -75,7 +77,7 @@ De standaardinstellingen voor beveiliging bieden organisaties een basisbeveiligi
 
 U kunt beveiligingsstandaarden in- of uitschakelen vanuit het **eigenschappen** venster voor Azure AD in de Azure-portal.
 
-![Afbeelding van de pagina met adreslijst eigenschappen.](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
+![Afbeelding van de pagina Adreslijsteigenschappen.](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
 
 U kunt beveiligingsstandaarden gebruiken met elk Microsoft 365-abonnement.
 
@@ -93,7 +95,7 @@ U kunt beleidsregels voor voorwaardelijke toegang ook gebruiken voor meer geavan
 
 U configureert het beleid voor voorwaardelijke toegang vanuit het deelvenster **Beveiliging** voor Azure AD in de Azure-Portal.
 
-![Afbeelding van de menuoptie voor voorwaardelijke toegang](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
+![Afbeelding van menuoptie voor Voorwaardelijke toegang](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
 
 U kunt voorwaardelijke toegangsbeleidsregels gebruiken met:
 
@@ -134,13 +136,13 @@ U kunt Azure AD-identiteitsbescherming en beleid voor voorwaardelijke toegang op
 
 Zie dit [overzicht van Azure AD-identiteitsbescherming](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection) voor meer informatie.
 
-### <a name="legacy-per-user-mfa-not-recommended"></a>Verouderde MFA per gebruiker (niet aanbevolen)
+### <a name="legacy-per-user-mfa-not-recommended"></a>Oude MFA per gebruiker (niet aanbevolen)
 
 U moet beveiligingsstandaarden of beleid voor voorwaardelijke toegang gebruiken om MFA te vereisen voor het aanmelden van gebruikersaccounts. Als een van beide echter niet kan worden gebruikt, raadt Microsoft ten zeerste aan om MFA te gebruiken voor gebruikersaccounts met beheerdersrollen, met name voor de algemene beheerdersrol, voor elke abonnementomvang.
 
 U schakelt MFA in voor individuele gebruikersaccounts vanuit het venster **Actieve gebruiker** van het Microsoft 365-beheercentrum.
 
-![Afbeelding van de optie multi factor Authentication op de pagina actieve gebruikers](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
+![Afbeelding van de optie Meervoudige verificatie op de pagina Actieve gebruikers](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
 
 Wanneer de gebruiker zich de volgende keer aanmeldt, wordt hen gevraagd zich aan te melden bij MFA en de extra verificatiemethode te kiezen en te testen.
 
@@ -150,9 +152,9 @@ In deze tabel ziet u de resultaten van het inschakelen van MFA met de standaardi
 
 ||Ingeschakeld|Uitgeschakeld|Secundaire verificatiemethode|
 |---|---|---|---|
-|**Standaardinstellingen voor beveiliging**|Kan beleidsregels voor voorwaardelijke toegang niet gebruiken|Kan beleid voor voorwaardelijke toegang gebruiken|De Microsoft Authenticator-app|
-|**Beleidsregels voor voorwaardelijke toegang**|Als dit is ingeschakeld, kunt u de beveiligingsinstellingen niet inschakelen|Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen|Door gebruiker opgegeven tijdens MFA-registratie|
-|**Verouderde MFA per gebruiker (niet aanbevolen)**|Negeert beveiligingsstandaarden en beleid voor voorwaardelijke toegang dat MFA vereist bij elke aanmelding|Genegeerd door beveiligingsstandaarden en beleid voor voorwaardelijke toegang|Door gebruiker opgegeven tijdens MFA-registratie|
+|**Standaardinstellingen voor beveiliging**|Kan geen beleid voor voorwaardelijke toegang gebruiken|Kan beleid voor voorwaardelijke toegang gebruiken|De Microsoft Authenticator-app|
+|**Beleidsregels voor voorwaardelijke toegang**|Als deze zijn ingeschakeld, kunt u geen beveiligingsinstellingen inschakelen|Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen|Door gebruiker opgegeven tijdens MFA-registratie|
+|**Oude MFA per gebruiker (niet aanbevolen)**|Negeert beveiligingsstandaarden en beleid voor voorwaardelijke toegang dat MFA vereist bij elke aanmelding|Genegeerd door beveiligingsstandaarden en beleid voor voorwaardelijke toegang|Door gebruiker opgegeven tijdens MFA-registratie|
 ||||
 
 Als beveiligingsstandaarden zijn ingeschakeld, worden alle nieuwe gebruikers bij hun volgende aanmelding gevraagd om MFA-registratie en het gebruik van de Microsoft Authenticator-app.

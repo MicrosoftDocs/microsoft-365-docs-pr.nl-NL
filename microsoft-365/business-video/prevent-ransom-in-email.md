@@ -1,5 +1,5 @@
 ---
-title: E-mail regels voor Ransomware maken
+title: E-mailregels maken om ransomware te voorkomen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,39 +16,40 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lees hoe u e-mail regels maakt om Ransomware te voorkomen.
-ms.openlocfilehash: 85898480438225848fc09db9a9c507045f8a182c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het maken van e-mailregels om ransomware te voorkomen.
+ms.openlocfilehash: 3b45af71aa26beb31e21f5db662091f46343f97d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701675"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926112"
 ---
-# <a name="create-email-rules-to-prevent-ransomware"></a>E-mail regels maken om Ransomware te voorkomen
+# <a name="create-email-rules-to-prevent-ransomware"></a>E-mailregels maken om ransomware te voorkomen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrWGt?autoplay=false]
 
-Microsoft 365 helpt uw bedrijf te beschermen tegen Ransomware door potentieel gevaarlijke bestanden, zoals JavaScript, batch en uitvoerbare bestanden, te voorkomen te openen in Outlook. Ga als volgt te werk om de beveiliging van dit niveau te verhogen door regels toe te voegen die u voor andere typen bestanden blokkeren of waarschuwen.
+Microsoft 365 helpt uw bedrijf te beschermen tegen ransomware door te voorkomen dat potentieel gevaarlijke bestanden, zoals JavaScript-, batch- en uitvoerbare bestanden, in Outlook worden geopend. Als u dit beschermingsniveau wilt verhogen door regels toe te voegen die u voor extra typen bestanden blokkeren of waarschuwen, volgt u deze stappen.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Kies in het Beheercentrum op [https://admin.microsoft.com](https://admin.microsoft.com) **Exchange** onder **beheer centra**.
-1. Kies in het menu aan de linkerkant de optie **e-mail stroom**.
-1. Ga naar het tabblad regels, kies de pijl naast het plusteken (+) en kies vervolgens **een nieuwe regel maken**.
-1. Voer op de pagina **nieuwe regel** een naam voor de regel in, schuif naar beneden en kies **meer opties**.
-1. Selecteer een bijlage onder **deze regel toepassen als** u **een bijlage** selecteert en selecteer vervolgens **bestandsextensie bevat deze woorden**.
-1. Voer in het vak onder **woorden of zinnen opgeven** de bestandsextensies in waarop de regel moet worden toegepast, zoals bestandsextensies die macro's kunnen bevatten. Gebruik het plusteken (+) om ze een voor een toe te voegen.
+1. Kies in het beheercentrum [https://admin.microsoft.com](https://admin.microsoft.com) de optie **Exchange** onder **Beheercentra.**
+1. Kies e-mailstroom in **het menu aan de linkerkant.**
+1. Kies op het tabblad Regels de pijl naast het plusteken (+) en kies **vervolgens Een nieuwe regel maken.**
+1. Voer op **de nieuwe regelpagina** een naam in voor de regel, schuif omlaag en kies **Meer opties.**
+1. Selecteer **onder Deze regel toepassen een** bijlage **en** selecteer vervolgens **de bestandsextensie die deze woorden bevat.**
+1. Typ in het vak onder Typ woorden of woordgroepen de bestandsextensies die u wilt toepassen op de regel, zoals **bestandsextensies** die macro's kunnen bevatten. Gebruik het plusteken (+) om ze een voor een toe te voegen.
 
-    Meer informatie over bestandstypen vindt u in [beveiliging tegen Ransomware](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware).
+    Meer informatie over bestandstypen kunt u lezen door [Beveiligen tegen ransomware te lezen.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)
 
-1. Schuif omlaag naar de lijst en kies vervolgens **OK**.
-1. Kies op de pagina **nieuwe regel** de optie **voorwaarde toevoegen** en kies vervolgens een voorwaarde onder **Ga als volgt** te werk.
-1. U kunt kiezen uit een groot aantal opties voor de regel, maar in dit voorbeeld zullen we kiezen **de geadresseerde op de hoogte te stellen van een bericht**.
-1. Voer de berichttekst voor uw melding in en kies vervolgens **OK**.
-1. Optioneel: Kies **uitzondering toevoegen** op de pagina **nieuwe regel** en voer de gegevens voor uitzonderingen voor de regel in, zoals berichten van vertrouwde afzenders.
-1. Kies op de pagina nieuwe regel de optie **Opslaan** en Bekijk de informatie over de regel samenvatting.
+1. Schuif omlaag om de lijst te controleren en kies **OK.**
+1. Kies op **de pagina** Nieuwe regel de optie **Voorwaarde toevoegen** en kies vervolgens een voorwaarde onder Ga als volgt **te werk.**
+1. U kunt uit veel regelopties kiezen, maar in dit voorbeeld kiezen we de geadresseerde op de hoogte te stellen **met een bericht.**
+1. Voer berichttekst in voor de melding en kies **ok.**
+1. Optioneel: Kies op de  **nieuwe** regelpagina uitzondering toevoegen en voer eventuele details in voor uitzonderingen op de regel, zoals berichten van vertrouwde afzenders.
+1. Kies Opslaan op de nieuwe regelpagina **en** bekijk de informatie over het overzicht van de regels.

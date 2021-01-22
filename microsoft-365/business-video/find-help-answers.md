@@ -1,5 +1,5 @@
 ---
-title: Antwoorden en Help zoeken
+title: Antwoorden en hulp zoeken
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,38 +16,39 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het zoeken van beheerders hulp voor Microsoft 365 Business Premium.
-ms.openlocfilehash: 0fb3e3ae2521353b9185e5b7f27b681e1d9c743c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Meer informatie over hoe u help voor beheerders voor Microsoft 365 Business Premium kunt vinden.
+ms.openlocfilehash: 3eaf5d63d681076386643e28f0270ae5cd532971
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702393"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925132"
 ---
 # <a name="find-answers-and-help-for-admins"></a>Antwoorden en Help voor beheerders zoeken
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGn5?autoplay=false]
 
-Als u een vraag hebt of hulp nodig hebt bij Microsoft 365 Business Premium, hebt u verschillende mogelijkheden voor het verkrijgen van hulp.
+Als u een vraag hebt of hulp nodig hebt bij Microsoft 365 Business Premium, hebt u verschillende opties om hulp te krijgen.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Meld u aan bij [Office.com](https://office.com) met uw werk referenties en selecteer **beheerder**.
-1. Kies op de startpagina van het Beheercentrum **training voor beheerders** om de beschikbare trainings opties voor u weer te geven.
-1. Kies **bedrijfseigenaren en beheerders** voor kleine tot middelgrote en grote ondernemingen.
-1. Kies **Enterprise IT-professionals** voor groter of complexere bedrijven.
-1. Ga terug naar het Beheercentrum en kies **aangepaste instellingsrichtlijnen** om een aantal hulplijnen weer te geven waarmee u door bepaalde instellingstaken wordt geleid.
-1. Ga terug naar de startpagina van het Beheercentrum en kies **training voor gebruikers** om hulp te krijgen bij bepaalde apps en leer hoe u optimaal gebruik kunt maken van de functies die u elke dag gebruikt.
-1. Ga terug naar het Beheercentrum en kies **hulp nodig** om de ondersteunings assistent te openen. Typ uw vraag of het onderwerp waarvoor u hulp nodig hebt en selecteer **verzenden**. Kies de koppeling in het Beheercentrum of naar het artikel dat de vraag beantwoordt.
-1. Als u geen antwoord kunt vinden op uw vraag, kunt u altijd contact opnemen met de ondersteuning en wordt een ondersteuningstechnicus met u beantwoorden.
+1. Meld u aan [bij office.com](https://office.com) met uw werkreferenties en selecteer **Beheerder.**
+1. Kies training voor beheerders op de startpagina van het beheercentrum **om** de beschikbare trainingsopties te zien.
+1. Kies **Business owners and admins** for small to midsize training.
+1. Kies **IT-professionals voor** ondernemingen voor grotere of complexere bedrijven.
+1. Ga terug naar het beheercentrum en kies aangepaste installatiehulplijnen om een aantal handleidingen te zien die u begeleiden bij specifieke installatietaken. 
+1. Ga terug naar de startpagina van het beheercentrum en kies **Training** voor gebruikers voor hulp bij specifieke apps en leer hoe u de functies die u elke dag gebruikt, kunt gebruiken.
+1. Ga terug naar het beheercentrum en kies **Hulp nodig om** ondersteuningsassistent te openen. Typ uw vraag of het onderwerp waar u hulp bij nodig hebt en **selecteer** Verzenden. Kies de koppeling in het beheercentrum of naar het artikel waarin u uw vraag beantwoordt.
+1. Als u geen antwoord op uw vraag kunt vinden, kunt u altijd contact opnemen met de ondersteuning en een ondersteuningstechnicus zal u binnenkort antwoorden.
 
-U kunt ook de volgende bronnen gebruiken om hulp te vragen bij uw probleem:
+U kunt ook de volgende bronnen gebruiken om hulp te krijgen bij uw probleem:
 
-- [aka.MS/learn365admin](https://aka.ms/learn365admin)om te zoeken naar alle beheertaken en Help-informatie, zoals het opnieuw instellen van wachtwoorden en het toewijzen van Microsoft-abonnementen.
-- [Answers.Microsoft.com](https://answers.microsoft.com), om te zoeken naar antwoorden, een discussie te starten en vragen te stellen aan andere gebruikers.
-- [techcommunity.Microsoft.com](https://techcommunity.microsoft.com), om deel te nemen aan een community met experts en best practices te vinden met microsoft 365 voor uw bedrijf.
+- [aka.ms/learn365admin,](https://aka.ms/learn365admin)om te zoeken naar alle beheertaken en help, zoals het opnieuw instellen van wachtwoorden en het toewijzen van Microsoft-abonnementen.
+- [answers.microsoft.com,](https://answers.microsoft.com)om naar antwoorden te zoeken, een discussie te starten en vragen te stellen aan andere gebruikers.
+- [techcommunity.microsoft.com,](https://techcommunity.microsoft.com)om lid te worden van een community met experts en best practices te vinden met Microsoft 365 voor uw bedrijf.

@@ -1,5 +1,5 @@
 ---
-title: Een website voor uw bedrijf maken
+title: Een website maken voor uw bedrijf
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het maken van een GoDaddy-website voor uw bedrijf.
-ms.openlocfilehash: db3a3133626577f9dc2665a61053cb587e9b7b3a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het maken van een GoDaddy-website voor uw bedrijf.
+ms.openlocfilehash: 44f1a82706ff2dc025fc9dcc6f74a71dc0a987e5
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701723"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927332"
 ---
 # <a name="create-a-website"></a>Een website maken
 
@@ -34,11 +35,11 @@ ms.locfileid: "49701723"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-Microsoft 365 bevat geen openbare website voor uw bedrijf. Als u er een wilt instellen, kunt u een hostingbedrijf gebruiken zoals GoDaddy, Wix of WordPress.
+Microsoft 365 bevat geen openbare website voor uw bedrijf. Als u er een wilt instellen, kunt u overwegen een webhostingbedrijf zoals GoDaddy, Wix of WordPress te gebruiken.
 
-1. Zoek een hosting provider waar u uw website kunt maken.
+1. Zoek naar een webhostingprovider waar u uw website kunt maken.
 
-     Het kan handig zijn om op de website samenstellen te kiezen waar uw domeinnaam is geregistreerd.
-1. Ontwerp uw zakelijke website en zorg ervoor dat u uw bedrijfslogo, zakelijk doel, tekst, afbeeldingen en koppelingen opneemt.
-1. Als u de website wilt integreren met Microsoft 365, kunt u uw zakelijke e-mailberichten toevoegen aan de website en een koppeling naar Microsoft teams, SharePoint of een ander samenwerkingsprogramma.
-1. Zorg ervoor dat u de website verbindt met uw domeinnaam, welke u&#39;weer voor e-mail gebruikt op Microsoft 365.
+     Misschien vindt u de websitebouwer het gemakkelijkst bij hetzelfde bedrijf waar uw domeinnaam is geregistreerd.
+1. Ontwerp uw bedrijfswebsite en zorg ervoor dat u uw bedrijfslogo, zakelijk doel, tekst, afbeeldingen en koppelingen op kunt nemen.
+1. Als u de website wilt integreren met Microsoft 365, kunt u uw zakelijke e-mailadres toevoegen aan de website en een koppeling naar Microsoft Teams, SharePoint of een ander samenwerkingshulpmiddel.
+1. Zorg ervoor dat u uw website verbindt met uw domeinnaam, die u&#39;ook gebruikt voor e-mail in Microsoft 365.

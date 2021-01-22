@@ -1,6 +1,6 @@
 ---
-title: Hulpmiddel voor gereedheids beoordeling
-description: Een beschrijving van de controles die het programma uitvoert en de betekenis van de resultaten
+title: Hulpprogramma's voor beoordeling van gereedheid
+description: Hier worden de twee hulpprogramma's, de controles en de betekenis van de resultaten uitgelegd
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,77 +9,83 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9c19a037ec280320d0800fe2c65f595e4b1010dd
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 9fbd24185288265d698288e0d5e63e8b3c2afd10
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840359"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921844"
 ---
-# <a name="readiness-assessment-tool"></a>Hulpmiddel voor gereedheids beoordeling
+# <a name="readiness-assessment-tools"></a>Hulpprogramma's voor beoordeling van gereedheid
 
-Voor de soepelste ervaring wanneer u zich registreert bij Microsoft Managed Desktop, zijn er belangrijke instellingen en andere parameters die u moet instellen voor de periode. Met dit hulpprogramma kunt u deze instellingen controleren en gedetailleerde stappen ontvangen voor het oplossen van de juiste instellingen.
+Voor een zo soepel mogelijke ervaring bij het registreren bij Microsoft Managed Desktop zijn er instellingen en andere parameters die u van tevoren moet instellen, en bepaalde apparaat- en netwerkvereisten om te voldoen. Eén hulpprogramma, dat toegankelijk is via de portal Beheerd bureaubladbeheer van Microsoft, controleert beheerinstellingen. Een ander hulpprogramma, dat kan worden gedownload, controleert de vereisten voor afzonderlijke apparaten en de netwerkinstellingen. U kunt deze hulpprogramma's gebruiken om deze instellingen te controleren en gedetailleerde stappen te ontvangen voor het oplossen van fouten die niet juist zijn.
 
-Met de Tool controleert u de instellingen in Microsoft Endpoint Manager (specifiek, Microsoft intune), Azure Active Directory (Azure AD) en Microsoft 365 om te controleren of deze geschikt zijn voor Microsoft beheerde bureaublad. Microsoft Managed Desktop houdt de gegevens van deze controles gedurende 12 maanden na de laatste keer dat u een cheque uitvoert in uw Azure AD-organisatie (Tenant). Na 12 maanden behoudt Skype het in de aangegeven vorm.  U kunt ervoor kiezen de gegevens te verwijderen die we verzamelen.
+## <a name="downloadable-readiness-assessment-checker-for-devices-and-network"></a>Downloadbare gereedheidscontrole voor apparaten en netwerk
 
-Iedereen met een minimaal de beheerder van intune heeft de mogelijkheid dit hulpprogramma uit te voeren, maar twee van de controles ([voorwaardelijke toegangsbeleidsregels](readiness-assessment-fix.md#conditional-access-policies) en meervoudige [verificatie](readiness-assessment-fix.md#multifactor-authentication) vereisen meer machtigingen.
+Zie De evaluatiecontrole voor downloadbare gereedheid voor meer informatie over het gebruik van de evaluatiecontrole voor [downloadbare gereedheid.](readiness-assessment-downloadable.md)
+
+## <a name="online-readiness-assessment-tool-for-management-settings"></a>Hulpprogramma voor online gereedheidsbeoordeling voor beheerinstellingen
+
+Het onlinehulpprogramma controleert de instellingen in Microsoft Endpoint Manager (met name Microsoft Intune), Azure Active Directory (Azure AD) en Microsoft 365 om ervoor te zorgen dat deze werken met het beheerde bureaublad van Microsoft. Het beheerde bureaublad van Microsoft behoudt de gegevens die aan deze controles zijn gekoppeld, 12 maanden na de laatste keer dat u een controle hebt uitgevoerd in uw Azure AD-organisatie (tenant). Na 12 maanden bewaren we het in gedeïdentificeerde vorm. U kunt ervoor kiezen om de gegevens te verwijderen die we verzamelen.
+
+Iedereen met ten minste de rol Intune-beheerder kan dit hulpprogramma uitvoeren, maar twee van de controles[(beleid](readiness-assessment-fix.md#conditional-access-policies) voor voorwaardelijke toegang en [Meervoudige](readiness-assessment-fix.md#multifactor-authentication) verificatie vereisen extra machtigingen).
  
-Het beoordelingsprogramma controleert de volgende items:
+Het evaluatieprogramma controleert deze items:
 
-## <a name="microsoft-intune-settings"></a>Microsoft intune-instellingen
+## <a name="microsoft-intune-settings"></a>Microsoft Intune-instellingen
 
 |Cheque  |Beschrijving  |
 |---------|---------|
-|Auto Pilot-implementatie profiel     | Hiermee wordt gecontroleerd of de toewijzing van het profiel voor automatische prototype-implementatie niet van toepassing is op alle apparaten (het profiel moet *niet* worden toegewezen aan een beheerde bureaubladtoepassing voor Microsoft-apparaten.)       |
-|Certificaat verbindingslijnen     | Controleert de status van de certificaat connectors om ervoor te zorgen dat deze actief zijn   |
-|Voorwaardelijke toegang     | Hiermee wordt gecontroleerd of het beleid voor voorwaardelijke toegang niet aan alle gebruikers wordt toegewezen (het beleid voor voorwaardelijke toegang mag *niet* worden toegewezen aan de beheerde bureaublad service-accounts van Microsoft).    |
-|Nalevingsbeleid voor apparaten     | Hiermee wordt gecontroleerd of het intune-nalevingsbeleid niet is toegewezen aan alle gebruikers (de beleidsregels dienen *niet* te worden toegewezen aan een beheerde bureaubladtoepassing van Microsoft).    |
-|Configuratieprofielen voor apparaten     | Bevestigt dat configuratieprofielen niet zijn toegewezen aan alle gebruikers of alle apparaten (configuratieprofielen dienen *niet* te worden toegewezen aan een beheerde bureaubladtoepassing voor Microsoft-apparaten.)     |
-|Beperkingen voor apparaattype     | Controleert of Windows 10-apparaten in uw organisatie kunnen worden ingeschreven voor intune        |
-|Pagina met inschrijvings status     | Bevestigt dat de pagina inschrijvings status niet is ingeschakeld      |
-|InTune-registratie     | Controleert of Windows 10-apparaten in uw Azure AD-organisatie automatisch zijn ingeschreven in intune         |
-|Microsoft Store voor Bedrijven     | Hiermee wordt bevestigd dat Microsoft Store voor bedrijven is ingeschakeld en gesynchroniseerd met intune        |
-|Meervoudige verificatie | Controleert of meervoudige verificatie niet is toegepast op beheerde bureaublad serviceaccounts van Microsoft.
-|PowerShell-scripts     | Hiermee wordt gecontroleerd of Windows PowerShell-scripts *niet* zijn toegewezen op de manier waarop door Microsoft beheerde bureaublad apparaten wordt gestreefd    |
-|Regio     | Hiermee wordt gecontroleerd of uw regio wordt ondersteund door Microsoft Managed Desktop        |
-|Basislijnen voor beveiliging     | Hiermee wordt gecontroleerd of het profiel van de basislijn voor *beveiliging niet alle* gebruikers of alle apparaten heeft.       |
-|Windows-apps     | Controleren welke apps u wilt toewijzen aan Microsoft beheerde bureaublad apparaten      |
-|Windows Hello voor Bedrijven     | Controleert of Windows hello voor bedrijven is ingeschakeld        |
-|Windows 10 update ring     | Hiermee wordt gecontroleerd of het beleid Windows 10 update-uittune niet alle gebruikers of alle apparaten is, (het beleid *dient geen* Microsoft-bureaublad apparaten te bestemmen.)     |
+|Autopilot-implementatieprofiel     | Controleert of toewijzing van het Autopilot-implementatieprofiel niet van  toepassing is op alle apparaten (Het profiel mag niet worden toegewezen aan beheerde Desktop-apparaten van Microsoft.)       |
+|Connectors voor certificaten     | Controleert de status van certificaatconnectoren om na te gaan of ze actief zijn   |
+|Voorwaardelijke toegang     | Controleert of beleidsregels voor voorwaardelijke toegang niet aan  alle gebruikers zijn toegewezen (beleidsregels voor voorwaardelijke toegang moeten niet worden toegewezen aan serviceaccounts met het beheerde bureaublad van Microsoft.)    |
+|Beleid voor apparaat compliance     | Hiermee wordt gecontroleerd of Intune-nalevingsbeleid niet aan  alle gebruikers is toegewezen (het beleid mag niet worden toegewezen aan beheerde Bureaublad-apparaten van Microsoft.)    |
+|Apparaatconfiguratieprofielen     | Bevestigt dat configuratieprofielen niet zijn toegewezen aan alle gebruikers  of alle apparaten (Configuratieprofielen moeten niet worden toegewezen aan beheerde Desktop-apparaten van Microsoft.)     |
+|Beperkingen voor apparaattype     | Hiermee wordt gecontroleerd of Windows 10-apparaten in uw organisatie zijn toegestaan zich te registreren bij Intune        |
+|Pagina Inschrijvingsstatus     | Controleert of registratiestatuspagina niet is ingeschakeld      |
+|Intune-inschrijving     | Controleert of Windows 10-apparaten in uw Azure AD-organisatie automatisch zijn geregistreerd in Intune         |
+|Microsoft Store voor Bedrijven     | Bevestigt dat Microsoft Store voor Bedrijven is ingeschakeld en gesynchroniseerd met Intune        |
+|Meervoudige verificatie | Controleert of meervoudige verificatie niet wordt toegepast op accounts van de Microsoft Managed Desktop-service.
+|PowerShell-scripts     | Hiermee wordt gecontroleerd of Windows PowerShell-scripts *niet* zijn toegewezen op een manier die is gericht op beheerde bureaubladapparaten van Microsoft    |
+|Regio     | Hiermee wordt gecontroleerd of uw regio wordt ondersteund door het beheerde bureaublad van Microsoft        |
+|Beveiligingsbasislijnen     | Hiermee wordt gecontroleerd of het basislijnprofiel van de beveiliging  niet op alle gebruikers of alle apparaten is gericht (het basislijnbeleid voor beveiliging is niet gericht op beheerde bureaubladapparaten van Microsoft).       |
+|Windows-apps     | Controleren welke apps u wilt toewijzen aan beheerde Desktop-apparaten van Microsoft      |
+|Windows Hello voor Bedrijven     | Hiermee wordt gecontroleerd of Windows Hello voor Bedrijven is ingeschakeld        |
+|Update-ring voor Windows 10     | Hiermee wordt gecontroleerd of het 'Windows 10-updateringsbeleid' van Intune niet  op alle gebruikers of alle apparaten is gericht (het beleid is niet van toepassing op beheerde bureaubladapparaten van Microsoft.)     |
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory-instellingen
 
 |Cheque  |Beschrijving  |
 |---------|---------|
-|Ad hoc-abonnementen voor Enterprise State roaming     | Adviseert te controleren of een instelling die (indien ingesteld op ' onwaar ') wordt gebruikt om te voorkomen dat roaming via een Enterprise-versie goed werkt  |
-|Enterprise State Roaming     | Adviseren hoe u kunt controleren of het zwerven van ondernemings Staten is ingeschakeld       |
-|Licenties     | Controleert of u de benodigde [licenties](prerequisites.md#more-about-licenses) hebt verkregen         |
-|Meervoudige verificatie     | Controleert of meervoudige verificatie niet is toegepast op alle gebruikers (meervoudige verificatie mag niet per ongeluk worden toegepast op accounts van Microsoft Managed Desktop-service.)|
-|Namen van beveiligingsaccounts   | Hiermee wordt gecontroleerd of gebruikersnamen geen conflict opleveren met de namen van de gebruikers die door Microsoft worden beheerd hun eigen gebruik        |
-|Rollen van beveiligingsbeheerders     | Controleert of gebruikers met beveiligings lezer, beveiligings operator of algemene lezers rollen aan deze rollen zijn toegewezen in Microsoft Defender voor eindpunt         |
-|Standaardinstellingen voor beveiliging | Controleert of in de Azure AD-organisatie beveiligingsstandaarden zijn ingeschakeld in azure Active Directory |
-|Self-service voor wachtwoordherstel     | Bevestigt dat de selfservice voor wachtwoordherstel is ingeschakeld        |
-|Standaard gebruikersrol     | Controleert of gebruikers standaardgebruikers zijn en geen lokale beheerdersrechten hebben         |
+|'Ad hoc'-abonnementen voor Enterprise State Roaming     | Adviseert hoe u een instelling kunt controleren die (indien ingesteld op 'onwaar') kan verhinderen dat Enterprise State Roaming correct werkt  |
+|Enterprise State Roaming     | Adviseert hoe u kunt controleren of Enterprise State Roaming is ingeschakeld       |
+|Licenties     | Controleert of u de benodigde [licenties hebt verkregen](prerequisites.md#more-about-licenses)         |
+|Meervoudige verificatie     | Hiermee wordt gecontroleerd of meervoudige verificatie niet op alle gebruikers wordt toegepast (Meervoudige verificatie mag niet per ongeluk worden toegepast op accounts van de Microsoft Managed Desktop-service).|
+|Namen van beveiligingsaccounts   | Hiermee wordt gecontroleerd of er geen gebruikersnamen conflicteren met de namen die door Microsoft Beheerd bureaublad zijn voor eigen gebruik        |
+|Rollen van beveiligingsbeheerders     | Bevestigt dat aan gebruikers met een beveiligingslezer, beveiligingsoperator of globale lezer deze rollen zijn toegewezen in Microsoft Defender voor eindpunt         |
+|Standaardinstellingen voor beveiliging | Hiermee wordt gecontroleerd of voor uw Azure AD-organisatie beveiligingsinstellingen zijn ingeschakeld in Azure Active Directory |
+|Self-service voor wachtwoordherstel     | Bevestigt dat selfservice voor wachtwoord opnieuw instellen is ingeschakeld        |
+|Standaardgebruikersrol     | Controleert of gebruikers standaardgebruikers zijn en geen lokale beheerdersrechten hebben         |
 
 
-## <a name="microsoft-365-apps-for-enterprise-settings"></a>Microsoft 365-apps voor Enterprise Settings
+## <a name="microsoft-365-apps-for-enterprise-settings"></a>Microsoft 365-apps voor bedrijfsinstellingen
 
 |Cheque  |Beschrijving  |
 |---------|---------|
-|OneDrive voor Bedrijven     | Controleert of in OneDrive voor bedrijven niet-ondersteunde instellingen worden gebruikt.        |
+|OneDrive voor Bedrijven     | Hiermee wordt gecontroleerd of OneDrive voor Bedrijven niet-ondersteunde instellingen gebruikt.        |
 
 
-Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten weergegeven:
+Bij elke controle wordt een van de vier mogelijke resultaten door het hulpmiddel rapporteren:
 
 
 |Resultaat  |Betekenis  |
 |---------|---------|
-|Gereedgemaakt     | U hoeft niets te doen voordat u de registratie voltooit.        |
-|Adviser    | Volg de stappen in het hulpprogramma voor een optimale ervaring met inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
-|Niet gereed | De *registratie mislukt* als u deze problemen niet oplost. Voer de stappen in het hulpprogramma uit om ze op te lossen.        |
-|Error | De rol van Azure Active Director (AD) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
+|Klaar     | U hoeft niets te doen voordat u de inschrijving voltooit.        |
+|Advies    | Volg de stappen in het hulpprogramma voor een optimaal gebruik van de inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
+|Nog niet gereed | *De inschrijving mislukt als* u deze problemen niet op kunt lossen. Volg de stappen in het hulpprogramma om deze problemen op te lossen.        |
+|Error | De Ad-rol (Azure Active Director) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
 
 ## <a name="after-enrollment"></a>Na inschrijving
 
-Wanneer u klaar bent met de inschrijving bij Microsoft Managed Desktop, moet u de instellingen voor de instellingen voor intune en Azure AD aanpassen. Zie [instellingen aanpassen na de registratie](../get-started/conditional-access.md)voor meer informatie.
+Nadat u zich hebt ingeschreven bij Microsoft Managed Desktop, vergeet dan niet om terug te gaan en bepaalde Intune- en Azure AD-instellingen aan te passen. Zie Instellingen aanpassen [na de inschrijving voor meer informatie.](../get-started/conditional-access.md)

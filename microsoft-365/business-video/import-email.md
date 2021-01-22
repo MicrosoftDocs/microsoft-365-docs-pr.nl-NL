@@ -16,42 +16,43 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het importeren van e-mail in Microsoft 365 voor Business.
-ms.openlocfilehash: ae72662c779d230addb3b15d0d486900328fa602
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het importeren van e-mail in Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: a53552ddead1ed69a7c9b77bb8021a6340690059
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701702"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927173"
 ---
-# <a name="import-email-to-microsoft-365-for-business"></a>E-mail importeren in Microsoft 365 voor bedrijven 
+# <a name="import-email-to-microsoft-365-for-business"></a>E-mail importeren in Microsoft 365 voor Bedrijven 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/40f7df36-9e24-44e5-8791-e9ed0dd8fd21?autoplay=false]
 
-Nadat u zich hebt aangemeld voor Microsoft 365, hebt u mogelijk nog steeds e-mail via e-mail naar een oude account. Als u bijvoorbeeld een account van Gmail of Outlook voor het werk hebt gebruikt. U kunt blijven werken met de nieuwe en oude accounts, of u kunt de gegevens van het oude account importeren in uw nieuwe account.
+Nadat u zich hebt registreren voor Microsoft 365, hebt u mogelijk nog steeds e-mail naar een oud account. Bijvoorbeeld als u voor uw werk een Gmail- of Outlook-account hebt gebruikt. U kunt zowel het nieuwe als het oude account blijven gebruiken, maar u kunt ook de gegevens uit het oude account importeren in uw nieuwe account.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-### <a name="step-1-export-your-old-email"></a>Stap 1: uw oude e-mail exporteren.
+### <a name="step-1-export-your-old-email"></a>Stap 1: Uw oude e-mail exporteren.
 
-1. In Outlook selecteert u  **bestand**, **openen en exporteren** en vervolgens **importeren/exporteren**.
-2. Selecteer  **exporteren naar bestand** en selecteer  **volgende**.
-3. Selecteer  **Outlook-gegevensbestand** en selecteer  **volgende**.
+1. Selecteer in Outlook **Bestand,** **Openen en exporteren** en vervolgens **Importeren/exporteren.**
+2. Selecteer **Exporteren naar een bestand** en selecteer vervolgens **Volgende.**
+3. Selecteer **het Outlook-gegevensbestand** en selecteer vervolgens **Volgende.**
 4. Selecteer uw oude e-mailaccount.
-5. Controleer of u submappen ook gebruikt. Selecteer vervolgens  **volgende**.
-6. Selecteer  **Bladeren** en ga naar een makkelijk te onthouden locatie, zoals uw bureaublad. Selecteer  **OK** en klik vervolgens op **Voltooien**.
-7. Laat de wachtwoordvelden leeg en kies vervolgens **OK**.
+5. Controleer of submappen zijn toegevoegd. Selecteer vervolgens **Volgende.**
+6. Selecteer  **Bladeren** en ga naar een gemakkelijk te onthouden locatie, zoals uw bureaublad. Selecteer **OK** en vervolgens **Voltooien.**
+7. Laat de wachtwoordvelden leeg en kies vervolgens **OK.**
 
     Uw oude e-mailaccount is geëxporteerd.
 
-### <a name="step-2-import-your-old-email-into-your-new-email-account"></a>Stap 2: uw oude e-mail importeren in uw nieuwe e-mailaccount
+### <a name="step-2-import-your-old-email-into-your-new-email-account"></a>Stap 2: Uw oude e-mail importeren in uw nieuwe e-mailaccount
 
-1. Selecteer in Outlook  **bestand**, **openen**,  **exporteren** en vervolgens **importeren/exporteren**.
-2. Selecteer gegevens  **uit een ander programma of bestand importeren** en selecteer  **volgende**.
-3. Selecteer  **Outlook-gegevensbestand** en selecteer  **volgende**.
-4. Selecteer  **Bladeren** en ga naar het bestand dat u zojuist hebt geëxporteerd. Selecteer het en selecteer vervolgens  **openen** en vervolgens **volgende**.
-5. Controleer of u submappen hebt, inclusief submappen, en of u items importeert in dezelfde map in uw nieuwe e-mailaccount. Kies  **Finish**.
+1. Selecteer in Outlook **Bestand,** **Openen,** **Exporteren** en **vervolgens Importeren/exporteren.**
+2. Selecteer **Importeren uit een ander programma of bestand** en selecteer vervolgens **Volgende.**
+3. Selecteer **het Outlook-gegevensbestand** en selecteer vervolgens **Volgende.**
+4. Selecteer  **Bladeren** en ga naar het bestand dat u zojuist hebt geëxporteerd. Selecteer deze en selecteer vervolgens **Openen** en Vervolgens **Volgende.**
+5. Controleer of submappen zijn toegevoegd en dat u items importeert in dezelfde map in uw nieuwe e-mailaccount. Kies **Voltooien.**

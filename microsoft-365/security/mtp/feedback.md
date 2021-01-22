@@ -1,9 +1,9 @@
 ---
 title: Feedback geven over Microsoft 365 Defender
-description: Product feedback geven over Microsoft 365 Defender
-keywords: feedback, m365 beveiliging, beveiliging, 365, mogelijkheden
+description: Productfeedback geven over Microsoft 365 Defender
+keywords: feedback, m365-beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 56f8bd0ff303ff38f8b3a577f6bc7aa58f21a745
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: a06f7254a892b8fd9942940946699ecb23707387
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846725"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926736"
 ---
 # <a name="provide-feedback-on-microsoft-365-defender"></a>Feedback geven over Microsoft 365 Defender
 
@@ -34,12 +35,12 @@ ms.locfileid: "48846725"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Met uw feedback kunnen we uw omgeving beter beschermen tegen geavanceerde aanvallen. Deel uw ervaring, hits en aanvragen door feedback te geven.
+Uw feedback helpt ons om uw omgeving beter te beschermen tegen geavanceerde aanvallen. Deel uw ervaring, maakt indruk en verzoeken door feedback te geven.
 
-1. Selecteer in een willekeurig onderdeel van de portal **feedback geven**. 
+1. Selecteer Feedback geven in een gedeelte **van de portal.** 
 
-    ![Afbeelding van de knop feedback](../../media/feedback.png)
+    ![Afbeelding van de knop Feedback](../../media/feedback.png)
 
-2. Beoordeel de ervaring en voer informatie in over wat u interessant vindt of waar u de verbeteringen kunt aanbrengen. U kunt er ook voor kiezen om contact op te nemen met de feedback. 
+2. Beoordeel uw ervaring en geef details over wat u leuk vindt of waar verbeteringen kunnen worden aangebracht. U kunt er ook voor kiezen om contact met de feedback op te nemen. 
 
-3. Selecteer **Submit**.
+3. Selecteer **Verzenden.**

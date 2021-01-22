@@ -1,8 +1,8 @@
 ---
-title: De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken
-description: U krijgt inzicht in activiteiten met gevolgen voor uw Microsoft Secure Score. Ontdekken van trends en het instellen van doelstellingen.
-keywords: Microsoft Secure Score, Secure Score, Office 365 Secure Score, Microsoft Security Score, Microsoft 365 Beveiligingscentrum, verbeteringen van verbetering
-ms.prod: microsoft-365-enterprise
+title: Uw geschiedenis van Microsoft Secure Score bijhouden en doelstellingen behalen
+description: Krijg inzicht in activiteiten die uw Microsoft Secure Score hebben beïnvloed. Ontdek trends en stel doelen.
+keywords: microsoft secure score, secure score, office 365 secure score, microsoft-beveiligingsscore, Microsoft 365-beveiligingscentrum, acties voor verbetering
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -20,79 +20,80 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ed937c90bbc6875ee3d72f710d5ac11d4069cbb6
-ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
+ms.technology: m365d
+ms.openlocfilehash: c9af6a3ae6f461acfd2968897223446641d5cf09
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "49738041"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925670"
 ---
-# <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>De geschiedenis van uw Microsoft Secure Score bijhouden en bereiken
+# <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Uw geschiedenis van Microsoft Secure Score bijhouden en doelstellingen behalen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-[Secure Score van Microsoft](microsoft-secure-score.md) is een afmeting van de beveiligings Posture van een organisatie, met een hoger nummer voor het uitvoeren van extra verbeterings acties. U vindt het https://security.microsoft.com/securescore in [microsoft 365 Beveiligingscentrum](overview-security-center.md).
+[Microsoft Secure Score](microsoft-secure-score.md) is een meting van de beveiligingsrisico's van een organisatie, met een hoger getal dat aangeeft dat er meer acties zijn ondernomen. U vindt deze in https://security.microsoft.com/securescore het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)
 
-## <a name="gain-insights-into-activity-that-has-affected-your-score"></a>Inzicht krijgen in activiteiten die van invloed zijn op uw Score
+## <a name="gain-insights-into-activity-that-has-affected-your-score"></a>Inzicht krijgen in activiteiten die uw score hebben beïnvloed
 
-Bekijk een grafiek van de Score van uw organisatie in de loop van de tijd op het tabblad **geschiedenis** .
+Bekijk een grafiek van de score van uw organisatie in de tijd op het **tabblad** Geschiedenis.
 
-Onder de grafiek bevindt zich een lijst met alle acties die zijn gemaakt in het geselecteerde tijdsbereik en de bijbehorende kenmerken, zoals de resultaten van de uitkomst, en de categorie. U kunt een datumbereik en de categorie filteren op categorie aanpassen.
+Onder de grafiek ziet u een lijst met alle acties die zijn ondernomen in het geselecteerde tijdsbereik en de kenmerken, zoals resulterende punten en categorie. U kunt een datumbereik aanpassen en filteren op categorie.
 
-![Activiteitsgeschiedenis](../../media/secure-score/secure-score-history-activity.png)
+![Activiteitengeschiedenis](../../media/secure-score/secure-score-history-activity.png)
 
-Als u de actie voor verbetering van een activiteit selecteert, wordt de actie flyout voor de volledige verbetering weergegeven.
+Als u de actie voor verbetering selecteert die aan een activiteit is gekoppeld, wordt de flyout met de actie voor volledige verbetering weergegeven.
 
-Als u alle geschiedenis voor de specifieke actie voor verbetering wilt bekijken, selecteert u de koppeling geschiedenis in het vervolgmenu.
+Als u alle geschiedenis voor die specifieke verbeteringsactie wilt weergeven, selecteert u de geschiedeniskoppeling in de flyout.
 
-![Geschiedenis van verbeterings actie](../../media/secure-score/secure-score-history-flyout.png)
+![Geschiedenis van actie voor kwaliteitsverbetering](../../media/secure-score/secure-score-history-flyout.png)
 
-## <a name="discover-trends-and-set-goals"></a>Trends ontdekken en doelstellingen instellen
+## <a name="discover-trends-and-set-goals"></a>Trends ontdekken en doelen stellen
 
-In het tabblad **statistieken & trends** zijn er verschillende grafieken en grafieken waarmee u inzicht kunt krijgen in trends en doelstellingen kunt instellen. U kunt het datumbereik voor de hele pagina met visualisaties instellen. De visualisaties zijn:
+Op het **tabblad & ziet** u verschillende grafieken en diagrammen om u meer inzicht te geven in trends en doelstellingen te stellen. U kunt het datumbereik voor de hele pagina met visualisaties instellen. De visualisaties zijn:
 
-* **De beveiligde Score zone** , aangepast op basis van de doelstellingen en definities van uw organisatie
-* **Regressie trend** : een tijdlijn van punten met regressed vanwege configuratie-, gebruikers-of apparaat-wijzigingen.  
-* **Vergelijkings trend** -hoe de Secure Score van uw organisatie vergelijkt met de verschillende tijd. In deze weergave kunt u lijnen opnemen die het gemiddelde van de score voor bedrijven met een vergelijkbaar aantal gelijke stoelen en een aangepaste vergelijkings weergave kunnen instellen.
-* **Trend van risico acceptatie** -tijdlijn met verbeterings acties gemarkeerd als risico geaccepteerd.
-* **Wijzigingen van scores** : het aantal bereikte punten, punten regressed en wijzigingen in uw score in het opgegeven datumbereik.
+* **Uw veilige scorezone:** aangepast op basis van de doelen van uw organisatie en definities van goede, oké en slechte scorebereiken.
+* **Regressietrend:** een tijdlijn met punten die een terugval hebben vanwege de configuratie, gebruiker of apparaatwijzigingen.  
+* **Vergelijkingstrend:** hoe de secure score van uw organisatie zich verhoudt tot die van anderen. Deze weergave kan lijnen bevatten die het scoregemiddelde weergeven van organisaties met vergelijkbare seattellingen en een aangepaste vergelijkingsweergave die u kunt instellen.
+* **Risicoacceptatietrend:** tijdlijn met acties voor kwaliteitsverbetering die zijn gemarkeerd als 'geaccepteerd risico'.
+* **Wijzigingen in** de score: het aantal gerealiseerde punten, een terugval van punten en wijzigingen in uw score in het opgegeven datumbereik.
 
-### <a name="compare-your-score-to-organizations-like-yours"></a>Uw score vergelijken met organisaties zoals u
+### <a name="compare-your-score-to-organizations-like-yours"></a>Vergelijk uw score met organisaties zoals die van u
 
-Er zijn twee locaties om te zien hoe uw score wordt vergeleken met organisaties die vergelijkbaar zijn met u. U kunt in beide grafieken de optie **vergelijkingen beheren** selecteren om de gegevens van uw organisatie weer te geven en te bewerken. U kunt ook een aangepaste vergelijking maken op basis van sector, organisatie formaat, licenties en regio's.
+Er zijn twee plaatsen om te zien hoe uw score zich verhoudt tot organisaties die op u lijken. In beide grafieken kunt u **Vergelijkingen beheren selecteren** om de gegevens van uw organisatie weer te geven en te bewerken. U kunt ook een aangepaste vergelijking maken op basis van bedrijfstak, organisatiegrootte, licenties en regio's.
 
-#### <a name="comparison-bar-chart"></a>Vergelijkings balk diagram
+#### <a name="comparison-bar-chart"></a>Vergelijkingsbalkdiagram
 
-De vergelijkings balk grafiek is het tabblad **overzicht** . Plaats de muisaanwijzer op de grafiek om de score en de verkoopkans weer te geven. De vergelijkingsgegevens zijn geanonimiseerde, zodat we niet precies weten welke andere tenants deelnemen aan de mix.
+Het vergelijkingsbalkdiagram is het **tabblad** Overzicht. Plaats de muisaanwijzer op de grafiek om de score en de scorekans te bekijken. De vergelijkingsgegevens worden anoniem gemaakt, zodat we niet precies weten welke tenants bij elkaar staan.
 
-![Staafdiagram met de scores van vergelijkbare organisatie](../../media/secure-score/secure-score-comparison-bar.png)
+![Staafdiagram met de scores van vergelijkbare organisaties](../../media/secure-score/secure-score-comparison-bar.png)
 
-- **Organisaties zoals uw** eigen: een gemiddelde score van andere tenants (mits er minstens vijf of meer tenants zijn om te vergelijken) die voldoen aan de volgende criteria:
+- **Organisaties zoals die van** u: een gemiddelde score van andere tenants (mits er ten minste vijf of meer tenants zijn om te vergelijken) die in aanmerking komen met de volgende criteria:
     1. Dezelfde bedrijfstak
-    2. Hetzelfde formaat van organisatie
+    2. Dezelfde organisatiegrootte
     3. Alle regio's
-    4. Gebruikte Microsoft-producten zijn 80% vergelijkbaar
-    5. Verkoopkans (maximale score die kan worden behaald door de huidige licentie) binnen een 20% van de Tenant
+    4. Gebruikte Microsoft-producten lijken 80% op elkaar
+    5. Mogelijkheid (maximale score die kan worden bereikt met huidige licentie) binnen een bereik van 20% van uw tenant
 
-- **Aangepaste vergelijking**: u moet deze optie instellen door **vergelijking beheren** op basis van de volgende criteria te selecteren:
-    1. Geselecteerde bedrijfstak ('s)
-    2. Geselecteerd formaat (en) van de organisatie
-    3. Geselecteerde regio ('s)
-    4. Geselecteerde licentie (s)
-    5. Gebruikte Microsoft-producten zijn 80% vergelijkbaar
-    6. Verkoopkans (maximale score die kan worden behaald door de huidige licentie) binnen een 20% van de Tenant
+- **Aangepaste vergelijking:** moet worden ingesteld door Vergelijking beheren te **selecteren op** basis van de volgende criteria:
+    1. Geselecteerde bedrijfstak(en)
+    2. Geselecteerde organisatiegrootte(en)
+    3. Geselecteerde gebied(en)
+    4. Geselecteerde licenties
+    5. Gebruikte Microsoft-producten lijken 80% op elkaar
+    6. Mogelijkheid (maximale score die kan worden bereikt met huidige licentie) binnen een bereik van 20% van uw tenant
 
-Als u een aangepaste selectie hebt gemaakt, maar de resultaten kleiner zijn dan vijf andere tenants waarmee we kunnen vergelijken, ziet u ' niet beschikbaar vanwege beperkte gegevens '.
+Als u een aangepaste selectie hebt gemaakt, maar de resultaten minder dan vijf andere tenants hebben die we kunnen vergelijken, ziet u 'Niet beschikbaar vanwege beperkte gegevens'.
 
-#### <a name="comparison-trend"></a>Vergelijkings trend
+#### <a name="comparison-trend"></a>Vergelijkingstrend
 
-Bekijk op het tabblad **gegevens & trends** de manier waarop de Secure Score van uw organisatie vergelijkt met anderen.
+Op het **tabblad & kunt** u zien hoe de secure score van uw organisatie in de toekomst wordt vergeleken met die van anderen.
 
-![Lijngrafiek van vergelijkbare organisatie scores gedurende een bepaalde periode](../../media/secure-score/secure-score-comparison-trend.png)
+![Lijndiagram van de scores van vergelijkbare organisaties in de tijd](../../media/secure-score/secure-score-comparison-trend.png)
 
 ## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
-Als u problemen ondervindt, kunt u het ons laten weten dat u de community [beveiliging, Privacy & naleving](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . We volgen de community en bieden hulp.
+Als u problemen hebt, laat het ons dan weten door berichten te plaatsen in de community [over beveiliging, & compliance.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) We houden de community in de gaten en bieden hulp.
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 

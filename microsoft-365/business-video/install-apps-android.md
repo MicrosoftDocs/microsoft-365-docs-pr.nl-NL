@@ -16,32 +16,33 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het installeren van Outlook en andere Office-apps op Android-apparaten.
-ms.openlocfilehash: ba9e37a3012dd8d9e7000bf2af61c014df58023a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het installeren van Outlook en andere Office-apps op Android-apparaten.
+ms.openlocfilehash: 3b449d98a9e19e8f4ce8a3cc84dbbdce058dc310
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702119"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925120"
 ---
-# <a name="install-outlook-and-office-apps-on-android-devices"></a>Outlook en Office-apps installeren op Android-apparaten
+# <a name="install-outlook-and-office-apps-on-android-devices"></a>Outlook- en Office-apps installeren op Android-apparaten
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfquk?autoplay=false]
 
-Als uw Android-apparaat wordt beheerd door Microsoft 365 Business Premium, wordt u mogelijk gevraagd extra veiligheid in te stellen wanneer u een Office-app voor de eerste keer installeert. 
+Als uw Android-apparaat wordt beheerd door Microsoft 365 Business Premium, wordt u mogelijk gevraagd extra beveiliging in te stellen wanneer u de eerste keer een Office-app installeert. 
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Kies de Google Play Store op uw apparaat.
-2. Zoek de Office-app die u wilt installeren. Voor dit voorbeeld is&#39;alles te gebruiken.
-3. Kies in het welkomstscherm van Outlook de optie  **aan de slag**.
-4. Voer op de pagina  **account toevoegen**  uw microsoft 365-e-mailadres in en kies vervolgens  **Doorgaan**.
-5. Typ onder  **Voer uw** wachtwoord uw wachtwoord in en kies vervolgens  **Aanmelden**.
-6. Kies op de volgende pagina  **Doorgaan**  als u nog een account wilt toevoegen. Anders kiest u  **overslaan**.
-7. Wanneer u wordt gevraagd om de app intune Company portal toe te voegen, kiest  **u Ga naar Store**.
-8. Installeer en open de app intune Company Portal en kies  **OK**  wanneer u het bericht ziet dat uw organisatie de gegevens in deze app beschermt.
-9. Als u wordt gevraagd om een pincode in te voeren, voert u een pincode van 4 cijfers in die u&#39;ll gebruikt om de telefoon te ontgrendelen, kiest u  **verzenden** , bevestigt u uw pincode en kiest u vervolgens opnieuw  **verzenden**  .
+1. Kies op uw apparaat de Google Play Store.
+2. Zoek de Office-app die u wilt installeren. We&#39;outlook gebruiken voor dit voorbeeld.
+3. Kies Aan de slag in het welkomstscherm  **van** Outlook.
+4. Voer op **de pagina Account** toevoegen uw e-mailadres voor Microsoft 365 in en kies **Doorgaan.**
+5. Typ **uw wachtwoord onder** Geef uw wachtwoord op en kies **Aanmelden.**
+6. Kies Op de volgende pagina de  **optie Doorgaan**  als u nog een account wilt toevoegen. Kies anders **Overslaan.**
+7. Wanneer u wordt gevraagd om de app Bedrijfsportal Intune toe te voegen, kiest **u Ga naar store.**
+8. Installeer en open de intune Company portal-app en kies  **VERVOLGENS OK**  wanneer u het bericht ziet dat uw organisatie gegevens in deze app beschermt.
+9. Als u om een pincode wordt gevraagd, voert u een pincode van 4 cijfers in die u&#39;gebruikt om uw telefoon te ontgrendelen, kiest u **Verzenden,** bevestigt u uw pincode en kiest u opnieuw **verzenden.**

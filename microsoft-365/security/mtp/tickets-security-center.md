@@ -1,8 +1,8 @@
 ---
-title: ServiceNow tickets maken en bijhouden in het Microsoft 365-Beveiligingscentrum
-description: Informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365 Beveiligingscentrum.
-keywords: beveiliging, Microsoft 365, M365, Secure Score, beveiliging centrum, ServiceNow, tickets, taken
-ms.prod: w10
+title: ServiceNow-tickets maken en volgen in het Microsoft 365-beveiligingscentrum
+description: Meer informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365-beveiligingscentrum.
+keywords: beveiliging, Microsoft 365, M365, secure score, beveiligingscentrum, ServiceNow, tickets, taken
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -19,22 +19,23 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: f0aadbf2dbf8cb8d9815b4ef8b1c8d3d892c8b31
-ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
+ms.technology: m365d
+ms.openlocfilehash: 3df24e01df0436f6b5824917c91dc4e7c4ee984c
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588527"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925492"
 ---
-# <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>ServiceNow tickets maken en bijhouden in het Microsoft 365-Beveiligingscentrum
+# <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>ServiceNow-tickets maken en volgen in het Microsoft 365-beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 >[!CAUTION]
->**De voorbeeldperiode voor de ServiceNow-connector is beëindigd**<br>
->Deze mogelijkheid is niet langer beschikbaar. Bedankt voor uw feedback en voortdurende ondersteuning terwijl we volgende stappen bepalen.
+>**De preview-periode voor de ServiceNow-connector is beëindigd**<br>
+>Deze mogelijkheid is niet meer beschikbaar. Bedankt voor uw feedback en verdere ondersteuning bij het bepalen van de volgende stappen.
 
-Het [Microsoft 365 Beveiligingscentrum](overview-security-center.md) is verbeterd met de mogelijkheid voor het zelf maken en bijhouden van tickets in ServiceNow. [Meer informatie over ServiceNow](https://www.servicenow.com/)
+Het [Microsoft 365-beveiligingscentrum](overview-security-center.md) is uitgebreid met de mogelijkheid om in het eigen land tickets te maken en bij te houden in ServiceNow. [Meer informatie over ServiceNow](https://www.servicenow.com/)
 
-In het Beveiligingscentrum kunnen beveiligingsbeheerders rechtstreeks een actie ondernemen voor het oplossen van beveiligings punten voor [Microsoft](microsoft-secure-score.md) voor ServiceNow en een ticket maken. Beide ticket beheer en het wijzigen van beheer tickets kunnen worden gemaakt. Spoor tickets in de startpagina van het Beveiligingscentrum en in ServiceNow.
+In het beveiligingscentrum kunnen beveiligingsbeheerders een actie voor de verbetering van [Microsoft Secure Score](microsoft-secure-score.md) rechtstreeks naar ServiceNow verzenden en een ticket maken. Er kunnen zowel incidentenbeheertickets als tickets voor wijzigingsbeheer worden gemaakt. Volg tickets op de startpagina van het beveiligingscentrum en ServiceNow.
 

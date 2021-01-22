@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken. Met het dashboard Gebruiksoverzicht kunt u voor elke grafiek een drilldownbewerking uitvoeren om meer inzichten te krijgen.
-ms.openlocfilehash: d2c5b4f67d93500f7341463a01313271d182dc38
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.openlocfilehash: 4ec7690e5300b2ac08a98fbec3f4c253e970738c
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611347"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921168"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
@@ -86,7 +86,9 @@ Zie [Informatie over beheerdersrollen](../add-users/about-admin-roles.md) en [Be
 
 Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
   
-- [E-mailactiviteit](email-activity.md)
+- [E-mailactiviteit](email-activity-ww.md)
+
+- [E-mailactiviteit voor de Amerikaanse overheid](email-activity.md)
     
 - [Postvakgebruik](mailbox-usage.md)
     
@@ -98,7 +100,9 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 
 - [Actieve gebruikers voor de Amerikaanse overheid](active-users.md)
   
-- [Gebruik van e-mail-apps](email-apps-usage.md)
+- [Gebruik van e-mail-apps](email-apps-usage-ww.md)
+
+- [Gebruik van e-mailapps voor de Amerikaanse overheid](email-apps-usage.md)
 
 - [Formulieractiviteit](forms-activity-ww.md)
 

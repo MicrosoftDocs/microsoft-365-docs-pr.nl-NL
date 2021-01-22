@@ -16,34 +16,35 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het plannen van vergaderingen in teams met gasten.
-ms.openlocfilehash: 3efe87e93bc70adba4c99be3f2791e464cbfbc83
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Lees hoe u een Teams-vergadering met gasten kunt plannen.
+ms.openlocfilehash: 2da05fdd4bc10bb1cc0dea5cd769c4630787820c
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701674"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926088"
 ---
 # <a name="schedule-a-teams-meeting-with-guests"></a>Een Teams-vergadering met gasten plannen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOhP?autoplay=false]
 
-U kunt personen van buiten uw organisatie uitnodigen voor een vergadering zonder deze toe te voegen aan Microsoft teams. Hier ziet u hoe het werkt voor uw klanten of partners wanneer ze [deelnemen aan een vergadering zonder een teams-account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508).
+U kunt personen van buiten uw organisatie uitnodigen voor een vergadering zonder ze toe te voegen aan Microsoft Teams. Zo werkt het voor uw klanten of partners wanneer ze deelnemen aan een vergadering [zonder een Teams-account.](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-Met Microsoft teams kunt u nieuwe teams maken wanneer u nieuwe projecten gaat maken of klanten toevoegt.
+Met Microsoft Teams kunt u nieuwe teams maken wanneer u nieuwe projecten start of klanten toevoegt.
 
-1. Selecteer op het tabblad  **teams** de optie **lid worden van een team of een team maken**, **team maken**, **een geheel nieuwe versie van het team** maken en vervolgens **privé**.
-2. Voer een naam in voor uw team, een beschrijving en selecteer  **maken**.
-3. Voeg op de pagina  **leden toevoegen**  interne leden toe door ze te zoeken en te selecteren, en gast leden toe te voegen door hun e-mailadres in te voeren en vervolgens  **toevoegen** te selecteren.
+1. Op het **tabblad Teams** selecteert u Deelnemen of een **team maken, Team** **maken,** Een **nieuw team** maken en vervolgens **Privé.**
+2. Voer een naam in voor uw team en een beschrijving en selecteer **Maken.**
+3. Voeg op de pagina **Leden** toevoegen interne leden toe door deze te zoeken en te selecteren. Voeg gastleden toe door hun e-mailadres in te voegen. Selecteer vervolgens **Toevoegen.**
 
-    Als u ziet dat  **er geen overeenkomsten zijn gevonden** , moet u delen van gasten inschakelen. Ga naar het Microsoft 365-Beheercentrum, kies het teams-Beheercentrum, Kies instellingen voor de  **gehele organisatie**,  **gasttoegang** en Schakel  **gasttoegang toestaan in teams in**. Deze wijziging kan tot 24 uur duren.
+    Als u ziet  **dat er geen overeenkomsten zijn** gevonden, moet u delen van gasten inschakelen. Ga naar het Microsoft 365-beheercentrum, kies het **Teams-beheercentrum,** kies Instellingen voor de hele **organisatie,** Gasttoegang en schakel Gasttoegang **toestaan in Teams in.** Deze wijziging kan tot 24 uur duren.
 
-1. Selecteer  **sluiten**. Uw gasten en leden ontvangen uitnodigingen voor het team.
-2. Voer in het kanaal algemeen een begroeting voor iedereen in en selecteer  **verzenden**.
-3. Voeg op het tabblad  **bestanden** documenten toe waaraan u samen wilt werken. U kunt ze hier maken of bestanden slepen en neerzetten vanaf uw computer.
+1. Selecteer **Sluiten.** Uw gasten en leden ontvangen uitnodigingen voor het team.
+2. Voer in het kanaal Algemeen een begroeting in voor iedereen en selecteer **Verzenden.**
+3. Voeg op  **het** tabblad Bestanden documenten toe waar u samen aan wilt werken. U kunt ze hier maken of bestanden slepen en neerzetten vanaf uw computer.

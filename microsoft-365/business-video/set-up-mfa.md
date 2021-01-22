@@ -1,5 +1,5 @@
 ---
-title: Meervoudige aanmelding op uw telefoon instellen
+title: Meervoudige aanmelding instellen op uw telefoon
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,38 +16,39 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het instellen van multi-factor Authentication op uw telefoon.
-ms.openlocfilehash: 0f86b93514f974d440ed2f58ee837ce9b497a53c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het instellen van meervoudige verificatie op uw telefoon.
+ms.openlocfilehash: b682ec58c73d90b0936c107ab8fef1de5aff867d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702363"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925932"
 ---
 # <a name="set-up-multi-factor-authentication-on-your-phone"></a>Meervoudige verificatie instellen op uw telefoon
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR?autoplay=false]
 
-Meervoudige verificatie biedt een grotere beveiliging voor uw bedrijf. Voer de volgende stappen uit om deze in te stellen.
+Meervoudige verificatie biedt meer beveiliging voor uw bedrijf. Volg deze stappen om dit in te stellen.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Wanneer u zich aanmeldt [https://office.com](https://office.com) , ziet u de vraag **meer informatie vereist** . Kies **Volgende**.
-1. Kies onder **stap 1** de optie **mobiele app** in de vervolgkeuzelijst voor **telefoon voor authenticatie** .
-1. Selecteer de methode die u wilt gebruiken om u aan te melden voor het gebruik van de mobiele app:
-    - Selecteer **meldingen ontvangen voor verificatie** om rechtstreeks vanuit de mobiele app te verifiëren, waaronder vingerafdruk verificatie.
-    - Selecteer **verificatiecode gebruiken** om telkens wanneer u zich verifieert, een nieuwe verificatiecode in te voeren.
-1. Kies **instellen**.
-1. Open het venster **mobiele apps configureren** niet op uw computer.
-1. Ga op uw mobiele apparaat naar de App Store, zoek naar ' Microsoft Authenticator ', Selecteer deze, installeer de app en open deze.
-1. In de verificator volgt u de aanwijzingen om de wizard te voltooien en kiest u het plusteken (+) om uw account toe te voegen.
-1. Kies **werk-of schoolaccount**, kies toestaan wanneer u wordt gevraagd om toestemming te **geven** om Foto's te nemen en video op te nemen, en volg de instructies om de QR-code in het venster openen op uw computer te scannen.
-1. Nadat het account is toegevoegd, kiest **u ontvangen**.
-1. Kies **volgende** op de computer en kies opnieuw **volgende** .
-1. Maak een notitie van de code op uw mobiele apparaat, voer de code op de computer in het vak onder **stap 2** in en kies vervolgens **verifiëren**.
-1. Voer in de vakken onder **stap 3** een back-uptelefoon nummer in, bijvoorbeeld uw Office-nummer, kies **volgende** en kies vervolgens **gereed**.
+1. Wanneer u zich aan melden, ziet u de [https://office.com](https://office.com) prompt **Meer informatie** vereist. Kies **Volgende**.
+1. Kies **onder Stap 1** de **mobiele app** in de vervolgkeuzelijst **Verificatietelefoon.**
+1. Selecteer onder Hoe wilt u de mobiele app gebruiken? de methode waarmee u zich wilt aanmelden:
+    - Selecteer **Meldingen ontvangen voor verificatie om** rechtstreeks te verifiëren vanuit uw mobiele app, die mogelijk vingerafdrukverificatie bevat.
+    - Selecteer **Verificatiecode gebruiken om** elke keer dat u zich verifieert een nieuwe verificatiecode in te voeren.
+1. Kies **Instellen.**
+1. Laat het **venster Mobiele app configureren** geopend op uw computer.
+1. Ga op uw mobiele apparaat naar de App Store, zoek naar 'Microsoft Authenticator', selecteer deze, installeer en open de app.
+1. Volg in Authenticator de aanwijzingen om de wizard te voltooien en kies vervolgens het plusteken (+) om uw account toe te voegen.
+1. Kies Werk- of  **schoolaccount,** kies Toestaan wanneer u wordt gevraagd om toestemming voor het maken van foto's en het opnemen van video en volg de instructies om de QR-code in het geopende venster op uw computer te scannen.
+1. Nadat het account is toegevoegd, kiest u **Got It.**
+1. Kies volgende op uw computer **en** kies opnieuw **Volgende.**
+1. Noteer de code die wordt weergegeven op uw mobiele apparaat, voer de code op uw computer in het vak onder Stap **2** in en kies **Verifiëren.**
+1. Voer in de vakken onder **Stap 3** een back-up van het telefoonnummer in, zoals uw kantoornummer, kies Volgende **en** kies Vervolgens **Klaar.**

@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het installeren van Microsoft Office-apps.
-ms.openlocfilehash: 7b50a639f5f2945c524d268502636d7a809f3866
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het installeren van Microsoft Office-apps.
+ms.openlocfilehash: abbeb8fdaa36956014ef955f853616cdb7d4e83c
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702108"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925012"
 ---
 # <a name="install-office-apps"></a>Office-apps installeren 
 
@@ -34,12 +35,12 @@ ms.locfileid: "49702108"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-Microsoft Office-apps vindt u in het menu  **Start** . Als u de&#39;deze niet ziet, kunt u ze zelf installeren.
+U vindt Microsoft Office-apps in het **Startmenu.** Als u ze&#39;ziet, kunt u ze zelf installeren.
 
 1. Ga naar office.com. Mogelijk moet u zich aanmelden met uw werkaccount.
-2. Selecteer **Office**   >   **Microsoft 365-apps** installeren   >    en selecteer vervolgens **Ja**.
-3. De Office-apps worden geïnstalleerd. Het proces kan enkele minuten duren. Wanneer de bewerking is voltooid, selecteert u  **sluiten**.
-4. Als u Microsoft teams wilt installeren, gaat u naar de pagina office.com en kiest u  **teams**.
-5. Ga naar de Windows-app en selecteer vervolgens  **uitvoeren**. In teams wordt een melding weergegeven wanneer de installatie is voltooid.
+2. Selecteer **Office Microsoft**   >   **365-apps installeren**   >   **uitvoeren** en selecteer vervolgens **Ja.**
+3. De Office-apps worden geïnstalleerd. Het proces kan enkele minuten duren. Wanneer het klaar is, selecteert u **Sluiten.**
+4. Als u Microsoft Teams wilt installeren, gaat u naar de office.com en kiest u **Teams.**
+5. Haal de Windows-app op en selecteer **Uitvoeren.** In Teams wordt een prompt weergegeven wanneer de installatie is voltooid.
 
-De Office-apps die u hebt geïnstalleerd, worden nu weergegeven in het  **Start** menu.
+De Office-apps die u hebt geïnstalleerd, worden nu weergegeven in het **Startmenu.**

@@ -1,9 +1,9 @@
 ---
-title: Problemen met Microsoft 365 Defender-service oplossen
-description: Oplossingen zoeken en de problemen met bekende Microsoft 365 Defender oplossen
-keywords: problemen oplossen met Microsoft Threat Protection, problemen oplossen, Azure ATP, problemen, invoegtoepassing, pagina instellingen
+title: Problemen met de Microsoft 365 Defender-service oplossen
+description: Oplossingen en oplossingen vinden voor bekende problemen met Microsoft 365 Defender
+keywords: Microsoft Threat Protection oplossen, problemen oplossen, Azure ATP, problemen, invoegoplossing, instellingenpagina
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,14 +19,15 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b7b6ea55d084c114b79dfee0e061b09c8ede8632
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: m365d
+ms.openlocfilehash: 414743fa5ba25b9d2714c1dd08dd38e34ec94372
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760456"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925716"
 ---
-# <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Problemen met Microsoft 365 Defender-service oplossen
+# <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Problemen met de Microsoft 365 Defender-service oplossen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,20 +35,20 @@ ms.locfileid: "49760456"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-In deze sectie worden problemen beschreven die kunnen optreden wanneer u de Microsoft 365 Defender-service gebruikt.
+Deze sectie gaat in op problemen die zich kunnen voordoen wanneer u de Microsoft 365 Defender-service gebruikt.
 
-## <a name="i-dont-see-microsoft-365-defender-content"></a>Ik zie de inhoud van Microsoft 365 Defender niet
+## <a name="i-dont-see-microsoft-365-defender-content"></a>Ik zie geen Microsoft 365 Defender-inhoud
 
-Als u de mogelijkheden van het navigatiedeelvenster, zoals het geval, het Onderhoudscentrum of de jacht niet ziet in de portal, moet u controleren of de Tenant de juiste licenties heeft.
+Als u geen mogelijkheden ziet in het navigatiedeelvenster, zoals incidenten, actiecentrum of zoeken in uw portal, moet u controleren of uw tenant de juiste licenties heeft.
 
-Zie [vereisten](prerequisites.md)voor meer informatie.
+Zie Vereisten voor [meer informatie.](prerequisites.md)
 
-## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Microsoft Defender voor identiteits waarschuwingen worden niet weergegeven in de Microsoft 365 Defender-incidenten
+## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Waarschuwingen van Microsoft Defender voor identiteit worden niet weergegeven in de Microsoft 365 Defender-incidenten
 
-Als Microsoft Defender voor de identiteit is geïmplementeerd in uw omgeving, maar als u in de Microsoft 365-versie van Microsoft 2010 niet werkt met de identiteits waarschuwingen, moet u ervoor zorgen dat de beveiligings-app voor Microsoft Cloud app en Defender voor identiteits integratie is ingeschakeld.
+Als Microsoft Defender voor identiteit is geïmplementeerd in uw omgeving, maar u geen meldingen van Defender voor identiteit ziet als onderdeel van Microsoft 365 Defender-incidenten, moet u ervoor zorgen dat de integratie van Microsoft Cloud App en Defender voor identiteit is ingeschakeld.
 
-Zie [Microsoft Defender for Identity Integration](https://docs.microsoft.com/cloud-app-security/mdi-integration)voor meer informatie.
+Zie Microsoft [Defender for Identity Integration voor meer informatie.](https://docs.microsoft.com/cloud-app-security/mdi-integration)
 
-## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de pagina instellingen voor het inschakelen van de service?
+## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Waar is de instellingenpagina voor het in- en uitschakelen van de service?
 
-Als u Microsoft 365 Defender wilt inschakelen, opent u de **instellingen** van het navigatiedeelvenster in het microsoft 365 Beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u beschikt over de [vereiste machtigingen en licenties](mtp-enable.md#check-license-eligibility-and-required-permissions).
+Als u Microsoft 365 Defender wilt in uitschakelen, gebruikt u **Instellingen** vanuit het navigatiedeelvenster in het Microsoft 365-beveiligingscentrum. Dit navigatie-item is alleen zichtbaar als u de vereiste [machtigingen en licenties hebt.](mtp-enable.md#check-license-eligibility-and-required-permissions)

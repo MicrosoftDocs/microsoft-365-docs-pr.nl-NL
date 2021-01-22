@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over het instellen van Microsoft 365 Business Premium.
-ms.openlocfilehash: 79f089e38979990c29156ea07201c8d902a51e80
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: bda1326ebd905dece382c1513296739a39887976
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702362"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925944"
 ---
 # <a name="set-up-microsoft-365-business-premium"></a>Microsoft 365 Business Premium instellen
 
@@ -34,18 +35,18 @@ ms.locfileid: "49702362"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Meld u aan bij het Microsoft 365-Beheercentrum en selecteer  **Ga naar Setup**. De wizard Setup wordt gestart.
-2.  Op de pagina  **uw Office-apps installeren**  kunt u kiezen om Office-apps op uw computer te installeren, of selecteer  **Doorgaan**.
-3.  Voer op de pagina  **uw domein is uw bedrijfsidentiteit**  de domeinnaam voor uw bedrijf in en selecteer vervolgens  **dit domein gebruiken**. Als u een veelvoorkomende record voor de bewaarder gebruikt, zoals WordPress of GoDaddy, worden uw records automatisch toegevoegd aan deze pagina.
-4. Selecteer op de pagina  **uw domein verifiëren**  de optie  **verifiëren** om de eigendom van uw domein te verifiëren en meld u vervolgens aan bij uw domeinregistratie account. Als u Microsoft een TXT-record wilt laten toevoegen voor verificatie van uw account, selecteert u  **bevestigen**.
-5. Voer op de pagina  **gebruikers toevoegen en licenties toewijzen**  de voornaam van de gebruiker, achternamen en gebruikersnamen in. Selecteer vervolgens  **gebruikers toevoegen en licenties toewijzen**.
-6. Voer op de pagina  **inloggegevens delen**  het alternatieve e-mailadres voor uw gebruikers in en selecteer  **e-mail verzenden en doorgaan**.
-7.  Ga naar de pagina  **records activeren**  en klik op  **Doorgaan**.
-8.  U wordt aangeraden op de pagina  **DNS-records toevoegen**  de services in te schakelen voor E-mail, teams en beveiliging van een mobiel apparaat. Selecteer  **configureren** en selecteer vervolgens  **verbinden** om de wijzigingen met uw domeinregistratie te bevestigen.
-9.  Laat op de pagina **meer bescherming van geavanceerde cyber threats** de versie **Office Advanced Threat Protection** ingeschakeld, Controleer wat er wordt gescand en selecteer vervolgens geavanceerde **beleidsregels** voor **risico beveiliging maken**.   
-10.  Als u wilt, kunt u optioneel Outlook installeren op uw mobiele apparaten. Selecteer  **Doorgaan**.
-11. Kies op de pagina  **Help personen Microsoft teams gebruiken**  de optie als u gebruikers in uw organisatie een e-mailbericht wilt sturen over teams en selecteer  **Doorgaan**.
-12. Op de pagina  **gegevens in Office beschermen voor mobiel apparaat**  wilt u de mobiele app beheren, vouwt u de instellingen uit en bekijkt u ze en selecteert u vervolgens  **beleid voor Mobile App Management maken**.
-13. Wanneer de installatie is voltooid, gaat u terug naar het Microsoft-Beheercentrum. In het Beheercentrum kunt u doorgaan met het instellen van functies als Windows 10-beleid, DLP, enzovoort op de  **installatie**  pagina.
+1. Meld u aan bij het Microsoft 365-beheercentrum en selecteer **Ga naar setup.** De installatiewizard wordt start.
+2.  Op de **pagina Uw Office-apps** installeren kunt u kiezen of u Office-apps wilt installeren op uw computer of Doorgaan **selecteert.**
+3.  Voer op **de pagina Uw domein uw bedrijfsidentiteit** in, voer de domeinnaam voor uw bedrijf in en selecteer Dit domein **gebruiken.** Als u een veelgebruikte registrar zoals WordPress of GoDaddy gebruikt, worden uw records automatisch toegevoegd op deze pagina.
+4. Selecteer op  **de pagina Uw domein**  verifiëren  **de** optie Verifiëren om het eigendom van uw domein te verifiëren en meld u aan bij uw domeinregistraraccount. Als u Microsoft een TXT-record wilt laten toevoegen voor accountverificatie, selecteert u **Bevestigen.**
+5. Voer op  **de pagina Gebruikers toevoegen en licenties toewijzen**  de voornamen, achternamen en gebruikersnamen van gebruikers in. Selecteer vervolgens **Gebruikers toevoegen en wijs licenties toe.**
+6. Voer op **de pagina Aanmeldingsgegevens delen alternatieve e-mailadressen** in voor uw gebruikers, selecteer **E-mail verzenden en ga door.**
+7.  Klik op **de pagina Records** activeren op **Doorgaan.**
+8.  Het is raadzaam om op de pagina  **DNS-records**  toevoegen de services ingeschakeld te laten voor e-mail, Teams en beveiliging van mobiele apparaten. Selecteer  **Configureren** en selecteer vervolgens  **Verbinding maken om** de wijzigingen bij uw domeinregistrar te bevestigen.
+9.  Op de **pagina Bescherming verhogen tegen geavanceerde cyber** aanvallen, laat u Office Advanced Threat **Protection** aan, controleer wat wordt gescand en selecteer vervolgens Beleid voor Advanced Threat **Protection maken.**   
+10.  Desgewenst kunt u Outlook installeren op uw mobiele apparaten. Selecteer **Doorgaan.**
+11. Kies op **de pagina Help personen om Microsoft Teams** te gebruiken of u gebruikers in uw organisatie een e-mail wilt sturen over Teams en selecteer **Doorgaan.**
+12. Op de **pagina Gegevens beveiligen in Office** voor mobiele apparaten laat u het beheer van mobiele apps aan, vouwt u de instellingen uit en controleert u deze en selecteert u beleid voor het beheren van mobiele apps **maken.**
+13. Nadat de installatie is voltooid, gaat u terug naar het Microsoft-beheercentrum. In het beheercentrum kunt u functies zoals Windows 10-beleid, DLP, enzovoort, blijven instellen op de  **pagina**  Setup.
 
 De installatie is voltooid.

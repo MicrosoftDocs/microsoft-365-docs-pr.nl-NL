@@ -16,31 +16,32 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Leer hoe u uw bedrijfsbestanden veilig extern deelt.
-ms.openlocfilehash: 2ffb9067b73daad8591f6563640ca95ac4c8724b
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Lees hoe u uw zakelijke bestanden veilig extern kunt delen.
+ms.openlocfilehash: c2e611d6a6fc6fb239302d2b9d4960471cd5f707
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702381"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925980"
 ---
-# <a name="securely-share-files-externally"></a>Extern bestanden veilig delen
+# <a name="securely-share-files-externally"></a>Bestanden veilig extern delen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE22Yf0?autoplay=false]
 
-In Microsoft 365 voor bedrijven kunt u eenvoudig bestanden delen met personen in uw organisatie, maar soms moet u ook delen met personen buiten uw organisatie. U kunt bestanden veilig delen met uw klanten door een beveiligde koppeling te verzenden.
+In Microsoft 365 voor Bedrijven kunt u eenvoudig bestanden delen met personen in uw organisatie, maar soms moet u ook delen met personen buiten uw organisatie. Als u bestanden veilig wilt delen met uw klanten, kunt u een beveiligde koppeling verzenden.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Klik boven aan de documentbibliotheek op uw SharePoint-site op **Nieuw** en selecteer **map**.
-1. Geef de map een naam en klik op **maken**.
-1. Upload de bestanden die u wilt delen met de nieuwe bibliotheek, of kies **Nieuw** om nieuwe documenten rechtstreeks aan te maken in de bibliotheek.
-1. Selecteer de nieuwe map in de documentbibliotheek en klik vervolgens op de knop **delen** .
-1. In het venster **koppeling verzenden** klikt u bovenaan op de lijst, kies **specifieke personen**, selecteer **Bewerken toestaan**, en kies vervolgens **toepassen**.
-1. In het venster **koppeling verzenden** voert u het e-mailadres van uw klant in, typt u een bericht en kiest u **verzenden**.
+1. Klik boven aan de documentbibliotheek op uw SharePoint-site op **Nieuw** en selecteer **Map.**
+1. Geef de map een naam en klik op **Maken.**
+1. Upload de bestanden die u wilt delen naar de nieuwe bibliotheek of kies **Nieuw** om nieuwe documenten rechtstreeks in de bibliotheek te maken.
+1. Selecteer de nieuwe map in de documentbibliotheek en klik vervolgens op de **knop** Delen.
+1. Klik in **het venster Koppeling** verzenden op de lijst bovenaan, kies Specifieke personen, selecteer Bewerken toestaan en kies **Toepassen.**  
+1. Voer in **het venster Koppeling** verzenden het e-mailadres van de klant in, typ een bericht en kies **Verzenden.**
 
-    De klant ontvangt een e-mailbericht met een verificatiecode, die zij naar zichzelf moeten verzenden om toegang te krijgen tot uw map. Als het niet lukt om het e-mailbericht te vinden, moeten ze hun spam mappen controleren.
+    De klant ontvangt een e-mail met een verificatiecode, die ze zelf moeten verzenden voor toegang tot uw map. Als ze de e-mail niet kunnen vinden, moeten ze de map Ongewenste e-mail controleren.

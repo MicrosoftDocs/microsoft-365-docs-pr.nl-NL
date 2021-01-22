@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Informatie over het implementeren van teams met bescherming voor zeer vertrouwelijke gegevens.
-ms.openlocfilehash: 045f1b1d1ebf03eb70554dc5964acb0a12e0060f
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 2679a8a0bd8cf5cc3d35d517e8a44921fc4fdbc1
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870849"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921132"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 
@@ -153,7 +153,7 @@ Om het delen van sites met eigenaren te configureren
 2. Klik op de werkbalk van het team op **Bestanden**.
 3. Klik op het beletselteken en klik vervolgens op **Openen in SharePoint**.
 4. Klik op de werkbalk van de onderliggende SharePoint-site op het pictogram Instellingen en vervolgens op **Sitemachtigingen**.
-5. Klik in het deelvenster Site-machtigingen, onder **Instellingen voor delen** op **Instellingen voor delen wijzigen**.
+5. Klik in het deelvenster **Site-machtigingen** onder **Delen van een site** op **Wijzigen hoe leden kunnen delen**.
 6. Kies onder **Machtigingen voor delen**, **Alleen site-eigenaren kunnen bestanden, mappen en de site delen**.
 7. Schakel **Toegangsaanvragen toestaan** **Uit** en klik vervolgens op **Opslaan**.
 

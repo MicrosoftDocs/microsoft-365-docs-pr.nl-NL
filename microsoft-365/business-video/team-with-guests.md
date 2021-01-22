@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Leer hoe u een team maakt met gasten in Microsoft teams.
-ms.openlocfilehash: 83d474e057e3400e0fae4eac17c2eb6d501e519a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Informatie over het maken van een team met gasten in Microsoft Teams.
+ms.openlocfilehash: ea195b64f3d4d048d78648b19f1820842570b2b0
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702224"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925872"
 ---
 # <a name="create-a-team-with-guests"></a>Een team met gasten maken
 
@@ -34,15 +35,15 @@ ms.locfileid: "49702224"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-U kunt Microsoft teams gebruiken om samen te werken aan een project met uw medewerkers en personen van buiten het bedrijf, zoals uw klanten.
+U kunt Microsoft Teams gebruiken om samen te werken aan een project met uw werknemers en personen buiten het bedrijf, zoals uw klanten.
 
-1. Kies in teams in het linker navigatie team de optie  **teams**  en kies vervolgens  **team maken**.
-2. Voer in het vak  **uw team maken**  een naam in voor het team, maak een korte beschrijving, kies een privacy-instelling en kies  **volgende**.
-3. Voer in het vak  **leden toevoegen**  de namen in van andere werknemers in uw organisatie. Voor gasten van buiten: Voer het e-mailadres in.
+1. Kies in Teams **teams** in het linkernavigatievenster en kies **vervolgens Team maken.**
+2. Voer in **het vak Uw team** maken een teamnaam in, geef een korte beschrijving op, kies een privacy-instelling en kies vervolgens **Volgende.**
+3. Voer in  **het vak Leden**  toevoegen de namen in van andere werknemers in uw organisatie. Voor externe gasten voert u hun e-mailadres in.
 
-    Als u een bericht krijgt dat u geen gasten kunt toevoegen, gaat u naar het teams-en Skype-Beheercentrum om toegang voor gasten in te schakelen.
+    Als u een bericht krijgt dat u geen gast kunt toevoegen, gaat u naar het Teams- en Skype-beheercentrum om gasttoegang in te voegen.
 
-1. Kies  **toevoegen** en kies vervolgens  **sluiten**.
-2. Onder aan de pagina voert u een kort welkomstbericht in voor uw nieuwe team en klikt u vervolgens op **verzenden** :::image type="icon" source="../media/teams-send-icon.png" border="false"::: .   
+1. Kies **Toevoegen** en kies **vervolgens Sluiten.**
+2. Voer onder aan de pagina een kort welkomstbericht in voor uw nieuwe team en kies **Verzenden.** :::image type="icon" source="../media/teams-send-icon.png" border="false":::   
 
-De klant ontvangt een e-mail met een uitnodiging van teams, zodat ze u op de hoogte stellen dat ze een gratis Microsoft-account nodig hebben om lid te worden van het team. Ze kunnen een account maken met behulp van hun bestaande e-mailadres door de instructies te volgen. Ze kunnen vervolgens teams op het web gebruiken of de app teams op hun computer installeren.
+Uw klant ontvangt per e-mail een uitnodiging van Teams, waarin hen wordt informeerd dat ze een gratis Microsoft-account nodig hebben om lid te worden van het team. Ze kunnen een account maken met behulp van hun bestaande e-mailadres door de instructies te volgen. Ze kunnen vervolgens Teams op internet gebruiken of de Teams-app op hun computer installeren.

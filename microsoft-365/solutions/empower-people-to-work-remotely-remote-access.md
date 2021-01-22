@@ -51,7 +51,7 @@ Zonder split tunneling wordt al uw externe werk verzonden via de VPN-verbinding,
 
 ![Netwerkverkeer van VPN-clients zonder tunneling](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-before-tunneling.png)
 
-Microsoft 365-verkeer moet een indirecte route gebruiken binnen uw organisatie en kan worden doorgestuurd naar een Microsoft-netwerkingangspunt ver van de fysieke locatie van de VPN-client vandaan. Met dit indirecte pad wordt een vertraging toegevoegd aan het netwerkverkeer en wordt de algehele prestatie negatief beïnvloed.  
+Microsoft 365-verkeer moet een indirecte route gebruiken binnen jouw organisatie en kan worden doorgestuurd naar een Microsoft-netwerkingangspunt ver van de fysieke locatie van de VPN-client vandaan. Met dit indirecte pad wordt een vertraging toegevoegd aan het netwerkverkeer en wordt de algehele prestatie negatief beïnvloed.  
 
 Met split tunneling kunt u uw VPN-client zo configureren dat specifieke typen verkeer niet via de VPN-verbinding naar het bedrijfsnetwerk worden verzonden.
 

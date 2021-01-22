@@ -1,6 +1,6 @@
 ---
 title: Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
-description: Gedetailleerde stappen voor elk probleem dat met het hulpprogramma wordt gevonden
+description: Gedetailleerde acties die u moet uitvoeren voor elk probleem dat met het hulpprogramma wordt gevonden
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -9,332 +9,332 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ada6bb8ef66e3414a375a151b45d4871e306e825
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: f1af39a9b2a09908ecf5f5ff15b9fd6d764459d6
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841062"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921856"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
-Voor elke controle wordt in het hulpmiddel een van de vier mogelijke resultaten weergegeven:
+Bij elke controle wordt een van de vier mogelijke resultaten door het hulpmiddel rapporteren:
 
 
 |Resultaat  |Betekenis  |
 |---------|---------|
-|Gereedgemaakt     | U hoeft geen actie te ondernemen voordat u de registratie uitvoert.        |
-|Adviser    | Voer de stappen in het hulpprogramma of dit artikel uit voor de beste ervaring met inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
-|Niet gereed | *De registratie mislukt als u deze problemen niet oplost.* Voer de stappen in het hulpprogramma of dit artikel uit om ze op te lossen.        |
-|Error | De rol van Azure Active Director (AD) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
+|Klaar     | U hoeft niets te doen voordat u de inschrijving voltooit.        |
+|Advies    | Volg de stappen in het hulpprogramma of dit artikel voor een optimaal gebruik van de inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
+|Nog niet gereed | *De inschrijving mislukt als u deze problemen niet op kunt lossen.* Volg de stappen in het hulpprogramma of in dit artikel om ze op te lossen.        |
+|Error | De Ad-rol (Azure Active Director) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
 
 > [!NOTE]
-> De resultaten van dit hulpmiddel worden weergegeven op de status van uw instellingen op een bepaald moment dat u de bewerking hebt uitgevoerd. Als u later wijzigingen aanbrengt in een beleid in Microsoft intune, Azure Active Directory of Microsoft 365, kunnen items die ' klaar ' zijn, ' niet gereed ' worden gewijzigd. Als u problemen met Microsoft beheerde bureaublad bewerkingen wilt voorkomen, controleert u de specifieke instellingen die in dit artikel worden beschreven voordat u beleidsregels wijzigt.
+> De resultaten die door dit hulpprogramma zijn gerapporteerd, geven alleen de status van uw instellingen weer op het specifieke tijdstip dat u het programma hebt gemaakt. Als u later wijzigingen aan het beleid aan brengen in Microsoft Intune, Azure Active Directory of Microsoft 365, kunnen items die 'Gereed' waren, 'Niet gereed' worden. Als u problemen met bewerkingen met beheerd bureaublad van Microsoft wilt voorkomen, controleert u de specifieke instellingen die in dit artikel worden beschreven voordat u beleid wijzigt.
 
-## <a name="microsoft-intune-settings"></a>Microsoft intune-instellingen
+## <a name="microsoft-intune-settings"></a>Microsoft Intune-instellingen
 
-U kunt de intune-instellingen openen via het [Beheercentrum](https://endpoint.microsoft.com)van Microsoft Endpoint Manager.
+U kunt intune-instellingen openen in het beheercentrum van Microsoft Endpoint [Manager.](https://endpoint.microsoft.com)
 
-### <a name="autopilot-deployment-profile"></a>Auto Pilot-implementatie profiel
+### <a name="autopilot-deployment-profile"></a>Autopilot-implementatieprofiel
 
-U hebt geen bestaande auto pilot-profielen die door Microsoft beheerde bureaublad worden toegewezen of dynamische groepen die door Microsoft worden beheerd. Microsoft Managed Desktop gebruikt auto pilot om nieuwe apparaten te creëren.
+U mag geen Bestaande Autopilot-profielen hebben die zijn gericht op toegewezen of dynamische groepen met Microsoft Managed Desktop-apparaten. Microsoft Managed Desktop gebruikt Autopilot om nieuwe apparaten in terichten.
 
-**Niet gereed**
+**Nog niet gereed**
 
-U hebt een auto pilot-profiel dat is toegewezen aan alle apparaten. Zie [Windows-apparaten in intune registreren met behulp van Windows auto pilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)voor stapsgewijze instructies. Wanneer de Microsoft-bureaublad registratie voor het bureaublad is ingeschakeld, stelt u uw auto pilot-beleid in om de **moderne werkplekken te uitsluiten: alle** Azure AD-groep.
+U hebt een Autopilot-profiel dat is toegewezen aan alle apparaten. Zie Windows-apparaten [registreren in Intune](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)door Windows Autopilot te gebruiken voor stappen. Stel na de registratie van Het beheerde bureaublad van Microsoft uw Autopilot-beleid in om de **groep Modern Workplace Devices -All** Azure AD uit te sluiten.
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat uw auto pilot-profielen een toegewezen of dynamische Azure AD-groep betreffen die geen door Microsoft beheerde bureaublad apparaten bevat die worden gemaakt bij het registreren. Zie [Windows-apparaten in intune registreren met behulp van Windows auto pilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)voor stapsgewijze instructies. Wanneer de Microsoft-bureaublad registratie voor het bureaublad is ingeschakeld, stelt u uw auto pilot-beleid in om de **moderne werkplekken te uitsluiten: alle** Azure AD-groep.
-
-
-### <a name="certificate-connectors"></a>Certificaat verbindingslijnen
-
-Als u certificaat verbindingslijnen hebt die worden gebruikt door de apparaten die u wilt registreren op Microsoft Managed Desktop, zijn de connectors geen fouten. Slechts één van de volgende adviseurs is op uw situatie van toepassing, dus controleer ze aandachtig.
-
-**Adviser**
-
-Er zijn geen certificaat connectors aanwezig. Het is mogelijk dat u geen connectors nodig hebt, maar u moet eerst beoordelen of u een netwerkverbinding met Microsoft beheerde bureaublad apparaten nodig hebt. Zie [certificaten en netwerkprofielen voor Microsoft Managed Desktop voorbereiden](certs-wifi-lan.md)voor meer informatie.
-
-**Adviser**
-
-Minstens één certificaatconnector bevat een fout. Als u deze connector nodig hebt voor connectiviteit met Microsoft Managed Desktop-apparaten, moet u de fout oplossen. Zie [certificaten en netwerkprofielen voor Microsoft Managed Desktop voorbereiden](certs-wifi-lan.md)voor meer informatie.
+Zorg ervoor dat uw Autopilot-profielen zijn gericht op een toegewezen of dynamische Azure AD-groep die geen microsoft beheerde bureaubladapparaten bevat. Zie Windows-apparaten [registreren in Intune](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)door Windows Autopilot te gebruiken voor stappen. Stel na de registratie van Het beheerde bureaublad van Microsoft uw Autopilot-profielen zo in dat de **groep Modern Workplace Devices -All** Azure AD wordt uitgesloten.
 
 
-**Adviser**
+### <a name="certificate-connectors"></a>Connectors voor certificaten
 
-U moet minimaal één certificaatconnector en geen fouten rapporteren. U kunt echter wel een profiel maken om de connector voor Microsoft beheerde bureaublad apparaten opnieuw te gebruiken. Zie [certificaten en netwerkprofielen voor Microsoft Managed Desktop voorbereiden](certs-wifi-lan.md)voor meer informatie.
+Als u certificaatconnectors hebt die worden gebruikt door de apparaten die u wilt registreren in Het beheerde bureaublad van Microsoft, mogen de connectors geen fouten bevatten. Slechts één van de volgende adviezen is van toepassing op uw situatie, dus controleer deze zorgvuldig.
+
+**Advies**
+
+Er zijn geen connectors voor certificaten aanwezig. Het is mogelijk dat u geen connectors nodig hebt, maar u moet evalueren of u mogelijk enkele connectors nodig hebt voor de netwerkconnectiviteit op uw apparaten met het beheerde bureaublad van Microsoft. Zie Certificaten en netwerkprofielen voorbereiden voor beheerd bureaublad [van Microsoft voor meer informatie.](certs-wifi-lan.md)
+
+**Advies**
+
+Minimaal één certificaatconnector heeft een foutmelding. Als u deze connector nodig hebt voor het leveren van certificaten aan apparaten met Beheerd bureaublad van Microsoft, moet u de fout oplossen. Zie Certificaten en netwerkprofielen voorbereiden voor beheerd bureaublad [van Microsoft voor meer informatie.](certs-wifi-lan.md)
 
 
-### <a name="conditional-access-policies"></a>Beleidsregels voor voorwaardelijke toegang
+**Advies**
 
-Het beleid voor voorwaardelijke toegang in uw Azure AD-organisatie mag geen Microsoft-bureaubladgebruikers bedoelen.
+U hebt ten minste één certificaatconnector en er worden geen fouten gerapporteerd. Ter voorbereiding op de implementatie moet u echter mogelijk een profiel maken om de connector opnieuw te gebruiken voor apparaten met een Beheerd bureaublad van Microsoft. Zie Certificaten en netwerkprofielen voorbereiden voor beheerd bureaublad [van Microsoft voor meer informatie.](certs-wifi-lan.md)
 
-**Niet gereed**
 
-U hebt ten minste één beleid voor voorwaardelijke toegang voor alle gebruikers. Stel het beleid opnieuw in om een specifieke Azure AD-groep met de Azure AD-groep met Microsoft Managed Desktop service-accounts die worden gemaakt bij het registreren, niet te omvatten. Zie voor de stappen [voorwaardelijke toegang: gebruikers en groepen](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups).
+### <a name="conditional-access-policies"></a>Beleid voor voorwaardelijke toegang
 
-**Adviser**
+Beleidsregels voor voorwaardelijke toegang in uw Azure AD-organisatie mogen niet zijn gericht op bureaubladserviceaccounts van Microsoft Beheren.
 
-Zorg ervoor dat u een beleidsregels voor voorwaardelijke toegang hebt uitgesloten met de Azure AD-groep voor de **moderne service accounts** . Zie [voorwaardelijke toegang aanpassen](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access)voor de stappen. De **modern Workplace service accounts** Azure Ad Group is een dynamische groep die we voor de service maken wanneer u zich registreert. U dient na de inschrijving weer de groep uit te sluiten. Zie voor meer informatie over deze serviceaccounts [standaardprocedures](../service-description/operations-and-monitoring.md#standard-operating-procedures)voor het werk.
+**Nog niet gereed**
+
+U hebt ten minste één beleid voor voorwaardelijke toegang dat is gericht op alle gebruikers. Wijzig het beleid zodat het is gericht op een specifieke Azure AD-groep die de Azure AD-groep met Microsoft Managed Desktop-serviceaccounts niet bevat die worden gemaakt bij de inschrijving. Zie Voorwaardelijke [toegang: Gebruikers en groepen voor stappen.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups)
+
+**Advies**
+
+Zorg ervoor dat beleidsregels voor voorwaardelijke toegang die u hebt uitgesloten van de Azure **AD-groep Serviceaccounts** voor Modern Workplace. Zie Voorwaardelijke toegang [aanpassen voor stappen.](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access) De **Azure AD-groep Serviceaccounts** voor Modern Workplace is een dynamische groep die we voor de service maken wanneer u zich inschrijft. U moet na de registratie terugkomen om deze groep uit te sluiten. Zie standaardbesturingssysteemprocedures voor meer informatie over deze [serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Fout**
 
-De rol intune-beheerder heeft onvoldoende machtigingen voor deze controle. U hebt ook een van de volgende Azure AD-rollen nodig die zijn toegewezen om deze controle uit te voeren:
+De rol Intune-beheerder heeft onvoldoende machtigingen voor deze controle. U hebt ook een van deze Azure AD-rollen nodig om deze controle uit te voeren:
 
-- Beveiligings lezer
+- Beveiligingslezer
 - Beveiligingsbeheerder
 - Beheerder van voorwaardelijke toegang
 - Algemene lezer
-- Apparaten beheerder
+- Apparaatbeheerder
 
 
-### <a name="device-compliance-policies"></a>Nalevingsbeleid voor apparaten
+### <a name="device-compliance-policies"></a>Beleid voor apparaat compliance
 
-Het beleid voor naleving van intune-apparaten in de Azure AD-organisatie mag geen door Microsoft beheerde bureaubladgebruikers afstemmen.
+Intune Device Compliance-beleid in uw Azure AD-organisatie kan van invloed zijn op beheerde Desktop-apparaten van Microsoft.
 
-**Niet gereed**
+**Nog niet gereed**
 
-U hebt ten minste één nalevingsbeleid voor alle gebruikers. Stel het beleid opnieuw in om een specifieke Azure AD-groep te richten die geen Microsoft-beheerde bureaubladgebruikers omvat. Zie [een nalevingsbeleid maken in Microsoft intune](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)voor instructies.
+U hebt ten minste één nalevingsbeleid dat is gericht op alle gebruikers. Het beheerde bureaublad van Microsoft bevat nalevingsbeleidsregels die zijn gericht op uw apparaten met het beheerde bureaublad van Microsoft.  Wijzig het beleid om een specifieke Azure AD-groep te richten die geen gebruikers of apparaten met het beheerde bureaublad van Microsoft bevat. Zie Voor de stappen een [nalevingsbeleid maken in Microsoft Intune.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat het nalevingsbeleid van Microsoft beheerde bureaubladgebruikers niet omvat. Zie [een nalevingsbeleid maken in Microsoft intune](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)voor instructies.
+Zorg ervoor dat elk compliancebeleid dat u hebt, niet is gericht op gebruikers van het beheerde bureaublad van Microsoft. Zie Voor de stappen een [nalevingsbeleid maken in Microsoft Intune.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
 
 
 
-### <a name="device-configuration-policies"></a>Beleidsregels voor apparaatconfiguratie
+### <a name="device-configuration-profiles"></a>Apparaatconfiguratieprofielen
 
-Het beleid voor het configureren van intune-apparaten in de Azure AD-organisatie mag geen Microsoft-bureaublad apparaten of-gebruikers beheren.
+Intune Device Configuration-profielen in uw Azure AD-organisatie mogen niet zijn gericht op bureaubladapparaten of gebruikers van Microsoft Beheren.
 
-**Niet gereed**
+**Nog niet gereed**
 
-U hebt minimaal één configuratiebeleid voor alle gebruikers, alle apparaten of beide. Stel het beleid opnieuw in om een specifieke Azure AD-groep te richten die geen door Microsoft beheerde bureaublad apparaten bevat. Zie [een nalevingsbeleid maken in Microsoft intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)voor instructies.
+U hebt ten minste één configuratieprofiel dat is gericht op alle gebruikers, alle apparaten of beide. Stel het profiel opnieuw in op een specifieke Azure AD-groep zonder beheerde bureaubladapparaten van Microsoft. Zie Een profiel maken [met aangepaste instellingen in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)voor stappen.
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat het nalevingsbeleid van Microsoft beheerde bureaublad apparaten of gebruikers niet omvat. Zie [een nalevingsbeleid maken in Microsoft intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)voor instructies.
+Zorg ervoor dat configuratiebeleidsregels die u hebt geen beheerde Bureaublad-apparaten of gebruikers van Microsoft bevatten. Zie Een profiel maken [met aangepaste instellingen in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)voor stappen.
 
 
 
 ### <a name="device-type-restrictions"></a>Beperkingen voor apparaattype
 
-Door Microsoft beheerde bureaublad apparaten moet u zich kunnen registreren bij intune.
+Microsoft Managed Desktop-apparaten moeten zijn toegestaan zich in te schrijven bij Intune.
 
-**Niet gereed**
+**Nog niet gereed**
 
-Voer de stappen uit in de optie voor het [instellen van inschrijving](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) om de **instelling toe te passen.**
+Er is momenteel ten minste één registratiebeperkingsbeleid geconfigureerd om te voorkomen dat Windows-apparaten zich registreren bij Intune. Volg de stappen in [Inschrijvingsbeperkingen](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) instellen voor elk registratiebeperkingsbeleid dat is gericht op gebruikers van het beheerde bureaublad van Microsoft en wijzig de **Windows-instelling (MDM)** in **Toestaan.** U kunt echter wel  persoonlijke **Windows-apparaten (MDM)-apparaten** instellen op **Blokkeren.** 
 
 
-### <a name="enrollment-status-page"></a>Pagina met inschrijvings status
+### <a name="enrollment-status-page"></a>Pagina Inschrijvingsstatus
 
-U hebt momenteel de pagina met de inschrijvings status (ESP) ingeschakeld. Als u deelneemt aan de openbare preview van deze functie, kunt u dit item negeren. Zie [First Run-ervaring met auto pilot en de pagina inschrijvings status](../get-started/esp-first-run.md)voor meer informatie.
+Momenteel is de registratiestatuspagina (ESP) ingeschakeld. Als u van plan bent deel te nemen aan de openbare preview-versie van Microsoft Managed Desktop van deze functie, kunt u dit item negeren. Zie [First-run-ervaring](../get-started/esp-first-run.md)met AutoPilot en de registratiestatuspagina voor meer informatie.
 
-**Niet gereed**
+**Nog niet gereed**
 
-Voor het weergeven van de voortgang van de **apps en profielen** moet u de standaard-ESP-profielset opgeven. Schakel deze instelling uit of zorg ervoor dat toewijzingen aan een Azure AD-groep geen door Microsoft beheerde bureaublad apparaten bevatten door de stappen te volgen in [de pagina inschrijvings status instellen](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status).
+Het standaardprofiel van het ESP is ingesteld op De voortgang van de app- en **profielconfiguratie tonen.** Schakel deze instelling uit of zorg ervoor dat toewijzingen aan azure AD-groepen geen beheerde Bureaublad-apparaten van Microsoft bevatten door de stappen te volgen op de pagina [Inschrijvingsstatus instellen.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat profielen met de instelling **voortgang van app en profielconfiguratie weergeven** niet zijn toegewezen aan een Azure AD-groep die Microsoft beheerde bureaublad apparaten bevat. Zie [de pagina inschrijvings status instellen](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)voor meer informatie.
-
-### <a name="intune-enrollment"></a>InTune-registratie
-
-Windows 10-apparaten in uw Azure AD-organisatie moeten automatisch worden geregistreerd in intune.
-
-**Adviser**
-
-Zorg ervoor dat het bereik van MDM-gebruikers is **ingesteld op** **Alles of alles**, niet **none**. Als u **een aantal** kiest, meldt u zich weer na de inschrijving en selecteert u de groep **modern Workplace-all** Azure AD voor **groepen**.
-
+Zorg ervoor dat profielen met de instelling Voortgang van **de app-** en profielconfiguratie weergeven niet zijn toegewezen aan een Azure AD-groep die beheerde Desktop-apparaten van Microsoft bevat. Zie De pagina Registratiestatus instellen voor meer [informatie.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
 
 ### <a name="microsoft-store-for-business"></a>Microsoft Store voor Bedrijven
 
-We gebruiken Microsoft Store voor bedrijven, zodat u de bedrijfs portal kunt downloaden om bepaalde apps te implementeren, zoals Microsoft Project en Microsoft Visio.
+We gebruiken Microsoft Store voor Bedrijven en implementeren de bedrijfsportal-app op Microsoft Managed Desktop zodat gebruikers optioneel bepaalde apps kunnen installeren, zoals Microsoft Project en Microsoft Visio (waar toegestaan).
 
-**Niet gereed**
+**Nog niet gereed**
 
-Microsoft Store voor bedrijven is niet ingeschakeld of wordt niet gesynchroniseerd met intune. Zie voor meer informatie het artikel [apps gekochte apps in Microsoft Store voor bedrijven beheren met Microsoft intune](https://docs.microsoft.com/mem/intune/apps/windows-store-for-business) en de [intune-bedrijfs portal installeren op een apparaat](../get-started/company-portal.md).
+Microsoft Store voor Bedrijven is niet ingeschakeld of niet gesynchroniseerd met Intune. Zie How [to manage volume purchased apps from the Microsoft Store for Business with Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/windows-store-for-business) and Install [Intune Company Portal on devices](../get-started/company-portal.md).
 
 ### <a name="multifactor-authentication"></a>Meervoudige verificatie
 
-Meervoudige verificatie mag niet per ongeluk worden toegepast op accounts van Microsoft Managed Desktop service.
+Meervoudige verificatie mag niet worden toegepast op accounts van de Microsoft Managed Desktop-service.
 
 
-**Niet gereed**
+**Nog niet gereed**
 
-U hebt een MFA-beleid (multi-factor Authentication) ingesteld als vereist voor regels voor voorwaardelijke toegang die zijn toegewezen aan alle gebruikers. Wijzig het beleid voor het gebruik van een opdracht die een specifieke Azure AD-groep bedoelt die geen door Microsoft beheerde bureaublad apparaten bevat. Zie voor meer informatie [beleidsregels voor voorwaardelijke toegang](#conditional-access-policies) en [voorwaardelijke toegang: MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa).
+U hebt een aantal meervoudige verificatiebeleidsregels ingesteld die zijn **vereist** voor beleidsregels voor voorwaardelijke toegang die zijn toegewezen aan alle gebruikers. Wijzig het beleid voor het gebruik van een toewijzing die is gericht op een specifieke Azure AD-groep die geen Microsoft Managed Desktop-serviceaccounts bevat. Zie beleidsregels voor voorwaardelijke [toegang en](#conditional-access-policies) [voorwaardelijke toegang: MFA vereisen voor alle gebruikers.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat voor beleidsregels voor voorwaardelijke toegang de optie MFA moet **zijn opgenomen:** de groep alle Azure AD. Zie voor meer informatie [beleidsregels voor voorwaardelijke toegang](#conditional-access-policies) en [voorwaardelijke toegang: MFA vereisen voor alle gebruikers](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa). De **modern Workplace-all** Azure AD-groep is een dynamische groep die we maken wanneer u zich registreert bij Microsoft Managed Desktop, zodat u deze groep moet uitsluiten na inschrijving.
+Zorg ervoor dat beleidsregels voor voorwaardelijke toegang waarvoor meervoudige verificatie is vereist, de groep **Modern Workplace -All** Azure AD uitsluiten. Zie beleidsregels voor voorwaardelijke [toegang en](#conditional-access-policies) [voorwaardelijke toegang: MFA vereisen voor alle gebruikers.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) De **groep Modern Workplace -All** Azure AD is een dynamische groep die we maken wanneer u zich inschrijft voor Microsoft Managed Desktop, dus u moet teruggaan om deze groep na de inschrijving uit te sluiten.
 
 **Fout**
 
-De rol intune-beheerder heeft onvoldoende machtigingen voor deze controle. U hebt ook een van de volgende Azure AD-rollen nodig die zijn toegewezen om deze controle uit te voeren:
+De rol Intune-beheerder heeft onvoldoende machtigingen voor deze controle. U hebt ook een van deze Azure AD-rollen nodig om deze controle uit te voeren:
 
-- Beveiligings lezer
+- Beveiligingslezer
 - Beveiligingsbeheerder
 - Beheerder van voorwaardelijke toegang
 - Algemene lezer
-- Apparaten beheerder
+- Apparaatbeheerder
 
 
 ### <a name="powershell-scripts"></a>PowerShell-scripts
 
-Windows PowerShell-scripts kunnen niet worden toegewezen in de manier waarop Microsoft beheerde bureaublad apparaten kunnen worden beheerd.  
+Windows PowerShell-scripts kunnen niet worden toegewezen op een manier die is gericht op door Microsoft beheerde bureaubladapparaten.  
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat Windows PowerShell-scripts in uw Azure AD-organisatie geen Microsoft-bureaublad apparaten of-gebruikers beheren. Wijs geen PowerShell-script toe om alle gebruikers, alle apparaten of beide te bereiken. Wijzig het beleid voor het gebruik van een opdracht die een specifieke Azure AD-groep bedoelt die geen door Microsoft beheerde bureaublad apparaten bevat. Zie [PowerShell-scripts op Windows 10-apparaten gebruiken in intune](https://docs.microsoft.com/mem/intune/apps/intune-management-extension)voor meer informatie.
+Zorg ervoor dat Windows PowerShell-scripts in uw Azure AD-organisatie niet zijn gericht op bureaubladapparaten of gebruikers van Microsoft Manage. Wijs geen PowerShell-script toe aan alle gebruikers, alle apparaten of beide. Wijzig het beleid voor het gebruik van een toewijzing die is gericht op een specifieke Azure AD-groep die geen Microsoft Managed Desktop-apparaten of -gebruikers bevat. Zie [PowerShell-scripts gebruiken op Windows 10-apparaten in Intune voor meer informatie.](https://docs.microsoft.com/mem/intune/apps/intune-management-extension)
 
 ### <a name="region"></a>Regio
 
-Uw regio moet worden ondersteund door Microsoft Managed Desktop.
+Uw regio moet worden ondersteund door het beheerde bureaublad van Microsoft.
 
-**Niet gereed**
+**Nog niet gereed**
 
-Uw regio van Azure AD organisatie wordt momenteel niet ondersteund door Microsoft Managed Desktop. Zie [ondersteunde regio's en talen door Microsoft worden beheerd op het bureaublad](../service-description/regions-languages.md)voor meer informatie.
+Uw Azure AD-organisatieregio wordt momenteel niet ondersteund door het beheerde bureaublad van Microsoft. Zie ondersteunde regio's en talen die worden ondersteund door [Microsoft Managed Desktop voor meer informatie.](../service-description/regions-languages.md)
 
-**Adviser**
+**Advies**
 
-Een of meer van de landen waar uw Azure AD organisatie zich bevindt, wordt niet ondersteund door het door Microsoft beheerde bureaublad. Zie [ondersteunde regio's en talen door Microsoft worden beheerd op het bureaublad](../service-description/regions-languages.md)voor meer informatie.
+Een of meer landen waarin uw Azure AD-organisatie zich bevindt, worden niet ondersteund door het beheerde bureaublad van Microsoft. Zie ondersteunde regio's en talen die worden ondersteund door [Microsoft Managed Desktop voor meer informatie.](../service-description/regions-languages.md)
 
 
-### <a name="security-baselines"></a>Basislijnen voor beveiliging
+### <a name="security-baselines"></a>Beveiligingsbasislijnen
 
-Beleidsregels voor beveiliging van basislijn dienen niet te worden beheerd door Microsoft beheerde bureaublad apparaten.
+Het beveiligingsbasislijnbeleid is niet gericht op beheerde bureaubladapparaten van Microsoft.
 
-**Niet gereed**
+**Nog niet gereed**
 
-U hebt een profiel voor beveiligings basislijn voor alle gebruikers, alle apparaten of beide. Wijzig het beleid voor het gebruik van een opdracht die een specifieke Azure AD-groep bedoelt die geen door Microsoft beheerde bureaublad apparaten bevat. Zie [beveiligings basislijnen gebruiken om Windows 10-apparaten te configureren in intune](https://docs.microsoft.com/mem/intune/protect/security-baselines)voor instructies.
+U hebt een basislijnprofiel voor beveiliging dat is gericht op alle gebruikers, alle apparaten of beide. Wijzig het beleid voor het gebruik van een toewijzing die is gericht op een specifieke Azure AD-groep die geen microsoft beheerde bureaubladapparaten bevat. Zie Beveiligingsbasislijnen gebruiken [om Windows 10-apparaten te](https://docs.microsoft.com/mem/intune/protect/security-baselines)configureren in Intune voor stappen.
 
-**Adviser**
+**Advies**
 
-Zorg dat beleidsregels voor beveiliging op basis van Microsoft beheerde bureaublad apparaten zijn uitgesloten. Zie [beveiligings basislijnen gebruiken om Windows 10-apparaten te configureren in intune](https://docs.microsoft.com/mem/intune/protect/security-baselines)voor instructies. De **moderne werkplekken-** de groep Azure AD is een dynamische groep die we maken wanneer u zich aanmeldt bij Microsoft Managed Desktop, zodat u deze groep moet uitsluiten na inschrijving.
+Zorg ervoor dat beleidsregels voor de basislijnbeveiliging die u hebt gebruikt, zijn uitgesloten van apparaten met een Beheerd bureaublad van Microsoft. Zie Beveiligingsbasislijnen gebruiken [om Windows 10-apparaten te](https://docs.microsoft.com/mem/intune/protect/security-baselines)configureren in Intune voor stappen. De **groep Modern Workplace Devices -All** Azure AD is een dynamische groep die we maken wanneer u zich inschrijft voor Microsoft Managed Desktop. Daarom moet u na de inschrijving terugkomen om deze groep uit te sluiten.
 
 
 ### <a name="windows-apps"></a>Windows-apps
 
-Bekijk de apps waarover u Microsoft beheerde bureaubladgebruikers wilt hebben.
+Controleer de apps die uw Microsoft Managed Desktop-gebruikers moeten hebben.
 
-**Adviser**
+**Advies**
 
-U moet een inventarisatie voorbereiden van de apps die u wilt laten door Microsoft beheerde bureaubladgebruikers. Aangezien deze apps moeten worden geïmplementeerd door intune, moet u bestaande intune-apps hergebruiken. Overweeg om bedrijfsportal te gebruiken (Zie [intune-bedrijfsportal installeren op apparaten](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/company-portal) en de pagina inschrijvings status (ESP) om apps te distribueren voor uw gebruikers. Zie [apps in Microsoft Managed Desktop](apps.md) en [First-Run met auto pilot en de pagina met de inschrijvings status](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/esp-first-run)voor meer informatie.
+Maak een inventaris van de apps die uw gebruikers van Het beheerde bureaublad van Microsoft moeten hebben. Aangezien deze apps door Intune moeten worden geïmplementeerd, kunt u bestaande Intune-apps hergebruiken. Overweeg om bedrijfsportal te gebruiken (zie [Intune-bedrijfsportal](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/company-portal) installeren op apparaten en registratiestatuspagina (ESP) om apps naar uw gebruikers te distribueren. Zie Apps [in Microsoft Managed Desktop](apps.md) en [First-run experience met Autopilot](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/esp-first-run)en de statuspagina Inschrijving voor meer informatie.
 
-U kunt de vertegenwoordiger van uw Microsoft-account vragen om te bepalen welke apps gereed zijn om te worden gemigreerd naar intune of een correctie.
+U kunt uw Microsoft-accountvertegenwoordiger vragen om een query in Microsoft Endpoint Configuration Manager om te bepalen welke apps klaar zijn om te worden gemigreerd naar Intune of die moeten worden aangepast.
 
 
 ### <a name="windows-hello-for-business"></a>Windows Hello voor Bedrijven
 
-Voor Microsoft Managed Desktop is Windows hello voor bedrijven ingeschakeld.
+Voor het beheerde bureaublad van Microsoft moet Windows Hello voor Bedrijven zijn ingeschakeld.
 
-**Niet gereed**
+**Nog niet gereed**
 
-Windows hello voor bedrijven is uitgeschakeld. Activeren door de stappen te volgen in [een beleid voor Windows hello voor bedrijven maken](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+Windows Hello voor Bedrijven is uitgeschakeld. Schakel dit in door de stappen te volgen in [Het beleid voor Windows Hello voor Bedrijven maken](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
-**Adviser**
+**Advies**
 
-Windows hello voor bedrijven is niet ingesteld. Schakel deze optie in door de stappen te volgen in [een beleid voor Windows hello voor bedrijven maken](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy).
+Windows Hello voor Bedrijven is niet ingesteld. Schakel dit in door de stappen te volgen in [Het beleid van Windows Hello voor Bedrijven maken.](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 
-### <a name="windows-10-update-rings"></a>Windows 10-update ringen
+### <a name="windows-10-update-rings"></a>Windows 10-update gaat over
 
-Het beleid Windows 10-update ring in intune mag geen Microsoft-bureaublad apparaten met Microsoft worden beheerd.
+Uw updateringsbeleid voor Windows 10 in Intune mag niet zijn gericht op beheerde Desktop-apparaten van Microsoft.
 
-**Niet gereed**
+**Nog niet gereed**
 
-U hebt een beleid voor het bijwerken van een update voor alle apparaten, alle gebruikers of beide. Wijzig het beleid voor het gebruik van een opdracht die een specifieke Azure AD-groep bedoelt die geen door Microsoft beheerde bureaublad apparaten bevat. Zie [updates voor Windows 10-software beheren in intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor instructies.
+U hebt een updateringsbeleid dat is gericht op alle apparaten, alle gebruikers of beide. Wijzig het beleid voor het gebruik van een toewijzing die is gericht op een specifieke Azure AD-groep die geen microsoft beheerde bureaubladapparaten bevat. Zie Windows [10-software-updates beheren in Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor stappen.
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat bij een update ring beleid u de **moderne Werkplaatsings apparaten-alle** Azure AD-groep uitsluiten. Als u een Azure AD-gebruikersgroep aan deze beleidsregels hebt toegewezen, moet u ervoor zorgen dat u ook de **moderne werkplek,** exclusief de Azure AD-groep, die uw door Microsoft beheerde bureaubladgebruikers bevat. Zie [updates voor Windows 10-software beheren in intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor instructies. Zowel de **moderne werkplekken-** alle en de **moderne werkplek: alle** Azure ad-groepen zijn toegewezen groepen die we maken wanneer u zich aanmeldt bij Microsoft Managed Desktop, zodat u deze groep moet uitsluiten na inschrijving.
+Zorg ervoor dat updateringsbeleid dat u hebt uitgesloten van de **Groep Modern Workplace Devices -All** Azure AD. Als u Azure AD-gebruikersgroepen aan dit beleid hebt toegewezen, moet u ervoor zorgen dat updateringsbeleid dat u ook hebt uitgesloten van de **Modern Workplace -Alle** Azure AD-groep waar u uw Microsoft Managed Desktop-gebruikers aan toevoegt (of een equivalente groep). Zie Windows [10-software-updates beheren in Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor stappen. De **Modern Workplace Devices (All)** en **Modern Workplace -all** Azure AD-groepen zijn groepen die we maken wanneer u zich inschrijft voor Microsoft Managed Desktop, dus na de registratie moet u terugkomen om deze groep uit te sluiten.
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory-instellingen
 
-U kunt toegang krijgen tot Azure Active Directory-instellingen op de [Azure-Portal](https://portal.azure.com).
+U kunt de instellingen voor Azure Active Directory openen in [de Azure Portal.](https://portal.azure.com)
 
-### <a name="ad-hoc-subscriptions"></a>Ad hoc-abonnementen
+### <a name="intune-enrollment"></a>Intune-inschrijving
 
-Adviseert het controleren van een instelling die (indien ingesteld op ' onwaar ') kan voorkomen dat roaming via Enterprise niet goed werkt.
+Windows 10-apparaten in uw Azure AD-organisatie moeten zich automatisch kunnen registreren bij Intune.
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat **AllowAdHocSubscriptions** is ingesteld op **waar**. Anders werkt Enterprise State roaming mogelijk niet. Zie [set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)voor meer informatie.
+Zorg ervoor dat het **bereik van de MDM-gebruiker** is ingesteld op **Sommige** of **Alle,** niet **op Geen.** Als u **Sommige** kiest, komt u terug na de inschrijving en selecteert u de Azure AD-groep Modern **Workplace -All** Azure AD **voor** groepen of een equivalente groep die is gericht op al uw microsoft Beheerd bureaublad-gebruikers.  Zie [Inschrijving instellen voor Windows-apparaten met behulp van Microsoft Intune.](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
+
+
+### <a name="ad-hoc-subscriptions"></a>Ad-hocabonnementen
+
+U wordt geadviseerd om een instelling te controleren die (indien ingesteld op Onwaar) kan verhinderen dat Enterprise State Roaming correct werkt.
+
+**Advies**
+
+Zorg ervoor **dat AllowAdHocSubscriptions** is ingesteld op **Waar.** Anders werkt Enterprise State Roaming mogelijk niet. Zie [Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)voor meer informatie.
 
 
 ### <a name="enterprise-state-roaming"></a>Enterprise State Roaming
 
-Enterprise State roaming moet zijn ingeschakeld.
+Enterprise State Roaming moet zijn ingeschakeld.
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat roaming voor bedrijven is ingeschakeld voor **alle** of voor **geselecteerde** groepen. Zie [Enterprise State roaming inschakelen in azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-enable)voor meer informatie.
+Zorg ervoor dat Enterprise State Roaming is ingeschakeld voor **Alle** of voor **geselecteerde** groepen. Zie [Enterprise State Roaming inschakelen in Azure Active Directory voor meer informatie.](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-enable)
 
 ### <a name="licenses"></a>Licenties
 
-U moet een aantal licenties gebruiken om Microsoft Managed Desktop te gebruiken.
+Er zijn een aantal licenties vereist voor het gebruik van het beheerde bureaublad van Microsoft.
 
 **Niet gereed**
 
-U hebt niet alle licenties die u nodig hebt om Microsoft Managed Desktop te gebruiken. Zie [Microsoft Managed Desktop Technologies](../intro/technologies.md) en meer informatie [over licenties](prerequisites.md#more-about-licenses)voor meer informatie.
+U hebt niet alle licenties die u nodig hebt om Microsoft Managed Desktop te gebruiken. Zie Microsoft [Managed Desktop Technologies](../intro/technologies.md) en Meer informatie over licenties voor meer [informatie.](prerequisites.md#more-about-licenses)
 
 
 ### <a name="security-account-names"></a>Namen van beveiligingsaccounts
 
-Het is mogelijk dat de namen van bepaalde beveiligingsaccounts conflicteren met die van Microsoft Managed Desktop.
+Bepaalde namen van beveiligingsaccounts kunnen conflicteren met de namen die zijn gemaakt met het beheerde bureaublad van Microsoft.
 
-**Niet gereed**
+**Nog niet gereed**
 
-U hebt minimaal één accountnaam waarvan de naam afwijkt van de naam die wordt gemaakt door Microsoft Managed Desktop. Met de vertegenwoordiger van uw Microsoft-account kunt u deze accountnamen uitsluiten.
+U hebt ten minste één accountnaam die een conflict veroorzaakt met de namen die zijn gemaakt met het beheerde bureaublad van Microsoft. Werk samen met uw Microsoft-accountvertegenwoordiger om deze accountnamen uit te sluiten.
 
 
 ### <a name="security-administrator-roles"></a>Rollen van beveiligingsbeheerders
 
 Gebruikers met bepaalde beveiligingsrollen moeten deze rollen hebben toegewezen in Microsoft Defender voor eindpunt.
 
-**Adviser**
+**Advies**
 
-Als u gebruikers hebt toegewezen aan een van deze rollen in uw Azure AD-organisatie, moet u ervoor zorgen dat deze rollen ook zijn toegewezen in Microsoft Defender voor eindpunt. Anders hebben beheerders met deze rollen geen toegang tot de beheerportal.
+Als u gebruikers hebt toegewezen aan een van deze rollen in uw Azure AD-organisatie, zorg er dan voor dat er ook deze rollen zijn toegewezen in Microsoft Defender voor eindpunt. Beheerders met deze rollen hebben anders geen toegang tot de beheerportal.
 
-- Beveiligings operator
+- Beveiligingsoperator
 - Algemene lezer
 
-Zie [rollen voor toegangsbeheer op basis van rollen maken en beheren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)voor meer informatie.
+Zie Rollen maken en beheren voor toegangsbeheer op basis van rollen [voor meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)
 
 
-### <a name="security-default"></a>Beveiligingsstandaard
+### <a name="security-default"></a>Standaardbeveiliging
 
-Met behulp van de beveiligingsinstellingen in azure Active Directory wordt voorkomen dat Microsoft beheerd bureaublad uw apparaten beheert.
+Met beveiligingsinstellingen in Azure Active Directory wordt voorkomen dat uw apparaten worden beheerd door Microsoft Managed Desktop.
 
-**Niet gereed**
+**Nog niet gereed**
 
-U hebt beveiligingsstandaarden ingeschakeld. Schakel beveiligingsstandaarden uit en stel beleidsregels voor voorwaardelijke toegang in. Zie voor meer informatie [veelgebruikte beleidsregels voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common).
+Beveiligingsinstellingen zijn ingeschakeld. Schakel beveiligingsinstellingen uit en stel beleid voor voorwaardelijke toegang in. Zie Veelvoorkomende beleidsregels [voor voorwaardelijke toegang voor meer informatie.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
 
-### <a name="self-service-password-reset"></a>Selfservice voor wachtwoordherstel
+### <a name="self-service-password-reset"></a>Selfservice voor wachtwoord opnieuw instellen
 
-U moet selfservice voor wachtwoordherstel (SSPR) inschakelen voor alle Microsoft beheerde bureaubladgebruikers, met uitzondering van Microsoft beheerde bureaublad serviceaccounts. Zie [Zelfstudie: gebruikers toestaan hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met behulp van Azure Active Directory-wachtwoordherstel](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr).
+Selfservice voor wachtwoord opnieuw instellen (SSPR) kan worden ingeschakeld voor alle gebruikers van het beheerde bureaublad van Microsoft, met uitzondering van accounts van de beheerde desktopservice van Microsoft. Zie Zelfstudie: Gebruikers in staat stellen hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met de selfservice voor wachtwoord opnieuw instellen voor [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)
 
-**Adviser**
+**Advies**
 
-Zorg ervoor dat de **geselecteerde** instelling voor SSPR Microsoft beheerde bureaublad apparaten bevat, maar dat Microsoft beheerde bureaublad-serviceaccounts niet is opgenomen. Accounts van Microsoft beheerde bureaubladservices werken niet zoals verwacht wanneer SSPR is ingeschakeld.  
+Zorg ervoor dat de  geselecteerde instelling SSPR gebruikers van het beheerde bureaublad bevat, maar dat accounts van de Microsoft Managed Desktop-service worden uitgesloten. Microsoft Managed Desktop-serviceaccounts werken niet zoals verwacht wanneer SSPR is ingeschakeld.  
 
 
-### <a name="standard-user-role"></a>Standaard gebruikersrol
+### <a name="standard-user-role"></a>Standaardgebruikersrol
 
-Behalve de gebruikers die een Azure AD-rol van globale beheerder en een andere netwerkbeheerder toegewezen, zijn Microsoft-beheerde bureaubladgebruikers standaardgebruikers zonder lokale beheerdersbevoegdheden. Voor alle andere gebruikers wordt een standaard gebruikersrol toegewezen wanneer ze hun Microsoft-beheerde bureaublad apparaat starten.
+Microsoft Managed Desktop-gebruikers zijn standaardgebruikers zonder lokale beheerdersbevoegdheden, af na aan wie de Azure AD-rol van globale beheerder en apparaatbeheerder is toegewezen. Aan alle andere gebruikers wordt een standaardgebruikersrol toegewezen wanneer ze hun apparaat met het beheerde bureaublad van Microsoft starten.
 
-**Adviser**
+**Advies**
 
-Microsoft beheerde bureaubladgebruikers hebben geen lokale beheerdersbevoegdheden op hun Microsoft beheerde bureaublad apparaten na registratie.
+Gebruikers van het beheerde bureaublad van Microsoft hebben na registratie geen lokale beheerdersbevoegdheden op hun Microsoft Managed Desktop-apparaten.
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen
 
 ### <a name="onedrive"></a>OneDrive
 
-De instelling voor **synchronisatie alleen toestaan op pc's die lid zijn van een specifieke domein** instelling, conflicteert met Microsoft Managed Desktop. U kunt toegang krijgen tot OneDrive-instellingen in het OneDrive- [Beheercentrum](https://admin.onedrive.com).
+Synchronisatie **toestaan alleen voor pc's die lid** zijn van een bepaalde instelling voor domeinen, conflicteert met het beheerde bureaublad van Microsoft. U kunt de OneDrive-instellingen openen in het [OneDrive-beheercentrum.](https://admin.onedrive.com)
 
-**Adviser**
+**Advies**
 
-U gebruikt de instelling **synchronisatie alleen toestaan op pc's die lid zijn van bepaalde domeinen** . Deze instelling werkt niet met beheerde Microsoft-bureaublad. Schakel deze instelling uit en zet OneDrive zodanig in dat deze gebruikmaakt van een voorwaardelijk toegangsbeleid. Zie [voorwaardelijke toegang plannen](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) voor hulp.
+U gebruikt synchronisatie alleen toestaan op pc's die lid zijn **van specifieke domeinen.** Deze instelling werkt niet met het beheerde bureaublad van Microsoft. Schakel deze instelling uit en stel in plaats daarvan In OneDrive een beleid voor voorwaardelijke toegang in. Zie [Een voorwaardelijke toegangsimplementatie plannen](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) voor hulp.
 

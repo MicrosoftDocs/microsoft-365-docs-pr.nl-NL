@@ -1,5 +1,5 @@
 ---
-title: Een groeps-e-mailadres maken
+title: Een groepsmailadres maken
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,30 +16,31 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het maken van een groeps-e-mailadres.
-ms.openlocfilehash: 4a0716d4289fc937e90f660cabe4b34b1540600d
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Lees hoe u een groeps-e-mailadres maakt.
+ms.openlocfilehash: 8ebbd311e77b509b1d4c2b00ed59012a2e08399d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702248"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927118"
 ---
-# <a name="create-a-group-email-address"></a>Een groeps-e-mailadres maken
+# <a name="create-a-group-email-address"></a>Een groepsmailadres maken
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2GCG3?autoplay=false]
 
-Wanneer u een groep maakt, maakt u een centraal e-mailadres en een plaats om samen te werken. U kunt deze gebruiken om een e-mailadres in te stellen, zoals de verkoop of informatie waarover iedereen e-mailberichten kan zien en ontvangt.
+Wanneer u een groep maakt, maakt u een centraal e-mailadres en een centrale plek om samen te werken. U kunt dit gebruiken om een e-mailadres zoals verkoop of informatie te verstrekken dat iedereen kan zien en waar iedereen e-mails van kan ontvangen.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Kies in Outlook op het tabblad  **Start** de optie  **nieuwe groep**.
-2. Voer in het vak  **groep maken**  een groepsnaam in, een kortere e-mailadres, zoals info, en een beschrijving.
-3. Open de vervolgkeuzelijst privacy en kies  **privé**.
-4. Schakel het selectievakje  **alle e-mail en gebeurtenissen van de groep verzenden naar het postvak**  in van de leden in.
-5. Selecteer onder  **leden toevoegen** de werknemers die het e-mailbericht moeten ontvangen en kies vervolgens  **leden toevoegen**.
-6. Selecteer op het tabblad  **Start**  in Outlook de optie  **Groepsinstellingen** en klik vervolgens op **groep bewerken**.
-7. Selecteer in het vak  **groep bewerken**  het selectievakje  **toestaan dat personen buiten de organisatie e-mail sturen naar de groep**  en kies vervolgens  **OK**.
+1. Kies in Outlook op het **tabblad Start** de optie **Nieuwe groep.**
+2. Voer in  **het vak Groep**  maken een groepsnaam, een korter e-mailadres zoals info en een beschrijving in.
+3. Open de vervolgkeuze en kies **Privé.**
+4. Vink  **het selectievakje Alle groeps-e-mails en -gebeurtenissen verzenden naar de Postvak IN van de leden**  aan.
+5. Selecteer **onder Leden** toevoegen de werknemers die de e-mails moeten ontvangen en kies Leden **toevoegen.**
+6. Selecteer op **het tabblad** Start in Outlook **Groepsinstellingen** en vervolgens **Groep bewerken.**
+7. Schakel in **het vak**  Groep bewerken het selectievakje Personen buiten de organisatie e-mail laten sturen naar de groep in en kies **ok.**

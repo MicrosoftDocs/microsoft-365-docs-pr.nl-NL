@@ -99,7 +99,7 @@
       items:
         - name: Overzicht
           href: tenant-management-overview.md
-        - name: Stap 1. Uw tenants
+        - name: Stap 1. Jouw tenants
           href: tenant-management-tenants.md
         - name: Stap 2. Optimale netwerken
           href: tenant-management-networking.md

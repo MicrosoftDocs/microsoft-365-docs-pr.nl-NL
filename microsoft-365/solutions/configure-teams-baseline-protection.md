@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Leer teams met een basisbescherming te implementeren.
-ms.openlocfilehash: 16f37175c3aa7b420745e6126de1aa96368d618a
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 11554dbd7e33a77c9f6397ae9c5e91669f537081
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613440"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921868"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Teams met basisbescherming configureren
 
@@ -87,7 +87,7 @@ De instellingen voor het delen van een site bijwerken
 1. Klik op de werkbalk van het team op **Bestanden**.
 2. Klik op **Openen in SharePoint**.
 3. Klik op de werkbalk van de SharePoint-site op het pictogram Instellingen en vervolgens op **Sitemachtigingen**.
-4. Klik in het deelvenster **Sitemachtigingen** onder **Instellingen voor delen** op **Instellingen voor delen wijzigen**.
+4. Klik in het deelvenster **Site-machtigingen** onder **Delen van een site** op **Wijzigen hoe leden kunnen delen**.
 5. Selecteer onder **Machtigingen voor delen** de optie **Site-eigenaren en leden, en personen met machtigingen voor bewerken kunnen bestanden en mappen delen, maar alleen site-eigenaren kunnen de site delen** en klik vervolgens op **Opslaan**.
 
 ## <a name="additional-protections"></a>Aanvullende beveiligingsmaatregelen

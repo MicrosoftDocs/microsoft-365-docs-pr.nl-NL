@@ -1,5 +1,5 @@
 ---
-title: Automatisch doorsturen van e-mail stoppen
+title: Automatisch doorsturen van e-mailberichten stoppen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,35 +16,36 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het stoppen van e-mailberichten voor automatisch doorsturen.
-ms.openlocfilehash: 0683e133f6c261dc19cc098b13be298cd8086001
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Lees hoe u het automatisch doorsturen van e-mailberichten kunt stoppen.
+ms.openlocfilehash: ebbe37ab5c4a60c6ac4b6ebf8877247199460fa1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701734"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925884"
 ---
 # <a name="stop-email-auto-forward"></a>Automatisch doorsturen van e-mail stoppen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2W6kS?autoplay=false]
 
-Als een hacker toegang krijgt tot het postvak van een gebruiker, kunnen ze de e-mail van de gebruiker automatisch doorsturen naar een extern adres en de informatie over het eigendom stelen. U kunt dit beëindigen door een e-mail stroom regel te maken.
+Als een hacker toegang krijgt tot het postvak van een gebruiker, kan deze de e-mail van de gebruiker automatisch doorsturen naar een buitenadres en bedrijfseigen informatie stelen. U kunt dit stoppen door een regel voor de e-mailstroom te maken.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Selecteer in het Microsoft 365-Beheercentrum de optie **Exchange**, **e-mail stroom** en klik op het tabblad **regels** op het plusteken en kies **een nieuwe regel maken**.
-1. Selecteer **meer opties**. Geef een naam op voor de nieuwe regel.
-1. Open vervolgens de vervolgkeuzelijst voor het **toepassen van deze regel**, en selecteer vervolgens **extern intern**.
-1. Selecteer **binnen de organisatie** en klik vervolgens op **OK**.
-1. Kies **voorwaarde toevoegen**, open de vervolgkeuzelijst, selecteer **de berichteigenschappen** en **Voeg vervolgens het berichttype toe**.
-1. Open de vervolgkeuzelijst **berichttype selecteren** , kies **automatisch doorsturen** en klik vervolgens op **OK**.
-1. Open de vervolgkeuzelijst **Ga als volgt** te werk, selecteer **het bericht blokkeren**, vervolgens **het bericht afwijzen en een uitleg toevoegen**.
-1. Voer de berichttekst voor de uitleg in en selecteer **OK**.
-1. Schuif naar de onderkant en selecteer **Opslaan**.
+1. Selecteer **Exchange,**  de **e-mailstroom** in het Microsoft 365-beheercentrum en selecteer op het tabblad Regels het plusteken en kies een **nieuwe regel maken.**
+1. Selecteer **Meer opties.** De nieuwe regel een naam geven.
+1. Open vervolgens de vervolgkeuzepijt om **deze regel toe te passen** als, selecteer **de** afzender en is vervolgens **extern intern.**
+1. Selecteer **Binnen de organisatie en** vervolgens **OK.**
+1. Kies **voorwaarde toevoegen,** open de vervolgkeuzekeuze, selecteer **De** berichteigenschappen en voeg vervolgens **het berichttype toe.**
+1. Open de **vervolgkeuzekeuzegroep Berichttype** selecteren, kies **Automatisch doorsturen** en vervolgens **OK.**
+1. Open de **vervolgkeuzen van Doe** het volgende, selecteer Het bericht **blokkeren,** weiger het bericht en **voeg een uitleg toe.**
+1. Voer de berichttekst in voor uw uitleg en selecteer **vervolgens OK.**
+1. Schuif naar beneden en selecteer **Opslaan.**
 
-    Uw regel is gemaakt en hackers kunnen geen berichten meer automatisch doorsturen.
+    De regel is aangemaakt en hackers kunnen berichten niet meer automatisch doorsturen.

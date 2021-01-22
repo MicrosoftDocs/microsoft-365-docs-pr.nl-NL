@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - MET150
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio of door uw serviceaanvraag online te versturen.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: f508607bb19a15fa089cf13eecfd7047f2e6f7bf
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 06f78d50901f279bf27f55f1b8f7ad867682d784
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307359"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925576"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Manieren om contact op te nemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
