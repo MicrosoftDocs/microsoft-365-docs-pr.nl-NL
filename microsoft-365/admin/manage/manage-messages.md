@@ -19,10 +19,10 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
-description: Leer berichten in het berichtencentrum beheren voor meer informatie over wijzigingsbeheer.
+description: Meer informatie over het beheer van berichten in het berichtencentrum om te helpen bij wijzigingsbeheer.
 ms.openlocfilehash: 42dc00a1347f5455f2d607da9f2677c58ace34e9
 ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "49787761"
@@ -33,71 +33,71 @@ Berichten in het berichtencentrum zijn belangrijke aankondigingen over nieuwe en
   
 ## <a name="read-a-message"></a>Een bericht lezen
 
-Ga naar het berichtencentrum, ga naar het [Beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339)en selecteer **status**  >  **berichtencentrum**. 
+Als u naar het berichtencentrum wilt gaan, gaat u naar het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339) en selecteert u **Status** > **Berichtencentrum**. 
 
-Selecteer de titel van het bericht om dit te openen in het leesvenster. Elk bericht bevat een overzicht van de wijziging, een overzicht van hoe de wijziging van invloed kan zijn, informatie over de manier waarop u uw organisatie kunt voorbereiden op de wijziging, en (in de meeste gevallen) een koppeling naar meer informatie waar u meer informatie kunt vinden. De aanvullende informatie blijft beschikbaar, zelfs nadat een bericht verloopt.
+Selecteer een berichttitel om het te openen in het leesvenster. Elk bericht bevat een samenvatting van de wijziging, informatie over wat de wijziging voor u kan betekenen, informatie over hoe u uw organisatie kunt voorbereiden op de wijziging en (in de meeste gevallen) een koppeling voor extra informatie. De aanvullende informatie blijft beschikbaar, ook nadat een bericht is verlopen.
 
 ## <a name="filter-and-sort"></a>Filteren en sorteren
 
 ::: moniker range="o365-worldwide"
 
-Gebruik het vervolgkeuzemenu **filter** om een gefilterde weergave van berichten te selecteren.
+Gebruik het vervolgkeuzemenu **Filter** om een gefilterde weergave van berichten te selecteren.
 
-U kunt een kolomkop selecteren om berichten te sorteren in oplopende of aflopende volgorde. In dit diagram zijn de berichten bijvoorbeeld gesorteerd op de datum **Actie nemen vóór**.
+U kunt een kolomkop selecteren om berichten in oplopende of aflopende volgorde te sorteren. In dit diagram zijn de berichten bijvoorbeeld gesorteerd op de datum **Actie ondernemen vóór**.
 
-![Berichtencentrum weergave gesorteerd op datum van handeling](../../media/message-center-filter-act-by.png)
+![Weergave van berichtencentrum gesorteerd op Actie ondernemen vóór](../../media/message-center-filter-act-by.png)
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Gebruik het vervolgkeuzemenu **weergaven** om een gefilterde weergave van berichten te selecteren. 
+Gebruik het vervolgkeuzemenu **Weergaven** om een gefilterde weergave van berichten te selecteren. 
  
-U kunt een kolomkop selecteren om berichten te sorteren in oplopende of aflopende volgorde. In deze afbeelding worden de berichten bijvoorbeeld gesorteerd op datum van **handeling** .
+U kunt een kolomkop selecteren om berichten in oplopende of aflopende volgorde te sorteren. In deze illustratie zijn de berichten bijvoorbeeld gesorteerd op de datum **Actie nemen vóór**.
 
-![Berichtencentrum weergave gesorteerd op datum van handeling](../../media/message-center-old-admin-center1.png)
+![Weergave van berichtencentrum gesorteerd op Actie ondernemen vóór](../../media/message-center-old-admin-center1.png)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Gebruik het vervolgkeuzemenu **weergaven** om een gefilterde weergave van berichten te selecteren. 
+Gebruik het vervolgkeuzemenu **Weergaven** om een gefilterde weergave van berichten te selecteren. 
  
-U kunt een kolomkop selecteren om berichten te sorteren in oplopende of aflopende volgorde. In deze afbeelding worden de berichten bijvoorbeeld gesorteerd op datum van **handeling** .
+U kunt een kolomkop selecteren om berichten in oplopende of aflopende volgorde te sorteren. In deze illustratie zijn de berichten bijvoorbeeld gesorteerd op de datum **Actie nemen vóór**.
 
-![Berichtencentrum weergave gesorteerd op datum van handeling](../../media/message-center-old-admin-center1.png)
+![Weergave van berichtencentrum gesorteerd op Actie ondernemen vóór](../../media/message-center-old-admin-center1.png)
 
 ::: moniker-end
 
-## <a name="give-feedback-on-a-post"></a>Feedback geven op een bericht
+## <a name="give-feedback-on-a-post"></a>Geef feedback over een post
 
-In het berichtencentrum kunt u een bericht selecteren om de details te bekijken.
+In het berichtencentrum kunt u een bericht selecteren om details weer te geven.
 
-Als u feedback wilt geven over het bericht, selecteert u het pictogram **like** of niet- **leuk** en geeft u feedback in het tekstvak dat wordt weergegeven. Geef geen persoonlijke gegevens op. U kunt desgewenst een **contact opnemen met mij over deze feedback** en vervolgens **verzenden** selecteren.
+Als u feedback wilt geven over het bericht, selecteert u het pictogram **Vind ik leuk** of **Vind ik niet leuk** en geeft u feedback in het tekstvak dat wordt weergegeven. Geef geen persoonlijke gegevens op. U kunt desgewenst **Er kan contact met mij worden opgenomen over deze feedback** en vervolgens **Verzenden** selecteren.
 
 ## <a name="share-a-message"></a>Een bericht delen
 
 Ziet u een bericht waarvoor iemand anders actie moet ondernemen? U kunt de inhoud van het bericht per e-mail delen met elke gebruiker:
   
-1. Selecteer het bericht om het te openen en selecteer **delen**.
+1. Selecteer het bericht om het te openen en selecteer vervolgens **Delen**.
   
-2. Als u het bericht wilt delen, voert u maximaal twee e-mailadressen in, gescheiden door een dubbele punt. U kunt verzenden naar persoon en e-mailadressen groeperen. U kunt er ook voor kiezen een kopie van het bericht te ontvangen in een e-mail (het bericht wordt verzonden naar uw primaire e-mailadres) of een persoonlijk bericht toevoegen om geadresseerden meer context te geven.
+2. Als u het bericht wilt delen, voert u maximaal twee e-mailadressen in, gescheiden door een dubbele punt. U kunt verzenden naar individuele en naar groeps-e-mailadressen. Desgewenst kunt u een kopie van het bericht per e-mail ontvangen (het bericht gaat naar uw primaire e-mailadres) of een persoonlijk bericht toevoegen om geadresseerden meer informatie te geven.
   
-3. Selecteer **delen** om de e-mail te verzenden.
+3. Selecteer **Delen** om de e-mail te verzenden.
     
 ## <a name="get-a-link"></a>Koppeling ophalen
 
-Wilt u zorgen dat een andere beheerder op de hoogte is van een wijziging en hierop actie onderneemt? U kunt een koppeling genereren om het bericht te delen via e-mail of een chatprogramma, zodat de gebruiker rechtstreeks verbinding krijgt met dat bericht. De persoon met wie u de koppeling deelt, moet een beheerder zijn in Microsoft 365 voor uw organisatie of ze hebben geen toegang tot het gekoppelde bericht.
+Wilt u zorgen dat een andere beheerder op de hoogte is van een wijziging en hierop actie onderneemt? U kunt een koppeling genereren om het bericht te delen via e-mail of een chatprogramma, zodat de gebruiker rechtstreeks verbinding krijgt met dat bericht. De persoon met wie u de koppeling deelt, moet een beheerder zijn in Microsoft 365 voor uw organisatie, anders heeft de persoon geen toegang tot het gekoppelde bericht.
 
 ::: moniker range="o365-worldwide"
 
 1. Selecteer het bericht om het te openen.
 
-2. Selecteer het pictogram **link kopiëren naar het Klembord** (koppeling).
+2. Selecteer het (koppelings)pictogram **Koppeling kopiëren naar klembord**.
 
-3. Zorg dat de webpagina toegang heeft tot het klembord. Een directe koppeling wordt gekopieerd naar het Klembord.
+3. Zorg dat de webpagina toegang heeft tot het klembord. Er wordt een directe koppeling gekopieerd naar het klembord.
 
-4. Druk op CTRL + V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen.
+4. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen.
 
 ::: moniker-end
 
@@ -105,11 +105,11 @@ Wilt u zorgen dat een andere beheerder op de hoogte is van een wijziging en hier
 
 1. Selecteer het bericht om het te openen.
 
-2. Kies  \> **een koppeling** voor het laden van de koppeling op de actiebalk.
+2. Kies **Meer** \> **Koppeling ophalen** op de actiebalk.
 
-3. Zorg dat de webpagina toegang heeft tot het klembord. Een directe koppeling wordt gekopieerd naar het Klembord.
+3. Zorg dat de webpagina toegang heeft tot het klembord. Er wordt een directe koppeling gekopieerd naar het klembord.
 
-4. Druk op CTRL + V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen.
+4. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen.
 
 ::: moniker-end
 
@@ -117,11 +117,11 @@ Wilt u zorgen dat een andere beheerder op de hoogte is van een wijziging en hier
 
 1. Selecteer het bericht om het te openen.
 
-2. Kies  \> **een koppeling** voor het laden van de koppeling op de actiebalk.
+2. Kies **Meer** \> **Koppeling ophalen** op de actiebalk.
 
-3. Zorg dat de webpagina toegang heeft tot het klembord. Een directe koppeling wordt gekopieerd naar het Klembord.
+3. Zorg dat de webpagina toegang heeft tot het klembord. Er wordt een directe koppeling gekopieerd naar het klembord.
 
-4. Druk op CTRL + V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen.
+4. Gebruik Ctrl+V of klik met de rechtermuisknop en selecteer **Plakken** om de koppeling in te voegen.
 
 ::: moniker-end
 
@@ -133,7 +133,7 @@ Een ongelezen bericht in het berichtencentrum wordt vetgedrukt weergegeven. Wann
 
 1. Selecteer een bericht op de hoofdpagina van het berichtencentrum.
 
-2. Selecteer het pictogram **markeren als ongelezen** (envelop) boven aan het bericht.
+2. Selecteer het (envelop)pictogram **Markeren als ongelezen** bovenaan het bericht.
   
 ::: moniker-end
 
@@ -159,19 +159,19 @@ Een ongelezen bericht in het berichtencentrum wordt vetgedrukt weergegeven. Wann
 
 ## <a name="archive-and-restore"></a>Archiveren en herstellen
 
-Als u een bericht ziet dat niet bij u past, of als u al een actie hebt ondernomen, kunt u het bericht archiveren om het te verwijderen uit de weergave berichtencentrum. De weergave in het berichtencentrum is specifiek voor uw gebruikersaccount, zodat de inhoud van de weergave niet van invloed is op andere beheerders.
+Als u een bericht ziet dat niet relevant voor u is of waarvoor u al actie hebt ondernomen, kunt u het bericht archiveren om het te verwijderen uit de weergave van het berichtencentrum. De weergave die u in het berichtencentrum ziet, is specifiek voor uw gebruikersaccount. Het archiveren en verwijderen van het bericht uit de weergave heeft dus geen gevolgen voor andere beheerders.
 
 ::: moniker range="o365-worldwide"
 
-- Op de hoofdpagina van het berichtencentrum selecteert u een bericht en selecteert u vervolgens in de lijst met berichten de optie **archiveren** .
+- Selecteer een bericht op de hoofdpagina van het berichtencentrum en selecteer vervolgens **Archiveren** boven de lijst met berichten.
 
-- Open het bericht en selecteer vervolgens onder aan het bericht de optie **archiveren** .
+- Open het bericht en selecteer **Archiveren** onderaan het bericht.
 
-Wilt u een gearchiveerd bericht opnieuw weergeven? Geen probleem.
+Wilt u een gearchiveerd bericht weer terughalen? Geen probleem.
   
-1. Selecteer het tabblad **gearchiveerde berichten** boven aan het berichtencentrum. Er verschijnt een lijst met gearchiveerde berichten. 
+1. Selecteer het tabblad **Gearchiveerde berichten** boven in het berichtencentrum. Er wordt een lijst met gearchiveerde berichten weergegeven. 
 
-2. Selecteer het bericht, selecteer **terugzetten** en het bericht wordt teruggezet in de actieve berichten.
+2. Selecteer het bericht, selecteer **Herstellen** en het bericht wordt teruggezet in de actieve berichten.
 
 ::: moniker-end
 
@@ -179,15 +179,15 @@ Wilt u een gearchiveerd bericht opnieuw weergeven? Geen probleem.
 
 Er zijn twee manieren om een bericht te archiveren.
   
-- Selecteer de X die rechts van de bericht-ID wordt weergegeven. Het bericht wordt verwijderd uit uw lijst. Of:
+- Klik op de X die rechts van de bericht-id wordt weergegeven. Het bericht wordt verwijderd uit uw lijst. Of:
 
-- Open het bericht en selecteer vervolgens boven aan het bericht de optie **archiveren** .
+- Open het bericht en selecteer **Archiveren** bovenaan het bericht.
 
 Wilt u een genegeerd bericht weer terughalen? Geen probleem.
   
-1. Selecteer het filter **gearchiveerde berichten** in het vervolgkeuzemenu **weergaven** . Er verschijnt een lijst met gearchiveerde berichten.
+1. Selecteer het filter **Gearchiveerde berichten** in het vervolgkeuzemenu **Weergaven**. Er wordt een lijst met gearchiveerde berichten weergegeven.
 
-2. Selecteer **terugzetten** rechts van de bericht-id en het bericht wordt teruggezet in de actieve berichten.
+2. Selecteer **Herstellen** rechts van de bericht-id en het bericht wordt teruggezet in de actieve berichten.
 
 ::: moniker-end
 
@@ -195,22 +195,22 @@ Wilt u een genegeerd bericht weer terughalen? Geen probleem.
 
 Er zijn twee manieren om een bericht te archiveren.
   
-- Selecteer de X die rechts van de bericht-ID wordt weergegeven. Het bericht wordt verwijderd uit uw lijst. Of:
+- Klik op de X die rechts van de bericht-id wordt weergegeven. Het bericht wordt verwijderd uit uw lijst. Of:
 
-- Open het bericht en selecteer vervolgens boven aan het bericht de optie **archiveren** .
+- Open het bericht en selecteer **Archiveren** bovenaan het bericht.
 
-Wilt u een gearchiveerd bericht opnieuw weergeven? Geen probleem.
+Wilt u een gearchiveerd bericht weer terughalen? Geen probleem.
   
-1. Selecteer het filter **gearchiveerde berichten** in het vervolgkeuzemenu **weergaven** . Er verschijnt een lijst met gearchiveerde berichten.
+1. Selecteer het filter **Gearchiveerde berichten** in het vervolgkeuzemenu **Weergaven**. Er wordt een lijst met gearchiveerde berichten weergegeven.
 
-2. Selecteer **terugzetten** rechts van de bericht-id en het bericht wordt teruggezet in de actieve berichten.
+2. Selecteer **Herstellen** rechts van de bericht-id en het bericht wordt teruggezet in de actieve berichten.
 
 ::: moniker-end
 
-## <a name="track-your-message-center-tasks-in-planner"></a>De taken van het berichtencentrum bijhouden in planner
+## <a name="track-your-message-center-tasks-in-planner"></a>Taken in het berichtencentrum bijhouden in Planner
 
-Een groot aantal informatie over wijzigingen in Microsoft 365-Services ontvangt in het berichtencentrum van Microsoft 365 veel actie-informatie. Het kan lastig zijn om bij te houden welke wijzigingen moeten worden uitgevoerd, wanneer en door wie u de taak wilt bijhouden. U kunt er ook voor zorgen dat u iets aanmeldt en een label geeft om het later nog eens te bekijken. U kunt dit en nog veel meer doen wanneer u berichten synchroniseert vanuit het Microsoft 365-Beheercentrum naar Microsoft planner. Zie voor meer informatie [uw Berichtencentrum taken bijhouden in planner](https://docs.microsoft.com/office365/planner/track-message-center-tasks-planner).
+In het Microsoft 365-berichtencentrum komt veel informatie over wijzigingen aan Microsoft 365-services binnen waarvoor u actie kunt ondernemen. Het kan lastig zijn bij te houden voor welke wijzigingen taken moeten worden uitgevoerd en wanneer en door wie, en om bij te houden welke taken moeten worden voltooid. Het kan ook zijn dat u iets wilt noteren en dit later wilt controleren. U kunt dit alles en nog veel meer doen wanneer u uw berichten van het Microsoft 365-beheercentrum synchroniseert naar Microsoft Planner. Zie [Taken in het berichtencentrum bijhouden in Planner](https://docs.microsoft.com/office365/planner/track-message-center-tasks-planner) voor meer informatie.
 
 
-Voor een overzicht van berichtencentrum raadpleegt u [berichtencentrum in Microsoft 365](message-center.md). Zie [vertaalfunctie voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md)voor meer informatie over het instellen van de taalvoorkeuren voor het inschakelen van automatische vertaling voor berichten in het berichtencentrum. Als u een andere manier wilt gebruiken om informatie over real-time servicestatus en berichten te communiceren, raadpleegt u naslaginformatie over [Microsoft 365 service Communications API overview](https://go.microsoft.com/fwlink/p/?linkid=848507).
+Zie [Berichtencentrum in Microsoft 365](message-center.md) voor een overzicht van het berichtencentrum. Of lees in [Vertaalfunctie voor berichten in het berichtencentrum](language-translation-for-message-center-posts.md) hoe u taalvoorkeuren instelt voor de vertaalfunctie voor posts in het berichtencentrum. Als u een andere manier wilt programmeren om informatie over de status van realtime-services en berichten uit het berichtencentrum te krijgen, raadpleegt u [Overzicht van Microsoft 365 Service Communications-API](https://go.microsoft.com/fwlink/p/?linkid=848507).
   
