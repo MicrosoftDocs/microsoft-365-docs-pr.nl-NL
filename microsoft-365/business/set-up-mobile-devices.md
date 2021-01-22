@@ -1,5 +1,5 @@
 ---
-title: Mobiele apparaten instellen voor Microsoft 365 voor zakelijke gebruikers
+title: Mobiele apparaten instellen voor gebruikers van Microsoft 365 voor Bedrijven
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,92 +20,93 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: Installeer Office op een iPhone of een Android-telefoon en uw werkbestanden in Office-apps worden beschermd door Microsoft 365 voor Bedrijven.
-ms.openlocfilehash: e847a794d34731c22f7a0fca87d246151a6f80a5
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Als u Office installeert op een iPhone of Android-telefoon, worden uw werkbestanden in Office-apps beveiligd door Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: ef18fcce851b8fa1573fd5134bd25fb7d4a3d8f9
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785867"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928739"
 ---
-# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a><span data-ttu-id="4c776-103">Mobiele apparaten instellen voor Microsoft 365 voor zakelijke gebruikers</span><span class="sxs-lookup"><span data-stu-id="4c776-103">Set up mobile devices for Microsoft 365 for business users</span></span>
+# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a><span data-ttu-id="b839a-103">Mobiele apparaten instellen voor gebruikers van Microsoft 365 voor Bedrijven</span><span class="sxs-lookup"><span data-stu-id="b839a-103">Set up mobile devices for Microsoft 365 for business users</span></span>
 
-<span data-ttu-id="4c776-104">Volg de instructies op de tabbladen om Office te installeren op een iPhone of een Android-telefoon.</span><span class="sxs-lookup"><span data-stu-id="4c776-104">Follow the instructions in the tabs to install Office on an iPhone or an Android phone.</span></span> <span data-ttu-id="4c776-105">Nadat u deze stappen hebt gevolgd, worden uw werkbestanden die zijn gemaakt in Office-apps beschermd door Microsoft 365 voor Bedrijven.</span><span class="sxs-lookup"><span data-stu-id="4c776-105">After you follow these steps, your work files created in Office apps will be protected by Microsoft 365 for business.</span></span>
+<span data-ttu-id="b839a-104">Volg de instructies op de tabbladen om Office te installeren op een iPhone of een Android-telefoon.</span><span class="sxs-lookup"><span data-stu-id="b839a-104">Follow the instructions in the tabs to install Office on an iPhone or an Android phone.</span></span> <span data-ttu-id="b839a-105">Nadat u deze stappen hebt doorlopen, worden uw werkbestanden die zijn gemaakt in Office-apps beveiligd door Microsoft 365 voor Bedrijven.</span><span class="sxs-lookup"><span data-stu-id="b839a-105">After you follow these steps, your work files created in Office apps will be protected by Microsoft 365 for business.</span></span>
 
-<span data-ttu-id="4c776-106">Het voorbeeld is voor Outlook, maar is ook van toepassing op alle andere Office-apps die u wilt installeren.</span><span class="sxs-lookup"><span data-stu-id="4c776-106">The example is for Outlook, but applies for any other Office apps you want to install also.</span></span>
+<span data-ttu-id="b839a-106">Het voorbeeld is voor Outlook, maar is ook van toepassing op alle andere Office-apps die u wilt installeren.</span><span class="sxs-lookup"><span data-stu-id="b839a-106">The example is for Outlook, but applies for any other Office apps you want to install also.</span></span>
   
-## <a name="set-up-mobile-devices"></a><span data-ttu-id="4c776-107">Mobiele apparaten instellen</span><span class="sxs-lookup"><span data-stu-id="4c776-107">Set up mobile devices</span></span>
+## <a name="set-up-mobile-devices"></a><span data-ttu-id="b839a-107">Mobiele apparaten instellen</span><span class="sxs-lookup"><span data-stu-id="b839a-107">Set up mobile devices</span></span>
 
-## <a name="iphone"></a>[<span data-ttu-id="4c776-108">Iphone</span><span class="sxs-lookup"><span data-stu-id="4c776-108">iPhone</span></span>](#tab/iPhone)
+## <a name="iphone"></a>[<span data-ttu-id="b839a-108">iPhone</span><span class="sxs-lookup"><span data-stu-id="b839a-108">iPhone</span></span>](#tab/iPhone)
   
-<span data-ttu-id="4c776-109">Bekijk een korte video over het instellen van Office-apps op iOS-apparaten met Microsoft 365 voor Bedrijven.</span><span class="sxs-lookup"><span data-stu-id="4c776-109">Watch a short video on how to set up Office apps on iOS devices with Microsoft 365 for business.</span></span><br><br>
+<span data-ttu-id="b839a-109">Bekijk een korte video over het instellen van Office-apps op iOS-apparaten met Microsoft 365 voor Bedrijven.</span><span class="sxs-lookup"><span data-stu-id="b839a-109">Watch a short video on how to set up Office apps on iOS devices with Microsoft 365 for business.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-<span data-ttu-id="4c776-110">Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="4c776-110">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="b839a-110">Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="b839a-110">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-<span data-ttu-id="4c776-111">Ga naar **App store** en typ in het zoekveld Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="4c776-111">Go to **App store**, and in the search field type in Microsoft Outlook.</span></span>
+<span data-ttu-id="b839a-111">Ga naar **App store** en typ in het zoekveld Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="b839a-111">Go to **App store**, and in the search field type in Microsoft Outlook.</span></span>
   
 ![Go to the iPhone App Store](../media/886913de-76e5-4883-8ed0-4eb3ec06188f.png)
   
-<span data-ttu-id="4c776-113">Tik op het cloudpictogram voor de installatie van Outlook.</span><span class="sxs-lookup"><span data-stu-id="4c776-113">Tap the cloud icon to install Outlook.</span></span>
+<span data-ttu-id="b839a-113">Tik op het cloudpictogram voor de installatie van Outlook.</span><span class="sxs-lookup"><span data-stu-id="b839a-113">Tap the cloud icon to install Outlook.</span></span>
   
 ![Tap the cloud icon to install Outlook](../media/665e1620-948a-4ab8-b914-dca49530142c.png)
   
-<span data-ttu-id="4c776-115">Wanneer de installatie is voltooid, tikt u op de knop **Openen** om Outlook te openen en vervolgens op **Aan de slag**.</span><span class="sxs-lookup"><span data-stu-id="4c776-115">When the installation is done, tap the **Open** button to open Outlook and then tap **Get Started**.</span></span>
+<span data-ttu-id="b839a-115">Wanneer de installatie is voltooid, tikt u op de knop **Openen** om Outlook te openen en vervolgens op **Aan de slag**.</span><span class="sxs-lookup"><span data-stu-id="b839a-115">When the installation is done, tap the **Open** button to open Outlook and then tap **Get Started**.</span></span>
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-<span data-ttu-id="4c776-117">Voer uw werk-e-mailadres in in het scherm Account **toevoegen** \> **toevoegen en**voer uw Microsoft 365 in voor zakelijke referenties Log \> **in**.</span><span class="sxs-lookup"><span data-stu-id="4c776-117">Enter your work email address on the **Add Email Account** screen \> **Add Account**, and then enter your Microsoft 365 for business credentials \> **Sign in**.</span></span>
+<span data-ttu-id="b839a-117">Voer uw zakelijke e-mailadres in op het scherm Account toevoegen van het scherm E-mailaccount toevoegen en voer uw microsoft  \> 365 voor bedrijven-referenties \> **in.**</span><span class="sxs-lookup"><span data-stu-id="b839a-117">Enter your work email address on the **Add Email Account** screen \> **Add Account**, and then enter your Microsoft 365 for business credentials \> **Sign in**.</span></span>
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-<span data-ttu-id="4c776-119">Als uw organisatie bestanden in apps beschermt, ziet u een dialoogvenster waarin staat dat uw organisatie nu de gegevens in de app beschermt en dat u de app opnieuw moet starten om deze te kunnen blijven gebruiken.</span><span class="sxs-lookup"><span data-stu-id="4c776-119">If your organization is protecting files in apps, you'll see a dialog stating that your organization is now protecting the data in the app and you need to restart the app to continue to use it.</span></span> <span data-ttu-id="4c776-120">Tik op **OK** en sluit Outlook.</span><span class="sxs-lookup"><span data-stu-id="4c776-120">Tap **OK** and close Outlook.</span></span> 
+<span data-ttu-id="b839a-119">Als uw organisatie bestanden in apps beschermt, ziet u een dialoogvenster waarin wordt aangegeven dat uw organisatie nu de gegevens in de app beschermt en dat u de app opnieuw moet starten om deze te blijven gebruiken.</span><span class="sxs-lookup"><span data-stu-id="b839a-119">If your organization is protecting files in apps, you'll see a dialog stating that your organization is now protecting the data in the app and you need to restart the app to continue to use it.</span></span> <span data-ttu-id="b839a-120">Tik op **OK** en sluit Outlook.</span><span class="sxs-lookup"><span data-stu-id="b839a-120">Tap **OK** and close Outlook.</span></span> 
   
-![Schermafbeelding waarmee uw organisatie uw Outlook-app nu beschermt](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Schermafbeelding die toont dat uw organisatie nu uw Outlook-app beschermt](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
-<span data-ttu-id="4c776-122">Ga naar Outlook op de iPhone en start het opnieuw.</span><span class="sxs-lookup"><span data-stu-id="4c776-122">Locate Outlook on the iPhone, and restart it.</span></span> <span data-ttu-id="4c776-123">Voer desgevraagd een pincode in en verifieer deze.</span><span class="sxs-lookup"><span data-stu-id="4c776-123">When prompted, enter a PIN and verify it.</span></span> <span data-ttu-id="4c776-124">Outlook op uw iPhone is nu klaar voor gebruik.</span><span class="sxs-lookup"><span data-stu-id="4c776-124">Outlook on your iPhone is now ready to be used.</span></span>
+<span data-ttu-id="b839a-122">Ga naar Outlook op de iPhone en start het opnieuw.</span><span class="sxs-lookup"><span data-stu-id="b839a-122">Locate Outlook on the iPhone, and restart it.</span></span> <span data-ttu-id="b839a-123">Wanneer u daarom wordt gevraagd, voert u een pincode in en verifieert u deze.</span><span class="sxs-lookup"><span data-stu-id="b839a-123">When prompted, enter a PIN and verify it.</span></span> <span data-ttu-id="b839a-124">Outlook op uw iPhone is nu klaar voor gebruik.</span><span class="sxs-lookup"><span data-stu-id="b839a-124">Outlook on your iPhone is now ready to be used.</span></span>
   
 ![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
-## <a name="android"></a>[<span data-ttu-id="4c776-126">Android</span><span class="sxs-lookup"><span data-stu-id="4c776-126">Android</span></span>](#tab/Android)
+## <a name="android"></a>[<span data-ttu-id="b839a-126">Android</span><span class="sxs-lookup"><span data-stu-id="b839a-126">Android</span></span>](#tab/Android)
   
-<span data-ttu-id="4c776-127">Bekijk een video over het installeren van Outlook en Office op Android-apparaten.</span><span class="sxs-lookup"><span data-stu-id="4c776-127">Watch a video about installing Outlook and Office on Android devices.</span></span><br><br>
+<span data-ttu-id="b839a-127">Bekijk een video over het installeren van Outlook en Office op Android-apparaten.</span><span class="sxs-lookup"><span data-stu-id="b839a-127">Watch a video about installing Outlook and Office on Android devices.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-<span data-ttu-id="4c776-128">Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="4c776-128">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="b839a-128">Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="b839a-128">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-<span data-ttu-id="4c776-129">Ga naar de Play Store om te beginnen met het instellen op je Android-telefoon.</span><span class="sxs-lookup"><span data-stu-id="4c776-129">To begin setup on your Android phone, go to the Play Store.</span></span>
+<span data-ttu-id="b839a-129">Ga naar de Play Store om de installatie op uw Android-telefoon te starten.</span><span class="sxs-lookup"><span data-stu-id="b839a-129">To begin setup on your Android phone, go to the Play Store.</span></span>
   
 ![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-<span data-ttu-id="4c776-131">Voer Microsoft Outlook in het zoekvak van Google Play in en tik op **Installeren**.</span><span class="sxs-lookup"><span data-stu-id="4c776-131">Enter Microsoft Outlook in the Google Play search box and tap **Install**.</span></span> <span data-ttu-id="4c776-132">Zodra Outlook is geïnstalleerd, tikt u op **Openen**.</span><span class="sxs-lookup"><span data-stu-id="4c776-132">Once Outlook is done installing, tap **Open**.</span></span>
+<span data-ttu-id="b839a-131">Voer Microsoft Outlook in het zoekvak van Google Play in en tik op **Installeren.**</span><span class="sxs-lookup"><span data-stu-id="b839a-131">Enter Microsoft Outlook in the Google Play search box and tap **Install**.</span></span> <span data-ttu-id="b839a-132">Nadat Outlook is geïnstalleerd, tikt u op **Openen.**</span><span class="sxs-lookup"><span data-stu-id="b839a-132">Once Outlook is done installing, tap **Open**.</span></span>
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-<span data-ttu-id="4c776-134">Tik in de Outlook-app op **Aan de slag**en voeg vervolgens uw Microsoft 365 voor zakelijk e-mailaccount \> **Doorgaan**toe en meld u aan met uw organisatiereferenties.</span><span class="sxs-lookup"><span data-stu-id="4c776-134">In the Outlook app, tap **Get Started**, then add your Microsoft 365 for business email account \> **Continue**, and sign in with your organization credentials.</span></span>
+<span data-ttu-id="b839a-134">Tik in de Outlook-app op Aan de **slag,** voeg vervolgens uw e-mailaccount van Microsoft 365 voor Bedrijven Continue toe en meld u aan met de referenties van \> uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="b839a-134">In the Outlook app, tap **Get Started**, then add your Microsoft 365 for business email account \> **Continue**, and sign in with your organization credentials.</span></span>
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
-<span data-ttu-id="4c776-136">In het dialoogvenster waarin wordt aangegeven dat u de app Bedrijfsportal Intune moet installeren, tikt u op **Ga naar de store**.</span><span class="sxs-lookup"><span data-stu-id="4c776-136">In the dialog that states you must install the Intune Company Portal app, tap **Go to store**.</span></span>
+<span data-ttu-id="b839a-136">In het dialoogvenster waarin wordt aangegeven dat u de app Bedrijfsportal Intune moet installeren, tikt u op **Ga naar de store**.</span><span class="sxs-lookup"><span data-stu-id="b839a-136">In the dialog that states you must install the Intune Company Portal app, tap **Go to store**.</span></span>
   
 ![Tap on Go to store to get Intune Company Portal app](../media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-<span data-ttu-id="4c776-138">Installeer in de Play Store Intune Company Portal.</span><span class="sxs-lookup"><span data-stu-id="4c776-138">In Play Store, install Intune Company Portal.</span></span>
+<span data-ttu-id="b839a-138">Installeer in de Play Store Intune-bedrijfsportal.</span><span class="sxs-lookup"><span data-stu-id="b839a-138">In Play Store, install Intune Company Portal.</span></span>
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
-<span data-ttu-id="4c776-p105">Open Outlook opnieuw en voer een pincode in en bevestig deze. Uw Outlook-app is nu gereed voor gebruik.</span><span class="sxs-lookup"><span data-stu-id="4c776-p105">Open Outlook again, and enter and confirm a PIN. Your Outlook app is now ready for use.</span></span>
+<span data-ttu-id="b839a-p105">Open Outlook opnieuw en voer een pincode in en bevestig deze. Uw Outlook-app is nu gereed voor gebruik.</span><span class="sxs-lookup"><span data-stu-id="b839a-p105">Open Outlook again, and enter and confirm a PIN. Your Outlook app is now ready for use.</span></span>
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
-## <a name="see-also"></a><span data-ttu-id="4c776-143">Zie ook</span><span class="sxs-lookup"><span data-stu-id="4c776-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b839a-143">Zie ook</span><span class="sxs-lookup"><span data-stu-id="b839a-143">See also</span></span>
 
-[<span data-ttu-id="4c776-144">Trainingsvideo's voor Microsoft 365 voor bedrijven</span><span class="sxs-lookup"><span data-stu-id="4c776-144">Microsoft 365 for business training videos</span></span>](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[<span data-ttu-id="b839a-144">Trainingsvideo's voor Microsoft 365 voor bedrijven</span><span class="sxs-lookup"><span data-stu-id="b839a-144">Microsoft 365 for business training videos</span></span>](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---
