@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Lees hoe u uw domein verifieert en DNS-records instelt voor e-mail, Skype voor bedrijven online en andere services op Cloudflare voor Microsoft.
-ms.openlocfilehash: 110bd96c0eecf40ae96efe7055d82a8d12dde607
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 8d5dd7779f07fd42dd230ee33c40849da3519d26
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657958"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939270"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>DNS-records bij Cloudflare maken voor Microsoft
 
@@ -86,12 +86,12 @@ Voordat u uw domein met Microsoft kunt gebruiken, moet worden gecontroleerd dat 
   
 4. Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de volgende tabel. 
     
-    |**Type**|**Name**|**Automatic TTL**|**Content**|
+    | Type | Naam | Automatic TTL | Content |
     |:-----|:-----|:-----|:----|
     |TXT  <br/> |@  <br/> |30 minutes  <br/> |MS=ms *XXXXXXXX*  <br/> **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)    |
   
     
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
   
   
 9. Wacht enkele minuten voordat u verder gaat, zodat de record die u zojuist hebt gemaakt via internet kan worden bijgewerkt.
@@ -130,13 +130,13 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 4. Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de volgende tabel. 
     
-    |**Type**|**Name**|**Mail server**|**Priority**|**TTL**|
+    | Type | Naam | E-mail server | Priority | TTL |
     |:-----|:-----|:-----|:-----|:-----|
     |MX  <br/> |@  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Opmerking:** Ga  *\<domain-key\>*  naar uw Microsoft 365-account.   [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md) |1  <br/> Zie [Wat is MX-prioriteit?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) voor meer informatie over prioriteit.    <br/>|30 minutes  <br/> |
    
 
   
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
   
 9. Als er andere MX-records zijn vermeld in de sectie **MX Records**, verwijdert u ze door het pictogram **Delete (X)** te selecteren. 
   
@@ -159,7 +159,7 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de volgende tabel.
     
     
-    |**Type**|**Naam**|**Doel**|**TTL**|
+    | Type | Naam | Doel | TTL |
     |:-----|:-----|:-----|:-----|
     |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |30 minutes  <br/> |
     |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |30 minutes  <br/> |
@@ -169,9 +169,9 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
     |CNAME  <br/> |msoid  <br/> |clientconfig.microsoftonline-p.net  <br/> |30 minutes  <br/> |
     
   
-5. Selecteer het pictogram van het **DNS-verkeer** (oranje wolk) om de Cloudflare-servers over te slaan.
+5. Selecteer het pictogram van het **DNS-verkeer** (oranje wolk wijzigen in grijs) om de Cloudflare-servers te omzeilen.
   
-6. Kies **Opslaan**.
+6. Klik op **Opslaan**.
   
 7. Voeg als volgt de andere vijf CNAME-records toe:
 
@@ -192,12 +192,12 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
   
 4. Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de volgende tabel.  
     
-    |**Type**|**Name**|**TTL**|**Content**|
+    | Type | Naam | TTL | Content |
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |@  <br/> |30 minutes  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Opmerking:** het is raadzaam dit item te kopiëren en te plakken, zodat het spatiegebruik ongewijzigd blijft.   |
 
  
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
     
 
   
@@ -217,13 +217,13 @@ Wanneer in Microsoft de juiste TXT-record is gevonden, is uw domein gecontroleer
 
     Klik op de pagina **DNS-beheer** op **record toevoegen** en selecteer vervolgens de waarden uit de eerste rij van de volgende tabel.
         
-    |**Type**|**Service**|**Protocol**|**Naam**|**TTL**|**Prioriteit**|**Gewicht**|**Poort**|**Doel**|
+    | Type | Service | Protocol | Naam | TTL | Priority | Dikte | Poort | Doel |
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV|_sip |TLS |Gebruik uw *Domain_Name*; bijvoorbeeld: contoso.com  |30 minutes | 100|1 |443 |sipfed.online.lync.com  |
     |SRV|_sipfederationtls | TCP|Gebruik uw *Domain_Name*; bijvoorbeeld: contoso.com   |30 minutes |100 |1 |5061 | sipfed.online.lync.com |
 
   
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 
   
 6. Als u de andere SRV-record wilt toevoegen, kiest u de waarden uit de tweede rij van de tabel. 

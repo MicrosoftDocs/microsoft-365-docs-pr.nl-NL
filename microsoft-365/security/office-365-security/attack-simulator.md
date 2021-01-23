@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -19,12 +18,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met behulp van Hack Simulator een aanval en wachtwoord aanval uitvoert in hun Microsoft 365 E5 of Microsoft Defender for Office 365-abonnement 2-organisaties.
-ms.openlocfilehash: f07cbbdac5d9b988301e9dfc3cb4446f7b44fca6
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a9abca803c21baa7fcb5f0ab7b3d4c497c4473b8
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871095"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939318"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Aanvals Simulator in Microsoft Defender voor Office 365
 
@@ -155,7 +156,8 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - Klik op **sjabloon gebruiken** en selecteer een ingebouwde of aangepaste e-mail sjabloon. Wanneer u de sjabloon hebt geselecteerd, wordt het vak **naam** automatisch ingevuld op basis van de sjabloon, maar u kunt de naam wijzigen.
 
-   ![De start pagina van phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
+   > [!div class="mx-imgBorder"]
+   > ![De start pagina van phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
    Wanneer u klaar bent, klikt u op **volgende**.
 
@@ -218,7 +220,8 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    U moet de koppeling in de hoofdtekst van het bericht verwijderen (in de **meeste** gevallen moet het bericht zowel een koppeling **als** een bijlage bevatten, en koppelings klikken worden niet bijgehouden in een bijlage campagne).
 
-   ![Berichttekst opstellen](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
+   > [!div class="mx-imgBorder"]
+   > ![Berichttekst opstellen](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
 
    Wanneer u klaar bent, klikt u op **volgende**.
 

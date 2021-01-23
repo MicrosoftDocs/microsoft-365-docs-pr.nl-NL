@@ -6,10 +6,9 @@ keywords: integreren, Microsoft Defender, ATP
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/29/2020
+ms.date: 01/21/2021
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 - M365-security-compliance
 description: Gebruik Microsoft Defender voor Office 365 samen met Microsoft Defender for Endpoint voor meer informatie over bedreigingen voor uw apparaten en e-mail inhoud.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cc78e7d674facb371ea98125b6857502031d26e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 24b81bb4c445c44d7c0228fa1c4440faff642816
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616510"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939330"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Microsoft Defender voor Office 365 samen met Microsoft Defender voor eindpunt gebruiken
 
@@ -61,7 +62,7 @@ Integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor ei
 
    ![Verkenner in het menu Threat Management](../../media/ThreatMgmt-Explorer-nav.png)
 
-3. Kies in de rechterbovenhoek van het scherm de optie **Defender voor Eindpunts instellingen**.
+3. Kies in de rechterbovenhoek van het scherm de optie **Defender voor eindpunten (MDE-instellingen)**.
 
 4. Schakel in het dialoogvenster Microsoft Defender for Endpoint verbinding het selectievakje **verbinding maken met Microsoft Defender voor eindpunt** in.
 
@@ -81,4 +82,4 @@ Integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor ei
 
 [Microsoft Defender voor Office 365](office-365-atp.md)
 
-[Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection)
+[Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection)

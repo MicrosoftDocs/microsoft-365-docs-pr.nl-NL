@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d457c4b96e47485eee041b72a1cf24e96a13bf18
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: bddf46e451408e4f17e58cc62186b7cd6cefb382
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430185"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939282"
 ---
 # <a name="install-intune-company-portal-on-devices"></a>InTune-bedrijfs portal installeren op apparaten
 
@@ -38,9 +38,7 @@ Dit onderwerp bevat informatie over het volgende:
 - Actieve synchronisatie tussen intune en Microsoft Store voor bedrijven controleren 
 
 ## <a name="step-2---assign-company-portal-to-your-users"></a>Stap 2-de bedrijfs portal aan uw gebruikers toewijzen
-Een ondersteuningsverzoek indienen bij Microsoft beheerde bureaublad activiteiten via de Microsoft beheerde bureaubladbeheer Portal. In het ondersteuningsverzoek vraagt u of de bedrijfs portal aan de gebruikers is toegewezen. Microsoft Managed Desktop installeert de bedrijfs portal naar uw Tenant en installeert de app op Microsoft Managed Desktop-apparaten in uw organisatie.
-
-Zie voor meer informatie over het indienen van ondersteuningsaanvragen bij Microsoft Managed Desktop de [beheerders ondersteuning voor Microsoft Managed Desktop](../working-with-managed-desktop/admin-support.md).
+Als u de registratie volgt in Microsoft Managed Desktop, wordt de bedrijfs portal automatisch geïmplementeerd voor uw Tenant en installeert u de app op Microsoft beheerde bureaublad apparaten in uw organisatie.
 
 ## <a name="step-3---communicate-change-to-your-users"></a>Stap 3: de wijziging doorgeven aan uw gebruikers
 Als IT-beheerder voor uw organisatie, is het belangrijk om uw gebruikers te laten weten hoe ze de bedrijfs portal in uw organisatie kunnen gebruiken. Microsoft Managed Desktop adviseert:
