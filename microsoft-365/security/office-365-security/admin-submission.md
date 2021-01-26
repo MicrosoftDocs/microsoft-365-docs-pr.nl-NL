@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van de portal voor uitnodigingen van de beveiligings & nalevings centrum voor het verzenden van verdachte e-mailberichten, verdachte e-mailberichten, spam en andere mogelijk schadelijke berichten, Url's en bestanden aan Microsoft voor het scannen.
-ms.openlocfilehash: 432a245530d7906ae8babbc54176480d36315351
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 879a13e7c059495e653b79c424b227fe9f35a498
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864946"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976601"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.
 
@@ -32,7 +33,15 @@ ms.locfileid: "49864946"
 
 In Microsoft 365-organisaties met postvakken in Exchange Online kunnen beheerders de portal voor ingediende vragen in het beveiligings & nalevings centrum gebruiken voor het verzenden van e-mailberichten, Url's en bijlagen bij Microsoft voor het scannen.
 
-Wanneer u een e-mailbericht verzendt, krijgt u informatie over de beleidsregels die de inkomende e-mail in uw Tenant hebben toegestaan en van het onderzoek van Url's en bijlagen in het e-mailbericht. Beleidsregels die een e-mailbericht kunnen hebben, bestaan uit de lijst met veilige afzenders van een individuele gebruiker en beleid voor tenantniveau, zoals Exchange-e-mail stroom regels (ook wel transport-regels genoemd).
+Wanneer u een e-mailbericht verzendt, krijgt u het volgende:
+
+1. **Verificatie via e-mail verificatie**: Details over of het doorgeven van e-mail verificatie is gelukt of mislukt.
+2. **Beleids hits**: informatie over beleidsregels die de inkomende e-mail in uw Tenant mogelijk hebben toegestaan of geblokkeerd, waarbij de Verdicts van het servicefilter wordt overschreven.
+3. **Reputatie/detonatie van nettolading**: onderzoek van url's en bijlagen in het bericht.
+4. **Grader analyse**: Bekijk de gevolgde voor menselijke kwaliteiten om te bevestigen of berichten al dan niet schadelijk zijn.
+
+> [!IMPORTANT]
+> Nettolading van de reputatie/detonatie en van de proefbaan worden niet in alle tenants geanalyseerd. De gegevens worden geblokkeerd wanneer u de gegevens van de Tenant niet hoeft te laten voldoen.
 
 Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md)voor andere manieren om e-mailberichten, url's en bijlagen bij Microsoft in te dienen.
 
@@ -77,7 +86,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 4. Wanneer u klaar bent, klikt u op de knop **verzenden** .
 
-![Voorbeeld van URL-indiening](../../media/submission-flyout-email.PNG)
+   ![Voorbeeld van URL-indiening](../../media/submission-flyout-email.PNG)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Een verdachte URL naar Microsoft verzenden
 
@@ -91,7 +100,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 3. Wanneer u klaar bent, klikt u op de knop **verzenden** .
 
-![Voorbeeld van e-mail verzending](../../media/submission-url-flyout.png)
+   ![Voorbeeld van e-mail verzending](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Een verdacht bestand bij Microsoft indienen
 
@@ -107,7 +116,7 @@ Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-message
 
 4. Wanneer u klaar bent, klikt u op de knop **verzenden** .
 
-![Voorbeeld van bijlagen verzenden](../../media/submission-file-flyout.PNG)
+   ![Voorbeeld van bijlagen verzenden](../../media/submission-file-flyout.PNG)
 
 ## <a name="view-admin-submissions"></a>Beheerders inzendingen weergeven
 
