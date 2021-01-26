@@ -7,16 +7,18 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 1abcc71200642de3f74a92e83299e079ffffb038
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: a9713f1d28cf863ab827d2975e84042026105b3f
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604262"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976377"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -24,15 +26,15 @@ Beheerders kunnen het Microsoft 365-beheercentrum gebruiken om [Microsoft ShareP
 
 Houd rekening met het volgende voordat u begint:
 
-- Op welke SharePoint-sites wordt het verwerken van formulieren ingeschakeld? Op alle sites, enkele sites of alleen specifieke sites?
-- Wat is de naam van uw standaard inhoudscentrum?
+- Op welke SharePoint-sites schakelt u het verwerken van formulieren in? Op alle sites, enkele sites of alleen specifieke sites?
+- Welke naam geeft u aan uw standaard inhoudscentrum?
 
 U kunt de instellingen wijzigen na de eerste installatie in het Microsoft 365-beheercentrum.
 
-Voordat u met het instellen begint, moet u plannen wat de beste manier is om inhoudsbegrip te configureren voor uw omgeving. Zo moet u bijvoorbeeld rekening houden met de namen van:
+Voordat u met het instellen begint, moet u plannen wat de beste manier is om inhoudsbegrip te configureren voor uw omgeving. Zo moet u bijvoorbeeld de volgende beslissingen nemen:
 
 - De SharePoint-sites waarvoor u de formulierverwerking wilt inschakelen; alle sites, enkele sites of specifieke sites
-- Uw inhoudscentrum en de naam van de primaire beheerder van de site
+- De naam en beheerders of het inhoudscentrum
 
 ## <a name="requirements"></a>Vereisten 
 
@@ -55,8 +57,8 @@ Als beheerder kunt u ook op elk gewenst moment wijzigingen aanbrengen in de gese
 4. Op de pagina **Formulierverwerking configureren** kunt u kiezen of u wilt dat gebruikers formulierverwerkingsmodellen kunnen maken in specifieke SharePoint-documentbibliotheken. Er is een menuoptie beschikbaar op het lint van de documentbibliotheek voor het **maken van een formulierverwerkingsmodel** in SharePoint-documentbibliotheken waarin dit is ingeschakeld.
  
      Bij **Welke SharePoint-bibliotheken moeten de optie weergeven voor het maken van een formulierverwerkingsmodel**, kunt u het volgende selecteren:</br>
-      - **Alle SharePoint-bibliotheken** om de optie beschikbaar te maken voor alle SharePoint-bibliotheken in uw organisatie.</br>
-      - **Alleen bibliotheken op geselecteerde sites**; selecteer vervolgens de sites waar u de optie beschikbaar wilt maken of upload een lijst met maximaal 50 sites.</br>
+      - **Bibliotheken op alle SharePoint-sites** om de optie beschikbaar te maken voor alle SharePoint-bibliotheken in uw organisatie.</br>
+      - **Bibliotheken op geselecteerde SharePoint-sites**; selecteer vervolgens de sites waar u de optie beschikbaar wilt maken of upload een lijst met maximaal 50 sites.</br>
       - **Geen SharePoint-bibliotheken** als u de optie niet beschikbaar wilt maken voor sites (u kunt dit wijzigen na de installatie).
 
    > [!div class="mx-imgBorder"]
@@ -114,4 +116,3 @@ Ga naar het [Power platform-beheercentrum](https://admin.powerplatform.microsoft
 [Overzicht van het formulierverwerkingsmodel](https://docs.microsoft.com/ai-builder/form-processing-model-overview)
 
 [Stap voor stap: een documentbegripmodel maken (video)](https://www.youtube.com/watch?v=DymSHObD-bg)
-
