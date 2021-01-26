@@ -106,7 +106,6 @@
           href: customize-a-built-in-sensitive-information-type.md
         - name: Aangepaste typen gevoelige informatie maken met exacte gegevensovereenkomsten
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: Aan de slag met aangepaste typen gevoelige informatie
         - name: De wizard voor het exacte schema voor gegevensovereenkomst en het type gevoelige informatie gebruiken
           href: sit-edm-wizard.md
         - name: Wijzig het exacte schema voor gegevensovereenkomst om een configureerbare overeenkomst te gebruiken
