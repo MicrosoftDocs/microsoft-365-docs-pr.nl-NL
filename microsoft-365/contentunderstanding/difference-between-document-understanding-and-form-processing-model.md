@@ -7,15 +7,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 localization_priority: Priority
 description: Uitleg over het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
-ms.openlocfilehash: e847ed9b7a00e0ff0542ad3b9ba35c314070837d
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: f57d220eb77a783de5ac352f3cf684364252a163
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087629"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49975875"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen 
 
@@ -37,22 +39,22 @@ Beide modellen worden in het algemeen gebruikt voor dezelfde doeleinden, maar de
 
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Gestructureerde versus niet-gestructureerde en gedeeltelijk gestructureerde inhoud
 
-Gebruik documentbegripmodellen om gegevens te identificeren en extraheren uit niet-gestructureerde documenten, zoals brieven of contracten, waarin de tekstentiteiten die u wilt extraheren zich in zinnen of specifieke delen van het document bevinden. Een niet-gestructureerd document kan bijvoorbeeld een brief zijn voor het verlengen van een contract, die op verschillende manieren kan zijn geschreven. Maar bepaalde informatie bevindt zich altijd in de hoofdtekst van een contractverlengingsdocument, zoals de tekenreeks *Begindatum van de service* gevolgd door een werkelijke datum.   
+Gebruik documentbegripmodellen om gegevens te identificeren en extraheren uit niet-gestructureerde documenten, zoals brieven of contracten, waarin de tekstentiteiten die u wilt extraheren zich in zinnen of specifieke delen van het document bevinden. Een niet-gestructureerd document kan bijvoorbeeld een brief zijn voor het verlengen van een contract, die op verschillende manieren kan zijn geschreven. Maar bepaalde informatie bevindt zich altijd in de hoofdtekst van een contractverlengingsdocument, zoals de tekenreeks *Begindatum van de service* gevolgd door een werkelijke datum.
 
-Gebruik formulierverwerkingsmodellen om bestanden te identificeren en gegevens te extraheren uit gestructureerde of half-gestructureerde documenten, zoals formulieren of facturen. Formulierverwerkingsmodellen worden met voorbeelddocumenten getraind om de indeling van uw formulieren te begrijpen, en om te zoeken naar de gegevens die u wilt ophalen van soortgelijke locaties, aangezien formulieren een meer gestructureerde indeling hebben en entiteiten zich op dezelfde locatie bevinden (zoals een BSN-nummer in een belastingformulier). 
+Gebruik formulierverwerkingsmodellen om bestanden te identificeren en gegevens te extraheren uit gestructureerde of half-gestructureerde documenten, zoals formulieren of facturen. Formulierverwerkingsmodellen worden met voorbeelddocumenten getraind om de indeling van uw formulieren te begrijpen, en om te zoeken naar de gegevens die u wilt ophalen van soortgelijke locaties. Formulieren hebben meestal een meer gestructureerde indeling waarbij entiteiten zich op dezelfde locatie bevinden (bijvoorbeeld een bsn-nummer in een belastingformulier).
 
 > [!NOTE]
 > U moet toegang hebben tot een inhoudscentrumsite om een documentbegripmodel te maken of toe te passen op een SharePoint-documentbibliotheek. 
 
 
-## <a name="where-they-are-created"></a>Waar worden ze gemaakt
+## <a name="where-models-are-created"></a>Waar modellen worden gemaakt
 
 Documentbegripmodellen worden gemaakt en beheerd in een SharePoint-inhoudscentrumsite. 
 
 > [!NOTE]
 > Zie voor meer informatie over invoerdocumenten [Vereisten voor en beperkingen van formulierverwerkingsmodellen](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
 
-Formulierverwerkingsmodellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van de modellen wordt rechtstreeks vanuit een SharePoint-documentbibliotheek gestart. Het maken van formulierverwerkingsmodellen moet worden ingeschakeld in uw documentbibliotheek om het gebruikers mogelijk te maken een formulierverwerkingsmodel te maken. Een beheerder kan dit doen in de beheerdersinstellingen voor inhoudsbegrip. Formulierverwerkingsmodellen gebruiken Power Automate-stromen om bestanden te verwerken wanneer die worden geüpload naar de documentbibliotheek.
+Formulierverwerkingsmodellen worden gemaakt in PowerApps [AI Builder](https://docs.microsoft.com/ai-builder/overview), maar het maken van de modellen wordt rechtstreeks vanuit een SharePoint-documentbibliotheek gestart. Voor een documentbibliotheek moet het maken van formulierverwerkingsmodellen zijn ingeschakeld om te zorgen dat gebruikers er een formulierverwerkingsmodel voor kunnen maken. Beheerders kunnen het maken van een formulierverwerkingsmodel inschakelen in de beheerinstellingen voor inhoudsbegrip. Formulierverwerkingsmodellen gebruiken Power Automate-stromen om bestanden te verwerken wanneer die worden geüpload naar de documentbibliotheek.
 
 Wanneer u een documentbegripmodel maakt, maakt u een nieuw [SharePoint-inhoudstype](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978) dat wordt opgeslagen in de SharePoint-inhoudstypengalerie. U kunt ook bestaande inhoudstypen gebruiken om het model te definiëren.
 
