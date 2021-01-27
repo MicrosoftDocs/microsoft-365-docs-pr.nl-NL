@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,12 +16,14 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over het definiëren van beleidsregels voor veilige bijlagen om uw organisatie tegen kwaadwillende bestanden in een e-mail te beschermen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8dfdcc0779fb8b8438ee7a63d2f0e180cbb12ac9
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 5a26d214fe99d0053bf178d7d85a0b526d64f887
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780506"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988078"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels voor veilige bijlagen instellen in Microsoft Defender voor Office 365
 
@@ -51,7 +52,7 @@ Het verschil tussen deze twee elementen is niet duidelijk wanneer u beveiligings
 In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie voor meer informatie de sectie [Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken voor het configureren](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies) van de sectie voor het opstellen van veilige bijlagen verderop in dit artikel.
 
 > [!NOTE]
-> In het gebied algemene instellingen van instellingen voor veilige bijlagen configureert u functies die niet afhankelijk zijn van beleid voor veilige bijlagen. Zie [ATP voor SharePoint, OneDrive en Microsoft teams](turn-on-atp-for-spo-odb-and-teams.md) en [veilige documenten in Microsoft 365 E5](safe-docs.md)inschakelen voor instructies.
+> In het gebied algemene instellingen van instellingen voor veilige bijlagen configureert u functies die niet afhankelijk zijn van beleid voor veilige bijlagen. Zie voor instructies voor het [inschakelen van veilige bijlagen voor SharePoint, OneDrive en Microsoft teams](turn-on-atp-for-spo-odb-and-teams.md) en [veilige documenten in Microsoft 365 E5](safe-docs.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -106,7 +107,7 @@ Als u een aangepast veilig bijlagebeleid maakt in de beveiligings & nalevings ce
 
      De aanbeveling voor standaard-en strikte beleidsinstellingen is om omleiding in te schakelen. Zie [instellingen voor veilige bijlagen](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)voor meer informatie.
 
-   - **De bovenstaande selectie toepassen als u wilt dat malware wordt gescand op bijlagen wanneer een fout optreedt of als de fout zich voordoet**, wordt de actie die is opgegeven door veilige bijlagen, ook wel als gevolg van **schadelijke malware** op berichten. Altijd deze optie selecteren als u **ingeschakelde omleiding** selecteert. Anders zijn er mogelijk berichten verloren.
+   - **De bovenstaande selectie toepassen als u wilt dat malware wordt gescand op bijlagen wanneer een fout optreedt of als de fout zich voordoet**, wordt de actie die is opgegeven door veilige bijlagen, ook wel als gevolg van **schadelijke malware** op berichten. Als u deze optie hebt geselecteerd, selecteert u altijd **geschikt omleiden**. Anders zijn er mogelijk berichten verloren.
 
    Wanneer u klaar bent, klikt u op **volgende**.
 

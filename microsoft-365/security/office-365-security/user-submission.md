@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,12 +15,14 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Beheerders kunnen leren hoe u een postvak configureert om spam en phishing-e-mail te verzamelen die door gebruikers worden gerapporteerd.
-ms.openlocfilehash: 8f9da620643d46bf21a18eccc2047ad4361832cc
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 9759bbae1dc49b80859198e11e6f85383cdf2f66
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865058"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988126"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor het aanmissionen van gebruikers
 
@@ -71,6 +72,15 @@ Nadat u hebt gecontroleerd of uw postvak aan alle toepasselijke voorwaarden vold
 
   - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
   - **Organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+- U moet toegang hebben tot Exchange Online PowerShell. Als het account dat u wilt gebruiken, geen toegang heeft tot Exchange Online PowerShell, krijgt u een foutmelding die er als volgt uitziet:
+
+  > Een e-mailadres in uw domein opgeven
+
+  Zie de volgende onderwerpen voor meer informatie over het in-of uitschakelen van de toegang tot Exchange Online PowerShell:
+
+  - [Toegang tot Exchange Online PowerShell in-of uitschakelen](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Regels voor client toegang in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>De beveiligings & voor nalevings centrum gebruiken om het postvak voor de gebruiker te configureren
 

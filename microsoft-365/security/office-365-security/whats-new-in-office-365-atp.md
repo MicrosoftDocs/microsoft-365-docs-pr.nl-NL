@@ -3,7 +3,6 @@ title: Nieuw in Microsoft Defender voor Office 365
 description: Meer informatie over de nieuwe functies en functies die beschikbaar zijn in de nieuwste versie van Microsoft Defender voor Office 365.
 keywords: Nieuw in Office 365 ATP, NH, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.appverid: met150
-ms.service: O365-seccomp
 ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
@@ -17,15 +16,17 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 ms.topic: conceptual
-ms.date: 10/09/2020
+ms.date: 01/12/2021
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: fb588320461ab44d1ce0f10c0776bcc9ee61b551
-ms.sourcegitcommit: 0ecac0387be6b49025b79ce8eb949a8cf62481e2
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 3544f1ccb760c461b7ab72c6dc037fd653136db9
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724400"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988158"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuw in Microsoft Defender voor Office 365
 
@@ -41,6 +42,10 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 > [!TIP]
 > Hebt u nog geen Microsoft Defender voor Office 365? [Neem contact op met de verkoop om een proefabonnement te starten](https://go.microsoft.com/fwlink/p/?LinkId=518644).
 
+## <a name="december-2020"></a>December 2020
+
+- [Standaard veilig in Office 365](secure-by-default.md)
+
 ## <a name="november-2020"></a>November 2020
 
 - Bijgewerkte export limieten in beoordeling > Onderhoudscentrum > herstelactie via e-mail verzending en Actielogboek (Defender for Office 365, abonnement 2)
@@ -48,7 +53,6 @@ Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van
 ## <a name="septemberoctober-2020"></a>September/oktober 2020
 
 - [Uw beleidsregels controleren met behulp van configuratie analyse](configuration-analyzer-for-security-policies.md)
-- [Filter Verdicts handmatig negeren met behulp van de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)
 - [Uitgebreide functies in de bedreigings Verkenner, waaronder beste gerichte gebruikers, transportregels en connectors](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Defender for Office 365, informatie in de [Threat Explorer](threat-explorer.md) (e-mail is toegestaan/geblokkeerd door Tenant/gebruikersbeleid) (Defender for Office 365-abonnement 2)
 - Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md#threats-in-urls) (malware, phishing, spam of geen) (Defender for Office 365-abonnement 2)
 - [Verbeteringen in](threat-explorer.md#improvements-to-the-threat-hunting-experience-upcoming) de weergave van de versie van de Office-ervaring met updates rond bedreigingen, extra acties, lever locaties en bijgewerkte tijdlijnweergave (Defender voor Office 365, abonnement 2)

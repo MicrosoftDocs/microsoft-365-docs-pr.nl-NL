@@ -1,10 +1,9 @@
 ---
-title: Pariteit tussen Azure Information Protection voor Office 365, beheerd door 21Vianet en commerciële aanbiedingen
+title: Ondersteuning voor Azure Information Protection voor Office 365, beheerd door 21Vianet
 f1.keywords:
 - NOCSH
 ms.author: sharik
 author: skjerland
-ms.reviewer: arthurj
 manager: scotv
 audience: Admin
 ms.topic: overview
@@ -21,26 +20,30 @@ search.appverid:
 - GEA150
 description: Lees meer over Azure Information Protection (BEHEERDERSversie van Azure Information Protection) voor Office 365, beheerd door 21Vianet, en hoe u deze kunt configureren voor klanten in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 50269749b5f4e544263f790ec9c7e4474af57219
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: cee50384587ffc3e1e43eb9c6bb07d2e0ced7e13
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840299"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988042"
 ---
-# <a name="parity-between-azure-information-protection-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Pariteit tussen Azure Information Protection voor Office 365, beheerd door 21Vianet en commerciële aanbiedingen
+# <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>Ondersteuning voor Azure Information Protection voor Office 365, beheerd door 21Vianet
 
-Hoewel ons doel is alle commerciële functies en functionaliteit te bieden aan klanten in China met onze Azure Information Protection (BEHEERDERSversie) voor Office 365, beheerd door 21Vianet-aanbieding, is er een ontbrekende functionaliteit die we willen markeren.
+Dit artikel gaat over de verschillen tussen de ondersteuning van Azure Information Protection (BEHEERDERSversie) van Office 365, beheerd door 21Vianet en commerciële aanbiedingen, en specifieke instructies voor het configureren van beheerders namen voor klanten in China, &mdash; waaronder het installeren van de on-premises scanner van beheerders en het beheren van inhoudsscan taken.
 
-De volgende lijst bevat de bestaande hiaten tussen Azure Information Protection voor Office 365, beheerd door 21Vianet en onze commerciële aanbiedingen vanaf januari 2021:
+## <a name="differences-between-aip-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Verschillen tussen beheerders van Office 365, beheerd door 21Vianet en commerciële aanbiedingen
+
+Hoewel ons doel is om alle commerciële functies en functionaliteit te bieden aan klanten in China met onze BEHEERDERSversie van Office 365 die wordt beheerd door 21Vianet-aanbieding, is er een ontbrekende functionaliteit die we willen markeren.
+
+De volgende lijst bevat de bestaande hiaten tussen beheerders van Office 365, beheerd door 21Vianet en onze commerciële aanbiedingen vanaf januari 2021:
 
 - IRM (Information Rights Management) wordt alleen ondersteund voor Microsoft 365-apps voor Enterprise (build 11731,10000 of hoger). Office 2010, Office 2013 en andere Office 2016-versies worden niet ondersteund.
 
-- Migratie van Active Directory Rights Management Services (AD RMS) naar Azure Information Protection is momenteel niet beschikbaar.
+- Migratie van Active Directory Rights Management Services (AD RMS) naar een beheerders service is momenteel niet beschikbaar.
   
-- Het delen van beveiligde e-mailberichten voor gebruikers in de commerciële Cloud wordt ondersteund.
+- Het delen van beveiligde e-mailberichten met gebruikers in de commerciële Cloud wordt ondersteund.
   
-- Het delen van documenten en e-mailbijlagen aan gebruikers in de commerciële Cloud is op dit moment niet beschikbaar. Dit omvat Office 365, beheerd door 21Vianet-gebruikers in de commerciële Cloud, niet-Office 365 die wordt beheerd door 21Vianet-gebruikers in de commerciële Cloud, en gebruikers met een RMS voor individuen-licentie.
+- Het delen van documenten en e-mailbijlagen met gebruikers in de commerciële Cloud is op dit moment niet beschikbaar. Dit omvat Office 365, beheerd door 21Vianet-gebruikers in de commerciële Cloud, niet-Office 365 die wordt beheerd door 21Vianet-gebruikers in de commerciële Cloud, en gebruikers met een RMS voor individuen-licentie.
   
 - IRM met SharePoint (sites en bibliotheken met IRM-beveiliging) is op dit moment niet beschikbaar.
   
@@ -48,45 +51,61 @@ De volgende lijst bevat de bestaande hiaten tussen Azure Information Protection 
 
 - De [Mobile-Viewer](/azure/information-protection/rms-client/mobile-app-faq) wordt niet ondersteund door Azure China 21vianet.
 
-## <a name="configuring-azure-information-protection-for-customers-in-china"></a>Azure Information Protection configureren voor klanten in China
+## <a name="configure-aip-for-customers-in-china"></a>Beheerders configureren voor klanten in China
 
-### <a name="enable-rights-management-for-the-tenant"></a>Rechtenbeheer inschakelen voor de Tenant
+Beheerders configureren voor klanten in China:
+1. [Schakel Rights Management in voor de Tenant](#step-1-enable-rights-management-for-the-tenant).
+
+2. [DNS-versleuteling configureren](#step-2-configure-dns-encryption).
+
+3. [Installeer en configureer de toepassing beheerders Unified-labels](#step-3-install-and-configure-the-aip-unified-labeling-client).
+
+4. Het [configureren van beheerders apps in Windows](#step-4-configure-aip-apps-on-windows).
+
+5. [Installeer de on-premises scanner van beheerders en beheertaken voor inhouds onderzoek](#step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs). 
+
+### <a name="step-1-enable-rights-management-for-the-tenant"></a>Stap 1: het rechtenbeheer inschakelen voor de Tenant
 
 Voor een juiste werking van de versleuteling moet RMS zijn ingeschakeld voor de Tenant.
 
-- Controleer of de RMS is ingeschakeld:
-  1. Start PowerShell als beheerder.
-  2. Als de AIPService-module niet is geïnstalleerd, voert u deze opdracht uit `Install-Module AipService` .
-  3. Importeer de module met `Import-Module AipService` .
-  4. Maak verbinding met de service `Connect-AipService -environmentname azurechinacloud` .
-  5. Voer `(Get-AipServiceConfiguration).FunctionalState` en controleer of de status is `Enabled` .
+1. Controleren of RMS is ingeschakeld:
 
-- Voer dit uit als de functionele status wordt `Disabled` uitgevoerd `Enable-AipService` .
+    1. Start PowerShell als beheerder.
+    2. Als de AIPService-module niet is geïnstalleerd, voert u deze opdracht uit `Install-Module AipService` .
+    3. Importeer de module met `Import-Module AipService` .
+    4. Maak verbinding met de service `Connect-AipService -environmentname azurechinacloud` .
+    5. Voer `(Get-AipServiceConfiguration).FunctionalState` en controleer of de status is `Enabled` .
 
-### <a name="dns-configuration-for-encryption-windows"></a>DNS-configuratie voor versleuteling (Windows)
+2. Voer dit uit als de functionele status wordt `Disabled` uitgevoerd `Enable-AipService` .
+
+### <a name="step-2-configure-dns-encryption"></a>Stap 2: DNS-versleuteling configureren
 
 Voor een juiste werking van versleuteling moet Office-clienttoepassingen verbinding maken met het exemplaar van de service en de bootstrap. Als u clienttoepassingen wilt omleiden naar het juiste service-exemplaar, moet de tenantbeheerder een DNS SRV-record configureren met informatie over de Azure RMS-URL. Zonder de DNS SRV-record probeert de clienttoepassing standaardverbinding te maken met het openbare Cloud exemplaar en mislukt de clienttoepassing.
 
 Daarnaast is het raadzaam dat gebruikers zich aanmelden met een gebruikersnaam op basis van het domein van de Tenant domein (bijvoorbeeld `joe@contoso.cn` ), en niet de `onmschina` gebruikersnaam (bijvoorbeeld `joe@contoso.onmschina.cn` ). De domeinnaam van de gebruikersnaam wordt gebruikt voor DNS-omleiding naar het juiste service-exemplaar.
 
-- De RMS-ID achterhalen:
-  1. Start PowerShell als beheerder.
-  2. Als de AIPService-module niet is geïnstalleerd, voert u deze opdracht uit `Install-Module AipService` .
-  3. Maak verbinding met de service `Connect-AipService -environmentname azurechinacloud` .
-  4. Uitvoeren `(Get-AipServiceConfiguration).RightsManagementServiceId` om de RMS-id te achterhalen.
+#### <a name="configure-dns-encryption---windows"></a>DNS-versleuteling configureren-Windows
 
-- Meld u aan bij uw DNS-provider, navigeer naar de DNS-instellingen voor het domein en voeg een nieuwe SRV-record toe.
-  - Service = `_rmsredir`
-  - Protocol = `_http`
-  - Naam = `_tcp`
-  - Target = `[GUID].rms.aadrm.cn` (waarbij GUID de RMS-id is)
-  - Prioriteit, gewicht, seconden, TTL = standaardwaarden
+1. De RMS-ID achterhalen:
 
-- Koppel het aangepaste domein aan de Tenant in de [Azure-Portal](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Hiermee voegt u een vermelding toe aan DNS, wat kan enkele minuten duren voordat deze is toegevoegd aan de DNS-instellingen.
+    1. Start PowerShell als beheerder.
+    2. Als de AIPService-module niet is geïnstalleerd, voert u deze opdracht uit `Install-Module AipService` .
+    3. Maak verbinding met de service `Connect-AipService -environmentname azurechinacloud` .
+    4. Uitvoeren `(Get-AipServiceConfiguration).RightsManagementServiceId` om de RMS-id te achterhalen.
 
-- Meld u aan bij het Microsoft 365-Beheercentrum met de bijbehorende globale-beheerdersreferenties en voeg het domein toe (bijvoorbeeld `contoso.cn` ) voor het maken van de gebruiker. In het verificatieproces zijn er mogelijk extra DNS-wijzigingen vereist. Wanneer de verificatie is voltooid, kunnen gebruikers maken.
+2. Meld u aan bij uw DNS-provider, navigeer naar de DNS-instellingen voor het domein en voeg een nieuwe SRV-record toe.
 
-### <a name="dns-configuration-for-encryption-mac-ios-android"></a>DNS-configuratie voor versleuteling (Mac, iOS, Android)
+    - Service = `_rmsredir`
+    - Protocol = `_http`
+    - Naam = `_tcp`
+    - Target = `[GUID].rms.aadrm.cn` (waarbij GUID de RMS-id is)
+    - Prioriteit, gewicht, seconden, TTL = standaardwaarden
+
+3. Koppel het aangepaste domein aan de Tenant in de [Azure-Portal](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). Hiermee voegt u een vermelding toe aan DNS, wat kan enkele minuten duren voordat deze is toegevoegd aan de DNS-instellingen.
+
+4. Meld u aan bij het Microsoft 365-Beheercentrum met de bijbehorende globale-beheerdersreferenties en voeg het domein toe (bijvoorbeeld `contoso.cn` ) voor het maken van de gebruiker. In het verificatieproces zijn er mogelijk extra DNS-wijzigingen vereist. Wanneer de verificatie is voltooid, kunnen gebruikers maken.
+
+#### <a name="configure-dns-encryption---mac-ios-android"></a>DNS-versleuteling configureren-Mac, iOS, Android
 
 Meld u aan bij uw DNS-provider, navigeer naar de DNS-instellingen voor het domein en voeg een nieuwe SRV-record toe.
 
@@ -97,13 +116,13 @@ Meld u aan bij uw DNS-provider, navigeer naar de DNS-instellingen voor het domei
 - Poort = `80`
 - Prioriteit, gewicht, seconden, TTL = standaardwaarden
 
-### <a name="aip-client-configuration"></a>Clientconfiguratie van beheerders
+### <a name="step-3-install-and-configure-the-aip-unified-labeling-client"></a>Stap 3: de client van het beheerders bare Unified-etiket installeren en configureren
 
-De collectieve BEHEERDERSversie van het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53018)kan worden gedownload.
+Download de BEHEERDERSversie van het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53018).
 
 Zie voor meer informatie:
 
-- [Documentatie voor Azure Information Protection](/azure/information-protection/)
+- [BEHEERDERS documentatie](/azure/information-protection/)
 - [Beheerdersversie geschiedenis en ondersteuningsbeleid](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
 - [Systeemvereisten voor beheerders](/azure/information-protection/requirements)
 - [BEHEERDERS-Snelstartgids: de beheerders-client implementeren](/azure/information-protection/quickstart-deploy-client)
@@ -111,9 +130,9 @@ Zie voor meer informatie:
 - [Beheerdershandleiding voor beheerders](/azure/information-protection/rms-client/clientv2-user-guide)
 - [Meer informatie over Microsoft 365-reductie-labels](/microsoft-365/compliance/sensitivity-labels)
 
-### <a name="aip-apps-configuration-unified-labeling-client-only"></a>Configuratie van beheerders-apps (alleen voor Unified-client)
+### <a name="step-4-configure-aip-apps-on-windows"></a>Stap 4: beheerders-apps configureren in Windows
 
-Voor de oplossing voor samenvoegings labels heeft de beheerders-app in Windows de volgende registersleutel nodig om ze te laten verwijzen naar de juiste soevereine wolk voor Azure China:
+In de online-apps van Windows is de volgende registersleutel nodig om ze te laten verwijzen naar de juiste soevereine wolk voor Azure China:
 
 - Register knooppunt = `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP`
 - Naam = `CloudEnvType`
@@ -123,9 +142,11 @@ Voor de oplossing voor samenvoegings labels heeft de beheerders-app in Windows d
 > [!IMPORTANT]
 > Zorg dat u de registersleutel niet verwijdert na verwijdering. Als de sleutel leeg, ongeldig of niet-bestaand is, werkt de functie als standaardwaarde (standaardwaarde = 0 voor de commerciële Cloud). Als de sleutel leeg of onjuist is, wordt een afdrukfout ook toegevoegd aan het logboek.
 
-### <a name="manage-azure-information-protection-content-scan-jobs"></a>Inhouds onderzoek taken voor Azure Information Protection beheren
+### <a name="step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs"></a>Stap 5: de on-premises scanner van de BEHEERDERSversie installeren en inhoudsscan taken beheren
 
-Voer de volgende cmdlets uit in plaats van de Azure-portal als u inhoud van de beveiliging van Azure Information Protection wilt beheren met een Azure China-scanner server:<br><br>
+Installeer de on-premises on-premises scanner van de BEHEERDERSversie om uw netwerk-en inhouds aandelen te scannen op gevoelige gegevens en om classificatie-en beveiligings etiketten toe te passen, zoals geconfigureerd in het beleid van uw organisatie.
+
+Wanneer u de scanner installeert en uw inhoudsscan taken beheert, gebruikt u de volgende cmdlets in plaats van de Azure Portal-interface die wordt gebruikt door de commerciële aanbiedingen:<br><br>
 
 | Cmdlet | Beschrijving |
 |--|--|
@@ -137,4 +158,4 @@ Voer de volgende cmdlets uit in plaats van de Azure-portal als u inhoud van de b
 | [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | Definieert de instellingen voor uw inhoudsscan taak. |
 | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Definieert instellingen voor een bestaande bibliotheek in uw inhoudsscan taak. |
 
-Zie voor meer informatie [uw inhoudsscan taken beheren via PowerShell](/azure/information-protection/deploy-aip-scanner-prereqs#use-powershell-with-a-disconnected-computer).
+Zie voor meer informatie [Wat is de uitgebreide scanner van Azure Information Protection?](/azure/information-protection/deploy-aip-scanner) en [beheertaken voor inhouds onderzoek via PowerShell](/azure/information-protection/deploy-aip-scanner-prereqs#use-powershell-with-a-disconnected-computer).
