@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: aecb1230ac9a9b2868c519c9b8920e312ff5a282
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 4296879b36e26f11f945105ccebea351ad88314d
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794042"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029524"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van cross-Tenant postvak (preview)
 
@@ -176,7 +176,7 @@ De installatie van doel beheerders is nu voltooid.
 
 3. Maak in het Microsoft 365-Beheercentrum of een externe PowerShell-sessie een of meer beveiligingsgroepen met e-mail om te bepalen welke postvakken door de doelgroep van de bron zijn toegestaan om (te verplaatsen) van de bron Tenant naar de doel Tenant. U hoeft deze groep niet vooraf in te vullen, maar er moet minimaal één groep worden opgegeven om de instellingsstappen (script) uit te voeren. Neste groepen worden niet ondersteund. 
 
-4. Download het SetupCrossTenantRelationshipForTargetResource.ps1-script voor de configuratie van de bron-Tenant vanuit de GitHub-bibliotheek: [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) . 
+4. Download het SetupCrossTenantRelationshipForResourceTenant.ps1-script voor de configuratie van de bron-Tenant vanuit de GitHub-bibliotheek: [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) . 
 
 5. Maak een externe PowerShell-verbinding met de bron Tenant met uw beheerdersmachtigingen voor Exchange. Globale beheerdersmachtigingen zijn niet vereist voor het configureren van de bron Tenant, alleen de doel Tenant vanwege het maken van Azure-toepassingen.
 

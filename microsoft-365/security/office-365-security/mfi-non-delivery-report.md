@@ -3,22 +3,23 @@ title: Rapport over niet-uitgevoerde bezorging van het dashboard voor e-mail str
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen informatie over het gebruik van het rapport over niet-uitgevoerde bezorgings gegevens in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum voor het bewaken van de meest voorkomende foutcodes in rapporten over niet-uitgevoerde bezorging (ook wel Ndr's of stuiteren) van afzenders in uw organisatie.
-ms.openlocfilehash: 4967b3b5c294566e46bbc715dd6702c23d618105
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: dbd27fc818a46a983874a04f0e313c622e047ea5
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877679"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029832"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>Rapport over niet-uitgevoerde bezorging van de beveiligings & nalevings centrum
 
@@ -46,7 +47,7 @@ Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volg
 - **Datum**
 - **Rapportcode niet-uitgevoerde bezorging**
 - **Getal**
-- **Voorbeeldberichten** : de bericht-id's van een voorbeeld van de betreffende berichten.
+- **Voorbeeldberichten**: de bericht-id's van een voorbeeld van de betreffende berichten.
 
 Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
 
@@ -57,7 +58,7 @@ Wanneer u een rij in de tabel selecteert, wordt een flyout met de volgende infor
 - **Datum**
 - **Rapportcode voor niet-** uitgevoerde bezorging: u kunt op de link klikken voor meer informatie over de oorzaken en oplossingen voor de specifieke foutcode.
 - **Getal**
-- **Voorbeeldberichten** : u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de betreffende berichten.
+- **Voorbeeldberichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de betreffende berichten.
 
 ![Info-flyout na het selecteren van een rij in de tabel Details in het rapport niet-uitgevoerde bezorging](../../media/mfi-non-delivery-report-details-flyout.png)
 

@@ -3,21 +3,22 @@ title: Uitgaand en binnenkomende e-mail stroom inzichtelijk in het dashboard voo
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: Beheerders kunnen inzicht krijgen in de uitgaand en binnenkomende e-mail stroom informatie in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum.
-ms.openlocfilehash: cff7c3a14b62475903729f4528652f192c2da09f
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e46a0ebf0c14e31462d1e86d8a8d8c08486337af
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877667"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029820"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>Uitgaand en binnenkomende e-mail stroom inzicht in de beveiligings & nalevings centrum
 

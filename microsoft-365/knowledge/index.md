@@ -14,12 +14,12 @@ ms.collection:
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
 description: Meer informatie over het vinden van bronnen voor de ervaringen van een onderwerp.
-ms.openlocfilehash: a9069b8723cb23a406fcce3b96a53b3de2a07568
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: afba6930c30ad59dc95abb255eadab501b01f189
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976177"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029606"
 ---
 # <a name="introduction-to-topic-experiences-preview"></a>Inleiding tot de ervaringen van het onderwerp (preview)
 
@@ -43,8 +43,8 @@ In deze sectie vindt u meer informatie over wat de functies van de onderwerpen z
 
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
-|Meer informatie over documentbegrip|[Overzicht van onderwerpen](topic-experiences-overview.md)|
-|Meer informatie over de manier waarop onderwerpen worden gedetecteerd en gemaakt met AI|[Onderwerp detecteren](topic-experiences-discovery.md)|
+|Meer informatie over onderwerp ervaringen|[Overzicht van onderwerpen](topic-experiences-overview.md)|
+|Meer informatie over de ontdekte en voorgestelde onderwerpen|[Onderwerp detecteren](topic-experiences-discovery.md)|
 |Meer informatie over het beveiligen van onderwerpen|[Onderwerp Ervaar beveiliging en privacy](topic-experiences-security-privacy.md)|
 
 

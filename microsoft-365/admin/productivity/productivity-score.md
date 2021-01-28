@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Overzicht van Microsoft productiviteitsscore.
-ms.openlocfilehash: 8ba1ceb57cd322a67e7b154700a8ac90c62f5ef0
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 9f3e24d4af6858f106cde937940d5f0be1a4f85f
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921240"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988066"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 
@@ -80,13 +80,14 @@ Voor gebruikerservaringengegevens heb je een abonnement op Microsoft 365 voor be
 
 Productiviteitsscore is enkel beschikbaar in het Microsoft 365-beheercentrum en is enkel toegankelijk voor IT-professionals die een van de volgende functies bekleden:  
 
-- Algemeen beheerder 
+- Algemeen beheerder
 - Exchange-beheerders
-- SharePoint-beheerder 
-- Skype voor Bedrijven-beheerder 
-- Teams-beheerder 
-- Algemene lezer 
-- Rapportenlezer 
+- SharePoint-beheerder
+- Skype voor Bedrijven-beheerder
+- Teams-beheerder
+- Algemene lezer
+- Rapportenlezer
+- Gebruiksoverzicht rapportenlezer
 
 > [!NOTE]
 > Alleen een IT-medewerker met de rol van globale beheerder kan zich registreren of zich aanmelden bij een tenant voor productiviteitsscore.

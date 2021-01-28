@@ -3,12 +3,11 @@ title: Ongewenste e-mail en malafide e-mailberichten in Outlook voor iOS en Andr
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,12 +15,14 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de ingebouwde opties voor ongewenste e-mail, ongewenste e-mail en het rapporteren van phishing-e-mail in Outlook voor iOS en Android.
-ms.openlocfilehash: 1c842ac5349f9c2804c637fa4c5598b06e8f489f
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: d702ab1d97c07c3e38430a9a7beff5f14db7b60a
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877289"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029278"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Ongewenste e-mail en malafide e-mailberichten in Outlook voor iOS en Android melden in Exchange Online
 

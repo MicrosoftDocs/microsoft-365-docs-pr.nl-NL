@@ -3,20 +3,21 @@ title: Inzicht in nieuwe domeinen waarnaar e-mails worden doorgestuurd
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Beheerders kunnen inzicht krijgen in de manier waarop u via de nieuwe domeinen e-mail informatie in het compliance-Dash & Board kunt gebruiken om te onderzoeken wanneer hun gebruikers berichten doorsturen naar externe domeinen waarnaar nooit is doorgestuurd.
-ms.openlocfilehash: a72ffd001ea22972d9dc6c00af8a4dd7881386b7
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: eb44f5d577d18fc38333cca5e8d2d862f288a2e0
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356941"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029856"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Nieuwe domeinen worden doorgestuurd via e-mail inzicht in de beveiligings & nalevings centrum
 
@@ -37,7 +38,7 @@ Wanneer u op de widget klikt, verschijnt er een flyout waar u meer informatie ku
 
 ![Info-menu dat wordt weergegeven nadat u op de nieuwe domeinen wordt doorgestuurd](../../media/mfi-new-domains-being-forwarded-details.png)
 
-U kunt deze detailpagina ook raadplegen wanneer u het inzicht selecteert nadat u op **AllesWeergeven** hebt geklikt in het gebied **belangrijkste inzichten &** gebied voor aanbevelingen (**Reports** \> **Dashboard** rapporten of <https://protection.office.com/insightdashboard> ).
+U kunt deze detailpagina ook raadplegen wanneer u het inzicht selecteert nadat u op **AllesWeergeven** hebt geklikt in het gebied **belangrijkste inzichten &** gebied voor aanbevelingen ( \> **Dashboard** rapporten of <https://protection.office.com/insightdashboard> ).
 
 Configureer een extern domein voor sommige of alle externe domeinen om te voorkomen dat u automatische doorstuur berichten doorschakelt naar externe domeinen. Zie [externe domeinen beheren in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains)voor meer informatie.
 

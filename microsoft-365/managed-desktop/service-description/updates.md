@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 53a21c4126e59861200df405ffe365b2ccef08f8
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 4d8de363cc9111fade719fdf5384519d1236f431
+ms.sourcegitcommit: 05657b39eaafc0503b01c6adcc5d8a5e615dc02c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840287"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50031337"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Hoe updates worden afgehandeld in Microsoft Managed Desktop
 
@@ -37,19 +37,26 @@ Microsoft Managed Desktop gebruikt vier Azure AD-groepen om updates te beheren:
 - **Snel**: de prioriteit van snelheid via stabiliteit is overschreden. Geschikt voor het detecteren van kwaliteitsproblemen voordat ze voor de grote groep worden aangeboden. Deze groep fungeert als een volgende beveiligingslaag, maar is meestal stabieler dan de test en eerste groepen. 
 - **Algemeen**: de laatste groep om de functie-en kwaliteitsupdates te kunnen gebruiken. Deze groep bevat het merendeel van de gebruikers in de Tenant, en is daarom de nadruk op de stabiliteit van de implementatie. Het testen van apps moet hier plaatsvinden omdat de omgeving het meest stabiel is. 
 
+### <a name="moving-devices-between-update-groups"></a>Apparaten verplaatsen tussen updategroepen
+Het kan zijn dat sommige apparaten updates voor de laatste willen ontvangen en andere die u wilt gaan. Als u deze apparaten wilt verplaatsen naar de juiste updategroep, [dient u een beheerder voor ondersteuning](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support?view=o365-worldwide) in te dienen, zodat de apparaten voor u worden verplaatst. 
+
 > [!NOTE]
-> Als u een gebruiker naar een andere updategroep wilt verplaatsen, dient u een ondersteuningsverzoek in. Zie [ondersteuning voor Microsoft Managed Desktop](support.md) voor meer informatie over het indienen van ondersteuningsaanvragen. Als u zelf een gebruiker verplaatst, wordt de verhuizing hersteld.
+> Als u een gebruiker naar een andere updategroep wilt verplaatsen, dient u een ondersteuningsverzoek in. Verplaats geen apparaten tussen updategroepen zelf. Er zijn ernstige gevolgen als een apparaat niet correct wordt verplaatst. Het apparaat kan onverwacht worden bijgewerkt en beleidsregels kunnen conflicten veroorzaken en de apparaatconfiguratie wijzigen.
 
-Zie [rollen en verantwoordelijkheden voor Microsoft-bureaublad rollen](../intro/roles-and-responsibilities.md) voor meer informatie rollen en verantwoordelijkheden met deze implementatie groepen.
+Zie [rollen en verantwoordelijkheden van Microsoft beheerde bureaublad rollen](../intro/roles-and-responsibilities.md) voor meer informatie over rollen en verantwoordelijkheden binnen deze implementatie groepen.
 
-De werking van update-implementatie:
-- Microsoft Managed Desktop implementeert een nieuwe functie of kwaliteitsupdate overeenkomstig de in de tabel opgegeven planning.
-- Tijdens de implementatie worden door Microsoft beheerde bureaublad monitoren voor tekenen van storingen of storingen (op basis van diagnostische gegevens en de gebruikers ondersteunings systeem) bijgehouden. Als dit wordt gedetecteerd, wordt de implementatie op alle huidige en toekomstige groepen direct onderbroken.
+### <a name="using-microsoft-managed-desktop-update-groups"></a>Microsoft beheerde bureaublad updategroepen gebruiken 
+Er zijn gedeelten van de service die u beheert, zoals app-implementatie, waarbij het wellicht noodzakelijk is dat u alle beheerde apparaten moet bereiken. In deze gevallen is het handig als u updategroepen wilt gebruiken voor het bereiken van gebruikers met uitleg die u niet kunt toevoegen, verwijderen of wijzigen. 
+
+## <a name="how-update-deployment-works"></a>De werking van update-implementatie:
+1. Microsoft Managed Desktop implementeert een nieuwe functie of kwaliteitsupdate volgens de planning die in de volgende tabel is opgegeven.
+2. Tijdens de implementatie worden door Microsoft beheerde bureaublad monitoren voor tekenen van storingen of storingen op basis van diagnostische gegevens en de gebruikers ondersteunings systeem bijgehouden. Als dit wordt gedetecteerd, onderbreken we de implementatie direct voor op alle huidige en toekomstige groepen.
     - Voorbeeld: als er een probleem is opgetreden tijdens de implementatie van een kwaliteitsupdate voor de eerste groep, worden implementaties eerst bijgewerkt naar voornaam, snel en algemeen, totdat het probleem is opgelost.
     - U kunt compatibiliteitsproblemen rapporteren door een ticket in te dienen in de portal van de beheerde bureaublad beheerder van Microsoft.
-- Functie-en kwaliteitsupdates worden apart onderbroken. PAUSE wordt standaard geactiveerd voor 35 dagen, maar kan worden verkleind of uitgebreid, afhankelijk van of het probleem wordt hersteld.
-- Wanneer de groepen zijn onderbroken, wordt de implementatie hervat overeenkomstig de planning in de tabel.
-- Dit implementatieproces is van toepassing op zowel functie-als kwaliteitsupdates, hoewel de tijdlijn voor elk van deze varieert.
+    - Functie-en kwaliteitsupdates worden apart onderbroken. PAUSE wordt standaard geactiveerd voor 35 dagen, maar kan worden verkleind of uitgebreid, afhankelijk van of het probleem wordt hersteld.
+3. Wanneer de groepen zijn stopgezet, wordt de implementatie hervat overeenkomstig de planning in de tabel.
+
+Dit implementatieproces is van toepassing op zowel functie-als kwaliteitsupdates, hoewel de tijdlijn voor elk van deze varieert.
 
 
 
@@ -63,6 +70,7 @@ De werking van update-implementatie:
     <tr><td>Antivirus definitie</td><td colspan="4">Bijgewerkt bij elke scan</td></tr>
     <tr><td>Microsoft 365-apps voor ondernemingen</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/m365-apps#updates-to-microsoft-365-apps">Meer informatie</a></td></tr>
     <tr><td>Microsoft Edge</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/edge-browser-app#updates-to-microsoft-edge">Meer informatie</a></td></tr>
+    <tr><td>Microsoft Teams</td><td colspan="4"><a href="https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/teams#updates">Meer informatie</a></td></tr>
 </table>
 
 >[!NOTE]
@@ -78,6 +86,5 @@ Apparaten die zijn gevonden met Windows Insider-builds, worden mogelijk in de gr
 
 ## <a name="bandwidth-management"></a>Bandbreedtebeheer
 
-We gebruiken [bezorgings optimalisering](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization) voor alle updates voor besturingssystemen en drivers. Met deze functie wordt de downloadgrootte van de Windows Update-service beperkt door updates van collega's binnen het bedrijfsnetwerk te zoeken.
-
+We gebruiken [bezorgings optimalisering](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization) voor alle updates voor besturingssystemen en drivers. Hiermee wordt de downloadgrootte van de Windows Update-service geminimaliseerd door updates van collega's binnen het bedrijfsnetwerk te zoeken.
 

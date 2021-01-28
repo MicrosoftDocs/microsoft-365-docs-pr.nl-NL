@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Meer informatie over facturerings accounts en hoe u ze beheert.
-ms.openlocfilehash: 3c99f3f22fb0eb13c4f9cab06a4037fe057b6fb4
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2382396c348fab0b24a269e9678193041ac2c19e
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638205"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032631"
 ---
 # <a name="manage-billing-accounts"></a>Factureringsaccounts beheren
 
@@ -42,21 +42,20 @@ De volgende tabel bevat de belangrijkste termen die u ziet op de pagina met deta
 
 | Veld naam | Beschrijving |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Adres van verkoper | De rechtspersoon die verantwoordelijk is voor de betaling en die is geïdentificeerd op de factuur. Het door u opgegeven adres wordt gebruikt om uw BTW-tarief te bepalen, tenzij u tijdens uw aankoop een alternatief verzendadres moet opgeven. Zie [belastinginformatie](billing-and-payments/tax-information.md)voor meer informatie. |
+| Adres van verkoper | De rechtspersoon die verantwoordelijk is voor de betaling en die is geïdentificeerd op de factuur. Het hier opgegeven adres wordt gebruikt om het belastingtarief vast te stellen, tenzij je tijdens je aankoop een alternatief verzendadres opgeeft. Bekijk [Belastinginformatie](billing-and-payments/tax-information.md) voor meer informatie. |
 | Segment | Een alleen-lezen veld waarmee het bedrijfssegment van uw organisatie wordt aangegeven (commercieel, onderwijs, overheid of non-profit organisatie). |
 | Account status | Een alleen-lezen veld dat de status van uw commerciële rekening bij Microsoft opgeeft. |
-| BTW-nummer | Als u buiten de Verenigde Staten woont, moet u een BTW-nummer of een plaatselijk equivalent invoeren. Zie [belastinginformatie](billing-and-payments/tax-information.md)voor meer informatie. |
+| BTW-nummer | Als u buiten de Verenigde Staten woont, moet u een BTW-nummer of een plaatselijk equivalent invoeren. Bekijk [Belastinginformatie](billing-and-payments/tax-information.md) voor meer informatie. |
 | Serviceovereenkomstregel | Wanneer een factureringsaccount wordt gemaakt met behulp van een directe aankoop of een volume licentie regeling, moet een ondertekening voor de organisatie de naam van de organisatie accepteren of tekenen, een overeenkomst met de voorwaarden & voorwaarden van het account. In dit voorbeeld wordt een overeenkomst geschiedenis weergegeven. Als u de bijgewerkte voorwaarden moet accepteren, wordt een koppeling voor de **goedkeurings overeenkomst** weergegeven. |
 | Facturerings profielen | Met een facturerings profiel worden de eigenschappen van uw factuur gedefinieerd, zoals wie de factuur ontvangt, hoe de factuur wordt afgeleverd, de betalingsvoorwaarden en een ko-nummer. Als u de facturering binnen uw organisatie wilt verdelen, kunt u meerdere facturerings profielen maken en de juiste facturerings profielen identificeren wanneer u koopt. Voor meer informatie over facturerings profielen en hoe u deze kunt gebruiken voor het maken van flexibele factureringsopties voor uw organisatie, kunt u [facturerings profielen beheren](billing-and-payments/manage-billing-profiles.md). |
 
 > [!NOTE]
-> Als u de naam of het adres van de **verkochte** persoon wilt wijzigen, maar geen **bewerkings** koppeling ziet, moet u  [contact opnemen met ondersteuning](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) om de naam te wijzigen. Voor aanvragen voor een wijziging van een **verkochte** naam is een kredietcontrole vereist. Wanneer u contact opneemt met de ondersteuning, hebt u een van de volgende documenten klaar:
+> Als u de naam of het adres van de **verkochte** persoon wilt wijzigen, maar geen **bewerkings** koppeling ziet, moet u  [contact opnemen met ondersteuning](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) om de naam te wijzigen. Voor aanvragen voor een wijziging van een **verkochte** naam is een kredietcontrole vereist. Wanneer u contact opneemt met de ondersteuning, kunt u een van de volgende documenten met Microsoft delen: 
 >
-> - Extern aankondigings document met een wijziging in de naam van het bedrijf of de bedrijfsstructuur
 > - Door de overheid verzonden document of registratie brief
 > - Het register van het lokale bedrijf afdrukken
 >
-> Ondersteuning biedt ondersteuning voornaam-en adreswijzigingen wanneer alleen de naam van de klant verandert, maar de entiteit blijft ongewijzigd. De verstrekte documentatie dient duidelijk aan te geven dat alleen de naam van de entiteit is gewijzigd. Neem contact op met uw Microsoft-verkoper als de wijziging is gerelateerd aan een transactie, zoals een verkoop van een bedrijf of een divestiture of ' spinoff ' van een klant gelieerde onderneming.
+> Ondersteuning biedt ondersteuning voornaam-en adreswijzigingen wanneer alleen de naam van de klant verandert, maar de entiteit blijft ongewijzigd. De door u verstrekte documentatie dient duidelijk aan te geven dat alleen de naam van de entiteit is gewijzigd. Neem contact op met uw Microsoft-verkoper als de wijziging het resultaat is van een transactie, waaronder de verkoop van een bedrijf, een wijziging van de besturingselementen of een divestiture of ' spinoff ' van een klant gelieerde onderneming.
 
 ## <a name="shipping-addresses"></a>Verzendadressen
 

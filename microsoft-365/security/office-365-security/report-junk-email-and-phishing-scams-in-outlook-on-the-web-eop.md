@@ -3,12 +3,11 @@ title: Ongewenste e-mail en phishingberichten rapporteren in de webversie van Ou
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,12 +15,14 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de ingebouwde opties voor ongewenste e-mail, ongewenste e-mail en het rapporteren van e-mailberichten in de webversie van Outlook (Outlook Web app) in Exchange Online, en hoe u deze rapportageopties voor gebruikers uitschakelt.
-ms.openlocfilehash: 0032e807961aed60128d6863899ae0de32d1a627
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 0af57aceed608ae80e72e3ae18724925c1168e26
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659307"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029208"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Ongewenste e-mail en malafide e-mailberichten in de webversie van Outlook melden in Exchange Online
 
@@ -82,7 +83,7 @@ Standaard kunnen gebruikers spam in de webversie van Outlook melden, geen valse 
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
 - U moet machtigingen toegewezen hebben in Exchange Online voordat u de procedures in dit artikel kunt uitvoeren. Specifiek hebt u de rollen voor het **beleid voor geadresseerden** of de **ontvangers van e-mail geadresseerden** nodig die standaard zijn toegewezen aan de rollen groepen **Organisatiebeheer** en **geadresseerden** . Zie [machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) en [rollen groepen wijzigen in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)voor meer informatie over rollen groepen in Exchange Online.
 

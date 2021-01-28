@@ -3,20 +3,21 @@ title: Inzicht in wachtrijen in het dashboard voor e-mail stromen
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Beheerders kunnen informatie over het gebruik van de widget wachtrijen in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum om de niet-geslaagde e-mail stroom te controleren aan hun on-premises of partnerorganisaties via uitgaande connectoren.
-ms.openlocfilehash: a1563c61620ef9f1ae97739681f426fd0ea38bd8
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 73e97cbbd05e298013e9e686053a969d587ad5cf
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659246"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029148"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Inzicht in wachtrijen in het beveiligings & nalevings centrum
 

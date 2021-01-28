@@ -8,16 +8,16 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6e904eee5a132d271ec32ee99a19380463e53193
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.openlocfilehash: ee2e473f947f35d4f0d192005718a26e89590fab
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881771"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032655"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Beheerde bureaublad apparaten van Microsoft 
 
-Microsoft Managed Desktop evalueert regelmatig apparaten om in de service te worden opgenomen. Dit artikel bevat een overzicht van de vereisten voor een apparaat voor registratie in Microsoft Managed Desktop en bevat de specifieke apparaten die momenteel worden ondersteund.
+Microsoft Managed Desktop evalueert regelmatig apparaten om in de service te worden opgenomen. Dit artikel bevat een overzicht van de specifieke apparaten die momenteel worden ondersteund. Zie [hardwarevereisten](device-requirements.md)voor een algemeen overzicht van de vereisten voor apparaten.
 
 Zie [documentatie en bronnen voor Microsoft-bureaublad documenten](https://docs.microsoft.com/microsoft-365/managed-desktop/)voor meer informatie over Microsoft Managed Desktop. 
 

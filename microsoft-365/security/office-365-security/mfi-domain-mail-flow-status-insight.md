@@ -3,22 +3,23 @@ title: Belangrijkste e-mail stroom status van e-mail stroom in het dashboard voo
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u met behulp van de belangrijkste status van de e-mail stroom van het e-mailsysteem in het Beveiligingscentrum van het & Beveiligingscentrum van uw MX-records problemen met de e-mail stroom kunt oplossen.
-ms.openlocfilehash: 0d750ab4dbe5875796118086fae1d9119dc486f0
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 457675e7f32cd513f5593ede53a64aaef9d54904
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920582"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029904"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>Belangrijkste status inzicht in de e-mail stroom van het domein in het beveiligings & nalevings centrum
 
@@ -31,13 +32,13 @@ Dit inzicht helpt bij het identificeren en oplossen van domeinen met een *_e-mai
 
 ![De widget hoofddomein stroom status in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-top-domain-mail-flow-status-widget.png)
 
-Wanneer u klikt op _ *weergave Details* * in de widget, verschijnt er een flyout met een **domein status** waarin meer Details voor de status van elk domein worden weergegeven:
+Wanneer u klikt op _ *weergave Details** in de widget, verschijnt er een flyout met een **domein status** waarin meer Details voor de status van elk domein worden weergegeven:
 
 - **Domein**
 - **Vorige MX-record**
 - **Huidige MX-record**
 - **Status van ontvangen e-mail**
-- **Domein status** : een groen vinkje geeft de huidige MX-record aan (op het moment dat u hebt geklikt op de widget) komt overeen met de waarde die we hebben voor de record en het domein heeft een e-mail ontvangen in de afgelopen twee uur.
+- **Domein status**: een groen vinkje geeft de huidige MX-record aan (op het moment dat u hebt geklikt op de widget) komt overeen met de waarde die we hebben voor de record en het domein heeft een e-mail ontvangen in de afgelopen twee uur.
 
   Een rode X geeft aan dat de MX-record is gewijzigd en dat het domein geen e-mailbericht heeft ontvangen in de afgelopen 6 uur. Dit geeft waarschijnlijk aan dat uw domein is verlopen of dat de MX-record onjuist is bijgewerkt. Neem contact op met uw domeinregistratieservice of DNS-hostingservice om te zien of het domein is verlopen, of dat de MX-record van het domein onjuist is.
 

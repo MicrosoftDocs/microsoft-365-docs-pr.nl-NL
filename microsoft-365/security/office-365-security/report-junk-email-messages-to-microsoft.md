@@ -3,12 +3,11 @@ title: Spam, geen spam en phishingberichten melden bij Microsoft
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,12 +15,14 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen informatie vinden over de verschillende manieren waarop u goede en beschadigde berichten en bestanden aan Microsoft kunt rapporteren voor analyse.
-ms.openlocfilehash: 52ca0287e65fa338b06dc7df7c1e6c214af860c2
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 52133756ffab28975c1d384c7e455892ce6b0dfc
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865090"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029172"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Berichten en bestanden rapporteren aan Microsoft
 
@@ -35,7 +36,7 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 |---|---|
 |[Gebruik beheer ter verzending om verdachte spam, phishing, Url's en bestanden bij Microsoft te verzenden.](admin-submission.md)|De aanbevolen rapportagemethode voor beheerders in organisaties met postvakken van Exchange Online (niet beschikbaar in zelfstandige EOP).|
 |[De invoegtoepassing Bericht rapporteren inschakelen](enable-the-report-message-add-in.md)|Werkt met Outlook en de webversie van Outlook (voorheen Outlook Web app). <p> Afhankelijk van uw abonnement zijn berichten die gebruikers hebben gerapporteerd met de invoegtoepassing beschikbaar in [de portal van de beheerder-Portal](admin-submission.md), het [geautomatiseerde onderzoek antwoord en de reactie resultaten (lucht)](air-view-investigation-results.md), het rapport door de [gebruiker gerapporteerde berichten](view-email-security-reports.md#user-reported-messages-report)en de [Threat Explorer](threat-explorer-views.md#email--submissions) <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).
-|[De invoegtoepassing voor phishing-rapporten inschakelen](enable-the-report-phish-add-in.md)|Werkt met Outlook en de webversie van Outlook (voorheen Outlook Web app). <p> Afhankelijk van uw abonnement zijn berichten die gebruikers hebben gerapporteerd met de invoegtoepassing beschikbaar in [de portal van de beheerder-Portal](admin-submission.md), het [geautomatiseerde onderzoek antwoord en de reactie resultaten (lucht)](air-view-investigation-results.md), het rapport door de [gebruiker gerapporteerde berichten](view-email-security-reports.md#user-reported-messages-report)en de [Threat Explorer](threat-explorer-views.md#email--submissions) <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).|
+|[De invoegtoepassing Phishing rapporteren inschakelen](enable-the-report-phish-add-in.md)|Werkt met Outlook en de webversie van Outlook (voorheen Outlook Web app). <p> Afhankelijk van uw abonnement zijn berichten die gebruikers hebben gerapporteerd met de invoegtoepassing beschikbaar in [de portal van de beheerder-Portal](admin-submission.md), het [geautomatiseerde onderzoek antwoord en de reactie resultaten (lucht)](air-view-investigation-results.md), het rapport door de [gebruiker gerapporteerde berichten](view-email-security-reports.md#user-reported-messages-report)en de [Threat Explorer](threat-explorer-views.md#email--submissions) <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).|
 |[De invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook installeren en gebruiken](junk-email-reporting-add-in-for-microsoft-outlook.md)|Werkt alleen in Outlook.|
 |[Ongewenste e-mail en phishingberichten rapporteren in de webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|De ingebouwde mogelijkheden in de webversie van Outlook gebruiken voor organisaties met postvakken van Exchange Online (niet beschikbaar in zelfstandige EOP). <p> Berichten die gebruikers rapporteren, zijn beschikbaar in [de portal van de beheerder ingediende beheerders](admin-submission.md). <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).|
 |[Ongewenste e-mail en malafide e-mailberichten in Outlook voor iOS en Android melden](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)|Gebruik de ingebouwde mogelijkheden van Outlook voor iOS en Android voor organisaties met postvakken van Exchange Online (niet beschikbaar in zelfstandige EOP). <p> Berichten die gebruikers rapporteren, zijn beschikbaar in [de portal van de beheerder ingediende beheerders](admin-submission.md). <p> U kunt gerapporteerde berichten configureren voor kopiëren of omleiden naar een door u opgegeven postvak. Zie voor meer informatie [beleidsregels voor gebruikers ingediend](user-submission.md).|

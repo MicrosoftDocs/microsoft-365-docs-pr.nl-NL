@@ -3,22 +3,23 @@ title: E-mailstroomkaart
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u de e-mail stroom plattegrond kunt gebruiken in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum voor het visualiseren en bijhouden van de manier waarop e-mail stromen van en naar hun organisatie via connectors en zonder connectors worden gebruikt.
-ms.openlocfilehash: fc03f05db77c40dbf726692e6fb6069d587a5ffc
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: c07730f3abcec8905285cdfdf1579ffb71573ec1
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877763"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029916"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>De kaart voor de e-mail stroom in het Beveiligingscentrum beveiligings &
 
@@ -37,11 +38,11 @@ Als u op de widget **e-mail stroom kaart** klikt, gaat u naar het rapport met de
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens weergeven voor: overzicht** : dit is een grotere weergave van de widget. Als u de muisaanwijzer boven een bepaalde kleur houdt, wordt het aantal berichten weergegeven voor dat type verbindingslijn.
+- **Gegevens weergeven voor: overzicht**: dit is een grotere weergave van de widget. Als u de muisaanwijzer boven een bepaalde kleur houdt, wordt het aantal berichten weergegeven voor dat type verbindingslijn.
 
   ![Overzichtsweergave in het rapport e-mail stroom kaart](../../media/mfi-mail-flow-map-report-overview.png)
 
-- **Gegevens weergeven voor: detail** : in deze weergave worden details weergegeven over de connectors en doeldomeinen. De meeste e-mailadressen van de afzender en de ontvanger worden weergegeven en de rest wordt in **andere** gebieden meegenomen. Als u de muisaanwijzer boven een bepaalde kleur en sectie houdt, wordt het aantal berichten weergegeven.
+- **Gegevens weergeven voor: detail**: in deze weergave worden details weergegeven over de connectors en doeldomeinen. De meeste e-mailadressen van de afzender en de ontvanger worden weergegeven en de rest wordt in **andere** gebieden meegenomen. Als u de muisaanwijzer boven een bepaalde kleur en sectie houdt, wordt het aantal berichten weergegeven.
 
   ![De weergave Details in het rapport van de e-mail stroom](../../media/mfi-mail-flow-map-report-detail.png)
 

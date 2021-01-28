@@ -1,5 +1,5 @@
 ---
-title: Permanente software en productlicentie codes downloaden
+title: Download permanente software en productlicentie codes die u hebt gekocht via het CSP-programma (Cloud Solution Provider)
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - AdminSurgePortfolio
 description: Meer informatie over het downloaden van de software-en productlicentie codes voor permanent software die via het CSP-programma (Cloud Solution Provider) zijn gekocht.
-ms.openlocfilehash: bd9584e6a160f713cdfbfbcdac876b2e18b94110
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 9e55161111ae1796e8254a60ecdc693592988386
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877225"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029396"
 ---
 # <a name="download-perpetual-software-and-product-license-keys"></a>Permanente software en productlicentie codes downloaden
 
@@ -31,7 +31,7 @@ In dit artikel wordt uitgelegd hoe u productcodes voor software en producten kun
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder zijn om de stappen in dit artikel te kunnen uitvoeren. Raadpleeg [Over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder zijn om de stappen in dit artikel te kunnen uitvoeren. Zie[Over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="download-software-and-product-license-keys"></a>Software-en productlicentie codes downloaden
 

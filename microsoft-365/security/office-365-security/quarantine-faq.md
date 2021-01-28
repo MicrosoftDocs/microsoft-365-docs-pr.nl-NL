@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 - m365initiative-defender-office365
 description: Beheerders kunnen Veelgestelde vragen en antwoorden over berichten in quarantaine weergeven in Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 58ddb5847706aef3d2c3b8ea8cd9a96fd65a9b3d
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: abd2304e83d2814cab55d13312535bd94308d8be
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794410"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032599"
 ---
 # <a name="quarantined-messages-faq"></a>Veelgestelde vragen over quarantaine berichten
 
@@ -72,16 +73,39 @@ Beheerders kunnen gebruikmaken van de cmdlet [Get-QuarantineMessage](https://doc
 
 Jokertekens worden niet ondersteund in het beveiligings & nalevings centrum. Als u bijvoorbeeld naar een afzender zoekt, moet u het volledige e-mailadres opgeven. U kunt jokertekens gebruiken in Exchange Online PowerShell of zelfstandige EOP PowerShell.
 
-Voer bijvoorbeeld de volgende opdracht uit om spamberichten in quarantaine te plaatsen van alle afzenders in de domein contoso.com:
+Kopieer bijvoorbeeld de volgende PowerShell-code naar NotePad en sla het bestand op als. ps1 op een locatie die u gemakkelijk kunt vinden (bijvoorbeeld C:\Data\QuarantineRelease.ps1).
+
+Nadat u verbinding hebt gemaakt met [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) of [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell), voert u de volgende opdracht uit om het script uit te voeren:
 
 ```powershell
-$CQ = Get-QuarantineMessage -Type Spam | where {$_.SenderAddress -like "*@contoso.com"}
+& C:\Data\QuarantineRelease.ps1
 ```
 
-Voer vervolgens de volgende opdracht uit om die berichten op alle oorspronkelijke geadresseerden te brengen:
+Met het script voert u de volgende handelingen uit:
+
+- Zoeken naar niet-vrijgegeven berichten die zijn gequarantined als spam van alle afzenders in het domein fabrikam. Het maximale aantal resultaten is 50.000 (50 pagina's van 1000 resultaten).
+- Sla de resultaten op in een CSV-bestand.
+- Laat de overeenkomende berichten in quarantaine voor alle oorspronkelijke geadresseerden vrij.
 
 ```powershell
-$CQ | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+$Page = 1
+$List = $null
+
+Do
+{
+Write-Host "Getting Page " $Page
+
+$List = (Get-QuarantineMessage -Type Spam -PageSize 1000 -Page $Page | where {$_.Released -like "False" -and $_.SenderAddress -like "*fabrikam.com"})
+Write-Host "                     " $List.count " rows in this page match"
+Write-Host "                                                             Exporting list to appended CSV for logging"
+$List | Export-Csv -Path "C:\Data\Quarantined Message Matches.csv" -Append -NoTypeInformation
+
+Write-Host "Releasing page " $Page
+$List | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+
+$Page = $Page + 1
+
+} Until ($Page -eq 50)
 ```
 
 Wanneer u een bericht hebt vrijgegeven, kunt u het niet meer vrijgeven.

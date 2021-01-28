@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Abonnementen handmatig wijzigen door een nieuw abonnement aan te schaffen en ervoor te zorgen dat beide abonnementen worden vermeld en actief zijn.
-ms.openlocfilehash: 09557b3556db1e6f17d7a4cd54a88ba34d0f0bd7
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 1127a48ff23c528e3218bae4ccfd063df5e3c26d
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647817"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029384"
 ---
 # <a name="change-plans-manually"></a>Abonnementen handmatig wijzigen
 
@@ -74,7 +74,7 @@ Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 
 - **Als u twee abonnementen hebt gekocht en deze hier niet beide worden vermeld**, zijn ze misschien gekocht voor verschillende organisaties (voor verschillende domeinen). Abonnementen kunnen niet tussen organisaties worden gedeeld.
 
-- [Neem contact op met Microsoft ondersteuning](../../admin/contact-support-for-business-products.md) **Als u weet dat u een extra abonnement hebt**en dit niet hier wordt vermeld of niet actief is.
+- [Neem contact op met Microsoft ondersteuning](../../admin/contact-support-for-business-products.md) **Als u weet dat u een extra abonnement hebt** en dit niet hier wordt vermeld of niet actief is.
 
 ### <a name="what-about-the-old-licenses"></a>Hoe zit het met de oude licenties?
 
@@ -88,7 +88,7 @@ De licenties voor het huidige abonnement worden later verwijderd. U betaalt vana
 
 2. Selecteer op de pagina **actieve gebruikers** de gebruiker aan wie u een licentie wilt toewijzen.
 
-3. Vouw op het tabblad **licenties en apps** de optie **licenties**uit, schakel de vakjes in voor de licenties die u wilt toewijzen en selecteer vervolgens **wijzigingen opslaan**.
+3. Vouw op het tabblad **licenties en apps** de optie **licenties** uit, schakel de vakjes in voor de licenties die u wilt toewijzen en selecteer vervolgens **wijzigingen opslaan**.
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>Licenties opnieuw toewijzen voor meerdere gebruikers tegelijk
 

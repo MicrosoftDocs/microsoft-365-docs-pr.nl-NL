@@ -14,19 +14,19 @@ ms.collection:
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van topic Experience.
-ms.openlocfilehash: decc1a3aa5535b4d8bc97dc7d6b010eedd395741
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: f01b28b8ca5b0352f05fecac810c3e651c663947
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976589"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029636"
 ---
 # <a name="topic-experiences-overview-preview"></a>Overzicht van topics (preview)
 
 > [!Note] 
 > De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
 
-In dit onderwerp wordt Microsoft AI Technology, Microsoft 365, Delve, Microsoft Graph, Search en andere onderdelen en services gebruikt voor het maken van een kennis netwerk in uw Microsoft 365-omgeving. 
+In dit onderwerp wordt Microsoft AI Technology, Microsoft 365, Microsoft Graph, Search en andere onderdelen en services gebruikt voor het maken van een kennis netwerk in uw Microsoft 365-omgeving. 
 
 </br>
 
@@ -38,7 +38,7 @@ Het doel is om gegevens te converteren naar kennis en deze te leveren aan uw geb
 
 Met behulp van onderwerpen kunt u een belangrijk zakelijk probleem in veel bedrijven oplossen-de informatie aan gebruikers verstrekken wanneer ze ze nodig hebben. Nieuwe werknemers moeten bijvoorbeeld snel informatie over een heleboel nieuwe informatie ontdekken en de voorwaarden die ze weten, zijn niets te weten over het lezen van bedrijfsgegevens. Om meer te weten te komen, moet de gebruiker zich mogelijk stap voor lezen van wat ze doen en de tijd hebben om te zoeken naar details, zoals informatie over wat de term is, wie in de organisatie is bedoeld voor een ervaren persoon, en wellicht sites en documenten die zijn gerelateerd aan de term.
 
-Met behulp van onderwerpen wordt AI gebruikt om automatisch **onderwerpen** te zoeken en te identificeren uit uw organisatie. Het compileert informatie over de persoon, zoals een korte beschrijving, onderhevige experts voor het onderwerp, de sites, bestanden en pagina's die eraan zijn gekoppeld. U kunt de informatie over het onderwerp desgewenst bijwerken met een kennis Manager of Inzender. De onderwerpen zijn beschikbaar voor uw gebruikers, wat inhoudt: voor elk exemplaar van het onderwerp dat wordt weergegeven op een moderne SharePoint-site op het nieuws en op pagina's, wordt de tekst gemarkeerd. Gebruikers kunnen kiezen om het onderwerp te selecteren, waarover u meer wilt weten over de details van het onderwerp. U kunt ook onderwerpen vinden in SharePoint Search.
+Met behulp van onderwerpen wordt AI gebruikt om automatisch **onderwerpen** te zoeken en te identificeren uit uw organisatie. Het compileert informatie over de persoon, zoals een korte beschrijving, personen die aan het onderwerp werken, en sites, bestanden en pagina's die eraan zijn gekoppeld. U kunt de informatie over het onderwerp desgewenst bijwerken met een kennis Manager of Inzender. De onderwerpen zijn beschikbaar voor uw gebruikers, wat inhoudt: voor elk exemplaar van het onderwerp dat wordt weergegeven op een moderne SharePoint-site op het nieuws en op pagina's, wordt de tekst gemarkeerd. Gebruikers kunnen kiezen om het onderwerp te selecteren, waarover u meer wilt weten over de details van het onderwerp. U kunt ook onderwerpen vinden in SharePoint Search.
 
 
 ## <a name="how-topics-are-displayed-to-users"></a>De weergave van onderwerpen aan gebruikers
@@ -65,13 +65,13 @@ Uw kennis beheerders kunnen ervoor kiezen om alle SharePoint-sites in de Tenant 
 
 ## <a name="roles"></a>Vervullen
 
-Wanneer u topic experience in Microsoft 365-omgeving gebruikt, hebben uw gebruikers de volgende functies:
+Wanneer u topic experience in uw Microsoft 365-omgeving gebruikt, hebben uw gebruikers de volgende functies:
 
 - Onderwerp Viewer: gebruikers die de belangrijkste punten kunnen zien van de SharePoint-sites waarvan ze minimaal *Lees* toegang hebben en in Microsoft Search. De persoon kan aandachtspunten selecteren om de details van het onderwerp te zien op de onderwerpen pagina's. De bezoekers van het onderwerp kunnen feedback geven over hoe handig een onderwerp is.
 
-- Inzenders: gebruikers met rechten voor het bewerken van bestaande onderwerpen of het maken van nieuwe sjablonen. Kennis beheerders stellen machtigingen voor de Inzender aan gebruikers toe via de instellingen voor onderwerp in het Microsoft 365-Beheercentrum. U kunt er ook voor kiezen om alle topics een machtiging te geven voor het bewerken en maken van onderwerpen, zodat ze ook kunnen bijdragen aan onderwerpen die ze zien.
+- Inzenders: gebruikers met rechten voor het bewerken van bestaande onderwerpen of het maken van nieuwe sjablonen. Kennis beheerders stellen machtigingen voor de Inzender aan gebruikers toe via de instellingen voor onderwerp in het Microsoft 365-Beheercentrum. U kunt er ook voor kiezen om alle topics een machtiging te geven voor het bewerken en maken van onderwerpen, zodat iedereen kan bijdragen aan onderwerpen die ze zien.
 
-- Kennis beheerders: gebruikers die een beschrijving van de levenscyclus van een onderwerp doen. Kennis beheerders gebruiken de pagina **Manage topics** in het onderwerp Center om AI-aanbevolen onderwerpen te bevestigen of te verwijderen, en bestaande onderwerpen te bewerken of nieuwe te maken, en zijn de enige gebruikers die toegang hebben tot de site. Mede-beheerdersmachtigingen toewijzen aan gebruikers via de Onderwerps Beheerdersinstellingen in het Microsoft 365-Beheercentrum. 
+- Kennis beheerders: gebruikers die een beschrijving van de levenscyclus van een onderwerp doen. Kennis beheerders gebruiken de pagina **Manage topics** in het onderwerp Centre om de AI-voorgestelde onderwerpen te bevestigen, onderwerpen te verwijderen die niet meer relevant zijn en bestaande onderwerpen bewerken of nieuwe onderwerpen maken en de enige gebruikers die toegang hebben tot de site. Mede-beheerdersmachtigingen toewijzen aan gebruikers via de Onderwerps Beheerdersinstellingen in het Microsoft 365-Beheercentrum. 
 
 - Kennis beheerders: kennis beheerders stellen ervaringen van het onderwerp in en beheren via de beheer besturingselementen in het Microsoft 365-Beheercentrum. Momenteel kan een Microsoft 365-beheerder of SharePoint-beheerder als een kennis beheerder fungeren.
 
@@ -85,7 +85,7 @@ Hoewel alle gebruikers met een licentie de onderwerpen kunnen zien waaraan ze zi
 
 Kennis managers kunnen het volgende doen:
 
-- Onderwerpen die zijn gevonden in de Tenant bevestigen of negeren.
+- Onderwerpen van de Tenant bevestigen of verwijderen.
 - Maak handmatig nieuwe onderwerpen om zo nodig handmatig te maken (als u bijvoorbeeld niet voldoende informatie hebt opgegeven om te ontdekken via AI).
 - Bestaande topic pagina's bewerken.</br>
 
@@ -109,7 +109,7 @@ Zie [Gebruikersmachtigingen toewijzen](https://docs.microsoft.com/microsoft-365/
 
 AI biedt voortdurend suggesties voor het verbeteren van uw onderwerpen wanneer er wijzigingen worden aangebracht in uw omgeving. 
 
-Gebruikers die u toegang wilt geven tot de onderwerpen op hun dagelijkse werk, kunnen worden gevraagd of het onderwerp nuttig was voor hen. AI bekijkt deze antwoorden en gebruikt ze om te bepalen wat er wordt weergegeven in de overzichts overzichten en de details van het onderwerp.
+Gebruikers die u toegang wilt geven tot de onderwerpen op hun dagelijkse werk, kunnen worden gevraagd of het onderwerp nuttig was voor hen. Het systeem ziet deze antwoorden en gebruikt ze om te bepalen wat er wordt weergegeven in de overzichts overzichten van het onderwerp en de details van het onderwerp.
 
 Gebruikers met machtigingen voor het bewerken of maken van onderwerpen kunnen updates voor de onderwerpen van pagina's direct maken als ze correcties willen aanbrengen of extra informatie willen toevoegen. 
 

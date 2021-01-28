@@ -3,7 +3,7 @@ title: De invoegtoepassing voor het melden van rapporten inschakelen
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: Admin
 ms.topic: how-to
@@ -16,14 +16,14 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Meer informatie over het inschakelen van de invoegtoepassing voor het melden van rapporten voor Outlook en de webversie van Outlook voor afzonderlijke gebruikers of voor de hele organisatie.
-ms.openlocfilehash: 2ea6a9bf9b00fc844aede6daeb9fc11f23c81e4a
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.openlocfilehash: 6d86fdc710539bc3c74eb94f8931ca48a0c992c1
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865262"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029136"
 ---
-# <a name="enable-the-report-phishing-add-in"></a>De invoegtoepassing voor phishing-rapporten inschakelen
+# <a name="enable-the-report-phishing-add-in"></a>De invoegtoepassing Phishing rapporteren inschakelen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -87,21 +87,23 @@ Nadat de invoegtoepassing is geïnstalleerd en is ingeschakeld, ziet u de volgen
 > [!NOTE]
 > Het kan 12 uur duren voordat de invoegtoepassing in uw organisatie wordt weergegeven.
 
-1. Ga in het Microsoft 365-Beheercentrum naar de pagina **instellingen, geïntegreerde Apps & invoegtoepassingen** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> en klik op **invoegtoepassing implementeren**.
+1. Ga in het Microsoft 365-Beheercentrum naar de pagina **instellingen** voor \> **invoegtoepassingen** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> weergeven als u de pagina **met invoegtoepassingen** niet ziet, gaat u naar de link invoegtoepassingen voor de instellingen van de invoegtoepassing voor de **instellingen** op de koppeling naar de \>  \> pagina **met**  geïntegreerde apps.
+
+2. Selecteer **invoegtoepassing implementeren** boven aan de pagina en selecteer **volgende**.
 
    ![Pagina met Services en invoegtoepassingen in het Microsoft 365-Beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. Controleer de informatie in het vervolgmenu **een nieuwe invoegtoepassing implementeren** die wordt weergegeven en klik op **volgende**.
+3. Controleer de informatie in het vervolgmenu **een nieuwe invoegtoepassing implementeren** die wordt weergegeven en klik op **volgende**.
 
-3. Op de volgende pagina klikt u op **kiezen uit de Store**.
+4. Op de volgende pagina klikt u op **kiezen uit de Store**.
 
    ![Een nieuwe pagina met invoegtoepassingen implementeren](../../media/NewAddInScreen2.png)
 
-4. Klik op de pagina **invoegtoepassing selecteren** die wordt weergegeven in het vak **zoeken** , typ **phishing melden** en klik vervolgens op **Zoek** ![ actie zoeken ](../../media/search-icon.png) . Zoek in de lijst met resultaten de resultaten van **rapporten** en klik vervolgens op **toevoegen**.
+5. Klik op de pagina **invoegtoepassing selecteren** die wordt weergegeven in het vak **zoeken** , typ **phishing melden** en klik vervolgens op **Zoek** ![ actie zoeken ](../../media/search-icon.png) . Zoek in de lijst met resultaten de resultaten van **rapporten** en klik vervolgens op **toevoegen**.
 
-5. In het dialoogvenster dat wordt weergegeven, bekijkt u de licentie-en privacygegevens en klikt u vervolgens op **Doorgaan**.
+6. In het dialoogvenster dat wordt weergegeven, bekijkt u de licentie-en privacygegevens en klikt u vervolgens op **Doorgaan**.
 
-6. Configureer de volgende instellingen op de pagina **invoegtoepassing configureren** die wordt weergegeven:
+7. Configureer de volgende instellingen op de pagina **invoegtoepassing configureren** die wordt weergegeven:
 
    - **Toegewezen gebruikers**: Selecteer een van de volgende waarden:
 
@@ -117,9 +119,9 @@ Nadat de invoegtoepassing is geïnstalleerd en is ingeschakeld, ziet u de volgen
 
    Wanneer u klaar bent, klikt u op **toepassen**.
 
-7. Op de pagina voor het implementeren van een **rapport** dat wordt weergegeven, wordt een voortgangsrapport weergegeven, gevolgd door een bevestiging dat de invoegtoepassing is geïmplementeerd. Nadat u de gegevens hebt gelezen, klikt u op **volgende**.
+8. Op de pagina voor het implementeren van een **rapport** dat wordt weergegeven, wordt een voortgangsrapport weergegeven, gevolgd door een bevestiging dat de invoegtoepassing is geïmplementeerd. Nadat u de gegevens hebt gelezen, klikt u op **volgende**.
 
-8. Controleer de gegevens op de pagina **aangekondigde invoegtoepassing** die wordt weergegeven en klik vervolgens op **sluiten**.
+9. Controleer de gegevens op de pagina **aangekondigde invoegtoepassing** die wordt weergegeven en klik vervolgens op **sluiten**.
 
 ## <a name="learn-how-to-use-the-report-phishing-add-in"></a>Meer informatie over het gebruik van de invoegtoepassing voor phishing-rapporten
 
@@ -135,7 +137,7 @@ Voor personen aan wie de invoegtoepassing is toegewezen, worden de volgende pict
 
 ## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>Instellingen voor de invoegtoepassing voor het melden van rapporten bekijken of bewerken
 
-1. Ga in het Microsoft 365-Beheercentrum naar de pagina **Services & invoegtoepassingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
+1. Ga in het Microsoft 365-Beheercentrum naar de pagina **instellingen** voor \> **invoegtoepassingen** <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> weergeven als u de pagina **met invoegtoepassingen** niet ziet, gaat u naar de link invoegtoepassingen voor de instellingen van de invoegtoepassing voor de **instellingen** op de koppeling naar de \>  \> pagina **met**  geïntegreerde apps.
 
 2. Zoek en selecteer de invoegtoepassing voor het melden van de **phishing** .
 

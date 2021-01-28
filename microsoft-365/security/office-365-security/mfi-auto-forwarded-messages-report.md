@@ -3,20 +3,21 @@ title: Inzicht in automatisch doorgestuurde berichten
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Beheerders kunnen informatie vinden over het rapport met automatisch doorgestuurde berichten in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum.
-ms.openlocfilehash: 28cb593d56d0b0054c8c8cbe4596d4f7df6442ab
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: c892400152df15adb3dfeb0c747ed7fae034d3d6
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920594"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029940"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Berichten met automatisch doorgestuurde inzichten in het beveiligings & nalevings centrum
 
@@ -31,14 +32,14 @@ Met de **automatisch doorgestuurde berichten** in het [Dashboard voor e-mail str
 
 Wanneer u op het aantal berichten in het object klikt, wordt er een flyout weergegeven met meer informatie over de automatisch doorgestuurde berichten:
 
-- **Berichten automatisch doorsturen met behulp van doorstuur methoden** :
+- **Berichten automatisch doorsturen met behulp van doorstuur methoden**:
 
   - **Door een e-mail stroom regel**
   - **Door regels voor Postvak in**
   - **Door het doorsturen van SMTP: met** deze methode wordt automatisch doorsturen aangegeven die beheerders kunnen configureren in een postvak, zoals beschreven in het [doorsturen van e-mail voor een postvak configureren](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
   - Een koppeling naar het [doorstuur rapport](view-mail-flow-reports.md#forwarding-report) voor meer informatie.
 
-- **Berichten automatisch doorsturen en door domeinen en gebruikers** :
+- **Berichten automatisch doorsturen en door domeinen en gebruikers**:
 
   - **Vijf belangrijkste domeinen doorgestuurd naar**
   - **Nieuwe domeinen (vorige week)**

@@ -3,23 +3,24 @@ title: Inzicht in regels voor langzame e-mailstroom oplossen
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
 description: Beheerders kunnen leren hoe u het probleem kunt verhelpen met behulp van het artikel over het oplossen van problemen in de beveiliging & nalevings centrum voor het identificeren en oplossen van onjuiste of verbroken e-mail stroom regels (ook wel een transportregel genoemd) in hun organisatie.
-ms.openlocfilehash: f51c5a577fc6d9c52e35a5217cae4ae94c546c9d
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: ef9f26994f563a5f9dad411f2276fd42c28496f9
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920546"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029124"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Inzicht in langzame e-mail stroom regels in het nalevings centrum voor beveiliging &
 
@@ -42,10 +43,10 @@ U kunt deze melding gebruiken om de regels voor de e-mail stroom te identificere
 
 Wanneer u op Details van het object **weergeven** klikt, verschijnt er een flyout met meer informatie:
 
-- **Regel** : u kunt de muisaanwijzer op het overzicht plaatsen om alle voorwaarden, uitzonderingen en acties van de regel te zien. U kunt op het overzicht klikken om de regel in het Exchange-Beheercentrum (SBV) te bewerken.
-- **Aantal geëvalueerde berichten** : u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de berichten die door de regel werden beïnvloed.
+- **Regel**: u kunt de muisaanwijzer op het overzicht plaatsen om alle voorwaarden, uitzonderingen en acties van de regel te zien. U kunt op het overzicht klikken om de regel in het Exchange-Beheercentrum (SBV) te bewerken.
+- **Aantal geëvalueerde berichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de berichten die door de regel werden beïnvloed.
 - **Gemiddelde tijd die is besteed aan elk bericht**
-- **Mediaan tijd besteed aan een bericht** : de middelste waarde die de bovenste helft van de onderste helft van de gegevens scheidt.
+- **Mediaan tijd besteed aan een bericht**: de middelste waarde die de bovenste helft van de onderste helft van de gegevens scheidt.
 
 ![Voorbeeld van een flyout dat wordt weergegeven nadat u op Details weergeven hebt geklikt in de regel langzame e-mail stroom](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
