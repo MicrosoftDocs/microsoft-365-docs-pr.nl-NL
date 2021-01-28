@@ -10,7 +10,6 @@ audience: ITPro
 ms.topic: how-to
 f1_keywords:
 - ms.exch.eac.ActionCenter.Restricted.Users.RestrictedUsers
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -19,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 description: Beheerders kunnen meer informatie krijgen over het verwijderen van gebruikers uit de portal voor gebruikers met beperkte rechten in Office 365. Gebruikers worden toegevoegd aan de portal gebruikers met beperkte rechten voor het verzenden van uitgaande spam, meestal vanwege een inbreuk op het account.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bca9366fdb8cacdc58c12757e870c8ead8f1fa7a
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 779e769b76299edf9b6d205f64bed4738f2f2499
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683044"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988190"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Geblokkeerde gebruikers verwijderen uit de portal voor gebruikers met beperkte rechten in Office 365
 
@@ -71,7 +72,7 @@ Beheerders kunnen gebruikers verwijderen uit de portal met beperkte verzenders i
 5. Klik op **Ja** ter bevestiging.
 
    > [!NOTE]
-   > Het kan 30 minuten of langer duren voordat er beperkingen zijn verwijderd.
+   > Het kan tot 24 uur duren voordat alle beperkingen voor de gebruiker zijn verwijderd.
 
 ## <a name="verify-the-alert-settings-for-restricted-users"></a>De instellingen voor de waarschuwing voor gebruikers met beperkte toegang verifiëren
 
@@ -82,7 +83,7 @@ In het standaard waarschuwingsbeleid genaamd **Gebruiker beperkt tot het verzend
 
 1. Ga in het beveiligings- en compliancecentrum naar **Waarschuwingen** \> **Waarschuwingsbeleid**.
 
-2. Zoek en selecteer een **Gebruiker valt onder beperkte verzending van e-mail**-waarschuwing.
+2. Zoek en selecteer de waarschuwing **Gebruiker mag geen e-mai sturen**-waarschuwing.
 
 3. In de doorlopende informatie die wordt weergegeven, controleert of configureert u de volgende instellingen:
 
