@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d47757e8e9b36baf060c86436bd7840ded7c324d
-ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
+ms.openlocfilehash: f2fae1e41562d1ae743ecd964b42082b3d6486e8
+ms.sourcegitcommit: 05657b39eaafc0503b01c6adcc5d8a5e615dc02c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49586671"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50031349"
 ---
 # <a name="compliance"></a>Compliance
 
@@ -36,7 +36,7 @@ Microsoft Managed Desktop heeft de volgende certificeringen bereikt:
 - [Service organisatie besturingselementen (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
 - [Data Security Standard van de credit card (PCI) Data Security Standard (DSS)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
 - [Portal voor gezondheidszorg en verantwoording Act (HIPAA)](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech)
-- [Australische Government Information Security Registerd beoordelaar programma (IRAP)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
+- [Information Security Registerd beoordelaar programma (IRAP)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
 
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Auditor rapporten en compliance certificates
@@ -48,4 +48,4 @@ U vindt relevante informatie, waaronder de besturing en technische vereisten, in
 
 ## <a name="shared-responsibility"></a>Gedeelde verantwoordelijkheid
 
-Naleving voor cloudservices is een gedeelde verantwoordelijkheid tussen cloudservice providers en hun klanten. Zie voor meer informatie [gedeelde verantwoordelijkheden voor Cloud Computing](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility).
+Naleving voor cloudservices is een gedeelde verantwoordelijkheid tussen cloudservice providers en hun klanten. Zie [gedeelde verantwoordelijkheid in de Cloud](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility)voor meer informatie.
