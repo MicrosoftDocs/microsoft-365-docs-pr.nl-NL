@@ -432,31 +432,12 @@
               href: ./office-365-security/use-dmarc-to-validate-email.md
             - name: Ondersteuning toevoegen voor anonieme binnenkomende e-mail via IPv6
               href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
+            - name: 'Application Guard voor Office installeren '
+              href: ./office-365-security/install-app-guard.md
             - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
               href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
             - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
               href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: S/MIME
-              href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
-              items:
-                - name: S/MIME voor het ondertekenen en versleutelen van berichten
-                  href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
-                - name: S/MIME-instellingen voor de webversie van Outlook configureren
-                  href: ./office-365-security/configure-s-mime-settings-for-outlook-web-app.md
-                - name: Met S/MIME ondertekende en versleutelde e-mail verzenden en ontvangen
-                  href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
-                - name: Gebruikerscertificaten synchroniseren met Microsoft 365 voor S/MIME
-                  href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
-                - name: Verzameling van virtuele certificaten instellen om S/MIME te valideren
-                  href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
-                - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
-                  href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-                - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
-                  href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
-                - name: Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
-                  href: ./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
-                - name: Rollengroepen beheren in standalone EOP
-                  href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
         - name: Migreren
           items:
             - name: 'Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort'
@@ -669,6 +650,27 @@
               href: ./office-365-security/virus-detection-in-spo.md
             - name: Wat is het verschil tussen ongewenste e-mail en bulkmail?
               href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
+            - name: S/MIME
+              href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
+              items:
+                - name: S/MIME voor het ondertekenen en versleutelen van berichten
+                  href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
+                - name: S/MIME-instellingen voor de webversie van Outlook configureren
+                  href: ./office-365-security/configure-s-mime-settings-for-outlook-web-app.md
+                - name: Met S/MIME ondertekende en versleutelde e-mail verzenden en ontvangen
+                  href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
+                - name: Gebruikerscertificaten synchroniseren met Microsoft 365 voor S/MIME
+                  href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
+                - name: Verzameling van virtuele certificaten instellen om S/MIME te valideren
+                  href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
+                - name: Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
+                  href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+                - name: Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
+                  href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
+                - name: Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
+                  href: ./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
+                - name: Rollengroepen beheren in standalone EOP
+                  href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
     - name: Microsoft 365 voor bedrijven
       href: 'https://docs.microsoft.com/microsoft-365/enterprise'
     - name: Microsoft 365 voor bedrijven

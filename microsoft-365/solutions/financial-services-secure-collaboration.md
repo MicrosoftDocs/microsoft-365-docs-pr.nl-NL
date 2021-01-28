@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Lees hoe financiële dienstverlening aan financiële compliance kan voldoen en effectief kan samenwerken met Microsoft 365 en Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: ff4ce29e42ea3a8a5619f514373041c1e8c3e138
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 1d1c3886a38636e7e72774f8b2bb5ce574d1c7a6
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558476"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029952"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor Amerikaanse banken en kapitaalmarkten
 
@@ -319,7 +319,7 @@ Microsoft 365 heeft onlangs een oplossing voor intern risicobeheer gelanceerd di
 
 Met intern risicobeheer in Microsoft 365 kunnen bijvoorbeeld signalen van de Windows 10-desktop van een gebruiker, zoals het kopiëren van bestanden naar een USB-station of het sturen van een e-mail naar een persoonlijk e-mailaccount, worden gecorreleerd met activiteiten van onlineservices, zoals Office 365-e-mail, SharePoint Online, Microsoft Teams of OneDrive voor Bedrijven om patronen voor gegevensexfiltratie te identificeren. Deze activiteiten kunnen ook worden gecorreleerd met medewerkers die een organisatie verlaten, wat een veelvoorkomend gegevensexfiltratiepatroon is. Er kunnen meerdere activiteiten en gedragspatronen in de loop van de tijd worden bewaakt. Wanneer veelvoorkomende patronen zichtbaar worden, kunnen er waarschuwingen worden gegenereerd, waardoor onderzoekers zich beter kunnen richten op belangrijke activiteiten om een beleidsschending met een hoge mate van vertrouwelijkheid te verifiëren. Met intern risicobeheer kunnen gegevens van onderzoekers pseudo-anoniem worden gemaakt, zodat aan de regelgeving voor gegevensprivacy kan worden voldaan, terwijl ze toch belangrijke activiteiten kunnen ontdekken waarmee ze een onderzoek efficiënt kunnen uitvoeren. Hiermee kunnen onderzoekers de gegevens van belangrijke activiteiten inpakken en veilig verzenden naar de afdeling HR en de juridische afdeling volgens de algemene escalatiewerkstromen voor het melden van zaken voor herstelactie.
 
-Met intern risicobeheer in Microsoft 365 kunnen organisaties beter interne risico's bewaken en onderzoeken, terwijl organisaties nog steeds kunnen voldoen aan de regelgeving voor gegevensprivacy en de vastgelegde escalatiepaden kan volgen wanneer actie op een hoger niveau is vereist.
+Met intern risicobeheer in Microsoft 365 kunnen organisaties beter interne risico's bewaken en onderzoeken, terwijl organisaties nog steeds kunnen voldoen aan de regelgeving voor gegevensprivacy en de vastgelegde escalatiepaden kan volgen wanneer actie op een hoger niveau is vereist. Voor meer info over intern risicobeheer in Microsoft 365, zie [ Moderne risicopunten en werkstroom in intern risicobeheer in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management?view=o365-worldwide).
 
 ![Een medewerker in een callcenter op een werkplek typt en kijkt naar een scherm.](../media/clo17-call-center-006.jpg)
  
