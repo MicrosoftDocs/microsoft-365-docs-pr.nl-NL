@@ -1,5 +1,5 @@
 ---
-title: Standaard veilig in Office 365
+title: Standaard beveiligd in Office 365
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -8,64 +8,72 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over de standaardinstelling veilig in Exchange Online Protection (EOP)
-ms.openlocfilehash: 8db8e7af569114e5829d24d65b8eee89c9dce8c3
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+description: Meer informatie over de standaardbeveiligingsinstelling in Exchange Online Protection (EOP)
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: c8af609b8ed50b0bfacb7d9f5397fab4c4726927
+ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787971"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50040542"
 ---
-# <a name="secure-by-default-in-office-365"></a>Standaard veilig in Office 365
+# <a name="secure-by-default-in-office-365"></a>Standaard beveiligd in Office 365
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-' Veilig standaard ' is een term die wordt gebruikt voor het definiëren van de standaardinstellingen die zo veilig mogelijk zijn.
+Standaard beveiligd is een term die wordt gebruikt om de standaardinstellingen te definiëren die zo veilig mogelijk zijn.
 
-De beveiliging moet echter worden gesaldeerd met productiviteit. Dit kan gelden voor de volgende taken:
+Beveiliging moet echter in balans zijn met productiviteit. Dit kan onder andere zijn:
 
-- **Bruikbaarheids** functie: de instellingen zijn niet te vinden in de manier van gebruikers productiviteit.
-- **Risico**: beveiliging kan belangrijke activiteiten blokkeren.
-- **Verouderde instellingen**: sommige configuraties voor oudere producten en functies kunnen worden bijgehouden voor zakelijke redenen, zelfs als nieuwe, moderne instellingen zijn verbeterd.
+- **Bruikbaarheid:** instellingen mogen de productiviteit van gebruikers niet in de weg staan.
+- **Risico:** beveiliging kan belangrijke activiteiten blokkeren.
+- **Oudere instellingen:** sommige configuraties voor oudere producten en functies moeten mogelijk vanwege zakelijke redenen worden bewaard, zelfs als nieuwe, moderne instellingen zijn verbeterd.
 
-Microsoft 365-organisaties met postvakken in Exchange Online zijn beveiligd via Exchange Online Protection (EOP). Deze bescherming omvat:
+Microsoft 365-organisaties met postvakken in Exchange Online worden beveiligd door Exchange Online Protection (EOP). Deze beveiliging omvat:
 
-- E-mail met verdachte malware wordt automatisch in quarantaine geplaatst en geadresseerden ontvangen een melding. Zie [anti-malwarebeleid in EOP configureren](configure-anti-malware-policies.md).
-- E-mailadres dat is geïdentificeerd als een hoge betrouwbaarheid, wordt volgens de actie Antispambeleid afgehandeld. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md).
+- E-mail met verdachte malware wordt automatisch in quarantaine geplaatst en geadresseerden worden op de hoogte gesteld. Zie [Antimalwarebeleid configureren in EOP.](configure-anti-malware-policies.md)
+- E-mailberichten die zijn aangemerkt als zeer vertrouwelijk phishing, worden verwerkt volgens de actie in het antispambeleid. Zie [Antispambeleid configureren in EOP.](configure-your-spam-filter-policies.md)
 
-Zie [overzicht van Exchange Online beveiliging](exchange-online-protection-overview.md)voor meer informatie over EOP.
+Zie het overzicht van [Exchange Online Protection](exchange-online-protection-overview.md)voor meer informatie over EOP.
 
-Aangezien Microsoft onze klanten de mogelijkheid geeft standaard te beschermen, worden sommige tenants overschreven voor malware of phishing met een hoge betrouwbaarheid niet toegepast. Deze overschrijvingen zijn:
+Omdat Microsoft onze klanten standaard beveiligd wil houden, worden sommige tenants niet toegepast op malware of phishing met hoge betrouwbaarheid. Dit zijn onder andere:
 
-- Lijsten met toegestane afzenders of toegestane domeinen (Antispambeleid)
-- Veilige afzenders van Outlook
-- Lijst met toegestane IP-adressen (verbindingen filteren)
+- Lijsten met toegestane afzenders of lijsten met toegestane domeinen (antispambeleid)
+- Veilige afzenders in Outlook
+- Ip Allow List (verbindingsfiltering)
 
-Meer informatie over deze overschrijvingen vindt u in [lijsten met veilige afzenders maken](create-safe-sender-lists-in-office-365.md).
+Meer informatie over deze overschrijvingen vindt u in [Lijsten met veilige afzenders maken.](create-safe-sender-lists-in-office-365.md)
 
-Standaard is beveiliging niet een instelling die kan worden in-of uitgeschakeld, maar de manier waarop onze filters uit het vak werken om ongewenste en ongewenste berichten uit uw postvakken te houden. De malware en de hoge betrouwbaarheid van phishingberichten worden in quarantaine geplaatst. Alleen beheerders kunnen berichten beheren die zijn gequarantined als malware of phishing via een hoge betrouwbaarheid, en kunnen ze ook fout-positieven naar Microsoft melden. Zie voor meer informatie geplaatste [berichten en bestanden beheren als beheerder in EOP](manage-quarantined-messages-and-files.md)
+> [!NOTE]
+> We zijn bezig de actie Bericht  verplaatsen naar map Ongewenste e-mail uit te stellen, omdat we in EOP antispambeleid e-mails met hoge vertrouwens-phishing-e-mails kunnen aanmaken.  Antispambeleid dat deze actie gebruikt om zeer vertrouwelijk phishing-berichten te gebruiken, wordt geconverteerd naar **quarantainebericht.** De **actie Bericht omleiden naar e-mailadres** voor zeer goede phishingberichten wordt niet beïnvloed.
+
+Standaard beveiligen is geen instelling die kan worden in- of uitgeschakeld, maar is de manier waarop wordt gefilterd om mogelijk gevaarlijke of ongewenste berichten uit uw postvakken te houden. Malware en phishingberichten met hoge betrouwbaarheid moeten in quarantaine worden geplaatst. Alleen beheerders kunnen berichten beheren die in quarantaine zijn geplaatst als malware of phishing met een hoge betrouwbaarheid en kunnen van hier naar Microsoft ook fout-positieven rapporteren. Zie Berichten en bestanden in quarantaine beheren [als beheerder in EOP](manage-quarantined-messages-and-files.md) voor meer informatie.
 
 ## <a name="more-on-why-were-doing-this"></a>Meer informatie over waarom we dit doen
 
-Standaard is de geest van veilig geveiligt: de actie die u moet uitvoeren als u het bericht schadelijk wist, ook als er sprake is van een aanval. Dit is dezelfde manier die we hebben gebruikt voor malware, en nu wordt dit gedrag uitgebreid voor phishingberichten met een hoge betrouwbaarheid. Onze gegevens duiden op dat de fout positief is voor phishingberichten met een hoge betrouwbaarheid zeer laag is, en beheerders kunnen eventuele foutberichten oplossen met beheerders inzendingen. Met onze gegevens wordt ook aangegeven dat de lijsten toegestane afzenders en toegestane domeinen in Antispambeleid en veilige afzenders in Outlook te ruim zijn en meer schade te veroorzaken dan de juiste.
+De gedachte om standaard veilig te zijn is: we voeren dezelfde actie uit op het bericht dat u zou ondernemen als u de schadelijke berichten kent, zelfs wanneer een geconfigureerde uitzondering het bericht anders zou bezorgen. Dit is dezelfde methode die we altijd al hebben gebruikt voor malware, en nu wordt ditzelfde gedrag uitgebreid naar phishingberichten met een hoge betrouwbaarheid.
 
-Als u een andere manier wilt doen: als beveiligingsservice, handelen we namens u om te voorkomen dat uw gebruikers geen compromissen hebben. Daarnaast is beveiliging standaard geen volledige overname van uw beschikbare opties voor phishingberichten met een anti-spam beleid. Hoewel u de andere beschikbare acties voor quarantaine adviseert, blijft de andere actie beschikbaar (naar map Ongewenste E-mail of omleiden naar een e-mailadres).
+Uit onze gegevens blijkt dat een gebruiker 30 keer vaker op een schadelijke koppeling in berichten in de map Ongewenste e-mail en op Quarantaine klikt. Uit onze gegevens blijkt ook dat de fout-positieve snelheid (goede berichten gemarkeerd als slecht) voor phishingberichten met hoge betrouwbaarheid zeer laag is en dat beheerders eventuele fout-positieven kunnen oplossen met beheerdersinzendingen.
 
-## <a name="exceptions"></a>Ring
+We hebben ook vastgesteld dat de toegestane afzender en toegestane domeinlijsten in antispambeleid en veilige afzenders in Outlook te ruim waren en voor meer kwaad dan goeds waren.
 
-Met de enige Negeer functie voor het filteren van e-mail wordt het filteren van Exchange-e-mail stroom regels (ook wel wel transport regels genoemd) toegestaan. Als u de e-mail stroom regels wilt gebruiken om het filteren te negeren, raadpleegt u [de e-mail stroom regels gebruiken om de SCL in te stellen](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
+Om dit op een andere manier te doen: als beveiligingsservice handelen we namens u om te voorkomen dat uw gebruikers worden gehackt. 
 
-U kunt alleen overschrijvingen gebruiken in de volgende scenario's:
+## <a name="exceptions"></a>Uitzonderingen
 
-- Malafide simulaties: gesimuleerde aanvallen kunnen u helpen gevoelige gebruikers te identificeren voordat een echte aanval uw organisatie beïnvloedt.
-- Beveiligings-SecOps-postvakken: speciale postvakken die door beveiligings teams worden gebruikt om ongefilterde berichten te ontvangen (zowel goed als slecht). Teams kan vervolgens controleren of ze schadelijke inhoud bevatten.
-- Filters van derden: veilig standaard is niet van toepassing als de MX-record van het domein niet verwijst naar Office 365.
-- Onjuiste positieve stappen: u kunt bepaalde berichten die nog door Microsoft worden geanalyseerd, tijdelijk toestaan [via admin-inzendingen](admin-submission.md). Net als met alle overschrijvingen, is het raadzaam dat ze tijdelijk zijn.
+Alleen Exchange-regels voor de e-mailstroom (ook wel transportregels genoemd) zijn de enige overschakeling die een zeer betrouwbaarheids-phishingbericht toestaat om filters te omzeilen. Zie Regels voor de e-mailstroom gebruiken om de SCL in berichten in te stellen als u regels voor de [e-mailstroom wilt gebruiken](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)om filters te omzeilen.
+
+U kunt het beste alleen overschrijven gebruiken in de volgende scenario's:
+
+- Phishing-phishing-phishing-aanvallen: Gesimuleerde aanvallen kunnen u helpen om kwetsbaar gebruikers te identificeren voordat een echte aanval van invloed is op uw organisatie.
+- Beveiligings-/SecOps-postvakken: toegewezen postvakken die door beveiligingsteams worden gebruikt om niet-gefilterde berichten op te halen (zowel goed als slecht). Teams kunnen vervolgens controleren of ze schadelijke inhoud bevatten.
+- Filters van derden: Standaard is Secure niet van toepassing wanneer de MX-record van het domein niet naar Office 365 betekent.
+- Fout-positieven: Mogelijk wilt u tijdelijk toestaan dat bepaalde berichten die nog door Microsoft worden geanalyseerd [via admin-inzendingen.](admin-submission.md) Net als bij alle overschrijven, wordt het aanbevolen dat deze tijdelijk zijn.

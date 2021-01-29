@@ -1,5 +1,5 @@
 ---
-title: Tenant configuratie voor Microsoft 365 multi-geo
+title: Configuratie van Microsoft 365 Multi Geo-tenant
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,144 +14,147 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
-description: In dit artikel vindt u informatie over het toevoegen van satelliet locaties en het configureren van uw Tenant voor Microsoft 365 multi-geo.
-ms.openlocfilehash: 4276d8ff70fed99e74f2cbab29386c81da06d17b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: In dit artikel leert u hoe u satellietlocaties toevoegt en uw tenant configureert voor Microsoft 365 Multi-Geo.
+ms.openlocfilehash: fb907c02a4714c5a2d8e47245321252e7186a8a7
+ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689110"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50040566"
 ---
-# <a name="microsoft-365-multi-geo-tenant-configuration"></a>Tenant configuratie voor Microsoft 365 multi-geo
+# <a name="microsoft-365-multi-geo-tenant-configuration"></a>Configuratie van Microsoft 365 Multi Geo-tenant
 
-Voordat u uw Tenant voor Microsoft 365 multi-geo configureert, moet u ervoor zorgen dat u het [abonnement voor Microsoft 365 multi-geo](plan-for-multi-geo.md)hebt. Als u de stappen in dit artikel wilt uitvoeren, hebt u een lijst met de geografische locaties nodig die u wilt inschakelen als satelliet locaties en de test gebruikers die u wilt inrichten voor die locaties.
+Voordat u uw tenant voor Microsoft 365 Multi-Geo configureert, moet u [Plan voor Microsoft 365 Multi-Geo hebben gelezen.](plan-for-multi-geo.md) Voor het uitvoeren van de stappen in dit artikel hebt u een lijst nodig met de geografische locaties die u als satellietlocaties wilt inschakelen en de testgebruikers die u voor deze locaties wilt inrichten.
 
-## <a name="add-the-multi-geo-capabilities-in-your-microsoft-365-plan-to-your-tenant"></a>De mogelijkheden voor meervoudige geo in uw Microsoft 365-abonnement aan uw Tenant toevoegen
+## <a name="add-the-multi-geo-capabilities-in-your-microsoft-365-plan-to-your-tenant"></a>De Multi-Geo Capabilities in uw Microsoft 365-abonnement toevoegen aan uw tenant
 
-Als u Microsoft 365 multi-geo wilt gebruiken, hebt u de _mogelijkheden voor meervoudige geo in Microsoft 365_ -abonnement nodig. Werk met uw accountteam om dit abonnement toe te voegen aan uw Tenant. Uw accountteam verbindt u met de juiste licentie specialist en de Tenant is geconfigureerd.
+Als u Microsoft 365 Multi-Geo wilt gebruiken, hebt u de _Multi-Geo Capabilities in Microsoft 365-abonnement_ nodig. Werk samen met uw accountteam om dit plan toe te voegen aan uw tenant. Uw accountteam verbindt u met de juiste licentiespecialist en laat uw tenant configureren.
 
-Houd er rekening mee dat de _mogelijkheden voor meervoudige geo in Microsoft 365 van_ een serviceplan op gebruikersniveau zijn. U hebt een licentie nodig voor elke gebruiker die u wilt hosten op een satelliet locatie. U kunt meer licenties toevoegen aan de tijd wanneer u gebruikers toevoegt aan locaties van satellieten.
+Het _Multi-Geo Capabilities in Microsoft 365-abonnement_ is een serviceplan op gebruikersniveau. U hebt een licentie nodig voor elke gebruiker die u op een satellietlocatie wilt hosten. U kunt in de tijd meer licenties toevoegen als u gebruikers op satellietlocaties toevoegt.
 
-Wanneer uw Tenant is voorzien van de mogelijkheden voor  _Meervoudige geo in Microsoft 365_ , is het tabblad **geografische locaties** beschikbaar in de OneDrive en SharePoint-beheer centra.
+Nadat uw tenant is ingericht met het _Multi-Geo Capabilities in Microsoft 365-abonnement,_ wordt het tabblad Geografische locaties beschikbaar in de OneDrive- en SharePoint-beheercentra. 
 
-## <a name="add-satellite-locations-to-your-tenant"></a>Satelliet locaties toevoegen aan uw Tenant
+## <a name="add-satellite-locations-to-your-tenant"></a>Satellietlocaties toevoegen aan uw tenant
 
-U moet een satelliet locatie toevoegen voor elke geografische locatie waar u gegevens wilt opslaan. Beschikbare geografische locaties worden weergegeven in de volgende tabel:
+U moet een satellietlocatie toevoegen voor elke geografische locatie waar u gegevens wilt opslaan. Beschikbare geografische locaties worden weergegeven in de volgende tabel:
 
 [!INCLUDE [Microsoft 365 Multi-Geo locations](../includes/microsoft-365-multi-geo-locations.md)]
 
-![Schermafbeelding van de pagina geografische locaties in het SharePoint-Beheercentrum](../media/sharepoint-multi-geo-admin-center.png)
+![Schermafbeelding van de pagina geografische locaties in het SharePoint-beheercentrum](../media/sharepoint-multi-geo-admin-center.png)
 
-Een locatie voor satelliet toevoegen
+Een satellietlocatie toevoegen
 
 1. Open het SharePoint-beheercentrum.
 
-2. Ga naar het tabblad **geo locations** .
+2. Ga naar het **tabblad Geografische** locaties.
 
-3. Klik op **locatie toevoegen**.
+3. Klik **op Locatie toevoegen.**
 
-4. Selecteer de locatie die u wilt toevoegen en klik op **volgende**.
+4. Selecteer de locatie die u wilt toevoegen en klik op **Volgende.**
 
-5. Typ het domein dat u wilt gebruiken met de geografische locatie en klik op **toevoegen**.
+5. Typ het domein dat u wilt gebruiken met de geografische locatie en klik op **Toevoegen.**
 
 6. Klik op **Sluiten**.
 
-Het inrichten kan van enkele uren tot 72 uur duren, afhankelijk van de grootte van de Tenant. Nadat het inrichten van een satelliet locatie is voltooid, ontvangt u een e-mail bevestiging. Wanneer de nieuwe geografische locatie blauw wordt weergegeven op de kaart op het tabblad **geografische locaties** in het OneDrive-Beheercentrum, kunt u doorgaan met het instellen van de gewenste gegevenslocatie van gebruikers naar die geografische locatie. 
+De inrichting kan enkele uren tot 72 uur duren, afhankelijk van de grootte van uw tenant. Zodra de inrichting van een satellietlocatie is voltooid, ontvangt u per e-mail een bevestiging. Wanneer de nieuwe geografische locatie blauw wordt  weergegeven op de kaart op het tabblad Geografische locaties in het OneDrive-beheercentrum, kunt u verdergaan met het instellen van de gewenste gegevenslocatie voor gebruikers op die geografische locatie. 
 
 > [!IMPORTANT]
-> De nieuwe locatie van de satelliet wordt ingesteld met de standaardinstellingen. Op die manier kunt u die satelliet locatie zo configureren dat dit van toepassing is op uw lokale nalevings behoeften.
+> De nieuwe satellietlocatie wordt ingesteld met standaardinstellingen. Hierdoor kunt u die satellietlocatie zo configureren dat deze voldoet aan uw lokale nalevingsbehoeften.
 
-## <a name="setting-users-preferred-data-location"></a>Voorkeur van de gebruikerslocatie van de gebruikers instellen
+## <a name="setting-users-preferred-data-location"></a>De voorkeurslocatie voor gegevens van gebruikers instellen
 <span id="_Setting_a_User's" class="anchor"><span id="_Toc508109326" class="anchor"></span></span> 
 
-Wanneer u de benodigde satelliet locaties hebt ingeschakeld, kunt u uw gebruikersaccounts bijwerken voor gebruik van de juiste gegevenslocatie van uw voorkeur. We raden u aan om voor elke gebruiker een voorkeurs gegevenslocatie in te stellen, ook als deze gebruiker op de centrale locatie woont.
+Zodra u de benodigde satellietlocaties hebt ingeschakeld, kunt u uw gebruikersaccounts bijwerken om de juiste voorkeursgegevenslocatie te gebruiken. Het is raadzaam om voor elke gebruiker een voorkeursgegevenslocatie in te stellen, zelfs als die gebruiker op de centrale locatie blijft.
 
 > [!IMPORTANT]
-> Als de voorkeurs gegevenslocatie van een gebruiker is ingesteld op een locatie die niet is geconfigureerd als een satelliet locatie of de centrale locatie, wordt het systeem standaard ingesteld op de centrale locatie bij het inrichten van OneDrive-en SharePoint-sites en de groeps postvakken.
+> Als de voorkeursgegevenslocatie van een gebruiker is ingesteld op een locatie die niet is geconfigureerd als een satellietlocatie of centrale locatie, wordt het systeem standaard ingesteld op de centrale locatie bij het inrichten van OneDrive- en SharePoint-sites en groepspostvakken.
 
 > [!TIP]
-> U wordt geadviseerd om op basis van validaties te beginnen met een testgebruiker of een kleine groep gebruikers voordat u meerdere geografische rollen gebruikt voor de bredere organisatie.
+> Het is raadzaam validaties te starten met een testgebruiker of een kleine groep gebruikers voordat u multige geo uitrolt naar uw bredere organisatie.
 
-In azure Active Directory (Azure AD) zijn twee soorten gebruikersobjecten: alleen Cloud gebruikers en gesynchroniseerde gebruikers. Volg de juiste instructies voor uw type gebruiker.
+In Azure Active Directory (Azure AD) zijn er twee typen gebruikersobjecten: alleen cloudgebruikers en gesynchroniseerde gebruikers. Volg de juiste instructies voor uw type gebruiker.
 
-### <a name="synchronize-users-preferred-data-location-using-azure-ad-connect"></a>De voorkeurs gegevenslocatie van de gebruiker synchroniseren met Azure AD Connect 
+### <a name="synchronize-users-preferred-data-location-using-azure-ad-connect"></a>De voorkeursgegevenslocatie van de gebruiker synchroniseren met Azure AD Connect 
 
-Als de gebruikers van uw bedrijf worden gesynchroniseerd vanuit een on-premises Active Directory-systeem naar Azure AD, moet hun PreferredDataLocation worden ingevuld in AD en gesynchroniseerd met Azure AD.
+Als de gebruikers van uw bedrijf vanuit een on-premises Active Directory-systeem worden gesynchroniseerd met Azure AD, moet de PreferredDataLocation worden ingevuld in AD en worden gesynchroniseerd met Azure AD.
 
-Volg het proces in [Azure Active Directory Connect Sync: Configureer de gewenste gegevenslocatie voor Microsoft 365-bronnen](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) om de synchronisatie van de gewenste gegevenslocatie te configureren vanuit uw on-premises Active Directory Domain Services (AD DS) naar Azure AD.
+Volg het proces in Azure Active Directory Connect-synchronisatie: Configureer voorkeursgegevenslocatie voor [Microsoft 365-bronnen](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) om voorkeursgegevenssynchronisatie te configureren van uw on-premises Active Directory Domain Services (AD DS) naar Azure AD.
 
-U wordt aangeraden de voorkeurs gegevenslocatie van de gebruiker in te stellen als onderdeel van uw standaard werkstroom voor het maken van gebruikers.
+We raden u aan de voorkeursgegevenslocatie van de gebruiker in te stellen als onderdeel van uw standaardwerkstroom voor het maken van gebruikers.
 
 > [!IMPORTANT]
-> Als er nieuwe gebruikers zijn met geen OneDrive-ingerichte, wacht u minstens 24 uur nadat de PDL van een gebruiker is gesynchroniseerd met Azure AD zodat de wijzigingen worden doorgevoerd voordat de gebruiker zich aanmeldt bij OneDrive voor bedrijven. (Wanneer de gebruiker zich aanmeldt voor het instellen van de locatie van OneDrive voor bedrijven, kunt u het beste de nieuwe OneDrive van de gebruiker op de juiste locatie inrichten).
+> Voor nieuwe gebruikers die geen OneDrive hebben ingericht, wacht u ten minste 24 uur nadat het PDL van een gebruiker is gesynchroniseerd met Azure AD totdat de wijzigingen zijn doorgevoerd voordat de gebruiker zich aanmeldt bij OneDrive voor Bedrijven. (Als u de voorkeursgegevenslocatie instelt voordat de gebruiker zich aanmeldt om oneDrive voor Bedrijven in terichten, zorgt u ervoor dat de nieuwe OneDrive van de gebruiker op de juiste locatie wordt ingericht.)
 
-### <a name="setting-preferred-data-location-for-cloud-only-users"></a>Voorkeurs gegevenslocatie instellen voor gebruikers met Cloud only 
+### <a name="setting-preferred-data-location-for-cloud-only-users"></a>Voorkeursgegevenslocatie instellen voor gebruikers die alleen de cloud gebruiken 
 
-Als de gebruikers van uw bedrijf niet worden gesynchroniseerd vanuit een on-premises Active Directory-systeem naar Azure AD, betekent dit dat ze zijn gemaakt in Microsoft 365 of Azure AD en moet de PDL-module van de Microsoft Azure Active Directory-module voor Windows PowerShell worden ingesteld.
+Als de gebruikers van uw bedrijf niet vanuit een on-premises Active Directory-systeem worden gesynchroniseerd met Azure AD, wat betekent dat ze worden gemaakt in Microsoft 365 of Azure AD, moet de PDL worden ingesteld met behulp van de Microsoft Azure Active Directory-module voor Windows PowerShell.
 
-Voor de procedures in deze sectie is de [Microsoft Azure Active Directory-module voor Windows PowerShell module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0)vereist. Als u deze module al hebt geïnstalleerd, moet u ervoor zorgen dat u de nieuwste versie bijwerkt.
+Voor de procedures in deze sectie is de [Microsoft Azure Active Directory-module voor Windows PowerShell-module vereist.](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0) Als u deze module al hebt geïnstalleerd, moet u bijwerken naar de nieuwste versie.
 
-1.  [Maak verbinding en meld](/powershell/connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) u aan met een set globale beheerdersreferenties voor uw Tenant.
+1.  [Maak verbinding en meld u aan](/powershell/connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) met een reeks globale beheerdersreferenties voor uw tenant.
 
-2.  U kunt de [set-MsolUser-](https://docs.microsoft.com/powershell/msonline/v1/set-msoluser) cmdlet gebruiken om de voorkeurs gegevenslocatie voor alle gebruikers in te stellen. Bijvoorbeeld:
+2.  Gebruik de [cmdlet Set-MsolUser](https://docs.microsoft.com/powershell/msonline/v1/set-msoluser) om de gewenste gegevenslocatie in te stellen voor al uw gebruikers. Bijvoorbeeld:
 
     `Set-MsolUser -userprincipalName Robyn.Buckley@Contoso.com -PreferredDatalocation EUR`
 
-    Met de cmdlet Get-MsolUser kunt u controleren of de locatie van de voorkeurs gegevens juist is bijgewerkt. Bijvoorbeeld:
+    U kunt met behulp van de cmdlet Get-MsolUser controleren of de Get-MsolUser is bijgewerkt. Bijvoorbeeld:
 
     `(Get-MsolUser -userprincipalName Robyn.Buckley@Contoso.com).PreferredDatalocation`
 
-![Schermafbeelding van het PowerShell-venster met set-msoluser](../media/multi-geo-tenant-configuration-image3.png)
+![Schermafbeelding van PowerShell-venster met set-msoluser](../media/multi-geo-tenant-configuration-image3.png)
 
-U wordt aangeraden de voorkeurs gegevenslocatie van de gebruiker in te stellen als onderdeel van uw standaard werkstroom voor het maken van gebruikers.
+We raden u aan de voorkeursgegevenslocatie van de gebruiker in te stellen als onderdeel van uw standaardwerkstroom voor het maken van gebruikers.
 
 > [!IMPORTANT]
-> Als er nieuwe gebruikers zijn met geen OneDrive, wacht u minstens 24 uur nadat de PDL van een gebruiker is ingesteld op de wijzigingen doorgeven voordat de gebruiker zich aanmeldt bij OneDrive. (Wanneer de gebruiker zich aanmeldt voor het instellen van de locatie van OneDrive voor bedrijven, kunt u het beste de nieuwe OneDrive van de gebruiker op de juiste locatie inrichten).
+> Voor nieuwe gebruikers die geen OneDrive hebben ingericht, wacht u minimaal 24 uur nadat het PDF-logboek van een gebruiker is ingesteld totdat de wijzigingen worden doorgevoerd voordat de gebruiker zich aanmeldt bij OneDrive. (Als u de voorkeursgegevenslocatie instelt voordat de gebruiker zich aanmeldt om OneDrive voor Bedrijven in terichten, zorgt u ervoor dat de nieuwe OneDrive van de gebruiker op de juiste locatie wordt ingericht.)
 
-## <a name="onedrive-provisioning-and-the-effect-of-pdl"></a>OneDrive inrichten en het effect van PDL
+## <a name="onedrive-provisioning-and-the-effect-of-pdl"></a>OneDrive Provisioning and the effect of PDL
 
-Als de gebruiker al een OneDrive-site in de Tenant heeft gemaakt, wordt de bestaande OneDrive niet automatisch verplaatst via de team site. Als u OneDrive van een gebruiker wilt verplaatsen, raadpleegt u [overstappen op onedrive voor bedrijven](move-onedrive-between-geo-locations.md) en volgt u de instructies in onedrive verplaatsen tussen geo-locaties. (Houd er rekening mee dat het Exchange-postvak van de gebruiker automatisch wordt verplaatst wanneer u de PDL van de gebruiker instelt.)
+Als de gebruiker al een OneDrive-site heeft die in de tenant is gemaakt, wordt zijn of haar bestaande OneDrive niet automatisch verplaatst als het PDL-site wordt gemaakt. Als u OneDrive van een gebruiker wilt verplaatsen, gaat u [naar OneDrive voor Bedrijven Geo Move.](move-onedrive-between-geo-locations.md)
 
-Als de gebruiker geen OneDrive-site in de Tenant heeft, wordt deze in overeenstemming met hun PDL-waarde ingericht, op voorwaarde dat de PDL voor de gebruiker overeenkomt met een van de satelliet locaties van het bedrijf.
+> [!NOTE]
+> Exchange Online verplaatst het postvak van de gebruiker automatisch als de PLD wordt gewijzigd en de MailboxRegion niet meer overeenkomt met de geografische locatiecode van de postvakdatabase. Zie Postvakken van Exchange Online beheren in een omgeving met meerdere geografische gebieden voor [meer informatie.](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo)
 
-## <a name="configuring-multi-geo-search"></a>Meerdere geografische zoekopdrachten configureren
+Als de gebruiker geen OneDrive-site binnen de tenant heeft, wordt OneDrive voor de gebruiker ingericht op basis van de PDL-waarde, ervan uitgaande dat het PDL voor de gebruiker overeenkomt met een van de satellietlocaties van het bedrijf.
 
-Uw Tenant voor meervoudige geo-en zoekmogelijkheden biedt een zoekopdracht waarmee een zoekopdracht de resultaten van een willekeurige plaats binnen de Tenant kan retourneren.
+## <a name="configuring-multi-geo-search"></a>Multi-Geo search configureren
 
-Standaard worden in zoekresultaten samengestelde resultaten geretourneerd, zelfs als elke zoekindex zich in de betreffende geografische locatie bevindt:
+Uw multige geoten tenant heeft statistische zoekmogelijkheden waarmee een zoekquery resultaten kan retourneren vanuit elke locatie in de tenant.
+
+Zoekopdrachten op deze invoerpunten retourneren standaard samengevoegde resultaten, ook al bevindt elke zoekindex zich op de relevante geografische locatie:
 
 - OneDrive voor Bedrijven
 
 - Delve
 
-- SharePoint-Startpagina
+- SharePoint-start
 
 - Zoekcentrum
 
-U kunt ook de zoekfuncties voor meervoudige geo configureren voor uw aangepaste zoektoepassingen die gebruikmaken van de SharePoint-zoek-API.
+Bovendien kunnen er meerdere geografische zoekmogelijkheden worden geconfigureerd voor uw aangepaste zoektoepassingen die gebruikmaken van de SharePoint-zoek-API.
 
-Kijk voor meer informatie [over het configureren van de zoekfunctie voor OneDrive voor bedrijven,](configure-search-for-multi-geo.md) waaronder eventuele beperkingen en verschillen.
+Raadpleeg [Zoeken in OneDrive voor Bedrijven Multi Geo](configure-search-for-multi-geo.md) configureren voor instructies, inclusief eventuele beperkingen en verschillen.
 
-## <a name="validating-the-microsoft-365-multi-geo-configuration"></a>De configuratie van Microsoft 365 meerdere geo-geografische configuraties valideren
+## <a name="validating-the-microsoft-365-multi-geo-configuration"></a>De Configuratie van Microsoft 365 Multi-Geo valideren
 
-Hieronder vindt u enkele basis situaties die u mogelijk wilt opnemen in uw validatie plan voordat u Microsoft 365 meerdere geografische rollen uitvoert voor uw bedrijf. Wanneer u deze tests en eventuele extra use cases die relevant zijn voor uw bedrijf hebt voltooid, kunt u ervoor kiezen om de gebruikers toe te voegen aan de aanvankelijke testgroep.
+Hieronder vindt u enkele eenvoudige use cases die u mogelijk wilt opnemen in uw validatieplan voordat u Microsoft 365 Multi-Geo globaal uitrolt voor uw bedrijf. Nadat u deze tests hebt voltooid en eventuele extra use cases die relevant zijn voor uw bedrijf, kunt u ervoor kiezen om verder te gaan met het toevoegen van de gebruikers aan uw eerste testgroep.
 
 **OneDrive voor Bedrijven**
 
-Selecteer OneDrive in het startprogramma voor apps van Microsoft 365 en bevestig dat u automatisch wordt doorgestuurd naar de juiste geografische locatie voor de gebruiker, op basis van de PDL van de gebruiker. OneDrive voor bedrijven moet nu op die locatie beginnen met inrichten. Probeer een aantal documenten te uploaden en te downloaden als u dit hebt ingericht.
+Selecteer OneDrive in het start programma voor apps van Microsoft 365 en controleer of u automatisch wordt doorgestuurd naar de juiste geografische locatie voor de gebruiker, op basis van het PDL-bestand van de gebruiker. OneDrive voor Bedrijven moet nu beginnen met de inrichting op die locatie. Wanneer de inrichting is ingericht, uploadt en downloadt u enkele documenten.
 
 **Mobiele OneDrive-app**
 
-Meld u aan bij uw mobiele OneDrive-app met de referenties van uw testaccount. Ga na of u de bestanden van OneDrive voor bedrijven kunt zien en er met ze op kunt werken vanaf uw mobiele apparaat.
+Meld u aan bij uw mobiele OneDrive-app met de referenties van uw testaccount. Bevestig dat u uw OneDrive voor Bedrijven-bestanden kunt zien en er interactief mee kunt werken vanaf uw mobiele apparaat.
 
 **OneDrive-synchronisatieclient**
 
-Ga na of de OneDrive-synchronisatieclient automatisch de geo-locatie van OneDrive voor bedrijven detecteert wanneer u zich aanmeldt. Als u de synchronisatieclient moet downloaden, kunt u op **synchroniseren** klikken in de OneDrive-bibliotheek.
+Controleer of de OneDrive-synchronisatieclient uw geografische locatie voor OneDrive voor Bedrijven automatisch detecteert wanneer u zich aanmeldt. Als u de synchronisatieclient wilt downloaden, klikt u op **Synchroniseren** in de OneDrive-bibliotheek.
 
 **Office-toepassingen**
 
-Ga na of u toegang hebt tot OneDrive voor bedrijven door u aan te melden bij een Office-toepassing, zoals Word. Open de Office-toepassing en selecteer OneDrive- <TenantName> . Uw OneDrive-locatie wordt door Office herkend en u ziet de bestanden die u kunt openen.
+Bevestig dat u OneDrive voor Bedrijven kunt openen door u aan te melden vanuit een Office-toepassing, zoals Word. Open de Office-toepassing en selecteer 'OneDrive – <TenantName> '. Office detecteert uw OneDrive-locatie en toont de bestanden die u kunt openen.
 
 **Delen**
 
-Probeer OneDrive-bestanden te delen. Ga na of de persoon kiezen al uw SharePoint Online-gebruikers ziet, ongeacht hun geografische locatie.
+Probeer OneDrive-bestanden te delen. Controleer of de personen kiezen al uw SharePoint Online-gebruikers toont, ongeacht hun geografische locatie.

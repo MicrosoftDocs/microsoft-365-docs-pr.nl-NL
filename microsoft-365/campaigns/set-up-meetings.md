@@ -24,28 +24,28 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Onlinevergaderingen instellen met Microsoft teams.
-ms.openlocfilehash: 3e1eaba887249db59ef28e36ffefb5b89f80c469
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+description: Onlinevergaderingen instellen met Microsoft Teams.
+ms.openlocfilehash: a78a3a2ef66a2bc659a1c655dab338a1055ae3af
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131998"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044166"
 ---
 # <a name="set-up-meetings"></a>Vergaderingen instellen
 
-Vergaderingen in Microsoft teams zijn inclusief audio, video en delen. En omdat ze online zijn, hebt u altijd een vergaderruimte en hoeft u voor uw campagne geen ruimte of projector te maken.Vergaderingen in Microsoft teams zijn een fantastische manier om samen te werken met uw medewerkers en vrijwilligers binnen en buiten uw organisatie. U hoeft geen lid te zijn van uw organisatie of zelfs een account om deel te nemen aan een vergadering. Voor uw politieke campagne kunt u onlinevergaderingen plannen en uitvoeren met behulp van Microsoft teams. U kunt medewerkers, vrijwilligers en gasten buiten uw organisatie opnemen. Tijdens een vergadering kunt u uw scherm delen, bestanden delen, taken toewijzen en meer.
+Vergaderingen in Microsoft Teams omvatten audio, video en delen. En omdat ze online zijn, hebt u altijd een vergaderruimte (zonder een ruimte of projector nodig!), zelfs als uw medewerkers geografisch verspreid zijn of op afstand werken. Vergaderingen in Microsoft Teams zijn een uitstekende manier om samen te werken met uw medewerkers, zowel binnen als buiten uw organisatie. U hoeft geen lid te zijn van uw organisatie of zelfs een account te hebben om deel te nemen aan een vergadering. U kunt onlinevergaderingen plannen en uitvoeren met Microsoft Teams. Tijdens een vergadering kunt u uw scherm delen, bestanden delen, taken toewijzen en meer. Campagnecampagnes kunnen medewerkers, vrijwilligers en gasten van buiten uw organisatie aan de vergadering omvatten. Kleine kantoren of procedures kunnen hun medewerkers ontmoeten of via Microsoft Teams vergaderen met klanten of partners.
 
-[![Een illustratie van twee gebruikers in een vergadering](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)
+[![Een afbeelding van twee gebruikers in een vergadering](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)
 
-Download een infographic in [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) of [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) voor een beknopt overzicht van hoe u kunt deelnemen aan een onlinevergadering en hoe u deze kunt hosten met Microsoft teams.
+Download een infographic in [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) of [PowerPoint voor](https://go.microsoft.com/fwlink/?linkid=2079515) een kort overzicht van hoe u kunt deelnemen aan of een onlinevergadering kunt houden met Microsoft Teams.
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
-Volg deze aanbevolen procedures voor uw onlinevergaderingen:
-- Plan uw onlinevergaderingen rechtstreeks in Microsoft teams. U kunt een team en een kanaal kiezen, en teams zal de deelnemers automatisch uitnodigen in het team of kanaal.
-- Hebt u een ongeplande vergadering nodig? Als u een een-op-een-chat hebt, kiest u **Nu vergaderen** om een video-of audiogesprek te starten met de persoon met wie u wilt chatten. 
+Volg deze best practices voor uw onlinevergaderingen:
 
+- Plan uw onlinevergaderingen in Microsoft Teams. U kunt een team en kanaal kiezen, en Teams nodigt de deelnemers in dat team of kanaal automatisch uit.
+- Hebt u een spontane vergadering nodig? Als u een een-op-een-chat  hebt, kiest u Nu vergaderen om een video- of audiogesprek te starten met de persoon met wie u chat.
 
 ## <a name="schedule-a-meeting"></a>Een vergadering plannen
 
@@ -55,6 +55,6 @@ Volg deze aanbevolen procedures voor uw onlinevergaderingen:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYWn]
 
-Meer informatie over vergaderingen in Microsoft teams:
+Meer informatie over vergaderen in Microsoft Teams:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWeokQ]

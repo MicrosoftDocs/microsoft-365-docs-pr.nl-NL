@@ -1,5 +1,5 @@
 ---
-title: De beveiliging van uw campagne op een rij omhoog brengen
+title: Beveiligingsbeveiliging voor uw campagne of bedrijf verbeteren
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -23,28 +23,28 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over hoe u uw campagne beschermen door uw beveiliging te verhogen met Microsoft 365 voor campagnes.
-ms.openlocfilehash: 0be3a3ef766686c830ffffc8aaee451b67c0b81f
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Lees hoe u uw campagne of bedrijf kunt beschermen door uw werk te beveiligen met Microsoft 365.
+ms.openlocfilehash: d2486f7160bef57a91d76fba756ff75ba319b8fa
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527088"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044370"
 ---
-# <a name="bump-up-security-protection-for-your-campaign"></a>De beveiliging van uw campagne op een rij omhoog brengen
+# <a name="bump-up-security-protection-for-your-campaign-or-business"></a>Beveiligingsbeveiliging voor uw campagne of bedrijf verbeteren
 
 
 ## <a name="overview"></a>Overzicht 
-Bekijk deze video om te zien hoe je je campagne beschermen:
+Bekijk deze video om te zien hoe u uw campagne of bedrijf kunt beschermen:
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3cfV1]  
 
 
-Volg vervolgens de stappen naar:
+Volg daarna de stappen om:
+
 - [Beveiliging tegen malware en andere bedreigingen](m365-campaigns-increase-protection.md)
-- [Bescherm de toegang tot uw campagnegegevens](m365-campaigns-conditional-access.md) door uw accounts en apps te beschermen
+- [Toegang tot uw campagnegegevens beschermen door](m365-campaigns-conditional-access.md) uw accounts en apps te beveiligen
 - [Beheerdersaccounts beveiligen](m365-campaigns-protect-admin-accounts.md)
 - [Mobiele apparaten instellen](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
-- [Uw gebruikers trainen](m365-campaigns-users.md) 
-
+- [Uw gebruikers trainen](m365-campaigns-users.md)

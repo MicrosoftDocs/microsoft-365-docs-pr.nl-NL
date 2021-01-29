@@ -25,49 +25,46 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie over het verzenden van versleutelde e-mail via Outlook.
-ms.openlocfilehash: f5184de55ce07d5e669e98afb6e627833071c4ba
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: d17abccd645b4dfdf933906dc90175be51f95c9a
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526874"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044214"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Uw gevoelige e-mailberichten versleutelen of labelen
 
-Uw gegevens en campagne-informatie zijn belangrijk en vaak vertrouwelijk. Help deze gevoelige informatie te beschermen door versleutelings- en gevoeligheidslabels te gebruiken, zodat u en uw e-mailontvangers de informatie behandelen met de gevoeligheid die dit vereist.
-
+Uw gegevens en campagnegegevens zijn belangrijk en vaak vertrouwelijk. Bebeveiligen deze gevoelige informatie met behulp van versleuteling en gevoeligheidslabels, zodat u en uw e-mailontvangers de informatie met de gevoeligheid behandelen die hiervoor is vereist.
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
-Voordat u e-mail verzendt met vertrouwelijke of gevoelige informatie, u overwegen het inschakelen van:
+Voordat u een e-mailbericht met vertrouwelijke of gevoelige informatie verzendt, kunt u het volgende in- of uitschakelen:
 
-- **Versleuteling:** U uw e-mail versleutelen om de privacy van de informatie in de e-mail te beschermen. Wanneer u een e-mailbericht versleutelt, wordt het omgezet van leesbare platte tekst in vervormde cyphertekst. Alleen de ontvanger die de privésleutel heeft die overeenkomt met de openbare sleutel die wordt gebruikt om het bericht te versleutelen, kan het bericht ontcijferen om te lezen. Elke ontvanger zonder de bijbehorende privésleutel ziet echter onleesbare tekst. Uw beheerder kan regels definiëren om berichten die aan bepaalde criteria voldoen, automatisch te versleutelen. Uw beheerder kan bijvoorbeeld een regel maken die alle berichten versleutelt die buiten uw organisatie worden verzonden of alle berichten waarin specifieke woorden of zinnen worden vermeld. Alle versleutelingsregels worden automatisch toegepast.
-- **Gevoeligheidslabels:** Uw campagne kan ook gevoeligheidslabels instellen die u toepassen op uw bestanden en e-mail om ze te laten voldoen aan het beleid voor informatiebescherming van uw campagne. Wanneer u een label instelt, blijft het label bij uw e-mail, zelfs wanneer het wordt verzonden, bijvoorbeeld door als koptekst naar uw bericht te worden weergegeven.
+- **Versleuteling:** U kunt uw e-mail versleutelen om de privacy van de gegevens in de e-mail te beschermen. Wanneer u een e-mailbericht versleutelt, wordt dit geconverteerd van leesbare tekst zonder tekst naar gecodeerde cypherische tekst. Alleen de ontvanger met de persoonlijke sleutel die overeenkomt met de openbare sleutel waarmee het bericht is versleuteld, kan het bericht ontcijferen om te lezen. Iedere ontvanger zonder de bijbehorende persoonlijke sleutel ziet echter ondeci bolvormige tekst. Uw beheerder kan regels definiëren om berichten die aan bepaalde criteria voldoen, automatisch te versleutelen. Uw beheerder kan bijvoorbeeld een regel maken die alle berichten versleutelt die buiten uw organisatie worden verzonden of alle berichten die specifieke woorden of woordgroepen bevatten. Versleutelingsregels worden automatisch toegepast.
+- **Gevoeligheidslabels:** Uw campagne kan ook gevoeligheidslabels instellen die u op uw bestanden en e-mailberichten kunt toepassen om ervoor te zorgen dat ze voldoen aan het beleid voor informatiebeveiliging van uw campagne. Wanneer u een label in stelt, blijft het label bij uw e-mailbericht staan, zelfs wanneer het wordt verzonden, bijvoorbeeld door deze als een koptekst voor uw bericht weer te geven.
 
-![Diagram van een e-mail met bijschriften voor labels en versleuteling](../media/m365-campaign-email-encrypt.png)
-
+![Diagram van een e-mailbericht met bijroepen voor labels en versleuteling](../media/m365-campaign-email-encrypt.png)
 
 ## <a name="set-it-up"></a>Instellen
 
-Als u een bericht wilt versleutelen dat niet aan een vooraf gedefinieerde regel voldoet of als uw beheerder geen regels heeft ingesteld, u verschillende versleutelingsregels toepassen voordat u het bericht verzendt. Als u een versleuteld bericht wilt verzenden vanuit Outlook 2013 of 2016 of Outlook 2016 voor Mac, selecteert u **Opties > Machtigingen**en selecteert u de beveiligingsoptie die u nodig hebt. U ook een versleuteld bericht verzenden door de knop **Beveiligen** in de webversie van Outlook te selecteren. Zie [Versleutelde berichten verzenden, weergeven en beantwoorden in Outlook voor pc voor](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)meer informatie.
+Als u een bericht wilt versleutelen dat niet voldoet aan een vooraf gedefinieerde regel of als uw beheerder geen regels heeft ingesteld, kunt u verschillende versleutelingsregels toepassen voordat u het bericht verzendt. Als u een versleuteld bericht wilt verzenden vanuit Outlook 2013 of 2016 of Outlook 2016 voor Mac, selecteert u Opties **>-machtigingen** en selecteert u vervolgens de gewenste beveiligingsoptie. U kunt ook een versleuteld bericht verzenden door de knop Beveiligen te **selecteren** in de webversie van Outlook. Zie Versleutelde berichten verzenden, weergeven en [beantwoorden in Outlook voor pc voor meer informatie.](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
 
-## <a name="admin-settings"></a>Beheerdersinstellingen
+## <a name="admin-settings"></a>Beheerinstellingen
 
-U alles te weten komen over het instellen van e-mailversleuteling bij [e-mailversleuteling in Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)
+Meer informatie over het instellen van e-mailversleuteling bij [E-mailversleuteling in Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)
 
 ### <a name="automatically-encrypt-email-messages"></a>E-mailberichten automatisch versleutelen
 
-Beheerders kunnen regels voor e-mailstromen maken om e-mailberichten die worden verzonden en ontvangen van uw campagne automatisch te beschermen. Stel regels in om uitgaande e-mailberichten te versleutelen en versleuteling te verwijderen uit versleutelde berichten die afkomstig zijn van uw organisatie of uit antwoorden op versleutelde berichten die vanuit uw organisatie worden verzonden. 
+Beheerders kunnen regels voor de e-mailstroom maken om e-mailberichten die vanuit uw campagne worden verzonden en ontvangen, automatisch te beveiligen. Stel regels in om uitgaande e-mailberichten te versleutelen en versleuteling te verwijderen van versleutelde berichten die afkomstig zijn van binnen uw organisatie of van antwoorden op versleutelde berichten die van uw organisatie worden verzonden.
 
-U maakt regels voor e-mailstroom om e-mailberichten te versleutelen met de nieuwe ome-mogelijkheden (Office 365 Message Encryption). Definieer regels voor e-mailstroom voor het activeren van berichtversleuteling met de nieuwe OME-mogelijkheden met behulp van het Exchange Admin Center (EAC). 
+U maakt regels voor de e-mailstroom om e-mailberichten te versleutelen met de nieuwe mogelijkheden van Office 365-berichtversleuteling (OME). Definieer regels voor de e-mailstroom voor het activeren van berichtversleuteling met de nieuwe OME-mogelijkheden met behulp van het Exchange-beheercentrum (EAC). 
 
-1. Meld u in een webbrowser aan met een werk- of schoolaccount dat algemene beheerdersmachtigingen heeft gekregen. 
-2. Kies de tegel Beheerder. 
-3. Kies in het beheercentrum **Beheercentra > Exchange**. 
+1. Meld u in een webbrowser aan met een werk- of schoolaccount dat globale beheerdersmachtigingen heeft gekregen.
+2. Kies de tegel Beheerder.
+3. Kies in het beheercentrum **beheercentra > Exchange.**
 
-Zie [Regels voor e-mailstroom definiëren om e-mailberichten te versleutelen voor](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)meer informatie.
+Zie Regels voor de [e-mailstroom definiëren om e-mailberichten te versleutelen](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)voor meer informatie.
 
-### <a name="brand-your-encryption-messages"></a>Uw versleutelingsberichten brandmerken
+### <a name="brand-your-encryption-messages"></a>Uw versleutelingsberichten van een huismerk voorzien
 
-U uw campagnebranding ook toepassen om het uiterlijk en de tekst in de e-mailberichten aan te passen. [Zie Het merk van uw organisatie toevoegen aan uw versleutelde berichten voor](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)meer informatie.
-
+U kunt ook de huisstijl van uw campagne toepassen om het uiterlijk en de tekst in de e-mailberichten aan te passen. Zie Het merk van uw organisatie toevoegen aan [versleutelde berichten voor meer informatie.](https://docs.microsoft.com/microsoft-365/compliance/email-encryption)

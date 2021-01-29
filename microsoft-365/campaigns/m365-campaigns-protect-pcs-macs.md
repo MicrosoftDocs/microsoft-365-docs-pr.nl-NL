@@ -1,5 +1,5 @@
 ---
-title: Onbeheerde Windows 10-pc's en Macs beschermen
+title: Onopgeslagen Windows 10-pc's en Macs beveiligen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,17 +23,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Bescherm tegen phishing en andere aanvallen met Microsoft 365 voor campagnes.
-ms.openlocfilehash: 3e0c6a52209c56e75c6ff1210f26e6926e4d7d32
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Bebeveiligen onmanaged of breng uw eigen apparaten (BYOD) aan met Microsoft 365.
+ms.openlocfilehash: 5c27b29b5bb4fb445655e671d8c654ad8e9abc6b
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527136"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044382"
 ---
-# <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Onbeheerde Windows 10-pc's en Macs beschermen
+# <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Niet-bemande Windows 10-pc's en Macs beveiligen
 
-U Windows 10-pc's en Macs beheren door ze in te schrijven in Microsoft Intune, waarmee u ervoor zorgen dat ze gezond en veilig zijn voordat u toegang krijgt tot gegevens in uw omgeving. Veel campagnes en kleine bedrijven omvatten echter medewerkers die hun eigen apparaten (byod) meebrengen, die niet door de organisatie worden beheerd. Voor deze onbeheerde pc's en Macs gebruikt u dit artikel om ervoor te zorgen dat minimale beveiligingsmogelijkheden zijn geconfigureerd. 
+U kunt Windows 10-pc's en Macs beheren door ze te registreren in Microsoft Intune, zodat u er zeker van kunt zijn dat ze gezond en veilig zijn voordat u toegang krijgt tot gegevens in uw omgeving. Veel campagnes en kleine bedrijven omvatten echter medewerkers die hun eigen apparaten (BYOD) brengen, die niet worden beheerd door de organisatie. Gebruik dit artikel voor deze onveilige pc's en Macs om ervoor te zorgen dat minimale beveiligingsmogelijkheden zijn geconfigureerd.
 
 <!--A Windows 10 PC is considered managed after you have completed the following two steps:
 
@@ -46,34 +46,35 @@ U Windows 10-pc's en Macs beheren door ze in te schrijven in Microsoft Intune, w
 
 <!--If you have a PC that is running Windows 10 that is not connected to Microsoft 365, or a Mac, the Microsoft 365 protections do not apply to it, but here are some things you can do to keep your data secure on these devices as well:
 -->
-Als uw Windows 10-pc of -Mac niet door uw organisatie wordt beheerd, moet u deze beveiligingsmogelijkheden configureren.
+Als uw Windows 10-pc of Mac niet wordt beheerd door uw organisatie, moet u deze beveiligingsmogelijkheden configureren.
 
 ## <a name="windows-10"></a>[Windows 10](#tab/Windows10)
-**Apparaatversleuteling inschakelen**<p>
 
-Apparaatversleuteling is beschikbaar op een breed scala aan Windows-apparaten en helpt uw gegevens te beschermen door deze te versleutelen. Als u apparaatversleuteling inschakelt, hebben alleen geautoriseerde personen toegang tot uw apparaat en gegevens. Zie [Apparaatversleuteling inschakelen](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) voor instructies.
+**Apparaatversleuteling inversleutelen**<p>
 
- Als apparaatversleuteling niet beschikbaar is op uw apparaat, u in plaats daarvan standaard [BitLocker-versleuteling](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) inschakelen. (BitLocker is niet beschikbaar op Windows 10 Home-editie.) 
+Apparaatversleuteling is beschikbaar op een groot aantal Windows-apparaten en helpt uw gegevens te beschermen door ze te versleutelen. Als u apparaatversleuteling in bedrijf neemt, hebben alleen geautoriseerde personen toegang tot uw apparaat en gegevens. Zie [Apparaatversleuteling in turn on](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) for instructions.
 
+ Als apparaatversleuteling niet beschikbaar is op uw apparaat, kunt u in plaats daarvan de [standaard-BitLocker-versleuteling](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) in te stellen. (BitLocker is niet beschikbaar in de Windows 10 Home-editie.) 
 
-**Uw apparaat beveiligen met Windows Security**<p>
-Als u Windows 10 hebt, krijgt u de nieuwste antivirusbeveiliging met Windows Security. Wanneer u Windows 10 voor de eerste keer opstart, staat Windows Security aan en helpt actief om uw pc te beschermen door te scannen op malware (schadelijke software), virussen en beveiligingsbedreigingen. Windows Security maakt gebruik van realtime beveiliging om alles wat u downloadt of uitvoert op uw pc te scannen.
+**Bescherm uw apparaat met Windows-beveiliging**<p>
+Als u Windows 10 hebt, krijgt u de nieuwste antivirusbeveiliging met Windows-beveiliging. Wanneer u Windows 10 voor de eerste keer start, is Windows-beveiliging aan en wordt uw pc actief beschermd door te scannen op malware (kwaadaardige software), virussen en beveiligingsrisico's. Windows-beveiliging maakt gebruik van realtime-beveiliging om alles te scannen wat u downloadt of op uw pc gebruikt.
 
-Windows Update downloadt automatisch updates voor Windows Security om uw pc veilig te houden en te beschermen tegen bedreigingen.
+Windows Update downloadt updates voor Windows-beveiliging automatisch om uw pc te beschermen tegen bedreigingen.
 
-Als u een eerdere versie van Windows hebt en Microsoft Security Essentials gebruikt, is het een goed idee om over te stappen naar Windows Security. Zie [Help mijn apparaat te beschermen met Windows Security](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security)voor meer informatie.
+Als u een eerdere versie van Windows hebt en Microsoft Security Essentials gebruikt, is het een goed idee om over te gaan op Windows-beveiliging. Zie 'Mijn apparaat beschermen [met Windows-beveiliging' voor meer informatie.](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security)
 
-**Windows Firewall inschakelen**<p>
-U moet Windows Firewall altijd uitvoeren, zelfs als u een andere firewall hebt ingeschakeld. Als u Windows Firewall uitschakelt, kan uw apparaat (en uw netwerk, als u er een hebt) kwetsbaarder worden voor ongeautoriseerde toegang. Zie [Windows Firewall in- of uitschakelen](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) voor instructies
+**Windows Firewall in te zetten**<p>
+U moet Windows Firewall altijd gebruiken, zelfs als u een andere firewall hebt ingeschakeld. Als u Windows Firewall uit schakelen, wordt uw apparaat (en netwerk, indien van gebruik) kwetsbaarder voor toegang door onbevoegden. Zie [Windows Firewall in- of uitschakelen](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) voor instructies
 
 ## <a name="mac"></a>[Mac](#tab/Mac)
+
 **FileVault gebruiken om uw Mac-schijf te versleutelen**<p>
-Schijfversleuteling beschermt gegevens wanneer apparaten verloren gaan of worden gestolen. BestandVault full-disk encryptie helpt voorkomen dat ongeautoriseerde toegang tot de informatie op uw opstartschijf. Zie [FileVault gebruiken om de opstartschijf op uw Mac te versleutelen](https://support.apple.com/HT204837) voor instructies.
+Met schijfversleuteling beschermt u uw gegevens bij verlies of diefstal van een apparaat. Met de volledige schijfversleuteling van FileVault voorkomt u dat onbevoegden toegang krijgen tot de gegevens op de opstartschijf. Zie [FileVault gebruiken om de opstartschijf op](https://support.apple.com/HT204837) uw Mac te versleutelen voor instructies.
 
-**Bescherm je mac tegen malware**<p>
-Microsoft raadt u aan betrouwbare antivirussoftware op uw Mac te installeren en te gebruiken. Zie het volgende artikel voor een lijst met keuzes: [Beste Mac antivirus 2019 ](https://www.macworld.co.uk/feature/mac-software/mac-antivirus-3672182/).
+**Bescherm uw Mac tegen malware**<p>
+Microsoft raadt u aan betrouwbare antivirussoftware op uw Mac te installeren en te gebruiken. Zie het volgende artikel voor een lijst met opties: [Beste Mac-antivirussoftware 2019. ](https://www.macworld.co.uk/feature/mac-software/mac-antivirus-3672182/)
 
-U ook het risico op malware verminderen door alleen software uit betrouwbare bronnen te gebruiken. Met de instellingen in Beveiligings & privacyvoorkeuren u de softwarebronnen opgeven die op uw Mac zijn geïnstalleerd. Zie [uw Mac beschermen tegen malware](https://support.apple.com/kb/PH25087)voor meer informatie.
+U kunt het risico van malware ook verminderen door alleen software uit betrouwbare bronnen te gebruiken. Met de instellingen in & privacyvoorkeuren kunt u de bronnen opgeven van software die op uw Mac is geïnstalleerd. Zie uw [Mac beveiligen tegen malware voor meer informatie.](https://support.apple.com/kb/PH25087)
 
-**Firewallbeveiliging inschakelen**<p>
-Gebruik firewall-instellingen om je Mac te beschermen tegen ongewenst contact dat door andere computers wordt gestart wanneer je verbinding hebt met internet of een netwerk. Zonder deze bescherming is uw Mac mogelijk kwetsbaarder voor ongeautoriseerde toegang. Zie [over de toepassing firewall](https://support.apple.com/HT201642) voor instructies.
+**Firewallbeveiliging in bedrijf**<p>
+Gebruik firewallinstellingen om uw Mac te beschermen tegen ongewenst contact met andere computers wanneer u verbinding hebt met internet of een netwerk. Zonder deze beveiliging is uw Mac mogelijk kwetsbaarder voor onbevoegde toegang. Zie [de firewall van de toepassing](https://support.apple.com/HT201642) voor instructies.

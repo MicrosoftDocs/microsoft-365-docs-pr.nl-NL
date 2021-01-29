@@ -23,58 +23,60 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Bescherm tegen phishing en andere aanvallen met Microsoft 365 voor campagnes.
-ms.openlocfilehash: 99b578c0b4f36d107d881d8b424ee899a937aa88
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: Bescherm u tegen phishing en andere aanvallen met Microsoft 365.
+ms.openlocfilehash: ce6212d77c8228e2ec130bc188f14e58144c6d30
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527160"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044474"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>Bescherm uzelf tegen phishing en andere aanvallen
 
-Microsoft 365 bevat veel beveiligingen om te waken tegen aanvallen, maar er zijn dingen die je zelf doen om het risico op online aanvallen te beperken en te minimaliseren.
+Microsoft 365 bevat veel beveiligingen om te beschermen tegen aanvallen, maar er zijn dingen die u zelf kunt doen om het risico op onlineaanvallen te beperken en te minimaliseren.
 
-- **Spam of ongewenste e-mail** Er zijn vele redenen waarom u ongewenste e-mail ontvangen en niet alle ongewenste e-mail is hetzelfde. U echter verminderen wat er tot u doorkomt en zo de risico's van aanvallen verminderen door ongewenste e-mail uit te filteren.
-- **Phishing** Een phishing scam is een e-mail die legitiem lijkt, maar is een poging om uw persoonlijke gegevens te krijgen of uw geld te stelen.
-- **Spoofing** Oplichters kunnen ook gebruik maken van een techniek genaamd spoofing om het te laten lijken alsof je een e-mail van jezelf hebt ontvangen. 
-- **Malware** is schadelijke software die op uw computer kan worden geïnstalleerd, meestal geïnstalleerd nadat u op een koppeling hebt geklikt of een document vanuit een e-mail hebt geopend. Er zijn verschillende soorten malware (bijvoorbeeld ransomware, wanneer uw computer wordt overgenomen), maar u wilt niet om een van hen hebben. 
+- **Spam of ongewenste e-mail** Er zijn tal van redenen waarom u ongewenste e-mail ontvangt en niet alle ongewenste e-mail is hetzelfde. U kunt echter wel beperken wat u te zien krijgt en zo de risico's van aanvallen verminderen door ongewenste e-mail uit te filteren.
+- **Phishing** Een phishingbericht is een e-mailbericht dat legitiem lijkt, maar een poging is om uw persoonlijke gegevens te verkrijgen of uw geld te stelen.
+- **Spoofing** Oplichters kunnen ook een techniek gebruiken die spoofing wordt genoemd, zodat het lijkt alsof u een e-mailbericht van uzelf hebt ontvangen. 
+- **Malware** is schadelijke software die op uw computer kan worden geïnstalleerd, meestal geïnstalleerd nadat u op een koppeling hebt geklikt of een document hebt geopend vanuit een e-mailbericht. Er zijn verschillende soorten malware (bijvoorbeeld ransomware, wanneer uw computer wordt overgenomen), maar u wilt deze niet hebben. 
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
-**Spammail verminderen**
+### <a name="reduce-spam-mail"></a>Spam beperken
 
-Volg deze [10 tips over hoe u helpen spam te verminderen.](https://support.microsoft.com/en-us/office/10-tips-on-how-to-help-reduce-spam-55f756e8-688b-41c3-a086-8f68ccc592f6)
+Volg deze [10 tips om spam te beperken.](https://support.microsoft.com/en-us/office/10-tips-on-how-to-help-reduce-spam-55f756e8-688b-41c3-a086-8f68ccc592f6)
 
-**Meld het!**
+### <a name="report-it"></a>Meld het!
 
-Meld phishing- of andere scam-e-mails die u ontvangt. Selecteer het bericht en kies **Bericht rapporteren** op het lint.
-Hier vindt u meer informatie over [het melden van ongewenste e-mails en phishing- e-mails.](https://support.office.com/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+Meld phishingberichten of andere e-mailberichten die u ontvangt. Selecteer het bericht en kies **Bericht rapporteren op** het lint.
+Hier vindt u meer informatie over het melden [van ongewenste e-mail en phishing-e-mailberichten.](https://support.office.com/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
-**Vermijd phishing**
-- Reageer nooit op een e-mail waarin u wordt gevraagd persoonlijke of accountgegevens te verzenden.
-- Als u een e-mail ontvangt die er verdacht uitziet of u om dit soort informatie vraagt, klikt u nooit op links die u zogenaamd naar een bedrijfswebsite brengen.
-- Open nooit een bestand dat is gekoppeld aan een verdacht uitziende e-mail.
-- Als de e-mail afkomstig lijkt te zijn van een bedrijf, neemt u contact op met de klantenservice van het bedrijf via telefoon of webbrowser om te zien of de e-mail legitiem is.
-- Zoek op het web voor de e-mail onderwerp regel gevolgd door het woord hoax om te zien of iemand anders heeft gemeld deze zwendel.
+### <a name="avoid-phishing"></a>Phishing voorkomen
 
-Lees meer over vijf veelvoorkomende soorten oplichting in [Omgaan met misbruik, phishing of spoofing.](https://support.office.com/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3)
+- Beantwoord nooit een e-mailbericht waarin u wordt gevraagd persoonlijke gegevens of accountgegevens te verzenden.
+- Als u een e-mail ontvangt die er verdacht uitziet of waarin u om dit type informatie wordt gevraagd, klik dan nooit op koppelingen die u zogenaamd naar een bedrijfswebsite sturen.
+- Open nooit een bestand dat is gekoppeld aan een verdacht uitziend e-mailbericht.
+- Als het e-mailbericht afkomstig lijkt te zijn van een bedrijf, neem dan telefonisch of via een webbrowser contact op met de klantenservice van het bedrijf om te vragen of het e-mailbericht legitiem is.
+- Zoek op internet naar de onderwerpregel van het e-mailbericht gevolgd door het woord 'hoax' om te zien of iemand anders deze oplichtingspraktijken heeft gerapporteerd.
 
-**Zorg ervoor dat uw e-mails er legitiem uitzien voor anderen**
+Lees over vijf veelvoorkomende soorten oplichtingspraktijken die te maken hebben [met misbruik, phishing of spoofing.](https://support.office.com/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 
-Help uw klanten uw communicatie te vertrouwen door een digitale handtekening toe te voegen om te bewijzen dat deze van u afkomstig is. Zie [Berichten beveiligen met behulp van een digitale handtekening](https://support.office.com/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6).
+### <a name="make-sure-your-emails-look-legitimate-to-others"></a>Zorg ervoor dat uw e-mailberichten er legitiem uitzien voor anderen
 
-## <a name="help-protect-your-campaign-from-online-threats"></a>Bescherm uw campagne tegen online bedreigingen
+Help uw klanten uw communicatie te vertrouwen door een digitale handtekening toe te voegen om te bewijzen dat deze afkomstig is van u. Bekijk [Berichten beveiligen met een digitale handtekening.](https://support.office.com/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6)
 
-Download deze infographic met tips voor jou en de leden van je campagneteam:
+## <a name="help-protect-your-campaign-from-online-threats"></a>Bescherm uw campagne tegen onlinebedreigingen
 
-[![De grafische vorm van uw campagnegegevens helpen beschermen](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
+Download deze infographic met tips voor u en de leden van uw campagneteam:
+
+[![Afbeelding van de bescherming van uw campagnegegevens](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  |  [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)
 
 ## <a name="set-it-up"></a>Instellen
 
-Meer informatie over hoe u:
-- [Houd uw bestanden en communicatie veilig met Office](https://support.microsoft.com/en-us/office/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f).
+Meer informatie over:
+
+- [Houd uw bestanden en communicatie veilig met Office.](https://support.microsoft.com/en-us/office/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
 - [Blijf veilig en privé op het werk.](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
   

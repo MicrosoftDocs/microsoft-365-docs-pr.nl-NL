@@ -1,5 +1,5 @@
 ---
-title: Aanmelden bij Microsoft 365 voor campagnes
+title: Aanmelden bij Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,24 +22,26 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Meld u aan bij Microsoft 365 voor campagnes. Beveilig uw campagne tegen Cyber Security bedreigingen voor e-mail, data en communicatie.
-ms.openlocfilehash: a11db9a16718d435842508504d7e7f0cba5df898
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+description: Meld u aan bij Microsoft 365. Bescherm uw bedrijf, oefening of campagne tegen bedreigingen voor e-mail, gegevens en communicatie.
+ms.openlocfilehash: d2bc0ddbfbc839f1b389b844544f33c444012fb4
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131986"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044202"
 ---
-# <a name="sign-in-to-microsoft-365-for-campaigns"></a>Aanmelden bij Microsoft 365 voor campagnes
+# <a name="sign-in-to-microsoft-365"></a>Aanmelden bij Microsoft 365
 
-## <a name="for-campaign-admins"></a>Voor campagne beheerders
-Als u zich hebt geregistreerd voor Microsoft 365 voor campagnes, bent u de Microsoft 365-beheerder. Meld u als volgt aan: 
-1. Zoek de gebruikersnaam en het wachtwoord die we hebben verzonden naar het e-mailadres dat u hebt opgegeven in stap 2 van de [stappen om u aan te melden](m365-campaigns-sign-up.md#steps-to-sign-up).
-2. Ga in de browser naar het Microsoft 365-Beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
-3. Typ uw gebruikersnaam en wachtwoord. Selecteer **Aanmelden**.
-4. Zoek in de rechterbovenhoek van de pagina het besturingselement **voorbeeld bij** . Selecteer **voorbeeld op** zodat u alle besturingselementen kunt gebruiken die worden beschreven in [beveiliging tegen schokken voor uw campagne](m365-campaigns-security-overview.md).
+## <a name="for-business-or-campaign-admins"></a>Voor beheerders van bedrijven of campagne
 
-## <a name="for-campaign-staff"></a>Voor campagne medewerkers
-Het instellen van een campagne medewerker zoals beschreven in [gebruikers toevoegen](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) u kunt ook wachtwoorden opnieuw instellen en opnieuw verzenden op de pagina **gebruikers toevoegen** .
-Alle campagne medewerkers kunnen zich aanmelden bij <a href="https://office.com" target="_blank">https://Office.com</a> .
+Als u zich hebt aangemeld voor Microsoft 365, bent u de Microsoft 365-beheerder. U meldt u als volgende aan:
 
+1. Zoek de gebruikersnaam en het wachtwoord die we hebben verzonden naar het e-mailadres dat u ons in stap 2 van de stappen hebt gegeven om [u aan te melden.](m365-campaigns-sign-up.md#steps-to-sign-up)
+2. Ga in de browser naar het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
+3. Typ uw gebruikersnaam en wachtwoord. Selecteer **Aanmelden.**
+4. Zoek rechtsboven op de pagina het voorbeeld **op het besturingselement.** Selecteer **Voorbeeld op zodat** u alle besturingselementen kunt gebruiken die worden beschreven in Beveiliging tegen gaan voor uw [campagne.](m365-campaigns-security-overview.md)
+
+## <a name="for-staff"></a>Voor personeel
+
+Stel medewerkers in zoals wordt beschreven in [Gebruikers toevoegen.](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) U kunt ook wachtwoorden opnieuw instellen en opnieuw instellen op de pagina **Gebruikers** toevoegen.
+Alle personeelsleden kunnen zich aanmelden bij <a href="https://office.com" target="_blank">https://Office.com</a> .

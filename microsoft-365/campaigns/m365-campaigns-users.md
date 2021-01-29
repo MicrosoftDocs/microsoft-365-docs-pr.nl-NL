@@ -1,5 +1,5 @@
 ---
-title: Hoe Microsoft 365 voor campagnes van invloed is op uw gebruikers
+title: De invloed van deze beveiligingsaanbevelingen op uw gebruikers
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,57 +23,63 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over hoe Microsoft 365 voor campagnes van invloed is op uw gebruikers.
-ms.openlocfilehash: c9cbb64a5585aae4db8f878afcfc19c98711518b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Lees hoe deze beveiligingsaanbevelingen voor Microsoft 365 Business Premium van invloed zijn op uw gebruikers en uw gegevens beschermen.
+ms.openlocfilehash: 91f6b1fb9ddd5938eb8a788ce7594ec8ab9908c3
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845190"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044229"
 ---
-# <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>Hoe Microsoft 365 voor campagnes van invloed is op uw gebruikers
+# <a name="how-these-security-recommendations-affect-your-users"></a>De invloed van deze beveiligingsaanbevelingen op uw gebruikers
 
-Microsoft 365 voor campagnes maakt het veel moeilijker voor hackers om toegang te krijgen tot uw omgeving. De versterkings verhouding is dat uw gebruikers op de hoogte moeten blijven van de werking van deze veiligere omgeving. We begrijpen dat u een beetje extra geduld nodig hebt, maar het is de moeite waard om uw organisatie te beveiligen.
+De beveiligingsaanbevelingen voor Microsoft 365 in deze oplossing maken het voor hackers veel moeilijker om toegang te krijgen tot uw omgeving. Het feit dat u voor uw gebruikers moet zorgen dat ze weten hoe ze in deze veiligere omgeving moeten werken. We begrijpen dat wat extra geduld is vereist, maar het is de moeite waard om je organisatie beschermd te houden.
 
-![Illustratie waarmee u belangrijke punten optelt van eronder voor iPhones, Android-apparaten, Macs, Windows 10, delen en belangrijke personeelsleden](../media/M365-democracy-Users_700px.png)
+![Afbeelding met een overzicht van belangrijke punten hieronder voor iPhones, Android-apparaten, Macs, Windows 10, delen en belangrijke medewerkers](../media/M365-democracy-Users_900px.png)
 
-## <a name="use-secure-email-practices"></a>Beveiligingsmethoden voor e-mail gebruiken
-Alle gebruikers moeten op de hoogte zijn van de volgende e-mail praktijken en kunnen deze gebruiken om e-mail veilig te houden:
-- E-mail instellen voor het gebruik van multi-factor Authentication met de Authenticator-app.
-- Zorg dat u legitiem e-mailberichten verifieert en kijk of u veiligheidstips hebt van Advanced phishing in Defender for Office 365 Protection.
-- Alleen veilige koppelingen en bijlagen openen, zoals geverifieerd door veilige koppelingen en veilige bijlagen.
+## <a name="use-secure-email-practices"></a>Veilige e-mailpraktijken gebruiken
 
-Meer informatie over [phishing en andere aanvallen](m365-campaigns-phishing-and-attacks.md). 
+Alle gebruikers dienen zich bewust te zijn van de volgende e-mailpraktijken en deze te gebruiken om hun e-mail te beveiligen:
 
-Download een [infographic](m365-campaigns-protect-campaign-infographic.md) met tips voor u en de leden van het campagne team.
+- Stel e-mail in voor het gebruik van meervoudige verificatie met de authenticator-app.
+- Controleer legitieme e-mailberichten en zoek naar veiligheidstips van Advanced Phishing in Defender voor Office 365 Protection.
+- Open alleen veilige koppelingen en bijlagen, zoals geverifieerd met veilige koppelingen en veilige bijlagen.
 
-## <a name="set-up-iphones-and-android-devices"></a>IPhones en Android-apparaten instellen
-Alle gebruikers die u hebt toegevoegd aan uw omgeving, moeten een paar minuten duren voor het [instellen van iPhones en Android-apparaten](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json) om veilig te werken:
-- Configureer apparaten voor het gebruik van meervoudige verificatie met de Authenticator-app.
-- Gebruik mobiele apps van Microsoft, waaronder Outlook Mobile, Word, OneDrive en andere Microsoft-apps vanuit de App Store. De ingebouwde e-mail-apps die zijn opgenomen in iPhones en Android-apparaten, worden niet ondersteund. 
-- Een pincode vereisen om gebruikers hun apparaat te ontgrendelen.
+Meer informatie over [meervoudige verificatie](m365-campaigns-multifactor-authenication.md) en [phishing en andere aanvallen.](m365-campaigns-phishing-and-attacks.md)
 
-Nadat u deze hebt ingesteld, wordt u gevraagd de Authenticator-app te gebruiken voor het openen van uw organisatiegegevens op deze apparaten, waaronder e-mail. 
+Download een [infographic](m365-campaigns-protect-campaign-infographic.md) met tips voor u en de leden van uw team.
 
-## <a name="keep-byod-macs-and-windows-10-pcs-fresh"></a>Bewaar BYOD Macs en Windows 10 Pc's vers 
-Het is ook belangrijk dat gebruikers hun primaire werk apparaat up-to-date houden:
-- Installeer de meest recente versies van Office-Desktop-apps en behoud deze nieuwe versies wanneer hierom wordt gevraagd. 
-- Blijf op de hoogte van updates voor besturingssystemen, zoals Windows-updates.
+## <a name="set-up-iphones-and-android-devices"></a>iPhones en Android-apparaten instellen
 
-Voor niet- [beheerde Windows 10-en Mac-apparaten](m365-campaigns-protect-pcs-macs.md)hebben gebruikers de verantwoordelijkheid om ervoor te zorgen dat basisbeveiligingsfuncties zijn ingeschakeld.
+Alle gebruikers die u aan uw omgeving toevoegt, moeten enkele minuten de tijd nemen om [iPhones](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json) en Android-apparaten veilig te laten werken:
 
-**Eenvoudige beveiligingsfuncties inschakelen op BYOD Windows 10 en Mac-apparaten**
+- Stel apparaten in voor het gebruik van meervoudige verificatie met de authenticator-app.
+- Gebruik mobiele Microsoft-apps, waaronder Outlook Mobile, Word, OneDrive en andere Microsoft-apps uit de App Store. De ingesloten e-mailapps op iPhones en Android-apparaten worden niet ondersteund. 
+- Gebruikers moeten een pincode hebben om hun apparaat te ontgrendelen.
 
-||||
+Na het instellen wordt uw gebruikers gevraagd de authenticator-app te gebruiken wanneer ze toegang krijgen tot uw organisatiegegevens op deze apparaten, inclusief e-mail.
+
+## <a name="keep-byod-macs-and-windows-10-pcs-fresh"></a>BYOD Macs en Windows 10-pc's opnieuw bewaren
+
+Het is ook belangrijk dat gebruikers hun primaire werkapparaat up-to-date houden:
+
+- Installeer de nieuwste versies van Office-bureaublad-apps en blijf op de hoogte van updates wanneer hier om wordt gevraagd.
+- Blijf op de hoogte van updates van het besturingssysteem, zoals Windows-updates.
+
+Voor [niet-beherende Windows 10-](m365-campaigns-protect-pcs-macs.md)en Mac-apparaten hebben gebruikers de verantwoordelijkheid om ervoor te zorgen dat basisbeveiligingsfuncties zijn ingeschakeld.
+
+**Basisbeveiligingsfuncties inschakelen op BYOD Windows 10- en Mac-apparaten**
+
+| |**Windows 10**|**Mac**|
 |:-----|:-----|:------|
-||**Windows 10**|**Mac**|
-|Beveiligingsmogelijkheden|BitLocker-beveiliging inschakelen<p><p> Zorg ervoor dat Windows Defender blijft staan <p>Windows Firewall inschakelen| FileVault gebruiken om de Mac-schijf te versleutelen <p><p>Gebruik een betrouwbare antivirussoftware <p>De firewall beveiliging inschakelen|
+|Beveiligingsmogelijkheden|BitLocker-apparaatbeveiliging in te schakel<p><p> Controleren of Windows Defender aan blijft staan <p>Windows Firewall in te zetten| FileVault gebruiken om de Mac-schijf te versleutelen <p><p>Een betrouwbare antivirussoftware gebruiken <p>Firewallbeveiliging in bedrijf|
 
-Voor meer informatie over deze aanbevelingen raadpleegt [u uw account en apparaten beschermen tegen hackers en malware](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10).
+Zie Uw account en apparaten beschermen tegen hackers en malware voor meer informatie [over deze aanbevelingen.](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10)
 
-## <a name="collaborate-using-microsoft-teams-onedrive-sharepoint-online-and-other-tools"></a>Samenwerken met Microsoft teams, OneDrive, SharePoint Online en andere hulpmiddelen
-Het is mogelijk dat uw gebruikers de gewende bestanden van uw organisatie delen en opslaan op andere locaties dan Microsoft 365. Met Microsoft 365 kunt u eenvoudig samenwerken en delen. U kunt [bestanden en Video's rechtstreeks delen](share-files-and-videos.md) vanuit Microsoft teams, OneDrive, stream, en zelfs vanuit een bestand. Door met deze hulpmiddelen te delen kunt u uw gegevens beschermen tegen een lek. U kunt extra bescherming aan gevoelige gegevens toevoegen om te voorkomen dat u deel uitziet van uw organisatie. 
+## <a name="collaborate-using-microsoft-teams-onedrive-sharepoint-online-and-other-tools"></a>Samenwerken met Microsoft Teams, OneDrive, SharePoint Online en andere hulpmiddelen
 
+Mogelijk zijn uw gebruikers geneigd om uw organisatiebestanden te delen en op te slaan op andere locaties dan Microsoft 365. Met Microsoft 365 kunt u zo eenvoudig mogelijk samenwerken en veilig delen. U kunt [bestanden en video's](share-files-and-videos.md) rechtstreeks vanuit Microsoft Teams, OneDrive, Stream en zelfs vanuit een bestand delen. Delen vanuit deze hulpmiddelen zorgt ervoor dat uw gegevens niet kunnen worden gelekt. U kunt extra beveiliging toevoegen aan gevoelige gegevens om delen buiten uw organisatie te voorkomen.
 
 ## <a name="set-up-managed-windows-10-devices"></a>Beheerde Windows 10-apparaten instellen
-U wordt aangeraden uw belangrijkste personeelsleden de nieuwste, aangeschafte Windows 10-apparaten te gebruiken. We laten u zien hoe u [deze apparaten kunt beheren en beveiligen](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json). Hierdoor wordt voorkomen dat medewerkers van personeelsleden die de hoogst mogelijke waarde hebben voor hackers, de meeste beveiliging kunnen bereiken. 
+
+Het is raadzaam dat uw belangrijkste personeelsleden de door u gekochte Windows 10-apparaten gebruiken die u beheert. U ziet hoe u deze apparaten kunt [beheren en beveiligen.](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) Dit zorgt ervoor dat personeelsleden die het hoogste doel voor hackers zijn, de meeste bescherming krijgen.
