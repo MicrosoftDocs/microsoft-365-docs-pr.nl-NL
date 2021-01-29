@@ -1,5 +1,5 @@
 ---
-title: Aanmelden bij Microsoft 365 voor campagnes
+title: Aanmelden bij Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,24 +22,26 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Meld u aan bij Microsoft 365 voor campagnes. Beveilig uw campagne tegen Cyber Security bedreigingen voor e-mail, data en communicatie.
-ms.openlocfilehash: a11db9a16718d435842508504d7e7f0cba5df898
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+description: Meld u aan bij Microsoft 365. Bescherm uw bedrijf, oefening of campagne tegen bedreigingen voor e-mail, gegevens en communicatie.
+ms.openlocfilehash: d2bc0ddbfbc839f1b389b844544f33c444012fb4
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131986"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044202"
 ---
-# <a name="sign-in-to-microsoft-365-for-campaigns"></a><span data-ttu-id="430c4-104">Aanmelden bij Microsoft 365 voor campagnes</span><span class="sxs-lookup"><span data-stu-id="430c4-104">Sign in to Microsoft 365 for campaigns</span></span>
+# <a name="sign-in-to-microsoft-365"></a><span data-ttu-id="5fd7b-104">Aanmelden bij Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="5fd7b-104">Sign in to Microsoft 365</span></span>
 
-## <a name="for-campaign-admins"></a><span data-ttu-id="430c4-105">Voor campagne beheerders</span><span class="sxs-lookup"><span data-stu-id="430c4-105">For campaign admins</span></span>
-<span data-ttu-id="430c4-106">Als u zich hebt geregistreerd voor Microsoft 365 voor campagnes, bent u de Microsoft 365-beheerder. Meld u als volgt aan:</span><span class="sxs-lookup"><span data-stu-id="430c4-106">If you signed up for Microsoft 365 for Campaigns, you're the Microsoft 365 admin. Here's how to sign in:</span></span> 
-1. <span data-ttu-id="430c4-107">Zoek de gebruikersnaam en het wachtwoord die we hebben verzonden naar het e-mailadres dat u hebt opgegeven in stap 2 van de [stappen om u aan te melden](m365-campaigns-sign-up.md#steps-to-sign-up).</span><span class="sxs-lookup"><span data-stu-id="430c4-107">Find the username and password that we sent to the email address that you gave us in step 2 of [Steps to sign up](m365-campaigns-sign-up.md#steps-to-sign-up).</span></span>
-2. <span data-ttu-id="430c4-108">Ga in de browser naar het Microsoft 365-Beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .</span><span class="sxs-lookup"><span data-stu-id="430c4-108">In the browser, go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span> 
-3. <span data-ttu-id="430c4-109">Typ uw gebruikersnaam en wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="430c4-109">Type in your username and password.</span></span> <span data-ttu-id="430c4-110">Selecteer **Aanmelden**.</span><span class="sxs-lookup"><span data-stu-id="430c4-110">Select **Sign in**.</span></span>
-4. <span data-ttu-id="430c4-111">Zoek in de rechterbovenhoek van de pagina het besturingselement **voorbeeld bij** .</span><span class="sxs-lookup"><span data-stu-id="430c4-111">In the top right of the page, find the **Preview on** control.</span></span> <span data-ttu-id="430c4-112">Selecteer **voorbeeld op** zodat u alle besturingselementen kunt gebruiken die worden beschreven in [beveiliging tegen schokken voor uw campagne](m365-campaigns-security-overview.md).</span><span class="sxs-lookup"><span data-stu-id="430c4-112">Select **Preview on** so you can use all the controls described in [Bump up protection for your campaign](m365-campaigns-security-overview.md).</span></span>
+## <a name="for-business-or-campaign-admins"></a><span data-ttu-id="5fd7b-105">Voor beheerders van bedrijven of campagne</span><span class="sxs-lookup"><span data-stu-id="5fd7b-105">For business or campaign admins</span></span>
 
-## <a name="for-campaign-staff"></a><span data-ttu-id="430c4-113">Voor campagne medewerkers</span><span class="sxs-lookup"><span data-stu-id="430c4-113">For campaign staff</span></span>
-<span data-ttu-id="430c4-114">Het instellen van een campagne medewerker zoals beschreven in [gebruikers toevoegen](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) u kunt ook wachtwoorden opnieuw instellen en opnieuw verzenden op de pagina **gebruikers toevoegen** .</span><span class="sxs-lookup"><span data-stu-id="430c4-114">Set up campaign staff as described in [Add users](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) You can also reset and resend passwords on the **Add users** page.</span></span>
-<span data-ttu-id="430c4-115">Alle campagne medewerkers kunnen zich aanmelden bij <a href="https://office.com" target="_blank">https://Office.com</a> .</span><span class="sxs-lookup"><span data-stu-id="430c4-115">All campaign staff can sign in at <a href="https://office.com" target="_blank">https://Office.com</a>.</span></span>
+<span data-ttu-id="5fd7b-106">Als u zich hebt aangemeld voor Microsoft 365, bent u de Microsoft 365-beheerder. U meldt u als volgende aan:</span><span class="sxs-lookup"><span data-stu-id="5fd7b-106">If you signed up for Microsoft 365, you're the Microsoft 365 admin. Here's how to sign in:</span></span>
 
+1. <span data-ttu-id="5fd7b-107">Zoek de gebruikersnaam en het wachtwoord die we hebben verzonden naar het e-mailadres dat u ons in stap 2 van de stappen hebt gegeven om [u aan te melden.](m365-campaigns-sign-up.md#steps-to-sign-up)</span><span class="sxs-lookup"><span data-stu-id="5fd7b-107">Find the username and password that we sent to the email address that you gave us in step 2 of [Steps to sign up](m365-campaigns-sign-up.md#steps-to-sign-up).</span></span>
+2. <span data-ttu-id="5fd7b-108">Ga in de browser naar het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .</span><span class="sxs-lookup"><span data-stu-id="5fd7b-108">In the browser, go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
+3. <span data-ttu-id="5fd7b-109">Typ uw gebruikersnaam en wachtwoord.</span><span class="sxs-lookup"><span data-stu-id="5fd7b-109">Type in your username and password.</span></span> <span data-ttu-id="5fd7b-110">Selecteer **Aanmelden.**</span><span class="sxs-lookup"><span data-stu-id="5fd7b-110">Select **Sign in**.</span></span>
+4. <span data-ttu-id="5fd7b-111">Zoek rechtsboven op de pagina het voorbeeld **op het besturingselement.**</span><span class="sxs-lookup"><span data-stu-id="5fd7b-111">In the top right of the page, find the **Preview on** control.</span></span> <span data-ttu-id="5fd7b-112">Selecteer **Voorbeeld op zodat** u alle besturingselementen kunt gebruiken die worden beschreven in Beveiliging tegen gaan voor uw [campagne.](m365-campaigns-security-overview.md)</span><span class="sxs-lookup"><span data-stu-id="5fd7b-112">Select **Preview on** so you can use all the controls described in [Bump up protection for your campaign](m365-campaigns-security-overview.md).</span></span>
+
+## <a name="for-staff"></a><span data-ttu-id="5fd7b-113">Voor personeel</span><span class="sxs-lookup"><span data-stu-id="5fd7b-113">For staff</span></span>
+
+<span data-ttu-id="5fd7b-114">Stel medewerkers in zoals wordt beschreven in [Gebruikers toevoegen.](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) U kunt ook wachtwoorden opnieuw instellen en opnieuw instellen op de pagina **Gebruikers** toevoegen.</span><span class="sxs-lookup"><span data-stu-id="5fd7b-114">Set up staff as described in [Add users](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) You can also reset and resend passwords on the **Add users** page.</span></span>
+<span data-ttu-id="5fd7b-115">Alle personeelsleden kunnen zich aanmelden bij <a href="https://office.com" target="_blank">https://Office.com</a> .</span><span class="sxs-lookup"><span data-stu-id="5fd7b-115">All staff can sign in at <a href="https://office.com" target="_blank">https://Office.com</a>.</span></span>
