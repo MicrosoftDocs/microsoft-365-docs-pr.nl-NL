@@ -1,6 +1,6 @@
 ---
 title: Illustraties van Microsoft 365-productiviteit
-description: Gebruik deze illustraties, zoals het architecturen van teams, om inzicht te krijgen in de basisbeginselen van de implementatie van oplossingen voor Microsoft 365-productiviteit.
+description: Gebruik deze illustraties, zoals het Teams-architectuurdiagram, om de basisprincipes van de architectuur te begrijpen voor het implementeren van Microsoft 365-productiviteitsoplossingen.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -13,23 +13,23 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 8a4fb7da33a9f689b13a516b7a3066c492bd7de9
-ms.sourcegitcommit: ddbc6f8ebadf2f8149dff910b743535cbc3fa3c8
+ms.openlocfilehash: 953dc90a7e4e09cb75e45347b30dd6b409754bd0
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49992488"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055545"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
-De oplossings reeks voor Microsoft 365 Enterprise bevat richtlijnen voor het implementeren van de mogelijkheden van Microsoft 365, met name voor technologieën van diverse technologieën, waaronder teams-architectuur diagrammen.
+De reeks Microsoft 365 Enterprise-oplossingen biedt richtlijnen voor het implementeren van Microsoft 365-mogelijkheden, met name wanneer de mogelijkheden verschillende technologieën omvatten, waaronder architectuurdiagrammen van Teams.
 
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>Microsoft Teams en gerelateerde productiviteitsservices in Microsoft 365 voor IT-architecten
 De logische architectuur van productiviteitsservices in Microsoft 365, geleid door Microsoft Teams.
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Poster voor logische architectuur van teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Bijgewerkt januari 2021   |Microsoft biedt een pakket met productiviteitsservices die samenwerken met behulp van functies voor gegevensbeheer, beveiliging en compliance. <br/> <br/>Deze reeks illustraties biedt een overzicht van de logische architectuur van productiviteitsservices voor ondernemingsarchitecten, geleid door Microsoft Teams.|
+|[![Poster voor logische architectuur van Teams](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>Bijgewerkt in januari 2021   |Microsoft biedt een pakket met productiviteitsservices die samenwerken met behulp van functies voor gegevensbeheer, beveiliging en compliance. <br/> <br/>Deze reeks illustraties biedt een overzicht van de logische architectuur van productiviteitsservices voor ondernemingsarchitecten, geleid door Microsoft Teams.|
 
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>Groepen in Microsoft 365 voor IT-architecten
@@ -37,13 +37,13 @@ Wat IT-architecten moeten weten over Microsoft 365-groepen
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Miniatuurafbeelding van de infographic voor groepen](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> Update mei 2020|Deze illustraties tonen verschillende soorten groepen, hoe ze worden gemaakt en beheerd, en enkele aanbevelingen voor beheer.|
+|[![Miniatuurafbeelding van de infographic voor groepen](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> Bijgewerkt in mei 2020|Deze illustraties tonen verschillende soorten groepen, hoe ze worden gemaakt en beheerd, en enkele aanbevelingen voor beheer.|
 
-### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Mogelijkheden voor Microsoft 365 gegevensbescherming en compliance
+### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Microsoft 365-mogelijkheden voor gegevensbescherming en naleving
 
-Microsoft 365 omvat een uitgebreide set informatiebescherming en mogelijkheden voor naleving. Naast de productiviteitshulpmiddelen van Microsoft zijn de volgende mogelijkheden bedoeld om organisaties te helpen in realtime samen te werken en te voldoen aan de nalevings kaders van strikte regelgevende naleving. 
+Microsoft 365 bevat een uitgebreide set mogelijkheden voor gegevensbescherming en naleving. Samen met de productiviteitshulpmiddelen van Microsoft zijn deze mogelijkheden ontworpen om organisaties te helpen in realtime samen te werken en te voldoen aan strikte regelgevingskaders. 
 
-Deze reeks illustraties gebruikt een van de meest gereguleerde industrieën, financiële diensten om te laten zien hoe deze mogelijkheden voor de gemeenschappelijke regelgeving van toepassing zijn. U kunt deze illustraties aan uw eigen wensen aanpassen. 
+In deze set illustraties wordt gebruikgemaakt van een van de meest reguleerde bedrijfstakken, financiële dienstverlening, om te laten zien hoe deze mogelijkheden kunnen worden toegepast op het voldoen aan algemene wettelijke vereisten. U kunt deze illustraties aan uw eigen wensen aanpassen. 
 
 
 | Item | Beschrijving |
@@ -56,35 +56,35 @@ Beveiliging en informatiebescherming voor organisaties met meerdere regio's en e
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Meerdere regio's Infographic](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Laatst bijgewerkt: maart 2020 |Een Microsoft 365-tenant voor uw wereldwijde organisatie is de beste keuze en ervaring om een groot aantal redenen. Veel architecten weten echter niet precies hoe ze de doelen voor beveiliging en informatiebescherming in verschillende regio's moeten realiseren. In deze serie onderwerpen vindt u aanbevelingen. |
+|[![Infographic met meerdere regio's](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Laatst bijgewerkt: maart 2020 |Een Microsoft 365-tenant voor uw wereldwijde organisatie is de beste keuze en ervaring om een groot aantal redenen. Veel architecten weten echter niet precies hoe ze de doelen voor beveiliging en informatiebescherming in verschillende regio's moeten realiseren. In deze serie onderwerpen vindt u aanbevelingen. |
 
-### <a name="microsoft-defender-for-endpoint-deployment-strategy"></a>Implementatiestrategie voor Microsoft Defender voor eindpunten
+### <a name="microsoft-defender-for-endpoint-deployment-strategy"></a>Implementatiestrategie van Microsoft Defender voor eindpunt
 
 Sommige hulpprogramma's zijn beter geschikt voor bepaalde architecturen, afhankelijk van uw omgeving.
 
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Afbeelding van miniatuur voor implementatiestrategie voor Microsoft Defender voor eindpunten](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Laatst bijgewerkt: februari 2020| Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li>
+|[![Thumb image for Microsoft Defender for Endpoint deployment strategy](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Laatst bijgewerkt: februari 2020| Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li>
 
 
 <a name="BKMK_O365IDP"></a>
-### <a name="identity-and-device-protection-for-microsoft-365"></a>Identiteit en beveiliging van apparaten voor Microsoft 365
+### <a name="identity-and-device-protection-for-microsoft-365"></a>Identiteits- en apparaatbeveiliging voor Microsoft 365
 
-Aanbevolen functies voor het beschermen van identiteiten en apparaten die toegang hebben tot Microsoft 365, andere SaaS-Services en on-premises toepassingen die zijn gepubliceerd met de Azure AD-toepassings proxy.
+Aanbevolen mogelijkheden voor het beschermen van identiteiten en apparaten die toegang hebben tot Microsoft 365, andere SaaS-services en on-premises toepassingen die zijn gepubliceerd met Azure AD-toepassingsproxy.
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Model poster: identiteit en bescherming van apparaten voor Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Weergeven als een PDF-bestand](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Bijgewerkt op september 2020|Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. In dit model ziet u welke mogelijkheden vergelijkbaar zijn met meer informatie over mogelijkheden om identiteiten en apparaten te beschermen.  <br/> |
+|[![Modelposter: Identiteits- en apparaatbeveiliging voor Microsoft 365](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Weergeven als PDF](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Bijgewerkt in september 2020|Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. Dit model toont welke mogelijkheden vergelijkbaar zijn met meer informatie over mogelijkheden om identiteiten en apparaten te beschermen.  <br/> |
  
 <a name="BKMK_ediscovery"></a>
 ### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Geavanceerde eDiscovery-architectuur in Microsoft 365
 
-Geavanceerde eDiscovery-werkstroom en gegevensstroom, waaronder binnen Microsoft 365 meerdere geografische omgevingen. 
+Geavanceerde eDiscovery end-to-end werkstroom en gegevensstroom, ook in Microsoft 365 Multi-Geo-omgevingen. 
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Model poster: geavanceerde eDiscovery-architectuur in Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Als een afbeelding](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| weergeven [Downloaden als een PDF-bestand](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Downloaden als een Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Update van oktober 2020|Omvat: <ul><li>  End-to-end werkstroom in één omgeving</li><li>End-to-end werkstroom in een multi-geografische omgeving van Microsoft 365 </li><li>End-to-end gegevensstroom die ondersteuning biedt voor de EDRM-werkstroom</li> |
+|[![Modelposter: Geavanceerde eDiscovery-architectuur in Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Weergeven als een afbeelding](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Downloaden als PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Downloaden als Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Bijgewerkt in oktober 2020|Omvat: <ul><li>  End-to-end-werkstroom in één omgeving</li><li>End-to-end-werkstroom in een Microsoft 365 Multi-Geo-omgeving </li><li>End-to-end gegevensstroom die de EDRM-werkstroom ondersteunt</li> |
   
 <!--
 
@@ -125,7 +125,7 @@ This guidance includes Test Lab Guides. For more information, see [Microsoft Sec
 Microsoft ondersteunt verschillende opties bij het begin van uw ervaring met Teams in de Microsoft-cloud. Met deze poster kunt u bepalen welke Microsoft-telefonie-oplossing (telefoonsysteem in de cloud of Enterprise Voice on-premises) geschikt is voor gebruikers in uw organisatie en hoe u uw organisatie kunt koppelen aan het openbare PSTN (Public Switched Telephone Network).
 
 
-[![Poster voor Microsoft Telephony-oplossingen](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[![Poster voor Microsoft Telephony Solutions](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) <br>
 Laatst bijgewerkt: januari 2019
 
@@ -133,22 +133,22 @@ Zie het artikel voor deze poster voor meer informatie: [Microsoft telefonieoplos
 
 ### <a name="empower-remote-workers"></a>Externe werknemers mogelijkheden bieden
 
-Met Microsoft 365 en andere Microsoft-Cloud technologieën kunt u uw werknemers de on-premises on-premises on-premises locatie en informatie over de Cloud en de informatiebronnen van de organisatie verschaffen. 
+Met Microsoft 365 en andere Microsoft-cloudtechnologieën kunt u uw medewerkers veilige toegang bieden tot de on-premises en cloudgebaseerde informatie, hulpmiddelen en bronnen van uw organisatie vanuit hun huis. 
 
 [![Poster Externe werknemers mogelijkheden bieden](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf) <br/>
-[PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)  |  [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) <br>
-Update van juli 2020
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)  |  [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) <br>
+Bijgewerkt in juli 2020
 
-Zie voor meer informatie het artikel voor deze poster: [externe medewerkers stimuleren met Microsoft 365](empower-people-to-work-remotely.md).
+Zie het artikel voor deze poster voor meer informatie: [Ondersteuning voor externe medewerkers bij Microsoft 365.](empower-people-to-work-remotely.md)
 
-### <a name="microsoft-teams-with-security-isolation"></a>Microsoft teams met beveiligings isolatie
+### <a name="microsoft-teams-with-security-isolation"></a>Microsoft Teams met beveiligingsisolatie
 
-Met Microsoft 365 kunt u een privé team configureren in Microsoft teams en de beveiligingsinstellingen voor SharePoint-sites en een uniek vertrouwelijkheids label gebruiken om bestanden te versleutelen, zodat alleen teamleden ze kunnen decoderen.
+Met Microsoft 365 kunt u een privéteam configureren in Microsoft Teams en sharePoint-sitebeveiligingsinstellingen en een uniek gevoeligheidslabel gebruiken om bestanden te versleutelen, zodat alleen teamleden deze kunnen ontsleutelen.
 
 [![Poster Microsoft Teams met beveiligingsisolatie](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf) <br/>
-[PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)  |  [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) <br> Update van augustus 2020
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)  |  [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) <br> Bijgewerkt in augustus 2020
 
-Zie voor meer informatie het artikel voor deze poster: [een team configureren met behulp van beveiligings isolatie](secure-teams-security-isolation.md).
+Zie het artikel voor deze poster voor meer informatie: [Een team configureren met beveiligingsisolatie.](secure-teams-security-isolation.md)
 
   
 ## <a name="see-also"></a>Zie ook
