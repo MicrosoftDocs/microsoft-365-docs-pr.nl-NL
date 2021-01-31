@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik beveiligings- en complianceservices van Microsoft 365 om uw apps, gegevens en apparaten te beveiligen voor externe werknemers.
-ms.openlocfilehash: 6c6c30e320068a6e97cf5fd2cd81b4bfeff1c49e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 8248fdbaa96a651ad9ff4548ce0867bd7c2988eb
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845226"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055486"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Stap 3: Het implementeren van beveiliging en compliance voor externe werknemers
 
@@ -47,12 +47,12 @@ Hier vind je de mogelijkheden van Microsoft 365 voor beveiligings-en Compliance-
 
 Beveilig uw toepassingen en gegevens met deze beveiligingsfuncties van Microsoft 365.
 
-| Functie | Beschrijving | Licenties |
+| Functie | Waarom ik deze nodig heb | Licentieverlening |
 |:-------|:-----|:-------|
-| Microsoft Defender voor Office 365 | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. <br><br> Met Microsoft Defender voor Office 365 worden signalen van uw apps verzameld en geanalyseerd voor detectie, onderzoek en herstel van beveiligingsrisico's en wordt uw organisatie beschermd tegen bedreigingen in de vorm van e-mailberichten, koppelingen (URL's) en hulpmiddelen voor samenwerking. | Microsoft 365 E3 of E5 | 
+| Microsoft Defender voor Office 365 | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. <br><br> Met Microsoft Defender voor Office 365 worden signalen van uw apps verzameld en geanalyseerd voor detectie, onderzoek en herstel van beveiligingsrisico's en wordt uw organisatie beschermd tegen bedreigingen in de vorm van e-mailberichten, koppelingen (URL's) en hulpmiddelen voor samenwerking. Daarnaast biedt Microsoft Defender automatische beoordeling van tenantconfiguraties en configuratiehulpmiddelen voor standaard- en strikte beveiligingsposities. | Microsoft 365 E3 of E5 | 
 | Bescherming tegen malware | Microsoft Defender Antivirus en Device Guard bieden apparaatbescherming tegen malware. <br><br> In SharePoint Online wordt het uploaden van bestanden automatisch gescand op bekende malware. ‎<br><br> Exchange Online Protection (EOP) beveiligt postvakken in de cloud. | Microsoft 365 E3 of E5 |
-| Microsoft Defender voor Eindpunt  | Beveilig de apparaten van uw organisatie tegen cyberbedreigingen en datalekken en detecteer, onderzoek en reageer op geavanceerde bedreigingen. | Microsoft 365 E5 |
-| Cloud App Security | Beveilig de cloudservices tegen een aanval. Zowel Microsoft 365 als andere SaaS-apps. | Microsoft 365 E5-licentie of afzonderlijke Cloud App Security-licenties |
+| Microsoft Defender for Endpoint | Beveilig de apparaten van uw organisatie tegen cyberbedreigingen en datalekken en detecteer, onderzoek en reageer op geavanceerde bedreigingen. | Microsoft 365 E5 |
+| Cloud App Security | Beveilig de cloudservices, zowel Microsoft 365- als andere SaaS-apps, tegen een aanval. | Microsoft 365 E5-licentie of afzonderlijke Cloud App Security-licenties |
 | Azure AD Identity Protection  | Detectie en herstel van identiteitsrisico's automatiseren. <br><br>Maak een risicobeleid voor voorwaardelijke toegang aan, waarbij meervoudige verificatie (MFA) voor risicovolle aanmeldingen vereist is. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties |
 ||||
 
@@ -62,7 +62,7 @@ Zie [Belangrijkste 12 taken voor beveiligingsteams om het thuiswerken te onderst
 
 Voldoe aan interne beleidsregels of wettelijk voorgeschreven vereisten met deze compliancefuncties van Microsoft 365.
 
-| Functie | Beschrijving | Licenties |
+| Functie | Waarom ik deze nodig heb | Licenties |
 |:-------|:-----|:-------|
 | Vertrouwelijkheidslabels | Classificeer en bescherm de gegevens van uw organisatie zonder de productiviteit van gebruikers en hun vermogen om samen te werken te belemmeren door het labelen van e-mail, bestanden of websites met diverse beschermingsniveaus. | Microsoft 365 E3 of E5 |
 | Preventie van gegevensverlies (DLP) | Detecteer, waarschuw voor en blokkeer risicovol, onbedoeld of ongepast delen, zoals het delen van gegevens met persoonlijke informatie, zowel intern als extern. | Microsoft 365 E3 of E5 | 

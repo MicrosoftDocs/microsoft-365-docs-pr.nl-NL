@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Zorg ervoor dat u alle functies van Microsoft 365 hebt ingeschakeld om de productiviteit van externe werknemers te maximaliseren en veilige toegang tot uw servers, gegevens en de cloud te behouden.
-ms.openlocfilehash: c6f17f2a80fa37abe43ceabc7a06c86c80eeadbd
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: aa72ba0c47acdd507bf86a082c9b4c2a87e3f1ef
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616354"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055517"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Externe werknemers mogelijkheden bieden met Microsoft 365
 
@@ -37,11 +37,16 @@ Microsoft 365 biedt de mogelijkheden om uw werknemers in staat te stellen om op 
 
 ![Uw externe werknemers mogelijkheden bieden met Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
+>[!Note]
+>Raadpleeg [deze informatiebronnen](https://www.microsoft.com/microsoft-365) als Microsoft 365 nieuw voor u is.
+>
+
 Bekijk deze video voor een overzicht van het implementatieproces.
+<br>
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
 
-Deze oplossing biedt de volgende belangrijke mogelijkheden.
+Voor IT-professionals die de onsite- en cloudinfrastructuur beheren om de productiviteit van werknemers te verbeteren, biedt deze oplossing de volgende belangrijke mogelijkheden:
 
 - Verbonden
 
