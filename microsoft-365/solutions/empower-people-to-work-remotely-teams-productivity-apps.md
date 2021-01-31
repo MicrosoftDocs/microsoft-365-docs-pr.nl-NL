@@ -17,21 +17,24 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: 57e862769533b8c076513874e7f6daafdbe836da
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: ce19085a358861238e9a7cd4d650246d08fd272d
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681406"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055487"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
 
 Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerken. Ze moeten kunnen vergaderen, chatten via spraak en tekst, nieuwe inhoud kunnen maken, bestanden en informatie delen, e-mails uitwisselen en agenda's en taken kunnen beheren. Microsoft 365 bied cloudservices voor al deze belangrijke functies:
 
-- Gebruik Microsoft Teams om mensen verbonden te houden terwijl ze op andere plaatsen werken. Teams biedt een gemeenschappelijke hub voor communicatie voor vergaderingen, chatberichten en bestandsopslag voor organisaties, afdelingen, kleine teams en individuele personen. 
-- Gebruik Exchange Online en de Outlook-client voor het uitwisselen van e-mail en het beheer van agenda's, contactpersonen en taken.
-- Gebruik SharePoint en OneDrive voor het opslaan van en samenwerken aan bestanden. U kunt ze gebruiken met een webbrowser of binnen Teams.
-- Microsoft 365-apps zijn versies van Word, PowerPoint, Excel en Outlook, voor het maken van nieuwe inhoud of samenwerken aan bestaande inhoud, die zijn geïnstalleerd op uw lokale computer en die voortdurend functie- en beveiligingsupdates ontvangen.
+| IT-functie | Microsoft 365-onderdelen | Omschrijving |
+|:-------|:-----|:-------|
+| E-mailservices | Exchange Online | E-mail uitwisselen en agenda's, contactpersonen en taken beheren met de Outlook-client. |
+| Organigram, VOIP (Voice Over IP) en samenwerking op basis van teams | Microsoft Teams | Zorg dat mensen verbonden blijven terwijl ze op andere plaatsen werken. Teams biedt een gemeenschappelijke communicatiehub voor vergaderingen, chatberichten en bestandsopslag voor organisaties, afdelingen, kleine teams en individuele personen. |
+| Internetsites, samenwerken aan documenten | SharePoint en OneDrive | Sla bestanden op en werk er samen aan in een webbrowser of in Teams. |
+| Office-toepassingen voor bureaublad en mobiele apparaten | Microsoft 365-apps | Microsoft 365-apps zijn versies van Word, PowerPoint, Excel en Outlook die zijn geïnstalleerd op uw lokale computer en die voortdurend functie- en beveiligingsupdates ontvangen. Gebruik deze apps voor het maken van nieuwe inhoud of samenwerken aan bestaande inhoud. |
+||||
 
 ![De apps Teams, Outlook, SharePoint, OneDrive en Microsoft 365 gebruiken om productief te blijven](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
 
