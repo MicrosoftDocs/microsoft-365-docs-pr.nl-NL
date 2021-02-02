@@ -152,8 +152,6 @@
           href: encryption-sensitivity-labels.md
         - name: Een vertrouwelijkheidslabel automatisch toepassen op inhoud
           href: apply-sensitivity-label-automatically.md
-        - name: Gebruik van labels weergeven met labelanalyse
-          href: label-analytics.md
         - name: 'Vertrouwelijkheidslabels gebruiken voor teams, groepen en sites'
           href: sensitivity-labels-teams-groups-sites.md
         - name: Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
