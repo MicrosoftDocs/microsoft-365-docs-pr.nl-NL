@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/15/2019
+ms.date: 02/01/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Biedt een inleiding tot de onderdelen, abonnementen en implementatie paden voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 0916fa97daec166a7bae8b19e3c9efbd693f4874
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 324e5166dd722f9fcd682db7e536a4b864365025
+ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846962"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50068969"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Overzicht van Microsoft 365 voor ondernemingen
 
@@ -85,7 +85,7 @@ Deze poster van twee pagina‘s is een snelle manier om de bestaande infrastruct
 
 [Windows 7](https://aka.ms/win7upgrade) heeft het einde van de ondersteuning bereikt op **14 januari 2020**.
 
-Voor deze producten wordt de ondersteuning beëindigd op **13 oktober 2020** :
+Voor deze producten wordt de ondersteuning beëindigd op **13 oktober 2020**:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](exchange-2010-end-of-support.md)
@@ -131,6 +131,24 @@ Bekijk als voorbeeld hoe de [Contoso Corporation](contoso-overview.md), een fict
 - [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government)
 
   Biedt ambtenaren van de Verenigde Staten een veilige samenwerking.
+
+## <a name="best-together-with-surface-and-the-edge-browser"></a>Het beste in combinatie met de Surface en de Edge-browser
+
+Optimaliseer de geïntegreerde en veilige productiviteit van de gebruiker met de combinatie van Microsoft 365 voor ondernemingen, Microsoft Surface-apparaten en de Microsoft Edge-browser. Deze integratie van producten biedt:
+
+- Een algemene beveiligingsinfrastructuur voor identiteiten en aanmeldingen.
+- Geïntegreerde lokale en cloud-apps voor zoeken, samenwerking, productiviteit en compliance.
+- Uitgebreide en geïntegreerde beveiliging voor hardware, browsers, lokale apps en cloud-apps.
+- Een algemene infrastructuur voor IT-beheer van installaties en updates.
+
+Hier is een voorbeeld voor een onderneming.
+
+![Een onderneming met Microsoft 365, Surface-apparaten en de Edge-browser](../media/microsoft-365-overview/best-together-with-surface-and-edge.png)
+
+Voor meer informatie en een configuratievoorbeeld voor het MKB en onderwijsinstellingen downloadt u de poster [Best together](https://download.microsoft.com/download/2/8/d/28db0cf9-2f5a-4f63-91e2-46ff5c4d3baf/microsoft-best-together-poster.pdf).
+
+[![Afbeelding van de poster Best together met een Surface en de Edge-browser](../media/microsoft-365-overview/best-together-poster-thumbnail.png)](https://download.microsoft.com/download/2/8/d/28db0cf9-2f5a-4f63-91e2-46ff5c4d3baf/microsoft-best-together-poster.pdf)
+
 
 ## <a name="microsoft-365-training"></a>Training voor Microsoft 365
 
