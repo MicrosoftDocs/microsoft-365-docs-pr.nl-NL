@@ -23,20 +23,18 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Lees hoe u distributiegroepen of lijsten maakt in het Microsoft 365-beheercentrum, zodat u e-mailberichten naar een groep kunt verzenden zonder de naam van elke geadresseerde te typen.
-ms.openlocfilehash: ffdafb7ef74e908f340a9ac80db0abffb1841442
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 7c416612fa241d7fec11a2e24a29e149594951e3
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926304"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080467"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Distributiegroepen maken in het Microsoft 365-beheercentrum
   
-Wordt gebruikt wanneer u e-mail wilt verzenden naar een groep personen zonder dat u de naam van elke afzonderlijke geadresseerde moet typen, worden distributiegroepen (distributielijsten) georganiseerd op basis van een bepaald discussieonderwerp (zoals 'Marketing') of op basis van gebruikers die vaak met elkaar moeten communiceren. Ze bieden u ook een manier om e-mail automatisch door te sturen naar meerdere e-mailadressen.
+Wordt gebruikt wanneer u e-mail wilt verzenden naar een groep personen zonder dat u de naam van elke afzonderlijke geadresseerde moet typen, worden distributiegroepen (distributielijsten) georganiseerd op basis van een bepaald discussieonderwerp (zoals 'Marketing') of op basis van gebruikers die veel werk delen, zodat ze vaak met elkaar moeten communiceren. Ze bieden u ook een manier om e-mail automatisch door te sturen naar meerdere e-mailadressen.
 
 Distributiegroepen worden ook wel distributielijsten genoemd.
-  
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/e8747233-4f1c-4bf4-81cf-2a4ea9ccd80d?autoplay=false]
   
 ## <a name="create-a-distribution-group-list"></a>Een distributiegroep (lijst) maken
 
@@ -72,7 +70,7 @@ Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid
     
 6. Zie Een gebruiker of contactpersoon toevoegen aan een distributiegroep als u gebruikers aan uw [distributielijst wilt toevoegen.](../email/add-user-or-contact-to-distribution-list.md)
     
-Lees hoe u groepen gebruikt in Outlook 2016 en de webversie van Outlook in de groepen contactpersonen [gebruiken (voorheen distributielijsten) in outlook-onderwerp.](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 
+Bekijk hoe u groepen gebruikt in Outlook 2016 en de webversie van Outlook in de groepen contactpersonen [gebruiken (voorheen distributielijsten) in outlook-onderwerp.](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 
   
 Bekijk [distributiegroepsproblemen voor](https://docs.microsoft.com/office365/troubleshoot/groups/distribution-list-issues) hulp bij problemen met distributielijst. 
   

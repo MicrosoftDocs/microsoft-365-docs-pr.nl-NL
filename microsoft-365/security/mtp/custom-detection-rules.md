@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8c7e47e66f9e5543cc122c5b5154207cae836d2a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d58292f658446259bfab5b1b55c8b462d081421c
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932920"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080621"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Aangepaste detectieregels maken en beheren
 
@@ -43,7 +43,7 @@ Als u aangepaste detecties wilt beheren, moet u een van de volgende rollen toege
 
 - **Beveiligingsbeheerder:** gebruikers met deze [Azure Active Directory-rol](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen beveiligingsinstellingen beheren in het Microsoft 365-beveiligingscentrum en andere portals en services.
 
-- **Beveiligingsoperator:** gebruikers met deze [Azure Active Directory-rol](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen waarschuwingen beheren en globale alleen-lezentoegang hebben tot beveiligingsfuncties, inclusief alle informatie in het Microsoft 365-beveiligingscentrum. Deze rol is alleen voldoende voor het beheren van aangepaste detecties als toegangsbeheer op basis van rollen is uitgeschakeld in Microsoft Defender voor eindpunt. Als u RBAC hebt geconfigureerd,  moet u ook de machtiging Voor beveiligingsinstellingen beheren voor Defender voor eindpunt hebben.
+- **Beveiligingsoperator:** gebruikers met deze [Azure Active Directory-rol](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen waarschuwingen beheren en globale alleen-lezentoegang hebben tot beveiligingsfuncties, inclusief alle informatie in het Microsoft 365-beveiligingscentrum. Deze rol is alleen voldoende voor het beheren van aangepaste detecties als toegangsbeheer op basis van rollen is uitgeschakeld in Microsoft Defender for Endpoint. Als u RBAC hebt geconfigureerd,  moet u ook de machtiging Beveiligingsinstellingen beheren voor Defender voor eindpunt hebben.
 
 Een globale beheerder kan het volgende doen om vereiste **machtigingen te** beheren:
 
@@ -59,7 +59,7 @@ Een globale beheerder kan het volgende doen om vereiste **machtigingen te** behe
 Ga in het Microsoft 365-beveiligingscentrum naar **Geavanceerd** zoeken en selecteer een bestaande query of maak een nieuwe query. Wanneer u een nieuwe query gebruikt, kunt u de query uitvoeren om fouten te identificeren en de mogelijke resultaten te begrijpen.
 
 >[!IMPORTANT]
->Om te voorkomen dat de service te veel waarschuwingen retourneert, is elke regel beperkt tot het genereren van slechts 100 waarschuwingen wanneer deze wordt uitgevoerd. Voordat u een regel maakt, moet u de query aanpassen om te voorkomen dat u waarschuwingen moet ontvangen voor normale, dagelijkse activiteiten.
+>Om te voorkomen dat de service te veel waarschuwingen retourneert, is elke regel beperkt tot het genereren van slechts 100 waarschuwingen wanneer deze wordt uitgevoerd. Voordat u een regel maakt, kunt u de query aanpassen om te voorkomen dat u een waarschuwing uitvoert voor normale, dagelijkse activiteiten.
 
 
 #### <a name="required-columns-in-the-query-results"></a>Vereiste kolommen in de queryresultaten
@@ -87,9 +87,9 @@ Als u een aangepaste detectieregel wilt maken, moet de query de volgende kolomme
 
 Eenvoudige query's, zoals query's die de operator of operator niet gebruiken om resultaten aan te passen of samen te gebruiken, retourneren meestal `project` `summarize` deze gemeenschappelijke kolommen.
 
-Er zijn verschillende manieren om ervoor te zorgen dat complexere query's deze kolommen retourneren. Als u bijvoorbeeld de voorkeur geeft aan aggregeren en tellen per entiteit onder een kolom, kunt u nog steeds terugkeren en deze verkrijgen van de meest recente gebeurtenis met betrekking tot `DeviceId` `Timestamp` elke unieke `ReportId` `DeviceId` gebeurtenis.
+Er zijn verschillende manieren om ervoor te zorgen dat complexere query's deze kolommen retourneren. Als u bijvoorbeeld de voorkeur geeft aan aggregeren en tellen per entiteit onder een kolom, kunt u deze nog steeds retourneren van de meest recente gebeurtenis met betrekking tot `DeviceId` `Timestamp` elke unieke `ReportId` `DeviceId` gebeurtenis.
 
-De onderstaande voorbeeldquery telt het aantal unieke apparaten () met antivirusdetecties en gebruikt dit aantal om alleen apparaten met meer dan `DeviceId` vijf detecties te vinden. Voor het retourneren van de meest recente gegevens `Timestamp` en de `ReportId` bijbehorende functie wordt de operator met `summarize` de functie `arg_max` gebruikt.
+Met de onderstaande voorbeeldquery wordt het aantal unieke apparaten () met antivirusdetecties geteld en wordt dit aantal gebruikt om alleen apparaten met meer dan `DeviceId` vijf detecties te vinden. Voor het retourneren van de meest recente gegevens en de bijbehorende `Timestamp` functie wordt de operator met de functie `ReportId` `summarize` `arg_max` gebruikt.
 
 ```kusto
 DeviceEvents
@@ -100,36 +100,36 @@ DeviceEvents
 ```
 
 > [!TIP]
-> Voor betere queryprestaties stelt u een tijdfilter in dat overeenkomt met de geplande frequentie van uitvoeren voor de regel. Aangezien de meest voorkomende run om de _24 uur_ is, worden alle nieuwe gegevens gefilterd op de afgelopen dag.
+> Voor betere queryprestaties stelt u een tijdfilter in dat overeenkomt met de geplande frequentie van uitvoeren voor de regel. Aangezien de meest voorkomende run _om de 24 uur_ is, worden alle nieuwe gegevens verzameld door te filteren op de afgelopen dag.
 
 ### <a name="2-create-new-rule-and-provide-alert-details"></a>2. Nieuwe regel maken en details over waarschuwingen verstrekken.
 
-Met de query in de queryeditor selecteert u **Een detectieregel maken** en geeft u de volgende waarschuwingsdetails op:
+Met de query in de queryeditor selecteert u **Detectieregel maken** en geeft u de volgende waarschuwingsdetails op:
 
 - **Naam van detectie:** naam van de detectieregel
-- **Interval** voor het uitvoeren van de query en het uitvoeren van actie. [Zie de aanvullende richtlijnen hieronder](#rule-frequency)
+- **Interval** voor het uitvoeren van de query en het uitvoeren van actie. [Zie de onderstaande aanvullende richtlijnen](#rule-frequency)
 - **Naam van waarschuwing:** titel weergegeven met waarschuwingen die worden geactiveerd door de regel
 - **Ernst:** potentieel risico van het onderdeel of de activiteit die wordt geïdentificeerd door de regel
 - **Category**— threat component or activity identified by the rule
-- **MITRE ATT&CK-technieken:** een of meer technieken voor aanvallen die door de regel zijn geïdentificeerd zoals gedocumenteerd in het [MITRE ATT&CK Framework.](https://attack.mitre.org/) Deze sectie is verborgen voor bepaalde categorieën van waarschuwingen, waaronder malware, ransomware, verdachte activiteiten en ongewenste software
+- **MITRE ATT&CK-technieken**: een of meer technieken voor aanvallen die door de regel zijn geïdentificeerd zoals gedocumenteerd in het [MITRE ATT&CK Framework.](https://attack.mitre.org/) Deze sectie is verborgen voor bepaalde categorieën van waarschuwingen, waaronder malware, ransomware, verdachte activiteiten en ongewenste software.
 - **Beschrijving:** meer informatie over het onderdeel of de activiteit die wordt geïdentificeerd door de regel 
-- **Aanbevolen acties**( extra acties die beantwoorders kunnen uitvoeren in reactie op een waarschuwing)
+- **Aanbevolen acties**: extra acties die beantwoorders kunnen uitvoeren in reactie op een waarschuwing
 
 #### <a name="rule-frequency"></a>Regelfrequentie
 Wanneer u een nieuwe regel op slaan of bewerken, wordt deze uitgevoerd en worden de overeenkomsten van de afgelopen 30 dagen met gegevens gecontroleerd. De regel wordt vervolgens opnieuw uitgevoerd met vaste intervallen, met een terugslagduur op basis van de gekozen frequentie:
 
-- **Elke 24 uur -** elke 24 uur wordt de gegevens van de afgelopen 30 dagen gecontroleerd
-- **Elke 12 uur -** wordt elke 12 uur uitgevoerd en de gegevens van de afgelopen 24 uur worden gecontroleerd
-- **Elke 3 uur -** elke 3 uur wordt de gegevens van de afgelopen 6 uur gecontroleerd
+- **Elke 24 uur –** elke 24 uur wordt de gegevens van de afgelopen 30 dagen gecontroleerd
+- **Elke 12 uur –** elke 12 uur wordt de gegevens van de afgelopen 24 uur gecontroleerd
+- **Elke 3 uur**- elke 3 uur wordt de gegevens van de afgelopen 6 uur gecontroleerd
 - **Elk uur**- elk uur wordt uitgevoerd, de gegevens van de afgelopen 2 uur controleren
 
 >[!TIP]
-> De tijdfilters in uw query laten overeenkomen met de duur van het terugkijken. Resultaten buiten de opgeslagen duur worden genegeerd.  
+> De tijdfilters in de query laten overeenkomen met de duur van het terugkijken. Resultaten buiten de opgeslagen duur worden genegeerd.  
 
-Selecteer de frequentie die overeenkomt met hoe nauw u detecties wilt controleren. Denk na over de capaciteit van uw organisatie om te reageren op de waarschuwingen.
+Selecteer de frequentie die overeenkomt met hoe nauw u detecties wilt controleren. Houd rekening met de capaciteit van uw organisatie om te reageren op de waarschuwingen.
 
 ### <a name="3-choose-the-impacted-entities"></a>3. Kies de beïnvloede entiteiten.
-Identificeer de kolommen in uw queryresultaten waarin u verwacht de belangrijkste betrokken of beïnvloede entiteit te vinden. Een query kan bijvoorbeeld adressen van afzender ( `SenderFromAddress` of ) en ontvanger `SenderMailFromAddress` `RecipientEmailAddress` () retourneren. Door te bepalen welke van deze kolommen de belangrijkste beïnvloede entiteit vertegenwoordigt, kan de service relevante waarschuwingen, correleren incidenten en actie voor doelreacties samenvoegen.
+Identificeer de kolommen in de queryresultaten waarin u verwacht de belangrijkste betrokken of beïnvloede entiteit te vinden. Een query kan bijvoorbeeld adressen van afzender ( `SenderFromAddress` of ) en ontvanger `SenderMailFromAddress` `RecipientEmailAddress` () retourneren. Door te bepalen welke van deze kolommen de belangrijkste beïnvloede entiteit vertegenwoordigt, kan de service relevante waarschuwingen samenvoegen, incidenten correleren en actie op basis van doelreacties uitvoeren.
 
 U kunt slechts één kolom selecteren voor elk entiteitstype (postvak, gebruiker of apparaat). Kolommen die niet door de query worden geretourneerd, kunnen niet worden geselecteerd.
 
@@ -140,15 +140,15 @@ De aangepaste detectieregel kan automatisch acties uitvoeren op apparaten, besta
 Deze acties worden toegepast op apparaten in de `DeviceId` kolom van de queryresultaten:
 - **Isoleert apparaat**— gebruikt Microsoft Defender voor eindpunt om volledige netwerkisolatie toe te passen, waardoor het apparaat geen verbinding kan maken met een toepassing of service. [Meer informatie over computerisolatie van Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
 - **Collect investigation package**— collects device information in a ZIP file. [Meer informatie over het Microsoft Defender for Endpoint-onderzoekspakket](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
-- **Antivirusscan uitvoeren**— een volledige Windows Defender Antivirus-scan uitvoeren op het apparaat
+- **Antivirusscan uitvoeren**— voer een volledige Windows Defender Antivirus-scan uit op het apparaat
 - **Onderzoek starten**: start een [geautomatiseerd onderzoek](mtp-autoir.md) op het apparaat
-- **Uitvoer van apps beperken:** hiermee stelt u beperkingen in voor het apparaat, zodat alleen bestanden worden uitgevoerd die zijn ondertekend met een door Microsoft uitgegeven certificaat. [Meer informatie over app-beperkingen met Microsoft Defender voor Eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
+- **Uitvoer van apps beperken:** hiermee stelt u beperkingen in voor het apparaat, zodat alleen bestanden worden uitgevoerd die zijn ondertekend met een door Microsoft uitgegeven certificaat. [Meer informatie over app-beperkingen met Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
 
 #### <a name="actions-on-files"></a>Acties op bestanden
-Als deze optie is geselecteerd, kunt u de actie **Quarantainebestand** toepassen op bestanden in de `SHA1` , of kolom van de `InitiatingProcessSHA1` `SHA256` `InitiatingProcessSHA256` queryresultaten. Met deze actie wordt het bestand van de huidige locatie verwijderd en wordt een kopie in quarantaine geplaatst.
+Als deze optie is geselecteerd, kunt u de actie **Quarantainebestand** toepassen op bestanden in `SHA1` de , of kolom van de `InitiatingProcessSHA1` `SHA256` `InitiatingProcessSHA256` queryresultaten. Met deze actie wordt het bestand van de huidige locatie verwijderd en wordt een kopie in quarantaine geplaatst.
 
 #### <a name="actions-on-users"></a>Acties voor gebruikers
-Als deze optie **is** geselecteerd, wordt de actie Gebruiker markeren als gecompromitteerd uitgevoerd op gebruikers in de , of kolom van de `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` queryresultaten. Met deze actie wordt het risiconiveau van gebruikers instellen op 'hoog' in Azure Active Directory, wat het bijbehorende identiteitsbeveiligingsbeleid [activeert.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
+Als deze optie **is** geselecteerd, wordt de actie Gebruiker markeren als gecompromitteerd uitgevoerd op gebruikers in de kolom of in de `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` queryresultaten. Met deze actie stelt u het risiconiveau van gebruikers in op 'hoog' in Azure Active Directory, wat het bijbehorende [identiteitsbeveiligingsbeleid activeert.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
 
 > [!NOTE]
 > De actie toestaan of blokkeren voor aangepaste detectieregels wordt momenteel niet ondersteund op Microsoft 365 Defender.
@@ -167,15 +167,15 @@ Alleen gegevens van apparaten binnen het bereik worden opgevraagd. Ook worden er
 Nadat u de regel heeft beoordeeld, **selecteert u Maken om** deze op te slaan. De aangepaste detectieregel wordt onmiddellijk uitgevoerd. Het wordt opnieuw uitgevoerd op basis van de geconfigureerde frequentie voor het controleren op overeenkomsten, het genereren van waarschuwingen en het uitvoeren van reactieacties.
 
 ## <a name="manage-existing-custom-detection-rules"></a>Bestaande regels voor aangepaste detectie beheren
-U kunt de lijst met bestaande regels voor aangepaste detectie bekijken, de vorige keer worden uitgevoerd en de waarschuwingen bekijken die zijn geactiveerd. U kunt ook een regel op aanvraag uitvoeren en wijzigen.
+U kunt de lijst met bestaande regels voor aangepaste detectie bekijken, de vorige versies controleren en de waarschuwingen bekijken die zijn geactiveerd. U kunt ook een regel op aanvraag uitvoeren en wijzigen.
 
 ### <a name="view-existing-rules"></a>Bestaande regels weergeven
 
 Als u alle bestaande aangepaste detectieregels wilt weergeven, gaat u naar **Aangepaste**  >  **detecties zoeken.** De pagina bevat alle regels met de volgende gegevens voor het uitvoeren van gegevens:
 
 - **Laatst uitgevoerd:** wanneer een regel voor het laatst werd uitgevoerd om te controleren op query-overeenkomsten en waarschuwingen te genereren
-- **Laatst uitgevoerd-status**( of een regel is uitgevoerd)
-- **Volgende keer** uitvoeren : de volgende geplande run
+- **Status laatst uitgevoerd,** ongeacht of een regel is uitgevoerd
+- **Volgende run**: de volgende geplande run
 - **Status:** of een regel is in- of uitgeschakeld
 
 ### <a name="view-rule-details-modify-rule-and-run-rule"></a>Regeldetails weergeven, regel wijzigen en regel uitvoeren
@@ -189,25 +189,26 @@ U kunt ook vanaf deze pagina de volgende acties uitvoeren op de regel:
 
 - **Voer** de regel direct uit. Hiermee wordt ook het interval voor de volgende run opnieuw ingesteld.
 - **Bewerken**: de regel wijzigen zonder de query te wijzigen
-- **Query wijzigen**- de query bewerken in geavanceerd zoeken
-- **In-/uit**  /  **De regel** inschakelen of stoppen met uitvoeren
+- **Query wijzigen**: de query bewerken in geavanceerd zoeken
+- **In-/uit**  /  **Uitschakelen :** schakel de regel in of stop het uitvoeren van de regel
 - **Verwijderen:** de regel uitschakelen en verwijderen
 
 ### <a name="view-and-manage-triggered-alerts"></a>Geactiveerde waarschuwingen weergeven en beheren
 
-Ga in het detailscherm van de regel **(zoeken** naar aangepaste  >  **detecties**  >  **[regelnaam]** naar Geactiveerde waarschuwingen, waarin de waarschuwingen worden weergegeven die zijn gegenereerd door overeenkomsten met de regel. Selecteer een waarschuwing om gedetailleerde informatie te bekijken en de volgende acties uit te voeren:
+Ga in het detailscherm van de regel **(Zoeken** naar aangepaste  >  **detecties**  >  **[regelnaam]** naar Geactiveerde waarschuwingen, waarin de waarschuwingen worden weergegeven die worden gegenereerd door overeenkomsten met de regel. Selecteer een waarschuwing om gedetailleerde informatie te bekijken en de volgende acties uit te voeren:
 
 - De waarschuwing beheren door de status en classificatie van de waarschuwing in te stellen (waar of onwaar)
-- De waarschuwing koppelen aan een incident
+- De waarschuwing aan een incident koppelen
 - Voer de query uit die de waarschuwing heeft geactiveerd op geavanceerde zoekopdrachten
 
 ### <a name="review-actions"></a>Acties controleren
 Ga in het detailscherm van de regel **(zoeken** naar aangepaste  >  **detecties**  >  **[regelnaam]** naar Geactiveerde acties, waarin de acties worden weergegeven die zijn gemaakt op basis van de regel.
 
 >[!TIP]
->Als u snel informatie wilt weergeven en actie wilt ondernemen voor een item in een tabel, gebruikt u de selectiekolom [&#10003;] aan de linkerkant van de tabel.
+>Als u snel informatie wilt weergeven en actie wilt ondernemen voor een item in een tabel, gebruikt u de selectiekolom [&#10003;] links van de tabel.
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="see-also"></a>Zie ook
 - [Overzicht van aangepaste detectie](custom-detections-overview.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De geavanceerde zoekquerytaal leren](advanced-hunting-query-language.md)
+- [Geavanceerde zoekquery's migreren van Microsoft Defender for Endpoint](advanced-hunting-migrate-from-mdatp.md)

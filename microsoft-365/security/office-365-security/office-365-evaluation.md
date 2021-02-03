@@ -1,7 +1,7 @@
 ---
-title: Evalueer Microsoft Defender for Office 365
-description: Met de evaluatieversie van 365 kunt u in de evaluatiemodus voor Office 365 e-mail beleidsregels maken voor Verdicts, zoals malware, maar geen actie ondernemen op berichten.
-keywords: Evalueer Office 365, Microsoft Defender for Office 365, Office 365-evaluatie, Probeer Office 365, Microsoft Defender, ATP
+title: Microsoft Defender voor Office 365 evalueren
+description: Met Defender voor Office 365 in evaluatiemodus maakt u een e-mailbeleid van Defender voor Office 365 dat wordt beoordeeld, zoals malware, maar die niet op berichten reageren.
+keywords: Office 365, Microsoft Defender voor Office 365, evaluatie van Office 365, office 365, Microsoft Defender, ATP evalueren
 f1.keywords:
 - NOCSH
 ms.author: ellevin
@@ -9,7 +9,6 @@ author: levinec
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,50 +16,52 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f8f105215b23ec49318c133714e758e2a2a9c1df
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 7c0bb1701cf030692bc98218b38be00cae57a2bd
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870919"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080699"
 ---
-# <a name="evaluate-microsoft-defender-for-office-365"></a>Evalueer Microsoft Defender for Office 365
+# <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365 evalueren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> Evaluatie van Microsoft Defender voor Office 365 is in openbare preview. Deze preview-versie is beschikbaar zonder serviceovereenkomst. Het is mogelijk dat bepaalde functies niet worden ondersteund of mogelijk een beperkte functionaliteit hebben.
+> Evaluatie van Microsoft Defender voor Office 365 is een openbare previewversie. Deze preview-versie wordt geleverd zonder serviceovereenkomst. Bepaalde functies worden mogelijk niet ondersteund of hebben beperkte mogelijkheden.
 
-U kunt een uitgebreide beoordeling van de veiligheid van het product bieden om u op de hoogte te stellen van upgrades en aankopen. Het is handig om de mogelijkheden van het beveiligings product uit te proberen om te beoordelen hoe dit uw team van beveiligingsactiviteiten kan helpen bij hun dagelijkse taken.
+Door een uitgebreide beveiligingsproductevaluatie uit te voeren, kunt u weloverwogen beslissingen over upgrades en aankopen nemen. Het is een goed middel om de mogelijkheden van het beveiligingsproduct uit te proberen om te beoordelen hoe het uw team voor beveiligingsbewerkingen kan helpen bij hun dagelijkse taken.
 
-Met de evaluatieversie van [Microsoft Defender voor Office 365](office-365-atp.md) kunt u de complexe functies van de apparatuur en de omgevings configuratie elimineren, zodat u zich kunt concentreren op het evalueren van de mogelijkheden van de beveiligingsoplossing. Dit geldt alleen voor e-mail beveiliging en niet voor SharePoint, Office-clients of teams.
+De evaluatie-ervaring van Microsoft Defender voor [Office 365](office-365-atp.md) is ontworpen om de complexiteit van de configuratie van apparaten en omgevingen weg te werken, zodat u zich kunt concentreren op het evalueren van de mogelijkheden van de beveiligingsoplossing. Het geldt alleen voor e-mailbeveiliging en niet voor SharePoint, Office-clients of Teams.
 
-Als u nog geen licentie hebt die ondersteuning biedt voor Microsoft Defender voor Office 365, kunt u een gratis proefversie van [30 dagen](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) starten en de functies testen in de beveiligings & van Office 365 https://protection.office.com/homepage) . U kunt snel aan de slag met de set en u kunt deze zo nodig eenvoudig uitschakelen.
+Als u nog geen licentie hebt die Microsoft Defender voor Office 365 ondersteunt, kunt u een gratis evaluatie van [30](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) dagen starten en de mogelijkheden testen in het Office 365-beveiligings- &-compliancecentrum ( https://protection.office.com/homepage) . U geniet van de snelle set-up en u kunt deze eenvoudig uitschakelen indien nodig.
 
-## <a name="how-the-evaluation-works"></a>De werking van de evaluatie
+## <a name="how-the-evaluation-works"></a>Hoe de evaluatie werkt
 
-Met de evaluatieversie van 365 kunt u in de evaluatiemodus voor Office 365 e-mail beleidsregels maken voor Verdicts, zoals malware, maar geen actie ondernemen op berichten. U bent niet verplicht om uw MX-record configuratie te wijzigen.
+Met Defender voor Office 365 in evaluatiemodus maakt u een e-mailbeleid van Defender voor Office 365 dat wordt beoordeeld, zoals malware, maar die niet op berichten reageren. U bent niet vereist om de configuratie van uw MX-record te wijzigen.
 
-Met de evaluatiemodus, [veilige bijlagen](atp-safe-attachments.md), [veilige koppelingen](atp-safe-links.md)en [beleid voor anti-phishing](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) , wordt namens u ingesteld. Alle beleidsregels voor Defender voor Office 365 worden met de niet-afdwingbare modus gemaakt en zijn niet zichtbaar voor u.
+In de evaluatiemodus [zijn veilige bijlagen,](atp-safe-attachments.md) [veilige koppelingen](atp-safe-links.md)en beleidsregels voor [phishing-imitatie](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) namens u ingesteld. Alle beleidsregels van Defender voor Office 365 worden gemaakt in de modus niet-afdwingen op de achtergrond en zijn niet voor u zichtbaar.
 
-Als onderdeel van de instelling, configureert de evaluatiemodus ook [uitgebreid filteren op connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors). De nauwkeurigheid van het filteren van IP-adressen en gegevens over de afzender wordt op een andere manier verduurzaamd wanneer e-mail wordt doorgestuurd via een ESG (MailSecurity gateway) vóór de app voor Office 365. Met een verbeterde filter kwaliteit worden ook de filters nauwkeuriger gefilterd voor het antispam-en Antispambeleid van Exchange Online Protection (EOP).
+Als onderdeel van de installatie wordt in de evaluatiemodus ook [verbeterd filteren voor verbindingslijnen geconfigureerd.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) Het verbetert de filternauwkeurigheid door ip-adres- en afzendergegevens te behouden, die anders verloren gaan als e-mail een e-mailbeveiligingsgateway (ESG) passeert vóór Defender voor Office 365. Verbeterde filtering verbetert ook de filternauwkeurigheid voor uw EOP (Exchange Online Protection) antispam- en anti-phishingbeleid.
 
-Als u de potentiële productie-impact op sommige niet-ondersteunde scenario's wilt beperken, kunt u alle filters filteren negeren door een transportregel te maken voor het instellen van het spam betrouwbaarheidsniveau (SCL) op-1. Zie voor meer informatie [een e-mail stroom regel maken waarmee de SCL van een bericht wordt ingesteld](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)   voor informatie.
+Als u de potentiële productie-impact op sommige niet-ondersteunde scenario's wilt minimaliseren, kunt u alle EOP-filters omzeilen door een transportregel te maken om het spamver vertrouwelijkheidsniveau in te stellen op -1. Zie [Het EAC gebruiken om een regel voor de e-mailstroom te](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)maken die de SCL van een bericht in stelt voor meer   informatie.
 
-Wanneer de evaluatiemodus is geconfigureerd, hebt u dagelijks een rapport bijgewerkt met een waarde van maximaal 90 dagen van de gegevens die zijn geblokkeerd als de beleidsregels werden ingevoerd (bijvoorbeeld verwijderen, verzenden naar ongewenste e-mail, Quarantine). Er worden rapporten gegenereerd voor alle EOP-en detectie punten van de Defender voor Office 365. De persoon wordt samengevoegd per detectietechnologie (bijvoorbeeld imitatie) en kan worden gefilterd op tijdsbereik. Daarnaast kunnen berichten rapporten op aanvraag worden gemaakt om aangepaste draaiingen te maken of berichten van een grondige uitduiking te maken met behulp van de bedreigings Verkenner.
+Wanneer de evaluatiemodus is ingesteld, wordt er dagelijks een rapport bijgewerkt met maximaal 90 dagen aan gegevens die de berichten kwantificeren die geblokkeerd zouden zijn als het beleid zou zijn geïmplementeerd (bijvoorbeeld verwijderen, verzenden naar ongewenste e-mail en quarantaine). Rapporten worden gegenereerd voor alle Defender voor Office 365- en EOP-detecties. Ze worden samengevoegd per detectietechnologie (bijvoorbeeld imitatie) en kunnen worden gefilterd op tijdsbereik. Bovendien kunnen berichtrapporten op aanvraag worden gemaakt om aangepaste draai draairapporten te maken of om berichten diep te bekijken met Behulp van Bedreigingsverkenner.
 
-Met een eenvoudige instelling kunt u zich richten op:
+Met de vereenvoudigde set-upervaring kunt u zich concentreren op:
 
 - De evaluatie uitvoeren
-- Een gedetailleerd rapport verkrijgen
-- Het rapport analyseren voor actie
-- Het resultaat van de evaluatie presenteren
+- Een gedetailleerd rapport maken
+- Het rapport analyseren om actie te ondernemen
+- Het evaluatieresultaat presenteren
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
 ### <a name="licensing"></a>Licenties
 
-Voor toegang tot de evaluatie moet u voldoen aan de licentievereisten. De volgende licenties werken wel:
+Als u de evaluatie wilt openen, moet u voldoen aan de licentievereisten. De volgende licenties werken:
 
 - Abonnement 1 voor Microsoft Defender voor Office 365
 - Abonnement 2 voor Microsoft Defender voor Office 365
@@ -69,106 +70,106 @@ Voor toegang tot de evaluatie moet u voldoen aan de licentievereisten. De volgen
 
 Als u niet een van deze licenties hebt, moet u een proeflicentie aanvragen.
 
-#### <a name="trial"></a>Lange
+#### <a name="trial"></a>Proefversie
 
-Als u een proeflicentie voor Microsoft Defender voor Office 365 wilt verkrijgen, moet u beschikken over de rol van **factureringsbeheerder** of **globale beheerder**. Vraagt om toestemming van iemand met de rol van globale beheerder. [Meer informatie over abonnementen en licenties](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
+Als u een proeflicentie voor Microsoft Defender voor Office 365 wilt aanvragen, moet u de rol factureringsbeheerder of **globale beheerder hebben.**  Vraag toestemming aan iemand met de rol van globale beheerder. [Meer informatie over abonnementen en licenties](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
 
-Wanneer u de juiste rol hebt, is het aanbevolen pad om een proeflicentie voor Microsoft Defender for Office 365 (abonnement 2) te verkrijgen in het Microsoft 365-Beheercentrum via facturering > Services aanschaffen. De proefperiode omvat een gratis proefversie van 30 dagen voor 25 licenties. U [ontvangt een proefabonnement voor Microsoft Defender for Office 365 (abonnement 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA).
+Als u de juiste rol hebt, kunt u het beste een proeflicentie voor Microsoft Defender voor Office 365 (Abonnement 2) verkrijgen in het Microsoft 365-beheercentrum door naar facturerings- >-services aanschaffen. De proefversie bevat een gratis proefversie van 30 dagen voor 25 licenties. [Krijg een proefversie voor Microsoft Defender voor Office 365 (Abonnement 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
-U hebt een venster van dertig dagen met de evaluatie voor het bewaken van en rapporteren over geavanceerde bedreigingen. U kunt ook een betaald abonnement kopen als u de volledige functionaliteit van de Defender voor Office 365 wilt gebruiken.
+U hebt een venster van 30 dagen met de evaluatie om geavanceerde bedreigingen te controleren en te rapporteren. U kunt ook een betaald abonnement kopen als u de volledige mogelijkheden van Defender voor Office 365 wilt.
 
-### <a name="roles"></a>Vervullen
+### <a name="roles"></a>Rollen
 
-Exchange Online-rollen zijn vereist voor het instellen van Defender voor Office 365 in de evaluatiemodus.
+Exchange Online-rollen zijn vereist voor het instellen van Defender voor Office 365 in evaluatiemodus.
 
 - [Meer informatie over machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
 - [Meer informatie over het toewijzen van beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
 
-U hebt de volgende rollen nodig:
+De volgende rollen zijn nodig:
 
 |Taak|Rol|
 |---|---|
-|Maak een gratis proefversie of koop Microsoft Defender for Office 365 (abonnement 2)|Rol van factureringsbeheerder of globale beheerder|
-|Evaluatie beleid maken|De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders|
-|Evaluatie beleid bewerken|De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders|
-|Evaluatie beleid verwijderen|De rol van extern en geaccepteerde domeinen; Rollen van beveiligingsbeheerders |
-|Evaluatieverslag weergeven|Rol van beveiligingsbeheerder of beveiligings lezer|
+|Krijg een gratis proefversie of koop Microsoft Defender voor Office 365 (abonnement 2)|Rol factureringsbeheerder OF globale beheerdersrol|
+|Evaluatiebeleid maken|Externe en geaccepteerde domeinenrol; Rol van beveiligingsbeheerder|
+|Evaluatiebeleid bewerken|Externe en geaccepteerde domeinenrol; Rol van beveiligingsbeheerder|
+|Evaluatiebeleid verwijderen|Externe en geaccepteerde domeinenrol; Rol van beveiligingsbeheerder |
+|Evaluatierapport weergeven|Rol van beveiligingsbeheerder OF beveiligingslezer|
 |
 
 
-### <a name="enhanced-filtering"></a>Uitgebreid filteren
+### <a name="enhanced-filtering"></a>Verbeterde filters
 
-Uw beleid voor Exchange Online beveiliging, zoals beveiliging tegen bulk en spam, blijft ongewijzigd. Berichtbezorging blijft ook ongewijzigd. Met de evaluatie wordt echter uitgebreid filteren van connectors ingeschakeld, wat van invloed is op uw e-mail stroom en Exchange Online Protection-beleid, tenzij ze worden overgeslagen.
+Uw exchange Online Protection-beleid, zoals bulksge zoveel mogelijk en spambeveiliging, blijft hetzelfde. Berichtbezorging blijft hetzelfde. Bij de evaluatie wordt echter verbeterd filteren op connectors inschakelen, wat van invloed is op uw e-mailstroom en beleidsregels van Exchange Online Protection, tenzij deze worden overgeslagen.
 
-Met een betere filtering voor Connectors kunnen tenants beveiliging tegen spoofing gebruiken. Anti-spoofing wordt niet ondersteund als u werkt met een e-mail beveiligingsgateway (ESG) zonder dat u een verbeterde filtering voor connectors hoeft in te schakelen.
+Door verbeterde filters voor connectors kunnen tenants beveiliging tegen spoofing gebruiken. Anti-spoofing wordt niet ondersteund als u een e-mail security gateway (ESG) gebruikt zonder uitgebreide filters voor connectors te hebben ingeschakeld.
 
-### <a name="urls"></a>URLs
+### <a name="urls"></a>URL's
 
-Url's worden tijdens de e-mail stroom weergegeven. Als u bepaalde Url's niet wilt weergeven, beheert u de lijst met toegestane Url's op de juiste manier. Zie [Url's beheren in de lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md) voor meer informatie.
+URL's worden gedetoneerd tijdens de e-mailstroom. Als u niet wilt dat specifieke URL's worden gedetoneerd, beheert u de lijst met toegestane URL's op de juiste manier. Zie [De lijst met tenants toestaan/blokkeren beheren](tenant-allow-block-list.md) voor meer informatie.
 
-URL-koppelingen in de berichttekst van een e-mailbericht kunnen niet teruglopen om de gevolgen van klanten te beperken.
+URL-koppelingen in de e-mailberichten worden niet terugloopt om de impact van de klant te verminderen.
 
-### <a name="email-routing"></a>E-mail routering
+### <a name="email-routing"></a>E-mailroutering
 
-Maak de gegevens die u nodig hebt om te bepalen hoe uw e-mailberichten momenteel worden gerouteerd, waaronder de naam van de inkomende connector waarmee uw e-mail wordt rondgestuurd. Als u alleen Exchange Online Protection gebruikt, hebt u geen connector.  [Meer informatie over e-mail stroom en e-mail routering](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
+Bereid de bijbehorende gegevens voor die u nodig hebt om in te stellen hoe uw e-mail momenteel wordt doorgestuurd, inclusief de naam van de binnenkomende connector die uw e-mail doorgestuurd. Als u alleen Exchange Online Protection gebruikt, hebt u geen connector.  [Meer informatie over e-mailstroom en e-mailroutering](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
 
-Ondersteunde e-mail routeringsscenario's zijn:
+Ondersteunde e-mailrouteringsscenario's zijn:
 
-- **Partner van derden en/of on-premises service provider**: de binnenkomende verbindingslijn die u wilt evalueren, maakt gebruik van een externe provider en/of u gebruikt een oplossing voor e-mail beveiliging.
-- **Alleen Microsoft Exchange Online Protection**: de Tenant die u wilt evalueren, maakt gebruik van Office 365 voor e-mail beveiliging en de MX-record (mail exchanger) van Microsoft.
+- **Externe partner en/of on-premises serviceprovider:** de binnenkomende connector die u wilt evalueren, maakt gebruik van een externe provider en/of u gebruikt een oplossing voor e-mailbeveiliging on-premises.
+- **Alleen Microsoft Exchange Online Protection:** de tenant die u wilt evalueren gebruikt Office 365 voor e-mailbeveiliging en de Mail Exchange (MX)-record wijst naar Microsoft.
 
-### <a name="email-security-gateway"></a>Beveiligingsgateway voor e-mail
+### <a name="email-security-gateway"></a>E-mailbeveiligingsgateway
 
-Als u een e-mail beveiligingsgateway voor derden gebruikt (ESG), moet u de naam van de provider weten. Als u een on-premises of niet-ondersteunde leverancier van ESG gebruikt, moet u weten wat de openbare IP-adressen voor de apparaten zijn.
+Als u een externe e-mailbeveiligingsgateway (ESG) gebruikt, moet u de naam van de provider weten. Als u een ESG on-premises of niet-ondersteunde leverancier gebruikt, moet u de openbare IP-adressen voor de apparaten weten.
 
-Ondersteunde partners van derden omvatten:
+Ondersteunde externe partners zijn:
 
 - Barracuda
 - IronPort
 - Mimecast
 - Proofpoint
-- Sophos
-- Symantec
+- Tweedejaars
+- Bijen
 - Trend Micro
 
-### <a name="scoping"></a>Volgen
+### <a name="scoping"></a>Een bereik maken
 
-U kunt de evaluatie in een inkomende connector bereiken. Als er geen connector is geconfigureerd, kunnen beheerders met het evaluatie bereik gegevens van een willekeurige gebruiker in de Tenant verzamelen om de functies van Defender voor Office 365 te evalueren.
+U kunt het bereik van de evaluatie beperkt tot een binnenkomende connector. Als er geen connector is geconfigureerd, kunnen beheerders met het evaluatiebereik gegevens verzamelen van alle gebruikers in uw tenant om Defender voor Office 365 te evalueren.
 
 ## <a name="get-started-with-the-evaluation"></a>Aan de slag met de evaluatie
 
-Zoek de installatie kaart voor Microsoft Defender for Office 365 op de proefversie van Office 365 & compliance ( https://protection.office.com/homepage) van drie toegangspunten).
+Zoek de kaart voor de evaluatie-set-up van Microsoft Defender voor Office 365 in het office 365-beveiligings- & compliancecentrum (van https://protection.office.com/homepage) drie toegangspunten:
 
-- Threat Management > dashboard
-- Beleid voor risicobeheer >
+- Bedreigingsbeheer > Dashboard
+- Bedreigingsbeheer > beleid
 - Rapporten > dashboard
 
 ## <a name="setting-up-the-evaluation"></a>De evaluatie instellen
 
-Wanneer u de ingestelde stroom instelt voor de evaluatie, krijgt u twee routeringsopties. Afhankelijk van de instellingen voor e-mail routering van uw organisatie en de behoeften van uw organisatie, kunt u aangeven of u een externe provider of een on-premises service provider of alleen Microsoft Exchange Online gebruikt.
+Wanneer u de in te stellen stroom voor de evaluatie start, krijgt u twee routeringsopties. Afhankelijk van de e-mailrouterings- en evaluatiebehoeften van uw organisatie, kunt u selecteren of u een externe en/of on-premises serviceprovider of alleen Microsoft Exchange Online gebruikt.
 
-- Als u een partner van derden en/of on-premises service provider gebruikt, moet u de naam van de leverancier selecteren in het vervolgkeuzemenu. Voer de andere informatie over de connector in.
+- Als u een externe partner en/of on-premises serviceprovider gebruikt, moet u de naam van de leverancier selecteren in de vervolgkeuzelijst. Geef de overige connectorgerelateerde details op.
 
-- Selecteer Microsoft Exchange Online als de MX-record verwijst naar Microsoft en u een postvak van Exchange Online hebt.
+- Selecteer Microsoft Exchange Online als de MX-record naar Microsoft wijst en u een postvak van Exchange Online hebt.
 
-Controleer de instellingen en bewerk deze zo nodig. Selecteer vervolgens **evaluatie maken**. U ontvangt een bevestigingsbericht om aan te geven dat uw instellingen zijn voltooid.
+Controleer uw instellingen en bewerk ze zo nodig. Selecteer vervolgens **Evaluatie maken.** Er wordt een bevestigingsbericht weergegeven om aan te geven dat de set-up is voltooid.
 
 Uw evaluatierapport van Microsoft Defender voor Office 365 wordt één keer per dag gegenereerd. Het kan tot 24 uur duren voordat de gegevens zijn ingevuld.
 
 ### <a name="exchange-rules-optional"></a>Exchange-regels (optioneel)
 
-Als u een bestaande gateway hebt, wilt u deze mogelijk niet meer filteren, omdat het IP-adres van de binnenkomende afzender wordt geactiveerd. Als u wilt negeren, gaat u naar het Exchange-Beheercentrum en maakt u een beleid van SCL-1 (als u dat nog niet hebt gedaan). Zie regels voor e-mail stroom (transportregels) in Exchange Online voor meer informatie over de regel onderdelen en hoe deze werken.
+Als u een bestaande gateway hebt, wordt in de evaluatiemodus verbeterd filteren voor verbindingslijnen geactiveerd. Hiermee verbetert u de nauwkeurigheid van het filteren door het IP-adres van de binnenkomende afzender te wijzigen. Dit kan de filtereigenschappen wijzigen en als u Exchange Online Protection niet overzeilt, kan dit de bezorgbaarheid van bepaalde berichten wijzigen. In dit geval wilt u misschien tijdelijk geen filters gebruiken om de impact te analyseren. Als u dit wilt omzeilen, gaat u naar het Exchange-beheercentrum en maakt u een beleid van SCL -1 (als u dit nog niet hebt). Zie E-mailstroomregels (transportregels) in Exchange Online voor meer informatie over de regelonderdelen en de manier waarop deze werken.
 
 ## <a name="evaluate-capabilities"></a>Mogelijkheden evalueren
 
-Wanneer het evaluatierapport is gegenereerd, raadpleegt u het aantal geavanceerde bedreigings koppelingen, geavanceerde bijlagen met bedreigingen en mogelijke oorzaken werden aangegeven in de werkruimten voor e-mailberichten en samenwerking in uw organisatie.
+Nadat het evaluatierapport is gegenereerd, kunt u zien hoeveel geavanceerde bedreigingskoppelingen, geavanceerde bedreigingsbijlagen en potentiële imitaties zijn geïdentificeerd in de werkruimten voor e-mailberichten en samenwerking in uw organisatie.
 
-Wanneer de proefperiode is verlopen, kunt u het rapport nog voor 90 dagen openen. Er is echter geen informatie verzameld. Als u Microsoft Defender voor Office 365 wilt blijven gebruiken nadat uw proefabonnement is verlopen, moet u ervoor zorgen dat u [een betaald abonnement koopt voor Microsoft Defender for Office 365 (abonnement 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA).
+Nadat de proefversie is verlopen, kunt u het rapport nog 90 dagen openen. Er worden echter geen gegevens meer verzameld. Als u Microsoft Defender voor Office 365 wilt blijven gebruiken nadat uw proefabonnement is verlopen, moet u een betaald abonnement voor Microsoft Defender voor [Office 365 kopen (abonnement 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
-U kunt op elk gewenst moment naar **instellingen** gaan om uw routering bij te werken of de evaluatie uit te schakelen. U moet echter wel hetzelfde proces voor het instellen van het proces doorlopen wanneer u het hebt uitgeschakeld.
+U kunt op elk **moment naar Instellingen** gaan om uw routering bij te werken of de evaluatie uitschakelen. U moet echter dezelfde procedure opnieuw doorlopen als u besluit om de evaluatie voort te zetten nadat u deze hebt uitgeschakeld.
 
 ## <a name="provide-feedback"></a>Feedback geven
 
-Met uw feedback kunnen we uw omgeving beter beschermen tegen geavanceerde aanvallen. Deel de ervaring en indruk van product mogelijkheden en evaluatieresultaten.
+Uw feedback helpt ons uw omgeving beter te beschermen tegen geavanceerde aanvallen. Deel uw ervaring en wee van productmogelijkheden en evaluatieresultaten.
 
-Selecteer **feedback geven** om ons te laten weten wat u ervan vindt.
+Selecteer **Feedback geven** om ons te laten weten wat u vindt.

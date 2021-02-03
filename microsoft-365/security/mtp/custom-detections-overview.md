@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ae9617a55fd5efb40a3aba07202ebfb1494d4db6
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: de9fb28f09b88cf1730f3bb3539234f6a03ec2e3
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928806"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080711"
 ---
 # <a name="custom-detections-overview"></a>Overzicht van aangepaste detectie
 
@@ -35,12 +35,13 @@ ms.locfileid: "49928806"
 
 Met aangepaste detecties kunt u proactief toezicht houden op en reageren op verschillende gebeurtenissen en systeemsystemen, waaronder verdachte inbreuken en onjuist geconfigureerde eindpunten. Dit wordt mogelijk gemaakt door aanpasbare detectieregels die waarschuwingen automatisch activeren en reactieacties.
 
-Aangepaste detecties werken met [geavanceerd](advanced-hunting-overview.md)zoeken, dat een krachtige, flexibele querytaal biedt waarmee een breed scala aan gebeurtenis- en systeeminformatie van uw netwerk wordt bedekt. U kunt instellen dat deze worden uitgevoerd met regelmatige tussenpozen, waarschuwingen genereren en actie ondernemen wanneer er overeenkomsten zijn.
+Aangepaste detecties werken met [geavanceerd](advanced-hunting-overview.md)zoeken, dat een krachtige, flexibele querytaal biedt die een breed scala aan gebeurtenis- en systeeminformatie van uw netwerk omvat. U kunt instellen dat deze worden uitgevoerd met regelmatige tussenpozen, waarschuwingen genereren en actie ondernemen wanneer er overeenkomsten zijn.
 
 Aangepaste detecties bieden:
 - Waarschuwingen voor op regels gebaseerde detecties die zijn gebaseerd op geavanceerde zoekquery's
 - Automatische antwoordacties
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="see-also"></a>Zie ook
 - [Aangepaste detectieregels maken en beheren](custom-detection-rules.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
+- [Geavanceerde zoekquery's migreren van Microsoft Defender for Endpoint](advanced-hunting-migrate-from-mdatp.md)
