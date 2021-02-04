@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Meer informatie over uitlegtypen in Microsoft SharePoint Syntex
-ms.openlocfilehash: 9a65c5de5321ee623a3d1a1e4260c0bcb2ad331e
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 2c2997fd165339cc43f7f007050f343794021a23
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975953"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080590"
 ---
 # <a name="introduction-to-explanation-types"></a>Inleiding tot uitlegtypen
 
@@ -123,6 +123,31 @@ Er zijn drie tokens in *(mobiel)*:
 Configureer de proximity-instelling voor een bereik van 0 tot en met 3.
 
    ![Voorbeeld van proximity](../media/content-understanding/proximity-example.png)</br>
+
+
+## <a name="configure-where-phrases-occur-in-the-document"></a>Configureren waar woordgroepen voorkomen in het document
+
+Wanneer u een uitleg maakt, wordt standaard in het hele document gezocht naar de woordgroep die u wilt extraheren. U kunt echter de geavanceerde instelling <b>Waar deze woordgroepen voorkomen</b> gebruiken om een specifieke locatie in het document te isoleren waar een woordgroep voorkomt. Dit is handig in situaties waarin soortgelijke gevallen van een woordgroep ergens anders in het document kunnen worden weergegeven en u wilt ervoor zorgen dat de juiste is geselecteerd. Wanneer we kijken naar ons voorbeelddocument voor medische verwijzing, wordt de **Verwijzende arts** altijd in de eerste alinea van het document vermeld. Met de instelling <b>Waar deze woordgroepen voorkomen</b> kunt u in dit voorbeeld de uitleg zo configureren dat alleen in het begin van het document naar dit label wordt gezocht, of op een andere locatie waar dit kan voorkomen.
+
+   ![Instelling Waar deze woordgroepen voorkomen](../media/content-understanding/phrase-location.png)</br>
+
+U kunt kiezen uit de volgende opties voor deze instelling:
+
+- Overal in het bestand: in het hele document wordt naar de woordgroep gezocht.
+- Begin van het bestand: het document wordt vanaf het begin tot aan de locatie van de woordgroep doorzocht.</br> 
+   ![Begin van bestand](../media/content-understanding/beginning-of-file.png)</br>
+In de viewer kunt u het selectievakje handmatig aanpassen zodat de locatie van de woordgroep wordt opgenomen. De waarde van <b>Eindpositie</b> wordt bijgewerkt om het aantal tokens weer te geven dat het geselecteerde gebied bevat. U kunt de waarde van de Eindpositie ook bijwerken om het geselecteerde gebied aan te passen.</br>
+   ![Vak Begin van bestandspositie](../media/content-understanding/beginning-box.png)</br>
+
+- Einde van het bestand: het document wordt vanaf het eind tot aan de locatie van de woordgroep doorzocht.</br> 
+   ![Einde van bestand](../media/content-understanding/end-of-file.png)</br>
+In de viewer kunt u het selectievakje handmatig aanpassen zodat de locatie van de woordgroep wordt opgenomen. De waarde van <b>Beginpositie</b> wordt bijgewerkt om het aantal tokens weer te geven dat het geselecteerde gebied bevat. U kunt de waarde van de Beginpositie ook bijwerken om het geselecteerde gebied aan te passen.</br> 
+   ![Vak Einde van bestand](../media/content-understanding/end-box.png)</br>
+- Aangepast bereik: in een bepaald bereik binnen het document wordt gezocht naar de locatie van de woordgroep.</br> 
+   ![Aangepast bereik](../media/content-understanding/custom-file.png)</br>
+In de viewer kunt u het selectievakje handmatig aanpassen zodat de locatie van de woordgroep wordt opgenomen. Voor deze instelling moet u een <b>Beginpositie</b> en een <b>Eindpositie</b> selecteren. Deze waarden geven het aantal tokens aan vanaf het begin van het document. Hoewel u deze waarden handmatig kunt invoeren, is het eenvoudiger om het selectievakje handmatig aan te passen in de viewer.</br> 
+   
+
 
 ## <a name="use-explanation-templates"></a>Uitlegsjablonen gebruiken
 

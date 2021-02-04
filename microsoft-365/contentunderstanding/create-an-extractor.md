@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Lees hoe je een Extractor kunt maken in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 7417805f51bb3a1c7b993ce2cd72137478abbc02
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: dd26b049f71688804cd5110a5a0bb7c87950be94
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976541"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080483"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Maak een Extractor in Microsoft SharePoint Syntex.
 
@@ -57,6 +57,14 @@ Als je de Extractor maakt, wordt de extractor-pagina geopend. Hier zie je een li
 
  
 Wanneer je vijf bestanden hebt voorzien van een label, wordt een melding weergegeven met de mededeling dat je wilt overstappen op de training. Je kunt ervoor kiezen om meer documenten beter te labelen of verder te gaan met de training. 
+
+### <a name="use-find-to-search-your-file"></a>Zoeken gebruiken om in je bestand te zoeken
+Je kunt de functie <b>Zoeken</b> gebruiken om te zoeken naar een entiteit in je document, dat je van een label wilt voorzien.
+
+   ![Zoeken in bestand](../media/content-understanding/find-feature.png) 
+
+De functie Zoeken is handig als je in een groot document zoekt of als het document meerdere exemplaren van de entiteit bevat. Als je meerdere exemplaren hebt gevonden, kun je in de zoekresultaten het exemplaar selecteren dat je nodig hebt om naar die locatie in de viewer te gaan en dat exemplaar van een label te voorzien.
+
 
 ## <a name="add-an-explanation"></a>Voeg een uitleg toe
 

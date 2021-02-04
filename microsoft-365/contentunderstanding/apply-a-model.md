@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Informatie over het toepassen van een gepubliceerd model op een SharePoint-documentbibliotheek.
-ms.openlocfilehash: 742c6b7088619579f6157e20de63fe311039d6e2
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 17da1e37f72504ac5e0e26c0dd190efced08d285
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975929"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080770"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Een documentbegripmodel toepassen in Microsoft SharePoint Syntex
 
@@ -61,10 +61,15 @@ U past als volgt een model toe op een SharePoint-documentbibliotheek:
 
     ![Geselecteerde bibliotheek](../media/content-understanding/selected-library.png)</br>
 
-7. Ga naar de documentbibliotheek en controleer of de documentbibliotheekweergave van het model wordt weergegeven. U ziet dat wanneer u de informatieknop naast de naam van de documentbibliotheek selecteert, het bericht wordt weergegeven dat uw model is toegepast op de documentbibliotheek.
+7. Ga naar de documentbibliotheek en controleer of de documentbibliotheekweergave van het model wordt weergegeven. U ziet dat wanneer u de informatieknop naast de naam van de documentbibliotheek selecteert, het bericht wordt weergegeven dat op de documentbibliotheek een model is toegepast.
 
     ![Informatieweergave](../media/content-understanding/info-du.png)</br> 
 
+    U kunt **Actieve modellen weergeven** selecteren voor meer informatie over eventuele modellen die zijn toegepast op de documentbibliotheek.
+
+8. In het deelvenster **Actieve modellen** ziet u de modellen die zijn toegepast op de documentbibliotheek. Selecteer een model voor meer informatie, zoals een beschrijving van het model, wie het model heeft gepubliceerd en of het model een retentielabel toepast op de bestanden die door het model worden geclassificeerd.
+
+    ![Deelvenster Actieve modellen](../media/content-understanding/active-models.png)</br> 
 
 Nadat u het model hebt toegepast op de documentbibliotheek, kunt u beginnen met het uploaden van documenten naar de site en bekijken van de resultaten.
 
@@ -82,6 +87,20 @@ Terwijl een toegepast model alle bestanden verwerkt die naar de documentbiblioth
 
 > [!NOTE]
 > Je kunt individuele documenten naar een bibliotheek kopiëren en ze toepassen op een model. Dit is echter niet mogelijk voor mappen.
+
+### <a name="the-classification-date-field"></a>Het veld Classificatiedatum
+
+Wanneer een SharePoint Syntex-model voor inhoudsbegrip of een formulierverwerkingsmodel wordt toegepast op een documentbibliotheek, wordt het veld <b>Classificatiedatum</b> opgenomen in het bibliotheekschema. Dit veld is standaard leeg, maar wanneer documenten door een model worden verwerkt en geclassificeerd, wordt dit veld bijgewerkt met de datum en tijd van voltooiing. 
+
+   ![De kolom Classificatiedatum](../media/content-understanding/class-date-column.png)</br> 
+
+Het veld Classificatiedatum wordt gebruikt door het [<b>Wanneer een bestand wordt geclassificeerd door een model voor inhoudsbegrip,</b> activeert u ](https://docs.microsoft.com/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model) om een Power Automate-workflow uit te voeren nadat een Syntex-model voor inhoudsbegrip klaar is met het verwerken van een bestand en het veld Classificatiedatum is bijgewerkt.
+
+   ![Trigger voor workflow](../media/content-understanding/trigger.png)</br>
+
+De trigger <b>Wanneer een bestand wordt geclassificeerd door een model voor inhoudsbegrip</b> kan vervolgens worden gebruikt om een andere workflow te starten met behulp van uit het bestand geëxtraheerde gegevens.
+
+
 
 ## <a name="see-also"></a>Zie ook
 [Een classificatie maken](create-a-classifier.md)
