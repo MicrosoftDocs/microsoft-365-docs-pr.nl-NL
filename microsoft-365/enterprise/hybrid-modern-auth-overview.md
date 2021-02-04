@@ -1,5 +1,5 @@
 ---
-title: Hybride overzicht van de hybride verificatie en vereisten voor het gebruik van on-premises Skype voor bedrijven en Exchange-servers
+title: Overzicht van hybride moderne verificatie en vereisten voor gebruik met on-premises Skype voor Bedrijven- en Exchange-servers
 ms.author: kvice
 ms.reviewer: smithre4
 author: kelleyvice-msft
@@ -15,107 +15,107 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-description: In dit artikel vindt u meer informatie over hybride moderne verificatie en de vereisten voor gebruik met on-premises Skype voor bedrijven en Exchange-servers.
-ms.openlocfilehash: dbd108d9b04445838ce8e88a921af717ebd763be
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+description: In dit artikel vindt u meer informatie over hybride moderne verificatie en de vereisten voor gebruik met on-premises Skype voor Bedrijven- en Exchange-servers.
+ms.openlocfilehash: b9b48f591f74bd508b20a851ec48a0d7132d6a84
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487718"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097102"
 ---
-# <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>Hybride overzicht van de hybride verificatie en vereisten voor het gebruik van on-premises Skype voor bedrijven en Exchange-servers
+# <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>Overzicht van hybride moderne verificatie en vereisten voor het gebruik ervan met on-premises Skype voor Bedrijven- en Exchange-servers
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-_Moderne verificatie_ is een methode van identiteitsbeheer die een betere verificatie en autorisatie van gebruikers biedt. Deze is beschikbaar voor hybride implementaties van Office 365 voor de on-premises implementatie van Skype voor bedrijven server on-premises en Exchange Server on-premises, en ook in gesplitste domeinen voor Skype voor bedrijven-hybriden. Dit artikel bevat koppelingen naar gerelateerde documenten over vereisten, installatie/uitschakelen van moderne verificatie en tot enkele van de gerelateerde clients (ex. Informatie voor Outlook en Skype-clients.
+_Moderne verificatie_ is een methode voor identiteitsbeheer die veiligere gebruikersverificatie en autorisatie biedt. Het is beschikbaar voor hybride Office 365-implementaties van de on-premises Skype voor Bedrijven-server en de Exchange-server on-premises, en voor hybride Skype voor Bedrijven-hybride domeinen. Dit artikel bevat koppelingen naar gerelateerde documenten over vereisten, het instellen/uitschakelen van moderne verificatie en een deel van de gerelateerde client (bijvoorbeeld. Informatie over Outlook- en Skype-clients.
 
 - [Wat is moderne verificatie?](hybrid-modern-auth-overview.md#BKMK_WhatisModAuth)
-- [Welke wijzigingen moet ik aanbrengen als ik moderne verificatie gebruik?](hybrid-modern-auth-overview.md#BKMK_WhatChanges)
+- [Welke wijzigingen worden aangebracht wanneer ik moderne verificatie gebruik?](hybrid-modern-auth-overview.md#BKMK_WhatChanges)
 - [De moderne verificatiestatus van uw on-premises omgeving controleren](hybrid-modern-auth-overview.md#BKMK_CheckStatus)
-- [Voldoen de moderne verificatievereisten?](#do-you-meet-modern-authentication-prerequisites)
-- [Wat moet ik nog meer weten voordat ik begint?](hybrid-modern-auth-overview.md#BKMK_Whatelse)
+- [Voldoet u aan de vereisten voor moderne verificatie?](#do-you-meet-modern-authentication-prerequisites)
+- [Wat moet ik nog meer weten voordat ik begin?](hybrid-modern-auth-overview.md#BKMK_Whatelse)
 
 ## <a name="what-is-modern-authentication"></a>Wat is moderne verificatie?
 <a name="BKMK_WhatisModAuth"> </a>
 
-Moderne verificatie is een overkoepelende term voor een combinatie van authenticatie-en autorisatie methoden tussen een client (bijvoorbeeld uw laptop of telefoon) en een server, evenals enkele beveiligingsmaatregelen die afhankelijk zijn van Access-beleid waarbij u mogelijk al bekend bent. Deze omvat:
+Moderne verificatie is een overkoepelende term voor een combinatie van verificatie- en autorisatiemethoden tussen een client (bijvoorbeeld uw laptop of uw telefoon) en een server, evenals enkele beveiligingsmaatregelen die afhankelijk zijn van toegangsbeleid dat u mogelijk al kent. Deze omvat:
 
-- **Verificatiemethoden**: multi-factor Authentication (MFA); smartcard Authentication; verificatie op basis van clientcertificaat
-- **Verificatiemethoden**: de implementatie van Microsoft Open Authorization (OAuth)
-- **Beleid voor voorwaardelijke toegang**: Mobile Application Management (mam) en Azure Active Directory (Azure AD) voorwaardelijke toegang
+- **Verificatiemethoden:** Meervoudige verificatie (MFA); smartcardverificatie; verificatie op basis van clientcertificaat
+- **Autorisatiemethoden:** Microsoft's implementatie van Open Authorization (OAuth)
+- **Beleid voor voorwaardelijke** toegang: mobile application management (MAM) en voorwaardelijke toegang van Azure Active Directory (Azure AD)
 
-Het beheren van gebruikersidentiteiten met moderne verificatie biedt beheerders een groot aantal hulpprogramma's voor het beveiligen van bronnen en biedt veiligere methoden van Identiteitsbeheer voor zowel on-premises (Exchange als Skype voor bedrijven), Exchange hybride en Skype voor bedrijven-scenario's voor hybride/gesplitste domeinen.
+Het beheren van gebruikersidentiteiten met moderne verificatie biedt beheerders vele verschillende hulpprogramma's die ze kunnen gebruiken voor het beveiligen van resources en biedt veiligere methoden voor identiteitsbeheer voor zowel on-premises (Exchange en Skype voor Bedrijven), Exchange Hybrid en scenario's voor hybride/gesplitst domein voor Skype voor Bedrijven.
 
-Omdat Skype voor bedrijven nauw samen met Exchange werkt, zien de gebruikers van de Skype voor bedrijven-client in de moderne verificatiestatus van Exchange rekening. Dit is ook van toepassing als u een hybride architectuur met een _gesplitst domein_ voor Skype voor bedrijven, waarbij u zowel Skype voor bedrijven online als Skype voor bedrijven on-premises hebt, met gebruikers op beide locaties.
+Skype voor Bedrijven werkt nauw samen met Exchange, dus het aanmeldingsgedrag van Skype voor Bedrijven-clientgebruikers wordt beïnvloed door de moderne verificatiestatus van Exchange. Dit is ook van toepassing als  u een hybride architectuur voor skype voor Bedrijven gesplitst domein hebt, waarin u zowel Skype voor Bedrijven Online als Skype voor Bedrijven on-premises hebt, waarbij gebruikers op beide locaties zijn geplaatst.
 
-Zie voor meer informatie over moderne verificatie in Office 365 [office 365 client-app voor ondersteuning-moderne verificatie](microsoft-365-client-support-modern-authentication.md).
+Zie de ondersteuning van de [Office 365-client-app - Meervoudige](microsoft-365-client-support-multi-factor-authentication.md)verificatie voor meer informatie over moderne verificatie in Office 365.
 
 > [!IMPORTANT]
-> Met ingang van 2017 wordt voor alle nieuwe Office 365-tenants met Skype voor bedrijven online en Exchange Online moderne verificatie ingeschakeld. Bestaande tenants hebben geen wijziging in de standaard-MA-status, maar alle nieuwe tenants ondersteunen automatisch de uitgebreide set met identiteits functies die hierboven worden weergegeven. Zie de [status van de moderne verificatie voor uw on-premises omgeving controleren](hybrid-modern-auth-overview.md#BKMK_CheckStatus) voor informatie over het controleren van uw ma-status.
+> Vanaf augustus 2017 is moderne verificatie standaard ingeschakeld voor alle nieuwe Office 365-tenants die Skype voor Bedrijven Online en Exchange Online bevatten. De standaard ma-status van bestaande tenants verandert niet, maar alle nieuwe tenants ondersteunen automatisch de uitgebreide set identiteitsfuncties die u hierboven ziet. Zie de sectie De moderne verificatiestatus van uw [on-premises](hybrid-modern-auth-overview.md#BKMK_CheckStatus) omgeving controleren als u de status van de gegevenscontrole wilt controleren.
 
-## <a name="what-changes-when-i-use-modern-authentication"></a>Welke wijzigingen moet ik aanbrengen als ik moderne verificatie gebruik?
+## <a name="what-changes-when-i-use-modern-authentication"></a>Welke wijzigingen worden aangebracht wanneer ik moderne verificatie gebruik?
 <a name="BKMK_WhatChanges"> </a>
 
-Wanneer u moderne verificatie gebruikt met lokale Skype voor bedrijven of Exchange Server, wordt u nog steeds aangeraden gebruikers on-premises te *verifiëren* , maar het *verhaal van de* toegang tot bronnen (zoals bestanden of e-mailberichten) wordt gewijzigd. Aangezien moderne verificatie over client-en servercommunicatie gaat, zijn de stappen voor het configureren van het MA-resultaat in evoSTS (een beveiligings token service die wordt gebruikt door Azure AD) ingesteld als auth server voor Skype voor bedrijven en Exchange Server on-premises.
+Bij het gebruik van moderne verificatie met on-premises Skype  voor Bedrijven *of* Exchange Server, bent u nog steeds on-premises gebruikers aan het authenticeren, maar het verhaal over het authoriseren van hun toegang tot bronnen (zoals bestanden of e-mailberichten) verandert. Daarom, hoewel moderne verificatie gaat over client- en servercommunicatie, resulteren de stappen die zijn ondernomen tijdens het configureren van MA in een on-premises beveiligings tokenservice (een beveiligings tokenservice die door Azure AD wordt gebruikt) als auth-server voor Skype voor Bedrijven en Exchange-server on-premises.
 
-Met de Change to evoSTS kunnen uw on-premises servers gebruikmaken van OAuth (tokenuitgifte) voor het machtigen van uw klanten, en uw on-premises beveiligingsmethoden die in de cloud worden gebruikt, zoals meervoudige verificatie, kunnen worden gebruikt. Daarnaast kunnen de tokens voor evoSTS-kwesties waarmee gebruikers toegang kunnen aanvragen tot bronnen, zonder dat ze hun wachtwoord moeten opgeven als onderdeel van de aanvraag. Ongeacht waar de gebruikers wonen (online of on-premises), en ongeacht welke locatie de benodigde resource host, wordt EvoSTS de kern van het verlenen van gebruikers en clients wanneer moderne verificatie is geconfigureerd.
+Met de wijziging van uw on-premises servers kunnen uw on-premises servers gebruikmaken van OAuth (token uitgifte) voor het autoriseren van uw clients, en kunnen uw on-premises beveiligingsmethoden gebruiken die veel worden gebruikt in de cloud (zoals Meervoudige verificatie). De tokens geven bovendien uit waarmee gebruikers toegang tot resources kunnen aanvragen zonder hun wachtwoord op te geven als onderdeel van de aanvraag. Ongeacht waar uw gebruikers zijn geplaatst (online of on-premises) en ongeacht de locatie waarop de benodigde bron wordt host, wordt DezeSTS de kern van het beheer van gebruikers en clients nadat moderne verificatie is geconfigureerd.
 
-Als een Skype voor bedrijven-client bijvoorbeeld toegang moet hebben tot de Exchange-Server om agendagegevens te verkrijgen namens een gebruiker, wordt hiervoor de Active Directory Authentication Library (ADAL) gebruikt. ADAL is een codebibliotheek waarmee de beveiligde bronnen in de adreslijst beschikbaar worden gemaakt voor clienttoepassingen via OAuth-beveiligingstokens. ADAL werkt met OAuth om claims en tokens voor Exchange (in plaats van wachtwoorden) te controleren, om een gebruiker toegang te verlenen tot een bron. In het verleden heeft de Authority in een transactie zoals deze, de server die weet hoe gebruikersclaims kunnen valideren en de benodigde tokens te verstrekken, mogelijk een beveiligingstoken service on-premises of zelfs Active Directory Federation Services. Maar moderne verificatie centraliseert de overheid via Azure AD.
+Als een Skype voor Bedrijven-client bijvoorbeeld toegang moet hebben tot een Exchange-server om agendagegevens namens een gebruiker op te halen, wordt hiervoor de Active Directory Authentication Library (ADAL) gebruikt. ADAL is een codebibliotheek die is ontworpen om beveiligde resources in uw adreslijst beschikbaar te maken voor clienttoepassingen met behulp van OAuth-beveiligingstokens. ADAL werkt samen met OAuth om claims te verifiëren en tokens om te wisselen (in plaats van wachtwoorden) om een gebruiker toegang tot een bron te verlenen. In het verleden was de autoriteit in een transactie zoals deze , de server die weet hoe gebruikersclaims kunnen worden gevalideerd en de benodigde tokens moet geven, mogelijk een on-premises beveiligingstokenservice of zelfs Active Directory Federation Services. Moderne verificatie centraliseert deze autoriteit echter met behulp van Azure AD.
 
-Dit betekent ook dat hoewel uw Exchange-Server en de Skype voor bedrijven-omgeving volledig on-premises zijn en uw on-premises omgeving de mogelijkheid heeft om een verbinding te maken en te onderhouden met uw Office 365-abonnement in de Cloud (en het exemplaar van Azure AD dat uw abonnement als de adreslijst gebruikt).
+Dit betekent ook dat hoewel uw Exchange-server en Skype voor Bedrijven-omgevingen zich volledig on-premises kunnen houden, de bevoegde server online is en uw on-premises omgeving de mogelijkheid moet hebben om een verbinding te maken met uw Office 365-abonnement in de cloud (en het Azure AD-exemplaar dat in uw abonnement als adreslijst wordt gebruikt).
 
-Wat blijft er ongewijzigd? Ongeacht of u zich in een hybride domein bevindt of gebruikmaakt van Skype voor bedrijven en Exchange Server on-premises, moeten alle gebruikers *zich eerst on-premises*verifiëren. In een hybride implementatie van moderne verificatie, _Lyncdiscovery_ en _Autodiscover_ to your on-premises server.
+Wat verandert er niet? Of u nu een hybride gesplitst domein gebruikt of de on-premises Skype voor Bedrijven- en Exchange-server gebruikt, alle gebruikers moeten eerst *on-premises verifiëren.* In een hybride implementatie van moderne verificatie wijzen _Lyncdiscovery_ en _Automatisch_ zoeken beide naar de on-premises server.
 
 > [!IMPORTANT]
-> Als u wilt weten welke Skype voor bedrijven-topologieën worden ondersteund met MA, wordt deze [hier beschreven](https://technet.microsoft.com/library/mt803262.aspx).
+> Als u de specifieke toologieën van Skype voor Bedrijven wilt kennen die worden ondersteund met MA, vindt u hier [een document.](https://technet.microsoft.com/library/mt803262.aspx)
 
 ## <a name="check-the-modern-authentication-status-of-your-on-premises-environment"></a>De moderne verificatiestatus van uw on-premises omgeving controleren
 <a name="BKMK_CheckStatus"> </a>
 
-Aangezien moderne verificatie de autorisatieserver wijzigt die wordt gebruikt wanneer services gebruikmaken van OAuth/S2S, moet u weten of moderne verificatie is ingeschakeld of uitgeschakeld voor uw on-premises Skype voor bedrijven en Exchange-omgevingen. U kunt de status van uw Exchange-servers controleren door de volgende PowerShell-opdracht uit te voeren:
+Omdat moderne verificatie verandert de autorisatieserver die wordt gebruikt bij services die gebruikmaken van OAuth/S2S, moet u weten of moderne verificatie is in- of uitgeschakeld voor uw on-premises Skype voor Bedrijven- en Exchange-omgevingen. U kunt de status op uw Exchange-servers controleren met de volgende PowerShell-opdracht:
 
 ```powershell
 Get-OrganizationConfig | ft OAuth*
 ```
 
-Als de waarde van de eigenschap _OAuth2ClientProfileEnabled_ niet **waar**is, is moderne verificatie uitgeschakeld.
+Als de waarde van de _eigenschap OAuth2ClientProfileEnabled_ **Onwaar** is, wordt moderne verificatie uitgeschakeld.
 
-Zie [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig)voor meer informatie over de Get-OrganizationConfig-cmdlet.
+Zie [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig)Get-OrganizationConfig meer informatie over de nieuwe cmdlet.
 
-U kunt uw Skype voor bedrijven-servers controleren door de volgende PowerShell-opdracht uit te voeren:
+U kunt uw Skype voor Bedrijven-servers controleren door de volgende PowerShell-opdracht uit te voeren:
 
 ```powershell
 Get-CSOAuthConfiguration
 ```
 
-Als de opdracht een lege _OAuthServers_ -eigenschap oplevert of als de waarde van de eigenschap _ClientADALAuthOverride_ niet is **toegestaan**, is moderne verificatie uitgeschakeld.
+Als de opdracht een lege _OAuthServers-eigenschap_ retourneert of als de waarde van de eigenschap _ClientADALAuthOverride_ niet is toegestaan, wordt moderne verificatie uitgeschakeld.
 
-Zie [Get-CsOAuthConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csoauthconfiguration)voor meer informatie over de Get-CsOAuthConfiguration-cmdlet.
+Zie [Get-CsOAuthConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csoauthconfiguration)Get-CsOAuthConfiguration meer informatie over de nieuwe cmdlet.
 
-## <a name="do-you-meet-modern-authentication-prerequisites"></a>Voldoen de moderne verificatievereisten?
+## <a name="do-you-meet-modern-authentication-prerequisites"></a>Voldoet u aan de vereisten voor moderne verificatie?
 
-Controleer de items uit uw lijst voordat u verder gaat:
+Controleer en vink deze items af in uw lijst voordat u doorgaat:
 
-- **Specifiek voor Skype voor bedrijven**
-  - Op alle servers moet de cumulatieve update van mei 2017 (CU5 hoger vereist) voor Skype voor bedrijven server 2015 of hoger zijn geïnstalleerd.
-    - **Uitzondering** : het filiaal toestel (SBA) kan zich bevinden op de huidige versie (op basis van Lync 2013)
+- **Skype voor Bedrijven specifiek**
+  - Alle servers moeten een cumulatieve update (CU5) van mei 2017 voor Skype voor Bedrijven Server 2015 of hoger hebben
+    - **Exception** : Het Apparaat van de Afdeling Van Baarheid (SBA) kan worden gebruikt in de huidige versie (op basis van Lync 2013)
   - Uw SIP-domein wordt toegevoegd als een federatief domein in Office 365
-  - Alle SFB-front-ends moeten verbindingen hebben via het Internet, naar de Url's van Office 365-authenticatie (TCP 443) en bekende certificaat basis-Crl's (TCP 80) die worden weergegeven in rijen 56 en 125 van de sectie ' Microsoft 365 common and Office ' van [Office 365-url's en IP-](urls-and-ip-address-ranges.md)adresbereiken.
+  - Alle front-ends voor SFB moeten verbindingen hebben die uitgaand zijn naar internet, naar URL's voor Office 365-verificatie (TCP 443) en crLs voor bekende certificaatwortels (TCP 80) in rijen 56 en 125 van de sectie 'Microsoft 365 Common en Office' van [OFFICE 365-URL's](urls-and-ip-address-ranges.md)en IP-adresbereiken.
 
-- **Skype voor bedrijven on-premises in een hybride Office 365-omgeving**
-  - Een Skype voor bedrijven server 2019-implementatie waarbij Skype voor bedrijven server 2019 wordt uitgevoerd op alle servers.
-  - Een Skype voor bedrijven server 2015-implementatie waarbij Skype voor bedrijven server 2015 wordt uitgevoerd op alle servers.
-  - Een implementatie met een maximum van twee verschillende server versies, zoals hieronder aangegeven:
+- **Skype voor Bedrijven on-premises in een hybride Office 365-omgeving**
+  - Een skype voor Bedrijven Server 2019-implementatie met alle servers waarop Skype voor Bedrijven Server 2019 wordt uitgevoerd.
+  - Een skype voor Bedrijven Server 2015-implementatie met alle servers waarop Skype voor Bedrijven Server 2015 wordt uitgevoerd.
+  - Een implementatie met maximaal twee verschillende serverversies, zoals hieronder vermeld:
     - Skype for Business Server 2015
     - Skype for Business Server 2019
-  - Voor alle Skype voor bedrijven-servers moet de nieuwste cumulatieve updates zijn geïnstalleerd, Zie [updates voor Skype voor bedrijven server](https://docs.microsoft.com/skypeforbusiness/sfb-server-updates) om alle beschikbare updates te zoeken en beheren.
-  - Er is geen Lync Server 2010 of 2013 in de hybride omgeving.
+  - Alle Skype voor Bedrijven-servers moeten de nieuwste cumulatieve updates hebben geïnstalleerd. Zie Skype voor Bedrijven [Server-updates](https://docs.microsoft.com/skypeforbusiness/sfb-server-updates) om alle beschikbare updates te zoeken en te beheren.
+  - Lync Server 2010 of 2013 maakt geen gebruik van de hybride omgeving.
 
 >[!NOTE]
->Als uw front-end servers van Skype voor bedrijven een proxyserver gebruiken voor Internet toegang, moet het gebruikte IP-adres en poortnummer van de proxyserver in de sectie configuratie van het web.config-bestand voor elke front-end worden ingevoerd.
+>Als uw front-endservers van Skype voor Bedrijven een proxyserver voor internettoegang gebruiken, moeten voor elke front-end het IP-adres van de proxyserver en het gebruikte poortnummer worden ingevoerd in de configuratiesectie van het web.config-bestand.
 
-- C:\Program Files\Skype voor bedrijven server 2015 \ Web Components\Web ticket\int\web.config
-- C:\Program Files\Skype voor bedrijven server 2015 \ Web Components\Web ticket\ext\web.config
+- C:\Program Files\Skype voor Bedrijven Server 2015\Web Components\Web ticket\int\web.config
+- C:\Program Files\Skype voor Bedrijven Server 2015\Web Components\Web ticket\ext\web.config
 
 ```xml
 <configuration>
@@ -130,57 +130,57 @@ Controleer de items uit uw lijst voordat u verder gaat:
 ```
 
 > [!IMPORTANT]
-> Zorg ervoor dat u een abonnement hebt op de RSS-feed voor [Office 365-url's en IP-](urls-and-ip-address-ranges.md) adresbereiken, zodat u actuele resultaten krijgt met de meest recente vermeldingen van de vereiste url's.
+> Abonneer u op de RSS-feed voor [OFFICE 365-URL's](urls-and-ip-address-ranges.md) en IP-adresbereiken om op de hoogte te blijven van de meest recente vermeldingen van vereiste URL's.
 
-- **Specifiek voor Exchange Server**
-  - U gebruikt Exchange Server 2013 CU19 en up, Exchange Server 2016 CU8 en up, of Exchange Server 2019 CU1 en up.
-  - Er is geen Exchange Server 2010 in de omgeving.
-  - SSL-offloading is niet geconfigureerd. SSL-beëindiging en opnieuw versleutelen wordt ondersteund.
-  - In het geval dat uw omgeving gebruikmaakt van een proxyserver-infrastructuur, zodat servers verbinding kunnen maken met internet, moet u ervoor zorgen dat alle Exchange-servers de proxyserver hebben gedefinieerd in de eigenschap [InternetWebProxy](https://technet.microsoft.com/library/bb123716%28v=exchg.160%29.aspx) .
+- **Exchange Server-specifiek**
+  - U gebruikt Exchange Server 2013 CU19 en hoger, Exchange Server 2016 CU8 en hoger of Exchange Server 2019 CU1 en hoger.
+  - De omgeving heeft geen Exchange Server 2010.
+  - SSL Offloaden is niet geconfigureerd. SSL-beëindiging en herversleuteling worden ondersteund.
+  - Als uw omgeving gebruikmaakt van een proxyserverinfrastructuur zodat servers verbinding kunnen maken met internet, moet u ervoor zorgen dat op alle Exchange-servers de proxyserver is gedefinieerd in de eigenschap [InternetWebProxy.](https://technet.microsoft.com/library/bb123716%28v=exchg.160%29.aspx)
 
 - **Exchange Server on-premises in een hybride Office 365-omgeving**
 
-  - Als u Exchange Server 2013 gebruikt, moet minimaal één server beschikken over de serverrollen postvak en client toegang. Hoewel het mogelijk is om het postvak en de functies voor client toegang op afzonderlijke servers te installeren, wordt u ten zeerste aangeraden beide rollen op dezelfde server te installeren voor meer betrouwbaarheid en betere prestaties te bieden.
-  - Als u Exchange Server 2016 of een nieuwere versie gebruikt, moet ten minste één server de functie postvakserver hebben geïnstalleerd.
-  - Er is geen Exchange Server 2007 of 2010 in de hybride omgeving.
-  - Voor alle Exchange-servers moet de actuele cumulatieve updates zijn geïnstalleerd, Zie [Exchange bijwerken naar de meest recente cumulatieve updates](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates) om alle beschikbare updates te zoeken en te beheren.
+  - Als u Exchange Server 2013 gebruikt, moeten ten minste één server de serverrollen Postvak en Client Access hebben geïnstalleerd. Hoewel het mogelijk is om de rollen Postvak en Client Access op afzonderlijke servers te installeren, raden we u ten zeerste aan om beide rollen op dezelfde server te installeren voor extra betrouwbaarheid en verbeterde prestaties.
+  - Als u Exchange Server 2016 of hoger gebruikt, moet op ten minste één server de serverrol Postvak zijn geïnstalleerd.
+  - De hybride omgeving heeft geen Exchange Server 2007 of 2010.
+  - Alle Exchange-servers moeten de meest recente cumulatieve updates hebben geïnstalleerd. Zie [Exchange upgraden](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates) naar de meest recente cumulatieve updates om alle beschikbare updates te zoeken en te beheren.
 
-- **Client-en protocol vereisten voor Exchange**
+- **Vereisten voor Exchange-client en -protocol**
 
-    De beschikbaarheid van moderne verificatie wordt bepaald door de combinatie van de client, het protocol en de configuratie. Als moderne verificatie niet wordt ondersteund door de client, het protocol en/of de configuratie, blijft de client gebruikmaken van oudere verificatie.
+    De beschikbaarheid van moderne verificatie wordt bepaald door de combinatie van de client, het protocol en de configuratie. Als moderne verificatie niet wordt ondersteund door de client, het protocol en/of de configuratie, blijft de client gebruikmaken van verouderde verificatie.
   
-    De volgende clients en protocollen bieden ondersteuning voor moderne verificatie met on-premises Exchange wanneer moderne verificatie in de omgeving is ingeschakeld:
+    De volgende clients en protocollen ondersteunen moderne verificatie met on-premises Exchange wanneer moderne verificatie is ingeschakeld in de omgeving:
 
-  |**Emulatieclients**|**Primair protocol**|**Opmerkingen**|
+  |**Klanten**|**Primary Protocol**|**Opmerkingen**|
   |:-----|:-----|:-----|
-  |Outlook 2013 en hoger  <br/> |MAPI via HTTP  <br/> |MAPI via HTTP moet zijn ingeschakeld in Exchange om moderne verificatie met deze clients mogelijk te maken (meestal ingeschakeld of waar voor nieuwe installaties van Exchange 2013 Service Pack 1 en hoger). Zie de werking [van moderne verificatie voor office 2013-en office 2016-clienttoepassingen](modern-auth-for-office-2013-and-2016.md)voor meer informatie.  <br/> Zorg ervoor dat u de minimaal vereiste build van Outlook uitvoert. Zie [de meest recente updates voor versies van Outlook die gebruikmaken van Windows Installer (MSI)](https://docs.microsoft.com/officeupdates/outlook-updates-msi).  <br/> |
-  |Outlook 2016 voor Mac en nieuwere versies  <br/> |Exchange-webservices  <br/> |  <br/> |
-  |Outlook voor iOS en Android  <br/> | Microsoft Sync-technologie <br/> |Zie [hybride moderne verificatie gebruiken met Outlook voor IOS en Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) voor meer informatie.  <br/> |
-  |Exchange ActiveSync-clients (bijvoorbeeld E-mail van Ios 11)  <br/> |Exchange ActiveSync  <br/> |Voor Exchange ActiveSync-clients die moderne verificatie ondersteunen, moet u het profiel opnieuw maken om te overstappen van basisauthenticatie met moderne verificatie.  <br/> |
+  |Outlook 2013 en hoger  <br/> |MAPI via HTTP  <br/> |MAPI via HTTP moet zijn ingeschakeld in Exchange om gebruik te kunnen maken van moderne verificatie bij deze clients (meestal ingeschakeld of Waar voor nieuwe installaties van Exchange 2013 Service Pack 1 en hoger) zie Hoe moderne verificatie werkt [voor Office 2013- en Office 2016-clientapps](modern-auth-for-office-2013-and-2016.md)voor meer informatie.  <br/> Controleer of u de minimaal vereiste build van Outlook hebt. bekijk [de meest recente updates voor versies van Outlook die gebruikmaken van Windows Installer (MSI).](https://docs.microsoft.com/officeupdates/outlook-updates-msi)  <br/> |
+  |Outlook 2016 voor Mac en hoger  <br/> |Exchange-webservices  <br/> |  <br/> |
+  |Outlook voor iOS en Android  <br/> | Microsoft-synchronisatietechnologie <br/> |Zie [Hybride moderne verificatie gebruiken met Outlook voor iOS en Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) voor meer informatie.  <br/> |
+  |Exchange ActiveSync-clients (bijvoorbeeld iOS11 Mail)  <br/> |Exchange ActiveSync  <br/> |Voor Exchange ActiveSync-clients die moderne verificatie ondersteunen, moet u het profiel opnieuw maken om te kunnen overschakelen van basisverificatie naar moderne verificatie.  <br/> |
 
-    Clients en/of protocollen die niet worden vermeld (bijv. POP3) bieden geen ondersteuning voor moderne verificatie met on-premises Exchange en blijven de mogelijkheid om oudere verificatiemechanismen te benutten, zelfs nadat moderne verificatie in de omgeving is ingeschakeld.
+    Clients en/of protocollen die niet in de lijst staan (zoals POP3), ondersteunen geen moderne verificatie met on-premises Exchange en blijven gebruikmaken van verouderde verificatiemechanismen, zelfs nadat moderne verificatie is ingeschakeld in de omgeving.
 
 - **Algemene vereisten**
-  - Voor scenario's voor resource forestvertrouwensrelaties is een vertrouwensrelatie met het account van het account vereist om ervoor te zorgen dat de juiste SID'S worden uitgevoerd tijdens moderne verificatieaanvragen. 
-  - Als u AD FS gebruikt, moet u beschikken over Windows 2012 R2 AD FS 3,0 en hoger voor Federatie.
-  - Uw identiteits configuraties zijn alle typen die worden ondersteund door Azure AD Connect, zoals wachtwoord hash-synchronisatie, Pass-Through-verificatie en on-premises STS, ondersteund door Office 365.
-  - Azure AD Connect geconfigureerd en functioneert voor gebruikers replicatie en-synchronisatie.
-  - U hebt gecontroleerd of Hybrid is geconfigureerd met Exchange Classic Hybrid topologie modus tussen uw on-premises en Office 365-omgeving. Voor de officiële ondersteunings verklaring voor Exchange Hybrid wordt aangegeven dat u huidige CU of huidige CU-1 moet hebben.
+  - Resource forest scenarios will require a two-way trust with the account forest to ensure proper SID lookups are performed during hybrid modern authentication requests. 
+  - Als u AD FS gebruikt, hebt u Windows 2012 R2 AD FS 3.0 en hoger nodig voor federatie.
+  - Uw identiteitsconfiguraties zijn alle typen die worden ondersteund door Azure AD Connect, zoals wachtwoordhashsynchronisatie, Pass Through-verificatie en on-premises STS die worden ondersteund door Office 365.
+  - Azure AD Connect is geconfigureerd en werkt voor gebruikersreplicatie en synchronisatie.
+  - U hebt geverifieerd dat hybride versie is geconfigureerd met de klassieke Exchange-topologiemodus tussen uw on-premises omgeving en office 365-omgeving. Officiële ondersteuningsverklaring voor Exchange Hybrid geeft aan dat u de huidige CU of de huidige CU - 1 moet hebben.
     > [!NOTE]
-    > Hybride moderne verificatie wordt niet ondersteund met de [Hybrid agent](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent).
+    > Hybride moderne verificatie wordt niet ondersteund met de [hybride agent.](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent)
 
-  - Zorg ervoor dat zowel een on-premises testgebruiker, als een gebruikers van een hybride test, in Office 365, zich kunnen aanmelden bij de Skype voor bedrijven-desktopclient (als u moderne verificatie wilt gebruiken met Skype) en Microsoft Outlook (als u moderne verificatie wilt gebruiken met Exchange).
+  - Zorg ervoor dat zowel een on-premises testgebruiker als een hybride testgebruiker in Office 365 zich kan aanmelden bij de Skype voor Bedrijven-desktopclient (als u moderne verificatie wilt gebruiken met Skype) en Microsoft Outlook (als u moderne verificatie wilt gebruiken met Exchange).
 
-## <a name="what-else-do-i-need-to-know-before-i-begin"></a>Wat moet ik nog meer weten voordat ik begint?
+## <a name="what-else-do-i-need-to-know-before-i-begin"></a>Wat moet ik nog meer weten voordat ik begin?
 <a name="BKMK_Whatelse"> </a>
 
-- Voor alle scenario's voor on-premises servers moet de moderne verificatie on-premises worden ingesteld. voor Skype voor bedrijven is er een lijst met ondersteunde topologieën, zodat de server die verantwoordelijk is voor verificatie en autorisatie, zich in het Microsoft Cloud-service beveiligingstoken (evoSTS ') bevindt, en de update van Azure AD over de Url's of naamruimten die door uw on-premises installatie van Skype voor bedrijven of Exchange worden gebruikt. Daarom nemen on-premises servers een Microsoft-Cloud dependency. Het kan zijn dat u deze actie moet uitvoeren als hybride auth te configureren.
-- Dit artikel bevat koppelingen naar andere personen die u kunnen helpen bij het kiezen van ondersteunde topologie topologieën (alleen voor Skype voor bedrijven) en procedures voor het maken van een overzicht van de instellingsstappen, of stappen om moderne verificatie uit te schakelen voor Exchange on-premises en Skype voor bedrijven on-premises. Favoriet deze pagina in de browser als u een basisversie nodig hebt voor het gebruik van moderne verificatie in uw server omgeving.
+- Voor alle scenario's voor on-premises servers is het nodig moderne verificatie on-premises in te stellen (in feite voor Skype voor Bedrijven is er een lijst met ondersteunde toologieën), zodat de server die verantwoordelijk is voor verificatie en autorisatie zich in de Microsoft Cloud (de beveiligings tokenservice van Azure AD, genaamd 'gebruiktSTS') en Azure AD bijwerkt over de URL's of naamruimten die worden gebruikt door uw on-premises installatie van Skype voor Bedrijven of Exchange. Daarom nemen on-premises servers een Microsoft Cloud-afhankelijkheid over. Het nemen van deze actie kan worden beschouwd als het configureren van 'hybrid auth'.
+- Dit artikel bevat koppelingen naar anderen die u helpen bij het kiezen van ondersteunde moderne verificatie toologieën (alleen nodig voor Skype voor Bedrijven) en artikelen met een overzicht van de instellingsstappen of stappen voor het uitschakelen van moderne verificatie voor On-premises Exchange en Skype voor Bedrijven on-premises. Favorieten toevoegen aan deze pagina in uw browser als u een thuisbasis nodig hebt voor het gebruik van moderne verificatie in uw serveromgeving.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 <a name="BKMK_URLListforMA"> </a>
 
-- [De on-premises Exchange-server configureren voor gebruik van moderne verificatie](configure-exchange-server-for-hybrid-modern-authentication.md)
-- [Skype voor bedrijven-topologie ondersteund met moderne verificatie](https://technet.microsoft.com/library/mt803262.aspx)
-- [Skype voor bedrijven on-premises configureren voor gebruik van moderne verificatie](configure-skype-for-business-for-hybrid-modern-authentication.md)
-- [Hybride, moderne verificatie van Skype voor bedrijven en Exchange verwijderen of uitschakelen](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
+- [Exchange Server on-premises configureren voor gebruik van moderne verificatie](configure-exchange-server-for-hybrid-modern-authentication.md)
+- [Ondersteunde toologieën van Skype voor Bedrijven met moderne verificatie](https://technet.microsoft.com/library/mt803262.aspx)
+- [Skype voor Bedrijven on-premises configureren voor gebruik van moderne verificatie](configure-skype-for-business-for-hybrid-modern-authentication.md)
+- [Hybride moderne verificatie verwijderen uit of uitschakelen uit Skype voor Bedrijven en Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)

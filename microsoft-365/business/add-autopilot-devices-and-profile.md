@@ -24,43 +24,43 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Meer informatie over het gebruik van Windows AutoPilot om nieuwe Windows 10-apparaten voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik door werknemers.
-ms.openlocfilehash: efcb5442b34d2d42275cedc30e71ac98c7ea1266
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lees hoe u Windows AutoPilot gebruikt om nieuwe Windows 10-apparaten in te stellen voor uw bedrijf, zodat ze klaar zijn voor gebruik door werknemers.
+ms.openlocfilehash: f263cc90656ae5e7be1a89e3c7f56bfb2d0e3651
+ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401089"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099745"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 
-U Windows AutoPilot gebruiken om nieuwe Windows **10-apparaten** voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik wanneer u ze aan uw werknemers geeft.
+U kunt Windows AutoPilot gebruiken om nieuwe **Windows** 10-apparaten in te stellen voor uw bedrijf, zodat ze klaar zijn voor gebruik wanneer u ze aan uw werknemers geeft.
   
 ## <a name="device-requirements"></a>Apparaatvereisten
 
-Apparaten moeten aan deze eisen voldoen:
+Apparaten moeten aan deze vereisten voldoen:
   
 - Windows 10, versie 1703 of hoger
     
-- Nieuwe apparaten die niet zijn door Windows out-of-box ervaring
+- Nieuwe apparaten die windows niet out-of-box-ervaring hebben gehad
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>De installatiehandleiding gebruiken om apparaten en profielen te maken
 
 [![Etiket om u te laten weten dat het beheercentrum wordt gewijzigd en meer informatie vindt u op aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Als u apparaatgroepen of profielen nog niet hebt gemaakt, u het beste aan de slag met de stapsgewijze handleiding. U er ook [apparaten aan toevoegen](create-and-edit-autopilot-devices.md) en er profielen aan [toewijzen](create-and-edit-autopilot-profiles.md) zonder de handleiding te gebruiken. 
+Als u nog geen apparaatgroepen of profielen hebt gemaakt, kunt u het beste aan de slag gaan met behulp van de stapsgewijse handleiding. U kunt ook [apparaten toevoegen en](create-and-edit-autopilot-devices.md) hieraan [profielen](create-and-edit-autopilot-profiles.md) toewijzen zonder de handleiding te gebruiken. 
   
 1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
 
-2. Kies **Apparaten** \> **Automatisch piloot**in het linkernavigatiedeelvenster .
+2. Kies Apparaten AutoPilot  in het \> **linkernavigatiedeelvenster.**
 
-    ![Kies in het beheercentrum apparaten en vervolgens AutoPilot.](../media/AutoPilot.png)
+    ![Kies apparaten in het beheercentrum en vervolgens AutoPilot.](../media/AutoPilot.png)
   
-2. Klik of tik op de pagina **AutoPilot** op **De hulplijn Start**.
+2. Klik of **tik op de AutoPilot-pagina** op **Handleiding Starten.**
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. Blader op het **CSV-bestand uploaden met lijst met apparaten** naar een locatie waar u de indeling hebt voorbereid. CSV-bestand en vervolgens **Volgende** \> **openen**. Het bestand moet drie kopteksten hebben:
+3. Blader op **de pagina .csv-bestand** uploaden met lijst met apparaten naar een locatie waarop u zich hebt voorbereid. CSV-bestand en vervolgens **Volgende** \> **openen.** Het bestand moet drie kopteksten hebben:
     
     - Kolom A: Serienummer van apparaat
     
@@ -68,11 +68,14 @@ Als u apparaatgroepen of profielen nog niet hebt gemaakt, u het beste aan de sla
     
     - Kolom C: Hardware-hash
     
-    U deze informatie ophalen bij uw hardwareleverancier of u het [PowerShell-script Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om een CSV-bestand te genereren. 
+    U kunt deze informatie krijgen van uw hardwareleverancier of u kunt het [PowerShell-script Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om een CSV-bestand te genereren. 
     
     Zie [Device list CSV-file](https://docs.microsoft.com/microsoft-365/admin/misc/device-list) (CSV-bestand met lijst met apparaten) voor meer informatie. U kunt ook een voorbeeldbestand downloaden op de pagina **CSV-bestand met lijst met apparaten uploaden**. 
     
-4. Op de **profielpagina Toewijzen** u een bestaand profiel kiezen of een nieuw profiel maken. Als je er nog geen hebt, wordt je gevraagd er een te maken. 
+> [!NOTE]
+> Dit script gebruikt WMI om eigenschappen op te halen die een klant nodig heeft om een apparaat te registreren bij Windows Autopilot. Het is normaal dat in het resulterende CSV-bestand geen PKID-waarde (Windows Product ID) wordt verzameld, omdat dit niet is vereist om een apparaat te registreren en PKID die NULL is in de uitvoer-CSV, geen zorgen. Alleen het serienummer en hardware-hash worden ingevuld.
+    
+4. Op de **pagina Een profiel** toewijzen kunt u een bestaand profiel kiezen of een nieuw profiel maken. Als u nog geen account hebt, wordt u gevraagd er een te maken. 
     
     Een profiel bestaat uit een reeks instellingen die op één apparaat of op een groep apparaten kunnen worden toegepast.
     
@@ -84,11 +87,11 @@ Als u apparaatgroepen of profielen nog niet hebt gemaakt, u het beste aan de sla
     
     - Verbind uw apparaten met Azure Active Directory-accounts en schrijf ze automatisch in om te worden beheerd door Microsoft 365 Business Premium.
     
-    Zie [Instellingen voor AutoPilot-profiel voor](autopilot-profile-settings.md)meer informatie . 
+    Zie Over [AutoPilot-profielinstellingen voor meer informatie.](autopilot-profile-settings.md) 
     
 5. De andere instellingen zijn **Privacy-instellingen overslaan** en **Niet toestaan dat gebruiker de lokale beheerder wordt**. Deze zijn beide standaard **uitgeschakeld**. 
     
     Kies **Volgende**.
     
-6. **U bent klaar,** geeft aan dat het profiel dat u hebt gemaakt (of hebt gekozen) wordt toegepast op de apparaatgroep die u hebt gemaakt door de lijst met apparaten te uploaden. De instellingen zijn van kracht wanneer de gebruikers van het apparaat zich als volgende aanmelden. Kies **Sluiten**.
+6. **U bent klaar,** geeft aan dat het profiel dat u hebt gemaakt (of gekozen), wordt toegepast op de apparaatgroep die u hebt gemaakt door de lijst met apparaten te uploaden. De instellingen zijn van kracht wanneer de gebruikers van het apparaat zich de volgende keer aanmelden. Kies **Sluiten**.
     

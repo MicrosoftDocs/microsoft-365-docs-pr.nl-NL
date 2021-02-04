@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 4e008488bdd733c9a7ce5b418fb838e0fe880d9d
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 521b5fc2a8efee83b6a2931e7dbc1c713bd63cd2
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080736"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094805"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Geavanceerde zoekquery's migreren van Microsoft Defender for Endpoint
 
@@ -50,7 +50,7 @@ U kunt overstappen zonder dat dit van invloed is op uw bestaande Defender voor e
 ## <a name="schema-tables-in-microsoft-365-defender-only"></a>Alleen schematabellen in Microsoft 365 Defender
 Het [Microsoft 365 Defender advanced hunting schema](advanced-hunting-schema-tables.md) biedt aanvullende tabellen met gegevens uit diverse Microsoft 365-beveiligingsoplossingen. De volgende tabellen zijn alleen beschikbaar in Microsoft 365 Defender:
 
-| Tabelnaam | Omschrijving |
+| Tabelnaam | Beschrijving |
 |------------|-------------|
 | [AlertEvidence](advanced-hunting-alertevidence-table.md) | Bestanden, IP-adressen, URL's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
 | [AlertInfo](advanced-hunting-alertinfo-table.md) | Waarschuwingen van Microsoft Defender voor eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App-beveiliging en Microsoft Defender voor identiteit, inclusief ernstgegevens en bedreigingscategorieën  |
@@ -114,64 +114,7 @@ AlertInfo
 | where FileName == "powershell.exe"
 ```
 
-## <a name="migrate-custom-detection-rules"></a>Aangepaste detectieregels migreren
 
-Wanneer regels van Microsoft Defender voor eindpunt worden bewerkt op Microsoft 365 Defender, blijven ze werken alsof de resulterende query alleen naar apparaattabellen kijkt. Waarschuwingen die worden gegenereerd door aangepaste detectieregels die query's uitvoeren op alleen apparaattabellen, worden bijvoorbeeld nog steeds bezorgd in uw SIEM en genereren e-mailmeldingen, afhankelijk van hoe u deze hebt geconfigureerd in Microsoft Defender voor eindpunt. Eventuele bestaande onderdrukkende regels in Defender voor eindpunt blijven van toepassing.
-
-Zodra u een regel van Defender voor eindpunt bewerkt zodat identiteits- en e-mailtabellen worden opgevraagd, die alleen beschikbaar zijn in Microsoft 365 Defender, wordt de regel automatisch verplaatst naar Microsoft 365 Defender. 
-
-Waarschuwingen die worden gegenereerd door de gemigreerde regel:
-
-- Zijn niet meer zichtbaar in de portal Defender for Endpoint (Microsoft Defender-beveiligingscentrum)
-- Stop met bezorgen in uw SIEM of genereer e-mailmeldingen. U kunt deze wijziging omsdraaien door meldingen via Microsoft 365 Defender zo te configureren dat de waarschuwingen worden ontvangen. U kunt de [Microsoft 365 Defender-API](api-incident.md) gebruiken om meldingen te ontvangen voor waarschuwingen van klantendetectie of verwante incidenten.
-- Wordt niet onderdrukken door de regels voor het onderdrukken van eindpunten van Microsoft Defender voor Eindpunt. Als u wilt voorkomen dat waarschuwingen worden gegenereerd voor bepaalde gebruikers, apparaten of postvakken, wijzigt u de bijbehorende query's om deze entiteiten expliciet uit te sluiten.
-
-Als u een regel op deze manier bewerkt, wordt u om bevestiging gevraagd voordat dergelijke wijzigingen worden toegepast.
-
-Nieuwe waarschuwingen die worden gegenereerd door aangepaste detectieregels in de Microsoft 365 Defender-portal, worden weergegeven op een waarschuwingspagina met de volgende informatie:
-
-- Naam en beschrijving van waarschuwing 
-- Beïnvloede activa
-- Acties die zijn ondernomen in reactie op de waarschuwing
-- Queryresultaten die de waarschuwing hebben geactiveerd 
-- Informatie over de aangepaste detectieregel 
- 
-![Afbeelding van de pagina Nieuwe waarschuwing](../../media/newalertpage.png)
-
-## <a name="write-queries-without-devicealertevents"></a>Query's schrijven zonder DeviceAlertEvents
-
-In het Microsoft 365 Defender-schema worden de tabellen en de tabellen verstrekt voor de diverse reeks informatie die bij waarschuwingen `AlertInfo` `AlertEvidence` van verschillende bronnen past. 
-
-Als u dezelfde waarschuwingsgegevens uit de tabel in het schema Microsoft Defender for Endpoint hebt ontvangen, filtert u de tabel op en voegt u elke unieke id toe aan de tabel, die gedetailleerde informatie over gebeurtenissen en entiteiten `DeviceAlertEvents` `AlertInfo` `ServiceSource` `AlertEvidence` biedt. 
-
-Zie de voorbeeldquery hieronder:
-
-```kusto
-AlertInfo
-| where Timestamp > ago(7d)
-| where ServiceSource == "Microsoft Defender for Endpoint"
-| join AlertEvidence on AlertId
-```
-
-Deze query levert veel meer kolommen op dan `DeviceAlertEvents` in het schema van Microsoft Defender voor eindpunt. Gebruik alleen kolommen waarin u geïnteresseerd bent om de resultaten `project` beheersbaar te houden. In het onderstaande voorbeeld ziet u de kolommen waarin u mogelijk geïnteresseerd bent wanneer door het onderzoek PowerShell-activiteit is gedetecteerd:
-
-```kusto
-AlertInfo
-| where Timestamp > ago(7d)
-| where ServiceSource == "Microsoft Defender for Endpoint"
-    and AttackTechniques has "powershell"
-| join AlertEvidence on AlertId
-| project Timestamp, Title, AlertId, DeviceName, FileName, ProcessCommandLine 
-```
-
-Als u wilt filteren op specifieke entiteiten die betrokken zijn bij de waarschuwingen, kunt u dit doen door het entiteitstype op te geven en de waarde die u wilt `EntityType` filteren. In het volgende voorbeeld wordt naar een specifiek IP-adres zoekt:
-
-```kusto
-AlertInfo
-| where Title == "Insert_your_alert_title"
-| join AlertEvidence on AlertId 
-| where EntityType == "Ip" and RemoteIP == "192.88.99.01" 
-```
 
 ## <a name="see-also"></a>Zie ook
 - [Microsoft 365 Defender in te zetten](advanced-hunting-query-language.md)

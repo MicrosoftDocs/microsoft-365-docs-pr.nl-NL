@@ -1,5 +1,5 @@
 ---
-title: 'Ondersteuning voor Microsoft 365 client-apps: enkelvoudige Sign-On'
+title: 'Ondersteuning voor Microsoft 365-client-apps: Sign-On'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,65 +14,65 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: In dit artikel vindt u informatie over welke platforms, clients en PowerShell-modules eenmalige aanmelding voor Microsoft 365 ondersteunen.
+description: In dit artikel wordt beschreven welke platforms, clients en PowerShell-modules ondersteuning bieden voor een centrale aanmelding bij Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b70f0c1ec4a6e94651b987830c8b29993732a3c2
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: 5a685f04ed64a89cda026ff9380aac7c6c2b3ea4
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806659"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097196"
 ---
-# <a name="microsoft-365-client-app-support-single-sign-on"></a>Ondersteuning voor Microsoft 365 client-apps: enkelvoudige Sign-On
+# <a name="microsoft-365-client-app-support-single-sign-on"></a>Ondersteuning voor Microsoft 365-client-apps: Sign-On
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Met eenmalige aanmelding (SSO) kunt u beveiliging en gemak toevoegen wanneer uw gebruikers zich aanmelden bij toepassingen in azure Active Directory. Met eenmalige aanmelding meldt gebruikers zich eenmaal aan met één account voor toegang tot on-premises Active Directory Domain Services (AD DS)-domein, software als een service (SaaS) en webtoepassingen.
+Eenmalige aanmelding (SSO) zorgt voor beveiliging en gemak wanneer uw gebruikers zich aanmelden bij toepassingen in Azure Active Directory. Met een enkelvoudige aanmelding melden gebruikers zich één keer aan met één account voor toegang tot on-premises Active Directory Domain Services (AD DS) apparaten die aan een domein zijn verbonden, SaaS-toepassingen (Software as a Service) en webtoepassingen.
 
-Meer informatie over [eenmalige aanmelding](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on).
+Meer informatie over [een eenpersoons aanmelden.](/azure/active-directory/manage-apps/what-is-single-sign-on)
 
 ## <a name="supported-clients--platforms"></a>Ondersteunde clients & platforms
 
-De meest recente versies van de volgende clients en platforms ondersteunen eenmalige aanmelding. Zie [systeemvereisten voor Microsoft 365](https://products.office.com/office-system-requirements)voor meer informatie over platform ondersteuning in microsoft 365.
+In de nieuwste versies van de volgende clients en platforms wordt een een aanmelding ondersteund. Zie de systeemvereisten voor Microsoft 365 voor meer informatie over platformondersteuning in [Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 
-| Emulatieclients | Android | Apparaten | Mac| Windows 10 <br> Moderne apps| Windows 10 <br> Desk |
+| Klanten | Android | iOS | Mac| Windows 10 <br> Moderne apps| Windows 10 <br> Bureaublad |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| Access | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
-| Bedrijfsportal | N.v.t. | ![Ondersteund](../media/check-mark.png) | Overwogen | ![Ondersteund](../media/check-mark.png) | N.v.t. |
+| Toegang | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
+| Bedrijfsportal | N.v.t. | ![Ondersteund](../media/check-mark.png) | Gepland | ![Ondersteund](../media/check-mark.png) | N.v.t. |
 | Cortana | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
-| Delve | Overwogen | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
-| Allernieuwste | ![Ondersteund](../media/check-mark.png) | Overwogen | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
+| Delve | Gepland | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
+| Edge | ![Ondersteund](../media/check-mark.png) | Gepland | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | Excel | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
-| Kaizala | ![Ondersteund](../media/check-mark.png) | Overwogen | N.v.t. | N.v.t. | N.v.t. |
+| Kaizala | ![Ondersteund](../media/check-mark.png) | Gepland | N.v.t. | N.v.t. | N.v.t. |
 | Office Lens| ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
 | Office Mobile | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
-| Office-Portal | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
-| OneDrive | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Overwogen | ![Ondersteund](../media/check-mark.png) | Overwogen |
-| OneNote | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Overwogen |
-| Outlook | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Overwogen | ![Ondersteund](../media/check-mark.png) |
+| Office-portal | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
+| OneDrive | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Gepland | ![Ondersteund](../media/check-mark.png) | Gepland |
+| OneNote | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Gepland |
+| Outlook | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Gepland | ![Ondersteund](../media/check-mark.png) |
 | Planner | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
-| Power Apps | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | Overwogen | N.v.t. |
-| Automatisch aan de macht | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
-| Power BI | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) | Overwogen |
+| Power Apps | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | Gepland | N.v.t. |
+| Power Automate | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
+| Power BI | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) | Gepland |
 | PowerPoint | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
 | Project | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | Publisher | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
-| Skype voor Bedrijven | Overwogen | Overwogen | N.v.t. | N.v.t. | N.v.t. |
+| Skype voor Bedrijven | Gepland | Gepland | N.v.t. | N.v.t. | N.v.t. |
 | SharePoint | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
-| Sticky Notes | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
-| Stream | Overwogen | Overwogen | N.v.t. | N.v.t. | N.v.t. |
+| Plaknotities | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
+| Stream | Gepland | Gepland | N.v.t. | N.v.t. | N.v.t. |
 | Sway | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
-| Teams | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Overwogen | N.v.t. | Overwogen |
-| Taak | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
+| Teams | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Gepland | N.v.t. | Gepland |
+| To Do | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
 | Visio | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | Whiteboard | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
 | Word | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
-| Yammer | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | Overwogen |
+| Yammer | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | Gepland |
 
 ## <a name="supported-powershell-modules"></a>Ondersteunde PowerShell-modules
 
-- [Azure Active Directory PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)
-- [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
-- [SharePoint Online-PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+- [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
+- [SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)

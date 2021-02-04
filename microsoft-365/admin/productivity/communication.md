@@ -1,5 +1,5 @@
 ---
-title: Microsoft-productiviteits Score-communicatie
+title: Microsoft Productiviteitsscore - Communicatie
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,173 +18,173 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-description: Details van de productiviteits score voor personen met de communicatie.
-ms.openlocfilehash: b688063c10749d15fc5b00b629ee18afedba927e
-ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
+description: Details van de communicatie- De productiviteitsscore van personen wordt ervaren.
+ms.openlocfilehash: de59a57f1c856d94836b59eba6a4869831fe700a
+ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712577"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099710"
 ---
-# <a name="communication--people-experiences"></a>Communicatie: mensen ervaring
+# <a name="communication--people-experiences"></a>Communicatie – Ervaringen met personen
 
-Productiviteits Score biedt ondersteuning voor de reis naar digitale transformatie met inzicht in hoe uw organisatie Microsoft 365 gebruikt en wat de technologie ervaring van de organisatie is. De score van je organisatie weerspiegelt metingen van mensen en technologie-ervaringen en kan vergelijkt worden met benchmarks van organisaties zoals die van jou. De categorie communicatie maakt deel uit van de mensen die een rol treffen. Ga voor meer informatie naar het overzicht van de [productiviteits Score](productivity-score.md) en lees de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
+Productiviteitsscore ondersteunt de reis naar digitale transformatie met inzichten over hoe uw organisatie Gebruikmaakt van Microsoft 365 en de technologie-ervaringen die dit ondersteunen. De score van je organisatie weerspiegelt metingen van mensen en technologie-ervaringen en kan vergelijkt worden met benchmarks van organisaties zoals die van jou. De communicatiecategorie maakt deel uit van de metingen voor personenervaringen. Bekijk het overzicht van de productiviteitsscore en [lees](productivity-score.md) de privacyverklaring van Microsoft voor [meer informatie.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="prerequisites"></a>Vereisten
 
-Als u aan de slag wilt gaan met communicatie inzichten, moet u een licentie voor personen in uw organisatie hebben voor:
+Om aan de slag te gaan met communicatie-inzichten, moeten personen in uw organisatie een licentie hebben voor:
 
 - Microsoft Teams
 - Yammer
 - Exchange Online
 
-Zie [licenties toewijzen aan gebruikers](../manage/assign-licenses-to-users.md)voor meer informatie.
+Zie Licenties toewijzen aan [gebruikers voor meer informatie.](../manage/assign-licenses-to-users.md)
 
-Na de afgelopen 30 dagen in de bovenstaande producten, begint u met het bekijken van de inzichten.
+Nadat personen ten minste eenmaal in de afgelopen 28 dagen actief zijn geweest in de bovenstaande producten, begint u de inzichten te zien.
 
-## <a name="why-your-organizations-communication-score-matters"></a>Waarom betreffen de communicatie Score van uw organisatie 
+## <a name="why-your-organizations-communication-score-matters"></a>Waarom de communicatiescore van uw organisatie van belang is 
 
-Microsoft begrijpt dat personen verschillende communicatiebehoeften hebben. Als u een snelle reactie op een vraag wilt hebben, kunt u ervoor kiezen om een chatbericht te verzenden. Als u statusupdates wilt verzenden naar uw leiderschap, kunt u een e-mailbericht kiezen. Als u een breder publiek wilt bereiken, kunt u ervoor kiezen een Community-bericht te plaatsen. Microsoft 365 biedt deze flexibiliteit in communicatie modi geschikt voor de behoeften van iedereen. Onderzoek toont dat het gebruik van realtime communicatieprogramma's een uitgebreidere organisatie en morele informatie biedt, ongeacht de locatie. [Zie het bewijs](https://go.microsoft.com/fwlink/?linkid=2127669).
+Microsoft begrijpt dat mensen verschillende communicatiebehoeften hebben. Als u snel antwoord wilt krijgen op een vraag, kunt u ervoor kiezen om een chatbericht te verzenden. Als u statusupdates naar uw management wilt verzenden, kunt u een e-mailbericht kiezen. Als u een breder publiek wilt bereiken, kunt u ervoor kiezen om een communitybericht te plaatsen. Met Microsoft 365 kunt u deze flexibiliteit in communicatiemodi aanpassen aan ieders behoeften. Uit onderzoek blijkt dat het gebruik van hulpmiddelen voor realtime communicatie een meer geïntegreerde organisatie creëert en het moreel opbouwt, ongeacht de locatie. [Bekijk de aanwijzingen.](https://go.microsoft.com/fwlink/?linkid=2127669)
 
-## <a name="how-we-calculate-the-communication-score"></a>De communicatie Score berekenen
+## <a name="how-we-calculate-the-communication-score"></a>Hoe we de communicatiescore berekenen
 
-Voor communicatie bieden we een primair inzicht, dat de belangrijkste gegevens bevat die zijn gekoppeld aan de communicatie in uw organisatie, in combinatie met een score raamwerk voor het gebruik van deze meetwaarden om de Score van uw organisatie te berekenen.
+Voor communicatie bieden we een primair inzicht, dat de belangrijkste metrische gegevens bevat die zijn gekoppeld aan communicatie in uw organisatie, in combinatie met een scoreskader voor het gebruik van deze meetwaarden om de score van uw organisatie te berekenen.
 
-### <a name="primary-insight"></a>Primaire inzichten
+### <a name="primary-insight"></a>Primair inzicht
 
-Microsoft 365 biedt gebruikers de flexibiliteit om de communicatie stijl van iedereen aan te passen door meerdere modi te bieden. Met het primaire inzicht biedt u een aantal personen in uw organisatie die gebruikmaken van meerdere manieren om te communiceren.
+Microsoft 365 biedt mensen de flexibiliteit om iedereens communicatiestijl aan te passen door meerdere modi aan te bieden. Het primaire inzicht biedt een maatlijn voor mensen in uw organisatie die met meerdere communicatiemodi werken.
 
-:::image type="content" source="../../media/primaryinsight.png" alt-text="Primaire inzichten in de communicatie modi.":::
+:::image type="content" source="../../media/primaryinsight.png" alt-text="Primair inzicht in communicatiemodi.":::
 
-1. **Koptekst:** Levert de belangrijkste metric van gebruikers die meer dan één communicatiemodus gebruiken, namelijk:
+1. **Koptekst:** Biedt de belangrijkste statistieken van personen die meer dan één communicatiemodus gebruiken, namelijk:
 
    - E-mailberichten verzenden via Exchange
-   - Berichten verzenden via teams
-   - Posten op community's in Yammer
+   - Berichten verzenden via Teams
+   - Plaatsen van berichten over community's in Yammer
 
-   Deze sleutelwaarde wordt weergegeven als een percentage van alle personen die twee of meer Exchange, teams of Yammer gebruiken. 
+   Deze belangrijke statistieken worden weergegeven als een percentage van alle personen die twee of meer exchange-, Teams- of Yammer-gegevens gebruiken. 
 
-2. **Hoofdtekst:** Meer informatie over de manier waarop flexibiliteit in de communicatie modi waardevol is voor personen in uw organisatie.
+2. **Body:** Biedt meer informatie over hoe flexibiliteit in de communicatiemodi waardevol is voor mensen in uw organisatie.
 
-3. **Visualisatie van de huidige staat:**
+3. **Visualisatie van de huidige status:**
 
-   - Horizontale balk waarbij het blauwe gedeelte het in de koptekst weergegeven percentage vertegenwoordigt
-   - Hiermee markeert u de (teller/noemer) die wordt gebruikt voor het berekenen van het percentage dat in de koptekst wordt weergegeven:
-     - **Teller**: het aantal personen dat in de afgelopen 28 dagen meer dan één communicatiemodus gebruikt
-     - **Noemer**: het aantal personen dat is gemarkeerd als ingeschakeld voor meer dan één communicatie product in de afgelopen 28 dagen
-   - De waarde van **peer benchte** van de sleutel metric wordt ook weergegeven als percentage.
+   - Horizontale balk waarin het blauwe gedeelte het percentage vertegenwoordigt dat wordt uitgedrukt in de koptekst
+   - Markeert de waarde (teller/noemer) die is gebruikt voor het berekenen van het percentage, uitgedrukt in de koptekst:
+     - **Teller:**# van personen die de afgelopen 28 dagen meer dan één communicatiemodus gebruiken
+     - **Noemer:**# van de personen die zijn gemarkeerd als ingeschakeld voor meer dan één communicatieproduct in de afgelopen 28 dagen
+   - **De peer-benchmarkwaarde** van de sleutelwaarde wordt ook weergegeven als een percentage
 
-4. **Communicatie bronnen weergeven:** Als u op deze optie klikt, wordt de inhoud van de ondersteuning ingeschreven in de vorm van Video's/artikelen met betrekking tot communicatie. Vervolgens kunt u navigeren naar de aangepaste afspeellijst voor communicatie en vervolgens voor alle productiviteits categorieën.
+4. **Communicatiebronnen weergeven:** Als u hier klikt, wordt alle ondersteuningsinhoud in de vorm van video's/artikelen met betrekking tot communicatie toegevoegd. Hier kunt u navigeren naar de aangepaste afspeellijst voor communicatie en vervolgens voor alle categorieën productiviteitsscores.
 
-#### <a name="trend-visualization-of-primary-insight"></a>Trend visualisatie van primaire inzichten
+#### <a name="trend-visualization-of-primary-insight"></a>Trendvisualisatie van primair inzicht
 
- Dit diagram biedt de trend van een teller van de belangrijkste metric in het primaire inzicht, dat wil zeggen het aantal personen in uw organisatie dat meer dan één communicatiemodus gedurende de laatste 180 dagen gebruikt. Hier is de dagelijkse waarde een som van het aantal personen dat in de afgelopen 28 dagen meerdere vormen van communicatie gebruikt.
+ Dit diagram geeft de trend weer van de teller van de belangrijkste statistieken in het primaire inzicht, dat wil zeggen het aantal mensen in uw organisatie dat de afgelopen 180 dagen meer dan één communicatiemodus gebruikt. Hier is de dagelijkse waarde een aggregatie van het aantal personen dat de afgelopen 28 dagen meerdere vormen van communicatie gebruikt.
 
 :::image type="content" source="../../media/trend-communication.png" alt-text="Grafiek met het aantal personen dat meer dan één modus gebruikt om te communiceren versus tijd.":::
 
-### <a name="scoring-model"></a>Score model
+### <a name="scoring-model"></a>Scoremodel
 
-De communicatie score voor uw organisatie is bij een niveau van een geaggregeerde (organisatie), ongeacht of personen consistent communiceren via een e-mailbericht, chatberichten en communityleden.  
+De communicatiescore voor uw organisatie meet op aggregatieniveau (organisatieniveau) of mensen consistent communiceren via meerdere modi tussen e-mail, chatberichten en communityberichten in een venster van 28 dagen.  
 
-Er worden geen scores opgegeven voor het afzonderlijke gebruikersniveau.
+Scores worden niet op individueel niveau verstrekt.
 
-## <a name="explore-how-your-organization-communicates"></a>Kennismaken met het communiceren van uw organisatie
+## <a name="explore-how-your-organization-communicates"></a>Ontdek hoe uw organisatie communiceert
 
-We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organisatie kan communiceren. Deze extra metrische gegevens hebben geen directe invloed op de productiviteits Score, maar kunnen u helpen bij het maken van een actieplan voor het maken van een actieplan.
+Daarnaast bieden we u informatie waarmee u inzicht kunt krijgen in de communicatie binnen uw organisatie. Deze aanvullende statistieken hebben niet rechtstreeks invloed op uw productiviteitsscore, maar kunnen u helpen een plan van aanpak te maken als onderdeel van uw digitale transformatie.
 
-### <a name="breakdown-of-communication-by-modes"></a>Uitsplitsing van de communicatie via modi
+### <a name="breakdown-of-communication-by-modes"></a>Uitsplitsing van communicatie per modi
 
-:::image type="content" source="../../media/howpeoplecommunicate.png" alt-text="! [Uitsplitsing van communicatie modi.]":::
+:::image type="content" source="../../media/howpeoplecommunicate.png" alt-text="! [Uitsplitsing van communicatiemodi.]":::
 
-1. **Koptekst:** Hiermee markeert u het doel van de inzichten om een gedetailleerde uitsplitsing te bieden over de verschillende communicatie modi die in de communicatie worden overwogen.
+1. **Koptekst:** Markeert het doel van het inzicht om een gedetailleerde uitsplitsing te bieden van de verschillende communicatiemodi die in communicatie worden beschouwd.
 
-2. **Hoofdtekst:** Biedt informatie over de waarde voor het gebruik van verschillende modi voor het delen van informatie.
+2. **Body:** Biedt informatie over de waarde van het gebruik van verschillende modi voor het delen van kennis.
 
-3. **Visualisatie:** De uitsplitsing geeft het gebruik voor elke modus aan. Het kleur gedeelte en de breuk op elke balk vertegenwoordigen het aantal personen die e-mailberichten, berichten of Community-berichten verzenden als percentage van het aantal personen dat is ingeschakeld voor deze modus:
+3. **Visualisatie:** De uitsplitsing vertegenwoordigt het gebruik voor elke modus. Het gekleurde gedeelte en het breukdeel op elke balk geven het aantal personen aan dat e-mailberichten, berichten of communityberichten verstuurt als percentage van het aantal personen dat voor deze modus is ingeschakeld:
 
-   - **Personen die e-mailberichten versturen:** De kleur van de gebundelde functie wordt bepaald door het percentage van de gebruikers die zijn ingeschakeld voor Exchange en waarmee e-mail wordt verzonden. Dit deel wordt samengesteld uit:
+   - **Personen die e-mailberichten verzenden:** Het gekleurde gedeelte en het breukdeel geven het percentage gebruikers aan dat is ingeschakeld voor Exchange die e-mailberichten verzenden. Deze breuk is opgebouwd uit:
    
-     - **Teller**: personen die een e-mailbericht verzenden in de afgelopen 30 dagen.
-     - **Noemer**: personen die zijn ingeschakeld voor Exchange in de afgelopen 30 dagen.
+     - **Teller: personen** die in de afgelopen 28 dagen e-mailberichten verzenden.
+     - **Noemer: personen** die zijn ingeschakeld voor Exchange in de afgelopen 28 dagen.
      
-   - **Personen die berichten verzenden in Microsoft teams:** De kleur van de deelnemer geeft het percentage weer van de gebruikers die zijn ingeschakeld voor Microsoft teams die berichten verzenden. Dit deel wordt samengesteld uit:
+   - **Personen die berichten verzenden in Microsoft Teams:** Het gekleurde gedeelte en het breukdeel geven het percentage gebruikers aan dat is ingeschakeld voor Microsoft Teams die berichten verzenden. Deze breuk is opgebouwd uit:
    
-     - **Teller**: personen die berichten verzenden in Microsoft teams in de afgelopen 30 dagen.
-     - **Noemer**: personen die zijn ingeschakeld voor Microsoft teams in de afgelopen 30 dagen.
+     - **Teller:** personen die in de afgelopen 28 dagen berichten verzenden in Microsoft Teams.
+     - **Noemer: personen** die in de afgelopen 28 dagen zijn ingeschakeld voor Microsoft Teams.
      
-   - **Personen posten in community's:** Het kleur gedeelte en de breuk geven het percentage weer van de gebruikers die zijn ingeschakeld voor Yammer die in community's worden gepost. Dit deel wordt samengesteld uit:
+   - **Personen die berichten plaatsen in community's:** Het gekleurde gedeelte en het breukdeel geven het percentage gebruikers aan dat is ingeschakeld voor Yammer dat in community's wordt geplaatst. Deze breuk is opgebouwd uit:
    
-     - **Teller:** Personen die in de afgelopen 28 dagen in Yammer-community's posten.
-     - **Noemer:** Personen die zijn ingeschakeld voor Yammer in de afgelopen 30 dagen.
+     - **Teller:** Personen die in de afgelopen 28 dagen berichten plaatsen in Yammer-community's.
+     - **Noemer:** Personen die in de afgelopen 28 dagen voor Yammer zijn ingeschakeld.
           
-4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om gesorteerde Video's en andere verwante Help-inhoud weer te geven.
+4. **Verwante inhoud weergeven:** Selecteer deze koppeling om gesorteerde video's en andere verwante Help-inhoud weer te geven.
 
 ### <a name="mentions-in-emails"></a>@mentions in e-mailberichten
 
 :::image type="content" source="../../media/emailmentions.png" alt-text="! [E-mailberichten met vermeldingen.]":::
 
-1. **Koptekst:** Hiermee wordt de toename van de reactie van nieuwe e-mail-threads gemarkeerd in de laatste 28 dagen waarop ze @mentions bevatten.
+1. **Koptekst:** Markeert de toename van de reactiesnelheid voor nieuwe e-mailthreads die zijn begonnen in de afgelopen 28 dagen, toen ze nieuwe @mentions.
 
-2. **Hoofdtekst:** Biedt informatie over de waarde voor het gebruik van @mentions in e-mailberichten. Gebruikers die @mentions gebruiken, worden ook weergegeven als een percentage van alle gebruikers die een e-mailbericht in de afgelopen 28 dagen hebben verzonden.
+2. **Body:** Hier vindt u informatie over de waarde van het gebruik @mentions in e-mailberichten. Bovendien worden gebruikers van @mentions uitgedrukt als een percentage van alle gebruikers die in de afgelopen 28 dagen een e-mail hebben verzonden.
 
-3. **Visualisatie:** Hiermee wordt de reactiesnelheid voor nieuwe e-mail-threads gesplitst op basis van het feit of ze @mentions al dan niet hadden:
+3. **Visualisatie:** Verbreekt de responspercentage voor nieuwe e-mailthreads op basis van het gegeven of ze al dan niet @mentions berichten hebben:
 
-   - **Antwoorden op e-mailberichten met \@ vermeldingen:** de kleur van het gedeelte en de breuk geven de reactiesnelheid weer voor nieuwe e-mail-threads die @mentions. Dit deel wordt samengesteld uit:
+   - **Reacties op e-mailberichten \@ met vermeldingen:** Het gekleurde gedeelte en de breuk geven het responspercentage aan voor nieuwe e-mailthreads met @mentions. Deze breuk is opgebouwd uit:
    
-     - **Teller:** Nieuwe e-mail threads met @mentions die zijn gestart en de afgelopen 28 dagen een antwoord hebben gekregen.
-     - **Noemer:** Nieuwe e-mail threads met @mentions die in de afgelopen 28 dagen zijn gestart.
+     - **Teller:** Nieuwe e-mailthreads met @mentions die in de afgelopen 28 dagen zijn gestart en een reactie hebben ontvangen.
+     - **Noemer:** Nieuwe e-mailthreads @mentions die in de afgelopen 28 dagen zijn gestart.
      
-   - **Antwoorden op e-mailberichten zonder \@ vermeldingen:** de kleur van het gedeelte en de breuk geven de reactiesnelheid weer voor nieuwe e-mail-threads die @mentions hebben. Dit deel wordt samengesteld uit:
+   - **Reacties op e-mailberichten zonder \@ vermeldingen:** Het gekleurde gedeelte en de breuk geven het responspercentage aan voor nieuwe e-mailthreads met @mentions. Deze breuk is opgebouwd uit:
    
-     - **Teller:** Nieuwe e-mailthreads die geen @mentions bevatten, die zijn gestart en de afgelopen 28 dagen ook een antwoord hebben ontvangen.
-     - **Noemer:** Nieuwe e-mail threads die niet @mentions bevatten die in de afgelopen 28 dagen zijn gestart.
+     - **Teller:** Nieuwe e-mailthreads die geen @mentions, die zijn gestart en in de afgelopen 28 dagen een reactie hebben ontvangen.
+     - **Noemer:** Nieuwe e-mailthreads die geen @mentions die in de afgelopen 28 dagen zijn gestart.
      
-4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om gesorteerde Video's en andere verwante Help-inhoud weer te geven.
+4. **Verwante inhoud weergeven:** Selecteer deze koppeling om gesorteerde video's en andere verwante Help-inhoud weer te geven.
 
 
-### <a name="breakdown-of-messages-by-type-in-microsoft-teams"></a>Berichten verdelen op type in Microsoft teams
+### <a name="breakdown-of-messages-by-type-in-microsoft-teams"></a>Uitsplitsing van berichten per type in Microsoft Teams
 
-:::image type="content" source="../../media/teamsmessages.png" alt-text="! [Bericht typen voor teams.]":::
+:::image type="content" source="../../media/teamsmessages.png" alt-text="! [Teams-berichttypen.]":::
 
-1. **Koptekst:** Hiermee markeert u de personen die kanaalberichten hebben verzonden als een percentage van personen die een willekeurig bericht hebben verzonden (waaronder chat-en kanaalberichten) in de afgelopen 28 dagen.
+1. **Koptekst:** Markeert de personen die kanaalberichten hebben verzonden als percentage van personen die in de afgelopen 28 dagen een bepaald soort bericht hebben verzonden (inclusief chatberichten en kanaalberichten).
 
-2. **Hoofdtekst:** Biedt informatie over de waarde van het gebruik van kanaalberichten in Microsoft teams.
+2. **Body:** Biedt informatie over de waarde van het gebruik van kanaalberichten in Microsoft Teams.
 
-3. **Visualisatie:** Hiermee wordt het gebruik van chat-en kanaalberichten opsplitst.
+3. **Visualisatie:** Bebreekt het gebruik van chat- en kanaalberichten:
 
-      - **Personen die chatberichten verzenden:** Het kleur gedeelte en de breuk geven het gebruik van chatberichten in personen die berichten hebben verzonden in Microsoft teams. Het deel wordt samengesteld uit:
+      - **Personen die chatberichten verzenden:** Het gekleurde gedeelte en het breukdeel geven het gebruik van chatberichten aan binnen personen die berichten hebben verzonden via Microsoft Teams. De breuk is opgebouwd uit:
       
-        - **Teller:** Personen die in de afgelopen 28 dagen chatberichten hebben verzonden naar Microsoft teams.
-        - **Noemer:** Personen die berichten hebben verzonden in Microsoft teams in de afgelopen 30 dagen.
+        - **Teller:** Personen die de afgelopen 28 dagen chatberichten hebben verzonden via Microsoft Teams.
+        - **Noemer:** Personen die in de afgelopen 28 dagen berichten hebben verzonden via Microsoft Teams.
         
-      - **Personen die kanaalberichten verzenden:** Het kleur gedeelte en de breuk geven het gebruik van kanaalberichten aan van personen die berichten verzenden in Microsoft teams. Het deel wordt samengesteld uit:
+      - **Personen die kanaalberichten verzenden:** Het gekleurde gedeelte en het breukdeel geven het gebruik aan van kanaalberichten binnen personen die berichten verzenden via Microsoft Teams. De breuk is opgebouwd uit:
       
-        - **Teller:** Personen die in de afgelopen 28 dagen chatberichten hebben verzonden naar Microsoft teams.
-        - **Noemer:** Personen die berichten hebben verzonden in Microsoft teams in de afgelopen 30 dagen.
+        - **Teller:** Personen die in de afgelopen 28 dagen kanaalberichten hebben verzonden in Microsoft Teams.
+        - **Noemer:** Personen die in de afgelopen 28 dagen berichten hebben verzonden via Microsoft Teams.
         
-4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om gesorteerde Video's en andere verwante Help-inhoud weer te geven.
+4. **Verwante inhoud weergeven:** Selecteer deze koppeling om gesorteerde video's en andere verwante Help-inhoud weer te geven.
 
 ### <a name="questions-and-answers-in-yammer"></a>Vragen en antwoorden in Yammer
 
 :::image type="content" source="../../media/yammerqsandas.png" alt-text="[Vragen en antwoorden in Yammer]"::: 
 
-1. **Koptekst:** Hiermee markeert u de berichten die zijn gemarkeerd als vragen op Yammer die een antwoord hebben ontvangen dat is gemarkeerd als &quot; de beste antwoord &quot; als een percentage van alle berichten die zijn gemarkeerd als vragen op Yammer in de afgelopen 30 dagen.
+1. **Koptekst:** Markeert de berichten die zijn gemarkeerd als vragen op Yammer en die een antwoord hebben ontvangen dat is gemarkeerd als beste antwoord als percentage van alle berichten die in de afgelopen 28 dagen als vragen zijn &quot; &quot; gemarkeerd op Yammer.
 
-2. **Hoofdtekst:** Dit artikel bevat informatie over de waarde van het gebruik van vragen en antwoorden in Yammer om kennis te delen.
+2. **Body:** Biedt informatie over de waarde van het gebruik van vragen en antwoorden in Yammer om kennis te delen.
 
-3. **Visualisatie:** Hiermee wordt het gebruik van de functie vragen en antwoorden in uw organisatie opgesplitst:
+3. **Visualisatie:** Bebreekt het gebruik van de functie vragen en antwoorden in uw organisatie:
 
-   - **Vragen:** Het gekleurde deel van de staaf en het bijbehorende nummer is het totale aantal berichten dat is gemarkeerd als vragen in de afgelopen 30 dagen.
-   - **Vragen met antwoorden:** Het gekleurde deel van de balk en het bijbehorende nummer is het aantal berichten dat is gemarkeerd als vragen en die de afgelopen 30 dagen hebben ontvangen.
-   - **Vragen met de beste antwoorden:** Het gekleurde deel van de staaf en het bijbehorende nummer geeft het aantal berichten aan dat als vragen is gemarkeerd, en de &quot; afgelopen 28 dagen ook een beste antwoord hebben gekregen &quot; .
+   - **Vragen:** Het gekleurde gedeelte van de balk en het bijbehorende nummer geven het totale aantal berichten aan dat in de afgelopen 28 dagen als vragen is gemarkeerd.
+   - **Vragen met antwoorden:** Het gekleurde gedeelte van de balk en het bijbehorende nummer geven het aantal berichten aan dat als vragen is gemarkeerd en hebben antwoorden ontvangen in de afgelopen 28 dagen.
+   - **Vragen met de beste antwoorden:** Het gekleurde gedeelte van de balk en het bijbehorende nummer geven het aantal berichten aan dat als vragen is gemarkeerd en dat in de afgelopen 28 dagen ook het beste &quot; &quot; antwoord heeft ontvangen.
       
-4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om gesorteerde Video's en andere verwante Help-inhoud weer te geven.
+4. **Verwante inhoud weergeven:** Selecteer deze koppeling om gesorteerde video's en andere verwante Help-inhoud weer te geven.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Status van Microsoft 365-apps-technologie ervaringen](apps-health.md) (artikel) \
-[Samenwerken aan inhoud: mensen ervaring](content-collaboration.md) (artikel) \
-[Vergaderingen: mensen ervaring](meetings.md) (artikel) \
-[Mobiliteit: mensen ervaring](mobility.md) (artikel) \
-[Privacy-instellingen voor de productiviteits Score](privacy.md) (artikel) \
-[Teamwerk: mensen ervaring](teamwork.md) (artikel)
+[Status van Microsoft 365-apps – Technologie-ervaringen](apps-health.md) (artikel)\
+[Samenwerken aan inhoud – Ervaringen van personen](content-collaboration.md) (artikel)\
+[Vergaderingen – Ervaringen van personen](meetings.md) (artikel)\
+[Mobiliteit – Ervaringen van personen](mobility.md) (artikel)\
+[Privacyinstellingen voor productiviteitsscore](privacy.md) (artikel)\
+[Teamwerk : ervaringen met personen](teamwork.md) (artikel)

@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gedeelde postvakken worden gebruikt wanneer meerdere personen toegang nodig hebben tot hetzelfde postvak. Lees wat u moet weten voordat u een gedeeld postvak maakt.
-ms.openlocfilehash: c8d29ac2dfe8670181064e61a7fba145ae00fed1
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: f5d46af5abdd528ce3db817dbabce015ed5abade
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058445"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094719"
 ---
 # <a name="about-shared-mailboxes"></a>Meer over gedeelde postvakken
 
@@ -43,9 +43,9 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn dit enkel
 
 - **Externe gebruikers:** U kunt personen buiten uw bedrijf (zoals personen met een Gmail-account) geen toegang tot uw gedeelde postvak geven. Als u dat toch wilt doen, kunt u een groep voor Outlook maken. Zie Een [Microsoft 365-groep maken in het beheercentrum voor meer informatie.](../create-groups/create-groups.md)
 
-- **Gebruiken met Outlook:** U kunt niet alleen de webversie van Outlook vanuit uw browser gebruiken voor toegang tot gedeelde postvakken, maar ook de Outlook voor iOS-app of de app Outlook voor Android. Zie Een gedeeld postvak [toevoegen aan Outlook Mobile voor meer informatie.](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f) U kunt ook een groep maken voor uw gedeelde postvak. Zie Groepen vergelijken voor [meer informatie.](../create-groups/compare-groups.md)
+- **Gebruiken met Outlook:** U kunt niet alleen de webversie van Outlook vanuit uw browser gebruiken voor toegang tot gedeelde postvakken, maar ook de Outlook voor iOS-app of de app Outlook voor Android. Zie Een gedeeld postvak toevoegen [aan Outlook Mobile voor meer informatie.](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f) U kunt ook een groep maken voor uw gedeelde postvak. Zie Groepen vergelijken voor [meer informatie.](../create-groups/compare-groups.md)
 
-- **Versleuteling:** U kunt vanuit een gedeeld postvak verzonden e-mail niet versleutelen. Een gedeeld postvak heeft namelijk geen eigen beveiligingscontext (gebruikersnaam/wachtwoord) en kan dus niet aan een sleutel worden toegewezen. Als meer dan één persoon lid is en e-mails verzendt/ontvangt die deze persoon met zijn of haar eigen sleutels heeft versleuteld, kunnen andere leden de e-mail mogelijk wel lezen en anderen mogelijk niet, afhankelijk van de openbare sleutel waarmee het e-mailbericht is versleuteld.
+- **Versleuteling:** U kunt vanuit een gedeeld postvak verzonden e-mail niet versleutelen. Een gedeeld postvak heeft namelijk geen eigen beveiligingscontext (gebruikersnaam/wachtwoord) en kan dus niet aan een sleutel worden toegewezen. Als meer dan één persoon lid is en e-mailberichten verzendt/ontvangt die deze persoon met zijn of haar eigen sleutels heeft versleuteld, kunnen andere leden de e-mail mogelijk wel lezen en anderen mogelijk niet, afhankelijk van de openbare sleutel waarmee het e-mailbericht is versleuteld.
 
 - **Postvakconversie:** U kunt gebruikerspostvakken converteren naar gedeelde postvakken. Zie [Het postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md).
 
@@ -53,7 +53,7 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn dit enkel
 
 - **Abonnementsvereisten:** Als u een gedeeld postvak wilt maken, moet u zich abonneren op een Microsoft 365 voor Bedrijven-abonnement dat e-mail bevat (de Exchange Online-service). Het abonnement op Microsoft 365 Apps voor bedrijven bevat geen e-mail. Microsoft 365 Business Standard bevat wel e-mail.
 
-- **Aanmelden:** Een gedeeld postvak is niet bedoeld voor directe aanmelding door het bijbehorende gebruikersaccount. U moet aanmelding voor het account van het gedeelde postvak altijd blokkeren en dit geblokkeerd houden.
+- **Aanmelden:** Een gedeeld postvak is niet bedoeld voor directe aanmelding door het bijbehorende gebruikersaccount. U moet aanmelding voor het gedeelde postvakaccount altijd blokkeren en dit geblokkeerd houden.
 
 - **Te veel gebruikers:** Wanneer er te veel aangewezen gebruikers tegelijk toegang hebben tot een gedeeld postvak, kunnen ze af en toe geen verbinding maken met dit postvak. In dit geval kunt u het aantal gebruikers verminderen of een andere werkbelasting gebruiken, zoals een Microsoft 365-groep of een openbare map.
 
@@ -61,7 +61,7 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn dit enkel
 
 
 > [!NOTE]
-> Voor toegang tot een gedeeld postvak moet een gebruiker een Exchange Online-licentie hebben, maar voor het gedeelde postvak is geen afzonderlijke licentie vereist. Zonder licentie zijn gedeelde postvakken beperkt tot 50 GB. Als u de limiet wilt verhogen naar 100 GB, moet aan het gedeelde postvak een licentie voor Exchange Online (Abonnement 2) of een licentie voor Exchange Online (Abonnement 1) met een invoeglicentie voor Exchange Online Archiving zijn toegewezen. Hiermee kunt u ook automatisch uitv breidende archivering inschakelen voor een onbeperkte hoeveelheid archiefopslagcapaciteit. Als u een gedeeld postvak in een juridische procedure wilt plaatsen, moet het gedeelde postvak ook een licentie voor Exchange Online (Abonnement 2) of een licentie voor Exchange Online (Abonnement 1) hebben met een invoeglicentie voor Exchange Online Archiving. Als u geavanceerde functies wilt toepassen, zoals Microsoft Defender voor Office 365, Geavanceerd eDiscovery of automatisch bewaarbeleid, moet het gedeelde postvak een licentie voor deze functies hebben.
+> Voor toegang tot een gedeeld postvak moet een gebruiker een Exchange Online-licentie hebben, maar voor het gedeelde postvak is geen afzonderlijke licentie vereist. Elk gedeeld postvak heeft een bijbehorend gebruikersaccount. Is het u opgevallen dat u niet werd gevraagd een wachtwoord in te voeren toen u het gedeelde postvak maakte? Het account heeft een wachtwoord, maar dat wordt gegenereerd door het systeem (onbekend). U mag het account niet gebruiken om u aan te melden bij het gedeelde postvak. Zonder licentie zijn gedeelde postvakken beperkt tot 50 GB. Als u de limiet wilt verhogen naar 100 GB, moet aan het gedeelde postvak een licentie voor Exchange Online (Abonnement 2) of een licentie voor Exchange Online (Abonnement 1) met een invoeglicentie voor Exchange Online Archiving zijn toegewezen. Hiermee kunt u ook automatisch uitv breidende archivering inschakelen voor een onbeperkte hoeveelheid archiefopslagcapaciteit. Als u een gedeeld postvak in een juridische procedure wilt plaatsen, moet het gedeelde postvak ook een licentie voor Exchange Online (Abonnement 2) of een licentie voor Exchange Online (Abonnement 1) hebben met een invoeglicentie voor Exchange Online Archiving. Als u geavanceerde functies wilt toepassen, zoals Microsoft Defender voor Office 365, Geavanceerd eDiscovery of automatisch bewaarbeleid, moet het gedeelde postvak een licentie voor deze functies hebben.
 
 ## <a name="related-articles"></a>Verwante artikelen
 

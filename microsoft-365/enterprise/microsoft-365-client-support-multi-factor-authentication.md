@@ -1,5 +1,5 @@
 ---
-title: 'Ondersteuning voor Microsoft 365-client-app: verificatie op basis van certificaat'
+title: 'Ondersteuning voor Microsoft 365-client-app: Meervoudige verificatie'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,33 +14,29 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: In dit artikel vindt u meer informatie over ondersteuning van de Microsoft 365-client-app voor verificatie op basis van certificaten.
+description: In dit artikel wordt beschreven welke platforms, clients en PowerShell-modules meervoudige verificatie ondersteunen voor Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7ab5e4a2575796e37a115b36a4f78add20414ef
+ms.openlocfilehash: fdec611fc595cdc15abb0fc1fb7a998f7a615ff7
 ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097256"
+ms.locfileid: "50097460"
 ---
-# <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Ondersteuning voor Microsoft 365-client-app: verificatie op basis van certificaat
+# <a name="microsoft-365-client-app-support-multi-factor-authentication"></a>Ondersteuning voor Microsoft 365-client-app: Meervoudige verificatie
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Moderne verificatie is een overkoepelende term voor een combinatie van verificatie en autorisatiemethoden. Dit zijn onder andere:
+Voor een extra beveiligingsniveau voor aanmeldingen kunnen clients worden geconfigureerd voor meervoudige verificatie (MFA), waarbij zowel een gebruikerswachtwoord als een extra methode voor gebruikersverificatie worden gebruikt op basis van:
 
-- **Verificatiemethoden:** meervoudige verificatie; Verificatie op basis van clientcertificaat.
-- **Autorisatiemethoden:** Microsoft's implementatie van Open Authorization (OAuth).
+- Iets in hun bezit dat niet eenvoudig kan worden gedupliceerd, zoals een smartphone.
+- Iets wat de gebruiker uniek en op unieke manier heeft, zoals zijn vingerafdruk, gezicht of een ander kenmerk van een kenmerk kenmerk
 
-Moderne verificatie wordt ingeschakeld via het gebruik van een verificatiebibliotheek, zoals Active Directory Authentication Library (ADAL) of Microsoft Authentication Library (MSAL). Moderne verificatie is wat clients gebruiken voor verificatie en autorisatie van toegang tot Microsoft 365-bronnen. Moderne verificatie maakt gebruik van OAuth en biedt een beveiligd mechanisme voor clients voor toegang tot Microsoft 365-services, zonder dat u toegang tot gebruikersreferenties nodig hebt. Bij het aanmelden wordt de gebruiker rechtstreeks geverifieerd bij Azure Active Directory en ontvangt hij of zij een tokenpaar voor toegang/vernieuwen als retournering. Het toegangs token verleent de klant toegang tot de juiste bronnen in de Microsoft 365-tenant. Een vernieuwings token wordt gebruikt om een nieuw toegangs- of vernieuwings tokenpaar te verkrijgen wanneer het huidige toegang token verloopt.
-
-Moderne verificatie ondersteunt verschillende verificatiemechanismen, zoals verificatie op basis van certificaten. Clients op Windows-, Android- of iOS-apparaten kunnen gebruikmaken van op certificaten gebaseerde verificatie (CBA) voor verificatie bij Azure Active Directory met behulp van een clientcertificaat op het apparaat. In plaats van een normale gebruikersnaam/wachtwoord wordt het certificaat gebruikt om een tokenpaar voor toegang/vernieuwen te verkrijgen vanuit Azure Active Directory.
-
-Meer informatie over [verificatie op basis van certificaten.](/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)
+Meer informatie over [meervoudige verificatie.](/azure/active-directory/authentication/multi-factor-authentication)
 
 ## <a name="supported-clients--platforms"></a>Ondersteunde clients & platforms
 
-De nieuwste versies van de volgende clients en platforms ondersteunen verificatie op basis van certificaten wanneer u zich aanmeldt bij Azure Active Directory-accounts binnen de client (bijvoorbeeld bij het toevoegen van een account aan de app). Zie de systeemvereisten voor Microsoft 365 voor meer informatie over platformondersteuning in [Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
+De nieuwste versies van de volgende clients en platforms ondersteunen meervoudige verificatie. Zie de systeemvereisten voor Microsoft 365 voor meer informatie over platformondersteuning in [Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 
@@ -50,9 +46,9 @@ De nieuwste versies van de volgende clients en platforms ondersteunen verificati
 | Toegang | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | Azure-beheerder | N.v.t. | N.v.t. | N.v.t. | N.v.t. | N.v.t. |
 | Bedrijfsportal | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. |
-| Cortana | Gepland | Gepland | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
+| Cortana | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
 | Delve | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
-| Edge<sup>1</sup> | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
+| Edge | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | Excel | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
 | Exchange Online-beheerder | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | Forms | N.v.t. | N.v.t. | N.v.t. | N.v.t. | N.v.t. |
@@ -61,7 +57,7 @@ De nieuwste versies van de volgende clients en platforms ondersteunen verificati
 | Office Lens| ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
 | Office Mobile | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
 | Office-portal | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
-| OneDrive | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Gepland | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
+| OneDrive | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
 | OneNote | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
 | Outlook | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
 | Planner | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
@@ -74,24 +70,20 @@ De nieuwste versies van de volgende clients en platforms ondersteunen verificati
 | Skype voor Bedrijven | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | Skype voor Bedrijven-beheerder | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | SharePoint | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
-| SharePoint Online-beheerder | Gepland | Gepland | N.v.t. | N.v.t. | N.v.t. |
+| SharePoint Online-beheerder | N.v.t. | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | Plaknotities | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
 | Stream | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | N.v.t. |
 | Sway | N.v.t. | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
-| Teams | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | Gepland |
+| Teams | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 | To Do | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. |
 | Visio | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. | N.v.t. | ![Ondersteund](../media/check-mark.png) |
-| Whiteboard | Gepland | Gepland | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
+| Whiteboard | Gepland | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) | N.v.t. |
 | Word | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) |
 | Werkplekanalyse | N.v.t. | N.v.t. | N.v.t. | N.v.t. | N.v.t. |
-| Yammer | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | Gepland | N.v.t. | Gepland |
-
->[!NOTE]
-><sup>1</sup> Edge voor iOS en Android ondersteunt verificatie op basis van certificaten tijdens account add-flows. Edge voor iOS en Android biedt geen ondersteuning voor verificatie op basis van certificaten bij het uitvoeren van verificatie voor websites, meestal intranetsites. <br><br>  In dit scenario gaat een gebruiker naar een website (meestal op het intranet) waar de gebruiker moet worden geverifieerd via een certificaat. Hierbij is helemaal geen moderne verificatie betrokken en wordt geen gebruik gemaakt van een Microsoft-verificatiebibliotheek. Dit komt door een beperking met iOS: iOS voorkomt dat apps van derden toegang krijgen tot de systeemsleutelhanger waarin de certificaten zijn opgeslagen (alleen Apple-apps en de [Safari-webweergavecontroller](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) hebben toegang tot de systeemsleutelhanger). <br><br> Omdat Edge afhankelijk is van het [WebKit-framework](https://developer.apple.com/documentation/webkit) voor het weergeven van websites, kan Edge geen toegang krijgen tot de systeemsleutelhanger en de gebruiker een certificaatkeuze geven. Helaas is dit volgens het ontwerp vanwege de architectuur van Apple.
+| Yammer | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | ![Ondersteund](../media/check-mark.png) | N.v.t. | ![Ondersteund](../media/check-mark.png) |
 
 ## <a name="supported-powershell-modules"></a>Ondersteunde PowerShell-modules
 
 - [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)
 - [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
 - [SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-
