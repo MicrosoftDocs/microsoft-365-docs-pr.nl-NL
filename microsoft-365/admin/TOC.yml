@@ -235,8 +235,6 @@
           href: manage/change-address-contact-and-more.md
         - name: De contactgegevens van uw beheerder bijwerken
           href: manage/update-phone-number-and-email-address.md
-        - name: Verloopbeleid voor wachtwoorden instellen
-          href: manage/set-password-expiration-policy.md
         - name: Het startprogramma voor apps aanpassen
           href: manage/customize-the-app-launcher.md
         - name: Apps vastmaken aan het startprogramma voor apps van gebruikers

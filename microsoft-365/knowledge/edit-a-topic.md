@@ -1,9 +1,10 @@
 ---
-title: 'Een bestaand onderwerp bewerken in topic experiences (preview) '
-description: Een bestaand onderwerp bewerken in het onderwerp ervaringen.
+title: 'Een bestaand onderwerp bewerken in Microsoft Viva-onderwerpen '
+description: Een bestaand onderwerp bewerken in Microsoft Viva-onderwerpen.
 author: efrene
 ms.author: efrene
 manager: pamgreen
+ms.reviewer: cjtan
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
@@ -12,18 +13,14 @@ ms.collection:
 - m365initiative-topics
 ms.service: ''
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 79321ce7fc661fd95090c280eae0bcecd332221a
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 4194328804285f93f023092f1c7ac31d31a581da
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976291"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107448"
 ---
-# <a name="edit-an-existing-topic-preview"></a><span data-ttu-id="1b271-103">Een bestaand onderwerp bewerken (preview)</span><span class="sxs-lookup"><span data-stu-id="1b271-103">Edit an existing topic (Preview)</span></span>
-
-> [!Note] 
-> <span data-ttu-id="1b271-104">De inhoud in dit artikel is bedoeld voor project cortex private preview.</span><span class="sxs-lookup"><span data-stu-id="1b271-104">The content in this article is for Project Cortex Private Preview.</span></span> <span data-ttu-id="1b271-105">[Meer informatie over Project Cortex](https://aka.ms/projectcortex).</span><span class="sxs-lookup"><span data-stu-id="1b271-105">[Find out more about Project Cortex](https://aka.ms/projectcortex).</span></span>
+# <a name="edit-an-existing-topic"></a><span data-ttu-id="9903b-103">Een bestaand onderwerp bewerken</span><span class="sxs-lookup"><span data-stu-id="9903b-103">Edit an existing topic</span></span> 
 
 </br>
 
@@ -31,39 +28,96 @@ ms.locfileid: "49976291"
 
 </br>
 
-<span data-ttu-id="1b271-106">In het onderwerp kunt u een bestaand onderwerp bewerken.</span><span class="sxs-lookup"><span data-stu-id="1b271-106">In Topic experiences, you can edit an existing topic.</span></span> <span data-ttu-id="1b271-107">U moet dit mogelijk doen als u aanvullende informatie wilt corrigeren of toevoegen aan een bestaande topic.</span><span class="sxs-lookup"><span data-stu-id="1b271-107">You may need to do this if you want to correct or add additional information to an existing topic page.</span></span> 
-
-## <a name="requirements"></a><span data-ttu-id="1b271-108">Vereisten</span><span class="sxs-lookup"><span data-stu-id="1b271-108">Requirements</span></span>
-
-<span data-ttu-id="1b271-109">Als u een bestaand onderwerp wilt bewerken, moet u het volgende doen:</span><span class="sxs-lookup"><span data-stu-id="1b271-109">To edit an existing topic, you need to:</span></span>
-- <span data-ttu-id="1b271-110">Laat een licentie.</span><span class="sxs-lookup"><span data-stu-id="1b271-110">Have a Topic Experiences license.</span></span>
-- <span data-ttu-id="1b271-111">Machtigingen hebben voor [**wie onderwerpen kunnen maken of bewerken**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span><span class="sxs-lookup"><span data-stu-id="1b271-111">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="1b271-112">Kennis beheerders kunnen aan deze machtiging gebruikers machtigen voor de instellingen van de machtigingen van het onderwerp van het kennis netwerk.</span><span class="sxs-lookup"><span data-stu-id="1b271-112">Knowledge admins can give users this permission in the Knowledge Network topic permissions settings.</span></span> 
+<span data-ttu-id="9903b-104">In Viva-onderwerpen kunt u een bestaand onderwerp bewerken.</span><span class="sxs-lookup"><span data-stu-id="9903b-104">In Viva Topics, you can edit an existing topic.</span></span> <span data-ttu-id="9903b-105">Mogelijk moet u dit doen als u een bestaande onderwerppagina wilt corrigeren of er extra informatie aan wilt toevoegen.</span><span class="sxs-lookup"><span data-stu-id="9903b-105">You may need to do this if you want to correct or add additional information to an existing topic page.</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="1b271-113">Gebruikers die gemachtigd zijn om onderwerpen te beheren in het onderwerp centrum (kennis beheerders), hebben al machtigingen voor het maken en bewerken van onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="1b271-113">Users who have permission to manage topics in the Topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
+> <span data-ttu-id="9903b-106">Hoewel de informatie in een onderwerp dat door AI wordt verzameld, [is](topic-experiences-security-trimming.md)afgekort tot beveiliging, houd er rekening mee dat informatie die u handmatig toevoegt wanneer u een bestaand onderwerp bewerkt, zichtbaar is voor alle gebruikers die machtigingen hebben om onderwerpen te bekijken.</span><span class="sxs-lookup"><span data-stu-id="9903b-106">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.</span></span> 
 
-## <a name="edit-a-topic-page"></a><span data-ttu-id="1b271-114">Een onderwerpenpagina bewerken</span><span class="sxs-lookup"><span data-stu-id="1b271-114">Edit a topic page</span></span>
+## <a name="requirements"></a><span data-ttu-id="9903b-107">Vereisten</span><span class="sxs-lookup"><span data-stu-id="9903b-107">Requirements</span></span>
 
-<span data-ttu-id="1b271-115">Als u gemachtigd bent om een onderwerp te bewerken, kunt u het onderwerp **bewerken** in de rechterbovenhoek van de pagina te zien krijgen.</span><span class="sxs-lookup"><span data-stu-id="1b271-115">If you have permissions to edit a topic page, after opening the topic, you will be able to see **Edit** on the top right of the page.</span></span>
+<span data-ttu-id="9903b-108">Als u een bestaand onderwerp wilt bewerken, moet u:</span><span class="sxs-lookup"><span data-stu-id="9903b-108">To edit an existing topic, you need to:</span></span>
+- <span data-ttu-id="9903b-109">U hebt een licentie voor Viva-onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="9903b-109">Have a Viva Topics license.</span></span>
+- <span data-ttu-id="9903b-110">Machtigingen hebben voor [**Wie kan onderwerpen maken of bewerken.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)</span><span class="sxs-lookup"><span data-stu-id="9903b-110">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="9903b-111">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span><span class="sxs-lookup"><span data-stu-id="9903b-111">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
 
-   ![Besturingselement bewerken](../media/knowledge-management/topic-page-edit.png) </br> 
+> [!Note] 
+> <span data-ttu-id="9903b-112">Gebruikers die zijn machtigingen voor het beheren van onderwerpen in het Onderwerpcentrum (knowledge managers) hebben al machtigingen voor het maken en bewerken van onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="9903b-112">Users who have permission to manage topics in the Topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
 
-1. <span data-ttu-id="1b271-117">Selecteer **bewerken** op de pagina onderwerp.</span><span class="sxs-lookup"><span data-stu-id="1b271-117">On the topic page, select **Edit**.</span></span>
+## <a name="how-to-edit-a-topic-page"></a><span data-ttu-id="9903b-113">Een onderwerppagina bewerken</span><span class="sxs-lookup"><span data-stu-id="9903b-113">How to edit a topic page</span></span>
 
-2. <span data-ttu-id="1b271-118">Breng de gewenste wijzigingen aan in de pagina.</span><span class="sxs-lookup"><span data-stu-id="1b271-118">Make the changes you need to the page.</span></span> <span data-ttu-id="1b271-119">Dit omvat updates voor de volgende velden:</span><span class="sxs-lookup"><span data-stu-id="1b271-119">This includes updates to the following fields:</span></span>
+<span data-ttu-id="9903b-114">Gebruikers met de machtiging **Wie** kan onderwerpen maken of bewerken, kunnen een onderwerp bewerken <b></b> door de onderwerppagina te openen vanaf een onderwerp markeren en vervolgens de knop Bewerken rechtsboven op de onderwerppagina te selecteren.</span><span class="sxs-lookup"><span data-stu-id="9903b-114">Users who have the **Who can create or edit topics** permission can edit a topic by opening the topic page from a topic highlight, and then selecting the <b>Edit</b> button on the top right of the topic page.</span></span> <span data-ttu-id="9903b-115">De onderwerppagina kan ook worden geopend vanaf de startpagina van het onderwerpcentrum, waar u alle onderwerpen vindt met wie u verbinding hebt.</span><span class="sxs-lookup"><span data-stu-id="9903b-115">The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.</span></span>
 
-    -  <span data-ttu-id="1b271-120">Alternatieve namen</span><span class="sxs-lookup"><span data-stu-id="1b271-120">Alternate names</span></span>
-    -  <span data-ttu-id="1b271-121">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="1b271-121">Description</span></span>
-    -  <span data-ttu-id="1b271-122">Vastgemaakte personen</span><span class="sxs-lookup"><span data-stu-id="1b271-122">Pinned people</span></span>
-    -  <span data-ttu-id="1b271-123">Bestanden en pagina's</span><span class="sxs-lookup"><span data-stu-id="1b271-123">Files and pages</span></span>
-    -  <span data-ttu-id="1b271-124">Sites</span><span class="sxs-lookup"><span data-stu-id="1b271-124">Sites</span></span>
+   ![Knop Bewerken](../media/knowledge-management/edit-button.png) </br> 
 
-    <span data-ttu-id="1b271-125">U kunt ook statische items toevoegen aan de pagina, zoals tekst, afbeeldingen of koppelingen, door het papier pictogram te selecteren.</span><span class="sxs-lookup"><span data-stu-id="1b271-125">You can also add static items to the page—such as text, images, or links by selecting the canvas icon.</span></span>
+<span data-ttu-id="9903b-117">Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina Onderwerpen beheren door het onderwerp te selecteren en vervolgens Bewerken te <b>selecteren</b> op de werkbalk.</span><span class="sxs-lookup"><span data-stu-id="9903b-117">Knowledge managers can also edit topics directly from the Manage Topics page by selecting the topic, and then selecting <b>Edit</b> in the toolbar.</span></span>
 
-3. <span data-ttu-id="1b271-126">Selecteer **opnieuw publiceren** om uw wijzigingen op te slaan.</span><span class="sxs-lookup"><span data-stu-id="1b271-126">Select **Republish** to save your changes.</span></span>
+   ![Onderwerp bewerken in Onderwerpen beheren](../media/knowledge-management/manage-topics-edit.png) </br> 
+
+### <a name="to-edit-a-topic-page"></a><span data-ttu-id="9903b-119">Een onderwerppagina bewerken</span><span class="sxs-lookup"><span data-stu-id="9903b-119">To edit a topic page</span></span>
+
+1. <span data-ttu-id="9903b-120">Selecteer Bewerken op de **onderwerppagina.**</span><span class="sxs-lookup"><span data-stu-id="9903b-120">On the topic page, select **Edit**.</span></span> <span data-ttu-id="9903b-121">Op deze manier kunt u wijzigingen aanbrengen op de onderwerppagina.</span><span class="sxs-lookup"><span data-stu-id="9903b-121">This allows you to make changes as you need to the topic page.</span></span>
+
+   ![Besturingselement bewerken](../media/knowledge-management/topic-page-edit.png) </br>  
 
 
-## <a name="see-also"></a><span data-ttu-id="1b271-127">Zie ook</span><span class="sxs-lookup"><span data-stu-id="1b271-127">See also</span></span>
+2. <span data-ttu-id="9903b-123">Typ in <b>de sectie Alternatieve</b> namen andere namen waar mogelijk naar wordt verwezen in het onderwerp.</span><span class="sxs-lookup"><span data-stu-id="9903b-123">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
+
+    ![Alternatieve namen](../media/knowledge-management/alt-names.png) </br> 
+3. <span data-ttu-id="9903b-125">Typ in <b>de</b> sectie Beschrijving een paar zinnen om het onderwerp te beschrijven.</span><span class="sxs-lookup"><span data-stu-id="9903b-125">In the <b>Description</b> section, type a couple of sentences that describes the topic.</span></span> <span data-ttu-id="9903b-126">Als er al een beschrijving bestaat, kunt u deze indien nodig bijwerken.</span><span class="sxs-lookup"><span data-stu-id="9903b-126">Or if a description already exists, update it if needed.</span></span>
+
+    ![Beschrijvingssectie](../media/knowledge-management/description.png)</br>
+
+4. <span data-ttu-id="9903b-128">In de <b>sectie Vastgemaakte</b> personen kunt u een persoon vastmaken om deze weer te geven als een expert op het gebied van het onderwerp.</span><span class="sxs-lookup"><span data-stu-id="9903b-128">In the <b>Pinned people</b> section, you can "pin" a person to show them as a subject matter expert on the topic.</span></span> <span data-ttu-id="9903b-129">Typ eerst de naam of <b></b> het e-mailadres in het vak Een nieuwe gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten.</span><span class="sxs-lookup"><span data-stu-id="9903b-129">Begin by typing their name or email address in the <b>Add a new user</b> box, and then selecting the user you want to add from the search results.</span></span> <span data-ttu-id="9903b-130">U kunt ze ook 'losmaken' door het pictogram Verwijderen uit <b>lijst</b> op de gebruikerskaart te selecteren.</span><span class="sxs-lookup"><span data-stu-id="9903b-130">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span>
+ 
+    ![Vastgemaakte personen toevoegen](../media/knowledge-management/pinned-people.png)</br>
+
+    <span data-ttu-id="9903b-132">De <b>sectie Voorgestelde</b> personen laat gebruikers zien dat AI denkt dat het onderwerp deskundigen over het onderwerp kunnen zijn, uit hun verband met bronnen over het onderwerp.</span><span class="sxs-lookup"><span data-stu-id="9903b-132">The <b>Suggested people</b> section shows users that AI thinks might be subject matter experts on the topic from their connection to resources about the topic.</span></span> <span data-ttu-id="9903b-133">U kunt de status wijzigen van Voorgesteld in Vastgemaakt door het speldpictogram op de gebruikerskaart te selecteren.</span><span class="sxs-lookup"><span data-stu-id="9903b-133">You can change their status from Suggested to Pinned by selecting the pin icon on the user card.</span></span>
+
+   ![Voorgestelde personen vastmaken](../media/knowledge-management/suggested-people.png)</br>
+
+5. <span data-ttu-id="9903b-135">In de <b>sectie Vastgemaakte</b> bestanden en pagina's kunt u een bestand of een SharePoint-sitepagina toevoegen of vastmaken die aan het onderwerp is gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="9903b-135">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
+
+   ![Sectie met vastgemaakte bestanden en pagina's](../media/knowledge-management/pinned-files-and-pages.png)</br>
+ 
+    <span data-ttu-id="9903b-137">Als u een nieuw bestand wilt toevoegen, selecteert u <b>Toevoegen,</b>selecteert u de SharePoint-site op uw veelgebruikte of gevolgde sites en selecteert u het bestand in de documentbibliotheek van de site.</span><span class="sxs-lookup"><span data-stu-id="9903b-137">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
+
+    <span data-ttu-id="9903b-138">U kunt ook de optie <b>Van een koppeling gebruiken</b> om een bestand of pagina toe te voegen door de URL op te geven.</span><span class="sxs-lookup"><span data-stu-id="9903b-138">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
+
+6. <span data-ttu-id="9903b-139">De <b>sectie Voorgestelde bestanden en pagina's</b> bevat bestanden en pagina's die AI suggereert om aan het onderwerp te worden gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="9903b-139">The <b>Suggested files and pages</b> section shows files and pages that AI suggests to be associated to the topic.</span></span>
+
+   ![Sectie Voorgestelde bestanden en pagina's](../media/knowledge-management/suggested-files-and-pages.png)</br>
+
+    <span data-ttu-id="9903b-141">U kunt een voorgesteld bestand of pagina toevoegen aan een vastgemaakt bestand of vastgemaakte pagina door het vastgemaakte pictogram te selecteren.</span><span class="sxs-lookup"><span data-stu-id="9903b-141">You can make a suggested file or page to a pinned file or page by selecting the pinned icon.</span></span>
+
+7.  <span data-ttu-id="9903b-142">De <b>sectie Verwante sites</b> bevat sites met informatie over het onderwerp.</span><span class="sxs-lookup"><span data-stu-id="9903b-142">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
+
+    ![Sectie Gerelateerde sites](../media/knowledge-management/related-sites.png)</br>
+
+    <span data-ttu-id="9903b-144">U kunt een gerelateerde <b></b> site toevoegen door Toevoegen te selecteren en vervolgens naar de site te zoeken of door de site te selecteren in uw lijst met veelgebruikte of recente sites.</span><span class="sxs-lookup"><span data-stu-id="9903b-144">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
+    
+    ![Een site selecteren](../media/knowledge-management/sites.png)</br>
+
+8. <span data-ttu-id="9903b-146">In <b>de sectie Verwante</b> onderwerpen ziet u de verbindingen tussen de onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="9903b-146">The <b>Related topics</b> section shows connections that exists between topics.</span></span> <span data-ttu-id="9903b-147">U kunt een verbinding met een <b></b> ander onderwerp toevoegen door de knop Verbinding maken met een gerelateerd onderwerp te selecteren, de naam van het verwante onderwerp te typen en dit te selecteren in de zoekresultaten.</span><span class="sxs-lookup"><span data-stu-id="9903b-147">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
+
+   ![Sectie Verwante onderwerpen](../media/knowledge-management/related-topic.png)</br>  
+
+    <span data-ttu-id="9903b-149">Vervolgens kunt u een beschrijving geven van de verwante onderwerpen en <b>Bijwerken selecteren.</b></span><span class="sxs-lookup"><span data-stu-id="9903b-149">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
+
+   ![Beschrijving van verwante onderwerpen](../media/knowledge-management/related-topics-update.png)</br> 
+
+   <span data-ttu-id="9903b-151">Het gerelateerde onderwerp dat u hebt toegevoegd, wordt weergegeven als een verbonden onderwerp.</span><span class="sxs-lookup"><span data-stu-id="9903b-151">The related topic you added will display as a connected topic.</span></span>
+
+   ![Verwante onderwerpen verbonden](../media/knowledge-management/related-topics-final.png)</br> 
+
+
+9. <span data-ttu-id="9903b-153">U kunt ook statische items toevoegen aan de pagina, zoals tekst, afbeeldingen of koppelingen, door het canvaspictogram te selecteren dat u onder de korte beschrijving kunt vinden.</span><span class="sxs-lookup"><span data-stu-id="9903b-153">You can also add static items to the page — such as text, images, or links - by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="9903b-154">Als u deze selecteert, wordt de SharePoint-werkset geopend waarin u het item kunt kiezen dat u aan de pagina wilt toevoegen.</span><span class="sxs-lookup"><span data-stu-id="9903b-154">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
+
+   ![Canvas-pictogram](../media/knowledge-management/webpart-library.png)</br> 
+
+
+10. <span data-ttu-id="9903b-156">Selecteer **Publiceren** of **Opnieuw publiceren om** uw wijzigingen op te slaan.</span><span class="sxs-lookup"><span data-stu-id="9903b-156">Select **Publish** or **Republish** to save your changes.</span></span> <span data-ttu-id="9903b-157">**Opnieuw publiceren** is uw beschikbare optie als het onderwerp eerder is gepubliceerd.</span><span class="sxs-lookup"><span data-stu-id="9903b-157">**Republish** will be your available option if the topic has been published previously.</span></span>
+
+
+## <a name="see-also"></a><span data-ttu-id="9903b-158">Zie ook</span><span class="sxs-lookup"><span data-stu-id="9903b-158">See also</span></span>
 
 
 
