@@ -2,8 +2,8 @@
 title: Meervoudige verificatie instellen voor Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over meervoudige verificatie in Microsoft 365.
-ms.openlocfilehash: 7d62d88acb5137bd0674de7a42b44103bc9fc5f0
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 5e72e3990db533b49041dc4167283b9487f23426
+ms.sourcegitcommit: b88ffaf3409e02a9847f030f8468f96d36efa398
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926544"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50105183"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Meervoudige verificatie instellen voor Microsoft 365
 
@@ -173,3 +173,9 @@ In het Microsoft 365-beheercentrum kunt u MFA-instellingen per gebruiker en serv
 ## <a name="your-next-step"></a>Volgende stap
 
 [MFA instellen voor Microsoft 365](set-up-multi-factor-authentication.md)
+
+## <a name="related-topics"></a>Verwante onderwerpen
+
+[Video: Meervoudige verificatie inschakelen](https://docs.microsoft.com/microsoft-365/business-video/turn-on-mfa)
+
+[Video: Meervoudige verificatie inschakelen voor uw telefoon](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)

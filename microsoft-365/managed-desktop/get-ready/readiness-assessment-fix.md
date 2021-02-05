@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 360cd50556b77f141d1585f42ac08ee5990b4851
-ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
+ms.openlocfilehash: 22b5a6353720f8fbee218c138a3c9d0dee444db9
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040518"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114917"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
@@ -25,11 +25,11 @@ Bij elke controle wordt een van de vier mogelijke resultaten door het hulpmiddel
 |---------|---------|
 |Klaar     | U hoeft niets te doen voordat u de inschrijving voltooit.        |
 |Advies    | Volg de stappen in het hulpprogramma of dit artikel voor een optimaal gebruik van de inschrijving en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
-|Nog niet gereed | *De inschrijving mislukt als u deze problemen niet op kunt lossen.* Volg de stappen in het hulpprogramma of in dit artikel om ze op te lossen.        |
+|Nog niet gereed | *De registratie mislukt als u deze problemen niet op kunt lossen.* Volg de stappen in het hulpprogramma of in dit artikel om ze op te lossen.        |
 |Error | De Ad-rol (Azure Active Directory) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
 
 > [!NOTE]
-> De resultaten die door dit hulpprogramma zijn gerapporteerd, geven alleen de status van uw instellingen weer op het specifieke tijdstip dat u het programma hebt gemaakt. Als u later wijzigingen aan het beleid aan brengen in Microsoft Intune, Azure Active Directory of Microsoft 365, kunnen items die 'Gereed' waren, 'Niet gereed' worden. Als u problemen met bewerkingen met beheerd bureaublad van Microsoft wilt voorkomen, controleert u de specifieke instellingen die in dit artikel worden beschreven voordat u beleid wijzigt.
+> De resultaten die door dit hulpprogramma zijn gerapporteerd, geven alleen de status van uw instellingen weer op het specifieke tijdstip dat u het hulpprogramma hebt gemaakt. Als u later wijzigingen aan het beleid aan brengen in Microsoft Intune, Azure Active Directory of Microsoft 365, kunnen items die 'Gereed' waren, 'Niet gereed' worden. Als u problemen met bewerkingen met beheerd bureaublad van Microsoft wilt voorkomen, controleert u de specifieke instellingen die in dit artikel worden beschreven voordat u beleid wijzigt.
 
 ## <a name="microsoft-intune-settings"></a>Microsoft Intune-instellingen
 
@@ -41,11 +41,11 @@ U mag geen Bestaande Autopilot-profielen hebben die zijn gericht op toegewezen o
 
 **Nog niet gereed**
 
-U hebt een Autopilot-profiel dat is toegewezen aan alle apparaten. Zie Windows-apparaten [registreren in Intune door Windows Autopilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)te gebruiken voor stappen. Stel na de registratie van Het beheerde bureaublad van Microsoft uw Autopilot-beleid in om de **groep Modern Workplace Devices -All** Azure AD uit te sluiten.
+U hebt een Autopilot-profiel dat is toegewezen aan alle apparaten. Zie Windows-apparaten [registreren in Intune door Windows Autopilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)te gebruiken voor stappen. Stel na de registratie van het beheerde bureaublad van Microsoft uw Autopilot-beleid in om de **groep Modern Workplace Devices -All** Azure AD uit te sluiten.
 
 **Advies**
 
-Zorg ervoor dat uw Autopilot-profielen zijn gericht op een toegewezen of dynamische Azure AD-groep die geen microsoft beheerde bureaubladapparaten bevat. Zie Windows-apparaten [registreren in Intune](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)door Windows Autopilot te gebruiken voor stappen. Stel na de registratie van Het beheerde bureaublad van Microsoft uw Autopilot-profielen zo in dat de **groep Modern Workplace Devices -All** Azure AD wordt uitgesloten.
+Zorg ervoor dat uw Autopilot-profielen zijn gericht op een toegewezen of dynamische Azure AD-groep die geen Microsoft Managed Desktop-apparaten bevat. Zie Windows-apparaten [registreren in Intune door Windows Autopilot](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)te gebruiken voor stappen. Stel na de registratie van Het beheerde bureaublad van Microsoft uw Autopilot-profielen zo in dat de **groep Modern Workplace Devices -All** Azure AD wordt uitgesloten.
 
 
 ### <a name="certificate-connectors"></a>Connectors voor certificaten
@@ -58,25 +58,25 @@ Er zijn geen connectors voor certificaten aanwezig. Het is mogelijk dat u geen c
 
 **Advies**
 
-Ten minste één certificaatconnector heeft een foutmelding. Als u deze connector nodig hebt voor het leveren van certificaten aan apparaten met Beheerd bureaublad van Microsoft, moet u de fout oplossen. Zie Certificaten en netwerkprofielen voorbereiden voor beheerd bureaublad [van Microsoft voor meer informatie.](certs-wifi-lan.md)
+Ten minste één certificaatconnector heeft een foutmelding. Als u deze connector nodig hebt voor het leveren van certificaten aan apparaten met Beheerd bureaublad van Microsoft, moet u de fout oplossen. Zie Certificaten en netwerkprofielen voorbereiden voor [het beheerde bureaublad van Microsoft voor meer informatie.](certs-wifi-lan.md)
 
 
 **Advies**
 
-U hebt ten minste één connector voor certificaten en er worden geen fouten gerapporteerd. Ter voorbereiding op de implementatie moet u echter mogelijk een profiel maken om de connector opnieuw te gebruiken voor apparaten met een beheerd bureaublad van Microsoft. Zie Certificaten en netwerkprofielen voorbereiden voor beheerd bureaublad [van Microsoft voor meer informatie.](certs-wifi-lan.md)
+U hebt ten minste één connector voor certificaten en er worden geen fouten gerapporteerd. Ter voorbereiding op de implementatie moet u echter mogelijk een profiel maken om de connector opnieuw te gebruiken voor apparaten met een beheerd bureaublad van Microsoft. Zie Certificaten en netwerkprofielen voorbereiden voor [het beheerde bureaublad van Microsoft voor meer informatie.](certs-wifi-lan.md)
 
 
 ### <a name="conditional-access-policies"></a>Beleid voor voorwaardelijke toegang
 
-Beleidsregels voor voorwaardelijke toegang mogen niet voorkomen dat Microsoft Beheerd bureaublad uw Azure AD-organisatie (tenant) beheert in Intune en Azure AD.
+Beleidsregels voor voorwaardelijke toegang mogen niet voorkomen dat Microsoft Managed Desktop uw Azure AD-organisatie (tenant) beheert in Intune en Azure AD.
 
 **Nog niet gereed**
 
-U hebt ten minste één beleid voor voorwaardelijke toegang dat is gericht op alle gebruikers. Tijdens de registratie sluiten we microsoft Managed Desktop-serviceaccounts uit van relevant beleid voor voorwaardelijke toegang en passen we nieuw beleid voor voorwaardelijke toegang toe om de toegang tot deze accounts te beperken. Na de registratie kunt u het beleid voor voorwaardelijke toegang van Microsoft Beheerd bureaublad bekijken in Microsoft Endpoint Manager. Zie standaardbesturingssysteemprocedures voor meer informatie over deze [serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+U hebt ten minste één beleid voor voorwaardelijke toegang dat is gericht op alle gebruikers. Tijdens de registratie sluiten we microsoft Managed Desktop-serviceaccounts uit van relevante beleidsregels voor voorwaardelijke toegang en passen we nieuw beleid voor voorwaardelijke toegang toe om de toegang tot deze accounts te beperken. Na de registratie kunt u het beleid voor voorwaardelijke toegang van Microsoft Beheerd bureaublad bekijken in Microsoft Endpoint Manager. Zie standaardbesturingssysteemprocedures voor meer informatie over [deze serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Advies**
 
-U hebt beleidsregels voor voorwaardelijke toegang waardoor de beheerde bureaubladservice van Microsoft niet kan worden beheerd. Tijdens de registratie sluiten we microsoft Managed Desktop-serviceaccounts uit van relevant beleid voor voorwaardelijke toegang en passen we nieuw beleid voor voorwaardelijke toegang toe om de toegang tot deze accounts te beperken. Zie standaardbesturingssysteemprocedures voor meer informatie over [deze serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+U hebt beleidsregels voor voorwaardelijke toegang waardoor de beheerde bureaubladservice van Microsoft niet kan worden beheerd. Tijdens de registratie sluiten we microsoft Managed Desktop-serviceaccounts uit van relevante beleidsregels voor voorwaardelijke toegang en passen we nieuw beleid voor voorwaardelijke toegang toe om de toegang tot deze accounts te beperken. Zie standaardbesturingssysteemprocedures voor meer informatie over [deze serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Fout**
 
@@ -123,7 +123,7 @@ Microsoft Managed Desktop-apparaten moeten zijn toegestaan zich in te schrijven 
 
 **Nog niet gereed**
 
-Er is momenteel ten minste één registratiebeperkingsbeleid geconfigureerd om te voorkomen dat Windows-apparaten zich registreren bij Intune. Volg de stappen in [Inschrijvingsbeperkingen](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) instellen voor elk registratiebeperkingsbeleid dat is gericht op gebruikers van het beheerde bureaublad van Microsoft en wijzig de **Windows-instelling (MDM)** in **Toestaan.** U kunt echter wel  persoonlijke **Windows-apparaten (MDM)-apparaten** instellen op **Blokkeren.** 
+Er is momenteel ten minste één registratiebeperkingsbeleid geconfigureerd om te voorkomen dat Windows-apparaten zich registreren bij Intune. Volg de stappen in [Registratiebeperkingen instellen](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) voor elk registratiebeperkingsbeleid dat is gericht op gebruikers van Het beheerde bureaublad van Microsoft en wijzig de **Windows-instelling (MDM)** in **Toestaan.** U kunt echter wel  persoonlijke **Windows-apparaten (MDM)-apparaten** instellen op **Blokkeren.** 
 
 
 ### <a name="enrollment-status-page"></a>Pagina Inschrijvingsstatus
@@ -132,7 +132,7 @@ Momenteel is de registratiestatuspagina (ESP) ingeschakeld. Als u van plan bent 
 
 **Nog niet gereed**
 
-Het standaardprofiel van het ESP is ingesteld op De voortgang van de app- en **profielconfiguratie tonen.** Schakel deze instelling uit of zorg ervoor dat toewijzingen aan azure AD-groepen geen beheerde Bureaublad-apparaten van Microsoft bevatten door de stappen te volgen op de pagina [Inschrijvingsstatus instellen.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
+Het standaardprofiel van het ESP is ingesteld op De voortgang van de app- en **profielconfiguratie tonen.** Schakel deze instelling uit of zorg ervoor dat toewijzingen aan Azure AD-groepen geen beheerde Bureaublad-apparaten van Microsoft bevatten door de stappen te volgen op de pagina [Inschrijvingsstatus instellen.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
 
 **Advies**
 
@@ -153,11 +153,11 @@ Meervoudige verificatie mag niet voorkomen dat Microsoft Managed Desktop uw Azur
 
 **Nog niet gereed**
 
-U hebt een aantal meervoudige verificatiebeleidsregels ingesteld die zijn **vereist** voor beleidsregels voor voorwaardelijke toegang die zijn toegewezen aan alle gebruikers. Tijdens de registratie sluiten we microsoft Managed Desktop-serviceaccounts uit van relevante beleidsregels voor voorwaardelijke toegang en passen we nieuw beleid voor voorwaardelijke toegang toe om de toegang tot deze accounts te beperken. Zie standaardbesturingssysteemprocedures voor meer informatie over deze [serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+U hebt een aantal meervoudige verificatiebeleidsregels ingesteld die zijn **vereist** voor beleidsregels voor voorwaardelijke toegang die aan alle gebruikers zijn toegewezen. Tijdens de registratie sluiten we microsoft Managed Desktop-serviceaccounts uit van relevante beleidsregels voor voorwaardelijke toegang en passen we nieuw beleid voor voorwaardelijke toegang toe om de toegang tot deze accounts te beperken. Zie standaardbesturingssysteemprocedures voor meer informatie over [deze serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Advies**
 
-Er is meervoudige verificatie vereist voor beleidsregels voor voorwaardelijke toegang die kunnen verhinderen dat Beheerd bureaublad van Microsoft de service Microsoft Managed Desktop beheert. Tijdens de registratie sluiten we microsoft Managed Desktop-serviceaccounts uit van relevante beleidsregels voor voorwaardelijke toegang en passen we nieuw beleid voor voorwaardelijke toegang toe om de toegang tot deze accounts te beperken. Zie standaardbesturingssysteemprocedures voor meer informatie over deze [serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+Er is meervoudige verificatie vereist voor beleidsregels voor voorwaardelijke toegang waardoor microsoft Beheerd bureaublad de service Microsoft Managed Desktop niet kan beheren. Tijdens de registratie sluiten we microsoft Managed Desktop-serviceaccounts uit van relevante beleidsregels voor voorwaardelijke toegang en passen we nieuw beleid voor voorwaardelijke toegang toe om de toegang tot deze accounts te beperken. Zie standaardbesturingssysteemprocedures voor meer informatie over [deze serviceaccounts.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Fout**
 
@@ -197,11 +197,11 @@ Het beveiligingsbasislijnbeleid is niet gericht op beheerde bureaubladapparaten 
 
 **Nog niet gereed**
 
-U hebt een basislijnprofiel voor beveiliging dat is gericht op alle gebruikers, alle apparaten of beide. Wijzig het beleid voor het gebruik van een toewijzing die is gericht op een specifieke Azure AD-groep die geen microsoft beheerde bureaubladapparaten bevat. Zie Beveiligingsbasislijnen gebruiken [om Windows 10-apparaten te](https://docs.microsoft.com/mem/intune/protect/security-baselines)configureren in Intune voor stappen.
+U hebt een basislijnprofiel voor beveiliging dat is gericht op alle gebruikers, alle apparaten of beide. Wijzig het beleid voor het gebruik van een toewijzing die is gericht op een specifieke Azure AD-groep die geen Microsoft Managed Desktop-apparaten bevat. Zie Beveiligingsbasislijnen gebruiken [om Windows 10-apparaten te](https://docs.microsoft.com/mem/intune/protect/security-baselines)configureren in Intune voor stappen. Tijdens de registratie wordt een nieuwe basislijn voor beveiliging toegepast op alle beheerde bureaubladapparaten van Microsoft. Na de registratie kunt u het basislijnbeleid voor de beveiliging van Het beheerde bureaublad bekijken in **het** gebied Configuratiebeleid van Microsoft Endpoint Manager.
 
 **Advies**
 
-Zorg ervoor dat u beveiligingsbasislijnbeleidsregels uitsluit die zijn uitgesloten van beheerde bureaubladapparaten van Microsoft. Zie Beveiligingsbasislijnen gebruiken [om Windows 10-apparaten te](https://docs.microsoft.com/mem/intune/protect/security-baselines)configureren in Intune voor stappen. De **groep Modern Workplace Devices -All** Azure AD is een dynamische groep die we maken wanneer u zich inschrijft voor Microsoft Managed Desktop, dus u moet teruggaan om deze groep na de inschrijving uit te sluiten.
+Zorg ervoor dat u beveiligingsbasislijnbeleidsregels uitsluit die zijn uitgesloten van beheerde bureaubladapparaten van Microsoft. Zie Beveiligingsbasislijnen gebruiken [om Windows 10-apparaten te](https://docs.microsoft.com/mem/intune/protect/security-baselines)configureren in Intune voor stappen. Tijdens de registratie wordt een nieuwe basislijn voor beveiliging toegepast op alle beheerde bureaubladapparaten van Microsoft. De **groep Modern Workplace Devices -All** Azure AD is een dynamische groep die we maken wanneer u zich inschrijft voor Microsoft Managed Desktop, dus u moet teruggaan om deze groep na de inschrijving uit te sluiten. 
 
 
 ### <a name="windows-apps"></a>Windows-apps
@@ -221,11 +221,11 @@ Voor het beheerde bureaublad van Microsoft moet Windows Hello voor Bedrijven zij
 
 **Nog niet gereed**
 
-Windows Hello voor Bedrijven is uitgeschakeld. Schakel dit in door de stappen te volgen in [Het beleid voor Windows Hello voor Bedrijven maken](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+Windows Hello voor Bedrijven is uitgeschakeld. Schakel dit in door de stappen te volgen in [Beleid voor Windows Hello voor Bedrijven maken](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 **Advies**
 
-Windows Hello voor Bedrijven is niet ingesteld. Schakel dit in door de stappen te volgen in [Het beleid van Windows Hello voor Bedrijven maken.](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+Windows Hello voor Bedrijven is niet ingesteld. Schakel dit in door de stappen te volgen in [Beleid voor Windows Hello voor Bedrijven maken.](https://docs.microsoft.com/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 
 ### <a name="windows-10-update-rings"></a>Updateringen voor Windows 10
@@ -234,7 +234,7 @@ Uw updateringsbeleid voor Windows 10 in Intune mag niet zijn gericht op beheerde
 
 **Nog niet gereed**
 
-U hebt een updateringsbeleid dat is gericht op alle apparaten, alle gebruikers of beide. Wijzig het beleid voor het gebruik van een toewijzing die is gericht op een specifieke Azure AD-groep die geen microsoft beheerde bureaubladapparaten bevat. Zie Windows [10-software-updates beheren in Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor stappen.
+U hebt een update-ringbeleid dat is gericht op alle apparaten, alle gebruikers of beide. Wijzig het beleid voor het gebruik van een toewijzing die is gericht op een specifieke Azure AD-groep die geen microsoft beheerde bureaubladapparaten bevat. Zie Windows [10-software-updates beheren in Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)voor stappen.
 
 **Advies**
 
@@ -273,7 +273,7 @@ Zorg ervoor dat Enterprise State Roaming is ingeschakeld voor **Alle** of voor *
 
 ### <a name="licenses"></a>Licenties
 
-Er zijn een aantal licenties vereist voor het gebruik van het beheerde bureaublad van Microsoft.
+Er zijn een aantal licenties vereist voor het gebruik van Het beheerde bureaublad van Microsoft.
 
 **Niet gereed**
 
@@ -286,7 +286,7 @@ Bepaalde namen van beveiligingsaccounts kunnen conflicteren met de namen die zij
 
 **Nog niet gereed**
 
-U hebt ten minste één accountnaam die een conflict veroorzaakt met de namen die zijn gemaakt met het beheerde bureaublad van Microsoft. Werk samen met uw Microsoft-accountvertegenwoordiger om deze accountnamen uit te sluiten.
+U hebt ten minste één accountnaam die conflicteren met de namen die zijn gemaakt met het beheerde bureaublad van Microsoft. Werk samen met uw Microsoft-accountvertegenwoordiger om deze accountnamen uit te sluiten.
 
 
 ### <a name="security-administrator-roles"></a>Rollen van beveiligingsbeheerders
@@ -313,7 +313,7 @@ Beveiligingsinstellingen zijn ingeschakeld. Schakel beveiligingsinstellingen uit
 
 ### <a name="self-service-password-reset"></a>Selfservice voor wachtwoord opnieuw instellen
 
-Selfservice voor wachtwoord opnieuw instellen (SSPR) kan worden ingeschakeld voor alle gebruikers van het beheerde bureaublad van Microsoft, met uitzondering van accounts van de beheerde desktopservice van Microsoft. Zie Zelfstudie: Gebruikers in staat stellen hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met de selfservice voor wachtwoord opnieuw instellen voor [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)
+Selfservice voor wachtwoord opnieuw instellen (SSPR) kan worden ingeschakeld voor alle gebruikers van het beheerde bureaublad van Microsoft, met uitzondering van accounts van de beheerde desktopservice van Microsoft. Zie Zelfstudie: Gebruikers in staat stellen hun account te ontgrendelen of wachtwoorden opnieuw in te stellen met de selfservice voor wachtwoord opnieuw instellen van [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)
 
 **Advies**
 
@@ -322,7 +322,7 @@ Zorg ervoor dat de  geselecteerde SSPR-instelling gebruikers van het beheerde bu
 
 ### <a name="standard-user-role"></a>Standaardgebruikersrol
 
-Microsoft Managed Desktop-gebruikers zijn standaardgebruikers zonder lokale beheerdersbevoegdheden, af na aan wie de Azure AD-rol van globale beheerder en apparaatbeheerder is toegewezen. Aan alle andere gebruikers wordt een standaardgebruikersrol toegewezen wanneer ze hun apparaat met het beheerde bureaublad van Microsoft starten.
+Met andere woorden, dan de gebruikers aan wie de Azure AD-rol van globale beheerder en apparaatbeheerder is toegewezen, zijn Microsoft Managed Desktop-gebruikers standaardgebruikers zonder lokale beheerdersbevoegdheden. Aan alle andere gebruikers wordt een standaardgebruikersrol toegewezen wanneer ze hun apparaat met het beheerde bureaublad van Microsoft starten.
 
 **Advies**
 
@@ -336,4 +336,4 @@ Synchronisatie **toestaan alleen voor pc's die lid** zijn van een bepaalde inste
 
 **Advies**
 
-U gebruikt synchronisatie alleen toestaan op pc's die lid zijn **van specifieke domeinen.** Deze instelling werkt niet met het beheerde bureaublad van Microsoft. Schakel deze instelling uit en stel in plaats daarvan In OneDrive een beleid voor voorwaardelijke toegang in. Zie [Een voorwaardelijke toegangsimplementatie plannen](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) voor hulp.
+U gebruikt synchronisatie alleen toestaan op pc's die lid zijn **van specifieke domeinen.** Deze instelling werkt niet met het beheerde bureaublad van Microsoft. Schakel deze instelling uit en stel in plaats daarvan OneDrive in voor het gebruik van een beleid voor voorwaardelijke toegang. Zie [Een voorwaardelijke toegang-implementatie plannen](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) voor hulp.

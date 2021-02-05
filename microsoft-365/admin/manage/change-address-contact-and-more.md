@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Informatie over het aanbrengen van wijzigingen in uw organisatieprofiel, zoals de naam van de organisatie, het adres, het telefoonnummer, de technische contactpersoon en e-mail.
-ms.openlocfilehash: 334bd1bee0571ba173987b7767465e8d82d7efe9
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: 3c3a936c8961373a94dc8b8978dbc274048af09c
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058433"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114223"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Het adres en de technische contactpersoon van uw organisatie en meer wijzigen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
   
@@ -60,7 +60,7 @@ Hieronder vindt u een beschrijving van elk veld.
 
 |**Veld**  |**Beschrijving**  |
 |---------|---------|
-|Naam  <br/>   | De naam die u hier opgeeft, wordt voor gebruikers weergegeven op de volgende pagina's:  <br/>  Aanmeldingspagina: als uw gebruikers andere Microsoft-accounts hebben ingesteld met hun e-mailadres van het bedrijf of de school, zien ze mogelijk de naam van de organisatie op de aanmeldingspagina. Op deze manier kunnen ze onderscheid maken tussen hun werk- of schoolaccount en hun andere accounts, zodat ze weten welk account ze moeten gebruiken wanneer ze zich aanmelden.  <br/>  Profielkoppeling en -pagina van organisatie: de koppeling naar het profiel van uw organisatie bevat de naam van de organisatie.  <br/>  Yammer-navigatie: In het linkernavigatievenster wordt de naam van de organisatie gebruikt als de naam van het yammer-thuisnetwerk.  <br/> Synchronisatieclient van OneDrive: de naam van de organisatie wordt weergegeven in Verkenner in Windows en Finder op de Mac, de bestandspaden, het OneDrive-activiteitencentrum, de knopinfo van het OneDrive-cloudpictogram en het venster OneDrive-instellingen. Bij het bijwerken van de naam van de organisatie wordt deze momenteel niet bijgewerkt voor geconfigureerde clients. <br/> MS Teams: Organisatiewisselaar in Teams geeft de naam van de organisatie weer <br/>  |
+|Naam  <br/>   | De naam die u hier opgeeft, wordt voor gebruikers weergegeven op de volgende pagina's:  <br/>  Aanmeldingspagina: als uw gebruikers andere Microsoft-accounts hebben ingesteld met hun e-mailadres van het bedrijf of de school, zien ze mogelijk de naam van de organisatie op de aanmeldingspagina. Op deze manier kunnen ze onderscheid maken tussen hun werk- of schoolaccount en hun andere accounts, zodat ze weten welk account ze moeten gebruiken wanneer ze zich aanmelden.  <br/>  Profielkoppeling en -pagina van organisatie: de koppeling naar het profiel van uw organisatie bevat de naam van de organisatie.  <br/>  Yammer-navigatie: In het linkernavigatievenster wordt de naam van de organisatie gebruikt als de naam van het yammer-thuisnetwerk.  <br/> Synchronisatieclient van OneDrive: de naam van de organisatie wordt weergegeven in Verkenner in Windows en Finder op de Mac, de bestandspaden, het OneDrive-activiteitencentrum, de knopinfo van het OneDrive-cloudpictogram en het venster met OneDrive-instellingen. Bij het bijwerken van de naam van de organisatie wordt deze momenteel niet bijgewerkt voor geconfigureerde clients. <br/> MS Teams: Organisatiewisselaar in Teams geeft de naam van de organisatie weer <br/>  |
 |Adres, plaats, provincie, postcode  <br/>     | Het adres dat u hier op de rekening hebt ingevoerd, wordt weergegeven onder Verkocht aan: Het adres verkocht aan op uw factuur is hetzelfde als het adres van uw organisatie op uw profielpagina (zie Uw factuur of factuur voor [Microsoft 365](../../commerce/billing-and-payments/understand-your-invoice2.md)voor Bedrijven).  <br/>        |
 |Land of regio  <br/>    | Dit is het land of de regio waarin het bedrijf is gevestigd. Via het geselecteerde land of de geselecteerde regio wordt bepaald welke services beschikbaar zijn voor u, welke belastingen en factureringsvaluta voor uw land of regio worden gebruikt en wat het dichtstbijzijnde datacentrum voor u is (zie [Gebruiksrechtbeperkingen voor Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>OPMERKING: Nadat u het land of de regio hebt geselecteerd, kunt u dit niet meer wijzigen. Als u de selectie wilt wijzigen, moet u uw abonnement opzeggen en u opnieuw aanmelden. Neem voor hulp bij dit [proces contact op met de ondersteuning.](../contact-support-for-business-products.md)        |
 |Telefoon  <br/>     | Dit is het primaire nummer voor uw bedrijf. Dit is meestal het nummer van het hoofdkantoor van het bedrijf.  <br/>        |
@@ -73,7 +73,7 @@ Als beheerder kunt u uw alternatieve e-mailadres wijzigen voor het opnieuw inste
 
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum.</a>
 
-2. Selecteer in de koptekst uw profielpictogram en selecteer vervolgens **Account weergeven.**
+2. Selecteer uw profielpictogram in de koptekst en selecteer vervolgens **Account weergeven.**
 
 3. Selecteer beveiligingsgegevens aan de **linkerkant.**
 

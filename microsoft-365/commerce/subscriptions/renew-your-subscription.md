@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: Lees hoe u uw Microsoft 365 kunt verlengen door terugkerende facturering uit of in te schakelen.
-ms.openlocfilehash: 1bf6d3957479d1cb695075e139dc4af2a09db3df
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: 3bde3cc6d62e89e3339c268b9e3f9be5d657c467
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324302"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114607"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Microsoft 365 voor bedrijven verlengen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
@@ -55,7 +55,7 @@ Als u vooraf voor uw abonnement hebt betaald met een productcode, verloopt uw ab
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
 2. Selecteer het abonnement waarvan u de terugkerende facturering wilt beheren.
 3. Selecteer op de pagina Abonnementsgegevens onder **Instellingen voor abonnementen en betalingen**, **Terugkerende facturering bewerken**.
-4. In het deelvenster **Terugkerende facturering bewerken** selecteert u **Aan**, **Aan, met eenmaal verlengen**of **Uitschakelen**.
+4. In het deelvenster **Terugkerende facturering bewerken** selecteert u **Aan**, **Aan, met eenmaal verlengen** of **Uitschakelen**.
 5. Selecteer **Opslaan**.
 
     > [!NOTE]

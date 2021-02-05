@@ -12,115 +12,88 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
-description: Meer informatie over de betalingsopties die beschikbaar zijn om te betalen voor uw abonnement op Microsoft 365 voor bedrijven.
+description: Informatie over de betalingsopties die beschikbaar zijn om te betalen voor uw abonnement op Microsoft 365 voor Bedrijven.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-ms.openlocfilehash: 778906219c03e8cc79ccebb368b84642639a8467
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+- commerce
+ms.openlocfilehash: 858b42dbb647e472bcb3e95ddcba850f03ab11f1
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638433"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114823"
 ---
-# <a name="pay-for-your-subscription"></a>Betalen voor uw abonnement
+# <a name="how-to-pay-for-your-subscription"></a>Uw abonnement betalen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
-Wanneer u uw abonnement instelt, kunt u ervoor kiezen om te betalen met creditcard-of bankrekening betalingen, of om per factuur te betalen via cheque of elektronische betaling (EFT). De methode u kiest, is de betalingswijze die we blijven gebruiken voor de volgende factureringsperioden, tenzij u [uw betalingsmethode wijzigt](change-payment-method.md).
+U kunt een creditcard, betaalkaart of bankrekening gebruiken om uw abonnement te betalen. In sommige gevallen kunt u betalen per factuur via een cheque of elektronische betaling. Als u een factureringsprofiel hebt, zijn uw opties iets anders. Zie Factureringsprofielen als u niet zeker weet of uw account een [factureringsprofiel heeft.](manage-billing-profiles.md)
 
-> [!NOTE]
+**Wilt u alleen weten waar u uw factuur moet betalen?** Als u uw factuur per cheque of via elektronische betaling betaalt, raadpleegt u Waar kan ik mijn cheque- of [EFT-betaling overmaken?](#where-do-i-send-my-check-or-eft-payment)
+
+## <a name="before-you-begin"></a>Voordat u begint
+
+- U moet een algemene of factureringsbeheerder zijn om de stappen in dit artikel uit te voeren. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+- De betalingswijze die u tijdens het afrekenen kiest, is de betalingswijze die we gebruiken voor alle toekomstige factureringsperioden. U kunt dit op elk moment wijzigen.
+
+## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>Betalen met een creditcard, betaalkaart of bankrekening
+
+> [!IMPORTANT]
 > Betalen via een bankrekening is niet beschikbaar in bepaalde landen of regio's.
 
-## <a name="pay-by-credit-card-or-bank-account"></a>Betalen via creditcard of bankrekening
+U kunt voor uw abonnement betalen met een creditcard, betaalkaart of via een bankrekening. Wanneer u met een van deze betalingswijzen betaalt, blijven we die betalingswijze in rekening brengen totdat het abonnement verloopt of wordt geannuleerd. U kunt [betalingswijzen beheren](manage-payment-methods.md) wanneer dat nodig is. U kunt ook [een kopie van uw factuuroverzicht per e-mail ontvangen](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email).
 
-Als u via een creditcard of bankrekening betaalt, worden automatisch kosten in rekening gebracht voor uw abonnement vanaf de dag na de factuurdatum tot het einde van uw abonnementsperiode. Wanneer u dat wilt, kunt u uw [betaalwijzen beheren](manage-payment-methods.md) . U kunt ook [Een kopie van uw factuuroverzicht per e-mail ontvangen](#receive-a-copy-of-your-billing-statement-in-email).
+## <a name="paying-by-invoice"></a>Betalen per factuur
 
-### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>Wat gebeurt er als mijn creditcard is geweigerd en mijn betaling achterstallig is?
+In sommige gevallen kunt u uw abonnement per factuur betalen met een cheque of eft. Als je in aanmerking wilt komen om per factuur te betalen, moet je:
 
-Als u via creditcard betaalt maar uw creditcard wordt geweigerd, ontvangt u een e-mailbericht met de mededeling dat we de betaling niet konden verwerken. Dit kan verschillende oorzaken hebben, waaronder dat de creditcard is verlopen. We zullen om de paar dagen proberen de transactie opnieuw uit te voeren. Als deze pogingen niet slagen, blijft u e-mailberichten ontvangen over deze mislukte pogingen. U kunt met behulp van de functie **Saldo vereffenen** op elk gewenst moment uw creditcardgegevens wijzigen en de betaling onmiddellijk opnieuw verzenden.
+- Wees een vaste klant
+- Abonnementskosten hebben die een bepaald bedrag overschrijden (dit bedrag verschilt per servicelocatie)
+- Een kredietcontrole door te geven
 
-> [!NOTE]
-> Als u naar een andere creditcard overschakelt om het openstaande saldo van uw abonnement mee te betalen, worden van deze creditcard alle toekomstige automatische betalingen voor dat abonnement afgeschreven.
-
-::: moniker range="o365-worldwide"
-
-1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-
-2. Zoek het abonnement met het openstaande saldo. Selecteer in de sectie **facturering** , naast **abonnement, een** **Openstaand saldo**betalen.
-
-3. Als u de eigenaar van de creditcard bent, kunt u de vervaldatum van de kaart wijzigen, een andere kaart kiezen of [een nieuwe kaart toevoegen](manage-payment-methods.md).
-
-    > [!NOTE]
-    > Wanneer u de functie **Vereffenings saldo** gebruikt, wordt u in rekening gebracht voor het gehele openstaande saldo van uw account, dat mogelijk meer is dan het verschuldigde bedrag dat ergens anders wordt weergegeven.
-
-4. Als u niet de eigenaar van de creditcard bent, kunt u een andere creditcard kiezen of [een nieuwe kaart toevoegen](manage-payment-methods.md).
-
-5. Wanneer u de creditcardgegevens hebt bijgewerkt of de creditcard hebt gewijzigd die wordt gebruikt om het abonnement te betalen, selecteert u **Opslaan**.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-
-2. Selecteer het abonnement dat u wilt wijzigen. Selecteer in de sectie **mijn factuur** de optie **Nu betalen**.
-
-3. Als u de eigenaar van de creditcard bent, kunt u de vervaldatum van de kaart wijzigen, een andere kaart kiezen of [een nieuwe kaart toevoegen](manage-payment-methods.md).
-
-    > [!NOTE]
-    > Als u de functie **Nu betalen** gebruikt, wordt het gehele openstaande saldo van uw account in rekening gebracht, dat mogelijk meer is dan het verschuldigde bedrag dat ergens anders wordt weergegeven.
-
-4. Als u niet de eigenaar van de creditcard bent, kunt u een andere creditcard kiezen of [een nieuwe kaart toevoegen](manage-payment-methods.md).
-
-5. Wanneer u de creditcardgegevens hebt bijgewerkt of de creditcard hebt gewijzigd die wordt gebruikt om het abonnement te betalen, selecteert u **Submit**. U ziet een bevestigingsbericht met de mededeling: 'De betalingswijze is bijgewerkt en alle openstaande bedragen zijn betaald. Bedankt.'
-
-::: moniker-end
-
-## <a name="pay-by-invoice-check-or-eft"></a>Betalen per factuur (check of elektronische betaling)
-
-Als de kosten van uw abonnement hoger zijn dan een bepaald bedrag (dit bedrag verschilt per servicelocatie), hebt u de mogelijkheid per factuur te betalen via een elektronische betaling of een cheque. Bij grotere factuurbetalingen kan kredietcontrole zijn vereist. Als kredietcontrole vereist is, wordt dit aangegeven wanneer u uw abonnement koopt. Als u ermee akkoord gaat dat er contact met u wordt opgenomen, ontvangt u een e-mail met meer informatie over het aanvragen van kredietgoedkeuring. Kredietcontroles worden doorgaans binnen twee werkdagen afgehandeld.
+Als een kredietcontrole vereist is, wordt u gewaarschuwd wanneer u uw abonnement koopt. Als u ermee akkoord gaat dat er contact met u wordt opgenomen, ontvangt u een e-mailbericht met meer informatie over het aanvragen van kredietgoedkeuring. Kredietcontroles worden doorgaans binnen twee werkdagen afgehandeld.
 
 > [!NOTE]
-> Klanten die in Brazilië wonen, kunnen een abonnement betalen met een Boleto-Bancario. Als u deze optie hebt geselecteerd, wordt de billet voor betaling verzonden naar de e-mail die u hebt ontvangen tijdens de aankoop van het abonnement binnen 10 werkdagen na de besteldatum. De vervaldatum valt 30 dagen na de besteldatum. Als u uw Boleto niet via e-mail ontvangt, controleert u de map Ongewenste e-mail of contact opnemen met ondersteuning. <br><br>Als u wilt, kunt u met een elektronische overschrijving tussen rekeningen betalen. Het organisatie-en accountnummer bevindt zich onder aan de factuur. U moet uw factuurnummer invoeren in het veld voor de overdracht van identificatie.
+> Klanten die in Brazilië wonen, kunnen voor een abonnement betalen met een Boleto Ban cario. Als u deze optie hebt geselecteerd, wordt de factuur voor betaling binnen 10 werkdagen na de orderdatum verzonden naar het e-mailbericht dat u tijdens de aanschaf van het abonnement hebt ontvangen. De vervaldatum is 30 dagen na de besteldatum. Als u uw Boleto niet per e-mail ontvangt, controleert u de map Ongewenste e-mail of neem u contact op met ondersteuning.
+>
+> Als u wilt, kunt u betalen via elektronische overboeking tussen accounts. Het bureau- en rekeningnummer staan onder aan de factuur. Je moet je factuurnummer invoeren in het veld Overdrachtsidentificatie.
 
-Als u uw abonnement per factuur betaalt, krijgt u een e-mailbericht met de mededeling dat uw factuuroverzicht gereed is om te bekijken. Dit e-mailbericht bevat geen kopie van uw factuuroverzicht. U kunt echter ook [Een kopie van uw factuuroverzicht per e-mail ontvangen](#receive-a-copy-of-your-billing-statement-in-email). Het factuuroverzicht bevat informatie over uw betalingsmogelijkheden. Als u een nummer voor een inkooporder (IO) invoert wanneer u een abonnement koopt, wordt het nummer weergegeven op uw factuuroverzicht. Ga naar [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) voor informatie over hoe u factuuroverzichten kunt bekijken.
+Als u per factuur voor uw abonnement betaalt, krijgt u een e-mail wanneer uw factuuroverzicht klaar is om te bekijken. Dit e-mailbericht bevat geen kopie van uw factuuroverzicht. U kunt er echter voor kiezen om per e-mail een kopie van [uw factuuroverzicht te ontvangen.](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email) Uw factuuroverzicht bevat informatie over uw betalingsopties en waar u het kunt verzenden. Als u een nummer voor een inkooporder (IO) invoert wanneer u een abonnement koopt, wordt het nummer weergegeven op uw factuuroverzicht. Ga naar [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) voor informatie over hoe u factuuroverzichten kunt bekijken.
+
+## <a name="what-if-i-have-an-outstanding-balance"></a>Wat gebeurt er als ik een openstaand saldo heb?
+
+Als we de betalingswijze niet in rekening kunnen brengen, sturen we een e-mail waarin wordt laten weten dat er een probleem is. Het e-mailbericht geeft kort aan wat het probleem is en bevat een koppeling waarin u het openstaande saldo kunt controleren. We blijven de transactie om de paar dagen gedurende 30 dagen opnieuw proberen, gedurende welke periode het abonnement een respijtperiode heeft. Telkens wanneer een transactie mislukt, ontvangt u een e-mailwaarschuwing over de fout.
+
+Als u de betalingswijze met een achter betaald  bedrag persoonlijk hebt toegevoegd, kunt u Met Saldo betalen een betaling doen. De betalingswijze die u gebruikt om het achterstallige bedrag te betalen, wordt de nieuwe betalingswijze voor alle abonnementen die de geweigerde betalingswijze hebben gebruikt.
+
+1. Ga in het beheercentrum naar de **pagina**  >  **Factureringsrekeningen & betalen** en selecteer vervolgens het tabblad <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Betalingswijzen.</a>
+1. In een waarschuwingsbericht wordt weergegeven welke betalingswijze is geweigerd. Selecteer **Saldo regelen.**
+1. Kies in het rechterdeelvenster een andere betalingswijze of selecteer **Een nieuwe betalingswijze toevoegen.**
+1. Nadat u de gegevens van de betalingswijze hebt bijgewerkt, selecteert u **Opslaan.**
+
+Als u de betalingswijze voor het abonnement niet hebt toegevoegd, moet u de betalingswijze vervangen door een betalingswijze die u eerder hebt toegevoegd, of door een nieuwe.
+
+## <a name="where-do-i-send-my-check-or-eft-payment"></a>Waarheen verstuur ik mijn betaling per cheque of EFT?
+
+[Controleer uw factuur voor](view-your-bill-or-invoice.md) betalingsinstructies. In de onderstaande vervolgkeuze lijst vindt u ook betalingsinstructies voor uw land of regio. Als u niet zeker weet hoeveel u moet betalen, kunt u  uw factuur en factureringsgeschiedenis online bekijken op het tabblad Facturen van de pagina Facturen <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalen.</a>
 
 > [!NOTE]
-> Standaard worden de facturerings meldingen van uw organisatie verzonden naar het Microsoft-e-mailadres en het alternatieve e-mailadres van elke globale beheerder en factureringsbeheerder in uw organisatie. Als u het alternatieve e-mailadres wilt wijzigen, raadpleegt u [uw factuuradressen wijzigen](change-your-billing-addresses.md).
+> Betalen met een cheque is slechts in een paar landen mogelijk.
 
-### <a name="can-i-pay-my-bill-online"></a>Kan ik mijn factuur online betalen?
-
-Nee, als uw abonnement is ingesteld om te betalen per factuur, worden rechtstreekse onlinebetalingen niet geaccepteerd. U kunt [uw betalingsmethode echter wijzigen naar betaling via creditcard of bankrekening](change-payment-method.md). Het verschuldigde bedrag wordt dan automatisch na elke serviceperiode in rekening gebracht op uw creditcard of bankrekening. Voor Azure, zie [How to change the credit card used to pay for an Azure subscription](https://go.microsoft.com/fwlink/p/?LinkId=718057) (Hoe wijzig ik de creditcard voor het betalen van een Azure-abonnement?).
-
-> [!NOTE]
-> Als u overstapt naar automatische creditcardbetalingen, moet u eerst alle openstaande saldi betalen. Raadpleeg uw factuuroverzicht voor betalingsopties en instructies. Zie [informatie over uw rekening of factuur](understand-your-invoice2.md)voor meer informatie.
-
-### <a name="where-do-i-send-my-check-or-eft-payment"></a>Waarheen verstuur ik mijn betaling per cheque of EFT?
-
-> [!NOTE]
-> Betaling met een cheque is slechts in enkele landen mogelijk. Volg de onderstaande betalingsinstructies voor uw land of [controleer uw factuur](understand-your-invoice2.md).
-
-Als u niet zeker weet hoeveel u moet betalen, kunt u [uw factuur en factureringsgeschiedenis online bekijken](view-your-bill-or-invoice.md). Voor Azure, zie [How to download your Azure billing invoice and daily usage data](https://go.microsoft.com/fwlink/p/?LinkId=718058) (Hoe download ik mijn Azure-factuur en de gegevens van mijn dagelijks gebruik?).
-
- **Kies in de vervolgkeuzelijst hieronder uw land of regio voor facturering.**
+ **Kies uw factuurland of -regio in de onderstaande vervolgkeuzelijst.**
 
 > [!div class="op_single_selector"]
-> - **Kies uw land of regio**
+> - **Uw land of regio kiezen**
 > - [Afghanistan](../pay/afghanistan.md)
 > - [Albanië](../pay/albania.md)
 > - [Algerije](../pay/algeria.md)
@@ -273,44 +246,20 @@ Als u niet zeker weet hoeveel u moet betalen, kunt u [uw factuur en facturerings
 > - [Zambia](../pay/zambia.md)
 > - [Zimbabwe](../pay/zimbabwe.md)
 
-## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>Een kopie van uw factuuroverzicht per e-mail ontvangen
+## <a name="can-i-pay-my-invoice-online"></a>Kan ik mijn factuur online betalen?
 
-U kunt, indien u dat wenst, een kopie van uw factuuroverzicht als e-mailbijlage ontvangen. Houd in dat geval rekening met het volgende:
+U kunt uw factuur niet online betalen. U moet uw betaling opnieuw doen via een cheque of via EFT.
 
-- Er wordt een e-mailbericht verzonden naar zowel het primaire als het alternatieve e-mailadres van elke persoon die als ontvanger van meldingen staat geregistreerd.
+## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Kan ik de betalingswijze wijzigen in betalen per factuur?
 
-- U ontvangt twee afzonderlijke e-mailberichten: één waarmee u weet dat uw factuur klaar is, met instructies om u aan te melden bij het Beheercentrum, en om een tweede e-mailbericht met het factuuroverzicht als bijlage te zien.
+U kunt alleen betalen per factuur als de abonnementskosten hoger zijn dan een bepaald bedrag. U moet eerst een openstaand saldo op de creditcard, betaalkaart of bankrekening betalen voordat u het bedrag kunt wijzigen in betalen per factuur. Zie Een betalingswijze wijzigen voor één abonnement voor meer informatie over het wijzigen van [betalingswijzen.](manage-payment-methods.md#change-a-payment-method-for-a-single-subscription)
 
-### <a name="to-receive-your-billing-statement-in-email"></a>Uw factuuroverzicht per e-mail ontvangen
+## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>Kan ik de betalingswijze wijzigen van betalen per factuur naar een andere betalingswijze?
 
-::: moniker range="o365-worldwide"
-
-1. Ga in het Beheercentrum naar de pagina **facturerings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">meldingen</a> .
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Ga in het Beheercentrum naar de pagina **facturerings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">meldingen</a> .
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Ga in het Beheercentrum naar de pagina **facturerings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">meldingen</a> .
-
-::: moniker-end
-
-2. Zet de wisselknop onder **Factuuroverzicht ontvangen als e-mailbijlage?** de wisselknop **op aan**.
-
-    U kunt op elk gewenst moment de ontvangst van e-mails met factuuroverzichten beëindigen door de wisselknop op **Uit** te zetten.
-
-## <a name="need-to-switch-payment-methods"></a>Wilt u een andere betalingswijze instellen?
-
-Als uw oorspronkelijke redenen voor het kiezen van de factuur, creditcard of bankrekening zijn veranderd, bijvoorbeeld als u uw abonnement zo aanpast dat het betalingsbedrag lager is, waardoor u niet meer in aanmerking komt voor factuurbetalingen, kunt u de betalingswijze wijzigen. Zie [Uw betalingswijze wijzigen](change-payment-method.md) voor meer informatie.
+U kunt niet automatisch wijzigen van betalen per factuur naar betalen met een andere betalingswijze. In plaats [](../try-or-buy-microsoft-365.md#buy-a-different-subscription) daarvan moet u een ander abonnement kopen dat is betaald met een [creditcard,](../subscriptions/move-users-different-subscription.md)betaalkaart of bankrekening, alle gebruikers verplaatsen naar het nieuwe abonnement en vervolgens het oude [abonnement opzeggen.](../subscriptions/cancel-your-subscription.md)
 
 ## <a name="related-articles"></a>Verwante artikelen
 
-[Betalingswijzen beheren](manage-payment-methods.md)
-
-[Inzicht in uw rekening of factuur](understand-your-invoice2.md)
+[Betalingsmethoden beheren](manage-payment-methods.md) (artikel)\
+[Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
+[Uw rekening of factuur begrijpen](understand-your-invoice2.md) (artikel)

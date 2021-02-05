@@ -1,5 +1,5 @@
 ---
-title: Onderwerp Ervaar beveiliging en privacy
+title: Beveiliging en privacy van Microsoft Viva-onderwerpen
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,84 +9,83 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-description: Meer informatie over het plannen van onderwerpen over beveiliging en privacy in Microsoft 365
-ms.openlocfilehash: b3c33a49b8273c5f7830f08de17af9757a858413
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+description: Informatie over het plannen van de beveiliging en privacy van Microsoft Viva-onderwerpen
+ms.openlocfilehash: be5be01bce117a80bd95ee268c193889eccea67f
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698495"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107790"
 ---
-# <a name="topic-experiences-security-and-privacy"></a>Onderwerp Ervaar beveiliging en privacy
+# <a name="microsoft-viva-topics-security-and-privacy"></a>Beveiliging en privacy van Microsoft Viva-onderwerpen
 
-In dit onderwerp worden bestaande beveiligingsfuncties voor inhoud in Microsoft 365 gebruikt, samen met de besturingselementen van het kennis netwerk, om te bepalen welke AI-gegenereerde inhoud wordt getoond aan gebruikers in uw organisatie. Dit is de combinatie van beveiligingsinstellingen van Microsoft 365 (machtigingen voor sites, bestanden en mappen) en onderwerp met Beheerdersinstellingen die bepalen wat een bepaalde gebruiker kan zien in onderwerpen.
+Onderwerpen maken gebruik van bestaande functies voor inhoudsbeveiliging in Microsoft 365, samen met administratieve controle, om te bepalen welke ai-gegenereerde inhoud wordt weergegeven aan gebruikers in uw organisatie. Het is een combinatie van beveiligingsinstellingen van Microsoft 365 (machtigingen voor sites, bestanden en mappen) en instellingen voor onderwerpen die bepalen wat een bepaalde gebruiker in onderwerpen kan zien.
 
-Het instellen van het kennis netwerk heeft geen invloed op bestaande toegangsbeheerfuncties voor inhoud in uw organisatie. Gebruikers kunnen alleen zien waartoe ze al toegang hebben.
+Het instellen van Onderwerpen wijzigt geen bestaande toegangsbesturingselementen voor inhoud in uw organisatie. Gebruikers zien alleen de informatie waar ze al toegang tot hebben.
 
-In dit artikel wordt beschreven hoe u onderwerp kunt gebruiken in een beveiligings perspectief en de opties die de kennis beheerders en kennis beheerders hebben om de zichtbaarheid van het onderwerp te bepalen. Lees dit artikel als onderdeel van uw [planning voor topic Experience](plan-topic-experiences.md).
+In dit artikel wordt beschreven hoe onderwerpen werken vanuit een beveiligings perspectief en de opties die kennisbeheerders en kennisbeheerders hebben om de zichtbaarheid van het onderwerp te bepalen. Lees dit artikel als onderdeel van uw [planning voor Onderwerpen.](plan-topic-experiences.md)
 
-U moet bekend zijn met de [functies](topic-experiences-overview.md)van het onderwerp, het [onderwerp centrum](topic-center-overview.md)en [werken met onderwerpen in het onderwerp centrum](manage-topics.md) voordat u dit artikel leest.
+Voordat u dit artikel leest, [](topic-center-overview.md)moet u weten wat Onderwerpen [is,](topic-experiences-overview.md)het onderwerpcentrum en hoe u met onderwerpen kunt werken [in](manage-topics.md) het onderwerpcentrum.
 
-## <a name="what-users-can-see-in-topics"></a>Wat gebruikers in de onderwerpen kunnen zien
+## <a name="what-users-can-see-in-topics"></a>Wat gebruikers kunnen zien in onderwerpen
 
-Een gebruiker moet het volgende doen om onderwerpen weer te geven:
+Als u onderwerpen wilt bekijken, moet een gebruiker:
 
-- Met een onderwerp een licentie
-- U bent een [onderwerp-Viewer](topic-experiences-knowledge-rules.md#change-who-can-see-topics-in-your-organization), [Inzender of kennis Manager](topic-experiences-user-permissions.md)
+- Een licentie voor Viva-onderwerpen hebben
+- Een [onderwerpviewer,](topic-experiences-knowledge-rules.md#change-who-can-see-topics-in-your-organization) [bijdrager of Knowledge Manager zijn](topic-experiences-user-permissions.md)
 
-Met deze twee zaken kunnen gebruikers toegang geven tot het onderwerp centrum en kunnen ze hooglichten en onderwerpgebieden zien.
+Met deze twee dingen hebben gebruikers toegang tot het onderwerpcentrum en kunnen ze highlights en onderwerpkaarten zien.
 
-Medewerkers van een onderwerp hebben ook machtigingen voor het [maken en bewerken](topic-experiences-user-permissions.md#change-who-has permissions-to-update-topic-details) van onderwerpen, en kennis beheerders kunnen onderwerpen bevestigen of verwijderen.
+Onderwerpbijdragers hebben ook [machtigingen voor](topic-experiences-user-permissions.md) het maken en bewerken van onderwerpen, en kennisbeheerders kunnen onderwerpen bevestigen of verwijderen.
 
-Wanneer een onderwerp voor het eerst wordt gedetecteerd, kunnen de kennis managers het onderwerp in het onderwerp centrum zien. Afhankelijk van de afronding en relevantie van het onderwerp, kunnen de onderwerpen van het onderwerp of het onderwerp dat wordt weergegeven in de onderwerpgebieden, mogelijk niet worden weergegeven.
+Wanneer een onderwerp voor het eerst wordt ontdekt, kunnen kennisbeheerders dit zien in het onderwerpcentrum. Afhankelijk van de volledigheid en relevantie van het onderwerp, kunnen kijkers van het onderwerp het onderwerp al dan niet zien dat wordt gepresenteerd in onderwerpkaarten.
 
-De onderwerpen kunnen gegevens bevatten die worden gegenereerd door de AI-en informatie die zijn toegevoegd of bewerkt door medewerkers of kennis beheerders van het onderwerp.
+Onderwerpen kunnen informatie bevatten die wordt gegenereerd door AI en informatie die is toegevoegd of bewerkt door onderwerpbijdragers of knowledge managers.
 
-- Informatie in een onderwerp dat door AI is toegevoegd, is alleen zichtbaar voor personen die toegang hebben tot de broninhoud.
-- Tekst die handmatig is toegevoegd of bewerkt door een onderwerpassistent of Knowledge Manager, is zichtbaar voor iedereen die het onderwerp kan zien.
+- De informatie in een onderwerp dat door AI is toegevoegd, is alleen zichtbaar voor personen die toegang hebben tot de broninhoud.
+- Tekst die handmatig is toegevoegd of bewerkt door een onderwerp-medewerker of Knowledge Manager is zichtbaar voor iedereen die het onderwerp kan zien.
 
-Met viewers en medewerkers van een onderwerp kunnen de lijst met bevestigde en gepubliceerde onderwerpen in het onderwerp in het onderwerp worden weergegeven, maar het onderwerp bevat details die een bepaalde persoon kan zien, is afhankelijk van de machtigingen die ze hebben voor het bronmateriaal en of het onderwerp handmatig is bewerkt.
+Onderwerpbekijkers en inzenders kunnen de lijst met bevestigd en gepubliceerde onderwerpen in het onderwerpcentrum zien, maar de onderwerpdetails die een bepaalde persoon kan zien, zijn afhankelijk van de machtigingen die ze hebben voor het bronmateriaal en van de vraag of het onderwerp handmatig is bewerkt.
 
-In de volgende tabel wordt beschreven welke gebruikers van een onderwerp, medewerkers en kennis managers van de gebruikers, kunnen zien in een bepaald onderwerp op basis van hun machtigingen.
+In de volgende tabel wordt beschreven wat gebruikers , onderwerpbekijkers, medewerkers en kennismanagers, in een bepaald onderwerp kunnen zien op basis van hun machtigingen.
 
-|Onderwerp|Wat gebruikers kunnen zien|
+|Onderwerpitem|Wat gebruikers kunnen zien|
 |:---------|:------------------|
-|Naam onderwerp|Gebruikers kunnen de naam van het onderwerp van alle onderwerpen in het onderwerp centrum zien. Sommige onderwerpen zijn mogelijk niet zichtbaar als ze een lage relevantie voor de gebruiker hebben.|
-|Beschrijving onderwerp|Met AI gegenereerde beschrijvingen zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud. Handmatig ingevoerde of bewerkte beschrijvingen zijn zichtbaar voor alle gebruikers.|
-|Personen|Vastgemaakte personen zijn zichtbaar voor alle gebruikers. Voorgestelde personen zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud.|
-|Bestanden|Bestanden zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud.|
-|Pagina's|Pagina's zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud.|
-|Sites|Sites zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud.|
+|Onderwerpnaam|Gebruikers kunnen de onderwerpnaam van alle onderwerpen in het onderwerpcentrum zien. Sommige onderwerpen zijn mogelijk niet zichtbaar als ze een lage relevantie voor de gebruiker hebben.|
+|Onderwerpbeschrijving|Door AI gegenereerde beschrijvingen zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud. Handmatig ingevoerde of bewerkte beschrijvingen zijn zichtbaar voor alle gebruikers.|
+|Personen|Vastgemaakte personen zijn zichtbaar voor alle gebruikers. Voorgestelde personen zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
+|Bestanden|Bestanden zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
+|Pagina's|Pagina's zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
+|Sites|Sites zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
-Met een onderwerp worden gegevens voor gebruikers weergegeven op basis van hun bestaande machtigingen voor inhoud. Microsoft 365 biedt verschillende manieren om te voorkomen dat vertrouwelijke inhoud door de juiste gebruikers wordt beperkt. Naast de machtigingen voor het team of de site, kunt u gebruikmaken van [gevoelige labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) of [preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) , [zodat u](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) regelmatig de toegang van gebruikers tot gevoelige informatie controleert.
+In onderwerpen wordt informatie aan gebruikers gegeven op basis van hun bestaande machtigingen voor inhoud. Microsoft 365 biedt diverse manieren om ervoor te zorgen dat gevoelige inhoud wordt beperkt tot de juiste gebruikers. U kunt niet alleen standaardmachtigingen voor [](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) teams of site's gebruiken, maar ook gevoeligheidslabels of preventie van gegevensverlies om de toegang tot inhoud en [recensies](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) te beperken om de toegang van gebruikers tot gevoelige informatie periodiek te controleren. [](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
 
-We raden u aan deze hulpmiddelen te gebruiken om ervoor te zorgen dat uw inhouds machtigingen in uw organisatie correct zijn ingesteld. Met behulp van onderwerpen kunnen de gebruikers nuttige en nuttige informatie geven.
+U wordt aangeraden deze hulpmiddelen te gebruiken om ervoor te zorgen dat uw inhoudsmachtigingen juist worden ingesteld binnen uw organisatie. Onderwerpervaringen kunnen uw gebruikers vervolgens nuttige en relevante informatie geven.
 
-Als er onderwerpen zijn die u niet geheel van onderwerpen wilt uitsluiten, kunt u ook het volgende doen:
+Als er onderwerpen zijn die u volledig van onderwerpervaringen wilt uitsluiten, kunt u ook het volgende doen:
 
-- [Gevoelige SharePoint-sites uitsluiten van topic Discovery](topic-experiences-discovery.md#select-sharepoint-topic-sources). De inhoud van deze sites wordt niet weergegeven in de onderwerp-ervaringen.
+- [Sluit gevoelige SharePoint-sites uit van onderwerpdetectie.](topic-experiences-discovery.md#select-sharepoint-topic-sources) Inhoud op deze sites wordt niet weergegeven in de ervaringen met onderwerpen.
 
-- [Onderwerpen op naam uitsluiten](topic-experiences-discovery.md#exclude-topics-by-name) Onderwerpen die expliciet worden uitgesloten, worden niet weergegeven in de onderwerp-ervaringen.
+- [Onderwerpen uitsluiten op naam.](topic-experiences-discovery.md#exclude-topics-by-name) Onderwerpen die expliciet zijn uitgesloten, worden niet weergegeven in het werken met onderwerpen.
 
-- Laat kennis beheerders onderwerpen uit het onderwerp centrum verwijderen.
+- Knowledge Managers onderwerpen laten verwijderen in het onderwerpcentrum.
 
-Daarnaast is het raadzaam deze aanbevolen procedures te volgen:
+Daarnaast raden we de volgende aanbevolen procedures aan:
 
-- U werft kennis managers binnen verschillende gebieden van uw organisatie. Met kennis managers met tal van expertise-en toegang tot de onderliggende inhoud die door AI wordt gebruikt, kan u de meest nuttige informatie voor uw gebruikers nakomen en gevoelige informatie verwijderen indien gevonden.
+- Werv kennisbeheerders uit verschillende gebieden van uw organisatie. Kennisbeheerders met diverse expertise (en toegang tot de onderliggende inhoud die door AI wordt gebruikt) kunnen u helpen om de meest nuttige kennis voor uw gebruikers te verzamelen en gevoelige informatie te verwijderen als deze wordt gevonden.
 
-- Een werkstroom voor het aanvragen van wijzigingen instellen. Kennis beheerders of team-of site-eigenaren moeten een proces hebben waarmee ze uitsluiting van onderwerpen of sites kunnen aanvragen wanneer nieuwe projecten in uw organisatie worden gestart of als ze inhoud vinden met onjuiste machtigingsinstellingen.
+- Een werkstroom instellen voor het aanvragen van wijzigingen. Kennisbeheerders of team- of site-eigenaren moeten een proces volgen waarmee ze uitsluiting van onderwerpen of sites kunnen aanvragen wanneer nieuwe projecten binnen uw organisatie worden gestart of als ze inhoud met ongepaste machtigingsinstellingen vinden.
 
-- Let op het publiek en de vertrouwelijkheid van informatie bij het maken van beschrijvingen van onderwerpen. Deze beschrijvingen zijn mogelijk zichtbaar voor gebruikers die geen machtigingen hebben voor de broninhoud voor het onderwerp.
+- Wees op de hoogte van de doelgroep en de gevoeligheid van informatie bij het maken van onderwerpbeschrijvingen. Deze beschrijvingen zijn mogelijk zichtbaar voor gebruikers die geen machtigingen hebben voor de broninhoud voor het onderwerp.
 
-Hoewel u de machtigingen voor afzonderlijke pagina's van de pagina's kunt wijzigen om toegang te krijgen tot een bepaalde groep gebruikers, wordt deze aanpak niet aangeraden omdat dit een hoge mate van beheer inspanning vereist.
+Hoewel u de machtigingen voor afzonderlijke onderwerppagina's kunt wijzigen om de toegang tot een specifieke groep gebruikers te beperken, wordt deze benadering niet aanbevolen vanwege de hoge mate van administratieve inspanning.
 
 ## <a name="see-also"></a>Zie ook
 
 [Teams met drie beschermingsniveaus configureren](../solutions/configure-teams-three-tiers-protection.md)
 
-[Ervaring met onderwerpen plannen](plan-topic-experiences.md)
+[Onderwerpservaringen plannen](plan-topic-experiences.md)
 
-[Ervaring met het onderwerp instellen](set-up-topic-experiences.md)
+[Onderwerpservaringen instellen](set-up-topic-experiences.md)

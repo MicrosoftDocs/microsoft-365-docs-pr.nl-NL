@@ -1,8 +1,9 @@
 ---
-title: Overzicht van onderwerpervaringen (preview)
+title: Overzicht van Microsoft Viva-onderwerpen
 ms.author: efrene
 author: efrene
 manager: pamgreen
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -12,21 +13,17 @@ ms.collection:
 - enabler-strategic
 - m365initiative-topics
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
-description: Overzicht van ervaringen in onderwerpen.
-ms.openlocfilehash: 46f98a9a247160d73e52c51df5f3001aa2f0f6e0
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+description: Overzicht van Viva-onderwerpen.
+ms.openlocfilehash: f45e0f7c6090d4584526aa9c2abb5ec98213d635
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094817"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107637"
 ---
-# <a name="topic-experiences-overview-preview"></a>Overzicht van onderwerpervaringen (preview)
+# <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva-onderwerpen 
 
-> [!Note] 
-> De inhoud van dit artikel is bedoeld voor Project Private Preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
-
-Voor onderwerpervaringen wordt gebruikgemaakt van DE AI-technologie van Microsoft, Microsoft 365, Microsoft Graph, Search en andere onderdelen en services om een kennisnetwerk op te bouwen in uw Microsoft 365-omgeving. 
+Voor Viva-onderwerpen wordt gebruikgemaakt van MICROSOFT AI-technologie, Microsoft 365, Microsoft Graph, Search en andere onderdelen en services om uw gebruikers kennis te laten bieden in Microsoft 365-apps die ze dagelijks gebruiken, te beginnen met moderne SharePoint-pagina's en Microsoft Search.
 
 </br>
 
@@ -34,11 +31,9 @@ Voor onderwerpervaringen wordt gebruikgemaakt van DE AI-technologie van Microsof
 
 </br>
 
-Het doel is informatie om te zetten in kennis en deze aan uw gebruikers te leveren in apps die ze dagelijks gebruiken, zoals moderne SharePoint-pagina's en Microsoft Search.
+Met Viva-onderwerpen kunt u een belangrijk zakelijk probleem in vele bedrijven oplossen door de gebruikers de informatie te verstrekken wanneer ze deze nodig hebben. Nieuwe werknemers moeten bijvoorbeeld snel veel nieuwe informatie leren en termen tegenkomen waar ze niets van weten bij het doorlezen van bedrijfsgegevens. Voor meer informatie kan het nodig zijn dat de gebruiker afstapt van wat hij doet en waardevolle tijd besteedt aan het zoeken naar details, zoals informatie over wat de term is, wie in de organisatie een expert is op het gebied van onderwerpen, en misschien sites en documenten die betrekking hebben op de term.
 
-Met onderwerpervaringen kunt u een belangrijk zakelijk probleem in veel bedrijven oplossen door de informatie aan gebruikers te verstrekken wanneer ze deze nodig hebben. Nieuwe werknemers moeten bijvoorbeeld snel veel nieuwe informatie leren en termen tegenkomen waar ze niets van weten bij het doorlezen van bedrijfsgegevens. Voor meer informatie kan het nodig zijn dat de gebruiker afstapt van wat hij doet en waardevolle tijd besteedt aan het zoeken naar details, zoals informatie over wat de term is, wie in de organisatie een expert is op het gebied van onderwerpen, en misschien sites en documenten die betrekking hebben op de term.
-
-Voor onderwerpervaringen wordt AI gebruikt om automatisch te zoeken naar onderwerpen **in** uw organisatie en deze te identificeren. Er worden gegevens over hen ge compileert, zoals een korte beschrijving, personen die aan het onderwerp werken en sites, bestanden en pagina's die daaraan zijn gerelateerd. Een Knowledge Manager of medewerker kan ervoor kiezen om de onderwerpinformatie zo nodig bij te werken. De onderwerpen zijn beschikbaar voor uw gebruikers, wat betekent dat voor elk exemplaar van het onderwerp dat op een moderne SharePoint-site in nieuws en pagina's wordt weergegeven, de tekst wordt gemarkeerd. Gebruikers kunnen ervoor kiezen om het onderwerp te selecteren voor meer informatie hierover via de onderwerpdetails. Onderwerpen vindt u ook in SharePoint Search.
+Viva-onderwerpen gebruikt AI om automatisch onderwerpen in uw organisatie te **zoeken** en te identificeren. Er worden gegevens over hen ge compileert, zoals een korte beschrijving, personen die aan het onderwerp werken en sites, bestanden en pagina's die daaraan zijn gerelateerd. Een Knowledge Manager of medewerker kan ervoor kiezen om de onderwerpinformatie zo nodig bij te werken. De onderwerpen zijn beschikbaar voor uw gebruikers, wat betekent dat voor elk exemplaar van het onderwerp dat op een moderne SharePoint-site in nieuws en pagina's wordt weergegeven, de tekst wordt gemarkeerd. Gebruikers kunnen ervoor kiezen om het onderwerp te selecteren voor meer informatie hierover via de onderwerpdetails. Onderwerpen vindt u ook in SharePoint Search.
 
 
 ## <a name="how-topics-are-displayed-to-users"></a>Hoe onderwerpen worden weergegeven aan gebruikers
@@ -50,7 +45,7 @@ Wanneer een onderwerp wordt vermeld in nieuws en pagina's van SharePoint, wordt 
 
 ## <a name="knowledge-indexing"></a>Kennisindexering
 
-Voor onderwerpervaringen wordt de AI-technologie van Microsoft gebruikt om **onderwerpen** in uw Microsoft 365-omgeving te identificeren.
+Viva Topics gebruikt DE AI-technologie van Microsoft om onderwerpen te **identificeren** in uw Microsoft 365-omgeving.
 
 Een onderwerp is een woordgroep of term die van organisatorisch belang is. Het heeft een specifieke betekenis voor de organisatie en heeft bronnen die personen kunnen helpen begrijpen wat het is en meer informatie erover kunnen vinden. Er zijn veel verschillende soorten onderwerpen die belangrijk zijn voor uw organisatie. In eerste instantie richt de AI-technologie van Microsoft zich op de volgende typen:
 - Project
@@ -64,7 +59,7 @@ Een onderwerp is een woordgroep of term die van organisatorisch belang is. Het h
 
 Wanneer een onderwerp wordt geïdentificeerd en AI vaststelt dat het voldoende  informatie heeft om er een voorgesteld onderwerp van te maken, wordt op een onderwerppagina de informatie weergegeven die is verzameld via onderwerpindexering, zoals:
 
-- Alternatieve namen en/of acroniemen.
+- Alternatieve namen en acroniemen.
 - Een korte beschrijving van het onderwerp.
 - Personen die mogelijk iets weten over het onderwerp.
 - Bestanden, pagina's en sites die aan het onderwerp zijn gerelateerd.
@@ -75,23 +70,23 @@ Onderwerpdetectie [en curation bekijken](https://docs.microsoft.com/microsoft-36
 
 ## <a name="roles"></a>Rollen
 
-Wanneer u onderwerpervaringen gebruikt in uw Microsoft 365-omgeving, hebben uw gebruikers de volgende rollen:
+Wanneer u Viva-onderwerpen gebruikt in uw Microsoft 365-omgeving, hebben uw gebruikers de volgende rollen:
 
-- Onderwerpgebruikers: Gebruikers die de belangrijkste punten van het onderwerp op  moderne SharePoint-sites kunnen zien, hebben ten minste leestoegang tot en in Microsoft Search. Ze kunnen de belangrijkste punten van het onderwerp selecteren om de onderwerpdetails op onderwerppagina's te bekijken. Onderwerp viewers kunnen feedback geven over hoe nuttig een onderwerp voor hen is.
+- Onderwerpgebruikers: Gebruikers die belangrijke punten van het onderwerp op  moderne SharePoint-sites kunnen zien, hebben ten minste leestoegang tot en in Microsoft Search. Ze kunnen de belangrijkste punten van het onderwerp selecteren om de onderwerpdetails op onderwerppagina's te bekijken. Onderwerpkijkers kunnen feedback geven over hoe nuttig een onderwerp voor hen is.
 
-- Inzenders: Gebruikers met de rechten om bestaande onderwerpen te bewerken of nieuwe te maken. Kennisbeheerders wijzen medewerkersmachtigingen toe aan gebruikers via de instellingen voor onderwerpervaringen in het Microsoft 365-beheercentrum. U kunt er ook voor kiezen om alle onderwerpbekijkers de machtiging te geven om onderwerpen te bewerken en te maken, zodat iedereen kan bijdragen aan de onderwerpen die ze zien.
+- Inzenders: Gebruikers met de rechten om bestaande onderwerpen te bewerken of nieuwe te maken. Kennisbeheerders wijzen medewerkersmachtigingen toe aan gebruikers via de instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum. U kunt er ook voor kiezen om alle onderwerpbekijkers de machtiging te geven om onderwerpen te bewerken en te maken, zodat iedereen kan bijdragen aan de onderwerpen die ze zien.
 
-- Kennisbeheerders: gebruikers die onderwerpen tijdens de levenscyclus van het onderwerp begeleiden. Knowledge managers gebruiken de pagina **Onderwerpen** beheren in het Onderwerpcentrum om ai-voorgestelde onderwerpen te bevestigen, om onderwerpen te verwijderen die niet langer relevant zijn, en om bestaande onderwerpen te bewerken of nieuwe te maken, en om de enige gebruikers te zijn die hier toegang toe hebben. Kennisbeheerders wijzen Knowledge Manager-machtigingen toe aan gebruikers via de beheerinstellingen voor onderwerpervaringen in het Microsoft 365-beheercentrum. 
+- Kennisbeheerders: gebruikers die onderwerpen tijdens de levenscyclus van het onderwerp begeleiden. Knowledge managers gebruiken de pagina **Onderwerpen** beheren in het Onderwerpcentrum om ai-voorgestelde onderwerpen te bevestigen, om onderwerpen te verwijderen die niet langer relevant zijn, en om bestaande onderwerpen te bewerken of nieuwe te maken, en om de enige gebruikers te zijn die hier toegang toe hebben. Kennisbeheerders wijzen Knowledge Manager-machtigingen toe aan gebruikers via de instellingen voor Viva-onderwerpen in het Microsoft 365-beheercentrum. 
 
-- Knowledge admins: Knowledge admins set up Topic experiences and manage it through the admin controls in the Microsoft 365 admin center. Op dit moment kan een globale Microsoft 365- of SharePoint-beheerder fungeren als een kennisbeheerder.
+- Kennisbeheerders: Kennisbeheerders stellen Viva-onderwerpen in en beheren dit via de beheerinstellingen in het Microsoft 365-beheercentrum. Op dit moment kan een globale Microsoft 365- of SharePoint-beheerder fungeren als een kennisbeheerder.
 
-Zie [de rollen van Onderwerpervaringen](topic-experiences-roles.md) voor meer informatie.
+Zie [de rollen van Viva-onderwerpen](topic-experiences-roles.md) voor meer informatie.
 
 ## <a name="topic-management"></a>Onderwerpbeheer
 
 Onderwerpbeheer wordt uitgevoerd op **de pagina Onderwerpen** beheren in het **Onderwerpcentrum van uw organisatie.** Het onderwerpcentrum wordt tijdens de installatie gemaakt en fungeert als uw kenniscentrum voor uw organisatie. 
 
-Hoewel alle gelicentieerde gebruikers in het Onderwerpcentrum de onderwerpen kunnen  zien waar ze mee zijn verbonden, kunnen alleen gebruikers met machtigingen voor onderwerpen beheren (knowledge managers) de pagina Onderwerpen beheren bekijken en gebruiken.
+Hoewel alle gelicentieerde gebruikers in het Onderwerpcentrum onderwerpen kunnen  zien die met hen zijn verbonden, kunnen alleen gebruikers met machtigingen voor onderwerpen beheren (knowledge managers) de pagina Onderwerpen beheren bekijken en gebruiken.
 
 Knowledge managers kunnen:
 
@@ -119,7 +114,7 @@ Zie [Gebruikersmachtigingen toewijzen,](https://docs.microsoft.com/microsoft-365
 
 AI zal voortdurend aan u suggesties doen om uw onderwerpen te verbeteren wanneer uw omgeving verandert. 
 
-Gebruikers met machtigingen voor het bewerken of maken van onderwerpen kunnen onderwerppagina's rechtstreeks wijzigen als ze correcties willen toepassen of aanvullende informatie willen toevoegen. Ze kunnen ook nieuwe onderwerpen toevoegen die ai niet kon identificeren. Als er voldoende informatie beschikbaar is over deze handmatig toegevoegde onderwerpen en AI dit type onderwerp kan identificeren, kunnen aanvullende suggesties van AI deze handmatig toegevoegde onderwerpen verbeteren. 
+Gebruikers met machtigingen voor het bewerken of maken van onderwerpen kunnen onderwerppagina's rechtstreeks wijzigen als ze correcties willen toepassen of aanvullende informatie willen toevoegen. Ze kunnen ook nieuwe onderwerpen toevoegen die ai niet kon identificeren. Als er voldoende informatie over deze handmatig toegevoegde onderwerpen is en AI dit type onderwerp kan identificeren, kunnen aanvullende suggesties van AI deze handmatig toegevoegde onderwerpen verbeteren 
 
 Gebruikers die u toegang geeft tot onderwerpen in hun dagelijkse werk, wordt mogelijk gevraagd of het onderwerp voor hen nuttig was. Het systeem bekijkt deze antwoorden en gebruikt deze om de markering van het onderwerp te verbeteren en te bepalen wat er wordt weergegeven over onderwerp samenvattingen en in onderwerpdetails.
 

@@ -1,8 +1,9 @@
 ---
-title: Onderwerp Ervaar beveiligingsbeperkingen (preview)
+title: Beveiligingsknippen voor Microsoft Viva-onderwerpen
 ms.author: efrene
 author: efrene
 manager: pamgreen
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -10,63 +11,59 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
 description: Overzicht van de manier waarop beveiliging wordt gebruikt om onderwerpen weer te geven.
-ms.openlocfilehash: 7e503082494d27f9418b8e09b8d20d01e4708fe9
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: fc8e2a08fcf9af266aee49eee878738f7f17aa59
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698864"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107516"
 ---
-# <a name="topic-experiences-security-trimming-preview"></a>Onderwerp Ervaar beveiligingsbeperkingen (preview)
+# <a name="microsoft-viva-topics-security-trimming"></a>Beveiligingsknippen voor Microsoft Viva-onderwerpen 
 
-> [!Note] 
-> De inhoud in dit artikel is bedoeld voor project cortex private preview. [Meer informatie over Project Cortex](https://aka.ms/projectcortex).
+Gebruikers van Viva-onderwerpen kunnen geen informatie bekijken in onderwerpen die hun bestaande Office 365-machtigingen niet kunnen zien. Alles wat een gebruiker op een onderwerppagina ziet (bijvoorbeeld SharePoint-sites, documenten en bestanden), is informatie die hij of zij al mag zien. Viva-onderwerpen brengen geen wijzigingen aan in bestaande machtigingen.
 
-Met behulp van een onderwerp kunnen gebruikers niet informatie weergeven in onderwerpen die hun bestaande Office 365-machtigingen niet kunnen zien. Alles wat een gebruiker op een onderwerp ziet (zoals SharePoint-sites,-documenten en-bestanden), is informatie die ze al mogen zien. De onderwerp-ervaringen maken geen wijzigingen in bestaande machtigingen.
+## <a name="why-two-users-may-have-different-views-of-the-same-topic"></a>Waarom twee gebruikers mogelijk verschillende weergaven van hetzelfde onderwerp hebben
 
-## <a name="why-two-users-may-have-different-views-of-the-same-topic"></a>Waarom twee gebruikers verschillende weergaven van hetzelfde onderwerp kunnen hebben
-
-Wanneer u een onderwerp maakt met AI of handmatige curator, kan dit een beschrijving van het onderwerp, alternatieve namen, personen die zijn gekoppeld aan het onderwerp, bevatten, en sites, pagina's en bestanden die betrekking hebben op het onderwerp. Wanneer deze informatie op een onderwerpenpagina wordt weergegeven, is het mogelijk dat twee gebruikers die hetzelfde onderwerp bekijken, niet dezelfde informatie zien.
+Wanneer een onderwerp wordt gemaakt via AI of handmatige curation, kan het een beschrijving bevatten van het onderwerp, alternatieve namen, personen die aan het onderwerp zijn gekoppeld, evenals sites, pagina's en bestanden met betrekking tot het onderwerp. Wanneer deze informatie wordt weergegeven op een onderwerppagina, is het mogelijk dat twee gebruikers die hetzelfde onderwerp bekijken, dezelfde informatie niet zien.
   
-Wanneer user 1 bijvoorbeeld de Neptune-topic bevat, is dit wat ze kunnen zien.
+Wanneer Gebruiker 1 bijvoorbeeld de onderwerppagina Van Nieuw bekijkt, kan deze weergave van de onderwerppagina worden weergegeven.
 
-![Neptune onderwerp voor gebruiker 1](../media/knowledge-management/user2-topic-view.png) </br> 
+![Het onderwerp Van Zuid voor gebruiker 1](../media/knowledge-management/user2-topic-view.png) </br> 
 
-Wanneer op de site van User 2 echter dezelfde Neptune-topic wordt weergegeven, verschilt de weergave van gebruiker 1.  Gebruiker 2 kan het bestand *DG-2000-product overzicht* weergeven in de sectie **vastgemaakte bestanden en pagina's** van de onderwerpenpagina, die niet voor gebruiker 1 wordt weergegeven. 
+Wanneer Gebruiker 2 echter naar dezelfde Pagina van het Onderwerp kijkt, verschilt de weergave van Gebruiker 1.  Gebruiker 2 kan het bestand *DG-2000 Product overview* zien in de sectie **Vastgemaakte** bestanden en pagina's van de onderwerppagina, die niet wordt weergegeven voor Gebruiker 1. 
 
-![Neptune onderwerp voor gebruiker 2](../media/knowledge-management/user1-topic-view.png) </br> 
+![Het onderwerp Van 365 voor Gebruiker 2](../media/knowledge-management/user1-topic-view.png) </br> 
 
-Het verschil in wat gebruikers in hetzelfde onderwerp kunnen zien, is omdat gebruikers mogelijk niet beschikken over de machtigingen van Office 365 voor het weergeven van een gerelateerde site of een bestand.  Met onderwerpen wordt rekening gehouden met de machtigingen die zijn ingesteld voor items in een onderwerp en kan de toegang niet worden gewijzigd. In ons voorbeeld is gebruiker 1 het bestand *DG-2000 product Overview* niet weergegeven in de onderwerppagina voor Neptune omdat gebruikers 1 geen Office 365-machtigingen hebben voor het weergeven van het bestand.
+Het verschil met wat gebruikers over hetzelfde onderwerp kunnen zien, is dat gebruikers mogelijk niet over de office 365-machtigingen voor het weergeven van een gerelateerde site of een gerelateerd bestand zijn.  Viva-onderwerpen respecteert de machtigingen die zijn ingesteld voor items in een onderwerp en kunnen de toegang tot deze items niet wijzigen. In ons voorbeeld kan Gebruiker 1 het bestand *DG-2000 Product Overview* niet weergeven op de onderwerppagina voor Deze omdat Gebruiker 1 geen Office 365-machtigingen heeft om het bestand te bekijken.
 
-Als een gebruiker niet voldoende informatie in een onderwerp kan zien, zodat het onderwerp nuttig kan zijn, is het onderwerp niet beschikbaar voor de gebruiker. In dit voorbeeld wordt de gebruiker het gemarkeerde onderwerp niet weergegeven. Een andere gebruiker die in het onderwerp is gemachtigd om meer informatie in het onderwerp te gebruiken, kan het onderwerp dan ook zien.
-
-
-## <a name="topic-permissions-for-knowledge-managers-and-topic-contributors"></a>Machtigingen voor het onderwerp van kennis beheerders en medewerkers van een onderwerp
-
-Gebruikers die zijn toegewezen aan de onderwerpen over het beheren van onderwerpen-Knowledge managers-kunnen alleen informatie weergeven die ze hebben, en kunnen de inhoud van de onderwerpen bekijken.
-
-Ook gebruikers die machtigingen voor het onderwerp hebben gemaakt en bewerken-met het onderwerp medewerkers van een onderwerp kunnen alleen informatie weergeven die ze hebben gemachtigd om binnen de onderwerpen te zien. 
+Als een gebruiker niet voldoende informatie in een onderwerp kan zien om het nuttig te maken, is het onderwerp niet beschikbaar voor de gebruiker. Wanneer dit gebeurt, ziet de gebruiker het gemarkeerde onderwerp niet. Een andere gebruiker die machtigingen heeft voor meer informatie over het onderwerp om dit nuttig te maken, kan het onderwerp zien.
 
 
-## <a name="ai-versus-manually-curated-topic-information"></a>AI versus handmatig gecuratore informatie over het onderwerp
+## <a name="topic-permissions-for-knowledge-managers-and-topic-contributors"></a>Onderwerpmachtigingen voor kennisbeheerders en onderwerpbijdragers
 
-De onderwerpen kunnen gegevens bevatten die worden gegenereerd door de AI-en informatie die zijn toegevoegd of bewerkt door medewerkers of kennis beheerders van het onderwerp.
+Gebruikers aan wie een machtiging is toegewezen om onderwerpen te beheren (knowledge managers) kunnen alleen informatie bekijken die ze over machtigingen voor het bekijken van onderwerpen hebben.
 
- - Informatie in een onderwerp dat door AI is toegevoegd, is alleen zichtbaar voor personen die toegang hebben tot de broninhoud.
- - Gegevens die handmatig zijn toegevoegd of bewerkt door een onderwerpassistent of Knowledge Manager, zijn zichtbaar voor iedereen die het onderwerp kan zien.
+Op dezelfde manier kunnen gebruikers die onderwerpmachtigingen (onderwerpbijdragen) hebben, alleen informatie bekijken die ze over machtigingen voor weergave in onderwerpen hebben. 
 
-In de volgende tabel wordt beschreven welke gebruikers van een onderwerp, medewerkers en kennis managers van de gebruikers, kunnen zien in een bepaald onderwerp op basis van hun machtigingen.
 
-|Onderwerp|Wat gebruikers kunnen zien|
+## <a name="ai-versus-manually-curated-topic-information"></a>AI versus handmatig curated topic information
+
+Onderwerpen kunnen informatie bevatten die wordt gegenereerd door AI en informatie die is toegevoegd of bewerkt door onderwerpbijdragers of knowledge managers.
+
+ - De informatie in een onderwerp dat door AI is toegevoegd, is alleen zichtbaar voor personen die toegang hebben tot de broninhoud.
+ - Informatie die handmatig is toegevoegd of bewerkt door een onderwerp-medewerker of Knowledge Manager is zichtbaar voor iedereen die het onderwerp kan zien.
+
+In de volgende tabel wordt beschreven wat gebruikers , onderwerpbekijkers, medewerkers en kennismanagers, in een bepaald onderwerp kunnen zien op basis van hun machtigingen.
+
+|Onderwerpitem|Wat gebruikers kunnen zien|
 |:---------|:------------------|
-|Naam onderwerp|Gebruikers kunnen de naam van het onderwerp van alle onderwerpen in het onderwerp centrum zien. Sommige onderwerpen zijn mogelijk niet zichtbaar als ze een lage relevantie voor de gebruiker hebben.|
-|Beschrijving onderwerp|Met AI gegenereerde beschrijvingen zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud. Handmatig ingevoerde of bewerkte beschrijvingen zijn zichtbaar voor alle gebruikers.|
-|Personen|Vastgemaakte personen zijn zichtbaar voor alle gebruikers. Voorgestelde personen zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud.|
-|Bestanden|Bestanden zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud.|
-|Pagina's|Pagina's zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud.|
-|Sites|Sites zijn alleen zichtbaar voor gebruikers die zijn gemachtigd voor de broninhoud.|
+|Onderwerpnaam|Gebruikers kunnen de onderwerpnaam van alle onderwerpen in het onderwerpcentrum zien. Sommige onderwerpen zijn mogelijk niet zichtbaar als ze een lage relevantie voor de gebruiker hebben.|
+|Onderwerpbeschrijving|Door AI gegenereerde beschrijvingen zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud. Handmatig ingevoerde of bewerkte beschrijvingen zijn zichtbaar voor alle gebruikers.|
+|Personen|Vastgemaakte personen zijn zichtbaar voor alle gebruikers. Voorgestelde personen zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
+|Bestanden|Bestanden zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
+|Pagina's|Pagina's zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
+|Sites|Sites zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
 
 
 

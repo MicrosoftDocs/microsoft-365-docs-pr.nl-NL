@@ -18,38 +18,38 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
-description: Leer hoe u uw proefabonnement verlengt voor een andere periode van 30 dagen.
-ms.openlocfilehash: c1c4134f944b07b177a92e03fc3e5ba2d9b362ef
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+description: Lees hoe u uw proefabonnement met 30 dagen verlengt.
+ms.openlocfilehash: 9b0d1d04b057613ef8ad26fa8cd946b6480bc21e
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324314"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114752"
 ---
 # <a name="extend-your-trial"></a>Uw proefabonnement verlengen
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
-Hebt u meer tijd nodig om de functies van Microsoft 365 voor bedrijven uit te proberen voordat u ze koopt? Als uw proefabonnement binnen vijftien dagen afloopt en het proefabonnement voor die datum nog niet is verlengd, kunt u het proefabonnement met dertig dagen verlengen. Dit is slechts één keer mogelijk.
+Hebt u meer tijd nodig om de functies van Microsoft 365 voor Bedrijven uit te proberen voordat u iets koopt? Als uw proefabonnement binnen vijftien dagen afloopt en het proefabonnement voor die datum nog niet is verlengd, kunt u het proefabonnement met dertig dagen verlengen. Dit is slechts één keer mogelijk.
 
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.
-2. Selecteer op het tabblad **Products** het proefabonnement dat u wilt verlengen. 
-3. Selecteer op de pagina Details van abonnement in de sectie **Abonnementen en betalings instellingen** de optie **einddatum verlengen**.
-4. Controleer de gegevens van de toestel in het deelvenster **einddatum verlengen** en Selecteer indien nodig een betalingswijze. Wanneer u klaar bent, selecteert u **proefabonnement verlengen**.
+2. Selecteer op **het** tabblad Producten het proefabonnement dat u wilt verlengen. 
+3. Selecteer Op de pagina met **abonnementsdetails** in de sectie Abonnementen en betalingsinstellingen de optie **Einddatum verlengen.**
+4. Bekijk de **uitbreidingsgegevens** in het deelvenster Einddatum verlengen en selecteer zo nodig een betalingswijze. Selecteer Proefabonnement verlengen wanneer u **klaar bent.**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnementen</a>.
-2. Selecteer op de pagina **abonnementen** het proefabonnement dat u wilt verlengen en selecteer vervolgens onder de verloopdatum de optie **proefabonnement verlengen**.
+2. Selecteer op **de pagina Abonnementen** het proefabonnement dat u wilt verlengen en selecteer vervolgens Proefabonnement **verlengen** onder de vervaldatum.
 3. Voltooi de stappen in de wizard.
 
 ::: moniker-end
@@ -57,9 +57,9 @@ Hebt u meer tijd nodig om de functies van Microsoft 365 voor bedrijven uit te pr
 ::: moniker range="o365-21vianet"
 
 1. Ga in het beheercentrum naar de pagina **Facturering**\><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnementen</a>.
-2. Selecteer op de pagina **abonnementen** het proefabonnement dat u wilt verlengen en selecteer vervolgens onder de verloopdatum de optie **proefabonnement verlengen**.
+2. Selecteer op **de pagina Abonnementen** het proefabonnement dat u wilt verlengen en selecteer vervolgens Proefabonnement **verlengen** onder de vervaldatum.
 3. Voltooi de stappen in de wizard.
 
 ::: moniker-end
 
-Als u klaar bent om te kopen, raadpleegt u [de proefversie kopen](buy-a-subscription-from-your-free-trial.md).
+Zie De proefversie kopen wanneer u [het wilt kopen.](buy-a-subscription-from-your-free-trial.md)

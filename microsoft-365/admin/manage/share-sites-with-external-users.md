@@ -20,24 +20,24 @@ search.appverid:
 - MOE150
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
-description: 'Meer informatie over het delen van sites en bestanden met mensen buiten de organisatie. '
-ms.openlocfilehash: 79760f662ec68d2ac9089586fd9cbf38b0bd9897
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: 'Informatie over het delen van sites en bestanden met personen buiten de organisatie. '
+ms.openlocfilehash: 3857cee3073950bbb9c130368abdd7df68d0da2a
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780047"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114463"
 ---
 # <a name="share-sites-and-files-with-guest-users"></a>Sites en bestanden delen met gastgebruikers
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
-Als u wilt samenwerken met mensen buiten uw organisatie, u hele sites of specifieke bestanden extern delen. Als u direct wilt ingaan op het instellen van delen, kiest u het scenario dat u wilt inschakelen:
+Als u wilt samenwerken met personen buiten uw organisatie, kunt u hele sites of specifieke bestanden extern delen. Als u meteen het delen wilt instellen, kiest u het scenario dat u wilt inschakelen:
 
 - [Samenwerken met gasten aan een document](../../solutions/collaborate-on-documents.md)
 - [Samenwerken met gasten op een site](../../solutions/collaborate-in-site.md)
@@ -47,7 +47,7 @@ Als u wilt samenwerken met mensen buiten uw organisatie, u hele sites of specifi
 
 Wanneer u bepaalt of en hoe u inhoud extern wilt delen, dient u na te denken over het volgende:
   
-- Aan wie wilt u toegang verlenen tot inhoud op de site en alle subsites, en wat wilt u dat ze kunnen doen?
+- Wie wilt u toegang verlenen tot inhoud op de site en eventuele subsites en wat wilt u dat ze kunnen doen?
     
 - Welke personen in uw organisatie wilt u toestemming verlenen om inhoud extern te delen? 
     
@@ -57,27 +57,27 @@ De antwoorden op deze vragen helpen u uw strategie voor het delen van inhoud te 
   
 |**Gebruik u deze methode:**|**Als u het volgende wilt doen:**|
 |:-----|:-----|
-|Een gast toevoegen aan een groep  <br/> |Geef iemand buiten uw organisatie doorlopende toegang tot informatie en inhoud op een teamsite. De persoon moet op dezelfde manier kunnen werken als een volwaardige gebruiker van de site en inhoud kunnen maken, bewerken en weergeven.  <br/> |
-|Deel een document en vereisen dat gasten zich verifiëren.  <br/> |Geef specifieke personen buiten uw organisatie veilige toegang tot een document voor controle of samenwerking, maar deze mensen hebben geen toegang nodig tot andere inhoud op de site.  <br/> |
-|Deel een document, maar vereisen geen verificatie.  <br/> |Een koppeling naar een niet-gevoelig of niet-vertrouwelijk document delen met personen buiten uw organisatie, zodat ze het document kunnen weergeven of feedback kunnen geven. Deze mensen hebben geen toegang tot inhoud op de site nodig.  <br/> |
+|Een gast aan een groep toevoegen  <br/> |Iemand buiten uw organisatie doorlopend toegang geven tot informatie en inhoud op een teamsite. De persoon moet op dezelfde manier kunnen werken als een volwaardige gebruiker van de site en inhoud kunnen maken, bewerken en weergeven.  <br/> |
+|Deel een document en vereisen dat gasten worden geverifieerd.  <br/> |Geef specifieke personen buiten uw organisatie veilige toegang tot een document voor revisie of samenwerking, maar deze personen hebben geen toegang nodig tot andere inhoud op de site.  <br/> |
+|Een document delen, maar geen verificatie vereisen.  <br/> |Een koppeling naar een niet-gevoelig of niet-vertrouwelijk document delen met personen buiten uw organisatie, zodat ze het document kunnen weergeven of feedback kunnen geven. Deze personen hebben geen toegang nodig tot inhoud op de site.  <br/> |
    
 > [!IMPORTANT]
-> Wanneer u extern delen uitschakelt, hebben mensen buiten de organisatie die momenteel toegang hebben geen toegang meer. Als u extern delen later weer inschakelt, wordt de toegang voor deze personen hersteld. Als u wilt voorkomen dat een gebruiker toegang krijgt tot een gedeelde inhoud, [verwijdert u deze uit de Microsoft 365-groep,](/office365/admin/create-groups/add-or-remove-members-from-groups)verwijdert u de machtigingen van de site of stopt u het delen van het bestand of de map met deze [inhoud](https://support.microsoft.com/office/0a36470f-d7fe-40a0-bd74-0ac6c1e13323). 
+> Wanneer u extern delen uit schakelen, hebben personen buiten de organisatie die momenteel toegang hebben, geen toegang meer. Als u extern delen later weer in later gebruik maakt, wordt de toegang voor deze personen hersteld. Als u wilt voorkomen dat een gebruiker toegang heeft tot gedeelde inhoud, verwijdert u de gebruiker uit de [Microsoft 365-groep,](/office365/admin/create-groups/add-or-remove-members-from-groups)verwijdert u de machtigingen van de gebruiker van de site of deelt u het bestand of de map niet meer met [de gebruiker.](https://support.microsoft.com/office/0a36470f-d7fe-40a0-bd74-0ac6c1e13323) 
   
-## <a name="enable-external-sharing-at-the-organization-level"></a>Extern delen inschakelen op organisatieniveau
+## <a name="enable-external-sharing-at-the-organization-level"></a>Extern delen op organisatieniveau inschakelen
 
-Extern delen is standaard ingeschakeld op organisatieniveau, maar niet voor alle nieuwe sites. Zie Overzicht [extern delen](/sharepoint/external-sharing-overview)voor meer informatie . 
+Extern delen is standaard ingeschakeld op organisatieniveau, maar niet voor alle nieuwe sites. Zie Overzicht van extern [delen voor meer informatie.](/sharepoint/external-sharing-overview) 
 
 > [!NOTE]
->  Als u extern delen voor elke site wilt toestaan, moet u deze toestaan op organisatieniveau. 
+>  Als u extern delen wilt toestaan voor een site, moet u dit toestaan op organisatieniveau. 
   
-1. Typ in het [beheercentrum](https://go.microsoft.com/fwlink/p/?linkid=2024339)'extern' in het zoekvak op de startpagina en kies **Extern delen van sites.**
+1. Typ ['extern'](https://go.microsoft.com/fwlink/p/?linkid=2024339)in het zoekvak op de startpagina in het beheercentrum en kies **Sites extern delen.**
   
-2. Kies op de pagina die wordt geopend of gebruikers alleen met bestaande gasten, nieuwe en bestaande gasten of iemand anders kunnen delen. 
+2. Kies op de pagina die wordt geopend of gebruikers alleen kunnen delen met bestaande gasten, nieuwe en bestaande gasten of wie dan ook. 
     
 3. Kies **Opslaan**.
     
-Nadat u extern delen op organisatieniveau hebt ingeschakeld, u uw instellingen voor delen verfijnen om extern delen voor bepaalde sites uit te schakelen. Zie Extern [delen in- of uitschakelen voor een site voor](/sharepoint/change-external-sharing-site)meer informatie.
+Nadat u extern delen op organisatieniveau hebt ingeschakeld, kunt u de instellingen voor delen aanpassen om extern delen uit te schakelen voor bepaalde sites. Zie Extern delen [in- of uitschakelen voor een site](/sharepoint/change-external-sharing-site)voor meer informatie.
   
 
   

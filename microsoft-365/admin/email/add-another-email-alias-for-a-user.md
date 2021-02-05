@@ -22,68 +22,68 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
-description: 'Ontdek hoe u meer dan één e-mailadres, e-mailalias genaamd, hebben gekoppeld aan uw Microsoft 365 voor bedrijven-account. '
-ms.openlocfilehash: 030d8022a8503f6b383d03b0dd97720f66d8f2f6
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+description: 'Lees hoe u meer dan één e-mailadres, de zogenaamde e-mailalias, kunt hebben dat is gekoppeld aan uw Microsoft 365 voor Bedrijven-account. '
+ms.openlocfilehash: afb576a0499577b910fe3ed14eff75ae0a52b394
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080013"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114031"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Een ander e-mailalias toevoegen voor een gebruiker
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
   
-Dit artikel is voor Microsoft 365-beheerders met zakelijke abonnementen. Het is niet bedoeld voor thuisgebruikers.
+Dit artikel is bedoeld voor Microsoft 365-beheerders die een zakelijk abonnement hebben. Het is niet bedoeld voor thuisgebruikers.
   
-Een primair e-mailadres in Microsoft 365 is meestal het e-mailadres dat een gebruiker heeft toegewezen toen zijn account werd gemaakt. Wanneer de gebruiker een e-mail naar iemand anders verzendt, wordt zijn primaire e-mailadres meestal weergegeven in het veld  *Van*  in e-mailapps. Ze kunnen ook meer dan één e-mailadres hebben dat is gekoppeld aan hun Microsoft 365 voor bedrijven-account. Deze extra adressen worden aliassen genoemd. 
+Een primair e-mailadres in Microsoft 365 is meestal het e-mailadres dat aan een gebruiker is toegewezen toen het account werd gemaakt. Wanneer de gebruiker een e-mail naar iemand anders verzendt, wordt zijn primaire e-mailadres meestal weergegeven in het veld  *Van*  in e-mailapps. Ze kunnen ook meerdere e-mailadressen hebben die zijn gekoppeld aan hun Microsoft 365 voor Bedrijven-account. Deze extra adressen worden aliassen genoemd. 
   
-Stel dat Jenna het e-mailadres heeft jenna@contosoco.com, maar ze wil ook e-mail ontvangen op jen@contosoco.com omdat sommige mensen naar haar verwijzen met die naam. U aliassen voor haar maken, zodat beide e-mailadressen naar jenna's inbox gaan.
+Stel dat Mensje het e-mailadres jenna@contosoco.com heeft, maar ze wil ook e-mail ontvangen bij jen@contosoco.com omdat sommige mensen naar haar verwijzen met die naam. U kunt aliassen voor haar maken, zodat beide e-mailadressen in het Postvak IN van E-mail komen.
 <br><br>  
   
 U kunt maximaal 400 aliassen maken voor een gebruiker. Er worden geen extra kosten in rekening gebracht en u hoeft geen extra licenties te kopen.
   
 > [!Tip]
-> Als u wilt dat meerdere personen e-mail beheren die naar één e-mailadres worden verzonden, zoals info@NodPublishers.com of sales@NodPublishers.com, maakt u een gedeeld postvak. Zie [Een gedeeld postvak maken](create-a-shared-mailbox.md)voor meer informatie.
+> Als u wilt dat meerdere personen e-mail beheren die wordt verzonden naar één e-mailadres, zoals info@NodPublishers.com of sales@NodPublishers.com, maakt u een gedeeld postvak. Zie Een gedeeld postvak [maken voor meer informatie.](create-a-shared-mailbox.md)
   
 ## <a name="add-email-aliases-to-a-user"></a>E-mailaliassen toevoegen aan een gebruiker
 <a name="AddEmailPreview"> </a>
 
-Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebben. 
+U moet [beheerdersmachtigingen hebben](../add-users/about-admin-roles.md) om dit te kunnen doen. 
 
   
 ::: moniker range="o365-worldwide"
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
-2. Selecteer op de pagina **Actieve gebruikers** de gebruiker > **E-mailaliassen beheren**. U ziet deze optie niet als de persoon geen licentie aan deze persoon heeft toegewezen. 
+2. Selecteer op **de pagina Actieve** gebruikers de gebruiker > **e-mailaliassen beheren.** U ziet deze optie niet als er geen licentie aan de persoon is toegewezen. 
     
-3. Selecteer **+ Voeg een alias toe** en voer een nieuwe alias voor de gebruiker in.   
+3. Selecteer **+ Een alias toevoegen** en voer een nieuwe alias voor de gebruiker in.   
     
     > [!Important] 
-    > Als u het foutbericht "**Een parameter kan niet worden gevonden die overeenkomt met parameternaam 'EmailAddresses**", betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein af te ronden als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
+    > Als het foutbericht 'Een parameter die overeenkomt met **de parameternaam 'EmailAddresses'** kan niet worden gevonden, wordt weergegeven, betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein te voltooien als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
     
   
     > [!IMPORTANT]
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365 als](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
   
      
-5. Als u klaar bent, kiest u **Wijzigingen opslaan**.
+5. Wanneer u klaar bent, kiest u **Wijzigingen opslaan.**
     
-6. Wacht 24 uur tot de nieuwe aliassen zijn gevuld in Microsoft 365.
+6. Wacht 24 uur totdat de nieuwe aliassen zijn ingevuld in Microsoft 365.
     
-    De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar eliza Hoffman's primaire adres wordt verzonden, Eliza@NodPublishers.com en haar alias Sales@NodPublishers.com, gaan bijvoorbeeld naar Eliza's Postvak IN.
+    De gebruiker krijgt nu een primair adres en een alias. Zo gaat alle e-mail die wordt verzonden naar het primaire adres van Eliza Eliza@NodPublishers.com, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is het *van-adres* haar primaire e-mailalias.** Stel dat er een bericht naar Sales@NodPublishers.com wordt verzonden en in de inbox van Eliza wordt weergegeven. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
+7. **Wanneer de gebruiker antwoordt, wordt het *Van-adres*  haar primaire e-mailalias.** Stel, er wordt een bericht naar het Sales@NodPublishers.com verzonden en het bericht komt binnen in het Postvak IN van Eliza. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
     
 ::: moniker-end
 
@@ -94,27 +94,27 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     
 2. Selecteer op de pagina **Actieve gebruikers** de gebruikersnaam die u wilt bewerken.
 
-3. Selecteer naast **Gebruikersnaam / E-mailaliassen**de optie **Bewerken**.
+3. Selecteer Bewerken **naast Gebruikersnaam/E-mailaliassen.** 
 
     > [!Important] 
-    > Als u het foutbericht "**Een parameter kan niet worden gevonden die overeenkomt met parameternaam 'EmailAddresses**", betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein af te ronden als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
+    > Als het foutbericht 'Een parameter die overeenkomt met **de parameternaam 'EmailAddresses'** kan niet worden gevonden, wordt weergegeven, betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein te voltooien als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
 
-4. Typ in het tekstvak onder **Alias**het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, u het domein voor de nieuwe e-mailalias kiezen met de vervolgkeuzelijst. Selecteer Vervolgens **Toevoegen**.
+4. Typ in het tekstvak onder **Alias** het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst. Selecteer vervolgens **Toevoegen.**
 
     > [!IMPORTANT]
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365 als](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
 
-5. Wanneer u klaar bent, selecteert u **Opslaan**.
+5. Selecteer Opslaan wanneer u **klaar bent.**
 
-6. Wacht 24 uur tot de nieuwe aliassen zijn gevuld in Microsoft 365. 
+6. Wacht 24 uur totdat de nieuwe aliassen zijn ingevuld in Microsoft 365. 
     
-    De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar eliza Hoffman's primaire adres wordt verzonden, Eliza@NodPublishers.com en haar alias Sales@NodPublishers.com, gaan bijvoorbeeld naar Eliza's Postvak IN.
+    De gebruiker krijgt nu een primair adres en een alias. Zo gaat alle e-mail die wordt verzonden naar het primaire adres van Eliza Eliza@NodPublishers.com, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is het *van-adres* haar primaire e-mailalias.** Stel dat er een bericht naar Sales@NodPublishers.com wordt verzonden en in de inbox van Eliza wordt weergegeven. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
+7. **Wanneer de gebruiker antwoordt, wordt het *Van-adres*  haar primaire e-mailalias.** Stel, er wordt een bericht naar het Sales@NodPublishers.com verzonden en het bericht komt binnen in het Postvak IN van Eliza. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
 
 ::: moniker-end
 
@@ -125,35 +125,35 @@ Hiervoor moet [u beheerdersmachtigingen](../add-users/about-admin-roles.md) hebb
     
 2. Selecteer op de pagina **Actieve gebruikers** de gebruikersnaam die u wilt bewerken.
 
-3. Selecteer naast **Gebruikersnaam / E-mailaliassen**de optie **Bewerken**.
+3. Selecteer Bewerken **naast Gebruikersnaam/E-mailaliassen.** 
 
     > [!Important] 
-    > Als u het foutbericht "**Een parameter kan niet worden gevonden die overeenkomt met parameternaam 'EmailAddresses**", betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein af te ronden als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
+    > Als het foutbericht 'Een parameter die overeenkomt met **de parameternaam 'EmailAddresses'** kan niet worden gevonden, wordt weergegeven, betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein te voltooien als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
 
-4. Typ in het tekstvak onder **Alias**het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, u het domein voor de nieuwe e-mailalias kiezen met de vervolgkeuzelijst. Selecteer Vervolgens **Toevoegen**.
+4. Typ in het tekstvak onder **Alias** het eerste deel van de nieuwe e-mailalias. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kunt u het domein voor de nieuwe e-mailalias kiezen in de vervolgkeuzelijst. Selecteer vervolgens **Toevoegen.**
 
     > [!IMPORTANT]
     > Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u naar de beheerconsole van GoDaddy of de andere partner gaan om de nieuwe alias als het primaire e-mailadres in te stellen. 
   
     > [!TIP]
-    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365 als](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)u een andere domeinnaam aan de lijst wilt toevoegen. 
+    > De e-mailalias moet eindigen op een domein uit de vervolgkeuzelijst. Zie Een domein toevoegen aan [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)als u een andere domeinnaam aan de lijst wilt toevoegen. 
 
-5. Wanneer u klaar bent, selecteert u **Opslaan**.
+5. Selecteer Opslaan wanneer u **klaar bent.**
 
-6. Wacht 24 uur tot de nieuwe aliassen zijn gevuld in Microsoft 365. 
+6. Wacht 24 uur totdat de nieuwe aliassen zijn ingevuld in Microsoft 365. 
     
-    De gebruiker heeft nu een primair adres en een alias. Alle e-mail die naar eliza Hoffman's primaire adres wordt verzonden, Eliza@NodPublishers.com en haar alias Sales@NodPublishers.com, gaan bijvoorbeeld naar Eliza's Postvak IN.
+    De gebruiker krijgt nu een primair adres en een alias. Zo gaat alle e-mail die wordt verzonden naar het primaire adres van Eliza Eliza@NodPublishers.com, Eliza@NodPublishers.com en haar alias, Sales@NodPublishers.com, naar het Postvak IN van Eliza.
     
   
-7. **Wanneer de gebruiker antwoordt, is het *van-adres* haar primaire e-mailalias.** Stel dat er een bericht naar Sales@NodPublishers.com wordt verzonden en in de inbox van Eliza wordt weergegeven. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
+7. **Wanneer de gebruiker antwoordt, wordt het *Van-adres*  haar primaire e-mailalias.** Stel, er wordt een bericht naar het Sales@NodPublishers.com verzonden en het bericht komt binnen in het Postvak IN van Eliza. Wanneer Jacobje het bericht beantwoordt, wordt het primaire e-mailadres weergegeven als de afzender, niet Verkoop@NodPublishers.com. 
 
 ::: moniker-end
 
 
-## <a name="did-you-get-a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>Heb je 'Een parameter kan niet worden gevonden die overeenkomt met de parameternaam EmailAddresses'?
+## <a name="did-you-get-a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>Wordt het bericht 'Een parameter die overeenkomt met de parameternaam EmailAddresses kan niet worden gevonden' krijgt?
 
 
-Als u het foutbericht "**Een parameter kan niet worden gevonden die overeenkomt met parameternaam EmailAddresses**" betekent dit dat het iets langer duurt om het instellen van uw tenant of uw aangepaste domein als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
+Als het foutbericht 'Er kan geen parameter worden gevonden die overeenkomt met **de parameternaam EmailAddresses'** wordt weergegeven, betekent dit dat het wat langer duurt om het instellen van uw tenant of uw aangepaste domein te voltooien als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even, zodat de instellingsprocedure kan worden voltooid en probeer het vervolgens opnieuw. Als het probleem aanhoudt, bel dan de Ondersteuning; zij voeren dan een volledige synchronisatie voor u uit.
   
 ## <a name="did-you-purchase-your-subscription-from-godaddy-or-another-partner"></a>Hebt u uw abonnement aangeschaft bij GoDaddy of een andere partner?
 

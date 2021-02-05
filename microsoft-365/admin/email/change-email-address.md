@@ -24,20 +24,20 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
-description: 'Wijzig uw eerste e-mailadres in een vriendelijk e-mailadres, zoals tom@fourthcoffee.com. Hiervoor moet u een domeinnaam kopen en toevoegen aan Microsoft 365. '
-ms.openlocfilehash: d23c612eecae0a0b58d844fbbe25392ffa682fde
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: 'Wijzig uw aanvankelijke e-mailadres in een vriendelijk e-mailadres zoals tom@fourthcoffee.com. Hiervoor moet u een domeinnaam kopen en deze toevoegen aan Microsoft 365. '
+ms.openlocfilehash: 445b78f759cee79a794f9656afd5b26051534e26
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656829"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114019"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
@@ -45,27 +45,27 @@ ms.locfileid: "49656829"
   
 ::: moniker range="o365-worldwide"
 
-Uw eerste e-mailadres in Microsoft 365 omvat. onmicrosoft.com, bijvoorbeeld tom@fourthcoffee.onmicrosoft.com. U kunt dit wijzigen in een handiger adres, zoals flip@fourthcoffee.com. U hebt eerst een eigen domeinnaam nodig, zoals fourthcoffee.com. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
+Uw eerste e-mailadres in Microsoft 365 bevat .onmicrosoft.com, zoals tom@fourthcoffee.onmicrosoft.com. U kunt dit wijzigen in een handiger adres, zoals flip@fourthcoffee.com. U hebt eerst een eigen domeinnaam nodig, zoals fourthcoffee.com. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Uw eerste e-mailadres in Office 365 Duitsland omvat. onmicrosoft.de, bijvoorbeeld tom@fourthcoffee.onmicrosoft.de. U kunt dit aanpassen aan een vriendelijkere adres, zoals tom@fourthcoffee.de. U hebt uw eigen domeinnaam nodig, zoals fourthcoffee.de eerst. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
+Uw eerste e-mailadres in Office 365 Duitsland bevat .onmicrosoft.de, zoals tom@fourthcoffee.onmicrosoft.de. U kunt dit wijzigen in een vriendelijker adres, zoals tom@fourthcoffee.de. U hebt uw eigen domeinnaam nodig, zoals fourthcoffee.de eerste. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Uw eerste e-mailadres in Office 365, beheerd door 21Vianet, bevat partner.onmschina.cn, zoals tom@fourthcoffee.partner.onmschina.cn. U kunt dit aanpassen aan een vriendelijkere adres, zoals tom@fourthcoffee.cn. U hebt uw eigen domeinnaam nodig, zoals fourthcoffee.cn eerst. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
+Uw eerste e-mailadres in Office 365 beheerd door 21Vianet bevat partner.onmschina.cn, zoals tom@fourthcoffee.partner.onmschina.cn. U kunt dit wijzigen in een vriendelijker adres, zoals tom@fourthcoffee.cn. U hebt uw eigen domeinnaam nodig, zoals fourthcoffee.cn eerste. Het is fijn als u al een domeinnaam hebt. Als dit nog niet het geval is, leert u hoe u [een domeinnaam kunt kopen bij een domeinregistrar](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
-Wanneer u het e-mailadres van uw domein wijzigt in Microsoft 365, moet u de MX-record van uw domein tijdens de installatie bijwerken, zodat alle e-mail die naar dit domein wordt verzonden, wordt verzonden naar Microsoft 365. Zorg ervoor dat u gebruikers hebt toegevoegd en postvakken hebt gemaakt in Microsoft 365 voor iedereen die e-mail in uw domein heeft voordat u de MX-record wijzigt. Wilt u de e-mail niet voor iedereen in uw domein verplaatsen naar Microsoft 365? U kunt stappen uitvoeren om [Microsoft 365 met slechts een paar e-mailadressen te testen](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain?view=o365-worldwide).
+Wanneer u de e-mail van uw domein laat verzenden naar Microsoft 365 door de MX-record van uw domein tijdens de installatie bij te werken, komt alle e-mail die naar dat domein wordt verzonden binnen in Microsoft 365. Zorg ervoor dat u gebruikers hebt toegevoegd en postvakken hebt gemaakt in Microsoft 365 voor iedereen die een e-mailaccount in uw domein heeft, VOORDAT u de MX-record wijzigt. Wilt u niet voor iedereen in uw domein e-mail verplaatsen naar Microsoft 365? In plaats daarvan kunt u [stappen ondernemen om Microsoft 365 met slechts een paar e-mailadressen te piloten.](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain?view=o365-worldwide)
   
-## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken met het Microsoft 365-Beheercentrum
+## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken met het Microsoft 365-beheercentrum
 
-U moet een hoofd beheerdersaccount hebben om deze stappen uit te voeren. 
+U moet een globale beheerdersaccount hebben om deze stappen uit te voeren. 
 
 ::: moniker range="o365-worldwide"
 
@@ -81,20 +81,20 @@ U moet een hoofd beheerdersaccount hebben om deze stappen uit te voeren.
 
 ::: moniker range="o365-21vianet"
 
-1. Ga naar het Beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>. 
+1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>beheercentrum op . 
 
 ::: moniker-end 
 
-2. Ga naar de   >  pagina **domeinen** instellen. 
+2. Ga naar de **pagina**  >  **Domeinen** instellen. 
 
 3. Op de pagina **Domeinen** selecteert u **Domein toevoegen**.
     
 4. Volg de stappen om te bevestigen dat u eigenaar van het domein bent en om uw e-mailadres te wijzigen.
     
-U wordt begeleid om alles juist in te stellen met uw domein in Microsoft 365.
+U wordt begeleid om alles correct in te stellen met uw domein in Microsoft 365.
 
 > [!NOTE]
-> Als u geen Exchange-licentie gebruikt, kunt u het domein niet gebruiken voor het verzenden of ontvangen van e-mailberichten van de Microsoft 365-Tenant.
+> Als u geen Exchange-licentie gebruikt, kunt u het domein niet gebruiken om e-mailberichten te verzenden of te ontvangen van de Microsoft 365-tenant.
   
 ## <a name="related-articles"></a>Verwante artikelen
 

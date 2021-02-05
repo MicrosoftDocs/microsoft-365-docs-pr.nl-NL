@@ -14,97 +14,97 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Gebruikers kunnen meer weten over het beheren van hun selfservice aankopen.
-ms.openlocfilehash: a94a474bf2a5c506f4e6ed02659cd10d371fb779
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+description: Gebruikers kunnen leren hoe ze hun selfservice-aankopen kunnen beheren.
+ms.openlocfilehash: 5f541706c2b4787e5add53b34a90c0f2113efb11
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367153"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114679"
 ---
 # <a name="manage-self-service-purchases-users"></a>Selfservice-aankopen beheren (Gebruikers)
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
-Wanneer u een gebruiker bent, kunt u abonnementen kopen voor bepaalde producten en licenties toewijzen aan gebruikers in uw team. U bent verantwoordelijk voor de betaling van de eigen service aankopen die u maakt. U kunt uw abonnementen beheren in het Microsoft 365-Beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.Microsoft.com</a>.
+Als gebruiker kunt u abonnementen op bepaalde producten kopen en licenties voor deze abonnementen toewijzen aan personen in uw team. U bent verantwoordelijk voor het betalen van eventuele selfserviceaankopen die u gedaan hebt. U kunt uw abonnementen beheren in het Microsoft 365-beheercentrum <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">op admin.microsoft.com.</a>
 
-Uw beheerder heeft een alleen-lezen weergave in alle abonnementen die u koopt. Ze kunnen het product, de naam van de verkoper, het gekochte abonnement, de vervaldatum, de aankoopprijs en de toegewezen gebruikers zien voor elk abonnement dat u koopt.
+Uw beheerder heeft een alleen-lezenweergave voor abonnementen die u koopt. Ze kunnen het product, de inkopernaam, de aangeschafte abonnementen, de vervaldatum, de aankoopprijs en de toegewezen gebruikers zien voor elk abonnement dat u koopt.
 
 ## <a name="view-your-subscriptions"></a>Uw abonnementen weergeven
 
-U kunt een lijst weergeven met alle selfservice aangeschafte abonnementen die u hebt gekocht.
+U kunt een lijst weergeven met alle zelf aangeschafte abonnementen die u hebt gekocht.
 
-1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
-2. Selecteer op het tabblad **Products** het pictogram filter en selecteer vervolgens **selfservice**.
+1. Ga in het beheercentrum naar de **pagina Je**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">producten factureren.</a>
+2. Selecteer op **het** tabblad Producten het filterpictogram en selecteer **Selfservice.**
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Meer of minder licenties kopen
 
-1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
-2. Selecteer op het tabblad **Products** het abonnement waarvoor u meer wilt kopen of waarvoor u licenties wilt beperken.
-3. Kies **licenties kopen** of **licenties verwijderen**.
-4. Voer in het rechterdeelvenster in het vak **Totaal aantal licenties** het totale aantal licenties in dat u voor dit abonnement wilt instellen en kies vervolgens **Opslaan**. Als u bijvoorbeeld 100-licenties hebt en u 5 meer wilt toevoegen, typt u 105.
+1. Ga in het beheercentrum naar de **pagina Je**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">producten factureren.</a>
+2. Selecteer op **het** tabblad Producten het abonnement waar u meer of minder licenties voor wilt kopen.
+3. Kies **Licenties kopen of** Licenties **verwijderen.**
+4. Voer in het rechterdeelvenster in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken en kies **Opslaan.**  Als u bijvoorbeeld 100 licenties hebt en u er nog 5 wilt toevoegen, voert u 105 in.
 
-## <a name="assign-or-unassign-licenses"></a>Licenties toewijzen of intrekken
+## <a name="assign-or-unassign-licenses"></a>Licenties toewijzen of in licentie geven
 
 ### <a name="to-assign-licenses"></a>Licenties toewijzen
 
-1. Ga in het Beheercentrum naar de pagina **factuur**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenties</a> .
-2. Kies het abonnement waarvoor u licenties wilt toewijzen.
-3. Kies **licenties toewijzen**.
+1. Ga in het beheercentrum naar de **pagina**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
+2. Kies het abonnement voor wie u licenties wilt toewijzen.
+3. Kies **Licenties toewijzen.**
 4. Begin in het deelvenster **Licenties toewijzen aan gebruikers** met het typen van een naam en kies de naam in de resultaten om deze aan de lijst toe te voegen. U kunt maximaal 20 gebruikers tegelijk toevoegen.
     > [!NOTE]
     > U kunt alleen licenties toewijzen aan personen in uw organisatie.
-5. Kies **toewijzen** en kies vervolgens **sluiten**.
+5. Kies **Toewijzen** en kies **vervolgens Sluiten.**
 
-### <a name="to-unassign-licenses"></a>Licenties intrekken
+### <a name="to-unassign-licenses"></a>Licenties in- en uitleveren
 
-1. Ga in het Beheercentrum naar de pagina **factuur**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenties</a> .
-2. Kies het product waarvoor u licenties wilt intrekken.
-3. Kies de gebruikers van wie u de licenties wilt intrekken.
-4. Kies **licenties intrekken**.
-5. Kies in het vak **licenties intrekken** de optie **intrekken**.
+1. Ga in het beheercentrum naar de **pagina**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties.</a>
+2. Kies het product voor wie u licenties wilt inleveren.
+3. Kies de gebruikers van wie u de licenties wilt inleveren.
+4. Kies **Licenties in licentie toewijzen.**
+5. Kies In **het vak Licenties toewijzen** in het vak Niet toewijzen de optie Niet **toewijzen.**
 
 ## <a name="cancel-a-subscription"></a>Een abonnement opzeggen
 
-1. Ga in het Beheercentrum naar de pagina **Billing**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">uw producten</a> factureren.
-2. Zoek op het tabblad **producten** naar het abonnement dat u wilt opzeggen. Selecteer **meer acties** (drie puntjes) en selecteer vervolgens **abonnement annuleren**.
-3. Kies in het deelvenster **abonnement annuleren** een reden waarom u wilt opzeggen. Eventueel kunt u feedback geven.
-4. Klik op **Opslaan**.
+1. Ga in het beheercentrum naar de **pagina Je**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">producten factureren.</a>
+2. Zoek op **het** tabblad Producten naar het abonnement dat u wilt opzeggen. Selecteer **Meer acties** (drie puntjes) en selecteer Abonnement **annuleren.**
+3. Kies in **het deelvenster** Abonnement annuleren een reden waarom u wilt opzeggen. Geef desgewenst uw feedback.
+4. Kies **Opslaan**.
 
-## <a name="manage-your-payment-details"></a>Uw betaalgegevens beheren
+## <a name="manage-your-payment-details"></a>Uw betalingsgegevens beheren
 
-1. Ga in het Beheercentrum naar de pagina **facturerings**  >  profielen van **& betalingsrekeningen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> .
-2. Selecteer een factuur profiel in de lijst.
-3. Kies een van de volgende opties op de pagina Details facturerings profiel onder **Betalingswijze**:
-    - Als u een bestaande betalingsmethode wilt bijwerken, selecteert u **bewerken**.
-    - Als u een nieuwe betalingsmethode wilt toevoegen, selecteert u **vervangen**.
-4. Voer in het rechterdeelvenster de kaartgegevens in en kies vervolgens **Opslaan**.
+1. Ga in het beheercentrum naar de **pagina Factureringsrekeningen**  >  **& factureringsprofielen.**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank"></a>
+2. Selecteer een factureringsprofiel in de lijst.
+3. Kies een van de volgende opties onder **Betalingswijze** op de pagina met factureringsprofielgegevens:
+    - Als u een bestaande betalingswijze wilt bijwerken, selecteert u **Bewerken.**
+    - Als u een nieuwe betalingswijze wilt toevoegen, selecteert u **Vervangen.**
+4. Voer in het rechterdeelvenster de kaartgegevens in en kies **Opslaan.**
 
 ### <a name="update-an-existing-payment-method"></a>Een bestaande betalingsmethode bijwerken
 
-1. Ga in het Beheercentrum naar de pagina **facturen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalingen</a> .
-2. Kies een bestaande betaalmethode in de lijst op het tabblad **betaalwijzen** .
-3. Kies **bewerken** in het rechterdeelvenster. U kunt de beveiligingscode, de vervaldatum, de naam van de kaart en het adres wijzigen.
-4. Breng de gewenste wijzigingen aan en kies **Opslaan**.
+1. Ga in het beheercentrum naar de **pagina Factureringsrekeningen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalen.</a>
+2. Kies op **het tabblad Betalingswijzen** een bestaande betalingswijze in de lijst.
+3. Kies Bewerken in het **rechterdeelvenster.** U kunt de beveiligingscode, vervaldatum, naam op de kaart en het adres wijzigen.
+4. Wijzig de benodigde wijzigingen en kies **Opslaan.**
 
-### <a name="add-a-new-payment-method"></a>Een nieuwe betaalwijze toevoegen
+### <a name="add-a-new-payment-method"></a>Een nieuwe betalingswijze toevoegen
 
-1. Ga in het Beheercentrum naar de pagina **facturen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalingen</a> .
-2. Kies **een betalingsmethode toevoegen** op het tabblad **betalingsmethoden** .
-3. Voer in het deelvenster **een betalingsmethode toevoegen** de gegevens voor de nieuwe betaalmethode in en kies **toevoegen**.
+1. Ga in het beheercentrum naar de **pagina Factureringsrekeningen**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalen.</a>
+2. Kies een **betalingswijze** toevoegen op **het tabblad Betalingswijzen.**
+3. Voer in **het deelvenster Een betalingswijze** toevoegen de gegevens voor de nieuwe betalingswijze in en kies **Toevoegen.**
 
 ## <a name="view-your-invoices"></a>Uw facturen weergeven
 
-1. Ga in het Beheercentrum naar **facturerings**  >  pagina <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& betalingen</a> .
-2. Selecteer op het tabblad **facturen** de factuur die u wilt weergeven. Als er geen facturen worden weergegeven, wijzigt u de **afgelopen drie** maanden in de **afgelopen zes maanden** of **geeft u een datumbereik** op.
+1. Ga in het beheercentrum naar **de pagina**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Factureringsrekeningen & betalen.</a>
+2. Selecteer op **het** tabblad Facturen de factuur die u wilt bekijken. Als er geen facturen zichtbaar zijn, **wijzigt u de afgelopen 3 maanden in** afgelopen **6 maanden** of geeft u een **datumbereik op.**
 
 ## <a name="need-help-contact-us"></a>Hulp nodig? Neem contact met ons op.
 
-Zie Veelgestelde vragen over [selfservice aankopen](self-service-purchase-faq.md)voor veelgestelde vragen over selfservice aankopen.
+Veelgestelde vragen over selfservice-aankopen vindt u veelgestelde vragen over [selfservice-aankopen.](self-service-purchase-faq.md)
 
-[Neem contact op met de ondersteuning](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)als u vragen hebt of hulp nodig hebt bij selfservice aankopen.
+Als u vragen hebt of hulp nodig hebt bij selfservice-aankopen, [neem dan contact op met de ondersteuning.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)

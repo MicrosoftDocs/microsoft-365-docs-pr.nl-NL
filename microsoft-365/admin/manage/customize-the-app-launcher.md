@@ -23,19 +23,19 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Snel koppelingen maken naar uw e-mailberichten, documenten, apps, SharePoint-sites, externe sites en andere bronnen door aangepaste tegels toe te voegen aan het startpunt voor apps. '
-ms.openlocfilehash: 2bbcf64b807754aed199c441f6df028d5fe20a97
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 96d059b252b63e48e20edb29861cf8233e220e34
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926232"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114187"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Aangepaste tegels toevoegen aan het startprogramma voor apps
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Het beheercentrum wordt gewijzigd. Als de informatie die hier wordt weergegeven, niet overeenkomt met wat u gewend bent, raadpleegt u [Over het nieuwe Microsoft 365-beheercentrum](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
@@ -55,7 +55,7 @@ U kunt aan het startprogramma voor apps uw eigen aangepaste tegels toevoegen die
   
 4. Typ in het vak **Tegelnaam** een naam voor de nieuwe tegel. Deze naam wordt weergegeven in de tegel. 
     
-5. Voer een **URL van de website** in voor de tegel. Dit is de locatie waar u uw gebruikers naartoe wilt laten gaan wanneer ze de tegel selecteren in het startaar voor apps. Gebruik HTTPS in de URL.<br/>TIP: Als u een tegel voor een SharePoint-site maakt, gaat u naar die site, kopieert u de URL en plakt u deze hier. De URL van uw standaardteamsite ziet er zo uit: `https://<company_name>.sharepoint.com` 
+5. Voer een **URL van de website** voor de tegel in. Dit is de locatie waar u uw gebruikers naartoe wilt laten gaan wanneer ze de tegel selecteren in het startaar voor apps. Gebruik HTTPS in de URL.<br/>TIP: Als u een tegel voor een SharePoint-site maakt, gaat u naar die site, kopieert u de URL en plakt u deze hier. De URL van uw standaardteamsite ziet er zo uit: `https://<company_name>.sharepoint.com` 
   
 6. Voer een **URL van de afbeelding voor** de tegel in. De afbeelding wordt weergegeven op de pagina Mijn apps en het startprogramma voor apps.<br/>TIP: De afbeelding moet 60x60 pixels zijn en beschikbaar zijn voor iedereen in uw organisatie, zonder verificatie te vereisen.
 
@@ -81,7 +81,7 @@ U en uw gebruikers zien nu de aangepaste tegel in het startprogramma voor apps o
 
 1. Ga in het beheercentrum naar het tabblad **Organisatieprofiel**  >  **instellingen**  >   </a> organisatie.
     
-2. Selecteer Op de **profielpagina Organisatie,** naast **Aangepaste tegels toevoegen voor** uw organisatie, de optie **Bewerken.**
+2. Selecteer Op de **profielpagina Organisatie,** naast **Aangepaste tegels voor uw** organisatie toevoegen, de optie **Bewerken.**
 
 3. Werk de **Tegelnaam**, **URL**, **Beschrijving** of **Afbeeldings-URL** voor de aangepaste tegel bij (zie [Een aangepaste tegel toevoegen aan het startprogramma voor apps](#add-a-custom-tile-to-the-app-launcher)).
     
