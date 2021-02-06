@@ -1,12 +1,12 @@
-- name: Aan de slag met onderwerpservaringen
+- name: Aan de slag met Microsoft Viva
   items:
-    - name: Inleiding tot onderwerpservaringen
+    - name: Inleiding tot Microsoft Viva
       href: index.md
-    - name: Overzicht van onderwerpservaringen
+    - name: Overzicht van Microsoft Viva
       href: topic-experiences-overview.md
-    - name: Onderwerpservaringen ontdekken en cureren
+    - name: Microsoft Viva ontdekken en cureren
       href: topic-experiences-discovery-curation.md
-    - name: Rollen voor onderwerpservaringen
+    - name: Microsoft Viva-rollen
       href: topic-experiences-roles.md
     - name: Uw omgeving voorbereiden
       href: topic-experiences-get-ready.md
@@ -14,9 +14,9 @@
   items:
     - name: Onderwerpbeveiliging
       href: topic-experiences-security-privacy.md
-    - name: Onderwerpservaringen plannen
+    - name: Plannen voor onderwerpen
       href: plan-topic-experiences.md
-    - name: Onderwerpservaringen instellen
+    - name: Onderwerpen instellen
       href: set-up-topic-experiences.md
     - name: Onderwerpdetectie beheren
       href: topic-experiences-discovery.md
@@ -38,6 +38,8 @@
       href: edit-a-topic.md
     - name: Beveiligingsbeperking
       href: topic-experiences-security-trimming.md
+    - name: Zoeken naar onderwerpen
+      href: search.md
 - name: Ingebruikname
   items:
     - name: Aan de slag gaan met de acceptatie
