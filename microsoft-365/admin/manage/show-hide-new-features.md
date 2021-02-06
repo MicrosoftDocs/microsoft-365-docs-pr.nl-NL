@@ -1,14 +1,31 @@
 ---
-titel: "Manage which Office features appear in What's New" f1.keywords:
-- NOCSH ms.author: danbrown author: DHB-MSFT manager: scotv audience: Admin ms.topic: article ms.service: o365-administration localization_priority: Normal ms.collection:
+title: Beheren welke Office-functies worden weergegeven in De nieuwe functies
+f1.keywords:
+- NOCSH
+ms.author: danbrown
+author: DHB-MSFT
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC ms.custom: AdminS portfolioePortfolio search.appverid:
+- Adm_TOC
+ms.custom: AdminSurgePortfolio
+search.appverid:
 - BCS160
 - MET150
-- BESCHRIJVING: 'Bepaal welke Office-functies worden weergegeven of verbergen als een gebruiker Help > Wat is er nieuw in de Office-app voor Windows door de functie 'Nieuw in Office' te gebruiken in het Microsoft 365-beheercentrum.'
+- MOE150
+description: Bepaal welke Office-functies u wilt weergeven of verbergen wanneer een gebruiker Help > Wat is er nieuw in de Office-app voor Windows met de functie 'Nieuw in Office' in het Microsoft 365-beheercentrum.
+ms.openlocfilehash: d0b5bc3e643b306d9a38a707fed50ab546249c2b
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122346"
 ---
-
 # <a name="manage-which-office-features-appear-in-whats-new"></a>Beheren welke Office-functies worden weergegeven in De nieuwe functies
 
 Wanneer een belangrijke Office-functie wordt uitgebracht, ontvangen gebruikers een bericht over de functie wanneer ze **Help-informatie** over nieuw kiezen in hun  >   Office-app voor Windows.

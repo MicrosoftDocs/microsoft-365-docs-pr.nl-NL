@@ -15,14 +15,13 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 description: Deze Azure-beheerdersrollen beheren in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 2295a003fa73cb1805fad3231ff62b37930d0306
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 7a4e28667bc16d6619fe87451cd48ea77d89c81d
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289091"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126103"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Azure Activity Directory-rollen in het Microsoft 365-beheercentrum
 
@@ -32,7 +31,7 @@ Een gebruiker aan wie een beheerdersrol is toegewezen, heeft dezelfde toegangsre
 
 ::: moniker range="o365-worldwide"
 
-In het Microsoft 365-beheercentrum kunt u naar **Rollen**gaan en vervolgens een rol selecteren om het detailvenster te openen. Selecteer het tabblad **Machtigingen** om de gedetailleerde takenlijst weer te geven met wat de beheerders die aan die rol zijn toegewezen kunnen doen. Selecteer het tabblad **toegewezen** of **toegewezen beheerders** om gebruikers toe te voegen aan rollen. Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over het toewijzen van rollen in het Microsoft 365-beheercentrum.
+In het Microsoft 365-beheercentrum kunt u naar **Rollen** gaan en vervolgens een rol selecteren om het detailvenster te openen. Selecteer het tabblad **Machtigingen** om de gedetailleerde takenlijst weer te geven met wat de beheerders die aan die rol zijn toegewezen kunnen doen. Selecteer het tabblad **toegewezen** of **toegewezen beheerders** om gebruikers toe te voegen aan rollen. Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over het toewijzen van rollen in het Microsoft 365-beheercentrum.
 
 ::: moniker-end
 

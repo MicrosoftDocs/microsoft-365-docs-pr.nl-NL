@@ -15,14 +15,13 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: 767cd8dbb44da51f0d26844f761eee7d5862b753
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 48bb0f3d1a3a239025017fda261945094a3eda79
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432451"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126079"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Intune-beheerdersrollen in het Microsoft 365-beheercentrum 
 
@@ -34,7 +33,7 @@ Zie [beheerdersrollen toewijzen](assign-admin-roles.md)voor meer informatie over
 
 ::: moniker range="o365-worldwide"
 
-In het Microsoft 365-beheercentrum kunt u naar **Rollen**gaan en vervolgens een rol selecteren om het detailvenster te openen. Selecteer het tabblad **Machtigingen** om de gedetailleerde takenlijst weer te geven met wat de beheerders die aan die rol zijn toegewezen kunnen doen. Selecteer het tabblad **toegewezen** of **toegewezen beheerders** om gebruikers toe te voegen aan rollen.
+In het Microsoft 365-beheercentrum kunt u naar **Rollen** gaan en vervolgens een rol selecteren om het detailvenster te openen. Selecteer het tabblad **Machtigingen** om de gedetailleerde takenlijst weer te geven met wat de beheerders die aan die rol zijn toegewezen kunnen doen. Selecteer het tabblad **toegewezen** of **toegewezen beheerders** om gebruikers toe te voegen aan rollen.
 
 ::: moniker-end
 

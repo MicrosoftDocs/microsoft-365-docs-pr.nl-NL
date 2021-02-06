@@ -16,55 +16,54 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
-description: 'Ga naar de stapsgewijze instructies voor het overzetten van een domein van Microsoft naar een andere bewaarder. '
-ms.openlocfilehash: 1fb1fa50bd919bddb620a39d9edb46abb6710ba4
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: 'In dit artikel vindt u de stappen voor het overbrengen van een domein van Microsoft naar een andere registrar. '
+ms.openlocfilehash: f34e9733ab53c8bdc6f4432c96e6232ecc26ee06
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645273"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126345"
 ---
 # <a name="transfer-a-domain-from-microsoft-to-another-host"></a>Een domein van Microsoft overbrengen naar een andere host
 
-U kunt een Microsoft 365-domein na de aankoop van Microsoft niet overzetten naar een andere bewaarder van de 60 dagen nadat u het domein hebt aangeschaft.
+U kunt een Microsoft 365-domein niet 60 dagen na de aankoop van het domein bij Microsoft overbrengen naar een andere registrar.
 
 > [!NOTE]
-> Met een _whois_-   query wordt een Microsoft aangeschafte Microsoft-domeinregistratie weergegeven als wilde westelijke domeinen LLC. U moet echter alleen Microsoft contact opnemen met de aangeschafte Microsoft 365-domein.
+> Een _Whois-query_   toont een door Microsoft gekochte domeinregistrar als Wild West Domains LLC. U hoeft echter alleen contact op te nemen met Microsoft met betrekking tot uw door Microsoft 365 aangeschafte domein.
 
-Ga als volgt te werk om een code te vinden bij Microsoft 365 en ga vervolgens naar de andere website van het domein registratief om uw domeinnaam in te stellen voor de nieuwe bewaarder.
+Volg deze stappen om een code op te vragen bij Microsoft 365 en ga naar de website van de andere domeinregistrar om het overzetten van uw domeinnaam naar de nieuwe registrar in te stellen.
 
 ## <a name="transfer-a-domain"></a>Een domein overbrengen
 
-1. Ga in het Beheercentrum naar  **instellingen**   >  **domeinen**.
+1. Ga in het beheercentrum naar   **Settings**   >  **Domains.**
 
-2. Selecteer op de pagina **Domains** het microsoft 365-domein dat u wilt overzetten naar een andere domeinregistratie, en selecteer vervolgens **status controleren**.
+2. Selecteer op **de pagina** Domeinen het Microsoft 365-domein dat u wilt overbrengen naar een andere domeinregistrar en selecteer vervolgens **Status controleren.**
 
-3. Selecteer boven aan de pagina de optie **domein overbrengen**.
+3. Selecteer domein overstappen boven aan **de pagina.**
 
-4. Selecteer op de pagina **Kies waar u uw domein wilt overzetten** **een andere registratieservice**en klik op **volgende**.
+4. Selecteer een andere **registrar** **op de pagina** Kies waar u uw domein wilt over dragen en klik op **Volgende.**
 
-5. Selecteer op de pagina **domein overdracht ontgrendelen** de optie **overdracht ontgrendelen voor <_uw domein_ > **en selecteer **volgende**.
+5. Selecteer op **de pagina Domein overboeking** **>** ontgrendelen de optie <domein ontgrendelen en selecteer vervolgens **Volgende.**
 
-6. Controleer de contactgegevens van uw domein overdracht en selecteer **volgende**.
+6. Controleer de contactgegevens van uw domeinoverdracht en selecteer vervolgens **Volgende.**
 
-7. Kopieer de autorisatiecode en wacht ongeveer 30 minuten voordat u de status van uw domein overzetten wilt wijzigen in **ontgrendeld voor overdracht** op het tabblad **registreren** voordat u verder gaat met de volgende stappen.
+7. Kopieer de autorisatiecode en wacht ongeveer 30 minuten totdat de  status van uw domeinoverdracht is gewijzigd in **Ontgrendeld** voor overdracht op het tabblad Registratie voordat u verder gaat met de volgende stappen.
 
-8. Ga naar de website van het domein registratieprogramma waarop u uw domeinnaam verder wilt beheren. Volg de aanwijzingen voor het overdragen van een domein (Zoek de Help op hun website). Dit betekent meestal dat u overschrijvings kosten betaalt en de Authcode naar de nieuwe registratieservice draagt, zodat ze de overdracht kunnen initiëren. Microsoft verstuurt u een e-mailbericht om te bevestigen dat u de overdrachtsaanvraag hebt ontvangen en dat het domein binnen 5 dagen zal overzetten.
+8. Ga naar de website van de domeinregistrar die uw domeinnaam in de toekomst wilt beheren. Volg de aanwijzingen voor het overzetten van een domein (zoek naar hulp op de website van het domein). Dit houdt meestal in dat u betaalt voor de overboekingskosten en dat u de authcode aan de nieuwe registrar geeft zodat deze de overdracht kan starten. Microsoft zal u een e-mail sturen om te bevestigen dat we de overboekingsaanvraag hebben ontvangen en het domein wordt binnen 5 dagen over overdragen.
 
-    U vindt het tabblad autorisatiecode **registreren** op de pagina  **domeinen** in Microsoft 365.
+    U vindt het tabblad Registratie van **autorisatiecode**  **op de pagina** Domeinen in Microsoft 365.
     
     > [!TIP]
-    > voor UK-domeinen is een andere procedure vereist. Neem contact op met Microsoft ondersteuning en vraag een IP-adres van een **IPS-wijziging** aan de bewaarder van uw domein dat u wilt beheren. Wanneer het label is gewijzigd, wordt het domein direct overgebracht naar de nieuwe bewaarder. U moet vervolgens met de nieuwe bewaarder samenwerken om de overdracht te voltooien, waarschijnlijk kosten in rekening te brengen en het overgedragen domein toe te voegen aan uw account met uw nieuwe bewaarder.
+    > Voor .uk-domeinen is een andere procedure vereist. Neem contact op met Microsoft Ondersteuning en vraag om een wijziging van de **IPS-label** voor de registrar die uw domein in de toekomst wilt beheren. Wanneer de tag is gewijzigd, wordt het domein onmiddellijk over verplaatst naar de nieuwe registrar. Vervolgens moet u samenwerken met de nieuwe registrar om de overdracht te voltooien. U betaalt waarschijnlijk kosten voor de overdracht en voegt het overgedragen domein toe aan uw account bij uw nieuwe registrar.
 
-9. Na het overzetten verlengt u uw domein bij de nieuwe domeinregistratie.
+9. Nadat de overdracht is voltooid, verlengt u uw domein bij de nieuwe domeinregistrar.
 
-10. Om het proces te voltooien, gaat u terug naar de pagina **domeinen** in het Beheercentrum en selecteert u vervolgens  **domein overdracht voltooien**. Hiermee wordt het domein gemarkeerd als niet langer aangeschaft bij Microsoft 365 en wordt het domein abonnement uitgeschakeld. Het domein wordt niet van de Tenant verwijderd en heeft geen invloed op bestaande gebruikers en postvakken op het domein.
+10. Om het proces te voltooien, gaat u terug naar **de pagina** Domeinen in het beheercentrum en selecteert u   **Vervolgens Volledige domeinoverdracht.** Hiermee wordt het domein markeren als niet meer aangeschaft bij Microsoft 365 en wordt het domeinabonnement uitgeschakeld. Het domein wordt niet uit de tenant verwijderd en is niet van invloed op bestaande gebruikers en postvakken in het domein.
 
 > [!NOTE]
-> Aangeschafte domeinen van Microsoft 365 komen niet in aanmerking voornaam server wijzigingen of het overbrengen van het domein tussen Microsoft 365-organisaties. Als een van deze twee is vereist, moet u de domeinregistratie overzetten naar een andere bewaarder.
+> Door Microsoft 365 aangeschafte domeinen komen niet in aanmerking voor naamserverwijzigingen of het overzetten van het domein tussen Microsoft 365-organisaties. Als een van deze vereist is, moet de domeinregistratie worden overgebracht naar een andere registrar.

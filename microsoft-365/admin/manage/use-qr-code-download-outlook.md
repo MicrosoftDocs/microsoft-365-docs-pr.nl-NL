@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Informatie over het gebruik van een QR-code voor verificatie en het downloaden van Outlook Mobile.
-ms.openlocfilehash: 2d62a49b93fa7bd5f2d747525de7244e8014e6a7
-ms.sourcegitcommit: b8e9b2ecdc4927b67088c5fffb1585424c66fb10
+ms.openlocfilehash: b9e433e0c7d3f5f3466924b318e242e5ac29181c
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50050772"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122370"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>Een QR-code gebruiken om u aan te melden bij de mobiele Outlook-apps
 
@@ -29,7 +29,7 @@ ms.locfileid: "50050772"
 
 Als Microsoft 365-beheerder kunt u uw gebruikers in staat stellen zich aan te melden bij de app Outlook voor Android of iOS op hun mobiele apparaten zonder dat ze hun gebruikersnaam en wachtwoord moeten invoeren. Door een QR-code te scannen kunnen gebruikers zich veilig verifiëren en zich aanmelden bij Outlook Mobile.
 
-In de webversie van Outlook of andere Bureaublad-Outlook-toepassingen zien gebruikers mogelijk meldingen met de mededeling dat ze Outlook op hun mobiele apparaat kunnen gebruiken. Deze meldingen kunnen worden beheerd door de beheerder met behulp van Exchange Powershell. Als gebruikers zichzelf een sms-bericht sturen om de app te downloaden op hun mobiele apparaat, wordt er een QR-code weergegeven op hun computer. Ze kunnen de QR-code scannen om zich aan te melden bij Outlook op hun telefoon of tablet. Deze QR-code is een token van korte duur die maar één keer kan worden ingewisseld.
+In de webversie van Outlook of andere Outlook-bureaubladtoepassingen zien gebruikers mogelijk meldingen met de mededeling dat ze Outlook op hun mobiele apparaat kunnen gebruiken. Deze meldingen kunnen worden beheerd door de beheerder met behulp van Exchange Powershell. Als gebruikers zichzelf een sms-bericht sturen om de app te downloaden op hun mobiele apparaat, wordt er een QR-code weergegeven op hun computer. Ze kunnen de QR-code scannen om zich aan te melden bij Outlook op hun telefoon of tablet. Deze QR-code is een token van korte duur die maar één keer kan worden ingewisseld.
 
 > [!NOTE]
 > In sommige gevallen moeten uw gebruikers zich opnieuw verifiëren op hun computer om de QR-code te genereren.
@@ -42,7 +42,7 @@ Deze ervaring is standaard ingeschakeld. Als u deze functie wilt uitschakelen, v
 2. Met PowerShell kunt u de meldingen uitschakelen om uw gebruikers te informeren over de mobiele Outlook-apps. Hiermee wordt ook voorkomen dat de aanmeldingsstroom voor QR-code wordt weergegeven.
 
 ```powershell
-Set-Organization -MobileAppEducationEnabled <Boolean>
+Set-OrganizationConfig -MobileAppEducationEnabled <Boolean>
 ```
 
 Verwante onderwerpen

@@ -15,17 +15,16 @@ ms.collection:
 - commerce
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - MET150
 description: Ontdek hier hoe je je factuur of rekening voor zakelijke Microsoft-producten kunt lezen en begrijpen.
 keywords: factureringsaccounts, organisatie info, facturen
-ms.openlocfilehash: 79702c369a097dbcbc8fe2319cd04663f9fe0441
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 521ef49e7f2292f8ea09210fb0edcce0d56e1b76
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114775"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126571"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Inzicht in je rekening of factuur
 

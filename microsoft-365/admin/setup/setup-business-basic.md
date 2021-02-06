@@ -18,19 +18,18 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
-- okr_smb
 - AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - BEA160
 description: Meer informatie over het instellen van uw abonnement op Microsoft 365 Business Basic.
-ms.openlocfilehash: b40b6a633c9c6c25daa4607c9e05178a1f418c51
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 43ae19b24058429c9276bd44dd4c3960c792ca0d
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350213"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126183"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Microsoft 365 Business Basic instellen
 
@@ -106,4 +105,4 @@ Als u services wilt instellen, moet u enkele records bij uw DNS-host of domeinre
 
     Wanneer het aanmeldingsproces is voltooid, wordt u doorgestuurd naar het beheercentrum, waar u gebruikers kunt toevoegen en licenties kunt toewijzen. Nadat u de eerste installatie hebt voltooid, kunt u de pagina **Instellingen** in het beheercentrum gebruiken om door te gaan met het instellen en configureren van de services die bij uw abonnementen worden geleverd.
 
-    Voor meer informatie over de installatiewizard en de **Installatie**pagina in het beheercentrum, raadpleegt u [Verschil tussen de installatiewizard en de installatiepagina](o365-setup-wizard-and-setup-page.md).
+    Voor meer informatie over de installatiewizard en de **Installatie** pagina in het beheercentrum, raadpleegt u [Verschil tussen de installatiewizard en de installatiepagina](o365-setup-wizard-and-setup-page.md).

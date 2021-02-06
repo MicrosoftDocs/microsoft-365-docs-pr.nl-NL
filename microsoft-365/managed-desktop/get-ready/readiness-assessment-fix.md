@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 22b5a6353720f8fbee218c138a3c9d0dee444db9
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: ff2ef15f93cef5255e8c8113facf51b833eff77d
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114917"
+ms.locfileid: "50122358"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
@@ -280,13 +280,13 @@ Er zijn een aantal licenties vereist voor het gebruik van Het beheerde bureaubla
 U hebt niet alle licenties die u nodig hebt om Microsoft Managed Desktop te gebruiken. Zie Microsoft [Managed Desktop Technologies](../intro/technologies.md) en Meer informatie over licenties voor meer [informatie.](prerequisites.md#more-about-licenses)
 
 
-### <a name="security-account-names"></a>Namen van beveiligingsaccounts
+### <a name="microsoft-managed-desktop-service-accounts"></a>Microsoft Managed Desktop Service-accounts
 
-Bepaalde namen van beveiligingsaccounts kunnen conflicteren met de namen die zijn gemaakt met het beheerde bureaublad van Microsoft.
+Bepaalde accountnamen kunnen conflicteren met accountnamen die zijn gemaakt door Beheerd bureaublad van Microsoft om de service Microsoft Managed Desktop te beheren.
 
 **Nog niet gereed**
 
-U hebt ten minste één accountnaam die conflicteren met de namen die zijn gemaakt met het beheerde bureaublad van Microsoft. Werk samen met uw Microsoft-accountvertegenwoordiger om deze accountnamen uit te sluiten.
+U hebt ten minste één accountnaam die strijdig is met accountnamen die zijn gemaakt met het beheerde bureaublad van Microsoft. Werk samen met uw Microsoft-accountvertegenwoordiger om deze accountnamen uit te sluiten. De accountnamen worden niet openbaar weergegeven om het beveiligingsrisico te minimaliseren. 
 
 
 ### <a name="security-administrator-roles"></a>Rollen van beveiligingsbeheerders
