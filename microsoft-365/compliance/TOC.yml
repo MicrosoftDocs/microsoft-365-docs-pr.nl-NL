@@ -666,6 +666,8 @@
               href: themes-in-advanced-ediscovery.md
             - name: De relevantiemodule gebruiken om gegevens te analyseren
               href: using-relevance.md
+            - name: Buitengebruikstelling van de relevantiemodule
+              href: relevance-module-retirement.md
         - name: Casegegevens exporteren
           href: exporting-data-ediscover20.md
           items:
