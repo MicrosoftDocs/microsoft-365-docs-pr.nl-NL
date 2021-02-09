@@ -1,5 +1,5 @@
 ---
-title: DeviceInfo-tabel in het geavanceerde schema voor zoeken
+title: De tabel DeviceInfo in het geavanceerde schema voor zoeken
 description: Meer informatie over het besturingssysteem, de computernaam en andere computergegevens vindt u in de tabel DeviceInfo van het geavanceerde schema voor zoeken
 keywords: advanced hunting, threat hunting, cyber threat hunting, microsoft threat protection, microsoft 365, mtp, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, machineinfo, DeviceInfo, device, machine, OS, platform, users
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e445902ee83b734f84d02607905413a14c016b8f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6462096a6c1b44ee11299f652a54f261d0355523
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931276"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145365"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -52,9 +52,11 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, inclusief variaties binnen dezelfde familie, zoals Windows 10 en Windows 7 |
 | `OSBuild` | tekenreeks | Buildversie van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `IsAzureADJoined` | boolean | Booleaanse indicator of de computer is verbonden met Azure Active Directory |
+| `DeviceObjectId` | tekenreeks | Unieke id voor het apparaat in Azure AD |
 | `LoggedOnUsers` | tekenreeks | Lijst met alle gebruikers die op de computer zijn aangemeld op het moment van de gebeurtenis in de JSON-matrixindeling |
 | `RegistryDeviceTag` | tekenreeks | Machinetag toegevoegd via het register |
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen Apparaatnaam en Tijdstempel |
+|`AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
 | `OSVersion` | tekenreeks | Versie van het besturingssysteem dat op de computer wordt uitgevoerd |
 | `MachineGroup` | tekenreeks | De machinegroep van de computer. Deze groep wordt gebruikt door toegangsbeheer op basis van rollen om de toegang tot de computer te bepalen |
 

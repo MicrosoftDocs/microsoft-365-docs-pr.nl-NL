@@ -1,5 +1,5 @@
 ---
-title: Risico onderzoek & antwoord mogelijkheden-Microsoft Defender voor Office 365-abonnement 2
+title: Bedreigingsonderzoek & antwoordmogelijkheden - Microsoft Defender voor Office 365 Abonnement 2
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: 12/09/2019
 audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -19,88 +18,93 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over het onderzoek en de antwoord mogelijkheden in Microsoft Defender for Office 365-abonnement.
-ms.openlocfilehash: dc6a3dec096b6834d024cc4ff74a5b7600c33d45
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Meer informatie over bedreigingsonderzoek en reactiemogelijkheden in Microsoft Defender voor Office 365-abonnement.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 32b23dca0d4cb70407ce91a652e458b729b3c12f
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794230"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150734"
 ---
-# <a name="threat-investigation-and-response"></a>Threat onderzoek en-antwoord
+# <a name="threat-investigation-and-response"></a>Bedreigingsonderzoek en reactie
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+-    [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
-Met behulp van bedreigingen voor onderzoek en antwoorden in [Microsoft Defender voor Office 365](office-365-atp.md) kunt u beveiligings analisten en beheerders beschermen tegen gebruikers van de organisatie microsoft 365 voor bedrijven door:
 
-- Het identificeren, controleren en begrijpen van cyberattacks
-- U kunt snel bedreigingen in Exchange Online, SharePoint Online, OneDrive voor bedrijven en Microsoft teams oplossen
-- Het verschaffen van inzichten en kennis bij het voorkomen van cyberattacks bij hun organisatie
-- [Geautomatiseerd onderzoek en antwoord in Office 365](automated-investigation-response-office.md) gebruiken voor cruciale bedreigingen op basis van e-mail
+Bedreigingsonderzoek en antwoordmogelijkheden in Microsoft Defender voor [Office 365](office-365-atp.md) helpen beveiligingsanalisten en beheerders om de Microsoft 365 voor Bedrijven-gebruikers van hun organisatie te beschermen door:
 
-Functies voor onderzoek en reacties van bedreigingen bieden inzicht in bedreigingen en gerelateerde antwoord acties die beschikbaar zijn in het beveiligings & nalevings centrum. Met deze inzichten kan het beveiligingsteam van uw organisatie gebruikers beschermen tegen een aanval via e-mail of op basis van een bestand. Met de functies kunt u signalen bijhouden en gegevens uit verschillende bronnen verzamelen, zoals gebruikersactiviteit, verificatie, e-mail, gemanipuleerde Pc's en beveiligingsincidenten. Besluitvormers en uw beveiligingsteam van uw bedrijf kunnen deze informatie gebruiken om de bedreigingen tegen uw organisatie te begrijpen en te beantwoorden en uw intellectuele eigendom te beschermen.
+- Maakt het gemakkelijk om cyberaanvallen te identificeren, te volgen en te begrijpen
+- Helpt om snel bedreigingen in Exchange Online, SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams aan te pakken
+- Het bieden van inzichten en kennis om beveiligingsactiviteiten te helpen voorkomen dat cyberaanvallen tegen hun organisatie worden uitgevoerd
+- Gebruik van [geautomatiseerd onderzoek en antwoorden in Office 365](automated-investigation-response-office.md) voor kritieke bedreigingen op basis van e-mail
 
-## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>Vertrouwd raken met de hulpmiddelen voor het onderzoek en de reactie van een bedreiging
+Risicoonderzoek en reactiemogelijkheden bieden inzicht in bedreigingen en gerelateerde reactieacties die beschikbaar zijn in het beveiligings- & compliancecentrum. Deze inzichten kunnen het beveiligingsteam van uw organisatie helpen om gebruikers te beschermen tegen e-mail- of bestandsaanvallen. De mogelijkheden helpen signalen controleren en gegevens verzamelen van meerdere bronnen, zoals gebruikersactiviteit, verificatie, e-mail, gekromde pc's en beveiligingsincidenten. Zakelijke besluitvormers en het team voor beveiligingsactiviteiten kunnen deze informatie gebruiken om inzicht te krijgen in en te reageren op bedreigingen in uw organisatie en om uw intellectuele eigendom te beschermen.
 
-Het gebied voor onderzoek van bedreigingen en antwoord mogelijkheden in het beveiligings & nalevings centrum, als een set hulpmiddelen en antwoord werkstromen, waaronder de volgende:
+## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>Vertrouwd raken met bedreigingsonderzoek en reactiehulpmiddelen
 
-- [Threat dashboard](#threat-dashboard)
-- [Explorer](#threat-explorer)
+Risicoonderzoek en reactiemogelijkheden worden in het beveiligings- & compliancecentrum beschikbaar als een set hulpprogramma's en antwoordwerkstromen, waaronder de volgende:
+
+- [Bedreigingsdashboard](#threat-dashboard)
+- [Verkenner](#threat-explorer)
 - [Incidenten](#incidents)
 - [Aanvalssimulator](#attack-simulator)
 - [Geautomatiseerd onderzoek en reactie](automated-investigation-response-office.md)
 
-### <a name="threat-dashboard"></a>Threat dashboard
+### <a name="threat-dashboard"></a>Bedreigingsdashboard
 
-Gebruik het bedreigings dashboard (dit wordt ook wel het [beveiligings dashboard](security-dashboard.md)genoemd) om snel te zien welke bedreigingen zijn geadresseerd, en u kunt een visuele manier melden aan de professionele besluitvorming hoe microsoft 365-Services uw bedrijf beschermen.
+Gebruik het bedreigingsdashboard (dit wordt ook wel het beveiligingsdashboard [genoemd)](security-dashboard.md)om snel te zien welke bedreigingen zijn aangepakt en als een visuele manier om aan zakelijke besluitvormers te rapporteren hoe Microsoft 365-services uw bedrijf beveiligen.
 
-![Threat dashboard](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
+![Bedreigingsdashboard](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
 
-Als u dit dashboard wilt weergeven en gebruiken, gaat u naar het beveiligings  & nalevings centrum en gaat u naar \> **Dashboard** voor risicobeheer.
+Als u dit dashboard wilt weergeven en gebruiken, gaat  u in het & Compliancecentrum naar \> **Dashboard risicobeheer.**
 
 ### <a name="threat-explorer"></a>Bedreigingsverkenner
 
-Met behulp van [bedreigings Verkenner (en realtime-detectie)](threat-explorer.md) voor het analyseren van bedreigingen, raadpleegt u het volume van aanvallen gedurende een periode en analyseert u de gegevens per bedreigings familie, infrastructuur van kwaadwillenden en meer. De Threat Explorer (ook wel ook wel Explorer genoemd) is het beginpunt voor de onderzoek werkstroom van een beveiligings analist.
+Gebruik [Bedreigingsverkenner (en realtime detecties)](threat-explorer.md) om bedreigingen te analyseren, het volume van aanvallen in de tijd te zien en gegevens te analyseren door bedreigingsfamilies, de infrastructuur van de aanvaller en meer. Bedreigingsverkenner (ook wel Verkenner genoemd) is de beginpunt voor de werkstroom voor onderzoek van een beveiligingsanalist.
 
-![Bedreigings Verkenner](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
+![Bedreigingsverkenner](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
 
-Als u dit rapport wilt weergeven en gebruiken, **gaat u naar** het beveiligings & compliance Center \> .
+Als u dit rapport wilt bekijken en gebruiken, gaat u in het & Compliancecentrum naar **Bedreigingsbeheerverkenner.** \> 
 
 ### <a name="incidents"></a>Incidenten
 
-Gebruik de lijst met incidenten (dit wordt ook wel onderzoek genoemd) om een lijst weer te geven met een overzicht van de beveiligingsincidenten van de vlucht. Incidenten worden gebruikt om bedreigingen zoals verdachte e-mailberichten bij te houden en verder onderzoek en herstel te doen.
+Gebruik de lijst met incidenten (dit wordt ook wel onderzoeken genoemd) om een lijst weer te nemen van beveiligingsincidenten van flight. Incidenten worden gebruikt om bedreigingen zoals verdachte e-mailberichten bij te houden en om verdere onderzoeken en herstel uit te voeren.
 
-![Lijst met huidige bedreigingen in Office 365](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
+![Lijst met huidige bedreigingsincidenten in Office 365](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
 
-Als u de lijst met huidige incidenten voor uw organisatie wilt weergeven, gaat u naar het beveiligings & nalevings centrum en **gaat u naar** \>  \> **incidenten** controleren.
+Als u de lijst met huidige incidenten voor uw organisatie wilt weergeven, gaat u in het & Compliancecentrum naar Incidenten voor  \>  \> risicobeheer.
 
-![Kies in het beveiligings & nalevings centrum de optie Threat Management \> Review](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
+![Kies Risicobeheer & het compliancecentrum van het \> beveiligingscentrum](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
 ### <a name="attack-simulator"></a>Aanvalssimulator
 
-Gebruik aanvals Simulator om realistische cyberattacks in uw organisatie in te stellen en uit te voeren en Identificeer gevoelige mensen voordat een echte cyberattack invloed heeft op uw bedrijf. Zie [aanvals Simulator in Office 365](attack-simulator.md)voor meer informatie.
+Gebruik de attack simulator om realistische cyberaanvallen in uw organisatie in te stellen en uit te voeren en om kwetsbaar mensen te identificeren voordat een echte cyberaanvallen uw bedrijf beïnvloeden. Zie Attack [Simulator in Office 365 voor meer informatie.](attack-simulator.md)
 
 ### <a name="automated-investigation-and-response"></a>Geautomatiseerd onderzoek en reactie
 
-Gebruik geautomatiseerde functies voor onderzoek en Reacties (lucht) om tijd te besparen en om te zien hoe u inhoud, apparaten en mensen kunt afstemmen tegen Risico's in uw organisatie. LUCHT processen kunnen beginnen wanneer bepaalde waarschuwingen worden geactiveerd of wanneer ze worden gestart door het team van uw beveiligingsactiviteiten. Zie voor meer informatie dit [geautomatiseerde onderzoek en antwoord in Office 365](automated-investigation-response-office.md).
+Gebruik air-mogelijkheden (Automated Investigation and Response) om tijd en moeite te besparen bij het aan elkaar houden van inhoud, apparaten en personen die risico lopen voor bedreigingen in uw organisatie. AIR-processen kunnen beginnen wanneer bepaalde waarschuwingen worden geactiveerd of wanneer het team voor beveiligingsbewerkingen aan de slag gaat. Zie Automatisch onderzoek en antwoorden [in Office 365](automated-investigation-response-office.md)voor meer informatie.
 
-## <a name="threat-intelligence-widgets"></a>Threat Intelligence widgets
+## <a name="threat-intelligence-widgets"></a>Bedreigingsinformatiewidgets
 
-Als onderdeel van de aanbieding Microsoft Defender voor Office 365 abonnement 2, kunnen beveiligings analisten informatie over een bekende bedreiging bekijken. Dit is handig om te bepalen of er extra preventieve maatregelen/stappen zijn waarmee gebruikers veilig kunnen blijven.
+Als onderdeel van de aanbieding van Microsoft Defender voor Office 365 Plan 2 kunnen beveiligingsanalisten details over een bekende bedreiging bekijken. Dit is handig om te bepalen of er aanvullende preventative measures/steps zijn die kunnen worden genomen om gebruikers veilig te houden.
 
-![Beveiligings trends met informatie over recente bedreigingen](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
+![Beveiligingstrends met informatie over recente bedreigingen](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
 
 ## <a name="how-do-we-get-these-capabilities"></a>Hoe krijgen we deze mogelijkheden?
 
-De mogelijkheden van Microsoft 365 Threat onderzoek en beantwoorden zijn opgenomen in Microsoft Defender for Office 365-abonnement 2, dat deel uitmaakt van Enterprise E5 of als een invoegtoepassing voor bepaalde abonnementen. Zie voor meer informatie: [Defender for Office 365 abonnement 1 en abonnement 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
+Microsoft 365-mogelijkheden voor risicoonderzoek en -antwoorden zijn opgenomen in Microsoft Defender voor Office 365 Plan 2, dat is opgenomen in Enterprise E5 of als een invoegabonnement voor bepaalde abonnementen. Zie Defender voor [Office 365 Abonnement 1](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2)en Abonnement 2 voor meer informatie.
 
 ## <a name="required-roles-and-permissions"></a>Vereiste rollen en machtigingen
 
-Microsoft Defender voor Office 365 maakt gebruik van rollend toegangsbeheer op basis van rollen. Machtigingen worden toegewezen via bepaalde rollen in azure Active Directory, het Microsoft 365-Beheercentrum of de beveiligings & nalevings centrum.
+Microsoft Defender voor Office 365 maakt gebruik van toegangsbeheer op basis van rollen. Machtigingen worden toegewezen via bepaalde rollen in Azure Active Directory, het Microsoft 365-beheercentrum of het & compliancecentrum.
 
 > [!TIP]
-> Hoewel sommige rollen, zoals beveiligingsbeheerder, in het beveiligings & nalevings centrum kunnen worden toegewezen, kunt u het beste het Microsoft 365-Beheercentrum of Azure Active Directory gebruiken. Raadpleeg de volgende bronnen voor meer informatie over rollen, rollen groepen en machtigingen:
+> Hoewel sommige rollen, zoals beveiligingsbeheerder, kunnen worden toegewezen in het beveiligings- & compliancecentrum, kunt u in plaats daarvan het Microsoft 365-beheercentrum of Azure Active Directory gebruiken. Zie de volgende bronnen voor informatie over rollen, rollengroepen en machtigingen:
 >
 > - [Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)
 >
@@ -110,19 +114,19 @@ Microsoft Defender voor Office 365 maakt gebruik van rollend toegangsbeheer op b
 
 |Activiteit|Rollen en machtigingen|
 |---|---|
-|Het risico dashboard (of het nieuwe [beveiligings dashboard](security-dashboard.md)) gebruiken <p> Informatie weergeven over recente of actuele bedreigingen|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligings lezer**</li></ul> <p> U kunt deze rollen toewijzen in azure Active Directory ( <https://portal.azure.com> ) of in het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ).|
-|Het gebruik van [bedreigings Verkenner (en real-time detecties)](threat-explorer.md) om bedreigingen te analyseren|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligings lezer**</li></ul> <p> U kunt deze rollen toewijzen in azure Active Directory ( <https://portal.azure.com> ) of in het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ).|
-|Incidenten bekijken (ook wel onderzoek genoemd) <p> E-mailberichten toevoegen aan een incident|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligings lezer**</li></ul> <p> U kunt deze rollen toewijzen in azure Active Directory ( <https://portal.azure.com> ) of in het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ).|
-|E-mail acties in een incident activeren <p> Verdachte e-mailberichten zoeken en verwijderen|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder** plus de rol **zoeken en wissen**</li></ul> <p> De **globale beheerder** en rollen van **Beveiligingsbeheerders** kunnen worden toegewezen in azure Active Directory ( <https://portal.azure.com> ) of in het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ). <p> De rol **zoeken en wissen** moet worden toegewezen in het beveiligings & compliance Center ( <https://protection.office.com> ).|
-|Microsoft Defender voor Office 365-abonnement 2 integreren met Microsoft Defender voor eindpunt  <p> Microsoft Defender voor Office 365 abonnement 2 integreren met een SIEM-server|De **globale beheerder** of de rol van **beveiligingsbeheerder** toegewezen in azure Active Directory ( <https://portal.azure.com> ) of het Microsoft 365-Beheercentrum ( <https://admin.microsoft.com> ). <p> --- **Plus** --- <p> De juiste rol die is toegewezen aan extra toepassingen (bijvoorbeeld [Microsoft Defender-Beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) of uw Siem server).|
+|Het bedreigingsdashboard (of het nieuwe [beveiligingsdashboard) gebruiken](security-dashboard.md) <p> Informatie over recente of huidige bedreigingen weergeven|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligingslezer**</li></ul> <p> Deze rollen kunnen worden toegewezen in Azure Active Directory () of in het <https://portal.azure.com> Microsoft 365-beheercentrum ( <https://admin.microsoft.com> ).|
+|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md) gebruiken om bedreigingen te analyseren|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligingslezer**</li></ul> <p> Deze rollen kunnen worden toegewezen in Azure Active Directory () of in het <https://portal.azure.com> Microsoft 365-beheercentrum ( <https://admin.microsoft.com> ).|
+|Incidenten weergeven (ook wel onderzoek genoemd) <p> E-mailberichten toevoegen aan een incident|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder**</li><li>**Beveiligingslezer**</li></ul> <p> Deze rollen kunnen worden toegewezen in Azure Active Directory () of in het <https://portal.azure.com> Microsoft 365-beheercentrum ( <https://admin.microsoft.com> ).|
+|E-mailacties in een incident activeren <p> Verdachte e-mailberichten zoeken en verwijderen|Een van de volgende opties: <ul><li>**Globale beheerder**</li><li>**Beveiligingsbeheerder** plus de **rol Zoeken en purge**</li></ul> <p> De **rollen van de** globale beheerder en beveiligingsbeheerder kunnen worden toegewezen in Azure Active Directory () of het Microsoft  <https://portal.azure.com> 365-beheercentrum ( <https://admin.microsoft.com> ). <p> De **rol Zoeken en purge** moet worden toegewezen in het beveiligings- & Compliancecentrum ( <https://protection.office.com> ).|
+|Microsoft Defender voor Office 365 Abonnement 2 integreren met Microsoft Defender voor eindpunt  <p> Microsoft Defender voor Office 365 Plan 2 integreren met een SIEM-server|De globale **beheerder of** de rol **beveiligingsbeheerder** die is toegewezen in Azure Active Directory () of het <https://portal.azure.com> Microsoft 365-beheercentrum ( <https://admin.microsoft.com> ). <p> --- **plus** --- <p> Een relevante rol die is toegewezen in aanvullende toepassingen (zoals [het Microsoft Defender-beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) of uw SIEM-server).|
 |
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Meer informatie over bedreigings Spoorers-nieuw en opmerkelijk](threat-trackers.md)
+- [Meer informatie over bedreigingstrackers - nieuw en opvallend](threat-trackers.md)
 
-- [Schadelijke e-mail zoeken en onderzoeken die is bezorgd (Office 365 Threat onderzoek en-antwoord)](investigate-malicious-email-that-was-delivered.md)
+- [Schadelijke e-mail zoeken en onderzoeken die is geleverd (Bedreigingsonderzoek en reactie van Office 365)](investigate-malicious-email-that-was-delivered.md)
 
-- [Office 365-Threat onderzoek en-antwoord met Microsoft Defender voor eindpunten integreren](integrate-office-365-ti-with-wdatp.md)
+- [Bedreigingsonderzoek en -antwoorden van Office 365 integreren met Microsoft Defender voor eindpunt](integrate-office-365-ti-with-wdatp.md)
 
-- [Meer informatie over aanvals Simulator](attack-simulator.md)
+- [Meer informatie over Attack Simulator](attack-simulator.md)

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 172c400df3adea70a2e2d2e37547fa39e0d3b9cf
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3eba2459fd9a0af1963ca8d1446b22fc0b1bdb93
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928616"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145401"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -63,7 +63,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `ResourceId`           | tekenreeks        | Unieke id van de bron die wordt gebruikt                                                                                                      |
 | `ResourceTenantId`     | tekenreeks        | Unieke id van de tenant van de bron die is gebruikt                                                                                        |
 | `IPAddress`            | tekenreeks        | IP-adres dat aan het eindpunt is toegewezen en dat is gebruikt tijdens gerelateerde netwerkcommunicatie                                                              |
-| `CountryCode`          | tekenreeks        | Tweeletterige code die het land aangeeft waar het IP-adres van de client geo-toegewezen is                                                                |
+| `Country`          | tekenreeks        | Tweeletterige code die het land aangeeft waar het IP-adres van de client geo-toegewezen is                                                                |
 | `State`                | tekenreeks        | Provincie waar de aanmelding heeft plaatsgevonden, indien beschikbaar                                                                                                  |
 | `City`                 | tekenreeks        | Plaats waar de accountgebruiker zich bevindt                                                                                                          |
 | `Latitude`             | tekenreeks        | De coördinaten van de aanmeldingslocatie van Noord naar Zuid                                                                                          |

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3a5666cc106365876956c8e313f9cd2f5a996e6f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 60455c0a66548654da52544e3d7ece84aecb9cf3
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931228"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145437"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
@@ -53,17 +53,22 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `AccountDomain` | tekenreeks | Domein van het account |
 | `AccountName` | tekenreeks | Gebruikersnaam van het account |
 | `AccountSid` | tekenreeks | Security Identifier (SID) van het account |
-| `LogonType` | tekenreeks | Het type aanmeldingssessie, met name:<br><br> - **Interactief:** de gebruiker werkt fysiek met de computer via het lokale toetsenbord en scherm<br><br> - **Externe interactieve aanmeldingsservices (RDP).** Gebruiker werkt op afstand met de computer via Extern bureaublad, Terminalservices, Hulp op afstand of andere RDP-clients<br><br> - **Netwerk:** de sessie wordt gestart wanneer de computer wordt gebruikt met PsExec of wanneer gedeelde bronnen op de computer, zoals printers en gedeelde mappen, worden gebruikt<br><br> - **Batch:** sessie gestart door geplande taken<br><br> - **Service:** een sessie gestart door services terwijl ze beginnen<br> |
+| `Protocol` | tekenreeks | Protocol dat is gebruikt tijdens de communicatie |
+| `FailureReason` | tekenreeks | Informatie waarin wordt uitgelegd waarom de opgenomen actie is mislukt |
+| `LogonType` | tekenreeks | Het type aanmeldingssessie, met name:<br><br> - **Interactief:** de gebruiker werkt fysiek met de computer via het lokale toetsenbord en scherm<br><br> - **Externe interactieve aanmeldingsservices (RDP),** de gebruiker werkt op afstand met de computer via Extern bureaublad, Terminal Services, Hulp op afstand of andere RDP-clients<br><br> - **Netwerk:** de sessie wordt gestart wanneer de computer wordt gebruikt met PsExec of wanneer gedeelde bronnen op de computer, zoals printers en gedeelde mappen, worden gebruikt<br><br> - **Batch:** sessie gestart door geplande taken<br><br> - **Service:** een sessie gestart door services terwijl ze beginnen<br> |
 | `LogonId` | tekenreeks | Id voor een aanmeldingssessie. Deze id is alleen uniek op dezelfde computer tussen opnieuw opstarten |
 | `RemoteDeviceName` | tekenreeks | De naam van de computer die een externe bewerking heeft uitgevoerd op de betreffende computer. Afhankelijk van de gebeurtenis die wordt gerapporteerd, kan deze naam een FQDN (Fully Qualified Domain Name), een NetTICAS-naam of een hostnaam zonder domeingegevens zijn. |
 | `RemoteIP` | tekenreeks | IP-adres dat werd gekoppeld aan |
 | `RemoteIPType` | tekenreeks | Type IP-adres, bijvoorbeeld Openbaar, Privé, Gereserveerd, Loopback, Teredo, FourToSixMapping en Broadcast |
 | `RemotePort` | int | TCP-poort op het externe apparaat dat werd verbonden met |
 | `AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
+| `InitiatingProcessFileSize` | lang | Grootte van het bestand dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountDomain` | tekenreeks | Het domein van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountName` | tekenreeks | Gebruikersnaam van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountSid` | tekenreeks | Security Identifier (SID) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
-| `InitiatingProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus hebben invloed op machtigingen voor resources |
+| `InitiatingProcessAccountUpn` | tekenreeks | UPN (User Principal Name) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| ` InitiatingProcessAccountObjectId` | tekenreeks | Azure AD-object-id van het gebruikersaccount dat het proces heeft uitgevoerd dat verantwoordelijk is voor de gebeurtenis |
+| `InitiatingProcessIntegrityLevel` | tekenreeks | Het integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
 | `InitiatingProcessTokenElevation` | tekenreeks | Tokentype dat de aanwezigheid of afwezigheid aangeeft van UAC-bevoegdheden (User Access Control) die zijn toegepast op het proces waarmee de gebeurtenis is gestart |
 | `InitiatingProcessSHA1` | tekenreeks | SHA-1 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessSHA256` | tekenreeks | SHA-256 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart. Dit veld wordt meestal niet ingevuld. Gebruik de kolom SHA1 indien beschikbaar |

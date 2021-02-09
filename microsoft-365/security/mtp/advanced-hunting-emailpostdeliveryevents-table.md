@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d7920be05156320411f3907cbcdae88d315b5136
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 774676e15e9018b13674149b6a2e147a91000814
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929704"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145497"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -45,7 +45,6 @@ Voor meer informatie over afzonderlijke e-mailberichten kunt u ook de [`EmailEve
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
-| `EventId` | tekenreeks | Unieke id voor de gebeurtenis |
 | `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Microsoft 365 |
 | `InternetMessageId` | tekenreeks | Openbare id voor de e-mail die wordt ingesteld door het verzendende e-mailsysteem |
 | `Action` | tekenreeks | Actie ondernomen op de entiteit |
@@ -54,6 +53,7 @@ Voor meer informatie over afzonderlijke e-mailberichten kunt u ook de [`EmailEve
 | `ActionResult` | tekenreeks | Resultaat van de actie |
 | `RecipientEmailAddress` | tekenreeks | Het e-mailadres van de geadresseerde of het e-mailadres van de ontvanger na uitbreiding van de distributielijst |
 | `DeliveryLocation` | tekenreeks | Locatie waar de e-mail is bezorgd: Postvak IN/map, On-premises/Extern, Ongewenste e-mail, Quarantaine, Mislukt, Geplaatst, Verwijderde items |
+| `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp. |
 
 ## <a name="supported-event-types"></a>Ondersteunde gebeurtenistypen
 In deze tabel worden gebeurtenissen met de volgende waarden `ActionType` vastleggen:

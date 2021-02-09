@@ -9,45 +9,49 @@ audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
-description: Beheerders kunnen informatie vinden over het rapport met automatisch doorgestuurde berichten in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum.
+description: Beheerders vinden meer informatie over het rapport met automatisch doorgestuurde berichten in het dashboard voor de e-mailstroom in het & compliancecentrum.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c892400152df15adb3dfeb0c747ed7fae034d3d6
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: c95c403e0b342bf0466c45804ba3975c492b8e1b
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029940"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150594"
 ---
-# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Berichten met automatisch doorgestuurde inzichten in het beveiligings & nalevings centrum
+# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Inzichten in automatisch doorgestuurde berichten in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Met de **automatisch doorgestuurde berichten** in het [Dashboard voor e-mail stromen](mail-flow-insights-v2.md) in de [beveiligings & nalevings centrum](https://protection.office.com) wordt informatie weergegeven over berichten die automatisch van uw organisatie worden doorgestuurd naar geadresseerden in externe domeinen.
+Het inzicht **in automatisch** doorgestuurde berichten in het dashboard [E-mailstroom](mail-flow-insights-v2.md) in het [beveiligings- & Compliancecentrum](https://protection.office.com) geeft informatie weer over berichten die automatisch vanuit uw organisatie worden doorgestuurd naar geadresseerden in externe domeinen.
 
-![Widget berichten automatisch doorsturen in het Beveiligingscentrum beveiligings &](../../media/mfi-auto-forwarded-messages.png)
+![Widget voor automatisch doorgestuurde berichten in het & compliancecentrum](../../media/mfi-auto-forwarded-messages.png)
 
 ## <a name="auto-forwarded-messages-details"></a>Details van automatisch doorgestuurde berichten
 
-Wanneer u op het aantal berichten in het object klikt, wordt er een flyout weergegeven met meer informatie over de automatisch doorgestuurde berichten:
+Wanneer u op het aantal berichten in de widget klikt, wordt een flyoutvenster weergegeven met meer informatie over de automatisch doorgestuurde berichten:
 
-- **Berichten automatisch doorsturen met behulp van doorstuur methoden**:
+- **Automatisch doorgestuurde berichten met methoden voor doorsturen:**
 
-  - **Door een e-mail stroom regel**
-  - **Door regels voor Postvak in**
-  - **Door het doorsturen van SMTP: met** deze methode wordt automatisch doorsturen aangegeven die beheerders kunnen configureren in een postvak, zoals beschreven in het [doorsturen van e-mail voor een postvak configureren](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
-  - Een koppeling naar het [doorstuur rapport](view-mail-flow-reports.md#forwarding-report) voor meer informatie.
+  - **Regels voor de e-mailstroom**
+  - **Op regels voor Postvak IN**
+  - **Doorsturen via SMTP:** met deze methode wordt automatisch doorsturen aangegeven die beheerders voor een postvak kunnen configureren, zoals is beschreven in Doorsturen van e-mail configureren [voor een postvak.](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
+  - Een koppeling naar het [doorsturende rapport](view-mail-flow-reports.md#forwarding-report) voor meer informatie.
 
-- **Berichten automatisch doorsturen en door domeinen en gebruikers**:
+- **Automatisch doorgestuurde berichten van domeinen en gebruikers:**
 
-  - **Vijf belangrijkste domeinen doorgestuurd naar**
+  - **De vijf belangrijkste domeinen die zijn doorgestuurd naar**
   - **Nieuwe domeinen (vorige week)**
-  - **Belangrijkste 5 doorstuur gebruikers**
+  - **De vijf belangrijkste doorsturende gebruikers**
   - **Nieuwe gebruikers (vorige week)**
-  - Een koppeling naar de [lijst met wijzigingen doorsturen](mfi-new-users-forwarding-email.md#forwarding-modifications-report) voor meer informatie.
+  - Een koppeling naar het [rapport met doorgestuurde wijzigingen](mfi-new-users-forwarding-email.md#forwarding-modifications-report) voor meer informatie.
 
-![Flyout Details van het rapport met automatisch doorgestuurde berichten in het Beveiligingscentrum beveiligings &](../../media/mfi-auto-forwarded-messages-details.png)
+![Flyout details voor het rapport Automatisch doorgestuurde berichten in het beveiligings- & compliancecentrum](../../media/mfi-auto-forwarded-messages-details.png)
 
 ## <a name="insights"></a>Inzichten
 
@@ -58,4 +62,4 @@ Er worden twee inzichten gegenereerd op basis van de rapportgegevens:
 
 ## <a name="see-also"></a>Zie ook
 
-Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).
+Zie inzichten in de e-mailstroom in het beveiligings- en compliancecentrum voor meer informatie & [inzichten in het dashboard E-mailstroom.](mail-flow-insights-v2.md)

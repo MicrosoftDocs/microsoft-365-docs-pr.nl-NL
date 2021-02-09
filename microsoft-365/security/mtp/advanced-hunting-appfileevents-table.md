@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 59e9affc53398f2a1b06fbab9774e4b53e146425
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8406d1f9e3d56555b1699d191933c6f9735c9574
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932872"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145485"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -40,20 +40,21 @@ De tabel in het geavanceerde zoekschema bevat informatie over activiteiten in ve
 >[!TIP]
 > Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
 
-Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
+Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
-| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal voor](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) meer informatie |
+| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor meer informatie |
 | `Application` | tekenreeks | Toepassing die de opgenomen actie heeft uitgevoerd |
-| `FileName` | tekenreeks | Naam van het bestand waar de opgenomen actie op is toegepast |
+| `FileName` | tekenreeks | De naam van het bestand waar de opgenomen actie op is toegepast |
 | `FolderPath` | tekenreeks | Map met het bestand waar de opgenomen actie op is toegepast |
-| `PreviousFileName` | tekenreeks | Oorspronkelijke naam van het bestand dat door de actie een andere naam heeft gegeven |
+| `PreviousFileName` | tekenreeks | Oorspronkelijke naam van het bestand dat is hernoemd als gevolg van de actie |
 | `PreviousFolderPath` | tekenreeks | Oorspronkelijke map met het bestand voordat de opgenomen actie werd toegepast |
 | `Protocol` | tekenreeks | Netwerkprotocol gebruikt |
 | `AccountName` | tekenreeks | Gebruikersnaam van het account |
 | `AccountDomain` | tekenreeks | Domein van het account |
+| `AccountSid` | tekenreeks | Security Identifier (SID) van het account |
 | `AccountUpn` | tekenreeks | UPN (User Principal Name) van het account |
 | `AccountObjectId` | tekenreeks | Unieke id voor het account in Azure AD |
 | `AccountDisplayName` | tekenreeks | De naam van de accountgebruiker die wordt weergegeven in het adresboek. Meestal een combinatie van een bepaalde of voornaam, een middelste start en een achternaam of achternaam. |
@@ -61,8 +62,10 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `DeviceType` | tekenreeks | Type apparaat | 
 | `OSPlatform` | tekenreeks | Platform van het besturingssysteem dat wordt uitgevoerd op het apparaat. Dit geeft specifieke besturingssystemen aan, inclusief variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. |
 | `IPAddress` | tekenreeks | IP-adres dat aan het eindpunt is toegewezen en dat is gebruikt tijdens gerelateerde netwerkcommunicatie |
+| `Port` | tekenreeks | TCP-poort gebruikt tijdens communicatie  |
 | `DestinationDeviceName` | tekenreeks | Naam van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
 | `DestinationIPAddress` | tekenreeks | Het IP-adres van het apparaat met de servertoepassing die de opgenomen actie heeft verwerkt |
+| `DestinationPort` | tekenreeks | Bestemmingspoort van gerelateerde netwerkcommunicatie |
 | `Location` | tekenreeks | Plaats, land of andere geografische locatie die is gekoppeld aan de gebeurtenis |
 | `Isp` | tekenreeks | Internetprovider (ISP) die is gekoppeld aan het IP-adres van het eindpunt |
 | `ReportId` | lang | Unieke id voor de gebeurtenis |

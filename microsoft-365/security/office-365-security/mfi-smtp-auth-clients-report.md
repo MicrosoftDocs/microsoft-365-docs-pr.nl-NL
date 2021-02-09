@@ -1,5 +1,5 @@
 ---
-title: Inzicht en rapporten met SMTP-verificatie clients in het dashboard voor e-mail stroom
+title: Inzichten en rapporten van SMTP-auth-clients in het dashboard van de e-mailstroom
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -11,84 +11,88 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe u het SMTP-authenticatie inzicht en rapporten kunt gebruiken in het dashboard voor de beveiliging van de e-mail in het beveiligings & nalevings centrum om e-mail afzenders in hun organisatie met geverifieerde SMTP-verificatie (SMTP-verificatie) te controleren en e-mailberichten te verzenden.
+description: Beheerders kunnen informatie krijgen over het gebruik van het inzicht smtp-verificatie in het dashboard E-mailstroom in het beveiligings- &-compliancecentrum om e-mail afzenders in hun organisatie te controleren die gebruikmaken van geverifieerde SMTP -verificatie (SMTP AUTH) om e-mailberichten te verzenden.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: afceb767f6ebfeed96deb6362e05bb088b548c3d
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 3476ee2f9388245fb105a0910fa7b7d11ec3aeee
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029160"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150241"
 ---
-# <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Client-auth-clients inzicht en rapporteren in de beveiligings & nalevings centrum
+# <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Inzichten en rapportage van SMTP-auth-clients in het beveiligings- & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-De **SMTP auth-clients** bieden inzicht in in het [Dashboard voor de e-mail stroom](mail-flow-insights-v2.md) en het bijbehorende [SMTP-](#smtp-auth-clients-report) auth-client rapport in het [nalevings centrum voor beveiligings &](https://protection.office.com) het gebruik van het SMTP-verificatieprotocol voor clientverificatie door gebruikers of systeemaccounts in uw organisatie. Dit oudere protocol (met het eindpunt smtp.office365.com) biedt alleen basisverificatie en kan worden gebruikt door gemanipuleerde accounts om e-mail te verzenden. In het inzicht en de rapportage kunt u controleren op ongebruikelijke activiteiten voor e-mail inzendingen van SMTP-verificatie. Ook de TLS-gebruiksgegevens voor clients of apparaten worden weergegeven met SMTP-AUTH.
+Het inzicht van **SMTP Auth-clients** in het dashboard voor de [e-mailstroom](mail-flow-insights-v2.md) en het bijbehorende rapport [SMTP Auth-clients](#smtp-auth-clients-report) in het [beveiligings- & Compliancecentrum](https://protection.office.com) belicht het gebruik van het SMTP AUTH-clientverzendingsprotocol door gebruikers of systeemaccounts in uw organisatie. Dit oude protocol (dat gebruikmaakt van het eindpunt smtp.office365.com) biedt alleen basisverificatie en is gevoelig voor gebruik door gekromde accounts voor het verzenden van e-mail. Met het inzicht en rapport kunt u controleren op ongebruikelijke activiteiten voor SMTP AUTH-e-mailinzending. Hier worden ook de gebruiksgegevens van TLS voor clients of apparaten met SMTP-AUTH gebruikt.
 
-De widget geeft het aantal gebruikers of serviceaccounts aan dat het SMTP-authenticatieprotocol in de afgelopen 7 dagen heeft gebruikt.
+De widget geeft het aantal gebruikers of serviceaccounts aan dat de afgelopen zeven dagen het SMTP-auth-protocol heeft gebruikt.
 
-![De widget SMTP-auth-clients in het dashboard voor de e-mail stroom van het beveiligings & nalevings centrum](../../media/mfi-smtp-auth-clients-report-widget.png)
+![Widget SMTP-auth-clients in het dashboard E-mailstroom in het & Compliancecentrum](../../media/mfi-smtp-auth-clients-report-widget.png)
 
-Als u op het aantal berichten in het object klikt, wordt een flyout **SMTP auth clients** weergegeven. Het flyout biedt een geaggregeerde weergave van het TLS-gebruik en de volumes voor de laatste week.
+Als u op het aantal berichten in de widget klikt, wordt een flyout voor **SMTP-auth-clients** weergegeven. De flyout biedt een samengevoegde weergave van het TLS-gebruik en de volumes van de afgelopen week.
 
-![Info-flyout na klikken op de widget SMTP-auth-clients in het dashboard voor e-mail stroom](../../media/mfi-smtp-auth-clients-report-details.png)
+![Flyout details na klikken op de widget SMTP Auth clients in the Mail flow dashboard](../../media/mfi-smtp-auth-clients-report-details.png)
 
-U kunt op de koppeling naar de **SMTP-auth-clients** klikken om naar de lijst met SMTP-verificatie clients te gaan, zoals wordt beschreven in de volgende sectie.
+U kunt klikken op de koppeling voor het **rapport SMTP-auth-clients** om naar het rapport SMTP-auth-clients te gaan, zoals wordt beschreven in de volgende sectie.
 
 ## <a name="smtp-auth-clients-report"></a>SMTP-verificatierapport voor clients
 
-### <a name="report-view-for-the-smtp-auth-clients-report"></a>Rapportweergave voor het rapport met SMTP-verificatie clients
+### <a name="report-view-for-the-smtp-auth-clients-report"></a>Rapportweergave voor het rapport SMTP-auth-clients
 
-In het rapport worden standaardgegevens weergegeven voor de laatste 7 dagen, maar de gegevens zijn beschikbaar voor de laatste 90 dagen.
+Standaard worden in het rapport gegevens van de afgelopen zeven dagen weergegeven, maar de gegevens zijn beschikbaar voor de afgelopen 90 dagen.
 
-De sectie overzicht bevat de volgende grafieken:
+De sectie Overzicht bevat de volgende grafieken:
 
-- **Gegevens weergeven voor: verzenden volume**: in de grafiek worden standaard de SMTP-auth-client berichten weergegeven die zijn verzonden vanuit alle domeinen (**gegevens weergeven voor: alle domeinen** van de afzender worden standaard geselecteerd). U kunt de resultaten filteren op een bepaald domein van de afzender door op **gegevens weergeven voor** te klikken en het domein van de afzender in de vervolgkeuzelijst te selecteren. Als u een specifiek gegevenspunt (dag) aanwijst, wordt het aantal berichten weergegeven.
+- Gegevens weergeven **op: Volume verzenden:** In de grafiek ziet u standaard het aantal SMTP Auth-clientberichten dat is verzonden vanuit alle domeinen ( Gegevens weergeven **voor:** Alle afzenderdomeinen is standaard geselecteerd). U kunt de resultaten filteren op een  specifiek afzenderdomein door te klikken op Gegevens tonen voor en het domein van de afzender te selecteren in de vervolgkeuzelijst. Als u een specifiek gegevenspunt (dag) aanwijzert, wordt het aantal berichten weergegeven.
 
-  ![De weergave volume in het rapport SMTP-auth-clients verzenden in het Beveiligingscentrum voor beveiliging &](../../media/mfi-smtp-auth-clients-report-sending-volume-view.png)
+  ![Volumeweergave verzenden in het rapport SMTP-auth-clients in het & compliancecentrum](../../media/mfi-smtp-auth-clients-report-sending-volume-view.png)
 
-- **Gegevens weergeven op: TLS**: de grafiek bevat het percentage van TLS-gebruik voor alle SMTP auth-client berichten tijdens de geselecteerde tijdsperiode. Met deze grafiek kunt u de gebruikers en systeemaccounts identificeren en er actie ondernemen wanneer u nog oudere versies van TLS gebruikt.
+- **Gegevens weergeven met: TLS-gebruik:** in de grafiek ziet u het percentage TLS-gebruik voor alle berichten van de SMTP-auth-client in de geselecteerde periode. In deze grafiek kunt u gebruikers en systeemaccounts identificeren en actie ondernemen die nog steeds oudere versies van TLS gebruiken.
 
-  ![Voorbeeld van TLS-weergave in het rapport SMTP-auth-clients in het nalevings centrum voor beveiligings &](../../media/mfi-smtp-auth-clients-report-tls-usage-view.png)
+  ![Weergave TLS-gebruik in het rapport SMTP-auth-clients in het & compliancecentrum](../../media/mfi-smtp-auth-clients-report-tls-usage-view.png)
 
-Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+Als u in **een rapportweergave** op Filters klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
 
-Klik op **rapportaanvragen** om een gedetailleerde versie van het rapport in een e-mailbericht te ontvangen. U kunt het datumbereik en de geadresseerden opgeven waarop u het rapport wilt ontvangen.
+Klik **op Rapport aanvragen** om een gedetailleerdere versie van het rapport in een e-mailbericht te ontvangen. U kunt het datumbereik opgeven en de geadresseerden die het rapport moeten ontvangen.
 
-### <a name="details-table-view-for-the-smtp-auth-clients-report"></a>Weergave Details voor het rapport met SMTP-verificatie clients
+### <a name="details-table-view-for-the-smtp-auth-clients-report"></a>Tabelweergave Details voor het rapport SMTP-auth-clients
 
-Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
+Als u op **de tabel Details weergeven klikt,** is de informatie die wordt weergegeven afhankelijk van de grafiek die u bekijkt:
 
-- **Gegevens weergeven voor: verzenden volume**: de volgende informatie wordt weergegeven in een tabel:
+- **Gegevens weergeven met: Volume verzenden:** de volgende informatie wordt weergegeven in een tabel:
 
   - **Adres afzender**
   - **Aantal berichten**
 
-  Als u een rij selecteert, worden de gegevens in een flyout weergegeven.
+  Als u een rij selecteert, worden dezelfde details weergegeven in een flyout.
 
-- **Gegevens weergeven op: TLS-gebruik**: de volgende informatie wordt weergegeven in een tabel:
+- **Gegevens weergeven met: TLS-gebruik:** de volgende informatie wordt weergegeven in een tabel:
 
   - **Adres afzender**
-  - **TLS 1.0%**<sup>\*</sup>
-  - **TLS 1,1%**<sup>\*</sup>
-  - **TLS 1.2%**<sup>\*</sup>
+  - **TLS1.0%**<sup>\*</sup>
+  - **TLS1.1%**<sup>\*</sup>
+  - **TLS1.2%**<sup>\*</sup>
   - **Aantal berichten**
 
-  <sup>\*</sup> In deze kolom ziet u het percentage en het aantal berichten van de afzender.
+  <sup>\*</sup> In deze kolom ziet u zowel het percentage als het aantal berichten van de afzender.
 
-Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
 
-Als u een rij selecteert, worden dezelfde gegevens weergegeven in een flyout:
+Als u een rij selecteert, worden soortgelijke details weergegeven in een flyout:
 
-![Flyout Details van de lijst Details van de weergave TLS-verificatie clients](../../media/mfi-smtp-auth-clients-report-tls-usage-view-view-details-table-details.png)
+![Flyout Details uit de detailtabel van de weergave TLS-gebruik in het rapport SMTP Auth-clients](../../media/mfi-smtp-auth-clients-report-tls-usage-view-view-details-table-details.png)
 
-Klik op **rapportaanvragen** om een gedetailleerde versie van het rapport in een e-mailbericht te ontvangen. U kunt het datumbereik en de geadresseerden opgeven waarop u het rapport wilt ontvangen.
+Klik **op Rapport aanvragen** om een gedetailleerdere versie van het rapport in een e-mailbericht te ontvangen. U kunt het datumbereik opgeven en de geadresseerden die het rapport moeten ontvangen.
 
-Als u terug wilt gaan naar de weergave rapporten, klikt u op **rapport weergeven**.
+Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).
+Zie inzichten in de e-mailstroom in het beveiligings- en compliancecentrum voor meer informatie & [inzichten in het dashboard E-mailstroom.](mail-flow-insights-v2.md)

@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het plannen van Microsoft Viva-onderwerpen
-ms.openlocfilehash: 65983f342b3277d33c7bfeb21d8481b1d3d5e817
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 2f7b85399f0b1f49e25aae1f1d4627413594f618
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107952"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150476"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva-onderwerpen plannen
 
@@ -27,20 +27,20 @@ In dit artikel worden de volgende planningsbeslissingen beschreven:
 - Welke onderwerpen u indien van onderwerpervaringen wilt uitsluiten
 - Voor welke gebruikers u onderwerpen zichtbaar wilt maken
 - Welke gebruikers u machtigingen wilt geven voor het beheren van onderwerpen in het onderwerpcentrum
-- Welke gebruikers u machtigingen wilt geven om onderwerpen te maken of te bewerken in het onderwerpcentrum
+- Welke gebruikers u machtigingen wilt geven voor het maken of bewerken van onderwerpen in het onderwerpcentrum
 - Welke naam u het onderwerpcentrum wilt geven
 
 De beveiliging en privacy van uw gegevens wordt in acht genomen en door onderwerpervaringen hebben gebruikers geen extra toegang tot bestanden waar ze geen rechten voor hebben. U wordt aangeraden ook de beveiliging en [privacy van Microsoft Viva-onderwerpen](topic-experiences-security-privacy.md) te lezen als onderdeel van uw planningsproces.
 
 ## <a name="requirements"></a>Vereisten
 
-U moet een globale beheerder of Een SharePoint-beheerder zijn om toegang te krijgen tot het Microsoft 365-beheercentrum en Onderwerpen in te stellen.
+U moet zijn [geabonneerd op Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics) en een globale beheerder of SharePoint-beheerder zijn om toegang te krijgen tot het Microsoft 365-beheercentrum en Onderwerpen in te stellen.
 
 Alle gebruikers die Onderwerpen gaan gebruiken, hebben een **licentie voor Onderwerpervaringen** nodig. Het toewijzen van licenties is mogelijk in [Microsoft Viva-onderwerpen instellen.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>Onderwerpdetectie
 
-Met de instellingen voor onderwerpdetectie kunt u opgeven welke SharePoint-sites als bronnen voor onderwerpen worden gebruikt. U kunt ervoor kiezen om alle SharePoint-sites, een specifieke lijst met sites of geen sites op te nemen. U wordt aangeraden alle sites te kiezen, zodat u met onderwerpervaringen een groot aantal goede onderwerpen voor uw gebruikers kunt ontdekken.
+Met de instellingen voor onderwerpdetectie kunt u opgeven welke SharePoint-sites worden gebruikt als bronnen voor onderwerpen. U kunt ervoor kiezen om alle SharePoint-sites, een specifieke lijst met sites of geen sites op te nemen. U wordt aangeraden alle sites te kiezen, zodat u met onderwerpervaringen een groot aantal goede onderwerpen voor uw gebruikers kunt ontdekken.
 
 Wanneer u Onderwerpen in stelt, kunt u kiezen uit de volgende opties:
 
@@ -63,13 +63,13 @@ U wordt aangeraden een proces te maken voor gebruikers of kennisbeheerders om zo
 
 ## <a name="user-permissions"></a>Gebruikersmachtigingen
 
-De gebruikersmachtigingen die u opgeeft, bepalen welke personen in uw organisatie interactie hebben met onderwerpen en wat ze kunnen doen.
+De gebruikersmachtigingen die u opgeeft, bepalen welke personen in uw organisatie werken met onderwerpen en wat ze kunnen doen.
 
 *Onderwerpen beheren*
 
 Kennisbeheerders zijn verantwoordelijk voor de kwaliteit van informatie, de gestructureerde en andere best practices in uw organisatie. Ze kunnen onderwerpen bevestigen en weigeren.
 
-Hoewel u afzonderlijke onderwerpmanagers kunt opgeven, raden we u aan een beveiligingsgroep te maken (of een bestaande groep te gebruiken) die de personen bevat die kennisbeheerders moeten worden. U kunt deze beveiligingsgroep opgeven tijdens het installatieproces.
+Hoewel u afzonderlijke onderwerpbeheerders kunt opgeven, raden we u aan een beveiligingsgroep te maken (of een bestaande groep te gebruiken) die de personen bevat die kennisbeheerders moeten worden. U kunt deze beveiligingsgroep opgeven tijdens het installatieproces.
 
 *Onderwerpen maken en bewerken*
 
@@ -81,7 +81,7 @@ Als u het maken en bewerken van onderwerpen wilt beperken tot specifieke persone
 
 U kunt ervoor kiezen om niemand toe te staan een bijdrage te leveren aan onderwerpen, maar dit wordt niet aanbevolen. Knowledge Managers kunnen nog steeds onderwerpen bewerken en maken als u deze optie kiest.
 
-*Onderwerp kijkers*
+*Onderwerpkijkers*
 
 Onderwerpkijkers kunnen informatie zien over onderwerppagina's, in zoekresultaten en wanneer onderwerpen zijn gemarkeerd in de inhoud, zoals SharePoint-pagina's. Gebruikers kunnen alleen gevonden onderwerpen zien wanneer ze toegang hebben tot de bestanden en pagina's waarin het onderwerp is aangetroffen.
 
@@ -91,20 +91,20 @@ Wanneer u onderwerpkijkers instelt, kunt u kiezen uit:
 - **Alleen geselecteerde personen of beveiligingsgroepen**
 - **Niemand**
 
-We raden **Iedereen in mijn organisatie** aan, maar als u een testfase doet, kunt u alleen geselecteerde personen of beveiligingsgroepen kiezen. U kunt ook **Nee kiezen als** u Onderwerpen wilt instellen, maar personen nog geen onderwerpen wilt laten zien. (Knowledge Managers hebben nog steeds toegang om hen toe te staan de onderwerpen te bekijken en hulp bij de beslissing om Onderwerpen algemeen beschikbaar te maken.)
+We raden **Iedereen in mijn organisatie** aan, maar als u een testfase doet, kunt u alleen geselecteerde personen of beveiligingsgroepen kiezen. U kunt ook **Nee kiezen** als u Onderwerpen wilt instellen, maar personen nog geen onderwerpen wilt laten zien. (Knowledge Managers hebben nog steeds toegang om hen toe te staan de onderwerpen te bekijken en hulp bij de beslissing om Onderwerpen algemeen beschikbaar te maken.)
 
 ## <a name="knowledge-rules"></a>Kennisregels
 
 Als beheerder kunt u bepaalde onderwerpen uitsluiten van onderwerpervaringen. Dit is handig als u wilt voorkomen dat gevoelige gegevens in onderwerpen worden weergegeven. Hoewel kennisbeheerders onderwerpen in het onderwerpcentrum kunnen uitsluiten, zijn onderwerpen die door de beheerder worden uitgesloten zelfs niet zichtbaar voor kennismanagers. (Kennisbeheerders kunnen na detectie ook onderwerpen in het onderwerpcentrum verwijderen.)
 
-Als u onderwerpen op beheerdersniveau wilt uitsluiten, moet u deze toevoegen aan een CSV-bestand en het bestand uploaden. U kunt dit doen tijdens de installatie of later.
+Als u onderwerpen wilt uitsluiten op beheerdersniveau, moet u deze toevoegen aan een CSV-bestand en het bestand uploaden. U kunt dit doen tijdens de installatie of later.
 
 Het CSV-bestand moet de volgende parameters bevatten:
 
 - **Naam:** typ de naam van het onderwerp dat u wilt uitsluiten. U kunt dit op twee manieren doen:
 - **MatchType-Exact/Gedeeltelijk:** typ of de naam die u hebt ingevoerd *een exact* of *gedeeltelijk* overeenkomsttype is.
     - Exacte overeenkomst: u kunt de exacte naam of het acroniem opnemen (bijvoorbeeld *Contoso* of *ATL).*
-    - Gedeeltelijke overeenkomst: U kunt alle onderwerpen met een specifiek woord uitsluiten.  Zo worden met *de boog* bijvoorbeeld alle onderwerpen met de *woordcirkel* uitgesloten, zoals Boogcirkel,  *Arc-boog* of *Trainingsbogen.* Onderwerpen waarin de tekst is opgenomen als onderdeel van een woord, zoals Architectuur, worden niet *uitgesloten.*
+    - Gedeeltelijke overeenkomst: U kunt alle onderwerpen met een bepaald woord uitsluiten.  Met een *boog worden bijvoorbeeld* alle onderwerpen met de woordbogen uitgesloten, zoals Boogcirkel, *Arc-boog* of *Trainingsbogen.*   Onderwerpen waarin de tekst is opgenomen als onderdeel van een woord, zoals Architectuur, worden niet *uitgesloten.*
 - **Staat voor (optioneel)**: (ook wel uitbreiding *genoemd)* Als u een acroniem wilt uitsluiten, typt u de woorden waar het acroniem voor staat.
 
     ![Onderwerpen uitsluiten in CSV-sjabloon](../media/exclude-topics-csv.png) 
@@ -125,7 +125,7 @@ Wanneer u onderwerpervaringen instelt, hebt u de volgende items nodig tijdens he
 
 > [!div class="checklist"]
 > * Lijst met sites die u wilt opnemen of uitsluiten als niet alle sites voor onderwerpdetectie worden opgenomen
-> * Beveiligingsgroep voor onderwerpbekijkers als niet alle gebruikers onderwerpen kunnen bekijken
+> * Beveiligingsgroep voor onderwerpbekijkers als niet alle gebruikers de onderwerpen kunnen bekijken
 > * Beveiligingsgroep voor onderwerpbijdragers als niet alle gebruikers onderwerpen mogen maken en bewerken
 > * Beveiligingsgroep voor onderwerpkennisbeheerders als niet alle gebruikers de mogelijkheid bieden om onderwerpen te beheren
 > * Lijst met gevoelige onderwerpen die u wilt uitsluiten van onderwerpdetectie

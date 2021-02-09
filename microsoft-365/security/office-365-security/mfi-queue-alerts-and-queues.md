@@ -1,5 +1,5 @@
 ---
-title: Inzicht in wachtrijen in het dashboard voor e-mail stromen
+title: Inzichten in wachtrijen in het dashboard E-mailstroom
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -9,88 +9,92 @@ audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
-description: Beheerders kunnen informatie over het gebruik van de widget wachtrijen in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum om de niet-geslaagde e-mail stroom te controleren aan hun on-premises of partnerorganisaties via uitgaande connectoren.
+description: Beheerders kunnen informatie vinden over het gebruik van de widget Wachtrijen in het dashboard E-mailstroom in het beveiligings- & Compliancecentrum om de mislukte e-mailstroom naar hun on-premises of partnerorganisaties te controleren via uitgaande connectors.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 73e97cbbd05e298013e9e686053a969d587ad5cf
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 94e8a1f3b54c3738c21e94ba85ae4f1d3f953498
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029148"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150169"
 ---
-# <a name="queues-insight-in-the-security--compliance-center"></a>Inzicht in wachtrijen in het beveiligings & nalevings centrum
+# <a name="queues-insight-in-the-security--compliance-center"></a>Inzichten in wachtrijen in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Wanneer berichten niet vanuit uw organisatie kunnen worden verzonden naar uw on-premises e-mailservers en e-mailservers met connectors, worden de berichten in de wachtrij geplaatst in Microsoft 365. Veelgebruikte voorbeelden die deze voorwaarde veroorzaken:
+Wanneer berichten niet vanuit uw organisatie via connectors naar uw on-premises e-mailservers of partnerservers kunnen worden verzonden, worden de berichten in de wachtrij geplaatst in Microsoft 365. Veelvoorkomende voorbeelden die deze voorwaarde veroorzaken zijn:
 
 - De verbindingslijn is onjuist geconfigureerd.
-- Uw on-premises omgeving heeft een netwerk-of firewall wijziging.
+- Er zijn netwerk- of firewallwijzigingen geweest in uw on-premises omgeving.
 
-Microsoft 365 blijft opnieuw proberen na 24 uur. Na 24 uur verloopt de berichten en gaan ze terug naar de afzenders in rapporten over niet-uitgevoerde bezorging (ook wel Ndr's of stuiterende berichten).
+Microsoft 365 blijft 24 uur lang proberen de bestelling af te leveren. Na 24 uur verlopen de berichten en worden ze geretourneerd aan de afzenders in niet-bezorgingsrapporten (ook wel NDR's of niet-bezorgdberichten genoemd).
 
-Als het e-mail volume in de wachtrij de vooraf gedefinieerde drempelwaarde overschrijdt (de standaardwaarde is 200-berichten), is de informatie beschikbaar op de volgende locaties:
+Als het e-mailvolume in de wachtrij de vooraf gedefinieerde drempel overschrijdt (de standaardwaarde is 200 berichten), is de informatie beschikbaar op de volgende locaties:
 
-- De **wachtrijen** zijn te zien in het [Dashboard voor de e-mail stroom](mail-flow-insights-v2.md) van het [beveiligings & nalevings centrum](https://protection.office.com). Zie voor meer informatie de [wachtrijen inzichtelijk in de sectie e-mail stroom dashboard](#queues-insight-in-the-mail-flow-dashboard) in dit artikel.
+- Het **inzicht in wachtrijen** in [het dashboard E-mailstroom](mail-flow-insights-v2.md) in het [& Compliancecentrum.](https://protection.office.com) Zie de sectie [Queues insight in the Mail flow dashboard in](#queues-insight-in-the-mail-flow-dashboard) this article (Inzichten in wachtrijen in het dashboard van de e-mailstroom in dit artikel) voor meer informatie.
 
-- Er wordt een waarschuwing weergegeven bij **recente meldingen** het dashboard waarschuwingen in het [compliance-Beveiligingscentrum van beveiligings &](https://protection.office.com) (**waarschuwingen** \> **Dashboard** of <https://protection.office.com/alertsdashboard> ).
+- Er wordt een waarschuwing weergegeven in **recente waarschuwingen** op het dashboard Waarschuwingen in het & [Compliancecentrum](https://protection.office.com)  \> **(dashboard Waarschuwingen** of <https://protection.office.com/alertsdashboard> ).
 
-  ![Recente waarschuwingen in het meldingen dashboard in het nalevings centrum voor beveiliging &](../../media/mfi-queued-messages-alert.png)
+  ![Recente waarschuwingen in het dashboard Waarschuwingen in het beveiligings- & compliancecentrum](../../media/mfi-queued-messages-alert.png)
 
-- Beheerders ontvangen een e-mail melding op basis van de configuratie van het standaard waarschuwings beleid met de naam **berichten zijn vertraagd**. Zie de volgende sectie voor informatie over het configureren van de instellingen voor meldingen voor deze waarschuwing.
+- Beheerders ontvangen een e-mailmelding op basis van de configuratie van het standaardwaarschuwingsbeleid met de naam Berichten **is vertraagd.** Zie de volgende sectie als u de instellingen voor meldingen voor deze waarschuwing wilt configureren.
 
-  Zie voor meer informatie over waarschuwings beleidsregels [een waarschuwings beleid in het beveiligings & nalevings centrum](../../compliance/alert-policies.md).
+  Zie Waarschuwingsbeleid in het beveiligings- en compliancecentrum & voor meer informatie over [waarschuwingsbeleid.](../../compliance/alert-policies.md)
 
-## <a name="customize-queue-alerts"></a>Wachtrij waarschuwingen aanpassen
+## <a name="customize-queue-alerts"></a>Wachtrijwaarschuwingen aanpassen
 
-1. Ga in het [beveiligings & nalevings centrum](https://protection.office.com)naar  \> **waarschuwings beleid** voor meldingen of open <https://protection.office.com/alertpolicies> .
+1. Ga in [het & Compliancecentrum](https://protection.office.com)naar Het beleid **voor** waarschuwingen \> **of** <https://protection.office.com/alertpolicies> open.
 
-2. Ga naar de pagina met **waarschuwings beleidsregels** en selecteer het beleid **met de naam vertraagde berichten**.
+2. Zoek en **selecteer op de** pagina Waarschuwingsbeleid het beleid met de naam Berichten is **vertraagd.**
 
-3. In het **bericht zijn vertraagde** flyout die wordt geopend, kunt u de melding in-of uitschakelen en de instellingen voor meldingen configureren.
+3. In de **flyout Bericht is vertraagd** die wordt geopend, kunt u de waarschuwing in- of uitschakelen en de instellingen voor meldingen configureren.
 
-   ![Berichten hebben een vertragings beleid voor de beveiliging & nalevings centrum](../../media/mfi-queued-messages-alert-policy.png)
+   ![Berichten zijn vertraagd waarschuwingsbeleid details van het beveiligings- & compliancecentrum](../../media/mfi-queued-messages-alert-policy.png)
 
-   - **Status**: u kunt de melding in-of uitschakelen.
+   - **Status:** u kunt de waarschuwing in- of uitschakelen.
 
-   - Geadresseerden en **meldingen** **per E-mail ontvangen** : Klik op **bewerken** om de volgende instellingen te configureren:
+   - **E-mailontvangers** en **de limiet voor dagelijkse meldingen:** klik op Bewerken **om** de volgende instellingen te configureren:
 
-4. Klik op **bewerken** om de instellingen voor meldingen te configureren. Configureer de volgende instellingen in de flyout **beleidsregels bewerken** die wordt weergegeven:
+4. Als u de instellingen voor meldingen wilt configureren, klikt u op **Bewerken.** Configureer **de volgende instellingen** in de flyout Beleid bewerken die wordt weergegeven:
 
-   - **E-mail meldingen verzenden**: de standaardwaarde is ingeschakeld.
-   - **Geadresseerden voor e-mail**: de standaardwaarde is **TenantAdmins**.
-   - **Dagelijkse meldings limiet**: de standaardwaarde is **geen limiet**.
-   - **Drempel** waarde: de standaardwaarde is 200.
+   - **E-mailmeldingen verzenden:** de standaardwaarde is ingeschakeld.
+   - **E-mailontvangers:** De standaardwaarde is **TenantAdmins.**
+   - **Dagelijkse meldingslimiet:** de standaardwaarde is **Geen limiet.**
+   - **Drempelwaarde:** de standaardwaarde is 200.
 
-   ![De instellingen voor meldingen in de berichten hebben een vertragings beleid voor de beveiliging & nalevings centrum](../../media/mfi-queued-messages-alert-policy-notification-settings.png)
+   ![Meldingsinstellingen in het beleid voor meldingen zijn vertraagd met details van het beveiligings- & compliancecentrum](../../media/mfi-queued-messages-alert-policy-notification-settings.png)
 
-5. Wanneer u klaar bent, klikt u op **Opslaan** en **sluiten**.
+5. Klik op Opslaan en sluiten wanneer u **klaar** **bent.**
 
-## <a name="queues-insight-in-the-mail-flow-dashboard"></a>Inzicht in wachtrijen in het dashboard voor e-mail stromen
+## <a name="queues-insight-in-the-mail-flow-dashboard"></a>Inzichten in wachtrijen in het dashboard E-mailstroom
 
-Ook als het volume van de wachtrij niet de drempelwaarde heeft overschreden en een waarschuwing heeft gegenereerd, kunt u nog steeds het inzicht in de **wachtrijen** van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) gebruiken om berichten weer te geven die zijn gefactureerd voor meer dan één uur en om actie te ondernemen voordat het aantal berichten in de wachtrij te groot wordt weergegeven.
+Zelfs als het bericht in de wachtrij de drempelwaarde niet heeft overschreden  en een waarschuwing heeft gegenereerd, kunt u het inzichten in Wachtrijen in het [dashboard](mail-flow-insights-v2.md) E-mailstroom nog steeds gebruiken om berichten te zien die langer dan een uur in de wachtrij staan en actie te ondernemen voordat het aantal in de wachtrij geplaatste berichten te groot wordt.
 
-![De widget wachtrijen in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-queues-widget.png)
+![Widget Wachtrijen in het dashboard E-mailstroom in het & Compliancecentrum](../../media/mfi-queues-widget.png)
 
-Als u op het aantal berichten in het object klikt, wordt een flyout met de berichten in de **wachtrij** weergegeven met de volgende informatie:
+Als u op het aantal berichten in de widget klikt, wordt een **flyout** Berichten in de wachtrij met de volgende informatie weergegeven:
 
-- **Aantal berichten in de wachtrij**
-- **Naam connector**: Klik op de naam van de verbindingslijn om de connector te beheren in het Exchange-Beheercentrum.
-- **Begintijd wachtrij**
+- **Aantal berichten in wachtrij**
+- **Connectornaam:** klik op de naam van de connector om de connector te beheren in het Exchange-beheercentrum (EAC).
+- **Wachttijd**
 - **Oudste berichten verlopen**
 - **Doelserver**
 - **Laatste IP-adres**
 - **Laatste fout**
-- **Oplossing**: er zijn veelvoorkomende problemen en oplossingen beschikbaar. Als de koppeling **nu repareren** beschikbaar is, klikt u erop om het probleem op te lossen. U kunt ook op een van de beschikbare koppelingen klikken voor meer informatie over de fout en mogelijke oplossingen.
+- **Oplossing: er** zijn veelvoorkomende problemen en oplossingen beschikbaar. Als de koppeling **Nu oplossen beschikbaar** is, klikt u erop om het probleem op te lossen. Klik anders op beschikbare koppelingen voor meer informatie over de fout en mogelijke oplossingen.
 
-![Meer informatie over het klikken op de wachtrijen in het dashboard voor e-mail stroom](../../media/mfi-queues-details.png)
+![Details na klikken op Het inzichten in wachtrijen in het dashboard E-mailstroom](../../media/mfi-queues-details.png)
 
-Wanneer u op **wachtrij weergeven** klikt, wordt dezelfde flyout weergegeven wanneer u op wachtrij weergeven klikt voor de details van een **bericht zijn uitgesteld** .
+Dezelfde flyout wordt weergegeven nadat u op Wachtrij weergeven **hebt** geklikt in de details van een waarschuwing die **is vertraagd.**
 
-![Berichten hebben een vertragings waarschuwing voor de beveiliging & nalevings centrum](../../media/mfi-queued-messages-alert-details.png)
+![Details van vertraagde meldingen zijn vertraagd in het beveiligings- & compliancecentrum](../../media/mfi-queued-messages-alert-details.png)
 
 ## <a name="see-also"></a>Zie ook
 
-Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).
+Zie inzichten in de e-mailstroom in het beveiligings- en compliancecentrum voor meer informatie & [inzichten in het dashboard E-mailstroom.](mail-flow-insights-v2.md)

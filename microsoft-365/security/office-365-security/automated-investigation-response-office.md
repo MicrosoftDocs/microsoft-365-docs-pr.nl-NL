@@ -1,5 +1,5 @@
 ---
-title: Automatisch onderzoek en antwoord werken in Microsoft Defender voor Office 365
+title: Hoe automatisch onderzoek en antwoorden werken in Microsoft Defender voor Office 365
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -7,7 +7,6 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,85 +14,82 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-keywords: geautomatiseerd incident antwoord, onderzoek, herstel, bedreigings bescherming
-ms.date: 11/05/2020
-description: Nagaan hoe automatisch onderzoek en antwoord mogelijkheden werken in Microsoft Defender voor Office 365
+keywords: automated incident response, investigation, remediation, threat protection
+ms.date: 01/29/2021
+description: Bekijk hoe geautomatiseerde onderzoeks- en antwoordmogelijkheden werken in Microsoft Defender voor Office 365
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 5ca9ea941d073c7b199678631a9063cfbeae8907
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 97cc2f6bcb066ff2d6f64254add3a57eb27b8828
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864898"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142547"
 ---
-# <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Automatisch onderzoek en antwoord werken in Microsoft Defender voor Office 365
+# <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Hoe automatisch onderzoek en antwoorden werken in Microsoft Defender voor Office 365
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+Wanneer beveiligingswaarschuwingen worden geactiveerd, is het aan uw team voor beveiligingsactiviteiten om naar deze waarschuwingen te kijken en stappen te ondernemen om uw organisatie te beschermen. Soms kunnen teams met beveiligingsbewerkingen overstelpt worden door het aantal waarschuwingen dat wordt geactiveerd. Mogelijkheden voor automatisch onderzoek en reactie (AIR) in Microsoft Defender voor Office 365 kunnen u helpen.
 
-Wanneer beveiligingswaarschuwingen worden geactiveerd, kunt u het beste uw beveiligingsteam raadplegen met deze waarschuwingen en de stappen ondernemen om uw organisatie te beveiligen. Soms kunnen beveiligingsactiviteiten teams overspoeld zijn door het volume van waarschuwingen dat wordt geactiveerd. Met geautomatiseerd onderzoek en antwoord mogelijkheden in Microsoft Defender voor Office 365 kunt u hulp krijgen.
+Met AIR kan uw team voor beveiligingsactiviteiten efficiënter en efficiënter werken. AIR-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die op dit moment bestaan. Juiste herstelacties wachten op goedkeuring, zodat het team met beveiligingsbewerkingen kan reageren op gedetecteerde bedreigingen.
 
-AIR zorgt ervoor dat uw beveiligingsteam efficiënter en effectiever functioneert. De lucht mogelijkheden zijn geautomatiseerde onderzoek processen in antwoord naar bekende bedreigingen die vandaag zijn. Juiste herstelacties wachten op goedkeuring, zodat het team van uw beveiligingsactiviteiten kan reageren op gedetecteerde bedreigingen.
+In dit artikel wordt beschreven hoe AIR werkt aan de hand van verschillende voorbeelden. Wanneer u klaar bent om aan de slag te gaan met AIR, bekijkt u Automatisch onderzoeken en [reageren op bedreigingen.](office-365-air.md)
 
-In dit artikel wordt beschreven hoe lucht met een aantal voorbeelden werkt. Wanneer u klaar bent om aan de slag te gaan met lucht, raadpleegt u [automatisch onderzoek en reageren op bedreigingen](office-365-air.md).
+- [Voorbeeld 1: Met een door de gebruiker gemeld phish-bericht wordt een playbook voor onderzoek gestart](#example-a-user-reported-phish-message-launches-an-investigation-playbook)
+- [Voorbeeld 2: Een beveiligingsbeheerder activeert een onderzoek vanuit Bedreigingsverkenner](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
+- [Voorbeeld 3: Een team voor beveiligingsbewerkingen integreert AIR met hun SIEM met behulp van de Office 365 Management Activity-API](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
 
-- [Voorbeeld 1: een door een gebruiker gemeld phishing-bericht opent een onderzoek Playbook](#example-a-user-reported-phish-message-launches-an-investigation-playbook)
-- [Voorbeeld 2: een beveiligingsbeheerder activeert een onderzoek vanuit de Threat Explorer](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
-- [Voorbeeld 3: een team van beveiligingsactiviteiten is lucht geïntegreerd met hun SIEM met behulp van de Office 365 Management Activity API](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
+## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: Een door de gebruiker gerapporteerde phish-bericht start een playbook voor onderzoek
 
-## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: een door een gebruiker gemelde phishing-bericht opent een onderzoek Playbook
+Stel dat een gebruiker in uw organisatie een e-mailbericht ontvangt dat hij of zij een poging tot phishing lijkt te doen. De gebruiker die is opgeleid voor het rapporteren van dergelijke berichten, gebruikt de [invoegapp](enable-the-report-message-add-in.md) Bericht rapporteren of de [invoegapp Phishing melden](enable-the-report-phish-add-in.md) om deze naar Microsoft te verzenden voor analyse. De inzending wordt ook naar uw systeem  verzonden en is zichtbaar in Verkenner in de weergave Voorzendingen (voorheen de weergave door de gebruiker **gerapporteerd).** Bovendien activeert het door de gebruiker gerapporteerde bericht nu een op het systeem gebaseerde informatiemelding, waarmee automatisch het playbook voor onderzoek wordt gestart.
 
-Stel dat een gebruiker in uw organisatie een e-mailbericht ontvangt waarvan de persoon een malafide e-mailbericht is. De gebruiker die is getraind voor het melden van dergelijke berichten, gebruikt de [invoegtoepassing bericht melden](enable-the-report-message-add-in.md) of de [invoegtoepassing](enable-the-report-phish-add-in.md) voor het melden van een e-mail naar Microsoft voor analyse. De opdracht verzenden wordt ook naar uw systeem verzonden en wordt weergegeven in Explorer in de weergave ingediende **items** (voorheen de door de **gebruiker gerapporteerde** weergave genoemd). Daarnaast wordt in het door de gebruiker gerapporteerde bericht nu een informatiesysteem geactiveerd waarmee onderzoek automatisch wordt gestart.
+Tijdens de hoofdonderzoeksfase worden verschillende aspecten van de e-mail geëvalueerd. Dit zijn onder andere de volgende aspecten:
 
-Tijdens de fase onderzoek worden verschillende aspecten van het e-mailbericht geëvalueerd. Dit zijn onder meer:
-
-- Een bepaling van wat voor soort bedreiging het kan zijn;
-- Wie heeft de persoon verzonden;
-- De locatie waarvandaan de e-mail is verzonden (verzenden infrastructuur);
-- Of andere e-mailberichten zijn bezorgd of geblokkeerd;
+- Een beslissing over welk type bedreiging het zou kunnen zijn;
+- Wie heeft het verzonden;
+- Vanaf welke plaats de e-mail is verzonden (infrastructuur voor verzenden);
+- Of andere exemplaren van het e-mailbericht zijn bezorgd of geblokkeerd;
 - Een beoordeling van onze analisten;
-- Of het e-mailadres aan een bekende campagne is gekoppeld;
-- en nog veel meer.
+- Of het e-mailbericht is gekoppeld aan bekende campagnes:
+- en meer.
 
-Wanneer het hoofdonderzoek is voltooid, biedt de Playbook een lijst met aanbevolen acties die u kunt uitvoeren met het oorspronkelijke e-mailbericht en de gekoppelde entiteiten.
+Nadat het hoofdonderzoek is voltooid, bevat de playbook een lijst met aanbevolen acties die kunnen worden ondernomen voor het oorspronkelijke e-mailbericht en de entiteiten die ermee zijn verbonden.
 
-Vervolgens worden diverse bedreigingen voor onderzoek en de jacht stappen uitgevoerd:
+Vervolgens worden verschillende bedreigingsonderzoeken en zoekstappen uitgevoerd:
 
-- Vergelijkbare e-mailberichten worden aangeduid via e-mail cluster zoekopdrachten.
-- Het signaal wordt gedeeld met andere platforms, zoals [Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
-- U wordt bepaald of gebruikers op schadelijke koppelingen in verdachte e-mailberichten klikken.
-- Een controle wordt uitgevoerd via Exchange Online Protection ([EOP](exchange-online-protection-overview.md)) en ([Microsoft Defender for Office 365](office-365-atp.md)) om te zien of er andere soortgelijke berichten door gebruikers worden gerapporteerd.
-- Als u wilt controleren of een gebruiker is aangetast. Met deze controle wordt geprofiteerd van signalen in Office 365, de beveiliging van de [Cloud-app van Microsoft](https://docs.microsoft.com/cloud-app-security)en [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), met betrekking tot afwijkingen van gebruikersactiviteiten.
+- Vergelijkbare e-mailberichten worden geïdentificeerd via zoekopdrachten in e-mailclusters.
+- Het signaal wordt gedeeld met andere platforms, zoals [Microsoft Defender voor Eindpunt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- Er wordt een beslissing genomen over het al dan niet klikken op schadelijke koppelingen in verdachte e-mailberichten.
+- Er wordt een controle uitgevoerd in Exchange Online Protection[(EOP)](exchange-online-protection-overview.md)en (Microsoft Defender voor[Office 365)](office-365-atp.md)om te zien of er andere soortgelijke berichten zijn gerapporteerd door gebruikers.
+- Er wordt een controle uitgevoerd om te zien of een gebruiker is gehackt. Deze controle maakt gebruik van signalen in Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)en Azure Active [Directory,](https://docs.microsoft.com/azure/active-directory)die een verband houden met gerelateerde activiteitsactiviteit van gebruikers.
 
-Tijdens de jacht-fase worden Risico's en bedreigingen toegewezen aan diverse jacht stappen.
+Tijdens de zoekfase worden risico's en bedreigingen toegewezen aan diverse zoekstappen.
 
-Herstelfase is de laatste fase van de Playbook. Tijdens deze fase worden herstel stappen verricht, op basis van de activiteiten onderzoek en jacht.
+Herstel is de laatste fase van het playbook. Tijdens deze fase worden herstelstappen ondernomen op basis van het onderzoek en de zoekfasen.
 
-## <a name="example-a-security-administrator-triggers-an-investigation-from-threat-explorer"></a>Voorbeeld: een beveiligingsbeheerder activeert een onderzoek vanuit de bedreigings Verkenner
+## <a name="example-a-security-administrator-triggers-an-investigation-from-threat-explorer"></a>Voorbeeld: een beveiligingsbeheerder activeert een onderzoek vanuit Bedreigingsverkenner
 
-Naast geautomatiseerde onderzoeken die worden geactiveerd door een waarschuwing, kunnen het beveiligingsteam van uw organisatie een geautomatiseerd onderzoek uitvoeren via een weergave in de [bedreigings Verkenner](threat-explorer.md).  Dit onderzoek maakt ook een waarschuwing, zodat Microsoft Defender-incidenten en externe SIEM-hulpmiddelen kunnen zien dat dit onderzoek is geactiveerd.
+Naast automatische onderzoeken die worden geactiveerd door een waarschuwing, kan het team voor beveiligingsbewerkingen van uw organisatie een geautomatiseerd onderzoek activeren vanuit een weergave in [Bedreigingsverkenner.](threat-explorer.md)  Voor dit onderzoek wordt ook een waarschuwing gemaakt, zodat Microsoft Defender-incidenten en externe SIEM-hulpprogramma's kunnen zien dat dit onderzoek is geactiveerd.
 
-Stel dat u de **malware** -weergave in Verkenner gebruikt. Met de tabbladen onder de grafiek, selecteert u het tabblad **e-mail** . Als u een of meer items in de lijst selecteert, wordt de knop **+ acties** geactiveerd.
+Stel dat u de weergave **Malware** in Verkenner gebruikt. Met de tabbladen onder de grafiek selecteert u het **tabblad E-mail.** Als u een of meer items in de lijst selecteert, wordt de **knop +** Acties geactiveerd.
 
 ![Verkenner met geselecteerde berichten](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
-Via het menu **acties** kunt u het **onderzoek activeren**.
+Via **het** menu Acties kunt u Onderzoek **activeren selecteren.**
 
-![Menu acties voor geselecteerde berichten](../../media/explorer-malwareview-selectedemails-actions.jpg)
+![Menu Acties voor geselecteerde berichten](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
-Vergelijkbaar met playbooks die worden geactiveerd door een waarschuwing, zijn automatisch onderzoek die worden geactiveerd via een weergave in de Explorer een hoofdonderzoek, stappen voor het identificeren en correleren van bedreigingen en aanbevolen acties om deze bedreigingen te beperken.
+Net zoals playbooks die zijn geactiveerd door een waarschuwing, omvatten automatische onderzoeken die worden geactiveerd vanuit een weergave in Verkenner een hoofdonderzoek, stappen om bedreigingen te identificeren en te correleren en aanbevolen acties om deze bedreigingen te beperken.
 
-## <a name="example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api"></a>Voorbeeld: een team van beveiligingsactiviteiten integreert lucht met hun SIEM met behulp van de Office 365 Management Activity API
+## <a name="example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api"></a>Voorbeeld: een team voor beveiligingsbewerkingen integreert AIR met hun SIEM met behulp van de Office 365 Management Activity API
 
-Met de functie lucht in Microsoft Defender voor Office 365 kunt u [rapporten opnemen & informatie](air-view-investigation-results.md) die teams voor beveiliging kunnen gebruiken om bedreigingen te bewaken en te verhelpen. U kunt ook lucht functies integreren met andere oplossingen. Voorbeelden hiervan zijn een beveiligings-en SIEM systeem, een aanvraag beheersysteem of een aangepaste rapportage oplossing. U kunt deze typen integraties uitvoeren met behulp van de [Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference).
+AIR-mogelijkheden in Microsoft Defender voor Office 365 bevatten rapporten met & [details](air-view-investigation-results.md) die teams voor beveiligingsbewerkingen kunnen gebruiken om bedreigingen te bewaken en aan te pakken. Maar u kunt AIR-mogelijkheden ook integreren met andere oplossingen. Voorbeelden hiervan zijn een SIEM-systeem (Security Information and Event Management), een case management system of een aangepaste rapportageoplossing. Deze soorten integraties kunnen worden uitgevoerd met behulp van de Management Activity API van [Office 365.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)
 
-Een organisatie heeft bijvoorbeeld onlangs een manier voor het weergeven van het team van de gebruikers gemelde phishing-waarschuwingen die al door de lucht zijn verwerkt. Met hun oplossing worden relevante waarschuwingen geïntegreerd met de SIEM-server van de organisatie en de bewerkings systemen van de organisatie. Met deze oplossing wordt het aantal fouterende negatieven sterk beperkt, zodat het team van de beveiliging de tijd en de inspanning van concrete bedreigingen kan richten. Voor meer informatie over deze aangepaste oplossing raadpleegt u [tech Community Blog: Verbeter de effectiviteit van uw Soc met Microsoft Defender voor Office 365 en de O365-beheer API](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185).
+Onlangs heeft een organisatie bijvoorbeeld een manier ingesteld voor hun team voor beveiligingsbewerkingen om door gebruikers gerapporteerde phish-waarschuwingen te bekijken die al door AIR zijn verwerkt. De oplossing integreert relevante waarschuwingen met de SIEM-server van de organisatie en het case management-systeem. Met de oplossing wordt het aantal fout-positieven aanzienlijk beperkt, zodat het team voor beveiligingsbewerkingen de tijd en inspanning kan richten op echte bedreigingen. Zie het blog van de Tech Community voor meer informatie over deze aangepaste oplossing: Verbeter de effectiviteit van uw SOC met Microsoft Defender voor Office 365 en de [O365 Management-API.](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Aan de slag met lucht](office-365-air.md)
-
-- [Ga naar het Microsoft 365-wegwijzer om te zien wat er is gepland en uitgebracht is binnenkort](https://www.microsoft.com/microsoft-365/roadmap?filters=)
-
-- [Meer informatie over geautomatiseerde functies voor onderzoek en antwoorden in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Aan de slag met AIR](office-365-air.md)
+- [Acties in behandeling of voltooide herstelacties weergeven](air-review-approve-pending-completed-actions.md)

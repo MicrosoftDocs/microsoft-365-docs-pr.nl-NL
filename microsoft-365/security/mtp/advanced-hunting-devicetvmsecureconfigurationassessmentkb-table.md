@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4cd23b8f3ba99b38264b9bf1ba18e8ec2574bab6
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: cf4204767843b9a9e0b0bbfecc2d3fc50db531fc
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931060"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145449"
 ---
 # <a name="devicetvmsecureconfigurationassessmentkb"></a>DeviceTvmSecureConfigurationAssessmentKB
 
@@ -39,7 +39,7 @@ ms.locfileid: "49931060"
 
 De tabel in het geavanceerde schema voor zoeken bevat informatie over de verschillende veilige configuraties (zoals of op een apparaat automatische updates zijn ingeschakeld) die zijn ingeschakeld door `DeviceTvmSecureConfigurationAssessmentKB` [Threat & Vulnerability Management.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Het omvat ook risicogegevens, gerelateerde industriebe benchmarks en toepasselijke MITRE ATT&CK-technieken en -technieken. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 
-Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
+Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
@@ -51,8 +51,8 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `ConfigurationCategory` | tekenreeks | Tot welke categorie of groepering de configuratie behoort: Toepassing, besturingssysteem, netwerk, accounts, beveiligingsbesturingselementen|
 | `ConfigurationSubcategory` | tekenreeks |Subcategorie of subgroepering tot welke de configuratie behoort. In veel gevallen wordt hier specifieke functionaliteit of functies beschreven. |
 | `ConfigurationBenchmarks` | tekenreeks | Lijst met industriebe benchmarks die dezelfde of vergelijkbare configuratie aanbevelen |
-| `RelatedMitreTechniques` | tekenreeks | Lijst met mitre ATT-&CK-frameworktechnieken met betrekking tot de configuratie |
-| `RelatedMitreTactics ` | tekenreeks | Lijst met mitre ATT-&CK-frameworktactiek met betrekking tot de configuratie |
+| `Tags` | tekenreeks | Labels voor de verschillende kenmerken die worden gebruikt om een beveiligingsconfiguratie te identificeren of te categoriseren |
+| `RemediationOptions` | tekenreeks | Aanbevolen acties om eventuele bijbehorende risico's te beperken of aan te pakken |
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Overzicht: Informatie over de migratie van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 28344f1249e4f51bb9802bf19ca7561182610a7c
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: d807637e9d5469131d3124d1ef8b6b1f874e81a1
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921587"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145413"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Migratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacenterregio's
 
@@ -39,7 +39,7 @@ De nieuwe regio's zijn ontworpen om in tespelen op de veranderende behoeften van
 
 Bestaande klanten van Microsoft Cloud Deutschland kunnen nu beginnen met het migreren van hun klanten van Office 365, Dynamics 365 Klantbetrokkenheid en Power Platform. De eerste stap is het gebruik van een migratie onder leiding van [Microsoft](https://aka.ms/office365germanymoveoptin) naar onze nieuwe Duitse datacenterregio's.
 
-Organisaties die zich hebben gekozen voor de benadering op microsoft-gebied, beginnen naar verwachting begin 2021 en zijn voltooid op 29 oktober 2021. Als gevolg van de migratie worden belangrijke klantgegevens en -abonnementen verplaatst naar de nieuwe Duitse regio's.
+Organisaties die zich hebben gekozen voor de benadering op microsoft-gebied, beginnen naar verwachting begin 2021 en zijn voltooid op 29 oktober 2021. Als gevolg van de migratie worden belangrijke klantgegevens en abonnementen verplaatst naar de nieuwe Duitse regio's.
 
 Dit artikel bevat een overzicht van de op Microsoft gebaseerde benadering voor de migratie, duidelijkheid over de ervaringen voor zowel gebruikers als beheerders tijdens en na de migratie, en acties die mogelijk voor klanten vereist zijn op basis van welke werkbelasting u gebruikt.
 
@@ -80,7 +80,7 @@ De migratie wordt van uw Azure AD-tenant verplaatst van de soevereine Azure AD-s
 
 De volgende fase is de migratie van uw tenant en&#39;en gebruikerslicenties van Producten in Duitsland naar globale producten.
 
-Nadat alle stappen zijn voltooid, inclusief de Azure-migratie van de klant, wordt uw tenant voltooid in de Office 365-servicesservice en wordt de migratie als voltooid gemarkeerd. U ontvangt nu de definitieve update voor het berichtencentrum. De tenant is nu een volledig wereldwijde Office 365-organisatie.
+Wanneer alle stappen zijn voltooid, inclusief de Azure-migratie van de klant, is uw tenant voltooid in de Office 365-servicesservice en wordt de migratie als voltooid gemarkeerd. U ontvangt nu de definitieve update voor het berichtencentrum. De tenant is nu een volledig wereldwijde Office 365-organisatie.
 
 U wordt op de hoogte gesteld van de voortgang van de migratie met berichten in het berichtencentrum. De berichten vinden plaats bij specifieke mijlpalen en geven richtlijnen bij de voortgang van een stap en belangrijke informatie waar klanten op moeten reageren op basis van de procesvereisten. Meldingen van het berichtencentrum worden weergegeven bij de volgende mijlpalen:
 
@@ -94,7 +94,7 @@ U wordt op de hoogte gesteld van de voortgang van de migratie met berichten in h
 - Power BI voltooid
 - Uiteindelijke cutover-services is voltooid
 
-## <a name="moving-to-the-new-german-datacenter-regions"></a>Over land verplaatsen naar de nieuwe Regio's in het Duitse datacenter
+## <a name="moving-to-the-new-german-datacenter-regions"></a>Over naar de nieuwe Regio's in het Duitse datacenter
 
 Bestaande klanten van Microsoft Cloud Deutschland kunnen nu beginnen met het migreren van hun Office 365-, Dynamics 365-klantbetrokkenheid en Power Platform-services. De eerste stap is het gebruik van een migratie onder leiding van [Microsoft](https://aka.ms/office365germanymoveoptin) naar onze nieuwe Duitse datacenterregio's. Wanneer u uw abonnement verlengt, kunt u zich automatisch inschrijven voor een migratie met Microsoft-ondersteuning. Microsoft stelt de tenantbeheerders via e-mail en in het berichtencentrum van het Microsoft 365-beheercentrum op de hoogte wanneer dit is gebeurd. Als u het proces nu wilt starten, kunt u zich vandaag nog rechtstreeks [in](https://aka.ms/office365germanymoveoptin) het Microsoft 365-beheercentrum hebben. Migraties beginnen naar verwachting begin 2021 en zijn voltooid op 29 oktober 2021. 
 
@@ -104,9 +104,9 @@ Als gevolg van de migratie worden belangrijke klantgegevens en -abonnementen ver
 
 De eerste stap bestaat uit het melden van Microsoft, zodat we toestemming hebben om uw abonnement en gegevens te migreren van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacenterregio's. Raadpleeg het [opt-inproces voor](https://aka.ms/office365germanymoveoptin) instructies en houd er rekening mee dat:
 
-- Alle migrerende klanten moeten de verbinding met de Office 365 Services [Office 365-URL's](urls-and-ip-address-ranges.md)en IP-adressen controleren, waaronder de nieuwe Duitse datacenterregio's. Actie kan leiden tot een fout in de service en de client.
+- Alle migrerende klanten moeten de connectiviteit met de [Office 365 Services Office 365-URL's](urls-and-ip-address-ranges.md)en IP-adressen controleren, waaronder de nieuwe Duitse datacentergebieden. Actie kan leiden tot een fout in de service en de client.
 - Bekijk de lijst met [pre-workactiviteiten](ms-cloud-germany-transition-add-pre-work.md) om ervoor te zorgen dat uw organisatie goed op de hoogte is en voorbereid is op de wijzigingen.
-- Lees de beschrijving van de Office 365-platformservice om te weten welke functies en services beschikbaar zijn voor uw organisatie na de migratie naar de Duitse regio.
+- Lees de beschrijving van de Office 365-platformservice om te weten welke functies en services beschikbaar worden voor uw organisatie na de migratie naar de Duitse regio.
 - Proefabonnementen worden niet gemigreerd en de migratie van alle betaalde abonnementen wordt geblokkeerd. U moet proefabonnementen annuleren of naar betaalde abonnementen converteren voordat de migratie van start gaat.
 
 ## <a name="where-do-i-go-from-here"></a>Waar kan ik vanaf hier naartoe gaan?
@@ -117,7 +117,7 @@ Bekijk de volgende sectie met veelgestelde vragen.
 
 ### <a name="is-migration-required"></a>Is migratie vereist?
 
-Microsoft biedt gratis office 365-tenantmigratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacentergebieden. Hoewel we u ten zeerste aanraden om te migreren naar de nieuwe Duitse datacenterregio's, zullen we de benodigde beveiligingsupdates blijven bieden voor de regio Microsoft Cloud Deutschland.
+Microsoft biedt gratis Office 365-tenantmigratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacentergebieden. Hoewel we u ten zeerste aanraden om te migreren naar de nieuwe Duitse datacenterregio's, zullen we de benodigde beveiligingsupdates blijven bieden voor de regio Microsoft Cloud Deutschland.
 
 Office 365-services in de nieuwe Duitse datacenterregio's:
 
@@ -272,7 +272,7 @@ Tijdens de migratie van Microsoft Cloud Deutschland naar de Office 365-services 
 | Visio Online Abonnement 2 voor \_ faculteiten DE (VISIOCLIENT \_ FACULTY \_ DE) | Visio Online Abonnement 2 voor faculteiten (VISIOCLIENT \_ FACULTY) |
 | Visio Online Abonnement 2 \_ DE (VISIOCLIENT \_ DE) | Visio Online Abonnement 2 (VISIOCLIENT) |
 | Visio Plan 1 \_ DE (VISIOONLINE \_ PLAN1 \_ DE) | Visio-abonnement 1 \_ (VISIOONLINE-ABONNEMENT1) |
-| Visio-abonnement 2 \_ DE (VISIOCLIENT \_ DE) | Visio Plan 2 (VISIOCLIENT) |
+| Visio-abonnement 2 \_ DE (VISIOCLIENT \_ DE) | Visio Abonnement 2 (VISIOCLIENT) |
 |||
 
 ### <a name="how-do-i-get-help-from-microsoft-to-migrate-to-a-new-region-or-answer-support-questions"></a>Hoe krijg ik hulp van Microsoft om te migreren naar een nieuwe regio of ondersteuningsvragen te beantwoorden?
@@ -281,7 +281,53 @@ Als u vragen hebt, kunt u contact met ons opnemen of uw partner:
 
 - Voor Azure kunt u nieuwe [ondersteuningsaanvragen indienen](https://portal.microsoftazure.de/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) in de Azure Portal.
 - Voor Office 365 kunt u vragen indienen via de koppeling Hulp &quot; nodig? &quot; van het Microsoft [365-beheercentrum.](https://portal.office.de/)
-- Als u dynamics 365 klantbetrokkenheid en Power BI-klant bent en ook Office 365 hebt, kunt u vragen indienen via de koppeling Hulp nodig? van het &quot; &quot; Microsoft [365-beheercentrum.](https://portal.office.de/) Dynamics 365 Customer Engagement Support-opties bevinden zich [hier.](https://docs.microsoft.com/dynamics365/get-started/support/) Ondersteuningsopties voor Power BI bevinden zich [hier.](https://powerbi.microsoft.com/support/)
+- Als u Dynamics 365 Klantcontact en Power BI-klant bent en ook Office 365 hebt, kunt u vragen indienen via de koppeling Hulp nodig? van het &quot; &quot; Microsoft [365-beheercentrum.](https://portal.office.de/) Dynamics 365 Customer Engagement Support-opties bevinden zich [hier.](https://docs.microsoft.com/dynamics365/get-started/support/) Ondersteuningsopties voor Power BI bevinden zich [hier.](https://powerbi.microsoft.com/support/)
+
+### <a name="my-customer-already-has-a-m365-tenant-in-the-global-microsoft-cloud-in-addition-to-a-microsoft-cloud-deutschland-tenant-can-these-two-tenants-be-merged-into-one-as-part-of-the-migration"></a>Mijn klant heeft al een M365-tenant in de wereldwijde Microsoft-cloud, naast een Microsoft Cloud Deutschland-tenant. Kunnen deze twee tenants als onderdeel van de migratie in één tenant worden samengevoegd?
+
+Nee, het samenvoegen van tenants is niet mogelijk. Tenants blijven gescheiden en uniek omdat elke tenant een eigen naamruimte en unieke id heeft. Microsoft migreert desgewenst een Microsoft Cloud Deutschland-tenant naar de globale cloud, anders kan de klant annuleren en deze overwegen.
+
+
+### <a name="what-actions-are-required-to-be-done-by-most-end-users-as-part-of-the-migration"></a>Welke acties moeten worden uitgevoerd door de meeste eindgebruikers als onderdeel van de migratie?
+De migratie is ontworpen om minimale gevolgen te hebben voor eindgebruikers/klanten.
+- Zorg ervoor dat de meest recente versies van Office-toepassingen worden uitgevoerd. 
+- Klanten die Skype voor Bedrijven gebruiken, zullen overstappen op Teams als onderdeel van de migratie en moeten [mogelijk Teams downloaden en installeren](https://docs.microsoft.com/deployoffice/teams-install) op apparaten.
+- Eindgebruikers moeten zich mogelijk afmelden bij de Office-toepassingen en zich opnieuw aanmelden wanneer de migratie is voltooid. 
+- Klanten met de OneDrive-synchronisatieclient moeten zich afmelden bij hun werkstation en zich opnieuw aanmelden om oneDrive-synchronisatieclient toe te staan zich aan te melden bij de globale Azure Active Directory-service.
+- Let op de nieuwe algemene URL's zodra de migratie is voltooid, en beteer de migratie van Outlook Web Access (bijvoorbeeld: gebruik outlook.office365.com). SharePoint Online-clients blijven via de bestaande URL verbinding maken met de MCD-naamruimte (bijvoorbeeld: contoso.sharepoint.de).
+
+
+### <a name="which-customers-are-affected-by-the-azure-active-directory-migration"></a>Welke klanten worden beïnvloed door de migratie van Azure Active Directory? 
+
+Alle klanten van Office365 zijn afhankelijk van Azure Active Directory voor het verifiëren en opslaan van essentiële serviceonderdelen die nodig zijn voor de werking van door Microsoft gehoste services. 
+
+
+### <a name="what-are-the-impacts-of-the-azure-active-directory-migration"></a>Wat zijn de gevolgen van de migratie naar Azure Active Directory?
+
+De eerste migratie van Azure Active Directory in de eerste fase heeft geen invloed op de klantervaring. Na de laatste migratiefase zijn alle services voor de klant-tenant volledig in de globale service. Na deze laatste fase accepteert de Azure Active Directory-service in Microsoft Cloud Deutschland mogelijk geen autorisatieaanvragen meer en biedt ze geen toegangstokens meer aan Office-services.
+
+
+### <a name="what-does-it-mean-to-ensure-network-connectivity-to-office-365-services-urls-and-ip-addresses"></a>Wat betekent het om ervoor te zorgen dat er verbinding is met URL's en IP-adressen voor [Office 365-services?](https://aka.ms/o365urls)
+
+In dit artikel worden de benodigde URL's en IP-adressen beschreven die nodig zijn voor de juiste functie van de globale service voor een goede klantenservice. In relatief zeldzame gevallen proberen sommige klanten de beveiliging van de netwerkperimeter zodanig te configureren dat verkeersstromen worden beperkt tot services die alleen toegankelijk zijn als onderdeel van de IP-bereiken van de Microsoft Cloud Deutschland-service.
+
+
+### <a name="how-do-i-manage-the-dns-changes-for-exchange-online-so-mail-will-continue-to-flow"></a>Hoe beheer ik de DNS-wijzigingen voor Exchange Online zodat e-mail blijft ontvangen?
+
+Door Microsoft beheerde IP-bereiken en DNS-zones worden overgelijnd tijdens en als onderdeel van de migratie naar de globale service. 
+
+Door de klant beheerde DNS-zones, zoals MX-records voor aangepaste domeinen, zijn de verantwoordelijkheid van de klant om deze migratie te vereenvoudigen. De door de klant beheerde MX-record wijst echter naar een Office 365-service-eindpunt in de office.de-zone en Microsoft beheert de migratie van dit service-eindpunt automatisch.
+
+
+### <a name="how-do-i-manage-the-dns-changes-for-skype-for-business"></a>Hoe beheer ik de DNS-wijzigingen voor Skype voor Bedrijven? 
+ 
+Alle klanten van Skype voor Bedrijven zullen overstappen op Microsoft Teams. De overgang van DE DNS-zones van klanten is niet vereist voor de migratie naar Teams. Klanten kunnen zich na de migratie direct aanmelden bij Teams met alle functionaliteit.
+ 
+
+### <a name="will-outlook-for-ios-and-android-work-after-the-migration"></a>Werkt Outlook voor iOS en Android na de migratie? 
+
+Ja. Microsoft raadt alle klanten aan om de nieuwste beschikbare versies van Office-clients te gebruiken, inclusief Outlook voor iOS- en Android-clients. Als de migratie naar de globale Office 365-service is voltooid, moeten alle Office-clients zich afmelden en opnieuw aanmelden om een nieuw toegangs token voor Azure Active Directory te verkrijgen van de globale service. 
+
 
 
 ## <a name="next-step"></a>Volgende stap

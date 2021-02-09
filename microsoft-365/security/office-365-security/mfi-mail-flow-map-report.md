@@ -11,67 +11,71 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe u de e-mail stroom plattegrond kunt gebruiken in het dashboard voor e-mail stroom in het beveiligings & nalevings centrum voor het visualiseren en bijhouden van de manier waarop e-mail stromen van en naar hun organisatie via connectors en zonder connectors worden gebruikt.
+description: Beheerders kunnen in het beveiligings &- en compliancecentrum voor e-mailstromen in het beveiligings- en compliancecentrum leren hoe ze de e-mailstroomkaart in het dashboard E-mailstroom gebruiken om te visualiseren en bij te houden hoe e-mail van en naar hun organisatie loopt via connectors en zonder het gebruik van connectors.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c07730f3abcec8905285cdfdf1579ffb71573ec1
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 87a5780bd2485ba6ad3b295c09a30a4d7fc34277
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029916"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150558"
 ---
-# <a name="mail-flow-map-in-the-security--compliance-center"></a>De kaart voor de e-mail stroom in het Beveiligingscentrum beveiligings &
+# <a name="mail-flow-map-in-the-security--compliance-center"></a>E-mailstroomkaart in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-De **e-mail stroom kaart** in het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in het [Beveiligingscentrum beveiligings &](https://protection.office.com) biedt inzicht in de manier waarop e-mail stromen via uw organisatie worden doorgevoerd. U kunt deze gegevens gebruiken om patronen te ontdekken, afwijkingen te identificeren en problemen op te lossen.
+De **e-mailstroomkaart** in het [dashboard E-mailstroom](mail-flow-insights-v2.md) in het & [compliancecentrum](https://protection.office.com) geeft inzicht in hoe e-mail door uw organisatie loopt. U kunt deze informatie gebruiken om patronen te leren, problemen te identificeren en problemen op te lossen terwijl deze zich voordoen.
 
-![Widget e-mail stroom in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-mail-flow-map-widget.png)
+![Widget E-mailstroomkaart in het dashboard E-mailstroom in het & Compliancecentrum](../../media/mfi-mail-flow-map-widget.png)
 
-Standaard toont de widget de e-mail stroom patroon van de vorige dag in een grafiek die een *Sankey* -diagram wordt genoemd. U kunt de pijl-links ![ en pijl- ](../../media/scc-left-arrow.png) rechts gebruiken ![ ](../../media/scc-right-arrow.png) om informatie uit verschillende dagen weer te geven. Elke andere kleur vertegenwoordigt een e-mail stroom via een andere binnenkomende of uitgaande connector (of zonder connectors). Als u de muisaanwijzer boven een bepaalde kleur houdt, wordt het aantal berichten weergegeven voor dat type verbindingslijn.
+De widget toont standaard het patroon van de e-mailstroom van de vorige dag in een grafiek die bekend staat als een *Sankey-diagram.* U kunt de pijl-links en pijl-rechts gebruiken om ![ informatie van verschillende dagen weer te ](../../media/scc-left-arrow.png) ![ ](../../media/scc-right-arrow.png) geven. Elke kleur geeft de e-mailstroom over een andere binnenkomende of uitgaande verbindingslijn aan (of zonder verbindingslijnen te gebruiken). Als u de muisaanwijzer op een bepaalde kleur beweegt, wordt het aantal berichten voor dat type verbindingslijn weergegeven.
 
-## <a name="report-view-for-the-mail-flow-map"></a>Rapportweergave voor de e-mail stroom kaart
+## <a name="report-view-for-the-mail-flow-map"></a>Rapportweergave voor de e-mailstroomkaart
 
-Als u op de widget **e-mail stroom kaart** klikt, gaat u naar het rapport met de **e-mail stroom kaart** .
+Als u op de widget **E-mailstroomkaart** klikt, gaat u naar het rapport **E-mailstroomkaart.**
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens weergeven voor: overzicht**: dit is een grotere weergave van de widget. Als u de muisaanwijzer boven een bepaalde kleur houdt, wordt het aantal berichten weergegeven voor dat type verbindingslijn.
+- **Gegevens weergeven voor: Overzicht:** dit is in feite een grotere weergave van de widget. Als u de muisaanwijzer op een bepaalde kleur beweegt, wordt het aantal berichten voor dat type verbindingslijn weergegeven.
 
-  ![Overzichtsweergave in het rapport e-mail stroom kaart](../../media/mfi-mail-flow-map-report-overview.png)
+  ![Overzichtsweergave in het rapport E-mailstroomoverzicht](../../media/mfi-mail-flow-map-report-overview.png)
 
-- **Gegevens weergeven voor: detail**: in deze weergave worden details weergegeven over de connectors en doeldomeinen. De meeste e-mailadressen van de afzender en de ontvanger worden weergegeven en de rest wordt in **andere** gebieden meegenomen. Als u de muisaanwijzer boven een bepaalde kleur en sectie houdt, wordt het aantal berichten weergegeven.
+- **Gegevens weergeven voor: Details:** deze weergave bevat details over de connectors en doeldomeinen. De domeinen van de belangrijkste afzender en geadresseerde worden weergegeven en de rest wordt in Anderen **geplaatst.** Als u de muisaanwijzer over een bepaalde kleur en sectie beweegt, wordt het aantal berichten weergegeven.
 
-  ![De weergave Details in het rapport van de e-mail stroom](../../media/mfi-mail-flow-map-report-detail.png)
+  ![Detailweergave in het rapport E-mailstroomkaart](../../media/mfi-mail-flow-map-report-detail.png)
 
-Als u op **filters** in een rapportweergave klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+Als u in **een rapportweergave** op Filters klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
 
-Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden wilt verzenden, klikt u op **Download aanvragen**.
+Als u het rapport voor een bepaald datumbereik per e-mail wilt versturen naar een of meer geadresseerden, klikt u op **Downloaden aanvragen.**
 
-Gerelateerde inzichten worden weergegeven onder de weergave voor de e-mail stroom, als deze beschikbaar zijn (bijvoorbeeld de oplossing voor de [oplossing potentiële e-mail](mfi-mail-loop-insight.md)).
+Gerelateerde inzichten worden onder de E-mailstroomkaart weergegeven als deze beschikbaar zijn (bijvoorbeeld het inzicht in Mogelijke [e-maillus oplossen).](mfi-mail-loop-insight.md)
 
-## <a name="details-table-view-for-the-mail-flow-map"></a>De tabel weergave Details voor de e-mail stroom kaart
+## <a name="details-table-view-for-the-mail-flow-map"></a>Detailtabelweergave voor de e-mailstroomkaart
 
-Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
+Als u in **een rapportweergave op Detailtabel** weergeven klikt, wordt de volgende informatie weergegeven:
 
 - **Datum**
 - **Categorie**
-- **Service provider van connector/derden**
-- **Domein afzender/ontvanger**
+- **Connector / Externe serviceprovider**
+- **Domein afzender/geadresseerde**
 - **Aantal berichten**
 
-Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
 
-Als u een rij selecteert, worden dezelfde gegevens weergegeven in een flyout:
+Als u een rij selecteert, worden soortgelijke details weergegeven in een flyout:
 
-![Flyout Details van de tabel Details in de toegewezen berichtenstroom](../../media/mfi-mail-flow-map-view-details-table-details.png)
+![Flyout Details uit de tabel Details in de e-mailstroommap](../../media/mfi-mail-flow-map-view-details-table-details.png)
 
-Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden wilt verzenden, klikt u op **Download aanvragen**.
+Als u het rapport voor een bepaald datumbereik per e-mail wilt versturen naar een of meer geadresseerden, klikt u op **Downloaden aanvragen.**
 
-Als u terug wilt gaan naar de weergave rapporten, klikt u op **rapport weergeven**.
+Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
 ## <a name="see-also"></a>Zie ook
 
-Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).
+Zie inzichten in de e-mailstroom in het beveiligings- en compliancecentrum voor meer informatie & [inzichten in het dashboard E-mailstroom.](mail-flow-insights-v2.md)

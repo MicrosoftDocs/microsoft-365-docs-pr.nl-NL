@@ -11,43 +11,47 @@ localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe u met behulp & van het hulpprogramma voor het oplossen van e-mail lussen in hun organisatie e-mail lussen kunt identificeren en oplossen.
+description: Beheerders kunnen in het dashboard E-mailstroom in het beveiligings- & Compliancecentrum leren hoe ze het inzicht in mogelijke e-mailluss in het dashboard E-maillus herstellen kunnen gebruiken om e-maillussen in hun organisatie te identificeren en te herstellen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f08c27c761cdfe4acbbd8cf80e8ab6da8012b55f
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 3c9607f053fb5011b8c8af3c8bb2073a9d022909
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029892"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150229"
 ---
-# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Mogelijke oplossing voor e-mail lussen in de beveiligings & nalevings centrum
+# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Inzicht in mogelijke e-maillus herstellen in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-E-mail lussen zijn ongeldig omdat:
+E-maillussen zijn slecht omdat:
 
 - Ze verspillen systeembronnen.
-- De persoon die het e-mail volume quotum van uw organisatie gebruikt.
-- Ze verzenden ongeniet-bezorgingsrapporten (ook wel Ndr's genoemd of berichten die berichten versturen) naar de oorspronkelijke afzenders van het bericht.
+- Ze verbruiken het volumequotum voor e-mail van uw organisatie.
+- Ze verzenden verwarrende rapporten over niet-bezorging (ook wel NR's of niet-bezorgdberichten genoemd) naar de oorspronkelijke afzenders van het bericht.
 
-In het gedeelte **voor** het aanvullen van e-mail van het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de [& beveiligings](https://protection.office.com) **Update** wordt u gewaarschuwd wanneer een e-mail in uw organisatie wordt gedetecteerd.
+Het inzicht in mogelijke  **e-mailluss** in het gebied Aanbevolen voor u in het [dashboard](mail-flow-insights-v2.md) E-mailstroom in het [beveiligings- & Compliancecentrum](https://protection.office.com) wordt u op de hoogte stellen wanneer een e-maillus wordt gedetecteerd in uw organisatie.
 
-Dit inzicht wordt alleen weergegeven nadat de voorwaarde is vastgesteld (als u geen e-mail lussen hebt, ziet u het inzicht niet).
+Dit inzicht wordt pas weergegeven nadat de voorwaarde is gedetecteerd (als u geen e-maillussen hebt, ziet u het inzicht niet).
 
-![Meer inzicht in langzame e-mail stroom regels op het gebied aanbevolen voor u in het dashboard voor e-mail stroom](../../media/mfi-fix-possible-mail-loop.png)
+![Inzicht in regels voor trage e-mailstroom oplossen in het gebied Aanbevolen voor u in het dashboard E-mailstroom](../../media/mfi-fix-possible-mail-loop.png)
 
-Wanneer u op Details van het object **weergeven** klikt, verschijnt er een flyout met meer informatie:
+Wanneer u op **Details weergeven** in de widget klikt, verschijnt er een flyout met meer informatie:
 
 - **Domein**
-- **Aantal berichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de berichten die door de lus werden beïnvloed.
-- **Domeintype**, bijvoorbeeld bindend of niet-bindend.
-- **MX-record**: de host (**e-mail server**) en de **prioriteits** waarden van de MX-record voor het domein.
-- **Reden voor herhaling** en **oplossing**: de meest voorkomende scenario's voor mail lussen worden aangeduid met de meest voorkomende scenario's voor e-mail lussen en bieden aanbevolen acties om de lus op te lossen.
+- **Aantal berichten:** u kunt op [](message-trace-scc.md) **Voorbeeldberichten** weergeven klikken om de resultaten van bericht traceren te bekijken voor een voorbeeld van de berichten die door de lus zijn beïnvloed.
+- **Domeintype"** Bijvoorbeeld Gezaghebbend of Niet-gezaghebbend.
+- **MX-record:** De host **(Mail Server)** en **prioriteitswaarden** van de MX-record voor het domein.
+- **Loop reason** and **How to fix:** We'll identify the most common mail loop scenarios and provide recommended actions to fix the loop.
 
-![Voorbeeld van een flyout dat wordt weergegeven nadat u op Details weergeven hebt geklikt in de mogelijke oplossing voor e-mail](../../media/mfi-fix-possible-mail-loop-details.png)
+![Flyout details die wordt weergegeven nadat u op Details weergeven hebt geklikt op het inzicht in Mogelijke e-maillus herstellen](../../media/mfi-fix-possible-mail-loop-details.png)
 
 ## <a name="see-also"></a>Zie ook
 
-Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).
+Voor informatie over andere inzichten in het dashboard voor de e-mailstroom, bekijkt u inzichten in de e-mailstroom in het & [compliancecentrum.](mail-flow-insights-v2.md)

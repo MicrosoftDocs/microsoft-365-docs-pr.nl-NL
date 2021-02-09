@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b574717d0ba5621d85c8e73f36ddc72b062a1494
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 174db150920d2d95c043bb5d6e5a4593ea1ea39d
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931036"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145425"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -63,7 +63,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `IsExternalUser`                  | int        | Hiermee wordt aangegeven of de gebruiker die zich heeft aangemeld extern is. Mogelijke waarden: -1 (niet ingesteld), 0 (niet extern), 1 (extern).                                                                   |
 | `IsGuestUser`                     | boolean       | Geeft aan of de gebruiker die zich heeft aangemeld een gast is in de tenant                                                                                                                  |
 | `AlternateSignInName`             | tekenreeks        | UPN (On-premises User Principal Name) van de gebruiker die zich aanmeldt bij Azure AD                                                                                                            |
-| `LastPasswordChangeTimestamp`     | datetime        | Datum en tijd waarop de gebruiker die zich het laatst heeft aangemeld zijn of haar wachtwoord heeft gewijzigd                                                                                                              |
+| `LastPasswordChangeTimestamp`     | datetime        | Datum en tijd waarop de gebruiker die zich voor het laatst heeft aangemeld, zijn of haar wachtwoord heeft gewijzigd                                                                                                              |
 | `ResourceDisplayName`             | tekenreeks        | Weergavenaam van de bron die is gebruikt                                                                                                                                               |
 | `ResourceId`                      | tekenreeks        | Unieke id van de bron die wordt gebruikt                                                                                                                                          |
 | `ResourceTenantId`                | tekenreeks        | Unieke id van de tenant van de bron die is gebruikt                                                                                                                            |
@@ -71,7 +71,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `AadDeviceId`                     | tekenreeks   |      Unieke id voor het apparaat in Azure AD                                                                                                                                                                               |
 | `OSPlatform`                      | tekenreeks        | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, inclusief variaties binnen dezelfde familie, zoals Windows 10 en Windows 7.  |
 | `DeviceTrustType`                 | tekenreeks        | Geeft het vertrouwenstype aan van het apparaat dat zich heeft aangemeld. Alleen voor beheerde apparaatscenario's. Mogelijke waarden zijn Workplace, AzureAd en ServerAd.                                     |
-| `IsManaged`                       | int       | Geeft aan of het apparaat dat de aanmelding is gestart een beheerd apparaat (1) is of geen beheerd apparaat (0)                                                                         |
+| `IsManaged`                       | int       | Hiermee wordt aangegeven of het apparaat dat de aanmelding is gestart een beheerd apparaat (1) is of geen beheerd apparaat (0)                                                                         |
 | `IsCompliant`                     | int       | Hiermee wordt aangegeven of het apparaat dat de aanmelding is gestart compatibel is (1) of niet voldoet (0).                                                                                       |
 | `AuthenticationProcessingDetails` | tekenreeks        | Details over de verificatieverwerker                                                                                                                                          |
 | `AuthenticationRequirement`       | tekenreeks        | Het type verificatie dat vereist is voor de aanmelding. Mogelijke waarden: multiFactorAuthentication (MFA was vereist) en singleFactorAuthentication (er was geen MFA vereist).                |
@@ -85,7 +85,7 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `ConditionalAccessPolicies`       | tekenreeks        | Details van het beleid voor voorwaardelijke toegang dat is toegepast op de aanmeldingsgebeurtenis                                                                                                             |
 | `ConditionalAccessStatus`         | int        | Status van het beleid voor voorwaardelijke toegang dat op de aanmelding is toegepast. Mogelijke waarden zijn 0 (beleid dat is toegepast), 1 (poging om beleid toe te passen is mislukt) of 2 (beleid dat niet is toegepast).      |
 | `IPAddress`                       | tekenreeks        | IP-adres dat aan het eindpunt is toegewezen en dat is gebruikt tijdens gerelateerde netwerkcommunicatie                                                                                                  |
-| `CountryCode`                     | tekenreeks        | Tweeletterige code die het land aangeeft waar het IP-adres van de client geo-toegewezen is                                                                                                    |
+| `Country`                     | tekenreeks        | Tweeletterige code die het land aangeeft waar het IP-adres van de client geolocatie is                                                                                                    |
 | `State`                           | tekenreeks        | Provincie waar de aanmelding heeft plaatsgevonden, indien beschikbaar                                                                                                                                      |
 | `City`                            | tekenreeks        | Plaats waar de accountgebruiker zich bevindt                                                                                                                                              |
 | `Latitude`                        | tekenreeks        | De coördinaten van de aanmeldingslocatie van Noord naar Zuid                                                                                                                              |

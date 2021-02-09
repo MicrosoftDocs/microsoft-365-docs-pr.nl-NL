@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cb51d9b94cc500361f836f7ba8bc4fc290436805
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: cccbd268c8f69d6623df1ef4c8208d20ead2e9f5
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931324"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145293"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -56,9 +56,13 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `FileOriginUrl` | tekenreeks | URL waar het bestand is gedownload |
 | `FileOriginReferrerUrl` | tekenreeks | URL van de webpagina met een koppeling naar het gedownloade bestand |
 | `FileOriginIP` | tekenreeks | IP-adres waar het bestand is gedownload |
+| `PreviousFolderPath` | tekenreeks | Oorspronkelijke map met het bestand voordat de opgenomen actie werd toegepast |
+| `PreviousFileName` | tekenreeks | Oorspronkelijke naam van het bestand dat door de actie een andere naam heeft gegeven |
+| `FileSize` | lang | Grootte van het bestand in bytes |
 | `InitiatingProcessAccountDomain` | tekenreeks | Het domein van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountName` | tekenreeks | Gebruikersnaam van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountSid` | tekenreeks | Security Identifier (SID) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `InitiatingProcessAccountUpn` | tekenreeks | UPN (User Principal Name) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessMD5` | tekenreeks | MD5-hash van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessSHA1` | tekenreeks | SHA-1 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessSHA256` | tekenreeks | SHA-256 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart. Dit veld wordt meestal niet ingevuld. Gebruik indien beschikbaar de kolom SHA1. |
@@ -79,14 +83,16 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `RequestAccountName` | tekenreeks | Gebruikersnaam van het account waarmee de activiteit op afstand wordt gestart |
 | `RequestAccountDomain` | tekenreeks | Domein van het account waarmee de activiteit op afstand wordt gestart |
 | `RequestAccountSid` | tekenreeks | Security Identifier (SID) van het account waarmee de activiteit op afstand wordt gestart |
-| `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen Apparaatnaam en Tijdstempel |
+| `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp. |
 | `AppGuardContainerId` | tekenreeks | Id voor de gevirtualiseerde container die door Application Guard wordt gebruikt om browseractiviteit te isoleren |
+| `AdditionalFields` | tekenreeks | Aanvullende informatie over de entiteit of gebeurtenis |
+| `InitiatingProcessFileSize` | lang | Grootte van het bestand dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `SensitivityLabel` | tekenreeks | Label dat wordt toegepast op een e-mailbericht, bestand of andere inhoud om deze te classificeren ter bescherming van gegevens |
 | `SensitivitySubLabel` | tekenreeks | Sublabel dat wordt toegepast op een e-mailbericht, bestand of andere inhoud om deze te classificeren ter bescherming van gegevens; gevoeligheidssublabels worden gegroepeerd onder gevoeligheidslabels, maar worden onafhankelijk behandeld |
 | `IsAzureInfoProtectionApplied` | boolean | Geeft aan of het bestand is versleuteld door Azure Information Protection |
 
 >[!NOTE]
-> Hash-gegevens van bestanden worden altijd weergegeven wanneer deze beschikbaar zijn. Er zijn echter verschillende mogelijke redenen waarom een SHA1, SHA256 of MD5 niet kan worden berekend. Het bestand kan zich bijvoorbeeld bevinden in externe opslag, vergrendeld door een ander proces, gecomprimeerd of gemarkeerd als virtueel. In deze scenario's wordt de hash-informatie van het bestand leeg weergegeven.
+> Hash-gegevens van bestanden worden altijd weergegeven wanneer deze beschikbaar zijn. Er zijn echter verschillende mogelijke redenen waarom een SHA1, SHA256 of MD5 niet kan worden berekend. Het bestand kan zich bijvoorbeeld op afstand bevinden, zijn vergrendeld door een ander proces, gecomprimeerd of gemarkeerd als virtueel. In deze scenario's wordt de hash-informatie van het bestand leeg weergegeven.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

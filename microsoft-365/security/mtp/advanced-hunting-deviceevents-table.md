@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 536d95f7226ba907d913df58a47508e44b50147a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 1340464fbe71e919a60668cf7d1b2f535eb6d260
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931348"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145317"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -42,7 +42,7 @@ De diverse apparaatgebeurtenissen of -tabel in het geavanceerde zoekschema bevat
 >[!TIP]
 > Voor gedetailleerde informatie over de gebeurtenistypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` [ingebouwde schemaverwijzing in](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) het beveiligingscentrum.
 
-Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
+Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
 
 
 | Kolomnaam | Gegevenstype | Beschrijving |
@@ -50,8 +50,8 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is vastgelegd |
 | `DeviceId` | tekenreeks | Unieke id voor de computer in de service |
 | `DeviceName` | tekenreeks | FQDN (Fully Qualified Domain Name) van de computer |
-| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal voor](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) meer informatie |
-| `FileName` | tekenreeks | Naam van het bestand waar de opgenomen actie op is toegepast |
+| `ActionType` | tekenreeks | Het type activiteit dat de gebeurtenis heeft geactiveerd. Zie de [schemaverwijzing in de portal](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) voor meer informatie |
+| `FileName` | tekenreeks | De naam van het bestand waar de opgenomen actie op is toegepast |
 | `FolderPath` | tekenreeks | Map met het bestand waar de opgenomen actie op is toegepast |
 | `SHA1` | tekenreeks | SHA-1 van het bestand waar de opgenomen actie op is toegepast |
 | `SHA256` | tekenreeks | SHA-256 van het bestand waar de opgenomen actie op is toegepast. Dit veld wordt meestal niet ingevuld. Gebruik indien beschikbaar de kolom SHA1. |
@@ -60,12 +60,12 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `AccountName` | tekenreeks | Gebruikersnaam van het account |
 | `AccountSid` | tekenreeks | Security Identifier (SID) van het account |
 | `RemoteUrl` | tekenreeks | URL of FQDN (Fully Qualified Domain Name) die werd verbonden met |
-| `RemoteDeviceName` | tekenreeks | De naam van de computer die een externe bewerking heeft uitgevoerd op de betreffende computer. Afhankelijk van de gebeurtenis die wordt gerapporteerd, kan deze naam een FQDN (Fully Qualified Domain Name), een NetMBOS-naam of een hostnaam zonder domeingegevens zijn. |
+| `RemoteDeviceName` | tekenreeks | De naam van de computer die een externe bewerking heeft uitgevoerd op de betreffende computer. Afhankelijk van de gebeurtenis die wordt gerapporteerd, kan deze naam een FQDN (Fully Qualified Domain Name), een NetTICAS-naam of een hostnaam zonder domeingegevens zijn. |
 | `ProcessId` | int | Proces-id (PID) van het nieuwe proces |
 | `ProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt om het nieuwe proces te maken |
 | `ProcessCreationTime` | datetime | Datum en tijd waarop het proces is gemaakt |
 | `ProcessTokenElevation` | tekenreeks | Tokentype dat de aanwezigheid of afwezigheid aangeeft van UAC-bevoegdheden (User Access Control) die zijn toegepast op het nieuwe proces |
-| `LogonId` | tekenreeks | Id voor een aanmeldingssessie. Deze id is alleen uniek op dezelfde computer tussen opnieuw opstarten |
+| `LogonId` | tekenreeks | Id voor een aanmeldingssessie. Deze id is alleen uniek op dezelfde computer als deze opnieuw wordt gestart |
 | `RegistryKey` | tekenreeks | Registersleutel waar de opgenomen actie op is toegepast |
 | `RegistryValueName` | tekenreeks | Naam van de registerwaarde waar de opgenomen actie op is toegepast |
 | `RegistryValueData` | tekenreeks | Gegevens van de registerwaarde waar de vastgelegde actie op is toegepast |
@@ -76,6 +76,8 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `FileOriginUrl` | tekenreeks | URL waar het bestand is gedownload |
 | `FileOriginIP` | tekenreeks | IP-adres waar het bestand is gedownload |
 | `AdditionalFields` | tekenreeks | Aanvullende informatie over de gebeurtenis in de JSON-matrixindeling |
+| `InitiatingProcessFileSize` | lang | Grootte van het bestand dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `FileSize` | lang | Grootte van het bestand in bytes |
 | `InitiatingProcessSHA1` | tekenreeks | SHA-1 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessSHA256` | tekenreeks | SHA-256 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart. Dit veld wordt meestal niet ingevuld. Gebruik indien beschikbaar de kolom SHA1. |
 | `InitiatingProcessFileName` | tekenreeks | Naam van het proces dat de gebeurtenis heeft gestart |
@@ -90,6 +92,8 @@ Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het
 | `InitiatingProcessAccountDomain` | tekenreeks | Het domein van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountName` | tekenreeks | Gebruikersnaam van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
 | `InitiatingProcessAccountSid` | tekenreeks | Security Identifier (SID) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `InitiatingProcessAccountUpn` | tekenreeks | UPN (User Principal Name) van het account dat het proces heeft verantwoordelijk voor de gebeurtenis |
+| `InitiatingProcessAccountObjectId` | tekenreeks | Azure AD-object-id van het gebruikersaccount dat het proces heeft uitgevoerd dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessLogonId` | tekenreeks | Id voor een aanmeldingssessie van het proces dat de gebeurtenis heeft gestart. Deze id is alleen uniek op dezelfde computer tussen opnieuw opstarten |
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen Apparaatnaam en Tijdstempel |
 | `AppGuardContainerId` | tekenreeks | Id voor de gevirtualiseerde container die door Application Guard wordt gebruikt om browseractiviteit te isoleren |

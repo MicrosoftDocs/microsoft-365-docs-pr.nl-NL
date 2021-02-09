@@ -1,5 +1,5 @@
 ---
-title: Rapport over niet-geaccepteerd domein in het dashboard voor de e-mail stroom
+title: Rapport over niet-geaccepteerd domein in het dashboard e-mailstroom
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -11,63 +11,67 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe u het niet-geaccepteerde domein rapport gebruikt in het dashboard voor e-mail stromen in de beveiligings & nalevings centrum voor het bewaken van berichten van uw on-premises organisatie waarbij het domein van de afzender niet is geconfigureerd in Microsoft 365.
+description: Beheerders kunnen informatie vinden over het gebruik van het rapport Niet-geaccepteerd domein in het dashboard E-mailstroom in het beveiligings- & Compliancecentrum om berichten te controleren van uw on-premises organisatie waar het domein van de afzender niet is geconfigureerd in Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 401d566158ca3f730af94fab60c471484e244a16
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 573fb0ba2bf7981b6eb7df4eec7c8c4e5d596cac
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029844"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150818"
 ---
-# <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Rapport over niet-geaccepteerd domein in de beveiligings & nalevings centrum
+# <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Rapport over niet-geaccepteerd domein in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Het **niet-geaccepteerde domein** rapport op het [Dashboard voor e-mail stroom](mail-flow-insights-v2.md) in de [beveiligings & nalevings centrum](https://protection.office.com) geeft informatie weer over berichten van de on-premises e-mail organisatie waarbij het domein van de afzender niet is geconfigureerd als een geaccepteerd domein in uw Microsoft 365-organisatie.
+In het rapport Niet-geaccepteerd domein in het [dashboard](mail-flow-insights-v2.md) E-mailstroom in het [beveiligings- & compliancecentrum](https://protection.office.com) wordt informatie weergegeven over berichten van uw **on-premises e-mailorganisatie** waarin het domein van de afzender niet is geconfigureerd als een geaccepteerd domein in uw Microsoft 365-organisatie.
 
-In Microsoft 365 kunnen deze berichten worden beperkt als we gegevens hebben om te bewijzen dat de intentie van deze berichten schadelijk is. Daarom is het belangrijk om te begrijpen wat er gebeurt en om het probleem te verhelpen.
+Microsoft 365 kan deze berichten beperkt als we gegevens hebben om te bewijzen dat de bedoeling van deze berichten schadelijk is. Het is dus belangrijk dat u begrijpt wat er gebeurt en dat u het probleem kunt oplossen.
 
-![Niet-geaccepteerd domein widget in het dashboard voor e-mail stroom in de beveiligings & nalevings centrum](../../media/mfi-non-accepted-domain-report-widget.png)
+![Widget voor niet-geaccepteerd domein in het dashboard E-mailstroom in het & Compliancecentrum](../../media/mfi-non-accepted-domain-report-widget.png)
 
-## <a name="report-view-for-the-non-accepted-domain-report"></a>Rapportweergave voor het niet-geaccepteerde domein rapport
+## <a name="report-view-for-the-non-accepted-domain-report"></a>Rapportweergave voor het rapport Niet-geaccepteerd domein
 
-Door te klikken op het diagram in het **niet-geaccepteerde domein** object, gaat u naar het rapport **niet-geaccepteerd domein** .
+Als u op de grafiek klikt in de widget **Niet-geaccepteerd** domein, gaat u naar het rapport **Niet-geaccepteerd domein.**
 
-Standaard wordt de activiteit voor alle desbetreffende verbindingslijnen weergegeven. Als u op **gegevens weergeven** klikt, kunt u een specifieke verbindingslijn selecteren in de vervolgkeuzelijst.
+Standaard wordt de activiteit voor alle betrokken verbindingslijnen weergegeven. Als u op **Gegevens tonen klikt,** kunt u een specifieke verbindingslijn selecteren in de vervolgkeuzepagina.
 
-Als u de muisaanwijzer over een gegevenspunt (dag) van de grafiek houdt, ziet u het totale aantal berichten voor de verbindingslijn.
+Als u de muisaanwijzer op een gegevenspunt (dag) in de grafiek beweegt, ziet u het totale aantal berichten voor de connector.
 
-![Rapportweergave in het niet-geaccepteerde domein rapport](../../media/mfi-non-accepted-domain-report-overview-view.png)
+![Rapportweergave in het rapport Niet-geaccepteerd domein](../../media/mfi-non-accepted-domain-report-overview-view.png)
 
-## <a name="details-table-view-for-the-non-accepted-domain-report"></a>De tabel weergave Details voor het niet-geaccepteerde domein rapport
+## <a name="details-table-view-for-the-non-accepted-domain-report"></a>Tabelweergave Details voor het rapport Niet-geaccepteerd domein
 
-Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
+Als u in **een rapportweergave op Detailtabel** weergeven klikt, wordt de volgende informatie weergegeven:
 
 - **Datum**
-- **Naam van inkomende connector**
+- **Naam van binnenkomende connector**
 - **Afzenderdomein**
 - **Aantal berichten**
-- **Voorbeeldberichten**: de bericht-id's van een voorbeeld van de betreffende berichten.
+- **Voorbeeldberichten:** de bericht-e-mailberichten van een steekproef van beïnvloede berichten.
 
-Als u in een weergave met detail tabellen op **filters** klikt, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik opgeven met **de begin-** en **einddatum.**
 
-Als u het rapport voor een specifiek datumbereik naar een of meer geadresseerden wilt verzenden, klikt u op **Download aanvragen**.
+Als u het rapport voor een bepaald datumbereik per e-mail wilt versturen naar een of meer geadresseerden, klikt u op **Downloaden aanvragen.**
 
 Wanneer u een rij in de tabel selecteert, wordt een flyout met de volgende informatie weergegeven:
 
 - **Datum**
-- **Naam van inkomende connector**
+- **Naam van binnenkomende connector**
 - **Afzenderdomein**
 - **Aantal berichten**
-- **Voorbeeldberichten**: u kunt op **voorbeeldberichten weergeven** klikken om de resultaten van de [bericht tracering](message-trace-scc.md) te zien voor een voorbeeld van de betreffende berichten.
+- **Voorbeeldberichten:** u kunt op **Voorbeeldberichten** weergeven klikken om de [resultaten](message-trace-scc.md) van bericht traceren voor een voorbeeld van de betreffende berichten te bekijken.
 
-![Info-flyout na het selecteren van een rij in de weergave Details van een niet-geaccepteerd domein rapport](../../media/mfi-non-accepted-domain-report-details-flyout.png)
+![Flyout Details na het selecteren van een rij in de tabelweergave Details in het rapport Niet-geaccepteerd domein](../../media/mfi-non-accepted-domain-report-details-flyout.png)
 
-Als u terug wilt gaan naar de weergave rapporten, klikt u op **rapport weergeven**.
+Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Zie voor meer informatie over andere inzichten in het dashboard voor e-mail stroom de [e-mail stroom inzichten in het artikel over de beveiliging & nalevings centrum](mail-flow-insights-v2.md).
+Voor informatie over andere inzichten in het dashboard voor de e-mailstroom, bekijkt u inzichten in de e-mailstroom in het & [compliancecentrum.](mail-flow-insights-v2.md)

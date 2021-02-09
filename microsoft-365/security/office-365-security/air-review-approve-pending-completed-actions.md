@@ -1,14 +1,13 @@
 ---
-title: In behandeling zijnde herstelacties controleren en goedkeuren in een automatisch onderzoek en antwoord
-keywords: AIR, autoIR, ATP, automatisch, onderzoek, antwoord, herstel, bedreiging, Geavanceerd, bedreiging, bescherming
+title: Herstelacties in Microsoft Defender voor Office 365 bekijken en beheren
+keywords: AIR, autoIR, ATP, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 audience: ITPro
-ms.topic: article
-ms.service: O365-seccomp
+ms.topic: how-to
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,45 +15,61 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Meer informatie over herstelacties in de functies voor automatisch onderzoek en antwoord in Microsoft Defender voor Office 365, abonnement 2.
-ms.openlocfilehash: 9a1fdb4bec5168dfcd816dbce7da01f930e38ae1
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365 Abonnement 2.
+ms.technology: mdo
+ms.prod: m365-security
+ms.date: 01/29/2021
+ms.openlocfilehash: bcff8f12133ea16e3d91e293943be1593eaf9659
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615190"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142691"
 ---
-# <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>In behandeling zijnde of voltooide herstelacties bekijken na een geautomatiseerd onderzoek in Office 365
+# <a name="review-and-manage-remediation-actions-in-office-365"></a>Herstelacties in Office 365 bekijken en beheren
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+Wanneer geautomatiseerde onderzoeken op e-& resultaten van samenwerking  resulteren in resultaten, zoals Schadelijk of *Verdacht,* worden bepaalde herstelacties gemaakt. In Microsoft Defender voor Office 365 kunnen herstelacties optreden:
+- Een URL blokkeren (time-of-click)
+- E-mailberichten of clusters zacht verwijderen
+- E-mail- of e-mailbijlagen quarantining
+- Extern doorsturen van e-mail uitschakelen
 
+Deze herstelacties worden alleen uitgevoerd als het beveiligingsteam ze goedkeurt. We raden u aan acties die in behandeling zijn zo snel mogelijk te beoordelen en goed te keuren, zodat uw geautomatiseerde onderzoeken tijdig worden voltooid. In sommige gevallen kunt u een herstelactie ongedaan maken.
 
+## <a name="approve-or-reject-pending-actions"></a>Acties in behandeling goedkeuren (of weigeren)
 
-![Actie pagina AIR onderzoek](../../media/air-investigationactionspage.png)
+1. Ga naar het Microsoft 365-beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
+2. Selecteer Actiecentrum in het **navigatiedeelvenster.**
+3. Bekijk op **het** tabblad In behandeling de lijst met acties die wachten op goedkeuring.
+4. Selecteer een item in de lijst. Het deelvenster flyout wordt geopend. 
+5. Bekijk de informatie in het deelvenster Flyout en ga op een van de volgende stappen te werk:
+   - Selecteer **De pagina Onderzoek openen** om meer details over het onderzoek te bekijken.
+   - Selecteer **Goedkeuren om** een actie in behandeling te starten.
+   - Selecteer **Weigeren om** te voorkomen dat een actie in behandeling wordt ondernomen.
 
-## <a name="approve-or-reject-pending-actions"></a>Acties in behandeling goedkeuren of weigeren
+## <a name="undo-one-remediation-action"></a>Eén herstelactie ongedaan maken
 
-Tijdens het bekijken [van de details van een onderzoek](air-view-investigation-results.md)kunt u de acties voor herstel in behandeling goedkeuren of afwijzen. U wordt aangeraden dit zo snel mogelijk te doen, zodat uw geautomatiseerde onderzoek wordt voltooid.
+1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan.
+2. Selecteer op **het** tabblad Geschiedenis een actie die u ongedaan wilt maken.
+3. Selecteer Ongedaan maken in het deelvenster aan de rechterkant van het **scherm.**
 
-> [!IMPORTANT]
-> U moet de juiste machtigingen hebben om herstelacties goed te keuren of te weigeren. Zie de [vereiste machtigingen voor het gebruik van lucht mogelijkheden](office-365-air.md#required-permissions-to-use-air-capabilities).
+## <a name="undo-multiple-remediation-actions"></a>Meerdere herstelacties ongedaan maken
 
-1. Ga naar <https://protection.office.com> en meld u aan. U gaat nu naar de beveiligings & nalevings centrum.
+1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan.
+2. Selecteer op **het** tabblad Geschiedenis de acties die u ongedaan wilt maken. Zorg ervoor dat u items met hetzelfde actietype selecteert. Er wordt een flyoutvenster geopend.
+3. Selecteer Ongedaan maken in het deelvenster Flyout.
 
-2. Ga naar onderzoek voor **Threat Management** \> .
+## <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Een bestand uit quarantaine verwijderen op meerdere apparaten
 
-3. Selecteer een item in de kolom **id** van de lijst met onderzoek.
-
-4. Selecteer het tabblad **acties** .
-
-5. Selecteer een item in de lijst. (Hiermee activeert u de knoppen goedkeuren en negeren).
-
-6. Bekijk de beschikbare gegevens voor elk item dat u hebt geselecteerd, en keur vervolgens de actie (s) goed of af.
-   - **Hiermee kunt** u beginnen met herstellen.
-   - Bij **negeren** wordt geen verdere actie ondernomen
+1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan.
+2. Selecteer op **het** tabblad Geschiedenis een bestand met het bestand Quarantaine van het **actietype.**
+3. Selecteer in het deelvenster aan de rechterkant van het scherm meer exemplaren van dit bestand op Toepassen op **X** en selecteer vervolgens **Ongedaan maken.**
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Details en resultaten van een geautomatiseerd onderzoek in Office 365](air-view-investigation-results.md)
+- [Bedreigingsverkenner gebruiken](threat-explorer.md)
+- [Fout-positieven/negatieven rapporteren in geautomatiseerde onderzoeks- en antwoordmogelijkheden](air-report-false-positives-negatives.md)
 
-- [De bedreigings Verkenner gebruiken](threat-explorer.md)
+## <a name="see-also"></a>Zie ook
+
+- [Details en resultaten van een geautomatiseerd onderzoek in Office 365 weergeven](air-view-investigation-results.md)
