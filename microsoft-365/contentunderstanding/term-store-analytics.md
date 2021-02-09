@@ -12,16 +12,18 @@ ms.collection:
 - enabler-strategic
 - m365initiative-topics
 localization_priority: Priority
-ms.openlocfilehash: ad777fde5179b8425fad3ead4d4733a9a455e657
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 5ac0513b100c120366138b1f2a7b4a35f4435cfb
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976337"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145089"
 ---
 # <a name="term-store-reports"></a>Rapportage over termenarchief
 
-U kunt rapporten over het termenarchief bekijken in het SharePoint-beheercentrum. Vouw **Rapporten** uit en klik op **Inhoudsservices**.
+U kunt rapporten over het termenarchief bekijken in het SharePoint-beheercentrum. Deze functie vereist een licentie voor [SharePoint Syntex](index.md).
+
+Vouw **Rapporten** uit en klik op **Inhoudsservices**.
 
 De volgende rapporten zijn beschikbaar:
 

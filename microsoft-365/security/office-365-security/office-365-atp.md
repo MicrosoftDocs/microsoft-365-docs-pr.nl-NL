@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -20,17 +19,22 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
-ms.openlocfilehash: 08ad29eebb0f0c144268866922f12959600bf7cf
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 7624b9a62530e54a161bbc4aacc8bee56ed959b2
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794182"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150722"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
@@ -77,7 +81,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 |Abonnement 1 voor Microsoft Defender voor Office 365|Abonnement 2 voor Microsoft Defender voor Office 365|
 |---|---|
-|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies in abonnement 1 voor Microsoft Defender voor Office 365 <br>--- plus ---<br> Functies voor automatisering, onderzoek, herstel en onderwijs:<ul><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulator](attack-simulator.md)</li><li>[Campagneweergaven](campaigns.md)</li></ul>|
+|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](atp-safe-attachments.md)</li><li>[Veilige koppelingen](atp-safe-links.md)</li><li>[Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies in abonnement 1 voor Microsoft Defender voor Office 365 <br>--- plus ---<br> Functies voor automatisering, onderzoek, herstel en onderwijs:<ul><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulator](attack-simulator.md)</li><li>[Campagneweergaven](campaigns.md)</li></ul>|
 |
 
 - Abonnement 2 voor Microsoft Defender voor Office 365 is inbegrepen in Office 365 E5, Office 365 A5, Microsoft 365 E5 Security en Microsoft 365 E5.
@@ -105,7 +109,7 @@ Het beleid dat wordt gedefinieerd voor uw organisatie bepaalt het gedrag en beve
 
 - **[Veilige koppelingen](atp-safe-links.md)**: biedt ‘time-of-click’-verificatie van URL’s in bijvoorbeeld e-mailberichten en Office-bestanden. De bescherming is continu en is van toepassing op uw berichten- en Office-omgeving. Koppelingen worden gescand op elke klik: veilige koppelingen blijven toegankelijk en schadelijke koppelingen worden dynamisch geblokkeerd. Zie [Beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.md) voor meer informatie.
 
-- **[ATP voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)**: beschermt uw organisatie wanneer gebruikers samenwerken en bestanden delen door schadelijke bestanden in teamsites en documentbibliotheken te identificeren en te blokkeren. Raadpleeg voor meer informatie [Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
+- **[Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](atp-for-spo-odb-and-teams.md)**: beschermt uw organisatie wanneer gebruikers samenwerken en bestanden delen door schadelijke bestanden in teamsites en documentbibliotheken te identificeren en te blokkeren. Raadpleeg voor meer informatie [Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
 - **[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)**: detecteert pogingen om je gebruikers en interne of aangepaste domeinen na te bootsen. Hiermee worden machine learning-modellen en geavanceerde vervalsingsdetectie-algoritmen toegepast om phishing-aanvallen te voorkomen. Raadpleeg voor meer informatie [Beleid tegen phishing configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md).
 

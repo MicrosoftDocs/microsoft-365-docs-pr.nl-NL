@@ -12,12 +12,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-ms.openlocfilehash: 89c03a70da364bd4b945debc64de02255dec15e1
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 22d146b1d376bab134e82ad7d1313cb7881ca45b
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975713"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50144969"
 ---
 # <a name="push-content-types-to-a-hub"></a>Inhoudstypen naar een hub pushen
 
@@ -28,7 +28,7 @@ ms.locfileid: "49975713"
 </br>
 
 
-Als u belangrijke inhoudstypen op consistente wijze beschikbaar wilt maken voor SharePoint-bibliotheken en -lijsten, kunt u deze naar de gewenste hubs pushen. Hiermee worden ze automatisch toegevoegd aan nieuwe lijsten en bibliotheken die zijn gemaakt op de sites die zijn gekoppeld aan de hub, en op nieuwe sites die worden toegevoegd aan de hub.
+Als u belangrijke inhoudstypen op consistente wijze beschikbaar wilt maken voor SharePoint-bibliotheken en -lijsten, kunt u deze naar de gewenste hubs pushen. Hiermee worden ze automatisch toegevoegd aan nieuwe lijsten en bibliotheken die zijn gemaakt op de sites die zijn gekoppeld aan de hub, en op nieuwe sites die worden toegevoegd aan de hub. Deze functie vereist een licentie voor [SharePoint Syntex](index.md).
 
 Als u deze functie wilt gebruiken, moeten de inhoudstypen die worden gepusht al zijn gepubliceerd.
 

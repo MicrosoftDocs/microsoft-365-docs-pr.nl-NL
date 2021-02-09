@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Inhoudsbegrip instellen in Project Cortex
-ms.openlocfilehash: 0e5b48bab343f887a1438386bfa4f7915126ccd7
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: 58496041004218b48b864fa725084cba8edd518b
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094707"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145473"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex instellen
 
@@ -92,11 +92,11 @@ Licenties toewijzen:
 
 1. Klik in het Microsoft 365-beheercentrum onder **Gebruikers** op **Actieve gebruikers**.
 
-2. Selecteer de gebruikers aan wie u een licentie wilt toewijzen en klik op **Productlicenties beheren**.
+2. Selecteer de gebruikers aan wie u een licentie wilt toewijzen en kies **Productlicenties beheren**.
 
-3. Selecteer **Meer toewijzen**.
+3. Kies **Apps** in het vervolgkeuzemenu.
 
-4. Selecteer **SharePoint Syntex**. Zorg ervoor dat onder **Apps** **Algemene Gegevens sService voor SharePoint Syntex**, **SharePoint Syntex** en **SharePoint Syntex-SPO type** allemaal zijn geselecteerd.
+4. Selecteer **Apps voor SharePoint Syntex weergeven**. Zorg ervoor dat onder **Apps** **Algemene Gegevens sService voor SharePoint Syntex**, **SharePoint Syntex** en **SharePoint Syntex-SPO type** allemaal zijn geselecteerd.
 
     > [!div class="mx-imgBorder"]
     > ![SharePoint Syntex-licenties in het Microsoft 365-beheercentrum](../media/content-understanding/sharepoint-syntex-licenses.png)
