@@ -25,6 +25,8 @@
           href: ./office-365-security/secure-email-recommended-policies.md
         - name: Aanbevolen beleid voor toegang tot SharePoint Online
           href: ./office-365-security/sharepoint-file-access-policies.md
+    - name: Microsoft 365-beveiligingscentrum
+      href: mtp/overview-security-center.md
     - name: Microsoft Secure Score
       items:
         - name: Secure Score-overzicht
@@ -45,10 +47,14 @@
               href: mtp/microsoft-threat-protection.md
             - name: Wat is er nieuw in Microsoft 365 Defender
               href: mtp/whats-new.md
+            - name: Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum
+              href: mtp/microsoft-365-security-center-mde.md
+            - name: Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
+              href: mtp/microsoft-365-security-center-mdo.md
+            - name: Defender voor Eindpunt omleiden naar Microsoft 365-beveiligingscentrum
+              href: mtp/microsoft-365-security-mde-redirection.md
             - name: Preview-functies
               href: mtp/preview.md
-            - name: Microsoft 365-beveiligingscentrum
-              href: mtp/overview-security-center.md
             - name: Problemen oplossen
               href: ./mtp/troubleshoot.md
             - name: Tests in de bedrijfstak
@@ -63,22 +69,18 @@
               href: mtp/portals.md
         - name: Mogelijkheden evalueren
           items:
-            - name: Overzicht van het testlab
-              href: mtp/mtp-evaluation.md
-            - name: Voorbereiding
-              href: mtp/prepare-mtpeval.md
-            - name: Configuratie
-              href: mtp/setup-mtpeval.md
-            - name: Configureren en onboarden
-              href: mtp/config-mtpeval.md
-            - name: De Microsoft 365 Defender-service starten
-              href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
-            - name: Een testwaarschuwing genereren
-              href: mtp/generate-test-alert.md
-        - name: Implementeren
-          items:
-            - name: Microsoft Threat Protection inschakelen
-              href: mtp/mtp-enable.md
+            - name: Een testlab maken
+              items:
+                - name: Overzicht van het testlab
+                  href: mtp/mtp-evaluation.md
+                - name: Voorbereiding
+                  href: mtp/prepare-mtpeval.md
+                - name: Configuratie
+                  href: mtp/setup-mtpeval.md
+                - name: Microsoft 365 Defender-pijlers en onboarding configureren
+                  href: mtp/config-mtpeval.md
+                - name: Een testwaarschuwing genereren
+                  href: mtp/generate-test-alert.md
             - name: Een pilotproject uitvoeren in productie
               items:
                 - name: Overzicht van testfase
@@ -91,8 +93,16 @@
                   href: mtp/mtp-pilot-simulate.md
                 - name: Sluiten en samenvatten
                   href: mtp/mtp-pilot-close.md
+        - name: Aan de slag
+          items:
+            - name: Overzicht
+              href: mtp/get-started.md
+            - name: Microsoft Threat Protection inschakelen
+              href: mtp/mtp-enable.md
             - name: Ondersteunde services implementeren
               href: mtp/deploy-supported-services.md
+            - name: Veelgestelde vragen over het inschakelen van Microsoft 365 Defender
+              href: mtp/mtp-enable-faq.md
         - name: Handleidingen
           items:
             - name: Een testlab- of testfaseomgeving maken
@@ -101,6 +111,12 @@
               href: mtp/mtp-pilot.md
             - name: Veelgestelde vragen inschakelen
               href: mtp/mtp-enable-faq.md
+            - name: Dreigingsanalyse
+              items:
+                - name: Overzicht van dreigingsanalyse
+                  href: mtp/threat-analytics.md
+                - name: Het analistenrapport lezen
+                  href: mtp/threat-analytics-analyst-reports.md
             - name: Incidenten
               items:
                 - name: Overzicht
@@ -113,6 +129,10 @@
                       href: mtp/investigate-incidents.md
                     - name: Incidenten beheren
                       href: mtp/manage-incidents.md
+                    - name: Waarschuwingen onderzoeken
+                      href: mtp/investigate-alerts.md
+                    - name: Gebruikers in Microsoft 365-beveiligingscentrum onderzoeken
+                      href: mtp/investigate-users.md
                 - name: E-mailmeldingen krijgen
                   href: mtp/get-incident-notifications.md
             - name: Geautomatiseerd onderzoek en reactie
@@ -247,6 +267,8 @@
               items:
                 - name: Toegang beheren
                   href: mtp/mtp-permissions.md
+                - name: Aangepaste rollen bij op rollen gebaseerde toegang
+                  href: mtp/custom-roles.md
                 - name: Tijdzone instellen
                   href: mtp/mtp-time-zone.md
                 - name: Apparaatprofielen weergeven
@@ -302,6 +324,8 @@
           items:
             - name: Roadmap voor beveiliging
               href: ./office-365-security/security-roadmap.md
+            - name: Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
+              href: mtp/microsoft-365-security-center-mdo.md
             - name: Exchange Online Protection
               items:
                 - name: Overzicht Exchange Online Protection
@@ -328,7 +352,7 @@
               href: office-365-security/whats-new-in-office-365-atp.md
             - name: 'Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams'
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
-            - name: Nieuw Microsoft 365-beveiligingscentrum
+            - name: Overzicht van Microsoft 365-beveiligingscentrum
               href: ./mtp/overview-security-center.md
             - name: Bedreigingsverkenner (en realtime detecties)
               href: ./office-365-security/threat-explorer.md
