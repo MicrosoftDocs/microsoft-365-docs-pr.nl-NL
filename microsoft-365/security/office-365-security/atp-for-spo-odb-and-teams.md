@@ -1,5 +1,5 @@
 ---
-title: ATP voor SharePoint, OneDrive en Microsoft Teams
+title: Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -8,7 +8,6 @@ manager: dansimp
 audience: Admin
 ms.date: ''
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -21,52 +20,58 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Meer informatie over Microsoft Defender voor Office 365 voor bestanden in SharePoint Online, OneDrive voor bedrijven en Microsoft teams.
-ms.openlocfilehash: 7b007671a7fecb3ae074fd07ce38d17fb025f6b4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Meer informatie over Microsoft Defender voor Office 365 voor bestanden in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 640867cb38dab650bca990fe36c0b7cea7f6a0d8
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844330"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175725"
 ---
-# <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP voor SharePoint, OneDrive en Microsoft Teams
+# <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-ATP voor SharePoint, OneDrive en Microsoft teams in [Microsoft Defender voor Office 365](office-365-atp.md) biedt een extra beveiligingslaag voor bestanden die al zijn gecontroleerd op het moment dat ze worden geüpload via de [algemene virusdetectie-engine in Microsoft 365](virus-detection-in-spo.md). Met ATP voor SharePoint, OneDrive en Microsoft teams kunt u bestaande bestanden die zijn geïdentificeerd als schadelijk op team sites en documentbibliotheken detecteren en blokkeren.
+**Van toepassing op**
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-ATP voor SharePoint, OneDrive en Microsoft teams is standaard niet ingeschakeld. Als u dit wilt inschakelen, raadpleegt u [ATP voor SharePoint, OneDrive en Microsoft teams inschakelen](turn-on-atp-for-spo-odb-and-teams.md).
+Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams in Microsoft Defender voor [Office 365](office-365-atp.md) bieden een extra beveiligingslaag voor bestanden die al tijdens het uploaden zijn gescand met de algemene [virusdetectie-engine in Microsoft 365.](virus-detection-in-spo.md) Met veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams kunt u bestaande bestanden opsporen en blokkeren die in teamsites en documentbibliotheken als schadelijk zijn aangemerkt.
 
-## <a name="how-atp-for-sharepoint-onedrive-and-microsoft-teams-works"></a>De werking van ATP voor SharePoint, OneDrive en Microsoft teams
+Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams zijn standaard niet ingeschakeld. Zie Veilige bijlagen in schakel je in voor [SharePoint, OneDrive en Microsoft Teams.](turn-on-atp-for-spo-odb-and-teams.md)
 
-Wanneer ATP voor SharePoint, OneDrive en Microsoft teams is ingeschakeld en een bestand als schadelijk wordt geïdentificeerd, wordt het bestand vergrendeld via rechtstreekse integratie met de bestandsarchieven. In de volgende afbeelding ziet u een voorbeeld van een schadelijk bestand dat is gevonden in een bibliotheek.
+## <a name="how-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-works"></a>Hoe veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams werken
 
-![Bestanden in OneDrive voor bedrijven met een gedetecteerde schadelijke versie](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
+Als veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams zijn ingeschakeld en een bestand als schadelijk wordt geïdentificeerd, wordt het bestand vergrendeld met rechtstreekse integratie met de bestandsopslag. In de volgende afbeelding ziet u een voorbeeld van een schadelijk bestand dat in een bibliotheek is gedetecteerd.
 
-Hoewel het geblokkeerde bestand nog steeds wordt weergegeven in de documentbibliotheek en in Internet-, mobiele en bureaubladtoepassingen, kunnen personen het bestand niet openen, kopiëren, verplaatsen of delen. Maar ze kunnen het geblokkeerde bestand wel verwijderen.
+![Bestanden in OneDrive voor Bedrijven met een gedetecteerd als schadelijk](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
 
-Hier ziet u een voorbeeld van hoe een geblokkeerd bestand eruit ziet op een mobiel apparaat:
+Hoewel het geblokkeerde bestand nog steeds wordt vermeld in de documentbibliotheek en in web-, mobiele of bureaubladtoepassingen, kunnen personen het bestand niet openen, kopiëren, verplaatsen of delen. Maar ze kunnen het geblokkeerde bestand verwijderen.
 
-![Een geblokkeerd bestand verwijderen uit OneDrive voor bedrijven uit de mobiele OneDrive-app](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
+Hier ziet u een voorbeeld van hoe een geblokkeerd bestand eruitziet op een mobiel apparaat:
 
-Standaard kunnen personen een geblokkeerd bestand downloaden. Het downloaden van een geblokkeerd bestand ziet er als volgt uit op een mobiel apparaat:
+![Een geblokkeerd bestand verwijderen uit OneDrive voor Bedrijven vanuit de mobiele OneDrive-app](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
-![Een geblokkeerd bestand downloaden in OneDrive voor bedrijven](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
+Standaard kunnen mensen een geblokkeerd bestand downloaden. Zo ziet het downloaden van een geblokkeerd bestand er op een mobiel apparaat uit:
 
-SharePoint Online-beheerders kunnen voorkomen dat mensen schadelijke bestanden downloaden. Zie [SharePoint Online PowerShell gebruiken om te voorkomen dat gebruikers schadelijke bestanden downloaden](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)voor instructies.
+![Een geblokkeerd bestand downloaden in OneDrive voor Bedrijven](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
-Zie [wat u moet doen als er een schadelijk bestand wordt gevonden in SharePoint Online, OneDrive of Microsoft teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)voor meer informatie over de gebruikerservaring wanneer een bestand als schadelijk is gedetecteerd.
+SharePoint Online-beheerders kunnen voorkomen dat personen schadelijke bestanden downloaden. Zie [SharePoint Online PowerShell gebruiken om te](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)voorkomen dat gebruikers schadelijke bestanden downloaden.
 
-## <a name="view-information-about-malicious-files-detected-by-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Informatie weergeven over schadelijke bestanden die zijn gedetecteerd door ATP voor SharePoint, OneDrive en Microsoft teams
+Als u meer wilt weten over de gebruikerservaring wanneer een bestand als schadelijk is gedetecteerd, bekijkt u Wat u moet doen als er een schadelijk bestand wordt gevonden [in SharePoint Online, OneDrive of Microsoft Teams.](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
 
-Bestanden die worden geïdentificeerd als schadelijk voor Microsoft Defender voor Office 365, worden weergegeven in [rapporten voor Microsoft Defender for office 365](view-reports-for-atp.md) en in [Explorer (en in realtime-detectie)](threat-explorer.md).
+## <a name="view-information-about-malicious-files-detected-by-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Informatie weergeven over schadelijke bestanden die worden gedetecteerd door veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams
 
-Vanaf mei 2018, indien een bestand als schadelijk wordt geïdentificeerd door Microsoft Defender for Office 365, is het bestand ook beschikbaar in quarantaine. Zie voor meer informatie het artikel over [beveiligings & voor nalevings centrum voor het beheren van gequarantinee bestanden](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files).
+Bestanden die worden geïdentificeerd als schadelijk door Microsoft Defender voor Office 365, worden weergegeven in rapporten voor Microsoft Defender voor [Office 365](view-reports-for-atp.md) en in [Verkenner (en realtime detecties).](threat-explorer.md)
 
-## <a name="keep-these-points-in-mind"></a>Let op de volgende punten
+Vanaf mei 2018, wanneer een bestand wordt geïdentificeerd als schadelijk door Microsoft Defender voor Office 365, is het bestand ook in quarantaine beschikbaar. Zie het beveiligingscentrum voor & voor meer informatie [over het beheren van bestanden in quarantaine.](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)
 
-- Met Defender voor Office 365 kunt u niet elk afzonderlijk bestand in SharePoint Online, OneDrive voor bedrijven of Microsoft teams scannen. Dit is inherent aan het ontwerp van het product. Bestanden worden asynchroon gescand. Met de functie voor het delen van gebeurtenissen en gebeurtenissen in een gast activiteit worden kwaadwillende bestanden aangegeven met behulp van slimme heuristisch en bedreigings signalen.
+## <a name="keep-these-points-in-mind"></a>Houd rekening met deze punten
 
-- Zorg ervoor dat de SharePoint-sites zijn geconfigureerd voor gebruik van de [moderne ervaring](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience). De bescherming van Defender voor Office 365 is van toepassing op de manier waarop de moderne ervaring of de klassieke weergave wordt gebruikt; de visuele indicatoren die een bestand blokkeert, zijn echter alleen beschikbaar in de moderne ervaring.
+- Defender voor Office 365 scant niet elk bestand in SharePoint Online, OneDrive voor Bedrijven of Microsoft Teams. Dit is inherent aan het ontwerp van het product. Bestanden worden asynchroon gescand. Het proces maakt gebruik van gebeurtenissen voor delen en gastactiviteiten, samen met slimme heuristics- en bedreigingssignalen om schadelijke bestanden te identificeren.
 
-- ATP voor SharePoint, OneDrive en Microsoft teams maakt deel uit van de algemene strategie voor risico beveiliging van uw organisatie, waaronder antispam en bescherming tegen malware in Exchange Online Protection (EOP), en veilige koppelingen en veilige bijlagen in Microsoft Defender voor Office 365. Voor meer informatie raadpleegt u [bescherming tegen bedreigingen in Office 365](protect-against-threats.md).
+- Zorg ervoor dat uw SharePoint-sites zijn geconfigureerd voor gebruik met de [moderne ervaring.](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience) De beveiliging van Defender voor Office 365 is van toepassing, ongeacht of de moderne of klassieke weergave wordt gebruikt. Visuele indicatoren die echter zeggen dat een bestand is geblokkeerd, zijn alleen beschikbaar in de moderne ervaring.
+
+- Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams maken deel uit van de algemene strategie voor risicobeveiliging van uw organisatie, waaronder bescherming tegen ongewenste e-mail en malware in Exchange Online Protection (EOP), evenals veilige koppelingen en veilige bijlagen in Microsoft Defender voor Office 365. Zie Beveiligen tegen bedreigingen [in Office 365 voor meer informatie.](protect-against-threats.md)

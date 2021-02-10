@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -17,17 +16,23 @@ ms.collection:
 - m365initiative-defender-office365
 description: Beheerders kunnen meer informatie krijgen over de velden met berichtkoppen die door Exchange Online Protection (EOP) worden toegevoegd aan berichten. Deze koptekstvelden bieden informatie over het bericht en hoe dit is verwerkt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3b2eb9e4ce4a63d4bef276dde9e19b491aae53
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 5f0befa764982ae30e0c7c5c1a9f109067f3ee02
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615538"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175647"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Berichtkoppen tegen ongewenste e-mail in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 In alle Microsoft 365-organisaties scant Exchange Online Protection (EOP) alle inkomende berichten op spam, malware en andere bedreigingen. De resultaten van deze scans worden toegevoegd aan de volgende koptekstvelden in berichten:
 

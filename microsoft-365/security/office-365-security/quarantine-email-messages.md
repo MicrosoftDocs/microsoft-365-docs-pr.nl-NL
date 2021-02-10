@@ -1,5 +1,5 @@
 ---
-title: Gequarantinede e-mailberichten
+title: E-mailberichten in quarantaine
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -20,33 +19,39 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen informatie vinden over quarantaine in Exchange Online Protection (EOP) die mogelijk schadelijke of ongewenste berichten bevat.
-ms.openlocfilehash: 8a978ece029de06bcb7b434de730b0baea33a5e1
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Beheerders kunnen meer te weten komen over quarantaine in Exchange Online Protection (EOP) die mogelijk gevaarlijke of ongewenste berichten bevat.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 4b111ea0d07453ef4280ec9e57247c8215420074
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794326"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167405"
 ---
-# <a name="quarantined-email-messages-in-eop"></a>Gequarantinede e-mailberichten in EOP
+# <a name="quarantined-email-messages-in-eop"></a>E-mailberichten in quarantaine in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-   [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+-   [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder postvak in van Exchange
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken is quarantaine beschikbaar voor het plaatsen van mogelijk gevaarlijke of ongewenste berichten.
 
-Beleidsregels voor malware die een bericht met malware *tegenkomen.* Zie voor meer informatie [anti-malwarebeleid configureren in EOP](configure-anti-malware-policies.md).
+Een bericht wordt automatisch in  quarantaine geplaatst als malware wordt aangetroffen bij bijlagen. Zie [Antimalwarebeleid](configure-anti-malware-policies.md)configureren in EOP voor meer informatie.
 
-Standaard wordt in antispam voor de gebruiker in de map Ongewenste E-mail in de map Ongewenste E-mail gebruikt om spamberichten te ontvangen en spam en bulk-e-mailberichten te verzenden. U kunt ook Antispambeleid maken en aanpassen voor het Quarantine spam en bulk-e-mailberichten. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+Standaard worden phishingberichten in quarantaine tegen ongewenste e-mail in quarantaine geplaatst en worden spam en bulk-e-mailberichten naar de map Ongewenste e-mail van de gebruiker verzonden. Maar u kunt ook antispambeleid maken en aanpassen voor spam en bulk-e-mailberichten in quarantaine. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
-Gebruikers en beheerders kunnen werken met berichten in quarantaine:
+Zowel gebruikers als beheerders kunnen in quarantaine geplaatste berichten gebruiken:
 
-- Beheerders kunnen werken met alle typen quarantaine berichten voor alle gebruikers. Alleen beheerders kunnen werken met berichten die zijn gequarantined als malware, phishing van hoge betrouwbaarheid of als gevolg van de regels voor de e-mail stroom (ook wel een transportregel genoemd). Zie [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md).
+- Beheerders kunnen voor alle gebruikers werken met alle typen in quarantaine geplaatste berichten. Alleen beheerders kunnen werken met berichten die in quarantaine zijn geplaatst als malware, zeer vertrouwelijk phishing of als gevolg van regels voor de e-mailstroom (ook wel transportregels genoemd). Zie [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md).
 
-- Gebruikers kunnen werken met berichten in quarantaine waarvan ze een geadresseerde zijn als het bericht is gequarantined als spam, bulk-e-mail, of (vanaf april 2020) phishing. Voor meer informatie raadpleegt u [gequarantinede berichten zoeken en vrijgeven als een gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md).
+- Gebruikers kunnen in quarantaine geplaatste berichten plaatsen waar ze geadresseerden zijn als het bericht in quarantaine is geplaatst als spam, bulk-e-mail of (vanaf april 2020) phishing. Zie Berichten in quarantaine zoeken en vrijgeven als [gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md)voor meer informatie.
 
-  Om te voorkomen dat gebruikers hun eigen verplaatste phishingberichten kunnen beheren, kunnen beheerders een andere actie voor het filteren van **e-mail** berichten verdict in Antispambeleid configureren. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+  Beheerders kunnen voorkomen dat gebruikers hun eigen phishingberichten in quarantaine  beheren door een andere actie te configureren voor het filteren van phishing-e-mails in antispambeleidsregels. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
-- Beheerders en gebruikers kunnen fout-positieven rapporteren aan Microsoft in Quarantine.
+- Beheerders en gebruikers kunnen fout-positieven rapporteren aan Microsoft in quarantaine.
 
-Zie [Veelgestelde vragen over quarantaine](quarantine-faq.md)voor meer informatie over quarantaine.
+Zie veelgestelde vragen over [quarantaine](quarantine-faq.md)voor meer informatie over quarantaine.

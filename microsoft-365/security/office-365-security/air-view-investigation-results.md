@@ -19,16 +19,20 @@ description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 kunt u
 ms.date: 01/29/2021
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7ebfa8bb7060b633bdb48c77bc661477ad3e201b
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 36cce42d0986cc793753d247d97315616f86f986
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142511"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175596"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
-Wanneer een [geautomatiseerd onderzoek plaatsvindt](office-365-air.md) in [Microsoft Defender voor Office 365,](office-365-atp.md)zijn details over dat onderzoek beschikbaar tijdens en na het proces voor geautomatiseerd onderzoek. Als u de benodigde machtigingen hebt, kunt u die details bekijken in het beveiligingscentrum. Onderzoekgegevens verstrekken u de actuele status en de mogelijkheid om acties die in behandeling zijn goed te keuren.
+**Van toepassing op**
+- [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+Wanneer een [geautomatiseerd onderzoek plaatsvindt](office-365-air.md) in [Microsoft Defender voor Office 365,](office-365-atp.md)zijn details over dat onderzoek beschikbaar tijdens en na het proces voor geautomatiseerd onderzoek. Als u de benodigde machtigingen hebt, kunt u deze details bekijken in het Microsoft 365-beveiligingscentrum. Onderzoekgegevens verstrekken u de actuele status en de mogelijkheid om acties die in behandeling zijn goed te keuren.
 
 > [!TIP]
 > Bekijk de nieuwe, geïntegreerde onderzoekspagina in het Microsoft 365-beveiligingscentrum. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina.](../mtp/mtp-autoir-results.md#new-unified-investigation-page)
@@ -48,7 +52,7 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het
 |**Remediated**|Het onderzoek is voltooid en alle herstelacties zijn goedgekeurd (zoals volledig hersteld). <p> **OPMERKING:** Goedgekeurde herstelacties kunnen fouten bevatten die verhinderen dat de acties worden ondernomen. De status van het onderzoek verandert niet, ongeacht of herstelacties zijn voltooid. Details van onderzoek weergeven.|
 |**Gedeeltelijk herstel**|Het onderzoek heeft geleid tot herstelacties en sommige zijn goedgekeurd en voltooid. Andere acties zijn nog [in behandeling.](air-review-approve-pending-completed-actions.md)|
 |**Mislukt**|Ten minste één onderzoeksanalyse heeft een probleem gelopen waarbij het niet correct kon worden voltooid. <p> **OPMERKING:** Als een onderzoek mislukt nadat herstelacties zijn goedgekeurd, zijn de herstelacties mogelijk toch geslaagd. Bekijk de details van het onderzoek. |
-|**In wachtrij door beperken**|Er wordt een onderzoek in een wachtrij geplaatst. Wanneer andere onderzoeken zijn voltooid, begint een onderzoek in de wachtrij. Beperken helpt slechte serviceprestaties te voorkomen.  <p> **TIP:** Acties in behandeling kunnen beperken hoeveel nieuwe onderzoeken kunnen worden uitgevoerd. Zorg ervoor dat [u acties in behandeling goedkeurt (of afkeurt).](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)|
+|**In wachtrij door beperken**|Er wordt een onderzoek in een wachtrij geplaatst. Wanneer andere onderzoeken zijn voltooid, beginnen er onderzoeken in de wachtrij. Beperken helpt slechte serviceprestaties te voorkomen.  <p> **TIP:** Acties in behandeling kunnen beperken hoeveel nieuwe onderzoeken kunnen worden uitgevoerd. Zorg ervoor dat [u acties in behandeling goedkeurt (of afkeurt).](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)|
 |**Beëindigd door beperking**|Als een onderzoek te lang in de wachtrij wordt gehouden, stopt het. <p> **TIP:** u kunt [een onderzoek starten vanuit Bedreigingsverkenner.](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)|
 |
 
@@ -62,7 +66,7 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het
 
 ## <a name="view-details-about-an-alert-related-to-an-investigation"></a>Details weergeven van een waarschuwing in verband met een onderzoek
 
-Bepaalde soorten waarschuwingen activeren automatisch onderzoek in Microsoft 365. Zie waarschuwingsbeleid dat automatische [onderzoeken activeert voor meer informatie.](office-365-air.md#which-alert-policies-trigger-automated-investigations)
+Bepaalde soorten waarschuwingen activeren automatisch onderzoek in Microsoft 365. Zie waarschuwingsbeleid dat automatische onderzoeken [activeert voor meer informatie.](office-365-air.md#which-alert-policies-trigger-automated-investigations)
 
 1. Ga naar het Microsoft 365-beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
 2. Selecteer Actiecentrum in het **navigatiedeelvenster.**

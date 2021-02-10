@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ce0f1ae41b57db398c7ec84e078897a7345c1b9a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 9156025990e8da61006ac1d3b81a71be5580e00c
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930076"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167381"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Voorbeeldfuncties van Microsoft 365 Defender
 
@@ -52,19 +52,20 @@ Schakel de preview-ervaringsinstelling in om een van de eersten te zijn om nieuw
 
 2. Selecteer **Microsoft 365 Defender.**
 
-
 3. Kies **Preview-functies** > **Preview-functies inschakelen**. 
 
-3. Kies **Opslaan**.
+4. Kies **Opslaan**.
 
 U weet dat u preview-functies hebt ingeschakeld wanneer u ziet dat het selectievakje **Preview-functies inschakelen** is aangevinkt. 
 
 ## <a name="preview-features"></a>Preview-functies
 De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-versie:
 
-- **[Microsoft 365 Defender API's](api-overview.md)** - De Microsoft 365 Defender API's op gebied kunnen werkstromen automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen. 
-- **[Onderneemt actie bij geavanceerd zoeken:](advanced-hunting-take-action.md)** snel bedreigingen bevatten of het adres van gekromde assets die u vindt in [geavanceerd zoeken.](advanced-hunting-overview.md)
+### <a name="improved-microsoft-365-security-center"></a>Verbeterd Microsoft 365-beveiligingscentrum
+Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Dit is de nieuwe thuisbasis voor het beheren van uw besturingselementen voor beveiliging. [Ontdek wat er nieuw is](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center).
+
+- **[Microsoft 365 Defender threat analytics report](threat-analytics.md)** - Bedreigingsanalyse helpt u om te reageren op en de impact van actieve aanvallen te minimaliseren. U kunt ook meer te weten komen over aanvallen die worden geblokkeerd door Microsoft 365 Defender-oplossingen en voor het nemen van voorzorgsacties die het risico op verdere blootstelling beperken en tolerantie verhogen. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor licentiehouders van Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5.
+- **[Microsoft 365 Defender API's](api-overview.md)** - de Microsoft 365 Defender API's op het hoogste niveau stelt u in staat om werkstromen te automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen. 
+- **[Onderneemt actie bij geavanceerd zoeken:](advanced-hunting-take-action.md)** snel bedreigingen bevatten of gecompromitteerde assets vinden in [geavanceerd zoeken.](advanced-hunting-overview.md)
 - **[In-portal schema reference](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**—Get information about advanced hunting schema tables directly in the security center. Naast tabel- en kolombeschrijvingen bevat deze verwijzing ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.
-- **[DeviceFromIP(), functie](advanced-hunting-devicefromip-function.md)**— Informatie krijgen over welke apparaten binnen een bepaald tijdsbereik een specifiek IP-adres of specifieke adressen zijn toegewezen.
-
-
+- **[DeviceFromIP(),](advanced-hunting-devicefromip-function.md)** functie — Informatie krijgen over welke apparaten in een bepaald tijdsbereik een specifiek IP-adres of specifieke adressen zijn toegewezen.

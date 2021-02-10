@@ -19,22 +19,26 @@ description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- 
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: bcff8f12133ea16e3d91e293943be1593eaf9659
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 3fb77fa41ff3e9af995cf80b9f4024aa92a51212
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142691"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50176013"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Herstelacties in Office 365 bekijken en beheren
 
-Wanneer geautomatiseerde onderzoeken op e-& resultaten van samenwerking  resulteren in resultaten, zoals Schadelijk of *Verdacht,* worden bepaalde herstelacties gemaakt. In Microsoft Defender voor Office 365 kunnen herstelacties optreden:
-- Een URL blokkeren (time-of-click)
+Wanneer geautomatiseerde onderzoeken op e-& resultaten van samenwerking  resulteren in resultaten, zoals Schadelijk of *Verdacht,* worden bepaalde herstelacties gemaakt. In Microsoft Defender voor Office 365 kunnen herstelacties het volgende omvatten:
+- Een URL blokkeren (tijd-van-klik)
 - E-mailberichten of clusters zacht verwijderen
 - E-mail- of e-mailbijlagen quarantining
 - Extern doorsturen van e-mail uitschakelen
 
 Deze herstelacties worden alleen uitgevoerd als het beveiligingsteam ze goedkeurt. We raden u aan acties die in behandeling zijn zo snel mogelijk te beoordelen en goed te keuren, zodat uw geautomatiseerde onderzoeken tijdig worden voltooid. In sommige gevallen kunt u een herstelactie ongedaan maken.
+
+**Van toepassing op**
+- [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="approve-or-reject-pending-actions"></a>Acties in behandeling goedkeuren (of weigeren)
 
