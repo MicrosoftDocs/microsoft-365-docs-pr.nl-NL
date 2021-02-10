@@ -1,5 +1,5 @@
 ---
-title: De invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook installeren en gebruiken
+title: De invoegversie voor rapportage van ongewenste e-mail voor Microsoft Outlook installeren en gebruiken
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -12,259 +12,263 @@ localization_priority: Normal
 ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
-description: Informatie over het installeren en gebruiken van de invoegtoepassing voor het rapporteren van ongewenste E-mail om spam, geen spam en phishing-berichten te rapporteren aan Microsoft.
+description: Informatie over het installeren en gebruiken van de invoegmap Microsoft -rapportage van ongewenste e-mail om spam, niet-spam en phishingberichten aan Microsoft te rapporteren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 896ef89149e5ef65ea96b2b21e1010c29fa7a7fc
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 171bdc43e565a0890cddcd1e48208b49774a5315
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029418"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167345"
 ---
-# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a><span data-ttu-id="3249c-103">De invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook installeren en gebruiken</span><span class="sxs-lookup"><span data-stu-id="3249c-103">Install and use the Junk Email Reporting add-in for Microsoft Outlook</span></span>
+# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a><span data-ttu-id="224b3-103">De invoegversie voor rapportage van ongewenste e-mail voor Microsoft Outlook installeren en gebruiken</span><span class="sxs-lookup"><span data-stu-id="224b3-103">Install and use the Junk Email Reporting add-in for Microsoft Outlook</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+<span data-ttu-id="224b3-104">**Van toepassing op**</span><span class="sxs-lookup"><span data-stu-id="224b3-104">**Applies to**</span></span>
+- [<span data-ttu-id="224b3-105">Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="224b3-105">Exchange Online Protection</span></span>](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [<span data-ttu-id="224b3-106">Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365</span><span class="sxs-lookup"><span data-stu-id="224b3-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [<span data-ttu-id="224b3-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="224b3-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!NOTE]
-> <span data-ttu-id="3249c-104">Als u de invoegtoepassing voor het rapporteren van ongewenste E-mail niet gebruikt, wordt u aangeraden de invoegtoepassing bericht melden of de [invoegtoepassing](enable-the-report-phish-add-in.md) voor spam te [melden](enable-the-report-message-add-in.md) .</span><span class="sxs-lookup"><span data-stu-id="3249c-104">If you aren't currently using the Junk E-mail Reporting add-in, we recommend the [Report Message add-in](enable-the-report-message-add-in.md) or the [Report Phishing add-in](enable-the-report-phish-add-in.md) instead.</span></span> <span data-ttu-id="3249c-105">Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).</span><span class="sxs-lookup"><span data-stu-id="3249c-105">For more information, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
+> <span data-ttu-id="224b3-108">Als u op dit moment de invoegapp Rapportage van ongewenste e-mail niet gebruikt, raden we u aan [de invoegapp](enable-the-report-message-add-in.md) Bericht rapporteren of De [invoegapp Phishing melden te](enable-the-report-phish-add-in.md) gebruiken.</span><span class="sxs-lookup"><span data-stu-id="224b3-108">If you aren't currently using the Junk E-mail Reporting add-in, we recommend the [Report Message add-in](enable-the-report-message-add-in.md) or the [Report Phishing add-in](enable-the-report-phish-add-in.md) instead.</span></span> <span data-ttu-id="224b3-109">Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).</span><span class="sxs-lookup"><span data-stu-id="224b3-109">For more information, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
 
-<span data-ttu-id="3249c-106">Met de invoegtoepassing voor het rapporteren van ongewenste E-mail voor Microsoft Outlook kunnen gebruikersfout berichten verzenden (goede e-mailberichten die als spam zijn gemarkeerd), onjuiste negatieven (onjuiste e-mail toegestaan) en phishingberichten aan Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3249c-106">The Junk Email Reporting Add-in for Microsoft Outlook allows users to submit false positives (good email marked as spam), false negatives (bad email allowed) and phishing messages to Microsoft.</span></span> <span data-ttu-id="3249c-107">Als uw organisatie Exchange Online Protection niet gebruikt (bijvoorbeeld on-premises Exchange of e-mailservices die niet werken met Exchange Online), heeft uw verzenden van het rapport ongewenste e-mail geen gevolgen voor spamfilters.</span><span class="sxs-lookup"><span data-stu-id="3249c-107">If your organization doesn't use Exchange Online Protection (for example, on-premises Exchange or email services other than Exchange Online), your junk email report submission will not affect your spam filtering.</span></span>
+<span data-ttu-id="224b3-110">Met de invoegversie voor rapportage van ongewenste e-mail voor Microsoft Outlook kunnen gebruikers fout-positieven (goede e-mail die als spam is gemarkeerd), fout-negatieven (slechte e-mail toegestaan) en phishingberichten naar Microsoft verzenden.</span><span class="sxs-lookup"><span data-stu-id="224b3-110">The Junk Email Reporting Add-in for Microsoft Outlook allows users to submit false positives (good email marked as spam), false negatives (bad email allowed) and phishing messages to Microsoft.</span></span> <span data-ttu-id="224b3-111">Als uw organisatie geen gebruik maakt van Exchange Online Protection (bijvoorbeeld on-premises Exchange- of e-mailservices anders dan Exchange Online), heeft de verzending van uw rapport met ongewenste e-mail geen invloed op uw spamfilters.</span><span class="sxs-lookup"><span data-stu-id="224b3-111">If your organization doesn't use Exchange Online Protection (for example, on-premises Exchange or email services other than Exchange Online), your junk email report submission will not affect your spam filtering.</span></span>
 
-<span data-ttu-id="3249c-108">In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor het rapporteren van ongewenste E-mail installeert en gebruikt.</span><span class="sxs-lookup"><span data-stu-id="3249c-108">This topic explains how to install and use the Junk Email Reporting add-in.</span></span>
+<span data-ttu-id="224b3-112">In dit onderwerp wordt uitgelegd hoe u de invoegaccount voor rapportage van ongewenste e-mail installeert en gebruikt.</span><span class="sxs-lookup"><span data-stu-id="224b3-112">This topic explains how to install and use the Junk Email Reporting add-in.</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="3249c-109">Wat moet u weten voordat u begint?</span><span class="sxs-lookup"><span data-stu-id="3249c-109">What do you need to know before you begin?</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="224b3-113">Wat moet u weten voordat u begint?</span><span class="sxs-lookup"><span data-stu-id="224b3-113">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="3249c-110">Als u de invoegtoepassing voor het rapporteren van ongewenste E-mail wilt installeren, raadpleegt u de sectie [invoegtoepassing voor ongewenste E-mail installeren](#install-the-junk-email-reporting-add-in) verderop in dit artikel.</span><span class="sxs-lookup"><span data-stu-id="3249c-110">To install the Junk Email Reporting add-in, see the [Install the Junk Email Reporting add-in](#install-the-junk-email-reporting-add-in) section later in this article.</span></span>
+- <span data-ttu-id="224b3-114">Zie de sectie Over het rapporteren van ongewenste [e-mail](#install-the-junk-email-reporting-add-in) installeren verderf in dit artikel voor informatie over het installeren van de invoegmap Rapportage van ongewenste e-mail.</span><span class="sxs-lookup"><span data-stu-id="224b3-114">To install the Junk Email Reporting add-in, see the [Install the Junk Email Reporting add-in](#install-the-junk-email-reporting-add-in) section later in this article.</span></span>
 
-- <span data-ttu-id="3249c-111">De invoegtoepassing voor het rapporteren van ongewenste E-mail werkt met de volgende versies van Outlook:</span><span class="sxs-lookup"><span data-stu-id="3249c-111">The Junk Email Reporting add-in works with the following versions of Outlook:</span></span>
+- <span data-ttu-id="224b3-115">De invoegversie voor rapportage van ongewenste e-mail werkt met de volgende versies van Outlook:</span><span class="sxs-lookup"><span data-stu-id="224b3-115">The Junk Email Reporting add-in works with the following versions of Outlook:</span></span>
 
-  - <span data-ttu-id="3249c-112">Outlook 2013 of later</span><span class="sxs-lookup"><span data-stu-id="3249c-112">Outlook 2013 or later</span></span>
-  - <span data-ttu-id="3249c-113">Outlook inbegrepen in Microsoft 365 apps for Enterprise</span><span class="sxs-lookup"><span data-stu-id="3249c-113">Outlook included with Microsoft 365 Apps for enterprise</span></span>
+  - <span data-ttu-id="224b3-116">Outlook 2013 of hoger</span><span class="sxs-lookup"><span data-stu-id="224b3-116">Outlook 2013 or later</span></span>
+  - <span data-ttu-id="224b3-117">Outlook inbegrepen in Microsoft 365-apps voor ondernemingen</span><span class="sxs-lookup"><span data-stu-id="224b3-117">Outlook included with Microsoft 365 Apps for enterprise</span></span>
 
-- <span data-ttu-id="3249c-114">Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md)voor meer informatie over het rapporteren van berichten aan Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3249c-114">For more information about reporting messages to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
+- <span data-ttu-id="224b3-118">Zie Berichten en bestanden rapporteren bij Microsoft voor meer informatie over het rapporteren van berichten [naar Microsoft.](report-junk-email-messages-to-microsoft.md)</span><span class="sxs-lookup"><span data-stu-id="224b3-118">For more information about reporting messages to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
 
-## <a name="use-the-junk-email-reporting-add-in-to-report-spam-and-phishing-messages"></a><span data-ttu-id="3249c-115">De invoegtoepassing voor het rapporteren van ongewenste E-mail gebruiken om spam en phishing-berichten te rapporteren</span><span class="sxs-lookup"><span data-stu-id="3249c-115">Use the Junk Email Reporting add-in to report spam and phishing messages</span></span>
+## <a name="use-the-junk-email-reporting-add-in-to-report-spam-and-phishing-messages"></a><span data-ttu-id="224b3-119">De invoegmap Rapportage van ongewenste e-mail gebruiken om spam- en phishingberichten te melden</span><span class="sxs-lookup"><span data-stu-id="224b3-119">Use the Junk Email Reporting add-in to report spam and phishing messages</span></span>
 
-1. <span data-ttu-id="3249c-116">Voor berichten in het postvak in of een andere e-mailmap met uitzondering van ongewenste E-mail, gebruikt u een van de volgende methoden om spam en phishing-berichten te rapporteren:</span><span class="sxs-lookup"><span data-stu-id="3249c-116">For messages in the Inbox or any other email folder except Junk Email, use any of the following methods to report spam and phishing messages:</span></span>
+1. <span data-ttu-id="224b3-120">Voor berichten in het Postvak IN of een andere e-mailmap behalve Ongewenste e-mail gebruikt u een van de volgende methoden om spam en phishingberichten te melden:</span><span class="sxs-lookup"><span data-stu-id="224b3-120">For messages in the Inbox or any other email folder except Junk Email, use any of the following methods to report spam and phishing messages:</span></span>
 
-   - <span data-ttu-id="3249c-117">Selecteer het bericht of open het bericht.</span><span class="sxs-lookup"><span data-stu-id="3249c-117">Select the message or open the message.</span></span> <span data-ttu-id="3249c-118">Klik op het lint op het tabblad **Start** of **bericht** op **ongewenste e-mail** en selecteer vervolgens **rapporteren als ongewenste e-mail** of **rapporteren als phishing**.</span><span class="sxs-lookup"><span data-stu-id="3249c-118">In the **Home** or **Message** tab in the ribbon, click **Junk**, and then select **Report as Junk** or **Report as Phishing**.</span></span>
+   - <span data-ttu-id="224b3-121">Selecteer het bericht of open het bericht.</span><span class="sxs-lookup"><span data-stu-id="224b3-121">Select the message or open the message.</span></span> <span data-ttu-id="224b3-122">Klik op **het** **tabblad Start of** bericht op het lint op **Ongewenste** e-mail en selecteer Vervolgens Rapporteren als ongewenste e-mail **of** Rapporteren **als Phishing.**</span><span class="sxs-lookup"><span data-stu-id="224b3-122">In the **Home** or **Message** tab in the ribbon, click **Junk**, and then select **Report as Junk** or **Report as Phishing**.</span></span>
 
-     ![Ongewenste e-mail of malafide e-mail melden via het lint](../../media/junk-email-reporting-ribbon.png)
+     ![Ongewenste e-mail of phishing-e-mail melden via het lint](../../media/junk-email-reporting-ribbon.png)
 
-   - <span data-ttu-id="3249c-120">Klik met de rechtermuisknop op het bericht, selecteer **ongewenste e-mail** en selecteer vervolgens **rapporteren als ongewenste e-mail** of **rapporteren als phishing**.</span><span class="sxs-lookup"><span data-stu-id="3249c-120">Right-click on the message, select **Junk**, and then select **Report as Junk** or **Report as Phishing**.</span></span>
+   - <span data-ttu-id="224b3-124">Klik met de rechtermuisknop op het bericht, selecteer **Ongewenste e-mail** en selecteer vervolgens Rapporteren als ongewenste e-mail **of** Melden als **Phishing.**</span><span class="sxs-lookup"><span data-stu-id="224b3-124">Right-click on the message, select **Junk**, and then select **Report as Junk** or **Report as Phishing**.</span></span>
 
-     ![Ongewenste e-mail of malafide e-mail melden met de rechtermuisknop](../../media/junk-email-reporting-right-click.png)
+     ![Ongewenste e-mail of phishing-e-mail melden door met de rechtermuisknop te klikken](../../media/junk-email-reporting-right-click.png)
 
-   - <span data-ttu-id="3249c-122">Selecteer meerdere berichten, klik met de rechtermuisknop en selecteer vervolgens **rapporteren als ongewenste e-mail** of **rapporteren als phishing**.</span><span class="sxs-lookup"><span data-stu-id="3249c-122">Select multiple messages, right-click, and then select **Report as Junk** or **Report as Phishing**.</span></span>
+   - <span data-ttu-id="224b3-126">Selecteer meerdere berichten, klik met de rechtermuisknop en selecteer Rapporteren **als** ongewenste e-mail of **Rapporteren als Phishing.**</span><span class="sxs-lookup"><span data-stu-id="224b3-126">Select multiple messages, right-click, and then select **Report as Junk** or **Report as Phishing**.</span></span>
 
-     ![Meerdere spam-en malafide e-mailberichten rapporteren met de rechtermuisknop](../../media/junk-email-reporting-right-click-multiple.png)
+     ![Meerdere ongewenste of phishing-e-mailberichten melden door met de rechtermuisknop te klikken](../../media/junk-email-reporting-right-click-multiple.png)
 
-2. <span data-ttu-id="3249c-124">In het dialoogvenster dat wordt weergegeven, leest u de informatie en klikt u op **rapport**.</span><span class="sxs-lookup"><span data-stu-id="3249c-124">In the dialog that appears, read the information and click **Report**.</span></span> <span data-ttu-id="3249c-125">Als u van gedachten verandert, klikt u op **niet melden**.</span><span class="sxs-lookup"><span data-stu-id="3249c-125">If you change your mind, click **Don't Report**.</span></span>
+2. <span data-ttu-id="224b3-128">Lees de informatie in het dialoogvenster dat wordt weergegeven en klik op **Rapport.**</span><span class="sxs-lookup"><span data-stu-id="224b3-128">In the dialog that appears, read the information and click **Report**.</span></span> <span data-ttu-id="224b3-129">Als u van gedachten verandert, klikt u **op Niet rapporteren.**</span><span class="sxs-lookup"><span data-stu-id="224b3-129">If you change your mind, click **Don't Report**.</span></span>
 
-   ![Melden als ongewenst dialoogvenster](../../media/junk-email-reporting-report-as-junk-dialog.png)
+   ![Dialoogvenster Rapporteren als ongewenste e-mail](../../media/junk-email-reporting-report-as-junk-dialog.png)
 
-   ![Melden als phishing-dialoogvenster](../../media/junk-email-reporting-report-as-phishing-dialog.png)
+   ![Dialoogvenster Voor het melden als phishing](../../media/junk-email-reporting-report-as-phishing-dialog.png)
 
-3. <span data-ttu-id="3249c-128">De geselecteerde berichten worden naar Microsoft verzonden voor analyse en:</span><span class="sxs-lookup"><span data-stu-id="3249c-128">The selected messages will be sent to Microsoft for analysis and:</span></span>
+3. <span data-ttu-id="224b3-132">De geselecteerde berichten worden naar Microsoft verzonden voor analyse en:</span><span class="sxs-lookup"><span data-stu-id="224b3-132">The selected messages will be sent to Microsoft for analysis and:</span></span>
 
-   - <span data-ttu-id="3249c-129">Verplaatst naar de map Ongewenste E-mail als deze als spam is gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="3249c-129">Moved to the Junk Email folder if it was reported as spam.</span></span>
-   - <span data-ttu-id="3249c-130">Verwijderd als phishing werd gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="3249c-130">Deleted if it was reported as phishing.</span></span>
+   - <span data-ttu-id="224b3-133">Verplaatst naar de map Ongewenste e-mail als dit als spam is gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="224b3-133">Moved to the Junk Email folder if it was reported as spam.</span></span>
+   - <span data-ttu-id="224b3-134">Verwijderd als het als phishing is gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="224b3-134">Deleted if it was reported as phishing.</span></span>
 
-   <span data-ttu-id="3249c-131">Als u wilt controleren of de berichten zijn verzonden, opent u de map **verzonden items** om de verzonden berichten te bekijken.</span><span class="sxs-lookup"><span data-stu-id="3249c-131">To confirm that the messages have been submitted, open your **Sent Items** folder to view the submitted messages.</span></span>
+   <span data-ttu-id="224b3-135">Als u wilt controleren of de berichten zijn verzonden, opent u de map Verzonden **items** om de verzonden berichten te bekijken.</span><span class="sxs-lookup"><span data-stu-id="224b3-135">To confirm that the messages have been submitted, open your **Sent Items** folder to view the submitted messages.</span></span>
 
-## <a name="use-the-junk-email-reporting-add-in-to-report-non-spam-and-phishing-messages-from-the-junk-email-folder"></a><span data-ttu-id="3249c-132">De invoegtoepassing voor het rapporteren van ongewenste E-mail gebruiken om niet-spamberichten en phishingberichten te rapporteren vanuit de map Ongewenste E-mail</span><span class="sxs-lookup"><span data-stu-id="3249c-132">Use the Junk Email Reporting add-in to report non-spam and phishing messages from the Junk Email folder</span></span>
+## <a name="use-the-junk-email-reporting-add-in-to-report-non-spam-and-phishing-messages-from-the-junk-email-folder"></a><span data-ttu-id="224b3-136">Gebruik de invoegmap Rapportage van ongewenste e-mail om niet-spam- en phishingberichten uit de map Ongewenste e-mail te rapporteren</span><span class="sxs-lookup"><span data-stu-id="224b3-136">Use the Junk Email Reporting add-in to report non-spam and phishing messages from the Junk Email folder</span></span>
 
-1. <span data-ttu-id="3249c-133">Gebruik een van de volgende methoden in de map Ongewenste E-mail om spam te rapporteren met een fout positief of malafide bericht:</span><span class="sxs-lookup"><span data-stu-id="3249c-133">In the Junk Email folder, use any of the following methods to report spam false positives or phishing messages:</span></span>
+1. <span data-ttu-id="224b3-137">Gebruik een van de volgende methoden in de map Ongewenste e-mail om fout-positieven of phishingberichten te melden:</span><span class="sxs-lookup"><span data-stu-id="224b3-137">In the Junk Email folder, use any of the following methods to report spam false positives or phishing messages:</span></span>
 
-   - <span data-ttu-id="3249c-134">Selecteer het bericht of open het bericht.</span><span class="sxs-lookup"><span data-stu-id="3249c-134">Select the message or open the message.</span></span> <span data-ttu-id="3249c-135">Klik op het lint op het tabblad **Start** of **bericht** op **geen ongewenste E-mail** en selecteer vervolgens **als niet-ongewenste e-mail melden** of **rapporteren als phishing**.</span><span class="sxs-lookup"><span data-stu-id="3249c-135">In the **Home** or **Message** tab in the ribbon, click **Not Junk**, and then select **Report as Not Junk** or **Report as Phishing**.</span></span>
+   - <span data-ttu-id="224b3-138">Selecteer het bericht of open het bericht.</span><span class="sxs-lookup"><span data-stu-id="224b3-138">Select the message or open the message.</span></span> <span data-ttu-id="224b3-139">Klik op **het** **tabblad Start** of bericht op het lint op Geen ongewenste e-mail en selecteer Rapporteren als **Geen** ongewenste e-mail of Rapporteren **als Phishing.**</span><span class="sxs-lookup"><span data-stu-id="224b3-139">In the **Home** or **Message** tab in the ribbon, click **Not Junk**, and then select **Report as Not Junk** or **Report as Phishing**.</span></span>
 
-     ![Ongewenst of malafide e-mail melden via het lint in de map Ongewenste E-mail](../../media/junk-email-reporting-junk-folder-ribbon.png)
+     ![Geen ongewenste e-mail of phishing-e-mail melden vanaf het lint in de map Ongewenste e-mail](../../media/junk-email-reporting-junk-folder-ribbon.png)
 
-   - <span data-ttu-id="3249c-137">Klik met de rechtermuisknop op het bericht en klik op **ongewenste e-mail** en selecteer vervolgens **rapporteren als geen ongewenste e-mail** of **Meld als phishing**.</span><span class="sxs-lookup"><span data-stu-id="3249c-137">Right-click on the message, click **Junk**, and then select **Report as Not Junk** or **Report as Phishing**.</span></span>
+   - <span data-ttu-id="224b3-141">Klik met de rechtermuisknop op het bericht, klik op **Ongewenste** e-mail en selecteer Rapporteren als Geen ongewenste e-mail **of** Rapporteren als **Phishing.**</span><span class="sxs-lookup"><span data-stu-id="224b3-141">Right-click on the message, click **Junk**, and then select **Report as Not Junk** or **Report as Phishing**.</span></span>
 
-     ![Meld geen ongewenste e-mail of malafide e-mail van met de rechtermuisknop in de map Ongewenste E-mail.](../../media/junk-email-reporting-junk-folder-right-click.png)
+     ![Geen ongewenste e-mail of phishing-e-mail melden door met de rechtermuisknop in de map Ongewenste e-mail te klikken](../../media/junk-email-reporting-junk-folder-right-click.png)
 
-   - <span data-ttu-id="3249c-139">Selecteer meerdere berichten, klik met de rechtermuisknop en selecteer vervolgens **rapporteren als geen ongewenste e-mail** of **rapporteren als phishing**.</span><span class="sxs-lookup"><span data-stu-id="3249c-139">Select multiple messages, right-click, and then select **Report as Not Junk** or **Report as Phishing**.</span></span>
+   - <span data-ttu-id="224b3-143">Selecteer meerdere berichten, klik met  de rechtermuisknop en selecteer Rapporteren als Geen ongewenste e-mail of **Melden als Phishing.**</span><span class="sxs-lookup"><span data-stu-id="224b3-143">Select multiple messages, right-click, and then select **Report as Not Junk** or **Report as Phishing**.</span></span>
 
-     ![Meld u niet af met de rechtermuisknop op de map Ongewenste e-mail of Meld u niet af met ongewenste e-mail.](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
+     ![Meerdere berichten die geen ongewenste e-mail of phishingberichten zijn, melden door met de rechtermuisknop in de map Ongewenste e-mail te klikken](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
 
-2. <span data-ttu-id="3249c-141">In het dialoogvenster dat wordt weergegeven, leest u de informatie en klikt u op **rapport**.</span><span class="sxs-lookup"><span data-stu-id="3249c-141">In the dialog that appears, read the information and click **Report**.</span></span> <span data-ttu-id="3249c-142">Als u van gedachten verandert, klikt u op **niet melden**.</span><span class="sxs-lookup"><span data-stu-id="3249c-142">If you change your mind, click **Don't Report**.</span></span>
+2. <span data-ttu-id="224b3-145">Lees de informatie in het dialoogvenster dat wordt weergegeven en klik op **Rapport.**</span><span class="sxs-lookup"><span data-stu-id="224b3-145">In the dialog that appears, read the information and click **Report**.</span></span> <span data-ttu-id="224b3-146">Als u van gedachten verandert, klikt u **op Niet rapporteren.**</span><span class="sxs-lookup"><span data-stu-id="224b3-146">If you change your mind, click **Don't Report**.</span></span>
 
-   ![Dialoogvenster als niet-ongewenste e-mail rapporteren](../../media/junk-email-reporting-report-as-not-junk-dialog.png)
+   ![Dialoogvenster Rapporteren als niet-ongewenste e-mail](../../media/junk-email-reporting-report-as-not-junk-dialog.png)
 
-   ![Melden als phishing-dialoogvenster](../../media/junk-email-reporting-report-as-phishing-dialog.png)
+   ![Dialoogvenster Voor het melden als phishing](../../media/junk-email-reporting-report-as-phishing-dialog.png)
 
-3. <span data-ttu-id="3249c-145">De geselecteerde berichten worden naar Microsoft verzonden voor analyse en:</span><span class="sxs-lookup"><span data-stu-id="3249c-145">The selected messages will be sent to Microsoft for analysis and:</span></span>
+3. <span data-ttu-id="224b3-149">De geselecteerde berichten worden naar Microsoft verzonden voor analyse en:</span><span class="sxs-lookup"><span data-stu-id="224b3-149">The selected messages will be sent to Microsoft for analysis and:</span></span>
 
-   - <span data-ttu-id="3249c-146">Verplaatst naar de map Ongewenste E-mail als deze als spam is gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="3249c-146">Moved to the Junk Email folder if it was reported as spam.</span></span>
-   - <span data-ttu-id="3249c-147">Verwijderd als phishing werd gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="3249c-147">Deleted if it was reported as phishing.</span></span>
+   - <span data-ttu-id="224b3-150">Verplaatst naar de map Ongewenste e-mail als dit als spam is gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="224b3-150">Moved to the Junk Email folder if it was reported as spam.</span></span>
+   - <span data-ttu-id="224b3-151">Verwijderd als het als phishing is gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="224b3-151">Deleted if it was reported as phishing.</span></span>
 
-   <span data-ttu-id="3249c-148">Als u wilt controleren of de berichten zijn verzonden, opent u de map **verzonden items** om de verzonden berichten te bekijken.</span><span class="sxs-lookup"><span data-stu-id="3249c-148">To confirm that the messages have been submitted, open your **Sent Items** folder to view the submitted messages.</span></span>
+   <span data-ttu-id="224b3-152">Als u wilt controleren of de berichten zijn verzonden, opent u de map Verzonden **items** om de verzonden berichten te bekijken.</span><span class="sxs-lookup"><span data-stu-id="224b3-152">To confirm that the messages have been submitted, open your **Sent Items** folder to view the submitted messages.</span></span>
 
-## <a name="install-the-junk-email-reporting-add-in"></a><span data-ttu-id="3249c-149">De invoegtoepassing voor het rapporteren van ongewenste E-mail installeren</span><span class="sxs-lookup"><span data-stu-id="3249c-149">Install the Junk Email Reporting add-in</span></span>
+## <a name="install-the-junk-email-reporting-add-in"></a><span data-ttu-id="224b3-153">De invoeg mailrapportage voor ongewenste e-mail installeren</span><span class="sxs-lookup"><span data-stu-id="224b3-153">Install the Junk Email Reporting add-in</span></span>
 
-- <span data-ttu-id="3249c-150">U moet beheerdersmachtigingen hebben voor de computer waarop u de invoegtoepassing wilt installeren.</span><span class="sxs-lookup"><span data-stu-id="3249c-150">You need to have administrator privileges on the computer where you're installing the add-in.</span></span>
+- <span data-ttu-id="224b3-154">U moet beheerdersbevoegdheden hebben op de computer waarop u de invoeg toevoegt installeren.</span><span class="sxs-lookup"><span data-stu-id="224b3-154">You need to have administrator privileges on the computer where you're installing the add-in.</span></span>
 
-- <span data-ttu-id="3249c-151">Ga naar <https://www.microsoft.com/download/details.aspx?id=18275> en Download het juiste MSI-bestand voor uw versie van Office op een locatie die u kunt vinden:</span><span class="sxs-lookup"><span data-stu-id="3249c-151">Go to <https://www.microsoft.com/download/details.aspx?id=18275> and download the appropriate .msi file for your version of Office to a location that's easy to find:</span></span>
+- <span data-ttu-id="224b3-155">Ga naar en download het juiste MSI-bestand voor uw versie van Office naar een locatie <https://www.microsoft.com/download/details.aspx?id=18275> die u eenvoudig kunt vinden:</span><span class="sxs-lookup"><span data-stu-id="224b3-155">Go to <https://www.microsoft.com/download/details.aspx?id=18275> and download the appropriate .msi file for your version of Office to a location that's easy to find:</span></span>
 
-  - <span data-ttu-id="3249c-152">**32-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`</span><span class="sxs-lookup"><span data-stu-id="3249c-152">**32-bit**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`</span></span>
-  - <span data-ttu-id="3249c-153">**64-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`</span><span class="sxs-lookup"><span data-stu-id="3249c-153">**64-bit**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`</span></span>
+  - <span data-ttu-id="224b3-156">**32-bits:**`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`</span><span class="sxs-lookup"><span data-stu-id="224b3-156">**32-bit**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`</span></span>
+  - <span data-ttu-id="224b3-157">**64-bits:**`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`</span><span class="sxs-lookup"><span data-stu-id="224b3-157">**64-bit**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`</span></span>
 
-- <span data-ttu-id="3249c-154">Voor Outlook 2013 of hoger is het enige voorwaarden de Microsoft .NET Framework 2,0.</span><span class="sxs-lookup"><span data-stu-id="3249c-154">For Outlook 2013 or later, the only prerequisite is the Microsoft .NET Framework 2.0.</span></span> <span data-ttu-id="3249c-155">In Windows 10 installeert u .NET Framework 2,0 niet vanaf een download.</span><span class="sxs-lookup"><span data-stu-id="3249c-155">In Windows 10, you don't install the .NET Framework 2.0 from a download.</span></span>
+- <span data-ttu-id="224b3-158">Voor Outlook 2013 of hoger is alleen Microsoft .NET Framework 2.0 vereist.</span><span class="sxs-lookup"><span data-stu-id="224b3-158">For Outlook 2013 or later, the only prerequisite is the Microsoft .NET Framework 2.0.</span></span> <span data-ttu-id="224b3-159">In Windows 10 installeert u .NET Framework 2.0 niet via een download.</span><span class="sxs-lookup"><span data-stu-id="224b3-159">In Windows 10, you don't install the .NET Framework 2.0 from a download.</span></span>
 
-### <a name="install-the-junk-email-reporting-add-in-using-the-setup-wizard"></a><span data-ttu-id="3249c-156">De invoegtoepassing voor het rapporteren van ongewenste E-mail installeren met de wizard Setup</span><span class="sxs-lookup"><span data-stu-id="3249c-156">Install the Junk Email Reporting Add-in using the Setup wizard</span></span>
+### <a name="install-the-junk-email-reporting-add-in-using-the-setup-wizard"></a><span data-ttu-id="224b3-160">De invoegverbinding voor rapportage van ongewenste e-mail installeren met de wizard Instellen</span><span class="sxs-lookup"><span data-stu-id="224b3-160">Install the Junk Email Reporting Add-in using the Setup wizard</span></span>
 
-1. <span data-ttu-id="3249c-157">Sluit Outlook op uw computer.</span><span class="sxs-lookup"><span data-stu-id="3249c-157">On your computer, close Outlook.</span></span>
+1. <span data-ttu-id="224b3-161">Sluit Outlook op uw computer.</span><span class="sxs-lookup"><span data-stu-id="224b3-161">On your computer, close Outlook.</span></span>
 
-2. <span data-ttu-id="3249c-158">In Windows 10 controleert u of .NET Framework 2,0 is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="3249c-158">In Windows 10, verify the .NET Framework 2.0 is enabled.</span></span> <span data-ttu-id="3249c-159">Zie voor instructies [het artikel .NET Framework 3,5 inschakelen in het Configuratiescherm](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10#enable-the-net-framework-35-in-control-panel).</span><span class="sxs-lookup"><span data-stu-id="3249c-159">For instructions, see [Enable the .NET Framework 3.5 in Control Panel](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10#enable-the-net-framework-35-in-control-panel).</span></span>
+2. <span data-ttu-id="224b3-162">Controleer in Windows 10 of .NET Framework 2.0 is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="224b3-162">In Windows 10, verify the .NET Framework 2.0 is enabled.</span></span> <span data-ttu-id="224b3-163">Zie [.NET Framework 3.5 in het Configuratiescherm inschakelen voor instructies.](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10#enable-the-net-framework-35-in-control-panel)</span><span class="sxs-lookup"><span data-stu-id="224b3-163">For instructions, see [Enable the .NET Framework 3.5 in Control Panel](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10#enable-the-net-framework-35-in-control-panel).</span></span>
 
-3. <span data-ttu-id="3249c-160">Zoek het MSI-bestand dat u hebt gedownload en dubbelklik erop.</span><span class="sxs-lookup"><span data-stu-id="3249c-160">Locate the .msi file you downloaded and double-click on it.</span></span>
+3. <span data-ttu-id="224b3-164">Zoek het MSI-bestand dat u hebt gedownload en dubbelklik erop.</span><span class="sxs-lookup"><span data-stu-id="224b3-164">Locate the .msi file you downloaded and double-click on it.</span></span>
 
-4. <span data-ttu-id="3249c-161">Klik op de pagina **Welkom bij Microsoft de instelling voor het rapporteren van de invoegtoepassing voor ongewenste e-mail** op **volgende**.</span><span class="sxs-lookup"><span data-stu-id="3249c-161">On the **Welcome to Microsoft Junk Email Reporting Add-in Setup** page, click **Next**.</span></span>
+4. <span data-ttu-id="224b3-165">Klik op volgende op de pagina Installatie van de invoeg mailrapportage van Microsoft Welkom bij Microsoft voor rapportage van **ongewenste e-mail.** </span><span class="sxs-lookup"><span data-stu-id="224b3-165">On the **Welcome to Microsoft Junk Email Reporting Add-in Setup** page, click **Next**.</span></span>
 
-5. <span data-ttu-id="3249c-162">Bekijk de licentieovereenkomst, klik op **Ik ga akkoord met de voorwaarden in de licentieovereenkomst** als u akkoord gaat met de voorwaarden en klik op **volgende**.</span><span class="sxs-lookup"><span data-stu-id="3249c-162">Review the license agreement, click **I accept the terms in the License Agreement** if you agree to the terms, and then click **Next**.</span></span>
+5. <span data-ttu-id="224b3-166">Lees de gebruiksvoorwaarden, klik op Ik ga akkoord met de voorwaarden in de **gebruikovereenkomst** als u akkoord gaat met de voorwaarden en klik vervolgens op **Volgende.**</span><span class="sxs-lookup"><span data-stu-id="224b3-166">Review the license agreement, click **I accept the terms in the License Agreement** if you agree to the terms, and then click **Next**.</span></span>
 
-6. <span data-ttu-id="3249c-163">Wanneer de wizard is voltooid, klikt u op **Voltooien**.</span><span class="sxs-lookup"><span data-stu-id="3249c-163">When the wizard is complete, click **Finish**.</span></span>
+6. <span data-ttu-id="224b3-167">Wanneer de wizard is voltooid, klikt u op **Voltooien.**</span><span class="sxs-lookup"><span data-stu-id="224b3-167">When the wizard is complete, click **Finish**.</span></span>
 
-<span data-ttu-id="3249c-164">Start Outlook.</span><span class="sxs-lookup"><span data-stu-id="3249c-164">Start Outlook.</span></span>
+<span data-ttu-id="224b3-168">Start Outlook.</span><span class="sxs-lookup"><span data-stu-id="224b3-168">Start Outlook.</span></span>
 
-<span data-ttu-id="3249c-165">Zoek de knop **ongewenste e-mail** op het lint van Outlook.</span><span class="sxs-lookup"><span data-stu-id="3249c-165">Look for the **Junk** button on your Outlook ribbon.</span></span> <span data-ttu-id="3249c-166">U kunt nu ongewenste e-mailberichten voor Microsoft rapporteren door het e-mailbericht in uw postvak in te selecteren en te klikken op de knop **Ongewenste E-mail melden** .</span><span class="sxs-lookup"><span data-stu-id="3249c-166">You can now report junk email messages to Microsoft by selecting the junk email messages in your Inbox and clicking the **Report Junk** button.</span></span>
+<span data-ttu-id="224b3-169">Zoek naar de **knop Ongewenste e-mail** op het lint van Outlook.</span><span class="sxs-lookup"><span data-stu-id="224b3-169">Look for the **Junk** button on your Outlook ribbon.</span></span> <span data-ttu-id="224b3-170">U kunt ongewenste e-mailberichten nu rapporteren aan Microsoft door de ongewenste e-mailberichten in uw Postvak IN te selecteren en op de knop Ongewenste e-mail **rapporteren te** klikken.</span><span class="sxs-lookup"><span data-stu-id="224b3-170">You can now report junk email messages to Microsoft by selecting the junk email messages in your Inbox and clicking the **Report Junk** button.</span></span>
 
-<span data-ttu-id="3249c-167">Kies de pijl-omlaag naast **ongewenste e-mail** voor meer opties, zoals **rapporteren als phishing,** als u malafide e-mailberichten bij Microsoft wilt melden.</span><span class="sxs-lookup"><span data-stu-id="3249c-167">Choose the down arrow next to **Junk** for more options such as **Report as Phishing** if you want to report phishing scam emails to Microsoft.</span></span> <span data-ttu-id="3249c-168">U kunt ook in de map Ongewenste e-mail de optie **geen ongewenste E-mail melden** als een e-mailadres verkeerd is aangemerkt als ongewenste e-mail.</span><span class="sxs-lookup"><span data-stu-id="3249c-168">In your junk mail folder, you can also select, **Report not junk** if an email was incorrectly identified as junk mail.</span></span>
+<span data-ttu-id="224b3-171">Kies de pijl-omlaag naast **Ongewenste** e-mail voor meer opties, zoals Melden als **Phishing** als u phishing-e-mails wilt melden aan Microsoft.</span><span class="sxs-lookup"><span data-stu-id="224b3-171">Choose the down arrow next to **Junk** for more options such as **Report as Phishing** if you want to report phishing scam emails to Microsoft.</span></span> <span data-ttu-id="224b3-172">In de map Ongewenste e-mail  kunt u ook De optie Geen ongewenste e-mail rapporteren selecteren als een e-mail onjuist is geïdentificeerd als ongewenste e-mail.</span><span class="sxs-lookup"><span data-stu-id="224b3-172">In your junk mail folder, you can also select, **Report not junk** if an email was incorrectly identified as junk mail.</span></span>
 
-### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a><span data-ttu-id="3249c-169">De rapportage Add-In voor ongewenste E-mail installeren via de Stille modus</span><span class="sxs-lookup"><span data-stu-id="3249c-169">Install the Junk Email Reporting Add-In using Silent Mode</span></span>
+### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a><span data-ttu-id="224b3-173">De rapportagemodus voor ongewenste eAdd-In installeren in de stille modus</span><span class="sxs-lookup"><span data-stu-id="224b3-173">Install the Junk Email Reporting Add-In using Silent Mode</span></span>
 
-1. <span data-ttu-id="3249c-170">Sluit Outlook op uw computer.</span><span class="sxs-lookup"><span data-stu-id="3249c-170">On your computer, close Outlook.</span></span>
+1. <span data-ttu-id="224b3-174">Sluit Outlook op uw computer.</span><span class="sxs-lookup"><span data-stu-id="224b3-174">On your computer, close Outlook.</span></span>
 
-2. <span data-ttu-id="3249c-171">In Windows 10 installeert u .NET Framework 2,0 door de volgende opdracht uit te voeren:</span><span class="sxs-lookup"><span data-stu-id="3249c-171">In Windows 10, install the .NET Framework 2.0 by running the following command:</span></span>
+2. <span data-ttu-id="224b3-175">Installeer in Windows 10 .NET Framework 2.0 door de volgende opdracht uit te voeren:</span><span class="sxs-lookup"><span data-stu-id="224b3-175">In Windows 10, install the .NET Framework 2.0 by running the following command:</span></span>
 
    ```dos
    DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
    ```
 
-3. <span data-ttu-id="3249c-172">Als u de invoegtoepassing wilt installeren zonder tussenkomst van de gebruiker, opent u een opdracht prompt en gebruikt u de volgende syntaxis:</span><span class="sxs-lookup"><span data-stu-id="3249c-172">To install the add-in without any user interaction, open a Command Prompt and use the following syntax:</span></span>
+3. <span data-ttu-id="224b3-176">Als u de invoeg toepassing wilt installeren zonder tussenkomst van de gebruiker, opent u een opdrachtprompt en gebruikt u de volgende syntaxis:</span><span class="sxs-lookup"><span data-stu-id="224b3-176">To install the add-in without any user interaction, open a Command Prompt and use the following syntax:</span></span>
 
    ```dos
    msiexec /qn /i "<PathToMSIFile>\<MSIFile>" [MaxMessageSelection=<1-50>] [BccEmailAddress="<EmailAddress1>; <EmailAddress2>"...]
    ```
 
-   - <span data-ttu-id="3249c-173">`MaxMessageSelection` Hiermee geeft u het maximum aantal berichten op dat u voor één verzenden kunt selecteren.</span><span class="sxs-lookup"><span data-stu-id="3249c-173">`MaxMessageSelection` specifies the maximum number of messages that you can select for a single submission.</span></span> <span data-ttu-id="3249c-174">Geldige waarden liggen tussen 1 en 50.</span><span class="sxs-lookup"><span data-stu-id="3249c-174">Valid values are from 1 to 50.</span></span> <span data-ttu-id="3249c-175">De standaardwaarde is 15.</span><span class="sxs-lookup"><span data-stu-id="3249c-175">The default value is 15.</span></span>
+   - <span data-ttu-id="224b3-177">`MaxMessageSelection` het maximum aantal berichten dat u kunt selecteren voor één inzending.</span><span class="sxs-lookup"><span data-stu-id="224b3-177">`MaxMessageSelection` specifies the maximum number of messages that you can select for a single submission.</span></span> <span data-ttu-id="224b3-178">Geldige waarden liggen tussen 1 en 50.</span><span class="sxs-lookup"><span data-stu-id="224b3-178">Valid values are from 1 to 50.</span></span> <span data-ttu-id="224b3-179">De standaardwaarde is 15.</span><span class="sxs-lookup"><span data-stu-id="224b3-179">The default value is 15.</span></span>
 
-   - <span data-ttu-id="3249c-176">`BccEmailAddress` Hiermee geeft u meer BCC-geadresseerden op die een kopie ontvangen van alle gebruikers inzendingen.</span><span class="sxs-lookup"><span data-stu-id="3249c-176">`BccEmailAddress` specifies additional Bcc recipients who will receive a copy of all user submissions.</span></span> <span data-ttu-id="3249c-177">De standaardwaarde is leeg (geen extra BCC-geadresseerden).</span><span class="sxs-lookup"><span data-stu-id="3249c-177">The default value is blank (no additional Bcc recipients).</span></span>
+   - <span data-ttu-id="224b3-180">`BccEmailAddress` hiermee geeft u extra BCC-geadresseerden op die een kopie ontvangen van alle gebruikersinzendingen.</span><span class="sxs-lookup"><span data-stu-id="224b3-180">`BccEmailAddress` specifies additional Bcc recipients who will receive a copy of all user submissions.</span></span> <span data-ttu-id="224b3-181">De standaardwaarde is leeg (geen extra BCC-geadresseerden).</span><span class="sxs-lookup"><span data-stu-id="224b3-181">The default value is blank (no additional Bcc recipients).</span></span>
 
-   <span data-ttu-id="3249c-178">In dit voorbeeld wordt de 64-bits versie van de invoegtoepassing geïnstalleerd vanaf het opgegeven pad, met de standaardinstellingen.</span><span class="sxs-lookup"><span data-stu-id="3249c-178">This example installs the 64-bit version of the add-in from the specified path with the default settings.</span></span>
+   <span data-ttu-id="224b3-182">In dit voorbeeld wordt de 64-bits versie van de invoegversie geïnstalleerd vanaf het opgegeven pad met de standaardinstellingen.</span><span class="sxs-lookup"><span data-stu-id="224b3-182">This example installs the 64-bit version of the add-in from the specified path with the default settings.</span></span>
 
    ```dos
    msiexec /qn /i "C:\Downloads\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi"
    ```
 
-   <span data-ttu-id="3249c-179">In dit voorbeeld wordt de 32-bits versie van de invoegtoepassing in het opgegeven pad geïnstalleerd met de volgende aanvullende instellingen:</span><span class="sxs-lookup"><span data-stu-id="3249c-179">This example installs the 32-bit version of the add-in from the specified path with the following additional settings:</span></span>
+   <span data-ttu-id="224b3-183">In dit voorbeeld wordt de 32-bits versie van de invoegversie geïnstalleerd vanaf het opgegeven pad met de volgende aanvullende instellingen:</span><span class="sxs-lookup"><span data-stu-id="224b3-183">This example installs the 32-bit version of the add-in from the specified path with the following additional settings:</span></span>
 
-   - <span data-ttu-id="3249c-180">Er kunnen maximaal 20 berichten in één aanvraag worden geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="3249c-180">Up to 20 messages can be selected in a single submission.</span></span>
-   - <span data-ttu-id="3249c-181">junkreports@contoso.com en hollyd@treyresearch.net ontvangen BCC-kopieën van alle inzendingen.</span><span class="sxs-lookup"><span data-stu-id="3249c-181">junkreports@contoso.com and hollyd@treyresearch.net receive Bcc copies of all submissions.</span></span>
+   - <span data-ttu-id="224b3-184">In één inzending kunnen maximaal 20 berichten worden geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="224b3-184">Up to 20 messages can be selected in a single submission.</span></span>
+   - <span data-ttu-id="224b3-185">junkreports@contoso.com en hollyd@treyresearch.net BCC-kopieën ontvangen van alle inzendingen.</span><span class="sxs-lookup"><span data-stu-id="224b3-185">junkreports@contoso.com and hollyd@treyresearch.net receive Bcc copies of all submissions.</span></span>
 
    ```dos
    msiexec /qn /i "C:\Downloads\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi" MaxMessageSelection=20 BccEmailAddress="junkreports@contoso.com; hollyd@treyresearch.net"
    ```
 
-### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="3249c-182">Hoe weet u of dit heeft gewerkt?</span><span class="sxs-lookup"><span data-stu-id="3249c-182">How do you know this worked?</span></span>
+### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="224b3-186">Hoe weet u of dit heeft gewerkt?</span><span class="sxs-lookup"><span data-stu-id="224b3-186">How do you know this worked?</span></span>
 
-<span data-ttu-id="3249c-183">Als u wilt controleren of de invoegtoepassing voor het rapporteren van ongewenste E-mail is geïnstalleerd, voert u de volgende stappen uit in Outlook:</span><span class="sxs-lookup"><span data-stu-id="3249c-183">To verify that you've successfully installed the Junk Email Reporting Add-in, do the any of the following steps in Outlook:</span></span>
+<span data-ttu-id="224b3-187">Als u wilt controleren of u de invoegversie voor rapportage van ongewenste e-mail hebt geïnstalleerd, gaat u als volgt te werk in Outlook:</span><span class="sxs-lookup"><span data-stu-id="224b3-187">To verify that you've successfully installed the Junk Email Reporting Add-in, do the any of the following steps in Outlook:</span></span>
 
-- <span data-ttu-id="3249c-184">Selecteer het bericht of open het bericht.</span><span class="sxs-lookup"><span data-stu-id="3249c-184">Select the message or open the message.</span></span> <span data-ttu-id="3249c-185">Klik op het lint op het tabblad **Start** of **bericht** op **ongewenste e-mail** en controleer of de volgende opties beschikbaar zijn:</span><span class="sxs-lookup"><span data-stu-id="3249c-185">In the **Home** or **Message** tab in the ribbon, click **Junk**, and verify that the following options are available:</span></span>
+- <span data-ttu-id="224b3-188">Selecteer het bericht of open het bericht.</span><span class="sxs-lookup"><span data-stu-id="224b3-188">Select the message or open the message.</span></span> <span data-ttu-id="224b3-189">Klik op **het** **tabblad Start** of bericht op het lint op **Ongewenste** e-mail en controleer of de volgende opties beschikbaar zijn:</span><span class="sxs-lookup"><span data-stu-id="224b3-189">In the **Home** or **Message** tab in the ribbon, click **Junk**, and verify that the following options are available:</span></span>
 
-  - <span data-ttu-id="3249c-186">**Rapporteren als ongewenste E-mail**</span><span class="sxs-lookup"><span data-stu-id="3249c-186">**Report as Junk**</span></span>
-  - <span data-ttu-id="3249c-187">**Melden als phishing**</span><span class="sxs-lookup"><span data-stu-id="3249c-187">**Report as Phishing**</span></span>
-  - <span data-ttu-id="3249c-188">**Opties voor ongewenste e-mail**</span><span class="sxs-lookup"><span data-stu-id="3249c-188">**Junk Reporting Options**</span></span>
-  - <span data-ttu-id="3249c-189">**De Help voor ongewenste E-mail online rapporteren**</span><span class="sxs-lookup"><span data-stu-id="3249c-189">**Report Junk Online Help**</span></span>
+  - <span data-ttu-id="224b3-190">**Rapporteren als ongewenste e-mail**</span><span class="sxs-lookup"><span data-stu-id="224b3-190">**Report as Junk**</span></span>
+  - <span data-ttu-id="224b3-191">**Melden als Phishing**</span><span class="sxs-lookup"><span data-stu-id="224b3-191">**Report as Phishing**</span></span>
+  - <span data-ttu-id="224b3-192">**Opties voor rapportage van ongewenste e-mail**</span><span class="sxs-lookup"><span data-stu-id="224b3-192">**Junk Reporting Options**</span></span>
+  - <span data-ttu-id="224b3-193">**Help bij Ongewenste e-mail melden**</span><span class="sxs-lookup"><span data-stu-id="224b3-193">**Report Junk Online Help**</span></span>
 
-  ![Ongewenste e-mail of malafide e-mail melden via het lint](../../media/junk-email-reporting-ribbon.png)
+  ![Ongewenste e-mail of phishing-e-mail melden via het lint](../../media/junk-email-reporting-ribbon.png)
 
-- <span data-ttu-id="3249c-191">Klik met de rechtermuisknop op het bericht, selecteer **ongewenste e-mail** en controleer of de volgende opties beschikbaar zijn:</span><span class="sxs-lookup"><span data-stu-id="3249c-191">Right-click on the message, select **Junk**, and verify that the following options are available:</span></span>
+- <span data-ttu-id="224b3-195">Klik met de rechtermuisknop op het bericht, selecteer **Ongewenste** e-mail en controleer of de volgende opties beschikbaar zijn:</span><span class="sxs-lookup"><span data-stu-id="224b3-195">Right-click on the message, select **Junk**, and verify that the following options are available:</span></span>
 
-  - <span data-ttu-id="3249c-192">**Rapporteren als ongewenste E-mail**</span><span class="sxs-lookup"><span data-stu-id="3249c-192">**Report as Junk**</span></span>
-  - <span data-ttu-id="3249c-193">**Melden als phishing**</span><span class="sxs-lookup"><span data-stu-id="3249c-193">**Report as Phishing**</span></span>
-  - <span data-ttu-id="3249c-194">**Opties voor ongewenste e-mail**</span><span class="sxs-lookup"><span data-stu-id="3249c-194">**Junk Reporting Options**</span></span>
-  - <span data-ttu-id="3249c-195">**De Help voor ongewenste E-mail online rapporteren**</span><span class="sxs-lookup"><span data-stu-id="3249c-195">**Report Junk Online Help**</span></span>
+  - <span data-ttu-id="224b3-196">**Rapporteren als ongewenste e-mail**</span><span class="sxs-lookup"><span data-stu-id="224b3-196">**Report as Junk**</span></span>
+  - <span data-ttu-id="224b3-197">**Melden als Phishing**</span><span class="sxs-lookup"><span data-stu-id="224b3-197">**Report as Phishing**</span></span>
+  - <span data-ttu-id="224b3-198">**Opties voor rapportage van ongewenste e-mail**</span><span class="sxs-lookup"><span data-stu-id="224b3-198">**Junk Reporting Options**</span></span>
+  - <span data-ttu-id="224b3-199">**Help bij Ongewenste e-mail melden**</span><span class="sxs-lookup"><span data-stu-id="224b3-199">**Report Junk Online Help**</span></span>
 
-  ![Ongewenste e-mail of malafide e-mail melden met de rechtermuisknop](../../media/junk-email-reporting-right-click.png)
+  ![Ongewenste e-mail of phishing-e-mail melden door met de rechtermuisknop te klikken](../../media/junk-email-reporting-right-click.png)
 
-- <span data-ttu-id="3249c-197">Selecteer meerdere berichten, klik met de rechtermuisknop en controleer of de volgende opties beschikbaar zijn:</span><span class="sxs-lookup"><span data-stu-id="3249c-197">Select multiple messages, right click, and verify that the following options are available:</span></span>
+- <span data-ttu-id="224b3-201">Selecteer meerdere berichten, klik met de rechtermuisknop en controleer of de volgende opties beschikbaar zijn:</span><span class="sxs-lookup"><span data-stu-id="224b3-201">Select multiple messages, right click, and verify that the following options are available:</span></span>
 
-  - <span data-ttu-id="3249c-198">**Rapporteren als ongewenste E-mail**</span><span class="sxs-lookup"><span data-stu-id="3249c-198">**Report as Junk**</span></span>
-  - <span data-ttu-id="3249c-199">**Melden als phishing**</span><span class="sxs-lookup"><span data-stu-id="3249c-199">**Report as Phishing**</span></span>
+  - <span data-ttu-id="224b3-202">**Rapporteren als ongewenste e-mail**</span><span class="sxs-lookup"><span data-stu-id="224b3-202">**Report as Junk**</span></span>
+  - <span data-ttu-id="224b3-203">**Melden als Phishing**</span><span class="sxs-lookup"><span data-stu-id="224b3-203">**Report as Phishing**</span></span>
 
-  ![Meerdere spam-en malafide e-mailberichten rapporteren met de rechtermuisknop](../../media/junk-email-reporting-right-click-multiple.png)
+  ![Meerdere ongewenste of phishing-e-mailberichten melden door met de rechtermuisknop te klikken](../../media/junk-email-reporting-right-click-multiple.png)
 
-- <span data-ttu-id="3249c-201">Ga als volgt te werk in de map **ongewenste e-mail** en controleer of de vorige opties voor het rapporteren van **Ongewenste E-mail** **geen ongewenste e-mail** zijn.</span><span class="sxs-lookup"><span data-stu-id="3249c-201">Do the previous actions in the **Junk Email** folder and verify the previous **Junk** reporting options are now **Not Junk**.</span></span>
+- <span data-ttu-id="224b3-205">De vorige acties uitvoeren in de map  **Ongewenste e-mail** en controleren of de vorige opties voor het melden van ongewenste e-mail nu **Geen ongewenste e-mail zijn.**</span><span class="sxs-lookup"><span data-stu-id="224b3-205">Do the previous actions in the **Junk Email** folder and verify the previous **Junk** reporting options are now **Not Junk**.</span></span>
 
-  ![Ongewenst of malafide e-mail melden via het lint in de map Ongewenste E-mail](../../media/junk-email-reporting-junk-folder-ribbon.png)
+  ![Geen ongewenste e-mail of phishing-e-mail melden vanaf het lint in de map Ongewenste e-mail](../../media/junk-email-reporting-junk-folder-ribbon.png)
 
-  ![Meld geen ongewenste e-mail of malafide e-mail van met de rechtermuisknop in de map Ongewenste E-mail.](../../media/junk-email-reporting-junk-folder-right-click.png)
+  ![Geen ongewenste e-mail of phishing-e-mail melden door met de rechtermuisknop in de map Ongewenste e-mail te klikken](../../media/junk-email-reporting-junk-folder-right-click.png)
 
-  ![Meld u niet af met de rechtermuisknop op de map Ongewenste e-mail of Meld u niet af met ongewenste e-mail.](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
+  ![Meerdere berichten die geen ongewenste e-mail of phishingberichten zijn, melden door met de rechtermuisknop in de map Ongewenste e-mail te klikken](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
 
-## <a name="uninstall-the-junk-email-reporting-add-in"></a><span data-ttu-id="3249c-205">De invoegtoepassing voor het rapporteren van ongewenste E-mail verwijderen</span><span class="sxs-lookup"><span data-stu-id="3249c-205">Uninstall the Junk Email Reporting Add-in</span></span>
+## <a name="uninstall-the-junk-email-reporting-add-in"></a><span data-ttu-id="224b3-209">De invoegmap voor rapportage van ongewenste e-mail verwijderen</span><span class="sxs-lookup"><span data-stu-id="224b3-209">Uninstall the Junk Email Reporting Add-in</span></span>
 
-<span data-ttu-id="3249c-206">Nadat u Outlook hebt gesloten, gebruikt u een van de volgende procedures om de invoegtoepassing voor het rapporteren van ongewenste E-mail te verwijderen:</span><span class="sxs-lookup"><span data-stu-id="3249c-206">After you close Outlook, use any of the following procedures to uninstall the Junk Email Reporting Add-in:</span></span>
+<span data-ttu-id="224b3-210">Nadat u Outlook hebt gesloten, gebruikt u een van de volgende procedures om de invoegversie voor rapportage van ongewenste e-mail te verwijderen:</span><span class="sxs-lookup"><span data-stu-id="224b3-210">After you close Outlook, use any of the following procedures to uninstall the Junk Email Reporting Add-in:</span></span>
 
-- <span data-ttu-id="3249c-207">**Configuratiescherm**: druk op de Windows-toets + R. Voer in het dialoogvenster **uitvoeren** dat wordt geopend, Enter `control appwiz.cpl` en klik vervolgens op **OK**.</span><span class="sxs-lookup"><span data-stu-id="3249c-207">**Control Panel**: Press the Windows key + R. In the **Run** dialog that opens, enter `control appwiz.cpl` and then click **OK**.</span></span>
+- <span data-ttu-id="224b3-211">**Configuratiescherm:** druk op de Windows-toets + R. Typ in **het dialoogvenster** Uitvoeren dat wordt geopend en klik `control appwiz.cpl` op **OK.**</span><span class="sxs-lookup"><span data-stu-id="224b3-211">**Control Panel**: Press the Windows key + R. In the **Run** dialog that opens, enter `control appwiz.cpl` and then click **OK**.</span></span>
 
-  <span data-ttu-id="3249c-208">Selecteer de **invoegtoepassing voor het rapporteren van ongewenste e-mail van Microsoft** in de lijst en klik op **verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="3249c-208">Find and select **Microsoft Junk Email Reporting Add-in** in the list, and then click **Uninstall**.</span></span>
+  <span data-ttu-id="224b3-212">Zoek en selecteer de microsoft-invoegmap voor rapportage van **ongewenste e-mail in** de lijst en klik vervolgens op **Verwijderen.**</span><span class="sxs-lookup"><span data-stu-id="224b3-212">Find and select **Microsoft Junk Email Reporting Add-in** in the list, and then click **Uninstall**.</span></span>
 
-- <span data-ttu-id="3249c-209">**Windows-installatiepakket**: Zoek of download het juiste MSI-bestand en dubbelklik erop.</span><span class="sxs-lookup"><span data-stu-id="3249c-209">**Windows Installer package**: Find or download the appropriate .msi file, and double-click on it.</span></span>
+- <span data-ttu-id="224b3-213">**Windows Installer-pakket:** zoek of download het juiste MSI-bestand en dubbelklik erop.</span><span class="sxs-lookup"><span data-stu-id="224b3-213">**Windows Installer package**: Find or download the appropriate .msi file, and double-click on it.</span></span>
 
-  - <span data-ttu-id="3249c-210">**32-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`</span><span class="sxs-lookup"><span data-stu-id="3249c-210">**32-bit**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`</span></span>
+  - <span data-ttu-id="224b3-214">**32-bits:**`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`</span><span class="sxs-lookup"><span data-stu-id="224b3-214">**32-bit**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`</span></span>
 
-  - <span data-ttu-id="3249c-211">**64-bits**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`</span><span class="sxs-lookup"><span data-stu-id="3249c-211">**64-bit**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`</span></span>
+  - <span data-ttu-id="224b3-215">**64-bits:**`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`</span><span class="sxs-lookup"><span data-stu-id="224b3-215">**64-bit**: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`</span></span>
 
-  <span data-ttu-id="3249c-212">Selecteer in het dialoogvenster dat wordt weergegeven de optie **Microsoft-invoegtoepassing voor ongewenste E-mail verwijderen voor Outlook** en klik op **volgende**.</span><span class="sxs-lookup"><span data-stu-id="3249c-212">In the dialog that appears, select **Remove Microsoft Junk Email Reporting Add-in for Outlook** and then click **Next**.</span></span>
+  <span data-ttu-id="224b3-216">Selecteer In het dialoogvenster dat wordt weergegeven, de **invoegversie Microsoft-invoegversie** voor rapportage van ongewenste e-mail voor Outlook verwijderen en klik vervolgens op **Volgende.**</span><span class="sxs-lookup"><span data-stu-id="224b3-216">In the dialog that appears, select **Remove Microsoft Junk Email Reporting Add-in for Outlook** and then click **Next**.</span></span>
 
-- <span data-ttu-id="3249c-213">**Stille modus**: Zoek of download het juiste MSI-bestand.</span><span class="sxs-lookup"><span data-stu-id="3249c-213">**Silent Mode**: Find or download the appropriate .msi file.</span></span> <span data-ttu-id="3249c-214">In het venster met de opdracht prompt vervangt u \<PathToFile\> de locatie van het MSI-bestand en voert u een van de volgende opdrachten uit:</span><span class="sxs-lookup"><span data-stu-id="3249c-214">In a Command Prompt window, replace \<PathToFile\> with the location of the .msi file, and run one of the following commands:</span></span>
+- <span data-ttu-id="224b3-217">**Stille modus:** zoek of download het juiste MSI-bestand.</span><span class="sxs-lookup"><span data-stu-id="224b3-217">**Silent Mode**: Find or download the appropriate .msi file.</span></span> <span data-ttu-id="224b3-218">Vervang in een opdrachtpromptvenster door de locatie van het MSI-bestand en \<PathToFile\> voer een van de volgende opdrachten uit:</span><span class="sxs-lookup"><span data-stu-id="224b3-218">In a Command Prompt window, replace \<PathToFile\> with the location of the .msi file, and run one of the following commands:</span></span>
 
-  - <span data-ttu-id="3249c-215">**32-bits**:</span><span class="sxs-lookup"><span data-stu-id="3249c-215">**32-bit**:</span></span>
+  - <span data-ttu-id="224b3-219">**32-bits:**</span><span class="sxs-lookup"><span data-stu-id="224b3-219">**32-bit**:</span></span>
 
     ```dos
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
     ```
 
-  - <span data-ttu-id="3249c-216">**64-bits**:</span><span class="sxs-lookup"><span data-stu-id="3249c-216">**64-bit**:</span></span>
+  - <span data-ttu-id="224b3-220">**64-bits:**</span><span class="sxs-lookup"><span data-stu-id="224b3-220">**64-bit**:</span></span>
 
     ```dos
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
     ```
 
-<span data-ttu-id="3249c-217">Wanneer u Outlook opent na de verwijdering, worden de opties ongewenste e-mail, geen ongewenste e-mail en malafide rapporten verwijderd.</span><span class="sxs-lookup"><span data-stu-id="3249c-217">When you open Outlook after the uninstall, the junk, not junk, and phishing reporting options should be gone.</span></span>
+<span data-ttu-id="224b3-221">Wanneer u Outlook na het verwijderen opent, moeten de opties voor ongewenste e-mail, geen ongewenste e-mail en phishingberichten zijn verdwenen.</span><span class="sxs-lookup"><span data-stu-id="224b3-221">When you open Outlook after the uninstall, the junk, not junk, and phishing reporting options should be gone.</span></span>
 
-## <a name="troubleshooting-the-junk-email-reporting-add-in"></a><span data-ttu-id="3249c-218">Problemen oplossen met de invoegtoepassing voor het rapporteren van ongewenste E-mail</span><span class="sxs-lookup"><span data-stu-id="3249c-218">Troubleshooting the Junk Email Reporting add-in</span></span>
+## <a name="troubleshooting-the-junk-email-reporting-add-in"></a><span data-ttu-id="224b3-222">Problemen oplossen met de invoegmap Voor rapportage van ongewenste e-mail</span><span class="sxs-lookup"><span data-stu-id="224b3-222">Troubleshooting the Junk Email Reporting add-in</span></span>
 
-<span data-ttu-id="3249c-219">Af en toe kunt u problemen ondervinden met Outlook na het toevoegen van de invoegtoepassing voor het rapporteren van ongewenste e-mail.</span><span class="sxs-lookup"><span data-stu-id="3249c-219">Occasionally, you might experience trouble with Outlook after adding the Junk Email Reporting Add-In.</span></span> <span data-ttu-id="3249c-220">In deze sectie worden problemen beschreven die u kunt ondervinden, samen met tips voor het oplossen van deze problemen.</span><span class="sxs-lookup"><span data-stu-id="3249c-220">This section describes problems that you might encounter, along with tips for resolving these issues.</span></span>
+<span data-ttu-id="224b3-223">Af en toe kan het zijn dat u problemen met Outlook hebt nadat u de invoegversie voor rapportage van ongewenste e-mail hebt toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="224b3-223">Occasionally, you might experience trouble with Outlook after adding the Junk Email Reporting Add-In.</span></span> <span data-ttu-id="224b3-224">In deze sectie worden mogelijke problemen beschreven, samen met tips voor het oplossen van deze problemen.</span><span class="sxs-lookup"><span data-stu-id="224b3-224">This section describes problems that you might encounter, along with tips for resolving these issues.</span></span>
 
-### <a name="troubleshooting-for-users"></a><span data-ttu-id="3249c-221">Probleemoplossing voor gebruikers</span><span class="sxs-lookup"><span data-stu-id="3249c-221">Troubleshooting for users</span></span>
+### <a name="troubleshooting-for-users"></a><span data-ttu-id="224b3-225">Probleemoplossing voor gebruikers</span><span class="sxs-lookup"><span data-stu-id="224b3-225">Troubleshooting for users</span></span>
 
-<span data-ttu-id="3249c-222">U kunt een of meer van de volgende problemen ondervinden:</span><span class="sxs-lookup"><span data-stu-id="3249c-222">You experience one or more of the following problems:</span></span>
+<span data-ttu-id="224b3-226">U kunt een of meer van de volgende problemen ervaren:</span><span class="sxs-lookup"><span data-stu-id="224b3-226">You experience one or more of the following problems:</span></span>
 
-- <span data-ttu-id="3249c-223">Er gebeurt niets wanneer u op **Ongewenste E-mail rapporteren** klikt</span><span class="sxs-lookup"><span data-stu-id="3249c-223">Nothing happens when you click **Report Junk**</span></span>
-- <span data-ttu-id="3249c-224">Outlook reageert niet meer nadat u een e-mailbericht hebt geselecteerd</span><span class="sxs-lookup"><span data-stu-id="3249c-224">Outlook stops responding after you select an email message</span></span>
-- <span data-ttu-id="3249c-225">Gerapporteerde ongewenste e-mail kan niet worden bezorgd vanwege een niet-bezorgbaar antwoord</span><span class="sxs-lookup"><span data-stu-id="3249c-225">Reported junk mail cannot be delivered due to an "undeliverable" reply</span></span>
+- <span data-ttu-id="224b3-227">Er gebeurt niets wanneer u op **Ongewenste e-mail rapporteren klikt**</span><span class="sxs-lookup"><span data-stu-id="224b3-227">Nothing happens when you click **Report Junk**</span></span>
+- <span data-ttu-id="224b3-228">Outlook reageert niet meer nadat u een e-mailbericht hebt geselecteerd</span><span class="sxs-lookup"><span data-stu-id="224b3-228">Outlook stops responding after you select an email message</span></span>
+- <span data-ttu-id="224b3-229">Gerapporteerde ongewenste e-mail kan niet worden bezorgd vanwege een 'onbesleverbaar' antwoord</span><span class="sxs-lookup"><span data-stu-id="224b3-229">Reported junk mail cannot be delivered due to an "undeliverable" reply</span></span>
 
-<span data-ttu-id="3249c-226">Voer de volgende stappen uit om dit probleem op te lossen:</span><span class="sxs-lookup"><span data-stu-id="3249c-226">To fix this problem, do the following steps:</span></span>
+<span data-ttu-id="224b3-230">Ga als volgt te werk om dit probleem op te lossen:</span><span class="sxs-lookup"><span data-stu-id="224b3-230">To fix this problem, do the following steps:</span></span>
 
-1. <span data-ttu-id="3249c-227">Sluit Outlook af en start het programma opnieuw.</span><span class="sxs-lookup"><span data-stu-id="3249c-227">Close and restart Outlook.</span></span>
-2. <span data-ttu-id="3249c-228">Maak een testbericht en verzend dit, en controleer of de geadresseerde het bericht heeft ontvangen.</span><span class="sxs-lookup"><span data-stu-id="3249c-228">Create and send a test message, and verify that the recipient received the message.</span></span>
-3. <span data-ttu-id="3249c-229">Als het probleem zich blijft voordoen, neemt u contact op met uw beheerder.</span><span class="sxs-lookup"><span data-stu-id="3249c-229">If the problem persists, contact your admin.</span></span>
+1. <span data-ttu-id="224b3-231">Sluit Outlook en start het opnieuw.</span><span class="sxs-lookup"><span data-stu-id="224b3-231">Close and restart Outlook.</span></span>
+2. <span data-ttu-id="224b3-232">Maak en verzend een testbericht en controleer of de geadresseerde het bericht heeft ontvangen.</span><span class="sxs-lookup"><span data-stu-id="224b3-232">Create and send a test message, and verify that the recipient received the message.</span></span>
+3. <span data-ttu-id="224b3-233">Neem contact op met de beheerder als het probleem zich blijft voordoen.</span><span class="sxs-lookup"><span data-stu-id="224b3-233">If the problem persists, contact your admin.</span></span>
 
-<span data-ttu-id="3249c-230">Zie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md)voor andere methoden die u kunt gebruiken om berichten naar Microsoft te verzenden.</span><span class="sxs-lookup"><span data-stu-id="3249c-230">For other methods that you can use to submit messages to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
+<span data-ttu-id="224b3-234">Zie Berichten en bestanden rapporteren bij Microsoft voor andere methoden die u kunt gebruiken om berichten naar [Microsoft te verzenden.](report-junk-email-messages-to-microsoft.md)</span><span class="sxs-lookup"><span data-stu-id="224b3-234">For other methods that you can use to submit messages to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
 
-### <a name="troubleshooting-for-admins"></a><span data-ttu-id="3249c-231">Probleemoplossing voor beheerders</span><span class="sxs-lookup"><span data-stu-id="3249c-231">Troubleshooting for admins</span></span>
+### <a name="troubleshooting-for-admins"></a><span data-ttu-id="224b3-235">Probleemoplossing voor beheerders</span><span class="sxs-lookup"><span data-stu-id="224b3-235">Troubleshooting for admins</span></span>
 
-#### <a name="problem-an-error-message-continually-appears-that-asks-users-to-contact-their-system-administrator"></a><span data-ttu-id="3249c-232">Probleem: er wordt voortdurend een foutbericht weergegeven dat gebruikers vragen om contact op te nemen met hun systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="3249c-232">Problem: An error message continually appears that asks users to contact their system administrator</span></span>
+#### <a name="problem-an-error-message-continually-appears-that-asks-users-to-contact-their-system-administrator"></a><span data-ttu-id="224b3-236">Probleem: er wordt voortdurend een foutbericht weergegeven waarin gebruikers worden gevraagd contact op te nemen met hun systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="224b3-236">Problem: An error message continually appears that asks users to contact their system administrator</span></span>
 
-1. <span data-ttu-id="3249c-233">Controleer of stel de `LoggingLevel` registersleutel in op de waarde ' uitgebreid '.</span><span class="sxs-lookup"><span data-stu-id="3249c-233">Verify or set the `LoggingLevel` registry key to the value "Verbose":</span></span>
+1. <span data-ttu-id="224b3-237">Controleer of stel de `LoggingLevel` registersleutel in op de waarde 'Uitgebreid':</span><span class="sxs-lookup"><span data-stu-id="224b3-237">Verify or set the `LoggingLevel` registry key to the value "Verbose":</span></span>
 
-   - <span data-ttu-id="3249c-234">**32-bits versie van Outlook op 32-bits Windows**:</span><span class="sxs-lookup"><span data-stu-id="3249c-234">**32-bit Outlook on 32-bit Windows**:</span></span>
+   - <span data-ttu-id="224b3-238">**32-bits Outlook op 32-bits Windows:**</span><span class="sxs-lookup"><span data-stu-id="224b3-238">**32-bit Outlook on 32-bit Windows**:</span></span>
 
      ```text
      Windows Registry Editor Version 5.00
@@ -273,7 +277,7 @@ ms.locfileid: "50029418"
      "LoggingLevel"="Verbose"
      ```
 
-   - <span data-ttu-id="3249c-235">**32-bits versie van Outlook op 64-bits Windows**:</span><span class="sxs-lookup"><span data-stu-id="3249c-235">**32-bit Outlook on 64-bit Windows**:</span></span>
+   - <span data-ttu-id="224b3-239">**32-bits Outlook op 64-bits Windows:**</span><span class="sxs-lookup"><span data-stu-id="224b3-239">**32-bit Outlook on 64-bit Windows**:</span></span>
 
      ```text
      Windows Registry Editor Version 5.00
@@ -282,7 +286,7 @@ ms.locfileid: "50029418"
      "LoggingLevel"="Verbose"
      ```
 
-   - <span data-ttu-id="3249c-236">**64-bits Outlook**:</span><span class="sxs-lookup"><span data-stu-id="3249c-236">**64-bit Outlook**:</span></span>
+   - <span data-ttu-id="224b3-240">**64-bits Outlook:**</span><span class="sxs-lookup"><span data-stu-id="224b3-240">**64-bit Outlook**:</span></span>
 
      ```text
      Windows Registry Editor Version 5.00
@@ -291,17 +295,17 @@ ms.locfileid: "50029418"
      "LoggingLevel"="Verbose"
      ```
 
-2. <span data-ttu-id="3249c-237">Start Outlook opnieuw en vraag gebruikers om opnieuw te rapporteren wanneer ze het foutbericht zien.</span><span class="sxs-lookup"><span data-stu-id="3249c-237">Restart Outlook and ask users to report back when they see the error message.</span></span>
+2. <span data-ttu-id="224b3-241">Start Outlook opnieuw en vraag gebruikers om opnieuw te rapporteren wanneer ze het foutbericht zien.</span><span class="sxs-lookup"><span data-stu-id="224b3-241">Restart Outlook and ask users to report back when they see the error message.</span></span>
 
-3. <span data-ttu-id="3249c-238">Verzamel de logboekinformatie op de volgende locatie:</span><span class="sxs-lookup"><span data-stu-id="3249c-238">Collect the log information found at the following location:</span></span>
+3. <span data-ttu-id="224b3-242">Verzamel de logboekgegevens die op de volgende locatie zijn gevonden:</span><span class="sxs-lookup"><span data-stu-id="224b3-242">Collect the log information found at the following location:</span></span>
 
    `%LOCALAPPDATA%\Microsoft\Junk Email Reporting Add-in\SpamReporterAddinLog.txt`
 
-4. <span data-ttu-id="3249c-239">Neem contact op met de technische ondersteuning van Exchange Online Protection en verstrek de logboekinformatie.</span><span class="sxs-lookup"><span data-stu-id="3249c-239">Contact Exchange Online Protection Technical Support and provide them with the log information.</span></span>
+4. <span data-ttu-id="224b3-243">Neem contact op met de technische ondersteuning van Exchange Online Protection en geef de logboekgegevens door.</span><span class="sxs-lookup"><span data-stu-id="224b3-243">Contact Exchange Online Protection Technical Support and provide them with the log information.</span></span>
 
-#### <a name="problem-users-selected-not-to-receive-a-confirmation-prompt-when-they-report-messages-and-now-they-want-the-prompt-back"></a><span data-ttu-id="3249c-240">Probleem: gebruikers die hebben geselecteerd, geen bevestigingsprompt ontvangen wanneer ze berichten rapporteren, en nu willen ze de prompt weer terugvinden.</span><span class="sxs-lookup"><span data-stu-id="3249c-240">Problem: Users selected not to receive a confirmation prompt when they report messages, and now they want the prompt back</span></span>
+#### <a name="problem-users-selected-not-to-receive-a-confirmation-prompt-when-they-report-messages-and-now-they-want-the-prompt-back"></a><span data-ttu-id="224b3-244">Probleem: Gebruikers die niet zijn geselecteerd, ontvangen geen bevestigingsprompt wanneer ze berichten rapporteren en willen de prompt weer terug hebben</span><span class="sxs-lookup"><span data-stu-id="224b3-244">Problem: Users selected not to receive a confirmation prompt when they report messages, and now they want the prompt back</span></span>
 
-1. <span data-ttu-id="3249c-241">Maak de `ConfirmReportJunk` registersleutel met de waarde ' True ':</span><span class="sxs-lookup"><span data-stu-id="3249c-241">Create the `ConfirmReportJunk`registry key with the value "True":</span></span>
+1. <span data-ttu-id="224b3-245">Maak de `ConfirmReportJunk` registersleutel met de waarde 'Waar':</span><span class="sxs-lookup"><span data-stu-id="224b3-245">Create the `ConfirmReportJunk`registry key with the value "True":</span></span>
 
    ```text
    Windows Registry Editor Version 5.00
@@ -310,4 +314,4 @@ ms.locfileid: "50029418"
    "ConfirmReportJunk"="True"
    ```
 
-2. <span data-ttu-id="3249c-242">Start Outlook opnieuw.</span><span class="sxs-lookup"><span data-stu-id="3249c-242">Restart Outlook.</span></span>
+2. <span data-ttu-id="224b3-246">Start Outlook opnieuw.</span><span class="sxs-lookup"><span data-stu-id="224b3-246">Restart Outlook.</span></span>
