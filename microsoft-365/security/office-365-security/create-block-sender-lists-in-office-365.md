@@ -8,78 +8,83 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150s
-description: Beheerders kunnen meer te weten komen over de beschikbare en voorkeursopties voor het blokkeren van inkomende berichten in Exchange Online Protection (EOP).
-ms.openlocfilehash: 7894a6cfe665539fa8c00f5911c4a588b9cf7ebc
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Beheerders kunnen meer informatie krijgen over de beschikbare en voorkeursopties voor het blokkeren van inkomende berichten in Exchange Online Protection (EOP).
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: d77457567d4c3f9f4a8620021a7fb41615f0594d
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203189"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165653"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>Lijsten met geblokkeerde afzenders maken in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, biedt EOP meerdere manieren om e-mail van ongewenste afzenders te blokkeren. Deze opties zijn geblokkeerde afzenders van Outlook, lijsten met geblokkeerde afzenders of geblokkeerde domein lijsten in Antispambeleid, Exchange-e-mail stroom regels (ook wel de zogenaamde transportregels genoemd) en de lijst met IP-blok (verbindingen filteren). U kunt ook rekening houden met de volgende opties als _lijsten met geblokkeerde afzenders_.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken biedt EOP verschillende manieren om e-mail van ongewenste afzenders te blokkeren. Deze opties zijn onder andere Geblokkeerde afzenders in Outlook, lijsten met geblokkeerde afzenders of lijsten met geblokkeerde domeinen in antispambeleid, Exchange-regels voor de e-mailstroom (ook wel transportregels genoemd) en de lijst met geblokkeerde IP-adressen (verbindingsfiltering). U kunt deze opties gezamenlijk zien als lijsten _met geblokkeerde afzenders._
 
-De beste methode voor het blokkeren van afzenders is afhankelijk van het bereik van impact. De juiste oplossing is voor één gebruiker: geblokkeerde afzenders van Outlook. Voor veel gebruikers is een van de andere opties van toepassing. De volgende opties worden gerangschikt op basis van het bereik en de breedte van de invloed. De lijst gaat van beperkt tot algemeen, maar *Lees de specifieke informatie* voor alle aanbevelingen.
+De beste methode om afzenders te blokkeren, is afhankelijk van de omvang van de impact. Voor één gebruiker kan de juiste oplossing geblokkeerde afzenders van Outlook zijn. Voor veel gebruikers is een van de andere opties meer geschikt. De volgende opties worden gerangschikt op effectbereik en breadth. De lijst gaat van smal naar ruim, maar *lees de details voor* volledige aanbevelingen.
 
 1. Geblokkeerde afzenders in Outlook (de lijst met geblokkeerde afzenders die in elk postvak is opgeslagen)
 
-2. Geblokkeerde lijsten met geblokkeerde afzenders of geblokkeerde domein lijsten (Antispambeleid)
+2. Lijsten met geblokkeerde afzenders of lijsten met geblokkeerde domeinen (antispambeleid)
 
-3. Regels voor e-mail stroom
+3. Regels voor de e-mailstroom
 
-4. De lijst met IP-blok (verbindingen filteren)
+4. De lijst met IP-blokkeringen (filteren van verbinding)
 
 > [!NOTE]
-> Hoewel u de instellingen voor de blokkering van de gehele organisatie kunt gebruiken om onwaar negatieve waarden (gemist spam) te adresseren, moet u ook die berichten bij Microsoft indienen voor analyse. Wanneer u onjuiste negatieven beheert met behulp van blok lijsten, wordt de beheerskosten aanzienlijk verhoogd. Als u lijsten met geblokkeerde uitgaand spam gebruikt, moet u het onderwerp [berichten en bestanden van het onderwerp naar Microsoft](report-junk-email-messages-to-microsoft.md) laten gaan.
+> Hoewel u instellingen voor blokkering voor de hele organisatie kunt gebruiken om fout-negatieven (gemiste spam) aan te pakken, moet u deze berichten ook naar Microsoft verzenden voor analyse. Als u onwaar-negatieven beheert met behulp van blokkeringslijsten, neemt de administratieve overhead aanzienlijk toe. Als u blokkeringslijsten gebruikt om gemiste spam te voorkomen, moet u de berichten en bestanden over het onderwerp rapporteren [aan Microsoft](report-junk-email-messages-to-microsoft.md) bij de tijd houden.
 
-In het contrast hebt u ook verschillende opties om e-mail van bepaalde bronnen altijd toe te staan via _lijsten met veilige afzenders_. Zie [Lijsten met veilige afzenders maken](create-safe-sender-lists-in-office-365.md) voor meer informatie.
+U hebt daarentegen ook verschillende opties voor het altijd toestaan van e-mail van specifieke bronnen die lijsten _met veilige afzenders gebruiken._ Zie [Lijsten met veilige afzenders maken](create-safe-sender-lists-in-office-365.md) voor meer informatie.
 
-## <a name="email-message-basics"></a>Basisbeginselen van e-mailberichten
+## <a name="email-message-basics"></a>Basisprincipes van e-mailberichten
 
-Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en de inhoud van het bericht. De envelop bericht bevat informatie die nodig is voor het verzenden en het verzenden van het bericht tussen SMTP-servers. De inhoud van het bericht bevat berichtkop velden (gezamenlijk de kop van het *e-mailbericht*genoemd) en de berichttekst. De envelop van het bericht wordt beschreven in RFC 5321 en de kop van het e-mailbericht wordt beschreven in RFC 5322. Geadresseerden zien de envelop met het werkelijke bericht niet omdat deze wordt gegenereerd door het proces voor het verzenden van berichten en het maakt niet uit van het bericht.
+Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en berichtinhoud. De envelop met berichten bevat informatie die is vereist voor het verzenden en bezorgen van het bericht tussen SMTP-servers. De inhoud van het bericht bevat berichtkopvelden (gezamenlijk de berichtkop *genoemd)* en de berichttekst. De berichtvelop wordt beschreven in RFC 5321 en de berichtkop wordt beschreven in RFC 5322. Geadresseerden zien de feitelijke berichtvelopop niet, omdat deze wordt gegenereerd door het verzendingsproces voor berichten en niet daadwerkelijk deel uitmaakt van het bericht.
 
-- Het `5321.MailFrom` adres (ook wel **e-mail adres van** de afzender, de afzender van P1 of de afzender) is het e-mailadres dat wordt gebruikt in de SMTP-overdracht van het bericht. Dit e-mailadres wordt meestal opgenomen in het veld voor **de veldnamenrij in de kop van** het bericht (hoewel het mogelijk is dat de afzender een ander e-mailadres voor het **retour traject** aanwijst). Als het bericht niet kan worden bezorgd, is dit de geadresseerde voor het rapport over niet-uitgevoerde bezorging (ook wel een NDR genoemd of een bericht met een stuiter bericht).
+- Het adres (ook wel bekend als het `5321.MailFrom` MAIL **FROM-adres,** de afzender van P1 of de afzender van de envelop) is het e-mailadres dat wordt gebruikt in de SMTP-verzending van het bericht. Dit e-mailadres wordt  meestal opgenomen in het koptekstveld Retourpad in de berichtkoptekst (hoewel de afzender een ander **e-mailadres** voor het retourpad kan aanwijzen). Als het bericht niet kan worden bezorgd, is het de geadresseerde van het rapport over niet-bezorging (ook wel een NDR- of niet-bezorgdbericht genoemd).
 
-- De `5322.From` (ook bekend als de afzender **van** address of P2) is het e-mailadres in het veld **van** koptekst en het e-mailadres van de afzender dat wordt weergegeven in e-mailclients.
+- De afzender (ook wel van-adres of P2-afzender genoemd) is het e-mailadres in het veld Van en is het e-mailadres van de afzender dat wordt weergegeven `5322.From` in e-mail clients.  
 
-Vaak zijn de `5321.MailFrom` en `5322.From` -adressen hetzelfde (communicatie van persoon naar persoon). Wanneer e-mail echter wordt verzonden namens iemand anders, kunnen de adressen afwijken.
+Vaak zijn de adressen en de adressen hetzelfde (communicatie tussen twee `5321.MailFrom` `5322.From` personen). Wanneer e-mail echter namens iemand anders wordt verzonden, kunnen de adressen verschillend zijn.
 
-Geblokkeerde lijsten met geblokkeerde afzenders en geblokkeerde domein lijsten in het antispambeleid van EOP dienen beide `5321.MailFrom` en adressen te controleren `5322.From` . Geblokkeerde afzenders in Outlook gebruiken het `5322.From` adres.
+Lijsten met geblokkeerde afzenders en lijsten met geblokkeerde domeinen in antispambeleid in EOP inspecteren zowel de adressen als `5321.MailFrom` `5322.From` de adressen. Geblokkeerde afzenders in Outlook gebruiken alleen het `5322.From` adres.
 
 ## <a name="use-outlook-blocked-senders"></a>Geblokkeerde afzenders in Outlook gebruiken
 
-Wanneer slechts een klein aantal gebruikers ongewenste e-mail heeft ontvangen, kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst met geblokkeerde afzenders in het postvak. Zie [instellingen voor ongewenste e-mail in postvakken van Exchange Online configureren](configure-junk-email-settings-on-exo-mailboxes.md)voor instructies.
+Wanneer slechts een klein aantal gebruikers ongewenste e-mail heeft ontvangen, kunnen gebruikers of beheerders de e-mailadressen van de afzenders toevoegen aan de lijst met geblokkeerde afzenders in het postvak. Zie Instellingen voor ongewenste [e-mail configureren in Exchange Online-postvakken voor instructies.](configure-junk-email-settings-on-exo-mailboxes.md)
 
-Wanneer berichten zijn geblokkeerd door de lijst met geblokkeerde afzenders van een gebruiker, bevat het veld **X-Forefront-spam-report** header de waarde `SFV:BLK` .
+Wanneer berichten zijn geblokkeerd vanwege de lijst met geblokkeerde afzenders van een gebruiker, bevat het veld **X-Forefront-Antispam-Report** de `SFV:BLK` waarde.
 
 > [!NOTE]
-> Als de ongewenste berichten een nieuwsbrief zijn van een betrouwbare en herkenbare bron, is het afmelden van de e-mail een andere optie om te voorkomen dat de gebruiker de berichten ontvangt.
+> Als de ongewenste berichten nieuwsbrieven zijn vanuit een betrouwbare en herkenbare bron, kunt u zich afmelden bij de e-mail om te voorkomen dat de gebruiker de berichten ontvangt.
 
-## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>Lijsten met geblokkeerde afzenders of geblokkeerde domeinen gebruiken
+## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>Lijsten met geblokkeerde afzenders of geblokkeerde domeinlijsten gebruiken
 
-Wanneer meerdere gebruikers van invloed zijn, is de scope breder, zodat de volgende beste optie lijsten met geblokkeerde afzenders of geblokkeerde domein lijsten in Antispambeleid bevat. Berichten van afzenders in de lijsten worden als **ongewenste e-mail**gemarkeerd en de actie die u hebt geconfigureerd voor het **spam** filter verdict wordt in het bericht opgenomen. Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) voor meer informatie.
+Wanneer meerdere gebruikers worden beïnvloed, is het bereik breder, dus de beste optie is lijsten met geblokkeerde afzenders of geblokkeerde domeinlijsten in antispambeleid. Berichten van afzenders op de lijsten worden gemarkeerd als **Spam** en de actie die u hebt geconfigureerd voor de **spamfilteractie** wordt op het bericht gebaseerd. Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) voor meer informatie.
 
 De maximumlimiet voor deze lijsten is ongeveer 1000 vermeldingen.
 
-## <a name="use-mail-flow-rules"></a>Regels voor e-mail stroom gebruiken
+## <a name="use-mail-flow-rules"></a>Regels voor de e-mailstroom gebruiken
 
-Als u berichten wilt blokkeren die zijn verzonden naar specifieke gebruikers of over de hele organisatie, kunt u de e-mail stroom regels gebruiken. De regels voor e-mail stroom zijn flexibeler dan lijsten van afzenders blokkeren of geblokkeerde domein lijsten, omdat ze ook naar trefwoorden of andere eigenschappen in de ongewenste berichten kunnen zoeken.
+Als u berichten wilt blokkeren die naar specifieke gebruikers of binnen de hele organisatie zijn verzonden, kunt u regels voor de e-mailstroom gebruiken. Regels voor de e-mailstroom zijn flexibeler dan lijsten met geblokkeerde afzenders of geblokkeerde domeinlijsten van afzenders, omdat ze ook kunnen zoeken naar trefwoorden of andere eigenschappen in ongewenste berichten.
 
-Ongeacht de voorwaarden of uitzonderingen waarmee u berichten identificeert, configureert u de actie voor het instellen van het spam betrouwbaarheidsniveau (SCL) van het bericht in 9, waarmee het bericht een **hoge betrouwbaarheid spam**ontvangt. Zie voor meer informatie [de regels voor de e-mail stroom gebruiken om de SCL in berichten in te stellen](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
+Ongeacht de voorwaarden of uitzonderingen die u gebruikt voor het identificeren van de berichten, configureert u de actie om het betrouwbaarheidsniveau voor ongewenste e-mail van het bericht in te stellen op 9, waardoor het bericht in hoge mate spam **is.** Zie Regels voor de [e-mailstroom gebruiken om de SCL in](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)berichten in te stellen voor meer informatie.
 
 > [!IMPORTANT]
-> Het is heel eenvoudig om regels te maken *die zich bevinden,* dus het is belangrijk dat u alleen de berichten identificeert die u wilt blokkeren met behulp van een zeer specifiek criterium. Zorg er ook voor dat u de controlefunctie op de regel inschakelt en de resultaten van de regel test om er zeker van te zijn dat alles naar verwachting werkt.
+> Het is eenvoudig om regels  te maken die te ruim zijn, dus het is belangrijk dat u alleen de berichten identificeert die u wilt blokkeren met behulp van zeer specifieke criteria. Zorg er ook voor dat u controle op de regel inschakelen en de resultaten van de regel test om ervoor te zorgen dat alles werkt zoals verwacht.
 
-## <a name="use-the-ip-block-list"></a>De lijst met IP-blok lijsten gebruiken
+## <a name="use-the-ip-block-list"></a>De lijst met IP-blokkeringen gebruiken
 
-Als u een afzender niet kunt blokkeren met een van de andere *Opties, gebruikt* u de lijst met geblokkeerde IP-adressen in het filter beleid voor verbindingen. Zie [het beleid voor verbindings filters configureren](configure-the-connection-filter-policy.md)voor meer informatie. Het is belangrijk dat u het aantal geblokkeerde IPs naar een minimum beperkt, zodat het blokkeren van hele IP-adresbereiken *niet* wordt aanbevolen.
+Als het niet mogelijk is om een van de andere opties te gebruiken om een afzender te *blokkeren,* moet u de lijst met IP-blokkeringen alleen gebruiken in het verbindingsfilterbeleid. Zie Het verbindingsfilterbeleid [configureren voor meer informatie.](configure-the-connection-filter-policy.md) Het is belangrijk om het aantal geblokkeerde IP-adressen tot een minimum te beperken, dus het blokkeren van volledige IP-adresbereiken wordt *niet* aanbevolen.
 
-U dient *met name* geen IP-adresbereiken toe te voegen die deel uitmaken van de consument service (bijvoorbeeld Outlook.com) of gedeelde infrastructuur, en er ook voor zorgen dat u de lijst met geblokkeerde IP-adressen als onderdeel van normaal onderhoud controleert.
+Het  is beter om vooral geen IP-adresbereiken toe te voegen die behoren tot consumentenservices (bijvoorbeeld outlook.com) of gedeelde infrastructuur en ervoor te zorgen dat u de lijst met geblokkeerde IP-adressen bekijkt als onderdeel van regulier onderhoud.

@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,39 +15,46 @@ search.appverid:
 ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
-description: In dit artikel leest u hoe u met EOP en Office 365 u kunt beschermen tegen spam, phishing en preventie van malware, door een veiligheids tip toe te voegen aan de e-mail.
+description: Meer informatie over hoe EOP en Office 365 u beschermen tegen spam, phishing en malwarepreventie door bovenaan een e-mailbericht een veiligheidstip toe te voegen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e36887e2bb0146c86a8a4f1526f1e712a38b46ba
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: c37eba07b306ff47e14640e494e468b63b358726
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376617"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166613"
 ---
 # <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Met Exchange Online Protection (EOP) en Microsoft 365 beschermt u spam, phishing en preventie van malware. Vandaag zijn sommige van deze aanvallen zo goed ontworpen dat ze legitiem lijken. Berichten verzenden naar de map Ongewenste E-mail is niet altijd genoeg. Wanneer u nu uw e-mail in Outlook of de webversie van Outlook of een e-mailclient controleert, controleert EOP de afzender automatisch en voegt een veiligheids tip toe aan het begin van de e-mail.
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Veiligheidstips in Outlook zijn niet afhankelijk van welke versie van Outlook u gebruikt omdat de veiligheidswaarschuwing is gekraakt en rechtstreeks in de hoofdtekst van het bericht wordt ingevoegd. Dat betekent dat de veiligheids tip wordt weergegeven in de e-mailclient die u gebruikt. De app wordt uitgevoerd op het e-mail filterniveau en wordt niet weergegeven op het niveau van de mail-client, dus niet alleen weergegeven in een versie van Outlook, en wordt ook weergegeven in een e-mailclient.
+Exchange Online Protection (EOP) en Microsoft 365 beschermen u tegen spam, phishing en malwarepreventie. Sommige van deze aanvallen zien er zo goed uit dat ze er echt uitzien. Het verzenden van berichten naar de map Ongewenste e-mail is niet altijd voldoende. Wanneer u nu uw e-mail controleert in Outlook, de webversie van Outlook of een e-mailclient, wordt in EOP automatisch de afzender gecontroleerd en wordt boven aan het e-mailbericht een veiligheidstip toegevoegd.
 
-De veiligheids tip: een bericht met een kleurcode--wordt u gewaarschuwd voor potentieel schadelijke berichten. De meeste berichten in uw postvak in hebben geen veiligheidstips. U ziet ze alleen wanneer EOP en Microsoft 365 gegevens bevatten die u nodig hebt om spam, phishing en malware te helpen voorkomen. Als beveiligingstips in uw postvak in worden weergegeven, kunt u de volgende voorbeelden gebruiken voor meer informatie over elk type veiligheids tip.
+Veiligheidstips in Outlook zijn niet afhankelijk van de versie van Outlook die u gebruikt, omdat de veiligheidstip open is gebarsten en rechtstreeks in de bericht zelf wordt ingevoegd. Dit betekent dat de veiligheidstip wordt gebruikt in de e-mailclient die u gebruikt. Dit wordt gedaan op het niveau van het e-mailfilter en wordt niet weergegeven op het niveau van de e-mailclient, dus wordt het niet alleen weergegeven in elke versie van Outlook, maar wordt ook weergegeven in elke e-mailclient.
 
-- Verdachte e-mail (rode veiligheids tip).
+Met de veiligheidstip, een bericht met kleurcode, wordt u gewaarschuwd voor mogelijk schadelijke berichten. De meeste berichten in uw Postvak IN hebben geen veiligheidstip. U ziet ze alleen wanneer EOP en Microsoft 365 informatie bevatten die u nodig hebt om spam, phishing en malware te voorkomen. Als er veiligheidstips worden gebruikt in uw Postvak IN, kunt u de volgende voorbeelden gebruiken voor meer informatie over de verschillende soorten veiligheidstips.
 
-    ![Schermafbeelding met een rode veiligheids tip.](../../media/5078a0be-e556-44a1-b169-09d780d26898.png)
+- Verdachte e-mail (rode veiligheidstip).
 
-    Met een rode veiligheids punt in een e-mailbericht houdt u het door u ontvangen bericht iets verdacht te zien, zoals een malafide zwendel. U wordt aangeraden dit soort e-mailbericht in uw postvak in te verwijderen zonder het te openen.
+    ![Schermafbeelding met een rode veiligheidstip.](../../media/5078a0be-e556-44a1-b169-09d780d26898.png)
 
-- Veilige e-mail (groene veiligheids tip).
+    Een rode veiligheidstip in een e-mailbericht betekent dat het ontvangen bericht iets verdachts bevat, zoals een phishing-scam. Het is raadzaam dit soort e-mailberichten te verwijderen uit uw Postvak IN zonder het te openen.
 
-    ![Schermafbeelding met een groene veiligheids tip.](../../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
+- Veilige e-mail (groene veiligheidstip).
 
-    Naast onveilige berichten wordt u ook gewaarschuwd dat u de juiste berichten van afzenders vertrouwt met een groene veiligheids tip. Met een groene waarschuwings punt in een e-mailbericht wordt de afzender van het bericht gecontroleerd en gecontroleerd of het bericht veilig is. Microsoft onderhoudt deze lijst met vertrouwde afzenders, waaronder financiële organisaties en andere, vaak vervalste of geïmiteerde rechten.
+    ![Schermafbeelding met een groene veiligheidstip.](../../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
 
-## <a name="working-with-safety-tips"></a>Werken met Veiligheidstips
+    Naast onveilige berichten vertellen we u ook over geldige berichten van afzenders die we vertrouwen met een groene veiligheidstip. Een groene veiligheidstip in een e-mailbericht betekent dat we de afzender van het bericht hebben gecontroleerd en hebben gecontroleerd of het veilig is. Microsoft onderhoudt deze lijst met vertrouwde afzenders, waaronder financiële organisaties en andere organisaties die regelmatig worden vervalst of zich voordoen als afzender.
 
-Beveiligingstips zijn altijd ingeschakeld voor de webversie van Outlook, ook al ontvangt niet elk bericht één bericht. Beheerders kunnen beveiligingstips voor andere e-mailclients zoals Outlook uitschakelen. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+## <a name="working-with-safety-tips"></a>Werken met veiligheidstips
 
-Als u niet akkoord gaat met de manier waarop EOP een bericht heeft gecategoriseerd (dat wil zeggen dat het bericht geen spam bevat of het als spam moet zijn gemarkeerd), kunt u de berichten naar Microsoft indienen voor analyse om uw ervaring te verbeteren. Zie voor instructies [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md). U kunt ook klikken op de koppeling feedback in de veiligheids tip om opmerkingen rechtstreeks bij Microsoft te plaatsen om ons te helpen te verbeteren.
+Veiligheidstips zijn altijd ingeschakeld voor de webversie van Outlook, hoewel niet elk bericht een tip ontvangt. Beheerders kunnen veiligheidstips uitschakelen voor andere e-mail clients, zoals Outlook. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+
+Als u het niet eens bent met de manier waarop een bericht door EOP is gecategoriseerd (het bericht is dus geen spam of het bericht moet zijn gemarkeerd als spam), kunt u de berichten ter analyse naar Microsoft verzenden om uw ervaring te verbeteren. Zie Berichten en bestanden [rapporteren bij Microsoft voor instructies.](report-junk-email-messages-to-microsoft.md) U kunt ook op de koppeling Feedback in de veiligheidstip klikken om opmerkingen rechtstreeks naar Microsoft te verzenden om ons te helpen onze producten te verbeteren.

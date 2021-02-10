@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 voor Enterprise voor contoso B.v.
+title: Microsoft 365 voor enterprise voor de Contoso Corporation
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -13,77 +13,81 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
-description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365 for Enterprise heeft goedgekeurd.
-ms.openlocfilehash: b009e02cde0708c54fbd8e047029dae9f67a145b
-ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
+description: Hoe een fictieve maar representatieve wereldwijde organisatie Microsoft 365 voor ondernemingen heeft overgenomen.
+ms.openlocfilehash: 9e02469c644c3107e964d0f5defa08043091e28f
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749561"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166427"
 ---
-# <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 voor Enterprise voor contoso B.v.
+# <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 voor enterprise voor de Contoso Corporation
 
-Microsoft 365 voor Enterprise is de Microsoft Premier Cloud-aanbieding waarbij de apps en services voor online productiviteit en services van de Cloud en de cloud worden gecombineerd met Windows 10 Enterprise en geavanceerde beveiligingsfuncties. Het is een complete, intelligente oplossing waarmee iedereen creatieve en veilige oplossingen kan samenwerken.
+Microsoft 365 voor ondernemingen is het Premier Cloud-aanbod van Microsoft waarin lokale productiviteitsapps en cloudgebaseerde productiviteitsapps en -services worden gecombineerd met Windows 10 Enterprise en geavanceerde beveiligingsfuncties. Het is een complete, intelligente oplossing waarmee iedereen creatief en veilig kan samenwerken.
 
-Contoso B.v. is een fictief maar representatief fabricage conglomeraat met zijn zetel in Parijs. Het bedrijf implementeerde Microsoft 365 for Enterprise en verstuurde belangrijke informatie over de implementatie en implementatie van Details voor netwerken, identiteiten, Windows 10 Enterprise, Microsoft 365-apps voor Enterprise, het beheer van mobiele apparaten, informatiebescherming en beveiliging.
+Contoso Corporation is een fictieve maar representatieve wereldwijde productieconglomeratie met het hoofdkantoor in Parijs. Het bedrijf heeft Microsoft 365 geïmplementeerd voor ondernemingen en heeft belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteit, Windows 10 Enterprise, Microsoft 365-apps voor ondernemingen, beheer van mobiele apparaten, informatiebescherming en beveiliging aangepakt.
 
-Het doel van het bedrijf voor Microsoft 365 for Enterprise is het versnellen van de digitale transformatie door gebruik te maken van cloudservices om de werknemers, partners, gegevens en processen samen te voegen om de klantwaarde te creëren en het concurrentievoordeel van een digitale eerste wereld te onderhouden.
+Het algemene doel van het bedrijf voor Microsoft 365 voor ondernemingen is de digitale transformatie te versnellen door cloudservices te gebruiken om werknemers, partners, gegevens en processen bij elkaar te brengen om klantwaarde te creëren en de concurrentieversnelling in een digitale wereld als eerste te behouden.
 
 Zie de volgende artikelen voor meer informatie:
 
 - [Overzicht](contoso-overview.md)
 
-  Contoso is een wereldwijde sector, verkoop en ondersteunings organisatie met meer dan 100.000 producten.
+  Contoso is een wereldwijde productie-, verkoop- en ondersteuningsorganisatie met meer dan 100.000 producten.
 
 - [De IT-infrastructuur en behoeften van Contoso](contoso-infra-needs.md)
 
-  Contoso overstapt van een on-premises, gecentraliseerde IT-infrastructuur naar een installatie van de Cloud met persoonlijke productiviteit, toepassingen en hybride scenario's in de Cloud.
+  Contoso maakt de overstap van een on-premises, gecentraliseerde IT-infrastructuur naar een cloud-inclusieve installatie waarin persoonlijke productiviteitswerkbelastingen, toepassingen en hybride scenario's in de cloud zijn opgenomen.
 
 - [Netwerken](contoso-networking.md)
 
-  Contoso netwerk technici geoptimaliseerd verkeer voor hun on-premises gebruikers op hun intranet Edge en op de dichtstbijzijnde Microsoft-netwerklocatie op internet.
+  Contoso-netwerkingenieurs hebben het verkeer voor hun on-premises gebruikers geoptimaliseerd voor hun intranetrand en de dichtstbijzijnde locatie van het Microsoft-netwerk op internet.
 
 - [Identiteit](contoso-identity.md)
 
-  De naam van de contoso-oplossing-in-de Cloud oplossing is van toepassing op het on-premises Active Directory Domain Services-forest (AD DS) van het bedrijf. Dit omvat federatieve verificatie met hun bestaande, externe identiteitsproviders van derden.
+  De Contoso-identiteitsoplossing in de cloud maakt gebruik van de ON-premises AD DS-forest (Active Directory Domain Services) van het bedrijf. Het omvat federatieverificatie met de bestaande vertrouwde identiteitsproviders van derden.
 
 - [Windows 10 Enterprise](contoso-win10.md)
 
-  De contoso-infrastructuur voor Windows 10 Enterprise implementeert en installeert automatisch updates voor apparaten waarop het primaire PC-apparaat van uw bedrijf en het besturingssysteem worden uitgevoerd.
+  De Contoso-infrastructuur voor Windows 10 Enterprise implementeert en installeert automatisch updates voor apparaten met het primaire besturingssysteem voor pc's en apparaten van het bedrijf.
 
 - [Microsoft 365-apps voor ondernemingen](contoso-o365pp.md)
 
-  De infrastructuur contoso voor Microsoft 365-apps voor Enterprise-implementaties en installeert automatisch updates voor de Microsoft Office-suite van de productiviteitssoftware.
+  De Contoso-infrastructuur voor Microsoft 365-apps voor ondernemingen implementeert en installeert automatisch updates voor de Microsoft Office-suite met productiviteitssoftware.
 
 - [Mobile Device Management](contoso-mdm.md)
 
-  Met een groot aantal werknemers met een groot aantal eigen telefoons en tablets, gebruikt contoso het beheer van mobiele apparaten om apparaten en hun gegevens te registreren en te beschermen en apps te beheren.
+  Bij veel roamingwerkers die zowel bedrijfs- als persoonlijke smartphones en tablets hebben, maakt Contoso gebruik van Mobile Device Management om apparaten en hun gegevens te registreren en te beveiligen en apps te beheren.
 
 - [Gegevensbeveiliging](contoso-info-protect.md)
 
-  Om ervoor te zorgen dat zowel veelgebruikte als High-valuegegevens worden geïdentificeerd, aangeduid met gelabelde en onderhevige lagen, dwingt contoso het beleid voor gegevensbeveiliging af met Microsoft 365 voor Enterprise Information Protection.
+  Om ervoor te zorgen dat gemeenschappelijke en hoogwaardige gegevens worden geïdentificeerd, gelabeld en onderworpen aan beveiligingslagen, dwingt Contoso het beleid voor gegevensbeveiliging met Microsoft 365 voor bescherming van bedrijfsinformatie af.
 
-- [Overzicht van Microsoft 365 for Enterprise Security](contoso-security-summary.md)
+- [Overzicht van Microsoft 365 voor enterprise-beveiliging](contoso-security-summary.md)
 
-  Contoso maakt gebruik van de volledige versie van Microsoft 365 voor beveiligingsfuncties voor identiteits-en toegangsbeheer, beveiliging tegen bedreigingen, informatiebescherming en beveiligingsbeheer.
+  Contoso gebruikt het volledige spectrum van Microsoft 365 voor bedrijfsbeveiligingsfuncties voor identiteits- en toegangsbeheer, bedreigingsbescherming, informatiebescherming en beveiligingsbeheer.
 
-Bekijk deze aanvullende IT-scenario's en configuraties:
+Bekijk deze aanvullende IT-scenario's en -configuraties:
 
 - [De COVID-19-aanpak en de infrastructuur voor extern en onsite werken](../solutions/contoso-remote-onsite-work.md)
 
-  Meer informatie over de manier waarop contoso hun infrastructuur voor externe toegang voor de COVID-19 Pandemic en de nieuwe infrastructuur van de installatie en updates voor extern en on-site werken heeft bijgewerkt.
+  Meer informatie over hoe Contoso de externe toegangsmogelijkheden en de nieuwe installaties en updates-infrastructuur voor externe en ter plekke medewerkers heeft bijgewerkt.
 
 - [Team voor een zeer geheim project](../solutions/contoso-team-for-top-secret-project.md)
 
-  Als u een beveiligde samenwerkingsomgeving wilt maken voor een hoofd-geheim project, heeft Contoso een team met behulp van beveiligings isolatie gebruikt.
+  Voor het maken van een veilige samenwerkingsomgeving voor een topgeheim project heeft Contoso een team gebruikt met beveiligingsisolatie.
 
-- [Overzicht Teams-spraakmigratie](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
+- [Teams-spraakmigratie](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
 
-  Meer informatie over hoe contoso hun on-premises gebruikers heeft gemigreerd naar Microsoft teams voor geïntegreerde communicatie, samenwerking en spraak.
+  Lees hoe Contoso hun on-premises gebruikers heeft gemigreerd naar Microsoft Teams voor geïntegreerde communicatie, samenwerking en spraak.
+
+- [Aanstootgevend taalbeleid voor communicatie compliance](../compliance/communication-compliance-case-study.md)
+
+  Lees hoe Contoso snel een aanstootgevend taalbeleid configureert voor communicatie met Microsoft Teams, Exchange en Yammer.
 
 ## <a name="next-step"></a>Volgende stap
 
-Meer informatie [over de contoso b.v.](contoso-overview.md) en de ontwerpoverwegingen die zijn geadresseerd toen ze microsoft 365 for Enterprise implementeren.
+Lees [meer over Contoso Corporation](contoso-overview.md) en de ontwerpoverwegingen die zijn aangepakt toen microsoft 365 voor ondernemingen werd geïmplementeerd.
 
 
 ## <a name="see-also"></a>Zie ook

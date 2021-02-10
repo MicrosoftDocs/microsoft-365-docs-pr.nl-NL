@@ -1,5 +1,5 @@
 ---
-title: E-mail stroom inzichten in het dashboard voor e-mail stroom
+title: Inzichten in e-mailstroom in het dashboard E-mailstroom
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -9,39 +9,43 @@ audience: ITPro
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
-description: Beheerders kunnen inzicht krijgen in de inzichten en rapporten die beschikbaar zijn in het dashboard voor de e-mail stroom van de beveiligings & compliance Center.
+description: Beheerders kunnen meer informatie krijgen over de inzichten en rapporten die beschikbaar zijn in het dashboard voor de e-mailstroom in het & compliancecentrum.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef9498d19e79cf670fbae52171b78b0c44c45910
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: b65e235e3446fa62bca1c9f8aef73f2387b1140b
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029360"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167093"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>E-mailstroominzichten in het Beveiligings- en compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Beheerders kunnen het dashboard voor e-mail stroom gebruiken in het beveiligings & compliance om trends, inzichten en acties uit te voeren om problemen met de e-mail stroom binnen hun organisatie op te lossen.
+Beheerders kunnen het dashboard E-mailstroom in het beveiligings- & compliancecentrum gebruiken om trends en inzichten te ontdekken en acties uit te voeren om problemen met de e-mailstroom in hun organisatie op te lossen.
 
-![Het dashboard voor e-mail stroom in de beveiligings & compliance](../../media/mail-flow-dashboard-v2.png)
+![Het dashboard E-mailstroom in het & compliancecentrum](../../media/mail-flow-dashboard-v2.png)
 
 De beschikbare inzichten zijn:
 
 - [Inzicht in automatisch doorgestuurde berichten](mfi-auto-forwarded-messages-report.md)
 
-- [Mogelijke oplossing voor e-mail herhalen](mfi-mail-loop-insight.md)<sup>1</sup>
+- [Oplossing voor mogelijk inzicht in e-maillus](mfi-mail-loop-insight.md)<sup>1</sup>
 
-- [Regels voor trage e-mail stromen herstellen](mfi-slow-mail-flow-rules-insight.md)<sup>1</sup>
+- [Slow Mail Flow Rules Insight](mfi-slow-mail-flow-rules-insight.md)<sup>1 oplossen</sup>
 
 - [E-mailstroomkaart](mfi-mail-flow-map-report.md)
 
-- [Nieuwe domeinen die worden doorgestuurd e-mail Insight](mfi-new-domains-being-forwarded-email.md)<sup>2</sup>
+- [Nieuwe domeinen die e-mailinzichten worden doorgestuurd](mfi-new-domains-being-forwarded-email.md)<sup>2</sup>
 
-- [Nieuwe gebruikers doorsturen e-mail Insight](mfi-new-users-forwarding-email.md)<sup>2</sup>
+- [Nieuwe gebruikers die e-mailinzichten doorsturen](mfi-new-users-forwarding-email.md)<sup>2</sup>
 
 - [Rapport over niet-geaccepteerd domein](mfi-non-accepted-domain-report.md)
 
@@ -55,27 +59,27 @@ De beschikbare inzichten zijn:
 
 - [Inzicht in e-mailstroomstatus van hoofddomein](mfi-domain-mail-flow-status-insight.md)
 
-<sup>1</sup> dit inzicht wordt alleen weergegeven in het **Aanbevolen** gebied van het e-mail stroom dashboard wanneer het probleem is gedetecteerd. Anders ziet u het niet.
+<sup>1</sup> Dit inzicht wordt  pas weergegeven in het gebied Aanbevolen voor u in het dashboard E-mailstroom nadat het probleem is gedetecteerd. Anders wordt het niet gezien.
 
-<sup>2</sup> dit inzicht wordt niet weergegeven op het dashboard voor de e-mail stroom, maar is zichtbaar op de pagina voor het [doorsturen van rapporten](view-mail-flow-reports.md#forwarding-report) nadat het probleem is gedetecteerd. Anders ziet u het niet.
+<sup>2</sup> Dit inzicht wordt niet weergegeven op het dashboard [](view-mail-flow-reports.md#forwarding-report) van de e-mailstroom, maar is zichtbaar op de pagina Doorsturen nadat het probleem is gedetecteerd. Anders wordt het niet gezien.
 
-## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Vereiste machtigingen voor het weergeven van het dashboard voor e-mail stroom
+## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Machtigingen vereist voor het weergeven van het dashboard E-mailstroom
 
-Het dashboard voor e-mail stroom is beschikbaar voor leden van de volgende rollen groepen:
+Het dashboard E-mailstroom is beschikbaar voor leden van de volgende rollengroepen:
 
-- **Organisatiebeheer** in het beveiligings & nalevings centrum (globale beheerders).
+- **Organisatiebeheer** in het & compliancecentrum (globale beheerders).
 
-- **[Exchange-beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in azure Active Directory.
+- **[Exchange-beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in Azure Active Directory.
 
-- **Beheerder** van de beheerder van het beveiligings & van de beheerder. Als het account geen lid is van de rollen groepen Organisatiebeheer of Exchange-beheerder, kunt u het volgende doen:
-  - De gebruiker moet zich rechtstreeks aanmelden bij de beveiligings & nalevings centrum <https://protection.office.com> .
-  - De gebruiker heeft slechts de alleen-lezen machtiging voor het dashboard voor e-mail stroom.
-  - De gebruiker heeft geen toegang tot het Microsoft 365-Beheercentrum.
+- **MailFlow-beheerder** in het & compliancecentrum. Als het account niet ook lid is van de rollengroepen Organisatiebeheer of Exchange-beheerder, moet u rekening houden met de volgende problemen:
+  - De gebruiker moet zich rechtstreeks aanmelden bij het & <https://protection.office.com> compliancecentrum.
+  - De gebruiker heeft alleen-lezenmachtigingen voor het dashboard E-mailstroom.
+  - De gebruiker heeft geen toegang tot het Microsoft 365-beheercentrum.
 
-Zie [machtigingen in de beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md) en [gebruikers toegang geven tot het beveiligings & nalevings centrum](grant-access-to-the-security-and-compliance-center.md)voor meer informatie over machtigingen.
+Zie Machtigingen in het [&](permissions-in-the-security-and-compliance-center.md) beveiligings- en compliancecentrum en geef gebruikers toegang tot het & compliancecentrum voor meer informatie over [machtigingen.](grant-access-to-the-security-and-compliance-center.md)
 
-## <a name="where-to-find-the-mail-flow-dashboard"></a>Waar vind ik het e-mail stroom dashboard?
+## <a name="where-to-find-the-mail-flow-dashboard"></a>Waar u het dashboard voor de e-mailstroom kunt vinden
 
-Open het beveiligings & nalevings centrum <https://protection.office.com> , vouw **e-mail stroom** uit en selecteer vervolgens **Dashboard**.
+Open het beveiligingscentrum & <https://protection.office.com> compliancecentrum, vouw **de e-mailstroom uit** en selecteer **Dashboard.**
 
-Als u rechtstreeks naar het e-mail flow dashboard wilt gaan, opent u het <https://protection.office.com/mailflow/dashboard> .
+Als u rechtstreeks naar het dashboard van de e-mailstroom wilt gaan, opent u <https://protection.office.com/mailflow/dashboard> .

@@ -19,14 +19,19 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 261c375aa17e4a3bc8f7d1b469d82621cf4ae45b
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: 653b16b7b3f6637440e3740830ffe9f9a51c6dd8
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097126"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166505"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Beleidsaanbevelingen voor het beveiligen van e-mail
+
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+
 
 In dit artikel wordt beschreven hoe u het aanbevolen beleid voor identiteits- en apparaattoegang implementeert ter bescherming van e-mail- en e-mail clients van de organisatie die ondersteuning bieden voor moderne verificatie en voorwaardelijke toegang. Deze richtlijnen zijn gebaseerd op het algemene beleid voor identiteits- en [apparaattoegang](identity-access-policies.md) en bevat ook een paar extra aanbevelingen.
 
@@ -48,7 +53,7 @@ Als u Exchange Online en Outlook hebt opgenomen in het bereik van het beleid tij
 
 |Beveiligingsniveau|Beleidsregels|Meer informatie|
 |---|---|---|
-|**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog is*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
+|**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* *of* hoog is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online opnemen in de toewijzing van cloud-apps|
 ||[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|Exchange Online opnemen in de toewijzing van cloud-apps|
 ||[Beleid voor app-gegevensbescherming toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat Outlook is opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform bijwerkt (iOS, Android, Windows)|
 ||[Goedgekeurde apps en APP-beveiliging vereisen](identity-access-policies.md#require-approved-apps-and-app-protection)|Exchange Online opnemen in de lijst met cloud-apps|
@@ -61,7 +66,7 @@ Als u Exchange Online en Outlook hebt opgenomen in het bereik van het beleid tij
 
 ## <a name="block-activesync-clients"></a>ActiveSync-clients blokkeren
 
-Met dit beleid wordt voorkomen dat ActiveSync-clients andere beleidsregels voor voorwaardelijke toegang omzeilen. De beleidsconfiguratie geldt alleen voor ActiveSync-clients. Als u **[het beveiligingsbeleid voor apps vereist](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** selecteert, wordt ActiveSync-clients met dit beleid niet meer geselecteerd. Meer informatie over het maken van dit beleid vindt u in het beveiligingsbeleid voor apps vereisen voor toegang tot [cloud-apps met voorwaardelijke toegang.](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
+Met dit beleid wordt voorkomen dat met ActiveSync-clients andere beleidsregels voor voorwaardelijke toegang worden overgeslagen. De beleidsconfiguratie geldt alleen voor ActiveSync-clients. Als u **[het beveiligingsbeleid voor apps vereist](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** selecteert, wordt ActiveSync-clients met dit beleid niet meer geselecteerd. Meer informatie over het maken van dit beleid vindt u in het beveiligingsbeleid voor apps vereisen voor toegang tot [cloud-apps met voorwaardelijke toegang.](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
 
 - Volg 'Stap 2: Configureer een beleid voor voorwaardelijke toegang van Azure AD voor Exchange Online met ActiveSync (EAS)' in [scenario 1: Voor Office 365-apps](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)zijn goedgekeurde apps met app-beveiligingsbeleid vereist, waardoor Exchange ActiveSync-clients geen verbinding kunnen maken met Exchange Online via basisverificatie.
 
@@ -97,7 +102,7 @@ Dit doet u als volgt:
 
 ## <a name="require-that-ios-and-android-devices-must-use-outlook"></a>Vereisen dat iOS- en Android-apparaten Outlook gebruiken
 
-Om ervoor te zorgen dat gebruikers van iOS- en Android-apparaten alleen toegang hebben tot werk- of schoolinhoud met Outlook voor iOS en Android, hebt u een beleid voor voorwaardelijke toegang nodig dat is gericht op die potentiële gebruikers.
+Om ervoor te zorgen dat gebruikers van iOS- en Android-apparaten alleen toegang hebben tot werk- of schoolinhoud met Outlook voor iOS en Android, hebt u een beleid voor voorwaardelijke toegang nodig dat is gericht op deze potentiële gebruikers.
 
 Zie de stappen voor het configureren van dit beleid in Toegang voor samenwerking via berichten beheren met [Outlook voor iOS en Android.]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
 

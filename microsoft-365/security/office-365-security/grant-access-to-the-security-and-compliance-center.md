@@ -1,5 +1,5 @@
 ---
-title: Gebruikers toegang geven tot de beveiligings & nalevings centrum
+title: Gebruikers toegang geven tot het beveiligings- & compliancecentrum
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -10,56 +10,61 @@ audience: Admin
 ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.PermissionsHelp
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: Gebruikers moeten zijn toegewezen machtigingen in het Microsoft 365-beveiligings & nalevings centrum voordat ze de functies voor beveiliging of compliance kunnen beheren.
+description: Gebruikers moeten machtigingen toegewezen krijgen in het Microsoft 365-beveiligings- & compliancecentrum voordat ze de beveiligings- of nalevingsfuncties kunnen beheren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1bf8da85a0e090a9d74934ea5084f547d6a8794f
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 9e19825ce0f8224b2aee8e1419ef5d1ad425aadb
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616606"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165413"
 ---
-# <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot de beveiligings & nalevings centrum
+# <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot het beveiligings- & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Gebruikers moeten zijn toegewezen aan de beveiligings & compliance Center voordat ze de functies voor beveiliging of compliance kunnen beheren. Als globale beheerder of als lid van de de organizationmanagement-rollen groep in het Beveiligingscentrum beveiligings &, kunt u deze machtigingen aan gebruikers verlenen. Gebruikers kunnen alleen de functies voor beveiliging en compliance beheren waartoe u ze toegang geeft.
+Gebruikers moeten machtigingen toegewezen krijgen in het beveiligings- & voordat ze de beveiligings- of nalevingsfuncties ervan kunnen beheren. Als globale beheerder of lid van de rollengroep OrganizationManagement in het beveiligings- & compliancecentrum kunt u deze machtigingen aan gebruikers verlenen. Gebruikers kunnen alleen de beveiligings- of nalevingsfuncties beheren die u hen toegang geeft.
 
-Als u meer wilt weten over de verschillende machtigingen die u aan gebruikers kunt geven in het compliance-& Beveiligingscentrum, raadpleegt u [machtigingen in het beveiligings & nalevings centrum](permissions-in-the-security-and-compliance-center.md).
+Raadpleeg machtigingen in het beveiligings- & compliancecentrum voor meer informatie over de verschillende machtigingen die u gebruikers kunt geven in het beveiligings- & [compliancecentrum.](permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U moet een globale beheerder of een lid van de rollen groep de organizationmanagement in het Beveiligingscentrum voor beveiliging & om de stappen in dit artikel uit te voeren.
+- U moet een globale beheerder of lid zijn van de rollengroep OrganizationManagement in het beveiligings- & compliancecentrum om de stappen in dit artikel te kunnen voltooien.
 
-- Rollen groepen voor de beveiligings & nalevings centrum kunnen soortgelijke namen hebben voor groepen met rollen in Exchange Online, maar ze zijn niet hetzelfde.
+- Rollengroepen voor het & compliancecentrum hebben mogelijk vergelijkbare namen als de rollengroepen in Exchange Online, maar deze zijn niet hetzelfde.
 
-- Lidmaatschap van rollen groepen worden niet gedeeld tussen Exchange Online en de beveiligings & nalevings centrum.
+- Lidmaatschappen van rollengroep worden niet gedeeld tussen Exchange Online en het & Compliancecentrum.
 
-- Machtigingen voor gedelegeerde toegangsmachtigingen (DAP) met de machtiging beheren namens (AOBO) hebben geen toegang tot de beveiligings & nalevings centrum.
+- DAP-partners (Gedelegeerde toegangsmachtiging) met AOBO-machtigingen (Administer On Behalf Of) hebben geen toegang tot het beveiligings- & Compliancecentrum.
 
-## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a>Met behulp van het beveiligings & nalevings centrum kunt u een andere gebruiker toegang geven tot de beveiligings & nalevings centrum
+## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a>Het beveiligings- & compliancecentrum gebruiken om een andere gebruiker toegang te geven tot het & compliancecentrum
 
-1. Open het beveiligings & nalevings centrum aan <https://protection.office.com> en ga vervolgens naar **machtigingen**. Ga direct naar het tabblad **machtigingen** en open <https://protection.office.com/permissions> .
+1. Open het & compliancecentrum en <https://protection.office.com> ga naar **Machtigingen.** Als u rechtstreeks naar het **tabblad Machtigingen wilt** gaan, opent u <https://protection.office.com/permissions> .
 
-2. Kies in de lijst met rollen groepen de rollen groep en klik vervolgens op het  ![ pictogram bewerken bewerken ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
+2. Kies de rollengroep in de lijst met rollengroepen en klik op **het pictogram** ![ ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) Bewerken.
 
-3. Klik op de pagina eigenschappen van rollen groep , onder leden **, op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.gif) en selecteer de naam van de gebruiker (s) die u wilt toevoegen.
+3. Klik op de eigenschappenpagina van de rollengroep onder **Leden** op Pictogram toevoegen en selecteer de naam van de gebruiker ![ ](../../media/ITPro-EAC-AddIcon.gif) (of gebruikers) die u wilt toevoegen.
 
-4. Wanneer u alle gebruikers hebt geselecteerd die u wilt toevoegen aan de rollen groep, klikt u op **toevoegen \>** en vervolgens op **OK**.
+4. Wanneer u alle gebruikers hebt geselecteerd die u wilt toevoegen aan de rollengroep, klikt u op **Toevoegen en \>** vervolgens op **OK.**
 
 5. Klik op **Opslaan** wanneer u gereed bent.
 
-## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Beveiligings & PowerShell gebruiken om een andere gebruiker toegang te geven tot de beveiligings & nalevings centrum
+## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>PowerShell voor & beveiligingscentrum gebruiken om een andere gebruiker toegang te geven tot het & compliancecentrum
 
-1. [Maak verbinding met beveiliging & nalevings centrum voor PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Maak verbinding met beveiligings & Compliancecentrum PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
 2. Gebruik de volgende syntaxis:
 
@@ -75,18 +80,18 @@ Als u meer wilt weten over de verschillende machtigingen die u aan gebruikers ku
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-Zie [add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember) voor gedetailleerde syntaxis-en Parameterproblemen.
+Zie [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember) voor gedetailleerde problemen met de syntaxis en parameter
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Voer een van de volgende stappen uit om te controleren of u toegang hebt tot de beveiligings & nalevings centrum:
+Als u wilt controleren of u toegang hebt verleend tot het beveiligings- & compliancecentrum, gaat u op een van de volgende stappen te werk:
 
-- Ga in het beveiligings & nalevings centrum naar **machtigingen** en selecteer de rolgroep. Controleer de leden van de groep rollen in het flyout Details dat wordt geopend.
+- Ga in het & Compliancecentrum naar **Machtigingen** en selecteer de rollengroep. Controleer de leden van de rollengroep in de flyout met details die wordt geopend.
 
-- In het beveiligings & nalevings centrum voor PowerShell, vervangt u \<RoleGroupName\> de naam van de rolgroep en voert u de volgende opdracht uit:
+- Vervang in & Compliancecentrum PowerShell door de naam van de rollengroep en \<RoleGroupName\> voer de volgende opdracht uit:
 
   ```powershell
   Get-RoleGroupMember -Identity "<RoleGroupName>"
   ```
 
-  Zie [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember)voor gedetailleerde syntaxis-en parameterinformatie.
+  Zie [Get-RoleGroupMember voor gedetailleerde syntaxis- en parameterinformatie.](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember)

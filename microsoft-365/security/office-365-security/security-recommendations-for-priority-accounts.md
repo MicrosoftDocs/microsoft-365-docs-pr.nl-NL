@@ -1,5 +1,5 @@
 ---
-title: Beveiligingsaanbevelingen voor prioriteitsaccounts in Microsoft 365
+title: Beveiligingsaanbevelingen voor prioriteitsaccounts in Microsoft 365, prioriteitsaccounts, prioriteitsaccounts in Office 365 en prioriteitsaccounts in Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -20,16 +20,16 @@ ms.collection:
 description: Beheerders kunnen meer informatie krijgen over het verbeteren van de beveiligingsinstellingen en het gebruik van rapporten, waarschuwingen en onderzoeken voor prioriteitsaccounts in hun Microsoft 365-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 10890a5fe797439de0bfc28bf28a216318016908
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 814ca47ee48e844e313f7d75640643a0b659c527
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929304"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166367"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Beveiligingsaanbevelingen voor prioriteitsaccounts in Microsoft 365
 
-Niet alle gebruikersaccounts hebben toegang tot dezelfde bedrijfsgegevens. Sommige accounts hebben toegang tot gevoelige informatie, zoals financiële gegevens, informatie over productontwikkeling, partnertoegang tot kritieke buildsystemen en meer. Als ze worden gehackt, vormen accounts die toegang hebben tot zeer vertrouwelijke informatie een ernstige bedreiging. Dit worden accounts met _prioriteitaccounts noemen._ Prioriteitsaccounts zijn onder andere CEOs, CISOs, CFOs, infrastructuurbeheerdersaccounts, systeemaccounts maken en meer.
+Niet alle gebruikersaccounts hebben toegang tot dezelfde bedrijfsgegevens. Sommige accounts hebben toegang tot gevoelige informatie, zoals financiële gegevens, informatie over productontwikkeling, partnertoegang tot kritieke buildsystemen en meer. Als ze worden gehackt, vormen accounts die toegang hebben tot zeer vertrouwelijke informatie een ernstige bedreiging. Dit worden accounts met _prioriteitaccounts noemen._ Prioriteitsaccounts zijn onder andere CEOs, CISOs, CFOS's, infrastructuurbeheerdersaccounts, systeemaccounts maken en meer.
 
 Voor kwaadwillende gebruikers zijn normale phishing-aanvallen die een willekeurig net voor gewone of onbekende gebruikers laten zien, niet efficiënt. Aan de andere kant zijn _phishing-_ of _whaling-aanvallen_ van doelprioriteitsaccounts zeer lonend voor aanvallers. Prioriteitsaccounts vereisen dus sterker dan gewone beveiliging om het gekrom van accounts te voorkomen.
 
@@ -58,17 +58,17 @@ Zie stap [1 voor instructies. Verhoog de aanmeldingsbeveiliging voor externe med
 
 - U kunt [verificatiebeleid](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) en regels voor [clienttoegang](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) in Exchange Online gebruiken om basisverificatie en verouderde verificatieprotocollen zoals POP3, IMAP4 en geverifieerde SMTP voor specifieke gebruikers te blokkeren of toe te staan.
 
-- U kunt POP3- en IMAP4-toegang uitschakelen voor afzonderlijke postvakken. U kunt geverifieerde SMTP op organisatieniveau uitschakelen en inschakelen voor specifieke postvakken waarvoor deze nog steeds nodig is. Zie de volgende onderwerpen voor instructies:
+- U kunt POP3- en IMAP4-toegang uitschakelen voor afzonderlijke postvakken. U kunt geverifieerde SMTP op organisatieniveau uitschakelen en inschakelen voor specifieke postvakken waarvoor dit nog steeds is vereist. Zie de volgende onderwerpen voor instructies:
   - [POP3- of IMAP4-toegang voor een gebruiker in- of uitschakelen](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
   - [Geverifieerde SMTP-indiening (SMTP AUTH) voor geverifieerde client in- of uitschakelen](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
 
-Het is ook goed om te weten dat Basic-verificatie op dit moment wordt afgeschaft in Exchange Online for Exchange Web Services (EWS), Exchange ActiveSync, POP3, IMAP4 en externe PowerShell. Zie dit blogbericht voor [meer informatie.](https://developer.microsoft.com/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/)
+Het is ook de moeite waard om te weten dat Basic-verificatie op dit moment wordt afgeschaft in Exchange Online for Exchange Web Services (EWS), Exchange ActiveSync, POP3, IMAP4 en externe PowerShell. Zie dit blogbericht voor [meer informatie.](https://developer.microsoft.com/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/)
 
 ## <a name="use-strict-preset-security-policies-for-priority-accounts"></a>Strikt vooraf ingestelde beveiligingsbeleid gebruiken voor prioriteitsaccounts
 
 Prioriteitsgebruikers vereisen striktere acties voor de verschillende beveiligingen die beschikbaar zijn in Exchange Online Protection (EOP) en Defender voor Office 365.
 
-In plaats van berichten die als spam zijn geclassificeerd, bijvoorbeeld in de map Ongewenste e-mail te plaatsen, moet u dezelfde berichten in quarantaine plaatsen als deze zijn bedoeld voor prioriteitsaccounts.
+Bijvoorbeeld: in plaats van berichten die als spam zijn geclassificeerd, in de map Ongewenste e-mail te plaatsen, moet u dezelfde berichten in quarantaine plaatsen als deze zijn bedoeld voor prioriteitsaccounts.
 
 U kunt deze strikte benadering voor prioriteitsaccounts implementeren door het profiel Strikt in vooraf ingestelde beveiligingsbeleidsregels te gebruiken.
 
@@ -94,9 +94,9 @@ Nadat u uw prioriteitsgebruikers hebt beveiligd en gelabeld, kunt u de beschikba
 
 |Functie|Beschrijving|
 |---|---|
-|Waarschuwingen|De gebruikerslabels van betrokken gebruikers zijn  zichtbaar en beschikbaar als filters op de pagina Waarschuwingen weergeven in het & compliancecentrum. Zie Waarschuwingen weergeven [voor meer informatie.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#viewing-alerts)|
+|Waarschuwingen|De gebruikerslabels van betrokken gebruikers zijn  zichtbaar en beschikbaar als filters op de pagina Waarschuwingen weergeven in het & Compliancecentrum. Zie Waarschuwingen weergeven [voor meer informatie.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#viewing-alerts)|
 |Bedreigingsverkenner <p> Detecties in realtime|In  Bedreigingsverkenner (Microsoft Defender voor Office 365 Plan 2) of detecties in realtime (Microsoft Defender voor Office 365 Abonnement 1) zijn gebruikerslabels zichtbaar in de weergave E-mailraster en de flyout **E-maildetails.** Gebruikerslabels zijn ook beschikbaar als een filterbare eigenschap. Zie Labels  [in Bedreigingsverkenner](threat-explorer.md#tags-in-threat-explorer)voor meer informatie.|
-|Campagneweergaven|Gebruikerslabels zijn een van de vele filterbare eigenschappen in campagneweergaven in Microsoft Defender voor Office 365 Abonnement 2. Zie campagneweergaven [voor meer informatie.](campaigns.md)|
+|Campagneweergaven|Gebruikerslabels zijn een van de vele filterbare eigenschappen in campagneweergaven in Microsoft Defender voor Office 365 Abonnement 2. Zie Campagneweergaven [voor meer informatie.](campaigns.md)|
 |Statusrapport bedreigingsbeveiliging|In vrijwel alle weergaven en detailtabellen in **het** statusrapport Risicobeveiliging kunt u de resultaten filteren op **prioriteitaccounts.** Zie het statusrapport risicobeveiliging voor [meer informatie.](view-email-security-reports.md#threat-protection-status-report)|
 |E-mailproblemen voor prioriteitsaccountsrapport|Het **rapport E-mailproblemen** voor prioriteitsaccounts in het Exchange-beheercentrum (EAC) bevat informatie over niet-bezorgde en vertraagde berichten voor **prioriteitaccounts.** Zie E-mailproblemen voor het [rapport Prioriteitsaccounts voor meer informatie.](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report)|
 |

@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -18,48 +17,54 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen informatie vinden over spoof Intelligence in Exchange Online Protection (EOP), waar u specifieke afzenders kunt toestaan of blokkeren.
-ms.openlocfilehash: 603aeb35241f9808561593afa69b3b9ce7193fb0
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+description: Beheerders kunnen meer informatie krijgen over spoof intelligence in Exchange Online Protection (EOP), waar u specifieke vervalste afzenders kunt toestaan of blokkeren.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 55a744cf2d226e72e8d84f6eb125f2baf9b9d3a0
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760528"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167261"
 ---
-# <a name="configure-spoof-intelligence-in-eop"></a>Spoof informatie configureren in EOP
+# <a name="configure-spoof-intelligence-in-eop"></a>Spoof Intelligence configureren in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder postvakken van Exchange Online worden inkomende e-mailberichten automatisch beveiligd tegen spoofing door EOP vanaf oktober 2018. EOP maakt gebruik van spoof Intelligence als onderdeel van de algemene verdediging van uw organisatie tegen phishing. Zie [anti-spoofing beveiliging in EOP](anti-spoofing-protection.md)voor meer informatie.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken worden binnenkomende e-mailberichten vanaf oktober 2018 automatisch beveiligd tegen spoofing door EOP. EOP gebruikt spoof intelligence als onderdeel van de totale verdediging van uw organisatie tegen phishing. Zie Beveiliging tegen [adresvervalsing in EOP voor meer informatie.](anti-spoofing-protection.md)
 
-Wanneer een afzender een e-mailadres vervalst, lijken ze een gebruiker in een van de domeinen van uw organisatie of een gebruiker in een extern domein die e-mail naar uw organisatie verzendt. Kwaadwillenden die afzenders vervalsen om spam of phishing-e-mail te verzenden, moeten worden geblokkeerd. Er zijn echter scenario's waarbij originele afzenders spoofing zijn. Bijvoorbeeld:
+Wanneer een afzender een e-mailadres vervalst, lijkt dit een gebruiker in een van de domeinen van uw organisatie of een gebruiker in een extern domein die e-mail naar uw organisatie verzendt. Aanvallers die afzenders spoofen om spam of phishing-e-mail te verzenden, moeten worden geblokkeerd. Er zijn echter gevallen waarin legitieme afzenders spoofing gebruiken. Bijvoorbeeld:
 
-- Legitieme scenario's voor het spoofen van interne domeinen:
+- Legitieme scenario's voor het vervalsen van interne domeinen:
 
-  - Afzenders van derden uw domein gebruiken om bulkmail te versturen naar uw eigen werknemers voor bedrijfs polls.
-  - Een extern bedrijf genereert en stuurt namens u advertenties of productupdates.
-  - Een assistent moet regelmatig e-mail verzenden voor een andere persoon binnen uw organisatie.
-  - Een interne toepassing verzendt e-mail meldingen.
+  - Externe afzenders gebruiken uw domein om bulkmail naar uw eigen werknemers te verzenden voor bedrijfspeilingen.
+  - Een extern bedrijf genereert en verzendt namens u advertenties of productupdates.
+  - Een assistent moet regelmatig e-mail verzenden voor iemand anders binnen uw organisatie.
+  - Een interne toepassing verzendt e-mailmeldingen.
 
 - Legitieme scenario's voor het vervalsen van externe domeinen:
 
-  - De afzender bevindt zich in een adressenlijst (ook wel discussielijst genoemd), en de adressenlijst stuurt e-mail van de oorspronkelijke afzender door naar alle deelnemers aan de adressenlijst.
-  - Een extern bedrijf verzendt e-mail namens een ander bedrijf (bijvoorbeeld een geautomatiseerd rapport of een software-servicebedrijf).
+  - De afzender maakt deel uit van een adressenlijst (ook wel een discussielijst genoemd) en met de adressenlijst wordt e-mail van de oorspronkelijke afzender verzonden naar alle deelnemers aan de adressenlijst.
+  - Een extern bedrijf verzendt e-mail namens een ander bedrijf (bijvoorbeeld een geautomatiseerd rapport of een software-as-a-service-bedrijf).
 
-Spoof Intelligence en specifiek het standaardbeleid voor spoof informatie van spoofing helpt ervoor te zorgen dat de vervalste e-mail die door legitieme afzenders is verzonden, niet wordt weergegeven in EOP spamfilters of externe e-mail systemen, terwijl u uw gebruikers tegen spam of phishing-aanvallen beschermt.
+Spoof intelligence, en met name het standaard(en alleen) spoof intelligence-beleid, helpt ervoor te zorgen dat de vervalste e-mail die wordt verzonden door legitieme afzenders, niet in de EOP-spamfilters of externe e-mailsystemen terecht komt, terwijl uw gebruikers worden beschermd tegen spam of phishing-aanvallen.
 
-U kunt spoof Intelligence beheren in het beveiligings & nalevings centrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder postvakken van Exchange Online).
+U kunt spoof intelligence beheren in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik <https://protection.office.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan. Als u rechtstreeks naar de **anti malafide** pagina wilt gaan, gebruikt u <https://protection.office.com/antiphishing> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik <https://protection.office.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan. Als u rechtstreeks naar de **anti-phishing-pagina** wilt gaan, gebruikt u <https://protection.office.com/antiphishing> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
-  - Als u het beleid voor spoof informatie wilt wijzigen of spoof Intelligence wilt in-of uitschakelen, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
-  - Voor alleen-lezen toegang tot het beleid voor spoof Intelligence moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
+  - Als u het spoof intelligence-beleid wilt wijzigen of spoof intelligence wilt in- of uitschakelen, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
+  - Voor alleen-lezen toegang tot het spoof intelligence-beleid moet  u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
   Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
@@ -68,123 +73,123 @@ U kunt spoof Intelligence beheren in het beveiligings & nalevings centrum of in 
   - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
-- Voor de aanbevolen instellingen voor spoof Intelligence raadpleegt u [EOP standaard anti phishingfilter-beleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
+- Zie voor onze aanbevolen instellingen voor spoof intelligence de standaardinstellingen [voor anti-phishingbeleid van EOP.](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)
 
-## <a name="use-the-security--compliance-center-to-manage-spoofed-senders"></a>Het nalevings centrum voor beveiliging & gebruiken om vervalste afzenders te beheren
+## <a name="use-the-security--compliance-center-to-manage-spoofed-senders"></a>Het beveiligings- & voor het beheren van vervalste afzenders
 
 > [!NOTE]
-> Als u een Microsoft 365 Enterprise E5-abonnement hebt of als u een invoegtoepassing voor Microsoft Defender voor Office 365 apart hebt aangeschaft, kunt u ook afzenders beheren die een spoofing van uw domein hebben via het [inzicht in spoof Intelligence](walkthrough-spoof-intelligence-insight.md).
+> Als u een Microsoft 365 Enterprise E5-abonnement hebt of afzonderlijk een invoegabonnement op Microsoft Defender voor Office 365 hebt gekocht, kunt u ook afzenders beheren die uw domein via spoof [intelligence-inzichten spoofen.](walkthrough-spoof-intelligence-insight.md)
 
 1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
 
-2. Op de pagina **anti spam instellingen** klikt u op ![ pictogram uitvouwen ](../../media/scc-expand-icon.png) om het **spoof Intelligence-beleid** uit te vouwen.
+2. Klik op **de pagina Antispaminstellingen** op ![ het pictogram Uitvbreken ](../../media/scc-expand-icon.png) om **intelligence-beleid voor adresvervalsing uit te vouwen.**
 
-   ![Het beleid voor spoof informatie selecteren](../../media/anti-spam-settings-spoof-intelligence-policy.png)
+   ![Het spoof intelligence-beleid selecteren](../../media/anti-spam-settings-spoof-intelligence-policy.png)
 
-3. Voer een van de volgende opties in:
+3. Maak een van de volgende opties:
 
    - **Nieuwe afzenders controleren**
-   - **Laat afzenders zien die ik al heb herzien**
+   - **Afzenders tonen die ik al heb beoordeeld**
 
-4. Selecteer een van de volgende tabbladen in het menu **bepalen of deze afzenders toestemming hebben om uw gebruikers flyout te vervalsen** dat wordt weergegeven:
+4. Selecteer een van de volgende tabbladen bij Bepalen of deze **afzenders** uw flyout voor gebruikers mogen spoofen:
 
-   - **Uw domeinen**: afzenders van afzenders gebruikers in uw interne domeinen.
-   - **Externe domeinen**: afzenders spoofing gebruikers in externe domeinen.
+   - **Uw domeinen:** afzenders adresseren gebruikers in uw interne domeinen.
+   - **Externe domeinen:** afzenders adresseren gebruikers in externe domeinen.
 
-5. Klik op ![ het pictogram uitvouwen ](../../media/scc-expand-icon.png) in de kolom **toegestaan voor spoof?** . Kies **Ja** als u de vervalste afzender wilt toestaan of kies **Nee** om het bericht als vervalste te markeren. De actie wordt bepaald door het standaard anti-phishingfilter of een aangepast anti-phishingfilter (de standaardinstelling is **bericht verplaatsen naar map Ongewenste e-mail**). Zie voor meer informatie [spoofberichten instellingen in anti-phishingfilter](set-up-anti-phishing-policies.md#spoof-settings).
+5. Klik ![ op het pictogram ](../../media/scc-expand-icon.png) Uitviekken in **de kolom Toegestaan naar spoof?** Kies **Ja om** de vervalste afzender toe te staan of kies Nee **om** het bericht als vervalst te markeren. De actie wordt bepaald door het standaard anti-phishingbeleid of aangepaste anti-phishingbeleidsregels (de standaardwaarde is Bericht verplaatsen naar map **Ongewenste e-mail).** Zie Spoof-instellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.
 
-   ![Schermafbeelding van de flyout vervalste afzenders en of de afzender toestemming heeft om spoof te geven](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
+   ![Schermafbeelding van de flyout voor vervalste afzenders en of de afzender mag spoofen](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
-   De kolommen en waarden die u ziet, worden uitgelegd in de volgende lijst:
+   De kolommen en waarden die u ziet, worden in de volgende lijst uitgelegd:
 
-   - **Vervalste gebruiker**: het gebruikersaccount waarvan wordt spoofing. Dit is de afzender van het bericht in het van `5322.From` -adres dat wordt weergegeven in e-mailclients. De geldigheid van dit adres is niet gecontroleerd op SPF.
+   - **Vervalste gebruiker:** het gebruikersaccount dat wordt vervalst. Dit is de afzender van het bericht in het Van-adres (ook wel het adres genoemd) dat `5322.From` wordt weergegeven in e-mail clients. De geldigheid van dit adres wordt niet gecontroleerd door SPF.
 
-     - Op het tabblad **uw domeinen** bevat de waarde één e-mailadres of als de bron-e-mailserver een spoofing heeft voor meerdere gebruikersaccounts, het bevat **meer dan één** e-mailadres.
+     - Op het **tabblad Uw** domeinen bevat de waarde één e-mailadres. Als de bron-e-mailserver meerdere gebruikersaccounts spooft, bevat deze meer dan **één adres.**
 
-     - Op het tabblad **externe domeinen** bevat de waarde het domein van de vervalste gebruiker, niet het volledige e-mailadres.
+     - Op het **tabblad Externe** domeinen bevat de waarde het domein van de vervalste gebruiker, niet het volledige e-mailadres.
 
-   - **Infrastructuur verzenden**: het domein dat is gevonden in omgekeerde DNS-zoekopdracht (PTR-record) van het IP-adres van de bron-e-mailserver. Als het bron-IP-adres geen PTR-record heeft, wordt de verzendende infrastructuur aangeduid als \<source IP\> /24 (bijvoorbeeld 192.168.100.100/24).
+   - **Infrastructuur verzenden:** het domein dat is gevonden in een omgekeerde DNS-zoekactie (PTR-record) van het IP-adres van de bron-e-mailserver. Als het bron-IP-adres geen PTR-record heeft, wordt de verzendende infrastructuur geïdentificeerd als \<source IP\> /24 (bijvoorbeeld 192.168.100.100/24).
 
-     Zie [een overzicht van de standaarden voor e-mailberichten](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)voor meer informatie over berichten bronnen en afzenders van berichten.
+     Zie een overzicht van de standaarden voor e-mailberichten voor meer informatie over berichtbronnen [en afzenders van berichten.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
 
-   - **# van berichten**: het aantal berichten van de verzendende infrastructuur naar uw organisatie die de opgegeven vervalste afzender of afzenders in de afgelopen 30 dagen bevat.
+   - **# van berichten:** het aantal berichten van de verzendende infrastructuur naar uw organisatie dat de opgegeven vervalste afzender of afzenders in de afgelopen 30 dagen bevat.
 
-   - **# van de klachten van gebruikers**: klachten die door uw gebruikers zijn ingediend binnen de afgelopen 30 dagen. De klachten vormen meestal in de vorm van ongewenste faxberichten aan Microsoft.
+   - **# van gebruikers klachten:** Klachten die zijn ingediend door uw gebruikers tegen deze afzender in de afgelopen 30 dagen. Klachten zijn meestal in de vorm van ongewenste e-mail naar Microsoft.
 
-   - **Verificatie resultaat**: een van de volgende waarden:
-      - **Doorgegeven**: de afzender heeft doorsturen van e-mail verificatie gecontroleerd of e-mail verificatie gecontroleerd.
-      - **Mislukt**: de afzender is niet gelukt verificatiecontroles voor EOP te verzenden.
-      - **Onbekend**: het resultaat van deze controles is onbekend.
+   - **Verificatieresultaat:** een van de volgende waarden:
+      - **Geslaagd:** de afzender heeft de e-mailverificatiecontroles voor afzenders (SPF of DKIM) doorgegeven.
+      - **Mislukt:** de afzender kan niet worden gecontroleerd op de verificatie van de EOP-afzender.
+      - **Onbekend:** Het resultaat van deze controles is niet bekend.
 
-   - **Beslissings instelling**: geeft aan welke persoon is bepaald of de verzending van de gebruiker spoofing mag maken:
-       - **Beleid voor spoof informatie** (automatisch)
+   - **Beslissing ingesteld door:** Geeft aan wie heeft vastgesteld of de verzendende infrastructuur de gebruiker mag spoofen:
+       - **Spoof intelligence policy** (automatisch)
        - **Beheerder** (handmatig)
 
-   - **Laatst weergegeven**: de laatste datum waarop een bericht is ontvangen van de verzendende infrastructuur die de vervalste gebruiker bevat.
+   - **Laatst gezien:** de laatste datum waarop een bericht is ontvangen van de verzendende infrastructuur met de vervalste gebruiker.
 
-   - **Toegestaan spoofing?**: de waarden die u hier ziet:
-     - **Ja**: berichten van de combinatie van vervalste gebruikers en het verzenden van een infrastructuur zijn toegestaan en worden niet als vervalste e-mail verwerkt.
-     - **Nee**: berichten van de combinatie van vervalste gebruikers en het verzenden van de infrastructuur zijn gemarkeerd als vervalste. De actie wordt bepaald door het standaard anti-phishingfilter of een aangepast anti-phishingfilter (de standaardinstelling is **bericht verplaatsen naar map Ongewenste e-mail**). Zie de volgende sectie voor meer informatie.
+   - **Mag worden vervalst?** De waarden die u hier ziet, zijn:
+     - **Ja:** berichten van de combinatie van vervalste gebruikers- en verzenden-infrastructuur zijn toegestaan en worden niet behandeld als vervalste e-mail.
+     - **Nee:** berichten van de combinatie van vervalste gebruikers- en verzendende infrastructuur worden gemarkeerd als vervalst. De actie wordt bepaald door het standaard anti-phishingbeleid of aangepaste anti-phishingbeleidsregels (de standaardwaarde is Bericht verplaatsen naar map **Ongewenste e-mail).** Zie de volgende sectie voor meer informatie.
 
-     - **Sommige gebruikers** (alleen de tabbladen van **uw domein** ): een verzendende infrastructuur is een spoofing voor meerdere gebruikers, waarbij sommige vervalste gebruikers zijn toegestaan en andere niet. Gebruik het tabblad **gedetailleerd** om de specifieke adressen weer te geven.
+     - **Sommige gebruikers** **(alleen** op het tabblad Domeinen): Een verzendende infrastructuur vervalst meerdere gebruikers, waarbij sommige vervalste gebruikers zijn toegestaan en andere niet. Gebruik het **tabblad Gedetailleerd** om de specifieke adressen te zien.
 
-6. Klik onder aan de pagina op **Opslaan**.
+6. Klik onder aan de pagina op **Opslaan.**
 
-## <a name="use-powershell-to-manage-spoofed-senders"></a>PowerShell gebruiken voor het beheren van vervalste afzenders
+## <a name="use-powershell-to-manage-spoofed-senders"></a>PowerShell gebruiken om vervalste afzenders te beheren
 
-Als u toegestane en geblokkeerde afzenders wilt weergeven in spoof Intelligence, gebruikt u de volgende syntaxis:
+Gebruik de volgende syntaxis om toegestane en geblokkeerde afzenders in spoof intelligence weer te geven:
 
 ```powershell
 Get-PhishFilterPolicy [-AllowedToSpoof <Yes | No | Partial>] [-ConfidenceLevel <Low | High>] [-DecisionBy <Admin | SpoofProtection>] [-Detailed] [-SpoofType <Internal | External>]
 ```
 
-In het volgende voorbeeld wordt gedetailleerde informatie geretourneerd over alle afzenders die zijn toegestaan voor spoofing aan gebruikers in uw domeinen.
+In dit voorbeeld wordt gedetailleerde informatie gegeven over alle afzenders die gebruikers in uw domeinen mogen spoofen.
 
 ```powershell
 Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 ```
 
-Zie [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy)voor gedetailleerde syntaxis- en parameterinformatie.
 
-Voer de volgende stappen uit om toegestane en geblokkeerde afzenders te configureren in spoof Intelligence:
+Als u toegestane en geblokkeerde afzenders in spoof intelligence wilt configureren, gaat u als volgt te werk:
 
-1. De huidige lijst met gedetecteerde vervalste afzenders vastleggen door de uitvoer van de **Get-PhishFilterPolicy** -cmdlet te schrijven naar een CSV-bestand:
+1. Leg de huidige lijst met gedetecteerde vervalste afzenders vast door de uitvoer van de cmdlet **Get-PhishFilterPolicy** naar een CSV-bestand te schrijven:
 
    ```powershell
    Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
    ```
 
-2. Het CSV-bestand bewerken om de **SpoofedUser** (e-mailadres) en **AllowedToSpoof** (ja of Nee) toe te voegen of te wijzigen. Sla het bestand op, lees het bestand en sla de inhoud op als een variabele met de naam `$UpdateSpoofedSenders` :
+2. Bewerk het CSV-bestand om de waarden **SpoofedUser** (e-mailadres) en **AllowedToSpoof** (Ja of Nee) toe te voegen of te wijzigen. Sla het bestand op, lees het bestand en sla de inhoud op als een variabele met de `$UpdateSpoofedSenders` naam:
 
    ```powershell
    $UpdateSpoofedSenders = Get-Content -Raw "C:\My Documents\Spoofed Senders.csv"
    ```
 
-3. Gebruik de `$UpdateSpoofedSenders` variabele om het beleid voor spoof informatie te configureren:
+3. Gebruik de variabele `$UpdateSpoofedSenders` om het spoof intelligence-beleid te configureren:
 
    ```powershell
    Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSenders
    ```
 
-Zie [set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-phishfilterpolicy)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Set-PhishFilterPolicy voor](https://docs.microsoft.com/powershell/module/exchange/set-phishfilterpolicy)gedetailleerde syntaxis- en parameterinformatie.
 
-## <a name="use-the-security--compliance-center-to-configure-spoof-intelligence"></a>De beveiligings & voor compliance gebruiken om spoof intelligence te configureren
+## <a name="use-the-security--compliance-center-to-configure-spoof-intelligence"></a>Het beveiligings- & gebruiken om spoof intelligence te configureren
 
-De configuratieopties voor spoof Intelligence worden beschreven in de [spoofberichten-instellingen in anti phishingfilter](set-up-anti-phishing-policies.md#spoof-settings).
+De configuratieopties voor spoof intelligence worden beschreven in [spoof-instellingen in anti-phishingbeleid.](set-up-anti-phishing-policies.md#spoof-settings)
 
-U kunt instellingen voor spoof Intelligence configureren in het standaard anti-phishingfilter en ook in aangepaste beleidsregels. Zie een van de volgende onderwerpen voor instructies op basis van uw abonnement:
+U kunt intelligence-instellingen voor spoofing configureren in het standaard anti-phishingbeleid en ook in aangepaste beleidsregels. Zie een van de volgende onderwerpen voor instructies op basis van uw abonnement:
 
-- Een [anti-phishing beleid configureren in EOP](configure-anti-phishing-policies-eop.md).
+- [Anti-phishingbeleid configureren in EOP.](configure-anti-phishing-policies-eop.md)
 
-- Een [anti-phishing beleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md).
+- [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
-Voer een van de volgende stappen uit om te controleren of u de gebruikers van de spoof-informatie hebt geconfigureerd met afzenders die zijn toegestaan en die niet zijn toegestaan voor spoofing en dat u de instellingen voor de spoof Intelligence hebt geconfigureerd:
+Als u wilt controleren of spoof intelligence is geconfigureerd met afzenders die wel en niet mogen spoofen, en of u de instellingen voor spoof intelligence hebt geconfigureerd, gebruikt u een van de volgende stappen:
 
-- Ga in het beveiligings & compliance naar het **beleid voor** het oplossen van beveiligingsfuncties het \>  \> beleid voor het beleid voor spoofing **-** ondersteuning en selecteer de optie Ik wil \>  \> **al gecontroleerde afzenders** \>   
+- Ga in het & Compliancecentrum voor  beveiligingsbeleid naar Beleid voor adresvervalsingsbeleid tegen \>  \> **ongewenste e-mail.** Selecteer \>  \> **'Afzenders** \>    die ik al heb beoordeeld' op het tabblad Uw domeinen of Externe domeinen en controleer of de waarde Is toegestaan voor spoofing? voor de afzender.
 
-- Voer in PowerShell de volgende opdrachten uit om de afzenders weer te geven die zijn toegestaan en die niet zijn toegestaan voor spoofing:
+- Voer in PowerShell de volgende opdrachten uit om de afzenders weer te geven die wel en niet mogen spoofen:
 
   ```powershell
   Get-PhishFilterPolicy -AllowedToSpoof Yes -SpoofType Internal
@@ -193,18 +198,18 @@ Voer een van de volgende stappen uit om te controleren of u de gebruikers van de
   Get-PhishFilterPolicy -AllowedToSpoof No -SpoofType External
   ```
 
-- In PowerShell voert u de volgende opdracht uit om de lijst met alle vervalste afzenders te exporteren naar een CSV-bestand:
+- Voer in PowerShell de volgende opdracht uit om de lijst met alle vervalste afzenders naar een CSV-bestand te exporteren:
 
    ```powershell
    Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
    ```
 
-- Ga op een van de volgende **manieren te werk** in het beveiligings & nalevings centrum \>  \> : **anti phishing** of **ATP anti phishing** en voer een van de volgende stappen uit:  
+- Ga in het & Compliancecentrum  naar Risicobeheerbeleid \>  \> **anti-phishing** of **ATP anti-phishing** en ga op een van de volgende stappen te werk:  
 
-  - Selecteer een beleid in de lijst. Controleer in het vervolgmenu dat wordt weergegeven, de waarden in de sectie **spoof** .
-  - Klik op **standaardbeleid**. Controleer in het vervolgmenu dat wordt weergegeven, de waarden in de sectie **spoof** .
+  - Selecteer een beleid in de lijst. In de flyout die wordt weergegeven, controleert u de waarden in de **sectie Adresvervalsing.**
+  - Klik **op Standaardbeleid.** In de flyout die wordt weergegeven, controleert u de waarden in de **sectie Adresvervalsing.**
 
-- Vervang in Exchange Online PowerShell de \<Name\> optie door Office365 AntiPhish standaard of de naam van een aangepast beleid, en voer de volgende opdracht uit om de instellingen te controleren:
+- Vervang in Exchange Online PowerShell door \<Name\> Office 365 Antiphish Default of de naam van een aangepast beleid en voer de volgende opdracht uit om de instellingen te controleren:
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>" | Format-List EnableSpoofIntelligence,EnableUnauthenticatedSender,AuthenticationFailAction
@@ -212,12 +217,12 @@ Voer een van de volgende stappen uit om te controleren of u de gebruikers van de
 
 ## <a name="other-ways-to-manage-spoofing-and-phishing"></a>Andere manieren om spoofing en phishing te beheren
 
-Wees zeer voor spoofing en phishing bescherming. Hier zijn een paar manieren om spoofing van afzenders te controleren en om te voorkomen dat ze uw organisatie gevaarlijk kunnen maken:
+Wees op de beveiliging tegen spoofing en phishing op de goede weg. Hier zijn gerelateerde manieren om te controleren of afzenders uw domein hebben vervalst en om te voorkomen dat ze uw organisatie beschadigen:
 
-- Controleer het **e-mail rapport voor spoofberichten**. U kunt dit rapport vaak gebruiken om vervalste afzenders te bekijken en te beheren. Zie voor meer informatie het [rapport spoofberichten detectie](view-email-security-reports.md#spoof-detections-report).
+- Controleer het **spoof-e-mailrapport.** U kunt dit rapport vaak gebruiken voor het weergeven en beheren van vervalste afzenders. Zie het rapport [Spoof-detecties voor meer informatie.](view-email-security-reports.md#spoof-detections-report)
 
 - Controleer de SPF-configuratie (Sender Policy Framework). Zie voor een korte introductie van SPF en om het snel te configureren [SPF in Microsoft 365 instellen om spoofing te voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Voor een beter begrip van hoe Office 365 gebruikmaakt van SPF of voor het oplossen van problemen of niet-standaardimplementaties zoals hybride implementaties, begint u met [Hoe Office 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
 
-- Controleer de configuratie van de door DomainKeys geïdentificeerde E-mail (DKIM). U kunt ook DKIM en de DMARC gebruiken om te voorkomen dat hackers berichten verzenden die eruitzien als ze afkomstig zijn van uw domein. Met DKIM kunt u een digitale handtekening toevoegen aan e-mailberichten in de berichtkop. Zie voor meer informatie [dkim gebruiken voor het valideren van uitgaande e-mail verzonden vanaf uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md).
+- Controleer de configuratie domainKeys Identified Mail (DKIM). U moet DKIM naast SPF en DMARC gebruiken om te voorkomen dat aanvallers berichten verzenden die lijken alsof ze van uw domein komen. Met DKIM kunt u een digitale handtekening toevoegen aan e-mailberichten in de berichtkop. Zie DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw [aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)voor meer informatie.
 
-- Controleer de configuratie van berichtverificatie, rapportage en conformiteit van uw domein (DMARC). De implementatie van DMARC met SPF en DKIM biedt extra bescherming tegen adresvervalsing en phishing-email. DMARC helpt ontvangende e-mailsystemen vast te stellen wat er moet gebeuren met berichten die zijn verzonden vanuit uw domein die niet door de SPF- en DKIM-controles komen. Zie voor meer informatie [het artikel DMARC gebruiken om e-mail te valideren in Office 365](use-dmarc-to-validate-email.md).
+- Controleer de configuratie van de op domein gebaseerde berichtverificatie, rapportage en naleving (DMARC). De implementatie van DMARC met SPF en DKIM biedt extra bescherming tegen adresvervalsing en phishing-email. DMARC helpt ontvangende e-mailsystemen vast te stellen wat er moet gebeuren met berichten die zijn verzonden vanuit uw domein die niet door de SPF- en DKIM-controles komen. Zie DMARC gebruiken om [e-mail te valideren in Office 365](use-dmarc-to-validate-email.md)voor meer informatie.

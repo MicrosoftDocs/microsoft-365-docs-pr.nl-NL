@@ -7,70 +7,75 @@ ms.reviewer: kshi
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over veilige documenten in Microsoft 365 E5 of Microsoft 365 E5 beveiliging.
-ms.openlocfilehash: 1bf802422dc05babaf5e2616468f8326b7007dc8
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+description: Meer informatie over de beveiliging van Veilige documenten in Microsoft 365 E5 of Microsoft 365 E5.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 47bb6c66d51575c91b829e9688a074aaf9a18ab5
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682935"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166649"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Veilige documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5-beveiliging waarbij [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) wordt gebruikt om documenten en bestanden te scannen die worden geopend in de [beveiligde weergave](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
+Veilige documenten is een functie in Microsoft 365 E5- of Microsoft 365 E5-beveiliging waarmee [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) wordt gebruikt om documenten en bestanden te scannen die worden geopend in de [beveiligde weergave.](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Veilige documenten zijn alleen beschikbaar voor gebruikers met de beveiligings licenties voor *Microsoft 365 E5* of *Microsoft 365 E5* . Deze licenties zijn niet opgenomen in Microsoft Defender for Office 365-abonnementen.
+- Veilige documenten is alleen beschikbaar voor gebruikers met een beveiligingslicentie voor *Microsoft 365 E5* of *Microsoft 365 E5.* Deze licenties zijn niet opgenomen in Microsoft Defender voor Office 365-abonnementen.
 
-- Veilige documenten worden ondersteund in Microsoft 365-apps voor Enterprise (voorheen bekend als Office 365 ProPlus) versie 2004 of hoger.
+- Veilige documenten worden ondersteund in Microsoft 365-apps voor ondernemingen (voorheen Bekend als Office 365 ProPlus) versie 2004 of hoger.
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com>. Als u rechtstreeks naar de pagina met **veilige bijlage van ATP** wilt gaan, opent u deze <https://protection.office.com/safeattachmentv2> .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com>. Als u rechtstreeks naar de pagina Veilige **bijlagen met ATP wilt** gaan, opent u <https://protection.office.com/safeattachmentv2> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
 - Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
-  - Als u instellingen voor veilige documenten wilt configureren, moet u lid zijn van de rollen groepen **Organisatiebeheer** of **beveiligingsbeheerder** .
-  - Voor alleen-lezen toegang tot instellingen voor veilige documenten moet u lid zijn van de rollen groepen **algemene lezer** of **beveiligings lezer** .
+  - Als u instellingen voor veilige documenten wilt configureren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
+  - Voor alleen-lezen toegang tot instellingen voor veilige documenten  moet u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
   Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-  **Opmerkingen**:
+  > [!NOTE]
+  > 
+  > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  >
+  > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
-  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
+### <a name="how-does-microsoft-handle-your-data"></a>Hoe gaat Microsoft om met uw gegevens?
 
-### <a name="how-does-microsoft-handle-your-data"></a>Hoe bewerkt Microsoft uw gegevens?
+Om u te beschermen, verzendt Veilige documenten bestanden naar de [cloud van Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor analyse. Meer informatie over hoe Microsoft Defender voor eindpunt uw gegevens verwerkt, vindt u hier: Gegevensopslag en privacy van [Microsoft Defender voor eindpunt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 
-Om te beschermen, worden met veilige documenten bestanden naar de [Microsoft Defender voor eindpunten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) van de Cloud verzonden voor analyse. In dit onderwerp vindt u informatie over de manier waarop u uw gegevens kunt vinden in Microsoft Defender for endpoints: [Microsoft Defender for Endpoint data storage en privacy](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy).
+Bestanden die door Veilige documenten worden verzonden, worden niet bewaard in Defender na de tijd die nodig is voor analyse (meestal minder dan 24 uur).
 
-Bestanden die door veilige documenten zijn verzonden, worden niet langer bewaard dan de tijd die nodig is voor de analyse (meestal minder dan 24 uur).
+## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Het beveiligings- & gebruiken om veilige documenten te configureren
 
-## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Beveiligings & voor naleving van Beveiligingscentrum gebruiken om veilige documenten te configureren
+1. Ga in het & Compliancecentrum  voor beveiligingsinstellingen naar Veilige bijlagen met ATP-beleid voor \>  \> **bedreigingsbeheer** en klik op **Globale instellingen.**
 
-1. Ga in het beveiligings & compliance naar veilige bijlagen voor het beleid voor **bedreigings beheer** \>  \> en klik vervolgens op **algemene instellingen**.
+2. Configureer **de volgende instellingen** in de fly-out met globale instellingen:
 
-2. Configureer de volgende instellingen in de **algemene instellingen** die worden weergegeven:
+   - **Veilige documenten voor Office-clients** in schakelen: verplaats de schakelaar naar rechts om de functie in te schakelen: ![ In-/uitschakelen. ](../../media/scc-toggle-on.png)
 
-   - **Veilige documenten inschakelen voor Office-clients**: zet de wisselknop naar rechts om de functie in te schakelen: ![ wisselknop ](../../media/scc-toggle-on.png) .
+   - **Personen toestaan** door de beveiligde weergave te klikken, zelfs als veilige documenten het bestand als schadelijk identificeren: het is raadzaam deze optie uitgeschakeld te laten (laat de schakelaar aan de linkerkant staan: Schakel de schakelaar ![ ](../../media/scc-toggle-off.png) uit).
 
-   - **Toestaan dat personen kunnen klikken via de beveiligde weergave, zelfs als de veilige documenten het bestand als schadelijk identificeren**: u wordt aangeraden deze optie uit te schakelen (laat de schakeloptie links: ![ uit ](../../media/scc-toggle-off.png) ) staan.
+   Klik op **Opslaan** wanneer u gereed bent.
 
-   Wanneer u gereed bent, klikt u op **Opslaan**.
+   ![Instellingen voor veilige documenten nadat u algemene instellingen op de pagina Veilige bijlagen heeft geselecteerd.](../../media/safe-docs.png)
 
-   ![Instellingen voor veilige documenten nadat u wereldwijde instellingen hebt geselecteerd op de pagina voor veilige bijlagen.](../../media/safe-docs.png)
-
-### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Veilige documenten configureren met Exchange Online PowerShell
+### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Exchange Online PowerShell gebruiken om veilige documenten te configureren
 
 Gebruik de volgende syntaxis:
 
@@ -78,30 +83,30 @@ Gebruik de volgende syntaxis:
 Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true | $false>
 ```
 
-- Met de parameter _EnableSafeDocs_ kunt u veilige documenten voor de hele organisatie in-of uitschakelen.
-- Met de parameter _AllowSafeDocsOpen_ kunt u of voorkomen dat gebruikers de beveiligde weergave verlaten (dat wil zeggen, het document openen) als het document is geïdentificeerd als schadelijk.
+- Met de parameter _EnableSafeDocs_ schakelt u veilige documenten in of uit voor de hele organisatie.
+- Met de parameter _AllowSafeDocsOpen_ kunnen gebruikers de beveiligde weergave (dat wil zeggen het document openen) verlaten als het document is geïdentificeerd als schadelijk.
 
-In dit voorbeeld worden veilige documenten ingeschakeld voor de hele organisatie en wordt voorkomen dat gebruikers documenten openen die zijn geïdentificeerd als schadelijk voor de beveiligde weergave.
+In dit voorbeeld worden veilige documenten voor de hele organisatie gebruikt en kunnen gebruikers geen documenten openen die in de beveiligde weergave als schadelijk zijn aangemerkt.
 
 ```powershell
 Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 ```
 
-Zie [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Set-AtpPolicyForO365 voor](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365)gedetailleerde syntaxis- en parameterinformatie.
 
-### <a name="how-do-i-know-this-worked"></a>Hoe weet ik of ik dit heb gewerkt?
+### <a name="how-do-i-know-this-worked"></a>Hoe weet ik of dit heeft gewerkt?
 
-Ga op een van de volgende manieren te werk om te controleren of u veilige documenten hebt ingeschakeld en geconfigureerd:
+Ga op een van de volgende stappen te werk om te controleren of u Veilige documenten hebt ingeschakeld en geconfigureerd:
 
-- Ga in het beveiligings & compliance **naar het** beleid voor het oplossen van beveiligingsfuncties, ga naar \>  \> **veilige bijlagen** **voor Office** , klik op **algemene instellingen** en zorg ervoor **dat personen kunnen klikken op de beveiligde weergave, ongeacht of het bestand wordt geïdentificeerd als kwaadwillende documenten** .
+- Ga in het & Compliancecentrum  voor beveiligingsinstellingen naar Veilige bijlagen van ATP-beleid voor \>  \> **bedreigingsbeheer,**   klik op Algemene instellingen en controleer of veilige documenten voor **Office-clients** zijn in- of uitschakelen en personen toestaan om door de beveiligde weergave te klikken, zelfs als veilige documenten het bestand als schadelijke instellingen identificeren.
 
-- Voer de volgende opdracht uit in Exchange Online PowerShell en controleer de eigenschapwaarden.
+- Voer de volgende opdracht uit in Exchange Online PowerShell en controleer de eigenschapswaarden:
 
   ```powershell
   Get-AtpPolicyForO365 | Format-List *SafeDocs*
   ```
 
-- De volgende bestanden kunnen worden gebruikt om de beveiliging van veilige documenten te testen. Deze documenten lijken op het EICAR.TXT-bestand voor het testen van anti-malware en anti-virus oplossingen. De bestanden zijn niet schadelijk, maar de bescherming van veilige documenten wordt geactiveerd.
+- De volgende bestanden zijn beschikbaar om de beveiliging van veilige documenten te testen. Deze documenten zijn vergelijkbaar met het EICAR.TXT voor het testen van antivirus- en malwareoplossingen. De bestanden zijn niet schadelijk, maar activeren wel de beveiliging van veilige documenten.
 
   - [SafeDocsDemo.docx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.docx)
   - [SafeDocsDemo.pptx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.pptx)

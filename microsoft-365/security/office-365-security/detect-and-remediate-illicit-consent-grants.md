@@ -1,5 +1,5 @@
 ---
-title: Het detecteren en herstellen van illegale toestemming subsidies
+title: Goedkeuringsgelden voor toestemming voor studenten detecteren en herstellen
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -11,115 +11,119 @@ ms.topic: article
 ms.collection:
 - o365_security_incident_response
 - M365-security-compliance
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Lees hoe u met de illegale toestemming een aanval kunt doorvoeren in Microsoft Office 365.
+description: Meer informatie over het herkennen en herstellen van de toestemming voor de toestemming van microsoft Microsoft Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b534d53166c09cf77993948cf1c448e21c8cd330
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a1c724bb3b201e0ddf1edea4794606c7083605e8
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203093"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165437"
 ---
-# <a name="detect-and-remediate-illicit-consent-grants"></a>Het detecteren en herstellen van illegale toestemming subsidies
+# <a name="detect-and-remediate-illicit-consent-grants"></a>Goedkeuringsgelden voor toestemming voor studenten detecteren en herstellen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-**Overzicht**  Lees hoe u met de illegale toestemming een aanval kunt doorvoeren in Office 365.
+**Overzicht**  Meer informatie over het herkennen en herstellen van de toestemming voor de toestemming van de gebruiker in Office 365.
 
-## <a name="what-is-the-illicit-consent-grant-attack-in-office-365"></a>Wat is de ongeoorloofde toestemming een aanval verlenen in Office 365?
+## <a name="what-is-the-illicit-consent-grant-attack-in-office-365"></a>Wat is de toestemmingsverklaring voor de toestemming om te aanvallen in Office 365?
 
-In een illegale toestemming vermoeden, maakt de aanvaller een Azure-geregistreerde toepassing die toegang vraagt tot gegevens zoals contactgegevens, e-mail of documenten. De kwaadwillende gebruiker leidt vervolgens een uitgebrachte persoon een uitgaand persoon om zijn of haar gegevenstoegang te verlenen via een phishing-aanval, of door het invoeren van illegale code in een vertrouwde website. Nadat aan de illegale toepassing toestemming is verleend, heeft de toepassing toegang tot gegevens op het account niveau zonder dat u een organisatieaccount hoeft te gebruiken. Gangbare herstel stappen, zoals het opnieuw instellen van wachtwoorden voor schendingen of het vereisen van meervoudige verificatie (MFA) voor accounts, zijn niet van toepassing op dit soort aanval, aangezien dit de toepassingen van derden zijn en buiten de organisatie.
+Bij een aanval van toestemming via een toestemmingsverklaring maakt de aanvaller een in Azure geregistreerde toepassing waarin toegang wordt gevraagd tot gegevens, zoals contactgegevens, e-mail of documenten. De aanvaller trucs vervolgens een eindgebruiker om die toepassing toestemming te verlenen voor toegang tot zijn gegevens via een phishing-aanval of door code in te voeren op een vertrouwde website. Nadat aan de aanvraag toestemming is verleend, heeft deze toegang op accountniveau tot gegevens zonder dat een organisatieaccount nodig is. Normale herstelstappen, zoals het opnieuw instellen van wachtwoorden voor niet-geschonden accounts of het vereisen van Multi-Factor Authentication (MFA) voor accounts, zijn niet effectief tegen dit type aanval, omdat dit toepassingen van derden zijn en van buiten de organisatie zijn.
 
-Deze aanvallen profiteren van een interactie model waarbij wordt vermoed dat de persoon die de gegevens oproept, automatisering heeft en niet voor menselijke.
+Deze aanvallen maken gebruik van een interactiemodel dat ervan uit gaat dat de entiteit die de informatie aanroept, automatisering is en geen mens.
 
 > [!IMPORTANT]
-> Vermoedt u dat u problemen ondervindt met een onrechtse instemming-subsidies van een app, nu? Microsoft Cloud app Security (MCAS) bevat hulpmiddelen voor het detecteren, onderzoeken en herstellen van de OAuth-apps. Dit MCAS-artikel bevat een zelfstudie waarmee u kunt nagaan hoe u aan de slag met [riskive OAuth-apps](https://docs.microsoft.com/cloud-app-security/investigate-risky-oauth). U kunt ook [OAuth-app-beleidsregels](https://docs.microsoft.com/cloud-app-security/app-permission-policy) instellen voor het onderzoeken van door de gebruiker gevraagde machtigingen, welke gebruikers worden geautoriseerd voor deze apps en moeten deze machtigingen aanvragen algemeen goedkeuren.
+> Vermoedt u dat u momenteel problemen ondervindt met het verlenen van toestemming via een app? Microsoft Cloud App Security (MCAS) beschikt over hulpprogramma's voor het detecteren, onderzoeken en herstellen van uw OAuth-apps. Dit MCAS-artikel bevat een zelfstudie over het onderzoeken van risicovolle [OAuth-apps.](https://docs.microsoft.com/cloud-app-security/investigate-risky-oauth) U kunt ook [OAuth-appbeleid](https://docs.microsoft.com/cloud-app-security/app-permission-policy) instellen om door de app aangevraagde machtigingen te onderzoeken, welke gebruikers deze apps mogen beheren, en deze machtigingsaanvragen op grote schaal goed te keuren of te verbieden.
 
-## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>Wat biedt een niet-illegale toestemming een aanval zoals in Office 365?
+## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>Hoe ziet een aanval van toestemming voor toestemming er in Office 365 uit?
 
-U moet in het **auditlogboek** zoeken naar tekenen, ook wel indicators van compromis (IOC) van deze aanval. Voor organisaties met veel in azure geregistreerde toepassingen en een grote gebruikersbasis dient u de vergunningen voor uw organisatie op een wekelijkse basis te beoordelen.
+U moet het **auditlogboek** doorzoeken om borden te vinden, ook wel Indicators of Compromise (IOC) van deze aanval genoemd. Voor organisaties met veel in Azure geregistreerde toepassingen en een groot aantal gebruikers is de beste manier om de toestemmingsaanvragen van uw organisatie wekelijks te bekijken.
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>Stappen voor het vinden van tekenen van deze aanval
 
-1. Open het **beveiligings & nalevings centrum** op <https://protection.office.com> .
+1. Open het **& compliancecentrum** <https://protection.office.com> op.
 
-2. Ga naar **zoeken** en selecteer **Zoeken in audit logboek**.
+2. Navigeer **naar Zoeken** en selecteer **Zoeken in auditlogboek.**
 
-3. Zoek (alle activiteiten en alle gebruikers) en voer zo nodig de begin-en einddatum in en klik op **zoeken**.
+3. Zoek (alle activiteiten en alle gebruikers) en voer indien nodig de begin- en einddatum in en klik op **Zoeken.**
 
-4. Klik op **resultaten filteren** en typ instemming met de toepassing in het veld **activiteit** .
+4. Klik **op Resultaten filteren** en geef Toestemming voor de toepassing op in het **veld** Activiteit.
 
-5. Klik op het resultaat om de gegevens van de activiteit te bekijken. Klik op **meer informatie** om meer informatie over de activiteit te vinden. Kijk of IsAdminContent is ingesteld op waar.
+5. Klik op het resultaat om de details van de activiteit te bekijken. Klik **op Meer informatie** voor meer informatie over de activiteit. Controleer of IsAdminContent is ingesteld op Waar.
 
 > [!NOTE]
 >
-> Het duurt maximaal 30 minuten tot 24 uur voordat de bijbehorende auditlogboek vermelding wordt weergegeven in de zoekresultaten nadat een gebeurtenis zich heeft voorgedaan.
+> Het kan 30 minuten tot 24 uur duren voordat de bijbehorende auditlogboekinvoer in de zoekresultaten wordt weergegeven nadat een gebeurtenis is uitgevoerd.
 >
-> De tijdsduur die een audit record behoudt en kan worden doorzocht in het controlelogboek, afhankelijk van uw Microsoft 365-abonnement, en specifiek het type licentie dat is toegewezen aan een specifieke gebruiker. Zie [audit log](../../compliance/search-the-audit-log-in-security-and-compliance.md)voor meer informatie.
+> Hoe lang een auditrecord wordt bewaard en doorzoekbaar is in het auditlogboek, is afhankelijk van uw Microsoft 365-abonnement, en met name van het type licentie dat is toegewezen aan een specifieke gebruiker. Zie Auditlogboek voor [meer informatie.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 >
-> Als deze waarde waar is, is het mogelijk dat iemand met een globale beheerder toegang toegang heeft verleend tot gegevens. Ga als volgt te werk om [een aanval te bevestigen](#how-to-confirm-an-attack).
+> Als deze waarde waar is, betekent dit dat iemand met globale beheerderstoegang algemene toegang tot gegevens heeft verleend. Als dit onverwacht is, kunt u stappen ondernemen om [een aanval te bevestigen.](#how-to-confirm-an-attack)
 
 ## <a name="how-to-confirm-an-attack"></a>Een aanval bevestigen
 
-Als u een of meer exemplaren van de bovenstaande IOCs hebt genoemd, moet u verder onderzoek doen om te bevestigen dat de aanval heeft plaatsgevonden. U kunt een van deze drie methoden gebruiken om de aanval te bevestigen:
+Als u een of meer exemplaren van de bovenstaande IOCs hebt, moet u nader onderzoek doen om te bevestigen dat de aanval heeft plaatsgevonden. U kunt een van deze drie methoden gebruiken om de aanval te bevestigen:
 
-- Inventarisatie toepassingen en hun machtigingen via de Azure Active Directory-Portal. Deze methode is uitgebreid, maar u kunt maar één gebruiker tegelijk controleren, wat veel tijd in beslag kan zijn als u veel gebruikers wilt controleren.
+- Inventaris van toepassingen en hun machtigingen met behulp van de Azure Active Directory-portal. Deze methode is grondig, maar u kunt slechts één gebruiker tegelijk controleren en dit kan erg tijdrovend zijn als er veel gebruikers zijn die u moet controleren.
 
-- Inventarisatie toepassingen en hun machtigingen met behulp van PowerShell. Dit is de snelste en meest uitgebreide methode met het kleinste bedrag van de overhead.
+- Inventaristoepassingen en hun machtigingen met behulp van PowerShell. Dit is de snelste en meest grondige methode, met de minste overhead.
 
-- Laat uw gebruikers hun apps en machtigingen afzonderlijk controleren en rapporteer de resultaten van de beheerders voor herstel.
+- Laat uw gebruikers hun apps en machtigingen afzonderlijk controleren en de resultaten rapporteren aan de beheerders voor herstel.
 
-## <a name="inventory-apps-with-access-in-your-organization"></a>Inventarisatie van apps met toegang in uw organisatie
+## <a name="inventory-apps-with-access-in-your-organization"></a>Inventaris-apps met toegang in uw organisatie
 
-U kunt dit doen voor uw gebruikers met de Azure Active Directory-portal of PowerShell, of als uw gebruikers de toegang tot de toepassing afzonderlijk inventariseren.
+U kunt dit doen voor uw gebruikers met de Azure Active Directory-portal of PowerShell, of uw gebruikers afzonderlijk hun toepassingstoegang laten opspoort.
 
-### <a name="steps-for-using-the-azure-active-directory-portal"></a>Stappen voor het gebruik van de Azure Active Directory-Portal
+### <a name="steps-for-using-the-azure-active-directory-portal"></a>Stappen voor het gebruik van de Azure Active Directory Portal
 
-Met de [Azure Active Directory-Portal](https://portal.azure.com/)kunt u de toepassingen opzoeken waarmee een individuele gebruiker machtigingen heeft verleend.
+U kunt de toepassingen waarvoor elke individuele gebruiker machtigingen heeft verleend op zoeken met behulp van de [Azure Active Directory Portal.](https://portal.azure.com/)
 
-1. Meld u aan bij de Azure-Portal met beheerdersrechten.
+1. Meld u aan bij de Azure Portal met beheerdersrechten.
 
-2. Selecteer het Azure Active Directory-blad.
+2. Selecteer de Azure Active Directory-blade.
 
 3. Selecteer **Gebruikers**.
 
-4. Selecteer de gebruiker die u wilt beoordelen.
+4. Selecteer de gebruiker die u wilt controleren.
 
-5. Selecteer **toepassingen**.
+5. Selecteer **Toepassingen.**
 
-U ziet nu de apps die zijn toegewezen aan de gebruiker en welke machtigingen de toepassingen hebben.
+Hier ziet u de apps die aan de gebruiker zijn toegewezen en welke machtigingen de toepassingen hebben.
 
-### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>Stappen voor het doorvoeren van de toepassing van de gebruikers
+### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>Stappen voor het opsnoemen van de toepassingstoegang door uw gebruikers
 
-Laat uw gebruikers https://myapps.microsoft.com hier hun eigen toepassings toegang gaan raadplegen. De persoon moet alle apps kunnen zien met Access, Details over de apps (waaronder de reikwijdte) kunnen zien en machtigingen kunnen intrekken voor verdachte of ongeoorloofde apps.
+Uw gebruikers daar hun https://myapps.microsoft.com eigen toepassingstoegang laten bekijken. Ze moeten alle apps met toegang kunnen zien, details over de apps kunnen bekijken (inclusief de omvang van de toegang) en de bevoegdheden voor verdachte apps of apps kunnen intrekken.
 
-### <a name="steps-for-doing-this-with-powershell"></a>Stappen om dit te doen met PowerShell
+### <a name="steps-for-doing-this-with-powershell"></a>Stappen hiervoor met PowerShell
 
-De eenvoudigste manier om na te gaan of een aanval moet worden uitgevoerd, is het uitvoeren van [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), waarbij alle OAuth-instemming met uitgaand en OAuth worden gedumpt voor alle gebruikers in uw pacht in één. CSV-bestand.
+De eenvoudigste manier om de aanval van toestemming voor de toestemming voor de volgens de toestemming van de gebruiker te verifiëren, is [ doorGet-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09)uit te voeren, waarmee alle OAuth-toestemmingsgelden en OAuth-apps voor alle gebruikers in uw tenancy in één CSV-bestand worden opgeslagen.
 
 #### <a name="pre-requisites"></a>Vereisten
 
 - De Azure AD PowerShell-bibliotheek is geïnstalleerd.
 
-- Globale beheerdersrechten voor de Tenant waarmee het script wordt uitgevoerd.
+- Globale beheerdersrechten voor de tenant op basis waar het script op wordt uitgevoerd.
 
-- Lokale beheerder op de computer van waaraf de scripts worden uitgevoerd.
+- Lokale beheerder op de computer van waaruit de scripts worden uitgevoerd.
 
 > [!IMPORTANT]
-> U wordt ***ten zeerste aangeraden*** verificatie met meerdere factoren te vereisen voor uw beheerdersaccount. Dit script ondersteunt MFA-verificatie.
+> U ***wordt ten zeerste*** aangeraden meervoudige verificatie voor uw beheeraccount te vereisen. Dit script ondersteunt MFA-verificatie.
 
-1. Meld u aan bij de computer waarop u het script wilt uitvoeren met lokale beheerdersrechten.
+1. Meld u aan bij de computer vanaf waaruit u het script wilt uitvoeren met lokale beheerdersrechten.
 
-2. Download of kopieer het [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) -script van github naar een map waaruit u het script wilt uitvoeren. Dit is de map waarnaar de uitvoer ' permissions.csv ' bestand wordt geschreven.
+2. Download of kopieer het [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) script van GitHub naar een map waarin u het script gaat uitvoeren. Dit is de map waarin het uitvoerbestand 'permissions.csv' wordt geschreven.
 
-3. Open een PowerShell-exemplaar als beheerder en open de map waarin u het script hebt opgeslagen.
+3. Open een PowerShell-exemplaar als beheerder en open het in de map waarin u het script hebt opgeslagen.
 
-4. Maak verbinding met uw adreslijst via de cmdlet [Connect-AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread) .
+4. Maak verbinding met uw adreslijst met behulp [van de cmdlet Connect-AzureAD.](https://docs.microsoft.com/powershell/module/azuread/connect-azuread)
 
 5. Voer deze PowerShell-opdracht uit:
 
@@ -127,44 +131,44 @@ De eenvoudigste manier om na te gaan of een aanval moet worden uitgevoerd, is he
    Get-AzureADPSPermissions.ps1 | Export-csv -Path "Permissions.csv" -NoTypeInformation
    ```
 
-Het script levert één bestand met de naam Permissions.csv op. Voer de volgende stappen uit om te zoeken naar illegale subsidies voor toepassingsmachtigingen:
+Het script produceert één bestand met de naam Permissions.csv. Volg deze stappen om te zoeken naar aanvraagmachtigingen voor studenten:
 
-1. Zoek in de kolom ConsentType (kolom G) de waarde ' AllPrinciples '. Met de machtiging AllPrincipals is de clienttoepassing toegestaan toegang te krijgen tot de inhoud van iedereen in de pacht. Voor ingebouwde Microsoft 365-toepassingen is deze machtiging nodig om goed te werken. Voor elke niet-Microsoft-toepassing waarvan deze machtiging dient te worden gecontroleerd, moet u zorgvuldig doorgaan.
+1. Zoek in de kolom ConsentType (kolom G) naar de waarde 'AllPrinciples'. Met de machtiging AllPrincipals heeft de clienttoepassing toegang tot ieders inhoud in de tenancy. Ineigen Microsoft 365-toepassingen hebben deze machtiging nodig om correct te werken. Elke niet-Microsoft-toepassing met deze machtiging moet zorgvuldig worden gecontroleerd.
 
-2. In de kolom machtiging (kolom F) controleert u de machtigingen die zijn toegewezen aan de inhoud van een gedelegeerde toepassing. Kijk of u de machtiging lezen en schrijven hebt of *. Iedereen, en controleer de machtigingen, omdat ze mogelijk niet correct zijn.
+2. Controleer in de kolom Machtigingen (kolom F) de machtigingen die elke gedelegeerde toepassing heeft voor de inhoud. Zoek naar de machtiging Lezen en Schrijven of '*. Alle machtigingen en controleer deze zorgvuldig omdat ze mogelijk niet geschikt zijn.
 
-3. Bekijk de specifieke gebruikers die zijn gemachtigd. Als uw gebruikers met een hoog profiel of veel impact gebruikers ongepaste machtigingen hebben, moet u verder onderzoek doen.
+3. Bekijk de specifieke gebruikers die toestemming hebben verleend. Als aan gebruikers met een hoge profiel- of hoge impact ongepaste toestemming is verleend, moet u nader onderzoek doen.
 
-4. Zoek in de kolom ClientDisplayName (kolom C) naar apps die verdacht zijn. Apps met onjuist gespelde namen, super saai uitziet namen of hacker-geluids namen moeten zorgvuldig worden gecontroleerd.
+4. Zoek in de kolom ClientDisplayName (kolom C) naar apps die verdacht lijken. Apps met onjuist gespelde namen, superlandnamen of hackergeluidsnamen moeten zorgvuldig worden beoordeeld.
 
-## <a name="determine-the-scope-of-the-attack"></a>Het bereik van de aanval vaststellen
+## <a name="determine-the-scope-of-the-attack"></a>De omvang van de aanval bepalen
 
-Wanneer u klaar bent met de toegang tot de toepassing voor inventarisatie, controleert u het **controlelogboek** om het volledige bereik van de schending te bepalen. Zoek op de desbetreffende gebruikers, de tijd kozijnen dat de illegale toepassing toegang heeft tot uw organisatie en de machtigingen van de app. U kunt zoeken in het **auditlogboek** in het [Microsoft 365-Beveiligingscentrum en compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Nadat u klaar bent met het inventariseren van de toepassingstoegang, bekijkt u het **auditlogboek** om het volledige bereik van de inbreuk te bepalen. Zoek op de betrokken gebruikers, de tijdframes die de toepassing toegang heeft tot uw organisatie en de machtigingen die de app had. U kunt het **auditlogboek doorzoeken** in het [Microsoft 365-beveiligings- en compliancecentrum.](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 > [!IMPORTANT]
-> [Postvak controle](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing) en [activiteiten controle voor beheerders en gebruikers](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off) moeten zijn ingeschakeld voordat u deze informatie ontvangt.
+> [Voor het](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing) [](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off) verkrijgen van deze informatie moet postvakcontrole en activiteitencontrole voor beheerders en gebruikers zijn ingeschakeld vóór de aanval.
 
-## <a name="how-to-stop-and-remediate-an-illicit-consent-grant-attack"></a>Het beëindigen en herstellen van een aanval door illegale toestemming verlenen
+## <a name="how-to-stop-and-remediate-an-illicit-consent-grant-attack"></a>Een aanval van toestemming voor een toestemmingsverklaring stoppen en herstellen
 
-Nadat u hebt vastgesteld dat u een toepassing hebt met de machtiging illegaal, hebt u verschillende manieren om die toegang te verwijderen.
+Nadat u een toepassing met machtigingen voor uitvoering hebt geïdentificeerd, kunt u deze toegang op verschillende manieren verwijderen.
 
-- U kunt de machtiging van de toepassing in de Azure Active Directory-Portal intrekken door:
+- U kunt de machtigingen van de toepassing intrekken in de Azure Active Directory Portal door:
 
-  - Ga naar de desbetreffende gebruiker in de **Azure Active Directory-gebruikers** Blading.
+  - Navigeer naar de betreffende gebruiker in **het Azure Active Directory User** blade.
 
-  - Selecteer **toepassingen**.
+  - Selecteer **Toepassingen.**
 
-  - Selecteer de ongeoorloofde toepassing.
+  - Selecteer de toepassing.
 
-  - Klik op **verwijderen** in het detailniveau.
+  - Klik **op Verwijderen** in het uitzoomen.
 
-- U kunt de OAuth-toestemming verlenen met PowerShell door de stappen te volgen in [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant).
+- U kunt de toestemmingsverlening voor OAuth met PowerShell intrekken door de stappen in [Remove-AzureADOAuth2Permission Wordt ingetrokken.](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant)
 
-- U kunt de toewijzing van de service-app met PowerShell intrekken door de stappen te volgen in [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment).
+- U kunt de toewijzing van de rol van de service-app met PowerShell intrekken door de stappen in [Remove-AzureADServiceAppRoleAssignment te volgen.](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment)
 
-- U kunt de aanmelding voor het desbetreffende account ook uitschakelen, wat wil zeggen dat de app toegang tot gegevens in dat account wordt uitgeschakeld. Dit is niet ideaal voor de productiviteit van de eindgebruiker, uiteraard, maar als u de impact snel wilt beperken, kan dit een levensvatbare herbemiddeling voor korte termijn zijn.
+- U kunt het aanmelden voor het betreffende account ook helemaal uitschakelen, zodat de app geen toegang meer heeft tot gegevens in dat account. Dit is natuurlijk niet ideaal voor de productiviteit van de eindgebruiker, maar als u het effect snel wilt beperken, kan dit een bruikbare herstel op korte termijn zijn.
 
-- U kunt geïntegreerde toepassingen uitschakelen voor uw pacht. Dit is een ingrijpende stap waarmee de mogelijkheid voor eindgebruikers toestemming kan verlenen voor de gehele Tenant. Hiermee voorkomt u dat gebruikers per ongeluk toegang tot een kwaadaardige toepassing verlenen. Dit wordt niet sterk aanbevolen omdat de mogelijkheid van de gebruikers moeilijk te zijn om productief te zijn met toepassingen van derden. U kunt dit doen door de stappen uit te voeren om [geïntegreerde apps in of uit te schakelen](https://docs.microsoft.com/microsoft-365/admin/misc/integrated-apps).
+- U kunt geïntegreerde toepassingen uitschakelen voor uw tenancy. Deze stap is drastisch en betekent dat eindgebruikers niet meer in staat zijn toestemming te verlenen op tenantbasis. Hiermee voorkomt u dat uw gebruikers per ongeluk toegang verlenen tot een schadelijke toepassing. Dit wordt niet sterk aanbevolen, omdat hierdoor de mogelijkheid voor gebruikers om te werken met toepassingen van derden ernstig wordt beperkt. U kunt dit doen door de stappen te volgen voor het in- of uitschakelen [van geïntegreerde apps.](https://docs.microsoft.com/microsoft-365/admin/misc/integrated-apps)
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Microsoft 365 beveiligen als een cybersecurity pro
 
@@ -178,12 +182,12 @@ Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkhe
 
 ## <a name="see-also"></a>Zie ook:
 
-- [Onverwachte aanvraag in de lijst mijn toepassingen](https://docs.microsoft.com/azure/active-directory/application-access-unexpected-application) helpt beheerders bij het maken van verschillende acties die ze kunnen ondernemen na realisatie van onverwachte toepassingen met toegang tot gegevens.
+- [Met een onverwachte toepassing in mijn lijst](https://docs.microsoft.com/azure/active-directory/application-access-unexpected-application) met toepassingen worden beheerders door de diverse acties leiden die ze kunnen uitvoeren nadat ze zich realiseren dat er onverwachte toepassingen zijn met toegang tot gegevens.
 
-- Het [integreren van toepassingen met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-apps-permissions-consent) is een algemeen overzicht van toestemming en machtigingen.
+- [Het integreren van toepassingen met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-apps-permissions-consent) is een uitgebreid overzicht van toestemming en machtigingen.
 
-- [Problemen bij het ontwikkelen van de toepassing](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-development-content-map) biedt koppelingen naar de verschillende artikelen over de instemming.
+- [Problemen bij het ontwikkelen van mijn toepassing](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-development-content-map) bieden koppelingen naar verschillende artikelen met betrekking tot toestemming.
 
-- [Toepassings-en Service-Principal-objecten in azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects) biedt een overzicht van de toepassing en Service-Principal-objecten die Core voor het toepassingsmodel zijn.
+- [Toepassings- en service-principalobjecten in Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects) bieden een overzicht van de Application and Service principal-objecten die belangrijk zijn voor het toepassingsmodel.
 
-- [Toegang tot apps beheren](https://docs.microsoft.com/azure/active-directory/active-directory-managing-access-to-apps) is een overzicht van de functies die beheerders kunnen gebruiken voor het beheren van gebruikers toegang tot apps.
+- [Toegang tot apps](https://docs.microsoft.com/azure/active-directory/active-directory-managing-access-to-apps) beheren is een overzicht van de mogelijkheden die beheerders hebben om de gebruikerstoegang tot apps te beheren.

@@ -1,5 +1,5 @@
 ---
-title: Rollen groepen beheren in EOP
+title: Rollengroepen beheren in EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -8,155 +8,158 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
-description: Beheerders kunnen informatie lezen over het toewijzen of verwijderen van machtigingen in het Exchange-Beheercentrum in Exchange Online Protection.
-ms.openlocfilehash: 4a1353963e5e3eadc1a07f8b4aa3a765b06c86ec
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Beheerders kunnen in Exchange Online Protection leren hoe ze machtigingen toewijzen of verwijderen in het Exchange-beheercentrum (EAC).
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b53023521f477b5e864424ec648ccf7e5b749d0c
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659295"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166985"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>Rollengroepen beheren in standalone EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+-  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
 
-In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, kunt u het Exchange-Beheercentrum (SBV) gebruiken om gebruikers toe te voegen aan rollen groepen. Door een gebruiker toe te voegen aan een rollen groep, krijgt u de gebruikersmachtigingen om specifieke beheertaken uit te voeren. U kunt gebruikers ook verwijderen uit rollen groepen.
+In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken kunt u het Exchange-beheercentrum (EAC) gebruiken om gebruikers toe te voegen aan rollengroepen. Als u een gebruiker toevoegt aan een rollengroep, krijgt de gebruiker machtigingen om specifieke beheertaken uit te voeren. U kunt gebruikers ook verwijderen uit rollengroepen.
 
-Zie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md)voor meer informatie over rollen en rollen groepen.
+Zie Machtigingen in de zelfstandige EOP voor meer informatie over rollen en [rollengroepen.](feature-permissions-in-eop.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Exchange-Beheercentrum door het Exchange- [Beheercentrum in zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
+- Als u het Exchange-beheercentrum (EAC) wilt openen, gaat u naar [het Exchange-beheercentrum in de zelfstandige EOP.](exchange-admin-center-in-exchange-online-protection-eop.md)
 
-- U opent zelfstandige EOP PowerShell via [verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Zie Connect to Exchange Online Protection PowerShell (Verbinding [maken met Exchange Online Protection PowerShell)](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)als u de zelfstandige EOP PowerShell wilt openen.
 
-- U moet machtigingen zijn toegewezen in Exchange Online Protection voordat u de procedures in dit artikel kunt uitvoeren. Specifiek hebt u de rol van **rollenbeheer** nodig die standaard aan de rollen groep **Organisatiebeheer** is toegewezen. Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- U moet machtigingen toegewezen krijgen in Exchange Online Protection voordat u de procedures in dit artikel kunt uitvoeren. U hebt met name **de rol Rollenbeheer** nodig, die standaard is toegewezen aan de rollengroep **Organisatiebeheer.** Zie Machtigingen in zelfstandige EOP en gebruik het [EAC](feature-permissions-in-eop.md) om de lijst met leden [in rollengroepen te wijzigen voor meer informatie.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
-- Zie toetscombinaties [voor het Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over toetscombinaties die van toepassing kunnen zijn op de procedures in dit artikel.
+- Zie Sneltoetsen voor het Exchange-beheercentrum in Exchange Online voor informatie over [sneltoetsen](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)die van toepassing kunnen zijn op de procedures in dit artikel.
 
 > [!TIP]
-> Problemen? Vraag om hulp op het forum van [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
+> Hebt u problemen? Vraag om hulp op het forum [van Exchange Online Protection.](https://go.microsoft.com/fwlink/p/?linkId=285351)
 
-## <a name="use-the-eac-to-manage-role-groups"></a>Het Beheercentrum gebruiken om rollen groepen te beheren
+## <a name="use-the-eac-to-manage-role-groups"></a>Het EAC gebruiken om rollengroepen te beheren
 
-### <a name="use-the-eac-to-view-role-groups"></a>Het Exchange-Beheercentrum gebruiken om rollen groepen weer te geven
+### <a name="use-the-eac-to-view-role-groups"></a>Het EAC gebruiken om rollengroepen weer te geven
 
-1. Ga in het Exchange-Beheercentrum naar **machtigingen** \> **beheerdersrollen**. Alle rollen groepen in uw organisatie worden hier vermeld.
+1. Ga in het Exchange-beheercentrum naar **Beheerdersrollen** \> **voor machtigingen.** Alle rollengroepen in uw organisatie worden hier vermeld.
 
-2. Selecteer een rollen groep. In het deelvenster Details worden de **naam**, de **Beschrijving**, de **toegewezen rollen** en de **beheerde** rollen weergegeven. U kunt deze informatie ook zien door te  klikken op het ![ pictogram bewerken bewerken ](../../media/ITPro-EAC-EditIcon.png) .
+2. Selecteer een rollengroep. Het deelvenster Details bevat **de naam,** **beschrijving,** **toegewezen rollen** en beheerd **door** de rollengroep. U kunt deze informatie ook zien door op het pictogram **Bewerken** ![ te ](../../media/ITPro-EAC-EditIcon.png) klikken.
 
-### <a name="use-the-eac-to-create-role-groups"></a>Gebruik de functie SBV om rollen groepen te maken
+### <a name="use-the-eac-to-create-role-groups"></a>Het EAC gebruiken om rollengroepen te maken
 
-Wanneer u een nieuwe rollen groep maakt, kunt u alle instellingen zelf configureren (tijdens het maken van de groep of na). U kunt ook een bestaande rollen groep kopiëren en deze wijzigen.
+Wanneer u een nieuwe rollengroep maakt, kunt u alle instellingen zelf configureren (tijdens het maken van de groep of er daarna). U kunt ook een bestaande rollengroep kopiëren en wijzigen.
 
-1. Ga in het Exchange-Beheercentrum naar **machtigingen** \> **beheerders** en voer een van de volgende stappen uit:
+1. Ga in het Exchange-beheercentrum naar **beheerdersrollen** voor machtigingen \> en ga op een van de volgende stappen te werk:
 
-   - **Handmatig een nieuwe rollen groep maken**:  Klik op ![ pictogram toevoegen toevoegen ](../../media/ITPro-EAC-AddIcon.png) .
+   - **Maak handmatig een nieuwe rollengroep:** klik op **pictogram** ![ ](../../media/ITPro-EAC-AddIcon.png) Toevoegen.
 
-   - **Een bestaande rolgroep kopiëren**: Selecteer de rollen groep die u wilt kopiëren en klik op het pictogram kopiëren **kopiëren** ![ ](../../media/ITPro-EAC-CopyIcon.png) .
+   - **Een bestaande rollengroep kopiëren:** Selecteer de rollengroep die u wilt kopiëren en klik op **het pictogram** ![ ](../../media/ITPro-EAC-CopyIcon.png) Kopiëren.
 
-2. Configureer de volgende instellingen in het venster **nieuwe rollen groep** dat wordt weergegeven:
+2. Configureer **de volgende instellingen** in het venster Nieuwe rollengroep dat wordt weergegeven:
 
-    - **Naam**: Voer een unieke naam in voor de rolgroep.
+    - **Naam:** voer een unieke naam in voor de rollengroep.
 
-    - **Beschrijving**: Typ een optionele beschrijving voor de rollen groep.
+    - **Beschrijving:** voer een optionele beschrijving in voor de rollengroep.
 
-    - **Rollen** **: Klik op** het ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.png) of **verwijderen** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) Als u de rollen wilt selecteren of wijzigen die zijn toegewezen aan de rollen groep.
+    - **Rollen:** klik op **het pictogram** Toevoegen of verwijderen om de rollen te selecteren of te wijzigen die aan de ![ ](../../media/ITPro-EAC-AddIcon.png)  ![ ](../../media/ITPro-EAC-RemoveIcon.gif) rollengroep zijn toegewezen.
 
-    - **Leden** **: Klik op** ![ het pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.png) of **verwijderen** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) om het lidmaatschap van de rollen groep te wijzigen.
+    - **Leden:** klik op **het pictogram** Toevoegen of het pictogram ![ Verwijderen om het lidmaatschap van de ](../../media/ITPro-EAC-AddIcon.png)  ![ ](../../media/ITPro-EAC-RemoveIcon.gif) rollengroep te wijzigen.
 
-3. Wanneer u klaar bent, klikt u op **Opslaan** om de rollen groep te maken.
+3. Wanneer u klaar bent, klikt u op **Opslaan om** de rollengroep te maken.
 
-### <a name="use-the-eac-to-modify-role-groups"></a>Het Exchange-rollencentrum gebruiken om rollen groepen te wijzigen
+### <a name="use-the-eac-to-modify-role-groups"></a>Het EAC gebruiken om rollengroepen te wijzigen
 
-Ga in het Exchange-Beheercentrum naar **machtigingen voor machtigingen** \> **beheerders**, selecteer de groep rollen die u wilt wijzigen en  klik vervolgens op ![ bewerken ](../../media/ITPro-EAC-EditIcon.png) .
+Ga in het Exchange-beheercentrum naar Rollen **van machtigingenbeheerder,** selecteer de rollengroep die u wilt wijzigen en klik vervolgens op \>  **het pictogram** ![ ](../../media/ITPro-EAC-EditIcon.png) Bewerken.
 
-De opties zijn alleen beschikbaar wanneer u Rolgroepen aanpast wanneer u rollen groepen maakt. U kunt:
+Dezelfde opties zijn beschikbaar wanneer u rollengroepen wijzigt als wanneer u rollengroepen maakt. U kunt:
 
 - Wijzig de naam en beschrijving.
 
-- Beheerrollen toevoegen en verwijderen (rollen toewijzingen maken of verwijderen).
+- Beheerrollen toevoegen en verwijderen (roltoewijzingen maken of verwijderen).
 
 - Leden toevoegen en verwijderen.
 
-**Opmerking**: Sommige rollen groepen (bijvoorbeeld Organisatiebeheer) beperken de rollen die u uit de groep kunt verwijderen.
+**Opmerking:** sommige rollengroepen (bijvoorbeeld Organisatiebeheer) beperken de rollen die u uit de groep kunt verwijderen.
 
-#### <a name="use-the-eac-modify-the-list-of-members-in-role-groups"></a>Werken met de lijst met wijzigingen in de lijst met leden van rollen groepen
+#### <a name="use-the-eac-modify-the-list-of-members-in-role-groups"></a>De lijst met leden in rollengroepen wijzigen met het EAC
 
-1. Ga in het Exchange-Beheercentrum naar **machtigingen** \> **beheerdersrollen**, selecteer de rolgroep die u wilt wijzigen en klik vervolgens op  ![ bewerken ](../../media/ITPro-EAC-EditIcon.png) .
+1. Ga in het Exchange-beheercentrum naar Beheerdersrollen voor machtigingen, selecteer de rollengroep die u wilt wijzigen en klik op  het pictogram \>   ![ ](../../media/ITPro-EAC-EditIcon.png) Bewerken.
 
-2. Ga op een van de volgende manieren te werk in de sectie **leden** op de pagina eigenschappen van rollen groep:
+2. Ga op een van de volgende  stappen te werk op de pagina eigenschappen van rollengroep die wordt geopend in de sectie Leden:
 
-   - Klik **op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.png) . Zoek op de pagina die wordt weergegeven de gebruiker die wou wilt toevoegen en klik vervolgens op **add->**. Selecteer gebruikers en klik zo nodig op **>** vaak. Wanneer u klaar bent, klikt u op **OK**.
+   - Klik **op pictogram** ![ ](../../media/ITPro-EAC-AddIcon.png) Toevoegen. Zoek op de pagina die wordt weergegeven de gebruiker die u wilt toevoegen en klik op **->.** Selecteer gebruikers en klik **zo vaak** >op Toevoegen. Klik op OK wanneer u **klaar bent.**
 
-   - Selecteer de gebruikers die u **wilt verwijderen en klik op het** ![ pictogram verwijderen ](../../media/ITPro-EAC-RemoveIcon.gif) .
+   - Selecteer de gebruikers die u wilt verwijderen en klik op **het pictogram** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) Verwijderen.
 
 3. Klik op **Opslaan** wanneer u gereed bent.
 
    > [!NOTE]
-   > Gebruikers moeten zich mogelijk afmelden en opnieuw aanmelden om de wijziging in de beheerdersbevoegdheid te zien nadat u leden toevoegt of verwijdert uit de rolgroep.
+   > Gebruikers moeten zich mogelijk afloggen en opnieuw aanmelden om de wijziging in hun beheerdersrechten te zien nadat u leden hebt toevoegt aan of verwijderd uit de rollengroep.
 
-### <a name="use-the-eac-to-remove-role-groups"></a>De rollen groepen verwijderen via het Exchange-Beheercentrum
+### <a name="use-the-eac-to-remove-role-groups"></a>Het EAC gebruiken om rollengroepen te verwijderen
 
-U kunt ingebouwde rollen groepen niet verwijderen, maar u kunt wel aangepaste Rolgroepen verwijderen die u hebt gemaakt.
+U kunt ingebouwde rollengroepen niet verwijderen, maar u kunt wel aangepaste rollengroepen verwijderen die u hebt gemaakt.
 
-1. Ga in het Exchange-Beheercentrum naar **machtigingen** \> **beheerdersrollen**.
+1. Ga in het Exchange-beheercentrum naar **Beheerdersrollen** \> **voor machtigingen.**
 
-2. Selecteer de rollen groep die u wilt verwijderen en **Klik op** ![ verwijderen ](../../media/ITPro-EAC-DeleteIcon.png) .
+2. Selecteer de rollengroep die u wilt verwijderen en klik op **het pictogram** ![ ](../../media/ITPro-EAC-DeleteIcon.png) Verwijderen.
 
-3. Klik op **Ja** in het bevestigingsvenster dat wordt weergegeven.
+3. Klik **op Ja** in het bevestigingsvenster dat wordt weergegeven.
 
-## <a name="use-powershell-to-manage-role-groups"></a>PowerShell gebruiken om rollen groepen te beheren
+## <a name="use-powershell-to-manage-role-groups"></a>PowerShell gebruiken om rollengroepen te beheren
 
-### <a name="use-standalone-eop-powershell-to-view-role-groups"></a>Standalone EOP PowerShell gebruiken om rollen groepen weer te geven
+### <a name="use-standalone-eop-powershell-to-view-role-groups"></a>Zelfstandige EOP PowerShell gebruiken om rollengroepen weer te geven
 
-Gebruik de volgende syntaxis om een rollen groep weer te geven:
+Gebruik de volgende syntaxis om een rollengroep weer te geven:
 
 ```PowerShell
 Get-RoleGroup [-Identity "<Role Group Name>"] [-Filter <Filter>]
 ```
 
-In dit voorbeeld wordt een overzichtslijst met alle rollen groepen geretourneerd.
+In dit voorbeeld wordt een overzichtslijst van alle rollengroepen weergegeven.
 
 ```PowerShell
 Get-RoleGroup
 ```
 
-In dit voorbeeld wordt gedetailleerde informatie geretourneerd voor de rollen groep met de naam beheerders van de beheerder.
+In dit voorbeeld wordt gedetailleerde informatie gegeven over de rollengroep met de naam Ontvangersbeheerders.
 
 ```PowerShell
 Get-RoleGroup -Identity "Recipient Administrators" | Format-List
 ```
 
-In het volgende voorbeeld worden alle rollen groepen opgevraagd waarvan de gebruiker Julia lid is. U moet de DN-waarde (Distinguished Name) gebruiken voor Julia, die u kunt vinden door de opdracht uit te voeren: `Get-User -Identity Julia | Format-List DistinguishedName` .
+In dit voorbeeld worden alle rollengroepen als retourneert waarbij de gebruiker Julia lid is. U moet de DN-waarde (DistinguishedName) voor Julia gebruiken, die u kunt vinden door de opdracht uit te `Get-User -Identity Julia | Format-List DistinguishedName` voeren:
 
 ```PowerShell
 Get-RoleGroup -Filter "Members -eq 'CN=Julia,OU=contoso.onmicrosoft.com,OU=Microsoft Exchange Hosted Organizations,DC=NAMPR001,DC=PROD,DC=OUTLOOK,DC=COM'"
 ```
 
-Zie [Get-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroup)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Get-RoleGroup voor gedetailleerde syntaxis- en parameterinformatie.](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroup)
 
-### <a name="use-standalone-eop-powershell-to-create-role-groups"></a>Standalone EOP PowerShell gebruiken om rollen groepen te maken
+### <a name="use-standalone-eop-powershell-to-create-role-groups"></a>Zelfstandige EOP PowerShell gebruiken om rollengroepen te maken
 
-Wanneer u een nieuwe rollen groep maakt, kunt u alle instellingen handmatig configureren (tijdens het maken van de groep of na). U kunt ook een bestaande rollen groep kopiëren en deze wijzigen.
+Wanneer u een nieuwe rollengroep maakt, kunt u alle instellingen handmatig configureren (tijdens het maken van de groep of er waarna). U kunt ook een bestaande rollengroep kopiëren en wijzigen.
 
-- Als u handmatig een nieuwe rollen groep wilt maken, gebruikt u de volgende syntaxis:
+- Gebruik de volgende syntaxis om handmatig een nieuwe rollengroep te maken:
 
   ```PowerShell
   New-RoleGroup -Name "Unique Name" -Description "Descriptive text" -Roles <"Role1","Role2"...>
   ```
 
-  - Met de parameter _roles_ worden de management rollen opgegeven die aan de rollen groep moeten worden toegewezen met behulp van de volgende syntaxis `"Role1","Role1",..."RoleN"` . U kunt de beschikbare rollen zien met behulp van de cmdlet **Get-ManagementRole** .
+  - Met de parameter _Rollen_ worden de beheerrollen opgegeven die moeten worden toegewezen aan de rollengroep met behulp van de volgende `"Role1","Role1",..."RoleN"` syntaxis. U kunt de beschikbare rollen zien met behulp van de cmdlet **Get-ManagementRole.**
 
-  - Met de parameter parameters worden de leden van de rollen groep opgegeven met behulp _van de volgende_ syntaxis: `"Member1","Member2",..."MemberN"` . U kunt gebruikers opgeven, universele beveiligingsgroepen voor e-mail (USGs) of andere Rolgroepen (beveiligings-principals).
+  - Met _de_ parameter Leden worden de leden van de rollengroep opgegeven met behulp van de volgende `"Member1","Member2",..."MemberN"` syntaxis: U kunt gebruikers, usgs (mail-enabled universal security groups) of andere rollengroepen (security principals) opgeven.
 
-  In dit voorbeeld wordt een nieuwe rollen groep met de naam ' beperkte ontvanger beheer ' gemaakt met de volgende instellingen:
+  In dit voorbeeld wordt een nieuwe rollengroep met de naam Beperkt beheer van geadresseerden gemaakt met de volgende instellingen:
 
-  - De rol van e-mail geadresseerden is toegewezen aan de groep rollen.
+  - De rol E-mailontvangers wordt toegewezen aan de rollengroep.
 
   - De gebruikers Kim en Martin worden toegevoegd als leden.
 
@@ -164,86 +167,86 @@ Wanneer u een nieuwe rollen groep maakt, kunt u alle instellingen handmatig conf
   New-RoleGroup -Name "Limited Recipient Management" -Roles "Mail Recipients" -Members "Kim","Martin"
   ```
 
-- Voer de volgende stappen uit om een bestaande rollen groep te kopiëren:
+- Ga als volgt te werk om een bestaande rollengroep te kopiëren:
 
-  1. Sla de rollen groep op die u in een variabele wilt kopiëren met behulp van de volgende syntaxis:
+  1. Sla de rollengroep die u wilt kopiëren op in een variabele met behulp van de volgende syntaxis:
 
      ```PowerShell
      $RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
      ```
 
-  2. Maak als volgt de nieuwe rollen groep met de volgende syntaxis:
+  2. Maak de nieuwe rollengroep met behulp van de volgende syntaxis:
 
      ```PowerShell
      New-RoleGroup -Name "<Unique Name>" -Roles $RoleGroup.Roles [-Members <Members>]
      ```
 
-     Met de parameter parameters worden de leden van de rollen groep opgegeven met behulp _van de volgende_ syntaxis: `"Member1","Member2",..."MemberN"` . U kunt gebruikers opgeven, universele beveiligingsgroepen voor e-mail (USGs) of andere Rolgroepen (beveiligings-principals).
+     Met _de_ parameter Leden worden de leden van de rollengroep opgegeven met behulp van de volgende `"Member1","Member2",..."MemberN"` syntaxis: U kunt gebruikers, usgs (mail-enabled universal security groups) of andere rollengroepen (security principals) opgeven.
 
-     In dit voorbeeld wordt de rollen groep Organisatiebeheer naar de nieuwe rollen groep met de naam ' beperkte Organisatiebeheer ' gekopieerd. De leden van de rollen groep zijn Isabelle, Carter en Lukas.
+     In dit voorbeeld wordt de rollengroep Organisatiebeheer gekopieerd naar de nieuwe rollengroep genaamd Beperkt organisatiebeheer. De leden van de rollengroep zijn Aek, Deze en Lukas.
 
      ```PowerShell
      $RoleGroup = Get-RoleGroup "Organization Management"
      New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members "Isabelle","Carter","Lukas"
      ```
 
-Voor gedetailleerde syntaxis-en parameterinformatie, [New-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/New-RoleGroup).
+Voor gedetailleerde syntaxis- en parameterinformatie, [New-RoleGroup.](https://docs.microsoft.com/powershell/module/exchange/New-RoleGroup)
 
-### <a name="use-standalone-eop-powershell-modify-the-list-of-members-in-role-groups"></a>Standalone EOP PowerShell gebruiken de lijst met leden in rollen groepen wijzigen
+### <a name="use-standalone-eop-powershell-modify-the-list-of-members-in-role-groups"></a>De lijst met leden in rollengroepen wijzigen met zelfstandige EOP PowerShell
 
-- Met de cmdlet **add-RoleGroupMember** en **Remove-RoleGroupMember** worden afzonderlijke leden één voor één toegevoegd of verwijderd. Met de cmdlet **Update-RoleGroupMember** kunt u de bestaande lijst met leden vervangen of wijzigen.
+- Met de cmdlets **Add-RoleGroupMember** en **Remove-RoleGroupMember** kunt u afzonderlijke leden een voor een toevoegen of verwijderen. De **cmdlet Update-RoleGroupMember** kan de bestaande lijst met leden vervangen of wijzigen.
 
-- De leden van een rollen groep kunnen gebruikers zijn, universele beveiligingsgroepen voor e-mail (USGs) of andere rollen groepen (beveiligings-principals).
+- De leden van een rollengroep kunnen gebruikers, USG's (Mail-enabled Universal Security Groups) of andere rollengroepen (security principals) zijn.
 
-Gebruik de volgende syntaxis om de leden van een rollen groep te wijzigen:
+Gebruik de volgende syntaxis om de leden van een rollengroep te wijzigen:
 
 ```PowerShell
 Update-RoleGroupMember -Identity "<Role Group Name>" -Members <Members>
 ```
 
-- Als u de bestaande lijst met leden wilt _vervangen_ door de waarden die u opgeeft, gebruikt u de volgende syntaxis: `"Member1","Member2",..."MemberN"` .
+- Gebruik _de_ volgende syntaxis om de bestaande lijst met leden te vervangen door de waarden die u opgeeft: `"Member1","Member2",..."MemberN"`
 
-- Als u de bestaande lijst met leden _selectief wilt wijzigen_ , gebruikt u de volgende syntaxis: `@{Add="Member1","Member2"...; Remove="Member3","Member4"...}` .
+- Gebruik _de volgende_ syntaxis om de bestaande lijst met leden selectief te wijzigen: `@{Add="Member1","Member2"...; Remove="Member3","Member4"...}`
 
-In dit voorbeeld worden alle huidige leden van de rollen groep Help Desk vervangen door de opgegeven gebruikers.
+In dit voorbeeld worden alle huidige leden van de rollengroep Helpdesk vervangen door de opgegeven gebruikers.
 
 ```PowerShell
 Update-RoleGroupMember -Identity "Help Desk" -Members "Gabriela Laureano","Hyun-Ae Rim","Jacob Berger"
 ```
 
-In dit voorbeeld wordt Daigoro Akai toegevoegd en wordt Valeria Barrio verwijderd uit de lijst met leden van de rollen groep van de Help Desk.
+In dit voorbeeld wordt Daigoro Akai toegevoegd en wordt Erdodo verwijderd uit de lijst met leden van de rollengroep Helpdesk.
 
 ```PowerShell
 Update-RoleGroupMember -Identity "Help Desk" -Members @{Add="Daigoro Akai"; Remove="Valeria Barrios"}
 ```
 
-Zie [Update-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Update-RoleGroupMember)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Update-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Update-RoleGroupMember)voor gedetailleerde syntaxis- en parameterinformatie.
 
-### <a name="use-standalone-eop-powershell-to-remove-role-groups"></a>Standalone EOP PowerShell gebruiken om rollen groepen te verwijderen
+### <a name="use-standalone-eop-powershell-to-remove-role-groups"></a>Zelfstandige EOP PowerShell gebruiken om rollengroepen te verwijderen
 
-U kunt ingebouwde rollen groepen niet verwijderen, maar u kunt wel aangepaste Rolgroepen verwijderen die u hebt gemaakt.
+U kunt ingebouwde rollengroepen niet verwijderen, maar u kunt wel aangepaste rollengroepen verwijderen die u hebt gemaakt.
 
-Als u een aangepaste rollen groep wilt verwijderen, gebruikt u de volgende syntaxis:
+Gebruik de volgende syntaxis om een aangepaste rollengroep te verwijderen:
 
 ```PowerShell
 Remove-RoleGroup -Identity "<Role Group Name>" [-BypassSecurityGroupManagerCheck]
 ```
 
-In dit voorbeeld wordt de rollen groep training beheerders verwijderd.
+In dit voorbeeld wordt de rollengroep Trainingsbeheerders verwijderd.
 
 ```PowerShell
 Remove-RoleGroup -Identity "Training Administrators"
 ```
 
-Zie [Remove-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/Remove-RoleGroup)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Remove-RoleGroup voor gedetailleerde syntaxis- en parameterinformatie.](https://docs.microsoft.com/powershell/module/exchange/Remove-RoleGroup)
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
-Voer een van de volgende stappen uit om te controleren of u een rollen groep hebt gekopieerd:
+Ga op een van de volgende stappen te werk om te controleren of u een rollengroep hebt gekopieerd:
 
-- Ga in het Exchange-Beheercentrum naar **machtigingen** \> **beheerders** en controleer of de rollen groep wel of niet wordt weergegeven. Selecteer de groep rollen, Controleer de instellingen in het detailvenster of klik op  ![ bewerkingspictogram bewerken ](../../media/ITPro-EAC-EditIcon.png) om de instellingen te controleren.
+- Ga in het Exchange-beheercentrum naar Beheerdersrollen voor machtigingen en controleer of de rollengroep wordt vermeld  \> (of niet wordt weergegeven). Selecteer de rollengroep en controleer de instellingen  in het deelvenster Details of klik op het pictogram ![ Bewerken om de instellingen te ](../../media/ITPro-EAC-EditIcon.png) controleren.
 
-- In Exchange Online PowerShell vervangt u \<Role Group Name\> de naam van de rolgroep en voert u de volgende opdracht uit om te controleren of de rollen groep bestaat (of niet bestaat) en controleert u de instellingen:
+- Vervang in Exchange Online PowerShell door de naam van de rollengroep en voer de volgende opdracht uit om te controleren of de rollengroep bestaat (of bestaat niet) en controleer de \<Role Group Name\> instellingen:
 
     ```PowerShell
     Get-RoleGroup -Identity "<Role Group Name>" | Format-List

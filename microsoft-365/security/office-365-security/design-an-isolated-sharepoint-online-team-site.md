@@ -8,7 +8,6 @@ manager: laurawi
 ms.date: 12/15/2017
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,133 +16,139 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
-description: U kunt geïsoleerde, geïsoleerde SharePoint Online-team sites ontwerpen, waaronder machtigingsniveaus bepalen, machtigingen toewijzen aan gebruikers met toegangsgroepen en geneste Azure AD-groepen.
-ms.openlocfilehash: 035952c1921443d86602eb94e3965acee86ae3e8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Afzonderlijke SharePoint Online-teamsites ontwerpen, waaronder machtigingsniveaus bepalen, machtigingen toewijzen aan gebruikers met toegangsgroepen en geneste Azure AD-groepen.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: f0f92a925948dbf6c8c5c1beb6b9c709f508c4b3
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203117"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165509"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite ontwerpen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
- **Overzicht:** Stap voor stap door het ontwerpproces voor geïsoleerde SharePoint Online-team sites.
 
-In dit artikel wordt u stapsgewijs begeleid bij het maken van een geïsoleerde ontwerp site van SharePoint Online.
+ **Overzicht:** Stap door het ontwerpproces voor afzonderlijke SharePoint Online-teamsites.
 
-## <a name="phase-1-determine-your-sharepoint-groups-and-permission-levels"></a>Fase 1: uw SharePoint-groepen en machtigingsniveaus bepalen
+In dit artikel worden de belangrijkste ontwerpbeslissingen genomen die u moet nemen voordat u een afzonderlijke SharePoint Online-teamsite maakt.
 
-Elke SharePoint Online-team site wordt standaard gemaakt met de volgende SharePoint-groepen:
+## <a name="phase-1-determine-your-sharepoint-groups-and-permission-levels"></a>Fase 1: Uw SharePoint-groepen en machtigingsniveaus bepalen
+
+Elke SharePoint Online-teamsite wordt standaard gemaakt met de volgende SharePoint-groepen:
 
 - \<site name> Leden
 
-- \<site name> Plaatst
+- \<site name> Bezoekers
 
-- \<site name> Sites
+- \<site name> Eigenaren
 
-Deze groepen zijn gescheiden van de groepen Microsoft 365 en Azure Active Directory (AD) en vormen de basis voor het toewijzen van machtigingen voor de bronnen van de site.
+Deze groepen staan los van Microsoft 365- en Azure Active Directory-groepen (AD) en vormen de basis voor het toewijzen van machtigingen voor de bronnen van de site.
 
-De set specifieke machtigingen waarmee wordt bepaald wat een lid van een SharePoint-groep in een site kan doen, is een machtigingsniveau. Een SharePoint Online-team site bevat standaard drie machtigingsniveaus: bewerken, lezen en volledig beheer. In de volgende tabel wordt de standaard correlatie van SharePoint-groepen en de toegewezen machtigingsniveaus weergegeven:
+De set specifieke machtigingen die bepaalt wat een lid van een SharePoint-groep op een site kan doen, is een machtigingsniveau. Er zijn standaard drie machtigingsniveaus voor een SharePoint Online-teamsite: Bewerken, Lezen en Volledig beheer. In de volgende tabel ziet u de standaard correlatie van SharePoint-groepen en toegewezen machtigingsniveaus:
 
 ****
 
 |SharePoint-groep|Machtigingsniveau|
 |---|---|
 |\<site name> Leden|Bewerken|
-|\<site name> Plaatst|Lezen|
-|\<site name> Sites|Volledig beheer|
+|\<site name> Bezoekers|Lezen|
+|\<site name> Eigenaren|Volledig beheer|
 |
 
- **Aanbevolen procedure:** U kunt extra SharePoint-groepen en machtigingsniveaus maken. We raden u echter aan gebruik te maken van de standaardshare Point-groepen en machtigingsniveaus voor de geïsoleerde SharePoint Online-site.
+ **Best practice:** U kunt extra SharePoint-groepen en machtigingsniveaus maken. U wordt echter aangeraden de standaardgroepen en machtigingsniveaus van SharePoint te gebruiken voor uw afzonderlijke SharePoint Online-site.
 
-Hier volgen de standaardshare Point-groepen en machtigingsniveaus.
+Dit zijn de sharePoint-standaardgroepen en -machtigingsniveaus.
 
-![De standaardshare Point-groepen en machtigingsniveaus voor een SharePoint Online-site.](../../media/3f892ab4-6479-42f0-a505-1ba0ef94b9c6.png)
+![De sharePoint-standaardgroepen en -machtigingsniveaus voor een SharePoint Online-site.](../../media/3f892ab4-6479-42f0-a505-1ba0ef94b9c6.png)
 
-## <a name="phase-2-assign-permissions-to-users-with-access-groups"></a>Fase 2: machtigingen toewijzen aan gebruikers met toegangsgroepen
+## <a name="phase-2-assign-permissions-to-users-with-access-groups"></a>Fase 2: Machtigingen toewijzen aan gebruikers met toegangsgroepen
 
-U kunt machtigingen toewijzen aan gebruikers door hun gebruikersaccount toe te voegen of een Microsoft 365-of Azure AD-groep waarvan het gebruikersaccount lid is van de SharePoint-groepen. Wanneer u eenmaal hebt toegevoegd, worden de gebruikersaccounts direct of indirect via lidmaatschap van een groep van Microsoft 365 of Azure AD toegewezen aan het machtigingsniveau dat is gekoppeld aan de SharePoint-groep.
+U kunt machtigingen toewijzen aan gebruikers door hun gebruikersaccount of een Microsoft 365- of Azure AD-groep waarvan het gebruikersaccount lid is, toe te voegen aan de SharePoint-groepen. Nadat ze zijn toegevoegd, wordt aan de gebruikersaccounts, direct of indirect via lidmaatschap in een Microsoft 365- of Azure AD-groep, het machtigingsniveau toegewezen dat is gekoppeld aan de SharePoint-groep.
 
-Het gebruik van de standaardshare Point-groepen als voorbeeld:
+De standaard SharePoint-groepen als voorbeeld gebruiken:
 
-- Leden van de SharePoint-groep ** \<site name> leden** , die beide gebruikersaccounts en groepen kunnen bevatten, krijgen het machtigingsniveau **bewerken**
+- Leden van **\<site name> de** SharePoint-groep Leden, die zowel gebruikersaccounts als groepen kan bevatten, krijgen het **machtigingsniveau** Bewerken toegewezen
 
-- Leden van de SharePoint-groep ** \<site name> bezoekers** , die zowel gebruikersaccounts als groepen kunnen bevatten, hebben het machtigingsniveau **lezen** toegewezen
+- Leden van **\<site name> de** SharePoint-groep Bezoekers, die zowel gebruikersaccounts als groepen kan bevatten, krijgen het **machtigingsniveau** Lezen
 
-- Leden van de SharePoint-groep ** \<site name> eigenaren** , waaronder gebruikersaccounts en groepen, kunnen het machtigingsniveau **volledig beheer** hebben.
+- Leden van **\<site name> de** SharePoint-groep Eigenaren, die zowel gebruikersaccounts  als groepen kan bevatten, krijgen het machtigingsniveau Volledig beheer
 
- **Aanbevolen procedure:** Hoewel u machtigingen kunt beheren via afzonderlijke gebruikersaccounts, kunt u het beste één Azure AD-groep gebruiken, ook wel een Access-groep genoemd. Dit vergemakkelijkt het beheer van machtigingen door lidmaatschap van de Access-groep, in plaats van de lijst met gebruikersaccounts voor elke SharePoint-groep te beheren.
+ **Best practice:** Hoewel u machtigingen kunt beheren via afzonderlijke gebruikersaccounts, raden we u aan slechts één Azure AD-groep, ook wel een toegangsgroep genoemd, te gebruiken. Dit vereenvoudigt het beheer van machtigingen via lidmaatschap van de toegangsgroep in plaats van de lijst met gebruikersaccounts voor elke SharePoint-groep te beheren.
 
-Azure AD-groepen voor Microsoft 365 zijn verschillend tha Microsoft 365 groepen. Azure AD-groepen worden weergegeven in het Microsoft 365-Beheercentrum, waarbij hun **type** is ingesteld op **beveiliging** en geen e-mailadres heeft. Azure AD-groepen kunnen worden beheerd binnen:
+Azure AD-groepen voor Microsoft 365 verschillen van de Microsoft 365-groepen. Azure AD-groepen worden weergegeven in het Microsoft 365-beheercentrum met hun **Type** ingesteld op Beveiliging en hebben geen e-mailadres.  Azure AD-groepen kunnen worden beheerd binnen:
 
 - Active Directory Domain Services (AD DS)
 
-    Dit zijn groepen die zijn gemaakt in uw on-premises AD DS-infrastructuur en die zijn gesynchroniseerd met uw Microsoft 365-abonnement. In het Microsoft 365-Beheercentrum hebben deze groepen **Status** de status **gesynchroniseerd met Active Directory**.
+    Dit zijn groepen die zijn gemaakt in uw on-premises AD DS-infrastructuur en zijn gesynchroniseerd met uw Microsoft 365-abonnement. In het Microsoft 365-beheercentrum hebben deze groepen de **status** **Gesynchroniseerd met active directory.**
 
 - Office 365
 
-    Dit zijn groepen die zijn gemaakt met het Microsoft 365-Beheercentrum, de Azure-portal of Microsoft PowerShell. In het Microsoft 365-Beheercentrum hebben deze groepen **Status** de status **Cloud**.
+    Dit zijn groepen die zijn gemaakt met behulp van het Microsoft 365-beheercentrum, de Azure Portal of Microsoft PowerShell. In het Microsoft 365-beheercentrum hebben deze groepen de **status** **Cloud.**
 
- **Aanbevolen procedure:** Als u AD DS on-premises gebruikt en synchroniseert met uw Microsoft 365-abonnement, voert u uw gebruikers-en groepsbeheer met AD DS uit.
+ **Best practice:** Als u AD DS on-premises gebruikt en synchroniseert met uw Microsoft 365-abonnement, voert u het beheer van gebruikers en groepen uit met AD DS.
 
-Voor geïsoleerde SharePoint Online-team sites ziet de aanbevolen groepsstructuur er als volgt uit:
+Voor afzonderlijke SharePoint Online-teamsites ziet de aanbevolen groepsstructuur er als volgende uit:
 
 ****
 
-|SharePoint-groep|Azure AD-basis toegangsgroep|Machtigingsniveau|
+|SharePoint-groep|Toegangsgroep op basis van Azure AD|Machtigingsniveau|
 |---|---|---|
 |\<site name> Leden|\<site name> Leden|Bewerken|
-|\<site name> Plaatst|\<site name> Mensen|Lezen|
-|\<site name> Sites|\<site name> Beheerders|Volledig beheer|
+|\<site name> Bezoekers|\<site name> Kijkers|Lezen|
+|\<site name> Eigenaren|\<site name> Beheerders|Volledig beheer|
 |
 
- **Aanbevolen procedure:** Hoewel u Microsoft 365 of een Azure AD-groep als lid van SharePoint-groepen kunt gebruiken, kunt u het beste gebruikmaken van Azure AD-groepen. Azure AD-groepen die worden beheerd via de AD DS of Microsoft 365, bieden u meer flexibiliteit bij het toewijzen van geneste groepen aan machtigingen.
+ **Best practice:** Hoewel u Microsoft 365- of Azure AD-groepen kunt gebruiken als leden van SharePoint-groepen, raden we u aan Azure AD-groepen te gebruiken. Azure AD-groepen, beheerd via AD DS of Microsoft 365, bieden u meer flexibiliteit bij het gebruik van geneste groepen om machtigingen toe te wijzen.
 
-Hier volgen de standaardshare Point-groepen die zijn geconfigureerd voor het gebruik van Azure AD-gebaseerde toegangsgroepen.
+Hier zijn de standaard SharePoint-groepen die zijn geconfigureerd voor toegangsgroepen op basis van Azure AD.
 
-![Toegangsgroepen gebruiken als leden van standaardsitegroepen van SharePoint Online.](../../media/50a76328-ae69-483e-9029-ac4e7357b5ef.png)
+![Toegangsgroepen gebruiken als leden van standaard SharePoint Online-sitegroepen.](../../media/50a76328-ae69-483e-9029-ac4e7357b5ef.png)
 
 Houd bij het ontwerpen van de drie toegangsgroepen rekening met het volgende:
 
-- U moet slechts enkele leden in de groep ** \<site name> beheerders** toegang hebben, dat overeenkomt met een klein aantal beheerders van SharePoint Online dat de team site beheert.
+- De **\<site name> toegangsgroep** Beheerders moet slechts een paar leden hebben, die betrekking hebben op een klein aantal SharePoint Online-beheerders die de teamsite beheren.
 
-- De meeste van de siteleden bevinden zich in de groepen ** \<site name> leden** en ** \<site name> kijkers** . Aangezien siteleden in de groep ** \<site name> leden** toegang de mogelijkheid hebben om bronnen op de site te verwijderen of te wijzigen, is het belangrijk om rekening te houden met het lidmaatschap. Wanneer u twijfelt, voegt u de site lid toe aan de groep ** \<site name> gebruikers** toegang.
+- De meeste leden van uw site maken deel uit van de **\<site name> groepen Leden** **\<site name> of Viewers.** Omdat siteleden in de **\<site name> groep Leden** toegang hebben tot de mogelijkheid resources op de site te verwijderen of te wijzigen, moet u zorgvuldig rekening houden met het lidmaatschap van de groep. Als u twijfelt, voegt u het sitelid toe aan de **\<site name> toegangsgroep Viewers.**
 
-Hier ziet u een voorbeeld van de SharePoint-groepen en toegangsgroepen voor een afzonderlijke site met de naam Projectx.
+Hier volgen een voorbeeld van de SharePoint-groepen en toegangsgroepen voor een afzonderlijke site met de naam ProjectX.
 
-![Een voorbeeld van het gebruik van toegangsgroepen voor een SharePoint Online-site met de naam Projectx.](../../media/13afe542-9ffd-4671-9f48-210a0e2a502a.png)
+![Een voorbeeld van het gebruik van toegangsgroepen voor een SharePoint Online-site met de naam ProjectX.](../../media/13afe542-9ffd-4671-9f48-210a0e2a502a.png)
 
-## <a name="phase-3-use-nested-azure-ad-groups"></a>Fase 3: geneste Azure AD-groepen gebruiken
+## <a name="phase-3-use-nested-azure-ad-groups"></a>Fase 3: Geneste Azure AD-groepen gebruiken
 
-Voor een project dat is afgestemd op een klein aantal personen, passen de meeste scenario's in één niveau van Azure AD-based Access-groepen die aan de SharePoint-groepen van de site zijn toegevoegd. Als u echter een groot aantal personen hebt en deze personen al deel uitmaken van de gevestigde Azure AD-groepen, kunt u eenvoudiger SharePoint-machtigingen toewijzen met geneste groepen of groepen die andere groepen als leden hebben.
+Voor een project dat wordt beperkt tot een klein aantal personen, past één niveau van op Azure AD gebaseerde toegangsgroepen die zijn toegevoegd aan de SharePoint-groepen van de site, in de meeste scenario's. Als u echter een groot aantal personen hebt en die personen al lid zijn van bestaande Azure AD-groepen, kunt u gemakkelijker SharePoint-machtigingen toewijzen met behulp van geneste groepen of groepen die andere groepen als leden bevatten.
 
-U wilt bijvoorbeeld een geïsoleerde SharePoint Online-team site maken voor samenwerking tussen de leidinggevenden van de afdelingen voor verkoop, marketing, engineering, juridisch en ondersteunings afdelingen en van deze afdelingen al hun eigen groepen met lidmaatschap van het account van de beheerder. In plaats van een nieuwe groep te maken voor de nieuwe siteleden en alle afzonderlijke gebruikersaccounts voor de beheerder in de groep te plaatsen, moet u de bestaande Executive groepen voor elke afdeling in de nieuwe groep.
+U wilt bijvoorbeeld een afzonderlijke SharePoint Online-teamsite maken om samen te werken tussen de leidinggevenden van de afdelingen Verkoop, Marketing, Engineering, Legal en Support, en die afdelingen hebben al hun eigen groepen met het lidmaatschap van een executive gebruikersaccount. In plaats van een nieuwe groep te maken voor de nieuwe siteleden en alle afzonderlijke gebruikersaccounts voor leidinggevenden in de groep te plaatsen, zet u de bestaande managementgroepen voor elke afdeling in de nieuwe groep.
 
- Als u een Microsoft 365-abonnement deelt tussen meerdere organisaties, kan het lastig zijn om een bepaald niveau van groepslidmaatschappen voor een geïsoleerde site van een organisatie te beheren vanwege het doorschijnende-aantal gebruikersaccounts. In dit geval kunt u geneste Azure AD-groepen gebruiken voor elke organisatie die de groepen binnen hun organisatie bevat om de machtigingen te beheren.
+ Als u een Microsoft 365-abonnement deelt tussen meerdere organisaties, kan één groepslidmaatschap voor een afzonderlijke site voor een organisatie moeilijk te beheren worden vanwege het grote aantal gebruikersaccounts. In dit geval kunt u geneste Azure AD-groepen gebruiken voor elke organisatie die de groepen binnen de organisatie bevat om de machtigingen te beheren.
 
 Geneste Azure AD-groepen gebruiken:
 
-1. Identificeer of maak de Azure AD-groepen die gebruikersaccounts moeten bevatten en voeg de juiste gebruikersaccounts toe als leden.
+1. Identificeer of maak de Azure AD-groepen die gebruikersaccounts bevatten en voeg de juiste gebruikersaccounts toe als leden.
 
-2. Maak de in de container Azure AD gebaseerde toegangsgroep die de andere Azure AD-groepen moet bevatten en voeg deze groepen toe als leden.
+2. Maak de op Azure AD gebaseerde toegangsgroep van de container die de andere Azure AD-groepen bevat en voeg deze groepen toe als leden.
 
-3. Identificeer de SharePoint-groep en het bijbehorende machtigingsniveau voor het juiste toegangsniveau voor de groep container toegang.
+3. Identificeer de SharePoint-groep en het bijbehorende machtigingsniveau voor het juiste toegangsniveau voor de containertoegangsgroep.
 
 > [!NOTE]
 > U kunt geneste Microsoft 365-groepen niet gebruiken.
 
-Hier ziet u een voorbeeld van geneste Azure AD-groepen voor de groep leden toegang van Projectx.
+Hier is een voorbeeld van geneste Azure AD-groepen voor de toegangsgroep voor ProjectX-leden.
 
-![Een voorbeeld van het gebruik van geneste toegangsgroepen voor de groep leden toegang voor de Projectx-site.](../../media/2abca710-bf9e-4ce8-9bcd-a8e128264fb1.png)
+![Een voorbeeld van het gebruik van geneste toegangsgroepen voor de ledentoegangsgroep voor de ProjectX-site.](../../media/2abca710-bf9e-4ce8-9bcd-a8e128264fb1.png)
 
-Aangezien alle gebruikersaccounts in de teams voor onderzoek, engineering en project bedoeld zijn om siteleden te zijn, is het eenvoudiger om Azure AD-groepen toe te voegen aan de groep toegang tot leden van Projectx.
+Omdat alle gebruikersaccounts in de teams Research, Engineering en Project zijn bedoeld als siteleden, is het eenvoudiger om hun Azure AD-groepen toe te voegen aan de toegangsgroep ProjectX-leden.
 
 ## <a name="next-step"></a>Volgende stap
 
-Wanneer u klaar bent om een geïsoleerde site te maken en te configureren, raadpleegt u [een geïsoleerde SharePoint Online-team site implementeren](deploy-an-isolated-sharepoint-online-team-site.md).
+Zie Een afzonderlijke [SharePoint Online-teamsite](deploy-an-isolated-sharepoint-online-team-site.md)implementeren wanneer u klaar bent om een geïsoleerd site in productie te maken en te configureren.
 
 ## <a name="see-also"></a>Zie ook
 

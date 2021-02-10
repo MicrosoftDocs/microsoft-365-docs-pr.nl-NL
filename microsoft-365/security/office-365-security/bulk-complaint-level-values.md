@@ -1,5 +1,5 @@
 ---
-title: Waarden voor bulk klachten niveau
+title: Waarden voor bulksgelaagden
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -8,41 +8,47 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen informatie lezen over de BCL-waarden (bulk compliance niveau) die worden gebruikt in Exchange Online Protection (EOP).
-ms.openlocfilehash: 53d0ae5fb23fb68ef970a07b2b5d8c4220775de7
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+description: Beheerders kunnen meer informatie krijgen over BCL-waarden (Bulk Compliance Level) die worden gebruikt in Exchange Online Protection (EOP).
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 403f79a1ce81ae13a23aa77f4cca7654939d7814
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318212"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165965"
 ---
-# <a name="bulk-complaint-level-bcl-in-eop"></a>Bulk klachten niveau (BCL) in EOP
+# <a name="bulk-complaint-level-bcl-in-eop"></a>Bulksgewijs klachtniveau (BCL) in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken wordt in EOP een BCL (bulk compliant niveau) toegewezen aan inkomende berichten van grote Mailers. De BCL wordt aan het bericht toegevoegd in een X-header en is vergelijkbaar met het [spam betrouwbaarheidsniveau (SCL)](spam-confidence-levels.md) dat wordt gebruikt om berichten als spam op te sporen. Een hogere BCL geeft aan dat een bulk bericht waarschijnlijk klachten genereert (en dat waarschijnlijk spam is). Microsoft gebruikt interne en externe bronnen voor het identificeren van bulk berichten en het bepalen van de juiste BCL.
+**Van toepassing op**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Grote Mailers verschillen in hun verzend patronen, het maken van inhoud en de overname van geadresseerden. Goede bulk berichten sturen de gewenste berichten met relevante inhoud naar hun abonnees. Deze berichten genereren enkele klachten van geadresseerden. Andere grote Mailers verzenden ongevraagde berichten die sterk lijken op spam en Genereer veel klachten van geadresseerden. Berichten van een grootschalige e-mail band worden ook wel grote hoeveelheden e-mail of grijze e-mail genoemd.
+In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken wijst EOP een bulksgewijs compatibel niveau (BCL) toe aan inkomende berichten van bulkmailers. De BCL wordt toegevoegd aan het bericht in een X-koptekst en is vergelijkbaar met het spamniveau [dat](spam-confidence-levels.md) wordt gebruikt om berichten als spam te identificeren. Een hogere BCL geeft aan dat de kans groter is dat een bulkbericht klachten genereert (en daarom waarschijnlijk spam is). Microsoft gebruikt zowel interne als externe bronnen om bulkmail te identificeren en de juiste BCL te bepalen.
 
- Met filters voor ongewenste e-mail worden berichten als **bulk e-mail** gemarkeerd op basis van de BCL-drempelwaarde (de standaardwaarde of een waarde die u opgeeft) en wordt de opgegeven actie op het bericht uitgevoerd (de standaardactie zorgt voor het verzenden van het bericht naar de map Ongewenste e-mail van de geadresseerde). Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) voor meer informatie.
+Bulkmailers variëren in hun verzendingspatronen, het maken van inhoud en het verkrijgen van geadresseerden. Goede bulkmailers sturen gewenste berichten met relevante inhoud naar hun abonnees. Deze berichten genereren weinig klachten van geadresseerden. Andere bulkmailers verzenden ongevraagde berichten die sterk lijken op spam en genereren veel klachten van geadresseerden. Berichten van een bulkmailer worden ook wel bulkmail of grijze e-mail genoemd.
 
-In de volgende tabel vindt u een beschrijving van de BCL-drempelwaarden.
+ Met spamfilters  worden berichten gemarkeerd als bulk-e-mail op basis van de drempelwaarde voor BCL (de standaardwaarde of een waarde die u opgeeft) en wordt de opgegeven actie ondernomen op het bericht (de standaardactie is het bericht bezorgen bij de map Ongewenste e-mail van de geadresseerde). Zie Antispambeleid configureren en wat is het verschil tussen ongewenste [e-mail](configure-your-spam-filter-policies.md) en [bulk-e-mail voor meer informatie.](what-s-the-difference-between-junk-email-and-bulk-email.md)
+
+De drempelwaarden voor BCL worden in de volgende tabel beschreven.
 
 ****
 
 |BCL|Beschrijving|
 |:---:|---|
-|0|Het bericht is niet afkomstig van een bulk verzender.|
-|1, 2, 3|Het bericht is afkomstig uit een bulk verzender waarmee een aantal klachten wordt gegenereerd.|
-|4, 5, 6, 7<sup>\*</sup>|Het bericht is afkomstig uit een bulk verzender waarmee een gemengde soort klachten wordt gegenereerd.|
-|8, 9|Het bericht is afkomstig van een bulk verzender waarmee een groot aantal klachten wordt gegenereerd.|
+|0|Het bericht is niet afkomstig van een bulksge keer.|
+|1, 2, 3|Het bericht is afkomstig van een afzender die bulksgewijs maar weinig klachten genereert.|
+|4, 5, 6, 7<sup>\*</sup>|Het bericht is afkomstig van een afzender die bulksgewijs een gemengd aantal klachten genereert.|
+|8, 9|Het bericht is afkomstig van een afzender die bulksgewijs veel klachten genereert.|
 |
 
 <sup>\*</sup> Dit is de standaard drempelwaarde die wordt gebruikt in antispambeleid.

@@ -15,40 +15,39 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Lees hoe u Google-bestanden migreert naar Microsoft 365 voor Bedrijven met behulp van Mover.
-ms.openlocfilehash: 99040e4846aba084f40536e88f0aed70998f48be
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 72ea81ad86a20e01b4650915fef96a713b207c3b
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928196"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166157"
 ---
 # <a name="migrate-google-files-to-microsoft-365-for-business"></a>Google-bestanden migreren naar Microsoft 365 voor Bedrijven 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MhaD?autoplay=false]
 
-Wanneer u overstapt op Microsoft 365 voor Bedrijven, wilt u uw bestanden migreren vanuit Google Drive. U kunt de app Mover gebruiken om bestanden te verplaatsen van persoonlijke en gedeelde stations. Zie Migratie [in de Cloud Mover voor meer informatie](https://docs.microsoft.com/sharepointmigration/mover-plan-migration)
+Wanneer u overstapt op Microsoft 365 voor Bedrijven, wilt u uw bestanden migreren vanuit Google Drive. U kunt de app Mover gebruiken om bestanden te verplaatsen van persoonlijke en gedeelde stations. Zie [Mover Cloud Migration](https://docs.microsoft.com/sharepointmigration/mover-plan-migration)voor meer informatie.
 
 > [!NOTE]
 > Mover maakt een kopie van de bestanden en verplaatst de kopieën naar Microsoft 365 voor Bedrijven. De oorspronkelijke bestanden blijven ook in Google Drives behouden.
 
 ## <a name="before-you-start"></a>Voordat u van start gaat
 
-Alle gebruikers moeten zich hebben aangemeld bij Microsoft 365 voor Bedrijven en hun OneDrive voor Bedrijven hebben ingesteld. Hiervoor gaat u naar [office.com,](https://office.com)meld u aan met uw Microsft 365 voor Bedrijven-referenties en kiest u vervolgens OneDrive.
+Alle gebruikers moeten zich hebben aangemeld bij Microsoft 365 voor Bedrijven en hun OneDrive voor Bedrijven hebben ingesteld. U doet dit door naar de [office.com,](https://office.com)u aan te melden met uw referenties voor Microsoft 365 voor Bedrijven en vervolgens OneDrive te kiezen.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
 ### <a name="install-mover"></a>Mover installeren
 
-1. Meld u aan bij uw Google Workspace-beheerconsole [admin.google.com.](https://admin.google.com)
+1. Meld u aan bij de beheerconsole van Google Workspace [admin.google.com.](https://admin.google.com)
 
-1. Kies **Apps,** **Google Workspace Marketplace-apps** en vervolgens app toevoegen aan de lijst voor het installeren van **domeinen.**
+1. Kies **Apps**  >  **Google Workspace Marketplace-apps** App toevoegen aan de lijst voor het installeren van  >  **domeinen.**
 
 1. Zoek naar Mover en selecteer deze.
 
@@ -65,7 +64,7 @@ Alle gebruikers moeten zich hebben aangemeld bij Microsoft 365 voor Bedrijven en
 1. Wijzig indien **nodig de weergavenaam** en selecteer **Autor.**
 1. Kies een Google-beheerdersaccount, controleer de machtigingen en selecteer **Toestaan.**
 
-    Mover geeft het aantal team drives en gebruikers stations weer dat is gevonden. 
+    Mover geeft het aantal teamstations en gebruikersstations weer dat is gevonden. 
 
 1. Kies **onder Bestemming selecteren** Nieuwe connector **autor elke** keer, zoek Office **365** en selecteer **Autor.**
 1. Als u machtigingen wilt verlenen aan de Mover-app in uw Azure Active Directory, gaat u [naar aka.ms/Office365MoverAuth.](https://aka.ms/Office365MoverAuth)
@@ -77,16 +76,16 @@ Alle gebruikers moeten zich hebben aangemeld bij Microsoft 365 voor Bedrijven en
     Mover informeert u over het aantal SharePoint Online-sites (of SPO-sites) en gebruikers dat is gevonden.
 1. Kies **Doorgaan met migratie instellen,** selecteer Gebruikers **toevoegen** en vervolgens Gebruikers automatisch ontdekken **en toevoegen.**
 
-    De Mover-app zal proberen stations uit het bronpad in Google toe te staan aan het doelpad in Microsoft 365. 
+    De Mover-app probeert stations uit het bronpad in Google toe te staan aan het doelpad in Microsoft 365. 
 
     Als een station niet automatisch wordt weergegeven, voegt u het doelpad toe aan een CSV-bestand, dat we later gebruiken om het gedeelde station te migreren naar een SharePoint-documentbibliotheek. 
 
 1. In dit geval hebben we een SharePoint-site met de naam Gemigreerde bestanden toegevoegd en een notitie gemaakt van de URL voor de pagina documenten. 
 1. Vervolgens hebben we een CSV-bestand gemaakt met de indeling bronpad, doelpad en tags. 
 
-    Zie de aka.ms/movercsv voor [meer](https://docs.microsoft.com/sharepointmigration/mover-create-migration-csv)informatie.
+    Zie de aka.ms/movercsv voor [meer informatie.](https://docs.microsoft.com/sharepointmigration/mover-create-migration-csv)
 
-    Wanneer u bijvoorbeeld de URL naar het doelpad toevoegt, verwijdert u alles na Gedeelde documenten. Deze volledige URL werkt bijvoorbeeld niet: `https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents/Forms/AllItems.aspx`
+    Wanneer u de URL van het doelpad toevoegt, verwijdert u alles na Gedeelde documenten. Deze volledige URL werkt bijvoorbeeld niet: `https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents/Forms/AllItems.aspx`
 
     Wijzig deze in: `https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents`
 

@@ -8,108 +8,111 @@ manager: chrisda
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u spam stuurt naar mappen voor ongewenste E-mail in een Exchange Online Protection hybride omgeving.
+description: Beheerders kunnen informatie krijgen over het doorrouten van spam naar mappen voor ongewenste e-mail van gebruikers in een hybride omgeving van Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 76003f18009ebf9159f01d916cdaf38b50a213d1
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 926ac6dec33bf00fc8f0dcd292229e20ccc2b93f
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350337"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167117"
 ---
-# <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Zelfstandige EOP configureren voor het afleveren van spam op de map Ongewenste E-mail in hybride omgevingen
+# <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Zelfstandige EOP configureren voor het bezorgen van spam naar de map Ongewenste e-mail in hybride omgevingen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+-  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 > [!IMPORTANT]
-> Dit onderwerp is alleen voor zelfstandige EOP-klanten in hybride omgevingen. Dit onderwerp is niet van toepassing op Microsoft 365-klanten met postvakken van Exchange Online.
+> Dit onderwerp is alleen voor zelfstandige EOP-klanten in hybride omgevingen. Dit onderwerp is niet van toepassing op Microsoft 365-klanten met Exchange Online-postvakken.
 
-Als u een zelfstandige Exchange Online Protection-klant (EOP) hebt in een hybride omgeving, moet u uw on-premises Exchange-organisatie configureren voor het herkennen en vertalen van de spamfilters Verdicts van EOP, zodat de regel voor ongewenste e-mail in het on-premises postvak berichten kan verplaatsen naar de map Ongewenste E-mail.
+Als u een zelfstandige klant van Exchange Online Protection (EOP) bent in een hybride omgeving, moet u uw on-premises Exchange-organisatie zo configureren dat de spamfilters van EOP worden herkend en vertaald, zodat berichten naar de map Ongewenste e-mail kunnen worden verplaatst met de regel voor ongewenste e-mail in het on-premises postvak.
 
-U moet specifiek voor het maken van een e-mail stroom regels (ook wel transport-regels genoemd) in uw on-premises Exchange-organisatie met voorwaarden waarmee u berichten vindt met een van de volgende EOP-antispam koppen en-waarden, en acties waarmee het spam niveau van deze berichten wordt ingesteld op 6:
+U moet met name regels voor de e-mailstroom (ook wel transportregels genoemd) maken in uw on-premises Exchange-organisatie met voorwaarden voor het vinden van berichten met een van de volgende EOP-antispamkoppen en -waarden, en acties die het betrouwbaarheidsniveau voor spam van deze berichten instellen op 6:
 
-- `X-Forefront-Antispam-Report: SFV:SPM` (bericht gemarkeerd als spam door spam te filteren)
+- `X-Forefront-Antispam-Report: SFV:SPM` (bericht gemarkeerd als spam door spamfilters)
 
-- `X-Forefront-Antispam-Report: SFV:SKS` (bericht gemarkeerd als spam door regels voor de e-mail stroom in EOP voordat spam wordt gefilterd)
+- `X-Forefront-Antispam-Report: SFV:SKS` (bericht gemarkeerd als spam door regels voor de e-mailstroom in EOP vóór spamfilters)
 
-- `X-Forefront-Antispam-Report: SFV:SKB` (bericht is gemarkeerd als spam door spam te filteren vanwege het e-mailadres of e-mail domein van de afzender in de lijst met geblokkeerde afzenders of de lijst met geblokkeerde domeinen in EOP)
+- `X-Forefront-Antispam-Report: SFV:SKB` (Bericht gemarkeerd als spam door spamfilters omdat het e-mailadres of e-maildomein van de afzender in de lijst met geblokkeerde afzenders of de lijst met geblokkeerde domeinen in EOP staat)
 
-Zie [anti spambericht koppen](anti-spam-message-headers.md)voor meer informatie over deze koptekst waarden.
+Zie de kopteksten tegen [ongewenste e-mailberichten voor meer informatie over deze kopteksten.](anti-spam-message-headers.md)
 
-In dit onderwerp wordt beschreven hoe u deze regels voor e-mail stroom kunt maken in het Exchange-Beheercentrum en in de Exchange-beheer shell (Exchange PowerShell) in de on-premises Exchange-organisatie.
+In dit onderwerp wordt beschreven hoe u deze e-mailstroomregels maakt in het Exchange-beheercentrum (EAC) en in de Exchange-beheershell (Exchange PowerShell) in de on-premises Exchange-organisatie.
 
 > [!TIP]
-> In plaats van de berichten naar de map Ongewenste E-mail van de gebruiker te bezorgen, kunt u Antispambeleid in EOP configureren voor het gebruiken van spamberichten in EOP. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+> In plaats van de berichten in de map Ongewenste e-mail van de on-premises gebruiker te plaatsen, kunt u antispambeleid in EOP configureren voor het in quarantaine plaatsen van spamberichten in EOP. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U moet machtigingen voor de on-premises Exchange-omgeving worden toegewezen voordat u deze procedures kunt uitvoeren. Specifiek moet u de rol van **transport regels** toewijzen, die aan de rollen voor **Organisatiebeheer**, **Compliance Management**, en het **beheer van recordbeheer** standaard is toegewezen. Zie [leden aan een rollen groep toevoegen](https://docs.microsoft.com/Exchange/permissions/role-group-members#add-members-to-a-role-group)voor meer informatie.
+- U moet machtigingen toegewezen krijgen in de on-premises Exchange-omgeving voordat u deze procedures kunt uitvoeren. De rol Transportregels, die  standaard is toegewezen aan de rollen **Organisatiebeheer,** **Compliancebeheer** en **Recordbeheer,** moet aan u zijn toegewezen. Zie Leden toevoegen [aan een rollengroep voor meer informatie.](https://docs.microsoft.com/Exchange/permissions/role-group-members#add-members-to-a-role-group)
 
-- Als en wanneer een bericht wordt bezorgd in de map Ongewenste E-mail in een on-premises Exchange-organisatie, wordt bepaald door een combinatie van de volgende instellingen:
+- Als en wanneer een bericht wordt bezorgd in de map Ongewenste e-mail in een on-premises Exchange-organisatie, wordt dit bepaald door een combinatie van de volgende instellingen:
 
-  - De waarde van _SCLJunkThreshold_ -parameter in de cmdlet [set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) in de Exchange-beheer shell. De standaardwaarde is 4, wat betekent dat een SCL van 5 of hoger het bericht naar de map Ongewenste e-mail van de gebruiker verzorgt.
+  - De _parameterwaarde SCLJunkThreshold_ op de cmdlet [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) in de Exchange-beheershell. De standaardwaarde is 4, wat betekent dat een SCL van 5 of hoger het bericht moet bezorgen in de map Ongewenste e-mail van de gebruiker.
 
-  - De waarde van de _SCLJunkThreshold_ -parameter in de cmdlet [set-mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) in de Exchange-beheer shell. De standaardwaarde is leeg ($null), wat betekent dat de organisatie-instelling wordt gebruikt.
+  - De _parameterwaarde SCLJunkThreshold_ op de cmdlet [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) in de Exchange-beheershell. De standaardwaarde is leeg ($null), wat betekent dat de organisatie-instelling wordt gebruikt.
 
-  Zie [drempelwaarden voor spam niveau van Exchange (SCL)](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl)voor meer informatie.
+  Zie voor meer informatie de drempelwaarden voor [het betrouwbaarheidsniveau voor](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl)spam in Exchange.
 
-  - Of de regel voor ongewenste e-mail is ingeschakeld voor het postvak (de _ingeschakelde_ parameterwaarde is $True op de cmdlet [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) in de Exchange-beheer shell). Het is de regel voor ongewenste e-mail waarmee het bericht na ontvangst naar de map Ongewenste E-mail wordt verplaatst. Standaard is de regel voor ongewenste e-mail ingeschakeld voor postvakken. Zie [Exchange spam instellingen in postvakken configureren](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)voor meer informatie.
+  - Of de regel voor ongewenste e-mail is ingeschakeld in het postvak (de waarde voor de ingeschakelde _parameter_ is $true op de cmdlet [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) in de Exchange-beheershell). Het is de regel voor ongewenste e-mail die het bericht na bezorging daadwerkelijk verplaatst naar de map Ongewenste e-mail. De regel voor ongewenste e-mail is standaard ingeschakeld voor postvakken. Zie [Antispaminstellingen voor Exchange configureren voor postvakken voor meer informatie.](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings)
 
-- Zie [Exchange-Beheercentrum in Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center)om de versie van het Beheercentrum te openen op een Exchange-Server. Zie [de Exchange-beheer shell openen](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell)voor informatie over het openen van de Exchange-beheer shell.
+- Als u het Exchange-beheercentrum wilt openen op een Exchange-server, gaat u naar [het Exchange-beheercentrum in Exchange Server.](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center) Zie De Exchange-beheershell openen als u [de Exchange-beheershell wilt openen.](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell)
 
-- Zie de volgende onderwerpen voor meer informatie over regels voor e-mail stroom in on-premises Exchange:
+- Zie de volgende onderwerpen voor meer informatie over regels voor de e-mailstroom in on-premises Exchange:
 
-  - [Regels voor e-mail stroom in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rules)
+  - [Regels voor e-mailstroom in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rules)
 
-  - [Voorwaarden voor de e-mail stroom regels en uitzonderingen (predikaten) in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/conditions-and-exceptions)
+  - [Voorwaarden en uitzonderingen voor e-mailstroomregel (predicaten) in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-  - [Acties voor e-mail stroom regels in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/actions)
+  - [Acties voor e-mailstroomregel in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/actions)
 
-## <a name="use-the-eac-to-create-mail-flow-rules-that-set-the-scl-of-eop-spam-messages"></a>Het Exchange-Beheercentrum gebruiken om regels voor de e-mail stroom in te stellen voor het maken van de SCL van EOP spamberichten
+## <a name="use-the-eac-to-create-mail-flow-rules-that-set-the-scl-of-eop-spam-messages"></a>Het EAC gebruiken om regels voor de e-mailstroom te maken die de SCL van EOP-spamberichten instellen
 
-1. Ga in het Exchange-Beheercentrum naar de regels voor de **e-mail stroom** \> **Rules**.
+1. Ga in het EAC naar **Regels voor e-mailstroom.** \> 
 
-2. Klik **op** ![ pictogram toevoegen toevoegen ](../../media/ITPro-EAC-AddIcon.png) en selecteer **een nieuwe regel maken** in de vervolgkeuzelijst die wordt weergegeven.
+2. Klik **op** ![ het pictogram Toevoegen en selecteer Een nieuwe regel ](../../media/ITPro-EAC-AddIcon.png) **maken** in de vervolgkeuzebalk die wordt weergegeven.
 
-3. Configureer de volgende instellingen op de pagina **nieuwe regel** die wordt geopend:
+3. Configureer **de volgende** instellingen op de pagina Nieuwe regel die wordt geopend:
 
-   - **Naam**: Typ een unieke, beschrijvende naam voor de regel. Bijvoorbeeld:
+   - **Naam:** voer een unieke, beschrijvende naam voor de regel in. Bijvoorbeeld:
 
-     - EOP SFV: SPM to SCL 6
+     - EOP SFV:SPM naar SCL 6
 
-     - EOP SFV: SKS naar SCL 6
+     - EOP SFV:SKS naar SCL 6
 
-     - EOP SFV: SKB naar SCL 6
+     - EOP SFV:SKB naar SCL 6
 
-   - Klik op **meer opties**.
+   - Klik **op Meer opties.**
 
-   - **Deze regel toepassen als**: Selecteer **een kop van het bericht** \> **bevat een van deze woorden**.
+   - **Pas deze regel toe als:** Selecteer **een berichtkop** \> **een van deze woorden bevat.**
 
-     Voer de volgende stappen uit in de **kop tekst** invoeren die wordt weergegeven:
+     Voer in **de kopTekst invoeren de volgende** stappen uit om woorden in te voeren die worden weergegeven:
 
-     - Klik op **tekst invoeren**. Voer in het dialoogvenster **opgegeven naam van de koptekst opgeven de tekst** **X-Forefront-spam-report** in en klik vervolgens op **OK**.
+     - Klik **op Tekst invoeren.** Voer in het dialoogvenster Naam van **koptekst** opgeven dat wordt weergegeven **X-Forefront-Antispam-Report** in en klik op **OK.**
 
-     - Klik op  **woorden invoeren**. Voer in het dialoogvenster **woorden of woordgroepen opgeven** dat wordt weergegeven een van de EOP spam waarden van de spam (**SFV: SPM**, **SFV: sks**of **SFV: SKB**) in **, klik op** ![ pictogram toevoegen ](../../media/ITPro-EAC-AddIcon.png) en vervolgens op **OK**.
+     - Klik **op Woorden invoeren.** Voer  in het dialoogvenster Woorden of woordgroepen opgeven dat wordt weergegeven een van de waarden voor EOP-spamkoptekst in **(SFV:SPM,** **SFV:SKS** of **SFV:SKB),** klik op pictogram Toevoegen en klik op  ![ ](../../media/ITPro-EAC-AddIcon.png) **OK.**
 
-   - **Ga als volgt**te werk: opties voor het wijzigen van het **bericht** is \> **het betrouwbaarheidsniveau van spam (SCL)**.
+   - **Ga als volgt te** werk: **selecteer De berichteigenschappen wijzigen** Stel het \> **betrouwbaarheidsniveau voor ongewenste e-mail in.**
 
-     Selecteer in het dialoogvenster **SCL opgeven** dat wordt weergegeven de optie **6** (de standaardwaarde is **5**).
+     Selecteer **6** (de standaardwaarde is **5)** in het dialoogvenster **SCL** opgeven dat wordt weergegeven.
 
-   Wanneer u klaar bent, klikt u op **Opslaan** .
+   Wanneer u klaar bent, klikt u op **Opslaan**
 
-Herhaal deze stappen voor de resterende EOP spam verdict-waarden (**SFV: SPM**, **SFV: sks**of **SFV: SKB**).
+Herhaal deze stappen voor de resterende waarden voor spam in EOP **(SFV:SPM,** **SFV:SKS** of **SFV:SKB).**
 
-## <a name="use-the-exchange-management-shell-to-create-mail-flow-rules-that-set-the-scl-of-eop-spam-messages"></a>De Exchange-beheer shell gebruiken om regels voor de e-mail stroom te maken die de SCL van EOP spamberichten instellen
+## <a name="use-the-exchange-management-shell-to-create-mail-flow-rules-that-set-the-scl-of-eop-spam-messages"></a>Gebruik de Exchange-beheershell om regels voor de e-mailstroom te maken die de SCL van EOP-spamberichten instellen
 
-Gebruik de volgende syntaxis om de drie e-mail stroom regels te maken:
+Gebruik de volgende syntaxis om de drie regels voor de e-mailstroom te maken:
 
 ```Powershell
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
@@ -133,19 +136,19 @@ Zie [Nieuwe-Transportregel](https://docs.microsoft.com/powershell/module/exchang
 
 ## <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Voer een van de volgende stappen uit om te controleren of u zelfstandige EOP hebt geconfigureerd voor het afleveren van spam in de map Ongewenste E-mail in hybride omgeving:
+Als u wilt controleren of u de zelfstandige EOP zodanig hebt geconfigureerd dat spam moet worden verzonden naar de map Ongewenste e-mail in een hybride omgeving, gaat u als volgt te werk:
 
-- Ga in het Exchange-Beheercentrum naar de regels voor de **e-mail stroom** \> **Rules**, selecteer de regel en klik vervolgens op **Edit** ![ bewerkingspictogram bewerken ](../../media/ITPro-EAC-EditIcon.png) om de instellingen te controleren.
+- Ga in het EAC naar Regels voor **e-mailstroom,** selecteer de regel en klik vervolgens op het pictogram Bewerken \> bewerken om de instellingen  ![ te ](../../media/ITPro-EAC-EditIcon.png) controleren.
 
-- In de Exchange-beheer shell vervangt \<RuleName\> u de naam van de e-mail stroom regel door de naam van de e-mail stroom regel en rul u de volgende opdracht om de instellingen te controleren:
+- Vervang in de Exchange-beheershell door de naam van de regel voor de e-mailstroom en regel de volgende opdracht om \<RuleName\> de instellingen te controleren:
 
   ```powershell
   Get-TransportRule -Identity "<RuleName>" | Format-List
   ```
 
-- In een extern e-mailsysteem **dat uitgaande berichten voor spam niet scant**, stuurt u een algemene test voor ongevraagde E-mail (GTUBE) naar een geadresseerde en bevestigt u dat deze wordt bezorgd in de map Ongewenste e-mail. Een GTUBE-bericht is vergelijkbaar met het EICAR-tekstbestand (European Institute for Computer Antivirus Research) voor het testen van malware-instellingen.
+- In een extern e-mailsysteem waarin uitgaande berichten niet op **spam** worden gescand, verzendt u een algemene test voor ongevraagde bulk-e-mail (GTUBE) naar een getroffen geadresseerde en controleert u of het bericht is bezorgd in de map Ongewenste e-mail. Een GTUBE-bericht is vergelijkbaar met het EICAR-tekstbestand (European Institute for Computer Antivirus Research) voor het testen van malware-instellingen.
 
-  Als u een GTUBE bericht wilt verzenden, moet u de volgende tekst opnemen in de hoofdtekst van een e-mailbericht op een enkele regel, zonder spaties of regeleinden:
+  Als u een GTUBE-bericht wilt verzenden, moet u de volgende tekst in de berichttekst van een e-mailbericht opnemen op één regel, zonder spaties of regel-eindes:
 
   ```text
   XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
