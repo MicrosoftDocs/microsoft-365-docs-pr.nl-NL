@@ -30,6 +30,8 @@
       href: model-usage-analytics.md
     - name: De taxonomie van een termenarchief gebruiken bij het maken van een extractor
       href: leverage-term-store-taxonomy.md
+    - name: SharePoint Syntex toegankelijkheidsmodus
+      href: accessibility-mode.md
 - name: Ingebruikname
   items:
     - name: Aan de slag met de acceptatie
