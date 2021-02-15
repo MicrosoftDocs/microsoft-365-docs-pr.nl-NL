@@ -156,7 +156,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Vertrouwelijkheidslabels gebruiken in Office-apps
+        - name: Vertrouwelijkheidslabels in Office-apps beheren
           href: sensitivity-labels-office-apps.md
     - name: Versleuteling
       items:

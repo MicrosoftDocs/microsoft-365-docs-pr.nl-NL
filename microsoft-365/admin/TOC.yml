@@ -291,6 +291,8 @@
           href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: Meervoudige verificatie instellen
           href: security-and-compliance/set-up-multi-factor-authentication.md
+        - name: Prioriteitsaccounts beheren en bewaken
+          href: setup/priority-accounts.md
         - name: Moderne verificatie voor Office 2013 inschakelen
           href: security-and-compliance/enable-modern-authentication.md
         - name: Microsoft 365 Business Premium beveiligen
