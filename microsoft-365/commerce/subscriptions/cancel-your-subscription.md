@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Lees hoe u uw proefabonnement op Microsoft 365 voor Bedrijven of een betaald abonnement opZegt.
 ms.date: ''
-ms.openlocfilehash: 4141de3f1a228f465559212098cf46e68f2844f6
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 5d96b541030646668f636ee09cc3ccc4b43ef75a
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114727"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233338"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
@@ -35,7 +35,7 @@ ms.locfileid: "50114727"
 
 ::: moniker-end
 
-*Geschiktheid:* Als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement op elk moment online opzeggen in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties hebt toegewezen aan gebruikers, kunt u de ondersteuning [bellen om uw abonnement te annuleren.](../../admin/contact-support-for-business-products.md)
+*Geschiktheid:* Als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement op elk moment online opzeggen in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties hebt toegewezen aan gebruikers, kunt u deze beperken tot minder dan 25 of bellen met ondersteuning om [uw abonnement te annuleren.](../../admin/contact-support-for-business-products.md)
 
 *Terugbetaling:* Een tegoed naar rekening wordt aan u geretourneerd in de volgende factureringscyclus.
 
@@ -48,7 +48,7 @@ U moet een globale beheerder of factureringsbeheerder zijn om de taken in dit ar
 
 ## <a name="steps-to-cancel-your-subscription"></a>Stappen voor het opzeggen van uw abonnement
 
-Als u uw eigen domeinnaam hebt toegevoegd voor gebruik met uw abonnement, moet u het domein verwijderen voordat u uw abonnement opzegt. Zie Een domein [verwijderen voor meer informatie.](../../admin/get-help-with-domains/remove-a-domain.md)
+Als u uw eigen domeinnaam hebt toegevoegd voor gebruik met uw abonnement, moet u het domein verwijderen voordat u uw abonnement opzegt. Zie Een domein verwijderen [voor meer informatie.](../../admin/get-help-with-domains/remove-a-domain.md)
 
 ::: moniker range="o365-worldwide"
 
@@ -67,7 +67,7 @@ Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft bepe
 
 2. Selecteer een **abonnement op de** pagina Abonnementen.
 
-3. Selecteer Abonnement **annuleren** in het menu **Meer acties.**
+3. Selecteer Abonnement **annuleren in** het menu **Meer acties.**
 
     ![Close up of the More Actions menu.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
@@ -83,7 +83,7 @@ Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft bepe
 
 2. Selecteer een **abonnement op de** pagina Abonnementen.
 
-3. Selecteer Abonnement **annuleren** in het menu **Meer acties.**
+3. Selecteer Abonnement **annuleren in** het menu **Meer acties.**
 
     ![Close up of the More Actions menu.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
@@ -95,13 +95,13 @@ Uw abonnement wordt nu weergegeven met de status **Uitgeschakeld** en heeft bepe
 
 ## <a name="what-happens-when-you-cancel-a-subscription"></a>Wat gebeurt er wanneer u een abonnement opzegt?
 
-Als u een abonnement opzegt vóór het einde van de periode, wordt de status van het abonnement direct overge stappen naar de status Uitgeschakeld. Voor de meeste abonnementen, in de meeste landen en regio's, duurt de status Uitgeschakeld negentig dagen. Beheerders kunnen nog steeds gegevens voor hun organisatie openen en er een back-up van maken terwijl het abonnement de status Uitgeschakeld heeft, maar het is raadzaam dat beheerders een [back-up](back-up-data-before-switching-plans.md) van hun gegevens maken voordat ze een abonnement opzeggen, vooral als dit hun enige abonnement is. Beheerders kunnen het abonnement ook opnieuw activeren terwijl het de status Uitgeschakeld heeft.
+Als u een abonnement opzegt vóór het einde van de periode, wordt de status van het abonnement direct overge stappen naar de status Uitgeschakeld. Voor de meeste abonnementen, in de meeste landen en regio's, duurt de status Uitgeschakeld negentig dagen. Beheerders kunnen nog steeds gegevens voor hun organisatie openen en er een back-up van maken terwijl het abonnement de status Uitgeschakeld heeft, maar het is raadzaam dat beheerders een [back-up](back-up-data-before-switching-plans.md) maken van hun gegevens voordat ze een abonnement opzeggen, vooral als dit hun enige abonnement is. Beheerders kunnen het abonnement ook opnieuw activeren terwijl het de status Uitgeschakeld heeft.
 
-Nadat 90 wordt zegt, wordt het abonnement over verplaatst naar de status Verwijderd. Gegevens die u achterlaat, kunnen na deze 90 dagen worden verwijderd, niet later dan 180 dagen na de opzegging. U kunt een betalingswijze pas verwijderen uit een geannuleerd abonnement nadat deze de status Verwijderd heeft bereikt.
+Na 90 procent wordt het abonnement overgehaald naar de status Verwijderd. Gegevens die u achterlaat, kunnen na deze 90 dagen worden verwijderd, niet later dan 180 dagen na de opzegging. U kunt een betalingswijze pas verwijderen uit een geannuleerd abonnement nadat deze de status Verwijderd heeft bereikt.
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>Wat u en uw gebruikers kunnen verwachten als u een abonnement opzegt
   
-- **Beheerderstoegang** Beheerders kunnen zich nog steeds aanmelden bij en hebben toegang tot het beheercentrum en kunnen zo nodig andere abonnementen kopen. Als globale beheerder of factureringsbeheerder hebt u 90 dagen de tijd om [het abonnement opnieuw te activeren](reactivate-your-subscription.md) met behoud van alle gegevens.
+- **Beheerderstoegang** Beheerders kunnen zich nog steeds aanmelden en toegang krijgen tot het beheercentrum en kunnen zo nodig andere abonnementen kopen. Als globale beheerder of factureringsbeheerder hebt u 90 dagen de tijd om [het abonnement opnieuw te activeren](reactivate-your-subscription.md) met behoud van alle gegevens.
 
 - **Gebruikerstoegang** Uw gebruikers kunnen services zoals OneDrive voor Bedrijven niet gebruiken en hebben geen toegang tot klantgegevens, zoals e-mail of documenten op teamsites. Office-toepassingen, zoals Word en Excel, worden na een tijdje ingesteld op een alleen-lezenmodus met beperkte functionaliteit en [Product zonder licentie-meldingen](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) worden weergegeven.
 
@@ -122,7 +122,7 @@ Als u een aangepast domein hebt ingesteld, hebt u DNS-records toegevoegd zodat h
 
 Wijzig bijvoorbeeld de MX-record bij uw DNS-host. E-mail die naar uw domein wordt verzonden, wordt niet meer naar uw Microsoft-adres verzonden en gaat in plaats daarvan naar uw nieuwe e-mailprovider. (Door een MX-record wordt bepaald waarheen e-mail voor uw domein wordt verzonden.)
 
-- Als uw naamserverrecords (NS-records) wijzen naar [Microsoft 365-naamservers,](../../admin/setup/add-domain.md)worden wijzigingen in uw MX-record pas doorgevoerd wanneer u uw NS-records zo wijzigt dat ze naar uw nieuwe DNS-host wijzen (zie stap 2).
+- Als uw naamserverrecords (NS-records) wijzen naar [Microsoft 365-naamservers,](../../admin/setup/add-domain.md)worden wijzigingen in uw MX-record pas doorgevoerd wanneer u uw NS-records zo wijzigt dat deze naar uw nieuwe DNS-host wijzen (zie stap 2).
 
 - Voordat u de MX-record bijschakelt, moet u uw gebruikers de datum laten weten waarop u hun e-mail wilt omzetten en de nieuwe e-mailprovider die u wilt gebruiken. Als uw gebruikers hun bestaande Microsoft-e-mail naar de nieuwe provider willen verplaatsen, moeten ze ook extra stappen ondernemen.
 

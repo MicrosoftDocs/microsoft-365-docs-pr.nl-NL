@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Lees hoe je een Extractor kunt maken in Microsoft SharePoint Syntex.
-ms.openlocfilehash: dd26b049f71688804cd5110a5a0bb7c87950be94
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: b0b03d0e8804097f34f9cd5b17504263097d8696
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080483"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242498"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Maak een Extractor in Microsoft SharePoint Syntex.
 
@@ -152,3 +152,5 @@ Als je een overeenkomst hebt gekregen met de gelabelde voorbeeldbestanden, kun j
 [Overzicht van documentbegrip](document-understanding-overview.md)
 
 [Een model toepassen](apply-a-model.md) 
+
+[SharePoint Syntex toegankelijkheidsmodus](accessibility-mode.md)

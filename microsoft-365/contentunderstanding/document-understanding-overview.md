@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Bekijk een overzicht van documentbegrip in Microsoft SharePoint Syntex.
-ms.openlocfilehash: c0396c8e702d3e32db93d26dba23ab038546bea0
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: d2bf581468eeee008d09a242876bed5ad07ae01f
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976517"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242408"
 ---
 # <a name="document-understanding-overview"></a>Overzicht van documentbegrip
 
@@ -46,10 +46,45 @@ U kunt *classificaties* en *extractoren* toevoegen aan uw documentbegripmodellen
 
 U kunt voorbeeldbestanden gebruiken om de classificaties en extractoren in uw model te trainen en te testen. Voorbeeldbestanden voorzien uw model van voorbeelden van waar ze naar moeten zoeken bij het identificeren en extraheren van gegevens uit bestanden. U kunt bijvoorbeeld uw contractverlengingsclassificaties en -extractoren trainen met voorbeelden van contractverlengingsdocumenten waar uw bedrijf mee werkt. U kunt voorbeeldbestanden ook gebruiken om de effectiviteit van uw model te testen.
 
-> [!NOTE]
-> Syntex heeft een limiet van 15 pagina's voor modeltraining indien je Optical Character Recognition- (OCR) technologie gebruikt.
-
 Nadat u uw model hebt gepubliceerd, gebruikt u het inhoudscentrum om het toe te passen op een SharePoint-documentbibliotheek waartoe u toegang hebt.  
+
+### <a name="file-limitations"></a>Bestandbeperkingen
+
+Documentbegripmodellen gebruiken Optical Character Recognition- (OCR) technologie om pdf-bestanden, afbeeldingen en tiff-bestanden te scannen wanneer je een model traint met voorbeeldbestanden en wanneer je het model uitvoert op bestanden in een documentbibliotheek.
+
+Let op de volgende verschillen in Microsoft Office tekstgebaseerde bestanden en OCR-gescande bestanden (pdf, afbeelding of tiff):
+
+- Office-bestanden: We kappen af op 64k karakters (in training en wanneer uitgevoerd op bestanden in een documentbibliotheek).
+- OCR-gescande bestanden: Er is een limiet van 20 pagina's.  
+
+#### <a name="supported-file-types"></a>Ondersteunde bestandstypen
+
+Documentbegripmodellen ondersteunen de volgende typen:
+
+- doc
+- docx
+- eml
+- heic
+- heif
+- htm
+- html
+- jpeg
+- jpg
+- markdown
+- md
+- msg
+- pdf
+- png
+- ppt
+- pptx
+- rtf
+- tif
+- tiff
+- txt
+- xls
+- xlsx
+
+
 
 ## <a name="see-also"></a>Zie ook
 [Een classificatie maken](create-a-classifier.md)
@@ -65,3 +100,5 @@ Nadat u uw model hebt gepubliceerd, gebruikt u het inhoudscentrum om het toe te 
 [Het verschil tussen een documentbegripmodel en een formulierverwerkingsmodel](difference-between-document-understanding-and-form-processing-model.md)
   
 [Overzicht formulierverwerking](form-processing-overview.md)
+
+[SharePoint Syntex toegankheidsmodus](accessibility-mode.md)

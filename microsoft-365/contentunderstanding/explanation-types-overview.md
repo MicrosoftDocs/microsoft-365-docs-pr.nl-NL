@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Meer informatie over uitlegtypen in Microsoft SharePoint Syntex
-ms.openlocfilehash: 2c2997fd165339cc43f7f007050f343794021a23
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: caba92b635feaf8f87e2c487559f70be3fab6df9
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080590"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242594"
 ---
 # <a name="introduction-to-explanation-types"></a>Inleiding tot uitlegtypen
 
@@ -147,43 +147,65 @@ In de viewer kunt u het selectievakje handmatig aanpassen zodat de locatie van d
    ![Aangepast bereik](../media/content-understanding/custom-file.png)</br>
 In de viewer kunt u het selectievakje handmatig aanpassen zodat de locatie van de woordgroep wordt opgenomen. Voor deze instelling moet u een <b>Beginpositie</b> en een <b>Eindpositie</b> selecteren. Deze waarden geven het aantal tokens aan vanaf het begin van het document. Hoewel u deze waarden handmatig kunt invoeren, is het eenvoudiger om het selectievakje handmatig aan te passen in de viewer.</br> 
    
-
-
 ## <a name="use-explanation-templates"></a>Uitlegsjablonen gebruiken
 
-Hoewel je handmatig verschillende waarden voor een patroonlijst kunt toevoegen voor je uitleg, is het veel eenvoudiger om de vooraf gemaakte sjablonen te gebruiken die in de uitlegbibliotheek worden aangeboden.
+Je kan handmatig verschillende frasenlijstwaarden toevoegen voor je uitleg, maar het kan eenvoudiger door sjablonen te gebruiken die aangeboden worden in de uitlegbibliotheek.
 
-Je kunt bijvoorbeeld in plaats van alle variaties voor *Datum* handmatig toe te voegen, de sjabloonlijst met patronen gebruiken voor *Datum*, die al een aantal waarden voor een patroonlijst bevat:</br>
+Je kunt bijvoorbeeld in plaats van alle variaties voor *Datum* handmatig toe te voegen, de frasenlijstsjabloon gebruiken voor *Datum*, die al een aantal frasenlijstwaarden bevat:</br>
 
    ![Uitlegbibliotheek](../media/content-understanding/explanation-template.png)</br>
  
-De uitlegbibliotheek bevat een aantal veelgebruikte beschrijvingen van de patroonlijst, waaronder:</br>
+De uitlegbibliotheek bevat een aantal veelgebruikte beschrijvingen van de frasenlijst, waaronder:</br>
 
 - Datum</br>
 - Datum (getal)</br>
 - Tijd</br>
 - Nummer</br>
+- Percentage</br>
 - Telefoonnummer</br>
 - Postcode</br>
 - Eerste woord of zin</br>
+- Afgelopen zin</br>
 - Creditcard</br>
 - Sofi-nummer</br>
+- Selectievakje</br>
+- Valuta</br>
+- E-mail CC</br>
+- E-mail datum</br>
+- E-mail groet</br>
+- E-mail ontvanger</br>
+- E-mail afzender</br>
+- E-mail onderwerp</br>
 
-Let op: de uitlegbibliotheek bevat ook sjablonen voor verklaringen van een woordenlijst, waaronder:
-- Afgelopen zin
-- Valuta
+De uitlegbibliotheek bevat ook drie automatische sjabloontypen die binnen de gegevens werken die je gelabeld hebt in je voorbeeldbestanden:
 
+- After-label: De woorden of karakters die voorkomen na de labels in de voorbeeldbestanden.</br>
+- Before-label: De woorden of karakters die voorkomen voor de labels in de voorbeeldbestanden.</br>
+- Labels: Tot maximaal de eerste 10 karakters van de voorbeeldbestanden.</br>
+
+Automatische sjablonen werken bijvoorbeeld zoals in het volgende voorbeeldbestand waar we de before-label-uitlegsjabloon gebruiken om het model meer informatie te geven zodat we tot een nauwkeurigere overeenkomst komen.
+
+   ![Voorbeeldbestand](../media/content-understanding/before-label.png)</br>
+
+Als je het before-label-uitlegsjabloon selecteert, zoekt het de eerste groep woorden die voorkomen vóór het label in je voorbeeldbestanden. In het voorbeeld is het woord dat geïdentificeerd werd ‘Vanaf’.
+
+   ![Before-labelsjabloon](../media/content-understanding/before-label-explanation.png)</br>
+
+Je kan een uitleg voor een sjabloon maken door <b>Toevoegen</b> te selecteren.  Aanvullende woorden worden geïdentificeerd en toegevoegd aan de frasenlijst naargelang je meer voorbeeldbestanden toevoegt.
+
+   ![Het label toevoegen](../media/content-understanding/before-label-add.png)</br>
+ 
 #### <a name="to-use-a-template-from-the-explanation-library"></a>Een sjabloon gebruiken uit de uitlegbibliotheek
 
 1. Ga naar het gedeelte **Uitleg** van de **Train**-pagina van je model en selecteer **Nieuwe** en selecteer vervolgens **Van een sjabloon**.</br>
 
-   ![Van sjabloon maken](../media/content-understanding/from-template.png)</br>
+   ![Before-label toevoegen](../media/content-understanding/from-template.png)</br>
 
 2.  Selecteer op de pagina **Uitlegsjablonen** de uitleg die je wilt gebruiken en selecteer vervolgens **Toevoegen**.</br>
 
        ![Selecteer een sjabloon](../media/content-understanding/phone-template.png)</br>
 
-3. De informatie voor de sjabloon die je hebt geselecteerd, wordt weergegeven op de pagina **Een uitleg maken**. Bewerk zo nodig de naam van de uitleg en voeg items toe aan of verwijder items uit de patroonlijst. </br> 
+3. De informatie voor de sjabloon die je hebt geselecteerd, wordt weergegeven op de pagina **Een uitleg maken**. Bewerk zo nodig de naam van de uitleg en voeg items toe of verwijder items uit de frasenlijst. </br> 
 
    ![Sjabloon bewerken](../media/content-understanding/phone-template-live.png)</br>
 

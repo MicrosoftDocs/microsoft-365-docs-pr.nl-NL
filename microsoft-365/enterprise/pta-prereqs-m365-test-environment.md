@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,31 +14,33 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving voor het testen van identiteits- en apparaattoegang met de vereisten voor pass-through-verificatie.
-ms.openlocfilehash: 7741b38a947e58d81192326c412760487d803e36
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 71ba116ee45f031b156934e0924a0c3d460110d5
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399179"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233760"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor pass-through-verificatie in uw Microsoft 365-testomgeving.
 
-*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
+*Deze Test Lab Guide kan alleen worden gebruikt voor Microsoft 365 voor bedrijfstestomgevingen.*
 
-[Configuraties voor identiteits-en Apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) zijn een set configuraties en regels voor voorwaardelijke toegang om toegang te krijgen tot alle services in microsoft 365 for Enterprise die zijn geïntegreerd in azure Active Directory (Azure AD).
+Identiteits- en [apparaattoegangsconfiguraties](../security/office-365-security/microsoft-365-policies-configurations.md) zijn een reeks configuraties en beleidsregels voor voorwaardelijke toegang ter bescherming van de toegang tot alle services in Microsoft 365 voor ondernemingen die zijn geïntegreerd met Azure Active Directory (Azure AD).
 
 In dit artikel wordt beschreven hoe u een Microsoft 365-testomgeving kunt configureren die voldoet aan de vereisten van de [configuratie voor pass-through-verificatie](../security/office-365-security/identity-access-prerequisites.md#prerequisites) voor identiteits- en apparaattoegang.
 
-Er zijn acht fasen om deze testomgeving in te stellen:
+Het instellen van deze testomgeving bestaat uit tien fasen:
 
-1.  Uw gesimuleerde Enterprise uitbreiden met een Microsoft 365-testomgeving met pass-through-verificatie
-2.  Naadloze eenmalige Azure AD-aanmelding configureren
-3.  Benoemde locaties configureren
-4.  Wachtwoord terugschrijven configureren
-5.  Self-service voor wachtwoordherstel configureren
-6.  Meervoudige verificatie configureren
-7.  Azure AD Identity Protection inschakelen
-8.  Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online
+1. Uw gesimuleerde Enterprise uitbreiden met een Microsoft 365-testomgeving met pass-through-verificatie
+2. Naadloze eenmalige Azure AD-aanmelding configureren
+3. Benoemde locaties configureren
+4. Wachtwoord terugschrijven configureren
+5. Self-service voor wachtwoordherstel configureren
+6. Meervoudige verificatie configureren
+7. Automatische apparaatregistratie inschakelen voor Windows-computers die lid zijn van een domein
+8. Wachtwoordbeveiliging voor Azure AD configureren 
+9. Azure AD Identity Protection inschakelen
+10. Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online
 
 ## <a name="phase-1-build-out-your-simulated-enterprise-with-pass-through-authentication-microsoft-365-test-environment"></a>Fase 1: Uw gesimuleerde Enterprise uitbreiden met een Microsoft 365-testomgeving met pass-through-verificatie
 
@@ -87,11 +88,19 @@ Volg de instructies in [Fase 2 van testlabrichtlijn Meervoudige verificatie](mul
 
 Test meervoudige verificatie alleen voor het Gebruiker 2-account.
 
-## <a name="phase-7-enable-azure-ad-identity-protection"></a>Fase 7: Azure AD Identity Protection inschakelen
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 7: Automatische apparaatregistratie inschakelen voor Windows-computers die lid zijn van een domein 
+
+Volg [deze instructies om](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie in teschakelen voor Windows-computers die lid zijn van een domein.
+
+## <a name="phase-8-configure-azure-ad-password-protection"></a>Fase 8: Wachtwoordbeveiliging voor Azure AD configureren 
+
+Volg [deze instructies om](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) bekende zwakke wachtwoorden en hun varianten te blokkeren.
+
+## <a name="phase-9-enable-azure-ad-identity-protection"></a>Fase 9: Azure AD Identity Protection inschakelen
 
 Volg de instructies in [Fase 2 van testlabrichtlijn Azure AD Identity Protection](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection). 
 
-## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 8: Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online
+## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 10: Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online
 
 Volg voor Exchange Online [deze instructies](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
 
@@ -121,11 +130,11 @@ Gebruik [algemeen beleid voor identiteits- en apparaattoegang](identity-access-p
 
 [Aanvullende testlabrichtlijnen voor identiteit](m365-enterprise-test-lab-guides.md#identity)
 
-[Identiteitskaart](identity-roadmap-microsoft-365.md)
+[Routekaart voor identiteit](identity-roadmap-microsoft-365.md)
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
 

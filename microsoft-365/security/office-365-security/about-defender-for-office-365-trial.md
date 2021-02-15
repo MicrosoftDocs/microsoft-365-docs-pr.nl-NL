@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie krijgen over de proefversie van Microsoft Defender voor Office 365
-ms.openlocfilehash: f5ab0b0cd4ef5c2bf1a799043af94a0938a53783
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 6207ae117f06a0e5f10d4a7a47a251137c51df05
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114893"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233576"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Informatie over de proefversie van Microsoft Defender voor Office 365
 
@@ -34,18 +34,18 @@ Microsoft Defender voor Office 365 beschermt uw organisatie tegen schadelijke be
 - **Functies voor bedreigingsonderzoek en reacties**: gebruik toonaangevende hulpmiddelen om bedreigingen te onderzoeken, te doorgronden, te simuleren en te voorkomen.
 - **Mogelijkheden voor geautomatiseerd onderzoek en acties**: bespaar tijd en moeite bij het onderzoeken en beperken van bedreigingen.
 
-Een proefversie van Microsoft Defender voor Office 365 is de eenvoudigste manier om de mogelijkheden van Defender voor Office 365 uit te proberen. Het instellen is met slechts een paar klikken mogelijk. Nadat de installatie van het proefabonnement is voltooid, zijn alle mogelijkheden van Defender voor Office 365 Abonnement 1 en Abonnement 2 tot 90 dagen beschikbaar in de organisatie.
+Een proefversie van Microsoft Defender voor Office 365 is de eenvoudigste manier om de mogelijkheden van Defender voor Office 365 uit te proberen. Het instellen is met slechts een paar klikken mogelijk. Nadat het proefabonnement is ingesteld, zijn alle mogelijkheden van Defender voor Office 365 Abonnement 1 en Abonnement 2 tot 90 dagen beschikbaar in de organisatie.
 
 > [!NOTE]
-> De geautomatiseerde configuratie die in dit artikel wordt beschreven, bevindt zich momenteel in de openbare preview-versie en is mogelijk niet beschikbaar op uw locatie.
+> De automatische configuratie die in dit artikel wordt beschreven, bevindt zich momenteel in de openbare preview-versie en is mogelijk niet beschikbaar op uw locatie.
 
 ## <a name="terms-and-conditions"></a>Algemene voorwaarden
 
-De proefversie van Defender voor Office 365 is 90 dagen beschikbaar en kan worden gestart voor al uw gebruikers. Zie de gebruiksvoorwaarden voor de proefversie van [Microsoft Defender voor Office 365 voor meer informatie.](terms-of-use-defender-for-office-365-trial.md)
+De proefversie van Defender voor Office 365 is 90 dagen beschikbaar en kan worden gestart voor al uw gebruikers. Zie de voorwaarden voor de proefversie van Microsoft Defender voor [Office 365 & meer informatie.](defender-for-office-365-trial-terms-and-conditions.md)
 
 ## <a name="set-up-a-defender-for-office-365-trial"></a>Een proefversie van Defender voor Office 365 instellen
 
-Met een proefversie kunnen organisaties de mogelijkheden van Defender voor Office 365 eenvoudig instellen en configureren. Tijdens de installatie worden beleidsregels toegepast die exclusief zijn voor Defender voor Office 365 (met name [Veilige](atp-safe-attachments.md) [bijlagen,](atp-safe-links.md)Veilige koppelingen en imitatiebeveiliging [in antispambeleid)](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)met behulp van de sjabloon Standaard voor vooraf ingestelde beveiligingsbeleidsregels. [](preset-security-policies.md)
+Met een proefversie kunnen organisaties de mogelijkheden van Defender voor Office 365 eenvoudig instellen en configureren. Tijdens de installatie worden beleidsregels die exclusief zijn voor Defender voor Office 365 (met name [veilige](atp-safe-attachments.md) [bijlagen,](atp-safe-links.md)veilige [](preset-security-policies.md)koppelingen en imitatiebeveiliging in [antispambeleid)](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)toegepast met behulp van de sjabloon Standaard voor vooraf ingestelde beveiligingsbeleidsregels.
 
 Dit beleid is standaard beperkt tot alle gebruikers in de organisatie, maar beheerders kunnen het beleid aanpassen tijdens of na de installatie, zodat ze alleen van toepassing zijn op specifieke gebruikers.
 
@@ -63,11 +63,11 @@ Als u het proefabonnement wilt starten of beëindigen,  moet u lid zijn van de r
 
 Nadat u zich hebt ingeschreven voor het proefabonnement, kan het tot 2 uur duren voordat de wijzigingen en updates beschikbaar zijn. Beheerders moeten zich afmelden en opnieuw aanmelden om de wijzigingen te zien.
 
-Beheerders kunnen de proefversie op elk moment uitschakelen door naar de <> gaan.
+Beheerders kunnen het proefabonnement op elk moment uitschakelen door naar de kaart <> gaan.
 
 ## <a name="availability"></a>Beschikbaarheid
 
-De proefversie van Defender voor Office 365 wordt geleidelijk uitgerold naar bestaande klanten die voldoen aan specifieke criteria (waaronder geografie) en die geen bestaande licenties voor Defender voor Office 365 Abonnement 1 of Abonnement 2 hebben (inbegrepen in hun abonnement of als een invoegversie).
+De proefversie van Defender voor Office 365 wordt geleidelijk uitgerold naar bestaande klanten die voldoen aan specifieke criteria (waaronder geografie) en die geen bestaande licentie voor Defender voor Office 365 Abonnement 1 of Abonnement 2 hebben (inbegrepen in hun abonnement of als een invoegversie).
 
 ## <a name="learn-more-about-defender-for-office-365"></a>Meer informatie over Defender voor Office 365
 
@@ -79,7 +79,7 @@ In deze interactieve handleiding vindt u meer informatie over Defender [voor](ht
 
 ### <a name="prevention"></a>Preventie
 
-Een krachtige filtertack voorkomt een grote verscheidenheid aan volume-gebaseerde en gerichte aanvallen, waaronder zakelijke e-mailcompromitteerd, referentie phishing, ransomware en geavanceerde malware.
+Een krachtige filtertack voorkomt een grote verscheidenheid aan volume-gebaseerde en gerichte aanvallen, waaronder zakelijke e-mailcompromitteerd, referenties phishing, ransomware en geavanceerde malware.
 
 - [Anti-phishingbeleid: Exclusieve instellingen in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 - [Veilige bijlagen](atp-safe-attachments.md)
@@ -121,4 +121,4 @@ Aanbevolen sjablonen en configuratie-inzichten helpen klanten om ze veilig te kr
 
 ## <a name="give-feedback"></a>Feedback geven
 
-Uw feedback helpt ons uw omgeving beter te beschermen tegen geavanceerde aanvallen. Deel uw ervaring en wee van productmogelijkheden en proefresultaten.
+Uw feedback helpt ons om uw omgeving beter te beschermen tegen geavanceerde aanvallen. Deel uw ervaring en overdrest van productmogelijkheden en proefresultaten.

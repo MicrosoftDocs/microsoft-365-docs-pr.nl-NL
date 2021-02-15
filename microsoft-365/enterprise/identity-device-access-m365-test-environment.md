@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 04/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,37 +14,37 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Maak een Microsoft 365-omgeving om de toegang tot identiteiten en apparaten te testen.
-ms.openlocfilehash: b8e91a58bb6e1c00013b963c77151080a419b836
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: ed143341079a55d6bdd1d4a68feea68acb86ef85
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398805"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233726"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Identiteit en apparaattoegang voor uw Microsoft 365-testomgeving
 
-*Deze test lab-gids kan alleen worden gebruikt voor Microsoft 365 voor Enterprise test omgevingen.*
+*Deze Test Lab Guide kan alleen worden gebruikt voor Microsoft 365 voor bedrijfstestomgevingen.*
 
-[Configuraties voor identiteits-en Apparaattoegang](../security/office-365-security/microsoft-365-policies-configurations.md) zijn een set functies en regels voor voorwaardelijke toegang om de toegang te beschermen tot alle services die zijn geïntegreerd in azure Active Directory (Azure AD).
+[Configuraties voor identiteits-](../security/office-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een reeks aanbevolen configuraties en beleidsregels voor voorwaardelijke toegang ter bescherming van de toegang tot alle services die zijn geïntegreerd met Azure Active Directory (Azure AD).
 
-U kunt als volgt een testomgeving maken met de algemene configuraties voor identiteiten en Apparaattoegang:
+Een testomgeving maken met de configuraties voor gemeenschappelijke identiteits- en apparaattoegang:
 
 1. Configureer uw testomgeving met de vereiste identiteits- en beveiligingsfuncties op basis van uw keuze van identiteitsmodel en verificatiemethode:
 
   - [Alleen cloud](cloud-only-prereqs-m365-test-environment.md)
-  - [Synchronisatie van wachtwoord hash (PHS)](phs-prereqs-m365-test-environment.md)
+  - [Wachtwoord-hashsynchronisatie (PHS)](phs-prereqs-m365-test-environment.md)
   - [Pass Through-verificatie (PTA)](pta-prereqs-m365-test-environment.md)
 
-2. Gebruik [veelgebruikte beleidsregels voor identiteiten en apparaten](identity-access-policies.md) om het beleid te configureren dat wordt gebruikt voor de testomgeving, en om de bescherming voor identiteiten en apparaten te verkennen en te verifiëren.
+2. Gebruik [algemene beleidsregels](identity-access-policies.md) voor identiteits- en apparaattoegang om het beleid te configureren dat is gebaseerd op de vereisten die zijn geconfigureerd voor uw testomgeving, en om de beveiliging voor identiteiten en apparaten te verkennen en te controleren.
 
 ## <a name="see-also"></a>Zie ook
 
 [Aanvullende testlabrichtlijnen voor identiteit](m365-enterprise-test-lab-guides.md#identity)
 
-[Identiteitskaart](identity-roadmap-microsoft-365.md)
+[Routekaart voor identiteit](identity-roadmap-microsoft-365.md)
 
 [Microsoft 365 Enterprise-testlabrichtlijnen](m365-enterprise-test-lab-guides.md)
 
 [Overzicht van Microsoft 365 voor ondernemingen](microsoft-365-overview.md)
 
-[Documentatie voor Microsoft 365 for Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 enterprise-documentatie](https://docs.microsoft.com/microsoft-365-enterprise/)
