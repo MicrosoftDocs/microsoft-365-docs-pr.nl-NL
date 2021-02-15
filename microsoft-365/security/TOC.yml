@@ -275,6 +275,8 @@
                   href: mtp/device-profile.md
                 - name: Feedback geven
                   href: mtp/feedback.md
+                - name: Beheerde serviceprovidertoegang (MSSP) bieden
+                  href: mtp/mssp-access.md
                 - name: ServiceNow-tickets en -taken maken
                   items:
                     - name: Overzicht van ServiceNow-integratie

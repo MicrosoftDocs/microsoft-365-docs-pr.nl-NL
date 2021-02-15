@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-topics
 localization_priority: None
 description: Informatie over het zoeken naar bronnen voor Microsoft Viva-onderwerpen.
-ms.openlocfilehash: 3e75dfcfa17e5604e04b6f5e49be9019b1679110
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: d5c54bda3432fc9a1ff5ce4342cc523544eb6e78
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107168"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242864"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Inleiding tot Microsoft Viva-onderwerpen
 
@@ -42,6 +42,9 @@ De informatiebronnen in deze sectie helpen u meer te weten te komen over wat Viv
 |Meer informatie over Viva-onderwerpen|[Overzicht van Microsoft Viva-onderwerpen](topic-experiences-overview.md)|
 |Ontdek hoe onderwerpen worden gevonden en voorgesteld door AI|[Discovery over Microsoft Viva-onderwerpen](topic-experiences-discovery.md)|
 |Meer informatie over onderwerpbeveiliging|[Microsoft Viva-beveiliging en -privacy](topic-experiences-security-privacy.md)|
+|Informatie over het krijgen van Viva-onderwerpen|[Productpagina Microsoft Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
+|Raadpleeg bronnen in het Microsoft Tech Community Resource Center|[Technische community over Microsoft Viva-onderwerpen](https://resources.techcommunity.microsoft.com/viva-topics/)|
+
 
 
 ## <a name="adoption"></a>Ingebruikname

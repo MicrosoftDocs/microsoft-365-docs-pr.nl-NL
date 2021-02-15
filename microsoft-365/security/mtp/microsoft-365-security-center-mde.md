@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 03b73901512522edec7fdbc579eaf4073eed5d48
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1fd32aa688256f1ac8e63eec902c3a18b2143f09
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167442"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242912"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft Defender voor eindpunt in het Microsoft 365-beveiligingscentrum
 
@@ -43,6 +43,9 @@ Als u bekend bent met het Microsoft Defender-beveiligingscentrum, kunt u in dit 
 
 In het verleden [was het Microsoft Defender-beveiligingscentrum](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/portal-overview) de thuisbasis voor Microsoft Defender voor het eindpunt. Beveiligingsteams in het bedrijf hebben dit gebruikt om waarschuwingen van geavanceerde permanente bedreigingsactiviteit of gegevensinbreuken te controleren en te helpen beantwoorden. Om het aantal portals te verminderen, is het Microsoft 365-beveiligingscentrum de thuisbasis voor het bewaken en beheren van de beveiliging in uw Microsoft-identiteiten, gegevens, apparaten, apps en infrastructuur.
 
+Microsoft Defender for Endpoint in het Microsoft 365-beveiligingscentrum ondersteunt het verlenen van toegang aan [MSSP's (Managed Security Service Providers)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) op dezelfde manier als toegang wordt verleend in het [Microsoft Defender-beveiligingscentrum.](mssp-access.md)
+
+
 > [!IMPORTANT]
 > Wat u in het Microsoft 365-beveiligingscentrum ziet, is afhankelijk van uw huidige abonnementen. Als u bijvoorbeeld geen licentie voor Microsoft Defender voor Office 365 hebt, wordt de sectie E-mail & Samenwerking niet weergegeven.
 
@@ -59,7 +62,7 @@ Deze tabel is een beknopt overzicht van de wijzigingen tussen het Microsoft Defe
 |**Gebied**  |**Beschrijving van wijziging**  |
 |---------|---------|
 | [Incidenten & waarschuwingen](incidents-overview.md)  | In het Microsoft 365-beveiligingscentrum kunt u incidenten en waarschuwingen voor al uw eindpunten, e-mailadressen en identiteiten beheren. We hebben de ervaring geconvergeerd om u te helpen gerelateerde gebeurtenissen gemakkelijker te vinden. Zie Overzicht van [incidenten voor meer informatie.](incidents-overview.md)   |
-| [Op zoek naar](advanced-hunting-overview.md)  |  Als u aangepaste detectieregels wijzigt die zijn gemaakt in Microsoft Defender for Endpoint, worden deze automatisch verplaatst naar Microsoft 365 Defender. De bijbehorende waarschuwingen worden ook weergegeven in Microsoft 365 Defender. Lees aangepaste detectieregels migreren voor meer informatie over [deze wijzigingen.](advanced-hunting-migrate-from-mdatp.md#migrate-custom-detection-rules) De `DeviceAlertEvents` tabel voor geavanceerd zoeken is niet beschikbaar in Microsoft 365 Defender. Als u een query wilt uitvoeren op apparaatspecifieke waarschuwingsgegevens in Microsoft 365 Defender, kunt u de tabellen gebruiken om nog meer informatie uit een reeks `AlertInfo` `AlertEvidence` bronnen op te vragen. Maak uw volgende apparaatgerelateerde query door [query's schrijven zonder DeviceAlertEvents te volgen.](advanced-hunting-migrate-from-mdatp.md#write-queries-without-devicealertevents)|
+| [Op zoek naar](advanced-hunting-overview.md)  |  Als u aangepaste detectieregels wijzigt die zijn gemaakt in Microsoft Defender for Endpoint, worden deze automatisch verplaatst naar Microsoft 365 Defender. De bijbehorende waarschuwingen worden ook weergegeven in Microsoft 365 Defender. Lees aangepaste detectieregels migreren voor meer informatie over [deze wijzigingen.](advanced-hunting-migrate-from-mdatp.md#migrate-custom-detection-rules) De `DeviceAlertEvents` tabel voor geavanceerd zoeken is niet beschikbaar in Microsoft 365 Defender. Als u een query wilt uitvoeren op apparaatspecifieke waarschuwingsgegevens in Microsoft 365 Defender, kunt u de tabellen en de tabellen gebruiken om nog meer informatie uit een reeks `AlertInfo` `AlertEvidence` bronnen op te vragen. Maak uw volgende apparaatgerelateerde query door [query's schrijven zonder DeviceAlertEvents te volgen.](advanced-hunting-migrate-from-mdatp.md#write-queries-without-devicealertevents)|
 |[Actiecentrum](mtp-action-center.md)    | Toont acties in behandeling en voltooid die zijn uitgevoerd na geautomatiseerde onderzoeken en herstelacties. Voorheen vermeldde het actiecentrum in het Microsoft Defender-beveiligingscentrum acties in behandeling en voltooid voor herstelacties die alleen op apparaten werden uitgevoerd, terwijl Geautomatiseerde onderzoeken waarschuwingen en status vermeldden. In het verbeterde Microsoft 365-beveiligingscentrum zijn in het Actiecentrum herstelacties en onderzoeken voor e-mail, apparaten en gebruikers samengekomen, allemaal op één locatie.  |
 | [Dreigingsanalyse](threat-analytics.md) |  Verplaatst naar de bovenkant van de navigatiebalk voor eenvoudigere detectie en gebruik. Bevat nu bedreigingsgegevens voor eindpunten en e-mail en samenwerking.    |
 
@@ -82,8 +85,8 @@ Deze tabel is een beknopt overzicht van de wijzigingen tussen het Microsoft Defe
 
 |**Gebied**  |**Beschrijving van wijziging**  |
 |---------|---------|
-| Rapporten  | Bekijk rapporten voor eindpunten en e-& samenwerking, waaronder bedreigingsbeveiliging, apparaat status en compliance, en kwetsbaar apparaten. |
-| Gezondheid  |  Koppelingen naar de pagina 'Service status' in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/) |
+| Rapporten  | Bekijk rapporten voor eindpunten en e-& samenwerking, waaronder bedreigingsbeveiliging, apparaat status en naleving en kwetsbaar apparaten. |
+| Gezondheid  |  Koppelingen naar de pagina Service status in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/) |
 | Instellingen |  Beheer uw instellingen voor het Microsoft 365-beveiligingscentrum, Microsoft 365 Defender, Eindpunten, E-mail & samenwerking, Identiteiten en Apparaatdetectie.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Microsoft 365-beveiligingsnavigatie en -mogelijkheden
@@ -92,7 +95,7 @@ Het linkernavigatiedeelvenster of de werkbalk Snel starten ziet er vertrouwd uit
 
 ### <a name="incidents-and-alerts"></a>Incidenten en waarschuwingen
 
-Brengt incident- en waarschuwingsbeheer samen voor uw e-mail, apparaten en identiteiten. De waarschuwingspagina biedt volledige context voor de waarschuwing door het combineren van aanvallen om een gedetailleerd verhaal op te bouwen. Een nieuwe, geïntegreerde ervaring biedt nu een consistente weergave van waarschuwingen voor werkbelastingen. U kunt snel triage, onderzoek doen en effectieve actie ondernemen.
+Brengt incident- en waarschuwingsbeheer samen voor uw e-mail, apparaten en identiteiten. De waarschuwingspagina biedt volledige context voor de waarschuwing door het combineren van aanvallen om een gedetailleerd verhaal op te bouwen. Een nieuwe, geïntegreerde ervaring brengt nu een consistente weergave van waarschuwingen voor werkbelastingen samen. U kunt snel triage, onderzoek doen en effectieve actie ondernemen.
 
 - [Meer informatie over incidenten](incidents-overview.md)
 - [Meer informatie over het beheren van waarschuwingen](investigate-alerts.md)
@@ -103,18 +106,18 @@ Brengt incident- en waarschuwingsbeheer samen voor uw e-mail, apparaten en ident
 
 U kunt proactief zoeken naar bedreigingen, malware en schadelijke activiteiten in uw eindpunten, Office 365-postvakken en meer met behulp van geavanceerde [zoekquery's.](advanced-hunting-overview.md) Deze krachtige query's kunnen worden gebruikt om bedreigingsindicatoren en entiteiten voor zowel bekende als potentiële bedreigingen te zoeken en te controleren.
 
-[Aangepaste detectieregels kunnen](custom-detection-rules.md) worden gemaakt van geavanceerde zoekquery's om u te helpen proactief te letten op gebeurtenissen die mogelijk te maken hebben met inbreuken en onjuist geconfigureerde apparaten.
+[Aangepaste detectieregels](custom-detection-rules.md) kunnen worden gemaakt van geavanceerde zoekquery's om u te helpen proactief te letten op gebeurtenissen die mogelijk te maken hebben met inbreuken en onjuist geconfigureerde apparaten.
 
 
 ### <a name="action-center"></a>Actiecentrum
 
-Het actiecentrum toont de onderzoeken die zijn gemaakt door geautomatiseerde onderzoeks- en antwoordmogelijkheden. Met deze automatische, zelf-herstel in Microsoft 365 Defender kunnen beveiligingsteams worden geholpen door automatisch te reageren op specifieke gebeurtenissen.
+In het actiecentrum ziet u de onderzoeken die zijn gemaakt door geautomatiseerde onderzoeks- en antwoordmogelijkheden. Met deze automatische, zelf-herstel in Microsoft 365 Defender kunnen beveiligingsteams worden geholpen door automatisch te reageren op specifieke gebeurtenissen.
 
 [Meer informatie over het Actiecentrum](mtp-action-center.md)
 
 ### <a name="threat-analytics"></a>Bedreigingsanalyse
 
-Krijg bedreigingsinformatie van expert Microsoft-beveiligingsonderzoek. Met Bedreigingsanalyse kunnen beveiligingsteams efficiënter werken met nieuwe bedreigingen. Bedreigingsanalyse omvat:
+Krijg bedreigingsinformatie van deskundige Microsoft-beveiligingsonderzoekers. Met Bedreigingsanalyse kunnen beveiligingsteams efficiënter werken met nieuwe bedreigingen. Bedreigingsanalyse omvat:
 
 - E-maildetectie en risicobeperking van Microsoft Defender voor Office 365. Dit komt naast de eindpuntgegevens die al beschikbaar zijn van Microsoft Defender voor Eindpunt.
 - Weergave incidenten met betrekking tot de bedreigingen.
@@ -122,7 +125,7 @@ Krijg bedreigingsinformatie van expert Microsoft-beveiligingsonderzoek. Met Bedr
 
 U kunt bedreigingsanalyse openen vanaf de navigatiebalk linksboven in het Microsoft 365-beveiligingscentrum of vanaf een speciale dashboardkaart met de belangrijkste bedreigingen voor uw organisatie.
 
-Meer informatie over het volgen [en reageren op nieuwe bedreigingen met bedreigingsanalyse](https://docs.microsoft.com/microsoft-365/security/mtp/threat-analytics)
+Meer informatie over het volgen en [reageren op nieuwe bedreigingen met bedreigingsanalyse](https://docs.microsoft.com/microsoft-365/security/mtp/threat-analytics)
 
 ### <a name="endpoints-section"></a>Sectie Eindpunten
 
@@ -138,13 +141,13 @@ Rapporten weergeven, uw instellingen wijzigen en gebruikersrollen wijzigen.
 
 ### <a name="siem-api-connections"></a>SIEM API-verbindingen
 
-Als u de [DEFENDER for Endpoint SIEM-API](/windows/security/threat-protection/microsoft-defender-atp/enable-siem-integration.md)gebruikt, kunt u dat blijven doen. We hebben nieuwe koppelingen toegevoegd op de API-nettolading die naar de waarschuwingspagina of de incidentpagina in de Microsoft 365-beveiligingsportal wijzen. Nieuwe API-velden zijn LinkToMTP en IncidentLinkToMTP. Zie Accounts van [Microsoft Defender for Endpoint omleiden naar het Microsoft 365-beveiligingscentrum](/microsoft-365/security/mtp/microsoft-365-security-mde-redirection.md)voor meer informatie.
+Als u de [DEFENDER for Endpoint SIEM-API](/windows/security/threat-protection/microsoft-defender-atp/enable-siem-integration.md)gebruikt, kunt u dat blijven doen. We hebben nieuwe koppelingen toegevoegd op de API-nettolading die naar de waarschuwingspagina of de incidentpagina in de Microsoft 365-beveiligingsportal wijzen. Nieuwe API-velden zijn LinkToMTP en IncidentLinkToMTP. Zie Accounts van Microsoft Defender for [Endpoint omleiden naar het Microsoft 365-beveiligingscentrum](/microsoft-365/security/mtp/microsoft-365-security-mde-redirection.md)voor meer informatie.
 
 ### <a name="email-alerts"></a>E-mailwaarschuwingen
 
-U kunt e-mailwaarschuwingen blijven gebruiken voor Defender voor eindpunt. We hebben nieuwe koppelingen toegevoegd in de e-mailberichten die wijzen naar de waarschuwingspagina of de incidentpagina in het Microsoft 365-beveiligingscentrum. Zie Accounts van [Microsoft Defender for Endpoint omleiden naar het Microsoft 365-beveiligingscentrum](/microsoft-365/security/mtp/microsoft-365-security-mde-redirection.md)voor meer informatie.
+U kunt e-mailwaarschuwingen blijven gebruiken voor Defender voor eindpunt. We hebben nieuwe koppelingen toegevoegd in de e-mailberichten die wijzen naar de waarschuwingspagina of de incidentpagina in het Microsoft 365-beveiligingscentrum. Zie Accounts van Microsoft Defender for [Endpoint omleiden naar het Microsoft 365-beveiligingscentrum](/microsoft-365/security/mtp/microsoft-365-security-mde-redirection.md)voor meer informatie.
 
-## <a name="related-information"></a>Verwante informatie
+## <a name="related-information"></a>Gerelateerde informatie
 
 - [Microsoft 365-beveiligingscentrum](overview-security-center.md)
 - [Microsoft Defender voor eindpunt in het Microsoft 365-beveiligingscentrum](microsoft-365-security-center-mde.md)

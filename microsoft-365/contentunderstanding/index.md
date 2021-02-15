@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Informatie over het zoeken naar bronnen voor Microsoft SharePoint Syntex.
-ms.openlocfilehash: 02f3da4e03d13b0710590336e49292ac6df70560
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 21dc0e29e9322b4c009b0f1e63b7bfbc4b92da9a
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044754"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242698"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Kennismaken met Microsoft SharePoint Syntex
 
@@ -45,8 +45,8 @@ In de informatiebronnen in dit gedeelte vindt je meer informatie over de twee me
 |Meer informatie over documentbegrip|[Overzicht van documentbegrip](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
 |Meer informatie over formulierverwerking|[Overzicht formulierverwerking](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|
 |De verschillen tussen de twee methoden begrijpen|[Het verschil tussen documentbegrip- en formulierverwerkingsmodellen](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
-|Raadpleeg bronnen in het Microsoft Tech Community Resource Center|[SharePoint Syntex - inhoudsservices in Microsoft 365](https://resources.techcommunity.microsoft.com/sharepoint-syntex/)|
-|Veelgestelde vragen over SharePoint Syntex in het Microsoft Tech Community Resource Center |[SharePoint Syntex - veelgestelde vragen](https://resources.techcommunity.microsoft.com/project-cortex-microsoft-365/faq/)|
+|Raadpleeg bronnen in het Microsoft Tech Community Resource Center|[SharePoint Syntex - inhoudsservices in Microsoft 365](https://techcommunity.microsoft.com/t5/sharepoint-syntex/bg-p/SharePointSyntex)|
+|Veelgestelde vragen over SharePoint Syntex in het Microsoft Tech Community Resource Center |[SharePoint Syntex - veelgestelde vragen](https://resources.techcommunity.microsoft.com/sharepoint-syntex/faq/)|
 |SharePoint Syntex downloaden |[Productpagina van SharePoint Syntex](https://www.microsoft.com/microsoft-365/enterprise/sharepoint-syntex)|
 
 ## <a name="adoption"></a>Ingebruikname
@@ -76,6 +76,7 @@ De informatiebronnen in dit gedeelte helpen je gebruikers documentbegrip- en for
 |Een retentielabel toepassen op uw model|[Een retentietag toepassen op een documentbegripmodel](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
 |Taxonomie van beheerde metagegevensservices-termenarchief gebruiken bij het maken van een extractor|[De taxonomie van een termenarchief benutten bij het maken van een extractor](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
 |Informatie over het weergeven van gegevens over uw modellen|[Gebruiksanalyse van modellen](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|
+|Kom te weten hoe je toegankelijkheidsmodus kan gebruiken wanneer je een model opleidt|[SharePoint Syntex toegankelijkheidsmodus](https://docs.microsoft.com/microsoft-365/contentunderstanding/accessibility-mode)|
 
 ## <a name="premium-services"></a>Premium-services
 

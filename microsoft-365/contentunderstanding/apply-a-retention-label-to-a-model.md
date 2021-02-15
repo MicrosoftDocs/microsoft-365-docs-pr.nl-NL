@@ -1,5 +1,5 @@
 ---
-title: Een retentietag toepassen op een documentbegripmodel
+title: Een retentietag toepassen op een model
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -11,15 +11,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: In dit artikel wordt uitgelegd hoe u een retentietag kunt toepassen op een documentbegripmodel
-ms.openlocfilehash: 6dcd81b580b7bf0801641bbd019e1b99ecfe7338
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+description: In dit artikel wordt uitgelegd hoe je een retentietag kunt toepassen op een model in SharePoint Syntex
+ms.openlocfilehash: 48c0b983316cfe29019d09cb20546fa4b325b3b0
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976553"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242760"
 ---
-# <a name="apply-a-retention-label-to-a-document-understanding-model"></a>Een retentietag toepassen op een documentbegripmodel
+# <a name="apply-a-retention-label-to-a-model-in-sharepoint-syntex"></a>Je kunt een retentietag toepassen op een model in Microsoft SharePoint Syntex
 
 </br>
 
@@ -28,14 +28,14 @@ ms.locfileid: "49976553"
 </br>
 
 
-U kunt eenvoudig een [retentietag](https://docs.microsoft.com/microsoft-365/compliance/retention) toepassen op een documentbegripmodel in Microsoft SharePoint Syntex.
+Je kunt eenvoudig een [retentietag](https://docs.microsoft.com/microsoft-365/compliance/retention) toepassen op een model in Microsoft SharePoint Syntex. Je kan dit voor documentbegripmodellen en formulierverwerkingsmodellen doen.
 
-Met retentietags kunt u retentie-instellingen toepassen op de documenten die door uw documentbegripmodellen worden geïdentificeerd.  Bijvoorbeeld: u wilt dat uw model niet alleen alle documenten met *verzekeringskennisgevingen* die naar uw documentbibliotheek worden geüpload identificeert, maar ook een retentietag *zakelijk* aanbrengt, zodat deze documenten niet uit de documentbibliotheek kunnen worden verwijderd gedurende de opgegeven periode (bijvoorbeeld de komende vijf maanden).
+Met retentietags kan je retentie-instellingen toepassen op de documenten die door je modellen worden geïdentificeerd.  Bijvoorbeeld: u wilt dat uw model niet alleen alle documenten met *verzekeringskennisgevingen* die naar uw documentbibliotheek worden geüpload identificeert, maar ook een retentietag *zakelijk* aanbrengt, zodat deze documenten niet uit de documentbibliotheek kunnen worden verwijderd gedurende de opgegeven periode (bijvoorbeeld de komende vijf maanden).
 
-U kunt een bestaande retentietag toepassen op uw documentbegripmodel via de modelinstellingen op de startpagina van uw model. 
+Je kunt een bestaande retentietag toepassen op je model via de modelinstellingen op de startpagina van het model. 
 
 > [!Important]
-> Als u wilt dat retentietags beschikbaar zijn voor uw inhoudsbegripmodel, moeten deze worden [gemaakt en gepubliceerd in het Microsoft 365-compliancecentrum](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels).
+> Als je wilt dat retentietags beschikbaar zijn voor je documentbegripmodel, moeten deze [aangemaakt en gepubliceerd worden in het Microsoft 365-compliancecentrum](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels).
 
 ## <a name="to-add-a-retention-label-to-a-document-understanding-model"></a>Een retentietag toepassen op een documentbegripmodel
 
@@ -69,6 +69,62 @@ Op de pagina met de weergave van uw model in uw documentbibliotheek wordt er een
 
 
 Bijvoorbeeld: op alle *verzekeringskennisgevingen* die uw model identificeert, wordt ook de retentietag *zakelijk* toegepast, zodat ze gedurende vijf maanden lang niet uit de documentenbibliotheek kunnen worden verwijderd. Als geprobeerd wordt het bestand uit de documentbibliotheek te verwijderen, wordt een foutbericht weergegeven met de mededeling dat het niet is toegestaan vanwege de toegepaste retentietag.
+
+## <a name="to-add-a-retention-label-to-a-form-processing-model"></a>Een retentietag toepassen op een formulierverwerkingsmodel
+
+> [!Important]
+> Als je wilt dat retentietags beschikbaar zijn voor je formulierverwerkingsmodel, moeten deze [aangemaakt en gepubliceerd worden in het Microsoft 365-compliancecentrum](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels).
+
+Je kan een retentietag toepassen op een formulierverwerkingsmodel wanneer je een model maakt of je kan het toepassen op een bestaand model.
+
+### <a name="to-add-a-retention-label-when-you-create-a-form-processing-model"></a>Een retentietag toepassen wanneer je een formulierverwerkingsmodel maakt
+
+1. Wanneer je een [nieuw formulierverwerkingsmodel maakt](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model), kies <b>Geavanceerde instellingen.</b>
+2. In <b>Geavanceerde instellingen</b>, in de sectie <b>Retentietag</b>, selecteer het menu en selecteer vervolgens de retentietag die je wilt toepassen op het model.</b>
+
+ 
+     ![Toevoegen aan een nieuw formulierverwerkingsmodel](../media/content-understanding/retention-label-forms.png)</br>
+
+3.  Nadat je de overige modelinstellingen afgewerkt hebt, selecteer <b>Aanmaken</b> om jouw model te maken.
+
+### <a name="to-add-a-retention-label-to-an-existing-form-processing-model"></a>Een retentietag toepassen op een bestaand formulierverwerkingsmodel
+
+Een retentietag toevoegen aan een bestaand formulierverwerkingsmodel kan op verschillende manieren:
+- Via het Automatiseren-menu in de documentbibliotheek
+- Via de actieve modellen-instellingen in de documentbibliotheek 
+
+
+#### <a name="to-add-a-retention-label-to-an-existing-form-processing-model-through-the-automate-menu"></a>Een retentietag toepassen op een bestaand formulierverwerkingsmodel via het Automatiseren-menu
+
+Je kan een retentietag aan een bestaand formulierverwerkingsmodel dat je bezit, toevoegen via het Automatiseren-menu in de documentbibliotheek, waarop het model wordt toegepast.
+
+
+1. In je documentbibliotheek, waarop het formulierverwerkingsmodel wordt toegepast, kies je het menu <b>Automatiseren</b>, kies <b>AI-opbouwfunctie</b> en kies vervolgens <b>Informatie over formulierverwerkingsmodel weergeven</b>.
+
+   ![Automatiseren-menu](../media/content-understanding/automate-menu.png)</br>
+
+2. In de informatie over het model, in de sectie <b>Retentietag</b>, selecteer de retentietag die je wilt toepassen.  Selecteer vervolgens <b>Opslaan</b>.
+
+     ![Toevoegen aan een bestaand formulierverwerkingsmodel](../media/content-understanding/retention-label-model-details.png)</br> 
+
+#### <a name="to-add-a-retention-label-to-an-existing-form-processing-model-in-the-active-model-settings"></a>Een retentietag toevoegen aan een bestaand formulierverwerkingsmodel in de actieve modelinstellingen
+
+Je kan een retentietag aan een bestaand formulierverwerkingsmodel dat je bezit, toevoegen via de actieve modelinstellingen in de documentbibliotheek, waarop het model wordt toegepast.
+
+1. In de SharePoint documentbibliotheek waarop het model wordt toegepast, selecteer het pictogram<b>Actieve modellen weergeven</b> en selecteer vervolgens <b>Actieve modellen weergeven</b>.</b>
+
+   ![Actieve modellen weergeven](../media/content-understanding/info-du.png)</br> 
+
+2. In <b>Actieve modellen</b>, selecteer het formulierverwerkingsmodel waarop je de retentietag wilt toepassen.
+
+     ![Informatie over model](../media/content-understanding/retention-label-model-details.png)</br> 
+
+
+3. In de informatie over het model, in de sectie <b>Retentietag</b>, selecteer de retentietag die je wilt toepassen.  Selecteer vervolgens <b>Opslaan</b>.
+
+> [!NOTE]
+> Enkel de eigenaar van het model kan bewerkingen maken in het deelvenster modelinstellingen. 
+
 
 ## <a name="see-also"></a>Zie ook
 [Een classificatie maken](create-a-classifier.md)

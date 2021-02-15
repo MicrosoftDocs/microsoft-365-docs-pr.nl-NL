@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 35d4615057deee81285ba950a157f28160b6eefa
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 2b543dbc8132f261814aec45e713874971b9b5d1
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107232"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242880"
 ---
 # <a name="create-a-new-topic"></a>Een nieuw onderwerp maken 
 
@@ -32,13 +32,25 @@ In Viva-onderwerpen kunt u een nieuw onderwerp maken als er niet bij het indexer
 ## <a name="requirements"></a>Vereisten
 
 Als u een nieuw onderwerp wilt maken, moet u het volgende doen:
-- U hebt een licentie voor Viva-onderwerpen.
+- U hebt een licentie voor Viva Topics.
 - Machtigingen hebben voor [**Wie kan onderwerpen maken of bewerken.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
 
 > [!Note] 
-> Gebruikers die zijn machtigingen om onderwerpen te beheren in het onderwerpcentrum (knowledge managers) zijn al over machtigingen voor het maken en bewerken van onderwerpen.
+> Gebruikers die zijn machtigingen voor het beheren van onderwerpen in het onderwerpcentrum (knowledge managers) hebben al machtigingen voor het maken en bewerken van onderwerpen.
 
-## <a name="to-create-a-new-topic"></a>Een nieuw onderwerp maken:
+## <a name="to-create-a-topic"></a>Een onderwerp maken
+
+U kunt vanaf twee locaties een nieuw onderwerp maken:
+
+- Startpagina van het onderwerpcentrum:  Elke gelicentieerde gebruiker met de machtiging Wie kan onderwerpen maken of bewerken (inzenders) kan een nieuw onderwerp maken in het onderwerpcentrum door het <b>menu</b> Nieuw te selecteren en Onderwerppagina <b>te selecteren.</b></br> 
+
+    ![Nieuw onderwerp van het onderwerpcentrum](../media/knowledge-management/new-topic.png) </br> 
+
+- Pagina Onderwerpen beheren: Elke  gelicentieerde gebruiker met de machtiging Wie kan onderwerpen beheren (knowledge managers) kan een nieuw onderwerp maken op de pagina Onderwerpen beheren in het Onderwerpcentrum door De pagina Nieuw <b>onderwerp te selecteren.</b></br> 
+
+    ![Nieuw onderwerp van onderwerpen beheren](../media/knowledge-management/new-topic-topic-center.png) </br> 
+
+### <a name="to-create-a-new-topic"></a>Een nieuw onderwerp maken:
 
 1. Typ in **de sectie Naam van** dit onderwerp de naam van het nieuwe onderwerp.
 
