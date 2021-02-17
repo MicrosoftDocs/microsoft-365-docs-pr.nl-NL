@@ -22,19 +22,19 @@ search.appverid:
 description: Ontvang technische en factureringsondersteuning via het telefoonnummer dat wordt weergegeven voor uw land of regio of door uw serviceaanvraag online te versturen.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 06f78d50901f279bf27f55f1b8f7ad867682d784
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 7679539e64588827b6dcc20f6f98bc67e613aae6
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925576"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261333"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Manieren om contact op te nemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders
 
 ::: moniker range="o365-worldwide"
 
 > [!IMPORTANT]
-> U moet beheerder zijn van een bedrijfsabonnement om deze ondersteuningsmethoden te kunnen gebruiken. Als u geen bedrijfsbeheerder bent, gebruikt u [deze ondersteuningspagina](https://support.microsoft.com/help/contactus).
+> U moet beheerder zijn van een bedrijfsabonnement om deze ondersteuningsmethoden te kunnen gebruiken. Als u geen bedrijfsbeheerder bent, gebruikt u [deze ondersteuningspagina](https://support.microsoft.com/contactus).
 
 Begin met [het bekijken van de huidige status van uw services](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health). U kunt gedetailleerde informatie over huidige en eerdere problemen bekijken op het <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">Servicestatus-dashboard</a>. Als u een probleem ondervindt dat niet vermeld wordt, kunt u op een van de volgende manieren ondersteuning krijgen:
 

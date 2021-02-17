@@ -19,22 +19,22 @@ ms.custom:
 description: In dit artikel wordt uitgelegd welke wijzigingen worden doorgevoerd in de beveiligingsfuncties in Azure Information Protection
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2cb78f9e13d8ae429f5f46f2b1051d07ee541a10
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 0769306c3aa2d1a357e1d5999d1a1406c02aa5f3
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165977"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261559"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Beveiligingsfuncties in Azure Information Protection die worden uitgerold naar bestaande tenants
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Om u te helpen met de eerste stap bij het beveiligen van uw gegevens, zijn vanaf juli 2018 alle in aanmerking komende tenants van Azure Information Protection standaard ingeschakeld voor de beveiligingsfuncties in Azure Information Protection. De beveiligingsfuncties in Azure Information Protection werden voorheen in Office 365 bekend als Rights Management of Azure RMS. Als uw organisatie een Office E3-serviceplan of een hoger serviceplan heeft, krijgt u bij het implementeren van deze functies de implementatie van gegevens via Azure Information Protection.
+Om u te helpen bij de eerste stap bij het beveiligen van uw gegevens, zijn vanaf juli 2018 alle in aanmerking komende tenants voor Azure Information Protection standaard ingeschakeld voor de beveiligingsfuncties in Azure Information Protection. De beveiligingsfuncties in Azure Information Protection werden voorheen in Office 365 bekend als Rights Management of Azure RMS. Als uw organisatie een Office E3-serviceplan of een hoger serviceplan heeft, krijgt u bij het implementeren van deze functies de eerste keer te maken met het beveiligen van gegevens via Azure Information Protection.
 
 ## <a name="changes-beginning-july-1-2018"></a>Wijzigingen vanaf 1 juli 2018
 
@@ -50,7 +50,7 @@ Vanaf 1 juli 2018 zal Microsoft de beveiligingsmogelijkheden in Azure Informatio
 
 Tenantbeheerders kunnen de beveiligingsstatus controleren in de Office 365-beheerdersportal.
 
-![Schermafbeelding van het feit dat rechtenbeheer in Office 365 is geactiveerd.](../../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
+![Schermafbeelding die laat zien dat Rights Management in Office 365 is geactiveerd.](../../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
 
 ## <a name="why-are-we-making-this-change"></a>Waarom brengen we deze wijziging aan?
 
@@ -60,21 +60,22 @@ Office 365-berichtversleuteling maakt gebruik van de beveiligingsmogelijkheden i
 
 Als uw organisatie een in aanmerking komende Office 365-licentie heeft gekocht, heeft deze wijziging gevolgen voor uw tenant.
 
- **BELANGRIJK!** Als u ACTIVE Directory Rights Management Services (AD RMS) gebruikt in uw on-premises omgeving, moet u deze wijziging onmiddellijk stoppen of migreren naar Azure Information Protection voordat we deze wijziging binnen de komende 30 dagen implementeren. Zie 'I use AD RMS, how do I opt out?' voor meer informatie over het opt-out van dit gebruik. verder in dit artikel. Zie Migreren van AD RMS naar Azure Information Protection als u liever [migreert.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+> [!IMPORTANT]
+> Als u ACTIVE Directory Rights Management Services (AD RMS) gebruikt in uw on-premises omgeving, moet u deze wijziging onmiddellijk stoppen of migreren naar Azure Information Protection voordat we deze wijziging binnen de komende 30 dagen implementeren. Zie 'I use AD RMS, how do I opt out?' voor meer informatie over het opt-out van dit gebruik. verder in dit artikel. Zie Migreren van AD RMS naar Azure Information Protection als u liever [migreert.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="can-i-use-azure-information-protection-with-active-directory-rights-management-services-ad-rms"></a>Kan ik Azure Information Protection gebruiken met Active Directory Rights Management Services (AD RMS)?
 
-Nee. Dit is geen ondersteund implementatiescenario. Zonder de extra opt-outstappen uit te voeren, kunnen sommige computers automatisch gebruikmaken van de Azure Rights Management-service en ook verbinding maken met uw AD RMS-cluster. Dit scenario wordt niet ondersteund en heeft onbetrouwbare resultaten, dus het is belangrijk dat u deze wijziging binnen 30 dagen voordat we deze nieuwe functies uitrollen, uitrolt. Zie 'I use AD RMS, how do I opt out? verder in dit artikel. Zie Migreren van AD RMS naar Azure Information Protection als u liever [migreert.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+Nee. Dit is geen ondersteund implementatiescenario. Zonder de extra opt-outstappen uit te voeren, kunnen sommige computers automatisch gebruikmaken van de Azure Rights Management-service en ook verbinding maken met uw AD RMS-cluster. Dit scenario wordt niet ondersteund en heeft onbetrouwbare resultaten, dus het is belangrijk dat u deze wijziging binnen 30 dagen voordat we deze nieuwe functies uitrollen, uitrolt. Zie 'I use AD RMS, how do I opt out?' voor meer informatie over het opt-out van dit gebruik. verder in dit artikel. Zie Migreren van AD RMS naar Azure Information Protection als u liever [migreert.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="how-do-i-know-if-im-using-ad-rms"></a>Hoe weet ik of ik AD RMS gebruik?
 
 Gebruik deze instructies voor het voorbereiden van de omgeving voor Azure Rights Management wanneer u ook [Active Directory Rights Management Services (AD RMS)](https://docs.microsoft.com/azure/information-protection/deploy-use/prepare-environment-adrms) hebt om te controleren of U AD RMS hebt geïmplementeerd:
 
-1. Hoewel optioneel, publiceren de meeste AD RMS-implementaties het serviceverbindingspunt (SCP) naar Active Directory, zodat domeincomputers het AD RMS-cluster kunnen vinden.
+1. Hoewel optioneel, publiceren de meeste AD RMS-implementaties het serviceverbindingspunt (SCP) naar Active Directory, zodat domeincomputers het AD RMS-cluster kunnen ontdekken.
 
-AdsI Edit gebruiken om te zien of er een SCP is gepubliceerd in Active Directory: CN=Configuration [servernaam], CN=Services, CN=RightsManagementServices, CN=SCP
+   AdsI Edit gebruiken om te zien of er een SCP is gepubliceerd in Active Directory: CN=Configuration [servernaam], CN=Services, CN=RightsManagementServices, CN=SCP
 
-2. Als u geen SCP gebruikt, moeten Windows-computers die verbinding maken met een AD RMS-cluster, worden geconfigureerd voor servicedetectie op de client of voor licentieomleiding via het Windows-register: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation of HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation
+2. Als u geen SCP gebruikt, moeten Windows-computers die verbinding maken met een AD RMS-cluster, worden geconfigureerd voor servicedetectie op de client of voor licentieomleiding via het Windows-register: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation or HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation`
 
 Zie Inschakelen van servicedetectie aan de clientzijde met behulp van het [Windows-register](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) en Het omleiden van [licentieserververkeer](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic)voor meer informatie over deze registerconfiguraties.
 

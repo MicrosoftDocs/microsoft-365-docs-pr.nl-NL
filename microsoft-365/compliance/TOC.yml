@@ -307,6 +307,8 @@
               href: retention-policies-yammer.md
             - name: Retentie voor Exchange
               href: retention-policies-exchange.md
+            - name: Beperkingen voor retentie
+              href: retention-limits.md
         - name: Aan de slag met retentie
           href: get-started-with-retention.md
         - name: Bewaarbeleid maken

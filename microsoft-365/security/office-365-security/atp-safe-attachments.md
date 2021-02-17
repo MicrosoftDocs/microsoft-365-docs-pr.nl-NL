@@ -20,12 +20,12 @@ ms.collection:
 description: Beheerders kunnen meer informatie krijgen over de functie Veilige bijlagen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5e85695a6d0fba221f3c614ec33b3552d37153e2
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 5d2d348856dbd51cabe2b320d315406076921fee
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175845"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261535"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Veilige bijlagen in Microsoft Defender voor Office 365
 
@@ -47,14 +47,14 @@ In de volgende tabel worden scenario's beschreven voor veilige bijlagen in Micro
 |---|---|
 |Er is voor de Microsoft 365 E5-organisatie van Pat geen beleid voor veilige bijlagen geconfigureerd.|Pat wordt niet beveiligd door veilige bijlagen. <p> Een beheerder moet ten minste één beleid met veilige bijlagen maken om veilige bijlagen te kunnen veiligen. Bovendien moeten aan de voorwaarden van het beleid Pat worden voldaan als Pat door veilige bijlagen moet worden beschermd.|
 |De organisatie van Lusen heeft een beleid met veilige bijlagen dat alleen van toepassing is op financiële werknemers. Lee is lid van de verkoopafdeling.|Luw wordt niet beveiligd door veilige bijlagen. <p> Werknemers in de financiële sector worden beveiligd door veilige bijlagen, maar verkoopmedewerkers (en andere werknemers) niet.|
-|Gisteren heeft een beheerder in de organisatie Van Yk een beleid voor veilige bijlagen gemaakt dat van toepassing is op alle werknemers. Eerder vandaag heeft John een e-mailbericht ontvangen met een bijlage.|John wordt beveiligd door veilige bijlagen. <p> Het duurt meestal ongeveer 30 minuten voordat een nieuw beleid van kracht wordt.|
+|Gisteren heeft een beheerder in de organisatie Van Eder een beleid voor veilige bijlagen gemaakt dat van toepassing is op alle werknemers. Eerder vandaag heeft John een e-mailbericht ontvangen met een bijlage.|John wordt beveiligd door veilige bijlagen. <p> Het duurt meestal ongeveer 30 minuten voordat een nieuw beleid van kracht wordt.|
 |Chris's organisatie heeft al lange tijd beleidsregels voor veilige bijlagen voor iedereen in de organisatie. Chris ontvangt een e-mailbericht met een bijlage en stuurt het vervolgens door naar externe geadresseerden.|Chis wordt beveiligd door veilige bijlagen. <p> Als de externe geadresseerden ook een beleid voor veilige bijlagen in hun organisatie hebben, zijn de doorgestuurde berichten onderhevig aan dit beleid.|
 |
 
 Het scannen van veilige bijlagen vindt plaats in dezelfde regio waar uw Microsoft 365-gegevens zich bevinden. Zie Waar bevinden zich uw gegevens voor meer informatie over geografie van [datacenters?](https://products.office.com/where-is-your-data-located?geo=All)
 
 > [!NOTE]
-> De volgende functies bevinden zich in de globale instellingen van het beleid voor veilige bijlagen in het beveiligings- & compliancecentrum, maar deze instellingen worden globaal in- of uitgeschakeld en er is geen beleid voor veilige bijlagen vereist:
+> De volgende functies bevinden zich in de globale instellingen van het beleid voor veilige bijlagen in het & compliancecentrum. Deze instellingen worden echter globaal in- of uitgeschakeld en er is geen beleid voor veilige bijlagen vereist:
 >
 > - [Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams.](atp-for-spo-odb-and-teams.md)
 >
@@ -71,13 +71,13 @@ In deze sectie worden de instellingen in het beleid voor veilige bijlagen beschr
   |Optie|Effect|Gebruik deze als u het volgende wilt doen:|
   |---|---|---|
   |**Uit**|Bijlagen worden niet gescand op malware met veilige bijlagen. Berichten worden nog steeds gescand op malware [door middel van antimalwarebeveiliging in EOP.](anti-malware-protection.md)|Het scannen van geselecteerde geadresseerden uitschakelen. <p> Voorkom onnodige vertragingen bij het routeren van interne e-mail. <p> **Deze optie wordt niet aanbevolen voor de meeste gebruikers. Gebruik deze optie alleen om het scannen van veilige bijlagen uit te schakelen voor geadresseerden die alleen berichten ontvangen van vertrouwde afzenders.**|
-  |**Monitor**|Bezorgt berichten met bijlagen en houdt vervolgens bij wat er gebeurt met gedetecteerde malware. <p> Bezorging van veilige berichten wordt mogelijk vertraagd vanwege het scannen van veilige bijlagen.|Zien waar malware in uw organisatie wordt gevonden.|
+  |**Monitor**|Bezorgt berichten met bijlagen en houdt vervolgens bij wat er gebeurt met gedetecteerde malware. <p> Bezorging van veilige berichten kan vertraagd zijn vanwege het scannen van veilige bijlagen.|Zien waar malware in uw organisatie wordt gevonden.|
   |**Blokkeren**|Voorkomt dat berichten met gedetecteerde malwarebijlagen worden bezorgd. <p> Berichten worden [in quarantaine](manage-quarantined-messages-and-files.md) geplaatst en alleen beheerders (niet eindgebruikers) kunnen de berichten controleren, vrijgeven of verwijderen. <p> Toekomstige exemplaren van de berichten en bijlagen worden automatisch blokkeert. <p> Bezorging van veilige berichten wordt mogelijk vertraagd vanwege het scannen van veilige bijlagen.|Beschermt uw organisatie tegen herhaalde aanvallen met dezelfde malwarebijlagen. <p> Dit is de standaardwaarde en de aanbevolen waarde in standaard- en strikt [vooraf ingestelde beveiligingsbeleidsregels.](preset-security-policies.md)|
   |**Vervangen**|Hiermee verwijdert u gedetecteerde malwarebijlagen. <p> Geadresseerden krijgen een bericht dat bijlagen zijn verwijderd. <p>  Berichten worden [in quarantaine](manage-quarantined-messages-and-files.md) geplaatst en alleen beheerders (niet eindgebruikers) kunnen de berichten controleren, vrijgeven of verwijderen. <p> Bezorging van veilige berichten wordt mogelijk vertraagd vanwege het scannen van veilige bijlagen.|Geadresseerden kunnen zien dat bijlagen zijn verwijderd vanwege gedetecteerde malware.|
   |**Dynamische bezorging**|Bezorgt berichten direct, maar vervangt bijlagen door tijdelijke aanduidingen totdat het scannen van veilige bijlagen is voltooid. <p> Zie de sectie [Beleidsregels voor dynamische bezorging in veilige](#dynamic-delivery-in-safe-attachments-policies) bijlagen verderaan in dit artikel.|Voorkom dat berichten worden vertraagd bij het beveiligen van geadresseerden tegen schadelijke bestanden. <p> Geadresseerden in staat stellen een voorbeeld van bijlagen in de veilige modus te bekijken terwijl het scannen wordt plaatsvinden.|
   |
 
-- Omleiden bij **detectie:** Stuur berichten met malwarebijlagen naar het opgegeven  interne of externe e-mailadres voor analyse en onderzoek voor acties zoals **Blokkeren,** Controleren of Vervangen. Schakel omleiding en verzenden van de bijlage in naar het opgegeven interne of externe e-mailadres.
+- Bijlage omleiden bij **detectie:** Schakel omleiding en Verzenden van de  bijlage in naar het volgende e-mailadres: voor acties **blokkeren,** controleren of vervangen verzendt u berichten met malwarebijlagen naar het opgegeven interne of externe e-mailadres voor analyse en onderzoek.
 
   Het wordt aanbevolen voor standaard- en striktbeleidsinstellingen om omleiding in teschakelen. Zie instellingen voor [veilige bijlagen voor meer informatie.](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)
 
@@ -130,7 +130,7 @@ Er zijn scenario's waarin Dynamische bezorging bijlagen in berichten niet kan ve
 
 - [S/MIME)](s-mime-for-message-signing-and-encryption.md) versleutelde berichten.
 
-- U hebt de actie Dynamische bezorging geconfigureerd in het beleid veilige bijlagen, maar de geadresseerde biedt geen ondersteuning voor Dynamische bezorging (de geadresseerde is bijvoorbeeld een postvak in een on-premises Exchange-organisatie). Met veilige koppelingen in Microsoft Defender voor [Office 365](set-up-atp-safe-links-policies.md) kunt u echter Office-bestandsbijlagen met URL's scannen (afhankelijk van hoe de globale instellingen voor veilige koppelingen [zijn](configure-global-settings-for-safe-links.md) geconfigureerd).
+- U hebt de actie Dynamische bezorging geconfigureerd in het beleid veilige bijlagen, maar de geadresseerde biedt geen ondersteuning voor Dynamische bezorging (de geadresseerde is bijvoorbeeld een postvak in een on-premises Exchange-organisatie). Met veilige koppelingen in Microsoft Defender voor [Office 365](set-up-atp-safe-links-policies.md) kunt u echter Office-bestandsbijlagen scannen die URL's bevatten (afhankelijk van hoe de globale instellingen voor veilige koppelingen [zijn](configure-global-settings-for-safe-links.md) geconfigureerd).
 
 ## <a name="submitting-files-for-malware-analysis"></a>Bestanden indienen voor malwareanalyse
 

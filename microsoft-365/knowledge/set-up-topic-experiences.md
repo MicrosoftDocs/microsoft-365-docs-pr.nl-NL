@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Informatie over het instellen van Microsoft Viva-onderwerpen
-ms.openlocfilehash: 6bd0d3eca653ae44e46b410ef3ac55fe11629a6b
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: a90e75330527992f8519d625f94fe0d5ecb3de6b
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150498"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261467"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva-onderwerpen instellen
 
@@ -24,6 +24,8 @@ U kunt het Microsoft 365-beheercentrum gebruiken om Onderwerpen in te stellen en
 Het is belangrijk om de beste manier te plannen voor het instellen en configureren van onderwerpen in uw omgeving. Lees de Onderwerpen over [Microsoft Viva voordat](plan-topic-experiences.md) u aan de procedures in dit artikel begint.
 
 U moet zijn [geabonneerd op Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics) en een globale beheerder of SharePoint-beheerder zijn om toegang te krijgen tot het Microsoft 365-beheercentrum en Onderwerpen in te stellen.
+
+Als u Voor SharePoint beheerde apparaten [hebt](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)geconfigureerd, moet u Onderwerpen instellen vanaf een beheerd apparaat.
 
 ## <a name="video-demonstration"></a>Videodemonstratie
 
@@ -39,7 +41,7 @@ In deze video ziet u het proces voor het instellen van Onderwerpen in Microsoft 
 
 Onderwerpen instellen
 
-1. Selecteer Setup [in het Microsoft 365-beheercentrum](https://admin.microsoft.com) **en** bekijk de sectie **Bestanden en** inhoud.
+1. Selecteer [Setup in het Microsoft 365-beheercentrum](https://admin.microsoft.com) en bekijk de sectie Bestanden **en** inhoud.
 2. Klik in **de sectie Bestanden en** inhoud op Personen verbinden met **kennis.**
 
     ![Personen verbinden met kennis](../media/admin-org-knowledge-options.png) 
@@ -74,15 +76,15 @@ Onderwerpen instellen
 
     - **Naam:** typ de naam van het onderwerp dat u wilt uitsluiten. U kunt dit op twee manieren doen:
         - Exacte overeenkomst: u kunt de exacte naam of het acroniem opnemen (bijvoorbeeld *Contoso* of *ATL).*
-        - Gedeeltelijke overeenkomst: U kunt alle onderwerpen met een bepaald woord uitsluiten.  Met een *boog worden bijvoorbeeld* alle onderwerpen met de woordbogen uitgesloten, zoals Boogcirkel, *Arc-boog* of *Trainingsbogen.*   Onderwerpen waarin de tekst is opgenomen als onderdeel van een woord, zoals Architectuur, worden niet *uitgesloten.*
-    - **Staat voor (optioneel:** als u een acroniem wilt uitsluiten, typt u de woorden voor het acroniem).
+        - Gedeeltelijke overeenkomst: U kunt alle onderwerpen met een bepaald woord uitsluiten.  Zo worden met *de boog* bijvoorbeeld alle onderwerpen met de *woordcirkel* uitgesloten, zoals Boogcirkel,  *Arc-boog* of *Trainingsbogen.* Onderwerpen waarin de tekst is opgenomen als onderdeel van een woord, zoals Architectuur, worden niet *uitgesloten.*
+    - **Staat voor (optioneel:** als u een acroniem wilt uitsluiten, typt u de woorden waar het acroniem voor staat.
     - **MatchType-Exact/Gedeeltelijk:** typ of de naam die u hebt ingevoerd *een exact* of *gedeeltelijk* overeenkomsttype is.
 
     Nadat u het CSV-bestand hebt voltooid en opgeslagen, selecteert u **Bladeren** om het te zoeken en te selecteren.
     
     Selecteer **Volgende**.
 
-6. Op de **pagina Wie kan onderwerpen zien en waar** zij deze kunnen zien, configureert u de zichtbaarheid van het onderwerp. In de **instelling Wie kan de** onderwerpen bekijken, kiest u wie toegang heeft tot onderwerpdetails, zoals gemarkeerde onderwerpen, onderwerpkaarten, antwoorden op onderwerp in zoekopdrachten en onderwerppagina's. U kunt het volgende selecteren:
+6. Op de **pagina Wie kan onderwerpen zien en waar** zij deze kunnen zien, configureert u de zichtbaarheid van het onderwerp. In de **instelling Wie kan de** onderwerpen zien, kiest u wie toegang heeft tot onderwerpdetails, zoals gemarkeerde onderwerpen, onderwerpkaarten, antwoorden op onderwerp in zoekopdrachten en onderwerppagina's. U kunt het volgende selecteren:
     - **Iedereen in mijn organisatie**
     - **Alleen geselecteerde personen of beveiligingsgroepen**
     - **Niemand**
@@ -107,7 +109,7 @@ Onderwerpen instellen
 
     Selecteer **Volgende**.
 
-9. Op de **pagina Onderwerpcentrum** maken kunt u uw onderwerpcentrumsite maken waarin onderwerppagina's kunnen worden bekeken en onderwerpen kunnen worden beheerd. Typ in **het vak Sitenaam** een naam voor het onderwerpcentrum. U kunt desgewenst een korte beschrijving typen in het **vak** Beschrijving. 
+9. Op de **pagina Onderwerpcentrum maken** kunt u uw onderwerpcentrumsite maken waarin onderwerppagina's kunnen worden bekeken en onderwerpen kunnen worden beheerd. Typ in **het vak Sitenaam** een naam voor het onderwerpcentrum. U kunt desgewenst een korte beschrijving typen in het **vak** Beschrijving. 
 
    Selecteer **Volgende**.
 
@@ -115,7 +117,7 @@ Onderwerpen instellen
 
 10. Op de pagina **Controleren en voltooien** kunt u de geselecteerde instelling bekijken en wijzigingen aanbrengen. Selecteer **Activeren** wanneer u tevreden bent met uw selecties.
 
-11. De **pagina die is** geactiveerd voor Viva-onderwerpen wordt weergegeven, en bevestigt dat het systeem nu de geselecteerde sites gaat analyseren voor onderwerpen en de onderwerpcentrumsite gaat maken. Selecteer **Gereed**.
+11. De **pagina van Viva-onderwerpen** die is geactiveerd, wordt weergegeven en bevestigt dat het systeem nu de geselecteerde sites gaat analyseren voor onderwerpen en de onderwerpcentrumsite gaat maken. Selecteer **Gereed**.
 
 12. U keert terug naar de **pagina Personen verbinden met kennis.** Op deze pagina kunt u **Beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
 
@@ -137,7 +139,7 @@ Licenties toewijzen:
 
 ## <a name="manage-topic-experiences"></a>Onderwerpervaringen beheren
 
-Nadat u Onderwerpen hebt ingesteld, kunt u de instellingen wijzigen die u tijdens de installatie hebt gekozen in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) Zie de volgende verwijzingen:
+Nadat u Onderwerpen hebt ingesteld, kunt u de instellingen wijzigen die u tijdens de installatie hebt gekozen in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) Zie de volgende referenties:
 
 - [Onderwerpdetectie beheren in Microsoft Viva-onderwerpen](topic-experiences-discovery.md)
 - [Zichtbaarheid van onderwerpen beheren in Microsoft Viva-onderwerpen](topic-experiences-knowledge-rules.md)
