@@ -15,23 +15,23 @@ ms.custom:
 description: Hier vindt u antwoorden op de meest voorkomende vragen over berichten die in de wachtrij zijn geplaatst, zijn uitgesteld of niet zijn gevonden tijdens het EOP-filterproces (Exchange Online Protection).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 854e954e3ebb995ba23db2afc6f2ca9ab19de508
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e54a260a70a9c68a94412243308bffe60d989e99
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165425"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289697"
 ---
 # <a name="eop-queued-deferred-and-bounced-messages-faq"></a>Veelgestelde vragen over in een wachtrij geplaatste, uitgestelde en niet-bezorgde berichten in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Dit onderwerp bevat antwoorden op veelgestelde vragen over berichten die in de wachtrij zijn geplaatst, uitgesteld of niet zijn bezorgd tijdens het filterproces van Exchange Online Protection (EOP).
+Dit onderwerp bevat antwoorden op veelgestelde vragen over berichten die in de wachtrij zijn geplaatst, zijn uitgesteld of niet zijn bezorgd tijdens het filterproces van Exchange Online Protection (EOP).
 
 ## <a name="why-is-mail-queuing"></a>Waarom staat e-mail in wachtrij?
 
@@ -43,7 +43,7 @@ Berichten worden opgeslagen wanneer er geen verbinding kan worden gemaakt met de
 
 ## <a name="how-long-does-a-message-remain-in-deferral-and-what-is-the-retry-interval"></a>Hoe lang blijft een bericht in de uitstelperiode staan en wat is het interval voor opnieuw proberen?
 
-Berichten in de wachtrij blijven 1 dag in onze wachtrijen staan. Pogingen om berichten opnieuw te proberen, zijn gebaseerd op de fout die wordt weergegeven in het e-mailsysteem van de geadresseerde. De eerste paar uitstelperioden zijn 15 minuten of minder, met volgende keren opnieuw proberen (de volgende half uur of zo) het interval over meerdere keren opnieuw tot een maximum van 60 minuten te verhogen. De uitbreiding van de intervalduur is dynamisch, waarbij rekening wordt gehouden met meerdere variabelen, zoals de grootte van wachtrijen en interne berichtprioriteit. In het basisprincipe is het 15 minuten (of minder) om te beginnen en vervolgens van hier uit te breiden tot maximaal 60 minuten.
+Berichten in de wachtrij blijven 1 dag in onze wachtrijen staan. Pogingen om berichten opnieuw te proberen, zijn gebaseerd op de fout die we krijgen uit het e-mailsysteem van de geadresseerde. De eerste paar uitstelperioden zijn 15 minuten of minder, met volgende keren opnieuw proberen (de volgende half uur of zo) het interval over meerdere keren opnieuw tot een maximum van 60 minuten te verhogen. De uitbreiding van de intervalduur is dynamisch, waarbij rekening wordt gehouden met meerdere variabelen, zoals de grootte van wachtrijen en interne berichtprioriteit. In het basisprincipe is het 15 minuten (of minder) om te beginnen en vervolgens van hier uit te breiden tot maximaal 60 minuten.
 
 ## <a name="after-your-email-server-is-restored-how-are-queued-messages-distributed"></a>Hoe worden berichten in de wachtrij gedistribueerd nadat de e-mailserver is hersteld?
 

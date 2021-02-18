@@ -15,27 +15,27 @@ ms.custom:
 description: Beheerder vindt meer informatie over de opties voor het configureren van de e-mailstroom en routering in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cd07c4448d9b30c90c97c7bc89c787b2fdc08cdd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: c988f58a04abf2322e993ae1b75106a338674acb
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167237"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289649"
 ---
 # <a name="mail-flow-in-eop"></a>E-mailstroom in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-In Microsoft 365-organisaties met Exchange Online-postvakken of zelfstandige organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken, worden alle berichten die naar uw organisatie worden verzonden, doorgestuurd via EOP voordat uw werknemers deze zien. U hebt opties voor het routeeren van berichten die via EOP worden verwerkt voordat deze worden doorvergeleid naar het Postvak IN van uw werknemer.
+In Microsoft 365-organisaties met Exchange Online-postvakken of zelfstandige organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken, worden alle berichten die naar uw organisatie worden verzonden, doorgestuurd via EOP voordat uw werknemers deze zien. U hebt opties voor het routeeren van berichten die via EOP worden verwerkt voordat deze worden doorvergeleid naar het Postvak IN van uw werker.
 
 ## <a name="working-with-messages-and-message-access-options"></a>Werken met opties voor berichten en berichttoegang
 
-EOP biedt flexibiliteit in de manier waarop uw berichten worden omgeleid. In de volgende onderwerpen worden de stappen in het e-mailstroomproces uitgelegd.
+EOP biedt flexibiliteit in de manier waarop uw berichten worden doorgeleid. In de volgende onderwerpen worden de stappen in het e-mailstroomproces uitgelegd.
 
 [Randblokkering op basis van adreslijst gebruiken om berichten te weigeren die naar ongeldige geadresseerden zijn verzonden](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking) Beschrijft de functie Randblokkering op basis van adreslijst, waarmee u berichten kunt weigeren voor ongeldige geadresseerden aan de perimeter van het servicenetwerk.
 
@@ -51,6 +51,6 @@ In zelfstandige EOP-organisaties moet u een aantal configuratiestappen uitvoeren
 
 ## <a name="verify-mail-flow"></a>E-mailstroom controleren
 
-Als u wilt controleren of uw EOP-installatie, inclusief de configuratie van de connector, goed werkt, gaat u naar de pagina 'Hoe weet u of deze taak heeft gewerkt?' in de [sectie Uw EOP-service instellen.](set-up-your-eop-service.md)
+Zie 'Hoe weet u dat deze taak heeft gewerkt?' om te controleren of uw EOP-configuratie, inclusief de configuratie van de connector, correct werkt. in de [sectie Uw EOP-service instellen.](set-up-your-eop-service.md)
 
-[Test de e-mailstroom door uw Microsoft 365-connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow) te valideren instructies voor het testen van uw e-mailstroom.
+[Test de e-mailstroom door uw Microsoft 365-connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow) te valideren en instructies te geven om te testen of uw e-mailstroom correct is ingesteld.

@@ -13,21 +13,21 @@ ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en hulp.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a2b8228d33648f7bd20bde9d9e7b852276231aa6
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 945f3c4e32a6c41193e3df4813cc4ed4fe9f7b1f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167105"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289791"
 ---
 # <a name="help-and-support-for-eop"></a>Help en ondersteuning voor EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken kunt u de technische ondersteuningsbronnen in dit artikel gebruiken om antwoorden te vinden als u problemen hebt met EOP. Microsoft biedt hulp voor EOP op verschillende plaatsen en methoden, waaronder zelfondersteuning en hulp.
 
@@ -37,7 +37,7 @@ Na het aanmelden geeft het Microsoft 365-beheercentrum informatie over de status
 
 [Productoverzicht voor Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[Contact opnemen met de ondersteuning voor zakelijke producten - Hulp voor beheerders](../../admin/contact-support-for-business-products.md)
 
 [Microsoft 365-community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
@@ -51,9 +51,9 @@ U kunt hulp krijgen van Microsoft door een nieuwe serviceaanvraag te starten in 
 
 ### <a name="support-for-microsoft-premier-support-subscribers"></a>Ondersteuning voor Microsoft Premier Support-abonnees
 
-Als u een EOP-klant bent en ook een contract voor Microsoft Premier Support hebt, kunt u ondersteuning krijgen via de normale Microsoft Premier Support-kanalen. Hiermee kunt u toegang krijgen tot alle processen en bronnen die beschikbaar zijn voor klanten van Premier Support, zoals een Premier Technical Account Manager (TAM) en het indienen van zaken. Premier Support voor Microsoft Online Services breidt het Premier Support-framework verder uit dan on-premises producten tot onlineservices, waardoor u een geïntegreerde ondersteuningservaring krijgt voor alle producten en services. Deze service zorgt ervoor dat klanten problemen snel kunnen oplossen en de taak voor het beheren van de ondersteuning voor verschillende onderdelen van een IT-infrastructuur vereenvoudigen.
+Als u een EOP-klant bent en ook een microsoft Premier Support-contract hebt, kunt u ondersteuning krijgen via de normale Microsoft Premier Support-kanalen. Hiermee kunt u toegang krijgen tot alle processen en bronnen die beschikbaar zijn voor klanten van Premier Support, zoals een Premier Technical Account Manager (TAM) en het indienen van zaken. Premier Support voor Microsoft Online Services breidt het Premier Support-framework verder uit dan on-premises producten tot onlineservices, waardoor u een geïntegreerde ondersteuningservaring krijgt voor alle producten en services. Deze service zorgt ervoor dat klanten problemen snel kunnen oplossen en de taak voor het beheren van de ondersteuning voor verschillende onderdelen van een IT-infrastructuur vereenvoudigen.
 
-Zie Premier Support for Partners voor meer informatie over hoe Premier Support uw organisatie kan helpen de waarde van uw IT-investeringen [te maximaliseren.](https://partner.microsoft.com/support/microsoft-services-premier-support)
+Zie Premier Support voor partners voor meer informatie over hoe Premier Support uw organisatie kan helpen de waarde van uw IT-investeringen [te maximaliseren.](https://partner.microsoft.com/support/microsoft-services-premier-support)
 
 ### <a name="ask-for-help-on-the-web"></a>Om hulp vragen op het web
 
@@ -61,7 +61,7 @@ Zie Premier Support for Partners voor meer informatie over hoe Premier Support u
 
 2. Ga naar **ondersteuningsaanvraag** \> **voor nieuwe** serviceaanvraag voor \> **klantondersteuning**
 
-3. Gebruik het formulier om informatie over uw probleem toe te voegen, oplossingen te zoeken voor eerdere problemen of logboeken of gerelateerde bestanden toe te voegen.
+3. Gebruik het formulier om informatie over uw probleem toe te voegen, te zoeken naar oplossingen voor eerdere problemen of om logboeken of gerelateerde bestanden toe te voegen.
 
 ### <a name="ask-for-help-on-the-telephone"></a>Om hulp vragen via de telefoon
 

@@ -15,19 +15,19 @@ ms.custom:
 description: Hier vindt u antwoorden op de meest voorkomende algemene vragen over de e-mailfilterservice van Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d0a5712d2bfb110c3292dee06b456161599d40b1
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1a1ce845ef50d7485113c211b0a8d7770ea57815
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165485"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290019"
 ---
 # <a name="eop-general-faq"></a>Algemene veelgestelde vragen over EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
 
 Hier beantwoorden we de meest voorkomende algemene vragen over de EOP-filterservice (Exchange Online Protection) die in de cloud wordt gehost. Voor aanvullende veelgestelde vragen (veelgestelde vragen) gaat u naar de volgende koppelingen:
 
@@ -49,7 +49,7 @@ EOP is een cloud-gehoste e-mailfilterservice die klanten beschermt tegen spam en
 
 ## <a name="how-do-i-sign-up-for-an-eop-trial-or-purchase-eop"></a>Hoe meld ik me aan voor een proefversie van EOP of hoe koop ik EOP?
 
-Meld u aan voor een proefversie van EOP of koop EOP via het web op de startpagina van [Exchange Online Protection.](https://products.office.com/exchange/exchange-email-security-spam-protection) Houd er rekening mee dat de functionaliteit voor een proefabonnement hetzelfde is als voor een betaald abonnement, maar ook de extra functies bevat die worden geleverd bij [het Exchange Enterprise CAL met Services-abonnement.](https://products.office.com/exchange/microsoft-exchange-server-licensing-licensing-overview)
+Meld u aan voor een proefversie van EOP of koop EOP via het web op de startpagina van [Exchange Online Protection.](https://products.office.com/exchange/exchange-email-security-spam-protection) Houd er rekening mee dat de functionaliteit voor een proefabonnement hetzelfde is als voor een betaald abonnement, maar ook de extra functies bevat die worden geleverd bij het [Exchange Enterprise CAL met Services-abonnement.](https://products.office.com/exchange/microsoft-exchange-server-licensing-licensing-overview)
 
 ## <a name="how-is-eop-priced"></a>Hoe is EOP duur?
 
@@ -65,13 +65,13 @@ U kunt EOP gebruiken om uw on-premises postvakken te beveiligen zonder dat u and
 
 ## <a name="why-do-i-need-a-microsoft-365-tenant-when-signing-up-for-email-filtering-through-eop"></a>Waarom heb ik een Microsoft 365-tenant nodig wanneer ik me aanmeldt voor e-mailfiltering via EOP?
 
-Microsoft 365 is de naam die wordt gegeven aan een verzameling producten en services die mogelijk worden gebruikt via een Microsoft 365-tenant. De Microsoft 365-tenant is het beginpunt waar u licenties voor e-mailfiltering kunt toevoegen.
+Microsoft 365 is de naam die wordt gegeven aan een verzameling producten en services die kan worden gebruikt via een Microsoft 365-tenant. De Microsoft 365-tenant is het beginpunt waar u licenties voor e-mailfiltering kunt toevoegen.
 
 ## <a name="does-eop-have-a-communication-portal-where-i-can-find-out-about-known-issues-and-expected-resolutions-what-about-new-features"></a>Heeft EOP een communicatieportal waar ik meer kan weten over bekende problemen en verwachte oplossingen? Hoe zit het met nieuwe functies?
 
-Het Microsoft 365-beheercentrum zal een deel van deze informatie bevatten. Als een gebeurtenis op serviceniveau uw gevolgen heeft, ziet u een communicatiewaarschuwing (meestal vergezeld van een belpictogram) nadat u zich hebt aanmeldt bij het Microsoft 365-beheercentrum. We raden u aan alle betreffende items te lezen en te handelen.
+Het Microsoft 365-beheercentrum zal een deel van deze informatie bevatten. Als een gebeurtenis op serviceniveau uw gevolgen heeft, ziet u een communicatiewaarschuwing (meestal vergezeld van een belpictogram) nadat u zich hebt aanmelden bij het Microsoft 365-beheercentrum. We raden u aan items waar nodig te lezen en erop te reageren.
 
-Met betrekking tot nieuwe EOP-functies, is de roadmap voor [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) voor Bedrijven een goede bron voor informatie over komende nieuwe functies. We plaatsen ook blogartikelen over nieuwe functies op de [website Microsoft 365 Blogs.](https://www.microsoft.com/microsoft-365/blog/)
+Met betrekking tot nieuwe EOP-functies, is de routekaart voor [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) voor Bedrijven een goede bron voor informatie over komende nieuwe functies. We plaatsen ook blogartikelen over nieuwe functies op de [website Microsoft 365 Blogs.](https://www.microsoft.com/microsoft-365/blog/)
 
 ## <a name="does-the-service-work-with-legacy-exchange-versions-such-as-exchange-server-2010-and-non-exchange-environments"></a>Werkt de service met oudere Exchange-versies (zoals Exchange Server 2010) en niet-Exchange-omgevingen?
 
@@ -95,4 +95,4 @@ Ja. Zie Exchange Online Protection-limieten voor meer informatie over [limieten]
 
 ## <a name="does-eop-support-powershell"></a>Ondersteunt EOP PowerShell?
 
-Ja, de volledige EOP-functionaliteit is beschikbaar via PowerShell: Exchange Online PowerShell voor organisaties met Exchange Online-postvakken; zelfstandige EOP PowerShell voor zelfstandige EOP-organisaties. Zie Exchange [Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) en [Exchange Online Protection PowerShell voor meer informatie.](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)
+Ja, de volledige EOP-functionaliteit is beschikbaar via PowerShell: Exchange Online PowerShell voor organisaties met Exchange Online-postvakken; zelfstandige EOP PowerShell voor zelfstandige EOP-organisaties. Zie [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) en [Exchange Online Protection PowerShell voor meer informatie.](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)

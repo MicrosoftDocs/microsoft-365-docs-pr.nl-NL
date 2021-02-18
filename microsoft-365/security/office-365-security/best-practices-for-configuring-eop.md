@@ -12,21 +12,21 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Volg deze aanbevolen aanbevelingen voor zelfstandige Exchange Online Protection (EOP) om uzelf in te stellen voor succes en veelvoorkomende configuratiefouten te voorkomen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a38454ceaba7f95dff172335dc374530efca20a
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: c64a9592d93ef046ad1c023a49bf378ccf6cf503
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165929"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290831"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Best practices voor het configureren van zelfstandige EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
 
-Volg deze aanbevolen aanbevelingen voor zelfstandige Exchange Online Protection (EOP) om uzelf in te stellen voor succes en veelvoorkomende configuratiefouten te voorkomen. In dit onderwerp wordt ervan uitgenomen dat u het installatieproces al hebt voltooid. Zie De EOP-service instellen als u de [EOP-installatie nog niet hebt voltooid.](set-up-your-eop-service.md)
+Volg deze aanbevolen aanbevelingen voor zelfstandige Exchange Online Protection (EOP) om uzelf in te stellen voor succes en veelvoorkomende configuratiefouten te voorkomen. In dit onderwerp wordt ervan uitgenomen dat u het installatieproces al hebt voltooid. Zie Uw EOP-service instellen als u de [EOP-service nog](set-up-your-eop-service.md)niet hebt ingesteld.
 
 ## <a name="use-a-test-domain"></a>Een testdomein gebruiken
 
@@ -51,7 +51,7 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 |[SPF instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Ja|Ja||
 |[DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein in Office 365](use-dkim-to-validate-outbound-email.md)|Ja|Ja||
 |[DMARC gebruiken om e-mail in Office 365 te valideren](use-dmarc-to-validate-email.md)|Ja|Ja|Gebruik `action=quarantine` deze voor Standaard en voor `action=reject` Strikt.|
-|De [invoeggebruiker Bericht rapporteren](enable-the-report-message-add-in.md) of de invoegapp Phishing melden implementeren om de rapportage van verdachte [e-mailberichten](enable-the-report-phish-add-in.md) door eindgebruikers te verbeteren|Ja|Ja||
+|De [invoegapp Bericht rapporteren](enable-the-report-message-add-in.md) of de invoegvoegapp [Phishing melden](enable-the-report-phish-add-in.md) implementeren om de rapportage van verdachte e-mailberichten door eindgebruikers te verbeteren|Ja|Ja||
 |Malware- en spamrapporten plannen|Ja|Ja||
 |Automatisch doorsturen naar externe domeinen is niet toegestaan of gecontroleerd|Ja|Ja||
 |Geïntegreerde controle moet zijn ingeschakeld|Ja|Ja||
@@ -62,7 +62,7 @@ Deze instellingen hebben betrekking op een reeks functies die buiten het beveili
 |[PowerShell-connectiviteit](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Uitgeschakeld|Uitgeschakeld|Beschikbaar voor postvakgebruikers of e-mailgebruikers (gebruikersobjecten die worden geretourneerd door de cmdlet [Get-User).](https://docs.microsoft.com/powershell/module/exchange/get-user)|
 |Spoof [Intelligence gebruiken om](learn-about-spoof-intelligence.md) afzenders toe te voegen aan uw lijst met toegestane afzenders|Ja|Ja||
 |[Randblokkering op basis van adreslijst (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Ingeschakeld|Ingeschakeld|Domeintype = Gezaghebbend|
-|[Meervoudige verificatie instellen voor alle beheerdersaccounts](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Ingeschakeld|Ingeschakeld||
+|[Meervoudige verificatie instellen voor alle beheerdersaccounts](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)|Ingeschakeld|Ingeschakeld||
 |
 
 ## <a name="troubleshooting"></a>Problemen oplossen
@@ -77,7 +77,7 @@ Om spamfilters in de service voor iedereen te verbeteren, moet u fout-positieven
 
 Maak regels voor de e-mailstroom (ook wel transportregels genoemd) of aangepaste filters om te voldoen aan de behoeften van uw bedrijf.
 
-Wanneer u een nieuwe regel voor de productie implementeert, selecteert u eerst een van de testmodi om het effect van de regel te bekijken. Zodra u tevreden bent met het feit dat de regel werkt zoals bedoeld, wijzigt u de regelmodus in **Afdwingen.**
+Wanneer u een nieuwe regel voor de productie implementeert, selecteert u eerst een van de testmodi om het effect van de regel te bekijken. Zodra u tevreden bent dat de regel werkt zoals bedoeld, wijzigt u de regelmodus in **Afdwingen.**
 
 Wanneer u nieuwe regels implementeert, kunt u overwegen de extra actie van **Het incidentenrapport** genereren toe te voegen om de regel in de gaten te houden.
 

@@ -10,25 +10,25 @@ audience: ITPro
 ms.topic: how-to
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
-description: Lees meer over het beheren van e-mailgebruikers in Exchange Online Protection (EOP), inclusief het gebruik van adreslijstsynchronisatie, EAC en PowerShell om gebruikers te beheren.
+description: Meer informatie over het beheren van e-mailgebruikers in Exchange Online Protection (EOP), inclusief het gebruik van adreslijstsynchronisatie, EAC en PowerShell om gebruikers te beheren.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 34edafea7567da04094ea386d469d3d27937eee5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 6a0dc1c0c343be77c6d6f713ee6b68a08a4fe5be
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166391"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289911"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>E-mailgebruikers beheren in standalone EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
 
-In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken zijn e-mailgebruikers het fundamentele type gebruikersaccount. Een e-mailgebruiker heeft accountreferenties in uw zelfstandige EOP-organisatie en heeft toegang tot resources (met machtigingen toegewezen). Het e-mailadres van een e-mailgebruiker is extern (bijvoorbeeld in uw on-premises e-mailomgeving).
+In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken zijn e-mailgebruikers het fundamentele type gebruikersaccount. Een e-mailgebruiker heeft accountreferenties in uw zelfstandige EOP-organisatie en heeft toegang tot resources (aan machtigingen zijn toegewezen). Het e-mailadres van een e-mailgebruiker is extern (bijvoorbeeld in uw on-premises e-mailomgeving).
 
 > [!NOTE]
 > Wanneer u een e-mailgebruiker maakt, is het bijbehorende gebruikersaccount beschikbaar in het Microsoft 365-beheercentrum. Wanneer u een gebruikersaccount maakt in het Microsoft 365-beheercentrum, kunt u dat account niet gebruiken om een e-mailgebruiker te maken.
@@ -47,10 +47,10 @@ Voor zelfstandige EOP-organisaties met een klein aantal gebruikers kunt u e-mail
 
 - U moet machtigingen toegewezen krijgen in Exchange Online Protection voordat u de procedures in dit artikel kunt uitvoeren. U hebt met  name de rollen E-mailontvanger nodig (maken) en E-mailontvangers (wijzigen), die standaard zijn toegewezen aan de rollengroepen Organisatiebeheer **(globale** beheerders) en **Recipient Management.**  Zie Machtigingen in zelfstandige EOP en gebruik het [EAC](feature-permissions-in-eop.md) om de lijst met leden [in rollengroepen te wijzigen voor meer informatie.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
-- Zie Sneltoetsen voor het Exchange-beheercentrum in Exchange Online voor informatie over [sneltoetsen](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)die van toepassing kunnen zijn op de procedures in dit artikel.
+- Zie Sneltoetsen voor het [Exchange-beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over sneltoetsen die van toepassing kunnen zijn op de procedures in dit artikel.
 
 > [!TIP]
-> Hebt u problemen? Vraag om hulp op de Exchange-forums. Ga naar het [forum van Exchange Online Protection.](https://go.microsoft.com/fwlink/p/?linkId=285351)
+> Hebt u problemen? Vraag om hulp op de Exchange-forums. Ga naar het [forum van Exchange Online Protection.](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE)
 
 ## <a name="use-the-exchange-admin-center-to-manage-mail-users"></a>Het Exchange-beheercentrum gebruiken om e-mailgebruikers te beheren
 
@@ -58,7 +58,7 @@ Voor zelfstandige EOP-organisaties met een klein aantal gebruikers kunt u e-mail
 
 1. Ga in het EAC naar **Contactpersonen van** \> **geadresseerden**
 
-2. Klik **op het** pictogram ![ Nieuw. ](../../media/ITPro-EAC-AddIcon.png) Configureer **de volgende instellingen op** de pagina Nieuwe e-mailgebruiker die wordt geopend. Instellingen die zijn gemarkeerd met een <sup>\*</sup> zijn vereist.
+2. Klik **op het** pictogram ![ Nieuw. ](../../media/ITPro-EAC-AddIcon.png) Configureer **de volgende instellingen** op de pagina Nieuwe e-mailgebruiker die wordt geopend. Instellingen die zijn gemarkeerd met een <sup>\*</sup> zijn vereist.
 
    - **Voornaam**
 
@@ -145,7 +145,7 @@ Voer de volgende opdracht uit om een overzichtslijst met alle e-mailgebruikers i
 Get-Recipient -RecipientType MailUser -ResultSize unlimited
 ```
 
-Als u gedetailleerde informatie over een specifieke e-mailgebruiker wilt bekijken, vervangt u deze door de naam, de alias of de accountnaam van de e-mailgebruiker en voert u \<MailUserIdentity\> de volgende opdrachten uit:
+Als u gedetailleerde informatie over een specifieke e-mailgebruiker wilt weergeven, vervangt u deze door de naam, de alias of de accountnaam van de e-mailgebruiker en voert u \<MailUserIdentity\> de volgende opdrachten uit:
 
 ```powershell
 Get-Recipient -Identity <MailUserIdentity> | Format-List
@@ -159,7 +159,7 @@ Zie Get-Recipient en [Get-User](https://docs.microsoft.com/powershell/module/exc
 
 ### <a name="use-standalone-eop-powershell-to-create-mail-users"></a>Zelfstandige EOP PowerShell gebruiken om e-mailgebruikers te maken
 
-Gebruik de volgende syntaxis om e-mailgebruikers te maken in zelfstandige EOP PowerShell:
+Gebruik de volgende syntaxis om e-mailgebruikers te maken in de zelfstandige EOP PowerShell:
 
 ```powershell
 New-EOPMailUser -Name "<UniqueName>" -MicrosoftOnlineServicesID <Account> -Password (ConvertTo-SecureString -String '<password>' -AsPlainText -Force) [-Alias <AliasValue>] [-DisplayName "<Display Name>"] [-ExternalEmailAddress <ExternalEmailAddress>] [-FirstName <Text>] [-Initials <Text>] [-LastName <Text>]
@@ -215,7 +215,7 @@ Zie [Set-EOPMailUser voor gedetailleerde syntaxis- en parameterinformatie.](http
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>Zelfstandige EOP PowerShell gebruiken om e-mailgebruikers te verwijderen
 
-Als u e-mailgebruikers in zelfstandige EOP PowerShell wilt verwijderen, vervangt u door de naam, alias of accountnaam van de e-mailgebruiker en voer u \<MailUserIdentity\> de volgende opdracht uit:
+Als u e-mailgebruikers in de zelfstandige EOP PowerShell wilt verwijderen, vervangt u door de naam, alias of accountnaam van de e-mailgebruiker en voer u \<MailUserIdentity\> de volgende opdracht uit:
 
 ```PowerShell
 Remove-EOPMailUser -Identity <MailUserIdentity\>
@@ -267,7 +267,7 @@ In zelfstandige EOP is adreslijstsynchronisatie beschikbaar voor klanten met on-
 
   - **Toegang tot quarantaine door eindgebruikers:** geadresseerden moeten een geldige gebruikers-id en een geldig wachtwoord in de service hebben om in quarantaine te kunnen worden geplaatst. Zie Berichten in quarantaine zoeken en vrijgeven als gebruiker voor meer informatie [over quarantaine.](find-and-release-quarantined-messages-as-a-user.md)
 
-  - Regels voor e-mailstromen (ook wel **transportregels genoemd).** Wanneer u adreslijstsynchronisatie gebruikt, worden uw bestaande Active Directory-gebruikers en -groepen automatisch geüpload naar de cloud. Vervolgens kunt u regels voor de e-mailstroom maken die zijn gericht op specifieke gebruikers en/of groepen zonder ze handmatig toe te voegen aan de service. Dynamische [distributiegroepen kunnen](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) niet worden gesynchroniseerd via adreslijstsynchronisatie.
+  - Regels voor e-mailstromen (ook wel **transportregels genoemd)**: wanneer u adreslijstsynchronisatie gebruikt, worden uw bestaande Active Directory-gebruikers en -groepen automatisch geüpload naar de cloud en kunt u vervolgens e-mailstroomregels maken die zijn gericht op specifieke gebruikers en/of groepen zonder ze handmatig toe te voegen aan de service. Dynamische [distributiegroepen kunnen](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) niet worden gesynchroniseerd via adreslijstsynchronisatie.
 
 Vraag de benodigde machtigingen op en bereid u voor op adreslijstsynchronisatie, zoals wordt beschreven in [Wat is hybride identiteit met Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity)
 
@@ -286,6 +286,6 @@ Vraag de benodigde machtigingen op en bereid u voor op adreslijstsynchronisatie,
    - [Pass-through-verificatie](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start)
 
 > [!IMPORTANT]
-> Wanneer u de wizard Configuratie van het hulpprogramma Azure Active Directory-synchronisatie **hebt** uitgevoerd, MSOL_AD_SYNC account gemaakt in uw Active Directory-forest. Dit account wordt gebruikt voor het lezen en synchroniseren van uw on-premises Active Directory-gegevens. Zorg ervoor dat TCP 443 op de lokale adreslijstsynchronisatieserver is geopend om adreslijstsynchronisatie correct te laten werken.
+> Wanneer u klaar bent met de wizard Configuratie van het hulpprogramma voor synchronisatie van Azure Active Directory, MSOL_AD_SYNC **account** gemaakt in uw Active Directory-forest. Dit account wordt gebruikt voor het lezen en synchroniseren van uw on-premises Active Directory-gegevens. Zorg ervoor dat TCP 443 op de lokale adreslijstsynchronisatieserver is geopend om adreslijstsynchronisatie correct te laten werken.
 
 Controleer na het configureren van de synchronisatie of AAD Connect correct wordt gesynchroniseerd. Ga in het EAC naar contactpersonen van geadresseerden en bekijk dat de lijst met gebruikers juist is gesynchroniseerd  \>  vanuit uw on-premises omgeving.

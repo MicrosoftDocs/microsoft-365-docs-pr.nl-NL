@@ -14,21 +14,21 @@ ms.custom:
 description: Beheerders kunnen in het beveiligings- & Compliancecentrum in het dashboard E-mailstroom het belangrijkste inzicht in de status van de domeinstroomstroom gebruiken om problemen met de e-mailstroom met betrekking tot hun MX-records op te lossen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df0f571d29d72b23e7b2e210b61a4fb1676175aa
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 9ecda78047384a581a1043d0049b8dd25fadbe27
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150205"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290619"
 ---
-# <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>Belangrijkste inzicht in de status van de domein-e-mailstroom in het & compliancecentrum
+# <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>Belangrijkste inzicht in de status van domein-e-mailstroom in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Het **belangrijkste inzicht in de status** van de domeinstroomstroom in het dashboard E-mailstroom in het beveiligings- & [compliancecentrum](https://protection.office.com) geeft u de huidige status van de e-mailstroom voor uw organisatie. [](mail-flow-insights-v2.md)
 

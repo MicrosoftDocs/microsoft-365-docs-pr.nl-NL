@@ -1,5 +1,5 @@
 ---
-title: Betrouwbaarheidsniveau voor spam
+title: Betrouwbaarheidsniveau van spam
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -19,19 +19,19 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het betrouwbaarheidsniveau voor spam dat is toegepast op berichten in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e4fc20b7d7db5b85b5bdde02ab720fa26af2a4b5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 05faec8101bfb13265d3cca7c661f2e86ac21c8d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167153"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290403"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>Betrouwbaarheidsniveau voor ongewenste e-mail in EOP
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -57,4 +57,4 @@ Net als bij de SCL identificeert het bulksgelaagde niveau (BCL) bad bulk-e-mail 
 
 ****
 
-![Het korte pictogram voor LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New voor Microsoft 365?** Ontdek gratis videocursussen voor **Microsoft 365-beheerders en IT-professionals,** aangeboden door LinkedIn Learning.
+![Het korte pictogram voor LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Nieuw voor Microsoft 365?** Ontdek gratis videocursussen voor **Microsoft 365-beheerders en IT-professionals,** aangeboden door LinkedIn Learning.

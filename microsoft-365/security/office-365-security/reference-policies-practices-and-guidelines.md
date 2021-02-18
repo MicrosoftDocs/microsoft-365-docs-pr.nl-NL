@@ -17,29 +17,29 @@ ms.collection:
 description: Microsoft heeft diverse beleidsregels en procedures ontwikkeld en verschillende best practices in de branche gebruikt om onze gebruikers te beschermen tegen aanstootgevende, ongewenste of schadelijke e-mail.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01df2e8c1cc8a8ca68688377c4cad6ade91b5623
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1065fdef5f804214ca48f7ca54170e6e417490d7
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166853"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289195"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Verwijzing: Beleid, procedures en richtlijnen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Microsoft doet er alles aan om de meest vertrouwde gebruikerservaring op internet te bieden. Daarom heeft Microsoft verschillende beleidsregels en procedures ontwikkeld en verschillende best practices in de branche gebruikt om onze gebruikers te beschermen tegen aanstootgevende, ongewenste of schadelijke e-mail. Afzenders die e-mail naar gebruikers proberen te verzenden, dienen er zeker van te zijn dat ze volledig begrijpen en de richtlijnen in dit artikel volgen om deze inspanning te helpen en mogelijke bezorgingsproblemen te helpen voorkomen.
 
-Als u niet voldoet aan dit beleid en deze richtlijnen, kan ons ondersteuningsteam u mogelijk niet helpen. Als u zich houdt aan de richtlijnen, procedures en het beleid dat in dit artikel wordt beschreven en nog steeds bezorgingsproblemen ondervindt op basis van uw IP-adres dat u verstuurt, volgt u de stappen om een aanvraag voor het inzenden van berichten in te dienen. Zie De portal [delist gebruiken om uzelf](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)uit de lijst met geblokkeerde afzenders te verwijderen voor instructies.
+Als u niet voldoet aan dit beleid en deze richtlijnen, kan ons ondersteuningsteam u mogelijk niet helpen. Als u zich houdt aan de richtlijnen, procedures en het beleid dat in dit artikel wordt beschreven en nog steeds bezorgingsproblemen ondervindt op basis van uw IP-adres, volgt u de stappen om een aanvraag voor het inzenden van berichten in te dienen. Zie De portal [delist gebruiken om uzelf](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)uit de lijst met geblokkeerde afzenders te verwijderen voor instructies.
 
 ## <a name="general-microsoft-policies"></a>Algemeen Microsoft-beleid
 
-E-mail die naar Gebruikers van Microsoft 365 wordt verzonden, moet voldoen aan alle beleidsregels van Microsoft voor de verzending en het gebruik van e-mail van Microsoft 365.
+E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle beleidsregels van Microsoft voor de verzending en het gebruik van e-mail van Microsoft 365.
 
 - De servicesvoorwaarden die van toepassing zijn op Microsoft 365; met name het verbieden van het gebruik van de service voor spam of het verspreiden van malware.
 
@@ -49,7 +49,7 @@ E-mail die naar Gebruikers van Microsoft 365 wordt verzonden, moet voldoen aan a
 
 E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle toepasselijke wetten en voorschriften die van toepassing zijn op e-mailcommunicatie in de toepasselijke jurisdictie.
 
-- [CAN-SPAM Act: A Compliance Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
+- [CAN-SPAM Act: een nalevingshandleiding voor bedrijven](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
 
 - [Reacties en verantwoordelijkheden 'Mij verwijderen': E-mail marketeers moeten claims 'Afmelden' voldoen](https://www.lawpublish.com/ftc-emai-marketers-unsubscribe-claims.html)
 

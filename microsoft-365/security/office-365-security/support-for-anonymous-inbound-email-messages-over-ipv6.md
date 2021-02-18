@@ -7,7 +7,6 @@ ms.author: chrisda
 manager: chrisda
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,42 +15,48 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: De beheerder kan leren hoe u ondersteuning configureert voor anonieme inkomende e-mail van IPv6-bronnen in Exchange Online en Exchange Online Protection.
-ms.openlocfilehash: be226bf9814b0fcfadaaeb5b4bdda0ff133dd0c8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Beheerder kan informatie krijgen over het configureren van ondersteuning voor anonieme inkomende e-mail vanuit IPv6-bronnen in Exchange Online en Exchange Online Protection.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 63c9434fbd1f69c0cbd3145717b712857eb17e28
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202147"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290271"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Ondersteuning toevoegen voor anonieme inkomende e-mail via IPv6 in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Microsoft 365-organisaties met postvakken van Exchange Online en standalone Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken ondersteunen anonieme inkomende e-mail via IPv6. De e-mailserver voor bron IPv6 moet aan de volgende vereisten voldoen:
+Microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken ondersteunen anonieme inkomende e-mail via IPv6. De bron-IPv6-e-mailserver moet aan beide van de volgende vereisten voldoen:
 
-- Het bron-IPv6-adres moet een geldige DNS-opzoek record (PTR) bevatten waarmee de bestemming de domeinnaam van het IPv6-adres kan vinden.
+- Het IPv6-bronadres moet een geldige REVERSE DNS lookup-record (PTR) hebben waarmee de bestemming de domeinnaam kan vinden op basis van het IPv6-adres.
 
-- De afzender moet authenticatie via SPF (gedefinieerd in [rfc 7208](https://tools.ietf.org/html/rfc7208)) of [dkim-verificatie](http://dkim.org/) (gedefinieerd in [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)) passeren.
+- De afzender moet SPF-verificatie (gedefinieerd in [RFC 7208)](https://tools.ietf.org/html/rfc7208)of [DKIM-verificatie](http://dkim.org/) (gedefinieerd in [RFC 6376) doorgeven.](https://www.rfc-editor.org/rfc/rfc6376.txt)
 
-Voordat uw organisatie anonieme inkomende e-mail via IPv6 kan ontvangen, moet een beheerder contact opnemen met Microsoft ondersteuning en vragen. Zie [contact opnemen met ondersteuning voor bedrijfsproducten-Help voor beheerders](../../admin/contact-support-for-business-products.md)voor meer informatie over het openen van een ondersteuningsaanvraag.
+Voordat uw organisatie anonieme inkomende e-mail kan ontvangen via IPv6, moet een beheerder contact opnemen met microsoft-ondersteuning en hier om vragen. Zie Contact opnemen met ondersteuning voor zakelijke producten - Help voor beheerders voor instructies over het openen [van een ondersteuningsaanvraag.](../../admin/contact-support-for-business-products.md)
 
-Wanneer anoniem e-mailbericht ondersteuning voor anonieme ondersteuning in uw organisatie is ingeschakeld, wordt het bericht weergegeven met het filter voor normale berichten dat wordt geleverd door de service.
+Nadat anonieme ondersteuning voor inkomende IPv6-berichten is ingeschakeld in uw organisatie, wordt het bericht gefilterd volgens de normale berichtenfilters die door de service worden aangeboden.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-- Als de bron-e-mailserver geen IPv6-lookup record voor IPv6 bevat, worden de berichten genegeerd met de volgende fout:
+- Als de bron-e-mailserver geen IPv6 reverse DNS-opzoekrecord heeft, worden de berichten geweigerd met de volgende fout:
 
-  > de 4.7.25-service van 450 is niet beschikbaar en het verzenden van IPv6-adres [2a01:111: F200:2004:: 240] moet omgekeerde DNS-record hebben.
+  > 450 4.7.25 Service niet beschikbaar, verzenden van IPv6-adres [2a01:111:f200:2004::240] moet reverse DNS-record hebben.
 
-- Als de afzender SPF-of DKIM-validatie niet doorgeeft, worden de berichten genegeerd met de volgende fout:
+- Als de afzender niet door SPF- of DKIM-validatie komt, worden de berichten geweigerd met de volgende fout:
 
-  > 450 4.7.26 service niet beschikbaar, bericht verzonden via IPv6 [2a01:120: F200:2004:: 240] moet SPF-of DKIM validering passeren.
+  > 450 4.7.26 Service niet beschikbaar, bericht verzonden via IPv6 [2a01:111:f200:2004::240] moet SPF- of DKIM-validatie doorgeven.
 
-- Als u probeert anonieme IPv6-berichten te ontvangen voordat u zich aanmeldt, wordt het bericht genegeerd met de volgende fout:
+- Als u anonieme IPv6-berichten probeert te ontvangen voordat u zich hebt afgemeld, wordt het bericht met de volgende fout geweigerd:
 
-  > 550 5.2.1-service niet beschikbaar, [contoso.com] aanvaardt geen e-mail via IPv6.
+  > 550 5.2.1 Service niet beschikbaar, [contoso.com] accepteert geen e-mail via IPv6.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

@@ -19,12 +19,12 @@ search.appverid:
 description: Meer informatie over drie hulpprogramma's die u kunt gebruiken om te controleren op lekkage van persoonlijke gegevens.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b1425015843b2f444c6a410df449eeeaf4045ee5
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: a8fb8557d6cd2677aeb6dcda75d34e86ada8f68c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261423"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290667"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Controleer op lekken van persoonlijke gegevens
 
@@ -65,7 +65,7 @@ Daarnaast kunt u met de DLP-rapporten uw DLP-beleid nauwkeurig afstemmen terwijl
 
 DLP-rapporten zijn te vinden in het beveiligingscentrum en het compliancecentrum. Navigeer naar rapporten \> Rapporten weergeven. Ga onder preventie van gegevensverlies (DLP) naar DLP-beleid en regelovereenkomsten of DLP foute positieven en overschrijvingen.
 
-Zie [de rapporten weergeven voor preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports)voor meer informatie.
+Zie [de rapporten weergeven voor preventie van gegevensverlies](../../compliance/view-the-dlp-reports.md)voor meer informatie.
 
 ![Rapport met DLP-beleidsovereenkomsten](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -87,17 +87,17 @@ Er zijn oplossingen beschikbaar die zich via de Microsoft Management Activity AP
 
 Meer informatie over het waarschuwingsbeleid en het doorzoeken van het auditlogboek:
 
-- [Waarschuwingsbeleid in de beveiligings- en compliancecentra van Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+- [Waarschuwingsbeleid in de beveiligings- en compliancecentra van Microsoft 365](../../compliance/alert-policies.md)
 
-- [Zoeken in het auditlogboek naar gebruikers- en beheerdersactiviteit in Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log) (Inleiding)
+- [Zoeken in het auditlogboek naar gebruikers- en beheerdersactiviteit in Office 365](../../compliance/search-the-audit-log-in-security-and-compliance.md) (Inleiding)
 
-- [Auditlogboeken zoeken in- of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+- [Auditlogboeken zoeken in- of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md).
 
-- [Zoeken in het auditlogboek](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Zoeken in het auditlogboek](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 - [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) (cmdlet)
 
-- [Gedetailleerde eigenschappen in het auditlogboek](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
+- [Gedetailleerde eigenschappen in het auditlogboek](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 

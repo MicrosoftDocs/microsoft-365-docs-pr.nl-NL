@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,59 +17,61 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe u simulatie training kunt gebruiken voor het uitvoeren van simulaties voor phishing en wachtwoorden in hun Microsoft 365 E5 of Microsoft Defender for Office 365-abonnement 2-organisaties.
-ms.openlocfilehash: 2c00fb27748887c6b8e2fa1458b10f0c3405eef7
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: Beheerders kunnen meer informatie krijgen over het gebruik van de training voor de aanvalsaanvallen op de nabootsing van phishing en wachtwoordaanvallen in hun organisaties met Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 1ec5b8175db6eb03e59a31a4dc21d9649c5e7616
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877162"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289890"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Aan de slag met aanvalssimulatietraining
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Als uw organisatie gebruikmaakt van Microsoft 365 E5 of Microsoft Defender for Office 365 (abonnement 2), waaronder het [onderzoek en de antwoord mogelijkheden](office-365-ti.md)van de organisatie, kunt u simulatie training voor hacken gebruiken in het Microsoft-Beveiligingscentrum voor het uitvoeren van realistische aanvalsscenario's in uw organisatie. Met de gesimuleerde aanvallen kunt u gebruikers kwetsbaar maken en kwetsbaar maken voor een echte aanval met uw onderste regel. Lees dit artikel voor meer informatie.
+Als uw organisatie beschikt over Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2, waarin de mogelijkheden voor bedreigingen onderzoeken en antwoorden zijn [betrokken,](office-365-ti.md)kunt u de analysetraining voor aanvallen in het Microsoft-beveiligingscentrum gebruiken om realistische scenario's met aanvallen uit te voeren in uw organisatie. Deze gesimuleerde aanvallen kunnen u helpen om kwetsbaar gebruikers te identificeren en te vinden voordat een echte aanval uw onderlijn beïnvloedt. Lees dit artikel voor meer informatie.
 
 > [!NOTE]
-> Simulatie training aanval vervangt de oude ervaring van een aanval van de versie van Office Simulator die wordt beschreven in [aanvals Simulator in Microsoft Defender voor Office 365](attack-simulator.md).
+> Trainingstraining voor de aanval vervangt de oude Attack Simulator v1-ervaring die wordt beschreven in [Attack Simulator in Microsoft Defender voor Office 365.](attack-simulator.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Als u het Microsoft Beveiligingscentrum wilt openen, gaat u naar <https://security.microsoft.com/> . Simulatie voor simulatie van aanval via **e-mail en samenwerking** is beschikbaar op een \> **simulatie training** voor e-mail en samenwerking. Als u direct naar een aanvals training wilt gaan, opent u <https://security.microsoft.com/attacksimulator> .
+- Als u het Microsoft-beveiligingscentrum wilt openen, gaat u naar <https://security.microsoft.com/> . Training voor de aanvalstraining voor de aanval is beschikbaar op **de training voor de e-mail-** en \> **samenwerkingstraining voor de aanvals-aanval.** Als u rechtstreeks naar de training voor de aanvalsen wilt gaan, opent <https://security.microsoft.com/attacksimulator> u .
 
-- Zie voor meer informatie over de beschikbaarheid van een aanvals training in diverse Microsoft 365-abonnementen de [servicebeschrijving van Microsoft Defender for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+- Zie de servicebeschrijving van de Microsoft Defender voor [Office 365-service](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van de training voor de aanvalstraining voor verschillende Microsoft 365-abonnementen.
 
-- U moet beschikken over machtigingen voor de beveiliging & nalevings centrum of Azure Active Directory voordat u de procedures in dit artikel kunt uitvoeren. Specifiek moet u lid zijn van **Organisatiebeheer**, **beveiligingsbeheerder** of een van de volgende rollen:
-  - **Kwaadwillende Simulator-beheerders**: alle aspecten van simulaties van aanvals campagnes maken en beheren.
-  - **Schrijvers** van een aanval van de nettolading van een aanval: een aanval maken die een beheerder later kan initiëren.
+- U moet machtigingen toegewezen krijgen in het beveiligings- & compliancecentrum of in Azure Active Directory voordat u de procedures in dit artikel kunt uitvoeren. U moet lid zijn van **Organisatiebeheer,** Beveiligingsbeheerder of een van de volgende rollen:
+  - **Administrators van de Attack Simulator:** alle aspecten van de aanvalscampagnes maken en beheren.
+  - **Attack Simulator Payload Authors:** Maak nettoladingen voor aanvallen die een beheerder later kan starten.
 
-  Zie voor meer informatie [machtigingen in het artikel over naleving van beveiligings &](permissions-in-the-security-and-compliance-center.md) of [over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  Zie Machtigingen in het [beveiligings-](permissions-in-the-security-and-compliance-center.md) en & of [beheerdersrollen voor meer informatie.](../../admin/add-users/about-admin-roles.md)
 
-- Er zijn geen bijbehorende PowerShell-cmdlets voor simulaties van aanvals oefeningen.
+- Er zijn geen bijbehorende PowerShell-cmdlets voor de training voor de attack-training.
 
-- Simulatie van aanval en opleidingen met betrekking tot de training voor Microsoft 365-Services met andere klantgegevens. Zie [Microsoft 365-gegevenslocaties](/microsoft-365/enterprise/o365-data-locations)voor meer informatie. Simulatie van aanval is op dit moment niet beschikbaar in de volgende regio's: SGP, noch, UAE, ZAF, GER, BRA en CHE.
+- Het analyseren van aanvallen en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365-services. Zie Microsoft [365-gegevenslocaties voor meer informatie.](/microsoft-365/enterprise/o365-data-locations) De aanvalssjoin is momenteel niet beschikbaar in de volgende regio's: SGP, NOR, UAE, ZAF, GER, BRA en CHE.
 
-## <a name="simulations"></a>Simulaties
+## <a name="simulations"></a>Vereenspelingen
 
-*Phishing* is een algemene term voor e-mail aanvallen waarbij gevoelige informatie wordt gestolen voor berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. *Phishing* is een onderdeel van een subset van technieken die we als _Social Engineering_ classificeren.
+*Phishing* is een algemene term voor e-mailaanvallen die proberen gevoelige informatie te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. *Phishing* maakt deel uit van een subset van technieken die we classificeren als _social engineering._
 
-In het geval van een aanval met simulatie zijn er meerdere soorten technieken voor Social engineering.
+In de training voor de aanvals-ulatie zijn meerdere soorten social engineering-technieken beschikbaar:
 
-- **Credential oogst**: een aanvaller verzendt een bericht dat de ontvanger een URL bevat. Wanneer de geadresseerde op de URL klikt, wordt deze doorgestuurd naar een website die meestal een dialoogvenster wordt weergegeven waarin de gebruiker om de gebruikersnaam en wachtwoord vraagt. Meestal is de doelpagina bedoeld om een bekende website aan te geven om het vertrouwen van de gebruiker te maken.
+- **Referentiegegevens**: een aanvaller stuurt de ontvanger een bericht met een URL. Wanneer de geadresseerde op de URL klikt, wordt deze naar een website gestuurd waar meestal een dialoogvenster wordt weergegeven waarin de gebruiker wordt gevraagd om zijn of haar gebruikersnaam en wachtwoord. Meestal heeft de doelpagina een eigen site met een bekende naam om het vertrouwen in de gebruiker op te bouwen.
 
-- **Bijlage met schadelijke software**: een aanvaller verzendt de geadresseerde een bericht dat een bijlage bevat. Wanneer de geadresseerde de bijlage opent, wordt willekeurige code (bijvoorbeeld een macro) uitgevoerd op het apparaat van de gebruiker, zodat de aanvaller een extra code of verdere entrench zichzelf kan installeren.
+- **Malwarebijlage:** een aanvaller stuurt de ontvanger een bericht dat een bijlage bevat. Wanneer de ontvanger de bijlage opent, wordt er willekeurige code (bijvoorbeeld een macro) uitgevoerd op het apparaat van de gebruiker, om de aanvaller te helpen aanvullende code te installeren of zichzelf verder te beschermen.
 
-- **Koppeling in bijlage**: dit is een Hybrid van een Credential oogst. Een aanvaller verzendt de geadresseerde een bericht met een URL in een bijlage. Wanneer de geadresseerde de bijlage opent en op de URL klikt, wordt deze doorgestuurd naar een website die normaalgesproken een dialoogvenster toont waarin de gebruiker om de gebruikersnaam en wachtwoord vraagt. Meestal is de doelpagina bedoeld om een bekende website aan te geven om het vertrouwen van de gebruiker te maken.
+- **Koppeling in bijlage:** Dit is een hybride voor het gebruik van referenties. Een aanvaller stuurt de ontvanger een bericht met een URL in een bijlage. Wanneer de geadresseerde de bijlage opent en op de URL klikt, wordt deze naar een website gestuurd waar meestal een dialoogvenster wordt weergegeven waarin de gebruiker wordt gevraagd om zijn gebruikersnaam en wachtwoord. Meestal heeft de doelpagina een eigen site met een bekende naam om het vertrouwen in de gebruiker op te bouwen.
 
-- **Koppeling naar malware**: een aanvaller verzendt de geadresseerde een bericht met een koppeling naar een bijlage op een bekende bestandsshare site (bijvoorbeeld SharePoint Online of Dropbox). Wanneer de geadresseerde op de URL klikt, wordt de bijlage geopend en willekeurige code (zoals een macro), op het apparaat van de gebruiker, zodat de aanvaller een extra code of verdere entrench zichzelf kan installeren.
+- **Koppeling naar malware:** een aanvaller stuurt de ontvanger een bericht met een koppeling naar een bijlage op een bekende site voor het delen van bestanden (bijvoorbeeld SharePoint Online of Dropbox). Wanneer de ontvanger op de URL klikt, wordt de bijlage geopend en wordt er willekeurige code (bijvoorbeeld een macro) uitgevoerd op het apparaat van de gebruiker om de aanvaller te helpen bij het installeren van extra code of om zichzelf verder te beschermen.
 
-- **Drive by-URL**: een aanvaller verzendt een e-mailbericht met een URL. Wanneer de geadresseerde op de URL klikt, wordt deze gezocht naar een website die wordt gebruikt om de achtergrond code uit te voeren. Met deze achtergrond code wordt geprobeerd informatie over de ontvanger te verzamelen of willekeurige code op hun apparaat te implementeren. Meestal is de bestemmingswebsite een bekende website met een ongeoorloofde of een kloon van een bekende website. Vertrouwd met de website helpt bij het overtuigen van de gebruiker dat de link veilig kan worden geklikt. Deze methode wordt ook wel een _aanval met bewaterings hole_ genoemd.
+- **Drive-by-url:** een aanvaller stuurt de ontvanger een bericht dat een URL bevat. Wanneer de geadresseerde op de URL klikt, wordt deze naar een website geleid die achtergrondcode probeert uit te voeren. Met deze achtergrondcode wordt geprobeerd informatie over de ontvanger te verzamelen of willekeurige code op het apparaat te implementeren. Meestal is de doelwebsite een bekende website die is gekloond of een kloon van een bekende website. Als u bekend bent met de website, zorgt u ervoor dat de gebruiker ervan op de koppeling klikt. Deze techniek wordt ook wel een _watergat-aanval genoemd._
 
 > [!NOTE]
-> Controleer de beschikbaarheid van de gesimuleerde phishingwebsite in de ondersteunde webbrowsers voordat u de URL in een malafide campagne gebruikt. Hoewel we met veel URL-reputatie leveranciers werken om deze simulatie-Url's altijd toe te staan, hebben we niet altijd de volledige behoefte, zoals Google Safe Browse. De meeste leveranciers bieden richtlijnen waarmee u altijd specifieke Url's kunt toestaan (bijvoorbeeld <https://support.google.com/chrome/a/answer/7532419> ).
+> Controleer de beschikbaarheid van de gesimuleerde phishing-URL in de ondersteunde webbrowsers voordat u de URL gebruikt in een phishing-campagne. Hoewel we met veel leveranciers van URL-reputatie werken om deze url's altijd toe te staan, hebben we niet altijd volledige dekking (bijvoorbeeld Veilig browsen van Google). De meeste leveranciers bieden richtlijnen waarmee u altijd specifieke URL's (bijvoorbeeld) kunt <https://support.google.com/chrome/a/answer/7532419> toestaan.
 
-De Url's die worden gebruikt voor de simulatie van aanvals oefeningen, worden beschreven in de volgende lijst:
+In de volgende lijst worden de URL's beschreven die worden gebruikt bij de training voor de aanvalstraining voor de aanvallen:
 
 - <https://www.mcsharepoint.com>
 - <https://www.attemplate.com>
@@ -97,14 +98,14 @@ De Url's die worden gebruikt voor de simulatie van aanvals oefeningen, worden be
 - <https://www.templatern.com>
 - <https://www.windocyte.com>
 
-### <a name="create-a-simulation"></a>Een simulatie maken
+### <a name="create-a-simulation"></a>Een computerstimulatie maken
 
-Zie [een malafide aanval simuleren](attack-simulation-training.md)voor stapsgewijze instructies voor het maken en verzenden van een nieuwe simulatie.
+Zie Een phishing-aanval simuleren voor stapsgewijse [instructies](attack-simulation-training.md)over het maken en verzenden van een nieuwe ulatie.
 
 ### <a name="create-a-payload"></a>Een nettolading maken
 
-Zie [een aangepaste nettolading maken voor simulatie van aanvals training](attack-simulation-training-payloads.md)voor stapsgewijze instructies voor het maken van een nettolading voor gebruik binnen een simulatie.
+Voor stapsgewijre instructies over het maken van een nettolading voor gebruik in eenulatie, zie Een aangepaste nettolading maken voor de [attack-training.](attack-simulation-training-payloads.md)
 
-### <a name="gaining-insights"></a>Inzichten krijgen
+### <a name="gaining-insights"></a>Inzichten verkrijgen
 
-Zie [inzichten maken via simulatie van aanval via een aanval](attack-simulation-training-insights.md)voor stapsgewijze instructies voor het maken van inzichten met rapporten.
+Zie Inzichten krijgen via de trainingstraining voor de aanvalstraining voor stapsgewijse instructies over hoe u inzichten kunt verkrijgen met [rapporten.](attack-simulation-training-insights.md)

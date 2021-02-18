@@ -17,21 +17,21 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de beschikbare en voorkeursopties voor het toestaan van inkomende berichten in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 92229f0324eb9c05b233e5c4b0bc9f1bd7ab2e39
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ddcd6240cfc80350920999f9fc1e8ea188834553
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165557"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289709"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Lijsten met veilige afzenders maken in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelfstandige klant van Exchange Online Protection (EOP) zonder Exchange Online-postvakken, biedt EOP verschillende manieren om ervoor te zorgen dat gebruikers e-mail ontvangen van vertrouwde afzenders. Deze opties omvatten Exchange-regels voor de e-mailstroom (ook wel transportregels genoemd), veilige afzenders van Outlook, de lijst met toegestane IP-adressen (verbindingsfilters) en lijsten met toegestane afzenders of toegestane domeinlijsten in antispambeleidsregels. U kunt deze opties gezamenlijk zien als lijsten _met veilige afzenders._
 
@@ -70,7 +70,7 @@ In het volgende voorbeeld wordt ervan uitgenomen dat u e-mail contoso.com spamfi
 
      Met deze voorwaarde wordt de status van de e-mailverificatie van het verzendende e-maildomein gecontroleerd om er zeker van te zijn dat het verzendende domein niet is vervalst. Zie [SPF,](set-up-spf-in-office-365-to-help-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)en DMARC voor meer informatie [over e-mailverificatie.](use-dmarc-to-validate-email.md)
 
-   - **Lijst met toegestane** IP-adressen: geef het BRON-IP-adres of -adresbereik op in het verbindingsfilterbeleid.
+   - **Lijst met toegestane** IP-adressen: geef het IP-bronadres of adresbereik op in het verbindingsfilterbeleid.
 
      Gebruik deze instelling als het verzendende domein geen e-mailverificatie gebruikt. Wees zo beperkend mogelijk wanneer het gaat om de bron-IP-adressen in de lijst met toegestane IP-adressen. U wordt aangeraden een IP-adresbereik van /24 of minder te gebruiken (minder is beter). Gebruik geen IP-adresbereiken die deel uitmaken van consumentenservices (bijvoorbeeld outlook.com) of gedeelde infrastructuur.
 
@@ -78,7 +78,7 @@ In het volgende voorbeeld wordt ervan uitgenomen dat u e-mail contoso.com spamfi
    >
    > - Configureer nooit regels voor de e-mailstroom *met alleen* het domein van de afzender als voorwaarde om spamfilters over te slaan. Als u  dit doet, is de kans aanzienlijk groter dat kwaadwillende gebruikers het verzendende domein kunnen vervalsen (of het volledige e-mailadres kunnen imiteren), alle spamfilters kunnen overslaan en verificatiecontroles van de afzender kunnen overslaan zodat het bericht in het Postvak IN van de geadresseerde wordt ontvangen.
    >
-   > - Gebruik geen domeinen die u bezit (ook wel geaccepteerde domeinen genoemd) of populaire domeinen (bijvoorbeeld microsoft.com) als voorwaarden in regels voor de e-mailstroom. Dit wordt als hoog risico beschouwd omdat dit kwaadwillende mensen mogelijkheden biedt om e-mail te verzenden die anders zou worden gefilterd.
+   > - Gebruik geen domeinen die u bezit (ook wel geaccepteerde domeinen genoemd) of populaire domeinen (bijvoorbeeld microsoft.com) als voorwaarden in regels voor de e-mailstroom. Dit wordt als hoog risico beschouwd omdat kwaadwillende aanvallers dan e-mail kunnen verzenden die anders zou worden gefilterd.
    >
    > - Als u een IP-adres achter een NAT-gateway (Network Address Translation) toestaat, moet u weten welke servers betrokken zijn bij de NAT-pool om het bereik van uw lijst met toegestane IP-adressen te weten. IP-adressen en NAT-deelnemers kunnen wijzigen. Als onderdeel van uw standaardonderhoudsprocedures moet u regelmatig de vermeldingen in de lijst met toegestane IP-adressen controleren.
 
@@ -88,7 +88,7 @@ In het volgende voorbeeld wordt ervan uitgenomen dat u e-mail contoso.com spamfi
 
    - **Het onderwerp of de lichaam** \> **onderwerp of de tekst bevat een van deze woorden** \> : Als u de berichten verder kunt beperken met trefwoorden of woordgroepen in de onderwerpregel of de bericht zelf, kunt u deze woorden als \<keywords\> voorwaarde gebruiken.
 
-4. **Actie:** Configureer beide acties in de regel:
+4. **Actie:** configureer beide acties in de regel:
 
    a. **De berichteigenschappen wijzigen** \> **het betrouwbaarheidsniveau voor ongewenste e-mail instellen** \> **Spamfilters omzeilen.**
 
@@ -96,7 +96,7 @@ In het volgende voorbeeld wordt ervan uitgenomen dat u e-mail contoso.com spamfi
 
       Bijvoorbeeld `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`. Als de regel meer dan één domein bevat, kunt u de koptekst naar wens aanpassen.
 
-      Wanneer een bericht geen spamfilters overslaat vanwege een regel voor de e-mailstroom, wordt de waarde gestempeld in de kop `SFV:SKN` **X-Forefront-Antispam-Report.** Als het bericht afkomstig is van een bron die op de lijst met toegestane IP-adressen staat, wordt de `IPV:CAL` waarde ook toegevoegd. Deze waarden kunnen u helpen bij het oplossen van problemen.
+      Wanneer een bericht geen spamfilters overslaat vanwege een regel voor de e-mailstroom, wordt de waarde in de `SFV:SKN` **koptekst X-Forefront-Antispam-Report** voorzien van een stempel. Als het bericht afkomstig is van een bron die op de lijst met toegestane IP-adressen staat, wordt de `IPV:CAL` waarde ook toegevoegd. Deze waarden kunnen u helpen bij het oplossen van problemen.
 
 ![Instellingen voor e-mailstroomregel in het EAC om spamfilters te omzeilen.](../../media/1-AllowList-SkipFilteringFromContoso.png)
 
@@ -107,7 +107,7 @@ In het volgende voorbeeld wordt ervan uitgenomen dat u e-mail contoso.com spamfi
 
 In plaats van een organisatie-instelling kunnen gebruikers of beheerders de e-mailadressen van de afzender toevoegen aan de lijst met veilige afzenders in het postvak. Zie Instellingen voor ongewenste [e-mail configureren in Exchange Online-postvakken in Office 365 voor instructies.](configure-junk-email-settings-on-exo-mailboxes.md) Dit is in de meeste gevallen niet wenselijk omdat afzenders delen van de filterstack omzeilen. Hoewel u de afzender vertrouwt, kan de afzender nog steeds worden gehackt en schadelijke inhoud verzenden. Het is beter om onze filters te laten doen wat nodig is om elk bericht te controleren en vervolgens de [fout-positief/negatief](report-junk-email-messages-to-microsoft.md) aan Microsoft te melden als onze filters het verkeerd hebben gekregen. Het omzeilen van de filter stack is ook van invloed op [ZAP.](zero-hour-auto-purge.md)
 
-Wanneer berichten geen spamfilters bevatten vanwege de lijst met veilige afzenders van een gebruiker, bevat het koptekstveld **X-Forefront-Antispam-Report** de waarde , waarmee wordt aangegeven dat filteren op spam, spoofing en phishing is `SFV:SFE` overgeslagen.
+Wanneer berichten geen spamfilters bevatten vanwege de lijst met veilige afzenders van een gebruiker, bevat het veld **X-Forefront-Antispam-Report** de waarde die aangeeft dat filteren op spam, spoofing en phishing is `SFV:SFE` overgeslagen.
 
 ## <a name="use-the-ip-allow-list"></a>De lijst met toegestane IP-adressen gebruiken
 
@@ -126,7 +126,7 @@ Als u geen regels voor de e-mailstroom kunt gebruiken zoals eerder is beschreven
 
 ## <a name="use-allowed-sender-lists-or-allowed-domain-lists"></a>Lijsten met toegestane afzenders of toegestane domeinlijsten gebruiken
 
-U kunt het beste de lijst met toegestane afzenders of de lijst met toegestane domeinen in antispambeleid gebruiken. Vermijd deze optie, indien mogelijk, omdat afzenders alle spam, spoof- en phishingbeveiliging en verificatie van afzenders (SPF, DKIM, DMARC) omzeilen.  Deze methode is alleen het meest gebruikt voor tijdelijke tests. De gedetailleerde stappen vindt u in [Antispambeleid configureren in EOP-onderwerp.](configure-your-spam-filter-policies.md)
+U kunt het beste de lijst met toegestane afzenders of de lijst met toegestane domeinen in antispambeleid gebruiken. Vermijd deze optie, indien mogelijk, omdat afzenders alle spam, spoof, en phishingbeveiliging en verificatie van afzenders (SPF, DKIM, DMARC) omzeilen.  Deze methode is alleen het meest gebruikt voor tijdelijke tests. De gedetailleerde stappen vindt u in [Antispambeleid configureren in EOP-onderwerp.](configure-your-spam-filter-policies.md)
 
 De maximumlimiet voor deze lijsten is ongeveer 1000 items; hoewel u slechts 30 vermeldingen in de portal kunt invoeren. U moet PowerShell gebruiken om meer dan 30 vermeldingen toe te voegen.
 
@@ -144,7 +144,7 @@ Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en beri
 
 - De afzender (ook wel het Van-adres of P2 genoemd) is het e-mailadres in het veld Van en is het e-mailadres van de afzender dat wordt weergegeven `5322.From` in e-mail clients.  
 
-De adressen en de adressen zijn vaak hetzelfde (communicatie tussen twee `5321.MailFrom` `5322.From` personen). Wanneer e-mail echter namens iemand anders wordt verzonden, kunnen de adressen verschillend zijn. Dit gebeurt het vaakst bij bulk-e-mailberichten.
+Vaak zijn de adressen en de adressen hetzelfde (communicatie tussen twee `5321.MailFrom` `5322.From` personen). Wanneer e-mail echter namens iemand anders wordt verzonden, kunnen de adressen verschillend zijn. Dit gebeurt het vaakst bij bulk-e-mailberichten.
 
 Stel dat Blue Yonder Airlines Margie's Travel heeft aangenomen om haar e-mail reclame te sturen. Het bericht dat u in uw Postvak IN ontvangt, heeft de volgende eigenschappen:
 

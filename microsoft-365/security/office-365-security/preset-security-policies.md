@@ -15,21 +15,21 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het toepassen van standaard- en strikte beleidsinstellingen voor de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f57b388716eca02741ba48b3e6b47b7cf9f28884
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: e8f254f2a1ea2dcf1a4b51594a5c340e91cb3f15
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150077"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290773"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Vooraf ingestelde beveiligingsbeleid biedt een centrale locatie voor het tegelijk toepassen van alle aanbevolen spam-, malware- en phishingbeleidsregels op gebruikers. De beleidsinstellingen kunnen niet worden geconfigureerd. In plaats daarvan worden ze door ons ingesteld en zijn ze gebaseerd op onze waarnemingen en ervaringen in de datacenters voor een balans tussen het weghouden van schadelijke inhoud voor gebruikers zonder hun werk te verstoren.
 
@@ -52,7 +52,7 @@ Een profiel bepaalt het beschermingsniveau. De volgende profielen zijn beschikba
 - **Standaardbeveiliging:** een basislijnbeveiligingsprofiel dat geschikt is voor de meeste gebruikers.
 - **Strikte beveiliging:** een strikter beveiligingsprofiel voor geselecteerde gebruikers (doelen voor hoge waarden of gebruikers met een hoge prioriteit).
 
-U gebruikt regels met voorwaarden en uitzonderingen die bepalen op wie de profielen zijn of niet worden toegepast.
+U gebruikt regels met voorwaarden en uitzonderingen die bepalen wie de profielen zijn of niet worden toegepast.
 
 U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
@@ -64,7 +64,7 @@ De beschikbare voorwaarden en uitzonderingen zijn:
 
 ### <a name="policies-in-preset-security-policies"></a>Beleid in vooraf ingesteld beveiligingsbeleid
 
-Vooraf ingestelde beveiligingsbeleidsregels maken gebruik van de bijbehorende beleidsregels van de verschillende beveiligingsfuncties in EOP en Microsoft Defender voor Office 365. Dit beleid wordt gemaakt _nadat u_ het vooraf **ingestelde** beveiligingsbeleid Voor standaardbeveiliging of **Strikte beveiliging** hebt toegewezen aan gebruikers. U kunt dit beleid niet wijzigen.
+Vooraf ingestelde beveiligingsbeleidsregels maken gebruik van het bijbehorende beleid van de verschillende beveiligingsfuncties in EOP en Microsoft Defender voor Office 365. Dit beleid wordt gemaakt _nadat u_ het vooraf **ingestelde** beveiligingsbeleid Voor standaardbeveiliging of **Strikte beveiliging** hebt toegewezen aan gebruikers. U kunt dit beleid niet wijzigen.
 
 - **Beleidsregels voor Exchange Online Protection (EOP:** Dit geldt ook voor Microsoft 365-organisaties met Exchange Online-postvakken en zelfstandige EOP-organisaties zonder Exchange Online-postvakken:
 
@@ -74,7 +74,7 @@ Vooraf ingestelde beveiligingsbeleidsregels maken gebruik van de bijbehorende be
 
 - Beleid van Microsoft Defender voor **Office 365:** dit geldt ook voor organisaties met Microsoft 365 E5- of Defender voor Office 365-abonnementen met invoegabonnementen:
 
-  - Anti-phishingbeleid in Microsoft Defender voor Office  365, met de namen Standaard vooraf ingestelde beveiligingsbeleid en Strikt vooraf ingestelde beveiligingsbeleid, waaronder:
+  - Anti-phishingbeleid in Microsoft Defender voor Office 365 met de naam Standaard **vooraf** ingestelde beveiligingsbeleid en Strikt **vooraf** ingestelde beveiligingsbeleid, waaronder:
 
     - Dezelfde [spoof-instellingen](set-up-anti-phishing-policies.md#spoof-settings) die beschikbaar zijn in het anti-phishingbeleid van EOP.
     - [Imitatie-instellingen](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
@@ -88,7 +88,7 @@ U kunt EOP-beveiliging toepassen op andere gebruikers dan Microsoft Defender voo
 
 ### <a name="policy-settings-in-preset-security-policies"></a>Beleidsinstellingen in vooraf ingestelde beveiligingsbeleidsregels
 
-U kunt de beleidsinstellingen in de beveiligingsprofielen niet wijzigen. De **waarden voor** de beleidsinstelling Standaard en Strikt worden beschreven in aanbevolen instellingen voor de beveiliging van EOP en Microsoft Defender voor Office  [365.](recommended-settings-for-eop-and-office365-atp.md)
+U kunt de beleidsinstellingen in de beveiligingsprofielen niet wijzigen. De **waarden voor** de beleidsinstelling Standaard en Strikt worden beschreven in aanbevolen instellingen voor EOP en Microsoft Defender voor de beveiliging van Office  [365.](recommended-settings-for-eop-and-office365-atp.md)
 
 ### <a name="order-of-precedence-for-preset-security-policies-and-other-policies"></a>Volgorde van prioriteit voor vooraf ingesteld beveiligingsbeleid en ander beleid
 
@@ -105,7 +105,7 @@ Met andere woorden, de  instellingen van het beleid voor  strikte beveiliging ov
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina Vooraf **ingesteld beveiligingsbeleid wilt** gaan, gebruikt u <https://protection.office.com/presetSecurityPolicies> .
+- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina Vooraf **ingestelde beveiligingsbeleidsregels wilt** gaan, gebruikt u <https://protection.office.com/presetSecurityPolicies> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
@@ -115,7 +115,7 @@ Met andere woorden, de  instellingen van het beleid voor  strikte beveiliging ov
 
   Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-  **Opmerking:** als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen in het beveiligings- & compliancecentrum en machtigingen voor andere functies in Microsoft 365.  Raadpleeg [Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  **Opmerking:** als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen in het beveiligings- & compliancecentrum en machtigingen voor andere functies in Microsoft 365.  Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Het beveiligings- & gebruiken om vooraf ingestelde beveiligingsbeleidsregels aan gebruikers toe te wijzen
 
@@ -123,7 +123,7 @@ Met andere woorden, de  instellingen van het beleid voor  strikte beveiliging ov
 
 2. Klik **onder Standaardbeveiliging** **of Strikte beveiliging** op **Bewerken.**
 
-3. De **wizard Standaardbeveiliging toepassen** of Strikte beveiliging **toepassen** wordt gestart. Zoek in **de EOP-beveiligingen** die van toepassing zijn op stap de interne geadresseerden op wie de [EOP-beveiligingen](#policies-in-preset-security-policies) van toepassing zijn:
+3. De **wizard Standaardbeveiliging toepassen** of Strikte beveiliging **toepassen** wordt gestart. Zoek in **de EOP-beveiliging** op stap de interne geadresseerden die door [de EOP-beveiliging worden](#policies-in-preset-security-policies) beschermd:
 
    1. Klik **op Voorwaarde toevoegen.** Selecteer in de vervolgkeuzepkeuze die wordt weergegeven een voorwaarde onder **Toegepast als:**
 
@@ -153,14 +153,14 @@ Met andere woorden, de  instellingen van het beleid voor  strikte beveiliging ov
 
 ### <a name="use-the-security--compliance-center-to-modify-the-assignments-of-preset-security-policies"></a>Het beveiligings- & compliancecentrum gebruiken om de toewijzingen van vooraf ingestelde beveiligingsbeleidsregels te wijzigen
 
-De stappen voor het  wijzigen van  de toewijzing van het beveiligingsbeleid standaard of strikt beveiligingsbeleid zijn hetzelfde als wanneer u het vooraf ingestelde beveiligingsbeleid in eerste instantie aan [gebruikers hebt toegewezen.](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users)
+De stappen voor het  wijzigen van  de toewijzing van het standaardbeveiligingsbeleid of het beveiligingsbeleid voor strikte beveiliging zijn hetzelfde als wanneer u het vooraf ingestelde beveiligingsbeleid in eerste instantie aan [gebruikers hebt toegewezen.](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users)
 
 Als u het **beveiligingsbeleid standaard of** **Strikt** beveiligingsbeleid wilt uitschakelen terwijl de bestaande voorwaarden en uitzonderingen behouden blijven, schuift u de schakelaar naar **Uitgeschakeld.** Als u het beleid wilt inschakelen, schuift u de schakelaar naar **Ingeschakeld.**
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
-Als u wilt controleren of  het beveiligingsbeleid standaard- of strikt beveiligingsbeleid aan een gebruiker is toegewezen, gebruikt u een  beveiligingsinstelling waarbij de standaardwaarde verschilt van de instelling Standaardbeveiliging. Dit is anders dan de instelling Strikte beveiliging.  
+Als u wilt controleren of  u het  beveiligingsbeleid Standaard- of Strikte beveiliging hebt toegewezen aan een gebruiker, gebruikt u een  beveiligingsinstelling waarbij de standaardwaarde verschilt van de instelling Standaardbeveiliging. Dit is anders dan de instelling Strikte beveiliging. 
 
 Controleer bijvoorbeeld bij e-mail die is gedetecteerd als spam (geen spam met hoge betrouwbaarheid) of het bericht wordt bezorgd in de map Ongewenste e-mail voor Standaardbeveiligingsgebruikers en of het in quarantaine is geplaatst voor gebruikers van strikte **beveiliging.** 
 
-Of controleer bij [bulkmail](bulk-complaint-level-values.md)of het bericht met BCL-waarde 6 of  hoger in de map Ongewenste e-mail voor standaardbeveiligingsgebruikers wordt geplaatst en of het bericht in quarantaine wordt geplaatst met de waarde 4 of hoger voor gebruikers met strikte beveiliging. 
+Of controleer bij [bulkmail](bulk-complaint-level-values.md)of het bericht met BCL-waarde 6 of  hoger in de map Ongewenste e-mail voor standaardbeveiligingsgebruikers wordt geplaatst, en of het bericht in quarantaine wordt geplaatst met BCL waarde 4 of hoger voor gebruikers met strikte beveiliging. 

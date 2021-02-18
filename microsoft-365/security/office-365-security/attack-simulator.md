@@ -20,24 +20,24 @@ ms.custom:
 description: Beheerders kunnen informatie krijgen over het gebruik van de Attack Simulator om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun organisaties met Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9d3d55c17e5d77ee18bd822899fea2f64136e1a3
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 1e877900698d033cb99154b31e32fa04ff7d1010
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233598"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289579"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Attack Simulator in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Van toepassing op** [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+**Van toepassing op** [Microsoft Defender voor Office 365-abonnement 2](office-365-atp.md)
 
-Als uw organisatie beschikt over Microsoft Defender voor Office 365 Plan 2, dat functies voor bedreigingsonderzoek en antwoord [bevat,](office-365-ti.md)kunt u de Attack Simulator in het beveiligings- &-compliancecentrum gebruiken om realistische scenario's met aanvallen in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen om kwetsbaar gebruikers te identificeren en te vinden voordat een echte aanval uw bottom line beïnvloedt. Lees dit artikel voor meer informatie.
+Als uw organisatie beschikt over Microsoft Defender voor Office 365 Plan 2, dat functies voor bedreigingsonderzoek en antwoord [bevat,](office-365-ti.md)kunt u de Attack Simulator in het beveiligings- &-compliancecentrum gebruiken om realistische scenario's voor aanvallen in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen om kwetsbaar gebruikers te identificeren en te vinden voordat een echte aanval uw bottom line beïnvloedt. Lees dit artikel voor meer informatie.
 
 > [!NOTE]
 > De ervaring met Attack Simulator v1 is overgeschakeld naar de alleen-lezen modus en vervangen door training voor de Attack simulator die wordt beschreven in Aan de slag met de trainingstraining voor de [aanvalstraining.](attack-simulation-training-get-started.md)
-> De mogelijkheid om nieuwe validen vanaf deze site te starten is uitgeschakeld. Vanaf 24 januari 2021 hebt u echter nog steeds toegang tot rapporten voor worden uitgevoerd met een periode van 90 dagen.
+> De mogelijkheid om nieuwe validen vanaf deze site te starten is uitgeschakeld. Vanaf 24 januari 2021 kunt u echter nog steeds rapporten voor worden uitgevoerd met een periode van 90 dagen.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -47,7 +47,7 @@ Als uw organisatie beschikt over Microsoft Defender voor Office 365 Plan 2, dat 
 
 - U moet lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.** Zie [Machtigingen in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie over groepen in het Beveiligings- en compliancecentrum.
 
-- Uw account moet worden geconfigureerd voor meervoudige verificatie (MFA) voor het maken en beheren van campagnes in Attack Simulator. Zie Meervoudige verificatie instellen voor [instructies.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)
+- Uw account moet worden geconfigureerd voor meervoudige verificatie (MFA) voor het maken en beheren van campagnes in Attack Simulator. Zie Meervoudige verificatie instellen voor [instructies.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)
 
 - Phishingcampagnes verzamelen en verwerken gebeurtenissen voor 30 dagen. Historische campagnegegevens zijn beschikbaar tot 90 dagen nadat u de campagne hebt gestart.
 
@@ -61,7 +61,7 @@ Als uw organisatie beschikt over Microsoft Defender voor Office 365 Plan 2, dat 
 
 In Attack Simulator zijn twee verschillende typen phishingcampagnes beschikbaar:
 
-- **Phishing onder de aandacht brengen (referentiegegevens)**: de aanval probeert de ontvangers ervan te overtuigen op een URL in het bericht te klikken. Als de gebruiker op de koppeling klikt, wordt hem of haar gevraagd zijn of haar referenties in te voeren. Als ze dit doen, gaan ze naar een van de volgende locaties:
+- **Phishing onder de aandacht brengen (referentiegegevens)**: De aanval probeert de ontvangers ervan te overtuigen op een URL in het bericht te klikken. Als de gebruiker op de koppeling klikt, wordt hem of haar gevraagd zijn of haar referenties in te voeren. Als ze dit doen, gaan ze naar een van de volgende locaties:
 
   - Een standaardpagina waarin wordt uitgelegd dat dit slechts een test was, en tips voor het herkennen van phishing-berichten.
 
@@ -86,13 +86,13 @@ Een belangrijk onderdeel van een phishingcampagne is het uiterlijk van het e-mai
 
 #### <a name="step-1-optional-create-a-custom-email-template"></a>Stap 1 (optioneel): Een aangepaste e-mailsjabloon maken
 
-Als u een van de ingebouwde sjablonen wilt gebruiken of het e-mailbericht rechtstreeks in de wizard wilt maken, kunt u deze stap overslaan.
+Als u een van de ingebouwde sjablonen gebruikt of het e-mailbericht rechtstreeks in de wizard maakt, kunt u deze stap overslaan.
 
 1. Ga in het & Compliancecentrum naar **de threat management** Attack \> **simulator.**
 
-2. Klik op **de pagina** Aanvallen nabootsen in de **secties Phishing (Referenties** worden ontvangen) of Phishing via phishing **(bijlage)** op **Details van aanval.**
+2. Klik op **de pagina** Aanvallen nabootsen in de **secties Phishing (Referenties ontvangen)** of **Phishing (bijlage)** op **Details van aanval.**
 
-   Het maakt niet uit waar u de sjabloon maakt. De beschikbare opties in de sjabloon zijn hetzelfde voor beide soorten phishing-aanvallen.
+   Het maakt niet uit waar u de sjabloon maakt. De beschikbare opties in de sjabloon zijn hetzelfde voor beide typen phishing-aanvallen.
 
 3. Klik op **de pagina Details** van aanval die wordt geopend in de sectie **Phishing-sjablonen** in het gebied **Sjablonen** maken op Nieuwe **sjabloon.**
 
@@ -125,7 +125,7 @@ Als u een van de ingebouwde sjablonen wilt gebruiken of het e-mailbericht rechts
 
    - **Aangepaste URL van** landingspagina: voer een optionele landingspagina in waar gebruikers worden geplaatst als ze op de phishing-koppeling klikken en hun referenties invoeren. Deze koppeling vervangt de standaardlandingspagina. Als u bijvoorbeeld een interne informatietraining hebt, kunt u deze URL hier opgeven.
 
-   - **Categorie:** deze instelling wordt momenteel niet gebruikt (alles wat u optreedt, wordt genegeerd).
+   - **Categorie:** deze instelling wordt op dit moment niet gebruikt (alles wat u typt, wordt genegeerd).
 
    - **Onderwerp:** het **veld Onderwerp** van het e-mailbericht.
 
@@ -245,7 +245,7 @@ In de Attack Simulator zijn twee verschillende typen campagnes voor wachtwoord-a
   Voor de wachtwoord-aanval kunt u slechts één wachtwoord opgeven en u kunt een of meer gebruikers opgeven.
 
 > [!NOTE]
-> De wachtwoordaanvallen in Attack Simulator geven gebruikersnaam en wachtwoord basic-verificatie door aan een eindpunt, zodat ze ook werken met andere verificatiemethoden (AD FS, wachtwoordhashsynchronisatie, pass-through, PingFederate, enzovoort). Voor gebruikers die MFA hebben ingeschakeld, wordt de poging altijd als een fout geregistreerd, zelfs als de wachtwoord-aanval  het werkelijke wachtwoord probeert uit te voeren (met andere woorden: MFA-gebruikers worden nooit weergegeven in het aantal succesvolle pogingen van de campagne). Dit is het verwachte resultaat. MFA is een primaire methode om u te beschermen tegen wachtwoordaanvallen.
+> De wachtwoordaanvallen in Attack Simulator geven gebruikersnaam en wachtwoord basic-verificatie door aan een eindpunt, zodat ze ook werken met andere verificatiemethoden (AD FS, wachtwoordhashsynchronisatie, pass-through, PingFederate, enzovoort). Voor gebruikers die MFA hebben ingeschakeld, wordt de poging altijd als een fout geregistreerd, zelfs als de wachtwoord-aanval  het werkelijke wachtwoord probeert uit te voeren (met andere woorden: MFA-gebruikers worden nooit weergegeven in het aantal succesvolle pogingen van de campagne). Dit is het verwachte resultaat. MFA is een primaire methode om u te helpen beschermen tegen wachtwoordaanvallen.
 
 ### <a name="create-and-launch-a-password-attack-campaign"></a>Een wachtwoord-aanvalscampagne maken en starten
 
@@ -253,7 +253,7 @@ In de Attack Simulator zijn twee verschillende typen campagnes voor wachtwoord-a
 
 2. Maak op **de pagina** Simuleren aanvallen een van de volgende selecties op basis van het type campagne dat u wilt maken:
 
-   - Klik in **de sectie Force Password (Dictionary Attack)** op Aanval **starten** of klik op **Aanvalsdetails** \> **starten.**
+   - Klik in **de sectie Force Password (Dictionary Attack)** op Aanval **starten** of klik op **Aanvalsdetails starten.** \> 
 
    - klik in **de sectie Wachtwoord voor een** aanval op Aanval starten **of** klik op **Aanvalsdetails** \> **starten.**
 
@@ -297,7 +297,7 @@ Met een van de vorige acties gaat u naar een pagina met de naam **Details van aa
 
 ### <a name="spear-phishing-credentials-harvest-campaign-results"></a>Phishing-campagneresultaten (referenties, campagneresultaten)
 
-De volgende informatie is beschikbaar op de **pagina Details van aanval** voor elke campagne:
+De volgende informatie is beschikbaar op de **pagina met details over** aanvallen voor elke campagne:
 
 - De duur (begindatum/-tijd en einddatum/-tijd) van de campagne.
 
@@ -305,7 +305,7 @@ De volgende informatie is beschikbaar op de **pagina Details van aanval** voor e
 
 - **Geslaagde pogingen:** het aantal gebruikers dat  op de koppeling heeft geklikt en hun referenties (elke gebruikersnaam en wachtwoordwaarde) heeft ingevoerd.
 
-- **Overall Success Rate:** a percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
+- **Overall Success Rate:** A percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
 
 - **Snelste klik:** de eerste gebruiker heeft na het starten van de campagne op de koppeling geklikt.
 
@@ -337,15 +337,15 @@ De volgende informatie is beschikbaar op de **pagina Details van aanval** voor e
 
 ### <a name="spear-phishing-attachment-campaign-results"></a>Phishing-campagneresultaten (bijlage)
 
-De volgende informatie is beschikbaar op de **pagina Details van aanval** voor elke campagne:
+De volgende informatie is beschikbaar op de **pagina met details over** aanvallen voor elke campagne:
 
 - De duur (begindatum/-tijd en einddatum/-tijd) van de campagne.
 
 - **Totaal aantal gerichte gebruikers**
 
-- **Geslaagde pogingen:** het aantal gebruikers dat de bijlage heeft geopend of gedownload en geopend (preview telt niet).
+- **Geslaagde pogingen:** het aantal gebruikers dat de bijlage heeft geopend of gedownload en geopend (voorbeeld telt niet).
 
-- **Overall Success Rate:** a percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
+- **Overall Success Rate:** A percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
 
 - **Snelste tijd bij het openen** van bijlagen: hoe lang het de eerste gebruiker duurde om de bijlage te openen na het starten van de campagne.
 
@@ -355,7 +355,7 @@ De volgende informatie is beschikbaar op de **pagina Details van aanval** voor e
 
 ### <a name="brute-force-password-dictionary-attack-campaign-results"></a>Campagneresultaten voor Het wachtwoord voor een forceer woordenlijst
 
-De volgende informatie is beschikbaar op de **pagina Details van aanval** voor elke campagne:
+De volgende informatie is beschikbaar op de **pagina met details over** aanvallen voor elke campagne:
 
 - De duur (begindatum/-tijd en einddatum/-tijd) van de campagne.
 
@@ -363,13 +363,13 @@ De volgende informatie is beschikbaar op de **pagina Details van aanval** voor e
 
 - **Geslaagde pogingen:** het aantal gebruikers dat een van de opgegeven wachtwoorden heeft gebruikt.
 
-- **Overall Success Rate:** a percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
+- **Overall Success Rate:** A percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
 
 - In **de sectie Gekromde** gebruikers worden de e-mailadressen van de betrokken gebruikers vermeld. U kunt op **Exporteren klikken** om de resultaten te exporteren naar een CSV-bestand.
 
 ### <a name="password-spray-attack-campaign-results"></a>Resultaten van wachtwoord-aanvalscampagne
 
-De volgende informatie is beschikbaar op de **pagina Details van aanval** voor elke campagne:
+De volgende informatie is beschikbaar op de **pagina met details over** aanvallen voor elke campagne:
 
 - De duur (begindatum/-tijd en einddatum/-tijd) van de campagne.
 
@@ -377,4 +377,4 @@ De volgende informatie is beschikbaar op de **pagina Details van aanval** voor e
 
 - **Geslaagde pogingen:** het aantal gebruikers dat het opgegeven wachtwoord heeft gebruikt.
 
-- **Overall Success Rate:** a percentage that's calculated by **Successful attempts** Total  /  **users targeted.**
+- **Overall Success Rate:** A percentage that's calculated by **Successful attempts** Total  /  **users targeted.**

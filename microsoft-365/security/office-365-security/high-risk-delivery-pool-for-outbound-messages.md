@@ -17,21 +17,21 @@ ms.collection:
 description: Lees hoe de bezorgingsgroepen worden gebruikt om de reputatie van e-mailservers in de Microsoft 365-datacenters te beschermen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5480916f55fc180a6f08d3c420cb92c730e4065b
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 89aac1478d3e5840df4379b9f49832b79d0e133a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167537"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289803"
 ---
 # <a name="outbound-delivery-pools"></a>Uitgaande bezorgingspools
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 E-mailservers in de Microsoft 365-datacenters kunnen tijdelijk geen spam meer verzenden. Bijvoorbeeld een malware- of kwaadaardige spam-aanval in een on-premises e-mailorganisatie die uitgaande e-mail verzendt via Microsoft 365 of gekromde Microsoft 365-accounts. Aanvallers proberen ook detectie te voorkomen door berichten door te sturen via Doorsturen van Microsoft 365.
 
@@ -40,7 +40,7 @@ Deze scenario's kunnen ertoe leiden dat het IP-adres van de betrokken Servers va
 ## <a name="high-risk-delivery-pool"></a>Bezorgingsgroep met hoog risico
 Om dit te voorkomen, worden alle uitgaande berichten van servers in het Microsoft 365-datacenter die als spam worden beschouwd of die de verzendende limieten van het [service-](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) of [uitgaande spambeleid](configure-the-outbound-spam-policy.md) overschrijden, verzonden via de bezorgingsgroep met hoog risico.
 
-De bezorgingsgroep met hoog risico is een aparte IP-adresgroep voor uitgaande e-mail die alleen wordt gebruikt voor het verzenden van berichten van een lage kwaliteit (bijvoorbeeld spam en [backscatter).](backscatter-messages-and-eop.md) Het gebruik van de groep met hoog risico helpt voorkomen dat de normale IP-adresgroep voor uitgaande e-mail spam verstuurt. De normale IP-adresgroep voor uitgaande e-mail behoudt de reputatie van het verzenden van berichten van hoge kwaliteit, waardoor de kans wordt verkleind dat dit IP-adres wordt weergegeven op blokkeerlijsten met IP-adressen.
+De bezorgingsgroep met hoog risico is een afzonderlijke IP-adresgroep voor uitgaande e-mail die alleen wordt gebruikt voor het verzenden van berichten van een lage kwaliteit (bijvoorbeeld spam en [backscatter).](backscatter-messages-and-eop.md) Het gebruik van de groep met hoog risico helpt voorkomen dat de normale IP-adresgroep voor uitgaande e-mail spam verstuurt. De normale IP-adresgroep voor uitgaande e-mail behoudt de reputatie van het verzenden van berichten van hoge kwaliteit, waardoor de kans wordt verkleind dat dit IP-adres wordt weergegeven op blokkeerlijsten met IP-adressen.
 
 De zeer reële mogelijkheid dat IP-adressen in de bezorgingsgroep met hoog risico op ip-blokkeringslijsten worden geplaatst, blijft bestaan, maar dit is volgens het ontwerp. Bezorging bij de beoogde geadresseerden is niet gegarandeerd, omdat veel e-mailorganisaties geen berichten van de bezorgingsgroep met hoog risico accepteren.
 
@@ -66,4 +66,4 @@ Al deze problemen kunnen ertoe leiden dat het aantal NDR's dat door de service w
 
 Berichten die worden doorgestuurd of doorgestuurd via Microsoft 365, worden verzonden met een speciale relaygroep, aangezien Microsoft 365 niet als de werkelijke afzender moet worden gezien voor de uiteindelijke bestemming. Het is ook belangrijk dat we dit verkeer isoleren, omdat er legitieme en ongeldige scenario's zijn voor het automatisch doorveren of door te sturen van e-mail uit Microsoft 365. Net als bij de bezorgingsgroep met hoog risico wordt een aparte IP-adresgroep gebruikt voor doorgestuurde e-mail. Deze adresgroep wordt niet gepubliceerd omdat deze vaak kan worden gewijzigd.
 
-Microsoft 365 moet verifiëren of de oorspronkelijke afzender legitiem is, zodat we het doorgestuurde bericht met vertrouwen kunnen bezorgen. Dit kan alleen als e-mailverificatie (SPF, DKIM en DMARC) binnenkomt. In gevallen waarin we de afzender kunnen verifiëren, gebruiken we Rewriting (Afzender) om de ontvanger te helpen weten dat het doorgestuurde bericht afkomstig is van een vertrouwde bron. U kunt meer lezen over hoe dat werkt en wat u kunt doen om ervoor te zorgen dat het verzendende domein verificatie passeert in [SRS (Sender Rewriting Scheme).](https://docs.microsoft.com/office365/troubleshoot/antispam/sender-rewriting-scheme)
+Microsoft 365 moet verifiëren of de oorspronkelijke afzender legitiem is, zodat we het doorgestuurde bericht met vertrouwen kunnen bezorgen. Dit kan alleen als e-mailverificatie (SPF, DKIM en DMARC) binnenkomt. In gevallen waarin we de afzender kunnen verifiëren, gebruiken we Rewriting (Afzender) om de ontvanger te laten weten dat het doorgestuurde bericht afkomstig is van een vertrouwde bron. U kunt meer lezen over hoe dat werkt en wat u kunt doen om ervoor te zorgen dat het verzendende domein verificatie passeert in [SRS (Sender Rewriting Scheme).](https://docs.microsoft.com/office365/troubleshoot/antispam/sender-rewriting-scheme)

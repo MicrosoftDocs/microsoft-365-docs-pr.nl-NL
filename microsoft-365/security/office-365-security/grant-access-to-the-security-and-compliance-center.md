@@ -20,23 +20,23 @@ description: Gebruikers moeten machtigingen toegewezen krijgen in het Microsoft 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9e19825ce0f8224b2aee8e1419ef5d1ad425aadb
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e1a619b184c575e3750b2499adc661627b4d27d6
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165413"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289875"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot het beveiligings- & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Gebruikers moeten machtigingen toegewezen krijgen in het beveiligings- & voordat ze de beveiligings- of nalevingsfuncties ervan kunnen beheren. Als globale beheerder of lid van de rollengroep OrganizationManagement in het beveiligings- & compliancecentrum kunt u deze machtigingen aan gebruikers verlenen. Gebruikers kunnen alleen de beveiligings- of nalevingsfuncties beheren die u hen toegang geeft.
+Gebruikers moeten machtigingen toegewezen krijgen in het beveiligings- & voordat ze de beveiligings- of nalevingsfuncties kunnen beheren. Als globale beheerder of lid van de rollengroep OrganizationManagement in het beveiligings- & compliancecentrum kunt u deze machtigingen aan gebruikers verlenen. Gebruikers kunnen alleen de beveiligings- of nalevingsfuncties beheren die u hen toegang geeft.
 
 Raadpleeg machtigingen in het beveiligings- & compliancecentrum voor meer informatie over de verschillende machtigingen die u gebruikers kunt geven in het beveiligings- & [compliancecentrum.](permissions-in-the-security-and-compliance-center.md)
 
@@ -86,9 +86,9 @@ Zie [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/
 
 Als u wilt controleren of u toegang hebt verleend tot het beveiligings- & compliancecentrum, gaat u op een van de volgende stappen te werk:
 
-- Ga in het & Compliancecentrum naar **Machtigingen** en selecteer de rollengroep. Controleer de leden van de rollengroep in de flyout met details die wordt geopend.
+- Ga in het & Compliancecentrum naar **Machtigingen** en selecteer de rollengroep. Controleer in de flyout met details die wordt geopend de leden van de rollengroep.
 
-- Vervang in & Compliancecentrum PowerShell door de naam van de rollengroep en \<RoleGroupName\> voer de volgende opdracht uit:
+- Vervang in & Compliancecentrum PowerShell door de naam van de rollengroep en voer \<RoleGroupName\> de volgende opdracht uit:
 
   ```powershell
   Get-RoleGroupMember -Identity "<RoleGroupName>"

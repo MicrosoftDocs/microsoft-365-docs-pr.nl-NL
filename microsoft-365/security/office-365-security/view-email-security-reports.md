@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,509 +15,515 @@ search.appverid:
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het zoeken en gebruiken van e-mail beveiligingsrapporten voor uw organisatie. Beveiligingsrapporten voor e-mail zijn beschikbaar in de beveiligings & nalevings centrum.
+description: Lees hoe u beveiligingsrapporten voor e-mail voor uw organisatie kunt vinden en gebruiken. Beveiligingsrapporten voor e-mail zijn beschikbaar in het & Compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 568144c449d2f1a70082130cc847d48c3486d9da
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: f6d9f149c9e1c71532018e6b43a6e9e31eb04607
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865102"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290797"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Er zijn diverse rapporten beschikbaar in het [beveiligings & compliance Center](https://protection.office.com) , zodat u kunt zien hoe e-mail beveiligingsfuncties, zoals antispam, anti-malware en versleutelings functies in microsoft 365, uw organisatie beschermen. Als u de [benodigde machtigingen](#what-permissions-are-needed-to-view-these-reports)hebt, kunt u deze rapporten weergeven in het compliance-beveiligings & door  naar het \> **Dashboard** rapporten te gaan. Open om rechtstreeks naar het Dashboard rapporten te gaan <https://protection.office.com/insightdashboard> .
+In het beveiligings- &-compliancecentrum vindt u [diverse](https://protection.office.com) rapporten om te zien hoe beveiligingsfuncties voor e-mail, zoals antispam, malware en versleutelingsfuncties in Microsoft 365 uw organisatie beschermen. Als u de [benodigde machtigingen hebt,](#what-permissions-are-needed-to-view-these-reports)kunt u deze rapporten bekijken in het beveiligings- & Compliancecentrum door naar rapportendashboard **te** \> **gaan.** Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://protection.office.com/insightdashboard> .
 
-![Dashboard rapporten in het nalevings centrum voor beveiligings &](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Dashboard Rapporten in het beveiligings- & compliancecentrum](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="compromised-users-report"></a>Rapport met verkraakte gebruikers
+## <a name="compromised-users-report"></a>Rapport Over gekromde gebruikers
 
 > [!NOTE]
-> Dit rapport is beschikbaar in Microsoft 365-organisaties met postvakken van Exchange Online. Deze functie is niet beschikbaar in zelfstandige Exchange Online Protection (EOP)-organisaties.
+> Dit rapport is beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken. Het is niet beschikbaar in zelfstandige Exchange Online Protection (EOP)-organisaties.
 
-Het rapport verdachte **gebruikers** toont het aantal gebruikersaccounts dat is gemarkeerd als **verdacht** of **beperkt** in de afgelopen 7 dagen. Accounts in een van deze statussen zijn problematisch of zelfs aangetast. Met vaak gebruikte rapporten kunt u de lijst gebruiken om pieken en zelfs trends te gebruiken in verdachte of beperkte accounts. Zie [reageren op een gemanipuleerd e-mailaccount](responding-to-a-compromised-email-account.md)voor meer informatie over gebruikers die een aanval hebben.
+In **het rapport Gecompromitteerde** gebruikers ziet  u  het aantal gebruikersaccounts dat in de afgelopen zeven dagen is gemarkeerd als Verdacht of Beperkt. Accounts in een van deze landen zijn problematisch of zelfs gecompromitteerd. Bij vaak gebruik kunt u het rapport gebruiken om pieken en zelfs trends te herkennen in verdachte of beperkte accounts. Zie Reageren op een gekromd e-mailaccount voor meer informatie over gecompromitteerd [gebruikers.](responding-to-a-compromised-email-account.md)
 
-![De widget gebruikers met compromissen in het Dashboard rapporten](../../media/compromised-users-report-widget.png)
+![Widget Over gekromde gebruikers in het dashboard Rapporten](../../media/compromised-users-report-widget.png)
 
-De statistische weergave bevat gegevens voor de laatste 90 dagen en de detailweergave bevat gegevens voor de afgelopen 30 dagen.
+In de samengevoegde weergave worden gegevens van de afgelopen 90 dagen en in de detailweergave de gegevens van de afgelopen 30 dagen weergeven.
 
-Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar  \> **Dashboard** rapporten en selecteert u gebruikers die zijn **gemanipuleerd**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=CompromisedUsers> .
+Als u het rapport wilt bekijken, opent u het [beveiligings- & compliancecentrum,](https://protection.office.com)gaat u naar **het** dashboard \> **Rapporten** en selecteert u **Gekromde gebruikers.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=CompromisedUsers> .
 
-U kunt zowel de grafiek als de tabel met details filteren door op **filters** te klikken en een of meer van de volgende waarden te selecteren:
+U kunt zowel de grafiek als de detailtabel filteren door te klikken op **Filters** en een of meer van de volgende waarden te selecteren:
 
-- **Begindatum** en **einddatum**
+- **Begindatum** **en einddatum**
 
-- **Verdacht**: het gebruikersaccount heeft verdachte e-mail verzonden en loopt tegen een beperkte beperking van het verzenden van e-mail.
+- **Verdacht:** het gebruikersaccount heeft verdachte e-mailberichten verzonden en loopt het risico dat het niet kan worden verzonden.
 
-- **Beperkt**: het gebruikersaccount mag geen e-mail verzenden vanwege zeer verdachte patronen.
+- **Beperkt:** het gebruikersaccount kan geen e-mail meer verzenden vanwege zeer verdachte patronen.
 
-![Rapportweergave in het rapport met verkraakte gebruikers](../../media/compromised-users-report-activity-view.png)
+![Rapportweergave in het rapport Gecompromitteerde gebruikers](../../media/compromised-users-report-activity-view.png)
 
-Als u op **detail tabel weergeven** klikt, ziet u de volgende informatie:
+Als u op **Detailtabel weergeven klikt,** ziet u de volgende details:
 
-- **Tijdstip van aanmaken**
-- **Gebruikers-ID**
+- **Tijd maken**
+- **Gebruikers-id**
 - **Actie**
 
-Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
+Als u terug wilt gaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
-## <a name="encryption-report"></a>Versleutelings rapport
+## <a name="encryption-report"></a>Versleutelingsrapport
 
-Het **versleutelings rapport** is beschikbaar in EOP (abonnementen met postvakken in Exchange Online of zelfstandige EOP zonder postvakken van Exchange Online). Het beveiligingsteam van uw organisatie kan informatie in dit rapport gebruiken om patronen te identificeren en beleid proactief toe te passen of te wijzigen voor gevoelige e-mailberichten. Bijvoorbeeld:
+Het **versleutelingsrapport** is beschikbaar in EOP (abonnementen met postvakken in Exchange Online of zelfstandige EOP zonder Exchange Online-postvakken). Het beveiligingsteam van uw organisatie kan informatie in dit rapport gebruiken om patronen te identificeren en beleid proactief toe te passen of aan te passen voor gevoelige e-mailberichten. Bijvoorbeeld:
 
-- Als u een groot aantal e-mailberichten met versleutelde gebruikers ziet, wilt u misschien een versleutelingsbeleid toevoegen om versleuteling te automatiseren voor bepaalde use cases. Zie voor meer informatie [e-mail stroom regels definiëren voor het versleutelen van e-mailberichten in Microsoft 365](../../compliance/define-mail-flow-rules-to-encrypt-email.md).
+- Als u veel e-mailberichten ziet die door gebruikers zijn versleuteld, kunt u een versleutelingsbeleid toevoegen om versleuteling voor bepaalde use cases te automatiseren. Zie Regels voor de [e-mailstroom definiëren om e-mailberichten te versleutelen in Microsoft 365](../../compliance/define-mail-flow-rules-to-encrypt-email.md)voor meer informatie.
 
-- Als u beschikt over een aantal beschikbare versleutelings sjablonen, maar niemand deze gebruikt, kunt u zien of gebruikersfunctie training nodig hebben.
+- Als er een aantal versleutelingssjablonen beschikbaar is, maar niemand gebruikt deze, kunt u na gaan of gebruikers functietraining nodig hebben.
 
-Met de cumulatieve weergave kunnen filters voor de laatste 90 dagen worden gefilterd, maar in de weergave Details kunt u filteren gedurende 10 dagen.
+In de samengevoegde weergave kunt u filteren voor de afgelopen 90 dagen, terwijl in de detailweergave 10 dagen mag worden gefilterd.
 
-Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **rapporten** \> **Dashboard** en selecteert u **versleutelings rapport**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=EncryptionReport> .
+Als u het rapport wilt bekijken, opent u het [beveiligings- & compliancecentrum,](https://protection.office.com)gaat u naar **het** \> **dashboard Rapporten** en **selecteert u Versleutelingsrapport.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=EncryptionReport> .
 
-Zie voor meer informatie over versleuteling [e-mail versleuteling in Microsoft 365](../../compliance/email-encryption.md).
+Zie E-mailversleuteling [in Microsoft 365](../../compliance/email-encryption.md)voor meer informatie over versleuteling.
 
-### <a name="report-view-for-the-encryption-report"></a>Rapportweergave voor het versleutelings rapport
+### <a name="report-view-for-the-encryption-report"></a>Rapportweergave voor het versleutelingsrapport
 
 U kunt de volgende filters in de grafiek gebruiken:
 
-- **Gegevens weergeven op: bericht versleutelings rapport** en **opsplitsen met: versleutelingsmethode**: de volgende versleutelingsmethoden zijn beschikbaar:
+- **Gegevens weergeven op: Rapport berichtversleuteling** en **Opbreak door: Versleutelingsmethode:** De volgende versleutelingsmethoden zijn beschikbaar:
 
-  - **Versleuteling per gebruiker**
-  - **Versleuteling op basis van beleid**
+  - **Versleuteling door gebruiker**
+  - **Versleuteling per beleid**
 
-  Als u op **filters** klikt, kunt u de grafiek met de volgende filters wijzigen:
+  Als u op **Filters klikt,** kunt u de grafiek wijzigen met de volgende filters:
 
-  - **Begindatum** en **einddatum**
+  - **Begindatum** **en einddatum**
   - Versleutelingsmethode.
-  - Versleutelings sjabloon.
+  - Versleutelingssjabloon.
 
-- **Gegevens weergeven op: bericht versleutelings rapport** en **opsplitsen met:** versleutelingsmethode: de volgende versleutelingsmethoden zijn beschikbaar:
+- **Gegevens weergeven op: Rapport berichtversleuteling** en **Opsbreed door:** Versleutelingssjabloon: De volgende versleutelingsmethoden zijn beschikbaar:
 
-  - **Niet doorschakelen**
+  - **Niet doorsturen**
   - **Alleen versleutelen**
-  - **OME vorige**
-  - **Gemaakte**
+  - **OME previous**
+  - **Aangepast**
 
-  Als u op **filters** klikt, kunt u de grafiek met de volgende filters wijzigen:
+  Als u op **Filters klikt,** kunt u de grafiek wijzigen met de volgende filters:
 
-  - **Begindatum** en **einddatum**
+  - **Begindatum** **en einddatum**
   - Versleutelingsmethode
-  - Versleutelings sjabloon
+  - Versleutelingssjabloon
 
-- **Gegevens weergeven op: domeinen van 5 belangrijkste geadresseerden**: in deze weergave wordt een cirkeldiagram met verzonden berichten geteld voor de domeinen van de vijf belangrijkste geadresseerden.
+- **Gegevens weergeven op: Top 5** geadresseerdendomeinen: In deze weergave ziet u een cirkeldiagram met verzonden berichttellingen voor de vijf belangrijkste geadresseerdendomeinen.
 
-  Als u op **filters** klikt, kunt u een **begin** -en **einddatum** selecteren.
+  Als u op **Filters klikt,** kunt u een **begin-** en **einddatum selecteren.**
 
-### <a name="details-table-view-for-the-encryption-report"></a>De tabel weergave Details voor het versleutelings rapport
+### <a name="details-table-view-for-the-encryption-report"></a>Detailtabelweergave voor het versleutelingsrapport
 
-Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
+Als u op **de tabel Details weergeven klikt,** is de informatie die wordt weergegeven afhankelijk van de grafiek die u bekijkt:
 
-- **Verbreken op: versleutelingsmethode** of **verbreken op: versleutelings sjabloon**: de volgende informatie wordt weergegeven:
+- **Opbreed door: Versleutelingsmethode** of **Opbreed door:** Versleutelingssjabloon: De volgende informatie wordt weergegeven:
 
   - **Datum**
   - **Adres afzender**
-  - **Versleutelings sjabloon**
+  - **Versleutelingssjabloon**
   - **Versleutelingsmethode**
-  - **Adres van ontvanger**
+  - **Adres van geadresseerde**
   - **Onderwerp**
 
-- **Gegevens weergeven op: domeinen van 5 belangrijkste geadresseerden**:
+- **Gegevens weergeven op: De 5 belangrijkste geadresseerdendomeinen:**
 
   - **Datum**
-  - **Domein van de ontvanger**
+  - **Domein van ontvanger**
   - **Aantal berichten**
 
-Als u in een weergave met detail tabellen op **filters** klikt, kunt u de resultaten wijzigen met de volgende filters:
+Als u in een detailtabelweergave op **Filters** klikt, kunt u de resultaten wijzigen met de volgende filters:
 
-- **Begindatum** en **einddatum**
+- **Begindatum** **en einddatum**
 - Versleutelingsmethode
-- Versleutelings sjabloon
+- Versleutelingssjabloon
 
-Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
+Als u terug wilt gaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
-## <a name="mailflow-status-report"></a>Rapport over de status van de telestroom
+## <a name="mailflow-status-report"></a>Mailflow status report
 
-Het rapport met de e-mail **stroom status** bevat informatie over de geblokkeerde berichten malware, spam, phishing en Edge. Zie voor meer informatie het rapport over de status van de [telestroom](view-mail-flow-reports.md#mailflow-status-report).
+Het **rapport Mailflow-status** bevat informatie over geblokkeerde malware, spam, phishingberichten en geblokkeerde edge-berichten. Zie het [Mailflow-statusrapport](view-mail-flow-reports.md#mailflow-status-report)voor meer informatie.
 
-## <a name="malware-detections-in-email-report"></a>Detectie van malware in een e-mail rapport
+## <a name="malware-detections-in-email-report"></a>Malwaredetectie in e-mailrapport
 
-De **malware van malware in een e-mail** rapport bevat informatie over detectie van malware in inkomende en uitgaande e-mailberichten (malware gedetecteerd via Exchange Online Protection of EOP). Zie [bescherming tegen malware in EOP](anti-malware-protection.md)voor meer informatie over beveiliging van malware in EOP.
+De **malwaredetectie in het** e-mailrapport bevat informatie over malwaredetectie in binnenkomende en uitgaande e-mailberichten (malware gedetecteerd door Exchange Online Protection of EOP). Zie Anti-malwarebeveiliging in EOP voor meer informatie over [malwarebeveiliging in EOP.](anti-malware-protection.md)
 
- Het filter voor de geaggregeerde weergave is gedurende 90 dagen toegestaan, terwijl het tabelfilter voor de details 10 dagen geldig is.
+ Het filter voor de samengevoegde weergave kan 90 dagen duren, terwijl het detailtabelfilter slechts 10 dagen toestaat.
 
-Als u het rapport wilt weergeven, opent u het [& nalevings centrum](https://protection.office.com), gaat u naar **rapporten** \> **Dashboard** en selecteert u **detectie van malware per e-mail**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=MalwareDetections> .
+Als u het rapport wilt bekijken, opent u het beveiligings- [& compliancecentrum,](https://protection.office.com)gaat u naar **het** dashboard Rapporten en selecteert u \>  **Malwaredetecties in e-mail.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=MalwareDetections> .
 
-![Detectie van malware in de widget e-mailbericht in het Dashboard rapporten](../../media/malware-detections-widget.png)
+![Malwaredetectie in e-mailwidget in het dashboard Rapporten](../../media/malware-detections-widget.png)
 
-U kunt zowel de grafiek als de tabel met details filteren door te klikken op **filters** en de volgende opties te selecteren:
+U kunt zowel de grafiek als de detailtabel filteren door op Filters te klikken **en** het volgende te selecteren:
 
-- **Begindatum** en **einddatum**
-- **Bound**
-- **Transfer**
+- **Begindatum** **en einddatum**
+- **Binnenkomende**
+- **Uitgaand**
 
-![Rapportweergave in de detectie van malware in een e-mail rapport](../../media/malware-detections-report-view.png)
+![Rapportweergave in de malwaredetectie in een e-mailrapport](../../media/malware-detections-report-view.png)
 
-Als u op **detail tabel weergeven** klikt, ziet u de volgende informatie:
+Als u op **Detailtabel weergeven klikt,** ziet u de volgende details:
 
 - **Datum**
 - **Adres afzender**
-- **Adres van ontvanger**
-- **Bericht-id**: beschikbaar in het veld **bericht-id-** header in de berichtkop en moet uniek zijn. Een Voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Let op de punthaken).
+- **Adres van geadresseerde**
+- **Bericht-id:** deze is beschikbaar in het **koptekstveld Bericht-id** in de berichtkop en moet uniek zijn. Een voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (let op de hoekhaken).
 - **Onderwerp**
-- **Namen**
-- **Naam van malware**
+- **Bestandsnaam**
+- **Malwarenaam**
 
-Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
+Als u terug wilt gaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
-## <a name="mail-latency-report"></a>Rapport over e-mail latentie
+## <a name="mail-latency-report"></a>E-maillatentierapport
 
-Het **rapport e-mail latentie** bevat informatie over de bezorgings latentie en de detonatie latentie van de e-mail in uw organisatie. Zie [e-mail latentie rapporten](view-reports-for-atp.md#mail-latency-report)voor meer informatie.
+Het **rapport E-maillatentie** bevat informatie over de ervaren e-mailbezorging en detonatielatentie binnen uw organisatie. Zie het [Mail-latentierapport](view-reports-for-atp.md#mail-latency-report)voor meer informatie.
 
-## <a name="sent-and-received-email-report"></a>E-mail verzonden en ontvangen
+## <a name="sent-and-received-email-report"></a>Rapport verzonden en ontvangen e-mail
 
-De lijst **verzonden en ontvangen e-mail** bevat informatie over malware, spam, regels voor e-mail stroom (ook wel bekend als transportregels), en geavanceerde malware-detectie na voltooiing e-mail voert de service uit. Zie [e-mailbericht verzonden en ontvangen](view-mail-flow-reports.md#sent-and-received-email-report)voor meer informatie.
+Het **rapport Verzonden** en ontvangen e-mail bevat informatie over malware, spam, regels voor de e-mailstroom (ook wel transportregels genoemd) en geavanceerde malwaredetecties nadat e-mailberichten zijn verzonden naar de service. Zie Het rapport Verzonden en [ontvangen e-mail voor meer informatie.](view-mail-flow-reports.md#sent-and-received-email-report)
 
-## <a name="spam-detections-report"></a>Rapport detectie van spam
+## <a name="spam-detections-report"></a>Rapport Over spamdetectie
 
-Het rapport **spam detectie** toont spam-e-mailberichten die zijn geblokkeerd door EOP. Berichten worden afzonderlijk geteld, niet per ontvanger. Als het e-mailbericht bijvoorbeeld is verzonden naar 100-geadresseerden in uw organisatie, wordt het als één bericht geteld.
+Het **rapport Spamdetectie** toont spam-e-mailberichten die zijn geblokkeerd door EOP. Berichten worden afzonderlijk geteld, niet per geadresseerde. Als bijvoorbeeld hetzelfde spambericht is verzonden naar 100 geadresseerden in uw organisatie, telt dit als één bericht.
 
-De geaggregeerde weergave biedt de mogelijkheid 90 dagen te filteren, terwijl de tabel Details het filteren van tien dagen toestaat.
+In de samengevoegde weergave kunt u 90 dagen filteren, terwijl in de detailtabel filteren binnen tien dagen is mogelijk.
 
-Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **rapporten** \> **Dashboard** en selecteert u **spam detectie**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=SpamDetections> .
+Als u het rapport wilt bekijken, opent u  het beveiligings- [& compliancecentrum,](https://protection.office.com)gaat u naar het dashboard Rapporten en selecteert u \>  **Spamdetecties.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=SpamDetections> .
 
-![Widget spam detectie in het Dashboard rapporten](../../media/spam-detections-report-widget.png)
+![Widget spamdetectie in het dashboard Rapporten](../../media/spam-detections-report-widget.png)
 
-Zie [bescherming tegen spam in EOP](anti-spam-protection.md)voor meer informatie over beveiliging tegen ongewenste e-mail.
+Zie [Antispambeveiliging in EOP](anti-spam-protection.md)voor meer informatie over bescherming tegen spam.
 
-### <a name="report-view-for-the-spam-detections-report"></a>Rapportweergave voor het rapport detectie van spam
+### <a name="report-view-for-the-spam-detections-report"></a>Rapportweergave voor het rapport Over spamdetectie
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Verbreken op: actie**: de volgende gebeurtenistypen worden weergegeven:
+- **Op te breken met: Actie:** de volgende gebeurtenistypen worden weergegeven:
 
-  - **Spam met gefilterde inhoud**
+  - **Gefilterde spaminhoud**
   - **Spam-IP-blok**
-  - **Spam blok voor spam**
-  - **Spam DBEB filter**: op mappen gebaseerde rand blokkeren (DBEB)
+  - **Blok met spam-enveloppen**
+  - **Spam DBEB-filter:** randblokkering op basis van adreslijst (DBEB)
 
-  Wanneer u de muisaanwijzer op een dag (gegevenspunt) van de grafiek plaatst, kunt u zien hoeveel items zijn geblokkeerd voor de dag, en hoe die items zijn gecategoriseerd.
+  Wanneer u de muisaanwijzer over een dag (gegevenspunt) in de grafiek beweegt, kunt u zien hoeveel items die dag zijn geblokkeerd en hoe deze items worden gecategoriseerd.
 
-  ![Actie weergave in het rapport spam detectie](../../media/spam-detections-report-action-view.png)
+  ![Actieweergave in het rapport Spamdetectie](../../media/spam-detections-report-action-view.png)
 
-- **Onderbrekingspunt met: richting**: de volgende richtingen worden weergegeven:
+- **In twee richtingen:** de volgende routebeschrijving wordt weergegeven:
 
-  - **Bound**
-  - **Transfer**
+  - **Binnenkomende**
+  - **Uitgaand**
 
-  ![Richtings weergave in het rapport spam detectie](../../media/spam-detections-report-direction-view.png)
+  ![Richtingsweergave in het rapport Spamdetectie](../../media/spam-detections-report-direction-view.png)
 
-Als u op **filters** in een rapportweergave klikt, kunt u de resultaten wijzigen met de volgende filters:
+Als u in **een rapportweergave** op Filters klikt, kunt u de resultaten wijzigen met de volgende filters:
 
-- **Begindatum** en **einddatum**
-- Richtings waarden
-- Waarden voor gebeurtenistype
+- **Begindatum** **en einddatum**
+- Richtingswaarden
+- Waarden van gebeurtenistype
 
-### <a name="details-table-view-for-the-spam-detections-report"></a>De tabel weergave Details voor het rapport detectie van spam
+### <a name="details-table-view-for-the-spam-detections-report"></a>Tabelweergave Details voor het rapport Spamdetectie
 
-Als u in een rapportweergave op **Details tabel weergeven** klikt, wordt de volgende informatie weergegeven:
+Als u in **een rapportweergave op Detailtabel** weergeven klikt, wordt de volgende informatie weergegeven:
 
 - **Datum**
 - **Adres afzender**
-- **Adres van ontvanger**
-- **Evenementtype**
+- **Adres van geadresseerde**
+- **Gebeurtenistype**
 - **Actie**
 - **Onderwerp**
 
-Als u op **filters** in een gegevenstabel klikt, kunt u de resultaten wijzigen met de volgende filters:
+Als u in **een detailtabel** op Filters klikt, kunt u de resultaten wijzigen met de volgende filters:
 
-- **Begindatum** en **einddatum**
-- Richtings waarden
-- Waarden voor gebeurtenistype
+- **Begindatum** **en einddatum**
+- Richtingswaarden
+- Waarden van gebeurtenistype
 
-Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
+Als u terug wilt gaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
-## <a name="spoof-detections-report"></a>Rapport over spoof detectie
+## <a name="spoof-detections-report"></a>Rapport met spoof-detecties
 
-In het rapport met vergelijkings **detectie** wordt weergegeven hoeveel valse e-mailberichten zijn gedetecteerd, en welke hiervan als ' goed ' zijn beschouwd (vervalste e-mail die voor legitieme zakelijke redenen is uitgevoerd). Zie voor meer informatie over spoofing [beveiliging tegen spoofing in EOP](anti-spoofing-protection.md).
+Het **rapport spoof-detecties** laat zien hoeveel spoof-e-mailberichten zijn gedetecteerd en welke als 'goed' werden beschouwd (spoof-e-mail die is uitgevoerd om legitieme zakelijke redenen). Zie Beveiliging tegen spoofing in EOP voor meer [informatie over spoofing.](anti-spoofing-protection.md)
 
-De geaggregeerde weergave van het rapport mag voor 90 dagen filteren, terwijl de detailweergave slechts tien dagen van filteren toestaat.
+In de samengevoegde weergave van het rapport kunt u 90 dagen filteren, terwijl in de detailweergave slechts tien dagen filtertijd is.
 
-Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar **rapporten** \> **Dashboard** en selecteert u **detectie van spoofing**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=SpoofMailReport> .
+Als u het rapport wilt bekijken, opent u  het [beveiligings- & compliancecentrum,](https://protection.office.com)gaat u naar het dashboard Rapporten en selecteert u \>  **Spoof-detecties.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=SpoofMailReport> .
 
-![Vervalsers detectie-widget in het Dashboard rapporten](../../media/spoof-detections-widget.png)
+![Widget voor spoofingsdetectie in het dashboard Rapporten](../../media/spoof-detections-widget.png)
 
-Wanneer u de muisaanwijzer op een dag (gegevenspunt) van de grafiek plaatst, kunt u zien hoe vaak e-mailberichten worden verzonden.
+Wanneer u de muisaanwijzer over een dag (gegevenspunt) in de grafiek beweegt, ziet u hoeveel spoof-e-mailberichten er zijn ontvangen.
 
-U kunt zowel de grafiek als de tabel met details filteren door op **filters** te klikken en een of meer van de volgende waarden te selecteren:
+U kunt zowel de grafiek als de detailtabel filteren door te klikken op **Filters** en een of meer van de volgende waarden te selecteren:
 
-- **Begindatum** en **einddatum**
+- **Begindatum** **en einddatum**
 
 - **Goede e-mail**
 
-- **Afgevangen als spam**
+- **Wordt als spam gemarkeerd**
 
-![Rapportweergave in het rapport spoof detectie](../../media/spoof-detections-report-view.png)
+![Rapportweergave in het rapport Spoof-detecties](../../media/spoof-detections-report-view.png)
 
-Als u op **detail tabel weergeven** klikt, ziet u de volgende informatie:
+Als u op **Detailtabel weergeven klikt,** ziet u de volgende details:
 
 - **Datum**
 - **Vervalste afzender**
-- **Ware afzender**
-- **IP van afzender**
+- **Waar afzender**
+- **AFZENDER-IP**
 - **Actie**
 - **Aantal berichten**
 
-Als u terug wilt gaan naar de rapportweergave, klikt u op **rapport weergeven**.
+Als u terug wilt gaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
 ## <a name="threat-protection-status-report"></a>Statusrapport bedreigingsbeveiliging
 
-Het rapport **status beveiliging** van de bedreiging is beschikbaar in zowel EOP als Microsoft Defender voor Office 365. de rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie over malware bekijken die zijn gevonden in een e-mail, maar niet informatie over schadelijke bestanden die zijn gedetecteerd door [ATP voor SharePoint, OneDrive of Microsoft teams](atp-for-spo-odb-and-teams.md).
+Het **statusrapport Risicobeveiliging** is beschikbaar in zowel EOP als Microsoft Defender voor Office 365. De rapporten bevatten echter andere gegevens. EOP-klanten kunnen bijvoorbeeld informatie bekijken over malware die in e-mail is gedetecteerd, maar geen informatie over schadelijke bestanden gedetecteerd door veilige bijlagen voor [SharePoint, OneDrive](atp-for-spo-odb-and-teams.md)en Microsoft Teams.
 
-Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (Url's), die zijn geblokkeerd door de anti-malware-engine, [automatisch wissen van Zero uur (ZAP)](zero-hour-auto-purge.md)en Defender voor Office 365-functies zoals [veilige koppelingen](atp-safe-links.md), [veilige bijlagen](atp-safe-attachments.md)en [anti-phishing](set-up-anti-phishing-policies.md). U kunt deze gegevens gebruiken om trends te identificeren of te bepalen of een organisatiebeleid moet worden aangepast.
+Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals bestanden of websiteadressen (URL's) die zijn geblokkeerd door de antimalware-engine, [auto purge (ZAP,](zero-hour-auto-purge.md)nul uur) en Defender voor Office 365-functies [zoals](atp-safe-attachments.md) [veilige](atp-safe-links.md)koppelingen, veilige bijlagen en [anti-phishing.](set-up-anti-phishing-policies.md) U kunt deze informatie gebruiken om trends te identificeren of om te bepalen of het organisatiebeleid moet worden aangepast.
 
-**Opmerking**: het is van belang dat u begrijpt dat wanneer een bericht wordt verzonden naar vijf geadresseerden, de waarde wordt geteld als vijf verschillende berichten en niet één bericht.
+**Opmerking:** het is belangrijk om te weten dat als een bericht naar vijf geadresseerden wordt verzonden, het als vijf verschillende berichten wordt geteld en niet als één bericht.
 
-Als u het rapport wilt weergeven, opent u het [beveiligings & compliance](https://protection.office.com), gaat u naar  \> **Dashboard** rapporten en selecteert u de **status bedreigingsbeveiliging**. Als u rechtstreeks naar het rapport wilt gaan, opent u een van de volgende Url's:
+Als u het rapport wilt bekijken, opent u het beveiligings- [& compliancecentrum,](https://protection.office.com)gaat u naar **het** dashboard Rapporten en selecteert u \>  Status **van bedreigingsbeveiliging.** Als u rechtstreeks naar het rapport wilt gaan, opent u een van de volgende URL's:
 
 - Microsoft Defender voor Office 365: <https://protection.office.com/reportv2?id=TPSAggregateReportATP>
-- EOP <https://protection.office.com/reportv2?id=TPSAggregateReport>
+- EOP: <https://protection.office.com/reportv2?id=TPSAggregateReport>
 
-![Widget status van bedreigings bescherming in het Dashboard rapporten](../../media/threat-protection-status-report-widget.png)
+![Widget Status van bedreigingsbeveiliging in het dashboard Rapporten](../../media/threat-protection-status-report-widget.png)
 
-In de grafiek worden standaardgegevens weergegeven voor de afgelopen 7 dagen. Als u op **filters** klikt, kunt u een datumbereik voor 90 dag selecteren (de proefabonnementen kunnen worden beperkt tot 30 dagen). In de tabel weergave Details kunt u filteren gedurende 30 dagen.
+Standaard worden in de grafiek gegevens van de afgelopen zeven dagen weergegeven. Als u op **Filters** klikt, kunt u een datumbereik van 90 dagen selecteren (proefabonnementen kunnen beperkt zijn tot 30 dagen). In de detailtabelweergave kunt u 30 dagen filteren.
 
-### <a name="report-view-for-the-threat-protection-status-report"></a>Rapportweergave voor het statusrapport van de Bedreigingsbeveiliging
+### <a name="report-view-for-the-threat-protection-status-report"></a>Rapportweergave voor het statusrapport Risicobeveiliging
 
 De volgende weergaven zijn beschikbaar:
 
-- **Gegevens weergeven op: overzicht**: de volgende detectie-informatie wordt weergegeven:
+- **Gegevens weergeven met: Overzicht:** de volgende detectiegegevens worden weergegeven:
 
-  - **Malware via e-mail verzenden**
-  - **E-mail phishing**
-  - **Inhoud van malware**
+  - **Malware via e-mail**
+  - **Phish e-mailen**
+  - **Malware in inhoud**
 
-  ![Overzichtsweergave in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-overview-view.png)
+  ![Overzichtsweergave in het statusrapport Risicobeveiliging](../../media/threat-protection-status-report-overview-view.png)
 
-- **Gegevens weergeven op: inhoud \> Malware**<sup>1</sup>: de volgende informatie wordt weergegeven in Microsoft Defender for Office 365-organisaties:
+- **Gegevens weergeven op: Inhoud \> Malware**<sup>1:</sup>de volgende informatie wordt weergegeven voor Microsoft Defender voor Office 365-organisaties:
 
-  - **Anti malware-engine**: kwaadwillende bestanden die zijn gevonden in SharePoint, OneDrive en Microsoft teams met [ingebouwde virusdetectie in Microsoft 365](virus-detection-in-spo.md).
-  - **Bestands detonatie**: kwaadwillende bestanden gedetecteerd door [ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md).
+  - **Anti-malware-engine:** kwaadaardige bestanden gedetecteerd in SharePoint, OneDrive en Microsoft Teams door de [ingebouwde virusdetectie in Microsoft 365.](virus-detection-in-spo.md)
+  - **Bestandsdetonatie:** schadelijke bestanden gedetecteerd door veilige bijlagen voor [SharePoint, OneDrive en Microsoft Teams.](atp-for-spo-odb-and-teams.md)
 
-  ![De weergave met schadelijke inhoud in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-content-malware-view.png)
+  ![Weergave van malware op inhoud in het statusrapport Risicobeveiliging](../../media/threat-protection-status-report-content-malware-view.png)
 
-- **Gegevens weergeven op: bericht negeren**: de volgende informatie over de overschrijving wordt weergegeven:
+- **Gegevens weergeven als: Bericht overschrijven:** de volgende reden hiervoor wordt weergegeven:
 
   - **On-premises overslaan**
-  - **IP toestaan**
-  - **Regel voor e-mail stroom**
+  - **TOESTAAN MET IP**
+  - **Regel voor e-mailstroom**
   - **Afzender toestaan**
-  - **Domein toestaan**
+  - **Toestaan van domein**
   - **ZAP niet ingeschakeld**
-  - **Map Ongewenste E-mail niet ingeschakeld**
-  - **Gebruiker veilig verzenderd**
-  - **Gebruikers veilig domein**
+  - **Map Ongewenste e-mail niet ingeschakeld**
+  - **Veilige afzender van gebruiker**
+  - **Safe Domain van gebruiker**
 
-  ![Weergave bericht negeren in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-message-override-view.png)
+  ![Weergave Bericht overschrijven in het statusrapport Risicobeveiliging](../../media/threat-protection-status-report-message-override-view.png)
 
-- **Onderbreek omlaag met: detectietechnologie** en **gegevens weergeven op \> : e-mailbericht**: de volgende informatie wordt weergegeven:
+- **Afbreed door: Detectietechnologie** en **Gegevens weergeven op: \> E-mail phish:** de volgende informatie wordt weergegeven:
 
-  - Met **ATP gegenereerde URL-reputatie**<sup>1</sup>: schadelijke URL-reputatie van de 365 voor Office 365-detonaties in andere Microsoft-klanten.
-  - **Geavanceerd phishing-filter**: malafide signalen op basis van machine learning.
-  - **Anti-spoof-DMARC fout**: DMARC-Authenticatiefout bij berichten.
-  - **Anti-spoof-intra organisatie**: de afzender probeert het domein van de ontvanger te vervalsen.
-  - **Anti-spoof-extern domein**: afzender probeert een ander domein te vervalsen.
-  - **Merken van merken**: imitatie van bekende merken op basis van afzenders.
-  - **Domein** imitatie <sup>1</sup>: imitatie van domeinen waarvan de klant eigenaar is of waarvan de naam is gedefinieerd.
-  - **EOP URL-reputatie**: schadelijke URL-reputatie.
-  - **Algemeen phishing-filter**: phishingberichten op basis van regels van analisten.
-  - **Gezien**
-  - **PHISH ZAP**<sup>2</sup>: automatisch wissen van phishingberichten met een nulsaldo.
+  - **DOOR ATP gegenereerde URL-reputatie**<sup>1:</sup>Schadelijke URL-reputatie gegenereerd door Defender voor Office 365-detonaties in andere Klanten van Microsoft 365.
+  - **Geavanceerd phish-filter:** Phishing-signalen op basis van machine learning.
+  - **Anti-spoof - DMARC failure**: DMARC authentication failure on messages.
+  - **Anti-spoof - rente-org:** afzender probeert het domein van de ontvanger te vervalsen.
+  - **Anti-spoof - extern domein**: Sender probeert een ander domein te spoofen.
+  - **Merk imitatie:** imitatie van bekende merken op basis van afzenders.
+  - **Domein imitatie**<sup>1:</sup>Imitatie van domeinen die de klant bezit of definieert.
+  - **Reputatie van EOP-URL:** schadelijke URL-reputatie.
+  - **Algemeen phish-filter:** Phishing-signalen op basis van de regels van analisten.
+  - **Overige**
+  - **Phish ZAP**<sup>2</sup>: Automatisch nul uur verwijderen van phishing-berichten.
   - **URL-detonatie**<sup>1</sup>
-  - **Gebruikers** imitatie <sup>1</sup>: imitatie van gebruikers die zijn gedefinieerd door de beheerder of door de Postvak intelligentie zijn geleerd.
+  - **User impersonation**<sup>1:</sup>Impersonation of users defined by admin or learned through mailbox intelligence.
 
-  ![Detectietechnologie weergeven voor phishing-e-mail in het statusrapport Bedreigingsbeveiliging](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
+  ![Detectietechnologieweergave voor phishing-e-mail in het statusrapport Risicobeveiliging](../../media/threat-protection-status-report-phishing-detection-tech-view.png)
 
-- **Opsplitsen op: detectietechnologie** en **gegevens weergeven op: e-mail \> malware**: de volgende informatie wordt weergegeven:
+- **Op te delen met: Detectietechnologie** en **Gegevens weergeven op: E-mailmalware: \>** de volgende informatie wordt weergegeven:
 
-  - **ATP-de reputatie 1 van het bestand gegenereerd**<sup></sup>door een kwaadaardige reputatie van de kwaadwillende bestanden die wordt gegenereerd door Defender voor Office 365-detonatie.
-  - **Anti malware engine**<sup>1</sup>: detectie van anti malware-engines.
-  - **Anti malwarebeleid type blok**: Dit zijn e-mailberichten die zijn gefilterd door het type schadelijk bestand dat in het bericht wordt genoemd.
-  - **Bestands detonatie**<sup>1</sup>: detectie door veilige bijlagen.
-  - **Schadelijke bestands reputatie**
+  - **Door ATP gegenereerde**<sup>bestandsreputatie 1:</sup>Alle schadelijke bestandsreputatie die wordt gegenereerd door Defender voor Office 365-detonaties.
+  - **Anti-malware engine**<sup>1:</sup>Detectie van anti-malware-engines.
+  - **Blok van bestandstype tegen malwarebeleid:** dit zijn e-mailberichten die worden gefilterd vanwege het type schadelijk bestand dat wordt geïdentificeerd in het bericht.
+  - **Bestandsdetonatie**<sup>1:</sup>Detectie door veilige bijlagen.
+  - **Schadelijke bestandsreputatie**
   - **Malware ZAP**<sup>2</sup>
-  - **Gezien**
+  - **Overige**
 
-  ![Detectie-technologie weergeven voor malware in het statusrapport van Bedreigingsbeveiliging](../../media/threat-protection-status-report-malware-detection-tech-view.png)
+  ![Detectietechnologieweergave voor malware in het statusrapport Risicobeveiliging](../../media/threat-protection-status-report-malware-detection-tech-view.png)
 
-- **Onderbreek een regeltype in: beleid** en **gegevens weergeven \> op: e-mailen** en **gegevens weergeven op \>**: e-mail problemen weergeven:
+- **Op te delen met: Beleidstype** en **Gegevens weergeven op: \> E-mail phish** of Gegevens weergeven **op: E-mail \> malware:** de volgende informatie wordt weergegeven:
 
-  - **Anti malware**
+  - **Anti-malware**
   - **Veilige bijlagen**<sup>1</sup>
-  - **Anti-phishing**
-  - **Anti spam**
-  - **E-mail stroom regel** (ook wel een transportregel genoemd)
-  - **Gezien**
+  - **Anti-phish**
+  - **Antispam**
+  - **E-mailstroomregel** (ook wel transportregel genoemd)
+  - **Overige**
 
-  ![Beleidstype weergave voor malafide e-mailberichten in het statusrapport van Bedreigingsbeveiliging](../../media/threat-protection-status-report-phishing-policy-type-view.png)
+  ![Weergave beleidstype voor phishing-e-mail in het statusrapport Risicobeveiliging](../../media/threat-protection-status-report-phishing-policy-type-view.png)
 
-- **Onderverdelen op: bezorgingsstatus** en **gegevens weergeven \> op: e-mailen van een e-mailbericht verzenden** of **gegevens bekijken op: e-mail \> malware**: de volgende informatie wordt getoond:
+- **Op te delen door: Bezorgingsstatus** en Gegevens weergeven op: E-mail **\> phish** of Gegevens weergeven **door: E-mail \> malware:** de volgende informatie wordt weergegeven:
 
   - **Bezorging mislukt**
-  - **Drop**
-  - **Ter**
-  - **Gehoste postvak: aangepaste map**
-  - **Gehoste postvak: Verwijderde items**
-  - **Gehoste postvak: Postvak in**
-  - **Gehoste postvak: ongewenste E-mail**
-  - **On-premises server: bezorgd**
+  - **Afgekapt**
+  - **Doorgestuurd**
+  - **Gehost postvak: Aangepaste map**
+  - **Gehost postvak: Verwijderde items**
+  - **Gehost postvak: Postvak IN**
+  - **Gehost postvak: Ongewenste e-mail**
+  - **On-premises server: Geleverd**
   - **Quarantaine**
 
-  ![Afleverings status weergeven voor malafide e-mailberichten in het statusrapport van Bedreigingsbeveiliging](../../media/threat-protection-status-report-phishing-delivery-status-view.png)
+  ![Weergave bezorgingsstatus voor phishing-e-mail in het statusrapport Risicobeveiliging](../../media/threat-protection-status-report-phishing-delivery-status-view.png)
 
-alleen <sup>1</sup> Defender voor Office 365
+<sup>Alleen 1</sup> Defender voor Office 365
 
-<sup>2</sup> Zero-Hour auto LEEGMAAK (ZAP) is niet beschikbaar in standalone EOP (deze functie werkt alleen in Exchange Online-postvakken).
+<sup>2</sup> Zero-hour Auto Purge (ZAP) is niet beschikbaar in zelfstandige EOP (het werkt alleen in Exchange Online-postvakken).
 
-Als u op **filters** klikt, zijn de beschikbare filters afhankelijk van de grafiek die u bekijkt:
+Als u op **Filters klikt,** zijn de beschikbare filters afhankelijk van de grafiek die u bekijkt:
 
-- Voor het **weergeven van gegevens op: \> malware van inhoud** kunt u het rapport wijzigen op basis van de **begindatum** en **einddatum**, en de **detectie** waarde.
+- Voor **Gegevens weergeven op: \> Inhoudsmalware**  kunt u het rapport wijzigen op begin- en einddatum **en** de waarde van de **detectie.**
 
-- Voor het **weergeven van gegevens op: het negeren van berichten** kunt u het rapport wijzigen met de volgende filters:
+- Voor **gegevens weergeven als: Overschrijven bericht,** kunt u het rapport wijzigen met de volgende filters:
 
-  - **Begindatum** en **einddatum**
-  - **Reden negeren**
-  - **Label**: filter de resultaten op gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Begindatum** **en einddatum**
+  - **Reden overschrijven**
+  - **Tag:** filter de resultaten op gebruikers of groepen op wie de opgegeven gebruikerstag is toegepast (inclusief prioriteitsaccounts). Zie Gebruikerstags voor meer informatie [over gebruikerslabels.](user-tags.md)
   - **Domein**
 
 - Voor alle andere weergaven kunt u het rapport wijzigen met de volgende filters:
 
-  - **Begindatum** en **einddatum**
-  - **Bronuitputtingsdetectie**
+  - **Begindatum** **en einddatum**
+  - **Detectie**
   - **Beveiligd door**: **ATP** of **EOP**
-  - **Label**: filter de resultaten op gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Tag:** filter de resultaten op gebruikers of groepen op wie de opgegeven gebruikerstag is toegepast (inclusief prioriteitsaccounts). Zie Gebruikerstags voor meer informatie [over gebruikerslabels.](user-tags.md)
   - **Domein**
 
-### <a name="details-table-view-for-the-threat-protection-status-report"></a>De tabel weergave Details voor het statusrapport Bedreigingsbeveiliging
+### <a name="details-table-view-for-the-threat-protection-status-report"></a>Tabelweergave Details voor het statusrapport Risicobeveiliging
 
-Als u op **detail tabel weergeven** klikt, is de informatie die wordt weergegeven, afhankelijk van de grafiek die u bekijkt:
+Als u op **de tabel Details weergeven klikt,** is de informatie die wordt weergegeven afhankelijk van de grafiek die u bekijkt:
 
-- **Gegevens weergeven op: overzicht**: de knop **informatietabel weergeven** is beschikbaar.
+- **Gegevens weergeven op: Overzicht:** **Er is geen knop Detailstabel** weergeven beschikbaar.
 
-- **Gegevens weergeven op: inhoud \> Malware**:
+- **Gegevens weergeven op: Inhoud \> Malware:**
 
   - **Datum**
   - **Locatie**
-  - **Omgeleid door**
-  - **Naam van malware**
+  - **Doorgestuurd door**
+  - **Malwarenaam**
 
-  Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen op basis van de **begindatum** en **einddatum**, en de **detectie** waarde.
+  Als u in **deze weergave** op Filters  klikt, kunt u het rapport wijzigen op begin- en einddatum **en** de waarde voor **detectie.**
 
-- **Gegevens weergeven op: bericht negeren**:
+- **Gegevens weergeven als: Bericht overschrijven:**
 
   - **Datum**
   - **Onderwerp**
   - **Afzender**
-  - **Allen**
+  - **Geadresseerden**
   - **Gedetecteerd door**
-  - **Reden negeren**
+  - **Reden overschrijven**
   - **Bron van compromissen**
   - **Tags**
 
-  Als u in deze weergave op **filters** klikt, kunt u het rapport wijzigen met de volgende filters:
+  Als u in deze **weergave op Filters** klikt, kunt u het rapport wijzigen met de volgende filters:
 
-  - **Begindatum** en **einddatum**
-  - **Reden negeren**
-  - **Label**: filter de resultaten op gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Begindatum** **en einddatum**
+  - **Reden overschrijven**
+  - **Tag:** filter de resultaten op gebruikers of groepen op wie de opgegeven gebruikerstag is toegepast (inclusief prioriteitsaccounts). Zie Gebruikerstags voor meer informatie [over gebruikerslabels.](user-tags.md)
   - **Domein**
-  - **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
+  - **Geadresseerden** (deze filterbare eigenschap is alleen beschikbaar in de detailtabelweergave)
 
-- Alle overige grafieken:
+- Alle andere grafieken:
 
   - **Datum**
   - **Onderwerp**
   - **Afzender**
-  - **Allen**
+  - **Geadresseerden**
   - **Gedetecteerd door**
-  - **Leverings status**
+  - **Bezorgingsstatus**
   - **Bron van compromissen**
   - **Tags**
 
-  Als u op **filters** klikt, kunt u het rapport met de volgende filters wijzigen:
+  Als u op **Filters klikt,** kunt u het rapport wijzigen met de volgende filters:
 
-  - **Begindatum** en **einddatum**
-  - **Bronuitputtingsdetectie**
+  - **Begindatum** **en einddatum**
+  - **Detectie**
   - **Beveiligd door**: **Defender voor Office 365** of **EOP**
-  - **Label**: filter de resultaten op gebruikers of groepen waarop de opgegeven gebruikerscode is toegepast (met inbegrip van prioriteits accounts). Zie voor meer informatie over gebruikers tags [User Tags](user-tags.md).
+  - **Tag:** filter de resultaten op gebruikers of groepen op wie de opgegeven gebruikerstag is toegepast (inclusief prioriteitsaccounts). Zie Gebruikerstags voor meer informatie [over gebruikerslabels.](user-tags.md)
   - **Domein**
-  - **Geadresseerden** (Houd er rekening mee dat deze eigenschap kan alleen worden gefilterd in de weergave Details
+  - **Geadresseerden** (deze filterbare eigenschap is alleen beschikbaar in de detailtabelweergave)
 
-## <a name="top-malware-report"></a>Belangrijkste rapport van malware
+## <a name="top-malware-report"></a>Belangrijkste malwarerapport
 
-In het **meest voorkomende schadelijke** rapport worden de verschillende soorten malware weergegeven die zijn gedetecteerd door [beveiliging tegen malware in EOP](anti-malware-protection.md).
+Het **bovenste malwarerapport** bevat de verschillende soorten malware die is gedetecteerd door de beveiliging tegen [malware in EOP.](anti-malware-protection.md)
 
-Als u het rapport wilt weergeven, opent u het [& nalevings centrum](https://protection.office.com), gaat u naar **rapporten** \> **Dashboard** en selecteert u **belangrijkste malware**. Open om rechtstreeks naar het rapport te gaan <https://protection.office.com/reportv2?id=TopMalware> .
+Als u het rapport wilt bekijken, opent u het [beveiligings- & compliancecentrum,](https://protection.office.com)gaat u naar **het** \> **dashboard Rapporten** en selecteert u **De belangrijkste malware.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=TopMalware> .
 
-![Belangrijkste widget schadelijke malware in het Dashboard rapporten](../../media/top-malware-report-widget.png)
+![Belangrijkste malwarewidget in het dashboard Rapporten](../../media/top-malware-report-widget.png)
 
-Wanneer u de muisaanwijzer boven een wig in het cirkeldiagram houdt, ziet u de naam van een type malware en de hoeveelheid berichten die zijn gevonden met malware.
+Wanneer u de muisaanwijzer over een wig in het cirkeldiagram beweegt, kunt u de naam zien van een soort malware en kunt u zien hoeveel berichten malware bevatten.
 
-![Belangrijkste weergave van de lijst met schadelijke software](../../media/top-malware-report-view.png)
+![Topweergave malwarerapport](../../media/top-malware-report-view.png)
 
-Als u op **detail tabel weergeven** klikt, ziet u de volgende informatie:
+Als u op **Detailtabel weergeven klikt,** ziet u de volgende details:
 
 - **Belangrijkste malware**
-- **Getal**
+- **Aantal**
 
-Als u op **filters** klikt in de rapportweergave of de weergave Details, kunt u een datumbereik opgeven met de **begindatum** en **einddatum**.
+Als u klikt op **Filters** in de rapportweergave of de detailtabelweergave, kunt u een datumbereik opgeven met de **begin-** en **einddatum.**
 
-## <a name="url-threat-protection-report"></a>Rapport over URL Threat Protection
+## <a name="url-threat-protection-report"></a>Rapport URL-bedreigingsbeveiliging
 
-Het **rapport URL Threat Protection** is beschikbaar in Microsoft Defender voor Office 365. Zie voor meer informatie het [rapport URL Threat Protection](view-reports-for-atp.md#url-threat-protection-report).
+Het **rapport URL-bedreigingsbeveiliging** is beschikbaar in Microsoft Defender voor Office 365. Zie het rapport [URL threat protection voor meer informatie.](view-reports-for-atp.md#url-threat-protection-report)
 
-## <a name="user-reported-messages-report"></a>Rapport door gebruiker gerapporteerde berichten
+## <a name="user-reported-messages-report"></a>Rapport met door de gebruiker gerapporteerde berichten
 
-In het rapport door de gebruiker gerapporteerde **berichten** ziet u informatie over e-mailberichten die gebruikers als ongewenste e-mail, phishing of goede e-mail hebben gerapporteerd met behulp van de [invoegtoepassing berichten rapporteren](enable-the-report-message-add-in.md) of [de phishingwebsite voor phishing](enable-the-report-phish-add-in.md).
+In het rapport **met** door de gebruiker gerapporteerde berichten wordt informatie weergegeven over e-mailberichten die gebruikers hebben gerapporteerd als ongewenste e-mail, phishingpogingen of goede [e-mail](enable-the-report-message-add-in.md) met behulp van de invoegapp Bericht rapporteren of [Phishing melden.](enable-the-report-phish-add-in.md)
 
-Details zijn beschikbaar voor elk bericht, waaronder de bezorgings reden, een uitzondering voor spam beleid of een e-mail stroom regel die is geconfigureerd voor uw organisatie. Als u de details wilt bekijken, selecteert u een item in de lijst gebruikers rapporten en bekijkt u de gegevens op de tabbladen **overzicht** en **Details** .
+Er zijn details beschikbaar voor elk bericht, inclusief de bezorgings reden, zoals een uitzondering in het spambeleid of een regel voor de e-mailstroom die is geconfigureerd voor uw organisatie. Als u de details wilt bekijken, selecteert u een item  in de lijst met gebruikersrapporten en bekijkt u de informatie op de tabbladen Overzicht **en** Details.
 
-![In het rapport User-Reported berichten worden berichten weergegeven die gebruikers als ongewenste e-mail, geen ongewenste e-mail of phishing proberen te markeren.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
+![Het rapport User-Reported berichten bevat berichten die zijn aangeduid als ongewenste e-mail, geen ongewenste e-mail of phishing-pogingen.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
 
-Voer een van de volgende handelingen uit in het [nalevings centrum van beveiligings &](https://protection.office.com)om dit rapport te bekijken:
+Als u dit rapport wilt bekijken, gaat u op een van de volgende [&](https://protection.office.com)in het beveiligings- en compliancecentrum:
 
-- Ga naar  \> het door  \> **gebruiker gerapporteerde berichten van het** dashboard voor risicobeheer.
+- Ga naar **berichten die door de** gebruiker van het \>  \> **bedreigingsbeheerdashboard zijn gerapporteerd.**
 
-- Ga naar **bedreigings beheer** door door de \>  \> **gebruiker gerapporteerde berichten**.
+- Ga naar **Risicobeheer** \> **door de** gebruiker \> **gerapporteerde berichten.**
 
-![Kies in het beveiligings & nalevings centrum de optie bedreigings beheer door \> \> gebruiker gerapporteerde berichten controleren](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
+![Kies in het & Compliancecentrum de optie Door gebruiker voor \> \> risicobeheer gemelde berichten](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
 
 > [!IMPORTANT]
-> Als u wilt dat het rapport door de gebruiker gerapporteerde berichten correct functioneert, **moet auditlogboeken zijn ingeschakeld** voor uw Office 365-omgeving. Dit gebeurt meestal door iemand die de rol audit logboeken heeft toegewezen in Exchange Online. Zie [Microsoft 365 audit log Search in-of uitschakelen](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)voor meer informatie.
+> Om het rapport met door de gebruiker gerapporteerde berichten correct te laten werken, moet **auditlogregistratie zijn** ingeschakeld voor uw Office 365-omgeving. Dit wordt meestal gedaan door iemand aan wie de rol Auditlogboeken is toegewezen in Exchange Online. Zie Zoeken in [Microsoft 365-auditlogboek in- of uitschakelen voor meer informatie.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn vereist voor het weergeven van deze rapporten?
+## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn nodig om deze rapporten te bekijken?
 
-Voor het weergeven en gebruiken van de rapporten die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollen groepen in het compliance-& Beveiligingscentrum:
+Als u de rapporten in dit artikel wilt bekijken en gebruiken, moet u lid zijn van een van de volgende rollengroepen in het & Compliancecentrum:
 
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
-- **Beveiligings lezer**
-- **Algemene lezer**
+- **Beveiligingslezer**
+- **Globale lezer**
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-**Opmerking**: door gebruikers toe te voegen aan de bijbehorende rol van Azure Active Directory in het microsoft 365-Beheercentrum geeft u gebruikers de vereiste machtigingen in de beveiligings & nalevings centrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+**Opmerking:** als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen in het beveiligings- & compliancecentrum en machtigingen voor andere functies in Microsoft 365.  Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-## <a name="what-if-the-reports-arent-showing-data"></a>Wat moet ik doen als de rapporten geen gegevens weergeven?
+## <a name="what-if-the-reports-arent-showing-data"></a>Wat gebeurt er als er geen gegevens worden weergegeven in de rapporten?
 
-Als u geen gegevens ziet in uw rapporten, controleert u of uw beleidsregels correct zijn ingesteld. Voor meer informatie raadpleegt u [bescherming tegen bedreigingen](protect-against-threats.md).
+Als u geen gegevens in uw rapporten ziet, controleert u nog eens of uw beleid correct is ingesteld. Zie Beveiligen tegen [bedreigingen voor meer informatie.](protect-against-threats.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Antispam en bescherming tegen malware in EOP](anti-spam-and-anti-malware-protection.md)
+[Bescherming tegen spam en malware in EOP](anti-spam-and-anti-malware-protection.md)
 
-[Slimme rapporten en inzichten in het nalevings centrum voor beveiligings &](reports-and-insights-in-security-and-compliance.md)
+[Slimme rapporten en inzichten in het beveiligings- & compliancecentrum](reports-and-insights-in-security-and-compliance.md)
 
-[De e-mail stroom rapporten weergeven in het beveiligings & nalevings centrum](view-mail-flow-reports.md)
+[E-mailstroomrapporten weergeven in het & compliancecentrum](view-mail-flow-reports.md)
 
-[Rapporten weergeven voor Defender voor Office 365](view-reports-for-atp.md)
+[Rapporten voor Defender voor Office 365 weergeven](view-reports-for-atp.md)

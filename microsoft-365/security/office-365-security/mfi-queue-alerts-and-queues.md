@@ -9,24 +9,24 @@ audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
-description: Beheerders kunnen informatie vinden over het gebruik van de widget Wachtrijen in het dashboard E-mailstroom in het beveiligings- & Compliancecentrum om de mislukte e-mailstroom naar hun on-premises of partnerorganisaties te controleren via uitgaande connectors.
+description: Beheerders kunnen informatie vinden over het gebruik van de widget Wachtrijen in het dashboard E-mailstroom in het beveiligings- &-compliancecentrum om de niet-geslaagde e-mailstroom naar hun on-premises of partnerorganisaties te controleren via uitgaande connectors.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 94e8a1f3b54c3738c21e94ba85ae4f1d3f953498
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: ca8ee5ea37fa5a63b8035572059e419c400d66f3
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150169"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289435"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Inzichten in wachtrijen in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Wanneer berichten niet vanuit uw organisatie via connectors naar uw on-premises e-mailservers of partnerservers kunnen worden verzonden, worden de berichten in de wachtrij geplaatst in Microsoft 365. Veelvoorkomende voorbeelden die deze voorwaarde veroorzaken zijn:
 
@@ -39,17 +39,17 @@ Als het e-mailvolume in de wachtrij de vooraf gedefinieerde drempel overschrijdt
 
 - Het **inzicht in wachtrijen** in [het dashboard E-mailstroom](mail-flow-insights-v2.md) in het [& Compliancecentrum.](https://protection.office.com) Zie de sectie [Queues insight in the Mail flow dashboard in](#queues-insight-in-the-mail-flow-dashboard) this article (Inzichten in wachtrijen in het dashboard van de e-mailstroom in dit artikel) voor meer informatie.
 
-- Er wordt een waarschuwing weergegeven in **recente waarschuwingen** op het dashboard Waarschuwingen in het & [Compliancecentrum](https://protection.office.com)  \> **(dashboard Waarschuwingen** of <https://protection.office.com/alertsdashboard> ).
+- Er wordt een waarschuwing weergegeven in **recente waarschuwingen** op het dashboard Waarschuwingen in het [& Compliancecentrum](https://protection.office.com)  \> **(dashboard Waarschuwingen** of <https://protection.office.com/alertsdashboard> ).
 
   ![Recente waarschuwingen in het dashboard Waarschuwingen in het beveiligings- & compliancecentrum](../../media/mfi-queued-messages-alert.png)
 
 - Beheerders ontvangen een e-mailmelding op basis van de configuratie van het standaardwaarschuwingsbeleid met de naam Berichten **is vertraagd.** Zie de volgende sectie als u de instellingen voor meldingen voor deze waarschuwing wilt configureren.
 
-  Zie Waarschuwingsbeleid in het beveiligings- en compliancecentrum & voor meer informatie over [waarschuwingsbeleid.](../../compliance/alert-policies.md)
+  Zie Waarschuwingsbeleid in het beveiligings- en compliancecentrum & voor meer [informatie over waarschuwingsbeleid.](../../compliance/alert-policies.md)
 
 ## <a name="customize-queue-alerts"></a>Wachtrijwaarschuwingen aanpassen
 
-1. Ga in [het & Compliancecentrum](https://protection.office.com)naar Het beleid **voor** waarschuwingen \> **of** <https://protection.office.com/alertpolicies> open.
+1. Ga in [het & Compliancecentrum](https://protection.office.com)naar **Waarschuwingsbeleid** \> **voor** waarschuwingen of <https://protection.office.com/alertpolicies> open.
 
 2. Zoek en **selecteer op de** pagina Waarschuwingsbeleid het beleid met de naam Berichten is **vertraagd.**
 

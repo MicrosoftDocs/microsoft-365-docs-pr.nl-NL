@@ -1,5 +1,5 @@
 ---
-title: Overschakelen naar EOP van een andere beveiligingsservice
+title: Overstappen van een andere beveiligingsservice op EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -8,61 +8,66 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe u kunt overstappen op Exchange Online Protection (EOP) via een on-premises e-mail bewerkings toestel of een Cloud beveiligingsservice.
-ms.openlocfilehash: a007bb94c35f7712b69ad5eef4152455c114ca24
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+description: In dit artikel leert u hoe u overschakelt naar Exchange Online Protection (EOP) vanuit een on-premises e-mailapparaat of een cloudbeveiligingsservice.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 0cb946fbb60393657aab21195bc4dd723458f16e
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760384"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290187"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Overschakelen naar EOP uit Google Postini, de Barracuda Spam en Virus Firewall of Cisco IronPort
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
- In dit onderwerp wordt uitgelegd hoe u overstapt op Exchange Online Protection (EOP) van een on-premises e-mail bewerkings toestel of een cloudservice op basis van een on-premises beveiliging, en om u hulpbronnen te bieden om aan de slag te gaan. Er zijn veel oplossingen voor spam filteren, maar het proces voor het overschakelen naar EOP is in de meeste gevallen vergelijkbaar.
+ Het doel van dit onderwerp is om u inzicht te geven in het proces voor het overschakelen naar Exchange Online Protection (EOP) vanuit een on-premises e-mailapparaat of een cloudbeveiligingsservice, en om u vervolgens helpbronnen te bieden om aan de slag te gaan. Er zijn veel oplossingen voor het filteren van ongewenste e-mail, maar het proces voor het overschakelen naar EOP lijkt in de meeste gevallen op elkaar.
 
-Als u nog geen ervaring hebt met EOP en een overzicht van de functies wilt lezen voordat u gaat overstappen, begint u met het onderwerp [Exchange Online Protection Overview](exchange-online-protection-overview.md) .
+Als u voor het eerst met EOP te maken hebt en een overzicht van de functies ervan wilt lezen voordat u besluit om over te stappen, begint u met het overzichtsonderwerp over [Exchange Online Protection.](exchange-online-protection-overview.md)
 
-Voordat u overstapt op EOP, is het belangrijk om na te denken over het feit of u in de Cloud beveiligde postvakken van EOP wilt hosten met Exchange Online, on-premises of een hybride scenario. (Hybridet betekent dat u bepaalde postvakken lokaal host, en een ander deel dat host is voor Exchange Online.) Elk van deze hosting scenario's: Cloud, on-premises en hybride, is mogelijk, maar de instellingsstappen kunnen variëren. Hier volgen enkele aandachtspunten om u te helpen bij het kiezen van de juiste implementatie:
+Voordat u overschakelt naar EOP, is het belangrijk na te denken of u uw met EOP beveiligde postvakken wilt hosten in de cloud, met Exchange Online, on-premises of in een hybride scenario. (Hybride betekent dat sommige postvakken on-premises worden gehost en een ander deel wordt gehost met Exchange Online.) Elk van deze hostingscenario's: cloud, on-premises en hybride versie, is mogelijk, maar de instellingsstappen kunnen variëren. Hier zijn enkele aandachtspunten om u te helpen bij het kiezen van de juiste implementatie:
 
-- **EOP-bescherming met on-premises postvakken**: dit scenario is geschikt als u beschikt over een bestaande e-mail hosting-infrastructuur die u wilt gebruiken, of als u beschikt over de vereisten om de postvakken on-premises te houden en EOP wilt gebruiken als uw e-mail beveiliging op basis van de Cloud. [Overschakelen naar EOP standalone](#switch-to-eop-standalone) beschrijving dit scenario in meer detail.
+- **EOP-beveiliging met on-premises** postvakken: dit scenario is geschikt als u een bestaande e-mailhostinginfrastructuur wilt gebruiken of als u zakelijke vereisten hebt om postvakken on-premises te houden en als u EOP wilt gebruiken als uw cloud-e-mailbeveiliging. [Overstappen op de zelfstandige EOP](#switch-to-eop-standalone) beschrijft dit scenario in meer detail.
 
-- **EOP-bescherming met Exchange Online-postvakken**: dit scenario is geschikt als u EOP-beveiliging en alle postvakken die worden gehost in de Cloud. Met deze functie kunt u de complexiteit verminderen, omdat u on-premises berichtenservers niet hoeft te onderhouden. [Ga naar Exchange Online om](#switch-to-exchange-online) dit scenario te beschrijven.
+- **EOP-beveiliging met Exchange** Online-postvakken: dit scenario is geschikt als u EOP-beveiliging wilt en al uw postvakken die worden gehost in de cloud. Dit kan u helpen de complexiteit te verminderen, omdat u geen on-premises berichtservers hoeft te onderhouden. [Dit scenario wordt beschreven](#switch-to-exchange-online) door over te schakelen naar Exchange Online.
 
-- **EOP-bescherming met hybride postvakken**: wellicht wilt u Cloud postvakken gebruiken, maar u moet postvakken voor sommige gebruikers on-premises bewaren. Kies dit scenario als u wilt dat sommige postvakken lokaal worden gehost en een ander onderdeel dat wordt gehost met Exchange Online. [Als u overstapt op een hybride oplossing](#switch-to-a-hybrid-solution) , wordt dit scenario beschreven.
+- **EOP-beveiliging met hybride postvakken:** Misschien wilt u postvakken in de cloud, maar moet u voor sommige gebruikers on-premises postvakken behouden. Kies dit scenario als u wilt dat sommige postvakken on-premises worden gehost en een ander gedeelte dat wordt gehost met Exchange Online. [Overstappen op een hybride oplossing beschrijft](#switch-to-a-hybrid-solution) dit scenario.
 
-## <a name="switch-to-eop-standalone"></a>Overschakelen naar EOP standalone
+## <a name="switch-to-eop-standalone"></a>Overschakelen naar zelfstandige EOP
 
-Als u uw postvakken momenteel on-premises beheert en een on-premises beveiligings toestel of een service voor Cloud berichten beveiliging gebruikt, kunt u overstappen op EOP om te profiteren van de beschermingsfuncties en de beschikbaarheid. Als u EOP wilt instellen in een zelfstandig scenario, wat betekent dat u uw postvakken on-premises host en EOP kunt gebruiken om e-mail beveiliging te geven, kunt u de stappen volgen die worden beschreven in [uw EOP-service instellen](set-up-your-eop-service.md). In dit onderwerp worden de stappen beschreven voor het instellen van EOP-bescherming, waaronder registreren, het toevoegen van uw domein en het instellen van e-mail stromen met connectors.
+Als u uw postvakken momenteel on-premises host en een apparaat voor on-premises beveiliging of een service voor cloudberichtenbeveiliging gebruikt, kunt u overstappen op EOP om te profiteren van de beveiligingsfuncties en beschikbaarheid. Als u EOP wilt instellen in een zelfstandig scenario, wat betekent dat u uw postvakken lokaal host en EOP gebruikt voor e-mailbeveiliging, kunt u de stappen volgen die worden beschreven in De [EOP-service instellen.](set-up-your-eop-service.md) In het onderwerp worden de stappen beschreven voor het instellen van EOP-beveiliging, waaronder registreren, uw domein toevoegen en het instellen van de e-mailstroom met connectors.
 
 ## <a name="switch-to-exchange-online"></a>Overstappen op Exchange Online
 
-Misschien hebt u on-premises postvakken beveiligd via een on-premises toestel en gaat u naar Postvak met gehoste postvakken van Exchange Online en EOP, zodat u gebruik kunt maken van de functies van de Cloud messaging en beveiliging van Microsoft 365. Als u wilt beginnen, kunt u zich registreren voor Microsoft 365 en uw domein toevoegen. Voor dit scenario hoeft u geen connectors in te stellen, omdat er geen routering is voor on-premises postvakken. Begin [de nieuwste geavanceerde functies met Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) om u aan te melden en maak kennis met de functies hiervan.
+Misschien hebt u on-premises postvakken beveiligd door een on-premises apparaat en wilt u springen naar postvakken die in de cloud worden gehost in Exchange Online en EOP-beveiliging om gebruik te maken van de functies voor berichten- en beveiliging in de Cloud van Microsoft 365. Om aan de slag te gaan, kunt u zich registreren voor Microsoft 365 en uw domein toevoegen. In dit scenario hoeft u geen connectors in te stellen, omdat er geen routering naar on-premises postvakken is. Begin bij [De nieuwste geavanceerde functies krijgen met Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) om u aan te melden en vertrouwd te raken met de functies ervan.
 
-Tijdens het installatieproces van Microsoft 365 maakt u de Cloud gebruikers van de Cloud.
+Tijdens het installatieproces van Microsoft 365 maakt u uw postvakgebruikers in de cloud.
 
-## <a name="switch-to-a-hybrid-solution"></a>Overschakelen naar een hybride oplossing
+## <a name="switch-to-a-hybrid-solution"></a>Overstappen op een hybride oplossing
 
-U kunt slechts een deel van uw postvakken verplaatsen naar de Cloud vanwege zakelijke vereisten of regelgeving. Wanneer u een hybride scenario implementeert, kunt u postvakken naar de Cloud verplaatsen wanneer u uw bedrijfsbehoeften dicteert. Het migreren naar een hybride scenario met EOP-bescherming is ingewikkelder dan overstappen op een scenario in de Cloud, maar Microsoft biedt volledige hybride ondersteuning en voldoende bronnen, zodat de overstap naar hybride eenvoudiger wordt.
+Mogelijk wilt u slechts een deel van uw postvakken verplaatsen naar de cloud vanwege zakelijke vereisten of wettelijke voorschriften. Wanneer u een hybride scenario implementeert, kunt u postvakken naar de cloud verplaatsen wanneer uw bedrijfsvereisten dicteren. Migreren naar een hybride scenario met EOP-beveiliging is ingewikkelder dan over te gaan op een volledig cloudscenario, maar Microsoft biedt volledige hybride ondersteuning en voldoende bronnen om de overstap naar een hybride scenario eenvoudiger te maken.
 
-De beste plaats om te beginnen als u een hybride implementatie gaat, is [hybride implementaties van Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid). Daarnaast zijn er een aantal manieren om e-mail te routeren in een hybride scenario dat belangrijk voor u is. [Transport routering in hybride implementaties van Exchange](https://docs.microsoft.com/exchange/transport-routing) legt elk type aan, zodat u het beste routeringsscenario kunt kiezen op basis van uw bedrijfsvereisten.
+De beste plaats om te beginnen, als u een hybride implementatie overweegt, is hybride implementaties van [Exchange Server.](https://docs.microsoft.com/exchange/exchange-hybrid) Bovendien zijn er een paar verschillende manieren waarop u e-mail kunt door sturen in een hybride scenario, die belangrijk zijn om te begrijpen. [In de hybride implementaties van Exchange](https://docs.microsoft.com/exchange/transport-routing) wordt elk type uitgelegd, zodat u het beste routeringsscenario kunt kiezen, afhankelijk van uw bedrijfsvereisten.
 
 ## <a name="migration-planning"></a>Migratieplanning
 
-Als u wilt overstappen op EOP, moet u rekening houden met de volgende punten:
+Wanneer u besluit over te stappen op EOP, moet u rekening houden met de volgende punten:
 
-- **Regels voor aangepaste filtering**: als u op een aangepaste filters-of bedrijfsbeleidsregels beschikt om bepaalde spam te onderscheppen, raden we u aan EOP met de standaardinstellingen te controleren voordat u de regels migreert. EOP biedt spam bescherming op ondernemingsniveau met de standaardinstellingen, maar het is mogelijk dat u sommige regels niet hoeft te migreren naar EOP. Als u regels hebt voor het afdwingen van specifieke zakelijke beleidsregels, kunt u die natuurlijk ook maken. De [regels voor e-mail stroom (transportregels) in Exchange Online Protection](mail-flow-rules-transport-rules-0.md) biedt gedetailleerde instructies voor het maken van de regels voor e-mail stroom in EOP.
+- **Aangepaste filterregels:** als u aangepaste filter- of bedrijfsbeleidsregels hebt om specifieke spam te voorkomen, raden we u aan EOP een bepaalde periode met de standaardinstellingen te proberen voordat u de regels migreert. EOP biedt beveiliging tegen ongewenste e-mail op ondernemingsniveau met de standaardinstellingen. Het kan zijn dat u sommige regels niet hoeft te migreren naar EOP. Als er regels zijn die specifiek aangepast bedrijfsbeleid afdwingen, kunt u natuurlijk die regels maken. [E-mailstroomregels (transportregels) in Exchange Online Protection](mail-flow-rules-transport-rules-0.md) bieden gedetailleerde instructies voor het maken van regels voor de e-mailstroom in EOP.
 
-- Lijsten met **IP-adreslijsten en IP-blok lijsten**: als u toestaat dat lijsten en blokkeringslijsten van de gebruikers zijn toegestaan, kunt u de lijsten als onderdeel van het installatieproces kopiëren naar EOP. Zie [het beleid voor verbindings filters configureren](configure-the-connection-filter-policy.md)voor meer informatie over de lijst met IP-blok lijsten en IP-blok lijsten.
+- **Toegestane IP-lijsten** en lijsten met IP-blokkering: als u per gebruiker toegestane lijsten en blokkeringslijsten hebt, kunt u de lijsten tijdens het installatieproces naar EOP kopiëren. Zie Het verbindingsfilterbeleid configureren voor meer informatie over de lijst met toegestane IP-adressen en de lijst met [IP-blokkeringen.](configure-the-connection-filter-policy.md)
 
-- **Beveiligde communicatie**: als u een partner hebt die versleutelde berichten vereist, dan is het raadzaam om dit in het Exchange-Beheercentrum in te stellen. Voor het configureren van dit scenario, Zie [connectors instellen voor de veilige e-mail stroom met een partnerorganisatie](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner).
+- **Beveiligde communicatie:** als u een partner hebt die versleutelde berichten vereist, is het raadzaam dit in te stellen in het Exchange-beheercentrum. Zie Connectors instellen voor een veilige e-mailstroom met een partnerorganisatie om dit [scenario te configureren.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)
 
 > [!TIP]
-> Wanneer u overstapt van een on-premises toestel naar EOP, is het mogelijk om uw toestel of een server te verlaten, zodat de controles voor bedrijfsregels worden uitgevoerd. Als uw toestel bijvoorbeeld aangepaste filters voor uitgaande e-mail uitvoert en u dit wilt voortzetten, kunt u instellen dat EOP rechtstreeks naar het toestel verzendt voor extra filters, voordat het wordt gerouteerd naar het internet.
+> Wanneer u van een on-premises apparaat overschakelt naar EOP, is het mogelijk om uw apparaat of een server op hun plaats te laten die controles voor bedrijfsregelen uitvoert. Als uw apparaat bijvoorbeeld aangepaste filters uitvoert voor uitgaande e-mail en u dit wilt blijven doen, kunt u EOP zo configureren dat e-mail rechtstreeks naar het apparaat wordt verzonden voor extra filtering voordat deze wordt doorgestuurd naar internet.

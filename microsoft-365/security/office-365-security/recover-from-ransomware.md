@@ -5,39 +5,39 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.article: how-to
+ms.topic: article
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Microsoft 365-beheerders kunnen meer informatie krijgen over het herstellen van een ransomware-aanval.
+description: Microsoft 365-beheerders kunnen informatie krijgen over het herstellen van een ransomware-aanval.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b834adb3d9ba5f85984e09b4bb1e4b48673c32f2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 120dd9ae71f04d6921fae95965f56f0a08f1280c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166901"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289303"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Herstel van een ransomware-aanval in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Zelfs als u alle voorzorgsmaatregelen treffen om uw organisatie te beschermen, kunt u nog steeds het slachtoffer worden van een [aanval van ransomware.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) Ransomware is een grote onderneming en de aanvallen zijn zeer geavanceerd.
 
 Met de stappen in dit artikel krijgt u de beste kans om gegevens te herstellen en de interne verspreiding van de instopstop te stoppen. Kijk eens naar de volgende items voordat u aan de slag gaat:
 
-- Er is geen garantie dat het betalen van de garantie weer toegang krijgt tot uw bestanden. In feite kan het betalen van de kosten ervoor zorgen dat u een doel wordt voor meer ransomware.
+- Er is geen garantie dat het betalen van de garantie weer toegang geeft tot uw bestanden. In feite kan het betalen van de kosten ervoor zorgen dat u een doel wordt voor meer ransomware.
 
-  Als u al hebt betaald, maar u dit hebt hersteld zonder de oplossing van de aanvaller te gebruiken, moet u contact opnemen met uw bank om te kijken of deze de transactie kan blokkeren.
+  Als u al hebt betaald, maar u het herstel hebt hersteld zonder de oplossing van de aanvaller te gebruiken, neem dan contact op met uw bank om te kijken of deze de transactie kan blokkeren.
 
   U wordt ook aangeraden de ransomware-aanval te melden aan de advocatenkantoor, websites voor het melden van oplichtingspraktijken en Microsoft, zoals verderhand in dit artikel wordt beschreven.
 
@@ -85,7 +85,7 @@ Nadat u de vorige stap hebt voltooid om de nettolading van ransomware uit uw omg
 
 - Sommige ransomware versleutelen of verwijderen ook de back-upversies, zodat u de bestandsgeschiedenis of systeembeveiliging niet kunt gebruiken om bestanden te herstellen. Als dat gebeurt, moet u back-ups gebruiken op externe stations of apparaten die niet zijn beïnvloed door ransomware of OneDrive, zoals wordt beschreven in de volgende sectie.
 
-- Als een map wordt gesynchroniseerd met OneDrive en u niet de nieuwste versie van Windows gebruikt, zijn er mogelijk enkele beperkingen bij het gebruik van Bestandsgeschiedenis.
+- Als een map wordt gesynchroniseerd met OneDrive en u niet de nieuwste versie van Windows gebruikt, kan het gebruik van Bestandsgeschiedenis bepaalde beperkingen hebben.
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Stap 5: Uw bestanden herstellen in uw OneDrive voor Bedrijven
 
@@ -101,7 +101,7 @@ In het zeldzame geval dat de ransomware al uw e-mailberichten heeft verwijderd, 
 
 ## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Stap 7: Exchange ActiveSync en OneDrive-synchronisatie opnieuw inschakelen
 
-Nadat u uw computers en apparaten hebt opgeschoond en de gegevens hebt hersteld, kunt u Exchange ActiveSync- en OneDrive-synchronisatie die u eerder in stap 2 hebt uitgeschakeld, [opnieuw inschakelen.](#step-2-disable-exchange-activesync-and-onedrive-sync)
+Nadat u uw computers en apparaten hebt opgeschoond en de gegevens hebt hersteld, kunt u Exchange ActiveSync- en OneDrive-synchronisatie, die u eerder in stap 2 hebt uitgeschakeld, [opnieuw inschakelen.](#step-2-disable-exchange-activesync-and-onedrive-sync)
 
 ## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Stap 8 (optioneel): OneDrive-synchronisatie blokkeren voor specifieke bestandsextensies
 
@@ -111,7 +111,7 @@ Nadat u het bestand hebt hersteld, kunt u voorkomen dat OneDrive voor Bedrijven-
 
 ### <a name="contact-law-enforcement"></a>Contact opnemen met de wet
 
-Neem contact op met de plaatselijke of federale advocatenkantoorsinstanties. Als u zich bijvoorbeeld in de Verenigde Staten hebt, kunt u contact opnemen met het lokale field [office VAN DE(s)](https://www.fbi.gov/contact-us/field) [IC3](http://www.ic3.gov/complaint/default.aspx) of de geheime [service.](http://www.secretservice.gov/)
+Neem contact op met uw lokale of federale advocatenkantoors. Als u zich bijvoorbeeld in de Verenigde Staten hebt, kunt u contact opnemen met het lokale field [office VAN DE(s)](https://www.fbi.gov/contact-us/field) [IC3](http://www.ic3.gov/complaint/default.aspx) of [de geheime service.](http://www.secretservice.gov/)
 
 ### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>Een rapport verzenden naar de rapportagewebsite van uw land
 
@@ -137,7 +137,7 @@ Als uw land niet in de lijst staat, vraagt u dit aan uw lokale of federale advoc
 
 ### <a name="submit-email-messages-to-microsoft"></a>E-mailberichten verzenden bij Microsoft
 
-U kunt phishing-berichten die ransomware bevatten op een van de verschillende manieren melden. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
+U kunt phishing-berichten die ransomware bevatten op een van de verschillende manieren rapporteren. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="see-also"></a>Zie ook
 
@@ -161,7 +161,7 @@ U kunt phishing-berichten die ransomware bevatten op een van de verschillende ma
 
 - [Locky malware, geluk om dit te vermijden](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
 
-- [MSRT juli 2016: Cerber ransomware](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
+- [MSRT juli 2016: Cerber-ransomware](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
 
 - [De drie koppen van de Cerberus-like Cerber ransomware](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
 

@@ -18,19 +18,19 @@ ms.custom:
 description: Krijg een overzicht van de integratie van de SIEM-server (Security Information and Event Management) met uw Microsoft 365-cloudservices en -toepassingen
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f29da87aa6eab1852330092d93187a27b2d36eb2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: b4490d52cbd403bf4ce2cc3f3fb3c5a91c5646b9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167141"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290379"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>SiEM-serverintegratie (Security Information and Event Management) met Microsoft 365-services en -toepassingen
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -45,7 +45,7 @@ Gebruikt uw organisatie een SIEM-server (Security Information and Event Manageme
 
 Of u een SIEM-server nodig hebt, hangt af van een groot aantal factoren, zoals de beveiligingsvereisten van uw organisatie en waar uw gegevens zich bevinden. Microsoft 365 bevat een groot aantal beveiligingsfuncties die voldoen aan de beveiligingsbehoeften van veel organisaties zonder extra servers, zoals een SIEM-server. Sommige organisaties hebben speciale omstandigheden waaronder het gebruik van een SIEM-server is vereist. Dit zijn enkele voorbeelden:
 
-- *Fabrikam heeft* enkele inhoud en toepassingen on-premises, en sommige in de cloud (ze hebben een hybride cloudimplementatie). Fabrikam heeft een SIEM-server geïmplementeerd om beveiligingsrapporten over alle inhoud en toepassingen te krijgen.
+- *Fabrikam heeft* enkele inhoud en toepassingen on-premises, en sommige in de cloud (ze hebben een hybride cloudimplementatie). Fabrikam heeft een SIEM-server geïmplementeerd om beveiligingsrapporten over al hun inhoud en toepassingen te krijgen.
 
 - *Contoso* is een financiële dienstverleningsorganisatie die zeer strikte beveiligingsvereisten kent. Ze hebben een SIEM-server aan hun omgeving toegevoegd om te profiteren van de extra beveiligingsbescherming die ze vereisen.
 

@@ -19,21 +19,21 @@ ms.custom:
 description: Lees hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fbed28047b88a3eff75f574fc4d2581a75f15518
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 52997150302805ea5085028e9a8f1cd5f745d841
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166229"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290439"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>SPF instellen om adresvervalsing te helpen voorkomen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 In dit artikel wordt beschreven hoe u een DNS-record (Domain Name Service) bijwerkt, zodat u SPF-e-mailverificatie (Sender Policy Framework) kunt gebruiken met uw aangepaste domein in Office 365.
 
@@ -48,7 +48,7 @@ Voordat je de SPF TXT-record voor Office 365 in externe DNS bijwerkt, moet je en
 
 Verzamel de volgende informatie:
 
-- Het huidige SPF TXT-record voor uw aangepaste domein, indien aanwezig. Zie [De informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records)voor instructies.
+- Het huidige SPF TXT-record voor uw aangepaste domein, indien aanwezig. Zie [De informatie verzamelen die u nodig hebt om DNS-records voor Office 365 te maken](../../admin/get-help-with-domains/information-for-dns-records.md)voor instructies.
 
 - Ga naar de berichtenserver(s) en zoek de externe IP-adressen (nodig van alle on-premises berichtenservers). Bijvoorbeeld: **131.107.2.200**.
 
@@ -94,7 +94,7 @@ Verzamel de volgende informatie:
 
    Als u al bent overgestapt naar Office 365 en uw SPF TXT-records hebt ingesteld voor uw aangepaste domein, en u migreert naar Office 365 Duitsland, moet u uw SPF TXT-record bijwerken. U kunt dit doen door `include:spf.protection.outlook.com` te wijzigen in `include:spf.protection.outlook.de`.
 
-3. Zodra u uw SPF TXT-record hebt gemaakt, moet u het record in DNS bijwerken. U kunt slechts één SPF TXT-record voor een domein hebben. Als er een SPF TXT-record aanwezig is, moet u het bestaande record bijwerken, in plaats van een nieuwe record toe te voegen. Ga naar [DNS-records maken voor Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) en klik vervolgens op de link voor uw DNS-host.
+3. Zodra u uw SPF TXT-record hebt gemaakt, moet u het record in DNS bijwerken. U kunt slechts één SPF TXT-record voor een domein hebben. Als er een SPF TXT-record aanwezig is, moet u het bestaande record bijwerken, in plaats van een nieuwe record toe te voegen. Ga naar [DNS-records maken voor Office 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) en klik vervolgens op de link voor uw DNS-host.
 
 4. De SPF TXT-record testen.
 
@@ -137,6 +137,6 @@ Zie [Hoe SPF werkt om spoofing en phishing in Office 365 te voorkomen](how-offic
 
  SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt ingesteld, ook DKIM en DMARC voor Office 365 configureren.
 
-Het doel van de e-mailverificatie van [DKIM](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide) is bewijzen dat er niet met de inhoud van het e-mailbericht is geknoeid.
+Het doel van de e-mailverificatie van [DKIM](use-dkim-to-validate-outbound-email.md) is bewijzen dat er niet met de inhoud van het e-mailbericht is geknoeid.
 
-Het doel van de e-mailverificatie van [DMARC](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide) is ervoor te zorgen dat SPF- en DKIM-gegevens overeenkomen met het Van-adres.
+Het doel van de e-mailverificatie van [DMARC](use-dmarc-to-validate-email.md) is ervoor te zorgen dat SPF- en DKIM-gegevens overeenkomen met het Van-adres.

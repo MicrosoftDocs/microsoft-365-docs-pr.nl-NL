@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie krijgen over de proefversie van Microsoft Defender voor Office 365
-ms.openlocfilehash: 6207ae117f06a0e5f10d4a7a47a251137c51df05
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 0f45379bec52b54059c743823e2c8eb366f9bd59
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233576"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289387"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Informatie over de proefversie van Microsoft Defender voor Office 365
 
@@ -34,10 +34,10 @@ Microsoft Defender voor Office 365 beschermt uw organisatie tegen schadelijke be
 - **Functies voor bedreigingsonderzoek en reacties**: gebruik toonaangevende hulpmiddelen om bedreigingen te onderzoeken, te doorgronden, te simuleren en te voorkomen.
 - **Mogelijkheden voor geautomatiseerd onderzoek en acties**: bespaar tijd en moeite bij het onderzoeken en beperken van bedreigingen.
 
-Een proefversie van Microsoft Defender voor Office 365 is de eenvoudigste manier om de mogelijkheden van Defender voor Office 365 uit te proberen. Het instellen is met slechts een paar klikken mogelijk. Nadat het proefabonnement is ingesteld, zijn alle mogelijkheden van Defender voor Office 365 Abonnement 1 en Abonnement 2 tot 90 dagen beschikbaar in de organisatie.
+Een proefversie van Microsoft Defender voor Office 365 is de eenvoudigste manier om de mogelijkheden van Defender voor Office 365 uit te proberen. Het instellen is met slechts een paar klikken mogelijk. Nadat de installatie van het proefabonnement is voltooid, zijn alle mogelijkheden van Defender voor Office 365 Abonnement 1 en Abonnement 2 tot 90 dagen beschikbaar in de organisatie.
 
 > [!NOTE]
-> De automatische configuratie die in dit artikel wordt beschreven, bevindt zich momenteel in de openbare preview-versie en is mogelijk niet beschikbaar op uw locatie.
+> De geautomatiseerde configuratie die in dit artikel wordt beschreven, bevindt zich momenteel in de openbare preview-versie en is mogelijk niet beschikbaar op uw locatie.
 
 ## <a name="terms-and-conditions"></a>Algemene voorwaarden
 
@@ -57,7 +57,7 @@ Als onderdeel van de installatie van het proefabonnement worden de Defender voor
 
 ## <a name="permissions"></a>Machtigingen
 
-Als u het proefabonnement wilt starten of beëindigen,  moet u lid zijn van de rollen **hoofdbeheerder** of beveiligingsbeheerder in Azure Active Directory. Zie Informatie over [beheerdersrollen.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+Als u het proefabonnement wilt starten of beëindigen,  moet u lid zijn van de rollen **van de** globale beheerder of beveiligingsbeheerder in Azure Active Directory. Zie Informatie over [beheerdersrollen.](../../admin/add-users/about-admin-roles.md)
 
 ## <a name="additional-information"></a>Aanvullende informatie
 
@@ -67,7 +67,7 @@ Beheerders kunnen het proefabonnement op elk moment uitschakelen door naar de ka
 
 ## <a name="availability"></a>Beschikbaarheid
 
-De proefversie van Defender voor Office 365 wordt geleidelijk uitgerold naar bestaande klanten die voldoen aan specifieke criteria (waaronder geografie) en die geen bestaande licentie voor Defender voor Office 365 Abonnement 1 of Abonnement 2 hebben (inbegrepen in hun abonnement of als een invoegversie).
+De proefversie van Defender voor Office 365 wordt geleidelijk uitgerold naar bestaande klanten die voldoen aan specifieke criteria (waaronder geografie) en die geen bestaande licenties voor Defender voor Office 365 Abonnement 1 of Abonnement 2 hebben (inbegrepen in hun abonnement of als een invoegversie).
 
 ## <a name="learn-more-about-defender-for-office-365"></a>Meer informatie over Defender voor Office 365
 
@@ -79,7 +79,7 @@ In deze interactieve handleiding vindt u meer informatie over Defender [voor](ht
 
 ### <a name="prevention"></a>Preventie
 
-Een krachtige filtertack voorkomt een grote verscheidenheid aan volume-gebaseerde en gerichte aanvallen, waaronder zakelijke e-mailcompromitteerd, referenties phishing, ransomware en geavanceerde malware.
+Een krachtige filtertack voorkomt een grote verscheidenheid aan volume-gebaseerde en gerichte aanvallen, waaronder zakelijke e-mailcompromitteerd, referentie phishing, ransomware en geavanceerde malware.
 
 - [Anti-phishingbeleid: Exclusieve instellingen in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 - [Veilige bijlagen](atp-safe-attachments.md)
@@ -98,7 +98,7 @@ Krachtige ervaringen helpen bij het identificeren, prioriteren en onderzoeken va
 - [Bedreigingsverkenner en realtime detecties](threat-explorer.md)
 - [Realtime rapporten in Defender voor Office 365](view-reports-for-atp.md)
 - [Bedreigingstrackers - Nieuw en Opvallend](threat-trackers.md)
-- Integratie met [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
+- Integratie met [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 ### <a name="response-and-remediation"></a>Reactie en herstel
 

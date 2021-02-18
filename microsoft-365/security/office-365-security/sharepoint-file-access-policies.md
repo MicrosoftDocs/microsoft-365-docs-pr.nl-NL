@@ -6,6 +6,7 @@ author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: m365-security
 ms.topic: article
+audience: Admin
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -18,18 +19,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 5c739a47ccab79561277436812c36f842b6b578c
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: f3a9cc2c3bae32a8fee10e814f96968b864e78a5
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142811"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290415"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Beleidsaanbevelingen voor het beveiligen van SharePoint-sites en -bestanden
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - SharePoint Online 
 
 
@@ -55,32 +56,32 @@ De volgende tabel bevat de beleidsregels die u moet controleren en bijwerken of 
 
 |Beveiligingsniveau|Beleidsregels|Meer informatie|
 |---|---|---|
-|**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* *of* hoog is](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Neem SharePoint op in de toewijzing van cloud-apps.|
+|**Basislijn**|[MFA vereisen wanneer het aanmeldingsrisico *gemiddeld* of *hoog is*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Neem SharePoint op in de toewijzing van cloud-apps.|
 ||[Clients blokkeren die moderne verificatie niet ondersteunen](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|Neem SharePoint op in de toewijzing van cloud-apps.|
 ||[Beleid voor app-gegevensbescherming toepassen](identity-access-policies.md#apply-app-data-protection-policies)|Zorg ervoor dat alle aanbevolen apps zijn opgenomen in de lijst met apps. Zorg ervoor dat u het beleid voor elk platform bijwerkt (iOS, Android, Windows).|
 ||[Eis conforme pc’s](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Neem SharePoint op in de lijst met cloud-apps.|
 ||[Door apps afgedwongen beperkingen gebruiken in SharePoint](#use-app-enforced-restrictions-in-sharepoint)|Voeg dit nieuwe beleid toe. Hiermee wordt aangegeven dat Azure Active Directory (Azure AD) de instellingen moet gebruiken die zijn opgegeven in SharePoint. Dit beleid is van toepassing op alle gebruikers, maar is alleen van invloed op de toegang tot sites die zijn opgenomen in toegangsbeleid van SharePoint.|
 |**Gevoelig**|[MFA vereisen wanneer het aanmeldingsrisico *laag,* *gemiddeld* of *hoog is*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Neem SharePoint op in de toewijzingen van cloud-apps.|
 ||[Compatibele pc's *en mobiele* apparaten vereisen](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Neem SharePoint op in de lijst met cloud-apps.|
-||[Toegangsbeleid voor SharePoint:](#sharepoint-access-control-policies)toegang tot bepaalde SharePoint-sites alleen voor browsers toestaan op onbeheerde apparaten.|Dit voorkomt het bewerken en downloaden van bestanden. Gebruik PowerShell om sites op te geven.|
+||[Toegangsbeleid voor SharePoint:](#sharepoint-access-control-policies)toegang tot bepaalde SharePoint-sites die alleen door de browser worden gebruikt, toestaan op onbeheerde apparaten.|Dit voorkomt het bewerken en downloaden van bestanden. Gebruik PowerShell om sites op te geven.|
 |**Sterk gereglementeerd**|[*Altijd* MFA vereisen](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Neem SharePoint op in de toewijzing van cloud-apps.|
 ||[Toegangsbeleid voor SharePoint:](#use-app-enforced-restrictions-in-sharepoint)toegang tot bepaalde SharePoint-sites blokkeren vanaf onbeheerde apparaten.|Gebruik PowerShell om sites op te geven.|
 |
 
 ## <a name="use-app-enforced-restrictions-in-sharepoint"></a>Door apps afgedwongen beperkingen gebruiken in SharePoint
 
-Als u toegangsbesturingselementen implementeert in SharePoint, moet u dit beleid voor voorwaardelijke toegang maken in Azure AD om azure AD te laten weten dat het beleid moet worden afgedwongen dat u in SharePoint configureert. Dit beleid is van toepassing op alle gebruikers, maar is alleen van invloed op de toegang tot de sites die u opgeeft met PowerShell wanneer u de toegangsbesturingselementen in SharePoint maakt.
+Als u toegangsbesturingselementen implementeert in SharePoint, moet u dit beleid voor voorwaardelijke toegang maken in Azure AD om azure AD te laten weten dat het beleid moet worden afgedwongen dat u configureert in SharePoint. Dit beleid is van toepassing op alle gebruikers, maar is alleen van invloed op de toegang tot de sites die u opgeeft met PowerShell wanneer u de toegangsbesturingselementen in SharePoint maakt.
 
 Zie 'Toegang tot specifieke SharePoint-siteverzamelingen of OneDrive-accounts blokkeren of beperken' in Toegang beheren vanaf onbeheerde apparaten om dit beleid [te configureren.](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
 
 ## <a name="sharepoint-access-control-policies"></a>Toegangsbeheerbeleid voor SharePoint
 
-Microsoft raadt u aan inhoud op SharePoint-sites te beveiligen met gevoelige en sterk reguleerde inhoud met besturingselementen voor apparaattoegang. U doet dit door een beleid te maken dat het beveiligingsniveau en de sites specificeert om de beveiliging toe te passen.
+Microsoft raadt u aan inhoud op SharePoint-sites te beveiligen met gevoelige en sterk reguleerde inhoud met besturingselementen voor apparaattoegang. U doet dit door een beleid te maken dat het beveiligingsniveau en de sites specificeert waar de beveiliging op moet worden toegepast.
 
 - Gevoelige sites: toegang via alleen browsers toestaan. Hiermee voorkomt u dat gebruikers bestanden kunnen bewerken en downloaden.
 - Sterk reguleerde sites: toegang blokkeren vanaf niet-beherende apparaten.
 
-Zie 'Toegang tot specifieke SharePoint-siteverzamelingen of OneDrive-accounts blokkeren of beperken' in Toegang beheren [vanaf niet-beherende apparaten.](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+Zie 'Toegang tot specifieke SharePoint-siteverzamelingen of OneDrive-accounts blokkeren of beperken' in Toegang beheren vanaf [niet-beherende apparaten.](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
 
 ## <a name="how-these-policies-work-together"></a>Hoe dit beleid samenwerken
 
@@ -95,7 +96,7 @@ In de volgende afbeelding wordt een voorbeeld getoond van hoe toegang tot ShareP
 Aan Het beleid voor voorwaardelijke toegang van James is een basislijnbeleid toegewezen, maar hij kan toegang krijgen tot SharePoint-sites met gevoelige of sterk reguleerde beveiliging.
 
 - Als James toegang heeft tot een gevoelige of sterk reguleerde site waar hij lid van is, wordt zijn toegang verleend zolang zijn pc compatibel is.
-- Als James toegang heeft tot een gevoelige site waar hij lid van is en zijn onmanagede telefoon gebruikt, wat is toegestaan voor basislijngebruikers, krijgt hij alleen browsertoegang tot de gevoelige site vanwege het beleid voor apparaattoegang dat voor deze site is geconfigureerd.
+- Als James toegang heeft tot een gevoelige site waar hij lid van is en zijn onmanagede telefoon gebruikt, wat is toegestaan voor basislijngebruikers, krijgt hij alleen in de browser toegang tot de gevoelige site vanwege het beleid voor apparaattoegang dat voor deze site is geconfigureerd.
 - Als James een sterk reguleerde site gebruikt waar hij lid van is, wordt hij geblokkeerd vanwege het toegangsbeleid dat voor deze site is geconfigureerd. Hij heeft alleen toegang tot deze site met zijn beheerde en compatibele pc.
 
 ## <a name="next-step"></a>Volgende stap

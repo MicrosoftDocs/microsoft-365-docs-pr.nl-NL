@@ -14,21 +14,21 @@ ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Beheerders kunnen meer informatie krijgen over de foutcodes die zijn gekoppeld aan berichtbezorging via connectors (ook wel bekend als mail flow intelligence).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 864b69bf650a4e460376ae988a9ce4abc4c61ad4
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 32a98459ce3d3494e576b10d5c5b097393ee2335
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167069"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289661"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>E-mailstroomanalyse in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken gebruikt u meestal een connector om e-mailberichten vanuit EOP door te sturen naar uw on-premises e-mailomgeving. U kunt ook een connector gebruiken om berichten van Microsoft 365 door te sturen naar een partnerorganisatie. Als Microsoft 365 deze berichten niet via de connector kan bezorgen, worden deze in de wachtrij geplaatst in Microsoft 365. Microsoft 365 blijft de bezorging voor elk bericht 24 uur lang opnieuw proberen uit te proberen. Na 24 uur verloopt het bericht in de wachtrij en wordt het bericht geretourneerd aan de oorspronkelijke afzender in een rapport over niet-bezorging (ook wel een NDR- of niet-bezorgdbericht genoemd).
 
@@ -50,7 +50,7 @@ Deze fout betekent meestal dat Microsoft 365 heeft geprobeerd verbinding te make
 
 - Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), neem dan contact op met uw partner om het probleem op te lossen.
 
-## <a name="error-code-450-44315-connection-timed-out"></a>Foutcode: 450 4.4.315 Time-out voor verbinding
+## <a name="error-code-450-44315-connection-timed-out"></a>Foutcode: 450 4.4.315 Connection time-out
 
 Dit betekent meestal dat Microsoft 365 geen verbinding kan maken met de doel-e-mailserver. Aan de hand van de details van de fout wordt het probleem uitgelegd. Bijvoorbeeld:
 
@@ -70,7 +70,7 @@ Deze fout betekent meestal dat er een verbindingsfout is opgetreden in Microsoft
 
 ### <a name="how-do-i-fix-error-code-450-44316"></a>Hoe kan ik foutcode 450 4.4.316 oplossen?
 
-- Als uw on-premises omgeving postvakken heeft, moet u uw firewallinstellingen wijzigen om verbindingen van IP-adressen van Microsoft 365 op TCP-poort 25 met uw on-premises e-mailservers toe te staan. Zie URL's en IP-adresbereiken voor Microsoft 365 voor een lijst met De IP-adressen [van Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
+- Als uw on-premises omgeving postvakken heeft, moet u uw firewallinstellingen wijzigen om verbindingen van IP-adressen van Microsoft 365 op TCP-poort 25 met uw on-premises e-mailservers toe te staan. Zie DE URL's en IP-adresbereiken van Microsoft 365 voor een lijst met De IP-adressen [van Microsoft 365.](../../enterprise/urls-and-ip-address-ranges.md)
 
 - Als er geen berichten meer moeten worden bezorgd in uw on-premises omgeving, klikt u **in** de waarschuwing op Nu herstellen, zodat Microsoft 365 de berichten met ongeldige geadresseerden direct kan weigeren. Hierdoor wordt het risico verkleind dat het quotum van uw organisatie voor ongeldige geadresseerden wordt overschreden, wat gevolgen kan hebben voor de normale bezorging van berichten. U kunt ook de volgende instructies gebruiken om het probleem handmatig op te lossen:
 
@@ -84,7 +84,7 @@ Deze fout betekent meestal dat er een verbindingsfout is opgetreden in Microsoft
 
        - Schakel de connector uit door op het **pictogram** Bewerken ![ te klikken en De connector in te ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **schakelen.**
 
-  - Wijzig het geaccepteerde domein in Microsoft 365 dat is  gekoppeld aan uw on-premises e-mailomgeving van Interne door te sturen in **Gezaghebbend.** Zie Geaccepteerd domeinen beheren [in Exchange Online voor instructies.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
+  - Wijzig het geaccepteerde domein in Microsoft 365 dat is  gekoppeld aan uw on-premises e-mailomgeving van Interne door te sturen in **Gezaghebbend.** Zie Geaccepteerde [domeinen beheren in Exchange Online voor instructies.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
 
   **Opmerking:** Het duurt meestal 30 minuten tot een uur voordat deze wijzigingen van kracht worden. Controleer na een uur of de fout niet meer wordt weergegeven.
 
@@ -108,7 +108,7 @@ Deze fout betekent meestal dat Microsoft 365 is verbonden met de doel-e-mailserv
 
 Deze fout betekent meestal dat Microsoft 365 problemen heeft met de communicatie met uw on-premises e-mailomgeving, zodat de verbinding is weggevallen. De mogelijke oorzaken voor deze fout zijn:
 
-- De firewall gebruikt SMTP-pakkettestregels en die regels werken niet goed.
+- Uw firewall gebruikt SMTP-pakkettestregels en die regels werken niet goed.
 
 - Uw on-premises e-mailserver werkt niet goed (bijvoorbeeld service loopt vast, crasht of lage systeembronnen), waardoor de server een time-out veroorzaakt en de verbinding met Microsoft 365 wordt gesloten.
 
@@ -134,12 +134,12 @@ Deze fout betekent meestal dat er in Microsoft 365 een fout is opgetreden tijden
 
 ### <a name="how-do-i-fix-error-code-450-47320"></a>Hoe kan ik foutcode 450 4.7.320 oplossen?
 
-- Herstel het certificaat of de instellingen van de connector zodat berichten in de wachtrij in Microsoft 365 kunnen worden bezorgd.
+- Herstel het certificaat of de instellingen van de connector, zodat berichten in de wachtrij in Microsoft 365 kunnen worden bezorgd.
 
 - Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), moet u contact opnemen met uw partner om het probleem op te lossen.
 
 ## <a name="other-error-codes"></a>Andere foutcodes
 
-Microsoft 365 heeft problemen met het bezorgen van berichten op uw on-premises e-mailserver of e-mailserver van een partner. Gebruik de **gegevens van de** doelserver in de fout om het probleem in uw omgeving te onderzoeken of wijzig de connector als er een configuratiefout is.
+Microsoft 365 heeft problemen met het bezorgen van berichten op de on-premises server of de e-mailserver van uw partner. Gebruik de **gegevens van de** doelserver in de fout om het probleem in uw omgeving te onderzoeken of wijzig de connector als er een configuratiefout is.
 
 Als de fout afkomstig is van uw partnerorganisatie (bijvoorbeeld een externe cloudserviceprovider), moet u contact opnemen met uw partner om het probleem op te lossen.

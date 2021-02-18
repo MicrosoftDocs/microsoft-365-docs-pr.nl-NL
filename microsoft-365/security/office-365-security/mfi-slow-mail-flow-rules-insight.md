@@ -15,26 +15,26 @@ ms.custom:
 description: Beheerders kunnen in het beveiligings- &-compliancecentrum weten hoe ze niet-efficiënt of niet-efficiënt werkende regels voor de e-mailstroom (ook wel transportregels genoemd) in hun organisatie kunnen vaststellen en oplossen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f7f084735decda922b5bcc57c029f2b384114d30
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: a50fa0d36cb025f5d0627a2212254b9d08dc5d9c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150782"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290691"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Inzicht in regels voor trage e-mailstroom oplossen in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Niet-efficiënt e-mailstroomregels (ook wel transportregels genoemd) kunnen leiden tot vertragingen in de e-mailstroom voor uw organisatie. Dit inzicht rapporteert regels voor de e-mailstroom die van invloed zijn op de e-mailstroom van uw organisatie. Voorbeelden van deze soorten regels zijn:
 
 - Voorwaarden die gebruikmaken **van Is lid van** grote groepen.
-- Voorwaarden die gebruikmaken van complexe reguliere expressiepatronen (regex).
+- Voorwaarden die gebruikmaken van complexe reguliere expressies (regex)-patroonmatching.
 - Voorwaarden die gebruikmaken van het controleren van inhoud in bijlagen.
 
 Informatie over regels voor trage  **e-mailstroom** oplossen in het gebied Aanbevolen voor u in het [dashboard](mail-flow-insights-v2.md) E-mailstroom in het [beveiligings- & Compliancecentrum](https://protection.office.com) laat u weten wanneer het te lang duurt voordat een e-mailstroomregel is voltooid.

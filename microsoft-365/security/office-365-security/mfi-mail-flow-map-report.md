@@ -11,26 +11,26 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen in het beveiligings &- en compliancecentrum voor e-mailstromen in het beveiligings- en compliancecentrum leren hoe ze de e-mailstroomkaart in het dashboard E-mailstroom gebruiken om te visualiseren en bij te houden hoe e-mail van en naar hun organisatie loopt via connectors en zonder het gebruik van connectors.
+description: Beheerders kunnen in het dashboard E-mailstroom in het beveiligings-&-compliancecentrum leren hoe ze de e-mailstroomkaart kunnen gebruiken om te visualiseren en bij te houden hoe e-mail van en naar hun organisatie loopt via connectors en zonder het gebruik van connectors.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 87a5780bd2485ba6ad3b295c09a30a4d7fc34277
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 2f507f7f01999492d17e168a2a56da906bfcb52d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150558"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290583"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>E-mailstroomkaart in het & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-De **e-mailstroomkaart** in het [dashboard E-mailstroom](mail-flow-insights-v2.md) in het & [compliancecentrum](https://protection.office.com) geeft inzicht in hoe e-mail door uw organisatie loopt. U kunt deze informatie gebruiken om patronen te leren, problemen te identificeren en problemen op te lossen terwijl deze zich voordoen.
+De **e-mailstroomkaart** in het [dashboard E-mailstroom](mail-flow-insights-v2.md) in het & [compliancecentrum](https://protection.office.com) geeft inzicht in hoe e-mail door uw organisatie loopt. U kunt deze informatie gebruiken om patronen te leren, afwijkingen te identificeren en problemen op te lossen terwijl deze zich voordoen.
 
 ![Widget E-mailstroomkaart in het dashboard E-mailstroom in het & Compliancecentrum](../../media/mfi-mail-flow-map-widget.png)
 
@@ -70,12 +70,12 @@ Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik op
 
 Als u een rij selecteert, worden soortgelijke details weergegeven in een flyout:
 
-![Flyout Details uit de tabel Details in de e-mailstroommap](../../media/mfi-mail-flow-map-view-details-table-details.png)
+![Flyout Details van de tabel Details in de e-mailstroommap](../../media/mfi-mail-flow-map-view-details-table-details.png)
 
 Als u het rapport voor een bepaald datumbereik per e-mail wilt versturen naar een of meer geadresseerden, klikt u op **Downloaden aanvragen.**
 
-Als u wilt teruggaan naar de rapportweergave, klikt u **op Rapport weergeven.**
+Als u terug wilt gaan naar de rapportweergave, klikt u **op Rapport weergeven.**
 
 ## <a name="see-also"></a>Zie ook
 
-Zie inzichten in de e-mailstroom in het beveiligings- en compliancecentrum voor meer informatie & [inzichten in het dashboard E-mailstroom.](mail-flow-insights-v2.md)
+Voor informatie over andere inzichten in het dashboard voor de e-mailstroom, bekijkt u inzichten in de e-mailstroom in het & [compliancecentrum.](mail-flow-insights-v2.md)
