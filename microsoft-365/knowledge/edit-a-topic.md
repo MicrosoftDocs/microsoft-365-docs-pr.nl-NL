@@ -4,6 +4,7 @@ description: Een bestaand onderwerp bewerken in Microsoft Viva-onderwerpen.
 author: efrene
 ms.author: efrene
 manager: pamgreen
+audience: admin
 ms.reviewer: cjtan
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -13,12 +14,12 @@ ms.collection:
 - m365initiative-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 4194328804285f93f023092f1c7ac31d31a581da
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 9dfad7e179699c599d9320390aaefd2dac176fbb
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107448"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279408"
 ---
 # <a name="edit-an-existing-topic"></a>Een bestaand onderwerp bewerken 
 
@@ -31,7 +32,7 @@ ms.locfileid: "50107448"
 In Viva-onderwerpen kunt u een bestaand onderwerp bewerken. Mogelijk moet u dit doen als u een bestaande onderwerppagina wilt corrigeren of er extra informatie aan wilt toevoegen. 
 
 > [!Note] 
-> Hoewel de informatie in een onderwerp dat door AI wordt verzameld, [is](topic-experiences-security-trimming.md)afgekort tot beveiliging, houd er rekening mee dat informatie die u handmatig toevoegt wanneer u een bestaand onderwerp bewerkt, zichtbaar is voor alle gebruikers die machtigingen hebben om onderwerpen te bekijken. 
+> Hoewel de informatie in een onderwerp dat door AI wordt verzameld, [is](topic-experiences-security-trimming.md)afgesleten, is de informatie over onderwerpbeschrijvingen en personen die u handmatig toevoegt bij het bewerken van een bestaand onderwerp zichtbaar voor alle gebruikers die machtigingen hebben om onderwerpen te bekijken. 
 
 ## <a name="requirements"></a>Vereisten
 
@@ -48,7 +49,7 @@ Gebruikers met de machtiging **Wie** kan onderwerpen maken of bewerken, kunnen e
 
    ![Knop Bewerken](../media/knowledge-management/edit-button.png) </br> 
 
-Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina Onderwerpen beheren door het onderwerp te selecteren en vervolgens Bewerken te <b>selecteren</b> op de werkbalk.
+Knowledge managers kunnen ook onderwerpen rechtstreeks bewerken vanaf de pagina Onderwerpen beheren door het onderwerp te selecteren en vervolgens <b>Bewerken te selecteren</b> op de werkbalk.
 
    ![Onderwerp bewerken in Onderwerpen beheren](../media/knowledge-management/manage-topics-edit.png) </br> 
 
@@ -82,11 +83,14 @@ Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina On
 
     U kunt ook de optie <b>Van een koppeling gebruiken</b> om een bestand of pagina toe te voegen door de URL op te geven. 
 
+   > [!Note] 
+   > Bestanden en pagina's die u toevoegt, moeten zich bevinden in dezelfde Microsoft 365-tenant. Als u een koppeling naar een externe resource in het onderwerp wilt toevoegen, kunt u deze toevoegen via het canvaspictogram in stap 9.
+
 6. De <b>sectie Voorgestelde bestanden en pagina's</b> bevat bestanden en pagina's die AI suggereert om aan het onderwerp te worden gekoppeld.
 
    ![Sectie Voorgestelde bestanden en pagina's](../media/knowledge-management/suggested-files-and-pages.png)</br>
 
-    U kunt een voorgesteld bestand of pagina toevoegen aan een vastgemaakt bestand of vastgemaakte pagina door het vastgemaakte pictogram te selecteren.
+    U kunt een voorgesteld bestand of pagina wijzigen in een vastgemaakt bestand of vastgemaakte pagina door het vastgemaakte pictogram te selecteren.
 
 7.  De <b>sectie Verwante sites</b> bevat sites met informatie over het onderwerp. 
 
@@ -107,6 +111,14 @@ Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina On
    Het gerelateerde onderwerp dat u hebt toegevoegd, wordt weergegeven als een verbonden onderwerp.
 
    ![Verwante onderwerpen verbonden](../media/knowledge-management/related-topics-final.png)</br> 
+
+   Als u een gerelateerd onderwerp wilt verwijderen, selecteert u het onderwerp dat u wilt verwijderen en selecteert u vervolgens het <b>pictogram Onderwerp</b> verwijderen.</br>
+ 
+   ![Gerelateerd onderwerp verwijderen](../media/knowledge-management/remove-related.png)</br>  
+
+   Selecteer vervolgens <b>Verwijderen.</b></br>
+
+   ![Verwijderen bevestigen](../media/knowledge-management/remove-related-confirm.png)</br> 
 
 
 9. U kunt ook statische items toevoegen aan de pagina, zoals tekst, afbeeldingen of koppelingen, door het canvaspictogram te selecteren dat u onder de korte beschrijving kunt vinden. Als u deze selecteert, wordt de SharePoint-werkset geopend waarin u het item kunt kiezen dat u aan de pagina wilt toevoegen.

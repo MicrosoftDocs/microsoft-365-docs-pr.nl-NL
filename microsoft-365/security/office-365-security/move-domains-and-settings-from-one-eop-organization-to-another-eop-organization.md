@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel vindt u informatie over het verplaatsen van domeinen en instellingen van de ene Microsoft Exchange Online Protection (EOP)-organisatie (tenant) naar de andere.
+description: In dit artikel leert u hoe u domeinen en instellingen kunt verplaatsen van de ene Microsoft Exchange Online Protection (EOP)-organisatie (tenant) naar de andere.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4cfb5c31728174f7f7307e9492abc03a62f8bf9a
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 42a212c1826f63f9e7ed8395fe1d6b6564625b7b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150758"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287771"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Domeinen en instellingen van één EOP-organisatie naar een andere verplaatsen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
 
 Als de bedrijfsvereisten veranderen, kan het soms nodig zijn om één Microsoft Exchange Online Protection (EOP)-organisatie (tenant) te splitsen in twee afzonderlijke organisaties, twee organisaties samen te voegen tot één organisatie of uw domeinen en EOP-instellingen van de ene organisatie te verplaatsen naar een andere organisatie. Een overstap van de ene EOP-organisatie naar een tweede EOP-organisatie kan lastig zijn, maar met een paar eenvoudige externe Windows PowerShell-scripts en een kleine voorbereiding kan dit worden bereikt met een relatief klein onderhoudsvenster.
 
@@ -41,7 +41,7 @@ In het volgende voorbeeld is Contoso, Ltd. samengevoegd met Contoso Suites. In d
 
 ![EOP-domeinen en -instellingen verplaatsen](../../media/EOP-Move-domains-and-settings.jpg)
 
-Het probleem bij het verplaatsen van domeinen van de ene organisatie naar de andere is dat een geverifieerd domein niet kan bestaan in twee organisaties tegelijk. De volgende stappen helpen u om dit te doen.
+De uitdaging bij het verplaatsen van domeinen van de ene organisatie naar de andere is dat een geverifieerd domein niet kan bestaan in twee organisaties tegelijk. De volgende stappen helpen u om dit te doen.
 
 ## <a name="step-1-collect-data-from-the-source-organization"></a>Stap 1: Gegevens verzamelen van de bronorganisatie
 
@@ -63,7 +63,7 @@ Als u de bronorganisatie in de doelorganisatie opnieuw wilt maken, moet u de vol
 
 De eenvoudigste manier om al uw instellingen te verzamelen is met PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-Vervolgens kunt u alle instellingen verzamelen en deze exporteren naar een XML-bestand dat u wilt importeren in de doelten tenant. In het algemeen kunt u voor elke instelling de **uitvoer** van de cmdlet Get doorvergeven naar de cmdlet **Export-Clixml** om de instellingen op te slaan in XML-bestanden, zoals wordt weergegeven in het volgende codevoorbeeld.
+Vervolgens kunt u alle instellingen verzamelen en deze exporteren naar een XML-bestand dat u in de doelten tenant wilt importeren. In het algemeen kunt u voor elke instelling de **uitvoer** van de cmdlet Get doorvergeven naar de cmdlet **Export-Clixml** om de instellingen op te slaan in XML-bestanden, zoals wordt weergegeven in het volgende codevoorbeeld.
 
 Maak in zelfstandige EOP PowerShell een adreslijst met de naam Exporteren op een locatie die u eenvoudig kunt vinden en wijzigen in die adreslijst. Bijvoorbeeld:
 
@@ -187,23 +187,23 @@ U kunt de gegevens nu bekijken en verzamelen in het Microsoft 365-beheercentrum 
 
    Als u geen domeinen ziet, klikt u op Navigatie **aanpassen,** **selecteert** u Setup en klikt u vervolgens op **Opslaan.**
 
-3. Klik op **elke koppeling voor het** instellen starten en ga door met de installatiewizard.
+3. Klik op **elke koppeling voor het** instellen van start en ga door met de installatiewizard.
 
 4. Selecteer algemene instructies **op** de pagina Eigendom bevestigen voor stapsgewijs instructies voor het uitvoeren van deze  **stap.**
 
 5. Neem de MX-record of TXT-record op die u gebruikt om uw domein te verifiëren en sluit de installatiewizard af.
 
-6. Voeg de verificatie-TXT-records toe aan uw DNS-records. Hierdoor kunt u sneller de domeinen in de bronorganisatie verifiëren nadat deze zijn verwijderd uit de doelorganisatie. Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)voor meer informatie over het configureren van DNS.
+6. Voeg de verificatie-TXT-records toe aan uw DNS-records. Hierdoor kunt u sneller de domeinen in de bronorganisatie verifiëren nadat deze zijn verwijderd uit de doelorganisatie. Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het configureren van DNS.
 
 ## <a name="step-3-force-senders-to-queue-mail"></a>Stap 3: Afzenders dwingen om e-mail in de wachtrij te zetten
 
 Wanneer u uw domeinen van de ene tenant naar de andere verplaatst, moet u de domeinen uit de bronorganisatie verwijderen en vervolgens in uw doelorganisatie verifiëren. Tijdens deze periode kunt u geen e-mail door sturen via EOP.
 
-Een optie om afzenders af te dwingen e-mail in de wachtrij te zetten, is door uw MX-records bij te werken, die rechtstreeks naar de on-premises e-mailserver wijzen.
+Een optie om afzenders te dwingen e-mail in de wachtrij te zetten, is door uw MX-records bij te werken, die rechtstreeks naar de on-premises e-mailserver wijzen.
 
-Een andere mogelijkheid is om een ongeldige MX-record in elk domein te plaatsen waar de DNS-records voor uw domein worden bewaard (ook wel uw DNS-hostingservice genoemd). Hierdoor wordt uw e-mail in de wachtrij geplaatst en opnieuw geprobeerd (de standaardpogingen voor opnieuw proberen zijn 48 uur, maar dit kan per provider verschillen). U kunt een invalid.outlook.com gebruiken als ongeldig MX-doel. Door de TTL-waarde (Time to Live) te verlagen tot vijf minuten in de MX-record, kan de wijziging sneller worden doorgegeven aan DNS-providers.
+U kunt ook een ongeldige MX-record opnemen in elk domein waar de DNS-records voor uw domein worden bewaard (ook wel uw DNS-hostingservice genoemd). Hierdoor wordt uw e-mail in de wachtrij geplaatst en opnieuw geprobeerd (de standaardpogingen voor opnieuw proberen zijn 48 uur, maar dit kan per provider verschillen). U kunt een invalid.outlook.com gebruiken als ongeldig MX-doel. Door de TTL-waarde (Time to Live) te verlagen tot vijf minuten in de MX-record, kan de wijziging sneller worden doorgegeven aan DNS-providers.
 
-Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)voor meer informatie over het configureren van DNS.
+Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het configureren van DNS.
 
 > [!IMPORTANT]
 > E-mail van verschillende providers wordt gedurende verschillende perioden in de wachtrij geplaatst. U moet uw nieuwe tenant snel instellen en uw DNS-instellingen herstellen om te voorkomen dat rapporten over niet-levering (NDR's) naar de afzender worden verzonden als de wachtrijtijd verloopt.
@@ -611,7 +611,7 @@ if($MailContactsCount -gt 0){
 
 ## <a name="step-7-add-protection-settings-to-the-target-organization"></a>Stap 7: Beveiligingsinstellingen toevoegen aan de doelorganisatie
 
-U kunt het volgende script uitvoeren vanuit de exportmap terwijl u bent aangemeld bij de doelorganisatie om de instellingen te recreëren die eerder vanuit de bronorganisatie naar XML-bestanden zijn geëxporteerd.
+U kunt het volgende script uitvoeren vanuit de map Exporteren terwijl u bent aangemeld bij de doelorganisatie om de instellingen te recreëren die eerder vanuit de bronorganisatie naar XML-bestanden zijn geëxporteerd.
 
 Kopieer en plak de scripttekst in een teksteditor zoals Kladblok, sla het bestand op als C:\EOP\Export\Import_Settings.ps1 en voer de volgende opdracht uit:
 
@@ -933,4 +933,4 @@ if($HostedContentFilterPolicyCount -gt 0){
 
 ## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>Stap 8: De DNS-instellingen herstellen om de wachtrij voor e-mail te stoppen
 
-Als u ervoor kiest om uw MX-records in te stellen op een ongeldig adres, om ervoor te zorgen dat [](https://admin.microsoft.com)de afzenders tijdens de overgang e-mail in de wachtrij zetten, moet u deze terug instellen op de juiste waarde, zoals is opgegeven in het beheercentrum. Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)voor meer informatie over het configureren van DNS.
+Als u ervoor kiest om uw MX-records in te stellen op een ongeldig adres, om ervoor te zorgen dat [](https://admin.microsoft.com)de afzenders e-mail in de wachtrij zetten tijdens de overgang, moet u deze terug instellen op de juiste waarde, zoals is opgegeven in het beheercentrum. Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het configureren van DNS.

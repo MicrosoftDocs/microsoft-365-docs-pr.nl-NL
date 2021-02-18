@@ -14,24 +14,24 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Informatie over het inschakelen van de invoegversie Bericht rapporteren voor Outlook en de webversie van Outlook, voor individuele gebruikers of voor de hele organisatie.
+description: Informatie over het inschakelen van de invoegversie bericht rapporteren voor Outlook en de webversie van Outlook, voor individuele gebruikers of voor de hele organisatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fe47bcb4db42514f3a5252a567421ad792967cd1
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 08ad2f61cc5dcd2e59af89ca788319c81e2f6bdb
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167573"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287363"
 ---
 # <a name="enable-the-report-message-add-in"></a>De invoegtoepassing Bericht rapporteren inschakelen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
 > Als u een beheerder bent in een Microsoft 365-organisatie met Exchange Online-postvakken, raden we u aan de portal Voorzendingen te gebruiken in het beveiligings- & compliancecentrum. Zie Inzending door beheerders gebruiken om [verdachte spam, phish, URL's](admin-submission.md)en bestanden bij Microsoft in te dienen.
@@ -40,13 +40,13 @@ Met de invoegversies Bericht rapporteren en Phishing rapporteren voor Outlook en
 
 Microsoft gebruikt deze inzendingen om de effectiviteit van technologieën voor e-mailbeveiliging te verbeteren. Als personen bijvoorbeeld een groot aantal berichten melden die zijn gemarkeerd als ongewenste [e-mail](configure-your-spam-filter-policies.md)door de invoeging Bericht rapporteren, moet het beveiligingsteam van uw organisatie mogelijk het antispambeleid aanpassen.
 
-U kunt de invoegapp Bericht rapporteren of Phishing melden installeren. Als u wilt dat uw gebruikers alleen phishing-berichten melden, implementeert u de invoeg procenten voor phishing in uw organisatie. Zie [Phishing-invoeging melden](enable-the-report-phish-add-in.md)inschakelen voor meer informatie.
+U kunt de invoegapp Bericht rapporteren of Phishing melden installeren. Als u wilt dat uw gebruikers alleen phishing-berichten melden, implementeert u de invoeg procenten voor phishing in uw organisatie. Zie [Phishing-invoegvoeging melden inschakelen voor meer informatie.](enable-the-report-phish-add-in.md)
 
 De invoegapp Bericht rapporteren biedt de optie om zowel spam- als phishingberichten te melden. Beheerders kunnen de invoegapp Bericht rapporteren voor de organisatie inschakelen en afzonderlijke gebruikers kunnen deze voor zichzelf installeren.
 
-Als u een individuele gebruiker bent, kunt u [de invoegapp Bericht rapporteren voor uzelf inschakelen.](#get-the-report-message-add-in-for-yourself)
+Als u een individuele gebruiker bent, kunt u de [invoegapp Bericht rapporteren voor uzelf inschakelen.](#get-the-report-message-add-in-for-yourself)
 
-Als u een globale beheerder of een beheerder van Exchange Online bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u de invoeginstelling Bericht rapporteren [inschakelen voor uw organisatie.](#get-and-enable-the-report-message-add-in-for-your-organization) De rapportmel Add-In dingsmelding is nu beschikbaar via [Gecentraliseerde implementatie.](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
+Als u een globale beheerder of een beheerder van Exchange Online bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u de invoeginstelling Bericht rapporteren [inschakelen voor uw organisatie.](#get-and-enable-the-report-message-add-in-for-your-organization) De rapportmel Add-In dingsmelding is nu beschikbaar via [Gecentraliseerde implementatie.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -64,7 +64,7 @@ Als u een globale beheerder of een beheerder van Exchange Online bent en Exchang
 
 - Uw bestaande webbrowser moet werken met de invoegapp Bericht rapporteren. Maar als u merkt dat de invoeg mail niet beschikbaar is of niet werkt zoals verwacht, probeer dan een andere browser.
 
-- Voor installaties van de organisatie moet de organisatie worden geconfigureerd voor het gebruik van OAuth-verificatie. Zie Bepalen of [Gecentraliseerde implementatie](../../admin/manage/centralized-deployment-of-add-ins.md)van invoegvoegingen voor uw organisatie werkt voor meer informatie.
+- Voor installaties van de organisatie moet de organisatie worden geconfigureerd voor het gebruik van OAuth-verificatie. Zie Bepalen of [Gecentraliseerde implementatie van invoegingen voor uw organisatie](../../admin/manage/centralized-deployment-of-add-ins.md)werkt voor meer informatie.
 
 - Beheerders moeten lid zijn van de rollengroep voor globale beheerders. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
@@ -80,7 +80,7 @@ Als u een globale beheerder of een beheerder van Exchange Online bent en Exchang
 
 4. Meld u aan met uw werk- of schoolaccount (voor zakelijk gebruik) of uw Microsoft-account (voor persoonlijk gebruik).
 
-Nadat de invoeg-invoeging is geïnstalleerd en ingeschakeld, ziet u de volgende pictogrammen:
+Nadat de invoeg toevoegen is geïnstalleerd en ingeschakeld, ziet u de volgende pictogrammen:
 
 - In Outlook ziet het pictogram er zo uit:
 
@@ -109,7 +109,7 @@ Zie De invoegapp Rapportbericht gebruiken voor meer informatie over het gebruik 
 
    ![Een nieuwe invoegpagina implementeren](../../media/NewAddInScreen2.png)
 
-5. Klik op de **pagina Invoeg** toevoegen selecteren  die wordt weergegeven in het  zoekvak, voer **Rapportbericht** in en klik vervolgens op het ![ pictogram ](../../media/search-icon.png) Zoeken. Zoek in de lijst met resultaten **Bericht rapporteren en** klik op **Toevoegen.**
+5. Klik op de **pagina Invoeg** toevoegen selecteren  die wordt weergegeven in het  zoekvak, voer **Rapportbericht** in en klik vervolgens op het ![ pictogram ](../../media/search-icon.png) Zoeken. Zoek in de lijst met resultaten **Rapportbericht en** klik op **Toevoegen.**
 
    ![Zoekresultaten voor invoegingen selecteren](../../media/NewAddInScreen3.png)
 

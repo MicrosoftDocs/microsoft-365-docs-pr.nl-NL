@@ -1,5 +1,5 @@
 ---
-title: Rapport Over niet-bezorging in het dashboard E-mailstroom
+title: Rapport over niet-bezorging in het dashboard E-mailstroom
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -14,23 +14,23 @@ ms.custom:
 description: Beheerders kunnen informatie vinden over het gebruik van het rapport Niet-bezorgingsdetails in het dashboard E-mailstroom in het beveiligings- & Compliancecentrum om de meest voorkomende foutcodes in rapporten over niet-bezorging (ook wel NDR's of niet-bezorgdberichten genoemd) van afzenders in uw organisatie te controleren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: af4beefb8ba15fd7d98b11ec2571eee65a99e4e3
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 0e31e7dfcbd3c0cacaa6020464ed315f466a849b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150157"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287887"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>Rapport over niet-levering in het beveiligings- & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Het rapport Niet-bezorging in het [dashboard E-mailstroom](mail-flow-insights-v2.md) in het [beveiligings- & Compliancecentrum](https://protection.office.com) bevat de meest voorkomende foutcodes in rapporten over **niet-bezorging** (ook wel NDR's of niet-bezorgdberichten genoemd) voor gebruikers in uw organisatie. Dit rapport bevat de details van NR's, zodat u problemen met de bezorging van e-mail kunt oplossen.
+Het rapport Niet-bezorging in het [dashboard E-mailstroom](mail-flow-insights-v2.md) in het [beveiligings- &-compliancecentrum](https://protection.office.com) bevat de meest voorkomende foutcodes in rapporten over **niet-bezorging** (ook wel NDR's of niet-bezorgdberichten genoemd) voor gebruikers in uw organisatie. Dit rapport bevat de details van NR's, zodat u problemen met de bezorging van e-mail kunt oplossen.
 
 ![Widget Rapport over niet-bezorging in het dashboard E-mailstroom in het & Compliancecentrum](../../media/mfi-non-delivery-report-widget.png)
 
@@ -68,4 +68,4 @@ Wanneer u een rij in de tabel selecteert, wordt een flyout met de volgende infor
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-Voor informatie over andere inzichten in het dashboard voor de e-mailstroom, bekijkt u inzichten in de e-mailstroom in het & [compliancecentrum.](mail-flow-insights-v2.md)
+Zie inzichten in de e-mailstroom in het beveiligings- en compliancecentrum voor meer informatie & [inzichten in het dashboard E-mailstroom.](mail-flow-insights-v2.md)

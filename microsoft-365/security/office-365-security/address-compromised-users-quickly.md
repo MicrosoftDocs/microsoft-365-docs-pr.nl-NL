@@ -15,21 +15,21 @@ ms.date: 02/25/2020
 description: Lees hoe u het proces voor het detecteren en adresseren van gekromde gebruikersaccounts kunt versnellen met behulp van geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365 Abonnement 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2159ab7ad7e13c4cd4c2c428317ee7d99f78158c
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 1dda8c9b4aec30fd35efa153aaf032eee23b5e8a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50176061"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288739"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Adres van gekromde gebruikersaccounts met geautomatiseerd onderzoek en reactie
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 
 [Microsoft Defender voor Office 365 Plan 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) bevat krachtige mogelijkheden voor geautomatiseerde onderzoeken en antwoorden [(AIR).](office-365-air.md) Dergelijke mogelijkheden kunnen uw team voor beveiligingsbewerkingen veel tijd en moeite besparen bij het omgaan met bedreigingen. Microsoft blijft de beveiligingsmogelijkheden verbeteren. Onlangs zijn de AIR-mogelijkheden uitgebreid met een gekromde playbook voor gebruikersbeveiliging (momenteel in preview). Lees dit artikel voor meer informatie over de gekromde playbook voor gebruikersbeveiliging. En zie het blogbericht Sneller tijd om gebruikerscompromitteerd gedrag te detecteren en te beperken met Microsoft Defender voor [Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) voor meer informatie.
@@ -44,7 +44,7 @@ Met de gekromde playbook voor gebruikersbeveiliging kan het beveiligingsteam van
 
 - Reageer effectiever en efficiënter op gecompromitteerde gebruikers.
 
-## <a name="compromised-user-alerts"></a>Gekromde waarschuwingen van gebruikers
+## <a name="compromised-user-alerts"></a>Meldingen over gekromde gebruikers
 
 Wanneer een gebruikersaccount is gehackt, treedt er atypisch of anomiaal gedrag op. Phishing- en spamberichten kunnen bijvoorbeeld intern worden verzonden vanuit een vertrouwd gebruikersaccount. Defender voor Office 365 kan dergelijke problemen herkennen in e-mailpatronen en samenwerkingsactiviteit in Office 365. Wanneer dit gebeurt, worden waarschuwingen geactiveerd en wordt de risicobeperking gestart.
 
@@ -58,7 +58,7 @@ Hier is een voorbeeld van een waarschuwing die werd geactiveerd toen een limiet 
 
 ## <a name="investigate-and-respond-to-a-compromised-user"></a>Een gekromde gebruiker onderzoeken en beantwoorden
 
-Wanneer een gebruikersaccount wordt gehackt, worden waarschuwingen geactiveerd. En in sommige gevallen is dat gebruikersaccount geblokkeerd en kunnen er geen e-mailberichten meer worden verzonden totdat het probleem is opgelost door het beveiligingsteam van uw organisatie. In andere gevallen wordt een geautomatiseerd onderzoek gestart dat kan leiden tot aanbevolen acties die uw beveiligingsteam moet uitvoeren.
+Wanneer een gebruikersaccount niet meer werkt, worden waarschuwingen geactiveerd. En in sommige gevallen is dat gebruikersaccount geblokkeerd en kunnen er geen e-mailberichten meer worden verzonden totdat het probleem is opgelost door het beveiligingsteam van uw organisatie. In andere gevallen wordt een geautomatiseerd onderzoek gestart dat kan leiden tot aanbevolen acties die uw beveiligingsteam moet uitvoeren.
 
 - [Beperkte gebruikers weergeven en onderzoeken](#view-and-investigate-restricted-users)
 
@@ -69,7 +69,7 @@ Wanneer een gebruikersaccount wordt gehackt, worden waarschuwingen geactiveerd. 
 
 ### <a name="view-and-investigate-restricted-users"></a>Beperkte gebruikers weergeven en onderzoeken
 
-U hebt een aantal opties voor het navigeren naar een lijst met beperkte gebruikers. In het compliancecentrum voor & kunt u bijvoorbeeld  naar Risicobeheer \> **voor** \> **beperkte gebruikers gaan.** In de volgende procedure wordt de navigatie beschreven met behulp van het **dashboard** Waarschuwingen, wat een goede manier is om verschillende soorten waarschuwingen te zien die mogelijk zijn geactiveerd.
+U hebt een aantal opties voor het navigeren naar een lijst met beperkte gebruikers. U kunt bijvoorbeeld in het & Compliancecentrum voor  risicobeheer \> **beperkte** \> **gebruikers gaan.** In de volgende procedure wordt de navigatie beschreven met behulp van het **dashboard** Waarschuwingen, wat een goede manier is om verschillende soorten waarschuwingen te zien die mogelijk zijn geactiveerd.
 
 1. Ga naar <https://protection.office.com> en meld u aan.
 
@@ -97,7 +97,7 @@ Zie Details van een onderzoek weergeven voor [meer informatie.](air-view-investi
 
 - Automatisering helpt uw team voor beveiligingsbewerkingen om uw **beveiligingsbewerkingen te helpen, maar niet te vervangen.** Met geautomatiseerde onderzoeks- en antwoordmogelijkheden kan een gecompromitteerde gebruiker vroeg worden gedetecteerd, maar uw team voor beveiligingsbewerkingen moet waarschijnlijk een onderzoek uitvoeren en herstel uitvoeren. Hebt u hier hulp bij nodig? Zie [Acties beoordelen en goedkeuren.](air-review-approve-pending-completed-actions.md)
 
-- **Vertrouw niet op een verdachte aanmeldingsmelding als enige indicator.** Als een gebruikersaccount is gehackt, kan er al dan niet een verdachte aanmeldingsmelding worden verstuurd. Soms is het de reeks activiteiten die plaatsvinden nadat een account is gekromd en die een waarschuwing activeren. Wilt u meer weten over waarschuwingen? Zie [Beleidsregels voor waarschuwingen.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+- **Vertrouw niet op een verdachte aanmeldingsmelding als enige indicator.** Als een gebruikersaccount is gehackt, kan er al dan niet een verdachte aanmeldingsmelding worden verstuurd. Soms is het de reeks activiteiten die plaatsvinden nadat een account is gekromd en dat een waarschuwing activeert. Wilt u meer weten over waarschuwingen? Zie [Beleidsregels voor waarschuwingen.](../../compliance/alert-policies.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 

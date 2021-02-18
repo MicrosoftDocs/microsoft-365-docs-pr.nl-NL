@@ -14,29 +14,29 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 2b543dbc8132f261814aec45e713874971b9b5d1
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: fbdd0e9b75e92d8080d9aaf43a2d1eaa8baacbc3
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242880"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279386"
 ---
 # <a name="create-a-new-topic"></a>Een nieuw onderwerp maken 
 
 In Viva-onderwerpen kunt u een nieuw onderwerp maken als er niet bij het indexeren wordt ontdekt of als de AI-technologie onvoldoende bewijs heeft gevonden om dit als onderwerp vast te stellen.
 
 > [!Note] 
-> Hoewel de informatie in een onderwerp dat door AI wordt verzameld, [is](topic-experiences-security-trimming.md)ingekort tot beveiliging, is de informatie in een handmatig gemaakt onderwerp zichtbaar voor alle gebruikers die machtigingen hebben om het onderwerp te bekijken. 
+> Hoewel de informatie in een onderwerp dat door AI wordt verzameld, [is](topic-experiences-security-trimming.md)ingekort tot beveiliging, is de beschrijving van het onderwerp en de informatie over personen in een handmatig gemaakt onderwerp zichtbaar voor alle gebruikers die machtigingen hebben om het onderwerp te bekijken. 
 
 
 ## <a name="requirements"></a>Vereisten
 
 Als u een nieuw onderwerp wilt maken, moet u het volgende doen:
-- U hebt een licentie voor Viva Topics.
+- U hebt een licentie voor Viva-onderwerpen.
 - Machtigingen hebben voor [**Wie kan onderwerpen maken of bewerken.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
 
 > [!Note] 
-> Gebruikers die zijn machtigingen voor het beheren van onderwerpen in het onderwerpcentrum (knowledge managers) hebben al machtigingen voor het maken en bewerken van onderwerpen.
+> Gebruikers die zijn machtigingen om onderwerpen te beheren in het onderwerpcentrum (knowledge managers) zijn al over machtigingen voor het maken en bewerken van onderwerpen.
 
 ## <a name="to-create-a-topic"></a>Een onderwerp maken
 
@@ -77,12 +77,15 @@ U kunt vanaf twee locaties een nieuw onderwerp maken:
 
     U kunt ook de optie <b>Van een koppeling gebruiken</b> om een bestand of pagina toe te voegen door de URL op te geven. 
 
+    > [!Note] 
+    > Bestanden en pagina's die u toevoegt, moeten zich bevinden in dezelfde Microsoft 365-tenant. Als u een koppeling naar een externe resource in het onderwerp wilt toevoegen, kunt u deze toevoegen via het canvaspictogram in stap 8.
+
 
 6.  De <b>sectie Verwante sites</b> bevat sites met informatie over het onderwerp. 
 
     ![Sectie Gerelateerde sites](../media/knowledge-management/related-sites.png)</br>
 
-    U kunt een gerelateerde <b></b> site toevoegen door Toevoegen te selecteren en vervolgens naar de site te zoeken of door de site te selecteren in uw lijst met veelgebruikte of recente sites.</br>
+    U kunt een gerelateerde <b></b> site toevoegen door Toevoegen te selecteren en vervolgens de site te zoeken of door deze te selecteren in uw lijst met veelgebruikte of recente sites.</br>
     
     ![Site selecteren](../media/knowledge-management/sites.png)</br>
 
@@ -90,13 +93,23 @@ U kunt vanaf twee locaties een nieuw onderwerp maken:
 
    ![Verwante onderwerpen](../media/knowledge-management/related-topic.png)</br>  
 
-    Vervolgens kunt u een beschrijving geven van de verwante onderwerpen en <b>Bijwerken selecteren.</b></br>
+    Vervolgens kunt u een beschrijving geven van de onderwerpen en Bijwerken <b>selecteren.</b></br>
 
    ![Beschrijving van verwante onderwerpen](../media/knowledge-management/related-topics-update.png)</br> 
 
    Het gerelateerde onderwerp dat u hebt toegevoegd, wordt weergegeven als een verbonden onderwerp.
 
    ![Verwante onderwerpen verbonden](../media/knowledge-management/related-topics-final.png)</br> 
+
+   Als u een gerelateerd onderwerp wilt verwijderen, selecteert u het onderwerp dat u wilt verwijderen en selecteert u vervolgens het <b>pictogram</b> Onderwerp verwijderen.</br>
+ 
+   ![Gerelateerd onderwerp verwijderen](../media/knowledge-management/remove-related.png)</br>  
+
+   Selecteer vervolgens <b>Verwijderen.</b></br>
+
+   ![Verwijderen bevestigen](../media/knowledge-management/remove-related-confirm.png)</br> 
+     
+ 
 
 
 8. U kunt ook statische items toevoegen aan de pagina (zoals tekst, afbeeldingen of koppelingen) door het canvaspictogram te selecteren, dat u onder de korte beschrijving kunt vinden. Als u deze selecteert, wordt de SharePoint-werkset geopend waarin u het item kunt kiezen dat u aan de pagina wilt toevoegen.

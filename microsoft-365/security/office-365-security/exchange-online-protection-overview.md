@@ -15,21 +15,21 @@ ms.custom:
 description: Lees hoe Exchange Online Protection (EOP) u kan helpen uw on-premises e-mailorganisatie te beschermen in zelfstandige en hybride omgevingen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b84ac26333163caec6117cf042044b9bbfad0a4f
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e8e3d44cb39e3569179d4155e32a8c11e0a5be56
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165461"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286883"
 ---
 # <a name="exchange-online-protection-overview"></a>Overzicht Exchange Online Protection
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
--    [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
--    [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online Protection (EOP) is de cloudfilterservice die uw organisatie helpt beschermen tegen spam en malware. EOP is opgenomen in alle Microsoft 365-organisaties met Exchange Online-postvakken. EOP is echter ook beschikbaar in de volgende on-premises scenario's:
 
@@ -49,11 +49,11 @@ Als u wilt weten hoe EOP werkt, is het belangrijk om te zien hoe binnenkomende e
 
 - Wanneer een inkomend bericht wordt verstuurd via EOP, wordt in eerste instantie het verbindingsfilter uitgevoerd, waarmee de reputatie van de afzender wordt gecontroleerd. Het grootste deel van de spam wordt op dit moment gestopt en geweigerd door EOP. Zie [Verbindingsfiltering configureren](configure-the-connection-filter-policy.md) voor meer informatie.
 
-- Vervolgens wordt het bericht gecontroleerd op malware. Als er malware in het bericht of de bijlage(s) wordt gevonden, wordt het bericht alleen door de beheerder in quarantaine opgeslagen. Meer informatie over het configureren van anti-malware vindt u [hier.](configure-anti-malware-policies.md)
+- Vervolgens wordt het bericht gecontroleerd op malware. Als malware in het bericht of de bijlage(s) wordt gevonden, wordt het bericht alleen door de beheerder in quarantaine opgeslagen. Meer informatie over het configureren van anti-malware vindt u [hier.](configure-anti-malware-policies.md)
 
 - Berichten worden verder gefilterd door middel van beleidsfilters, waarbij deze worden geëvalueerd aan de hand van aangepaste e-mailstroomregels (ook wel transportregels genoemd) die u maakt of afdwingt op basis van een sjabloon. U kunt bijvoorbeeld een regel hebben die een melding naar een manager verzendt wanneer e-mail van een specifieke afzender binnenkomt. Op dit moment worden ook controles voor preventie van gegevensverlies (DLP) uitgevoerd (Exchange Enterprise CAL met Services).
 
-- Vervolgens wordt inhoud gefilterd (ook wel antispam genoemd). Een bericht dat door dit filter als spam of *phish* wordt beschouwd, kan onder andere in quarantaine worden geplaatst, of in de map Ongewenste e-mail van een gebruiker. Zie Antispambeleid [configureren en](configure-your-spam-filter-policies.md) [anti-phishingbeleid configureren](configure-anti-phishing-policies-eop.md)voor meer informatie.
+- Vervolgens wordt inhoud gefilterd (ook wel antispam genoemd). Een bericht dat door dit filter als spam of *phish* wordt beschouwd, kan onder andere in quarantaine of in de map Ongewenste e-mail van een gebruiker worden geplaatst. Zie Antispambeleid [configureren en](configure-your-spam-filter-policies.md) [anti-phishingbeleid configureren](configure-anti-phishing-policies-eop.md)voor meer informatie.
 
 Elk bericht dat al deze beveiligingslagen doorstaat, wordt bezorgd bij de geadresseerde.
 
@@ -69,11 +69,11 @@ De beschikbare EOP-abonnementen zijn:
 
 - **Exchange Enterprise CAL met Services:** als u een on-premises Exchange-organisatie hebt waar u extra Exchange Enterprise CAL met Services-licenties hebt gekocht, maakt EOP deel uit van de inbegrepen services.
 
-Zie de servicebeschrijving van Exchange Online Protection voor informatie over vereisten, belangrijke limieten en beschikbaarheid van functies in alle [EOP-abonnementen.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+Zie de servicebeschrijving van Exchange Online Protection voor informatie over vereisten, belangrijke [limieten](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)en beschikbaarheid van functies in alle EOP-abonnementen.
 
 ## <a name="setting-up-eop-for-on-premises-email-organizations"></a>EOP instellen voor on-premises e-mailorganisaties
 
-Het instellen van EOP kan eenvoudig zijn, met name in het geval van een kleine organisatie met een aantal nalevingsregels. Als u echter een grote organisatie met meerdere domeinen, aangepaste nalevingsregels of hybride e-mailstroom hebt, kan het instellen meer planning en tijd inplannen.
+Het instellen van EOP kan eenvoudig zijn, vooral in het geval van een kleine organisatie met een aantal nalevingsregels. Als u echter een grote organisatie met meerdere domeinen, aangepaste nalevingsregels of hybride e-mailstroom hebt, kan het instellen meer planning en tijd inplannen.
 
 Als u EOP al hebt gekocht, zie Uw [EOP-service](set-up-your-eop-service.md) instellen om ervoor te zorgen dat u alle stappen voltooit die nodig zijn om EOP te configureren om uw berichtenomgeving te beschermen.
 
@@ -89,15 +89,15 @@ Met EOP wordt taakverdeling uitgevoerd tussen datacenters, maar alleen binnen ee
 
 - In Amerika zijn services verspreid over de volgende locaties:
 
-  - Zuid-Amerika: Exchange Online-postvakken bevinden zich in datacenters in Brazilië en Chili. Alle berichten worden omgeleid via lokale datacenters voor EOP-filtering. Berichten in quarantaine worden opgeslagen in het datacenter waar de tenant zich bevindt.
+  - Zuid-Amerika: Exchange Online-postvakken bevinden zich in datacenters in Brazilië en Chili. Alle berichten worden omgeleid naar lokale datacenters voor EOP-filtering. Berichten in quarantaine worden opgeslagen in het datacenter waar de tenant zich bevindt.
 
   - Canada: Exchange Online-postvakken bevinden zich in datacenters in Canada. Alle berichten worden omgeleid via lokale datacenters voor EOP-filtering. Berichten in quarantaine worden opgeslagen in het datacenter waar de tenant zich bevindt.
 
-  - Verenigde Staten: Exchange Online-postvakken bevinden zich in Amerikaanse datacenters. Alle berichten worden omgeleid via lokale datacenters voor EOP-filtering. Berichten in quarantaine worden opgeslagen in het datacenter waar de tenant zich bevindt.
+  - Verenigde Staten: Exchange Online-postvakken bevinden zich in Amerikaanse datacenters. Alle berichten worden omgeleid naar lokale datacenters voor EOP-filtering. Berichten in quarantaine worden opgeslagen in het datacenter waar de tenant zich bevindt.
 
 - Voor de Government Community Cloud (GCC) bevinden alle Exchange Online-postvakken zich in Datacenters van de Verenigde Staten en worden alle berichten omgeleid via Amerikaanse datacenters om EOP-filters te kunnen gebruiken.
 
-## <a name="eop-help-for-admins"></a>Help bij EOP voor beheerders
+## <a name="eop-help-for-admins"></a>EOP Help voor beheerders
 
 De Help-inhoud voor EOP-beheerders bestaat uit de volgende categorieën op het hoogste niveau:
 
@@ -111,7 +111,7 @@ De Help-inhoud voor EOP-beheerders bestaat uit de volgende categorieën op het h
 
 - [Geadresseerden beheren in zelfstandige EOP:](manage-recipients-in-eop.md)Hier wordt beschreven hoe u e-mailgebruikers en -groepen beheert in EOP.
 
-- [E-mailstroom in EOP:](mail-flow-in-eop.md)hier wordt beschreven hoe u aangepaste scenario's voor e-mailstromen configureert met connectors, hoe u domeinen beheert die aan de service zijn gekoppeld en hoe u de functie Directory Based Edge Blocking (DBEB) inschakelen.
+- [E-mailstroom in EOP:](mail-flow-in-eop.md)hier wordt beschreven hoe u aangepaste scenario's voor de e-mailstroom configureert met connectors, hoe u domeinen beheert die aan de service zijn gekoppeld en hoe u de functie Directory Based Edge Blocking (DBEB) inschakelen.
 
 - [Aanbevolen procedures voor het configureren van EOP:](best-practices-for-configuring-eop.md)hier worden aanbevolen configuratie-instellingen en aandachtspunten beschreven voor nadat u de service hebt ingesteld en ingericht.
 

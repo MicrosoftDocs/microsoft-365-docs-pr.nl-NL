@@ -12,12 +12,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: None
 description: Overzicht van de manier waarop beveiliging wordt gebruikt om onderwerpen weer te geven.
-ms.openlocfilehash: fc8e2a08fcf9af266aee49eee878738f7f17aa59
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 12a2ad34c55cd63468266abca1fa053048053dd2
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107516"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279330"
 ---
 # <a name="microsoft-viva-topics-security-trimming"></a>Beveiligingsknippen voor Microsoft Viva-onderwerpen 
 
@@ -29,15 +29,15 @@ Wanneer een onderwerp wordt gemaakt via AI of handmatige curation, kan het een b
   
 Wanneer Gebruiker 1 bijvoorbeeld de onderwerppagina Van Nieuw bekijkt, kan deze weergave van de onderwerppagina worden weergegeven.
 
-![Het onderwerp Van Zuid voor gebruiker 1](../media/knowledge-management/user2-topic-view.png) </br> 
+![Toegangsonderwerp voor gebruiker 1](../media/knowledge-management/user2-topic-view.png) </br> 
 
-Wanneer Gebruiker 2 echter naar dezelfde Pagina van het Onderwerp kijkt, verschilt de weergave van Gebruiker 1.  Gebruiker 2 kan het bestand *DG-2000 Product overview* zien in de sectie **Vastgemaakte** bestanden en pagina's van de onderwerppagina, die niet wordt weergegeven voor Gebruiker 1. 
+Wanneer Gebruiker 2 echter naar dezelfde Pagina van het Onderwerp kijkt, verschilt de weergave van Gebruiker 1.  Gebruiker 2 kan het bestand *DG-2000* Product  overview zien in de sectie Vastgemaakte bestanden en pagina's van de onderwerppagina, die niet wordt weergegeven voor Gebruiker 1. 
 
-![Het onderwerp Van 365 voor Gebruiker 2](../media/knowledge-management/user1-topic-view.png) </br> 
+![Het onderwerp Van 365 voor gebruiker 2](../media/knowledge-management/user1-topic-view.png) </br> 
 
 Het verschil met wat gebruikers over hetzelfde onderwerp kunnen zien, is dat gebruikers mogelijk niet over de office 365-machtigingen voor het weergeven van een gerelateerde site of een gerelateerd bestand zijn.  Viva-onderwerpen respecteert de machtigingen die zijn ingesteld voor items in een onderwerp en kunnen de toegang tot deze items niet wijzigen. In ons voorbeeld kan Gebruiker 1 het bestand *DG-2000 Product Overview* niet weergeven op de onderwerppagina voor Deze omdat Gebruiker 1 geen Office 365-machtigingen heeft om het bestand te bekijken.
 
-Als een gebruiker niet voldoende informatie in een onderwerp kan zien om het nuttig te maken, is het onderwerp niet beschikbaar voor de gebruiker. Wanneer dit gebeurt, ziet de gebruiker het gemarkeerde onderwerp niet. Een andere gebruiker die machtigingen heeft voor meer informatie over het onderwerp om dit nuttig te maken, kan het onderwerp zien.
+Als een gebruiker niet voldoende informatie in een onderwerp kan zien om het nuttig te maken, is het onderwerp niet beschikbaar voor de gebruiker. Wanneer dit gebeurt, ziet de gebruiker het gemarkeerde onderwerp niet. Een andere gebruiker die over machtigingen beschikt om meer informatie hierover te lezen, kan het onderwerp bekijken.
 
 
 ## <a name="topic-permissions-for-knowledge-managers-and-topic-contributors"></a>Onderwerpmachtigingen voor kennisbeheerders en onderwerpbijdragers
@@ -52,7 +52,8 @@ Op dezelfde manier kunnen gebruikers die onderwerpmachtigingen (onderwerpbijdrag
 Onderwerpen kunnen informatie bevatten die wordt gegenereerd door AI en informatie die is toegevoegd of bewerkt door onderwerpbijdragers of knowledge managers.
 
  - De informatie in een onderwerp dat door AI is toegevoegd, is alleen zichtbaar voor personen die toegang hebben tot de broninhoud.
- - Informatie die handmatig is toegevoegd of bewerkt door een onderwerp-medewerker of Knowledge Manager is zichtbaar voor iedereen die het onderwerp kan zien.
+ - Informatie over onderwerpbeschrijvingen en personen die handmatig zijn toegevoegd of bewerkt door een onderwerpbijdrager of Knowledge Manager, is zichtbaar voor iedereen die het onderwerp kan zien.
+ - Bestanden, pagina's en sites zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud, ongeacht of ze handmatig zijn toegevoegd of toegevoegd door AI.
 
 In de volgende tabel wordt beschreven wat gebruikers , onderwerpbekijkers, medewerkers en kennismanagers, in een bepaald onderwerp kunnen zien op basis van hun machtigingen.
 

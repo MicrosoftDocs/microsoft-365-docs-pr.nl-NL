@@ -22,24 +22,24 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b187c5fee560e1ebf5463e889fff874aca05212d
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: a5a1384208141a42459c009952f89d18498cc21e
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175821"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287923"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Hoe automatisch onderzoek en antwoorden werken in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Wanneer beveiligingswaarschuwingen worden geactiveerd, is het aan uw team voor beveiligingsactiviteiten om naar deze waarschuwingen te kijken en stappen te ondernemen om uw organisatie te beschermen. Soms kunnen teams met beveiligingsbewerkingen overstelpt worden door het aantal waarschuwingen dat wordt geactiveerd. Mogelijkheden voor automatisch onderzoek en reactie (AIR) in Microsoft Defender voor Office 365 kunnen u helpen.
 
-Met AIR kan uw team voor beveiligingsactiviteiten efficiënter en efficiënter werken. AIR-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die op dit moment bestaan. Juiste herstelacties wachten op goedkeuring, zodat het team met beveiligingsbewerkingen kan reageren op gedetecteerde bedreigingen.
+Met AIR kunnen uw team voor beveiligingsactiviteiten efficiënter en efficiënter werken. AIR-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die op dit moment bestaan. Juiste herstelacties wachten op goedkeuring, zodat het team met beveiligingsbewerkingen kan reageren op gedetecteerde bedreigingen.
 
 In dit artikel wordt beschreven hoe AIR werkt aan de hand van verschillende voorbeelden. Wanneer u klaar bent om aan de slag te gaan met AIR, bekijkt u Automatisch onderzoeken en [reageren op bedreigingen.](office-365-air.md)
 
@@ -47,7 +47,7 @@ In dit artikel wordt beschreven hoe AIR werkt aan de hand van verschillende voor
 - [Voorbeeld 2: Een beveiligingsbeheerder activeert een onderzoek vanuit Bedreigingsverkenner](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
 - [Voorbeeld 3: Een team voor beveiligingsbewerkingen integreert AIR met hun SIEM met behulp van de Office 365 Management Activity-API](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
 
-## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: Een door de gebruiker gemeld phish-bericht start een playbook voor onderzoek
+## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Voorbeeld: Een door de gebruiker gerapporteerde phish-bericht start een playbook voor onderzoek
 
 Stel dat een gebruiker in uw organisatie een e-mailbericht ontvangt dat hij of zij een poging tot phishing lijkt te doen. De gebruiker die is opgeleid voor het rapporteren van dergelijke berichten, gebruikt de [invoegapp](enable-the-report-message-add-in.md) Bericht rapporteren of de [invoegapp Phishing melden](enable-the-report-phish-add-in.md) om deze naar Microsoft te verzenden voor analyse. De inzending wordt ook naar uw systeem  verzonden en is zichtbaar in Verkenner in de weergave Voorzendingen (voorheen de weergave door de gebruiker **gerapporteerd).** Bovendien activeert het door de gebruiker gerapporteerde bericht nu een op het systeem gebaseerde informatiemelding, waarmee automatisch het playbook voor onderzoek wordt gestart.
 
@@ -66,10 +66,10 @@ Nadat het hoofdonderzoek is voltooid, bevat de playbook een lijst met aanbevolen
 Vervolgens worden verschillende bedreigingsonderzoeken en zoekstappen uitgevoerd:
 
 - Vergelijkbare e-mailberichten worden geïdentificeerd via zoekopdrachten in e-mailclusters.
-- Het signaal wordt gedeeld met andere platforms, zoals [Microsoft Defender voor Eindpunt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- Het signaal wordt gedeeld met andere platforms, zoals [Microsoft Defender voor eindpunt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - Er wordt een beslissing genomen over het al dan niet doorklikken van schadelijke koppelingen in verdachte e-mailberichten.
 - Er wordt een controle uitgevoerd in Exchange Online Protection[(EOP)](exchange-online-protection-overview.md)en (Microsoft Defender voor[Office 365)](office-365-atp.md)om te zien of er andere soortgelijke berichten zijn gerapporteerd door gebruikers.
-- Er wordt een controle uitgevoerd om te zien of een gebruiker is gehackt. Deze controle maakt gebruik van signalen in Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)en Azure Active [Directory,](https://docs.microsoft.com/azure/active-directory)die een verband houden met gerelateerde activiteitsactiviteit van gebruikers.
+- Er wordt een controle uitgevoerd om te controleren of een gebruiker is gehackt. Deze controle maakt gebruik van signalen in Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)en Azure Active [Directory,](https://docs.microsoft.com/azure/active-directory)die een verband houden met gerelateerde activiteitsactiviteit van gebruikers.
 
 Tijdens de zoekfase worden risico's en bedreigingen toegewezen aan diverse zoekstappen.
 
@@ -98,4 +98,4 @@ Onlangs heeft een organisatie bijvoorbeeld een manier ingesteld voor hun team vo
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Aan de slag met AIR](office-365-air.md)
-- [Acties voor in behandeling of voltooide herstelacties weergeven](air-review-approve-pending-completed-actions.md)
+- [Acties in behandeling of voltooide herstelacties weergeven](air-review-approve-pending-completed-actions.md)

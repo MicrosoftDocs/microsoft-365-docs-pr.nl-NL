@@ -1,5 +1,5 @@
 ---
-title: De resultaten bekijken van een geautomatiseerd onderzoek in Microsoft 365
+title: De resultaten van een geautomatiseerd onderzoek in Microsoft 365 weergeven
 keywords: AIR, autoIR, ATP, automated, investigation, remediation, actions
 f1.keywords:
 - NOCSH
@@ -19,36 +19,36 @@ description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365 kunt u
 ms.date: 01/29/2021
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 36cce42d0986cc793753d247d97315616f86f986
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 9ab32444f2c0b4f9f6140c20fe8356f016d62c30
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175596"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287075"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
 **Van toepassing op**
-- [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Wanneer een [geautomatiseerd onderzoek plaatsvindt](office-365-air.md) in [Microsoft Defender voor Office 365,](office-365-atp.md)zijn details over dat onderzoek beschikbaar tijdens en na het proces voor geautomatiseerd onderzoek. Als u de benodigde machtigingen hebt, kunt u deze details bekijken in het Microsoft 365-beveiligingscentrum. Onderzoekgegevens verstrekken u de actuele status en de mogelijkheid om acties die in behandeling zijn goed te keuren.
+Wanneer een [geautomatiseerd onderzoek plaatsvindt](office-365-air.md) in [Microsoft Defender voor Office 365,](office-365-atp.md)zijn details over dat onderzoek beschikbaar tijdens en na het proces voor geautomatiseerd onderzoek. Als u de benodigde machtigingen hebt, kunt u die details bekijken in het Microsoft 365-beveiligingscentrum. Onderzoekgegevens verstrekken u de actuele status en de mogelijkheid om acties die in behandeling zijn goed te keuren.
 
 > [!TIP]
 > Bekijk de nieuwe, geïntegreerde onderzoekspagina in het Microsoft 365-beveiligingscentrum. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina.](../mtp/mtp-autoir-results.md#new-unified-investigation-page)
 
 ## <a name="investigation-status"></a>Status van onderzoek
 
-De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het onderzoek wordt uitgevoerd, worden statuswijzigingen gewijzigd om aan te geven of er bedreigingen zijn gevonden en of acties zijn goedgekeurd.
+De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het onderzoek wordt uitgevoerd, worden de statuswijzigingen gewijzigd om aan te geven of er bedreigingen zijn gevonden en of acties zijn goedgekeurd.
 
 |Status|Beschrijving|
 |:---|:---|
 |**Starten**|Het onderzoek is geactiveerd en wacht op het starten van het onderzoek.|
 |**Wordt uitgevoerd**|Het onderzoek is gestart en is in gang gezet. Deze status treedt ook op wanneer [acties in behandeling](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions) zijn goedgekeurd.|
 |**Geen bedreigingen gevonden**|Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) geïdentificeerd. <p> **TIP:** Als u vermoedt dat er iets is gemist (zoals een fout-negatief), kunt u actie ondernemen met [Bedreigingsverkenner.](threat-explorer.md)|
-|**Bedreigingen gevonden**|Tijdens dit automatische onderzoek zijn problemen aangetroffen, maar er zijn geen specifieke herstelacties om deze problemen op te lossen. <p> De **status Bedreigingen** gevonden kan optreden wanneer een bepaald type gebruikersactiviteit is geïdentificeerd, maar er zijn geen opschoonacties beschikbaar. Voorbeelden hiervan zijn de volgende gebruikersactiviteiten: <br/>- Een gebeurtenis [voor preventie van gegevensverlies](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) (DLP)<br/>- Een e-mailbericht waarin een afwijking wordt verzonden<br/>- Verzonden malware<br/>- Phish verzonden <p> Het onderzoek heeft geen schadelijke URL's, bestanden of e-mailberichten gevonden om te herstellen en geen postvakactiviteit die kan worden opgelost, zoals het uitschakelen van doorsturen of delegatie. <p> **TIP:** als u vermoedt dat er iets is gemist (zoals een fout-negatief), kunt u dit onderzoeken en actie ondernemen met [Bedreigingsverkenner.](threat-explorer.md)|
-|**Beëindigd door systeem**|Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen worden gestopt: <br/>- De acties in behandeling van het onderzoek zijn verlopen. Acties in behandeling komen uit nadat ze één week moeten worden goedgekeurd.<br/>- Er zijn te veel acties. Als er bijvoorbeeld te veel gebruikers op schadelijke URL's klikken, kan het onderzoek de mogelijkheid overschrijden om alle analysen uit te voeren, zodat het onderzoek wordt stopgezet.<p> **TIP:** Als een onderzoek wordt stopgezet voordat er acties zijn uitgevoerd, kunt u Bedreigingsverkenner gebruiken om bedreigingen te zoeken en te adresseert. [](threat-explorer.md)|
-|**Actie in behandeling**|Het onderzoek heeft een bedreiging gevonden, zoals een schadelijke e-mail, een schadelijke URL of een riskante postvakinstelling, en een actie voor het herstellen van deze bedreiging wacht op [goedkeuring.](air-review-approve-pending-completed-actions.md) <p> De **status Actie** in behandeling wordt geactiveerd wanneer een bedreiging met een bijbehorende actie wordt gevonden. De lijst met acties in behandeling kan tijdens het uitvoeren van een onderzoek echter worden uitgebreid. Bekijk details van onderzoek om te zien of andere items nog moeten worden voltooid.|
+|**Bedreigingen gevonden**|Tijdens dit automatische onderzoek zijn problemen aangetroffen, maar er zijn geen specifieke herstelacties om deze problemen op te lossen. <p> De **status Bedreigingen** gevonden kan optreden wanneer een bepaald type gebruikersactiviteit is geïdentificeerd, maar er zijn geen opschoonacties beschikbaar. Voorbeelden hiervan zijn de volgende gebruikersactiviteiten: <br/>- Een gebeurtenis [voor preventie van gegevensverlies](../../compliance/data-loss-prevention-policies.md) (DLP)<br/>- Een e-mailbericht waarin een afwijking wordt verzonden<br/>- Verzonden malware<br/>- Phish verzonden <p> Het onderzoek heeft geen schadelijke URL's, bestanden of e-mailberichten gevonden om te herstellen en geen postvakactiviteit die kan worden opgelost, zoals het uitschakelen van doorsturen of delegatie. <p> **TIP:** Als u vermoedt dat er iets is gemist (zoals een fout-negatief), kunt u dit onderzoeken en actie ondernemen met [Bedreigingsverkenner.](threat-explorer.md)|
+|**Beëindigd door systeem**|Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen worden gestopt: <br/>- De acties die in behandeling zijn voor het onderzoek zijn verlopen. Acties in behandeling nemen een time-out na het wachten op goedkeuring van één week.<br/>- Er zijn te veel acties. Als er bijvoorbeeld te veel gebruikers op schadelijke URL's klikken, kan het onderzoek de mogelijkheid overschrijden om alle analysen uit te voeren, zodat het onderzoek wordt stopgezet.<p> **TIP:** Als een onderzoek wordt stopgezet voordat er acties zijn uitgevoerd, kunt u Bedreigingsverkenner gebruiken om bedreigingen te zoeken en te adresseert. [](threat-explorer.md)|
+|**Actie in behandeling**|Het onderzoek heeft een bedreiging gevonden, zoals een schadelijke e-mail, een schadelijke URL of een riskante postvakinstelling, en een actie voor het herstellen van deze bedreiging wacht [op goedkeuring.](air-review-approve-pending-completed-actions.md) <p> De **status Actie** in behandeling wordt geactiveerd wanneer een bedreiging met een bijbehorende actie wordt gevonden. De lijst met acties in behandeling kan tijdens het uitvoeren van een onderzoek echter worden uitgebreid. Bekijk details van onderzoek om te zien of andere items nog moeten worden voltooid.|
 |**Remediated**|Het onderzoek is voltooid en alle herstelacties zijn goedgekeurd (zoals volledig hersteld). <p> **OPMERKING:** Goedgekeurde herstelacties kunnen fouten bevatten die verhinderen dat de acties worden ondernomen. De status van het onderzoek verandert niet, ongeacht of herstelacties zijn voltooid. Details van onderzoek weergeven.|
 |**Gedeeltelijk herstel**|Het onderzoek heeft geleid tot herstelacties en sommige zijn goedgekeurd en voltooid. Andere acties zijn nog [in behandeling.](air-review-approve-pending-completed-actions.md)|
 |**Mislukt**|Ten minste één onderzoeksanalyse heeft een probleem gelopen waarbij het niet correct kon worden voltooid. <p> **OPMERKING:** Als een onderzoek mislukt nadat herstelacties zijn goedgekeurd, zijn de herstelacties mogelijk toch geslaagd. Bekijk de details van het onderzoek. |
@@ -66,7 +66,7 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het
 
 ## <a name="view-details-about-an-alert-related-to-an-investigation"></a>Details weergeven van een waarschuwing in verband met een onderzoek
 
-Bepaalde soorten waarschuwingen activeren automatisch onderzoek in Microsoft 365. Zie waarschuwingsbeleid dat automatische onderzoeken [activeert voor meer informatie.](office-365-air.md#which-alert-policies-trigger-automated-investigations)
+Bepaalde soorten waarschuwingen activeren automatisch onderzoek in Microsoft 365. Zie waarschuwingsbeleid dat automatische [onderzoeken activeert voor meer informatie.](office-365-air.md#which-alert-policies-trigger-automated-investigations)
 
 1. Ga naar het Microsoft 365-beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
 2. Selecteer Actiecentrum in het **navigatiedeelvenster.**
@@ -87,7 +87,7 @@ Bepaalde soorten waarschuwingen activeren automatisch onderzoek in Microsoft 365
 
   Het aantal historische en huidige tellingen in verschillende weergaven wordt weergegeven om de invloed van de e-mail op het moment van onderzoek en de huidige impact aan te geven totdat het herstel is uitgevoerd.
 
-- In de context van e-mail ziet u mogelijk een volume-anomaly threat als onderdeel van het onderzoek. Een volume-afwijking duidt op een prikker in soortgelijke e-mailberichten rond het tijdstip van de onderzoeksgebeurtenis in vergelijking met eerdere periodes. Een prikker in e-mailverkeer en bepaalde kenmerken (bijvoorbeeld domein van onderwerp en afzender, overeenkomsten met de bericht- en afzender-IP) is het begin van e-mailcampagnes of aanvallen. Bulk-, spam- en legitieme e-mailcampagnes delen deze kenmerken echter meestal.
+- In de context van e-mail ziet u mogelijk een volume-anomaly threat als onderdeel van het onderzoek. Een volume-afwijking duidt op een prikker in soortgelijke e-mailberichten rond het tijdstip van de onderzoeksgebeurtenis in vergelijking met eerdere periodes. Een prikker in e-mailverkeer, samen met bepaalde kenmerken (bijvoorbeeld domein van onderwerp en afzender, overeenkomsten tussen de lichaamsdelen en afzender-IP) is het begin van e-mailcampagnes of aanvallen. Bulk-, spam- en legitieme e-mailcampagnes delen deze kenmerken echter meestal.
 
 - Volume-malware vormt een mogelijke bedreiging en kan dienovereenkomstig minder ernstig zijn in vergelijking met malware- of phish-bedreigingen die worden geïdentificeerd met antivirusprogramma's, detonatie of schadelijke reputatie.
 

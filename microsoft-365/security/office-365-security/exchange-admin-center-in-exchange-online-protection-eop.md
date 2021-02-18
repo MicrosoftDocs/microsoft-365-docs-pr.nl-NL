@@ -17,19 +17,19 @@ ms.collection:
 description: Meer informatie over de webbeheerinterface in de zelfstandige Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81af6c64d2ec3204d0c9d46888bbfe21335955bd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ec9dcbccbee734ea7c475b1ac0a5f9a92a0b401b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166217"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286955"
 ---
 # <a name="exchange-admin-center-in-standalone-eop"></a>Exchange-beheercentrum in standalone EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
 
 Het Exchange-beheercentrum (EAC) is een webbeheerconsole voor zelfstandige Exchange Online Protection (EOP).
 
@@ -110,7 +110,7 @@ Wanneer u een object selecteert in de lijstweergave, wordt informatie over dat o
 
 ### <a name="me-tile-and-help"></a>Tegel Ik en Help
 
-Met **de** tegel Ik kunt u zich bij het EAC aanmelden als een andere gebruiker. In de ![ vervolgkeuzelijst ](../../media/ITPro-EAC-HelpIcon.gif) Help-pictogram kunt u de volgende acties uitvoeren:
+Met **de** tegel Ik kunt u zich afloggen bij het EAC en u aanmelden als een andere gebruiker. In de ![ vervolgkeuzelijst ](../../media/ITPro-EAC-HelpIcon.gif) Help-pictogram kunt u de volgende acties uitvoeren:
 
 - **Help:** klik op ![ het ](../../media/ITPro-EAC-HelpIcon.gif) Help-pictogram om de online Help-inhoud weer te geven.
 - **Feedback:** feedback geven.

@@ -22,20 +22,20 @@ ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: 'Samenvatting: Planning en implementatie begeleiding voor snel bewegende organisaties met een verhoogd risicoprofiel.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7d16f63b808edc008022b17d20461df6cd30e75
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: f8ed01d2c41529782c5c714bfe66096b97300712
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150770"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287399"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere wendbare organisaties
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 
  **Samenvatting:** Planning en implementatie begeleiding voor snel bewegende organisaties met een verhoogd risicoprofiel.
 
@@ -69,6 +69,6 @@ Als u extra beveiligingsfuncties voor demonstratie of proof-of-concept wilt, raa
 
 ## <a name="see-also"></a>Zie ook
 
-[Testlabrichtlijnen voor cloudacceptatie (TLG's)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Testlabrichtlijnen voor cloudacceptatie (TLG's)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
-[Bronnen over IT-architectuur voor de Microsoft-cloud](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)
+[Bronnen over IT-architectuur voor de Microsoft-cloud](../../solutions/cloud-architecture-models.md)

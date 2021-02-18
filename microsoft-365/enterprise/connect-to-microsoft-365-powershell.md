@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Maak verbinding met je Microsoft 365-tenant via PowerShell voor Microsoft 365 om Beheercentrum-taken vanaf de opdrachtregel uit te voeren.
-ms.openlocfilehash: 33f9af45418ae8a1f126d2b321e7246201bd1f6e
-ms.sourcegitcommit: f07442d077eb4357fa5d99d051b035705eb30efa
+ms.openlocfilehash: 0691304a2d40f7ae4262e6761902f16b4f6d5ee2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002403"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288111"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Verbinding maken met Microsoft 365 met PowerShell
 
@@ -117,7 +117,7 @@ PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Director
 
 Deze stappen hoef je maar één keer uit te voeren op je computer. Maar waarschijnlijk moet je de software regelmatig bijwerken.
   
-1.  Als je geen Windows 10 gebruikt, installeer je de 64-bits versie van de Microsoft Online Services-aanmeldhulp: [Microsoft Online Services-aanmeldhulp voor IT-professionals RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152).
+1.  Als je geen Windows 10 gebruikt, installeer je de 64-bits versie van de Microsoft Online Services-aanmeldhulp: [Microsoft Online Services-aanmeldhulp voor IT-professionals RTW](https://www.microsoft.com/Download/details.aspx?id=28177).
     
 2. Installeer de Microsoft Azure Active Directory-module voor Windows PowerShell met deze stappen:
     

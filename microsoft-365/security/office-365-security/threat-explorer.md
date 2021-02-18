@@ -19,21 +19,21 @@ description: Gebruik Explorer en realtime detecties in het Beveiligings complian
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5cbb8bd57a2e9bde8d19c960a71066d3ea5531c1
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: daa7b4014d1302743578d79c2e1e0e1d2d5ac61f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233640"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288895"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigingsverkenner en realtime detecties
 
 
 **Van toepassing op**
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Als uw organisatie beschikt over Microsoft Defender voor [Office 365](office-365-atp.md)en u over de benodigde machtigingen [beschikt,](#required-licenses-and-permissions)beschikt u over **Explorer-** of **realtimedetectie** (voorheen *realtimerapporten)* om te zien wat er nieuw [is](#new-features-in-threat-explorer-and-real-time-detections)!). Ga in het & compliancecentrum naar Bedreigingsbeheer en kies **Verkenner**  of **Realtime detecties.**
+Als uw organisatie beschikt over Microsoft Defender voor [Office 365](office-365-atp.md)en u over de benodigde machtigingen [beschikt,](#required-licenses-and-permissions)beschikt u over **Explorer-** of **realtimedetecties** (voorheen *realtimerapporten)* om te zien wat er nieuw [is](#new-features-in-threat-explorer-and-real-time-detections)!). Ga in het & compliancecentrum naar Bedreigingsbeheer en kies **Verkenner**  of **Realtime detecties.**
 
 
 |Met Microsoft Defender voor Office 365 Plan 2 ziet u:|Met Microsoft Defender voor Office 365 Abonnement 1 ziet u:|
@@ -45,7 +45,7 @@ Met Explorer of realtime detecties kan het team van beveiligingsbewerkingen de b
 
 ![Ga naar \> Bedreigingsbeheerverkenner](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
-Met dit rapport kunt u:
+Met dit rapport kunt u het volgende doen:
 
 - [Malware bekijken die wordt gedetecteerd door beveiligingsfuncties van Microsoft 365](#see-malware-detected-in-email-by-technology)
 - [Phishing-URL weergeven en op gegevens klikken](#view-phishing-url-and-click-verdict-data)
@@ -57,11 +57,11 @@ Met dit rapport kunt u:
 ### <a name="tags-in-threat-explorer"></a>Tags in Bedreigingsverkenner
 
 > [!NOTE]
-> De functie voor gebruikerstags is *beschikbaar* in voorbeeldweergave, is niet voor iedereen beschikbaar en kan worden gewijzigd. Bekijk de Routekaart voor Microsoft 365 voor informatie over het releaseschema.
+> De functie voor gebruikerstags is *beschikbaar* in voorbeeldweergave, is niet voor iedereen beschikbaar en kan worden gewijzigd. Bekijk de routekaart voor Microsoft 365 voor informatie over het releaseschema.
 
 Met gebruikerslabels worden specifieke groepen gebruikers in Microsoft Defender voor Office 365 identificeert. Zie Gebruikerstags voor meer informatie over labels, waaronder licenties [en configuratie.](user-tags.md)
 
-In Bedreigingsverkenner ziet u informatie over gebruikerstags in de volgende ervaringen.
+In Bedreigingsverkenner vindt u informatie over gebruikerstags in de volgende ervaringen.
 
 #### <a name="email-grid-view"></a>E-mailrasterweergave
 
@@ -104,7 +104,7 @@ Naast het weergeven van malware en phishing-bedreigingen, ziet u dat de spamspam
 De set detectietechnologieën bevat nu nieuwe detectiemethoden en technologieën voor spamdetectie. U kunt dezelfde set detectietechnologieën gebruiken om de resultaten te filteren in de verschillende e-mailweergaven (Malware, Phish, Alle e-mail).
 
 > [!NOTE]
-> Een analyse van een analyse van een analyse is mogelijk niet per se gekoppeld aan entiteiten. Een e-mailbericht kan bijvoorbeeld als phish of spam worden geclassificeerd, maar er zijn geen URL's die zijn voorzien van een stempel met een phish-/spam-inding. Dit komt doordat met de filters ook inhoud en andere details voor een e-mailbericht worden geëvalueerd voordat u een evaluatie toewijst.
+> Een analyse van een analyse van een analyse is mogelijk niet per se gekoppeld aan entiteiten. Een e-mail kan bijvoorbeeld worden geclassificeerd als phish of spam, maar er zijn geen URL's met een stempel met een phish-/spam-spamspam. Dit komt doordat met de filters ook inhoud en andere details voor een e-mailbericht worden geëvalueerd voordat u een evaluatie toewijst.
 
 #### <a name="threats-in-urls"></a>Bedreigingen in URL's
 
@@ -118,9 +118,9 @@ U kunt nu de specifieke bedreiging voor een  URL zien op het tabblad Details van
 > [!div class="mx-imgBorder"]
 > ![Bijgewerkte tijdlijnweergave](../../media/Email_Timeline.png)
 
-In de tijdlijnweergave worden alle bezorgings- en bezorgingsgebeurtenissen geïdentificeerd. Deze bevat informatie over de bedreiging die op dat moment is geïdentificeerd voor een subset van deze gebeurtenissen. De tijdlijnweergave bevat ook informatie over eventuele aanvullende acties die zijn ondernomen (zoals ZAP of handmatige herstel), samen met het resultaat van die actie. Tijdlijnweergavegegevens zijn:
+In de tijdlijnweergave worden alle bezorgings- en bezorgingsgebeurtenissen geïdentificeerd. Deze bevat informatie over de bedreiging die op dat moment voor een subset van deze gebeurtenissen is geïdentificeerd. De tijdlijnweergave bevat ook informatie over eventuele aanvullende acties die zijn ondernomen (zoals ZAP of handmatige herstel), samen met het resultaat van die actie. Tijdlijnweergavegegevens zijn:
 
-- **Bron:** De bron van de gebeurtenis. Dit kan beheerder/systeem/gebruiker zijn.
+- **Bron:** Bron van de gebeurtenis. Dit kan beheerder/systeem/gebruiker zijn.
 - **Gebeurtenis:** Omvat gebeurtenissen op het hoogste niveau, zoals oorspronkelijke bezorging, handmatig herstel, ZAP, inzendingen en dynamische bezorging.
 - **Actie:** De specifieke actie die is ondernomen als onderdeel van ZAP of als beheerder (bijvoorbeeld soft delete).
 - **Bedreigingen:** Bestrijkt de bedreigingen (malware, phish, spam) die op dat moment zijn geïdentificeerd.
@@ -130,7 +130,7 @@ In de tijdlijnweergave worden alle bezorgings- en bezorgingsgebeurtenissen geïd
 
 Momenteel geven we de bezorgingslocatie weer in het e-mailraster en de flyout voor e-mail. De **naam van het** veld Bezorgingslocatie wordt gewijzigd in Oorspronkelijke **_bezorgingslocatie_*_. En we introduceren een ander veld, _*_Nieuwste bezorgingslocatie._**
 
-**De oorspronkelijke bezorgingslocatie** geeft meer informatie over waar een e-mail in eerste instantie is bezorgd. **De meest recente** bezorgingslocatie geeft aan waar een e-mail wordt bezorgd na systeemacties zoals *ZAP* of beheeracties zoals *Verplaatsen naar verwijderde items.* De meest recente bezorgingslocatie is bedoeld om de laatst bekende locatie van het bericht na de bezorging aan beheerders te vertellen, of via eventuele systeem-/beheerdersacties. De e-mail bevat geen acties van eindgebruikers. Als een gebruiker bijvoorbeeld een bericht heeft verwijderd of naar een archief of pst-bericht heeft verplaatst, wordt de bezorgingslocatie van het bericht niet bijgewerkt. Maar als de locatie door een systeemactie is bijgewerkt (bijvoorbeeld zap waardoor een e-mailbericht in quarantaine wordt **geplaatst),** wordt de meest recente bezorgingslocatie als 'quarantaine' gezien.
+**De oorspronkelijke bezorgingslocatie** geeft meer informatie over waar een e-mail in eerste instantie is bezorgd. **De meest recente** bezorgingslocatie geeft aan waar een e-mail wordt bezorgd na systeemacties zoals *ZAP* of beheeracties zoals *Verplaatsen naar verwijderde items.* De meest recente bezorgingslocatie is bedoeld om de laatst bekende locatie van het bericht na de bezorging aan beheerders te vertellen, of via eventuele systeem-/beheerdersacties. De e-mail bevat geen acties voor eindgebruikers. Als een gebruiker bijvoorbeeld een bericht heeft verwijderd of naar een archief of pst-bericht heeft verplaatst, wordt de bezorgingslocatie van het bericht niet bijgewerkt. Maar als de locatie door een systeemactie is bijgewerkt (bijvoorbeeld zap waardoor een e-mailbericht in quarantaine wordt **geplaatst),** wordt de meest recente bezorgingslocatie als 'quarantaine' gezien.
 
 > [!div class="mx-imgBorder"]
 > ![Bijgewerkte bezorgingslocaties](../../media/Updated_Delivery_Location.png)
@@ -160,7 +160,7 @@ Momenteel geven we de bezorgingslocatie weer in het e-mailraster en de flyout vo
 
 ### <a name="system-overrides"></a>Systeem overschrijven
 
-*Bij overschrijven kunt* u een uitzondering maken op de beoogde bezorgingslocatie van een bericht. U overschrijven de leveringslocatie die door het systeem wordt aangeboden op basis van de bedreigingen en andere detecties die worden geïdentificeerd door de filterstack. Systeem overschrijven kan worden ingesteld via tenant- of gebruikersbeleid om het bericht te bezorgen zoals voorgesteld door het beleid. Bij overschrijven kan onbedoelde bezorging van schadelijke berichten worden vastgesteld vanwege een hiaten in de configuratie, zoals een te ruim beleid voor veilige afzenders dat door een gebruiker is ingesteld. Deze waarden kunnen de volgende waarden overschrijven:
+*Bij overschrijven kunt* u een uitzondering maken op de beoogde bezorgingslocatie van een bericht. U overschrijven de leveringslocatie die door het systeem wordt aangeboden op basis van de bedreigingen en andere detecties die door de filterstack worden geïdentificeerd. Systeem overschrijven kan worden ingesteld via tenant- of gebruikersbeleid om het bericht te bezorgen zoals voorgesteld door het beleid. Bij overschrijven kan onbedoelde bezorging van schadelijke berichten worden vastgesteld vanwege een hiaten in de configuratie, zoals een te ruim beleid voor veilige afzenders dat door een gebruiker is ingesteld. Deze waarden kunnen de volgende waarden overschrijven:
 
 - Toegestaan door gebruikersbeleid: een gebruiker maakt beleid op postvakniveau zodat domeinen of afzenders worden toegestaan.
 - Geblokkeerd door gebruikersbeleid: een gebruiker maakt beleid op het niveau van een e-mailvak om domeinen of afzenders te blokkeren.
@@ -177,7 +177,7 @@ Momenteel geven we de bezorgingslocatie weer in het e-mailraster en de flyout vo
 
 De verbeteringen zijn:
 
-- De volledige klik op de URL (inclusief queryparameters  die deel uitmaken van de URL) in de sectie Klikken van de URL-flyout tonen. Het URL-domein en -pad worden op dit moment weergegeven in de titelbalk. We breiden deze informatie uit om de volledige URL weer te geven.
+- De volledige geklikte URL (inclusief queryparameters die  deel uitmaken van de URL) in de sectie Klikken van de URL-flyout tonen. Het URL-domein en -pad worden op dit moment weergegeven in de titelbalk. We breiden deze informatie uit om de volledige URL weer te geven.
 
 - Oplossingen voor URL-filters *(URL* versus *URL-domein* versus *URL-domein en* pad): De updates zijn van invloed op het zoeken naar berichten die een URL/klik bevatten. Er is ondersteuning ingeschakeld voor zoekopdrachten met een protocol-agnostic, zodat u naar een URL kunt zoeken zonder deze te `http` gebruiken. De zoekfunctie voor URL's wordt standaard aan http toebetaald, tenzij expliciet een andere waarde wordt opgegeven. Bijvoorbeeld:
 
@@ -187,7 +187,7 @@ De verbeteringen zijn:
 
    - `/`aan het begin en einde van het URL-pad, **url-domein,** **URL-domein en padvelden** wordt genegeerd. `/` aan het einde van het **veld URL** wordt genegeerd.
 
-### <a name="phish-confidence-level"></a>Phish betrouwbaarheidsniveau
+### <a name="phish-confidence-level"></a>Niveau van phish-betrouwbaarheid
 
 Met het niveau van phish-betrouwbaarheid kunt u zien in welke mate een e-mailbericht als 'phish' is gecategoriseerd. De twee mogelijke waarden zijn *Hoog* en *Normaal.* In de beginfasen is dit filter alleen beschikbaar in de phish-weergave van Bedreigingsverkenner.
 
@@ -247,7 +247,7 @@ Extra details zijn nu beschikbaar in het product, zoals het totale aantal zoekre
 
 ### <a name="top-targeted-users"></a>Belangrijkste gerichte gebruikers
 
-Vandaag wordt de lijst met de meest betrokken gebruikers weergegeven in de weergave Malware voor e-mailberichten, in de **sectie Top Malware-gezinnen.** Deze weergave wordt ook uitgebreid in de weergaven Phish en Alle e-mail. U kunt de vijf belangrijkste gerichte gebruikers zien, samen met het aantal pogingen voor elke gebruiker voor de bijbehorende weergave. In de weergave Phish ziet u bijvoorbeeld het aantal Phish-pogingen.
+Vandaag wordt de lijst met de meest betrokken gebruikers weergegeven in de weergave Malware voor e-mailberichten, in de **sectie Top Malware Families.** Deze weergave wordt ook uitgebreid in de weergaven Phish en Alle e-mail. U kunt de vijf belangrijkste gerichte gebruikers zien, samen met het aantal pogingen voor elke gebruiker voor de bijbehorende weergave. In de weergave Phish ziet u bijvoorbeeld het aantal Phish-pogingen.
 
 U kunt de lijst met gerichte gebruikers exporteren, tot een limiet van 3000, samen met het aantal pogingen voor offlineanalyse voor elke e-mailweergave. Bovendien wordt met het selecteren van het aantal pogingen (bijvoorbeeld 13 pogingen in de onderstaande afbeelding) een gefilterde weergave geopend in Bedreigingsverkenner, zodat u meer details kunt zien over e-mailberichten en bedreigingen voor die gebruiker.
 
@@ -291,13 +291,13 @@ Er zijn drie nieuwe functies beschikbaar in Bedreigingsverkenner en realtime det
 
 - [Voorbeeld van e-mailkoptekst bekijken en hoofdtekst van e-mail downloaden](#preview-email-header-and-download-email-body)
 - [Tijdlijn via e-mail](#email-timeline)
-- [Klik op Gegevens van URL exporteren](#export-url-click-data)
+- [Klik op Gegevens voor het exporteren van URL](#export-url-click-data)
 
 Deze nieuwe functies worden hieronder beschreven.
 
 ### <a name="preview-email-header-and-download-email-body"></a>Voorbeeld van e-mailkoptekst bekijken en hoofdtekst van e-mail downloaden
 
-U kunt nu een voorbeeld van een e-mailkop bekijken en de hoofdtekst van de e-mail downloaden in Bedreigingsverkenner Beheerders kunnen gedownloade kopteksten/e-mailberichten voor bedreigingen analyseren. Omdat het downloaden van e-mailberichten de blootstelling van informatie kan risico's met zich mee brengen, wordt dit proces bepaald door toegangsbeheer op basis van rollen (RBAC). Een nieuwe rol, *Preview,* moet worden toegevoegd aan een andere rollengroep (zoals Beveiligingsbewerkingen of Beveiligingsbeheerder) om de mogelijkheid te bieden e-mailberichten te downloaden in de weergave Alle e-mailberichten. Voor het weergeven van de e-mailkoptekst is echter geen extra rol vereist (anders dan is vereist voor het weergeven van berichten in Bedreigingsverkenner).
+U kunt nu een voorbeeld van een e-mailkop bekijken en de hoofdtekst van de e-mail downloaden in Bedreigingsverkenner Beheerders kunnen gedownloade kopteksten/e-mailberichten voor bedreigingen analyseren. Omdat het downloaden van e-mailberichten de blootstelling van informatie kan risico's met zich mee brengen, wordt dit proces bepaald door toegangsbeheer op basis van rollen. Een nieuwe rol, *Preview,* moet worden toegevoegd aan een andere rollengroep (zoals Beveiligingsbewerkingen of Beveiligingsbeheerder) om de mogelijkheid te bieden e-mailberichten te downloaden in de weergave Alle e-mailberichten. Voor het weergeven van de e-mailkoptekst is echter geen extra rol vereist (anders dan is vereist voor het weergeven van berichten in Bedreigingsverkenner).
 
 Explorer en realtime detecties krijgen ook nieuwe velden die een vollediger beeld geven van waar uw e-mailberichten terecht komen. Deze wijzigingen maken het zoeken naar beveiligings-ops eenvoudiger. Maar het belangrijkste resultaat is dat u in één oogopslag de locatie weet van probleem-e-mailberichten.
 
@@ -333,11 +333,11 @@ Dit is wat de gebruiker wel en niet kan zien:
 
 De **e-mailtijdlijn** is een nieuwe Verkenner-functie waarmee beheerders beter kunnen zoeken. Het knipt de tijd die is besteed aan het controleren van verschillende locaties om te proberen de gebeurtenis te begrijpen. Wanneer er meerdere gebeurtenissen plaatsvinden op of dicht bij hetzelfde tijdstip waarop een e-mailbericht binnenkomt, worden deze gebeurtenissen weergegeven in een tijdlijnweergave. Sommige gebeurtenissen die na de bezorging van uw e-mail plaatsvinden, worden vastgelegd in de **kolom** Speciale actie. Beheerders kunnen informatie uit de tijdlijn combineren met de speciale actie die is ondernomen voor de postbezorging van e-mail om inzicht te krijgen in hoe hun beleid werkt, waar het e-mailbericht uiteindelijk is doorgestuurd en, in sommige gevallen, wat de uiteindelijke evaluatie was.
 
-Zie Onderzoek en herstel schadelijke e-mail die is bezorgd [in Office 365](investigate-malicious-email-that-was-delivered.md)voor meer informatie.
+Zie Onderzoeken en herstellen van schadelijke e-mail die is bezorgd [in Office 365](investigate-malicious-email-that-was-delivered.md)voor meer informatie.
 
-### <a name="export-url-click-data"></a>Klik op Gegevens van URL exporteren
+### <a name="export-url-click-data"></a>Klik op Gegevens voor het exporteren van URL
 
-U kunt nu rapporten voor URL-klikken  exporteren naar Microsoft Excel om hun netwerkbericht-id weer te geven en op een rapport klikken **om** uit te leggen waar uw URL op het verkeer afkomstig is. Dit werkt als volgt: In Threat Management op de werkbalk Snel starten van Office 365 volgt u deze keten:
+U kunt nu rapporten voor URL-klikken  exporteren naar Microsoft Excel om hun netwerkbericht-id weer te geven en op het bericht klikken **om** uit te leggen waar uw URL op het verkeer afkomstig is. Dit werkt als volgt: In Threat Management op de werkbalk Snel starten van Office 365 volgt u deze keten:
 
 **Verkenner** \> **Phish weergeven** \> **Klikken** \> **Top-URL's** of **URL-topklikken** \> selecteer een record om de URL-flyout te openen.
 
@@ -345,7 +345,7 @@ Wanneer u een URL in de lijst selecteert, ziet u een nieuwe **knop Exporteren** 
 
 Volg dit pad om naar dezelfde locatie te gaan in het rapport Realtime detecties:
 
-**Verkenner** \> **Realtime detecties** \> **Phish weergeven** \> **URL's** \> **Top-URL's** **of topklikken** \> Selecteer een record om de URL-flyout te openen \> en naar het tabblad Klikken **te** navigeren.
+**Verkenner** \> **Realtime detecties** \> **Phish weergeven** \> **URL's** \> **Top-URL's** of **topklikken** \> Selecteer een record om de URL-flyout te openen en naar het tabblad Klikken \> **te** navigeren.
 
 > [!TIP]
 > Met de netwerkbericht-id wordt de klik teruggeklikt naar specifieke e-mailberichten wanneer u op de id zoekt via Explorer of de bijbehorende hulpprogramma's van derden. Dergelijke zoekopdrachten identificeren het e-mailbericht dat is gekoppeld aan een klikresultaat. Als u de correlatie-netwerkbericht-id hebt, is dit een snellere en krachtigere analyse.
@@ -353,7 +353,7 @@ Volg dit pad om naar dezelfde locatie te gaan in het rapport Realtime detecties:
 > [!div class="mx-imgBorder"]
 > ![Tabblad Klikken in Verkenner](../../media/tp_ExportClickResultAndNetworkID.png)
 
-## <a name="see-malware-detected-in-email-by-technology"></a>Malware bekijken die via technologie in e-mail is gedetecteerd
+## <a name="see-malware-detected-in-email-by-technology"></a>Malware zien die via technologie in e-mail is gedetecteerd
 
 Stel dat u malware wilt aangetroffen in e-mail die is gesorteerd op Microsoft 365-technologie. Gebruik hiervoor de weergave E-> [Malware](threat-explorer-views.md#email--malware) in Verkenner (of realtime detecties).
 
@@ -400,9 +400,9 @@ Als u phish-URL's in berichten wilt bekijken en op URL's in [   >  **phish-beric
 
    Het rapport wordt vernieuwd en er worden twee verschillende URL-tabellen weergegeven op het tabblad URL onder het rapport:
 
-   - **De belangrijkste URL's** zijn de URL's in de berichten die u hebt gefilterd en de actie voor e-mailbezorging telt voor elke URL. In de e-mailweergave Phish bevat deze lijst meestal legitieme URL's. Aanvallers bevatten een combinatie van goede en slechte URL's in hun berichten om ze te bezorgen, maar ze maken de schadelijke koppelingen interessanter. De tabel met URL's wordt gesorteerd op totale aantal e-mailberichten, maar deze kolom is verborgen om de weergave te vereenvoudigen.
+   - **De belangrijkste URL's** zijn de URL's in de berichten die u hebt gefilterd en de actie voor e-mailbezorging telt voor elke URL. In de e-mailweergave Phish bevat deze lijst meestal legitieme URL's. Kwaadwillende gebruikers bevatten een combinatie van goede en slechte URL's in hun berichten om ze te bezorgen, maar ze maken de schadelijke koppelingen interessanter. De tabel met URL's wordt gesorteerd op totale aantal e-mailberichten, maar deze kolom is verborgen om de weergave te vereenvoudigen.
 
-   - **De belangrijkste klikken** zijn de URL's met veilige koppelingen waarin is geklikt, gesorteerd op totale aantal klikken. Deze kolom wordt ook niet weergegeven, om de weergave te vereenvoudigen. Het totale aantal per kolom geeft aan dat het aantal veilige koppelingen wordt klik op het aantal veilige koppelingen voor elke geklikte URL. In de weergave Phish-e-mail zijn dit meestal verdachte of schadelijke URL's. Maar de weergave kan URL's bevatten die geen bedreigingen zijn, maar in phish-berichten staan. URL-klikken op niet-appe koppelingen worden hier niet weergegeven.
+   - **De belangrijkste klikken** zijn de URL's met veilige koppelingen waarin is geklikt, gesorteerd op totale aantal klikken. Deze kolom wordt ook niet weergegeven, om de weergave te vereenvoudigen. Het totale aantal per kolom geeft aan dat het aantal klik op veilige koppelingen voor elke geklikte URL wordt geteld. In de e-mailweergave Phish zijn dit meestal verdachte of schadelijke URL's. Maar de weergave kan URL's bevatten die geen bedreigingen zijn, maar in phish-berichten staan. URL-klikken op niet-appe koppelingen worden hier niet weergegeven.
 
    In de twee URL-tabellen worden de belangrijkste URL's in phishing-e-mailberichten weergegeven op bezorgingsactie en -locatie. In de tabellen worden URL-klikken weergegeven die ondanks een waarschuwing zijn geblokkeerd of bezocht, zodat u kunt zien welke potentiële slechte koppelingen er aan gebruikers zijn gepresenteerd en of de gebruiker erop heeft geklikt. Van hier uit kunt u verdere analyse uitvoeren. Onder de grafiek ziet u bijvoorbeeld de bovenste URL's in e-mailberichten die in de omgeving van uw organisatie zijn geblokkeerd.
 
@@ -421,7 +421,7 @@ In de flyouts voor e-mailberichten of URL's, topklikken en onze filterervaringen
 - **Geen:** Kan het bericht over de URL niet vastleggen. De gebruiker kan door de URL hebben geklikt.
 - **Toegestaan:** De gebruiker mag naar de URL navigeren.
 - **Geblokkeerd:** De gebruiker is geblokkeerd voor het navigeren naar de URL.
-- **In behandeling:** De gebruiker krijgt de pagina met een detonatie in behandeling.
+- **In behandeling:** De gebruiker heeft de pagina met een detonatie in behandeling weergegeven.
 - **Geblokkeerde overschrijven:** De gebruiker is geblokkeerd voor het rechtstreeks navigeren naar de URL. Maar de gebruiker heeft het blok te veel in gebruik om naar de URL te navigeren.
 - **Wachtende op een aanvraag omzeild:** De gebruiker krijgt de onttoningspagina te zien. Maar de gebruiker heeft het bericht niet meer nodig om toegang te krijgen tot de URL.
 - **Fout:** De gebruiker krijgt de foutpagina te zien of er is een fout opgetreden bij het vastleggen van de fout.
@@ -445,7 +445,7 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie hebben ger
    > [!div class="mx-imgBorder"]
    > ![Door de gebruiker gerapporteerde phish](../../media/EmailUserReportedReportType.png)
 
-Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die personen in uw organisatie hebben gerapporteerd als een poging tot phishing. U kunt deze informatie gebruiken voor verdere analyse en indien nodig uw [anti-phishingbeleid aanpassen in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md)
+Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die personen in uw organisatie als phishingpoging hebben gemeld. U kunt deze informatie gebruiken voor verdere analyse en indien nodig uw [anti-phishingbeleid aanpassen in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md)
 
 ## <a name="start-automated-investigation-and-response"></a>Geautomatiseerd onderzoek en automatisch onderzoek starten
 
@@ -456,19 +456,19 @@ Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die p
 
 ## <a name="more-ways-to-use-explorer-and-real-time-detections"></a>Meer manieren om Explorer en realtime detecties te gebruiken
 
-Naast de scenario's die in dit artikel worden beschreven, zijn er veel meer rapportageopties beschikbaar met Explorer (of realtime detecties). Zie de volgende artikelen:
+Naast de scenario's die in dit artikel worden beschreven, zijn er nog veel meer rapportageopties beschikbaar met Explorer (of realtime detecties). Zie de volgende artikelen:
 
 - [Schadelijke e-mail zoeken en onderzoeken die is bezorgd](investigate-malicious-email-that-was-delivered.md)
 - [Schadelijke bestanden weergeven die zijn gedetecteerd in SharePoint Online, OneDrive en Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 - [Bekijk een overzicht van de weergaven in Bedreigingsverkenner (en realtime detecties)](threat-explorer-views.md)
 - [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
-- [Automatisch onderzoek en antwoorden in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Automatisch onderzoek en antwoorden in Microsoft Threat Protection](../mtp/mtp-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 
 U moet [Microsoft Defender voor Office 365 hebben om](office-365-atp.md) Explorer of realtime detecties te kunnen gebruiken.
 
-- Explorer is opgenomen in Defender voor Office 365 Abonnement 2.
+- Explorer is inbegrepen in Defender voor Office 365 Abonnement 2.
 - Het rapport Realtime detecties is opgenomen in Defender voor Office 365 Abonnement 1.
 - Plan het toewijzen van licenties voor alle gebruikers die moeten worden beveiligd door Defender voor Office 365. Verkenner en realtime detecties tonen detectiegegevens voor gelicentieerde gebruikers.
 

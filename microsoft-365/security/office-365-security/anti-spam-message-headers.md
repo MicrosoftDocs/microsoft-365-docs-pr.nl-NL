@@ -18,21 +18,21 @@ description: Beheerders kunnen meer informatie krijgen over de velden met berich
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5f0befa764982ae30e0c7c5c1a9f109067f3ee02
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: e78d7d6eb2b38ab93dc09e0098641f97f845015c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175647"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289003"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Berichtkoppen tegen ongewenste e-mail in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 In alle Microsoft 365-organisaties scant Exchange Online Protection (EOP) alle inkomende berichten op spam, malware en andere bedreigingen. De resultaten van deze scans worden toegevoegd aan de volgende koptekstvelden in berichten:
 

@@ -15,26 +15,26 @@ ms.collection:
 description: Informatie over het installeren en gebruiken van de invoegmap Microsoft -rapportage van ongewenste e-mail om spam, niet-spam en phishingberichten aan Microsoft te rapporteren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 171bdc43e565a0890cddcd1e48208b49774a5315
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e22a1364e8d7a1447bbcf518cc339a681c57a8af
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167345"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286619"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>De invoegversie voor rapportage van ongewenste e-mail voor Microsoft Outlook installeren en gebruiken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
 > Als u op dit moment de invoegapp Rapportage van ongewenste e-mail niet gebruikt, raden we u aan [de invoegapp](enable-the-report-message-add-in.md) Bericht rapporteren of De [invoegapp Phishing melden te](enable-the-report-phish-add-in.md) gebruiken. Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-Met de invoegversie voor rapportage van ongewenste e-mail voor Microsoft Outlook kunnen gebruikers fout-positieven (goede e-mail die als spam is gemarkeerd), fout-negatieven (slechte e-mail toegestaan) en phishingberichten naar Microsoft verzenden. Als uw organisatie geen gebruik maakt van Exchange Online Protection (bijvoorbeeld on-premises Exchange- of e-mailservices anders dan Exchange Online), heeft de verzending van uw rapport met ongewenste e-mail geen invloed op uw spamfilters.
+Met de invoegversie voor rapportage van ongewenste e-mail voor Microsoft Outlook kunnen gebruikers fout-positieven (goede e-mail die als spam is gemarkeerd), fout-negatieven (slechte e-mail toegestaan) en phishingberichten naar Microsoft verzenden. Als uw organisatie geen gebruik maakt van Exchange Online Protection (bijvoorbeeld on-premises Exchange- of e-mailservices anders dan Exchange Online), is het indienen van een rapport over ongewenste e-mail niet van invloed op uw spamfilter.
 
 In dit onderwerp wordt uitgelegd hoe u de invoegaccount voor rapportage van ongewenste e-mail installeert en gebruikt.
 
@@ -51,13 +51,13 @@ In dit onderwerp wordt uitgelegd hoe u de invoegaccount voor rapportage van onge
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-spam-and-phishing-messages"></a>De invoegmap Rapportage van ongewenste e-mail gebruiken om spam- en phishingberichten te melden
 
-1. Voor berichten in het Postvak IN of een andere e-mailmap behalve Ongewenste e-mail gebruikt u een van de volgende methoden om spam en phishingberichten te melden:
+1. Voor berichten in het Postvak IN of een andere e-mailmap, met uitzondering van Ongewenste e-mail, gebruikt u een van de volgende methoden om spam- en phishingberichten te melden:
 
-   - Selecteer het bericht of open het bericht. Klik op **het** **tabblad Start of** bericht op het lint op **Ongewenste** e-mail en selecteer Vervolgens Rapporteren als ongewenste e-mail **of** Rapporteren **als Phishing.**
+   - Selecteer het bericht of open het bericht. Klik op  **het** tabblad Start **of** bericht op het lint op **Ongewenste** e-mail en selecteer Vervolgens Rapporteren als ongewenste e-mail of Rapporteren als **Phishing.**
 
      ![Ongewenste e-mail of phishing-e-mail melden via het lint](../../media/junk-email-reporting-ribbon.png)
 
-   - Klik met de rechtermuisknop op het bericht, selecteer **Ongewenste e-mail** en selecteer vervolgens Rapporteren als ongewenste e-mail **of** Melden als **Phishing.**
+   - Klik met de rechtermuisknop op het bericht, selecteer **Ongewenste** e-mail en selecteer vervolgens Rapporteren als ongewenste e-mail **of** Melden als **Phishing.**
 
      ![Ongewenste e-mail of phishing-e-mail melden door met de rechtermuisknop te klikken](../../media/junk-email-reporting-right-click.png)
 
@@ -80,9 +80,9 @@ In dit onderwerp wordt uitgelegd hoe u de invoegaccount voor rapportage van onge
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-non-spam-and-phishing-messages-from-the-junk-email-folder"></a>Gebruik de invoegmap Rapportage van ongewenste e-mail om niet-spam- en phishingberichten uit de map Ongewenste e-mail te rapporteren
 
-1. Gebruik een van de volgende methoden in de map Ongewenste e-mail om fout-positieven of phishingberichten te melden:
+1. Gebruik in de map Ongewenste e-mail een van de volgende methoden om fout-positieven of phishingberichten te melden:
 
-   - Selecteer het bericht of open het bericht. Klik op **het** **tabblad Start** of bericht op het lint op Geen ongewenste e-mail en selecteer Rapporteren als **Geen** ongewenste e-mail of Rapporteren **als Phishing.**
+   - Selecteer het bericht of open het bericht. Klik op **het** **tabblad Start** of bericht op het  lint op Geen ongewenste e-mail en selecteer Rapporteren als Geen ongewenste e-mail of Rapporteren **als Phishing.**
 
      ![Geen ongewenste e-mail of phishing-e-mail melden vanaf het lint in de map Ongewenste e-mail](../../media/junk-email-reporting-junk-folder-ribbon.png)
 
@@ -126,9 +126,9 @@ In dit onderwerp wordt uitgelegd hoe u de invoegaccount voor rapportage van onge
 
 3. Zoek het MSI-bestand dat u hebt gedownload en dubbelklik erop.
 
-4. Klik op volgende op de pagina Installatie van de invoeg mailrapportage van Microsoft Welkom bij Microsoft voor rapportage van **ongewenste e-mail.** 
+4. Klik op volgende op de pagina Installatie van **de invoeg** mailrapportage van Microsoft Welkom bij Microsoft voor het rapporteren van ongewenste **e-mail.**
 
-5. Lees de gebruiksvoorwaarden, klik op Ik ga akkoord met de voorwaarden in de **gebruikovereenkomst** als u akkoord gaat met de voorwaarden en klik vervolgens op **Volgende.**
+5. Lees de gebruiksvoorwaarden, klik op Ik ga akkoord met de voorwaarden in de **licentieovereenkomst** als u akkoord gaat met de voorwaarden en klik vervolgens op **Volgende.**
 
 6. Wanneer de wizard is voltooid, klikt u op **Voltooien.**
 
@@ -138,7 +138,7 @@ Zoek naar de **knop Ongewenste e-mail** op het lint van Outlook. U kunt ongewens
 
 Kies de pijl-omlaag naast **Ongewenste** e-mail voor meer opties, zoals Melden als **Phishing** als u phishing-e-mails wilt melden aan Microsoft. In de map Ongewenste e-mail  kunt u ook De optie Geen ongewenste e-mail rapporteren selecteren als een e-mail onjuist is geïdentificeerd als ongewenste e-mail.
 
-### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a>De rapportagemodus voor ongewenste eAdd-In installeren in de stille modus
+### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a>De rapportagemodus voor ongewenste Add-In in de stille modus installeren
 
 1. Sluit Outlook op uw computer.
 
@@ -175,7 +175,7 @@ Kies de pijl-omlaag naast **Ongewenste** e-mail voor meer opties, zoals Melden a
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Als u wilt controleren of u de invoegversie voor rapportage van ongewenste e-mail hebt geïnstalleerd, gaat u als volgt te werk in Outlook:
+Als u wilt controleren of u de invoegversie voor rapportage van ongewenste e-mail hebt geïnstalleerd, gaat u op een van de volgende stappen in Outlook te werk:
 
 - Selecteer het bericht of open het bericht. Klik op **het** **tabblad Start** of bericht op het lint op **Ongewenste** e-mail en controleer of de volgende opties beschikbaar zijn:
 

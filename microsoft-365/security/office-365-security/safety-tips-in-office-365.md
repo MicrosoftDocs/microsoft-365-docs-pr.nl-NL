@@ -19,21 +19,21 @@ description: Meer informatie over hoe EOP en Office 365 u beschermen tegen spam,
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c37eba07b306ff47e14640e494e468b63b358726
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2eae3f17d4ba9b72383bf1b8864a136cd9e7b2b8
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166613"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288559"
 ---
 # <a name="safety-tips-in-email-messages"></a>Veiligheidstips in e-mailberichten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online Protection (EOP) en Microsoft 365 beschermen u tegen spam, phishing en malwarepreventie. Sommige van deze aanvallen zien er zo goed uit dat ze er echt uitzien. Het verzenden van berichten naar de map Ongewenste e-mail is niet altijd voldoende. Wanneer u nu uw e-mail controleert in Outlook, de webversie van Outlook of een e-mailclient, wordt in EOP automatisch de afzender gecontroleerd en wordt boven aan het e-mailbericht een veiligheidstip toegevoegd.
 
@@ -55,6 +55,6 @@ Met de veiligheidstip, een bericht met kleurcode, wordt u gewaarschuwd voor moge
 
 ## <a name="working-with-safety-tips"></a>Werken met veiligheidstips
 
-Veiligheidstips zijn altijd ingeschakeld voor de webversie van Outlook, hoewel niet elk bericht een tip ontvangt. Beheerders kunnen veiligheidstips uitschakelen voor andere e-mail clients, zoals Outlook. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
+Veiligheidstips zijn altijd ingeschakeld voor de webversie van Outlook, ook al ontvangt niet elk bericht er een. Beheerders kunnen veiligheidstips uitschakelen voor andere e-mail clients, zoals Outlook. Zie [Antispambeleid configureren in Office 365](configure-your-spam-filter-policies.md) voor meer informatie.
 
 Als u het niet eens bent met de manier waarop een bericht door EOP is gecategoriseerd (het bericht is dus geen spam of het bericht moet zijn gemarkeerd als spam), kunt u de berichten ter analyse naar Microsoft verzenden om uw ervaring te verbeteren. Zie Berichten en bestanden [rapporteren bij Microsoft voor instructies.](report-junk-email-messages-to-microsoft.md) U kunt ook op de koppeling Feedback in de veiligheidstip klikken om opmerkingen rechtstreeks naar Microsoft te verzenden om ons te helpen onze producten te verbeteren.

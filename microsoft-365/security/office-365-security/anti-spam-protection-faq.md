@@ -19,27 +19,27 @@ ms.custom:
 description: Beheerders kunnen veelgestelde vragen en antwoorden over beveiliging tegen spam bekijken in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8620ad3f99c45dae3442ec89d879124053c1a005
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 8abccdac73877c3f24114afaa78c13143e156868
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175977"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288967"
 ---
 # <a name="anti-spam-protection-faq"></a>Veelgestelde vragen over beveiliging tegen ongewenste e-mail
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Dit onderwerp bevat veelgestelde vragen en antwoorden over beveiliging tegen malware voor Microsoft 365-organisaties met postvakken in Exchange Online, of zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken.
 
 Zie Veelgestelde vragen over quarantaine voor vragen en [antwoorden over de quarantaine.](quarantine-faq.md)
 
-Zie veelgestelde vragen en antwoorden over bescherming tegen malware tegen [malware.](anti-malware-protection-faq-eop.md)
+Zie veelgestelde vragen en antwoorden [](anti-malware-protection-faq-eop.md)over bescherming tegen malware.
 
 Zie Veelgestelde vragen en antwoorden over bescherming tegen [spoofing.](anti-spoofing-protection-faq.md)
 
@@ -54,7 +54,7 @@ Zie Veelgestelde vragen en antwoorden over bescherming tegen [spoofing.](anti-sp
 
 ## <a name="whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>Wat is een gratis spamvariant en hoe wordt deze door de service verwerkt?
 
-Een spamvariant van nul dagen is een eerste generatie, voorheen onbekende variant van spam die nooit is vastgelegd of geanalyseerd, dus onze antispamfilters bevatten nog geen informatie die kan worden gedetecteerd. Nadat een 0-daagse spamvoorbeeld is vastgelegd en geanalyseerd door onze spamanalisten, en het voldoet aan de classificatiecriteria voor spam, worden onze antispamfilters bijgewerkt om het te detecteren en wordt het niet langer beschouwd als 'nul-dag'.
+Een spamvariant van nul dagen is een eerste generatie, voorheen onbekende variant van spam die nooit is vastgelegd of geanalyseerd, dus onze antispamfilters bevatten nog geen informatie die kan worden gedetecteerd. Nadat een 0-daagse spamsamplist is vastgelegd en geanalyseerd door onze spamanalisten, worden onze antispamfilters bijgewerkt om het te detecteren en wordt het niet meer beschouwd als 'nuldag'.
 
 **Opmerking:** Als u een bericht ontvangt dat een 0-daagse spamvariant kan zijn, kunt u ons helpen de service te verbeteren door het bericht naar Microsoft te verzenden met een van de methoden die in Rapportberichten en bestanden worden beschreven bij [Microsoft.](report-junk-email-messages-to-microsoft.md)
 
@@ -90,7 +90,7 @@ Spam en niet-spamberichten kunnen op verschillende manieren bij Microsoft worden
 
 ## <a name="can-i-get-spam-reports"></a>Kan ik spamrapporten krijgen?
 
-Ja, u kunt bijvoorbeeld een spamdetectierapport krijgen in het Microsoft 365-beheercentrum. Dit rapport toont het aantal unieke berichten dat wordt verzonden. Zie de volgende koppelingen voor meer informatie over rapporten:
+Ja, u kunt bijvoorbeeld een spamdetectierapport krijgen in het Microsoft 365-beheercentrum. Dit rapport toont het aantal ongewenste e-mail als het aantal unieke berichten. Zie de volgende koppelingen voor meer informatie over rapporten:
 
 Klanten met Exchange Online: controle, rapportage en [berichttracering in Exchange Online](https://docs.microsoft.com/exchange/monitoring/monitoring)
 
@@ -110,7 +110,7 @@ U kunt een melding verzenden naar een opgegeven e-mailadres wanneer het verzende
 
 Ja. Hoewel we u aanraden uw MX-record naar Microsoft te laten wijzen, komen we tot de hoogte dat er betrouwbare zakelijke redenen zijn om uw e-mail naar een andere plaats dan eerst Naar Microsoft te door te sturen.
 
-- **Binnenkomende:** wijzig uw MX-records zo dat deze naar de externe provider wijzen en redirect de berichten om naar EOP voor aanvullende verwerking. Zie [Enhanced Filtering for connectors in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+- **Binnenkomende:** wijzig uw MX-records zo dat deze naar de externe provider wijzen en leiden de berichten om naar EOP voor aanvullende verwerking. Zie Uitgebreide filters voor [connectors in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
 
 - **Uitgaand:** configureer slimme hostroutering vanuit Microsoft 365 naar de externe provider.
 
@@ -130,7 +130,7 @@ De onderstaande richtlijnen zijn de beste procedures voor het verzenden van uitg
 
   Als de afzender bijvoorbeeld user@fabrikam, wordt door het domein fabrikam het IP-adres 192.0.43.10 opgelost.
 
-  Als een verzendend domein geen A-record en geen MX-record in DNS heeft, routeert de service het bericht via de bezorgingsgroep met hoog risico, ongeacht of de inhoud van het bericht spam is. Zie de groep met hoog risico voor uitgaande berichten voor meer informatie over de bezorgingsgroep met een hoog [risico.](high-risk-delivery-pool-for-outbound-messages.md)
+  Als een verzendend domein geen A-record en geen MX-record in DNS heeft, routeert de service het bericht via de bezorgingsgroep met hoog risico, ongeacht of de inhoud van het bericht spam is. Zie de bezorgingsgroep met hoog risico voor uitgaande berichten voor meer informatie over de bezorgingsgroep met een hoog [risico.](high-risk-delivery-pool-for-outbound-messages.md)
 
 - **Een uitgaande e-mailserver moet een reverse-DNS-vermelding (PTR) hebben.**
 
@@ -138,15 +138,15 @@ De onderstaande richtlijnen zijn de beste procedures voor het verzenden van uitg
 
 - **De opdrachten HELO/EHLO en MAIL FROM moeten consistent zijn en aanwezig zijn in de vorm van een domeinnaam in plaats van een IP-adres.**
 
-  De opdracht HELO/EHLO moet zo worden geconfigureerd dat deze overeenkomen met de omgekeerde DNS van het verzendende IP-adres, zodat het domein in de verschillende onderdelen van de berichtkoppen hetzelfde blijft.
+  De helo/EHLO-opdracht moet zo worden geconfigureerd dat deze overeenkomen met de omgekeerde DNS van het verzendende IP-adres, zodat het domein in de verschillende onderdelen van de berichtkoppen hetzelfde blijft.
 
-- **Controleer of de juiste SPF-records zijn ingesteld in DNS.**
+- **Zorg ervoor dat de juiste SPF-records zijn ingesteld in de DNS.**
 
   SPF-records zijn een mechanisme om te valideren dat e-mail die vanuit een domein wordt verzonden, eigenlijk afkomstig is van dat domein en niet is vervalst. Zie de volgende koppelingen voor meer informatie over SPF-records:
 
   [SPF instellen om adresvervalsing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  [Veelgestelde vragen over domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
+  [Veelgestelde vragen over domeinen](../../admin/setup/domains-faq.yml#how-can-i-validate-spf-records-for-my-domain)
 
 - **Onderteken e-mail met DKIM, onderteken met vereenigde canonieke normalisatie.**
 
@@ -154,31 +154,31 @@ De onderstaande richtlijnen zijn de beste procedures voor het verzenden van uitg
 
 - **Domeineigenaren moeten nauwkeurige informatie in de WHOIS-database hebben.**
 
-  Hiermee worden de eigenaren van het domein geïdentificeerd en hoe u contact met hen kunt opnemen door het stabiele bovenliggende bedrijf, het contactpunt en de naamservers in te gaan.
+  Hiermee worden de eigenaren van het domein geïdentificeerd en hoe u contact met hen kunt opnemen door het stabiele bovenliggende bedrijf, het punt van het contact en de naamservers in te gaan.
 
 - **Voor bulkmailers moet de naam Van: laten zien wie het bericht verstuurt, terwijl de onderwerpregel van het bericht een kort overzicht moet zijn van waar het bericht over gaat.**
 
   De bericht zelf moet een duidelijke indicatie hebben van het aanbod, de service of het product. Als een afzender bijvoorbeeld een bulkmail verstuurt voor het bedrijf Contoso, moet het e-mailbericht Van en Onderwerp er als volgt uit zien:
 
-  > Van: marketing@contoso.com <br> Onderwerp: Nieuwe bijgewerkte catalogus voor de kerstperiode!
+  > Van: marketing@contoso.com <br> Onderwerp: Nieuwe bijgewerkte catalogus voor de kerst!
 
-  Hier volgt een voorbeeld van wat u niet moet doen omdat het niet beschrijvend is:
+  Hier volgt een voorbeeld van wat u niet moet doen omdat dit niet beschrijvend is:
 
   > Van: user@hotmail.com <br> Onderwerp: Catalogi
 
 - **Als u een bulkmailing verstuurt naar een groot aantal geadresseerden en het bericht in nieuwsbriefindeling is, moet er een manier zijn om u af te schrijven onder aan het bericht.**
 
-  De optie voor het afmelden zou er als volgt uit moeten zien:
+  De optie voor het afmelden moet er als volgt uit zien:
 
   > Dit bericht is per example@contoso.com verzonden sender@fabrikam.com. Profiel/e-mailadres bijwerken | Direct verwijderen met **SafeUnsubscribe** &trade; | Privacybeleid
 
-- **Als u bulkmail verstuurt, moet de aanschaf van een lijst worden uitgevoerd met behulp van dubbele aant-in. Als u bulksgewijs e-mailt, kunt u het beste double opt-in gebruiken.**
+- **Als u bulk-e-mail verstuurt, moet de aanschaf van een lijst worden uitgevoerd met dubbele opt-in. Als u bulkmail gebruikt, kunt u het beste dubbele opt-in gebruiken.**
 
   Met dubbele aanmelding moet een gebruiker twee acties uitvoeren om zich te registreren voor marketingmail:
 
   1. Wanneer de gebruiker op een eerder uitgeschakeld selectievakje klikt, kan deze zich ervoor kiezen om verdere aanbiedingen of e-mailberichten van de marketer te ontvangen.
 
-  2. Een tweede keer dat de marketer een bevestigingsbericht verstuurt naar het opgegeven e-mailadres van de gebruiker, waarin de gebruiker wordt gevraagd te klikken op een tijdgevoelige koppeling om de bevestiging te voltooien.
+  2. Een tweede keer dat de marketer een bevestigingse-mail verstuurt naar het opgegeven e-mailadres van de gebruiker, waarin de gebruiker wordt gevraagd te klikken op een tijdgevoelige koppeling om de bevestiging te voltooien.
 
   Het gebruik van double opt-in zorgt voor een goede reputatie van afzenders van bulk-e-mail.
 

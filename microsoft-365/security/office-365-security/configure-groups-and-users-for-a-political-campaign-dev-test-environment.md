@@ -19,19 +19,19 @@ description: 'Overzicht: maak proefabonnementen voor Office 365 en Enterprise Mo
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d23539951e4d51fcd29417ab71ce599853d7537
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e600b3baf012d416a7b5de974b94111bb6cf90a2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165701"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287447"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 
  **Overzicht:** maak proefabonnementen voor Office 365 en Enterprise Mobility + Security (EMS) met gebruikers en groepen voor een ontwikkel-/testomgeving voor politieke campagnes.
 
@@ -41,7 +41,7 @@ Gebruik de instructies in dit artikel om een ontwikkel-/testomgeving te maken me
 
 In deze fase creëert u proefabonnementen voor Office 365 E5 en Enterprise Mobility + Security (EMS) E5 voor een fictieve organisatie die een politieke campagne vertegenwoordigt.
 
-Volg eerst de instructies in **Fase 2** van [de lichtgewicht basisconfiguratie](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
+Volg eerst de instructies in **Fase 2** van [de lichtgewicht basisconfiguratie](../../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md).
 
 Meld u vervolgens aan voor het proefabonnement EMS E5 en voeg het toe aan dezelfde organisatie als uw proefabonnement.
 
@@ -139,7 +139,7 @@ Vervolgens configureert u de groepen zo dat er automatisch Office 365 E5- en EMS
 
 In deze fase voegt u de voorbeeldgebruikersaccounts voor uw politieke campagne toe.
 
-Eerst maakt u [Verbinding met de Windows PowerShell voor Graph-module van Azure Active Directory](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+Eerst maakt u [Verbinding met de Windows PowerShell voor Graph-module van Azure Active Directory](../../enterprise/connect-to-microsoft-365-powershell.md).
 
 Vervolgens vult u de naam van uw organisatie in, uw locatie en een gemeenschappelijk wachtwoord in en voert u vervolgens deze opdrachten uit in de opdrachtprompt van Windows PowerShell of de Integrated Scripting Environment (ISE):
 
@@ -212,6 +212,6 @@ Maak de vier verschillende soorten SharePoint Online-teamsites in deze ontwikkel
 
 [Team sites maken in een ontwikkel-en testomgeving voor politieke campagnes](create-team-sites-in-a-political-campaign-dev-test-environment.md)
 
-[Testlabrichtlijnen voor cloudacceptatie (TLG's)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Testlabrichtlijnen voor cloudacceptatie (TLG's)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
 [Cloud adoption and hybrid solutions](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

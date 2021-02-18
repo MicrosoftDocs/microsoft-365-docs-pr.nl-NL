@@ -19,20 +19,20 @@ ms.custom:
 description: In dit artikel wordt uitgelegd welke wijzigingen worden doorgevoerd in de beveiligingsfuncties in Azure Information Protection
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0769306c3aa2d1a357e1d5999d1a1406c02aa5f3
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: fe85a46e3f20cda62cd8a52bd5df92257f8fee57
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261559"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286667"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Beveiligingsfuncties in Azure Information Protection die worden uitgerold naar bestaande tenants
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Om u te helpen bij de eerste stap bij het beveiligen van uw gegevens, zijn vanaf juli 2018 alle in aanmerking komende tenants voor Azure Information Protection standaard ingeschakeld voor de beveiligingsfuncties in Azure Information Protection. De beveiligingsfuncties in Azure Information Protection werden voorheen in Office 365 bekend als Rights Management of Azure RMS. Als uw organisatie een Office E3-serviceplan of een hoger serviceplan heeft, krijgt u bij het implementeren van deze functies de eerste keer te maken met het beveiligen van gegevens via Azure Information Protection.
 
@@ -61,11 +61,11 @@ Office 365-berichtversleuteling maakt gebruik van de beveiligingsmogelijkheden i
 Als uw organisatie een in aanmerking komende Office 365-licentie heeft gekocht, heeft deze wijziging gevolgen voor uw tenant.
 
 > [!IMPORTANT]
-> Als u ACTIVE Directory Rights Management Services (AD RMS) gebruikt in uw on-premises omgeving, moet u deze wijziging onmiddellijk stoppen of migreren naar Azure Information Protection voordat we deze wijziging binnen de komende 30 dagen implementeren. Zie 'I use AD RMS, how do I opt out?' voor meer informatie over het opt-out van dit gebruik. verder in dit artikel. Zie Migreren van AD RMS naar Azure Information Protection als u liever [migreert.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+> Als u AD RMS (Active Directory Rights Management Services) gebruikt in uw on-premises omgeving, moet u deze wijziging onmiddellijk stoppen of migreren naar Azure Information Protection voordat we deze wijziging binnen de komende 30 dagen implementeren. Zie 'I use AD RMS, how do I opt out? verder in dit artikel. Zie Migreren van AD RMS naar Azure Information Protection als u liever [migreert.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="can-i-use-azure-information-protection-with-active-directory-rights-management-services-ad-rms"></a>Kan ik Azure Information Protection gebruiken met Active Directory Rights Management Services (AD RMS)?
 
-Nee. Dit is geen ondersteund implementatiescenario. Zonder de extra opt-outstappen uit te voeren, kunnen sommige computers automatisch gebruikmaken van de Azure Rights Management-service en ook verbinding maken met uw AD RMS-cluster. Dit scenario wordt niet ondersteund en heeft onbetrouwbare resultaten, dus het is belangrijk dat u deze wijziging binnen 30 dagen voordat we deze nieuwe functies uitrollen, uitrolt. Zie 'I use AD RMS, how do I opt out?' voor meer informatie over het opt-out van dit gebruik. verder in dit artikel. Zie Migreren van AD RMS naar Azure Information Protection als u liever [migreert.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+Nee. Dit is geen ondersteund implementatiescenario. Zonder de extra opt-outstappen uit te voeren, kunnen sommige computers automatisch gebruikmaken van de Azure Rights Management-service en ook verbinding maken met uw AD RMS-cluster. Dit scenario wordt niet ondersteund en heeft onbetrouwbare resultaten, dus het is belangrijk dat u deze wijziging binnen 30 dagen voordat we deze nieuwe functies uitrollen, uitrolt. Zie 'I use AD RMS, how do I opt out? verder in dit artikel. Zie Migreren van AD RMS naar Azure Information Protection als u liever [migreert.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="how-do-i-know-if-im-using-ad-rms"></a>Hoe weet ik of ik AD RMS gebruik?
 

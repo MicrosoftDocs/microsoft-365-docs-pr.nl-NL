@@ -19,21 +19,21 @@ ms.collection:
 description: Meer informatie over campagneweergaven in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e3b9c1a9a19e38ea83b13d9028af1a6ba042b900
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e7742b26eb901bc9dfe79d01a9f3414adf524dd9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165917"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286895"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Campagneweergaven in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 
-Campagneweergaven is een functie in Microsoft Defender voor Office 365 Abonnement 2 (bijvoorbeeld Microsoft 365 E5 of organisaties met een invoegfunctie voor Defender voor Office 365 Abonnement 2). Campagneweergaven in het & compliancecentrum identificeren en categoriseren phishing-aanvallen in de service. Met campagneweergaven kunt u het volgende doen:
+Campagneweergaven is een functie in Microsoft Defender voor Office 365 Abonnement 2 (bijvoorbeeld Microsoft 365 E5 of organisaties met een invoegfunctie voor Defender voor Office 365 Abonnement 2). Campagneweergaven in het & compliancecentrum identificeren en categoriseren phishing-aanvallen in de service. Campagneweergaven kunnen u helpen met het volgende:
 
 - Onderzoek efficiënt en reageer op phishing-aanvallen.
 - Beter inzicht in de omvang van de aanval.
@@ -43,20 +43,20 @@ Met campagneweergaven kunt u sneller en completer het geheel van een aanval zien
 
 ## <a name="what-is-a-campaign"></a>Wat is een campagne?
 
-Een campagne is een gecoördineerde e-mail-aanval tegen een of meer organisaties. E-mailaanvallen die referenties en bedrijfsgegevens stelen, zijn een grote industrie. Naarmate technologieën de moeite nemen om aanvallen te stoppen, veranderen aanvallers hun methoden in een poging om het succes te waarborgen.
+Een campagne is een gecoördineerde e-mail-aanval tegen een of meer organisaties. E-mailaanvallen die referenties en bedrijfsgegevens stelen, zijn een grote industrie. Naarmate technologieën meer tijd in het werk nemen om aanvallen te stoppen, veranderen aanvallers hun methoden in een poging om het succes te waarborgen.
 
 Microsoft maakt gebruik van de grote hoeveelheden gegevens tegen phishing, antispam en malware in de hele service om campagnes te identificeren. We analyseren en classificeren de gegevens van de aanval op basis van verschillende factoren. Bijvoorbeeld:
 
 - **Aanvalsbron:** de IP-adressen van de bron en de e-maildomeinen van de afzender.
 - **Berichteigenschappen:** de inhoud, stijl en toon van de berichten.
-- **Geadresseerden van het bericht:** de verwanten van geadresseerden. Dit zijn bijvoorbeeld adresdomeinen, functies voor geadresseerden (beheerders, leidinggevenden, enzovoort), bedrijfstypen (grote, kleine, openbare, persoonlijke enzovoort) en bedrijfstakken.
+- **Geadresseerden van het bericht:** de relatie van geadresseerden. Dit zijn bijvoorbeeld adresdomeinen, functies voor geadresseerden (beheerders, leidinggevenden, enzovoort), bedrijfstypen (grote, kleine, openbare, persoonlijke enzovoort) en bedrijfstakken.
 - **Nettolading voor** aanvallen: kwaadaardige koppelingen, bijlagen of andere nettoladingen in de berichten.
 
 Een campagne kan van korte duur zijn of meerdere dagen, weken of maanden duren met actieve en inactieve perioden. Er kan een campagne worden gestart voor uw specifieke organisatie of uw organisatie maakt deel uit van een grotere campagne voor meerdere bedrijven.
 
 ## <a name="campaign-views-in-the-security--compliance-center"></a>Campagneweergaven in het & compliancecentrum
 
-Campagneweergaven zijn beschikbaar in het [& compliancecentrum bij](https://protection.office.com) bedreigingsbeheercampagnes of rechtstreeks op  \>  <https://protection.office.com/campaigns> .
+Campagneweergaven zijn beschikbaar in het & [compliancecentrum van](https://protection.office.com) **Bedreigingsbeheercampagnes** \> of rechtstreeks op <https://protection.office.com/campaigns> .
 
 ![Overzicht van campagnes in het beveiligings- & compliancecentrum](../../media/campaigns-overview.png)
 
@@ -164,11 +164,11 @@ Voor geavanceerdere filters, waaronder filteren op meerdere eigenschappen, kunt 
 
 Klik op de knop **Query** wanneer u klaar bent.
 
-Nadat u een eenvoudig of geavanceerd filter hebt gemaakt, kunt u het opslaan met behulp van **query** opslaan **of query opslaan als.** Wanneer u later terug gaat naar de campagneweergaven, kunt u een opgeslagen filter laden door op Opgeslagen **query-instellingen te klikken.**
+Nadat u een eenvoudig of geavanceerd filter hebt gemaakt, kunt u het opslaan met behulp van **query** Opslaan of **Query opslaan als.** Wanneer u later terug gaat naar de campagneweergaven, kunt u een opgeslagen filter laden door op Opgeslagen **query-instellingen te klikken.**
 
 Als u de grafiek of de lijst met campagnes wilt exporteren, klikt u op **Exporteren** en **selecteert** u Grafiekgegevens exporteren of **Campagnelijst exporteren.**
 
-Als u een abonnement hebt op Microsoft Defender for Endpoint, kunt u op **MDE-instellingen** klikken om verbinding te maken met de gegevens van de campagnes met Microsoft Defender voor eindpunt of de verbinding verbreken. Zie Microsoft Defender voor [Office 365](integrate-office-365-ti-with-wdatp.md)integreren met Microsoft Defender voor eindpunt voor meer informatie.
+Als u een abonnement hebt op Microsoft Defender for Endpoint, kunt u op **MDE-instellingen** klikken om verbinding te maken met de gegevens van de campagnes met Microsoft Defender for Endpoint of de verbinding verbreken. Zie Microsoft Defender voor [Office 365](integrate-office-365-ti-with-wdatp.md)integreren met Microsoft Defender voor eindpunt voor meer informatie.
 
 ## <a name="campaign-details"></a>Campagnedetails
 
@@ -184,7 +184,7 @@ Boven aan de weergave met campagnedetails zijn de volgende campagnegegevens besc
 
 - **Impact:** deze sectie bevat de volgende gegevens voor het datumbereikfilter dat u hebt geselecteerd (of dat u selecteert in de tijdlijn):
   - Het totale aantal geadresseerden.
-  - Het aantal berichten dat 'Postvak IN' is (dus bezorgd in het Postvak IN, niet in de map Ongewenste e-mail).
+  - Het aantal berichten dat 'Postvak IN' is (dat wil zeggen, bezorgd in het Postvak IN, niet in de map Ongewenste e-mail).
   - Het aantal gebruikers dat heeft geklikt op de URL-nettolading in het phishingbericht.
   - Het aantal gebruikers dat de URL heeft bezocht.
 
@@ -209,7 +209,7 @@ Als u de muisaanwijzer op een horizontale band in het diagram houdt, ziet u het 
 
 Het diagram bevat de volgende informatie:
 
-- **Afzender-IPs**
+- **Afzender-IP's**
 - **Afzenderdomeinen**
 - **Filterfilters:** Waarden voor filteren zijn gerelateerd aan de beschikbare phishing- en spamfilters zoals beschreven in berichtkoppen [tegen ongewenste e-mail.](anti-spam-message-headers.md) De beschikbare waarden worden in de volgende tabel beschreven:
 
@@ -217,23 +217,23 @@ Het diagram bevat de volgende informatie:
 
   |Value|Filter voor ongewenste e-mail|Beschrijving|
   |---|---|---|
-  |**Toegestaan**|`SFV:SKN` <p> `SFV:SKI`|Het bericht is gemarkeerd als niet-spam en/of is overgeslagen voordat het wordt geëvalueerd door spamfilters. Het bericht is bijvoorbeeld gemarkeerd als geen spam door een regel voor de e-mailstroom (ook wel transportregel genoemd). <p> Het bericht is om andere redenen overgeslagen naar spamfilters. De afzender en geadresseerde lijken zich bijvoorbeeld in dezelfde organisatie te maken.|
+  |**Toegestaan**|`SFV:SKN` <p> `SFV:SKI`|Het bericht is gemarkeerd als geen spam en/of is overgeslagen filteren voordat het wordt geëvalueerd door spamfilters. Het bericht is bijvoorbeeld gemarkeerd als geen spam door een regel voor de e-mailstroom (ook wel transportregel genoemd). <p> Het bericht heeft het spamfilter om een andere reden overgeslagen. De afzender en geadresseerde lijken zich bijvoorbeeld in dezelfde organisatie te maken.|
   |**Geblokkeerd**|`SFV:SKS`|Het bericht is gemarkeerd als spam voordat het werd geëvalueerd door spamfilters. Bijvoorbeeld door een regel voor de e-mailstroom.|
   |**Gedetecteerd**|`SFV:SPM`|Het bericht is gemarkeerd als spam door het spamfilter.|
   |**Niet gedetecteerd**|`SFV:NSPM`|Het bericht is gemarkeerd als geen spam door spamfilters.|
-  |**Uitgebracht**|`SFV:SKQ`|Het bericht heeft de spamfilters overgeslagen omdat het in quarantaine is geplaatst.|
+  |**Uitgebracht**|`SFV:SKQ`|Het bericht is overgeslagen naar spamfilters omdat het uit quarantaine is vrijgegeven.|
   |**Tenant toestaan**<sup>\*</sup>|`SFV:SKA`|Het bericht is overgeslagen in spamfilters vanwege de instellingen in een antispambeleid. De afzender staat bijvoorbeeld in de lijst met toegestane afzenders of in de lijst met toegestane domeinen.|
   |**Tenantblok**<sup>\*\*</sup>|`SFV:SKA`|Het bericht is geblokkeerd door spamfilters vanwege de instellingen in een antispambeleid. De afzender staat bijvoorbeeld in de lijst met toegestane afzenders of in de lijst met toegestane domeinen.|
   |**Toestaan door gebruiker**<sup>\*</sup>|`SFV:SFE`|Het bericht is overgeslagen naar spamfilters omdat de afzender in de lijst met veilige afzenders van een gebruiker stond.|
   |**Gebruikersblok**<sup>\*\*</sup>|`SFV:BLK`|Het bericht is geblokkeerd door spamfilters omdat de afzender in de lijst met geblokkeerde afzenders van een gebruiker staat.|
-  |**ZAP**|n.t.t.|[Met Auto Purge (ZAP)](zero-hour-auto-purge.md) van Nul uur is het bezorgde bericht verplaatst naar de map Ongewenste e-mail of quarantaine. U configureert de actie in uw antispambeleid.|
+  |**ZAP**|n.t.t.|[Met Zero-hour Auto Purge (ZAP)](zero-hour-auto-purge.md) wordt het bezorgde bericht verplaatst naar de map Ongewenste e-mail of quarantaine. U configureert de actie in uw antispambeleid.|
   |
 
   <sup>\*</sup> Controleer uw antispambeleid, omdat het toegestane bericht waarschijnlijk door de service is geblokkeerd.
 
   <sup>\*\*</sup> Controleer uw antispambeleid, omdat deze berichten in quarantaine moeten worden geplaatst en niet moeten worden bezorgd.
 
-- Bezorgingslocaties: Waarschijnlijk wilt u berichten onderzoeken die zijn bezorgd bij geadresseerden (in het Postvak IN of in de map Ongewenste e-mail), zelfs als gebruikers niet op de nettolading-URL in het bericht hebben geklikt. U kunt ook de in quarantaine geplaatste berichten uit quarantaine verwijderen. Zie In quarantaine [geplaatste e-mailberichten in EOP voor meer informatie.](quarantine-email-messages.md)
+- Bezorgingslocaties: Waarschijnlijk wilt u berichten onderzoeken die zijn bezorgd bij geadresseerden (in het Postvak IN of de map Ongewenste e-mail), zelfs als gebruikers niet op de nettolading-URL in het bericht hebben geklikt. U kunt ook de in quarantaine geplaatste berichten uit quarantaine verwijderen. Zie In quarantaine [geplaatste e-mailberichten in EOP voor meer informatie.](quarantine-email-messages.md)
   - **Map verwijderd**
   - **Afgekapt**
   - **Extern:** de geadresseerde bevindt zich in uw on-premises e-mailorganisatie in hybride omgevingen.
@@ -249,7 +249,7 @@ Het diagram bevat de volgende informatie:
 > [!NOTE]
 > In alle lagen die meer dan tien items bevatten, worden de bovenste 10 items weergegeven, terwijl de rest in Andere lagen is **gebundeld.**
 
-#### <a name="url-clicks"></a>Klikken op URL's
+#### <a name="url-clicks"></a>KLIKKEN op URL's
 
 Wanneer een phishingbericht wordt bezorgd in het Postvak IN of de map Ongewenste e-mail van een geadresseerde, bestaat de kans dat de gebruiker op de nettolading-URL klikt. Het niet klikken op de URL is een klein succes, maar u moet bepalen waarom het phishing-bericht zelfs in het postvak is afgeleverd.
 
@@ -257,7 +257,7 @@ Als een gebruiker op de nettoladings-URL heeft geklikt in het phishingbericht, w
 
 - **Toegestaan**
 - **BlockPage:** De ontvanger heeft op de nettoladings-URL geklikt, maar zijn of haar toegang tot de schadelijke website is geblokkeerd door een beleid voor [veilige](atp-safe-links.md) koppelingen in uw organisatie.
-- **BlockPageOverride:** de ontvanger heeft op de nettolading-URL in het bericht geklikt, veilige koppelingen hebben geprobeerd ze te stoppen, maar ze konden de blokkering overschrijven. Controleer het [beleid voor veilige](set-up-atp-safe-links-policies.md) koppelingen om te zien waarom het gebruikers is toegestaan om het beleid voor veilige koppelingen te overschrijven en door te gaan naar de schadelijke website.
+- **BlockPageOverride:** de ontvanger heeft op de nettolading-URL in het bericht geklikt, Veilige koppelingen hebben geprobeerd ze te stoppen, maar ze konden de blokkering overschrijven. Controleer het [beleid voor veilige](set-up-atp-safe-links-policies.md) koppelingen om te zien waarom het gebruikers is toegestaan om het beleid voor veilige koppelingen te overschrijven en door te gaan naar de schadelijke website.
 - **PendingDetonationPage:** Veilige bijlagen in Microsoft Defender voor Office 365 zijn bezig met het openen en onderzoeken van de nettolading-URL in een virtuele computeromgeving.
 - **PendingDetonationPageOverride:** de ontvanger kon het nettoladingsdetonatieproces overschrijven en de URL openen zonder te wachten op de resultaten.
 
@@ -274,12 +274,12 @@ Met de tabbladen in de weergave Campagnedetails kunt u de campagne verder onderz
   - **Klik op tijd**
   - **Klik op een klik**
 
-- **Afzender-IPs**
+- **Afzender-IP's**
   - **AFZENDER-IP**<sup>\*</sup>
   - **Totaal aantal**
   - **Postvak IN**
   - **Niet postvak IN**
-  - **SPF doorgegeven:** De afzender is geverifieerd door [SPF (Sender Policy Framework).](how-office-365-uses-spf-to-prevent-spoofing.md) Een afzender die niet door SPF-validatie komt, geeft een niet-geauteerde afzender aan of het bericht vervalst een legitieme afzender.
+  - **SPF doorgegeven:** de afzender is geverifieerd door [SPF (Sender Policy Framework).](how-office-365-uses-spf-to-prevent-spoofing.md) Een afzender die niet door SPF-validatie komt, geeft een niet-geauteerde afzender aan of het bericht vervalst een legitieme afzender.
 
 - **Afzenders**
   - **Afzender:** dit is het adres van de werkelijke afzender in de opdracht SMTP MAIL FROM, wat niet noodzakelijkerwijs het Van-e-mailadres is dat gebruikers zien in hun e-mail clients.
@@ -299,7 +299,7 @@ Met de tabbladen in de weergave Campagnedetails kunt u de campagne verder onderz
   - **URL**<sup>\*</sup>
   - **Total Count**
 
-<sup>\*</sup> Als u op deze waarde klikt, wordt een nieuwe flyout geopend met meer informatie over het opgegeven item (gebruiker, URL, enzovoort) boven aan de weergave met campagnegegevens. Als u wilt terugkeren naar de weergave met campagnedetails, **klikt** u op Klaar in de nieuwe flyout.
+<sup>\*</sup> Als u op deze waarde klikt, wordt een nieuwe flyout geopend met meer informatie over het opgegeven item (gebruiker, URL, enzovoort) boven aan de weergave met campagnegegevens. Als u wilt terugkeren naar de weergave met campagnedetails, klikt u op **Klaar** in de nieuwe flyout.
 
 ### <a name="buttons"></a>Knoppen
 

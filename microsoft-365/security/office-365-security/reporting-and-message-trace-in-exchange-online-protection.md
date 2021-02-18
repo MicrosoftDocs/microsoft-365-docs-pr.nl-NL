@@ -15,21 +15,21 @@ ms.custom:
 description: In dit artikel vindt u informatie over rapporten en hulpprogramma's voor probleemoplossing die beschikbaar zijn voor beheerders van Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 86c9eb0ee050c4c1a40ef7f29ea3d01dc202be9a
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 783c7ea0aca47c805daf66592b401a98f739d071
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166673"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288077"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rapportage en bericht traceren in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken biedt EOP veel verschillende rapporten die u kunnen helpen de algehele status en status van uw organisatie te bepalen. Er zijn ook hulpprogramma's om u te helpen bij het oplossen van specifieke gebeurtenissen (zoals een bericht dat niet is aangekomen bij de beoogde geadresseerden) en het controleren van rapporten om u te helpen voldoen aan de nalevingsvereisten.
 
@@ -37,7 +37,7 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 
 **Activiteit in Microsoft 365-groepen:** informatie weergeven over het aantal Microsoft 365-groepen dat wordt gemaakt en gebruikt.
 
-**E-mailactiviteit:** bekijk informatie over het aantal verzonden, ontvangen en gelezen berichten in de hele organisatie en door specifieke gebruikers.
+**E-mailactiviteit:** informatie weergeven over het aantal verzonden, ontvangen en gelezen berichten in de hele organisatie en door specifieke gebruikers.
 
 **Gebruik van e-mailapps:** bekijk informatie over de e-mailapps die worden gebruikt. Dit omvat het totale aantal verbindingen voor elke app en de versies van Outlook die verbinding maken.
 
@@ -45,13 +45,13 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 
 Zie de volgende bronnen voor meer informatie:
 
-- [Microsoft 365-rapporten in het beheercentrum - Microsoft 365-groepen](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
+- [Microsoft 365-rapporten in het beheercentrum - Microsoft 365-groepen](../../admin/activity-reports/office-365-groups.md)
 
-- [Microsoft 365-rapporten in het beheercentrum - E-mailactiviteit](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
+- [Microsoft 365-rapporten in het beheercentrum - E-mailactiviteit](../../admin/activity-reports/email-activity.md)
 
-- [Microsoft 365-rapporten in het beheercentrum - Gebruik van e-mailapps](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
+- [Microsoft 365-rapporten in het beheercentrum - Gebruik van e-mailapps](../../admin/activity-reports/email-apps-usage.md)
 
-- [Microsoft 365-rapporten in het beheercentrum - Postvakgebruik](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
+- [Microsoft 365-rapporten in het beheercentrum - Postvakgebruik](../../admin/activity-reports/mailbox-usage.md)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Beveiligingsrapporten & compliancerapporten in het Microsoft 365-beheercentrum
 
@@ -71,7 +71,7 @@ Via programmatisch rapporten maken die beschikbaar zijn in het beheercentrum met
 
 Volgt e-mailberichten terwijl ze door EOP reizen. U kunt bepalen of een e-mailbericht is ontvangen, geweigerd, uitgesteld of bezorgd door de service. U ziet ook welke acties er zijn uitgevoerd op het bericht voordat het de uiteindelijke status heeft bereikt.
 
-U kunt deze informatie gebruiken om efficiënt antwoord te geven op vragen van gebruikers, problemen met de e-mailstroom op te lossen, beleidswijzigingen te valideren en de noodzaak om contact op te nemen met de technische ondersteuning voor hulp.
+U kunt deze informatie gebruiken om op een efficiënte manier antwoord te geven op vragen van gebruikers, problemen met de e-mailstroom op te lossen, beleidswijzigingen te valideren en de noodzaak om contact op te nemen met de technische ondersteuning voor hulp.
 
 Zie [Bericht traceren in het beveiligings- & Compliancecentrum.](message-trace-scc.md)
 
@@ -85,10 +85,10 @@ In de volgende tabel wordt beschreven wanneer gegevens over EOP-rapporten en ber
 
 ****
 
-|Rapporttype|Gegevens beschikbaar voor (terugkijken termijn)|Latentie|
+|Rapporttype|Gegevens die beschikbaar zijn voor (terugkijken periode)|Latentie|
 |---|---|---|
 |Overzichtsrapporten voor E-mailbeveiliging|90 dagen|De aggregatie van berichtgegevens wordt meestal binnen 24-48 uur voltooid. Enkele kleine, incrementele samengevoegde wijzigingen kunnen maximaal 5 dagen duren.|
-|Detailrapporten over E-mailbeveiliging|90 dagen|Voor detailgegevens die minder dan zeven dagen oud zijn, worden gegevens binnen 24 uur weergegeven, maar zijn ze mogelijk pas na 48 uur voltooid. Enkele kleine incrementele wijzigingen kunnen maximaal 5 dagen duren. <p> Als u detailrapporten wilt weergeven voor berichten die meer dan zeven dagen oud zijn, kunnen de resultaten enkele uren in duren.|
+|Detailrapporten over E-mailbeveiliging|90 dagen|Voor detailgegevens die minder dan zeven dagen oud zijn, worden gegevens binnen 24 uur weergegeven, maar zijn ze mogelijk pas na 48 uur voltooid. Enkele kleine incrementele wijzigingen kunnen maximaal 5 dagen duren. <p> Als u detailrapporten wilt weergeven voor berichten die meer dan zeven dagen oud zijn, kan het enkele uren duren voordat de resultaten zijn bekeken.|
 |Gegevens voor bericht traceren|90 dagen|Wanneer u een bericht traceren voor berichten die minder dan zeven dagen oud zijn, worden de berichten binnen 5-30 minuten weergegeven.<p> Wanneer u een bericht traceren voor berichten die groter zijn dan zeven dagen oud, kan het enkele uren duren.|
 |
 

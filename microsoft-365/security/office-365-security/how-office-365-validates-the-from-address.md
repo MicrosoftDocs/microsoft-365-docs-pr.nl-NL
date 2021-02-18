@@ -19,27 +19,27 @@ description: Beheerders kunnen informatie krijgen over de typen e-mailadressen d
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7c2cbec49082fbded857dde13f73516fd3e0fd5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: f8ced200c2e521533c1dec8a9d0917add7ca058f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167513"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287817"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>Hoe EOP het Van-adres valideert om phishing te voorkomen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Phishing-aanvallen vormen een constante bedreiging voor elke e-mailorganisatie. Naast het gebruik van e-mailadressen met vervalste [(vervalste) afzenders](anti-spoofing-protection.md)gebruiken aanvallers vaak waarden in het Van-adres die in strijd zijn met internetstandaarden. Om dit type phishing te voorkomen, vereisen Exchange Online Protection (EOP) en Outlook.com nu inkomende berichten met een RFC-compatibel Van-adres, zoals beschreven in dit artikel. Dit afdwingen is ingeschakeld in november 2017.
 
 **Opmerkingen**:
 
-- Als u regelmatig e-mail ontvangt van organisaties die een verkeerd geadresseerde van een adres hebben gekregen, zoals beschreven in dit artikel, moedigt u deze organisaties aan hun e-mailservers bij te werken zodat ze voldoen aan de moderne beveiligingsstandaarden.
+- Als u regelmatig e-mail ontvangt van organisaties die een verkeerd geadresseerde Van-adres hebben, zoals beschreven in dit artikel, moedigt u deze organisaties aan om hun e-mailservers bij te werken zodat ze voldoen aan moderne beveiligingsstandaarden.
 
 - Deze vereisten gelden niet voor het veld gerelateerde afzender (dat wordt gebruikt door Verzenden namens en adressenlijsten). Zie het volgende blogbericht voor meer informatie: Wat betekenen we als we naar de ['afzender'](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)van een e-mailbericht verwijzen?
 
@@ -49,13 +49,13 @@ Een standaard SMTP-e-mailbericht bestaat uit een *envelop met berichten* en beri
 
 - Het adres (ook wel bekend als het `5321.MailFrom` MAIL **FROM-adres,** de afzender van P1 of de afzender van de envelop) is het e-mailadres dat wordt gebruikt in de SMTP-verzending van het bericht. Dit e-mailadres wordt  meestal opgenomen in het koptekstveld Retourpad in de berichtkoptekst (hoewel de afzender een ander **e-mailadres** voor het retourpad kan aanwijzen).
 
-- De afzender (ook wel van-adres of P2-afzender genoemd) is het e-mailadres in het veld Van en is het e-mailadres van de afzender dat wordt weergegeven `5322.From` in e-mail clients.  Het van-adres heeft de focus op de vereisten in dit artikel.
+- De afzender (ook wel het Van-adres of P2 genoemd) is het e-mailadres in het veld Van en is het e-mailadres van de afzender dat wordt weergegeven `5322.From` in e-mail clients.  Het van-adres heeft de focus op de vereisten in dit artikel.
 
-Het van-adres wordt in detail gedefinieerd voor verschillende RFCs (bijvoorbeeld RFC 5322 secties 3.2.3, 3.4 en 3.4.1 en [RFC 3696).](https://tools.ietf.org/html/rfc3696) Er zijn veel variaties op adressering en wat wordt beschouwd als geldig of ongeldig. Om het simpel te houden, raden we de volgende opmaak en definities aan:
+Het van-adres wordt in detail gedefinieerd voor verschillende RFCs (bijvoorbeeld RFC 5322 secties 3.2.3, 3.4 en 3.4.1 en [RFC 3696).](https://tools.ietf.org/html/rfc3696) Er zijn veel variaties op adressering en wat wordt beschouwd als geldig of ongeldig. Om het eenvoudig te houden, raden we de volgende opmaak en definities aan:
 
 `From: "Display Name" <EmailAddress>`
 
-- **Weergavenaam:** een optionele woordgroep die de eigenaar van het e-mailadres beschrijft.
+- **Weergavenaam:** een optioneel zinsdeel waarin de eigenaar van het e-mailadres wordt beschreven.
 
   - Het is raadzaam de weergavenaam altijd tussen dubbele aanhalingstekens (") te plaatsen, zoals hier wordt weergegeven. Als de weergavenaam een komma bevat, moet u de tekenreeks tussen dubbele aanhalingstekens plaatsen per RFC 5322. 
   - Als het Van-adres een weergavenaam bevat, moet de waarde EmailAddress tussen hoekhaken (< >) staan, zoals weergegeven.
@@ -112,7 +112,7 @@ De volgende Van-e-mailadressen zijn ongeldig:
 
 ## <a name="suppress-auto-replies-to-your-custom-domain"></a>Automatische antwoorden op uw aangepaste domein onderdrukken
 
-U kunt de waarde niet gebruiken om `From: <>` automatische antwoorden te onderdrukken. In plaats daarvan moet u een null MX-record instellen voor uw aangepaste domein. Automatische antwoorden (en alle antwoorden) worden op natuurlijke wijze onderdrukken omdat er geen gepubliceerd adres is dat de server kan verzenden om berichten naar te verzenden.
+U kunt de waarde niet gebruiken om `From: <>` automatische antwoorden te onderdrukken. In plaats daarvan moet u een null MX-record instellen voor uw aangepaste domein. Automatische antwoorden (en alle antwoorden) worden op natuurlijke wijze onderdrukken omdat er geen gepubliceerd adres is waar de server berichten naar kan verzenden.
 
 - Kies een e-maildomein dat geen e-mail kan ontvangen. Als uw primaire domein bijvoorbeeld contoso.com is, kunt u noreply.contoso.com.
 

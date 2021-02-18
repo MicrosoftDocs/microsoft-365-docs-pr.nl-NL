@@ -15,24 +15,24 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Beheerders kunnen veelgestelde vragen en antwoorden over beveiliging tegen spoofing bekijken in Exchange Online Protection (EOP).
+description: Beheerders kunnen veelgestelde vragen en antwoorden over bescherming tegen spoofing bekijken in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d0805b5ca9e951234679ed8b3d03b6bdfced2be
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: d2d307d201af8ad09a4faf7a865a29da8942bdf8
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175888"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288907"
 ---
 # <a name="anti-spoofing-protection-faq"></a>Veelgestelde vragen over beveiliging tegen adresvervalsing
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Dit artikel bevat veelgestelde vragen en antwoorden over bescherming tegen spoofing voor Microsoft 365-organisaties met postvakken in Exchange Online, of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken.
 
@@ -40,7 +40,7 @@ Zie Veelgestelde vragen en antwoorden over bescherming tegen ongewenste [e-mail.
 
 Voor vragen en antwoorden over bescherming tegen malware, zie [veelgestelde vragen over bescherming tegen malware](anti-malware-protection-faq-eop.md)
 
-## <a name="why-did-microsoft-choose-to-junk-unauthenticated-inbound-email"></a>Waarom heeft Microsoft gekozen voor inkomende e-mail die niet is geauverticeerd?
+## <a name="why-did-microsoft-choose-to-junk-unauthenticated-inbound-email"></a>Waarom heeft Microsoft gekozen voor ongewenste inkomende e-mail?
 
 Microsoft is van mening dat het risico op het blijven toestaan van niet-geauteerde inkomende e-mail hoger is dan het risico op het verliezen van legitieme inkomende e-mail.
 
@@ -64,7 +64,7 @@ Zie [U weet niet alle bronnen voor uw e-mail.](email-validation-and-authenticati
 
 ## <a name="what-happens-if-i-disable-anti-spoofing-protection-for-my-organization"></a>Wat gebeurt er als ik de beveiliging tegen spoofing voor mijn organisatie uitspoe?
 
-Het wordt afgeraden om bescherming tegen spoofing uit te uitschakelen. Door de beveiliging uit te stellen kunnen er meer phishing- en spamberichten worden afgeleverd in uw organisatie. Niet alle phishingberichten worden vervalst en niet alle vervalste berichten worden gemist. Uw risico is echter hoger.
+Het wordt afgeraden om bescherming tegen spoofing uit te uitschakelen. Door de beveiliging uit te stellen, kunnen er meer phishing- en spamberichten worden afgeleverd in uw organisatie. Niet alle phishingberichten worden vervalst en niet alle vervalste berichten worden gemist. Uw risico is echter hoger.
 
 Nu [Enhanced Filtering for Connectors](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) beschikbaar is, raden we niet langer aan om de beveiliging tegen spoofing uit te schakelen wanneer uw e-mail wordt doorverrouteerd via een andere service vóór EOP.
 
@@ -74,7 +74,7 @@ Helaas niet. Aanvallers passen zich aan om andere technieken te gebruiken (bijvo
 
 ## <a name="do-other-large-email-services-block-unauthenticated-inbound-email"></a>Blokkeren andere grote e-mailservices niet-geauteerde inkomende e-mail?
 
-Bijna alle grote e-mailservices implementeren traditionele SPF-, DKIM- en DMARC-controles. Bij sommige services gelden andere, striktere controles, maar slechts weinig services zijn zo ver als EOP om niet-geauteerde e-mail te blokkeren en deze te behandelen als vervalste berichten. De branche wordt echter steeds meer op de hoogte van problemen met niet-geauteerde e-mail, met name vanwege het probleem van phishing.
+Bijna alle grote e-mailservices implementeren traditionele SPF-, DKIM- en DMARC-controles. Sommige services hebben andere, striktere controles, maar slechts weinig services zijn zo ver als EOP om niet-geauteerde e-mail te blokkeren en deze te behandelen als vervalste berichten. De branche wordt echter steeds meer op de hoogte van problemen met niet-geauteerde e-mail, met name vanwege het probleem van phishing.
 
 ## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Moet ik nog steeds de instelling voor het geavanceerde spamfilter 'SPF-record: hard fail'_(MarkAsSpamSpfRecordHardFail)_ inschakelen als ik anti-spoofing inschakelen?
 

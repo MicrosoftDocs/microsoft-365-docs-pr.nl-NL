@@ -17,20 +17,20 @@ ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: Gebruik deze stapsgewijse implementatiehandleiding voor het maken en configureren van een geïsoleerd SharePoint Online-teamsite in Microsoft Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b1f0342afc92b4540330417ad0fc9cabe1dc8a8
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d226a545c3f8dc274f02e5d54d39739fe5d981ea
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165497"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288345"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite implementeren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
  **Overzicht:** Implementeer een nieuwe afzonderlijke SharePoint Online-teamsite met deze stapsgewijs instructies.
 
@@ -47,7 +47,7 @@ In deze fase maakt u de drie op Azure AD gebaseerde toegangsgroepen voor de drie
 
 Bepaal welke set gebruikersaccounts overeenkomt met de SharePoint Online-beheerders voor de geïsoleerde teamsite.
 
-Als u gebruikersaccounts en -groepen beheert via Microsoft 365 en Windows PowerShell wilt gebruiken, maakt u een lijst met hun UPN's (User Principal Names) (voorbeeld UPN: belindan@contoso.com).
+Als u gebruikersaccounts en groepen beheert via Microsoft 365 en Windows PowerShell wilt gebruiken, maakt u een lijst met upn's (User Principal Names) (voorbeeld UPN: belindan@contoso.com).
 
 ### <a name="step-2-list-the-members-for-the-site"></a>Stap 2: Een lijst maken met de leden voor de site
 
@@ -57,11 +57,11 @@ Als u gebruikersaccounts en -groepen beheert via Microsoft 365 en PowerShell wil
 
 ### <a name="step-3-list-the-viewers-for-the-site"></a>Stap 3: De viewers voor de site in een lijst plaatsen
 
-Bepaal welke set gebruikersaccounts overeenkomt met de gebruikers van de geïsoleerde teamsite, personen die de resources kunnen bekijken die op de site zijn opgeslagen, maar niet kunnen wijzigen of rechtstreeks kunnen samenwerken aan hun inhoud.
+Bepaal de set gebruikersaccounts die overeenkomen met de gebruikers van de geïsoleerde teamsite, personen die de resources kunnen bekijken die op de site zijn opgeslagen, maar niet kunnen wijzigen of rechtstreeks kunnen samenwerken aan de inhoud.
 
 Als u gebruikersaccounts en -groepen beheert via Microsoft 365 en PowerShell wilt gebruiken, maakt u een lijst met hun UPN's. Als er veel siteleden zijn, kunt u de lijst met UPN's opslaan in een tekstbestand en ze allemaal toevoegen met één PowerShell-opdracht.
 
-Gebruikers van de site kunnen bijvoorbeeld leidinggevenden, juridische vertegenwoordigers of belanghebbenden tussen de afdelingen omvatten.
+Gebruikers van de site kunnen bijvoorbeeld leidinggevenden, juridische vertegenwoordigers of belanghebbenden tussen afdelingen bevatten.
 
 ### <a name="step-4-create-the-three-access-groups-for-the-site-in-azure-ad"></a>Stap 4: De drie toegangsgroepen voor de site maken in Azure AD
 
@@ -106,13 +106,13 @@ Ga in deze stap als volgt te werk:
 2. Voeg de lijst met gebruikers uit stap 2 toe aan de groep met siteleden.
 3. Voeg de lijst met gebruikers uit stap 3 toe aan de groep voor sitegebruikers.
 
-Als u gebruikersaccounts en -groepen beheert via Active Directory Domain Services (AD DS), voegt u gebruikers toe aan de juiste toegangsgroepen met behulp van de gebruikelijke AD DS-gebruikers- en groepsbeheerprocedures en wacht u op synchronisatie met uw Microsoft 365-abonnement.
+Als u gebruikersaccounts en -groepen beheert via Active Directory Domain Services (AD DS), voegt u gebruikers toe aan de juiste toegangsgroepen met behulp van uw normale AD DS-gebruikers- en -groepsbeheerprocedures en wacht u op synchronisatie met uw Microsoft 365-abonnement.
 
 Als u gebruikersaccounts en -groepen beheert via Office 365, kunt u het Microsoft 365-beheercentrum of PowerShell gebruiken. Als u dubbele groepsnamen hebt voor een van de toegangsgroepen, gebruikt u het Microsoft 365-beheercentrum.
 
 Meld u voor het Microsoft 365-beheercentrum aan met een gebruikersaccount aan welke de rol Gebruikersaccountbeheerder of Bedrijfsbeheerder is toegewezen en gebruik Groepen om de juiste gebruikersaccounts en -groepen toe te voegen aan de juiste toegangsgroepen.
 
-Maak voor PowerShell eerst [verbinding met de Azure Active Directory PowerShell for Graph-module.](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Maak voor PowerShell eerst [verbinding met de Azure Active Directory PowerShell for Graph-module.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 Gebruik vervolgens het volgende opdrachtblok om een afzonderlijk gebruikersaccount toe te voegen aan een toegangsgroep:
 
@@ -220,10 +220,10 @@ De resultaten van deze machtigingsinstellingen zijn:
 
 - De **\<site name> SharePoint-groep** Eigenaren bevat de toegangsgroep voor sitebeheerders, waarin alle leden het machtigingsniveau Volledig **beheer** hebben.
 - De **\<site name>** SharePoint-groep Leden bevat de toegangsgroep voor siteleden, waarin alle leden het **machtigingsniveau Bewerken** hebben.
-- De **\<site name> SharePoint-groep** Bezoekers bevat de groep Bezoekers van de site, waarin alle leden het **machtigingsniveau** Lezen hebben.
+- De **\<site name>** SharePoint-groep Bezoekers bevat de groep Bezoekers van de site, waarin alle leden het **machtigingsniveau** Lezen hebben.
 - De mogelijkheid voor leden om andere leden of niet-leden uit te nodigen om toegang aan te vragen, is uitgeschakeld.
 
-Hier is uw resulterende configuratie met de drie SharePoint-groepen voor de site geconfigureerd voor gebruik van de drie toegangsgroepen, die worden gevuld met gebruikersaccounts of Azure AD-groepen.
+Hier is uw resulterende configuratie met de drie SharePoint-groepen voor de site geconfigureerd voor het gebruik van de drie toegangsgroepen, die worden gevuld met gebruikersaccounts of Azure AD-groepen.
 
 ![De uiteindelijke configuratie van uw afzonderlijke SharePoint Online-site met toegangsgroepen en gebruikersaccounts.](../../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
 
@@ -231,7 +231,7 @@ U en de leden van de site kunnen nu via groepslidmaatschap in een van de toegang
 
 ## <a name="next-step"></a>Volgende stap
 
-Zie Een afzonderlijke [SharePoint Online-teamsite](manage-an-isolated-sharepoint-online-team-site.md)beheren wanneer u het groepslidmaatschap van de site wilt wijzigen of een documentmap met aangepaste machtigingen wilt maken.
+Zie Een afzonderlijke [SharePoint Online-teamsite](manage-an-isolated-sharepoint-online-team-site.md)beheren wanneer u het groepslidmaatschap van een site wilt wijzigen of een documentmap met aangepaste machtigingen wilt maken.
 
 ## <a name="see-also"></a>Zie ook
 

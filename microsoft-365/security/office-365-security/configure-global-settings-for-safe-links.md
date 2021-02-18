@@ -18,20 +18,20 @@ ms.collection:
 description: Beheerders kunnen meer informatie krijgen over het weergeven en configureren van globale instellingen (de lijst 'De volgende URL's blokkeren' en beveiliging voor Office 365-apps) voor veilige koppelingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 885fe6a06cce054bea6d6f20c24c5c1f2a159c07
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d52a4dc5ed35ec73c1410d6428a581b098bf2c52
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165725"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287459"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Algemene instellingen configureren voor veilige koppelingen in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](office-365-atp.md) hebben. Als u een thuisgebruiker bent en op zoek bent naar informatie over Safelinks in Outlook, gaat u naar [Advanced Outlook.com security.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
@@ -63,18 +63,18 @@ U kunt de globale instellingen voor veilige koppelingen configureren in het beve
 
   **Opmerkingen**:
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Zie instellingen voor veilige koppelingen voor de aanbevolen waarden voor de globale instellingen [voor veilige koppelingen.](recommended-settings-for-eop-and-office365-atp.md#safe-links-settings)
 
 - Het kan 30 minuten duren voordat een nieuw of bijgewerkt beleid wordt toegepast.
 
-- [Nieuwe functies worden voortdurend toegevoegd aan Microsoft Defender voor Office 365.](office-365-atp.md#new-features-in-microsoft-defender-for-office-365) Naarmate er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande beleidsregels voor veilige koppelingen aanpassen.
+- [Nieuwe functies worden voortdurend toegevoegd aan Microsoft Defender voor Office 365.](office-365-atp.md#new-features-in-microsoft-defender-for-office-365) Als er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande beleidsregels voor veilige koppelingen aanpassen.
 
 ## <a name="configure-the-block-the-following-urls-list-in-the-security--compliance-center"></a>De lijst 'De volgende URL's blokkeren' configureren in het & compliancecentrum
 
-In **de lijst Met de volgende URL's** blokkeren worden de koppelingen geïdentificeerd die altijd moeten worden geblokkeerd door het scannen van veilige koppelingen in ondersteunde apps. Zie de lijst ['De volgende URL's blokkeren' voor meer](atp-safe-links.md#block-the-following-urls-list-for-safe-links)informatie over veilige koppelingen.
+In **de lijst Met de volgende URL's** blokkeren worden de koppelingen geïdentificeerd die altijd moeten worden geblokkeerd door het scannen van veilige koppelingen in ondersteunde apps. Zie de lijst ['De volgende URL's blokkeren'](atp-safe-links.md#block-the-following-urls-list-for-safe-links)voor meer informatie over veilige koppelingen.
 
 1. Ga in het & compliancecentrum naar  Veilige koppelingen van ATP voor bedreigingsbeheerbeleid en klik op \>  \>  **Globale instellingen.**
 
@@ -99,7 +99,7 @@ U kunt de cmdlet **Get-AtpPolicyForO365** gebruiken om bestaande vermeldingen in
   In dit voorbeeld worden de volgende items toegevoegd aan de lijst:
 
   - Blokkeer het domein, subdomeinen en paden voor fabrikam.com.
-  - Het subdomeinonderzoek blokkeren, maar niet het bovenliggende domein of andere subdomeinen in tailspintoys.com
+  - Het onderzoek van het subdomein blokkeren, maar niet het bovenliggende domein of andere subdomeinen in tailspintoys.com
 
   ```powershell
   Set-AtpPolicyForO365 -BlockUrls "fabrikam.com","https://research.tailspintoys.com*"
@@ -125,9 +125,9 @@ Beveiliging tegen veilige koppelingen voor Office 365-apps is van toepassing op 
 
 2. In het **beleid voor veilige koppelingen voor uw** organisatie dat wordt weergegeven, configureert u de volgende instellingen in de instellingen die van toepassing zijn op inhoud behalve **e-mailsectie:**
 
-   - **Office 365-toepassingen:** controleer of de schakelknop aan de rechterkant staat om Veilige koppelingen in te schakelen voor ondersteunde Office 365-apps: ![ In-/uitschakelen. ](../../media/scc-toggle-on.png)
+   - **Office 365-toepassingen:** controleer of de schakelknop aan de rechterkant is om Veilige koppelingen in te schakelen voor ondersteunde Office 365-apps: ![ In-/uitschakelen. ](../../media/scc-toggle-on.png)
 
-   - **Houd niet bij** wanneer gebruikers op Veilige koppelingen klikken: zet de schakelaar naar links om klikken van gebruikers met betrekking tot geblokkeerde URL's in ondersteunde Office 365-apps bij te ![ houden: In-/uitschakelen. ](../../media/scc-toggle-off.png)
+   - **Houd niet bij** wanneer gebruikers op Veilige koppelingen klikken: zet de schakelaar naar links om het klikken van gebruikers met betrekking tot geblokkeerde URL's in ondersteunde Office 365-apps bij te ![ houden: In-/uitschakelen. ](../../media/scc-toggle-off.png)
 
    - Laat gebruikers niet doorklikken naar de oorspronkelijke **URL:** controleer of de schakelknop aan de rechterkant is om te voorkomen dat gebruikers doorklikken naar de oorspronkelijke, geblokkeerde URL in ondersteunde Office 365-apps: In-/uitschakelen. ![ ](../../media/scc-toggle-on.png)
 
@@ -135,17 +135,17 @@ Beveiliging tegen veilige koppelingen voor Office 365-apps is van toepassing op 
 
 ### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>Beveiliging van veilige koppelingen configureren voor Office 365-apps in PowerShell
 
-Als u liever PowerShell gebruikt om beveiliging tegen veilige koppelingen voor Office 365-apps te configureren, gebruikt u de volgende syntaxis in Exchange Online PowerShell of Exchange Online Protection PowerShell:
+Als u liever PowerShell gebruikt voor het configureren van beveiliging tegen veilige koppelingen voor Office 365-apps, gebruikt u de volgende syntaxis in Exchange Online PowerShell of Exchange Online Protection PowerShell:
 
 ```powershell
 Set-AtpPolicyForO365 [-EnableSafeLinksForO365Clients <$true | $false> [-AllowClickThrough <$true | $false>] [-TrackClicks <$true | $false>]
 ```
 
-In dit voorbeeld worden de volgende instellingen geconfigureerd voor beveiliging tegen veilige koppelingen in Office 365-apps:
+In dit voorbeeld worden de volgende instellingen geconfigureerd voor het beschermen van veilige koppelingen in Office 365-apps:
 
 - Veilige koppelingen voor Office 365-apps is ingeschakeld (we gebruiken niet de parameter _EnableSafeLinksForO365Clients_ en de standaardwaarde is $true).
 - Klikken van gebruikers met betrekking tot geblokkeerde URL's in ondersteunde Office 365-apps worden bijgehouden.
-- Gebruikers kunnen niet doorklikken naar de oorspronkelijke, geblokkeerde URL in ondersteunde Office 365-apps (we gebruiken de parameter _AllowClickThrough_ niet en de standaardwaarde is $false).
+- Gebruikers kunnen niet doorklikken naar de oorspronkelijke geblokkeerde URL in ondersteunde Office 365-apps (we gebruiken de parameter _AllowClickThrough_ niet en de standaardwaarde is $false).
 
 ```powershell
 Set-AtpPolicyForO365 -TrackClicks $true
@@ -157,7 +157,7 @@ Zie [Set-AtpPolicyForO365 voor](https://docs.microsoft.com/powershell/module/exc
 
 Als u wilt controleren of u de globale instellingen voor veilige koppelingen hebt geconfigureerd (de lijst met de volgende **URL's** en de beveiligingsinstellingen voor Office 365-apps blokkeren), gaat u op een van de volgende stappen te werk:
 
-- Ga in het & compliancecentrum naar  Veilige koppelingen van ATP voor risicobeheerbeleid, klik op Globale instellingen en controleer de instellingen in de \>  \> fly out die wordt weergegeven. 
+- Ga in het & compliancecentrum naar  Veilige koppelingen voor \>  \> bedreigingsbeheer **ATP,** klik op **Globale** instellingen en controleer de instellingen in de fly out die wordt weergegeven.
 
 - Voer in Exchange Online PowerShell of Exchange Online Protection PowerShell de volgende opdracht uit en controleer de instellingen:
 

@@ -17,12 +17,12 @@ ms.collection:
 description: Meer informatie over de standaardbeveiligingsinstelling in Exchange Online Protection (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 51b33afa6b07c040e6aa18abe996c78b770f0773
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 4a507abce8c18657794b56570241570e5048b89d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166577"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288511"
 ---
 # <a name="secure-by-default-in-office-365"></a>Standaard beveiligd in Office 365
 
@@ -30,9 +30,9 @@ ms.locfileid: "50166577"
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Standaard beveiligd is een term die wordt gebruikt om de standaardinstellingen te definiëren die zo veilig mogelijk zijn.
 
@@ -45,11 +45,11 @@ Beveiliging moet echter in balans zijn met productiviteit. Dit kan onder andere 
 Microsoft 365-organisaties met postvakken in Exchange Online worden beveiligd door Exchange Online Protection (EOP). Deze beveiliging omvat:
 
 - E-mail met verdachte malware wordt automatisch in quarantaine geplaatst en geadresseerden worden op de hoogte gesteld. Zie [Antimalwarebeleid configureren in EOP.](configure-anti-malware-policies.md)
-- E-mail die wordt aangemerkt als zeer vertrouwelijk phishing, wordt verwerkt volgens de actie in het antispambeleid. Zie [Antispambeleid configureren in EOP.](configure-your-spam-filter-policies.md)
+- E-mailberichten die zijn aangemerkt als zeer vertrouwelijk phishing, worden verwerkt volgens de actie in het antispambeleid. Zie [Antispambeleid configureren in EOP.](configure-your-spam-filter-policies.md)
 
 Zie het overzicht van [Exchange Online Protection](exchange-online-protection-overview.md)voor meer informatie over EOP.
 
-Omdat Microsoft onze klanten standaard beveiligd wil houden, worden sommige tenants niet toegepast op malware of phishing met hoge betrouwbaarheid. Dit zijn onder andere:
+Omdat Microsoft onze klanten standaard beveiligd wil houden, worden sommige tenants niet toegepast op malware of phishing met hoge betrouwbaarheid. Dit zijn onder andere de volgende overschrijvingen:
 
 - Lijsten met toegestane afzenders of lijsten met toegestane domeinen (antispambeleid)
 - Veilige afzenders in Outlook
@@ -64,11 +64,11 @@ Standaard beveiligen is geen instelling die kan worden in- of uitgeschakeld, maa
 
 ## <a name="more-on-why-were-doing-this"></a>Meer informatie over waarom we dit doen
 
-De gedachte om standaard veilig te zijn is: we voeren dezelfde actie uit op het bericht dat u zou ondernemen als u het bericht kwaadwillig zou kennen, zelfs wanneer een geconfigureerde uitzondering het bericht anders zou bezorgen. Dit is dezelfde methode die we altijd al hebben gebruikt voor malware, en nu wordt ditzelfde gedrag uitgebreid naar phishingberichten met een hoge betrouwbaarheid.
+De gedachte om standaard veilig te zijn is: we voeren dezelfde actie uit op het bericht dat u zou ondernemen als u de schadelijke berichten kent, zelfs wanneer een geconfigureerde uitzondering het bericht anders zou bezorgen. Dit is dezelfde methode die we altijd al hebben gebruikt voor malware, en nu wordt ditzelfde gedrag uitgebreid naar phishingberichten met een hoge betrouwbaarheid.
 
 Uit onze gegevens blijkt dat een gebruiker 30 keer vaker op een schadelijke koppeling in berichten in de map Ongewenste e-mail en op Quarantaine klikt. Uit onze gegevens blijkt ook dat de fout-positieve snelheid (goede berichten gemarkeerd als slecht) voor phishingberichten met hoge betrouwbaarheid zeer laag is en dat beheerders eventuele fout-positieven kunnen oplossen met beheerdersinzendingen.
 
-We hebben ook vastgesteld dat de toegestane afzender en toegestane domeinlijsten in antispambeleid en veilige afzenders in Outlook te ruim waren en voor meer kwaad dan goeds waren.
+We hebben ook vastgesteld dat de toegestane afzender en toegestane domeinlijsten in antispambeleid en veilige afzenders in Outlook te ruim waren en voor meer schade dan goed waren.
 
 Om dit op een andere manier te doen: als beveiligingsservice handelen we namens u om te voorkomen dat uw gebruikers worden gehackt. 
 

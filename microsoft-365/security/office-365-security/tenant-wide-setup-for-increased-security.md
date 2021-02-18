@@ -1,5 +1,5 @@
 ---
-title: Uw Microsoft 365-Tenant configureren voor een betere beveiliging
+title: Uw Microsoft 365-tenant configureren voor betere beveiliging
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -8,7 +8,6 @@ manager: laurawi
 ms.date: 10/11/2018
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Ent_O365
@@ -18,117 +17,123 @@ search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 ms.custom:
 - seo-marvel-apr2020
-description: In dit onderwerp wordt u begeleid bij de aanbevolen configuratie voorinstellingen voor de gehele Tenant die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving.
-ms.openlocfilehash: cc1f69663badaa7ae6590bb1d389cb15f13da79d
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+description: In dit onderwerp vindt u informatie over de aanbevolen configuratie voor tenantinstellingen die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 6eff529a4ab2271df30579af227fe0c28691ae58
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357537"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286343"
 ---
-# <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365-Tenant configureren voor een betere beveiliging
+# <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365-tenant configureren voor betere beveiliging
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-In dit onderwerp wordt u begeleid bij de aanbevolen configuratie voorinstellingen voor de gehele Tenant die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving. Voor uw veiligheids behoeften is meer of minder veiligheid nodig. Gebruik deze aanbevelingen als uitgangspunt.
+In dit onderwerp vindt u informatie over de aanbevolen configuratie voor tenantinstellingen die van invloed zijn op de beveiliging van uw Microsoft 365-omgeving. Uw beveiligingsbehoeften vereisen mogelijk meer of minder beveiliging. Gebruik deze aanbevelingen als uitgangspunt.
 
-## <a name="check-office-365-secure-score"></a>Beveiligings Score van Office 365 controleren
+## <a name="check-office-365-secure-score"></a>Secure Score van Office 365 controleren
 
-Secure Score van Office 365 analyse van de beveiliging van uw organisatie op basis van uw regelmatige activiteiten en beveiligingsinstellingen en wijst een score toe. Begin met het noteren van uw huidige score. Door enkele instellingen voor de Tenant te wijzigen, wordt uw score groter. Het doel is niet de maximum score te bereiken, maar u moet rekening houden met verkoopkansen om uw omgeving te beschermen en de productiviteit van uw gebruikers niet negatief beïnvloeden. Zie [Microsoft Secure Score](../mtp/microsoft-secure-score.md).
+Office 365 Secure Score analyseert de beveiliging van uw organisatie op basis van uw reguliere activiteiten en beveiligingsinstellingen en wijst een score toe. Noteer eerst uw huidige score. Als u bepaalde instellingen voor de hele tenant aanpast, wordt uw score hoger. Het doel is niet de maximale score te bereiken, maar u moet rekening houden met mogelijkheden om uw omgeving te beschermen die de productiviteit van uw gebruikers niet negatief beïnvloeden. Zie [Microsoft Secure Score.](../mtp/microsoft-secure-score.md)
 
-## <a name="tune-threat-management-policies-in-the-microsoft-365-security-center"></a>Beleidsregels voor risicobeheer in het Microsoft 365-Beveiligingscentrum afstemmen
+## <a name="tune-threat-management-policies-in-the-microsoft-365-security-center"></a>Beleid voor risicobeheer afstemmen in het Microsoft 365-beveiligingscentrum
 
-Het Microsoft 365-Beveiligingscentrum bevat mogelijkheden om uw omgeving te beschermen. Dit omvat ook rapporten en dashboards die u kunt gebruiken om te controleren en actie te ondernemen. Sommige gebieden worden geleverd met standaard beleidsconfiguraties. Voor sommige gebieden gelden geen standaardbeleidsregels of-regels. Ga naar deze beleidsregels onder bedreigings beheer om instellingen voor Threat Management af te stemmen voor een veiliger omgeving.
+Het Microsoft 365-beveiligingscentrum bevat mogelijkheden die uw omgeving beschermen. Het bevat ook rapporten en dashboards die u kunt gebruiken om toezicht te houden en actie te ondernemen. Bij sommige gebieden worden standaardbeleidsconfiguraties gebruikt. Sommige gebieden bevatten geen standaardbeleid of regels. Ga naar dit beleid onder bedreigingsbeheer om instellingen voor risicobeheer af te stemmen voor een veiligere omgeving.
 
 ****
 
-|Ziet|Een standaardbeleid bevat|Aanbeveling|
+|Gebied|Bevat een standaardbeleid|Aanbeveling|
 |---|---|---|
-|**Anti phishing**|Ja|Als u een aangepast domein hebt, configureert u het standaard anti-phishingfilter, zodat u de e-mailaccounts van uw meest waardevolle gebruikers kunt beschermen, zoals de CEO, en om uw domein te beschermen. <p> Bekijk [anti-phishingfilter in Office 365](set-up-anti-phishing-policies.md) en Zie [anti-phishings beleid in EOP](configure-anti-phishing-policies-eop.md) of een [anti-phishing-beleid configureren in microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md).|
-|**Anti malware-engine**|Ja| Het standaardbeleid bewerken: <ul><li>Algemene bijlage typen filter: selecteren op</li></ul> <p> U kunt ook aangepaste beleidsregels voor malware-filters maken en deze toepassen op opgegeven gebruikers, groepen of domeinen in uw organisatie. <p> Meer informatie: <ul><li>[Beveiliging tegen malware](anti-malware-protection.md)</li><li>[Beleid tegen malware configureren](configure-anti-malware-policies.md)</li></ul>|
-|**Veilige bijlagen in Microsoft Defender voor Office 365**|Nee|Ga naar de hoofdpagina voor veilige bijlagen en klik op **algemene instellingen** en schakel deze instelling in: <ul><li>**ATP inschakelen voor SharePoint, OneDrive en Microsoft teams**</li></ul> <p> Maak een veilig bijlage beleid met de volgende instellingen: <ul><li> **Blok**: Selecteer **blok** als het onbekende antwoord van de malware.</li><li>**Omleiden inschakelen**: Schakel dit selectievakje in en voer een e-mailadres in, zoals een beheerders-of quarantaine account.</li><li>**De bovenstaande selectie toepassen als malware wordt gescand op bijlagen wanneer een fout optreedt of als de fout optreedt**: Schakel dit selectievakje in.</li><li>**_Toegepast op_*: **het domein van de ontvanger is** \> Selecteer uw domein.</li></ul> <p> Meer informatie: [ATP voor SharePoint, OneDrive en Microsoft teams](atp-for-spo-odb-and-teams.md) en [beleid voor veilige bijlagen instellen](set-up-atp-safe-attachments-policies.md)|
-|**Veilige koppelingen in Microsoft Defender voor Office 365**|Ja|Klik op de hoofdpagina voor veilige koppelingen op **algemene instellingen**: <ul><li>**Veilige koppelingen gebruiken in: Office 365-toepassingen**: Controleer of deze instelling is ingeschakeld.</li><li>**Niet bijhouden wanneer gebruikers op veilige koppelingen klikken**: Schakel deze instelling uit om de gebruikers klikken te volgen.</li></ul> <p> Maak een beleid voor veilige koppelingen met de volgende instellingen: <ul><li>**Selecteer de actie voor onbekende mogelijk schadelijke url's in berichten**: controleren of deze instelling is **ingeschakeld**.</li><li>**Selecteer de actie voor onbekende of mogelijk schadelijke url's in Microsoft teams**: Controleer of deze instelling is **ingeschakeld**.</li><li>Een **realtime-URL scannen op verdachte koppelingen en koppelingen die naar bestanden verwijzen**: Schakel dit selectievakje in.</li><li>**Wacht totdat het scannen van url's is voltooid voordat u het bericht aflevert**: Schakel dit selectievakje in.</li><li>**Veilige koppelingen toepassen op e-mailberichten die binnen de organisatie zijn verzonden**: Schakel dit selectievakje in</li><li>**Gebruikers kunnen niet door de oorspronkelijke URL klikken**: Schakel dit selectievakje in.</li><li>**Toegepast op**: **het domein van de ontvanger is** \> Selecteer uw domein.</li></ul> <p> Meer informatie: [beleid voor veilige koppelingen instellen](set-up-atp-safe-links-policies.md).|
-|**Anti spam (e-mail filtering)**|Ja| U kunt als volgt controleren: <ul><li>Te veel spam: Kies de aangepaste instellingen en bewerk het standaard spamfilter beleid.</li><li>Spoof informatie: Bestudeer afzenders die uw domein spoofen. Deze afzenders blokkeren of toestaan.</li></ul> <p> Meer informatie: [Microsoft 365 beveiliging tegen ongewenste e-mail](anti-spam-protection.md).|
-|**_Verificatie via e-mail_* _|Ja|E-mail verificatie maakt gebruik van een DNS (Domain Name System) om verifieerbare informatie toe te voegen aan e-mailberichten over de afzender van een e-mailbericht. Microsoft 365 stelt e-mail verificatie in voor het standaarddomein (onmicrosoft.com), maar Microsoft 365-beheerders kunnen ook e-mail verificatie gebruiken voor aangepaste domeinen. U gebruikt drie verificatiemethoden: <ul><li>Framework (Sender Policy Framework)</li><ul><li>Voor Setup raadpleegt [u SPF in Microsoft 365 instellen om spoofing te helpen voorkomen](set-up-spf-in-office-365-to-help-prevent-spoofing.md).</li></ul> <li>Door DomainKeys geïdentificeerde e-mail adres (DKIM).</li><ul><li>Zie [dkim gebruiken voor het valideren van uitgaande e-mail verzonden vanaf uw aangepaste domein](use-dkim-to-validate-outbound-email.md).</li><li>Nadat u DKIM hebt geconfigureerd, kunt u dit inschakelen in het Beveiligingscentrum.</li></ul><li>Verificatie, rapportage en conformiteit op domeinbasis van domein (DMARC).</li><ul><li>Voor DMARC configuratie [gebruik DMARC om e-mail te valideren in Microsoft 365](use-dmarc-to-validate-email.md).</li></ul></ul>|
+|**Anti-phishing**|Ja|Als u een aangepast domein hebt, configureert u het standaard anti-phishingbeleid om de e-mailaccounts van de meest waardevolle gebruikers te beveiligen, zoals uw ceo, en om uw domein te beschermen. <p> Bekijk [het anti-phishingbeleid in Office 365](set-up-anti-phishing-policies.md) en zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md) of [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md)|
+|**Anti-Malware Engine**|Ja| Het standaardbeleid bewerken: <ul><li>Filter algemene bijlagetypen: Selecteren op</li></ul> <p> U kunt ook aangepaste beleidsregels voor malwarefilters maken en deze toepassen op opgegeven gebruikers, groepen of domeinen in uw organisatie. <p> Meer informatie: <ul><li>[Beveiliging tegen malware](anti-malware-protection.md)</li><li>[Beleid tegen malware configureren](configure-anti-malware-policies.md)</li></ul>|
+|**Veilige bijlagen in Microsoft Defender voor Office 365**|Nee|Klik op de hoofdpagina voor veilige bijlagen op **Algemene instellingen** en schakel deze instelling in: <ul><li>**Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams**</li></ul> <p> Maak een beleid voor veilige bijlagen met de volgende instellingen: <ul><li> **Blokkeren:** selecteer **Blokkeren als** het onbekende malware-antwoord.</li><li>**Omleiding inschakelen:** schakel dit selectievakje in en voer een e-mailadres in, zoals een beheerder of quarantaineaccount.</li><li>**Pas de bovenstaande selectie toe als er malware wordt gescand op** bijlagen of als er een fout optreedt: Controleer dit vakje.</li><li>**_Toegepast op:_* **het domein van de ontvanger wordt** uw domein \> geselecteerd.</li></ul> <p> Meer informatie: [Veilige bijlagen voor SharePoint, OneDrive](atp-for-spo-odb-and-teams.md) en Microsoft Teams en beleidsregels [voor veilige bijlagen instellen](set-up-atp-safe-attachments-policies.md)|
+|**Veilige koppelingen in Microsoft Defender voor Office 365**|Ja|Klik op de hoofdpagina voor veilige koppelingen op **Algemene instellingen:** <ul><li>**Gebruik veilige koppelingen in: Office 365-toepassingen:** controleer of deze instelling is ingeschakeld.</li><li>**Houd niet bij wanneer gebruikers op veilige koppelingen klikken:** schakel deze instelling uit als u klikken van gebruikers wilt bijhouden.</li></ul> <p> Maak een beleid voor veilige koppelingen met de volgende instellingen: <ul><li>**Selecteer de actie voor onbekende, mogelijk schadelijke URL's in berichten:** Controleer of deze instelling is **aan.**</li><li>Selecteer de actie voor onbekende of mogelijk schadelijke **URL's in Microsoft Teams:** controleer of deze instelling is **aan.**</li><li>**Real-time URL's scannen op verdachte koppelingen en koppelingen die naar bestanden** wijzen: Schakel dit selectievakje in.</li><li>**Wacht totdat het scannen van de URL is voltooid voordat het bericht** wordt weergegeven: Controleer dit vakje.</li><li>**Veilige koppelingen toepassen op e-mailberichten die binnen** de organisatie worden verzonden: Schakel dit selectievakje in</li><li>**Gebruikers niet toestaan door te klikken naar de oorspronkelijke URL:** selecteer dit vakje.</li><li>**Toegepast op:** **het domein van de ontvanger is** uw domein \> selecteren.</li></ul> <p> Meer informatie: [Beleidsregels voor veilige koppelingen instellen.](set-up-atp-safe-links-policies.md)|
+|**Antispam (filteren van e-mail)**|Ja| Waar moet ik op letten: <ul><li>Te veel spam: kies de aangepaste instellingen en bewerk het standaardbeleid voor het filteren van ongewenste e-mail.</li><li>Spoof intelligence: bekijk afzenders die uw domein vervalsen. Deze afzenders blokkeren of toestaan.</li></ul> <p> Meer informatie: [Microsoft 365-beveiliging tegen ongewenste e-mail.](anti-spam-protection.md)|
+|***E-mailverificatie***|Ja|Voor e-mailverificatie wordt een DNS (Domain Name System) gebruikt om controleerbare informatie over de afzender van een e-mailbericht toe te voegen aan e-mailberichten. Microsoft 365 stelt e-mailverificatie in voor het standaarddomein (onmicrosoft.com), maar Microsoft 365-beheerders kunnen e-mailverificatie ook gebruiken voor aangepaste domeinen. Er worden drie verificatiemethoden gebruikt: <ul><li>Sender Policy Framework (of SPF).</li><ul><li>Zie [SPF in Microsoft 365 instellen om spoofing te helpen voorkomen.](set-up-spf-in-office-365-to-help-prevent-spoofing.md)</li></ul> <li>DomainKeys Identified Mail (DKIM).</li><ul><li>Zie [DKIM gebruiken om uitgaande e-mail te](use-dkim-to-validate-outbound-email.md)valideren die wordt verzonden vanaf uw aangepaste domein.</li><li>Nadat u DKIM hebt geconfigureerd, moet u het inschakelen in het beveiligingscentrum.</li></ul><li>Domain-based Message Authentication, Reporting, and Conformance (DMARC).</li><ul><li>Gebruik DMARC voor het instellen van [DMARC om e-mail te valideren in Microsoft 365.](use-dmarc-to-validate-email.md)</li></ul></ul>|
 |
 
 > [!NOTE]
-> Voor niet-standaard implementaties van SPF, hybride implementaties en probleemoplossing: [hoe Microsoft 365 gebruikmaakt van SPF (Sender Policy Framework) om spoofing te voorkomen](how-office-365-uses-spf-to-prevent-spoofing.md).
+> Voor niet-standaard implementaties van SPF, hybride implementaties en probleemoplossing: Hoe [Microsoft 365 SPF (Sender Policy Framework)](how-office-365-uses-spf-to-prevent-spoofing.md)gebruikt om spoofing te voorkomen.
 
-## <a name="view-dashboards-and-reports-in-the-security-and-compliance-centers"></a>Dashboards en rapporten in de beveiligings-en compliance-centra weergeven
+## <a name="view-dashboards-and-reports-in-the-security-and-compliance-centers"></a>Dashboards en rapporten weergeven in de beveiligings- en compliancecentra
 
-Bezoek deze rapporten en dashboards voor meer informatie over de status van uw omgeving. De gegevens in deze rapporten worden uitgebreid naarmate uw organisatie Office 365-Services gebruikt. Wees nu vertrouwd met de functies die u kunt controleren en actie ondernemen. Zie voor meer informatie: [rapporten in de Microsoft 365-Beveiligingscentrum en compliance Center](../../compliance/reports-in-security-and-compliance.md).
+Ga naar deze rapporten en dashboards voor meer informatie over de status van uw omgeving. De gegevens in deze rapporten worden uitgebreid wanneer uw organisatie gebruikmaakt van Office 365-services. Op dit moment bent u bekend met wat u kunt controleren en waar u actie op kunt ondernemen. Zie voor meer informatie: [Rapporten in de Microsoft 365-beveiligings- en compliancecentra.](../../compliance/reports-in-security-and-compliance.md)
 
-_***
+****
 
 |Dashboard|Beschrijving|
 |---|---|
-|[Threat Management Dashboard](security-dashboard.md)|In de sectie **Threat Management** van het Beveiligingscentrum, gebruikt u dit dashboard om bedreigingen te zien die al zijn afgehandeld en als handige functie voor het melden van de professionele besluitvormings functies voor de beveiliging van uw bedrijf.|
-|[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)|Dit is ook de sectie **Threat Management** van het Beveiligingscentrum. Als u een aanval ter onderzoek doet of een aanval uitvoert tegen uw Tenant, gebruikt u de Verkenner (of realtime detectie) om bedreigingen te analyseren. Explorer (en het rapport realtime detectie) laat u gedurende een bepaalde periode het volume van een aanval zien en u kunt deze gegevens analyseren op bedreigings families, infrastructuur van kwaadwillenden en meer. U kunt ook verdachte e-mail markeren voor de lijst met incidenten.|
-|Rapporten: Dashboard|In het gedeelte **rapporten** van Beveiligingscentrum bekijkt u controlerapporten voor uw SharePoint Online-en Exchange Online-organisaties. U kunt aanmeldings rapporten van gebruikers van Azure Active Directory (Azure AD), rapporten van gebruikersactiviteiten en het Azure AD auditlogboek ook openen via de pagina **rapporten weergeven** .|
+|[Dashboard voor bedreigingsbeheer](security-dashboard.md)|Gebruik  dit dashboard in de sectie Bedreigingsbeheer van het beveiligingscentrum om de bedreigingen te zien die al zijn verwerkt en als een handig hulpmiddel voor het rapporteren aan zakelijke besluitvormers over welk bedreigingsonderzoek en welke reactiemogelijkheden al zijn uitgevoerd om uw bedrijf te beveiligen.|
+|[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)|Dit staat ook in de **sectie Bedreigingsbeheer** van het beveiligingscentrum. Als u een aanval op uw tenant onderzoekt of ondervindt, gebruikt u Explorer (of realtime detecties) om bedreigingen te analyseren. Explorer (en het rapport met realtime detecties) toont het aantal aanvallen in de tijd en u kunt deze gegevens analyseren op bedreigingsfamilies, de infrastructuur van de aanvaller en meer. U kunt ook verdachte e-mailberichten markeren voor de lijst met incidenten.|
+|Rapporten — Dashboard|Bekijk in **de sectie** Rapporten van het beveiligingscentrum controlerapporten voor uw SharePoint Online- en Exchange Online-organisaties. U hebt ook toegang tot aanmeldingsrapporten van Azure Active Directory (Azure AD) en rapporten over gebruikersactiviteiten en het Azure AD-auditlogboek op de pagina Rapporten **weergeven.**|
 |
 
-![Dashboard voor het Beveiligingscentrum](../../media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
+![Dashboard van beveiligingscentrum](../../media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
 
-## <a name="configure-additional-exchange-online-tenant-wide-settings"></a>Extra instellingen voor de Tenant van Exchange Online configureren
+## <a name="configure-additional-exchange-online-tenant-wide-settings"></a>Aanvullende instellingen voor de tenant in de hele Exchange Online configureren
 
-Veel van de besturingselementen voor beveiliging en beveiliging in het Exchange-Beheercentrum worden ook opgenomen in het Beveiligingscentrum. U hoeft dit niet op beide locaties te configureren. Hier volgen een paar extra instellingen die worden aanbevolen.
+Veel van de besturingselementen voor beveiliging en beveiliging in het Exchange-beheercentrum zijn ook opgenomen in het beveiligingscentrum. U hoeft deze niet op beide locaties te configureren. Hier zijn enkele extra instellingen die worden aanbevolen.
 
 ****
 
-|Ziet|Een standaardbeleid bevat|Aanbeveling|
+|Gebied|Bevat een standaardbeleid|Aanbeveling|
 |---|---|---|
-|**E-mail stroom** (e-mail stroom regels, ook wel een zogenaamde transportregels genoemd)|Nee|Voeg een e-mail stroom regel toe om u te helpen beschermen tegen Ransomware door uitvoerbare bestandstypen en typen Office-bestanden met macro's te blokkeren. Zie voor meer informatie de [regels voor e-mail stroom gebruiken om berichten bijlagen te controleren in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments). <p> Bekijk de volgende aanvullende onderwerpen: <ul><li>[Beveiligen tegen ransomware](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)</li><li>[Malware en Ransomware-beveiliging in Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-malware-and-ransomware-protection)</li><li>[Herstel van een Ransomware aanval in Office 365](recover-from-ransomware.md)</li></ul> <p> Maak een e-mail stroom regel om het automatisch doorsturen van e-mail naar externe domeinen te voorkomen. Zie voor meer informatie het artikel [beperken van externe doorstuurregels van clients met een beveiligde Score](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score). <p> Meer informatie: [e-mail stroom regels (transportregels) in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|
-|**Moderne verificatie inschakelen**|Nee|Moderne verificatie is een vereiste voor het gebruik van multi-factor Authentication (MFA). MFA wordt aanbevolen voor het beveiligen van de toegang tot Cloud bronnen, waaronder e-mail. <p> Zie de volgende onderwerpen: <ul><li>[Moderne verificatie in-of uitschakelen in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)</li><li>[Skype voor bedrijven online: uw Tenant inschakelen voor moderne verificatie](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)</li></ul> <p> Moderne verificatie is standaard ingeschakeld voor Office 2016-clients, SharePoint Online en OneDrive voor bedrijven. <p> Meer informatie: de werking [van moderne verificatie voor office 2013 en office 2016-clienttoepassingen](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)|
+|**E-mailstroom** (regels voor de e-mailstroom, ook wel transportregels genoemd)|Nee|Voeg een regel voor de e-mailstroom toe om te beveiligen tegen ransomware door uitvoerbare bestandstypen en Office-bestandstypen met macro's te blokkeren. Zie Regels voor de [e-mailstroom gebruiken om berichtbijlagen in Exchange Online te controleren voor meer informatie.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments) <p> Zie de volgende aanvullende onderwerpen: <ul><li>[Beveiligen tegen ransomware](../../admin/security-and-compliance/secure-your-business-data.md#5-protect-against-ransomware)</li><li>[Malware- en ransomware-beveiliging in Microsoft 365](https://docs.microsoft.com/compliance/assurance/assurance-malware-and-ransomware-protection)</li><li>[Herstel van een aanval van ransomware in Office 365](recover-from-ransomware.md)</li></ul> <p> Maak een regel voor de e-mailstroom om te voorkomen dat e-mail automatisch wordt doorgestuurd naar externe domeinen. Zie Regels voor externe doorsturen van klanten verminderen [met Secure Score voor meer informatie.](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score) <p> Meer informatie: [E-mailstroomregels (transportregels) in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|
+|**Moderne verificatie inschakelen**|Nee|Moderne verificatie is een vereiste voor het gebruik van multi-factor authentication (MFA). MFA wordt aanbevolen voor het beveiligen van de toegang tot cloudbronnen, waaronder e-mail. <p> Zie de volgende onderwerpen: <ul><li>[Moderne verificatie in- of uitschakelen in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)</li><li>[Skype voor Bedrijven Online: Uw tenant inschakelen voor moderne verificatie](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)</li></ul> <p> Moderne verificatie is standaard ingeschakeld voor Office 2016-clients, SharePoint Online en OneDrive voor Bedrijven. <p> Meer informatie: [Hoe moderne verificatie werkt voor Office 2013- en Office 2016-clientapps](../../enterprise/modern-auth-for-office-2013-and-2016.md)|
 |
 
-## <a name="configure-tenant-wide-sharing-policies-in-sharepoint-admin-center"></a>Beleidsregels voor het delen van de gehele Tenant configureren in het SharePoint-Beheercentrum
+## <a name="configure-tenant-wide-sharing-policies-in-sharepoint-admin-center"></a>Beleidsregels voor delen voor de hele tenant configureren in het SharePoint-beheercentrum
 
-Microsoft aanbevelingen voor het configureren van SharePoint-Team sites bij een betere beveiliging, te beginnen met basislijn beveiliging. Zie [SharePoint Online-sites en-bestanden beveiligen](https://docs.microsoft.com/microsoft-365-enterprise/secure-sharepoint-online-sites-and-files) voor meer informatie.
+Aanbevelingen van Microsoft voor het configureren van SharePoint-teamsites op hogere beschermingsniveaus, te beginnen met basislijnbeveiliging. Zie Beleidsaanbevelingen voor het beveiligen van [SharePoint-sites en -bestanden voor meer informatie.](sharepoint-file-access-policies.md)
 
-SharePoint-Team sites die zijn geconfigureerd op het basisniveau, delen bestanden met externe gebruikers met behulp van koppelingen voor anonieme toegang. Deze methode wordt aanbevolen in plaats van bestanden per e-mail te verzenden.
+SharePoint-teamsites die zijn geconfigureerd op basislijnniveau staan het delen van bestanden met externe gebruikers toe via koppelingen voor anonieme toegang. Deze methode wordt aanbevolen in plaats van bestanden per e-mail te verzenden.
 
-Voor de ondersteuning van de doelstellingen voor basisbeveiliging configureert u beleidsregels voor het delen van de Tenant. Instellingen voordelen voor afzonderlijke sites zijn beperkt tot het beleid voor de gehele Tenant, maar niet meer beperkt.
+Ter ondersteuning van de doelstellingen voor basislijnbeveiliging configureert u beleidsregels voor delen voor de hele tenant, zoals hier wordt aanbevolen. Instellingen voor delen voor afzonderlijke sites kunnen meer beperkend zijn dan dit beleid voor de hele tenant, maar niet meer ruim.
 
 ****
 
-|Ziet|Een standaardbeleid bevat|Aanbeveling|
+|Gebied|Bevat een standaardbeleid|Aanbeveling|
 |---|---|---|
-|**Delen** (SharePoint Online en OneDrive voor bedrijven)|Ja|Extern delen is standaard ingeschakeld. U wordt aangeraden deze instellingen te volgen: <ul><li>Delen met geverifieerde externe gebruikers en gebruiken van koppelingen voor anonieme toegang toestaan (standaardinstelling).</li><li>Koppelingen voor anonieme toegang verlopen dit aantal dagen. Voer indien nodig een nummer in, bijvoorbeeld 30 dagen.</li><li>Standaardkoppelingstype: Selecteer intern (alleen voor personen in de organisatie). Gebruikers die willen delen met anonieme koppelingen, moeten deze optie kiezen in het menu delen.</li></ul> <p> Meer informatie: [overzicht van extern delen](https://docs.microsoft.com/sharepoint/external-sharing-overview)|
+|**Delen** (SharePoint Online en OneDrive voor Bedrijven)|Ja|Extern delen is standaard ingeschakeld. Deze instellingen worden aanbevolen: <ul><li>Delen toestaan voor geverifieerde externe gebruikers en het gebruik van koppelingen voor anonieme toegang (standaardinstelling).</li><li>Anonieme toegangskoppelingen verlopen over zoveel dagen. Voer desgewenst een getal in, bijvoorbeeld 30 dagen.</li><li>Standaardkoppelingstype: intern selecteren (alleen personen in de organisatie). Gebruikers die via anonieme koppelingen willen delen, moeten deze optie kiezen in het menu Delen.</li></ul> <p> Meer informatie: [Overzicht van extern delen](https://docs.microsoft.com/sharepoint/external-sharing-overview)|
 |
 
-Het SharePoint-Beheercentrum en het Beheercentrum voor OneDrive voor bedrijven bevatten dezelfde instellingen. De instellingen in beide beheer centra zijn van toepassing op beide.
+In het SharePoint-beheercentrum en het OneDrive voor Bedrijven-beheercentrum zijn dezelfde instellingen op te nemen. De instellingen in het beheercentrum zijn van toepassing op beide.
 
-## <a name="configure-settings-in-azure-active-directory"></a>Instellingen configureren in azure Active Directory
+## <a name="configure-settings-in-azure-active-directory"></a>Instellingen configureren in Azure Active Directory
 
-Zorg ervoor dat u deze twee gebieden in azure Active Directory bezoekt voor het voltooien van de instellingen voor de gehele Tenant voor veiligere omgevingen.
+Bezoek deze twee gebieden in Azure Active Directory om de installatie voor veiligere omgevingen voor de hele tenant te voltooien.
 
 ### <a name="configure-named-locations-under-conditional-access"></a>Benoemde locaties configureren (onder voorwaardelijke toegang)
 
-Als uw organisatie kantoren met beveiligde netwerktoegang bevat, voegt u de vertrouwde IP-adresbereiken toe aan Azure Active Directory als benoemde locaties. Met deze functie kunt u het aantal gerapporteerde fout-positieven voor gebeurtenissen bij aanmelding verminderen.
+Als uw organisatie kantoren met beveiligde netwerktoegang bevat, voegt u de vertrouwde IP-adresbereiken toe aan Azure Active Directory als benoemde locaties. Met deze functie kunt u het aantal gerapporteerde fout-positieven voor gebeurtenissen met aanmeldingsrisico's verminderen.
 
-Zie: [benoemde locaties in azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-named-locations)
+Zie: [Benoemde locaties in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-named-locations)
 
-### <a name="block-apps-that-dont-support-modern-authentication"></a>Apps blokkeren die moderne verificatie niet ondersteunen
+### <a name="block-apps-that-dont-support-modern-authentication"></a>Apps blokkeren die geen ondersteuning bieden voor moderne verificatie
 
-Meervoudige verificatie vereist apps die ondersteuning bieden voor moderne verificatie. Apps die moderne verificatie niet ondersteunen, kunnen niet worden geblokkeerd met behulp van regels voor voorwaardelijke toegang.
+Voor meervoudige verificatie zijn apps vereist die moderne verificatie ondersteunen. Apps die geen ondersteuning bieden voor moderne verificatie kunnen niet worden geblokkeerd met behulp van regels voor voorwaardelijke toegang.
 
-Voor beveiligde omgevingen dient u eerst verificatie uit te schakelen voor apps die moderne verificatie niet ondersteunen. U kunt dit doen in azure Active Directory met een besturingselement dat binnenkort beschikbaar is.
+Schakel in veilige omgevingen verificatie uit voor apps die geen ondersteuning bieden voor moderne verificatie. U kunt dit doen in Azure Active Directory met een besturingselement dat binnenkort beschikbaar komt.
 
-Gebruik ondertussen een van de volgende methoden om dit voor SharePoint Online en OneDrive voor bedrijven uit te voeren:
+Gebruik ondertussen een van de volgende methoden om dit voor SharePoint Online en OneDrive voor Bedrijven te doen:
 
-- Gebruik PowerShell, Zie [apps blokkeren die geen moderne verificatie gebruiken (ADAL)](https://docs.microsoft.com/mem/intune/protect/app-modern-authentication-block).
+- Gebruik PowerShell, zie [Apps blokkeren die geen moderne verificatie (ADAL) gebruiken.](https://docs.microsoft.com/mem/intune/protect/app-modern-authentication-block)
 
-- Configureer dit in het SharePoint-Beheercentrum op de pagina ' apparaat toegang ', ' toegang beheren vanuit apps die geen moderne verificatie gebruiken. ' Kies blokkeren.
+- Configureer dit in het SharePoint-beheercentrum op de pagina Apparaattoegang: 'Toegang beheren vanuit apps die geen moderne verificatie gebruiken'. Kies Blokkeren.
 
-## <a name="get-started-with-cloud-app-security-or-office-365-cloud-app-security"></a>Aan de slag met de beveiliging van Cloud apps of Office 365 Cloud app-beveiliging
+## <a name="get-started-with-cloud-app-security-or-office-365-cloud-app-security"></a>Aan de slag met Cloud-app-beveiliging of Beveiliging van Office 365 Cloud-apps
 
-Gebruik de beveiliging van de Cloud-app van Office 365 om risico te evalueren, te waarschuwen voor verdachte activiteiten en om automatisch actie te ondernemen. Hiervoor is Office 365 E5-abonnement vereist.
+Gebruik Office 365 Cloud App Security om risico's te evalueren, om u te waarschuwen voor verdachte activiteiten en om automatisch actie te ondernemen. Hiervoor is een Office 365 E5-abonnement vereist.
 
-U kunt ook de beveiliging van de Microsoft Cloud-app gebruiken om meer inzicht te krijgen, zelfs als de toegang is verleend, uitgebreide besturingselementen en verbeterde beveiliging van alle Cloud toepassingen, waaronder Office 365.
+Of gebruik Microsoft Cloud App Security voor een betere zichtbaarheid, zelfs nadat toegang is verleend, uitgebreide besturingselementen en verbeterde beveiliging voor al uw cloudtoepassingen, inclusief Office 365.
 
-Omdat deze oplossing het EMS E5-abonnement adviseert, raden we u aan de Cloud app-beveiliging te starten, zodat u dit kunt gebruiken met andere SaaS-toepassingen in uw omgeving. Begin met standaardbeleid en-instellingen.
+Omdat deze oplossing het EMS E5-abonnement aanbeveelt, raden we u aan te beginnen met Cloud App Security, zodat u deze kunt gebruiken met andere SaaS-toepassingen in uw omgeving. Begin met standaardbeleid en -instellingen.
 
 Meer informatie:
 
@@ -136,14 +141,14 @@ Meer informatie:
 
 - [Meer informatie over Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
-- [Wat is de beveiliging van Cloud apps?](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
+- [Wat is Cloud-app-beveiliging?](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
 
 ![Cloud App Security-dashboard](../../media/1fb2aa65-54b8-4746-9f5e-c187d339e9f5.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-Deze artikelen en richtlijnen maken extra uitgebreide informatie voor het beveiligen van uw Microsoft 365-omgeving:
+Deze artikelen en handleidingen bevatten aanvullende beschrijvende informatie voor het beveiligen van uw Microsoft 365-omgeving:
 
-- [Microsoft Security Guidance voor politieke campagnes, non-profit organisaties en andere Agile-organisaties](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) (u kunt deze aanbevelingen in elke gewenste omgeving gebruiken, met name Cloud omgevingen)
+- [Microsoft-beveiligings richtlijnen voor campagnecampagnes,](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) non-profitorganisaties en andere Agile-organisaties (u kunt deze aanbevelingen gebruiken in elke omgeving, met name in cloudomgevingen)
 
-- [Aanbevolen beveiligingsbeleid en-configuraties voor identiteiten en apparaten](microsoft-365-policies-configurations.md) (deze aanbevelingen bevatten ondersteuning voor AD FS-omgevingen)
+- [Aanbevolen beveiligingsbeleid en configuraties voor identiteiten en apparaten](microsoft-365-policies-configurations.md) (deze aanbevelingen bevatten help voor AD FS-omgevingen)

@@ -16,31 +16,31 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen in het beveiligings- en compliancecentrum van het beveiligings-&-compliancecentrum verdachte e-mailberichten, verdachte phishing-e-mailberichten, spam en andere mogelijk schadelijke berichten, URL's en bestanden voor scannen naar Microsoft verzenden.
+description: Beheerders kunnen in het beveiligings &- en compliancecentrum voor het verzenden van verdachte e-mailberichten, verdachte phishing-e-mailberichten, spam en andere mogelijk schadelijke berichten, URL's en bestanden naar Microsoft verzenden om te scannen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7a822909c318cb336c179b299aa64cd71dcca4d8
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 7b4e6dfcb5900ed41ad3ab0b44fada93599f0b4b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175869"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288787"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Inzending door beheerder gebruiken om verdachte spam, phish, URL's en bestanden bij Microsoft in te dienen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 
 
-In Microsoft 365-organisaties met postvakken in Exchange Online kunnen beheerders de portal Voorzendingen in het beveiligings- &-compliancecentrum gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft te verzenden om te scannen.
+In Microsoft 365-organisaties met postvakken in Exchange Online kunnen beheerders de portal Voor indieningen in het beveiligings &- en compliancecentrum gebruiken om e-mailberichten, URL's en bijlagen bij Microsoft te verzenden om te scannen.
 
 Wanneer u een e-mailbericht indient, krijgt u:
 
 1. **Controle van e-mailverificatie:** Details over het al dan niet doorgegeven of mislukt van de e-mailverificatie toen deze werd geleverd.
-2. **Beleidstreffers:** informatie over beleid dat inkomende e-mail in uw tenant mogelijk heeft toegestaan of geblokkeerd, waardoor onze servicefilters worden overschrijven.
+2. **Beleidstreffers:** informatie over beleid dat inkomende e-mail in uw tenant mogelijk heeft toegestaan of geblokkeerd, en het overschrijven van onze servicefilters.
 3. **Nettoladingsreput/detonatie:** Onderzoek van eventuele URL's en bijlagen in het bericht.
 4. **Cijferanalyse:** beoordeling door beoordelingsbeoordelingen om te controleren of berichten schadelijk zijn of niet.
 
@@ -65,7 +65,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Verdachte inhoud rapporteren aan Microsoft
 
-1. Ga in het & compliancecentrum naar  Inzendingen voor \> **bedreigingsbeheer,** controleer of u zich op het tabblad **Admin-inzendingen** vindt en klik vervolgens op **Nieuwe inzending.**
+1. Ga in het & compliancecentrum naar  Inzendingen voor risicobeheer, controleer of u zich op het tabblad Voor het indienen van beheerders hebt weergegeven en klik vervolgens op \>  **Nieuwe inzending.** 
 
 2. Gebruik **de flyout** Nieuwe inzending die wordt weergegeven om het bericht, de URL of de bijlage te verzenden, zoals beschreven in de volgende secties.
 
@@ -106,7 +106,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
    ![Voorbeeld van e-mailinzending](../../media/submission-url-flyout.png)
 
-### <a name="submit-a-suspected-file-to-microsoft"></a>Een verdacht bestand indienen bij Microsoft
+### <a name="submit-a-suspected-file-to-microsoft"></a>Een mogelijk bestand indienen bij Microsoft
 
 1. Selecteer Bijlage **in de** sectie **Objecttype.**
 
@@ -124,9 +124,9 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 ## <a name="view-admin-submissions"></a>Inzendingen van beheerders weergeven
 
-Ga in het & compliancecentrum naar  Inzendingen voor \> **bedreigingsbeheer,** controleer of u zich op het tabblad **Admin-inzendingen** vindt en klik vervolgens op **Nieuwe inzending.**
+Ga in het & compliancecentrum naar  Inzendingen voor risicobeheer, controleer of u zich op het tabblad Voor het indienen van beheerders hebt weergegeven en klik vervolgens op \>  **Nieuwe inzending.** 
 
-Boven aan de pagina kunt u een begindatum en einddatum invoeren en **(standaard)** u kunt filteren op Indiening-id (een GUID-waarde die is toegewezen aan elke inzending) door een waarde in het vak in te voeren en op de knop Vernieuwen te ![ ](../../media/scc-quarantine-refresh.png) klikken. U kunt meerdere waarden invoeren, gescheiden door komma's.
+Boven aan de pagina kunt u een begindatum en einddatum invoeren en **(standaard)** filteren op Indiening-id (een GUID-waarde die is toegewezen aan elke inzending) door een waarde in het vak in te voeren en op de knop Vernieuwen te ![ ](../../media/scc-quarantine-refresh.png) klikken. U kunt meerdere waarden invoeren, gescheiden door komma's.
 
 Als u de filtercriteria wilt wijzigen, klikt u op **de knop Id** van indiening en kiest u een van de volgende waarden:
 
@@ -160,16 +160,16 @@ U kunt op de **knop Kolomopties** onderaan de pagina klikken om kolommen toe te 
 
   <sup>\*</sup> Als u op deze waarde klikt, wordt gedetailleerde informatie weergegeven in een flyout.
 
-#### <a name="admin-submission-rescan-details"></a>Rescandetails voor inzending door beheerder
+#### <a name="admin-submission-rescan-details"></a>Rescandegegevens voor inzending door beheerder
 
 Berichten die worden ingediend in beheerdersinzendingen, worden opnieuw gescand en de resultaten worden weergegeven in de details van de flyout:
 
 - Als er een fout is geweest in de e-mailverificatie van de afzender op het moment van bezorging.
-- Informatie over beleidstreffers die invloed kunnen hebben op of overschrijven van het bericht.
+- Informatie over beleidstreffers die mogelijk van invloed kunnen zijn op of de uitspraak van een bericht hebben overgenomen.
 - De huidige detonatieresultaten om te zien of de URL's of bestanden in het bericht schadelijk zijn of niet.
 - Feedback van cijferaars.
 
-Als een overschrijven is gevonden, zou het opnieuw scannen binnen enkele minuten moeten zijn voltooid. Als er geen probleem is met e-mailverificatie of bezorging niet is beïnvloed door een overschrijven, kan de feedback van cijferaars tot een dag duren.
+Als een overschrijven is gevonden, zou het opnieuw scannen binnen enkele minuten moeten zijn voltooid. Als er geen probleem is met e-mailverificatie of bezorging niet is beïnvloed door een overschrijven, kan het geven van feedback van cijferaars tot een dag duren.
 
 ### <a name="view-admin-url-submissions"></a>Url-inzendingen voor beheerders weergeven
 
@@ -178,7 +178,7 @@ Klik op het **tabblad URL.**
 U kunt op de **knop Kolomopties** onderaan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
 - **Datum**
-- **Inzendings-id**
+- **Indienings-id**
 - **Ingediend door**<sup>\*</sup>
 - **URL**<sup>\*</sup>
 - **Type indiening**
@@ -186,14 +186,14 @@ U kunt op de **knop Kolomopties** onderaan de pagina klikken om kolommen toe te 
 
   <sup>\*</sup> Als u op deze waarde klikt, wordt gedetailleerde informatie weergegeven in een flyout.
 
-### <a name="view-admin-attachment-submissions"></a>Inzendingen voor beheerdersbijlagen weergeven
+### <a name="view-admin-attachment-submissions"></a>Inzendingen voor bijlagen van beheerders weergeven
 
 Klik op **het tabblad** Bijlagen.
 
 U kunt op de **knop Kolomopties** onderaan de pagina klikken om kolommen toe te voegen aan of te verwijderen uit de weergave:
 
 - **Datum**
-- **Inzendings-id**
+- **Indienings-id**
 - **Ingediend door**<sup>\*</sup>
 - **Bestandsnaam**<sup>\*</sup>
 - **Type indiening**
@@ -257,7 +257,7 @@ Als u de resultaten wilt exporteren, klikt u op **Exporteren** boven aan de pagi
 
 ## <a name="undo-user-submissions"></a>Gebruikersinzendingen ongedaan maken
 
-Wanneer een gebruiker een verdachte e-mail naar het aangepaste postvak indient, hebben de gebruiker en beheerder geen optie om de inzending ongedaan te maken. Als de gebruiker de e-mail wil herstellen, kan deze worden hersteld in de mappen Verwijderde items of Ongewenste e-mail.
+Wanneer een gebruiker een verdachte e-mail naar het aangepaste postvak indient, hebben de gebruiker en beheerder geen optie om de inzending ongedaan te maken. Als de gebruiker de e-mail wil herstellen, is deze beschikbaar voor herstel in de mappen Verwijderde items of Ongewenste e-mail.
 
 ### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>Berichten naar Microsoft verzenden vanuit het aangepaste postvak
 

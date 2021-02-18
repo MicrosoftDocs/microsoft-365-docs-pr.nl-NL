@@ -19,21 +19,21 @@ ms.custom:
 description: Beheerders kunnen informatie krijgen over het weergeven en beheren van in quarantaine geplaatste berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook in quarantaine geplaatste bestanden beheren in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a91f53f8efe4fa6944f0debff472da87b7f17e0c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 22bcf0cefb746e92ccadf8254f4076b47ee475c4
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167489"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287783"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie In quarantaine [geplaatste e-mailberichten in EOP voor meer informatie.](quarantine-email-messages.md)
 
@@ -57,7 +57,7 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- &-compliancec
 
   **Opmerkingen**:
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie.
+  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
   - <sup>\*</sup> Leden van de **rollengroep Quarantainebeheerder** moeten ook lid zijn van de rollengroep **Systeembeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) om quarantaineprocedures te kunnen uitvoeren in Exchange Online PowerShell.
 
@@ -126,7 +126,7 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- &-compliancec
 
    - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht.
 
-     U hebt bericht [](message-trace-scc.md) traceren bijvoorbeeld gebruikt om te zoeken naar een bericht dat is verzonden naar een gebruiker in uw organisatie en u hebt vastgesteld dat het bericht in quarantaine is geplaatst in plaats van is bezorgd. Zorg ervoor dat u de volledige waarde van de bericht-id, die hoekhaken ( ) kan bevatten, \<\> bevat. Bijvoorbeeld: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` .
+     U hebt bericht [](message-trace-scc.md) traceren bijvoorbeeld gebruikt om te zoeken naar een bericht dat is verzonden naar een gebruiker in uw organisatie en u hebt vastgesteld dat het bericht in quarantaine is geplaatst in plaats van is bezorgd. Zorg ervoor dat u de volledige bericht-id, die hoekhaken ( ) kan bevatten, op \<\> nemen. Bijvoorbeeld: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` .
 
    - **E-mailadres afzender**: een enkel e-mailadres van een afzender.
 
@@ -172,7 +172,7 @@ Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u wi
 
 - **Releasebericht:** kies de volgende opties in het flyoutvenster dat wordt weergegeven:
 
-  - **Rapporteer berichten aan Microsoft** voor analyse: Dit is standaard geselecteerd en meldt het bericht dat verkeerd in quarantaine is geplaatst bij Microsoft als fout-positief. Als het bericht in quarantaine is geplaatst als spam, bulkmail, phishing of malware bevat, wordt het bericht ook gerapporteerd aan het Microsoft-team voor spamanalyse. Afhankelijk van de analyse kunnen de regels voor het filteren van spam voor de hele service zo worden aangepast dat het bericht wordt doorgestuurd.
+  - **Rapporteer berichten aan Microsoft** voor analyse: Dit is standaard geselecteerd en meldt het bericht dat verkeerd in quarantaine is geplaatst bij Microsoft als fout-positief. Als het bericht in quarantaine is geplaatst als spam, bulkmail, phishing of malware, wordt het bericht ook gerapporteerd aan het Microsoft-team voor spamanalyse. Afhankelijk van de analyse kunnen de regels voor het filteren van spam voor de hele service zo worden aangepast dat het bericht wordt doorgestuurd.
 
   - Kies een van de volgende opties:
     - **Berichten vrijgeven aan alle geadresseerden**
@@ -201,9 +201,9 @@ Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u wi
 
   - **Objecttype:** **E-mail** (standaard), **URL** of **Bijlage.**
 
-  - **Inzendingsindeling:** **Netwerkbericht-id** (standaard met  de bijbehorende waarde in het vak Netwerkbericht-id) of **Bestand** (blader naar een lokaal EML- of MSG-bestand). Als u Bestand **selecteert en vervolgens** Netwerkbericht-id selecteert, is de oorspronkelijke waarde verdwenen. 
+  - **Inzendingsindeling:** **Netwerkbericht-id** (standaard met  de bijbehorende waarde in het vak Netwerkbericht-id) of **Bestand** (blader naar een lokaal EML- of MSG-bestand). Als u Bestand **selecteert en** vervolgens Netwerkbericht-id selecteert, is de oorspronkelijke waarde verdwenen. 
 
-  - **Geadresseerden:** typ een oorspronkelijke geadresseerde van het bericht bij leasen of klik op Alles **selecteren** om alle geadresseerden te identificeren. U kunt ook op **Alles selecteren** klikken en afzonderlijke geadresseerden vervolgens selectief verwijderen.
+  - **Geadresseerden:** typ een oorspronkelijke geadresseerde van het bericht bij leasen of klik op **Alles selecteren** om alle geadresseerden te identificeren. U kunt ook op **Alles selecteren** klikken en afzonderlijke geadresseerden vervolgens selectief verwijderen.
 
   - **Reden voor het indienen:** **het bericht had niet moeten zijn geblokkeerd** (standaard) of moet zijn **geblokkeerd.**
 
@@ -295,7 +295,7 @@ Als u de bestanden niet los laat of verwijdert, worden ze verwijderd nadat de st
 Wanneer u meerdere in quarantaine geplaatste bestanden in de  lijst selecteert (maximaal 100), wordt het flyoutvenster Bulkacties weergegeven waarin u de volgende acties kunt uitvoeren:
 
 - **Releasebestanden**
-- **Bestanden verwijderen:** nadat u in de waarschuwing **die** wordt weergegeven op Ja hebt geklikt, worden de bestanden onmiddellijk verwijderd.
+- **Bestanden verwijderen:** nadat u **in** de waarschuwing die wordt weergegeven op Ja hebt geklikt, worden de bestanden onmiddellijk verwijderd.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Exchange Online PowerShell of een zelfstandige EOP PowerShell gebruiken om in quarantaine geplaatste berichten en bestanden weer te geven en te beheren
 

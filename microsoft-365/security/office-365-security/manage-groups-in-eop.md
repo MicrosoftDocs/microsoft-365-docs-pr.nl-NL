@@ -15,19 +15,19 @@ ms.custom:
 description: Beheerders in zelfstandige Exchange Online Protection-organisaties (EOP) kunnen informatie krijgen over het maken, wijzigen en verwijderen van distributiegroepen en beveiligingsgroepen met e-mail in het Exchange-beheercentrum (EAC) en in zelfstandige Exchange Online Protection (EOP) PowerShell.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01fe5c6ab1555749d38f9c092b05aca9befb67fe
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d03b8a5129eb3b070f30de46b9b9c7bcc8e9898d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166961"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286799"
 ---
 # <a name="manage-groups-in-eop"></a>Groepen beheren in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
 
 In zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken kunt u de volgende typen groepen maken, wijzigen en verwijderen:
 
@@ -56,7 +56,7 @@ U kunt groepen beheren in het Exchange-beheercentrum (EAC) en in zelfstandige EO
 - Zie Sneltoetsen voor het Exchange-beheercentrum in Exchange Online voor informatie over [sneltoetsen](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)die van toepassing kunnen zijn op de procedures in dit artikel.
 
 > [!TIP]
-> Hebt u problemen? Vraag om hulp op het forum [van Exchange Online Protection.](https://go.microsoft.com/fwlink/p/?linkId=285351)
+> Hebt u problemen? Vraag om hulp op het forum [van Exchange Online Protection.](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE)
 
 ## <a name="use-the-exchange-admin-center-to-manage-distribution-groups"></a>Het Exchange-beheercentrum gebruiken om distributiegroepen te beheren
 
@@ -174,7 +174,7 @@ New-EOPDistributionGroup -Name "<Unique Name>" -ManagedBy @("UserOrGroup1","User
 
 - Als u de parameter _PrimarySmtpAddress_ niet gebruikt, wordt de aliaswaarde gebruikt in de _primarySmtpAddress-parameter._
 
-- Als u de parameter Type niet _gebruikt,_ is de standaardwaarde Verdeling.
+- Als u de parameter _Type_ niet gebruikt, is de standaardwaarde Verdeling.
 
 In dit voorbeeld wordt een distributiegroep gemaakt met de naam IT-beheerders met de opgegeven eigenschappen.
 
@@ -195,13 +195,13 @@ Set-EOPDistributionGroup -Identity <GroupIdentity> [-Alias <Text>] [-DisplayName
 Update-EOPDistributionGroupMember -Identity <GroupIdentity> -Members @("User1","User2",..."UserN")
 ```
 
-In dit voorbeeld wordt het primaire SMTP-adres (ook wel het antwoordadres genoemd) gewijzigd, dat de groep Werknemers van Seattle moet sea.employees@contoso.com.
+In dit voorbeeld wordt het primaire SMTP-adres (ook wel het antwoordadres genoemd) gewijzigd dat de groep Werknemers van Seattle moet sea.employees@contoso.com.
 
 ```PowerShell
 Set-EOPDistributionGroup "Seattle Employees" -PrimarySmtpAddress "sea.employees@contoso.com"
 ```
 
-In dit voorbeeld worden de huidige leden van de groep Beveiligingsteam vervangen door Petersen En Wordt Fawcett.
+In dit voorbeeld worden de huidige leden van de groep Beveiligingsteam vervangen door Petersen (Petersen) en Wordt Fawcett.
 
 ```powershell
 Update-EOPDistributionGroupMember -Identity "Security Team" -Members @("Kitty Petersen","Tyson Fawcett")
@@ -232,7 +232,7 @@ Zie [Remove-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/e
 
 Ga op een van de volgende stappen te werk om te controleren of u een distributiegroep of een beveiligingsgroep met e-mail hebt gemaakt, gewijzigd of verwijderd:
 
-- Ga in het Exchange-beheercentrum naar **Geadresseerden** \> **Groepen**. Controleer of de groep wel of niet wordt weergegeven en controleer de **waarde van het groepstype.** Selecteer de groep en bekijk de informatie  in het detailvenster of klik op het pictogram ![ Bewerken om de instellingen weer te ](../../media/ITPro-EAC-AddIcon.png) geven.
+- Ga in het Exchange-beheercentrum naar **Geadresseerden** \> **Groepen**. Controleer of de groep wordt weergegeven (of niet wordt weergegeven) en controleer de **waarde van het groepstype.** Selecteer de groep en bekijk de informatie  in het detailvenster of klik op het pictogram ![ Bewerken om de instellingen weer te ](../../media/ITPro-EAC-AddIcon.png) geven.
 
 - Voer in zelfstandige EOP PowerShell de volgende opdracht uit om te controleren of de groep wordt weergegeven (of niet wordt weergegeven):
 

@@ -21,26 +21,32 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 039ec1c3f9b0ba233f950d11b9d58be341b28121
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 520a5627d2cd280f28c4e2c3db0e565640a1eace
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930592"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289159"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuw in Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Om Microsoft Secure Score een beter beeld te geven van uw beveiligingsrisico, hebben we enkele wijzigingen aangebracht. Als u meer wilt weten over geplande wijzigingen, bekijkt u de nieuwe [Microsoft Secure Score.](microsoft-secure-score-whats-coming.md)
+Om Microsoft Secure Score een beter beeld te geven van uw beveiligingsrisico, hebben we enkele wijzigingen aangebracht. Als u meer wilt weten over geplande wijzigingen, bekijkt u wat er [in Microsoft Secure Score komt?](microsoft-secure-score-whats-coming.md)
 
 U vindt Microsoft Secure Score https://security.microsoft.com/securescore in het [Microsoft 365-beveiligingscentrum.](overview-security-center.md)
+    
+## <a name="february-2021"></a>Februari 2021
+
+### <a name="compatibility-with-graph-api"></a>Compatibiliteit met Graph API
+
+Aanbevelingen van Microsoft Secure Score die via Graph API worden geleverd, zien er hetzelfde uit en worden gewogen als de aanbevelingen die u momenteel in het Microsoft 365-beveiligingscentrum ziet.
 
 ## <a name="january-2021"></a>Januari 2021
 
 ### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>We hebben onze eerste beveiligingsaanbeveling voor Microsoft Teams toegevoegd
 
-Klanten van Microsoft Teams zien 'Anonieme gebruikers beperken voor deelname aan vergaderingen' als een nieuwe actie voor verbetering in Secure Score.
+Klanten van Microsoft Teams zien 'Anonieme gebruikers beperken voor deelname aan vergaderingen' als een nieuwe actie ter verbetering van Secure Score.
 
 ## <a name="december-2020"></a>December 2020
 
@@ -57,11 +63,11 @@ Klanten van Microsoft Teams zien 'Anonieme gebruikers beperken voor deelname aan
 
 ### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>De mogelijkheid verwijderd om ServiceNow-tickets te maken via Secure Score 
 
-De mogelijkheid om ServiceNow-tickets te maken via Secure Score door naar **Delen > ServiceNow** is niet meer beschikbaar. Bedankt voor uw feedback en verdere ondersteuning bij het bepalen van de volgende stappen.
+De mogelijkheid om ServiceNow-tickets te maken via Secure Score door naar **> ServiceNow** te gaan, is niet meer beschikbaar. Bedankt voor uw feedback en verdere ondersteuning bij het bepalen van de volgende stappen.
 
 ### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Er zijn drie acties voor kwaliteitsverbetering voor Microsoft Defender voor eindpunt toegevoegd (voorheen Microsoft Defender ATP):
 
-- Niet-aaneengeageerd servicepad voor Windows-services herstellen
+- Niet-aangeslagen servicepad voor Windows-services herstellen
 - Uitvoerbaar pad van de service wijzigen naar een gemeenschappelijke beveiligde locatie
 - Serviceaccount wijzigen om te voorkomen dat het wachtwoord in de cache wordt opgeslagen in het Windows-register
 
@@ -77,11 +83,11 @@ De mogelijkheid om ServiceNow-tickets te maken via Secure Score door naar **Dele
 
 - Beleid inschakelen om verouderde verificatie te blokkeren
 
-## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Incompatibiliteit met Identity Secure Score en Graph API
+## <a name="incompatibility-with-identity-secure-score"></a>Incompatibiliteit met Identity Secure Score
 
-In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht. Deze wijzigingen zorgen voor een flexibelere en nauwkeurige weergave van uw beveiligingsrisico. Dankzij deze updates is Microsoft Secure Score echter tijdelijk niet compatibel met Identity Secure Score en de Graph API.
+In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht. Deze wijzigingen zorgen voor een flexibelere en nauwkeurige weergave van uw beveiligingsrisico. Dankzij deze updates is Microsoft Secure Score echter tijdelijk niet compatibel met Identity Secure Score.
 
-Na een tijd nemen Identity Secure Score en de Graph API het nieuwe scoremodel over. Tot die tijd zien klanten verschillen in de scores die zijn gerapporteerd door Microsoft Secure Score, Identity Secure Score en de Graph API. Onze excuses voor het ongemak, en we zorgen ervoor dat deze ervaringen in de toekomst compatibeler zijn.
+Na een tijd zal Identity Secure Score het nieuwe scoremodel gaan gebruiken. Tot die tijd zien klanten verschillen in de scores die door Microsoft Secure Score en de Identity Secure Score zijn gerapporteerd. Onze excuses voor het ongemak, en we zorgen ervoor dat deze ervaringen in de toekomst compatibeler zijn.
 
 ## <a name="updated-improvement-actions"></a>Bijgewerkte acties voor kwaliteitsverbetering
 
@@ -101,7 +107,7 @@ Na een tijd nemen Identity Secure Score en de Graph API het nieuwe scoremodel ov
 
 ## <a name="we-want-to-hear-from-you"></a>Wij horen graag van u
 
-Als u problemen hebt, laat het ons dan weten door berichten te plaatsen in de community [over beveiliging, & compliance.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) We houden de community in de gaten en bieden hulp.
+Als u problemen hebt, laat het ons dan weten door berichten te plaatsen in de community over [beveiliging, & compliance.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) We houden de community in de gaten en bieden hulp.
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 

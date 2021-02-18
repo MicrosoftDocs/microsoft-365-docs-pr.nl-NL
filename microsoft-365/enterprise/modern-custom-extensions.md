@@ -1,5 +1,5 @@
 ---
-title: Aangepaste extensies in SharePoint Online-pagina's met de moderne site optimaliseren
+title: Aangepaste extensies optimaliseren op moderne SharePoint Online-sitepagina's
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,104 +18,105 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Meer informatie over het optimaliseren van de prestaties van aangepaste extensies op pagina's van de moderne SharePoint Online-site.
-ms.openlocfilehash: 3f9474bcfa3266742d2e01af2f1df6eb5c0d017c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Informatie over het optimaliseren van de prestaties van aangepaste extensies op moderne SharePoint Online-sitepagina's.
+ms.openlocfilehash: 92d328c64c89a1a01bbcd50fb7ad04affdf69af8
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689342"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287195"
 ---
-# <a name="optimize-custom-extension-performance-in-sharepoint-online-modern-site-pages"></a>De prestaties van aangepaste uitbreidingen op sites met moderne SharePoint Online optimaliseren
+# <a name="optimize-custom-extension-performance-in-sharepoint-online-modern-site-pages"></a>Prestaties van aangepaste extensies optimaliseren op moderne SharePoint Online-sitepagina's
 
-In dit artikel wordt uitgelegd hoe u kunt bepalen hoe aangepaste extensies van invloed zijn op de beschikbare latentie van de gebruiker en hoe u veelvoorkomende problemen kunt oplossen.
+In dit artikel wordt beschreven hoe u kunt bepalen hoe aangepaste extensies van invloed zijn op de gebruikerslatentie en hoe u veelvoorkomende problemen kunt oplossen.
 
-## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-custom-extensions"></a>Het hulpprogramma pagina diagnose voor SharePoint gebruiken om aangepaste extensies te analyseren
+## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-custom-extensions"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om aangepaste extensies te analyseren
 
-Het hulpprogramma pagina diagnose voor SharePoint is een browser extensie voor de nieuwe Microsoft Edge- https://www.microsoft.com/edge) en Chrome-browsers die zowel SharePoint Online modern portal als de klassieke publicatiesite pagina's analyseren. Het hulpmiddel biedt een rapport voor elke geanalyseerde pagina op basis van een gedefinieerde set prestatiecriteria. Ga voor meer informatie over het hulpprogramma pagina diagnose voor SharePoint naar [het hulpprogramma pagina diagnose voor SharePoint Online](page-diagnostics-for-spo.md).
+Het hulpprogramma Paginadiagnose voor SharePoint is een browseruitbreiding voor de nieuwe versie van Microsoft Edge (en Chrome-browsers die zowel moderne Portal- als klassieke publicerende sitepagina's van https://www.microsoft.com/edge) SharePoint Online analyseren. Het hulpmiddel bevat een rapport voor elke geanalyseerde pagina, waarin u kunt zien hoe de pagina zich vertreedt ten opzichte van een gedefinieerde set prestatiecriteria. Ga naar Het hulpprogramma Paginadiagnose voor SharePoint Online gebruiken voor meer informatie over het hulpprogramma [Paginadiagnose voor SharePoint Online.](page-diagnostics-for-spo.md)
 
 >[!NOTE]
->Het hulpmiddel voor het automatisch toevoegen van pagina's werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+>Het hulpprogramma Paginadiagnose werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
 
-Wanneer u een pagina van een SharePoint-site wilt analyseren met het hulpprogramma pagina diagnose voor SharePoint, kunt u informatie weergeven over aangepaste extensies die de metric-Metric van de **uitbreidingen beïnvloeden** en/of het resultaat van **te veel uitbreidingen** in het deelvenster _diagnostische tests_ . 
+Wanneer u een SharePoint-sitepagina analyseert met het hulpprogramma Paginadiagnose voor SharePoint, kunt u in het deelvenster  Diagnostische tests informatie  zien over aangepaste extensies die de basislijnmetingen overschrijden. Dit heeft gevolgen voor de laadtijd en/of het te veel gebruikte extensies in het deelvenster Diagnostische tests  
 
-Mogelijke resultaten zijn onder meer:
+Mogelijke resultaten zijn:
 
-- **Aandacht vereist** (rood): elke _aangepaste_ extensie die langer dan **één** seconde duurt om te worden geladen. Totale laadtijd, zoals weergegeven in testresultaten, wordt opgesplitst via module laden en init. Ook als er te veel extensies zijn op een pagina, kunnen ze de laadtijd van de pagina beïnvloeden en worden deze gemarkeerd als er **zeven** of meer extensies worden gebruikt op de pagina.
-- **Verbeterings mogelijkheden** (geel) als er **vijf** of meer uitbreidingen worden gebruikt, worden deze gemarkeerd in deze sectie als een waarschuwing totdat zeven of meer worden gebruikt die vervolgens worden gemarkeerd als aandacht vereist.
-- **Geen actie vereist** (groen): geen enkele uitbreiding duurt langer dan één seconde voor de belasting.
+- **Aandacht vereist** (rood): Elke _aangepaste extensie_ die langer dan **één seconde** duurt om te laden. De totale laadtijd die wordt weergegeven in de testresultaten, wordt onderverdeeld op het laden en init van een module. Als een pagina te veel extensies heeft, kan dit van invloed zijn  op de laadtijd van de pagina. Dit wordt gemarkeerd als er zeven of meer extensies op de pagina worden gebruikt.
+- **Verkoopkansen voor** verbetering  (geel) Als er vijf of meer extensies worden gebruikt, worden deze in deze sectie gemarkeerd als een waarschuwing totdat er zeven of meer worden gebruikt. Deze worden vervolgens gemarkeerd als Aandacht vereist.
+- **Geen actie vereist** (groen): Het laden duurt langer dan één seconde.
 
-Als een extensie van invloed is op de laadtijd van pagina's of er te veel extsnions op de pagina staan, wordt het resultaat weergegeven in de sectie **aandacht vereist** van de resultaten. Klik op het resultaat om de details te bekijken van de module die langzaam wordt geladen of te veel extensies is gemarkeerd. Toekomstige updates voor het hulpprogramma pagina diagnose voor SharePoint bevatten mogelijk updates voor analyseregels, dus zorg ervoor dat u altijd de nieuwste versie van het hulpmiddel hebt.
+Als een uitbreiding van invloed is op de laadtijd van een pagina  of als de pagina te veel extensies heeft, wordt het resultaat weergegeven in de sectie Aandacht vereist van de resultaten. Klik op het resultaat om meer informatie te zien over welke extensie langzaam wordt geladen of er te veel extensies zijn gemarkeerd. Toekomstige updates van het hulpprogramma Paginadiagnose voor SharePoint kunnen updates van analyseregels bevatten, dus zorg ervoor dat u altijd de meest recente versie van het hulpprogramma hebt.
 
-![Resultaten van laadtijden voor pagina's](../media/page-diagnostics-for-spo/pagediag-extensions-load-time.png)
+![Resultaten van laadtijd van pagina](../media/page-diagnostics-for-spo/pagediag-extensions-load-time.png)
 
-Gegevens die in de resultaten worden weergegeven zijn onder meer:
+De beschikbare informatie in de resultaten omvat:
 
-- **Naam en id** toont identificatiegegevens waarmee u de uitbreiding op de pagina kunt vinden
-- **Totale hoeveelheid** de totale tijd voor het initialiseren en laden van de uitbreiding
-- **Module belasting** toont de tijd die is besteed aan het ophalen en laden van de uitbreiding
-- **Init** toont de tijd die wordt besteed aan de extensie voor initialisatie
+- **Met naam en** id worden identificerende gegevens weergegeven die u kunnen helpen de extensie op de pagina te vinden
+- **Totaal** toont de totale tijd voor het laden en initialiseren van de uitbreiding voor de module. Het is de totale relatieve tijd die door de extensie wordt genomen om op de pagina uit te voeren, van begin tot einde.
+- **Bij het laden** van een module ziet u de tijd die nodig is om de javaScript- en CSS-bestanden te downloaden, te evalueren en te laden. Vervolgens wordt het Init-proces begonnen.
+- **Init** shows the time taken for the extension to initialize the data.
+    Het is een asynchrone oproep en tijdin voeren de berekening van de tijd voor de on-Init-functie uit wanneer de geretourneerde belofte wordt opgelost.
 
-Deze informatie wordt verschaft om ontwerpers en ontwikkelaars te helpen problemen op te lossen. U dient deze informatie te verstrekken aan uw ontwerp-en ontwikkelingsteam.
+Deze informatie wordt verstrekt om ontwerpers en ontwikkelaars te helpen bij het oplossen van problemen. Deze informatie moet u verstrekken aan uw ontwerp- en ontwikkelteam.
 
 ## <a name="overview-of-extensions"></a>Overzicht van extensies
 
-U kunt SharePoint Framework (SPFx)-extensies gebruiken om de SharePoint-gebruikerservaring uit te breiden. Met SharePoint Framework-uitbreidingen kunt u meer facetten van de SharePoint-ervaring aanpassen, met inbegrip van de gebieden, werkbalken en lijstgegevens weergaven.
+SharePoint Framework-extensies (SPFX) Kunnen worden gebruikt om de SharePoint-gebruikerservaring uit te breiden. Met SharePoint Framework Extensions kunt u meer facets van de SharePoint-ervaring aanpassen, zoals meldingsgebieden, werkbalken en lijstgegevensweergaven.
 
-Uitbreidingen kunnen een onjuiste invloed hebben op de prestaties van een SharePoint-pagina, aangezien dit de processor-en netwerkbronnen voor het uitvoeren van vereiste werk mogelijk maakt.
+Extensies kunnen een negatieve invloed hebben op de prestaties van een SharePoint-pagina, omdat ook CPU- en netwerkbronnen vereiste werkzaamheden moeten doen.
 
 Er zijn vier typen extensies:
 
-- Met **toepassingen** kunnen scripts worden toegevoegd aan de pagina, en worden tijdelijke aanduidingen voor HTML-elementen met een aangepaste weergave uitgebreid.
-- **Veld** weergaven biedt gewijzigde weergaven voor gegevens voor velden in een lijst.
-- Met de **opdracht sets** breidt u de opdracht vlakken van SharePoint uit om nieuwe acties toe te voegen, en de code aan de clientzijde die u kunt gebruiken om gedrag te implementeren.
-- **Wijziging van de zoekopdracht (alleen voorbeeld)** wordt aangeroepen net voordat de zoek query wordt uitgevoerd.
+- **Application Customizers** voegt scripts toe aan de pagina, heeft toegang tot bekende tijdelijke aanduidingen voor HTML-elementen en breidt deze uit met aangepaste weergaven.
+- **Met veld customizers** kunt u aangepaste weergaven maken van gegevens voor velden in een lijst.
+- **Met opdrachtsets** worden de SharePoint-opdrachtoppervlakken uitgebreid om nieuwe acties toe te voegen en wordt code aan de clientzijde verstrekt die u kunt gebruiken om gedrag te implementeren.
+- **Zoekquery modifier (alleen voor voorbeeld)** wordt aangeroepen vlak voordat de zoekquery wordt uitgevoerd.
 
-## <a name="remediate-extension-performance-issues"></a>Problemen met de snelheid van de toestel herstel
+## <a name="remediate-extension-performance-issues"></a>Problemen met de prestaties van uitbreidingen verhelpen
 
-Volg de richtlijnen in deze sectie voor het identificeren en herstellen van prestatieproblemen met extensies die worden weergegeven in de **uitbreidingen voor het laden van pagina's van invloed zijn** op het laden van pagina's.
-
->[!NOTE]
->Toepassingen in het stadium voor het in de loop van de levenscyclus van een pagina kunnen worden aangepast, wat van invloed kan zijn op de prestaties van andere extensies op de pagina.
-
-Met de controleresultaten in het hulpmiddel voor het beheer van pagina's worden twee fasen voor het uitvoeren van een uitbreiding weergegeven om de mogelijke prestatie gevolgen te identificeren.
-
-- **Laden van modules** is hoe lang het duurt voordat de extensie wordt geladen, wat van invloed is op de grootte van een uitbreiding, zodat het een goed idee is om alleen de gewenste bibliotheken in de extensie te bundelen en ook om lichtere bibliotheken te kiezen.
-- **Init** is de initialisatie tijd van de ontwikkelaars voor extensies en extensies om na te gaan of de extensie niet langer werk moet werken of te veel opdrachten uitvoert tijdens de Initialisatiefase.
-
-Auteurs van pagina's kunnen ook het controleresultaat gebruiken om te zien of een pagina te veel extensies bevat voor te veel extensies, wat de prestaties van een pagina negatief beïnvloeden.
-
-- **Grootte en afhankelijkheden van de extensie**
-  - Het gebruik van het Office 365 CDN is vereist voor optimale statische Download bronnen. Openbare CDN-oorsprong zijn de voorkeur voor _js-en CSS-_ bestanden. Zie [het office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)voor meer informatie over het gebruik van Office 365 CDN.
-  - U kunt onder andere kaders gebruiken, zoals _reageren_ en de invoer van de _infrastructuur_ , die deel uitmaken van de SharePoint Framework (SPFx). Voor meer informatie raadpleegt u [overzicht van SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview).
-  - Zorg ervoor dat u de meest recente versie van het SharePoint-Framework gebruikt en een upgrade uitvoert naar nieuwe versies zodra deze beschikbaar komen.
-- **Gegevens ophalen/in cache opslaan**
-  - Als de uitbreiding gebruikmaakt van extra server oproepen voor het ophalen van gegevens voor weergave, moet u ervoor zorgen dat deze server-Api's snel en/of de cache van de client gebruiken (zoals het gebruik van _localStorage_ of _IndexDB_ voor grotere sets).
-  - Als er meerdere oproepen vereist zijn om cruciale gegevens weer te geven, kunt u overwegen om batches op de server of andere methoden voor het samenvoegen van aanvragen in één gesprek.
-  - Als voor sommige elementen met gegevens een langzamere API is vereist, maar niet essentieel is voor het maken van de rendering, ontkoppelt u deze naar een afzonderlijke oproep die wordt uitgevoerd nadat de kritieke gegevens zijn weergegeven.
-  - Als in meerdere delen dezelfde gegevens worden gebruikt, gebruikt u een gemeenschappelijke Gegevenstoegangslaag om dubbele oproepen te voorkomen.
-- **Tijdstip van rendering**
-  - De grootte van de container, het apparaat en/of netwerk dient te worden aangepast om te voorkomen dat u onnodige grote activa kunt downloaden. Zie [het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)voor meer informatie over inhouds afhankelijkheden.
-  - Vermijd API-oproepen die een nieuwe, complexe CSS-regels of complexe animaties veroorzaken. Zie voor meer informatie [browser heruitvoering minimaliseren](https://developers.google.com/speed/docs/insights/browser-reflow).
-  - Vermijd het gebruik van gekoppelde langdurige taken. In plaats daarvan kunt u langere taken met een onderbrekingspunt verdelen. Zie [JavaScript Execution optimaliseren](https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution)voor meer informatie.
-  - Plaats een juiste ruimte voor asynchrone rendering van media of visuele elementen om overgeslagen frames en hapert (ook wel _JanK_) te voorkomen.
-  - Als een bepaalde browser geen ondersteuning biedt voor een functie die wordt gebruikt in de rendering, laadt u een polyfill of niet-uitgevoerde afhankelijke code. Als de functie niet essentieel is, kunt u resources verwijderen, zoals gebeurtenis-handlers om geheugenlekkages te vermijden.
-
-Voordat u de revisies van pagina's aanbrengt om prestatieproblemen te verhelpen, kunt u de laadtijd van de pagina in de analyseresultaten noteren. Voer het hulpprogramma opnieuw uit na de wijziging om te zien of het nieuwe resultaat binnen de basislijn standaard valt en de nieuwe laadtijd voor pagina's te controleren om te zien of er een verbetering was.
-
-![Resultaten van laadtijden voor pagina's](../media/modern-portal-optimization/pagediag-page-load-time.png)
+Volg de richtlijnen in deze sectie om prestatieproblemen te identificeren en op te lossen met extensies die worden vermeld in de Extensies, die van invloed zijn op de laadtijd **van pagina's.**
 
 >[!NOTE]
->De laadtijd van de pagina kan variëren, afhankelijk van diverse factoren, zoals netwerkbelasting, tijdstip van de dag en andere tijdelijke voorwaarden. U moet de laadtijd voor pagina's enkele keren vóór en na het aanbrengen van wijzigingen aanbrengen om de resultaten te berekenen.
+>Het is mogelijk dat de toepassingsuitbreidingen in het begin van de levensduur van een pagina worden uitgevoerd en dit kan van invloed zijn op de prestaties van andere extensies op de pagina.
+
+De controleresultaten in het diagnostisch hulpprogramma pagina worden weergegeven in twee fasen van het uitvoeren van een uitbreiding om de mogelijke prestatie-impact te identificeren.
+
+- **Het** laden van een module is de tijd die nodig is om de uitbreiding te laden. Dit wordt beïnvloed door de grootte van een uitbreiding, dus het is een goed idee om alleen de benodigde bibliotheken in de extensie te bundelen en lichtere bibliotheken te kiezen.
+- **Init** is the initialization time of the extension and extension developers should consider whether the extension is doing unnecessary work or executing too many commands during the initializing stage.
+
+Paginaauteurs kunnen ook het controleresultaat gebruiken om te controleren of een pagina te veel extensies heeft, omdat het aantal extensies een negatieve invloed heeft op de prestaties van een pagina.
+
+- **Extensiegrootte en afhankelijkheden**
+  - Het Office 365-CDN is vereist voor het optimaal statisch downloaden van statische bronnen. Openbare CDN-origins hebben de voorkeur voor _js-/css-bestanden._ Zie Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online voor meer informatie over het gebruik van het [Office 365-CDN.](use-microsoft-365-cdn-with-spo.md)
+  - Gebruik frameworks zoals _React-_ en _Fabric-importen_ die deel uitmaken van het SharePoint Framework (SPFX). Zie Overzicht van SharePoint Framework voor [meer informatie.](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview)
+  - Zorg ervoor dat u de nieuwste versie van SharePoint Framework gebruikt en upgrade naar nieuwe versies zodra deze beschikbaar zijn.
+- **Gegevens ophalen/caching**
+  - Als de extensie afhankelijk is van extra servergesprekken om gegevens op te halen voor weergave, zorgt u ervoor dat deze server-API's snel zijn en/of client caching (zoals het gebruik van _localStorage_ of _IndexDB_ voor grotere sets) implementeren.
+  - Als er meerdere oproepen nodig zijn om essentiële gegevens weer te geven, kunt u overwegen om een batch te maken op de server of op andere manieren om aanvragen samen tevoegen tot één oproep.
+  - Als voor sommige gegevenselementen een tragere API is vereist, maar die niet essentieel zijn voor de eerste weergave, ontkoppelt u deze tot een afzonderlijke oproep die wordt uitgevoerd nadat essentiële gegevens zijn weergegeven.
+  - Als meerdere onderdelen dezelfde gegevens gebruiken, gebruik dan een algemene gegevenslaag om dubbele aanroepen te voorkomen.
+- **Weergavetijd**
+  - Mediabronnen zoals afbeeldingen en video's moeten worden beperkt tot de limieten van de container, het apparaat en/of het netwerk om te voorkomen dat onnodige grote assets worden gedownload. Zie het [Office 365 Content Delivery Network (CDN)](use-microsoft-365-cdn-with-spo.md)gebruiken met SharePoint Online voor meer informatie over inhoudsafhankelijkheden.
+  - Voorkom API-aanroepen die leiden tot nieuwe stroom, complexe CSS-regels of ingewikkelde animaties. Zie Het minimaliseren van de [browserreflow voor meer informatie.](https://developers.google.com/speed/docs/insights/browser-reflow)
+  - Vermijd het gebruik van geketende, langlopende taken. Verbreed taken daarom in afzonderlijke wachtrijen. Zie [JavaScript-uitvoering optimaliseren voor meer informatie.](https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution)
+  - Reserveer overeenkomstige ruimte voor asynchrone weergave van media of visuele elementen om te voorkomen dat frames worden overgeslagen en rug ruggoot (ook wel _jank genoemd)._
+  - Als een bepaalde browser geen ondersteuning biedt voor een functie die wordt gebruikt in weergave, laadt u een polyfillfunctie of sluit u het uitvoeren van afhankelijke code uit. Als de functie niet kritiek is, moet u resources verwijderen, zoals gebeurtenis-handlers, om geheugenlekken te voorkomen.
+
+Voordat u paginarevisies maakt om prestatieproblemen te verhelpen, noteert u de laadtijd van de pagina in de analyseresultaten. Voer het hulpprogramma na de revisie opnieuw uit om te zien of het nieuwe resultaat binnen de basislijnstandaard valt en controleer de nieuwe laadtijd van de pagina om te zien of er een verbetering is.
+
+![Resultaten van laadtijd van pagina](../media/modern-portal-optimization/pagediag-page-load-time.png)
+
+>[!NOTE]
+>De laadtijd van pagina's kan variëren afhankelijk van een aantal factoren, zoals de belasting van het netwerk, het tijdstip van de dag en andere tijdelijke voorwaarden. Test het laden van pagina's een paar keer voor en na het aanbrengen van wijzigingen om het gemiddelde van de resultaten te kunnen bekijken.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Prestaties van SharePoint Online afstemmen](tune-sharepoint-online-performance.md)
 
-[Prestaties van Office 365 afstemmen](tune-microsoft-365-performance.md)
+[De prestaties van Office 365 afstemmen](tune-microsoft-365-performance.md)
 
 [Prestaties in de moderne SharePoint-ervaring](https://docs.microsoft.com/sharepoint/modern-experience-performance)
 
-[Netwerken voor content levering](content-delivery-networks.md)
+[Netwerken voor contentlevering](content-delivery-networks.md)
 
 [Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)

@@ -21,29 +21,29 @@ ms.custom:
 description: Meer informatie over bedreigingsonderzoek en reactiemogelijkheden in Microsoft Defender voor Office 365-abonnement.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 32b23dca0d4cb70407ce91a652e458b729b3c12f
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 2a772ed3016bebc8f380cf384257e12497e9eb7c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150734"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287675"
 ---
-# <a name="threat-investigation-and-response"></a>Bedreigingsonderzoek en reactie
+# <a name="threat-investigation-and-response"></a>Bedreigingsonderzoek en -reactie
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--    [Microsoft Defender voor Office 365-abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 
 
-Bedreigingsonderzoek en antwoordmogelijkheden in Microsoft Defender voor [Office 365](office-365-atp.md) helpen beveiligingsanalisten en beheerders om de Microsoft 365 voor Bedrijven-gebruikers van hun organisatie te beschermen door:
+Beveiligingsanalisten en beheerders van Microsoft Defender voor [Office 365](office-365-atp.md) helpen beveiligingsanalisten en beheerders om de Microsoft 365 voor Bedrijven-gebruikers van hun organisatie te beschermen door:
 
 - Maakt het gemakkelijk om cyberaanvallen te identificeren, te volgen en te begrijpen
 - Helpt om snel bedreigingen in Exchange Online, SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams aan te pakken
 - Het bieden van inzichten en kennis om beveiligingsactiviteiten te helpen voorkomen dat cyberaanvallen tegen hun organisatie worden uitgevoerd
 - Gebruik van [geautomatiseerd onderzoek en antwoorden in Office 365](automated-investigation-response-office.md) voor kritieke bedreigingen op basis van e-mail
 
-Risicoonderzoek en reactiemogelijkheden bieden inzicht in bedreigingen en gerelateerde reactieacties die beschikbaar zijn in het beveiligings- & compliancecentrum. Deze inzichten kunnen het beveiligingsteam van uw organisatie helpen om gebruikers te beschermen tegen e-mail- of bestandsaanvallen. De mogelijkheden helpen signalen controleren en gegevens verzamelen van meerdere bronnen, zoals gebruikersactiviteit, verificatie, e-mail, gekromde pc's en beveiligingsincidenten. Zakelijke besluitvormers en het team voor beveiligingsactiviteiten kunnen deze informatie gebruiken om inzicht te krijgen in en te reageren op bedreigingen in uw organisatie en om uw intellectuele eigendom te beschermen.
+Risicoonderzoek en reactiemogelijkheden bieden inzicht in bedreigingen en gerelateerde reactieacties die beschikbaar zijn in het beveiligings- & compliancecentrum. Deze inzichten kunnen het beveiligingsteam van uw organisatie helpen om gebruikers te beschermen tegen e-mail- of bestandsaanvallen. Met de functies kunt u signalen controleren en gegevens verzamelen van meerdere bronnen, zoals gebruikersactiviteit, verificatie, e-mail, gekromde pc's en beveiligingsincidenten. Zakelijke besluitvormers en het team voor beveiligingsactiviteiten kunnen deze informatie gebruiken om inzicht te krijgen in en te reageren op bedreigingen in uw organisatie en om uw intellectuele eigendom te beschermen.
 
 ## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>Vertrouwd raken met bedreigingsonderzoek en reactiehulpmiddelen
 
@@ -87,7 +87,7 @@ Gebruik de attack simulator om realistische cyberaanvallen in uw organisatie in 
 
 ### <a name="automated-investigation-and-response"></a>Geautomatiseerd onderzoek en reactie
 
-Gebruik air-mogelijkheden (Automated Investigation and Response) om tijd en moeite te besparen bij het aan elkaar houden van inhoud, apparaten en personen die risico lopen voor bedreigingen in uw organisatie. AIR-processen kunnen beginnen wanneer bepaalde waarschuwingen worden geactiveerd of wanneer het team voor beveiligingsbewerkingen aan de slag gaat. Zie Automatisch onderzoek en antwoorden [in Office 365](automated-investigation-response-office.md)voor meer informatie.
+Gebruik air-mogelijkheden (Automated Investigation and Response) om tijd en moeite te besparen bij het aan elkaar houden van inhoud, apparaten en personen die risico lopen voor bedreigingen in uw organisatie. AIR-processen kunnen beginnen wanneer bepaalde waarschuwingen worden getriggerd of wanneer ze worden gestart door uw team voor beveiligingsbewerkingen. Zie Automatisch onderzoek en antwoorden [in Office 365](automated-investigation-response-office.md)voor meer informatie.
 
 ## <a name="threat-intelligence-widgets"></a>Bedreigingsinformatiewidgets
 

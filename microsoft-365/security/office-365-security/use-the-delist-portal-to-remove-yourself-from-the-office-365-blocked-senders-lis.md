@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: 04/18/2016
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,50 +17,56 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe u de lijst Portal kunt gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders in Microsoft 365.
-ms.openlocfilehash: 0c87d467db004a50502402b05eb0fa3283aa46c5
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: In dit artikel leert u hoe u de delist-portal gebruikt om uzelf te verwijderen uit de lijst met geblokkeerde afzenders in Microsoft 365.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: c11fced30ef52315ecb44dda51e6825d36b57c7e
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614760"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287519"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>De delist-portal gebruiken om jezelf uit de lijst met geblokkeerde afzenders te verwijderen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Wordt er een foutbericht weergegeven wanneer u probeert een e-mailbericht te verzenden naar een geadresseerde waarvan het e-mailadres zich in Microsoft 365 bevindt? Als u denkt dat het foutbericht moet worden weergegeven, kunt u de lijst met geblokkeerde afzenders gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders.
+Wordt er een foutbericht weergegeven wanneer u een e-mailbericht probeert te verzenden naar een geadresseerde van wie het e-mailadres zich in Microsoft 365 Als u denkt dat u het foutbericht niet moet ontvangen, kunt u de portal voor het verwijderen van uzelf uit de lijst met geblokkeerde afzenders verwijderen.
 
 ## <a name="what-is-the-blocked-senders-list"></a>Wat is de lijst met geblokkeerde afzenders?
 
-Microsoft gebruikt de lijst met geblokkeerde afzenders om klanten tegen spam, spoofing en phishing-aanvallen te beschermen. Het IP-adres van uw e-mailserver, dat wil zeggen het adres dat door uw e-mailserver wordt gebruikt om zichzelf te identificeren op internet, is als mogelijke bedreiging voor Microsoft 365 in een van de verschillende redenen. Wanneer Microsoft 365 het IP-adres aan de lijst toevoegt, voorkomt u dat alle verdere communicatie tussen het IP-adres en een van onze klanten via onze datacenters wordt toegevoegd.
+Microsoft gebruikt de lijst met geblokkeerde afzenders om haar klanten te beschermen tegen spam, spoofing en phishing-aanvallen. Het IP-adres van uw e-mailserver, dat wil zeggen het adres dat door uw e-mailserver wordt gebruikt om zichzelf op internet te identificeren, is om een aantal redenen gelabeld als een mogelijke bedreiging voor Microsoft 365. Wanneer Microsoft 365 het IP-adres aan de lijst toevoegt, wordt alle communicatie tussen het IP-adres en onze klanten via onze datacenters voorkomen.
 
-U weet dat u bent toegevoegd aan de lijst wanneer u een antwoord ontvangt voor een e-mailbericht met een foutmelding die er ongeveer als volgt uitziet:
+U weet dat u aan de lijst bent toegevoegd wanneer u een antwoord op een e-mailbericht ontvangt met een foutmelding die er als volgende uitziet:
 
-> 550 5.7.606-649 toegang geweigerd, weigering IP [_IP Address_]; Als u het verwijderen van deze lijst wilt aanvragen, gaat u <https://sender.office.com/> verder met de instructies. Zie [rapporten over niet-uitgevoerde bezorging van e-mail in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)voor meer informatie.
+> 550 5.7.606-649 Access geweigerd, verzenden van IP geweigerd [_IP-adres_]; Als u uit deze lijst wilt verwijderen, gaat u naar de aanwijzingen en <https://sender.office.com/> volgt u deze. Zie rapporten over [niet-bezorging van e-mail in Exchange Online voor meer informatie.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
 
 waarbij  _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt uitgevoerd.
 
-### <a name="to-use-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>U kunt als volgt de lijst met geblokkeerde afzenders gebruiken om de portal te verwijderen
+### <a name="to-use-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Delist Portal gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders
 
 1. Ga in een webbrowser naar <https://sender.office.com> .
 
-2. Volg de instructies op de pagina. Zorg ervoor dat u het e-mailadres gebruikt waarnaar het foutbericht is verzonden en het IP-adres dat is opgegeven in het foutbericht. U kunt slechts één e-mailadres en één IP-adres per bezoek invoeren.
+2. Volg de instructies op de pagina. Zorg ervoor dat u het e-mailadres gebruikt waar het foutbericht naar is verzonden en het IP-adres dat is opgegeven in het foutbericht. U kunt slechts één e-mailadres en één IP-adres per bezoek invoeren.
 
-3. Klik op **verzenden**.
+3. Klik **op Verzenden.**
 
-    De portal verzendt een e-mailadres naar het e-mailadres dat u opgeeft. Het e-mailbericht ziet er ongeveer als volgt ![ uit: schermafbeelding van een e-mailbericht dat u ontvangt wanneer u een aanvraag indient via de portal voor delistren](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
+    Via de portal wordt een e-mail verzonden naar het e-mailadres dat u oplevert. Het e-mailbericht ziet er dan als volgt uit: Schermafbeelding van de e-mail die wordt ontvangen wanneer u een ![ aanvraag indient via de delistportal](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
 
-4. Klik op de bevestigings koppeling in het e-mailbericht dat naar u is verzonden, via de portal voor het opzeggen van de portal.
+4. Klik op de bevestigingskoppeling in de e-mail die naar u is verzonden via de portal voor het in-/uiten.
 
-    U gaat terug naar de lijst Portal.
+    U gaat nu terug naar de portal voor het delisten.
 
-5. Klik in het vak Portal delijstte op **IP-adres weergeven**.
+5. Klik in de portal Delist op **IP delisten.**
 
-    Nadat het IP-adres is verwijderd uit de lijst met geblokkeerde afzenders, worden e-mailberichten van dat IP-adres afgeleverd bij geadresseerden die gebruikmaken van Microsoft 365. Zorg ervoor dat het e-mailadres dat via dat IP-adres is verzonden, niet beledigend of schadelijk kan zijn. anders wordt het IP-adres mogelijk opnieuw geblokkeerd.
+    Nadat het IP-adres is verwijderd uit de lijst met geblokkeerde afzenders, worden e-mailberichten van dat IP-adres bezorgd bij geadresseerden die Microsoft 365 gebruiken. Zorg er dus voor dat u zeker weet dat e-mail die vanaf dat IP-adres wordt verzonden, niet aanstootgevend of schadelijk zal zijn. anders wordt het IP-adres mogelijk opnieuw geblokkeerd.
 
     > [!NOTE]
-    > Het kan tot 24 uur duren voordat de beperkingen worden verwijderd.
+    > Het kan tot 24 uur duren of de resultaten kunnen sterk variëren voordat de beperkingen worden verwijderd.
 
-Zie [voor meer informatie over het maken van lijsten met veilige afzenders in EOP](create-safe-sender-lists-in-office-365.md) en [uitgaande spam bescherming in EOP](outbound-spam-controls.md) om te voorkomen dat een IP wordt geblokkeerd.
+Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) en uitgaande [spambeveiliging in EOP](outbound-spam-controls.md) om te voorkomen dat een IP wordt geblokkeerd.

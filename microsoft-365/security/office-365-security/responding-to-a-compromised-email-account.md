@@ -20,21 +20,21 @@ search.appverid:
 description: Lees hoe u een gehackt e-mailaccount kunt herkennen en hierop kunt reageren met behulp van de hulpmiddelen die beschikbaar zijn in Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a34780b260a6e4bbc2d8b3f53af6b67de04fbdcd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1bbd607386b49b45ebd7444c4a91d05e4cee475b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166661"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288607"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Reageren op een gehackt e-mailaccount
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 **Overzicht** Lees hoe u een gehackt e-mailaccount in Microsoft 365 kunt herkennen en hierop kunt reageren
 
@@ -90,7 +90,7 @@ U moet de volgende stappen uitvoeren om weer toegang te krijgen tot uw account. 
 
 ### <a name="step-1-reset-the-users-password"></a>Stap 1 Stel het gebruikerswachtwoord opnieuw in
 
-Volg de procedures in [Een zakelijk wachtwoord opnieuw instellen voor iemand](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords#reset-my-admin-password).
+Volg de procedures in [Een zakelijk wachtwoord opnieuw instellen voor iemand](../../admin/add-users/reset-passwords.md#reset-my-admin-password).
 
 > [!IMPORTANT]
 >
@@ -104,7 +104,7 @@ Volg de procedures in [Een zakelijk wachtwoord opnieuw instellen voor iemand](ht
 >
 > - Vergeet niet om app-wachtwoorden bij te werken. App-wachtwoorden worden niet automatisch ingetrokken bij het opnieuw instellen van een wachtwoord voor een gebruikersaccount. De gebruiker moet bestaande app-wachtwoorden verwijderen en nieuwe app-wachtwoorden maken. Voor meer informatie, zie [App-wachtwoorden maken en verwijderen op de pagina Aanvullende beveiligingsverificatie](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
 >
-> - We raden u ten zeerste aan om meervoudige verificatie in te schakelen om een inbreuk te voorkomen, met name voor accounts met beheerdersbevoegdheden. Voor meer informatie over MFA gaat u naar [Meervoudige verificatie instellen](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> - We raden u ten zeerste aan om meervoudige verificatie in te schakelen om een inbreuk te voorkomen, met name voor accounts met beheerdersbevoegdheden. Voor meer informatie over MFA gaat u naar [Meervoudige verificatie instellen](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Stap 2 E-mailadressen verwijderen die verdachte mails doorsturen
 

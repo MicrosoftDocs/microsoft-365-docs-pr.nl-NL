@@ -21,20 +21,20 @@ ms.custom:
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7624b9a62530e54a161bbc4aacc8bee56ed959b2
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 741b00a55ee73d16c82abd4806d06660d49be65b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150722"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287663"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
@@ -92,7 +92,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 - De functie [Veilige documenten](safe-docs.md) is alleen beschikbaar voor gebruikers met een Microsoft 365 E5- of Microsoft 365 E5 Security-licentie (niet opgenomen in abonnementen voor Microsoft Defender voor Office 365).
 
-- Als je huidige abonnement Microsoft Defender voor Office 365 niet bevat, [neem dan contact op met de verkoopafdeling voor een proefabonnement](https://go.microsoft.com/fwlink/p/?LinkId=518644) en bekijk hoe Defender voor Office 365 werkt voor jouw organisatie.
+- Als je huidige abonnement Microsoft Defender voor Office 365 niet bevat, [neem dan contact op met de verkoopafdeling voor een proefabonnement](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html) en bekijk hoe Defender voor Office 365 werkt voor jouw organisatie.
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Beleid in Microsoft Defender voor Office 365 instellen
 
@@ -149,7 +149,7 @@ U moet een passende rol zijn toegewezen om toegang te krijgen tot Microsoft Defe
 
 |Rol of rollengroep|Informatiebronnen|
 |---|---|
-|Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Over Microsoft 365-beheersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
+|Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Over Microsoft 365-beheersrollen](../../admin/add-users/about-admin-roles.md)|
 |Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Machtigingen voor beheerdersrollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |Zoeken en opschonen (die wordt alleen toegewezen in het beveiligings- en compliancecentrum)|[Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|

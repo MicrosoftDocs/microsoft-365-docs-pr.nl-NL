@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,29 +16,31 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Lees meer over de mogelijkheid om e-mail te bezorgen bij gebruikers in Microsoft 365 via een externe afzender. Ook leert u hoe u ongewenste e-mail meldt & phishingberichten als een externe gebruiker.
-ms.openlocfilehash: 0c0a981d12fa5b8159789a69597f83eb15d9b194
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Leer hoe u als externe afzender de mogelijkheid om e-mail te bezorgen bij gebruikers kunt vergroten in Microsoft 365. U leert ook hoe u ongewenste e-mail & phishing-pogingen kunt melden als een externe gebruiker.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 4869b0f02415b3802b34625789817068cbe14c57
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48196795"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "50286571"
 ---
 # <a name="sending-mail-to-microsoft-365"></a>E-mail verzenden naar Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Deze artikelen helpen externe afzenders hun reputatie te verbeteren en de mogelijkheid om e-mail te bezorgen bij gebruikers in Microsoft 365 te vergroten. Ze bieden ook enkele informatie over hoe u ongewenste e-mail en phishing kunt melden, ook als u geen Microsoft 365-gebruiker bent.
+Deze artikelen helpen externe afzenders hun reputatie te verbeteren en hun mogelijkheid om e-mail te leveren aan gebruikers in Microsoft 365 te verbeteren. Ze bevatten ook informatie over hoe u ongewenste e-mail en phishing-pogingen kunt melden, zelfs als u zelf geen Microsoft 365-gebruiker bent.
 
-Als u geen klant bent, maar wel een e-mailbericht probeert te verzenden naar iemand in de juiste plaats, dan bent u op de juiste plaats. Als u een beheerder bent en u hulp nodig hebt bij het bestrijden van spam, vormt dit niet de juiste sectie. In plaats daarvan gaat u naar [antispam en beveiliging tegen malware in Microsoft 365](anti-spam-and-anti-malware-protection.md).
+Als u geen klant bent, maar een e-mail wilt verzenden naar iemand die wel een klant is, bent u op de juiste plaats. Als u een beheerder bent en hulp nodig hebt bij het verspreiden van spam, is dit niet de juiste sectie voor u. In plaats daarvan gaat u naar Beveiliging tegen [spam en malware in Microsoft 365.](anti-spam-and-anti-malware-protection.md)
 
 ****
 
-|Voor informatie over...|Zie...|
+|Voor meer informatie over...|Zie...|
 |---|---|
-|Services die we bieden aan beheerders van e-mail systemen die afzonderlijke en grote hoeveelheden e-mailberichten verzenden naar klanten.|[Services voor niet-klanten die e-mail verzenden naar Office 365](services-for-non-customers.md)|
-|Problemen oplossen bij het bereiken van klanten in Microsoft 365 via e-mail. Aanbevolen procedures voor het verzenden van bulkmail naar geadresseerden van Microsoft 365.|[Problemen met e-mailberichten die worden verzonden naar Office 365 oplossen](troubleshooting-mail-sent-to-office-365.md)|
-|Hoe Microsoft 365 ongewenste e-mail verhindert, met inbegrip van malafide e-mail en spoofing e-mail, van verzonden naar onze klanten.|[Bescherming tegen ongewenste e-mail in Microsoft 365](anti-spam-protection.md)|
-|Hoe u, een beheerder die e-mail verstuurt naar Microsoft 365-klanten, kan voorkomen dat e-mailberichten worden geblokkeerd door ons Antispambeleid te voldoen. Dit zijn de juridische zaken die u moet weten.|[Verwijzing: Beleid, procedures en richtlijnen](reference-policies-practices-and-guidelines.md)|
+|Services die wij bieden aan beheerders van e-mailsystemen die individuele en bulk-e-mail verzenden naar klanten.|[Services voor niet-klanten die e-mail naar Office 365 verzenden](services-for-non-customers.md)|
+|Problemen met het bereiken van klanten in Microsoft 365 via e-mail oplossen. Best practices voor het verzenden van bulkmail naar Microsoft 365-geadresseerden.|[Problemen met e-mailberichten die worden verzonden naar Office 365 oplossen](troubleshooting-mail-sent-to-office-365.md)|
+|Hoe Microsoft 365 voorkomt dat ongewenste e-mail, waaronder phishing en spoofing-e-mail, naar onze klanten wordt verzonden.|[Bescherming tegen spam in Microsoft 365](anti-spam-protection.md)|
+|Hoe u, een beheerder die e-mail naar klanten van Microsoft 365 stuurt, kan voorkomen dat e-mail wordt geblokkeerd door te voldoen aan ons antispambeleid. Dit is de juridische zaken die u moet weten.|[Verwijzing: Beleid, procedures en richtlijnen](reference-policies-practices-and-guidelines.md)|
 |

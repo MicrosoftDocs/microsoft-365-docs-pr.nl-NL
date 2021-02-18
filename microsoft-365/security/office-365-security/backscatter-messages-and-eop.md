@@ -19,21 +19,21 @@ ms.custom:
 description: In dit artikel vindt u meer informatie over Backscatter en Microsoft Exchange Online Protection (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3cdc556a8cc193466d150fc82298796779841cca
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 3d9556c69e5db460933b355e8bf12903d56f21b5
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165953"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286967"
 ---
 # <a name="backscatter-in-eop"></a>Backscatter in EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 *Backscatter* is rapporten over niet-bezorging (ook wel NR's of niet-bezorgdberichten genoemd) die u ontvangt voor berichten die u niet hebt verzonden. Spammers vervalsen het Van:-adres van hun berichten en gebruiken vaak echte e-mailadressen om hun berichten geloofwaardig te maken. Wanneer spammers dus onvermijdelijk berichten verzenden naar niet-bestaande geadresseerden (spam is een bewerking met hoog volume), wordt de doel-e-mailserver in feite gedredigd om het onbeslieerde bericht in een NDR te retourneren aan de vervalste afzender in het Van:-adres.
 
@@ -42,4 +42,4 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige 
 Backscatterer.org een blokkeringslijst bijhoudt (ook wel een DNS-blokkeringslijst of DNSBL genoemd) van e-mailservers die verantwoordelijk waren voor het verzenden van backscatter en EOP-servers kunnen in deze lijst worden weergegeven. Maar we proberen niet te verwijderen uit de lijst met geblokkeerde Backscatterer.org omdat het geen lijst met spammers is (voor hun eigen toegang).
 
 > [!TIP]
-> De Backscatter.org () raadt aan de service te gebruiken voor het controleren van inkomende e-mail in de veilige modus in plaats van de modus Weigeren (in grote e-mailservices wordt vrijwel altijd <http://www.backscatterer.org/?target=usage> backscatter verzonden).
+> De Backscatter.org website ( ) raadt aan de service te gebruiken voor het controleren van inkomende e-mail in de veilige modus in plaats van de modus Weigeren (grote e-mailservices verzenden vrijwel altijd <http://www.backscatterer.org/?target=usage> backscatter).

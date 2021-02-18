@@ -8,70 +8,74 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
-description: Beheerders kunnen leren hoe u het auditlogboek van de beheerder kunt weergeven en doorzoeken op zelfstandige Exchange Online Protection (EOP).
-ms.openlocfilehash: c65c09efa0f90fc9b63d635dae598b24d93ea714
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Beheerders kunnen informatie krijgen over het weergeven en doorzoeken van het auditlogboek voor beheerders in de zelfstandige Exchange Online Protection (EOP).
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: ab6bf0a2739a88a075b636b990539b24006f3e63
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659439"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286475"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>Het auditlogboek van de beheerder bekijken in standalone EOP
+
+**Van toepassing op**
+- [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken, kunt u de PowerShell-of zelfstandige EOP PowerShell gebruiken om vermeldingen te zoeken en te bekijken in het controlelogboek van de beheerder.
+In zelfstandige Exchange Online Protection-organisaties (EOP) zonder Exchange Online-postvakken kunt u het Exchange-beheercentrum (EAC) of de zelfstandige EOP PowerShell gebruiken om vermeldingen te zoeken en weer te geven in het auditlogboek voor beheerders.
 
-In het auditlogboek voor beheerders worden specifieke acties vastgelegd op basis van zelfstandige EOP PowerShell-cmdlets, die worden uitgevoerd door beheerders en gebruikers aan wie beheerdersbevoegdheden zijn toegewezen. Vermeldingen in het controlelogboek van de beheerder biedt informatie over de uitvoering van de cmdlet, de parameters die zijn gebruikt om de cmdlet uit te voeren en welke objecten werden beïnvloed.
+In het auditlogboek voor beheerders worden specifieke acties op basis van zelfstandige EOP PowerShell-cmdlets, uitgevoerd door beheerders en gebruikers aan wie beheerdersbevoegdheden zijn toegewezen. Vermeldingen in het auditlogboek voor beheerders bevatten informatie over welke cmdlet is uitgevoerd, welke parameters zijn gebruikt, wie de cmdlet heeft uitgevoerd en welke objecten zijn beïnvloed.
 
 > [!NOTE]
 >
-> - Logboekregistratie van beheerders is standaard ingeschakeld, en u kunt deze niet uitschakelen.
+> - Logboekregistratie door beheerders is standaard ingeschakeld en u kunt deze functie niet uitschakelen.
 >
-> - Het controlelogboek van de beheerder recordeert geen acties op basis van cmdlets die beginnen met de werkwoorden **Get**, **Search** of **test**.
+> - In het auditlogboek voor beheerders worden geen acties opgeslagen op basis van cmdlets die beginnen met de werkwoorden **Get,** **Search** of **Test.**
 >
-> - Audit logboekvermeldingen worden gedurende 90 dagen bewaard. Wanneer een item ouder is dan 90 dagen, wordt dit verwijderd
+> - Vermeldingen in het auditlogboek worden 90 dagen bewaard. Wanneer een item ouder is dan 90 dagen, wordt het verwijderd
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Om het Exchange-Beheercentrum te openen, raadpleegt u het [Exchange-Beheercentrum in zelfstandige EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
+- Als u het Exchange-beheercentrum wilt openen, gaat u naar [het Exchange-beheercentrum in de zelfstandige EOP.](exchange-admin-center-in-exchange-online-protection-eop.md)
 
 - Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- U moet machtigingen zijn toegewezen in Exchange Online Protection voordat u de procedures in dit artikel kunt uitvoeren. Specifiek hebt u de rol **audit** Logboeken of **alleen-lezen** rollen nodig die zijn toegewezen aan de rollen groepen **Organisatiebeheer**, **Compliance Management** en **beveiligingsbeheerder** . Zie voor meer informatie [machtigingen in zelfstandige EOP](feature-permissions-in-eop.md) en [Gebruik de lijst met wijzigingen in de lijst met leden van rollen groepen](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- U moet machtigingen toegewezen krijgen in Exchange Online Protection voordat u de procedures in dit artikel kunt uitvoeren. U hebt met name de rol **Auditlogboeken** of Auditlogboeken voor alleen **weergeven**  nodig, die standaard zijn toegewezen aan de rollengroepen Organisatiebeheer, Compliancebeheer en Beveiligingsbeheerder. Zie Machtigingen in zelfstandige EOP en gebruik het [EAC](feature-permissions-in-eop.md) om de lijst met leden [in rollengroepen te wijzigen voor meer informatie.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
-- Zie toetscombinaties [voor het Exchange-Beheercentrum in Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)voor informatie over toetscombinaties die van toepassing kunnen zijn op de procedures in dit artikel.
+- Zie Sneltoetsen voor het Exchange-beheercentrum in Exchange Online voor informatie over [sneltoetsen](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)die van toepassing kunnen zijn op de procedures in dit artikel.
 
 > [!TIP]
-> Problemen? Vraag om hulp op het forum van [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
+> Hebt u problemen? Vraag om hulp op het forum [van Exchange Online Protection.](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE)
 
-## <a name="use-the-eac-to-view-the-admin-audit-log"></a>Het controlelogboek van de beheerder weergeven via het Exchange-beheer logboek
+## <a name="use-the-eac-to-view-the-admin-audit-log"></a>Het Exchange-beheercentrum gebruiken om het auditlogboek voor beheerders te bekijken
 
-1. Ga in het Exchange-Beheercentrum naar **compliance** \> - **controle** en kies vervolgens **het controleverslag rapport van de beheerder uitvoeren**.
+1. Ga in het Exchange-beheercentrum naar **Controle van** nalevingsbeheer en kies vervolgens Het auditlogboekrapport \> voor beheerders **uitvoeren.**
 
-2. Kies een **begindatum** en **einddatum** in de pagina **rollen groepen zoeken naar beheerders** die worden geopend (het standaardbereik is de afgelopen twee weken) en kies vervolgens **zoeken**. Alle configuratie aangebrachte wijzigingen in de opgegeven periode worden weergegeven en kunnen worden gesorteerd met behulp van de volgende informatie:
+2. Kies op **de pagina** Zoeken naar wijzigingen in beheerdersrolgroepen die wordt geopend een **begin-** en einddatum **(het** standaardbereik is de afgelopen twee weken) en kies vervolgens **Zoeken.** Alle configuratiewijzigingen die zijn aangebracht in de opgegeven periode, worden weergegeven en kunnen worden gesorteerd op basis van de volgende informatie:
 
-   - **Datum**: de datum en tijd waarop de configuratiewijziging is aangebracht. De datum en tijd worden opgeslagen in de UTC-indeling (Coordinated Universal Time).
+   - **Datum:** de datum en tijd waarop de configuratiewijziging is aangebracht. De datum en tijd worden opgeslagen in de indeling Coordinated Universal Time (UTC).
 
-   - **Cmdlet**: de naam van de cmdlet die werd gebruikt om de configuratiewijziging te maken.
+   - **Cmdlet:** de naam van de cmdlet die is gebruikt om de configuratie aan te brengen.
 
-   - **Gebruiker**: de naam van het gebruikersaccount van de gebruiker die de configuratiewijziging heeft aangebracht.
+   - **Gebruiker:** de naam van het gebruikersaccount van de gebruiker die de configuratiewijziging heeft aangebracht.
 
-     Maximaal 5000 vermeldingen worden op meerdere pagina's weergegeven. Geef een kleiner datumbereik op als u de resultaten wilt verfijnen. Als u een individueel zoekresultaat selecteert, worden de volgende aanvullende informatie weergegeven in het detailvenster:
+     Er worden maximaal 5000 vermeldingen weergegeven op meerdere pagina's. Geef een kleiner datumbereik op als u de resultaten wilt beperken. Als u een afzonderlijk zoekresultaat selecteert, wordt de volgende aanvullende informatie weergegeven in het detailvenster:
 
-   - **Object gewijzigd**: het object dat door de cmdlet is gewijzigd.
+   - **Object gewijzigd:** het object dat is gewijzigd door de cmdlet.
 
-   - **Parameters (parameter: waarde)**: de cmdlet-parameters die zijn gebruikt, en elk van de waarden die u hebt opgegeven met de parameter.
+   - **Parameters (parameter:waarde)**: de cmdlet-parameters die zijn gebruikt, en elke waarde die is opgegeven met de parameter.
 
-3. Als u een bepaald auditlogboek wilt afdrukken, kiest u de knop **afdrukken** in het deelvenster Details.
+3. Als u een specifieke auditlogboekinvoer wilt afdrukken, kiest u **de knop Afdrukken** in het detailvenster.
 
-## <a name="use-standalone-eop-powershell-to-view-the-admin-audit-log"></a>Standalone EOP PowerShell gebruiken voor het weergeven van het auditlogboek voor beheerders
+## <a name="use-standalone-eop-powershell-to-view-the-admin-audit-log"></a>Zelfstandige EOP PowerShell gebruiken om het auditlogboek voor beheerders te bekijken
 
-U kunt zelfstandige EOP PowerShell gebruiken om te zoeken naar controlelogboekvermeldingen die voldoen aan de criteria die u opgeeft. Gebruik de volgende syntaxis:
+U kunt zelfstandige EOP PowerShell gebruiken om te zoeken naar vermeldingen in het auditlogboek die voldoen aan de criteria die u opgeeft. Gebruik de volgende syntaxis:
 
 ```PowerShell
 Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Parameter1,Parameter2,...ParameterN>] [-StartDate <UTCDateTime>] [-EndDate <UTCDateTime>] [-UserIds <"User1","User2",..."UserN">] [-ObjectIds <"Object1","Object2",..."ObjectN">] [-IsSuccess <$true | $false>]
@@ -79,83 +83,83 @@ Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Param
 
 **Opmerkingen**:
 
-- U kunt de parameter _parameters_ alleen gebruiken in combinatie met de _cmdlets_ -parameter.
+- U kunt de parameter _Parameters alleen_ samen met de _cmdlets-parameter_ gebruiken.
 
-- Met de _ObjectIds_ -parameter wordt de resultaten gefilterd op het object dat door de cmdlet is gewijzigd. Een geldige waarde is afhankelijk van de manier waarop het object in het auditlogboek wordt weergegeven. Bijvoorbeeld:
+- Met de parameter _ObjectIds_ worden de resultaten gefilterd op het object dat door de cmdlet is gewijzigd. Een geldige waarde is afhankelijk van de manier waarop het object wordt weergegeven in het auditlogboek. Bijvoorbeeld:
 
   - Naam
-  - Canonieke DN-naam (bijvoorbeeld contoso.com/Users/Akia al-Zuhairi)
+  - Canonieke distinguished name (bijvoorbeeld contoso.com/Users/Akia Al-Zuhairi)
 
-  Waarschijnlijk moet u andere filterparameters voor deze cmdlet gebruiken om de resultaten te verfijnen en de typen objecten te bepalen waarin u bent geïnteresseerd.
+  Waarschijnlijk moet u andere filterparameters voor deze cmdlet gebruiken om de resultaten te beperken en de typen objecten te identificeren waarin u geïnteresseerd bent.
 
-- Met de parameter _UserID_ worden de resultaten gefilterd door de gebruiker die de wijziging heeft aangebracht (wie de cmdlet uitvoert).
+- Met _de parameter UserIds_ worden de resultaten gefilterd door de gebruiker die de wijziging heeft aangebracht (die de cmdlet heeft gemaakt).
 
-- Als u een datum/tijd-waarde opgeeft zonder een tijdzone, wordt de waarde voor _begin_ datum en _eind_ datum geutc (Coordinated Universal Time). Gebruik een van de volgende opties als u een datum/tijdwaarde wilt opgeven voor deze parameter:
+- Als u voor de _parameters_ _Begindatum_ en Einddatum een datum/tijd-waarde opgeeft zonder tijdzone, bevindt de waarde zich in Coordinated Universal Time (UTC). Als u een datum/tijd-waarde wilt opgeven voor deze parameter, gebruikt u een van de volgende opties:
 
-  - Geef de datum/tijdwaarde in UTC op: bijvoorbeeld: ' 2016-05-06 14:30:00Z '.
+  - Geef de datum/tijd-waarde in UTC op: bijvoorbeeld "2016-05-06 14:30:00z".
 
-  - Geef een waarde op voor datum/tijd in de vorm van een formule waarmee de datum/tijd in de lokale tijdzone wordt geconverteerd naar UTC: bijvoorbeeld `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` . Zie [versneld](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-date)voor meer informatie.
+  - Geef de datum/tijd-waarde op als een formule die de datum/tijd in uw lokale tijdzone converteert naar UTC, `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` bijvoorbeeld. Zie [Get-Date voor meer informatie.](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-date)
 
-- De cmdlet retourneert standaard een maximum van 1.000 logboekvermeldingen. Gebruik de parameter _ResultSize_ om maximaal 250.000 logboekvermeldingen op te geven. Of gebruik de waarde `Unlimited` om alle items te retourneren.
+- De cmdlet retourneert standaard maximaal 1000 logboekgegevens. Gebruik de _parameter ResultSize_ om maximaal 250.000 logboekgegevens op te geven. Of gebruik de waarde om `Unlimited` alle items te retourneren.
 
-In dit voorbeeld wordt een zoekopdracht uitgevoerd naar alle controlelogboekvermeldingen met de volgende criteria:
+In dit voorbeeld wordt een zoekopdracht uitgevoerd naar alle vermeldingen in het auditlogboek met de volgende criteria:
 
-- **Begindatum**: 4 augustus 2019
-- **Einddatum**: 3 oktober 2019
-- **Cmdlets**: Update-RoleGroupMember
+- **Begindatum:** 4 augustus 2019
+- **Einddatum:** 3 oktober 2019
+- **Cmdlets:** Update-RoleGroupMember
 
 ```PowerShell
 Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04/2019").ToUniversalTime() -EndDate (Get-Date "10/03/2019").ToUniversalTime()
 ```
 
-Zie [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-adminauditlog)voor gedetailleerde syntaxis-en parameterinformatie.
+Zie [Search-AdminAuditLog voor gedetailleerde syntaxis- en parameterinformatie.](https://docs.microsoft.com/powershell/module/exchange/search-adminauditlog)
 
-### <a name="view-details-of-audit-log-entries"></a>Details van controlelogboekvermeldingen weergeven
+### <a name="view-details-of-audit-log-entries"></a>Details van vermeldingen in het auditlogboek weergeven
 
-Met de cmdlet **Search-AdminAuditLog** worden de velden geretourneerd die worden beschreven in de sectie inhoud van het [audit logboek](#audit-log-contents) verderop in dit artikel. Van de velden die worden geretourneerd door de cmdlets, twee velden, **CmdletParameters** en **ModifiedProperties**, bevatten aanvullende informatie die standaard niet wordt weergegeven.
+De **cmdlet Search-AdminAuditLog** retourneert de velden die worden beschreven in de sectie [Auditlogboekinhoud](#audit-log-contents) verderop in dit artikel. Van de velden die worden geretourneerd door de cmdlet, bevatten twee velden, **CmdletParameters** en **ModifiedProperties,** aanvullende informatie die niet standaard wordt geretourneerd.
 
-Voer de volgende stappen uit om de inhoud van de velden **CmdletParameters** en **ModifiedProperties** weer te geven.
+Als u de inhoud van de **velden CmdletParameters** en **ModifiedProperties** wilt weergeven, gebruikt u de volgende stappen.
 
-1. Bepaal de criteria waarnaar u wilt zoeken, voer de **Search-AdminAuditLog-** cmdlet uit en sla de resultaten op in een variabele met behulp van de volgende opdracht.
+1. Bepaal de criteria die u wilt zoeken, voer de cmdlet **Search-AdminAuditLog** uit en sla de resultaten op in een variabele met behulp van de volgende opdracht.
 
     ```PowerShell
     $Results = Search-AdminAuditLog <search criteria>
     ```
 
-2. Elk item in het auditlogboek wordt opgeslagen als een matrixelement in de variabele `$Results` . U kunt een matrixelement selecteren door de index van het matrixelement op te geven. Matrixelement indexen beginnen op nul (0) voor het eerste matrixelement. Als u bijvoorbeeld een vijfde matrixelement wilt ophalen met een index van 4, gebruikt u de volgende opdracht.
+2. Elke vermelding in het auditlogboek wordt opgeslagen als een matrixelement in de `$Results` variabele. U kunt een matrixelement selecteren door de index van het matrixelement op te geven. Indexen van matrixelementen beginnen bij nul (0) voor het eerste matrixelement. Als u bijvoorbeeld het vijfde matrixelement wilt ophalen, dat een index van 4 bevat, gebruikt u de volgende opdracht.
 
     ```PowerShell
     $Results[4]
     ```
 
-3. Met de vorige opdracht wordt de logboekvermelding geretourneerd die is opgeslagen in het matrixelement 4. Ga als volgt te werk om de inhoud van de velden **CmdletParameters** en **ModifiedProperties** voor dit logboekitem te bekijken.
+3. De vorige opdracht retourneert de logboekinvoer die is opgeslagen in matrixelement 4. Gebruik de volgende opdrachten om de inhoud van de velden **CmdletParameters** en **ModifiedProperties** voor deze logboekinvoer te bekijken.
 
     ```PowerShell
     $Results[4].CmdletParameters
     $Results[4].ModifiedProperties
     ```
 
-4. Als u de inhoud van de **CmdletParameters** -of **ModifiedParameters** -velden in een andere vermelding in het logboek wilt weergeven, wijzigt u de index van het matrixelement.
+4. Als u de inhoud van de **velden CmdletParameters** of **ModifiedParameters** wilt weergeven in een andere logboekinvoer, wijzigt u de index van het matrixelement.
 
-## <a name="audit-log-contents"></a>Inhoud van het controlelogboek
+## <a name="audit-log-contents"></a>Inhoud van auditlogboek
 
-Elke vermelding in het auditlogboek bevat de informatie die in de volgende tabel wordt beschreven. Het auditlogboek bevat een of meer controlelogboekvermeldingen.
+Elke vermelding in het auditlogboek bevat de gegevens die in de volgende tabel worden beschreven. Het auditlogboek bevat een of meer vermeldingen in het auditlogboek.
 
 ****
 
 |Veld|Beschrijving|
 |---|---|
 |`RunspaceId`|Dit veld wordt intern gebruikt door EOP.|
-|`ObjectModified`|Dit veld bevat het object dat door de cmdlet die is opgegeven in het `CmdletName` veld is gewijzigd.|
-|`CmdletName`|Dit veld bevat de naam van de cmdlet die de gebruiker heeft uitgevoerd in het `Caller` veld.|
-|`CmdletParameters`|Dit veld bevat de parameters die zijn opgegeven tijdens het uitvoeren van de cmdlet in het `CmdletName` veld. Ook opgeslagen in dit veld, maar niet zichtbaar in de standaarduitvoer, is de waarde die is opgegeven bij de parameter, indien van toepassing.|
-|`ModifiedProperties`|Dit veld bevat de eigenschappen die zijn gewijzigd voor het object in het `ObjectModified` veld. Ook opgeslagen in dit veld, maar niet zichtbaar in de standaarduitvoer, zijn de oude waarde van de eigenschap en de nieuwe waarde die werd opgeslagen.|
-|`Caller`|Dit veld bevat het gebruikersaccount van de gebruiker die de cmdlet heeft uitgevoerd in het `CmdletName` veld.|
+|`ObjectModified`|Dit veld bevat het object dat is gewijzigd door de cmdlet die in het veld is `CmdletName` opgegeven.|
+|`CmdletName`|Dit veld bevat de naam van de cmdlet die door de gebruiker in het veld is `Caller` uitgevoerd.|
+|`CmdletParameters`|Dit veld bevat de parameters die zijn opgegeven toen de cmdlet in het `CmdletName` veld werd uitgevoerd. Ook in dit veld opgeslagen, maar niet zichtbaar in de standaarduitvoer, is de waarde die is opgegeven met de parameter, indien aanwezig.|
+|`ModifiedProperties`|Dit veld bevat de eigenschappen die zijn gewijzigd voor het object in het `ObjectModified` veld. Ook opgeslagen in dit veld, maar niet zichtbaar in de standaarduitvoer, zijn de oude waarde van de eigenschap en de nieuwe waarde die is opgeslagen.|
+|`Caller`|Dit veld bevat het gebruikersaccount van de gebruiker die de cmdlet heeft opgeslagen in het `CmdletName` veld.|
 |`ExternalAccess`|Dit veld wordt intern gebruikt door EOP.|
-|`Succeeded`|In dit veld wordt aangegeven of de cmdlet in het `CmdletName` veld is uitgevoerd. De waarde is ofwel `True` of `False` .|
-|`Error`|Dit veld bevat het foutbericht dat wordt gegenereerd als de cmdlet in het `CmdletName` veld kon niet worden voltooid.|
-|`RunDate`|Dit veld bevat de datum en tijd waarop de cmdlet in het `CmdletName` veld is uitgevoerd. De datum en tijd worden opgeslagen in de UTC-indeling (Coordinated Universal Time).|
-|`OriginatingServer`|In dit veld wordt de server aangegeven waarop de cmdlet die in het veld is opgegeven, wordt `CmdletName` uitgevoerd.|
+|`Succeeded`|Dit veld geeft aan of de cmdlet in het `CmdletName` veld zonder succes is uitgevoerd. De waarde is `True` `False` ofwel.|
+|`Error`|Dit veld bevat het foutbericht dat wordt gegenereerd als de cmdlet in het `CmdletName` veld niet kan worden voltooid.|
+|`RunDate`|Dit veld bevat de datum en tijd waarop de cmdlet in het `CmdletName` veld is uitgevoerd. De datum en tijd worden opgeslagen in de indeling Coordinated Universal Time (UTC).|
+|`OriginatingServer`|Dit veld geeft de server aan waarop de in het veld opgegeven cmdlet `CmdletName` is uitgevoerd.|
 |`ClientIP`|Dit veld wordt intern gebruikt door EOP.|
 |`SessionId`|Dit veld wordt intern gebruikt door EOP.|
 |`AppId`|Dit veld wordt intern gebruikt door EOP.|

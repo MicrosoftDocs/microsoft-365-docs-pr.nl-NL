@@ -13,31 +13,31 @@ ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Meer informatie over de machtigingen die zijn vereist voor taken in de zelfstandige Exchange Online Protection
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4f1f364e684f2d1d76f26f573e66fbd50bf5138b
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 9c24c6f57ea9a7c0e1b3332d2f4b518b232ec0c2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167393"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288297"
 ---
 # <a name="permissions-in-standalone-eop"></a>Machtigingen in standalone EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
--  [Zelfstandige versie van Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Zelfstandige versie van Exchange Online Protection](exchange-online-protection-overview.md)
 
 Voor zelfstandige Exchange Online Protection (EOP) zonder Exchange Online-postvakken wordt het model voor toegangsbeheer op basis van rollen gebruikt om eenvoudig machtigingen aan uw beheerders te verlenen. U kunt de machtigingsfuncties in de zelfstandige EOP gebruiken om uw nieuwe organisatie snel op weg te helpen.
 
 Zie Beheerdersrolgroepen beheren in EOP als u gebruikers [machtigingen wilt verlenen.](manage-admin-role-group-permissions-in-eop.md)
 
-Zie Informatie over beheerdersrollen voor meer informatie over machtigingen [in](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)Microsoft 365.
+Zie Informatie over beheerdersrollen voor meer informatie over machtigingen [in](../../admin/add-users/about-admin-roles.md)Microsoft 365.
 
 ## <a name="role-based-permissions"></a>Machtigingen op basis van rollen
 
 De beheerdersmachtigingen die u aan gebruikers verleent, zijn gebaseerd op beheerrollen. Een beheerrol definieert de cmdlets die beschikbaar zijn voor een reeks gegeven taken. Omdat het Exchange-beheercentrum (EAC) en de zelfstandige EOP PowerShell beide cmdlets gebruiken, geeft het verlenen van toegang tot een cmdlet de gebruiker toestemming om de gerelateerde taken uit te voeren in het EAC of in zelfstandige EOP PowerShell. Zo definieert de rol Mail Recipients de cmdlets die nodig zijn om e-mailgebruikers te wijzigen.
 
-In de zelfstandige EOP zijn beheerdersrollen het enige type beheerrol dat beschikbaar is (er zijn geen rollen voor eindgebruikers of beleidsregels voor roltoewijzing).
+In zelfstandige EOP zijn beheerdersrollen het enige type beheerrol dat beschikbaar is (er zijn geen rollen voor eindgebruikers of beleidsregels voor roltoewijzing).
 
 ## <a name="role-groups"></a>Rollengroepen
 
@@ -57,7 +57,7 @@ De beschikbare rollengroepen in zelfstandige EOP worden in de volgende tabel bes
 |ContentExplorerContentViewer|Niet gebruikt.|Gegevensclassificatie-inhoudsviewer|
 |ContentExplorerListViewer|Niet gebruikt.|Viewer voor gegevensclassificatielijst|
 |HelpDesk|E-mailgebruikers weergeven en beheren.|Wachtwoord opnieuw instellen <p> Gebruikersopties <p> View-Only geadresseerden|
-|Mandmanagement|Beveiligingsfuncties (antispam, malware, enzovoort) beheren.|Transport Hygiene <p> View-Only configureren <p> View-Only geadresseerden|
+|Bijenmanagement|Beveiligingsfuncties (antispam, malware, enzovoort) beheren.|Transport-overden <p> View-Only configureren <p> View-Only geadresseerden|
 |MailFlowAdministrator|Geaccepteerde domeinen en connectors weergeven en beheren|Externe en geaccepteerde domeinen <p> View-Only geadresseerden|
 |OrganizationManagement|Beheerderstoegang tot de hele organisatie en de mogelijkheid om vrijwel elke taak uit te voeren. <p> Leden van de [rol globale beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) in Azure AD krijgen automatisch de machtigingen van deze rollengroep. <p> **Belangrijk:** omdat de rollengroep OrganizationManagement een krachtige rol is, mogen alleen gebruikers die beheertaken op organisatieniveau uitvoeren, lid zijn van deze rollengroep.|AntiMalware <p> AntiSpam <p> Auditlogboeken <p> Compliancebeheerder <p> Distributiegroepen <p> Information Rights Management <p> E-mailontvanger maken <p> E-mailontvangers <p> Berichten bijhouden <p> Migratie <p> Clienttoegang van organisatie <p> Organisatieconfiguratie <p> Organisatie transportinstellingen <p> Quarantaine <p> Beleid voor geadresseerden <p> Externe en geaccepteerde domeinen <p> Wachtwoord opnieuw instellen <p> Bewaarbeheer <p> Rollenbeheer <p> Beveiligingsbeheerder <p> Maken en lidmaatschap van beveiligingsgroep <p> Beveiligingslezer <p> Beheerder van gevoeligheidslabel <p> Toezicht <p> Transport-overden <p> Transportregels <p> Gebruikersopties <p> View-Only AntiMalware <p> View-Only AntiSpam <p> View-Only auditlogboeken maken <p> View-Only configureren <p> View-Only quarantaine <p> View-Only geadresseerden <p> View-Only Bedreigingsinformatie|
 |QuarantineAdministrator|In quarantaine geplaatste berichten voor alle geadresseerden beheren.|Quarantaine|
@@ -83,7 +83,7 @@ In de volgende tabel worden de ingebouwde rollen beschreven die beschikbaar zijn
 |---|---|---|
 |AntiMalware|Bekijk en wijzig de configuratie en rapporten voor antimalwarefuncties.|OrganizationManagement <p> SecurityAdministrator|
 |AntiSpam|Bekijk en wijzig de configuratie en rapporten voor antispamfuncties.|OrganizationManagement <p> SecurityAdministrator|
-|Auditlogboeken|Zoek in het auditlogboek van de beheerder en bekijk de resultaten.|ComplianceManagement <p> OrganizationManagement <p> SecurityAdministrator|
+|Auditlogboeken|Zoek in het auditlogboek voor beheerders en bekijk de resultaten.|ComplianceManagement <p> OrganizationManagement <p> SecurityAdministrator|
 |Compliancebeheerder<sup>\*</sup>||ComplianceManagement <p> OrganizationManagement <p> ViewOnlyOrganizationManagement|
 |Gegevensclassificatie-inhoudsviewer<sup>\*</sup>||ContentExplorerContentViewer|
 |Viewer voor gegevensclassificatielijst<sup>\*</sup>||
@@ -93,7 +93,7 @@ In de volgende tabel worden de ingebouwde rollen beschreven die beschikbaar zijn
 |E-mailontvangers|Bestaande e-mailgebruikers wijzigen.|OrganizationManagement <p> RecipientManagement|
 |Berichten bijhouden<sup>\*</sup>||OrganizationManagement <p> RecipientManagement <p> Recordbeheer|
 |Migratie<sup>\*</sup>||OrganizationManagement <p> RecipientManagement|
-|MyBaseOptions|Hiermee kunnen gebruikers hun eigen in quarantaine geplaatste berichten bekijken. <p> Deze rol wordt automatisch toegewezen aan gebruikers en u kunt deze niet handmatig toewijzen.|geen|
+|MyBaseOptions|Hiermee kunnen gebruikers hun eigen in quarantaine geplaatste berichten weergeven. <p> Deze rol wordt automatisch toegewezen aan gebruikers en u kunt deze niet handmatig toewijzen.|geen|
 |Clienttoegang van organisatie<sup>\*</sup>||OrganizationManagement|
 |Organisatieconfiguratie|Rapporten bekijken.|OrganizationManagement|
 |Organisatie transportinstellingen<sup>\*</sup>||OrganizationManagement|
@@ -108,13 +108,13 @@ In de volgende tabel worden de ingebouwde rollen beschreven die beschikbaar zijn
 |Beveiligingslezer|Bekijk de configuratie en rapporten voor beveiligings- en beveiligingsfuncties.|Organisatiebeheer <p> SecurityReader <p> ViewOnlyOrganizationManagement|
 |Beheerder van gevoeligheidslabel<sup>\*</sup>||OrganizationManagement <p> SecurityAdministrator <p> ViewOnlyOrganizationManagement|
 |Toezicht<sup>\*</sup>||OrganizationManagement|
-|Transport-overden|Beheer functies voor antimalware, antispamfuncties en antivervalsingsfuncties.|Mandmanagement <p> OrganizationManagement|
+|Transport-overden|Beheer functies voor antimalware, antispamfuncties en antivervalsingsfuncties.|Bijenmanagement <p> OrganizationManagement|
 |Transportregels|Regels voor de e-mailstroom maken en beheren (ook wel transportregels genoemd).|OrganizationManagement <p> RecordsManagement|
 |Gebruikersopties|Bestaande e-mailgebruikers wijzigen.|HelpDesk <p> OrganizationManagement|
 |View-Only AntiMalware|Bekijk de configuratie en rapporten voor antimalwarefuncties.|OrganizationManagement <p> SecurityAdministrator <p> SecurityReader|
 |View-Only AntiSpam|Bekijk de configuratie en rapporten voor antispamfuncties.|OrganizationManagement <p> SecurityAdministrator <p> SecurityReader|
-|View-Only auditlogboeken maken|Zoek in het auditlogboek van de beheerder en bekijk de resultaten.|ComplianceManagement <p> OrganizationManagement <p> SecurityAdministrator|
-|View-Only configureren|Alle instellingen voor de organisatie en de e-mailstroom (niet-geadresseerde) in de organisatie weergeven.|ComplianceManagement <p> Mandmanagement <p> OrganizationManagement <p> ViewOnlyOrganizationManagement|
+|View-Only auditlogboeken maken|Zoek in het auditlogboek voor beheerders en bekijk de resultaten.|ComplianceManagement <p> OrganizationManagement <p> SecurityAdministrator|
+|View-Only configureren|Alle instellingen voor de organisatie en de e-mailstroom (niet-geadresseerde) in de organisatie weergeven.|ComplianceManagement <p> Bijenmanagement <p> OrganizationManagement <p> ViewOnlyOrganizationManagement|
 |View-Only quarantaine|Alle in quarantaine geplaatste berichten voor alle geadresseerden weergeven.|OrganizationManagement <p> SecurityAdministrator <p> SecurityReader|
 |View-Only geadresseerden|Eigenschappen van geadresseerden weergeven en bericht traceren.|ComplianceManagement <p> HelpDesk <p> Bijenmanagement <p> MailFlowAdministrator <p>  OrganizationManagement <p> ViewOnlyOrganizationManagement|
 |View-Only Bedreigingsinformatie<sup>\*</sup>||OrganizationManagement <p> SecurityAdministrator <p> SecurityReader|
@@ -129,21 +129,21 @@ Wanneer u een gebruiker maakt in het Microsoft 365-beheercentrum, kunt u kiezen 
 > [!NOTE]
 > Aan het account dat u hebt gebruikt om uw zelfstandige EOP-organisatie te maken, wordt automatisch de globale beheerdersrol toegewezen.
 
-De volgende tabel bevat de Rollen van Microsoft 365 en de zelfstandige EOP-rollengroepen met welke ze corresponderen. Zie Over beheerdersrollen voor meer informatie [over deze rollen.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+De volgende tabel bevat de Microsoft 365-rollen en de zelfstandige EOP-rollengroepen met welke ze corresponderen. Zie Over beheerdersrollen voor meer informatie [over deze rollen.](../../admin/add-users/about-admin-roles.md)
 
 ****
 
 |Microsoft 365-rol|EOP-rollengroep|
 |---|---|
 |Exchange-beheerder|OrganizationManagement|
-|Algemeen beheerder|OrganizationManagement <p> **Opmerking:** De rol van globale beheerder en de rollengroep OrganizationManagement zijn met elkaar verbonden met een speciale rollengroep Bedrijfsbeheerder. De rollengroep Bedrijfsbeheerder wordt intern beheerd en kan niet rechtstreeks worden gewijzigd.|
+|Algemeen beheerder|OrganizationManagement <p> **Opmerking:** De rol van globale beheerder en de rollengroep OrganizationManagement zijn met behulp van een speciale rollengroep Bedrijfsbeheerder aan elkaar gekoppeld. De rollengroep Bedrijfsbeheerder wordt intern beheerd en kan niet rechtstreeks worden gewijzigd.|
 |Wachtwoordbeheerder|HelpDesk|
 |Algemene lezer|ViewOnlyOrganizationManagement|
 |Beveiligingsbeheerder|SecurityAdministrator|
 |Beveiligingslezer|SecurityReader|
 |
 
-Andere Microsoft 365-rollen hebben geen bijbehorende EOP-rollengroep en verlenen geen beheerdersmachtigingen in EOP. Zie Beheerdersrollen toewijzen voor meer informatie over het toewijzen van een Microsoft 365-rol [aan een gebruiker.](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+Andere Microsoft 365-rollen hebben geen bijbehorende EOP-rollengroep en verlenen geen beheerdersmachtigingen in EOP. Zie Beheerdersrollen toewijzen voor meer informatie over het toewijzen van een Microsoft 365-rol [aan een gebruiker.](../../admin/add-users/assign-admin-roles.md)
 
 Gebruikers kunnen beheerdersrechten in EOP worden verleend zonder ze toe te voegen aan Microsoft 365-rollen. U doet dit door de gebruiker toe te voegen als lid van een EOP-rollengroep. De gebruiker krijgt machtigingen in EOP, maar ze krijgen geen machtigingen in andere Microsoft 365-werkbelastingen.
 

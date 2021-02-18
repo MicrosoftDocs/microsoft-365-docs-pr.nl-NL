@@ -21,21 +21,21 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de functies voor beveiliging tegen phishing in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f42ea3159dc5ed975852aaca10ce6f344b71d749
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 4fef8aa30f2b41c0ba84a6535969b12448e80562
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175629"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289051"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Beveiliging tegen phishing in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 *Phishing* is een e-mailaanvallen die probeert gevoelige informatie te stelen in berichten die afkomstig lijken te zijn van legitieme of vertrouwde afzenders. Er zijn specifieke categorieën phishing. Bijvoorbeeld:
 
@@ -63,11 +63,11 @@ EOP (dat wil zeggen Microsoft 365-organisaties zonder Microsoft Defender voor Of
 
 Microsoft Defender voor Office 365 bevat aanvullende en geavanceerdere anti-phishingfuncties:
 
-- **Anti-phishingbeleid in Microsoft Defender voor Office 365:** nieuw aangepast beleid maken, instellingen voor anti-imitatie configureren (gebruikers en domeinen beschermen tegen imitatie), instellingen voor postvakinformatie en aanpasbare geavanceerde drempelwaarden voor phishing. Zie [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)voor meer informatie. Zie [Anti-phishingbeleidsregels in Microsoft 365](set-up-anti-phishing-policies.md)voor meer informatie over de verschillen tussen anti-phishingbeleid in EOP en anti-phishingbeleid in Defender voor Office 365.
+- **Anti-phishingbeleid in Microsoft Defender voor Office 365:** nieuw aangepast beleid maken, instellingen voor anti-imitatie configureren (gebruikers en domeinen beschermen tegen imitatie), instellingen voor postvakinformatie en aanpasbare geavanceerde drempelwaarden voor phishing. Zie [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365 voor meer informatie.](configure-atp-anti-phishing-policies.md) Zie [Anti-phishingbeleidsregels in Microsoft 365](set-up-anti-phishing-policies.md)voor meer informatie over de verschillen tussen anti-phishingbeleid in EOP en anti-phishingbeleid in Defender voor Office 365.
 
 - **Campagneweergaven:** machine learning en andere heuristics identificeren en analyseren berichten die betrokken zijn bij gecoördineerde phishing-aanvallen tegen de hele service en uw organisatie. Zie Campagneweergaven [in Microsoft Defender voor Office 365 voor meer informatie.](campaigns.md)
 
-- **Aanvals simulator:** beheerders kunnen valse phishingberichten maken en deze als onderwijshulpmiddel naar interne gebruikers verzenden. Zie Attack Simulator in Microsoft Defender voor [Office 365 voor meer informatie.](attack-simulator.md)
+- **Aanvals simulator:** beheerders kunnen valse phishingberichten maken en deze als onderwijshulpmiddel naar interne gebruikers verzenden. Zie Attack [Simulator in Microsoft Defender voor Office 365 voor meer informatie.](attack-simulator.md)
 
 ## <a name="other-anti-phishing-resources"></a>Andere anti-phishing-informatiebronnen
 

@@ -1,5 +1,5 @@
 ---
-title: Spam meldingen voor eindgebruikers in Microsoft 365
+title: Spammeldingen voor eindgebruikers in Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -19,45 +18,51 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen informatie lezen over spam meldingen voor eindgebruikers voor berichten in quarantaine in Exchange Online Protection (EOP).
-ms.openlocfilehash: 0440056e8e31d24e659f9d0ff6662f86f31a6189
-ms.sourcegitcommit: 153f413402f93b79be421741f3b9fed318d6d270
+description: Beheerders kunnen meer informatie krijgen over spammeldingen voor eindgebruikers voor berichten in quarantaine in Exchange Online Protection (EOP).
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: bb347f7fd3d3793b563714e8116316b30165ef9a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48600295"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287543"
 ---
-# <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Gebruik spam meldingen van gebruikers om berichten in quarantaine vrij te geven en te rapporteren
+# <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Spammeldingen van gebruikers gebruiken om berichten in quarantaine vrij te geven en te rapporteren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie voor meer informatie [quarantaine berichten in EOP](quarantine-email-messages.md).
+In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie Berichten in [quarantaine in EOP](quarantine-email-messages.md)voor meer informatie.
 
-Standaard zijn meldingen voor spam van eindgebruikers uitgeschakeld in antispambeleid. Wanneer een beheerder [meldingen voor spam van eindgebruikers](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)uitschakelt, ontvangen geadresseerden (inclusief gedeelde postvakken met automatisch toewijzen ingeschakeld) periodieke meldingen over hun berichten die zijn gequarantined als spam, bulk-e-mail, of (vanaf april 2020) phishing.
+Spammeldingen voor eindgebruikers worden standaard uitgeschakeld in antispambeleid. Wanneer een beheerder [spammeldingen](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)voor eindgebruikers inschakelen, ontvangen geadresseerden (inclusief gedeelde postvakken waarop automatisch toewijzen is ingeschakeld) periodieke meldingen over hun berichten die in quarantaine zijn geplaatst als spam, bulkmail of (vanaf april 2020) phishing.
 
-Voor gedeelde postvakken worden meldingen voor spam van eindgebruikers alleen ondersteund voor gebruikers aan wie de machtiging machtiging fullaccess is verleend voor het gedeelde Postvak. Zie voor meer informatie [gedeeld postvak delegering bewerken](https://docs.microsoft.com/Exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
+Spammeldingen voor gedeelde postvakken worden alleen ondersteund voor gebruikers aan wie FullAccess-machtigingen voor het gedeelde postvak zijn verleend. Zie het EAC gebruiken [om gedeelde postvakdelegering te bewerken.](https://docs.microsoft.com/Exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation)
 
-Spam melding voor eindgebruikers wordt niet ondersteund voor groepen.
-
-> [!NOTE]
-> Berichten die zijn gequarantined als phishing van hoge betrouwbaarheid, malware of via e-mail stroom regels (ook wel bekend als transportregels), zijn alleen beschikbaar voor beheerders. Zie [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md).
-
-Een melding voor spam van eindgebruikers bevat de volgende informatie voor elk gequarantine bericht:
-
-- **Afzender**: de naam en het e-mailadres van het gequarantinede bericht verzenden.
-
-- **Onderwerp**: het onderwerp van de tekst van het bericht in de quarantaine.
-
-- **Datum**: de datum en tijd (in UTC) waarop het bericht is in quarantaine geplaatst.
-
-- **Afzender blokkeren**: Klik op deze link om de afzender toe te voegen aan uw lijst met geblokkeerde afzenders. Zie voor meer informatie [de afzender van een e-mailbericht blokkeren](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
-
-- **Release**: voor spamberichten (niet voor phishing), kunt u het bericht hier vrijgeven zonder dat u de beveiliging voor de beveiliging & Quarantine.
-
-- **Controleren**: Klik op deze koppeling om naar Quarantine te gaan in het beveiligings & nalevings centrum, waarin u kunt zien welke berichten in quarantaine zijn geplaatst, of laat zien, verwijderen of rapporteren. Voor meer informatie raadpleegt u [gequarantinede berichten zoeken en vrijgeven als een gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md).
-
-![Voorbeeld van spam met eindgebruikers](../../media/end-user-spam-notification.png)
+Spammeldingen voor eindgebruikers worden niet ondersteund voor groepen.
 
 > [!NOTE]
-> Een geblokkeerde afzender kan nog steeds e-mail verzenden. Berichten van deze afzender die de afzender maken in uw postvak, worden direct verplaatst naar de map Ongewenste E-mail. Toekomstige berichten van deze afzender worden verzonden naar de map Ongewenste E-mail of naar de Quarantine voor eindgebruikers. Als u deze berichten op aankomst wilt verwijderen in plaats van ze te quarantining, gebruikt u [regels voor e-mail stroom](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel transport-regels genoemd) om berichten bij de ontvangst te verwijderen.
+> Berichten die in quarantaine zijn geplaatst als zeer vertrouwelijk phishing, malware of door regels voor de e-mailstroom (ook wel transportregels genoemd), zijn alleen beschikbaar voor beheerders. Zie [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md).
+
+Een spammelding voor eindgebruikers bevat de volgende informatie voor elk bericht in quarantaine:
+
+- **Afzender:** de naam en het e-mailadres van het in quarantaine geplaatste bericht.
+
+- **Onderwerp:** de onderwerpregeltekst van het in quarantaine geplaatste bericht.
+
+- **Datum:** de datum en tijd (in UTC) waarop het bericht in quarantaine is geplaatst.
+
+- **Afzender blokkeren:** klik op deze koppeling om de afzender toe te voegen aan de lijst geblokkeerde afzenders. Zie Een afzender van een [e-mail blokkeren voor meer informatie.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
+
+- **Release:** Voor spamberichten (geen phishingberichten) kunt u het bericht hier vrijgeven zonder het beveiligings- of compliancecentrum in quarantaine & te plaatsen.
+
+- **Controleren:** Klik op deze koppeling om naar Quarantaine te gaan in het beveiligings- & Compliancecentrum, waar u (afhankelijk van de reden waarom het bericht in quarantaine is geplaatst) uw in quarantaine geplaatste berichten kunt bekijken, vrijgeven, verwijderen of rapporteren. Zie Berichten in quarantaine zoeken en vrijgeven als [gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md)voor meer informatie.
+
+![Voorbeeld van spammeldingen voor eindgebruikers](../../media/end-user-spam-notification.png)
+
+> [!NOTE]
+> Een geblokkeerde afzender kan u nog steeds e-mail sturen. Berichten van deze afzender die in uw postvak komen, worden onmiddellijk naar de map Ongewenste e-mail verplaatst. Toekomstige berichten van deze afzender gaan naar de map Ongewenste e-mail of in de quarantaine van de eindgebruiker. Als u deze berichten bij aankomst wilt verwijderen in plaats van ze te quarantineren, gebruikt u regels voor de [e-mailstroom](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel transportregels genoemd) om de berichten bij aankomst te verwijderen.

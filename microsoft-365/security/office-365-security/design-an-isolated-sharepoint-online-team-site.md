@@ -19,20 +19,20 @@ ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: Afzonderlijke SharePoint Online-teamsites ontwerpen, waaronder machtigingsniveaus bepalen, machtigingen toewijzen aan gebruikers met toegangsgroepen en geneste Azure AD-groepen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0f92a925948dbf6c8c5c1beb6b9c709f508c4b3
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 0d53f3b45e3f406dfb0b38bcc910bd34876acb08
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165509"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288333"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Een geïsoleerde SharePoint Online-teamsite ontwerpen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 
  **Overzicht:** Stap door het ontwerpproces voor afzonderlijke SharePoint Online-teamsites.
@@ -82,7 +82,7 @@ De standaard SharePoint-groepen als voorbeeld gebruiken:
 
  **Best practice:** Hoewel u machtigingen kunt beheren via afzonderlijke gebruikersaccounts, raden we u aan slechts één Azure AD-groep, ook wel een toegangsgroep genoemd, te gebruiken. Dit vereenvoudigt het beheer van machtigingen via lidmaatschap van de toegangsgroep in plaats van de lijst met gebruikersaccounts voor elke SharePoint-groep te beheren.
 
-Azure AD-groepen voor Microsoft 365 verschillen van de Microsoft 365-groepen. Azure AD-groepen worden weergegeven in het Microsoft 365-beheercentrum met hun **Type** ingesteld op Beveiliging en hebben geen e-mailadres.  Azure AD-groepen kunnen worden beheerd binnen:
+Azure AD-groepen voor Microsoft 365 verschillen van de Microsoft 365-groepen. Azure AD-groepen worden weergegeven in het Microsoft 365-beheercentrum met hun **Type** ingesteld op **Beveiliging** en hebben geen e-mailadres. Azure AD-groepen kunnen worden beheerd binnen:
 
 - Active Directory Domain Services (AD DS)
 
@@ -138,7 +138,7 @@ Geneste Azure AD-groepen gebruiken:
 3. Identificeer de SharePoint-groep en het bijbehorende machtigingsniveau voor het juiste toegangsniveau voor de containertoegangsgroep.
 
 > [!NOTE]
-> U kunt geneste Microsoft 365-groepen niet gebruiken.
+> U kunt geen geneste Microsoft 365-groepen gebruiken.
 
 Hier is een voorbeeld van geneste Azure AD-groepen voor de toegangsgroep voor ProjectX-leden.
 

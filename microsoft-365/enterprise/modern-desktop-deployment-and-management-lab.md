@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 459b0fd246455f46a1c1ff497379487de9fdb61d
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 9b558ad20a84bc902dd9a4a78ebafdbcecd8a9bb
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142263"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288261"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows- en Office Deployment Lab Kit
 
@@ -62,7 +62,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 ### <a name="prepare-configuration"></a>Configuratie voorbereiden   
 
 - Updatebezorging voor Windows 10 optimaliseren   
-- Onderhoud van Windows 10 via groepsbeleid
+- Onderhoud van Windows 10 met groepsbeleid
 - Onderhoud van Windows 10 met Microsoft Intune   
 - Onderhoud van Windows 10 met Configuration Manager   
 - Onderhoud van Microsoft 365-apps voor ondernemingen met Behulp van Configuration Manager   
@@ -86,7 +86,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 - In de cloud beheerde implementatie  
 - Lokaal beheerde implementatie    
 - Microsoft 365-apps voor enterprise-implementatie op apparaten die niet lid zijn van AD 
-- Beheerde enterprise-implementatie met Behulp van Configuration Manager
+- Beheerde enterprise-implementatie met Configuration Manager
 - Beheerde enterprise-implementatie met Behulp van Microsoft Intune  
 - LOB-implementatie en -beheer met Microsoft Intune
 - Microsoft Teams implementeren
@@ -99,7 +99,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* De geïnstalleerde basislijnversie 2002 kan worden bijgewerkt naar versie 2010 via een update in de console. Gebruik een brede bandbreedte voor het downloaden van deze inhoud en sta 30-45 minuten toe voor het automatisch inrichten. De testomgeving vereist minimaal 16 GB beschikbare geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbare geheugen en 300 GB beschikbare ruimte aanbevolen. De kit verloopt op 11 februari 2021. Er wordt een nieuwe versie gepubliceerd voordat deze verloopt.
+* De geïnstalleerde basislijnversie 2002 kan worden bijgewerkt naar versie 2010 via een update in de console. Gebruik een brede bandbreedte voor het downloaden van deze inhoud en sta 30-45 minuten toe voor het automatisch inrichten. De testomgeving vereist minimaal 16 GB beschikbare geheugen en 150 GB beschikbare schijfruimte. Voor optimale prestaties wordt 32 GB beschikbare geheugen en 300 GB beschikbare ruimte aanbevolen. De kit verloopt op 2 mei 2021. Er wordt een nieuwe versie gepubliceerd voordat deze verloopt.
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

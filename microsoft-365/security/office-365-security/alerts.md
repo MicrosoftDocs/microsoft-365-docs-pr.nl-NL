@@ -21,26 +21,26 @@ description: Meer informatie over het gebruik van de waarschuwingsfuncties in he
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f4af23ac1fd3c7272fc60b2228bf808351cb4d2b
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: d4c92a0bccded461d272d84e0f5b4d06a3b44713
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50176025"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287087"
 ---
 # <a name="alerts-in-the-security--compliance-center"></a>Waarschuwingen in het beveiligings- & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 
 Gebruik de waarschuwingsfuncties in het beveiligings- & compliancecentrum om waarschuwingen voor uw organisatie weer te geven en te beheren, waaronder het beheren van geavanceerde waarschuwingen als onderdeel van het overzicht van [Microsoft Cloud App-beveiliging.](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
 
 ## <a name="how-to-get-to-the-alerts-features"></a>Hoe u de waarschuwingsfuncties kunt gebruiken
 
-Waarschuwingen worden in het & compliancecentrum. U gaat als volgende naar de pagina.
+Waarschuwingen worden in het & compliancecentrum. Zo gaat u naar de pagina.
 
 ### <a name="to-go-directly-to-the-security--compliance-center"></a>Rechtstreeks naar het beveiligings- & compliancecentrum gaan
 
@@ -58,7 +58,7 @@ Waarschuwingen worden in het & compliancecentrum. U gaat als volgende naar de pa
 
    Kunt u de app die u zoekt niet vinden? Selecteer in het startprogramma voor apps **Alle apps** om een alfabetische lijst met Office 365-apps die beschikbaar zijn voor u weer te geven. Van daaruit kunt u zoeken naar een specifieke app.
 
-3. Klik in het linkerdeelvenster op **Waarschuwingen om** de waarschuwingsfuncties weer te geven.
+3. Klik in het linkerdeelvenster op **Waarschuwingen** om de waarschuwingsfuncties te zien.
 
 ## <a name="alerts-features"></a>Waarschuwingsfuncties
 
@@ -69,5 +69,5 @@ In de volgende tabel worden de hulpmiddelen beschreven die beschikbaar zijn onde
 |Hulpmiddel|Beschrijving|
 |---|---|
 |[Waarschuwingen beheren](../../compliance/create-activity-alerts.md)|Gebruik meldingen over activiteiten om e-mailmeldingen naar uzelf of aan andere beheerders te verzenden wanneer gebruikers specifieke activiteiten uitvoeren in Microsoft 365. Meldingen over activiteiten zijn vergelijkbaar met het zoeken in het auditlogboek naar gebeurtenissen, behalve dat er een e-mailbericht wordt verzonden wanneer een gebeurtenis plaatsvindt waarop u een waarschuwing hebt gemaakt.|
-|[Geavanceerde waarschuwingen beheren](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Gebruik de **functie** Geavanceerde waarschuwingen van Microsoft 365 Cloud App Security beheren voor het instellen van beleidsregels waarmee u kunt worden gewaarschuwd voor verdachte en afwijkende activiteiten in Microsoft 365. Nadat u een waarschuwing hebt ontvangen, kunt u de situaties onderzoeken die mogelijk problematisch zijn en, indien nodig, actie ondernemen om beveiligingsproblemen op te lossen.|
+|[Geavanceerde waarschuwingen beheren](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Gebruik de **functie** Geavanceerde waarschuwingen van Microsoft 365 Cloud App Security beheren om beleid in te stellen waarmee u kunt worden gewaarschuwd voor verdachte en afwijkende activiteiten in Microsoft 365. Nadat u een waarschuwing hebt ontvangen, kunt u de situaties onderzoeken die mogelijk problematisch zijn en kunt u, indien nodig, actie ondernemen om beveiligingsproblemen op te lossen.|
 |

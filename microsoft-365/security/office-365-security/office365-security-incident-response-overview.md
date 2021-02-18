@@ -19,21 +19,21 @@ ms.custom:
 - seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8dd7a90255fdd3e083a5d7306cac2e9ca6411024
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: d37fb232b717485c40218fd8a3c3117ba9b8322b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150181"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287639"
 ---
 # <a name="security-incident-response"></a>Reactie op beveiligingsincident
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender voor Office 365-abonnement 1 en abonnement 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
  **Overzicht:** Deze oplossing vertelt u wat de indicatoren zijn voor de meest voorkomende aanvallen in Office 365, hoe u een bepaalde aanval positief bevestigt en hoe u hierop kunt reageren.
 
@@ -43,11 +43,11 @@ Niet alle cyberaanvallen kunnen worden gedwarseerd. Aanvallers zijn voortdurend 
 
 In deze reeks artikelen wordt beschreven hoe een bepaald type aanval er in Microsoft 365 uit kan zien en vindt u stappen die u kunt ondernemen om te reageren. Dit zijn snelle invoerpunten om inzicht te krijgen in:
 
-- Wat de aanval is en hoe het werkt.
+- Wat is de aanval en hoe het werkt.
 
 - Welke borden worden IOC (Indicators of compromise) genoemd) om ernaar te zoeken en hoe u ernaar kunt zoeken.
 
-- Hoe kan ik de aanval bevestigen?
+- Hoe u de aanval bevestigt.
 
 - Stappen om de aanval te voorkomen en uw organisatie in de toekomst beter te beschermen.
 
@@ -67,7 +67,7 @@ Kijk hier maandelijks nog eens, omdat er na een tijd meer artikelen worden toege
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Microsoft 365 beveiligen als een cybersecurity pro
 
-Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.  Gebruik de beveiligings-roadmap van Microsoft 365: de belangrijkste prioriteiten voor de eerste [30, 90](security-roadmap.md) dagen en daarna voor het implementeren van aanbevolen aanbevolen procedures van Microsoft voor het beveiligen van uw Microsoft 365-organisatie.
+Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.  Gebruik de beveiligings-roadmap voor Microsoft 365: de belangrijkste prioriteiten voor de eerste [30 dagen, 90](security-roadmap.md) dagen en daarna voor het implementeren van aanbevolen aanbevolen procedures van Microsoft voor het beveiligen van uw Microsoft 365-organisatie.
 
 - Taken die in de eerste 30 dagen moeten worden uitgevoerd.  Deze hebben direct effect en weinig invloed op uw gebruikers.
 

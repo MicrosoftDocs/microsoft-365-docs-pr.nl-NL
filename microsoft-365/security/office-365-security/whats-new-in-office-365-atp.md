@@ -1,7 +1,7 @@
 ---
 title: Nieuw in Microsoft Defender voor Office 365
-description: Meer informatie over de nieuwe functies en functies die beschikbaar zijn in de nieuwste versie van Microsoft Defender voor Office 365.
-keywords: Nieuw in Office 365 ATP, NH, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
+description: Meer informatie over de nieuwe functies en functionaliteit die beschikbaar zijn in de nieuwste versie van Microsoft Defender voor Office 365.
+keywords: wat is er nieuw in Office 365 atp, ga, algemeen beschikbaar, mogelijkheden, beschikbaar, nieuw
 search.appverid: met150
 ms.sitesec: library
 ms.pagetype: security
@@ -21,100 +21,100 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3544f1ccb760c461b7ab72c6dc037fd653136db9
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 5934abb3afec3253da78c680735730b63ddb5701
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988158"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287351"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuw in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-**Van toepassing op:**
-
-- [Microsoft Defender voor Office 365](office-365-atp.md)
-
-Dit artikel bevat een overzicht van de nieuwe functies in de nieuwste versie van Microsoft Defender voor Office 365. Functies die momenteel in de preview-versie worden weergegeven, worden aangeduid met **(preview)**.
+In dit artikel vindt u nieuwe functies in de nieuwste versie van Microsoft Defender voor Office 365. Functies die momenteel als preview-versie beschikbaar zijn, worden aangegeven met **(preview).**
 
 > [!TIP]
-> Hebt u nog geen Microsoft Defender voor Office 365? [Neem contact op met de verkoop om een proefabonnement te starten](https://go.microsoft.com/fwlink/p/?LinkId=518644).
+> Hebt u Microsoft Defender voor Office 365 nog niet? [Neem contact op met verkoop om een proefversie te starten.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
 ## <a name="december-2020"></a>December 2020
 
-- [Standaard veilig in Office 365](secure-by-default.md)
+- [Standaard beveiligd in Office 365](secure-by-default.md)
+- Geautomatiseerde verbeteringen in onderzoek voor: algemene waarschuwingen voor handmatig geactiveerde e-mailonderzoeken, behandelen postvakwijzigingen als een afzonderlijke entiteitscategorie, verwijder redundante URL-blokacties en maak uitgaande e-mailclusters voor onderzoeken door gebruikers die door gebruikers zijn gehackt.
 
 ## <a name="november-2020"></a>November 2020
 
-- Bijgewerkte export limieten in beoordeling > Onderhoudscentrum > herstelactie via e-mail verzending en Actielogboek (Defender for Office 365, abonnement 2)
+- Bijgewerkte exportlimieten in > Actiecentrum > herstel uit het logboek voor e-mailverzending en -actie (Defender voor Office 365-abonnement 2)
 
-## <a name="septemberoctober-2020"></a>September/oktober 2020
+## <a name="septemberoctober-2020"></a>september/oktober 2020
 
-- [Uw beleidsregels controleren met behulp van configuratie analyse](configuration-analyzer-for-security-policies.md)
-- [Uitgebreide functies in de bedreigings Verkenner, waaronder beste gerichte gebruikers, transportregels en connectors](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Defender for Office 365, informatie in de [Threat Explorer](threat-explorer.md) (e-mail is toegestaan/geblokkeerd door Tenant/gebruikersbeleid) (Defender for Office 365-abonnement 2)
-- Weergegeven URL Threats in de [Threat Explorer](threat-explorer.md#threats-in-urls) (malware, phishing, spam of geen) (Defender for Office 365-abonnement 2)
-- [Verbeteringen in](threat-explorer.md#improvements-to-the-threat-hunting-experience-upcoming) de weergave van de versie van de Office-ervaring met updates rond bedreigingen, extra acties, lever locaties en bijgewerkte tijdlijnweergave (Defender voor Office 365, abonnement 2)
+- [Uw beleid controleren met Configuration Analyzer](configuration-analyzer-for-security-policies.md)
+- Uitgebreide mogelijkheden [in Bedreigingsverkenner,](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) waaronder belangrijkste gerichte gebruikers, transportregels en connectors (Informatie van Defender voor Office 365 in Bedreigingsverkenner (e-mail is toegestaan/geblokkeerd door tenant-/gebruikersbeleid) (Defender voor Office 365-abonnement 2) [](threat-explorer.md)
+- URL-bedreigingen voorkomen [](threat-explorer.md#threats-in-urls) in Bedreigingsverkenner (malware, phish, spam of geen) (Defender voor Office 365-abonnement 2)
+- [Verbeteringen in Het zoeken naar](threat-explorer.md#improvements-to-the-threat-hunting-experience-upcoming) bedreigingsverkenner met updates rond bedreigingen, aanvullende acties, leveringslocaties en bijgewerkte tijdlijnweergave (Defender voor Office 365 Abonnement 2)
 
-## <a name="julyaugust-2020"></a>Juli 2020
+## <a name="julyaugust-2020"></a>juli/augustus 2020
 
-- [Ervaring met de ervaring voor de jacht](threat-explorer.md#improvements-to-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365 abonnement 1 of abonnement 2)
-- [Eenvoudig aanbevolen instellingen toepassen via vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md)
+- [Verbeteringen in de zoekervaring](threat-explorer.md#improvements-to-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365 Abonnement 1 of Abonnement 2)
+- [Aanbevolen instellingen eenvoudig toepassen met vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md)
 
-## <a name="marchapril-2020"></a>Maart 2020
+## <a name="marchapril-2020"></a>Maart/april 2020
 
-- De mogelijkheid voor het [oplossen van gebruikersaccounts met gemanipuleerde gebruikersaccounts met automatisch onderzoek en antwoord](address-compromised-users-quickly.md) is nu meestal beschikbaar. (Microsoft Defender voor Office 365-abonnement 2)
+- De mogelijkheid om [gekromde gebruikersaccounts aan te pakken met geautomatiseerd onderzoek](address-compromised-users-quickly.md) en antwoorden is nu algemeen beschikbaar. (Microsoft Defender voor Office 365-abonnement 2)
 
-## <a name="januaryfebruary-2020"></a>Januari 2020
+## <a name="januaryfebruary-2020"></a>januari/februari 2020
 
-- [Algemene beschikbaarheid van campagne weergaven in Microsoft Defender voor office 365](campaigns.md) (Microsoft Defender voor Office 365-abonnement 2)
-- Uitbreidingen van de [bedreigings Verkenner](threat-explorer.md) voor het in-en uitschakelen van beveiligingsactiviteiten teams om meerdere velden te doorzoeken en te filteren, terwijl u [e-mail](investigate-malicious-email-that-was-delivered.md)bezorgt: (Microsoft Defender voor Office 365-abonnement 2)
+- [Algemene beschikbaarheid van campagneweergaven in Microsoft Defender voor Office 365](campaigns.md) (Microsoft Defender voor Office 365 Abonnement 2)
+- Verbeteringen in [Bedreigingsverkenner,](threat-explorer.md) zodat teams met beveiligingsbewerkingen meerdere velden kunnen doorzoeken en filteren terwijl e-mail wordt [onderzocht:](investigate-malicious-email-that-was-delivered.md)(Microsoft Defender voor Office 365-abonnement 2)
   - Bezorgingslocatie en speciale acties
-  - Richting (inkomend, uitgaand of intra organisatie)
-  - Geavanceerde niet-filters (dit zijn Geavanceerde filteropties die geen deel uitmaken van de optie geen, enzovoort).
-  - Granulaire tijdfilters (dag, uur, half uur)
+  - Directionaliteit (inkomende, uitgaande of rente-organisatie)
+  - Geavanceerde NIET-filters (dit zijn geavanceerde filteropties die geen inhoud bevatten, niet bevatten, enzovoort)
+  - Granulatief tijdfilters (dag, uur, half uur)
 
-- De widget **incidenten** is nu de widget van het **Actiecentrum** . (Als u uw beveiligings widgets wilt bekijken, gaat u naar het beveiligings & nalevings centrum en gaat u naar **risicobeheer** \> **Reviseren**.) (Microsoft Defender voor Office 365-abonnement 2)
+- De **widget Incidenten** is nu de widget **Actiecentrum.** (Als u uw beveiligingswidgets wilt weergeven, gaat u in het beveiligings- & compliancecentrum naar **Risicobeheer** \> **Controleren**.) (Microsoft Defender voor Office 365-abonnement 2)
 
 - [Veilige documenten in Microsoft 365](safe-docs.md) **(preview)**
 
 ## <a name="december-2019"></a>December 2019
 
-- [URL exporteren Klik op gegevens voor offline analyses](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365, abonnement 1 of abonnement 2)
+- [Klik op url's exporteren voor offlineanalyse](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365 Abonnement 1 of Abonnement 2)
 
-- [Campagne weergaven gebruiken in Microsoft Defender voor office 365 (**Preview**)](campaigns.md) (Microsoft Defender for Office 365 plan 2)
+- [Campagneweergaven gebruiken in Microsoft Defender voor Office 365 **(preview)**](campaigns.md) (Microsoft Defender voor Office 365-abonnement 2)
 
 ## <a name="november-2019"></a>November 2019
 
-- [Nieuwe functies voor het detecteren en beantwoorden van gebruikers uitchecken](address-compromised-users-quickly.md) (**Preview**) (Microsoft Defender for Office 365 plan 2)
+- [Bekijk nieuwe mogelijkheden voor niet-gecompromitteerde](address-compromised-users-quickly.md) gebruikersdetectie en -antwoorden **(preview)**(Microsoft Defender voor Office 365-abonnement 2)
 
 ## <a name="september-2019"></a>September 2019
 
-- [Geautomatiseerd onderzoek-en antwoord functies gebruiken](automated-investigation-response-office.md) (Microsoft Defender voor Office 365 abonnement 2)
+- [Gebruik geautomatiseerde onderzoeks- en antwoordmogelijkheden](automated-investigation-response-office.md) (Microsoft Defender voor Office 365 Abonnement 2)
 
-- [Integratie van Microsoft Defender voor Office 365 automatisch onderzoek en antwoord gebeurtenissen met de Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Defender for Office 365 abonnement 2)
+- [Integreer met Microsoft Defender voor Office 365-](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) automatisch onderzoek en reactiegebeurtenissen met behulp van de Office 365 Management Activity API (Defender voor Office 365-abonnement 2)
 
-- [De e-mailbericht koppen weergeven en de hoofdtekst van het e-mailbericht downloaden](investigate-malicious-email-that-was-delivered.md) (Microsoft Defender voor Office 365, abonnement 1 of abonnement 2)
+- [Bekijk de e-mailberichtkoppen en download de](investigate-malicious-email-that-was-delivered.md) hoofdtekst van de e-mail (Microsoft Defender voor Office 365 Abonnement 1 of Abonnement 2)
 
 ## <a name="august-2019"></a>Augustus 2019
 
-- [De tijdlijn met e-mail](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) (Microsoft Defender voor Office 365 abonnement 1 of abonnement 2) weergeven
+- [De tijdlijn van e-mail](investigate-malicious-email-that-was-delivered.md#view-the-timeline-of-your-email) weergeven (Microsoft Defender voor Office 365 Abonnement 1 of Abonnement 2)
 
 ## <a name="july-2019"></a>Juli 2019
 
-- [Controleer de bezorgings actie en locatie van e-mailberichten](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (Microsoft Defender voor Office 365 abonnement 1 of 2)
+- [Controleer de bezorgingsactie en locatie van e-mailberichten](investigate-malicious-email-that-was-delivered.md#check-the-delivery-action-and-location) (Microsoft Defender voor Office 365 Abonnement 1 of 2)
 
 ## <a name="june-2019"></a>Juni 2019
 
-- [Bekijk de Url's voor phishing en klik op Verdict data](threat-explorer.md#view-phishing-url-and-click-verdict-data) (Microsoft Defender for Office 365, abonnement 1 of abonnement 2)
+- [Bekijk phishing-URL's en klik op](threat-explorer.md#view-phishing-url-and-click-verdict-data) waarschuwingsgegevens (Microsoft Defender voor Office 365 Abonnement 1 of Abonnement 2)
 
 ## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365
 
-Wist u dat Microsoft Defender voor Office 365 beschikbaar is in twee abonnementen? Meer [informatie over wat elk abonnement omvat](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2).
+Wist u dat Microsoft Defender voor Office 365 beschikbaar is in twee abonnementen? [Meer informatie over de verschillende abonnementen.](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2)
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft 365-wegwijzer](https://www.microsoft.com/microsoft-365/roadmap)
+[Routekaart voor Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
-[Service Beschrijving Microsoft Defender for Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+[Servicebeschrijving van Microsoft Defender voor Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)

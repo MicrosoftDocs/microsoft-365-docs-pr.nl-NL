@@ -7,7 +7,6 @@ author: MSFTTracyP
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -16,17 +15,23 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
-ms.openlocfilehash: bcf1c0b3dc0a1a8dd8a679af815fbdc2173cabb7
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 43290d7ba46774e6ec31d96aa14dbff4eb2b2cb9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49759854"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286330"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [DMARC](https://dmarc.org) (Domain-based Message Authentication, Reporting, and Conformance) werkt samen met SPF (Sender Policy Framework) en DKIM (DomainKeys Identified Mail) om afzenders van e-mail te verifiëren en ervoor te zorgen dat geadresseerde e-mailsystemen berichten vertrouwen die vanuit uw domein worden verzonden. De implementatie van DMARC met SPF en DKIM biedt extra bescherming tegen adresvervalsing en phishing-email. DMARC helpt ontvangende e-mailsystemen vast te stellen wat er moet gebeuren met berichten die zijn verzonden vanuit uw domein die niet door de SPF- en DKIM-controles komen.
 
@@ -172,7 +177,7 @@ Voorbeelden:
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
-Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken. Zie [DNS-records voor Microsoft 365 maken wanneer u uw DNS-records beheert](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) voor instructies over het toevoegen van het DMARC TXT-record aan uw DNS-records voor Microsoft 365.
+Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken. Zie [DNS-records voor Microsoft 365 maken wanneer u uw DNS-records beheert](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) voor instructies over het toevoegen van het DMARC TXT-record aan uw DNS-records voor Microsoft 365.
 
 ## <a name="best-practices-for-implementing-dmarc-in-microsoft-365"></a>Aanbevolen procedures voor implementatie van DMARC in Microsoft 365
 
