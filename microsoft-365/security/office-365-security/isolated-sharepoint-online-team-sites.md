@@ -8,7 +8,6 @@ manager: laurawi
 ms.date: 12/15/2017
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - Ent_O365
@@ -18,17 +17,23 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
 description: Meer informatie over geïsoleerde SharePoint Online-teamsites, zoals gebruik, vereisten en functies waarmee ze kunnen worden gebruikt.
-ms.openlocfilehash: 55bdf2999610310babb60b6938afb97732e5a7a0
-ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 056c6f2a463d38dd27b26d484995280dddedf436
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49845069"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286583"
 ---
 # <a name="isolated-sharepoint-online-team-sites"></a>Geïsoleerde SharePoint Online-teamsites
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- SharePoint Online 
 
  **Overzicht**: meer informatie over de toepassingen voor geïsoleerde SharePoint Online-teamsites.
 

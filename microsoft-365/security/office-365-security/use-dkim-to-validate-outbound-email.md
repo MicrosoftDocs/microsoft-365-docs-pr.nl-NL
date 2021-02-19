@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: 10/8/2019
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -19,17 +18,23 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
-ms.openlocfilehash: 0c77798f0bf4b5dedfa5023eaa0b4de4ab8c5b64
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 55a7bf612d121364ed64c159a450b6cf035d3837
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870991"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286427"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Van toepassing op**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
  **Samenvatting:** In dit artikel wordt beschreven hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat de ontvangende e-mailsystemen uitgaande berichten vertrouwen die worden verzonden vanuit uw aangepaste domein.
 
@@ -37,7 +42,7 @@ U dient DKIM te gebruiken naast SPF en DMARC om te voorkomen dat spoofing-oplich
 
 Simpel gezegd gebruikt u een persoonlijke sleutel om de berichtkop in de uitgaande e-mail van uw domein te versleutelen. U publiceert een openbare sleutel naar de DNS-records van uw domein die vervolgens door ontvangende servers wordt gebruikt om de handtekening te decoderen. Ze gebruiken de openbare sleutel om te verifiëren dat de berichten werkelijk van u afkomstig zijn en niet afkomstig zijn van iemand die uw domein *spooft*.
 
-In Microsoft 365 wordt DKIM automatisch ingesteld voor de oorspronkelijke 'onmicrosoft.com'-domeinen. Dat betekent dat u niets hoeft te doen om DKIM in te stellen voor enige oorspronkelijke domeinnaam (bijvoorbeeld litware.onmicrosoft.com). Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain) voor meer informatie over domeinen.
+In Microsoft 365 wordt DKIM automatisch ingesteld voor de oorspronkelijke 'onmicrosoft.com'-domeinen. Dat betekent dat u niets hoeft te doen om DKIM in te stellen voor enige oorspronkelijke domeinnaam (bijvoorbeeld litware.onmicrosoft.com). Zie [Veelgestelde vragen over domeinen](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain) voor meer informatie over domeinen.
 
 U kunt er ook voor kiezen om niets te doen met DKIM voor uw aangepaste domein. Als u geen DKIM voor uw aangepaste domein instelt, maakt Microsoft 365 een persoonlijk en openbare sleutelpaar en wordt DKIM-ondertekening ingeschakeld. Vervolgens wordt het standaardbeleid van Microsoft 365 voor uw aangepaste domein geconfigureerd. Hoewel dit voldoende is voor de meeste klanten, moet u de DKIM voor uw aangepaste domein handmatig configureren in de volgende gevallen:
 
@@ -83,38 +88,34 @@ Kortom: DKIM gebruikt een persoonlijke sleutel om een versleutelde handtekening 
 ## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Uw 1024-bits sleutels handmatig upgraden naar 2048-bits DKIM-versleutelingssleutels
 <a name="1024to2048DKIM"> </a>
 
-Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt in deze instructies uitgelegd hoe u de 1024-bits sleutel moet upgraden naar 2048-bits. De onderstaande stappen zijn voor twee gebruikscases: kies de optie die het geschiktst is voor uw configuratie.
+Aangezien zowel 1024- als 2048-bits voor DKIM-sleutels worden ondersteund, wordt in deze instructies uitgelegd hoe je de 1024-bits sleutel upgradet naar 2048-bits in [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). De onderstaande stappen zijn voor twee gebruikscases: kies de optie die het geschiktst is voor jouw configuratie.
 
-1. Wanneer u **al DKIM hebt geconfigureerd**, wijzigt u de hoeveelheid bits als volgt:
+- Wanneer je **DKIM al hebt geconfigureerd**, wijzig je de hoeveelheid bits als volgt:
 
-   1. [Maak verbinding met de Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (De cmdlet is afkomstig van Exchange Online.)
-   1. Voer de volgende opdracht uit:
+  ```powershell
+  Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
+  ```
 
-      ```powershell
-      Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
-      ```
+  **of**
 
-1. Of voor een **nieuwe implementatie van DKIM**:
+- Voer voor een **nieuwe implementatie van DKIM** de volgende opdracht uit:
 
-   1. [Maak verbinding met de Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (Dit is de cmdlet van Exchange Online.)
-   1. Voer de volgende opdracht uit:
+  ```powershell
+  New-DkimSigningConfig -DomainName <Domain for which config is to be created> -KeySize 2048 -Enabled $true
+  ```
 
-      ```powershell
-      New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True
-      ```
+Blijf verbonden met Exchange Online PowerShell om de configuratie te *controleren* door de volgende opdracht uit te voeren:
 
-Blijf verbonden met Microsoft 365 om de configuratie te *verifiëren*.
-
-1. Voer de volgende opdracht uit:
-
-   ```powershell
-   Get-DkimSigningConfig -Identity {Domain for which the configuration was set} | Format-List
-   ```
+```powershell
+Get-DkimSigningConfig -Identity <Domain for which the configuration was set> | Format-List
+```
 
 > [!TIP]
 > Deze nieuwe 2048-bits sleutel wordt gebruikt vanaf RotateOnDate en verzendt in de tussentijd e-mails met de 1024-bits sleutel. Na vier dagen kunt u opnieuw testen met de 2048-bits sleutel (dat wil zeggen, wanneer de wijziging wordt toegepast op de tweede kiezer).
 
 Als u de tweede kiezer wilt wijzigen, kunt u kiezen uit a) de Microsoft 365-service de kiezer laten wijzigen en upgraden naar 2048-bits binnen de komende zes maanden of b) na 4 dagen en bevestigen dat 2048-bits wordt gebruikt, de tweede kiezer handmatig wijzigen met gebruik van de geschikte hierboven vermelde cmdlet.
+
+Zie de volgende artikelen voor gedetailleerde syntaxis- en parameterinformatie: [Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/new-dkimsigningconfig) en [Get-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/get-dkimsigningconfig).
 
 ## <a name="steps-you-need-to-do-to-manually-set-up-dkim"></a>Stappen die u moet uitvoeren om DKIM handmatig in te stellen
 <a name="SetUpDKIMO365"> </a>
@@ -131,9 +132,9 @@ Als u DKIM wilt configureren, voert u de volgende stappen uit:
 U moet twee CNAME-records publiceren voor elk domein waarvoor u een DKIM-handtekening wilt toevoegen in DNS.
 
 > [!NOTE]
-> Als u nog niet het hele artikel hebt gelezen, hebt u deze tijdbesparende PowerShell-verbindingsinformatie misschien gemist: [Verbinding maken met Office 365-workloads via PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (De cmdlet is afkomstig van Exchange Online.)
+> Als je nog niet het hele artikel hebt gelezen, heb je deze tijdbesparende PowerShell-verbindingsinformatie misschien gemist: [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-Voer de volgende opdrachten uit om de selectorrecords te maken:
+Voer de volgende opdrachten uit in Exchange Online PowerShell om de selectorrecords te maken:
 
 ```powershell
 New-DkimSigningConfig -DomainName <domain> -Enabled $false
@@ -165,7 +166,7 @@ Waarbij:
 
   > contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
 
-- _initialDomain_ is het domein dat u hebt gebruikt toen u zich aanmeldde voor Microsoft 365. Oorspronkelijke domeinen moeten altijd eindigen op onmicrosoft.com. Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)voor meer informatie over het bepalen van uw oorspronkelijke domein.
+- _initialDomain_ is het domein dat u hebt gebruikt toen u zich aanmeldde voor Microsoft 365. Oorspronkelijke domeinen moeten altijd eindigen op onmicrosoft.com. Zie [Veelgestelde vragen over domeinen](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain)voor meer informatie over het bepalen van uw oorspronkelijke domein.
 
 Als u bijvoorbeeld het oorspronkelijk domein cohovineyardandwinery.onmicrosoft.com hebt en twee aangepaste domeinen cohovineyard.com en cohowinery.com, moet u twee CNAME-records instellen voor elk extra domein: dus een totaal van vier CNAME-records.
 
@@ -311,7 +312,7 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
     b=<signed field>;
 ```
 
-In dit voorbeeld bevatten de hostnaam en het domein de waarden waarnaar de CNAME zou wijzen als DKIM-ondertekening voor fabrikam.com door de domeinbeheerder was ingeschakeld. Uiteindelijk wordt elk bericht dat wordt verzonden vanuit Microsoft 365 DKIM-ondertekend. Als u DKIM zelf inschakelt, is het domein hetzelfde als het domein in het Van:-adres, in dit geval fabrikam.com. Als u dit niet doet, wordt het niet afgestemd en wordt in plaats daarvan het oorspronkelijke domein van uw organisatie gebruikt. Zie [Veelgestelde vragen over domeinen](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)voor meer informatie over het bepalen van uw oorspronkelijke domein.
+In dit voorbeeld bevatten de hostnaam en het domein de waarden waarnaar de CNAME zou wijzen als DKIM-ondertekening voor fabrikam.com door de domeinbeheerder was ingeschakeld. Uiteindelijk wordt elk bericht dat wordt verzonden vanuit Microsoft 365 DKIM-ondertekend. Als u DKIM zelf inschakelt, is het domein hetzelfde als het domein in het Van:-adres, in dit geval fabrikam.com. Als u dit niet doet, wordt het niet afgestemd en wordt in plaats daarvan het oorspronkelijke domein van uw organisatie gebruikt. Zie [Veelgestelde vragen over domeinen](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain)voor meer informatie over het bepalen van uw oorspronkelijke domein.
 
 ## <a name="set-up-dkim-so-that-a-third-party-service-can-send-or-spoof-email-on-behalf-of-your-custom-domain"></a>DKIM instellen zodat een externe service namens uw aangepaste domein e-mails kan verzenden of spoofen
 <a name="SetUp3rdPartyspoof"> </a>

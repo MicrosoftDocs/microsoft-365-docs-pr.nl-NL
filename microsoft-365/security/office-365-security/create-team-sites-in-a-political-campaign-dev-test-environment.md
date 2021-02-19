@@ -19,12 +19,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Overzicht: Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1f3488b479b4d37b7e38e4ced0d612e8fb5ae8a0
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1c12970fb3ff6d5616201ff153085d411068d11c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165473"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288393"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
 
@@ -32,7 +32,7 @@ ms.locfileid: "50165473"
 
 **Van toepassing op**
 
-- [Abonnement 2 voor Microsoft Defender voor Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - 
  **Overzicht:** Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne. 
    
@@ -424,6 +424,6 @@ Als u een document met Azure Information Protection en dit nieuwe label wilt bev
 
 [Configureer groepen en gebruikers voor een ontwikkel-/testomgeving voor politieke campagnes](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
 
-[Cloud adoption Test Lab Guides (TLGs)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Cloud adoption Test Lab Guides (TLGs)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
-[Cloud adoption and hybrid solutions](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[Microsoft 365-oplossings- en -architectuurcentrum](../../solutions/index.yml)

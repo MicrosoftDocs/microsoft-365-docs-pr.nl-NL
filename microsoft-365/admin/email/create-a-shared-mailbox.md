@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Maak gedeelde postvakken zodat meerdere personen binnen uw bedrijf de verantwoordelijkheid kunnen delen voor het lezen en beantwoorden van e-mails die naar hetzelfde adres zijn gestuurd.
-ms.openlocfilehash: d0bd5770f347766638af0f0e66b9f961b3721697
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d71e33aa0a04bd52f707038ac31e98bef68f27b0
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926592"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287231"
 ---
 # <a name="create-a-shared-mailbox"></a>Een gedeeld postvak maken 
 
@@ -81,6 +81,30 @@ Lees eerst [Meer informatie over gedeelde postvakken](about-shared-mailboxes.md)
 7. Selecteer **Sluiten**.
 
 U hebt een gedeeld postvak en een gedeelde agenda. Ga nu naar de volgende stap: Aanmelding voor het account van het gedeelde postvak blokkeren.
+
+## <a name="which-permissions-should-you-use"></a>Welke machtiging moet je gebruiken?
+
+Je kunt de volgende machtigingen gebruiken met een gedeeld postvak:
+
+- **Volledige toegang**: Met de machtiging Volledige toegang kan een gebruiker zich aanmelden bij het gedeelde postvak en optreden als de eigenaar van dat postvak. Nadat een gebruiker het gedeelde postvak heeft geopend, kan hij agenda-items maken, taken en contactpersonen voor de agenda maken en e-mailberichten lezen, weergeven, verwijderen en wijzigen. Gebruikers met de machtiging Volledige toegang kunnen echter geen e-mail verzenden vanuit het gedeelde postvak tenzij ze ook de machtiging Verzenden als of Verzenden namens hebben.
+
+- **Verzenden als**: Met de machtiging Verzenden als kan een gebruiker e-mailberichten vanuit het gedeelde postvak onder een andere naam verzenden. Als bijvoorbeeld Flip Schoonen zich aanmeldt bij het gedeelde postvak Afdeling Marketing en een e-mailbericht verzendt, ziet dit eruit alsof de Afdeling Marketing het e-mailbericht heeft verzonden.
+
+- **Verzenden namens**: Met de machtiging Verzenden namens kan een gebruiker e-mailberichten verzenden namens het gedeelde postvak. Als bijvoorbeeld Ger zich aanmeldt bij het gedeelde postvak Ontvangstgebouw 32 en een e-mailbericht verzendt, ziet dit eruit alsof het e-mailbericht is verzonden door 'Ger namens Ontvangstgebouw 32'. Je kunt het Exchange-beheercentrum niet gebruiken om de machtiging Verzenden namens te verlenen. Daarvoor moet je de **Set-Mailbox**-cmdlet met de parameter _GrantSendonBehalf_ gebruiken.
+
+### <a name="use-the-eac-to-edit-shared-mailbox-delegation"></a>Het Exchange-beheercentrum gebruiken om het delegeren voor het gedeelde postvak te bewerken
+
+1. Ga in het Exchange-beheercentrum naar **Ontvangers** \> **Gedeeld**. Selecteer het gedeelde postvak en vervolgens **Bewerken** ![Pictogram bewerken](../../media/ITPro-EAC-EditIcon.png).
+
+2. Klik op **Postvakdelegering**.
+
+3. Als je de machtiging Volledige toegang of Verzenden als wilt instellen of verwijderen, klik je op **Toevoegen** ![Pictogram Toevoegen](../../media/ITPro-EAC-AddIcon.png) of **Verwijderen** ![Pictogram Verwijderen](../../media/ITPro-EAC-RemoveIcon.gif) en selecteer je de gewenste gebruikers.
+
+   > [!NOTE]
+   > Met de machtiging Volledige toegang kan een gebruiker het postvak openen en daarin items maken en wijzigen. Met de machtiging Verzenden als kan ieder andere gebruiker dan de eigenaar van het postvak e-mail vanuit dit gedeelde postvak verzenden. Beide machtigingen zijn vereist om het gedeelde postvak goed te kunnen gebruiken.
+
+4. Selecteer **Opslaan** om de wijzigingen op te slaan.
+
 
 ## <a name="block-sign-in-for-the-shared-mailbox-account"></a>Aanmelding voor het account van het gedeelde postvak blokkeren
 
@@ -185,8 +209,5 @@ Wanneer u een gedeeld postvak maakt, maakt u automatisch een gedeelde agenda. We
 [Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md)
 
 [Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md)
-
-
-
 
 
