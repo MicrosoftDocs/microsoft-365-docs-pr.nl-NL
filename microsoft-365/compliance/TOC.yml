@@ -237,6 +237,8 @@
               href: data-loss-prevention-policies.md
             - name: Meer informatie over preventie van gegevensverlies van eindpunten
               href: endpoint-dlp-learn-about.md
+            - name: Meer informatie over Microsoft 365 preventie van gegevensverlies on-premises scanner (preview)
+              href: dlp-on-premises-scanner-learn.md
         - name: Aan de slag met DLP
           items:
             - name: Aan de slag met het standaard DLP-beleid
@@ -245,6 +247,8 @@
               href: create-a-dlp-policy-from-a-template.md
             - name: 'Een DLP-beleid maken, testen en afstemmen'
               href: create-test-tune-dlp-policy.md
+            - name: Aan de slag met de Microsoft 365 preventie van gegevensverlies on-premises scanner (preview)
+              href: dlp-on-premises-scanner-get-started.md
             - name: Aan de slag met preventie van gegevensverlies van eindpunten
               href: endpoint-dlp-getting-started.md
             - name: Apparaat-proxy en instellingen voor internetverbinding voor Eindpunt DLP configureren.
@@ -269,6 +273,8 @@
               href: dlp-microsoft-teams.md
             - name: Preventie van gegevensverlies van eindpunten gebruiken
               href: endpoint-dlp-using.md
+            - name: Gebruik Microsoft 365 preventie van gegevensverlies on-premises scanner (preview)
+              href: dlp-on-premises-scanner-use.md
             - name: Meldingen en beleidstips gebruiken in DLP-beleid
               href: use-notifications-and-policy-tips.md
             - name: Wat zijn de DLP-beleidssjablonen?
