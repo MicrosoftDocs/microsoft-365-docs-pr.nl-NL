@@ -1,12 +1,12 @@
-- name: Aan de slag met Microsoft Viva
+- name: Microsoft Viva Onderwerpen
+  href: index.md
+- name: Aan de slag met Microsoft Viva Onderwerpen
   items:
-    - name: Inleiding tot Microsoft Viva
-      href: index.md
-    - name: Overzicht van Microsoft Viva
+    - name: Overzicht van Microsoft Viva Onderwerpen
       href: topic-experiences-overview.md
-    - name: Microsoft Viva ontdekken en cureren
+    - name: Microsoft Viva Onderwerpen ontdekken en cureren
       href: topic-experiences-discovery-curation.md
-    - name: Microsoft Viva-rollen
+    - name: Microsoft Viva Onderwerpen-rollen
       href: topic-experiences-roles.md
     - name: Uw omgeving voorbereiden
       href: topic-experiences-get-ready.md
@@ -28,6 +28,8 @@
       href: topic-experiences-administration.md
 - name: Werken met onderwerpen
   items:
+    - name: Aan de slag met Viva Onderwerpen
+      href: get-started-with-viva-topics.md
     - name: Overzicht van het onderwerpcentrum
       href: topic-center-overview.md
     - name: Onderwerpen beheren in het onderwerpcentrum
