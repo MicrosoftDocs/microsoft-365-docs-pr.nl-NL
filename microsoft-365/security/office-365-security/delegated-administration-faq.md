@@ -15,12 +15,12 @@ ms.custom:
 description: Beheerders kunnen veelgestelde vragen en antwoorden over taken voor gedelegeerd beheer bekijken in Microsoft 365 voor partners en wederverkopers van Microsoft.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 971572f8bff80da6dd63bed8958112332292feb9
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 304fbba16d6c8e81e965462e3405824bd22982c9
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288357"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405934"
 ---
 # <a name="delegated-administration-faq"></a>Veelgestelde vragen over gedelegeerd beheer
 
@@ -35,11 +35,11 @@ Als u een Microsoft-partner of -wederverkoper bent en u zich hebt  aangemeld als
 
 Met gedelegeerd beheer kunt u Microsoft 365 beheren (inclusief EOP-instellingen) alsof u een beheerder binnen die organisatie bent. De stappen voor het configureren van gedelegeerd beheer worden in de volgende lijst beschreven:
 
-1. Meld u aan als [Adviseur voor Microsoft Office 365.](https://aka.ms/cloudbenefits)
+1. Meld u aan als [Adviseur voor Microsoft Office 365.](https://partner.microsoft.com/?cloudbenefits)
 
 2. Meld u aan voor gedelegeerd beheer. Voordat u de tenant van een klant kunt beheren, moet deze u machtigen als gedelegeerde beheerder. Om toestemming te krijgen, moet u [ze eerst een aanbieding voor gedelegeerd beheer sturen.](https://support.microsoft.com/office/26530dc0-ebba-415b-86b1-b55bc06b073e) U kunt ook op een later tijdstip gedelegeerd beheer bieden aan uw klant.
 
-3. Maak het account voor gedelegeerde beheerders aan met behulp van de stappen in Een abonnementsadviseur toevoegen, wijzigen [of verwijderen.](../../admin/misc/add-partner.md)
+3. Maak het gedelegeerde beheerdersaccount aan met behulp van de stappen in Een abonnementsadviseur toevoegen, wijzigen [of verwijderen.](../../admin/misc/add-partner.md)
 
 Ga [naar Partners: Bouw uw bedrijf op en beheer het partnerabonnement](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) voor meer informatie over het instellen van gedelegeerd beheer.
 

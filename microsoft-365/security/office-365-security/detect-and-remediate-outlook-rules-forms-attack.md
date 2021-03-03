@@ -18,12 +18,12 @@ description: Meer informatie over het herkennen en herstellen van de Outlook-reg
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e22cfa97ae59fdd094c161cdaeff899dc1dd6507
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 30ddd5f57dee2156504211e76304d346a63e192d
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286391"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406698"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook-regels en aangepaste formulieren-insinjecties detecteren en herstellen
 
@@ -34,70 +34,69 @@ ms.locfileid: "50286391"
 
 ## <a name="what-is-the-outlook-rules-and-custom-forms-injection-attack"></a>Wat is de outlook-regels en aangepaste formuliereninjectie-aanval?
 
-Nadat een aanvaller in uw tenancy een account heeft geschonden en binnenkomt, gaat u proberen een manier te vinden om binnen te blijven of terug te komen nadat deze zijn gevonden en verwijderd. Dit wordt een mechanisme voor persistentie genoemd. Twee manieren waarop ze dit kunnen doen, zijn door outlook-regels te misbruiken of aangepaste formulieren in te vullen in Outlook.
-In beide gevallen wordt de regel of het formulier gesynchroniseerd van de cloudservice naar de desktopclient, dus bij volledige opmaak en opnieuw installeren van de clientsoftware wordt het insinjectiemechanisme niet weg. Dit komt omdat wanneer de Outlook-clientsoftware opnieuw verbinding maakt met het postvak in de cloud, de regels en formulieren opnieuw worden gedownload vanuit de cloud. Zodra de regels en formulieren zijn geïnstalleerd, gebruikt de aanvaller deze om externe of aangepaste code uit te voeren, meestal om malware op de lokale computer te installeren. Vervolgens wordt de malware inloggegevens opnieuw gestolen of worden andere activiteiten uitgevoerd.
-Het goede nieuws is dat als uw clients worden gepatched naar de nieuwste versie, u niet kwetsbaar bent voor de bedreiging omdat de huidige Standaardinstellingen van de Outlook-client beide mechanismen blokkeren.
+Nadat een aanvaller toegang heeft tot uw organisatie, probeert hij een voettekst vast te maken om in of terug te komen nadat hij is gevonden. Deze activiteit wordt een *mechanisme voor persistentie genoemd.* Er zijn twee manieren waarop een aanvaller Outlook kan gebruiken om een mechanisme voor persistentie in te stellen:
+
+- Door misbruik te maken van Outlook-regels.
+- Door aangepaste formulieren in te vullen in Outlook.
+
+Het opnieuw installeren van Outlook of zelfs het geven van een nieuwe computer aan de getroffen persoon helpt niet. Wanneer de nieuwe installatie van Outlook verbinding maakt met het postvak, worden alle regels en formulieren gesynchroniseerd vanuit de cloud. De regels of formulieren zijn doorgaans ontworpen om externe code uit te voeren en malware op de lokale computer te installeren. De malware stelen referenties of voert andere activiteit uit.
+
+Het goede nieuws is: als er voor uw Outlook-clients patches worden uitgebracht naar de nieuwste versie, bent u niet kwetsbaar voor de bedreiging omdat de huidige standaardinstellingen van de Outlook-client beide mechanismen blokkeren.
 
 De aanvallen volgen meestal deze patronen:
 
 **The Rules Exploit:**
 
-1. De aanvaller stelen de gebruikersnaam en het wachtwoord van een van uw gebruikers.
+1. De aanvaller stelen de referenties van een gebruiker.
 
-2. De aanvaller meldt zich vervolgens aan bij het Exchange-postvak van die gebruiker. Het postvak kan zich in Exchange Online of on-premises in Exchange hebben.
+2. De aanvaller meldt zich aan bij het Exchange-postvak van die gebruiker (Exchange Online of on-premises Exchange).
 
-3. De aanvaller maakt vervolgens een doorsturende regel in het postvak die wordt geactiveerd wanneer het postvak een e-mailbericht ontvangt dat voldoet aan de criteria van de regel. Het criterium van de regel en de inhoud van de trigger-e-mail zijn op elkaar afgestemd.
+3. De aanvaller maakt een regel voor het doorsturen van postvak IN in het postvak. De doorsturenregel wordt geactiveerd wanneer het postvak een specifiek bericht van de aanvaller ontvangt die overeenkomt met de voorwaarden van de regel. De regelvoorwaarden en berichtindeling zijn op elkaar afgestemd.
 
-4. De aanvaller stuurt de trigger-e-mail naar de gebruiker die het postvak normaal gebruikt.
+4. De aanvaller stuurt de trigger-e-mail naar het gekromde postvak, dat nog steeds als normaal wordt gebruikt door de nietsvermoedende gebruiker.
 
-5. Wanneer het e-mailbericht wordt ontvangen, wordt de regel geactiveerd. De actie van de regel bestaat gewoonlijk uit het starten van een toepassing op een externe (WebDAV)-server.
+5. Wanneer het postvak een bericht ontvangt dat overeenkomt met de voorwaarden van de regel, wordt de actie van de regel toegepast. De regelactie bestaat gewoonlijk uit het starten van een toepassing op een externe (WebDAV)-server.
 
-6. Met de toepassing wordt malware, zoals [Powershell Empire,](https://www.powershellempire.com/)meestal lokaal op de computer van de gebruiker geïnstalleerd.
+6. Meestal installeert de toepassing malware op de computer van de gebruiker (bijvoorbeeld [PowerShell Empire).](https://www.powershellempire.com/)
 
-7. Met de malware kan de aanvaller de gebruikersnaam en het wachtwoord van de gebruiker of andere referenties van de lokale computer opnieuw stelen en andere schadelijke activiteiten uitvoeren.
+7. Met de malware kan de aanvaller de gebruikersnaam en het wachtwoord van de gebruiker of andere referenties van de lokale computer stelen (of opnieuw stelen) en andere schadelijke activiteiten uitvoeren.
 
 **De Forms Exploit:**
 
-1. De aanvaller stelen de gebruikersnaam en het wachtwoord van een van uw gebruikers.
+1. De aanvaller stelen de referenties van een gebruiker.
 
-2. De aanvaller kan zich vervolgens aanmelden bij dit Exchange-postvak. Het postvak kan zich in Exchange Online of on-premises in Exchange hebben.
+2. De aanvaller meldt zich aan bij het Exchange-postvak van die gebruiker (Exchange Online of on-premises Exchange).
 
-3. De aanvaller maakt vervolgens een aangepaste e-mailformuliersjabloon en voegt deze in het postvak van de gebruiker in. Het aangepaste formulier wordt geactiveerd wanneer het postvak een e-mailbericht ontvangt dat vereist dat het aangepaste formulier door het postvak wordt geladen. Het aangepaste formulier en de opmaak van e-mail zijn op elkaar afgestemd.
-4. De aanvaller stuurt de trigger-e-mail naar de gebruiker, die het postvak normaal gebruikt.
+3. De aanvaller voegt een aangepaste e-mailformuliersjabloon in het postvak van de gebruiker in. Het aangepaste formulier wordt geactiveerd wanneer het postvak een specifiek bericht van de aanvaller ontvangt, zodat het postvak het aangepaste formulier moet laden. Het aangepaste formulier en de berichtindeling zijn op elkaar afgestemd.
 
-5. Wanneer het e-mailbericht wordt ontvangen, wordt het formulier geladen. Met het formulier wordt een toepassing op een externe (WebDAV)-server uitgevoerd.
+4. De aanvaller stuurt de trigger-e-mail naar het gekromde postvak, dat nog steeds als normaal wordt gebruikt door de nietsvermoedende gebruiker.
 
-6. Met de toepassing wordt malware, zoals [Powershell Empire,](https://www.powershellempire.com/)meestal lokaal op de computer van de gebruiker geïnstalleerd.
+5. Wanneer het postvak het bericht ontvangt, wordt het vereiste formulier geladen in het postvak. Met het formulier wordt een toepassing op een externe (WebDAV)-server uitgevoerd.
 
-7. Met de malware kan de aanvaller de gebruikersnaam en het wachtwoord van de gebruiker of andere referenties van de lokale computer opnieuw stelen en andere schadelijke activiteiten uitvoeren.
+6. Meestal installeert de toepassing malware op de computer van de gebruiker (bijvoorbeeld [PowerShell Empire).](https://www.powershellempire.com/)
 
-## <a name="what-a-rules-and-custom-forms-injection-attack-might-look-like-office-365"></a>Hoe kan een aanval met regels en een aangepaste formuliereninjectie eruit zien als Office 365?
+7. Met de malware kan de aanvaller de gebruikersnaam en het wachtwoord van de gebruiker of andere referenties van de lokale computer stelen (of opnieuw stelen) en andere schadelijke activiteiten uitvoeren.
+
+## <a name="what-a-rules-and-custom-forms-injection-attack-might-look-like-office-365"></a>Hoe kan een aanval met regels en aangepaste formulieren in de vorm van Office 365 eruit zien?
 
 Deze persistentiemechanismen zijn waarschijnlijk niet zichtbaar voor uw gebruikers en zijn in sommige gevallen zelfs onzichtbaar voor hen. In dit artikel wordt beschreven hoe u kunt zoeken naar een van de zeven tekens (Indicatoren van compromissen) die hieronder worden vermeld. Als u een van deze vindt, moet u herstelstappen nemen.
 
-- Indicatoren van de regels zijn een compromis:
-
+- **Indicatoren van de regels zijn een compromis:**
   - Regelactie is het starten van een toepassing.
-
   - Regel verwijst naar een EXE, ZIP of URL.
-
   - Zoek op de lokale computer naar een nieuw proces dat afkomstig is van de Outlook PID.
 
-- Indicatoren van de aangepaste formulieren zijn een compromis:
-
-  - Aangepast formulier dat is opgeslagen als hun eigen berichtklasse.
-
+- **Indicatoren van de aangepaste formulieren zijn een compromis:**
+  - Aangepaste formulieren die worden weergegeven, worden opgeslagen als hun eigen berichtklasse.
   - Berichtklasse bevat uitvoerbare code.
-
-  - Wordt meestal opgeslagen in de Bibliotheek met persoonlijke formulieren of in postvak IN.
-
+  - Kwaadaardige formulieren worden meestal opgeslagen in de bibliotheek met persoonlijke formulieren of in de mappen Postvak IN.
   - Formulier heeft de naam IPM. Opmerking. [aangepaste naam].
 
 ## <a name="steps-for-finding-signs-of-this-attack-and-confirming-it"></a>Stappen voor het vinden van tekens van deze aanval en het bevestigen ervan
 
-U kunt een van deze twee methoden gebruiken om de aanval te bevestigen:
+U kunt een van de volgende methoden gebruiken om de aanval te bevestigen:
 
-- De regels en formulieren voor elk postvak handmatig bekijken met behulp van de Outlook-client. Deze methode is grondig, maar u kunt de postvakgebruiker alleen controleren op een moment dat erg veel tijd in beslag kan nemen als u veel gebruikers moet controleren. Het kan ook leiden tot een schending van de computer van waardaan u de controle wilt uitvoeren.
+- De regels en formulieren voor elk postvak handmatig bekijken met behulp van de Outlook-client. Deze methode is grondig, maar u kunt slechts één postvak tegelijk controleren. Deze methode kan veel tijd in beslag nemen als u veel gebruikers moet controleren en de computer die u gebruikt, mogelijk ook infecteren.
 
 - Gebruik het [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) PowerShell-script om automatisch alle regels voor het doorsturen van e-mail en aangepaste formulieren voor alle gebruikers in uw tenancy tedumpen. Dit is de snelste en veiligste methode met de minste overhead.
 
@@ -121,7 +120,7 @@ U kunt een van deze twee methoden gebruiken om de aanval te bevestigen:
 
 3. Open het nu zichtbare tabblad Ontwikkelaars in Outlook en klik op **een formulier ontwerpen.**
 
-4. Selecteer het **Postvak IN** in de **lijst Zoeken in.** Zoek eventuele aangepaste formulieren. Aangepaste formulieren zijn zelden zo gebruikelijk dat u een beter uiterlijk kunt opvullen als u aangepaste formulieren hebt.
+4. Selecteer het **Postvak IN** in de **lijst Zoeken in.** Zoek naar aangepaste formulieren. Aangepaste formulieren zijn zelden zo gebruikelijk dat u een beter uiterlijk kunt opvullen als u aangepaste formulieren hebt.
 
 5. Onderzoek eventuele aangepaste formulieren, met name formulieren die zijn gemarkeerd als verborgen.
 
@@ -129,11 +128,11 @@ U kunt een van deze twee methoden gebruiken om de aanval te bevestigen:
 
 ### <a name="steps-to-confirm-the-rules-and-forms-attack-using-powershell"></a>Stappen om de aanval van regels en formulieren met PowerShell te bevestigen
 
-De eenvoudigste manier om een aanval van regels of aangepaste formulieren te controleren, is het [ uitvoeren ](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1)Get-AllTenantRulesAndForms.ps1PowerShell-script. Dit script maakt verbinding met elk postvak in uw tenant en alle regels en formulieren worden in twee CSV-bestanden opgeslagen.
+De eenvoudigste manier om een aanval van regels of aangepaste formulieren te controleren, is het [ uitvoeren ](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) vanGet-AllTenantRulesAndForms.ps1PowerShell-script. Dit script maakt verbinding met elk postvak in uw tenant en alle regels en formulieren worden in twee CSV-bestanden opgeslagen.
 
 #### <a name="pre-requisites"></a>Vereisten
 
-U hebt een globale beheerdersrechten nodig om het script uit te voeren, omdat het script verbinding maakt met elk postvak in de tenancy om de regels en formulieren te lezen.
+U hebt globale beheerdersrechten nodig om het script uit te voeren, omdat het script verbinding maakt met elk postvak in de tenancy om de regels en formulieren te lezen.
 
 1. Meld u aan bij de computer vanaf waaruit u het script wilt uitvoeren met lokale beheerdersrechten.
 
@@ -151,9 +150,9 @@ U hebt een globale beheerdersrechten nodig om het script uit te voeren, omdat he
 
   - **IsVoltiallyMalicious (kolom D)**: Als deze waarde 'WAAR' is, is de regel waarschijnlijk schadelijk.
 
-  - **ActionCommand (kolom G:** als hier een toepassing of een bestand met de extensie .exe, .zip of een vermelding die verwijst naar een URL wordt vermeld, dat daar niet zou moeten staan), is de regel waarschijnlijk schadelijk.
+  - **ActionCommand (kolom G:** als deze kolom een toepassing of een bestand met .exe- of .zip-extensies bevat, of een onbekende vermelding die naar een URL verwijst, is de regel waarschijnlijk schadelijk.
 
-- **MailboxFormsExport-*yyyy-mm-dd*.csv:** Over het algemeen wordt het gebruik van aangepaste formulieren zeer zelden gebruikt. Als u een van deze werkmap vindt, opent u het postvak van die gebruiker en bekijkt u het formulier zelf. Als het in uw organisatie niet opzettelijk is gebeurd, is deze waarschijnlijk schadelijk.
+- **MailboxFormsExport-*yyyy-mm-dd*.csv:** Over het algemeen wordt zelden aangepaste formulieren gebruikt. Als u een van deze werkmap vindt, opent u het postvak van die gebruiker en bekijkt u het formulier zelf. Als het in uw organisatie niet opzettelijk is gebeurd, is het waarschijnlijk schadelijk.
 
 ## <a name="how-to-stop-and-remediate-the-outlook-rules-and-forms-attack"></a>De outlook-regels- en forms-aanval stoppen en herstellen
 
@@ -169,7 +168,7 @@ Als u bewijs van een van deze aanvallen vindt, is herstel eenvoudig door de rege
 
 4. Installeer de meest recente versies van Outlook. Onthoud dat in de huidige versie van Outlook beide typen van deze aanval standaard worden blokkeert.
 
-5. Nadat alle offlinekopie's van het postvak zijn verwijderd, stelt u het wachtwoord van de gebruiker opnieuw in (gebruik een hoge kwaliteit) en volgt u de stappen [in](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) Meervoudige verificatie voor gebruikers instellen als MFA nog niet is ingeschakeld. Dit zorgt ervoor dat de referenties van de gebruiker niet op andere manier worden getoond (zoals phishing of het opnieuw gebruiken van een wachtwoord).
+5. Nadat alle offlinekopie's van het postvak zijn verwijderd, stelt u het wachtwoord van de gebruiker opnieuw in (gebruik een wachtwoord van hoge kwaliteit) en volgt u de stappen [in](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) Meervoudige verificatie voor gebruikers instellen als MFA nog niet is ingeschakeld. Dit zorgt ervoor dat de referenties van de gebruiker niet op andere manier worden getoond (zoals phishing of het opnieuw gebruiken van een wachtwoord).
 
 ### <a name="using-powershell"></a>PowerShell gebruiken
 
@@ -193,9 +192,9 @@ Er zijn twee externe PowerShell-cmdlets die u kunt gebruiken om gevaarlijke rege
 
 ## <a name="how-to-minimize-future-attacks"></a>Toekomstige aanvallen minimaliseren
 
-### <a name="first-protect-your-accounts"></a>Eerst: uw accounts beveiligen
+### <a name="first-protect-your-accounts"></a>Ten eerste: uw accounts beveiligen
 
-De regels en formulieren worden alleen gebruikt door een aanvaller nadat ze een van uw gebruikersaccounts hebben gestolen of geschonden. Uw eerste stap om te voorkomen dat deze misbruiken tegen uw organisatie worden gebruikt, is uw gebruikersaccounts op een andere manier te beveiligen. Sommige van de meest voorkomende manieren waarop accounts worden gekleineerd, zijn via phishing- of [wachtwoordaanvallen.](https://www.dabcc.com/microsoft-defending-against-password-spray-attacks/)
+De regels en formulieren worden alleen gebruikt door een aanvaller nadat ze een van uw gebruikersaccounts hebben gestolen of geschonden. Uw eerste stap om te voorkomen dat deze misbruiken tegen uw organisatie worden gebruikt, is uw gebruikersaccounts op een andere manier te beveiligen. Sommige van de meest voorkomende manieren waarop accounts worden gekleineerd, zijn via phishing- of [wachtwoordaanvallen.](https://www.microsoft.com/security/blog/2020/04/23/protecting-organization-password-spray-attacks/)
 
 De beste manier om uw gebruikersaccounts, en met name uw beheerdersaccounts, te beveiligen, is het instellen van meervoudige verificatie [voor gebruikers.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) U moet ook het volgende doen:
 
@@ -203,15 +202,15 @@ De beste manier om uw gebruikersaccounts, en met name uw beheerdersaccounts, te 
 
   - **Meerdere mislukte** aanmeldingspogingen: dit beleid profielen uw omgeving en triggers waarschuwingen wanneer gebruikers meerdere mislukte aanmeldingsactiviteiten uitvoeren in één sessie met betrekking tot de geleerde basislijn, die een poging tot inbreuk kan aangeven.
 
-  - **Onmogelijk reizen:** dit beleid profielen uw omgeving en activeren waarschuwingen wanneer activiteiten van dezelfde gebruiker worden gedetecteerd op verschillende locaties binnen een periode die korter is dan de verwachte reistijd tussen de twee locaties. Dit kan aangeven dat een andere gebruiker dezelfde referenties gebruikt. Als u dit afwijkende gedrag detecteert, vereist dit een eerste leerperiode van zeven dagen waarin het activiteitspatroon van een nieuwe gebruiker wordt geleerd.
+  - **Onmogelijke reis:** dit beleid profielen uw omgeving en activeert waarschuwingen wanneer activiteiten van dezelfde gebruiker worden gedetecteerd op verschillende locaties binnen een periode die korter is dan de verwachte reistijd tussen de twee locaties. Dit kan aangeven dat een andere gebruiker dezelfde referenties gebruikt. Als u dit afwijkende gedrag detecteert, moet er een eerste leerperiode van zeven dagen duren voordat het activiteitspatroon van een nieuwe gebruiker wordt ontdekt.
 
   - **Ongebruikelijke imitatieactiviteiten (door gebruiker:** dit beleid profielen uw omgeving en triggers wanneer gebruikers meerdere imitatieactiviteiten uitvoeren in een enkele sessie met betrekking tot de basislijn die is geleerd, die een poging tot inbreuk kan aangeven).
 
-- Gebruik een hulpprogramma zoals [Office 365 Secure Score om](https://securescore.office.com/) configuraties en gedrag van accountbeveiliging te beheren.
+- Gebruik een hulpprogramma zoals [Office 365 Secure Score](https://securescore.office.com/) om configuraties en gedrag van accountbeveiliging te beheren.
 
 ### <a name="second-keep-your-outlook-clients-current"></a>Tweede: Houd uw Outlook-clients actueel
 
-Volledig bijgewerkte en gepatchte versies van Outlook 2013 en 2016 schakelen de regel-/formulieractie 'Toepassing starten' standaard uit. Zo zorgt u ervoor dat, zelfs als een aanvaller het account schendt, de regels en formulieracties worden geblokkeerd. U kunt de meest recente updates en beveiligingspatches installeren door de stappen te volgen in [Office-updates installeren.](https://support.microsoft.com/office/2ab296f3-7f03-43a2-8e50-46de917611c5)
+Volledig bijgewerkte en gepatchte versies van Outlook 2013 en 2016 schakelen de regel-/formulieractie 'Toepassing starten' standaard uit. Zo zorgt u ervoor dat zelfs als een aanvaller het account schendt, de regels en formulieracties worden geblokkeerd. U kunt de meest recente updates en beveiligingspatches installeren door de stappen te volgen in [Office-updates installeren.](https://support.microsoft.com/office/2ab296f3-7f03-43a2-8e50-46de917611c5)
 
 Dit zijn de patchversies voor uw Outlook 2013- en 2016-clients:
 
@@ -243,7 +242,7 @@ Klanten met on-premises Exchange-installaties kunnen oudere versies van Outlook 
 
 Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen. Gebruik de [Microsoft 365-roadmap voor beveiliging - Topprioriteiten voor de eerste 30 dagen, 90 dagen en verder](security-roadmap.md) om door Microsoft aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
 
-- Taken die in de eerste 30 dagen moeten worden uitgevoerd. Deze hebben direct effect en weinig invloed op uw gebruikers.
+- Taken die in de eerste 30 dagen moeten worden uitgevoerd. Deze hebben onmiddellijk effect en zijn van lage invloed op uw gebruikers.
 
 - Taken die binnen 90 dagen moeten worden uitgevoerd. Deze nemen qua planning en implementatie iets meer tijd in beslag, maar zorgen voor aanzienlijke verbeteringen in uw beveiligingspostuur.
 
@@ -251,7 +250,7 @@ Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkhe
 
 ## <a name="see-also"></a>Zie ook:
 
-- [Malicious Outlook Rules](https://silentbreaksecurity.com/malicious-outlook-rules/) by SilentBreak Security Post about Rules Vector biedt een gedetailleerd overzicht van de Outlook-regels.
+- [Malicious Outlook Rules](https://silentbreaksecurity.com/malicious-outlook-rules/) by SilentBreak Security Post about Rules Vector biedt een gedetailleerd overzicht van hoe de Outlook-regels.
 
 - [MAPI over HTTP en Mailrule Pwnage](https://sensepost.com/blog/2016/mapi-over-http-and-mailrule-pwnage/) in de Sensepost-blog over Mailrule Pwnage bespreekt een hulpprogramma met de naam Ruler waarmee u postvakken kunt misbruiken via Outlook-regels.
 

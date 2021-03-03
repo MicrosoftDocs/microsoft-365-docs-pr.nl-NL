@@ -1,5 +1,5 @@
 ---
-title: Stap 1. Uw Microsoft 365 for Enterprise-tenants
+title: Stap 1. Uw Microsoft 365 voor enterprise-tenants
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -11,147 +11,149 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 - m365solution-tenantmanagement
+- tenant-management
+- m365solution-scenario
 ms.custom:
 - Ent_Solutions
-description: Het implementeren en beheren van enkele of meerdere Microsoft 365-tenants, met opties voor meervoudige geografische en verplaatsings locaties.
-ms.openlocfilehash: 567a2cb46e715ec560bf973a33ab83cfa63d403b
-ms.sourcegitcommit: 99a7354e6a6b4d9d5202674ef57852d52a43fef6
+description: Een of meer Microsoft 365-tenants implementeren en beheren, met opties voor multige geo-locaties en locaties waar u zich kunt verplaatsen.
+ms.openlocfilehash: 4d9bd685fce6fb2f11b8e17bebae6460e0c10bd2
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908511"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406382"
 ---
-# <a name="step-1-your-microsoft-365-for-enterprise-tenants"></a>Stap 1. Uw Microsoft 365 for Enterprise-tenants
+# <a name="step-1-your-microsoft-365-for-enterprise-tenants"></a>Stap 1. Uw Microsoft 365 voor enterprise-tenants
 
-Een van uw eerste Tenant beslissingen is wat u moet hebben. Elke Microsoft 365-Tenant is DISTINCT, Unique en los van alle andere Microsoft 365-tenants. De bijbehorende Azure AD-Tenant is ook uniek en apart van alle andere Microsoft 365-tenants.
+Een van uw eerste tenantbeslissingen is hoeveel u er moet hebben. Elke Microsoft 365-tenant is uniek en gescheiden van alle andere Microsoft 365-tenants. De bijbehorende Azure AD-tenant is ook uniek en gescheiden van alle andere Microsoft 365-tenants.
 
-## <a name="single-tenant"></a>Eén Tenant
-Als u één Tenant gebruikt, worden veel aspecten van het gebruik van Microsoft 365 eenvoudiger. Eén Tenant betekent één Azure AD-Tenant met één set accounts, groepen en beleidsregels. U kunt de machtigingen voor het delen van bronnen in uw organisatie via deze centrale identiteitsprovider doen.
+## <a name="single-tenant"></a>Eén tenant
+Eén tenant vereenvoudigt veel aspecten van het gebruik van Microsoft 365 in uw organisatie. Eén tenant betekent één Azure AD-tenant met één set accounts, groepen en beleidsregels. Machtigingen en het delen van resources binnen uw organisatie kunnen worden uitgevoerd via deze centrale identiteitsprovider.
 
-Eén Tenant biedt de meeste functies-rijke en vereenvoudigde samenwerking en productiviteits ervaring voor uw gebruikers.
+Eén tenant biedt de meest uitgebreide en vereenvoudigde samenwerkings- en productiviteitservaring voor uw gebruikers.
 
-Hier ziet u een voorbeeld met de standaardlocatie en de Azure AD-Tenant van een Microsoft 365-Tenant.
+Hier is een voorbeeld met de standaardlocatie en Azure AD-tenant van een Microsoft 365-tenant.
 
-![Eén Microsoft 365-Tenant met de Azure AD-Tenant](../media/tenant-management-overview/tenant-management-example-tenant.png)
+![Eén Microsoft 365-tenant met de Azure AD-tenant](../media/tenant-management-overview/tenant-management-example-tenant.png)
 
 ## <a name="multiple-tenants"></a>Meerdere tenants
 
-Er zijn verschillende redenen waarom uw organisatie meerdere tenants heeft:
+Er zijn diverse redenen waarom uw organisatie meerdere tenants kan hebben:
 
-- Beheerders isolatie
-- Gecentraliseerd
+- Administratieve isolatie
+- Autoriserende IT
 - Historische beslissingen
-- Samenvoegbewerkingen, acquisities of divestitures
-- Scheiding van huisstijl voor conglomeraat organisaties wissen
-- Voorbereidingen voor productie, testen of sandbox-tenants
+- Fusies, overnames of verkoop
+- Scheiding van huisstijl voor conglomeratie-organisaties duidelijk maken
+- Pre-productie-, test- of sandbox-tenants
 
-Hier ziet u een voorbeeld van een organisatie met twee tenants (Tenant A en Tenant B) in hetzelfde standaardgebied geo. Elke Tenant als afzonderlijke Azure AD-Tenant.
+Hier is een voorbeeld van een organisatie die twee tenants (Tenant A en Tenant B) heeft in hetzelfde standaard datacenter geo. Elke tenant als een afzonderlijke Azure AD-tenant.
 
 ![Meerdere Microsoft 365-tenants met hun eigen Azure AD-tenants](../media/tenant-management-overview/tenant-management-example-multi-tenant.png)
 
-Wanneer er meerdere tenants zijn, gelden er beperkingen en aanvullende aandachtspunten wanneer u ze beheert en services levert voor uw gebruikers.
+Als u meerdere tenants hebt, zijn er beperkingen en extra overwegingen bij het beheren van deze tenants en het leveren van services aan uw gebruikers.
 
 ### <a name="inter-tenant-collaboration"></a>Samenwerking tussen verschillende tenants
 
-Als u wilt dat uw gebruikers effectiever samenwerken in verschillende Microsoft 365-tenants op een veilige manier, kunt u gebruikmaken van een centrale locatie voor het delen van bestanden en gesprekken, agenda's delen, met behulp van CHATBERICHTEN, audio/video bellen en het beveiligen van toegang tot bronnen en toepassingen.
+Als u wilt dat uw gebruikers op een veilige manier efficiënter samenwerken tussen verschillende Microsoft 365-tenants, kunt u samenwerken tussen tenants door een centrale locatie te gebruiken voor bestanden en gesprekken, agenda's te delen, chatberichten te gebruiken, audio-/videogesprekken te gebruiken voor communicatie en de toegang tot resources en toepassingen te beveiligen.
 
-Zie [samenwerken via Microsoft 365 tussen tenants](../enterprise/microsoft-365-inter-tenant-collaboration.md)voor meer informatie.
+Zie microsoft [365](../enterprise/microsoft-365-inter-tenant-collaboration.md)samenwerking tussen verschillende tenants voor meer informatie.
 
-### <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van cross-Tenant postvak (preview)
+### <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van postvakken tussen tenants (preview)
 
-Voordat u Exchange Online-postvakken tussen tenants verplaatst, moet u, voordat u migratie van cross-tenants migreert, volledig verwijderen van de huidige Tenant (de bron Tenant) naar on-premises en ze vervolgens op een nieuwe Tenant (de doel Tenant) plaatsen. Met de nieuwe functie voor het migreren van postvakken kunnen tenantbeheerders van de bron-en doel tenants postvakken verplaatsen tussen de tenants met minimale infrastructuur afhankelijkheden in hun on-premises systemen. Hiermee verwijdert u de postvakken die u niet nodig hebt.
+Vóór migratie van postvakken op verschillende tenants (in preview) moet u bij het verplaatsen van Exchange Online-postvakken tussen tenants het postvak van een gebruiker volledig offboarden van de huidige tenant (de bronten tenant) naar de on-premises tenant en ze vervolgens onboarden naar een nieuwe tenant (de doelten tenant). Met de nieuwe functie voor migratie van postvakken op verschillende tenants kunnen tenantbeheerders in zowel de bron- als doelten tenants postvakken verplaatsen tussen de tenants met minimale infrastructuurafhankelijkheden in hun on-premises systemen. Hiermee verwijdert u de noodzaak om postvakken aan de andere bord- en onboard-app toe te laten.
 
-Hieronder vindt u twee voorbeelden van tenants en hun postvakken vóór migratie van postvakken van cross tenants.
+Hier volgen twee voorbeeldtententen en hun postvakken vóór de migratie van postvakken tussen tenants.
 
 ![Meerdere Microsoft 365-tenants en hun postvakken](../media/tenant-management-overview/tenant-management-cross-tenant-mailbox-before.png)
 
-In deze afbeelding hebben twee afzonderlijke tenants eigen domeinen en set Exchange-postvakken.
+In deze afbeelding hebben twee afzonderlijke tenants hun eigen domeinen en set Exchange-postvakken.
 
-Dit is de doel Tenant (Tenant A) na migratie van cross-Tenant berichten.
+Hier is de doel tenant (Tenant A) na de migratie van postvakken tussen tenants.
 
-![De doel Tenant na migratie van cross-Tenant Postvak](../media/tenant-management-overview/tenant-management-cross-tenant-mailbox-after.png)
+![De doel tenant na migratie van postvakken tussen tenants](../media/tenant-management-overview/tenant-management-cross-tenant-mailbox-after.png)
 
-In deze afbeelding heeft één Tenant beide domeinen en beide sets Exchange-postvakken.
+In deze afbeelding heeft één tenant zowel domeinen als beide sets Exchange-postvakken.
 
-Zie voor meer informatie [migratie van migratie](../enterprise/cross-tenant-mailbox-migration.md)via een Tenant.
+Zie Postvakmigratie tussen [tenants voor meer informatie.](../enterprise/cross-tenant-mailbox-migration.md)
 
 ### <a name="tenant-to-tenant-migrations"></a>Tenant-naar-tenant-migraties
 
-Er zijn diverse architecturale benaderingen voor fusies, verwervingen, divestitures en andere scenario's waarmee u een bestaande Microsoft 365-Tenant kunt migreren naar een nieuwe Tenant. 
+Er zijn verschillende architectuurbenaderingen voor fusies, overnames, verkoop en andere scenario's die ertoe kunnen leiden dat u een bestaande Microsoft 365-tenant migreert naar een nieuwe tenant. 
 
-Zie [Microsoft 365 Tenant-to-Tenant-migraties](../enterprise/microsoft-365-tenant-to-tenant-migrations.md)voor uitgebreide informatie.
+Zie Microsoft [365-tenant-naar-tenantmigraties voor gedetailleerde instructies.](../enterprise/microsoft-365-tenant-to-tenant-migrations.md)
 
-## <a name="multi-geo-for-a-tenant"></a>Meerdere geografische voor een Tenant
+## <a name="multi-geo-for-a-tenant"></a>Multi-Geo voor een tenant
 
-Met Microsoft 365 in Microsoft kunt u gegevens op de rest van de andere datacenter geo-locaties inrichten en bewaren die u hebt gekozen om te voldoen aan de vereisten voor gegevens woonplaats en tegelijk de wereldwijde implementatie van de moderne productiviteits ervaringen met uw werknemers ontgrendelen.
+Met Microsoft 365 Multi-Geo kunt u gegevens inrichten en opslaan in de geolocaties van het andere datacenter die u hebt gekozen om te voldoen aan de vereisten voor gegevensopslag en tegelijkertijd uw globale implementatie van moderne productiviteitservaringen voor uw collega's ontgrendelen.
 
-In een omgeving met meerdere geografische locaties bestaat uw Microsoft 365-Tenant uit een standaard-of centrale locatie waar uw Microsoft 365-abonnement oorspronkelijk is gemaakt en een of meer satelliet locaties. In een Tenant met meerdere geo-gebruikers is de informatie over geo-locaties, groepen en gebruikers informatie gemastereerd in een wereldwijde Azure AD-Tenant. Aangezien uw Tenant gegevens centraal worden gemigreerd en op elke geografische locatie worden gesynchroniseerd, worden de samenwerking van gebruikers die zich in uw bedrijf bevinden, via de locaties gedeeld.
+In een Multi Geo-omgeving bestaat uw Microsoft 365-tenant uit een standaard- of centrale locatie waar uw Microsoft 365-abonnement oorspronkelijk is gemaakt en een of meer satellietlocaties. In een multige geo-tenant wordt de informatie over geografische locaties, groepen en gebruikersgegevens gemodeld in een globale Azure AD-tenant. Omdat uw tenantgegevens centraal worden gemodelleerd en gesynchroniseerd in elke geografische locatie, worden samenwerkingservaringen met iedereen in uw bedrijf gedeeld over de locaties.
 
-Hier ziet u een voorbeeld van een organisatie met de standaardlocatie in Europe en de vestiging van een satelliet in Noord-Amerika. Beide locaties delen dezelfde wereldwijde Azure AD-Tenant voor de afzonderlijke Microsoft 365-Tenant.
+Hier is een voorbeeld van een organisatie met een standaardlocatie in Europa en een satellietlocatie in Noord-Amerika. Beide locaties delen dezelfde globale Azure AD-tenant voor één Microsoft 365-tenant.
 
-![Voorbeeld van een meervoudige geo Microsoft 365-Tenant](../media/tenant-management-overview/tenant-management-example-multi-geo.png)
+![Voorbeeld van een Multi Geo Microsoft 365-tenant](../media/tenant-management-overview/tenant-management-example-multi-geo.png)
 
-Zie [Microsoft 365 multi-geo](../enterprise/microsoft-365-multi-geo.md)voor meer informatie.
+Zie [Microsoft 365 Multi-Geo](../enterprise/microsoft-365-multi-geo.md)voor meer informatie.
 
-## <a name="moving-core-data-to-a-new-datacenter-geo"></a>Kerngegevens verplaatsen naar een nieuw datacenter-geo
+## <a name="moving-core-data-to-a-new-datacenter-geo"></a>Belangrijke gegevens verplaatsen naar een nieuw geografisch datacenter
 
-Microsoft gaat verder met het openen van nieuwe datacenter GEOS voor Microsoft 365-Services. Met deze nieuwe datacenter-GEOS kunt u capaciteit en de berekenings bronnen voor onze aanhoudende klantvraag en gebruiks groei toevoegen. Daarnaast biedt de nieuwe datacenter GEOS een in-geo data woonplaats voor de primaire klantgegevens.
+Microsoft blijft het nieuwe datacenter geos openen voor Microsoft 365-services. Deze nieuwe datacenters voegen capaciteits- en berekeningsbronnen toe om onze continue vraag en gebruiksgroei van klanten te ondersteunen. Bovendien bieden de nieuwe datacenter geo's in-geo-gegevens opgeslagen voor belangrijke klantgegevens.
 
-Hoewel het openen van een nieuw datacenter geo geen invloed heeft op uw gegevens en de kerngegevens die zijn opgeslagen in een al bestaand datacenter, is Microsoft u in staat een vroegtijdige migratie van de kern klantgegevens van uw organisatie bij elkaar te betrekken voor een nieuw datacenter-geo.
+Hoewel het openen van een nieuw datacenter geo geen invloed heeft op u en uw kerngegevens die zijn opgeslagen in een bestaande geografische datacenter, kunt u met Microsoft een vroege migratie aanvragen van de kernklantgegevens van uw organisatie in rust naar een nieuw geografisch datacenter.
 
-Hier ziet u een voorbeeld waarin een Microsoft 365-Tenant van de Europese Unie (EU) datacenter naar de naam van het Verenigd Koninkrijk (VK) is geplaatst.
+Hier is een voorbeeld waarin een Microsoft 365-tenant is verplaatst van het geografische datacenter van de Europese Unie (EU) naar het datacenter in het Verenigd Koninkrijk (VK).
 
-![Voorbeeld van het verplaatsen van een Microsoft 365-Tenant tussen datacenter GEOS](../media/tenant-management-overview/tenant-management-example-tenant-move.png)
+![Voorbeeld van het verplaatsen van een Microsoft 365-tenant tussen datacenters](../media/tenant-management-overview/tenant-management-example-tenant-move.png)
 
-Zie [Core Data verplaatsen naar nieuwe Microsoft 365 datacenter GEOS](../enterprise/moving-data-to-new-datacenter-geos.md)voor meer informatie.
+Zie Kerngegevens verplaatsen naar nieuwe geografische datacenters in [Microsoft 365 voor meer informatie.](../enterprise/moving-data-to-new-datacenter-geos.md)
 
-## <a name="products-and-licenses-for-a-tenant"></a>Producten en licenties voor een Tenant
+## <a name="products-and-licenses-for-a-tenant"></a>Producten en licenties voor een tenant
 
-Uw Microsoft 365-Tenant wordt gemaakt wanneer u uw eerste product koopt, zoals Microsoft 365 E3. Samen met het product zijn licenties, dat maandelijks of jaarlijks kosten in rekening worden gebracht. Een beheerder wijst vervolgens een beschikbare licentie van een van uw producten toe aan een gebruikersaccount, hetzij direct of via groepslidmaatschap. Afhankelijk van de bedrijfsbehoeften van uw organisatie, hebt u mogelijk een set producten, elk met een eigen groep licenties. 
+Uw Microsoft 365-tenant wordt gemaakt wanneer u uw eerste product koopt, zoals Microsoft 365 E3. Naast het product zijn licenties, waarvoor een maandelijks of jaarlijks bedrag in rekening wordt gebracht. Een beheerder wijst vervolgens een beschikbare licentie van een van uw producten toe aan een gebruikersaccount, rechtstreeks of via groepslidmaatschap. Afhankelijk van de zakelijke behoeften van uw organisatie, hebt u mogelijk een set producten met elk een eigen groep licenties. 
 
-Het bepalen van de set producten en het aantal licenties waarvoor elke planning moet worden gepland:
+Voor het bepalen van de set producten en het aantal licenties voor elke set moet u enkele planningen maken:
 
-- Zorg ervoor dat er voldoende licenties zijn voor de gebruikersaccounts waarvoor u geavanceerde functies nodig hebt.
-- Hiermee kunt u voorkomen dat licenties worden uitgevoerd of te veel niet-toegewezen licenties zijn, op basis van wijzigingen in het personeel van uw organisatie.
+- Zorg ervoor dat u voldoende licenties hebt voor de gebruikersaccounts die geavanceerde functies nodig hebben.
+- Voorkomen dat uw licenties op lopen of te veel niet-toegewezen licenties hebben, op basis van wijzigingen in de personeelsbeplaatsing in uw organisatie.
 
 
 ## <a name="results-of-step-1"></a>Resultaten van stap 1
 
-Voor uw Microsoft 365 for Enterprise-tenants hebt u het volgende vastgesteld:
+Voor uw Microsoft 365 voor enterprise-tenants hebt u het volgende bepaald:
 
 - Hoeveel tenants u hebt of nodig hebt.
-- U moet voor iedere Tenant de producten en licenties aanschaffen.
-- Of een Tenant moet meerdere geo moet zijn om te voldoen aan de vereisten voor data-woonplaats.
-- Of u de samenwerking tussen tenants moet instellen.
-- Of u één Tenant naar een andere Tenant moet migreren.
-- Of u de kerngegevens van een datacenter naar een andere datacenter moet verplaatsen.
+- Voor elke tenant moeten de producten en licenties worden gekocht.
+- Of een tenant multige geo moet zijn om te voldoen aan de vereisten voor gegevenslocatie.
+- Of u samenwerking tussen tenants moet instellen.
+- Of u de ene tenant naar de andere wilt migreren.
+- Of u kerngegevens moet verplaatsen van een geo datacenter naar een nieuwe datacenter.
 
-Hier ziet u een voorbeeld van een nieuwe Tenant.
+Hier is een voorbeeld van een nieuwe tenant.
 
-![Voorbeeld van een nieuwe Tenant](../media/tenant-management-overview/tenant-management-tenant-build-step1.png)
+![Voorbeeld van een nieuwe tenant](../media/tenant-management-overview/tenant-management-tenant-build-step1.png)
 
-In deze afbeelding is de Tenant:
+In deze afbeelding heeft de tenant:
 
-- Een standaardlocatie die overeenstemt met een Microsoft 365 datacenter geo.
-- Een reeks producten en licenties.
-- De set Cloud productiviteitstoepassingen, waarvan sommige specifiek zijn voor producten.
-- Een Azure AD-Tenant die globale beheerdersaccounts en een initiële DNS-domeinnaam bevat.
+- Een standaardlocatie die overeenkomt met een geografische locatie in het Microsoft 365-datacenter.
+- Een set producten en licenties.
+- De set cloudproductiviteitsapps, waarvan sommige specifiek zijn voor producten.
+- Een Azure AD-tenant met globale beheerdersaccounts en een initiële DNS-domeinnaam.
 
-Wanneer we de extra stappen van deze oplossing doorlopen, wordt deze afbeelding opgebouwd.
+Terwijl we verder gaan met de extra stappen van deze oplossing, bouwen we deze afbeelding uit.
 
-## <a name="ongoing-maintenance-for-tenants"></a>Voortdurende onderhoud voor tenants
+## <a name="ongoing-maintenance-for-tenants"></a>Doorlopend onderhoud voor tenants
 
-Het kan zijn dat u het volgende moet doen:
+Oplopende basis moet u mogelijk het volgende doen:
 
-- Een nieuwe Tenant toevoegen.
-- Voeg nieuwe producten toe aan een Tenant met een initieel aantal licenties.
-- Wijzig de reeks licenties voor een product in een Tenant zodat u deze kunt aanpassen aan de vereisten voor het wijzigen van de werknemer.
-- Verplaats uw kerngegevens van een Tenant naar een nieuwe datacenter-geografische locatie.
-- Voeg een meervoudige geo voor de woonplaats-vereisten voor data.
+- Voeg een nieuwe tenant toe.
+- Nieuwe producten toevoegen aan een tenant met een eerste aantal licenties.
+- Wijzig de set licenties voor een product in een tenant om de personeelsvereisten aan te passen.
+- Verplaats de kerngegevens van een tenant naar een nieuwe geografische locatie in het datacenter.
+- Voeg Multi-Geo toe voor vereisten voor het opslaan van gegevens.
 - Samenwerking tussen tenants instellen.
 
 ## <a name="next-step"></a>Volgende stap
 
-[![. Optimaliseer uw Tenant voor netwerktoegang](../media/tenant-management-overview/tenant-management-step-grid-networking.png)](tenant-management-networking.md)
+[![Stap 2. Uw tenant optimaliseren voor netwerk voor toegang](../media/tenant-management-overview/tenant-management-step-grid-networking.png)](tenant-management-networking.md)
 
-Ga verder met [netwerken](tenant-management-networking.md) om optimaal netwerk van uw werknemers in te stellen voor microsoft 365-cloudservices.
+Ga door [met netwerken](tenant-management-networking.md) om optimale netwerken van uw collega's en Microsoft 365-cloudservices te bieden.

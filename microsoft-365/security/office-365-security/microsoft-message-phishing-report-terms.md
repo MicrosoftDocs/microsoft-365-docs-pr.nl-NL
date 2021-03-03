@@ -1,7 +1,7 @@
 ---
 title: Licentievoorwaarden voor Microsoft Report Message Add-In Phishing melden
 description: Beschrijft de licentievoorwaarden voor het Microsoft-rapportbericht Add-In Phishing-berichten rapporteren
-keywords: microsoft, melden, phishing, beveiliging, oplichting, hack, licentie, voorwaarden, toepassing, gebruik, installatie, service, feedback
+keywords: microsoft, melden, phishing, beveiliging, scam, hack, licentie, voorwaarden, toepassing, gebruik, installatie, service, feedback
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
-ms.openlocfilehash: 2b2b8a6215a653cee7ea67bafaadddc096abb911
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: c42f8da3235ffe139eaad3de61473a26866ecd3d
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288155"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407430"
 ---
 # <a name="microsoft-report-message-and-report-phishing-add-in-license-terms"></a>Licentievoorwaarden voor Microsoft Report Message Add-In Phishing melden
 
@@ -56,13 +56,13 @@ Als u zich houdt aan deze licentievoorwaarden, hebt u de onderstaande rechten. D
     1. use the software in any way that is against the law or to create or propagate malware; or
     1. share, publish, distribute, or lend the software, provide the software as a stand-alone hosted solution for others to use, or transfer the software or this agreement to any third party.
 
-4. **EXPORT RESTRICTIONS.** You must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. Ga voor meer informatie over exportbeperkingen naar [https://aka.ms/exporting](https://aka.ms/exporting) .
+4. **EXPORT RESTRICTIONS.** You must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. For further information on export restrictions, visit <https://www.microsoft.com/exporting>.
 
 5. **SUPPORT SERVICES.** Microsoft is not obligated under this agreement to provide any support services for the software. Any support provided is “as is”, “with all faults”, and without warranty of any kind.
 
 6. **UPDATES.** The software may periodically check for updates, and download and install them for you. You may obtain updates only from Microsoft or authorized sources. Microsoft may need to update your system to provide you with updates. You agree to receive these automatic updates without any additional notice. Updates may not include or support all existing software features, services, or peripheral devices.
 
-7. **BINDENDE ARBITRAGE EN VERKLARING VAN AFSTAND VOOR CLASS ACTION.** **Deze sectie is van toepassing als u in de Verenigde Staten woont (of als uw hoofdbedrijf zich in de Verenigde Staten van Amerika woont).** If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. Als u en Microsoft niet in staat zijn, gaan u en Microsoft ermee akkoord een bindende, afzonderlijke arbitrage te binden vóór de **American Arbitration Association** onder de Federal Arbitration Act (FAA), en om elkaar niet voor een rechter of jury te dagvaarden.  Instead, a neutral arbitrator will decide. **Rechtszaken met rechtszaken,** arbitrage in de hele klas, privézaken met een advocatenklacht, en alle andere zaken waarbij iemand een vertegenwoordigende functie heeft, **zijn niet toegestaan;** geen afzonderlijke zaken combineert zonder toestemming van alle partijen. De volledige arbitrageovereenkomst bevat meer voorwaarden en is nu in [https://aka.ms/arb-agreement-1](https://aka.ms/arb-agreement-1) overeenstemming. You and Microsoft agree to these terms.
+7. **BINDENDE ARBITRAGE EN VERKLARING VAN AFSTAND VOOR CLASS ACTION.** **Deze sectie is van toepassing als u in de Verenigde Staten woont (of als uw hoofdbedrijf zich in de Verenigde Staten van Amerika woont).** If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. Als u en Microsoft niet in staat zijn, gaan u en Microsoft ermee akkoord een bindende, afzonderlijke arbitrage te binden vóór de **American Arbitration Association** onder de Federal Arbitration Act (FAA), en om ze niet voor een rechter of jury te dagvaarden.  Instead, a neutral arbitrator will decide. **Rechtszaken met rechtszaken,** arbitrage in de hele klas, privézaken met een advocatenklacht, en alle andere zaken waarbij iemand een vertegenwoordigende functie heeft, **zijn niet toegestaan;** geen afzonderlijke zaken combineert zonder toestemming van alle partijen. The complete Arbitration Agreement contains more terms and is at <https://aka.ms/arb-agreement-1>. You and Microsoft agree to these terms.
 
 8. **ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may provide for supplements, updates, or third-party applications, is the entire agreement for the software.
 
@@ -82,11 +82,11 @@ Als u zich houdt aan deze licentievoorwaarden, hebt u de onderstaande rechten. D
 
             Subject to the foregoing clause ii., Microsoft will only be liable for slight negligence if Microsoft is in breach of such material contractual obligations, the fulfillment of which facilitate the due performance of this agreement, the breach of which would endanger the purpose of this agreement and the compliance with which a party may constantly trust in (so-called "cardinal obligations"). In other cases of slight negligence, Microsoft will not be liable for slight negligence.
 
-11. *In het Engels:* **VRIJWARING VAN GARANTIE.** De software wordt 'in de staat zelf' in licentie gegeven. U draagt het risico van het gebruik ervan. Microsoft geeft geen expliciete garanties, garanties of voorwaarden. Voor zover toegestaan onder toepasselijke wetgeving, sluit Microsoft alle impliciete garanties uit, met inbegrip van verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk.
+11. *In het Engels:* **VRIJWARING VAN GARANTIE.** De software wordt 'in de staat zelf' in licentie gegeven. U draagt zelf het risico van het gebruik ervan. Microsoft geeft geen expliciete garanties, garanties of voorwaarden. Voor zover toegestaan onder toepasselijke wetgeving, sluit Microsoft alle impliciete garanties uit, met inbegrip van verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk.
 
     *En Français*: **EXONÉRATION DE GARANTIE.** Le logiciel visé par une licence est offert « tel quel ». Toute utilisation de ce logiciel est à votre seule risque et péril. Microsoft n’accorde aucune autre garantie expresse. Vous pouvez bénéficier de droits additionnels en vertu du droit local sur la protection des consommateurs, que ce contrat ne peut modifier. La ou elles sont permises par le droit locale, les garanties implicites de qualité marchande, d’adéquation à un usage particulier et d’absence de contrefaçon sont exclues.
 
-12. *In het Engels:* **BEPERKING EN UITSLUITING VAN SCHADEVERGOEDING.** Als u enige basis hebt voor het herstellen van schade ondanks de voorgaande vrijwaringsverklaring van garantie, kunt u bij Microsoft en haar leveranciers uitsluitend rechtstreekse schade verhalen tot een bedrag van USD 5,00. U kunt geen andere schade verhalen, met inbegrip van gevolgschade, schade door winst verloren, speciale, indirecte of incidentele schade.
+12. *In het Engels:* **BEPERKING EN UITSLUITING VAN SCHADEVERGOEDING.** Als u enige basis hebt voor het herstellen van schadevergoeding ondanks de voorgaande vrijwaringsverklaring van garantie, kunt u bij Microsoft en haar leveranciers uitsluitend rechtstreekse schade verhalen tot een bedrag van USD 5,00. U kunt geen andere schade verhalen, met inbegrip van gevolgschade, schade door winst verloren, speciale, indirecte of incidentele schade.
 
     Deze beperking is van toepassing op (a) alles met betrekking tot de software, services, inhoud (inclusief code) van internetsites van derden of toepassingen van derden; en (b) vorderingen voor contractbreuk, garantie, garantie of voorwaarden; strikte aansprakelijkheid, nalatigheid of andere onrechtmatige daad; of enige andere claim; in alle gevallen voor zover toegestaan door de toepasselijke wetgeving.
 

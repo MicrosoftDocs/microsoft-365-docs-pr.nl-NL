@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 48d7e1a7497f9bc2a07a84b36fb07939d25609bf
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 8a91a55d9598b5e780474315ddf1f7019e593fed
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289147"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406160"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Fout-positieven/negatieven rapporteren in geautomatiseerde onderzoeks- en antwoordmogelijkheden
 
@@ -78,10 +78,10 @@ Met Bedreigingsverkenner kan het team voor beveiligingsbewerkingen een e-mailber
 
 In het Actiecentrum kunt u herstelacties zien die zijn ondernomen en de actie mogelijk ongedaan maken.
 
-1. Ga naar het Microsoft 365-beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ).
-2. Selecteer Actiecentrum in het **navigatiedeelvenster.** 
+1. Ga naar het Microsoft 365-beveiligingscentrum ( <https://security.microsoft.com> ).
+2. Selecteer Actiecentrum in het **navigatiedeelvenster.**
 3. Selecteer het **tabblad Geschiedenis** om de lijst met voltooide acties te bekijken.
-4. Selecteer een item. Het deelvenster flyout wordt geopend. 
+4. Selecteer een item. Het deelvenster flyout wordt geopend.
 5. Selecteer Ongedaan maken in het deelvenster Flyout. (Alleen acties die ongedaan kunnen worden gemaakt, hebben een **knop Ongedaan** maken.)
 
 ## <a name="see-also"></a>Zie ook

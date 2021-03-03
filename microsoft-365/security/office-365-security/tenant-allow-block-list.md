@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen in de beveiligingsportal meer informatie krijgen over het configureren van toegestane en geblokkeerde tenants in de lijst Met toegestane/geblokkeerde tenants.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 250b6223ffe663e0cd950069a3c3c7827b4aa57b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 960fbf26b610485fb46c935b04aedcc593b85752
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290163"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407248"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Tenant Toestaan/Blokkeren-lijst beheren
 
@@ -36,19 +36,19 @@ ms.locfileid: "50290163"
 >
 > De functies die in dit artikel worden beschreven, zijn in preview beschikbaar, kunnen worden gewijzigd en zijn niet in alle organisaties beschikbaar.
 >
-> U kunt momenteel geen **toegestane** items configureren in de tenantlijst Toestaan/Blokkeren.
+> U kunt momenteel geen **toegestane** items in de tenantlijst Toestaan/Blokkeren configureren.
 
 In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Organisaties van Exchange Online Protection (EOP) zonder Exchange Online-postvakken, bent u het mogelijk niet eens met de filtering van EOP. Een goed bericht kan bijvoorbeeld als slecht zijn gemarkeerd (een fout-positief) of een slecht bericht kan zijn toegestaan (een fout-negatief).
 
 Met de lijst met tenants toestaan/blokkeren in het & compliancecentrum kunt u het filterbeleid van Microsoft 365 handmatig overschrijven. De tenantlijst toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en tijdens het klikken door de gebruiker. U kunt URL's of bestanden opgeven die u altijd wilt blokkeren.
 
-In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tenant toestaan/blokkeren in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Toestaan/blokkeren van de tenant in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Tenant toestaan/blokkeren wilt** gaan, gebruikt u <https://protection.office.com/tenantAllowBlockList> .
 
-- U geeft bestanden op met de hashwaarde SHA256 van het bestand. U kunt de SHA256-hashwaarde van een bestand in Windows vinden door de volgende opdracht uit te voeren in een opdrachtprompt:
+- U geeft bestanden op met behulp van de SHA256-hashwaarde van het bestand. U kunt de SHA256-hashwaarde van een bestand in Windows vinden door de volgende opdracht uit te voeren in een opdrachtprompt:
 
   ```dos
   certutil.exe -hashfile "<Path>\<Filename>" SHA256
@@ -66,22 +66,22 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
+- U moet machtigingen toegewezen krijgen in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
   - Als u waarden wilt toevoegen aan en verwijderen uit de tenantlijst toestaan/blokkeren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
   - Voor alleen-lezen toegang tot de tenantlijst Toestaan/Blokkeren moet  u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
-  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+  Zie Machtigingen [in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
 
   **Opmerkingen**:
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  - Als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol  in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Gebruik het beveiligings- & compliancecentrum om URL-vermeldingen te maken in de lijst Met toegestane/geblokkeerde tenants
 
 Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis voor URL-vermeldingen.
 
-1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
 
 2. Controleer op **de pagina Tenant toestaan/blokkeren** of het tabblad **URL's** is geselecteerd en klik vervolgens op **Blokkeren**
 
@@ -125,7 +125,7 @@ Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren]
 
 ## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om vermeldingen weer te geven in de lijst Met toegestane/geblokkeerde tenants
 
-1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
@@ -136,9 +136,9 @@ Klik op de volgende kolomkoppen om in oplopende of aflopende volgorde te sortere
 - **Vervaldatum**
 - **Opmerking**
 
-Klik **op** Zoeken, voer een waarde in (een deel ervan) en druk op Enter om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u **op het pictogram Zoeken** ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) verwijderen.
+Klik **op** Zoeken, voer een waarde in (een deel ervan) en druk op Enter om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u op **het pictogram Zoeken** ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) verwijderen.
 
-Klik **op Filteren.** Configureer **een van** de volgende instellingen in de flyout Filter die wordt weergegeven:
+Klik **op Filter.** Configureer **een van** de volgende instellingen in de flyout Filter die wordt weergegeven:
 
 - **Nooit verlopen:** uit- of ![ ](../../media/scc-toggle-off.png) uitschakelen: ![ In-/uitschakelen: In-/uitschakelen. ](../../media/scc-toggle-on.png)
 
@@ -154,7 +154,7 @@ Als u bestaande filters wilt wissen, klikt u op **Filter** en klikt u in de **fl
 
 U kunt de bestaande geblokkeerde URL of bestandswaarden in een vermelding niet wijzigen. Als u deze waarden wilt wijzigen, moet u de vermelding verwijderen en opnieuw maken.
 
-1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
@@ -176,7 +176,7 @@ U kunt de bestaande geblokkeerde URL of bestandswaarden in een vermelding niet w
 
 ## <a name="use-the-security--compliance-center-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Het beveiligings- & compliancecentrum gebruiken om geblokkeerde items uit de lijst Met toegestane/geblokkeerde tenants te verwijderen
 
-1. Ga in het & compliancecentrum  naar de tenant Voor \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
+1. Ga in het & compliancecentrum  naar de tenant voor het \>  \> **risicobeheerbeleid : toegestane/geblokkeerde lijsten.**
 
 2. Selecteer het **tabblad URL's** of het **tabblad** Bestanden.
 
@@ -222,7 +222,7 @@ In dit voorbeeld worden alle geblokkeerde URL's als retourneert.
 Get-TenantAllowBlockListItems -ListType Url -Block
 ```
 
-In dit voorbeeld worden gegevens voor de opgegeven hash-waarde voor het bestand als resultaat gegeven.
+In dit voorbeeld worden gegevens voor de opgegeven hash-waarde van het bestand als resultaat gegeven.
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
@@ -256,7 +256,7 @@ Gebruik de volgende syntaxis om geblokkeerde items uit de lijst Met tenant toest
 Remove-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN">
 ```
 
-In dit voorbeeld wordt het opgegeven blok url-item verwijderd uit de lijst Met toegestane/geblokkeerde tenants.
+In dit voorbeeld wordt het opgegeven blok url-item verwijderd uit de lijst met toegestane/geblokkeerde tenants.
 
 ```powershell
 Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSPAAAA0"
@@ -345,7 +345,7 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
 
-- **Blok komt niet overeen:** abc-contoso.com
+- **Blok komt niet overeen met**: abc-contoso.com
 
 #### <a name="scenario-left-wildcard-subdomain"></a>Scenario: Linker-jokerteken (subdomein)
 
@@ -412,7 +412,7 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
 
 - **Geen overeenkomst toestaan en** **Blokkeren niet overeen:** contoso.com
 
-#### <a name="scenario-left-wildcard-subdomain-and-right-wildcard-suffix"></a>Scenario: Linker-jokertekensubdomein en rechterachtervoegsel met jokertekens
+#### <a name="scenario-left-wildcard-subdomain-and-right-wildcard-suffix"></a>Scenario: Linker-jokertekensubdomein en rechterachtervoegsel met jokerteken
 
 **Invoer:**`*.contoso.com/*`
 
@@ -426,7 +426,7 @@ Geldige URL-vermeldingen en de resultaten worden in de volgende secties beschrev
 
 - **Geen overeenkomst toestaan en** **Blokkeren niet overeen:** contoso.com/b
 
-#### <a name="scenario-left-and-right-tilde"></a>Scenario: Tilde links en rechts
+#### <a name="scenario-left-and-right-tilde"></a>Scenario: Linker- en rechtert tilde
 
 **Invoer:**`~contoso.com~`
 

@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5934abb3afec3253da78c680735730b63ddb5701
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 2fd999c27598db6f17073cfe82e4c4f91ffb1667
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287351"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407202"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuw in Microsoft Defender voor Office 365
 
@@ -40,6 +40,12 @@ In dit artikel vindt u nieuwe functies in de nieuwste versie van Microsoft Defen
 
 > [!TIP]
 > Hebt u Microsoft Defender voor Office 365 nog niet? [Neem contact op met verkoop om een proefversie te starten.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
+
+## <a name="februarymarch-2021"></a>Februari/maart 2021 
+
+- Integratie van waarschuwings-id (zoeken met behulp van waarschuwings-id Alert-Explorer navigatie) in [het zoeken naar ervaringen](threat-explorer.md)
+- Het aantal limieten voor het exporteren van records verhogen van 9990 naar 200.000 in [de op zoekervaringen](threat-explorer.md)
+- De bewaar- en zoeklimiet voor proeften tenants van Explorer (en realtime detecties) uitbreiden van 7 (vorige limiet) naar 30 dagen op [zoekervaringen](threat-explorer.md)
 
 ## <a name="december-2020"></a>December 2020
 
@@ -59,7 +65,7 @@ In dit artikel vindt u nieuwe functies in de nieuwste versie van Microsoft Defen
 
 ## <a name="julyaugust-2020"></a>juli/augustus 2020
 
-- [Verbeteringen in de zoekervaring](threat-explorer.md#improvements-to-threat-explorer-and-real-time-detections) (Microsoft Defender voor Office 365 Abonnement 1 of Abonnement 2)
+- [Verbeteringen in de zoekervaring](threat-explorer.md#improvements-to-threat-hunting-experience) (Microsoft Defender voor Office 365 Abonnement 1 of Abonnement 2)
 - [Aanbevolen instellingen eenvoudig toepassen met vooraf ingestelde beveiligingsbeleidsregels](preset-security-policies.md)
 
 ## <a name="marchapril-2020"></a>Maart/april 2020
@@ -68,14 +74,14 @@ In dit artikel vindt u nieuwe functies in de nieuwste versie van Microsoft Defen
 
 ## <a name="januaryfebruary-2020"></a>januari/februari 2020
 
-- [Algemene beschikbaarheid van campagneweergaven in Microsoft Defender voor Office 365](campaigns.md) (Microsoft Defender voor Office 365 Abonnement 2)
+- [Algemene beschikbaarheid van campagneweergaven in Microsoft Defender voor Office 365](campaigns.md) (Microsoft Defender voor Office 365-abonnement 2)
 - Verbeteringen in [Bedreigingsverkenner,](threat-explorer.md) zodat teams met beveiligingsbewerkingen meerdere velden kunnen doorzoeken en filteren terwijl e-mail wordt [onderzocht:](investigate-malicious-email-that-was-delivered.md)(Microsoft Defender voor Office 365-abonnement 2)
   - Bezorgingslocatie en speciale acties
   - Directionaliteit (inkomende, uitgaande of rente-organisatie)
   - Geavanceerde NIET-filters (dit zijn geavanceerde filteropties die geen inhoud bevatten, niet bevatten, enzovoort)
   - Granulatief tijdfilters (dag, uur, half uur)
 
-- De **widget Incidenten** is nu de widget **Actiecentrum.** (Als u uw beveiligingswidgets wilt weergeven, gaat u in het beveiligings- & compliancecentrum naar **Risicobeheer** \> **Controleren**.) (Microsoft Defender voor Office 365-abonnement 2)
+- De **widget Incidenten** is nu de widget **Actiecentrum.** (Als u uw beveiligingswidgets wilt weergeven, gaat u in het & Compliancecentrum naar **Risicobeheer** \> **Controleren**.) (Microsoft Defender voor Office 365-abonnement 2)
 
 - [Veilige documenten in Microsoft 365](safe-docs.md) **(preview)**
 

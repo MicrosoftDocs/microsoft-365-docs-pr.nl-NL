@@ -17,12 +17,12 @@ description: Meer informatie over het gebruik van Bedreigingsverkenner en het ra
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: aef3f7fe69e5cbd1d70b7aee3284f0c5dc6416df
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: b00b78432a34ec982208586f2fe19c1588354293
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290283"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406478"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in Bedreigingsverkenner en realtime detecties
 
@@ -50,8 +50,11 @@ Wanneer u Explorer (of het rapport realtime detecties) voor het eerst opent, zie
 |Betaalde Microsoft Defender voor Office 365 P1|Detecties in realtime|30|
 |Betaalde testversie van Defender voor Office 365 P1 met Microsoft Defender voor Office 365 P2|Bedreigingsverkenner|7|
 |Proefversie van Microsoft Defender voor Office 365 P2|Bedreigingsverkenner|7|
-|Microsoft Defender voor Office 365 P2 betaald|Bedreigingsverkenner|30|
+|Betaalde Microsoft Defender voor Office 365 P2|Bedreigingsverkenner|30|
 |
+
+> [!NOTE]
+> De bewaar- en zoeklimiet voor proeften tenants wordt binnenkort uitgebreid van 7 naar 30 dagen. Deze wijziging wordt bijgehouden als onderdeel van roadmap-item 70544 en is momenteel in een fase van implementatie.
 
 Gebruik **het** menu Beeld om te wijzigen welke informatie wordt weergegeven. Met knopinfo kunt u bepalen welke weergave u wilt gebruiken.
 
@@ -65,7 +68,7 @@ Als u dit rapport wilt bekijken, kiest u In Verkenner (of realtime detecties) De
 
 ![Gegevens weergeven over e-mail die is geïdentificeerd als malware](../../media/ExplorerEmailMalwareMenu.png)
 
-Klik **op Afzender** om uw lijst met weergaveopties te openen. Gebruik deze lijst om gegevens weer te geven per afzender, geadresseerden, afzenderdomein, onderwerp, detectietechnologie, beveiligingsstatus en meer.
+Klik **op Afzender** om de lijst met weergaveopties te openen. Gebruik deze lijst om gegevens weer te geven op afzender, geadresseerden, domein van afzender, onderwerp, detectietechnologie, beveiligingsstatus en meer.
 
 Als u bijvoorbeeld wilt zien welke acties zijn ondernomen bij gedetecteerde e-mailberichten, kiest u **Beveiligingsstatus** in de lijst. Selecteer een optie en klik vervolgens op de knop Vernieuwen om dat filter toe te passen op het rapport.
 
@@ -75,13 +78,13 @@ Bekijk onder de grafiek meer details over specifieke berichten. Wanneer u een it
 
 ![Bedreigingsverkenner met geopende flyout](../../media/ThreatExplorerMalwareItemSelectedFlyout.png)
 
-## <a name="email--phish"></a>E-mail > Phish
+## <a name="email--phish"></a>E-> Phish
 
-Als u dit rapport wilt bekijken, kiest u  In Verkenner (of realtime detecties) \> **E-mail** \> **phish weergeven.** In deze weergave ziet u e-mailberichten die zijn geïdentificeerd als phishingpogingen.
+Als u dit rapport wilt bekijken, kiest u  In Verkenner (of realtime detecties) \> **E-mail** \> **phish weergeven.** In deze weergave ziet u e-mailberichten die zijn geïdentificeerd als phishing-pogingen.
 
 ![Gegevens weergeven over e-mailberichten die zijn geïdentificeerd als phishingpogingen](../../media/ThreatExplorerEmailPhish.png)
 
-Klik **op Afzender** om uw lijst met weergaveopties te openen. Gebruik deze lijst om gegevens weer te geven per afzender, geadresseerden, afzenderdomein, AFZENDER-IP, URL-domein, klik op gemaakt en meer.
+Klik **op Afzender** om de lijst met weergaveopties te openen. Gebruik deze lijst om gegevens weer te geven per afzender, geadresseerden, afzenderdomein, AFZENDER-IP, URL-domein, klik op gemaakt en meer.
 
 Als u bijvoorbeeld wilt zien welke acties zijn ondernomen wanneer personen op URL's klikken die zijn aangemerkt als phishing-pogingen, kiest u Klik op naam **in** de lijst, selecteert u een of meer opties en klikt u vervolgens op de knop Vernieuwen.
 
@@ -97,13 +100,13 @@ Wanneer u een item in de lijst selecteert, zoals een URL die is gedetecteerd, wo
 
 ## <a name="email--submissions"></a>E> mail inzendingen
 
-Als u dit rapport wilt bekijken, kiest u  in Verkenner (of realtime detecties) \>  \> **E-mailinzending weergeven.** In deze weergave ziet u e-mail die gebruikers hebben gerapporteerd als ongewenste e-mail, geen ongewenste e-mail of phishing-e-mail.
+Als u dit rapport wilt bekijken, kiest u in Verkenner (of realtime detecties) **E-mailinzending** \>  \> **weergeven.** In deze weergave ziet u e-mail die gebruikers hebben gerapporteerd als ongewenste e-mail, geen ongewenste e-mail of phishing-e-mail.
 
 ![E-mailberichten gerapporteerd door gebruikers](../../media/ThreatExplorerEmailUserReportedViewOptions.png)
 
-Klik **op Afzender** om uw lijst met weergaveopties te openen. Gebruik deze lijst om informatie weer te geven per afzender, geadresseerde, rapporttype (de mening van de gebruiker dat het e-mailbericht ongewenst is, geen ongewenste e-mail of phish), en meer.
+Klik **op Afzender** om de lijst met weergaveopties te openen. Gebruik deze lijst om informatie weer te geven per afzender, geadresseerde, rapporttype (de mening van de gebruiker dat het e-mailbericht ongewenst is, geen ongewenste e-mail of phish), en meer.
 
-Als u bijvoorbeeld informatie wilt weergeven over e-mailberichten die zijn gerapporteerd als phishingpogingen, klikt u op Rapporttype afzender, selecteert u  Phish en klikt u vervolgens op \> de knop Vernieuwen. 
+Als u bijvoorbeeld informatie wilt weergeven over e-mailberichten die zijn gerapporteerd als phishing-pogingen, klikt u op Rapporttype afzender, selecteert u  Phish en klikt u vervolgens op \> de knop Vernieuwen. 
 
 ![Phish selected for Report Type filter](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
 
@@ -111,16 +114,16 @@ Onder de grafiek kunt u meer details bekijken over specifieke e-mailberichten, z
 
 ![Berichten die zijn gerapporteerd als phishing-pogingen](../../media/ThreatExplorerEmailPhishUserReportedPhishDetails.png)
 
-Selecteer een item in de lijst om meer details weer te geven.
+Selecteer een item in de lijst om aanvullende details weer te geven.
 
 ## <a name="email--all-email"></a>E-> e-mail verzenden
 
-Als u dit rapport wilt bekijken, kiest u in Verkenner **De** optie Alle \>  \> **e-mail weergeven.** In deze weergaven ziet u een overzicht van alle e-mailactiviteiten, waaronder e-mail die is geïdentificeerd als schadelijk vanwege phishing of malware, en alle niet-schadelijke e-mail (normale e-mail, spam en bulkmail).
+Als u dit rapport wilt bekijken, kiest u in Verkenner **E-mail** \>  \> **weergeven alle e-mail.** In deze weergaven ziet u een overzicht van alle e-mailactiviteiten, waaronder e-mail die is geïdentificeerd als schadelijk vanwege phishing of malware, en alle niet-schadelijke e-mail (normale e-mail, spam en bulkmail).
 
 > [!NOTE]
 > Als u een foutbericht krijgt met de tekst Te veel gegevens om weer te **geven,** voegt u een filter toe en beperkt u zo nodig het datumbereik dat u bekijkt.
 
-Als u een filter wilt toepassen, kiest **u Afzender,** selecteert u een item in de lijst en klikt u op de knop Vernieuwen. In ons voorbeeld hebben we **Detectietechnologie als** filter gebruikt (er zijn verschillende opties beschikbaar). Gegevens weergeven door afzender, het domein van de afzender, geadresseerden, onderwerp, bestandsnaam van bijlage, malwarefamilie, beveiligingsstatus (acties die zijn ondernomen door de functies en beleidsregels voor bedreigingsbeveiliging in Office 365), detectietechnologie (hoe de malware is gedetecteerd) en meer.
+Als u een filter wilt toepassen, kiest **u Afzender,** selecteert u een item in de lijst en klikt u op de knop Vernieuwen. In ons voorbeeld hebben we **Detectietechnologie als** filter gebruikt (er zijn verschillende opties beschikbaar). Gegevens weergeven per afzender, het domein van de afzender, geadresseerden, onderwerp, bestandsnaam van bijlage, malwarefamilie, beveiligingsstatus (acties die zijn ondernomen door de functies en beleidsregels voor bedreigingsbeveiliging in Office 365), detectietechnologie (hoe de malware is gedetecteerd) en meer.
 
 ![Gegevens over gedetecteerde e-mail weergeven met detectietechnologie](../../media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png)
 
@@ -134,15 +137,15 @@ Bekijk informatie via malwarefamilie, detectietechnologie (hoe de malware is ged
 
 ![Gegevens over gedetecteerde malware weergeven](../../media/d11dc568-b091-4159-b261-df13d76b520b.png)
 
-Bekijk onder de grafiek meer details over specifieke bestanden, zoals bestandsnaam van bijlage, werkbelasting, bestandsgrootte, wie het bestand het laatst heeft gewijzigd en meer.
+Bekijk onder de grafiek meer details over specifieke bestanden, zoals de bestandsnaam van de bijlage, de werkbelasting, de bestandsgrootte, wie het bestand het laatst heeft gewijzigd en meer.
 
 ## <a name="click-to-filter-capabilities"></a>Klik-en-filtermogelijkheden
 
 Met Explorer (en realtime detecties) kunt u met één klik een filter toepassen. Als u op een item in de legenda klikt, wordt dat item een filter voor het rapport. Stel dat we naar de weergave Malware in Verkenner kijken:
 
-![Ga naar \> Bedreigingsbeheerverkenner](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+![Ga naar \> BedreigingsbeheerVerkenner](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
-Als u **op ATP Detonation** in deze grafiek klikt, ziet dit er als volgende uit:
+Als u **op ATP-detonatie** in deze grafiek klikt, ziet dit er als volgende uit:
 
 ![Verkenner gefilterd om alleen Defender voor office 365-detonatieresultaten weer te geven](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
 
@@ -150,7 +153,7 @@ In deze weergave kijken we nu naar gegevens over bestanden die zijn gedetoneerd 
 
 ![Specifieke details over e-mailberichten met gedetecteerde bijlagen](../../media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
 
-Als u een of meer items selecteert, wordt het **menu** Acties geactiveerd. Het menu biedt diverse keuzemogelijkheden waaruit u kunt kiezen voor de geselecteerde items.
+Als u een of meer items selecteert, wordt het **menu** Acties geactiveerd. Het menu biedt verschillende keuzemogelijkheden waaruit u kunt kiezen voor de geselecteerde items.
 
 ![Als u een item selecteert, wordt het menu Acties geactiveerd](../../media/95f127a4-1b2a-4a76-88b9-096e3ba27d1b.png)
 
@@ -161,4 +164,4 @@ De mogelijkheid om te filteren met één klik en naar specifieke details te gaan
 Explorer (evenals het rapport realtime detecties) beschikt over verschillende krachtige filters en querymogelijkheden waarmee u in detail kunt inzoomen, zoals topgebruikers, de belangrijkste malwarefamilies, detectietechnologie en meer. Elk type rapport biedt verschillende manieren om gegevens weer te geven en te verkennen.
 
 > [!IMPORTANT]
-> Gebruik geen jokertekens, zoals een sterretje of vraagteken, in de querybalk voor Verkenner (of realtime detecties). Wanneer u in  het veld Onderwerp zoekt naar e-mailberichten, zal Explorer (of realtime detecties) gedeeltelijke overeenkomende resultaten uitvoeren en resultaten opleveren die vergelijkbaar zijn met een zoekopdracht met jokertekens.
+> Gebruik geen jokertekens, zoals een sterretje of vraagteken, in de querybalk voor Verkenner (of realtime detecties). Wanneer u in  het veld Onderwerp zoekt naar e-mailberichten, zal Explorer (of realtime detecties) gedeeltelijke overeenkomende resultaten uitvoeren en resultaten opleveren die vergelijkbaar zijn met een zoekopdracht met een jokerteken.

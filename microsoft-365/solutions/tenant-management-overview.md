@@ -1,5 +1,5 @@
 ---
-title: Pachtersbeheer voor Microsoft 365 for Enterprise
+title: Tenantbeheer voor Microsoft 365 voor ondernemingen
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -11,108 +11,110 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 - m365solution-tenantmanagement
+- m365solution-overview
+- tenant-management
 ms.custom:
 - Ent_Solutions
-description: Een overzicht van de planning, implementatie en voortdurende werking van uw Microsoft 365-tenants.
-ms.openlocfilehash: f7daeaed149b5b6199ac9012b3ffa3d811029099
-ms.sourcegitcommit: 99a7354e6a6b4d9d5202674ef57852d52a43fef6
+description: Een overzicht van de planning, implementatie en doorlopende werking van uw Microsoft 365-tenants.
+ms.openlocfilehash: 42bde00fbd4ddc1cf92236f099a22b2260dbb980
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908532"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405676"
 ---
-# <a name="tenant-management-for-microsoft-365-for-enterprise"></a>Pachtersbeheer voor Microsoft 365 for Enterprise
+# <a name="tenant-management-for-microsoft-365-for-enterprise"></a>Tenantbeheer voor Microsoft 365 voor ondernemingen
 
-Als u een pad naar de digitale transformatie van uw organisatie wilt maken met Cloud Computing, hebt u een firma Foundation nodig waarop uw werknemers kunnen vertrouwen voor productiviteit, samenwerking, prestaties, privacy, compliance en beveiliging.
+Voor het maken van een pad naar de digitale transformatie van uw organisatie met cloud computing is een vaste basis vereist waarop uw werknemers kunnen vertrouwen op productiviteit, samenwerking, prestaties, privacy, compliance en beveiliging.
 
-De juiste configuratie van uw Microsoft 365-tenants biedt deze basis, zodat uw medewerkers zich richten op het verkrijgen van het werk en de IT-afdeling om zich te richten op de end-to-end-oplossingen die een extra zakelijke waarde bieden. 
+De juiste configuratie van uw Microsoft 365-tenants biedt die basis, zodat uw werknemers zich volledig moeten richten op het doen van hun werk en uw IT-afdeling zich kunnen richten op end-to-end oplossingen die extra zakelijke waarde bieden. 
 
-Met deze oplossing gaat u door de configuratie van deze basisstappen:
+Deze oplossing brengt u in de volgende stappen door de configuratie van die basis:
 
 1. Uw tenants bepalen
-2. Optimaliseer uw netwerk
-3. Uw identiteiten synchroniseren en beveiligde aanmeld modules afdwingen
-4. Uw Windows-apparaten, Office-clients en on-premises Office-servers en-gegevens migreren
-5. Apparaten en app-beheer implementeren
+2. Uw netwerk optimaliseren
+3. Uw identiteiten synchroniseren en veilige aanmeldingen afdwingen
+4. Uw Windows-apparaten, Office-clients en on-premises Office-servers en -gegevens migreren
+5. Apparaat- en app-beheer implementeren
 
-Laten we eerst eens kijken wat een Tenant is en welke een Tenant met een bedrijfs Stichting eruit ziet.
+Maar laten we eerst even kijken wat een tenant is en hoe een tenant die een goede basis biedt eruitziet.
 
-## <a name="a-microsoft-365-tenant-defined"></a>Een Microsoft 365-Tenant gedefinieerd
+## <a name="a-microsoft-365-tenant-defined"></a>Een gedefinieerde Microsoft 365-tenant
 
-Een Microsoft 365-Tenant is een speciaal exemplaar van de services van Microsoft 365 en de gegevens in uw organisatie die zijn opgeslagen in een specifieke standaardlocatie, zoals Europe of Noord-Amerika. Dit is de locatie die u hebt opgegeven bij het maken van de Tenant voor uw organisatie. Elke Microsoft 365-Tenant is DISTINCT, Unique en los van alle andere Microsoft 365-tenants. U maakt een Microsoft 365-Tenant wanneer u een of meer producten koopt bij Microsoft, zoals Microsoft 365 E3 of E5, en een set licenties voor elk product.
+Een Microsoft 365-tenant is een speciaal exemplaar van de services van Microsoft 365 en de gegevens van uw organisatie die zijn opgeslagen op een specifieke standaardlocatie, zoals Europa of Noord-Amerika. Deze locatie wordt opgegeven wanneer u de tenant voor uw organisatie maakt. Elke Microsoft 365-tenant is uniek en gescheiden van alle andere Microsoft 365-tenants. U maakt een Microsoft 365-tenant wanneer u een of meer producten van Microsoft koopt, zoals Microsoft 365 E3 of E5, en een aantal licenties voor elke tenant.
 
-Uw Microsoft 365-Tenant bevat ook een Azure Active Directory-Tenant (Azure AD), een toegewezen exemplaar van Azure AD voor gebruikersaccounts, groepen en andere objecten. Elke Azure AD-Tenant is DISTINCT, Unique en los van alle andere Azure AD-tenants. U kunt in uw organisatie meerdere Azure AD-tenants maken die u kunt instellen met Azure-abonnementen, maar Microsoft 365-tenants kunnen slechts één Azure AD-Tenant gebruiken, de naam die is gemaakt toen u de Tenant maakte. 
+Uw Microsoft 365-tenant bevat ook een Azure Active Directory-tenant (Azure AD), een speciaal exemplaar van Azure AD voor gebruikersaccounts, groepen en andere objecten. Elke Azure AD-tenant is uniek, en gescheiden van alle andere Azure AD-tenants. Hoewel uw organisatie meerdere Azure AD-tenants kan hebben die u kunt instellen voor Azure-abonnementen, kunnen Microsoft 365-tenants slechts één Azure AD-tenant gebruiken, de tenant die is gemaakt toen u de tenant maakte. 
 
-Hier ziet u een voorbeeld:
+Hier is een voorbeeld:
 
-![Een voorbeeld van een Microsoft 365-Tenant met de Azure AD-Tenant](../media/tenant-management-overview/tenant-management-example-tenant.png)
+![Een voorbeeld van een Microsoft 365-tenant met de Azure AD-tenant](../media/tenant-management-overview/tenant-management-example-tenant.png)
 
-*Pachtersbeheer* is de planning, implementatie en voortdurende werking van uw microsoft 365-tenants. 
+*Tenantbeheer* is de planning, implementatie en doorlopende werking van uw Microsoft 365-tenants. 
 
-## <a name="attributes-of-a-well-designed-and-operating-tenant"></a>Kenmerken van een goed ontworpen en bewerkings Tenant
+## <a name="attributes-of-a-well-designed-and-operating-tenant"></a>Kenmerken van een goed ontworpen en werkende tenant
 
-Naast de juiste naam en locatie voor uw Tenant zijn er nog meer elementen die u kunt gebruiken om te plannen, implementeren en beheren om ervoor te zorgen dat uw gebruikerservaring met apps voor Cloud productiviteit &mdash; zoals Microsoft teams en Exchange Online &mdash; efficiënt, veilig en oppassen.
+Naast de juiste naam en locatie voor uw tenant zijn er extra elementen die u kunt plannen, implementeren en beheren om ervoor te zorgen dat uw gebruikerservaringen met cloudproductiviteitsapps zoals Microsoft Teams en Exchange Online effectief, veilig en &mdash; &mdash; presterend zijn.
 
-Hier volgen de elementen:
+Dit zijn de elementen:
 
-- U beschikt over de juiste set producten (abonnementen) en licenties.
-  - De set producten komt overeen met uw bedrijf, IT en beveiligingsbehoeften.
-  - U hebt een voldoende aantal licenties voor uw werknemers en verwachte wijzigingen in personeel.
+- U hebt de juiste set producten (abonnementen) en licenties.
+  - De set producten komt overeen met uw bedrijfs-, IT- en beveiligingsbehoeften.
+  - Er is voldoende licenties voor uw werknemers en de verwachte veranderingen in de personeels personeels personeelsaantal.
 - Voor netwerken:
   - U hebt de juiste DNS-domeinnamen geconfigureerd.
-  - Voor Enterprise-netwerken hebt u netwerkverkeer geoptimaliseerd voor het Microsoft-netwerk voor zelfstandigen.
-  - U hebt een geoptimaliseerd netwerkverkeer voor externe werknemers die een VPN-client gebruiken.
-- U hebt uw Active Directory Domain Services (AD DS)-accounts, groepen en andere objecten gesynchroniseerd.
-  - Uw Azure AD-Tenant accounts worden gekoppeld aan postvakken van Exchange Online met de juiste DNS-domeinen voor e-mailadressen.
-  - Aan uw gebruikersaccounts zijn de juiste licenties toegewezen van de juiste aangeschafte producten, zoals Microsoft 365 E3 of E5.
-- U hebt een sterke identiteit en toegangsbeheer geconfigureerd.
-  - U hebt een veilige gebruiker aangemeld met een wachtwoord of met multi-factor Authentication (MFA).
-  - U hebt beleidsregels voor voorwaardelijke toegang die aanmeld vereisten en-beperkingen voor hogere beveiligingsniveaus afdwingen.
-- On-premises Office-servers en de gegevens zijn gemigreerd naar Cloud-apps of worden gebruikt in een hybride configuratie.
-- U doet Apparaatbeheer met intune of basis mobiliteit en beveiliging ingebouwd in Microsoft 365.
-  - De apparaten van uw organisatie zijn geregistreerd en beheerd.
+  - Voor bedrijfsnetwerken hebt u netwerkverkeer naar het Microsoft-netwerk geoptimaliseerd voor werknemers ter plekke.
+  - U hebt netwerkverkeer geoptimaliseerd voor externe medewerkers die een VPN-client gebruiken.
+- U hebt uw AD DS-accounts (Active Directory Domain Services) en andere objecten gesynchroniseerd.
+  - Uw Azure AD-tenantaccounts worden met de juiste DNS-domeinen voor e-mailadressen toegesneden aan Exchange Online-postvakken.
+  - Aan uw gebruikersaccounts zijn de juiste licenties toegewezen van de juiste gekochte producten (zoals Microsoft 365 E3 of E5).
+- U hebt sterk identiteits- en toegangsbeheer geconfigureerd.
+  - U hebt een veilige aanmelding van gebruikers met wachtwoordloze of meervoudige verificatie (MFA) nodig.
+  - U hebt beleidsregels voor voorwaardelijke toegang die aanmeldingsvereisten en beperkingen voor hogere beveiligingsniveaus afdwingen.
+- On-premises Office-servers en de gegevens zijn gemigreerd naar cloud-apps of worden gebruikt in een hybride configuratie.
+- U doet apparaatbeheer met Intune of Basic Mobility and Security, ingebouwd in Microsoft 365.
+  - Apparaten die eigendom zijn van uw organisatie, worden geregistreerd en beheerd.
   - De apps voor persoonlijke apparaten worden beheerd.
 
-Hier ziet u een voorbeeld van een Microsoft 365-Tenant met al deze elementen op hun plaats.
+Hier is een voorbeeld van een Microsoft 365-tenant met al deze elementen.
 
-![Voorbeeld van Microsoft 365-Tenant](../media/tenant-management-overview/tenant-management-tenant-config.png)
+![Een voorbeeld van een Microsoft 365-tenant](../media/tenant-management-overview/tenant-management-tenant-config.png)
 
-In deze afbeelding bevat de Microsoft 365-Tenant de volgende opties:
+In deze afbeelding bevat de Microsoft 365-tenant het volgende:
 
 - Producten en licenties voor Microsoft 365 E3 en E5.
-- Microsoft 365-productiviteits-apps.
-- InTune met geregistreerde apparaten en apparatuur en toepassingenbeleid.
-- Een Azure AD-Tenant met gesynchroniseerde gebruikersaccount (groepen en andere directoryobjecten worden niet weergegeven), domeinen en regels voor voorwaardelijke toegang.
+- Microsoft 365-productiviteitsapps.
+- Intune met geregistreerd apparaten en apparaat- en toepassingsbeleid.
+- Een Azure AD-tenant met gesynchroniseerde gebruikersaccounts (groepen en andere adreslijstobjecten worden niet weergegeven), domeinen en beleidsregels voor voorwaardelijke toegang.
 
-## <a name="tenant-capabilities-for-microsoft-365-for-enterprise"></a>Tenant mogelijkheden voor Microsoft 365 for Enterprise
+## <a name="tenant-capabilities-for-microsoft-365-for-enterprise"></a>Tenantmogelijkheden voor Microsoft 365 voor ondernemingen
 
-De volgende secties en tabel bevatten de belangrijkste mogelijkheden en licenties voor de stappen in deze oplossing.
+In de volgende secties en tabel staan de belangrijkste mogelijkheden en licenties voor de stappen in deze oplossing vermeld.
 
 ### <a name="tenant"></a>Tenant
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Meerdere tenants | Elke Microsoft 365-Tenant is DISTINCT, Unique en los van alle andere Microsoft 365-tenants. Wanneer er meerdere tenants zijn, gelden er beperkingen en aanvullende aandachtspunten wanneer u ze beheert en services levert voor uw gebruikers. | Microsoft 365 E3 of E5 | 
-| Migratie van postvakken tussen tenants | Tenant beheerders kunnen postvakken verplaatsen tussen tenants met minimale infrastructuur afhankelijkheden in hun on-premises systemen. Hiermee verwijdert u de postvakken die u niet nodig hebt. | Microsoft 365 E3 of E5 | 
-| Meerdere geografische | Uw Tenant kan gegevens opslaan op de rest van de andere datacenter geo-locaties die u hebt gekozen om te voldoen aan de vereisten voor data woonplaats. | Microsoft 365 E3 of E5 | 
-| Kerngegevens verplaatsen naar een nieuw datacenter-geo | Aangezien Microsoft nieuwe datacenter-GEOS toevoegt voor extra capaciteit en het berekenen van bronnen, kunt u voor de belangrijkste gegevens van uw primaire klant een datacenter aanvragen voor de geo-woonplaats. | Microsoft 365 E3 of E5 | 
+| Meerdere tenants | Elke Microsoft 365-tenant is uniek en gescheiden van alle andere Microsoft 365-tenants. Bij meerdere tenants zijn er beperkingen en extra overwegingen bij het beheren van de tenants en het leveren van services aan uw gebruikers. | Microsoft 365 E3 of E5 | 
+| Migratie van postvakken tussen tenants | Tenantbeheerders kunnen postvakken verplaatsen tussen tenants met minimale infrastructuurafhankelijkheden in hun on-premises systemen. Hiermee verwijdert u de noodzaak om postvakken aan de andere bord- en onboard-app toe te laten. | Microsoft 365 E3 of E5 | 
+| Multi-Geo | Uw tenant kan gegevens in rust opslaan in de andere geografische datacenterlocaties die u hebt gekozen om te voldoen aan de vereisten voor gegevensopslag. | Microsoft 365 E3 of E5 | 
+| Kerngegevens verplaatsen naar een nieuw geografisch datacenter | Wanneer Microsoft nieuwe geografische datacenters toevoegt voor extra capaciteits- en berekeningsbronnen, kunt u een geografische verplaats in een datacenter aanvragen voor in-geo-opslag voor uw kernklantgegevens. | Microsoft 365 E3 of E5 | 
 ||||
 
 ### <a name="networking"></a>Netwerken
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Netwerk inzichten | De gegevens van de netwerkprestaties die zijn verzameld van uw Microsoft 365-Tenant, zodat u Netwerkverbindingen voor uw Office-locaties kunt ontwerpen. | Microsoft 365 E3 of E5 | 
-| Eindpunt updates automatiseren | De configuratie en voortdurende updates voor Microsoft 365-eindpunten automatiseren in de client PAC-bestanden en netwerkapparaten en-services. | Microsoft 365 E3 of E5 | 
+| Netwerkinzichten | De metrische netwerkprestaties die worden verzameld via uw Microsoft 365-tenant, om u te helpen bij het ontwerpen van netwerkperimeters voor uw kantoorlocaties. | Microsoft 365 E3 of E5 | 
+| Eindpuntupdates automatiseren | Automatiseer de configuratie en doorlopende updates voor Microsoft 365-eindpunten in uw PAC-clientbestanden en netwerkapparaten en -services. | Microsoft 365 E3 of E5 | 
 ||||
 
 ### <a name="identity"></a>Identiteit
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| On-premises Active Directory Domain Services (AD DS) synchroniseren met de Azure AD-Tenant    | Gebruik uw on-premises identiteitsprovider voor gebruikersaccounts, groepen en andere objecten. | Microsoft 365 E3 of E5 |
+| On-premises Active Directory Domain Services (AD DS) synchroniseren met uw Azure AD-tenant    | Gebruik uw on-premises identiteitsprovider voor gebruikersaccounts, groepen en andere objecten. | Microsoft 365 E3 of E5 |
 | Afgedwongen door MFA en met standaardbeveiligingsinstellingen   | Voorkom gecompromitteerde identiteiten en apparaten met een tweede vorm van verificatie voor aanmeldingen. Als standaardinstelling voor de beveiliging is MFA vereist voor alle gebruikersaccounts.   | Microsoft 365 E3 of E5 |
-| Afgedwongen door MFA en met voorwaardelijke toegang| MFA vereisen op basis van de kenmerken van de aanmelding met regels voor voorwaardelijke toegang.    | Microsoft 365 E3 of E5 | 
+| Afgedwongen door MFA en met voorwaardelijke toegang| MFA vereisen op basis van de kenmerken van de aanmelding met beleidsregels voor voorwaardelijke toegang.    | Microsoft 365 E3 of E5 | 
 | Afgedwongen door MFA en met voorwaardelijke toegang op basis van risico   | Vereis MFA op basis van het risico van de gebruikersaanmelding met Microsoft Defender for Identity. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties | 
 | Selfservice voor wachtwoordherstel (SSPR)    | Sta toe dat gebruikers hun wachtwoorden of accounts opnieuw kunnen instellen of ontgrendelen.  | Microsoft 365 E3 of E5 |
 ||||
@@ -121,31 +123,31 @@ De volgende secties en tabel bevatten de belangrijkste mogelijkheden en licentie
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Migreren naar Windows 10 | Migreer uw apparaten waarop Windows 7 of Windows 8,1 wordt uitgevoerd naar Windows 10 Enterprise. | Licenties voor Windows 10 Enterprise die deel uitmaken van Microsoft 365 E3 of E5 | 
-| Migreren naar Microsoft 365-apps voor Enterprise | Migreer uw Office-client-apps, zoals Word en PowerPoint, naar de versies die zijn geïnstalleerd vanuit de Cloud en die worden bijgewerkt met nieuwe functies. | Microsoft 365 E3 of E5 | 
-| On-premises servers en gegevens migreren naar Microsoft 365 | Migreer uw Exchange-postvakken, SharePoint-sites en Skype voor bedrijven online naar Microsoft 365 cloudservices. | Microsoft 365 E3 of E5 | 
+| Migreren naar Windows 10 | Migreert uw apparaten met Windows 7 of Windows 8.1 naar Windows 10 Enterprise. | Windows 10 Enterprise-licenties inbegrepen in Microsoft 365 E3 of E5 | 
+| Migreren naar Microsoft 365-apps voor ondernemingen | Migreert uw Office-clientapps zoals Word en PowerPoint naar de versies die zijn geïnstalleerd vanuit de cloud en die worden bijgewerkt met nieuwe functies. | Microsoft 365 E3 of E5 | 
+| On-premises servers en gegevens migreren naar Microsoft 365 | Migreert uw Exchange-postvakken, SharePoint-sites en Skype voor Bedrijven Online naar Microsoft 365-cloudservices. | Microsoft 365 E3 of E5 | 
 ||||
 
-### <a name="device-and-app-management"></a>Apparaten en apps beheren
+### <a name="device-and-app-management"></a>Apparaat- en app-beheer
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Microsoft Intune | Een op de cloud gebaseerde service die een MDM (Mobile Device Management) en Mobile Application Management (MAM) biedt om te bepalen hoe de toepassing van uw organisatie en de apparaten worden gebruikt, waaronder mobiele telefoons, Tablets en laptops. | Microsoft 365 E3 of E5 | 
-| Basic Mobility en Security | Beveilig en beheer de mobiele apparaten van uw gebruikers, zoals iPhones, iPads, Android-telefoons en Windows Phones met deze ingebouwde service.  | Microsoft 365 E3 of E5 | 
+| Microsoft Intune | Een cloudservice die mobile device management (MDM) en mobile application management (MAM) biedt om te bepalen hoe de toepassing en de apparaten van uw organisatie worden gebruikt, waaronder mobiele telefoons, tablets en laptops. | Microsoft 365 E3 of E5 | 
+| Basic Mobility en Security | Beveilig en beheer de mobiele apparaten van uw gebruikers, zoals iPhones, iPads, Android-telefoons en Windows-telefoons met deze ingebouwde service.  | Microsoft 365 E3 of E5 | 
 ||||
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Volg deze stappen voor het instellen en beheren van uw Microsoft 365-tenants.
+Gebruik deze stappen voor het instellen en beheren van uw Microsoft 365-tenants.
 
 1. [Uw tenants bepalen](tenant-management-tenants.md)
-2. [Optimaliseer uw netwerk](tenant-management-networking.md)
-3. [Uw identiteiten synchroniseren en beveiligde aanmeld modules afdwingen](tenant-management-identity.md)
-4. [Uw on-premises Office-servers en-gegevens migreren](tenant-management-migration.md)
-5. [Apparaten en app-beheer implementeren](tenant-management-device-management.md)
+2. [Uw netwerk optimaliseren](tenant-management-networking.md)
+3. [Uw identiteiten synchroniseren en veilige aanmeldingen afdwingen](tenant-management-identity.md)
+4. [Uw on-premises Office-servers en -gegevens migreren](tenant-management-migration.md)
+5. [Apparaat- en app-beheer implementeren](tenant-management-device-management.md)
 
-[![De stappen voor het implementeren en beheren van een Microsoft 365-Tenant](../media/tenant-management-overview/tenant-management-step-grid.png)](tenant-management-tenants.md)
+[![De stappen voor het implementeren en beheren van een Microsoft 365-tenant](../media/tenant-management-overview/tenant-management-step-grid.png)](tenant-management-tenants.md)
 
-Elke stap beschrijft de implementatieopties, bevat een overzicht van de resultaten en permanente onderhoudstaken.
+In elke stap worden de implementatieopties, de resultaten en de lopende onderhoudstaken beschreven.
 
-Voor inzicht in de manier waarop een fictieve maar representatieve mede-nationale organisatie de elementen van hun Microsoft 365-Tenant implementeert, raadpleegt u de casestudy van [Contoso](../enterprise/contoso-case-study.md).
+Als u wilt weten hoe een fictieve, maar representatieve multinationale organisatie de elementen van hun Microsoft 365-tenant heeft geïmplementeerd, bekijkt u de [contoso-case study.](../enterprise/contoso-case-study.md)

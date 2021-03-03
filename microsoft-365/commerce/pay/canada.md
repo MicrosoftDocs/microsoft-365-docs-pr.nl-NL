@@ -11,34 +11,37 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Meer informatie over waar u de betaling voor uw abonnement kunt verzenden.
+description: Informatie over waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a4a60c841ebb31163281cd8de3c27460e10b0811
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2eccedc234ee6bf9a3049671b4fa4142ba85bd69
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637509"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406990"
 ---
 # <a name="payment-information-for-canada"></a>Betalingsgegevens voor Canada
 
-[Zoek een ander land of een andere regio](../billing-and-payments/pay-for-your-subscription.md).
-
-Betaal alleen in CAD en vermeld uw factuurnummer (s) bij de overboeking van uw betaling.
-
-## <a name="check"></a>Cheque
-
-**Begunstigde:** Microsoft
-
-**Postadres:**  
-Bank of America, lockbox 910430, PO Box 4090, STN A, Toronto ON M5W 0E9, Canada
+[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)
 
 ## <a name="electronic-funds-transfer"></a>Elektronische betaling
 
-**Bank:** Bank of America, Toronto  
-**SWIFT-code:** BOFACATT  
-**Rekeningnummer:** 45571239  
-**Account naam:** Microsoft  
-**Bank-id:** 241  
-**Tak:** 56792  
-**Routing/Transit #:** 024156792  
+**Betaal in CAD en vermeld uw factuurnummer(s) bij de overboeking van uw betaling.**
+
+Als u een factuur hebt gefactureerd door **Microsoft Corporation,** gebruikt u deze bankgegevens:
+
+Bank: Bank of America, Toronto\
+SWIFT-code: BOFACATT\
+Rekeningnummer: 45571239\
+Accountnaam: MICROSOFT\
+Bank-id: 241\
+Filiaal: 56792\
+Accountnaam: MICROSOFT
+
+Als u vanaf 1 maart 2021 een factuur hebt gefactureerd door **Microsoft Canada Inc.** voor orders en verbruik, gebruikt u deze bankgegevens:
+
+Bank: Citibank N.A., Canadian Branch\
+Routing Number: 032820012\
+BIC/SWIFT-code: CITICATTBCH\
+Rekeningnummer: 3003600001\
+Accountnaam: MICROSOFT

@@ -18,12 +18,12 @@ ms.collection:
 description: Beheerders kunnen meer informatie krijgen over het weergeven en configureren van globale instellingen (de lijst 'De volgende URL's blokkeren' en beveiliging voor Office 365-apps) voor veilige koppelingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d52a4dc5ed35ec73c1410d6428a581b098bf2c52
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 38614d070f4ac9bfda978301eaeed6029b47e0ca
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287459"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406112"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Algemene instellingen configureren voor veilige koppelingen in Microsoft Defender voor Office 365
 
@@ -55,22 +55,22 @@ U kunt de globale instellingen voor veilige koppelingen configureren in het beve
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
+- U moet machtigingen toegewezen krijgen in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
   - Als u de algemene instellingen voor veilige koppelingen wilt configureren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
   - Voor alleen-lezen toegang tot de globale instellingen voor veilige koppelingen  moet u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
-  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+  Zie Machtigingen [in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
 
   **Opmerkingen**:
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  - Als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol  in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - Zie instellingen voor veilige koppelingen voor de aanbevolen waarden voor de globale instellingen [voor veilige koppelingen.](recommended-settings-for-eop-and-office365-atp.md#safe-links-settings)
 
 - Het kan 30 minuten duren voordat een nieuw of bijgewerkt beleid wordt toegepast.
 
-- [Nieuwe functies worden voortdurend toegevoegd aan Microsoft Defender voor Office 365.](office-365-atp.md#new-features-in-microsoft-defender-for-office-365) Als er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande beleidsregels voor veilige koppelingen aanpassen.
+- [Nieuwe functies worden voortdurend toegevoegd aan Microsoft Defender voor Office 365.](office-365-atp.md#new-features-in-microsoft-defender-for-office-365) Naarmate er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande beleidsregels voor veilige koppelingen aanpassen.
 
 ## <a name="configure-the-block-the-following-urls-list-in-the-security--compliance-center"></a>De lijst 'De volgende URL's blokkeren' configureren in het & compliancecentrum
 
@@ -127,7 +127,7 @@ Beveiliging tegen veilige koppelingen voor Office 365-apps is van toepassing op 
 
    - **Office 365-toepassingen:** controleer of de schakelknop aan de rechterkant is om Veilige koppelingen in te schakelen voor ondersteunde Office 365-apps: ![ In-/uitschakelen. ](../../media/scc-toggle-on.png)
 
-   - **Houd niet bij** wanneer gebruikers op Veilige koppelingen klikken: zet de schakelaar naar links om het klikken van gebruikers met betrekking tot geblokkeerde URL's in ondersteunde Office 365-apps bij te ![ houden: In-/uitschakelen. ](../../media/scc-toggle-off.png)
+   - **Houd niet bij** wanneer gebruikers op Veilige koppelingen klikken: zet de schakelaar naar links om klikken van gebruikers met betrekking tot geblokkeerde URL's in ondersteunde Office 365-apps bij te ![ houden: In-/uitschakelen. ](../../media/scc-toggle-off.png)
 
    - Laat gebruikers niet doorklikken naar de oorspronkelijke **URL:** controleer of de schakelknop aan de rechterkant is om te voorkomen dat gebruikers doorklikken naar de oorspronkelijke, geblokkeerde URL in ondersteunde Office 365-apps: In-/uitschakelen. ![ ](../../media/scc-toggle-on.png)
 
@@ -135,7 +135,7 @@ Beveiliging tegen veilige koppelingen voor Office 365-apps is van toepassing op 
 
 ### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>Beveiliging van veilige koppelingen configureren voor Office 365-apps in PowerShell
 
-Als u liever PowerShell gebruikt voor het configureren van beveiliging tegen veilige koppelingen voor Office 365-apps, gebruikt u de volgende syntaxis in Exchange Online PowerShell of Exchange Online Protection PowerShell:
+Als u liever PowerShell gebruikt om beveiliging tegen veilige koppelingen voor Office 365-apps te configureren, gebruikt u de volgende syntaxis in Exchange Online PowerShell of Exchange Online Protection PowerShell:
 
 ```powershell
 Set-AtpPolicyForO365 [-EnableSafeLinksForO365Clients <$true | $false> [-AllowClickThrough <$true | $false>] [-TrackClicks <$true | $false>]
@@ -145,7 +145,7 @@ In dit voorbeeld worden de volgende instellingen geconfigureerd voor het bescher
 
 - Veilige koppelingen voor Office 365-apps is ingeschakeld (we gebruiken niet de parameter _EnableSafeLinksForO365Clients_ en de standaardwaarde is $true).
 - Klikken van gebruikers met betrekking tot geblokkeerde URL's in ondersteunde Office 365-apps worden bijgehouden.
-- Gebruikers kunnen niet doorklikken naar de oorspronkelijke geblokkeerde URL in ondersteunde Office 365-apps (we gebruiken de parameter _AllowClickThrough_ niet en de standaardwaarde is $false).
+- Gebruikers kunnen niet doorklikken naar de oorspronkelijke, geblokkeerde URL in ondersteunde Office 365-apps (we gebruiken de parameter _AllowClickThrough_ niet en de standaardwaarde is $false).
 
 ```powershell
 Set-AtpPolicyForO365 -TrackClicks $true
@@ -157,7 +157,7 @@ Zie [Set-AtpPolicyForO365 voor](https://docs.microsoft.com/powershell/module/exc
 
 Als u wilt controleren of u de globale instellingen voor veilige koppelingen hebt geconfigureerd (de lijst met de volgende **URL's** en de beveiligingsinstellingen voor Office 365-apps blokkeren), gaat u op een van de volgende stappen te werk:
 
-- Ga in het & compliancecentrum naar  Veilige koppelingen voor \>  \> bedreigingsbeheer **ATP,** klik op **Globale** instellingen en controleer de instellingen in de fly out die wordt weergegeven.
+- Ga in het & compliancecentrum naar  Veilige koppelingen van ATP voor risicobeheerbeleid, klik op Globale instellingen en controleer de instellingen in de \>  \> fly out die wordt weergegeven. 
 
 - Voer in Exchange Online PowerShell of Exchange Online Protection PowerShell de volgende opdracht uit en controleer de instellingen:
 

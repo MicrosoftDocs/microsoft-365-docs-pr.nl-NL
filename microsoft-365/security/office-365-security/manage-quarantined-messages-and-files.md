@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen informatie krijgen over het weergeven en beheren van in quarantaine geplaatste berichten voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook in quarantaine geplaatste bestanden beheren in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 22bcf0cefb746e92ccadf8254f4076b47ee475c4
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: b0515d610b38986c2b5339c1cb967a7b150914a2
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287783"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405816"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -49,15 +49,15 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- &-compliancec
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Je moet beschikken over toegewezen machtigingen in het Beveiligings- en compliancecentrum voor het uitvoeren van de procedures in dit onderwerp:
+- U moet machtigingen toegewezen krijgen in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
   - Als u acties wilt uitvoeren op berichten in quarantaine voor alle gebruikers, moet u lid zijn van de rollengroepen Organisatiebeheer, Beveiligingsbeheerder of  <sup>\*</sup> Quarantainebeheerder.
   - Voor alleen-lezen toegang tot berichten in quarantaine voor alle gebruikers  moet u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
-  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+  Zie Machtigingen [in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
 
   **Opmerkingen**:
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  - Als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol  in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
   - <sup>\*</sup> Leden van de **rollengroep Quarantainebeheerder** moeten ook lid zijn van de rollengroep **Systeembeheer** in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) om quarantaineprocedures te kunnen uitvoeren in Exchange Online PowerShell.
 
@@ -68,7 +68,7 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- &-compliancec
 
   Wanneer een bericht in quarantaine is verlopen, kunt u het niet herstellen.
 
-## <a name="use-the-security--compliance-center-to-manage-quarantined-email-messages"></a>Het beveiligings- & voor het beheren van e-mailberichten die in quarantaine zijn geplaatst
+## <a name="use-the-security--compliance-center-to-manage-quarantined-email-messages"></a>Het beveiligings- & voor het beheren van in quarantaine geplaatste e-mailberichten
 
 ### <a name="view-quarantined-email"></a>In quarantaine geplaatste e-mail weergeven
 
@@ -109,7 +109,7 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- &-compliancec
      - **Phish:** het spamfilter was Phishing-e-mail of anti-phishingbeveiliging in quarantaine geplaatst (instellingen voor [spoofing](set-up-anti-phishing-policies.md#spoof-settings) of [imitatiebeveiliging).](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 
      - **Malware**
      - **Spam**
-     - **Phish met hoog vertrouwen**
+     - **High Confidence Phish**
 
    - **Beleidstype**: berichten filteren op beleidstype:
      - **Anti-malwarebeleid**
@@ -172,7 +172,7 @@ Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u wi
 
 - **Releasebericht:** kies de volgende opties in het flyoutvenster dat wordt weergegeven:
 
-  - **Rapporteer berichten aan Microsoft** voor analyse: Dit is standaard geselecteerd en meldt het bericht dat verkeerd in quarantaine is geplaatst bij Microsoft als fout-positief. Als het bericht in quarantaine is geplaatst als spam, bulkmail, phishing of malware, wordt het bericht ook gerapporteerd aan het Microsoft-team voor spamanalyse. Afhankelijk van de analyse kunnen de regels voor het filteren van spam voor de hele service zo worden aangepast dat het bericht wordt doorgestuurd.
+  - **Rapporteer berichten aan Microsoft** voor analyse: Dit is standaard geselecteerd en meldt het bericht dat verkeerd in quarantaine is geplaatst bij Microsoft als fout-positief. Als het bericht in quarantaine is geplaatst als spam, bulkmail, phishing of malware, wordt het bericht ook gerapporteerd aan het Microsoft-team voor spamanalyse. Afhankelijk van de analyse kunnen de regels voor het filteren van spam uit de hele service zo worden aangepast dat het bericht wordt doorgestuurd.
 
   - Kies een van de volgende opties:
     - **Berichten vrijgeven aan alle geadresseerden**
@@ -270,7 +270,7 @@ Wanneer u een bestand in de lijst selecteert, worden de volgende bestandsgegeven
 - **Bestands-URL:** URL die de locatie van het bestand definieert (bijvoorbeeld in SharePoint Online).
 - **Schadelijke inhoud gedetecteerd op** De datum/tijd waarop het bestand in quarantaine is geplaatst.
 - **Verloopt:** de datum waarop het bestand in quarantaine wordt verwijderd.
-- **Gedetecteerd door:** Defender voor Office 365 of de antimalware-engine van Microsoft.
+- **Gedetecteerd door:** Defender voor Office 365 of de anti-malware-engine van Microsoft.
 - **Vrijgegeven?**
 - **Malwarenaam**
 - **Document-id:** een unieke id voor het document.
@@ -295,7 +295,7 @@ Als u de bestanden niet los laat of verwijdert, worden ze verwijderd nadat de st
 Wanneer u meerdere in quarantaine geplaatste bestanden in de  lijst selecteert (maximaal 100), wordt het flyoutvenster Bulkacties weergegeven waarin u de volgende acties kunt uitvoeren:
 
 - **Releasebestanden**
-- **Bestanden verwijderen:** nadat u **in** de waarschuwing die wordt weergegeven op Ja hebt geklikt, worden de bestanden onmiddellijk verwijderd.
+- **Bestanden verwijderen:** nadat u in de waarschuwing **die** wordt weergegeven op Ja hebt geklikt, worden de bestanden onmiddellijk verwijderd.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Exchange Online PowerShell of een zelfstandige EOP PowerShell gebruiken om in quarantaine geplaatste berichten en bestanden weer te geven en te beheren
 

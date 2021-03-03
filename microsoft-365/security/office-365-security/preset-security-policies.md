@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het toepassen van standaard- en strikte beleidsinstellingen voor de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e8f254f2a1ea2dcf1a4b51594a5c340e91cb3f15
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: b49b980d217d60865029c8e64ad02ed722f6b86e
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290773"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407454"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365
 
@@ -62,7 +62,7 @@ De beschikbare voorwaarden en uitzonderingen zijn:
 - **De geadresseerden zijn leden van:** Groepen in uw organisatie.
 - **De domeinen van de ontvanger zijn:** Geaccepteerde domeinen die zijn geconfigureerd in Microsoft 365.
 
-### <a name="policies-in-preset-security-policies"></a>Beleid in vooraf ingesteld beveiligingsbeleid
+### <a name="policies-in-preset-security-policies"></a>Beleid in vooraf ingestelde beveiligingsbeleidsregels
 
 Vooraf ingestelde beveiligingsbeleidsregels maken gebruik van het bijbehorende beleid van de verschillende beveiligingsfuncties in EOP en Microsoft Defender voor Office 365. Dit beleid wordt gemaakt _nadat u_ het vooraf **ingestelde** beveiligingsbeleid Voor standaardbeveiliging of **Strikte beveiliging** hebt toegewezen aan gebruikers. U kunt dit beleid niet wijzigen.
 
@@ -70,7 +70,7 @@ Vooraf ingestelde beveiligingsbeleidsregels maken gebruik van het bijbehorende b
 
   - [Antispambeleid met de naam](configure-your-spam-filter-policies.md) **Standaard vooraf ingestelde beveiligingsbeleid en** Strikt vooraf ingestelde **beveiligingsbeleid.**
   - [Anti-malwarebeleid genaamd](configure-anti-malware-policies.md) **Standaard vooraf ingestelde beveiligingsbeleid en** Strikt vooraf ingestelde **beveiligingsbeleid.**
-  - [EOP Anti-phishingbeleid met de](set-up-anti-phishing-policies.md#spoof-settings) naam **Standaard vooraf ingestelde beveiligingsbeleid en** Strikt vooraf ingestelde **beveiligingsbeleid** (spoof-instellingen).
+  - [EOP Anti-phishingbeleid met de naam](set-up-anti-phishing-policies.md#spoof-settings) **Standaard vooraf ingestelde beveiligingsbeleid en** Strikt vooraf ingestelde **beveiligingsbeleid** (spoof-instellingen).
 
 - Beleid van Microsoft Defender voor **Office 365:** dit geldt ook voor organisaties met Microsoft 365 E5- of Defender voor Office 365-abonnementen met invoegabonnementen:
 
@@ -109,17 +109,17 @@ Met andere woorden, de  instellingen van het beleid voor  strikte beveiliging ov
 
 - Zie [Verbinding maken met Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
-- Je moet beschikken over toegewezen machtigingen voor het uitvoeren van de procedures in dit onderwerp:
+- U moet machtigingen toegewezen krijgen in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
   - Als u vooraf ingesteld beveiligingsbeleid wilt configureren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
   - Voor alleen-lezen toegang tot vooraf ingesteld beveiligingsbeleid moet u lid zijn van de rollengroep **Globale** lezer.
 
-  Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+  Zie Machtigingen [in Exchange Online voor meer informatie.](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
 
-  **Opmerking:** als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen in het beveiligings- & compliancecentrum en machtigingen voor andere functies in Microsoft 365.  Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  **Opmerking:** als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol  in het Microsoft 365-beheercentrum, krijgen gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Het beveiligings- & gebruiken om vooraf ingestelde beveiligingsbeleidsregels aan gebruikers toe te wijzen
 
-1. Ga in het & compliancecentrum naar  Vooraf ingestelde beveiligingsbeleidsregels voor \>  \> **risicobeheerbeleid.**
+1. Ga in het & compliancecentrum naar  Vooraf ingesteld beveiligingsbeleid voor \>  \> **risicobeheerbeleid.**
 
 2. Klik **onder Standaardbeveiliging** **of Strikte beveiliging** op **Bewerken.**
 
@@ -155,7 +155,7 @@ Met andere woorden, de  instellingen van het beleid voor  strikte beveiliging ov
 
 De stappen voor het  wijzigen van  de toewijzing van het standaardbeveiligingsbeleid of het beveiligingsbeleid voor strikte beveiliging zijn hetzelfde als wanneer u het vooraf ingestelde beveiligingsbeleid in eerste instantie aan [gebruikers hebt toegewezen.](#use-the-security--compliance-center-to-assign-preset-security-policies-to-users)
 
-Als u het **beveiligingsbeleid standaard of** **Strikt** beveiligingsbeleid wilt uitschakelen terwijl de bestaande voorwaarden en uitzonderingen behouden blijven, schuift u de schakelaar naar **Uitgeschakeld.** Als u het beleid wilt inschakelen, schuift u de schakelaar naar **Ingeschakeld.**
+Als u het **beveiligingsbeleid Standaard of** **Strikt beveiligingsbeleid** wilt uitschakelen terwijl de bestaande voorwaarden en uitzonderingen behouden blijven, schuift u de schakelaar naar **Uitgeschakeld.** Als u het beleid wilt inschakelen, schuift u de schakelaar naar **Ingeschakeld.**
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
@@ -163,4 +163,4 @@ Als u wilt controleren of  u het  beveiligingsbeleid Standaard- of Strikte bevei
 
 Controleer bijvoorbeeld bij e-mail die is gedetecteerd als spam (geen spam met hoge betrouwbaarheid) of het bericht wordt bezorgd in de map Ongewenste e-mail voor Standaardbeveiligingsgebruikers en of het in quarantaine is geplaatst voor gebruikers van strikte **beveiliging.** 
 
-Of controleer bij [bulkmail](bulk-complaint-level-values.md)of het bericht met BCL-waarde 6 of  hoger in de map Ongewenste e-mail voor standaardbeveiligingsgebruikers wordt geplaatst, en of het bericht in quarantaine wordt geplaatst met BCL waarde 4 of hoger voor gebruikers met strikte beveiliging. 
+Of controleer bij [bulkmail](bulk-complaint-level-values.md)of het bericht met BCL-waarde 6 of  hoger in de map Ongewenste e-mail voor standaardbeveiligingsgebruikers wordt geplaatst en of het bericht in quarantaine wordt geplaatst met de waarde 4 of hoger voor gebruikers met strikte beveiliging. 

@@ -22,12 +22,12 @@ ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: 'Samenvatting: Planning en implementatie begeleiding voor snel bewegende organisaties met een verhoogd risicoprofiel.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f8ed01d2c41529782c5c714bfe66096b97300712
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 76680ef5b21ae80525a7158ca0473cf82bd154d7
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287399"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406326"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere wendbare organisaties
 
@@ -65,10 +65,8 @@ Als u een ontwikkel- of testomgeving voor deze oplossing wilt maken, gebruikt u 
 
   Maak vier SharePoint Online-teamsites met interne, privé, vertrouwelijke en zeer vertrouwelijke beveiligingsniveaus.
 
-Als u extra beveiligingsfuncties voor demonstratie of proof-of-concept wilt, raadpleegt u [Office 365-testlab-richtlijnen](https://aka.ms/o365tlgs).
+Als u extra beveiligingsfuncties voor demonstratie of proof-of-concept wilt, raadpleegt u [Office 365-testlab-richtlijnen](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md).
 
 ## <a name="see-also"></a>Zie ook
-
-[Testlabrichtlijnen voor cloudacceptatie (TLG's)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
 [Bronnen over IT-architectuur voor de Microsoft-cloud](../../solutions/cloud-architecture-models.md)

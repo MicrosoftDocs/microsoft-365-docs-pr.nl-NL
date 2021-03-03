@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b2e359f193f3c8b0502a1995b8e9d515eb03a983
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 250fba7bdf89425bce601112c7863eb9d1c952be
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287687"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407442"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Automatisch onderzoek en reactie (AIR) in Microsoft Defender voor Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "50287687"
 
 [Microsoft Defender voor Office 365](office-365-atp.md) bevat krachtige mogelijkheden voor geautomatiseerde onderzoeken en antwoorden (AIR) die teamtijd en inspanning voor beveiligingsbewerkingen kunnen besparen. Wanneer waarschuwingen worden geactiveerd, is het aan uw team voor beveiligingsbewerkingen om die waarschuwingen te controleren, een prioriteit te geven en hierop te reageren. Het bijhouden van het volume van binnenkomende meldingen kan overweldigend zijn. Het automatiseren van een aantal van deze taken kan helpen.
 
-Met AIR kunnen uw team voor beveiligingsactiviteiten efficiënter en efficiënter werken. AIR-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die op dit moment bestaan. Juiste herstelacties wachten op goedkeuring, zodat het team voor beveiligingsbewerkingen effectief kan reageren op gedetecteerde bedreigingen. Met AIR kan uw team voor beveiligingsbewerkingen zich richten op taken met een hogere prioriteit zonder dat u belangrijke waarschuwingen ziet die worden geactiveerd.
+Met AIR kan uw team voor beveiligingsactiviteiten efficiënter en efficiënter werken. AIR-mogelijkheden omvatten geautomatiseerde onderzoeksprocessen in reactie op bekende bedreigingen die op dit moment bestaan. Juiste herstelacties wachten op goedkeuring, zodat het team voor beveiligingsbewerkingen effectief kan reageren op gedetecteerde bedreigingen. Met AIR kan uw team voor beveiligingsbewerkingen zich richten op taken met een hogere prioriteit zonder dat u belangrijke waarschuwingen ziet die worden geactiveerd.
 
 In dit artikel worden de volgende artikelen beschreven:
 
@@ -57,7 +57,7 @@ Er wordt een waarschuwing geactiveerd en een beveiligings playbook start een gea
 1. Een geautomatiseerd onderzoek wordt op een van de volgende manieren gestart:
    - Een [waarschuwing wordt geactiveerd door iets](#which-alert-policies-trigger-automated-investigations) verdachts in e-mailberichten (zoals een bericht, bijlage, URL of gekromd gebruikersaccount). Er wordt een incident gemaakt en er wordt een automatisch onderzoek gestart. of
    - Een beveiligingsanalist [start een geautomatiseerd onderzoek](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) terwijl u [Bedreigingsverkenner gebruikt.](threat-explorer.md)
-2. Terwijl een geautomatiseerd onderzoek wordt uitgevoerd, worden er gegevens verzameld over de e-mail in kwestie en entiteiten die aan die e-mail zijn gerelateerd. Dergelijke entiteiten kunnen bestanden, URL's en geadresseerden bevatten. Het bereik van het onderzoek kan toenemen naarmate nieuwe en gerelateerde waarschuwingen worden geactiveerd.
+2. Terwijl een geautomatiseerd onderzoek wordt uitgevoerd, worden er gegevens verzameld over het e-mailbericht in kwestie en entiteiten die aan die e-mail zijn gerelateerd. Dergelijke entiteiten kunnen bestanden, URL's en geadresseerden bevatten. Het bereik van het onderzoek kan toenemen naarmate nieuwe en gerelateerde waarschuwingen worden geactiveerd.
 3. Tijdens en na een geautomatiseerd onderzoek zijn [details en resultaten](air-view-investigation-results.md) beschikbaar. De resultaten [omvatten aanbevolen acties](air-remediation-actions.md) die kunnen worden ondernomen om te reageren op bedreigingen die zijn gevonden en te herstellen.
 4. Het team voor beveiligingsbewerkingen bekijkt [de resultaten](air-view-investigation-results.md)en aanbevelingen van het onderzoek en kan herstelacties goedkeuren [of afwijzen.](air-review-approve-pending-completed-actions.md)
 5. Als herstelacties in behandeling worden goedgekeurd (of geweigerd), wordt het geautomatiseerde onderzoek voltooid.
@@ -83,7 +83,7 @@ AIR-mogelijkheden zijn inbegrepen in [Microsoft Defender voor Office 365,](offic
 - [Antispambeveiliging](protect-against-threats.md#part-3---anti-spam-protection)
 - [Veilige koppelingen en veilige bijlagen](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
 - [Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
-- [0-uurs auto purge voor e-mail.](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
+- [Automatisch nul-uurs purge voor e-mail.](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
 
 Controleer ook het waarschuwingsbeleid van uw [organisatie,](../../compliance/alert-policies.md)met name het standaardbeleid in de categorie [Bedreigingsbeheer.](../../compliance/alert-policies.md#default-alert-policies)
 
@@ -93,9 +93,9 @@ Microsoft 365 biedt veel ingebouwde beleidsregels voor waarschuwingen die helpen
 
 |Waarschuwing|Ernst|Hoe de waarschuwing wordt gegenereerd|
 |:---|:---|:---|
-|Er is een mogelijk schadelijke URL-klik gedetecteerd|**Hoog**|Deze waarschuwing wordt gegenereerd wanneer een van de volgende optreedt: <ul><li>Een gebruiker die is beveiligd [door veilige koppelingen](atp-safe-links.md) in uw organisatie, klikt op een schadelijke koppeling</li><li>Wijzigingen in wijzigingen aan wijzigingen in URL's worden aangegeven met Microsoft Defender voor Office 365</li><li>Gebruikers vervangen waarschuwingspagina's voor veilige koppelingen (op basis van het beleid voor veilige koppelingen [van uw organisatie).](set-up-atp-safe-links-policies.md)</li></ul> <p> Zie Beleid voor veilige koppelingen instellen voor meer informatie over gebeurtenissen die deze waarschuwing [activeren.](set-up-atp-safe-links-policies.md)|
+|Er is een mogelijk schadelijke URL-klik gedetecteerd|**Hoog**|Deze waarschuwing wordt gegenereerd wanneer een van de volgende optreedt: <ul><li>Een gebruiker die is beveiligd [door veilige koppelingen](atp-safe-links.md) in uw organisatie, klikt op een schadelijke koppeling</li><li>Wijzigingen in wijzigingen aan wijzigingen in URL's worden aangegeven met Microsoft Defender voor Office 365</li><li>Gebruikers vervangen waarschuwingspagina's met veilige koppelingen (op basis van het beleid voor veilige koppelingen [van uw organisatie).](set-up-atp-safe-links-policies.md)</li></ul> <p> Zie Beleid voor veilige koppelingen instellen voor meer informatie over gebeurtenissen die deze waarschuwing [activeren.](set-up-atp-safe-links-policies.md)|
 |Een e-mailbericht wordt door een gebruiker gerapporteerd als malware of phish|**Informatie**|Deze waarschuwing wordt gegenereerd wanneer gebruikers in uw organisatie berichten als [phishing-e-mail](enable-the-report-message-add-in.md) melden met behulp van de invoegapp Bericht rapporteren of de invoeg voor [phishing melden.](enable-the-report-phish-add-in.md)|
-|E-mailberichten met malware worden verwijderd na bezorging|**Informatie**|Deze waarschuwing wordt gegenereerd wanneer e-mailberichten met malware worden bezorgd in postvakken in uw organisatie. Als deze gebeurtenis optreedt, verwijdert Microsoft de geïnfecteerde berichten uit Exchange Online-postvakken met [auto purge van nul uur.](zero-hour-auto-purge.md)|
+|E-mailberichten met malware worden verwijderd na bezorging|**Informatie**|Deze waarschuwing wordt gegenereerd wanneer e-mailberichten met malware worden bezorgd in postvakken in uw organisatie. Als deze gebeurtenis optreedt, verwijdert Microsoft de geïnfecteerde berichten uit Exchange Online-postvakken met behulp van Automatisch verwijderen [van nul uur.](zero-hour-auto-purge.md)|
 |E-mailberichten met phish-URL's worden na bezorging verwijderd|**Informatie**|Deze waarschuwing wordt gegenereerd wanneer berichten met phish worden bezorgd in postvakken in uw organisatie. Als deze gebeurtenis optreedt, verwijdert Microsoft de geïnfecteerde berichten uit Exchange Online-postvakken met behulp van Automatisch verwijderen [van nul uur.](zero-hour-auto-purge.md)|
 |Er worden verdachte patronen voor het verzenden van e-mailberichten gedetecteerd|**Gemiddeld**|Deze waarschuwing wordt gegenereerd wanneer iemand in uw organisatie verdachte e-mailberichten heeft verzonden en het risico loopt dat het verzenden van e-mail wordt beperkt. De waarschuwing is een vroegtijdige waarschuwing voor gedrag dat erop kan duiden dat het account is gehackt, maar niet ernstig genoeg is om de gebruiker te beperken. <p> Hoewel het zelden gebeurt, kan een waarschuwing die door dit beleid wordt gegenereerd, een afwijking zijn. Het is echter een goed idee om te controleren of het [gebruikersaccount is gehackt.](responding-to-a-compromised-email-account.md)|
 |Een gebruiker kan geen e-mail verzenden|**Hoog**|Deze waarschuwing wordt gegenereerd wanneer iemand in uw organisatie geen uitgaande e-mail kan verzenden. Deze waarschuwing is meestal het gevolg wanneer een [e-mailaccount wordt gekromd.](responding-to-a-compromised-email-account.md) <p> Zie Geblokkeerde gebruikers verwijderen uit de portal voor beperkte gebruikers [in Microsoft 365](removing-user-from-restricted-users-portal-after-spam.md)voor meer informatie over beperkte gebruikers.|
@@ -131,10 +131,10 @@ Als u al AIR-mogelijkheden gebruikt in Microsoft Defender voor Office 365, ziet 
 Het nieuwe en verbeterde beveiligingscentrum brengt AIR-mogelijkheden samen in Microsoft Defender voor [Office 365](office-365-atp.md) en in [Microsoft Defender voor Eindpunt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) Met deze updates en verbeteringen kan het team voor beveiligingsbewerkingen op één plaats details bekijken over geautomatiseerde onderzoeken en herstelacties voor uw e-mail, samenwerkingsinhoud, gebruikersaccounts en apparaten.
 
 > [!TIP]
-> Het nieuwe Microsoft 365-beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) () vervangt de volgende datacenters:
+> Het nieuwe Microsoft 365-beveiligingscentrum <https://security.microsoft.com> () vervangt de volgende datacenters:
 >
-> - Office 365-& compliancecentrum [https://protection.office.com](https://protection.office.com) ()
-> - Microsoft Defender-beveiligingscentrum [https://securitycenter.windows.com](https://securitycenter.windows.com) ()
+> - Office 365-& compliancecentrum <https://protection.office.com> ()
+> - Microsoft Defender-beveiligingscentrum <https://securitycenter.windows.com> ()
 >
 > Naast het wijzigen van de URL is er ook een nieuw uiterlijk, dat is ontworpen om uw beveiligingsteam een meer gestroomlijnde ervaring te bieden, met zichtbaarheid voor meer bedreigingsdetectie op één plek.
 

@@ -17,12 +17,12 @@ ms.collection:
 description: Microsoft heeft diverse beleidsregels en procedures ontwikkeld en verschillende best practices in de branche gebruikt om onze gebruikers te beschermen tegen aanstootgevende, ongewenste of schadelijke e-mail.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1065fdef5f804214ca48f7ca54170e6e417490d7
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: f53b1c36417b15e366b527dd1c12e4f23c06f632
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289195"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406594"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Verwijzing: Beleid, procedures en richtlijnen
 
@@ -33,13 +33,13 @@ ms.locfileid: "50289195"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Microsoft doet er alles aan om de meest vertrouwde gebruikerservaring op internet te bieden. Daarom heeft Microsoft verschillende beleidsregels en procedures ontwikkeld en verschillende best practices in de branche gebruikt om onze gebruikers te beschermen tegen aanstootgevende, ongewenste of schadelijke e-mail. Afzenders die e-mail naar gebruikers proberen te verzenden, dienen er zeker van te zijn dat ze volledig begrijpen en de richtlijnen in dit artikel volgen om deze inspanning te helpen en mogelijke bezorgingsproblemen te helpen voorkomen.
+Microsoft doet er alles aan om de meest vertrouwde gebruikerservaring op internet te bieden. Daarom heeft Microsoft verschillende beleidsregels en procedures ontwikkeld en verschillende best practices in de branche gebruikt om onze gebruikers te beschermen tegen aanstootgevende, ongewenste of schadelijke e-mail. Afzenders die e-mailberichten naar gebruikers verzenden, dienen er zeker van te zijn dat ze volledig begrijpen en de richtlijnen in dit artikel volgen om te helpen bij deze inspanning en mogelijke bezorgingsproblemen te helpen voorkomen.
 
 Als u niet voldoet aan dit beleid en deze richtlijnen, kan ons ondersteuningsteam u mogelijk niet helpen. Als u zich houdt aan de richtlijnen, procedures en het beleid dat in dit artikel wordt beschreven en nog steeds bezorgingsproblemen ondervindt op basis van uw IP-adres, volgt u de stappen om een aanvraag voor het inzenden van berichten in te dienen. Zie De portal [delist gebruiken om uzelf](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)uit de lijst met geblokkeerde afzenders te verwijderen voor instructies.
 
 ## <a name="general-microsoft-policies"></a>Algemeen Microsoft-beleid
 
-E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle beleidsregels van Microsoft voor de verzending en het gebruik van e-mail van Microsoft 365.
+E-mail die naar Gebruikers van Microsoft 365 wordt verzonden, moet voldoen aan alle beleidsregels van Microsoft voor de verzending en het gebruik van e-mail van Microsoft 365.
 
 - De servicesvoorwaarden die van toepassing zijn op Microsoft 365; met name het verbieden van het gebruik van de service voor spam of het verspreiden van malware.
 
@@ -91,7 +91,7 @@ Microsoft werkt actief samen met brancheorganisaties en serviceproviders om het 
 
 - [Messaging Malware Mobile Anti-Abuse Working Group](https://www.m3aawg.org/)
 
-- [Online Trust Alliance](https://www.otalliance.org/resources)
+- [Online Trust Alliance](https://www.internetsociety.org/ota/)
 
 - [Afzender van e& mailprovider](https://www.espcoalition.org/)
 
@@ -101,4 +101,4 @@ Zie Berichten en bestanden rapporteren aan Microsoft voor informatie over het me
 
 ## <a name="law-enforcement"></a>Advocatenkantoor
 
-Als u lid bent van de juridische procedure en u microsoft Corporation wilt helpen met juridische documentatie met betrekking tot Office 365, of als u vragen hebt over juridische documentatie die u bij Microsoft hebt ingediend, belt u (1) (425) 722-1299.
+Als u lid bent van de juridische procedure en u microsoft Corporation wilt helpen met juridische documentatie met betrekking tot Office 365, of als u vragen hebt met betrekking tot juridische documentatie die u bij Microsoft hebt ingediend, belt u (1) (425) 722-1299.

@@ -20,12 +20,12 @@ description: Informatie over het gebruik van bedreigingsonderzoek en reactiemoge
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b36e16f5351ab30ac8150fbc3e87feb9ca4a6453
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 0700345ed32b736669adc4e35ddc8aa1476b699f
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286631"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406454"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Schadelijke e-mail onderzoeken die is bezorgd in Office 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "50286631"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-[Met Microsoft Defender voor Office 365](office-365-atp.md) kunt u activiteiten onderzoeken die personen in uw organisatie in gevaar brengen en acties ondernemen om uw organisatie te beschermen. Als u bijvoorbeeld deel uitmaakt van het beveiligingsteam van uw organisatie, kunt u verdachte e-mailberichten zoeken en onderzoeken die zijn bezorgd. U kunt dit doen met behulp van Bedreigingsverkenner [(of realtime detecties).](threat-explorer.md)
+[Met Microsoft Defender voor Office 365](office-365-atp.md) kunt u activiteiten onderzoeken die personen in uw organisatie in gevaar brengen en acties ondernemen om uw organisatie te beschermen. Als u bijvoorbeeld deel uitmaakt van het beveiligingsteam van uw organisatie, kunt u verdachte e-mailberichten zoeken en onderzoeken die zijn bezorgd. U kunt dit doen met behulp [van Bedreigingsverkenner (of realtime detecties).](threat-explorer.md)
 
 > [!NOTE]
 > Ga naar het artikel over herstel [hier.](remediate-malicious-email-delivered-office-365.md)
@@ -51,9 +51,9 @@ Zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
 - Uw organisatie heeft beleid gedefinieerd voor antispam, anti-malware, anti-phishing, en meer. Zie [Beveiligen tegen bedreigingen in Office 365.](protect-against-threats.md)
 
-- U bent een globale beheerder of u hebt de beveiligingsbeheerder of de rol Zoeken en & toegewezen. Zie [Machtigingen in het beveiligings- & compliancecentrum.](permissions-in-the-security-and-compliance-center.md) Voor sommige acties moet ook een nieuwe Preview-rol zijn toegewezen.
+- U bent een globale beheerder of u hebt de beveiligingsbeheerder of de rol Zoeken en purge toegewezen in het & compliancecentrum. Zie [Machtigingen in het beveiligings- & compliancecentrum.](permissions-in-the-security-and-compliance-center.md) Voor sommige acties moet ook een nieuwe Preview-rol zijn toegewezen.
 
-### <a name="preview-role-permissions"></a>Voorbeeld van rolmachtigingen bekijken
+### <a name="preview-role-permissions"></a>Voorbeeld van rolmachtigingen
 
 Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of het downloaden van de inhoud van e-mailberichten, moet u een nieuwe rol met de naam *Voorbeeld* toevoegen aan een andere geschikte rollengroep. In de volgende tabel worden vereiste rollen en machtigingen toegelicht.
 
@@ -67,14 +67,14 @@ Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of h
 |
 
 > [!NOTE]
-> *Preview* is een rol en niet een rollengroep; De Preview-rol moet worden toegevoegd aan een bestaande rollengroep voor Office 365 (op [https://protection.office.com](https://protection.office.com) ). Ga naar **Machtigingen** en bewerk vervolgens een bestaande rollengroep of voeg een nieuwe rollengroep toe aan de **preview-rol.**
+> *Preview* is een rol en niet een rollengroep; De Preview-rol moet worden toegevoegd aan een bestaande rollengroep voor Office 365 (op <https://protection.office.com> ). Ga naar **Machtigingen** en bewerk vervolgens een bestaande rollengroep of voeg een nieuwe rollengroep toe aan de **preview-rol.**
 > De rol globale beheerder wordt toegewezen aan het Microsoft 365-beheercentrum ( ) en de rollen voor beveiligingsbeheerder en beveiligingslezer worden toegewezen in het <https://admin.microsoft.com> beveiligings- & Compliancecentrum ( <https://protection.office.com> ). Zie Machtigingen in het beveiligings- en compliancecentrum voor meer informatie over rollen [& machtigingen.](permissions-in-the-security-and-compliance-center.md)
 
-We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is controle ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten voor e-mailberichten uitvoert, worden er controlelogboeken voor hetzelfde gegenereerd en kunt u deze bekijken in het Office 365-beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) ). Ga naar **Zoeken in**  >  **het auditlogboek** en filter op de naam van de beheerder in de sectie Zoeken. De gefilterde resultaten tonen **adminMailAccess van de activiteit.** Selecteer een rij om details weer te geven in **de sectie Meer informatie** over bekeken of gedownloade e-mailberichten.
+We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is controle ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden er voor hetzelfde auditlogboeken gegenereerd en zijn deze zichtbaar in het Office 365-& Compliancecentrum ( <https://protection.office.com> ). Ga naar **Zoeken**  >  **in auditlogboek en** filter op de naam van de beheerder in de sectie Zoeken. De gefilterde resultaten tonen **adminMailAccess van de activiteit.** Selecteer een rij om details weer te geven in **de sectie Meer informatie** over bekeken of gedownloade e-mailberichten.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Verdachte e-mailberichten zoeken die zijn bezorgd
 
-Bedreigingsverkenner is een krachtig rapport dat meerdere doeleinden kan dienen, zoals het zoeken en verwijderen van berichten, het IDENTIFICEREN van het IP-adres van een kwaadwillende afzender van e-mail of het starten van een incident voor nader onderzoek. De volgende procedure is gericht op het zoeken en verwijderen van schadelijke e-mail in de postvakken van de geadresseerde.
+Bedreigingsverkenner is een krachtig rapport dat meerdere doeleinden kan dienen, zoals het zoeken en verwijderen van berichten, het IDENTIFICEREN van het IP-adres van een kwaadwillende afzender van e-mail of het starten van een incident voor verder onderzoek. De volgende procedure is gericht op het zoeken en verwijderen van schadelijke e-mail in de postvakken van de geadresseerde.
 
 > [!NOTE]
 > Standaard zoekopdrachten in Verkenner bevatten momenteel geen gezapeerde items.  Dit geldt voor alle weergaven, bijvoorbeeld malware- of phish-weergaven. Als u zapped-items wilt opnemen, moet u een set **leveringsactie** toevoegen die **is verwijderd door ZAP.** Als u alle opties opneemt, ziet u alle resultaten van de bezorgingsactie, inclusief Zapped-items.
@@ -87,13 +87,13 @@ Bedreigingsverkenner is een krachtig rapport dat meerdere doeleinden kan dienen,
 
     Mogelijk ziet u de nieuwe **kolom Speciale** acties. Deze functie is bedoeld om beheerders te laten weten wat het resultaat is van het verwerken van een e-mailbericht. De **kolom Speciale** acties kan worden gebruikt op dezelfde plaats als de bezorgingsactie en de  **bezorgingslocatie.** Speciale acties worden mogelijk bijgewerkt aan het einde van de e-mailtijdlijn van Bedreigingsverkenner. Dit is een nieuwe functie die is gericht op het verbeteren van de zoekervaring voor beheerders.
 
-3. **Weergaven in Bedreigingsverkenner:** kies in **het** menu Beeld de **optie Alle e-mailberichten.**
+3. **Weergaven in Bedreigingsverkenner:** **kies** alle e-mailberichten in het menu **Beeld.**
 
     ![Het menu Beeld van bedreigingsverkenner en e-mail - Malware, Phish, Inzending en Alle e-mailopties, ook Inhoud - Malware.](../../media/tp-InvestigateMalEmail-viewmenu.png)
 
-    De *weergave Malware* is momenteel de standaardweergave en legt e-mailberichten vast waar een malware bedreiging wordt gedetecteerd. De *weergave Phish* werkt op dezelfde manier, voor Phish.
+    De *weergave Malware* is momenteel de standaardweergave en legt e-mailberichten vast waarin een malware bedreiging is gedetecteerd. De *weergave Phish* werkt op dezelfde manier, voor Phish.
 
-    In alle *e-mailweergaven* wordt echter elke e-mail vermeld die door de organisatie is ontvangen, ongeacht of er bedreigingen zijn gedetecteerd. U kunt zich voorstellen dat dit een groot aantal gegevens is en daarom wordt in deze weergave een tijdelijke aanduiding gebruikt waarin u wordt gevraagd om een filter toe te paste. (Deze weergave is alleen beschikbaar voor Defender voor klanten met Office 365 P2.)
+    In alle *e-mailweergaven* wordt echter elke e-mail vermeld die door de organisatie is ontvangen, ongeacht of er bedreigingen zijn gedetecteerd. U kunt zich voorstellen dat dit een groot aantal gegevens is en daarom wordt in deze weergave een tijdelijke aanduiding weergeven waarin u wordt gevraagd om een filter toe te paste. (Deze weergave is alleen beschikbaar voor Defender voor klanten met Office 365 P2.)
 
     *De weergave Inzendingen* toont alle e-mailberichten die zijn verzonden door een beheerder of gebruiker en die zijn gerapporteerd bij Microsoft.
 
@@ -107,9 +107,9 @@ Bedreigingsverkenner is een krachtig rapport dat meerdere doeleinden kan dienen,
 
 5. **Geavanceerde filters:** met deze filters kunt u complexe query's maken en uw gegevensset filteren. Als u op Geavanceerde *filters klikt,* wordt een flyout met opties geopend.
 
-   Geavanceerd filteren is een goede aanvulling op de zoekmogelijkheden. Er is een boolean **filter NIET** geïntroduceerd in het domein *Recipient,* *Sender* en *Sender* om beheerders in staat te stellen onderzoek te doen door waarden uit te sluiten. Deze optie wordt weergegeven onder de *selectieparameter Bevat geen van.* Met **NOT** kunnen beheerders waarschuwingspostvakken uitsluiten, postvakken met standaardantwoorden uitsluiten van hun onderzoek en dit is handig in gevallen waarin beheerders zoeken naar een specifiek onderwerp (onderwerp='Aandacht'), waarbij de ontvanger kan worden ingesteld op geen *van de \@ defaultMail-contoso.com.* Dit is een exacte waardezoekactie.
+   Geavanceerd filteren is een goede aanvulling op de zoekmogelijkheden. Er is een boolean **filter NOT** geïntroduceerd in het domein *Recipient,* *Sender* en *Sender* om beheerders in staat te stellen onderzoek te doen door waarden uit te sluiten. Deze optie wordt weergegeven onder de selectieparameter *Bevat geen van.* Met **NOT** kunnen beheerders waarschuwingspostvakken uitsluiten, postvakken met standaardantwoorden uitsluiten van onderzoek en dit is handig in gevallen waarin beheerders zoeken naar een specifiek onderwerp (onderwerp='Aandacht'), waarbij de ontvanger geen *\@ defaultMail-contoso.com.* Dit is een exacte waardezoekactie.
 
-   ![De geadresseerden: 'Bevat geen' geavanceerd filter.](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
+   ![De geadresseerden: 'Bevat geen van' Geavanceerd filter.](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
 
    *Door te filteren op uren* kan het beveiligingsteam van uw organisatie snel inzoomen. De kortste toegestane tijdsduur is 30 minuten. Als u de verdachte actie kunt beperken op tijd (bijvoorbeeld het probleem is 3 uur geleden gebeurd), wordt de context beperkt en kan het probleem worden gelokaliseerd.
 
@@ -151,7 +151,7 @@ Bedreigingsverkenner is een krachtig rapport dat meerdere doeleinden kan dienen,
 
     **URL-bedreiging:** het veld URL-bedreiging is opgenomen op het *detailtabblad* van een e-mail om de bedreiging aan te geven die door een URL wordt voorgesteld. Bedreigingen die door een URL worden gepresenteerd, kunnen *Malware,* *Phish* of *Spam* zijn, en een URL *zonder* bedreiging staat *Onder* de bedreigingssectie.
 
-7. **E-mailtijdlijnweergave:** Uw team voor beveiligingsbewerkingen moet mogelijk dieper in op de e-maildetails om nader onderzoek te doen. Via de e-mailtijdlijn kunnen beheerders acties bekijken die voor een e-mailbericht zijn gemaakt, van bezorging tot na bezorging. Als u een tijdlijn per e-mail wilt weergeven, klikt u op het onderwerp van een e-mailbericht en klikt u vervolgens op Tijdlijn per e-mail. (Deze wordt weergegeven naast andere koppen in het deelvenster, zoals Overzicht of Details.) Deze resultaten kunnen worden geëxporteerd naar een spreadsheet.
+7. **E-mailtijdlijnweergave:** Uw team voor beveiligingsbewerkingen moet mogelijk dieper in op de e-maildetails om nader onderzoek te doen. Via de e-mailtijdlijn kunnen beheerders acties bekijken die voor een e-mailbericht zijn gemaakt, van bezorging tot na bezorging. Als u een tijdlijn per e-mail wilt weergeven, klikt u op het onderwerp van een e-mailbericht en klikt u vervolgens op Tijdlijn via e-mail. (Deze wordt weergegeven naast andere koppen in het deelvenster, zoals Overzicht of Details.) Deze resultaten kunnen worden geëxporteerd naar een spreadsheet.
 
     De e-mailtijdlijn wordt geopend in een tabel met alle bezorgings- en bezorgingsgebeurtenissen voor de e-mail. Als er geen verdere acties op de e-mail zijn, moet u één gebeurtenis zien voor de oorspronkelijke bezorging die een resultaat, zoals *Geblokkeerd,* met een uitspraak zoals *Phish geeft.* Beheerders kunnen de volledige tijdlijn van de e-mail exporteren, inclusief alle details op het tabblad en e-mailberichten (zoals Onderwerp, Afzender, Geadresseerde, Netwerk en Bericht-id). De e-mailtijdlijn bezuinigt minder willekeurigheid omdat er minder tijd wordt besteed aan het controleren van verschillende locaties om te proberen wat er precies is gebeurd sinds de e-mail is ontvangen. Wanneer er meerdere gebeurtenissen tegelijk op of in de buurt van een e-mailbericht plaatsvinden, worden deze gebeurtenissen weergegeven in een tijdlijnweergave.
 
@@ -169,7 +169,7 @@ Bezorgingsstatus is nu onderverdeeld in twee kolommen:
 
 - **Bezorgingsactie:** wat is de status van deze e-mail?
 
-- **Bezorgingslocatie:** waar is deze e-mail omgeleid?
+- **Bezorgingslocatie:** waar is deze e-mail als gevolg van gerouteerd?
 
 Bezorgingsactie is de actie die wordt ondernomen op een e-mail vanwege bestaand beleid of detecties. Dit zijn de mogelijke acties die een e-mail kan uitvoeren:
 
