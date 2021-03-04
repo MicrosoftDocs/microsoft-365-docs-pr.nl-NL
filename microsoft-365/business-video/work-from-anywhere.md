@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Overzicht van hoe Microsoft 365 u helpt vanaf elke locatie te werken.
-ms.openlocfilehash: 55327fff51b67107aab7069c0036e8ded9b73cbb
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 7c3a0ee4b69f7fa4e07064f0adc108afe70bd54d
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927776"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421679"
 ---
 # <a name="work-from-anywhere---overview"></a>Werken vanaf elke locatie - overzicht
 
@@ -45,7 +43,7 @@ Gebruik deze sjabloon om uw gewoonten te analyseren en de manier waarop u wilt w
 
 U kunt op de hoogte blijven van e-mails en afspraken met Outlook op uw telefoon. Download de app, start en meld u aan en stel uw account in.
 
-Meer informatie over het [installeren van Outlook op een telefoon.](https://support.microsoft.com/office/647909af-560f-4977-ae45-3b45ad9e8236)
+Meer informatie over het installeren [van Outlook op een telefoon.](https://support.microsoft.com/office/647909af-560f-4977-ae45-3b45ad9e8236)
 
 ## <a name="save-your-files-to-the-cloud"></a>uw bestanden opslaan in de cloud
 
@@ -53,7 +51,7 @@ Sla uw zakelijke bestanden op in Microsoft Teams of SharePoint. Op die manier ku
 
 **Mobiele Apps voor SharePoint en Microsoft Teams instellen**
 
-- De [mobiele SharePoint-app downloaden.](https://support.microsoft.com/office/539608ac-4725-455e-aea0-9ca1f769849f)
+- De mobiele [SharePoint-app downloaden.](https://support.microsoft.com/office/539608ac-4725-455e-aea0-9ca1f769849f)
 - De mobiele [app van Microsoft Teams downloaden.](https://support.microsoft.com/office/set-up-your-teams-mobile-apps-1ba8dce3-1122-47f4-8db6-00a4f93117e8)
 
 U kunt uw persoonlijke bestanden opslaan in OneDrive en synchroniseren vanaf uw telefoon.
@@ -100,7 +98,7 @@ U kunt ook documenten maken en bewerken vanuit uw browser. Bestanden openen, tek
 
 Vanaf uw laptop:
 
-- Klik in Microsoft Teams op **de** knop Vergaderingen aan de linkerkant van de app en u ziet een lijst met al uw vergaderingen :::image type="icon" source="../media/meetings-icon.png" border="false"::: voor deze week. Zoek de 3D-vergadering en klik op Deelnemen.
+- Klik in Microsoft Teams op **de** knop Vergaderingen aan de linkerkant van de app en u ziet een lijst met al uw :::image type="icon" source="../media/meetings-icon.png" border="false"::: vergaderingen voor deze week. Zoek de 3D-vergadering en klik op Deelnemen.
 
 Vanaf uw telefoon:
 

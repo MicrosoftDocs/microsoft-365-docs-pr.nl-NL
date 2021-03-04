@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over het toevoegen van een andere beheerder.
-ms.openlocfilehash: edeaf39c83271d1ba5be1af175a48fba94e7e2af
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 83b4432858f33f8132647840b746bb5aa23d68b5
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927644"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423175"
 ---
 # <a name="add-an-admin"></a>Een beheerder toevoegen
 
@@ -42,7 +40,7 @@ Wanneer u zich registreert voor Microsoft 365 Business, wordt u automatisch een 
 
 1. Wanneer u zich registreert voor Microsoft 365 Business, wordt u automatisch een globale beheerder. Om het bedrijf te helpen beheren, kunt u ook andere personen beheerders maken. 
 1. Selecteer gebruikers in het Microsoft 365-beheercentrum en vervolgens **Actieve gebruikers.** 
-1. Kies de gebruiker die u beheerder wilt maken en selecteer **rollen beheren.**
+1. Kies de gebruiker die u beheerder wilt maken en selecteer rollen **beheren.**
 1. Schakel in **het deelvenster Rollen** beheren het selectievakje van de huidige rol van de gebruiker uit en selecteer de nieuwe rol die u wilt toewijzen aan de gebruiker.
 1. Selecteer **Wijzigingen opslaan** en sluit het bijgewerkte **bevestigingsvenster beheerdersrollen.**
 

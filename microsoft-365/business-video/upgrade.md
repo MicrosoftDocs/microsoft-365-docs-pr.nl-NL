@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over het upgraden van Windows 10 Home naar Windows 10 Pro.
-ms.openlocfilehash: 3f775130728eb6f00b1adb008c697fb84254827b
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3e4d1e5220399ff2cfa25102cada165b25bc53ba
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927752"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421749"
 ---
 # <a name="upgrade-from-windows-10-home-to-windows-10-pro"></a>Upgraden van Windows 10 Home naar Windows 10 Pro
 
@@ -42,5 +40,5 @@ Voor Microsoft 365 Business is Windows 10 Pro vereist om uw gegevens te beveilig
 3. Kies **onder Upgrade naar Windows 10 Pro** de optie Meer **informatie** en kies vervolgens **Kopen.**
 4. Voer in  **het vak Windows-beveiliging**  uw pincode in om uw identiteit te verifiëren.
 5. Bekijk de betalingspagina, lees de verkoopvoorwaarden, wijzig indien nodig uw betalingswijze en kies Vervolgens **Kopen.**
-6. Kies **Installeren** onder Upgrade naar **Windows 10 Pro.**
+6. Kies Installeren onder Upgrade naar  **Windows 10 Pro.**
 7. Sla eventuele bestanden op en kies vervolgens  **Ja, laat** &#39;aan de start van de installatie van Windows.
