@@ -1,5 +1,5 @@
 ---
-title: Uw mobiele apparaat registreren met basis mobiliteit en beveiliging
+title: Uw mobiele apparaat registreren met Basic Mobility and Security
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,66 +17,66 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Voordat u Microsoft 365-Services met uw apparaat kunt gebruiken, moet u zich mogelijk eerst registreren in de basis mobiliteit en beveiliging voor Microsoft 365.
-ms.openlocfilehash: dc5a43b12fce50c9146200a4559fe9b7e6824b18
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: Voordat u microsoft 365-services met uw apparaat kunt gebruiken, moet u zich mogelijk eerst registreren in Basic Mobility and Security voor Microsoft 365.
+ms.openlocfilehash: 2a9c0bd9faf670d7dca340d3bc4e9f6586bd6b66
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877054"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423199"
 ---
-# <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>Uw mobiele apparaat registreren met basis mobiliteit en beveiliging
+# <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>Uw mobiele apparaat registreren met Basic Mobility and Security
 
-Het gebruik van uw telefoon, Tablet en andere mobiele apparaten voor werk is een fantastische manier om op de hoogte te blijven van en zakelijke projecten terwijl u niet op kantoor zit. Voordat u Microsoft 365-Services kunt gebruiken met uw apparaat, moet u zich mogelijk eerst registreren in de basis mobiliteit en beveiliging voor Microsoft 365 via Microsoft intune-bedrijfs portal.
+Het gebruik van uw telefoon, tablet en andere mobiele apparaten voor uw werk is een uitstekende manier om op de hoogte te blijven en aan zakelijke projecten te werken terwijl u niet op kantoor bent. Voordat u microsoft 365-services met uw apparaat kunt gebruiken, moet u het mogelijk eerst registreren in Basic Mobility and Security voor Microsoft 365 met microsoft Intune Company Portal.
 
-Organisaties kiezen eenvoudige mobiliteit en beveiliging, zodat werknemers hun mobiele apparaten kunnen gebruiken voor een veilige toegang tot e-mailberichten, agenda's en documenten van het bedrijf wanneer ze belangrijke gegevens beschermen en voldoen aan hun nalevingsvereisten.Voor meer informatie raadpleegt u [overzicht van basis mobiliteit en beveiliging voor Microsoft 365](overview.md). Zie [welke gegevens kan mijn organisatie zien wanneer ik mijn apparaat Registreer?](https://docs.microsoft.com/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune)voor meer informatie.
+Organisaties kiezen Basic Mobility en Security, zodat werknemers hun mobiele apparaten kunnen gebruiken om veilig toegang te krijgen tot zakelijke e-mail, agenda's en documenten, terwijl het bedrijf belangrijke gegevens beveiligt en voldoet aan de nalevingsvereisten.Zie Overzicht van Basic Mobility en Security voor [Microsoft 365 voor meer informatie.](overview.md) Zie Voor meer informatie welke [gegevens mijn organisatie kan zien wanneer ik mijn apparaat inschrijf?](https://docs.microsoft.com/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune)
 
 >[!IMPORTANT] 
->Wanneer u uw apparaat registreert onder basis en beveiliging voor Microsoft 365, is het mogelijk dat u een wachtwoord hebt ingesteld, samen met de optie voor uw werk organisatie om het apparaat te wissen. U kunt een apparaat wissen vanuit het Microsoft 365-Beheercentrum, bijvoorbeeld om alle gegevens van het apparaat te verwijderen als het wachtwoord niet te lang is ingevoerd of als de gebruiksvoorwaarden zijn verbroken.
+>Wanneer u uw apparaat inschrijft bij Basic Mobility and Security voor Microsoft 365, moet u mogelijk een wachtwoord instellen, samen met de mogelijkheid voor uw werkorganisatie om het apparaat te wissen. Een apparaat kan bijvoorbeeld worden gewist vanuit het Microsoft 365-beheercentrum om alle gegevens van het apparaat te verwijderen als het wachtwoord te vaak onjuist is ingevoerd of als de gebruiksvoorwaarden worden broken.
 
 ## <a name="supported-devices"></a>Ondersteunde apparaten
 
-Basis mobiliteit en beveiliging voor Microsoft 365 die worden gehost door de intune-service werkt met de meeste, maar niet alle mobiele apparaten. Het volgende wordt ondersteund met eenvoudige mobiliteit en beveiliging:
+Basic Mobility and Security voor Microsoft 365 gehost door de Intune-service werkt met de meeste, maar niet alle, mobiele apparaten. De volgende opties worden ondersteund voor Basic Mobility en Security:
 
-- iOS 10,0 of later
+- iOS 10.0 of hoger
 
-- Android 4,4 of hoger
+- Android 4.4 of hoger
 
-- Windows 8,1 en Windows 10 (telefoon en PC)
+- Windows 8.1 en Windows 10 (telefoon en pc)
 
-Neem contact op met de beheerder van uw werk of school als uw apparaat hierboven niet wordt genoemd en u het wilt gebruiken met eenvoudige mobiliteit en beveiliging.
+Als uw apparaat hierboven niet wordt vermeld en u dit wilt gebruiken met Basic Mobility and Security, neem dan contact op met de beheerder van uw werk of school.
 
 >[!TIP]
->Als u problemen ondervindt bij het registreren van uw apparaat, raadpleegt u [problemen met eenvoudige mobiliteit en beveiliging oplossen](/basic-mobility-security/troubleshoot.md).
+>Als u problemen hebt met het registreren van uw apparaat, zie Problemen met Basis mobiliteit [en beveiliging oplossen.](troubleshoot.md)
 
-## <a name="set-up-your-mobile-device-with-intune-and-basic-mobility-and-security"></a>Uw mobiele apparaat instellen met intune en Basic, mobiliteit en beveiliging
+## <a name="set-up-your-mobile-device-with-intune-and-basic-mobility-and-security"></a>Uw mobiele apparaat instellen met Intune en Basic Mobility and Security
 
-Met de intune-bedrijfs portal kunt u een apparaat beheren door Microsoft 365 en basis mobiliteit en beveiliging.
+Met de Intune-bedrijfsportal kan een apparaat worden beheerd door Microsoft 365 en Basic Mobility and Security.
 
 ### <a name="iphone-or-ipad"></a>iPhone of iPad
 
 >[!TIP]
->U kunt pas e-mail verzenden en ontvangen wanneer u deze stap voltooit.
+>U kunt pas e-mail verzenden en ontvangen als u deze stap hebt voltooid.
 
-Ga naar de App Store van Apple en download en installeer intune Company Portal.
+Ga naar de Apple App Store en download en installeer Intune Company Portal.
 
-Als u uw iOS-telefoon of-tablet met de bedrijfsportal wilt verbinden met Office 365, raadpleegt u de [toegang tot uw bedrijfsbronnen instellen voor IOS-apparaten](https://go.microsoft.com/fwlink/?linkid=875316).
+Als u uw iOS-telefoon of -tablet wilt verbinden en configureren met de bedrijfsportal voor Office 365, bekijkt u Apparaattoegang voor uw bedrijf [instellen.](https://go.microsoft.com/fwlink/?linkid=875316)
 
-### <a name="android-phone-or-tablet"></a>Android-telefoon of-Tablet
+### <a name="android-phone-or-tablet"></a>Android-telefoon of -tablet
 
 >[!TIP]
->U kunt pas e-mail verzenden en ontvangen wanneer u deze stap voltooit.
+>U kunt pas e-mail verzenden en ontvangen als u deze stap hebt voltooid.
 
-Ga naar de Google Play Store en download en installeer intune Company Portal.
+Ga naar de Google Play Store en download en installeer Intune Company Portal.
 
-Als u uw Android-telefoon of-tablet met de bedrijfsportal naar Microsoft 365 wilt verbinden en configureren, raadpleegt u [uw apparaat registreren met de bedrijfsportal](https://go.microsoft.com/fwlink/?linkid=875317).
+Als u verbinding wilt maken met uw Android-telefoon of -tablet en deze wilt configureren met de bedrijfsportal voor Microsoft 365, bekijkt u Uw apparaat registreren [met bedrijfsportal.](https://go.microsoft.com/fwlink/?linkid=875317)
 
-### <a name="windows-81-and-windows-10"></a>Windows 8,1 en Windows 10
+### <a name="windows-81-and-windows-10"></a>Windows 8.1 en Windows 10
 
-Ga naar de Microsoft Store en download en installeer intune Company Portal
+Ga naar de Microsoft Store en download en installeer Intune-bedrijfsportal
 
-Als u uw Windows-telefoon of-PC met de bedrijfsportal wilt verbinden en configureren met Microsoft 365, raadpleegt u [Windows-apparaten registratie in intune-bedrijfsportal](https://docs.microsoft.com/intune-user-help/windows-enrollment-company-portal).
+Als u verbinding wilt maken met uw Windows-telefoon of -pc en deze wilt configureren met de bedrijfsportal voor Microsoft 365, bekijkt u de inschrijving van [Windows-apparaten in de Intune-bedrijfsportal.](https://docs.microsoft.com/intune-user-help/windows-enrollment-company-portal)
 
 ## <a name="whats-next"></a>En nu?
 
-Wanneer uw apparaat is ingeschreven voor basis mobiliteit en beveiliging, kunt u Office-apps op uw apparaat gebruiken om te werken met e-mail, agenda, contactpersonen en documenten.
+Nadat uw apparaat is ingeschreven in Basic Mobility and Security, kunt u Office-apps op uw apparaat gaan gebruiken om te werken met e-mail, agenda, contactpersonen en documenten.

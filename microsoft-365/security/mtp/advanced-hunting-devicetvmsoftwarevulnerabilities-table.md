@@ -11,7 +11,7 @@ ms.pagetype: security
 f1.keywords:
 - NOCSH
 ms.author: maccruz
-author: maccruz
+author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ed5104068d7cff4ddace3405219ebc57092d390e
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: c5a143d835120339ade006dfd2dc394ec7c542d3
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50416782"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423871"
 ---
 # <a name="devicetvmsoftwarevulnerabilities"></a>DeviceTvmSoftwareVulnerabilities
 
@@ -41,9 +41,9 @@ ms.locfileid: "50416782"
 De tabel in het geavanceerde schema voor zoeken bevat de `DeviceTvmSoftwareVulnerabilities` [lijst & beveiligingslekken](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) in geïnstalleerde softwareproducten. Deze tabel bevat ook informatie over het besturingssysteem, CVE-identiteiten en informatie over ernst van beveiligingslees. U kunt deze tabel bijvoorbeeld gebruiken om te zoeken naar gebeurtenissen met apparaten die ernstige beveiligingsproblemen in hun software hebben. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 
 >[!NOTE]
-> De `DeviceTvmSoftwareInventory` tabel is vervangen door de `DeviceTvmSoftwareVulnerabilities` `DeviceTvmSoftwareInventoryVulnerabilities` tabellen. De eerste twee tabellen bevatten meer kolommen die u kunt gebruiken om uw activiteiten in het beheer van vulnerabliteit te informeren of te zoeken naar kwetsbaar apparaten.
+> De `DeviceTvmSoftwareInventory` tabel is vervangen door de `DeviceTvmSoftwareVulnerabilities` `DeviceTvmSoftwareInventoryVulnerabilities` tabellen. De eerste twee tabellen bevatten meer kolommen die u kunt gebruiken om uw vulnerablity-beheeractiviteiten te informeren of te zoeken naar kwetsbaar apparaten.
 
-Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geavanceerde schema voor [het zoeken.](advanced-hunting-schema-tables.md)
+Zie het geavanceerde zoekschema voor meer informatie over andere tabellen in het geavanceerde schema [voor zoeken.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
@@ -55,7 +55,7 @@ Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geav
 | `SoftwareVendor` | tekenreeks | Naam van de softwareleverancier |
 | `SoftwareName` | tekenreeks | Naam van het softwareproduct |
 | `SoftwareVersion` | tekenreeks | Versienummer van het softwareproduct |
-| `CveId` | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het systeem voor algemene beveiligingsproblemen en blootstellingen (CVE) |
+| `CveId` | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het cve-systeem (Common Vulnerabilities and Exposures) |
 | `VulnerabilitySeverityLevel` | tekenreeks | Niveau van ernst dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingsland |
 | `RecommendedSecurityUpdate` | tekenreeks | Naam of beschrijving van de beveiligingsupdate die door de softwareleverancier is verstrekt om dit beveiligingsprobleem op te pakken |
 | `RecommendedSecurityUpdateId` | tekenreeks | Id van de toepasselijke beveiligingsupdates of id voor de bijbehorende richtlijnen of Knowledge Base-artikelen |

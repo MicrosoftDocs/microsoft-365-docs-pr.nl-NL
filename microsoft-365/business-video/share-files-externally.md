@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Lees hoe u eenvoudig uw zakelijke bestanden extern kunt delen.
-ms.openlocfilehash: 4f5870859b06aa4229a37576bcc724ddb078d833
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: cde983fee8b4dbf2d03ff8b2fac77bdf20ee2eda
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925908"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421857"
 ---
 # <a name="easily-share-files-externally"></a>Bestanden gemakkelijk extern delen
 
@@ -42,4 +40,4 @@ Als u bestanden wilt delen met uw klanten en samen wilt werken aan documenten, g
 1. Schakel desgewenst het selectievakje Bewerken **toestaan in** en voer een vervaldatum in voor de koppeling.
 1. Kies **Toepassen.**
 1. Voer in **het venster Koppeling** verzenden het e-mailadres van de klant in, typ een bericht en kies **Verzenden.**
-1. De klant ontvangt een e-mailbericht met uw bericht en een koppeling naar uw bestanden.
+1. De klant ontvangt een e-mail met uw bericht en een koppeling naar uw bestanden.

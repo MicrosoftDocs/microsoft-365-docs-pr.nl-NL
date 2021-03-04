@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over het maken van e-mailregels om ransomware te voorkomen.
-ms.openlocfilehash: 3b45af71aa26beb31e21f5db662091f46343f97d
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 0d8b4a9de881f47752ac0bfbf778453d6ee73046
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926112"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422251"
 ---
 # <a name="create-email-rules-to-prevent-ransomware"></a>E-mailregels maken om ransomware te voorkomen
 
@@ -50,6 +48,6 @@ Microsoft 365 helpt uw bedrijf te beschermen tegen ransomware door te voorkomen 
 1. Schuif omlaag om de lijst te controleren en kies **OK.**
 1. Kies op **de pagina** Nieuwe regel de optie **Voorwaarde toevoegen** en kies vervolgens een voorwaarde onder Ga als volgt **te werk.**
 1. U kunt uit veel regelopties kiezen, maar in dit voorbeeld kiezen we de geadresseerde op de hoogte te stellen **met een bericht.**
-1. Voer berichttekst in voor de melding en kies **ok.**
+1. Voer de berichttekst voor de melding in en kies **ok.**
 1. Optioneel: Kies op de  **nieuwe** regelpagina uitzondering toevoegen en voer eventuele details in voor uitzonderingen op de regel, zoals berichten van vertrouwde afzenders.
 1. Kies Opslaan op de nieuwe regelpagina **en** bekijk de informatie over het overzicht van de regels.

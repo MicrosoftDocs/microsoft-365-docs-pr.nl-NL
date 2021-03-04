@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over wat u nodig hebt om Microsoft 365 Business Premium in te stellen.
-ms.openlocfilehash: 23524c96e994aa9df9a2799c81a6bbd5861ce5e4
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ac13ab8a932c76c000873866a7feae3b6b0c9d7f
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927908"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421893"
 ---
 # <a name="overview-of-microsoft-365-business-premium-setup"></a>Overzicht van het instellen van Microsoft 365 Business Premium
 
@@ -53,7 +51,7 @@ U&#39;geen apps voor boekhouding, salarisadministratie, CRM of een openbare webs
 
 ## <a name="1-sign-up-for-the-cloud"></a>1. Registreren voor de cloud
 
-Wanneer u een cloudabonnement voor uw bedrijf kiest, kunt u kiezen welke functies u in uw abonnement wilt gebruiken. Meer informatie over onze [microsoft-abonnementen voor kleine bedrijven.](https://www.microsoft.com/microsoft-365/business?rtc=1)
+Wanneer u een cloudabonnement voor uw bedrijf kiest, kunt u kiezen welke functies u wilt gebruiken in uw abonnement. Meer informatie over onze [microsoft-abonnementen voor kleine bedrijven.](https://www.microsoft.com/microsoft-365/business?rtc=1)
 
 - Kies [Office 365 Business Essentials](https://www.microsoft.com/en-us/p/office-365-business-essentials/cfq7ttc0k59v?rtc=1&amp;activetab=pivot:overviewtab) als u alleen online-apps (apps die u in een webbrowser kunt openen) wilt voor e-mail, het maken van documenten, samenwerking en cloudopslag. Dit geldt voor Word Online, Excel Online, PowerPoint Online en SharePoint Online.
 - Kies [Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium) als u de uitgebreide versie van Office-apps zoals Word, Excel en Teams wilt die rechtstreeks op uw pc's en Macs worden uitgevoerd. Dit is een aanvulling op de online-apps.
@@ -74,16 +72,16 @@ Wanneer u een cloudabonnement voor uw bedrijf kiest, kunt u kiezen welke functie
 - Wanneer u een gebruiker maakt, kunt&#39;naam, werk-e-mailadres, wachtwoord en andere gegevens toevoegen. Ze&#39;deze gegevens gebruiken om zich aan te melden bij de service en e-mail te ontvangen. U kunt hun wachtwoord, machtigingen of andere instellingen op elk moment wijzigen.
 
 
-## <a name="4-enable-threat-protection"></a>4. Bedreigingsbeveiliging inschakelen
+## <a name="4-enable-threat-protection"></a>4. Risicobeveiliging inschakelen
 
-- U&#39;Advanced Threat Protection in te stellen tijdens het instellen van de service. Microsoft 365 Advanced Threat Protection omvat configuratie-, beveiliging- en detectiemogelijkheden, waaronder veilige bijlagen, veilige koppelingen, SharePoint, OneDrive en Microsoft Teams-beveiliging, beveiliging tegen phishing en detectie van realtime bedreigingen.
+- U&#39;Advanced Threat Protection in te stellen tijdens het instellen van de service. Microsoft 365 Advanced Threat Protection omvat configuratie-, beveiliging- en detectiemogelijkheden, waaronder veilige bijlagen, veilige koppelingen, SharePoint, OneDrive en Microsoft Teams-beveiliging, beveiliging tegen phishing en detectie van realtime-bedreigingen.
 - Standaard ontvangt u&#39;basisbeveiliging tegen algemene onlinebedreigingen, maar u kunt deze instellingen later aanpassen aan uw bedrijfsbehoeften.
 
 ## <a name="5-manage-and-secure-your-devices"></a>5. Uw apparaten beheren en beveiligen
 
 - Met Microsoft 365 Business Premium krijgt u beveiliging op uw apparaten, beveiliging tegen onlinerisico's en beveiliging tegen onbedoeld gegevensverlies. U ontvangt ook Windows Defender, BitLocker en automatische updates voor Windows 10 Pro- en Office-apps.
 - U kunt Meervoudige verificatie (MFA), e-mailversleuteling, malwarebeveiliging en ransomware-beveiliging instellen om onbevoegde toegang tot apparaten en gegevens te voorkomen.
-- U kunt uw waardevolle werkgegevens beschermen die lokaal zijn opgeslagen op uw pc, in SharePoint of OneDrive voor Bedrijven, of op uw mobiele apparaat. MDM (Mobile Device Management) voor Microsoft 365 helpt u bij het beveiligen en beheren van uw gebruikers&#39; mobiele apparaten zoals iPhones, iPads, Android-telefoons en Windows-telefoons. Met MDM kunt u beveiligingsbeleid voor apparaten maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatrapporten weergeven.
+- U kunt uw waardevolle werkgegevens beschermen die lokaal zijn opgeslagen op uw pc, in SharePoint of OneDrive voor Bedrijven, of op uw mobiele apparaat. MDM (Mobile Device Management) voor Microsoft 365 helpt u bij het beveiligen en beheren van uw gebruikers&#39; mobiele apparaten zoals iPhones, iPads, Android-telefoons en Windows Phones. Met MDM kunt u beveiligingsbeleid voor apparaten maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatrapporten weergeven.
 
 ## <a name="6-upgrade-your-pcs-to-windows-10-pro"></a>6. Uw pc's upgraden naar Windows 10 Pro
 
@@ -99,14 +97,14 @@ Wanneer u een cloudabonnement voor uw bedrijf kiest, kunt u kiezen welke functie
 ## <a name="8-set-up-and-use-office-apps"></a>8. Office-apps instellen en gebruiken
 
 - Gebruik alle Office-apps die voor u beschikbaar zijn, zoals Word, Excel en PowerPoint. Als de&#39;nog niet is geïnstalleerd, kunt u het eenvoudig installeren vanaf de [website van Microsoft Office.](https://www.office.com/)
-- Een van de eerste dingen die&#39;doen, is Outlook de eerste keer openen. U&#39;e-mailadres en wachtwoord voor Microsoft 365 invoeren en direct toegang hebben tot uw e-mail, agenda en contactpersonen.
+- Een van de eerste dingen die&#39;doen, is Outlook de eerste keer openen. U&#39;e-mailadres en wachtwoord van Microsoft 365 invoeren en direct toegang hebben tot uw e-mail, agenda en contactpersonen.
 - Daarnaast kunt u Microsoft Teams, Word, Excel, PowerPoint en de rest van de Office-apps openen. De eerste keer dat u elke app opent, wordt u mogelijk gevraagd om uw e-mailadres en wachtwoord.
 
 ## <a name="9-migrate-old-email-and-files"></a>9. Oude e-mail en bestanden migreren
 
 - Op een bepaald moment&#39;u niet alleen uw oude e-mail, agenda en contactpersonen, maar ook zakelijke documenten en andere bestanden importeren in Microsoft 365 Business Premium.
 - Voor e-mail kunt u dit in Outlook doen door de oude e-mail te exporteren als een PST-bericht en vervolgens dat PST-bericht te importeren in het nieuwe e-mailaccount. Herhaal dit vervolgens op andere computers. U kunt ook een partner gebruiken om te helpen bij deze stap.
-- Voor zakelijke documenten kunt u uw bestanden slepen en neerzetten in OneDrive voor Bedrijven. In het geval van veelgebruikte of gedeelde zakelijke bestanden kopieert u deze naar SharePoint.
+- Voor zakelijke documenten kunt u bestanden slepen en neerzetten in OneDrive voor Bedrijven. Als het gaat om algemene of gedeelde zakelijke bestanden, kopieert u deze naar SharePoint.
 
 ## <a name="10-set-up-your-phones"></a>10. Uw telefoons instellen
 

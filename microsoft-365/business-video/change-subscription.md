@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over het verplaatsen van gebruikers naar een ander abonnement.
-ms.openlocfilehash: b3b82dcf029395dbbe49d0e0ea87f87f4494b4f0
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 158201eb4bcdf7e4b7451c1811dcc68692f341ff
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927416"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422961"
 ---
 # <a name="move-users-to-different-subscriptions"></a>Gebruikers verplaatsen naar verschillende abonnementen
 
@@ -42,7 +40,7 @@ Wanneer uw gebruikers van rol veranderen, hebben ze mogelijk functies nodig die 
 
 1. Selecteer in het Microsoft 365-beheercentrum in het linkernavigatiedeelvenster **Facturering** en vervolgens **Services aanschaffen.**
 1. Kies het abonnement dat u wilt toevoegen en selecteer Vervolgens **Kopen.**
-1. Kies hoe u wilt betalen en het aantal licenties dat u nodig hebt. Selecteer **vervolgens Nu betalen.**
+1. Kies hoe u wilt betalen en het aantal licenties dat u nodig hebt en selecteer **Nu betalen.**
 1. Controleer uw bestelling en kies vervolgens **Volgende.**
 1. Bevestig uw totaal en selecteer **Bestelling plaatsen.**
 

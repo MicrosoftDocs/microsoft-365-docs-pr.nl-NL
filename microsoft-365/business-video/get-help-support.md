@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lees hoe u help en ondersteuning voor beheerders kunt krijgen in Microsoft 365 Business Premium.
-ms.openlocfilehash: bcfe140ec87b50048db570ad4efe4575135b3191
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Lees hoe u hulp of ondersteuning voor beheerders kunt krijgen in Microsoft 365 Business Premium.
+ms.openlocfilehash: 852b931f4710ad4117560485002ebe10ef97d3ad
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927164"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422577"
 ---
 # <a name="get-help-or-support"></a>Help of ondersteuning krijgen
 
@@ -41,9 +39,9 @@ Bent u geen beheerder? Probeer [Microsoft-ondersteuning](https://go.microsoft.co
 - **In de Verenigde Staten belt u 1 800 865 9408.**
 - **In Australië belt u 1 800 197 503.**
 - **In Canada belt u 1 800 865 9408.**
-- **In het Verenigd Koninkrijk belt u met 0800 032 6417.**
+- In het Verenigd Koninkrijk belt u **met 0800 032 6417.**
 
-Ondersteuning voor facturering is beschikbaar in het Engels van 9.00 tot 17.00 uur (in Australië), van maandag t/m vrijdag van 9.00 tot 18.00 uur.
+Ondersteuning voor facturering is beschikbaar in het Engels van 9.00 tot 17.00 uur (in Australië), van maandag t/m vrijdag van 9.00 tot 17.00 uur.
 Technische ondersteuning is beschikbaar in het Engels, 24 uur per dag, 7 dagen per week.
 
 Als u het telefoonnummer voor ondersteuning voor Microsoft 365 of Microsoft 365 Business Premium wilt vinden voor uw land of regio, gaat u naar Contact opnemen met ondersteuning [voor zakelijke producten.](https://support.microsoft.com/office/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

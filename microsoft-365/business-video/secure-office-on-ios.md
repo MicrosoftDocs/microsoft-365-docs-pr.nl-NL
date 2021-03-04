@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Informatie over het beveiligen van Office-apps in iOS met Microsoft 365 Business Premium.
-ms.openlocfilehash: fd7fdd32500f9a2362ac29059abe9424d045c206
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Meer informatie over het beveiligen van Office-apps in iOS met Microsoft 365 Business Premium.
+ms.openlocfilehash: 197041a4eb9ada65f4b6046d93f2a856cbdfb40d
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928027"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422109"
 ---
 # <a name="secure-office-apps-on-ios"></a>Office-apps voor iOS beveiligen
 
@@ -46,8 +44,8 @@ U kunt een toegangsbeleid voor gebruikers instellen, zodat mobiele gebruikers ee
     - **Werkbestanden beveiligen bij verlies of diefstal van apparaten**
     - **Werkbestanden versleutelen**
 
-1. Selecteer **onder Bestanden in deze apps beveiligd** de Office-apps die u wilt beveiligen op mobiele apparaten.
-1. Onder **Wie krijgen deze instellingen?** zijn alle gebruikers standaard  geselecteerd, maar u kunt Wijzigen kiezen om eventuele beveiligingsgroepen te selecteren die u hebt gemaakt.
+1. Selecteer **onder Bestanden in deze apps de** Office-apps die u wilt beveiligen op mobiele apparaten.
+1. Onder **Wie krijgen deze instellingen?** zijn alle gebruikers standaard  geselecteerd, maar u kunt Wijzigen kiezen om beveiligingsgroepen te selecteren die u hebt gemaakt.
 1. Kies Toevoegen om het maken van het beleid **te voltooien.**
 1. Kies Sluiten **op de** pagina Beleid **toevoegen.**
 1. Controleer op de startpagina van het beheercentrum  of het nieuwe beleid is toegevoegd door Beleid te kiezen en het beleid te controleren **op** de pagina Beleid.

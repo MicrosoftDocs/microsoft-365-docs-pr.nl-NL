@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d58292f658446259bfab5b1b55c8b462d081421c
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 51a6bc33778248a69e533d9e2077365a63b97e30
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080621"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50424129"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Aangepaste detectieregels maken en beheren
 
@@ -43,7 +43,7 @@ Als u aangepaste detecties wilt beheren, moet u een van de volgende rollen toege
 
 - **Beveiligingsbeheerder:** gebruikers met deze [Azure Active Directory-rol](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen beveiligingsinstellingen beheren in het Microsoft 365-beveiligingscentrum en andere portals en services.
 
-- **Beveiligingsoperator:** gebruikers met deze [Azure Active Directory-rol](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen waarschuwingen beheren en globale alleen-lezentoegang hebben tot beveiligingsfuncties, inclusief alle informatie in het Microsoft 365-beveiligingscentrum. Deze rol is alleen voldoende voor het beheren van aangepaste detecties als toegangsbeheer op basis van rollen is uitgeschakeld in Microsoft Defender for Endpoint. Als u RBAC hebt geconfigureerd,  moet u ook de machtiging Beveiligingsinstellingen beheren voor Defender voor eindpunt hebben.
+- **Beveiligingsoperator:** gebruikers met deze [Azure Active Directory-rol](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen waarschuwingen beheren en globale alleen-lezentoegang hebben tot beveiligingsfuncties, inclusief alle informatie in het Microsoft 365-beveiligingscentrum. Deze rol is alleen voldoende voor het beheren van aangepaste detecties als toegangsbeheer op basis van rollen is uitgeschakeld in Microsoft Defender voor eindpunt. Als u RBAC hebt geconfigureerd,  moet u ook de machtiging Beveiligingsinstellingen beheren voor Defender voor eindpunt hebben.
 
 Een globale beheerder kan het volgende doen om vereiste **machtigingen te** beheren:
 
@@ -87,7 +87,7 @@ Als u een aangepaste detectieregel wilt maken, moet de query de volgende kolomme
 
 Eenvoudige query's, zoals query's die de operator of operator niet gebruiken om resultaten aan te passen of samen te gebruiken, retourneren meestal `project` `summarize` deze gemeenschappelijke kolommen.
 
-Er zijn verschillende manieren om ervoor te zorgen dat complexere query's deze kolommen retourneren. Als u bijvoorbeeld de voorkeur geeft aan aggregeren en tellen per entiteit onder een kolom, kunt u deze nog steeds retourneren van de meest recente gebeurtenis met betrekking tot `DeviceId` `Timestamp` elke unieke `ReportId` `DeviceId` gebeurtenis.
+Er zijn verschillende manieren om ervoor te zorgen dat complexere query's deze kolommen retourneren. Als u bijvoorbeeld de voorkeur geeft aan aggregeren en tellen per entiteit onder een kolom, kunt u nog steeds terugkeren en deze verkrijgen van de meest recente gebeurtenis waarbij elke unieke gebeurtenis `DeviceId` `Timestamp` betrokken `ReportId` `DeviceId` is.
 
 Met de onderstaande voorbeeldquery wordt het aantal unieke apparaten () met antivirusdetecties geteld en wordt dit aantal gebruikt om alleen apparaten met meer dan `DeviceId` vijf detecties te vinden. Voor het retourneren van de meest recente gegevens en de bijbehorende `Timestamp` functie wordt de operator met de functie `ReportId` `summarize` `arg_max` gebruikt.
 
@@ -126,10 +126,10 @@ Wanneer u een nieuwe regel op slaan of bewerken, wordt deze uitgevoerd en worden
 >[!TIP]
 > De tijdfilters in de query laten overeenkomen met de duur van het terugkijken. Resultaten buiten de opgeslagen duur worden genegeerd.  
 
-Selecteer de frequentie die overeenkomt met hoe nauw u detecties wilt controleren. Houd rekening met de capaciteit van uw organisatie om te reageren op de waarschuwingen.
+Selecteer de frequentie die overeenkomt met hoe nauw u detecties wilt controleren. Denk na over de capaciteit van uw organisatie om te reageren op de waarschuwingen.
 
 ### <a name="3-choose-the-impacted-entities"></a>3. Kies de beïnvloede entiteiten.
-Identificeer de kolommen in de queryresultaten waarin u verwacht de belangrijkste betrokken of beïnvloede entiteit te vinden. Een query kan bijvoorbeeld adressen van afzender ( `SenderFromAddress` of ) en ontvanger `SenderMailFromAddress` `RecipientEmailAddress` () retourneren. Door te bepalen welke van deze kolommen de belangrijkste beïnvloede entiteit vertegenwoordigt, kan de service relevante waarschuwingen samenvoegen, incidenten correleren en actie op basis van doelreacties uitvoeren.
+Identificeer de kolommen in de queryresultaten waarin u verwacht de belangrijkste betrokken of beïnvloede entiteit te vinden. Een query kan bijvoorbeeld adressen van afzender ( `SenderFromAddress` of ) en ontvanger `SenderMailFromAddress` `RecipientEmailAddress` () retourneren. Door te bepalen welke van deze kolommen de belangrijkste beïnvloede entiteit vertegenwoordigt, kan de service relevante waarschuwingen, correleren incidenten en actie voor doelreacties samenvoegen.
 
 U kunt slechts één kolom selecteren voor elk entiteitstype (postvak, gebruiker of apparaat). Kolommen die niet door de query worden geretourneerd, kunnen niet worden geselecteerd.
 
@@ -145,7 +145,7 @@ Deze acties worden toegepast op apparaten in de `DeviceId` kolom van de queryres
 - **Uitvoer van apps beperken:** hiermee stelt u beperkingen in voor het apparaat, zodat alleen bestanden worden uitgevoerd die zijn ondertekend met een door Microsoft uitgegeven certificaat. [Meer informatie over app-beperkingen met Microsoft Defender voor eindpunt](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
 
 #### <a name="actions-on-files"></a>Acties op bestanden
-Als deze optie is geselecteerd, kunt u de actie **Quarantainebestand** toepassen op bestanden in `SHA1` de , of kolom van de `InitiatingProcessSHA1` `SHA256` `InitiatingProcessSHA256` queryresultaten. Met deze actie wordt het bestand van de huidige locatie verwijderd en wordt een kopie in quarantaine geplaatst.
+Als deze optie is geselecteerd, kunt u de actie **Quarantainebestand** toepassen op bestanden in de `SHA1` , of kolom van de `InitiatingProcessSHA1` `SHA256` `InitiatingProcessSHA256` queryresultaten. Met deze actie wordt het bestand van de huidige locatie verwijderd en wordt een kopie in quarantaine geplaatst.
 
 #### <a name="actions-on-users"></a>Acties voor gebruikers
 Als deze optie **is** geselecteerd, wordt de actie Gebruiker markeren als gecompromitteerd uitgevoerd op gebruikers in de kolom of in de `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` queryresultaten. Met deze actie stelt u het risiconiveau van gebruikers in op 'hoog' in Azure Active Directory, wat het bijbehorende [identiteitsbeveiligingsbeleid activeert.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
@@ -165,6 +165,12 @@ Alleen gegevens van apparaten binnen het bereik worden opgevraagd. Ook worden er
 
 ### <a name="6-review-and-turn-on-the-rule"></a>6. Controleer de regel en schakel deze in.
 Nadat u de regel heeft beoordeeld, **selecteert u Maken om** deze op te slaan. De aangepaste detectieregel wordt onmiddellijk uitgevoerd. Het wordt opnieuw uitgevoerd op basis van de geconfigureerde frequentie voor het controleren op overeenkomsten, het genereren van waarschuwingen en het uitvoeren van reactieacties.
+
+
+>[!Important] 
+>Aangepaste detecties moeten regelmatig worden gecontroleerd op efficiëntie en effectiviteit. Om ervoor te zorgen dat u detecties maakt die echte waarschuwingen activeren, neemt u de tijd om uw bestaande aangepaste detecties te controleren door de stappen te volgen in Bestaande regels voor aangepaste [detectie beheren.](#manage-existing-custom-detection-rules) <br>  
+U houdt controle over de ruimheid of specificiteit van uw aangepaste detecties, zodat eventuele foutmeldingen die worden gegenereerd door aangepaste detecties aangeven dat bepaalde parameters van de regels moeten worden gewijzigd.
+
 
 ## <a name="manage-existing-custom-detection-rules"></a>Bestaande regels voor aangepaste detectie beheren
 U kunt de lijst met bestaande regels voor aangepaste detectie bekijken, de vorige versies controleren en de waarschuwingen bekijken die zijn geactiveerd. U kunt ook een regel op aanvraag uitvoeren en wijzigen.

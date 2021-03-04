@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over het deelnemen aan een team als gast in Microsoft Teams.
-ms.openlocfilehash: 31d5acb1a0294a54bcb5b5c7c74d76dbba7124f7
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8ed7b8c92fa9fbe22c8a4f74b89916266a4af46f
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925024"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422481"
 ---
 # <a name="join-a-team-as-a-guest"></a>Deelnemen aan een team als gast
 
@@ -35,7 +33,7 @@ ms.locfileid: "49925024"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-Als u een Microsoft Teams-uitnodiging ontvangt om deel te nemen aan een team, moet u een aantal stappen ondernemen om de uitnodiging te accepteren.
+Als u een Microsoft Teams-uitnodiging ontvangt om deel te nemen aan een team, zijn er een paar stappen om de uitnodiging te accepteren.
 
 1. Open de e-mailuitnodiging en **selecteer Microsoft Teams openen.** Als u de uitnodiging niet ziet, controleert u de map Ongewenste e-mail of Spam.
   1. Als uw e-mailadres nog niet eerder is gebruikt voor het maken van een Microsoft-account, moet u er een maken.
@@ -43,7 +41,7 @@ Als u een Microsoft Teams-uitnodiging ontvangt om deel te nemen aan een team, mo
      Selecteer in **het dialoogvenster Account** maken de optie **Volgende,** maak een wachtwoord en selecteer **Volgende.**
   1. Als u uw e-mailadres wilt verifiëren, opent u de verificatie-e-mail en kopieert u de beveiligingscode.
   1. Voer uw beveiligingscode  in het dialoogvenster E-mail controleren in, selecteer **Volgende,** voer de CAPTCHA in bij Voer de tekens in die u regel ziet, selecteer **Volgende** en **vervolgens Accepteren.** 
-1. Als u de Microsoft Teams-app niet wilt downloaden, selecteert u In plaats **daarvan De web-app gebruiken.**
+1. Als u de Microsoft Teams-app niet wilt downloaden, selecteert u in plaats **daarvan De web-app gebruiken.**
 1. In de Teams-web-app kunt u berichten bekijken of beantwoorden, of uw eigen berichten maken, en het tabblad Bestanden selecteren om teamdocumenten weer te geven of te bewerken. 
 
     Als u de Teams-app al in uw organisatie gebruikt en als gast lid wordt van een team, is het veel eenvoudiger.

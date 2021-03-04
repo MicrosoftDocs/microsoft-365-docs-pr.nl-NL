@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over het plannen van een gebeurtenis met Microsoft Planner.
-ms.openlocfilehash: d978232dffaede882e81a491b4d927183781aa0f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 11453ae83f636e20cd67cc7a4202e8d6995e09a1
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928091"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422301"
 ---
 # <a name="use-microsoft-planner-to-plan-an-event"></a>Microsoft Planner gebruiken om een gebeurtenis te plannen
 
@@ -66,4 +64,4 @@ Gebruik  **grafieken**  en  **bordweergave**  om de voortgang voor elk teamlid e
 - Selecteer  **Grafieken** en vervolgens **Groeperen op** en **ten**  slotte Einddatum om te zien welke taak als volgende moet worden klaar.
 - Selecteer  **Bord** en vervolgens **Groep op** en ten slotte Voortgang **om**  taken te sorteren op voortgang.
 
-**Opmerking:**  Taken worden ingedeeld op  **Niet gestart,**  **Wordt** uitgevoerd en  **Voltooid,**  zodat u weet wanneer u klaar bent om uw product te starten.
+**Opmerking:**  Taken worden ingedeeld op **Niet gestart,** **Wordt** uitgevoerd en Voltooid, zodat u weet wanneer u klaar bent om uw product te starten. 

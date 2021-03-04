@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over het instellen van meervoudige verificatie op uw telefoon.
-ms.openlocfilehash: b682ec58c73d90b0936c107ab8fef1de5aff867d
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: a41f8b99dfbfc25af0815450b42cb83884e3246e
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925932"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422049"
 ---
 # <a name="set-up-multi-factor-authentication-on-your-phone"></a>Meervoudige verificatie instellen op uw telefoon
 

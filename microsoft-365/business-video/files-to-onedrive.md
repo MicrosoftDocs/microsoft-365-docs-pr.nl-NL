@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over het verplaatsen van uw bestanden naar OneDrive.
-ms.openlocfilehash: 5a708ba797dbb735c71f181fc287fb831004112b
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f5795ba907e2ac88136887410b5b713bd7d56d81
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927212"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422721"
 ---
 # <a name="move-files-to-onedrive"></a>Bestanden verplaatsen naar OneDrive
 
@@ -43,9 +41,9 @@ Nadat u zich hebt registreren voor Microsoft 365 Business Premium,&#39;uw bestaa
 4. Selecteer **Aanmelden en** selecteer vervolgens **Volgende.**
 5. Doors werk de korte zelfstudie en selecteer **vervolgens Mijn OneDrive-map openen.** Als u ook de persoonlijke versie van OneDrive gebruikt,&#39;deze hier zien.
 6. Ga in Verkenner naar de bestanden die u wilt kopiëren.
-7. Selecteer de bestanden, sleep ze en zet ze neer in uw OneDrive-map. Blauwe cirkelvormige pijlen naast uw bestanden betekenen dat&#39;worden gesynchroniseerd met de cloud. Wanneer ze&#39;klaar zijn met synchroniseren, worden groene vinkjes weergegeven.
+7. Selecteer de bestanden en sleep ze naar uw OneDrive-map. Blauwe cirkelvormige pijlen naast uw bestanden betekenen dat&#39;synchroniseren met de cloud. Wanneer ze&#39;klaar zijn met synchroniseren, worden groene vinkjes weergegeven.
 
 U kunt niet alleen lokaal aan uw OneDrive-bestanden werken, maar ze ook openen vanuit uw webbrowser:
 
-1. Meld u in uw webbrowser aan bij office.com met uw werk-e-mail.
-2. Kies **OneDrive.** Al uw bestanden worden weergegeven en u kunt er in de browser vanaf elke computer mee werken.
+1. Meld u in uw webbrowser aan bij office.com e-mail van uw werk.
+2. Kies **OneDrive.** Al uw bestanden worden weergegeven en u kunt er in de browser vanaf elke computer aan werken.

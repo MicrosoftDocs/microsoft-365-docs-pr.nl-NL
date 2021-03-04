@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over het beheren van apparaatbeleid voor Windows 10 Pro met Microsoft 365 Business Premium.
-ms.openlocfilehash: f42c175543ae16ae645c17997b20ed67aa5d705c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8d3e5107c0b2dfe3a84f31b98d9bd3ff8f7c5e4f
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926004"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422121"
 ---
 # <a name="manage-windows-10-pro-device-policies"></a>Apparaatbeleid voor Windows 10 Pro beheren
 
@@ -49,5 +47,5 @@ U kunt Microsoft 365 Business gebruiken om ervoor te zorgen dat Windows Defender
 1. Controleer op de startpagina van het beheercentrum  of het nieuwe beleid is toegevoegd door Beleid te kiezen en het beleid te controleren **op** de pagina Beleid.
 1. Als u wilt controleren of het beleid van kracht is, gaat u op het Windows 10-apparaat van een gebruiker naar Windows Update, kiest u Geavanceerde opties en controleert u of de instellingen grijs worden weergegeven.
 
-    Klik vervolgens op **Kiezen hoe updates** worden afgeleverd en controleer of de instellingen grijs worden weergegeven en het volgende bericht wordt weergegeven: Sommige instellingen zijn verborgen of worden beheerd door uw **organisatie.**
+    Klik vervolgens op **Kiezen hoe updates** worden afgeleverd en controleer of de instellingen grijs worden weergegeven en of het volgende bericht wordt weergegeven: Sommige instellingen zijn verborgen of worden beheerd door uw **organisatie.**
 

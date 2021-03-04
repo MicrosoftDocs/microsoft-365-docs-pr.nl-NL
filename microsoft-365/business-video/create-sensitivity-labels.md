@@ -9,36 +9,34 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over het maken en beheren van gevoeligheidslabels.
-ms.openlocfilehash: c8d528e7a742ca60345def415ce47b29b371c738
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: e1e7d030065ab5146056d36f396eb5ddd44f360e
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927320"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422781"
 ---
 # <a name="protect-documents-with-sensitivity-labels"></a>Documenten beveiligen met gevoeligheidslabels
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3VRGT?autoplay=false]
 
-Met gevoeligheidslabels kunt u inhoud classificeren en beveiligen die gevoelig is voor uw bedrijf.
+Met gevoeligheidslabels kunt u inhoud classificeren en beschermen die gevoelig is voor uw bedrijf.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Selecteer in [het beheercentrum](https://admin.microsoft.com)het **compliance-beheercentrum.**
+1. Selecteer het [compliancebeheerderscentrum](https://admin.microsoft.com)in **het** beheercentrum.
 1. Selecteer **Classificatie** en vervolgens **Gevoeligheidslabels.**
 1. Selecteer **Een label maken** en selecteer Ja wanneer de waarschuwing wordt **weergegeven.**
 1. Voer een **labelnaam,** **knopinfo** en beschrijving **in.** Selecteer **Volgende**.
@@ -48,15 +46,15 @@ Met gevoeligheidslabels kunt u inhoud classificeren en beveiligen die gevoelig i
 1. Selecteer **Machtigingen kiezen op basis van vooraf ingestelde of aangepaste machtigingen.**
 1. Gebruik de vervolgkeuzelijst om vooraf ingestelde machtigingen te selecteren, zoals **Revisor** of **Viewer,** of selecteer **Aangepaste** machtigingen. Als u Aangepast **hebt gekozen,** selecteert u de machtigingen in de lijst. Selecteer **Opslaan,** **Opslaan** en vervolgens **Volgende.**
 1. Schakel **Inhoudsmarkering** in en kies de markeringen die u wilt gebruiken.
-1. Selecteer Tekst aanpassen voor elke markering **die u kiest.** Voer de tekst in die u wilt weergegeven in het document en stel de opties voor lettertype en indeling in. Selecteer **Opslaan** en herhaal dit voor eventuele extra markeringen. Selecteer **Volgende**.
+1. Selecteer Tekst aanpassen voor elke markering die **u kiest.** Voer de tekst in die u wilt weergegeven in het document en stel de opties voor lettertype en indeling in. Selecteer **Opslaan** en herhaal dit voor eventuele extra markeringen. Selecteer **Volgende**.
 1. Schakel desgewenst Preventie van **gegevensverlies van Eindpunt in.** Selecteer **Volgende**.
 1. Schakel desgewenst Automatische **labeling in.** Voeg een voorwaarde toe. Selecteer bijvoorbeeld onder **Inhoud opsporen die bevat** de optie Voorwaarde **toevoegen.** Voer de voorwaarde in; Voeg bijvoorbeeld een voorwaarde toe als paspoort, social security of andere gevoelige informatie wordt gedetecteerd, het label wordt toegevoegd. Selecteer **Volgende**.
-1. Controleer uw instellingen en selecteer **Maken.** Uw label is gemaakt. Herhaal deze procedure voor eventuele extra labels.
+1. Controleer de instellingen en selecteer **Maken.** Uw label is gemaakt. Herhaal deze procedure voor eventuele andere labels.
 1. Labels worden in Office-apps standaard weergegeven in deze volgorde: **Vertrouwelijk,** **Intern** en **Openbaar.** Als u de volgorde wilt wijzigen, selecteert u voor elk label Meer acties **(het** beletselteken) en verplaatst u het label omhoog of omlaag. Machtigingen worden meestal weergegeven van het laagste naar het hoogste machtigingsniveau.
 1. Als u een sublabel wilt toevoegen aan een label, selecteert u **Meer** acties en vervolgens **Subniveau toevoegen.**
 1. Wanneer u klaar bent, **kiest u Labels publiceren,** **kiest u labels om te publiceren** en vervolgens **Toevoegen.** Selecteer de labels die u wilt publiceren en selecteer vervolgens **Toevoegen,** **Klaar** en Vervolgens **Volgende.**
 1. Het nieuwe labelbeleid wordt standaard op iedereen toegepast. Als u wilt beperken op wie het beleid wordt toegepast, selecteert u Gebruikers of groepen **kiezen** en vervolgens **Toevoegen.** Selecteer op wie u het beleid wilt toepassen en selecteer vervolgens **Toevoegen,** **Klaar** en Vervolgens **Volgende.**
-1. Als u een standaardlabel voor documenten en e-mailberichten wilt, selecteert u het wante label in de vervolgkeuzelijst. Controleer de resterende instellingen, pas deze naar behoefte aan en selecteer **vervolgens Volgende.**
+1. Als u een standaardlabel voor documenten en e-mailberichten wilt, selecteert u het wante label in de vervolgkeuzelijst. Controleer de overige instellingen, pas deze naar behoefte aan en selecteer **vervolgens Volgende.**
 1. Voer een **naam** en **beschrijving voor** uw beleid in. Selecteer **Volgende**.
 1. Controleer de instellingen en selecteer vervolgens **Publiceren.**
 

@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over het instellen van beveiliging tegen phishing.
-ms.openlocfilehash: bcb6b8bac316b4b74c505656cb9a93e7a87e0830
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8cef8f916a8a3e2b27dd7f76ddecd921d59ca0c4
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927872"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422001"
 ---
 # <a name="set-up-anti-phishing"></a>Beleid tegen phishing instellen
 
@@ -45,8 +43,8 @@ Phishing is een kwaadaardige aanval waarbij het lijkt alsof een e-mailbericht af
 1. Ga naar **Acties,** open de vervolgkeuzekeuzen Als e-mail wordt verzonden door een **gemitmiteerde** gebruiker en kies de 3D-actie.
 
     Open de vervolgkeuzekeuzen **Als e-mail wordt verzonden door een gemitmiteerd** domein en kies de 3D-actie die u wilt gebruiken.
-1. Selecteer **Veiligheidstips voor imitatie in turn on.** Kies of tips aan gebruikers moeten worden gegeven wanneer het systeem imitatie gebruikers, domeinen of ongebruikelijke tekens detecteert. Klik op **Opslaan**.
-1. Selecteer **Postvakintelligentie** en controleer of deze is ingeschakeld. Hierdoor wordt uw e-mail efficiënter door gebruikspatronen te leren.
+1. Selecteer **Veiligheidstips voor imitatie in turn on.** Kies of tips moeten worden gegeven aan gebruikers wanneer het systeem imitatie-gebruikers, domeinen of ongebruikelijke tekens detecteert. Kies **Opslaan**.
+1. Selecteer **Postvakinformatie** en controleer of deze is ingeschakeld. Hierdoor kan uw e-mail efficiënter worden door gebruikspatronen te leren.
 1. Kies **Vertrouwde afzenders en domeinen toevoegen.** Hier kunt u e-mailadressen of domeinen toevoegen die niet moeten worden geclassificeerd als een imitatie.
 1. Kies **Uw instellingen controleren,** controleer of alles juist is, selecteer **Opslaan** en vervolgens **Sluiten.**
 

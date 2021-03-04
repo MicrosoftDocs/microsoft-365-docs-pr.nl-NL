@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over Microsoft Bookings.
-ms.openlocfilehash: 67ed948793b4d43f92b376d7e299564f5d734550
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 681667d8f399c0bf5ba1b84ee67352a30d10d78d
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928124"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422337"
 ---
 # <a name="overview-of-microsoft-bookings"></a>Overzicht van Microsoft Bookings
 

@@ -11,7 +11,7 @@ ms.pagetype: security
 f1.keywords:
 - NOCSH
 ms.author: maccruz
-author: maccruz
+author: schmurky
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 5edb6205e0392441163060aa7181ca031e1fbb0d
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 445e6f767cc2269315a0b280df2f4deefa2faa08
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50416786"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423973"
 ---
 # <a name="devicetvmsoftwareinventory"></a>DeviceTvmSoftwareInventory
 
@@ -57,7 +57,7 @@ Zie het geavanceerde zoekschema voor informatie over andere tabellen in het geav
 | `SoftwareName` | tekenreeks | Naam van het softwareproduct |
 | `SoftwareVersion` | tekenreeks | Versienummer van het softwareproduct |
 | `EndOfSupportStatus` | tekenreeks | Geeft de levenscyclus van het softwareproduct aan ten opzichte van de opgegeven einddatum (EOS) of het einde van de levensduur (EOL) |
-| `EndOfSupportDate` | tekenreeks | Einde van de ondersteuning (EOS) of einddatum (EOL) van het softwareproduct |
+| `EndOfSupportDate` | tekenreeks | Einde van ondersteuning (EOS) of einddatum (EOL) van het softwareproduct |
 
 
 

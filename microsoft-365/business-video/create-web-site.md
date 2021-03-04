@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Informatie over het maken van een GoDaddy-website voor uw bedrijf.
-ms.openlocfilehash: 44f1a82706ff2dc025fc9dcc6f74a71dc0a987e5
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 64b8b7bacaf218f95a0fb89d03eb280f755f1f2f
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927332"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422733"
 ---
 # <a name="create-a-website"></a>Een website maken
 
@@ -35,7 +33,7 @@ ms.locfileid: "49927332"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-Microsoft 365 bevat geen openbare website voor uw bedrijf. Als u er een wilt instellen, kunt u overwegen een webhostingbedrijf zoals GoDaddy, Wix of WordPress te gebruiken.
+Microsoft 365 bevat geen openbare website voor uw bedrijf. Als u er een wilt instellen, kunt u overwegen om een webhostingbedrijf zoals GoDaddy, Wix of WordPress te gebruiken.
 
 1. Zoek naar een webhostingprovider waar u uw website kunt maken.
 

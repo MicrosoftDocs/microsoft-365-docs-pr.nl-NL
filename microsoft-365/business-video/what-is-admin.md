@@ -9,33 +9,31 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over de beheerdersrollen in Microsoft 365 voor Bedrijven.
-ms.openlocfilehash: 3f532080dfa8b492700e258ab109a04962820557
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 87d9db451ca38bc8d8045b0bb257461e8f8c4647
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927740"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421655"
 ---
 # <a name="what-is-a-microsoft-365-admin"></a>Wat is een Microsoft 365-beheerder?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0?autoplay=false]
 
-In elk Abonnement op Microsoft 365 Business moet er ten minste één beheerdersaccount zijn. De beheerder beheert de service, gebruikersaccounts en apparaten. Als u de persoon bent die zich heeft aangemeld voor het abonnement, bent u de globale beheerder van uw abonnement. U kunt ook een beheerder worden als u een andere beheerder bent.
+In elk abonnement op Microsoft 365 Business moet er ten minste één beheerdersaccount zijn. De beheerder beheert de service, gebruikersaccounts en apparaten. Als u de persoon bent die zich heeft aangemeld voor het abonnement, bent u de globale beheerder van uw abonnement. U kunt ook een beheerder worden als u een andere beheerder bent.
 
-Hoewel u altijd ten minste één beheerdersrol voor uw abonnement nodig hebt, kan dit een beveiligingsrisico zijn als het beheerdersaccount wordt gehackt door een externe partij. U wordt aangeraden de beheerdersrol alleen toe te wijzen aan degenen die deze echt nodig hebben en de gebruikersrol toe te wijzen aan de meeste personen.
+Hoewel u altijd ten minste één beheerdersrol voor uw abonnement nodig hebt, kan dit een beveiligingsrisico zijn als het beheerdersaccount door een externe partij wordt gehackt. U wordt aangeraden de beheerdersrol alleen toe te wijzen aan degenen die deze echt nodig hebben en de gebruikersrol toe te wijzen aan de meeste personen.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
@@ -48,7 +46,7 @@ U kunt als volgende manier een gebruikersrol wijzigen in een beheerdersrol:
 1. Selecteer in het linkernavigatiedeelvenster **Gebruikers** en vervolgens **Actieve gebruikers.**
 1. Selecteer de persoon die u beheerder wilt maken. De gegevens van de gebruiker worden weergegeven in het rechterdialoogvenster.
 1. Kies **Rollen beheren.**
-1. Schakel het **selectievakje Gebruiker (geen beheerderstoegang)** uit en selecteer vervolgens een van de beheerdersrollen. Als u meer wilt weten over een rol, beweegt u de muisaanwijzer over het uitroepteken (!) en leest u de knoptip. Als u de gebruiker dezelfde rol wilt geven als die van u, selecteert u **Globale beheerder.**
+1. Schakel het **selectievakje Gebruiker (geen beheerderstoegang)** uit en selecteer een van de beheerdersrollen. Als u meer wilt weten over een rol, beweegt u de muisaanwijzer over het uitroepteken (!) en leest u de knoptip. Als u de gebruiker dezelfde rol wilt geven als die van u, selecteert u **Globale beheerder.**
 1. Selecteer **Wijzigingen opslaan**.
 
 ### <a name="create-an-admin-account"></a>Een beheerdersaccount maken 

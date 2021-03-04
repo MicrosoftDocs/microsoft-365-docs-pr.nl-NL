@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Lees hoe u een Teams-vergadering met gasten kunt plannen.
-ms.openlocfilehash: 2da05fdd4bc10bb1cc0dea5cd769c4630787820c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8ac8ec610a60084b21809eef8c56d0619be4e43a
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926088"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422229"
 ---
 # <a name="schedule-a-teams-meeting-with-guests"></a>Een Teams-vergadering met gasten plannen
 
@@ -40,10 +38,10 @@ U kunt personen van buiten uw organisatie uitnodigen voor een vergadering zonder
 Met Microsoft Teams kunt u nieuwe teams maken wanneer u nieuwe projecten start of klanten toevoegt.
 
 1. Op het **tabblad Teams** selecteert u Deelnemen of een **team maken, Team** **maken,** Een **nieuw team** maken en vervolgens **Privé.**
-2. Voer een naam in voor uw team en een beschrijving en selecteer **Maken.**
+2. Voer een naam in voor uw team, een beschrijving en selecteer Vervolgens **Maken.**
 3. Voeg op de pagina **Leden** toevoegen interne leden toe door deze te zoeken en te selecteren. Voeg gastleden toe door hun e-mailadres in te voegen. Selecteer vervolgens **Toevoegen.**
 
-    Als u ziet  **dat er geen overeenkomsten zijn** gevonden, moet u delen van gasten inschakelen. Ga naar het Microsoft 365-beheercentrum, kies het **Teams-beheercentrum,** kies Instellingen voor de hele **organisatie,** Gasttoegang en schakel Gasttoegang **toestaan in Teams in.** Deze wijziging kan tot 24 uur duren.
+    Als u ziet  **dat er geen overeenkomsten zijn gevonden,** moet u het delen van gasten inschakelen. Ga naar het Microsoft 365-beheercentrum, kies het **Teams-beheercentrum,** kies Instellingen voor de hele **organisatie,** Gasttoegang en schakel Gasttoegang **in Teams toestaan in.** Deze wijziging kan tot 24 uur duren.
 
 1. Selecteer **Sluiten.** Uw gasten en leden ontvangen uitnodigingen voor het team.
 2. Voer in het kanaal Algemeen een begroeting in voor iedereen en selecteer **Verzenden.**

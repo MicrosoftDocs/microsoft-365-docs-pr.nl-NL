@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Help uw werknemers bij het instellen van Office-apps die ze krijgen met Microsoft 365 Business Premium.
-ms.openlocfilehash: 1715562a648af42bff07ab9a3e62647e386125cb
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: c336e12e05a0bb2f0967c7e7591913cbb2ce6742
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927248"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422757"
 ---
 # <a name="employee-quick-setup"></a>Snelle installatie voor werknemers
 
@@ -39,7 +37,7 @@ Bent u nieuw bij Microsoft 365 voor Bedrijven? :::image type="icon" source="../m
 ## <a name="1-sign-in-to-office"></a>1. Aanmelden bij Office
 
 1. Ga naar [Office.com](https://office.com) en kies **Aanmelden**.
-1. Typ uw e-mailadres en wachtwoord voor Microsoft 365 en meld u **aan.**
+1. Typ uw e-mailadres en wachtwoord voor Microsoft 365 en meld **u aan.**
 
 ## <a name="2-download-and-install-office-apps"></a>2. Office-apps downloaden en installeren
 
@@ -88,4 +86,4 @@ Bent u nieuw bij Microsoft 365 voor Bedrijven? :::image type="icon" source="../m
 - Of open Outlook op een iOS- of Android-apparaat en ga naar **Instellingen**.
 
     Kies **Account toevoegen** en dan **E-mailaccount toevoegen** en typ vervolgens uw e-mailadres en wachtwoord.
-- Kies op **een Windows Phone** **Instellingen,** **E-mail en accounts,** **Een account toevoegen** en vervolgens **Exchange.**
+- Kies op **een Windows Phone** **Instellingen,** **E-mail + accounts,** **Een account toevoegen** en vervolgens **Exchange.**
