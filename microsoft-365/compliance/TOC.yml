@@ -158,6 +158,8 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Vertrouwelijkheidslabels in Office-apps beheren
           href: sensitivity-labels-office-apps.md
+        - name: Cocreatie inschakelen voor documenten die versleuteld zijn met vertrouwelijkheidslabels (preview)
+          href: sensitivity-labels-coauthoring.md
     - name: Versleuteling
       items:
         - name: Informatie over versleuteling
